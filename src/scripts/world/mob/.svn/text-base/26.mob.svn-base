@@ -1,0 +1,318 @@
+#2600
+zansel shopkeeper~
+Zanzsel, the simple weapons shopkeeper~
+Zanzsel, the simple weapons shopkeeper is standing here behind a table.
+~
+   Zanzsel is a large man, like his father Theros Ironfeld.  He specializes in
+the crafting of and selling of simple weapons.  He has blond hair, long to his
+shoulders, blue eyes, and a somewhat tanned complexion.  His nose is blunt and
+his cheeks wide complimented by a large, masculine chin.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+4 20 7 30d100+151 1d8+0
+1000000 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2601
+Feldar martial weapons shopkeeper~
+Feldar, the Martial Weapons Shopkeeper~
+Feldar, the Martial Weapons Shopkeeper stands here behind a table.
+~
+   Feldar is thinner than his other Ironfeld family members but he makes up for
+it with a wiry build and energy level above and beyond the rest.  He has sandy
+blond hair cut close to the scalp and an equally short-trimmed moustache and
+beard.  His skin is pale compared to the others, though still holds a bit of a
+rustic brown tan.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+5 20 7 36d100+151 1d8+0
+1000000 0 42 3
+8 8 1
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2602
+Hilarie exotic weapons shopkeeper~
+Hilarie the exotic weapons shopkeeper~
+Hilarie the exotic weapons shopkeeper stands here behind a table.
+~
+   Hilarie is a somewhat attractive woman whose beauty is somewhat diminished by
+a rather manly shaped body with well muscled arms, chest, shoulders and legs.  
+All the same she does well to keep herself pretty, with a clean appearance and
+well-combed auburn hair.  Her eyes are a stark green that make many in the
+village reminded of Tika Majere.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+4 20 7 30d100+151 1d8+0
+1000000 0 42 3
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2603
+Jill~
+Jill the shield shopkeeper~
+Jill the shield shopkeeper stands here behind a table.
+~
+   Jill is the dark-haired version of her older sister, Hilarie.  She is not
+quite as muscled nor quite as pretty, but she is certainly more feminine in
+other areas and easily catches the eye of most nearby male shoppers.  She is
+dressed in dark pinks and violets with a large black apron covering her front.
+
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+4 20 7 30d100+151 1d8+0
+1000000 0 42 3
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2604
+Ander the light armor shopkeeper~
+Ander the light armor shopkeeper~
+Ander the light armor shopkeeper stands here behind a table.
+~
+   Ander is a thin man with wiry muscles and a dark complexion.  His skin is
+also rather dark bearing Ergothian descent, a branch of the family as a cousin
+of the other Ironfelds.  He is strikingly handsome and seems to do quite well
+with the ladies with his dark eyes and slightly pouting lips.  Still, he seems
+to be of good humour and only leaves a few jealous fellows in his wake, as most
+enjoy his good company.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+4 20 7 30d100+151 1d8+0
+1000000 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2605
+Danton medium armor shopkeeper~
+Danton, the medium armor shopkeeper~
+Danton, the medium armor shopkeeper, stands here behind a table.
+~
+   Danton is a rather unseeminlgy fellow, but is known throughout the village
+for his quick wit and good sense of humour.  He carries a few extra pounds
+around his waist but makes up for it with incredible physical strength that
+reminds many in the village of Caramon Majere.  He has rusty-red hair in an
+unkept mass of curls and waves and bright blue eyes.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+4 20 7 30d100+151 1d8+0
+1000000 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2606
+Masta~
+Masta, the heavy armor shopkeeper~
+Masta, the heavy armor shopkeeper, stands here behind a table.
+~
+   Masta is the eldest of the Ironfeld siblings and has served as something of a
+mother to the rest.  She is pretty though a little domineering.  Still she is
+well liked throughout the village for her willingness to help others.  She has
+dark brown curls and a beautiful smile with an almost olive-tanned skin.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+4 20 7 30d100+151 1d8+0
+1000000 0 42 3
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2607
+jander general store shopkeeper~
+Jander~
+Jander, the general store shopkeeper is here behind a table.
+~
+   Jander is a short, stocky man with dusty brown hair and a fine trimmed
+moustache.  His skin is dark but not enough to warrant him a full blooded
+Ergothian.  He seems a cheerful sort with a smile on his face and a tune
+whistling on his lips.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+6 20 4 84d100+152 1d8+0
+1000000 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2608
+galen sage~
+Galen the Sage~
+Galen the Sage, a moon elf in red robes, sits here at his desk.
+~
+   Galen is a rather strong looking elf of about middle years.  He wears a set
+of red robes trimmed with gold.  He also wears a set of golden glasses with very
+thin lens.  He always seems to be reading something though he looks up and
+acknowledges you as you enter, a faint smile on his face.  
+~
+abdenopqrAF 0 0 0 k 0 0 0 -500
+20 20 -10 84d100+151 1d8+0
+1000 0 57 3
+8 8 1
+E
+BareHandAttack: 12
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2609
+theoren post master postmaster~
+Theoren the Post Master~
+Theoren the Post Master is here sorting some mail.
+~
+It looks unfinished.
+~
+bdnopqrA b 0 0 k 0 0 0 -500
+5 20 5 24d100+190 1d8+0
+10 0 42 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2610
+Alanast enchanter~
+Alanast, the Arcane Brotherhood Enchanter~
+Alanast, the Arcane Brotherhood Enchanter stands here ready to enchant items.
+~
+   This old man has thick grey-brown hair and a long beard of the same
+dual-color.  His eye brows are quite bushy and seem to point down in the centre
+to give him a perpetual angry appearance.  His lips are pursed tightly and he
+wears a pair of silver spectacles.  His robe is deep blue with ancient runes
+embroided on them in silver.  
+~
+bdnopqrAF b 0 0 k 0 0 0 -500
+20 20 -10 252d100+790 1d8+0
+500 0 55 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

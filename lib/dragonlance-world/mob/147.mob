@@ -1,0 +1,213 @@
+#14700
+guardian being outer plane~
+a guardian summoned from the outer planes~
+A guardian summoned from the outer planes of exsistance appears here.
+~
+   This powerful being has been summoned from the outer-planes.  He stands
+guard as was ordered by the Conclave.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14701
+unseen servant conclave~
+an unseen servant~
+An unseen servant tends to the bookshelves here.
+~
+   This being has been summoned to help tidy the vast library of the Conclave.
+The job seems unending, as their is countless books.  Despite his tasks, he
+continues on.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14702
+rolling flame guardian~
+a gentle rolling flame~
+A gentle rolling flame twists and rolls with the breeze.
+~
+   The flame appears to be a gentle and calm fire.  The flame snaps and rolls
+at any who approach the ancient oak tree.  The wind picks up and shifts the
+flame to stop intruders in their tracks.  It seems as though this flame has
+some life force that guides its actions.    
+~
+d 0 0 0 k 0 0 0 0
+28 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14703
+guardian sivak guard ~
+a sivak guardian~
+A sivak guardian stands before all that approach.
+~
+   This sivak has assumed his natural form.  Known for their devious
+shapeshifting abilities, sivaks can be a tough foe.  While serving in the
+duties of a guard, it is taken its natural winged form.  A powerful tail lies
+behind him, able to lash out in an instant.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14704
+guard knight sword~
+a knight of the sword~
+A knight of the sword has been posted here to stand guard.
+~
+   This strong knight is covered head to toe in brilliant fullplate armor.  A
+he stands at attention while he surveys the terrian for any sign of intruders.
+A large broadsword is sheathed to his belt, ready to be released from its
+sheath in an instant.    
+~
+d 0 0 0 k 0 0 0 900
+35 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14705
+agile being guard~
+an agile being~
+An agile being protects the area.
+~
+   Cloaked in shadow, this being protects entrance to some unknown area.  A
+dark cloak covers his agile frame.  He peers at you from under the cowl of his
+cloak waiting to hear the password.    
+~
+d 0 0 0 k 0 0 0 0
+28 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14706
+dummy training~
+a training dummy~
+A large training dummy stands in the center of the room.
+~
+   Comprised of many sandbags and a suit of padded armor, this dummy dangles in
+the corner.  It has reinforced stitching on the outer layer, allowing it to
+take damage for a very long time.  It has several targets on it, marking off
+the critical places to hit on a victim.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14707
+orb shifting conclave~
+an orb of shifting colors~
+An orb of shifting colors hovers high in the middle of the circle.
+~
+   The orb hovers high in the air, emitting no sound as it slowly turns around
+its axis.  The orb continually shifts between crimson, pure silver and ebony,
+like a miniature of the three moons adorning the sky.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

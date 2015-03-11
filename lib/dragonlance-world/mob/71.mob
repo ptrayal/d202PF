@@ -1,0 +1,830 @@
+#7100
+bartender seedy distrustful~
+a seedy bartender~
+A very distrustful looking bartender stands here serving drinks.
+~
+   Standing here is a very shady looking bartender.  He's dressed in a slick
+black leather vest, and has more head than he has hair.  He has dark rings
+underneath his eyes, and a very uninterested look on his face.  He leans
+heavily on his counter and although he has a rag in his hand, his counter
+obviously shows he doesn't make use of it.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7101
+lithe minotaur sly~
+a lithe looking minotaur~
+A minotaur with a sly looking expressions is here.
+~
+   This minotaur rests among the others as if he is at home here.  He is quite
+slim and fit in a way very atypical for his race.  Normally, minotaurs are
+brutes, but this one seems quite observative, and sinister in his appearance.
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7102
+vicious elf~
+a vicious looking elf ~
+An elf with a vicious look to him rests here drinking.
+~
+   This elf sits cooly relaxed in the corner.  He has a long cloak wrapped
+about him, and a pair of knee high boots on his feet.  He has a drink setting
+on a coaster besides him, and he sips slowly at it, caring for it as if it were
+his own child.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7103
+hearty young dwarf~
+a hearty young dwarf~
+A hearty young dwarf plays dice here with his friends.
+~
+   This young dwarf seems to be doing quite well today.  He has accumulated a
+small amount of wealth throwing the dice today, and he laughs and jokes
+casually with those he games with.  He is dressed in a red leather jerkin, and
+has a long frizzled beard, but it's rich color denotes his youthfulness.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7104
+cloaked concealed man~
+a cloaked and concealed man~
+A man concealed in a grey cloak gambles here.
+~
+   The cowl of his cloak partly reveals this humans face as he gambles with the
+dwarf besides him.  He seems down on his luck, as his coins in front of him is
+considerably less than the dwarf's hoard.  He does not seem concerned with
+this, but moreso, with reaccumulating his wealth.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7105
+suited bartender suit~
+a suited bartender~
+A bartender dressed in a full suit serves drinks here.
+~
+   Although this man does not show it, he is one of the wealthiest men around.
+His skills in bartending and presentation are vast, and he is one of the best
+of his kind in all of Krynn.  He also is well connected, knowing what goes on
+throughout all of Sanction do to his customers blabbing a lot of their plans.
+~
+d 0 0 0 k 0 0 0 0
+33 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7106
+timid quiet elf ~
+a timid quiet elf ~
+A timid and quiet elf peers out the window, looking for an opportunity.
+~
+   This elf is very young for her race, and quite early in her training.  She
+is, nonetheless, a well respected member of the community.  She constantly
+looks around, searching for her next chance to achieve.  Her young eyes glitter
+with the spark of youth when any look at her, thus her deceptive powers.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This elf wears heavy chainmail, and has a strong swordarm.  His eye never
+#7108
+short thug man~
+a short thug~
+A short thug of a man rests here on his private couch.
+~
+   This thug has a very square shaped body.  He is stocky as a dwarf, and his
+slicked back hair completments the circles around his eyes.  A thin toothpick
+is always present in his mouth, and he switches it from side to side as he
+talks.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7109
+jumpy greaser thin fragile man~
+a jumpy greaser~
+A thin and fragile man rests here flipping a knife.
+~
+   This man seems ready to lunge at any that don't fit into his way of things.
+He is quite unstable in appearance, and could slit someone's throat if they
+looked at him wrong.  His hair is greased back, and he wears a leather jacket
+that has a very worn look to it.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7110
+large boned intimidating thug man~
+a large boned thug~
+A very intimidating thug rests here, playing cards and smoking.
+~
+   When looking at this man, the word enormous is the only word that comes to
+mind.  He is very intimidating, and serves as a bouncer (among other things) in
+this organization.  He is well known by all, and a very great guy to know if
+you're on his side.  If not, he will quickly squash out any trouble.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This kender travels about, spinning his tales with those around.  He is not
+#7114
+interrogation victim young man~
+an interrogation victim~
+A young man sits in the interrogation chair, frightened.
+~
+   This offender sits tied up in a chair, and his mouth is gagged with a piece
+of cloth.  He sits in a chair, and the look on his eyes is one of a fear, a
+fear of death.  A central light shines on his face, and heavy perspiration can
+be seen dripping down his sideburns.  Finding oneself in this position is one
+of the most undesirable situations one can be in.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7115
+interrogator ~
+an interrogator~
+An interrogator sits here, inflicting pain on his victim.
+~
+   This man has a sinister look on his face.  He is dressed in a full size
+black cloak to conceil his identity.  He is fierce, and mercilous.  He will
+stop at nothing to draw out the news he wants to hear, whether that answer is
+correct or not, he cares not, as it is his job to withdraw the information.  
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Tarsis conducts a meeting here.
+This particular man has lived a very easy existence, all of his life he has
+#7117
+personal assistant ~
+a tarsian personal assistant~
+A personal assistant to the diplomat stands here with a bored look on his face.
+~
+   This assistant has had to wait hand and foot for his leige for most of his
+life.  He is extremely bored with his path in life, yet can do nothing to
+change that.  From the moment his master awakens, he must serve him on hand and
+foot, often performing chores against his morals.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7118
+guild delegate ~
+a guild delegate~
+A delegate for the thieves guild stands here listenting.
+~
+   Standing tall, this man represents a big amount of the communication in the
+guild.  He listens, and conveys all aspects of the meeting to the higher ups.
+He is the lynch pin in this organization, and he is very well compensated for
+his work.  It is also a very strategic position, as he can easily work these
+deals to his own benefit.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7119
+cutpurse common~
+a common cutpurse~
+A common cutpurse stalks the halls, looking for prey.
+~
+   A thick cloak is wrapped around this man, and he walks up and down the halls
+looking for victims.  He wields a shiny dagger, and doesn't want any to make it
+through these halls unscathed.  He moves very quietly, and searches for an easy
+target.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7120
+minor pursesnatcher~
+a minor pursesnatcher~
+A pursesnatcher wanders the halls looking for easy prey.
+~
+   This mans hands flick in and out, ready to grab at any valuables he spies.
+He is short, and quick in his movement, he can easily flee through the crowds
+if necessary.  He has a good amount of conceiling clothing on his form, and he
+is smart to make use of it.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7121
+hatchet thrower man ~
+a hatchet thrower~
+A man stands here throwing a hatchet at a target.
+~
+   This man wears only the least restrictive of clothing.  He propels his
+hatchets at the target with ease, and is quite skilled at what he does.  At his
+side lies a bucket, filled to the top with throwing hatchets.  He quickly draws
+them from his source with lightning speed, and propels them at his prey.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7122
+long armed archer~
+a long armed archer~
+A long armed archer shoots at his target here.
+~
+   This archer stands proud, shooting arrow after arrow into the bullseye.  He
+has a very large bow, capable of shooting very long distances.  He wears a
+protective strap across his arm, to prevent the reverberating bowstring from
+snapping him when he fires.  Quickly, he fires at his target, mastering his
+skill quickly.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7123
+inexperienced thief~
+an inexperienced thief~
+An inexperienced thief fools with the tools of the trade here.
+~
+   This thief is somewhat lacking in his skills, so he spends a long time
+practicing and familiarizing himself with the tools necessary to succeed.  He
+is young, and very bright eyed as he eyes up the various tools.  Someday, he
+may ascend to the position of head thief, but right now, that road seems too
+distant to be concerned with.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7124
+training pickpocket junior ~
+a pickpocket in training~
+A junior pickpocket trains with a master here.
+~
+   This young man practices stealing and is quickly reprimanded if he fails.  
+This provides quick learning into a basic skill.  He prepares for his next
+attempt, sizing up his victim and often using blockers to prevent site.  This
+is a test area that every person has been through that goes through the guilds
+training.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7125
+skilled pickpocket~
+a skilled pickpocket~
+A skilled pickpocket covered in bells stands here stationary.
+~
+   Small jingle bells dangle precariously from this man.  He holds a switch,
+which he will slam into any who fail their attempt at stealing.  He stands
+firm, and doesn't flinch even if his nose were to itch.  He is a master of his
+art, and teaches well to those that are willing and patient.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7126
+dummy training~
+a training dummy~
+A training dummy sits here in the corner, ready to take a beating.
+~
+   Comprised of many sandbags and a suit of padded armor, this dummy dangles in
+the corner.  It has reinforced stitching on the outer layer, allowing it to
+take damage for a very long time.  It has several targets on it, marking off
+the critical places to hit on a victim.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7127
+young balayer~
+a young balayer~
+A young balayer climbs slowly up his path towards his goal.
+~
+   This young climber has a full harness on him, and he slowly trudges up the
+course.  His hands grip onto the beginning section of the course, and he pushes
+ahead with full strength.  He slowly is learning the basics that are essential
+to a thieves art.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7128
+climbing instructor~
+a climbing instructor~
+A climbing instructor shows the proper climbing procedure to a student.
+~
+   This instructor is elven, and quite skilled in his art.  For years, he has
+climbed the various structures throughout Krynn.  He is strong, yet compact,
+and in the best of shape.  Very few landmarks throughout the lands do not have
+his mark of success somewhere upon them.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7129
+lazy student~
+a lazy student~
+A lazy student hides here, skipping his class.
+~
+   This student prefers the confines up here, to the work required down below.
+He takes every opportunity to hide from his responsibilities and hopes he is
+never discovered here.  He spends as many hours hidden up here as he can.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7130
+thief red dressed confident~
+a confident thief dressed in red~
+A confident thief in red spars with his opponent.
+~
+   This thief has a dagger held in his teeth, and circles the ring eyeing up
+his opponent.  His fists get ready to cause serious damage when the fight
+starts, as every thief at some point in their training finds themselves in a
+similar situation.  Many thieves become thugs, forming small bands which
+survive through violence, instead of skills.  Even in this guild, it is
+realized the importance of being able to take and deal out hits.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7131
+thief confident dressed yellow~
+a confident thief dressed in yellow~
+A confident thief in yellow spars with his opponent.
+~
+   This thief has a dagger held in his teeth, and circles the ring eyeing up
+his opponent.  His fists get ready to cause serious damage when the fight
+starts, as every thief at some point in their training finds themselves in a
+similar situation.  Many thieves become thugs, forming small bands which
+survive through violence, instead of skills.  Even in this guild, it is
+realized the importance of being able to take and deal out hits.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7132
+punctual aristocrat time~
+a punctual aristrocrat~
+A very time focused aristocrat stands here, sipping her tea.
+~
+   This stunning member of the aristocracy brushes elbows with the members of
+this guild.  She knows the benefits to having good relations with this group,
+and very quickly gets to know everyone who's anyone.  She is very charming, and
+skilled at influencing those she needs to persuade in a certain direction.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This senator struts proudly about the room, chit chatting about this and
+This thug relays everything to the top boss.  He is huge, and probably
+#7135
+representative qualinost elven spokesman~
+a representative from qualinost~
+A rich elven spokesman speaks for his people back home.
+~
+   Dressed completely in elven finery, this elf conducts the business he set
+out to accomplish.  Every aspect of this elf is top notch, and an air of
+royalty can be found in his blood, although much diluted over the years.  A
+long white silk cloak hangs from his shoulders, draggging ever so slightly
+behind him as he walks.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This officer gets the best of both worlds.  He is a well respected member in
+This member of high society struts about the room, enjoying his drink and
+This female is quite striking, and she has come from some exotic land to
+#7140
+head guildmaster guild ~
+the head of the guild~
+The current head of the guild sits at his desk, looking at some documents.
+~
+   A thing goatee, a mustache, and dark hair mark this mans face.  He is very
+thin and agile, and he currently holds the most desirable of positions.  His
+time here won't be long, but what short time he has here will be lavish.  He
+keeps everything in order, and must watch his back at every moment.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This guild member is one of the elite of their kind.  He underwent harsh
+$

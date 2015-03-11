@@ -1,0 +1,76 @@
+#10001
+Kill Rennor the hierophant~
+@yKill @BRennor@y the hierophant@n~
+@y"The old man has gone soft, he used to be somebody to look up to and now he is nothing more than a indecisive and conflicted leader. @cI need to put a stop to him@y, for the good of the cause of course."
+
+@y"Kill the hierophant @BRennor@y and that will remove the first obstacle to setting this cult on the right path" @n
+~
+"Ahh, My Friend. You have done good and have done a great service to the druids cause"
+
+@Y"Here is a token of my appreciation"@n
+~
+You have abandoned the quest.
+~
+3 10070 0 10064 -1 -1 -1
+50 0 15 61 -1 -1 1
+3000 10 65535
+S
+#10002
+Kill Rennor the Highdruid~
+@yKill @RRennor@y the Highdruid@n~
+@y"My friend, we are in dire trouble. The Rennor we once hoped would make us a succesful clan is no more. Instead we have a leader with such conflicting values that he would just as well pray to @CSylvanus@y or @RCyric@y"
+
+@y"@Y THIS WE CANNOT HAVE@y. We need to purge the @Revil@y from this organization"
+
+"Please destroy @RRennor@y the Highdruid so that we can reestablish peace"@n
+~
+@y "You have done a great @BGOOD@y for this order mi friend"
+
+@Y"Here, have a token of our appreciation"@n
+~
+You have abandoned the quest.
+~
+3 10071 0 10067 -1 -1 -1
+50 0 15 61 -1 -1 1
+3000 10 65535
+S
+#10003
+Kill the Left Hand~
+Kill the @BLeft Hand@n~
+@y"Now that the weak half of our leadership has been taken out, we need to obliterate any resistance from the @rNew @ROrder@y"
+
+"The only one who would oppose this change is the @BLeft Hand@y with his pansy attitude"
+
+@M"He does not have what is takes to govern, @RKill HIM@y, and I will show you how greatful I can be.
+~
+@M"This is indeed a glorious day"@y
+
+"What was that? Oh yeah!, a reward, here you go and don't bother me anymore"
+~
+You have abandoned the quest.
+~
+3 10070 0 10071 -1 -1 -1
+50 0 15 61 -1 -1 1
+3000 10 65535
+S
+#10004
+Kill the Right Hand~
+@yKill @RThe Right Hand@n~
+@y"I am sorry to have to ask you for this favor, but I'm afraid our cause cannot succeed without your help"
+
+" I have recieved information that the @RRight Hand@y is trying to destroy me and all the goodness we are trying to accomplish"
+
+
+@C"We cannot let him undo all our work" @BKill the @RRight Hand@n
+~
+"@BThanks @CSylvanus@B you have done it@y"
+
+@Y"Here is our promised reward"@n
+~
+You have abandoned the quest.
+~
+3 10071 0 10070 -1 -1 -1
+50 0 15 61 -1 -1 1
+3000 10 65535
+S
+$~

@@ -1,0 +1,489 @@
+#3200
+boots pair tanned leather que-shu~
+a pair of tanned leather boots~
+A pair of tanned leather boots has been left here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 80 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3201
+spear large wooden que-shu~
+a large, wooden spear~
+A large, wooden spear rests on the ground.~
+~
+5 jklpruBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9 90 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3202
+tunic skin deer que-shu~
+a deer skin tunic~
+A deer skin has been thrown upon the ground.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 60 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3203
+broadsword sword steel que-shu~
+a two-handed, steel broadsword~
+A two-handed, steel broadsword has been left here.~
+~
+5 jklpstuxBCF ac uxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 400 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3204
+pants tanned leather que-shu~
+a pair of tanned, leather pants~
+A pair of tanned, leather pants has been left here.~
+10~
+9 jklprstuBCDEF abc stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#3205
+belt wide strange que-shu leather~
+a wide leather belt with strange designs~
+A wide leather belt with strange designs rests here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 135 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3206
+sphere small crystal que-shu~
+a small, crystal sphere~
+A small, crystal sphere bobs slowly up and down above the ground.~
+~
+15 jklmnorstvwCDF abd stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sphere small crystal~
+   This sphere seems to have a slight inner light that causes a strange hue to
+fall across the area.  The shape is a perfect sphere, about three inches in
+diameter.    
+~
+#3207
+circlet golden plain~
+a plain, golden circlet~
+A plain, golden circlet has been carelessly discarded.~
+~
+9 jklmnopqrstuvwBCDF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 800 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+circlet golden plain~
+Written in High Elven Script:
+     May this ring be a bridge between the Que-Shu and the elves and give
+hope to both our people.
+~
+A
+14 15 0
+#3208
+cloak ceremonial que shu que-shu~
+a ceremonial cloak of the Que-Shu~
+A ceremonial cloak of the Que-Shu has been left here.~
+~
+9 jklmnoprstuvwCF a stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+#3209
+veil barbarian prayer que-shu~
+a barbarian veil of prayer~
+A barbarian veil of prayer has been left here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 300 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -3 0
+A
+18 1 0
+#3210
+sword bastard spots que-shu~
+a heavy bastard sword with spots of blood~
+A heavy bastard sword with spots of blood rests here.~
+~
+5 jklprstuBCEF ac uxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 8000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+18 -1 0
+A
+2 -1 0
+#3211
+bandage small white que-shu~
+a small, white bandage~
+A small, white bandage has been left here.~
+~
+3 jklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 40 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3212
+necklace child like finger bones~
+a necklace of child-like finger bones~
+A necklace of child-like finger bones has been left here.~
+1~
+9 ekmnopruvwBCDEF abcl 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 600 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3213
+claymore steel solid~
+a solid steel claymore~
+A solid steel claymore has been left in the dirt.~
+~
+5 jklpstuCF ac 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 1500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#3214
+tunic deer skin que-shu~
+a deer skin tunic~
+A deer skin tunic has been left here.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3215
+belt ceremonial leather que-shu~
+a leather ceremonial belt~
+A leather ceremonial belt has been left here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 3 0
+#3216
+sword long jagged-edged jagged~
+a jagged-edged long sword~
+A jagged-edged long sword has been left in the dust.~
+~
+5 jklpruvBCDEF abc kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+11 1300 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3217
+dagger jagged edged que-shu~
+a jagged-edged dagger~
+A jagged-edged dagger has been left in the dust.~
+~
+5 jklmoprsuvwBCDEF abc kstuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1800 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3218
+pouch leather small que-shu~
+a small, leather pouch~
+A small, leather pouch has been left here.~
+~
+10 cjklmnoprstuvwABCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 -1 0
+#3219
+boots scorched ancestral que-shu~
+a pair of scorched ancestral boots~
+A blackened pair of tribal boots have been thrown aside.~
+~
+9 jkluBCDEF abc 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3220
+sword two-handed que-shu~
+a two-handed sword with a steel hilt~
+A two-handed sword with a steel hilt has been left here.~
+~
+5 jklpstuxBCEF ac uxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 100 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3221
+veil barbarian mourning que-shu~
+a barbarian veil of mourning~
+A barbarian veiling of mourning has been left here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3222
+hair golden que shu plainswoman~
+the golden hair of a Que-Shu plainswoman~
+The golden hair of a Qhu-Shu plainswoman slutters in the wind.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 30 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#3223
+ring golden tiny que-shu~
+a tiny, golden ring~
+A tiny, golden ring has been left here.~
+-3~
+9 klmnoprstuvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 600 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ring tiny golden~
+The ring has a small inscription upon it:
+    The sun does not shine as bright nor does the flower smell as sweet as
+my precious Goldmoon.
+~
+A
+6 1 0
+#3224
+shroud burial que-shu~
+a Que-Shu burial shroud~
+A Que-Shu burial shroud rests on the ground.~
+~
+9 jklmnoruvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+A
+4 1 0
+#3225
+staff strange runes que-shu~
+a wooden staff with strange runes~
+A wooden staff with strange runes has been left here.~
+~
+5 jklmnwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 6000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#3226
+cloak symbol fire que-shu~
+a cloak with the symbol of fire~
+A cloak with the symbol of fire rests here.~
+~
+9 jklnBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 10000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+#3227
+robes archmage deep crimson que-shu~
+the deep crimson robes of an archmage~
+The deep crimson robes of an archmage have been left here.~
+~
+9 lmBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 10000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+4 1 0
+A
+19 1 0
+#3228
+robes archmage shadowy que-shu~
+the shadowy robes of an archmage~
+The shadowy robes of an archmage has been left here.~
+~
+9 kmBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 10000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+4 1 0
+A
+19 1 0
+#3229
+robes benign archmage que-shu~
+the benign robes of an archmage, trimmed in blue~
+A pile of ivory robes has been tossed aside.~
+~
+9 jmBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 10000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+4 1 0
+A
+19 1 0
+$~

@@ -1,0 +1,497 @@
+#5600
+warrior black bear~
+a warrior of the black bear tribe~
+A warrior of the Black Bear Tribe stands here attentively.
+~
+   Standing quite tall for a human, this warrior would proudly defend his
+homeland when necessary.  However, a somewhat desperate look also crosses his
+face.  He is dressed in the furs of many nearby plains animals, and beneath
+those furs a honed body and very muscular form lurks.  He appears to be
+approaching the nearby fire.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This man is quite old, yet physically just as impressive as a young warrior.
+The scars of war he wears about him like badges of honor.  A haggard pepper
+This cell guard stands here attently, and prepared to halt any escape
+This guard is not overly cruel to his prisoners, yet at the same time
+This elfmaiden is very dusty, and seems to have lost any sense of hope she
+#5604
+kender blue tunic female talkative~
+a female kender in a blue tunic~
+A very talkative female kender in a blue tunic chatters away here.
+~
+   Any normal prisoner would have been broken and given up by now, but not this
+prisoner.  This female kender finds some way to trick the guards and escape
+every day, and as such, she often finds herself back in just as quickly as she
+has left.  She is a real chatterbox, and does not realize that her words are
+now falling on the ears of a deaf, lost soul.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5605
+shaman tribal ~
+the tribal shaman~
+The tribes shaman is standing here mixing his latest healing salve.
+~
+   This particular tribesman is not only one of the most respected, but also
+the most peculiar.  He has a crazed look to him, and pieces of tattered furs
+hang about him in a very mottled pattern.  In his hair there are braided many
+animal teeth, multicolored beads, and inks, and around his waist hangs a twine
+belt from which dangles a vultures claw.  He appears about as if in a trance,
+and shouts unpronouncable words in his own language, that no one else in the
+tribe can understand.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5607
+child youngin barbarian~
+a barbarian youngin~
+A barbarian girl is standing here, painting her pot playfully.
+~
+   This child is in her early teens, and stands here working on her pottery.  
+She is homely, yet pretty, and her big bashful eyes will someday make a young
+barbarian male's heart soar.  She wears clean, tanned furs, and playfully hops
+around the room, batting her eyelashes.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5608
+wife barbarian~
+a barbarian wife~
+A barbarian wife is sitting here, cooking supper.
+~
+   Humming a faint song, this female stands here, stirring the nightly stew,
+and cooking a small rack of meat for her family.  Her hair is tied behind her
+back using a small piece of twine, and a similar piece surrounds her waist.  
+Quietly, she works alone, hoping to server her family in the best way possible.
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5609
+youth barbarian youthful~
+a barbarian youth ~
+A youthful barbarian rests here, playing with a toy spear.
+~
+   This young barbarian has his toy spear held out, and he practices spearing
+small stuffed animals he has positioned about the room.  He quite accurately
+connects on his target, and sends it flying across the room and into the wall.
+His thoughts are elsewhere though, the nearby girl he has his eye on, and hopes
+to quickly run out of his house and ask her to go play hunter and gatherer with
+her.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5610
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5611
+rider dark mounted~
+a mounted Dark Rider~
+A mounted Dark Rider patrols the sand searching for intruders.
+~
+   Dressed in died black-grey furs, this rider moves stealthfully across the
+plains, searching out his prey.  His face has a set of wraps on it, and his
+eyes are now accustomed to the sand storms that frequent this area.  These are
+one of the most feared warriors in this tribe, who will kill if there is even a
+suspicion.    
+~
+d 0 0 0 k 0 0 0 -900
+20 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5612
+protectorate conspiring man~
+a conspiring protectorate~
+A man conspiring the overthrow of the dark riders looks over a map.
+~
+   He stands here with a worn look on his face, but that in itself is only a
+ruse.  For some time he has helped plan the fall of the darkriders and the
+dragonarmy and working with Mordan he has achieved much.  He is quite serious
+in his intent, and he is steadfast in his goal to return the camp to the
+tribe's control.    
+~
+d 0 0 0 k 0 0 0 0
+23 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5615
+guard personal ~
+Morgan's personal guard~
+A personal guard to Morgan Di Kyre stands here, behind the scenes.
+~
+   This guard has the unique ability to move around unnoticed in a crowd, and
+no one knows he is a guard due to his strong ability to camoflage himself.  He
+is loyal to Morgan, and will assist in any means possible.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5616
+elder barbarian storyteller~
+an elder barbarian storyteller~
+An elder barbarian sits here telling stories of times long gone.
+~
+   Perhaps the eldest of the barbarians in Khur, this storyteller speaks to a
+captivated audience.  Though his gruff voice is almost impossible to
+understand, the gestures his hands make as he speaks tell stories of their own.
+It appears the story he is bringing to light now involves a rather large beast
+which was slain by himself years and years ago.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5618
+stern disbelieving barbarian~
+a disbelieving barbarian~
+A stern barbarian respectfully listens to the elder's stories in disbelief.
+~
+   Standing with his arms crossed, this barbarian listens respectfully to the
+elders stories, but finds them quite hard to believe.  He occasionally shakes
+his head and chuckles at the tales being told, only to be flased a sharp glare
+from the storyteller.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5619
+tired barbarian~
+a tired barbarian ~
+A tired barbarian sits on a rug eating his meal.
+~
+   By the look on this barbarians face, he has just recently returned from an
+exhausting outing.  His body is covered in a layer of dirt from head to toe,
+and small twigs have stuck themselves in his hair.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5620
+cheerful barbarian woman~
+a cheerful barbarian woman~
+A barbarian woman cheerfully prepares more food for her husband.
+~
+   In good spirits for having finally been reunited with her husband, this
+woman cheerfully cooks more food in a large kettle.  She attempts to keep a
+conversation with him, but he is far too occupied with his food to be bothered
+by a woman.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5621
+groggy member tribe~
+a groggy member of the tribe~
+A groggy member of the tribe settles down for a nap.
+~
+   Covered in thick bearhide blankets, this barbarian has settled down for a
+quick nap.  His hair appears to have the same consistancy of the fur on his
+blankets, and his skin is just as dirty and unwashed.  Apparently, bathing isnt
+a top necessity of the Khur barbarians.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5622
+servant ~
+a servant of the chieftain~
+The chief's servant picks up the discarded animal bones on the floor.
+~
+   This young servant of the chief has the dubious honor of picking up the
+trash thrown on the floor during every meal.  Gnawed on bones, clumps of
+crudely made cheese, and wine stains are scattered about the room, making his
+job quite a large one.  Nevertheless, he is honored to be able to clean up his
+chieftains trash.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5623
+young barbarian child boy~
+a young barbarian child~
+A young barbarian boy sits here giggling as he throws dirt in his sisters face.
+~
+   Laughing up a storm, this young boy is highly amused with torturing his poor
+sister.  He grabs large handfulls of dirt and throws it directly at her, most
+of which hits her right in the face.  The more she cries, the more he laughs.
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5625
+preoccupied barbarian woman~
+a preoccupied barbarian woman~
+A preoccupied barbarian woman pays no attention to her children.
+~
+   Far too busy making dinner for her husband to be bothered with the bickering
+between her children, this barbarian woman fails to notice that her daughter is
+half burried in a mound of dirt.  She goes about her business, stirring the
+kettle of deer stew on the other side of the tent.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

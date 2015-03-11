@@ -1,0 +1,1043 @@
+#6600
+A Muddy Path into Old Sanction~
+   Dimly lit and strewn with garbage, a muddy path winds north and east into
+the heart of the older section of Sanction.  Since the merchants and factories
+moved into the new city, this section has rapidly deteriorated into undesirable
+slums.  A distance to the south, a large stone bridge spans a lava flow, and
+leads into the newer areas of Sanction.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6601 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6573 0 0 0 0 0 0 0 0
+S
+#6601
+A Muddy Path into Old Sanction~
+   A deserted, muddy path winds its way into the murky sections of Old
+Sanction.  To the east, small alleys and weathered buildings are visible
+through the dark.  Even in the light of day, smoke and ash from the surrounding
+volcanos block out most of the sunlight.    
+~
+66 0 0 0 0  1
+D2
+~
+~
+0 0 6600 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6602 0 0 0 0 0 0 0 0
+S
+#6602
+A Muddy Path into Old Sanction~
+   Debris litters the path here, looking mainly like domestic house garbage.  
+The muddy path runs northeast deeper into the city, and southwest toward a red,
+glowing river.  A run down house of sorts lies to the south.    
+~
+66 0 0 0 0  1
+D2
+~
+~
+0 0 6603 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6604 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6601 0 0 0 0 0 0 0 0
+S
+#6603
+A Run Down House~
+   Unkept and in serious need of repair, this shamble of a house barely keeps
+the elements at bay.  Litter covers the floor, and the sky can be seen through
+numerous holes in the roof.    
+~
+66 0 0 0 0  0
+D0
+~
+~
+0 0 6602 0 0 0 0 0 0 0 0
+S
+#6604
+A Muddy Path into Old Sanction~
+   Debris litters the path here, looking mainly like domestic house garbage.  
+The muddy path runs northeast deeper into the city, and southwest toward a red,
+glowing river
+~
+66 0 0 0 0  1
+D7
+~
+~
+0 0 6605 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6602 0 0 0 0 0 0 0 0
+S
+#6605
+A Muddy Path into Old Sanction~
+   Debris litters the path here, looking mainly like domestic house garbage.  
+The muddy path runs northeast deeper into the city, and southwest toward a red,
+glowing river.  A run down house of sorts lies to the south.    
+~
+66 0 0 0 0  6
+D2
+~
+~
+0 0 6606 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6607 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6604 0 0 0 0 0 0 0 0
+S
+#6606
+A Run Down House ~
+   Much like the other homes owned by the poor of Sanction, this home is in
+complete disarray.  Small, unsturdy chairs have been placed throughout the
+cramped quarters, as well as a small rug and wash basin.  No food can be seen,
+nor any place to store it.    
+~
+66 0 0 0 0  0
+D0
+~
+~
+0 0 6605 0 0 0 0 0 0 0 0
+S
+#6607
+A Muddy Path into Old Sanction~
+   Debris litters the path here, looking mainly like domestic house garbage.  
+The muddy path runs northeast deeper into the city, and southwest toward a red,
+glowing river
+~
+66 0 0 0 0  1
+D7
+~
+~
+0 0 6608 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6605 0 0 0 0 0 0 0 0
+S
+#6608
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6635 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6609 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6607 0 0 0 0 0 0 0 0
+S
+#6609
+A Nameless Street Through the Slums~
+   A narrow stone street runs through yet another section of Sanction's slums.
+Houses line each side of the street.  It is a depressing sight due to the
+completely run-down appearance of the area.  Small children and animals walk
+the street, each giving off the exact same expression as the buildings they
+call home.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6608 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6610 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6611 0 0 0 0 0 0 0 0
+S
+#6610
+A Run Down House ~
+   Years since its last repairs, this old house is home to the poorest of
+families.  Covering the ceiling are large wooden boards which are half rotten,
+causing any rain water to drip down into buckets.  A fire burns dimly in the
+fireplace, giving the home its only source of heat.  Cabinets line the walls,
+most of which are missing their doors.  A small table and chairs sits in the
+middle of the room.    
+~
+66 0 0 0 0  0
+D3
+~
+~
+0 0 6609 0 0 0 0 0 0 0 0
+S
+#6611
+A Nameless Street Through the Slums~
+   A narrow stone street runs through yet another section of Sanction's slums.
+Houses line each side of the street.  It is a depressing sight due to the
+completely run-down appearance of the area.  Small children and animals walk
+the street, each giving off the exact same expression as the buildings they
+call home.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6609 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6612 0 0 0 0 0 0 0 0
+S
+#6612
+A Run Down House ~
+   Years since its last repairs, this old house is home to the poorest of
+families.  Covering the ceiling are large wooden boards which are half rotten,
+causing any rain water to drip down into buckets.  A fire burns dimly in the
+fireplace, giving the home its only source of heat.  Cabinets line the walls,
+most of which are missing their doors.  A small table and chairs sits in the
+middle of the room.    
+~
+66 0 0 0 0  0
+D1
+~
+~
+0 0 6611 0 0 0 0 0 0 0 0
+S
+#6613
+A Nameless Street Through the Slums~
+   A narrow stone street runs through yet another section of Sanction's slums.
+Houses line each side of the street.  It is a depressing sight due to the
+completely run-down appearance of the area.  Small children and animals walk
+the street, each giving off the exact same expression as the buildings they
+call home.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6611 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6614 0 0 0 0 0 0 0 0
+S
+#6614
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6613 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6615 0 0 0 0 0 0 0 0
+S
+#6615
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D3
+~
+~
+0 0 6614 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6616 0 0 0 0 0 0 0 0
+S
+#6616
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6617 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6618 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6615 0 0 0 0 0 0 0 0
+S
+#6617
+A Darkened Narrow Alley~
+   The crumbling, blackened-stoned buildings flanking the narrow alley cast
+down an ominous shadow.  Large indentations from the heavy debris tumbling down
+for the collapsing buildings cover the alley.  Thick pools of sewage collect in
+the sunken indentations all along the street.    
+~
+66 a 0 0 0  0
+D0
+~
+~
+0 0 8451 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6616 0 0 0 0 0 0 0 0
+S
+#6618
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6623 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6619 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6616 0 0 0 0 0 0 0 0
+S
+#6619
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6620 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6618 0 0 0 0 0 0 0 0
+S
+#6620
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6621 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6650 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6619 0 0 0 0 0 0 0 0
+S
+#6621
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6626 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6620 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6622 0 0 0 0 0 0 0 0
+S
+#6622
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6621 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6623 0 0 0 0 0 0 0 0
+S
+#6623
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6624 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6622 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6618 0 0 0 0 0 0 0 0
+S
+#6624
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6630 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6625 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6623 0 0 0 0 0 0 0 0
+S
+#6625
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6624 0 0 0 0 0 0 0 0
+S
+#6626
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6628 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6627 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6621 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6625 0 0 0 0 0 0 0 0
+S
+#6627
+A Turnout~
+   The bridge has been extended out here, forming a turnout for carts
+traversing the bridges.  Large stone barricades line either side of the bridge
+to keep the surging magma from splashing onto the roadway.  Deep grooves cover
+the stone flooring as carts make their way across.    
+~
+66 0 0 0 0  1
+D3
+~
+~
+0 0 6626 0 0 0 0 0 0 0 0
+S
+#6628
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6633 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6629 0 0 0 0 0 0 0 0
+S
+#6629
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6628 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6630 0 0 0 0 0 0 0 0
+S
+#6630
+Sentroal Bridge Road~
+   The network of bridges extend over the river of lava, creating the Sentroal
+Bridge Road.  Massive stone barricades line either side of the bridges to keep
+the surging magma from splashing onto the road.  Deep wheel grooves cover the
+stone flooring as carts make their way across the lava.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6631 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6629 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6624 0 0 0 0 0 0 0 0
+S
+#6631
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.  To the west, the street cuts through the
+center of a darkened, narrow alley, and continues out the other side.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6630 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8453 0 0 0 0 0 0 0 0
+S
+#6632
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6633 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6631 0 0 0 0 0 0 0 0
+S
+#6633
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6636 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6628 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6632 0 0 0 0 0 0 0 0
+S
+#6634
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.  To the east, the street cuts through the
+center of a darkened, narrow alley, and continues out the other side.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 8453 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6635 0 0 0 0 0 0 0 0
+S
+#6635
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D3
+~
+~
+0 0 6608 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6634 0 0 0 0 0 0 0 0
+S
+#6636
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6637 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6633 0 0 0 0 0 0 0 0
+S
+#6637
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6638 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6636 0 0 0 0 0 0 0 0
+S
+#6638
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6639 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6637 0 0 0 0 0 0 0 0
+S
+#6639
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6640 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6654 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6638 0 0 0 0 0 0 0 0
+S
+#6640
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6641 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6639 0 0 0 0 0 0 0 0
+S
+#6641
+Corner of Luerkhisis' Way and Park Avenue~
+   Two streets come to a meeting at this point, each leading towards a seperate
+area of the slums.  Depressed and otherwise emotionless residents of the area
+casually walk the streets, searching for anything which would bring change to
+their lives.    
+~
+66 0 0 0 0  1
+D2
+~
+~
+0 0 6642 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6640 0 0 0 0 0 0 0 0
+S
+#6642
+Park Avenue~
+   Perhaps a park once existed in this area years ago, but if it has, it has
+been replaced by numerous run-down buildings and trash piles.  An overpowering
+stench permeates the area, along with the wretched screaming of birds which can
+be seen feeding on the piles of trash.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6641 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6643 0 0 0 0 0 0 0 0
+S
+#6643
+Park Avenue~
+   Perhaps a park once existed in this area years ago, but if it has, it has
+been replaced by numerous run-down buildings and trash piles.  An overpowering
+stench permeates the area, along with the wretched screaming of birds which can
+be seen feeding on the piles of trash.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6642 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6644 0 0 0 0 0 0 0 0
+S
+#6644
+Park Avenue~
+   Perhaps a park once existed in this area years ago, but if it has, it has
+been replaced by numerous run-down buildings and trash piles.  An overpowering
+stench permeates the area, along with the wretched screaming of birds which can
+be seen feeding on the piles of trash.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6643 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6645 0 0 0 0 0 0 0 0
+S
+#6645
+Park Avenue~
+   Perhaps a park once existed in this area years ago, but if it has, it has
+been replaced by numerous run-down buildings and trash piles.  An overpowering
+stench permeates the area, along with the wretched screaming of birds which can
+be seen feeding on the piles of trash.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6644 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6646 0 0 0 0 0 0 0 0
+S
+#6646
+Corner of Park Avenue and River Lane~
+   To the west, a cobblestone street runs along side a river of flowing lava
+towards what looks to be a group of run-down houses.  The path also splits to
+the north at this point, down yet another road through the slums of Sanction.
+The lava from the river splashes violently up against its bank of dried rock.
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6645 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6647 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5388 0 0 0 0 0 0 0 0
+S
+#6647
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6646 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6648 0 0 0 0 0 0 0 0
+S
+#6648
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6651 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6647 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6649 0 0 0 0 0 0 0 0
+S
+#6649
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6648 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6650 0 0 0 0 0 0 0 0
+S
+#6650
+River Lane~
+   This cobblestone street runs parallel to a river of molten lava.  Large
+stone barriers have been set up to prevent the lava from splashing over onto
+unsuspecting residents.  The sound of the lava is not unlike that of a rapidly
+flowing river.    
+~
+66 0 0 0 0  1
+D1
+~
+~
+0 0 6649 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6656 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6620 0 0 0 0 0 0 0 0
+S
+#6651
+A Shady Alley Between Buildings~
+   Meandering between two large buildings, this shady alley is home to the
+poorest residents of Sanction, the homeless.  The stench of unwashed bodies
+overpowers the area, forcing those not used to the odor to gag.  Upon seeing an
+unfamiliar face, many of the alley's residents beg for any money or food
+available.    
+~
+66 acgi 0 0 0  1
+D0
+~
+~
+0 0 6652 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6648 0 0 0 0 0 0 0 0
+S
+#6652
+A Shady Alley Between Buildings~
+   Meandering between two large buildings, this shady alley is home to the
+poorest residents of Sanction, the homeless.  The stench of unwashed bodies
+overpowers the area, forcing those not used to the odor to gag.  Upon seeing an
+unfamiliar face, many of the alley's residents beg for any money or food
+available.    
+~
+66 acgi 0 0 0  1
+D2
+~
+~
+0 0 6651 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6653 0 0 0 0 0 0 0 0
+S
+#6653
+A Shady Alley Between Buildings~
+   Meandering between two large buildings, this shady alley is home to the
+poorest residents of Sanction, the homeless.  The stench of unwashed bodies
+overpowers the area, forcing those not used to the odor to gag.  Upon seeing an
+unfamiliar face, many of the alley's residents beg for any money or food
+available.    
+~
+66 acgi 0 0 0  1
+D0
+~
+~
+0 0 6654 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6652 0 0 0 0 0 0 0 0
+S
+#6654
+A Shady Alley Between Buildings~
+   Meandering between two large buildings, this shady alley is home to the
+poorest residents of Sanction, the homeless.  The stench of unwashed bodies
+overpowers the area, forcing those not used to the odor to gag.  Upon seeing an
+unfamiliar face, many of the alley's residents beg for any money or food
+available.    
+~
+66 acgi 0 0 0  1
+D0
+~
+~
+0 0 6639 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6653 0 0 0 0 0 0 0 0
+S
+#6655
+Appropriations Committee Hall~
+You are in a room.
+~
+66 agi 0 0 0  1
+S
+#6656
+River Lane~
+   The wide lane continues south for a short distance before coming to a stone
+bridge over the lava flow.  Sanction guardsmen keep watch on the bridge to fend
+away the riff-raff.  To the north, dimly lit streets and murky alleys mark the
+depressed section of Sanction.    
+~
+66 0 0 0 0  1
+D0
+~
+~
+0 0 6650 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6579 0 0 0 0 0 0 0 0
+S
+$

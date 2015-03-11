@@ -1,0 +1,363 @@
+#13200
+worg brown~
+a brown worg~
+Carrying its rider, a brown worg is here.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13213
+decaying zombie cultist flies~
+a decaying cultist of Morgion~
+A decaying cultist chants here as flies buzz around his head.
+~
+   This decaying figure has the appearance of death, though he eminates a deep,
+gurgling.  Chanting from his rotting face.  He wears tatterred robes of a
+forest dweller.  No life shines in his dark eyes, but he appears to notice you,
+reaching for your arm......    
+~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 6 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13215
+high priestess chemosh~
+the high priestess of Chemosh~
+The high priestess of Chemosh stands here, arms folded.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13216
+elite chemosh warrior~
+an elite warrior of Chemosh~
+An elite warrior of Chemosh eyes you with an evil grin.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13217
+James farmer~
+James, a local farmer~
+James, a local farmer, stands here searching for someone
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13218
+warrior ancient blackened platemail Derzig~
+a warrior clad in ancient blackened platemail~
+A warrior clad in ancient blackened platemail stands here before you.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13220
+Darsisk dar arrogant wizard~
+Darsisk, an arrogant wizard~
+Darsisk, an arrogant wizard looks down his nose at you
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 900
+18 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13221
+messenger~
+a messenger~
+A messenger stands here, fiddling with some sort of parchment.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13222
+mob new~
+a new mob~
+A new mob is existing here.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13223
+guardian ancient~
+the ancient guardian~
+The ancient guardian stands here, waiting eternally.
+~
+   This ancient guardian has stood here for an eternity, blocking those who
+have found their way into the ancient complex.  He stands unwavering before
+you, watching you very intently.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13225
+spirit powerful warrior~
+the spirit of a powerful warrior~
+The spirit of a powerful warrior is here, pacing back and forth.
+~
+   This spirit of a long dead powerful warrior is here, pacing back and forth
+endlessly.  He seems to ponder you as you enter the room.    
+~
+d 0 0 0 k 0 0 0 900
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13226
+spirit powerful priestess~
+the spirit of a powerful priestess~
+The spirit of a powerful priestess stands here, staring blankly at you.
+~
+   This spirit of a powerful priestess is here, pacing back and forth.  She has
+been trapped here for what seems like an eternity, and wishes only to escape.
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13227
+man badly wounded~
+a badly wounded man~
+A badly wounded man is here, struggling to rise to his feet.
+~
+   This man has been terribly wounded, and he struggles to rise to his feet.  
+He stares deep into your eyes with a look of compassion, and grips his side in
+grave pain.  He drags himself closer to you, looking as if he has something to
+say.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13228
+father extremely scarred half dwarven~
+extremely scarred half-dwarven man~
+An extremely scarred half-dwarven man glares at you as you near him.
+~
+   This half-dwarf half-human man is very heavily scarred.  He seems very
+irritated that you've wandered upon him, and grips his axe tightly.    
+~
+d 0 0 0 k 0 0 0 -900
+22 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13229
+Gohn brutal minotaur~
+Gohn, a brutal minotaur~
+Gohn, a brutal minotaur snorts at you
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 -900
+22 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

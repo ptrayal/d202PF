@@ -1,0 +1,224 @@
+#8000
+goblin scout crude~
+a crude, leather armored goblin scout~
+A crude looking goblin scout dressed in partial leather armor tries to sneak by you.
+~
+   This ugly creature serves as a scout for his tribe.  He is dressed in a
+partial suit of leather armor, and what exists is not in the best of shape.
+He attempts to sneak through the area un-noticed, but is not doing a good
+job of it at all.
+~
+d 0 0 0 k 0 0 0 -500
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This ugly creature serves as a scout for his tribe.  He is dressed in a
+This ugly creature serves as a scout for his tribe.  He is dressed in a
+#8006
+wolf wolfrider~
+a goblin wolfrider~
+A wolfrider sits atop his wolf here.
+~
+   A stout, leather-clad goblin sits astride his mount, eyes scanning the area.
+The silver-grey fur of the wolf he is riding on bristles with animalistic
+aggression.  Skinny ribs show through the thin skin, showing that the wolf has
+not been well taken care of.  A leather harness attaches a makeshift saddle
+onto the top of the animal, enabling its rider to find some purchase astride
+the beast.    
+~
+d 0 0 0 k 0 0 0 -500
+13 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8007
+goblin sergeant rugged~
+a rugged goblin sergeant~
+A foul-mouthed goblin stands here grumbling to himself.
+~
+   Dressed in hardened leather, this rugged goblin wears an almost permanent
+grimace about his countenance.  He looks to be somewhat muscular and hardy
+enough for the rigors of a strict, harsh lifestyle.    
+~
+d 0 0 0 k 0 0 0 -500
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8008
+goblin jutting tooth~
+a goblin with a jutting tooth~
+A goblin with a jutting tooth has drool leaking out of the corner of his mouth.
+~
+   A small river of putrid, yellow drool flows out of the corner of this one
+goblin's mouth.  A large jutting tooth protrudes from out of under his thick
+lips, allowing the spittle to flow with less impediment.  Shifty, yellow eyes
+dart around him suspiciously as he looks all around him, holding everything
+suspect.    
+~
+d 0 0 0 k 0 0 0 -500
+9 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The silver-grey fur of the wolf he is riding on bristles with animalistic
+#8010
+goblin runny-eyed red~
+a short, runny-eyed goblin~
+A goblin with red, runny eyes fingers his weapon constantly.
+~
+   Small, runny eyes frame an ugly face that even a mother wouldn't love as the
+goblin before you sniffs the air around him with his short, small nose.  
+Wearing an assortment of things for "armor", the leathery skin of the creature
+is beset with pockmarks.  He smells as if he hasn't bathed in weeks.    
+~
+d 0 0 0 k 0 0 0 -500
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Terrodimus the necromancer~
+This man is dressed in total blackness, a charm of pure bone dangles from
+#8016
+klar unclean~
+Klar the Unclean~
+Klar the Unclean looks at you and attacks!
+~
+   This monstrous barbarian smells of blood and sweat.  He is wearing only a
+scant loincloth, but wields a big, honkin sword.  His eyes seem to burn with
+fury, as he looks at you and attacks!    
+~
+d 0 0 0 k 0 0 0 0
+32 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8018
+kantalis shade~
+the shade of Kantalis~
+The shade of Kantalis hovers slightly above the ground here.
+~
+   This shade takes the appearance of a tall elven man.  He hovers above the
+ground slightly, a look of great pain within his eyes.  A unusual pendant hangs
+about his neck, seeming to actually have substance on this spectre's flimsy,
+transparent body.    
+~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8019
+ogre hunter Nuitari~
+an ogre hunter~
+A large ogre wanders here hunting the plains.
+~
+   This large ogre stands at least 7 feet tall.  He is covered in filthy animal
+skins from the animals he has killed.  He stalks about the plains searching out
+his next meal.    
+~
+d 0 0 0 k 0 0 0 -500
+15 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This young squire has a glimmer in his eyes.  He one day plans to be a
+$
+$

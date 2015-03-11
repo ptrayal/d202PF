@@ -1,0 +1,703 @@
+#5200
+slipak slightly curved kendermore~
+a slightly curved slipak~
+A slightly curved slipak lies here, apparantly forgotten.~
+~
+5 jklopruw b 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#5201
+gateway~
+a gateway entrance~
+A wooden gateway arches over the road.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+gateway~
+   Sprouting from the ground on both sides of the road, the gateway looms as
+high as five kender are tall, and arches above the street.  The wood it was
+constructed of seems dull of color, yet hardy enough to have lasted any period
+of time.    
+~
+#5202
+fountain ~
+a wide, brick walled fountain~
+A wide brick walled fountain, encasing a statue of Uncle Trapspringer, wells here.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+statue~
+   Of an unknown source is this statue made, even the people of the town might
+not know, but surely, they'd have stories.  A dull black color seems to have
+washed over some joy stricken kender as he looked at the sky, and frozen him
+forever.  Clean water laps at his feet as he smiles at the heavens.    
+~
+E
+fountain~
+   Wide bricks create a long, thick wall encircling a small body of water.  A
+dark statue stands in the center of the fountain, gazing at the heavens with a
+broad grin on his face.    
+~
+#5203
+chapak sharp kendermore~
+a razor sharp chapak~
+A chapak has sliced into the earth here.~
+~
+5 jklprwB b 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+chapak sharp~
+   An odd kender weapon is this chapak.  In a shape like a yew stick, yet much
+more solid, an angled blade grows out of the two branching arms.    
+~
+A
+13 3 0
+#5204
+tophat orange hat kendermore~
+a bright, orange tophat~
+A bright orange material is crumpled on the ground.~
+~
+9 jklmnorvwBE ab x 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 340 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tophat orange hat~
+   A round hat, about two hands tall, when not flat and of the brightest orange
+seen most anywhere.    
+~
+A
+9 3 0
+A
+17 -3 0
+#5205
+gavel iron kendermore~
+an iron gavel~
+Resting on its side is a mallet of some metal.~
+~
+5 jklnprwBCDF ab stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 300 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#5206
+blowpipe pipe wooden kendermore~
+a wooden blowpipe~
+A hollowed out stick rolls along here.~
+~
+5 jklopruvwCEF ab stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+blowpipe pipe wooden~
+   A simple hollowed out stick.  Pellets are blown through, and it hurts.    
+~
+#5207
+spoon wooden kendermore~
+a wooden spoon~
+A spoon lay discarded on the ground.~
+~
+8 jklmnopqrstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+spoon wooden~
+   Much care seems to have been taken in the making of this spoon.  It has been
+sanded, and feels smooth to the touch.  A delicate curve on the spoon makes for
+easy use.    
+~
+#5208
+coat fleece black kendermore~
+a black fleece coat~
+A pile of some black material has fallen to the ground.~
+~
+9 jklmnprwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 365 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+coat fleece black~
+   A nice coat, this.  You can wear it in the winter, and without shaving, can
+remove it in the summer!    
+~
+#5209
+scythe darkened steel~
+a scythe of darkened steel~
+A curved blade is lying on the floor.~
+~
+5 kmpqwC 0 b 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+owned by...~
+   This weapon isn't for the zone, it was just for me to try it out.  As well
+as to use when i decide to fight.  *snick
+~
+E
+scythe darkened steel~
+   A charred blade curves a gentle, black crescent as it slices the very air
+while standing still.    
+~
+E
+scythe~
+You see nothing special.
+~
+E
+scythe darkened steel~
+You see nothing special.
+~
+A
+4 10 0
+A
+3 10 0
+A
+1 10 0
+A
+5 10 0
+A
+6 10 0
+A
+2 10 0
+#5210
+mail gold plated heavy kendermore~
+a heavy set of gold plated mail~
+A pile of gold plate has been thrown on the ground.~
+-12~
+9 jklpstF a 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+14 1200 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+heavy~
+You see nothing special.
+~
+E
+mail gold plated~
+   The scrubbing and oiling of this set of armor has scratched off some of the
+gold plating.  Other than that, the mail seems in good shape, as if it were
+only used for show.    
+~
+#5211
+skirt red orange striped kendermore~
+a red and orange striped skirt~
+A pile of bright cloth lay rumpled on the ground.~
+~
+9 jklmpvCDF a tv 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1100 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+skirt bright orange red~
+   Although it constricts the movement of legs, the bright colors and the bold
+cut on the side are quite fashionable this part of the world.    
+~
+A
+17 -6 0
+A
+14 -5 0
+#5212
+cloak kender's kendermore~
+a kender's cloak~
+A kender's cloak is on the ground.~
+~
+9 jklmopruvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 870 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak~
+   This cloak fits oddly, perhaps as it isn't yours.    
+~
+#5213
+scarf purple kendermore~
+a diaphanous purple scarf~
+A thin, purple strand of cloth lies here.~
+-7~
+9 jklmnoprwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1230 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+scarf purple~
+   A cloth so thin, you can see through several layers, yet somehow can keep
+you warm even in the coldest winds.    
+~
+#5214
+key copper kendermore~
+a heavy copper key~
+A key with a dull luster must have been lost here.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+copper key~
+   Most keys aren't this heavy, for simpy opening doors.  However, this copper
+key weighs quite a lot
+~
+#5215
+bowl cracked ~
+a cracked bowl collects dripping water from above.~
+A cracked bowl is strategically placed to collect dripping water.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+305 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bowl cracked~
+   Made of some type of clay, it seems to have lasted rather long.  However, it
+is chipped and cracked from age and use.  The water bowl is still usable, and
+used as well.    
+~
+#5216
+key bronze kendermore~
+a bronze key~
+Reflecting and redirecting the light, a small object on the ground glitters.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+key bronze~
+   Looking shiny as if just sanded, this key is stunningly clean and unmarked.
+~
+#5217
+key green thin kendermore~
+a thin, green key~
+A thin strand of green metal stands alone here, imitating a blade of grass.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+green key thin~
+   Hardly a key at all, more a thin string of a metal, colored green.    
+~
+#5218
+key cheetah tooth kendermore~
+the tooth of a cheetah~
+Gleaming a pearly light of its own, this tooth awaits an owner.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tooth key cheetah~
+   About as long as most kender's hands are, this tooth is huge.  Slightly
+curved, and with a small hole at the base...  This tooth wasn't cared for too
+well.  Just feel lucky you are holding the tooth, and not the whole animal.  
+~
+#5219
+key red painted kendermore~
+a red painted key~
+On the ground, a small red object rests.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+key red painted~
+   Once a dull silver color, someone seems to have thought it a good idea to
+color it red.    
+~
+#5220
+key tusk walrus kendermore~
+a walrus tusk~
+Oddly enough, there seems to be a tusk from a walrus sticking out of the ground.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tusk key walrus~
+   This tusk seems to have not been used much, while still attached, and so is
+in perfect condition.    
+~
+#5221
+water skin waterskin~
+a tanned, leather waterskin~
+A leather water skin slowly drains out onto the ground.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+39 6 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+skin water waterskin~
+   Made of the stretched skin of some animal, this skin looks to hold a nice
+amount of water.    
+~
+#5222
+cup porcelain~
+a porcelain cup~
+A small porcelain cup sits on the ground, ready for someone to step on and break it.~
+~
+17 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cup porcelain~
+   A very thin and fragile cup, yet the material seems perfect for keeping the
+beverage warm.    
+~
+#5223
+snout pig food~
+a pig snout~
+The snout of a pig seems to sniff the air here.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 2 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pig snout~
+   A delicacy.  After all, who wouldn't like this sweet, dried meat?    
+~
+#5224
+bread loaf stale food~
+a stale loaf of bread~
+A loaf of bread hardens as it sits.~
+~
+19 b 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bread stale loaf~
+   Hard to the touch, and dry to the center, this bread would be perfect for
+someone that likes stale bread.  There seems to be a bit of infestation, but
+surely, all bread has it's downfalls.    
+~
+#5225
+lantern tin kendermore~
+a small, tin lantern~
+A lantern sits on the ground, alone and unused...~
+~
+1 jklmnoprstuvwABCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 3 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+lantern tin~
+   A simple piece, this.  The average lantern, beaten out of tin.    
+~
+#5226
+pouch small blue kendermore~
+a small, blue waistpouch~
+A crumpled sack of blue cloth lay on the ground.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 40 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+blue pouch small~
+   What could be more perfect?  A pouch in easy reach, and in a stylish blue
+color!    
+~
+#5227
+chest box~
+a wooden box with a hinged lid~
+A wooden box topped with a hinged lid sits here.~
+~
+15 f 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+box chest~
+   HEY!!!  This is Jim's box!    
+~
+#5228
+yellow pack backpack kendermore~
+a bright yellow backpack~
+Someone has left their yellow backpack here.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 216 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pack backpack yellow~
+   Not only sylish, it is wearable as you walk and throw stuff in.    
+~
+#5229
+potion black tiny~
+a tiny, black potion~
+A tiny, black potion rests here.~
+~
+10 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5230
+purple wand~
+a purple wand~
+A purple wand lay here.~
+~
+3 jksu ac 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5231
+scythe rusting steel kendermore~
+a rusting, steel scythe~
+In the process of rusting into nothing, a scythe lay here.~
+~
+5 jklpruvwBCDE abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 2000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+scythe rusting steel~
+   A curved blade, pocked with rust.  It appears that the decay covering it is
+making it weaker.    
+~
+A
+18 1 0
+#5232
+map solace ground~
+a map of the ground of Solace~
+A map of the ground in Solace is moved along by the wind.~
+~
+13 q 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+map~
+____________________________________________
+|                             __&          |
+|           3               /              |
+|           |^            7_|              |
+|         &_|               |              |
+|           |       4       |              |
+|           |       |^      |              |
+|           |___    |     __|              |
+|                \  +  /    +__1_2         |
+|             5__+__#__+^   |___           |
+|                   +   |\__|   |^         |
+|                   |  6    |              |
+|              8____|^      |              |
+|                           &              |
+|                                          |
+|__________________________________________|
+To see legend, 'read back'
+~
+E
+back~
+1. Brime, Master Sage
+2. Dueling Chamber
+3. Red Moon Festival
+4. The Inn of the Last Home
+5. Solace Library
+6. Weapon and Armor Shops
+7. Solace Stables
+8. Training Pits
+& indicates an exit out of Solace
+# indicates Solace Square
+The ^ indicates a stair well
+~
+#5233
+pile moolah~
+a pile of moolah~
+A pile of moolah has been left here, what a stash.~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

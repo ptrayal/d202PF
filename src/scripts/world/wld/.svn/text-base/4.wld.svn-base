@@ -1,0 +1,1748 @@
+#400
+Standing at the Top of a Steep-Faced Cliff~
+   The tall-grass plains come to an abrupt halt here at the top of a high,
+steep-faced cliff.  Peering over the edge you can see the waves of the Lake Brenneghan
+crashing against a rocky shoreline.  Built into the rocks, and extending quite
+far into the reef is a large wooden dock.  
+~
+4 0 0 0 0 10
+D5
+~
+~
+0 0 401 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 199 0 0 0 0 0 0 0 0
+S
+#401
+Navigating a Rocky, Cliff-Side Pathway~
+   The pathway that snakes down the rocky cliff face is wide but is rather
+steep.  Wagon tracks can be seen on the trail, although it would take some
+strong horses to pull even a light load up this grade.  The nearby shoreline is
+covered in large, jagged rocks making it a very risky landing for ships.  
+However, a huge dock system has been constructed, connecting the jagged rocks,
+and extending far out into the reef.  
+~
+4 0 0 0 0 10
+D4
+~
+~
+0 0 400 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 402 0 0 0 0 0 0 0 0
+S
+#402
+Navigating a Rocky, Cliff-Side Pathway~
+   The pathway that snakes down the rocky cliff face is wide but is rather
+steep.  Wagon tracks can be seen on the trail, although it would take some
+strong horses to pull even a light load up this grade.  The nearby shoreline is
+covered in large, jagged rocks making it a very risky landing for ships.  
+However, a huge dock system has been constructed, connecting the jagged rocks,
+and extending far out into the reef.  
+~
+4 0 0 0 0 10
+D1
+~
+~
+0 0 403 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 401 0 0 0 0 0 0 0 0
+S
+#403
+Moving Through the Dry Reef Docks~
+   These docks are quite obviously recently built.  The wood is soaked from the
+violent crashes of waves against rock.  The layout of the docks appears to be
+rather chaotic, connecting from outcropping to outcropping.  However, the widest
+section of the dock stretches straight out into the reef to connect with any
+incoming ships.  
+~
+4 0 0 0 0 10
+D2
+~
+~
+0 0 404 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 402 0 0 0 0 0 0 0 0
+S
+#404
+Moving Through the Dry Reef Docks~
+   These docks are quite obviously recently built.  The wood is soaked from the
+violent crashes of waves against rock.  The layout of the docks appears to be
+rather chaotic, connecting from outcropping to outcropping.  However, the widest
+section of the dock stretches straight out into the reef to connect with any
+incoming ships.  
+~
+4 0 0 0 0 10
+D0
+~
+~
+0 0 403 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 405 0 0 0 0 0 0 0 0
+S
+#405
+At the End of the Dry Reef Docks~
+   These docks are quite obviously recently built.  The wood is soaked from the
+violent crashes of waves against rock.  The layout of the docks appears to be
+rather chaotic, connecting from outcropping to outcropping.  Here the dock
+stretches straight out into the reef to connect with any incoming ships.  
+~
+4 0 0 0 0 10
+D3
+~
+~
+0 0 404 0 0 0 0 0 0 0 0
+S
+#406
+A Path Through the Forest~
+   This narrow path winds its way through a thick forest.  The path winds its
+way between the trees making it difficult to see anything that is in either
+direction on the path.  The trees are alive with the sounds of forest animals.
+~
+4 0 0 0 0 10
+D6
+~
+~
+0 0 407 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 145 0 0 0 0 0 0 0 0
+S
+#407
+A Path Through the Forest~
+   This narrow path winds its way through a thick forest.  The path winds its
+way between the trees making it difficult to see anything that is in either
+direction on the path.  The trees are alive with the sounds of forest animals.
+~
+4 0 0 0 0 10
+D6
+~
+~
+0 0 408 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 406 0 0 0 0 0 0 0 0
+S
+#408
+Approaching the Outpost~
+You are at the edge of a large cleared section of the forest.  Dominating the
+clearing is a small fortress.  The emblem of the Earth Cultists flies from the
+tops of the four towers on the wooden palisade.  To the southeast a narrow path
+disappears into the thick forest.  
+~
+4 c 0 0 0 10
+D6
+~
+~
+0 0 409 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 407 0 0 0 0 0 0 0 0
+S
+#409
+Before the Earth Cultist Outpost~
+Before you stands the Earth Cultists' outpost near Luskan.  Here the Cultists
+have set up a training camp for new recruits to their priesthood and a place of
+worship for the people of nearby Luskan.  The sturdy looking wooden gates are
+usually open to all.  Guards walk the battlements and stand watch in the towers.
+
+~
+4 c 0 0 0 10
+D0
+~
+~
+0 0 1200 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 408 0 0 0 0 0 0 0 0
+S
+#410
+Traveling Through a Cedar Forest~
+Trees of all types are scattered around the well-trod path that heads from north
+to south.  A short distance to the north, the massive southern gate of the city
+of Luskan stands out from the surrounding cedars.  On the eastern horizon, the
+jagged outline of the mountains creates a breathtaking view.  
+~
+4 0 0 0 0 10
+D0
+~
+~
+0 0 3154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 411 0 0 0 0 0 0 0 0
+S
+#411
+Traveling Through a Cedar Forest~
+   Trees of all types are scattered around this path that heads from north to
+south.  A short distance to the north, the small village of Solace rests
+comfortably among the surrounding Cedars.  On the eastern horizon a
+breathtaking view of the mountains creates a jagged outline on the horizon.  
+~
+4 0 0 0 0 10
+D0
+~
+~
+0 0 410 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 412 0 0 0 0 0 0 0 0
+S
+#412
+Traveling Through a Cedar Forest~
+   Trees of all types are scattered around this path that heads from north to
+south.  A short distance to the north, the small village of Solace rests
+comfortably among the surrounding Cedars.  On the eastern horizon a
+breathtaking view of the mountains creates a jagged outline on the horizon.  
+~
+4 0 0 0 0 10
+D0
+~
+~
+0 0 411 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 413 0 0 0 0 0 0 0 0
+S
+#413
+Traveling Through a Cedar Forest~
+   Trees of all types are scattered around this path that heads from north to
+south.  A short distance to the north, the small village of Solace rests
+comfortably among the surrounding Cedars.  On the eastern horizon a
+breathtaking view of the mountains creates a jagged outline on the horizon.  
+~
+4 c 0 0 0 10
+D0
+~
+~
+0 0 412 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2300 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 414 0 0 0 0 0 0 0 0
+S
+#414
+Near a Small Stream~
+   The path turns slightly here heading for Solace Stream a short distance to
+the west, and Solace itself to the north.  The forest is covered with a blanket
+of vegetation ranging from Cedar Trees to small bushes and shrubs.  The
+path is firm and the footing is good as you move along, and the road is traveled
+fairly often.  
+~
+4 0 0 0 0 10
+D3
+~
+~
+0 0 415 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 413 0 0 0 0 0 0 0 0
+S
+#415
+A Bridge Over Solace Stream~
+   This wooden bridge allows quick and dry passage over the stream that runs
+from Crystalmir Lake to the Lake Brenneghan.  The water in the stream flows swiftly past
+as you gaze into its deep, crystalline depths.  To the east and west is a dense
+forest filled with Cedar Trees and other vegetation.  
+~
+4 0 0 0 0 10
+D1
+~
+~
+0 0 414 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 416 0 0 0 0 0 0 0 0
+S
+#416
+Near a Small Stream~
+   The path ends here as to the east a small stream runs from Crystalmir Lake to
+the Lake Brenneghan.  A bridge spans the width of the water, allowing for dry and quick
+passage.  The forest is covered with a blanket of vegetation ranging from
+Cedar Trees to small bushes and shrubs.  
+~
+4 0 0 0 0 10
+D1
+~
+~
+0 0 415 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 417 0 0 0 0 0 0 0 0
+S
+#417
+A Turn in the Path~
+   There is a sharp turn in the path here as it heads deeper into the forest to
+the south, and leads to a bridge in the east.  Tall trees and other vegetations
+surround the path on either side.  
+~
+4 0 0 0 0 10
+D1
+~
+~
+0 0 416 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 418 0 0 0 0 0 0 0 0
+S
+#418
+A Road Through the Forest~
+   This path runs through a forest which divides two mountain ranges located to
+the east and west.  Travelers often pass by this way, heading north to the
+village of Solace, or South towards Thorbardin and the lands beyond.  The
+vegetation surrounding the path ranges from tall Cedar Trees to small
+bushes and shrubs.  
+~
+4 0 0 0 0 10
+D0
+~
+~
+0 0 417 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 419 0 0 0 0 0 0 0 0
+S
+#419
+A Road Through the Forest~
+   This path runs through a forest which divides two mountain ranges located to
+the east and west.  Travelers often pass by this way, heading north to the
+village of Solace, or South towards Thorbardin and the lands beyond.  The
+vegetation surrounding the path ranges from tall Cedar Trees to small
+bushes and shrubs.  
+~
+4 0 0 0 0 10
+D0
+~
+~
+0 0 418 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 420 0 0 0 0 0 0 0 0
+S
+#420
+A Road Through the Forest~
+   This path runs through a forest which divides two mountain ranges located to
+the east and west.  Travelers often pass by this way, heading north to the
+village of Solace, or South towards Thorbardin and the lands beyond.  The
+vegetation surrounding the path ranges from tall Cedar Trees to small
+bushes and shrubs.  A small path heads off to the west, into the forest.  
+~
+4 0 0 0 0 10
+D0
+~
+~
+0 0 419 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+S
+#421
+A Road Through the Forest~
+   This path runs through a forest which divides two mountain ranges located to
+the east and west.  Travelers often pass by this way, heading north to the
+village of Solace, or South towards Thorbardin and the lands beyond.  The
+vegetation surrounding the path ranges from tall Cedar Trees to small
+bushes and shrubs.  
+~
+4 0 0 0 0 3
+D0
+~
+~
+0 0 420 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 422 0 0 0 0 0 0 0 0
+S
+#422
+A Road Through the Forest~
+   This path runs through a forest which divides two mountain ranges located to
+the east and west.  Travelers often pass by this way, heading north to the
+village of Solace, or South towards Thorbardin and the lands beyond.  The
+vegetation surrounding the path ranges from tall Cedar Trees to small
+bushes and shrubs.  
+~
+4 0 0 0 0 0
+D0
+~
+~
+0 0 421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 423 0 0 0 0 0 0 0 0
+S
+#423
+A Road Through the Forest~
+   This path runs through a forest which divides two mountain ranges located to
+the east and west.  Travelers often pass by this way, heading north to the
+village of Solace, or South towards Thorbardin and the lands beyond.  The
+vegetation surrounding the path ranges from tall Cedar Trees to small
+bushes and shrubs.  To the west of here lies a small complex.  
+~
+4 0 0 0 0 3
+D0
+~
+~
+0 0 422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 424 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 570 0 0 0 0 0 0 0 0
+S
+#424
+Nearing a Mountain Pass~
+   The road has a slight slope to it here as it ascends into a mountain pass to
+the south, and descends into a thick forest in the north.  Small rocks and other
+loose debris lay around the edges of the road.  A recent rainstorm has caused
+the ground to become somewhat muddy and your feet sink slightly as you walk.  
+~
+4 0 0 0 0 3
+D0
+~
+~
+0 0 423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 425 0 0 0 0 0 0 0 0
+S
+#425
+The South Pass~
+   You travel upon a pass between two ranges of mountains that lay to the east
+and west.  A recent rainstorm has caused the ground to become somewhat muddy,
+and your feet sink in as you walk.  There is a smell of decay in the air, and
+birds are circling high above.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 424 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 426 0 0 0 0 0 0 0 0
+S
+#426
+The South Pass~
+   You travel upon a pass between two ranges of mountains that lay to the east
+and west.  A recent rainstorm has caused the ground to become somewhat muddy,
+and your feet sink in as you walk.  There is a smell of decay in the air, and
+birds are circling high above.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 425 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 427 0 0 0 0 0 0 0 0
+S
+#427
+The South Pass~
+   You travel upon a pass between two ranges of mountains that lay to the east
+and west.  A recent rainstorm has caused the ground to become somewhat muddy,
+and your feet sink in as you walk.  There is a smell of decay in the air, and
+birds are circling high above.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 426 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 428 0 0 0 0 0 0 0 0
+S
+#428
+The South Pass~
+   You travel upon a pass between two ranges of mountains that lay to the east
+and west.  A recent rainstorm has caused the ground to become somewhat muddy,
+and your feet sink in as you walk.  There is a smell of decay in the air, and
+birds are circling high above.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 427 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 429 0 0 0 0 0 0 0 0
+S
+#429
+The South Pass~
+   You travel upon a pass between two ranges of mountains that lay to the east
+and west.  A recent rainstorm has caused the ground to become somewhat muddy,
+and your feet sink in as you walk.  There is a smell of decay in the air, and
+birds are circling high above.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 428 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 569 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 430 0 0 0 0 0 0 0 0
+S
+#430
+A Turn in the Road~
+   The road takes a slight turn here, heading north, between two large mountain
+ranges, and east towards the plains.  The path itself seems wide and well
+traveled, though recent rains have muddied it somewhat.  A very faint set of
+footprints head into the hilly forested land towards the west.  
+~
+4 0 0 0 0 2
+D1
+~
+~
+0 0 431 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 429 0 0 0 0 0 0 0 0
+S
+#431
+A Road Through the Plains~
+   This road runs from east to west through a barren plain.  In the west is the
+mountains and in the east the road continues on into the horizon.  There is
+little vegetation surrounding the path, and the lack of rain has caused the
+ground to become hard.  
+~
+4 0 0 0 0 2
+D1
+~
+~
+0 0 432 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 430 0 0 0 0 0 0 0 0
+S
+#432
+A Road Through the Plains~
+   This road runs from east to west through a barren plain.  In the west is the
+mountains and in the east the road continues on into the horizon.  There is
+little vegetation surrounding the path, and the lack of rain has caused the
+ground to become hard.  
+~
+4 0 0 0 0 2
+D1
+~
+~
+0 0 433 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 431 0 0 0 0 0 0 0 0
+S
+#433
+A Road Through the Plains~
+   This road runs from east to west through a barren plain.  In the west is the
+mountains and in the east the road continues on into the horizon.  There is
+little vegetation surrounding the path, and the lack of the rain has caused the
+ground to become hard.  
+~
+4 0 0 0 0 2
+D1
+~
+~
+0 0 434 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 432 0 0 0 0 0 0 0 0
+S
+#434
+A Road Through the Plains~
+   This road runs from east to west through a barren plain.  In the west is the
+mountains and in the east the road continues on into the horizon.  There is
+little vegetation surrounding the path, and the lack of the rain has caused the
+ground to become hard.  
+~
+4 0 0 0 0 2
+D1
+~
+~
+0 0 435 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 433 0 0 0 0 0 0 0 0
+S
+#435
+Standing at a Small Crossroads~
+   A north-south road encounters the east-west path, which ends here.  A short
+distance to the east, a small village can be seen.  The grass grows better here,
+and stands about knee high.  
+~
+4 0 0 0 0 2
+D2
+~
+~
+0 0 436 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 434 0 0 0 0 0 0 0 0
+S
+#436
+Traveling Through the Plains~
+   The road is covered with patches of grass, and does not appear to be traveled
+often.  Surrounding the road is a vast, open plain with grass that is knee-high.
+The road runs north to south and stretches into the horizon.  
+~
+4 0 0 0 0 2
+D0
+~
+~
+0 0 435 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 566 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 437 0 0 0 0 0 0 0 0
+S
+#437
+Traveling Through the Plains~
+   The road is covered with patches of grass, and does not appear to be traveled
+often.  Surrounding the road is a vast, open plain with grass that is knee-high.
+The road runs north to south and stretches into the horizon.  
+~
+4 0 0 0 0 2
+D0
+~
+~
+0 0 436 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 438 0 0 0 0 0 0 0 0
+S
+#438
+Traveling Through the Plains~
+   The road is covered with patches of grass, and does not appear to be traveled
+often.  Surrounding the road is a vast, open plain with grass that is knee-high.
+The road runs north to south and stretches into the horizon.  
+~
+4 0 0 0 0 2
+D7
+~
+~
+0 0 437 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 439 0 0 0 0 0 0 0 0
+S
+#439
+Traveling Through the Plains~
+   The road is covered with patches of grass, and does not appear to be traveled
+often.  Surrounding the road is a vast, open plain with grass that is knee-high.
+The road runs north to south and stretches into the horizon.  
+~
+4 0 0 0 0 2
+D2
+~
+~
+0 0 440 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 438 0 0 0 0 0 0 0 0
+S
+#440
+Traveling Through the Plains~
+   The road is covered with patches of grass, and does not appear to be traveled
+often.  Surrounding the road is a vast, open plain with grass that is knee-high.
+The road runs north to south and stretches into the horizon.  
+~
+4 c 0 0 0 2
+D0
+~
+~
+0 0 439 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 441 0 0 0 0 0 0 0 0
+S
+#441
+Traveling Through the Plains~
+   The road is covered with patches of grass, and does not appear to be traveled
+often.  Surrounding the road is a vast, open plain with grass that is knee-high.
+The road runs north to south and stretches into the horizon.  
+~
+4 0 0 0 0 2
+D0
+~
+~
+0 0 440 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 442 0 0 0 0 0 0 0 0
+S
+#442
+Traveling Through the Plains~
+   The road is covered with patches of grass, and does not appear to be traveled
+often.  Surrounding the road is a vast, open plain with grass that is knee-high.
+The road runs north to south and stretches into the horizon.  To the southwest,
+a smaller path veers off the main road.  
+~
+4 0 0 0 0 2
+D6
+~
+~
+0 0 441 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 443 0 0 0 0 0 0 0 0
+S
+#443
+Veering Off the Road~
+   A small path veers off the road here and heads for a forest to the southwest.
+The origins of the path are uncertain, but its direction cuts directly for the
+forest, known as Qualinesti and home of the Qualinesti elves.  The path consists
+of broken down grass cleared away by some type of movement along it.  The path
+does not appear to be very old.  
+~
+4 0 0 0 0 1
+D7
+~
+~
+0 0 442 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 444 0 0 0 0 0 0 0 0
+S
+#444
+Veering Off the Road~
+   A small path veers off the road here and heads for a forest to the southwest.
+The origins of the path are uncertain, but its direction cuts directly for the
+forest, known as Qualinesti and home of the Qualinesti elves.  The path consists
+of broken down grass cleared away by some type of movement along it.  The path
+does not appear to be very old.  
+~
+4 0 0 0 0 1
+D7
+~
+~
+0 0 443 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 445 0 0 0 0 0 0 0 0
+S
+#445
+Veering Off the Road~
+   A small path veers off the road here and heads for a forest to the southwest.
+The origins of the path are uncertain, but its direction cuts directly for the
+forest, known as Qualinesti and home of the Qualinesti elves.  The path consists
+of broken down grass cleared away by some type of movement along it.  The path
+does not appear to be very old.  
+~
+4 c 0 0 0 1
+D7
+~
+~
+0 0 444 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 446 0 0 0 0 0 0 0 0
+S
+#446
+Nearing a Large Forest~
+   The path begins to narrow as the forest to the southwest gets close.  The
+trees appear to have been shaped somehow into intricate and beautiful patterns.
+Not a sound comes from the forest, but a presence can be felt that causes one to
+think twice about entering.  
+~
+4 c 0 0 0 1
+D7
+~
+~
+0 0 445 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 447 0 0 0 0 0 0 0 0
+S
+#447
+The Edge of the Forest~
+   The edge of the forest is like a wall of trees that seem to go on for miles
+in each direction.  You can barely make out a path entering the forest a few
+feet to your left, but it is difficult to tell how far it goes before the forest
+surrounds it.  
+~
+4 0 0 0 0 1
+D7
+~
+~
+0 0 446 0 0 0 0 0 0 0 0
+S
+#448
+The Southern Plains~
+   The road is covered with patches of grass here, and does not appear to be
+traveled often.  To the south you can hear the rush of water as a river splits
+the plains, heading into the Lake Brenneghan.  The grass around the road is knee high,
+and stretches as far as you can see.  
+~
+4 c 0 0 0 1
+D6
+~
+~
+0 0 2631 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 449 0 0 0 0 0 0 0 0
+S
+#449
+The Southern Plains~
+   The road is covered with patches of grass here, and does not appear to be
+traveled often.  To the south you can hear the rush of water as a river splits
+the plains, heading into the Lake Brenneghan.  The grass around the road is knee high,
+and stretches as far as you can see.  
+~
+4 c 0 0 0 1
+D6
+~
+~
+0 0 448 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 450 0 0 0 0 0 0 0 0
+S
+#450
+The Southern Plains~
+   The road is covered with patches of grass here, and does not appear to be
+traveled often.  To the south you can hear the rush of water as a river splits
+the plains, heading into the Lake Brenneghan.  The grass around the road is knee high,
+and stretches as far as you can see.  
+~
+4 0 0 0 0 1
+D2
+~
+~
+0 0 451 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 449 0 0 0 0 0 0 0 0
+S
+#451
+Near a Large Bridge~
+   A large bridge spans across the gap of a raging river just to the south.  
+Along the road are patches of grass, indicating that this way is not traveled
+often.  The road continues north and south.  In the distant south, mountains
+loom up.  
+~
+4 0 0 0 0 1
+D0
+~
+~
+0 0 450 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 452 0 0 0 0 0 0 0 0
+S
+#452
+Oldroad Bridge~
+   The river below moves at a swift pace.  The bridge is made of wood and metal
+in a few spots, holding it together well.  It was built centuries ago by the
+dwarves to make easier access to their kingdom for trade.  It has fallen into
+mis-use though since the Cataclysm.  The river is known as the White-rage.  
+~
+4 0 0 0 0 1
+D0
+~
+~
+0 0 451 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 453 0 0 0 0 0 0 0 0
+S
+#453
+Crossing a Barren Landscape~
+   A raging river lies just to the north, with a bridge spanning across it
+allowing for safe passage.  There is little vegetation along the road here, and
+in the distant south a mountain range looms on the horizon.  
+~
+4 0 0 0 0 1
+D0
+~
+~
+0 0 452 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 454 0 0 0 0 0 0 0 0
+S
+#454
+Crossing a Barren Landscape~
+   A raging river lies just to the north, with a bridge spanning across it
+allowing for safe passage.  There is little vegetation along the road here, and
+in the distant south a mountain range looms on the horizon.  
+~
+4 0 0 0 0 1
+D2
+~
+~
+0 0 455 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 453 0 0 0 0 0 0 0 0
+S
+#455
+Crossing a Barren Landscape~
+   A raging river lies just to the north, with a bridge spanning across it
+allowing for safe passage.  There is little vegetation along the road here, and
+in the distant south a mountain range looms on the horizon.  
+~
+4 0 0 0 0 1
+D0
+~
+~
+0 0 454 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 456 0 0 0 0 0 0 0 0
+S
+#456
+Approaching a Mountain Range~
+   A mountain range, home of the dwarves of Thorbardin, lies a short distance to
+the south.  The path is empty and barren here, as the dwarves have long ago shut
+their doors to the outside world.  There is no vegetation along the road, and
+the dust kicked up by the wind causes you to choke slightly.  
+~
+4 0 0 0 0 1
+D2
+~
+~
+0 0 457 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 455 0 0 0 0 0 0 0 0
+S
+#457
+Within the Mountains~
+   The mountain range encloses this valley from the east and west, leaving a
+view of only the road going north and south.  There is no life here, as
+vegetation is scarce and long ago, the dwarves shut down this route for travel
+by shutting the doors to their kingdom.  To the east, a small crack appears in
+the wall of the rock formation, partially hidden by some dead brush.  
+~
+4 0 0 0 0 1
+D0
+~
+~
+0 0 456 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 458 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 459 0 0 0 0 0 0 0 0
+S
+#458
+Stepping Through the Crack~
+   As you step into this crack in the rocks, a wide valley appears to the east.
+The valley stretches out for a short distance, and then turns into a marshland,
+which is odd for the climate here.  In the west, the road continues back to the
+north.  
+~
+4 0 0 0 0 2
+D3
+~
+~
+0 0 457 0 0 0 0 0 0 0 0
+S
+#459
+A Road Through the Mountains~
+   A path leads through the mountains towards the north and south.  High, jagged
+peaks tower in the air above and at the very tips, snow is visible.  There is
+very little vegetation and virtually no animal life, save for a few spiders or
+snakes.  Vision is limited as the path is curved and sometimes steep.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 457 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 460 0 0 0 0 0 0 0 0
+S
+#460
+A Road Through the Mountains~
+   The path through the mountains is rugged and steep.  Overhead, the peaks rise
+majestically and are capped with snow.  As the light shines off of them, a
+dazzling display of deep colors can be seen.  There is very little plant or
+animal life here, save for a few spiders or lizards.  The path itself is made of
+stone and seems to be ancient as there are not many tracks upon it.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 459 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 461 0 0 0 0 0 0 0 0
+S
+#461
+A Path Through the Mountains~
+   Towering peaks surround this ancient path in every direction and the very
+tips of them are covered in snow.  The path is steep, jagged, and extremely
+difficult to navigate.  The lack of vegetation and animal life gives the scenery
+a desolate feel and the path does not look very well traveled.  An occasional
+spider or snake can be seen scurrying by and a slight chilly breeze blows
+through the air.  
+~
+4 0 0 0 0 5
+D6
+~
+~
+0 0 460 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 462 0 0 0 0 0 0 0 0
+S
+#462
+A Path Through the Mountains~
+   Towering peaks surround this ancient path in every direction and the very
+tips of them are covered in snow.  The path is steep, jagged, and extremely
+difficult to navigate.  The lack of vegetation and animal life gives the scenery
+a desolate feel and the path does not look very well traveled.  An occasional
+spider or snake can be seen scurrying by and a slight chilly breeze blows
+through the air.  
+~
+4 0 0 0 0 5
+D2
+~
+~
+0 0 463 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 461 0 0 0 0 0 0 0 0
+S
+#463
+A Road Through the Mountains~
+   The path through the mountains is rugged and steep.  Overhead, the peaks rise
+majestically and are capped with snow.  As the light shines off of them, a
+dazzling display of deep colors can be seen.  There is very little plant or
+animal life here, save for a few spiders or lizards.  The path itself is made of
+stone and seems to be ancient as there are not many tracks upon it.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 462 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 464 0 0 0 0 0 0 0 0
+S
+#464
+A Path Through the Mountains~
+   Towering peaks surround this ancient path in every direction and the very
+tips of them are covered in snow.  The path is steep, jagged, and extremely
+difficult to navigate.  The lack of vegetation and animal life gives the scenery
+a desolate feel and the path does not look very well traveled.  An occasional
+spider or snake can be seen scurrying by and a slight chilly breeze blows
+through the air.  
+~
+4 0 0 0 0 5
+D7
+~
+~
+0 0 463 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 465 0 0 0 0 0 0 0 0
+S
+#465
+A Path Through the Mountains~
+   Towering peaks surround this ancient path in every direction and the very
+tips of them are covered in snow.  The path is steep, jagged, and extremely
+difficult to navigate.  The lack of vegetation and animal life gives the scenery
+a desolate feel and the path does not look very well traveled.  An occasional
+spider or snake can be seen scurrying by and a slight chilly breeze blows
+through the air.  
+~
+4 0 0 0 0 5
+D1
+~
+~
+0 0 466 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 464 0 0 0 0 0 0 0 0
+S
+#466
+A Road Through the Mountains~
+   The path through the mountains is rugged and steep.  Overhead, the peaks rise
+majestically and are capped with snow.  As the light shines off of them, a
+dazzling display of deep colors can be seen.  There is very little plant or
+animal life here, save for a few spiders or lizards.  The path itself is made of
+stone and seems to be ancient as there are not many tracks upon it.  
+~
+4 0 0 0 0 4
+D3
+~
+~
+0 0 465 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 467 0 0 0 0 0 0 0 0
+S
+#467
+Upon a Mountainside~
+   This ancient and jagged path scales a mountainside and is extremely difficult
+to keep a good footing upon.  Towering peaks rise overhead with their snow caps
+and a chilly breeze blows almost constantly.  There is no vegetation or animal
+life present and the scenery is merely grey stone and more mountains.  Loose
+rubble is present all about and there are no tracks to prove this road is very
+well traveled.  
+~
+4 0 0 0 0 5
+D2
+~
+~
+0 0 468 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 466 0 0 0 0 0 0 0 0
+S
+#468
+Upon a Mountainside~
+   This ancient and jagged path scales a mountainside and is extremely difficult
+to keep a good footing upon.  Towering peaks rise overhead with their snow caps
+and a chilly breeze blows almost constantly.  There is no vegetation or animal
+life present and the scenery is merely grey stone and more mountains.  Loose
+rubble is present all about and there are no tracks to prove this road is very
+well traveled.  
+~
+4 0 0 0 0 5
+D0
+~
+~
+0 0 467 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 469 0 0 0 0 0 0 0 0
+S
+#469
+A Road Through the Mountains~
+   The path through the mountains is rugged and steep.  Overhead, the peaks rise
+majestically and are capped with snow.  As the light shines off of them, a
+dazzling display of deep colors can be seen.  There is very little plant or
+animal life here, save for a few spiders or lizards.  The path itself is made of
+stone and seems to be ancient as there are not many tracks upon it.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 468 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 470 0 0 0 0 0 0 0 0
+S
+#470
+Upon a Mountainside~
+   This ancient and jagged path scales a mountainside and is extremely difficult
+to keep a good footing upon.  Towering peaks rise overhead with their snow caps
+and a chilly breeze blows almost constantly.  There is no vegetation or animal
+life present and the scenery is merely grey stone and more mountains.  Loose
+rubble is present all about and there are no tracks to prove this road is very
+well traveled.  
+~
+4 0 0 0 0 5
+D6
+~
+~
+0 0 469 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 471 0 0 0 0 0 0 0 0
+S
+#471
+A Road Through the Mountains~
+   The path through the mountains is rugged and steep.  Overhead, the peaks rise
+majestically and are capped with snow.  As the light shines off of them, a
+dazzling display of deep colors can be seen.  There is very little plant or
+animal life here, save for a few spiders or lizards.  The path itself is made of
+stone and seems to be ancient as there are not many tracks upon it.  
+~
+4 0 0 0 0 4
+D6
+~
+~
+0 0 470 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 472 0 0 0 0 0 0 0 0
+S
+#472
+A Road Through the Mountains~
+   The path through the mountains is rugged and steep.  Overhead, the peaks rise
+majestically and are capped with snow.  As the light shines off of them, a
+dazzling display of deep colors can be seen.  There is very little plant or
+animal life here, save for a few spiders or lizards.  The path itself is made of
+stone and seems to be ancient as there are not many tracks upon it.  
+~
+4 0 0 0 0 4
+D6
+~
+~
+0 0 471 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 473 0 0 0 0 0 0 0 0
+S
+#473
+Upon a Mountainside~
+   This ancient and jagged path scales a mountainside and is extremely difficult
+to keep a good footing upon.  Towering peaks rise overhead with their snow caps
+and a chilly breeze blows almost constantly.  There is no vegetation or animal
+life present and the scenery is merely grey stone and more mountains.  Loose
+rubble is present all about and there are no tracks to prove this road is very
+well traveled.  
+~
+4 0 0 0 0 5
+D4
+~
+~
+0 0 474 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 472 0 0 0 0 0 0 0 0
+S
+#474
+Upon a Mountainside~
+   This ancient and jagged path scales a mountainside and is extremely difficult
+to keep a good footing upon.  Towering peaks rise overhead with their snow caps
+and a chilly breeze blows almost constantly.  There is no vegetation or animal
+life present and the scenery is merely grey stone and more mountains.  Loose
+rubble is present all about and there are no tracks to prove this road is very
+well traveled.  
+~
+4 0 0 0 0 5
+D4
+~
+~
+0 0 475 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 473 0 0 0 0 0 0 0 0
+S
+#475
+Upon A Mountain Peak~
+   Upon the highest point of this mountain, the view is immaculate with a vast
+mountain range spreading out as far as the eye can see.  Patches of snow spot
+this area and it is extremely cold.  The path is barely visible here and is
+marked by a few ancient piles of stones which serve as markers.  There is no
+plant life or vegetation here and in the distance to the southeast, a walled
+fortress can be seen in a deep valley.  
+~
+4 0 0 0 0 5
+D5
+~
+~
+0 0 474 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 476 0 0 0 0 0 0 0 0
+S
+#476
+Upon a Mountainside~
+   This ancient and jagged path scales a mountainside and is extremely difficult
+to keep a good footing upon.  Towering peaks rise overhead with their snow caps
+and a chilly breeze blows almost constantly.  There is no vegetation or animal
+life present and the scenery is merely grey stone and more mountains.  Loose
+rubble is present all about and there are no tracks to prove this road is very
+well traveled.  
+~
+4 0 0 0 0 5
+D2
+~
+~
+0 0 477 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 475 0 0 0 0 0 0 0 0
+S
+#477
+A Trail on a Steep Mountainside~
+   The path leads up and down this mountainside and is extremely difficult to
+keep a good foot upon.  There are no tracks upon the trail and no signs of any
+vegetation or wildlife, giving this place an ancient, desolate feel.  Tall peaks
+can be seen in all directions and to the south, a deep valley begins to form
+creating a pass through the mountains.  Snow capped peaks can be seen jutting
+high in the sky in every direction.  
+~
+4 0 0 0 0 5
+D0
+~
+~
+0 0 476 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 484 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 478 0 0 0 0 0 0 0 0
+S
+#478
+A Trail on a Steep Mountainside~
+   The path leads up and down this mountainside and is extremely difficult to
+keep a good foot upon.  There are no tracks upon the trail and no signs of any
+vegetation or wildlife, giving this place an ancient, desolate feel.  Tall peaks
+can be seen in all directions and to the south, a deep valley begins to form
+creating a pass through the mountains.  Snow capped peaks can be seen jutting
+high in the sky in every direction.  
+~
+4 0 0 0 0 5
+D0
+~
+~
+0 0 477 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 479 0 0 0 0 0 0 0 0
+S
+#479
+Inside a Deep Gorge~
+   The path here leads south into a deep gorge of the mountain range and north
+up into the mountains.  This pass through the mountains is known to be the only
+route to the southern lands of Ansalon.  High snowcapped peaks can be seen on
+both sides of the gorge and further southwards, a high walled fortress guards
+the pass.  There is very little vegetation or animal life here, only a few tufts
+of weeds can be seen jutting through some rocks.  
+~
+4 0 0 0 0 5
+D4
+~
+~
+0 0 478 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 480 0 0 0 0 0 0 0 0
+S
+#480
+Inside a Deep Gorge~
+   The path here leads south into a deep gorge of the mountain range and north
+up into the mountains.  This pass through the mountains is known to be the only
+route to the southern lands of Ansalon.  High snowcapped peaks can be seen on
+both sides of the gorge and further southwards, a high walled fortress guards
+the pass.  There is very little vegetation or animal life here, only a few tufts
+of weeds can be seen jutting through some rocks.  
+~
+4 0 0 0 0 5
+D6
+~
+~
+0 0 479 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 481 0 0 0 0 0 0 0 0
+S
+#481
+Near a High-Walled Fortress~
+   The road here leads northwards into the only known pass of this mountain
+range and south towards a high walled fortress.  The scene is mostly grey rock
+and stone and high above, snowcapped peaks can be seen towering over this place.
+There is very little vegetation or animal life here with only a few weeds
+jutting from the rocks and rubble here and there.  Thick bellows of smoke can be
+seen rising from behind the high fortress wall.  
+~
+4 0 0 0 0 4
+D2
+~
+~
+0 0 482 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 480 0 0 0 0 0 0 0 0
+S
+#482
+Before the Gates of Pax Tharkas~
+   The high walled fortress of Pax Tharkas stands immensely tall and stretches
+from one side of the mountain pass to the other side with no way around it.  
+The wall seems to be built out of the mountains themselves.  The gorge leads
+further north and a road extends in that direction as well.  High peaks can be
+seen overhead with their snowy caps and very little vegetation grows around
+here.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 481 0 0 0 0 0 0 0 0
+S
+#483
+A new room~
+You are in an unfinished room.
+~
+4 0 0 0 0 0
+S
+#484
+Aside a Steep Mountainside~
+   This desolate pathway winds throughout the mountains, seemingly without end.
+Far to the southwest, a snow drenched valley splits the land like a gaping
+wound, defying all who would enter.  Daunting jagged peaks rise in all
+directions, although the rugged path continues to the southeast.  
+~
+4 0 0 0 0 3
+D3
+~
+~
+0 0 477 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 485 0 0 0 0 0 0 0 0
+S
+#485
+Approaching a Slight Decline~
+   Devoid of vegetation or life, this mountain path begins to snake between
+peaks so mighty as to dwarf a god.  Not even scrub pines line this trail, and it
+is a wonder who made it, as no tracks are noticeable.  The barren pathway
+continues to the northwest, while a decline is partially visible to the south.
+~
+4 0 0 0 0 3
+D2
+~
+~
+0 0 486 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 484 0 0 0 0 0 0 0 0
+S
+#486
+Atop a Barren Mountain~
+   Nothing could be more desolate then this mountain plateau, as there is not a
+trace of animals or vegetation to be seen.  Mammoth snow-laden peaks surround
+the plateau on all sides, screaming towards the heavens.  The footing atop this
+mountain is very difficult, with pieces of mountain rock impeding movement.  
+Between two imposing boulders, a scraggly path can be seen to the north, while a
+precarious trail winds its way down the mountainside.  
+~
+4 0 0 0 0 3
+D0
+~
+~
+0 0 485 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 487 0 0 0 0 0 0 0 0
+S
+#487
+Along a Mountainside~
+   This barren pathway snakes its way up the mountainside.  Not a sound can be
+heard, and the area is devoid of life of any kind.  The footing on this trail is
+treacherous, with loose stone crumbling underfoot.  High above, a plateau can be
+faintly seen through the mist.  
+~
+4 0 0 0 0 3
+D2
+~
+~
+0 0 488 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 486 0 0 0 0 0 0 0 0
+S
+#488
+Along a Mountainside~
+   This barren pathway snakes its way up the mountainside.  Not a sound can be
+heard, and the area is devoid of life of any kind.  The footing on this trail is
+treacherous, with loose stone crumbling underfoot.  High above, a plateau can be
+faintly seen through the mist.  
+~
+4 0 0 0 0 3
+D0
+~
+~
+0 0 487 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 489 0 0 0 0 0 0 0 0
+S
+#489
+Beginning of a Mountain Trail~
+   Rising into the clouds, this mountain is quite daunting, seeming to defy all
+those who would attempt to scale it.  A few pine trees are the only life visible
+around this mammoth obstacle, and closer inspection shows even less life farther
+up the mountain.  A dangerous path is visible along the peak, without tracks of
+any sort to identify whomever created it.  To the southwest, lush hills beckon
+invitingly, a vast difference to this bleak and ancient behemoth.  
+~
+4 0 0 0 0 3
+D4
+~
+~
+0 0 488 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 490 0 0 0 0 0 0 0 0
+S
+#490
+Approaching a Massive Peak~
+   Beautiful green hills stretch far in the distance, covered with trees and
+life of all kinds.  Small woodland creatures are scurrying underfoot, creating
+their own paths in the foliage.  Birds singing their sweet melodies complete
+this picture of nature.  Looking to the northeast, a gigantic mountain can be
+seen jutting into the sky, its top lost in mist.  
+~
+4 c 0 0 0 4
+D7
+~
+~
+0 0 489 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 491 0 0 0 0 0 0 0 0
+S
+#491
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D2
+~
+~
+0 0 492 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 490 0 0 0 0 0 0 0 0
+S
+#492
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 491 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 493 0 0 0 0 0 0 0 0
+S
+#493
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D2
+~
+~
+0 0 494 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 492 0 0 0 0 0 0 0 0
+S
+#494
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 493 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 495 0 0 0 0 0 0 0 0
+S
+#495
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 494 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 496 0 0 0 0 0 0 0 0
+S
+#496
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D7
+~
+~
+0 0 495 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 497 0 0 0 0 0 0 0 0
+S
+#497
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D7
+~
+~
+0 0 496 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 498 0 0 0 0 0 0 0 0
+S
+#498
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D2
+~
+~
+0 0 499 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 497 0 0 0 0 0 0 0 0
+S
+#499
+Traveling Through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.  
+~
+4 0 0 0 0 4
+D0
+~
+~
+0 0 498 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 500 0 0 0 0 0 0 0 0
+S
+$~

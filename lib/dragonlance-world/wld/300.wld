@@ -1,0 +1,829 @@
+#30000
+The Hall of Judgement~
+   You step forth from beyond the veil and into the realm of Chemosh.  You are
+neither dead nor alive, and your presence here at the Hall of Judgement, given
+that fact, means that you must go forth into Krynn, and leave this place of
+stasis.  A ghostly being, a herald of some sort, urges you north through a set
+of black, wrought-iron gates.  A voice speaks to your mind telling you to use
+the @Ynewbie@n command if you need any help at any time.  If you are completely
+new to muds please go east by typing @Yeast@n to begin the beginners lessons.  
+If you have already created your character please go @Ywest@n to go to
+Palanthas.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30015 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 30005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+S
+#30001
+Choose Your Race~
+Since all beings are created with a gender, you are urged by Kelemvor's servants
+here to select the race you would choose for your being during your life on
+Toril.  It is said that the Gods allow some stalwart followers of their to
+reincarnate as advanced races, and if you are one of these lucky fellows you may
+ask any deity in the heavens above to change your race now, if indeed there are
+any available for such a task.  However, if you are like most souls coming
+through these gates, you must choose a common race.  But be not vexed for this,
+as the common races, though plentiful, are as rich in culture and are by no
+means left aside in the realm of ability either.  The ghostly servant escorting
+you through your journey of creation explains to you that you may receive a
+message to your mind of what races are available through the @Ylistraces@n
+command.  Once you are ready to choose a race, you simply must use the
+@Ysetrace@n command followed by the name of the race you wish to become.  For
+example: @Ysetrace icefolk barbarian@n.  This would set your race to that of the
+icefolk barbarians common in the far reaches of the North such as Icewind Dale.
+When you have chosen your race simply go north to continue your creation.  If
+you need information on a race, use help @Yrace <racename>@n, or just type
+@Yhelp races@n for a full list.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30015 0 0 0 0 0 0 0 0
+S
+#30002
+Choose Your Alignment~
+   Here Kelemvor's servants urge you to select an alignment.  This should be an
+easy choice for most spirits, as they each have their own personalities from the
+beginning.  However each spirit has the choice to alter that personality before
+they are born on Faerun.  To change your alignment you may use @Ysetalign@n
+<alignment>.  Your alignment is one of good, neutral or evil.  To set your
+ethos, use @Ysetethos@n <ethos> Your ethos is one of lawful, nuetral or chaotic.
+Your full alignment is your ethos followed by your alignment.  So lawful good
+for example.  Your alignment will determine what equipment you can use, what
+classes you can choose, and other aspects of being in the world of Faerun.  You
+are urged to go north once you have chosen your alignment and ethos.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30001 0 0 0 0 0 0 0 0
+S
+#30003
+Choose Your Ability Scores~
+   You are urged into this area by Kelemvor's servants to set your ability
+scores.  You can do this by using the @Ysetstats@n command.  The proper syntax
+is @Ysetstats @Y<ability @Yscore> @Y<new @Yscore>@n or @Ysetstats @Yshow@n to
+display your stats.  For example, @Ysetstats @Ystrength @Y16@n would set your
+strength to 16 if you had enough points to buy that score.  You start off with
+20 stat points to assign, and the higher the stat the more points it costs.  
+The available ability scores are strength, dexterity, constitution,
+intelligence, wisdom and charisma.  Type @Yhelp @Yability @Yscore @Y<name>@n for
+more information on each ability score.  
+No stat can be set below 8.
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30004 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30002 0 0 0 0 0 0 0 0
+S
+#30004
+Choose Your Description~
+   The servants of Kelemvor urge you here to describe your physical form.  You
+may do this by using @Ysetdescs@n.  This will take you to a menu where you can
+choose the various descriptors for your character.  If you do not see a
+descriptor that you would like to have, please tell a God and it will be added
+for you to choose later.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30019 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30003 0 0 0 0 0 0 0 0
+S
+#30005
+Beginner's Lesson 1 - Directional Movement~
+   @nTo move around the mud you must type the name of the direction you want to
+go.  You may see which directions are available by typing @Yexits@n, or if you have
+@Yautoexit@n enabled it will display the exits in the room automatically when you
+look or move.  The @Yauto@Ymap@n@n and @Ymap@n commands as well can help to see where things
+are.  On the map you are in the room with the exclamation mark (@B!@n).  Go east
+to continue or go down to test out moving in different directions.  
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 30007 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30000 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+S
+#30006
+Beginner's Lesson 1 - Testing Directional Movement~
+   Here you may test out directional movement.  All of the exits lead back to
+this room, so don't worry about getting lost.  Go @Yup@n@N again when you are
+done.  
+~
+300 0 0 0 0 0
+D0
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 30005 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+D11
+~
+~
+0 0 30006 0 0 0 0 0 0 0 0
+S
+#30007
+Beginner's Lesson 2 - Looking~
+   You wil undoubtedly want to get greater detail on things throughout the game,
+and one of the ways you can do this is by looking at them.  To look in the room
+you are in simply type @Ylook@n.  To look at another player or a monster
+(otherwise known as mob) type @Ylook @Y<name @Yor @Ydescription>@n To look at an
+object type @Ylook @Y<object @Ydescription @Ykeyword>@n.  You can test this out
+by typing @Ylook@n, @Ylook @Yself@n, and @Ylook @Ymap@n to look at the map in
+your inventory.  
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 30008 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30005 0 0 0 0 0 0 0 0
+S
+#30008
+Beginner's Lesson 3 - Doors~
+   Sometimes exits are blocked with a door of some kind whether it be an actual
+door, a sewer manhole, a gate, or what have you.  In order to open it, you must
+type @Yopen @Y<door @Ykeyword>@n.  If it is locked and you have the key, you can
+unlock it using the @Yunlock @Y<door @Ykeyword>@n command.  If you have the pick
+locks skill practiced, you can pick the lock by typing @Ypick @Y<door
+@Ykeyword>@n.  Sometimes exits are hidden and you are able to find them by using
+the @Ysearch @Y<direction>@N command.  @n
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 30009 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30007 0 0 0 0 0 0 0 0
+S
+#30009
+Beginner's Lesson 4 - Containers~
+   You will often interact with containers such as bags and backpacks throughout
+the game.  In order to get something from the container, whether it be a bag or
+a corpse of the mob you just killed, you will need to type @Yget @Y<item
+@Ykeyword> @Y<container @Ykeyword>@n.  For example, get coins corpse.  You can
+also get all items from a container by typing @Yget @Yall @Y<container
+@Ykeyword>@n.  If you want to put something in a container type @Yput @Y<item
+@Ykeyword> @Y<container @Ykeyword>@n, and just like get, you can use the all
+keyword in place of the item keyword to put everything in your inventory into a
+container.  You can see what is typeing @Yinventory@n or just @Yi@n@N for short.
+
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 30010 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30008 0 0 0 0 0 0 0 0
+S
+#30010
+Beginner's Lesson 5 - Equipment~
+   You will undoubtedly want to use the items you find and in order to do so you
+will need to learn a few new commands.  If the item is a weapon, you can start
+using it by typing @Ywield @Y<weapon @Ykeyword@n>.  
+~
+300 0 0 0 0 0
+D3
+~
+~
+0 0 30009 0 0 0 0 0 0 0 0
+S
+#30011
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 30012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30010 0 0 0 0 0 0 0 0
+S
+#30012
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 30013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30011 0 0 0 0 0 0 0 0
+S
+#30013
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 30014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30012 0 0 0 0 0 0 0 0
+S
+#30014
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+300 0 0 0 0 0
+D3
+~
+~
+0 0 30013 0 0 0 0 0 0 0 0
+S
+#30015
+Please Read the Rules~
+   Before you begin creating your character we require you to familiarize
+yourself with the rules of the game.  You will be required to read each help
+file in the '@Yhelp @Yrules@n' help file.  Once all are read you will be able to
+continue with your character creation.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30000 0 0 0 0 0 0 0 0
+S
+#30016
+An unfinished room~
+You are in an unfinished room.
+~
+300 d 0 0 0 0
+S
+#30017
+a Rangery Bedroom~
+A skylight covers the entire ceiling.  A huge hammock is neatly made with
+several soft cozy blankets and a fluffy pillow.  One always has sweet dreams
+here.  Ink, quill, and parchment sit on a small oak desk with chair half pushed
+in.  
+~
+300 0 0 0 0 0
+D5
+~
+~
+0 0 30016 0 0 0 0 0 0 0 0
+S
+#30018
+Pathway through a patch of yellow roses~
+A path of sparkling white stones lead to a well taken care of home right to the
+front door.  Wild yellowish roses of various sizes cover the entire yard.  On
+the door is an intricately carved sign with the owner's name shimmering brightly
+in the center.  
+~
+300 0 0 0 0 0
+D0
+~
+~
+0 0 30016 0 0 0 0 0 0 0 0
+S
+#30019
+Training Your Character~
+@w
+The next step we need to take is to train your character.  Every time that your
+character gains a level, he will attain hit points, move points, skill points 
+and depending on his class and level, new spell slots, feats, and class 
+abilities.  We will focus first on feats.  
+
+Every character starts off with at least 1 feat, and possibly more depending on 
+class and race.  A feat is a character trait that either grants your character 
+a new ability or improves an already existing one.  
+
+Characters automatically start with one and gain one every 3 levels.  Some 
+classes offer bonus feats to choose from a seperate list and at epic levels all 
+classes offer bonus feats.  
+
+Epic levels begin at level 21, and enable the ability to obtain even more 
+powerful feats.  
+
+Skill points are granted based on class and intelligence.  Humans also get an 
+extra skill point each level and 4 more at level 1.  Skill points are used to 
+increase the skills your character has.  Some of these skills grant new 
+character abilities and powers while others are used passively to enhance your 
+character in certain situations.  
+
+The biggest difference between a feat and a skill is that, in general, skills 
+have a rating, while feats are simply either you have it or you don't.  Also of 
+note are your ability scores.  
+
+Every 4 levels you obtain an ability score point that you can add to any of your
+ability scores you desire (ie.  Strength, Dexterity, etc.  ). 
+
+@n
+Go north to learn how to gain your first level.
+
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30020 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30004 0 0 0 0 0 0 0 0
+S
+#30020
+Levelling Up~
+   Every time you gain enough experience to gain a new level, you will use the
+@Ylevelup@n command.  Typing this command will bring you to a menu system wherein
+you may select the class you wish to take, the skills you wish to learn, any
+feats you may be able to take, and ability score increases if applicable.  Once
+everything is chosen you will be shown what changes will be made to your
+character, and if you accept those changes the new level will take effect.  To
+gain your first level, type @Ylevelup@n now.  
+
+
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30019 0 0 0 0 0 0 0 0
+S
+#30021
+Magic and the Spellcasting System~
+The magic system here is comprised of a memorization system, and thus mana
+points are not used.  In most cases you have to select beforehand the spells
+that you want to have available, and then rest for a 3-5 minutes while your
+character prepares them for casting.  There are a few basic commands that must
+be learned in order to play a spellcasting class effectively.  First is the cast
+also require spellbooks, libraries and scrolls to operate properly.  
+Information on spellbooks, libraries and scrolls can be found to the west, as
+well as a library to research some spells if you so choose.  Wizards only need
+go in that direction.  All classes, wizards included, should go east to learn
+about casting, memorizing spells, and reviewing their spell list.  If you are
+not a spellcasting class or already know everything about spellcasting here,
+please continue north to learn the basics of combat here.  Command.  Second is
+the mem command, and third is the spells command.  Wizards only need go in that
+direction.  All classes, wizards included, should go east to learn about
+casting, memorizing spells, and reviewing their spell list.  If you are not a
+spellcasting class or already know everything about spellcasting here, please
+continue north to learn the basics of combat here.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30027 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 30024 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30020 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30022 0 0 0 0 0 0 0 0
+S
+#30022
+Researching Spells and Libraries~
+   &w The room you are in is a spell researching library.  There are three types
+of spell research libraries, small, medium and large.  Small libraries have up
+to level 3 spells, medium to 6 and large up to 9.  Epic spells are gained as
+feats.  By using the research command in these libraries you are able to learn
+new spells, either by spending spell research points, which wizards gain two of
+each level, or by spending coin.  As a new character you will start with a
+spellbook with all the cantrips already in it and a few first level spells.  
+Take a moment to 'look spellbook' now to see what spells you already have.  
+Take note that your spellbook has a certain number of pages.  The number beside
+each spell is the number of pages it occupies.  Higher level mages will need to
+carry with them multiple spellbooks.  When a mage wants to research a new spell
+in a library, they must use the research command by typing research <spell
+name>.  For example 'research chill touch'.  Notice that I did not use the
+quotes around the spell name.  If the mage has any available spell research
+tokens, success is automatic and one token is taken from the character.  These
+tokens are intangible and are stored in your character file.  You can see how
+many you have at any given time by typing 'stat'.  If you have no tokens you can
+attempt to research a spell by paying in coins.  The cost of the research
+depends on the spell level.  When researching by paying, success is not
+automatic.  It is an ability check with your intelligence modifier against the
+level of the spell.  So if you have an intelligence of 18 and are trying to
+learn a level 5 spell, the roll would be 1d20 + 4 (your modifier) against 10
+(base difficulty) + 5 (spell level).  If your roll is higher than than the
+difficulty class (or dc, 15 in this case) then you learn the spell and scribe it
+into your spellbook assuming you have space.  Otherwise you fail and must pay 20
+percent of the research fee in wasted resources.  Please continue west.  &n
+~
+300 d 0 0 0 0
+D1
+~
+~
+0 0 30021 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30023 0 0 0 0 0 0 0 0
+S
+#30023
+Scribing Spells Into Your Spellbook~
+   &w Wizards automatically have the ability to scribe magical scrolls into
+their spellbook.  First the wizard must have a spellbook in their inventory with
+enough free pages in it to fit the spell.  Second he must have the spell
+memorized that they wish to scribe.  This spell must also be a spell that he is
+able to learn.  Thus it must be an arcane spell of a spell level that the wizard
+can cast normally.  With these requisites satisfied, the wizard simply need type
+scribe <spellbook keyword> <name of memorized spell>.  So if I wanted to scribe
+a scroll containing the chill touch spell into my spellbook, I would first
+memorize the spell from the scroll, and then I would type 'scribe spellbook
+chill touch'.  The spell would go into the first spellbook in my inventory that
+has room for it.  This command can also be used to create scrolls.  Simply
+replace <spellbook keyword> with <scroll keyword>.  So if I wanted to copy chill
+touch from my spellbook onto a blank scroll I would first memorize the spell
+from the spellbook, and then I would type 'scribe scroll chill touch' and the
+spell would be scribed onto the scroll which could then use to cast the spell
+on-the-fly or sell to another wizard for him to memorize and scribe into his
+spellbook.  &n
+~
+300 d 0 0 0 0
+D1
+~
+~
+0 0 30022 0 0 0 0 0 0 0 0
+S
+#30024
+Casting Spells~
+   Casting spells is done with a command specific to your class.  Type @YHELP
+CAST@n for a list of the commands for each class.  For multiclass characters you
+need to use the proper casting command for the class whose spell you wish to
+cast.  Often you might have the same spell prepared for different classes.  Use
+the proper casting command to diferentiate between the classes.  
+~
+300 d 0 0 0 0
+D1
+~
+~
+0 0 30025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30021 0 0 0 0 0 0 0 0
+S
+#30025
+Reviewing Your Spell List~
+   Before you go around laying waste to the landscape with your obviously
+impressive magical prowess, you'll want to see first what @Yspells@n you can
+actually cast.  If you're a wizard, the spells you can cast are in your
+spellbooks, which have to be memorized first.  To read about spellbooks go west
+and to read about memorization, go east.  Other classes have an innate list of
+spells available to them.  To view the spells you can cast simply type
+@Yspells@n.  If you have more than one spellcasting class, then type @Yspells <class
+name>@n, for example spells cleric.  If you wish to view only a single spell level
+for a class type @Yspells <class name> <spell level>@n.  For example 'spells
+sorcerer 3' will list all level 3 sorcerer spells available to me.  
+~
+300 d 0 0 0 0
+D1
+~
+~
+0 0 30026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30024 0 0 0 0 0 0 0 0
+S
+#30026
+Preparing Spells for Casting By Memorizing Them~
+   In order for some classes to cast spells, they must memorize the spells
+first.  Currently those classes are mages, clerics, druids, paladins and
+rangers.  To memorize a spell, first confirm that you have the spell with the
+spells command, or by checking your spellbook if you are a wizard.  Then the
+command to memorize the spell is @Ymem <spellcasting class>
+<spell-name-with-dashes-like-this>@n.  For example 'mem mage magic-missile'.  To
+stop a spell that is in the process of being memorized, use the @Ystop@n command
+using the same syntax as the mem command.  To forget a memorized spell use the
+@Yforget@n command using the same syntax.  You can view the spells you have
+memorized and are memorizing by typing @Ymem <spellcasting class>@n.  For
+example 'mem mage' will show all of the mage spells you have memorized and are
+memorizing.  Normally you will automatically rememorize spells that you cast,
+but if you wish to toggle this option on and off, simply type @Yautomem@n.  
+~
+300 d 0 0 0 0
+D3
+~
+~
+0 0 30025 0 0 0 0 0 0 0 0
+S
+#30027
+Combat Basics~
+Our combat system is pulse based and is pretty simple, if you are used to most
+Diku-style MUDs.  @YAUTO-ATTACK is set as a default, and is not beneficial to
+spellcasters.  Use the autoattack command to turn it off.  @n The most important
+thing to know about combat here is how to target effectively, and this concept
+goes beyond simple combat.  Often you will find multiple creatures with similar
+keywords.  There are two ways to differentiate between them.  The first is to
+proceed the keyword list with a they were loaded into the game), I would type 2.
+Guard.  The same is applied to commands that affect anywhere on the mud.  The
+second way is to use multiple track down a troll guard, I would type
+troll,guard.  Notice that the keywords are separated by a comma.  If there was a
+burly troll guard and a skinny troll guard and I wanted the skinny one, I would
+type track skinny,troll,guard.  If I wanted to track the 2nd skinny troll guard
+on the mud, I would type track 2.  Skinny,troll,guard - keywords.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30032 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30021 0 0 0 0 0 0 0 0
+S
+#30028
+The Formation System~
+   D20MUD uses a formation system.  There are two main commands associated with
+this system: @YFORM@n and @YREFORM@n.  Generally, the formation system can allow
+for groups of up to 16 people, with up to 4 front line melee fighters, 4 second
+row fighters, and 4 third row fighters.  Those in row 1, can attack using any
+weapon.  Those in row 2 must use either polearms or ranged weapons.  Those in
+row 3 must use ranged weapons only.  You may cast spells from any row.  To see
+your party's current formation type form.  To change your own position type
+'reform self <position number'.  So if I wanted to put myself in melee range,
+and slot 3 was open, I would type 'reform self 3'.  Only those in row 1 are able
+to be attacked by mobs most of the time.  
+~
+300 d 0 0 0 0
+D1
+~
+~
+0 0 30017 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30012 0 0 0 0 0 0 0 0
+S
+#30029
+Trip~
+   &w The trip skill is actually a combat ability option that is available to
+everyone.  In order to use this ability you must be fighting in the first row,
+formation slows 1-3.  When you initiate a trip you are allowed one trip attempt
+per normal attack that you have (not including other abilities or feats that
+give extra attacks or extra attacks from wielding multiple weapons).  If you
+have the improved trip feat you get one extra trip attempt.  Your trip attempts
+are attack rolls made against the opponent's armor class without including their
+actual worn armor or shield bonus.  If successful an opposed ability score check
+is made involved strength and dexterity.  The larger opponent generally has an
+advantage here in making the trip, and creatures with more than two legs receive
+a defensive bonus.  Dwarves, being very sturdy, also receive a bonus to their
+resistance roll.  If the trip succeeds, the opponent is placed on their back,
+and must spend an action standing up again.  Usually this will allow them to
+still make a partial attack, though they will not be able to make a full attack
+(a partial attack means at max they will only make one attack).  If the trip
+fails the other character immediately gets a free trip attempt against the
+character that tried to trip them.  The same rules apply here.  Monks are able
+to use any remaining trip attempts that they have as normal attacks.  &n
+~
+300 d 0 0 0 0
+D1
+~
+~
+0 0 30012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30015 0 0 0 0 0 0 0 0
+S
+#30030
+Feint~
+   &w The feint skill is another combat ability option that is available to
+anyone.  Feint is an opposed skill check between the attacker's bluff skill and
+the defender's sense motive skill.  A successful feint will make the defender
+flat footed, which may open them up to a single sneak attack.  Ranged attacks do
+not require a character to be flat footed to qualify for a sneak attack in
+melee, though the attacker must not have the defender's attention.  Unless the
+character has the improved feint skill, their feint attempt qualifies as a
+partial action, limiting them to a single attack that round.  With the improved
+feint feat, a feint attempt is a free action, and costs no attacks.  Feint tends
+to generate quite a bit of hate, so it should be used sparingly in some
+situations.  &n
+~
+300 d 0 0 0 0
+D1
+~
+~
+0 0 30014 0 0 0 0 0 0 0 0
+S
+#30031
+Consider Your Enemy~
+
+Before you attack anything you haven't fought before, you will want to
+consider it.  For your convenience we have added an autocon system as well.
+To manually consider your enemy type @Yconsider <target>@n.  It will give you
+a message detailing how powerful the creature is compared to you.  The autocon
+system on the other hand, which is turned on by default, places a symbol in
+parenthesis beside the mob's long description.  It will also display a
+color code.  Here is a quick legend:
+@B(+)@n 8 levels lower than yours or more
+@b(+)@n 7 levels lower than yours
+@C(-)@n 6 levels lower than yours
+@c(-)@n 5 levels lower than yours
+@G(-)@n 4 levels lower than yours
+@g(-)@n 3 levels lower than yours
+@Y(-)@n 2 levels lower than yours
+@y(-)@n 1 level lower than yours
+@W(=)@n same level as yours
+@m(+)@n 1 level higher than yours
+@M(+)@n 2 levels higher than yours
+@r(+)@n 3 levels higher than yours
+@R(+)@n 4 levels higher than yours
+@l@R(+)@n 5 levels higher than yours or more
+@W(==)@n double normal hit points
+@W(===)@n triple normal hit points
+@W(====)@n 4 times normal hit points
+@W(=====)@n 5 times normal hit points or more
+
+~
+300 d 0 0 0 0
+D3
+~
+~
+0 0 30013 0 0 0 0 0 0 0 0
+S
+#30032
+Religion, Devotion and Domains~
+   WIn the world of Krynn, everyone must devote themselves to one of the deities
+to give principle worship to (though many people revere multiple dieities).  
+Those who do not devote themselves to a deity, or who only pay lip service to
+their deity, are given to Chemosh to do with as he wills, which often results in
+the soul haunting the world as undead, or acting as an eternal slave.  Thus the
+people of Krynn take their religion quite seriously, and virtually every
+sentient creature on the planet worships at least one deity.  For divine
+spellcasters, this is even more important, for they can cast no spells without a
+patron deity.  In order to choose a deity, type devote <deity name>.  To see a
+list of deities which you qualify to be accepted as a worshipper, type 'devote
+list'.  If you are a cleric you may choose up to two domains of the four that
+your deity possess.  These domains will grant you bonus spells and bonus
+abilities (in most cases).  To see a list of domains your deity offers type
+'domain'.  If you have not yet devoted to a deity, the game will, at this point,
+direct you to do so.  To see what benefits a domain offers, type 'help domain
+<domain name>'.  Once you have chosen your two domains, you can see what they
+are at any time by typing 'domain' by itself.  @RIf you do not devote to a deity
+you will suffer greater experience penalties when you die.  @n
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30034 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30027 0 0 0 0 0 0 0 0
+S
+#30033
+Before You Enter the Game~
+   You are almost ready to enter the realm.  Go west to enter Palanthas, the
+city of good and law, or go east for Sanction, a city of injustice and evil.  At
+any time you may @Yrecall@n to the beginning of this mud school by using the recall
+command.  We recommend that you read the @Yhelp @Ynewbie@n file and also @Yhelp @Ynewbie
+@Yzones@n.  This will help you learn your way around the mud and get used to some of
+the intracacies here.  
+
+
+~
+300 d 0 0 0 0
+D2
+~
+~
+0 0 30034 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+S
+#30034
+Choose Your Equipment~
+   Now you must choose your equipment.  Here you may buy any non magical item of
+any type.  Simply type @Yitem buy <vnum>@n to buy an item and @Yitem list
+<armor|weapon|other>@n to see what is available along with the vnum of the item
+for buying, and its cost.  The amount of money you get is dependant on the class
+you chose earlier in character generation.  Once you have purchased all of your
+equipment, go north to prepare to enter the game.  
+~
+300 d 0 0 0 0
+D0
+~
+~
+0 0 30033 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 30032 0 0 0 0 0 0 0 0
+S
+#30099
+Palanthas Stables~
+   This area is used as a huge stables for all of the mounts that enter
+Palanthas.  It even has an airie for griffons, wyverns, hypogriffs, giants
+eagles, and even the odd dragon.  The area is absolutely huge.  A sign on the
+wall reads @Ylist@n to see see what's available and @Ybuy@n to purchase a mount.
+You can also convert body armor or clothing into armor for your mount using the
+@Ybarding@n command.  To select an animal companion type @Ycompanion@n.  
+~
+300 0 0 0 0 0
+D1
+~
+~
+0 0 2358 0 0 0 0 0 0 0 0
+S
+$~

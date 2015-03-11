@@ -1,0 +1,30 @@
+#200
+forin tumbleblade tinker~
+Forin Tumbleblade, the town tinker~
+The town tinker & pawn shop owner, Forin Tumbleblade stands here repairing an old shoe.
+~
+   Forin is a middle-aged dwarf, who has for some reason settled here in Solace.
+He is about 4 and half feet tall and wears dark hued clothing and a leather
+apron.  His beard and hair are pitch black, long and barely combed.  He wears a
+signet ring on his left hand with a strange symbol upon it.  
+~
+bdnoprs 0 0 0 l 0 0 0 -1000
+20 20 -50 320d100+155 1d1+0
+1000000 0 11 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

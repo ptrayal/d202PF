@@ -1,0 +1,1696 @@
+#1200
+Outside the Outpost Gates~
+   You stand outside the Earth Cultist's outpost main gates.  The complex resembles a
+military camp more than it does a place of worship.  A long wall runs east and
+west, made of wooden poles and fortified heavily.  Small towers have been made
+where most liekly archers reside.  The gates are wooden also and look as if
+they're require a horse or something to open.  A small door in the right gate
+allows easier passage through.  
+~
+12 c 0 0 0 1
+D0
+~
+~
+0 0 1201 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1281 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 409 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1264 0 0 0 0 0 0 0 0
+S
+#1201
+Beneath the Wooden Ramparts~
+   The ground here is hard packed from the constant traffic of worshippers going
+to the temple to the north.  Ahead is the center of the complex.  Some kind of
+wooden stake has been driven into the ground in the middle of the grounds ahead.
+To the south loom the sturdy wooden gates.  
+~
+12 c 0 0 0 0
+D0
+~
+~
+0 0 1202 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1200 0 0 0 0 0 0 0 0
+S
+#1202
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1205 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1204 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1201 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1203 0 0 0 0 0 0 0 0
+S
+#1203
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1206 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1202 0 0 0 0 0 0 0 0
+S
+#1204
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1207 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1202 0 0 0 0 0 0 0 0
+S
+#1205
+The Center of the Courtyard~
+   This is the center of the courtyard.  A large well stands in the very center
+providing water to the inhabitants of the post.  A large wooden stake for
+burning heretics has also been set up nearby.  The ashes of past victims is
+gathered about the pole.  To the east and west are the barracks for the
+Earth Cultistists.  The temple stands to the north.  
+~
+12 c 0 0 0 0
+D0
+~
+~
+0 0 1208 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1207 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1202 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1206 0 0 0 0 0 0 0 0
+S
+#1206
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1209 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1205 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1203 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1211 0 0 0 0 0 0 0 0
+S
+#1207
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1210 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1222 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1204 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1205 0 0 0 0 0 0 0 0
+S
+#1208
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1233 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1210 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1205 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1209 0 0 0 0 0 0 0 0
+S
+#1209
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1208 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1206 0 0 0 0 0 0 0 0
+S
+#1210
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Earth Cultistists and faithful followers of the
+Earth Cultist religion hurry about their duties.  A large well stands in the center of
+the courtyard.  Two buildings flank the area to the east and west.  
+~
+12 0 0 0 0 0
+D2
+~
+~
+0 0 1207 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1208 0 0 0 0 0 0 0 0
+S
+#1211
+The Common Room~
+   This is the main chamber of the Earth Cultistists barracks.  Two long tables stand in
+the center of the room.  Here the Earth Cultist's take their meals and gather together.
+A doorway to the west leads to the sleeping quarters.  
+~
+12 c 0 0 0 0
+D1
+~
+door~
+1 0 1206 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1212 0 0 0 0 0 0 0 0
+S
+#1212
+A Hallway in the Earth Cultist's Barracks~
+   This is a short hallway running the length of the building.  From here you
+can see that the hallway snakes around to both the north and the south.  To the
+east lies the courtyard.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1213 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1211 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1218 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1217 0 0 0 0 0 0 0 0
+S
+#1213
+The End of the Hallway~
+   This is the northern end of the hallway.  Doors stand on either side of the
+hallway.  The hallway is cold and bare.  No decorations adorn the walls.  From
+the heavy wear on the floor here, you assume this area is well traveled.  
+~
+12 0 0 0 0 0
+D0
+~
+door~
+1 0 1214 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1216 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1212 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1215 0 0 0 0 0 0 0 0
+S
+#1214
+A Earth Cultist's Room~
+   This is the personal chambers of one of the Earth Cultist Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.  
+~
+12 c 0 0 0 0
+D2
+~
+door~
+1 0 1213 0 0 0 0 0 0 0 0
+S
+#1215
+A Earth Cultist's Room~
+   This is the personal chambers of one of the Earth Cultist Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.  
+~
+12 c 0 0 0 0
+D1
+~
+door~
+1 0 1213 0 0 0 0 0 0 0 0
+S
+#1216
+A Earth Cultist's Room~
+   This is the personal chambers of one of the Earth Cultist Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.  
+~
+12 c 0 0 0 0
+D3
+~
+door~
+1 0 1213 0 0 0 0 0 0 0 0
+S
+#1217
+A Earth Cultist's Room~
+   This is the personal chambers of one of the Earth Cultist Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.  
+~
+12 c 0 0 0 0
+D1
+~
+door~
+1 0 1212 0 0 0 0 0 0 0 0
+S
+#1218
+The End of the Hallway~
+   This is the southern end of the hallway.  Doors stand on either side of the
+hallway.  The hallway is cold and bare.  No decorations adorn the walls.  From
+the heavy wear on the floor here, you assume this area is well traveled.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1212 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1220 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 1221 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1219 0 0 0 0 0 0 0 0
+S
+#1219
+A Earth Cultist's Room~
+   This is the personal chambers of one of the Earth Cultist Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.  
+~
+12 c 0 0 0 0
+D1
+~
+door~
+1 0 1218 0 0 0 0 0 0 0 0
+S
+#1220
+A Earth Cultist's Room~
+   This is the personal chambers of one of the Earth Cultist Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.  
+~
+12 c 0 0 0 0
+D3
+~
+door~
+1 0 1218 0 0 0 0 0 0 0 0
+S
+#1221
+A Earth Cultist's Room~
+   This is the personal chambers of one of the Earth Cultist Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.  
+~
+12 c 0 0 0 0
+D0
+~
+door~
+0 0 1218 0 0 0 0 0 0 0 0
+S
+#1222
+The Common Room~
+   This is the main chamber of the acolyte's barracks.  Two long tables stand in
+the center of the room.  Here the acolytes take their meals and gather together.
+A doorway to the east leads to the sleeping quarters.  
+~
+12 c 0 0 0 0
+D1
+~
+~
+0 0 1223 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1207 20 0 0 0 0 0 0 0
+S
+#1223
+Hallway in the Acolyte's Barracks~
+   This hallway runs north and south along the length of the building.  Doors
+line the hallway leading to sleeping chambers.  A doorway leads west to the
+common chamber.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1225 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1224 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1226 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1222 0 0 0 0 0 0 0 0
+S
+#1224
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Earth Cultist's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.  
+~
+12 c 0 0 0 0
+D3
+~
+door~
+1 0 1223 0 0 0 0 0 0 0 0
+S
+#1225
+End of the Hallway~
+   This is the northern end of the hallway.  Two doors lead off to the east and
+west here.  Muffled voices can be heard behind the doors.  To the south light
+streams in from an open doorway leading west.  
+~
+12 0 0 0 0 0
+D0
+~
+door~
+1 0 1228 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1229 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1223 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1227 0 0 0 0 0 0 0 0
+S
+#1226
+End of the Hallway~
+   This is the southern end of the hallway.  Three doors lead off to the east,
+west, and south.  Muffled voices can be heard behind the doors.  To the north
+light streams into the hallway from an open doorway leading west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1223 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1230 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 1232 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1231 0 0 0 0 0 0 0 0
+S
+#1227
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Earth Cultist's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.  
+~
+12 c 0 0 0 0
+D1
+~
+door~
+1 0 1225 0 0 0 0 0 0 0 0
+S
+#1228
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Earth Cultist's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.  
+~
+12 c 0 0 0 0
+D2
+~
+door~
+1 0 1225 0 0 0 0 0 0 0 0
+S
+#1229
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Earth Cultist's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.  
+~
+12 c 0 0 0 0
+D3
+~
+door~
+1 0 1225 0 0 0 0 0 0 0 0
+S
+#1230
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Earth Cultist's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.  
+~
+12 c 0 0 0 0
+D3
+~
+door~
+1 0 1226 0 0 0 0 0 0 0 0
+S
+#1231
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Earth Cultist's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.  
+~
+12 c 0 0 0 0
+D1
+~
+door~
+1 0 1226 0 0 0 0 0 0 0 0
+S
+#1232
+The Master's Chambers~
+   This is the master's chambers.  His room is much larger than the acolytes.  
+It sports a real bed, chest of drawers, and a nightstand with a mirror.  A small
+window also looks out onto the courtyard.  
+~
+12 c 0 0 0 0
+D0
+~
+door~
+1 0 1226 0 0 0 0 0 0 0 0
+S
+#1233
+Approaching the Temple~
+   Earth Cultist's and other faithful followers of that religion travel purposefully up
+and down the path to the temple.  The temple itself is an unimpressive
+structure.  It has a steepled roof and is larger than the other structures in
+the complex but is otherwise unremarkable.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1234 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1208 0 0 0 0 0 0 0 0
+S
+#1234
+The Temple Foyer~
+   This is a small entry room just outside the main temple chamber.  The high
+vaulted ceiling makes even the slightest sound echo.  The wooden floor is smooth
+and polished making your footsteps sound loudly.  
+~
+12 c 0 0 0 0
+D0
+~
+~
+0 0 1235 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1233 0 0 0 0 0 0 0 0
+S
+#1235
+The Central Aisle~
+   This is the large worship area of the temple.  Rows of pews stand off to
+either side of the main aisle.  The floor in here is made of wood except for the
+aisle which is covered in a carpet of red dyed animal furs.  Ahead at the front
+of the church is a small raised dais with a wooden podium from which the priest
+preaches.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1240 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1238 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1234 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1236 0 0 0 0 0 0 0 0
+S
+#1236
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1235 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1237 0 0 0 0 0 0 0 0
+S
+#1237
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1236 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1250 0 0 0 0 0 0 0 0
+S
+#1238
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1239 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1235 0 0 0 0 0 0 0 0
+S
+#1239
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1257 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1238 0 0 0 0 0 0 0 0
+S
+#1240
+The Central Aisle~
+   This is the large worship area of the temple.  Rows of pews stand off to
+either side of the main aisle.  The floor in here is made of wood except for the
+aisle which is covered in a carpet of red dyed animal furs.  Ahead at the front
+of the church is a small raised dais with a wooden podium from which the priest
+preaches.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1245 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1243 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1235 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1241 0 0 0 0 0 0 0 0
+S
+#1241
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1240 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1242 0 0 0 0 0 0 0 0
+S
+#1242
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1241 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1251 0 0 0 0 0 0 0 0
+S
+#1243
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1244 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1240 0 0 0 0 0 0 0 0
+S
+#1244
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1258 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1243 0 0 0 0 0 0 0 0
+S
+#1245
+The Central Aisle~
+   This is the large worship area of the temple.  Rows of pews stand off to
+either side of the main aisle.  The floor in here is made of wood except for the
+aisle which is covered in a carpet of red dyed animal furs.  Ahead at the front
+of the church is a small raised dais with a wooden podium from which the priest
+preaches.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1282 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1248 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1240 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1246 0 0 0 0 0 0 0 0
+S
+#1246
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1245 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1247 0 0 0 0 0 0 0 0
+S
+#1247
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1246 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1252 0 0 0 0 0 0 0 0
+S
+#1248
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1249 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1245 0 0 0 0 0 0 0 0
+S
+#1249
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1259 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1248 0 0 0 0 0 0 0 0
+S
+#1250
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1251 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1237 0 0 0 0 0 0 0 0
+S
+#1251
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1252 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1242 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1250 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1253 0 0 0 0 0 0 0 0
+S
+#1252
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1247 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1251 0 0 0 0 0 0 0 0
+S
+#1253
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1255 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1251 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1256 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1254 0 0 0 0 0 0 0 0
+S
+#1254
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1253 0 0 0 0 0 0 0 0
+S
+#1255
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D2
+~
+~
+0 0 1253 0 0 0 0 0 0 0 0
+S
+#1256
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1253 0 0 0 0 0 0 0 0
+S
+#1257
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1258 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1239 0 0 0 0 0 0 0 0
+S
+#1258
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1259 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1260 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1257 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1244 0 0 0 0 0 0 0 0
+S
+#1259
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D2
+~
+~
+0 0 1258 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1249 0 0 0 0 0 0 0 0
+S
+#1260
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1261 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1263 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1262 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1258 0 0 0 0 0 0 0 0
+S
+#1261
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D2
+~
+~
+0 0 1260 0 0 0 0 0 0 0 0
+S
+#1262
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1260 0 0 0 0 0 0 0 0
+S
+#1263
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D3
+~
+~
+0 0 1260 0 0 0 0 0 0 0 0
+S
+#1264
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up of
+the trees that were cut down to make the clearing that holds the complex.  A
+narrow wooden walkway has been built near the top of the wall to allow guards to
+repel attackers from the tops of the wall.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1200 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1265 0 0 0 0 0 0 0 0
+S
+#1265
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up of
+the trees that were cut down to make the clearing that holds the complex.  A
+narrow wooden walkway has been built near the top of the wall to allow guards to
+repel attackers from the tops of the wall.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1264 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1266 0 0 0 0 0 0 0 0
+S
+#1266
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up of
+the trees that were cut down to make the clearing that holds the complex.  A
+narrow wooden walkway has been built near the top of the wall to allow guards to
+repel attackers from the tops of the wall.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1267 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1265 0 0 0 0 0 0 0 0
+S
+#1267
+At the Base of the Ramparts~
+   This is the south western corner of the outpost.  A small wooden tower has
+been built into the outer wall here.  A sturdy wooden ladder leads up to the
+ramparts atop the walls.  
+~
+12 0 0 0 0 0
+D2
+~
+~
+0 0 1266 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1268 0 0 0 0 0 0 0 0
+S
+#1268
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1270 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1269 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1267 0 0 0 0 0 0 0 0
+S
+#1269
+Atop a Tower~
+   You stand atop the north eastern tower of the Earth Cultist's Outpost.  The height
+of the tower provides an excellent view of the lands to the east including the
+north-south road a short distance to the east.  There is an opening in the
+middle of the floor leads to a ladder leading down.  
+~
+12 c 0 0 0 0
+D5
+~
+~
+0 0 1268 0 0 0 0 0 0 0 0
+S
+#1270
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1271 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1268 0 0 0 0 0 0 0 0
+S
+#1271
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1273 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1270 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1272 0 0 0 0 0 0 0 0
+S
+#1272
+Atop a Tower~
+   You stand atop the north eastern tower of the Earth Cultist's Outpost.  The height
+of the tower provides an excellent view of the lands to the east including the
+north-south road a short distance to the east.  There is an opening in the
+middle of the floor leads to a ladder leading down.  
+~
+12 c 0 0 0 0
+D5
+~
+~
+0 0 1271 0 0 0 0 0 0 0 0
+S
+#1273
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1275 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1271 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1274 0 0 0 0 0 0 0 0
+S
+#1274
+Atop a Tower~
+   You stand atop the north eastern tower of the Earth Cultist's Outpost.  The height
+of the tower provides an excellent view of the lands to the east including the
+north-south road a short distance to the east.  There is an opening in the
+middle of the floor leads to a ladder leading down.  
+~
+12 c 0 0 0 0
+D5
+~
+~
+0 0 1273 0 0 0 0 0 0 0 0
+S
+#1275
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1276 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1273 0 0 0 0 0 0 0 0
+S
+#1276
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1277 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1275 0 0 0 0 0 0 0 0
+S
+#1277
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.  
+~
+12 0 0 0 0 0
+D3
+~
+~
+0 0 1276 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1299 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1278 0 0 0 0 0 0 0 0
+S
+#1278
+At the Base of the Ramparts~
+   This is the south eastern corner of the outpost.  A small wooden tower has
+been built into the outer wall here.  A sturdy wooden ladder leads up to the
+ramparts atop the walls.  
+~
+12 0 0 0 0 0
+D2
+~
+~
+0 0 1279 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1277 0 0 0 0 0 0 0 0
+S
+#1279
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up of
+the trees that were cut down to make the clearing that holds the complex.  A
+narrow wooden walkway has been built near the top of the wall to allow guards to
+repel attackers from the tops of the wall.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1278 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1280 0 0 0 0 0 0 0 0
+S
+#1280
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up of
+the trees that were cut down to make the clearing that holds the complex.  A
+narrow wooden walkway has been built near the top of the wall to allow guards to
+repel attackers from the tops of the wall.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1279 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1281 0 0 0 0 0 0 0 0
+S
+#1281
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up of
+the trees that were cut down to make the clearing that holds the complex.  A
+narrow wooden walkway has been built near the top of the wall to allow guards to
+repel attackers from the tops of the wall.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1280 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1200 0 0 0 0 0 0 0 0
+S
+#1282
+The Central Aisle~
+   This is the large worship area of the temple.  Rows of pews stand off to
+either side of the main aisle.  The floor in here is made of wood except for the
+aisle which is covered in a carpet of red dyed animal furs.  Ahead at the front
+of the church is a small raised dais with a wooden podium from which the priest
+preaches.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1285 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1284 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1245 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1283 0 0 0 0 0 0 0 0
+S
+#1283
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D1
+~
+~
+0 0 1282 0 0 0 0 0 0 0 0
+S
+#1284
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.  
+~
+12 0 0 0 0 0
+D3
+~
+~
+0 0 1282 0 0 0 0 0 0 0 0
+S
+#1285
+At the Podium~
+   This is a raised circular platform at the front of the temple.  A large
+wooden podium stands here facing the pews.  From here the Earth Cultist Priests spread
+their teachings to the masses that come here.  
+~
+12 0 0 0 0 0
+D0
+~
+secret~
+1 0 1286 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1282 0 0 0 0 0 0 0 0
+S
+#1286
+At the Podium~
+   This is the secret chamber of the priests.  Here they prepare for sermons and
+await the filling of the temple before the service begins.  A full length mirror
+rests against one wall.  A small table and chair stands in the middle of the
+room.  A set of wooden steps leads down beneath the temple.  
+~
+12 0 0 0 0 0
+D2
+~
+secret~
+1 0 1285 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1287 0 0 0 0 0 0 0 0
+S
+#1287
+At the Bottom of the Stairs~
+   This is a small dark chamber.  The only light coming in is down the stairs
+from the room above.  A passage leads off into the darkness south.  A dampness
+and unnatural chill fill the air around you.  
+~
+12 0 0 0 0 0
+D2
+~
+~
+0 0 1288 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1286 0 0 0 0 0 0 0 0
+S
+#1288
+A Dark Underground Passage~
+   The air in this passage is cool.  The dark stone walls press in on each side.
+A dark wood door rests in the east wall.  Its barely noticeable except for the
+thin sliver of light showing underneath the door.  The passage continues to the
+north and south.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1287 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1289 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1290 0 0 0 0 0 0 0 0
+S
+#1289
+The High Earth Cultist's Chambers~
+   This is the High Earth Cultist's Chambers.  Its far more luxurious than anything the
+rest of the priests have.  Thick furs cover the cold stone floor and a large
+four post bed with a thick mattress and down filled pillows dominates the room.
+A large wooden desk rests against one wall.  On the east wall a large quilt made
+to represent Abanasinia is hanging on the wall.  
+~
+12 0 0 0 0 0
+D1
+~
+secret~
+1 0 1297 20 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1288 20 0 0 0 0 0 0 0
+S
+#1290
+A Dark Underground Passage~
+   The air in this passage is cool.  The dark stone walls press in on each side.
+A dark wood door rests in the east wall.  Its barely noticeable except for the
+thin sliver of light showing underneath the door.  The passage continues to the
+north and south.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1288 0 0 0 0 0 0 0 0
+D1
+~
+cell~
+1 0 1292 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1293 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 0 1296 0 0 0 0 0 0 0 0
+S
+#1291
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  A small table rests in the middle of the room.
+Thick leather straps have been attached to the table.  
+~
+12 0 0 0 0 0
+D1
+~
+door~
+1 0 1293 0 0 0 0 0 0 0 0
+S
+#1292
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  
+~
+12 0 0 0 0 0
+D3
+~
+cell~
+1 0 1290 0 0 0 0 0 0 0 0
+S
+#1293
+The End of the Passage~
+   This is the end of a long dark passage.  Two heavy oaken doors are on either
+side of the passage.  Movement can be heard behind the door to the east.  A
+metallic grinding sound is coming from the door to the west.  
+~
+12 0 0 0 0 0
+D0
+~
+~
+0 0 1290 0 0 0 0 0 0 0 0
+D1
+~
+cell~
+1 0 1295 20 0 0 0 0 0 0 0
+D2
+~
+cell~
+1 0 1294 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1291 20 0 0 0 0 0 0 0
+S
+#1294
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  
+~
+12 0 0 0 0 0
+D0
+~
+cell~
+1 0 1293 0 0 0 0 0 0 0 0
+S
+#1295
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  
+~
+12 0 0 0 0 0
+D3
+~
+cell~
+1 0 1293 0 0 0 0 0 0 0 0
+S
+#1296
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  
+~
+12 0 0 0 0 0
+D1
+~
+cell~
+1 0 1290 0 0 0 0 0 0 0 0
+S
+#1297
+A Secret Vault~
+   This is the secret vault of the High Earth Cultist.  In here he keeps everything of
+value.  Its a very small cramped room made entirely of some dark metal.  
+~
+12 0 0 0 0 0
+D3
+~
+secret~
+1 0 1289 0 0 0 0 0 0 0 0
+S
+#1298
+Solitary Confinement for the Coder~
+   This room is empty.  I guess Gicker isn't concerned about decoration.  
+~
+12 d 0 0 0 0
+S
+#1299
+Atop a Tower~
+   You stand atop the north eastern tower of the Earth Cultist's Outpost.  The height
+of the tower provides an excellent view of the lands to the east including the
+north-south road a short distance to the east.  There is an opening in the
+middle of the floor leads to a ladder leading down.  
+~
+12 c 0 0 0 0
+D5
+~
+~
+0 0 1277 0 0 0 0 0 0 0 0
+S
+$~

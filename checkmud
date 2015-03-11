@@ -1,0 +1,20 @@
+#!/bin/sh
+muddir="/home/d20mud/generic/d20mud-v-0.90"
+binname="circle"
+port="8000"
+cd $muddir
+process=`ps auxwww | grep circle | grep $port | grep -v grep | awk '{print $11}'`
+if [ -z "$process" ]; then
+  ulimit -c unlimited
+  killall autorun_d20_gen
+  killall sleep
+  TODAYSDATE=$(date +"%m-%d-%Y")
+  FNAME="syslog.$TODAYSDATE"
+  cp syslog $FNAME
+  ./autorun_d20_gen &
+  exit
+else
+  echo Server is already up
+  exit
+fi
+

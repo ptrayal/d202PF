@@ -1,0 +1,520 @@
+#4500
+dire black bear~
+a dire black bear~
+A gigantic black bear surrounded by white light plods around the glade.
+~
+The glowing black bear walks slowly through the glade, seeming to be careful to
+not step on any of natures green creations.  Standing up on his back legs, the
+bear legs out a mighty roar, not as a challenge, but as a friendly reminder of
+who protects these forests.  The bear comes back down on all fours, and
+continues its walk around the thinly sparsed trees.  
+~
+dg 0 0 0 dk F 0 0 0
+13 16 -5 546d130+103 1d8+4
+0 0 132 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 27
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 18
+E
+Cha: 10
+S
+#4501
+satyr grinning~
+a grinning Satyr~
+Perched on a tree stump, the Satyr pipes a melodic tune.
+~
+Sitting nonchalantly on a tree stump, a full grown Satyr male plays a set of
+hand pipes.  The tune he plays is strikingly creepy, especially since the only
+audience he has is the trees, and now yourself.  He opens his eyes slightly, and
+gazes at you without breaking from his song.  Waving you over, he pats the tree
+stump so that you can sit and listen to him play.  
+~
+bdg 0 0 0 k 0 0 0 0
+5 15 5 24d100+190 1d10+5
+5 0 18 2
+6 6 1
+E
+BareHandAttack: 6
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4502
+filthy bandit~
+a filthy bandit~
+A filthy bandit is sharpening his and looking around cautiously.
+~
+This dirty, filthy, disgusting, vile man is covered in dirt, sweat, blood, and
+the occasional open wound.  The rags that he considers to be clothing barely
+cover his own mangled flesh, and the odor permeates through the entire
+environment.  The bandit seems very twitchy, as if he's trying to watch the
+entire surrounding forest for approaching danger.  
+~
+d 0 0 0 k 0 0 0 -500
+10 15 -2 120d100+100 2d8+5
+16 0 42 21
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 14
+E
+Dex: 18
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4503
+elaidis ranger~
+Elaidis the ranger~
+A female half-elf is perched up on one of the branches.
+~
+It is a bit silly to be meeting in a tree, but it is possible stranger chance
+meetings have occured.  The female introduces herself to you with a whisper as
+'Elaidis', and points to all of the wild game below, motioning for you to keep
+quiet.  She continues to knock her bow, and aim below.  
+~
+d 0 0 0 k 0 0 0 0
+8 15 2 36d100+220 1d10+3
+10 0 21 8
+8 8 2
+E
+BareHandAttack: 6
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4504
+dire brown bear~
+a dire brown bear~
+A large dire brown bear roams the forest, glowing with a light aura.
+~
+This bear looks ferocious, but he minds his own business.  He wanders the trees
+inspecting each one, intently sniffing near the roots.  Picking up a fallen
+branch in his mouth, he begins to carry it off to the deeper part of the woods.
+
+~
+d 0 0 0 k 0 0 0 0
+14 10 -10 336d150+105 2d8+7
+16 0 133 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4505
+silver coated wolf~
+a silver coated wolf~
+A wolf walks between the trees, its shiny coat glistening.
+~
+The wolf seems very unconcerned with the potential threats you would pose to it
+or its territory.  It sniffs around as it walks the forest floor, intently
+looking off into the distance as if in search of something.  Sitting down for a
+brief moment, the wolf scratches his ear with his hind leg, and then continues
+his roaming.  
+~
+d 0 0 0 k 0 0 0 0
+7 16 -9 168d70+97 1d8+4
+10 0 10 3
+8 8 1
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4506
+adult doe female deer~
+an adult doe~
+A doe picks at the vegetation on the forest floor.
+~
+This female deer is covered with white spots across her light brown fur.  She
+noses around near the trees, occassionally picking up a morsel from the ground
+to eat.  Looking up, she searches the trees for her mate.  
+~
+d 0 0 0 k 0 0 0 0
+4 18 6 20d100+170 1d8+2
+4 0 9 27
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4507
+buck large male deer~
+a large buck~
+A buck with a mighty set of antlers watches over his mate.
+~
+The large male deer watches intently over his mate, and keeps a watchful eye on
+you as well.  Occasionally, he corrals a nearby doe to keep her distance from
+the nearby wolf packs.  He scuffs at the ground, and continues his walk to
+around the forest, monitoring the safety of his fellow deer.  
+~
+dy 0 0 0 k 0 0 0 0
+6 16 -8 78d100+220 1d8+3
+0 0 9 21
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4508
+small squirrel~
+a small squirrel~
+A small squirrel picks up debris from the trail.
+~
+This tiny brown squirrel is picking up acorns and pine cones from the trail.  
+Scampering here and there, it tries to carry as much as it can before it makes
+its journey back up into the trees.  He stands tall on his hind legs, and
+chitters in your general direction.  
+~
+d 0 0 0 k 0 0 0 0
+3 19 7 16d100+160 1d8+0
+3 0 9 27
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4509
+slightly less dirty bandit~
+a slightly less dirty bandit~
+A slightly less dirty bandit is sharpening his dagger.
+~
+This bandit isn't as filth ridden as the others of the camp.  Possibly a status
+symbol, possibly a personal choice, this rogue carries himself with a little
+more self respect than the others.  His belt is loaded with sharp little
+daggers, and he sharpens one in his right hand with a small sharpening stone.  
+~
+d 0 0 0 k 0 0 0 -300
+12 12 -4 144d110+101 1d8+6
+24 0 42 21
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4510
+fish catfish cat~
+the daddy catfish~
+An enormous catfish swims along here hunting its next food source.
+~
+This catfish is astonishing in size.  Its thick black skin almost hides it
+completely from sight amongst the darkness of the murky bottom.  
+~
+dijklxF 0 0 0 cdfkry 0 0 0 0
+15 -20 -13 3600d150+105 1d8+7
+40 0 9 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4511
+great horned owl~
+a great horned owl~
+A massive great horned owl stares at you with wide eyes.
+~
+This massive bird sits perched in a tree, staring down at you with wide, yellow
+eyes.  Its feathers are mixed shades of brown and grey.  A large, sharp beak
+juts out from its face, and wicked talons extend from its feet.  
+~
+d 0 0 0 k 0 0 0 0
+8 17 8 64d100+1000 1d8+3
+10 0 9 21
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4512
+giant spider~
+a giant spider~
+A giant spider clicks its mandibles together as it stares at you from its web.
+~
+The spider is fat and grotesque.  Easily the size of a large dog, its belly
+convulses rhythmically, oozing yellow pus with each pulse through the many
+wounds on its body.  It has two long, spiked mandibles which drip venom.  Each
+of its eight legs is covered with long, spindly hairs.  
+~
+d 0 0 0 k 0 0 0 0
+10 14 -2 240d130+1000 1d8+6
+29 0 9 21
+5 5 0
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 18
+E
+Cha: 10
+S
+#4513
+dire raccoon~
+a dire raccoon~
+A dire raccoon plods about, looking for trouble.
+~
+Although plump and cute, this raccoon has a vicious look in its eyes.  It
+wanders around, picking up random things with its little hands, which have
+fingers ending in sharp little claws.  Every now and then, it lets out a short
+but bloodcurdling yowl.  It looks cuddly, but you most certainly would not want
+to snuggle with this raccoon.  
+~
+d 0 0 0 k A 0 0 0
+8 15 -10 192d90+99 1d8+5
+20 0 9 21
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 18
+E
+Cha: 10
+S
+#4514
+boss bandit~
+the bandit boss~
+@DThe @rbandit boss@D stands here with a nasty scowl on his face.
+~
+The bandit boss is a huge man, heavy-set and muscular.  He stands here
+menacingly with arms folded across his chest and a nasty scowl on his ugly mug.
+Every now and then, he reaches out to slap one of the smaller bandits upside the
+head.  He wears a massive breastplate which is battered and dented.  Hanging
+from his belt is a spiked club.  
+~
+bdD 0 0 0 k 0 0 0 -750
+14 6 -12 672d140+1000 1d8+8
+34 0 42 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4515
+woodcutter~
+the woodcutter~
+The woodcutter is here, a sharp axe slung over one shoulder.
+~
+The woodcutter is a tall, burly man.  He wears a plaid shirt and leather pants.
+He has piercing sky-blue eyes and a long, bushy black beard.  Flecks of sawdust
+stick to his clothes.  
+~
+d 0 0 0 k u 0 0 250
+18 11 -11 144d100+100 1d8+9
+60 0 42 3
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4504
+#4516
+lost child girl~
+a lost child~
+A lost child wanders around with a scared look on her face.
+~
+This little girl has lost her way within the forest.  Tears stream down her face
+and sobs shake her body as she stumbles around, crying.  Her robes are ripped
+and dirty, and her red hair is all messy.  Her hands seem to be scraped up and
+are bleeding in places.  
+~
+d 0 0 0 k 0 0 0 300
+5 18 4 20d100+100 1d8+2
+5 0 42 21
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4517
+wild elf druid old~
+the druid~
+A wild elf wearing armor made of tree bark fidgets with his staff.
+~
+The man occupying this cave appears to be a wild elf.  He carries a staff with
+him, and is currently trying to train himself in the art of druidic magic.  He
+barely pays any attention to the world around him.  
+~
+bdoA 0 0 0 k 0 0 0 0
+10 15 -2 80d100+100 1d8+5
+0 0 60 9
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

@@ -1,0 +1,221 @@
+#2700
+The Staff Room~
+   This room is fitted with all sorts of comfortable chairs and sofas.  A
+television plays in the corner showing reruns of Futurama (all 6 of them).  
+There are computer workstations running along the walls, each connected to the
+greatest mud ever, 'Age of Dragons 2'.  There is a sign here that says, 'You'll
+never get anything done sitting there watching Futurama you know.'
+~
+27 d 0 0 0 0
+D2
+~
+~
+0 0 2706 0 0 0 0 0 0 0 0
+S
+#2701
+Solitary Confinement for the Coder~
+   There's not much decoration here at all.  No windows, walls of stone, and a
+small, dented brass plate that has some rotten food on it.  
+~
+27 dk 0 0 0 0
+S
+#2702
+The Staff Room~
+   This room is fitted with all sorts of comfortable chairs and sofas.  A
+television plays in the corner showing reruns of Futurama (all 6 of them).  
+There are computer workstations running along the walls, each connected to the
+greatest mud ever, 'Gates of Krynn'..  There is a sign here that says, 'Stop
+watching TV and get to work!  '.  
+~
+27 d 0 0 0 0
+S
+#2703
+Inside Tak's minivan~
+   The inside of Tak's minivan is actually pretty cool.  She has a DVD player
+and skylight's throughout.  The leather interior could be inside a luxury sedan,
+but alas this is still a minivan.  
+~
+27 d 0 0 0 0
+D2
+~
+~
+0 0 2700 20 20 0 0 0 0 65535 65535
+S
+#2704
+Immortal "Idea's" Boardroom~
+   The floor is this room is covered in a cloudy mist that lightly caresses the
+feet of those who stand here.  A circular ray of light in the southwestern area
+of the room seems to be a form of transportation to reach another room above
+this one.  A massive slab of stone rests here, containing the wisdom and ideas
+of the immortals.  
+~
+27 cegn 0 0 0 0
+D1
+~
+~
+0 0 2705 20 20 0 0 0 0 65535 65535
+S
+#2705
+Takhisis' Abode~
+You are in an unfinished room.
+~
+27 jl 0 0 0 0
+D3
+~
+~
+0 0 2704 20 20 0 0 0 0 65535 65535
+S
+#2706
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+27 0 0 0 0 0
+D0
+~
+~
+0 0 2700 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2777 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2707 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2708 0 0 0 0 0 0 0 0
+S
+#2707
+Crafting Items Suggestion Board~
+This is the crafting recipes suggestion board room.
+~
+27 d 0 0 0 0
+D0
+~
+~
+0 0 2706 0 0 0 0 0 0 0 0
+S
+#2708
+New BuildWalk Room~
+This unfinished room was created by Mask.
+~
+27 0 0 0 0 0
+D1
+~
+~
+0 0 2706 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2709 0 0 0 0 0 0 0 0
+S
+#2709
+New BuildWalk Room~
+This unfinished room was created by Mask.
+~
+27 0 0 0 0 0
+D1
+~
+~
+0 0 2708 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+S
+#2710
+Tymora's Fulcrux~
+The laws of nature seem to twist and contort, unable to
+decide on just what they themselves are. The most favorable
+of realities shimmers into view like a web of gossamer silk
+wrapped around the underlaying truth, only to fade away
+moments later when yet another fate seems more favorable.
+Fixated in the very center of the room is a sturdy table
+made out of the most precious metal, what ever that may
+be at the moment and constantly changing to accommodate
+this face. Spread out upon it are multitudes of maps, charts,
+and papers of uncountable dialects. Upon them are half planned
+schemes and blueprints that came to fruition long before
+even thought out entirely.
+~
+27 0 ac 0 0 5
+D0
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+D11
+~
+~
+0 0 2710 0 0 0 0 0 0 0 0
+E
+table~
+This is an extra desc, as long as you want a hidden thing within a room
+description.  Use look, or examine <item><object><thing> in a room desc.  
+~
+S
+#2777
+Dwarfhome: within Erackinor~
+   You stand within a massive room inside the vast mansion of Erackinor, which
+stands upon the fourth layer of Mount Celestia.  This place is the Dwarfhome,
+where Moradin watches over and rules his divine creations.  The huge Soul Forges
+stand here, burning with a steady bluish-white light, at the ready should the
+Dwarffather decide it necessary to temper the souls of his people.  The walls
+are of shining steel, and inset with a wide array of every gemstone imaginable,
+each one meticulously polished to a perfect finish.  There is a powerful feeling
+of calmness and peace all around.  
+~
+27 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#2780
+A Chamber of Magma~
+You are in an unfinished room.
+~
+27 0 0 0 0 0
+S
+$~

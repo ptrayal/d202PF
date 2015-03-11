@@ -1,0 +1,397 @@
+#9200
+A Smuggler's Dream~
+A Smuggler's Dream~
+@C
+You approach the old man and tap him on the shoulder, at which point he reels in
+his line, stands up, tips up his hat and squints at your face.  "Yes?  What can I do
+for you then?  Fairwing?  Yes, I actually do know that name, though it has been
+some time since it's been said in my presence.  Why don't you take a seat here on the
+dock and I'll tell you a story.  Now, now, it won't take long, sit here then."
+
+The old man casts his line back out into the bay and lowers his hat just a bit, then
+begins to speak absently as he stares out to sea.  "Fairwing and I were part of an
+adventuring group before the return of the gods and this whole War of the Lance
+thing.  We mostly scoured ruins for treasure, and helped out small townships and
+refugees wherever we could.  When the War of the Lance came we were already quite old,
+but we had made a name for ourselves throughout the Solamnic countryside, and when
+the Solamnic Knights gained favour in the eyes of the people again, we went forth
+helping them to find new recruits.  We were present in Sancrist when the Whitestone
+council was held as well, and we met most of the Heroes of the Lance.  But that's
+enough tooting my horn.  Now I'm retired, but it is good that Fairwing sent you,
+because there's been some strange going ons around here since the end of the War a
+few months ago.  I've heard talk of some of the fishermen speaking of strange boats
+coming in by night and docking on the east shore, near where the youngsters play
+that water ball game of theirs.  Kids and their fads... but anyway.  Go talk to them,
+they will know if there's anything out of the ordinary.  You'll probably have to talk to
+((OOC kill the mobs)) at least 5 or 6 of them before you find anything out.  Once you
+have some information, come back and we'll decide what our next move is.  So much for 
+retirement, though better that I do what I still can than sit here and rot.  It's not like
+the fish are going anywhere.  Well then, that's my story, enough, enough, get going."
+@n
+~
+@C
+Finally after much questioning, one of the young Shueball players comes up
+to you and says, "I seen somethin!  No one believes me, they all make fun of
+me when I tell the story, but since yer askin... A couple of weeks ago I saw
+some dragon men... the same they tell stories of in that War that happened on
+the mainland the last couple o' years... draconians or somethin?  Anyway I seen
+them comin in on rowboats.  They always dock just to the north of here, on the
+cliff face, and go underwater.  I dunno where they were goin, but they'd resurface
+a few hours later and row back out to sea.  I think I mighta seen a ship out in the
+distance, but it was night and I couldn't see much.  Anyway, you believe me right?
+Yer not gonna make fun o' me too are ya?  It's a true story I swear it!"
+@n
+~
+@C
+You decide to question the shueball players some other time.
+@n
+~
+3 9221 0 9207 2206 -1 -1
+10 0 5 61 -1 -1 6
+200 10 65535
+S
+#9201
+Draconian Smugglers~
+Draconian Smugglers~
+@C
+"Draconians on Bethel Island?  Unheard of... but if the boy speaks true then
+we need to act fast.  Go search the area he mentioned, north of where the
+youngsters play their water game, and if you find any draconians, take care
+of them.  After that come back and let me know what you find."
+@n
+~
+@C
+The last draconian falls, and you watch as they all turn to stone before
+your eyes.  As they do, a small rolled parchment falls from one of them, and
+you walk over and pick it up.  Searching the cavern you find what you expected
+to... a cache of weapons and armor bearing the symbol of the Red Dragonarmy.
+You'll have to go back and report this to the old fisherman.
+~
+@C
+You decide to look for those draconians some other time.
+@n
+~
+3 9221 0 9222 9200 9202 -1
+10 0 5 61 -1 -1 5
+200 10 9210
+S
+#9202
+The Draconian's Message~
+The Draconian's Message~
+@C
+You will need to give the parchment you found to the old fisherman.
+
+((OOC please be very careful about the give command.  If you give
+it to the wrong mob, and cannot retrieve it, you will need a staff
+member to give you a new parchment to complete the quest.  The best
+thing to do is to go to the docks where the old fisherman resides
+and type 'give rolled,parchment old,fisherman'))
+@n
+~
+@C
+"What's this?", says the old man, "Well this does not bode well for us
+at all.  Though we've managed to uncover one of their bases, they have 
+another one somewhere, and then there's this commander Galik, who is hiding
+somewhere in the village.  I will need time to think about this.  Perhaps
+you should go back and talk to Fairwing for now.  I will send word to her
+when I know what to do next.  Thank you for all that you've done, and I
+know I never told you my name.  It's Jeg.  Jeg Curlonth.  Just call me Jeg
+though.  Thanks again for your help, I do have something for you as well.  It
+served me well in my early days as an adventurer, and I never wanted to get
+rid of it... but here you go.  It will serve you better than me."
+
+Jeg removes a dragon-shaped silver ring from his finger and hands it to you,
+"Treat it well, and when you're done with, find a good new home for it, will
+you?  It has a lot of sentimental value for me.  Well then, enough of this
+soppy stuff, go talk to Fairwing."
+
+((OOC: remember, Fairwing is the mysterious old lady at Palanthas Centre Square))
+@n
+~
+@C
+You have decided not to give the parchment to the old fisherman
+@n
+~
+5 9221 0 9210 9201 9203 -1
+5 0 5 61 -1 9221 1
+50 5 9211
+S
+#9203
+Return to Fairwing~
+Return to Fairwing~
+@C
+You need to go back to Fairwing at Palanthas Centre Square.
+@n
+~
+@C
+"Oh, you're back.  Fairwing?  Ha ha, well I have not heard that name in
+some time, old Jeg does like to dig up the past doesn't he?  Well call me
+Fairwing if you like, I have no problem with it.  I do have good news though,
+We've found the family that was captured by the Dragonarmy.  He's being held
+in the cemetary.  I wouldn't rush in there sword waving and spells flying though.
+That placer is rife with vermin and undead.  We need you to clear a path first,
+and then once it's safe for them to get out, we'll send you back for the family.
+Sound good?  I'm going to send you to Captain Orluf, in the Palace.  He will
+direct you from here on this mission.  He might have some other work for you as
+well.  Don't worry I am sure we will cross paths again.  Fare well adventurer,
+and thank you for all you've done thus far.
+@n
+~
+@C
+You decide to go find Fairwing some other time.
+@n
+~
+2 9221 0 2240 9202 2207 -1
+5 0 5 61 -1 -1 1
+50 5 65535
+S
+#9204
+Confront the Village Leader~
+Confront the Village Leader~
+@C
+The village leader awaits!  Go find him in the centre of the village
+on Bethel Island and confront him.
+@n
+~
+@C
+As you approach the village leader you make sure no one else is
+around and ready your weapon as you dictate your charges against
+the man.  He looks shocked at the accusations, and protests
+profusely, but finally he gives in to your relentless determination.
+
+"Fine!  It's true.  Not that it matters... because you will never
+live to report back to that old fool at the docks.  Believe me, the
+red dragonarmy will not be stopped by such simple efforts.  Palanthas
+will fall, and once it does, we will conquer Solamnia and from there the
+rest of Ansalon!  Our allies train as we speak to the north, and when
+they are ready, not even your precious dragonlances will save you.
+Prepare then, fool, to join your ancestors."
+
+@n
+~
+@C
+You decide to go confront the village leader another time.
+@n
+~
+2 9221 0 9220 4206 9205 -1
+15 0 7 36 -1 -1 1
+100 2 65535
+S
+#9205
+Kill the Dragonarmy Commander~
+Kill the Dragonarmy Commander~
+@C
+It's life or death.  Attack the village leader, before he escapes!
+@n
+~
+@C
+As the village leader falls to the ground, dying slowly, he utters
+a final oath, "Sargonnas will not be denied...  The dragonarmies will
+triumph, and I will receive glory and power forever as they rule!  You
+have stopped nothing today adventurer... and you have sealed your own
+fate."
+
+Finally he gives a horrid gasp, and falls dead a few moments later.
+
+As he does so, you notice a small orb on the desktop, swirling with strange
+colors.  As you peer in you see the scene of a keep on a rocky island,
+teeming with men and women wearing plate armor bearing various symbols:
+a skull, a thorn, and a lily.  Chromatic dragons circle overhead, each of
+them bearing riders, and in the hands of some of those riders are...
+
+Dragonlances!
+
+You must return to Jeg and inform him at once!
+@n
+@Y
+Your have completed chapter one of the main story.  Your experience
+quest point, and gold rewards for this quest are increased greatly.
+To continue the main story and begin chapter two, go see Jeg.
+@n
+~
+@C
+You have decided to kill the dragonarmy commander later.
+@n
+~
+3 9221 0 9220 9204 9206 -1
+100 0 7 36 -1 -1 1
+500 33 65535
+S
+#9206
+Chapter 2: Dragonlances~
+Chapter 2: Dragonlances~
+@C
+Go tell Jeg what you saw int he crystal.
+@n
+~
+@C
+As you approach, Jeg sees the grave look in your eyes and says, "What's the matter
+there?"
+
+You recount what happened, including the vision you saw through the crystal.  Having
+been smart enough to pocket the fist-sized crystal, you hand it over to Jeg, who shakes
+his head and says, "I'm no wizard.  Best you take tha to Fairwing, she'll want to head
+of this, as will Orluf I am guessing.  You've discovered something very important and very
+dangerous.  Tell no one of what you found save those you trust implicitly, and Fairwing and
+Orluf.  Head to Fairwing first, she will know what to take as our next step.  Paladine be with
+you... Paladine be with us all..."
+@n
+~
+@C
+You decide to tell Jeg about what you saw in the crystal later.
+@n
+~
+2 9221 0 9221 9205 9207 -1
+35 0 8 41 -1 -1 1
+5000 2 65535
+S
+#9207
+Chapter 2: Dragonlances II~
+Chapter 2: Dragonlances II~
+@C
+Go tell Fairwing about the dragonlances.
+@n
+~
+@C
+Fairwing's reaction was similar to Jeg's, upon seeing your graven face
+approaching.
+
+"Something bad has happened, hasn't it?", she says.  As you recount the tale
+she sighs, and nods her head saying, "We knew this day would come, only we hoped
+it would not be so soon.  It was only a matter of time before the forces of evil
+got their hands on dragonlances... the question is... how did they get so many?
+We will need time to decide what to do, but it sounds like an army is amassing
+somewhere out there in the oceans.  We have little to go on, but we must prepare
+to our best ability given what we do know.  Thank you.  You have given us warning,
+and sometimes, that is all you can ever get.  Many more suffer with less.  Go now
+and inform Orluf.  I believe he has some new developments with this captured family
+as well.  Godspeed adventurer."
+@n
+~
+@C
+You decide to tell Fairwing about the dragonlances at a later date.
+@n
+~
+2 9221 0 2240 9206 9208 -1
+40 0 8 41 -1 -1 1
+5000 2 65535
+S
+#9208
+The Cemetery Breached I~
+The Cemetery Breached I~
+@C
+"Excellent", says Fairwing, "Go inform Orluf then at once.  He's in
+the palace in the map room as usual."
+@n
+~
+@C
+Orluf is, as usual busy discussing matters of city security with various
+officials as you enter.  He raises his head as you approach, and seeing the
+gravity in your eyes, excuses himself from the dignitaries.
+
+"What's wrong?  You look like you've just witnessed a massacre.", he says.
+
+As you recount your tale and your vision his eyes darken, "Yes, we've heard
+rumors of this, but that's all they were until now... rumors.  I assume you
+have this sphere through which the vision was seen?"
+
+You hand the lifeless sphere over to Orluf, who inspects it briefly and then
+sets it on a nearby table.  "I will have our wizards at the academy look into
+this.  It sounds like some kind of communication device, but perhaps it's a two
+way thing, and has been shut off from the other side."
+
+"Ok", he continues, "Leave this with me for now.  But I do have something else
+for you.  You remember that family that was kidnapped in the cemetary?  Well
+we've killed enough undead to cut someone a path to the necromancer holding the
+family hostage.  You want to be that someone for us?"
+@n
+~
+@C
+You decide to search out Captain Orluf some other time.
+@n
+~
+2 2240 0 4218 9207 -1 -1
+20 0 7 41 -1 -1 1
+1000 5 65535
+S
+#9209
+The Cemetary Breached II~
+The Cemetary Breached II~
+@C
+
+Captain Orluf nods his head and says, "Thank you, I knew I could
+count on you for this.  Go and rescue that family by killing that
+necromancer and his minions.  In the mean time we will start sending
+scouting vessels out into the northern oceans in search of this base.
+
+Come back when the family is safe, as we have something else that is
+causing us some concern.  The gods be with you.
+@n
+~
+@C
+As the necromancer and the last of his zombies fall, the father rushes up to you
+and falls to his knees, pulling on your legs and sobbing in thanks.  He then rushes
+over to his family and hugs them tight.
+
+"Thank you so much!  He had planned on turning us into zombies.  He was so cruel,
+performing dark experiments on us... even the children!  We'll never be the same, but
+at least we're alive.  Thank you and may Mishakal shine her light on you forever!",
+says the father.
+
+At this point a patrol of knights of Solamnia descend into the area.  "You did it!
+Excellent work!  We will escort the family out of here and report back to our
+superiors.  This family needs some rest, but eventually we will need to question them
+about what they know of this necromancer and what he was doing here.  You've done well.
+Captain Orluf authorized me to give you this reward.  Paladine protect you!", says the
+patrol leader as he hands over a small package.
+
+You recall Captain Orluf having said he has something else in mind for you.  When you
+have time it might be wise to go back and pay him a visit.
+@n
+~
+@C
+Though the family in peril weighs heavily on your mind, you decide to pursue this
+at a later point in time.
+@n
+~
+6 4218 0 5754 9208 9210 -1
+50 0 7 41 -1 -1 1
+5000 15 30200
+S
+#9210
+The Cemetery Breached III~
+The Cemetery Breached III~
+@C
+Go talk to Captain Orluf in the Palanthas Palace.
+@n
+~
+@C
+As you enter the map room Orluf is talking with some other knights.  As you enter
+the entire group turns to you and begins to applaud.  Orluf steps forward and says,
+"You've done it.  The horrors that family experienced will haunt them forever, but
+they owe you their lives and potentially their eternities as slaves of Chemosh.
+There's something more going on here though than just an isolated kidnapping.  Chemosh
+is up to something, and it appears that Palanthas is his target.  We're going to give
+this family some time to recuperate... they need it.  I don't know how long they will
+need before we're able to question them, but why don't you go out and explore some.
+Maybe do some bounties, try your hand at crafting, and travel Ansalon a bit.  Some of
+the tasks we have coming up for you will require that you know the world's geography.
+I wouldn't worry much about getting attacked in your travels, most of the roads and
+even side paths are well patrolled.  If you do make it into dragonarmy territory
+you should still be fine as long as you don't do something stupid like announce
+yourself as an agent of Palanthas.  So go out there and explore.  Train up, learn
+what you can, and come back when you're around rank 9 or 10 in the adventurer's guild.
+We owe you a lot, but there's still quite a bit in store for you here.  Best you
+be prepared for it."
+
+@n
+~
+@C
+You decide to report back to Orluf at a later date.
+@n
+~
+2 4218 0 4218 9209 -1 -1
+20 0 7 41 -1 -1 1
+1000 5 65535
+S
+$~

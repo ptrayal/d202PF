@@ -1,0 +1,599 @@
+#15000
+scrawny boy~
+a scrawny little boy~
+A scrawny little boy plays here under the vallenwood tree.
+~
+   This young boy is playing in the grass here, right under a large vallenwood
+tree by the town library.  He seems rather happy, and healthy, though he seems
+a bit scrawny.    
+~
+d 0 0 0 k 0 0 0 500
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15001
+guard tired sleepy~
+a tired, sleepy guard~
+A tired, sleepy guard nods off at his post.
+~
+   This guard is lean, and middle aged.  He appears to have not gotten enough
+sleep last night, evident by his inability to stay awake.  His armor appears to
+have gotten little use, this post perhaps being a more boring one.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15002
+recruiter clean~
+a clean-up crew recruiter~
+A recruiter sits here at his desk, waiting patiently for you to tell him your skills.
+~
+   This man sits here behind his desk, notebook in hand with a pen waiting to
+jot down the name and skills of any who would come to aid in the cleaning of
+the meadow and pond.  He indicates a small amount of pay will be given, as
+gratitude from the citizens of Solace.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15003
+slimy green frog ~
+an infected, slimy frog~
+A slimy green, infected frog sits here, croaking miserably.
+~
+   This frog sits here on a lily pad croaking miserably.  It was once a nice
+shiny green, but now it has grey and dark brown spots all over it from the
+infection.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This dragonfly was once a pretty emerald color.  Now, because of the
+This chipmunk has brown and grey splotches on him where the infection
+This robin is brown, and spends its time searching fruitlessly for any seeds
+This druid is young and pretty.  She is simply clad in greens and browns,
+This wizard is maliciously poisoning the spring as it flows from the ground.
+This young ranger appears agile and strong.  He is currently attempting to
+This robin is brown with a red underbelly.  It pokes around at the ground,
+This girl is young, and quite shy.  She plays here with the other children,
+#15014
+energetic young boy~
+a young, energetic boy~
+A young, energetic boy plays here beneath the vallenwood trees.
+~
+   This boy is dressed in overalls and a yellow shirt.  He has sandy brown hair
+and seems to be really enjoying playing beneath the vallenwood tree.    
+~
+d 0 0 0 k 0 0 0 500
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15015
+skinny girl young~
+a young, skinny girl~
+A young, skinny girl rests here on the grass, enjoying the sunshine.
+~
+   This girl has long blond hair pulled back into a ponytail.  She sits here in
+the grass, resting from her play and enjoying the sunshine.    
+~
+d 0 0 0 k 0 0 0 500
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15016
+clean-up druid head ~
+the head, clean-up druid~
+A druid is here, assigning tasks for the clean-up crew.
+~
+   This druid seems to be in charge, ordering people about.  She is
+middle-aged, seems knowledgeable, and is rather bossy.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This obsessive little man makes sure everyone is clean that comes into the
+This man is working hard, dragging all the dead plants and trees over to be
+This vine has a fibrous stem covered with brown, stringy back and as thick
+The creature blossoms out of the bark of the ancient tree, at first
+#15021
+scout lithe human papers~
+a lithe, human scout~
+A lithe, human scout stands here, waiting to see your papers.
+~
+   This scout is lithe and strong looking.  He stands here holding a chain,
+connected to a mean looking beast.  He notices you coming, and crosses his
+arms, asking you for your papers to pass.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This hulking bear has bony brow ridges and claws like sickles, with a
+#15023
+large girallon territory~
+a large, mean looking girallon~
+A large girallon is beating his chest, protecting his territory.
+~
+   At first glance, this creature looks like an albino gorilla, but it has four
+arms.  It also has a razor-sharp teeth and long claws.    
+~
+d 0 0 0 k 0 0 0 -1000
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This ape is rather compact, but solid and muscular, with sinewy arms that
+This ape is rather compact, but solid and muscular, with sinewy arms that
+The cloaked ape is named for the flaps of skin that stretch from its wrists
+This gnome is small and compact, as most gnomes are.  Unlike most other
+#15030
+vicious barghest goblin creature~
+a vicious goblin-like creature~
+A vicious goblin-like creature growls as you enter the room.
+~
+   A horrifying goblin like monster with blue-tinged fur, long sharp claws, and
+a fiendish flint of intelligence in its hateful, glowing eyes darts out of the
+shadows.    
+~
+d 0 0 0 k 0 0 0 -690
+15 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15031
+choker small hangs wall victim~
+a small choker~
+A small choker hangs from the wall, waiting for a victim.
+~
+   A creature perches in the shadows, near the ceiling, in a corner of the
+chamber.  Its body resembles that of a naked kender with mottled flesh but its
+limbs are incredibly spindly and long.  It hisses, showing sharp, large teeth
+an instant before one of its limbs snaps out like a whip.    
+~
+d 0 0 0 k 0 0 0 -400
+10 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This black robed wizard is rather tall, standing here casting summoning
+The dark magical energy makes the entire room darken before a hideous
+This small elemental is formed into the shape of a bat.  While somewhat
+This manticore stands here in front of its master, guarding the wizard with
+#15035
+gnoll warrior~
+a gnoll warrior dressed in furs~
+A gnoll warrior dressed in animal hides stands here growling.
+~
+   This creature is slightly taller then a human.  He has gray skin, a furry
+body, and a head like a hyena's, with a reddish-gray mane.    
+~
+d 0 0 0 k 0 0 0 -560
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15036
+hobgoblin vicious hunter~
+a vicious hobgoblin hunter~
+A vicious-looking hobgoblin hunter thrusts his spear in your direction.
+~
+   This six foot humanoid has dark reddish-brown hair with dark orange skin.  
+He seems to have a blue nose and yellowish eyes.    
+~
+d 0 0 0 k 0 0 0 -509
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15037
+panther beast displacer~
+a displacer beast~
+A large black panther with four tentacles protruding from it's back is here.
+~
+   An emaciated looking panther with blue-black fur, six legs and a body that
+is nothing but muscle and bone.  A set of four tentacles sprout from its
+shoulders and end in horny-ridged pads.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15038
+salamander ice blue frost~
+a frost salamander~
+An ice-blue salamander walks around looking for a new prey.
+~
+   A frost salamander's ice-blue serpentine body has six legs, a long tail, and
+a reptilian head.  Its claws are equipped with talons that resemble icicles.  
+These claws not only make vicious weapons they allow the creature to climb any
+ice covered surface even a vertical wall.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This fearsome swamp predator resembles a crocodile with a rubbery green
+This creature is large and bulky.  With one horn on the end of its nose, and
+#15041
+asperi aggressive horse beautiful unusually~
+an aggressive asperi~
+An unusually beautiful horse seems to be out of control.
+~
+   This creature resembles a horse.  It is incredibly beautiful, however, with
+a magical flowing mane.  This asperi seems to have gotten out of control in a
+fit of rage.    
+~
+d 0 0 0 k 0 0 0 1000
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This ranger stands here, contemplating his situation.  He summons a creature
+#15044
+colorful hippogriff~
+a colorful hippogriff~
+Levitating above the ground is a colorful hippogriff.
+~
+   This beast has the torso and hindquarters of a horse, and the forelegs,
+wings, and head of a giant eagle.  It glares at you wildly, watching your ever
+move.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15045
+paladin unholy~
+an unholy paladin~
+Summoning mounts is an unholy paladin, getting out of control.
+~
+   This paladin stands here, dark armor and a stoic look on his face.  He calls
+upon the forces of darkness to bring forth beasts to aid in the battle
+happening in the bottom of the cave.    
+~
+d 0 0 0 k 0 0 0 -1000
+20 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15047
+weird air elemental~
+an air weird~
+Attached to his pool is an air elemental weird.
+~
+   The upper body of a weird always resembles that of a beautiful female
+humanoid.  The lower half may be either humanoid or a serpentine column.  A
+weird rises from a pool of the appropriate element, which it can never leave.
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15048
+weird fire humanoid elemental~
+a fire weird~
+Standing in the heap of fire is a humanoid made of fire.
+~
+   The upper body of this weird resembles a beautiful female humanoid.  The
+lower half appears to be humanoid, but is wreathed in flowing flames.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#15049
+weird water elemental~
+a water weird~
+Standing in his pool is a water elemental weird.
+~
+   The upper body of this creature resembles that of a beautiful female
+humanoid.  The lower half looks like a serpentine column of water, snaking up
+from a small pool of water on the floor.    
+~
+d 0 0 0 k 0 0 0 1000
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The upper body of this weird resembles a beautiful female humanoid.  The
+#15051
+snarling lynx large~
+a snarling, dire lynx~
+A large lynx is here, snarling at any who enter.
+~
+   This cat is long and thing, and very large.  Its hair is tough and stands
+out a bit, as it snarls at you horribly.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This eagle is immense in size, nothing like an average eagle.  Its talons
+This panther is rather strong and agile looking.  It has bright green eyes
+This wolf is large, with spikes rising up from its back.  It has extra long
+This druid has gone mad, cackling about seemingly nothing.  He summons
+This cube is very large, taking up the entire tunnel area.  It slowly creeps
+The infection is
+$

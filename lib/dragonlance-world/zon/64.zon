@@ -1,0 +1,390 @@
+#64
+None.~
+Village of Keiflore (Dark)~
+6400 6499 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  6405     1  6426   1   100     0    -1          0 Lamone the miller
+
+D 0  6426     0     1   0   101     1    -10 
+
+O 0  6403     1  6425   0   100     2    -1          0 keiflore mill sign
+
+D 0  6425     2     1   0   101     3    -10 
+
+M 0  6428     1  6421   1   100     4    -1          0 a hefty dwarven man
+
+M 0  6426     1  6421   1   100     5    -1          0 a rough-looking mercenary
+
+E 1  6434     4    10   0    10     6     5          0 a pair of hardened leather vambraces
+
+M 0  6425     2  6421   2   100     7    -1          0 a friendly, middle-aged waitress
+
+D 0  6421     2     1   0   101     8    -10 
+
+O 0  6407     1  6422   0   100     9    -1          0 silver claw sign
+
+D 0  6422     0     1   0   101    10    -10 
+
+M 0  6419     1  6480   1   100    11    -1          0 a horribly scarred beast
+
+E 1  6414     2     6   0    15    12    11          0 a non-descript steel mask
+
+E 1  6413     2     1   0    15    13    11          0 a wide jade band
+
+O 0  6412     1  6480   0   100    14    -1          0 a plain, wooden chest
+
+P 1  6415     4  6412   0   100    15    14          0 a large, multi-faceted diamond
+
+D 0  6480     5     1   0   101    16    -10 
+
+D 0  6479     4     1   0   101    17    -10 
+
+D 0  6439     3     2   0   101    18    -10 
+
+D 0  6439     2     0   0   101    19    -10 
+
+O 0  6404     1  6440   0   100    20    -1          0 Keiflore's stable sign
+
+M 0  6418     4  6440   2   100    21    -1          0 a stoic gateguard
+
+M 0  6418     4  6440   2   100    22    -1          0 a stoic gateguard
+
+G 1  6408     2     0   0   100    23    22          0 an etched steel key
+
+D 0  6440     3     0   0   101    24    -10 
+
+D 0  6440     0     0   0   101    25    -10 
+
+M 0  6422     2  6448   1   100    26    -1          0 a gaily dressed minstrel
+
+E 1  6430     3    17   0    30    27    26          0 a lute of magnificent beauty
+
+D 0  6448     1     2   0   101    28    -10 
+
+M 0  6429     1  6466   1   100    29    -1          0 a stunning woman
+
+E 1  6432     2     6   0    15    30    29          0 a helm engraved with roses
+
+D 0  6466     0     1   0   101    31    -10 
+
+D 0  6466     2     1   0   101    32    -10 
+
+M 0  6432     2  6447   1   100    33    -1          0 a diminutive woman in white robes
+
+M 0  6421     4  6447   1   100    34    -1          0 a voluptuous young maiden
+
+E 1  6426     2     5   0    40    35    34          0 a black, silk brazier
+
+M 0  6420     3  6447   2   100    36    -1          0 an overweight half-elf
+
+G 1  6433    25     0   0   100    37    36          0 a delicious, roasted duck
+
+D 0  6447     3     0   0   101    38    -10 
+
+D 0  6447     0     1   0   101    39    -10 
+
+D 0  6447     1     1   0   101    40    -10 
+
+M 0  6431     2  6438   1   100    41    -1          0 an extravagent nobleman
+
+E 1  6431    15     5   0    75    42    41          0 a flashy, silver tunic
+
+D 0  6438     0     1   0   101    43    -10 
+
+D 0  6438     3     1   0   101    44    -10 
+
+M 0  6423     1  6437   1   100    45    -1          0 Lord Rosenthorn
+
+E 1  6428     1     6   0    10    46    45          0 a delicate platinum headpiece adorned with a rose-shaped ruby
+
+E 1  6429     1    17   0    10    47    45          0 a long, elaborately decorated rapier
+
+D 0  6437     3     1   0   101    48    -10 
+
+D 0  6437     1     1   0   101    49    -10 
+
+D 0  6437     2     1   0   101    50    -10 
+
+M 0  6432     2  6428   1   100    51    -1          0 a diminutive woman in white robes
+
+E 1  6427     3     5   0    10    52    51          0 a long, white robe of the finest velvet
+
+M 0  6421     4  6428   1   100    53    -1          0 a voluptuous young maiden
+
+D 0  6428     3     1   0   101    54    -10 
+
+M 0  6421     4  6446   1   100    55    -1          0 a voluptuous young maiden
+
+D 0  6446     3     1   0   101    56    -10 
+
+D 0  6446     2     1   0   101    57    -10 
+
+D 0  6446     1     1   0   101    58    -10 
+
+D 0  6456     2     1   0   101    59    -10 
+
+D 0  6456     1     0   0   101    60    -10 
+
+D 0  6477     1     1   0   101    61    -10 
+
+O 0  6406     1  6472   0   100    62    -1          0 keiflore's garden sign
+
+D 0  6472     0     1   0   101    63    -10 
+
+D 0  6472     3     1   0   101    64    -10 
+
+M 0  6413     3  6471   1   100    65    -1          0 an attractive young girl
+
+E 1  6440     4     6   0    50    66    65          0 a crown of interwoven roses
+
+O 0  6401     1  6471   0   100    67    -1          0 a wood burning stove
+
+D 0  6471     2     1   0   101    68    -10 
+
+D 0  6436     1     1   0   101    69    -10 
+
+M 0  6408    10  6427   1   100    70    -1          0 a petite woman
+
+O 0  6401     2  6427   0   100    71    -1          0 a wood burning stove
+
+D 0  6427     3     1   0   101    72    -10 
+
+M 0  6413     2  6453   1   100    73    -1          0 an attractive young girl
+
+M 0  6408    10  6453   1   100    74    -1          0 a petite woman
+
+O 0  6401     3  6453   0   100    75    -1          0 a wood burning stove
+
+D 0  6453     1     1   0   101    76    -10 
+
+M 0  6407     1  6444   1   100    77    -1          0 a curious, grey-haired kender
+
+G 1  1239     3     0   0    33    78    77          0 a burned, blackened scrollcase
+
+E 1  6425     1    16   0    10    79    77          0 an undersized, charcoal-grey hoopak
+
+D 0  6444     3     1   0   101    80    -10 
+
+D 0  6452     3     1   0   101    81    -10 
+
+M 0  6409     1  6461   1   100    82    -1          0 a dwarven lady
+
+O 0  6401     4  6461   0   100    83    -1          0 a wood burning stove
+
+D 0  6461     1     1   0   101    84    -10 
+
+M 0  6412     1  6451   1   100    85    -1          0 a young man
+
+E 1  6435     4    17   0    40    86    85          0 a small tome bound in wrinkled, white leather
+
+M 0  6408    10  6451   1   100    87    -1          0 a petite woman
+
+O 0  6401     5  6451   0   100    88    -1          0 a wood burning stove
+
+D 0  6451     3     2   0   101    89    -10 
+
+D 0  6451     1     1   0   101    90    -10 
+
+M 0  6417     3  6442   1   100    91    -1          0 a feral cat
+
+D 0  6442     3     1   0   101    92    -10 
+
+O 0  6405     1  6460   0    75    93    -1          0 a large painting
+
+D 0  6460     1     2   0   101    94    -10 
+
+M 0  6408    10  6450   1   100    95    -1          0 a petite woman
+
+O 0  6401     6  6450   0   100    96    -1          0 a wood burning stove
+
+D 0  6450     1     1   0   101    97    -10 
+
+D 0  6441     3     1   0   101    98    -10 
+
+D 0  6424     0     0   0   101    99    -10 
+
+M 0  6408    10  6424   1   100   100    -1          0 a petite woman
+
+O 0  6401     7  6424   0   100   101    -1          0 a wood burning stove
+
+D 0  6423     2     0   0   101   102    -10 
+
+D 0  6423     1     1   0   101   103    -10 
+
+M 0  6431     2  6457   1   100   104    -1          0 an extravagent nobleman
+
+G 1  1227     3     0   0    30   105   104          0 a round disk, with runes etched upon it
+
+E 1  6431    15     5   0    75   106   104          0 a flashy, silver tunic
+
+D 0  6457     0     1   0   101   107    -10 
+
+D 0  6465     2     1   0   101   108    -10 
+
+O 0  6402     1  6432   0   100   109    -1          0 a small covered well
+
+M 0  6434     4  6449   4   100   110    -1          0 a large, brown workhorse
+
+M 0  6434     4  6449   4   100   111    -1          0 a large, brown workhorse
+
+M 0  6434     4  6449   4   100   112    -1          0 a large, brown workhorse
+
+M 0  6434     4  6449   4   100   113    -1          0 a large, brown workhorse
+
+M 0  6433     4  6449   4   100   114    -1          0 an aloof, black stallion
+
+M 0  6433     4  6449   4   100   115    -1          0 an aloof, black stallion
+
+M 0  6433     4  6449   4   100   116    -1          0 an aloof, black stallion
+
+M 0  6433     4  6449   4   100   117    -1          0 an aloof, black stallion
+
+D 0  6449     1     0   0   101   118    -10 
+
+O 0  6410     1  6462   0   100   119    -1          0 a jeweled chest
+
+P 1  6437     3  6410   0    80   120   119          0 a platinum nugget
+
+P 1  6437     3  6410   0    80   121   119          0 a platinum nugget
+
+P 1  6438     2  6410   0    80   122   119          0 a sparkling emerald
+
+M 0  6400    15  6419   2   100   123    -1          0 a hobgoblin warrior
+
+E 1  6418     4    16   0    40   124   123          0 a bloody double-sided battle axe
+
+M 0  6401     1  6410   1   100   125    -1          0 the hobgoblin chieftain
+
+E 1  6416     2    16   0    15   126   125          0 a spiked flail with a notched wooden handle
+
+E 1  6417     2     3   0    20   127   125          0 a blackened medallion bearing a five-headed dragon
+
+M 0  6400    15  6410   2   100   128    -1          0 a hobgoblin warrior
+
+M 0  6400    15  6401   2   100   129    -1          0 a hobgoblin warrior
+
+M 0  6400    15  6402   2   100   130    -1          0 a hobgoblin warrior
+
+E 1  6418     4    16   0    40   131   130          0 a bloody double-sided battle axe
+
+M 0  6411     1  6411   1   100   132    -1          0 a woman in black robes
+
+E 1  6421     2    17   0    10   133   132          0 a crystal wand crowned with a platinum sphere
+
+M 0  6400    15  6411   2   100   134    -1          0 a hobgoblin warrior
+
+M 0  6400    15  6420   2   100   135    -1          0 a hobgoblin warrior
+
+E 1  6418     4    16   0    40   136   135          0 a bloody double-sided battle axe
+
+M 0  6400    15  6412   2   100   137    -1          0 a hobgoblin warrior
+
+M 0  6400    15  6403   2   100   138    -1          0 a hobgoblin warrior
+
+M 0  6410     2  6404   1   100   139    -1          0 a hobgoblin sergeant
+
+E 1  6420     2     7   0    30   140   139          0 a pair of chain-mail leggings
+
+E 1  6419     2     9   0    30   141   139          0 a pair of etched-steel gauntlets encrusted with two sapphires
+
+M 0  6400    15  6404   2   100   142    -1          0 a hobgoblin warrior
+
+E 1  6418     4    16   0    40   143   142          0 a bloody double-sided battle axe
+
+M 0  6400    15  6413   2   100   144    -1          0 a hobgoblin warrior
+
+M 0  6403     6  6409   2   100   145    -1          0 a muscular, grey ox
+
+M 0  6402    15  6409   2   100   146    -1          0 a village farmer
+
+E 1  6423     5     5   0    50   147   146          0 a dusty, burlap cloak
+
+M 0  6403     6  6418   2   100   148    -1          0 a muscular, grey ox
+
+M 0  6402    15  6418   2   100   149    -1          0 a village farmer
+
+E 1  6422     4    16   0    35   150   149          0 a long, bronze sickle with a oak handle
+
+M 0  6402    15  6417   2   100   151    -1          0 a village farmer
+
+E 1  6423     5     5   0    50   152   151          0 a dusty, burlap cloak
+
+E 1  6422     4    16   0    35   153   151          0 a long, bronze sickle with a oak handle
+
+M 0  6402    15  6408   2   100   154    -1          0 a village farmer
+
+E 1  6423     5     5   0    50   155   154          0 a dusty, burlap cloak
+
+E 1  6422     4    16   0    35   156   154          0 a long, bronze sickle with a oak handle
+
+M 0  6402    15  6407   2   100   157    -1          0 a village farmer
+
+E 1  6422     4    16   0    35   158   157          0 a long, bronze sickle with a oak handle
+
+M 0  6402    15  6416   2   100   159    -1          0 a village farmer
+
+E 1  6423     5     5   0    50   160   159          0 a dusty, burlap cloak
+
+M 0  6403     6  6415   2   100   161    -1          0 a muscular, grey ox
+
+M 0  6403     6  6406   2   100   162    -1          0 a muscular, grey ox
+
+M 0  6404     2  6405   1   100   163    -1          0 a well-trained squire
+
+E 1  6424     3     5   0    20   164   163          0 a highly-polished breastplate
+
+M 0  6406     4  6435   4   100   165    -1          0 a swaybacked workhorse
+
+M 0  6406     4  6435   4   100   166    -1          0 a swaybacked workhorse
+
+M 0  6406     4  6435   4   100   167    -1          0 a swaybacked workhorse
+
+M 0  6406     4  6435   4   100   168    -1          0 a swaybacked workhorse
+
+M 0  6421     4  6464   1   100   169    -1          0 a voluptuous young maiden
+
+E 1  6426     2     5   0    40   170   169          0 a black, silk brazier
+
+O 0  6401     8  6464   0   100   171    -1          0 a wood burning stove
+
+M 0  6414     1  6474   1   100   172    -1          0 a simple, druidic man
+
+E 1  6439     3    10   0    20   173   172          0 a pair of mohagany armbands
+
+M 0  6416     1  6459   1   100   174    -1          0 a large black asp
+
+G 1  6436     4     0   0    40   175   174          0 the eye of a black asp
+
+M 0  6415     3  6475   1   100   176    -1          0 a giant mosquito
+
+M 0  6417     3  6476   1   100   177    -1          0 a feral cat
+
+M 0  6417     3  6434   1   100   178    -1          0 a feral cat
+
+M 0  6420     3  6455   2   100   179    -1          0 an overweight half-elf
+
+G 1  6433    25     0   0   100   180   179          0 a delicious, roasted duck
+
+M 0  6430     1  6430   1   100   181    -1          0 a flamboyant artist
+
+G 1  1221     2     0   0    35   182   181          0 some rolled paper sealed with a closed, wax eye
+
+G 1  6409     1     0   0   100   183   181          0 a white key
+
+M 0  6427     1  6430   1   100   184    -1          0 a kender dressed in rags
+
+G 1  1244     2     0   0    20   185   184          0 a pair of inscribed fangs
+
+M 0  6425     2  6430   2   100   186    -1          0 a friendly, middle-aged waitress
+
+M 0  6424     1  6430   1   100   187    -1          0 a grumpy, dwarven bartender
+
+G 1  6411     1     0   0   100   188   187          0 a small emerald key
+
+D 0  6414     3     1   0   101   189    -10 
+
+S
+$

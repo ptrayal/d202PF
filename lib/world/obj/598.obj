@@ -1,0 +1,41 @@
+#59800
+ship spelljammer~
+a spelljammer ship, "King's Treaty"~
+The spelljammer ship "King's Treaty" is here painted in the royal colors of Cormyr's Army.~
+~
+35 0 0 0 0 0 0 0 0 0 0 0 0
+59800 15 -1 -1 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+7
+#59801
+hatch~
+the hatch out of the ship~
+The hatch leading out of the ship is here.~
+~
+36 0 0 0 0 0 0 0 0 0 0 0 0
+59800 5 -1 0 100 100 0 8 20 20 0 0 0 0 0 0
+0 0 0 0
+Z
+5
+#59802
+dome glass~
+a glass dome~
+A glass dome covers the helm from the elements outside.~
+~
+37 0 0 0 0 0 0 0 0 0 0 0 0
+59800 0 -1 0 0 0 0 3 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+6
+#59803
+helm~
+the helm of the King's Treaty~
+The helm of the King's Treaty is here waiting for a driver.~
+~
+38 0 0 0 0 0 0 0 0 0 0 0 0
+59800 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+$~

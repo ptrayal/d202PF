@@ -1,0 +1,1732 @@
+#2300
+Zone Outline~
+Rooms 01-58  Palanthas Roads, Shops and Other Facilities.
+Rooms 59-97  Palanthas Sewers
+~
+23 0 0 0 0 0
+S
+#2301
+Tower Road~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.    
+~
+23 0 h 0 0 1
+D0
+~
+~
+0 0 2302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2353 0 0 0 0 0 0 0 0
+S
+#2302
+Tower Road~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.    
+~
+23 0 h 0 0 1
+D0
+~
+~
+0 0 2303 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2301 0 0 0 0 0 0 0 0
+S
+#2303
+Tower Road~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.  A gloomy looking street runs east toward the cursed Tower of High
+Sorcery.    
+~
+23 0 h 0 0 1
+D0
+~
+~
+0 0 2304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2302 0 0 0 0 0 0 0 0
+S
+#2304
+Tower Road~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.    
+~
+23 0 h 0 0 1
+D0
+~
+~
+0 0 2254 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2303 0 0 0 0 0 0 0 0
+S
+#2305
+Church Street~
+   This street is aptly named for the many temples and shrines of the pantheon
+of good gods.  Many citizens go about their business, while clergymen sit out
+in quiet prayer in the temple yards.  The whitewashed tiles that define
+Palanthas' beauty are ever-present.    
+~
+23 d h 0 0 1
+D0
+~
+~
+0 0 2226 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2214 0 0 0 0 0 0 0 0
+S
+#2306
+A Narrow Side Street~
+   This small side road connects the inner grounds of new Palanthas to the
+outer rim, where the fortifications lie.  Commoners are rare on the outer rim,
+as it is mostly used by the Palanthas militia and knights on duty.  Barracks
+and warehouses dominate the streets of the outer rim that lead out into the
+residences of old Palanthas.    
+~
+23 0 h 0 0 1
+D6
+~
+~
+0 0 2265 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2230 0 0 0 0 0 0 0 0
+S
+#2307
+A Narrow Side Street~
+   This small side road connects the inner grounds of new Palanthas to the
+outer rim, where the fortifications lie.  Commoners are rare on the outer rim,
+as it is mostly used by the Palanthas militia and knights on duty.  Barracks
+and warehouses dominate the streets of the outer rim that lead out into the
+residences of old Palanthas.    
+~
+23 0 h 0 0 1
+D7
+~
+~
+0 0 2276 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2237 0 0 0 0 0 0 0 0
+S
+#2308
+A Narrow Side Street~
+   This small side road connects the inner grounds of new Palanthas to the
+outer rim, where the fortifications lie.  Commoners are rare on the outer rim,
+as it is mostly used by the Palanthas militia and knights on duty.  Barracks
+and warehouses dominate the streets of the outer rim that lead out into the
+residences of old Palanthas.    
+~
+23 0 h 0 0 1
+D6
+~
+~
+0 0 2244 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2287 0 0 0 0 0 0 0 0
+S
+#2309
+A Narrow Side Street~
+   This small side road connects the inner grounds of new Palanthas to the
+outer rim, where the fortifications lie.  Commoners are rare on the outer rim,
+as it is mostly used by the Palanthas militia and knights on duty.  Barracks
+and warehouses dominate the streets of the outer rim that lead out into the
+residences of old Palanthas.    
+~
+23 0 h 0 0 1
+D7
+~
+~
+0 0 2249 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2354 0 0 0 0 0 0 0 0
+S
+#2310
+Entrance to the Inn of the Platinum Dragon~
+   This is a small, but elaborately decorated room.  Instantly drawing your
+attention is the statue of a large dragon in the center of the room.  Several
+tables have been placed around the room, most of which are occupied by
+richly-dressed individuals.  An archway to the north leads to the heart of the
+inn.    
+~
+23 c h 0 0 0
+D0
+~
+~
+0 0 2325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2216 0 0 0 0 0 0 0 0
+S
+#2311
+Entrance to the Knight's House~
+   The entrance hall of the Knight's House is elegantly decorated.  Detailed
+statues and extravagent tapestries fill the room.  A few small, but
+comfortable-looking chairs are present.  Although the decoration is extensive,
+the furnishing is not.  Two silver plaques adorn the archways which lead to the
+east and north.    
+~
+23 c 0 0 0 0
+D0
+A small silver plaque above this archway reads "Training Hall".
+~
+~
+0 0 2336 0 0 0 0 0 0 0 0
+D1
+A small silver plaque above this archway reads, "Lounge".
+~
+~
+0 0 2337 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2239 0 0 0 0 0 0 0 0
+S
+#2312
+Foyer of the Great Library~
+   The entrance to the Great Library is much less decorative than most would
+expect.  Like most of Palanthas' buildings, it is constructed of white marble
+tiles.  Several pillars extend from floor to ceiling, both as support and
+decoration.  The only other things of notice in the room are a couple of white
+marble benches.    
+~
+23 cp h 0 0 0
+D0
+~
+~
+0 0 2340 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2242 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2339 0 0 0 0 0 0 0 0
+S
+#2313
+Jaxx's Gems and Fine Treasures~
+   This shop is stocked with several large, glass cases.  In each case is an
+assortment of gems varying in size and type.  Behind the largest case stands a
+burly dwarf who merely nods at you in acknoledgement.    
+~
+23 c 0 0 0 0
+D2
+~
+~
+0 0 2245 0 0 0 0 0 0 0 0
+S
+#2314
+First Bank of Palanthas~
+   The first bank of Palanthas is a building bustling with movement and filled
+with the sounds of jingling coins.  Behind a long, wooden counter several bank
+tellers hustle to and fro, carrying bags filled with coins.  Through a door
+behind the counter you can see a large, iron safe.    
+~
+23 c h 0 0 0
+D2
+~
+~
+0 0 16800 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2218 0 0 0 0 0 0 0 0
+S
+#2315
+Common Room of the Griffon's Talon~
+   The air in this tavern is filled with smoke and rowdy laughter.  A large bar
+runs along the southern wall, while the rest of the space is dominated by
+tables and chairs.  Wenches go from table to table, ignoring the catcalls and
+whistles thrown out by the obnoxious patrons.    
+~
+23 c h 0 0 0
+D0
+~
+~
+0 0 2272 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2316 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2319 0 0 0 0 0 0 0 0
+S
+#2316
+Common Room of the Griffon's Talon~
+   The air in this tavern is filled with smoke and rowdy laughter.  A large bar
+runs along the southern wall, while the rest of the space is dominated by
+tables and chairs.  Wenches go from table to table, ignoring the catcalls and
+whistles thrown out by the obnoxious patrons.    
+~
+23 c h 0 0 0
+D1
+~
+~
+0 0 2315 0 0 0 0 0 0 0 0
+S
+#2317
+A Smoke-Filled Kitchen~
+   This kitchen is small and dirty, and filled with foul smelling smoke.  A
+large stove on the eastern wall fills the room with unbearable heat, while atop
+it a large iron pot bubbles with some sort of stew.  A small sheletered hole in
+the ceiling provides ventilation.    
+~
+23 0 h 0 0 0
+D3
+~
+~
+0 0 2315 0 0 0 0 0 0 0 0
+S
+#2318
+A Damp, Musty Cellar~
+You are in a room.
+~
+23 0 h 0 0 0
+D3
+~
+~
+0 0 2300 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor cellar~
+1 0 2317 0 0 0 0 0 0 0 0
+S
+#2319
+Outside the Meeting Rooms~
+   A large, spiral staircase leads down to the common room of the tavern.  The
+hallway itself is sparsely decorated, with a couple of cheap paintings on the
+walls.  Doors lead east and west into seperate meeting rooms.    
+~
+23 0 h 0 0 0
+D1
+~
+door~
+1 0 2321 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2320 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2315 0 0 0 0 0 0 0 0
+S
+#2320
+A Green Walled Meeting Area~
+   This small meeting room is sparsely decorated, with a couple of cheap
+paintings on the walls.  A large table dominates the center of the room,
+surrounded by padded chairs.  A door leads east out to the hallway of the
+tavern.    
+~
+23 0 h 0 0 0
+D1
+~
+door~
+1 0 2319 0 0 0 0 0 0 0 0
+S
+#2321
+A Green Walled Meeting Area~
+   This small meeting room is sparsely decorated, with a couple of cheap
+paintings on the walls.  A large table dominates the center of the room,
+surrounded by padded chairs.  A door leads west out to the hallway of the
+tavern.    
+~
+23 0 h 0 0 0
+D3
+~
+door~
+1 0 2319 0 0 0 0 0 0 0 0
+S
+#2322
+Fulten's Quality Weaponry~
+   Weapons of various types are displayed on the walls.  Some of the weapons
+are in excellent condition, while others appear to be quite well used.  A large
+man with a scruffy beard roams about the shop carefully maintaining his
+products.    
+~
+23 c 0 0 0 0
+D0
+~
+~
+0 0 2223 0 0 0 0 0 0 0 0
+S
+#2323
+Celric the Armorer~
+   This well kept store is packed with suits of armor.  The shine from some of
+the items nearly blinds you.  Others seem to all but absorb the present light.
+The shop owner is dressed in dark garments with a meticulously groomed goatee.
+He strokes his beard thoughtfully as he watches you peruse his goods.    
+~
+23 c 0 0 0 0
+D1
+~
+~
+0 0 2223 0 0 0 0 0 0 0 0
+S
+#2324
+Lakhur's General Store~
+   You stand in a small shop lined with worn wooden shelves.  The shelves are
+stocked with everything and anything you could imagine a traveller or citizen
+could want.  Behind the counter you spot a scrawny and wrinkled old man wearing
+a turban.  He stops sweeping the floor long enough to flash you a friendly
+smile.    
+~
+23 c 0 0 0 0
+D0
+~
+~
+0 0 2227 0 0 0 0 0 0 0 0
+S
+#2325
+Lobby of the Inn of the Platinum Dragon~
+   Your eyes have trouble adjusting to the low light as you first enter this
+room.  Smoke and the sound of intermingling voices fill the air.  An oaken bar
+on the east wall of the room is lined with individuals of all different sorts.
+To the north is the reception of the inn, and to the west are the public board
+rooms.    
+~
+23 0 h 0 0 0
+D0
+~
+~
+0 0 2326 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2327 0 0 0 0 0 0 0 0
+S
+#2326
+Reception of the Inn of the Platinum Dragon~
+   A cheerful man stands behind an oaken counter at the bottom of a wide,
+spiralling staircase that leads up to the guest rooms.  Covering the floor is a
+fine rug, and adorning the walls are several artistic tapestries.  Rubbing his
+hands together fawningly, the innkeeper greets you with a practiced smile.    
+~
+23 0 d 0 0 0
+D2
+~
+~
+0 0 2325 0 0 0 0 0 0 0 0
+S
+#2327
+Outside the Board Rooms~
+   Your footsteps echo as you walk around this room.  The walls are bare and
+white, and the floor is scuffed and stained from extensive use.  Archways lead
+north and south into the boardrooms.  A large, spiral staircase leads up to
+more boardrooms and the city's courier service.    
+~
+23 0 h 0 0 0
+D0
+~
+~
+0 0 2328 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2398 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2330 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+#2328
+General News From Across Anasalon~
+   The walls of this room are white and completely bare, save for the northern
+wall which is covered by a large bulletin board.  The board is covered in
+pieces of parchment that have pinned onto it by people from Palanthas and
+indeed, all of Ansalon.  The rest of the room is completely bare.    
+~
+23 0 h 0 0 0
+D2
+~
+~
+0 0 2327 0 0 0 0 0 0 0 0
+S
+#2329
+News From Another World~
+   The walls of this room are white and completely bare, save for the southern
+wall which is covered by a large bulletin board.  The board is covered in
+pieces of parchment that have pinned onto it by people from Palanthas and
+indeed, all of Ansalon.  The rest of the room is completely bare.    
+~
+23 0 h 0 0 0
+D0
+~
+~
+0 0 2327 0 0 0 0 0 0 0 0
+S
+#2330
+Outside the Board Rooms~
+   Your footsteps echo as you walk around this room.  The walls are bare and
+white, and the floor is scuffed and stained from extensive use.  Archways lead
+north and south into the boardrooms.  A large, spiral staircase leads down to
+more boardrooms and the rest of the inn.    
+~
+23 0 h 0 0 0
+D0
+~
+~
+0 0 2331 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2333 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2332 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2327 0 0 0 0 0 0 0 0
+S
+#2331
+The Merchant and Bartering Board~
+   The walls of this room are white and completely bare, save for the northern
+wall which is covered by a large bulletin board.  The board is covered in
+pieces of parchment that have pinned onto it by people from Palanthas and
+indeed, all of Ansalon.  The rest of the room is completely bare.    
+~
+23 0 h 0 0 0
+D2
+~
+~
+0 0 2330 0 0 0 0 0 0 0 0
+S
+#2332
+Laws and Criminal Reports~
+   The walls of this room are white and completely bare, save for the southern
+wall which is covered by a large bulletin board.  The board is covered in
+pieces of parchment that have pinned onto it by people from Palanthas and
+indeed, all of Ansalon.  The rest of the room is completely bare.    
+~
+23 0 h 0 0 0
+D0
+~
+~
+0 0 2330 0 0 0 0 0 0 0 0
+S
+#2333
+The Desk of the White Steed Courier Services~
+   This small office is well organized and even somewhat decorative.  Wooden
+benches line the north and south walls awaiting clients.  A finely polished
+desk of carved redwood stands nearby the western wall.  Behind the desk are
+shelves filled with stacks of parchment.  Archways lead north and south into
+boardrooms.    
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2334 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2330 0 0 0 0 0 0 0 0
+S
+#2334
+Bug Reports and Idea Discussion~
+   The walls of this room are white and completely bare, save for the northern
+wall which is covered by a large bulletin board.  The board is covered in
+pieces of parchment that have pinned onto it by people from Palanthas and
+indeed, all of Ansalon.  The rest of the room is completely bare.    
+~
+23 0 h 0 0 0
+D2
+~
+~
+0 0 2333 0 0 0 0 0 0 0 0
+S
+#2335
+Important Rules and Policies~
+   The walls of this room are white and completely bare, save for the southern
+wall which is covered by a large bulletin board.  The board is covered in
+pieces of parchment that have pinned onto it by people from Palanthas and
+indeed, all of Ansalon.  The rest of the room is completely bare.    
+~
+23 0 h 0 0 0
+D0
+~
+~
+0 0 2333 0 0 0 0 0 0 0 0
+S
+#2336
+Training Hall of the Knight's House~
+   This room serves as the training hall for the Palanthas Militia, the Knights
+of Solamnia assigned to the city and for any others who would choose to
+practice their relative skills.  There are many wooden practice dummies, as
+well as racks of wooden training weapons.  To the east is an archway leading to
+a private duelling area.    
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2338 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2311 0 0 0 0 0 0 0 0
+S
+#2337
+The Knight's House Lobby~
+   This room serves as a lounge for the tired trainees that practice inside
+these walls.  There are several comfortable looking couches and a couple of
+small tables.  The walls are covered with paintings and tapestries depicting
+the valor of the Knights of Solamnia in battle.    
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2311 0 0 0 0 0 0 0 0
+S
+#2338
+A Duelling Chamber~
+   This room is used for trainees who wish to combat each other, usually in
+pratice, but occasionally for bouts of honor or skill comparison.  There are
+racks of wooden training weapons for those who wish to practice their skills
+against each other.  Apart from that, the room is empty.  Its space is reserved
+for combat itself.    
+~
+23 0 h 0 0 0
+D3
+~
+~
+0 0 2336 0 0 0 0 0 0 0 0
+S
+#2339
+A Dimly-Lit Hallway~
+   This hallway is as sparsely decorated as the foyer.  A map of Ansalon covers
+the southern wall as a huge tapestry.  To the north is an iron-bound door that
+leads into the chambers of the great historian, Astinus.    
+~
+23 p h 0 0 0
+D0
+~
+door iron-bound~
+1 0 2341 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2312 0 0 0 0 0 0 0 0
+S
+#2340
+Public Archives of the Great Library~
+   This room is the only area of the library devoted and available to the
+general public.  The thousands of texts within the archive are written by
+Astinus himself, as well as the many bards, historians and other authors of
+Ansalon.  The room is devoid of furnishing and decoration, save for the many
+bookshelves that contain the writings of this collection.    
+  In this room you can @Yresearch@n spells for your spellbook.
+~
+23 p h 0 0 0
+D2
+~
+~
+0 0 2312 0 0 0 0 0 0 0 0
+S
+#2341
+Chambers of the Ageless One~
+   The chambers of Astinus is well-lit with torches in brass sconces.  Apart
+from huge bookcases filled with tomes, the only furniture in this room is a
+large desk, which the ageless one himself currently occupies.  To the south is
+an iron-bound door leading out of the room.    
+~
+23 0 0 0 0 0
+D2
+~
+door iron-bound~
+1 0 2339 0 0 0 0 0 0 0 0
+S
+#2342
+Sera's Housing Goods~
+   This shop serves to give the residents of Palanthas a place to buy certain
+things for their homes.  It is filled with furniture and decorations and all
+manner of house-related things.  
+~
+23 c 0 0 0 0
+D3
+~
+~
+0 0 2227 0 0 0 0 0 0 0 0
+S
+#2343
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the ramparts above.
+Long arrowslits have been built into the walls to allow archers and crossbowmen
+to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D0
+~
+~
+0 0 2293 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2344 0 0 0 0 0 0 0 0
+S
+#2344
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the base of the
+tower below.  Long arrowslits have been built into the walls to allow archers
+and crossbowmen to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D1
+~
+~
+0 0 2347 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2343 0 0 0 0 0 0 0 0
+S
+#2345
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the ramparts above.
+Long arrowslits have been built into the walls to allow archers and crossbowmen
+to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D2
+~
+~
+0 0 2270 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2346 0 0 0 0 0 0 0 0
+S
+#2346
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the base of the
+tower below.  Long arrowslits have been built into the walls to allow archers
+and crossbowmen to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D1
+~
+~
+0 0 2350 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2345 0 0 0 0 0 0 0 0
+S
+#2347
+Overlooking the Southern Gate~
+   The ramparts here are about eight feet in width and constructed of a
+polished white marble.  Below you can see the gates of Palanthas, obstructing
+any possible threats to the city from entering.  To the east and west are tall
+archery towers.    
+~
+23 0 h 0 0 0
+D1
+~
+~
+0 0 2348 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2344 0 0 0 0 0 0 0 0
+S
+#2348
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the base of the
+tower below.  Long arrowslits have been built into the walls to allow archers
+and crossbowmen to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D3
+~
+~
+0 0 2347 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2349 0 0 0 0 0 0 0 0
+S
+#2349
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the ramparts above.
+Long arrowslits have been built into the walls to allow archers and crossbowmen
+to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D0
+~
+~
+0 0 2292 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2348 0 0 0 0 0 0 0 0
+S
+#2350
+Overlooking the Northern Gate~
+   The ramparts here are about eight feet in width and constructed of a
+polished white marble.  Below you can see the gates of Palanthas, obstructing
+any possible threats to the city from entering.  To the east and west are tall
+archery towers.    
+~
+23 0 h 0 0 0
+D1
+~
+~
+0 0 2351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2346 0 0 0 0 0 0 0 0
+S
+#2351
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the base of the
+tower below.  Long arrowslits have been built into the walls to allow archers
+and crossbowmen to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D3
+~
+~
+0 0 2350 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2352 0 0 0 0 0 0 0 0
+S
+#2352
+Within a Lookout Tower~
+   This tower is quite wide in diameter, and made of hard white marble.  A
+staircase winds around the wall of the tower, leading up to the ramparts above.
+Long arrowslits have been built into the walls to allow archers and crossbowmen
+to shoot their missiles at possible foes.    
+~
+23 c h 0 0 0
+D2
+~
+~
+0 0 2271 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2351 0 0 0 0 0 0 0 0
+S
+#2353
+Tower Road~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.    
+~
+23 0 h 0 0 1
+D0
+~
+~
+0 0 2301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2354 0 0 0 0 0 0 0 0
+S
+#2354
+Intersection of Tower Road and Sentry Boulevard~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.    
+~
+23 0 h 0 0 1
+D0
+~
+~
+0 0 2353 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2355 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2309 0 0 0 0 0 0 0 0
+S
+#2355
+Sentry Boulevard~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.    
+~
+23 0 h 0 0 1
+D1
+~
+~
+0 0 2356 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2354 0 0 0 0 0 0 0 0
+S
+#2356
+Sentry Boulevard~
+   This street runs along the outer rim of Palanthas.  On one side is a huge
+stone wall that serves as a barricade to potential enemies and also as a
+seperation between new and old Palanthas.  The ever-present whitewashed marble
+is not as widely used among the private homes and warehouses that dominate this
+area.    
+~
+23 0 h 0 0 1
+D1
+~
+~
+0 0 2294 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2355 0 0 0 0 0 0 0 0
+S
+#2357
+Under the Ramparts~
+   Above you are the ramparts that run atop Palanthas' high outer walls.  A
+large gate rises up to the south, seperating Old Palanthas from New Palanthas,
+a decision obviously made by the upper class residents who dwell within the
+safety of New Palanthas' walls.  To the north you can vaguely make out a large
+crowd gathered in market square.    
+~
+23 c h 0 0 1
+D0
+~
+~
+0 0 2259 0 0 0 0 0 0 0 0
+D2
+~
+gate gates~
+1 0 2358 21 21 0 0 0 0 0 0
+S
+#2358
+Before the Southern Gates of Palanthas~
+   Looming high above you to the north are the southern gates of the largest
+Solamnic city, Palanthas.  All around you to the east, west and somewhat to the
+south are the bustling streets of new Palanthas.  Unfortunately, they are
+mostly slums and other areas of poverty.  But the people are still protected,
+at least somewhat by the Knights of Solamnia and the Palanthas militia.  
+Rising thousands of feet into the sky to the south is a large mountain range.
+~
+23 0 0 0 0 3
+D0
+~
+gate gates~
+1 0 2357 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 16801 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8230 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 30099 0 0 0 0 0 0 0 0
+S
+#2359
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2360 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2391 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2296 0 0 0 0 0 0 0 0
+S
+#2360
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2361 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2359 0 0 0 0 0 0 0 0
+S
+#2361
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2362 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2360 0 0 0 0 0 0 0 0
+S
+#2362
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2363 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2361 0 0 0 0 0 0 0 0
+S
+#2363
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odour that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2407 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2364 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2384 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2362 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2295 0 0 0 0 0 0 0 0
+S
+#2364
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2365 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2363 0 0 0 0 0 0 0 0
+S
+#2365
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2366 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2364 0 0 0 0 0 0 0 0
+S
+#2366
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2367 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2365 0 0 0 0 0 0 0 0
+S
+#2367
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D2
+~
+~
+0 0 2368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2366 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2299 0 0 0 0 0 0 0 0
+S
+#2368
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2367 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2369 0 0 0 0 0 0 0 0
+S
+#2369
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2368 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2370 0 0 0 0 0 0 0 0
+S
+#2370
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2369 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2371 0 0 0 0 0 0 0 0
+S
+#2371
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2370 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2372 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2406 0 0 0 0 0 0 0 0
+S
+#2372
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2371 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2373 0 0 0 0 0 0 0 0
+S
+#2373
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2372 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2374 0 0 0 0 0 0 0 0
+S
+#2374
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2373 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2375 0 0 0 0 0 0 0 0
+S
+#2375
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2374 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2376 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2298 0 0 0 0 0 0 0 0
+S
+#2376
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2375 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2377 0 0 0 0 0 0 0 0
+S
+#2377
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2376 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2378 0 0 0 0 0 0 0 0
+S
+#2378
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2377 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2380 0 0 0 0 0 0 0 0
+S
+#2379
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2378 0 0 0 0 0 0 0 0
+S
+#2380
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2397 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2378 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2381 0 0 0 0 0 0 0 0
+S
+#2381
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2380 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2382 0 0 0 0 0 0 0 0
+S
+#2382
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D1
+~
+~
+0 0 2381 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2383 0 0 0 0 0 0 0 0
+S
+#2383
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2385 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2382 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2297 0 0 0 0 0 0 0 0
+S
+#2384
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2363 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2392 0 0 0 0 0 0 0 0
+S
+#2385
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2386 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2383 0 0 0 0 0 0 0 0
+S
+#2386
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2387 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2385 0 0 0 0 0 0 0 0
+S
+#2387
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2388 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2386 0 0 0 0 0 0 0 0
+S
+#2388
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2389 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2387 0 0 0 0 0 0 0 0
+S
+#2389
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2390 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2388 0 0 0 0 0 0 0 0
+S
+#2390
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2391 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2389 0 0 0 0 0 0 0 0
+S
+#2391
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2359 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2390 0 0 0 0 0 0 0 0
+S
+#2392
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2384 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2393 0 0 0 0 0 0 0 0
+S
+#2393
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2392 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+S
+#2394
+An Intersection in the Sewer Tunnels~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2393 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2404 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2395 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2403 0 0 0 0 0 0 0 0
+S
+#2395
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2396 0 0 0 0 0 0 0 0
+S
+#2396
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2395 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2397 0 0 0 0 0 0 0 0
+S
+#2397
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+23 ad 0 0 0 0
+D0
+~
+~
+0 0 2396 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2380 0 0 0 0 0 0 0 0
+S
+#2398
+Palanthas Bounty Office~
+   This room serves as the Palanthas bounty office for the authorities of
+Solamnia bringing in those who have broken the law somehow, or simply by culling
+overpopulated wildlife or dangerous creatures in the wild.  The rooms is filled
+with stacks of papers, likely bounty orders, and a bulleting board where they
+are posted.  They can be accessed with the @Ybounty@n command.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2327 0 0 0 0 0 0 0 0
+S
+#2399
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+$~

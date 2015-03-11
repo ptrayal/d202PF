@@ -1,0 +1,236 @@
+#52
+None.~
+Kendermore (Jim)~
+5200 5299 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+O 0  5201     1  5200   0   100     0    -1          0 a gateway entrance
+
+M 0  5200     2  5200   2   100     1    -1          0 a kender guard
+
+E 1  5200    12    16   0    60     2     1          0 a slightly curved slipak
+
+O 0  5202     1  5206   0   100     3    -1          0 a wide, brick walled fountain
+
+O 0  5202     1  5206   0     1     4    -1          0 a wide, brick walled fountain
+
+M 0  5206     6  5211   1    90     5    -1          0 a kender woman
+
+D 0  5211     5     1   0   101     6    -10 
+
+D 0  5211     3     1   0   101     7    -10 
+
+M 0  5214     3  5210   1    80     8    -1          0 a whistling kender
+
+E 1  5213    20     3   0    80     9     8          0 a diaphanous purple scarf
+
+D 0  5210     1     1   0   101    10    -10 
+
+M 0  5207     6  5247   1   100    11    -1          0 a kender man
+
+G 1  5219     3     0   0    85    12    11          0 a red painted key
+
+D 0  5247     1     2   0   101    13    -10 
+
+D 0  5247     4     1   0   101    14    -10 
+
+M 0  5206     6  5221   1    90    15    -1          0 a kender woman
+
+D 0  5221     2     1   0   101    16    -10 
+
+D 0  5221     5     1   0   101    17    -10 
+
+M 0  5207     6  5248   1   100    18    -1          0 a kender man
+
+G 1  5220     3     0   0    85    19    18          0 a walrus tusk
+
+D 0  5248     3     2   0   101    20    -10 
+
+D 0  5248     4     1   0   101    21    -10 
+
+D 0  5244     0     1   0   101    22    -10 
+
+D 0  5244     2     2   0   101    23    -10 
+
+D 0  5243     1     2   0   101    24    -10 
+
+D 0  5243     0     2   0   101    25    -10 
+
+D 0  5246     2     1   0   101    26    -10 
+
+D 0  5249     3     2   0   101    27    -10 
+
+M 0  5207     6  5242   1   100    28    -1          0 a kender man
+
+G 1  5218     3     0   0    85    29    28          0 the tooth of a cheetah
+
+D 0  5242     4     1   0   101    30    -10 
+
+D 0  5242     2     2   0   101    31    -10 
+
+M 0  5206     6  5223   1    90    32    -1          0 a kender woman
+
+D 0  5223     3     1   0   101    33    -10 
+
+D 0  5223     5     1   0   101    34    -10 
+
+M 0  5207     6  5240   1   100    35    -1          0 a kender man
+
+G 1  5216     3     0   0    85    36    35          0 a bronze key
+
+D 0  5240     4     1   0   101    37    -10 
+
+D 0  5240     3     2   0   101    38    -10 
+
+D 0  5240     0     2   0   101    39    -10 
+
+D 0  5238     3     2   0   101    40    -10 
+
+D 0  5238     1     2   0   101    41    -10 
+
+M 0  5206     6  5232   1    90    42    -1          0 a kender woman
+
+D 0  5232     1     1   0   101    43    -10 
+
+D 0  5232     5     1   0   101    44    -10 
+
+M 0  5207     6  5239   1   100    45    -1          0 a kender man
+
+G 1  5217     3     0   0    85    46    45          0 a thin, green key
+
+D 0  5239     4     1   0   101    47    -10 
+
+M 0  5206     6  5228   1    90    48    -1          0 a kender woman
+
+D 0  5228     2     1   0   101    49    -10 
+
+D 0  5228     5     1   0   101    50    -10 
+
+D 0  5237     1     2   0   101    51    -10 
+
+M 0  5207     6  5236   1   100    52    -1          0 a kender man
+
+G 1  5214     3     0   0    85    53    52          0 a heavy copper key
+
+D 0  5236     4     1   0   101    54    -10 
+
+M 0  5206     6  5225   1    90    55    -1          0 a kender woman
+
+D 0  5225     1     1   0   101    56    -10 
+
+D 0  5225     5     1   0   101    57    -10 
+
+D 0  5224     3     1   0   101    58    -10 
+
+D 0  5227     0     1   0   101    59    -10 
+
+D 0  5231     3     1   0   101    60    -10 
+
+D 0  5222     1     1   0   101    61    -10 
+
+D 0  5220     0     1   0   101    62    -10 
+
+D 0  5254     1     2   0   101    63    -10 
+
+M 0  5201     1  5255   1   100    64    -1          0 an old, white haired kender
+
+E 1  5212    12    12   0    80    65    64          0 Someone's cloak
+
+D 0  5255     3     2   0   101    66    -10 
+
+D 0  5256     4     1   0   101    67    -10 
+
+D 0  5257     5     1   0   101    68    -10 
+
+D 0  5258     1     1   0   101    69    -10 
+
+M 0  5205     1  5261   1   100    70    -1          0 an aloof baliff
+
+M 0  5204     1  5261   1    80    71    -1          0 a grizzled, bald kender
+
+M 0  5202     1  5261   1   100    72    -1          0 Mayor Metwinger
+
+E 1  5205     6    17   0    55    73    72          0 an iron gavel
+
+D 0  5261     3     1   0   101    74    -10 
+
+M 0  5211     1  5245   1    80    75    -1          0 an underweight kender maiden
+
+E 1  5206     2    16   0     8    76    75          0 a wooden blowpipe
+
+O 0  5215     1  5245   0   100    77    -1          0 a cracked bowl collects dripping water from above.
+
+M 0  5203     1  5259   1   100    78    -1          0 a kender maid
+
+E 1  5211    15     7   0    80    79    78          0 a red and orange striped skirt
+
+M 0  5216     1  5213   1   100    80    -1          0 Jiminy Fourhands
+
+M 0  5208     1  5213   1    90    81    -1          0 Malawak Bristleberry
+
+E 1  5210    15     5   0    75    82    81          0 a heavy set of gold plated mail
+
+M 0  5209     2  5226   2    90    83    -1          0 a black goat
+
+E 1  5208    20    12   0    80    84    84          0 a black fleece coat
+
+M 0  5210     8  5229   3    95    85    -1          0 a laughing kender child
+
+E 1  5204     5     6   0    40    86    86          0 a bright, orange tophat
+
+E 1  5203     8    16   0    50    87    87          0 a razor sharp chapak
+
+M 0  5215     3  5230   1    95    88    -1          0 an agile kender
+
+M 0  5217     1  5214   1   100    89    -1          0 Gusta
+
+G 1  5221   100     0   0   100    90    89          0 a tanned, leather waterskin
+
+G 1  5222   100     0   0   100    91    89          0 a porcelain cup
+
+G 1  5223   100     0   0   100    92    89          0 a pig snout
+
+G 1  5224   100     0   0   100    93    89          0 a stale loaf of bread
+
+G 1  5225   100     0   0   100    94    89          0 a small, tin lantern
+
+G 1  5226   100     0   0   100    95    89          0 a small, blue waistpouch
+
+G 1  5228   100     0   0   100    96    89          0 a bright yellow backpack
+
+M 0  5214     3  5216   1    80    97    -1          0 a whistling kender
+
+M 0  5218     1  5215   1   100    98    -1          0 Rusty Willowknot
+
+M 0  5219     8  5270   1    90    99    -1          0 a bronze statue of a kender
+
+E 1  5231     6    16   0     6   100   100          0 a rusting, steel scythe
+
+M 0  5219     8  5272   1    90   101    -1          0 a bronze statue of a kender
+
+E 1  5231     6    16   0     6   102   102          0 a rusting, steel scythe
+
+M 0  5219     8  5278   1    90   103    -1          0 a bronze statue of a kender
+
+E 1  5231     6    16   0     6   104   104          0 a rusting, steel scythe
+
+M 0  5219     8  5283   1    90   105    -1          0 a bronze statue of a kender
+
+E 1  5231     6    16   0     6   106   106          0 a rusting, steel scythe
+
+M 0  5219     8  5290   1    90   107    -1          0 a bronze statue of a kender
+
+E 1  5231     6    16   0     6   108   108          0 a rusting, steel scythe
+
+M 0  5219     8  5285   1    90   109    -1          0 a bronze statue of a kender
+
+E 1  5231     6    16   0     6   110   110          0 a rusting, steel scythe
+
+M 0  5212     2  5250   1    80   111    -1          0 a kender man
+
+E 1  5204     5     6   0    40   112   111          0 a bright, orange tophat
+
+S
+$

@@ -1,0 +1,31 @@
+#2500
+Aliesha Wytheriit~
+Aliesha Wytheriit~
+Aliesha Wytheriit, the Solace adventurer's guild greeter can be seen through the building window.
+~
+   This woman is garbed in white robes and wears a silver-colored sash with blue
+heraldry across her front.  Emblazoned on the sash are the words "Solace
+Adventurer's Guild".  She is positioned within the small round building, with
+her head visible from the window.  As she notices you she nods her head and
+beckons you forward to answer any questions you might have.  
+~
+bdnoprs 0 0 0 0 0 0 0 500
+12 20 -8 48d100+114 1d1+0
+720 0 0 0
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

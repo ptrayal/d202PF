@@ -1,0 +1,475 @@
+#2800
+young cheerful~
+a cheerful young man~
+A cheerful young man walks towards the festival.
+~
+   This young man wears a bright smile as he heads to the festival to the
+north.  He is wearing a pair of bright blue breeches and a red tunic.  His
+black shoes make a soft whisper on the path as he passes, showing his great
+agility and grace.    
+~
+d 0 0 0 k 0 0 0 700
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2801
+cheerful kender~
+a cheerful kender~
+A cheerful kender glides by with his topknot bouncing along.
+~
+   Many pouches are set around the waist of this happy kender.  Enthralled with
+all of the people at the festival, this market is a kender's dream come true.
+~
+d 0 0 0 k 0 0 0 200
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2802
+woman elderly~
+an elderly woman~
+An elderly woman makes her way along the path.
+~
+   This woman has a small bonnet wrapped around her her to keep the sun off her
+face.  She is wearing a simple purple dress, and shoes that only make a whisper
+as she humbly walks past you.    
+~
+d 0 0 0 k 0 0 0 500
+2 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2803
+resident smiling Solace~
+a smiling resident of Solace~
+A smiling resident of Solace walks on the path.
+~
+   This woman is dressed in a plain, brown dress but carries herself with
+dignity and a smile.  Her brown hair comes down around her shoulders in soft
+bundles, and her brown eyes drink in her surroundings with the cheerfulness of
+a kender.    
+~
+d 0 0 0 k 0 0 0 400
+2 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2804
+storyteller charismatic~
+a charismatic storyteller~
+A charismatic storyteller weaves an enchanting tale.
+~
+   This man is dressed in flowing green robes with small blue runes along the
+edges.  His hands move in grand circles as he recants stories of days long ago,
+and the present times.  He speaks of gods and war, captivating some and
+enraging others.    
+~
+d 0 0 0 k 0 0 0 -30
+4 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2805
+member audience~
+a member of the audience~
+A member of the audience watches the story with a smiling face.
+~
+   This man has had a hard life growing up and working in Solace, but can now
+relax for a day and enjoy the storyteller who weaves the tale before him.  He
+is wearing a loose, brown tunic and has brown hair that is dusty from many days
+spent in the fields.    
+~
+d 0 0 0 k 0 0 0 300
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2806
+child carefree wide eyed wide-eyed~
+a wide-eyed, carefree child~
+A wide-eyed, carefree child runs through the grass.
+~
+   This child has a bright and joyous look on his face as he runs through the
+grass.  His hair blows freely around his head, but being young he has no
+concern for his looks.    
+~
+d 0 0 0 k 0 0 0 900
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2807
+bearded man~
+a bearded man with a red shirt~
+A bearded man with a red shirt watches over his wife and children.
+~
+   This man is wearing a red shirt with a picture of a bright white moon on the
+front.  He carries himself with a graceful nature and smiles as you near him.
+~
+d 0 0 0 k 0 0 0 500
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2808
+woman red-haired red haired vibrant~
+a vibrant, red-haired woman~
+A vibrant, red-haired woman rests on a small red blanket.
+~
+   This woman has curly red hair that just comes down into her face, and
+occasionally she blows it away with a huff.  She is wearing a dress with red,
+blue and white stripes that appears beautiful when she wears it.    
+~
+d 0 0 0 k 0 0 0 300
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2809
+handsome young gentleman~
+a handsome young gentleman~
+A handsome young gentleman sleeps in the grass.
+~
+   This man is wearing a loose, blue tunic and stiff leather pants.  His boots
+have been taken off so his feet can enjoy the grass, and he has fallen asleep
+watching as the clouds pass by.    
+~
+d 0 0 0 k 0 0 0 500
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2810
+merchant wily shrewd~
+a shrewd, wily merchant~
+A shrewd, wily merchant smiles as you approach his table.
+~
+   This merchant is wearing the brightest red tunic you have ever laid eyes
+upon.  Near his left shoulder is a golden pendant that appears to be in the
+shape of a small bird.    
+~
+d 0 0 0 k 0 0 0 100
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2811
+juggler agile~
+an agile juggler~
+An agile juggler amazes the crowd with his skill.
+~
+   This juggler is wearing very tight clothes that allow him to move with
+complete freedom.  He juggles four pins in the air, and at times he jumps and
+dives and falls to the ground, all the while keeping the pins from touching the
+dirt you stand on.    
+~
+d 0 0 0 k 0 0 0 -30
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2812
+member audience~
+a member of the audience~
+A member of the audience watches the juggler with an astonished smile.
+~
+   This man has had a hard life growing up and working in Solace, but can now
+relax for a day and enjoy the storyteller who weaves the tale before him.  He
+is wearing a loose, brown tunic and has brown hair that is dutsy from many days
+spent in the fields.    
+~
+d 0 0 0 k 0 0 0 600
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2813
+child desparate~
+a desparate child~
+A desparate child tries to sell his lemonade.
+~
+   This child has unkempt hair and grubby hands.  With a dreadful look on his
+face, he yells into the crowd asking for anyone who is thirsty to buy his
+lemonade.    
+~
+d 0 0 0 k 0 0 0 1000
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2814
+dog large grey~
+a large, grey dog~
+A large, grey dog runs free through the festival.
+~
+   This dog has thick grey fur, and pants wildly as it runs through the
+festival.  The times are happy during this festive time, and no one seems to
+pay it much mind.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2815
+member audience~
+a member of the audience~
+A member of the audience is focused on the stage.
+~
+   This man has had a hard life growing up and working in Solace, but can now
+relax for a day and enjoy the storyteller who weaves the tale before him.  He
+is wearing a loose, brown tunic and has brown hair that is dutsy from many days
+spent in the fields.    
+~
+d 0 0 0 k 0 0 0 400
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2816
+face painted man~
+a man with a painted face~
+A man with a painted face stands here entertaining the crowd.
+~
+   This man is wearing an ugly, but colorful, outfit.  His face is painted
+white and red and blue, with a large smile painted in around his mouth.  He is
+wearing shoes that are much too large for him, and he holds a bucket of water.
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2817
+merchant foreign place~
+a merchant from a foreign place~
+A merchant from a foreign place rests in his chair.
+~
+   This merchant is dressed in a white, linen coat and has long pants that
+reach up to his stomache and down to his shoes.  His hair is a golden blonde
+color and his eyes are a bright green, and seem to stare into your soul.    
+~
+d 0 0 0 k 0 0 0 1000
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

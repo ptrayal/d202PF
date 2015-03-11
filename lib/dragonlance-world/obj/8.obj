@@ -1,0 +1,282 @@
+#800
+minnows handful salted fish food~
+a handful of salted minnows~
+A handful of salted minnows lies here in the dirt.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#801
+steak salmon food~
+a steak of salmon~
+A juicy looking steak of broiled salmon sits here, steam rising from it.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 20 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#802
+stone deep blue ioun~
+a deep blue ioun stone~
+A deep blue stone sparkles with its own light on the ground.~
+~
+22 ajklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#803
+sheet long intertwined lilypads~
+a long sheet of intertwined lilypads~
+A long sheet of intertwined lilypads sits here on the ground.~
+~
+9 jklpruwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 650 50 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 50
+#804
+canoe light bark~
+a light canoe of shaven bark~
+A light canoe made from several layers of shaven bark sits here.~
+~
+22 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#805
+buckler oyster shell cobalt~
+a large buckler formed from a cobalt oyster shell~
+A large buckler formed from the shell of a cobalt oyster sits here.~
+~
+9 jklnpruwBCDEF abc stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#806
+platemail plate rose sigils tempest~
+a suit of rose colored platemail engraved with sigils of the tempest~
+A suit of rose colored platemail engraved with waves and lightning bolts is here.~
+~
+9 jklnpstBCDEF a stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 1300 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#807
+helmet red drakescale~
+a red drakescale helmet~
+A helmet formed from the scales of a red wooddrake lies here.~
+~
+9 jklnoprstuvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 750 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#808
+gloves red drakescale~
+a pair of red drakescale gloves~
+A pair of gloves formed from the scales of a red wooddrake lies here.~
+~
+9 jklnoprstuvwBCDEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#809
+warhammer huge golden ironwood~
+a huge warhammer of golden ironwood~
+Sitting on the ground here is a huge warhammer crafted from golden ironwood.~
+~
+5 jklnpstuxBCDEF abcC stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 1800 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+20 1 0
+#810
+gem gemstone star green~
+a star-shaped, green gemstone~
+A star-shaped green gemstone lies here.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#811
+gem gemstone red star~
+a star-shaped, red gemstone~
+A star-shaped, red gemstone lies here.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#812
+gem gemstone star blue~
+a star-shaped, blue gemstone~
+A star-shaped, blue gemstone lies here.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#813
+gem gemstone star yellow~
+a star-shaped, yellow gemstone~
+A star-shaped, yellow gemstone lies here.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#814
+gem gemstone star white~
+a star-shaped, white gemstone~
+A star-shaped, white gemstone lies here.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#815
+gem gemstone star black~
+a star-shaped, black gemstone~
+A star-shaped, black gemstone lies here.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#816
+leaves golden pile~
+a pile of golden leaves~
+Scattered on the ground are hundreds of glittering, golden leaves.~
+~
+8 0 v 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#817
+wings pegasus shining white~
+a pair of shining white pegasus wings~
+Lying on the ground is a pair of shining white pegasus wings.~
+~
+9 jklmnoprstuvwBCDEF abct stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+40 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+wings shining pegasus white~
+   These huge wings once belonged to a truly noble beast, the legendary
+pegasus.  They are covered in shining white fur, with hundreds of large
+immaculate feathers sprouting all over.  As you run your hand along the soft,
+ivory feathers you feel a tingle of energy course through your soul.    
+~
+A
+2 -2 0
+#818
+corpse draconian baaz~
+a corpse of a draconian~
+The corpse of a baaz draconian is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

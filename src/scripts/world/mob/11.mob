@@ -1,0 +1,25 @@
+#1100
+mob tester~
+a test mob~
+A test mob of Saren is here.
+~
+It looks unfinished.
+~
+d 0 0 0 i c 0 0 0
+15 20 10 60d100+250 1d1+0
+1050 0 0 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

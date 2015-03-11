@@ -1,0 +1,349 @@
+#900
+sign wooden~
+a large wooden sign~
+A large wooden sign has been hammered into the ground here.~
+   Attention Trainees: This door to your north is to be entered under no
+circumstances.  It is not a part of the regular training regimen.  Entering this
+door could result in quite serious harm, up to and including death.  Again,
+please do not enter the door to the north or otherwise attempt to tamper with
+the facilities.  
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0
+250000 0 0 0
+Z
+5
+E
+sign~
+   Attention Trainees: This door to your north is to be entered under no
+circumstances.  It is not a part of the regular training regimen.  Entering this
+door could result in quite serious harm, up to and including death.  Again,
+please do not enter the door to the north or otherwise attempt to tamper with
+the facilities.  
+~
+#901
+key dull brass~
+a dull brass key~
+A dull brass key has been left lying on the ground here.~
+~
+18 c 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+T 901
+Z
+0
+#902
+sheaf-of-papers sheaf papers~
+a small sheaf of papers~
+A small sheaf of papers lies here on the ground.~
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16 0 0 0 0 0 0 0 0
+0 0 0 0
+T 901
+Z
+0
+E
+papers paper sheaf~
+   This sheaf of papers is long and detailed and outlines a plan by Renthilos to
+create an army of golems and summoners, to basically exert his will on towns and
+cities outside of Solamnia's control-radius.  The sheafs illustrate Solace as an
+ideal starting point due to it's relative isolation from Solamnic forces.  
+~
+#903
+iron scrap material~
+a piece of iron scrap~
+A piece of iron scrap has been left here to rust.~
+~
+31 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0
+1 725 0 0
+Z
+0
+#904
+dagger sharp steel~
+a sharp steel dagger~
+A very sharp looking dagger made of steel has been left here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+2 1 4 11 100 100 0 7 1 17 10 1 0 0 0 0
+10 300 0 1
+Z
+2
+A
+18 1 0
+#905
+chest heavy wooden~
+a heavy wooden chest~
+A heavy wooden chest with a large brass lock sits here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+250 13 901 0 100 100 0 12 0 0 0 0 0 0 0 0
+500 0 0 0
+Z
+0
+#906
+key copper small~
+a small copper key~
+A small key made completely of copper has been left here.~
+~
+18 c 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+0
+#907
+gloves leather studded~
+a pair of studded leather gloves~
+A pair of studded leather gloves lies here gathering dust.~
+~
+11 0 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+1 100 0 1
+Z
+4
+A
+21 5 0
+#908
+helm studded leather~
+a studded leather helm~
+A helm made of studded leather has been left here.~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+10 30 0 1
+Z
+4
+A
+13 1 0
+#909
+suit studded leather~
+a suit of studded leather~
+A suit of leather armor has been forgotten here.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+30 1 5 -1 100 100 15 2 20 3 0 0 0 0 0 0
+200 250 0 3
+Z
+4
+A
+22 10 0
+#910
+boots studded leather~
+a pair of studded leather boots~
+A pair of studded leather boots lie here gathering dust.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+10 0 0 2
+Z
+4
+A
+14 5 0
+#911
+ooze slimy gray~
+some slimy gray ooze~
+Some slimy gray ooze has been left here on the ground.~
+~
+31 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 14 0 0 0 0 0 0 0 0
+0 600 0 0
+Z
+0
+#912
+band silver dull~
+a dull silver band~
+A dull silver band lies here, barely visible.~
+~
+11 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 41 0 0 0 0 0 0 0 0
+1 250 0 3
+Z
+3
+A
+13 2 0
+A
+14 2 0
+#913
+bracer dull silver~
+a dull silver bracer~
+A dull silver bracer has been left here for the taking.~
+~
+11 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 41 0 0 0 0 0 0 0 0
+5 500 0 5
+Z
+3
+A
+17 5 0
+#914
+cudgel stone~
+a stone cudgel~
+A stone cudgel has been slung here in the way.~
+~
+5 0 0 0 0 a 0 0 0 0 0 0 0
+21 1 6 5 100 100 0 10 0 0 0 0 0 0 0 0
+8 800 0 0
+Z
+5
+#915
+longsword dull silver~
+a dull silver longsword~
+A dull silver longsword has been left here in the way.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+26 1 8 3 100 100 0 41 1 2 0 11 0 0 0 0
+40 400 0 2
+Z
+4
+A
+18 1 0
+A
+13 2 0
+#916
+mold fluorescent piece~
+a piece of fluorescent mold~
+A piece of fluorescent mold has been left here, glowing dimly.~
+~
+1 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 20 0 100 100 0 14 0 0 0 0 0 0 0 0
+1 600 0 0
+Z
+0
+#917
+clay chunk small~
+a small chunk of clay~
+A small chunk of clay has been rolled up into a ball and left here.~
+~
+31 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 0 0 0 0 0 0 0 0
+0 600 0 0
+Z
+0
+#918
+wood splintered piece~
+a piece of splintered wood~
+A piece of splintered wood has been left here to rot.~
+~
+31 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 12 0 0 0 0 0 0 0 0
+1 600 0 0
+Z
+0
+#919
+chunk gelatin tiny~
+a tiny chunk of gelatin~
+A tiny chunk of gelatin lies here on the ground, jiggling.~
+~
+31 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 0 0 0 0 0 0 0 0
+1 600 0 0
+Z
+0
+#920
+signet-ring signet ring renthilos~
+Renthilos' signet ring~
+A plain black and silver signet ring bearing the symbol of a stylized 'R' lies here.~
+~
+11 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 11 0 0 0 0 0 0 0 0
+0 1000 0 0
+Z
+0
+#921
+breeches brown leather pair~
+a pair of brown leather breeches~
+A pair of brown leather breeches have been left here on the ground.~
+~
+9 0 0 0 0 af 0 0 0 0 0 0 0
+30 1 5 0 100 100 7 6 0 0 0 0 0 0 0 0
+3 600 0 0
+Z
+4
+A
+17 2 0
+#922
+vine twisted piece~
+a piece of twisted vine~
+A piece of twisted vine has been carelessly tossed upon the ground.~
+~
+31 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 0 0 0 0 0 0 0 0
+1 600 0 0
+Z
+0
+#923
+flesh decaying piece~
+a decaying piece of flesh~
+A decaying piece of flesh is here, stinking up the whole place.~
+~
+31 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#924
+boots dusty leather pair~
+a pair of dusty leather boots~
+A pair of dusty leather boots have been discarded here.~
+~
+9 0 0 0 0 ag 0 0 0 0 0 0 0
+20 1 6 0 100 100 10 6 0 0 0 0 0 0 0 0
+3 1000 0 0
+Z
+4
+A
+14 2 0
+#925
+gloves dusty leather~
+a pair of dusty leather gloves~
+A pair of dusty leather gloves have been left here for the taking.~
+~
+9 0 0 0 0 ah 0 0 0 0 0 0 0
+20 1 6 0 100 100 2 6 0 0 0 0 0 0 0 0
+2 1000 0 0
+Z
+4
+#926
+robes purple black~
+@ma @Ds@me@Dt @mo@Df @mp@Du@mr@Dp@ml@De @ma@Dn@md @Db@ml@Da@mc@Dk @mr@Do@mb@De@ms@n~
+@mA @Ds@me@Dt @mo@Df @mp@Du@mr@Dp@ml@De @ma@Dn@md @Db@ml@Da@mc@Dk @mr@Do@mb@De@ms@n lie here.~
+~
+11 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 1 0 0 0 0 0 0 0 0
+30 2744 0 8
+Z
+4
+A
+17 20 0
+#927
+staff vallenwood~
+@ya vallenwood staff@n~
+@yA staff carved from the strongest vallenwood branches lies here.@n~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+6 1 6 5 100 100 0 8 19 0 0 0 0 0 0 0
+6 1425 0 5
+Z
+5
+A
+18 1 0
+A
+19 1 0
+A
+13 2 0
+#928
+sling well made well-made frost~
+@Ca well-made sling covered in frost@n~
+@CA well-made sling covered in frost lies here on the ground.@n~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+16 1 4 6 100 100 0 2 0 9 50 7 0 0 0 0
+1 500 0 2
+Z
+3
+A
+18 1 0
+A
+19 1 0
+$~

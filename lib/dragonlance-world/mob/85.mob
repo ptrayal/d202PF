@@ -1,0 +1,32 @@
+#8500
+dirty man monk robes~
+a monk of majere~
+A dirty man in red robes skulks about the forest.
+~
+   A dirty man in red robes is skulking about here.  His face is set in a
+serene look of contemplation but the grime on his skin and clothes tells you a
+tale of hardship.  A faint symbol of a mantis is on the inside of his right
+wrist.    
+~
+d 0 0 0 k 0 0 0 200
+6 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This young scholarly elf with long hair peers at his spellbook intently.  
+This short bearded holy dwarf grumbles constantly to his gods.  His fist
+The pointed eared stranger pulls his grey cloak farther around him and
+$
+$

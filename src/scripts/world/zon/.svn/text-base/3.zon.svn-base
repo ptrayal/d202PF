@@ -1,0 +1,34 @@
+#3
+None~
+Forest Grove (Solace)~
+300 399 20 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+14 2 0 0 0
+D 0 353 4 1 101 	(A Small Tunnel)
+M 0 300 5 317 100 	(a bushy-tailed fox)
+D 0 317 5 1 100 	(The Base of a Large Aspen)
+M 0 306 1 308 100 	(an old druid)
+E 1 301 5 16 100 	(an oaken shillelagh)
+M 0 307 2 308 100 	(a spotted fawn)
+O 0 303 1 308 100 	(an old wooden chest)
+P 1 306 3 303 50 	(a bronze scimitar with druidic etchings)
+P 1 307 5 303 50 	(a slender steel ring)
+P 1 308 3 303 50 	(a globe of white light)
+P 1 309 5 303 50 	(a drab brown cloak)
+P 1 310 5 303 50 	(a well crafted wooden buckler)
+P 1 311 5 303 50 	(a leather waist pouch)
+M 0 309 1 354 100 	(a small human bandit)
+E 1 302 5 16 100 	(a tarnished silver dagger)
+E 1 305 5 5 100 	(a set of worn padded armor)
+G 1 304 1 -1 100 	(an iron key)
+M 0 308 8 343 100 	(a dark quilled porcupine)
+M 0 305 5 332 100 	(a clumsy striped skunk)
+M 0 304 5 334 100 	(an annoying red squirrel)
+M 0 302 5 325 100 	(a grey squirrel)
+M 0 303 5 325 100 	(a tiny chickadee)
+M 0 301 5 312 100 	(a sharp billed woodcock)
+O 0 300 1 306 100 	(a small spring)
+S
+$

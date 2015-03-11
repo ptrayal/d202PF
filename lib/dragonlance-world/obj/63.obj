@@ -1,0 +1,383 @@
+#6300
+pants honey leather cadre~
+honey leather pants~
+A tight pair of tan coloured canvas pants lies here.~
+3~
+9 jklmnopruvwBCDEF ac stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 180 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6301
+tunic honey leather cadre~
+a honey leather tunic laced up on one side~
+A tight tan coloured canvas tunic is layed out here.~
+~
+9 jklmnopruvwBCDEF ac stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6302
+cloak honey leather cadre~
+a honey leather cloak~
+A messy pile of tanned canvas lies here.~
+~
+9 jklmnopruvwBCDEF ac stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 600 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#6303
+sash satin grey cadre~
+a grey satin sash~
+A neatly folded pile of grey satin~
+~
+15 jklmnoprvwCF a stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 800 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6304
+cloak thistledown cadre~
+a thistledown cloak~
+A whispy strip of grey-green material.~
+~
+9 klmorvwCF r stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6305
+breastplate cadre mirror~
+a Cadre Breastplate bearing the symbol of the Order of the Elven Hand~
+A piece of mirror-polished metal bearing the symbol of the elven hand lies here.~
+~
+9 jlpstBCDEF ac stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 2700 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6306
+sword longsword elven curved cadre~
+a slightly curved elven longsword~
+A slim, curved blade of mirror polished metal harder than any steel.~
+~
+5 jklprstuvCF 0 tv 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 2000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+24 -3 0
+#6307
+baton red wooden~
+a red wooden baton~
+A hard, red wooden rod lies here.~
+~
+18 cjklmnpqrvBCDEF ac 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6308
+chainmail mail suit light cadre~
+a suit of light elven chainmail~
+A pile of polished steel rings linked together is here.~
+~
+9 jkloprstvCF 0 tv 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 1200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6309
+coif chainmail cadre~
+a chainmail coif~
+A small pile of steel rings linked together lies here.~
+~
+9 jklnoprstuvBCDEF ac stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 350 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6310
+armor ancient platemail cadre~
+an ancient set of platemail~
+A set of ancient platemail emblazoned with the red hand gathers dust here.~
+10~
+9 bjklpqstABCF t stv 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 10000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#6311
+gemstone blue tiny sapphire cadre~
+a tiny blue gemstone~
+A gleaming sapphire sits in the dust.~
+~
+8 ajklmnoprstvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6312
+chest massive iron~
+a massive iron bound chest~
+A massive iron bound chest sits against the far wall.~
+~
+15 cq 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+300 1 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6313
+acorn golden cadre~
+a golden acorn~
+A golden acorn hangs off of a branch.~
+~
+8 jklmnoprstvwBCDEF ac stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 200 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 1 0
+A
+18 1 0
+#6314
+mask snakeskin hooded grey cadre~
+a grey hooded mask of snakeskin~
+A dark grey wrinkled snakeskin has been discarded under a rock.~
+~
+9 klovBCDEF acu stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#6315
+medallion mishakal platinum cadre~
+a platinum medallion of Mishakal~
+A gleaming disc of platinum engraved with an open hand lies here.~
+2~
+9 jntBC a 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 3 0
+#6316
+gemstone blue sapphire cadre~
+a large blue gemstone~
+A large gleaming sapphire sits in the mud.~
+~
+8 ajklmnoprstvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+#6317
+mug pewter cadre~
+a glass bottomed pewter mug~
+A dented pewter mug lies here with light reflecting off its glass bottom.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6318
+glass fluted cadre~
+a fluted glass~
+A narrow tube of finely blown glass is in the dust.~
+~
+17 0 0 0 0 o 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6319
+salad light food~
+a light salad~
+A half-eaten pile of greenery~
+~
+19 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6320
+berries silver tiny handful food~
+a handful of tiny silver berries~
+A pile of small silver spheres is in a puddle of golden juice.~
+~
+19 jklmnorstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6321
+boots black leather cadre~
+a pair of plain black leather boots~
+A pair of plain black leather boots lie here.~
+~
+16 gjklqABCDF abcu stuvwxyz 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 1 0
+A
+19 1 0
+#6322
+robe sky blue cadre~
+a sky-blue robe with dark blue trimming~
+A sky blue robe with the infinity sign stiched in dark blue upon it's chest rests upon the floor.~
+~
+9 jnqABCDF abcu stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+#6323
+a bracer of intertwining silver and gold~
+an interwining bracer of silver and gold.~
+A bracer of intertwining silver and gold rests here upon the ground.~
+~
+9 ilnqF F 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+3 1 0
+#6324
+girdle Sularus crest garruth~
+a girdle bearing the Sularus family crest~
+A sparkling girdle of platinum bearing the Sularus family crest lies here.~
+~
+9 jpq aF 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+A
+18 1 0
+$~

@@ -1,0 +1,285 @@
+#7600
+golem obsidian~
+an obsidian golem~
+A large man-shaped golem made of obsidian stands guard here.
+~
+   This man-shaped golem is made completely of obsidian.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7601
+golem sapphire~
+a sapphire golem~
+A large, man-shaped golem made of sapphire stands guard here.
+~
+   This man shaped golem is made completely of sapphire.  It stands completely
+still, making no move against you.  However, as you move towrads it, the golem
+steps forth to block your way.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7602
+golem crystal~
+a crystal golem~
+A large man-shaped golem made completely of crystal stands guard here.
+~
+   This man-shaped golem is made completely of crystal.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7603
+golem amber~
+an amber golem~
+A large man-shaped golem made completely of amber stands guard here.
+~
+   This man-shaped golem is made completely of amber.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7604
+golem amethyst~
+an amethyst golem~
+A large man-shaped golem made completely of amethyst stands guard here.
+~
+   This man-shaped golem is made completely of amethyst.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7605
+golem emerald~
+an emerald golem~
+A large man-shaped golem made completely of emerald stands guard here.
+~
+   This man-shaped golem is made completely of emerald.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7606
+golem topaz~
+a topaz golem~
+A large man-shaped golem made completely of topaz stands guard here.
+~
+   This man-shaped golem is made completely of topaz.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7607
+golem onyx~
+an onyx golem~
+A large man-shaped golem made completely of onyx stands guard here.
+~
+   This man-shaped golem is made completely of onyx.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7608
+golem ruby~
+a ruby golem~
+A large man-shaped golem made completely of ruby stands guard here.
+~
+   This man-shaped golem is made completely of ruby.  It stands completely
+still, making no move against you.  However, as you move towards it, the golem
+steps forth to block your way forward.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7609
+gargoyle granite~
+a granite gargoyle~
+A granite gargoyle hovers above you in the air and swoops down to attack!
+~
+   This creature is made of granite and bears the likeness of a winged demon.
+It has a horned skull with a gaping jaw filled with razor-sharp teeth.  It
+hovers above you momentarily, and then suddenly swoops down to attack you.    
+~
+d 0 0 0 k 0 0 0 -1000
+34 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7610
+mob new~
+A new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

@@ -1,0 +1,78 @@
+#15
+None.~
+Qualinost II(Paladine)~
+1500 1599 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+E 1  1001     8    17   0    25     1     0          0 a feather from the mane of a great griffon
+
+M 0  1001     3  1532   1   100     2    -1          0 a huge, fierce griffon
+
+M 0  1003     8  1500   1   100     3    -1          0 a short, elven fruit picker
+
+E 1  1003     8    13   0    75     4     3          0 a braided belt
+
+M 0  1003     8  1524   1   100     5    -1          0 a short, elven fruit picker
+
+E 1  1003     8     5   0    75     6     5          0 a braided belt
+
+M 0  1006     8  1514   1   100     7    -1          0 a member of the Protectorate
+
+E 1  1009     7     5   0    55     8     7          0 a steel breastplate with the symbol of the Protectorate
+
+E 1  1005    65    16   0     8     9     7          0 an elven-made shortsword
+
+M 0  1009     5  1510   1   100    10    -1          0 an old, wrinkled elven woman
+
+E 1  1010    10    12   0    80    11    10          0 a flowing, grey cloak
+
+M 0  1010     4  1528   1   100    12    -1          0 a young elf in apprentice robes
+
+E 1  1012    10    10   0   100    13    12          0 golden-colored bracers
+
+M 0  1016     8  1520   1   100    14    -1          0 a middle-aged elven worker
+
+E 1  1008     6    16   0    80    15    14          0 a sturdy, iron axe
+
+M 0  1011     6  1520   2   100    16    -1          0 a small elven child
+
+M 0  1013     4  1508   1   100    17    -1          0 a timid elven gardener
+
+E 1  1014    10    17   0    90    18    17          0 a sturdy iron rake
+
+M 0  1016     8  1523   1   100    19    -1          0 a middle-aged elven worker
+
+E 1  1008     6    16   0    80    20    19          0 a sturdy, iron axe
+
+M 0  1024     6  1519   1   100    21    -1          0 a wide-eyed elven traveller
+
+E 1  1025     8    16   0    70    22    21          0 a simple walking stick
+
+M 0  1020     1  1519   1   100    23    -1          0 a bright-eyed elven fighter/mage
+
+E 1  1021     2     5   0    30    24    23          0 a set of intricately woven elven chainmail
+
+M 0  1021     6  1531   1   100    25    -1          0 an elven caretaker
+
+M 0  1021     6  1552   1   100    26    -1          0 an elven caretaker
+
+M 0  1021     6  1550   1   100    27    -1          0 an elven caretaker
+
+M 0  1021     6  1516   1   100    28    -1          0 an elven caretaker
+
+M 0  1024     6  1527   1   100    29    -1          0 a wide-eyed elven traveller
+
+M 0  1025     5  1517   1   100    30    -1          0 a bumbling, half-elven youth
+
+M 0  1025     5  1502   1   100    31    -1          0 a bumbling, half-elven youth
+
+M 0  5917     1  1551   1   100    32    -1          0 Braugh
+
+G 1  5902     1     0   0   100    33    32          0 a dark green, leather-bound tome
+
+E 1  5900     1    17   0   100    34    32          0 a pierced, onyx disk
+
+S
+$

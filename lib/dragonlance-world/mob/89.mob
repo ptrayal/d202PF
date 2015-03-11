@@ -1,0 +1,71 @@
+#8900
+trainer newbie~
+a trainer~
+A trainer stands here, willing to teach new skills and spells.
+~
+~
+d 0 0 0 k 0 0 0 0
+35 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8901
+mob new~
+A new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8902
+acolyte training~
+an acolyte in training~
+An acolyte in training bumbles around.
+~
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

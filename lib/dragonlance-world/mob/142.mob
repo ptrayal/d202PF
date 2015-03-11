@@ -1,0 +1,184 @@
+#14200
+slave worn elven~
+a worn elven slave~
+A worn elven slave is here, working endlessly.
+~
+   This elven man is battered and beaten.  He looks as if he has been starved
+almost to death.  He works continuously, without any breaks, in fear of the
+draconian slave masters.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14201
+slave elven worn~
+a worn elven slave~
+A worn elven slave is here, looking for more work.
+~
+   This elven lady has been worked to death nearly.  He fingers are raw and
+cut, and her long blonde hair is matted and dirty.  Tears stream from her eyes
+as she works on, despite the tremendous pain she feels.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14202
+slave human weary~
+a weary human slave~
+A weary human slave is here, trying to avoid the slave master's wrath.
+~
+   This human male is here, working furiously.  He is obviously nearing pure
+exhaustion, but that doesn't slow him down.  His whole body is drenched in
+sweat, and his face is black with dirt and soot.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14203
+slave weary human~
+a weary human slave~
+A weary human slave is here, continuously working.
+~
+   This once beautiful human woman has been worked and abused so much that not
+even the remnants of her once desirable person exist.  She has been battered
+and beaten, the skin of her back has been almost completely flayed.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14204
+draconian slave driver~
+a draconian slave driver~
+A draconian slave driver hisses as he cracks his whip at the slaves.
+~
+   This treacherous looking creature is a draconian - a creature formed from
+the distortion of evil.  He looks much like a dragon walking on his hind legs,
+though his skin looks a bit more leathery.    
+~
+d 0 0 0 k 0 0 0 -900
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14205
+draconian slave master~
+the draconian slave master~
+The draconian slave master walks about, sadistically cracking his whip.
+~
+   This is a very large draconian, and not only does he instill fear in the
+slaves, but also in the other smaller draconians that have been stationed here.
+As he walks about, everyone scatters to move out of his way.    
+~
+d 0 0 0 k 0 0 0 -999
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This dirty little goblin slave is probably costing it's owner more than it's
+#14207
+half-elven slave~
+a half-elven slave~
+A half-elven slave is here, defying the draconian's orders.
+~
+   This half-elven man is purely outraged.  He refuses to work, and stands
+defiantly against the draconian slave drivers.  He has been beaten and whipped
+until it makes it almost impossible to determine his features.    
+~
+d 0 0 0 k 0 0 0 10
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

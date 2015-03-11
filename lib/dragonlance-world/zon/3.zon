@@ -1,0 +1,190 @@
+#3
+None.~
+Darken Wood I (Tak)~
+300 399 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+O 0   326     5   305   0   100     0    -1          0 a gloomy, dark-watered brook
+
+M 0   308     4   307   4   100     1    -1          0 a juvenile phase spider
+
+O 0   326     5   307   0   100     2    -1          0 a gloomy, dark-watered brook
+
+O 0   325     5   308   0   100     3    -1          0 the skeletal remains of a kobold raider
+
+O 0   326     5   308   0   100     4    -1          0 a gloomy, dark-watered brook
+
+O 0   326     5   309   0   100     5    -1          0 a gloomy, dark-watered brook
+
+O 0   324     5   303   0   100     6    -1          0 the skeletal remains of an ancient warrior
+
+M 0   306     6   314   6   100     7    -1          0 the ghost of a kobold raider
+
+O 0   324     5   314   0   100     8    -1          0 the skeletal remains of an ancient warrior
+
+M 0   321     2   316   2   100     9    -1          0 a carnivorous plant
+
+O 0   324     5   316   0   100    10    -1          0 the skeletal remains of an ancient warrior
+
+O 0   325     5   320   0   100    11    -1          0 the skeletal remains of a kobold raider
+
+M 0   306     6   331   6   100    12    -1          0 the ghost of a kobold raider
+
+O 0   325     5   331   0   100    13    -1          0 the skeletal remains of a kobold raider
+
+O 0   325     5   306   0   100    14    -1          0 the skeletal remains of a kobold raider
+
+M 0   306     6   325   6   100    15    -1          0 the ghost of a kobold raider
+
+O 0   325     5   325   0   100    16    -1          0 the skeletal remains of a kobold raider
+
+D 0   381     2     1   0   101    17    -10 
+
+D 0   387     0     1   0   101    18    -10 
+
+D 0   382     2     1   0   101    19    -10 
+
+D 0   394     0     1   0   101    20    -10 
+
+D 0   379     0     1   0   101    21    -10 
+
+O 0   816    15   383   0   100    22    -1          0 a pile of golden leaves
+
+D 0   383     2     1   0   101    23    -10 
+
+M 0   304     4   348   4   100    24    -1          0 a large centaur warrior
+
+D 0   348     1     1   0   101    25    -10 
+
+D 0   348     2     1   0   101    26    -10 
+
+M 0   324     2   350   2   100    27    -1          0 a female centaur dressed in a leather halter
+
+D 0   350     0     1   0   101    28    -10 
+
+M 0   323     2   349   2   100    29    -1          0 a female centaur with long braided hair
+
+D 0   349     3     1   0   101    30    -10 
+
+M 0   304     4   352   4   100    31    -1          0 a large centaur warrior
+
+D 0   352     0     1   0   101    32    -10 
+
+D 0   352     3     1   0   101    33    -10 
+
+D 0   352     2     1   0   101    34    -10 
+
+M 0   324     2   354   2   100    35    -1          0 a female centaur dressed in a leather halter
+
+D 0   354     0     1   0   101    36    -10 
+
+M 0   301     2   355   2   100    37    -1          0 a large burly centaur
+
+E 1   322     5     1   0    25    38    37          0 a ring of petrified wood
+
+M 0   301     2   355   2   100    39    -1          0 a large burly centaur
+
+E 1   323     5     3   0    25    40    39          0 a talisman of petrified wood
+
+M 0   312     1   355   1   100    41    -1          0 the centaur chieftain
+
+G 1   810     5     0   0   100    42    41          0 a star-shaped, green gemstone
+
+E 1   311     5    16   0    35    43    41          0 a long, wooden staff with sharpened points
+
+D 0   355     1     1   0   101    44    -10 
+
+M 0   323     2   353   2   100    45    -1          0 a female centaur with long braided hair
+
+D 0   353     2     1   0   101    46    -10 
+
+M 0   304     4   351   4   100    47    -1          0 a large centaur warrior
+
+M 0   304     4   351   4   100    48    -1          0 a large centaur warrior
+
+O 0   327    15   371   0    25    49    50          0 a bag of shiny trinkets
+
+M 0   313     5   371   5   100    50    -1          0 a mischievious brownie
+
+O 0   327    15   368   0    25    51    52          0 a bag of shiny trinkets
+
+M 0   313     5   368   5   100    52    -1          0 a mischievious brownie
+
+O 0   327    15   365   0    25    53    54          0 a bag of shiny trinkets
+
+M 0   313     5   365   5   100    54    -1          0 a mischievious brownie
+
+O 0   327    15   362   0    25    55    56          0 a bag of shiny trinkets
+
+M 0   313     5   362   5   100    56    -1          0 a mischievious brownie
+
+O 0   327    15   359   0    25    57    58          0 a bag of shiny trinkets
+
+M 0   313     5   359   5   100    58    -1          0 a mischievious brownie
+
+M 0   315     5   399   5   100    59    -1          0 a piping faun
+
+E 1   314     3    17   0     5    60    59          0 a set of brass pan pipes
+
+M 0   315     5   396   5   100    61    -1          0 a piping faun
+
+E 1   314     3    17   0     5    62    61          0 a set of brass pan pipes
+
+M 0   315     5   397   5   100    63    -1          0 a piping faun
+
+E 1   314     3    17   0     5    64    63          0 a set of brass pan pipes
+
+M 0   315     5   395   5   100    65    -1          0 a piping faun
+
+E 1   314     3    17   0     5    66    65          0 a set of brass pan pipes
+
+M 0   315     5   398   5   100    67    -1          0 a piping faun
+
+E 1   314     3    17   0     5    68    67          0 a set of brass pan pipes
+
+M 0   325     5   393   5   100    69    -1          0 a mystical dryad
+
+G 1   813     5     0   0   100    70    69          0 a star-shaped, yellow gemstone
+
+E 1   329    10     3   0    10    71    69          0 a wreath of intertwined flowers
+
+M 0   325     5   391   5   100    72    -1          0 a mystical dryad
+
+E 1   329    10     3   0    10    73    72          0 a wreath of intertwined flowers
+
+M 0   325     5   390   5   100    74    -1          0 a mystical dryad
+
+E 1   329    10     3   0    10    75    74          0 a wreath of intertwined flowers
+
+M 0   325     5   389   5   100    76    -1          0 a mystical dryad
+
+E 1   329    10     3   0    10    77    76          0 a wreath of intertwined flowers
+
+M 0   325     5   388   5   100    78    -1          0 a mystical dryad
+
+E 1   329    10     3   0    10    79    78          0 a wreath of intertwined flowers
+
+O 0   816    15   384   0   100    80    -1          0 a pile of golden leaves
+
+O 0   816    15   385   0   100    81    -1          0 a pile of golden leaves
+
+O 0   816    15   386   0   100    82    -1          0 a pile of golden leaves
+
+M 0   306     6   304   6   100    83    -1          0 the ghost of a kobold raider
+
+M 0   321     2   304   2   100    84    -1          0 a carnivorous plant
+
+M 0   308     4   322   4   100    85    -1          0 a juvenile phase spider
+
+M 0   308     4   326   4   100    86    -1          0 a juvenile phase spider
+
+M 0   306     6   333   6   100    87    -1          0 the ghost of a kobold raider
+
+M 0   306     6   323   6   100    88    -1          0 the ghost of a kobold raider
+
+M 0   310     6   327   6   100    89    -1          0 the ghost of a solamnic knight
+
+S
+$

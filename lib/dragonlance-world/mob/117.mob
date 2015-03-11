@@ -1,0 +1,314 @@
+#11700
+goblin dark~
+a goblin in dark robes~
+A goblin in dark robes stumbles along here.
+~
+   Dark robes worn to conceal decaying flesh cover him from head to toe.  He
+holds a small wand in his right hand, and glances about as he walks.  He smells
+of death, or it is just a smell of not bathing, his natural smell.    
+~
+d 0 0 0 k 0 0 0 -900
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11701
+goblin dark~
+a female goblin in dark robes~
+A female goblin in dark robes utters some words.
+~
+   Dark robes conceal her rotting body.  She mutters something in a crude
+language as you look at her.  A bit taller than other goblins that one might
+have seen, but skinnier as well.    
+~
+d 0 0 0 k 0 0 0 -900
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11702
+goblin necromancer~
+a goblin necromancer~
+A goblin necromancer utters a chant.
+~
+   Bony fingers peek out from his sleeves, but no more of flesh can be seen, if
+indeed those fingers have flesh.  He carries a small, unadorned dagger at his
+waist, and looks to the jars on the walls.    
+~
+d 0 0 0 k 0 0 0 -900
+17 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11703
+goblin archmagus~
+a goblin archmagus~
+A goblin archmagus mutters an incantation.
+~
+   Clean robes of black velvet cover the rotting body of this goblin.  In a
+tongue, both spidery and crude, he mutters incantations.  His eyes peek out of
+his cowl, but no more of him can be seen.    
+~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11704
+goblin cleric~
+a goblin cleric~
+A goblin cleric chants to himself.
+~
+   Strong of build and body, with a faith to rival that, this one arrogantly
+walks the passages.  The scent of incense and smoke trails after him.  He grins
+sardonically as you glance at him.    
+~
+d 0 0 0 k 0 0 0 -900
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11705
+goblin cleric female~
+a female goblin cleric~
+A female goblin cleric chants softly to herself.
+~
+   She studies you as you look at her, a smirk coming to her mouth.  Dark robes
+hang loosely on her sturdy frame, as though physicl reality matters none to
+her.  She smells of rotting skin and smoke.    
+~
+d 0 0 0 k 0 0 0 -900
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11706
+goblin priest~
+a goblin priest~
+A goblin priest chants softly in his room.
+~
+   No robes adorn this one, he wears a simple black sheet, thrown over one
+shoulder.  He stands over his table, murmuring prayers to his god, as though
+possibly getting ready for a sacrifice.  His bare feet slip every now and again
+on the loose rocks and mud of the floor.    
+~
+d 0 0 0 k 0 0 0 -900
+18 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11707
+goblin priest high~
+a goblin high priest~
+A goblin high priest prepares for his rituals.
+~
+   Skinny of build, yet with a physical strength to rival that in his faith,
+the high priest stands strong.  Heavy black robes cover his slight frame, and a
+ceremonial dagger is gripped in his right hand.  He purses his lips as he
+assesses you and what you might need of him.    
+~
+d 0 0 0 k 0 0 0 -900
+22 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11708
+goblin huntsman~
+a goblin huntsman~
+A goblin huntsman prowls the paths.
+~
+   Donning a breastplate of leather armor, and wielding a wicked axe, this
+goblin is one to strike fear into the hearts of those he hunts.    
+~
+d 0 0 0 k 0 0 0 -900
+25 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11709
+goblin hunter~
+a goblin hunter~
+A goblin hunter checks his crossbow as he walks around the paths.
+~
+   He stands here, readying his crossbow for the hunt.  Shorter, yet stockier
+than other goblins, melee combat is not his game.    
+~
+d 0 0 0 k 0 0 0 0
+23 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Torn rags serve as his clothes, shoes as well.  His lips are quivering as he
+#11714
+goblin huntsman~
+a goblin huntsman~
+A goblin huntsman prowls the paths.
+~
+   Donning a breastplate of leather armor, and wielding a wicked axe, this
+goblin is one to strike fear into the hearts of those he hunts.    
+~
+d 0 0 0 k 0 0 0 -900
+25 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11715
+goblin huntsman~
+a goblin huntsman~
+A goblin huntsman prowls the paths.
+~
+   Donning a breastplate of leather armor, and wielding a wicked axe, this
+goblin is one to strike fear into the hearts of those he hunts.    
+~
+d 0 0 0 k 0 0 0 -900
+25 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The thing eyes you and attacks!
+The goblin king cowers behind the rock piles.
+$

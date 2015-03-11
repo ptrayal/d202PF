@@ -1,0 +1,428 @@
+#13900
+burly blacksmith man~
+a burly, blustering blacksmith~
+A burly blacksmith works on building the forge fire, yelling obscenities at his assistant.
+~
+   Burly in stature, and blustering in nature this mountain of a man works hard
+at trying build up his forge fire.  Constantly grumbling and occasionally
+yelling about his assistant's incompetance, he ignores all but his fire.    
+~
+d 0 0 0 k 0 0 0 900
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13901
+sullen assistant~
+a sullen blacksmith's assistant~
+Nursing his stinging ears, a sullen assistant barely pays you any attention.
+~
+   Red eared and red eyed, this young man of about eighteen years looks
+sullenly at his master, as he bears his reprimands.  Wearing an apron two sizes
+to big, and boots a size to small, he looks to be a poor youth.  He pays you
+little attention as he grumbles to himself.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13902
+shapely woman~
+a shapely, well dressed woman~
+A shapely, well dressed woman greets you warmly.
+~
+   Long ebony hair cascades about this woman's smooth, tanned face.  Her soft
+brown eyes look about her tent, making those present feel at home.  Clad in a
+fine, figure hugging blouse, and long leather leggings she gives a genuine
+smile to all who enter her tent.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13903
+plump woman~
+a plump, matronly woman~
+Calmly dealing with the growing crowd, a plump, matronly woman turns to take your order.
+~
+   A cheerful smile greets your scrutiny, as the woman calmly deals with the
+growing crowd.  Unperturbed by their jostling, she smiles at each as she takes
+their order.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13904
+craven lanky bandit man~
+a craven, lanky bandit~
+Covered in blood, a lanky, craven faced bandit snarls at you.
+~
+   Pale skinned and dirty faced, this green clad bandit looks about wildly.  
+Blood covers his hands, and is splattered across his grimy tunic.  Lanky in
+build, hunches over as if attempting to hide himself.    
+~
+d 0 0 0 k 0 0 0 -500
+18 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13905
+squat pudgy bandit man~
+a short, pudgy bandit~
+Splattered with blood, this squat pudgy bandit laughs loudly, as if enjoying himself.
+~
+   A mop of oily lank hair crowns this bandits round pudgy face.  Short and
+squat, he nearly resembles a pig in appearance.  Covered in blood from head to
+toe, he seems to revel in it.  He laughs loudly, not even paying you any
+attention
+~
+d 0 0 0 k 0 0 0 -500
+16 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13906
+well-groomed young man~
+a well-groomed young man~
+A well-groomed young man serves each customer with practiced efficiency.
+~
+   Slender in build and dressed in quality riding leathers, this man exudes
+self confidence.  Neatly cut hair, along with a well trimmed mustache complete
+the picture of the self possessed merchant.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13907
+portly man finery~
+a portly man clad in finery~
+Rubbing his hands eagerly, a portly man clad in finery flashes you an oily smile.
+~
+   Smiling at you eagerly, this portly man welcomes you to his stall.  He is
+clad in a fine silk tunic, which barely covers his bulk, and well woven
+leggings which seem about ready to burst at the seems.  He bobs his head in
+servitude as you approach, eager to make a sale.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13908
+thin toothless man~
+a thin, toothless man~
+Leaning against his cart, a thin, toothless man eyes you shrewdly.
+~
+   A worn shirt and patched leggings adorn this reed thin fellow.  In
+possession of nearly none of his teeth, he mutters to himself as if half
+crazed.  However the shrewd glance he gives you as you approach the cart
+dispels his charade.  He nods at you once, and continues his muttering.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13909
+handsome well-travelled bard~
+a handsome well-travelled bard~
+Playing a tune on his lute, a handsome well-travelled bard raises his voice to the heavens.
+~
+   Clad in a suit of forest green, this handsome bard is quite the sight.  His
+fingers move deftly over the strings of the lute, as he sings the lament of a
+forgotten lover.  He knows his trade well, and plays to the mood of the crowd.
+~
+d 0 0 0 k 0 0 0 0
+21 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13910
+muscular brigand green~
+a muscular brigand clad in green~
+Glaring at you icily, this muscular green clad brigand growls at your presence.
+~
+   This muscular brigand give a low guttural growl as you approach, challenging
+your very presence.  He clenches his fist menacingly, as he approaches you.  
+He obviously intends to silence you with his bare hands.    
+~
+d 0 0 0 k 0 0 0 0
+23 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13911
+renegade mage~
+a grey-robed renegade mage~
+Apparently in deep concentration a renegade mage is unaware of your presence.
+~
+   Clad in coarse grey robes, the mage that stands before you is deep in his
+art.  Chanting as he stares unseeingly towards the direction of the caravan, he
+seems unaware of your presence.  He sways unsteadily from time to time, but
+remarkably remains standing.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13912
+sneaky green bandit~
+a sneaky, green clad bandit~
+Trying to avoid your attention, a sneaky, green clad bandit keeps to the shadows.
+~
+   Rather short and stocky, it is amazing how this bandit avoids detection.  
+Moving with a grace which belies his stature, he scans the crowd for a likely
+victim.  He catches you looking at him, and attempts to hide himself in the
+shadows.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13913
+child awestruck~
+an awestruck child~
+An awestruck child stands here, enchanted by her surroundings.
+~
+   Long golden hair frames the cute face of this little girl, laughing gaily as
+she watches all that goes about her.  Clad in a small red dress, she smiles at
+you as you pass by.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13914
+stocky merchant blue~
+a stocky, blue clad merchant~
+Clad in vibrant blue, a stocky merchant welcomes you warmly.
+~
+   At first glance, this merchant could nearly be mistaken for a dwarf or
+gnome.  Standing at a little over five feet, his height could easily cause many
+to lower their guard.  However, one merely has to look into his eyes, and
+notice the indomitable fire behind his welcoming gaze, to see that he is not
+one to be toyed with.    
+~
+d 0 0 0 k 0 0 0 0
+29 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13915
+stoic mail guard~
+a stoic, mail clad guard~
+Bedecked in vibrant blue, a stoic, mail clad guard watches you warily.
+~
+   Before you stands a tall burly figure.  Clad in worn, but well polished
+chain mail, he handles his weapon easily.  A tabard of vibrant blue sits over
+his mail, bearing the symbol of balanced merchant scales.  He eyes you warily,
+but makes no aggresive gestures.    
+~
+d 0 0 0 k 0 0 0 0
+21 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

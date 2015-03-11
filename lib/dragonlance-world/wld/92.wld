@@ -1,0 +1,1904 @@
+#9200
+Aboard a Small Fishing Vessel~
+   This small vessel is covered in fishing gear of all kinds.  It is a small
+sailing boat, with a single mast and sail.  There is no cabin at all, and the
+ship is steered with a large wheel near the back of the vessel.    
+~
+92 c h 0 0 1
+S
+#9201
+A Small Fisherman's Dock~
+   This small dock appears relatively sturdy and is made of simple wooden
+planks and thick poles for support.  It is covered with fishing equipment of
+all sorts, and several small boats are tied to the poles.  Looking south you
+can barely see the mainland, and the city of Palanthas.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9202 0 0 0 0 0 0 0 0
+S
+T 9201
+#9202
+A Small Fisherman's Dock~
+   This small dock appears relatively sturdy and is made of simple wooden
+planks and thick poles for support.  It is covered with fishing equipment of
+all sorts, and several small boats are tied to the poles.  Looking south you
+can barely see the mainland, and the city of Palanthas.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9203 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9201 0 0 0 0 0 0 0 0
+S
+#9203
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9214 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9208 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9202 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9204 0 0 0 0 0 0 0 0
+S
+#9204
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9215 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9203 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9205 0 0 0 0 0 0 0 0
+S
+#9205
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9216 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9204 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9206 0 0 0 0 0 0 0 0
+S
+#9206
+A Small Fisherman's Dock~
+   This small dock appears relatively sturdy and is made of simple wooden
+planks and thick poles for support.  It is covered with fishing equipment of
+all sorts, and several small boats are tied to the poles.  Looking south you
+can barely see the mainland, and the city of Palanthas.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9205 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9207 0 0 0 0 0 0 0 0
+S
+#9207
+A Small Fisherman's Dock~
+   This small dock appears relatively sturdy and is made of simple wooden
+planks and thick poles for support.  It is covered with fishing equipment of
+all sorts, and several small boats are tied to the poles.  Looking south you
+can barely see the mainland, and the city of Palanthas.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9206 0 0 0 0 0 0 0 0
+S
+#9208
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9213 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9209 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9203 0 0 0 0 0 0 0 0
+S
+#9209
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9212 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9211 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9208 0 0 0 0 0 0 0 0
+S
+#9210
+A Small Fisherman's Dock~
+   This small dock appears relatively sturdy and is made of simple wooden
+planks and thick poles for support.  It is covered with fishing equipment of
+all sorts, and several small boats are tied to the poles.  Looking south you
+can barely see the mainland, and the city of Palanthas.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9211 0 0 0 0 0 0 0 0
+S
+#9211
+A Small Fisherman's Dock~
+   This small dock appears relatively sturdy and is made of simple wooden
+planks and thick poles for support.  It is covered with fishing equipment of
+all sorts, and several small boats are tied to the poles.  Looking south you
+can barely see the mainland, and the city of Palanthas.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9209 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9210 0 0 0 0 0 0 0 0
+S
+#9212
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9209 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9213 0 0 0 0 0 0 0 0
+S
+#9213
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9218 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9212 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9208 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9214 0 0 0 0 0 0 0 0
+S
+#9214
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9219 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9213 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9203 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9215 0 0 0 0 0 0 0 0
+S
+#9215
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9220 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9214 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9204 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9216 0 0 0 0 0 0 0 0
+S
+#9216
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9221 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9215 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9205 0 0 0 0 0 0 0 0
+S
+#9217
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D2
+~
+~
+0 0 9212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9218 0 0 0 0 0 0 0 0
+S
+#9218
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9213 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9219 0 0 0 0 0 0 0 0
+S
+#9219
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9222 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9218 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9214 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9220 0 0 0 0 0 0 0 0
+S
+#9220
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9219 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9215 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9221 0 0 0 0 0 0 0 0
+S
+#9221
+A Sandy Beach Covered in Drying Fish~
+   This beach is covered in white sand and small pebbles.  Large racks have
+been laid out on the shore, covered in gutted fish left out to dry in the sun.
+Several men and women are here at work, preparing the fish for storing.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9220 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9216 0 0 0 0 0 0 0 0
+S
+#9222
+A Wide, Well-Travelled Path~
+   This well-travelled path cuts through the tall grass like a winding snake.
+Though the path runs mostly north and south, there are small twists and turns
+throughout it.  The wind is light and refreshing here, if not a tad chilly with
+the stronger gusts.  To the north you can see the thatched roofs of the village
+of Bethel, and to the south the wide, open waters of the Bay of Branchala.    
+~
+92 c h 0 0 1
+D0
+~
+~
+0 0 9223 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9219 0 0 0 0 0 0 0 0
+S
+#9223
+A Wide, Well-Travelled Path~
+   This well-travelled path cuts through the tall grass like a winding snake.
+Though the path runs mostly north and south, there are small twists and turns
+throughout it.  The wind is light and refreshing here, if not a tad chilly with
+the stronger gusts.  To the north you can see the thatched roofs of the village
+of Bethel, and to the south the wide, open waters of the Bay of Branchala.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9241 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9224 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9222 0 0 0 0 0 0 0 0
+S
+#9224
+A Narrow Side-Path Through the Grass~
+   This small path cuts through the tall, swaying grass in a zig-zag pattern.
+Large slabs of bedrock jut out of the grass in places, showing the solid base
+of this small island.  Looking east you can see the path open up to a small
+sandy beach.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9225 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9223 0 0 0 0 0 0 0 0
+S
+#9225
+A Narrow Side-Path Through the Grass~
+   This small path cuts through the tall, swaying grass in a zig-zag pattern.
+Large slabs of bedrock jut out of the grass in places, showing the solid base
+of this small island.  Looking east you can see the path open up to a small
+sandy beach.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9226 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9224 0 0 0 0 0 0 0 0
+S
+#9226
+A Narrow Side-Path Through the Grass~
+   This small path cuts through the tall, swaying grass in a zig-zag pattern.
+Large slabs of bedrock jut out of the grass in places, showing the solid base
+of this small island.  Looking east you can see the path open up to a small
+sandy beach.    
+~
+92 0 h 0 0 1
+D3
+~
+~
+0 0 9225 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9227 0 0 0 0 0 0 0 0
+S
+#9227
+A Narrow Side-Path Through the Grass~
+   This small path cuts through the tall, swaying grass in a zig-zag pattern.
+Large slabs of bedrock jut out of the grass in places, showing the solid base
+of this small island.  Looking east you can see the path open up to a small
+sandy beach.    
+~
+92 0 h 0 0 1
+D7
+~
+~
+0 0 9228 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9226 0 0 0 0 0 0 0 0
+S
+#9228
+A Narrow Side-Path Through the Grass~
+   This small path cuts through the tall, swaying grass in a zig-zag pattern.
+Large slabs of bedrock jut out of the grass in places, showing the solid base
+of this small island.  Looking east you can see the path open up to a small
+sandy beach.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9229 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9227 0 0 0 0 0 0 0 0
+S
+#9229
+A Beach of White Sand and Colorful Seashells~
+   This small beach is surrounded by tall grass and sheets of bedrock.  The
+sand is brilliant white and is littered with tiny, colorful seashells.  In the
+water to the east several floating markers have been set up, marking a large
+swimming area.    
+~
+92 c h 0 0 1
+D0
+~
+~
+0 0 9230 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9232 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9228 0 0 0 0 0 0 0 0
+S
+#9230
+A Beach of White Sand and Colorful Seashells~
+   This small beach is surrounded by tall grass and sheets of bedrock.  The
+sand is brilliant white and is littered with tiny, colorful seashells.  In the
+water to the east several floating markers have been set up, marking a large
+swimming area.    
+~
+92 c h 0 0 1
+D0
+~
+~
+0 0 9231 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9233 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9229 0 0 0 0 0 0 0 0
+S
+#9231
+A Beach of White Sand and Colorful Seashells~
+   This small beach is surrounded by tall grass and sheets of bedrock.  The
+sand is brilliant white and is littered with tiny, colorful seashells.  In the
+water to the east several floating markers have been set up, marking a large
+swimming area.    
+~
+92 c h 0 0 1
+D1
+~
+~
+0 0 9234 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9230 0 0 0 0 0 0 0 0
+S
+#9232
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D0
+~
+~
+0 0 9233 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9235 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9229 0 0 0 0 0 0 0 0
+S
+#9233
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D0
+~
+~
+0 0 9234 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9236 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9232 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9230 0 0 0 0 0 0 0 0
+S
+#9234
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D1
+~
+~
+0 0 9237 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9233 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9231 0 0 0 0 0 0 0 0
+S
+#9235
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D0
+~
+~
+0 0 9236 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9238 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9232 0 0 0 0 0 0 0 0
+S
+#9236
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D0
+~
+~
+0 0 9237 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9239 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9235 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9233 0 0 0 0 0 0 0 0
+S
+#9237
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D0
+~
+~
+0 0 9296 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9240 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9236 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9234 0 0 0 0 0 0 0 0
+S
+#9238
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D0
+~
+~
+0 0 9239 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9235 0 0 0 0 0 0 0 0
+S
+#9239
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D0
+~
+~
+0 0 9240 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9238 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9236 0 0 0 0 0 0 0 0
+S
+#9240
+Swimming in a Shueball Court~
+   This area of neck-high water has been barricaded off from the rest of the
+small cove by several floating markers each tied together.  A floating net has
+been set up on either side of the area, though for what use you can only
+imagine.    
+~
+92 0 h 0 0 6
+D2
+~
+~
+0 0 9239 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9237 0 0 0 0 0 0 0 0
+S
+#9241
+A Wide, Well-Travelled Path~
+   This well-travelled path cuts through the tall grass like a winding snake.
+Though the path runs mostly north and south, there are small twists and turns
+throughout it.  The wind is light and refreshing here, if not a tad chilly with
+the stronger gusts.  To the north you can see the thatched roofs of the village
+of Bethel, and to the south the wide, open waters of the Bay of Branchala.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9242 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9223 0 0 0 0 0 0 0 0
+S
+#9242
+A Wide, Well-Travelled Path~
+   This well-travelled path cuts through the tall grass like a winding snake.
+Though the path runs mostly north and south, there are small twists and turns
+throughout it.  The wind is light and refreshing here, if not a tad chilly with
+the stronger gusts.  To the north you can see the thatched roofs of the village
+of Bethel, and to the south the wide, open waters of the Bay of Branchala.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9243 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9241 0 0 0 0 0 0 0 0
+S
+#9243
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9244 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 9259 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9242 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 9258 0 0 0 0 0 0 0 0
+S
+#9244
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9245 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 9261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9243 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 9260 0 0 0 0 0 0 0 0
+S
+#9245
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9246 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 9263 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9244 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 9262 0 0 0 0 0 0 0 0
+S
+#9246
+The Center of Bethel Village~
+   Here, in the center of town, you can see all of the village, as it it raised
+a bit on a small hill.  The thatched roofs of each house spread into your view
+in all directions.  To the north a wide field opens into view, filled with
+crops and plants of all assortments.  To the south a beach of white sand and
+small docks can be seen, opening into the mouth of the Bay of Branchala.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9247 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9250 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9245 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9254 0 0 0 0 0 0 0 0
+S
+#9247
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9248 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 9265 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9246 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 9264 0 0 0 0 0 0 0 0
+S
+#9248
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9249 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 9267 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9247 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 9266 0 0 0 0 0 0 0 0
+S
+#9249
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9280 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 9269 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9248 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 9268 0 0 0 0 0 0 0 0
+S
+#9250
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9251 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9246 0 0 0 0 0 0 0 0
+S
+#9251
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9275 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9252 0 0 0 0 0 0 0 0
+D2
+~
+curtain~
+1 0 9276 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9250 0 0 0 0 0 0 0 0
+S
+#9252
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9277 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 9279 0 0 0 0 0 0 0 0
+D2
+~
+curtain~
+1 0 9278 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9251 0 0 0 0 0 0 0 0
+S
+#9253
+Within a Private Home of Thatched Grass and Mortar~
+You are in a room.
+~
+92 0 h 0 0 1
+D3
+~
+~
+0 0 9252 0 0 0 0 0 0 0 0
+S
+#9254
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9246 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9255 0 0 0 0 0 0 0 0
+S
+#9255
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9270 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9254 0 0 0 0 0 0 0 0
+D2
+~
+curtain~
+1 0 9271 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9256 0 0 0 0 0 0 0 0
+S
+#9256
+Along the Main Street of Bethel Village~
+   This small street runs right through the center of this quaint little
+village.  Houses of thatched grass and mortar have been constructed on either
+side of the street.  Not far to the south you can see the open waters of the
+Bay of Branchala.  To the north, past the village, you can see a large field
+open into view.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9272 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9255 0 0 0 0 0 0 0 0
+D2
+~
+curtain~
+1 0 9273 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 9274 0 0 0 0 0 0 0 0
+S
+#9257
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9256 0 0 0 0 0 0 0 0
+S
+#9258
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+curtain~
+1 0 9243 0 0 0 0 0 0 0 0
+S
+#9259
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D3
+~
+curtain~
+1 0 9243 0 0 0 0 0 0 0 0
+S
+#9260
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+curtain~
+1 0 9244 0 0 0 0 0 0 0 0
+S
+#9261
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D3
+~
+curtain~
+1 0 9244 0 0 0 0 0 0 0 0
+S
+#9262
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+curtain~
+1 0 9245 0 0 0 0 0 0 0 0
+S
+#9263
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D3
+~
+curtain~
+1 0 9245 0 0 0 0 0 0 0 0
+S
+#9264
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+curtain~
+1 0 9247 0 0 0 0 0 0 0 0
+S
+#9265
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D3
+~
+curtain~
+1 0 9247 0 0 0 0 0 0 0 0
+S
+#9266
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+curtain~
+1 0 9248 0 0 0 0 0 0 0 0
+S
+#9267
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D3
+~
+curtain~
+1 0 9248 0 0 0 0 0 0 0 0
+S
+#9268
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+curtain~
+1 0 9249 0 0 0 0 0 0 0 0
+S
+#9269
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D3
+~
+curtain~
+1 0 9249 0 0 0 0 0 0 0 0
+S
+#9270
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D2
+~
+curtain~
+1 0 9255 0 0 0 0 0 0 0 0
+S
+#9271
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9255 0 0 0 0 0 0 0 0
+S
+#9272
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D2
+~
+curtain~
+1 0 9256 0 0 0 0 0 0 0 0
+S
+#9273
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9256 0 0 0 0 0 0 0 0
+S
+#9274
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D1
+~
+curtain~
+1 0 9256 0 0 0 0 0 0 0 0
+S
+#9275
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D2
+~
+curtain~
+1 0 9251 0 0 0 0 0 0 0 0
+S
+#9276
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9251 0 0 0 0 0 0 0 0
+S
+#9277
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D2
+~
+curtain~
+1 0 9252 0 0 0 0 0 0 0 0
+S
+#9278
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D0
+~
+curtain~
+1 0 9252 0 0 0 0 0 0 0 0
+S
+#9279
+Within a Private Home of Thatched Grass and Mortar~
+   This small home is formed of clay blocks sealed with mortar and with a
+thatched grass roof.  The inside is composed of a single room with a firepit, a
+few cots and some racks holding various household equipment.  A curtain
+seperates the outdoors from the inside, and luckily the temperature here seems
+to be warm enough to not have to worry about heating issues.    
+~
+92 0 h 0 0 1
+D3
+~
+curtain~
+1 0 9252 0 0 0 0 0 0 0 0
+S
+#9280
+A Wide Path Through the Swaying Grass~
+   This short path leads away from the village towards a large tilled field.  
+Rows of produce rise high in the scenery to the north, and several villagers go
+about their chores in farming the land.  To the south the village is busy with
+islanders tending to the various household chores such as weaving garments and
+preparing for the nightly village feasts.    
+~
+92 c h 0 0 1
+D0
+~
+~
+0 0 9281 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9249 0 0 0 0 0 0 0 0
+S
+#9281
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9288 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9283 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9280 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9282 0 0 0 0 0 0 0 0
+S
+#9282
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9289 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9281 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9285 0 0 0 0 0 0 0 0
+S
+#9283
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9287 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9284 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9281 0 0 0 0 0 0 0 0
+S
+#9284
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9286 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9283 0 0 0 0 0 0 0 0
+S
+#9285
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9290 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9282 0 0 0 0 0 0 0 0
+S
+#9286
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9291 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9284 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9287 0 0 0 0 0 0 0 0
+S
+#9287
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9292 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9286 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9283 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9288 0 0 0 0 0 0 0 0
+S
+#9288
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9293 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9287 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9281 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9289 0 0 0 0 0 0 0 0
+S
+#9289
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9294 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9288 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9282 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9290 0 0 0 0 0 0 0 0
+S
+#9290
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D0
+~
+~
+0 0 9295 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9289 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9285 0 0 0 0 0 0 0 0
+S
+#9291
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D2
+~
+~
+0 0 9286 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9292 0 0 0 0 0 0 0 0
+S
+#9292
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9291 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9287 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9293 0 0 0 0 0 0 0 0
+S
+#9293
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9292 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9288 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9294 0 0 0 0 0 0 0 0
+S
+#9294
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9293 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9289 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9295 0 0 0 0 0 0 0 0
+S
+#9295
+A Large Farming Field Filled With Produce~
+   This large field has been tilled and worked to produce a large variety of
+vegetables for the islanders to feast upon.  Rows of corn occupy the northern
+half, while peas and tomatos seem to occupy the southern half.  The western
+half is filled with stalks of grains and wheat.  Many villagers raom about here
+tending to the fields and harvest any ripe crops for storage and for the
+night's meal.    
+~
+92 0 h 0 0 1
+D1
+~
+~
+0 0 9294 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9290 0 0 0 0 0 0 0 0
+S
+#9296
+Swimming North of the Shueball Court~
+   This is the open sea about 30 feet out from land.  To the west rises a large
+cliff wall, that comes much closer to your position beneath the water.  The open
+sea extends as far as the eye can see to the north and east.  South of here are
+some youth playing a local water game called shueball.  
+~
+92 0 0 0 0 6
+D0
+~
+~
+0 0 9297 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9237 0 0 0 0 0 0 0 0
+S
+#9297
+Swimming North of the Shueball Court~
+   This is the open sea about 30 feet out from land.  To the west rises a large
+cliff wall, that comes much closer to your position beneath the water.  The open
+sea extends as far as the eye can see to the north and east.  South of here are
+some youth playing a local water game called shueball.  
+~
+92 0 0 0 0 6
+D2
+~
+~
+0 0 9296 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9298 0 0 0 0 0 0 0 0
+S
+#9298
+Beneath the Waves~
+   Here beneath the waves the visibility is very poor.  However to the west the
+small opening of an underwater cave can be seen.  
+~
+92 0 0 0 0 8
+D3
+~
+~
+0 0 9299 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9297 0 0 0 0 0 0 0 0
+S
+#9299
+A Small Underwater Cave~
+   This small cave is about 30 feet square, with a small chimney leading to the
+surface for air.  It looks like it was natural, but is being excavated to make
+it larger.  Mining picks are leaning up against the walls, and sealed crates are
+stacked all throughout the room.  
+~
+92 0 ab 0 0 0
+D1
+~
+~
+0 0 9298 0 0 0 0 0 0 0 0
+S
+$~

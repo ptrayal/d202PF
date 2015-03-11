@@ -1,0 +1,2511 @@
+#5200
+Path towards the Crags~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5201 0 0 0 0 0 0 0 0
+S
+#5201
+@nPath towards the Crags@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5202 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5200 0 0 0 0 0 0 0 0
+S
+#5202
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 c 0 0 0 0
+D0
+~
+~
+0 0 5203 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5201 0 0 0 0 0 0 0 0
+S
+#5203
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5204 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5202 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5237 0 0 0 0 0 0 0 0
+S
+#5204
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5205 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5203 0 0 0 0 0 0 0 0
+S
+#5205
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5207 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5206 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5204 0 0 0 0 0 0 0 0
+S
+#5206
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5205 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5219 0 0 0 0 0 0 0 0
+S
+#5207
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5209 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5208 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5205 0 0 0 0 0 0 0 0
+S
+#5208
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 5207 0 0 0 0 0 0 0 0
+S
+#5209
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5207 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5210 0 0 0 0 0 0 0 0
+S
+#5210
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5211 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5209 0 0 0 0 0 0 0 0
+S
+#5211
+@nOpening of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 c 0 0 0 0
+D2
+~
+~
+0 0 5212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5210 0 0 0 0 0 0 0 0
+S
+#5212
+@yOn the Mountain@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5211 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5213 0 0 0 0 0 0 0 0
+S
+#5213
+@yOn the Mountain@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5214 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5212 0 0 0 0 0 0 0 0
+S
+#5214
+@yOn the Mountain@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5215 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5213 0 0 0 0 0 0 0 0
+S
+#5215
+@yWithin an Encampment@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5216 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5218 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5214 0 0 0 0 0 0 0 0
+S
+#5216
+@yWithin an Encampment@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 1
+D1
+~
+~
+0 0 5217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5215 0 0 0 0 0 0 0 0
+S
+#5217
+@yWithin an Encampment@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5220 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5218 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5216 0 0 0 0 0 0 0 0
+S
+#5218
+@yWithin an Encampment@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5217 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5215 0 0 0 0 0 0 0 0
+S
+#5219
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5206 0 0 0 0 0 0 0 0
+S
+#5220
+@yOn the Mountain@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5221 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5217 0 0 0 0 0 0 0 0
+S
+#5221
+@nOpening of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 c 0 0 0 0
+D1
+~
+~
+0 0 5222 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5220 0 0 0 0 0 0 0 0
+S
+#5222
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5223 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5221 0 0 0 0 0 0 0 0
+S
+#5223
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5222 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5224 0 0 0 0 0 0 0 0
+S
+#5224
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5225 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5223 0 0 0 0 0 0 0 0
+S
+#5225
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5224 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5226 0 0 0 0 0 0 0 0
+S
+#5226
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5225 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5227 0 0 0 0 0 0 0 0
+S
+#5227
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5226 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5228 0 0 0 0 0 0 0 0
+S
+#5228
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5227 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5229 0 0 0 0 0 0 0 0
+S
+#5229
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5228 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5230 0 0 0 0 0 0 0 0
+S
+#5230
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5229 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5231 0 0 0 0 0 0 0 0
+S
+#5231
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5230 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5232 0 0 0 0 0 0 0 0
+S
+#5232
+@nOpening of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5233 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5231 0 0 0 0 0 0 0 0
+S
+#5233
+@nPath through the Crags@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5232 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5236 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5234 0 0 0 0 0 0 0 0
+S
+#5234
+@yA Cliff on the Crags@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 4
+D1
+~
+~
+0 0 5233 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5235 0 0 0 0 0 0 0 0
+S
+#5235
+@yA Cliff on the Crags@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 4
+D1
+~
+~
+0 0 5234 0 0 0 0 0 0 0 0
+S
+#5236
+@nPath through the Crags@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5263 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5233 0 0 0 0 0 0 0 0
+S
+#5237
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5238 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5203 0 0 0 0 0 0 0 0
+S
+#5238
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5239 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5237 0 0 0 0 0 0 0 0
+S
+#5239
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5240 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5238 0 0 0 0 0 0 0 0
+S
+#5240
+@nInside of a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 5239 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5241 0 0 0 0 0 0 0 0
+S
+#5241
+@nDeep within a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5242 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5240 0 0 0 0 0 0 0 0
+S
+#5242
+@nDeep within a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5241 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5243 0 0 0 0 0 0 0 0
+S
+#5243
+@nDeep within a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5242 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5244 0 0 0 0 0 0 0 0
+S
+#5244
+@nDeep within a Dark Cave@n~
+This unfinished room was created by Callidus.
+~
+52 0 0 0 0 0
+D4
+~
+~
+0 0 5243 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5245 0 0 0 0 0 0 0 0
+S
+#5245
+@nIn Front of a Rusted Gate@n~
+This unfinished room was created by Callidus.
+~
+52 aci 0 0 0 0
+D0
+~
+~
+0 0 5246 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5244 0 0 0 0 0 0 0 0
+S
+#5246
+@DEntrance to Gauntlgrym@n~
+This unfinished room was created by Callidus.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5247 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5245 0 0 0 0 0 0 0 0
+S
+#5247
+@DRuins of a Town Square@n~
+This unfinished room was created by Callidus.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5251 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5249 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5246 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5248 0 0 0 0 0 0 0 0
+S
+#5248
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5252 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5247 0 0 0 0 0 0 0 0
+S
+#5249
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5250 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5247 0 0 0 0 0 0 0 0
+S
+#5250
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5254 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5253 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5249 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5251 0 0 0 0 0 0 0 0
+S
+#5251
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5256 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5250 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5247 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5252 0 0 0 0 0 0 0 0
+S
+#5252
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5257 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5251 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5248 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5258 0 0 0 0 0 0 0 0
+S
+#5253
+@DInside of a Crumbled Home@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 5250 0 0 0 0 0 0 0 0
+S
+#5254
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5262 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5255 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5250 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5256 0 0 0 0 0 0 0 0
+S
+#5255
+@DInside of a Crumbled Home@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 5254 0 0 0 0 0 0 0 0
+S
+#5256
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5261 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5254 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5251 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5257 0 0 0 0 0 0 0 0
+S
+#5257
+@DRuins of a Town Square@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 1
+D0
+~
+~
+0 0 5260 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5256 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5252 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5259 0 0 0 0 0 0 0 0
+S
+#5258
+@DInside of a Crumbled Home@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5252 0 0 0 0 0 0 0 0
+S
+#5259
+@DInside of a Crumbled Home@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5257 0 0 0 0 0 0 0 0
+S
+#5260
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 10
+D0
+~
+~
+0 0 5301 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5257 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5314 0 0 0 0 0 0 0 0
+S
+#5261
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 10
+D0
+~
+~
+0 0 5302 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5262 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5256 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5260 0 0 0 0 0 0 0 0
+S
+#5262
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 0
+D0
+~
+~
+0 0 5304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5254 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5261 0 0 0 0 0 0 0 0
+S
+#5263
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5264 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5236 0 0 0 0 0 0 0 0
+S
+#5264
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5265 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5263 0 0 0 0 0 0 0 0
+S
+#5265
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D2
+~
+~
+0 0 5264 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5266 0 0 0 0 0 0 0 0
+S
+#5266
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5267 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5265 0 0 0 0 0 0 0 0
+S
+#5267
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5268 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5266 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5269 0 0 0 0 0 0 0 0
+S
+#5268
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5270 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5267 0 0 0 0 0 0 0 0
+S
+#5269
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5267 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5273 0 0 0 0 0 0 0 0
+S
+#5270
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5271 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5286 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5268 0 0 0 0 0 0 0 0
+S
+#5271
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D2
+~
+~
+0 0 5270 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5272 0 0 0 0 0 0 0 0
+S
+#5272
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5279 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5271 0 0 0 0 0 0 0 0
+S
+#5273
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D0
+~
+~
+0 0 5274 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5269 0 0 0 0 0 0 0 0
+S
+#5274
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D0
+~
+~
+0 0 5275 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5273 0 0 0 0 0 0 0 0
+S
+#5275
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D2
+~
+~
+0 0 5274 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5276 0 0 0 0 0 0 0 0
+S
+#5276
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5277 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5275 0 0 0 0 0 0 0 0
+S
+#5277
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5278 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5276 0 0 0 0 0 0 0 0
+S
+#5278
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5280 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5277 0 0 0 0 0 0 0 0
+S
+#5279
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D2
+~
+~
+0 0 5272 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5280 0 0 0 0 0 0 0 0
+S
+#5280
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5281 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5279 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5278 0 0 0 0 0 0 0 0
+S
+#5281
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5282 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5280 0 0 0 0 0 0 0 0
+S
+#5282
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5283 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5281 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5288 0 0 0 0 0 0 0 0
+S
+#5283
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5284 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5282 0 0 0 0 0 0 0 0
+S
+#5284
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D3
+~
+~
+0 0 5283 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5285 0 0 0 0 0 0 0 0
+S
+#5285
+@nA Steep Slope@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D4
+~
+~
+0 0 5284 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5286 0 0 0 0 0 0 0 0
+S
+#5286
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5287 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5270 0 0 0 0 0 0 0 0
+S
+#5287
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D3
+~
+~
+0 0 5286 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5300 0 0 0 0 0 0 0 0
+S
+#5288
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5289 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5282 0 0 0 0 0 0 0 0
+S
+#5289
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D2
+~
+~
+0 0 5288 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5290 0 0 0 0 0 0 0 0
+S
+#5290
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5291 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5293 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5289 0 0 0 0 0 0 0 0
+S
+#5291
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5292 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5290 0 0 0 0 0 0 0 0
+S
+#5292
+@nPath through the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D2
+~
+~
+0 0 5291 0 0 0 0 0 0 0 0
+S
+#5293
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5294 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5290 0 0 0 0 0 0 0 0
+S
+#5294
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D0
+~
+~
+0 0 5295 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5293 0 0 0 0 0 0 0 0
+S
+#5295
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D1
+~
+~
+0 0 5296 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5294 0 0 0 0 0 0 0 0
+S
+#5296
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D0
+~
+~
+0 0 5298 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5297 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5295 0 0 0 0 0 0 0 0
+S
+#5297
+@nClimbing the Crags@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 5
+D3
+~
+~
+0 0 5296 0 0 0 0 0 0 0 0
+S
+#5298
+@nEntrance to a Cave@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5299 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5296 0 0 0 0 0 0 0 0
+S
+#5299
+@nInside of the Den@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5298 0 0 0 0 0 0 0 0
+S
+#5300
+@nInside of a Giant Nest@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5287 0 0 0 0 0 0 0 0
+S
+#5301
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 aci 0 0 0 0
+D0
+~
+~
+0 0 5313 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5260 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5303 0 0 0 0 0 0 0 0
+S
+#5302
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 10
+D1
+~
+~
+0 0 5304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5261 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5301 0 0 0 0 0 0 0 0
+S
+#5303
+@DInside of a Crumbled Home@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 0
+D1
+~
+~
+0 0 5301 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5304
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 10
+D1
+~
+~
+0 0 5305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5262 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5302 0 0 0 0 0 0 0 0
+S
+#5305
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 aci 0 0 0 10
+D0
+~
+~
+0 0 5306 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5304 0 0 0 0 0 0 0 0
+S
+#5306
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 10
+D0
+~
+~
+0 0 5307 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5305 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5307
+@DGates to an Ancient Keep@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 0
+D0
+~
+gate~
+1 0 5308 27 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5310 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5309 0 0 0 0 0 0 0 0
+S
+#5308
+@nInside of Gauntlgrym's Keep~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5327 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 5307 27 0 0 0 0 0 0 0
+S
+#5309
+@DBase of the Guard Tower@n~
+You are in an unfinished room.
+~
+52 a 0 0 0 1
+D1
+~
+~
+0 0 5307 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5312 0 0 0 0 0 0 0 0
+S
+#5310
+@DBase of the Guard Tower@n~
+You are in an unfinished room.
+~
+52 a 0 0 0 1
+D3
+~
+~
+0 0 5307 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5311 0 0 0 0 0 0 0 0
+S
+#5311
+@DTop of the Guard Tower@n~
+You are in an unfinished room.
+~
+52 a 0 0 0 0
+D5
+~
+~
+0 0 5310 0 0 0 0 0 0 0 0
+S
+#5312
+@DTop of the Guard Tower@n~
+You are in an unfinished room.
+~
+52 a 0 0 0 0
+D5
+~
+~
+0 0 5309 0 0 0 0 0 0 0 0
+S
+#5313
+@DInside of a Crumbled Home@n~
+You are in an unfinished room.
+~
+52 ai 0 0 0 0
+D2
+~
+~
+0 0 5301 0 0 0 0 0 0 0 0
+S
+#5314
+@DA Dark Path@n~
+You are in an unfinished room.
+~
+52 c 0 0 0 10
+D1
+~
+~
+0 0 5260 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5315 0 0 0 0 0 0 0 0
+S
+#5315
+@DPath to an Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5314 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5316 0 0 0 0 0 0 0 0
+S
+#5316
+@DPath to an Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5315 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5317 0 0 0 0 0 0 0 0
+S
+#5317
+@DShores of an Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D1
+~
+~
+0 0 5316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5322 0 0 0 0 0 0 0 0
+S
+#5318
+@DShores of an Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 10
+D0
+~
+~
+0 0 5317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+S
+#5319
+@cAn Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D0
+~
+~
+0 0 5322 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5320 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5324 0 0 0 0 0 0 0 0
+S
+#5320
+@cAn Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D0
+~
+~
+0 0 5321 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5323 0 0 0 0 0 0 0 0
+S
+#5321
+@cAn Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D1
+~
+~
+0 0 5322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5320 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5326 0 0 0 0 0 0 0 0
+S
+#5322
+@cAn Underground Lake@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D1
+~
+~
+0 0 5317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5321 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5325 0 0 0 0 0 0 0 0
+S
+#5323
+@cUnderneath the Water@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D0
+~
+~
+0 0 5326 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5324 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5320 0 0 0 0 0 0 0 0
+S
+#5324
+@cUnderneath the Water@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D0
+~
+~
+0 0 5325 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5323 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+S
+#5325
+@cUnderneath the Water@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D2
+~
+~
+0 0 5324 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5326 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5322 0 0 0 0 0 0 0 0
+S
+#5326
+@cUnderneath the Water@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D1
+~
+~
+0 0 5325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5323 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5321 0 0 0 0 0 0 0 0
+S
+#5327
+A Hallway through the Keep~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5329 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5308 0 0 0 0 0 0 0 0
+D3
+~
+door west~
+1 0 5328 0 0 0 0 0 0 0 0
+S
+#5328
+Inside of the Kitchen's Pantry~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door east~
+1 0 5327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5366 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5333 0 0 0 0 0 0 0 0
+S
+#5329
+A Hallway through the Keep~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5330 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5331 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5362 0 0 0 0 0 0 0 0
+S
+#5330
+A Hallway through the Keep~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5334 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5329 0 0 0 0 0 0 0 0
+S
+#5331
+Base of the Stairwell~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 5329 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5332 0 0 0 0 0 0 0 0
+S
+#5332
+Halfway up a Crumbled Stairwell~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D5
+~
+~
+0 0 5331 0 0 0 0 0 0 0 0
+S
+#5333
+Inside of a Storage Cellar~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D4
+~
+~
+0 0 5328 0 0 0 0 0 0 0 0
+S
+#5334
+A Dais within the Keep~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5330 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5335 0 0 0 0 0 0 0 0
+S
+#5335
+Hidden Path beneath the Dais~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+vault door~
+1 0 5336 35 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5337 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5334 0 0 0 0 0 0 0 0
+S
+#5336
+Inside of the Vault~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+vault door~
+1 0 5335 35 0 0 0 0 0 0 0
+S
+#5337
+Hidden Path beneath the Dais~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5335 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5338 0 0 0 0 0 0 0 0
+S
+#5338
+Hidden Path beneath the Dais~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5337 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5339 0 0 0 0 0 0 0 0
+S
+#5339
+@rChallenge of the Red Guardian@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+gate~
+1 0 5340 35 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5338 0 0 0 0 0 0 0 0
+S
+#5340
+A Turn in the Corridor~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5341 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5339 0 0 0 0 0 0 0 0
+S
+#5341
+@gChallenge of the Green Guardian@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5340 0 0 0 0 0 0 0 0
+D1
+~
+gate~
+1 0 5342 35 0 0 0 0 0 0 0
+S
+#5342
+A Turn in the Corridor~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5343 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5341 0 0 0 0 0 0 0 0
+S
+#5343
+@DChallenge of the Black Guardian@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+gate~
+1 0 5344 40 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5342 0 0 0 0 0 0 0 0
+S
+#5344
+Inside of a Hidden Chamber~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5343 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5345 0 0 0 0 0 0 0 0
+S
+#5345
+Within the Gauntlgrym Dungeons~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5346 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5347 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5344 0 0 0 0 0 0 0 0
+D5
+~
+grate down~
+1 0 5354 0 0 0 0 0 0 0 0
+S
+#5346
+Within the Gauntlgrym Dungeons~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5351 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5352 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5353 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5345 0 0 0 0 0 0 0 0
+S
+#5347
+Within the Gauntlgrym Dungeons~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5348 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5345 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5350 0 0 0 0 0 0 0 0
+D3
+~
+door west~
+1 0 5349 35 0 0 0 0 0 0 0
+S
+#5348
+Within a Rusty Cell~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5347 0 0 0 0 0 0 0 0
+S
+#5349
+Inside of a Dusty Office~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+door east~
+1 0 5347 35 0 0 0 0 0 0 0
+S
+#5350
+Within a Rusty Cell~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5347 0 0 0 0 0 0 0 0
+S
+#5351
+Within a Rusty Cell~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5346 0 0 0 0 0 0 0 0
+S
+#5352
+Inside of a Torture Chamber~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 5346 0 0 0 0 0 0 0 0
+S
+#5353
+Within a Rusty Cell~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5346 0 0 0 0 0 0 0 0
+S
+#5354
+Inside of the Subterranean Sewers~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D3
+~
+~
+0 0 5355 0 0 0 0 0 0 0 0
+D4
+~
+grate up~
+1 0 5345 0 0 0 0 0 0 0 0
+S
+#5355
+Inside of the Subterranean Sewers~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5354 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5356 0 0 0 0 0 0 0 0
+S
+#5356
+Inside of the Subterranean Sewers~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5355 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5357 0 0 0 0 0 0 0 0
+S
+#5357
+Inside of the Subterranean Sewers~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5356 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5358 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5359 0 0 0 0 0 0 0 0
+S
+#5358
+Inside of the Subterranean Sewers~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5357 0 0 0 0 0 0 0 0
+S
+#5359
+@cWading above a Water Geyser@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D1
+~
+~
+0 0 5357 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5360 0 20 0 0 0 0 0 0
+S
+#5360
+@cFloating above a Water Geyser@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D4
+~
+~
+0 0 5361 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5359 0 0 0 0 0 0 0 0
+S
+#5361
+@cFloating above a Water Geyser@n~
+You are in an unfinished room.
+~
+52 0 0 0 0 6
+D4
+~
+~
+0 0 5323 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5360 0 0 0 0 0 0 0 0
+S
+#5362
+Within the Lavish Dining Hall~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5363 0 0 0 0 0 0 0 0
+S
+#5363
+Within the Lavish Dining Hall~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+~
+0 0 5364 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5362 0 0 0 0 0 0 0 0
+D2
+~
+door south~
+1 0 5366 0 0 0 0 0 0 0 0
+S
+#5364
+Within the Lavish Dining Hall~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D1
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5363 0 0 0 0 0 0 0 0
+S
+#5365
+Within the Lavish Dining Hall~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D2
+~
+~
+0 0 5362 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5364 0 0 0 0 0 0 0 0
+S
+#5366
+Inside of the Keep's Kitchen~
+You are in an unfinished room.
+~
+52 0 0 0 0 0
+D0
+~
+door north~
+1 0 5363 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5328 0 0 0 0 0 0 0 0
+S
+$~

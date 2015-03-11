@@ -1,0 +1,1757 @@
+#100
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D0
+~
+~
+0 0 101 20 20 0 0 0 0 65535 65535
+D2
+~
+~
+0 0 299 20 20 0 0 0 0 65535 65535
+S
+#101
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D0
+~
+~
+0 0 103 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 102 20 20 0 0 0 0 65535 65535
+D2
+~
+~
+0 0 100 20 20 0 0 0 0 65535 65535
+S
+#102
+An Older Treetop Home~
+   This residence is one of the oldest in all of Luskan.  A small plaque rests
+on the wall stating that it was the first to be built among the trees when most
+of the residents thought the idea to be insane.  A small fireplace has been set
+in the eastern wall with a small fire crackling inside of it.  
+~
+1 c 0 0 0 0
+D3
+~
+~
+0 0 101 20 20 0 0 0 0 65535 65535
+S
+#103
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D2
+~
+~
+0 0 101 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 104 20 20 0 0 0 0 65535 65535
+S
+#104
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D0
+~
+~
+0 0 105 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 103 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 106 20 20 0 0 0 0 65535 65535
+S
+#105
+A Large Treetop Home~
+   This is a large residence for the town of Luskan.  The back wall seems to
+have been moved back a few feet to give the occupants more room to move around
+in.  A few small toys on the floor indicate that a small child lives here, but
+no child seems to be around.  
+~
+1 c 0 0 0 0
+D2
+~
+~
+0 0 104 20 20 0 0 0 0 65535 65535
+S
+#106
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D1
+~
+~
+0 0 104 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 107 20 20 0 0 0 0 65535 65535
+S
+#107
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D1
+~
+~
+0 0 106 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 108 20 20 0 0 0 0 65535 65535
+S
+#108
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D0
+~
+~
+0 0 109 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 107 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 110 20 20 0 0 0 0 65535 65535
+S
+#109
+A Mystical Treetop Home~
+   The smell of incense fills this room.  Beautiful artwork has been painted on
+the walls, and a series of stars have been carved into the ceiling that seem to
+glow with a soft light.  Spell components of various kinds, potions and scrolls
+rest on shelves around the room, waiting to be bought.  
+~
+1 cd 0 0 0 0
+D2
+~
+~
+0 0 108 20 20 0 0 0 0 65535 65535
+S
+#110
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D3
+~
+~
+0 0 111 20 20 0 0 0 0 65535 65535
+D7
+~
+~
+0 0 108 20 20 0 0 0 0 65535 65535
+S
+#111
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D0
+~
+~
+0 0 112 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 110 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 113 20 20 0 0 0 0 65535 65535
+S
+#112
+A Treetop Home~
+   This home is furnished with all the comforts any resident of Luskan could ask
+for.  A small fireplace rests in the eastern wall of the room, with a small fire
+blazing in its maw.  A table and chairs rests in the center of the room, with a
+few scraps of paper resting on the table.  
+~
+1 c 0 0 0 0
+D2
+~
+~
+0 0 111 20 20 0 0 0 0 65535 65535
+S
+#113
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D0
+~
+~
+0 0 114 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 111 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 115 20 20 0 0 0 0 65535 65535
+S
+#114
+A Treetop Home~
+   This home is furnished with all the comforts any resident of Luskan could ask
+for.  A small fireplace rests in the eastern wall of the room, with a small fire
+blazing in its maw.  A table and chairs rests in the center of the room, with a
+few scraps of paper resting on the table.  
+~
+1 0 0 0 0 0
+D2
+~
+~
+0 0 113 20 20 0 0 0 0 65535 65535
+S
+#115
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Luskan.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to prevent
+accidents.  There are buildings along the sides of the bridgewalk, a few with
+doors open but mostly with their doors shut tight.  
+~
+1 0 0 0 0 1
+D1
+~
+~
+0 0 113 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 259 20 20 0 0 0 0 65535 65535
+S
+#116
+The Road East of Luskan~
+   This road heads east of Luskan, through a small forest and onto the plains.
+The traffic on the road has dwindled with a growing sense of menace in the land,
+but an occasional traveler can still be seen walking it.  
+~
+1 c 0 0 0 2
+D0
+~
+~
+0 0 2501 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 118 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 258 20 20 0 0 0 0 65535 65535
+S
+#117
+The Bar~
+   A few gentlemen stoop over the bar and have a few drinks.  The counter itself
+has a metal pole along its edge and has been polished thoroughly.  A few rows of
+different kinds of liquor and ale have been set up along the back wall.  A
+wooden dartboard laid with black and red painted cork is nailed against the
+wall.  
+~
+1 c 0 0 0 0
+D3
+~
+~
+0 0 277 20 20 0 0 0 0 65535 65535
+S
+#118
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed from
+heavy use, but the ground is moist from a recent rainstorm.  To the west is the
+town of Luskan, and to the east a low mountain range can be seen on the
+horizon.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 119 20 20 0 0 0 0 65535 65535
+D2
+~
+~
+0 0 2502 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3196 0 0 0 0 0 0 0 0
+S
+#119
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed from
+heavy use, but the ground is moist from a recent rainstorm.  To the west is the
+town of Luskan, and to the east a low mountain range can be seen on the
+horizon.  
+~
+1 0 0 0 0 10
+D0
+~
+~
+0 0 1500 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 123 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 118 20 20 0 0 0 0 65535 65535
+S
+#120
+Near the Fireplace~
+   A large fireplace set inside the northern wall keeps the Inn heated during
+the cold winters experienced every year in Luskan.  One or two chairs have been
+set here for people who enjoy basking in the fires glow to rest their weary
+feet.  One chair is set up apart from the others.  In it many men from many
+times have set and told tales of adventure.  
+~
+1 cd 0 0 0 0
+D0
+~
+~
+0 0 133 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 134 20 20 0 0 0 0 65535 65535
+D2
+~
+~
+0 0 278 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 124 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 135 20 20 0 0 0 0 65535 65535
+S
+#121
+The Kitchen~
+   A few cooks move hurriedly around the kitchen trying to fill all the orders
+coming from the main room.  Flour and all sorts of other cooking supplies lie
+all over the kitchen on counters and on the floor.  There is a small door in the
+center of the room, but where it leads to is unknown.  
+~
+1 0 0 0 0 0
+D0
+~
+door~
+1 0 122 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 277 20 20 0 0 0 0 65535 65535
+D5
+~
+~
+0 0 249 20 20 0 0 0 0 65535 65535
+S
+#122
+The Storage Room~
+   Large barrels fill up the entire area of this room.  The walls are bare and
+appear to have been patched up after being cracked.  The floor is plain wood
+that has been treated to make it last through bad weather.  
+~
+1 0 0 0 0 0
+D2
+~
+door~
+1 0 121 20 20 0 0 0 0 65535 65535
+S
+#123
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed from
+heavy use, but the ground is moist from a recent rainstorm.  To the west is the
+town of Luskan, and to the east a low mountain range can be seen on the
+horizon.  
+~
+1 0 0 0 0 10
+D3
+~
+~
+0 0 119 20 20 0 0 0 0 65535 65535
+D7
+~
+~
+0 0 139 20 20 0 0 0 0 65535 65535
+S
+#124
+The Guestcheck~
+   A large desk rests here where patrons of the Inn can ask for a room for the
+evening.  The steps are set along the northern wall and lead up to another,
+private level of the Inn that only those staying may go to.  A man with a bright
+smile sits at the desk and asks if he may help you.  Nailed to the wall is a
+large key rack with several hooks.  
+~
+1 cd 0 0 0 0
+D1
+~
+~
+0 0 120 20 20 0 0 0 0 65535 65535
+D2
+~
+~
+0 0 135 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 278 20 20 0 0 0 0 65535 65535
+S
+#125
+The Library of Luskan~
+   The library of Luskan houses books containing the history of the town, as
+well as Krynn itself.  The floors and walls are made of wood, and seems to shine
+with a heavy polish.  To the east are some bookshelves, and to the north are
+some tables.  
+~
+1 cd 0 0 0 0
+D0
+~
+~
+0 0 127 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 211 20 20 0 0 0 0 65535 65535
+D2
+~
+~
+0 0 126 20 20 0 0 0 0 65535 65535
+S
+#126
+Among the Bookshelves~
+   The bookshelves here contain histories from all over Krynn, with an emphasis
+on the history of Luskan.  The shelves reach up high along the wall, and a small
+stool rests in the corner so even the shortest humans can reach any shelf.  A
+small plaque hangs above the bookshelves.  
+~
+1 cd 0 0 0 0
+D0
+~
+~
+0 0 125 20 20 0 0 0 0 65535 65535
+S
+#127
+Among Some Tables~
+   Several wooden tables have been set up here for patrons of the Luskan library
+to rest and spend their time reading books.  Around each table are four chairs,
+and on top of each is a small lantern which helps lessen the strain on the eyes.
+~
+1 cd 0 0 0 0
+D2
+~
+~
+0 0 125 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 128 20 20 0 0 0 0 65535 65535
+S
+#128
+A Makeshift Workshop~
+   The bookshelves part here to make way for what has become a base of
+operations for the Tower of High Sorcery here in this recently appointed
+adventuring town.  It is well stocked with alchemcal equipment and shelves upon
+shelves filled with all manner of grotqesque and disgusting things.  
+~
+1 cd 0 0 0 0
+D1
+~
+~
+0 0 127 20 20 0 0 0 0 65535 65535
+S
+#129
+The Dueling Chamber~
+   A large mat is set up in the center of this room.  A circle has been drawn on
+the mat.  The room is used by the residents and visitors of Luskan for combat to
+train and settle bouts of honor.  
+~
+1 c 0 0 0 0
+D3
+~
+~
+0 0 239 20 20 0 0 0 0 65535 65535
+S
+#130
+A Long Hallway in the Inn~
+   This appears to be a somewhat newer extension to the Inn of the Last Home.  
+The hallway is very broad and easily traversed.  Lining the hallway on both the
+north and south sides are several doors that have been made out of what appears
+to be heavily sanded and lacquered oak wood.  
+~
+1 cd 0 0 0 0
+D0
+~
+door~
+1 0 135 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 131 20 20 0 0 0 0 65535 65535
+D2
+~
+door~
+1 0 136 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 278 20 20 0 0 0 0 65535 65535
+S
+#131
+A Long Hallway in the Inn~
+   This appears to be a somewhat newer extension to the Inn of the Last Home.  
+The hallway is very broad and easily traversed.  Lining the hallway on both the
+north and south sides are several doors that have been made out of what appears
+to be heavily sanded and lacquered oak wood.  
+~
+1 cd 0 0 0 0
+D0
+~
+door~
+1 0 133 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 132 20 20 0 0 0 0 65535 65535
+D2
+~
+door~
+1 0 134 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 130 20 20 0 0 0 0 65535 65535
+S
+#132
+A Long Hallway in the Inn~
+   This appears to be a somewhat newer extension to the Inn of the Last Home.  
+The hallway is very broad and easily traversed.  Lining the hallway on both the
+north and south sides are several doors that have been made out of what appears
+to be heavily sanded and lacquered oak wood.  
+~
+1 c 0 0 0 0
+D0
+   A heavy vaulted door guards this room, making it look quite secure.  
+~
+door~
+1 0 137 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 140 20 20 0 0 0 0 65535 65535
+D2
+~
+door~
+1 0 138 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 131 20 20 0 0 0 0 65535 65535
+S
+#133
+A Private Room~
+   This rather large and pleasantly decorated room feels quite homey and
+comfortable.  A small fireplace burns in the far corner, keeping the room very
+warm and cozy.  A very thick and heavy carpet covers the floor, and feels very
+soft beneath your feet.  A large bed takes up nearly a quarter of the room, and
+is made with very warm looking blankets and two fluffy pillows.  
+~
+1 d 0 0 0 0
+D2
+~
+~
+0 0 120 20 20 0 0 0 0 65535 65535
+S
+#134
+A Private Room~
+   This rather large and pleasantly decorated room feels quite homey and
+comfortable.  A small fireplace burns in the far corner, keeping the room very
+warm and cozy.  A very thick and heavy carpet covers the floor, and feels very
+soft beneath your feet.  A large bed takes up nearly a quarter of the room, and
+is made with very warm looking blankets and two fluffy pillows.  
+~
+1 d 0 0 0 0
+D3
+~
+~
+0 0 120 20 20 0 0 0 0 65535 65535
+S
+#135
+Among Some Tables~
+   This is the area of the Inn where people sit and enjoy their food and they
+eat, drink, and be merry.  A few large tables are set up around the outskirts of
+the room, and more smaller ones fill in the center.  Just to the north of this
+area if a large fireside that heats the inn on nights when it gets cold.  
+~
+1 cd 0 0 0 0
+D0
+~
+~
+0 0 124 20 20 0 0 0 0 65535 65535
+D1
+~
+~
+0 0 278 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 136 20 20 0 0 0 0 65535 65535
+D7
+~
+~
+0 0 120 20 20 0 0 0 0 65535 65535
+S
+#136
+A Private Room~
+   This rather large and pleasantly decorated room feels quite homey and
+comfortable.  A small fireplace burns in the far corner, keeping the room very
+warm and cozy.  A very thick and heavy carpet covers the floor, and feels very
+soft beneath your feet.  A large bed takes up nearly a quarter of the room, and
+is made with very warm looking blankets and two fluffy pillows.  
+~
+1 cd 0 0 0 0
+D1
+~
+~
+0 0 135 20 20 0 0 0 0 65535 65535
+S
+#137
+A Storage Room~
+   This appears to be at least a somewhat secure vaulted storage room.  The room
+in itself is somewhat damp and dusty, except for the footsteps leading into and
+out of the room, up to a rather large chest sitting in the center of the back
+wall.  There are no windows or other ways to access this room.  
+~
+1 fj 0 0 0 0
+D2
+~
+door~
+1 0 132 20 20 0 0 0 0 65535 65535
+S
+#138
+A Meeting Room~
+   This is a very large room with a huge hand-crafted and very smoothly polished
+oval table sitting directly in its center.  Many chairs surround the table,
+making room for several people to be seated at it comfortably.  A large coat of
+arms covers a portion of the back wall, and fireplaces have been situated on
+both the east and west sides of the room to keep it comfortable.  Well worn
+brown carpet covers the floor of this room.  There are no windows or other means
+of entry other than the door to the north.  
+~
+1 0 0 0 0 0
+D0
+~
+door~
+1 0 132 20 20 0 0 0 0 65535 65535
+S
+#139
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed from
+heavy use, but the ground is moist from a recent rainstorm.  To the west is the
+town of Luskan, and to the east a low mountain range can be seen on the
+horizon.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 141 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 123 20 20 0 0 0 0 65535 65535
+S
+#140
+A Small Mail Room~
+   This room has been designated to be the post office of Luskan.  There are
+large shelves along each wall that house the mail that is waiting to be picked
+up.  A large desk rests along the back wall of the room.  A short man stands
+behind the desk with a bright smile.  
+~
+1 c 0 0 0 0
+D3
+~
+~
+0 0 278 20 20 0 0 0 0 65535 65535
+S
+#141
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed from
+heavy use, but the ground is moist from a recent rainstorm.  To the west is the
+town of Luskan, and to the east a low mountain range can be seen on the
+horizon.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 142 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 139 20 20 0 0 0 0 65535 65535
+S
+#142
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed from
+heavy use, but the ground is moist from a recent rainstorm.  To the west is the
+town of Luskan, and to the east a low mountain range can be seen on the
+horizon.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 143 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 141 20 20 0 0 0 0 65535 65535
+S
+#143
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed from
+heavy use, but the ground is moist from a recent rainstorm.  To the west is the
+town of Luskan, and to the east a low mountain range can be seen on the
+horizon.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 144 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 142 20 20 0 0 0 0 65535 65535
+S
+#144
+The Edge of the Forest~
+   The forest begins to thin out slightly as you began to approach some
+mountains to the east.  There is grass along the trail here in spots, showing
+signs that not as many people travel this far away from Luskan, to the west.  
+The mountain range to the east is small and easily passable, and beyond it lies
+the Tribe of the Bear plains.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 145 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 143 20 20 0 0 0 0 65535 65535
+S
+#145
+The Edge of the Forest~
+   The forest begins to thin out slightly as you began to approach some
+mountains to the east.  There is grass along the trail here in spots, showing
+signs that not as many people travel this far away from Luskan, to the west.  
+The mountain range to the east is small and easily passable, and beyond it lies
+the Tribe of the Bear plains.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 146 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 144 20 20 0 0 0 0 65535 65535
+D6
+~
+~
+0 0 406 20 20 0 0 0 0 65535 65535
+S
+#146
+Approaching a Small Mountain Range~
+   Known to locals as the Sentinel Peaks, the small mountain range is only a
+short distance to the east.  Rocks and other debris are strewn along the path
+here, giving indication that few people pass this way often.  
+~
+1 0 a 0 0 10
+D1
+~
+~
+0 0 147 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 145 20 20 0 0 0 0 65535 65535
+S
+#147
+Walking Between the Peaks~
+   Tall peaks of the Sentinel Mountains loom on either side of the path that
+runs between them.  A few birds can be seen circling high above, probably going
+to or from the nests they keep along the edges of the mountains.  The ground
+slopes slightly upward for about a mile and then begins to descend to the
+Tribe of the Bear plains to the east.  
+~
+1 0 a 0 0 10
+D3
+~
+~
+0 0 146 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 148 20 20 0 0 0 0 65535 65535
+S
+#148
+Near the Sentinel Peaks~
+   The Sentinel Peaks rise up a short distance to the west from here, making a
+jagged outline on the horizon.  To the east is a vast grassy plain that extends
+as far as you can see to the horizon.  At dawn, the sun rises over the grass in
+a blaze of crimson sunshine that is breathtaking to the traveller who stops to
+gaze at it.  
+~
+1 0 a 0 0 10
+D1
+~
+~
+0 0 165 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 147 20 20 0 0 0 0 65535 65535
+S
+#149
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 150 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 2653 0 0 0 0 0 0 0 0
+S
+#150
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 151 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 149 20 20 0 0 0 0 65535 65535
+S
+#151
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 152 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 150 20 20 0 0 0 0 65535 65535
+S
+#152
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 153 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 151 20 20 0 0 0 0 65535 65535
+S
+#153
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 154 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 152 20 20 0 0 0 0 65535 65535
+S
+#154
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 155 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 153 20 20 0 0 0 0 65535 65535
+S
+#155
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 156 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 154 20 20 0 0 0 0 65535 65535
+S
+#156
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 157 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 155 20 20 0 0 0 0 65535 65535
+S
+#157
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 158 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 156 20 20 0 0 0 0 65535 65535
+S
+#158
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The path
+is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 159 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 157 20 20 0 0 0 0 65535 65535
+S
+#159
+The Western Tribe of the Bear Plains~
+   Grass stretches out as far as you can see to the north, south, and west.  
+The eastwall mountains rise up in the distant east, creating a jagged horizon
+for the sun to rise over.  The path is well trodden, and a short distance to the
+east there are small billows of smoke rising from the ground.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 160 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 158 0 0 0 0 0 0 0 0
+S
+#160
+The Western Tribe of the Bear Plains~
+   Grass stretches out as far as you can see to the north, south, and west.  
+The eastwall mountains rise up in the distant east, creating a jagged horizon
+for the sun to rise over.  The path is well trodden, and a short distance to the
+east there are small billows of smoke rising from the ground.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 161 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 159 20 20 0 0 0 0 65535 65535
+S
+#161
+Near a Tribe of the Bear village~
+   Along the eastern horizon you can begin to make out forms of buildings.  
+Barbarians of the plains pass by this way often, and seem surprised to see
+anyone else walking here.  There is a faint odor in the air.  It smells like
+meat cooking over a large fire.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 162 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 160 20 20 0 0 0 0 65535 65535
+S
+#162
+Near a Tribe of the Bear village~
+   Along the eastern horizon you can begin to make out forms of buildings.  
+Barbarians of the plains pass by this way often, and seem surprised to see
+anyone else walking here.  There is a faint odor in the air.  It smells like
+meat cooking over a large fire.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 163 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 161 20 20 0 0 0 0 65535 65535
+S
+#163
+Nearing a Tribe of the Bear village~
+   This path leads to a Tribe of the Bear village to the east, and to the open
+plains to the west.  The town is encircled by a large stone wall.  The plainsmen
+are semi-nomadic, but with the difficult times spreading through The Realms
+recently, they have settled down for protection.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 164 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 162 20 20 0 0 0 0 65535 65535
+S
+#164
+Standing in Front of a Tribe of the Bear village~
+   This town is surrounded by a stone wall to keep out unwanted visitors and
+thieves.  It is not large, but there are many tents pitched within its walls.  
+All around the open plains stretch for miles, and the Spine of the World rises
+up on the eastern horizon.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 -1 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 163 20 20 0 0 0 0 65535 65535
+S
+#165
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 166 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 148 0 0 0 0 0 0 0 0
+S
+#166
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 167 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 165 20 20 0 0 0 0 65535 65535
+S
+#167
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 168 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 166 20 20 0 0 0 0 65535 65535
+S
+#168
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 169 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 167 20 20 0 0 0 0 65535 65535
+S
+#169
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 170 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 168 20 20 0 0 0 0 65535 65535
+S
+#170
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 171 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 169 20 20 0 0 0 0 65535 65535
+S
+#171
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D3
+~
+~
+0 0 170 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 172 20 20 0 0 0 0 65535 65535
+S
+#172
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D6
+~
+~
+0 0 171 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 173 20 20 0 0 0 0 65535 65535
+S
+#173
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 174 20 20 0 0 0 0 65535 65535
+D6
+~
+~
+0 0 172 20 20 0 0 0 0 65535 65535
+S
+#174
+Nearing the Eastwall Mountains~
+   The Eastwall mountains spring up to the sky in the east.  Formed over
+millions of years, the mountains have long been a force to deal with for
+travelers headed over them.  The grass is somewhat short here, and only comes up
+to the knees on a kender.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 175 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 173 20 20 0 0 0 0 65535 65535
+S
+#175
+Nearing the Eastwall Mountains~
+   The Eastwall mountains spring up to the sky in the east.  Formed over
+millions of years, the mountains have long been a force to deal with for
+travelers headed over them.  The grass is somewhat short here, and only comes up
+to the knees on a kender.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 176 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 174 20 20 0 0 0 0 65535 65535
+S
+#176
+Nearing the Eastwall Mountains~
+   The Eastwall mountains spring up to the sky in the east.  Formed over
+millions of years, the mountains have long been a force to deal with for
+travelers headed over them.  The grass is somewhat short here, and only comes up
+to the knees on a kender.  
+~
+1 0 0 0 0 10
+D3
+~
+~
+0 0 175 20 20 0 0 0 0 65535 65535
+D7
+~
+~
+0 0 177 20 20 0 0 0 0 65535 65535
+S
+#177
+Before a Hill in the Plains~
+   A slight hill slowly begins to slope up before your feet.  The path up the
+hill seems to be a well worn one, and has collected a slight muddy feeling to
+it.  The path leads up the hill, or back to the southwest
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 178 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 176 20 20 0 0 0 0 65535 65535
+S
+#178
+A Hill Before the Mountains~
+   The ground is sloped quite a bit here, heading down to the west on the
+plains, and east into the set of mountains.  Your feet sink slightly into the
+mud, but the way is passable and the footing is solid.  Not many pass this way,
+as the mountains can be a treacherous place and are known to be a spot for
+ambushes.  
+~
+1 0 0 0 0 10
+D3
+~
+~
+0 0 177 20 20 0 0 0 0 65535 65535
+D4
+~
+~
+0 0 179 20 20 0 0 0 0 65535 65535
+S
+#179
+Traveling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.  
+~
+1 0 a 0 0 10
+D1
+~
+~
+0 0 180 20 20 0 0 0 0 65535 65535
+D5
+~
+~
+0 0 178 20 20 0 0 0 0 65535 65535
+S
+#180
+Traveling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.  
+~
+1 0 a 0 0 10
+D1
+~
+~
+0 0 181 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 179 20 20 0 0 0 0 65535 65535
+S
+#181
+Traveling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.  
+~
+1 0 a 0 0 10
+D3
+~
+~
+0 0 180 20 20 0 0 0 0 65535 65535
+D7
+~
+~
+0 0 182 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 192 20 20 0 0 0 0 65535 65535
+S
+#182
+Traveling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.  
+~
+1 0 a 0 0 10
+D5
+~
+~
+0 0 183 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 181 20 20 0 0 0 0 65535 65535
+S
+#183
+A Hill Before the Mountains~
+   The ground is sloped quite a bit here, heading down to the east on the
+plains, and west into the set of mountains.  Your feet sink slightly into the
+mud, but the way is passable and the footing is solid.  Not many pass this way,
+as the mountains can be a treacherous place and are known to be a spot for
+ambushes.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 184 20 20 0 0 0 0 65535 65535
+D4
+~
+~
+0 0 182 20 20 0 0 0 0 65535 65535
+S
+#184
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the west.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 185 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 183 20 20 0 0 0 0 65535 65535
+S
+#185
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the west.  
+~
+1 0 0 0 0 10
+D3
+~
+~
+0 0 184 20 20 0 0 0 0 65535 65535
+D7
+~
+~
+0 0 186 20 20 0 0 0 0 65535 65535
+S
+#186
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the west.  
+~
+1 0 0 0 0 10
+D7
+~
+~
+0 0 187 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 185 20 20 0 0 0 0 65535 65535
+S
+#187
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the west.  
+~
+1 0 0 0 0 10
+D0
+~
+~
+0 0 188 20 20 0 0 0 0 65535 65535
+D9
+~
+~
+0 0 186 20 20 0 0 0 0 65535 65535
+S
+#188
+Approaching Xak Tsaroth~
+   Slowly coming into view, the city of Xak Tsaroth can be seen.  Four images,
+pillars perhaps can be seen, showing the center of the city.  Past the city a
+small image of the temple of Mishakal can be seen.  The path leads to the east,
+and back towards the south.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 189 20 20 0 0 0 0 65535 65535
+D2
+~
+~
+0 0 187 20 20 0 0 0 0 65535 65535
+S
+#189
+Approaching Xak Tsaroth~
+   Slowly coming into view, the city of Xak Tsaroth can be seen.  Four images,
+pillars perhaps can be seen, showing the center of the city.  Past the city a
+small image of the temple of Mishakal can be seen.  The path leads to the east,
+and back towards the south.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 190 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 188 20 20 0 0 0 0 65535 65535
+S
+#190
+Approaching Xak Tsaroth~
+   Slowly coming into view, the city of Xak Tsaroth can be seen.  Four images,
+pillars perhaps can be seen, showing the center of the city.  Past the city a
+small image of the temple of Mishakal can be seen.  The path leads to the east,
+and back towards the south.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 191 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 189 20 20 0 0 0 0 65535 65535
+S
+#191
+Before Xak Tsaroth~
+   You stand before the once beautiful city of Xak Tsaroth.  After the
+cataclysm, the fires and earthquakes ripped apart Xak Tsaroth's beauty and left
+it a decaying marshland.  Only certain parts still remain intact and unaffected
+by the cataclysm's destruction.  
+~
+1 0 0 0 0 10
+D3
+~
+~
+0 0 190 20 20 0 0 0 0 65535 65535
+S
+#192
+Traveling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.  
+~
+1 0 a 0 0 10
+D6
+~
+~
+0 0 181 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 193 20 20 0 0 0 0 65535 65535
+S
+#193
+Traveling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.  
+~
+1 0 a 0 0 10
+D5
+~
+~
+0 0 194 20 20 0 0 0 0 65535 65535
+D6
+~
+~
+0 0 192 20 20 0 0 0 0 65535 65535
+S
+#194
+A Hill Before the Mountains~
+   The land rises here, attempting to meet the rocky face of a large mountain
+nearby.  The surrounding land is mostly grassy plains, filled with cat tails and
+small shrubs.  Further to the southeast you can see the blue-green hue of the
+New Sea.  
+~
+1 0 0 0 0 10
+D4
+~
+~
+0 0 193 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 195 20 20 0 0 0 0 65535 65535
+S
+#195
+Pushing Through the Tall Grass Plains~
+   These plains are overrun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticeable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the New Sea.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 196 20 20 0 0 0 0 65535 65535
+D6
+~
+~
+0 0 194 20 20 0 0 0 0 65535 65535
+S
+#196
+Pushing Through the Tall Grass Plains~
+   These plains are overrun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticeable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the New Sea.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 197 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 195 20 20 0 0 0 0 65535 65535
+S
+#197
+Pushing Through the Tall Grass Plains~
+   These plains are overrun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticeable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the New Sea.  
+~
+1 0 0 0 0 10
+D1
+~
+~
+0 0 198 20 20 0 0 0 0 65535 65535
+D3
+~
+~
+0 0 196 20 20 0 0 0 0 65535 65535
+S
+#198
+Pushing Through the Tall Grass Plains~
+   These plains are overrun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticeable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the New Sea.  
+~
+1 0 0 0 0 10
+D3
+~
+~
+0 0 197 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 199 20 20 0 0 0 0 65535 65535
+S
+#199
+Pushing Through the Tall Grass Plains~
+   These plains are overrun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticeable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the New Sea.  
+~
+1 0 0 0 0 10
+D6
+~
+~
+0 0 198 20 20 0 0 0 0 65535 65535
+D8
+~
+~
+0 0 400 20 20 0 0 0 0 65535 65535
+S
+$~

@@ -1,0 +1,101 @@
+#2200
+quarterstaff taped wooden polished staff~
+a taped and polished wooden quarterstaff~
+A taped and polished wooden quarterstaff lies here on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+10 1 6 5 100 100 0 44 0 257 0 5 0 0 0 0
+40 5500 275 11
+Z
+5
+A
+1 1 0
+A
+18 2 0
+A
+19 2 0
+#2201
+robes crimson black trim~
+@Ra set of crimson robes with black trim@n~
+@RA set of crimson robes with black trim lie here in a folded heap.@n~
+~
+11 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 1 0 0 0 0 0 0 0 0
+3 120000 0 12
+Z
+0
+A
+22 25 0
+A
+32 1 0
+A
+33 1 0
+A
+34 1 0
+#2202
+tablet onyx thin~
+@Da thin onyx tablet@n~
+@DA thin onyx tablet lies here glimmering with it's gloss.@n~
+~
+11 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 25 0 0 0 0 0 0 0 0
+5 5500 275 0
+Z
+3
+A
+17 30 0
+A
+13 4 0
+#2203
+splintmail splint mail suit blue-grey blue grey~
+@ca suit of blue-grey splint mail@n~
+@cA suit of blue-grey splint mail lies here in a pile of metal and mesh.@n~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+60 3 0 -7 100 100 40 7 20 9 15 0 0 0 0 0
+450 7410 370 13
+Z
+4
+A
+22 35 0
+#2204
+halberd spiked blade blue-grey blue grey~
+@ca blue-grey halberd with a spiked blade@n~
+@cA blue-grey halberd with a spiked blade lies here.@n~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+39 1 10 3 100 100 1 7 0 34 0 13 0 0 0 0
+120 5115 255 11
+Z
+5
+A
+18 2 0
+A
+19 2 0
+A
+5 1 0
+#2205
+pot-helm pot helm steel chain mesh blue-grey blue grey~
+@ca blue-grey steel pot helm with a chain mesh@n~
+@cA blue-grey steel pot helm with a chain mesh lies here.@n~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+5 6402 320 12
+Z
+4
+A
+21 32 0
+A
+14 20 0
+#2206
+head grey wolf leader~
+the grey wolf leaders head~
+The grey wolf leaders head is leing here.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+100 0 0 1
+Z
+2
+$~

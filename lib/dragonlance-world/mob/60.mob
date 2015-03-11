@@ -1,0 +1,239 @@
+#6000
+small scurrying rat~
+a small scurrying rat~
+A small rat scurries past your feet.
+~
+   The skinless cat before you has stark white eyes, it has black fur patches
+all over its body.  Its muscles can be seen around the fur patches on its body.
+As you glance at toward it, he quickly vanishes in to the shadows.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6001
+large brown roach~
+a large brown roach~
+A large brown roach feeds of decaying animals.
+~
+   This mutated roach before you is very large, although its head is rather
+small.  Its antenna twitch and feel around the area as it quickly moves from
+one spot to another.  Its color is dark brown and black, his legs make a
+scratching sound as it moves.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6003
+beetle large black~
+a large, black beetle~
+A large, black beetle scampers across the room.
+~
+   The spirit before you, is rather small and has no color except for two red
+dots were its eyes should be.  This lost spirit roams throughout these tunnels
+in search of the exit wich it wil never find.  As it fades in and out of vision
+it makes a soft moaning sound.    
+~
+d 0 0 0 k 0 0 0 -351
+3 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6004
+long slimy worm~
+a long slimy worm~
+A long slimy worm crawls across your feet.
+~
+   Crawling across your feet is a long slimy worm.  It appears to be about the
+length of your arms.  A thick, smelly ooze covers everything it crosses.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6005
+large black beetle~
+a large, black beetle~
+A large black beetle scurries across the room.
+~
+   Crawling across the floor before you is a very large beetle.  It is
+completely black in color, except for a red spot on its back.  It turns as it
+hears you, and you see a piece of flesh hanging from its oversized teeth.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6006
+rat large red~
+a large red-eyed rat~
+A large red-eyed rat peers at you from the corner.
+~
+   Peeringn at you from the corner of the room is a large rat.  It has red
+beady eyes which follow your every movement.  It is covered in dark brown fur
+and filth.  As you turn towards it, it begins to scamper away.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6007
+massive black spider~
+a massive black spider~
+A massive black spider hangs from the wall.
+~
+   Hanging from its web on the wall, is a large black spider.  It has dark eyes
+that follow your every movement, yet also seem somewhat unaccustomed to the
+light you carry.  Looking up into its web, you see remains of various other
+creatures, and what appears to be lost adventurers.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6008
+large brown bat~
+a large brown bat~
+A large brown bat hangs from the ceiling.
+~
+   Hanging from the ceiling above you is a large brown bat.  As it hears you
+move, it swoops down close to your face, then back to its position on the wall.
+Its ears seem to move slightly, as it listens to your footsteps.  Trying to
+figure out exactly where you stand.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6009
+rotting skeleton~
+a rotting skeleton~
+A rotting skeleton makes it way towards you.
+~
+   Slowly making its way to you is a rotting skeleton.  There is little skin
+left on its body, mostly just dried blood.  Its empty eye sockets seem to stare
+directly at you, as it moves forward.  As it gets closer to you, it reachs out
+its arms to attack.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 7 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

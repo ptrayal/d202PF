@@ -1,0 +1,474 @@
+#9800
+key red gold roguecamp~
+a red and gold key~
+A red and gold key lies in the dirt.~
+~
+18 cgjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9801
+soldier wooden small roguecamp~
+a small wooden soldier~
+A small wooden soldier.~
+~
+8 jklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#9802
+sword finely crafted roguecamp~
+a finely crafted sword~
+A finely crafted sword lies upon the ground.~
+~
+5 jklprstuvCEF ac stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 300 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9803
+robe tattered old roguecamp~
+an old tattered robe~
+A grey pile of cloth lies crumpled on the floor.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9804
+vest studded leather roguecamp~
+a studded leather vest~
+A studded leather vest lies on the floor.~
+ac~
+9 jlmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 400 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9805
+robe red dirty roguecamp~
+a dirty, red robe~
+A pile of dirty red cloth lies on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9806
+boots rusted platemail roguecamp~
+rusted platemail boots~
+An old rusted pair of platemail boots are laying on the ground.~
+2~
+9 jklpBCF ac stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9807
+sword broadsword rusted large roguecamp~
+a large, rusted broadsword~
+A large rusted sword lays in the dirt.~
+~
+5 jklopuB acx stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9808
+shirt bright yellow roguecamp~
+a bright yellow shirt with blue buttons~
+A big pile of yellow cloth lies crumpled on the floor.~
+1~
+9 jkmnopvBC a stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9809
+shirt smelly ragged roguecamp~
+a smelly ragged shirt~
+A pile of dirty, smelly clothes is crumpled on the floor~
+~
+9 jknopuBCEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9810
+collar heavy chain roguecamp~
+a heavy chain collar~
+A big pile of heavy chains lays on the ground.~
+~
+9 jklnpstuBCEF ab stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 600 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#9811
+coat long white blood stained roguecamp~
+a long blood stained coat~
+A long white coat stained with blood lies on the floor.~
+~
+9 jklopuBCEF ac stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 299 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9812
+claymore bloodstained large roguecamp~
+a large bloodstained claymore~
+A large claymore stained with blood leans against the wall.~
+~
+5 jklprstuCF ac stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 260 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9813
+hood midnight colored roguecamp~
+a midnight colored hood~
+A hood of the darkest black material lies on the ground~
+~
+9 kmBCF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 400 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+#9814
+sandals elegant leather roguecamp~
+a pair of elegant leather sandals~
+A pair of well-made sandals lie on the ground.~
+~
+9 jklnopvwCEF ab stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 600 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+A
+18 1 0
+#9815
+dagger jagged roguecamp~
+a small jagged dagger~
+A dagger with many jagged edges is sticking out of the ground.~
+~
+5 jklopruwDF abc kstuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9816
+corpse Argile bloody~
+the bloody corpse of Argile~
+The bloody corpse of Argile is slumped forward onto his desk.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9817
+parchment torn blood paper~
+a torn parchment soaked in blood~
+A piece of torn, blood stained paper lays on the ground.~
+~
+9 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+parchment~
+   This parchment has been torn and covered in blood.  It is extremely hard to
+read much of what it actually says.  You can however, make out a few of the
+lines.  .....  This sort of action against me will not last for long.  My
+forces are growing stronger everyday.  I believe we are very close to achieving
+our goal of...  ....  Key was found by one of my men yesterday and the doctor
+has three captives in the torture chamber trying to force them to tell us where
+the location is....    
+~
+#9818
+old rusted chest ~
+an old rusted chest~
+Rusted by the damp air, a small chest sits in the corner.~
+~
+15 0 x 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9819
+rotten wooden crate~
+a rotten wooden crate~
+A rotting wooden crate sits against the wall.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9820
+large pile wood ~
+a large pile of rotten wood~
+A large pile of rotten wood lays in the middle of the floor.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9821
+vial glass small purple roguecamp~
+a small glass vial~
+A vial filled with a purple liquid rests on the ground.~
+~
+10 mnoprsuwBCEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 300 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9822
+rat feces~
+a small pile of rat feces~
+A small pile of rat feces lays here on the ground.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9823
+ring golden gold emeralds roguecamp~
+a small golden ring inlaid with emeralds~
+A small bit of gold shines in the dirt here.~
+~
+9 jklmnrtvwBCEF abu stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 900 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ring~
+   This ring shines brightly even after years of neglect.  Several small
+emeralds have been inlaid around the band.    
+~
+A
+4 1 0
+#9824
+key small rusted roguecamp~
+a small rusted key~
+A small rusted key has been dropped onto the ground.~
+~
+18 c 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9825
+object new~
+a new object~
+A new object is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9826
+object new~
+a new object~
+A new object is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9827
+staff~
+new object~
+A new object is here~
+blink~
+5 bkmC s 0 0 n 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 100 0
+A
+4 20 0
+A
+2 20 0
+A
+19 100 0
+A
+18 100 0
+A
+3 100 0
+#9828
+test~
+testing~
+This is test~
+ÿ÷àÿ÷à~
+9 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9829
+stone large waterdish~
+a large, stone waterdish~
+A large stone waterdish sits in the far corner.~
+ ~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9830
+couch~
+a long couch with several pillows~
+A long comfortable couch with several pillows sits along the wall.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

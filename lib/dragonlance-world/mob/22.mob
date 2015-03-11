@@ -1,0 +1,760 @@
+#2200
+Herald~
+Herald~
+Herald, a finely dressed man waits at the counter.
+~
+   Herald is a rather tall man, with dusty blond hair that is kept neatly cut.
+He is clean shaven and bears a friendly expression to all you gaze upon him.  
+He wears a expensive blue tunic and a pair of black slacks.  He leans upon the
+counter and nods at you, awaiting your request for service.    
+~
+bd 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2201
+barden middle aged man~
+Barden~
+A middle aged man with a long black beard stands next to a large, iron safe.
+~
+   Barden, the owner of the first bank of Palanthas is a man in his mid-years.
+He has short black hair and a long black beard that he plays with absently.  
+He wears a fine grey suit of expensive-looking cloth.  He stares at you with an
+eager look upon his face.    
+~
+bd 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2202
+fulten burly man~
+Fulten~
+Fulten, a burly man wearing a leather jerkin nods in your direction.
+~
+   This man is rather large and burly, although not particularly tall.  He
+wears a dark brown leather jerkin, although why he would need to wear cast
+'armor' as a shopkeeper you are unsure.  He nods at you as you enter the shop.
+~
+bdA 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2203
+Celric broad shouldered man~
+Celric~
+Celric, a broad-shouldered man, smiles widely as he polishes a suit of armor.
+~
+   This man is tall and well built, with very wide and broad shoulders.  His
+face is ruddy and glows red in the cheeks, a large and friendly smile engraved
+in his expression.  He waves you over to him when you pass through the doorway.
+~
+bdA 0 0 0 k 0 0 0 500
+60 -10 -80 720d360+126 1d8+30
+1000000 0 41 3
+8 8 1
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2204
+sera aging attractive woman~
+Sera~
+Sera, an aging, yet attractive woman is here polishing a wooden table.
+~
+   This woman is reaching the golden years of her life, although she still
+bears quite an attractive visage.  Her steely grey hair is tied into a bun so
+that no hair will fall into the food she serves.  She smiles warmly as you
+enter and gestures toward an open table before returning to her duties.    
+~
+bdnoA 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2205
+lakhur short skinny young man~
+Lakhur~
+Lakhur, a short, skinny man, stands behind a counter spinning a coin.
+~
+   This man has only recently reached adulthood, yet he seems to be quite used
+to the running of his shop, probably inherited from family.  He is short and
+quite thin, and his face is grim, indicating he is not too pleased with things
+in general.  He absently spins a coin on the countertop, then suddenly looks up
+to you, nods, and returns his attention to the coin.    
+~
+bdA 0 0 0 k 0 0 0 500
+60 -10 -80 720d360+126 1d8+30
+355 0 41 3
+8 8 1
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2206
+jaxx brown stocky dwarf~
+Jaxx~
+Jaxx, a brown-haired, stocky dwarf, stands behind a display case.
+~
+   Standing behind a large display case is a stern faced, stocky dwarf.  His
+hair is long, yet well combed, as is his thick brown beard.  He has a large
+scar running across his nose and left cheek.  Thus the smile he flashes you is
+rather disfigured.    
+~
+bdA 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2207
+astinus ageless one~
+Astinus~
+Astinus, the ageless one sits at his desk writing fervently.
+~
+   Astinus, also known as the ageless one, is aptly named.  He appears to be in
+his middle years, yet his face shows no signs of aging.  More amazing are his
+eyes, which show eons of wisdom.  Legend has it that Astinus was appointed by
+the gods at the beginning of time to record the history of Krynn.  He pays you
+no attention at all, yet waves to one of his aesthetics.    
+~
+d 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2208
+stuts postmaster~
+Stuts~
+Stuts, an aging man serves the counter of the courier service.
+~
+   Stuts is a rather old man, with a receding hairline and silvery grey hair.
+He scowls constantly, muttering to himself and occasionally letting a curse
+loud enough for you to hear.  He loks up as he notices your presence and folds
+his arms across his chest as he continues to stare at you.    
+~
+d 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2209
+vichtor trainer~
+Vichtor~
+Vichtor, the head trainer of the Knight's House watches over the trainees.
+~
+   Vichtor is a large man, rather youthful, and apparently very healthy.  He is
+well-built, with stark white hair that is shaven almost right to the scalp.  
+He watches his students with an intelligent and acute eye, looking for mistakes
+to correct and mastery to praise.  He looks at you briefly, seemingly taking
+you all in, then waves you over.    
+~
+abd c 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 30
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2210
+militia guard member~
+a member of the Palanthas militia~
+A member of the Palanthas militia patrols the area.
+~
+   This young man has chosen to serve his duty as a guard of the city of
+Palanthas.  Unlike the Knights of Solamnia, who also guard Palanthas and the
+rest of Solamnia, the militia has the responsability of policing the city for
+petty crimes as well as those more serious.  He wears a tunic bearing the crest
+of the city of Palanthas, which covers his leather breastplate.    
+~
+d 0 0 0 k 0 0 0 500
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2213
+citizen female~
+a female citizen of Palanthas~
+A female citizen of Palanthas scans the area thoughtfully.
+~
+   This young woman is averagely attractive.  Her hair is held back by a blue
+hood, and it falls out the back in a blond cascade.  She walks about and then
+pauses momentarily in deep thought, then continues to move towards her intended
+destination.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2214
+child small boisterous~
+a small, boisterous child~
+A small child plays loudly in the street.
+~
+   This small child is definitely well used to life in the city, as he plays
+loudly in the confusing and busy street.  He is covered in dirt, and his
+clothing is equally dirty, and almost ragged from the rowdy play that the kid
+does so joyfully.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2216
+cat tomcat grey elusive~
+an elusive grey tomcat~
+A smokey grey tomcat darts past you and into the shadows.
+~
+   This small, sleek tomcat has short smokey grey fur.  It watches the crowd
+around it with a cautious eye, darting away whenever anything nears it.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2218
+pikeman~
+a pikeman~
+A pikeman stands guard at the base of the tower.
+~
+   This member of the Palanthas militia has been assigned the duty of guarding
+the gate towers from the general populace, and indeed any fell culprits who
+might seek bad intentions within.  He is dressed in a suit of leather armor and
+wields a long, bronze awl pike, with a shortsword in his scabbard.    
+~
+abd 0 0 0 k 0 0 0 500
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2219
+kender brightly clothed~
+a brightly clothed kender~
+A brightly clothed kender whistles as he navigates the crowd.
+~
+   This kender looks like the majority of the race does.  Long hair, pulled
+back in a top knot, slight but wiry build, and covered with the most outrageous
+and brightly covered clothes imaginable.  He whistles happily to himself until
+he notices you, upon which time he decides to approach you for an annoying,
+prattling chat.    
+~
+d 0 0 0 k 0 0 0 500
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2222
+half-elf attractive young female~
+an attractive female half-elf~
+An attractive young half-elf plays with her hair as she walks past you.
+~
+   This young half-elven woman is really quite attractive.  She has long,
+blonde hair that she twirls in her fingers as she walks past.  She wears a
+sky-blue dress that stops at her knees.  She gives you a slight smile as she
+notices your stare.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2223
+patron intoxicated~
+an intoxicated patron~
+An intoxicated patron slurs loudly as he takes another draught of ale.
+~
+   This man of the working class has apparantly been drinking for quite some
+time.  His clothes are wet in some places where the drunken man has spilled
+some of his drink.  He slurs loudly and often, usually making little or no
+sense.  He is definitely not someone you want around at the moment.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2224
+bartender tall stern-eyed stern~
+a stern-eyed bartender~
+A tall bartender watches over the common room with a stern eye.
+~
+   This large man tends the bar with a watchful and attentive eye.  He is quick
+to serve those who approach the bar, although wary of those who have been
+drinking too much ale.  He notices your stare and gives you a friendly nod.  
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2225
+hawker loud~
+a loud hawker~
+A loud hawker blares out his slogans to the crowd in the market.
+~
+   This man is a hawker of the marketplace.  He comes to the market square
+every day, bringing with him his wares to sell in one of the many booths up for
+rent by the city.  His job is long and tiresome, but the crowd is ever present,
+and business seems good.  He loudly blares out catchy slogans, hoping to catch
+the attention of a potential customer over the din.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2226
+streetsweeper sweeper~
+a street sweeper~
+A streetsweeper passes by, monotonously cleaning up the trash found on the street.
+~
+   This sanitation worker walks down the street with his head down, less than
+eagerly looking for trash.  He carries a short pole with a needle-like point,
+that he uses to stab at pieces of trash.  On the other side of the pole is a
+short broom.  He carries with him a large leather sack used to store the trash
+he finds.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2227
+archer tower vigilant~
+a vigilant tower archer~
+A tower archer stands vigilant watch over the gate below.
+~
+   This soldier has been stationed as an archer for his skills as a bowman.  
+He is dressed in leather armor covered with a tunic bearing the crest of
+Palanthas.  He vigilantly watches the horizen for potential enemies, although
+he does seem more than a little startled to see you up on the ramparts.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2228
+soldier gate guard watchful~
+a watchful gate guard~
+A watchful soldier stands guard at the large gate rising out of the ground behind him.
+~
+   This fine soldier has been given the large responsibility of guarding the
+one of the main gates of Palanthas.  He carefully inspects those who pass
+through these gates, scanning for someone who looks suspicious.  He wears a
+suit of leather armor, and over the breastplate, a tunic bearing the crest of
+Palanthas.  He eyes you carefully, but at the moment you cannot tell how he is
+judging you.    
+~
+d 0 0 0 k 0 0 0 500
+20 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2229
+patron intoxicated~
+an intoxicated patron~
+An intoxicated patron slurs loudly as he takes another draught of ale.
+~
+   This man of the working class has apparantly been drinking for quite some
+time.  His clothes are wet in some places where the drunken man has spilled
+some of his drink.  He slurs loudly and often, usually making little or no
+sense.  He is definitely not someone you want around at the moment.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2230
+bartender tall stern-eyed stern~
+a stern-eyed bartender~
+A tall bartender watches over the tavern with a stern eye.
+~
+   This large man tends the bar with a watchful and attentive eye.  He is quick
+to serve those who approach the bar, although wary of those who have been
+drinking too much ale.  He notices your stare and gives you a friendly nod.  
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2231
+militia guard member~
+a member of the Palanthas militia~
+A member of the Palanthas militia patrols the area.
+~
+   This young man has chosen to serve his duty as a guard of the city of
+Palanthas.  Unlike the Knights of Solamnia, who also guard Palanthas and the
+rest of Solamnia, the militia has the responsability of policing the city for
+petty crimes as well as those more serious.  He wears a tunic bearing the crest
+of the city of Palanthas, which covers his leather breastplate.    
+~
+d 0 0 0 k 0 0 0 500
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2234
+citizen female~
+a female citizen of Palanthas~
+A female citizen of Palanthas scans the area thoughtfully.
+~
+   This young woman is averagely attractive.  Her hair is held back by a blue
+hood, and it falls out the back in a blond cascade.  As she walks about, she
+pauses momentarily in deep thought, then continues to move towards her intended
+destination.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2240
+a mysterious old lady~
+a mysterious old lady~
+A mysterious old lady clothed in tattered brown robes.
+~
+Before you stands a mysterious old lady in dusty brown robes leaning heavily
+upon a withered branch that she is using as a cane.  The edges of her robes are
+tattered and covered with a thick layer of sticky black mud.  
+~
+abdnoprA b 0 0 k 0 0 0 750
+60 -10 -80 720d600+150 1d8+30
+355 0 31 3
+8 8 2
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 9
+E
+Con: 14
+E
+Cha: 11
+S
+$

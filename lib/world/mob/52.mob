@@ -1,0 +1,86 @@
+#5200
+Durnuk the Paladin~
+Durnuk the Paladin~
+Durnuk the Paladin sits near a tent, polishing his shield.
+~
+The noble man sitting before you is Durnuk, a Paladin who is polishing his
+shield.  The shield clearly displays the gauntlet symbol of Helm, the Vigilant
+One.  His full set of plate armor seems it would weigh down a normal man, but
+Durnuk seems to be carrying the weight quite well.  A bastard sword of very high
+quality is slung over his back, practically scratching the earth at his feet.  
+~
+bd 0 0 0 k 0 0 0 1000
+16 12 -9 128d100+100 1d8+8
+0 0 42 5
+8 8 1
+E
+Str: 16
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#5201
+red chromatic dragon~
+a Red Chromatic Dragon~
+A large red dragon is curled around the bones of its victims.
+~
+A fairly large red dragon curles its body around a pile of bones, some looking
+very fresh.  She stares at the entrance to her den, a slow steady gaze, taking
+in everything but showing no thought in her persona.  A large claw reaches
+forward, and pulls some of the bones in to make a the pile a little neater.  
+~
+bdoD 0 0 0 k 0 0 0 -1000
+20 10 -14 320d100+100 1d8+10
+0 0 101 0
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#5202
+Wailing Banshee~
+a wailing banshee~
+A wailing banshee hovers over the floor, going through ancient daily routines.
+~
+A banshee of an ancient female dwarf haunts the city proper.  Grief stricken and
+crazed, she floats around the city streets, noticibly agitated at her lack of a
+corporeal body.  
+~
+dglnopqr e 0 0 0 0 0 0 -1000
+16 4 -20 384d100+1000 1d8+10
+50 0 0 3
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

@@ -1,0 +1,39 @@
+#15200
+sign~
+a large sign written in a magical script is bolted to the wall.~
+A large sign pulsates with a deeply magical glow.~
+~
+8 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 42 0 0 0 0 0 0 0 0
+10000 0 0 0
+Z
+5
+E
+sign~
+************************************************************
+**  Your Test has begun, you can no longer leave this     **
+**  place by magical means.  Though you do have options.  **
+**  You are able to set the level of Risk within the test **
+**  to your comfort level, but know that greater risk     **
+**  allows for greater rewards.  Speak your risk level    **
+**  out loud: low, average, high, or grave.               **
+************************************************************
+*****                                                  *****
+*****                                                  *****
+*****                                                  *****
+~
+#15250
+Stone Sorcery~
+a glowing prismatic ioun stone~
+A dull prismatic ioun stone sits here.~
+~
+11 g 0 0 0 as 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 36 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+A
+3 1 0
+A
+47 70 70
+$~

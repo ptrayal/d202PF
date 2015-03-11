@@ -1,0 +1,1086 @@
+#200
+jackrabbit rabbit~
+a grey haired jackrabbit~
+A grey and brown patched jackrabbit twitches its snout at you curiously.
+~
+  Resting on its haunches, a rather large jackrabbit stares at you curiously.
+Its matted grey fur is spotted with patches of brown.  It twitches its nose
+and takes a moment to nibble at some greenery before returning its attention
+to you.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#201
+doe placid~
+a placid looking doe~
+A placid looking doe watches you with with a careful eye.
+~
+  Before you is a young doe, calmly grazing on the foliage nearby.  It watches
+you carefully as it eats its meal.  Although it seems to be used to the presence
+of humans, it appears ready to bolt at the nearest sign of trouble.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#202
+fox~
+a lithe, copper tailed fox~
+A slick looking fox with coppery red fur darts through the undergrowth.
+~
+  Pushing his way through the thick underbrush, a copper tailed fox hunts for
+something to eat.  His copper red fur can be seen behind the green leaves with
+little effort.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#203
+squirrel~
+a busy little squirrel~
+A small squirrel clings from a nearby tree branch, watching you intently.
+~
+  A sprout of a squirrel clings from a low tree branch, darting his small tail
+to and fro.  His small eyes regard you with interest yet little fear.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#204
+bluebird bird~
+a noisy bluebird~
+A rather small bluebird is perched here chirping noisily.
+~
+This small blue bird is chirping incessantly.  Her sapphire feathers
+stick out against the green forest background.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#205
+buck~
+a red eyed buck~
+A large buck with strange red eyes wanders nearby.
+~
+The buck before you has a beautiful coat of soft brown and white
+fur. He clomps his hoofs on the grassy floor, staring at you with
+strange red eyes all the while.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#206
+boar~
+a wild boar~
+A pudgy wild boar noses it's way through the underbrush, snorting to itself.
+~
+   Trudging through the underbrush is a corse haired wild boar.  It brushes its
+nose against the grass, occasionally taking out a divot with its short tusks.
+It pays you little interest.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#207
+mare~
+a grey haired mare~
+A grey haired mare stands here in a stall.
+~
+   This mare appears to be reaching old age.  While still rather muscular, her
+skin is beginning to sag slightly in places.  Her grey coat still shines with
+incredible luster.    
+~
+bd 0 0 0 k 0 0 0 500
+12 14 -8 168d20+92 1d8+6
+20 0 40 3
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 25
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 18
+E
+Cha: 10
+S
+#208
+workhorse work~
+a sturdy workhorse~
+A sturdy workhorse stands here swaying its tail back and forth.
+~
+   Although its appearance is a bit worse for wear, you can see the condition
+of this animal is very good from the definition of its muscles.  Its fur it
+patchy in places, and very coarse.  It glares at you with a completely
+uninterested gaze.    
+~
+bd 0 0 0 k 0 0 0 500
+12 14 -8 168d20+92 1d8+6
+20 0 40 3
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 25
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 18
+E
+Cha: 10
+S
+#209
+warhorse war~
+a jet black warhorse~
+A large warhorse with a jet black coat stands calmly in its stall.
+~
+A huge warhorse stands nearby in its stall, head raised high in calm
+confidence. It is armored in blue and white leather barding which covers
+most of its head and back.  Even though the beast is used to such attire
+it still appears to be rather uncomfortable and heavy.
+~
+bd 0 0 0 k 0 0 0 500
+12 14 -8 168d20+92 1d8+6
+20 0 40 3
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 25
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 18
+E
+Cha: 10
+S
+#210
+stablehand~
+a young stablehand~
+A young stablehand leans against the wall staring at you with curiosity.
+~
+Dressed in dirty overalls, this young boy tends to the stables of
+the Fireside Tavern.  He is clean cut, and seems to be in rather good shape.
+He looks at you with adventurous curiosity.
+~
+bd 0 0 0 k 0 0 0 500
+12 14 -8 144d20+92 1d8+6
+14 0 32 3
+8 8 0
+E
+BareHandAttack: 11
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#211
+patron~
+an inebriated patron~
+A patron of the tavern slurs out a call for more ale.
+~
+Clad in simple clothing, this man is drowning himself in alchohol.
+He waves a pitcher of ale around nonchalantly, spilling its contents
+on himself and those around him, as he relates an exaggerated tale to
+his friends.
+~
+d 0 0 0 k 0 0 0 500
+12 14 -8 144d20+92 1d8+6
+14 0 32 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#212
+barkeep~
+a balding barkeep~
+A large middle aged barkeep serves drinks from behind the bar.
+~
+   This man appears to have seen some hard days.  He is very tall, and slightly
+overweight, but appears to be in decent shape.  His short brown hair has begun
+to bald slightly, but is still vibrant in color.  He smiles wearily at you and
+nods his head.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#213
+barmaid~
+an attractive young barmaid~
+An attractive young barmaid rushes past to deliver a tray of drinks.
+~
+   Before you is a beautiful, if not hard worked, young woman.  She wears a
+short apron over a dull red smock.  Her eyes show genuine friendliness coupled
+with extreme weariness.  She flashes you a confident smile as she notices your
+stare.    
+~
+d 0 0 0 k 0 0 0 500
+12 14 -8 144d20+92 1d8+6
+14 0 32 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#214
+squire young brown~
+a young, brown haired squire~
+A young squire with short brown hair sips on a mug of ale.
+~
+   This young man wears shining steel chain mail bearing the crest of the
+solamnic knights.  He wears his hair long and somewhat unkempt, and bears a
+short blonde moustache.  His eyes show impressive experience for someone so
+young, and gaze upon you questioningly.    
+~
+bdE 0 0 0 k 0 0 0 500
+12 9 -9 1440d20+1000 1d8+14
+20 0 41 3
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#215
+soldier veteran~
+a brown haired, veteran soldier~
+A veteran soldier with long, curly brown hair smiles broadly as he slurps from his mug.
+~
+  This man has seen many years, most of them in the midst of battle.  His
+face is well worn but still shows wide creases from smiling.  His eyes show
+good nature, but plenty of experience and knowledge as well. He nods at you
+unconcerned and then returns his gaze to the waitress.
+~
+bdE 0 0 0 k 0 0 0 500
+12 9 -9 1440d20+92 1d8+14
+14 0 32 3
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#216
+sage aging~
+an aging, white haired sage~
+An aging sage with stark white hair gazes distantly into the fireplace.
+~
+  This man is beginning to see his golden years, as his skin has begun to
+wrinkle and his hair is stark white.  His eyes show a great deal of both
+intelligence and wisdom, yet are distant as well as they gaze intently into
+the flickering fireplace.  He pauses to sip from a small flask, and then
+continues his train of thought, paying you no attention in the meantime.
+~
+bdE 0 0 0 k 0 0 0 500
+12 9 -8 1080d20+92 1d8+14
+14 0 32 1
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 11
+S
+#217
+woman beautiful~
+a beautiful woman in tight leather clothing~
+A beautiful, dark haired woman in tight leather clothing rolls her eyes at you.
+~
+   Standing nearby, in confident yet relaxed demeanor is a beautiful dark
+haired woman.  She is clothed in tight grey and blue leather clothing.  She
+holds the eyes of most men in this tavern but pays attention neither to them or
+to the fact of their oggling.  She looks at you, scowls and turns away.    
+~
+bdE 0 0 0 k 0 0 0 500
+12 9 -6 720d20+92 1d8+14
+20 0 32 2
+8 8 0
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#218
+rogue individual shifty~
+a shifty individual in dark attire~
+A shifty looking individual in dark hued attire leans against the wall.
+~
+  A suspicious character leans up against the wall here, gazing with
+nonchalant interest at all within the bar.  His fingers tap unconciously at
+his belt rythemicly.  He notices your stare and his eyes narrow suspicously
+before returning to the crowd.
+~
+bdE 0 0 0 k 0 0 0 500
+12 9 -9 1440d20+92 1d8+14
+14 0 32 3
+8 8 0
+E
+BareHandAttack: 11
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#219
+barbarian rugged~
+a rugged barbarian covered in bearskin~
+A rugged looking barbarian clothed completely in bearskin sits here eating.
+~
+   Covered completely in bearskin clothes is a rugged looking barbarian.  He
+sits at a nearby table feasting upon a pheasant drumstick.  He pauses to take a
+long haul from his mug of ale, then returns to the fowl.  His eyes dart around
+constantly, and stop at you for a moment before moving on.    
+~
+bdE 0 0 0 k 0 0 0 500
+12 9 -8 1920d20+1000 1d8+14
+14 0 22 6
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 13
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 19
+E
+Cha: 10
+S
+#220
+mage woman red short~
+a short, red haired woman donning white robes~
+A short woman with long red hair and donning pure white robes sips on her wine.
+~
+  A simple looking woman with long red hair sits here sipping on a glass of
+wine with a thoughtful expression upon her face.  She wears pure white robes
+that seem to flow down like an extension of her body.  She notices your glance
+and gives you a nod, then smiles and goes back to her wine.
+~
+bdE 0 0 0 k 0 0 0 500
+12 9 -3 480d20+92 1d8+14
+14 0 32 0
+8 8 0
+E
+BareHandAttack: 12
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#221
+cook dwarf sloppy~
+a sloppy, dwarven cook~
+A sloppy looking dwarf stands over a pot of stew, stirring it and muttering to himself.
+~
+  This dwarf appears to be the cook for the Fireside Tavern.  He stirs a
+large pot of stew with a long wooden ladle and mutters under his breath.
+Occasionally he grabs (randomly it seems) a spice from a nearby shelf and
+throws a couple shakes into the pot.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#222
+spectre macabre~
+a macabre spectre of a robed figure~
+A macabre spectre of a figure in flowing robes hovers just above the ground.
+~
+  Barely visible, even with your magical sight, this spectre hovers a few
+feet from the ground.  It wear long flowing robes, but you cannot tell what
+color they are as the apparation is too faint.  It's hood is pulled back and
+you see a decaying face bearing no obvious emotion or interest.
+~
+bdf g 0 0 k 0 0 0 500
+35 -15 -33 21000d20+1000 1d8+43
+20 0 6 0
+8 8 0
+E
+BareHandAttack: 12
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#223
+bear cave voracious deranged~
+a voracious, deranged cave bear~
+A voracious, deranged cave bear with red eyes and a frothing mouth charges you!
+~
+   This large cave bear appears to have contracted rabies or a similar disease.
+Bloody sores are present in some places in it's matted fur and a thick frothy
+foam surrounds the maw of the crazed beast.  It looks at you with deranged eyes
+and charges you with a gaping mouth of teeth wide open.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#224
+sentry ranger scale~
+a dark eyed ranger in black scale armor~
+A dark eyed sentry in scale armor fashioned from blackened bark stands guard.
+~
+  Before you stands a sentry of this hidden cavern.  He is donned in a complete
+suit of scale mail armor, which is fashioned from blackened, rotted bark.  He
+gives off a strong odour of decay, and what little flesh can be seen is bone
+white and covered in sores and scars.  He glares at you impassively and gestures
+threateningly toward the exit.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#225
+sentry druid scale~
+a dark eyed druid in black scale armor~
+A dark eyed sentry in scale armor fashioned from blackened bark stands guard.
+~
+  Before you stands a sentry of this hidden cavern.  He is donned in a complete
+suit of scale mail armor, which is fashioned from blackened, rotted bark.  He
+gives off a strong odour of decay, and what little flesh can be seen is bone
+white and covered in sores and scars.  He glares at you impassively and gestures
+threateningly toward the exit.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#226
+cultist shadowy figure bark~
+a shadowy figure donned in black bark scale mail~
+A shadowy figure donned in black bark scale mail murmurs faint chants to himself.
+~
+  This man seems to be suffering from some unknown affliction.  His skin is
+pale and covered in pussy sores and ugly scars.  These severities however seem
+to pass the mans attention altogether.  In stead he wanders about murmuring to
+himself, repeating the same monotonous chant over and over.  He stops for a
+moment to notice you but does nothing noticable about your presence, instead
+returning to his chanting.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#227
+cultist shadowy figure bark~
+a shadowy figure donned in black bark scale mail~
+A shadowy figure donned in black bark scale mail murmurs faint chants to himself.
+~
+  This man seems to be suffering from some unknown affliction.  His skin is
+pale and covered in pussy sores and ugly scars.  These severities however seem
+to pass the mans attention altogether.  In stead he wanders about murmuring to
+himself, repeating the same monotonous chant over and over.  He stops for a
+moment to notice you but does nothing noticable about your presence, instead
+returning to his chanting.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#228
+cultist robed brown~
+a brown robed cultist of Morgion~
+A sneering, brown robed cultist of Morgion sits here in meditation.
+~
+  Draped in deep brown robes before you is one of Morgions cultists,
+the infamous priests of pestilence.  The scars that criss-cross his flesh
+bear evidence that this man once a victim of the plague, and his survival
+very likely goes hand-in-hand with his servitude to Morgion.  He is currently
+deep in meditation, and if he is aware of your presence, he shows no obvious
+signals of it.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#229
+cultist robed brown~
+a brown robed cultist of Morgion~
+A sneering, brown robed cultist of Morgion sits here in meditation.
+~
+  Draped in deep brown robes before you is one of Morgions cultists,
+the infamous priests of pestilence.  The scars that criss-cross his flesh
+bear evidence that this man once a victim of the plague, and his survival
+very likely goes hand-in-hand with his servitude to Morgion.  He is currently
+deep in meditation, and if he is aware of your presence, he shows no obvious
+signals of it.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#230
+wraith plague~
+a plague wraith of Morgion~
+A dreaded plague wraith charges forth, screaming horribly for your blood!
+~
+  Before you is the hideous apparation of a plague wraith, one of Morgions
+most foul demons.  Although humanoid in appearance, it has no face whatsoever,
+and rotting muscles cling to it's bones seemingly held only by the skin that
+cover them.  It screams a shrill and hideous wail as it streaks forward in
+attack!
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#231
+zealot fanatic ceremonial~
+a zealot clad in ceremonial garb~
+A religious fanatic of Morgion clad in ceremonial robes sits here in meditation.
+~
+  This man is clad in tight, brown ceremonial robes trimmed with copper
+embroidery.  He has shaven his head bald and has apparantly had his eyes gouged
+out.  He is also covered in several hideous scars... either this man has
+endured extreme torture, or the zealots of Morgion have no reservations about
+self infliction.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#232
+master ritual zealot~
+the master of rituals~
+A zealot of Morgion stands here with her arms raised, leading the ritual.
+~
+  This woman is clad in tight, brown ceremonial robes trimmed with copper
+embroidery.  She has shaven her head bald and has apparantly had her eyes gouged
+out.  She is also covered in several hideous scars... either the woman has
+endured extreme torture, or the zealots of Morgion have no reservations about
+self infliction.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#233
+shade pestilence~
+a shade of pestilence~
+A shade of pestilence guards the way forth.
+~
+  This creature is one of Morgions prized warriors.  It is pure black,
+completely composed of shadow.  There is no solidity to it, not on this plane
+anyway.  It is featureless, and often blends in with the darkness enshrouding
+this area.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#234
+Zhulack man high priest~
+Zhulack, the high priest of Morgion~
+A man clad in exquisite black bark scale mail armor stares at you impetuously.
+~
+  This man seems rather out of place, as much as the chamber he resides in.
+His exquisite black bark scale mail armor is far more elaborate than that
+of the other cultists.  He is also free of scars, apparantly either having
+been healed of his afflictions, or never having had any at all.  He has long
+blond hair that runs over his shoulders rather carelessly.  His striking
+blue eyes pierce your own with an air of power and hatred.  He lifts his lip
+in a sneer and strides toward you.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#235
+demon keeper~
+the Keeper of Clandestine Doom~
+A treacherous demon covered with a spiked exoskeleton grins at you maliciously.
+~
+  Standing before you is a towering demon covered in a spiked exoskeleton.
+The creature is bone-white in color.  Its body is covered in thousands of
+spikes, ranging from just over an inch to nearly a foot in length.  It's head
+bears three large, red pupilled eyes and two jagged horns giving it almost an
+extra two feet in height.  It grins at you maliciously, yet makes no move to
+attack.
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#236
+umbiant magnificent golden dragon~
+Umbiant, a magnificent golden dragon~
+Umbiant, a magnificent golden dragon, lies here gazing at you with great interest.
+~
+   Towering above you is a magnificent golden dragon, huge even for its kind.
+Its glimmering golden scales shine in the present light as if made of a finely
+polished metal.  Claws the size of greatswords rap idly on the marble floor.  
+At the top of a long, serpentine neck is the creature's equally huge skull,
+circled by a mane of webbed horns and featuring a deadly maw filled with dozens
+of blade-lengthed razor-sharp teeth.  Its long, forked tonight darts in and out
+of the serpent's mouth as it watches you with interest.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

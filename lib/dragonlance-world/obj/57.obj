@@ -1,0 +1,545 @@
+#5700
+sword steel bastard palgraveyard~
+a lightweight, steel bastard sword~
+Stuck in the ground, the sparkle on an emerald mounted on a swords hilt catches the light.~
+~
+5 jkloprstuBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 666 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5701
+altar white marble~
+a white marble altar~
+A small, white marble altar sits in the center of this chamber.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+altar white marble~
+   This small white marble altar is carved with beautiful geometric designs.  
+The altar only stands to a knee-high height.  The top seems to be able to open
+and close.    
+~
+#5702
+box sandalwood palgraveyard~
+a sandalwood box~
+A partialy rotting sandalwood box collects dust on the ground.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 120 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5703
+potion heavy vial silvery liquid~
+a heavy vial filled with a silvery liquid~
+A clear vial filled with silvery liquid sits upright on the ground.~
+~
+10 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 1234 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5704
+branch ivy tree treebranch key~
+a tree branch wrapped in ivy~
+A thin tree branch wrapped in ivy lays on the ground forgotten.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+branch ivy tree treebranch key~
+This oddly shaped, thin branch of oak is wrapped in lucious green ivy.
+~
+A
+9 1 0
+#5705
+ladder decorated~
+a decorated ladder going up~
+A painted ladder with geometrical designs leads upward.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34463 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5706
+basin wash copper~
+a copper lined wash basin~
+A copper lined wash basin with a beautiful wooden base sits in the corner.~
+~
+23 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+130 909 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5707
+nest small palgraveyard~
+a small nest~
+A small nest made of dried grass and weeds sits here.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 20 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5708
+ladder~
+a decorated ladder going down~
+A painted ladder with geometrical designs leads downward.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34463 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5709
+egg tiny gold~
+a tiny egg with gold flecks~
+A tiny egg with gold flecks waits to hatch on the ground.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5710
+shard bone bloody dagger palgraveyard~
+a bloody bone shard~
+A bloody bone shard lays forgotten on the ground.~
+~
+5 jklmopruvwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 20 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#5711
+shoes leather straw palgraveyard~
+a pair of straw lined, leather shoes~
+The straw stuffed inside a pair of leather shoes is falling out here on the ground.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 57 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5712
+bracer human skin~
+a bracer made of human skin~
+A rotting piece of flesh is on the ground.~
+~
+9 gjklmnpuwBCDEF abc 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 75 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 1 0
+#5713
+necklace bone gem palgraveyard~
+a gem-inlaid bone necklace~
+A pile of bones twinkles from an inlaid gem in the light.~
+2~
+9 jklmnprtuwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 88 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5714
+robes white drab dusty palgraveyard~
+a dusty, drab set of white robes~
+A dusty pile of drab white cloth is here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5715
+tunic green palgraveyard fleas~
+a green tunic infested with fleas~
+A green cloth lies crumpled up in a ball here.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5716
+pants brown pair palgraveyard~
+a pair of brown pants with a large rip in the rear~
+A brown pile of fabric on the ground is being eaten by moths.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 19 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5717
+eye ghoul decomposing palgraveyard~
+the glowing eye of a ghoul~
+A decomposing eyeball is rolling around here in the dirt.~
+~
+1 jklmnoprvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 35 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5718
+ring stone palgraveyard~
+a carved stone ring~
+A stone ring with geometric designs is on the ground.~
+~
+9 jklmnoprstuvwCF 0 stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 99 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 1 0
+#5719
+ring brass wide palgraveyard~
+a wide brass ring~
+A wide brass ring slowly tarnishes here on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 11 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5720
+necklace teeth palgraveyard~
+a necklace decorated with human teeth~
+A pile of teeth lies on the ground.~
+~
+9 jklmnopuvwBCEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5721
+band onyx palgraveyard~
+an onyx band~
+An onyx band lies here pressed into the ground.~
+0~
+9 jklmstwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 50 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+23 1 0
+#5722
+hood white holy palgraveyard~
+a holy, old white hood~
+An old white hood full of holes lies here.~
+~
+9 jklmnoprstvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5723
+helmet gold decorative palgraveyard~
+a decorative helmet made of solid gold~
+A helmet made of solid gold lies here on its side.~
+~
+9 jnpstBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 60 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 2 0
+#5724
+wand obsidian snowflaked~
+a snowflaked obsidian wand topped with a miniature silver hand~
+A beautiful snowflaked obsidian wand lies here on the ground.~
+~
+3 gjklmqtBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 -5 0
+#5725
+staff skull wooden palgraveyard~
+a wooden staff crowned with a human skull~
+Resting on the ground is a stick that is stuck into the base of a skull.~
+~
+5 jklmpuwBCEF abc kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 65 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 -1 0
+#5726
+necklace acorns palgraveyard~
+a necklace made of acorns~
+A pile of acorns is on the ground.~
+~
+9 jklmnpruwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5727
+shoes pair dull black palgraveyard~
+a pair of dull, black shoes~
+A pair of dull, black shoes have been left on the ground here.~
+~
+9 jklmnoprstvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5728
+bone large hefty palgraveyard~
+a hefty bone~
+The large bone of some beast is sitting on the ground.~
+~
+5 jklmnpruwBEF abc stuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5729
+shovel weathered palgraveyard~
+a weathered shovel~
+A weathered shovel lies here on the ground.~
+~
+5 jklopBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 8 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5730
+shovel iron palgraveyard~
+an iron shovel~
+A quality iron shovel is stuck into the ground here.~
+~
+5 jklopBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5731
+cloak blue midnight palgraveyard~
+a midnight-blue hooded cloak~
+A quality midnight-blue hooded cloak is cruppled up in a ball here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 39 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5732
+shield kingfisher palgraveyard~
+a shield adorned with a golden kingfisher~
+A shield adorned with a golden kingfisher has been left here.~
+~
+9 gijklnpstBCDEF abc stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 223 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5733
+robes crimson palgraveyard~
+a set of crimson robes~
+A set of crimson robes is on the ground.~
+~
+9 glmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5734
+rake old palgraveyard~
+an old rake~
+An old rake is laying on the ground.~
+~
+5 jklopBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 30 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5735
+object new~
+a new object~
+A new object is here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5736
+a terrified family~
+a terrified family~
+A terrified family is here held captive.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

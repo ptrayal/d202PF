@@ -1,0 +1,231 @@
+#4500
+bastard sword flaming black magma~
+a flaming black bastard sword~
+A bastard sword with a long, black flaming blade rests on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+51 1 10 3 100 100 0 12 1 4 0 11 0 0 0 0
+60 30550 0 26
+Z
+4
+A
+28 10 0
+A
+29 12 0
+#4501
+gauntlets molten lava magma~
+gauntlets of molten lava~
+A pair of gauntlets made from molten lava char the ground here.~
+~
+9 ajklprtBCDEF abcy stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1200 0 1
+Z
+4
+A
+19 1 0
+A
+18 -1 0
+A
+13 -5 0
+#4502
+armguards fiery magma~
+a pair of fiery armguards~
+A pair of armguards made of elemental magma burns on the ground.~
+~
+9 agjklnprstBCDEF abcy stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1000 0 1
+Z
+4
+A
+18 1 0
+A
+13 3 0
+#4503
+bracer obsidian magma~
+an obsidian bracer~
+An obsidian bracer lies forgotten on the ground.~
+~
+9 jklmnprstuwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 2000 0 3
+Z
+4
+A
+17 -1 0
+A
+1 1 0
+#4504
+tooth boar's magma~
+a boar's tooth~
+The long tusk of a boar lies on the ground.~
+~
+11 jklmnoprsuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 400 0 0
+Z
+4
+A
+14 3 0
+#4505
+pelt plain's cat magma~
+a plain's cat pelt~
+The pelt of a plain's cat lies crumpled on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1000 0 1
+Z
+4
+A
+13 5 0
+A
+18 1 0
+#4506
+chunk magma~
+a hissing chunk of magma~
+A chunk of magma sputters on the ground.~
+~
+3 gjklmnoprvwBCDEF abcy 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3000 0 1
+Z
+4
+#4507
+helm fiery red magma~
+a fiery red open-faced helm~
+A fiery red open-faced helm rests on the ground here.~
+~
+9 ajklnpstBCDEF abcy stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 0
+Z
+4
+A
+3 -1 0
+#4508
+dagger enflamed magma~
+a short enflamed dagger~
+A short dagger with a flaming blade rests on the ground.~
+~
+5 agjklmoprtvBCDEF abc astuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2500 0 3
+Z
+4
+A
+19 1 0
+#4509
+full plate armor blackened magma~
+a blackened suit of full plate armor~
+A blackened suit of full plate armor lies here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+80 3 1 -6 100 100 35 12 20 12 15 0 0 0 0 0
+500 35100 0 26
+Z
+4
+A
+22 90 0
+#4510
+ring circle fire magma~
+a small circle of fire~
+A small circle of fire burns the ground here.~
+~
+9 agjklmoprtvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 875 0 1
+Z
+4
+A
+18 1 0
+#4511
+moccasins soft pair magma~
+a pair of soft moccasins~
+A pair of deer-hide moccasins rests on the ground.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 400 0 0
+Z
+4
+A
+14 5 0
+#4512
+leggings red glowing magma~
+a pair of red, glowing leggings~
+A set of red leggings glows on the ground.~
+~
+9 agjklnptBCDEF abcy stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1250 0 1
+Z
+4
+A
+14 -10 0
+#4513
+corpse grisly~
+a grisly corpse~
+The grisly corpse of an unfortunate traveller lies here.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+corpse~
+   Its impossible to tell who this was anymore the scavengers have mutilated
+the body.  It was likely human or elven but no more can be discerned.    
+~
+#4514
+parchment bloody magma~
+a bloody piece of parchment~
+A piece of parchment covered in blood rests here.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+E
+parchment~
+This parchment is covered in the blood of the unfortunate traveller.  There
+isn't much left but a barely legible section of text.
+"Master the Conclave is concerned with your experiments in extradimensional travel
+and wish me to inform you to stop.  This messenger I have sent to warn you of the
+dangers."
+The rest of the letter is indecipherable.
+~
+#4515
+pond~
+a small pond~
+A small pond of clear water is here.~
+~
+23 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#4516
+ash ashes~
+a pile of ashes~
+A pile of ashes lies here.~
+~
+13 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+#4517
+key corroded ashes~
+a corroded key covered in ashes~
+Covered in ashes, a corroded key lies here on the ground.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 0 0
+Z
+4
+$~

@@ -1,0 +1,53 @@
+#6600
+cup metal worn sanction~
+a worn metal cup~
+Resting in the dirt is a dull metal object.~
+~
+8 jklmnoprstuvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1 0 0
+Z
+4
+#6601
+ring tin dented sanction~
+a dented tin ring~
+A dented ring of tin lies here, unwanted.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 50 0 0
+Z
+4
+#6602
+dagger steel bent sanction~
+a slightly bent steel dagger~
+A steel dagger lies here with its blade slightly bent.~
+~
+5 jklmoprstuvBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 15 0 0
+Z
+4
+#6603
+bracer leather flimsy sanction~
+a flimsy leather bracer~
+A thin bracer of leather lies here by itself.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 30 0 0
+Z
+4
+A
+13 2 0
+#6604
+gloves cotton pair sanction~
+a pair of crudely woven cotton gloves~
+A pair of dirty cotton gloves lies here in a ball.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 20 0 0
+Z
+4
+$~

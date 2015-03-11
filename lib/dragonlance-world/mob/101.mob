@@ -1,0 +1,28 @@
+#10100
+young deer~
+a young deer~
+A young deer paws the ground here, foraging for dinner.
+~
+   This young deer has a shiny, nutbrown coat, proof that it has been eating
+well in the hills.  Long powerful legs stretch from this beast, ending in
+hooves which look both gentle and dangerous.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

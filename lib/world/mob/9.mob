@@ -1,0 +1,1006 @@
+#900
+gage academy instructor~
+Gage~
+Gage, the academy instructor stands here waiting to start his lesson.
+~
+Clad in leather armor Gage serves the adventurer's academy as a general
+trainer for all who come to him.  Widely travelled and learn in all
+professions, he is among the most proficient of all citizens in Solace.
+~
+abdnopqrA ac 0 0 ak 0 0 0 0
+60 20 -50 732d200+1360 1d8+0
+2860 0 0 3
+8 8 1
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#901
+Renthilos crimson robed mage~
+Renthilos~
+Renthilos, a crimson robed mage stares you up and down inquisitively.
+~
+   Renthilos appears to be of elven descent, but does stand a bit tall for an
+elf.  He is clad in a dark crimson robe, depicting his standing of balance and
+neutrality in his ways of magic.  He stares at you somewhat rudely, and seems a
+little suprised.  
+~
+abdmnoF 0 0 0 k 0 0 0 -500
+8 18 1 640d80+1000 0d8+2
+8 0 21 0
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 82 4
+E
+Feat: 86 4
+S
+#902
+acolyte illusionist~
+an acolyte illusionist~
+An acolyte illusionist is here creating illusions for training.
+~
+   Garbed in grey concealing clothes, this acolyte of Mystra chants softly.  
+She pays no heed to anything but her duty.  She sways gently as she murmurs
+words of magic to create illusions for those in training to practice against.  
+~
+bd 0 0 0 k 0 0 0 -500
+5 20 5 24d50+152 1d8+0
+5 0 0 0
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 82 4
+E
+Feat: 86 4
+S
+#903
+acolyte summoner~
+an acolyte summoner~
+An acolyte summoner is here animating the remains of the fallen.
+~
+   Pays no heed to anything but her duty.  She sways gently as she murmurs
+prayers to Gilean to animate the skeletons for use in training young
+adventurers.  Garbed in grey concealing cloths this acolyte of Gilean chants
+softly.  She pays no heed to anything but her duty.  She sways gently as she
+murmurs prayers to Gilean to animate the skeletons for use in training young
+adventurers.  
+~
+abd 0 0 0 k 0 0 0 -500
+5 19 4 40d50+95 0d8+1
+5 0 42 0
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 82 4
+E
+Feat: 86 4
+S
+#904
+acolyte summoner~
+an acolyte summoner~
+An acolyte summoner is here animating the remains of the fallen.
+~
+   Garbed in grey concealing clothes, this acolyte of Gilean chants softly.  
+She pays no heed to anything but her duty.  She sways gently as she murmurs
+prayers to Gilean to animate the skeletons for use in the training of young
+adventurers.  
+~
+bd 0 0 0 k 0 0 0 -500
+5 20 5 24d50+152 1d8+0
+5 0 0 0
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 82 4
+E
+Feat: 86 4
+S
+#905
+animated clay golem lesser~
+a lesser clay golem~
+A clay golem wanders about the training pits without purpose.
+~
+   This golem has been sculpted of clay, and closely resembles a human.  The
+clay has of course hardened to a degree, making the golem almost rock-like in
+design.  The golem doesn't seem to be paying any attention to you, and just
+endlessly meanders about the complex, awaiting it's turn to be destroyed, only
+to be rebuilt and animated once more.  
+~
+dgo 0 0 0 k 0 0 0 -500
+3 20 8 48d30+151 1d8+0
+0 0 100 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#906
+animated lesser wooden golem~
+a lesser wooden golem~
+A wooden golem is here, stumbling mindlessly through the pits.
+~
+   This golem has been built entirely of wood, and resembles something of elven
+descent.  The wood looks to be somewhat new, although may gashes and slashes lie
+upon the face of it.  The golem doesn't seem to be paying any attention to you,
+and just endlessly meanders about the complex, awaiting it's turn to be
+destroyed, only to be rebuilt and animated once more.  
+~
+d 0 0 0 k 0 0 0 -500
+3 19 7 36d30+93 1d8+1
+0 0 100 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#907
+animated stone golem lesser~
+a lesser stone golem~
+A stone golem stands here ominously, occasionally making thunderous strides.
+~
+   This golem has been chiseled from stone.  The golem resembles, at best,
+something of dwarven heritage, but it is difficult to tell.  The golem does
+appear to be rather ominous though, and even a little eerie looking.  The golem
+doesn't seem to be paying any attention to you, and just endlessly meanders
+about the complex, awaiting it's turn to be destroyed, only to be rebuilt and
+animated once more.  
+~
+d 0 0 0 k 0 0 0 -500
+4 20 6 60d40+153 1d8+0
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#908
+animated flesh golem lesser~
+a lesser flesh golem~
+A lesser flesh golem is here, wandering about and moaning loudly.
+~
+   This golem has been constructed from the bones and flesh of fallen
+adventurers.  The success rate of travelers in the training pit is quite high,
+however the few that do meet their ill-fate within the pits are made use of.  
+The golem doesn't seem to be paying any attention to you, and just endlessly
+meanders about the complex with a great look of sadness upon it's morbid face,
+awaiting it's turn to be destroyed once again, only to be rebuilt and
+reanimated.  
+~
+d 0 0 0 k 0 0 0 -500
+3 19 7 36d30+93 1d8+1
+0 0 100 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#909
+animated iron golem lesser~
+a lesser iron golem~
+A lesser iron golem is here, making horrible creaking noises as it moves.
+~
+   This golem has been created from masses of iron.  The joints of the golem
+over time have began to rust slightly, and the least little move the golem makes
+causes horrible creaking noises.  The golem doesn't seem to be paying any
+attention to you, and just endlessly meanders about the complex without purpose,
+awaiting it's turn to be destroyed and rebuilt once again.  
+~
+d 0 0 0 k 0 0 0 -500
+5 20 5 72d50+152 1d8+0
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#910
+small earth elemental~
+a small earth elemental~
+A small earth elemental is here, moving slowly along the ground.
+~
+   This hulking, roughly humanoid creature of dirt and stone explodes up from
+the earth, faceless save for two glowing gemstone eyes.  
+~
+d e 0 0 k 0 0 0 0
+1 20 9 12d10+91 1d8+0
+0 0 143 27
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 16
+E
+Dex: 8
+E
+Int: 4
+E
+Wis: 11
+E
+Con: 13
+E
+Cha: 11
+S
+#911
+gray ooze animated~
+a gray ooze~
+A gray ooze lies here, barely visible as it blends in with it's surroundings.
+~
+   A slimy horror that looks like wet stone or a sedimentary rock formation, the
+gray ooze is rarely thicker than six or eight inches, but sometimes grows to a
+length of 12 feet.  It cannot climb walls or ceilings, so it slides, drips, and
+oozes along cavern
+~
+d 0 0 0 k 0 0 0 -500
+1 20 9 12d10+91 1d8+1
+0 0 15 3
+8 8 0
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#912
+choke creeper~
+a choke creeper~
+A choke creeper is here, it's many vines twisted about and attached to the wall.
+~
+   The choke creeper, or strangler vine, is a long, thick vine with many branch
+vines, each capable of attacking.  The vine is olive green in color, and the
+main vine is almost 1-2 feet thick.  Branch vines have flexible tendrils,
+allowing them to creep at 5
+~
+d 0 0 0 k 0 0 0 -500
+1 20 9 12d10+91 1d8+1
+0 0 18 3
+8 8 0
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#913
+slithering tracker~
+a slithering tracker~
+A slithering tracker is here, moving slowly attempting to stay hidden.
+~
+   The unique nature of slithering trackers gives them the distinct advantage of
+being able to slip through cracks and holes as small as a rat hole.  They move
+completely silently across all surfaces, simply oozing slowly over all bumps and
+turns.  
+~
+d 0 0 0 k 0 0 0 -500
+4 20 9 60d40+153 1d8+0
+0 0 18 3
+8 8 0
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#914
+shambling mound~
+a shambling mound~
+A shambling mound of what appears to be rotting vegetation is here.
+~
+   Shambling mounds, or shamblers, appear to be heaps of rotting vegetation.  
+They are actually an intelligent form of plant life, with a roughly humanoid
+shape, and a brain-like control center in its "chest" area.  A shambler has a
+6-foot girth on its lower
+~
+d 0 0 0 k 0 0 0 -500
+2 20 8 24d20+92 1d8+1
+0 0 100 21
+8 8 0
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 3
+E
+Feat: 4 4
+E
+Feat: 5 3
+E
+Feat: 69 3
+E
+Feat: 86 4
+E
+Feat: 203 3
+E
+Feat: 243 3
+E
+Feat: 367 1
+E
+Feat: 368 1
+S
+#915
+mold man vegepygmie~
+a mold man~
+A mold man is here, trying to avoid your sight and any confrontation.
+~
+Mold men, sometimes derogatorily called vegepygmies or even moldies, are short,
+bipedal fungus creatures.  They have sharp, thorn-like claws, and leaf-like
+tendrils form a fringe on their shoulders, abdomens, and limbs.  A topknot of
+these tendrils sits at wear the head would normally be found.  
+~
+d 0 0 0 k 0 0 0 -500
+4 19 6 48d40+1000 1d8+1
+0 0 100 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#916
+mud man~
+a mud man~
+A mud man is here, taking formation out of a large glob of mud on the floor.
+~
+   When aroused into a physical form, mudmen take on the appearance of animated
+mud in a stocky humanoid shape, about 4 feet tall.  Their coloration varies
+between a dirty brown and tar black.  They have four thick fingers on each hand.
+~
+d 0 0 0 k 0 0 0 -500
+4 20 6 60d40+151 1d8+0
+0 0 0 3
+8 8 1
+E
+BareHandAttack: 12
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#917
+carrion crawler~
+a young carrion crawler~
+A young carrion crawler is here, tunneling through soft portions of the ground.
+~
+   The carrion crawler is a scavenger of subterranean areas, feeding primarily
+upon carrion.  When such food becomes scarce, however, it will attack and kill
+living creatures.  The crawler looks like a cross between a giant green cutworm
+and a cephalopod.  Like so many other hybrid monsters, the carrion crawler may
+well be the result of genetic experimentation by a mad, evil wizard.  
+~
+cd 0 0 0 k 0 0 0 -500
+2 20 8 24d20+92 1d8+1
+0 0 100 3
+8 8 0
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#918
+inexperienced adventurer man~
+an inexperienced adventurer~
+An inexperienced adventurer is here, seeking out opponents to train against.
+~
+   This young man is scrawny at best, and appears to be far too clumsy to be a
+threat to anyone, or anything for that matter.  He has dark, sandy-blonde hair
+that continually falls down in front of his eyes, therefore blinding him, making
+him even less effective in fighting than he already was.  Noticing your
+inquisitive stare, he puffs out his chest as if to make him look more
+intimidating.  
+~
+d 0 0 0 k 0 0 0 -500
+2 20 8 10d20+92 1d8+1
+2 0 44 2
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 14
+E
+Dex: 16
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 9
+E
+Cha: 11
+E
+Feat: 4 4
+E
+Feat: 86 4
+E
+Feat: 199 4
+S
+#919
+adept summoner~
+an adept summoner~
+An adept summoner is here, studying the magical properties of animation.
+~
+   Dressed in loose-fitting and comfortable looking gray robes, this adept
+servant of Mystra thumbs through some texts depicting instructions on the
+creation of greater illusions.  Not even noticing your entrance, he continues to
+read.  
+~
+bdo 0 0 0 k 0 0 0 -500
+6 20 8 63d60+152 1d8+0
+9 0 42 0
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 14
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+E
+Feat: 82 4
+E
+Feat: 86 4
+S
+#920
+apprentice master~
+the master's apprentice~
+The master's apprentice is here, studying the arts of summoning.
+~
+   Dressed in loose-fitting and comfortable looking gray robes, this apprentice
+to the master thumbs through some texts depicting instructions on the summoning
+and animation of other-worldly constructs.  He carefully studies you as you
+enter, seemingly annoyed.  
+~
+abdD 0 0 0 k 0 0 0 -500
+6 18 3 216d60+96 1d8+2
+6 0 42 1
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+S
+#921
+servant female young~
+a young female servant~
+A young female servant is here, working endlessly to try to please the master.
+~
+   This poor young female servant looks quite scrawny and malnourished.  It is
+untelling how she got in this state, but it is fairly obvious she is unhappy.  
+She does not look as if she has been physically abused, but the look on her face
+is enough to share with you her discomfort.  
+~
+cd 0 0 0 k 0 0 0 -500
+5 19 4 40d50+95 1d8+1
+5 0 42 0
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 82 4
+E
+Feat: 86 4
+S
+#922
+servant young male~
+a young male servant~
+A young male servant is here, working tirelessly for his master.
+~
+   This poor young male servant looks quite scrawny and malnourished.  It is
+untelling how he got in this state, but it is fairly obvious he is unhappy.  He
+does not look as if he has been physically abused, but the look on his face is
+enough to share with you his discomfort.  
+~
+d 0 0 0 k 0 0 0 -500
+5 19 4 60d50+95 1d8+1
+5 0 42 2
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 14
+E
+Dex: 17
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 4 4
+E
+Feat: 86 4
+E
+Feat: 199 4
+S
+#923
+faithful student master's~
+the master's faithful student~
+The master's most faithful student is here, carefully listening.
+~
+   This man is fairly young, though not as young as most of the other summoners
+in the complex.  He is wearing a grey robe, however you can see portions of a
+red garment underneath showing.  He turns to face you as you enter the room,
+somewhat startling him.  He gives you an icy glare, making you feel very
+unwelcome.  
+~
+bdlmoE 0 0 0 k 0 0 0 -500
+7 18 2 280d70+97 1d8+2
+7 0 42 0
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 82 4
+E
+Feat: 86 4
+S
+#924
+Jolin questmaster~
+Jolin, the training pits questmaster~
+Jolin, the training pits questmaster stands here ready to give tasks to new adventurers.
+~
+   This tall man is tasked with giving assignments to new adventurers that they
+may gain strength and experience in their adventures.  He wears a blue tunic
+with black pants and a black and white cape about his shoulders.  
+~
+abdnopqrAF b 0 0 k 0 0 0 -500
+20 20 -10 2520d100+850 1d8+0
+76 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 4
+E
+Feat: 4 4
+E
+Feat: 5 4
+E
+Feat: 69 4
+E
+Feat: 86 4
+E
+Feat: 203 4
+E
+Feat: 243 4
+S
+#950
+Drow elf scout~
+a menzoberranian scout~
+A menzoberranian scout sneaks along here.
+~
+This drow elf appears to be scouting for a new attack route from
+Menzoberranzan. His piwafi flutters silently as he walks fluidly 
+through the room.
+~
+bdijklsu 0 0 0 ks 0 0 0 -1000
+12 14 -4 144d120+102 1d8+6
+24 0 58 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+Feat: 4 4
+E
+Feat: 86 4
+E
+Feat: 199 4
+S
+$

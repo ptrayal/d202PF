@@ -1,0 +1,27 @@
+#10400
+Alberto~
+the unfinished mob~
+Alberto
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+30 10 -26 2520d100+1000 1d1+10
+0 0 18 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

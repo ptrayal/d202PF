@@ -1,0 +1,1843 @@
+#9100
+Entrance to the Wenfyr Mansion~
+   Towering solid granite walls partially block out the sky, casting a shadow
+on the two massive oak doors leading within the mansion.  The worn corners of
+the doors show there heavy use over the years.  Statues of two Solamnic Knights
+reside on either side of the doors.    
+~
+91 c h 0 0 0
+D0
+~
+doors~
+1 9100 9104 21 21 0 0 0 0 0 0
+D2
+~
+~
+0 0 8238 0 0 0 0 0 0 0 0
+S
+#9101
+A Bedroom~
+   Patches of mold and slime have grown on cold stone walls where water has
+leaked through from the ceiling above.  In the corner of the room is a small
+straw covered wooden pallet and a metal chamber pot.    
+~
+91 d 0 0 0 0
+D1
+~
+door~
+1 0 9102 0 0 0 0 0 0 0 0
+S
+#9102
+The Servant's Quarters~
+   Shadows dance across the hall floor as the torch light flickers in the wind.
+The dreary cramped stone quarters are a complete constrast to the lavishly
+decorated corridor.  Poorly made wooden doors to the east and west give very
+little privacy to the servants bedchamers.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9106 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9103 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9101 0 0 0 0 0 0 0 0
+S
+#9103
+A Bedroom~
+   Patches of mold and slime have grown on cold stone walls where water has
+leaked through from the ceiling above.  In the corner of the room is a small
+straw covered wooden pallet and a metal chamber pot.    
+~
+91 d 0 0 0 0
+D3
+~
+door~
+1 0 9102 0 0 0 0 0 0 0 0
+S
+#9104
+Within the Wenfyr Mansion~
+   White marble tiles line the floors of the spacious room.  In the center of
+the floor is the Wenfyr family crest.  The bloodwood inlaid crest depicts a
+griffon clutching a sword with a rising sun behind it.  Along the walls are
+exotic potted plants.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9114 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 9100 21 21 0 0 0 0 0 0
+S
+#9105
+A Bedroom~
+   Patches of mold and slime have grown on cold stone walls where water has
+leaked through from the ceiling above.  In the corner of the room is a small
+straw covered wooden pallet and a metal chamber pot.    
+~
+91 d 0 0 0 0
+D1
+~
+door~
+1 0 9106 0 0 0 0 0 0 0 0
+S
+#9106
+The Servant's Quarters~
+   Shadows dance across the hall floor as the torch light flickers in the wind.
+The dreary cramped stone quarters are a complete constrast to the lavishly
+decorated corridor.  Poorly made wooden doors to the east and west give very
+little privacy to the servants bedchamers.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9117 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9102 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9105 0 0 0 0 0 0 0 0
+S
+#9107
+A Bedroom~
+   Patches of mold and slime have grown on cold stone walls where water has
+leaked through from the ceiling above.  In the corner of the room is a small
+straw covered wooden pallet and a metal chamber pot.    
+~
+91 d 0 0 0 0
+D3
+~
+door~
+1 0 9106 0 0 0 0 0 0 0 0
+S
+#9108
+An Immense Oak Tree~
+   By far the largest tree in the sanctuary, an immense, towering oak has
+enveloped the whole southwest corner of the garden.  The jetting limbs have
+become ideal perches and nesting spots over the years.  The broad leaves have
+blocked the outside light, creating an eerie feeling as the birds squawk from
+their perches.    
+~
+91 f 0 0 0 3
+D0
+~
+~
+0 0 9119 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9109 0 0 0 0 0 0 0 0
+S
+#9109
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues north and east.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9120 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9108 0 0 0 0 0 0 0 0
+S
+#9110
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  To the north is the small pond.  The walkway continues
+east and west.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9121 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9109 0 0 0 0 0 0 0 0
+S
+#9111
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues east and west.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9122 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9110 0 0 0 0 0 0 0 0
+S
+#9112
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9111 0 0 0 0 0 0 0 0
+S
+#9113
+The Closet~
+   The small closet is lit by natural sky light from above.  Cloaks and other
+personal belongings hang on the large wooden racks lining the granite walls.  
+~
+91 0 0 0 0 1
+D1
+~
+~
+0 0 9114 0 0 0 0 0 0 0 0
+S
+#9114
+Within the Wenfyr Mansion~
+   White marble tiles line the floors of the spacious room.  In the center of
+the floor is the Wenfyr family crest.  The bloodwood inlaid crest depicts a
+griffon clutching a sword with a rising sun behind it.  Along the walls are
+exotic potted plants.  On the western wall is a small wooden closet.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9128 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9104 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9113 0 0 0 0 0 0 0 0
+S
+#9115
+The Washroom~
+   The stained glass ceiling illuminates the recently shined white marble
+floor.  A large, silver water basin rests in the corner of the lavish washroom.
+Along one of the walls is a beautiful oak counter used for powdering and other
+cosmetic needs.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9130 0 0 0 0 0 0 0 0
+S
+#9116
+A Bedroom~
+   Patches of mold and slime have grown on cold stone walls where water has
+leaked through from the ceiling above.  In the corner of the room is a small
+straw covered wooden pallet and a metal chamber pot.    
+~
+91 d 0 0 0 0
+D1
+~
+door~
+1 0 9117 0 0 0 0 0 0 0 0
+S
+#9117
+The Servant's Quarters~
+   Shadows dance across the hall floor as the torch light flickers in the wind.
+The dreary cramped stone quarters are a complete constrast to the lavishly
+decorated corridor.  Poorly made wooden doors to the east and west give very
+little privacy to the servants bedchamers.    
+~
+91 cd 0 0 0 0
+D0
+~
+door~
+1 0 9132 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9118 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9106 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9116 0 0 0 0 0 0 0 0
+S
+#9118
+A Bedroom~
+   Patches of mold and slime have grown on cold stone walls where water has
+leaked through from the ceiling above.  In the corner of the room is a small
+straw covered wooden pallet and a metal chamber pot.    
+~
+91 d 0 0 0 0
+D3
+~
+door~
+1 0 9117 0 0 0 0 0 0 0 0
+S
+#9119
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues north and east.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9133 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9120 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9108 0 0 0 0 0 0 0 0
+S
+#9120
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues south and west.    
+~
+91 f 0 0 0 1
+D2
+~
+~
+0 0 9109 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9119 0 0 0 0 0 0 0 0
+S
+#9121
+A Small Pond~
+   Over time the small pond has turned into a wading pool for many of the
+aviary's birds.  The water has turned an algae green from all the bird
+droppings polluting the water.  Surrouding the pond are an assortment of exotic
+plants and grasses.  Above, birds circle the skies watching every movement
+below.    
+~
+91 f 0 0 0 6
+D0
+~
+~
+0 0 9135 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9110 0 0 0 0 0 0 0 0
+S
+#9122
+Muddied Grassland~
+   The small pond to the west has bled into the surrounding ground, causing the
+grassland to become a swampy mud pit.  A few birds have made their nests in the
+tall grass, making navigation towards the pond cautious.  Above birds circle
+the skies watching every movement below.    
+~
+91 f 0 0 0 2
+D0
+~
+~
+0 0 9136 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9121 0 0 0 0 0 0 0 0
+S
+#9123
+A Glass Inclosed Aviary~
+   Ivy has grown along all the solid glass walls, dimming the light coming in
+the exquisite aviary.  Trees and small shrubs cover the ground except for the
+solid obsidian path that travels around the garden.  Thousands of beautiful and
+exotic birds cloud the skies, creating a spectacular sight.  To the west is a
+small pond at the center of the aviary.  The obsidian walkway continues to the
+north and south.    
+~
+91 f h 0 0 0
+D0
+~
+~
+0 0 9137 0 0 0 0 0 0 0 0
+D1
+~
+glass~
+1 0 9124 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9122 0 0 0 0 0 0 0 0
+S
+#9124
+The Western Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line to granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.  To the west a pandemonium
+of squawks and chirps come from a large glass enclosed aviary.    
+~
+91 c 0 0 0 0
+D1
+~
+~
+0 0 9125 0 0 0 0 0 0 0 0
+D3
+~
+glass~
+1 0 9123 21 21 0 0 0 0 0 0
+S
+#9125
+The Western Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line the granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.  To the north is a
+beautifully carved spiraling staircase, and east noises can be heard from the
+crowd of people waiting to enter the ballroom.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9138 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9124 0 0 0 0 0 0 0 0
+S
+#9126
+The Western Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line the granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9125 0 0 0 0 0 0 0 0
+S
+#9127
+The Western Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line the granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9126 0 0 0 0 0 0 0 0
+S
+#9128
+The Courtyard~
+   In the center of the marble floored courtyard is a breathtaking fountain
+made from obsidian.  The fountain depicts a majestic sapphire eyed griffon
+perched on a cliff readying to take flight.  The spacious room easily
+accommodates the large number of guests waiting to enter the ballroom.  To the
+north lies the infamous Wenfyr Ballroom.  East and west give way to the massive
+corridors that make up the mansion.    
+~
+91 u 0 0 0 0
+D0
+~
+~
+0 0 9139 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9129 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9114 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9127 0 0 0 0 0 0 0 0
+S
+#9129
+The Eastern Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line the granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9130 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9128 0 0 0 0 0 0 0 0
+S
+#9130
+The Eastern Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line the granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.  To the south is one of
+the mansion's many washrooms, and west leads to the courtyard.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9131 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9129 0 0 0 0 0 0 0 0
+S
+#9131
+The Eastern Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line the granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.  To the north is a
+beautifully carved spiraling staircase, and west noises can be heard from the
+crowd of people waiting to enter the ballroom.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9140 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9132 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9130 0 0 0 0 0 0 0 0
+S
+#9132
+The Eastern Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  Oil paintings line the granite walls of the massive corridor.  The
+armored statues creak as a cold draft fills the hall.  To the south is the
+servants quarters, and west noises can be heard from the crowd of people
+waiting to enter the ballroom.    
+~
+91 0 0 0 0 0
+D2
+~
+door~
+1 0 9117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9131 0 0 0 0 0 0 0 0
+S
+#9133
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues north and south.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9141 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9119 0 0 0 0 0 0 0 0
+S
+#9134
+A Thicket of Trees~
+   Jetting straight up in the air, a dense thicket of ash trees have consumed
+all the fertile soil in the surrounding area.  Hundreds of bird nests litter
+the tree branches, causing many of them to sag over time.  Noises of birds
+squawking and shaking branches can be heard within the thicket.  Above, birds
+circle the skies watching every movement below.    
+~
+91 f 0 0 0 3
+D3
+~
+~
+0 0 9133 0 0 0 0 0 0 0 0
+S
+#9135
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the sanctuary.  A small bird pond lies to the south.  The walkway
+continues north and east.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9143 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9121 0 0 0 0 0 0 0 0
+S
+#9136
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  A large granite bird bath lies to the north.  The walkway
+continues east and west.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9144 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9137 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9122 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9135 0 0 0 0 0 0 0 0
+S
+#9137
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues south and west.    
+~
+91 f 0 0 0 1
+D0
+~
+~
+0 0 9145 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9136 0 0 0 0 0 0 0 0
+S
+#9138
+The Western Stairwell~
+   Intricately carved dragons decorate the magnificant solid wood stairwell.  
+Above, the ceiling is decorated by a huge crystal dome depicting a delicate
+rose.  The reflection from the red rose gives the room a slight tint bringing
+out the natural beauty of the wood.  The spiraling staircase leads to the
+second floor of the mansion.    
+~
+91 0 0 0 0 1
+D2
+~
+~
+0 0 9125 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9168 0 0 0 0 0 0 0 0
+S
+#9139
+Entrance to the Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chandelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 cdf 0 0 0 0
+D0
+~
+~
+0 0 9147 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9128 0 0 0 0 0 0 0 0
+S
+#9140
+The Eastern Stairwell~
+   Intricately carved dragons decorate the magnificent solid wood stairwell.  
+Above, the ceiling is decorated by a huge crystal dome depicting a delicate
+rose.  The reflection from the red rose gives the room a slight tint bringing
+out the natural beauty of the wood.  The spiraling staircase leads to the
+second floor of the mansion.    
+~
+91 0 0 0 0 0
+D2
+~
+~
+0 0 9131 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9190 0 0 0 0 0 0 0 0
+S
+#9141
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues south and east.    
+~
+91 f 0 0 0 1
+D1
+~
+~
+0 0 9142 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9133 0 0 0 0 0 0 0 0
+S
+#9142
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  The walkway continues east and west.    
+~
+91 f 0 0 0 1
+D1
+~
+~
+0 0 9143 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9141 0 0 0 0 0 0 0 0
+S
+#9143
+An Obsidian Walkway~
+   The seamless, almost glass-like obsidian walkway weaves its way through the
+exquisite garden.  The grass and shrubs have been cut back from either side of
+the walkway.  Ivy has grown along the solid glass walls, dimming the light
+entering the aviary.  A large granite bird bath lies to the east.  The walkway
+continues south and west.    
+~
+91 f 0 0 0 1
+D1
+~
+~
+0 0 9144 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9135 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9142 0 0 0 0 0 0 0 0
+S
+#9144
+A Granite Bird Bath~
+   In the center of a small clearing is an intricately carved bird bath.  The
+constant splashing of the birds flocking around has caused the base of the bath
+to be covered in moss.  The once well kept grass has turned to a mixture of mud
+and bird droppings.  Above, trees sag down shading the area.    
+~
+91 f 0 0 0 2
+D1
+~
+~
+0 0 9145 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9143 0 0 0 0 0 0 0 0
+S
+#9145
+A Small Patch of Grass~
+   The grass has overgrown and enveloped an old wooden bench resting on a small
+rise in the clearing.  The rise overlooks the whole sanctuary creating a
+magnificent view.  Above, the birds squawk and chirp as they shake the tree
+branches.    
+~
+91 f h 0 0 2
+D2
+~
+~
+0 0 9137 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9144 0 0 0 0 0 0 0 0
+S
+#9146
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chamdelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 df 0 0 0 0
+D0
+~
+~
+0 0 9149 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9147 0 0 0 0 0 0 0 0
+S
+#9147
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chamdelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 df 0 0 0 0
+D0
+~
+~
+0 0 9150 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9148 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9139 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9146 0 0 0 0 0 0 0 0
+S
+#9148
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chamdelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 df 0 0 0 0
+D0
+~
+~
+0 0 9151 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9147 0 0 0 0 0 0 0 0
+S
+#9149
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chamdelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 df 0 0 0 0
+D0
+~
+~
+0 0 9152 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9150 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9146 0 0 0 0 0 0 0 0
+S
+#9150
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chandelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.  To the north stands two
+large cherrywood doors.    
+~
+91 df 0 0 0 0
+D0
+~
+~
+0 0 9153 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9151 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9147 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9149 0 0 0 0 0 0 0 0
+S
+#9151
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chamdelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 df 0 0 0 0
+D0
+~
+~
+0 0 9154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9148 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9150 0 0 0 0 0 0 0 0
+S
+#9152
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chandelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 df 0 0 0 0
+D1
+~
+~
+0 0 9153 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9149 0 0 0 0 0 0 0 0
+S
+#9153
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chandelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.  North stands two large,
+beautiful cherrywood doors.    
+~
+91 df 0 0 0 0
+D0
+~
+doors~
+1 0 9155 21 21 0 0 0 0 0 0
+D1
+~
+~
+0 0 9154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9150 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9152 0 0 0 0 0 0 0 0
+S
+#9154
+The Ballroom~
+   The ivory colored marble floor is illuminated by the immense crystal
+chandelier hanging from above.  The walls are constructed from a rich
+cherrywood.  Light through the stained glass windows projects dancing images on
+the walls as the chandelier spins in a slow circle.    
+~
+91 df 0 0 0 0
+D2
+~
+~
+0 0 9151 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9153 0 0 0 0 0 0 0 0
+S
+#9155
+The Dining Hall~
+   Resting in the middle of the marble floored room is a massive, beautifully
+constructed oak table.  Chairs line the sides of the table and in the center of
+the table is a exquisite boquet of red and white roses.  Above a crystal
+chandelier illuminates the room.  The eastern wall is made entirely of glass
+exposing the magnificent flower garden outside.    
+~
+91 cd 0 0 0 0
+D0
+~
+~
+0 0 9158 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 9153 0 0 0 0 0 0 0 0
+S
+#9156
+A Small Pantry~
+   Shelves line the walls on all sides, making it very cramped.  Assortments of
+spices and staple items fill the shelves.  A few bags have been torn open by
+vermin hiding within the mansion walls.    
+~
+91 d 0 0 0 0
+D1
+~
+door~
+1 0 9157 0 0 0 0 0 0 0 0
+D3
+~
+door~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#9157
+The Kitchen~
+   The bustling kitchen is full of frantic servants preparing the large banquet
+tonight.  Pots and pans are scattered around the room as the dishes are being
+prepared.  Two stoves and three ovens line the northern wall.  The wood floor
+is stained from spills over the years.  To the west is a small pantry.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9159 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9158 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9156 0 0 0 0 0 0 0 0
+S
+#9158
+The Dining Hall~
+   Resting in the middle of the marble floored room is a massive, beautifully
+constructed oak table.  Chairs line the sides of the table and in the center of
+the table is an exquisite bouquet of red and white roses.  Above a crystal
+chandelier illuminates the room.  The eastern wall is made entirely of glass
+exposing the magnificent flower garden outside.  To the west is a swinging oak
+door.    
+~
+91 d 0 0 0 0
+D2
+~
+~
+0 0 9155 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9157 21 21 0 0 0 0 0 0
+S
+#9159
+The Kitchen~
+   The bustling kitchen is full of frantic servants preparing the large banquet
+tonight.  Pots and pans are scattered around the room as the dishes are being
+prepared.  Two stoves and three ovens line the northern wall.  The wood floor
+is stained from spills over the years.  To the east is a worn, old oak door.  
+~
+91 d 0 0 0 0
+D1
+~
+door~
+1 0 9160 21 21 0 0 0 0 0 0
+D2
+~
+~
+0 0 9157 0 0 0 0 0 0 0 0
+S
+#9160
+A Cobblestone Path~
+   The rugged path has been worn down over the years of heavy use.  A bed of
+daisies line both sides of the path.  Smoke is rising from the chimney of the
+small building to the north.    
+~
+91 c 0 0 0 1
+D0
+~
+~
+0 0 9161 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9159 0 0 0 0 0 0 0 0
+S
+#9161
+A Cobblestone Walkway~
+   The rugged path has been worn down over the years of heavy use.  A bed of
+daisies line both sides of the path.  Smoke is rising from the building's
+chimney.  North is the entrance to the butcher's workshop.    
+~
+91 0 0 0 0 1
+D0
+~
+door~
+1 0 9162 21 21 0 0 0 0 0 0
+D2
+~
+~
+0 0 9160 0 0 0 0 0 0 0 0
+S
+#9162
+The Butcher's Workshop~
+   Blood is strewn all over the room from the slaughtered animals hanging on
+the meat racks.  In the center of the room is an oak table that has seen years
+of constant use.  On the wall is an assortment of butchering tools.  In the far
+corner of the room is a bucket full of entrails.    
+~
+91 d 0 0 0 0
+D2
+~
+door~
+1 0 9161 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 9163 21 21 0 0 0 0 0 0
+S
+#9163
+The Cellar~
+   The cold, drafty cellar is full of frozen animals hanging on meat racks.  
+The room has a distinct smell of blood and decay.  Slivers of light flitter in
+from the workshop above.  The stone floors are caked with blood from the
+dripping carcasses.    
+~
+91 d 0 0 0 0
+D4
+~
+trapdoor~
+0 0 9162 0 0 0 0 0 0 0 0
+S
+#9164
+The Game Room~
+   Tiled marble lines the floor of the spacious room.  Mounted on the walls are
+an assortment of animal heads.  Along the wall on oak shelves are various
+awards and trophies of the Wenfyr Family.  Furniture is sparsely set up
+throughout the room.  An immense obsidian fireplace roars angrily in the corner
+of the room.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9166 0 0 0 0 0 0 0 0
+S
+#9165
+Bren's Private Study~
+   The room is lit by an obsidian fireplace.  A large oak desk rests in the
+middle of the room.  On the wall are an assortment of cabinets.  Light dances
+off the wine bottles in the liquor cabinet, creating images to dance around the
+room.    
+~
+91 d 0 0 0 0
+D1
+~
+wall~
+2 9104 9166 0 0 0 0 0 0 0 0
+S
+#9166
+The Game Room~
+   Tiled marble lines the floor of the spacious room.  Mounted on the walls are
+an assortment of animal heads.  Along the wall on oak shelves are various
+awards and trophies of the Wenfyr Family.  Furniture is sparsely set up
+throughout the room.  An immense obsidian fireplace roars angrily in the corner
+of the room.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9167 0 0 0 0 0 0 0 0
+D1
+~
+~
+2 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9164 0 0 0 0 0 0 0 0
+D3
+~
+wall~
+1 9104 9165 0 0 0 0 0 0 0 0
+S
+#9167
+The Game Room~
+   Tiled marble lines the floor of the spacious room.  Mounted on the walls are
+an assortment of animal heads.  Along the wall on oak shelves are various
+awards and trophies of the Wenfyr Family.  Furniture is sparsely set up
+throughout the room.  An immense obsidian fireplace roars angrily in the corner
+of the room.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9170 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9166 0 0 0 0 0 0 0 0
+S
+#9168
+The Second Floor~
+   Intricately carved dragons decorate the magnificent solid wood staircase.  
+Above, the ceiling is decorated by a huge crystal dome depicting a delicate
+rose.  The reflection from the red rose gives the room a slight tint bringing
+out the natural beauty of the wood.  The staircase gives way to the upper
+corridor of the mansion.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9172 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9138 0 0 0 0 0 0 0 0
+S
+#9169
+Rezla's Room~
+   A small fireplace on the southern wall illuminates the beautiful oak floor.
+Neatly placed all around the room is a collection of various exquisitely done
+dolls.  An antique loom rests at the foot of a petite rosewood bed.    
+~
+91 d 0 0 0 0
+D0
+~
+door~
+1 0 9180 0 0 0 0 0 0 0 0
+S
+#9170
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9182 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9167 0 0 0 0 0 0 0 0
+S
+#9171
+The Attic~
+   The oak floors are caked in dust from little use.  Wooden boxes filled with
+junk and heirlooms are scattered around the room.  Poor ventilation has made it
+difficult to discern objects in the room.  A creaking sound resonates from the
+old oak boards.    
+~
+91 a 0 0 0 0
+D0
+~
+~
+0 0 9185 0 0 0 0 0 0 0 0
+S
+#9172
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9187 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9173 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9168 0 0 0 0 0 0 0 0
+S
+#9173
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9174 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9172 0 0 0 0 0 0 0 0
+S
+#9174
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9175 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9173 0 0 0 0 0 0 0 0
+S
+#9175
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.  To the north, a pair of immense, carved
+rosewood doors rest lazily on their hinges.    
+~
+91 0 0 0 0 0
+D0
+~
+doors~
+1 0 9188 21 21 0 0 0 0 0 0
+D1
+~
+~
+0 0 9176 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9174 0 0 0 0 0 0 0 0
+S
+#9176
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9177 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9175 0 0 0 0 0 0 0 0
+S
+#9177
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9178 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9176 0 0 0 0 0 0 0 0
+S
+#9178
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9179 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9177 0 0 0 0 0 0 0 0
+S
+#9179
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.  To the north, a solid rosewood door stands
+heavily.    
+~
+91 0 0 0 0 0
+D0
+~
+door~
+1 0 9189 21 21 0 0 0 0 0 0
+D1
+~
+~
+0 0 9180 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9178 0 0 0 0 0 0 0 0
+S
+#9180
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.  To the south, a solid rosewood door stands
+heavily.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9181 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9169 21 21 0 0 0 0 0 0
+D3
+~
+~
+0 0 9179 0 0 0 0 0 0 0 0
+S
+#9181
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D1
+~
+~
+0 0 9182 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9180 0 0 0 0 0 0 0 0
+S
+#9182
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9190 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9183 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9170 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9181 0 0 0 0 0 0 0 0
+S
+#9183
+The Upper Corridor~
+   Natural light flitters down on the solid oak floors from the skylights
+above.  The walls are decorated with personal paintings of the Wenfyr family
+tree.  Black satin rugs enlaid with the Wenfyr family crest in blood red are
+staggered down the hall every few feet.  Family heirlooms rest against the
+walls of the spacious corridor.  On the ceiling is a small, wooden panel with a
+strange triangular keyhole in the center.    
+~
+91 d 0 0 0 0
+D3
+~
+~
+0 0 9182 0 0 0 0 0 0 0 0
+D4
+~
+panel~
+2 9108 9184 21 21 0 0 0 0 0 0
+S
+#9184
+The Attic~
+   The oak floors are caked in dust from little use.  Wooden boxes filled with
+junk and heirlooms are scattered around the room.  Poor ventilation has made it
+difficult to discern objects in the room.  Strange claw markings cover the
+small wooden panel.  A creaking sound resonates from the old oak boards.    
+~
+91 a 0 0 0 0
+D1
+~
+~
+0 0 9185 0 0 0 0 0 0 0 0
+D5
+~
+Panel~
+2 9108 9183 0 0 0 0 0 0 0 0
+S
+#9185
+The Attic~
+   The oak floors are caked in dust from little use.  Wooden boxes filled with
+junk and heirlooms are scattered around the room.  Poor ventilation has made it
+difficult to discern objects in the room.  A creaking sound resonates from the
+old oak boards.    
+~
+91 a 0 0 0 0
+D0
+~
+~
+0 0 9191 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9186 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9184 0 0 0 0 0 0 0 0
+S
+#9186
+The Attic~
+   The oak floors are caked in dust from little use.  Wooden boxes filled with
+junk and heirlooms are scattered around the room.  Poor ventilation has made it
+difficult to discern objects in the room.  A creaking sound resonates from the
+old oak boards.    
+~
+91 a 0 0 0 0
+D3
+~
+~
+0 0 9185 0 0 0 0 0 0 0 0
+S
+#9187
+The Library Entrance~
+   To the north the hall opens up into an extravagantly decorated library.  
+Large rosewood bookcases line the walls.  The room is lit naturally from the
+skylight above, giving the room a majestic feeling.  The bookcase shelves are
+completely filled with books.    
+~
+91 cd 0 0 0 0
+D0
+~
+~
+0 0 9193 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9172 0 0 0 0 0 0 0 0
+S
+#9188
+The Master Bedroom~
+   The floor is made of solid oak.  Above, the room is lit by a stained glass
+window of the Wenfyr crest.  In the center of the room is a exquisite bloodwood
+bed.  The carved pillars of the bed resemble trees as they reach for the
+ceiling.  Opposite the bed, flames from the extravagant obsidian fireplace lick
+the air lazily.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9195 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 9175 0 0 0 0 0 0 0 0
+S
+#9189
+Cantran's Room~
+   The medium sized room is well lit by the small windows on three of the
+walls.  Clothes have been thrown about the room, making it hard to see the
+floor.  The bedsheets droop lazily off the side of the rosewood bed in the
+northern corner of the room.  Training swords and armor lie neatly in the
+corner across from the bed.    
+~
+91 d 0 0 0 0
+D2
+~
+door~
+1 0 9179 0 0 0 0 0 0 0 0
+S
+#9190
+The Second Floor~
+   Intricately carved dragons decorate the magnificent solid wood staircase.  
+Above, the ceiling is decorated by a huge crystal dome depicting a delicate
+rose.  The reflection from the red rose gives the room a slight tint bringing
+out the natural beauty of the wood.  The staircase gives way to the upper
+corridor of the mansion.    
+~
+91 c 0 0 0 1
+D2
+~
+~
+0 0 9182 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9140 0 0 0 0 0 0 0 0
+S
+#9191
+The Attic~
+   The oak floors are caked in dust from little use.  Wooden boxes filled with
+junk and heirlooms are scattered around the room.  Poor ventilation has made it
+difficult to discern objects in the room.  A creaking sound resonates from the
+old oak boards.    
+~
+91 a 0 0 0 0
+D2
+~
+~
+0 0 9185 0 0 0 0 0 0 0 0
+S
+#9192
+The Library~
+   The white marble floors frame the extravagantly decorated library.  Large
+rosewood bookcases line the walls.  The room is lit naturally from the
+skylights above, giving the room a majestic feeling.  The bookcase shelves are
+completely filled with books ranging from the history of Palanthas to ancient
+cook books.    
+~
+91 d 0 0 0 0
+D1
+~
+~
+0 0 9193 0 0 0 0 0 0 0 0
+S
+#9193
+The Library~
+   The white marble floors frame the extravagantly decorated library.  Large
+rosewood bookcases line the walls.  The room is lit naturally from the
+skylights above, giving the room a majestic feeling.  The bookcase shelves are
+completely filled with books ranging from the history of Palanthas to ancient
+cook books.    
+~
+91 d 0 0 0 0
+D0
+~
+~
+0 0 9197 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9194 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9187 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9192 0 0 0 0 0 0 0 0
+S
+#9194
+The Library~
+   The white marble floors frame the extravagantly decorated library.  Large
+rosewood bookcases line the walls.  The room is lit naturally from the
+skylights above, giving the room a majestic feeling.  The bookcase shelves are
+completely filled with books ranging from the history of Palanthas to ancient
+cook books.    
+~
+91 d 0 0 0 0
+D3
+~
+~
+0 0 9193 0 0 0 0 0 0 0 0
+S
+#9195
+The Master Bedroom~
+   The floor is made of solid oak.  Above, the room is lit by a stained glass
+window of the Wenfyr crest.  In the center of the room is a exquisite bloodwood
+bed.  The carved pillars of the bed resemble trees as they reach for the
+ceiling.  Opposite the bed, flames from the extravagant obsidian fireplace lick
+the air lazily.    
+~
+91 0 0 0 0 0
+D0
+~
+~
+0 0 9198 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9196 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9188 0 0 0 0 0 0 0 0
+S
+#9196
+The Closet~
+   Large wooden racks line all three walls of the massive closet.  Beautiful
+clothes hang from the various hooks and hangers.  Along the oak floor are rows
+and rows of shoes.  Small glass windows staggered around the room, illuminate
+the articles of clothing just enough to discern them.    
+~
+91 d 0 0 0 0
+D3
+~
+~
+0 0 9195 0 0 0 0 0 0 0 0
+S
+#9197
+The Library~
+   The white marble floors frame the extravagantly decorated library.  Large
+rosewood bookcases line the walls.  The room is lit naturally from the
+skylights above, giving the room a majestic feeling.  The bookcase shelves are
+completely filled with books ranging from the history of Palanthas to ancient
+cook books.  To the north, a small, plain oak door rest lazily on its hinges.
+~
+91 0 0 0 0 0
+D0
+~
+door~
+1 0 9199 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9193 0 0 0 0 0 0 0 0
+S
+#9198
+The Bathroom~
+   An intricately carved marble bathtub rests in the far corner of the lavish
+bathroom.  A large window opposite the bathtub overlooks the exquisite rose
+garden below.  A gold chamber pot rests against the cold stone wall.    
+~
+91 d 0 0 0 0
+D2
+~
+~
+0 0 9195 0 0 0 0 0 0 0 0
+S
+#9199
+Historian's Chambers~
+   Scattered around the small candle lit room are various parchments scribbled
+in odd languages.  In the middle of the room is the historian's research desk.
+The desk is constructed of a fine rosewood with very simple designs bordering
+the edges.    
+~
+91 df 0 0 0 0
+D2
+~
+doors~
+1 0 9197 0 0 0 0 0 0 0 0
+S
+$~

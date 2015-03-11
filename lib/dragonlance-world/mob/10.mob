@@ -1,0 +1,756 @@
+#1000
+girl elven smiling flowers~
+a bright elven girl~
+A bright elven girl sells flowers here, smiling brightly.
+~
+   A young elven girl stands here, holding bunches of sweet smelling flowers.
+She smiles as you approach and holds a handful out for your inspection.    
+~
+d 0 0 0 k 0 0 0 900
+20 10 -20 240d100+100 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1001
+griffon huge fierce royal~
+a huge, fierce griffon~
+Looming above you is a fierce looking royal griffon.
+~
+   With haunches rising around four feet off the ground with all four paws on
+the ground, this beast's size is immediately apparent.  Powerful wings allow
+this creature to soar into the air.  Its light brown fur bristles in the slight
+wind.    
+~
+dD 0 0 0 k 0 0 0 350
+20 4 -22 1200d230+113 1d8+21
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1002
+trader kagonesti tattooed~
+a tattooed kagonesti trader~
+Bristling slightly, this kagonesti hawks his wares loudly.
+~
+   The elf before you is tattooed in the manner of many kagonesti warriors and
+elders.  Swirling tattoos cover most of the skin that is visible.  Bright eyes
+peer at you from under the cowl of his hood, and a twangy voice calls out to
+you, looking to deal for goods.    
+~
+d 0 0 0 k 0 0 0 0
+20 10 -20 240d150+105 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1003
+picker fruit~
+a short, elven fruit picker~
+A short, elven fruit picker trudges to the fields.
+~
+   Draped in a long tunic with many pockets, the elf before you walks with a
+slight stoop.  Long, unkept hair runs down his back and fingernails colored
+orange from fruit juices are visible on this elf.    
+~
+d 0 0 0 k 0 0 0 100
+20 10 -20 240d140+104 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1004
+warrior elven grim honed~
+a grim, honed elven fighter~
+A grim elven warrior glances at you with caution in his eyes.
+~
+   Standing straight backed and tall, this elven warrior's eyes tell the story.
+Hard and cold, this elf has been trained to protect the kingdom of Qualinesti
+from all invaders.  Though not thick muscled, this elf is nevertheless
+extremely wiry, with quick and precise movements giving away his abilities.  
+~
+d 0 0 0 k 0 0 0 1000
+20 10 -20 240d150+105 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1005
+lookout keen elven~
+a keen eyed elven lookout~
+Peering intently outward, this keen eyed elven lookout scans the horizon.
+~
+   The elf before you moves very little as he scans the horizon for enemies and
+others approaching Qualinost.  His robes are draped tightly around his
+shoulders, and flashes of metal are visible beneath the robe.    
+~
+d 0 0 0 k 0 0 0 750
+20 10 -14 120d100+100 1d8+10
+35 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 21
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1006
+protectorate burly member guard~
+a member of the Protectorate~
+A burly guard of the Protectorate stands watch here.
+~
+   Standing perfectly erect, this member of the elite forces of Qualinost known
+as the Protectorate, watches the streets for any signs of trouble.  The armor
+he wears is brightly polished, blazing in the sunlight.  His step is smart, and
+his demeanor is stern.    
+~
+d 0 0 0 k 0 0 0 1000
+20 10 -20 220d180+108 1d8+10
+35 0 32 5
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 12
+E
+Cha: 22
+S
+#1007
+huntsman elven~
+an elven huntsman~
+An elven huntsman walks by swiftly with his latest kill.
+~
+   Cloaked completely in earthen toned leathers, this elf appears to blend in
+with the surrounding forest.  His hat is slung low over his forehead, with his
+eyes barely visible.  A small bird is slung over his shoulder, spoils from a
+recent kill.    
+~
+d 0 0 0 k 0 0 0 500
+20 10 -14 180d140+104 1d8+10
+15 0 32 4
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 22
+E
+Con: 12
+E
+Cha: 11
+S
+#1008
+cleric simply-robed simple elven~
+a simply-robed elven cleric~
+A simple elven cleric in homely robes walks with bowed head.
+~
+   Walking slowly and solemnly, this elf appears lost in thought.  Long white
+robes drape over her, made of simple cloth.  The medallion of Paladine hangs
+from her neck, which she clutches repeatedly as she steps slowly.    
+~
+d 0 0 0 k 0 0 0 1000
+20 10 -18 180d150+105 1d8+10
+35 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 22
+E
+Con: 12
+E
+Cha: 11
+S
+#1009
+woman elven wrinkled~
+an old, wrinkled elven woman~
+An ancient-looking elven woman walks through the city.
+~
+   An old elven woman walks through the city ever so slowly.  This elf is
+perhaps the oldest you've ever seen, showing many wrinkles and other signs of
+age.  Soft robes cloak her with sandals on her feet.    
+~
+d 0 0 0 k 0 0 0 600
+20 10 -20 240d100+100 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1010
+apprentice young runed~
+a young elf in apprentice robes~
+A young elf in runed apprentice robes walks haughtily by.
+~
+   A younger looking elf, not more than fifty years of age, walks through the
+streets of Qualinost.  His face is set with a haughty expression, especially
+when he glances at the other elves strolling nearby.    
+~
+d 0 0 0 k 0 0 0 350
+20 10 -10 80d100+100 1d8+10
+35 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1011
+child elven small~
+a small elven child~
+Laughing happily, a small elven child skips by.
+~
+   Wearing a leather tunic and breeches, this small elven child runs along the
+streets with pure abandon.  Not even watching where he's going, the child runs
+between doorways and trees, as if hiding from someone.    
+~
+d 0 0 0 k 0 0 0 0
+20 10 -14 120d70+97 1d8+10
+35 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 21
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1012
+courier elven haughty~
+a haughty elven courier~
+A haughty elven courier struts slowly past.
+~
+   Wearing a finely frilled tunic, an elven courier walks through the streets
+on his way to the Tower of the Sun.  A haughty expression seems stuck to his
+face, with eyes that dart about rapidly.    
+~
+d 0 0 0 k 0 0 0 -100
+20 10 -18 300d130+103 1d8+10
+35 0 32 8
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 21
+E
+Cha: 11
+S
+#1013
+gardener timid~
+a timid elven gardener~
+A timid elven gardener quietly goes about his business.
+~
+   The elf before you is covered in a thin layer of dust and dirt, caused by
+time spent in the gardens tending to them.  His belt holds many differing
+fertilizers and other small tools to upkeep his gardens.    
+~
+d 0 0 0 k 0 0 0 900
+20 10 -18 260d120+102 1d8+10
+35 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 21
+E
+Cha: 11
+S
+#1014
+guardsman elven young~
+a young, agile elven guardsman~
+A young elven guardsman patrols the city.
+~
+   A young elf in a set of linked chain armor stands stiffly here.  He glances
+around then, walks in precise steps through the forests.  Unlike most elves,
+this guardsman's purpose is to be seen and be visible to the citizens.    
+~
+d 0 0 0 k 0 0 0 1000
+20 10 -20 220d160+106 1d8+10
+35 0 32 5
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 12
+E
+Cha: 22
+S
+#1015
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+20 10 -10 80d100+100 1d1+10
+35 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1016
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+20 10 -10 80d100+100 1d1+10
+35 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1017
+servant bustling~
+a bustling servant~
+Moving swiftly, a bustling servant walks quickly towards the Tower.
+~
+   This servant wears a doublet of the finest material.  His expression is
+haughty, with a self assurance uncommon for servants.  He walks stiffly, with
+measured steps.    
+~
+d 0 0 0 k 0 0 0 350
+20 10 -20 240d100+100 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1018
+senator elven contemptuous~
+a contemptuous elven senator~
+Waving a jeweled hand, an elven senator strides by.
+~
+   Decked in the finest silks and cloths, a senator of the Thalas-Entelia walks
+through the city here.  His jeweled hands wave casually at the citizens he
+passes.  His eyes are cold, and peer about with a calculating light.    
+~
+d 0 0 0 k 0 0 0 0
+20 10 -20 240d250+115 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1019
+bodyguard senator~
+a senator bodyguard~
+Frowning slightly, the senator's bodyguard scans the area.
+~
+   This burly elf stands just over six feet in height, enormous for a
+Qualinesti.  His face is worn from years of worry in his position as protector
+of senators.  He scans the crowd continually.    
+~
+d 0 0 0 k 0 0 0 700
+20 10 -14 180d190+109 1d8+10
+15 0 32 4
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 22
+E
+Con: 12
+E
+Cha: 11
+S
+#1020
+elven fighter mage bright~
+a bright-eyed elven fighter/mage~
+A bright eyed elven fighter/mage studies you intently.
+~
+   Though this elf appears to be a warrior, the belt with small pouches similar
+to what one sees used by magic users indicates the sword may not be his only
+weapon.    
+~
+d 0 0 0 k 0 0 0 1000
+20 10 -10 80d200+110 1d8+10
+35 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1021
+caretaker dweller elven~
+an elven caretaker~
+An elven forest dweller cares for the surrounding forests.
+~
+   Slowly walking through the gardens of the city, this elf scans for any signs
+of decay in the plant life.  He is constantly leaning down and picking dead
+leaves and buds off plants and flowers.    
+~
+d 0 0 0 k 0 0 0 700
+20 10 -18 260d160+106 1d8+10
+35 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 21
+E
+Cha: 11
+S
+#1022
+Tarnam~
+Lord Tarnam~
+Lord Tarnam walks along the ramparts surveying the horizon.
+~
+   With measured steps, this handsome elf walks from spire to spire along the
+bridgeworks scanning for enemies.  He stops briefly to talk to lookouts and
+other guardsmen, then continues on his tour.  Ever diligent, Lord Tarnam is
+often seen nightly walking and watching.    
+~
+d 0 0 0 k 0 0 0 1000
+20 10 -20 220d210+111 1d8+10
+35 0 32 5
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 12
+E
+Cha: 22
+S
+#1023
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+20 10 -10 80d100+100 1d1+10
+35 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1024
+traveller wide-eyed elven~
+a wide-eyed elven traveller~
+Gasping softly, a wide-eyed elven traveller walks about.
+~
+   This elf walks about with wonder filled eyes as he scans all around him.  
+Obviously not from the city, his eyes are continually drawn towards the spire
+to the north, the Tower of the Sun.    
+~
+d 0 0 0 k 0 0 0 0
+20 10 -18 260d140+104 1d8+10
+35 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 21
+E
+Cha: 11
+S
+#1025
+youth half-elven bumbling~
+a bumbling, half-elven youth~
+A bumbling, half-elven youth skips along.
+~
+   Walking without a care in the world, this diminuitive young elf strolls
+through the city, barely watching out where he's going, counting on his elvish
+heritage and nimbleness to help him avoid any problems.  He peers about with
+mischevious grins at everyone he sees.    
+~
+d 0 0 0 k 0 0 0 350
+20 10 -14 120d80+98 1d8+10
+35 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 21
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1026
+trader dwarven stocky~
+a stocky, dwarven trader~
+A stocky, dwarven trader pulls a small cart through the city.
+~
+   Chortling softly as he walks, this dwarf's cart is filled with many delicate
+trinkets he hopes to sell in the streets of Qualinost.  He sweats slightly from
+the exertion of pulling the cart.    
+~
+d 0 0 0 k 0 0 0 500
+20 10 -20 240d130+103 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#1027
+merchant street wandering~
+a wandering street merchant~
+A street merchant wanders up the street, peddling his wares.
+~
+   This merchant yells loudly at passersby, hawking his wares, from bowls of
+pottery, to small ruby trinkets.  The closer the people get, the more obnoxious
+this merchant gets, occasionally stepping in front of the more timid looking
+visitors.    
+~
+d 0 0 0 k 0 0 0 0
+20 10 -14 120d100+100 1d8+10
+35 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 21
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#1028
+bowyer strong elven~
+a strong, elven bowyer~
+An elven bowyer pulls the string of a bow taut as he works.
+~
+   Sinewy muscles are visible in this elf's shoulders as he pulls bow strings
+taut on the bows he's crafting.  A sword belt is visible within handy reach.  
+His face is blank, concentrating on the careful task of the bowyer.    
+~
+d 0 0 0 k 0 0 0 900
+20 10 -20 240d190+109 1d8+10
+35 0 32 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+$

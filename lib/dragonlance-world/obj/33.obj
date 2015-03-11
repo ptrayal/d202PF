@@ -1,0 +1,39 @@
+#3300
+key small bone~
+a small, bone key~
+A small, bone key has been left here.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#3301
+snail flesh giant~
+the flesh of a giant snail~
+The flesh of a giant snail lies on the ground in a lump.~
+~
+9 jklmBCDEF abc 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 5000 0 1
+Z
+4
+A
+5 1 0
+A
+18 1 0
+A
+1 -1 0
+A
+3 -1 0
+#3302
+flesh snail lump~
+a lump of snail flesh~
+A lump of snail flesh has been left here.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+$~

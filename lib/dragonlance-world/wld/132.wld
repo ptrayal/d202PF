@@ -1,0 +1,230 @@
+#13200
+Morgion's Abode~
+   The room you are in appears to be a cave, though it's hard to tell because
+the walls are covered with substances you dare not touch.  One corner has piles
+of what appears to be rotting corpses and decaying flesh.  Another is covered
+by maggots and other even nastier bugs.  The ceiling drips with slime and pus.
+The smell in here is absolutely putrid.  An exit to the west seems to give some
+glimmer of hope towards escape.    
+~
+132 d 0 0 0  0
+D3
+~
+~
+0 0 13202 0 0 0 0 0 0 0 0
+D5
+   A metal panel.    
+~
+panel metal~
+1 0 13201 0 0 0 0 0 0 0 0
+S
+#13201
+A Slime Filled Cave~
+   This dark, slime-filled cavern is full of putrid smells.  Rotting corpses
+and decaying organisms line the floor.  Maggots are crawling over your feet.  
+A ladder above you stops at a metal panel.    
+~
+132 gi f 0 0  0
+D0
+~
+~
+0 0 13203 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13204 0 0 0 0 0 0 0 0
+D4
+~
+panel metal~
+1 0 13200 0 0 0 0 0 0 0 0
+S
+#13202
+Cave of Choosing~
+   The cave you are in has 3 exits.  To the west, you see massive Vallenwood
+trees.  To the north, a great library and huge, white walls and temples.  To
+the south, a dark aura pulls at your soul.    
+~
+132 0 0 0 0  0
+D0
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13200 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1317 0 0 0 0 0 0 0 0
+S
+#13203
+A Slime Filled Cave~
+   This dark, slime-filled cavern is full of putrid smells.  Rotting corpses
+and decaying organisms line the floor.  Maggots are crawling over your feet.  
+
+~
+132 cgi f 0 0  0
+D2
+~
+~
+0 0 13201 0 0 0 0 0 0 0 0
+D4
+   A slime covered panel.    
+~
+panel slime~
+1 0 283 0 0 0 0 0 0 0 0
+S
+#13204
+A Slime Filled Cave~
+   This dark, slime-filled cavern is full of putrid smells.  Rotting corpses
+and decaying organisms line the floor.  Maggots are crawling over your feet.  
+
+~
+132 cgi f 0 0  0
+D0
+~
+~
+0 0 13201 0 0 0 0 0 0 0 0
+D3
+~
+grate metal~
+1 0 9718 0 0 0 0 0 0 0 0
+S
+#13205
+A Hallway of Pure Ivory~
+   This hallway is constructed of pure ivory.  The floors and walls are very
+smooth, and polished, creating a beautiful appearance.  The smooth surfaces
+create a mirror of the surroundings, and is somewhat confusing.  Hanging from
+the ceiling are strange, glowing orbs, creating a very bright light.    
+~
+132 0 0 0 0  0
+D1
+~
+~
+0 0 13206 0 0 0 0 0 0 0 0
+S
+#13206
+A Hallway of Pure Ivory~
+   This hallway is constructed of pure ivory.  The floors and walls are very
+smooth, and polished, creating a beautiful appearance.  The smooth surfaces
+create a mirror of the surroundings, and is somewhat confusing.  Hanging from
+the ceiling are strange, glowing orbs, creating a very bright light.    
+~
+132 0 0 0 0  0
+D1
+~
+~
+0 0 13207 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13205 0 0 0 0 0 0 0 0
+S
+#13207
+A Hallway of Pure Ivory~
+   This hallway is constructed of pure ivory.  The floors and walls are very
+smooth, and polished, creating a beautiful appearance.  The smooth surfaces
+create a mirror of the surroundings, and is somewhat confusing.  Hanging from
+the ceiling are strange, glowing orbs, creating a very bright light.    
+~
+132 0 0 0 0  0
+D0
+~
+~
+0 0 13208 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13206 0 0 0 0 0 0 0 0
+S
+#13208
+A Hallway of Pure Ivory~
+   This hallway is constructed of pure ivory.  The floors and walls are very
+smooth, and polished, creating a beautiful appearance.  The smooth surfaces
+create a mirror of the surroundings, and is somewhat confusing.  Hanging from
+the ceiling are strange, glowing orbs, creating a very bright light.    
+~
+132 0 0 0 0  0
+D0
+~
+~
+0 0 13209 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13207 0 0 0 0 0 0 0 0
+S
+#13209
+A Hallway of Pure Ivory~
+   This hallway is constructed of pure ivory.  The floors and walls are very
+smooth, and polished, creating a beautiful appearance.  The smooth surfaces
+create a mirror of the surroundings, and is somewhat confusing.  Hanging from
+the ceiling are strange, glowing orbs, creating a very bright light.  There are
+three doors here, one leading to the north, east, and west.    
+~
+132 0 0 0 0  0
+D0
+~
+door~
+1 0 13211 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 13210 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13208 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 13212 0 0 0 0 0 0 0 0
+S
+#13210
+An Obsidian Room~
+   This room, unlike the rest of the small complex, is crafted of pure
+obsidian.  The whole room is fitted together so perfectly, that it must have
+been from some sort of magical construction.  A huge desk crafted from obsidian
+takes up the majority of the northern section of the room, and upon the desk
+lie many ancient spellbooks and numerous jars with strange labels, written in
+some archaic, forgotten language.    
+~
+132 0 0 0 0  0
+D3
+~
+door~
+1 0 13209 0 0 0 0 0 0 0 0
+S
+#13211
+A Marble Room~
+   This room is crafted of pure marble, greyish in color, unlike most of the
+small complex which has been crafted from pure ivory.  Although the room has a
+somewhat plain appearance, it's natural beauty is almost overwhelming.  The
+room is flawless, there is no sign of dust, or disturbance of any kind.    
+~
+132 0 0 0 0  0
+D2
+~
+door~
+1 0 13209 0 0 0 0 0 0 0 0
+S
+#13212
+A Granite Room~
+   This room has been constructed of pure granite.  The whole room looks as if
+it were carved from one huge section of granite, and it has a very pale tint.
+The room is decorated with ancient suites of platemail armor, standing like
+statues in every corner, each suit of armor radiates a feel of great, mystical
+power.    
+~
+132 0 0 0 0  0
+D1
+~
+door~
+1 0 13209 0 0 0 0 0 0 0 0
+S
+$

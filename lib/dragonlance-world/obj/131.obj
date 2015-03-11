@@ -1,0 +1,211 @@
+#13100
+potion experience exp~
+a potion of experience~
+On the ground is a potion of experience.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13101
+shield~
+a shield~
+A shield is here.~
+~
+9 ks an 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+6 1 0
+#13102
+bracer~
+a bracer~
+A bracer is here.~
+~
+9 ks ag 0 0 m 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -5 0
+A
+18 1 0
+#13103
+gloves~
+some gloves~
+Here are some gloves.~
+~
+9 ks a 0 0 h 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -3 0
+#13104
+key strange circular tarsis~
+a strange circular key~
+Discarded here on the ground lies a strange looking circular key.~
+~
+18 cA 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13105
+picture golden framed tarsis~
+a golden framed picture~
+A golden framed picture of the Governor of Tarsis hangs here upon the wall.~
+~
+15 0 v j 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+200 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13106
+key solid steel~
+a solid steel vault key~
+Tossed carelessly upon the ground here lies a solid steel vault key.~
+~
+18 cjklA 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13107
+key crimson sable~
+a crimson and sable key~
+Laying here on the ground is a crimson and sable colored key.~
+~
+18 cA 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13108
+quill feather worn~
+a worn feather quill~
+Discarded here on the ground is a worn feather quill.~
+~
+21 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13109
+parchment clean white~
+a clean white parchment~
+Here upon the ground is a piece of clean white parchment.~
+~
+16 jklmnoprstuvwABCF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13110
+spectacles golden rimmed tarsis~
+a pair of golden rimmed spectacles~
+Thrown up on the ground, here lies a pair of golden rimmed spectacles.~
+~
+9 aijklmnwCF abdefu stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#13111
+desk massive ironwood~
+a massive ironwood desk~
+A massive ironwood desk sits here dominating the middle of the large room.~
+~
+15 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+400 15000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13112
+flask steel decorative tarsis~
+a decorative steel flask~
+A decorative steel flask has been tossed up on the ground here, discarded.~
+~
+17 jklmoprstuwBCDEF abcu stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+30 2000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#13113
+pendant griffon tarsis~
+a pendant decorated with the symbol of a griffon~
+A pendant decorated with the symbol of a griffon has been left here.~
+~
+9 lmnwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+$~

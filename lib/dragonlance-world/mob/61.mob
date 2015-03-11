@@ -1,0 +1,288 @@
+#6100
+shadowy pickpocket stealthy~
+a stealthy, shadowy pickpocket~
+Lurking in the shadows is a stealthy, shadowy pickpocket.
+~
+~
+d 0 0 0 k 0 0 0 -25
+11 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This man is wearing a suit of heavy scalemail armor.  He is of above average
+This beautiful young girl seems to be at peace as she strolls around the
+#6103
+rigid stern solamnic knight~
+a rigid, stern solamnic knight~
+Patrolling the streets with great confidence is a rigid, stern solamnic knight.
+~
+   This knight is very calm and collected.  His features are very hawk-like,
+and he wears the common Solamnic style of mustache.  His skin is pale, but is
+also very rigid.  He keeps a keen eye out, watching for trouble.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This young squire has a glimmer in his eyes.  He one day plans to be a
+#6106
+temple guardian elite~
+an elite, temple guardian~
+Guarding the entrance is an elite, temple guardian.
+~
+   This stout and stalwart guard stands here watching all who enter this sacred
+temple of Paladine.  He has cold azurite eyes that stare out from under his
+furrowed brows.  A cool, complacent look lies upon his face as he stands back
+and observes.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This minstrel is obviously accustomed to performing in front of large groups
+#6108
+entertainer middle aged middle-aged~
+a middle-aged entertainer~
+A middle-aged entertainer does his best to put on a fine show.
+~
+   Crows feet have creased deeply into the corner of this mans eyes.  He still
+wears a jolly smile, and has a pleasuring sparkle in his eyes, but the gray
+streaks in his hair seem to make him a seem a little old for such a job.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6109
+beautiful young woman~
+a beautiful young woman~
+A beautiful young woman sits here strumming her lute passionately.
+~
+   This beautiful young woman has somehow become part of this minstrel show.  
+She can't be more than in her late teens, but her grace and extraordinary voice
+make up for what she lacks in age.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6110
+thoroughly worn resident~
+a thoroughly worn resident~
+A thoroughly worn resident regards you wearily as you enter.
+~
+   This resident looks very tired, probably because he has been working all
+day.  He was making his way toward a chair to rest himself, but stopped to
+observe you when you entered his home.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6111
+fearsome stealthy thief~
+a fearsome, stealthy thief~
+Lurking in the shadows is a fearsome, stealthy thief.
+~
+   This man has very pale skin, and wears a deep velveteen black robe that he
+cloaks his entire body with.  He walks freely about the town, not seeming to
+care much for the knights, or you.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6113
+implacable solamnic escort~
+an implacable, solamnic escort~
+An implacable, solamnic escort watches his prisoner very keenly.
+~
+   This Solamnic escort, probably a Knight of the Crown, has been given the
+duty of escorting this prisoner to his destination.  He keeps a very close
+watch on the large prisoner, calculating his every move.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This old bard has a look of fascination on his face as he tell his stories.
+#6115
+aging wise priest high~
+an aging, wise priest~
+The High Priest of Paladine stands here reciting psalms and prayers.
+~
+   Aged, but not yet elderly, this priest of Paladine has been chosen by his
+own kind as their representative of both faith, and wisdom.  He has greying
+hair, and is rather robust - built more like a warrior than a priest.  He has
+emerald green eyes, and a rather handsome face.  Noticing your stare, he
+smiles, and beckons to you saying, "Come to me, my child.  "
+~
+d 0 0 0 k 0 0 0 1000
+26 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This acolyte of Paladine has probably spent many years in this temple
+#6117
+gruff grizzled armorer~
+a gruff, grizzled armorer~
+Pounding away endlessly at his forge, a gruff and grizzled armorer is here.
+~
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6118
+hardy stout weaponsmith~
+a hardy, stout weaponsmith~
+A hardy, stout weaponsmith checks his merchandise for blemishes.
+~
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

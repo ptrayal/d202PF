@@ -1,0 +1,125 @@
+#10600
+bar steel long pry~
+a long pry bar~
+A long piece of steel rests on the ground.~
+~
+18 cklq 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#10601
+pole fishing piece~
+a large fishing pole~
+A long piece of bamboo lies here.~
+~
+5 jklpruwBCF a stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#10602
+pail small iron~
+a small iron pail~
+A small iron pail is on the ground.~
+~
+15 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#10603
+fish small food~
+a small fish~
+A small fish is flopping about here.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#10604
+necklace long chain chains~
+a long chain necklace~
+A polished pile of chains rests on the ground.~
+-1~
+9 klmnoprstuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 2 0
+A
+14 2 0
+#10605
+wheel wooden boat~
+the steering wheel of a fishing boat~
+A large wooden wheel is placed loosely on the ground.~
+4~
+9 klnprsuwBCEF ac stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#10606
+tiger pelt fur~
+a tiger pelt~
+A pile of fur rests on the ground here.~
+6~
+9 klpruwBCEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#10607
+stone statue minotaur~
+a large stone statue of a brute minotaur~
+A large stone statue of a brute minotaur peers behind you.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+statue brute minotaur stone~
+   The statue is huge, over nine feet tall.  A large trident is on his right
+hand, and a tower shield is in the other.  The expression in his face is one of
+honor and respect.    
+~
+$~

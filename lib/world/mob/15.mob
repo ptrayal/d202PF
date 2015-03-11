@@ -1,0 +1,812 @@
+#1500
+gnoll warrior~
+a gnoll warrior~
+A gnoll warrior is here, keeping a very close eye on things.
+~
+   A gnoll resembles a cross between a man and a hyena.  They have greenish-grey
+skin and are sometimes up to seven feet tall.  Gnolls are savage, barbaric
+creatures that often practice cannibalism, and enjoy eating the flesh of other
+sentient species.  This one seems particularly interested in you.  
+~
+cd 0 0 0 k 0 0 0 -500
+8 20 2 108d80+308 1d8+0
+25 0 12 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1501
+gnoll patrol~
+a gnoll patrol~
+A gnoll patrol is here, watching very closely for potential danger.
+~
+   A gnoll resembles a cross between a man and a hyena.  They have greenish-grey
+skin and are sometimes up to seven feet tall.  Gnolls are savage, barbaric
+creatures that often practice cannibalism, and enjoy eating the flesh of other
+sentient species.  This one seems particularly interested in you.  
+~
+d 0 0 0 k 0 0 0 -500
+8 20 2 108d80+308 1d8+0
+25 0 12 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1502
+gnoll sentry~
+a gnoll sentry~
+A gnoll sentry stands guard here, watching for intruders. 
+~
+   A gnoll resembles a cross between a man and a hyena.  They have greenish-grey
+skin and are sometimes up to seven feet tall.  Gnolls are savage, barbaric
+creatures that often practice cannibalism, and enjoy eating the flesh of other
+sentient species.  This one seems particularly interested in you.  
+~
+bcd 0 0 0 k 0 0 0 -500
+7 20 3 96d70+217 1d8+0
+20 0 12 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1503
+gnoll champion~
+the gnoll champion~
+The gnoll champion stands here, arms folded in a very arrogant manner.
+~
+   A gnoll resembles a cross between a man and a hyena.  They have greenish-grey
+skin and are sometimes up to seven feet tall.  This gnoll just happens to be
+right at about seven feet tall.  Gnolls are savage, barbaric creatures that
+often practice cannibalism, and enjoy eating the flesh of other sentient
+species.  This one does not seem very pleased with your disturbance.  
+~
+bdf 0 0 0 k 0 0 0 -500
+9 20 1 120d90+153 1d8+0
+18 0 12 3
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1504
+troglodyte warrior~
+a troglodyte warrior~
+A troglodyte warrior is here, keeping a very close eye on things.
+~
+   Troglodytes are reptilian humanoids that stand a bit shorter than a human.  
+They have thick, scaled, chameleon-like skin, a frilled head, short claws, and
+sharp teeth.  Not particularly known for their intellect, troglodytes tend to
+favor the more martial callings, though many primitive divine casters are found
+amongst them.  
+~
+cd 0 0 0 k 0 0 0 -500
+9 20 1 120d90+299 1d8+0
+33 0 12 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1505
+troglodyte patrol~
+a troglodyte patrol~
+A troglodyte patrol is here, keeping watch for any potential threat.
+~
+   Troglodytes are reptilian humanoids that stand a bit shorter than a human.  
+They have thick, scaled, chameleon-like skin, a frilled head, short claws, and
+sharp teeth.  Not particularly known for their intellect, troglodytes tend to
+favor the more martial callings, though many primitive divine casters are found
+amongst them.  
+~
+d 0 0 0 k 0 0 0 -500
+9 20 1 120d90+319 1d8+0
+33 0 12 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1506
+troglodyte sentry~
+a troglodyte sentry~
+A troglodyte sentry is here, keeping watch for intruders.
+~
+   Troglodytes are reptilian humanoids that stand a bit shorter than a human.  
+They have thick, scaled, chameleon-like skin, a frilled head, short claws, and
+sharp teeth.  Not particularly known for their intellect, troglodytes tend to
+favor the more martial callings, though many primitive divine casters are found
+amongst them.  
+~
+bcd 0 0 0 k 0 0 0 -500
+9 20 1 120d90+299 1d8+0
+33 0 12 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1507
+troglodyte cleric~
+the troglodyte cleric~
+The troglodyte cleric is here, rehearsing hissing incantations.
+~
+   Troglodytes are reptilian humanoids that stand a bit shorter than a human.  
+They have thick, scaled, chameleon-like skin, a frilled head, short claws, and
+sharp teeth.  Not particularly known for their intellect, troglodytes tend to
+favor the more martial callings, though many primitive divine casters are found
+amongst them, and you believe this may be one.  
+~
+abcd 0 0 0 k 0 0 0 -500
+10 20 0 99d100+250 1d8+0
+45 0 12 1
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1508
+troll hunter~
+a troll hunter~
+A troll hunter is here, devouring the remains of this human.
+~
+   Some trolls, more cunning than most, are not satisfied with merely eating
+civilized beings but train to hunt them relentlessly.  These troll hunters are
+fearsome hunters who focus on slaying and devouring humanoid prey.  Trolls are
+extremely powerful, and ruthless at their best.  
+~
+bdf 0 0 0 k 0 0 0 -500
+10 20 0 132d100+320 1d8+0
+45 0 12 3
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1509
+troll warrior~
+a troll warrior~
+A troll warrior is here, examining his surroundings for trails.
+~
+   Some trolls, more cunning than most, are not satisfied with merely eating
+civilized beings but train to hunt them relentlessly.  These troll hunters are
+fearsome hunters who focus on slaying and devouring humanoid prey.  Trolls are
+extremely powerful, and ruthless at their best.  
+~
+cdf 0 0 0 k 0 0 0 -500
+10 20 0 132d100+310 1d8+0
+45 0 12 3
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1510
+troll guard~
+the troll guard~
+The troll guard stands guard here, awaiting any opportunities.
+~
+   Some trolls, more cunning than most, are not satisfied with merely eating
+civilized beings but train to hunt them relentlessly.  These troll hunters are
+fearsome hunters who focus on slaying and devouring humanoid prey.  Trolls are
+extremely powerful, and ruthless at their best.  
+~
+bdef 0 0 0 k 0 0 0 -500
+10 20 0 132d100+290 1d8+0
+45 0 12 3
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1511
+troll shaman~
+the troll shaman~
+The troll shaman stands here, contemplating evil plans.
+~
+   Some trolls, more cunning than most, are not satisfied with merely eating
+civilized beings but train to hunt them relentlessly.  These troll hunters are
+fearsome hunters who focus on slaying and devouring humanoid prey.  Trolls are
+extremely powerful, and ruthless at their best.  
+~
+abdf 0 0 0 k 0 0 0 -500
+11 20 -1 48d110+291 1d8+0
+60 0 12 0
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#1512
+grey mare~
+a grey haired mare~
+A grey haired mare stands here in a stall.
+~
+   This old mare looks as if she has seen better days.  She looks as if she may
+still be able to do some of the more menial tasks required in farm work, however
+would not be suitable for any sort of heavy duties.  
+~
+bd 0 0 0 k 0 0 0 -500
+7 20 3 96d70+317 1d8+0
+0 0 40 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1513
+workhorse sturdy~
+a sturdy workhorse~
+A sturdy workhorse stands here swaying his tail back and forth.
+~
+   This horse is young and muscular, very capable of performing virtually any
+tasks that need to be done on farms, such as pulling plows, or carrying goods.
+The horse seems very active and energetic, and looks to have been well taken
+care of.  
+~
+bd 0 0 0 k 0 0 0 -500
+8 20 2 108d80+151 1d8+0
+0 0 40 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1514
+warhorse jet black large~
+a large warhorse~
+A large warhorse with a jet black coat stands calmly in its stall.
+~
+   This warhorse is massive, double the size of any of the workhorses you have
+seen.  Bred and trained strictly for fighting in the field, and serving one
+master, this warhorse has been taken extremely good care of.  He probably lives
+a life better than some of the humans in this area.  
+~
+bd 0 0 0 k 0 0 0 -500
+9 20 1 120d90+153 1d8+0
+0 0 40 3
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1515
+stablehand young~
+a young stablehand~
+A young stablehand leans against the wall staring at you with curiosity.
+~
+   This young man has brown hair and eyes, and just the beginnings of facial
+hair.  He is probably just now reaching his teenage years.  His clothes are only
+slightly better than rags, and they are quite dirty.  He leans back against the
+wall and keeps an eye on you.  
+~
+bd 0 0 0 k 0 0 0 -500
+8 20 2 108d80+151 1d8+0
+16 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1516
+soldier veteran curly brown hair~
+a veteran soldier~
+A veteran soldier with long, curly brown hair slurps from his mug.
+~
+   This soldier is decorated by many scars of battle, and seems to be getting
+pretty rowdy right now.  He has several empty mugs lined out in front of him,
+and when he bellows out calling for another brew, his speech is somewhat
+slurred.  
+~
+bd 0 0 0 k 0 0 0 -500
+12 20 -2 156d120+151 1d8+0
+36 0 42 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1517
+young squire~
+a young squire~
+A young squire with short brown hair sips on a mug of ale.
+~
+   This young man is dressed in a knightly attire, yet everything is colored in
+black, grey or purple.  He keeps to himself for the most part, and glances at
+the other patrons with a stern eye.  
+~
+bd 0 0 0 k 0 0 0 -500
+11 20 -1 144d110+153 2d8+0
+27 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1518
+aging old sage~
+an old sage~
+An aging sage with stark white hair gazes distantly into the fireplace.
+~
+   This old man has what could possibly be the whitest hair you have ever laid
+eyes on.  Although he sits here before you, his mind seems to be far, far away.
+He doesn't even notice you stare as he just sits there, staring away into the
+fireplace.  
+~
+abd 0 0 0 k 0 0 0 -500
+11 20 -1 108d110+151 1d8+0
+27 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1519
+short woman red hair long~
+a short woman with long red hair~
+A short woman with long red hair and donning pure white robes sips on her wine.
+~
+   This woman is rather diminutive and well-built.  She has long red hair that
+flows down her back and lays in curls.  She has beautiful emerald green eyes,
+and she smiles at you as she notices your approach.  
+~
+abd 0 0 0 k 0 0 0 -500
+11 20 -1 48d110+151 1d8+0
+27 0 42 0
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#1520
+barbarian rugged bearskin man~
+a rugged barbarian~
+A rugged looking barbarian clothed completely in bearskin sits here eating.
+~
+   This man is very muscular and quite large, standing over six feet tall.  He
+is covered in bearskins and has either paint or tattoos of what appear to be
+tribal origin.  He has several tankards and plates lying empty in front of him.
+~
+bd 0 0 0 k 0 0 0 -500
+13 20 -3 168d130+151 1d10+0
+39 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1521
+shifty individual dark man~
+a shifty looking individual~
+A shifty looking individual in dark hued attire leans against the wall.
+~
+   This middle aged man doesn't seems as if he wants to be seen.  He's sitting
+back in the corner in as dark an area as he can find, and continually looks back
+and forth as if he is watching for someone, or something.  As he notices your
+penetrating gaze he attempts to sink deeper into the shadows.  
+~
+abdh 0 0 0 k 0 0 0 -500
+11 20 -1 72d110+152 1d8+0
+27 0 42 2
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 14
+E
+Dex: 18
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#1522
+beautiful dark haired woman tight leather~
+a beautiful dark haired woman~
+A beautiful, dark haired woman in tight leather clothing rolls her eyes at you.
+~
+   This woman is absolutely stunning.  She has a deep olive complexion with jet
+back hair to match.  Her eyes are almond shaped, and sit perfectly situated
+above her perfectly sized nose.  She has attractive, full lips, and a figure
+unlike any you've ever seen.  As she notices your lingering glance, she rolls
+her eyes at you as if she is disgusted.  
+~
+bd 0 0 0 k 0 0 0 -500
+12 20 -2 78d120+153 1d8+0
+36 0 42 2
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#1523
+attractive barmaid young~
+an attractive young bardmaid~
+An attractive young barmaid rushes past to deliver a tray of drinks.
+~
+   This barmaid is quite attractive, though perhaps a little on the young side.
+She is well built, and has what appears to be pretty hair, although it is hard
+to tell as she has it pulled back into a makeshift pony-tail.  She has a very
+sweet and sincere smile, and politely tries to rush past you to deliver drinks.
+~
+bdg 0 0 0 k 0 0 0 -500
+10 20 0 132d100+152 1d8+0
+25 0 42 3
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1524
+inebriated patron~
+an inebriated patron~
+A patron of the tavern slurs out a call for more ale.
+~
+   The word obnoxious would be sufficient when defining this drunken man.  His
+foul, alcohol soaked breath lingers in the air around him, and his actions are
+very disorderly.  He constantly harasses the barmaids as they try to make their
+way through the tavern, and he challenges anyone who happens to make eye contact
+with him to a fight.  
+~
+d 0 0 0 k 0 0 0 -500
+10 20 0 132d100+153 1d8+0
+25 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1525
+barkeep middle aged large~
+a large middle aged barkeep~
+A large middle aged barkeep serves drinks from behind the bar.
+~
+   This barkeep is somewhat rotund and appears to be in his middle ages.  He
+wears a dirty looking white apron, which he is currently using to polish some
+spots off of mugs.  As he notices your approach he places the mug back in place
+and moves forward to meet you.  
+~
+bd 0 0 0 k 0 0 0 -500
+11 20 -1 144d110+151 1d8+0
+27 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1526
+dwarf sloppy looking cook~
+a sloppy cook~
+A sloppy looking dwarf stands over a pot of stew, stirring it and muttering to himself.
+~
+   This dwarven man stands over this pot of stew stirring it and muttering to
+himself.  As most dwarves do, he seems to be complaining about anything and
+everything he can think of.  The stew smells reasonably good, however it leaves
+something to be desired in the appearance category.  
+~
+d 0 0 0 k 0 0 0 -500
+10 20 0 132d100+152 1d8+0
+25 0 67 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1527
+fortune teller~
+a @BFortune@n Teller~
+a @BFortune@n Teller sits at a table worrying over something.
+~
+The fortune teller seems very upset.  Ive lost my Crystal ball!  It was stollen
+i tell you.  
+~
+abdenopqrA d 0 0 0 0 0 0 0
+60 20 -50 244d100+940 1d1+0
+2860 0 43 0
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

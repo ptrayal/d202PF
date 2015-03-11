@@ -1,0 +1,1382 @@
+#3800
+Along a rocky path~
+A smooth path is starting to appear on the rocky trail ahead.  It's obvious that
+is had been some time since the path was commonly travelled because of the
+smoothness of the rocks surface.  There is some foliage covering some of the
+path, making it harder for others to notice, but beyond that the path appears to
+widen to allow for easier travels.  
+~
+38 c 0 0 0 5
+D0
+~
+~
+0 0 3801 0 0 0 0 0 0 0 0
+S
+#3801
+Along a rocky path~
+The foliage seems to be thickest at this point.  Roots, vines and briar thorn
+bushes are growing out various recesses and cracks in the mountain wall and
+attempting to block further progress.  
+~
+38 0 0 0 0 5
+D0
+~
+~
+0 0 3802 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3800 0 0 0 0 0 0 0 0
+S
+#3802
+A widening path~
+The path opens up into two smaller paths, one leading to the northeast and the
+other to the northwest.  Each path has seen very little usage in the past few
+seaons, which makes it even harder to spot for the untrained eye.  Luckily the
+dense bushes of briars and thorns seem to be slowly thinning out as your
+progress further along the trail.  
+~
+38 0 0 0 0 5
+D2
+~
+~
+0 0 3801 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3806 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3803 0 0 0 0 0 0 0 0
+S
+#3803
+New BuildWalk Room~
+The mountainous path is becoming harder and harder to climb as you increase in
+eleveation.  The path is beginning to fade and becoming nearly impossible to
+follow.  You can see what little of the mountainous trail leading around a small
+bend in the valley up ahead.  
+~
+38 0 0 0 0 5
+D6
+~
+~
+0 0 3804 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3802 0 0 0 0 0 0 0 0
+S
+#3804
+Along A Rocky Path~
+The path seems to become more narrow as you walk further and further olong it.
+The foliage is still easily navigated without running into the annoying briar
+and thorn bushes, but it is quickly coming to and end.  
+~
+38 0 0 0 0 5
+D3
+~
+~
+0 0 3805 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3803 0 0 0 0 0 0 0 0
+S
+#3805
+A Dead End~
+   The mountain path has come to a dead end.  It appears that over the years the
+mountin wall has gave way and filled the small valley with enormous boulder,
+completely blocking the path ahead.  
+~
+38 0 0 0 0 5
+D1
+~
+~
+0 0 3804 0 0 0 0 0 0 0 0
+S
+#3806
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D6
+~
+~
+0 0 3807 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3802 0 0 0 0 0 0 0 0
+S
+#3807
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D7
+~
+~
+0 0 3808 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3806 0 0 0 0 0 0 0 0
+S
+#3808
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3809 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3807 0 0 0 0 0 0 0 0
+S
+#3809
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3808 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3810 0 0 0 0 0 0 0 0
+S
+#3810
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3811 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3814 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3809 0 0 0 0 0 0 0 0
+S
+#3811
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3812 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3810 0 0 0 0 0 0 0 0
+S
+#3812
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3811 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3813 0 0 0 0 0 0 0 0
+S
+#3813
+A cavern entrance~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 5
+D1
+~
+~
+0 0 3812 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+S
+#3814
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3810 0 0 0 0 0 0 0 0
+S
+#3815
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3818 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3822 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3823 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3816 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3813 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3817 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3819 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3820 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3821 0 0 0 0 0 0 0 0
+S
+#3816
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3824 0 0 0 0 0 0 0 0
+S
+#3817
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3836 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+S
+#3818
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3858 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3854 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3855 0 0 0 0 0 0 0 0
+S
+#3819
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3850 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+S
+#3820
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3841 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3842 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+S
+#3821
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3843 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+S
+#3822
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3829 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+S
+#3823
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3815 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3846 0 0 0 0 0 0 0 0
+S
+#3824
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3816 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3825 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3827 0 0 0 0 0 0 0 0
+S
+#3825
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3826 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3824 0 0 0 0 0 0 0 0
+S
+#3826
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3825 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3835 0 0 0 0 0 0 0 0
+S
+#3827
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3828 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3824 0 0 0 0 0 0 0 0
+S
+#3828
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3827 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3833 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3834 0 0 0 0 0 0 0 0
+S
+#3829
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3822 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3830 0 0 0 0 0 0 0 0
+S
+#3830
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3832 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3831 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3829 0 0 0 0 0 0 0 0
+S
+#3831
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D9
+~
+~
+0 0 3830 0 0 0 0 0 0 0 0
+S
+#3832
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3830 0 0 0 0 0 0 0 0
+S
+#3833
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D9
+~
+~
+0 0 3828 0 0 0 0 0 0 0 0
+S
+#3834
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D6
+~
+~
+0 0 3828 0 0 0 0 0 0 0 0
+S
+#3835
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D5
+~
+~
+0 0 3862 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3826 0 0 0 0 0 0 0 0
+S
+#3836
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3817 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3837 0 0 0 0 0 0 0 0
+S
+#3837
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3838 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3836 0 0 0 0 0 0 0 0
+S
+#3838
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3837 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3839 0 0 0 0 0 0 0 0
+S
+#3839
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3840 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3838 0 0 0 0 0 0 0 0
+S
+#3840
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3839 0 0 0 0 0 0 0 0
+S
+#3841
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3820 0 0 0 0 0 0 0 0
+S
+#3842
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3820 0 0 0 0 0 0 0 0
+S
+#3843
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3821 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3844 0 0 0 0 0 0 0 0
+S
+#3844
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3843 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3845 0 0 0 0 0 0 0 0
+S
+#3845
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D6
+~
+~
+0 0 3844 0 0 0 0 0 0 0 0
+S
+#3846
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3823 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3847 0 0 0 0 0 0 0 0
+S
+#3847
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3849 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3846 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3848 0 0 0 0 0 0 0 0
+S
+#3848
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D7
+~
+~
+0 0 3847 0 0 0 0 0 0 0 0
+S
+#3849
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3847 0 0 0 0 0 0 0 0
+S
+#3850
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3851 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3819 0 0 0 0 0 0 0 0
+S
+#3851
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3852 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3850 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3853 0 0 0 0 0 0 0 0
+S
+#3852
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3851 0 0 0 0 0 0 0 0
+S
+#3853
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D8
+~
+~
+0 0 3851 0 0 0 0 0 0 0 0
+S
+#3854
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3818 0 0 0 0 0 0 0 0
+S
+#3855
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3856 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3818 0 0 0 0 0 0 0 0
+S
+#3856
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3857 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3855 0 0 0 0 0 0 0 0
+S
+#3857
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3856 0 0 0 0 0 0 0 0
+S
+#3858
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3818 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3859 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3860 0 0 0 0 0 0 0 0
+S
+#3859
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D8
+~
+~
+0 0 3858 0 0 0 0 0 0 0 0
+S
+#3860
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3861 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3858 0 0 0 0 0 0 0 0
+S
+#3861
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3860 0 0 0 0 0 0 0 0
+S
+#3862
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3863 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3835 0 0 0 0 0 0 0 0
+S
+#3863
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3864 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3862 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3871 0 0 0 0 0 0 0 0
+S
+#3864
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3865 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3863 0 0 0 0 0 0 0 0
+S
+#3865
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3864 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3866 0 0 0 0 0 0 0 0
+S
+#3866
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3865 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3867 0 0 0 0 0 0 0 0
+S
+#3867
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3868 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3866 0 0 0 0 0 0 0 0
+S
+#3868
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3869 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3867 0 0 0 0 0 0 0 0
+S
+#3869
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3870 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3868 0 0 0 0 0 0 0 0
+S
+#3870
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3869 0 0 0 0 0 0 0 0
+S
+#3871
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3863 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3872 0 0 0 0 0 0 0 0
+S
+#3872
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3871 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3873 0 0 0 0 0 0 0 0
+S
+#3873
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3874 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3872 0 0 0 0 0 0 0 0
+S
+#3874
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3873 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3875 0 0 0 0 0 0 0 0
+S
+#3875
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3874 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3877 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3876 0 0 0 0 0 0 0 0
+S
+#3876
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D7
+~
+~
+0 0 3875 0 0 0 0 0 0 0 0
+S
+#3877
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D6
+~
+~
+0 0 3875 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3878 0 0 0 0 0 0 0 0
+S
+#3878
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3880 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3879 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3877 0 0 0 0 0 0 0 0
+S
+#3879
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D8
+~
+~
+0 0 3878 0 0 0 0 0 0 0 0
+S
+#3880
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3878 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3881 0 0 0 0 0 0 0 0
+S
+#3881
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3880 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3883 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3885 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3882 0 0 0 0 0 0 0 0
+S
+#3882
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3881 0 0 0 0 0 0 0 0
+S
+#3883
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3884 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3881 0 0 0 0 0 0 0 0
+S
+#3884
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3883 0 0 0 0 0 0 0 0
+S
+#3885
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3881 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3886 0 0 0 0 0 0 0 0
+S
+#3886
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3885 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3887 0 0 0 0 0 0 0 0
+S
+#3887
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3888 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3886 0 0 0 0 0 0 0 0
+S
+#3888
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3887 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3893 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3889 0 0 0 0 0 0 0 0
+S
+#3889
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D3
+~
+~
+0 0 3890 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3891 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3888 0 0 0 0 0 0 0 0
+S
+#3890
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3889 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3892 0 0 0 0 0 0 0 0
+S
+#3891
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D6
+~
+~
+0 0 3889 0 0 0 0 0 0 0 0
+S
+#3892
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3890 0 0 0 0 0 0 0 0
+S
+#3893
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3894 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3888 0 0 0 0 0 0 0 0
+S
+#3894
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D2
+~
+~
+0 0 3893 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3895 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3897 0 0 0 0 0 0 0 0
+S
+#3895
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D1
+~
+~
+0 0 3894 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3896 0 0 0 0 0 0 0 0
+S
+#3896
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D0
+~
+~
+0 0 3895 0 0 0 0 0 0 0 0
+S
+#3897
+New BuildWalk Room~
+This unfinished room was created by Helm.
+~
+38 0 0 0 0 0
+D6
+~
+~
+0 0 3894 0 0 0 0 0 0 0 0
+S
+$~

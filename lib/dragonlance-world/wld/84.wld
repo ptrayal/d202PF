@@ -1,0 +1,1522 @@
+#8400
+The Doors of the Temple of Huerzyd~
+   The white stone walls of the temple make it seem out of place in the
+blackened city.  Two massive pillars frame the rusty metal doors of the temple.
+Large pieces of stone have broken away from the structure, causing light to
+seep in at places.  The temple was once dedicated to the gods of light, but has
+long since been abandoned.    
+~
+84 c h 0 0  0
+D0
+~
+doors~
+1 0 8443 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8455 0 0 0 0 0 0 0 0
+S
+#8401
+An Abandoned Storeroom~
+   The wooden crates stacked against the walls have begun to splinter and
+buckle under their own weight.  The floors are stained bright red from the wine
+seeping out of the numerous barrels about the room.  A distinct smell of
+rotting food permeates throughout the room.    
+~
+84 cd h 0 0  0
+D2
+~
+~
+0 0 8408 0 0 0 0 0 0 0 0
+S
+#8402
+An Abandoned Storeroom.~
+   The wooden crates stacked against the walls have begun to splinter and
+buckle under their own weight.  The floors are stained bright red from the wine
+seeping out of the numerous barrels about the room.  A distinct smell of
+rotting food permeates throughout the room.    
+~
+84 cd h 0 0  0
+D2
+~
+~
+0 0 8409 0 0 0 0 0 0 0 0
+S
+#8403
+A Storage Closet~
+   The rotten bookshelves have toppled, dumping an assortment of books and
+scrolls on the floor.  The moths circling above have ravaged all the books,
+making them unreadable.  Slivers of light enter the room through the large
+crack running down the middle of the room's ceiling.    
+~
+84 cd h 0 0  0
+D2
+~
+~
+0 0 8410 0 0 0 0 0 0 0 0
+S
+#8404
+Deserted Sleeping Quarters~
+   The floor is covered with rotting straw that has been torn from the decaying
+sleeping mats resting against the walls.  The yellowish mold covering the
+ceiling is illuminated by the cracks of light filtering in through the
+crumbling stone walls.  Lying in the corner of the room is a small pile of
+dull-white bones that have been gnawed upon.    
+~
+84 cd h 0 0  0
+D1
+~
+~
+0 0 8405 0 0 0 0 0 0 0 0
+S
+#8405
+Deserted Sleeping Quarters~
+   The floor is covered with rotting straw that has been torn from the decaying
+sleeping mats resting against the walls.  The yellowish mold covering the
+ceiling is illuminated by the cracks of light filtering in through the
+crumbling stone walls.  Lying in the corner of the room is a small pile of
+dull-white bones that have been gnawed upon.    
+~
+84 d h 0 0  0
+D1
+~
+~
+0 0 8406 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8404 0 0 0 0 0 0 0 0
+S
+#8406
+Deserted Sleeping Quarters~
+   The floor is covered with rotting straw that has been torn from the decaying
+sleeping mats resting against the walls.  The yellowish mold covering the
+ceiling is illuminated by the cracks of light filtering in through the
+crumbling stone walls.  Lying in the corner of the room is a small pile of
+dull-white bones that have been gnawed upon.    
+~
+84 cd h 0 0  0
+D2
+~
+~
+0 0 8414 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8405 0 0 0 0 0 0 0 0
+S
+#8407
+An Ancient Corridor~
+   Chunks of the corridors walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temples
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 acd h 0 0  0
+D2
+~
+~
+0 0 8417 0 0 0 0 0 0 0 0
+D5
+~
+stone~
+1 0 7842 0 0 0 0 0 0 0 0
+S
+#8408
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8401 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8409 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8419 0 0 0 0 0 0 0 0
+S
+#8409
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8402 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8408 0 0 0 0 0 0 0 0
+S
+#8410
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8403 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8411 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8421 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8409 0 0 0 0 0 0 0 0
+S
+#8411
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 0 h 0 0  0
+D1
+~
+~
+0 0 8412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8410 0 0 0 0 0 0 0 0
+S
+#8412
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 c h 0 0  0
+D1
+~
+~
+0 0 8413 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8411 0 0 0 0 0 0 0 0
+S
+#8413
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 c h 0 0  0
+D1
+~
+~
+0 0 8414 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8412 0 0 0 0 0 0 0 0
+S
+#8414
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 c h 0 0  0
+D0
+~
+~
+0 0 8406 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8415 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8425 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8413 0 0 0 0 0 0 0 0
+S
+#8415
+A Dusty Dining Hall~
+   Two large oak tables rest in the center of the dining hall.  The wooden
+benches lining the tables have rotted over time, causing them to collapse under
+their own weight.  Against the southern wall are two stone ovens.  Shattered
+clay dishware covers the floor of the room.  The sound of dripping water can be
+heard from the large glass water basin as it collects water dripping down from
+the ceiling.    
+~
+84 d h 0 0  0
+D2
+~
+~
+0 0 8426 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8414 0 0 0 0 0 0 0 0
+S
+#8416
+An Abandoned Corridor~
+   The leaking ceiling has caused the once stone floor to become a thin layer
+of mud.  The solid white stone walls have turned a dingy white from the
+constant exposure to the treacherous weather conditions of Sanction.  A
+continuous draft of wind enters the corridor from a large gap in the ceiling,
+bringing with it a strong odor of burning sulfur.  Rotten wooden doors hang
+lazily on their rusted hinges on either side of the corridor.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8430 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 8441 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 8440 0 0 0 0 0 0 0 0
+S
+#8417
+An Ancient Corridor~
+   Chunks of the corridor's walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temple's
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 cd h 0 0  0
+D0
+~
+~
+0 0 8407 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8428 0 0 0 0 0 0 0 0
+S
+#8418
+An Abandoned Meditation Cell~
+   Small fungi has sprung up from the cracks where dirt has seeped in over the
+years.  The base of all four walls of the small meditation cell are covered
+with burn marks from a fire.  Lying in the center of the room are remains of
+some kind of sitting mat.  Thick mold has covered the ceiling, creating a stale
+mildew smell.    
+~
+84 d h 0 0  0
+D1
+~
+door~
+1 0 8419 0 0 0 0 0 0 0 0
+S
+#8419
+An Abandoned Corridor~
+   The leaking ceiling has caused the once stone floor to become a thin layer
+of mud.  The solid white stone walls have turned a dingy white from the
+constant exposure to the treacherous weather conditions of Sanction.  A
+continuous draft of wind enters the corridor from a large gap in the ceiling,
+bringing with it a strong odor of burning sulfur.  Rotten wooden doors hang
+lazily on their rusted hinges on either side of the corridor.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8408 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 8420 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8430 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 8418 0 0 0 0 0 0 0 0
+S
+#8420
+An Abandoned Meditation Cell.~
+   Small fungi has sprung up from the cracks where dirt has seeped in over the
+years.  The base of all four walls of the small meditation cell are covered
+with burn marks from a fire.  Lying in the center of the room are remains of
+some kind of sitting mat.  Thick mold has covered the ceiling, creating a stale
+mildew smell.    
+~
+84 d h 0 0  0
+D3
+~
+door~
+1 0 8419 0 0 0 0 0 0 0 0
+S
+#8421
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8410 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8432 0 0 0 0 0 0 0 0
+S
+#8422
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D1
+~
+~
+0 0 8423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8433 0 0 0 0 0 0 0 0
+S
+#8423
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D1
+~
+~
+0 0 8424 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8434 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8422 0 0 0 0 0 0 0 0
+S
+#8424
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D2
+~
+~
+0 0 8435 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8423 0 0 0 0 0 0 0 0
+S
+#8425
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8414 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8436 0 0 0 0 0 0 0 0
+S
+#8426
+A Dusty Dining Hall~
+   Two large oak tables rest in the center of the dining hall.  The wooden
+benches lining the tables have rotted over time, causing them to collapse under
+their own weight.  Against the southern wall are two stone ovens.  Shattered
+clay dishware covers the floor of the room.  The sound of dripping water can be
+heard from the large glass water basin as it collects water dripping down from
+the ceiling.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8415 0 0 0 0 0 0 0 0
+S
+#8427
+The Library~
+   Resting against the wall are charred-black empty bookshelves.  The wind has
+scattered ashes of books and scrolls around the room.  A sturdy mahogany table
+spans half of the room.  Once used for studying, the table is now covered in
+dust.  Lying upon the table are dozens of unlit candles.    
+~
+84 cd h 0 0  0
+D1
+~
+~
+0 0 8428 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8438 0 0 0 0 0 0 0 0
+S
+#8428
+An Ancient Corridor~
+   Chunks of the corridors walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temples
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8417 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8439 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8427 0 0 0 0 0 0 0 0
+S
+#8429
+An Abandoned Meditation Cell~
+   Small fungi has sprung up from the cracks where dirt has seeped in over the
+years.  The base of all four walls of the small meditation cell are covered
+with burn marks from a fire.  Lying in the center of the room are remains of
+some kind of sitting mat.  Thick mold has covered the ceiling, creating a stale
+mildew smell.    
+~
+84 d h 0 0  0
+D1
+~
+door~
+1 0 8430 0 0 0 0 0 0 0 0
+S
+#8430
+An Abandoned Corridor~
+   The leaking ceiling has caused the once stone floor to become a thin layer
+of mud.  The solid white stone walls have turned a dingy white from the
+constant exposure to the treacherous weather conditions of Sanction.  A
+continuous draft of wind enters the corridor from a large gap in the ceiling,
+bringing with it a strong odor of burning sulfur.  Rotten wooden doors hang
+lazily on their rusted hinges on either side of the corridor.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8419 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 8431 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8416 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 8429 0 0 0 0 0 0 0 0
+S
+#8431
+An Abandoned Meditation Cell~
+   Small fungi has sprung up from the cracks where dirt has seeped in over the
+years.  The base of all four walls of the small meditation cell are covered
+with burn marks from a fire.  Lying in the center of the room are remains of
+some kind of sitting mat.  Thick mold has covered the ceiling, creating a stale
+mildew smell.    
+~
+84 d h 0 0  0
+D3
+~
+door~
+1 0 8430 0 0 0 0 0 0 0 0
+S
+#8432
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 c h 0 0  0
+D0
+~
+~
+0 0 8421 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8433 0 0 0 0 0 0 0 0
+S
+#8433
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8422 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8434 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8442 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8432 0 0 0 0 0 0 0 0
+S
+#8434
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8423 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8435 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8443 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8433 0 0 0 0 0 0 0 0
+S
+#8435
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8424 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8436 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8444 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8434 0 0 0 0 0 0 0 0
+S
+#8436
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 c h 0 0  0
+D0
+~
+~
+0 0 8425 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8437 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8445 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8435 0 0 0 0 0 0 0 0
+S
+#8437
+A Storage Closet~
+   The rotten bookshelves have toppled, dumping an assortment of books and
+scrolls on the floor.  The moths circling above have ravaged all the books,
+making them unreadable.  Slivers of light enter the room through the large
+crack running down the middle of the room's ceiling.    
+~
+84 d h 0 0  0
+D3
+~
+~
+0 0 8436 0 0 0 0 0 0 0 0
+S
+#8438
+The Library~
+   Resting against the wall are charred-black empty bookshelves.  The wind has
+scattered ashes of books and scrolls around the room.  A sturdy mahogany table
+spans half of the room.  Once used for studying, the table is now covered in
+dust.  Lying upon the table are dozens of unlit candles.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8427 0 0 0 0 0 0 0 0
+S
+#8439
+An Ancient Corridor~
+   Chunks of the corridors walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temples
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8428 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8448 0 0 0 0 0 0 0 0
+S
+#8440
+An Abandoned Meditation Cell~
+   Small fungi has sprung up from the cracks where dirt has seeped in over the
+years.  The base of all four walls of the small meditation cell are covered
+with burn marks from a fire.  Lying in the center of the room are remains of
+some kind of sitting mat.  Thick mold has covered the ceiling, creating a stale
+mildew smell.    
+~
+84 d h 0 0  0
+D1
+~
+door~
+1 0 8416 0 0 0 0 0 0 0 0
+S
+#8441
+An Abandoned Meditation Cell~
+   Small fungi has sprung up from the cracks where dirt has seeped in over the
+years.  The base of all four walls of the small meditation cell are covered
+with burn marks from a fire.  Lying in the center of the room are remains of
+some kind of sitting mat.  Thick mold has covered the ceiling, creating a stale
+mildew smell.    
+~
+84 d h 0 0  0
+D3
+~
+door~
+1 0 8416 0 0 0 0 0 0 0 0
+S
+#8442
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8433 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8443 0 0 0 0 0 0 0 0
+S
+#8443
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8434 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8444 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 8400 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8442 0 0 0 0 0 0 0 0
+S
+#8444
+The Altar Room~
+   Lining the northern wall of the immense, stone chamber are six magnificent
+granite statues.  The statues depict the six gods of light, Paladine, Mishakal,
+Kiri-Jolith, Branchala, Habbukuk, and Majere.  The chamber has deteriorated
+over the years but the six statues look as if time has not affected them.  
+Streaks of dried blood and claw marks cover the crumbling, stone floor.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8435 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8443 0 0 0 0 0 0 0 0
+S
+#8445
+A Crumbling Hallway~
+   The ceiling has caved in at places exposing the hallway to the elements
+outside.  Small plants have grown in the cracks of the stone floor.  A thin
+layer of black silt lines the white walls.  The thin layer of water covering
+the ground glistens in the light.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8436 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8446 0 0 0 0 0 0 0 0
+S
+#8446
+An Ancient Corridor~
+   Chunks of the corridors walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temples
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 d h 0 0  0
+D1
+~
+~
+0 0 8447 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8445 0 0 0 0 0 0 0 0
+S
+#8447
+An Ancient Corridor~
+   Chunks of the corridors walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temples
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 cd h 0 0  0
+D1
+~
+~
+0 0 8448 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8450 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8446 0 0 0 0 0 0 0 0
+S
+#8448
+An Ancient Corridor~
+   Chunks of the corridors walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temples
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8439 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8447 0 0 0 0 0 0 0 0
+S
+#8449
+High Priest's Chamber~
+   The once plush chamber has succumbed to age, giving it a dreary appearance.
+Weathered tapestries hang lazily upon the crumbling walls.  Toppled over on the
+floor are two rotted wooden chairs.  In the center of the room is an oak desk
+that has been water stained by the constant water dripping down on it from
+above.  In the far corner of the room is the remains of a once elegant four
+post bed.    
+~
+84 c h 0 0  0
+D1
+~
+~
+0 0 8450 0 0 0 0 0 0 0 0
+S
+#8450
+An Ancient Corridor~
+   Chunks of the corridors walls have crashed to the floor, creating small
+piles of debris.  Holes in the walls expose openings to many of the temples
+rooms.  Thick green slime has encased the ceiling, giving the hall a greenish
+tint.    
+~
+84 d h 0 0  0
+D0
+~
+~
+0 0 8447 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8449 0 0 0 0 0 0 0 0
+S
+#8451
+A Darkened Narrow Alley~
+   The crumbling, blackened-stoned buildings flanking the narrow alley cast
+down an ominous shadow.  Large indentations from the heavy debris tumbling down
+for the collapsing buildings cover the alley.  Thick pools of sewage collect in
+the sunken indentations all along the street.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8452 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6617 0 0 0 0 0 0 0 0
+S
+#8452
+A Darkened Narrow Alley~
+   The crumbling, blackened-stoned buildings flanking the narrow alley cast
+down an ominous shadow.  Large indentations from the heavy debris tumbling down
+for the collapsing buildings cover the alley.  Thick pools of sewage collect in
+the sunken indentations all along the street.  To the north, Luerkhisis' Way
+cuts straight through the alley, though it continues on the other side of the
+street.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8453 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8451 0 0 0 0 0 0 0 0
+S
+#8453
+Luerkhisis' Way~
+   Named in forced respect to Emperor Ariakas' temple, this road stretches
+through a good portion of Old Sanction.  Large street lights full of oil line
+each side of the street, most of which have long since run dry.  Sewer grates
+have been clogged with debris and unwanted trash.  Emotionless residents can
+occasionally be seen trodding along.  A darkened, narrow alley runs on both
+sides of the street to the north and south.    
+~
+84 0 h 0 0  1
+D0
+~
+~
+0 0 8454 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6631 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8452 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6634 0 0 0 0 0 0 0 0
+S
+#8454
+A Darkened Narrow Alley~
+   The crumbling, blackened-stoned buildings flanking the narrow alley cast
+down an ominous shadow.  Large indentations from the heavy debris tumbling down
+for the collapsing buildings cover the alley.  Thick pools of sewage collect in
+the sunken indentations all along the street.  To the south, Luerkhisis' Way
+cuts straight through the alley, though it continues on the other side of the
+street.    
+~
+84 0 h 0 0  1
+D0
+~
+~
+0 0 8455 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8453 0 0 0 0 0 0 0 0
+S
+#8455
+An Ancient Stone Bridge~
+   A surging river of magma pulses violently as it flows under an ancient stone
+bridge.  The once magnificant stone bridge has been reduced to a crumbling,
+disheveled pile of stones.  Looming to the north a massive structure obstructs
+the glaring sun above, casting a shadow over the surrounding area.    
+~
+84 0 h 0 0  0
+D0
+~
+~
+0 0 8400 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8454 0 0 0 0 0 0 0 0
+S
+#8456
+A new room~
+You are in a room.
+~
+84 0 0 0 0  0
+S
+#8457
+A new room~
+You are in a room.
+~
+84 0 0 0 0  0
+S
+#8458
+A new room~
+You are in a room.
+~
+84 0 0 0 0  0
+S
+#8459
+A new room~
+You are in a room.
+~
+84 0 0 0 0  0
+S
+#8460
+The Courtyard of Silvertree Manor~
+   Here you see the extravagant assortment of flowers and and shrubs with
+slender vallenwoods grown, pruned, and loved by the gardeners that are often
+seen with sheers trimming this or that.  The floor is a mix of cobblestones and
+grass, all leading to benches and eventually to the silver vallenwood in the
+center.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 12276 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12268 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12297 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12298 0 0 0 0 0 0 0 0
+S
+#8461
+The Second Floor Stairway~
+   The curved stairs descend to the bottom floor of the manor, the walls here
+are vallenwood as is the name of the manor.  This floor is where the guest
+rooms and the room the manor lord will retire to.  There is an exquisitely
+carved banister keeping you from falling in to the courtyard below and giving
+you a view as well.    
+~
+84 0 0 0 0  0
+D1
+~
+~
+0 0 8462 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8465 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12275 0 0 0 0 0 0 0 0
+S
+#8462
+The Second Floor Hallway~
+   This hallway with its carved banister and view of the courtyard is a
+peaceful place to walk, and without the disturbance of the gardeners and the
+few servants that keep the manor in shape.  The outside wall and floor are both
+of vallenwood, and are polished to a shine.    
+~
+84 0 0 0 0  0
+D1
+~
+~
+0 0 8463 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8461 0 0 0 0 0 0 0 0
+S
+#8463
+The Second Floor Hallway~
+   This hallway with its carved banister and view of the courtyard is a
+peaceful place to walk, and without the disturbance of the gardeners and the
+few servants that keep the manor in shape.  The outside wall and floor are both
+of vallenwood, and are polished to a shine.    
+~
+84 0 0 0 0  0
+D1
+~
+~
+0 0 8476 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8462 0 0 0 0 0 0 0 0
+S
+#8464
+The Second Floor Stairway~
+   The curved stairs descend to the bottom floor of the manor, the walls here
+are vallenwood as is the name of the manor.  This floor is where the guest
+rooms and the room the manor lord will retire to.  There is an exquisitely
+carved banister keeping you from falling in to the courtyard below and giving
+you a view as well.    
+~
+84 0 0 0 0  0
+D2
+~
+~
+0 0 8471 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8476 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12269 0 0 0 0 0 0 0 0
+S
+#8465
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8461 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8466 0 0 0 0 0 0 0 0
+S
+#8466
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8465 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8467 0 0 0 0 0 0 0 0
+S
+#8467
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8466 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8468 0 0 0 0 0 0 0 0
+S
+#8468
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 C 0 0 0  0
+D0
+~
+~
+0 0 8467 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8469 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 8482 0 0 0 0 0 0 0 0
+S
+#8469
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8468 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8470 0 0 0 0 0 0 0 0
+S
+#8470
+The Second Floor Stairway~
+   The curved stairs descend to the bottom floor of the manor, the walls here
+are vallenwood as is the name of the manor.  This floor is where the guest
+rooms and the room the manor lord will retire to.  There is an exquisitely
+carved banister keeping you from falling in to the courtyard below and giving
+you a view as well.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8469 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8480 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12263 0 0 0 0 0 0 0 0
+S
+#8471
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8464 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8472 0 0 0 0 0 0 0 0
+S
+#8472
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8471 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8473 0 0 0 0 0 0 0 0
+S
+#8473
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8472 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 8481 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8474 0 0 0 0 0 0 0 0
+S
+#8474
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8473 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8475 0 0 0 0 0 0 0 0
+S
+#8475
+The Second Floor Hallway~
+   Looking out over the banister you can see the hallway across from you and,
+downwards the courtyard below.  The banister is carved of leaves and vines
+intertwining in the elven style, the ceiling has arches that support it which
+are carved the same everywhere you look the wood is polished and well oiled.  
+Along this hallway is one of the guest bedrooms which are readied daily for the
+few guests that stay here on occasion.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8474 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8477 0 0 0 0 0 0 0 0
+S
+#8476
+The Second Floor Hallway~
+   This hallway with its carved banister and view of the courtyard is a
+peaceful place to walk, and without the disturbance of the gardeners and the
+few servants that keep the manor in shape.  The outside wall and floor are both
+of vallenwood, and are polished to a shine.    
+~
+84 0 0 0 0  0
+D1
+~
+~
+0 0 8464 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8463 0 0 0 0 0 0 0 0
+S
+#8477
+The Second Floor Stairway~
+   The curved stairs descend to the bottom floor of the manor, the walls here
+are vallenwood as is the name of the manor.  This floor is where the guest
+rooms and the room the manor lord will retire to.  There is an exquisitely
+carved banister keeping you from falling in to the courtyard below and giving
+you a view as well.    
+~
+84 0 0 0 0  0
+D0
+~
+~
+0 0 8475 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8478 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12261 0 0 0 0 0 0 0 0
+S
+#8478
+The Second Floor Hallway~
+   This hallway unlike the others has beautiful tapestries decorating its walls
+of battles and wildlife, and along the floor is a single piece of red carpet
+that runs the length of the hallway.  There is a single set of double doors in
+the center of the hallway elegantly carved upon them is a vallenwood tree.    
+~
+84 0 0 0 0  0
+D1
+~
+~
+0 0 8477 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8479 0 0 0 0 0 0 0 0
+S
+#8479
+The Second Floor Hallway~
+   This hallway unlike the others has beautiful tapestries decorating its walls
+of battles and wildlife, and along the floor is a single piece of red carpet
+that runs the length of the hallway.  There is a single set of double doors in
+the center of the hallway elegantly carved upon them is a vallenwood tree.    
+~
+84 0 0 0 0  0
+D1
+~
+~
+0 0 8478 0 0 0 0 0 0 0 0
+D2
+~
+doubledoors~
+1 0 8483 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8480 0 0 0 0 0 0 0 0
+S
+#8480
+The Second Floor Hallway~
+   This hallway unlike the others has beautiful tapestries decorating its walls
+of battles and wildlife, and along the floor is a single piece of red carpet
+that runs the length of the hallway.  There is a single set of double doors in
+the center of the hallway elegantly carved upon them is a vallenwood tree.    
+~
+84 0 0 0 0  0
+D1
+~
+~
+0 0 8479 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8470 0 0 0 0 0 0 0 0
+S
+#8481
+Guest Bedroom in the Manor~
+   Here is one of the few rooms in the manor for guests of the manor lord, its
+small but spacious room is readied daily.  There are all the things to suit
+anyone below a king here, the bed is a large canopy, a stand mirror in the
+corner, a writing desk opposite it, and a table setup with wash basin and a
+pitcher of steaming water.    
+~
+84 0 0 0 0  0
+D3
+~
+door~
+1 0 8473 0 0 0 0 0 0 0 0
+S
+#8482
+Guest Bedroom in the Manor~
+   Here is one of the few rooms in the manor for guests of the manor lord, its
+small but spacious room is readied daily.  There are all the things to suit
+anyone below a king here, the bed is a large canopy, a stand mirror in the
+corner, a writing desk opposite it, and a table setup with wash basin and a
+pitcher of steaming water.    
+~
+84 0 0 0 0  0
+D1
+~
+door~
+1 0 8468 0 0 0 0 0 0 0 0
+S
+#8483
+Master Bedroom of the Manor~
+   Upon entering the large double doors you see a large bedroom easily fitting
+a few families comfortably for the night, but yet are used only by the lord and
+his lady.  There is little here that is not extravagant or gaudy, from the
+canopy bed to the vase of elven design.  Everything here is carved, ornate, or
+jewel encrusted, this room depicts that of wealth and stature.    
+~
+84 0 0 0 0  0
+D0
+~
+doubledoors~
+1 0 8479 0 0 0 0 0 0 0 0
+S
+$

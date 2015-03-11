@@ -1,0 +1,93 @@
+#10700
+gelten innkeeper~
+Gelten~
+Gelten, the innkeeper of the Wyvern's Tail Inn writes in his record book.
+~
+   This man is middle aged and keeps a long black and grey beard.  His hair is
+cut short and combed neatly, offering you a well presented appearance.  He
+studiously writes and flips pages in his guest book, meticulously keeping
+record of all those who stay in the inn.    
+~
+d 0 0 0 k 0 0 0 0
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10701
+patron female~
+a female patron of the tavern~
+A female patron of the tavern lies here on the bed resting her eyes.
+~
+   This woman is rather attractive, having long golden hair a smooth, fair
+complexion.  She is dressed in a silky red nightgown, and snores quietly as she
+slumbers away peacefully.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This woman has obviously spent some time in battle, from the long scar that
+#10704
+danzel~
+Danzel~
+Danzel, the proprieter of the shop stands behind the desk idly.
+~
+   This man looks a little young to be running a shop, but by the looks of the
+wares, he seems to have done so fairly smartly so far.  He is dressed in an
+elegant, if not a bit extravagent suit of blue and yellow.  His hair is slicked
+back and its black hue glistens in the light.  He flashes you a charming smile
+as you gaze upon him, obviously eager to make a sale.    
+~
+d 0 0 0 k 0 0 0 0
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This middle-aged woman appears to be of Ergothian descent, judging by her
+This man is ancient.  His skin is a dull grey and hangs off his bones like
+This young-looking elf has long blonde hair tied into four distinct thick
+This young man is clad is orange-gued platemail all over, from head to toe.
+This young man is clad is orange-gued platemail all over, from head to toe.
+This young man is clad is orange-gued platemail all over, from head to toe.
+This aged man wears the same flame colored robes as the rest of the priests,
+This strapping man is of middle age with shoulder length, wavy hair the
+This woman looks to be in her late twenties or early thirties.  Although a
+This furrow-browed half elf wears a suit of forest green leather armor and a
+$

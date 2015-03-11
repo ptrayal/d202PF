@@ -1,0 +1,275 @@
+#4500
+wild boar~
+a wild boar~
+A wild boar ruts around in the dirt looking for something to eat.
+~
+   This boar is covered in short, coarse brown hair.  It sports two long wicked
+looking tusks which it uses to root around in the ground looking for food.  It
+pays you little notice and continues to forage.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4501
+plains cat~
+a sleek plains cat~
+A sleek plains cat silently stalks about on the hunt.
+~
+   This large feline is a couple hundred pounds of sleek predatory power.  Its
+coat is a midnight black to better hide in the dark.  Its razor sharp claws and
+powerful jaws make it a feared hunter.  It pads along silently over the plains
+searching for prey.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4502
+ogre hunter~
+an ogre hunter~
+A large ogre wanders here hunting the plains.
+~
+   This large ogre stands at least 7 feet tall.  He is covered in filthy animal
+skins from the animals he has killed.  He stalks about the plains searching out
+his next meal.    
+~
+d 0 0 0 k 0 0 0 -500
+20 9 -18 380d150+1000 1d8+11
+35 0 91 6
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 12
+E
+Con: 25
+E
+Cha: 12
+S
+#4504
+fire mephit humanoid flames~
+a greater fire mephit~
+A vaguely humanoid being made of writhing flames thrashes about here.
+~
+   This creature stands about 5 feet tall and has a basically humanoid shape.
+It is made entirely of elemental fire.  It writhes around the plains of magma
+on a purpose that only it can know.    
+~
+d 0 0 0 k 0 0 0 0
+25 8 -30 400d140+1000 1d8+12
+55 0 113 3
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 30
+E
+Dex: 26
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 22
+E
+Cha: 10
+S
+#4505
+lesser magma mephit~
+a lesser magma mephit~
+A large hulking mass of magma glides across the fiery plains.
+~
+   This creature is made entirely of molten lava.  Its outer shell is hard but
+at the joints thin lines of red hot lava shine through.  Its face is a blank
+mask of hard rock with two pools of lava for eye sockets.  It glides across the
+magma plains almost seeming a part of the terrain it travels across.    
+~
+d 0 0 0 k 0 0 0 0
+24 8 -28 360d130+103 1d8+12
+15 0 109 3
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 26
+E
+Dex: 22
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 20
+E
+Cha: 10
+S
+#4506
+magma mephit greater~
+a greater magma mephit~
+A large hulking mass of magma glides across the fiery plains.
+~
+   This creature is made entirely of molten lava.  Its outer shell is hard but
+at the joints thin lines of red hot lava shine through.  Its face is a blank
+mask of hard rock with two pools of lava for eye sockets.  It glides across the
+magma plains almost seeming a part of the terrain it travels across.    
+~
+d 0 0 0 k 0 0 0 0
+26 7 -31 416d150+1000 1d8+13
+59 0 113 3
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 30
+E
+Dex: 26
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 22
+E
+Cha: 10
+S
+#4507
+fire elemental column~
+a fire elemental~
+A large column of swirling fire twists about the magma plains.
+~
+   This huge column of twisting fire swirls about the magma plains.  It stirs
+up the magma as it passes throwing bits of molten lava through the air.  It
+patrols the plane keeping watch.    
+~
+d 0 0 0 k 0 0 0 0
+27 7 -33 432d170+1000 1d8+13
+63 0 113 3
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 30
+E
+Dex: 26
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 22
+E
+Cha: 10
+S
+#4508
+efreet efreeti bronze~
+a large bronze skinned efreet~
+A large bronze skinned efreeti stands here guarding the gate.
+~
+   Standing a monstrous 12 feet tall this bronze skinned efreeti stands guard
+at the black fortress's gates.  He gazes with hatred upon you and is obviously
+barely containing hostility.    
+~
+bdw g 0 0 k 0 0 0 0
+26 1 -44 20800d200+1000 1d8+19
+15 0 113 3
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 30
+E
+Dex: 26
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 22
+E
+Cha: 10
+S
+#4509
+plainsman scout~
+a plainsman scout~
+A plainsman scout quietly surveys the plains for trouble.
+~
+   Wearing soft brown deerskins and wearing ornamental feathers and body paint
+this plainsman scouts the plains for danger to his tribe.  He swiftly moves
+among the tall grasses making hardly a sound.  When he freezes in place he
+almost appears to become a part of the terrain.    
+~
+d 0 0 0 k 0 0 0 350
+11 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4510
+vulture~
+a beady-eyed vulture ~
+A beady-eyed vulture squawks about at your intrusion.
+~
+   This vulture squawks about its carrion meal.  It flaps its wings and hisses
+at you with its bald head.  Every now and then it picks choice morsels from the
+corpse it has found.    
+~
+d 0 0 0 k 0 0 0 -251
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

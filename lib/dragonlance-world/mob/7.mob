@@ -1,0 +1,278 @@
+#700
+striped water snake ~
+a striped water snake~
+A striped watersnake is partially concealed beneath the water.
+~
+   Greyish brown streaks run horizontally along the length of this snakes body.
+Its length is over two feet, but with the water color matching that of the
+snakes body it's near impossible to see all of the snake at once.  As it passes
+along the surface of the water it sends ripples through the water which signal
+to all those in the area that this predator is passing through.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#701
+alligator barbed massive aged~
+a massive alligator~
+A huge, aged alligator moves stealthily across his surroundings.
+~
+   This massive alligator has large barbed teeth which stick out from an aged,
+battle scarred jaw.  Large reptilian eyes follow every little movement,
+searching for prey.  A dark green-brown hide serves the monster much like a
+knights platemail serves him, protecting it from any opponents.  Long, dagger
+size claws propel it stealthily through the water, or quickly over land.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#709
+apparition holy whispy~
+a pale, holy apparition~
+A whispy formed figure with a sorrowful face gracefully floats here.
+~
+   She has long white flowing robes surrounding her, which are quite torn and
+ragged, but quite clean.  She has a pale face, and a look of pain crosses her
+face as she scans about the area seeming to search for something.  Long flowing
+blond hair flutters around her, and a circlet of pure silver rests comfortably
+atop her head.    
+~
+d 0 0 0 k 0 0 0 900
+23 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#711
+green marsh snake~
+an angered marsh snake~
+A green and black striped snake hides amongst the rocks.
+~
+   This large, oversized striped snake has found a hole at this temple to hide
+in.  It has large powerful fangs, and the width of this snakes body is near the
+size of a minotaurs biceps.  It stands ready to strike at the first disruption
+that presents itself, it being easily annoyed at the slightest change in its
+environment.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#712
+shining will wisp~
+a will o' the wisp~
+A shining ball of light floats above the murk.
+~
+   This radiant light hovers at roughly eyelevel, seemingly suspended in mid
+air.  It makes no noise, and doesn't seem to move at all.  A hazy white light
+emits from within, seemingly magical in nature.  The color of the light
+resembles the white light of Solinari, illuminating the night of its high
+sanctuary.    
+~
+d 0 0 0 k 0 0 0 -500
+16 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#713
+humanoid mud being~
+a humanoid covered in dripping mud~
+A man-shaped being covered with a dripping brown liquid prowls here.
+~
+   Pushing through the murk is a man formed entirely of the murk here.  Moreso
+half a man, as he is barely the size of a kender.  His body is all the same
+shade as the murk that fills the rotted swamp, and no facial features of any
+sort are discernable.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#714
+bird black grim prey~
+a dark, grim looking bird of prey~
+A black bird with sharp talons prowls the area for vermin.
+~
+   This oversized bird circles round and round, its sharp eyes seeking out the
+scarce mice that weave in and out of the crevices.  Its sleek form allows it to
+sail through the heavy air currents easily, and due to its huge size very few
+other birds of prey can compete in this area.    
+~
+d 0 0 0 k 0 0 0 -200
+12 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#715
+statue blue beautiful~
+a beautiful statue formed into the shape of a goddess~
+A blue statue formed of solid granite with a complacent look on her face rests here.
+~
+   Dwarven hands are the only hands that could have ever crafted this work, as
+no other race could be responsible for creating such a beautiful work.  She
+stands, her hands crossed across her chest, slightly leaning forward, her long
+hair streaming down her shoulders.  She wears a flowing dress, which looks
+windswept, and pressed tightly against the statues form.    
+~
+d 0 0 0 k 0 0 0 1000
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#717
+messenger~
+a messenger of chemosh~
+The messenger of chemosh hovers slightly above the ground.
+~
+   Dark grey robes cover this figures form, the only exposed bodypart being a
+bony hand that is revealed beneath the hanging robes.  There is nothing beneath
+the robes, they simply hover a few inches above the ground, the tattered robe
+tips touching the ground beneath.  No face can be seen on this apparition, as
+the area beneath the hood is bare, and only an infinite blackness hangs inside.
+~
+d 0 0 0 k 0 0 0 -900
+25 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#718
+lich undead ~
+the undead lich dragon of chemosh~
+Flapping its bony wings, an undead lich dragon stalks its prey here.
+~
+   Once resembling a living dragon, the only remnants of this ever being alive
+are the bones that make up its form.  Hollow pits exist where eyes once dwelt,
+inside of which a black fog is released.  Large bonelike wings extend out 30
+feet, and despite lacking any membranes, it still manages to fly with ease.  
+~
+d 0 0 0 k 0 0 0 -900
+34 20 7 24d100+152 1d8+0
+15 0 6 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

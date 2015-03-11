@@ -1,0 +1,27 @@
+#2700
+cartographer master~
+a master cartographer~
+A master cartographer, created by Takhisis herself, works tirelessly on his current task.
+~
+   Stop looking at me.  It distracts me from my work.  
+~
+bd 0 0 0 0 0 0 0 0
+60 20 -80 709d600+171 1d1+0
+18000 0 0 3
+6 6 0
+E
+BareHandAttack: 2
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

@@ -1,0 +1,1704 @@
+#8300
+Before the Gatehouse of Vingaard Keep~
+   A large structure comes into view spanning somewhere in the range between
+fifty to eighty feet in length.  Large banners atop the building flap loudly in
+the breeze.  The sounds of soldiers marching back and forth, along with the
+sounds of steel clashing against steel can also be heard from within the
+building.    
+~
+83 c h 0 0 2
+D0
+~
+~
+0 0 8301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8170 0 0 0 0 0 0 0 0
+S
+#8301
+The Gatehouse of Vingaard Keep~
+   A large rectangle of concrete met with iron bars stands here.  The gatehouse
+of Vingaard Keep, the first line of defense against any oncoming army.  A few
+guards can be spotted marching back and forth before the gates, stopping those
+who wish entrance into the keep of the Knights of Solamnia.    
+~
+83 0 h 0 0 2
+D0
+~
+gate~
+1 0 8302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8300 0 0 0 0 0 0 0 0
+S
+#8302
+Between the Double Gates~
+   A second set of bars protect the inner section of the keep in case the first
+line of defense has been breached.  Knights of various ranks can be seen ahead
+carrying out their daily business.  Loud, abrupt trumpets blare announcing the
+time of day.    
+~
+83 0 h 0 0 0
+D0
+~
+gate~
+1 0 8303 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 8301 0 0 0 0 0 0 0 0
+S
+#8303
+The Gatehouse of Vingaard Keep~
+   A large rectangle of concrete met with iron bars stands here.  The gatehouse
+of Vingaard Keep, the last line of defense against any oncoming army.  A few
+Knights of various rank can be seen strolling about the courtyard, attending to
+their daily business.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8304 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 8302 0 0 0 0 0 0 0 0
+S
+#8304
+Before the Gatehouse of Vingaard Keep~
+   The large construction known as Vingaard Keep spans a distance between fifty
+to eighty feet in length and stands at a height of forty feet tall.  Banners
+can be seen hung at the top of the Keep flapping roughly in the wind.  Knights
+of Solamnia can be seen tending to their day to day exercises.    
+~
+83 0 h 0 0 0
+D2
+~
+~
+0 0 8303 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 8305 0 0 0 0 0 0 0 0
+S
+#8305
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+door~
+1 0 8337 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8307 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8306 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8304 0 0 0 0 0 0 0 0
+S
+#8306
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8305 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8308 0 0 0 0 0 0 0 0
+S
+#8307
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8309 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8305 0 0 0 0 0 0 0 0
+S
+#8308
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8311 0 0 0 0 0 0 0 0
+S
+#8309
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8307 0 0 0 0 0 0 0 0
+S
+#8310
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D3
+~
+~
+0 0 8309 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 8313 0 0 0 0 0 0 0 0
+S
+#8311
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8308 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 8312 0 0 0 0 0 0 0 0
+S
+#8312
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8314 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8334 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8311 0 0 0 0 0 0 0 0
+S
+#8313
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8321 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8333 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8310 0 0 0 0 0 0 0 0
+S
+#8314
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8315 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8312 0 0 0 0 0 0 0 0
+S
+#8315
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8314 0 0 0 0 0 0 0 0
+S
+#8316
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8315 0 0 0 0 0 0 0 0
+S
+#8317
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8318 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8316 0 0 0 0 0 0 0 0
+S
+#8318
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8317 0 0 0 0 0 0 0 0
+S
+#8319
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D2
+~
+~
+0 0 8318 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8336 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 8320 0 0 0 0 0 0 0 0
+S
+#8320
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8328 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8319 0 0 0 0 0 0 0 0
+S
+#8321
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8313 0 0 0 0 0 0 0 0
+S
+#8322
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8323 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8321 0 0 0 0 0 0 0 0
+S
+#8323
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8322 0 0 0 0 0 0 0 0
+S
+#8324
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8323 0 0 0 0 0 0 0 0
+S
+#8325
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D0
+~
+~
+0 0 8326 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8324 0 0 0 0 0 0 0 0
+S
+#8326
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D2
+~
+~
+0 0 8325 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8335 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 8327 0 0 0 0 0 0 0 0
+S
+#8327
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D3
+~
+~
+0 0 8331 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8326 0 0 0 0 0 0 0 0
+S
+#8328
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8332 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8320 0 0 0 0 0 0 0 0
+S
+#8329
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8332 0 0 0 0 0 0 0 0
+S
+#8330
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8331 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8329 0 0 0 0 0 0 0 0
+S
+#8331
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8330 0 0 0 0 0 0 0 0
+S
+#8332
+The Outer Courtyard~
+   The courtyard spans around the foundation of Vingaard Keep.  Many Knights of
+various rank are seen training with one another, or by themselves.  The large
+fortress looms high above, as a few archers atop the keep can be seen keeping a
+watchful eye on the horizon.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8328 0 0 0 0 0 0 0 0
+S
+#8333
+Inside a Small Lookout Tower~
+   A few soldiers stand here looking out across the horizon of Solamnia.  
+Great rivers and massive mountains shape the vast horizon outside of the walls
+of Vingaard.  Even the city of Palanthas can be seen off to the northwest.    
+~
+83 0 h 0 0 0
+D5
+~
+~
+0 0 8313 0 0 0 0 0 0 0 0
+S
+#8334
+Inside a Small Lookout Tower~
+   A few soldiers stand here looking out across the horizon of Solamnia.  
+Great rivers and massive mountains shape the vast horizon outside of the walls
+of Vingaard.  Even the city of Palanthas can be seen off to the northwest.    
+~
+83 0 h 0 0 0
+D5
+~
+~
+0 0 8312 0 0 0 0 0 0 0 0
+S
+#8335
+Inside a Small Lookout Tower~
+   A few soldiers stand here looking out across the horizon of Solamnia.  
+Great rivers and massive mountains shape the vast horizon outside of the walls
+of Vingaard.  Even the city of Palanthas can be seen off to the northwest.    
+~
+83 0 h 0 0 0
+D5
+~
+~
+0 0 8326 0 0 0 0 0 0 0 0
+S
+#8336
+Inside a Small Lookout Tower~
+   A few soldiers stand here looking out across the horizon of Solamnia.  
+Great rivers and massive mountains shape the vast horizon outside of the walls
+of Vingaard.  Even the city of Palanthas can be seen off to the northwest.    
+~
+83 0 h 0 0 0
+D5
+~
+~
+0 0 8319 0 0 0 0 0 0 0 0
+S
+#8337
+Along the Halls of Vingaard Keep~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8338 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 8305 0 0 0 0 0 0 0 0
+S
+#8338
+Before a Guarded Doorway~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D0
+~
+door~
+1 0 8339 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8337 0 0 0 0 0 0 0 0
+S
+#8339
+Along the Halls of Vingaard Keep~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8344 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8342 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 8338 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8340 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8381 0 0 0 0 0 0 0 0
+S
+#8340
+Before the Halls of the Crown~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8339 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 8341 0 0 0 0 0 0 0 0
+S
+#8341
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+door~
+1 0 8340 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8346 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 8360 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8358 0 0 0 0 0 0 0 0
+S
+#8342
+Before the Halls of the Sword~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D1
+~
+door~
+1 0 8343 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8339 0 0 0 0 0 0 0 0
+S
+#8343
+Along the Halls of the Sword~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Kiri-Jolith.  Knights of the Sword often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8375 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 8342 0 0 0 0 0 0 0 0
+S
+#8344
+Before the Halls of the Rose~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D0
+~
+door~
+1 0 8345 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8339 0 0 0 0 0 0 0 0
+S
+#8345
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D2
+~
+door~
+1 0 8344 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 8364 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 8373 0 0 0 0 0 0 0 0
+S
+#8346
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8341 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8347 0 0 0 0 0 0 0 0
+S
+#8347
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8352 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8346 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8348 0 0 0 0 0 0 0 0
+S
+#8348
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8347 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8349 0 0 0 0 0 0 0 0
+S
+#8349
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8348 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 8354 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8356 0 0 0 0 0 0 0 0
+S
+#8350
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8347 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8351 0 0 0 0 0 0 0 0
+S
+#8351
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8350 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8362 0 0 0 0 0 0 0 0
+S
+#8352
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8353 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8347 0 0 0 0 0 0 0 0
+S
+#8353
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8363 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8352 0 0 0 0 0 0 0 0
+S
+#8354
+Along the halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D7
+~
+~
+0 0 8355 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8349 0 0 0 0 0 0 0 0
+S
+#8355
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D7
+~
+~
+0 0 8363 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8354 0 0 0 0 0 0 0 0
+S
+#8356
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D6
+~
+~
+0 0 8349 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8357 0 0 0 0 0 0 0 0
+S
+#8357
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D6
+~
+~
+0 0 8356 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8362 0 0 0 0 0 0 0 0
+S
+#8358
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D7
+~
+~
+0 0 8341 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8359 0 0 0 0 0 0 0 0
+S
+#8359
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D7
+~
+~
+0 0 8358 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8362 0 0 0 0 0 0 0 0
+S
+#8360
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 0 h 0 0 0
+D6
+~
+~
+0 0 8361 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8341 0 0 0 0 0 0 0 0
+S
+#8361
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D6
+~
+~
+0 0 8363 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8360 0 0 0 0 0 0 0 0
+S
+#8362
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8351 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 8357 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 8359 0 0 0 0 0 0 0 0
+S
+#8363
+Along the Halls of the Crown~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Habbakuk.  Knights of the Crown often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D2
+~
+~
+0 0 8353 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8361 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8355 0 0 0 0 0 0 0 0
+S
+#8364
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 d h 0 0 0
+D6
+~
+~
+0 0 8365 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8345 0 0 0 0 0 0 0 0
+S
+#8365
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 d h 0 0 0
+D6
+~
+~
+0 0 8366 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8364 0 0 0 0 0 0 0 0
+S
+#8366
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8367 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 8365 0 0 0 0 0 0 0 0
+S
+#8367
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8366 0 0 0 0 0 0 0 0
+S
+#8368
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8369 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8367 0 0 0 0 0 0 0 0
+S
+#8369
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 d h 0 0 0
+D1
+~
+~
+0 0 8370 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8368 0 0 0 0 0 0 0 0
+S
+#8370
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8371 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8369 0 0 0 0 0 0 0 0
+S
+#8371
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8372 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8370 0 0 0 0 0 0 0 0
+S
+#8372
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D3
+~
+~
+0 0 8371 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8374 0 0 0 0 0 0 0 0
+S
+#8373
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D7
+~
+~
+0 0 8374 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8345 0 0 0 0 0 0 0 0
+S
+#8374
+Along the Halls of the Rose~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Paladine.  Knights of the Rose often come here to pray before
+their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D7
+~
+~
+0 0 8372 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8373 0 0 0 0 0 0 0 0
+S
+#8375
+Along the Halls of the Sword~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Kiri-Jolith.  Knights of the Sword often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8376 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8343 0 0 0 0 0 0 0 0
+S
+#8376
+Along the Halls of the Sword~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Kiri-Jolith.  Knights of the Sword often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8379 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8377 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8380 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8375 0 0 0 0 0 0 0 0
+S
+#8377
+Along the Halls of the Sword~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Kiri-Jolith.  Knights of the Sword often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8378 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8376 0 0 0 0 0 0 0 0
+S
+#8378
+Along the Halls of the Sword~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Kiri-Jolith.  Knights of the Sword often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 0 h 0 0 0
+D3
+~
+~
+0 0 8377 0 0 0 0 0 0 0 0
+S
+#8379
+Along the Halls of the Sword~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Kiri-Jolith.  Knights of the Sword often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D2
+~
+~
+0 0 8376 0 0 0 0 0 0 0 0
+S
+#8380
+Along the Halls of the Sword~
+   Smooth marble line the walls of the hallways with etchings carved into them,
+those common with Kiri-Jolith.  Knights of the Sword often come here to pray
+before their patron God in hopes of peace and prosperity.    
+~
+83 df h 0 0 0
+D0
+~
+~
+0 0 8376 0 0 0 0 0 0 0 0
+S
+#8381
+Climbing a Marble Staircase~
+   A marble staircase slowly begins to wind upwards.  A few knights can be seen
+as they rush around the keep, tending to their duties as Knights of Solamnia.
+The blast of trumpets sounding from outside echo in throughout the keep
+announcing the time of day.    
+~
+83 df h 0 0 0
+D4
+~
+~
+0 0 8382 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 8339 0 0 0 0 0 0 0 0
+S
+#8382
+Climbing a Marble Staircase~
+   A marble staircase slowly begins to wind upwards.  A few knights can be seen
+as they rush around the keep, tending to their duties as Knights of Solamnia.
+The blast of trumpets sounding from outside echo in throughout the keep
+announcing the time of day.    
+~
+83 df h 0 0 0
+D4
+~
+~
+0 0 8383 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 8381 0 0 0 0 0 0 0 0
+S
+#8383
+Climbing a Marble Staircase~
+   A marble staircase slowly begins to wind upwards.  A few knights can be seen
+as they rush around the keep, tending to their duties as Knights of Solamnia.
+The blast of trumpets sounding from outside echo in throughout the keep
+announcing the time of day.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8384 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8389 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8390 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 8382 0 0 0 0 0 0 0 0
+S
+#8384
+Along the Halls of Vingaard Keep~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8385 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8383 0 0 0 0 0 0 0 0
+S
+#8385
+Along the Halls of Vingaard Keep~
+   An almost ease of mind can be felt as you walk along the halls of Vingaard
+Keep.  No other place in Solamnia could be as well protected as this one.  A
+few knights can be seen patrolling the halls while other knights roam about,
+tending to their daily duties.    
+~
+83 df h 0 0 0
+D0
+~
+door~
+1 0 8388 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 8386 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 8387 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8384 0 0 0 0 0 0 0 0
+S
+#8386
+Inside a Private Chamber~
+   A small room lies wide open before you.  A table, and a small, rather
+uncomfortable looking bed rest against one wall, while a basin resides on the
+other.  A small window acts as a source of light, and far before it the
+courtyard can be seen.    
+~
+83 df h 0 0 0
+D3
+~
+door~
+1 0 8385 0 0 0 0 0 0 0 0
+S
+#8387
+Inside a Private Chamber~
+   A small room lies wide open before you.  A table, and a small, rather
+uncomfortable looking bed rest against one wall, while a basin resides on the
+other.  A small window acts as a source of light, and far before it the
+courtyard can be seen.    
+~
+83 df h 0 0 0
+D0
+~
+door~
+1 0 8385 0 0 0 0 0 0 0 0
+S
+#8388
+Inside a Private Chamber~
+   A small room lies wide open before you.  A table, and a small, rather
+uncomfortable looking bed rest against one wall, while a basin resides on the
+other.  A small window acts as a source of light, and far before it the
+courtyard can be seen.    
+~
+83 df h 0 0 0
+D2
+~
+door~
+1 0 8385 0 0 0 0 0 0 0 0
+S
+#8389
+Inside the War Room~
+   A few higher ranking Knights of Solamnia stand around a large oak table
+discussing battle plans against enemy armies.  They hardly take notice of your
+arrival and continue along with their discussion.  Looking out the window, the
+courtyard below can be seen.    
+~
+83 df h 0 0 0
+D1
+~
+~
+0 0 8383 0 0 0 0 0 0 0 0
+S
+#8390
+Climbing a Marble Staircase~
+   A marble staircase slowly begins to wind upwards.  A few knights can be seen
+as they rush around the keep, tending to their duties as Knights of Solamnia.
+The blast of trumpets sounding from outside echo in throughout the keep
+announcing the time of day.    
+~
+83 df h 0 0 0
+D2
+~
+door~
+1 0 8391 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 8383 0 0 0 0 0 0 0 0
+S
+#8391
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D0
+~
+door~
+1 0 8390 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8392 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8395 0 0 0 0 0 0 0 0
+S
+#8392
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8393 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8391 0 0 0 0 0 0 0 0
+S
+#8393
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8394 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8392 0 0 0 0 0 0 0 0
+S
+#8394
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8399 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8393 0 0 0 0 0 0 0 0
+S
+#8395
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8391 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8396 0 0 0 0 0 0 0 0
+S
+#8396
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8395 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8397 0 0 0 0 0 0 0 0
+S
+#8397
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8396 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8398 0 0 0 0 0 0 0 0
+S
+#8398
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D1
+~
+~
+0 0 8397 0 0 0 0 0 0 0 0
+S
+#8399
+Walking the Ramparts~
+   Almost the entire area known as Solamnia can be seen from atop the ramparts
+of Vingaard Keep.  The sounds of soldiers training can be heard far down below
+in the courtyard of the keep.  Various archer knights can be seen strolling
+across the ramparts keeping a watchful eye out for approaching armies.    
+~
+83 0 h 0 0 0
+D3
+~
+~
+0 0 8394 0 0 0 0 0 0 0 0
+S
+$~

@@ -1,0 +1,270 @@
+#20
+None.~
+Marsh Temple (Hiddukel)~
+2000 2099 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0  2028     2     1   0   101     0    -10 
+
+D 0  2033     5     1   0   101     1    -10 
+
+D 0  2035     4     1   0   101     2    -10 
+
+O 0  2003     1  2038   0   100     3     1          0 a diseased corpse
+
+P 1  2005     1  2003   0   100     4     3          0 a small, brown covered volume
+
+M 0  2005     1  2038   1    85     5    -1          0 a rotting and deformed figure in plate mail
+
+E 1  2006     3     5   0    25     6     5          0 a black set of lackluster royal elven platemail
+
+D 0  2038     0     1   0   101     7    -10 
+
+D 0  2009     5     1   0   101     8    -10 
+
+D 0  2039     4     1   0   101     9    -10 
+
+D 0  2044     4     1   0   101    10    -10 
+
+D 0  2045     5     1   0   101    11    -10 
+
+M 0  2001     1  2041   1   100    12    -1          0 a large white worm
+
+M 0  2002     8  2030   1   100    13    -1          0 a beastial troll
+
+M 0  2002     8  2021   1   100    14    -1          0 a beastial troll
+
+M 0  2002     8  2006   1   100    15    -1          0 a beastial troll
+
+E 1  2004     8    14   0    35    16    15          0 a mottled bracer made of troll skin
+
+M 0  2002     1  2013   1    50    17    -1          0 a beastial troll
+
+M 0   703     5  2008   1   100    18    -1          0 a small black mosquito
+
+M 0  2002     8  2008   1    50    19    -1          0 a beastial troll
+
+M 0  2002     8  2014   1    50    20    -1          0 a beastial troll
+
+E 1  2004     8    14   0    35    21    20          0 a mottled bracer made of troll skin
+
+M 0   703     5  2007   1   100    22    -1          0 a small black mosquito
+
+M 0   703     5  2010   1   100    23    -1          0 a small black mosquito
+
+M 0  2002     1  2016   1   100    24    -1          0 a beastial troll
+
+M 0  2002     1  2016   1   100    25    -1          0 a beastial troll
+
+M 0  2004     1  2016   1   100    26    -1          0 an overly large troll with crossed arms
+
+E 1  2002     3    16   0    35    27    26          0 a wickedly spiked club of malice
+
+D 0  2031     0     1   0   101    28    -10 
+
+M 0  2007     4  2056   4   100    29    -1          0 a heavily cloaked man
+
+E 1  2008    10    17   0    30    30    29          0 a corroded metal rod
+
+M 0  2007     4  2056   4   100    31    -1          0 a heavily cloaked man
+
+M 0  2007     4  2056   4   100    32    -1          0 a heavily cloaked man
+
+M 0  2007     4  2056   4   100    33    -1          0 a heavily cloaked man
+
+M 0  2012    40  2080   4   100    34    -1          0 a fanatical cult member
+
+M 0  2012    40  2080   4   100    35    -1          0 a fanatical cult member
+
+M 0  2012    40  2080   4   100    36    -1          0 a fanatical cult member
+
+M 0  2012    40  2080   4   100    37    -1          0 a fanatical cult member
+
+D 0  2080     2     2   0   101    38    -10 
+
+M 0  2008     1  2081   1   100    39    -1          0 a balding man with a black goatee
+
+E 1  1257     1    17   0     5    40    39          0 a short sword with ancient writing upon it
+
+E 1  2010     3    16   0    10    41    39          0 Kezarian Devar's flail of pestilence
+
+M 0  2009     1  2081   1   100    42    -1          0 a large green skeleton of immense proportion
+
+E 1  2009     3    17   0    10    43    42          0 a flickering black shortsword surrounded by green flame
+
+D 0  2081     0     2   0   101    44    -10 
+
+M 0  2011     2  2082   2   100    45    -1          0 a guard wielding a gigantic warhammer stands firm
+
+E 1  2014    10    16   0    70    46    45          0 a darkened warhammer
+
+M 0  2011     2  2082   2   100    47    -1          0 a guard wielding a gigantic warhammer stands firm
+
+E 1  2014    10    16   0    70    48    48          0 a darkened warhammer
+
+O 0  2012     1  2082   0   100    49    -1          0 a large podium
+
+P 1  2011     5  2012   0   100    50    49          0 a short black sceptre with Morgion's markings etched on its surface
+
+M 0  2010     1  2070   1   100    51    -1          0 a powerful cleric of Morgion
+
+D 0  2070     2     0   0   101    52    -10 
+
+O 0  2015     1  2049   0   100    53    -1          0 deep dwarf corpse
+
+P 1  2016     5  2015   0    75    54    53          0 deep dwarf studded leather armor
+
+M 0  2013     1  2049   1   100    55    -1          0 a hunchbacked slime-covered beast
+
+D 0  2049     4     1   0   101    56    -10 
+
+M 0  2012    40  2071   4   100    57    -1          0 a fanatical cult member
+
+M 0  2012    40  2071   4   100    58    -1          0 a fanatical cult member
+
+M 0  2012    40  2071   4   100    59    -1          0 a fanatical cult member
+
+M 0  2012    40  2071   4   100    60    -1          0 a fanatical cult member
+
+D 0  2071     0     0   0   101    61    -10 
+
+O 0  2017     2  2050   0   100    62    -1          0 a candelabra
+
+O 0  2017     2  2050   0   100    63    -1          0 a candelabra
+
+D 0  2069     6     2   0   101    64    -10 
+
+M 0  2015     1  2083   1   100    65    -1          0 a zhakar dwarf
+
+D 0  2083     9     2   0   101    66    -10 
+
+D 0  2068     2     2   0   101    67    -10 
+
+D 0  2068     0     1   0   101    68    -10 
+
+D 0  2084     2     1   0   101    69    -10 
+
+M 0  2018     1  2088   1   100    70    -1          0 a drably dressed cleric
+
+E 1  2021    10    17   0    25    71    70          0 a piece of papyrus paper is covered with scribblings.
+
+G 1  2023    10     0   0   100    72    70          0 a key caked with dried wolves blood
+
+G 1  2022     5     0   0   100    73    70          0 an engraved key
+
+M 0  2017     3  2088   3   100    74    -1          0 a theiwar royal guard
+
+M 0  2017     3  2088   3   100    75    -1          0 a theiwar royal guard
+
+M 0  2017     3  2088   3   100    76    -1          0 a theiwar royal guard
+
+M 0  2016     1  2088   1   100    77    -1          0 a Theiwar dwarf in black robes
+
+E 1  2018     2    14   0    15    78    77          0 an indigo bracer of protection
+
+M 0  2019     1  2089   1   100    79    -1          0 a placid ettin
+
+E 1  2020     4    12   0    50    80    79          0 a motley set of mismatched furs
+
+O 0  2019     1  2089   0   100    81    -1          0 a drinking trough
+
+D 0  2089     0     2   0   101    82    -10 
+
+M 0  2020     1  2063   1   100    83    -1          0 a horrifying stahnk
+
+E 1  2024     2     5   0     5    84    83          0 a glowing bone from the stahnk's ribcage
+
+E 1  2025     7    17   0    75    85    83          0 the hooked claw of an undead terror
+
+M 0  2012    40  2072   4   100    86    -1          0 a fanatical cult member
+
+M 0  2012    40  2072   4   100    87    -1          0 a fanatical cult member
+
+M 0  2012    40  2072   4   100    88    -1          0 a fanatical cult member
+
+M 0  2012    40  2072   4   100    89    -1          0 a fanatical cult member
+
+M 0  2012    40  2076   4   100    90    -1          0 a fanatical cult member
+
+M 0  2012    40  2076   4   100    91    -1          0 a fanatical cult member
+
+M 0  2012    40  2076   4   100    92    -1          0 a fanatical cult member
+
+M 0  2012    40  2076   4   100    93    -1          0 a fanatical cult member
+
+M 0  2012    40  2075   4   100    94    -1          0 a fanatical cult member
+
+M 0  2012    40  2075   4   100    95    -1          0 a fanatical cult member
+
+M 0  2012    40  2075   4   100    96    -1          0 a fanatical cult member
+
+M 0  2012    40  2075   4   100    97    -1          0 a fanatical cult member
+
+M 0  2012    40  2074   4   100    98    -1          0 a fanatical cult member
+
+M 0  2012    40  2074   4   100    99    -1          0 a fanatical cult member
+
+M 0  2012    40  2074   4   100   100    -1          0 a fanatical cult member
+
+M 0  2012    40  2074   4   100   101    -1          0 a fanatical cult member
+
+M 0  2012    40  2073   4   100   102    -1          0 a fanatical cult member
+
+M 0  2012    40  2073   4   100   103    -1          0 a fanatical cult member
+
+M 0  2012    40  2073   4   100   104    -1          0 a fanatical cult member
+
+M 0  2012    40  2073   4   100   105    -1          0 a fanatical cult member
+
+M 0  2012    40  2077   4   100   106    -1          0 a fanatical cult member
+
+M 0  2012    40  2077   4   100   107    -1          0 a fanatical cult member
+
+M 0  2012    40  2077   4   100   108    -1          0 a fanatical cult member
+
+M 0  2012    40  2077   4   100   109    -1          0 a fanatical cult member
+
+M 0  2012    40  2078   4   100   110    -1          0 a fanatical cult member
+
+M 0  2012    40  2078   4   100   111    -1          0 a fanatical cult member
+
+M 0  2012    40  2078   4   100   112    -1          0 a fanatical cult member
+
+M 0  2012    40  2078   4   100   113    -1          0 a fanatical cult member
+
+M 0  2012    40  2079   4   100   114    -1          0 a fanatical cult member
+
+M 0  2012    40  2079   4   100   115    -1          0 a fanatical cult member
+
+M 0  2012    40  2079   4   100   116    -1          0 a fanatical cult member
+
+M 0  2012    40  2079   4   100   117    -1          0 a fanatical cult member
+
+D 0  2048     5     1   0   101   118    -10 
+
+M 0  2021     4  2058   1   100   119    -1          0 a cult servant
+
+O 0  2026     1  2058   0   100   120    -1          0 a large black pot
+
+D 0  2046     4     2   0   101   121    -10 
+
+M 0   713     5  2026   5   100   122    -1          0 a humanoid covered in dripping mud
+
+M 0   713     5  2025   5   100   123    -1          0 a humanoid covered in dripping mud
+
+M 0   713     5  2005   5   100   124    -1          0 a humanoid covered in dripping mud
+
+M 0   713     5  2005   5   100   125    -1          0 a humanoid covered in dripping mud
+
+M 0  2021     4  2057   1   100   126    -1          0 a cult servant
+
+M 0  2021     4  2051   1   100   127    -1          0 a cult servant
+
+M 0  2021     4  2054   1   100   128    -1          0 a cult servant
+
+D 0  2037     2     1   0   101   129    -10 
+
+S
+$

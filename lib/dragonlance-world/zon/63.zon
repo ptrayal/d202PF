@@ -1,0 +1,314 @@
+#63
+None.~
+Cadre (Duncan)~
+6300 6399 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+E 0  6309    10     6   0    50     1     0          0 a chainmail coif
+
+E 0  6308     4     5   0    30     2     0          0 a suit of light elven chainmail
+
+D 0  6300     7     1   0   101     3    -10 
+
+M 0  6305     3  6317   1   100     4    -1          0 a clerical aide
+
+M 0  6301     7  6317   1   100     5    -1          0 a cadre cadet
+
+D 0  6317     7     1   0   101     6    -10 
+
+D 0  6317     8     1   0   101     7    -10 
+
+M 0  6308     6  6318   1   100     8    -1          0 a dog-like cooshee
+
+G 1  6311    12     0   0    75     9     8          0 a tiny blue gemstone
+
+M 0  6302     3  6318   2   100    10    -1          0 a dark-skinned cadre guard
+
+D 0  6318     2     1   0   101    11    -10 
+
+D 0  6318     9     1   0   101    12    -10 
+
+D 0  6318     8     1   0   101    13    -10 
+
+M 0  6312     2  6320   1   100    14    -1          0 a cadre cavalier
+
+E 1  6310     2     5   0     1    15    14          0 an ancient set of platemail
+
+M 0  6305     3  6320   1   100    16    -1          0 a clerical aide
+
+D 0  6320     9     1   0   101    17    -10 
+
+D 0  6320     6     1   0   101    18    -10 
+
+M 0  6315     1  6321   1   100    19    -1          0 the cadre marshal
+
+G 1  6307     3     0   0    50    20    19          0 a red wooden baton
+
+E 1  6305     6     5   0    50    21    19          0 a Cadre Breastplate bearing the symbol of the Order of the Elven Hand
+
+D 0  6321     6     1   0   101    22    -10 
+
+M 0  6311     4  6319   1   100    23    -1          0 a cadre sergeant
+
+E 1  6309    10     6   0    50    24    23          0 a chainmail coif
+
+M 0  6308     6  6319   1   100    25    -1          0 a dog-like cooshee
+
+G 1  6311    12     0   0    75    26    25          0 a tiny blue gemstone
+
+M 0  6304     3  6319   1   100    27    -1          0 a cadre scout
+
+E 1  6302     4    12   0    30    28    27          0 a honey leather cloak
+
+E 1  6301    10     5   0   304    29    27          0 a honey leather tunic laced up on one side
+
+E 1  6300     4     7   0    50    30    27          0 honey leather pants
+
+M 0  6303     3  6319   1   100    31    -1          0 a lithe cadre archer
+
+E 1  6303     6    13   0    30    32    31          0 a grey satin sash
+
+M 0  6301     7  6319   1   100    33    -1          0 a cadre cadet
+
+D 0  6319     0     1   0   101    34    -10 
+
+M 0  6311     4  6323   1   100    35    -1          0 a cadre sergeant
+
+E 1  6309    10     6   0    50    36    35          0 a chainmail coif
+
+M 0  6301     7  6323   1   100    37    -1          0 a cadre cadet
+
+D 0  6323     2     1   0   101    38    -10 
+
+D 0  6324     0     1   0   101    39    -10 
+
+M 0  6312     2  6326   1   100    40    -1          0 a cadre cavalier
+
+E 1  6305     6     5   0    50    41    40          0 a Cadre Breastplate bearing the symbol of the Order of the Elven Hand
+
+M 0  6308     6  6326   1   100    42    -1          0 a dog-like cooshee
+
+G 1  6311    12     0   0    75    43    42          0 a tiny blue gemstone
+
+D 0  6326     3     1   0   101    44    -10 
+
+D 0  6334     1     1   0   101    45    -10 
+
+M 0  6311     4  6328   1   100    46    -1          0 a cadre sergeant
+
+E 1  6309    10     6   0    50    47    46          0 a chainmail coif
+
+M 0  6303     3  6328   1   100    48    -1          0 a lithe cadre archer
+
+E 1  6303     6    13   0    30    49    48          0 a grey satin sash
+
+D 0  6328     1     1   0   101    50    -10 
+
+D 0  6337     3     1   0   101    51    -10 
+
+M 0  6311     4  6329   1   100    52    -1          0 a cadre sergeant
+
+E 1  6309    10     6   0    50    53    52          0 a chainmail coif
+
+M 0  6308     6  6329   1   100    54    -1          0 a dog-like cooshee
+
+G 1  6311    12     0   0    75    55    54          0 a tiny blue gemstone
+
+M 0  6301     7  6329   1   100    56    -1          0 a cadre cadet
+
+M 0  6324     1  6325   1   100    57    -1          0 Vallentis
+
+G 1  6320  9999     0   0   100    58    57          0 a handful of tiny silver berries
+
+G 1  6319  9999     0   0   100    59    57          0 a light salad
+
+G 1  6318  9999     0   0   100    60    57          0 a fluted glass
+
+G 1  6317  9999     0   0   100    61    57          0 a glass bottomed pewter mug
+
+M 0  6306     2  6325   1   100    62    -1          0 a half-elven cook
+
+M 0  6303     3  6325   1   100    63    -1          0 a lithe cadre archer
+
+E 1  6303     6    13   0    30    64    63          0 a grey satin sash
+
+M 0  6301     7  6325   1   100    65    -1          0 a cadre cadet
+
+M 0  6306     2  6331   1   100    66    -1          0 a half-elven cook
+
+M 0  6304     3  6331   1   100    67    -1          0 a cadre scout
+
+E 1  6302     4    12   0    30    68    67          0 a honey leather cloak
+
+E 1  6301    10     5   0   304    69    67          0 a honey leather tunic laced up on one side
+
+E 1  6300     4     7   0    50    70    67          0 honey leather pants
+
+M 0  6301     7  6331   1   100    71    -1          0 a cadre cadet
+
+M 0  6301     7  6322   1   100    72    -1          0 a cadre cadet
+
+M 0  6310     1  6340   1   100    73    -1          0 an elven bladesinger
+
+E 1  6306     3    16   0   100    74    73          0 a slightly curved elven longsword
+
+O 0  6312     1  6340   0   100    75    -1          0 a massive iron bound chest
+
+P 1  6311    12  6312   0    75    76    75          0 a tiny blue gemstone
+
+P 1  6309    10  6312   0    30    77    75          0 a chainmail coif
+
+P 1  6308     4  6312   0    15    78    75          0 a suit of light elven chainmail
+
+P 1  6306     3  6312   0    15    79    75          0 a slightly curved elven longsword
+
+P 1  6305     6  6312   0    10    80    75          0 a Cadre Breastplate bearing the symbol of the Order of the Elven Hand
+
+P 1  6304     4  6312   0    10    81    75          0 a thistledown cloak
+
+P 1  6302     4  6312   0    10    82    75          0 a honey leather cloak
+
+P 1  6301    10  6312   0    15    83    75          0 a honey leather tunic laced up on one side
+
+P 1  6300     4  6312   0    20    84    75          0 honey leather pants
+
+M 0  6302     3  6339   1   100    85    -1          0 a dark-skinned cadre guard
+
+M 0  6313     2  6327   1   100    86    -1          0 a cadre lieutenant
+
+E 1  6308     4     5   0    30    87    86          0 a suit of light elven chainmail
+
+M 0  6304     3  6327   1   100    88    -1          0 a cadre scout
+
+E 1  6302     4    12   0    30    89    88          0 a honey leather cloak
+
+E 1  6301    10     5   0   304    90    88          0 a honey leather tunic laced up on one side
+
+E 1  6300     4     7   0    50    91    88          0 honey leather pants
+
+M 0  6305     3  6341   1   100    92    -1          0 a clerical aide
+
+M 0  6308     6  6332   1   100    93    -1          0 a dog-like cooshee
+
+G 1  6311    12     0   0    75    94    93          0 a tiny blue gemstone
+
+M 0  6307     3  6332   3   100    95    -1          0 a Cadre Healer
+
+M 0  6309     1  6330   1   100    96    -1          0 a cadre assassin
+
+E 1  6321     2     8   0     1    97    96          0 a pair of plain black leather boots
+
+E 1  6304     4    12   0    15    98    96          0 a thistledown cloak
+
+M 0  6308     6  6330   1   100    99    -1          0 a dog-like cooshee
+
+G 1  6311    12     0   0    75   100    99          0 a tiny blue gemstone
+
+M 0  6313     2  6336   1   100   101    -1          0 a cadre lieutenant
+
+E 1  6308     4     5   0    30   102   101          0 a suit of light elven chainmail
+
+O 0  6313    10  6381   0    50   103    -1          0 a golden acorn
+
+M 0  6323     3  6381   1    50   104    -1          0 the draconian assassin
+
+M 0  6320     3  6381   1    75   105    -1          0 the acolyte of mishakal
+
+M 0  6322     3  6381   1    50   106    -1          0 a pilgrim
+
+M 0  6322     3  6359   1    50   107    -1          0 a pilgrim
+
+M 0  6320     3  6384   1    75   108    -1          0 the acolyte of mishakal
+
+M 0  6321     1  6384   1   100   109    -1          0 the priest of Mishakal
+
+E 1  6322     2     5   0     5   110   109          0 a sky-blue robe with dark blue trimming
+
+E 1  6315     5     3   0    30   111   109          0 a platinum medallion of Mishakal
+
+M 0  6323     3  6383   1    50   112    -1          0 the draconian assassin
+
+M 0  6320     3  6383   1    75   113    -1          0 the acolyte of mishakal
+
+M 0  6320     3  6382   1    75   114    -1          0 the acolyte of mishakal
+
+M 0  6318     3  6373   1   100   115    -1          0 a large black serpent
+
+G 1  6314     6     0   0   100   116   115          0 a grey hooded mask of snakeskin
+
+M 0  6323     3  6373   1    50   117    -1          0 the draconian assassin
+
+O 0  6313    10  6363   0    50   118    -1          0 a golden acorn
+
+M 0  6319     5  6363   1    25   119    -1          0 the tree spirit
+
+M 0  6319     5  6344   1    25   120    -1          0 the tree spirit
+
+D 0  6313     0     1   0   101   121    -10 
+
+M 0  6319     5  6313   1    25   122    -1          0 the tree spirit
+
+M 0  6319     5  6308   1    25   123    -1          0 the tree spirit
+
+M 0  6316     4  6315   1    50   124    -1          0 a small grey furred primate
+
+M 0  6319     5  6315   1    25   125    -1          0 the tree spirit
+
+M 0  6318     3  6366   1   100   126    -1          0 a large black serpent
+
+G 1  6314     6     0   0   100   127   126          0 a grey hooded mask of snakeskin
+
+M 0  6318     3  6367   1   100   128    -1          0 a large black serpent
+
+G 1  6314     6     0   0   100   129   128          0 a grey hooded mask of snakeskin
+
+M 0  6317     8  6364   2   100   130    -1          0 a colourful, musical bird
+
+M 0  6317     8  6361   2   100   131    -1          0 a colourful, musical bird
+
+M 0  6317     8  6309   2   100   132    -1          0 a colourful, musical bird
+
+M 0  6317     8  6303   2   100   133    -1          0 a colourful, musical bird
+
+M 0  6317     8  6316   2   100   134    -1          0 a colourful, musical bird
+
+M 0  6316     4  6354   1    50   135    -1          0 a small grey furred primate
+
+M 0  6317     8  6354   2   100   136    -1          0 a colourful, musical bird
+
+M 0  6317     8  6352   2   100   137    -1          0 a colourful, musical bird
+
+M 0  6317     8  6355   2   100   138    -1          0 a colourful, musical bird
+
+M 0  6316     4  6351   1    50   139    -1          0 a small grey furred primate
+
+M 0  6316     4  6348   1    50   140    -1          0 a small grey furred primate
+
+D 0  6386     2     1   0   101   141    -10 
+
+D 0  6314     0     1   0   101   142    -10 
+
+D 0  6385     2     1   0   101   143    -10 
+
+O 0  6313    10  6345   0    50   144    -1          0 a golden acorn
+
+O 0  6313    10  6312   0    50   145    -1          0 a golden acorn
+
+O 0  6313    10  6365   0    50   146    -1          0 a golden acorn
+
+O 0  6313    10  6371   0    50   147    -1          0 a golden acorn
+
+O 0  6313    10  6378   0    50   148    -1          0 a golden acorn
+
+O 0  6313    10  6379   0    50   149    -1          0 a golden acorn
+
+O 0  6313    10  6380   0    50   150    -1          0 a golden acorn
+
+O 0  6316     5  6377   0   100   151    -1          0 a large blue gemstone
+
+O 0  1336     4  6377   0   100   152    -1          0 a tiny, black potion
+
+S
+$

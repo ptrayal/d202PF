@@ -1,0 +1,1381 @@
+#12300
+A Rickety Staircase~
+   As you take your first step down towards the cellar beneath the giant
+vallenwood tree, the withered wooden planks of these stairs groan beneath your
+weight.  The only source of light here a dim brass lantern hanging wearily from
+the mud carved wall.  The sounds of grunts and cursing can be heard coming from
+within the cellar beckoning you to take a closer look.    
+~
+123 cd 0 0 0  0
+D4
+~
+~
+0 0 1348 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12301 0 0 0 0 0 0 0 0
+S
+#12301
+Otik's Cellar~
+   As you set foot on the moist ground it becomes apparent this cellar has been
+dug into solid ground.  The damp soil keeping the temprature mildly cool and
+the air lingering with moisture.  The sound of footfalls and voices echoes
+dramatically down here.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12303 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12302 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 12300 0 0 0 0 0 0 0 0
+S
+#12302
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12305 0 0 0 0 0 0 0 0
+S
+#12303
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12306 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12301 0 0 0 0 0 0 0 0
+S
+#12304
+A new room~
+You are in a room.
+~
+123 0 0 0 0  0
+D0
+~
+~
+0 0 12301 0 0 0 0 0 0 0 0
+S
+#12305
+Wandering About the Cellar~
+You find yourself standing before a large wooden shelf containing a large array
+of bottled wines and spirits.  The shelf itself is built into the wall seeming
+to double as a support strut for the cellar as well.  Just north of you lies
+row upon row holding various ales and other brews.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12313 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12320 0 0 0 0 0 0 0 0
+S
+#12306
+Wandering About the Cellar~
+Several crates lay strewn about this section of the cellar, young helpers run
+back and forth grabbing armloads of bottles and shouldering bags of vegetables
+here, it becomes apparent this is for the stock in use of the inn above.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12307 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12321 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12303 0 0 0 0 0 0 0 0
+S
+#12307
+Walking Amidst the Barrels~
+Stacked on both sides of you stands barrel upon barrel of ale, with just enough
+room to walk through allowing you to set your eyes on all of Otiks prized
+brews.  The scent of aging ale is almost as intoxicating as the rich liquid
+itself.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12308 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12306 0 0 0 0 0 0 0 0
+S
+#12308
+Walking Amidst the Barrels~
+Stacked on both sides of you stands barrel upon barrel of ale, with just enough
+room to walk through allowing you to set your eyes on all of Otiks prized
+brews.  The scent of aging ale is almost as intoxicating as the rich liquid
+itself.    
+~
+123 d 0 0 0  0
+D2
+~
+~
+0 0 12307 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12309 0 0 0 0 0 0 0 0
+S
+#12309
+Walking Amidst the Barrels~
+Stacked on both sides of you stands barrel upon barrel of ale, with just enough
+room to walk through allowing you to set your eyes on all of Otiks prized
+brews.  The scent of aging ale is almost as intoxicating as the rich liquid
+itself.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12308 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12310 0 0 0 0 0 0 0 0
+S
+#12310
+Walking Amidst the Barrels~
+You find yourself in a small clearing, all the barrels and crates seem to be
+moved aside here to allow those dragging stock through the cellar to pass one
+another, to the north of you the sound of drunken laughter can be heard.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12314 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12309 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12311 0 0 0 0 0 0 0 0
+S
+#12311
+Walking Amidst the Barrels~
+Stacked on both sides of you stands barrel upon barrel of ale, with just enough
+room to walk through allowing you to set your eyes on all of Otiks prized
+brews.  The scent of aging ale is almost as intoxicating as the rich liquid
+itself.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12312 0 0 0 0 0 0 0 0
+S
+#12312
+Walking Amidst the Barrels~
+Stacked on both sides of you stands barrel upon barrel of ale, with just enough
+room to walk through allowing you to set your eyes on all of Otiks prized
+brews.  The scent of aging ale is almost as intoxicating as the rich liquid
+itself.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12311 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12313 0 0 0 0 0 0 0 0
+S
+#12313
+Walking Amidst the Barrels~
+Stacked on both sides of you stands barrel upon barrel of ale, with just enough
+room to walk through allowing you to set your eyes on all of Otiks prized
+brews.  The scent of aging ale is almost as intoxicating as the rich liquid
+itself.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12312 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12305 0 0 0 0 0 0 0 0
+S
+#12314
+A Narrow Corridor~
+Lining both sides of this narrow passage stand several small wooden pillars.  
+As sturdy as they appear small wisps of dust constantly fall from the ceiling
+here creating a light haze.  Its slightly warmer here, as you peer ahead you
+can catch a glimpse of a small fireplace.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12315 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12310 0 0 0 0 0 0 0 0
+S
+#12315
+A Narrow Corridor~
+Lining both sides of this narrow passage stand several small wooden pillars.  
+As sturdy as they appear small wisps of dust constantly fall from the ceiling
+here creating a light haze.  Its slightly warmer here, as you peer ahead you
+can catch a glimpse of a small fireplace.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12314 0 0 0 0 0 0 0 0
+S
+#12316
+The Tasting Area~
+Lining this small room rests two long wooden tables, their surface adorned with
+many mugs of various ales.  The ground itself seems damp and muddy on closer
+inspection it seems this is due to many mugs finding their way to being spilt
+across the floor.  A single wooden pillar dominates the center of this room its
+surface holding several more small shelves for other bottled spirits.    
+~
+123 d 0 0 0  0
+D2
+~
+~
+0 0 12315 0 0 0 0 0 0 0 0
+S
+#12317
+Wandering About the Cellar~
+Stacked from floor to ceiling here stands numerous stock piles of burlap sacks,
+many are labelled with various things such as flour or potatoes, the stacks
+themselves seem to stretch along the entire length of the cellar.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12301 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12322 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12318 0 0 0 0 0 0 0 0
+S
+#12318
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12302 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12324 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12320 0 0 0 0 0 0 0 0
+S
+#12319
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12303 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12321 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12323 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12317 0 0 0 0 0 0 0 0
+S
+#12320
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12305 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12318 0 0 0 0 0 0 0 0
+S
+#12321
+Infront of a Small Hearth~
+Built into the sturdy wall here stands a small contained fireplace, above it
+hanging upon a makeshift bracket lies an iron pot filled to the brim with a
+simmering stew.  Several small chairs are lined around the fire, here the
+workers can rest their weary muscles and shake some of the chill from their
+bodies.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12319 0 0 0 0 0 0 0 0
+S
+#12322
+Wandering About the Cellar~
+Stacked from floor to ceiling here stands numerous stock piles of burlap sacks,
+many are labelled with various things such as flour or potatoes, the stacks
+themselves seem to stretch along the entire length of the cellar.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12317 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12323 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12326 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12324 0 0 0 0 0 0 0 0
+S
+#12323
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12322 0 0 0 0 0 0 0 0
+S
+#12324
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.  Just west of you a small walk in cupboard can be seen, the scent of
+exotic herbs reaching your nose.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12318 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12325 0 0 0 0 0 0 0 0
+S
+#12325
+Standing Amidst the Herb Racks~
+Cramped into this confined walk-in cupboard, you find yourself surrounded by
+shelves of various herbs, the delicous smell of rosemary and ginger saturating
+your senses.  One can only marvel at the array of herbs and spices Otik has
+collected over the years.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12324 0 0 0 0 0 0 0 0
+S
+#12326
+Wandering About the Cellar~
+Stacked from floor to ceiling here stands numerous stock piles of burlap sacks,
+many are labelled with various things such as flour or potatoes, the stacks
+themselves seem to stretch along the entire length of the cellar.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12322 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12329 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12331 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12327 0 0 0 0 0 0 0 0
+S
+#12327
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12324 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12326 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12333 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12328 0 0 0 0 0 0 0 0
+S
+#12328
+Walking Along a Wall of Crates~
+Piled along the length of the wall here stands many wooden crates of various
+sizes, their contents hidden from everyone as on closer inspection you find
+they are nailed tight.  Just out of the corner of your eye the rapid movements
+of mice darting amidst the boxes can be seen.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12327 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12334 0 0 0 0 0 0 0 0
+S
+#12329
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.  The sound of rattling glass jars can be heard from the walk in pantry
+just east of you.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12323 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12330 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12332 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12326 0 0 0 0 0 0 0 0
+S
+#12330
+Standing Within the Pantry~
+Lining the shelves of this walk in pantry stands jar upon jar containing all
+forms of treat from pickles in brine to apples in syrup.  Every jar has been
+dated, some clearly marked as personal stock.  Upon the ground a single jar
+lies cracked in several places, a mistake obviously left hastily by one of the
+cellars workers.    
+~
+123 d 0 0 0  0
+D3
+~
+~
+0 0 12329 0 0 0 0 0 0 0 0
+S
+#12331
+Wandering About the Cellar~
+Stacked from floor to ceiling here stands numerous stock piles of burlap sacks,
+many are labelled with various things such as flour or potatoes, the stacks
+themselves seem to stretch along the entire length of the cellar.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12326 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12332 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12333 0 0 0 0 0 0 0 0
+S
+#12332
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12329 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12338 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12331 0 0 0 0 0 0 0 0
+S
+#12333
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12327 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12331 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12336 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12334 0 0 0 0 0 0 0 0
+S
+#12334
+Walking Along a Wall of Crates~
+Piled along the length of the wall here stands many wooden crates of various
+sizes, their contents hidden from everyone as on closer inspection you find
+they are nailed tight.  Just out of the corner of your eye the rapid movements
+of mice darting amidst the boxes can be seen.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12328 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12333 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12337 0 0 0 0 0 0 0 0
+S
+#12335
+Standing Behind the Stacks~
+Walking along the back wall of the cellar, a damp chill hangs in the air.  The
+high piles of burlap sacks absorbing much of the warmth here.  At your feet the
+signs of mice chewing on the bottom of several stacks can be seen, the burlap
+bags contents leaking slowly onto the ground.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12331 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12338 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12336 0 0 0 0 0 0 0 0
+S
+#12336
+Walking Along a Wall of Crates~
+Piled along the length of the wall here stands many wooden crates of various
+sizes, their contents hidden from everyone as on closer inspection you find
+they are nailed tight.  Just out of the corner of your eye the rapid movements
+of mice darting amidst the boxes can be seen.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12333 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12337 0 0 0 0 0 0 0 0
+S
+#12337
+Walking Along a Wall of Crates~
+Piled along the length of the wall here stands many wooden crates of various
+sizes, their contents hidden from everyone as on closer inspection you find
+they are nailed tight.  Just out of the corner of your eye the rapid movements
+of mice darting amidst the boxes can be seen.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12334 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12336 0 0 0 0 0 0 0 0
+S
+#12338
+Wandering About the Cellar~
+The ground seems soft beneath your feet as you walk about this man-made cavern,
+small brass lanterns hang off the walls giving off just enough light to see
+around the area.  A large wooden pillar stands here helping support the low
+ceiling.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12332 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12339 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12335 0 0 0 0 0 0 0 0
+S
+#12339
+Atop a Small Wooden Staircase~
+Leading down here lies a set of withered old steps, the light from the numerous
+lanterns cannot seem to puncture the darkness below.  An icy chill drifts along
+this narrow passage, the sound of scattering footsteps echoing eerily from wall
+to wall.    
+~
+123 d 0 0 0  0
+D3
+~
+~
+0 0 12338 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12340 0 0 0 0 0 0 0 0
+S
+#12340
+Standing Within the Sub-Cellar~
+The lanterns have been placed sparingly here, leaving long gaping shadows
+lingering in every direction, from the support struts of this second cellar,
+suspended from large hooks, hang the carcass of several animals, salted heavily
+to aid in preservation.  The air itself down here is horribly humid and cold,
+but the smell of the meats instills an inner warmth of its own.    
+~
+123 d 0 0 0  0
+D2
+~
+~
+0 0 12341 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12342 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 12339 0 0 0 0 0 0 0 0
+S
+#12341
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12340 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12344 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12346 0 0 0 0 0 0 0 0
+S
+#12342
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12340 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12346 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12343 0 0 0 0 0 0 0 0
+S
+#12343
+Standing Over a Carcass~
+Laying upon the cold earth infront of you, a carcass that has fallen from its
+hook lies collapsed in a heap.  The signs of vermin are unavoidable as rat
+excrement is scattered around the meat, a dull chewing sound can be heard
+coming from behind the carcass but a lingering scent of decay tells you it
+might be best not to investigate its source.    
+~
+123 d 0 0 0  0
+D1
+~
+~
+0 0 12342 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12347 0 0 0 0 0 0 0 0
+S
+#12344
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12341 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12345 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12348 0 0 0 0 0 0 0 0
+S
+#12345
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12344 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12350 0 0 0 0 0 0 0 0
+S
+#12346
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12342 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12341 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12348 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12347 0 0 0 0 0 0 0 0
+S
+#12347
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12343 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12346 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12349 0 0 0 0 0 0 0 0
+S
+#12348
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12346 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12344 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12349 0 0 0 0 0 0 0 0
+S
+#12349
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12347 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12348 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12351 0 0 0 0 0 0 0 0
+S
+#12350
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt and pattering of little feet breaks the ominous
+silence down here.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12348 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12345 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12351 0 0 0 0 0 0 0 0
+S
+#12351
+Wandering Along the Sub-Cellar~
+Creaking loudly the hanging meats move at your slightest touch, the few
+lanterns spread down here giving you just enough light to see whats directly
+infront of you.  The odd grunt of pattering and little feet breaks the ominous
+silence down here.  A small alcove lies just west of you leading to a large
+wooden door.    
+~
+123 d 0 0 0  0
+D0
+~
+~
+0 0 12349 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12352 0 0 0 0 0 0 0 0
+S
+#12352
+Before a Small Fortified Door~
+Before you stands a thick wooden door, fortified with several bands of steel.
+This door is possibly used as a second exit from the inn in case of emergency,
+behind you the yelling and cursing within the cellar continues as normal.    
+~
+123 cd h 0 0  0
+D1
+~
+~
+0 0 12351 0 0 0 0 0 0 0 0
+D3
+Banded with several peices of tarnished steel this broad door stands firmly
+within the tunnel, a small sign hangs on it reading, "For use only in the most
+dire of circumstance, yes Tika this includes you".    
+~
+door~
+1 0 12353 0 0 0 0 0 0 0 0
+S
+#12353
+Within a Crudely Carved Tunnel~
+As you step into the ill carved tunnel the door slams firmly behind you,
+looking back you realise the door must have been made to appear as the walls
+surface as you can find no trace, obviously a precaution againt unwanted
+visitors, the only path now is forward through the dim tunnel.    
+~
+123 a h 0 0  0
+D6
+~
+~
+0 0 12354 0 0 0 0 0 0 0 0
+S
+#12354
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D6
+~
+~
+0 0 12355 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 12353 0 0 0 0 0 0 0 0
+S
+#12355
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D6
+~
+~
+0 0 12356 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 12354 0 0 0 0 0 0 0 0
+S
+#12356
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D6
+~
+~
+0 0 12357 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 12355 0 0 0 0 0 0 0 0
+S
+#12357
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D3
+~
+~
+0 0 12358 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 12356 0 0 0 0 0 0 0 0
+S
+#12358
+A Fork in the Tunnel~
+The south wall here in the tunnel lies in ruin, rock fragments strewn across
+the ground, its apparent this section has been freshly dug out.  The sound of
+strange laughter and animal like grunts can be heard echoing from within the
+small passage.    
+~
+123 a h 0 0  0
+D1
+~
+~
+0 0 12357 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12370 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12359 0 0 0 0 0 0 0 0
+S
+#12359
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D1
+~
+~
+0 0 12358 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 12361 0 0 0 0 0 0 0 0
+S
+#12360
+A new room~
+You are in a room.
+~
+123 0 0 0 0  0
+D8
+~
+~
+0 0 12359 0 0 0 0 0 0 0 0
+S
+#12361
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D0
+~
+~
+0 0 12362 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 12359 0 0 0 0 0 0 0 0
+S
+#12362
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D0
+~
+~
+0 0 12363 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12361 0 0 0 0 0 0 0 0
+S
+#12363
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D0
+~
+~
+0 0 12364 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12362 0 0 0 0 0 0 0 0
+S
+#12364
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D0
+~
+~
+0 0 12365 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12363 0 0 0 0 0 0 0 0
+S
+#12365
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D0
+~
+~
+0 0 12366 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12364 0 0 0 0 0 0 0 0
+S
+#12366
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D0
+~
+~
+0 0 12367 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12365 0 0 0 0 0 0 0 0
+S
+#12367
+Along the Underground Tunnel~
+Droplets fall from the roof of the tunnel to land upon your head as you make
+your way through the carved passage.  The sound of your own footfalls and the
+occassioncal drip your only company, as you peer into the darkness ahead no
+sign of an exit can be seen
+~
+123 a h 0 0  0
+D0
+~
+~
+0 0 12368 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12366 0 0 0 0 0 0 0 0
+S
+#12368
+Approaching the End of the Tunnel~
+The air is slightly warmer here as you stand below the exit of the tunnel,
+several thin threads of light piercing the darkness here.  A welcome sight is
+the wooden ladder leaning against the wall and leading out of this dreary
+place.    
+~
+123 a h 0 0  0
+D2
+~
+~
+0 0 12367 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 12369 0 0 0 0 0 0 0 0
+S
+#12369
+Perched Upon a Wooden Ladder~
+The deteriorated wooden frame of the ladder creaks loudly beneath your weight
+as you gradually ascend its struts.  Above you lies a large grate hinged firmly
+to the rocky walls of the tunnel, a warm light cascades from the holes within
+the grate.    
+~
+123 c h 0 0  0
+D4
+~
+~
+0 0 2867 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12368 0 0 0 0 0 0 0 0
+S
+#12370
+Within the Small Passage~
+The passage here is strangely small, the walls rubbing against your shoulders
+meaning perhaps this was built by someone of short stature.  The sounds of
+scraping metal and vigorous digging can be heard loudly just south of you.    
+~
+123 a 0 0 0  0
+D0
+~
+~
+0 0 12358 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12371 0 0 0 0 0 0 0 0
+S
+#12371
+Amidst the Rubble~
+The ground is awash in dust and small rocks here, crunching beneath your feet,
+the ceiling itself seems to hang precariously above your head, small clouds of
+dirt constantly falling to the ground.  Dug into the wall a small passage has
+been started, evidence of the Kobolds recent efforts, its destination however
+lies a complete mystery.  A dull light illuminates this area thanks to the
+kobolds small brass lantern.    
+~
+123 0 0 0 0  0
+D0
+~
+~
+0 0 12370 0 0 0 0 0 0 0 0
+S
+$

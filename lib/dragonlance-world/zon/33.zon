@@ -1,0 +1,34 @@
+#33
+None.~
+Que-ShuII+ (Reo)~
+3300 3399 20 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 3300 9 3300 100 100 	(an elder of the tribe)
+M 0 3300 9 3300 100 100 	(an elder of the tribe)
+M 0 3300 9 3300 100 100 	(an elder of the tribe)
+D 0 3307 2 1 100 100 	(Before the Chieftain's Home)
+M 0 3305 1 3310 100 100 	(Sokath)
+G 1 3300 4 -1 -1 100 	(a small, bone key)
+D 0 3310 5 2 -1 100 	(A Grand Sitting Room)
+M 0 3306 1 3311 100 100 	(a hideously deformed creature)
+E 1 3301 1 5 -1 5 	(the flesh of a giant snail)
+E 1 3302 4 12 -1 100 	(a lump of snail flesh)
+D 0 3311 4 2 -1 100 	(Inside a Small, Hidden Chamber)
+M 0 3304 2 3308 100 100 	(a young, barbarian maiden)
+M 0 3304 2 3308 100 100 	(a young, barbarian maiden)
+D 0 3308 0 1 100 100 	(A Stone Room Filled With Rugs)
+M 0 3302 2 3301 100 100 	(a carefree child)
+M 0 3302 2 3301 100 100 	(a carefree child)
+M 0 3301 4 3301 100 100 	(a female member of the tribe)
+M 0 3301 4 3301 100 100 	(a female member of the tribe)
+M 0 3302 2 3302 100 100 	(a carefree child)
+M 0 3302 2 3302 100 100 	(a carefree child)
+M 0 3301 4 3302 100 100 	(a female member of the tribe)
+M 0 3301 4 3302 100 100 	(a female member of the tribe)
+M 0 3303 2 3305 100 100 	(a middle aged farmer)
+M 0 3303 2 3305 100 100 	(a middle aged farmer)
+S
+$

@@ -1,0 +1,1558 @@
+#10000
+blue pseudodragon~
+a @Bblue@n pseudodragon~
+A @Bblue@n pseudodragon is standing here licking his paw.
+~
+A small dragon-like creature that seems to have finished eating something...
+but you don't want to look too close at what that something was. He seems 
+fairly contented. Maybe is not hungry, anymore.
+~
+du 0 0 0 ksz y 0 0 -500
+20 10 -14 680d100+100 2d12+10
+100 0 18 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+T 10008
+#10001
+pseudodragon green~
+a @Ggreen@n pseudodragon~
+A @Ggreen@n pseudodragon is laying here, basking in the sun.
+~
+This dragon-like creature seems very peaceful, you would almost think she 
+didn't notice you if it wasn't for a tiny crack between eyelids.
+~
+d 0 0 0 kzC y 0 0 500
+21 10 -15 630d100+100 2d8+10
+85 0 18 8
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 14
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+T 10009
+#10002
+Ferry Turtle~
+@cFerry Turtle@n~
+@ca gigantic Turtle is swimming next to the shore@n
+~
+This turtle is huge, it's shell is so massive that a grown person could walk inside it. It looks to be very old and yet, it may still have many years to live. The snapping beak that it has looks sharp and strong enough to shear through a metal armor.
+~
+bdgy 0 0 0 gkE 0 0 0 0
+25 -10 -20 600d600+150 1d8+30
+0 0 9 22
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#10003
+Oman Ferry driver~
+Oman the ferry's driver~
+Oman the ferry's driver is waiting for customers
+~
+A tanned looking individual with with an uncomfortable look on his eyes. His clothes are wrinkled and smelly, like he doesn't consider hygene a priority. He is standing next to a barge used as a ferry to transport people from one port to the next.
+~
+bdgE b 0 0 k s m 0 0
+25 5 -20 1500d100+1000 1d8+15
+0 0 47 8
+6 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 22
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 10050
+#10004
+Omar ferry driver~
+Omar the ferry's driver~
+Omar the ferry's driver is waiting for customers
+~
+A tanned looking individual with with an uncomfortable look on his eyes. His clothes are wrinkled and smelly, like he doesn't consider hygene a priority. He is standing next to a barge used as a ferry to transport people from one port to the next.
+~
+bdE b 0 0 k s m 0 0
+25 8 -20 300d100+100 1d8+12
+55 0 47 8
+8 8 1
+E
+Str: 14
+E
+Dex: 22
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 10051
+#10005
+dragonfly prehistoric giant~
+Prehistoric @GDragon@Bfly@n~
+@wa giant @Gdragon@Bfly@w from prehistoric times is buzzing about @n
+~
+There is no doubt that this dragonfly is of the same kind that used to roam millions of years ago. Its of green color with blue wings and easly the size of a mans body. 
+~
+d 0 0 0 k e 0 0 0
+3 19 7 36d100+100 1d8+1
+0 0 9 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#10006
+Thrinaxodon mammal small~
+@yThrinaxodon@n~
+@wa small @ythrinaxodon@w is scurrying around the floor looking for insects@n
+~
+a small mammal similar to a weasel but with some reptile similarities from ancient times. It's about a foot and a half long and covered in hair. She sniffs the air scenting for insects to crunch with her dog like teeth.
+~
+deh 0 0 0 kr x 0 0 0
+6 16 3 72d100+1000 1d8+4
+0 0 9 2
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 14
+E
+Dex: 17
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10007
+Arthropleura giant centipede prehistoric~
+@yArthropleura@w giant centiped @n~
+@wan @yarthropleura@w is crawling around the rotting trunk of a tree@n
+~
+This giant centipede is about seven feet long with huge mandibles. It body is a bluish black and with a shiny exoskeleton that looks hard enough to defend itself from predators. 
+~
+cdy 0 0 0 kC s 0 0 0
+6 17 3 144d100+100 1d8+3
+0 0 9 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#10008
+Dimetrodon prehistoric reptile~
+@yDimetrodon@w prehistoric reptile @n~
+@wa large @yDimetrodon@w is hunting in this area @n
+~
+This reptile looks like a small sailboat. He is about 11 ft long and has a large sail on its back. By the teeth that it's showing it obviously eats meat, this one looks like a skilled hunter.
+~
+dfs 0 0 0 k qyD 0 0 0
+15 13 -8 120d100+100 2d8+7
+0 0 9 6
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10009
+Edaphosaurus giant reptile prehistoric~
+@gEdaphosaurus@w giant reptile@n~
+@wan @gEdaphosaurus@w is peacefully eating some plants@n
+~
+This reptile is about 11 ft long and 5 ft tall up to her tip of the semicircular sail on her back.  Her back and sail are green while her belly is a reddish terracota color. She  has a small head and all her attention is dedicated on the plant that she is devouring.
+~
+dh 0 0 0 kz 0 0 0 0
+15 13 -8 270d100+100 1d8+7
+0 0 9 4
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 19
+E
+Con: 12
+E
+Cha: 10
+S
+#10010
+Titanosuchus prehistoric mammal reptile~
+@rTitanosuchus@w reptile-mammal@n~
+@wa @rTitanosuchus@w is crawling and hunting for prey @n
+~
+A reptile-like animal with mammal characteristics, about 8 ft long with sharp teeth. Her coloring is reddish and her jaws look powerful. This female looks hungry.
+~
+dfs 0 0 0 kr 0 0 0 0
+17 12 -10 408d100+100 1d8+8
+0 0 9 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#10011
+Moschops reptile mammal prehistoric~
+@gMoschops@w reptile-mammal ~
+@wa big @gMoschops@w is grazing on the grass and shrubs@n
+~
+A reptile-like animal with mammal characteristics, about 16 ft long. He gives the impression of a big cow, peaceful and not very smart. His body is hughe, easily taller than a person, but seems his main course is the surrounding grass.  
+~
+dy 0 0 0 k s 0 0 0
+17 12 -10 510d100+100 1d8+8
+0 0 9 22
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 20
+E
+Cha: 10
+S
+#10012
+Placerias reptile prehistoric mammal~
+@DPlacerias@w prehistoric reptile-mammal@n~
+@wa @DPlacerias@w with two big tusks is digging for roots@n
+~
+A big reptile-like creature with mammal characteristics about 11 ft long. It's two big tusks look to be used mostly for eating roots. It has a big body that reminds of a hippos with a thick stubby tail. His only attention is to his lunch.
+~
+dy 0 0 0 k s 0 0 0
+12 13 -4 336d100+1000 1d8+7
+0 0 9 22
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+#10013
+Lystrosaurus reptile mammal prehistoric~
+@yLystrosaurus@w reptile-mammal@n~
+@wa @yLystrosaurus@w its scrambling out of the way trying to get back in the water @n
+~
+This reptile like creature has two large incisors coming out of its upper jaw and its snout ends in a beak. She looks like a small hippo but the size of a bulldog, and seems to feel more at home close to the water. She looked to have been eating the surrounding vegetation.
+~
+d 0 0 0 k s 0 0 0
+8 16 1 64d100+100 1d8+4
+0 0 9 4
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10014
+Tapinocephalus reptile mammal prehistoric~
+@DTapinocephalus@w reptile-mammal@n~
+@wa @DTapinocephalus@w is moving slowly across the path@n
+~
+A large reptile-like creature about 13 ft long and taller than a person. Its body looks like a combination of a hippo and an elephant and his head looks thick. Although he looks like he eats plants, it does seem that when in danger this animal likes to hedbutt his opponents.
+~
+dy 0 0 0 kC swyD 0 0 0
+15 13 -8 960d100+1000 1d8+7
+0 0 9 6
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+#10020
+Eoraptor dinosaur~
+@rEoraptor@w dinosaur@n~
+@wa tiny @rEoraptor@w is trying to catch an insect to eat@n
+~
+This dinosaur is the size of a chicken with sharp teeth. He seems very interested on trying to catch some of those giant dragonflies going around.
+~
+dhs 0 0 0 kr 0 0 0 0
+4 18 6 24d100+100 1d8+2
+0 0 9 2
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 14
+E
+Dex: 17
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10021
+Coleophysis dinosaur~
+@gColeophysis@w dinosaur@n~
+@wa @gColeophysis@w it's sniffing the air trying to scent her prey@n
+~
+A light footed dinosaur with very sharp teeth and the size of a large dog. She is looks like a hunter and probably not alone.
+~
+dfs 0 0 0 kr x 0 0 0
+13 14 -5 156d100+100 1d8+6
+0 0 9 2
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10022
+Herrerasaurus dinosaur~
+@yHerrerasaurus@w dinosaur@n~
+@wa large @yHerrerasaurus@w is finishing his previous meal@n
+~
+This dinosaur it's the size of a pony, but those teeth say that he eat's more than just plants. His long legs and porwerful arms show the style of hunting this animal prefers. He chases his prey and hold on ti it while he gives it a death blow with his teeth. Not a good animal to cross paths with.
+~
+dfu 0 0 0 kr qAB 0 0 0
+19 11 -12 1292d100+100 1d8+9
+0 0 9 23
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 20
+E
+Cha: 10
+S
+#10023
+Troodon dinosaur~
+@rTr@woo@rdon@w dinosaur@n~
+@wa small @rTr@woo@rdon@w is raiding a nest of some other dinosaurs eggs.@n
+~
+This small dinosaur is about the size of a medium size dog. With her long legs and sharp teeth, she seems to not have a preference between hunting or raiding nests of other dinosaurs. Her intelligent eyes take on everything and she can probably take on animals larger than her own, specially with some help.
+~
+dmu 0 0 0 kr xA 0 0 0
+8 16 1 192d100+100 1d8+4
+0 0 9 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#10050
+servant~
+a druid's servant~
+A dirty servant is looking nervously around for his master 
+~
+This servant looks hungry and skittish. He keeps looking from one side to the
+other to check that his master is not coming to punish him.
+~
+d 0 0 0 k 0 0 0 0
+3 19 7 12d0+90 1d8+1
+3 0 42 2
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10051
+maid~
+a druid's maid~
+A druid's maid is here working busily.
+~
+This maid is working hard and in a hurry. She does not look like she would 
+appreciate your interrupting her.
+~
+d 0 0 0 k 0 0 0 0
+5 18 4 20d100+100 1d8+2
+5 0 42 3
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10052
+guard~
+a druid's guard~
+A druid's guard stands here at his post.
+~
+This guard looks like a rookie. He is only halfway paying attention to you.
+~
+d 0 0 0 k 0 0 0 0
+6 17 3 48d100+100 1d8+3
+6 0 17 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10053
+apprentice~
+a druid's apprentice~
+A druid's apprentice is walking here with a purpose.
+~
+This apprentice looks tired but satisfied. It seems that the lessons are going
+well. She smugly walks down the path looking for somebody to try her lessons on
+~
+d 0 0 0 k 0 0 0 500
+7 17 2 154d100+100 1d8+3
+0 0 42 9
+8 8 2
+E
+BareHandAttack: 11
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 17
+E
+Cha: 10
+S
+T 10002
+#10054
+druidic teacher~
+a druidic teacher~
+A druidic teacher is here going over some documents.
+~
+He seems like a strict person. He does not have a pleasant look. He looks up
+impatiently from his work and glowers at you.
+~
+d 0 0 0 k D 0 0 500
+9 16 0 216d100+100 1d8+4
+0 0 42 9
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 18
+E
+Cha: 10
+S
+T 10004
+#10055
+dog frenzied~
+a frenzied dog~
+A frenzied dog is here wilding barking and snapping at anything nearby.
+~
+No trace is left of what this animal was before the horrible transformation 
+took place. All that can be seen in those evil eyes is madness, and uncontro-
+lable rage. It is a cruel person the one that made this crime against nature.
+The creature seems to be in unbearable pain, and wants to take it out on the 
+next thing it encounters.
+~
+dx 0 0 0 k qD 0 0 -500
+10 15 -2 320d80+98 1d8+5
+0 0 18 6
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 18
+E
+Cha: 10
+S
+T 10001
+#10056
+snake-dog dog~
+a snake-dog~
+A monstrous half snake, half dog is here looking at you curiously.
+~
+A domesticated snake-dog is sitting here with a curious look on her face.
+You wearily watch the fangs that you know can be poisonous.
+~
+d 0 0 0 k 0 0 0 500
+7 17 2 126d100+1000 1d8+3
+5 0 18 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 17
+E
+Cha: 10
+S
+T 10000
+#10057
+Veteran guard~
+a druid's veteran guard~
+A druid's veteran guard is here looking about wearily.
+~
+This guard is a seasoned veteran. He takes his responsibility very seriously,
+and at this moment, you are a threat to his responsibility.
+~
+bd 0 0 0 k suA 0 0 0
+12 14 -4 384d100+100 1d8+6
+0 0 42 3
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+#10058
+druid red robed~
+a red robed druid~
+A red robed druid is here seemingly searching for someone in anger.
+~
+This druid has been trained and decreed to be an adept. She seems to be
+looking for somebody, her servant perhaps. If she finds him idle, he will pay.
+~
+dt 0 0 0 kz 0 0 0 -500
+13 14 -5 312d0+1000 1d8+6
+16 0 42 9
+8 8 2
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+T 10007
+#10059
+peaceful druid~
+a peaceful looking druid~
+A peaceful looking druid is here in quiet contemplation.
+~
+She seems like a peaceful and intellectual person. In her tunic she has the 
+symbol of Sylvanus, and like her diety, she seems much more interested in the
+surrounding nature than anything else around here. She glows of sanctity.
+~
+dt 0 0 0 hkmz 0 0 0 500
+13 14 -5 312d100+100 1d8+6
+0 0 42 9
+8 8 2
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+T 10006
+#10060
+experiment~
+an experiment gone wrong~
+A druid's experiment gone wrong is here thrashing in agony and hatred.
+~
+It's impossible to know which kind of animal this was before, but does it
+matter? it is here, and it is angry, and is ready to tear anybody on its way 
+out.
+~
+di 0 0 0 k 0 0 0 -500
+15 13 -8 480d100+100 1d8+7
+0 0 18 6
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+T 10003
+#10061
+Peryton~
+a peryton~
+A large peryton is flapping its wings ready to attack.
+~
+With the seven feet long body of a giant eagle and the head of a demonic 
+@mpurple@n stag, this magical beast looks very dangerous. The claws, the 
+horns, and the large fangs all seem to be ideal for this animal's purpose,
+to eat human hearts. Flaping its wings, the Peryton looks for its next prey.
+~
+cds 0 0 0 kq eA 0 0 -500
+17 12 -10 408d100+100 1d8+8
+0 0 18 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+T 10005
+#10062
+ibrandlin~
+an @Ribrandlin@n~
+@yAn @Ribrandlin@y is standing here, guarding the passage.@n
+~
+@yThis creature looks like an elongated, wingless @rred@y dragon with a
+@Dgrey-scaled@y body tinged with @rred@y on its back and belly.  It is of gargantuan
+size and it seems to have been trained or created to guard this place.  @n
+~
+bduv 0 0 0 k 0 0 0 0
+25 8 -20 600d100+100 4d8+12
+0 0 101 3
+8 8 2
+E
+BareHandAttack: 14
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#10063
+Banelar~
+a banelar~
+An atrocious banelar is here coiled in waiting.
+~
+@yThis evil creature looks like a cross between a chinese dragon and a cobra.
+It has a dark, snake like body with a large humanoid head. It is @mpurple@g
+-green@y in its body with @wwhite@y eyes and a brownish tail. Tiny tentacles
+grow around its mouth and although they don't look strong enough to wield a 
+weapon, they look capable or using wands and other magical items. It looks 
+like this beast is an adept spellcaster.@n
+~
+bdtuE 0 0 0 kr 0 m 0 -500
+25 8 -20 2000d100+100 1d8+12
+0 0 18 0
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 10011
+#10064
+Rennor the Highdruid~
+@BRennor@y, the hierophant@n~
+@BRennor@y, the hierophant druid is here.@n
+~
+@BRennor@y seems to be a peaceful and intelligent druid, well in his fifties and with a long white beard that carelesly touches his mid section. He is attentive, listening to the animals and nature around him. But behind that facade, there is power irradiating from him.@n
+~
+bdtD 0 0 0 hkrz 0 0 0 500
+20 10 -14 2600d100+100 1d8+10
+1000 0 17 9
+5 8 1
+E
+BareHandAttack: 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+T 10010
+#10065
+baneguard skeletal~
+a skeletal baneguard~
+A skeletal baneguard is patroling the area
+~
+It looks unfinished.
+An animated skeleton is walking around searching for anything amiss. They do 
+not look any different than any other skeleton raised from the dead, except 
+that this one is wearing a mage's robe. Could it be intelligent?
+~
+dt 0 0 0 kzC 0 0 0 -500
+10 14 -2 80d100+1000 1d8+6
+0 0 6 0
+8 8 0
+E
+BareHandAttack: 12
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 10012
+#10066
+Djinni~
+Djinni~
+an ethereal @bDjinni@n hovers over the area
+~
+This djinni stands about 10 feet tall and is very large. His intelligent eyes 
+assess the situation and the whirlwind surrounding him stops. That normally 
+means that it is ready to attack.
+~
+dt 0 0 0 k e 0 0 500
+18 11 -11 648d100+100 1d8+9
+0 0 17 0
+8 8 1
+E
+BareHandAttack: 12
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 20
+E
+Cha: 10
+S
+T 10013
+#10067
+Rennor the Evil Highdruid~
+@RRennor@y, the Highdruid~
+@RRennor@y the founder of this cult of followers is waiting here
+~
+@RRennor@y seems to have changed from when you last saw him. No longer a calmed looking individual with a long white beard, but a vibrant looking leader in his forties, intelligent and ambitious. He seems to have been waiting for you, and that is never a good sign.@n
+~
+bdtD 0 0 0 hkrz 0 0 0 -500
+20 10 -14 2600d100+100 1d8+10
+0 0 42 9
+8 8 1
+E
+BareHandAttack: 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+T 10014
+#10068
+Rennor the Overlord~
+@MRennor@y, the Overlord~
+@MRennor@y the heirophant is here laughing maniacally.@n
+~
+@MRennor@y looks amused. He has a defiant look is his eyes.  @rThere is @Rmadness@r in them as well.@n
+~
+bdtF 0 0 0 dhkrzC s 0 0 0
+25 8 -20 7000d100+100 1d8+12
+0 0 42 9
+8 8 1
+E
+BareHandAttack: 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+T 10015
+#10069
+Phaerlin Giant~
+a phaerlin giant~
+A phaerlin giant is here moaning in pain and anguish.
+~
+@yThis @DPhaerlin Giant@y is an aberration made from a stone giant. He walks with
+his hands and his body is stooped and hunched. His features are bestial, his
+jaw protrudes and his teeth are sharp and elongated. His skin is hairless and 
+and tough, and his back is covered with hard plates. Yellow tiny eyes squint 
+at the light and search for his master.@n
+~
+bdmv 0 0 0 kzC sw 0 0 0
+20 10 -14 1800d100+100 1d8+10
+76 0 13 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#10070
+Right Hand of Rennor~
+@yRight@R Hand of Rennor@n~
+@yThe @RRight Hand of Rennor@y is practicing throwing knifes at a picture of Rennor@n
+~
+A massive individual with sinister eyes and a hipocritycal smile. He seems like the kind of person that may stab you in the back when you turn around. He becons you over to talk to him.
+~
+bdvz 0 0 0 kn s 0 0 -500
+20 5 -14 680d100+1000 1d8+15
+0 0 17 6
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#10071
+Left Hand of Rennor~
+@yLeft @BHand of Rennor@n~
+@yThe Left @BHand of Rennor@y is here meditating@n
+~
+A kindly old man looks at you from his meditating position. He does not seem disturbed by your presence, and in fact, he looks like he has been waiting for you. The old man emits a comfortable aura about him and he becons you over to listen to his plight.
+~
+bdtz 0 0 0 hkmC 0 0 0 500
+20 10 -14 160d100+100 1d8+10
+0 0 17 0
+8 8 1
+E
+BareHandAttack: 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#10100
+TRex Tyranosaurus rex~
+@rTyranosaurus@y Rex@n dinosaur~
+The king of beasts, a @rTyranosaurus@y Rex@n dinosaur is waiting here
+~
+Huge, powerful, fierce and very scary. This meat eater is taller than an elephant and with 50 + dagger size teeth and a large head. This was the wrong beast to mess with.
+~
+dfsvyD 0 0 0 k quD dm 0 0
+40 7 -38 14400d400+130 1d8+13
+0 0 107 6
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+S
+#10101
+Gigantosaurus dinosaur~
+@bGigantosaurus@n dinosaur~
+a huge @bGigantosaurus@n dinosaur is towering over you
+~
+This dinosaur is even bigger than the famous T Rex, with sharp long teeth and powerful legs and arms. She may not be alone.
+~
+dmuy 0 0 0 k qD m 0 0
+36 8 -33 5472d360+5000 1d8+12
+0 0 9 6
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 25
+E
+Cha: 10
+S
+#10102
+Allosaurus dinosaur~
+@yAll@Do@ysau@Dr@yus@n dinosaur~
+an @yAll@Do@ysau@Dr@yus@n is savoring leftovers.. hmm... carcass
+~
+This dinosaur is huge, as big as an elephant and quite strong and fast. He used to be the top predator of his era. It had strong arms to grab on to prey and razorsharp teeth. He looks like he is enjoying his meal.
+~
+dy 0 0 0 k D n 0 0
+28 11 -23 3024d280+5000 1d8+9
+0 0 107 6
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+#10103
+Albertosaurus dinosaur~
+@gAlb@ye@grto@ys@gauru@ys@n dinosaur~
+an @gAlb@ye@grto@ys@gauru@ys@n is roaming to see what she can catch
+~
+A fast runner with strong legs, this dinosaur, cousin of the T Rex, looks like a ferocious carnivore. She obviously is not as big as her relative, but at 30 feet, she is no pushover. She seems to be looking for a prey.
+~
+dsuy 0 0 0 k x d 0 0
+26 7 -21 624d100+100 1d8+13
+0 0 107 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#10104
+Spinosaurus dinosaur~
+@ySpi@Cn@yosa@Cu@yrus@n dinosaur~
+a massive @ySpi@Cn@yosa@Cu@yrus@n is blocking the way
+~
+Very much like the other carnivores from the dinosaur era, except with a huge sail on its back. This giant meat eater looks to be as big as a TRex, and maybe as ferocious. His elongated jaws look to be made for catching big fish, but he does not look like he would discriminate between land and watery prey, and with his size, he can catch almost anything, or anybody.
+~
+dfv 0 0 0 k AD m 0 0
+34 9 -30 4522d340+124 1d8+11
+0 0 107 6
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#10105
+Acrocanthosaurus dinosaur~
+@rAcrocanthosaurus@n dinosaur~
+an @rAcrocanthosaurus@n dinosaur is resting here
+~
+This huge meat eater dinosaur has a big head and a small sail along her back. She has long serrated teeth that look good for slicing prey. Not much of a scavanger, this is a hunter.
+~
+dv 0 0 0 k qA dm 0 0
+33 9 -29 4389d330+123 1d8+11
+0 0 107 6
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#10106
+Argentinosaurus dinosaur~
+@yAr@Cg@yent@Cin@yosa@Cu@yrus@n dinosaur~
+an impossibly collossal @yAr@Cg@yent@Cin@yosa@Cu@yrus@n dinosaur is lumbering here
+~
+It is almost impossible to describe how big this animal is. A peaceful plant eater, it's amazing that anything could bother it
+~
+bdeF 0 0 0 kzC wyD dm 0 0
+45 -2 -44 18000d100+100 1d8+22
+0 0 107 22
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 27
+E
+Cha: 10
+S
+#10107
+Supersaurus dinosaur~
+@DSupersaurus@n dinosaur~
+an incredibly long @DSupersaurus@n is eating leaves from a tree
+~
+his giant is about 138 ft long, probably one of the largest animals ever seen. Its legs look like the ones of an elephant, cushioned at the soles to support that much weight. One can only imagine the damage that a hit from that tail would do.
+~
+duy 0 0 0 k sy dm 0 0
+40 7 -38 7200d400+130 1d8+13
+0 0 107 22
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+S
+#10108
+Seismosaurus dinosaur~
+@DSei@cs@Dmos@ca@Durus@n dinosaur~
+a collosal and small headed @DSei@cs@Dmos@ca@Durus@n is grazing here
+~
+An enourmous beast, even amongst giants of its kind. It looks to be about 130 ft long mostly distributed along its tail and neck. She has a very small head by comparison so it cannot be very bright.
+~
+duy 0 0 0 k yD d 0 0
+38 8 -35 5776d380+128 1d8+12
+0 0 107 22
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 25
+E
+Cha: 10
+S
+#10109
+Brachiosaurus dinosaur~
+@yBra@cc@yhio@cs@yaurus@n dinosaur~
+an extremely tall @yBra@cc@yhio@cs@yaurus@n is eating leaves from the tall trees
+~
+This animal could be compared to a giraffe, ten times it size. Her long neck reaches hights of 50 ft tall, and her tail is short by compariosn to other giant leaf eaters. With that height, nobody could sneak on her.
+~
+bdey 0 0 0 k yD d 0 0
+38 8 -35 5776d380+128 1d8+12
+0 0 107 22
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 25
+E
+Cha: 10
+S
+#10110
+Apatosaurus dinosaur~
+@yApatosaurus@n dinosaur~
+a giant @yApatosaurus@n is staying close to his herd
+~
+A massive animal, with a long neck and tail that gives him a length up to 69 ft. His is very heavy weigthing about 30 tons, and by comparison, his head is tiny. Probably not a very bright animal, but his size and strength most likely make up for those deficiencies during combat. He looks like peaceful plant eater.
+~
+duy 0 0 0 k y d 0 0
+33 9 -29 4389d330+123 1d8+11
+0 0 107 22
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#10111
+Stegosaurus dinosaur~
+@rSte@yg@rosa@yu@rrus@n dinosaur~
+a giant @rSte@yg@rosa@yu@rrus@n is werily looking out for danger
+~
+This giant dinosaur has a very big set of plates along its back with vibrant red colors. Its a very big beast, about 30 ft long and as tall as an elephant. There are also four long spikes at the end of its tail that will make him a formidable opponent.
+~
+bdev 0 0 0 k y dn 0 0
+33 9 -29 4389d330+123 1d8+11
+0 0 107 6
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#10112
+Ankylosaurus dinosaur~
+@DAnkylosaurus@n dinosaur~
+a club tailed @DAnkylosaurus@n is grazing here
+~
+Another giant dinosaur, but this one looks like a tank. Completely covered in armored plates and with a club for a tail heavy enough to break the bones of other giants predators that would attack her.
+~
+deuy 0 0 0 k swy 0 0 0
+30 5 -26 1080d100+100 1d8+15
+0 0 107 22
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+#10113
+Triceratops dinosaur~
+@gTric@re@grat@ro@gps@n dinosaur~
+a very large @gTric@re@grat@ro@gps@n is scanning the horizon suspiciously
+~
+Huge animal with a bulky body and a large head that ends in three very large horns. He has a strong beak and teeth inside his mouth to eat vegetation. This animal looks very irritable and it would not hesitate to attack any potential threat.
+~
+bdev 0 0 0 k wy n 0 0
+33 9 -29 4389d330+123 1d8+11
+0 0 107 6
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#10114
+Pachycephalosaurus dinosaur~
+@yPachy@Dcephalosaurus@n dinosaur~
+a large @yPachy@Dcephalosaurus@n is challenging for territory
+~
+Large dinosaur with a tiny brain and a very thick skull that he uses to headbutt his opponents. At 15 ft this animal could cause a lot of pain to any predator that happens to pass through his territory.
+~
+def 0 0 0 k w 0 0 0
+28 6 -23 672d100+100 1d8+14
+0 0 107 3
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#10115
+Pteranodon~
+@MPteranodon@n~
+a giant @MPteranodon@n s here trying to scare enemies form it's nest
+~
+A large flying reptile with wings like a bat and an elongated beak used for fishing. This large animal is about 23 feet in length from tip to tip of it's wings and has a very bad disposition to whoever gets too close to her nest.
+~
+dmv 0 0 0 kq e 0 0 0
+25 12 -20 1800d250+1000 1d8+8
+0 0 107 3
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 32
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#10120
+grotesque dwarven undead~
+a grotesque dwarven undead~
+a grotesque dwarven undead
+~
+It looks unfinished.
+~
+d e 0 0 k 0 0 0 0
+20 14 -14 1200d100+100 1d1+6
+0 0 6 12
+8 8 0
+E
+BareHandAttack: 10
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+$

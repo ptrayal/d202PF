@@ -1,0 +1,42 @@
+#599
+Ubtao Uthgar Cyric~
+Player Housing~
+59900 59999 30 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+O 0 64013 8 59915 100 0 	(a crafting station)
+D 0 59912 4 1 100 0 	(@DKronk's Temple dedicated to @MUbtao@n)
+D 1 59912 4 2 100 0 	(@DKronk's Temple dedicated to @MUbtao@n)
+O 0 59905 1 59912 100 0 	(Prayer of @MUbtao@n)
+M 0 59901 1 59912 100 0 	(@DGuardian Statue@n)
+O 0 10013 100 59999 100 0 	(Craft Station)
+O 0 10015 100 59999 100 0 	(a storage cabinet)
+M 0 59900 1 59911 100 0 	(Sven)
+O 0 10014 1 59920 100 0 	(Small Chest)
+D 0 59909 0 1 100 0 	(Residential Street)
+D 0 59913 5 1 100 0 	(Storeroom)
+D 1 59913 5 2 100 0 	(Storeroom)
+O 0 10010 1 59913 100 0 	(Kronk's key)
+O 0 10011 1 59913 100 0 	(Large Chest )
+D 0 59914 2 1 100 0 	(Faeforge Minor Residence)
+O 0 4891 1 59906 100 0 	(a stone forge crafting station)
+O 0 4999 1 59906 100 0 	(a stone chest with a@D K@n on the lid)
+M 0 59913 1 59906 100 0 	(Grog)
+G 1 211 100 -1 -1 0 	(a suit of full plate armor)
+G 1 203 100 -1 -1 0 	(a suit of light chain armor)
+G 1 250 100 -1 -1 0 	(a steel halberd)
+G 1 240 100 -1 -1 0 	(a steel rapier)
+G 1 2608 100 -1 -1 0 	(a black and silver cloak)
+G 1 295 100 -1 -1 0 	(a set of black and white clothing)
+G 1 4058 100 -1 -1 0 	(@WHealing potion@n)
+O 0 59902 1 59902 100 0 	(an@W ivory@n pedestal with arance markings)
+D 0 59902 0 1 100 0 	(@gThe Tower of@n@G Disc@n)
+O 0 59903 1 59902 100 0 	(a round chest shaped like a large ball)
+D 0 59900 0 2 100 0 	(Luskan Residential Row)
+D 0 59900 2 1 100 0 	(Luskan Residential Row)
+D 0 59901 2 2 100 0 	(a small, cozily appointed house)
+O 0 59900 1 59901 100 0 	(a small chest)
+S
+$

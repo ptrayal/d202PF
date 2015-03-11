@@ -1,0 +1,45 @@
+#3000
+Kill Captured Pickpockets~
+Defeat 10 captured pickpockets~
+   Well gladiator, if you want to get your nose wet, get out there and defeat 10
+captured pickpockets.  They shouldn't pose too much of a threat, just watch out
+for them, they tend to fight dirty.  Well don't just stand there, get out there
+and fight!  
+~
+   You've defeated 10 captured pickpockets, and have been rewarded with the
+following:
+100 experience points
+200 gold coins
+50 quest points
+Congratulations!
+~
+   You've decided to end your quest to defeat 10 captured pickpockets.  
+~
+3 3005 0 3000 -1 901 -1
+50 0 1 10 -1 -1 10
+200 100 65535
+S
+#3001
+Kill flaming hand mercenary fighters~
+Kill 20 flaming hand mercenary fighters~
+   The Flaming Hand Mercenary Band has been a thorn in Lord Taerl's side for
+many years now.  Despite efforts to pay them off or drive them away they persist
+and seem to have an interest in meddling in Lord Taerl's affair.  Our Lord has
+finally gotten tired of all other avenues of diplomacy and has decided to wipe
+them off the face of the earth.  Begin by killing 20 of their best fighters.  
+This sigil will reward you automatically upon completion.  Now begone, I have
+little patience for adventurers.  
+~
+   He sigil Benfirth placed upon you glows brightly for a moment and your reward
+appears automatically in your hands.  You have received 5000 gold coins, 20,000
+experience points, and 5,000 quest points.  You also receive a jade ring covered
+in emblems of sea turtles.  
+~
+   The sigil disappears as you abandon Benfirth's quest to kill 20 flaming hand
+mercenary fighters.  
+~
+3 3069 0 2202 -1 -1 -1
+5000 0 10 25 -1 -1 20
+5000 20000 3036
+S
+$~

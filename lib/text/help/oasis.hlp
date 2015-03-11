@@ -1,0 +1,344 @@
+OASIS
+
+OasisOLC is the name given to a set of on line editing tools that can be
+used by authorized players to examine, change and create the various world
+entities that make up the Mud environment.  It is referred to as "on line"
+creation because it allows people to create and edit things while the mud
+is running, or on line.  This is opposed to the traditional method of editing
+the various text files that comprise the mud "world" using various off-line
+editors (typically vi or emacs), and the restarting the mud so that the
+updated files are reloaded.
+
+Categories of Oasis Commands
+----------------------------
+
+1)  Commands to examine the existing mud operation.  These are the [x]list
+    commands, that can be used to view a range of world objects, and give
+    a summary of their descriptions.  The actual commands are:
+    mlist - List Mobiles               slist - List Shops
+    olist - List Objects               zlist - List Zones
+    rlist - List Rooms
+
+2)  Commands to change or create entities and mud operation values.  The
+    commands are:
+    aedit - Actions (socials) editor   redit - Room editor
+    cedit - Configuration editor       sedit - Shop editor
+    medit - Mobile editor              tedit - Text file editor
+    oedit - Object editor              zedit - Zone editor
+
+3)  Miscellaneous commands.
+    buildwalk - Create rooms by walking around
+    dig       - Open exits between two rooms
+    rclone    - Create a copy of a room
+    saveall   - Writes al outstanding changes to disk
+
+Using the Editing Commands
+--------------------------
+
+All of the edit commands are menu driven.  See OASIS-EDIT for general
+instructions on how the menu interface works.
+
+Granting Access to Oasis Commands
+---------------------------------
+
+Access to the Oasis commands are controlled through a number of means.  Of
+course, the master command list (in interpreter.c) specifies the minimum
+level for a player to call the command.  This is typically set to either
+LVL_BUILDER, or LVL_GOD.  A few commands are restricted to the implementor.
+
+A player can always edit a zone and its contents if their name is in the 
+zone builders list (see ZEDIT for more information).  Finally, a player 
+may be granted OLC rights to a specific zone by means of the "set" command,
+using "set <player> olc <zone>".
+
+The implementor has unfettered access to all Oasis commands.
+
+External Documentation
+----------------------
+
+Refer to "The CircleMUD Builder's Manual" that is shipped with the CircleMUD
+distribution, as this provides considerable invaluable information that is 
+essential to anyone building on a mud, whether off-line or using Oasis.  The
+main reference documentation for OasisOLC can be found at:
+
+     http://dgscripts.n3.net/
+
+See Also:  OASIS-EDIT
+           MLIST OLIST RLIST SLIST ZLIST 
+           AEDIT CEDIT MEDIT OEDIT REDIT SEDIT TEDIT ZEDIT
+           BUILDWALK DIG RCLONE
+
+#
+OASIS-EDIT
+
+The OasisOLC edit programs make use of a menu interface, and each of the
+various commands has a similar appearance.  Each attribute of the thing
+you are editing is listed, with a menu number against it.  These numbers
+start from the number 1, run through the digits to 9, then use the letters
+A onwards.  You enter the number (or letter) corresponding to the item you
+wish to change.
+
+Some menu items will lead to sub-menus, for example setting various bit
+fields.
+
+In general, the letter "Q" will quit (with the option to save) the menu
+level you are currently at, although some sub-menus use the number "0"
+to leave the menu.
+
+Types of Menu Items
+-------------------
+
+1)  Single value items.  These correspond to attributes that have a single
+    value or a simple list.  For example, a room name, an object's weight,
+    or the list of aliases for a mobile.  Enter the value(s) and press the
+    return key.
+
+2)  Long text fields.  This corresponds to a multi-line text string, such
+    as a room's description.  This makes use of the "enhanced edit" text
+    editor.  Use the "/h" command in the editor to see the various options.
+
+3)  Multi-value fields.  This is a menu item where you have to enter several
+    values, such as an object's value flags, where there can be up to four
+    values that you have to enter.  Each value will have its own prompt, so
+    enter the value as directed by the prompt, and press the return key.
+
+4)  Bit string fields.  This menu item goes to a sub-menu, with all of the 
+    possible bit values listed.  You can select as many values as you wish, 
+    with each menu number on this sub-menu toggling its corresponding flag
+    on and off.  Use the menu item "0" once you have set all the flags you
+    require to return to the top menu.
+
+5)  Multiple choice fields.  This is where the attribute has one of a number
+    of possible values, such as an object's type or a room's sector type.
+    The sub-menu will list all the possible values, so to choose the value
+    you want, enter the menu item number that corresponds to the particular
+    choice you want.  This is unlike the bit string field, in that once you 
+    make a choice, that value is recorded and you are returned to the upper
+    menu.
+
+6)  Sub menus.  Selecting this menu option takes you to a sub-menu where a 
+    new set of menu items are listed.  Once you have finished working at 
+    this sub-menu level, generally 0 or Q will return you to the upper menu.
+
+Saving Your Changes
+-------------------
+
+If you have changed the thing you are working on in any way, taking the 
+"Q" option from the top-most menu will save the object, if you respond
+with a "Y" at the save object prompt.
+
+See Also: OASIS
+#
+MLIST
+
+Usage: mlist
+       mlist .
+       mlist <zone>
+       mlist <start room> <end room>
+
+This provides a list of mobiles, giving the mob vnum, name and mob level. 
+When called without any parameters, or by "mlist .", all mobs in the zone 
+you are currently in will be listed.  Alternatively, you can specify a 
+particular zone number, and all mobs in that zone will be listed, or a 
+minimum and maximum mob vnum, and all mobs in that range will be listed.
+
+See Also : OASIS MEDIT
+#
+OLIST
+
+Usage: olist
+       olist .
+       olist <zone>
+       olist <start room> <end room>
+
+This provides a list of objects, giving the obj vnum, name and object type. 
+When called without any parameters, or by "olist .", all objects in the zone 
+you are currently in will be listed.  Alternatively, you can specify a 
+particular zone number, and all objects in that zone will be listed, or a 
+minimum and maximum object vnum, and all objects in that range will be listed.
+
+See Also : OASIS OEDIT
+#
+
+RLIST
+
+Usage: rlist
+       rlist .
+       rlist <zone>
+       rlist <start room> <end room>
+
+This provides a list of rooms, giving the room vnum, name and any exits 
+from each room to other zones.  When called without any parameters, or 
+by "rlist .", all rooms in the zone you are currently in will be listed.  
+Alternatively, you can specify a particular zone number, and all rooms in 
+that zone will be listed, or a minimum and maximum room vnum, and all rooms 
+in that range will be listed.
+
+See Also : OASIS REDIT
+#
+SLIST
+
+Usage: slist
+       slist .
+       slist <zone>
+       slist <start room> <end room>
+
+This provides a list of shops, giving the shop vnum, rnum and the room
+vnum(s) that the shop is located in.  When called without any parameters, 
+or by "slist .", all shops in the zone you are currently in will be listed.  
+Alternatively, you can specify a particular zone number, and all shops in 
+that zone will be listed, or a minimum and maximum shop vnum, and all rooms 
+in that range will be listed.
+
+See Also : OASIS SEDIT
+#
+ZLIST
+
+Usage: zlist
+       zlist <zone>
+
+This command can either show all information for a single zone, or a list
+of all zones in the game.  The list of zones shows the zone number, zone
+name, and the builder (if assigned).
+
+See also: OASIS ZEDIT
+#
+AEDIT
+
+Usage: ADEIT <social>.
+
+This allows you to create new actions (socials), and edit values for existing 
+socials.  Values that can be edited in this process are either those that 
+control the command operation (minimum character level and position, sort
+order in the command table, etc), or the resulting messages that are send to
+the character issuing the command, others in the same room, and the command
+victim.  These messages can use substitution parameters as per the act() 
+function, which is described in greater detail in the documentation "The
+act() Function" included as part of the stock CircleMUD release.
+
+See Also: OASIS OASIS-EDIT 
+#
+CEDIT
+
+Usage: cedit
+
+This command is used to modify a mange of run-time configuration values 
+that control the operation of the mud.
+
+See Also: OASIS OASIS-EDIT
+#
+MEDIT
+
+Usage: medit <mob vnum>
+
+This is used to create or modify a mobile.
+
+See Also: OASIS OASIS-EDIT MLIST
+#
+OEDIT
+
+Usage: oedit <object vnum>
+
+This is used to create or modify an object.
+
+See Also: OASIS OASIS-EDIT OLIST
+#
+REDIT
+
+Usage: redit [<room vnum>]
+
+This is used to create or modify a room.  When called without a room 
+vnum, it will modify the room you are currently in.
+      
+See Also: OASIS OASIS-EDIT RLIST BUILDWALK DIG RCLONE
+#
+SEDIT
+
+Usage: sedit <shop vnum>
+
+This is used to create or modify an existing shop.
+
+See Also: OASIS OASIS-EDIT SLIST
+#
+TEDIT
+
+Usage: tedit <text file>
+
+This command allows you to edit - using the enhanced editor - a number of
+text files and save these to disk.
+
+See Also: OASIS OASIS-EDIT
+#
+ZEDIT
+
+Usage: zedit [<room number>]
+       zedit new <zone> <bottom room> <top room>
+       zedit save [<zone>]
+
+The zedit command is used to create new zones, change the characteristics
+of existing zones, and create and edit individual zone commands.
+
+The first variant of the zedit command is used to change values for an 
+existing zone and add or modify the zone commands that relate to a particular
+room.  If no room number is given, zedit will work with the room the player is
+currently in, or if a room number is specified, it will work with the zone
+that contains that room.  The zedit menu is in two parts, the upper part 
+being used to set the overall value for the total zone (zone name, reset
+mode, and so on), while the lower part lists the zone commands that relate
+to the particular room.
+
+The second variant is used to create a brand new zone, specifying the zone
+number and the range of room vnums that the zone contains.  This will bring
+up the standard zone edit menu.
+
+The third (and final) variant will save the complete zone to the disk file,
+for either the zone specified or, if no zone number was entered, for the 
+zone that the player is currently in.
+
+See Also: OASIS OASIS-EDIT ZLIST
+#
+BUILDWALK
+
+Usage: buildwalk
+
+This command toggles "buildwalking" mode on and off.  In this mode, walking
+in a direction where a room doesn't exist will find the next available room
+vnum in that zone, create a new room with that vnum, and make a two way link
+between the room the builder was standing in and the new room.
+
+See Also: OASIS DIG RCLONE REDIT
+#
+DIG
+
+Usage: dig <direction> <room vnum>
+       dig <direction> -1
+
+This command will create a new exit from your current room to the target 
+room, and if possible, create the reverse exit from the target room back
+to the current room.
+
+You can remove an existing exit by specifying a target room of "-1".
+
+See Also: OASIS BUILDWALK RCLONE REDIT
+#
+RCLONE
+
+Usage: rclone <room vnum>
+
+This command will create a new room with the provided vnum that is an
+exact copy of the current room.  This includes all exits, room flags and
+extra descriptions.
+
+See Also: OASIS BUILDWALK DIG REDIT
+#
+SAVEALL
+
+Usage: saveall
+
+This command will write all unsaved Oasis changes to the permanent disk
+files.
+
+See Also: OLC
+#
+$
+

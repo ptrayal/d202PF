@@ -1,0 +1,36 @@
+#11001
+black stone alter~
+a black stone alter~
+An alter carved of black stone.~
+This alter is carved from black stone.  The sides are covered with intricate carvings of spider, driders and drow.  There seem to be many monks and books depicted in the carvings as well.  Reddish brown stains run down the alter and seem to puddle on the ground.  Though polished to a high shine, the top of the alter is covered in scratches and chips.
+~
+29 adgA 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+100000 0 0 0
+Z
+4
+E
+black alter stone~
+This alter is carved from black stone.  The sides are covered with intricate carvings of spider, driders and drow.  There seem to be many monks and books depicted in the carvings as well.  Reddish brown stains run down the alter and seem to puddle on the ground.  Though polished to a high shine, the top of the alter is covered in scratches and chips.
+~
+#11002
+burned out campfire ring stones~
+a burned out campfire~
+A ring of stones from a burned out campfire is here.~
+~
+12 dAE 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 36 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#11003
+ioun stone~
+a pale green ioun stone~
+A pale green ioun stone floats here.~
+~
+11 aix 0 0 0 as 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+$~

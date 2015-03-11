@@ -1,0 +1,2183 @@
+#4300
+Before A Large Pallisade Wall~
+   The canyon opens up here into a shallow valley.  Set within it is a small
+fortress built of wooden pallisade walls.  The fortifications are sparse to say
+the least, obviously relying on the great High Clerist Tower for defense of its
+occupants.  From within the sounds of steel clashing against steel can be heard
+as well as several loud, commanding voices.    
+~
+43 cr 0 0 0  1
+D1
+~
+gates~
+1 0 4301 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8247 0 0 0 0 0 0 0 0
+E
+banner~
+You see nothing special.
+Welcome to my very first test area... please, offer suggestions... I need help...
+~
+S
+#4301
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4302 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4303 0 0 0 0 0 0 0 0
+D3
+~
+gates~
+1 0 4300 0 0 0 0 0 0 0 0
+S
+#4302
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D1
+~
+~
+0 0 4305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4301 0 0 0 0 0 0 0 0
+D3
+~
+stable~
+1 0 10725 0 0 0 0 0 0 0 0
+S
+#4303
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4301 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4306 0 0 0 0 0 0 0 0
+D3
+~
+stable~
+1 0 10728 0 0 0 0 0 0 0 0
+S
+#4304
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4305 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4307 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4301 0 0 0 0 0 0 0 0
+S
+#4305
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+door~
+1 0 4337 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4308 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4304 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4302 0 0 0 0 0 0 0 0
+S
+#4306
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4304 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4309 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4331 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4303 0 0 0 0 0 0 0 0
+S
+#4307
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4308 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4310 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4309 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4304 0 0 0 0 0 0 0 0
+S
+#4308
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D1
+~
+~
+0 0 4311 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4307 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4305 0 0 0 0 0 0 0 0
+S
+#4309
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4307 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4312 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4306 0 0 0 0 0 0 0 0
+S
+#4310
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4311 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4313 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4312 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4307 0 0 0 0 0 0 0 0
+S
+#4311
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4323 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4314 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4308 0 0 0 0 0 0 0 0
+S
+#4312
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4310 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4315 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4309 0 0 0 0 0 0 0 0
+S
+#4313
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4314 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4315 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4310 0 0 0 0 0 0 0 0
+S
+#4314
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4324 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4318 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4313 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4311 0 0 0 0 0 0 0 0
+S
+#4315
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4313 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4312 0 0 0 0 0 0 0 0
+S
+#4316
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4318 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4378 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4313 0 0 0 0 0 0 0 0
+S
+#4317
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4325 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4315 0 0 0 0 0 0 0 0
+S
+#4318
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4316 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4314 0 0 0 0 0 0 0 0
+S
+#4319
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4320 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4324 0 0 0 0 0 0 0 0
+S
+#4320
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D1
+~
+door~
+1 0 4355 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4321 0 0 0 0 0 0 0 0
+S
+#4321
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+door~
+1 0 4343 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4320 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4324 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4322 0 0 0 0 0 0 0 0
+S
+#4322
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D1
+~
+~
+0 0 4321 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4323 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4339 0 0 0 0 0 0 0 0
+S
+#4323
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4322 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4311 0 0 0 0 0 0 0 0
+S
+#4324
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4321 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4314 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4323 0 0 0 0 0 0 0 0
+S
+#4325
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4326 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4330 0 0 0 0 0 0 0 0
+S
+#4326
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 c h 0 0  1
+D0
+~
+~
+0 0 4325 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4369 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4327 0 0 0 0 0 0 0 0
+S
+#4327
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4330 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4326 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4349 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4328 0 0 0 0 0 0 0 0
+S
+#4328
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4329 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4327 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4335 0 0 0 0 0 0 0 0
+S
+#4329
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4312 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4330 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4328 0 0 0 0 0 0 0 0
+S
+#4330
+Within a Large, Busy Courtyard~
+   The courtyard of this fortress is well kept and highly organised.  The
+ground is hard packed dirt, though small patches of grass sprout up in some
+places.  The area is quite noisy, the sounds of training warriors clashing
+their blades together and the various captains shouting out commands to their
+troops are readily present.  Built against the pallisade walls are several
+barracks, and to the east a larger structure occupies the center of the
+courtyard.    
+~
+43 0 h 0 0  1
+D0
+~
+~
+0 0 4315 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4329 0 0 0 0 0 0 0 0
+S
+#4331
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4306 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4336 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4334 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4332 0 0 0 0 0 0 0 0
+S
+#4332
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4331 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4333 0 0 0 0 0 0 0 0
+S
+#4333
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4332 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4334 0 0 0 0 0 0 0 0
+S
+#4334
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4331 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4333 0 0 0 0 0 0 0 0
+S
+#4335
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4336 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4328 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4334 0 0 0 0 0 0 0 0
+S
+#4336
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D2
+~
+~
+0 0 4335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4331 0 0 0 0 0 0 0 0
+S
+#4337
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4340 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4338 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4305 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4342 0 0 0 0 0 0 0 0
+S
+#4338
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4339 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4337 0 0 0 0 0 0 0 0
+S
+#4339
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D1
+~
+door~
+1 0 4322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4338 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4340 0 0 0 0 0 0 0 0
+S
+#4340
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4339 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4337 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4341 0 0 0 0 0 0 0 0
+S
+#4341
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4340 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4342 0 0 0 0 0 0 0 0
+S
+#4342
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4341 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4337 0 0 0 0 0 0 0 0
+S
+#4343
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4346 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4344 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4321 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4348 0 0 0 0 0 0 0 0
+S
+#4344
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4345 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4343 0 0 0 0 0 0 0 0
+S
+#4345
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D2
+~
+~
+0 0 4344 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4346 0 0 0 0 0 0 0 0
+S
+#4346
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4345 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4343 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4347 0 0 0 0 0 0 0 0
+S
+#4347
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4346 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4348 0 0 0 0 0 0 0 0
+S
+#4348
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4347 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4343 0 0 0 0 0 0 0 0
+S
+#4349
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4327 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4350 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4352 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4354 0 0 0 0 0 0 0 0
+S
+#4350
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D2
+~
+~
+0 0 4351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4349 0 0 0 0 0 0 0 0
+S
+#4351
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4352 0 0 0 0 0 0 0 0
+S
+#4352
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4349 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4353 0 0 0 0 0 0 0 0
+S
+#4353
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4354 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4352 0 0 0 0 0 0 0 0
+S
+#4354
+A Well-Kept, Orderly Barracks~
+   This barracks house the warriors in training here at the fortress of the
+forces of whitestone.  The structure itself appears to have been put up fairly
+quickly, though also with a definite sense of skill.  Small lanterns hang from
+the walls keeping the area well-lit.  The bunks house two men each, and at the
+foot of each is a small chest reserved for personal belongings.  There are also
+racks for storing weapons and armor here, though presently they are all empty.
+Outside the clamour of blade against blade can be heard.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4349 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4353 0 0 0 0 0 0 0 0
+S
+#4355
+A Hallway Through a Wood-Walled Temple~
+   This small temple is humble and simple.  The main hallway runs through
+touching upon the doors of each shrine within.  The sounds of mock-battle can
+be heard outside, but still the small structure has a peaceful, easy-going
+feeling.  The murmer of chanting can barely be heard behind the doors of each
+shrine.  A faint scent of incense can be noticed in the air as well, though the
+smoke has long ago dissapated.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4359 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4358 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4356 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4320 0 0 0 0 0 0 0 0
+S
+#4356
+The Shrine to Paladine~
+   This small shrine is highly decorated with friezes of dragons and knights.
+The shrine is lit by dozens of candles attached to the walls in bronze
+candellabras.  Against the southern wall is a small altar covered in a white
+cloth embroidered with gold trimming.  On top of the altar is a small donation
+plate with a few coins in it, as well as a small brazier with burning incense
+inside it.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4355 0 0 0 0 0 0 0 0
+D1
+~
+panel~
+1 0 4357 0 0 0 0 0 0 0 0
+S
+#4357
+A Small Prayer Alcove~
+   This room is sparsely furnished at best.  The walls are completely covered
+in a silky white cloth, embroidered with golden trimming.  On the floor in the
+center of the room is a large blue cushion, also embroidered with gold, and
+used for kneeling on when praying.  A small table has been set up with unlit
+candles upon it, and a small brazier for burning incense.    
+~
+43 adgtx 0 0 0  0
+D3
+~
+panel~
+1 0 4356 0 0 0 0 0 0 0 0
+S
+#4358
+The Shrine to Kiri-Jolith~
+   This shrine is highly decorated with ceremonial objects of warfare.  
+Several blades fashioned of gold and silver adorn the walls as well as numerous
+shields of varied crests.  The walls are covered in sheets of white cloth,
+embroidered with silver lining.  A small altar occupies the southern part of
+the room, a donation plate on top as well as a brazier for burning incense.  
+~
+43 d 0 0 0  0
+D3
+~
+door~
+1 0 4355 0 0 0 0 0 0 0 0
+S
+#4359
+A Hallway Through a Wood-Walled Temple~
+   This small temple is humble and simple.  The main hallway runs through
+touching upon the doors of each shrine within.  The sounds of mock-battle can
+be heard outside, but still the small structure has a peaceful, easy-going
+feeling.  The murmer of chanting can barely be heard behind the doors of each
+shrine.  A faint scent of incense can be noticed in the air as well, though the
+smoke has long ago dissapated.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4361 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4360 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4355 0 0 0 0 0 0 0 0
+S
+#4360
+The Shrine to Habbakuk~
+   This small shrine is adorned with several friezes depicting the world of
+nature, from deep, forested valleys to the depths of the underwater realm.  
+Behind the tapestries are sheets of deep blue, embroidered with white trimming.
+A small altar occupies the southern end of the shrine.  On it are a small
+donation plate and a brazier for burning incense.    
+~
+43 d 0 0 0  0
+D3
+~
+door~
+1 0 4359 0 0 0 0 0 0 0 0
+S
+#4361
+A Hallway Through a Wood-Walled Temple~
+   This small temple is humble and simple.  The main hallway runs through
+touching upon the doors of each shrine within.  The sounds of mock-battle can
+be heard outside, but still the small structure has a peaceful, easy-going
+feeling.  The murmer of chanting can barely be heard behind the doors of each
+shrine.  A faint scent of incense can be noticed in the air as well, though the
+smoke has long ago dissapated.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4362 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4359 0 0 0 0 0 0 0 0
+S
+#4362
+A Hallway Through a Wood-Walled Temple~
+   This small temple is humble and simple.  The main hallway runs through
+touching upon the doors of each shrine within.  The sounds of mock-battle can
+be heard outside, but still the small structure has a peaceful, easy-going
+feeling.  The murmer of chanting can barely be heard behind the doors of each
+shrine.  A faint scent of incense can be noticed in the air as well, though the
+smoke has long ago dissapated.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4363 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4361 0 0 0 0 0 0 0 0
+S
+#4363
+A Hallway Through a Wood-Walled Temple~
+   This small temple is humble and simple.  The main hallway runs through
+touching upon the doors of each shrine within.  The sounds of mock-battle can
+be heard outside, but still the small structure has a peaceful, easy-going
+feeling.  The murmer of chanting can barely be heard behind the doors of each
+shrine.  A faint scent of incense can be noticed in the air as well, though the
+smoke has long ago dissapated.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4365 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4364 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4362 0 0 0 0 0 0 0 0
+S
+#4364
+The Shrine to Branchala~
+   This small shrine is adorned with many musical instruments of all kinds and
+sorts.  Behind the tapestries are sheets of green trimmed with yellow
+embroidery.  A small altar occupies the southern end of the room.  On it is a
+small bronze donation plate and a brass brazier used for burning incense.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4363 0 0 0 0 0 0 0 0
+S
+#4365
+A Hallway Through a Wood-Walled Temple~
+   This small temple is humble and simple.  The main hallway runs through
+touching upon the doors of each shrine within.  The sounds of mock-battle can
+be heard outside, but still the small structure has a peaceful, easy-going
+feeling.  The murmer of chanting can barely be heard behind the doors of each
+shrine.  A faint scent of incense can be noticed in the air as well, though the
+smoke has long ago dissapated.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4367 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4366 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4363 0 0 0 0 0 0 0 0
+S
+#4366
+The Shrine to Mishakal~
+   This small shrine is adorned with several friezes depicting acts of healing
+throughout time and the lands of Krynn.  Behind the tapestries are sheets of
+sky blue, embroidered with silver infinity sigils throughout.  A small, wooden
+altar, painted blue, occupies the southern end of the room.  On it are a silver
+donation plate and a bronze brazier used for burning incense.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4365 0 0 0 0 0 0 0 0
+S
+#4367
+A Hallway Through a Wood-Walled Temple~
+   This small temple is humble and simple.  The main hallway runs through
+touching upon the doors of each shrine within.  The sounds of mock-battle can
+be heard outside, but still the small structure has a peaceful, easy-going
+feeling.  The murmer of chanting can barely be heard behind the doors of each
+shrine.  A faint scent of incense can be noticed in the air as well, though the
+smoke has long ago dissapated.    
+~
+43 d 0 0 0  0
+D2
+~
+door~
+1 0 4368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4365 0 0 0 0 0 0 0 0
+S
+#4368
+The Shrine of Majere~
+   This small shrine is adorned with several friezes depicting scenes of
+natural beauty and of men and women deep in meditation.  Behind the tapestries
+are sheets of deep crimson, embroidered with bronze trimming and sigils of a
+mantis.  A small, wooden altar, painted brown, occupies the southern end of the
+room.  On it are a small bronze donation plate and a copper brazier used for
+burning incense.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4367 0 0 0 0 0 0 0 0
+S
+#4369
+A Small, Makeshift Laboratory~
+   This small building has been fashioned into a makeshift laboratory to be
+used for the white and red-robed mages that are part of the forces of
+whitestone.  Several long, wooden tables fill the room, each covered in alchemy
+equipment of all kinds and sorts.  The ground here is tiled with greyish stone,
+and looks to be kept relatively clean.  In the northeast corner of the room, a
+narrow staircase can be seen leading up to the next level of this building.  
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4371 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4370 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4326 0 0 0 0 0 0 0 0
+S
+#4370
+A Small, Makeshift Laboratory~
+   This small building has been fashioned into a makeshift laboratory to be
+used for the white and red-robed mages that are part of the forces of
+whitestone.  Several long, wooden tables fill the room, each covered in alchemy
+equipment of all kinds and sorts.  The ground here is tiled with greyish stone,
+and looks to be kept relatively clean.  In the northeast corner of the room, a
+narrow staircase can be seen leading up to the next level of this building.  
+
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4372 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4369 0 0 0 0 0 0 0 0
+S
+#4371
+A Small, Makeshift Laboratory~
+   This small building has been fashioned into a makeshift laboratory to be
+used for the white and red-robed mages that are part of the forces of
+whitestone.  Several long, wooden tables fill the room, each covered in alchemy
+equipment of all kinds and sorts.  The ground here is tiled with greyish stone,
+and looks to be kept relatively clean.  In the northeast corner of the room, a
+narrow staircase can be seen leading up to the next level of this building.  
+
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4372 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4369 0 0 0 0 0 0 0 0
+S
+#4372
+A Small, Makeshift Laboratory~
+   This small building has been fashioned into a makeshift laboratory to be
+used for the white and red-robed mages that are part of the forces of
+whitestone.  Several long, wooden tables fill the room, each covered in alchemy
+equipment of all kinds and sorts.  The ground here is tiled with greyish stone,
+and looks to be kept relatively clean.  In the northeast corner of the room, a
+narrow staircase can be seen leading up to the next level of this building.  
+
+~
+43 d 0 0 0  0
+D2
+~
+~
+0 0 4370 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4371 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4373 0 0 0 0 0 0 0 0
+S
+#4373
+A Small, Makeshift Library~
+   This area of the building has been constructed and rearranged into a
+makeshift library.  The large, spacious room has been organized into areas with
+bookshelves and small tables for reading and studying.  Small globes of light
+hover in mid-air throughout the room, casting off a light whitish glow.  The
+noise outside continues endlessly, making this a rather difficult place to
+study.    
+~
+43 cd 0 0 0  0
+D2
+~
+~
+0 0 4376 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4374 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4377 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4372 0 0 0 0 0 0 0 0
+S
+#4374
+A Small, Makeshift Library~
+   This area of the building has been constructed and rearranged into a
+makeshift library.  The large, spacious room has been organized into areas with
+bookshelves and small tables for reading and studying.  Small globes of light
+hover in mid-air throughout the room, casting off a light whitish glow.  The
+noise outside continues endlessly, making this a rather difficult place to
+study.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4373 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4375 0 0 0 0 0 0 0 0
+S
+#4375
+A Small, Makeshift Library~
+   This area of the building has been constructed and rearranged into a
+makeshift library.  The large, spacious room has been organized into areas with
+bookshelves and small tables for reading and studying.  Small globes of light
+hover in mid-air throughout the room, casting off a light whitish glow.  The
+noise outside continues endlessly, making this a rather difficult place to
+study.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4374 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4376 0 0 0 0 0 0 0 0
+S
+#4376
+A Small, Makeshift Library~
+   This area of the building has been constructed and rearranged into a
+makeshift library.  The large, spacious room has been organized into areas with
+bookshelves and small tables for reading and studying.  Small globes of light
+hover in mid-air throughout the room, casting off a light whitish glow.  The
+noise outside continues endlessly, making this a rather difficult place to
+study.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4373 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4375 0 0 0 0 0 0 0 0
+S
+#4377
+At the Top of a Small Tower~
+   A small room has been set up at the top of a narrow tower built into the
+mage's building.  The room appears to be the private quarters of a senior mage,
+and is furnished with all the necessities of living, such as a bed, a wardrobe,
+a writing desk, and a couple of bookshelves.  A few valuable-looking paintings
+adorn the walls as well, giving the room a bit of a homey feeling.    
+~
+43 d 0 0 0  0
+D5
+~
+~
+0 0 4373 0 0 0 0 0 0 0 0
+S
+#4378
+A Foyer in a Large Wooden Building~
+   This small waiting area leads into the main chambers of the forces of
+whitestone command.  The room itself is sparsely furnished, with a couple of
+benches being pretty much all that is visible.  Outside the clamour of
+mock-battle can be heard as well as the shouts of the training captains to
+their troops.  Inside nothing can be heard save the faint shuffle of feet from
+time to time.    
+~
+43 cd 0 0 0  0
+D0
+~
+door~
+2 4323 4379 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4381 0 0 0 0 0 0 0 0
+D2
+~
+door~
+2 4323 4380 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4316 0 0 0 0 0 0 0 0
+S
+#4379
+A Small Cache of Weapons~
+   This room serves as a cache for all of the weapons used in training for the
+entire camp.  Several racks line the walls, each holding a different kind of
+weapon.  Most are blades of some sort, commonly made though efficiently used.
+There are, however, spears and polearms, lances and even bows as well.    
+~
+43 d 0 0 0  0
+D2
+~
+door~
+2 4323 4378 0 0 0 0 0 0 0 0
+S
+#4380
+A Small Armoury~
+   This room serves as a small armoury for the troops of the forces of
+whitestone in their training.  All of the armour is studded leather, bleached
+white and bearing the crest of a blue star over a red background, the crest of
+the forces of whitestone.  There are also numerous shields hanging on the wall
+bearing the same crest.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+2 4323 4378 0 0 0 0 0 0 0 0
+S
+#4381
+A Foyer in a Large Wooden Building~
+   This small waiting area leads into the main chambers of the forces of
+whitestone command.  The room itself is sparsely furnished, with a couple of
+benches being pretty much all that is visible.  Outside the clamour of
+mock-battle can be heard as well as the shouts of the training captains to
+their troops.  Inside nothing can be heard save the faint shuffle of feet from
+time to time.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4382 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4384 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4383 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4378 0 0 0 0 0 0 0 0
+S
+#4382
+A Foyer in a Large Wooden Building~
+   This small waiting area leads into the main chambers of the forces of
+whitestone command.  The room itself is sparsely furnished, with a couple of
+benches being pretty much all that is visible.  Outside the clamour of
+mock-battle can be heard as well as the shouts of the training captains to
+their troops.  Inside nothing can be heard save the faint shuffle of feet from
+time to time.    
+~
+43 d 0 0 0  0
+D2
+~
+~
+0 0 4381 0 0 0 0 0 0 0 0
+S
+#4383
+A Foyer in a Large Wooden Building~
+   This small waiting area leads into the main chambers of the forces of
+whitestone command.  The room itself is sparsely furnished, with a couple of
+benches being pretty much all that is visible.  Outside the clamour of
+mock-battle can be heard as well as the shouts of the training captains to
+their troops.  Inside nothing can be heard save the faint shuffle of feet from
+time to time.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4381 0 0 0 0 0 0 0 0
+S
+#4384
+A Short Hallway in the Command Building~
+   This short hallway is sparsely furnished.  The walls are covered in a white
+cloth that bears the symbol of a blue star over a red background.  Lamposts
+have been erected to keep the area well lit, the lanterns on top bolted fast to
+the base.  The clamour of mock-battle outdoors can barely be heard, and to the
+north the murmur of voices in conversation can be heard as well.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 4385 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4381 0 0 0 0 0 0 0 0
+S
+#4385
+A Short Hallway in the Command Building~
+   This short hallway is sparsely furnished.  The walls are covered in a white
+cloth that bears the symbol of a blue star over a red background.  Lamposts
+have been erected to keep the area well lit, the lanterns on top bolted fast to
+the base.  The clamour of mock-battle outdoors can barely be heard, and to the
+north the murmur of voices in conversation can be heard as well.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4397 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4386 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4387 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4384 0 0 0 0 0 0 0 0
+S
+#4386
+The Commander's Office~
+   This large office is well furnished and also seems to serve as a living
+quarters.  The front of the office is dominated by a large wooden desk.  On it
+are piles of parchment and a quill and vial of ink.  A large map of Ansalon
+occupies the eastern wall, with various pins stuck in it at certain locations.
+Aside from this there is a comfortable looking bed, a polished wardrobe and an
+empty armor rack.  Sitting next to the writing desk is a small, iron-banded
+chest.    
+~
+43 d 0 0 0  0
+D3
+~
+door~
+1 0 4385 0 0 0 0 0 0 0 0
+S
+#4387
+A Short Hallway in the Living Quarters~
+   This short hallway leads to the living quarters of the commanders of the
+forces of whitestone.  The walls are covered with white sheets, each bearing
+the crest of a blue star over a red background.  The doors are solid mahogany,
+and bear a simple, if not effective, lock on it.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 0 4385 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 4346 4389 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4390 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 4345 4388 0 0 0 0 0 0 0 0
+S
+#4388
+A Private Living Area~
+   This small living area is simple but comfortable.  There is a small, yet
+plush-looking bed covered in brown sheets.  An oaken wardrobe stands against
+the southern wall.  A small writing desk stands against the adjacent wall.  
+Hanging from the ceiling in the center of the room is a burning lantern.    
+~
+43 d 0 0 0  0
+D1
+~
+door~
+1 4345 4387 0 0 0 0 0 0 0 0
+S
+#4389
+A Private Living Area~
+   This small living area is simple but comfortable.  There is a small, yet
+plush-looking bed covered in brown sheets.  An oaken wardrobe stands against
+the southern wall.  A small writing desk stands against the adjacent wall.  
+Hanging from the ceiling in the center of the room is a burning lantern.    
+~
+43 d 0 0 0  0
+D3
+~
+door~
+1 4346 4387 0 0 0 0 0 0 0 0
+S
+#4390
+A Short Hallway in the Living Quarters~
+   This short hallway leads to the living quarters of the commanders of the
+forces of whitestone.  The walls are covered with white sheets, each bearing
+the crest of a blue star over a red background.  The doors are solid mahogany,
+and bear a simple, if not effective, lock on it.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4387 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 4348 4392 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4393 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 4347 4391 0 0 0 0 0 0 0 0
+S
+#4391
+A Private Living Area~
+   This small living area is simple but comfortable.  There is a small, yet
+plush-looking bed covered in brown sheets.  An oaken wardrobe stands against
+the southern wall.  A small writing desk stands against the adjacent wall.  
+Hanging from the ceiling in the center of the room is a burning lantern.    
+~
+43 d 0 0 0  0
+D1
+~
+door~
+1 4347 4390 0 0 0 0 0 0 0 0
+S
+#4392
+A Private Living Area~
+   This small living area is simple but comfortable.  There is a small, yet
+plush-looking bed covered in brown sheets.  An oaken wardrobe stands against
+the southern wall.  A small writing desk stands against the adjacent wall.  
+Hanging from the ceiling in the center of the room is a burning lantern.    
+~
+43 d 0 0 0  0
+D3
+~
+door~
+1 4348 4390 0 0 0 0 0 0 0 0
+S
+#4393
+A Short Hallway in the Living Quarters~
+   This short hallway leads to the living quarters of the commanders of the
+forces of whitestone.  The walls are covered with white sheets, each bearing
+the crest of a blue star over a red background.  The doors are solid mahogany,
+and bear a simple, if not effective, lock on it.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4390 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 4351 4395 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 4349 4396 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 4350 4394 0 0 0 0 0 0 0 0
+S
+#4394
+A Private Living Area~
+   This small living area is simple but comfortable.  There is a small, yet
+plush-looking bed covered in brown sheets.  An oaken wardrobe stands against
+the southern wall.  A small writing desk stands against the adjacent wall.  
+Hanging from the ceiling in the center of the room is a burning lantern.    
+~
+43 d 0 0 0  0
+D1
+~
+door~
+1 4350 4393 0 0 0 0 0 0 0 0
+S
+#4395
+A Private Living Area~
+   This small living area is simple but comfortable.  There is a small, yet
+plush-looking bed covered in brown sheets.  An oaken wardrobe stands against
+the southern wall.  A small writing desk stands against the adjacent wall.  
+Hanging from the ceiling in the center of the room is a burning lantern.    
+~
+43 d 0 0 0  0
+D3
+~
+door~
+1 4351 4393 0 0 0 0 0 0 0 0
+S
+#4396
+A Private Living Area~
+   This small living area is simple but comfortable.  There is a small, yet
+plush-looking bed covered in brown sheets.  An oaken wardrobe stands against
+the southern wall.  A small writing desk stands against the adjacent wall.  
+Hanging from the ceiling in the center of the room is a burning lantern.    
+~
+43 d 0 0 0  0
+D0
+~
+door~
+1 4349 4393 0 0 0 0 0 0 0 0
+S
+#4397
+A Large Meeting Room~
+   This large meeting room is dominated by a sizable oak table in the center of
+the room.  The table is relatively bare, with a few maps sprawled across it and
+various papers piled up near some of the seats.  Surrounding the table are a
+number of comfortable-looking chairs, padded with red cloth and finely
+polished.  The walls are covered in white sheets bearing the crest of a blue
+star over a red background, the symbol of the forces of whitestone.    
+~
+43 d 0 0 0  0
+D1
+~
+~
+0 0 10723 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4385 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4398 0 0 0 0 0 0 0 0
+S
+#4398
+A Large Meeting Room~
+   This large meeting room is dominated by a sizable oak table in the center of
+the room.  The table is relatively bare, with a few maps sprawled across it and
+various papers piled up near some of the seats.  Surrounding the table are a
+number of comfortable-looking chairs, padded with red cloth and finely
+polished.  The walls are covered in white sheets bearing the crest of a blue
+star over a red background, the symbol of the forces of whitestone.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 4399 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4397 0 0 0 0 0 0 0 0
+S
+#4399
+A Large Meeting Room~
+   This large meeting room is dominated by a sizable oak table in the center of
+the room.  The table is relatively bare, with a few maps sprawled across it and
+various papers piled up near some of the seats.  Surrounding the table are a
+number of comfortable-looking chairs, padded with red cloth and finely
+polished.  The walls are covered in white sheets bearing the crest of a blue
+star over a red background, the symbol of the forces of whitestone.    
+~
+43 d 0 0 0  0
+D0
+~
+~
+0 0 10719 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4398 0 0 0 0 0 0 0 0
+S
+$

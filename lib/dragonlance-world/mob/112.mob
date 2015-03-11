@@ -1,0 +1,687 @@
+#11200
+pixie~
+a greater fire elemental~
+A towering mass of fire decends upon you.
+~
+You see nothing special.
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11201
+old man~
+an old man~
+An old man seems to have lost his marbles!
+~
+~
+d 0 0 0 k 0 0 0 -900
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11203
+bee drone~
+a new mob~
+A buzzing drone bee darts here and there.
+~
+   A bit longer than the worker bees, but with a solid brown body.    
+~
+d 0 0 0 k 0 0 0 -900
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11205
+fool~
+a new mob~
+A dancing fool careens off the wall.
+~
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11206
+fury~
+a pixie fury~
+Walking solemnly in the grass is a furious pixie.
+~
+You see nothing special.
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11207
+ghost wandering~
+a wandering ghost~
+A ghost fades in and out of reality here.
+~
+   You see nothing special, it's just a ghost.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11211
+lizard fiery scaled~
+a fiery scaled lizard~
+A fiery scaled lizard moves towards you slowly.
+~
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11212
+lizard fiery scaled~
+a fiery scaled lizard~
+A fiery scaled lizard moves towards you slowly.
+~
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11213
+elemental fire greater~
+a greater fire elemental~
+A towering mass of flames swirls before you.
+~
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11214
+elemental greter fire towering~
+a greater fire elemental~
+A towering mass of flames towers before you.
+~
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11215
+elemental sargsmob~
+a greater fire elemental~
+A towering mass of fire decebds upon you.
+~
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11216
+giant frost enraged berserker~
+an enraged frost giant berserker~
+Crashing through the streets is an enraged frost giant berserker!
+~
+   Clad is furs and leathers this huge frst giant crashes through the streets,
+bashing everything standing with his gargantuan club.  His skin is a light blue
+hue, and is covered is scars and callouses.  He takes a swing at a nearby
+house, crushing the walls with his hefty blow, then sets his enraged eyes upon
+you and lumbers forward with his club held high.    
+~
+d 0 0 0 k 0 0 0 -900
+20 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Tulak, the frost giant shaman~
+This frost giant is extremely old, yet for all of it's years you can imagine
+#11218
+wolf winter~
+a growling winter wolf~
+A large winter wolf gnashes it's teeth at you in a frightening growl.
+~
+   Before you is a huge wolf with silvery-white fur.  It has massive teeth
+which is bares at you in an ugly and frightening growl.  The beast lurches
+forward slightly and suddenly lunges forward, it's jaws wide open ready to tear
+out your throat.    
+~
+d 0 0 0 k 0 0 0 -900
+22 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11219
+damluhk frost giant chieftain~
+Damluhk, the frost giant chieftain~
+A massive frost giant clad in silvery-blue plate mail grins at you.
+~
+   Rising up before you is a massive frost giant clad in a silvery-blue
+platemail.  He wields a huge greatsword with flickering blue flames.  He grins
+as he notices your approach and tosses his massive blade from hand to hand
+eagerly.    
+~
+d 0 0 0 k 0 0 0 -900
+28 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11220
+acolyte minor~
+a minor acolyte of Gilean~
+Praying softly as he walks about is a minor acolyte of Gilean.
+~
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11221
+goblin grinning~
+a grinning goblin~
+Grinning at a new find, this goblin seems rather excited.
+~
+~
+d 0 0 0 k 0 0 0 -900
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11222
+seeker mercenary~
+a seeker mercenary~
+A seeker mercenary spits over his shoulder.
+~
+   This is one of the seeker's hired mercenaries.  Its there job to protect the
+seeker's from heretics and to help enforce their policies.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11223
+bandit grinning~
+a grinning bandit~
+A bandit whistles with his hands in his pockets.
+~
+~
+d 0 0 0 k 0 0 0 -275
+13 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11225
+minstrel grinning~
+a chuckling minstrel~
+Grinning deviously, this minstrel chuckles to himself.
+~
+~
+d 0 0 0 k 0 0 0 1000
+24 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Towering above, a monsterous, pale bellied wyvern attacks!
+#11230
+slug~
+slug #2~
+A slug is here.
+~
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11231
+bro brosth brother~
+Brosth, like a brother to Squishy~
+A cockroach crawls around here.
+~
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11232
+kender child~
+a giggling kender child~
+A kender child giggles here.
+~
+   This kender looks like the majority of the race does.  Long hair, pulled
+back in a top knot, slight but wiry build, and covered with the most outrageous
+and brightly covered clothes imaginable.  He whistles happily to himself until
+he notices you, upon which time he decides to approach you for an annoying,
+prattling chat.    
+~
+d 0 0 0 k 0 0 0 500
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+These small rodents are much like their living counterparts.  Very little
+They wander about mindlessly snapping at
+#11234
+kender child~
+a giggling kender child~
+A kender child giggles here.
+~
+   This kender looks like the majority of the race does.  Long hair, pulled
+back in a top knot, slight but wiry build, and covered with the most outrageous
+and brightly covered clothes imaginable.  He whistles happily to himself until
+he notices you, upon which time he decides to approach you for an annoying,
+prattling chat.    
+~
+d 0 0 0 k 0 0 0 500
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11237
+gnome brown-skinned~
+a short, brown-skinned gnome~
+A short, brown-skinned gnome babbles endlessly to himself.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11238
+bunny pink late~
+a pink bunny~
+Quite late, this pink bunny wanders around, hiding eggs.
+~
+   Pink ears, and fur, yea, lots of pink covers this ones body.  It's got a
+basket, and is hopping around, hiding eggs.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11239
+figure hooded shadow~
+a hooded figure~
+A hooded figure pulls its face deeper into the shadows.
+~
+   A hooded figure darts amongst the shadows.  Now you see him, now you don't.
+This person is truly a child of the night.    
+~
+d 0 0 0 k 0 0 0 -1000
+28 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11241
+evil ray black shade~
+evil~
+A black ray of shade we'll be calling 'evil' is pevading the area.
+~
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11242
+deathknight soth~
+Lord Soth~
+A deathknight with flaming orange eyes towers above you.
+~
+   Soth stands before you encased in the blackened armor of a Solamnic Knight
+of the Rose.  All that can be seen of this frightening apparition are his
+flaming orange eyes.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Taking up almost the entire size of the room Nizidramanii'yt stands before
+$

@@ -1,0 +1,376 @@
+#100
+dog celestial~
+a celestial dog~
+A celestial dog stands here awaiting the command of its master.
+~
+   Before you is a large dog of shimmering white fur.  It is rippling with
+muscles and moves with the grace of a hunting cat.  It's eyes are glowing orbs
+of light, without any pupils to speak of.  It readily ignores everything around
+it, paying heed only to the master who summoned it.  
+~
+bd 0 0 0 k 0 0 0 500
+2 18 7 24d100+107 1d8+1
+20 0 0 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 1
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#101
+fiendish monstrous spider~
+a fiendish monstrous spider~
+A fiendish monstrous spider is here clicking it's mandibles impatiently.
+~
+   This spider is very large, about the size of a large dog.  It has a deep red
+carapice with black and gold stripes running across it in a tiger-like pattern.
+It clicks its mandibles impatiently and moves back and forth, not letting
+anything but its master close to it.  
+~
+bd 0 0 0 k 0 0 0 500
+2 18 7 24d100+107 1d8+1
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 1
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#102
+celestial eagle~
+a celestial eagle~
+A celestial eagle is here circling overhead.
+~
+   Sheathed in a glowing aura of brilliant yellow, this eagle of snow white
+feathers circles overhead, occasionally finding somewhere to perch itself and
+stare down regally at all underneath.  It appears very proud and completely free
+of all domination save the will of its master here on this plane.  
+~
+bd 0 0 0 k 0 0 0 500
+4 17 4 48d100+108 3d8+0
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#103
+fiendish wolf~
+a fiendish wolf~
+A fiendish wolf with charcoal grey fur is here snarling.
+~
+   This wolf is only slightly larger than the average but it radiates an aura of
+hate and violence.  The creature is covered in charcoal grey fur, and has almost
+glowing red eyes, filled with an uncanny sign of intelligence.  The wolf paces
+back and forth staring at every living thing nearby with a viscious snarl.  
+~
+bd 0 0 0 k 0 0 0 500
+4 1 4 48d100+108 1d8+2
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#104
+celestial black bear~
+a celestial black bear~
+A celestial black bear is here sitting leaning back on it's haunches.
+~
+   This black bear is the color of a midnight sky, with glowing white orbs for
+eyes and a burly, muscular body.  It's claws are razor sharp as are its teeth,
+though it does not seem to be the slightest bit violent at all.  It leans back
+on its haunches casually taking in the scene before it.  
+~
+bd 0 0 0 k 0 0 0 500
+6 18 1 72d100+110 2d8+1
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#105
+fiendish crocodile~
+a fiendish crocodile~
+A fiendish crocodile snaps its jaws at anything that comes near it.
+~
+   Covered in scaly green skin and with a back covered in razor sharop ridges,
+this crocodile looks dangerous to anyone save he or she that it serves.  It has
+glowing red eyes that gleam with intelligence and cunning, and lies lazily on
+its stomach, changing instantly to a violent position with a quick snap of it's
+fearsome jaws to any who come too close.  
+~
+bd 0 0 0 k 0 0 0 500
+6 17 1 72d100+114 1d10+1
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#106
+celestial lion~
+a celestial lion~
+A celestial lion is here licking its paws and eyeing everything.
+~
+   Before you is a magnificent lion of shimmering white fur.  It's eyes are
+glowing white orbs and it's mane is thick and regal.  It has claws and teeth
+sharp enough to cut through metal although it does not appear the least bit
+disturbed or violent at the moment.  It casually licks its paws and watches
+everything before it with infinite patience and a strange sense of
+understanding.  
+~
+bd 0 0 0 k 0 0 0 500
+8 17 -2 96d100+118 2d8+2
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#107
+giant praying mantis fiendish~
+a fiendish giant praying mantis~
+A giant fiendish praying mantis is here angrily clicking its claws on the ground.
+~
+   Before you is a massive praying mantis with a black and red carapice.  It has
+glowing orbs of fiendish red, and seems to have an extremely bad-tempered
+dispostion, as it angrily clicks its mandibles and slams its claws against the
+ground in quick succession.  It takes a cautionary stab at anything that comes
+too close
+~
+bd 0 0 0 k 0 0 0 500
+8 17 -2 96d100+117 2d8+3
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#108
+tiger celestial~
+a celestial tiger~
+A celestial tiger stands here obediently at his master's side.
+~
+   This celestial tiger has white and black stripes and is much larger than a
+normal tiger.  His muscles ripple beneath his fur and his eyes gleam with
+intelligence and cunning.  
+~
+bd bd 0 0 k p 0 0 500
+10 20 0 132d100+320 1d8+0
+0 0 17 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#109
+beetle fire fiendish~
+a fiendish fire beetle~
+A fiendish fire beetle is here clicking its mandibles eagerly.
+~
+   With a black and red shell and fiery red eyes this fire beetle obviously
+hails from the lower planes.  It bleches fire every now and again from some
+infernal organ in its body.  
+~
+bd bd 0 0 k q 0 0 -500
+10 20 0 132d100+260 1d8+0
+0 0 17 3
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#110
+archon hound~
+a hound archon~
+A hound archon is here patiently serving the one who called it.
+~
+   This hound is huge with stark glowing white fur and sharp blue eyes gleaming
+with intelligence.  It is quite well muscled and has large paws ending in sharp
+claws.  
+~
+bdno bd 0 0 0 0 0 0 500
+12 20 -2 156d100+520 1d1+0
+0 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#198
+animal companion mob~
+the animal companion mob~
+The animal companion mob is here.
+~
+It is the animal companion mob.
+~
+bdno bd 0 0 k 0 0 0 0
+1 20 9 12d100+120 1d8+0
+0 0 9 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#199
+stallion majestic white ~
+a majestic, glistening white stallion~
+A majestic, glistening white stallion is here patiently awaiting his master.
+~
+   This white stallion is by far one of the most magificent of its kind.  It is
+large and muscular and looks like it would not scare in a fight, nor tire or go
+lame from much travelling.  It has glistening white fur and a thick black mane,
+but there is not a spot of color anywhere else in its body.  
+~
+bdnopqry b 0 0 k 0 0 0 500
+5 20 5 66d100+151 1d8+0
+0 0 40 5
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 17
+S
+$

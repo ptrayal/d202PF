@@ -1,0 +1,272 @@
+#4000
+hand axe offer~
+cut a branch from the tree -Hand axe offering~
+Long, thick branches hang across the street here.  Perhaps with a hand axe you
+could fell a few of them.  
+~
+You use your hand axe to chop at some of the larger branches.  Your chopping at
+the branches produces a large oak branch!  
+~
+You have abandoned the quest.
+~
+5 4026 0 4005 -1 -1 4005
+20 0 10 61 -1 4026 1
+0 10 4004
+S
+#4001
+oak branch offer~
+Oak branch offering~
+Im running out of wood, a carpenter without wood is as good as dead!  If you
+find any, ill craft it into something we both can use.  
+~
+Ooh you found some wood i see, hold on one second and ill have this trimmed up
+in no time.  @YThe carpenter begins using the tools of his trade, gradually the
+large branch turns into a bundle of wooden planks@n there we go, just what i
+needed.  "here, why dont you take a couple planks.  Its the least that i could
+do.  "
+~
+You have abandoned the quest.
+~
+5 4005 0 4004 -1 -1 4004
+10 10 9 61 -1 4005 1
+0 15 4007
+S
+#4002
+plank offer~
+Shield maker needs a plank of wood.~
+That lousy carpenter has stopped shipping me the wooden planks i need for my
+shields.  If you find any, ill reward you generously.  
+~
+You have completed the quest.  Oh wonderful, you found me a few planks, now i
+can get my current orders filled.  As far as your reward...  Here take this old
+shield, the guy who commissioned it died in a horseback riding accident.  
+~
+You have abandoned the quest.
+~
+5 4006 0 4007 -1 -1 4007
+10 0 9 61 -1 4006 1
+0 20 4019
+S
+#4003
+wooden shield offer~
+Wooden shield offer~
+@YThe painter is covered in paint and surrounded by shields on the ground.  I am
+not the average artisan.  I have found my medium to not be canvas, but shields.
+Every artist must find their niche and that I have done.  It has paid very well.
+@n
+~
+There we are!  A shield meant for a Latos city guard.  Oh for god sakes!  Ive
+done the colors all wrong!  This shield is a disgrace to my painting abilities.
+Take it!  Get it from my sight!  Just take the shield and leave.  
+~
+You have abandoned the quest.
+~
+5 4008 0 4019 -1 -1 4019
+5 0 9 61 -1 4008 1
+0 15 4018
+S
+#4004
+painted shield offer~
+Painted shield offering~
+@YA hulking figure stands before you fashioning the finest of armor.  Upon his
+armor the sigil of the City of Latos is placed.  He holds a sword in left hand,
+but his right seems empty to you.  The Guard turns and says, I need my shield.
+I was promised my shield by Raay two days ago.  @n
+~
+Well ill be, my shield finally got done.  And look, raay was kind enough to even
+have it painted.  Well then, hey you.  What are you doing still standing around?
+Here you can have this as your reward says the laughing guard.  
+~
+You have abandoned the quest.
+~
+5 4023 0 4018 -1 -1 4018
+5 0 8 61 -1 4023 1
+0 20 4017
+S
+#4005
+marble offer~
+marble offering~
+A small round hole is here, clearly the same size as a small marble.  
+~
+You slip the marble into the hole, and hear it rolling down a hidden track
+within the bricks.  A loud click resonates from the wall, and a brick swings
+open revealing a small cubby hole.  
+~
+You have abandoned the quest.
+~
+5 4027 0 4017 -1 -1 4017
+0 0 11 61 -1 4027 1
+0 10 4020
+S
+#4006
+Priest of Justice - gladiator champion~
+Priest of Justice - gladiator champion~
+The @WPriest@n of @CJustice@n suddenly springs to life and starts to speak!
+
+"Seek combat, adventure, and glory." The statue points to the skies!
+
+Seek and destroy a @WGladiator Champion@n in the name of Ilmater!
+with that, the priest stands motionless once more.
+~
+The Priest puts his hand to your forehead and says a prayer to Ilmater.  May
+your weapon always be sharp.  Go with Ilmater my son.
+~
+You have abandoned the quest.
+~
+3 4033 0 3071 -1 -1 -1
+25 0 7 60 -1 -1 1
+0 10 65535
+S
+#4007
+priest of justice troll berserker kill~
+Priest of Justice - Kill a troll Berserker~
+The @WPriest@n of @CJustice@n suddenly springs to life and starts to speak!
+
+"Seek combat, adventure, and glory" The statue points to the skies!
+seek and destroy a Troll Berserker in the name of Ilmater!
+with that, the priest stands motionless once more.
+~
+Well done adventurer, I pray to Tempus that he will bless you and your travels. 
+-=take this tip for what its worth=- the spire of dawn holds the key to the place forgotten.
+~
+You have abandoned the quest.
+~
+3 4034 0 4609 -1 -1 -1
+40 0 10 61 -1 -1 1
+0 15 65535
+S
+#4008
+priest of justice - kill the orc champi~
+priest of justice - kill the orc champion~
+The @WPriest@n of @CJustice@n suddenly springs to life and starts to speak!
+"Seek combat, adventure, and glory." The statue points to the skies!
+seek and destroy a Gladiator Champion in the name of Ilmater!
+with that, the priest stands motionless once more.
+~
+The Priest puts his hand to your forehead and says a prayer to Ilmater.  May
+your weapon always be sharp.  Go with Ilmater my son.
+@RTo get passed the vines, deep below....remember adventurer!@r "welni imnu"@n
+~
+You have abandoned the quest.
+~
+3 4035 0 1410 -1 -1 -1
+25 0 7 61 -1 -1 1
+0 10 65535
+S
+#4009
+priest of justice giant skeleton~
+Priest of justice - Kill a giant skeleton~
+The Priest of @CJustice@n suddenly springs to life and starts to speak!
+
+"Seek combat, adventure, and glory." The statue points to the skies!
+Seek and destroy a Giant Skeleton in the name of Ilmater!
+with that, the priest stands motionless once more.
+~
+@CIlmater@n will be pleased with the justice done here this day!
+~
+You have abandoned the quest.
+~
+3 4036 0 606 -1 -1 -1
+40 0 6 61 -1 -1 1
+0 20 65535
+S
+#4010
+Priest of Justice - Basilisk~
+Priest of Justice - basilisk offer~
+The Priest of Justice suddenly springs to life and starts to speak!
+
+"Seek combat, adventure, and glory." The statue points to the skies!
+Seek and destroy a Venom-eyed Basilisk in the name of Ilmater!
+with that, the priest stands motionless once more.
+~
+Well done adventurer.  Ilmater shall be pleased with this news.
+~
+You have abandoned the quest.
+~
+3 4037 0 4604 -1 -1 -1
+40 0 10 61 -1 -1 1
+500 15 65535
+S
+#4011
+priest of justice mountain giant king o~
+Priest of Justice - Mountain Giant King~
+The Priest of Justice suddenly springs to life and starts to speak!
+
+"Seek combat, adventure, and glory." The statue points to the skies!
+Seek and destroy a Mountain Giant King in the name of Ilmater!
+with that, the priest stands motionless once more.
+~
+Thank you, young adventurer.  Ilmater will be pleased.
+~
+You have abandoned the quest.
+~
+3 4039 0 4410 -1 -1 -1
+40 0 14 61 -1 -1 1
+0 25 65535
+S
+#4012
+priest of justice - troll king offer~
+priest of justice - troll king offer~
+The @WPriest@n of @CJustice@n suddenly springs to life and starts to speak!
+
+"Seek combat, adventure, and glory." the statue points to the skies!
+seek and destroy the Troll King in the name of Ilmater!
+with that, the priest stands motionless once more.
+~
+Ilmater will be very pleased! 
+~
+You have abandoned the quest.
+~
+3 4040 0 4611 -1 -1 -1
+60 0 14 61 -1 -1 1
+0 15 65535
+S
+#4013
+priest of justice - ooze~
+Priest of Justice - kill 15 oozes~
+There is no information on this quest.  The @WPriest@n of @CJustice@n comes to
+life suddely.  "Seek adventure, glory, young traveller!  Travel forth and slay
+15 Oozes for their crimes against the gods.  The @WPriest@n becomes statue like
+once more.  
+~
+A Job well done adventurer.  You may become renowned someday!  Take this reward in the name of Ilmater.
+~
+You have abandoned the quest.
+~
+3 4042 0 911 -1 -1 -1
+25 0 2 61 -1 -1 15
+0 15 65535
+S
+#4014
+marker stone 1~
+@YMarker Stone@n 1~
+Scattered throughout the realms are tiny bits of a long forgotten star which
+fell from the heavens, be sure to examine the stone, for i need the one marked
+"one".  
+~
+Well done, by finding this stone you have shown that you have explored the city
+of luskan quit thoroughly.  Take this as a reward.  
+~
+You have abandoned the quest.
+~
+5 4045 0 4060 -1 -1 -1
+50 0 3 60 -1 4045 1
+1000 20 65535
+S
+#4015
+marker stone 2~
+@YMarker Stone@n #2~
+Scattered throughout the realms are tiny bits of a long forgotten star which
+fell from the heavens, be sure to examine the stone, for i need the one marked
+"two".  
+~
+Well done, by finding this stone you have shown that you have explored the area
+around Ghalos the High Priest quit thoroughly.  Take this as a reward.  
+~
+You have abandoned the quest.
+~
+5 4044 0 4061 -1 -1 -1
+75 0 6 60 -1 4044 1
+0 10 65535
+S
+$~

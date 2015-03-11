@@ -1,0 +1,2136 @@
+#1000
+Before a Vast Cemetery~
+   Before you a vast cemetery sprawls out in the distance.  The steep mountain
+cliffs open up into a small valley.  In the distance, a ruined rose shaped tower
+draws your attention.  Countless tombstones and grave markers lay strewn about
+in this valley.  Overgrown grass and brush have taken hold in the cemetery.  
+~
+10 c 0 0 0 2
+D1
+~
+~
+0 0 1002 0 0 0 0 0 0 0 0
+S
+#1001
+Saren's Workroom~
+   Large bookshelves cover every wall in this cozy room.  A comfortable chair
+has been placed in the middle of the room.  A warm fireplace keeps the chill out
+and bathes the room in a soft glow.  
+~
+10 d 0 0 0 0
+D0
+~
+~
+0 0 1000 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 124 0 0 0 0 0 0 0 0
+S
+#1002
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1020 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1010 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1000 0 0 0 0 0 0 0 0
+S
+#1003
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1021 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1004 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1011 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1002 0 0 0 0 0 0 0 0
+S
+#1004
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1022 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1003 0 0 0 0 0 0 0 0
+S
+#1005
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1004 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+S
+#1006
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D1
+~
+~
+0 0 1031 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1023 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1007 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1030 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+S
+#1007
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1035 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1031 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+S
+#1008
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1032 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1007 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1009 0 0 0 0 0 0 0 0
+S
+#1009
+Overlooking a Deep Chasm~
+   A deep chasm splits the ground in front of you.  The darkness of the chasm
+hides its true depth.  Billows of cold damp fog raise out of the darkness of the
+chasm.  An old wooden bridge offers the only way across.  Across the bridge, an
+immense rose shaped structure towers above the fog.  
+~
+10 ac 0 0 0 2
+D1
+~
+~
+0 0 1038 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+S
+#1010
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1002 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1011 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1014 0 0 0 0 0 0 0 0
+S
+#1011
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1003 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1012 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1015 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1010 0 0 0 0 0 0 0 0
+S
+#1012
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1004 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1016 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1011 0 0 0 0 0 0 0 0
+S
+#1013
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1017 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1012 0 0 0 0 0 0 0 0
+S
+#1014
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1010 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1015 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1018 0 0 0 0 0 0 0 0
+S
+#1015
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1011 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1016 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1018 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1014 0 0 0 0 0 0 0 0
+S
+#1016
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1012 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1017 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1015 0 0 0 0 0 0 0 0
+S
+#1017
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1016 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1019 0 0 0 0 0 0 0 0
+S
+#1018
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1015 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1019 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1014 0 0 0 0 0 0 0 0
+S
+#1019
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1016 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1018 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1017 0 0 0 0 0 0 0 0
+S
+#1020
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1024 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1002 0 0 0 0 0 0 0 0
+S
+#1021
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1025 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1022 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1020 0 0 0 0 0 0 0 0
+S
+#1022
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1026 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1004 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1021 0 0 0 0 0 0 0 0
+S
+#1023
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1027 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1022 0 0 0 0 0 0 0 0
+S
+#1024
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D1
+~
+~
+0 0 1025 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1020 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1028 0 0 0 0 0 0 0 0
+S
+#1025
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1028 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1026 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1021 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1024 0 0 0 0 0 0 0 0
+S
+#1026
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1029 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1027 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1022 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1025 0 0 0 0 0 0 0 0
+S
+#1027
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D2
+~
+~
+0 0 1023 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1026 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1029 0 0 0 0 0 0 0 0
+S
+#1028
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D1
+~
+~
+0 0 1029 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1025 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1024 0 0 0 0 0 0 0 0
+S
+#1029
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D2
+~
+~
+0 0 1026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1028 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1027 0 0 0 0 0 0 0 0
+S
+#1030
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D6
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1033 0 0 0 0 0 0 0 0
+S
+#1031
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1007 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1032 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1033 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+S
+#1032
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1034 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1031 0 0 0 0 0 0 0 0
+S
+#1033
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1031 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1034 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1030 0 0 0 0 0 0 0 0
+S
+#1034
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1032 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1033 0 0 0 0 0 0 0 0
+S
+#1035
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D1
+~
+~
+0 0 1036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1007 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1037 0 0 0 0 0 0 0 0
+S
+#1036
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D2
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1035 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1037 0 0 0 0 0 0 0 0
+S
+#1037
+An Overgrown Cemetery~
+   Tombstones and grave markers lay broken and damaged.  Grass and brush have
+begun to take over the area, covering most of the tombstones.  A damp fog hangs
+low to the ground, making it hard to even see you feet.  Something can be seen
+in the distance moving through the thick fog.  It would be easy to lose your
+sense of direction in this vile place.  
+~
+10 a 0 0 0 2
+D8
+~
+~
+0 0 1036 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1035 0 0 0 0 0 0 0 0
+S
+#1038
+A Wooden Bridge~
+   Despite its obvious age, this bridge seems stable.  The bridge itself is wide
+enough to handle a large wagon.  The decking of the bridge is slick from the
+damp fog raising out of the chasm.  Railings line both sides of the bridge,
+protecting one from slipping off the edge.  
+~
+10 a 0 0 0 2
+D1
+~
+~
+0 0 1039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1009 0 0 0 0 0 0 0 0
+S
+#1039
+A Wooden Bridge~
+   Despite its obvious age, this bridge seems stable.  The bridge itself is wide
+enough to handle a large wagon.  The decking of the bridge is slick from the
+damp fog raising out of the chasm.  Railings line both sides of the bridge,
+protecting one from slipping off the edge.  
+~
+10 a 0 0 0 2
+D3
+~
+~
+0 0 1038 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1040 0 0 0 0 0 0 0 0
+S
+#1040
+Nearing Dargaard Keep~
+Emerging from the bridge, Dargaard Keep looms before you.  The fog continues
+to rise heavily out of the chasm behind you.  In the distance you can barely
+make out two sputtering torches framing the massive entrance gate.  You notice a
+lone figure standing before the gates just ahead.
+~
+10 ac 0 0 0 2
+D0
+~
+~
+0 0 1041 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1039 0 0 0 0 0 0 0 0
+S
+#1041
+The Gates of Dargaard Keep~
+   Two large gate doors grant entrance to this accursed keep.  The granite this
+keep is made of has a reddish hue to it.  Closer inspection of the gate doors
+show scorch marks along their edges.  Carved into the granite above the doors,
+you see an inscription.  The inscription reads 'Est Sularus Oth Mithas'.  
+~
+10 a 0 0 0 2
+D0
+~
+~
+0 0 1042 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1040 0 0 0 0 0 0 0 0
+S
+#1042
+Before the Entry Hall~
+   This area acts as the entrance to Lord Soth's entry hall.  A pair of arched
+stairs raise along the walls of the chamber.  In the far distance you see a
+raised dias, which holds a black throne.  From this entrance, you can access the
+entry hall or the staircases.  
+~
+10 acd 0 0 0 0
+D0
+~
+~
+0 0 1043 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1041 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1068 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1056 0 0 0 0 0 0 0 0
+S
+#1043
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1042 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1053 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1048 0 0 0 0 0 0 0 0
+S
+#1044
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1043 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1054 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1048 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1053 0 0 0 0 0 0 0 0
+S
+#1045
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1055 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1050 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1054 0 0 0 0 0 0 0 0
+S
+#1046
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 c 0 0 0 0
+D0
+~
+~
+0 0 1047 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1050 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1055 0 0 0 0 0 0 0 0
+S
+#1047
+Lord Soth's Throne~
+   Up several semicircular steps is a great black, bat-winged throne.  Hideous
+carved black skulls adorn the ends of each arm of the throne.  The throne area
+has been scrubbed clean.  There is a clean purple velvet cushion on the seat.  
+There is a strange human-shaped red stain draped across several steps.  It
+appears to be permanent in spite of some abrasive scrubbing.  
+~
+10 acd 0 0 0 0
+D2
+~
+~
+0 0 1046 0 0 0 0 0 0 0 0
+S
+#1048
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1052 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1043 0 0 0 0 0 0 0 0
+S
+#1049
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1050 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1048 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1051 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1052 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+S
+#1050
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1046 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1051 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+S
+#1051
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1052 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1050 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+S
+#1052
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1051 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1048 0 0 0 0 0 0 0 0
+S
+#1053
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1054 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1199 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1043 0 0 0 0 0 0 0 0
+S
+#1054
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1055 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1053 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1198 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1199 0 0 0 0 0 0 0 0
+S
+#1055
+Entry Hall~
+   The grand entry hall is a huge circular room full of burnt, charred pews
+facing the great throne at the far end of the hall.  Four huge circular diases
+stand four feet high, two on each side of the room.  The burnt and twisted
+remains of a very large chandelier sit in the center of the room where it fell
+long ago from above.  The ceiling is four levels above.  Circular stairways rise
+from each side of the wall, ascending to a landing on an upper level.  Black
+rubble is strewn along the walls.  Bones and skulls can be seen under the
+chandelier.  Footprints are visible up and down the outside aisles.  The soot on
+the tops of the diases has been rubbed off.  
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1054 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1046 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1198 0 0 0 0 0 0 0 0
+S
+#1056
+Eastern Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D4
+~
+~
+0 0 1057 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1042 0 0 0 0 0 0 0 0
+S
+#1057
+Eastern Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D5
+~
+~
+0 0 1056 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1058 0 0 0 0 0 0 0 0
+S
+#1058
+Eastern Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D4
+~
+~
+0 0 1059 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1057 0 0 0 0 0 0 0 0
+S
+#1059
+Eastern Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D5
+~
+~
+0 0 1058 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1060 0 0 0 0 0 0 0 0
+S
+#1060
+Eastern Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D4
+~
+~
+0 0 1061 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1059 0 0 0 0 0 0 0 0
+S
+#1061
+Eastern Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D5
+~
+~
+0 0 1060 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1062 0 0 0 0 0 0 0 0
+S
+#1062
+Staircase Landing~
+   The eastern and western staircases meet on this landing.  From here you can
+overlook the enormous entry hall.  Directly beneath you is the great throne.  
+Even from this perch, the entry hall ceiling is still two levels above you.  A
+hallway begins to your northeast.  
+~
+10 acd 0 0 0 0
+D7
+~
+~
+0 0 1197 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1061 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1063 0 0 0 0 0 0 0 0
+S
+#1063
+Western Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D5
+~
+~
+0 0 1064 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1062 0 0 0 0 0 0 0 0
+S
+#1064
+Western Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D4
+~
+~
+0 0 1063 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1065 0 0 0 0 0 0 0 0
+S
+#1065
+Western Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D5
+~
+~
+0 0 1066 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1064 0 0 0 0 0 0 0 0
+S
+#1066
+Western Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D4
+~
+~
+0 0 1065 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1067 0 0 0 0 0 0 0 0
+S
+#1067
+Western Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D5
+~
+~
+0 0 1068 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1066 0 0 0 0 0 0 0 0
+S
+#1068
+Western Staircase~
+   This arched staircase raises on a gradual incline.  The vastness of the entry
+hall can be seen as you continue your way to the landing on the second floor.  
+Even at this height, scorch marks can be seen on the walls of this chamber.  A
+intense fire must have engulfed a good portion of this hall.  
+~
+10 ad 0 0 0 0
+D4
+~
+~
+0 0 1067 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1042 0 0 0 0 0 0 0 0
+S
+#1069
+Cell Block Hallway~
+   This rather plain hallway runs close to one hundred feet in length.  Large
+steel doors line both sides of the walls.  Small slots can be seen at the bottom
+of each door, as well as a small barred window about five feet high.  A rancid
+smell invades your nose as you continue along.  
+~
+10 acd 0 0 0 0
+D0
+~
+~
+0 0 1070 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1192 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1080 0 0 0 0 0 0 0 0
+S
+#1070
+Cell Block Hallway~
+   This rather plain hallway runs close to one hundred feet in length.  Large
+steel doors line both sides of the walls.  Small slots can be seen at the bottom
+of each door, as well as a small barred window about five feet high.  A rancid
+smell invades your nose as you continue along.  
+~
+10 acd 0 0 0 0
+D0
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1078 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1069 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1081 0 0 0 0 0 0 0 0
+S
+#1071
+Cell Block Hallway~
+   This rather plain hallway runs close to one hundred feet in length.  Large
+steel doors line both sides of the walls.  Small slots can be seen at the bottom
+of each door, as well as a small barred window about five feet high.  A rancid
+smell invades your nose as you continue along.  
+~
+10 acd 0 0 0 0
+D0
+~
+~
+0 0 1072 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1077 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1070 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1082 0 0 0 0 0 0 0 0
+S
+#1072
+Cell Block Hallway~
+   This rather plain hallway runs close to one hundred feet in length.  Large
+steel doors line both sides of the walls.  Small slots can be seen at the bottom
+of each door, as well as a small barred window about five feet high.  A rancid
+smell invades your nose as you continue along.  
+~
+10 acd 0 0 0 0
+D0
+~
+~
+0 0 1073 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1076 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1083 0 0 0 0 0 0 0 0
+S
+#1073
+Cell Block Hallway~
+   This rather plain hallway runs close to one hundred feet in length.  Large
+steel doors line both sides of the walls.  Small slots can be seen at the bottom
+of each door, as well as a small barred window about five feet high.  A rancid
+smell invades your nose as you continue along.  
+~
+10 acd 0 0 0 0
+D0
+~
+~
+0 0 1074 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1075 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1072 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1084 0 0 0 0 0 0 0 0
+S
+#1074
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1073 0 0 0 0 0 0 0 0
+S
+#1075
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D3
+~
+~
+0 0 1073 0 0 0 0 0 0 0 0
+S
+#1076
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D3
+~
+~
+0 0 1072 0 0 0 0 0 0 0 0
+S
+#1077
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D3
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+S
+#1078
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D3
+~
+~
+0 0 1070 0 0 0 0 0 0 0 0
+S
+#1079
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D3
+~
+~
+0 0 1069 0 0 0 0 0 0 0 0
+S
+#1080
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D1
+~
+~
+0 0 1069 0 0 0 0 0 0 0 0
+S
+#1081
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D1
+~
+~
+0 0 1070 0 0 0 0 0 0 0 0
+S
+#1082
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D1
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+S
+#1083
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D1
+~
+~
+0 0 1072 0 0 0 0 0 0 0 0
+S
+#1084
+A Jail Cell~
+   The walls of this cell are made of thick granite.  A heavy stone urn has been
+placed against one of the walls to hold water.  A chamber pot rests across from
+the urn, against the wall.  Two stone benches have been built out of opposite
+walls, they serve as beds for the cells inhabitants.  The door of this cell has
+been forged of steel.  A small slit sits at the bottom of the door, allowing
+food to be pushed into the cell, or just big enough for a rat to crawl through.
+
+~
+10 ad 0 0 0 0
+D1
+~
+~
+0 0 1073 0 0 0 0 0 0 0 0
+S
+#1085
+A Well Kept Hallway~
+   The hallway in this pasrt of the keep runs from west to east.  The stone
+floor has been kept clean compaired to the rest of the keep.  Oaken doors line
+the walls of the hallway.  Torches have been set near each door, but them remain
+un-lite.  A low chant can be heard coming from some of the rooms, the chant
+sounds to be in elvish.  
+~
+10 ad 0 0 0 0
+D1
+~
+~
+0 0 1086 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1195 0 0 0 0 0 0 0 0
+S
+#1086
+A Well Kept Hallway~
+   The hallway in this pasrt of the keep runs from west to east.  The stone
+floor has been kept clean compaired to the rest of the keep.  Oaken doors line
+the walls of the hallway.  Torches have been set near each door, but them remain
+un-lite.  A low chant can be heard coming from some of the rooms, the chant
+sounds to be in elvish.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1094 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1090 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1085 0 0 0 0 0 0 0 0
+S
+#1087
+A Well Kept Hallway~
+   The hallway in this pasrt of the keep runs from west to east.  The stone
+floor has been kept clean compaired to the rest of the keep.  Oaken doors line
+the walls of the hallway.  Torches have been set near each door, but them remain
+un-lite.  A low chant can be heard coming from some of the rooms, the chant
+sounds to be in elvish.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1095 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1088 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1091 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1086 0 0 0 0 0 0 0 0
+S
+#1088
+A Well Kept Hallway~
+   The hallway in this pasrt of the keep runs from west to east.  The stone
+floor has been kept clean compaired to the rest of the keep.  Oaken doors line
+the walls of the hallway.  Torches have been set near each door, but them remain
+un-lite.  A low chant can be heard coming from some of the rooms, the chant
+sounds to be in elvish.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1096 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1089 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1092 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1087 0 0 0 0 0 0 0 0
+S
+#1089
+A Well Kept Hallway~
+   The hallway in this pasrt of the keep runs from west to east.  The stone
+floor has been kept clean compaired to the rest of the keep.  Oaken doors line
+the walls of the hallway.  Torches have been set near each door, but them remain
+un-lite.  A low chant can be heard coming from some of the rooms, the chant
+sounds to be in elvish.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1097 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1093 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1088 0 0 0 0 0 0 0 0
+S
+#1090
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1086 0 0 0 0 0 0 0 0
+S
+#1091
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1087 0 0 0 0 0 0 0 0
+S
+#1092
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 0 0 0 0 0
+D0
+~
+~
+0 0 1088 0 0 0 0 0 0 0 0
+S
+#1093
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 ad 0 0 0 0
+D0
+~
+~
+0 0 1089 0 0 0 0 0 0 0 0
+S
+#1094
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1086 0 0 0 0 0 0 0 0
+S
+#1095
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1087 0 0 0 0 0 0 0 0
+S
+#1096
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1088 0 0 0 0 0 0 0 0
+S
+#1097
+Elven Living Quarters~
+   Simple furniture adorn this room.  A bed rests against the far wall with a
+small chest at its foot.  A desk has been pushed up against one of the walls.  
+Across from the desk, wooden pegs have been attached to the stone wall.  The
+pegs serve as a place to hang clothing.  A small mat lays on the cold stone
+floor before the bed.  
+~
+10 ad 0 0 0 0
+D2
+~
+~
+0 0 1089 0 0 0 0 0 0 0 0
+S
+#1098
+A new room~
+You are in an unfinished room.
+~
+10 0 0 0 0 0
+S
+#1099
+A new room~
+You are in an unfinished room.
+~
+10 0 0 0 0 0
+S
+$~

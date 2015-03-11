@@ -1,0 +1,160 @@
+#98
+None.~
+Rogue Encampment~
+9800 9899 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  9800     4  9859   2   100     0    -1          0 a tired elven woman
+
+M 0  9800     4  9859   2   100     1    -1          0 a tired elven woman
+
+M 0  9806     2  9891   1   100     2    -1          0 a frail, elderly woman
+
+E 1  9803    10     5   0   100     3     2          0 an old tattered robe
+
+M 0  9806     1  9891   1   100     4    -1          0 a frail, elderly woman
+
+M 0  9805     2  9891   1   100     5    -1          0 a young elven child
+
+E 1  9801    20    17   0    40     6     5          0 a small wooden soldier
+
+M 0  9802     2  9858   1   100     7    -1          0 a frail, sickly elf
+
+E 1  9805    20     5   0   100     8     7          0 a dirty, red robe
+
+M 0  9801     4  9858   1   100     9    -1          0 an ageing angry dwarf
+
+E 1  9804    20     5   0    75    10     9          0 a studded leather vest
+
+M 0  9804     2  9861   1   100    11    -1          0 a small, quiet gully dwarf
+
+E 1  9808    10     5   0    39    12    11          0 a bright yellow shirt with blue buttons
+
+M 0  9803     3  9861   1   100    13    -1          0 an obese gully dwarf
+
+E 1  9809    10     5   0    76    14    13          0 a smelly ragged shirt
+
+M 0  9807     4  9862   3   100    15    -1          0 a tall, burly soldier
+
+E 1  9806    20     8   0    75    16    15          0 rusted platemail boots
+
+M 0  9807     4  9862   3   100    17    -1          0 a tall, burly soldier
+
+E 1  9807    10    16   0    50    18    17          0 a large, rusted broadsword
+
+M 0  9807     4  9862   3   100    19    -1          0 a tall, burly soldier
+
+M 0  9808     1  9867   1   100    20    -1          0 a quick, shadowy figure
+
+G 1  9824    10     0   0   100    21    20          0 a small rusted key
+
+E 1  9815    20    16   0    30    22    20          0 a small jagged dagger
+
+M 0  9809    -1  9882   3   100    23    -1          0 a young, darkened warrior
+
+M 0  9809     7  9882   2    75    24    -1          0 a young, darkened warrior
+
+M 0  9809    -1  9887   3   100    25    -1          0 a young, darkened warrior
+
+M 0  9810     4  9887   2   100    26    -1          0 an enraged drunken man
+
+M 0  9810     4  9887   2   100    27    -1          0 an enraged drunken man
+
+M 0  9810     4  9884   2   100    28    -1          0 an enraged drunken man
+
+M 0  9810     4  9884   2   100    29    -1          0 an enraged drunken man
+
+M 0  9811     1  9888   1   100    30    -1          0 a short, skinny man
+
+M 0  9809    20  9889   4    75    31    -1          0 a young, darkened warrior
+
+M 0  9812     1  9889   1   100    32    -1          0 a young woman dressed in robes
+
+G 1  1246     2     0   0    10    33    32          0 a sticky scroll made of mesh
+
+E 1  9814    20     8   0    20    34    32          0 a pair of elegant leather sandals
+
+M 0  9813     1  9883   1   100    35    -1          0 a dark robed man
+
+E 1  9813    12     6   0    30    36    35          0 a midnight colored hood
+
+M 0  9814     2  9871   2   100    37    -1          0 a muscular, armored guard
+
+E 1  9812    15    16   0    40    38    37          0 a large bloodstained claymore
+
+M 0  9814     2  9871   2   100    39    -1          0 a muscular, armored guard
+
+G 1  9800    10     0   0   100    40    39          0 a red and gold key
+
+M 0  9815     4  9872   1    75    41    -1          0 a large black bat
+
+M 0  9815     4  9873   1    75    42    -1          0 a large black bat
+
+M 0  9815     4  9876   1    75    43    -1          0 a large black bat
+
+M 0  9819     2  9881   1   100    44    -1          0 an insane, malevolent doctor
+
+G 1  1242     3     0   0    20    45    44          0 a withered, cracked parchment
+
+E 1  9811     7     5   0   100    46    44          0 a long blood stained coat
+
+D 0  9881     2     2   0   101    47    -10 
+
+M 0  9818     3  9881   3   100    48    -1          0 a battered, frail man
+
+M 0  9818     3  9881   3   100    49    -1          0 a battered, frail man
+
+M 0  9818     3  9881   3   100    50    -1          0 a battered, frail man
+
+D 0  9880     0     2   0   101    51    -10 
+
+D 0  9877     0     2   0   101    52    -10 
+
+M 0  9817     1  9877   1   100    53    -1          0 an enormous mountain lion
+
+E 1  9810    10     3   0    20    54    54          0 a heavy chain collar
+
+O 0  9816     1  9870   0   100    55    -1          0 the bloody corpse of Argile
+
+P 1  9817    30  9816   0   100    56    55          0 a torn parchment soaked in blood
+
+D 0  9892     2     2   0   101    57    -10 
+
+D 0  9892     1     1   0   101    58    -10 
+
+M 0  9816     1  9892   1   100    59    -1          0 a hideous red-eyed spectre
+
+D 0  9893     3     1   0   101    60    -10 
+
+O 0  9820     1  9893   0   100    61    -1          0 a large pile of rotten wood
+
+P 1  9823    20  9820   0    20    62    61          0 a small golden ring inlaid with emeralds
+
+O 0  9819     1  9893   0   100    63    -1          0 a rotten wooden crate
+
+P 1  9822   100  9819   0   100    64    63          0 a small pile of rat feces
+
+P 1  9822   100  9819   0   100    65    63          0 a small pile of rat feces
+
+P 1  9822   100  9819   0   100    66    63          0 a small pile of rat feces
+
+P 1  9822   100  9819   0   100    67    63          0 a small pile of rat feces
+
+P 1  9822   100  9819   0   100    68    63          0 a small pile of rat feces
+
+P 1  9822   100  9819   0   100    69    63          0 a small pile of rat feces
+
+O 0  9818     1  9893   0   100    70    -1          0 an old rusted chest
+
+P 1  9821    20  9818   0    60    71    70          0 a small glass vial
+
+M 0  9809    20  9885   4    75    72    -1          0 a young, darkened warrior
+
+M 0  9809    20  9886   4    75    73    -1          0 a young, darkened warrior
+
+M 0  9820     5  9806   2   100    74    -1          0 an tall, stealthy fellow
+
+S
+$

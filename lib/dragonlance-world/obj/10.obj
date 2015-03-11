@@ -1,0 +1,527 @@
+#1000
+flowers bouquet bright~
+a bright bouquet of flowers~
+A bright bouquet of flowers rests heavily upon the ground.~
+~
+11 cjklmnoprstvwBCDEF abcm stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 100 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#1001
+feather griffon mane~
+a feather from the mane of a great griffon~
+A feather floats to the ground and rests there.~
+~
+1 ajklopruvwBCDEF abc stuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 5 0
+#1002
+jacket pockets multi-pocketed~
+a multi-pocketed jacket~
+A jacket with pockets of various sizes lies upon the ground.~
+~
+15 jklovBCDEF abc lstuvwxyz 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 580 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -15 0
+#1003
+belt braided twine~
+a braided belt~
+A belt of braided twine is strung along the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+belt~
+   Many separate strings of thick twine have been tightly strung together in
+this belt.    
+~
+#1004
+trousers rough hewn~
+a pair of workman's trousers~
+A pair of rough hewn trousers is strewn about the ground.~
+~
+9 jklnoprtuwBCDEF abc stuvwxyz 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1005
+shortsword elven-made make~
+an elven-made shortsword~
+A shortsword of elven make lies partially stuck into the ground.~
+~
+5 jkloprstuvBCDEF abc kz 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 2000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1006
+gauntlets toughest leather hide~
+a set of leather hide gauntlets~
+Gauntlets of the toughest leather lie here.~
+~
+9 jklnoprstuvwBCDEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 560 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+#1007
+boots deerskin soft~
+a pair of soft, deerskin boots~
+A set of boots of the softest deerskin sit upright on the floor.~
+~
+9 jklmnoprstuvwBCDEF abcq stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 160 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#1008
+axe sturdy iron~
+a sturdy, iron axe~
+A sturdy, iron axe sits here, halfway dug into a tree.~
+~
+5 jklprstuBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 250 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1009
+breastplate steel protectorate metal~
+a steel breastplate with the symbol of the Protectorate~
+A steel breastplate of the finest metal lies here.~
+~
+9 jklnpstBCDEF ac stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 900 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+breastplate protectorate~
+   The breastplate is covered in the intricate pattern of an aspen leaf.  The
+stem extends into a swirl which surrounds the entire leaf in an oval.    
+~
+A
+17 -2 0
+#1010
+cloak grey flowing~
+a flowing, grey cloak~
+A flowing cloak of grey lies in a pile on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 300 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+20 1 0
+#1011
+robe white homespun~
+a homespun white robe~
+A homespun robe of the purest white lies unwrinkled here.~
+~
+9 bjklmnpstvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 2500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#1012
+bracers golden golden-colored gold~
+golden-colored bracers~
+A set of bracers of the purest gold color lie here.~
+~
+9 jklmnprstuvwBCDEF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 250 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+23 1 0
+#1013
+doublet fine laced lace~
+a laced, fine doublet~
+A doublet of the finest lace lies in a small pile here.~
+~
+9 jklmnorstvBCDEF ab stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 340 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1014
+rake iron sturdy~
+a sturdy iron rake~
+An iron rake rests heavily upon the ground.~
+~
+5 jklpuBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 175 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1015
+mail splint guardsman's~
+a set of guardsman's splint mail~
+A set of splint mail with the emblems of the guard lies here.~
+~
+9 jklnpstuBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 750 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1016
+helm copper open-faced~
+an open-faced copper helm~
+A helm of copper with an open face sits here.~
+~
+9 jklnprstuBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 250 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1017
+medallion fine aspen~
+a fine medallion with aspen leaf decorations~
+A fine medallion lies untangled here.~
+~
+9 bgjklmnrtwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1400 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+#1018
+wine sweet elven bottle~
+a bottle of sweet elven wine~
+A bottle of elven wine emits a sweet smell here.~
+~
+17 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+25 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1019
+tunic silver finely finely-made~
+a finely-made tunic trimmed in silver~
+A finely meshed tunic trimmed in silver lies in a pile here.~
+~
+9 ajklnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 2500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+#1020
+longsword steel quenched delicately carved~
+a longsword of quenched steel~
+A delicately carved longsword of steel shines brightly in the sunlight.~
+~
+5 jkloprstuvBCDEF abc kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+11 1400 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+21 1 0
+#1021
+chainmail woven intricately~
+a set of intricately woven elven chainmail~
+Chainmail woven perfectly together sits in a tight ball.~
+~
+9 jklnoprstvCF ab 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+16 2000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1022
+ring jeweled delicately~
+a delicately jeweled ring~
+A ring, delicately crafted, twinkles in the moonlight.~
+~
+9 ajklmnoprstuvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 3 0
+#1023
+gauntlets beautifully crafted~
+a pair of beautifully crafted gauntlets~
+A pair of beautifully crafted gauntlets rest here.~
+~
+9 jklnpstvBCDEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 1300 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#1024
+mace spiked iron~
+a spiked iron mace~
+A mace with long iron spikes lies stuck partially into the ground.~
+~
+5 jklnpstBCEF abc mstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 2250 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#1025
+stick simple walking~
+a simple walking stick~
+A stick made for walking lies in the dirt.~
+~
+5 jklmnoprtuvwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 75 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1026
+ruby shimmering deep red~
+a shimmering deep red ruby~
+A shimmering ruby of the deepest red catches your eye.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1027
+rapier thin-bladed thin~
+a thin-bladed rapier~
+A rapier with an extremely thin blade lies here.~
+~
+5 jkloprstvBCDEF abc lstuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1028
+velvet silk cloak qualinost~
+a velvet cloak lined with fine silk~
+A pile of velvet and silk lies crumpled on the ground.~
+~
+9 jklmnwCDEF au ltvxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+inscription cloak~
+   This oversized cloak is made of the finest velvet.  A large hood has been
+attached to the back so one may conceal themselves if desired.  The inside of
+the cloak is made of the finest silk.    
+~
+E
+velvet silk~
+   The silk of the robe slips through the fingers like rain.  Magical in
+nature, the maidens of qualinost weave the silk in the dawns early light once
+every ten-day.    
+~
+A
+24 1 0
+A
+21 1 0
+#1029
+aspen leaf ring qualinost~
+a ring formed from an aspen leaf~
+A leaf from an aspen tree rests here.~
+~
+9 jklmnqtvwBCDF abcu stuvwxyz 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+#1030
+vambraces mithril qualinost~
+a pair of mithril vambraces~
+Glinting in the light, a pair of mithril vambraces lies here.~
+~
+9 agijklnprstBCDF ac stuvy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 100000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+inscription vambraces~
+   Forged deep within the bowls of house protecter by elvish smiths, these
+mithril vambraces have been etched with aspen leaves and wile game.  Upon the
+back side elven script flows intertwined in a mosaic of flowers.    
+~
+E
+inscription script~
+Est neuival de carneth mieala sa "Protect this warrior from harm"
+~
+A
+19 1 0
+#1031
+medallion pure white pine~
+a pure white medallion emblazoned with an emerald pine tree~
+A pure white medallion lies here.~
+~
+9 jlmnoprstuvwCDF ab ltvz 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+$~

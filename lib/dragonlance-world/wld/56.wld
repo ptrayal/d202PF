@@ -1,0 +1,2126 @@
+#5600
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the west is a path
+through the village that eventually exits the village.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5621 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5622 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1679 0 0 0 0 0 0 0 0
+S
+#5601
+the officers quarters~
+A new room
+~
+56 0 h 0 0  0
+D0
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+S
+#5602
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the east is a path
+through the village and that eventually exits the village.    
+~
+56 p h 0 0  0
+D3
+~
+~
+0 0 5624 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5604 0 0 0 0 0 0 0 0
+S
+#5603
+A Dirt Path~
+   To the north the dirt path continues before shifting to the east.  To the
+west is a small rugged looking tent, it probably belongs to a widow or a young
+barbarian woman who has yet to marry.  A small fire pit is outside the tent
+still smoldering from the last fire.    
+~
+56 cp h 0 0  0
+D0
+~
+~
+1 0 5606 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+1 0 5605 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5621 0 0 0 0 0 0 0 0
+S
+#5604
+A Dirt Path~
+   The path continues to the north for quite a ways but to the east is a cave.
+It looks to be man made and is probably used to hold the few prisoners the
+barbarians take.  To the southwest is a path leading to a huge bonfire.    
+~
+56 cp h 0 0  0
+D0
+~
+~
+0 0 5613 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5611 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5602 0 0 0 0 0 0 0 0
+S
+#5605
+Inside a Tent~
+   One of the many tents that dot the village this one looks to be owned by a
+single villager.  Most likely a woman judging from how clean the tent is and
+the weaving yarn in the corner.  There is a small stack of wood and a very
+small firepit for use when the chill sets in.    
+~
+56 cp h 0 0  0
+D1
+~
+flap~
+1 0 5603 0 0 0 0 0 0 0 0
+S
+#5606
+A Dirt Path~
+   The path shifts a bit now and heads northwest into an area of trees.  
+Beyond the trees the path connect to a trail that runs directly through the
+center of the village.  This path is one of the least traveled because the
+trees here are said to be inhabited by spirits of dead warriors.    
+~
+56 p h 0 0  0
+D2
+~
+~
+0 0 5603 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5607 0 0 0 0 0 0 0 0
+S
+#5607
+A Path Heading Away from The Fire~
+   A black skinned tent looms in the distance to the north.  A thin line of
+smoke is rising from the center of the tent.  To the south is a raging bonfire
+with many of the village's warriors preparing for battle there.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5608 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5606 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5613 0 0 0 0 0 0 0 0
+S
+#5608
+Entrance to the Black Skin Tent ~
+   Before you is that entrance to the huge black skin tent that has been
+filling your vision for the last few hundred feet.  One skin after another lay
+on top of each other stitched together from the sides of the tent itself.  
+There are bloody heads resting on poles on either side of the entrance.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5630 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5607 0 0 0 0 0 0 0 0
+S
+#5609
+A Path Heading Away from The Fire ~
+   A black skinned tent looms in the distance to the north.  A thin line of
+smoke is rising from the center of the tent.  To the south is a raging bonfire
+with many of the village's warriors preparing for battle there.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5607 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5610 0 0 0 0 0 0 0 0
+S
+#5610
+A Path Heading Away from The Fire ~
+   A sun beaten path has been worn into a thin covering of grass.  It runs
+north and south from a raging bonfire in the center of the village to a very
+large tent to the north.  Off to the sides an occasional tent will pop up and a
+mother will be teaching her young daughter how to weave.    
+~
+56 cp h 0 0  0
+D0
+~
+~
+0 0 5609 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5624 0 0 0 0 0 0 0 0
+S
+#5611
+A Cave's Entrance~
+   This is the entrance of a man made cave in which the tribe holds prisoners
+it manages to catch.  The prisoners wait here while they wait out either
+execution or possibly are used to trade or blackmail other tribes.  There is a
+wooden door to the east.    
+~
+56 p h 0 0  0
+D1
+~
+celldoor~
+1 0 5612 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5604 0 0 0 0 0 0 0 0
+S
+#5612
+Inside the Prison~
+   A very dried out, and poorly kept cave is all that remains from the years
+when this area was primarily mountains.  Inside the cave, several pieces of
+petrified wood have been affixed, to form an impenetrable cell door.  In
+addition, many primitive characters have been scribbled on the walls; which are
+believed to be the ultimate form of defense from prisoner escape.    
+~
+56 p h 0 0  0
+D3
+~
+celldoor~
+1 0 5611 0 0 0 0 0 0 0 0
+S
+#5613
+A Dirt Path~
+   The sun scorched path now shifts a bit and heads to the northwest.  It
+connects to a much larger path that runs through the center of the village.  
+The smells of smoke hit you as you make your way northwest into the blowing
+wind.    
+~
+56 p h 0 0  0
+D2
+~
+~
+0 0 5604 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5607 0 0 0 0 0 0 0 0
+S
+#5614
+Beside Two Tents~
+   The small path ends here at two tents.  These tents most likely are just
+living areas for the people of the tribe.  The tents don't look to be in too
+good of shape and seem to take alot of beatings due to the nomadic ways of the
+tribe.    
+~
+56 p h 0 0  0
+D1
+~
+~
+0 0 5616 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5615 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5628 0 0 0 0 0 0 0 0
+S
+#5615
+Inside of a Tent~
+   This is a simple tent consisting of a bed of animal skins and furs from the
+huge bears that inhabit the Khur area.  There are very few things laying about
+here, but there are a few bowls and clay pots lying around.  Painted on the
+side of the tent with various dyes are complicatd drawings which depict the
+history of the tribe.    
+~
+56 cdp h 0 0  0
+D0
+~
+~
+0 0 5614 0 0 0 0 0 0 0 0
+S
+#5616
+Inside of a Tent~
+   This is a simple tent consisting of a bed of animal skins and furs from the
+huge bears that inhabit the Khur area.  There are very few things laying about
+here, but there are a few bowls and clay pots lying around.  Painted on the
+side of the tent with dyes are complicated drawings which depict the history of
+the tribe.    
+~
+56 cp h 0 0  0
+D3
+~
+~
+0 0 5614 0 0 0 0 0 0 0 0
+S
+#5617
+Inside of a Family's Tent~
+   Certainly this is the tent of a family due to the diversity in the objects
+found here.  Skins being dried for new jerkins and pants are here, and there
+are spears and ax's lying against the side of the pole in the center of the
+tent.  A child's toy crunches under your feet as you walk through the tent.  
+~
+56 p h 0 0  0
+D2
+~
+~
+0 0 5618 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5619 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5622 0 0 0 0 0 0 0 0
+S
+#5618
+Inside of a Tent~
+   This looks to be the tent of a great hunter.  Huge skins cover the sides of
+the tent and even a few boiled and bleached skulls lie about in decoration.  
+In the back of the tent there is a large bow with a broken string and a bloody
+spear.    
+~
+56 cdp h 0 0  0
+D0
+~
+~
+0 0 5617 0 0 0 0 0 0 0 0
+S
+#5619
+Inside of a Tent~
+   This simple tent seems to only be used as a supply tent for the only things
+here are supplies.  Extra skins, wooden spears and oils used for burning lamps
+are set on the ground in neat piles.  In the very back under some skins some
+kegs of ale may be able to be found.    
+~
+56 cp h 0 0  0
+D1
+~
+~
+0 0 5617 0 0 0 0 0 0 0 0
+S
+#5620
+A Path Leading South~
+   A dirt path runs north and south from the huge bonfire in the center of the
+village to a very decorated tent in the distance to the south.  You will have
+to wait till you are closer to the tent to get more details.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5623 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5631 0 0 0 0 0 0 0 0
+S
+#5621
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the west is a path
+through the village that eventually exits the village.    
+~
+56 p h 0 0  0
+D1
+~
+~
+0 0 5624 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5600 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5603 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+S
+#5622
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the west is a path
+through the village that eventually exits the village.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5600 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5623 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5617 0 0 0 0 0 0 0 0
+S
+#5623
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the west is a path
+through the village that eventually exits the village.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5628 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5620 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5622 0 0 0 0 0 0 0 0
+S
+#5624
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the north is a wide
+dirt path leading to the largest tent in the village some distance away.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5610 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5602 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5621 0 0 0 0 0 0 0 0
+S
+#5625
+At a Huge Bonfire~
+   The flames of the huge bonfire feel as if they are scorching your skin as
+you stand before it.  Surrounding the bonfire are the people of the Black Bear
+tribe.  The warriors circle the fire while chanting war prayers to Sargonnas,
+God of Vengeance.  The warriors of the Black Bear tribe are readying themselves
+for an attack on their ancient enemy the Wolf Clan tribe located far to the
+east of here.    
+~
+56 cp h 0 0  0
+D0
+~
+~
+0 0 5624 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5626 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5623 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5600 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5621 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5627 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5622 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5628 0 0 0 0 0 0 0 0
+S
+#5626
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the east is a path
+through the village and that eventually exits the village.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5627 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5638 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5628 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+S
+#5627
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the east is a path
+through the village and that eventually exits the village.    
+~
+56 p h 0 0  0
+D2
+~
+~
+0 0 5626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5624 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+S
+#5628
+Around the Bonfire~
+   Farther out from the heat of the flames children and wives watch their
+husbands and fathers prepare for the coming battle with a war dance.  The women
+and children sing along but are not allowed to join in.  To the east is a path
+through the village and that eventually exits the village.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5623 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5625 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5614 0 0 0 0 0 0 0 0
+S
+#5629
+A new room~
+You are in a room.
+~
+56 0 h 0 0  0
+D9
+~
+~
+0 0 5628 0 0 0 0 0 0 0 0
+S
+#5630
+Inside the Chief's Tent~
+   This tent is filled with trophies of war.  Broken spears, bleached skulls,
+and dried animal hides are just a few.  There is a window cut into the back of
+the tent and a large firepit located in the middle of the room.  A table with a
+map and crude writing is located off to the side.    
+~
+56 p h 0 0  0
+D2
+~
+~
+0 0 5608 0 0 0 0 0 0 0 0
+S
+#5631
+A Path Leading South~
+   A dirt path heads south from the center of the village.  In the distance you
+can see a decorated tent.  You can see something on poles outside of the tent
+but can't exactly make out what it could be.    
+~
+56 cp h 0 0  0
+D0
+~
+~
+0 0 5620 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5632 0 0 0 0 0 0 0 0
+S
+#5632
+A Path leading South~
+   The path leads south from here leading to a tent decorated with strange
+symbols and trinkets.  To the east and west are villagers tents which are much
+smaller and much less decorated then the one to the south.  A dark robed zealot
+arrives from the north.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5631 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5635 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5633 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5636 0 0 0 0 0 0 0 0
+S
+#5633
+Before a Large Decorated Tent~
+   On both sides of you are poles stuck in the ground.  On top of these poles
+are skulls of various creatures and some are even human.  To the south of you
+is a tent that is decorated with strange symbols and discolored hides.  There
+are no guards here so this can't be the chieftains tent but you can sense power
+from within.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5634 0 0 0 0 0 0 0 0
+S
+#5634
+The Shaman's Tent~
+   This is the Shaman's tent.  It is larger then most of the other tents in the
+village.  Skulls and herbs hang in bundles from the ceiling while jars and pots
+of new healing salves and potions are neatly stacked against one side of the
+tent.  There is a fur rug lying on the ground.    
+~
+56 cp h 0 0  0
+D0
+~
+~
+0 0 5633 0 0 0 0 0 0 0 0
+D5
+~
+fur~
+1 0 5637 0 0 0 0 0 0 0 0
+S
+#5635
+A Small Tent~
+   A small bed of furs and woven blankets lies in the corner of this tent.  
+This must be a warriors tent for half finished weapons lie scattered about with
+tools for sharpening and gutting animals.  Hanging from a string in the center
+of the tent is a large bear skull, this was a gift from an elder when the
+warrior came of age.    
+~
+56 cp h 0 0  0
+D3
+~
+~
+0 0 5632 0 0 0 0 0 0 0 0
+S
+#5636
+Inside of a Family's Tent~
+   Certainly this is the tent of a family due to the diversity in the objects
+found here.  Skins being dried for new jerkins and pants are here, and there
+are spears and ax's lying against the side of the pole in the center of the
+tent.  A child's toy crunches under your feet as you walk through the tent.  
+~
+56 cp h 0 0  0
+D1
+~
+~
+0 0 5632 0 0 0 0 0 0 0 0
+S
+#5637
+Shaman's Treasure Room~
+   This is where the shaman keeps his secret stash of goods which he values
+above all else.  The items located here all have some kind of special property
+about them.  Possibly even unique traits which would cause a great disruption
+in the hands of the wrong person.    
+~
+56 p h 0 0  0
+D4
+~
+fur~
+1 0 5634 0 0 0 0 0 0 0 0
+S
+#5638
+A Path Heading East~
+   The sun scorched dirt path runs east and west.  To the west is a roaring
+bonfire in which many warriors dance about.  To the east the path continues out
+of the village into the wild plains of the Khur area where unknown terrors
+stalk the grasses.    
+~
+56 cp h 0 0  4
+D1
+~
+~
+0 0 5640 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5626 0 0 0 0 0 0 0 0
+S
+#5639
+A new room~
+You are in a room.
+~
+56 0 h 0 0  0
+D3
+~
+~
+0 0 5638 0 0 0 0 0 0 0 0
+S
+#5640
+A Path Heading East~
+   Spreading out across the horizon is a large grassland that is so barren that
+visibility is over a mile.  Ahead, a swirling wind can be seen, picking up and
+spreading across the plains.  The ground below is quite loose, and small
+fragments of mud clumped together cause anything solid that comes into contact
+sinks quickly into the ground and is lost.    
+~
+56 p h 0 0  4
+D1
+~
+~
+0 0 5641 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5638 0 0 0 0 0 0 0 0
+S
+#5641
+A Path Heading East Into the Plains~
+   Spreading out across the horizon is a large grassland that is so barren that
+visibility is over a mile.  Ahead, a swirling wind can be seen, picking up and
+spreading across the plains.  The ground below is quite loose, and small
+fragments of mud clumped together cause anything solid that comes into contact
+sinks quickly into the ground and is lost.    
+~
+56 p h 0 0  4
+D1
+~
+~
+0 0 5642 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5640 0 0 0 0 0 0 0 0
+S
+#5642
+A Path Through Thick Grass~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 pr h 0 0  4
+D1
+~
+~
+0 0 5644 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5641 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5643 0 0 0 0 0 0 0 0
+S
+#5643
+Running Face First through the Dust Storm~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 cpr h 0 0  4
+D7
+~
+~
+0 0 5649 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5642 0 0 0 0 0 0 0 0
+S
+#5644
+Running Face First through the Dust Storm~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 pr h 0 0  0
+D3
+~
+~
+0 0 5642 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5645 0 0 0 0 0 0 0 0
+S
+#5645
+Running Face First through the Dust Storm~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 pr h 0 0  0
+D6
+~
+~
+0 0 5644 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5646 0 0 0 0 0 0 0 0
+S
+#5646
+Running Face First through the Dust Storm~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 pr h 0 0  0
+D2
+~
+~
+0 0 5647 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5645 0 0 0 0 0 0 0 0
+S
+#5647
+Running Face First through the Dust Storm~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 pr h 0 0  0
+D0
+~
+~
+0 0 5646 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5648 0 0 0 0 0 0 0 0
+S
+#5648
+Approaching a Small Structure~
+   The storm begins to worsen, and flying granules of dirt are flung into any
+hiding place they can find; the damp area in the corners of one's eye being a
+favorite location.  Continually flying in every direction, the sand quickly
+rips and skins anything it comes into contact with, and pieces of debris
+occasionally come slamming into anything passing through.  A small hump can
+barely be made out ahead.  Perhaps it is the solace that stranded travellers
+are looking for, or perhaps something else.    
+~
+56 pr h 0 0  0
+D0
+~
+~
+0 0 5647 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5661 0 0 0 0 0 0 0 0
+S
+#5649
+Running Face First through the Dust Storm~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 pr h 0 0  4
+D7
+~
+~
+0 0 5650 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5643 0 0 0 0 0 0 0 0
+S
+#5650
+Running Face First through the Dust Storm~
+   The wind has begun to pick up, and a massive dust storm quickly consumes the
+area.  Grass clumps and pieces of dirt fragments are flung quickly all around
+land, ripping out of the ground anything they come into contact with.  
+Visibility is near nil here, and any that are foolishly caught in the storm are
+pelted repeatedly and their only solace is to run back to the camp or face
+first into the storm, hoping for some sort of cover.    
+~
+56 pr h 0 0  4
+D9
+~
+~
+0 0 5649 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5651 0 0 0 0 0 0 0 0
+S
+#5651
+Within the Swirling Dust~
+   Pieces of dirt and a cloud of dust swirls around, ripping and tearing at
+everything it comes into contact with.  The sun beats down from above, but even
+it is unable to penetrate the dust, due to the thickness of this storm.  
+Everywhere things are being thrown about, and it is pure chaos within the
+storm.    
+~
+56 cpr h 0 0  4
+D6
+~
+~
+0 0 5650 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5652 0 0 0 0 0 0 0 0
+S
+#5652
+Within the Swirling Dust~
+   Pieces of dirt and a cloud of dust swirls around, ripping and tearing at
+everything it comes into contact with.  The sun beats down from above, but even
+it is unable to penetrate the dust, due to the thickness of this storm.  
+Everywhere things are being thrown about, and it is pure chaos within the
+storm.    
+~
+56 pr h 0 0  4
+D6
+~
+~
+0 0 5651 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5653 0 0 0 0 0 0 0 0
+S
+#5653
+Within the Swirling Dust~
+   Pieces of dirt and a cloud of dust swirls around, ripping and tearing at
+everything it comes into contact with.  The sun beats down from above, but even
+it is unable to penetrate the dust, due to the thickness of this storm.  
+Everywhere things are being thrown about, and it is pure chaos within the
+storm.    
+~
+56 pr h 0 0  4
+D6
+~
+~
+0 0 5652 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5654 0 0 0 0 0 0 0 0
+S
+#5654
+Within the Swirling Dust~
+   Pieces of dirt and a cloud of dust swirls around, ripping and tearing at
+everything it comes into contact with.  The sun beats down from above, but even
+it is unable to penetrate the dust, due to the thickness of this storm.  
+Everywhere things are being thrown about, and it is pure chaos within the
+storm.    
+~
+56 pr h 0 0  4
+D7
+~
+~
+0 0 5655 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5653 0 0 0 0 0 0 0 0
+S
+#5655
+Within the Swirling Dust~
+   Pieces of dirt and a cloud of dust swirls around, ripping and tearing at
+everything it comes into contact with.  The sun beats down from above, but even
+it is unable to penetrate the dust, due to the thickness of this storm.  
+Everywhere things are being thrown about, and it is pure chaos within the
+storm.    
+~
+56 pr h 0 0  4
+D7
+~
+~
+0 0 5656 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5654 0 0 0 0 0 0 0 0
+S
+#5656
+Within the Swirling Dust~
+   Pieces of loose sand and dirt clumps swirl in all directions, pummeling all
+they come into contact with.  Tearing and ripping across the normally tranquil
+plains, they form large trails through the ground.  Everywhere, the dirt and
+dust spins, as deadly as an enraged dwarven berserker, it shreds all plant life
+and foliage around.    
+~
+56 pr h 0 0  4
+D7
+~
+~
+0 0 5657 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5655 0 0 0 0 0 0 0 0
+S
+#5657
+Within the Swirling Dust~
+   Pieces of loose sand and dirt clumps swirl in all directions, pummeling all
+they come into contact with.  Tearing and ripping across the normally tranquil
+plains, they form large trails through the ground.  Everywhere, the dirt and
+dust spins, as deadly as an enraged dwarven berserker, it shreds all plant life
+and foliage around.    
+~
+56 pr h 0 0  4
+D9
+~
+~
+0 0 5656 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5658 0 0 0 0 0 0 0 0
+S
+#5658
+Withing the Swirling Dust~
+   Pieces of loose sand and dirt clumps swirl in all directions, pummeling all
+they come into contact with.  Tearing and ripping across the normally tranquil
+plains, they form large trails through the ground.  Everywhere, the dirt and
+dust spins, as deadly as an enraged dwarven berserker, it shreds all plant life
+and foliage around.    
+~
+56 pr h 0 0  4
+D6
+~
+~
+0 0 5657 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5659 0 0 0 0 0 0 0 0
+S
+#5659
+Heading out of the Storm~
+   As suddenly as it began, the storm begins to subside.  The grass and sand
+here seems untouched, despite that everything before it is devastated.  A large
+camp is set up ahead, with many flags hung around it.  There is much activity
+ahead, as horses and fully armed men walk around rapidly.  This is much in
+contrast to the other, scantily clad natives that lived in the other side of
+the camp.    
+~
+56 cp h 0 0  0
+D1
+~
+~
+0 0 5660 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5658 0 0 0 0 0 0 0 0
+S
+#5660
+A Large Secluded Camp~
+   For whatever reason, this area has become well removed from the rest of the
+camp.  A very impressive army has been arranged here, and is outfitted in full
+regalia.  The camp is a large circle, with one main tent on the opposing side,
+and several tents on the sides.  Large banners of the Dragonarmy fly high here,
+and undoubtedly this area is now under the influence of the Dark Queen.    
+~
+56 p h 0 0  0
+D1
+~
+~
+0 0 6903 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5659 0 0 0 0 0 0 0 0
+S
+#5661
+Approaching a Small Structure~
+   The storm begins to worsen, and flying granules of dirt are flung into any
+hiding place they can find; the damp area in the corners of one's eye being a
+favorite location.  Continually flying in every direction, the sand quickly
+rips and skins anything it comes into contact with, and pieces of debris
+occasionally come slamming into anything passing through.  A small hump can
+barely be made out ahead.  Perhaps it is the solace that stranded travellers
+are looking for, or perhaps something else.    
+~
+56 pr h 0 0  0
+D0
+~
+~
+0 0 5648 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5662 0 0 0 0 0 0 0 0
+S
+#5662
+Solace from the Storm~
+   Fine grains of sand have collected at the outside sections of this cave;
+lucky enough to have found a place to rest in this wild storm.  A large pile of
+this sand has collected at the lip of the cave, and due to the external winds,
+there is no way to tell when it was last disturbed.  Further back in the cave,
+a slight light is filtering through, whose single thin ray points at the side
+of the cave.    
+~
+56 adp h 0 0  0
+D2
+~
+~
+0 0 5663 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5661 0 0 0 0 0 0 0 0
+S
+#5663
+Solace from the Storm~
+   No dampness rests on the ground here, which is atypical for a cave, yet to
+be expected in this area.  The cave itself is small, and stands peaking outside
+of the dry lands an obvious diamond in the rough.  Many ages ago, it might have
+been formed when this was a much more damp region, and during the cataclysm
+that all changed.    
+~
+56 adp h 0 0  0
+D0
+~
+~
+0 0 5662 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5664 0 0 0 0 0 0 0 0
+S
+#5664
+Solace from the Storm~
+   Further back in this cave, it is quite cooler, as it begins to head
+underground.  The ground beneath is covered in dead pieces of loose straw, each
+of which has been yanked from the grasslands and stored here into a large bed.
+Fine pieces of short golden hair are also mixed into the lot, making it very
+cozy, and warm.    
+~
+56 adp h 0 0  0
+D6
+~
+~
+0 0 5663 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5665 0 0 0 0 0 0 0 0
+S
+#5665
+Solace from the Storm~
+   The source of the light far off, now comes into sight, and a faint trail
+leads ahead coming to a solid wall.  The rocks here are loosely piled up, and
+each is quite small and weathered.  They have found hold here deep in the cave,
+and have accumulated over time.    
+~
+56 adp h 0 0  0
+D7
+~
+~
+0 0 5664 0 0 0 0 0 0 0 0
+D8
+~
+rockpile~
+1 0 5666 0 0 0 0 0 0 0 0
+S
+#5666
+On the Backside of a small Cave~
+   A large wall of fine rocks is piled up here, blocking view into the cave.  
+One single hole can be seen, but the rest of the caves contents is a mystery.
+The area on this backside is very barren.  From the shade of the cave, no grass
+can grow here, and no foliage whatsoever is present within several feet from
+the cave
+~
+56 p h 0 0  0
+D6
+~
+rockpile~
+1 0 5665 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5667 0 0 0 0 0 0 0 0
+S
+#5667
+A Short Trail through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 fp h 0 0  0
+D1
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5666 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5669 0 0 0 0 0 0 0 0
+S
+#5668
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 fp h 0 0  3
+D0
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+S
+#5669
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5670 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+S
+#5670
+A new room~
+You are in a room.
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5668 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+S
+#5671
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5675 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+S
+#5672
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 fp h 0 0  0
+D0
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+S
+#5673
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+S
+#5674
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+S
+#5675
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5676 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+S
+#5676
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5677 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+S
+#5677
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5678 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+S
+#5678
+A Short Trail Through the Grasslands~
+   Faintly visible is a path that heads through the grasslands, twisting and
+turning as it goes.  The trail is only visible to those with a keen eye, as the
+grass ever so slightly sways past and a tiny area devoid of any grass is
+present.  It meanders through the grass, and occasionally breaks away, making
+it difficult to tell exactly which way is the legit way.    
+~
+56 p h 0 0  0
+D0
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5672 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5673 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5674 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5671 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5679 0 0 0 0 0 0 0 0
+S
+#5679
+A Short Trail Through the Grasslands~
+   The path now widens, and begins to open towards a small camp.  Many tents
+are set up, and it looks to be a very haphazard setup.  Some of the tents
+aren't even staked down.  A tiny area is roped off and inside livestock and a
+few horses are corralled.  The camp is a pitiful sight upon first inspection,
+however; there is a certain air here that smells of justice.    
+~
+56 fp h 0 0  0
+D2
+~
+~
+0 0 5680 0 0 0 0 0 0 0 0
+S
+#5680
+Approaching the Campsite~
+   The tents are set up in a half circle, with the tents all facing the grass
+lands nearby.  Each tent is closely set, and a guard stands atop his post,
+staring out across the grasslands looking for danger.  Most of the tents are
+very battered, and in ill-repair, and the majority of the residents are dressed
+like warriors, and not like the rest of the tribe.  In fact, there are no
+females to be seen in the whole camp.    
+~
+56 0 h 0 0  0
+D0
+~
+~
+0 0 5679 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5682 0 0 0 0 0 0 0 0
+S
+#5681
+A new room~
+You are in a room.
+~
+56 0 h 0 0  0
+S
+#5682
+Entrance to a Tattered Rebel Camp~
+   Standing off by itself, impossible to see from more than a few dozen yards
+into the high grass stands this campsite.  There are no children or women to be
+seen, just a bunch of haggard men standing around the site.  A large central
+tent is on the back side of the camp, and a few sparse tents are located
+outside the grounds.  Occasionally someone walks from one tent to another; at a
+rapid pace, but aside from that, this camp would appear uninhabited.    
+~
+56 0 h 0 0  0
+D0
+~
+~
+0 0 5680 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5683 0 0 0 0 0 0 0 0
+S
+#5683
+A Small Gathering Outside the Main Tent~
+   A few males sit outside here, staring off into the distance or carving small
+figurines.  They sit around the small camp, serving as the first defense in
+case any of the army finds its way through.  Each of the men look anxious, and
+unsure of themselves, as this is quite a barren wasteland and food is probably
+very sparse.    
+~
+56 0 h 0 0  0
+D0
+~
+~
+0 0 5682 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5685 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5684 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5686 0 0 0 0 0 0 0 0
+S
+#5684
+The Outskirts of the Camp~
+   Here on the backside of the few tents, the grass has already begun to grow
+despite being recently cut, and it appears to be a perpetual struggle against
+the elements.  Every so often a small rodent runs by, but that is in itself a
+rarity, as most of this side of the camp is barren.  Unlike the nearby storm,
+this area gets little wind which is very odd in itself, perhaps the ancient
+spirits are looking out for this clan in a way.    
+~
+56 0 h 0 0  0
+D2
+~
+~
+0 0 6901 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5683 0 0 0 0 0 0 0 0
+S
+#5685
+A Small Gathering Outside the Main Tent~
+   A few males sit outside here, staring off into the distance or carving small
+figurines.  They sit around the small camp, serving as the first defense in
+case any of the army finds its way through.  Each of the men look anxious, and
+unsure of themselves, as this is quite a barren wasteland and food is probably
+very sparse.    
+~
+56 0 h 0 0  0
+D0
+~
+~
+0 0 5683 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5688 0 0 0 0 0 0 0 0
+S
+#5686
+The Outskirts of the Camp~
+   Here on the backside of the few tents, the grass has already begun to grow
+despite being recently cut, and it appears to be a perpetual struggle against
+the elements.  Every so often a small rodent runs by, but that is in itself a
+rarity, as most of this side of the camp is barren.  Unlike the nearby storm,
+this area gets little wind which is very odd in itself, perhaps the ancient
+spirits are looking out for this clan in a way.    
+~
+56 0 h 0 0  0
+D2
+~
+~
+0 0 5687 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5683 0 0 0 0 0 0 0 0
+S
+#5687
+The Outskirts of the Camp~
+   Here on the backside of the few tents, the grass has already begun to grow
+despite being recently cut, and it appears to be a perpetual struggle against
+the elements.  Every so often a small rodent runs by, but that is in itself a
+rarity, as most of this side of the camp is barren.  Unlike the nearby storm,
+this area gets little wind which is very odd in itself, perhaps the ancient
+spirits are looking out for this clan in a way.    
+~
+56 0 h 0 0  0
+D0
+~
+~
+0 0 5686 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6900 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5688 0 0 0 0 0 0 0 0
+S
+#5688
+The Front of the Main Tent~
+   Weeds have collected outside of this tent and it obviously needs some care,
+but it stands intact and is staked down unlike its predecessors.  It is large
+enough to fit a small army in, and most likely does.  Through the flap many men
+can be seen seated at the tables, and they are eating what they can while
+discussing something.  No torches or lighting of any sort is present, and most
+likely they keep it this way even at night.    
+~
+56 0 h 0 0  0
+D0
+~
+~
+0 0 5685 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5687 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5690 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6901 0 0 0 0 0 0 0 0
+S
+#5689
+The Outskirts of the Camp~
+   Here on the backside of the few tents, the grass has already begun to grow
+despite being recently cut, and it appears to be a perpetual struggle against
+the elements.  Every so often a small rodent runs by, but that is in itself a
+rarity, as most of this side of the camp is barren.  Unlike the nearby storm,
+this area gets little wind which is very odd in itself, perhaps the ancient
+spirits are looking out for this clan in a way.    
+~
+56 0 h 0 0  0
+S
+#5690
+Within the Mess Hall~
+   Several full length tables sit side by side, with men huddled around them.
+They eat quickly, and have an open forum with a speaker who stands atop the
+raised platform.  Each man is grubby, and worn, yet in these confines their
+spirits are high, and they speak out openly, and are not restricted to
+confining their true feelings.  The tent keeps their voices from heading out
+into the open plains where it might travel, and the smell of the feast is quite
+enticing.    
+~
+56 d h 0 0  0
+D0
+~
+~
+0 0 5688 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5693 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5691 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5692 0 0 0 0 0 0 0 0
+S
+#5691
+The Podium~
+   Here the dirt floor has been raised and a small wooden stage has been
+erected.  The tables are all straight, but arranged in a fashion so that they
+are facing the podium here.  A large flag of sorts hangs behind this podium, a
+symbol a shield emblazoned with a flaming spear and a boar's head.  From up
+here, the whole mesh hall can be addressed, influenced, and riled up.    
+~
+56 d h 0 0  0
+D0
+~
+~
+0 0 5690 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5694 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5695 0 0 0 0 0 0 0 0
+S
+#5692
+Within the Mess Hall~
+   Several full length tables sit side by side, with men huddled around them.
+They eat quickly, and have an open forum with a speaker who stands atop the
+raised platform.  Each man is grubby, and worn, yet in these confines their
+spirits are high, and they speak out openly, and are not restricted to
+confining their true feelings.  The tent keeps their voices from heading out
+into the open plains where it might travel, and the smell of the feast is quite
+enticing.    
+~
+56 d h 0 0  0
+D1
+~
+~
+0 0 5690 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5695 0 0 0 0 0 0 0 0
+S
+#5693
+Within the Mess Hall~
+   Several full length tables sit side by side, with men huddled around them.
+They eat quickly, and have an open forum with a speaker who stands atop the
+raised platform.  Each man is grubby, and worn, yet in these confines their
+spirits are high, and they speak out openly, and are not restricted to
+confining their true feelings.  The tent keeps their voices from heading out
+into the open plains where it might travel, and the smell of the feast is quite
+enticing.    
+~
+56 d h 0 0  0
+D2
+~
+~
+0 0 5694 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5690 0 0 0 0 0 0 0 0
+S
+#5694
+Within the Mess Hall~
+   Several full length tables sit side by side, with men huddled around them.
+They eat quickly, and have an open forum with a speaker who stands atop the
+raised platform.  Each man is grubby, and worn, yet in these confines their
+spirits are high, and they speak out openly, and are not restricted to
+confining their true feelings.  The tent keeps their voices from heading out
+into the open plains where it might travel, and the smell of the feast is quite
+enticing.    
+~
+56 d h 0 0  0
+D0
+~
+~
+0 0 5693 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5691 0 0 0 0 0 0 0 0
+S
+#5695
+Within the Mess Hall~
+   Several full length tables sit side by side, with men huddled around them.
+They eat quickly, and have an open forum with a speaker who stands atop the
+raised platform.  Each man is grubby, and worn, yet in these confines their
+spirits are high, and they speak out openly, and are not restricted to
+confining their true feelings.  The tent keeps their voices from heading out
+into the open plains where it might travel, and the smell of the feast is quite
+enticing.    
+~
+56 d h 0 0  0
+D0
+~
+~
+0 0 5692 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5691 0 0 0 0 0 0 0 0
+S
+#5696
+Under the Trashpile~
+   A crawlspace exists here, just large enough for a couple of kender to crawl
+side by side through.  It is dark, and damp in comparison to the surroundings.
+It is quite cool, and pieces of crude wood have been assembled to support the
+nearby dirt walls.  Along the floor lie many wooden planks, which are an
+obvious walkway heading down the tunnel.    
+~
+56 adi h 0 0  0
+S
+#5697
+Under the Trashpile~
+   A crawlspace exists here, just large enough for a couple of kender to crawl
+side by side through.  It is dark, and damp in comparison to the surroundings.
+It is quite cool, and pieces of crude wood have been assembled to support the
+nearby dirt walls.  Along the floor lie many wooden planks, which are an
+obvious walkway heading down the tunnel.    
+~
+56 adi h 0 0  0
+D0
+~
+~
+0 0 6902 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5698 0 0 0 0 0 0 0 0
+S
+#5698
+Approaching a Small Hideout~
+   The path of wood planks continues on, and the wood supports continue to get
+thinner and thinner.  It is quite moist below, and many of the planks have
+recessed so far beneath the mud that another plank or two has been piled on top
+to temporarily stall the process.  A single light can be seen ahead, and it is
+quite blinding in contrast to the darkness that has accumulated here.    
+~
+56 adi h 0 0  0
+D0
+~
+~
+0 0 5697 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5699 0 0 0 0 0 0 0 0
+S
+#5699
+Morgan Di Kyre's Hideaway~
+   Here, a single table sits, covered with maps and strategies for reconquering
+the camp.  It seems quite futile, as the men here are few and starved, but the
+strong bravery and courage that runs within the tribe in Khur has become
+imbedded in their hearts.  Despite the insurmisable odds, the rebels feel they
+can prevail, as one victory against the dragonarmy may rally others to at least
+try.  They have lived for so long uninfluenced by the outside, and now being
+under the control of the Dragonarmy is more than many can endure.    
+~
+56 ad h 0 0  0
+D0
+~
+~
+0 0 5698 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+$

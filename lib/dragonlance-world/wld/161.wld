@@ -1,0 +1,21 @@
+#16100
+The start of the zone~
+You are in a room.
+~
+161 0 0 0 0 0
+D1
+~
+~
+0 0 16101 0 0 0 0 0 0 0 0
+S
+#16101
+An unfinished room~
+You are in an unfinished room.
+~
+161 0 0 0 0 0
+D3
+~
+~
+0 0 16100 0 0 0 0 0 0 0 0
+S
+$~

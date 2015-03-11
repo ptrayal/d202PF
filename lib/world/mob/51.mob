@@ -1,0 +1,270 @@
+#5101
+grotesque dwarven zombie~
+@na grotesque @cdwarven @rzombie@n~
+@nA grotesque @cdwarven @rzombie@n shambles around without purpose.
+~
+Strips of rotting flesh dangle from the thick-boned dwarven frame of this
+gruesome zombie.  A horrid, rank stench follows it around like a cloud.  It
+slogs through the muck aimlessly, groaning in constant pain.  Remnants of rusted
+armor still cling to its body.  
+~
+d 0 0 0 k 0 0 0 -750
+26 7 -21 832d250+115 1d8+13
+0 0 8 12
+8 8 0
+E
+BareHandAttack: 10
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#5102
+menacing zombified orc zombie~
+@na menacing @rzombified @Gorc@n~
+@nA menacing @rzombified @Gorc@n trudges through the swampland.
+~
+Once a formidable orc warrior in life, this creature has become even more
+menacing in undeath.  Slabs of heavy muscle still cling to its powerful frame,
+although in places the flesh has rotted all the way down to the bone.  Its limbs
+twitch and jerk about irregularly as it moves through the mud.  
+~
+d 0 0 0 k bD 0 0 -900
+27 4 -22 540d100+100 2d8+18
+25 0 8 6
+8 8 0
+E
+BareHandAttack: 10
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#5103
+will o wisp~
+@na @Cwill o' the wisp@n~
+@nA @Cwill o' the wisp@n floats silently through the mire.
+~
+This evil spirit is a translucent grey color.  It takes the image of a gaunt
+young man wearing tattered clothing.  Its jaw hangs open in a perpetual silent
+scream, but its eyes are completely dead.  It exudes a wave of deathly cold as
+it hovers just over the surface of the swamp, causing the wet ground to freeze
+directly below wherever it passes.  
+~
+d 0 0 0 dk be 0 0 -900
+29 6 -30 232d100+100 1d8+14
+35 0 0 20
+8 8 0
+E
+BareHandAttack: 9
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#5104
+vicious slaughter wight~
+@na vicious @Rslaughter wight@n~
+@nA vicious @Rslaughter wight@n scurries through the bog.
+~
+This terrifying creature is a twisted reflection of what was once a human.  
+Now, it is nothing more than an unholy abomination.  Its back is bent at what
+looks to be a painful angle in multiple places, and its unnaturally elongated
+limbs are barbed with razor-like hooks.  Flecks of foam drop from its snarling
+mouth as its eyes burn red with hatred.  
+~
+d 0 0 0 k bD 0 0 0
+28 6 -23 1008d100+100 1d8+14
+0 0 6 6
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+#5105
+rabid bullywug~
+@na @Rr@rabi@Rd @Gbullywug@n~
+@nA @Rr@rabi@Rd @Gbullywug@n hops around in search of prey.
+~
+A human body with the head of a frog, the bullywug is the truest resident of the
+swamp, and the most well-suited to its hardships.  Its skin is grey and
+leathery, while its hands and feet end in webbed digits.  This particular
+specimen seems to have been tainted by the evils of the mere.  It exhibits
+obviously aggressive behavior, moves around in great leaps, plunging into the
+muddy water with loud splashes.  Its long tongue darts quickly in and out of its
+gaping mouth, which oozes white foam.  
+~
+d 0 0 0 kr 0 0 0 0
+25 8 -20 200d100+100 1d8+12
+0 0 12 8
+8 8 1
+E
+Str: 15
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#5106
+atropal scion~
+@nan @Datr@mo@Dpal sc@mi@Don@n~
+@nAn @Datr@mo@Dpal sc@mi@Don@n rests here, convulsing in agony.
+~
+The atropal scion resembles an overgrown, dead fetus.  It is massive and
+grotesque, its unformed flesh twisted into an unimaginable nightmarish shape.  
+It has an elongated alien head and perfectly round, lidless black eyes, which
+glimmer with a silent, hateful intelligence.  A ragged umbilical cord dangles
+from its bloated, pulsing belly.  This abomination was formed from a piece of
+the god Myrkul's unholy flesh which was left behind after his Avatar was
+destroyed in the battle of the Mere.  The flesh was reanimated into this horrid
+undead form.  It has remained here for centuries, slowly building its power and
+biding its time, waiting until it is ready to unleash its evil upon the world.
+
+~
+d 0 0 0 k 0 0 0 -999
+35 3 -32 1050d0+90 5d8+17
+0 0 6 20
+5 5 0
+E
+BareHandAttack: 9
+E
+Str: 28
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#5107
+angel decay~
+@nan @ran@yg@rel @nof @rde@yc@ray@n~
+@nAn @ran@yg@rel @nof @rde@yc@ray@n roams the area, preying on weaker creatures.
+~
+The very essence of rot, the angel of decay is a wicked monstrosity of filth and
+putrefaction.  Its vaguely demon-shaped body stands well over nine feet tall,
+and is in a constant state of decomposition.  Tattered strips of rotting flesh
+hang from it like ribbons and a cloud of putrid dust surrounds it like an aura.
+A pool of filth dribbles at its feet.  
+~
+d 0 0 0 0 0 0 0 -900
+33 4 -29 858d100+100 1d1+16
+0 0 6 24
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#5108
+ferocious black dragon~
+@na ferocious @Dblack dragon@n~
+@nA ferocious @Dblack dragon@n angrily scratches the earth and roars!
+~
+This formidable creature has a look of wildness in its eyes.  It more resembles
+a large lizard than it does a dragon.  It thrashes around in its cave, angry at
+the world.  
+~
+d 0 0 0 0 0 0 0 -750
+34 3 -30 884d100+100 3d6+17
+0 0 101 15
+5 5 1
+E
+BareHandAttack: 8
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#5109
+vampiric yuan-ti vampire~
+@na @Dvam@wpi@Dric @yyuan-ti@n~
+@nA @Dvam@wpi@Dric @yyuan-ti@n sweeps through the swamp, searching for something to feed upon.
+~
+This lizard man was killed and raised again with the powers of the vampire.  He
+is powerfully built, yet graceful, moving with a swift and deadly assurance.  A
+ragged, jet-black cloak drapes down from his shoulders, hanging limp and
+motionless even as he moves around.  From within his mouth, a long lizard-tongue
+flicks out between two curved fangs.  
+~
+d 0 0 0 0 b 0 0 -800
+32 4 -28 256d100+100 1d1+16
+0 0 6 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

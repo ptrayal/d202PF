@@ -1,0 +1,186 @@
+#2300
+vichtor trainer~
+Vichtor~
+Vichtor, the head trainer of the Knight's House watches over the trainees.
+~
+   Vichtor is a large man, rather youthful, and apparently very healthy.  He is
+well-built, with stark white hair that is shaven almost right to the scalp.  
+He watches his students with an intelligent and acute eye, looking for mistakes
+to correct and mastery to praise.  He looks at you briefly, seemingly taking
+you all in, then waves you over.    
+~
+d 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2301
+rat sewer~
+a sewer rat~
+A large sewer rat darts across the stream and into the darkness.
+~
+   This rat has become rather large from it's life in the sewer.  Apparently
+there is a lot of food for the rat to scavenge, although trying to figure out
+what it might be only sickens you.  Its fur is brown-grey and covers it's body
+from head to toe.  Two small, beady red eyes pierce your own for a moment
+before the rat darts out of sight.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2302
+bat vampire~
+a vampire bat~
+A vampire bat hangs from the ceiling above you.
+~
+   You can tell this bat is a vampire bat from the long fangs that protrude
+from it's closed mouth, used for eating small rodents and the like.  It's wings
+are a leathery brownish-red and the rest of it's fur is a similar rusty color.
+It hangs from the ceiling making no movement whatsoever.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2303
+snake water diamondback~
+a diamondback water snake~
+A diamonback water snake, measuring over two feet long, slithers by.
+~
+   This snake is over two feet long and is covered in a diamond-like red and
+black pattern.  It has two small fangs that stick out of it's mouth, ready to
+snap at anything that comes near it.  It slithers by you without so much as
+turning it's head.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2304
+crocodile~
+a hungry crocodile~
+A small, green crocodile floats on the surface of the stream.
+~
+   This crocodile is over three feet in length.  It's scales are a dark green
+color, and seem almost metallic in the present light.  It slowly opens it's
+tooth filled maw and then suddenly snaps it shut.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2305
+mob new~
+a new mob~
+A new mob is existing here.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2306
+shandra~
+Shandra, the bounty collector~
+Shandra, the bounty collector stands here sifting through a stack of papers.
+~
+   She is tall, middle aged, and not all that feminine.  Her hair is cut short,
+like a man's, and she wears no jewelry or makeup, fully clad in leathers that
+hide her figure rather than reveal it.  
+~
+bdnoA 0 0 0 0 0 0 0 0
+60 -10 -80 720d100+100 1d1+30
+0 0 0 3
+8 8 2
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

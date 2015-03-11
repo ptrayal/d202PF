@@ -1,0 +1,188 @@
+#3000
+figure short brown cloak~
+a short figure in a brown cloak~
+A short figure in a brown cloak blocks the passage west.
+~
+   This figure has small, bony fingers and wields a large sickle.  It is
+encloaked in brown robes that hang down to its ankles.  A large hood enshrouds
+its face, making it impossible to see its features.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3002
+kender childlike~
+a childlike kender~
+A childlike kender walks to the east with a strange expression on her face.
+~
+   The appearance of this kender is mostly average.  She has a childlike face
+and stature, and many pouches surrounding her tiny waist.  A light brown
+topknot bounces along as she walks.  However, she is walking towards the east
+at a rapid pace with a strange expression on her face.    
+~
+d 0 0 0 k 0 0 0 700
+6 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3003
+traveller cloaked weary~
+a cloaked, weary traveller~
+A cloaked, weary traveller walks out of the pass.
+~
+   This traveller is wearing a tunic which covers most of his body.  He has a
+bow on one shoulder and a quiver of arrows on another.  His slight features and
+graceful movement tell you he is of elven decent.    
+~
+d 0 0 0 k 0 0 0 45
+20 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3004
+barbarian plains stern~
+a stern plains barbarian~
+A stern plains barbarian sits in the center of the crossroads.
+~
+   This barbarian is sitting in the center of the crossroads and seems to be
+chanting in a language you cannot discern.  He is wearing the hide of a small
+deer and has a large, steel sword at his side.    
+~
+d 0 0 0 k 0 0 0 400
+8 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3005
+warrior barbarian older~
+an older barbarian warrior~
+An older barbarian warrior calmly sits near the edge of the road.
+~
+   A few feathers adorn the head of this barbarian.  Signaling bravery and
+honor in battle, the feathers are an important symbol among his people.  A
+scant loincloth is tied around his waist, but it does little to hide anything
+on his body.    
+~
+d 0 0 0 k 0 0 0 300
+10 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3006
+deer frail peaceful~
+a peaceful, frail deer~
+A peaceful, frail deer walks through the plains.
+~
+   This deer appears serene as it stands in front of you.  It has white spots
+on its side, indicating that it is young.  It looks at you with fearful eyes,
+but does not run away.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3007
+scout elven agile~
+an agile elven scout~
+An agile elven scout hides among the trees and bushes of the forest.
+~
+   This elf is wearing a green cloak with no hood, and carries a short bow.  
+He looks at you with curiosity, surprised by your intrusion into his realm.  
+Friend or foe, no non-elf is allowed to pass into Qualinesti without the
+consent of the Speaker of the Sun.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This mean looking dwarven warrior has a scowl accross his face.  His chest
+Tharkas and wont let anyone
+$

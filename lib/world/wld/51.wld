@@ -1,0 +1,1275 @@
+#5100
+The Beginning~
+Not much here.
+~
+51 0 0 0 0 0
+S
+#5101
+New BuildWalk Room~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 0
+D2
+~
+~
+0 0 5102 0 0 0 0 0 0 0 0
+S
+#5102
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D0
+~
+~
+0 0 5101 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5103 0 0 0 0 0 0 0 0
+S
+#5103
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D0
+~
+~
+0 0 5102 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5104 0 0 0 0 0 0 0 0
+S
+#5104
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D6
+~
+~
+0 0 5103 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5105 0 0 0 0 0 0 0 0
+S
+#5105
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D2
+~
+~
+0 0 5106 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5104 0 0 0 0 0 0 0 0
+S
+#5106
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D0
+~
+~
+0 0 5105 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5107 0 0 0 0 0 0 0 0
+S
+#5107
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D0
+~
+~
+0 0 5106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5108 0 0 0 0 0 0 0 0
+S
+#5108
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D0
+~
+~
+0 0 5107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5105 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5109 0 0 0 0 0 0 0 0
+S
+#5109
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D6
+~
+~
+0 0 5108 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5110 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5113 0 0 0 0 0 0 0 0
+S
+#5110
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D2
+~
+~
+0 0 5111 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5109 0 0 0 0 0 0 0 0
+S
+#5111
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D0
+~
+~
+0 0 5110 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5112 0 0 0 0 0 0 0 0
+S
+#5112
+The High Road~
+The High Road
+~
+51 0 0 0 0 10
+D0
+~
+~
+0 0 5111 0 0 0 0 0 0 0 0
+S
+#5113
+A Soggy Path~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D3
+~
+~
+0 0 5114 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5109 0 0 0 0 0 0 0 0
+S
+#5114
+The Mere of Dead Men~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D1
+~
+~
+0 0 5113 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5115 0 0 0 0 0 0 0 0
+S
+#5115
+The Mere of Dead Men~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D6
+~
+~
+0 0 5116 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5114 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5126 0 0 0 0 0 0 0 0
+S
+#5116
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5122 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5124 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5121 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5117 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5115 0 0 0 0 0 0 0 0
+S
+#5117
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D3
+~
+~
+0 0 5122 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5118 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5116 0 0 0 0 0 0 0 0
+S
+#5118
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D2
+~
+~
+0 0 5122 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5120 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5119 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5117 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5121 0 0 0 0 0 0 0 0
+S
+#5119
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D2
+~
+~
+0 0 5120 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5118 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5123 0 0 0 0 0 0 0 0
+S
+#5120
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5119 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5118 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5123 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5122 0 0 0 0 0 0 0 0
+S
+#5121
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5120 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5125 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5123 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5118 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5116 0 0 0 0 0 0 0 0
+S
+#5122
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5118 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5117 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5121 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5120 0 0 0 0 0 0 0 0
+S
+#5123
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D1
+~
+~
+0 0 5120 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5125 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5141 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5119 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5121 0 0 0 0 0 0 0 0
+S
+#5124
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5121 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5116 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5125 0 0 0 0 0 0 0 0
+S
+#5125
+A Festering Bog~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5123 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5124 0 0 0 0 0 0 0 0
+S
+#5126
+The Mere of Dead Men~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D3
+~
+~
+0 0 5145 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5115 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5127 0 0 0 0 0 0 0 0
+S
+#5127
+The Mere of Dead Men~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D1
+~
+~
+0 0 5128 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5126 0 0 0 0 0 0 0 0
+S
+#5128
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D1
+~
+~
+0 0 5134 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5127 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5129 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5131 0 0 0 0 0 0 0 0
+S
+#5129
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D2
+~
+~
+0 0 5134 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5130 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5128 0 0 0 0 0 0 0 0
+S
+#5130
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D3
+~
+~
+0 0 5134 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5129 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5131 0 0 0 0 0 0 0 0
+S
+#5131
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5135 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5128 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5130 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5136 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5132 0 0 0 0 0 0 0 0
+S
+#5132
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D1
+~
+~
+0 0 5135 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5131 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5137 0 0 0 0 0 0 0 0
+S
+#5133
+A Thin Plankway~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5138 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5137 0 0 0 0 0 0 0 0
+S
+#5134
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5129 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5130 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5131 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5128 0 0 0 0 0 0 0 0
+S
+#5135
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5131 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5137 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5132 0 0 0 0 0 0 0 0
+S
+#5136
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D3
+~
+~
+0 0 5135 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5131 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5137 0 0 0 0 0 0 0 0
+S
+#5137
+Filthy Marshland~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5135 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5132 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5136 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5133 0 0 0 0 0 0 0 0
+S
+#5138
+A Thin Plankway~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D1
+~
+~
+0 0 5133 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5139 0 0 0 0 0 0 0 0
+S
+#5139
+A Thin Plankway~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D3
+~
+~
+0 0 5140 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5138 0 0 0 0 0 0 0 0
+S
+#5140
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D1
+~
+~
+0 0 5139 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5147 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5146 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5148 0 0 0 0 0 0 0 0
+S
+#5141
+Slogging Through Mud~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D1
+~
+~
+0 0 5123 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5142 0 0 0 0 0 0 0 0
+S
+#5142
+Slogging Through Mud~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D8
+~
+~
+0 0 5141 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5143 0 0 0 0 0 0 0 0
+S
+#5143
+Slogging Through Mud~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D7
+~
+~
+0 0 5142 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5144 0 0 0 0 0 0 0 0
+S
+#5144
+Slogging Through Mud~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D7
+~
+~
+0 0 5143 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5162 0 0 0 0 0 0 0 0
+S
+#5145
+A Sinkhole~
+temp
+~
+51 0 0 0 0 6
+D1
+~
+~
+0 0 5126 0 0 0 0 0 0 0 0
+S
+#5146
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D2
+~
+~
+0 0 5147 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5152 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5153 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5140 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5151 0 0 0 0 0 0 0 0
+S
+#5147
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5146 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5140 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5148 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5151 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5152 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5150 0 0 0 0 0 0 0 0
+S
+#5148
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5147 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5150 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5151 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5140 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5149 0 0 0 0 0 0 0 0
+S
+#5149
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5150 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5159 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5148 0 0 0 0 0 0 0 0
+S
+#5150
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5151 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5148 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5149 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5147 0 0 0 0 0 0 0 0
+S
+#5151
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5152 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5147 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5150 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5146 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5148 0 0 0 0 0 0 0 0
+S
+#5152
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D0
+~
+~
+0 0 5153 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5146 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5151 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5147 0 0 0 0 0 0 0 0
+S
+#5153
+A Murky Quagmire~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 3
+D2
+~
+~
+0 0 5152 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5146 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5154 0 0 0 0 0 0 0 0
+S
+#5154
+A Twisting Path~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D6
+~
+~
+0 0 5155 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5153 0 0 0 0 0 0 0 0
+S
+#5155
+A Twisting Path~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D8
+~
+~
+0 0 5154 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5156 0 0 0 0 0 0 0 0
+S
+#5156
+A Twisting Path~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D6
+~
+~
+0 0 5157 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5155 0 0 0 0 0 0 0 0
+S
+#5157
+On a Massive Drawbridge~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D6
+~
+~
+0 0 5158 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5156 0 0 0 0 0 0 0 0
+S
+#5158
+Before a Ruined Tower~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D0
+~
+~
+0 0 5166 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5157 0 0 0 0 0 0 0 0
+S
+#5159
+A Trail of Dead Grass~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D1
+~
+~
+0 0 5149 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5160 0 0 0 0 0 0 0 0
+S
+#5160
+A Trail of Dead Grass~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D7
+~
+~
+0 0 5159 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5161 0 0 0 0 0 0 0 0
+S
+#5161
+In Front of a Large Cave~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 2
+D3
+~
+~
+0 0 5169 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5160 0 0 0 0 0 0 0 0
+S
+#5162
+A Brown Pool~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 6
+D2
+~
+~
+0 0 5164 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5165 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5144 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5163 0 0 0 0 0 0 0 0
+S
+#5163
+A Brown Pool~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 6
+D0
+~
+~
+0 0 5165 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5164 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 0 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5162 0 0 0 0 0 0 0 0
+S
+#5164
+A Brown Pool~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 6
+D0
+~
+~
+0 0 5162 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5163 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5165 0 0 0 0 0 0 0 0
+S
+#5165
+A Brown Pool~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 6
+D1
+~
+~
+0 0 5162 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5163 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 0 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5164 0 0 0 0 0 0 0 0
+S
+#5166
+The Ruined Tower of Iniarv~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5158 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5167 0 0 0 0 0 0 0 0
+S
+#5167
+The Ruined Tower of Iniarv~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 0
+D4
+~
+~
+0 0 5168 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5166 0 0 0 0 0 0 0 0
+S
+#5168
+The Ruined Tower of Iniarv~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 0
+D5
+~
+~
+0 0 5167 0 0 0 0 0 0 0 0
+S
+#5169
+A Dark and Dismal Cave~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 0
+D1
+~
+~
+0 0 5161 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5170 0 0 0 0 0 0 0 0
+S
+#5170
+Back Part of the Cave~
+This unfinished room was created by Moradin.
+~
+51 0 0 0 0 0
+D1
+~
+~
+0 0 5169 0 0 0 0 0 0 0 0
+S
+$~

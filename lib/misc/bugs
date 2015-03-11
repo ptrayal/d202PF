@@ -1,0 +1,121 @@
+Caide    (Feb 27) [  239] fix feats addition function, no feat at level 3 gained for caide
+Cirrus   (Feb 27) [  986] add stun effect to spell casting
+Caide    (Feb 27) [  217] add position check to do_intro & do_greet
+Caide    (Feb 27) [ 1206] need to change point allocation & limits on stat assignment for character generation
+Caide    (Feb 27) [  239] fix toughness message and add hp per level
+Gicker   (Feb 28) [  284] news command isn't working
+Daymeris (Feb 28) [  900] BAB for clerics bugged.  Doesn't seem to conform to SRD.  It seems to be one below par
+Daymeris (Feb 28) [  900] Full plates seem to be bugged.. supposed to add ac 8, but only seems to add 4 to ac
+Grundier (Feb 28) [    0] mvs drain to fast
+Grundier (Feb 28) [    0] begin with no eq
+Caide    (Feb 28) [    0] need seperate mem lists for each class
+Caide    (Feb 28) [    0] remove all memorization spell messages from innate paladin abilities
+Argent   (Feb 28) [    0] lower exp gaining rate by half
+Daymeris (Feb 28) [    0] The spell animate dead echos back: You don't quite remember how to summon that creature
+Daymeris (Feb 28) [    0] The spell 'create food' echoes back: I seem to have goofed.
+Garen    (Feb 28) [    0] look has caused the mud to crash 3 times 
+Baz      (Mar  1) [    0] The file command only seems to work for news, not bugs, ideas, or anything else
+Caide    (Mar  2) [    0] regarding light, check leader to see if other party members have light to see where they are going
+Caide    (Mar  2) [    0] put in rank data for pvp
+Caide    (Mar  2) [    0] fighting ranks
+Daymeris (Mar  2) [    0] Mem command somehow stopped showing Spells in Memory. They are still there and can be cast, just doesn't show up on 'mem'
+Gicker   (Mar  5) [    0] put in bows and swords for elves
+Gicker   (Mar  7) [    0] fixed extra line being added to all help files when help files are saved
+Alewe    (Mar  7) [    0] mob drops and items sold to shop give gold instead of copper/bronze/ect.
+Gicker   (Mar  8) [    0] fix the help system so that it can read multiple keywords like the old system
+Scion    (Mar  9) [    0] adjust bless accuracy bonus to be +1
+Scion    (Mar  9) [    0] adjust blindness ac penalty to be -40 not -4
+Scion    (Mar  9) [    0] add in messages for giving coins
+Caide    (Mar 10) [    0] help reform & form commands
+Baz      (Mar 10) [    0] When wearing an armor suit you can't wear anything on your hands or about your body (Such as cloaks, gloves, gauntlets, backpacks, etc)
+Baz      (Mar 10) [    0] If you're wielding two weapons or using a weapon and a shield, or a 2 handed weapon, you can't use a light.
+Gicker   (Mar 14) [    0] fix file command so it doesn't always show news
+Page     (Mar 15) [    0] When stunned, can sleep, then wake and find oneself standing.
+Jehoven  (Mar 17) [    0] Apparently Neutral isn't correctly spelled in character generation.
+Fairen   (Mar 19) [    0] you become stunned for a long time after casting a spell
+Darmoor  (Mar 21) [    0] "You have finished memorizing magic missile." appeared before I entered the game.actually before the title AOD II and welcome.
+Darmoor  (Mar 21) [    0] Your armor interferes with your casting, and you fail!, yet I still have it memorized. Sorry if this is a feature and not a bug.
+Darmoor  (Mar 21) [    0] help form gives some interesting information about the editor
+Darmoor  (Mar 21) [    0] I was stunned. When I tried to stand I get the you are stunned message. But if I sleep, I can wake and stand, walk around, yet if I try to stand even though I'm standing I still get the stunned message.
+Winthrope (May 16) [    0] Well, I hit the 200 xp mark, and since then I've been getting a message that reads, "You have reached the next profession milestone and are able to train!"  I haven't gotten any training sessions though... so maybe this message is a bug?
+Winthrope (May 16) [    0] When I died, there was apparently a crash that kept the mud down for a little less than a minute.  Still have equipment and money, lost experience (I assume the xp loss is something you wanted), and am back at The Guestcheck where Caramon is at.
+Freeman  (Jun 24) [    0] test
+Caide    (Jul 20) [    0] can't wear gloves when wearing a suit
+Caide    (Jul 20) [    0] rugged barbarian doesn't seem to have the right damage
+Onyx     (Jul 20) [    0] test
+Renald   (Jul 21) [    0] as a palaind it says that i should be able to leaen Handle animal in green meaning one pra point but when i try to learn it it says i need 2 points to learn.
+Renald   (Jul 21) [    0] also after killing and inexped adventure i looted and got 20 coins ... but what kind ?
+Renald   (Jul 21) [    0] ok i did it agin and got 20 coins but my coin couter in my score didn't go up at al.
+Renald   (Jul 21) [    0] i gained in Paladin and it said the citivens gave you 100steel but i failed to receive it.
+Renald   (Jul 21) [    0] can't get lay on hands to work.
+Tahara   (Jul 26) [    0] maj theres a bug where when in a group and your partner is bleeding out and dies the mud crashes.
+Tahara   (Jul 26) [    0] theres a bug with give crossbow chr it crashed the mud
+Caide    (Jul 27) [    0] protection from evil can only be used on self, needs changed
+Haglush  (Jul 30) [    0] Rage doesn't appear to be working - always says it's been used for the day.
+Zyl      (Jul 30) [    0] Arnold the baker is always stunned. Max hp set to 0 maybe?
+Sardaukar (Jul 31) [    0] Sneak attacks do not work with the first opening attack (I am using daggers, and sneak+hide)
+Sardaukar (Jul 31) [    0] Was killing 'a small human bandit' in An Earthen Room, and the mud crashed as soon as i killed it
+Sardaukar (Jul 31) [    0] On the southern most chambers in the Master Corridor straight north in the training dungeon, one set of adept's spawns 2 in one room, and doesnt spawn the other in the other room across from it.
+Sardaukar (Jul 31) [    0] 'The Void' room (empty) far north in the tainted druid's secret below the Altar.  No way for any mortals to get out without a warp.
+Sardaukar (Jul 31) [    0] 'A composite vallenwood longbow' Damage Dice is '0D0' for an average per-round damage of 0.0.  <-- needs fixed methinks :-) Found at the seeker's tower guards
+Auberon  (Aug  1) [    0] Players are having extreme difficulty hitting opponents. Sardauker, quote, "I'm level 8, I can hardly kill a level 5 monster."
+Sardaukar (Aug  1) [    0] If you type in 'weave <player name>' with any player name.. such as weave sardaukar, it will crash the mud
+Vanyel   (Feb  5) [    0] cook
+Mia      (Jun 19) [    0] your mob color code needs an ending @[3], it's bleeding over to my prompt :)
+Mia      (Jun 19) [    0] there also seems to be something wrong with my languagues display: common, (newline) ]
+Kerioff  (Jul  9) [    0] Okay, attempting to sneak crashes the mud.
+Kyouki   (Jul  9) [    0] Okay... Wielding a kama, apparently, crashes the mud. Or at least d/cs the person fighting with it.
+Kerioff  (Jul  9) [    0] Here's a bug I happened on... I keep finding 20 gold coins in the newb killing area, and when I pick it up, I don't have it with me.
+Kerioff  (Jul  9) [    0] Okay. Using 'taunt' crashes the game.
+Roxas    (Jul 11) [    0] when i try to kill a monster it stops me right befor the finishing blow,some times freezing my client.
+Kyouki   (Jul 11) [    0] I killed a gelatinous cube, but it didn't die all the way.
+Enayla   (Jul 13) [    0] Alright... Not sure if this constitutes as a bug or not, but it seems that there's no limt on the amount of pets you can summon via the summon monster i spell.
+Moss     (Oct 21) [    0] Used sneak then moved rooms and crashed the game, tried again and crashed again.
+Majere   (Oct 24) [    0] armor condition is starting off at awful
+Majere   (Oct 24) [    0] fix command isn't fixing very much
+Ramorta  (Oct 30) [    0] Learned a feat as a third level fighter, ended up with "You can learn -1 feats and 1 class feat right now."
+Ramorta  (Oct 30) [    0] You can learn diehard before learning its prerequisite endurance.
+Ramorta  (Nov  7) [    0] Druids can memorize spells, and have a spell list, but when you attempt to cast a spell it responds "You are not able to cast spells."
+Daerious (Nov 19) [    0] help files are wacky
+Daerious (Nov 19) [    0] more specifically they are showing odd characters instead of help fiels
+Evans    (Feb  2) [  994] If you are copy-over'ed while behind a locked door, the key disappears and if you're over level 5, you can't recall.  Screwed.  Example is the door leading to Rentilus
+Sebastien (Aug  9) [  938] add aid to affects command
+Sebastien (Aug  9) [  938] add death knell to affects command
+Manu     (Aug 27) [ 3014] I'm a barbarian, tried here before guess my account got wiped but I'm a barbarian again and whenever I try to rage I get 'You have already used up all of your rage opportunities today.' even though I've never raised.
+Manu     (Aug 27) [ 3014] When I was going through CGen I used my level 1 feat to get the feat 'extra rage' but I don't see it showing anywhere in my known feats anymore.  May be rage problems in general?
+Manu     (Sep  4) [  900] 'You do not satisfy the prerequisites for that feat.' Is the message I get when I try to pick up weapon focus as a level 9 barb on a greatsword.  Not really sure more details!
+Balthar  (Sep  6) [ 3145] not sure if this is a bug, but score says i am level 3 even though i have two levels of rogue and two levels of mage.  
+Balthar  (Sep  6) [ 3228] i enchanted a ring to give me +1 level 1 mage spells. if i remove the ring, the bonus slot does not go away. if i put the ring back on, i get another bonus slot
+Balthar  (Sep  6) [ 3541] i enchanted a ring to give me +1 level 1 mage spells. everytime i change memorized spells (stop and mem) i get another bonus slot
+Balthar  (Sep  7) [ 3547] enchanted a ring to give me +1 first level spells - still giving more spell slots than it should be
+Derek    (Sep  8) [ 3003] My defense is jacked up. Its stuck at 90 (which is funny), but its not my true defense. Just FYI
+Manu     (Sep  8) [ 1553] When I lore a greatsword it says the critical multiplier is 0 and the critical range is 1-20, neither of which is true to D&D greatswords.  Is this a problem with identify or are greatswords actually built this way here?
+Balthar  (Sep 10) [ 2205] i acquired an extra feat along the way somehow
+Balthar  (Sep 15) [ 2223] i evoked a lvl 3 spell four times (my max lvl 3 spell casts) and couldn't evoke any level 1 or 2 spells
+Kelemvor (Sep 15) [    3] list
+Xin      (Sep 18) [ 3313] This room's desc starts with the name of another mud "Heroes of Icewind Dale" - maybe it should be modified.
+Kossuth  (Sep 19) [ 3302] tried to cast magic vestment with 19 wis and said my prime spell casting attribute wasnt high enough
+Bromith  (Sep 22) [  965] I am an orc monk/druid and every time I use my "Call companion" the timber wolf comes out and attacks me. just thought I should tell you guys.
+Myzr     (Oct  3) [ 3256] dagger
+Scaro    (Oct 31) [ 3400] mud crashes when you type artisian after you level is to 2
+Ilmater  (Nov  5) [    3] test
+Scaro    (Nov  9) [ 3400] list at Nunur in the dwarven town crashes mud
+Ilmater  (Nov  9) [ 3401] set race imm command crashes us
+Thray    (Nov 22) [ 2314] Areas don't seem to be repopping correctly, it's been hours since the docks or the blue phoenix gardens have repopped.
+Thray    (Nov 23) [ 2371] Minor power essences can be disenchanted into minor power essences, possibly others can be disenchanted as well providing infinite artisan exp.
+Thray    (Nov 23) [ 8224] Since the last change, copper ore is the most frequent drop by far.  Gemstones still drop somewhat frequently, but blacksmithing metals don't drop anymore at all.  Crystal and essence rate seems fine, though.
+Thray    (Nov 24) [ 2497] Onyx gemstones are synthesizing, but are not being destroyed in the synthesizing process.  I'm not sure about others.
+Thray    (Nov 24) [ 8224] Sorry to spam up the boards but yeah, I've confirmed that gemstones do not disappear once synthesized.
+Kayly    (Nov 24) [30000] It seems like the secondary acid affect of acid arrow is crashing the mud, when it kills mobs.
+Thray    (Nov 24) [ 2454] Object 'a gold nugget', Item type: AQUALUNG
+Solinari (Nov 24) [30001] Both & and @ trigger color codes, I'm not sure if that is intentional or not.
+Solinari (Nov 24) [30001] list
+Morkatha (Dec  2) [30000] Camp might be crashing the game.
+Morkatha (Dec  2) [ 4281] Accursed Mages Part IV refers to a circlet reward when completed.  No circlet given.
+Washaki  (Dec  5) [ 2326] you guys might wish to check your crute folder or whatever you're using to manage teh file system. sudo password anyone? :P
+Washaki  (Dec  7) [ 2340] blindness                 see invisibility          invisibility              
+Washaki  (Dec  7) [ 2340] object             bulls strength            darkvision                 bug don't take away gold if you research them. i'm getting teh fealing none of them do.
+Washaki  (Dec  7) [ 2340] think none of the spells are being charged gold coins. even though it says i was charged 30 gold. and when i fail. i still haev 130 gold in my hands.
+Washaki  (Dec  7) [ 2340] yep even when research failed. still nto being charged. lets see if any of them do it.
+Washaki  (Dec  7) [ 2340] yes, let me check my exp or the feets list maby? but i've beenable to get neraly all of the level 2 mage spells with only 130 gold in my hands.
+Washaki  (Dec  7) [ 2340] let me know if you wish to take them away. or wish me to test this out again later? i do not mind. it's only fair

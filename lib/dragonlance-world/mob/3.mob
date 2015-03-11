@@ -1,0 +1,183 @@
+#300
+forestmaster forest master unicorn~
+the Forestmaster~
+The Forestmaster, a magnificent silvery unicorn stands here.
+~
+   The unicorn's beauty pierces your heart.  Her fur is the silver of
+moonlight.  Her horn is a shining pearl.  Her mane is like seafoam.  The head
+may have been sculpted from glistening marble, but no human or even dwarven
+hand could capture the elegance and grace that lives in the fine lines of the
+powerful neck and muscular chest.  The legs are strong yet delicate.  The
+hooves are small and cloven like those of a goat.    
+~
+d 0 0 0 k 0 0 0 1000
+29 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The upper
+This evergreen tree springs to life before your very eyes, its decaying
+This mass of vines is strangely tough, yet still very flexible.  As you take
+The ghost of a small, spear-wielding draconic creature shrieks at your presence.
+The creature is armored with studded leather and carries a shortspear in it's
+#308
+spider juvenile phase~
+a juvenile phase spider~
+A man-sized, white spider with black spots suddenly appears before you!
+~
+   This man-sized spider is looks to be over five feet in length.  It's
+carapice is stark white in color, speckled with blotches of black.  It's
+multifaceted silver eyes seem to take in all that is around him.  Suddenly, in
+the blink of an eye the spider disappears into thin air.    
+~
+d 0 0 0 k 0 0 0 -999
+13 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The ghost of a figure clad in ornate platemail stares at you impassively.
+Thraksas large burly~
+Thraksas~
+Thraksas, a large burly minotaur stands here, hanging weapons upon the wall.
+Thraksas stands waiting to see you some of his fine weapons.    
+#312
+chieftain centaur strong~
+the centaur chieftain~
+A strong centaur wearing an antler crown pokes his staff towards you.
+~
+   Standing before you is a proud centaur of large build.  He wears a crown of
+huge deer antlers atop his head.  He absentmindedly butts his staff against the
+ground as he takes you in.  His expression, while not hostile, is certainly not
+welcoming.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This small creature stands less than two feet tall.  It is dressed in a
+This pleasant forest creature is a little over a foot in hieght.  Sprouting
+This creature has the torso of a man and the legs of a deer.  It wears a
+This small, bearded man is dressed in a fine green suit.  He chuckles to
+#317
+wooddrake green~
+a green scaled wooddrake~
+A green scaled wooddrake stares at you suspiciously.
+~
+   This creature looks like a cross between a dragon and a human.  It has
+bright green scales and two small wings that look suitable for gliding, if not
+flying.  It's serpent like eyes lock with your own with just a hint of
+suspicion and distrust.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#318
+wooddrake red~
+a red scaled wooddrake~
+A red scaled wooddrake stares at you suspiciously.
+~
+   This creature looks like a cross between a dragon and a human.  It has
+bright green scales and two small wings that look suitable for gliding, if not
+flying.  It's serpent like eyes lock with your own with just a hint of
+suspicion and distrust.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#319
+treant huge lumbering~
+a lumbering treant~
+A huge, lumbering treant stands before you.
+~
+   This huge creature of the forest is more or less an animated, intelligent
+tree.  It's huge branches serve as multiple arms, while its roots allow it to
+move about, albiet very slowly.  It stares at you rather blankly, as if
+awaiting action on your part.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This blue skinned creature is about the same size as the average human.  
+This large plant resembles a venus-fly-trap, although it is many times
+This regal creature of light blue skin stands at the edge of a small pond
+This female centaur is resting here on the ground skinning a small rabbit
+$

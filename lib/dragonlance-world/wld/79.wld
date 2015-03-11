@@ -1,0 +1,1200 @@
+#7900
+Pathway Toward a Gate~
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#7901
+Gates of the Forgotten City~
+You are in a room.
+~
+79 0 0 0 0  1
+S
+#7902
+Crumbled Old Pathway~
+You are in a room.
+~
+79 0 0 0 0  1
+S
+#7903
+Dark Crumbled Pathway~
+You are in a room.
+~
+79 0 0 0 0  1
+S
+#7904
+Dark Pathway Leading to a Fountain~
+You are in a room.
+~
+79 a 0 0 0  1
+S
+#7905
+Right Before the Fountain~
+You are in a room.
+~
+79 0 0 0 0  1
+S
+#7906
+Crumbled Fountain~
+You are in a room.
+~
+79 0 0 0 0  1
+D3
+~
+~
+0 0 7952 0 0 0 0 0 0 0 0
+S
+#7907
+Dark Ally~
+You are in a room.
+~
+79 a 0 0 0  1
+S
+#7908
+Dark Ally Before a Building~
+You are in a room.
+~
+79 a 0 0 0  1
+S
+#7909
+Rotted Building~
+You are in a room.
+~
+79 a 0 0 0  1
+S
+#7910
+Inside the Rotted Building~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7911 0 0 0 0 0 0 0 0
+S
+#7911
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7912 0 0 0 0 0 0 0 0
+S
+#7912
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+S
+#7913
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+S
+#7914
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+S
+#7915
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7914 0 0 0 0 0 0 0 0
+S
+#7916
+Before A set of Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7915 0 0 0 0 0 0 0 0
+S
+#7917
+Before a set of Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+S
+#7918
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7919 0 0 0 0 0 0 0 0
+S
+#7919
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7920 0 0 0 0 0 0 0 0
+S
+#7920
+Against the Rotted Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7910 0 0 0 0 0 0 0 0
+S
+#7921
+Small Stair Room~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7916 0 0 0 0 0 0 0 0
+S
+#7922
+Basement Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+D3
+~
+~
+0 0 7923 0 0 0 0 0 0 0 0
+S
+#7923
+Before the Basement Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+S
+#7924
+Before the Basement Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+S
+#7925
+Top of the Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 7926 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7927 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7921 0 0 0 0 0 0 0 0
+S
+#7926
+Before a Set of Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 7940 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7929 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7925 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7928 0 0 0 0 0 0 0 0
+S
+#7927
+Before a Set of Stairs~
+You are in a room.
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 7928 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7925 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7939 0 0 0 0 0 0 0 0
+S
+#7928
+Next to a Table~
+You are in a room.
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 7938 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7926 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7927 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7937 0 0 0 0 0 0 0 0
+S
+#7929
+Fire Escape~
+You are in a room.
+~
+79 0 0 0 0  1
+D1
+~
+~
+0 0 7930 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7926 0 0 0 0 0 0 0 0
+S
+#7930
+On a Plank~
+You are in a room.
+~
+79 0 0 0 0  1
+D1
+~
+~
+0 0 7931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7929 0 0 0 0 0 0 0 0
+S
+#7931
+On a Plank~
+You are in a room.
+~
+79 0 0 0 0  1
+D1
+~
+~
+0 0 7932 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7930 0 0 0 0 0 0 0 0
+S
+#7932
+On a Brank of a Big Tree~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7933 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7931 0 0 0 0 0 0 0 0
+S
+#7933
+Next to a Trunk~
+You are in a room.
+~
+79 0 0 0 0  5
+D3
+~
+~
+0 0 7932 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7934 0 0 0 0 0 0 0 0
+S
+#7934
+Climbing up A Tree Trunk~
+You are in a room.
+~
+79 0 0 0 0  5
+D4
+~
+~
+0 0 7935 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7933 0 0 0 0 0 0 0 0
+S
+#7935
+Right Under a Treefort~
+You are in a room.
+~
+79 0 0 0 0  5
+D4
+~
+~
+0 0 7936 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7934 0 0 0 0 0 0 0 0
+S
+#7936
+In a Rotted Treefort~
+You are in a room.
+~
+79 0 0 0 0  0
+D5
+~
+~
+0 0 7935 0 0 0 0 0 0 0 0
+S
+#7937
+Along the Side of the Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 7941 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7928 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7939 0 0 0 0 0 0 0 0
+S
+#7938
+Along the North Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D1
+~
+~
+0 0 7940 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7928 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7941 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7942 0 0 0 0 0 0 0 0
+S
+#7939
+Along the Side of the Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 7937 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7927 0 0 0 0 0 0 0 0
+S
+#7940
+Next to a Wall~
+You are in a room.
+~
+79 0 0 0 0  0
+D2
+~
+~
+0 0 7926 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7938 0 0 0 0 0 0 0 0
+S
+#7941
+In the Corner of the Room~
+You are in a room.
+~
+79 0 0 0 0  0
+D1
+~
+~
+0 0 7938 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7937 0 0 0 0 0 0 0 0
+S
+#7942
+Long-Tailed Gars Nesting Ground~
+You are in a room.
+~
+79 0 0 0 0  0
+D5
+~
+~
+0 0 7938 0 0 0 0 0 0 0 0
+S
+#7943
+Pathway Eastward Of the Fountain~
+You are in a room.
+~
+79 0 0 0 0  1
+D1
+~
+~
+0 0 7944 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7906 0 0 0 0 0 0 0 0
+S
+#7944
+Path Eastward from the Fountain~
+You are in a room.
+~
+79 0 0 0 0  1
+D0
+~
+~
+0 0 7945 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7950 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7943 0 0 0 0 0 0 0 0
+S
+#7945
+Before The Crack in the Ground~
+You are in a room.
+~
+79 0 0 0 0  1
+D0
+~
+~
+0 0 7946 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7944 0 0 0 0 0 0 0 0
+S
+#7946
+Large Room with a Large Crack in the Middle~
+You are in a room.
+~
+79 0 0 0 0  1
+D2
+~
+~
+0 0 7945 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7947 0 0 0 0 0 0 0 0
+S
+#7947
+Dark Hole~
+You are in a room.
+~
+79 ai 0 0 0  1
+D4
+~
+~
+0 0 7946 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7948 0 0 0 0 0 0 0 0
+S
+#7948
+Dark Hole~
+You are in a room.
+~
+79 ai 0 0 0  1
+D4
+~
+~
+0 0 7947 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7949 0 0 0 0 0 0 0 0
+S
+#7949
+Catacombs of the Forgotten City~
+<<Starting of a New zone Here>>
+~
+79 ai 0 0 0  1
+D4
+~
+~
+0 0 7948 0 0 0 0 0 0 0 0
+S
+#7950
+Baracaded Gate~
+You are in a room.
+~
+79 0 0 0 0  1
+D3
+~
+~
+0 0 7944 0 0 0 0 0 0 0 0
+S
+#7951
+Pathway Blocked by a Tree~
+You are in a room.
+~
+79 0 0 0 0  1
+D2
+~
+~
+0 0 7906 0 0 0 0 0 0 0 0
+S
+#7952
+Pathway Westward from the Fountain~
+You are in a room.
+~
+79 0 0 0 0  1
+D1
+~
+~
+0 0 7906 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7953 0 0 0 0 0 0 0 0
+S
+#7953
+Toward a Broken Gate~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7952 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7954 0 0 0 0 0 0 0 0
+S
+#7954
+Toward a Broken Gate~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7953 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7955 0 0 0 0 0 0 0 0
+S
+#7955
+At the Broken Gate~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7954 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7956 0 0 0 0 0 0 0 0
+S
+#7956
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7955 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7957 0 0 0 0 0 0 0 0
+S
+#7957
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D3
+~
+~
+0 0 7958 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7956 0 0 0 0 0 0 0 0
+S
+#7958
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7957 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7959 0 0 0 0 0 0 0 0
+S
+#7959
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D3
+~
+~
+0 0 7960 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7958 0 0 0 0 0 0 0 0
+S
+#7960
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7959 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7961 0 0 0 0 0 0 0 0
+S
+#7961
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7960 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7962 0 0 0 0 0 0 0 0
+S
+#7962
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D3
+~
+~
+0 0 7963 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7961 0 0 0 0 0 0 0 0
+S
+#7963
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7962 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7964 0 0 0 0 0 0 0 0
+S
+#7964
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7965 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7963 0 0 0 0 0 0 0 0
+S
+#7965
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D2
+~
+~
+0 0 7964 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7966 0 0 0 0 0 0 0 0
+S
+#7966
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7967 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7965 0 0 0 0 0 0 0 0
+S
+#7967
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D2
+~
+~
+0 0 7966 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7968 0 0 0 0 0 0 0 0
+S
+#7968
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7969 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7967 0 0 0 0 0 0 0 0
+S
+#7969
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D2
+~
+~
+0 0 7968 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7970 0 0 0 0 0 0 0 0
+S
+#7970
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7971 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7969 0 0 0 0 0 0 0 0
+S
+#7971
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7972 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7970 0 0 0 0 0 0 0 0
+S
+#7972
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7973 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7971 0 0 0 0 0 0 0 0
+S
+#7973
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D2
+~
+~
+0 0 7972 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7974 0 0 0 0 0 0 0 0
+S
+#7974
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D4
+~
+~
+0 0 7975 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7973 0 0 0 0 0 0 0 0
+S
+#7975
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7976 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7974 0 0 0 0 0 0 0 0
+S
+#7976
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7977 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7975 0 0 0 0 0 0 0 0
+S
+#7977
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D2
+~
+~
+0 0 7976 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7978 0 0 0 0 0 0 0 0
+S
+#7978
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7979 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7977 0 0 0 0 0 0 0 0
+S
+#7979
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D2
+~
+~
+0 0 7978 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7980 0 0 0 0 0 0 0 0
+S
+#7980
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7981 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7979 0 0 0 0 0 0 0 0
+S
+#7981
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7982 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7980 0 0 0 0 0 0 0 0
+S
+#7982
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7983 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7981 0 0 0 0 0 0 0 0
+S
+#7983
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7984 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7982 0 0 0 0 0 0 0 0
+S
+#7984
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D0
+~
+~
+0 0 7985 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7983 0 0 0 0 0 0 0 0
+S
+#7985
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7986 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7984 0 0 0 0 0 0 0 0
+S
+#7986
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7987 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7985 0 0 0 0 0 0 0 0
+S
+#7987
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D3
+~
+~
+0 0 7986 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7988 0 0 0 0 0 0 0 0
+S
+#7988
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7989 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7987 0 0 0 0 0 0 0 0
+S
+#7989
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7990 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7988 0 0 0 0 0 0 0 0
+S
+#7990
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+D1
+~
+~
+0 0 7991 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7989 0 0 0 0 0 0 0 0
+S
+#7991
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7992
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7993
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7994
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7995
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7996
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7997
+Mountain Path~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7998
+Before the Cave~
+You are in a room.
+~
+79 0 0 0 0  5
+S
+#7999
+In The Cave of Glebmore~
+<<Start New Zone Here>>
+~
+79 0 0 0 0  0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+$

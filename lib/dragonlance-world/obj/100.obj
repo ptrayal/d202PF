@@ -1,0 +1,238 @@
+#10001
+master key~
+master key~
+Master key~
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#10002
+TREX Club~
+TREX Club~
+A Club made of a Tyranosaurus Rex Skull ~
+a Club made of a Tyranosaurus Rex Skull 
+~
+5 0 0 0 0 an 0 0 0 z pw bd 0
+5 1 6 5 100 100 0 9 0 1 0 2 0 0 0 0
+30 0 0 50
+Z
+3
+A
+1 10 0
+A
+4 10 0
+A
+3 10 0
+A
+2 10 0
+#10003
+Ferry~
+Ferry~
+A large barge is anchored to the port~
+A large plataform floating in the water and anchored to the port. It looks very sturdy and the logs that is made of are thick enough, that not even a dragon's weight might be able to sink it. There is nothing else remarkable about this ferry.
+~
+34 cdq 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0
+34464 1000000 0 0
+Z
+6
+#10004
+Ferry Sign~
+Ferry Sign~
+A sign has been placed here~
+~
+16 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+E
+sign~
+@yTransport to Chult, 100 gold pieces, It's a Bargain! -Omar-@n
+~
+#10005
+Ubtaos Medallion~
+Ubtaos Medallion~
+Ubtaos Medallion~
+Ubtaos Medallion
+~
+11 gq 0 0 0 ac 0 0 0 r 0 dm 0
+0 0 0 0 100 100 0 4 0 0 0 0 0 0 0 0
+1 500000 0 50
+Z
+0
+A
+4 20 0
+A
+3 10 0
+A
+1 20 0
+#10006
+Ferry Sign at Chult~
+Ferry Sign at Chult~
+A sign has been placed here~
+~
+16 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+E
+sign~
+@yTransport to Luskan, 100 gold pieces, It's a Bargain! -Oman-@n
+~
+#10010
+Kronk's key~
+Kronk's key~
+Kronk's key made of adamantine~
+A metallic key made of adamantine
+~
+18 q 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#10011
+Large Chest ~
+Large Chest ~
+A large chest glowing with a colective of magic essence from within~
+~
+15 dD 0 0 0 a 0 0 0 0 0 0 0
+2000 5 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+1000 0 0 1
+Z
+5
+#10012
+A large treasure chest~
+a large treasure chest~
+A large treasure chest is resting against the floor~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 5 -1 0 100 100 0 44 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+5
+#10013
+Craft Station~
+Craft Station~
+A custom crafting station is resting here against the floor~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 44 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+5
+#10014
+Small Chest~
+Small Chest~
+A small chest rests here against the wall~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+5000 5 -1 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+3
+#10015
+a storage cabinet~
+a storage cabinet~
+A large and sturdy storage cabinet sits in one corner of the room~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 5 -1 0 100 100 0 44 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+5
+#10100
+object new~
+a new object~
+A new object is here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#10101
+massive shield pot leaf~
+a Massive shield with the symbol of a pot leaf~
+A massive shield lies here, waiting for you to pick it up.~
+6~
+9 bjklmnoprstuvwBCDEF abcdfl stuvwxy 0 j 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+A
+1 5 0
+A
+4 6 0
+A
+3 6 0
+A
+6 6 0
+A
+17 6 0
+A
+18 6 0
+#10102
+ebony bastard sword red~
+an ebony bastard sword shrouded in flames~
+A darkened sword lies here, waiting to be discovered.~
+~
+5 aiklmnoprstuvwBCDEF abcks 0 0 n 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+A
+1 5 0
+A
+2 5 0
+A
+13 -12 0
+A
+19 5 0
+A
+18 -12 0
+A
+14 5 0
+#10103
+sign wooden battered~
+a battered wooden sign~
+A battered wooden sign sways in wind, looking as if it should fall anytime.~
+~
+13 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+sign wooden battered~
+****************************************
+****************************************
+**                                    **
+**  North - Abanasinia                **
+**        - Pax Tharkas               **
+**        - Solace                    **
+**        - Qualinesti Forest         **
+**        - Thorbardin                **
+**                                    **
+**  South - Tarsis                    **
+**        - Icewall Glacier           **
+**                                    **
+**  East  - Plains of Dust            **
+**        - Silvanesti Forest         **
+**        - Blode                     **
+**        - Sanction                  **
+**                                    **
+****************************************
+****                                ****
+****                                ****
+****                                ****
+****                                ****
+****                                ****
+****                                ****
+~
+$~

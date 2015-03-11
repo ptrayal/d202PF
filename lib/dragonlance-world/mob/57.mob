@@ -1,0 +1,555 @@
+#5700
+weasel curious mischief ball fur~
+a curious little ball of fur~
+A weasel scampers about causing mischief.
+~
+   This curious little ball of fur is a weasal.  He is scampering about causing
+mischief wherever he goes.  On a second glance though, he looks like he can
+fight very fiercely.  He has sharp claws and dagger-like teeth.  Overall he is
+a medium brown color with black beady eyes.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5701
+bunny spotted black~
+a spotted bunny~
+A black spotted bunny nibbles on some foliage.
+~
+   This medium sized bunny looks good enough to eat.  Her plump rear end and
+meaty thighs give would provide enough meat for a few days.  She looks at you
+with her cute little blue eyes while nibbling on some flowers.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5702
+ants army red~
+an army of red ants~
+An army of red ants marches along the path.
+~
+   The warrior-like industrious ants rule the dirt.  The bodies of these ants
+are the size of a human fist.  They have razor shard pinchers that easily tears
+flesh off.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5703
+centipede white long~
+a long, white centipede~
+A long, white centipede crawls out from a rotting branch.
+~
+   This centipede is almost a foot long.  It has large legs that are angular
+and sharp to the point.  Its body is sectioned off into several pieces that
+connect giving the centipede a full range of motion.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5704
+gnats swarm~
+a swarm of gnats~
+A swarm of gnats engulfs you in a frenzy of insanity.
+~
+   Hundreds and hundreds of tiny gnats swarm around.  In a matter of seconds at
+least fifty of these bugs are stuck to your clothing and on your skin.  They
+make a faint buzzing noise as they fly around the air.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5705
+lizard foul tempered common~
+a foul-tempered common lizard~
+A foul-tempered common lizard glares around searching for something.
+~
+   This foul-tempered lizard glares around with its beady, little black eyes.
+For a lizard this one is of average size and average shade of green.  Some of
+his scales are peeling off his backside.  His tail is cut short and
+regenerating.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5706
+boa constrictor large~
+a fairly large boa constrictor~
+A fairly large boa constrictor wraps himself around a nearby tree.
+~
+   This huge snake does not bite its prey to kill it, but rather wraps itself
+around it to squeeze the life from it.  It has small, red eyes, and a long,
+slithering body.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5707
+beetle giant~
+a giant beetle~
+A giant beetle slowly crawls along the path.
+~
+   This giant beetle stands close to four feet tall.  Bright red spots and
+green stripes cover this beetles back.  This beetle crawls around with no real
+threat to anything, except a leaf or two.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5708
+finch golden tiny~
+a tiny, golden finch~
+A tiny, golden finch hops along on top of a few gravestones.
+~
+   Hopping around, this tiny golden colored finch looks happy.  His feathers
+reflect the light with a luscious brilliance.  He has tiny little, black eyes.
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5709
+necromancer black robed young~
+a young, black-robed necromancer~
+In a trance, a black-robed necromancer is raising an army of dead.
+~
+   This young and powerful necromancer is donned in the deepest of black robes.
+His veins are buldging out of his forehead as he concentrates on this complex
+spell.  His arms are raised towards the heavens calling upon Nuitari's power.
+~
+bdF 0 0 0 k 0 0 0 -900
+7 15 2 560d100+1000 1d8+7
+7 0 41 0
+8 8 1
+E
+BareHandAttack: 12
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#5711
+zombie headless~
+a headless zombie~
+A headless zombie holds his arms out reaching for some living flesh.
+~
+   This zombie is more rotten than most of his kind.  His bony arms have a
+little flesh remaining on them.  He slowly moves around with his arms
+outstreached reaching for something or someone.    
+~
+bdD 0 0 0 k 0 0 0 0
+7 16 -1 420d80+98 1d8+7
+15 0 8 3
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5712
+skeleton lanky~
+a lanky skeleton~
+A lanky skeleton hobbles around on one leg.
+~
+   This human skeleton hobbles around on one leg.  Perhaps he is in search of
+his missing leg, or he is the result of a twisted mage.  He stands, on his one
+leg, over six feet in height.  On closer inspection, his cracked skull becomes
+noticable.    
+~
+d 0 0 0 k 0 0 0 -900
+6 20 7 24d100+152 1d8+0
+15 0 7 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5713
+ghast putrid~
+a putrid smelling ghast~
+A putrid smelling ghast hobbles down the hall.
+~
+   This horrible smelling ghast hobbles down the hall.  The stench from this
+foul, undead creature is enough to make one vomit.  As she walks down the hall
+she is mumbling to herself.  This ghast seems quite insane.    
+~
+d 0 0 0 k 0 0 0 -900
+10 20 7 24d100+152 1d8+0
+15 0 6 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5716
+ghost transparent slender~
+a transparent being~
+A nearly transparent ghost with a slender build stares blankly at a rock.
+~
+   This slender ghost hovers several inches off the ground.  Her intense eyes
+buldge out of their ghostly sockets.  She has a haggard drawn face.  She is
+dressed in transparent flowing robes.    
+~
+d 0 0 0 k 0 0 0 -900
+6 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5718
+ghoul one eyed~
+a one-eyed ghoul~
+A one-eyed ghoul prances around the catacombs searching for his missing eye.
+~
+   This ghoulish ghoul is searching for something.  The ghoul keeps mumbling,
+'Where are you my friend.  I know you're hiding from me.  ' His skin radiates a
+foul odor of death.    
+~
+d 0 0 0 k 0 0 0 -900
+7 20 7 24d100+152 1d8+0
+15 0 6 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5719
+ghoul belligerent~
+a belligerent ghoul~
+A belligerent ghoul lets out a chilling howl!
+~
+   Upon closer inspection this belligerent ghoul is quite muscular for an
+undead being.  His greenish hands bear some vicious claws.  His teeth are
+jagged and sharp like daggers.  He is wearing a set of holy green robes.    
+~
+d 0 0 0 k 0 0 0 -900
+8 20 7 24d100+152 1d8+0
+15 0 6 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5721
+elven man slender~
+a slender, elven man~
+A slender, elven man is lying here shivering from an illness.
+~
+   This slender elven male seems distressed and deathly ill.  Deep purple
+circles surroung his eyes.  His skin is streched tightly over his skin.  This
+elven man doesn't look like he has long to live.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5722
+gravedigger malformed~
+a malformed gravedigger~
+A malformed gravedigger is sitting here on a tombstone.
+~
+   Here stands a hunched over human male.  You notice he is missing several
+teeth as he smiles while thinking of something.  He is carrying a rake to tend
+the graveyard grounds.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5723
+man tall~
+an extremely tall man~
+An extremely tall man is slowly walking along the path.
+~
+   This pasty, pale skinned man stands a little over seven feet tall.  He has
+large hands and an unusually long neck.  A thick, wool cloak is draped over his
+lanky body.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5724
+warrior knight skeletal ancient~
+a skeletal warrior~
+An ancient knight is resting here on a marble altar.
+~
+   This ancient Solamnic knight is resting for all eternity.  His flesh has
+decomposed leaving only his eyes peering out from within skeletal sockets.  A
+shield with a golden kingfisher lays upon his chest.    
+~
+d 0 0 0 k 0 0 0 900
+12 20 7 24d100+152 1d8+0
+15 0 7 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5725
+a terrified family~
+a terrified family~
+A terrified family is here, held captive by the necromancer.
+~
+   This young family, consisting of an elven man and women and two young elven
+girls, is held captive here amidst this sea of death and undeath.  They are
+clearly beyond terrified and look as if they have not eaten well for days.  
+~
+bd b 0 0 k 0 0 0 500
+5 18 3 60d100+1000 1d8+2
+0 0 0 3
+8 8 0
+E
+BareHandAttack: 13
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

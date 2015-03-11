@@ -1,0 +1,1187 @@
+#1300
+Omar balding short~
+Omar~
+Omar, a short, balding man, smiles and politely asks what he can help you with.
+~
+   Omar stands only at about four feet and 9 inches.  A blue tunic and brown
+pants adorn his body and are a testament to his humble station in life.  A
+leather belt is tied around his waist, with a small money purse attached to it
+to keep spare change in while he waits upon his customers.    
+~
+bdA 0 0 0 k 0 0 0 230
+34 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1301
+dorian shrewd lanky fellow~
+Dorian~
+Dorian, a shrewd, lanky fellow, smiles and asks what he can do for you.
+~
+   This man is dressed in fine clothes which is a rarity in this part of
+Ansalon.  He has on fine leather shoes and a blue tunic with gems running along
+its sides.  His brown hair is combed neatly and a glossy grin attempts to make
+you feel comfortable as you enter his presence.    
+~
+bdA 0 0 0 k 0 0 0 -200
+34 3 -41 408d340+124 1d8+17
+105 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#1302
+Arnold village baker~
+Arnold~
+Arnold, the village baker, happily kneads some bread.
+~
+   White powder and rosy cheeks stand out on the face of the jolly man before
+you.  He is wearing a white apron and a large chefs hat as he happily works at
+his craft.  His hands seem strong and agile as he kneads the bread with the
+skill of a master baker.    
+~
+bdA 0 0 0 k 0 0 0 800
+34 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1303
+Kren stern young~
+Kren~
+Kren, a stern young man, asks you if you want to purchase any weapons.
+~
+   Kren has brown hair that is cut short and is braided in the back.  He is
+tall, with legs that are long and powerful.  When he moves there is grace in
+his posture and agility.  His blue eyes stare at you coldly, but a warm smile
+on his face shows his earnest desire to help you find what you need.    
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1304
+durer stern brown~
+Durer~
+Durer, a stern, brown-haired man, asks how he may help you.
+~
+   Durer stands at around six feet and has a broad, but sturdy girth.  His eyes
+are a deep brown color that seem to glower about the room in a somber mood.  
+He has a large brow ridge above his eyes, which makes him appear almost primal.
+All of this is offset, however, by his movements which are agile, yet graceful.
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1305
+Brime ancient sage~
+Brime~
+Brime, an ancient sage, waits to instruct you in the finer arts.
+~
+   This ancient sage has lived in Solace for countless years.  He waits here
+for students from all over Krynn that come to Solace to learn what he has to
+teach.  The rumors are that he knows all, and some say he has lived one
+thousand years.    
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1306
+mordeth wily red robes~
+Mordeth~
+Mordeth, a wily man in flowing red robes, grins coldly at you.
+~
+   The man before you has pale, grey eyes and a smile that could depress a
+kender.  His hair is slightly grey, and is cut short.  Bony hands extend out
+from red robes that are made of fine velvet.    
+~
+bd 0 0 0 k 0 0 0 -150
+34 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1307
+child smiling carefree~
+a smiling, carefree child~
+A smiling, carefree child roams the paths of Solace.
+~
+   Blue pants and a tiny red shirt adorn this happy child.  His face is dirty
+from a hard day spent playing in the forests around Solace.  He has short,
+brown hair and bright blue eyes that look at you with joyous curiosity.    
+~
+d 0 0 0 k 0 0 0 700
+1 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1308
+traveller tired haggard~
+a tired, haggard traveller~
+A tired, haggard traveller rests by the side of the path.
+~
+   The man wears a green cloak that keeps the elements away from his body.  A
+black hat with a few small holes sits atop his head.  He has a gruff beard and
+hasn't bathed in a few weeks.    
+~
+d 0 0 0 k 0 0 0 -300
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1309
+citizen solace~
+a citizen of Solace~
+A citizen of Solace moves along and smiles at you.
+~
+   This citizen has plain, brown hair and deep set, brown eyes.  He has dark
+skin and hands that mark him as a laborer.  His shirt is worn and caked with
+mud, but he wears a smile and carries himself confidently.    
+~
+d 0 0 0 k 0 0 0 50
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1310
+stablehand stable hand young~
+a young stablehand~
+A young stablehand gathers food for the horses.
+~
+   This stablehand is wearing a shirt and a pair of canvas pants that seem well
+worn.  He is only a young man, probably 16 or 17 years old, but he carries a
+weight of experience about him as he moves through the stable.    
+~
+d 0 0 0 k 0 0 0 40
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1311
+mare grey frisky~
+a frisky, grey mare~
+A frisky, grey mare prances around the stall.
+~
+   Grey fur covers this entire horses body.  It appears well trained but
+apparently does not like to be cooped up in this stall.  Her eyes catch yours
+for a brief second, and a sense of loneliness appears there.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1312
+lad husky clumsy~
+a husky, clumsy lad~
+A husky, clumsy lad cowers with fear.
+~
+   This boy has stains of juice that run down the front of his shirt.  His hair
+is not combed very neatly, and his pants are caked with mud from playing all
+day long.    
+~
+d 0 0 0 k 0 0 0 350
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1313
+bully agile angry~
+an agile, angry bully~
+An agile, angry bully heads towards his victim.
+~
+   This boy has seen a hard life.  His clothes have holes all over them and,
+although he moves well, he hasn't appeared to have eaten in a few days.  He has
+an angry look on his face as if somthing has seriously upset him, and he is
+prepared to exact revenge.    
+~
+d 0 0 0 k 0 0 0 -400
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1314
+member town watch~
+a member of the town watch~
+A member of the town watch passes by, alert for any signs of violence.
+~
+   The citizens of Solace got tired of violence amongst themselves and
+instigated a small protective force to patrol the city.  This member of the
+town watch is equipped with weapons and some armor to better enable him to
+handle any situation.    
+~
+d 0 0 0 k 0 0 0 30
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1315
+puppy brown furry~
+a furry, brown puppy~
+A furry, brown puppy yaps at your toes.
+~
+   This brown puppy seems happy to see you.  It has a devilish grin on its
+litle puppy face and yaps and yaps and yaps as you pass.    
+~
+d 0 0 0 k 0 0 0 300
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1316
+kender joyful bouncy~
+a bouncy, joyful kender~
+A bouncy, joyful kender looks at everything around her.
+~
+   The topknot of this kender bounces as she moves among and between the people
+walking along the path.  A bright smile runs from one cheek to the other as she
+cheerfully tells everyone what an exciting day she is having.  She has many
+loose pouches about her person, and seems to be constantly taking her hands in
+and out of them.    
+~
+d 0 0 0 k 0 0 0 200
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1317
+dwarf grouchy bearded~
+a grouchy, bearded dwarf~
+A grouchy, bearded dwarf stomps past you.
+~
+   This dwarf has a beard that reaches down to below his neckline.  He mumbles
+something about kender under his breath and curses some memory from a past
+encounter with one of the cheerful people.  He has on long leather boots and a
+hat which keeps falling down over his eyes, making him even more grouchy.    
+~
+d 0 0 0 k 0 0 0 -300
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1318
+resident solace~
+a resident of Solace~
+A resident of Solace takes care of her child.
+~
+   A small dimple on her left cheek accentuates the features of this womans
+beautiful face.  Long, blonde hair flows down to her backside and she smiles
+slightly as she notices your gaze upon her.    
+~
+d 0 0 0 k 0 0 0 600
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1319
+infant drooling~
+a drooling infant~
+A drooling infant cries for his mother.
+~
+   This adorable baby has a bit of drool running out of its mouth.  Big blue
+eyes stare up at you and a slight smile creeps out of a face that otherwise is
+crying out for its mother.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1320
+toddler giggling~
+a giggling toddler~
+A giggling toddler looks at you with fear and trepidation.
+~
+   This small child has a look of intense dread on his face as you enter the
+room.  He is wearing a cloth diaper around his bottom and smells a little
+funny.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1321
+elderly resident solace~
+an elderly resident of Solace~
+An elderly resident of Solace rests in a rocking chair.
+~
+   This old man has seen many years in his lifetime.  He has hardly any hair,
+and when he smiles you notice that most of his teeth are missing.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1322
+gentlemen old rickety~
+a rickety old gentleman~
+A rickety old gentleman peers around the room.
+~
+   This man is wearing clothes of a finer sort.  He is a more affluent member
+of the Solace populous and enjoys the secluded life.  His hair is grey but
+still very full and his smile is bright and beautiful.    
+~
+d 0 0 0 k 0 0 0 -100
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1323
+furry small rat~
+a small, furry rat~
+A small, furry rat scurries along the floor.
+~
+   This small rat has grey fur and two little pink feet.  His eyes are red and
+he moves along the floor trying to find some food.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1324
+young haired red red-haired~
+a red-haired, young man~
+A red-haired, young man stands beside his wife.
+~
+   This young man is wearing a plain brown shirt with suspenders attached to
+his grey pants.  He carries himself well for a young man, and he looks at you
+suspiciously as you enter his home.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1325
+lady black-haired black haired beautiful~
+a beautiful, black-haired lady~
+A beautiful, black-haired lady stands behind her husband.
+~
+   This woman has a full head of luscious black hair.  Her smile is warming,
+but currently a look of fear has moved across her face as you enter her home.
+She is tall for a woman of this area, and stands at about five feet and nine
+inches.  She is wearing a fine black dress, as if she were getting ready to go
+someplace special.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1326
+woman blonde-haired plump~
+a plump, blonde-haired woman~
+A plump, blonde-haired woman smiles warmly.
+~
+   This woman has a small divet on her forehard that makes her appear strange
+at first glance.  She is rather plump and appears to be in her mid-thirties.  
+Long blonde hair flows down to her back.  As you enter she smiles but moves
+slightly behind her husband.    
+~
+d 0 0 0 k 0 0 0 100
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1327
+man bearded jolly~
+a jolly, bearded man~
+A jolly, bearded man tries to hang a picture on the wall.
+~
+   This man seems rather jubilant as you enter the room.  He laughs heartily
+eyeing you over and smiling.  He is holding a hammer and a nail, trying to find
+a place to hang a picture for his wife.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1328
+half-elf elf half solemn strong~
+a solemn, strong half-elf~
+A solemn, strong half-elf walks along the bridge-walk.
+~
+   This half-elf has fine, black hair that hangs loosely about his neck.  His
+eyes are a chestnut color, and seem slanted slightly.  He does not wear a full
+beard, but he hasn't shaved in a day or two.    
+~
+d 0 0 0 k 0 0 0 -200
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1329
+lanky flowing black cloak~
+a lanky man wearing a flowing black cloak~
+A lanky man wearing a flowing black cloak stands here.
+~
+   A long, black cloak enshrouds the body of the man standing before you.  His
+build is large, but solid.  He carries himself with confidence and has a
+somewhat menacing look on his face.    
+~
+d 0 0 0 k 0 0 0 -400
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1330
+elf slender green tunic~
+a slender elf in a bright green tunic~
+A slender elf in a bright green tunic passes by.
+~
+   This elven woman carries herself with an elegant grace common to all elves.
+She has long, chestnut hair and beautiful hazel eyes.  Her hands are delicate
+but agile, and she peers around her cautiously, taking in her surroundings.  
+~
+d 0 0 0 k 0 0 0 200
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1331
+dwarf menacing scarred~
+a menacing dwarf with a scarred face~
+A menacing dwarf with a scarred face grumbles as he walks.
+~
+   This dwarf has a brown beard that covers a bulging face.  His eyes are a
+pale, grey color which appears odd to those not used to the dwarven race.  He
+carries a battle axe at his side, and appears ready to use it should the need
+arise.    
+~
+d 0 0 0 k 0 0 0 -300
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1332
+human stern white robes~
+a stern human in white robes~
+A stern human in white robes peers around arrogantly.
+~
+   This man is covered in white from head to toe.  He has brown hair combed
+neatly to the side, and stares at everything around him with an arrogant glare.
+He is wearing a pair of gloves, white as snow, and his boots make a polar bear
+seem dark.    
+~
+d 0 0 0 k 0 0 0 -600
+5 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1333
+otik loud jolly~
+Otik~
+Otik, a loud, jolly man, speaks so that his voice carries across the crowded room.
+~
+   Otik is a large man, but laughs heartily as he moves around the room.  He
+has large side burns and a ring of hair around his head, but is bald as a
+babies bottom on top of his scalp.  He is wearing a brown cloak, and heavy
+boots that make a dull thumping sound as he walks around the room.    
+~
+bdF 0 0 0 k 0 0 0 700
+34 -3 -47 7480d340+1000 1d8+23
+105 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 25
+S
+#1334
+tika beautiful woman black hair~
+Tika~
+Tika, a beautiful woman with flowing red hair, smiles at you.
+~
+   Tika wears a bar maids outfit that shows a bit too much around her neckline,
+but she handles herself well in the common room.  She wears two golden earrings
+that dangle on either side of her head, and a small ring with a ruby enlaid
+into it.  She has full, flowing red hair that comes down to her neck, and bold
+eyes that take in your stare.    
+~
+bdF 0 0 0 k 0 0 0 800
+34 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1335
+dwarf loud obnoxious~
+a loud, obnoxious dwarf~
+A loud, obnoxious dwarf stumbles among the tables.
+~
+   This dwarf is plastered.  He holds a mug of ale in his hand and sings loudly
+to no one in particular.  His beard is dripping with a bit of ale, and his
+shirt is soaked.  You notice that he has a few teeth missing as he grins at
+you.    
+~
+bd 0 0 0 k 0 0 0 30
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1336
+fellow happy wiry~
+a wiry, happy fellow~
+A wiry, happy fellow shares a drink with his friend.
+~
+   This young man has barely reached manhood.  A few whiskers of a beard appear
+on his cheeks, but he probably hasn't shaved in weeks.  He has a smile and an
+aura about him of a happy life.    
+~
+bd 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1337
+stranger cloaked mysterious~
+a mysterious, cloaked stranger~
+A mysterious, cloaked stranger walks towards the guestcheck.
+~
+   A stranger with a cloak about his head is enshrouded in shadow making him
+difficult to see.  He is tall, and moves with agile movements.  A gloved hand
+occasionally appears from beneath a cloaked arm.    
+~
+bd 0 0 0 k 0 0 0 -350
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1338
+cook frantic~
+a frantic cook~
+A frantic cook moves quickly about the kitchen.
+~
+   This cook is wearing a white apron and has powder all over his face.  He
+smiles as you enter, but appears somewhat nervous at the unexpected visit to
+his kitchen.    
+~
+bd 0 0 0 k 0 0 0 270
+2 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1339
+staggering smelly drunk~
+a staggering, smelly drunk~
+A staggering, smelly drunk asks for another mug of beer.
+~
+   This man smells of stale beer and vomit.  He is wearing rags and appears to
+have no money, but asks for beer nonetheless.  His hair is unkempt and his
+teeth are rotten.  He appears to have trouble standing, but uses the bar to
+keep himself stable.    
+~
+bd 0 0 0 k 0 0 0 -10
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1340
+grizzt~
+Grizzt~
+Grizzt stands here behind a large desk.
+~
+   This man is wearing a small cap and a long blue tunic.  His eyes are a
+bright green color that seem to constantly move around the room in a rush.  
+Small black boots adorn Grizzt's feet, accentuating the color of his bright red
+pants.    
+~
+d 0 0 0 k 0 0 0 0
+33 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1341
+training pit instructor~
+the training pit instructor~
+The training pit instructor stands here waiting to start his lesson.
+~
+   The training pit instructor stands here clad in leather armor.  Once a
+mercenary leader, he now trains the novices their craft and trade.  He has
+little patience for those veterans that come to him seeking knowledge, as his
+focus is on those who are still learning their potential, and helping them
+achieve it.    
+~
+bd 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1342
+boy small young~
+a small boy selling newspapers~
+A young boy stands here selling issues of the Age of Dragons Chronicle.
+~
+  A young boy wearing dirty grey clothes stands before you selling copies of
+The Age of Dragons Chronicle, Krynn's most popular newspaper.  Although slight
+in size, he is energetic and outgoing.  He smiles warmly upon noticing your
+attention, and holds a newspaper out to you with wide, eager eyes.
+~
+bd 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1343
+squirrel energetic solace~
+an energetic squirrel~
+An energetic squirrel darts across the ground.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1344
+bird songbird solace~
+a songbird~
+A songbird searches the ground for food.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

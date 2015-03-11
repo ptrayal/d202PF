@@ -1,0 +1,1410 @@
+#300
+The Entrance to a Small Grove~
+   A small trail leads between the trunks of two rather large vallenwood trees.
+The trunk of these trees almost look like a gate guarding the trail.  
+Footprints of numerous types of animals can be seen on the ground.  Sounds of
+birds and animals echo from further down the trail.  
+~
+3 c 0 0 0 3
+D0
+~
+~
+0 0 2612 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 301 0 0 0 0 0 0 0 0
+S
+#301
+Beginning of a Woodland Grove ~
+   Numerous trails branch out from this point.  Some trails look to be used more
+then others.  As you look about you can see this grove is much larger then you
+orginally thought.  Trees of all types fill this grove, not just the vallenwoods
+that Solace is known for.  
+~
+3 c 0 0 0 3
+D3
+~
+~
+0 0 302 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 300 0 0 0 0 0 0 0 0
+S
+#302
+The Main Trail~
+   This trail looks to be well used compared to the rest.  It almost seems to be
+maintained by someone.  Tracks of all sorts can easily been seen crossing the
+trail.  This part of the grove appears to be rather young.  The trees here
+barely reach twenty feet in height.  Small scorch marks can be seen at the base
+of some of large trees.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 301 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 303 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 336 0 0 0 0 0 0 0 0
+S
+#303
+The Main Trail~
+   This trail looks to be well used compared to the rest.  It almost seems to be
+maintained by someone.  Tracks of all sorts can easily been seen crossing the
+trail.  This part of the grove appears to be rather young.  The trees here
+barely reach twenty feet in height.  Small scorch marks can be seen at the base
+of some of large trees.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 302 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 304 0 0 0 0 0 0 0 0
+S
+#304
+The Main Trail~
+   This trail looks to be well used compared to the rest.  It almost seems to be
+maintained by someone.  Tracks of all sorts can easily been seen crossing the
+trail.  This part of the grove appears to be rather young.  The trees here
+barely reach twenty feet in height.  Small scorch marks can be seen at the base
+of sone of the large trees.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 326 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 303 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 305 0 0 0 0 0 0 0 0
+S
+#305
+The Main Trail~
+   This trail looks to be well used compared to the rest.  It almost seems to be
+maintained by someone.  Tracks of all sorts can easily been seen crossing the
+trail.  This part of the grove appears to be rather young.  The trees here
+barely reach twenty feet in height.  Small scorch marks can be seen at the base
+of some of large trees.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 304 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 306 0 0 0 0 0 0 0 0
+S
+#306
+A Small Spring~
+   A small spring lies in the center of this clearing.  Stones have been piled
+around the spring to allow a pool to form.  Many creatures come here to drink
+the clean water.  Large willow and alder trees line the wet area that the spring
+has made.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 307 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 309 0 0 0 0 0 0 0 0
+S
+#307
+A Small Cottage~
+   In this small clearing, someone has erected a diminutive cottage.  A well
+worn path leads to the small door at the front of the cottage.  The door looks
+to be open as you draw closer.  The home looks to be made entirely of the
+materials nearby.  The roof is covered in moss and grasses.  
+~
+3 c 0 0 0 3
+D1
+~
+~
+0 0 306 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 308 0 0 0 0 0 0 0 0
+S
+#308
+Inside a Cottage~
+   A rather diminutive being must dwell in this cottage.  The cottage itself is
+rather simple, just enough to make one comfortable.  The floor of this cottage
+is nothing more then trampled earth.  A small fireplace rests against the north
+wall.  A bed and desk cover most of the opposite wall.  
+~
+3 d 0 0 0 0
+D11
+~
+~
+0 0 307 0 0 0 0 0 0 0 0
+S
+#309
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 310 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 316 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 306 0 0 0 0 0 0 0 0
+S
+#310
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 309 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 311 0 0 0 0 0 0 0 0
+S
+#311
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 312 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 310 0 0 0 0 0 0 0 0
+S
+#312
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 311 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 313 0 0 0 0 0 0 0 0
+S
+#313
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 314 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 312 0 0 0 0 0 0 0 0
+S
+#314
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 3
+D2
+~
+~
+0 0 317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 313 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 315 0 0 0 0 0 0 0 0
+S
+#315
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 3
+D2
+~
+~
+0 0 316 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 314 0 0 0 0 0 0 0 0
+S
+#316
+A Grove of Aspen~
+   A rather large group of aspen trees have taken over this site.  The trees
+look to be almost identical in size except for one.  The spacing of these cloned
+trees makes it hard to walk for anyone bigger then a gnome.  This dense stand of
+trees makes great cover for many types of birds and small mammals.  
+~
+3 0 0 0 0 0
+D0
+~
+~
+0 0 315 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 317 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 309 0 0 0 0 0 0 0 0
+S
+#317
+The Base of a Large Aspen~
+   The aspen tree here is enormous compared the others around it.  This tree
+must be the one that gave birth to the rest.  The base of the tree is as large
+as two dwarves standing side by side.  As you gaze up the tree, you can see
+hundreds of leaves trembling in the breeze.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 314 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 309 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 312 0 0 0 0 0 0 0 0
+D5
+   A small hatch
+~
+hatch~
+3 0 353 20 0 0 0 0 0 0 0
+S
+#318
+A Stand of Oak~
+   Mature oak trees fill this area of the grove.  The leaves of these large oaks
+create moving shadows on the forest floor.  Many of the trees are well over one
+hundred feet high and close to three feet around.  A thick layer of leaves have
+been deposited on the ground over hundreds of years.  This layer of leaves has
+stopped younger trees from growing here.  Acorns of all sizes litter the ground,
+giving animals plenty to eat.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 306 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 324 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 323 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 319 0 0 0 0 0 0 0 0
+S
+#319
+A Stand of Oak~
+   Mature oak trees fill this area of the grove.  The leaves of these large oaks
+create moving shadows on the forest floor.  Many of the trees are well over one
+hundred feet high and close to three feet around.  A thick layer of leaves have
+been deposited on the ground over hundreds of years.  This layer of leaves has
+stopped younger trees from growing here.  Acorns of all sizes litter the ground,
+giving animals plenty to eat.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 320 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 318 0 0 0 0 0 0 0 0
+S
+#320
+A Stand of Oak~
+   Mature oak trees fill this area of the grove.  The leaves of these large oaks
+create moving shadows on the forest floor.  Many of the trees are well over one
+hundred feet high and close to three feet around.  A thick layer of leaves have
+been deposited on the ground over hundreds of years.  This layer of leaves has
+stopped younger trees from growing here.  Acorns of all sizes litter the ground,
+giving animals plenty to eat.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 319 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 325 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 321 0 0 0 0 0 0 0 0
+S
+#321
+A Stand of Oak~
+   Mature oak trees fill this area of the grove.  The leaves of these large oaks
+create moving shadows on the forest floor.  Many of the trees are well over one
+hundred feet high and close to three feet around.  A thick layer of leaves have
+been deposited on the ground over hundreds of years.  This layer of leaves has
+stopped younger trees from growing here.  Acorns of all sizes litter the ground,
+giving animals plenty to eat.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 325 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 320 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 322 0 0 0 0 0 0 0 0
+S
+#322
+A Stand of Oak~
+Mature oak trees fill this area of the grove.  The leaves of these large
+oaks create moving shadows on the forest floor.  Many of the trees are well
+over one hundred feet high and close to three feet around.  A thick layer of
+leaves have been deposited on the ground over hundreds of years.  This layer of
+leaves has stopped younger trees from growing here.  Acorns of all sizes litter
+the ground, giving animals plenty to eat.
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 323 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 325 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 321 0 0 0 0 0 0 0 0
+S
+#323
+A Stand of Oak~
+   Mature oak trees fill this area of the grove.  The leaves of these large oaks
+create moving shadows on the forest floor.  Many of the trees are well over one
+hundred feet high and close to three feet around.  A thick layer of leaves have
+been deposited on the ground over hundreds of years.  This layer of leaves has
+stopped younger trees from growing here.  Acorns of all sizes litter the ground,
+giving animals plenty to eat.  
+~
+3 0 0 0 0 3
+D2
+~
+~
+0 0 322 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 324 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 318 0 0 0 0 0 0 0 0
+S
+#324
+A Stand of Oak~
+   Mature oak trees fill this area of the grove.  The leaves of these large oaks
+create moving shadows on the forest floor.  Many of the trees are well over one
+hundred feet high and close to three feet around.  A thick layer of leaves have
+been deposited on the ground over hundreds of years.  This layer of leaves has
+stopped younger trees from growing here.  Acorns of all sizes litter the ground,
+giving animals plenty to eat.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 318 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 323 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 325 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 319 0 0 0 0 0 0 0 0
+S
+#325
+A Stand of Oak~
+   Mature oak trees fill this area of the grove.  The leaves of these large oaks
+create moving shadows on the forest floor.  Many of the trees are well over one
+hundred feet high and close to three feet around.  A thick layer of leaves have
+been deposited on the ground over hundreds of years.  This layer of leaves has
+stopped younger trees from growing here.  Acorns of all sizes litter the ground,
+giving animals plenty to eat.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 324 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 321 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 320 0 0 0 0 0 0 0 0
+S
+#326
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 327 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 304 0 0 0 0 0 0 0 0
+S
+#327
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 328 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 332 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 326 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 335 0 0 0 0 0 0 0 0
+S
+#328
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 329 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 331 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 334 0 0 0 0 0 0 0 0
+S
+#329
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 330 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 328 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 333 0 0 0 0 0 0 0 0
+S
+#330
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D2
+~
+~
+0 0 331 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 329 0 0 0 0 0 0 0 0
+S
+#331
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 330 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 332 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 328 0 0 0 0 0 0 0 0
+S
+#332
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 331 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 327 0 0 0 0 0 0 0 0
+S
+#333
+A Pine stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 329 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 334 0 0 0 0 0 0 0 0
+S
+#334
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 333 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 328 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 335 0 0 0 0 0 0 0 0
+S
+#335
+A Pine Stand~
+   Rows upon rows of pine trees fill the forest before you.  A soft bed of pine
+needles cushion your foot falls.  Pine cones of various sizes have been dropped
+by the trees.  Some younger pine trees have begun to grow in areas where the
+sunlight reaches the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 334 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 327 0 0 0 0 0 0 0 0
+S
+#336
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 337 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 302 0 0 0 0 0 0 0 0
+S
+#337
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 338 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 336 0 0 0 0 0 0 0 0
+S
+#338
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D2
+~
+~
+0 0 340 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 337 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 339 0 0 0 0 0 0 0 0
+S
+#339
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 340 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 342 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 338 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 341 0 0 0 0 0 0 0 0
+S
+#340
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 338 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 343 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 339 0 0 0 0 0 0 0 0
+S
+#341
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 342 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 345 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 344 0 0 0 0 0 0 0 0
+S
+#342
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 339 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 343 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 346 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 341 0 0 0 0 0 0 0 0
+S
+#343
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 340 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 347 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 342 0 0 0 0 0 0 0 0
+S
+#344
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 345 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 349 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 341 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 348 0 0 0 0 0 0 0 0
+S
+#345
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 341 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 346 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 344 0 0 0 0 0 0 0 0
+S
+#346
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 342 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 347 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 345 0 0 0 0 0 0 0 0
+S
+#347
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 343 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 352 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 346 0 0 0 0 0 0 0 0
+S
+#348
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D1
+~
+~
+0 0 349 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 344 0 0 0 0 0 0 0 0
+S
+#349
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 344 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 348 0 0 0 0 0 0 0 0
+S
+#350
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 345 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 349 0 0 0 0 0 0 0 0
+S
+#351
+A Copse of Hemlock ~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 346 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 352 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 350 0 0 0 0 0 0 0 0
+S
+#352
+A Copse of Hemlock~
+   Enormous hemlock trees tower above this portion of the grove.  The branches
+of these great trees block out most of the sunlight.  Very little new growth can
+be seen on the forest floor.  Small cones from the hemlock trees are strewn
+across the ground.  
+~
+3 0 0 0 0 3
+D0
+~
+~
+0 0 347 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 351 0 0 0 0 0 0 0 0
+S
+#353
+A Small Tunnel~
+   This small tunnel have been dug through the shallow root system of a huge
+Aspen tree.  Roots hang down from the tunnel walls, brushing against you.  It
+appears that a small creature must have created this tunnel.  
+~
+3 cdi 0 0 0 0
+D0
+~
+~
+0 0 354 0 0 0 0 0 0 0 0
+D4
+   A small wooden hatch
+~
+hatch~
+1 0 317 20 0 0 0 0 0 0 0
+S
+#354
+An Earthen Room~
+   This small room has been carved out of the earth.  The room is small for most
+races.  A crude bed and desk line the north wall.  It appears as if someone
+still resides here.  
+~
+3 0 0 0 0 0
+D2
+~
+~
+0 0 353 0 0 0 0 0 0 0 0
+S
+#355
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#356
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#357
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#358
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#359
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#360
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#361
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#362
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#363
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#364
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#365
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#366
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#367
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#368
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#369
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#370
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#371
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#372
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#373
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#374
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#375
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#376
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#377
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#378
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#379
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#380
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#381
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#382
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#383
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#384
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#385
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#386
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#387
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#388
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#389
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#390
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#391
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#392
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#393
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#394
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#395
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#396
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#397
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#398
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+#399
+A new room~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+S
+$~

@@ -1,0 +1,272 @@
+#1400
+Thunder warhammer hammer war ancient~
+Thunder, the ancient warhammer of Reorx~
+Thunder, the ancient warhammer of Reorx, hangs on the wall.~
+~
+5 jklpB 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+25 500000 1248 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 25 224
+A
+5 25 224
+A
+19 127 224
+A
+13 127 224
+A
+18 127 224
+A
+9 15 224
+#1401
+test container~
+a test container~
+A test container waits for a test.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pot~
+You see nothing special.
+~
+#1402
+cookie~
+a cookie~
+A cookie sits here~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1403
+potion red swirling~
+a red, swirling potion~
+A red, swirling potion rests on the ground.~
+~
+10 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 800 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+potion red swirling~
+   The potion seems foggy, as if its not really there.    
+~
+#1404
+cake Gilean's birthday~
+a piece of Gilean's brithday cake~
+A piece of Gilean's birthday cake rests on the ground.~
+~
+19 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 600 50 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1405
+sign small~
+a small sign~
+A small sign rests along the back wall.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1406
+object new~
+a new object~
+A new object is here.~
+~
+9 jklmnoprstuvwBCDEF abck 0 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1407
+helm war~
+the war helm~
+The war helm has been left here.~
+~
+9 jklmnopqrstuvwBCDEF abc 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+14 40000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+#1408
+robe deep blue frayed~
+a frayed, deep blue robe~
+A frayed, deep blue robe has been left on the ground.~
+~
+9 cjnqw a 0 0 d 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 100000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 3 0
+A
+4 3 0
+A
+19 3 0
+A
+13 100 0
+#1409
+staff oak long~
+a long staff made of oak~
+A long staff made of oak has been left here.~
+~
+5 cjklnqtu ach 0 0 n 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 10000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1410
+bookcase bookshelf vallenwood~
+a vallenwood bookcase~
+A vallenwood bookcase stands here against the wall.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1411
+pendant quartz enlaid~
+a quartz enlaid pendant~
+Lying here on the ground is a quartz enlaid pendant.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 1 0
+A
+17 -1 0
+#1412
+sign~
+a small wooden sign~
+A small sign hangs over the counter.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sign~
+   I am currently looking for someone to take over my shop so I can retire and
+attent to some much needed adventuring.  My inn shall remain open as long as
+someone is willing to keep running it.  Tika may be able to close the kitchen
+and run it, but most of my money comes from her rent so I'm not sure that would
+be smart.    
+Otik
+~
+#1413
+flail light silver runes~
+a light, silver flail etched with runes~
+A silver flail lies here, forgotten by its owner.~
+~
+5 jklmnoprstuvwBCDF abc stuvwxyz 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1414
+boots sturdy pair fur trimmed solace~
+a sturdy pair of fur trimmed boots~
+A pair of fur trimmed boots sit here.~
+~
+9 jklmnoprstuvwBCDF abc stuvwxyz 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#1415
+stiletto long black solace~
+a long, black handled stiletto~
+A new object is here.~
+~
+5 jklmnoprstuvwBCDF abc stuvwxyz 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 800 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+24 1 0
+$~

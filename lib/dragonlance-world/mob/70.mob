@@ -1,0 +1,575 @@
+#7000
+student white robed pupil mage~
+a white-robed student~
+A pupil of the white robes hurries off to class.
+~
+   This student carries her spellbook at her side and is in mid sprint as she
+searches for her classroom.  She is a beginning student new to the academy, and
+her white robes make little noise as she searches about frantically.  Her
+spellcasting is quite impressive for her age, as very few youths are so gifted
+in the arts at this stage in their life.    
+~
+d 0 0 0 k 0 0 0 900
+6 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7001
+pupil red student mage~
+a red-robed student~
+A pupil of the red-robes walks the hallways observing his surroundings.
+~
+   This red robed young man looks around the corner, observing the other
+students in the academy.  He checks to see how they compose themselves, and how
+they react to other students.  He is non-confrontational, and carries but a
+simple pouch for his spell components.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7002
+pupil mage student black~
+a black-robed student~
+A pupil of the black robes calmly strolls around, late for class.
+~
+   This cocky black robe strolls nonchalantly through the halls, not worried in
+the slightest about his tardiness.  In his hand he carries his trusty dagger,
+and his dark robes partially conceal his facial features.  He is scheming, and
+devious, but stays within the strict rules of the academy.    
+~
+d 0 0 0 k 0 0 0 -900
+6 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7003
+studious serious member ~
+a studious member of the academy~
+A very serious member of the academy tends to his studies.
+~
+   This pupil is deeply immersed in his studies.  He calmly turns the pages in
+his book and occasionally jots something down on small pieces of note paper.  
+He is quite serious about his studies, and wants to achieve high ranking in his
+class in order to progress to the graduate level.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7004
+student young pupil mage~
+a young student~
+A young student sits here listening to the professors lecture.
+~
+   This student seems unconcerned with the lecture at hand.  She is selfish,
+and only wants to progress in her studies through the easiest way possible.  
+She is undecided as to what robe she wants to take, but to others it is quite
+obvious.    
+~
+d 0 0 0 k 0 0 0 -900
+5 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7005
+student pupil mage complex~
+a very complex student~
+A very complex student sits here absorbing the lecture.
+~
+   This young student has a fresh look to his face.  Small freckles dot his
+cheeks, and no notepad is at his side as he is completely consumed by the
+lecture.  He sits in a relaxed pose, and rarely strays from the subject matter
+at hand.    
+~
+d 0 0 0 k 0 0 0 900
+6 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7006
+mage focused juvenile student pupil ~
+a focused young mage~
+A juvenile mage sits here very focused on his studies.
+~
+   This young mage listens partly to the lecture, and scribbles notes in his
+small board at his side furiously.  He is at the top of his class, and is very
+proud of this accomplishment.  However, he is also well liked, and very fair in
+his treatment of the other students above and below him in class rank.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7007
+mage slacker student pupil mage~
+a young slacker of a mage~
+A student unconcerned with his studies stares out the window.
+~
+   This student is dressed in very unkempt robes.  He has plummeted in the
+class rankings and is very unconcerned with his studies.  He has some magical
+talent, but would rather go fishing than study at all.  He's more at home in
+the outside than in this classroom.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7008
+mage creative student pupil~
+a very creative mage~
+A very creative young mage attempts to further his unique studies.
+~
+   This mage is very resourceful and creative in his studies.  He often looks
+to discover different combinations and uses for spells that other mages may
+have missed out on.  He is not the best student, but may be the best person to
+get a friend out of a jam.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7009
+professor charming~
+a very charming professor~
+A very charming professor stands here instructing the ways of magic.
+~
+This instructor has a very captivating personality making her ideal for her
+job.  She is short, and has a very cheerful air to her.  Yet behind this is a
+very strict and serious professor.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7010
+professor senior mage ~
+the senior professor~
+The senior professor of the academy stands here instructing.
+~
+   This professor is rather slight of build, and middle aged.  He is partially
+bald, and his spectacles hang off the tip of his nose, ready to plumet off to
+the ground below.  He wears very loose hanging robes, and is very serious in
+his tutelage.  Only the cream of the crop make it into this classroom.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7011
+mage attractive young pupil student~
+a very attractive young mage~
+A mage who is both beautiful and intelligent sits here immersed.
+~
+   This young black robe's hair peeks out from within the cowl of her robe.  
+She has a very innocent, yet sinnister smile and a face that would deceive even
+the most serious of warriors.  She's cunning, intelligent, and beautiful, a
+very deadly combination.    
+~
+d 0 0 0 k 0 0 0 -900
+9 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7012
+mage pudgy rotund young student pupil~
+a rotund young mage~
+A very pudgy and overweight red robe sits here quietly.
+~
+   This young red robe spends many hours of innactivity immersed in his studies
+and meals.  He rarely lifts a finger to do any work, but has somehow managed to
+absorb most of the knowledge needed to succeed as a mage.  The field is ideal
+for his lifestyle, and therefore he is good at what he does.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7013
+mage gaunt frail student pupil haggard~
+a gaunt, frail mage~
+Hanging on his staff for support, a haggard mage sneers.
+~
+   This frail mage looks like he could keel over at any moment.  He can barely
+lift the pen that he holds in his left hand, but has signs of intelligence upon
+his face that many older mages do not even possess.  He is confident, demanding
+of others, and arrogant.  Three qualities that his peers fear very much.    
+~
+d 0 0 0 k 0 0 0 -900
+9 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7014
+student snobbish arrogant rich pupil mage~
+a very snobbish student~
+An arrogant, rich upperclass student rests here lazily.
+~
+   This young female mage has had everything handed to her on a silver platter
+throughout most of her young life.  She has no will to study, but her families
+dollar has bought her into the finest classes and lifestyle money can buy.  
+She's a huge snob, and could never stand up to the other students on a test of
+skills.  However, with the way she speaks, most would assume she is superior to
+her peers.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7015
+student diligent mage pupil~
+an extremely diligent student~
+A student who has devoted her whole life to studying sits here.
+~
+   This student has round glasses, and very large open eyes.  She is not
+pretty, nor deceiving, simply she loves what she does.  She has two short
+braided strands of hair coming down the sides of her reddish brown hair.  She
+is very determined, and never skips a beat.  She is the type of student that
+even goes so far as to write flawlessly in her notes.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7016
+student graduate mage pupil~
+a graduate student~
+Deeply immersed in his experiments, a graduate student is here.
+~
+   This mage is now in his early twenties and has stepped to the next level in
+his studies.  Now is time for all of his studies to lead him to discover magic
+as only those that have progressed past the early stages can find.  He now has
+to discover magic on his own, or seek out a significant mage who has reached
+the level of ability few mages ever reach.    
+~
+d 0 0 0 k 0 0 0 900
+8 16 -2 32d100+100 1d8+4
+8 0 41 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#7017
+mutant twisted deformed~
+a twisted and deformed mutant~
+A twisted and deformed mutant picks at the corpse of a dead animal.
+~
+   This mutant has the head of a vulture, and the body of a small bear.  The
+face is very deformed, and the head seems to small for the body.  It picks away
+at the meat that still dangles on the carcas.  This beast is the unfortunate
+end product of an experiment gone bad.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7018
+headmaster mage ~
+the headmaster of the academy~
+The headmaster stands confidently here, very proud of his academy.
+~
+   The sides of this man's head has faint traces of hair, however; for the most
+part he is bald.  He appears old, but it is undoubtedly the strain the years of
+magic have caused him.  His school has flourished, and his professors are top
+notch.  He is now at another peak in his life, as the feelings of success now
+surround him.    
+~
+bd 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7019
+broomstick animated~
+an animated broomstick~
+An animated broomstick sweeps up the trash it comes across.
+~
+   This broomstick stands perfectly balanced above the floor.  It floats in mid
+air, and picks up any trash that it finds along the way.  It is twice the size
+of a normal broom, and twice as effective.  It moves quickly, and takes care of
+business.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7020
+vidgeous aged mage vidge vid~
+Vidgeous~
+Vidgeous, an aged yet quick on his feet mage, tends to the magic shop.
+~
+   Now well past his prime, this wizard has seen many hardships and much
+success.  He was once and is still known as one of the greatest diviners in all
+of Krynn.  His abilities allow him certain advantages when dealing with the
+clientel.  He is very content with his position now, as it allows him lots of
+freedom, and the chance to meet the new upstarts in the academy and the
+commoners of the town.    
+~
+bd 0 0 0 k 0 0 0 -999
+35 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

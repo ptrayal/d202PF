@@ -1,0 +1,184 @@
+#28
+None.~
+The Red Moon Festival (Reo)~
+2800 2899 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  2817     1  2850   1   100     1    -1          0 a merchant from a foreign place
+
+D 0  2850     2     1   0   101     2    -10 
+
+D 0  2851     0     1   0   101     3    -10 
+
+M 0  2800     3  2800   1   100     4    -1          0 a cheerful young man
+
+M 0  2800     3  2802   1   100     5    -1          0 a cheerful young man
+
+M 0  2801     6  2808   1   100     6    -1          0 a cheerful kender
+
+E 1  2800     8    16   0    50     7     6          0 a long, wooden hoopak
+
+M 0  2801     6  2816   1   100     8    -1          0 a cheerful kender
+
+E 1  2800     8    16   0    50     9     8          0 a long, wooden hoopak
+
+M 0  2803     6  2829   1   100    10    -1          0 a smiling resident of Solace
+
+M 0  2801     6  2829   1   100    11    -1          0 a cheerful kender
+
+E 1  2800     8    16   0    50    12    11          0 a long, wooden hoopak
+
+M 0  2801     6  2826   1   100    13    -1          0 a cheerful kender
+
+E 1  2800     8    16   0    50    14    13          0 a long, wooden hoopak
+
+M 0  2801     6  2823   1   100    15    -1          0 a cheerful kender
+
+E 1  2800     8    16   0    50    16    15          0 a long, wooden hoopak
+
+M 0  2803     6  2820   1   100    17    -1          0 a smiling resident of Solace
+
+M 0  2801     6  2820   1   100    18    -1          0 a cheerful kender
+
+M 0  2814     5  2814   1   100    19    -1          0 a large, grey dog
+
+M 0  2802     6  2814   1   100    20    -1          0 an elderly woman
+
+G 1  2801   999     0   0    85    21    20          0 a few bread crumbs
+
+M 0  2814     5  2812   1   100    22    -1          0 a large, grey dog
+
+M 0  2802     6  2812   1   100    23    -1          0 an elderly woman
+
+E 1  1228     5    17   0    20    24    23          0 a thin bone scroll
+
+G 1  2801   999     0   0    85    25    23          0 a few bread crumbs
+
+M 0  2802     6  2815   1   100    26    -1          0 an elderly woman
+
+G 1  2801   999     0   0    85    27    26          0 a few bread crumbs
+
+M 0  2814     8  2818   1   100    28    -1          0 a large, grey dog
+
+M 0  2802     6  2818   1   100    29    -1          0 an elderly woman
+
+G 1  2801   999     0   0    85    30    29          0 a few bread crumbs
+
+M 0  2814     8  2828   1   100    31    -1          0 a large, grey dog
+
+M 0  2802     6  2828   1   100    32    -1          0 an elderly woman
+
+G 1  2801   999     0   0    85    33    32          0 a few bread crumbs
+
+M 0  2803     6  2809   1   100    34    -1          0 a smiling resident of Solace
+
+M 0  2803     6  2827   1   100    35    -1          0 a smiling resident of Solace
+
+M 0  2803     6  2824   1   100    36    -1          0 a smiling resident of Solace
+
+M 0  2803     6  2822   1   100    37    -1          0 a smiling resident of Solace
+
+M 0  2803     6  2819   1   100    38    -1          0 a smiling resident of Solace
+
+M 0  2805     3  2856   3   100    39    -1          0 a member of the audience
+
+M 0  2805     3  2856   3   100    40    -1          0 a member of the audience
+
+M 0  2805     3  2856   3   100    41    -1          0 a member of the audience
+
+M 0  2804     1  2856   1   100    42    -1          0 a charismatic storyteller
+
+E 1  2802     8    16   0    50    43    42          0 the staff of the storyteller
+
+M 0  2806     2  2862   2   100    44    -1          0 a wide-eyed, carefree child
+
+M 0  2806     2  2860   2   100    45    -1          0 a wide-eyed, carefree child
+
+M 0  2802     1  2861   1   100    46    -1          0 an elderly woman
+
+M 0  2807     1  2861   1   100    47    -1          0 a bearded man with a red shirt
+
+E 1  2803     8     5   0    50    48    47          0 a red shirt with small buttons
+
+M 0  2809     1  2864   1   100    49    -1          0 a handsome young gentleman
+
+M 0  2810     4  2865   1   100    50    -1          0 a shrewd, wily merchant
+
+E 1  2804     8     3   0    50    51    50          0 a pendant in the shape of a small bird
+
+M 0  2810     4  2866   1   100    52    -1          0 a shrewd, wily merchant
+
+E 1  2804     8     3   0    50    53    52          0 a pendant in the shape of a small bird
+
+M 0  2810     4  2853   1   100    54    -1          0 a shrewd, wily merchant
+
+E 1  2804     8     3   0    50    55    54          0 a pendant in the shape of a small bird
+
+M 0  2810     4  2854   1   100    56    -1          0 a shrewd, wily merchant
+
+E 1  2804     8     3   0    50    57    56          0 a pendant in the shape of a small bird
+
+M 0  2812     3  2852   3   100    58    -1          0 a member of the audience
+
+M 0  2812     3  2852   3   100    59    -1          0 a member of the audience
+
+M 0  2812     3  2852   3   100    60    -1          0 a member of the audience
+
+M 0  2811     1  2852   1   100    61    -1          0 an agile juggler
+
+E 1  2805     8    16   0    50    62    61          0 a small juggling pin
+
+M 0  2813     1  2855   1   100    63    -1          0 a desparate child
+
+G 1  2806   999     0   0   100    64    63          0 a cup of cold lemonade
+
+M 0  2814     5  2805   1   100    65    -1          0 a large, grey dog
+
+M 0  2814     5  2821   1   100    66    -1          0 a large, grey dog
+
+M 0  2814     5  2825   1   100    67    -1          0 a large, grey dog
+
+M 0  2815    16  2841   2   100    68    -1          0 a member of the audience
+
+M 0  2815    16  2841   2   100    69    -1          0 a member of the audience
+
+M 0  2815    16  2844   2   100    70    -1          0 a member of the audience
+
+M 0  2815    16  2844   2   100    71    -1          0 a member of the audience
+
+M 0  2815    16  2843   2   100    72    -1          0 a member of the audience
+
+M 0  2815    16  2843   2   100    73    -1          0 a member of the audience
+
+M 0  2815    16  2842   2   100    74    -1          0 a member of the audience
+
+M 0  2815    16  2842   2   100    75    -1          0 a member of the audience
+
+M 0  2815    16  2836   2   100    76    -1          0 a member of the audience
+
+M 0  2815    16  2836   2   100    77    -1          0 a member of the audience
+
+M 0  2815    16  2837   2   100    78    -1          0 a member of the audience
+
+M 0  2815    16  2837   2   100    79    -1          0 a member of the audience
+
+M 0  2815    16  2838   2   100    80    -1          0 a member of the audience
+
+M 0  2815    16  2838   2   100    81    -1          0 a member of the audience
+
+M 0  2815    16  2839   2   100    82    -1          0 a member of the audience
+
+M 0  2815    16  2839   2   100    83    -1          0 a member of the audience
+
+M 0  2816     4  2847   1   100    84    -1          0 a man with a painted face
+
+M 0  2816     4  2846   1   100    85    -1          0 a man with a painted face
+
+M 0  2816     4  2849   1   100    86    -1          0 a man with a painted face
+
+M 0  2816     4  2848   1   100    87    -1          0 a man with a painted face
+
+S
+$

@@ -1,0 +1,247 @@
+#1200
+well red-bricked red bricked fountain~
+a red-bricked well~
+A red-bricked well stands here in the center of the courtyard.~
+~
+23 cdC 0 0 0 0 0 0 0 0 0 0 0
+50000 50000 0 0 100 100 0 40 0 0 0 0 0 0 0 0
+50000 0 3 0
+Z
+6
+#1201
+longsword sharp steel~
+a sharp, steel longsword~
+A sharp, steel longsword has been left here for the taking.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+26 1 8 3 100 100 0 7 1 2 0 11 0 0 0 0
+40 4500 225 10
+Z
+4
+A
+18 1 0
+A
+19 2 0
+A
+13 2 0
+#1202
+shield small steel~
+a small steel shield~
+A small steel shield is lying here on the ground reflecting light.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+10 4 99 -1 100 100 5 7 999 14 0 0 0 0 0 0
+60 4500 225 10
+Z
+4
+A
+23 34 0
+#1203
+suit steel full plate~
+a suit of steel full plate~
+A full plate suit made entirely of steel has been left here to the elements.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+80 3 1 -6 100 100 35 7 20 12 15 0 0 0 0 0
+500 4500 225 10
+Z
+4
+A
+22 34 0
+#1204
+greatsword well-made steel great sword~
+a well-made steel greatsword~
+A well-made steel greatsword has been left here carelessly.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+37 2 6 3 100 100 0 7 1 2 0 12 0 0 0 0
+80 4500 225 10
+Z
+4
+A
+1 1 0
+A
+14 20 0
+A
+18 1 0
+#1205
+band thin steel~
+a thin steel band~
+A thin steel band is lying here, barely visible.~
+~
+11 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+1 1500 25 6
+Z
+2
+A
+17 20 0
+#1206
+bracer leather~
+a leather bracer~
+A leather bracer has been left here carelessly.~
+~
+9 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 2 0 0 0 0 0 0 0 0
+1 1500 25 6
+Z
+3
+A
+14 20 0
+A
+13 4 0
+A
+21 6 0
+#1207
+robes white gold trimmed~
+a set of white and gold trimmed robes~
+A set of white and gold trimmed robes lies here.~
+~
+11 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 1 0 0 0 0 0 0 0 0
+4 1500 25 6
+Z
+4
+A
+22 20 0
+#1208
+cudgel ironwood~
+an ironwood cudgel~
+An ironwood cudgel has been left here to rot.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+3 1 6 5 100 100 0 44 0 1 0 2 0 0 0 0
+40 3600 175 9
+Z
+3
+A
+18 1 0
+A
+13 4 0
+A
+4 1 0
+#1209
+shortsword razor sharp~
+a razor sharp shortsword~
+A razor sharp shortsword has been left here upon the ground.~
+~
+5 0 0 0 0 ano 0 0 0 0 0 0 0
+23 1 6 11 100 100 0 7 1 2 0 1 0 0 0 0
+20 2800 140 8
+Z
+3
+A
+18 1 0
+A
+19 2 0
+#1210
+tome ancient~
+an ancient tome~
+An ancient tome is lying here gathering dust.~
+~
+39 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+3 500 0 0
+Z
+3
+S
+4 4
+S
+5 2
+S
+10 2
+S
+30 6
+S
+39 4
+S
+56 4
+#1211
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0 0 0 ab 0 0 0 E 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#1212
+sleeves brown velvet pair~
+a pair of brown velvet sleeves~
+A pair of brown velvet sleeves have been left here for the taking.~
+~
+11 0 0 0 0 ai 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 21 0 0 0 0 0 0 0 0
+10 50 0 1
+Z
+4
+#1213
+hood brown velvet heavy~
+a heavy brown velvet hood~
+A heavy brown velvet hood has been left here.~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 21 0 0 0 0 0 0 0 0
+2 4500 225 10
+Z
+4
+A
+4 2 0
+#1214
+boots platemail opal~
+a set of opal platemail boots~
+A set of opal platemail boots lies here.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+30 4500 225 10
+Z
+4
+A
+5 2 0
+#1215
+gauntlets platemail opal~
+a set of opal platemail gauntlets~
+A set of opal platemail gauntlets lies here.~
+~
+11 0 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+8 4500 225 10
+Z
+4
+A
+2 2 0
+#1216
+longbow vallenwood composite~
+a composite vallenwood longbow~
+A composite longbow made entirely of vallenwood lies here.~
+~
+5 0 0 0 0 ano 0 0 0 0 0 0 0
+45 1 8 6 100 100 1 8 0 10 110 14 0 0 0 0
+30 2100 75 7
+Z
+5
+A
+18 1 0
+A
+19 1 0
+A
+13 2 0
+#1217
+rapier lightweight perfectly balanced~
+@wa lightweight and perfectly balanced steel rapier@n~
+@wA lightweight and perfectly balanced steel rapier lies here point stuck into the ground.@n~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+28 1 6 11 100 100 0 7 2 4098 0 11 0 0 0 0
+20 4500 225 10
+Z
+4
+A
+18 1 0
+A
+19 1 0
+A
+43 1 401
+$~

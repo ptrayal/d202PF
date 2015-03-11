@@ -1,0 +1,82 @@
+#0
+bug~
+a bug~
+This object is BAD!  If you see it, there must be a bug in the game.  Please
+report it immediately using the BUG command.~
+~
+13 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 13 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#1
+Wisdom imm board~
+an Immortal IDEA board~
+A stone slab containing the wisdom of the immortals ideas hovers here!~
+~
+40 cdq 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 38 40 0 0 0 0 0 65548 0
+0 0 0 0
+Z
+4
+#2
+portal~
+a @Yglowing portal@n~
+A @Yglowing portal@n hovers here forming a gateway to another place.~
+~
+28 0 0 0 0 0 0 0 0 0 0 0 0
+3001 0 -1 -1 50 50 0 36 20 20 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#3
+hatch exit~
+the hatch~
+A metal hatch seperates inside from out.~
+~
+25 cdq 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 100 100 0 23 25 0 0 0 0 0 65548 0
+0 0 0 0
+Z
+4
+#4
+spellbook~
+a test spellbook~
+A spellbook, for testing memorization code lies here.~
+~
+29 g 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16 29 0 1 0 0 0 64 0
+20 100 0 0
+Z
+4
+#5
+spellbook~
+a second test spellbook~
+Another spellbook, for testing memorization code lies here.~
+~
+29 g 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16 29 0 1 0 0 0 64 0
+20 100 0 0
+Z
+4
+#6
+scroll~
+an empty scroll~
+A blank piece of scroll parchment lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+0 -1 -1 -1 100 100 0 16 2 0 1 0 0 0 0 0
+1 150 0 0
+Z
+4
+#7
+spellbook another test~
+another test spellbook~
+Another test spellbook lies here.~
+~
+29 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16 29 0 1 0 0 0 0 0
+1 0 0 0
+Z
+4
+$~

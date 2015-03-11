@@ -1,0 +1,273 @@
+#3900
+staff crystal blue xak~
+a crystal blue staff~
+A crystal blue staff shimmers in the light, as it lies upon the floor.~
+~
+4 agi 0 0 0 an 0 0 0 0 0 0 0
+30 50 20 48 100 100 0 10 0 0 0 0 0 0 0 0
+20 43500 4500 30
+Z
+4
+A
+9 10 148
+A
+14 5 148
+A
+18 1 148
+A
+19 1 148
+A
+3 1 148
+#3901
+key small round~
+a small round key~
+A small round key sets upon the ground.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#3902
+key black gold~
+a black key with gold flecks~
+A black key with gold flecks lies upon the ground~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#3903
+key golden~
+a gold key~
+A gold key lies tossed upon the ground.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#3904
+key red black~
+a red and black key~
+A red and black key lies tossed upon the ground.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#3905
+ring ivory xak~
+a small ivory ring~
+A shimmering ivory ring lies lost upon the ground.~
+~
+11 ag 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 26 0 0 0 0 0 0 0 0
+0 1200 700 29
+Z
+4
+A
+21 75 188
+#3906
+skullcap silver xak~
+a silver skullcap~
+A piece of silver cloth lies upon the ground, forgotten.~
+~
+11 ag 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 18 0 0 0 0 0 0 0 0
+0 1200 700 14
+Z
+4
+A
+24 20 188
+#3907
+sceptre golden xak~
+a golden sceptre~
+A thin rod of some kind lies lost upon the ground.~
+~
+5 g 0 0 0 an 0 0 0 0 0 0 0
+3 1 6 5 100 100 0 7 0 1 0 2 0 0 0 0
+40 5 1900 16
+Z
+4
+A
+41 1 0
+A
+40 1 0
+A
+39 1 0
+#3908
+bracelet ornate leather xak~
+an ornate leather bracelet~
+A leather bracelet lies lost upon the ground.~
+~
+9 agjlnstwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3500 2400 3
+Z
+4
+A
+19 1 96
+A
+18 1 96
+#3909
+disks mishakal xak~
+the Disks of Mishakal~
+Two disks of golden appearance lie here upon the ground.~
+~
+11 akmopr 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 41 0 0 0 0 0 0 0 0
+1 3400 0 26
+Z
+4
+A
+4 1 0
+A
+24 30 0
+#3910
+armor stone xak~
+a set of stone armor~
+A suit of stone armor lies upon the ground.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+80 3 1 -6 100 100 35 36 20 12 15 0 0 0 0 0
+500 1500 1200 20
+Z
+4
+A
+22 50 176
+#3911
+helm wooden spikes xak~
+a wooden helm covered in spikes~
+A wooden helm lies upon the ground covered with wooden spikes.~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 1600 800 1
+Z
+4
+A
+17 50 32
+#3912
+dagger wicked double edged xak~
+a wicked, double-edged dagger~
+A strange looking dagger has been left on the floor.~
+~
+5 g 0 0 0 an 0 0 0 0 0 0 0
+2 1 4 11 100 100 0 13 1 17 10 1 0 0 0 0
+10 2 1920 25
+Z
+4
+A
+28 7 128
+A
+29 9 128
+#3913
+shovel dirty xak~
+a dirty shovel~
+A shovel lies against the wall covered in dirt.~
+~
+5 jklmnopuBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1400 1200 1
+Z
+4
+#3914
+spellbook small black book xak~
+a small black spellbook~
+A small black book with ancient writing lies upon the floor.~
+~
+39 ag 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+0 9500 5700 2
+Z
+4
+A
+24 1 68
+A
+4 1 68
+S
+135 4
+S
+249 18
+S
+129 6
+S
+84 12
+S
+306 12
+S
+321 18
+#3915
+slag wicked battleaxe axe xak~
+a wicked, double-edged battleaxe called 'Slag'~
+A wicked looking battleaxe lies against the wall.~
+~
+5 gC 0 0 0 an 0 0 0 0 0 0 0
+24 1 8 3 100 100 1 43 0 2 0 8 0 0 0 0
+60 10 2700 26
+Z
+5
+A
+28 8 140
+A
+29 10 140
+A
+47 1 8
+#3916
+belt colorful feathers xak~
+a belt of colorful feathers~
+A belt of colorful feathers lies upon the ground.~
+~
+11 g 0 0 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 1400 700 28
+Z
+4
+A
+5 8 188
+#3917
+coin iridescent xak~
+an iridescent coin~
+An iridescent coin lies forgotten upon the ground.~
+~
+1 agjklmnoprstvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1300 660 2
+Z
+4
+A
+6 1 148
+A
+13 10 148
+#3918
+pipe brutal piece xak~
+a brutal piece of pipe~
+A pipe lies upon the floor.~
+~
+5 agklnpvBCEF ac l 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 3000 2200 3
+Z
+4
+A
+18 1 152
+A
+1 -1 152
+#3919
+shield ancient ruby infinity xak~
+an ancient, ruby encrusted shield bearing the infinity symbol~
+An ancient, ruby-lined shield lies tossed upon the ground.~
+~
+9 afgkmopsCF a 0 0 aj 0 0 0 0 0 0 0
+20 4 99 -2 100 100 15 7 231 15 231 0 0 0 0 0
+150 20 0 36
+Z
+4
+A
+23 80 0
+A
+35 3 814
+$~

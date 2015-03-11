@@ -1,0 +1,385 @@
+#4600
+humanoid thin winged mephit~
+a thin winged humanoid~
+A thin winged humanoid oozes mist from its pale green skin.
+~
+   A long pointy nose protrudes from this beasts face as it hovers a couple of
+feet above the ground.  Its mouth is a grimace or a perpetual sneer, mocking
+any that come into contact with it.  Continually sneering, it waves its barbed
+tail and gossamer wings at anything that moves.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4601
+humanoid thin winged mephit~
+a thin winged humanoid~
+A thin winged humanoid oozes mist from its pale green skin.
+~
+   A long pointy nose protrudes from this beasts face as it hovers a couple of
+feet above the ground.  Its mouth is a grimace or a perpetual sneer, mocking
+any that come into contact with it.  Continually sneering, it waves its barbed
+tail and gossamer wings at anything that moves.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4602
+humanoid thin winged mephit~
+a thin winged humanoid~
+A thin winged humanoid oozes mist from its pale green skin.
+~
+   A long pointy nose protrudes from this beasts face as it hovers a couple of
+feet above the ground.  Its mouth is a grimace or a perpetual sneer, mocking
+any that come into contact with it.  Continually sneering, it waves its barbed
+tail and gossamer wings at anything that moves.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4603
+humanoid thin winged mephit delicate ~
+a delicately winged humanoid~
+A thin winged humanoid stands in your face, looking into your eyes.
+~
+   An immense, bloated humanoid floats above the ground here.  Its small
+appendages are dwarved by its girth, and a more sinister smile than the normal
+humanoids possess crosses its face.  Its wings appear more fragile, and a few
+stray holes exist which flaps of the skin which once covered that hole waver in
+the wind.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4604
+wave lava mephit~
+a wave of lava~
+A wave of lava with a basically humanoid shape flows slowly by.
+~
+   Emerging from the fiery walls is a rolling wave of fire.  It is
+indistinquishable from its surroundings, and the only clue that it is remotely
+living is two dark areas which are most likely its eyes.  No smoke comes off of
+this flame, nor does it emit any heat, but it still appears quite deadly.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4605
+wave mephit lava~
+a wave of lava~
+A wave of lava with a basically humanoid shape flows slowly by.
+~
+   Emerging from the fiery walls is a rolling wave of fire.  It is
+indistinquishable from its surroundings, and the only clue that it is remotely
+living is two dark areas which are most likely its eyes.  No smoke comes off of
+this flame, nor does it emit any heat, but it still appears quite deadly.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4606
+wave lava mephit~
+a wave of lava~
+A wave of lava with a basically humanoid shape flows slowly by.
+~
+   Emerging from the fiery walls is a rolling wave of fire.  It is
+indistinquishable from its surroundings, and the only clue that it is remotely
+living is two dark areas which are most likely its eyes.  No smoke comes off of
+this flame, nor does it emit any heat, but it still appears quite deadly.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4607
+heap molten mephit lava~
+a heap of molten lava~
+A dripping heap of molten lava smirks at you.
+~
+   A large heap of molten lava moves swiftly in and out of the fiery lava.  
+Slowly it becomes part of the surroundings, then forms back into its original
+form as if to mock any who come into contact with it.  It fears nothing, no
+one, and will incinerate any that come into contact with it.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4608
+mage white conclave~
+a conclave white-robed mage~
+A white robed mage prepares magical shackles for his renegade prisoner.
+~
+   This conclave mage has a determined look on his face as he has travelled
+long and hard searching out this renegade.  Although at one point two others
+travelled with him, they met their demise at the hands of the non-conclave.  
+This mage is young for a human, but looks quite weary from his travels and
+years of studying.  Dark bags hang under his eyes, and his staff hangs weakly
+at his side.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4609
+elementalist renegade~
+the renegade elementalist~
+The renegade elementalist cowers at the conclaves might.
+~
+   This renegade stands here, his many successes all coming to a crashing halt
+all at once.  He wears dark grey robes, an open sign to his defiance of the
+limiting of his magic.  He is young, yet has progressed much faster than any
+conclave possibly could, and his face shows no long-term signs of weariness.  
+He was once proud, and cocky, but now he awaits the punishment that will be
+handed down.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4610
+wisp smoke mephit~
+a wisp of smoke~
+A vaporous wisp of smoke forms itself from the clogged air around it.
+~
+   This smoke slowly seeps in from the surroundings and forms itself into one
+mass.  It resembles a cumulonimbus cloud in form, and clearly has a malicious
+intent to its deceptive movements.  There is no distinguishing it from the
+walls of this plane, and it easily could disperse as quickly as it appeared.  
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4611
+wisp smoke mephit~
+a wisp of smoke~
+A vaporous wisp of smoke forms itself from the clogged air around it.
+~
+   This smoke slowly seeps in from the surroundings and forms itself into one
+mass.  It resembles a cumulonimbus cloud in form, and clearly has a malicious
+intent to its deceptive movements.  There is no distinguishing it from the
+walls of this plane, and it easily could disperse as quickly as it appeared.  
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4612
+wisp smoke mephit~
+a wisp of smoke~
+A vaporous wisp of smoke forms itself from the clogged air around it.
+~
+   This smoke slowly seeps in from the surroundings and forms itself into one
+mass.  It resembles a cumulonimbus cloud in form, and clearly has a malicious
+intent to its deceptive movements.  There is no distinguishing it from the
+walls of this plane, and it easily could disperse as quickly as it appeared.  
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4613
+wall chaotic mephit~
+a wall of chaotic smoke~
+A chaotic wall envelops anything that comes into contact with it.
+~
+   A dark wall of putrid smoke blocks out all light and blocks the airflow
+around it.  It is a swirling mass of dark grey and black smoke, and its
+malicious intent is obvious.  As it swirls, it forms a concave wall of
+inpenetrable force, and envelops all matter around it.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

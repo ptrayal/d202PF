@@ -1,0 +1,854 @@
+#5900
+disk pierced onyx~
+a pierced, onyx disk~
+A pierced, onyx disk lies here on the ground, light reflecting off it.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#5901
+forearm arm blue skinned mummified~
+a blue-skinned, mummified forearm~
+The mummified forearm of a large, blue-skinned creature lies here.~
+~
+18 c a 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 9 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#5902
+tome green leather-bound~
+a dark green, leather-bound tome~
+A dark green tome bounded by a leather strap lies here in the dust.~
+~
+8 cejklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+E
+page2~
+   Perhaps the keys to the tomb were distributed among the Irdan race before
+the change had taken place.  In any case, the disk is now ours, and the
+mythical tombs are ready to be explored.  I now deliver this disk and this
+document to the Tower of High Sorcery in Wayreth.  However, I first must meet
+with my fellow mage, Dertun, in Thelgaard, to get his copy of the research
+performed on the Irda Runes.  Then we must combine a force of mages to recover
+the mummified irdan relic stolen by the draconians of Xak Tsaroth.  With these
+items we should be ready to infiltrate the obelisk and explore the tombs
+within.  In closing , I would like to state once again that if this document is
+removed from the possession of the conclave of wizards, that action will be
+taken to recover it.    
+~
+E
+tome~
+   This document is by no means complete, and is only a record of legends and
+myths, as well as our own research.  It is the property of the conclave of
+wizards.  Any who should come across this document should return it at once.  
+If it is not returned it will be located and taken from you, by force if
+necessary.
+  The onyx obelisk in the northern part of the plains of dust is more
+than just a great monolith of precious stone.  It serves as the gateway to an
+ancient Irdan tomb.  By our estimation, the obelisk and the maze of tombs
+beneath it have been there since the age of light, and possibly before.  The
+Irda were extremely adept at magic, even moreso than our own conclave.  This
+fact, and the privacy that the race held so dear lead us to believe that the
+tombs are filled with magical traps.  We have repeatedly tried to breach the
+exterior of the obelisk, but to no avail, until recently.  The exterior of the
+obelisk is covered in huge runes.  At the peak of the monolith, the runes are
+deeply engraved.  By pure luck we have uncovered what we believe to be a key to
+the great obelisk.  It is the plan of the conclave to explore these tombs and
+research the great magic that the Irda race had mastered so completely.  The
+key is a pierced disk, a circular stone with a hole in the middle.  It was
+found among an ogre tribe in Blode.  If the myths are correct, the Ogres were
+once Irda, that had been corrupted by evil and so changed into the grotesque
+monster they now are.    
+READ PAGE2
+~
+#5903
+horn behir crimson~
+the horn of a behir~
+A long, crimson horn, torn from the head of a behir, lies on the ground.~
+~
+11 0 0 0 0 aeo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 9 0 0 0 0 0 0 0 0
+10 70000 0 38
+Z
+4
+A
+1 10 0
+#5904
+book scaled blue~
+a blue, scaled-hide book~
+A large book with a hide of blue scales lies here on the ground.~
+~
+8 cejklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 2500 0 0
+Z
+4
+E
+untitled~
+   The meaning of this rune is unknown both by the Ogres and by historians and
+scholars alike.  No attempt to translate it has been made in the Krystann
+Verse.  Comparing it to present day runes, it might mean "spring" or first
+growth due to it's resemblance to the present day rune for "harvest".  
+However, this is no more than a guess.    
+*** \      /
+**** \    /
+***** \  /
+****** \/
+****** /\
+***** /  \
+***** \  /
+****** \/
+****** /\
+***** /  \
+**** /    \
+*** /      \
+~
+E
+future~
+   Some of the confusion with the rune of gift comes from this rune, which
+stands for "diety", "language", "blessing" and "growth".  It's symbol is the
+Lurel Tree, found only in the high reaches of the Khalkist mountains.  The
+Ogres believe that if one eats the blue buds of the tree on the first day of
+spring, they are protected from bewitchment.    
+**** ______
+*** /      \
+** /        \
+* /          \
+*********** /|
+********** / |
+********* /  |
+********* \  |
+********** \ |
+*********** \|
+~
+E
+gift~
+   This rune stands for "horse" or "cart", signifying "status" and "wealth".  
+It is also universally accepted by the Ogres to mean a gift either given or
+received.  There also seems to be some connections with the gods, as in "gift
+of a message".    
+* -----------------------------
+* |             |
+* |             |
+* |             |
+* |             |
+* |             |
+* |             |
+* ---------------
+~
+E
+destruction~
+   Ice is the symbollic representation of this rune.  Similar to the rune for
+danger, represented by hail, it represents tha destructive force that nature
+can inflict, and also carries a second meaning of "grievances".  This rune is
+also used on Ogre weapons, like the runes for "battle" and "death".    
+* |
+* |
+* |
+* |
+* |
+* |
+* |
+* |
+* |
+~
+E
+greed~
+   This rune is similar to the stylized broken merchants scale of Hiddukel, god
+of greed and ill-gotten gain.  The Ogres of Bloten refer to it as "noik" and
+frequently scratch it onto table tops, a door frame, or on the ground before
+agreeing to a business deal, believing it will bring them luck.    
+**** \
+***** \
+***** /\
+**** /  \
+*** |
+*** |
+*** |
+*** |
+~
+E
+cattle~
+   This rune is a sister rune to inheritance, and is rspresented as the horns
+of an aurox.  It demonstrates "wealth", "strength" and "prosperity".  The Ogres
+even suggest that it means "food" or "human", although that definition has not
+yet been explored by scholars.    
+* \          /
+** \        /
+*** \      /
+**** \    /
+**** /\  /\
+*** /  \/  \
+~
+E
+inheritance~
+   The meaning of this rune is also suggested to be "gift" or "value", and it
+is suggested by its resemblance to the common-day rune for "growth".  Another
+meaning, "home", is suggested because of the rune's likeliness to mountain
+peaks.  This is relevant because the Ogres often makes their homes in the lofty
+peaks of hills and mountains.    
+*********************** /\
+****** /\              /  \
+***** /  \    /\      /    \
+**** /    \  /  \    /      \
+*** /      \/    \  /        \
+** /              \/          \
+* -------------------------------
+~
+E
+death~
+   This rune is represented by the inverted axe of Morgion, the god of disease
+and decay.  This symbol, along with the universally acceptance among the ogre
+population fortifies it's meaning.  It is often carved onto weapons, supposedly
+to symbolize the great desire for the death of the enemy.    
+***** |
+***** |
+***** |
+** |\ | /|
+** | >|< |
+** |/ | \|
+~
+E
+life~
+   The shape of this rune resembles the rays of the sun streaking downward.  
+It suggests meanings of "strength", "speed" and "health".  Annother suggested
+meaning is "achievement", although this one is widely disputed by scholars and
+historians.  The main argument for this rune is it's frequent use in reverse in
+conjunction with the rune of death.    
+***** |
+***** |
+* \   |   /
+** \  |  /
+*** \ | /
+~
+E
+augury~
+   Some believe that this rune is represented as an amulet hanging from a
+chain.  This belief ties it with the meanings "defense", "protection" and
+shelter.    
+** \  /
+*** \/
+*** /\
+** /  \
+** \  /
+*** \/
+~
+E
+battle~
+   As strange as it may seem, Kiri-Jolith is apparantly represented here by
+what the ogres refer to as a bison's horn.  Some of the suggested meanings of
+this rune are "victory", "protection from harm", "true strength" and glory.  
+This rune has been found engraved on the blades of ogrish swords and daggers.
+**** |\
+**** | \
+**** |  \
+**** |
+*** /|
+** / |
+** \ |
+*** \|
+~
+E
+water~
+   The beginnings of this symbol are obvious, with it's likeliness to running
+water.  The rune also represents "travel" or "journey", although another
+meaning is suggested in the Krystann Verse, being life.    
+** /\  /\  /\  /\  /
+* /  \/  \/  \/  \/
+~
+E
+danger~
+   This rune has been said to refer to "weather", most likely snow or hail and
+implying "danger", "hazard or "jeopardy The most influential reference for this
+rune originates from the Khrystann Verse, which mentions the dangers of the
+uncontrolled forces of nature.    
+******* /
+**** / /
+*** / /   /
+** /   / /
+***** / /
+**** / /
+~
+E
+book scaled-hide scaled blue~
+   Within these pages are the lost runes of the ancient and great Ogre
+civilisation.  These ogres are known to us as the Irda.  Legend has it, the
+Irda were the first of the humanoid races to dwell on Krynn, and were created
+by the Dark Queen, Takhisis.  They were of the utmost beauty and intelligence.
+Their cities rivalled even the elves in elegance, and rivalled the dwarves in
+structure.  The Irda were not an evil race as a whole.  At some point in time
+the evil ogres split from the rest of the Irda and became what we now know as
+ogres.  Ugly, dimwitted and brutish.  The rest of the Irda have since been lost
+and are rumored to be extinct.    
+The runes found within are the lost language of this magnificent race.
+They are rougly translated, and no meanings are meant to be taken completely
+literal. However, they are relevant, and are the closest estimation that
+will be found anywhere else on Krynn.
+Among these runes are the following:
+(Type READ <RUNE NAME> to investigate a specific rune)
+OGRE, WATCHER, SEEKER, THIEVERY, TREACHERY, DOOM, ATTACK, BETRAYAL, DANGER,
+WATER, BATTLE, AUGURY, LIFE, DEATH, INHERITANCE, CATTLE, GREED, DESTRUCTION,
+GIFT, FUTURE, UNTITLED.
+~
+E
+ogre~
+   This rune represents the words "ogre" and/or "being".  It can be used for
+either definition.  Our sources reveal that it is likely that this rune also
+signifies a being of protection.  Present ogres still use this rune widely, and
+refer to it as "ogro"
+* -------------
+* |   \ | /   |
+* | ___\|/___ |
+* |    /|\    |
+* |   / | \   |
+* -------------
+~
+E
+watcher~
+   This symbol has been said to be derived from a star, a reference to the
+beginnings of the universe and the races as they were in the heavens, before
+being created by the gods.  The stars are sometimes referred to as "the
+watchers of darkness".  This rune probably means "beginning", "birth" or
+"dawn".    
+*   \ | /
+* ___\|/___
+*    /|\
+*   / | \
+~
+E
+seeker~
+   This rune has been given several meanings, among them "travel", "need", and
+"fate".  As discovered from the Ogres of Bloten, it also sends off a feeling of
+despair, seeking relief from it, and therefore hope.    
+* | |
+*  \|
+*  |\
+*  | \
+*  |  |
+*  | /
+*  |/
+*  /|
+* | |
+~
+E
+thievery~
+   The essense of "acquisition", "motivation" and "growth" are part of the
+meaning of this rune.  It's similarity to the common-day rune of "possession"
+leads us to believe that it also includes the dubious acquisitions made by
+stealing as well.    
+*   |\
+*   | \
+*   |\ \
+*   | \
+*   |  \
+* \ |
+*  \|
+~
+E
+treachery~
+   This rune resembles the stylized condor that the acolytes of Sargonnas
+prefer.  The resemblance hints that this rune carries the meanings "vengeance",
+betrayal, "prefidy" and perhaps even "treason".    
+* |\        /|
+* | \      / |
+* |  \    /  |
+* |   ----   |
+* |          |
+* |          |
+~
+E
+doom~
+   There is no immediate and clear meaning of this rune, however it seems to be
+associated with "bad health", unpleasantness" and "pain".  The Ogres of Bloten
+have hinted that it means "fever", a meaning that is fortified by the rune's
+similarity to the reverse of the present-day rune for wholeness and wellness.
+*   ___
+*  /   \
+* /     \
+* \     /
+*  \   /
+*    |
+*    |
+*    |
+*    |
+~
+E
+attack~
+   This rune holds the meanings of "thunder" and even "journey".  The top
+portion of this rune bears a striking resemblance to the present-day rune for
+"strength".    
+*    -------
+*   / -------
+*  /        /
+* /        /
+*         /
+~
+E
+betrayal~
+   Both humans and ogres refer to this rune as the "Ogre rune".  It implies
+conflict, "complexity" and "aggression".  The exact meaning has been argued
+extensively by scholars, although some agreement has been made that the meaning
+is certainly unpleasant.  It has the ability to change other runes when used in
+specific sequences.    
+* |\
+* | \
+* | /
+* |/
+* |
+* |
+* |
+~
+#5905
+amethyst chunk diamond~
+a diamond shape chunk of amethyst~
+A large chunk of amethyst, shaped like a diamond lies here on the ground.~
+~
+16 cejklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 0
+Z
+4
+#5906
+key black silver marble~
+a black and silver marble key~
+A black marble key with silver streaks throughout catches your attention.~
+~
+16 cejklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 0
+Z
+4
+#5907
+pane silver mirrored~
+a mirrored pane of silver~
+A long pane of silvery glass reflects your image on the ground.~
+~
+16 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+Z
+4
+#5908
+pane silver mirrored~
+a mirrored pane of silver~
+A long pane of silvery glass reflects your image on the ground.~
+~
+16 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+Z
+4
+#5909
+pane silver mirrored~
+a mirrored pane of silver~
+A long pane of silvery glass reflects your image on the ground.~
+~
+16 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+Z
+4
+#5910
+corpse battered red-haired kender~
+the corpse of a battered, red-haired kender~
+The corpse of a battered, red-haired kender lies here.~
+~
+12 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+115 0 0 0
+Z
+4
+E
+corpse battered red-haired kender~
+   This unfortunate kender was severely beaten to death.  The welts and bruises
+have long since faded since death, but the abrasions are still present.  The
+kender's red-haired head has been crushed by something extremely strong.  It is
+hard to tell how long the unfortunate soul has been dead, as there is nothing
+alive in here to decompose the corpse.    
+~
+#5911
+corpse silver armored knight~
+the corpse of a silver armored knight~
+The corpse of a silver armored knight lies here in a tangled mess.~
+~
+12 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+190 0 0 0
+Z
+4
+E
+corpse silver armored knight~
+   This young knight wears the armor of a Knight of the Crown, the lowest order
+of the Solamnic Knights.  His armor is severely dented, and in some places has
+ruptured and cut deep into his flesh.  His head has been crushed, as if two
+massive hands had pushed in on his temples.  It is hard to tell how long the
+young man has been dead, as there is nothing in these halls that could
+decompose the corpse.    
+~
+#5912
+corpse young brown haired mage~
+the corpse of a young, brown haired mage~
+The corpse of a young, brown haired mage with bloodstained robes lies here.~
+~
+12 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+145 0 0 0
+Z
+4
+E
+corpse young brown haired mage~
+   This mage is so grotesquely mangled, it is hard to even look it for more
+than a few seconds at a time.  His torso has been twisted so badly, that it is
+hanging on only by tiny bits of flesh near the spine.  He lies face down on the
+ground, yet his feet point straight up into the air.  It is hard to tell how
+long the young man has been dead, as there is nothing alive in these halls to
+decompose the corpse.    
+~
+#5913
+corpse slight brown robed woodsman clawed~
+the corpse of a slight, brown robed woodsman~
+A visciously clawed corpse of a slight, brown robed woodsman lies here.~
+~
+12 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+140 0 0 0
+Z
+4
+E
+corpse slight brown robed woodsman clawed~
+   This corpse has been raked by large claws several times it seems.  It's
+chest is unreconizable, as entrails drip from a broken ribcage.  One of the
+legs has been sheared right off above the knee.  It is certainly a grotesque
+sight.  It is hard to tell how long the corpse has been here, as there are no
+lifeforms in these halls to decompose the body.    
+~
+#5914
+corpse pummelled bearded stocky dwarf~
+the corpse of a stocky, bearded dwarf~
+The pummelled corpse of a bearded and stocky dwarf lies here.~
+~
+12 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+135 0 0 0
+Z
+4
+E
+corpse pummelled stocky bearded dwarf~
+   This poor dwarf was pummelled severely before a heavy blow crushed his
+ribcage and windpipe.  His corpse is leaning against the wall, showing evidence
+that it was thrown up against the wall by the crushing death blow.  It is hard
+to tell how long the corpse has been here, as there is nothing within these
+halls that could decompose the corpse.    
+~
+#5915
+corpse mauled mangled elven priestess~
+the mauled corpse of an elven priestess~
+The mauled and mangled corpse of an elven priestess lies here against the wall.~
+~
+0 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+123 0 0 0
+Z
+4
+E
+corpse mauled mangled elven priestess~
+   This once beautiful elven priestess has been mauled and mangled to a point
+where the only thing you can recognise are the pointed ears and now
+bloodstained golden hair.  It lies face toward the wall in an impossibly
+stretched position.  It is hard to tell how long the corpse has been here, as
+there is nothing in these halls that could decompose the body.    
+~
+#5916
+amulet ruby vampiric OnyxObelisk~
+a ruby amulet of vampiric regeneration~
+A ruby amulet suspended on a long, golden chain lies here in a small pile.~
+~
+11 0 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 31 0 0 0 0 0 0 0 0
+1 60000 0 35
+Z
+4
+E
+amulet ruby vampiric regeneration~
+   This beautifully crafted amulet has been fashioned from gold and is set with
+a very large, star shaped ruby.  Strangely enough, the central ruby seems to
+pulsate with an unknown life.    
+~
+A
+47 3 301
+#5917
+shield enflamed behir OnyxObelisk~
+an enflamed shield of behir scales~
+A flaming shield, fashioned from behir scales scorches the ground it rests on.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+40 4 2 -10 100 100 50 9 231 16 231 0 0 0 0 0
+450 70000 0 38
+Z
+4
+A
+23 100 0
+#5918
+mandibles crystal spider OnyxObelisk~
+the crystaline mandibles of a massive spider~
+A pair of crystaline mandibles from a massive spider lie here.~
+~
+9 jklmnopruvwBCDEF abcu stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 6500 0 3
+Z
+4
+E
+mandibles crystaline spider~
+   These crystal mandibles are attached to the forehead of a large spider
+skull.  They glitter with a metallic blue tint.  As you imagine the previous
+owner of these huge jawbones, the mandibles quickly snap together and then
+part, almost taking your fingers with it!    
+~
+A
+19 1 0
+#5919
+globe ivory OnyxObelisk~
+an ivory globe suspended on a silver chain~
+A long, silver chain ending in an ivory globe rests on the ground in a pile.~
+~
+11 jmBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 2
+Z
+4
+A
+18 1 0
+A
+13 5 0
+A
+24 1 0
+#5920
+staff emerald OnyxObelisk~
+a long, emerald staff adorned with a murky crystal globe~
+A long quarterstaff made of emerald and adorned with a crystal globe is here.~
+~
+5 gjklmxBCDEF abcu lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 12500 0 3
+Z
+4
+E
+staff quarterstaff emerald~
+   This magnificent weapon is a long staff made of emerald.  Golden filigree
+winds it's way down the staff like a serpent.  The top of the staff is adorned
+with a crystal globe, that seems to be filled with a murky liquid of some sort.
+~
+A
+18 1 0
+#5921
+pendant sapphire OnyxObelisk~
+a sapphire pendant bearing the symbol of a silver triangle~
+A sapphire pendant bearing the symbol of a silver triangle lies here.~
+~
+11 ijnoprstuvwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6500 0 2
+Z
+4
+A
+18 1 0
+A
+24 1 0
+A
+13 5 0
+#5922
+pendant ruby twin horns OnyxObelisk~
+a ruby pendant bearing the symbol of twin horns~
+A ruby pendant bearing the symbol of twin horns lies ere on the ground.~
+~
+11 gijnoprstvwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6500 0 2
+Z
+4
+A
+18 1 0
+A
+24 1 0
+A
+13 5 0
+#5923
+pendant topaz OnyxObelisk~
+a topaz pendant bearing the image of a copper spider~
+A topaz pendant bearing the image of a copper spider rests here.~
+~
+11 ijnoprstuvwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6500 0 2
+Z
+4
+A
+18 1 0
+A
+24 1 0
+A
+13 5 0
+#5924
+medallion amethyst twin teardrops OnyxObelisk~
+an amethyst medallion bearing the symbol of twin teardrops~
+A medallion of amethyst bearing the symbol of twin teardrops lies here.~
+~
+11 ijnoprstuvwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6500 0 2
+Z
+4
+A
+18 1 0
+A
+24 1 0
+A
+13 5 0
+#5925
+medallion emerald phoenix OnyxObelisk~
+an emerald medallion bearing the symbol of a blue phoenix~
+An emerald medallion bearing the symbol of a blue phoenix lies here.~
+~
+11 ijnoprstuvwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6500 0 2
+Z
+4
+A
+18 1 0
+A
+24 1 0
+A
+13 5 0
+#5926
+pendant amber golden harp OnyxObelisk~
+an amber pendant bearing the image of a golden harp~
+An amber pendant bearing the image of a golden harp lies here in a pile.~
+~
+11 jnoprstuvwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6500 0 2
+Z
+4
+A
+18 1 0
+A
+24 1 0
+A
+13 5 0
+#5927
+mace crystal dawn treader OnyxObelisk~
+a large, crystal footman's mace, "Dawn Treader"~
+A large footman's mace, made completely of a greenish crystal, glows softly.~
+~
+5 gijklnxBCDEF abcfu lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+13 15000 0 3
+Z
+4
+E
+mace footman's crystal dawn treader~
+   This magnificant weapon is quite ancient, although it's power is still very
+obvious by the soft golden glow that emenates from it.  The mace is very long,
+requiring two strong arms to wield it, and is made of a green-hued crystal.  
+The head is heavily studded and seems to glow a little brighter than the rest
+of the weapon.    
+~
+A
+5 1 0
+#5928
+obsidian chunk diamond~
+a diamond shaped chunk of obsidian~
+A diamond shaped chunk of obsidian lies here on the ground.~
+~
+16 cejklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 0
+Z
+4
+#5929
+stinger crystal~
+a large, crystal scorpion stinger~
+A very large crystal stinger from a massive scorpion lies here in the dirt.~
+~
+3 gjklmnopruvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 5500 0 2
+Z
+4
+#5930
+armguards armm guards slate grey basilisk OnyxObelisk~
+a set of slate-grey, basilisk scale arm guards~
+A pair of slate-grey scale mail arm guards are here on the ground.~
+~
+9 jklprstuBCDEF abcu stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 7000 0 3
+Z
+4
+A
+13 10 0
+A
+17 -2 0
+#5931
+bracer writhing snakes OnyxObelisk~
+a bracer of writhing snakes~
+A long bracer of writhing, hissing snakes convulses on the ground.~
+~
+9 kmnopruvwBCDEF abcu stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 9000 0 1
+Z
+4
+E
+bracer writhing snakes~
+   This strange bracer is actually a twisting, writhing mass of serpents.  The
+snakes hiss and snap as they squirm around each other, making you very wary of
+actually putting them around your forearm.  However, as your hand nears the
+spitting jaws, they move apart to allow your hand to pass through them.    
+~
+A
+3 1 0
+A
+18 1 0
+#5932
+ring ruby rose golden OnyxObelisk~
+a golden ring ornamented with a large, rose-shaped ruby~
+A finely crafted golden ring ornamented with a rose-shaped ruby is here.~
+~
+8 jklmnoprstuvwBCDEF abcu stuvwxy 0 abn 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 4
+Z
+4
+E
+ring golden rose ruby~
+   This finely crafted ring has been worked from an excellent carat of gold.  
+It is formed of hundreds of threads of gold, intertwining with each other and
+wrapping themselves around a large rose-shaped ruby that has been inlaid in the
+ring.    
+~
+A
+4 1 0
+A
+5 1 0
+#5933
+girdle platinum OnyxObelisk~
+a platinum girdle illuminated with thousands of tiny diamonds~
+A platinum girdle with thousands of inlaid diamonds rests here.~
+~
+9 jklnpstuBCDEF abcu stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 7500 0 2
+Z
+4
+A
+1 1 0
+$~

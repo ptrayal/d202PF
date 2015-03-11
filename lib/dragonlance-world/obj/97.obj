@@ -1,0 +1,261 @@
+#9700
+clasp etched ebony crescent SanctionPalace~
+an etched clasp marked with an ebony crescent~
+A single clasp marked with a dark crescent lies here sparkling.~
+1~
+9 klmnortvBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+A
+3 -1 0
+#9701
+mirror vanity SanctionPalace~
+a vanity mirror~
+A silver mirror, encrusted with tiny gems rests here sparkling.~
+~
+3 jklmnoprstuvwABCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9702
+gauntlets deep black ebony SanctionPalace~
+a pair of deep black gauntlets~
+An ebony pair of gauntlets lies here in the dust.~
+~
+9 klnoprstuvBCDEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -4 0
+A
+6 1 0
+#9703
+lance black flag ebony SanctionPalace~
+a black flag-tipped lance~
+A large ebony lance with a flag of the Dragonarmy tied to the tip lies here.~
+~
+5 kpstBCDEF abc kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 2000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#9704
+case bolt full SanctionPalace~
+a full-sized bolt case~
+A large crossbow bolt case rests here on the ground, sealed.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9705
+boots soft toed pair SanctionPalace~
+a pair of soft toed boots~
+A pair of soft leather boots lies here in a heap.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9706
+dagger parrying swift SanctionPalace~
+a swift parrying dagger~
+A dagger of sturdy construction lies here in the dust.~
+~
+5 jkloprstuvBCDEF abc kstuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 600 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9707
+hide hopsloth encrusted SanctionPalace~
+the encrusted hide of Hopsloth~
+A very hideous, wart covered hide festers here in the dark.~
+~
+9 jklopruvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 1 0
+A
+9 5 0
+A
+13 10 0
+#9708
+key crusty sewer SanctionPalace~
+a crusty sewer key~
+A key covered in sewer moss rests here.~
+~
+18 cjklmnoprstuvwABCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9709
+shield tower spike encrusted SanctionPalace~
+a spike encrusted tower shield~
+A shield covered with a large spike rests here on the ground~
+~
+9 klmopstwBCDEF abc stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+A
+9 5 0
+#9710
+throne tusks large~
+a throne~
+A large throne with two protruding tusks rests here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+throne~
+   A massive throne this is, formed of a white maleable substance then
+hardened.  At its base is a circular cut stone, that rests in a circular hole
+in the ground, allowing those who rest here to position the throne at any angle
+he may desire.  The tusks on the top are massive, so large that anything shy of
+a mammoth couldn't bear such prized possessions.    
+~
+#9711
+wristguard metal crimson black SanctionPalace~
+a black and crimson metal wristguard~
+A wristguard crafted from black and crimson metal lies here.~
+~
+9 kmnoprstuvBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 75 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+A
+13 5 0
+A
+9 5 0
+#9712
+breastplate hardened crimson leather SanctionPalace~
+a hardened, crimson leather breastplate~
+A crimson leather breastplate lies here, unclaimed.~
+~
+9 jklprstuBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 350 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 10 0
+#9713
+robe heavy velvet SanctionPalace~
+a heavy, black velvet robe~
+A heavy, black velvet robe lies here in a pile.~
+~
+9 jklmnoprsvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 110 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9714
+cudgel blunt stone wooden SanctionPalace~
+a blunt, stone-headed wooden cudgel~
+A blunt, stone-headed wooden cudgel lies here heavily.~
+~
+5 jklnpruwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 100 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9715
+dagger thin gem-lined SanctionPalace~
+a thin, gem-lined dagger~
+A thin, gem-lined dagger lies here on its side.~
+~
+5 jklmopruvBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 125 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

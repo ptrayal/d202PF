@@ -1,0 +1,475 @@
+#6000
+The Entrance to Sanction's Pit~
+   You are standing in front of a large cavern.  Someone has hung some torches,
+and laterns along the walls, giving off just enough of their yellow light so
+that you can see to move around.  Every now and then you catch a glimpse of
+something moving in the shadows.  The horrible smell of death, and decay fills
+your nostrils as you begin to head deeper into the cavern.    
+~
+60 cd 0 0 0  0
+D1
+~
+~
+0 0 6025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6001 0 0 0 0 0 0 0 0
+S
+#6001
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6005 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6000 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6006 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6002 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6016 0 0 0 0 0 0 0 0
+S
+#6002
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D1
+~
+~
+0 0 6001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6003 0 0 0 0 0 0 0 0
+S
+#6003
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6002 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6004 0 0 0 0 0 0 0 0
+S
+#6004
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6003 0 0 0 0 0 0 0 0
+S
+#6005
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6007 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6001 0 0 0 0 0 0 0 0
+S
+#6006
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6001 0 0 0 0 0 0 0 0
+S
+#6007
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6009 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6005 0 0 0 0 0 0 0 0
+S
+#6008
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D2
+~
+~
+0 0 6007 0 0 0 0 0 0 0 0
+S
+#6009
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D1
+~
+~
+0 0 6010 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6007 0 0 0 0 0 0 0 0
+S
+#6010
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D1
+~
+~
+0 0 6011 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6009 0 0 0 0 0 0 0 0
+S
+#6011
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D1
+~
+~
+0 0 6012 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6010 0 0 0 0 0 0 0 0
+S
+#6012
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D3
+~
+~
+0 0 6011 0 0 0 0 0 0 0 0
+S
+#6013
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6011 0 0 0 0 0 0 0 0
+S
+#6014
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6011 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6015 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6017 0 0 0 0 0 0 0 0
+S
+#6015
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6016 0 0 0 0 0 0 0 0
+S
+#6016
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D1
+~
+~
+0 0 6015 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6001 0 0 0 0 0 0 0 0
+S
+#6017
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D1
+~
+~
+0 0 6014 0 0 0 0 0 0 0 0
+S
+#6018
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D2
+~
+~
+0 0 6019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6014 0 0 0 0 0 0 0 0
+S
+#6019
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6020 0 0 0 0 0 0 0 0
+S
+#6020
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6019 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6021 0 0 0 0 0 0 0 0
+S
+#6021
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6020 0 0 0 0 0 0 0 0
+S
+#6022
+A Narrow Cavern Trail~
+   As you travel deeper into the cavern, the smell of death fills your
+nostrils.  The ground is very firm, as if the rocks were flattened.  Hanging
+from the walls, are lanterns and a few torches, most of which have already
+burned out.  Yet they give off just enough of their yellow glow, so that you
+can see to move around.  Every now and again you catch a glimpse of something
+moving in the shadows.    
+~
+60 d 0 0 0  0
+D0
+~
+~
+0 0 6021 0 0 0 0 0 0 0 0
+S
+#6023
+A Narrow Rocky Path~
+   You have wandered off the main street in Sanction and are now on a narrow
+trail leading down a hill.  The path is covered in jagged rocks, which make it
+rather difficult to keep a good footing.  The grass on either side of you is
+about waist high.  At the bottom of the hill, you can see the entrance to a
+large cavern.  The wooden planks which once kept it barred, have become rotten
+and fallen to the ground.    
+~
+60 c fh 0 0  1
+D0
+~
+~
+0 0 6024 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6025 0 0 0 0 0 0 0 0
+D0
+~
+~
+0 0 6566 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6023 0 0 0 0 0 0 0 0
+S
+#6025
+A Narrow Rocky Path~
+   You have wandered off the main street in Sanction and are now on a narrow
+trail leading down a hill.  The path is covered in jagged rocks, which make it
+rather difficult to keep a good footing.  The grass on either side of you is
+about waist high.  At the bottom of the hill, you can see the entrance to a
+large cavern.  The wooden planks which once kept it barred, have become rotten
+and fallen to the ground.    
+~
+60 0 fh 0 0  1
+D3
+~
+~
+0 0 6000 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6023 0 0 0 0 0 0 0 0
+S
+$

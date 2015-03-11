@@ -1,0 +1,725 @@
+#1400
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D0
+~
+~
+0 0 1401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1399 0 0 0 0 0 0 0 0
+S
+#1401
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D0
+~
+~
+0 0 1403 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1402 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1400 0 0 0 0 0 0 0 0
+S
+#1402
+An Older Treetop Home~
+   This residence is one of the oldest in all of Solace.  A small plaque rests
+on the wall stating that it was the first to be built among the trees when most
+of the residents thought the idea to be insane.  A small fireplace has been set
+in the eastern wall with a small fire crackling inside of it.    
+~
+14 cd h 0 0 0
+D3
+~
+door~
+1 0 1401 0 0 0 0 0 0 0 0
+S
+#1403
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D2
+~
+~
+0 0 1401 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1404 0 0 0 0 0 0 0 0
+S
+#1404
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D0
+~
+door~
+1 0 1405 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1406 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1403 0 0 0 0 0 0 0 0
+S
+#1405
+A Large Treetop Home~
+   This is a large residence for the village of Solace.  The back wall seems to
+have been moved back a few feet to give the occupants more room to move around
+in.  A few small toys on the floor indicate that a small child lives here, but
+no child seems to be around.    
+~
+14 cd h 0 0 0
+D2
+~
+door~
+1 0 1404 0 0 0 0 0 0 0 0
+S
+#1406
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D1
+~
+~
+0 0 1404 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1407 0 0 0 0 0 0 0 0
+S
+#1407
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D3
+~
+~
+0 0 1408 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1406 0 0 0 0 0 0 0 0
+S
+#1408
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D0
+~
+~
+0 0 1409 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1407 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1410 0 0 0 0 0 0 0 0
+S
+#1409
+A Mystical Treetop Home~
+   The smell of incense fills this room.  Beautiful artwork has been painted
+on the walls, and a series of stars have been carved into the ceiling that seem
+to glow with a soft light.  Spell components of various kinds, potions and
+scrolls rest on shelves around the room, waiting to be bought.    
+~
+14 cd h 0 0 0
+D0
+~
+~
+0 0 7072 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1408 0 0 0 0 0 0 0 0
+S
+#1410
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D3
+~
+~
+0 0 1411 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1408 0 0 0 0 0 0 0 0
+S
+#1411
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D0
+~
+door~
+1 0 1412 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1413 0 0 0 0 0 0 0 0
+S
+#1412
+A Treetop Home~
+   This home is furnished with all the comforts any resident of Solace could
+ask for.  A small fireplace rests in the eastern wall of the room, with a small
+fire blazing in its maw.  A table and chairs rests in the center of the room,
+with a few scraps of paper resting on the table.    
+~
+14 d h 0 0 0
+D2
+~
+door~
+1 0 1411 0 0 0 0 0 0 0 0
+S
+#1413
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D0
+~
+door~
+1 0 1414 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1411 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1415 0 0 0 0 0 0 0 0
+S
+#1414
+A Treetop Home~
+   This home is furnished with all the comforts any resident of Solace could
+ask for.  A small fireplace rests in the eastern wall of the room, with a small
+fire blazing in its maw.  A table and chairs rests in the center of the room,
+with a few scraps of paper resting on the table.    
+~
+14 d h 0 0 0
+D2
+~
+door~
+1 0 1413 0 0 0 0 0 0 0 0
+S
+#1415
+The Northern Bridge-walk~
+   This is the northern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+14 0 h 0 0 1
+D1
+~
+~
+0 0 1413 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1359 0 0 0 0 0 0 0 0
+S
+#1416
+The Landing Before the Inn~
+   Just in front of this small landing is an open door with beautiful figures
+carved into it.  A small window rests in the right hand door, which allows you
+to see the inside of the inn.  Just below this point is the spiral staircase
+leading to the ground.    
+~
+14 0 h 0 0 1
+D0
+~
+door~
+1 0 1417 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1346 0 0 0 0 0 0 0 0
+S
+#1417
+The Inn of the Last Home~
+   A large room with a plush carpet and people milling around in it stretches
+out to the north.  This in the Inn of the Last Home.  The Inn is a large
+building resting in a massive vallenwood tree.  The beams above you appear
+sturdy and the floor is made of a very hard wood.    
+~
+14 cd h 0 0 0
+D0
+~
+~
+0 0 1419 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1418 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 1416 0 0 0 0 0 0 0 0
+D3
+~
+doors~
+1 0 1421 0 0 0 0 0 0 0 0
+S
+#1418
+The Bar~
+   A few gentlemen stoop over the bar and have a few drinks.  The counter
+itself has a metal pole along its edge and has been polished thoroughly.  A few
+rows of different kinds of liquor and ale have been set up along the back wall.
+~
+14 d h 0 0 0
+D3
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+S
+#1419
+Among Some Tables~
+   This is the area of the Inn where people sit and enjoy their food and they
+eat, drink, and be merry.  A few large tables are set up around the outskirts
+of the room, and more smaller ones fill in the center.  Just to the north of
+this area if a large fireside that heats the inn on nights when it gets cold.
+~
+14 d h 0 0 0
+D0
+~
+~
+0 0 1420 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+S
+#1420
+Near the Fireplace~
+   A large fireplace set inside the northern wall keeps the Inn heated during
+the cold winters experienced every year in Solace.  One or two chairs have been
+set here for people who enjoy basking in the fires glow to rest their weary
+feet.  One chair is set up apart from the others.  In it many men from many
+times have set and told tales of adventure.    
+~
+14 d h 0 0 0
+D2
+~
+~
+0 0 1419 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1424 0 0 0 0 0 0 0 0
+S
+#1421
+The Kitchen~
+   A few cooks move hurriedly around the kitchen trying to fill all the orders
+coming from the main room.  Flour and all sorts of other cooking supplies lie
+all over the kitchen on counters and on the floor.  There is a small door in
+the center of the room, but where it leads to is unknown.    
+~
+14 d h 0 0 0
+D0
+~
+door~
+1 0 1422 0 0 0 0 0 0 0 0
+D1
+~
+doors~
+1 0 1417 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1349 0 0 0 0 0 0 0 0
+S
+#1422
+The Storage Room~
+   Large barrels fill up the entire area of this room.  The walls are bare and
+appear to have been patched up after being cracked.  The floor is plain wood
+that has been treated to make it last through bad weather.    
+~
+14 d h 0 0 0
+D2
+~
+door~
+1 0 1421 0 0 0 0 0 0 0 0
+S
+#1423
+A Room Walled in Stone~
+   A large fire contained in an elaborately decorated fireplace along the
+western wall casts shadows that dance around the edges of the room.  A large
+anvil near a bucket of water rests in the center of the room with a few odd
+shaped tools resting next to it.  Along the walls are an odd assortment of
+weapons and armor, crafted by the Master of this Forge.  A mural has been
+painted onto the ceiling above.  It entails a battle between the dragons of
+light and the dragons of darkness.  As you gaze at the mural for a few minutes,
+the colors begin to shift, and a new picture starts to form.    
+~
+14 cd h 0 0 0
+S
+#1424
+The Guestcheck~
+   A large desk rests here where patrons of the Inn can ask for a room for the
+evening.  The steps are set along the northern wall and lead up to another,
+private level of the Inn that only those staying may go to.  A man with a
+bright smile sits at the desk and asks if he may help you.    
+~
+14 cd d 0 0 0
+D1
+~
+~
+0 0 1420 0 0 0 0 0 0 0 0
+S
+#1425
+The Library of Solace~
+   The library of Solace houses books containing the history of the town, as
+well as Krynn itself.  The floors and walls are made of wood, and seems to
+shine with a heavy polish.  To the east are some bookshelves, and to the north
+are some tables.    
+~
+14 cd h 0 0 0
+D0
+~
+~
+0 0 1427 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1311 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1426 0 0 0 0 0 0 0 0
+S
+#1426
+Among the Bookshelves~
+   The bookshelves here contain histories from all over Krynn, with an emphasis
+on the history of Solace.  The shelves reach up high along the wall, and a
+small stool rests in the corner so even the shortest humans can reach any
+shelf.  A small plaque hangs above the bookshelves.    
+~
+14 cd h 0 0 0
+D0
+~
+~
+0 0 1425 0 0 0 0 0 0 0 0
+E
+plaque~
+  The plaque reads,
+
+  "The books, tomes and scrolls of this library are the property of the
+public.  Removing them from these archives will result in dire punishment.
+Those who continuously steal this library will find themselves dealing with
+the gods of knowledge and wisdom themselves."
+~
+S
+#1427
+Among Some Tables~
+   Several wooden tables have been set up here for patrons of the Solace
+library to rest and spend their time reading books.  Around each table are four
+chairs, and on top of each is a small lantern which helps lessen the strain on
+the eyes.  A solid wooden door covered in carvings of animal life leads
+outside.    
+~
+14 cd h 0 0 0
+D2
+~
+~
+0 0 1425 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1428 0 0 0 0 0 0 0 0
+S
+#1428
+Among the Bookshelves~
+   The bookshelves here contain histories from all over Krynn, with an emphasis
+on the history of Solace.  The shelves reach up high along the wall, and a
+small stool rests in the corner so even the shortest humans can reach any
+shelf.    
+~
+14 cd h 0 0 0
+D1
+~
+~
+0 0 1427 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 15000 0 0 0 0 0 0 0 0
+S
+#1429
+The Dueling Chamber~
+   A large mat is set up in the center of this room.  A circle has been drawn
+on the mat.  The room is used by the residents and visitors of Solace for
+combat to train and settle bouts of honor.    
+~
+14 cd h 0 0 0
+D3
+~
+~
+0 0 1339 0 0 0 0 0 0 0 0
+S
+#1430
+A Long Hallway in the Inn~
+   This is a newer extension to the Inn of the Last Home.  Along this small
+hallway are rooms with boards set in them for use of the patrons of the Inn.  
+The carpet on the floor is plush and has a deep crimson color to it.    
+~
+14 d h 0 0 0
+D0
+~
+~
+0 0 1435 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1431 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1436 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1419 0 0 0 0 0 0 0 0
+S
+#1431
+A Long Hallway in the Inn~
+   This is a newer extension to the Inn of the Last Home.  Along this small
+hallway are rooms with boards set in them for use of the patrons of the Inn.  
+The carpet on the floor is plush and has a deep crimson color to it.    
+~
+14 d h 0 0 0
+D0
+~
+~
+0 0 1433 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1432 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1434 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+S
+#1432
+A Long Hallway in the Inn~
+   This is a newer extension to the Inn of the Last Home.  Along this small
+hallway are rooms with boards set in them for use of the patrons of the Inn.  
+The carpet on the floor is plush and has a deep crimson color to it.    
+~
+14 d h 0 0 0
+D0
+~
+~
+0 0 1437 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1440 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1438 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1431 0 0 0 0 0 0 0 0
+S
+#1433
+A Small Trading Post~
+   A large brown board is set here for residents of the Inn to post their
+messages in and of the world.  A small bench rests near the board for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those who wish to trade goods.    
+~
+14 d 0 0 0 0
+D2
+~
+~
+0 0 1431 0 0 0 0 0 0 0 0
+S
+#1434
+The Solace Crime Board~
+   A large brown board is set here for residents of the Inn to post their
+messages in and of the world.  A small bench rests near the board for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those wishing to report on the activities of criminals in Solace.    
+~
+14 d 0 0 0 0
+D0
+~
+~
+0 0 1431 0 0 0 0 0 0 0 0
+S
+#1435
+General Notices~
+   A large brown board is set here for residents of the Inn to post their
+messages in and of the world.  A small bench rests near the board for those
+reading the notes to rest their weary feet.  This particular area is set up for
+the general postings of the residents of Solace.    
+~
+14 d 0 0 0 0
+D2
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+S
+#1436
+News From Other Worlds~
+   A large brown board is set here for residents of the Inn to post their
+messages in and of the world.  A small bench rests near the board for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those who wish to read news from other worlds.  This room is out of character.
+~
+14 d 0 0 0 0
+D0
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+S
+#1437
+The Policy Board~
+   A large brown board is set here for residents of the Inn to post their
+messages in and of the world.  A small bench rests near the board for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those who wish to know the laws of the land.    
+~
+14 d 0 0 0 0
+D2
+~
+~
+0 0 1432 0 0 0 0 0 0 0 0
+S
+#1438
+The Bug Board~
+   A large brown board is set here for residents of the Inn to post their
+messages in and of the world.  A small bench rests near the board for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those who wish to report bugs within the game.  This room is out of character.
+~
+14 d 0 0 0 0
+D0
+~
+~
+0 0 1432 0 0 0 0 0 0 0 0
+S
+#1439
+A Scraggly Path~
+   The village path seems to end abruptly here, and a wooded area begins.  To
+the north there are rocks and large boulders everywhere.  This path is not
+travelled often in Solace, but the stone along the trail keep it from being
+overgrown.    
+~
+14 c h 0 0 0
+D0
+~
+~
+0 0 800 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1335 0 0 0 0 0 0 0 0
+S
+#1440
+A Small Mail Room~
+   This room has been designated to be the post office of Solace.  There are
+large shelves along each wall that house the mail that is waiting to be picked
+up.  A large desk rests along the back wall of the room.  A short man stands
+behind the desk with a bright smile.    
+~
+14 d 0 0 0 0
+D3
+~
+~
+0 0 1432 0 0 0 0 0 0 0 0
+S
+#1441
+Hurist's Treasures and Oddities~
+   This treetop home has been converted into a small, quaint little shop.  
+Stacked on shelves on the walls are dozens of strange knick-knacks, coming from
+all areas and cultures.  There are rings, pendants, bracers, and many other
+things that are barely recognizable.  A large glass case near the back of the
+shop holds the more valuable items, among them several large gemstones and
+precious jewelery.    
+~
+14 cd fh 0 0 0
+D0
+~
+~
+0 0 1376 0 0 0 0 0 0 0 0
+S
+$~

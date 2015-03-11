@@ -1,0 +1,554 @@
+#5000
+sparrow brown~
+a brown sparrow~
+A sparrow hops along the ground searching for seeds.
+~
+   This brown sparrow casually hops along the side of the path searching for
+seeds.  When larger animals approach him, he quickly flies up to a branch in
+one of the trees above.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 9 15d10+91 1d8+1
+1 0 9 21
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 11
+S
+#5001
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+0 20 10 1d1+0 1d1+0
+0 0 9 21
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#5002
+small grey squirrel~
+a small grey haired squirrel~
+A small grey haired squirrel scurries along the path.
+~
+   This small grey squirrel dashes across the path quick as light as it heads
+home to its burrow with a large walnut in its mouth.  It jumps into the bushes
+and quickly scurries away without a sight.    
+~
+d 0 0 0 k 0 0 0 500
+2 19 8 30d20+92 1d8+1
+15 0 9 21
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 10
+S
+#5003
+white floppy rabbit~
+a white floppy eared rabbit~
+A white floppy eared rabbit hops along the path.
+~
+   This floppy eared white rabbit's bushy white coat shines as the sun's light
+reflects off of it.  His whiskers and nose twitch from side to side as he tries
+to figure out what you are.    
+~
+d 0 0 0 k 0 0 0 500
+3 19 7 45d30+93 1d8+1
+15 0 9 21
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 10
+S
+#5005
+furry little chipmunk~
+a furry little chipmunk~
+A furry little chipmunk scurries about the ground.
+~
+   This furry chipmunk runs playfully around the path with another of his
+species.  Noticing your presense, he quickly runs up the side of a tree in
+search of safety.    
+~
+d 0 0 0 k 0 0 0 0
+2 19 8 30d20+92 1d8+1
+15 0 9 21
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 10
+S
+#5009
+cat feral large orange~
+a large, orange striped cat~
+A large orange feral cat chases the wildlife around the garden.
+~
+   Hunching over in an attack stance, this feral cat glares greedily at a small
+bird before pouncing in its direction.  Just barely missing his next meal, he
+calmly walks off in search of another unsuspecting victim.    
+~
+d 0 0 0 k 0 0 0 0
+4 18 4 48d40+94 1d8+2
+4 0 9 21
+8 8 1
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#5010
+small rat~
+a small rat~
+A small rat nibbles on a piece of cheese.
+~
+   This small rat likes to eat cheese.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 9 15d10+91 1d8+1
+15 0 9 21
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 10
+S
+#5011
+frail old elf elven cleric~
+an old, frail elven cleric~
+Leaning on an old wooden staff, this old elf smiles at you as you near her.
+~
+   Leaning heavily upon her wooden staff, this elderly cleric of Paladine
+gently tosses bread crumbs to some birds.  She smiles brightly at them and
+occasionally speaks to them kindly as if they understand her.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5012
+pigeon silver~
+a silver and white pigeon~
+A silver pigeon coos happily as it eats a few breadcrumbs on the ground.
+~
+   This small pigeon hungrily pecks at the bread crumbs on the ground as fast
+as it can.  Occasionally it flys to the rim of the fountain and takes a sip of
+water before continuing its meal.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 9 15d10+91 1d8+1
+15 0 9 21
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 10
+S
+#5013
+disgruntled dragon dragonarmy recruiter~
+a disgruntled dragonarmy recruiter~
+With a disgruntled look on his face this recruiter welcomes newcomers.
+~
+   Frowning at the worthless recruits before him this recruiter stands here
+with a look of total disgust on his face.  A thick blue tabard with the emblem
+of a dragons claw covers him, a dark black goatee and cropped black hair gives
+this man a militant look.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5014
+dragon army aide sinewy~
+a sinewy dragonarmy aide~
+Showing new recruits to their waiting rooms is a sinewy aide.
+~
+   Obviously bored by his job this aide walks by without so much as looking at
+the recruits showing them to their waiting rooms.    
+~
+d 0 0 0 k 0 0 0 -1000
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5015
+recruit blue dragonarmy young~
+a young blue dragonarmy recruit~
+A young blue dragonarmy recruit waits here on a bench.
+~
+   This young human looks as though he's barely 15 years old, but already he
+has battle scars covering his upper body.    
+~
+d 0 0 0 k 0 0 0 -1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5016
+recruit red dragon army young~
+a young red dragonarmy recruit~
+A young red dragonarmy recruit is here awaiting orders.
+~
+   This young human looks as though he's barely 15 years old, though his eyes
+seem much older as he gives a stern and knowing look waiting for his future.  
+~
+d 0 0 0 k 0 0 0 -1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5017
+recruit black dragon army young~
+a young black dragonarmy recruit~
+A young, black dragonarmy recruit is here, awaiting orders.
+~
+   This young human looks as though he's barely 15 years old, though his eyes
+seem much older as he gives a stern and knowing look waiting for his future.  
+~
+d 0 0 0 k 0 0 0 -1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5018
+recruit green dragon army young~
+a young green dragonarmy recruit~
+A young green dragonarmy recruit is here awaiting orders.
+~
+   This young human looks as though he's barely 14 years old, though his eyes
+seem much older as he gives a stern and knowing look waiting for his future.  
+~
+d 0 0 0 k 0 0 0 -1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5019
+recruit white dragon army young~
+a young white dragonarmy recruit~
+A young white dragonarmy recruit is here awaiting orders.
+~
+   This young human looks as though he's barely 16 years old, though his eyes
+seem much older as he gives a stern and knowing look waiting for his future.  
+~
+d 0 0 0 k 0 0 0 -1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5020
+emaciated green draconian~
+an emaciated draconian with green skin~
+An emaciated draconian snarls at the human soldiers near him.
+~
+   Covered in infected sores dripping puss this emaciated draconian snarls at
+any who approach him.    
+~
+d 0 0 0 k 0 0 0 -1000
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5021
+goblin recruit green~
+a green dragonarmy goblin recruit~
+A green dragonarmy goblin recruit is here attracting flies.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 -1000
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5022
+white goblin recruit~
+a white dragonarmy goblin recruit~
+A white dragonarmy goblin recruit is here attracting flies.
+~
+   This goblin gives off an oder that makes the other recruits stand away in
+willingly, and with utter disgust.    
+~
+d 0 0 0 k 0 0 0 -1000
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5023
+black goblin recruit~
+a black dragonarmy goblin recruit~
+A black dragonarmy goblin recruit is here attracting flies.
+~
+   This goblin gives off an oder that makes the other recruits stand away
+willingly, and with utter disgust.    
+~
+d 0 0 0 k 0 0 0 -1000
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5024
+red goblin recruit~
+a red dragonarmy goblin recruit~
+A red dragonarmy goblin recruit is here attracting flies.
+~
+   This goblin gives off an oder that makes the other recruits stand away
+willingly, and with a look of utter disgust.    
+~
+d 0 0 0 k 0 0 0 -1000
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5025
+blue goblin recruit~
+a blue dragonarmy goblin recruit~
+A blue dragonarmy goblin recruit is here attracting flies.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 -1000
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

@@ -1,0 +1,663 @@
+#6400
+oaken sign~
+an oaken sign~
+An oaken sign stands along side the path.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+oaken sign~
+**************************************
+* Welcome to the Village of Keiflore *
+**************************************
+~
+#6401
+black iron stove~
+a wood burning stove~
+A small fire burns within a black iron stove.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6402
+well stone~
+a small covered well~
+A stone well with a pitched roof provides water from deep within the ground.~
+~
+23 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+well stone~
+   This large well is made of small, gray stones.  A few weeds grow from the
+cobblestones that surround the well.  A wooden crank with a rope tied to a
+large bucket, sits on the rim of the well.    
+~
+#6403
+wooden sign~
+keiflore mill sign~
+A wooden sign hangs above the double doors.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+wooden sign~
+***************************
+* -8-- Keiflore Mill --8- *
+***************************
+~
+#6404
+sign hanging~
+Keiflore's stable sign~
+A small sign hangs above the stable gate.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+small sign~
+***********************************
+* -- Lord Rosenthorn's Stables -- *
+***********************************
+~
+#6405
+painting large Keiflore~
+a large painting~
+A large painting is mounted on the wall.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 3000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+large painting~
+   This beautiful painting depicts the harvest of wheat from the fields outside
+of Keiflore.  The magnificent use of colors and texture make this painting
+appealing.    
+~
+#6406
+sign hanging~
+keiflore's garden sign~
+A small sign hangs from the oaken gate.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sign hanging~
+************************************************************************
+* These gardens are dedicated to the hard working citizens of Keiflore *
+************************************************************************
+~
+#6407
+sign small~
+silver claw sign~
+A small sign hangs here next to the door.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sign small~
+**************************************
+*  --|- The Silver Claw Tavern -|--  *
+**************************************
+~
+#6408
+steel key~
+an etched steel key~
+A large steel key with etchings lies on the ground.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+steel key~
+   This large steel key is about the size of a human males hand.  Intricate,
+geometric designs adorn this beautiful key.    
+~
+#6409
+white key~
+a white key~
+A white key that hangs from a thin gold chain lies on the ground.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+key white~
+   This small white key is crafted from some type of bone.  It's crudely carved
+and simple.    
+~
+#6410
+chest jeweled~
+a jeweled chest~
+A jeweled chest sits at the end of the bed.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6411
+small key emerald~
+a small emerald key~
+A small, emerald key sits on the ground long forgotten.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6412
+chest plain wooden~
+a plain, wooden chest~
+A plain, wooden chest covered in dust from ages past sits in the corner.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6413
+band jade Keiflore~
+a wide jade band~
+Just barely visibile, a wide jade band rests on the ground.~
+~
+9 agjklmBCDEF abcu stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 9000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+4 -2 0
+#6414
+mask steel non-descript Keiflore~
+a non-descript steel mask~
+A non-descript steel mask lies in a pool of blood on the ground.~
+~
+9 jklnprstuBCEF abu stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+#6415
+diamond large Keiflore~
+a large, multi-faceted diamond~
+A large, multi-faceted diamond twinkles in the light.~
+~
+25 lmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 3000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+#6416
+flail spiked Keiflore~
+a spiked flail with a notched wooden handle~
+A spiked flail with a notched wooden handle lies on the ground.~
+~
+5 jklnpstBCEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 2000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#6417
+medallion blackened Keiflore~
+a blackened medallion bearing a five-headed dragon~
+A blackened medallion bearing a five-headed dragon seems to absorb the light surrounding it.~
+~
+9 bgkmnoprstvwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 300 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+24 1 0
+A
+18 1 0
+#6418
+axe double battle bloody Keiflore~
+a bloody double-sided battle axe~
+A bloody double-sided battle axe lies forgotten on the ground.~
+~
+5 jklprstuBDEF ac stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 -1 0
+A
+18 1 0
+#6419
+gauntlets etched sapphires Keiflore~
+a pair of etched-steel gauntlets encrusted with two sapphires~
+A pair of etched-steel gauntlets encrusted with two sapphires begins to rust on the ground.~
+~
+9 ijklnpstuBCDEF abu stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+#6420
+leggings chain mail Keiflore~
+a pair of chain-mail leggings~
+A pair of chain-mail leggings lies in a crumpled mess on the ground.~
+~
+9 jklnprstBCDEF ac stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+9 2500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6421
+wand crystal sphere Keiflore~
+a crystal wand crowned with a platinum sphere~
+A crystal wand crowned with a platinum sphere waits for a new owner.~
+~
+3 fgjklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 -8 0
+#6422
+sickle bronze oak Keiflore~
+a long, bronze sickle with a oak handle~
+A long, bronze sickle with a oak handle rests on the ground.~
+~
+5 jklpuwxCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6423
+cloak dusty burlap Keiflore~
+a dusty, burlap cloak~
+A dusty, burlap cloak is being eaten by moths on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6424
+a highly polished suit of plate mail~
+a highly polished suit of plate mail~
+A highly polished suit of plate mail lies here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+80 3 1 -6 100 100 35 7 20 12 15 0 0 0 0 0
+500 1500 0 18
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+22 45 0
+#6425
+hoopak undersized Keiflore~
+an undersized, charcoal-grey hoopak~
+An undersized, charcoal-grey hoopak sticks out of the ground here.~
+~
+5 jklopruvwC b k 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 4375 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6426
+brassiere black silk Keiflore~
+a black, silk brassiere~
+A black, silk brassiere lies forgotten on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 625 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6427
+robe white velvet Keiflore~
+a long, white robe of the finest velvet~
+A long, white robe of the finest velvet lies in a crumpled ball on the ground.~
+~
+9 ajlnotwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1875 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6428
+headpiece ruby delicate platinum Keiflore~
+a delicate platinum headpiece adorned with a rose-shaped ruby~
+A delicate platinum headpiece adorned with a rose-shaped ruby twinkles brightly on the ground.~
+8~
+9 jlmnoprstuvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+24 1 0
+#6429
+rapier long decorated Keiflore~
+a long, elaborately decorated rapier~
+A long, elaborately decorated rapier wobbles back and forth in the ground.~
+~
+5 bjkloprstvBCDEF abc stuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 7000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6430
+lute wooden magnificent Keiflore~
+a lute of magnificent beauty~
+A wooden lute of magnificent beauty lies in ill repair on the ground.~
+~
+8 gjklmnvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+A
+23 1 0
+A
+4 -1 0
+A
+6 1 0
+#6431
+tunic silver flashy Keiflore~
+a flashy, silver tunic~
+A flashy, silver tunic lies on the ground brilliantly reflecting the light.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6432
+helm roses engraved Keiflore~
+a helm engraved with roses~
+A helm engraved with roses slowly rocks back and forth on the ground.~
+~
+9 gijlnrtBDEF a stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6433
+duck roasted food Keiflore~
+a delicious, roasted duck~
+A roasted duck rots away on the ground.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6434
+vambraces hardened leather Keiflore~
+a pair of hardened leather vambraces~
+A pair of hardened leather vambraces lie on the ground.~
+~
+9 jklnoprstuvwBCDEF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 385 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6435
+tome white leather Keiflore~
+a small tome bound in wrinkled, white leather~
+A small tome bound in wrinkled, white leather slowly disintigrates on the ground.~
+~
+26 jmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6436
+eye asp Keiflore~
+the eye of a black asp~
+A digusting eye collects dirt on the ground.~
+~
+1 gjklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6437
+nugget platinum Keiflore~
+a platinum nugget~
+An unrefined platinum nugget lies here.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 3000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6438
+emerald sparkling Keiflore~
+a sparkling emerald~
+A sparkling emerald of the deepest green lies here.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6439
+armbands bands mahogany Keiflore~
+a pair of mahogany armbands~
+A pair of mahogany bands lie on top of each other on the ground.~
+~
+9 jklmnwBCDEF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6440
+crown roses interwoven Keiflore~
+a crown of interwoven roses~
+A ring of interwoven roses begins to unravel on the ground.~
+~
+9 gjklmwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 350 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

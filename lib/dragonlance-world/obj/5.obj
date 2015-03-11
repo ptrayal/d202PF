@@ -1,0 +1,425 @@
+#500
+dusty black gemstone~
+a dusty black gemstone~
+A dusty black gemstone glints in the light.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 36 0 0 0 0 0 0 0 0
+1 2500 1 0
+Z
+4
+#501
+wooden training sword~
+a wooden training sword~
+A wooden sword usable for training lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+23 1 6 11 100 100 0 7 1 2 0 1 0 0 0 0
+20 10 5 0
+Z
+4
+#502
+copper band~
+a dull copper band~
+A small circlet of copper lies in the dust.~
+~
+9 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 50 10 0
+Z
+4
+#503
+fluorescent moss~
+a piece of fluorescent moss~
+A small chunk of fluorescent moss glows softly with an inner light.~
+~
+1 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 40 0 0 0 0 0 0 0 0
+2 0 0 0
+Z
+4
+#504
+flint spear~
+a flint tipped spear~
+A spear with a tip made of flint rests on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+11 1 8 11 100 100 1 8 0 49 20 4 0 0 0 0
+60 2 0 0
+Z
+4
+#505
+rat~
+a very dead, stiff rat~
+A dead rat lies here stiff as a board.~
+~
+13 jklmnopqrstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+#506
+rotting corpse~
+a rotting corpse~
+The corpse of an unfortunate adventurer lies rotting here.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#507
+wooden barrel~
+a wooden barrel~
+A wooden barrel stands here.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#508
+goat scarf dirty~
+a dirty goat hide scarf~
+A dirty piece of goat hide lies on the ground.~
+~
+9 0 0 0 0 ac 0 0 0 0 0 0 0
+10 1 8 0 100 100 5 1 30 1 20 0 0 0 0 0
+100 5 0 0
+Z
+4
+#509
+hard leather basinet~
+a hard leather basinet~
+A piece of hard leather rests on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 25 0 0
+Z
+4
+#510
+bone bleached bracelet~
+a bleached bone bracelet~
+A small pile of bleached bones lies on the ground.~
+1~
+9 jklmnopruvwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 30 0 0
+Z
+4
+A
+13 1 0
+#511
+small set pincers~
+a small set of pincers~
+A small set of pincers lay on the ground.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+E
+small set pincirs~
+   Dry, horny and blue, just like the crab it must come from.  They let off an
+odor of dying fish.    
+~
+#512
+beak orange red~
+an orange beak with a red spot~
+An orange beak with a red spot bites the dust.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+E
+orange beak red~
+   With a small red spot near the base, this beak gives its owner away.    
+~
+#513
+orange beak black~
+an orange beak with a black spot~
+An orange beak with a black spot rests here.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+E
+beak orange black~
+   It opens and closes just as in life.  A small black spot glares from its
+base.    
+~
+#514
+spotted leather~
+a spotted leather skin~
+A spotted leather skin lays here.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 40 0 0
+Z
+4
+E
+spotted leather skin~
+   A skin of dark blue, with grey spots.  It smells of the sea, and is tied on
+one end to form a wrist brace.    
+~
+A
+13 1 0
+#515
+tail skate~
+the tail of a skate~
+The tail of a skate sticks out of the ground.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+tail skate~
+   Thin and about a hand long, this tail's barb would stick into the skate's
+enemy and while the barb held the victim, the venom would enter their blood.  
+~
+#516
+statue dalthus shrouded decaying figure~
+a statue of a shrouded, decaying figure~
+The statue of a shrouded, decaying figure stands here.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+dalthus statue shrouded decaying figure~
+   This statue resembles the man it stands for quite well.  Dalthus Di'Aror
+wasn't very good looking, a flap of skin sewn over his left eye, and small
+patches of hair scattered around his chin.  In his time, he had served as a
+simple man aiming only for the magic.  He grew to take the office of Head of
+the Black Robes.  However, he mysteriously died while traveling to the hall of
+the elven cadre, to visit someone there.  Here, a statue has been erected to
+preserve his memory.    
+~
+#517
+grave simple cockroach squishy~
+a simple grave~
+A simple grave sits here, an emblem of a cockroach on the front plaque.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+grave simple cockroach squishy~
+   The grave is rather small, yet far too big for a cockroach.  A plaque rests
+on the stone, some words etched upon it.    
+(read plaque)
+~
+E
+plaque~
+       There once was a roach that lived in a shoe...
+    he was mostly friendly and was a politican too...
+  In Memory of Squishy.
+  He will be remembered.
+~
+#518
+grave stone simple haven~
+a simple stone grave~
+A simple stone grave stands in the grass.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+grave stone simple haven~
+                                Haven
+                       Hands of the Faceless
+                The first of many in his line of work
+             may his knowlege be passed to his underlings
+~
+#519
+statue elf tattered rashnal~
+a statue of an elf wearing tattered robes~
+A statue of an elf wearing tattered robes watches the lands for eternity.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+statue elf tattered rashnal~
+   A druid of great faith.  He was involved in the founding of the Order of the
+Elven Hand.  He wanted to protect all living things the best he could.  Always
+a smile, a great friend, and a helping hand for those you needed it the most.
+May the winds carry his soul forever.  Rest in Peace for eternity, revered
+Rashnal.    
+~
+#520
+grave stone~
+an empty grave stone~
+An empty grave stone waits here.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+grave stone~
+The stone is completely blank, awaiting one whom it would rest at the head of.
+The freshly dug hole in the ground lies just before it.
+~
+#521
+statue penetrating doreon~
+a statue of an elf with penetrating eyes~
+A statue of an elf with penetrating eyes scans the horizon.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+statue penetrating doreon~
+   The statue has hair in two braids which hang down the shoulders, and
+penetrating coal eyes.  A sinister grin is upon his lips as he stares back at
+you.  The man whom this statue represents, one Doreon Sandabar, was last seen
+heading off for some treasure, but found much more than he expected.  Friends
+had erected the statue so that even after he disappeared, he could continue to
+listen to the waves, however, the beach did not hold the stone well, and so the
+monument was moved to this grave site.    
+~
+#522
+statue sagely flowing Valos~
+a statue of a sagely elf in flowing crimson robes~
+A statue of a sagely elf in flowing crimson robes reads a book while petrified.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+statue sagely flowing Valos~
+   Here lies the body of one Valos D'Raden.  Once a leader among the conclave,
+particularly the order of the red robes, he was also a historian and documented
+many of the occurances that happened in his time.  He was well known for his
+knowledge of the various artifacts of Krynn.  May Lunitari guide his soul in
+the afterlife.    
+~
+#523
+statue emerald armored stone knight Thoran~
+the statue of an emerald armored knight~
+A statue of a man in stone armor glazed an emerald color stands proudly here.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+statue emerald armored stone knight Thoran~
+   Here is the crypt of Thoran Khadgar, Solamnic Knight of the Sword.  He was
+one of few that rekindled the spirit of the Knights of Solamnia in the Age of
+Dragons.  He was known both for his vile temper and his generous spirit.  
+Known well and widely liked Thoran's presense is surely missed to all Solamnics
+and indeed any who glorifies the name of what is good and righteous.    
+~
+#524
+grave granite thick Dirk~
+a thick, granite grave~
+A thick, granite grave sits here.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+grave granite thick dirk~
+   The tormented soul once known as Dirk "rests" here.  Though his body was
+since lost by the Solamnics who found him poisoned by his own envenomed dagger,
+we are all doubtlessly benefited by the passing of this evil creature.  Many
+consider him one of the most dangerous mortals to walk Ansalon since the
+Cataclysm.  His victims were many and his failiures few.  He was a man of many
+faces, sometimes utterly volatile, sometimes friendly and benefitting, yet
+always he carried an air of confidence and fearlessness.  Nevertheless, the
+streets of Palanthas are much safer due to the mysterious passing of "Smoke".
+~
+#525
+statue munificent cultivated crusader caide~
+the statue of a munificent, cultivated crusader~
+A statue of a munificent, cultivated crusader leans on the hilt of a sword, staring forward.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+statue munificent cultivated crusader Caide~
+   Here lies Caide Delancis, Solamnic Knight of the Crown and once a leader
+among the Knights of Solamnia.  Though his was a life of responsibility that
+few really understood, he went through his days with a positive attitude,
+always eager to help out those in need.  His dreams of peace sadly would never
+be realized and we can only hope his successors can triumph where this truly
+noble man has failed.  Paladine bless you Caide Delancis.    
+~
+#526
+statue rock Lisham mage elven~
+a statue of an elven mage~
+Red tinged rock caps the head of this statue of a mage, fading to black at the feet.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+statue rock lisham mage elven~
+   Lisham was an ambitious man, thrust out from amongst his Silvanesti brethren
+for being caught practicing black robed magic as a red robed mage.  He went
+black shortly afterwords.  He was strong, yet slender and very intelligent.  
+Residing in solace he spent most of his time with a large minotaur named Rufus,
+and a sharply dressed man named Rush.  He was very involved in conclave
+politics, and often battled with some mages who faught his rise.  His sudden
+dissapearance after a visit to the Tower of Wayreth has always been in
+question.    
+~
+#530
+longsword mithril blackend~
+a blackend mithril longsword~
+A blackend mithril longsword lays here glowing~
+~
+5 aC 0 0 0 a 0 0 0 0 0 0 0
+26 1 8 3 100 100 0 13 1 2 0 11 0 0 0 0
+40 15 0 4
+Z
+4
+A
+28 2 0
+A
+29 3 0
+#531
+blackend mithril chain armor~
+a set of blackend mithril chain armor.~
+A set of blackend mithril chain armor, lays here.~
+~
+42 C 0 0 0 ad 0 0 0 0 0 0 0
+50 2 2 -5 100 100 30 13 20 7 15 0 0 0 0 0
+400 150 0 5
+Z
+4
+A
+22 20 0
+$~

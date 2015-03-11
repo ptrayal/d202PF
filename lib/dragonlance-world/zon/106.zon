@@ -1,0 +1,86 @@
+#106
+None.~
+Hjor's Temple, Various Sanction Zones~
+10600 10699 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+O 0 10602     5 10602   0   100     0    -1          0 a small iron pail
+
+P 1 10603    10 10602   0    25     1     0          0 a small fish
+
+M 0 10604     2 10602   2    75     2    -1          0 a young, eager fisherman
+
+E 1 10601     8    16   0    45     3     2          0 a large fishing pole
+
+M 0 10605     1 10603   1   100     4    -1          0 a burly man with a grey beard
+
+M 0 10606     4 10601   2   100     5    -1          0 a scrawny little boy
+
+M 0 10607     1 10607   1   100     6    -1          0 a blind captain
+
+E 1 10605     2    11   0    10     7     6          0 the steering wheel of a fishing boat
+
+E 1 10600     1    17   0   100     8     6          0 a long pry bar
+
+D 0 10605     5     1   0   101     9    -10 
+
+O 0 10602     5 10605   0   100    10    -1          0 a small iron pail
+
+P 1 10603    10 10602   0    25    11    10          0 a small fish
+
+M 0 10608     2 10605   2   100    12    -1          0 a ship hand
+
+D 0 10606     5     2   0   101    13    -10 
+
+O 0 10604     1 10609   0    25    14    -1          0 a long chain necklace
+
+D 0 10609     4     1   0   101    15    -10 
+
+M 0 10609     3 10600   1   100    16    -1          0 a small wharf rat
+
+O 0 10602     5 10608   0   100    17    -1          0 a small iron pail
+
+P 1 10603    10 10602   0    25    18    17          0 a small fish
+
+M 0 10610     1 10625   1   100    19    -1          0 the champion of the arena
+
+D 0 10625     3     1   0   101    20    -10 
+
+M 0 10611     1 10626   1   100    21    -1          0 a ferocious looking tiger
+
+E 1 10606     1    12   0   100    22    21          0 a tiger pelt
+
+D 0 10626     1     1   0   101    23    -10 
+
+M 0 10613     4 10617   1   100    24    -1          0 a petite young female spectator
+
+M 0 10612     4 10617   1   100    25    -1          0 a rich looking male spectator
+
+M 0 10613     4 10618   1   100    26    -1          0 a petite young female spectator
+
+M 0 10612     4 10618   1   100    27    -1          0 a rich looking male spectator
+
+M 0 10613     4 10622   1   100    28    -1          0 a petite young female spectator
+
+M 0 10612     4 10622   1   100    29    -1          0 a rich looking male spectator
+
+M 0 10613     4 10623   1   100    30    -1          0 a petite young female spectator
+
+M 0 10612     4 10623   1   100    31    -1          0 a rich looking male spectator
+
+M 0 10614     4 10619   4   100    32    -1          0 a barely trained dwarven slave
+
+M 0 10614     4 10619   4   100    33    -1          0 a barely trained dwarven slave
+
+M 0 10614     4 10619   4   100    34    -1          0 a barely trained dwarven slave
+
+M 0 10614     4 10619   4   100    35    -1          0 a barely trained dwarven slave
+
+M 0 10615     1 10621   1   100    36    -1          0 a well-trained knight
+
+O 0 10607     1 10614   0   100    37    -1          0 a large stone statue of a brute minotaur
+
+S
+$

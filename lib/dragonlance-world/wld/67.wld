@@ -1,0 +1,2314 @@
+#6700
+A Path Towards the Gates of Solanthus~
+   A worn path is visable to you off of the beaten road between Thelgaard and
+Palanthas.  The grass is short and has been taken care of well along this path
+and there is little clutter blocking movement.  A strong wind is also present,
+likely the same wind that sweeps across the plains every day.  In the distance
+a large yellow wall can be seen.    
+~
+67 cp h 0 0  1
+D1
+~
+~
+0 0 6701 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 8117 0 0 0 0 0 0 0 0
+E
+tiles~
+   The tiles on the roof are made of thick cedar and joined together with a
+heavy coating of tar.  A small worn pathway in the tiles lead from one side of
+the roofs edge to the other, ending at the tightly strung ropes.    
+~
+E
+rope~
+   The rope is tied to the roof here with an intricate knot that would make a
+sailor envious.  It is stretched so tightly accross the street that it looks as
+if it could support a persons weight.  Should that person be willing to risk
+the fall.    
+~
+S
+#6701
+A Path Towards the Gates of Solanthus~
+   A worn path is visable to you off of the beaten road between Thelgaard and
+Palanthas.  The grass is short and has been taken care of well along this path
+and there is little clutter blocking movement.  A strong wind is also present,
+likely the same wind that sweeps across the plains every day.  In the distance
+a large yellow wall can be seen.    
+~
+67 cp h 0 0  1
+D3
+~
+~
+0 0 6700 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6702 0 0 0 0 0 0 0 0
+E
+rope~
+   The rope seems sturdy enough and wound from a strange material, the
+strangest thing about it is the sticky black substance it seems to be coated
+in.  While odd it seems to help with footing and balance.    
+~
+S
+#6702
+Before the South Gates of Solanthus~
+   Before you are the gates to the city of Solanthus.  A yellow stone wall
+extends in either direction from the gate and is constructed of carefully
+mortared bricks.  The beginnings of a wide boulevard start at the gate here and
+the road to the southwest continues around the western portion of the city.  
+The city appears to be very humble and quiet as far as what can be gathered
+from the outside of the gates.  A large moat is beneath you extending to the
+east and west.    
+~
+67 cp h 0 0  1
+D0
+~
+gates~
+1 0 6703 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6701 0 0 0 0 0 0 0 0
+E
+rope~
+   The rope seems sturdy enough and wound from a strange material, the
+strangest thing about it is the sticky black substance it seems to be coated
+with.  While odd it seems to help with footing and balance.    
+~
+S
+#6703
+Inside the South Gate of Solanthus~
+   The quiet city of Solanthus opens out to the north, following a wide
+boulevard.  On both sides of the gate, the yellow stone walls rise up in
+tightly mortared bricks.  To the north, a splendid cascade of water glistens up
+into the sky.  And beyond that, the famous Tower's of Solanthus.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6704 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6727 0 0 0 0 0 0 0 0
+D2
+~
+gates~
+1 0 6702 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6708 0 0 0 0 0 0 0 0
+E
+gate~
+   The gate of Solanthus appears to be a series of white oak spars bound with
+steel bands.  The white rose of Solanthus is carved into each rivet with
+exquisite detail.  Closer inspection reveals the rivets to be, not steel but
+mithril.    
+~
+S
+#6704
+The Southern Merchant District~
+   The quiet folk of Solanthus pass along this boulevard.  Buildings of yellow,
+tightly mortared stone are almost hidden behind strands of healthy vines of
+green ivory.  The shadows of the famous Cleft Spires arc from the northwest and
+southeast to create a pool of constant shade in this spot.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6705 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6703 0 0 0 0 0 0 0 0
+E
+ivy~
+You see nothing special.
+~
+S
+#6705
+Cleft Spires~
+   Two fifty-foot tall pillars of natural rock are here, known as 'Cleft
+Spires'.  The pillars are nearly one hundred feet wide and rise above
+everything else in the city.  Half way up the pillars, they begin to arch away
+from each other covering the market.  A somewhat magical force tries to pull
+all metal objects away from you toward them as you notice hundreds of pairs of
+initials at the base of the pillars.    
+~
+67 cpu h 0 0  1
+D0
+~
+~
+0 0 6706 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6731 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6704 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6730 0 0 0 0 0 0 0 0
+D7
+~
+door~
+1 6701 6732 0 0 0 0 0 0 0 0
+S
+#6706
+The Northern Merchant District~
+   The quiet folk of Solanthus pass along this boulevard.  Buildings of yellow,
+tightly mortared stone are almost hidden behind strands of healthy vines of
+green ivory.  The shadows of the famous Cleft Spires arc from the northwest and
+southeast to create a pool of constant shade in this spot.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6707 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6705 0 0 0 0 0 0 0 0
+E
+ivy~
+You see nothing special.
+~
+S
+#6707
+Tower Lane~
+   This quiet back lane of Solanthus is almost bare and the yellow stone of the
+walls seems somewhat faded here.  Ivy still climbs the walls but in the shadow
+of the Famous Towers of Solanthus it lives much closer to the ground.  The
+sound of steel shod boots marching the walls above echo into the shadows.    
+~
+67 p h 0 0  1
+D0
+~
+gates~
+1 0 6783 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6706 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6714 0 0 0 0 0 0 0 0
+E
+door~
+   This great door is wider than the span of a large man's arms.  It appears to
+be rods of solid iron riveted together with a shiny metal that looks
+suspiciously like mithril.  The rivets are carved with the white rose of
+Solanthus in exquisite detail.    
+~
+E
+ivy~
+You see nothing special.
+~
+S
+#6708
+Gateway Lane~
+   Just west of the Gate of Solanthus, this lane is bordered on both sides by
+walls of yellow tightly mortared stone.  Strands of healthy vines of green ivy
+almost hide the walls.  The quiet folk of Solanthus pass to the right and left.
+  
+~
+67 p h 0 0  1
+D1
+~
+~
+0 0 6703 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6709 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6709
+Corner of Gateway and Wyvern~
+   The busy traffic of Wyvern way fades into the slower comings and goings of
+Gateway Lane.  Here hawkers and con-artists attempt to take the well-earned
+money of those entering or leaving the city.  The yellowed stone bricks that
+make up all of Solanthus' buildings are here almost completely covered in
+healthy green vines of ivy.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6710 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6708 0 0 0 0 0 0 0 0
+D9
+~
+tower~
+1 0 6738 0 0 0 0 0 0 0 0
+E
+hawker~
+   These wandering merchants seem to sell a little bit of everything.  To the
+left needles to the right meat on a stick and ahead glass vials.    
+~
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6710
+Wyvern's Way~
+   This street borders the western wall of Solanthus.  It seems quite busy as
+the people of this city pass on the left and right.  The yellow tightly
+mortared stone walls are coveredin healthy green ivy vines.  Windows look into
+the back rooms of shops surrounding the Solanthus Market Square.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6711 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6709 0 0 0 0 0 0 0 0
+E
+window~
+   Through the curtain of chain links can be seen a white oak rack filled with
+shields and upon a shelf a white lacquered pair of shoulder guards carved with
+the white rose of Solanthus.    
+~
+E
+windows~
+   Through the curtain of chain links can be seen a white oak rack filled with
+shields and upon a shelf a white lacquered pair of shoulder guards carved with
+the white rose of Solanthus.    
+~
+E
+ivy~
+   The healthy green ivy vines upon this mortared yellow wall are thickly grown
+around what appears to be a series of iron rings.  A curious individual might
+figure these ivy covered rings a means of climbing up onto the roof of the
+armory.    
+~
+S
+#6711
+Intersection of Merchant and Wyvern~
+   The busy Wyvern Way and the industrious Ferrous avenue meet here in a clash
+of iron and gold.  Wealthy merchants lean against the yellow stone walls
+negotiating deals with the nearest smith on the price of iron.  The ivy is
+particularly thick and healthy here as if trying to make up for its lack of
+survival further into Ferrous avenue.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6712 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6730 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6710 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6712
+Wyvern's Way~
+   This street borders the western wall of Solanthus.  It seems quite busy as
+the people of this city pass on the left and right.  The yellow tightly
+mortared stone walls are coveredin healthy green ivy vines.  Windows look into
+the back rooms of shops surrounding the Solanthus Market Square.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6713 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6711 0 0 0 0 0 0 0 0
+E
+window~
+   A strong mesh of steel covers this opening that looks into the back of The
+Solanthus Credit Union.  A small steel door and busy merchants, travelers and
+clerks is all you can see.    
+~
+E
+windows~
+   A strong mesh of steel covers this opening that looks into the back of The
+Solanthus Credit Union.  A small steel door and busy merchants, travelers and
+clerks is all you can see.    
+~
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6713
+Corner of Wyvern and Tower~
+   The meeting of quiet Tower Lane and busy Wyvern Way is a strange mix of old
+and new.  Rich and poor.  Beggars lean against the sunny western walls while
+merchants and soldiers speed past oblivious.  In the shadows of the north
+eastern corner of this intersection can be seen less benign seekers of wealth
+preparing to attack some hapless individual.    
+~
+67 p h 0 0  1
+D1
+~
+~
+0 0 6714 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6712 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6716 0 0 0 0 0 0 0 0
+E
+beggar~
+   These poor faceless folk are just plain down on their luck.  This place
+seems to be the only area where they are left in peace.  You see refugees from
+as far as Ergoth or Sanction huddling with their possessions against the wall.
+  
+~
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6714
+Tower Lane~
+   This quiet back lane of Solanthus is almost bare and the yellow stone of the
+walls seems somewhat faded here.  Ivy still climbs the walls but in the shadow
+of the Famous Towers of Solanthus it lives much closer to the ground.  The
+sound of steel shod boots marching the walls above echo into the shadows.    
+~
+67 p h 0 0  1
+D1
+~
+~
+0 0 6707 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6713 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6715
+The Temple of Mishakal on Temple Row~
+   A brilliant cobblestone path makes up the walkway with brilliant rose
+gardens in all directions away from the Cleft Spires.  Very few common folk of
+Solanthus are here as it is consumed by priests and clerics.    
+~
+67 p h 0 0  1
+D6
+~
+~
+0 0 6725 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6717 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6716
+A Small Alleyway~
+   The path is gravelled with pristine white stones.  It is lined on either
+side with marble statues of famous ministers and leaders of Palanthas who have
+dealt with Solanthus.  As the gravel crunches underfoot, the sound of drilling
+can be heard from the north west.    
+~
+67 p h 0 0  1
+D9
+~
+~
+0 0 6767 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6713 0 0 0 0 0 0 0 0
+S
+#6717
+Intersection of Grand March and Temple Row~
+   A brilliant cobblestone path makes up the walkway with brilliant rose
+gardens in all directions away from the Cleft Spires.  Four amazingly crafted
+temples can be seen to the northwest and southeast of here by themselves.  
+Very few common folk of Solanthus are here as it is consumed by priests and
+clerics.    
+~
+67 p h 0 0  1
+D6
+~
+~
+0 0 6715 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6718 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6732 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6751 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6718
+The Grand March~
+   A brilliant cobblestone path makes up the walkway with brilliant rose
+gardens in all directions away from the Cleft Spires.  Four amazingly crafted
+temples can be seen to the north and south of here by themselves.  Very few
+common folk of Solanthus are here as it is consumed by priests and clerics.  A
+massive drawbridge and gate can be seen directly northeast of here and the
+sound of water moving in the moat is apparent.    
+~
+67 cp h 0 0  1
+D7
+~
+~
+0 0 6737 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6717 0 0 0 0 0 0 0 0
+S
+#6719
+A Sparring Room~
+   Soft mats fill this room, each one extending from one wall to the next.  
+Along the eastern wall are large tapestries depicting defensive maneuvers young
+knights are trained.  A slight breeze flows the the area, but does not help in
+the stench of training soldiers.    
+~
+67 d 0 0 0  0
+D2
+~
+~
+0 0 6755 0 0 0 0 0 0 0 0
+E
+vine~
+   The ivy here grows thicker than normal, each vine as big around as a mans
+arm.  It looks as though it could be used to climb down to the residential area
+of Solanthus, avoiding the guards at the gate.    
+~
+E
+vines~
+   The ivy here grows thicker than normal, each vine as big around as a mans
+arm.  It looks as though it could be used to climb down to the residential area
+of Solanuthus, avoiding the guards at the gate.    
+~
+E
+ivy~
+   The ivy here grows thicker than normal, each vine as big around as a mans
+arm.  It looks as though it could be used to climb down to the residential area
+of Solanthus, avoiding the guards at the gate.    
+~
+S
+#6720
+A Sparring Room~
+   Soft mats fill this room, each one extending from one wall to the next.  
+Along the eastern wall are large tapestries depicting defensive maneuvers young
+knights are trained.  A slight breeze flows the the area, but does not help in
+the stench of training soldiers.    
+~
+67 d 0 0 0  0
+D0
+~
+~
+0 0 6757 0 0 0 0 0 0 0 0
+S
+#6721
+A Prisoner Holding Area~
+   This area acts as a holding area for prisoners captures trying to dismember
+the north gate of Solanthus.  The walls are solid brick with a series of chains
+affixed.  Multiple poorly cleaned bloodstains are here indicating the treatment
+of prisoners is not good.  A skylight is apparent on either side of the
+triangular roof allowing little light through.    
+~
+67 d 0 0 0  0
+D6
+~
+door~
+1 0 6737 0 0 0 0 0 0 0 0
+S
+#6722
+Free Room~
+   The wall stands easily three stories in height, with a walkway at its peak.
+To the south the way is blocked by a large war machine pointed out at the
+plains around.  The whitewashed path to the north is clear and shows little
+wear from hard guardsmans boots.  The walls west side sports what looks like a
+support wire in place to keep an old abandoned building accross the way from
+falling over.  A small stone archway stands a few paces down the wall to the
+north obviously meant to keep the patrolling guardsmen out of adverse weather.
+  
+~
+67 0 h 0 0  1
+E
+wire~
+   This small rope is made of a strange substance, and covered with a sticky
+black paste.  Upon closer inspection its braid is highly intricate and could be
+of elven origin.  It looks as though it could support a persons weight with
+ease.    
+~
+E
+machine~
+   A huge ballista rests here set right into the stone of the wall.  Its
+ammunition lying in stacks on either side of it.    
+~
+E
+war~
+   A huge ballista rests here set right into the stone of the wall.  Its
+ammunition lying in stacks on either side of it.    
+~
+S
+#6723
+Free Room~
+   The wall stands easily three stories in height, with this walkway at its
+peak.  The stones seem newly whitewashed and show no wear from hard guardsmans
+boots.  A small gutter is cut into the stone here in either direction,
+obviously to direct rain water to the large capped drain on the outer wall.  A
+small stone archway stands a few paces to the north, a small refuge for guards
+during harsh weather.    
+~
+67 0 h 0 0  1
+E
+drain~
+   This drain is easily large enough for a man to fit within, its cap is locked
+with a large padlock.  It seems obvious its size and cap are meant for
+cleaning.....  Not exploring.    
+~
+S
+#6724
+Free Room~
+   This small archway has been recently whitewashed, its stones showing no
+signs of wear from weather or boots.  A small table and chair rest against the
+wall facing the window to the east.  The archway has been closed off on the
+north side by what looks like construction of a new war machine, beyond which a
+large watchtower can be made out.  This archway seems to be built for the
+purpose of sheltering guards from inclemement weather, though from the wear on
+the chair and table it seems to be used far more often than just when bad
+weather comes around.    
+~
+67 0 h 0 0  1
+E
+window~
+   The great grasslands that surround Solanthus semm barren and expansive from
+this high vantage point.  To the south the road heading towards Thelgaard can
+be made out.  Other than a few cows grazing in the fields, it seems a guard
+stationed here would have a rather tedious job.    
+~
+E
+table~
+   This old table seems to be held level by a small pile of dirt under one of
+its legs.  The top is worn and grooved as if someone spends hours here leaning
+on it looking out the window.    
+~
+E
+chair~
+   This creaky wooden chair seems to need repair, its legs are worn and wobbly
+and the seat seems to have an imprint worn directly into the wood.    
+~
+S
+#6725
+The Temple of Shinare on Temple Row~
+   A brilliant cobblestone path makes up the walkway with brilliant rose
+gardens in all directions away from the Cleft Spires.  Very few common folk of
+Solanthus are here as it is consumed by priests and clerics.    
+~
+67 p h 0 0  1
+D8
+~
+~
+0 0 6715 0 0 0 0 0 0 0 0
+E
+window~
+   Through the boarded up windows nothing can be seen but shadows and dusty
+black tarps.    
+~
+E
+windows~
+   Through the boarded up windows nothing can be seen but shadows and dusty
+black tarps.    
+~
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6726
+Intersection of Merchant and Pender~
+   The notorious Pender Street and the Merchant street meet here in
+a clash of iron and blood.  Shadowy characters hide against the yellow stone
+walls negotiating deals with the nearest smith on the price of a dagger.  The
+ivy is particularly weak here as if finally giving up after trying to survive
+Ferrous avenue.    
+~
+67 p h 0 0  1
+D1
+~
+~
+0 0 6753 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6729 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6731 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6727
+Gateway Lane~
+   Just east of the Gate of Solanthus, this lane is bordered on both sides by
+walls of yellow tightly mortared stone.  Strands of healthy vines of green ivy
+almost hide the walls.  The quiet folk of Solanthus pass to the right and left.
+  
+~
+67 p h 0 0  1
+D1
+~
+~
+0 0 6728 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6703 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6728
+The Corner of Gateway And Pender~
+   The frantic traffic of Pender Street fades into the slower comings and
+goings of Gateway lane.  Here con-artists and ladies of the night attempt to
+take the well-earned money of those entering or leaving the city.  The faded
+yellow stone are here only barely covered in the common green vines of ivy
+prevalent in all of Solanthus.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6729 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6727 0 0 0 0 0 0 0 0
+D8
+~
+tower~
+1 0 6739 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6729
+Pender Street~
+   This street borders the eastern wall of Solanthus.  It seems quite busy as
+the people of this city pass on the left and right.  The yellow tightly
+mortared stone walls are covered in healthy green ivy vines.  Windows look into
+the back rooms of shops surrounding the Solanthus Market Square.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6726 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6728 0 0 0 0 0 0 0 0
+E
+window~
+   Through the small windows of glass set in lead panes hundreds of gleaming
+swords can be seen.  What appears to be a rack of polearms and lances is
+against the back wall.    
+~
+E
+windows~
+   Through the small windows of glass set in lead panes hundreds of gleaming
+swords can be seen.  What appears to be a rack of polearms and lances is
+against the back wall.    
+~
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6730
+The Western Merchant District~
+   The smell of heat and metal wafts through this entire avenue.  The sounds of
+clanging hammers and hissing oil fill the air.  The walls of tightly mortared
+yellow stone are almost black from soot coming from the various street smithies
+and the great armorer to the east.  Vines of green ivy climb every wall, trying
+to get above the smog.    
+~
+67 p h 0 0  1
+D1
+~
+~
+0 0 6705 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6711 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6731
+The Eastern Merchant District~
+   The smell of heat and metal wafts through this entire avenue.  The sounds of
+clanging hammers and hissing oil fill the air.  The walls of tightly mortared
+yellow stone are almost black from soot coming from the various street smithies
+and the great armorer to the west.  Vines of green ivy climb every wall, trying
+to get above the smog.    
+~
+67 p h 0 0  1
+D1
+~
+~
+0 0 6726 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6705 0 0 0 0 0 0 0 0
+E
+ivy~
+   The healthy green ivy vines grow all the way up to the roof of the building.
+Although this vine would be too weak to hold ones weight, it may be possible to
+find one thicker.    
+~
+S
+#6732
+The Grand March~
+   A brilliant cobblestone path makes up the walkway with brilliant rose
+gardens in all directions away from the Cleft Spires.  Four amazingly crafted
+temples can be seen to the north and east of here by themselves.  Very few
+common folk of Solanthus are here as it is consumed by priests and clerics.  
+
+~
+67 cp h 0 0  1
+D7
+~
+~
+0 0 6717 0 0 0 0 0 0 0 0
+D9
+~
+door~
+1 6701 6705 0 0 0 0 0 0 0 0
+S
+#6733
+Broken Wheel Supplies~
+   This single building, unlike any other, proves Solanthus is a Solamnic city.
+At first glance, the walls are pure polished chain.  But inspection proves this
+to be layers of chainmail armor ready to be linked into a sleeve a coif, a coat
+or even gloves.  A large white oak rack against the back wall holds shields
+bearing many family crests or ready to have a new crest painted on.  The piece
+de resistance is nothing other than a white lacquered pair of shoulder guards
+carved with the white rose of Solanthus and the emblem of the Solamnic knights.
+  
+~
+67 p h 0 0  0
+D7
+~
+~
+0 0 6705 0 0 0 0 0 0 0 0
+S
+#6734
+Blue Arms and Armor~
+   This single building, unlike any other, proves Solanthus is a Solamnic city.
+Ironwood pegs line the stone walls holding swords of all size and quality out
+towards the customers.  A large white oak rack agains the back wall holds many
+polearms and lances upright and easily examined.  Even the glass display case
+containing daggers, knives, and other feminine trinkets is packed fuller than
+its designers intended.    
+~
+67 p h 0 0  0
+D6
+~
+~
+0 0 6705 0 0 0 0 0 0 0 0
+S
+#6735
+Garnet Money Exchange~
+   The walls of the Solanthus Credit Union are all white oak polished until
+they glow.  The white rose signet is carved in heavy relief across the ceiling.
+Behind the banker a small steel door leads to what can only be the vault.  
+Merchants and travelers make this a very busy place for the few clerks working
+here.    
+~
+67 p h 0 0  0
+D8
+~
+~
+0 0 6705 0 0 0 0 0 0 0 0
+S
+#6736
+The Path To Palanthas Tower~
+   The path is gravelled with pristine white stones.  It is lined on either
+side with marble statues of famous ministers and leaders of Palanthas who have
+dealt with Solanthus.  As the gravel crunches underfoot, the sound of drilling
+can be heard from the north west.    
+~
+67 p h 0 0  1
+D6
+~
+gate~
+1 0 6742 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6716 0 0 0 0 0 0 0 0
+S
+#6737
+The East Gate~
+   Just off of the Grand March, there is a large drawbridge here with access to
+the huge vallenwood East Gates.  Just off of the bridge is a wide moat
+extending northwest and southeast around the massive walls of Solanthus.  The
+gatehouse here is a castle in itself, with no access to commoners.  A large
+wooden door is apparent on a small brick building southeast of here.    
+~
+67 cp h 0 0  1
+D7
+~
+gate~
+2 0 6750 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6718 0 0 0 0 0 0 0 0
+D8
+~
+door~
+1 0 6721 0 0 0 0 0 0 0 0
+S
+#6738
+The Southwest Guard Tower of Solanthus~
+   The guard tower of Solanthus is built from the same yellow stone as the rest
+of the city.  Instead of small mortared bricks, these are huge masoned stones
+fit together wth barely a noticable seam.
+~
+67 cdp h 0 0  0
+D4
+~
+~
+0 0 6741 0 0 0 0 0 0 0 0
+D7
+~
+tower~
+1 0 6709 0 0 0 0 0 0 0 0
+S
+#6739
+The Southeast Guard Tower of Solanthus~
+   The guard tower of Solanthus is built from the same yellow stone as the rest
+of the city.  Istead of small mortared bricks, these huge masoned stones fit
+together with barely a noticable seam.  The heavy foot steps of Solamnic knight
+echoes from the roof above.  The bellowed commands of "Who goes there?  " ring
+off the rafters.    
+~
+67 cdp h 0 0  0
+D4
+~
+~
+0 0 6740 0 0 0 0 0 0 0 0
+D6
+~
+tower~
+1 0 6728 0 0 0 0 0 0 0 0
+S
+#6740
+The Crenallated Tower Roof~
+   The roof of this tower is built of the same yellow stone as the rest of the
+city.  Its huge masoned stones fit togheter with barely a seam and the dust
+blowing in from the plains of Solamnia gives a smooth floor for the knights to
+pace.    
+~
+67 p h 0 0  1
+D5
+~
+~
+0 0 6739 0 0 0 0 0 0 0 0
+S
+#6741
+The Crenallated Tower Roof~
+   The roof of this tower is built of the same yellow stone as the rest of the
+city.  Its huge masoned stones fit together with barely a seam and the dust
+blowing in from the plains of Solamnia gives a smooth floor for the knights to
+pace.    
+~
+67 p h 0 0  1
+D5
+~
+~
+0 0 6738 0 0 0 0 0 0 0 0
+S
+#6742
+The Foyer of Palanthas Tower~
+   A large inviting fireplace warms the room from the west wall here.  Life
+size statues of cobalt and marble adorn the room with scenes of glorious
+battle.  A huge area rug covers the floor making it warm to the touch, upon it
+an embrodiered scene of a flight of dragons.  To the north an archway leads
+deeper in to the tower, to the southeast the path back into the city.    
+~
+67 p 0 0 0  0
+D0
+~
+~
+0 0 6743 0 0 0 0 0 0 0 0
+D8
+~
+gate~
+1 0 6736 0 0 0 0 0 0 0 0
+S
+#6743
+The Guardroom of Palanthas Tower~
+   This room is simply adorned, a few comfortable chairs along the wall
+surrounded by tables and paperwork.  A large bookshelf stands in the corner of
+the room holding many manuals used to train new guardsmen in the laws and
+regulations of the city.  To the south an archway leads to the foyer of the
+tower, to the west an open door leads deeper into the tower.    
+~
+67 p 0 0 0  0
+D2
+~
+~
+0 0 6742 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6744 0 0 0 0 0 0 0 0
+S
+#6744
+The Barracks of Palanthas Tower~
+   This barracks is arranged in neat rows of beds and chests in accordance with
+the regulations of the Solanthus guards.  Small single person cots line the
+room with their mattresses of straw.  At the foot of each cot lies a small
+chest for the guards personal belongings.  To the south sounds of pots and pans
+can be heard, to the east the faint glow of a fireplace can be seen.    
+~
+67 p 0 0 0  0
+D1
+~
+~
+0 0 6743 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6745 0 0 0 0 0 0 0 0
+S
+#6745
+The Kitchen of Palanthas Tower~
+   This large kitchen is enough to cook for a small army of men.  Pots and pans
+hang from the ceiling in neat rows, shining from a fresh scrubbing.  Three
+large wood fired ovens line the back wall behind all the baking racks that
+cover the room.  In the corner a steep staricase can be seen leading up into
+the tower, to the north lie the towers guard barracks.    
+~
+67 p 0 0 0  0
+D0
+~
+~
+0 0 6744 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6746 0 0 0 0 0 0 0 0
+S
+#6746
+The Night Watch Office~
+   Candlebra sit on the two large desks here giving the room a warm glow.  
+Behind each desk a rack of weaponry can be seen, polearms and swords of many
+kinds line the walls of this sparse room.  A large iron door lies on the east
+wall of the office.    
+~
+67 p 0 0 0  0
+D1
+~
+door~
+1 0 6747 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6745 0 0 0 0 0 0 0 0
+S
+#6747
+A Private Sleeping Chamber~
+   A large bed fills most of the room here behind a velvet curtain.  A small
+carpeted path leads across the room through an ironbound door to the north.  A
+large dresser and wardrobe made of iron wood stand by the bed giving the room a
+look of impregnablity.    
+~
+67 p 0 0 0  0
+D0
+~
+door~
+2 6731 6748 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6746 0 0 0 0 0 0 0 0
+S
+#6748
+A Treasury~
+   This rooms walls are lined with and extra layer of stonework bricks, making
+it smaller than it seems it should be.  A faint reddish color paints the walls
+to give it a very cramped feeling.  A small ladder goes up through the roof
+here to the top of the tower.  All about are rows of neatly stacked lock boxes
+each with various labels and dates.    
+~
+67 p 0 0 0  0
+D2
+~
+door~
+1 6731 6747 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6749 0 0 0 0 0 0 0 0
+S
+#6749
+The Roof of The Palanthas Tower~
+   A wonderful view from this vantage point, nearly the entire city of
+Solanthus can be seen from here.  The tops of the buildings with their crimson
+shingling and the fountain at the square can easily be made out from this
+vantage point.  The people below go about their daily business knowing that the
+guards in the famous towers of Solathus watch over them ever vigil.    
+~
+67 p h 0 0  1
+D5
+~
+~
+0 0 6748 0 0 0 0 0 0 0 0
+S
+#6750
+OTHER SIDE OF EAST GATE~
+NEED ROAD TO HIGH CLERISTS TOWER
+~
+67 p 0 0 0  0
+D9
+~
+gates~
+2 0 6737 0 0 0 0 0 0 0 0
+E
+mosaic~
+   The small marble tiles here make a large mosaic upon the floor of the towers
+foyer.  A scene of a shining white knight riding into a glorious battle.    
+~
+S
+#6751
+The Temple of Kiri-Jolith on Temple Row~
+   A brilliant cobblestone path makes up the walkway with brilliant rose
+gardens in all directions away from the Cleft Spires.  Very few common folk of
+Solanthus are here as it is consumed by priests and clerics.    
+~
+67 p h 0 0  1
+D6
+~
+~
+0 0 6717 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6752 0 0 0 0 0 0 0 0
+S
+#6752
+The Temple of Paladine on Temple Row~
+   A brilliant cobblestone path makes up the walkway with brilliant rose
+gardens in all directions away from the Cleft Spires.  Very few common folk of
+Solanthus are here as it is consumed by priests and clerics.    
+~
+67 p h 0 0  1
+D6
+~
+~
+0 0 6751 0 0 0 0 0 0 0 0
+S
+#6753
+Before Striketrue Academy ~
+   At the far east edge of the city is this brickfaced building with a rustic
+sign stating 'Striketrue Academy'.  Sounds of steel and wood clashing against
+each other pierces your ears, with no pauses between them.  The building has
+high arch windows however, they are made from smoked glass making it impossible
+to see inside.    
+~
+67 cp h 0 0  1
+D1
+~
+door~
+1 0 6754 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6726 0 0 0 0 0 0 0 0
+S
+#6754
+The Striketrue Academy~
+   Soft mats fill this room, each one extending from one wall to the next.  
+Along the eastern wall are large tapestries depicting defensive maneuvers young
+knights are trained.  A slight breeze flows the the area, but does not help in
+the stench of training soldiers.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6755 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6756 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6757 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6753 0 0 0 0 0 0 0 0
+S
+#6755
+A Sparring Room~
+   Soft mats fill this room, each one extending from one wall to the next.  
+Along the eastern wall are large tapestries depicting defensive maneuvers young
+knights are trained.  A slight breeze flows the the area, but does not help in
+the stench of training soldiers.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6719 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6754 0 0 0 0 0 0 0 0
+S
+#6756
+Chamber of the Master Instructor~
+   This rooms walls are lined with an extra layer of padding extending from the
+floor to halfway up the wall.  A faint reddish color paints the walls and gives
+it a very cramped, eerie feeling.  Several weapons are permantly affixed to the
+walls here, some appear to be covered in blood.    
+~
+67 cdp 0 0 0  0
+D3
+~
+~
+0 0 6754 0 0 0 0 0 0 0 0
+S
+#6757
+A Sparring Room~
+   Soft mats fill this room, each one extending from one wall to the next.  
+Along the eastern wall are large tapestries depicting defensive maneuvers young
+knights are trained.  A slight breeze flows the the area, but does not help in
+the stench of training soldiers.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6754 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6720 0 0 0 0 0 0 0 0
+S
+#6758
+The Hall of Knights Chapel~
+   This room contains several benches arranged in perfect rows and columns
+facing the center podium.  This chapel could easily fit thirty soldiers and
+guardsmen for prayer.  A large wooden podium sits to the north of the room
+serving as an area for a priest to conduct prayer so that the entire room can
+see and hear.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6761 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6759 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6765 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6760 0 0 0 0 0 0 0 0
+E
+bin~
+   This bin seems to block the way to most of the roof, over half the roof here
+is completely covered with piles of old lumber and such.  This bin is simply
+the foreground for the elevated junkyard here in the heart of the city.  Its
+top is closed and covered with old nails and what looks like a birds nest,
+probably barnswallows.    
+~
+E
+garbage~
+   This garbage bin seems to block the way to most of the roof, over half the
+roof here is completely covered with piles of lumber and such.  This bin is
+simply the foreground for the elevated junkyard here in the heart of the city.
+Its top is closed and covered with old nails and what looks like a birds nest,
+probably barnswallows.    
+~
+E
+pile~
+   The huge pile of rope lying here is easily as tall as a smallpony, its coils
+as thick around as a longbows shaft.  Itlooks worn and weathered from sitting
+up here unused, probably useful for nothing requiring a strong length of rope.
+  
+~
+E
+ropes~
+   The ropes here seem sturdy enough and wound from a strange material, the
+strangest thing about it is the sticky black substance it seems to be coated
+in.  It looks as though a brave soul could try traverse accross if they had the
+balance.    
+~
+S
+#6759
+The Hall of Knights Chapel~
+   This room contains several benches arranged in perfect rows and columns
+facing the center podium.  This chapel could easily fit thirty soldiers and
+guardsmen for prayer.  A large wooden podium sits to the north of the room
+serving as an area for a priest to conduct prayer so that the entire room can
+see and hear.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6762 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6758 0 0 0 0 0 0 0 0
+E
+rope~
+   The rope seems sturdy enough and is wound from a strange material, the
+strangest thing about it is the sticky black substance it is coated in.  While
+odd it seems to help with footing and balance.    
+~
+S
+#6760
+The Hall of Knights Chapel~
+   This room contains several benches arranged in perfect rows and columns
+facing the center podium.  This chapel could easily fit thirty soldiers and
+guardsmen for prayer.  A large wooden podium sits to the north of the room
+serving as an area for a priest to conduct prayer so that the entire room can
+see and hear.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6763 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6758 0 0 0 0 0 0 0 0
+S
+#6761
+The Hall of Knights Chapel~
+   This room contains several benches arranged in perfect rows and columns
+facing the center podium.  This chapel could easily fit thirty soldiers and
+guardsmen for prayer.  A large wooden podium sits to the north of the room
+serving as an area for a priest to conduct prayer so that the entire room can
+see and hear.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6764 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6762 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6758 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6763 0 0 0 0 0 0 0 0
+E
+rope~
+   The rope seems sturdy enough and is wound from a strange material, the
+starngest thing about it is the sticky black substance it is coated in.  While
+odd it seems to help with footing and balance.    
+~
+S
+#6762
+The Hall of Knights Chapel~
+   This room contains several benches arranged in perfect rows and columns
+facing the center podium.  This chapel could easily fit thirty soldiers and
+guardsmen for prayer.  A large wooden podium sits to the north of the room
+serving as an area for a priest to conduct prayer so that the entire room can
+see and hear.    
+~
+67 dp 0 0 0  0
+D2
+~
+~
+0 0 6759 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6761 0 0 0 0 0 0 0 0
+E
+rope~
+   The rope seems sturdy enough and is wound from a strange material, the
+starngest thing about it is the sticky black substance it is coated in.  While
+odd it seems to help with footing and balance.    
+~
+S
+#6763
+The Hall of Knights Chapel~
+   This room contains several benches arranged in perfect rows and columns
+facing the center podium.  This chapel could easily fit thirty soldiers and
+guardsmen for prayer.  A large wooden podium sits to the north of the room
+serving as an area for a priest to conduct prayer so that the entire room can
+see and hear.    
+~
+67 dp 0 0 0  0
+D1
+~
+~
+0 0 6761 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6760 0 0 0 0 0 0 0 0
+E
+rope~
+   The rope seems sturdy enough and is wound from a strange material, the
+starngest thing about it is the sticky black substance it is coated in.  While
+odd ot seems to help with footing and balance.    
+~
+S
+#6764
+The Hall of Knights Chapel Podium~
+   This is the focal point for the Hall of Knights Chapel.  A high Priest of Paladine
+is here conducting sermons to the soldiers and guardsmen of Solanthus.  This
+chapel could easily fit thirty soldiers and guardsmen for prayer.  From this
+point you can easily see the entire Chapel and all of the benches.  This area
+is raised about four feet above the rest of the Chapel.    
+~
+67 dp 0 0 0  0
+D2
+~
+~
+0 0 6761 0 0 0 0 0 0 0 0
+E
+gutter~
+   The gutter runs accross the entire roof in a large X pattern, gathering
+rainwater and dispensing it over the side of the building.  Along the X itself
+one of the larger inerwoven stones seems to be coming loose from its mortar.  
+
+~
+S
+#6765
+The Hall of Knights Chapel~
+   This is a hallway leading north to the Hall of Knights Chapel.  The Chapel contains
+several benches arranged in perfect rows and columns facing the center podium.
+This chapel could easily fit thirty soldiers and guardsmen for prayer.  A large
+wooden podium sits to the north of the room serving as an area for a priest to
+conduct prayer so that the entire room can see and hear.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6758 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6766 0 0 0 0 0 0 0 0
+E
+tarp~
+   As you begin to move the heavy black tarp away from the wall, a glitter of
+steel flashes in the corner and a voice fills the room in a soft threatening
+manner....  "Can I help you with something?  "
+~
+E
+shadow~
+   The darkness in the corner seems almost too dark to be real, as you creep
+closer to look into the unknown a glitter of steel appears and a voice fills
+the room with a soft, articulate hiss...  "Can I help you with something?  "
+~
+S
+#6766
+The Hall of Knights Chapel~
+   This is a hallway leading north to the Hall of Knights Chapel.  The Chapel contains
+several benches arranged in perfect rows and columns facing the center podium.
+This chapel could easily fit thirty soldiers and guardsmen for prayer.  A large
+wooden podium sits to the north of the room serving as an area for a priest to
+conduct prayer so that the entire room can see and hear.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6765 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6794 0 0 0 0 0 0 0 0
+E
+padlock~
+   The padlock on the outside of the cell could be reached through the bars by
+someone with small enough hands.  Its brass fittings tarnished it is still well
+made and cast from thick metal, a key, or locksmith would be needed to open it.
+  
+~
+S
+#6767
+A Small Alleyway~
+   The meeting of quiet Tower Lane and busy Wyvern Way is a strange mix of
+old and new.  Rich and poor.  Beggars lean against the sunny western walls
+while merchants and soldiers speed past oblivious.  In the shadows of the
+north eastern corner of this intersection can be seen less benign seekers of
+wealth preparing to attack some hapless individual.    
+~
+67 p h 0 0  1
+D3
+~
+~
+0 0 6768 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6716 0 0 0 0 0 0 0 0
+E
+ivy~
+   The ivy here is very thick and looks as though it could support a persons
+weight to climb up to the walls top, if a path through it could be found.    
+~
+E
+vine~
+   The ivy here is very thick and looks as though it could support a persons
+weight to climb up to the walls very top, if a path through its thick branches
+could be found.    
+~
+S
+#6768
+Dorchester Boulevard~
+   The boulevard is lined with luxurious houses on either side, the finest
+horses rest tied in front of each dwelling.  The south end of the street is
+blocked off by a new construction project that looks like a large manor house.
+Looking north down the whitewashed cobblestone street a large manor rises above
+all the others on the block.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6769 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6767 0 0 0 0 0 0 0 0
+E
+construction~
+   The manor in the progress of being built here on the streets south end
+appears to be for a noble family with a great deal of horses.  A large nearly
+finished stable can be seen just within the unfinished walls of the estate.  
+As well as a large riding arena that has been marked out with stones.    
+~
+S
+#6769
+Dorchester Boulevard~
+   The boulevard is lined with luxurious houses on either side, the finest
+horses rest tied in front of each dwelling.  The south end of the street is
+blocked off by a new construction project that looks like a large manor house.
+Looking north down the whitewashed cobblestone street a large manor rises above
+all the others on the block.    
+~
+67 p h 0 0  1
+D0
+~
+~
+0 0 6772 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6768 0 0 0 0 0 0 0 0
+E
+house~
+   The small house on the west side of the street seems to be the source of the
+recently cleaned street as a path of new whitewash leads directly to its door.
+  
+~
+E
+elegant~
+   The small house on the west side of the street seems to be the source of the
+recently cleaned street as a path of new whitewash leads directly to its door.
+  
+~
+E
+manor~
+   A large manor looms at the end of the street to the north, a well crafted
+archway over its entrance.  A small sign can be seen but cannot be made out
+from here.    
+~
+S
+#6770
+Dorchester Garden~
+   This small dwelling has all the furnishings of a merchant nobleman's home.
+Art hangs on the walls from well known artists like Dorwen and Gisaco.  The
+rooms furnishings look to be antique, perhaps even pre-cataclysm, as well it
+appears the family dog was so loved he now stands guard at the door.  A tribute
+to the evolving art of taxidermy.    
+~
+67 d h 0 0  0
+S
+#6771
+Dorchester Garden~
+   This small house is tiled entirely with marble slabs.  While the furniture
+is not extravagant, its simple decor is breathtaking.  A large writing desk
+fills the northern wall, atop it various papers and books.  Windows of glass
+overlook street outside, a sure sign of true wealth.  Deep blue velvet curtains
+cover barren spaces in the wall where tapestries normally would, and a
+wonderful smell fills the room emitted from the fresh flowers in an ornate vase
+atop the writing desk.    
+~
+67 d h 0 0  0
+E
+velvet~
+   Heavy velvet curtains of a deep, almost purple, blue hang here.  An odd
+place for them really, hung against the wall as one would hang a tapestry or
+painting.  Some gold thread glitters at the bottom of the curtains, upon closer
+inspection it is embrodiery done by the maker, it reads: "For a darling house
+far to the south, good luck my love.  "
+~
+S
+#6772
+Dorchester Boulevard~
+   The boulevard is lined with luxurious houses on either side, the finest
+horses rest tied in front of each dwelling.  The south end of the street is
+blocked off by a new construction project that looks like a large manor house.
+Looking north down the whitewashed cobblestone street a large manor rises above
+all the others on the block.  To the west is the doors to a granite building
+faced with marble.    
+~
+67 p h 0 0  1
+D2
+~
+~
+0 0 6769 0 0 0 0 0 0 0 0
+D3
+~
+doors~
+1 6705 6797 0 0 0 0 0 0 0 0
+E
+door w~
+You see nothing special.
+~
+E
+sign~
+   The sign above the archway to the manor reads: Welcome to all those worn and
+tired travellers seeking a comfortable sleep and a warm meal.  Stabling for
+horses is available if needed.  Welcome to the Manor Shaalinier.    
+~
+S
+#6773
+Captain of the Crown's Chamber~
+   This is the Captain of the Crown's room.  This room is highly decorated with
+ancient artifacts including battle badges from dead relatives.  There is a huge
+black oak desk sitting in the left hand corner of the room.  The only way to
+describe this desk is amazing.  It has carvings of roses all over it.  The
+knight of the rose has a very large bed in this room and a large closet filled
+with clothes and armor.    
+~
+67 d 0 0 0  0
+D0
+~
+door~
+1 0 6791 0 0 0 0 0 0 0 0
+E
+base~
+   The inscription reads: "A gift to a noble family of steel workers, and
+merchant folk.  May all your crops be plentiful and Paladine's grace bless you.
+" Signed: Lord Armax Truer
+~
+E
+inscription~
+   The inscription reads: "A gift to a noble family of steel workers and
+merchant folk.  May all your crops be pltiful and Paladine's grace bless you.
+" Signed: Lord Armax Truer
+~
+S
+#6774
+Captain of the Sword's Chamber~
+   This room holds a sturdy oak wood desk and an enormous bulletin board inlaid
+into the marble wall.  Several writing utensils and sheets of papyrus are
+scattered atop the desk for those wishing to use the board as correspondance.
+A stocky middle-aged knight sits behind the desk working with a quill and some
+parchment.    
+~
+67 dp 0 0 0  0
+D0
+~
+door~
+1 0 6788 0 0 0 0 0 0 0 0
+S
+#6775
+Captain of the Rose's Chamber~
+   A large oak desk rests here, polished to a high sheen.  Behind the desk sits
+an aging gentleman with rigid, hawkish features.  The walls of the room are
+decorated with antique sets of highly polished solamnic armor.  Each of the
+three walls representing and order of the solamnic knighthood, The Order of the
+Crown to the west, The Order of the Sword to the East , and The Order of the
+Rose to the South.    
+~
+67 dp 0 0 0  0
+D0
+~
+door~
+1 0 6789 0 0 0 0 0 0 0 0
+E
+painting~
+   "A Summers Way" the painting is entitled.  A large blazing red sun setting
+on a field of fallen leaves, and a small girl silhoutted with her back to the
+viewer.    
+~
+S
+#6776
+Dog and Duck Tavern~
+   This tavern seems to be fairly old and well-traveled, but it remains clean
+and peaceful.  The yellow color of the Solanthus walls was used in here to
+accent the greater portion of the walls also.  A few tables have been set up
+here and spaced far enough apart to allow easy travel between with high seated
+chairs under them.  The tavern is also fairly crowded.  The bartender is
+directly north of here.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6780 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6785 0 0 0 0 0 0 0 0
+D2
+~
+gates~
+0 0 6779 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6784 0 0 0 0 0 0 0 0
+S
+#6777
+Dog and Duck Tavern~
+   This tavern seems to be fairly old and well-traveled, but it remains clean
+and peaceful.  The yellow color of the Solanthus walls was used in here to
+accent the greater portion of the walls also.  A few tables have been set up
+here and spaced far enough apart to allow easy travel between with high seated
+chairs under them.  The tavern is also fairly crowded.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6785 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6779 0 0 0 0 0 0 0 0
+E
+plaque~
+   This ancient stocks carries a plaque upon it reading: The first compulsory
+detainment device used in the great lands of Solamnia.  "
+~
+E
+stocks~
+   This ancient stocks carries a plaque upon it reading: The first compulsory
+detainment device used in the great lands of Solamnia.  "
+~
+S
+#6778
+Dog and Duck Tavern~
+   This tavern seems to be fairly old and well-traveled, but it remains clean
+and peaceful.  The yellow color of the Solanthus walls was used in here to
+accent the greater portion of the walls also.  A few tables have been set up
+here and spaced far enough apart to allow easy travel between with high seated
+chairs under them.  The tavern is also fairly crowded.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6784 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6779 0 0 0 0 0 0 0 0
+D5
+~
+secret~
+1 0 -1 0 0 0 0 0 0 0 0
+S
+#6779
+Dog and Duck Tavern~
+   This tavern seems to be fairly old and well-traveled, but it remains clean
+and peaceful.  The yellow color of the Solanthus walls was used in here to
+accent the greater portion of the walls also.  A few tables have been set up
+here and spaced far enough apart to allow easy travel between with high seated
+chairs under them.  The tavern is also fairly crowded.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6776 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6777 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6783 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6778 0 0 0 0 0 0 0 0
+E
+sign~
+   The sign reads: "Even the gods themselves pay penance for their mistakes.  
+Find strength and ye shall be delivered.  "
+~
+S
+#6780
+Tavern Barkeep~
+   A large half oval bar has been carefully built into the walls here with
+narrow entrance in the center.  Several hoses are run from holes in the floor
+and are attached to pumps, likely to pump ale from the basement.  The bar
+itself is beautifully carved and decorated with Knights of Solamnia symbols.  
+On the wall behind the bartender is suit of armor and a sword bearing the
+Symbol of the Crown in a case.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6799 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6776 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+2 6706 6781 0 0 0 0 0 0 0 0
+S
+#6781
+Tavern Basement~
+   The walls in the basement are lined with wine racks and barrels of ale.  
+The area is lit with few very weak candles that flicker at the slightest
+movement.  Dust has accumulated around most of the basement with the exception
+of the traveled areas.  Small cracks in the floorboard above you shed some
+light through and make the area even more lit.    
+~
+67 dp 0 0 0  0
+D2
+~
+~
+0 0 6782 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 6706 6780 0 0 0 0 0 0 0 0
+E
+sign~
+   The sign reads: "Even the gods themselves pay penance for their mistakes.  
+Find strength and ye shall be delivered.  "
+~
+S
+#6782
+Tavern Basement~
+   The walls in the basement are lined with wine racks and barrels of ale.  
+The area is lit with few very weak candles that flicker at the slightest
+movement.  Dust has accumulated around most of the basement with the exception
+of the traveled areas.  Small cracks in the floorboard above you shed some
+light through and make the area even more lit.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6781 0 0 0 0 0 0 0 0
+S
+#6783
+Entrance to the Dog and Duck Tavern~
+   Off of the quiet back lane of Solanthas is a small entryway to the only
+tavern in Solanthus.  The faded yellow walls of Solanthus meet this small
+tavern.  The ivy that climbs the rest of the walls in Solanthus has been neatly
+trimmed here to provide a professional appearance to this tavern.    
+~
+67 cp h 0 0  1
+D0
+~
+door~
+1 0 6779 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 6707 0 0 0 0 0 0 0 0
+S
+#6784
+Dog and Duck Tavern~
+   This tavern seems to be fairly old and well-traveled, but it remains clean
+and peaceful.  The yellow color of the Solanthus walls was used in here to
+accent the greater portion of the walls also.  A few tables have been set up
+here and spaced far enough apart to allow easy travel between with high seated
+chairs under them.  The tavern is also fairly crowded.    
+~
+67 dp 0 0 0  0
+D1
+~
+~
+0 0 6776 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6778 0 0 0 0 0 0 0 0
+D4
+~
+secret~
+1 0 -1 0 0 0 0 0 0 0 0
+S
+#6785
+Dog and Duck Tavern~
+   This tavern seems to be fairly old and well-traveled, but it remains clean
+and peaceful.  The yellow color of the Solanthus walls was used in here to
+accent the greater portion of the walls also.  A few tables have been set up
+here and spaced far enough apart to allow easy travel between with high seated
+chairs under them.  The tavern is also fairly crowded.    
+~
+67 dp 0 0 0  0
+D2
+~
+~
+0 0 6777 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6776 0 0 0 0 0 0 0 0
+S
+#6786
+Training Grounds~
+   This is the training grounds for soldiers and guardsmen in Solanthus.  
+Several wooden dummies have been set up along the walls and a few weapon racks
+sit in the center of the rooms.  The floor and walls are made of wood, and
+appear to be beaten thoroughly.  The ceiling is open air here making it easier
+to disperse stench as the warriors train.    
+~
+67 p 0 0 0  1
+D1
+~
+~
+0 0 6787 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6798 0 0 0 0 0 0 0 0
+S
+#6787
+Training Grounds~
+   This is the training grounds for soldiers and guardsmen in Solanthus.  
+Several wooden dummies have been set up along the walls and a few weapon racks
+sit in the center of the rooms.  The floor and walls are made of wood, and
+appear to be beaten thoroughly.  The ceiling is open air here making it easier
+to disperse stench as the warriors train.    
+~
+67 p 0 0 0  1
+D3
+~
+~
+0 0 6786 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6794 0 0 0 0 0 0 0 0
+S
+#6788
+The Emperial Hallway~
+   This hallway is connected to the rest of the Hall of Knights common room but is
+much more heavily watched.  Very little traffic is noticeable in this area and
+it is much cleaner.  A high sheen is visable on the floor and the walls are
+scuff free.  The ceilings are arched and decorated with symbols related of the
+Knights of Solamnia.  This area is extremely quiet with the exception of a few
+guardsmen's footsteps.  A large doorway is visible in the southern portion of
+the room.    
+~
+67 cdp 0 0 0  0
+D1
+~
+~
+0 0 6791 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6774 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6789 0 0 0 0 0 0 0 0
+S
+#6789
+The Emperial Hallway~
+   This hallway is connected to the rest of the Hall of Knights common room but is
+much more heavily watched.  Very little traffic is noticeable in this area and
+it is much cleaner.  A high sheen is visable on the floor and the walls are
+scuff free.  The ceilings are arched and decorated with symbols related of the
+Knights of Solamnia.  This area is extremely quiet with the exception of a few
+guardsmen's footsteps.  A large doorway is visible in the southern portion of
+the room.    
+~
+67 cdp 0 0 0  0
+D1
+~
+~
+0 0 6788 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6775 0 0 0 0 0 0 0 0
+E
+stream~
+   The lukewarm water runs slowly out of the city here, various pieces of
+refuse and uinidentifiable objects float by headed for the grasslands around
+Solanthus.    
+~
+S
+#6790
+Dorchester Manor~
+   The great weight of the wall of Solanthus above is felt in the
+dankunderground of this sewer.  A small stream runs out to the east here,
+through a rusty iron gate.  Its waters run lukewarm as they pass through here
+emitting a surprising stench.  The walls of the sewer are rounded at the top
+and made of old style red clay bricks.  Very unlike the near pristine city
+above.  Another tunnel continues under the city here to the northwest, the
+waters run deeper in that direction and the stench grows worse.    
+~
+67 ad h 0 0  0
+E
+water~
+   The lukewarm water runs slowly through the tunnel here, various pieces of
+refuse and unidentifiable objects float by headed out of the city.    
+~
+E
+stream~
+   The lukewarm water runs slowly through the tunnel here, various pieces of
+refuse and unidentifiable objects float by headed out of the city.    
+~
+S
+#6791
+The Emperial Hallway~
+   This hallway is connected to the rest of the Hall of Knights common room but is
+much more heavily watched.  Very little traffic is noticeable in this area and
+it is much cleaner.  A high sheen is visable on the floor and the walls are
+scuff free.  The ceilings are arched and decorated with symbols related of the
+Knights of Solamnia.  This area is extremely quiet with the exception of a few
+guardsmen's footsteps.  A large doorway is visible in the southern portion of
+the room.    
+~
+67 cdpr 0 0 0  0
+D0
+~
+~
+0 0 6792 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6773 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6788 0 0 0 0 0 0 0 0
+E
+water~
+   The lukewarm water runs slowly here with various pieces of unidentifiable
+material floating down its weak current.    
+~
+S
+#6792
+Hallways to the Captain's Quarters~
+   This hallway is connected to the rest of the Hall of Knights common room but is
+much more heavily watched.  Very little traffic is noticeable in this area and
+it is much cleaner.  A high sheen is visable on the floor and the walls are
+scuff free.  The ceilings are arched and decorated with symbols related of the
+Knights of Solamnia.  This area is extremely quiet with the exception of a few
+guardsmen's footsteps.    
+~
+67 dpr 0 0 0  0
+D0
+~
+~
+0 0 6793 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6791 0 0 0 0 0 0 0 0
+E
+water~
+   The water here has all but stopped flowing, it's great stench intermingled
+with that of stagnant standing water and vomit.    
+~
+S
+#6793
+Hallways to the Captain's Quarters~
+   This hallway is connected to the rest of the Hall of Knights common room but is
+much more heavily watched.  Very little traffic is noticeable in this area and
+it is much cleaner.  A high sheen is visable on the floor and the walls are
+scuff free.  The ceilings are arched and decorated with symbols related of the
+Knights of Solamnia.  This area is extremely quiet with the exception of a few
+guardsmen's footsteps.    
+~
+67 dp 0 0 0  0
+D1
+~
+~
+0 0 6795 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6792 0 0 0 0 0 0 0 0
+S
+#6794
+The Hall of Knights Common Room~
+   This building serves as a common room for the soldiers including a large
+training area as well as the Hall of Knights Chapel on the northern side.  The
+building as a whole appears to be taken care of very well, but is older than
+most buildings in Solanthas.  This building also serves as the Captain's
+quarters that are heavily guarded in the southern portion.    
+~
+67 cdp 0 0 0  0
+D2
+~
+~
+0 0 6796 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6787 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6766 0 0 0 0 0 0 0 0
+S
+#6795
+Entrance to the Captain's Quarters~
+   This hallway is connected to the rest of the Hall of Knights common room but is
+much more heavily watched.  Very little traffic is noticeable in this area and
+it is much cleaner.  A high sheen is visable on the floor and the walls are
+scuff free.  The ceilings are arched and decorated with symbols related of the
+Knights of Solamnia.  This area is extremely quiet with the exception of a few
+guardsmen's footsteps.    
+~
+67 cdp 0 0 0  0
+D0
+~
+~
+0 0 6796 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6793 0 0 0 0 0 0 0 0
+E
+ceiling~
+   The ceiling here is covered in weights and counterbalances, each connected
+to pipes.  The sound of running water can be heard above clearly.  A small
+trapdoor is easily made out by anyone who would examine the complicated
+plumbing lining the roof of the vault.  The trapdoor leaks water slightly and
+it is easily deduced the city fountain lies above.    
+~
+E
+pipes~
+   The ceiling here is covered in weights and counterbalances, each connected
+to pipes.  The sound of running water can be heard above clearly.  A small
+trapdoor is easily made out by anyone who would examine the complicated
+plumbing lining the roof of the vault.  The trapdoor leaks water slightly and
+it is easily deduced the city fountain lies above.    
+~
+E
+weights~
+   The ceiling here is covered in weights and counterbalances, each connected
+to pipes.  The sound of running water can be heard clearly.  Heard above
+clearly.  A small trapdoor is easily made out by anyone who would examine the
+complicated plumbing lining the roof of the vault.  The trapdoor leaks water
+slightly and it is easily deduced the city fountain lies above.    
+~
+E
+pipe~
+   The ceiling here is covered in weights and counterbalances, each connected
+to pipes.  The sound of running water can be heard clearly.  Heard above
+clearly.  A small trapdoor is easily made out by anyone who would examine the
+complicated plumbing lining the roof of the vault.  The trapdoor leaks water
+slightly and it is easily deduced the city fountain lies above.    
+~
+E
+weight~
+   The ceiling here is covered in weights and counterbalances, each connected
+to pipes.  The sound of running water can be heard clearly.  Heard above
+clearly.  A small trapdoor is easily made out by anyone who would examine the
+complicated plumbing lining the roof of the vault.  The trapdoor leaks water
+slightly and it is easily deduced the city fountain lies above.    
+~
+S
+#6796
+The Hall of Knights Common Room~
+   This building serves as a common room for the soldiers including a large
+training area as well as the Hall of Knights Chapel on the northern side.  The
+building as a whole appears to be taken care of very well, but is older than
+most buildings in Solanthas.  This building also serves as the Captain's
+quarters that are heavily guarded in the southern portion.    
+~
+67 dp 0 0 0  0
+D0
+~
+~
+0 0 6794 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6797 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6795 0 0 0 0 0 0 0 0
+S
+#6797
+The Hall of Knights Common Room~
+   This building serves as a common room for the soldiers including a large
+training area as well as the Hall of Knights Chapel on the northern side.  The
+building as a whole appears to be taken care of very well, but is older than
+most buildings in Solanthas.  This building also serves as the Captain's
+quarters that are heavily guarded in the southern portion.    
+~
+67 cdp 0 0 0  0
+D1
+~
+doors~
+1 6705 6772 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6796 0 0 0 0 0 0 0 0
+E
+bed~
+   The bed here looks very comfortable, as if it were made by a nobleman for a
+nobleman, someone who knew true comfort and luxury.  The thick blankets upon
+closer inspection are multi-layered weaves of a strange thin material, the
+woven threads so fine it could only have been made by elven hands.    
+~
+S
+#6798
+Training Grounds~
+   This is the training grounds for soldiers and guardsmen in Solanthus.  
+Several wooden dummies have been set up along the walls and a few weapon racks
+sit in the center of the rooms.  The floor and walls are made of wood, and
+appear to be beaten thoroughly.  The ceiling is open air here making it easier
+to disperse stench as the warriors train.    
+~
+67 p 0 0 0  1
+D1
+~
+~
+0 0 6786 0 0 0 0 0 0 0 0
+E
+tree~
+   This tree appears to be hundreds of years old, its foliage thick and
+healthy.  The dark brown bark is grooved so deeply one would think it had been
+sculpted meticously be a craftsmans hands for just the right look.    
+~
+S
+#6799
+Tavern Kitchen~
+   The kitchen in this tavern is relatively small, seperated from the rest of
+the tavern by a small swinging half-door.  The area seems surprisingly open and
+clean, with wide windows at the tops of each wall.  Several cooks here work
+diligently preparing small meals for the patrons.  Occasionaly a waitress will
+come in here to grab an order, but no other traffic is present.    
+~
+67 cdp 0 0 0  0
+D2
+~
+~
+0 0 6780 0 0 0 0 0 0 0 0
+S
+$

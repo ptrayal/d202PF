@@ -1,0 +1,1269 @@
+#2900
+The Road East of Solace~
+   This road heads east of Solace, through a small forest and onto the plains.
+The traffic on the road has dwindled with a growing sense of menace in the
+land, but an occasional traveler can still be seen walking it.    
+~
+29 c h 0 0 2
+D0
+~
+~
+0 0 5052 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2901 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1358 0 0 0 0 0 0 0 0
+S
+#2901
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed
+from heavy use, but the ground is moist from a recent rainstorm.  To the west
+is the village of Solace, and to the east a low mountain range can be seen on
+the horizon.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2902 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2900 0 0 0 0 0 0 0 0
+S
+#2902
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed
+from heavy use, but the ground is moist from a recent rainstorm.  To the west
+is the village of Solace, and to the east a low mountain range can be seen on
+the horizon.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2903 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2901 0 0 0 0 0 0 0 0
+S
+#2903
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed
+from heavy use, but the ground is moist from a recent rainstorm.  To the west
+is the village of Solace, and to the east a low mountain range can be seen on
+the horizon.    
+~
+29 0 h 0 0 2
+D3
+~
+~
+0 0 2902 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2904 0 0 0 0 0 0 0 0
+S
+#2904
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed
+from heavy use, but the ground is moist from a recent rainstorm.  To the west
+is the village of Solace, and to the east a low mountain range can be seen on
+the horizon.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2906 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2903 0 0 0 0 0 0 0 0
+S
+#2905
+A new room~
+You are in a room.
+~
+29 0 h 0 0 0
+S
+#2906
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed
+from heavy use, but the ground is moist from a recent rainstorm.  To the west
+is the village of Solace, and to the east a low mountain range can be seen on
+the horizon.    
+~
+29 0 h 0 0 2
+D0
+~
+~
+0 0 2973 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2907 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2904 0 0 0 0 0 0 0 0
+S
+#2907
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed
+from heavy use, but the ground is moist from a recent rainstorm.  To the west
+is the village of Solace, and to the east a low mountain range can be seen on
+the horizon.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2908 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2906 0 0 0 0 0 0 0 0
+S
+#2908
+A Road Through the Forest~
+   The forest that surrounds this road is thick.  Animals can be heard
+throughout it to the north and south.  The dirt of the path has been packed
+from heavy use, but the ground is moist from a recent rainstorm.  To the west
+is the village of Solace, and to the east a low mountain range can be seen on
+the horizon.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2910 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2907 0 0 0 0 0 0 0 0
+S
+#2909
+The Path Gets Narrower~
+   A faint mist begins to hang in the air as the road turns to the north.  The
+path gets narrower and seems to turn into a denser part of the forest.  Sounds
+of chopping can be heard in the distance, and an ominous feeling fills your
+bones.    
+~
+29 x h 0 0 2
+S
+#2910
+The Edge of the Forest~
+   The forest begins to thin out slightly as you began to approach some
+mountains to the east.  There is grass along the trail here in spots, showing
+signs that not as many people travel this far away from Solace, to the west.  
+The mountain range to the east is small and easily passable, and beyond it lies
+the Que-Shu plains.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2911 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2908 0 0 0 0 0 0 0 0
+S
+#2911
+The Edge of the Forest~
+   The forest begins to thin out slightly as you began to approach some
+mountains to the east.  There is grass along the trail here in spots, showing
+signs that not as many people travel this far away from Solace, to the west.  
+The mountain range to the east is small and easily passable, and beyond it lies
+the Que-Shu plains.  To the northwest the forest is thicker, and a small pass
+leads through it.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2912 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2910 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3113 0 0 0 0 0 0 0 0
+S
+#2912
+Approaching a Small Mountain Range~
+   Known to locals as the Sentinel Peaks, the small mountain range is only a
+short distance to the east.  Rocks and other debris are strewn along the path
+here, giving indication that few people pass this way often.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2913 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2911 0 0 0 0 0 0 0 0
+S
+#2913
+Walking Between the Peaks~
+   Tall peaks of the Sentinel Mountains loom on either side of the path that
+runs between them.  A few birds can be seen circling high above, probably going
+to or from the nests they keep along the edges of the mountains.  The ground
+slopes slightly upward for about a mile and then begins to descend to the
+Que-Shu plains to the east.    
+~
+29 0 h 0 0 5
+D3
+~
+~
+0 0 2912 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2914 0 0 0 0 0 0 0 0
+S
+#2914
+Near the Sentinel Peaks~
+   The Sentinel Peaks rise up a short distance to the west from here, making a
+jagged outline on the horizon.  To the east is a vast grassy plain that extends
+as far as you can see to the horizon.  At dawn, the sun rises over the grass in
+a blaze of crimson sunshine that is breathtaking to the traveller who stops to
+gaze at it.    
+~
+29 0 h 0 0 5
+D1
+~
+~
+0 0 2915 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2913 0 0 0 0 0 0 0 0
+S
+#2915
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2916 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2914 0 0 0 0 0 0 0 0
+S
+#2916
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 3
+D1
+~
+~
+0 0 2917 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2915 0 0 0 0 0 0 0 0
+S
+#2917
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.  To the north, another road meets this one and heads off into the distance.
+~
+29 0 h 0 0 3
+D0
+~
+~
+0 0 4400 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2918 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2916 0 0 0 0 0 0 0 0
+S
+#2918
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2919 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2917 0 0 0 0 0 0 0 0
+S
+#2919
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2920 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2918 0 0 0 0 0 0 0 0
+S
+#2920
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2921 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2919 0 0 0 0 0 0 0 0
+S
+#2921
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2922 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2920 0 0 0 0 0 0 0 0
+S
+#2922
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2923 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2921 0 0 0 0 0 0 0 0
+S
+#2923
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2924 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2922 0 0 0 0 0 0 0 0
+S
+#2924
+The Grassy Plains~
+   The grass stands knee high here as you walk in a vast grassy plain.  The
+path is well marked heading east and west, but anyone straying too far in this
+landscape will easily get lost.  To the west, the Sentinel Peaks rise up from
+the ground and create a jagged horizon.  To the east, the plains stretch on and
+on.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 3200 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2923 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2925 0 0 0 0 0 0 0 0
+S
+#2925
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2927 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2924 0 0 0 0 0 0 0 0
+S
+#2926
+Moving Through the Dry Reef Docks~
+   These docks are quite obviously recently built.  The wood is soaked from the
+violent crashes of waves against rock.  The layout of the docks appears to be
+rather chaotic, connecting from outcropping to outcropping.  However, the
+widest section of the dock stretches straight out into the reef to connect with
+any incoming ships.    
+~
+29 0 h 0 0 1
+D2
+~
+~
+0 0 2952 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2965 0 0 0 0 0 0 0 0
+S
+#2927
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2928 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2925 0 0 0 0 0 0 0 0
+S
+#2928
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2929 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2927 0 0 0 0 0 0 0 0
+S
+#2929
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2930 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2928 0 0 0 0 0 0 0 0
+S
+#2930
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 3
+D1
+~
+~
+0 0 2931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2929 0 0 0 0 0 0 0 0
+S
+#2931
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 3
+D1
+~
+~
+0 0 2932 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2930 0 0 0 0 0 0 0 0
+S
+#2932
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 3
+D3
+~
+~
+0 0 2931 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2933 0 0 0 0 0 0 0 0
+S
+#2933
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 4
+D6
+~
+~
+0 0 2932 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2934 0 0 0 0 0 0 0 0
+S
+#2934
+A Path Through the Plains~
+   The grass is waist high and the path is difficult to discern on this part of
+the plain.  Distant in the west, a tall mountain range looms on the horizon.  
+Except for the mountains, grass is everywhere in an apparently never ending sea
+of green.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2935 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2933 0 0 0 0 0 0 0 0
+S
+#2935
+Nearing the Eastwall Mountains~
+   The Eastwall mountains spring up to the sky in the east.  Formed over
+millions of years, the mountains have long been a force to deal with for
+travellers headed over them.  The grass is somewhat short here, and only comes
+up to the knees on a kender.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2936 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2934 0 0 0 0 0 0 0 0
+S
+#2936
+Nearing the Eastwall Mountains~
+   The Eastwall mountains spring up to the sky in the east.  Formed over
+millions of years, the mountains have long been a force to deal with for
+travellers headed over them.  The grass is somewhat short here, and only comes
+up to the knees on a kender.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2937 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2935 0 0 0 0 0 0 0 0
+S
+#2937
+Nearing the Eastwall Mountains~
+   The Eastwall mountains spring up to the sky in the east.  Formed over
+millions of years, the mountains have long been a force to deal with for
+travellers headed over them.  The grass is somewhat short here, and only comes
+up to the knees on a kender.    
+~
+29 0 h 0 0 4
+D3
+~
+~
+0 0 2936 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2938 0 0 0 0 0 0 0 0
+S
+#2938
+Before a Hill in the Plains~
+   A slight hill slowly begins to slope up before your feet.  The path up the
+hill seems to be a well worn one, and has collected a slight muddy feeling to
+it.  The path leads up the hill, or back to the southwest.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2939 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2937 0 0 0 0 0 0 0 0
+S
+#2939
+A Hill Before the Mountains~
+   The ground is sloped quite a bit here, heading down to the west on the
+plains, and east into the set of mountains.  Your feet sink slightly into the
+mud, but the way is passable and the footing is solid.  Not many pass this way,
+as the mountains can be a treacherous place and are known to be a spot for
+ambushes.    
+~
+29 0 h 0 0 5
+D3
+~
+~
+0 0 2938 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2940 0 0 0 0 0 0 0 0
+S
+#2940
+Travelling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.    
+~
+29 0 h 0 0 5
+D1
+~
+~
+0 0 2941 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2939 0 0 0 0 0 0 0 0
+S
+#2941
+Travelling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.    
+~
+29 0 h 0 0 5
+D1
+~
+~
+0 0 2942 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2940 0 0 0 0 0 0 0 0
+S
+#2942
+Travelling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.    
+~
+29 0 h 0 0 5
+D1
+~
+~
+0 0 16813 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2941 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2943 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2953 0 0 0 0 0 0 0 0
+S
+#2943
+Travelling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.    
+~
+29 0 h 0 0 5
+D5
+~
+~
+0 0 2944 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2942 0 0 0 0 0 0 0 0
+S
+#2944
+A Hill Before the Mountains~
+   The ground is sloped quite a bit here, heading down to the east on the
+plains, and west into the set of mountains.  Your feet sink slightly into the
+mud, but the way is passable and the footing is solid.  Not many pass this way,
+as the mountains can be a treachorous place and are known to be a spot for
+ambushes.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2945 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2943 0 0 0 0 0 0 0 0
+S
+#2945
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the west.    
+~
+29 0 h 0 0 4
+D1
+~
+~
+0 0 2946 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2944 0 0 0 0 0 0 0 0
+S
+#2946
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the west.    
+~
+29 0 h 0 0 3
+D3
+~
+~
+0 0 2945 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2947 0 0 0 0 0 0 0 0
+S
+#2947
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the southwest.    
+~
+29 0 h 0 0 3
+D7
+~
+~
+0 0 2948 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2946 0 0 0 0 0 0 0 0
+S
+#2948
+Walking on the Plains~
+   You are surrounded by a vast, open space covered by grass.  Nothing can be
+seen for miles except the faint image of a city in the distant east and the
+mountains to the southwest.    
+~
+29 0 h 0 0 5
+D0
+~
+~
+0 0 2949 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2947 0 0 0 0 0 0 0 0
+S
+#2949
+Approaching Xak Tsaroth~
+   Slowly coming into view, the city of Xak Tsaroth can be seen.  Four images,
+pillars perhaps can be seen, showing the center of the city.  Past the city a
+small image of the temple of Mishakal can be seen.  The path leads to the east,
+and back towards the south.    
+~
+29 0 h 0 0 5
+D1
+~
+~
+0 0 2950 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2948 0 0 0 0 0 0 0 0
+S
+#2950
+Approaching Xak Tsaroth~
+   Slowly coming into view, the city of Xak Tsaroth can be seen.  Four images,
+pillars perhaps can be seen, showing the center of the city.  Past the city a
+small image of the temple of Mishakal can be seen.  The path leads to the east,
+and back towards the west.    
+~
+29 0 h 0 0 5
+D1
+~
+~
+0 0 2951 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2949 0 0 0 0 0 0 0 0
+S
+#2951
+Approaching Xak Tsaroth~
+   Slowly coming into view, the city of Xak Tsaroth can be seen.  Four images,
+pillars perhaps can be seen, showing the center of the city.  Past the city a
+small image of the temple of Mishakal can be seen.  The path leads to the east,
+and back towards the west.    
+~
+29 0 h 0 0 5
+D1
+~
+~
+0 0 3800 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2950 0 0 0 0 0 0 0 0
+S
+#2952
+Moving Through the Dry Reef Docks~
+   These docks are quite obviously recently built.  The wood is soaked from the
+violent crashes of waves against rock.  The layout of the docks appears to be
+rather chaotic, connecting from outcropping to outcropping.  However, the
+widest section of the dock stretches straight out into the reef to connect with
+any incoming ships.    
+~
+29 0 h 0 0 1
+D0
+~
+~
+0 0 2926 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2966 0 0 0 0 0 0 0 0
+S
+#2953
+Travelling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.    
+~
+29 0 h 0 0 5
+D6
+~
+~
+0 0 2942 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2954 0 0 0 0 0 0 0 0
+S
+#2954
+Travelling in the Mountains~
+   This pass leads right between two tall peaks that stand out along the
+mountain range.  There are few signs of life here, except for the occasional
+shrub or weed that has managed to grab hold in the rocky soil.    
+~
+29 0 h 0 0 5
+D5
+~
+~
+0 0 2955 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2953 0 0 0 0 0 0 0 0
+S
+#2955
+A Hill Before the Mountains~
+   The land rises here, attempting to meet the rocky face of a large mountain
+nearby.  The surrounding land is mostly grassy plains, filled with cat tails
+and small shrubs.  Further to the southeast you can see the blue-green hue of
+the Newsea.    
+~
+29 0 h 0 0 4
+D4
+~
+~
+0 0 2954 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2956 0 0 0 0 0 0 0 0
+S
+#2956
+Pushing Through the Tall Grass Plains~
+   These plains are overun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the Newsea.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2957 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2955 0 0 0 0 0 0 0 0
+S
+#2957
+Pushing Through the Tall Grass Plains~
+   These plains are overun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the Newsea.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2958 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2956 0 0 0 0 0 0 0 0
+S
+#2958
+Pushing Through the Tall Grass Plains~
+   These plains are overun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the Newsea.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2959 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2957 0 0 0 0 0 0 0 0
+S
+#2959
+Pushing Through the Tall Grass Plains~
+   These plains are overun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the Newsea.    
+~
+29 0 h 0 0 2
+D3
+~
+~
+0 0 2958 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2961 0 0 0 0 0 0 0 0
+S
+#2960
+Pushing Through the Tall Grass Plains~
+   These plains are overun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the Newsea.    
+~
+29 0 h 0 0 2
+D3
+~
+~
+0 0 2959 0 0 0 0 0 0 0 0
+S
+#2961
+Pushing Through the Tall Grass Plains~
+   These plains are overun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the Newsea.    
+~
+29 0 h 0 0 2
+D6
+~
+~
+0 0 2959 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2963 0 0 0 0 0 0 0 0
+S
+#2962
+Pushing Through the Tall Grass Plains~
+   These plains are overun by long blades of grass that rise over six hand
+lengths into the air.  The trail you follow is just barely noticable, although
+wagon tracks can be seen once the grass is pushed aside.  Not far to the east
+you can see the blue-green waves of the Newsea.    
+~
+29 0 h 0 0 2
+D3
+~
+~
+0 0 2959 0 0 0 0 0 0 0 0
+S
+#2963
+Standing at the Top of a Steep-Faced Cliff~
+   The tall-grass plains come to an abrupt halt here at the top of a high,
+steep-faced cliff.  Peering over the edge you can see the waves of the Newsea
+crashing against a rocky shoreline.  Built into the rocks, and extending quite
+far into the reef is a large wooden dock.    
+~
+29 0 h 0 0 4
+D5
+~
+~
+0 0 2964 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2961 0 0 0 0 0 0 0 0
+S
+#2964
+Navigating a Rocky, Cliff-Side Pathway~
+   The pathway that snakes down the rocky cliff face is wide but is rather
+steep.  Wagon tracks can be seen on the trail, although it would take some
+strong horses to pull even a light load up this grade.  The nearby shoreline is
+covered in large, jagged rocks making it a very risky landing for ships.  
+However, a huge dock system has been constructed, connecting the jagged rocks,
+and extending far out into the reef.    
+~
+29 0 h 0 0 2
+D4
+~
+~
+0 0 2963 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2965 0 0 0 0 0 0 0 0
+S
+#2965
+Navigating a Rocky, Cliff-Side Pathway~
+   The pathway that snakes down the rocky cliff face is wide but is rather
+steep.  Wagon tracks can be seen on the trail, although it would take some
+strong horses to pull even a light load up this grade.  The nearby shoreline is
+covered in large, jagged rocks making it a very risky landing for ships.  
+However, a huge dock system has been constructed, connecting the jagged rocks,
+and extending far out into the reef.    
+~
+29 0 h 0 0 2
+D1
+~
+~
+0 0 2926 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2964 0 0 0 0 0 0 0 0
+S
+#2966
+At the End of the Dry Reef Docks~
+   These docks are quite obviously recently built.  The wood is soaked from the
+violent crashes of waves against rock.  The layout of the docks appears to be
+rather chaotic, connecting from outcropping to outcropping.  Here the dock
+stretches straight out into the reef to connect with any incoming ships.    
+~
+29 0 h 0 0 0
+D3
+~
+~
+0 0 2952 0 0 0 0 0 0 0 0
+S
+#2967
+Aboard the Deck of the Sea Wolf~
+   The deck of this great galley, the Sea Wolf is raised far above the surface
+of the water.  Dozens of ballistas line the sides of the ship, including a
+couple of catapults.  Several masts reach for the sky above, their sails
+reaching for the open sea.  Below you can hear the groans of many men and the
+occasional gutteral curse.    
+~
+29 0 h 0 0 1
+D2
+~
+~
+0 0 2969 0 0 0 0 0 0 0 0
+S
+#2968
+Within the Hull of the Sea Wolf~
+   The underbelly of this great vessel is a hot sweaty mass of bodies.  The air
+is humid with perspiration and the heat induces undeniably strong feelings of
+nausea.  On either side are several benches from where the slaves push the ship
+forward with their oars.    
+~
+29 d h 0 0 0
+D0
+~
+~
+0 0 2970 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2971 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2969 0 0 0 0 0 0 0 0
+S
+#2969
+Aboard the Deck of the Sea Wolf~
+   The deck of this great galley, the Sea Wolf is raised far above the surface
+of the water.  Dozens of ballistas line the sides of the ship, including a
+couple of catapults.  Several masts reach for the sky above, their sails
+reaching for the open sea.  Below you can hear the groans of many men and the
+occasional gutteral curse.  A staircase leads down into the hull of the ship
+here.  To the south is a door leading into some kind of chamber.    
+~
+29 c h 0 0 1
+D0
+~
+~
+0 0 2967 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2972 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2968 0 0 0 0 0 0 0 0
+S
+#2970
+Within the Hull of the Sea Wolf~
+   The underbelly of this great vessel is a hot sweaty mass of bodies.  The air
+is humid with perspiration and the heat induces undeniably strong feelings of
+nausea.  On either side are several benches from where the slaves push the ship
+forward with their oars.    
+~
+29 d h 0 0 0
+D2
+~
+~
+0 0 2968 0 0 0 0 0 0 0 0
+S
+#2971
+Within the Hull of the Sea Wolf~
+   The underbelly of this great vessel is a hot sweaty mass of bodies.  The air
+is humid with perspiration and the heat induces undeniably strong feelings of
+nausea.  On either side are several benches from where the slaves push the ship
+forward with their oars.    
+~
+29 d h 0 0 0
+D0
+~
+~
+0 0 2968 0 0 0 0 0 0 0 0
+S
+#2972
+Inside the Captain's Chamber of the Sea Wolf~
+   This large room serves as the chambers for the captain of the Sea Wolf.  It
+is filled with navigational equipment of all sorts and sizes.  Maps clutter
+both the walls and a large desk at the rear of the room.  A bookcase is bolted
+against one of the walls, and its contents are mostly log books, although there
+are some fictional works included.  Windows overlook the sea on all sides of
+this chamber.    
+~
+29 d 0 0 0 0
+D0
+~
+door~
+1 0 2969 0 0 0 0 0 0 0 0
+S
+#2973
+A Well Cleared Trail~
+   The trees and shrubbery have been cleared to alleviate the passage of carts
+and horses.  Charred limbs hang over the edges of the path, and a smokey mist
+hangs in the still air.    
+~
+29 0 0 0 0 0
+D2
+~
+~
+0 0 2906 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2600 0 0 0 0 0 0 0 0
+S
+$~

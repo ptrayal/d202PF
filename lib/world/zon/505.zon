@@ -1,0 +1,16 @@
+#505
+Moradin~
+Road-Neverwinter/Waterdeep~
+50500 50849 30 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 4034 1 50783 100 0 	(a @WPriest@n of @CJustice@n)
+M 0 50500 1 50781 100 0 	(an invis mob named Waterdeep)
+M 0 50202 1 50781 100 0 	(@MS@Cha@Mn@Cdu@Mg@n the trader at Waterdeep)
+O 0 51002 1 50781 100 0 	(a wooden sign at Waterdeep)
+M 0 50501 1 50500 100 0 	(an invis mob named Neverwinter)
+M 0 50204 1 50500 100 0 	(@MS@Cha@Mn@Cdu@Mg@n the trader at Neverwinter)
+S
+$

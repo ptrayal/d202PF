@@ -1,0 +1,589 @@
+#8700
+gateguard neraka~
+a Neraka gateguard~
+A Neraka gateguard stands readily at his post.
+~
+   Standing at his post, this gateguard watches those who pass through the
+gates of Neraka.  Wearing a heavily padded jerkin, and carrying a menacing
+looking weapon, this guard appears to be ready for anything.    
+~
+d 0 0 0 k 0 0 0 -900
+23 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8702
+draconian guard patrol~
+a draconian patrol guard~
+A large draconian patrol guard wanders the streets looking for trouble.
+~
+   With his armor clanking, this draconian patrol guard eyes you carefully.  
+The visible parts of his body are covered with scars that he shows off proudly.
+He grips the hilt of his blade as his glance lengthens into a sinister stare.
+~
+d 0 0 0 k 0 0 0 -1000
+21 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8703
+executioner~
+the executioner~
+The executioner stands here, waiting for his next victim.
+~
+   Long, ebony hair can be seen hangin down this large beings back.  Through
+the mask he wears, you can see beady yellow snake-like eyes staring coldly at
+you.  His boots are bloodstained almost as badly as his hands.  He glares in
+your direction as you enter his domain.    
+~
+dF 0 0 0 k 0 0 0 -1000
+22 5 -27 5280d220+112 1d8+15
+41 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#8705
+dragonarmy soldier~
+a dragonarmy soldier~
+Here is a dragonarmy soldier poised with arrogance.
+~
+   Walking with total pride and arrogance is a soldier of the Queen's
+Dragonarmy.  He is dressed in full battle-gear with his hand on the handle of
+his longsword.  Looking angry about something he scowls at your stare.    
+~
+dD 0 0 0 k 0 0 0 -1000
+16 10 -15 960d160+106 1d8+10
+23 0 41 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#8706
+black-furred black furred wardog~
+a black-furred wardog~
+Standing here growling is a large wardog with black fur.
+~
+   This dog is standing here foaming at the mouth, barking savagely at everyone
+that comes near it.  It's teeth are bloodstained and its fur is matted and
+unkept.  He snarls your way as you walk by him.    
+~
+d 0 0 0 k 0 0 0 -1000
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8707
+confused scrubby gully dwarf~
+a confused little gully dwarf~
+Wandering about aimlessly is a scrubby gully dwarf.
+~
+   Without a clue where he is going, this gully dwarf runs about aimlessly.  
+His short legs move quickly along the dirt road kicking up dust making a cloud.
+He grunts loudly as he stumbles over his own food and almost falls to the
+ground.    
+~
+d 0 0 0 k 0 0 0 -1000
+14 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8708
+short dirty draconian~
+a short, dirty draconian~
+Grinning wickidly is a little draconian covered in dust.
+~
+   The build of an average draconian but shorter than normal, here stands a
+diminutive draconian with a large grin upon his face.  His long slender finger
+stick out from under his dust-covered cloak.  He smirks slightly as you glance
+at him.    
+~
+d 0 0 0 k 0 0 0 -1000
+19 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8709
+local resident neraka~
+a Neraka local~
+Walking around casually is a local resident of Neraka.
+~
+   Dressed in ragged cloth stands a resident of the city of Neraka.  He weaves
+his way in and out of the crowd with no problem, occasionally stopping to look
+around at the people and shops.    
+~
+d 0 0 0 k 0 0 0 -1000
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8710
+dragonarmy captain~
+a Dragonarmy Captain~
+Grinning wickedly is a Dragonarmy Captain.
+~
+   Standing battle-ready is a Dragonarmy officer in full battle gear.  Upon his
+face is a wicked grin showing his yellow, rotten teeth.  As he looks you over
+he chuckles to himself softly.    
+~
+dE 0 0 0 k 0 0 0 -1000
+20 7 -23 2400d200+110 1d8+13
+35 0 22 3
+8 8 1
+E
+Str: 21
+E
+Dex: 13
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 10
+S
+#8713
+small alley cat~
+a small alley cat~
+Walking softly is a small alley cat.
+~
+   Dirty fur covers this homeless cats body.  A strange smell emits from this
+little being as if it hasn't been bathed....  Ever.  It spits foam from it's
+mouth as it purrs softly.    
+~
+d 0 0 0 k 0 0 0 -1000
+13 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8714
+skinny slave pale weak frail~
+a frail, weak slave~
+Here stands a skinny slave with pale skin.
+~
+   Tattered robes cover this weak little mans body.  His body is scarred from
+beatings with whips and chains.    
+~
+d 0 0 0 k 0 0 0 -1000
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8715
+strong robust slave large~
+a strong, robust slave~
+Standing firmly is a large slave tied up in shackles.
+~
+   Large muscles protrude from this slaves torn clothing.  His face looks as if
+it were carved from stone, showing no emotions at all.    
+~
+d 0 0 0 k 0 0 0 -1000
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8716
+dragomir massive draconian overlord~
+Dragomir, a massive draconian overlord~
+Sitting atop his dragon mount is a draconian overlord.
+~
+   This massive draconian was hand chosen by the dark queen to protect the city
+of nereka.  He is easily one of the most malicious and loyal servants the dark
+queen has.  For his loyalty he was given an ancient green dragon to serve as
+his mount and guardian.    
+~
+d g 0 0 k 0 0 0 -1000
+25 2 -21 17500d250+1000 1d8+18
+55 0 41 20
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 11
+S
+#8719
+overweight plump owner~
+an overweight slave owner~
+Cracking a whip at his slave stands a plump man.
+~
+   Dressed in his finest clothing, this slave driver savagely beats his slave
+with a leather whip.  He meanders his way up to the stage, chuckling softly as
+he looks at you.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8720
+commoner~
+a commoner~
+Hurling fruit towards the gallows is a Neraka commoner.
+~
+   The commoner pays you no mind as he is hurling fruit towards the gallows.  
+With a smile of delight he chucks handful after handful.    
+~
+d 0 0 0 k 0 0 0 -1000
+20 10 -22 240d160+1000 1d8+10
+35 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#8721
+Zeke, a muscular, blue eyed man~
+Zeke~
+Zeke, a muscular, blue-eyed man grins as you enter his shop.
+~
+   Before you stands a very muscular man.  Although most of his kind are not
+seen around here, he stands proudly as you enter his shop.  Large blue eyes
+pierce through a thick brow, which matches the thick mustache on this mans
+dirty face.  A large grin appears across his face as he asks if he can assist
+you with anything.    
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 22 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8722
+Trey, a muscular, unshaven man~
+Trey~
+Trey, a muscular, unshaven man nods in your direction as you enter his shop.
+~
+   This large figure stands before you covered in dirt.  He has sweat pouring
+off of his face and his jet black hair is slicked back with a mixture of water
+and sweat.  His face appears to be unshaven, as if it had been years since he
+had even seen a razor blade.  His teeth appear to be almost brown as he
+slightly smiles in your direction, attempting to welcome you.    
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8723
+Kareah, an overweight brown-haired maiden~
+Kareah~
+Kareah, an overweight brown-haired maiden smiles charmingly in your direction.
+~
+   Soft almond brown eyes catch your attention as you look this short woman
+over.  Her frame is quite robust, yet her smile could warm the coldest of
+nights.  Long brown hair falls to the center of this maidens back in tiny
+ringlets.  She has rather short arms, you notice, as she reaches out to welcome
+you into her tiny shop.    
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8724
+Xarabella, a beautiful, charming maiden~
+Xarabella~
+Xarabella, a beautiful, charming maiden gives you a warm smile as you enter her tiny shop.
+~
+   Large waves of ebony hair fall at this maidens shoulders.  There are a few
+shorter pieces of hair that lie in short waves on her forehead.  Slender pointy
+ears poke through the ebony mane.  Slanted brown eyes and well defined
+cheekbones accentuate this maide Standing before you is a very beautiful woman.
+She has long ebony hair that hangs in oversized curls that stop at the middle
+of her back.  She is quite petite for a woman.  Her hands are delicate looking,
+almost as if they are breakable.  As she notices you entering her shop, she
+gives you a beautiful, pearly white, warm and inviting smile.    
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8725
+Chaelem, a toothy, bright-eyed balding man~
+Chaelem~
+Chaelem, a toothy, bright-eyed balding man welcomes you with a large smile as you enter his shop.
+~
+   This man before you very short indeed.  Looking him over, you notice the
+large toothy smile upon his face.  His jade eyes seem to dance with laughter
+each time he begins to speak.  He has absolutely no hair at all on his entire
+head.  As he sees you entering his shop, he quickly walks to the door to escort
+you in and help you with anything that is needed.    
+~
+bdA 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8726
+crendell priestess high takhisis ebony crimson~
+Crendell, the High Priestess of Takhisis~
+Ebony robes enshroud the high priestess of takhisis.
+~
+   An aura of pure evil radiates from this old and decrepit hag.  Though one of
+takhisis' highest ranking clerics, she is also the oldest living human you can
+remember seeing.  Deep dark wrinkles cover her face, hands, and bald head.  
+Long yellow fingernails extend from her slender fingers as she tucks her hands
+in her robes.    
+~
+d g 0 0 k 0 0 0 -1000
+33 -4 -44 14850d330+1000 1d8+24
+100 0 31 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 24
+E
+Con: 12
+E
+Cha: 11
+S
+#8727
+warrior elite takhisis guard~
+an elite warrior of takhisis~
+An  elite warrior of takhisis is here standing guard.
+~
+   This man is one of the elite warriors under the command of the dragonarmies.
+Wearing dark plate armor and wielding a dragon headed mace this man stands here
+blocking the entrance to the church seen to the east.    
+~
+dE 0 0 0 k 0 0 0 -1000
+24 4 -29 2880d240+114 1d8+16
+51 0 41 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+$

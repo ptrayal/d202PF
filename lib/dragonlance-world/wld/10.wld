@@ -1,0 +1,1938 @@
+#1000
+A Shaded Path through the Forest~
+   Tall maple trees stretch high into the air above this lightly mossed trail
+leading east and west through the forest.  Very little breeze reaches below the
+lower branches of these trees.  Peering westward, the path seems to grow
+lighter, with a large mass of stone barely visible to the southwest.  The faint
+sound of rushing water can be heard as well.    
+~
+10 0 0 0 0 2
+D1
+~
+~
+0 0 3058 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1001 0 0 0 0 0 0 0 0
+S
+#1001
+Before the Stream~
+   The trees have grown sparser, with smaller shrubs covering much of the area.
+The sound of rushing water is loud in your ears, masking the noises of the
+forest.  To the west, a long bridge is visible, while the path extends to the
+east into the dense forest.    
+~
+10 0 0 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1000 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1002 0 0 0 0 0 0 0 0
+S
+#1002
+A Bridge over the Stream~
+   A narrow footbridge stretches across the wide chasm surrounding the city of
+Qualinost.  The hardwood planks have been sanded a fine, smooth surface.  
+Handrails line both sides of the bridge, allowing crossers to maintain their
+balance.  Almost one hundred feet below the bridge, a small stream winds its
+way north and south around the city.  A massive stone cliff rises up in the
+west.  The bridge continues to the west, and continuing east heads into the
+forest.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1003 0 0 0 0 0 0 0 0
+S
+#1003
+A Bridge over the Stream~
+   A narrow footbridge stretches across the wide chasm surrounding the city of
+Qualinost.  The hardwood planks have been sanded a fine, smooth surface.  
+Handrails line both sides of the bridge, allowing crossers to maintain their
+balance.  Almost one hundred feet below the bridge, a small stream winds its
+way north and south around the city.  A massive stone cliff rises up in the
+west.  The bridge continues to the east and west.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1002 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1004 0 0 0 0 0 0 0 0
+S
+#1004
+A Bridge over the Stream~
+   A narrow footbridge stretches across the wide chasm surrounding the city of
+Qualinost.  The hardwood planks have been sanded a fine, smooth surface.  
+Handrails line both sides of the bridge, allowing crossers to maintain their
+balance.  Almost one hundred feet below the bridge, a small stream winds its
+way north and south around the city.  A massive stone cliff rises up in the
+west.  You can step off the bridge into Qualinost to the west, or continue east
+on the bridge.    
+~
+10 0 0 0 0 2
+D1
+~
+~
+0 0 1003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+S
+#1005
+Outside Qualinost~
+   A massive wall of green stretches as far as the eye can see to the north and
+west.  The brown trunks of tremendous trees provide the image of slivers in a
+wall of green.  The forest is alive with the noises of small animals scurrying
+about and the ever present sound of water rushing by in the gorge just to the
+east.  Rising ever present to the south is the enormous cliff of granite which
+restricts any attempt to travel south from here.    
+~
+10 0 0 0 0 3
+D1
+~
+~
+0 0 1004 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 16816 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+S
+#1006
+A Narrow Path along the Cliff~
+   The stone cliff rises, ever present, to the southwest, rising approximately
+fifty feet into the air.  The sky is clearly visible here, where the thick
+overhanging canopy ends before it reaches the stone.  To the southeast the
+faint sound of rushing water can be heard.    
+~
+10 0 h 0 0 0
+D6
+~
+~
+0 0 1007 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+S
+#1007
+Within the Forest~
+   The forest becomes enveloping here, with trees rising far above concealing a
+majority of the light from above.  Low shrubbery covers the ground, with an
+extremely narrow path beaten down through those shrubs.  A structure of stone
+is faintly visible to the northwest.    
+~
+10 0 h 0 0 0
+D6
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+S
+#1008
+Approaching the Southeast Tower~
+   A narrow path runs through the forest, barely visible, although the lack of
+growth indicates it is currently used.  A tall spire rises to the northwest.  
+The structure, made entirely of stone, stands in marked contrast to the lush
+foliage surrounding it.    
+~
+10 0 h 0 0 0
+D6
+~
+~
+0 0 1009 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1007 0 0 0 0 0 0 0 0
+S
+#1009
+Inside Suzine Tower~
+   Upon entering this small tower, its small size is apparent.  Barely large
+enough for four average size elves to fit without discomfort, no furnishings
+are present.  A thin ladder of twine winds its way up through the ceiling,
+higher into the tower.  Open holes functioning as doorways lead northwest and
+southeast.    
+~
+10 d h 0 0 0
+D4
+~
+~
+0 0 1010 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+S
+#1010
+Within Suzine Tower~
+   The second floor of the Suzine Tower has no visible furnishings, other than
+the twine rope running the entire height of the room, and continuing into the
+ceiling.  Two openings to the north and west allow exits out onto what appear
+to be narrow arches.    
+~
+10 cd h 0 0 0
+D0
+~
+~
+0 0 1012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1048 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1011 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1009 0 0 0 0 0 0 0 0
+S
+#1011
+At the Top of Suzine Spire~
+   Slots are cut into the sides of the top of this spire to the east, allowing
+a clear view of the eastern approach to Qualinost.  All is visible far past the
+gorge to the east from this spire.  The foliage seems to have been specifically
+cleared out to allow this view.    
+~
+10 d h 0 0 0
+D5
+~
+~
+0 0 1010 0 0 0 0 0 0 0 0
+S
+#1012
+On the Eastern Arched Bridge~
+   Stretching from the southeast to the northeast spire is this arched bridge,
+which glistens golden in the sunlight.  The arch is sturdy, yet appears to be
+supported only by vine type ropes.  Sturdy enough to support armored warriors,
+this arch allows an easy view both into the city, and out past the gorge
+guarding the city.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1010 0 0 0 0 0 0 0 0
+S
+#1013
+On the Eastern Arched Bridge~
+   Stretching from the southeast to the northeast spire is this arched bridge,
+which glistens golden in the sunlight.  The arch is sturdy, yet appears to be
+supported only by vine type ropes.  Sturdy enough to support armored warriors,
+this arch allows an easy view both into the city, and out past the gorge
+guarding the city.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1012 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1014 0 0 0 0 0 0 0 0
+S
+#1014
+On the Eastern Arched Bridge~
+   Stretching from the southeast to the northeast spire is this arched bridge,
+which glistens golden in the sunlight.  The arch is sturdy, yet appears to be
+supported only by vine type ropes.  Sturdy enough to support armored warriors,
+this arch allows an easy view both into the city, and out past the gorge
+guarding the city.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1015 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1013 0 0 0 0 0 0 0 0
+S
+#1015
+On the Eastern Arched Bridge~
+   Stretching from the southeast to the northeast spire is this arched bridge,
+which glistens golden in the sunlight.  The arch is sturdy, yet appears to be
+supported only by vine type ropes.  Sturdy enough to support armored warriors,
+this arch allows an easy view both into the city, and out past the gorge
+guarding the city.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1016 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1014 0 0 0 0 0 0 0 0
+S
+#1016
+On the Eastern Arched Bridge~
+   Stretching from the southeast to the northeast spire is this arched bridge,
+which glistens golden in the sunlight.  The arch is sturdy, yet appears to be
+supported only by vine type ropes.  Sturdy enough to support armored warriors,
+this arch allows an easy view both into the city, and out past the gorge
+guarding the city.    
+~
+10 0 h 0 0 0
+D2
+~
+~
+0 0 1015 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1017 0 0 0 0 0 0 0 0
+S
+#1017
+On the Eastern Arched Bridge~
+   Stretching from the southeast to the northeast spire is this arched bridge,
+which glistens golden in the sunlight.  The arch is sturdy, yet appears to be
+supported only by vine type ropes.  Sturdy enough to support armored warriors,
+this arch allows an easy view both into the city, and out past the gorge
+guarding the city.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1018 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1016 0 0 0 0 0 0 0 0
+S
+#1018
+On the Eastern Arched Bridge~
+   Stretching from the southeast to the northeast spire is this arched bridge,
+which glistens golden in the sunlight.  The arch is sturdy, yet appears to be
+supported only by vine type ropes.  Sturdy enough to support armored warriors,
+this arch allows an easy view both into the city, and out past the gorge
+guarding the city.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1019 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1017 0 0 0 0 0 0 0 0
+S
+#1019
+Before the Northeast Guard Tower~
+   Before you rises the northeast spire of Qualinost, overlooking the approach
+to the city.  The golden arched bridge ends here as it merges with the spire.
+The river rushes through the gorge almost directly below the arches here, where
+the river is at its closest to the city proper.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1020 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1018 0 0 0 0 0 0 0 0
+S
+#1020
+Inside the Northeast Guard Tower~
+   This stone tower guards the northeast corner of the city proper.  A long
+vine serves as a ladder running through the center of the room, through the
+floor and into the ceiling.  Large enough for only four elves of moderate size,
+no furnishings are visible.    
+~
+10 d h 0 0 0
+D2
+~
+~
+0 0 1019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1022 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1021 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1554 0 0 0 0 0 0 0 0
+S
+#1021
+At the top of Arcuballis Spire~
+   A large window has been opened up in the northeast section of this upper
+level of the tower.  The stone is smooth, with the individual stones cut to fit
+precisely together, with a moss like growth cover the stones.    
+~
+10 d h 0 0 0
+D5
+~
+~
+0 0 1020 0 0 0 0 0 0 0 0
+S
+#1022
+On the Northern Arched Bridge~
+   A golden arched bridge stretches east and west along the northern perimeter
+of the city proper.  The bridge itself is extremely smooth, with fitted pieces
+of wood, polished with some sort of glossy coating.  The Confluence is visible
+a ways to the north and the Tower of the Sun, the tallest structure in
+Qualinost, looms large towards the south.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1020 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1023 0 0 0 0 0 0 0 0
+S
+#1023
+On the Northern Arched Bridge~
+   A golden arched bridge stretches east and west along the northern perimeter
+of the city proper.  The bridge itself is extremely smooth, with fitted pieces
+of wood, polished with some sort of glossy coating.  The Confluence is visible
+a ways to the north and the Tower of the Sun, the tallest structure in
+Qualinost, looms large towards the south.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1022 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1024 0 0 0 0 0 0 0 0
+S
+#1024
+On the Northern Arched Bridge~
+   A golden arched bridge stretches east and west along the northern perimeter
+of the city proper.  The bridge itself is extremely smooth, with fitted pieces
+of wood, polished with some sort of glossy coating.  The Confluence is visible
+a ways to the north and the Tower of the Sun, the tallest structure in
+Qualinost, looms large towards the south.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1023 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1025 0 0 0 0 0 0 0 0
+S
+#1025
+On the Northern Arched Bridge~
+   A golden arched bridge stretches east and west along the northern perimeter
+of the city proper.  The bridge itself is extremely smooth, with fitted pieces
+of wood, polished with some sort of glossy coating.  The Confluence is visible
+a ways to the north and the Tower of the Sun, the tallest structure in
+Qualinost, looms large towards the south.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1024 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1026 0 0 0 0 0 0 0 0
+S
+#1026
+On the Northern Arched Bridge~
+   A golden arched bridge stretches east and west along the northern perimeter
+of the city proper.  The bridge itself is extremely smooth, with fitted pieces
+of wood, polished with some sort of glossy coating.  The Confluence is visible
+a ways to the north and the Tower of the Sun, the tallest structure in
+Qualinost, looms large towards the south.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1027 0 0 0 0 0 0 0 0
+S
+#1027
+On the Northern Arched Bridge~
+   A golden arched bridge stretches east and west along the northern perimeter
+of the city proper.  The bridge itself is extremely smooth, with fitted pieces
+of wood, polished with some sort of glossy coating.  The Confluence is visible
+a ways to the north and the Tower of the Sun, the tallest structure in
+Qualinost, looms large towards the south.  The northwest tower lies just to the
+west.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1028 0 0 0 0 0 0 0 0
+S
+#1028
+Inside the Northwest Guard Tower~
+   Smooth interlocking moss covered stones are built into this small tower,
+barely large enough to hold four large elves.  Golden arched bridges are
+visible from the southern and eastern openings from the tower.  A thin rope of
+vine runs up into ceiling and down through the floor.    
+~
+10 d h 0 0 0
+D1
+~
+~
+0 0 1027 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1030 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1029 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1555 0 0 0 0 0 0 0 0
+S
+#1029
+At the Top of Sithel Spire~
+   A large hole in the northwest wall of the tower overlooks the approaches to
+the gorge, and the city of Qualinost proper.  A rope made of vine is attached
+to the ceiling, which runs down through the floor further down into the tower.
+No furnishings are apparent in this room.    
+~
+10 d h 0 0 0
+D5
+~
+~
+0 0 1028 0 0 0 0 0 0 0 0
+S
+#1030
+Before the Northwest Guard Tower~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1028 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1031 0 0 0 0 0 0 0 0
+S
+#1031
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1030 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1032 0 0 0 0 0 0 0 0
+S
+#1032
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1031 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1033 0 0 0 0 0 0 0 0
+S
+#1033
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D2
+~
+~
+0 0 1034 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1032 0 0 0 0 0 0 0 0
+S
+#1034
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1033 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1035 0 0 0 0 0 0 0 0
+S
+#1035
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1034 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1036 0 0 0 0 0 0 0 0
+S
+#1036
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D2
+~
+~
+0 0 1037 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1035 0 0 0 0 0 0 0 0
+S
+#1037
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1038 0 0 0 0 0 0 0 0
+S
+#1038
+The Western Arched Bridge~
+   Stretching from the northwest to the southwest spire is a bridge of golden
+spires.  The wood of the bridge is polished a shimmering golden color, colored
+by an unknown substance by the creators of the city.  Strong enough to support
+an army, these bridges provide those walking them the ability to observe any
+approaches to the city from the west.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1037 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1039 0 0 0 0 0 0 0 0
+S
+#1039
+Inside the Southwest Guard Tower~
+   The only item present in this room is a long length of vine which seemingly
+hangs from the ceiling, and runs into the floor through a large hole in the
+floor.  Moss covered stones fitted seamlessly together make up this tower.  
+Bridges connecting the tower run east and north from here.    
+~
+10 d h 0 0 0
+D0
+~
+~
+0 0 1038 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1041 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1040 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1553 0 0 0 0 0 0 0 0
+S
+#1040
+At the Top of Mackeli Spire~
+   This tower rises above the level of the trees outside the city proper,
+allowing a clear view to the west and northwest of the city.  The stone wall
+still blocks any view to the south.  The vine rope is the only way out of this
+tower.    
+~
+10 0 h 0 0 0
+D5
+~
+~
+0 0 1039 0 0 0 0 0 0 0 0
+S
+#1041
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1042 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1039 0 0 0 0 0 0 0 0
+S
+#1042
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1043 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1041 0 0 0 0 0 0 0 0
+S
+#1043
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1042 0 0 0 0 0 0 0 0
+S
+#1044
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1043 0 0 0 0 0 0 0 0
+S
+#1045
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1046 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1044 0 0 0 0 0 0 0 0
+S
+#1046
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1047 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1045 0 0 0 0 0 0 0 0
+S
+#1047
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1048 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1046 0 0 0 0 0 0 0 0
+S
+#1048
+On the Southern Arched Bridge~
+   A golden bridge runs from the southwest to the southeast tower here.  Huge
+ropes of vine serve as handholds for travellers along the bridge.  However, the
+bridge is sturdy enough to support an army without trouble.  The stone wall
+rises to the south, making this section of the bridge obselete for protection,
+serving more as a means of transportation.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1010 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1047 0 0 0 0 0 0 0 0
+S
+#1049
+Within Qualinost~
+   Towering maples and oaks mix with the occasional majestic vallenwood tree to
+provide a canopy of lush green above.  Moss covered rocks and small flowering
+bushes provide a breathtaking view.  The ground rises ever so slightly towards
+the northwest.  The buzz of honeybees reaches your ears, and a faint rustle in
+the bushes signals the presence of other small woodland animals.    
+~
+10 0 h 0 0 2
+D6
+~
+~
+0 0 1050 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1009 0 0 0 0 0 0 0 0
+S
+#1050
+Within Qualinost~
+   Towering maples and oaks mix with the occasional majestic vallenwood tree to
+provide a canopy of lush green above.  Moss covered rocks and small flowering
+bushes provide a breathtaking view.  The ground rises ever so slightly towards
+the northwest.  The buzz of honeybees reaches your ears, and a faint rustle in
+the bushes signals the presence of other small woodland animals.    
+~
+10 0 h 0 0 2
+D6
+~
+~
+0 0 1051 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1049 0 0 0 0 0 0 0 0
+S
+#1051
+Within Qualinost~
+   Towering maples and oaks mix with the occasional majestic vallenwood tree to
+provide a canopy of lush green above.  Moss covered rocks and small flowering
+bushes provide a breathtaking view.  The ground rises ever so slightly towards
+the northwest.  The buzz of honeybees reaches your ears, and a faint rustle in
+the bushes signals the presence of other small woodland animals.    
+~
+10 0 0 0 0 2
+D0
+~
+~
+0 0 1052 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1050 0 0 0 0 0 0 0 0
+S
+#1052
+At an Intersection of Paths~
+   Crosspaths meet at this point in the woods, although the brush and canopy of
+foliage is not visibly diminished.  The southwestern path is slightly more
+beaten down than the other parts of the forest.  The light here is brighter, as
+if the overhead trees are somewhat thinner.  Small woodland homes dot the
+surrounding forest, some right off the paths and others lying hidden behind
+trees deep into the woods.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1051 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1073 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1081 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1053 0 0 0 0 0 0 0 0
+S
+#1053
+Silveran's Crescent~
+   This area of the forest is slightly clearer.  The path seems to wind
+slightly as it continues on.  More homes dot the sides of this path than other
+areas of the city forest.  Many elves are visible walking about their business,
+scurrying from home to home.    
+~
+10 0 h 0 0 1
+D7
+~
+~
+0 0 1052 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1054 0 0 0 0 0 0 0 0
+S
+#1054
+Silveran's Crescent~
+   Homes dot the sides of this oft-used path through the forests.  Huge trees,
+with cavities cut out for homes, surround the path on all sides.  Beautiful
+daylillies and snap dragons surround the sides of the path.  The forest rustles
+softly with the movements of wildlife.    
+~
+10 0 h 0 0 1
+D3
+~
+~
+0 0 1055 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1053 0 0 0 0 0 0 0 0
+S
+#1055
+Silveran's Crescent~
+   Homes dot the sides of this oft-used path through the forests.  Huge trees,
+with cavities cut out for homes, surround the path on all sides.  Beautiful
+daylillies and snap dragons surround the sides of the path.  The forest rustles
+softly with the movements of wildlife.    
+~
+10 0 h 0 0 1
+D1
+~
+~
+0 0 1054 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1056 0 0 0 0 0 0 0 0
+S
+#1056
+Intersection of Silveran's Crescent and Kith-Kanan's Way~
+   The two main paths through the city meet with four large oak trees
+surrounding it, one near each corner of the intersection.  Almost wide enough
+to be considered a road, the north south route through the forest rises
+slightly as it heads north.  Directly north in the distance, the Tower of the
+Sun is visible rising straight up, high into the sky.    
+~
+10 0 h 0 0 2
+D0
+~
+~
+0 0 1066 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1064 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1057 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1055 0 0 0 0 0 0 0 0
+S
+#1057
+Silveran's Crescent~
+   Homes dot the sides of this oft-used path through the forests.  Huge trees,
+with cavities cut out for homes, surround the path on all sides.  Beautiful
+daylillies and snap dragons surround the sides of the path.  The forest rustles
+softly with the movements of wildlife.    
+~
+10 0 h 0 0 1
+D3
+~
+~
+0 0 1058 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1056 0 0 0 0 0 0 0 0
+S
+#1058
+Silveran's Crescent~
+   Homes dot the sides of this oft-used path through the forests.  Huge trees,
+with cavities cut out for homes, surround the path on all sides.  Beautiful
+daylillies and snap dragons surround the sides of the path.  The forest rustles
+softly with the movements of wildlife.    
+~
+10 0 h 0 0 1
+D1
+~
+~
+0 0 1057 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1059 0 0 0 0 0 0 0 0
+S
+#1059
+Silveran's Crescent~
+   Homes dot the sides of this oft-used path through the forests.  Huge trees,
+with cavities cut out for homes, surround the path on all sides.  Beautiful
+daylillies and snap dragons surround the sides of the path.  The forest rustles
+softly with the movements of wildlife.    
+~
+10 0 h 0 0 1
+D6
+~
+~
+0 0 1060 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1058 0 0 0 0 0 0 0 0
+S
+#1060
+Intersecting Paths~
+   Two main paths intersect in the forest here.  Slightly beaten down shrubs
+indicate the travel of many individuals through this area.  The canopy of trees
+overhead is still thick, with trees all around the intersection providing the
+coverage.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1503 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1061 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1500 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1059 0 0 0 0 0 0 0 0
+S
+#1061
+Approaching the Southwest Tower~
+   Low brush and moss covered trees provide a lush green coverage to the ground
+of this forest.  Dense tree growth makes navigating the forest difficult, with
+the path barely discernible.  The low hum of forest animals hovers around you,
+heavy in the air.    
+~
+10 0 h 0 0 3
+D0
+~
+~
+0 0 1060 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1062 0 0 0 0 0 0 0 0
+S
+#1062
+Approaching the Southwest Tower~
+   Low brush and moss covered trees provide a lush green coverage to the ground
+of this forest.  Dense tree growth makes navigating the forest difficult, with
+the path barely discernible.  The low hum of forest animals hovers around you,
+heavy in the air.    
+~
+10 0 0 0 0 3
+D2
+~
+~
+0 0 1063 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1061 0 0 0 0 0 0 0 0
+S
+#1063
+Approaching the Southwest Tower~
+   Low brush and moss covered trees provide a lush green coverage to the ground
+of this forest.  Dense tree growth makes navigating the forest difficult, with
+the path barely discernible.  The low hum of forest animals hovers around you,
+heavy in the air.  A tall spire rises to the southwest.    
+~
+10 0 0 0 0 3
+D0
+~
+~
+0 0 1062 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1553 0 0 0 0 0 0 0 0
+S
+#1064
+Kith-Kanan's Way~
+   Running directly north and south through the heart of the city is the road
+named after Qualinost's founder, Kith-Kanan.  The foliage covering the city is
+open, allowing bright light from the suns and moons to shine unimpeded down on
+the ground.  The stone cliff rises above the city to the south.  Far in the
+distance to the north, the Tower of the Sun rises glistening golden in the
+sunlight.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1056 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1065 0 0 0 0 0 0 0 0
+S
+#1065
+Kith-Kanan's Way~
+   Running directly north and south through the heart of the city is the road
+named after Qualinost's founder, Kith-Kanan.  The foliage covering the city is
+open, allowing bright light from the suns and moons to shine unimpeded down on
+the ground.  The stone cliff blocks any travel south.  Far in the distance to
+the north, the Tower of the Sun rises glistening golden in the sunlight.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1064 0 0 0 0 0 0 0 0
+S
+#1066
+Kith-Kanan's Way~
+   Running directly north and south through the heart of the city is the road
+named after Qualinost's founder, Kith-Kanan.  The foliage covering the city is
+open, allowing bright light from the suns and moons to shine unimpeded down on
+the ground.  Quaint homes mark the forest landscape.  Far in the distance to
+the north, the Tower of the Sun rises glistening golden in the sunlight.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1067 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1056 0 0 0 0 0 0 0 0
+S
+#1067
+Kith-Kanan's Way~
+   Running directly north and south through the heart of the city is the road
+named after Qualinost's founder, Kith-Kanan.  The foliage covering the city is
+open, allowing bright light from the suns and moons to shine unimpeded down on
+the ground.  Quaint homes mark the forest landscape.  Far in the distance to
+the north, the Tower of the Sun rises glistening golden in the sunlight.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1068 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1066 0 0 0 0 0 0 0 0
+S
+#1068
+Kith-Kanan's Way~
+   Running directly north and south through the heart of the city is the road
+named after Qualinost's founder, Kith-Kanan.  The foliage covering the city is
+open, allowing bright light from the suns and moons to shine unimpeded down on
+the ground.  Quaint homes mark the forest landscape.  Far in the distance to
+the north, the Tower of the Sun rises glistening golden in the sunlight.  
+Small side paths branch out to the northeast and northwest.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1069 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1067 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1512 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1078 0 0 0 0 0 0 0 0
+S
+#1069
+Kith-Kanan's Way~
+   Running directly north and south through the heart of the city is the road
+named after Qualinost's founder, Kith-Kanan.  The foliage covering the city is
+open, allowing bright light from the suns and moons to shine unimpeded down on
+the ground.  Quaint homes mark the forest landscape.  Far in the distance to
+the north, the Tower of the Sun rises glistening golden in the sunlight.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1070 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1068 0 0 0 0 0 0 0 0
+S
+#1070
+Kith-Kanan's Way~
+   Running directly north and south through the heart of the city is the road
+named after Qualinost's founder, Kith-Kanan.  The foliage covering the city is
+open, allowing bright light from the suns and moons to shine unimpeded down on
+the ground.  Quaint homes mark the forest landscape.  Far in the distance to
+the north, the Tower of the Sun rises glistening golden in the sunlight.  The
+Hall of the Sky lies just to the north, while the Way continues south.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1069 0 0 0 0 0 0 0 0
+S
+#1071
+The Hall of the Sky~
+   Located upon a hill at the center of the city, this Hall rises above the
+surrounding landscape.  A tremendously large map of the lands of the Qualinesti
+and the area adjacent to it covers the entire ground area of the Hall.  To the
+north, an extremely dense grove of Aspen trees block any view northward.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1072 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1098 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1070 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1511 0 0 0 0 0 0 0 0
+S
+#1072
+The Hall of the Sky~
+   Located upon a hill at the center of the city, this Hall rises above the
+surrounding landscape.  A tremendously large map of the lands of the Qualinesti
+and the area adjacent to it covers the entire ground area of the Hall.  To the
+north, an extremely dense grove of Aspen trees block any view northward.    
+~
+10 c h 0 0 1
+D2
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1535 0 0 0 0 0 0 0 0
+S
+#1073
+Within Qualinost~
+   The buzz of hummingbirds and honeybees fills the air, flying from one flower
+to another which grow beneath the covered forests in Qualinost.  The trees
+stand as tall protectors of those plants and animals that roam the ground.  
+Rubs from deer are visible on some of the biggest trees.    
+~
+10 0 0 0 0 3
+D0
+~
+~
+0 0 1074 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1052 0 0 0 0 0 0 0 0
+S
+#1074
+Within Qualinost~
+   The buzz of hummingbirds and honeybees fills the air, flying from one flower
+to another which grow beneath the covered forests in Qualinost.  The trees
+stand as tall protectors of those plants and animals that roam the ground.  
+Rubs from deer are visible on some of the biggest trees.    
+~
+10 0 0 0 0 3
+D2
+~
+~
+0 0 1073 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1075 0 0 0 0 0 0 0 0
+S
+#1075
+A Small Clearing~
+   A crossroads of sorts forms here where two paths meet.  The upper canopy is
+broken, and light bathes the clearing.  Elves walk by rapidly, fleet and light
+of foot as they travel.  The wind flows through, finally able to get to the
+ground through the opening above.    
+~
+10 0 h 0 0 1
+D6
+~
+~
+0 0 1076 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1082 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1079 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1074 0 0 0 0 0 0 0 0
+S
+#1076
+A Junction of Trails~
+   A small open space here leads into three different ways.  From here you can
+see that the Hall of the Sky is directly northeast of you.  Directly southwest
+of you, you can make out the southwest tower of the city.  Lush green trees
+surround you as you stand here, in the midst of the legendary city of
+Qualinost.    
+~
+10 0 h 0 0 0
+D0
+~
+~
+0 0 1099 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1075 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1077 0 0 0 0 0 0 0 0
+S
+#1077
+A Branching Path~
+   The path that you are on branches away from the main, larger one towards the
+southeast.  From here, you can see the Hall of the Sky towards the north.  The
+path itself is lightly covered with fallen leaves, and the ground beneath it is
+somewhat soft.    
+~
+10 0 h 0 0 0
+D3
+~
+~
+0 0 1078 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1076 0 0 0 0 0 0 0 0
+S
+#1078
+A Branching Path~
+   The path that you are on branches away from the main, larger one towards the
+southeast.  From here, you can see the Hall of the Sky towards the north.  The
+path itself is lightly covered with fallen leaves, and the ground beneath it is
+somewhat soft.    
+~
+10 0 h 0 0 0
+D1
+~
+~
+0 0 1077 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1068 0 0 0 0 0 0 0 0
+S
+#1079
+Within Qualinost~
+   The buzz of hummingbirds and honeybees fills the air, flying from one flower
+to another which grow beneath the covered forests in Qualinost.  The trees
+stand as tall protectors of those plants and animals that roam the ground.  
+Rubs from deer are visible on some of the biggest trees.  Similar small paths
+continue to the south and southeast.    
+~
+10 0 h 0 0 3
+D2
+~
+~
+0 0 1081 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1075 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1080 0 0 0 0 0 0 0 0
+S
+#1080
+A Small Elven Home~
+   The furnishings of this small elven cottage are made entirely of wood.  
+Even the bolts are made of a hardened wood of some sort.  The walls are carved
+right from the trunk of an enormous tree on the outskirts of the city.  A bed
+with the finest silks runs along the east wall.    
+~
+10 d h 0 0 0
+D6
+~
+~
+0 0 1079 0 0 0 0 0 0 0 0
+S
+#1081
+Within Qualinost~
+   The buzz of hummingbirds and honeybees fills the air, flying from one flower
+to another which grow beneath the covered forests in Qualinost.  The trees
+stand as tall protectors of those plants and animals that roam the ground.  
+Rubs from deer are visible on some of the biggest trees.  Similar small paths
+continue to the north and southwest.    
+~
+10 0 0 0 0 3
+D0
+~
+~
+0 0 1079 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1052 0 0 0 0 0 0 0 0
+S
+#1082
+Within Qualinost~
+   The buzz of hummingbirds and honeybees fills the air, flying from one flower
+to another which grow beneath the covered forests in Qualinost.  The trees
+stand as tall protectors of those plants and animals that roam the ground.  
+Rubs from deer are visible on some of the biggest trees.    
+~
+10 0 0 0 0 3
+D4
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1083 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1075 0 0 0 0 0 0 0 0
+S
+#1083
+Within Qualinost~
+   The buzz of hummingbirds and honeybees fills the air, flying from one flower
+to another which grow beneath the covered forests in Qualinost.  The trees
+stand as tall protectors of those plants and animals that roam the ground.  
+Rubs from deer are visible on some of the biggest trees.    
+~
+10 0 0 0 0 3
+D0
+~
+~
+0 0 1084 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1082 0 0 0 0 0 0 0 0
+S
+#1084
+Through Qualinost~
+   Huge trees stretch high into the sky providing a collage of colors, ranging
+from brown to green overhead.  The sound of animals rustling in the trees and
+in the underbrush is loud in your ears.  The underbrush is colored with flowers
+and plants of many types.  The golden bridges connecting the spires is visible
+high in the air to the east.  Homes are visible through the forest.    
+~
+10 0 0 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1083 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1085 0 0 0 0 0 0 0 0
+D8
+~
+door~
+1 0 1086 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1085
+Through Qualinost~
+   Huge trees stretch high into the sky providing a collage of colors, ranging
+from brown to green overhead.  The sound of animals rustling in the trees and
+in the underbrush is loud in your ears.  The underbrush is colored with flowers
+and plants of many types.  The golden bridges connecting the spires is visible
+high in the air to the east.  Homes are visible through the forest.    
+~
+10 0 0 0 0 3
+D0
+~
+~
+0 0 1087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1096 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1084 0 0 0 0 0 0 0 0
+S
+#1086
+A Small Elven Home~
+   The furnishings of this small elven cottage are made entirely of wood.  
+Even the bolts are made of a hardened wood of some sort.  The walls are carved
+right from the trunk of an enormous tree on the outskirts of the city.  A bed
+with the finest silks runs along the east wall.    
+~
+10 d h 0 0 0
+D6
+~
+door~
+1 0 1084 0 0 0 0 0 0 0 0
+S
+#1087
+Through Qualinost~
+   Huge trees stretch high into the sky providing a collage of colors, ranging
+from brown to green overhead.  The sound of animals rustling in the trees and
+in the underbrush is loud in your ears.  The underbrush is colored with flowers
+and plants of many types.    
+~
+10 0 0 0 0 3
+D2
+~
+~
+0 0 1085 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1088 0 0 0 0 0 0 0 0
+S
+#1088
+Through Qualinost~
+   Huge trees stretch high into the sky providing a collage of colors, ranging
+from brown to green overhead.  The sound of animals rustling in the trees and
+in the underbrush is loud in your ears.  The underbrush is colored with flowers
+and plants of many types.    
+~
+10 0 0 0 0 3
+D6
+~
+~
+0 0 1089 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1087 0 0 0 0 0 0 0 0
+S
+#1089
+Through Qualinost~
+   Huge trees stretch high into the sky providing a collage of colors, ranging
+from brown to green overhead.  The sound of animals rustling in the trees and
+in the underbrush is loud in your ears.  The underbrush is colored with flowers
+and plants of many types.    
+~
+10 0 0 0 0 3
+D1
+~
+~
+0 0 1528 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1090 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1088 0 0 0 0 0 0 0 0
+S
+#1090
+A Gentle Arc~
+   The trees are less dense here, and the wind here is cooling and you can feel
+a sense of freedom in the way the wind dances here.  A certain reverence hangs
+in the air, and a hallowed hush seems prevalent here.  Even the creatures are
+more careful here, as if showing a deep respect for something or someone.    
+~
+10 0 h 0 0 1
+D3
+~
+~
+0 0 1091 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1089 0 0 0 0 0 0 0 0
+S
+#1091
+Approaching the Tower of the Sun~
+   The widest path through the city runs northward towards the Tower.  Smooth,
+polished stones of marble are embedded into the ground forming a walkway.  The
+Tower radiates a glow no matter what time of day.  The ground slopes slightly
+downward as it approaches the Tower, and rises southward towards the Hall of
+the Sky.    
+~
+10 0 h 0 0 1
+D1
+~
+~
+0 0 1090 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1092 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1525 0 0 0 0 0 0 0 0
+S
+#1092
+Approaching the Tower of the Sun~
+   The widest path through the city runs northward towards the Tower.  Smooth,
+polished stones of marble are embedded into the ground forming a walkway.  The
+Tower radiates a glow no matter what time of day.  The ground slopes slightly
+downward as it approaches the Tower, and rises southward towards the Hall of
+the Sky.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1091 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1093 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1093
+Before the Grove~
+   Just to the south, a small path ventures deep into the heart of a large
+aspen forest, located on the highest area of the city.  Maple and oak trees
+entwine together to provide a canopy of green foliage.  Standing tall and
+shimmering to the north is the majestic Tower of the Sun.    
+~
+10 0 h 0 0 1
+D0
+~
+~
+0 0 1092 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1094 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1521 0 0 0 0 0 0 0 0
+S
+#1094
+A Narrow Path through the Forest City~
+   The forest path winds around a dense mass of aspen trees to the southwest,
+which is virtually impossible to enter from here.  The sounds of birds from the
+tall maple trees fills your ears, and a soft rustle of animals from the low
+bushes can be heard.  Small shafts of sunlight blast to the ground illuminating
+the area.    
+~
+10 0 h 0 0 3
+D6
+~
+~
+0 0 1093 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1095 0 0 0 0 0 0 0 0
+S
+#1095
+A Fork in the Paths~
+   Occasionally elves of various ages are visible walking through the woods,
+not always on the main paths.  Moss covered oak and maple trees stand tall and
+strong all about the forest, providing a coverage blocking out much of the
+light from above.  The slightly more beaten down paths divide here, running
+either east and west, and northwest.  Mighty aspen trees form an impenetrable
+wall to the southwest, which no sound seems to exit from.    
+~
+10 0 h 0 0 3
+D6
+~
+~
+0 0 1094 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1096 0 0 0 0 0 0 0 0
+S
+#1096
+A Fork in the Paths~
+   Occasionally elves of various ages are visible walking through the woods,
+not always on the main paths.  Moss covered oak and maple trees stand tall and
+strong all about the forest, providing a coverage blocking out much of the
+light from above.  The slightly more beaten down paths divide here, running
+either east and west, and northwest.    
+~
+10 0 h 0 0 3
+D1
+~
+~
+0 0 1085 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1097 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1095 0 0 0 0 0 0 0 0
+S
+#1097
+An Arched Path~
+   A small forested path winds around the hilltop at the center of the city.  
+Just to the west is the Hall of the Sky.  A large swath of aspen trees blocks
+any travel to the north and northwest.  Small paths continue northeast and east
+from here.    
+~
+10 0 h 0 0 3
+D1
+~
+~
+0 0 1096 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1098 0 0 0 0 0 0 0 0
+S
+#1098
+An Arched Path~
+   A small forested path winds around the hilltop at the center of the city.  
+Just to the west is the Hall of the Sky.  A large swath of aspen trees blocks
+any travel to the north and northwest.  Small paths continue northeast and
+southeast from here.    
+~
+10 0 h 0 0 3
+D3
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1097 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1099 0 0 0 0 0 0 0 0
+S
+#1099
+A Side Path~
+   Dense foliage covers the ground, and hangs above the ground here.  Homes sit
+sporadically among the trees.  Flowers of exquisite beauty line the front of
+many of the homes.  The constant buzz of woodland animals is the only apparent
+sound.    
+~
+10 0 h 0 0 3
+D2
+~
+~
+0 0 1076 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1098 0 0 0 0 0 0 0 0
+S
+$~

@@ -1,0 +1,190 @@
+#85
+None.~
+Snow Wood Convent~
+8500 8599 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  8500    15  8500   2    50     0    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20     1     0          0 a red hand-wrap weighted with copper
+
+M 0  8600    10  8500   1    50     2    -1          0 a feral cat
+
+G 1  8608    10     0   0    50     3     2          0 a white cat's tail
+
+M 0  8605     6  8500   1   100     4    -1          0 an elven nun
+
+E 1  8606    10     5   0    50     5     4          0 tattered grey robes
+
+O 0  8500     1  8500   0   100     6    -1          0 a warm spring
+
+D 0  8548     2     1   0   101     7    -10 
+
+M 0  8608     1  8548   1   100     8    -1          0 the undead abbess
+
+G 1  1222     2     0   0    50     9     8          0 some sinewy parchment inscribed with symbols
+
+E 1  8604     5     5   0    25    10     8          0 silver ceremonial robes
+
+E 1  8600     5    16   0    25    11     8          0 a blood blackened white oak staff
+
+D 0  8546     0     1   0   101    12    -10 
+
+M 0  8605     6  8546   1   100    13    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    14    13          0 tattered grey robes
+
+M 0  8605     6  8545   1   100    15    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    16    15          0 tattered grey robes
+
+D 0  8544     2     1   0   101    17    -10 
+
+M 0  8605     6  8544   1   100    18    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    19    18          0 tattered grey robes
+
+M 0  8605     6  8547   1   100    20    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    21    20          0 tattered grey robes
+
+M 0  8500    15  8515   2    50    22    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    23    22          0 a red hand-wrap weighted with copper
+
+O 0  8501     5  8515   0    10    24    -1          0 a silvery oval rock
+
+P 1  8503    30  8501   0    10    25    24          0 a large golden egg
+
+P 1  8503    30  8501   0    10    26    24          0 a large golden egg
+
+P 1  8503    30  8501   0    10    27    24          0 a large golden egg
+
+M 0  8605     6  8515   1   100    28    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    29    28          0 tattered grey robes
+
+M 0  8605     6  8506   1   100    30    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    31    30          0 tattered grey robes
+
+O 0  8501     5  8520   0    10    32    -1          0 a silvery oval rock
+
+P 1  8503    30  8501   0    30    33    32          0 a large golden egg
+
+P 1  8503    30  8501   0    30    34    32          0 a large golden egg
+
+P 1  8503    30  8501   0    30    35    32          0 a large golden egg
+
+M 0  8605     6  8520   1   100    36    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    37    36          0 tattered grey robes
+
+M 0  8500    15  8525   2    50    38    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    39    38          0 a red hand-wrap weighted with copper
+
+M 0  8605     6  8525   1   100    40    -1          0 an elven nun
+
+E 1  8606    10     5   0    50    41    40          0 tattered grey robes
+
+M 0  8601    10  8532   2    50    42    -1          0 a half-elf slave
+
+E 1  8606    10     5   0    50    43    42          0 tattered grey robes
+
+M 0  8607     4  8532   1    50    44    -1          0 the bozak draconian
+
+E 1  8605    10     6   0    50    45    44          0 a blue leather helm
+
+E 1  8601    10    16   0    50    46    44          0 a barbed headed spear
+
+M 0  8603    10  8532   1    50    47    -1          0 a draconian
+
+E 1  8607    10     5   0    50    48    47          0 white leather armor
+
+M 0  8602    20  8532   1    50    49    -1          0 a mercenary
+
+E 1  8603    10    16   0    50    50    49          0 a rusted longsword
+
+M 0  8600    10  8505   1    50    51    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    52    51          0 a white cat's tail
+
+M 0  8600    10  8514   1    50    53    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    54    53          0 a white cat's tail
+
+M 0  8600    10  8519   1    50    55    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    56    55          0 a white cat's tail
+
+M 0  8600    10  8524   1    50    57    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    58    57          0 a white cat's tail
+
+M 0  8600    10  8531   1    50    59    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    60    59          0 a white cat's tail
+
+M 0  8600    10  8543   1    50    61    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    62    61          0 a white cat's tail
+
+M 0  8604     5  8502   1    50    63    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    50    64    63          0 a jagged human femur
+
+M 0  8604     5  8507   1    50    65    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    50    66    65          0 a jagged human femur
+
+M 0  8500    15  8516   2    50    67    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    68    67          0 a red hand-wrap weighted with copper
+
+M 0  8604     5  8516   1    50    69    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    50    70    69          0 a jagged human femur
+
+M 0  8604     5  8521   1    50    71    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    50    72    71          0 a jagged human femur
+
+M 0  8500    15  8526   2    50    73    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    74    73          0 a red hand-wrap weighted with copper
+
+M 0  8604     5  8526   1    50    75    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    50    76    75          0 a jagged human femur
+
+D 0  8533     0     1   0   101    77    -10 
+
+M 0  8604     5  8533   1    50    78    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    50    79    78          0 a jagged human femur
+
+O 0  8501     5  8501   0    10    80    -1          0 a silvery oval rock
+
+P 1  8503    30  8501   0    10    81    80          0 a large golden egg
+
+P 1  8503    30  8501   0    10    82    80          0 a large golden egg
+
+P 1  8503    30  8501   0    10    83    80          0 a large golden egg
+
+O 0  8501     5  8542   0    10    84    -1          0 a silvery oval rock
+
+P 1  8503    30  8501   0    10    85    84          0 a large golden egg
+
+P 1  8503    30  8501   0    10    86    84          0 a large golden egg
+
+P 1  8503    30  8501   0    10    87    84          0 a large golden egg
+
+M 0  8500    15  8523   2    50    88    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    89    88          0 a red hand-wrap weighted with copper
+
+S
+$

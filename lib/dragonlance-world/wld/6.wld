@@ -1,0 +1,1626 @@
+#600
+The Great Tree~
+   You stand at the base of a Great Tree.  It's leaves are a myriad of colors
+that start from golden-yellow to the a dark, lush green.  It's large trunk
+spans the width of ten men standing shoulder to shoulder, and it's height
+seemingly reaches to the clouds.    
+~
+6 d 0 0 0 3
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#601
+The Path to Crystalmir Lake~
+   This path leads westward to Crystalmir Lake.  The pine trees grow thickly
+here, their densely packed branches block out much of the luminaries overhead.
+The path is quite wide and looks to be frequently travelled, probably by
+residents of Solace, fisherman, or even the occasional couple on their way to
+look at the lake by moonlight.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1300 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 602 0 0 0 0 0 0 0 0
+S
+#602
+The Path to Crystalmir Lake~
+   The path continues westward to Lake Crystalmir.  The trees here are still
+densely packed together, causing a thick darkness to fall upon the path.  It
+provides a cool shade in the day, but by night an eerie silence accompanies the
+way, punctuated only by the rustling of the leaves above you.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 601 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 603 0 0 0 0 0 0 0 0
+S
+#603
+The Path to Crystalmir Lake~
+   The path continues westward to Lake Crystalmir.  The trees here are still
+densely packed together, causing a thick darkness to fall upon the path.  It
+provides a cool shade in the day, but by night an eerie silence accompanies the
+way, punctuated only by the rustling of the leaves above you.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 602 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 604 0 0 0 0 0 0 0 0
+S
+#604
+The Path to Crystalmir Lake~
+   The path continues westward to Lake Crystalmir.  The trees here are still
+densely packed together, causing a thick darkness to fall upon the path.  It
+provides a cool shade in the day, but by night an eerie silence accompanies the
+way, punctuated only by the rustling of the leaves above you.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 603 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 605 0 0 0 0 0 0 0 0
+S
+#605
+The Path to Crystalmir Lake~
+   The path continues westward to Lake Crystalmir.  The trees here are still
+densely packed together, causing a thick darkness to fall upon the path.  It
+provides a cool shade in the day, but by night an eerie silence accompanies the
+way, punctuated only by the rustling of the leaves above you.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 604 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 606 0 0 0 0 0 0 0 0
+S
+#606
+The Edge of Crystalmir Lake~
+   Before you lies one of the most serene lakes this side of Ansalon.  
+Reflecting clearly the sun in the day or the moon by night, this lake has
+become legendary for its beauty.  A soft breeze wafts across the lake to you,
+attempting to seduce you with the temptation to just rest in its tranquility.
+A small pathway leads to a narrow shoreline.    
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 607 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 605 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 649 0 0 0 0 0 0 0 0
+S
+#607
+The Edge of Crystalmir Lake~
+   This grassy edge provides a superb view of the lake as you skirt around it.
+As you walk along it, you feel at peace with yourself and nature.  You sense
+smaller animals staying out of your way as they sense your approach.    
+This grassy edge leads north and south.
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 608 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 606 0 0 0 0 0 0 0 0
+S
+#608
+The Edge of Crystalmir Lake~
+   The lake beckons you with its inviting waters, and it looks tempting.  You
+can see small waves ripple across its surface from here, caused by the light
+breeze blowing over it.  Larger ripples caused by fish are visible only if you
+look carefully.    
+~
+6 0 0 0 0 2
+D2
+~
+~
+0 0 607 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 609 0 0 0 0 0 0 0 0
+S
+#609
+The Edge of Crystalmir Lake~
+   The lake beckons you with its inviting waters, and it looks tempting.  You
+can see small waves ripple across its surface from here, caused by the light
+breeze blowing over it.  Larger ripples caused by fish are visible only if you
+look carefully.    
+~
+6 0 0 0 0 2
+D6
+~
+~
+0 0 610 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 608 0 0 0 0 0 0 0 0
+S
+#610
+The Edge of Crystalmir Lake~
+   The lake beckons you with its inviting waters, and it looks tempting.  You
+can see small waves ripple across its surface from here, caused by the light
+breeze blowing over it.  Larger ripples caused by fish are visible only if you
+look carefully.    
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 611 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 609 0 0 0 0 0 0 0 0
+S
+#611
+Near the Lake~
+   The path leading northwest starts to open up into some kind of clearing.  
+Though the tranquility of the lake is still apparent, there is a sense of
+caution that begs to be heeded.  The animals are quiet, and the wind has gone
+down, making you wonder at what lies ahead.    
+~
+6 c 0 0 0 2
+D2
+~
+~
+0 0 610 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 612 0 0 0 0 0 0 0 0
+S
+#612
+An Empty Clearing~
+   The path opens up into a large clearing.  You notice that the ground looks
+as if it has been disturbed.  Large chunks of earth have been thrown up here,
+as if there has been a battle.  Some of the leaves of nearby trees and shrubs
+look singed from some kind of fire.    
+~
+6 0 0 0 0 2
+D6
+~
+~
+0 0 613 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 611 0 0 0 0 0 0 0 0
+S
+#613
+A Blackened Area~
+   The ground here has been blackened from some intense heat.  Small shrubs and
+some trees lie shriveled and burnt by fire of some sort.  The stench of death
+fills the air.    
+~
+6 0 0 0 0 2
+D3
+~
+~
+0 0 614 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 612 0 0 0 0 0 0 0 0
+S
+#614
+The Trail of Blood~
+   A trail of blood trickles on the ground here, leading westwards towards
+what, you're not sure.  You notice small items that lie on the ground, like a
+deformed strap, and a small twisted buckle.  They seem to have been trampled
+into the ground by something heavy.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 615 0 0 0 0 0 0 0 0
+S
+#615
+The Stench of Death~
+   The stench of dead bodies assails your nostrils and you come into what can
+only be described as a scene of carnage.  Dead bodies lie around, most of them
+of some humanoid origin.  Lying disfigured, there is no real way to tell what
+they were before, or what killed them.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 614 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 616 0 0 0 0 0 0 0 0
+S
+#616
+The Hunt~
+   A large semi-circle of sorts has been drawn into the ground by the bootmarks
+of a large company of humanoids.  They indicate that the group had been focused
+inwards, perhaps upon a prey of some sort.  Some of the bootprints look deeper
+on one boot than the other, indicating that the wearer was injured and leaning
+on one foot more than the other.    
+~
+6 0 0 0 0 2
+D3
+~
+~
+0 0 617 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 615 0 0 0 0 0 0 0 0
+S
+#617
+The Wait~
+   Some trees are here, obscuring much of your view of the way leading west.  
+The ground is hard and it is difficult to discern the multitude of tracks that
+have been impressed upon it.  Some blood has been spilled on it, that is
+certain.  You hear a faint movement near you.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 618 0 0 0 0 0 0 0 0
+S
+#618
+Ambush~
+   The minute you walk in, you know that you are not alone, and that you are
+probably being watched.  There seems to be many of them though, and you might
+well be outnumbered.  As you watch, you catch the glimpse of an eye here, a
+foot there, and hear sounds of weapons being readied.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 617 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 619 0 0 0 0 0 0 0 0
+S
+#619
+The Enscarpment~
+   A large enscarpment marks the west pathway, with a large rock in front of it
+providing partial cover from arrows or other projectiles that might come this
+way.  The front of the rock looks like it has taken quite a few hits from said
+projectiles, including some of weightier disposition.    
+~
+6 0 0 0 0 2
+D7
+~
+~
+0 0 618 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 620 0 0 0 0 0 0 0 0
+S
+#620
+The Narrow Way~
+   The path to the south takes on a narrow disposition, and you find yourself
+coming to the start of a throughway between thick brush.  Thorns are absent,
+but nonetheless, it will be hard, though not impossible for large groups to
+come through this way.    
+~
+6 ac 0 0 0 3
+D2
+~
+~
+0 0 621 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 619 0 0 0 0 0 0 0 0
+S
+#621
+Squeezing Through the Brush~
+   You push your way tightly through the brush, and strive forward.  Because of
+the denseness of the surroundings, it is hard to tell what lies before you or
+upon the ground.  What you do know is that with you in the narrow path, you are
+an easy target for archers should there be any.    
+~
+6 ai 0 0 0 3
+D0
+~
+~
+0 0 620 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 622 0 0 0 0 0 0 0 0
+S
+#622
+Squeezing Through the Brush~
+   You push your way tightly through the brush, and strive forward.  Because of
+the denseness of the surroundings, it is hard to tell what lies before you or
+upon the ground.  What you do know is that with you in the narrow path, you are
+an easy target for archers should there be any.    
+~
+6 ai 0 0 0 3
+D2
+~
+~
+0 0 623 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 621 0 0 0 0 0 0 0 0
+S
+#623
+Squeezing Through the Brush~
+   You push your way tightly through the brush, and strive forward.  Because of
+the denseness of the surroundings, it is hard to tell what lies before you or
+upon the ground.  What you do know is that with you in the narrow path, you are
+an easy target for archers should there be any.    
+~
+6 ai 0 0 0 3
+D0
+~
+~
+0 0 622 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 624 0 0 0 0 0 0 0 0
+S
+#624
+Coming to a Wide Area~
+   You see a faint light ahead of you, indicating an exit from this narrow
+passage you are currently in.  The smell of the Lake stirs your nostrils
+faintly as you realize that you are still close to the water.  You hear the
+faint sound of the small waves lapping onto wood.    
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 623 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 625 0 0 0 0 0 0 0 0
+S
+#625
+A Small Open Space~
+   You come to a small space surrounded by dense trees with only a pathway
+northwards and southwest.  There is a small fisherman's hut to the east, and
+tied to it is a decrepit boat has been scuttled by wear and no longer
+serviceable.    
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 624 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 650 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 626 0 0 0 0 0 0 0 0
+S
+#626
+The Swampy Marsh~
+   The ground below you is soggy and wet, and quickly degenerates to a swampy
+marsh.  The mud gives purchase below you and you put your weight on it.  There
+is some difficulty when you lift your foot, and your footwear threatens to come
+off.  Marshland trees scatter the scene, tall and thin, with aerial roots that
+breathe in the misty air.    
+~
+6 ac 0 0 0 3
+D3
+~
+~
+0 0 627 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 625 0 0 0 0 0 0 0 0
+S
+#627
+The Swampy Marsh~
+   The ground below you is soggy and wet, and quickly degenerates to a swampy
+marsh.  The mud gives purchase below you and you put your weight on it.  There
+is some difficulty when you lift your foot, and your footwear threatens to come
+off.  Marshland trees scatter the scene, tall and thin, with aerial roots that
+breathe in the misty air.    
+~
+6 a 0 0 0 3
+D1
+~
+~
+0 0 626 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 628 0 0 0 0 0 0 0 0
+S
+#628
+The Swampy Marsh~
+   The ground below you is soggy and wet, and quickly degenerates to a swampy
+marsh.  The mud gives purchase below you and you put your weight on it.  There
+is some difficulty when you lift your foot, and your footwear threatens to come
+off.  Marshland trees scatter the scene, tall and thin, with aerial roots that
+breathe in the misty air.    
+~
+6 a 0 0 0 3
+D0
+~
+~
+0 0 627 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 629 0 0 0 0 0 0 0 0
+S
+#629
+The Swampy Marsh~
+   The ground below you is soggy and wet, and quickly degenerates to a swampy
+marsh.  The mud gives purchase below you and you put your weight on it.  There
+is some difficulty when you lift your foot, and your footwear threatens to come
+off.  Marshland trees scatter the scene, tall and thin, with aerial roots that
+breathe in the misty air.    
+~
+6 a 0 0 0 3
+D2
+~
+~
+0 0 630 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 628 0 0 0 0 0 0 0 0
+S
+#630
+The Swampy Marsh~
+   The ground below you is soggy and wet, and quickly degenerates to a swampy
+marsh.  The mud gives purchase below you and you put your weight on it.  There
+is some difficulty when you lift your foot, and your footwear threatens to come
+off.  Marshland trees scatter the scene, tall and thin, with aerial roots that
+breathe in the misty air.    
+~
+6 a 0 0 0 3
+D0
+~
+~
+0 0 629 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 631 0 0 0 0 0 0 0 0
+S
+#631
+The Moist Air~
+   The air around you is misty and laden heavily with moisture.  Drops of
+condensation start to form on your skin, making you feel damp and slick.  A
+little beyond you, you see what seem to be the shape of trees, but you cannot
+tell for sure.    
+~
+6 a 0 0 0 3
+D0
+~
+~
+0 0 630 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 632 0 0 0 0 0 0 0 0
+S
+#632
+Just Outside~
+   You are outside a strange vine wall that reaches high above you.  The vines
+grow so closely together that it is impossible to see through their denseness.
+Faint sounds can be heard from within, but you see no way of getting in.    
+~
+6 c 0 0 0 2
+D6
+~
+~
+0 0 631 0 0 0 0 0 0 0 0
+S
+#633
+An Alcove~
+   You come into a small, dark alcove.  The scent of pine wood and roses, fur
+and blood is strong here.  You sense a kind of sacredness present in this
+place, a peace that should not be broken.    
+~
+6 c h 0 0 1
+D0
+~
+vinewall~
+1 0 683 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 634 0 0 0 0 0 0 0 0
+S
+#634
+A Stillness of the Soul~
+   As you walk into this place, you feel a sense of stillness and harmony.  A
+silent glow seems to come from the crude stone walls here, but you can't be
+sure.    
+~
+6 c h 0 0 1
+D3
+~
+~
+0 0 633 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 635 0 0 0 0 0 0 0 0
+S
+#635
+A Pathway of Stone~
+   The grassy floor ends here, and the ground begins to take a stony, more
+solid form.  A pathway of crude stone leads northwest, and an almost sacred
+stillness seems to come from within.    
+~
+6 c 0 0 0 2
+D1
+~
+~
+0 0 636 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 634 0 0 0 0 0 0 0 0
+S
+#636
+A Quiet Place~
+   This place is enclosed by vine walls the height of four humans.  Large ferns
+and shrubs are laid out in neat arrangements, and small trees have taken root.
+Above you the wind is blowing gently, providing a cool refreshment.  A brook
+trickles through here, watering the numerous plants in this area.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 637 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 682 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 635 0 0 0 0 0 0 0 0
+S
+#637
+A Quiet Place~
+   This place is enclosed by vine walls the height of four humans.  Large ferns
+and shrubs are laid out in neat arrangements, and small trees have taken root.
+Above you the wind is blowing gently, providing a cool refreshment.  A brook
+trickles through here, watering the numerous plants in this area.    
+~
+6 0 0 0 0 2
+D1
+~
+~
+0 0 638 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 681 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 636 0 0 0 0 0 0 0 0
+S
+#638
+A Quiet Place~
+   This place is enclosed by vine walls the height of four humans.  Large ferns
+and shrubs are laid out in neat arrangements, and small trees have taken root.
+Above you the wind is blowing gently, providing a cool refreshment.  A brook
+trickles through here, watering the numerous plants in this area.    
+~
+6 d 0 0 0 2
+D2
+~
+~
+0 0 639 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 637 0 0 0 0 0 0 0 0
+S
+#639
+Inside the Vine Wall~
+   Darkness envelopes you inside of the wall, but it is a warm, welcoming
+darkness, full of life and secrecy.  The vines here thrum with life and
+vitality, almost with animal zeal.  A brighter light comes from the north,
+beckoning you in.  You hear the sounds of hoofs and some movement up ahead.  
+~
+6 c 0 0 0 2
+D0
+~
+~
+0 0 638 0 0 0 0 0 0 0 0
+D1
+~
+vines~
+2 0 640 0 0 0 0 0 0 0 0
+S
+#640
+Ahead of the Stream~
+   A large wall of vines comes out of nowhere to block further progess.  The
+vines are densely packed together, preventing you from seeing through them.  A
+small stream of water seems to come out from the ground near the vine wall.  
+~
+6 a 0 0 0 3
+D1
+~
+~
+0 0 641 0 0 0 0 0 0 0 0
+D3
+~
+vines~
+2 0 639 0 0 0 0 0 0 0 0
+S
+#641
+A Small Stream~
+   A small stream flows past the path, making a joyful gurgling noise and it
+tickles its way past rocks.  Moss has started to grow on the rocks, giving them
+slippery purchase.  A little further up, you think you see a deer or some other
+animal drinking from it.    
+~
+6 a 0 0 0 3
+D3
+~
+~
+0 0 640 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 642 0 0 0 0 0 0 0 0
+S
+#642
+A Small Forest~
+   As you walk this way, you feel your spirits lifted high.  Birds seem to sing
+to you and even the trees seem to wave at your approach.  It looks as though
+this part of the forest seems untouched for years.  Nearby are the sounds of a
+brook or stream as it trickles down some rocks.    
+~
+6 a 0 0 0 3
+D1
+~
+~
+0 0 643 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 641 0 0 0 0 0 0 0 0
+S
+#643
+A Small Forest~
+   The trees here are a little more mature, reaching higher into the air.  You
+hear birds chirping and squirrels scurry about as they seek food.  As you walk
+through the forest, you feel at peace and in harmony with nature.    
+~
+6 a 0 0 0 3
+D0
+~
+~
+0 0 644 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 642 0 0 0 0 0 0 0 0
+S
+#644
+The Beginning of a Forested Area~
+   A small forested area beckons you deeper.  A small number of tracks litter
+the ground upon which you walk.  The grass around here is lush and green, but
+seems to be newly overgrown.  The trees that surround you are young and strong,
+but far from their adult age.    
+~
+6 a 0 0 0 2
+D0
+~
+~
+0 0 645 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 643 0 0 0 0 0 0 0 0
+S
+#645
+Moving towards a Forest~
+   You can see that this way leads to a small forest.  The way is flat and
+smooth, and the branches of the nearby trees seem to welcome you while dancing
+in the wind.  A few small animals scuttle out of your path as they sense your
+approach, and you realize that though this way is rarely travelled, if has
+oft-used before.    
+~
+6 c 0 0 0 2
+D0
+~
+~
+0 0 646 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 644 0 0 0 0 0 0 0 0
+S
+#646
+A Grassy Plateau~
+   The slope from the northeast evens out into a flat plateau that is slightly
+higher in elevation than the Lake, allowing you to look down into it's
+shimmering waters.  You notice that several dark shapes of considerable sizes
+are in the water, and are not static.    
+~
+6 0 0 0 0 2
+D2
+~
+~
+0 0 645 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 647 0 0 0 0 0 0 0 0
+S
+#647
+A Slight Ascent~
+   The path towards the southwest starts to incline a little, and a slight
+slope leads that way.  The scene of the lake is still present, but not as
+impressive as you have moved away from it a little.  This way looks as though
+it has not been travelled much recently.    
+~
+6 0 h 0 0 0
+D0
+~
+~
+0 0 648 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 646 0 0 0 0 0 0 0 0
+S
+#648
+The edge of a Small Lake~
+   This grassy edge provides a superb view of the lake as you skirt around it.
+As you walk along it, you feel at peace with yourself and nature.  You sense
+smaller animals staying out of your way as they sense your approach.  This
+grassy edge leads north and south.    
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 3072 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 647 0 0 0 0 0 0 0 0
+S
+#649
+A Narrow Shoreline~
+   This narrow shoreline leads from the path towards Solace and the beautiful
+lake known as Crystalmir.  Small waves gently lap against the shore as the wind
+blows across the waters evenly.  You hear the gentle sound of waves lapping
+against wood, and spot a small pier nearby.    
+~
+6 0 h 0 0 1
+D1
+~
+~
+0 0 606 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 652 0 0 0 0 0 0 0 0
+S
+#650
+The Fisherman's Hut~
+   This small, dank space is the decrepit remains of what used to be the
+habitat for a fisherman.  A bed lies ruined in a corner, and bits and pieces of
+wood lie strewn around.  You immediately detect the strong smell that had been
+left behind, pervasive even after all these years.    
+~
+6 d h 0 0 0
+D1
+~
+backdoor~
+1 0 651 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 625 0 0 0 0 0 0 0 0
+S
+#651
+A Small Decrepit Landing~
+   A small landing of sorts over looks the lake, making it convenient for the
+previous owner to launch out from here.  A boat has been junked in the water
+here, and lies as a symbol of history past.  Water lies all around you, except
+to the west, back to the hut.    
+~
+6 c 0 0 0 1
+D3
+~
+backdoor~
+1 0 650 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 680 0 0 0 0 0 0 0 0
+S
+#652
+A Small Pier~
+   A small pier made of wood stands here, sturdy still after what looks to be a
+long time.  This used to be a place where children could jump off into the
+lake.  The waters of Crystalmir Lake glitter before you in splendor, glistening
+with the light of the luminaries overhead.    
+~
+6 0 0 0 0 1
+D1
+~
+~
+0 0 649 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 653 0 0 0 0 0 0 0 0
+S
+#653
+A Small Pier~
+   A small pier made of wood stands here, sturdy still after what looks to be a
+long time.  This used to be a place where children could jump off into the
+lake.  The waters of Crystalmir Lake glitter before you in splendor, glistening
+with the light of the luminaries overhead.  The pier stops here, and westwards
+is only water.    
+~
+6 0 0 0 0 1
+D1
+~
+~
+0 -1 679 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 654 0 0 0 0 0 0 0 0
+S
+#654
+Falling into the water!~
+   You launch yourself off the pier and into the air, towards the cool waters
+of the lake.  You anticipate the refreshing feeling that it will bring, but
+belatedly realize that there might be inhabitants of the Lake that you did not
+know about.    
+~
+6 qs 0 0 0 2
+D1
+~
+~
+0 0 653 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 655 0 0 0 0 0 0 0 0
+S
+#655
+In the water~
+   You are immersed in the water of Crystalmir Lake.  Your movements are slow
+and sluggish as the water resists you.  As you try and look around, the clear
+water enables you to clearly see the visual wonders below the lake.  You can
+also make out some murky shapes swimming about - somewhat large shapes.    
+~
+6 f 0 0 0 5
+D3
+~
+~
+0 0 656 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 654 0 0 0 0 0 0 0 0
+S
+#656
+In the water~
+   You are immersed in the water of Crystalmir Lake.  Your movements are slow
+and sluggish as the water resists you.  As you try and look around, the clear
+water enables you to clearly see the visual wonders below the lake.  You can
+also make out some murky shapes swimming about - somewhat large shapes.    
+~
+6 f 0 0 0 5
+D0
+~
+~
+0 0 657 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 655 0 0 0 0 0 0 0 0
+S
+#657
+In the water~
+   The cool water engulfs you in its thick embrace, and you are both refreshed
+and cleansed by it.  As you swim along here, you notice several shadows in the
+depths nearby.  You hope those aren't hungry shadows.  Some smaller fish of
+sorts come closer to you to see if you have anything to eat, but are
+disappointed.    
+~
+6 f 0 0 0 5
+D2
+~
+~
+0 0 656 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 658 0 0 0 0 0 0 0 0
+S
+#658
+In the water~
+   The cool water engulfs you in its thick embrace, and you are both refreshed
+and cleansed by it.  As you swim along here, you notice several shadows in the
+depths nearby.  You hope those aren't hungry shadows.  Some smaller fish of
+sorts come closer to you to see if you have anything to eat, but are
+disappointed.    
+~
+6 f 0 0 0 5
+D2
+~
+~
+0 0 659 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 657 0 0 0 0 0 0 0 0
+S
+#659
+In the water~
+   The cool water engulfs you in its thick embrace, and you are both refreshed
+and cleansed by it.  As you swim along here, you notice several shadows in the
+depths nearby.  You hope those aren't hungry shadows.  Some smaller fish of
+sorts come closer to you to see if you have anything to eat, but are
+disappointed.    
+~
+6 f 0 0 0 5
+D0
+~
+~
+0 0 658 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 661 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 660 0 0 0 0 0 0 0 0
+S
+#660
+In the water~
+   You struggle to push your way through the water.  The blue-green of the
+water surrounds you as you feel totally encompassed by it.  This part of the
+lake is a little murkier and you can hardly see your way.    
+~
+6 af 0 0 0 5
+D1
+~
+~
+0 0 659 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 669 0 0 0 0 0 0 0 0
+S
+#661
+In the water~
+   You struggle to push your way through the water.  The blue-green of the
+water surrounds you as you feel totally encompassed by it.  This part of the
+lake is a little murkier and you can hardly see your way.    
+~
+6 af h 0 0 1
+D0
+~
+~
+0 0 659 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 662 0 0 0 0 0 0 0 0
+S
+#662
+The Shallow End~
+   This part of the lake starts getting shallower and you can see the light of
+the luminaries start to brighten your environment.  Several water creatures
+seem startled at your presence, and move quickly away at any sudden movement on
+your part.  Otherwise they try to ignore you.    
+~
+6 f h 0 0 1
+D3
+~
+~
+0 0 663 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 661 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 668 0 0 0 0 0 0 0 0
+S
+#663
+The Shallow End~
+   This part of the lake starts getting shallower and you can see the light of
+the luminaries start to brighten your environment.  Several water creatures
+seem startled at your presence, and move quickly away at any sudden movement on
+your part.  Otherwise they try to ignore you.    
+~
+6 f h 0 0 1
+D1
+~
+~
+0 0 662 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 664 0 0 0 0 0 0 0 0
+S
+#664
+The Shallow End~
+   This part of the lake starts getting shallower and you can see the light of
+the luminaries start to brighten your environment.  Several water creatures
+seem startled at your presence, and move quickly away at any sudden movement on
+your part.  Otherwise they try to ignore you.    
+~
+6 f h 0 0 0
+D1
+~
+~
+0 0 663 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 665 0 0 0 0 0 0 0 0
+S
+#665
+The Shallow End~
+   This part of the lake starts getting shallower and you can see the light of
+the luminaries start to brighten your environment.  Several water creatures
+seem startled at your presence, and move quickly away at any sudden movement on
+your part.  Otherwise they try to ignore you.    
+~
+6 f h 0 0 1
+D7
+~
+~
+0 0 664 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 666 0 0 0 0 0 0 0 0
+S
+#666
+The Shallow End~
+   This part of the lake starts getting shallower and you can see the light of
+the luminaries start to brighten your environment.  Several water creatures
+seem startled at your presence, and move quickly away at any sudden movement on
+your part.  Otherwise they try to ignore you.    
+~
+6 f h 0 0 1
+D1
+~
+~
+0 0 667 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 665 0 0 0 0 0 0 0 0
+S
+#667
+The Shallow End~
+   This part of the lake starts getting shallower and you can see the light of
+the luminaries start to brighten your environment.  Several water creatures
+seem startled at your presence, and move quickly away at any sudden movement on
+your part.  Otherwise they try to ignore you.    
+~
+6 f h 0 0 1
+D1
+~
+~
+0 0 668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 666 0 0 0 0 0 0 0 0
+S
+#668
+The Shallow End~
+   This part of the lake starts getting shallower and you can see the light of
+the luminaries start to brighten your environment.  Several water creatures
+seem startled at your presence, and move quickly away at any sudden movement on
+your part.  Otherwise they try to ignore you.    
+~
+6 f h 0 0 1
+D3
+~
+~
+0 0 667 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 662 0 0 0 0 0 0 0 0
+S
+#669
+Deeper Water~
+   You head out towards deeper water, and can feel the water growing colder
+even as the denseness makes it harder to move.  Surely at such a depth, more
+creatures would dwell.  Just as the thought comes to your mind, you see a large
+shape pass nearby.    
+~
+6 af h 0 0 5
+D3
+~
+~
+0 0 670 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 660 0 0 0 0 0 0 0 0
+S
+#670
+Deeper Water~
+   You head out towards deeper water, and can feel the water growing colder
+even as the denseness makes it harder to move.  Surely at such a depth, more
+creatures would dwell.  Just as the thought comes to your mind, you see a large
+shape pass nearby.    
+~
+6 af 0 0 0 5
+D1
+~
+~
+0 0 669 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 671 0 0 0 0 0 0 0 0
+S
+#671
+Deeper Water~
+   As you move slowly, you feel a tug from a faint current pulling you
+southwards.  Strangely enough, though there are the typical water plants here,
+there do not seem to be water creatures nearby.    
+~
+6 acf 0 0 0 5
+D0
+~
+~
+0 0 670 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 672 0 0 0 0 0 0 0 0
+S
+#672
+Deeper Water~
+   As you move slowly, you feel a tug from a faint current pulling you
+southwards.  Strangely enough, though there are the typical water plants here,
+there do not seem to be water creatures nearby.    
+~
+6 acf 0 0 0 5
+D0
+~
+~
+0 0 671 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 673 0 0 0 0 0 0 0 0
+S
+#673
+A Strong Current~
+   The water around you here moves swiftly, and flows past you at great force.
+There are only a few water plants here, those with weaker roots have been
+pulled along by the current.  You only have a few seconds to take in your
+surroundings before you are pulled deep into a hole in the ocean floor by a
+strong current.    
+~
+6 acfq 0 0 0 5
+D0
+~
+~
+0 0 672 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 674 0 0 0 0 0 0 0 0
+S
+#674
+A Cold Darkness~
+   The water here is chilly, to the point of cold.  You realize that you are
+below the floor of the lake, and rarely has anyone come out of these depths.  
+You feel the residual effects of a strong current from the south pulling you.
+Even in these depths, you hear the slow movements of a slow, but powerful
+creature.    
+~
+6 adf 0 0 0 5
+D2
+~
+~
+0 0 675 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 673 0 0 0 0 0 0 0 0
+S
+#675
+A Cold Darkness~
+   Almost freezing from the cold water, you can hardly make your way out in the
+dense darkness.  You can feel movement nearby in the south, and the current
+around you is strongly pulling you towards there.  As you feel your way around,
+you realize that you are in an underwater rock grotto.    
+~
+6 adf 0 0 0 5
+D0
+~
+~
+0 0 674 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 676 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 677 0 0 0 0 0 0 0 0
+S
+#676
+A Cold-Blooded Threat~
+   Bits and pieces of metal and leather lies in disarray on the floor, the
+remnents of adventurers that have been here.  There is no sight of their bodies
+though, and you wonder what happened to the bones, surely they could not have
+been devoured whole?  But your thoughts are interrupted as you realize that you
+are not alone here.    
+~
+6 adfgh 0 0 0 5
+D0
+~
+~
+0 0 675 0 0 0 0 0 0 0 0
+S
+#677
+Under the Lake~
+   The part of the lake that you are at has a strong current leading westwards,
+and seems to lead upwards.  In the darkness you realize that this is the west
+part of the lake, but you are still in quite deep.  You can only go back east
+here, or towards the west.    
+~
+6 adf 0 0 0 5
+D1
+~
+~
+0 0 675 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 678 0 0 0 0 0 0 0 0
+S
+#678
+Under the Lake~
+   You are under the lake, and near the wooden foundations of some kind of
+building.  You can barely make out a small dock of some sort a far way above
+you.  The current here strains to pull you up, but it has gotten rather weak
+here and you need to swim up yourself.  As you strain against the muck that
+threatens to pull you down, you realize that to go back down the same way would
+be almost impossible.    
+~
+6 adf 0 0 0 5
+D1
+~
+~
+0 0 677 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 680 0 0 0 0 0 0 0 0
+S
+#679
+A Small Boat~
+   There is nothing here.  Nothing
+~
+6 dfiC 0 0 0 0
+D5
+~
+~
+0 -1 653 0 0 0 0 0 0 0 0
+S
+#680
+Underneath a Wooden Pier~
+   You are beneath what seems to be a small wooden landing.  The waves gently
+lap at the structure and there is a short rope nearby that had been tied to a
+ruined boat.  You can use the rope to pull yourself up, since that seems to be
+the only way up.    
+~
+6 acdf 0 0 0 5
+D4
+~
+~
+0 0 651 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 678 0 0 0 0 0 0 0 0
+S
+#681
+A Quiet Place~
+   This place is enclosed by vine walls the height of four humans.  Large ferns
+and shrubs are laid out in neat arrangements, and small trees have taken root.
+Above you the wind is blowing gently, providing a cool refreshment.  The sound
+of water sprites playing is not far away.    
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 637 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 682 0 0 0 0 0 0 0 0
+S
+#682
+A Quiet Place~
+   This place is enclosed by vine walls the height of four humans.  Large ferns
+and shrubs are laid out in neat arrangements, and small trees have taken root.
+Above you the wind is blowing gently, providing a cool refreshment.  The sound
+of water sprites playing is not far away.    
+~
+6 0 0 0 0 2
+D0
+~
+~
+0 0 636 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 681 0 0 0 0 0 0 0 0
+S
+#683
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D2
+~
+vinewall~
+1 0 633 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 684 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 690 0 0 0 0 0 0 0 0
+S
+#684
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D0
+~
+~
+0 0 685 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 683 0 0 0 0 0 0 0 0
+S
+#685
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D2
+~
+~
+0 0 684 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 686 0 0 0 0 0 0 0 0
+S
+#686
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D1
+~
+~
+0 0 687 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 685 0 0 0 0 0 0 0 0
+S
+#687
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D1
+~
+~
+0 0 688 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 691 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 686 0 0 0 0 0 0 0 0
+S
+#688
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D3
+~
+~
+0 0 687 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 689 0 0 0 0 0 0 0 0
+S
+#689
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D2
+~
+~
+0 0 690 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 688 0 0 0 0 0 0 0 0
+S
+#690
+A Quiet Grove~
+   The quietness in this area is not a typical one, dwelling in the soul rather
+than from the lack of sounds.  Indeed, the faint sounds of birds, and small
+animals dwell just beyond the limits of clear hearing.  Instead, an almost
+otherwordly stillness settles in the heart.    
+~
+6 c 0 0 0 2
+D0
+~
+~
+0 0 689 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 683 0 0 0 0 0 0 0 0
+S
+#691
+The Innermost Grove~
+   From within here, the sounds of the outside world are quiet, as though even
+the creatures of the wild respect what this place represent, and dare not
+intrude.  Only the scent of the freshest grass and fresh-fallen rain assail the
+senses, heightening the perception of the newness of life ever-changing, like
+the cycle of seasons.    
+~
+6 cu ef 0 0 2
+D0
+~
+~
+0 0 687 0 0 0 0 0 0 0 0
+S
+#692
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+6 0 0 0 0 0
+D9
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+#693
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+6 0 0 0 0 0
+D6
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+#694
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+6 0 0 0 0 0
+D7
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+$~

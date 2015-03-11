@@ -1,0 +1,144 @@
+#4500
+@nThose filthy bandits! (@Ylvl 10@n)~
+@nThose filthy bandits! (@Ylvl 10@n)~
+The druid smiles at you with sincere eyes, seeming cold and collected when
+asking you to clear up some of the rift raft from the camp.  '@MBe careful when
+wiping out those bandits, they're likely to fight dirty dear friend@n.'  
+@nThe druid continues, '@MPlease finish off at least six@n.'
+~
+You have completed the quest.
+@nYou finished slaying the filthy bandits! Congratulations!
+~
+You have abandoned the quest.
+~
+3 4517 0 4502 -1 -1 -1
+100 0 10 61 -1 -1 6
+500 5 65535
+S
+#4501
+@nThose other bandits!! (@Ylvl 12@n)~
+@nThose other bandits!! (@Ylvl 12@n)~
+@nThe druid begins to smile and points his staff in your direction.  '@MYou
+really think you're ready to take on those other bandits?  The one's who have
+the money and skill to clean themselves up and not look like common dogs?  Kill
+off six of them and we'll see about a reward.  @n'
+~
+You have completed the quest.
+@nYou managed to kill off six of the bandits! Congratulations!
+~
+You have abandoned the quest.
+~
+3 4517 0 4509 -1 -1 -1
+100 0 11 61 -1 -1 6
+750 6 65535
+S
+#4502
+@nTime for the Bossman! (@Ylvl 14@n)~
+@nTime for the Bossman! (@Ylvl 14@n)~
+@n'@MIf you can take down the bandit boss, then surel'y they'll leave my
+forests.  If they leave my forest, I'll give you a very special reward.  @n' The
+old druid seems to glow in anticipation of your success.  
+~
+The boss has fallen! You have made the druid of the forest a very happy man.
+~
+You have abandoned the quest.
+~
+3 4517 0 4514 -1 -1 -1
+150 0 12 61 -1 -1 1
+1000 7 4515
+S
+#4503
+@nFind the Woodcutter (@Ylvl 4@n)~
+@nFind the Woodcutter (@Ylvl 4@n)~
+@nThe child says '@MPlease tell my dad, the woodcutter, where to find me! I'm Lost!@n'
+~
+@nThe woodcutter tells you, '@MOh my! My precious little girl! Thank you!@n'
+~
+You have abandoned the quest.
+~
+2 -1 0 -1 -1 -1 -1
+25 0 5 61 -1 -1 1
+25 4 65535
+S
+#4504
+@nThin the Herd Part 1 (@Ylvl 6@n)~
+@nThin the Herd Part 1 (@Ylvl 6@n)~
+There are way too many wild bucks in this forest.  There's no need to thin the
+doe, but take down seven mighty bucks, and you will be rewarded.  
+~
+You have successfully taken down seven of the mighty bucks! Congratulations!
+~
+You have abandoned the quest.
+~
+3 4503 0 4507 -1 -1 -1
+75 0 6 61 -1 -1 7
+200 8 65535
+S
+#4505
+@nThin the Herd Part 2 (@Ylvl 7@n)~
+@nThin the Herd Part 2 (@Ylvl 7@n)~
+There have been wolves roaming the forest, eating too many of the kinder forest
+creatures.  Thin there numbers a bit please.  Getting rid of seven should be
+good enough for a solid reward.  
+~
+You have succeeded in killing seven of the silver coated wolves!
+~
+You have abandoned the quest.
+~
+3 4503 0 4505 -1 -1 -1
+100 0 7 61 -1 -1 7
+300 8 65535
+S
+#4506
+@nThin the Herd Part 3 (@Ylvl 8@n)~
+@nThin the Herd Part 3 (@Ylvl 8@n)~
+You have been doing me a great service.  Yes, please finish off thinning these
+beats by taking out the dire raccoons.  They have been cutting down too many of
+the mighty pine trees of the forest.  If you would kill six, I could gladly
+reward you.  
+~
+You have finished thinning the numbers of the forest creatures.  Balance has
+been put back in place.  Congratulations!  
+~
+You have abandoned the quest.
+~
+3 4503 0 4513 -1 -1 -1
+100 0 8 61 -1 -1 6
+500 10 65535
+S
+#4507
+@nDestroy the Spiders! (@Ylvl 10@n)~
+@nDestroy the Spiders! (@Ylvl 10@n)~
+There are spiders nesting in the southwest forest floor.  Beware, they are
+vicious!  If you could kill off 10 of the spiders, I'll give you something truly
+of value!  
+~
+Congratulations on defeating ten spiders!  Elaidis swoops in quickly to give you
+you're just rewards.  Just as quick as she rushed in, she flees back to through
+the forest to her tree.  
+~
+You have abandoned the quest.
+~
+3 4503 0 4512 -1 -1 -1
+150 0 10 61 -1 -1 10
+1000 10 4516
+S
+#4508
+@nCatfish and Minerals (@Ylvl 15@n)~
+@nCatfish and Minerals (@Ylvl 15@n)~
+There is a pesky catfish underwater in the nearby pond.  He has been guarding a
+precious vein of gemstones that resides at the bottom of that pool.  If you
+would clear the catfish problem, I would gladly line your purse for you.  Be
+cautious thoguh, he has skin very thick and is quite a powerful foe.  It may be
+wise to gather more men for this mission.  
+~
+You have finished killing the gigantic catfish!  The druid must be a crafty one,
+because your purse has had quite a few coins teleported into it.  
+~
+You have abandoned the quest.
+~
+3 4517 0 4510 -1 -1 -1
+250 0 15 61 -1 -1 1
+2000 10 65535
+S
+$~

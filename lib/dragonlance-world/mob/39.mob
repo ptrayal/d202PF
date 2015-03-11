@@ -1,0 +1,310 @@
+#3900
+acolyte statue~
+a statue of an acolyte of Mishakal~
+A statue of an acolyte of Mishakal stands here in a form of prayer.
+~
+   Carved from what appears to be solid stone, this statue sparkles in the
+light.  Flawless facial features depict a beautiful female face.  The body has
+a smooth and attractive look to it.    
+~
+d 0 0 0 k 0 0 0 900
+30 5 -32 270d230+113 1d8+15
+75 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 24
+E
+Con: 12
+E
+Cha: 11
+S
+#3901
+large marble statue~
+a large marble statue~
+A large marble statue guards the entrance to the statue of Mishakal.
+~
+   A large, carved marble statue sets before you.  Its massive arms folded
+acrossed its chest.  The statue stands about eight or nine feet tall, casing a
+rather large shadow to fall over you.    
+~
+d 0 0 0 k 0 0 0 900
+30 5 -35 330d260+116 1d8+15
+75 0 32 5
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 12
+E
+Cha: 24
+S
+#3902
+statue~
+a statue of Mishakal~
+A statue of Mishakal stands here in all her beauty.
+~
+   An exceptional statue stands before your eyes.  Slim and beautiful, it could
+bring tears to your eyes.  Looking over the statue she holds an open hand,
+waiting to grasp something.    
+~
+bd g 0 0 k 0 0 0 900
+30 -10 -39 13500d340+124 1d8+38
+75 0 32 1
+8 8 2
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 24
+E
+Con: 12
+E
+Cha: 11
+S
+#3903
+golem stone rock~
+a stone golem~
+A massive stone golem guards the end of the passage.
+~
+   Formed from solid rock, this creature stands at a height of fifteen feet
+tall.  The creaure must weigh well over several hundred pounds.  Bleak black
+spots can be seen where eyes should be.    
+~
+d 0 0 0 k 0 0 0 0
+30 5 -26 360d250+115 1d8+15
+75 0 32 7
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 23
+E
+Cha: 11
+S
+#3904
+draconian cell guard~
+a draconian cell guard~
+A draconian cell guard drools down the front of itself.
+~
+   A short odd looking draconian stands before you.  Slime colored drool runs
+down its front.  Its large gapping jaws flash razor sharp teeth.    
+~
+d 0 0 0 k 0 0 0 -900
+30 5 -35 360d180+108 1d8+15
+75 0 32 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3905
+gully dwarf prisoner~
+a gully dwarf prisoner~
+A gully dwarf prisoner stands here scared for her life.
+~
+   Covered in filth, the little gully dwarf woman huddles against the corner in
+her cell.  Her hair is tangled and covered in dirt.  Deep blue eyes stare
+towards you for help.    
+~
+d 0 0 0 k 0 0 0 0
+30 5 -35 360d200+110 1d8+15
+75 0 32 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3906
+cloaked figure~
+a cloaked figure~
+A cloaked figure sets in the shadows.
+~
+   A man of no more than five feet tall stands before you.  His hair is long
+and black.  Large blue eyes adorn the mans face.  You get the impression the
+man has been hiding in the lower part of Xak Tsaroth trying to find a way out.
+~
+dE 0 0 0 k 0 0 0 -250
+30 -8 -36 4800d230+113 1d8+35
+75 0 32 8
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 23
+E
+Cha: 11
+S
+#3907
+gully dwarf slave~
+a gully dwarf slave~
+A gully dwarf slave works quickly to do its masters bidding.
+~
+   Tired, but without choice this dirty gully dwarf quickly does what its told.
+Long gray hair falls into the gully dwarf's face.  Little green eyes peer
+towards you in a sign for help.    
+~
+d 0 0 0 k 0 0 0 0
+30 5 -35 360d230+113 1d8+15
+75 0 32 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3908
+draconian slave driver~
+a draconian slave driver~
+A draconian slave driver stands here watching his workers.
+~
+   Clad in mixed color chainmail, this draconian makes sure the slaves never
+stop working.  He flashes his long white teeth at you before attacking.    
+~
+d 0 0 0 k 0 0 0 -900
+30 5 -26 360d250+115 1d8+15
+75 0 32 7
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 23
+E
+Cha: 11
+S
+#3909
+Khalax dark robed shadowy figure~
+Khalax, a shadowy dark robed figure~
+Khalax, a shadowy dark robed figure, hisses at your interuption.
+~
+   Garbed heavily in black robes this shadowy figure unapproves of your
+interuption.  As he glares towards you he slowly removes his hooded cloak
+revealing the head of a serpent.    
+~
+bdF 0 0 0 k 0 0 0 -900
+30 -9 -26 2400d270+117 1d8+36
+75 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3910
+balak fierce draconian warrior~
+Balak, a fierce draconian warrior~
+Balak, a fierce draconian warrior, pounces you upon entering!
+~
+   A large draconian warrior stands before you.  Large muscular arms grab hold
+of a two-handed battle axe.  His fierce eyes meet yours with a glare of hate.
+~
+bdfF 0 0 0 k 0 0 0 -900
+30 -9 -38 10800d290+119 1d8+36
+75 0 32 6
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 23
+E
+Cha: 11
+S
+#3911
+draconian slim hissing~
+a slim hissing draconian~
+A slim hissing draconian glares upon you.
+~
+   A slim draconian stands before you.  He's about six feet tall and looks
+rather weak.  He glares at you and begins hissing.  Some kinda of liquid slowly
+begins to poor from his mouth.    
+~
+d 0 0 0 k 0 0 0 0
+30 5 -32 270d290+119 1d8+15
+75 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 24
+E
+Con: 12
+E
+Cha: 11
+S
+$

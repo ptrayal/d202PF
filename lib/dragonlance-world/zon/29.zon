@@ -1,0 +1,92 @@
+#29
+None.~
+Road East of Solace~
+2900 2999 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  2900     1  2911   1   100     0    -1          0 a weary traveller
+
+E 1  2900    15    16   0    20     1     0          0 a wooden walking stick
+
+M 0  2901     2  2919   2   100     2    -1          0 a gruff, plains barbarian
+
+E 1  2901    10     5   0    15     3     2          0 a hide, leather shirt
+
+M 0  2901     2  2919   2   100     4    -1          0 a gruff, plains barbarian
+
+M 0  2902     2  2942   2   100     5    -1          0 a bronze, lizard-like creature
+
+M 0  2902     2  2942   2   100     6    -1          0 a bronze, lizard-like creature
+
+M 0  2903     2  2947   2   100     7    -1          0 a dirty, smelly gully dwarf
+
+G 1  2902   100     0   0    80     8     7          0 a dead rat
+
+M 0  2903     2  2947   2   100     9    -1          0 a dirty, smelly gully dwarf
+
+G 1  2902   100     0   0    80    10     9          0 a dead rat
+
+M 0  2904     1  2939   1   100    11    -1          0 a fearless kender
+
+E 1  2903     5    16   0    35    12    11          0 a short, slightly crooked hoopak
+
+M 0  2905     1  2929   1   100    13    -1          0 a troubled minstrel
+
+E 1  2904     4    17   0    30    14    13          0 a cracked bandore
+
+D 0  2969     2     1   0   101    15    -10 
+
+M 0  2908     1  2972   1   100    16    -1          0 Shick, Captain of the Sea Wolf
+
+E 1  2907     5     6   0    35    17    16          0 a pair of ivory, skull-shaped earrings
+
+O 0  2906     5  2972   0   100    18    -1          0 a stick of beef jerky
+
+O 0  2906     5  2972   0   100    19    -1          0 a stick of beef jerky
+
+O 0  2906     5  2972   0   100    20    -1          0 a stick of beef jerky
+
+O 0  2906     5  2972   0   100    21    -1          0 a stick of beef jerky
+
+O 0  2906     5  2972   0   100    22    -1          0 a stick of beef jerky
+
+O 0  2905     1  2972   0   100    23    -1          0 a barrel of water
+
+D 0  2972     0     1   0   101    24    -10 
+
+M 0  2909    12  2970   4   100    25    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2970   4   100    26    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2970   4   100    27    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2970   4   100    28    -1          0 an exhausted slave oarsman
+
+M 0  2910     1  2970   1   100    29    -1          0 Skhal, the hobgoblin overseer
+
+E 1  2908     3    16   0    20    30    29          0 a charged whip of silver thread
+
+M 0  2909    12  2968   4   100    31    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2968   4   100    32    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2968   4   100    33    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2968   4   100    34    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2971   4   100    35    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2971   4   100    36    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2971   4   100    37    -1          0 an exhausted slave oarsman
+
+M 0  2909    12  2971   4   100    38    -1          0 an exhausted slave oarsman
+
+O 0  1273     5  2967   0   100    39    -1          0 a black and red painted dartboard
+
+M 0  2907     1  2966   1   100    40    -1          0 a hooded, bozak draconian dockkeeper
+
+S
+$

@@ -1,0 +1,304 @@
+#15200
+Entering the Test of High Sorcery~
+You find yourself in a small circular block room with three doors leading out.
+To the southeast a white portal, to the south a red portal, and to the southwest
+a black portal.  A single candle in the middle of the room burns low in it's
+holder, wax oozing across the floor in the direction of the three doors.  
+~
+152 fr 0 0 0 0
+D2
+~
+~
+0 0 15201 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15203 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15202 0 0 0 0 0 0 0 0
+E
+red~
+The red portal flickers in the candle light, a deep blood red glow emanates from the other side.
+~
+E
+black~
+The black portal flickers in the candle light, shadows seem to be drawn from the room underneath the door jam.
+~
+E
+white~
+The white portal flickers in the candle light, a bright white glow emanates from the other side.
+~
+S
+#15201
+Entering the Red Portal~
+A long obsidian stone hallway lies ahead, at the far end of the hallway is a
+very dim light streaming from a small arm sized hole in the wall.  An aura of
+fear surrounds the far end of the hallway, and there are no exits that are
+visible.  
+~
+152 fr 0 0 0 0
+D8
+~
+~
+0 0 15207 0 0 0 0 0 0 0 0
+E
+lever~
+the small lever can be pulled with little effort
+~
+E
+hole~
+As you peer into the hole, you see a small lever just barely within reach
+~
+S
+#15202
+Entering the Black Portal~
+Leads to Magic A Room
+~
+152 fr 0 0 0 0
+D1
+~
+~
+0 0 15201 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15204 0 0 0 0 0 0 0 0
+S
+#15203
+Entering the White Portal~
+Task A Room
+~
+152 fr 0 0 0 0
+D3
+~
+~
+0 0 15204 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15201 0 0 0 0 0 0 0 0
+S
+#15204
+MagicB~
+This unfinished room was created by Dran.
+~
+152 fr 0 0 0 0
+D1
+~
+~
+0 0 15207 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15206 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15205 0 0 0 0 0 0 0 0
+S
+#15205
+An Inviting Inn Room~
+A large bed comfortable bed lies in the center of this room lined with bookcases
+and softly burning candles, the valenwood walls are engraved with woodland
+scenes.  A warm fire is burning in the fireplace and a tankard of mulled wine is
+sitting upon a table next to the overstuffed bed.  A feeling of calm and
+relaxation permeates the room, this seems like a good place to rest for a bit
+and gather strength and vitality for the trials ahead.  
+~
+152 fr 0 0 0 0
+D0
+~
+~
+0 0 15206 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15208 0 0 0 0 0 0 0 0
+S
+#15206
+Gladatorial Arena~
+The smell of acrid smoke and blood assaults the senses in this room.  The
+circular granite walls are splattered with blood and vitriol, the floor is lined
+with spikes and littered with mauled rotting corpses in various states of decay.
+A horrible battle was fought here, and the victor may still be around.  
+~
+152 fr 0 0 0 0
+D7
+~
+~
+0 0 15209 0 0 0 0 0 0 0 0
+S
+#15207
+The Crystal Shard~
+This room is cold and damp, the sleek black walls are coated in a oily substance
+that smells of rendered animal fat.  In the corner of the room there are two
+pieces of a shattered crystal shard, the shards pulsate with an otherworldly
+glow.  A faint heat radiates from the shattered shard pieces.  
+~
+152 fr 0 0 0 0
+D0
+~
+~
+0 0 15211 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15206 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15206 0 0 0 0 0 0 0 0
+E
+shard shards~
+The crystal shard looks split into two pieces, a light half and a dark half.
+~
+E
+light~
+the light shard pulsates and is warm to the touch.
+~
+E
+dark~
+the dark shard pulsates and is cold to the touch
+~
+S
+#15208
+MagicD~
+This unfinished room was created by Dran.
+~
+152 fr 0 0 0 0
+D0
+~
+~
+0 0 15210 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15209 0 0 0 0 0 0 0 0
+S
+#15209
+MagicE~
+This unfinished room was created by Dran.
+~
+152 fr 0 0 0 0
+D0
+~
+~
+0 0 15211 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15210 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15214 0 0 0 0 0 0 0 0
+S
+#15210
+MagicF~
+This unfinished room was created by Dran.
+~
+152 fr 0 0 0 0
+D2
+~
+~
+0 0 15213 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 15214 0 0 0 0 0 0 0 0
+S
+#15211
+A Sprawling Meadow~
+You see a vast sprawling meadow, the grass is soft, a warm wind blows and
+carries with it the sweet perfume of spring flowers in bloom.  A small campfire
+burns here with roasted rabbit upon a spit and a warm bedroll lying open.  
+There is a sense of calm and relaxation here.  A huge valenwood tree stands near
+the campfire with a large ornate door carved into it.  This seems like a good
+place for a short rest to recover strength and vitality before continuing on.  
+~
+152 fr 0 0 0 0
+D10
+~
+~
+0 0 15214 0 0 0 0 0 0 0 0
+D11
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+E
+tree valenwood~
+The huge valenwood tree has and ornate door carved into its face.
+~
+S
+#15212
+TaskB~
+This unfinished room was created by Dran.
+~
+152 fr 0 0 0 0
+D2
+~
+~
+0 0 15215 0 0 0 0 0 0 0 0
+S
+#15213
+HazardB~
+This unfinished room was created by Dran.
+~
+152 frE 0 0 0 0
+D0
+~
+~
+0 0 15215 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15214 0 0 0 0 0 0 0 0
+S
+#15214
+Duel~
+This unfinished room was created by Dran.
+~
+152 fr 0 0 0 0
+D2
+~
+~
+0 0 15215 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15212 0 0 0 0 0 0 0 0
+S
+#15215
+The End~
+This unfinished room was created by Dran.
+~
+152 fr 0 0 0 0
+D2
+~
+~
+0 0 15216 0 0 0 0 0 0 0 0
+S
+#15216
+New BuildWalk Room~
+This unfinished room was created by Dran.
+~
+152 0 0 0 0 0
+D0
+~
+~
+0 0 15215 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15200 0 0 0 0 0 0 0 0
+S
+#15250
+Entrance to The Test of High Sorcery~
+You are floating in a vast expanse of shadow with no sense of direction or time.
+~
+152 0 0 0 0 0
+S
+T 15200
+$~

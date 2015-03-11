@@ -1,0 +1,1665 @@
+#4700
+Entry Cave~
+   Within this vast cavern, carved stone pillars extend to the ceiling, looking
+as though they have been fitted in place.  The back of the cave is walled off
+with fitted masonry stone, and double doors of stained metal open into its
+center.    
+~
+47 cd h 0 0  0
+D0
+~
+doors~
+2 4700 4701 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5115 0 0 0 0 0 0 0 0
+S
+#4701
+Catacombs~
+   There is a musty smell in this area.  A hallway runs between large catacombs
+that rise to a flat ceiling.  Two vaults can be seen in each direction.  There
+is an uneasy feeling about this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4702 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+2 4700 4700 0 0 0 0 0 0 0 0
+S
+#4702
+Catacombs~
+   There is a musty smell in this area.  A hallway runs between large catacombs
+that rise to a flat ceiling.  Two vaults can be seen in each direction.  There
+is an uneasy feeling about this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4705 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4704 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4701 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4703 0 0 0 0 0 0 0 0
+S
+#4703
+Catacombs~
+   The hallway ends at a large catacomb vault.  Scratching sounds can be heard
+behind the heavy stone doors.  A cold gust of wind, coming from under the stone
+doors runs a shiver down your spine.    
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4702 0 0 0 0 0 0 0 0
+D3
+~
+stone~
+1 0 4710 0 0 0 0 0 0 0 0
+S
+#4704
+Catacombs~
+   The hallway ends at a large catacomb vault.  Scratching sounds can be heard
+behind the heavy stone doors.  A cold gust of wind, coming from under the stone
+doors runs a shiver down your spine.    
+~
+47 d 0 0 0  0
+D1
+~
+stone~
+1 0 4711 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4702 0 0 0 0 0 0 0 0
+S
+#4705
+Catacombs~
+   There is a musty smell in this area.  A hallway runs between large catacombs
+that rise to a flat ceiling.  Two vaults can be seen in each direction.  There
+is an uneasy feeling about this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4706 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4702 0 0 0 0 0 0 0 0
+S
+#4706
+Catacombs~
+   There is a musty smell in this area.  A hallway runs between large catacombs
+that rise to a flat ceiling.  Two vaults can be seen in each direction.  There
+is an uneasy feeling about this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4709 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4707 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4705 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4708 0 0 0 0 0 0 0 0
+S
+#4707
+Catacombs~
+   The hallway ends at a large catacomb vault.  Scratching sounds can be heard
+behind the heavy stone doors.  A cold gust of wind, coming from under the stone
+doors runs a shiver down your spine.    
+~
+47 d 0 0 0  0
+D1
+~
+stone~
+1 0 4713 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4706 0 0 0 0 0 0 0 0
+S
+#4708
+Catacombs~
+   The hallway ends at a large catacomb vault.  Scratching sounds can be heard
+behind the heavy stone doors.  A cold gust of wind, coming from under the stone
+doors runs a shiver down your spine.    
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4706 0 0 0 0 0 0 0 0
+D3
+~
+stone~
+1 0 4712 0 0 0 0 0 0 0 0
+S
+#4709
+Catacombs~
+   There is a musty smell in this area.  A hallway runs between large catacombs
+that rise to a flat ceiling.  Two vaults can be seen in each direction.  There
+is an uneasy feeling about this chamber.    
+~
+47 d 0 0 0  0
+D2
+~
+~
+0 0 4706 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4748 0 0 0 0 0 0 0 0
+S
+#4710
+Animating Vault~
+   The stench of decay and rotting bodies fills the air, almost making it
+impossible to breath.  Some of the bodies seem to move, while others keep
+staring at you.    
+~
+47 d 0 0 0  0
+D1
+~
+stone~
+1 0 4703 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4727 0 0 0 0 0 0 0 0
+S
+#4711
+Animating Vault~
+   The stench of decay and rotting bodies fills the air, almost making it
+impossible to breath.  Some of the bodies seem to move, while others keep
+staring at you.    
+~
+47 d 0 0 0  0
+D3
+~
+stone~
+1 0 4704 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4725 0 0 0 0 0 0 0 0
+S
+#4712
+Animating Vault~
+   The stench of decay and rotting bodies fills the air, almost making it
+impossible to breath.  Some of the bodies seem to move, while others keep
+staring at you.    
+~
+47 d 0 0 0  0
+D1
+~
+stone~
+1 0 4708 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4726 0 0 0 0 0 0 0 0
+S
+#4713
+Animating Vault~
+   The stench of decay and rotting bodies fills the air, almost making it
+impossible to breath.  Some of the bodies seems to move, while others keep
+staring at you.    
+~
+47 d 0 0 0  0
+D3
+~
+stone~
+1 0 4707 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4719 0 0 0 0 0 0 0 0
+S
+#4714
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D9
+~
+~
+0 0 4726 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4715 0 0 0 0 0 0 0 0
+S
+#4715
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.  Sounds of
+splashing water and screams comes from close by.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4714 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4716 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4722 0 0 0 0 0 0 0 0
+S
+#4716
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D9
+~
+~
+0 0 4715 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4717 0 0 0 0 0 0 0 0
+S
+#4717
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.  Sounds of
+splashing water and screams comes from close by.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4716 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4718 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4722 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4724 0 0 0 0 0 0 0 0
+S
+#4718
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D9
+~
+~
+0 0 4717 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4719 0 0 0 0 0 0 0 0
+S
+#4719
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 acd 0 0 0  0
+D4
+~
+~
+0 0 4713 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4718 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4724 0 0 0 0 0 0 0 0
+S
+#4720
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4726 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4715 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4727 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4721 0 0 0 0 0 0 0 0
+S
+#4721
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.  Sounds of
+splashing water and screams comes from close by.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4722 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4728 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4729 0 0 0 0 0 0 0 0
+S
+#4722
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.  As you
+make another step you feel the ground beneath you crumble.    
+~
+47 acdq 0 0 0  0
+D5
+~
+~
+0 0 4731 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4715 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4717 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4721 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4723 0 0 0 0 0 0 0 0
+S
+#4723
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.  Sounds of
+splashing water and screams comes from close by.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4722 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4724 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4729 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4730 0 0 0 0 0 0 0 0
+S
+#4724
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4717 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4719 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4723 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4725 0 0 0 0 0 0 0 0
+S
+#4725
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 acd 0 0 0  0
+D4
+~
+~
+0 0 4711 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4724 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4730 0 0 0 0 0 0 0 0
+S
+#4726
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 acd 0 0 0  0
+D4
+~
+~
+0 0 4712 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4714 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+S
+#4727
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 acd 0 0 0  0
+D4
+~
+~
+0 0 4710 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4728 0 0 0 0 0 0 0 0
+S
+#4728
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4727 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4721 0 0 0 0 0 0 0 0
+S
+#4729
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4721 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4723 0 0 0 0 0 0 0 0
+S
+#4730
+Crypt of Despair~
+   The fungus-laden ceiling hangs above the still, black water that fills this
+crypt.  Small cells, their entrances blocked by iron bars, are scattered
+around.  Black liquid drips from the hanging growth on the ceiling.    
+~
+47 ad 0 0 0  0
+D6
+~
+~
+0 0 4723 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4725 0 0 0 0 0 0 0 0
+S
+#4731
+A Hard Landing~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+~
+47 acdfhr 0 0 0  0
+D0
+~
+~
+0 0 4732 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4740 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4722 0 0 0 0 0 0 0 0
+S
+#4732
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D0
+~
+~
+0 0 4733 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4731 0 0 0 0 0 0 0 0
+S
+#4733
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your faith would be similar.    
+~
+47 adfhr 0 0 0  0
+D2
+~
+~
+0 0 4732 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4734 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4737 0 0 0 0 0 0 0 0
+S
+#4734
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your faith would be similar.    
+~
+47 adfhr 0 0 0  0
+D9
+~
+~
+0 0 4733 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4735 0 0 0 0 0 0 0 0
+S
+#4735
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D6
+~
+~
+0 0 4734 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4736 0 0 0 0 0 0 0 0
+S
+#4736
+Dead End~
+   Thoughts of despair fill your mind as you find yourself at a dead end.  The
+screams get louder and louder, and the mumbling of lost souls could be heared.
+~
+47 adfhr 0 0 0  0
+D9
+~
+~
+0 0 4735 0 0 0 0 0 0 0 0
+S
+#4737
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D7
+~
+~
+0 0 4733 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4738 0 0 0 0 0 0 0 0
+S
+#4738
+Keeper of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.  A large throne covered with a
+sickening yellow fabric rests before a large platinum door.    
+~
+47 adfhr 0 0 0  0
+D2
+~
+door~
+2 4701 4739 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4737 0 0 0 0 0 0 0 0
+S
+#4739
+Gates of Life~
+   A cold breeze welcomes you as you come back from the path of the dead.  A
+narrow shaft leading up is the only way out.    
+~
+47 acdir 0 0 0  0
+D0
+~
+door~
+2 0 4738 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4700 0 0 0 0 0 0 0 0
+S
+#4740
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D0
+~
+~
+0 0 4731 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4741 0 0 0 0 0 0 0 0
+S
+#4741
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D0
+~
+~
+0 0 4740 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4742 0 0 0 0 0 0 0 0
+S
+#4742
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D6
+~
+~
+0 0 4741 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4743 0 0 0 0 0 0 0 0
+S
+#4743
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D6
+~
+~
+0 0 4742 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4744 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4747 0 0 0 0 0 0 0 0
+S
+#4744
+Halls of Lost Souls~
+   The walls, floor and ceiling are constructed of black stone, so dark and
+lusterless that they seem to absorb all light.  The only sparks of color being
+the clothing and equipment.  Screams of hopeless souls echoes all around you.
+As you move along the hall, more remains and rotted bodies are scattered,
+making you wonder if your fate would be similar.    
+~
+47 adfhr 0 0 0  0
+D7
+~
+~
+0 0 4746 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4743 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4745 0 0 0 0 0 0 0 0
+S
+#4745
+Dead End~
+   Thoughts of despair fill your mind as you find yourself at a dead end.  The
+screams get louder and louder, and the mumbling of lost souls could be heared.
+~
+47 adfhr 0 0 0  0
+D6
+~
+~
+0 0 4744 0 0 0 0 0 0 0 0
+S
+#4746
+Dead End~
+   Thoughts of despair fill your mind as you find yourself at a dead end.  The
+screams get louder and louder, and the mumbling of lost souls could be heared.
+~
+47 adfhr 0 0 0  0
+D9
+~
+~
+0 0 4744 0 0 0 0 0 0 0 0
+S
+#4747
+Dead End~
+   Thoughts of despair fill your mind as you find yourself at a dead end.  The
+screams get louder and louder, and the mumbling of lost souls could be heared.
+~
+47 adfhr 0 0 0  0
+D7
+~
+~
+0 0 4743 0 0 0 0 0 0 0 0
+S
+#4748
+Catacombs~
+   There is a musty smell in this area.  A hallway runs between large catacombs
+that rise to a flat ceiling.  Two vaults can be seen in each direction.  There
+is an uneasy feeling about this chamber.    
+~
+47 d 0 0 0  0
+D3
+~
+~
+0 0 4749 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4709 0 0 0 0 0 0 0 0
+S
+#4749
+Catacombs~
+   There is a musty smell in this area.  A hallway runs between large catacombs
+that rise to a flat ceiling.  Two vaults can be seen in each direction.  There
+is an uneasy feeling about this chamber.    
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4748 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4750 0 0 0 0 0 0 0 0
+S
+#4750
+Hall of Mourning~
+   Within this large chamber, bronze double doors stand in the center of the
+northern and southern walls.  In the center of the chamber, there is an altar
+with a black cloth over its top.    
+~
+47 d 0 0 0  0
+D0
+~
+doors~
+1 0 4751 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 4752 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4749 0 0 0 0 0 0 0 0
+S
+#4751
+Southern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  Bronze double
+doors are set in the southern wall.    
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4753 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 4750 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4755 0 0 0 0 0 0 0 0
+S
+#4752
+Deep Shaft~
+   As you walk into this small room you lose your balance and slide down the
+deep shaft.    
+~
+47 dq 0 0 0  0
+D0
+~
+doors~
+1 0 4750 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4716 0 0 0 0 0 0 0 0
+S
+#4753
+Southern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4772 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4754 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4751 0 0 0 0 0 0 0 0
+S
+#4754
+Southern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D2
+~
+door~
+1 0 4773 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4753 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4771 0 0 0 0 0 0 0 0
+S
+#4755
+Southern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4774 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4751 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4756 0 0 0 0 0 0 0 0
+S
+#4756
+Southern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4755 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4775 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4757 0 0 0 0 0 0 0 0
+S
+#4757
+Western Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4758 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4776 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4756 0 0 0 0 0 0 0 0
+S
+#4758
+Western Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4759 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4777 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4757 0 0 0 0 0 0 0 0
+S
+#4759
+Western Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4760 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4758 0 0 0 0 0 0 0 0
+S
+#4760
+Western Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4761 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4778 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4759 0 0 0 0 0 0 0 0
+S
+#4761
+Western Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D2
+~
+~
+0 0 4760 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4779 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4762 0 0 0 0 0 0 0 0
+S
+#4762
+Northern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4780 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4763 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4761 0 0 0 0 0 0 0 0
+S
+#4763
+Northern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4764 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4781 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4762 0 0 0 0 0 0 0 0
+S
+#4764
+Northern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  Large black
+doors with a towering statue of a yellow skull are set in the southern wall.  
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4765 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 4788 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4763 0 0 0 0 0 0 0 0
+S
+#4765
+Northern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D1
+~
+~
+0 0 4766 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 4782 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4764 0 0 0 0 0 0 0 0
+S
+#4766
+Northern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4783 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4765 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4767 0 0 0 0 0 0 0 0
+S
+#4767
+Eastern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D1
+~
+door~
+1 0 4784 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4768 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4766 0 0 0 0 0 0 0 0
+S
+#4768
+Eastern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4767 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4769 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4785 0 0 0 0 0 0 0 0
+S
+#4769
+Eastern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4768 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4770 0 0 0 0 0 0 0 0
+S
+#4770
+Eastern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4769 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4771 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 4786 0 0 0 0 0 0 0 0
+S
+#4771
+Eastern Passage~
+   This hallway is criss-crossed with shadows that no light can banish.  The
+air seems to reach with icy fingers to the very bones, tugging at life itself.
+The floor is covered with black sand and a black coat of mist.  A black iron
+door dominates this hallway section.    
+~
+47 d 0 0 0  0
+D0
+~
+~
+0 0 4770 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 4787 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4754 0 0 0 0 0 0 0 0
+S
+#4772
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodies, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D2
+~
+door~
+1 0 4753 0 0 0 0 0 0 0 0
+S
+#4773
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4754 0 0 0 0 0 0 0 0
+S
+#4774
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D2
+~
+door~
+1 0 4755 0 0 0 0 0 0 0 0
+S
+#4775
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4756 0 0 0 0 0 0 0 0
+S
+#4776
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D1
+~
+door~
+1 0 4757 0 0 0 0 0 0 0 0
+S
+#4777
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D3
+~
+door~
+1 0 4758 0 0 0 0 0 0 0 0
+S
+#4778
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D3
+~
+door~
+1 0 4760 0 0 0 0 0 0 0 0
+S
+#4779
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D1
+~
+door~
+1 0 4761 0 0 0 0 0 0 0 0
+S
+#4780
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D2
+~
+door~
+1 0 4762 0 0 0 0 0 0 0 0
+S
+#4781
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4763 0 0 0 0 0 0 0 0
+S
+#4782
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D0
+~
+door~
+1 0 4765 0 0 0 0 0 0 0 0
+S
+#4783
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D2
+~
+door~
+1 0 4766 0 0 0 0 0 0 0 0
+S
+#4784
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D3
+~
+door~
+1 0 4767 0 0 0 0 0 0 0 0
+S
+#4785
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D1
+~
+door~
+1 0 4768 0 0 0 0 0 0 0 0
+S
+#4786
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D1
+~
+door~
+1 0 4770 0 0 0 0 0 0 0 0
+S
+#4787
+Meditation Room~
+   Black dust covers the floor of this small chamber.  No light penetrates the
+darkness around you.  The only way out is through a black, iron door that has
+neither handles nor fixtures.  Strange carvings of what seems to be tortured
+bodys, adds to the evil presence in this chamber.    
+~
+47 d 0 0 0  0
+D3
+~
+door~
+1 0 4771 0 0 0 0 0 0 0 0
+S
+#4788
+Path of the Dead~
+   A wide, arched corridor leads down at a moderate angle.  A musty smell
+pervades the area and dust covers the floor.  The wet and slimy walls are
+covered with marks of hammers and axes.  Scattered skeletons and skulls only
+emphasize the feeling of great evil.  Large black doors are set into the
+northern wall.    
+~
+47 ad 0 0 0  0
+D0
+~
+doors~
+1 0 4764 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4789 0 0 0 0 0 0 0 0
+S
+#4789
+Path of the Dead~
+   A wide, arched corridor leads down at a moderate angle.  A musty smell
+pervades the area and dust covers the floor.  The wet and slimy walls are
+covered with marks of hammers and axes.  Scattered skeletons and skulls only
+emphasize the feeling of great evil.    
+~
+47 ad 0 0 0  0
+D0
+~
+~
+0 0 4788 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4790 0 0 0 0 0 0 0 0
+S
+#4790
+Path of the Dead~
+   A wide, arched corridor leads down at a moderate angle.  A musty smell
+pervades the area and dust covers the floor.  The wet and slimy walls are
+covered with marks of hammers and axes.  Scattered skeletons and skulls only
+emphasize the feeling of great evil.  A narrow shaft seems to lead down into
+even greater darkness.    
+~
+47 ad 0 0 0  0
+D0
+~
+~
+0 0 4789 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4791 0 0 0 0 0 0 0 0
+S
+#4791
+Path of the Dead~
+   A wide, arched corridor leads down at a moderate angle.  A musty smell
+pervades the area and dust covers the floor.  The wet and slimy walls are
+covered with marks of hammers and axes.  Scattered skeletons and skulls only
+emphasize the feeling of great evil.  A narrow shaft leads out of this
+dreadfull place.    
+~
+47 adi 0 0 0  0
+D0
+~
+~
+0 0 4792 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4790 0 0 0 0 0 0 0 0
+S
+#4792
+Altar of Chemosh~
+   In the center of this octagonal room, a large obelisk of black stones
+stands.  Blood carvings of tortured bodys can be seen all around the obelisk,
+and a large yellow skull dominates the upper part of it.  A large, black stone
+rests before the obelisk, covered with blood and pieces of flesh.    
+~
+47 ad 0 0 0  0
+D2
+~
+~
+0 0 4791 0 0 0 0 0 0 0 0
+S
+#4793
+Throne of Death~
+   Cold breeze carrying the sounds of lost souls welcomes you to the throne of
+Chemosh, the lord of death.  In the middle of this huge hall, rests a large
+throne covered with black fabric trimmed with golden threads.  Screams of agony
+could be heared once in awhile, and then a crystal ball with eternal flame in
+it shines brightly for some time...  Another soul was just claimed by
+Chemosh...    
+~
+47 d 0 0 0  0
+S
+$

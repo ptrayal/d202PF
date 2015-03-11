@@ -1,0 +1,1887 @@
+#1100
+Across the Southern Solamnic Plains~
+   In every direction you see grass.  More than knee high, reaching the
+shoulders of many kender, this grass stretches on for as far as you can see.  
+To the south lies the city of Solanthus, and further on, Thelgaard Keep.  To
+the north lies the Vingaard River, Vingaard Keep, and Palanthas.    
+~
+11 c 0 0 0  2
+D1
+~
+~
+0 0 1101 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8125 0 0 0 0 0 0 0 0
+S
+#1101
+Across the Southern Solamnic Plains~
+   In every direction you see grass.  More than knee high, reaching the
+shoulders of many kender, this grass stretches on for as far as you can see.  
+To the south lies the city of Solanthus, and further on, Thelgaard Keep.  To
+the north lies the Vingaard River, Vingaard Keep, and Palanthas.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1102 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1100 0 0 0 0 0 0 0 0
+S
+#1102
+Across the Southern Solamnic Plains~
+   In every direction you see grass.  More than knee high, reaching the
+shoulders of many kender, this grass stretches on for as far as you can see.  
+To the south lies the city of Solanthus, and further on, Thelgaard Keep.  To
+the north lies the Vingaard River, Vingaard Keep, and Palanthas.    
+~
+11 0 0 0 0  2
+D3
+~
+~
+0 0 1101 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1103 0 0 0 0 0 0 0 0
+S
+#1103
+The Grasslands of Southern Solamnia~
+   The sea of grass flows seemingly ever onwards, over hills to the east, and
+beyond sight in every other direction.  The city of Solanthus can be seen at
+the end of the flowing grass to the south, and to the north, one may glimpse a
+tower at the edge of sight.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1104 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1102 0 0 0 0 0 0 0 0
+S
+#1104
+The Grasslands of Southern Solamnia~
+   The sea of grass flows seemingly ever onwards, over hills to the east, and
+beyond sight in every other direction.  The city of Solanthus can be seen at
+the end of the flowing grass to the south, and to the north, one may glimpse a
+tower at the edge of sight.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1105 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1103 0 0 0 0 0 0 0 0
+S
+#1105
+The Grasslands of Southern Solamnia~
+   The sea of grass flows seemingly ever onwards, over hills to the east, and
+beyond sight in every other direction.  The city of Solanthus can be seen at
+the end of the flowing grass to the south, and to the north, one may glimpse a
+tower at the edge of sight.    
+~
+11 0 0 0 0  2
+D0
+~
+~
+0 0 1106 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1104 0 0 0 0 0 0 0 0
+S
+#1106
+The Grasslands of Southern Solamnia~
+   The sea of grass flows seemingly ever onwards, over hills to the east, and
+beyond sight in every other direction.  The city of Solanthus can be seen at
+the end of the flowing grass to the south, and to the north, one may glimpse a
+tower at the edge of sight.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1105 0 0 0 0 0 0 0 0
+S
+#1107
+The Grasslands of Southern Solamnia~
+   The sea of grass flows seemingly ever onwards, over hills to the east, and
+beyond sight in every other direction.  The city of Solanthus can be seen at
+the end of the flowing grass to the south, and to the north, one may glimpse a
+tower at the edge of sight.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1108 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1106 0 0 0 0 0 0 0 0
+S
+#1108
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1109 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1107 0 0 0 0 0 0 0 0
+S
+#1109
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D2
+~
+grass~
+1 0 1110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1108 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1111 0 0 0 0 0 0 0 0
+S
+#1110
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D0
+~
+grass~
+1 0 1109 0 0 0 0 0 0 0 0
+S
+#1111
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1112 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1109 0 0 0 0 0 0 0 0
+S
+#1112
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1111 0 0 0 0 0 0 0 0
+S
+#1113
+The Green Sea~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1114 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1112 0 0 0 0 0 0 0 0
+S
+#1114
+The Green Sea~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D2
+~
+~
+0 0 1115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1113 0 0 0 0 0 0 0 0
+S
+#1115
+The Green Sea~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D0
+~
+~
+0 0 1114 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1116 0 0 0 0 0 0 0 0
+S
+#1116
+The Green Sea~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1115 0 0 0 0 0 0 0 0
+S
+#1117
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1118 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1116 0 0 0 0 0 0 0 0
+S
+#1118
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D3
+~
+~
+0 0 1117 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1119 0 0 0 0 0 0 0 0
+S
+#1119
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1120 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1118 0 0 0 0 0 0 0 0
+S
+#1120
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1119 0 0 0 0 0 0 0 0
+S
+#1121
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 c 0 0 0  4
+D3
+~
+~
+0 0 1120 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1122 0 0 0 0 0 0 0 0
+S
+#1122
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 c 0 0 0  4
+D1
+~
+~
+0 0 1123 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1121 0 0 0 0 0 0 0 0
+S
+#1123
+The Hilly Grasslands~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1122 0 0 0 0 0 0 0 0
+S
+#1124
+A Grassy Plain~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D3
+~
+~
+0 0 1123 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1125 0 0 0 0 0 0 0 0
+S
+#1125
+A Grassy Plain~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1126 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1124 0 0 0 0 0 0 0 0
+S
+#1126
+A Grassy Plain~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1125 0 0 0 0 0 0 0 0
+S
+#1127
+A Grassy Plain~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D3
+~
+~
+0 0 1126 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1128 0 0 0 0 0 0 0 0
+S
+#1128
+A Grassy Plain~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1129 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1127 0 0 0 0 0 0 0 0
+S
+#1129
+Upon a Grassy Hill~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1130 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1128 0 0 0 0 0 0 0 0
+S
+#1130
+Upon a Grassy Hill~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1131 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1129 0 0 0 0 0 0 0 0
+S
+#1131
+Upon a Grassy Hill~
+   The grass grows over a hill here, a wave on an endless sea of green.  
+Swaths of crushed vegetation randomly veer off the path, but for the most part,
+this narrow trail of broken blades of green is the easiest walkway.  From here,
+it seems to continue mostly to the west and east.    
+~
+11 0 0 0 0  4
+D1
+~
+~
+0 0 1132 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1130 0 0 0 0 0 0 0 0
+S
+#1132
+Before the Wood~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D1
+~
+~
+0 0 1133 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1131 0 0 0 0 0 0 0 0
+S
+#1133
+Before the Wood~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 0 0 0 0  2
+D3
+~
+~
+0 0 1132 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1134 0 0 0 0 0 0 0 0
+S
+#1134
+Before the Wood~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 c 0 0 0  2
+D1
+~
+~
+0 0 1135 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1133 0 0 0 0 0 0 0 0
+S
+#1135
+Before the Wood~
+   Leagues and leagues of grass sway slightly with the breezes in every
+direction.  Far to the northwest, a tower rises above the horizon, though only
+the keenest eyes may notice it.  To the east, the grasses melt into a forest, a
+land break in this sea, before the beach of the Dargaard mountains.    
+~
+11 c 0 0 0  2
+D1
+~
+~
+0 0 1136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1134 0 0 0 0 0 0 0 0
+S
+#1136
+Entering the Wood~
+   The tall grass has slowly lowered in height as the path moved towards the
+woods, where as to the west, it is not unlikely to be about the height of a
+kender.  To the east, the trail runs through a small woods, and to the south,
+smoke may sometimes be seen coming from the villiage of Throtl.  The shade of
+the woods seems even to blot out sunlight, making it darker, even at the sun's
+zenith.    
+~
+11 c 0 0 0  2
+D1
+~
+~
+0 0 1137 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1135 0 0 0 0 0 0 0 0
+S
+#1137
+Entering the Wood~
+   The tall grass has slowly lowered in height as the path moved towards the
+woods, where as to the west, it is not unlikely to be about the height of a
+kender.  To the east, the trail runs through a small woods, and to the south,
+smoke may sometimes be seen coming from the villiage of Throtl.  The shade of
+the woods seems even to blot out sunlight, making it darker, even at the sun's
+zenith.    
+~
+11 c 0 0 0  2
+D3
+~
+~
+0 0 1136 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1138 0 0 0 0 0 0 0 0
+S
+#1138
+A Path Through the Wood~
+   Here and there, a flicker of motion flashes at the edge of sight, a shadow
+moving among shadows.  The trees blot out any sunlight, and leaves that have
+been littered rustle with the breezes.  The trail is hardly noticable, except
+for the slightly hollowed out groove that has been left by other travelers.  
+~
+11 a 0 0 0  3
+D1
+~
+~
+0 0 1139 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1137 0 0 0 0 0 0 0 0
+S
+#1139
+A Path Through the Wood~
+   Here and there, a flicker of motion flashes at the edge of sight, a shadow
+moving among shadows.  The trees blot out any sunlight, and leaves that have
+been littered rustle with the breezes.  The trail is hardly noticable, except
+for the slightly hollowed out groove that has been left by other travelers.  
+~
+11 ac 0 0 0  3
+D3
+~
+~
+0 0 1138 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1161 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1140 0 0 0 0 0 0 0 0
+S
+#1140
+A Path Through the Wood~
+   Here and there, a flicker of motion flashes at the edge of sight, a shadow
+moving among shadows.  The trees blot out any sunlight, and leaves that have
+been littered rustle with the breezes.  The trail is hardly noticable, except
+for the slightly hollowed out groove that has been left by other travelers.  
+~
+11 ac 0 0 0  3
+D2
+~
+~
+0 0 1141 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1146 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1139 0 0 0 0 0 0 0 0
+S
+#1141
+A Path Through the Wood~
+   Here and there, a flicker of motion flashes at the edge of sight, a shadow
+moving among shadows.  The trees blot out any sunlight, and leaves that have
+been littered rustle with the breezes.  The trail is hardly noticable, except
+for the slightly hollowed out groove that has been left by other travelers.  
+~
+11 a 0 0 0  3
+D0
+~
+~
+0 0 1140 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1142 0 0 0 0 0 0 0 0
+S
+#1142
+A Path Through the Wood~
+   Here and there, a flicker of motion flashes at the edge of sight, a shadow
+moving among shadows.  The trees blot out any sunlight, and leaves that have
+been littered rustle with the breezes.  The trail is hardly noticable, except
+for the slightly hollowed out groove that has been left by other travelers.  
+~
+11 a 0 0 0  3
+D1
+~
+~
+0 0 1143 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1141 0 0 0 0 0 0 0 0
+S
+#1143
+Entering the Wood~
+   To the west, a faint trail can be seen meandering through a forest, but is
+lost quickly in the absense of sunlight the arbor forms block.  Far to the
+east, the ground has a greenish hue, to those that have the sight for it, and
+to the north lay the Dargaard mountains.  To the south, one may notice the
+village of Throtl.    
+~
+11 c 0 0 0  2
+D1
+~
+~
+0 0 1144 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1142 0 0 0 0 0 0 0 0
+S
+#1144
+Entering the Wood~
+   To the west, a faint trail can be seen meandering through a forest, but is
+lost quickly in the absense of sunlight the arbor forms block.  Far to the
+east, the ground has a greenish hue, to those that have the sight for it, and
+to the north lay the Dargaard mountains.  To the south, one may notice the
+village of Throtl.    
+~
+11 c 0 0 0  2
+D1
+~
+~
+0 0 1145 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1143 0 0 0 0 0 0 0 0
+S
+#1145
+Entering the Wood~
+   To the west, a faint trail can be seen meandering through a forest, but is
+lost quickly in the absense of sunlight the arbor forms block.  Far to the
+east, the ground has a greenish hue, to those that have the sight for it, and
+to the north lay the Dargaard mountains.  To the south, one may notice the
+village of Throtl.    
+~
+11 c 0 0 0  2
+D1
+~
+~
+0 0 400 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1144 0 0 0 0 0 0 0 0
+S
+#1146
+A Side Path~
+   Trees sprout out of the ground, here and there, giving thought that the
+forest did not grow around the path, the trail was forced through the wood.  
+The sun is blotted out by the leafed giants, shading the ground to a point
+where darkness lives even in day.  Strange hoof prints marr the ground, in a
+pattern unlike walking, the prints placed as they are.    
+~
+11 a 0 0 0  3
+D1
+~
+~
+0 0 1140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1147 0 0 0 0 0 0 0 0
+S
+#1147
+Around a Huge Oak Tree~
+   With the trees blocking out the sun, shadows bathe those that walk this
+path.  Odd hoof prints cover the ground, in a pattern not unlike dancing.  
+Shadows hover over other patches of darkness, and swim through recesses of
+light, causing flickering motions at the edge of sight.    
+~
+11 a 0 0 0  3
+D1
+~
+~
+0 0 1146 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1150 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1148 0 0 0 0 0 0 0 0
+S
+#1148
+Around a Huge Oak Tree~
+   With the trees blocking out the sun, shadows bathe those that walk this
+path.  Odd hoof prints cover the ground, in a pattern not unlike dancing.  
+Shadows hover over other patches of darkness, and swim through recesses of
+light, causing flickering motions at the edge of sight.    
+~
+11 a 0 0 0  3
+D6
+~
+~
+0 0 1147 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1149 0 0 0 0 0 0 0 0
+S
+#1149
+Around a Huge Oak Tree~
+   With the trees blocking out the sun, shadows bathe those that walk this
+path.  Odd hoof prints cover the ground, in a pattern not unlike dancing.  
+Shadows hover over other patches of darkness, and swim through recesses of
+light, causing flickering motions at the edge of sight.    
+~
+11 a 0 0 0  3
+D0
+~
+bark~
+1 0 1151 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1150 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1148 0 0 0 0 0 0 0 0
+S
+#1150
+Around a Huge Oak Tree~
+   With the trees blocking out the sun, shadows bathe those that walk this
+path.  Odd hoof prints cover the ground, in a pattern not unlike dancing.  
+Shadows hover over other patches of darkness, and swim through recesses of
+light, causing flickering motions at the edge of sight.    
+~
+11 a 0 0 0  3
+D7
+~
+~
+0 0 1147 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1149 0 0 0 0 0 0 0 0
+S
+#1151
+Within Walls of Bark~
+   Any sound made in this room is magnified, after echoing off the rounded bark
+walling.  The inner walls of this hollowed out tree seem to have been cut out,
+shaped and curved, allowing one to climb up, if they so wish.  Soft chirping
+noises rise from below, an eerie, quiet cacophony that pervades the area.    
+~
+11 acdfi 0 0 0  5
+D0
+~
+bark~
+1 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+bark~
+1 0 1149 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1152 0 0 0 0 0 0 0 0
+S
+#1152
+Within Walls of Bark~
+   Any sound made in this room is magnified, after echoing off the rounded bark
+walling.  The inner walls of this hollowed out tree seem to have been cut out,
+shaped and curved, allowing one to climb up, if they so wish.  Soft chirping
+noises rise from below, an eerie, quiet cacophony that pervades the area.    
+~
+11 acdfi 0 0 0  5
+D4
+~
+~
+0 0 1153 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1151 0 0 0 0 0 0 0 0
+S
+#1153
+Within Walls of Bark~
+   Any sound made in this room is magnified, after echoing off the rounded bark
+walling.  The inner walls of this hollowed out tree seem to have been cut out,
+shaped and curved, allowing one to climb up, if they so wish.  Soft chirping
+noises rise from below, an eerie, quiet cacophony that pervades the area.    
+~
+11 acdfi 0 0 0  5
+D3
+~
+bark~
+1 0 1154 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1152 0 0 0 0 0 0 0 0
+S
+#1154
+Out on a Limb~
+   Standing on an oak branch, the ground is rather hard to see.  Shadows engulf
+anything that might be taken into one's vision, leaving one to wonder just how
+high up they are.  Chirps and chittering may be heard by those that listen.  
+~
+11 ai 0 0 0  3
+D1
+~
+bark~
+1 0 1153 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1155 0 0 0 0 0 0 0 0
+D4
+~
+branches~
+1 0 1157 0 0 0 0 0 0 0 0
+S
+#1155
+Out on a Limb~
+   Standing on an oak branch, the ground is rather hard to see.  Shadows engulf
+anything that might be taken into one's vision, leaving one to wonder just how
+high up they are.  Chirps and chittering may be heard by those that listen.  
+~
+11 ai 0 0 0  3
+D1
+~
+~
+0 0 1154 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1156 0 0 0 0 0 0 0 0
+S
+#1156
+Out on a Limb~
+   Standing on an oak branch, the ground is rather hard to see.  Shadows engulf
+anything that might be taken into one's vision, leaving one to wonder just how
+high up they are.  Chirps and chittering may be heard by those that listen.  
+~
+11 ai 0 0 0  3
+D7
+~
+~
+0 0 1155 0 0 0 0 0 0 0 0
+S
+#1157
+Among Weak Branches~
+   Frail branches snap and break easily here, yet stay on the tree, a testament
+to their youth and flexibility.  However, they cannot hold much weight.  The
+ground from here is difficult to see, not only how far, but where, as shadows
+seem to have engulfed everything.    
+~
+11 aiq 0 0 0  3
+D1
+~
+bark~
+1 0 1158 0 0 0 0 0 0 0 0
+D5
+~
+branches~
+1 0 1154 0 0 0 0 0 0 0 0
+S
+#1158
+Within Walls of Bark~
+   Any sound made in this room is magnified, after echoing off the rounded bark
+walling.  The inner walls of this hollowed out tree seem to have been cut out,
+shaped and curved, allowing one to climb up, if they so wish.  Soft chirping
+noises rise from below, an eerie, quiet cacophony that pervades the area.    
+~
+11 acdiqtx 0 0 0  5
+D3
+~
+bark~
+1 0 1157 0 0 0 0 0 0 0 0
+D4
+~
+hollow~
+1 0 1159 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1153 0 0 0 0 0 0 0 0
+S
+#1159
+A Bark Walled Room~
+   The tree has been hollowed out by a force other than straight nature.  
+Polished as well, for the wood gleams like water in sunlight, when the light
+touches it.  Above, a knot ties the tree, leaving the room shaped sort of like
+an onion bulb.    
+~
+11 afiqtx e 0 0  5
+D4
+   The floor seems to collect and gather at a point, leaving a hollow in which
+a ball can be placed.    
+~
+knot~
+1 1130 1160 0 0 0 0 0 0 0 0
+D5
+~
+hollow~
+1 0 1158 0 0 0 0 0 0 0 0
+S
+#1160
+At the Top of a Massive Oak~
+   The tree tapers to a point above, the bark walling closing in, and reaching
+a point.  The walls and floor are smooth, as though someone is always sanding
+the wood.  The room pulses with an odd, faint green light every now and again,
+giving off a cool, and calm feeling.    
+~
+11 adfirtux e 0 0  5
+D5
+   The floor seems to collect and gather at a point, leaving a hollow in which
+a ball can be placed.    
+~
+knot~
+1 1130 1159 0 0 0 0 0 0 0 0
+S
+#1161
+A Side Path~
+   Trees sprout out of the ground, here and there, giving thought that the
+forest did not grow around the path, the trail was forced through the wood.  
+The sun is blotted out by the leafed giants, shading the ground to a point
+where darkness lives even in day.  Strange hoof prints marr the ground, in a
+pattern unlike walking, the prints placed as they are.    
+~
+11 a 0 0 0  3
+D1
+~
+~
+0 0 1162 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1139 0 0 0 0 0 0 0 0
+S
+#1162
+A Side Path~
+   Trees sprout out of the ground, here and there, giving thought that the
+forest did not grow around the path, the trail was forced through the wood.  
+The sun is blotted out by the leafed giants, shading the ground to a point
+where darkness lives even in day.  Strange hoof prints marr the ground, in a
+pattern unlike walking, the prints placed as they are.    
+~
+11 a 0 0 0  3
+D0
+~
+~
+0 0 1163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1174 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1161 0 0 0 0 0 0 0 0
+S
+#1163
+Standing Before a Large Maple~
+   The odd hoof prints still mark the ground here, heavier in some places,
+perhaps to make up for the bumpy landscape.  Grass grows rather short around
+the faint walk way, perhaps as the sun cannot break through the leaves of the
+larger residents of the area.  Chirps and the like echo through the wood,
+bouncing off objects until the echos are nothing more than mirrors of previous
+sounds, undying.    
+~
+11 a 0 0 0  5
+D2
+~
+~
+0 0 1162 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1164 0 0 0 0 0 0 0 0
+S
+#1164
+Among the Branches~
+   The branch upon which one stands when they are here, it curves around a
+little to the north around the tree.  As well, it also grows heading to the
+east.  A dizzying sight may be witnessed by those that look down, for the
+ground is not visible, due to the heavy shade.    
+~
+11 aci 0 0 0  5
+D1
+~
+~
+0 0 1168 0 0 0 0 0 0 0 0
+D5
+You cannot see the ground, and what is visible seems to be shifting slowly.
+~
+~
+0 0 1163 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1165 0 0 0 0 0 0 0 0
+S
+#1165
+Among the Branches~
+   The branch upon which one stands when they are here, it curves around a
+little to the north around the tree.  As well, it also grows heading to the
+east.  A dizzying sight may be witnessed by those that look down, for the
+ground is not visible, due to the heavy shade.    
+~
+11 ai 0 0 0  5
+D2
+~
+hollow~
+1 0 1166 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1164 0 0 0 0 0 0 0 0
+S
+#1166
+Within a Hollowed Maple~
+   This larger maple seems to have been hollowed out, not by age or weather,
+but by some hand with a purpose.  The inner walls are smooth, and there are
+notches cut into them at measured intervals to aid in climbing, though it is
+still a matter of strength to do so.  The bark walls seem to act a sound wall,
+echoing and magnifying any sound that enters.    
+~
+11 afi 0 0 0  5
+D0
+~
+hollow~
+1 0 1165 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1167 0 0 0 0 0 0 0 0
+S
+#1167
+Within a Hollowed Maple~
+   This larger maple seems to have been hollowed out, not by age or weather,
+but by some hand with a purpose.  The inner walls are smooth, and there are
+notches cut into them at measured intervals to aid in climbing, though it is
+still a matter of strength to do so.  The bark walls seem to act a sound wall,
+echoing and magnifying any sound that enters.    
+~
+11 afi 0 0 0  5
+D4
+~
+~
+0 0 1166 0 0 0 0 0 0 0 0
+D5
+~
+rubble~
+1 0 1172 0 0 0 0 0 0 0 0
+S
+#1168
+Standing on a Limb~
+   Standing on a branch, the ground is rather hard to see.  Shadows engulf
+anything that might be taken into one's vision, leaving one to wonder just how
+high up they are.  Chirps and chittering may be heard by those that listen.  
+~
+11 ai 0 0 0  3
+D1
+~
+~
+0 0 1170 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1164 0 0 0 0 0 0 0 0
+D5
+It cannot be judged how high one is from here, as the ground cannot be seen.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1169 0 0 0 0 0 0 0 0
+S
+#1169
+Standing on a Limb~
+   Standing on a branch, the ground is rather hard to see.  Shadows engulf
+anything that might be taken into one's vision, leaving one to wonder just how
+high up they are.  Chirps and chittering may be heard by those that listen.  
+~
+11 ai 0 0 0  3
+D5
+It cannot be judged how high one is from here, as the ground cannot be seen.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1168 0 0 0 0 0 0 0 0
+S
+#1170
+Standing on a Limb~
+   Standing on a branch, the ground is rather hard to see.  Shadows engulf
+anything that might be taken into one's vision, leaving one to wonder just how
+high up they are.  Chirps and chittering may be heard by those that listen.  
+~
+11 ai 0 0 0  3
+D1
+~
+~
+0 0 1171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1168 0 0 0 0 0 0 0 0
+D5
+It cannot be judged how high one is from here, as the ground cannot be seen.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1171
+Standing on a Limb~
+   Standing on a branch, the ground is rather hard to see.  Shadows engulf
+anything that might be taken into one's vision, leaving one to wonder just how
+high up they are.  Chirps and chittering may be heard by those that listen.  
+~
+11 ai 0 0 0  3
+D3
+~
+~
+0 0 1170 0 0 0 0 0 0 0 0
+D5
+It cannot be judged how high one is from here, as the ground cannot be seen.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1172
+Within a Storage Area~
+   This area seems to have been dug and carved out of the earth right under the
+maple tree.  The trees roots hang down in plenty of spaces, yet it seems they
+hold the dirt from the center of the room, leaving a hollow in which one may
+store belongings.  Plenty of debris has collected, regardless, but such would
+only be expected.    
+~
+11 acfi 0 0 0  4
+D4
+~
+rubble~
+1 0 1167 0 0 0 0 0 0 0 0
+D5
+~
+debris~
+1 1135 1173 0 0 0 0 0 0 0 0
+S
+#1173
+A Den Below the Ground~
+   A living quarters seems to have been fashioned out of the continuing hollow
+of the tree, even down here, under the earth below the tree.  Maple roots
+decorate the walls, snaking in and out of the dirt, while at the same time,
+holding it back.  The floor is littered with debris such as leaves and rocks,
+suggesting that those that reside in this den do not feel a need to clean.    
+~
+11 acfi 0 0 0  4
+D4
+~
+debris~
+1 1135 1172 0 0 0 0 0 0 0 0
+S
+#1174
+Around a Double-Grown Oak~
+   Two oak trees seem to have intertwined at a much younger age, and so have
+grown into eachother, forming an incredibly wide tree.  The path itself seems
+to circle around it, as though a ritual of some sort is what carved the trail.
+Shadows seem yet to dance on the ground, small forms dancing at the edge of
+sight.    
+~
+11 a 0 0 0  3
+D3
+~
+~
+0 0 1162 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1179 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1175 0 0 0 0 0 0 0 0
+S
+#1175
+Before an Incredible Oak~
+   Two oak trees seem to have intertwined at a much younger age, and so have
+grown into eachother, forming an incredibly wide tree.  The path itself seems
+to circle around it, as though a ritual of some sort is what carved the trail.
+Shadows seem yet to dance on the ground, small forms dancing at the edge of
+sight.    
+~
+11 a 0 0 0  3
+D0
+~
+bark~
+1 0 1180 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1176 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1174 0 0 0 0 0 0 0 0
+S
+#1176
+Before an Incredible Oak~
+   Two oak trees seem to have intertwined at a much younger age, and so have
+grown into eachother, forming an incredibly wide tree.  The path itself seems
+to circle around it, as though a ritual of some sort is what carved the trail.
+Shadows seem yet to dance on the ground, small forms dancing at the edge of
+sight.    
+~
+11 a 0 0 0  3
+D0
+~
+bark~
+1 0 1181 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1175 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1177 0 0 0 0 0 0 0 0
+S
+#1177
+Around a Double-Grown Oak~
+   Two oak trees seem to have intertwined at a much younger age, and so have
+grown into eachother, forming an incredibly wide tree.  The path itself seems
+to circle around it, as though a ritual of some sort is what carved the trail.
+Shadows seem yet to dance on the ground, small forms dancing at the edge of
+sight.    
+~
+11 a 0 0 0  3
+D6
+~
+~
+0 0 1178 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1176 0 0 0 0 0 0 0 0
+S
+#1178
+Around a Double-Grown Oak~
+   Two oak trees seem to have intertwined at a much younger age, and so have
+grown into eachother, forming an incredibly wide tree.  The path itself seems
+to circle around it, as though a ritual of some sort is what carved the trail.
+Shadows seem yet to dance on the ground, small forms dancing at the edge of
+sight.    
+~
+11 a 0 0 0  3
+D3
+~
+~
+0 0 1179 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1177 0 0 0 0 0 0 0 0
+S
+#1179
+Around a Double-Grown Oak~
+   Two oak trees seem to have intertwined at a much younger age, and so have
+grown into eachother, forming an incredibly wide tree.  The path itself seems
+to circle around it, as though a ritual of some sort is what carved the trail.
+Shadows seem yet to dance on the ground, small forms dancing at the edge of
+sight.    
+~
+11 a 0 0 0  3
+D1
+~
+~
+0 0 1178 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1174 0 0 0 0 0 0 0 0
+S
+#1180
+Within Bark Walls~
+   The treasure of two joined trees seems to have been treated in the same
+manner as a few other trees of the area.  Hollowed out, bark walls are still
+rather smooth, as though sanded for hours, yet no scratch marks marr the edges.
+Looking up, one can sense that it is possible to move farther up than they
+might be able to see, however, the climbing is sure to take the wind out of
+those that are not adept at such activities.    
+~
+11 acfi 0 0 0  3
+D1
+~
+~
+0 0 1181 0 0 0 0 0 0 0 0
+D2
+~
+bark~
+1 0 1175 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1182 0 0 0 0 0 0 0 0
+S
+#1181
+Within Bark Walls~
+   The treasure of two joined trees seems to have been treated in the same
+manner as a few other trees of the area.  Hollowed out, bark walls are still
+rather smooth, as though sanded for hours, yet no scratch marks marr the edges.
+Looking up, one can sense that it is possible to move farther up than they
+might be able to see, however, the climbing is sure to take the wind out of
+those that are not adept at such activities.    
+~
+11 acfi 0 0 0  3
+D2
+~
+bark~
+1 0 1176 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1180 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1183 0 0 0 0 0 0 0 0
+S
+#1182
+Within Walls of Bark~
+   Smooth inner walls make a climb rather difficult, whether moving up, or
+down.  Shadows seem to have made their home here, as vision is restricted in
+every line of sight.  The wood of the tree may creak as one moves in any
+direction, a testament to how thin the walls are.    
+~
+11 afiq 0 0 0  5
+D1
+~
+~
+0 0 1183 0 0 0 0 0 0 0 0
+D5
+It is really difficult to judge how high one is from here.
+~
+~
+0 0 1180 0 0 0 0 0 0 0 0
+S
+#1183
+Within Walls of Bark~
+   Smooth inner walls make a climb rather difficult, whether moving up, or
+down.  Shadows seem to have made their home here, as vision is restricted in
+every line of sight.  The wood of the tree may creak as one moves in any
+direction, a testament to how thin the walls are.    
+~
+11 afiq 0 0 0  5
+D3
+~
+~
+0 0 1182 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1184 0 0 0 0 0 0 0 0
+D5
+It is really difficult to judge how high one is from here.
+~
+~
+0 0 1181 0 0 0 0 0 0 0 0
+S
+#1184
+At the Top of a Double Oak~
+   Climbing further up is restricted, as there is no farther to move.  Looking
+down would give no clue as to how far up one is, darkness fills all one may
+see.  Many branches lie against the walls, and beyond them, more branches move
+ever outwards.    
+~
+11 acfiq 0 0 0  5
+D0
+~
+leaves~
+1 0 1185 0 0 0 0 0 0 0 0
+D1
+~
+leaves~
+1 0 1186 0 0 0 0 0 0 0 0
+D2
+~
+leaves~
+1 0 1187 0 0 0 0 0 0 0 0
+D3
+~
+leaves~
+1 0 1188 0 0 0 0 0 0 0 0
+D5
+It is really difficult to judge how high one is from here.
+~
+~
+0 0 1183 0 0 0 0 0 0 0 0
+S
+#1185
+Standing Among Broken Branches~
+   The branch upon which one stands on from here, it is broken, and shattered
+in many a place.  Bark has been stripped from the wood, leaving the vulnerable
+flesh exposed to the elements.  Looking down is obviously only an action held
+by the foolish.    
+~
+11 i 0 0 0  5
+D2
+~
+leaves~
+1 0 1184 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1189 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1188 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1186 0 0 0 0 0 0 0 0
+S
+#1186
+Out On a Limb~
+   A few branches strong enough to support some weight grow out of the tree in
+seemingly predetermined places.  Where one finds themself now, happens to be
+such a place.  Looking down is not highly recommended, but those that do, it is
+their will.  The sun is visible from up here, the tallest of the trees in this
+small wood.    
+~
+11 i 0 0 0  5
+D3
+~
+leaves~
+1 0 1184 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1185 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1190 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1187 0 0 0 0 0 0 0 0
+S
+#1187
+Standing upon a Lone Branch~
+   The branch upon which one stands here is quite sturdy, due perhaps to the
+thickness of it.  Curving slightly to the south, sight of the village of Throtl
+is visible.  Looking down is not quite a good idea, for it is a dizzying sight.
+~
+11 i 0 0 0  5
+D0
+~
+leaves~
+1 0 1184 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1193 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1188 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1186 0 0 0 0 0 0 0 0
+S
+#1188
+Standing on a Weak Limb~
+   The weak branch upon which one finds themself upon shakes under weight and
+wind alike.  Faint twitters of birds, and now and again, a rustle not unlike
+swept leaves may be heard by those that care to hear.  Looking down leads to a
+dizzying sight, one that perhaps should not even be seen.    
+~
+11 i 0 0 0  5
+D1
+~
+leaves~
+1 0 1184 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1185 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1197 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1187 0 0 0 0 0 0 0 0
+S
+#1189
+Standing Among Broken Branches~
+   The branch upon which one stands on from here, it is broken, and shattered
+in many a place.  Bark has been stripped from the wood, leaving the vulnerable
+flesh exposed to the elements.  Looking down is obviously only an action held
+by the foolish.    
+~
+11 i 0 0 0  5
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1185 0 0 0 0 0 0 0 0
+S
+#1190
+Out On a Limb~
+   Here, the tree grows as an extension outwards, getting weaker the farther
+from the trunk it is.  In many a place, the branch is much too weak to stand
+on, yet right here, it may support some weight.  Looking down leads to a sight
+mostly filled with shadows, as no natural light exists to lighten the wood
+floor.    
+~
+11 ciq 0 0 0  5
+D1
+~
+~
+0 0 1191 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 1192 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1186 0 0 0 0 0 0 0 0
+S
+#1191
+Out On a Limb~
+   Here, the tree grows as an extension outwards, getting weaker the farther
+from the trunk it is.  In many a place, the branch is much too weak to stand
+on, yet right here, it may support some weight.  Looking down leads to a sight
+mostly filled with shadows, as no natural light exists to lighten the wood
+floor.    
+~
+11 i 0 0 0  5
+D3
+~
+~
+0 0 1190 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1192
+Falling Out of a Tree~
+   Little branches whip by and some smack one in the face and other places as
+they fall.  Perhaps paying more attention to where one walked would have been a
+good thought, but it is too late for that now.  The ground is coming closer at
+a nice pace, ready to swallow whomever may fall from such a spot.  Twigs and
+rocks and things that look like they would hurt if one lands on them, all seem
+to be scattered directly below.    
+~
+11 bciq 0 0 0  5
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 1177 0 0 0 0 0 0 0 0
+S
+#1193
+Standing upon a Lone Branch~
+   The branch upon which one stands here is quite sturdy, due perhaps to the
+thickness of it.  Curving slightly to the south, sight of the village of Throtl
+is visible.  Looking down is not quite a good idea, for it is a dizzying sight.
+~
+11 i 0 0 0  5
+D2
+~
+~
+0 0 1194 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1187 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1194
+Standing upon a Lone Branch~
+   The branch upon which one stands here is quite sturdy, due perhaps to the
+thickness of it.  Curving slightly to the south, sight of the village of Throtl
+is visible.  Looking down is not quite a good idea, for it is a dizzying sight.
+~
+11 i 0 0 0  5
+D0
+~
+~
+0 0 1193 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1195 0 0 0 0 0 0 0 0
+S
+#1195
+Standing upon a Lone Branch~
+   The branch upon which one stands here is quite sturdy, due perhaps to the
+thickness of it.  Curving slightly to the south, sight of the village of Throtl
+is visible.  Looking down is not quite a good idea, for it is a dizzying sight.
+~
+11 i 0 0 0  5
+D2
+~
+~
+0 0 1196 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1194 0 0 0 0 0 0 0 0
+S
+#1196
+Standing upon a Lone Branch~
+   The branch upon which one stands here is quite sturdy, due perhaps to the
+thickness of it.  Curving slightly to the south, sight of the village of Throtl
+is visible.  Looking down is not quite a good idea, for it is a dizzying sight.
+~
+11 i 0 0 0  5
+D0
+~
+~
+0 0 1195 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1197
+Standing on a Weak Limb~
+   The weak branch upon which one finds themself upon shakes under weight and
+wind alike.  Faint twitters of birds, and now and again, a rustle not unlike
+swept leaves may be heard by those that care to hear.  Looking down leads to a
+dizzying sight, one that perhaps should not even be seen.    
+~
+11 i 0 0 0  5
+D2
+~
+~
+0 0 1198 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1188 0 0 0 0 0 0 0 0
+S
+#1198
+Standing on a Weak Limb~
+   The weak branch upon which one finds themself upon shakes under weight and
+wind alike.  Faint twitters of birds, and now and again, a rustle not unlike
+swept leaves may be heard by those that care to hear.  Looking down leads to a
+dizzying sight, one that perhaps should not even be seen.    
+~
+11 i 0 0 0  5
+D0
+~
+~
+0 0 1197 0 0 0 0 0 0 0 0
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1199 0 0 0 0 0 0 0 0
+S
+#1199
+Standing on a Weak Limb~
+   The weak branch upon which one finds themself upon shakes under weight and
+wind alike.  Faint twitters of birds, and now and again, a rustle not unlike
+swept leaves may be heard by those that care to hear.  Looking down leads to a
+dizzying sight, one that perhaps should not even be seen.    
+~
+11 i 0 0 0  5
+D5
+Most people feel rather dizzy, after looking down from here.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1198 0 0 0 0 0 0 0 0
+S
+$

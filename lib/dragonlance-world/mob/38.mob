@@ -1,0 +1,180 @@
+#3800
+dragon black oynx khisanth sleek massive~
+Khisanth, a sleek black dragon~
+Khisanth, a sleek black dragon, glares coldy upon you with red-black eyes.
+~
+   A beautiful sleek black dragons stands before you.  Her glistening wings
+folded to her sides, her scales gleaming.  Her eyes glow red-black, the color
+of molten rock.  Her mouth opens in a snarl, teeth flashing white and wicked.
+Her long, red tongue curls as she breathes the night air.    
+~
+d g 0 0 k 0 0 0 -900
+30 -10 -27 21000d300+1000 1d8+38
+75 0 101 20
+8 8 2
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+#3801
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+30 5 -20 120d100+100 1d1+15
+75 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3802
+marsh snake~
+a scaly marsh snake~
+A scaly marsh snake slithers along, in an attempt to find food.
+~
+   A long scaly marsh snake slowy slithers along the edges of the marsh.  Its
+eyes have a soft glow to them allowing it to see in natural darkness.    
+~
+d 0 0 0 k 0 0 0 -500
+30 5 -35 360d200+110 1d8+15
+75 0 32 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3803
+gully dwarf~
+a gully dwarf~
+A small gully dwarf rushes for freedom as he tries to escape from Xak Tsaroth.
+~
+   This dirty little gully dwarf runs almost out of breath, trying to run away
+from the horrors of Xak Tsaroth.  He wears dirty little rags upon his body,
+that smell rather foul.    
+~
+d 0 0 0 k 0 0 0 250
+30 5 -35 360d200+110 1d8+15
+75 0 32 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3804
+draconian guard patrol~
+a draconian patrol guard~
+A draconian patrol guard scowers the area for intruders.
+~
+   Its massive form towers above you, sending an aura of fear down your spine.
+Its teeth flash brightly as acid runs from its mouth.  Its body, muscular and
+covered with scales, seem to slow the beast down.    
+~
+d 0 0 0 k 0 0 0 -900
+30 5 -35 360d220+112 1d8+15
+75 0 32 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3805
+massive draconian warden~
+a massive draconian warden~
+A massive draconian warden stands here scowling.
+~
+   Scowling rather loudly this draconian warden takes no notice of you.  He
+wears light leather armor upon his body, making him more agile on his feet.  
+~
+bdF 0 0 0 k 0 0 0 -900
+30 -9 -41 7200d250+115 1d8+36
+75 0 32 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3806
+gully dwarf prisoner~
+a gully dwarf prisoner~
+A gully dwarf prisoner stands here scared for her life.
+~
+   Covered in filth, the little gully dwarf woman huddles against the corner in
+her cell.  Her hair is tangled and covered in dirt.  Deep blue eyes stare
+towards you for help.    
+~
+d 0 0 0 k 0 0 0 0
+30 5 -26 180d200+110 1d8+15
+75 0 32 2
+8 8 2
+E
+Str: 14
+E
+Dex: 23
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+$

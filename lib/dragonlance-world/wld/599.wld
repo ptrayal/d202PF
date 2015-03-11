@@ -1,0 +1,723 @@
+#59900
+Luskan Residential Row~
+   This is the beginning of the Luskan Residential Row.  These are the houses
+built and being built for the residences of Luskan.  The houses are private so
+be kind and do not try to get into one without permission from the homeowner.  
+~
+599 n 0 0 0 0
+D0
+~
+door north house~
+1 59901 59901 20 21 0 0 0 0 0 0
+D1
+~
+~
+0 0 59907 0 0 0 0 0 0 0 0
+D2
+~
+gate gates tower~
+1 0 59902 20 21 0 0 0 0 0 0
+D7
+~
+~
+0 0 59906 0 0 0 0 0 0 0 0
+D8
+@Da large and somewhat old castle resides in this direction@n
+~
+~
+0 0 59903 0 0 0 0 0 0 0 0
+S
+#59901
+a small, cozily appointed house~
+   A thick wooden door opens into a small room.  A fire crackles merrily at the
+far end, and the stone floor is cold to the touch.  A mat lies right inside the
+door, intended for people to wipe their shoes and footwear before they step into
+the house proper.  The ceiling is not very tall, but is hung with a candle
+chandelier that appears to be everburning, casting werelight shadows across the
+room.  A rather large bed sits against one wall, covered in comfortable looking
+silk blankets.  At the foot of the bed lies a padlocked metal chest, and at the
+head of it is a wooden dresser.  Across from the bed sits a small stone stove
+with a tea kettle and pot.  The walls are colored a brushed obsidian, giving the
+single room house an air of creepy foreboding.  Only window is visible, placed
+on the wall over the bed.  Midnight black cotton blinds are usually drawn over
+it, however, with faint spiderweb designs interwoven into the fabric.  A rug
+covers a good portion of the floor, made out of some unidentified black fur.  
+There's also a chair and a bookshelf placed next to the fireplace, oddly
+inviting compared to the rest of the house.  
+~
+599 jlm 0 0 0 0
+D2
+~
+door~
+2 59901 59900 20 0 0 0 0 0 0 0
+S
+#59902
+@gThe Tower of@n@G Disc@n~
+After climbing some dusty stairs you enter the inner sanctum of the tower and
+home of Disc.  The chamber is filled with great soft pillows of various
+luxurious materials and can be used for both a relaxing break or nap.  Thick
+carpets and small palm trees cover most of the oak floor and bookcases filled
+with arcane scrolls, parchments and all sort of books are lining the walls.  
+The northern section of the wall contains a magical fireplace that is giving the
+tower warmth.  You can smell some jasmine scented incense burning as a soft
+breeze blows thru the tower making the silk drapes hanging from the ceiling
+dance.  
+~
+599 jlm d 0 0 0
+D0
+~
+gate gates tower~
+1 0 59900 20 0 0 0 0 0 0 0
+S
+#59903
+@gEthkar's @yCastle@n~
+@cThe room is spacious and warm, illuminated by a @rfi@Yre@rpl@Yac@re@c.  On the walls are pictures of Ethkar's @Mancestors@c, and a few paintings dedicated to nature.  There is a map of the known lands hung on one corner, and circled on it the region of @GChult@c. The room serves as a receiving area, with large comfortable furniture made of wood and silk all around.@n  
+@cAlthough  luxurious, there is a certain modesty about the room.  There are no lavish displays of wealth,  chosen more often than not, to have an elegant single @Cpiece of art@c decorate the various shelves or displays.@n
+~
+599 jln 0 0 0 0
+D1
+~
+~
+0 0 59904 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59905 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 59900 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#59904
+Ethkar's Thophy room~
+@yThis wing of the small estate is dedicated to the various trophies its owner has collected over the years.  From the King of Trolls head, to a @Ggre@ge@Gy dr@ga@Ggon@g'@Gs sca@gl@Ge @y , the @rNecro lord's@y robe, the @rMountain Giant @wKing's@y armor, and other various enemies that have been defeated over the years.  Also, displayed are several armors and weapons that Ethkar has used, and outgrown over the same period of time.@n
+@yBeside all these trophies, there are a few strange artifacts that defy description and that have been collected over many adventures. As of furniture, there is only a few large and comfortable chairs next to a small table, and a bar. This appears to be the place where Ethkar tells about his deeds to whomever is his audience at the time.@n
+~
+599 jln 0 0 0 0
+D3
+~
+~
+0 0 59903 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 59942 0 0 0 0 0 0 0 0
+S
+#59905
+Ethkar's Bedroom~
+@DA spacious four post bed with silk linens and curtains is at the center of the room, with a happy @rfi@Yre@rpla@Yc@re@D warming the place.  There are places for clothes and spaces to don his armor and weapons, as well and basins and instruments for his personal grooming.  Is an inviting place.@n
+~
+599 jln 0 0 0 0
+D0
+~
+~
+0 0 59903 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 59941 0 0 0 0 0 0 0 0
+S
+#59906
+Kronks Custom Forge~
+   A large open room with an intricate@M maze@n carved into the entire floor.  
+Exquisitely made suits of armor and blades of all types are on hooks around the
+room from ceiling to floor.  In the back corner is a well used anvil and forge,
+next to that is a small counter with a leather bound@M book@n that says
+"@WCustom Order Requests@n" on the cover.  
+~
+599 jlm 0 0 0 0
+D0
+~
+~
+0 0 59912 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 59900 0 0 0 0 0 0 0 0
+S
+#59907
+Residential Street~
+The street is made of cobblestone and very new. Not many people walk by this way. It seem quite and safe compared to the rest of the city. There are houses all around and the neighborhood looks inviting.
+~
+599 d 0 0 0 0
+D1
+~
+~
+0 0 59908 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59900 0 0 0 0 0 0 0 0
+S
+#59908
+Residential Street~
+The street is made of cobblestone and very new. Not many people walk by this way. It seem quite and safe compared to the rest of the city. There are houses all around and the neighborhood looks inviting.
+~
+599 n 0 0 0 0
+D0
+@yA Large @gTreehouse@y inside of an ancient and still living tree. @n
+~
+~
+0 0 59921 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59909 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59907 0 0 0 0 0 0 0 0
+S
+#59909
+Residential Street~
+The street is made of cobblestone and very new. Not many people walk by this way. It seem quite and safe compared to the rest of the city. There are houses all around and the neighborhood looks inviting.
+~
+599 n 0 0 0 0
+D0
+The cobblestone path leads to a double-storey house surrounded by green lawn and the crest of a flaming anvil above its sturdy door.
+~
+Door~
+1 0 59914 20 21 0 0 0 0 0 0
+D1
+~
+~
+0 0 59916 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59908 0 0 0 0 0 0 0 0
+S
+#59910
+Beach~
+Dess will put a description here
+~
+599 n 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59911 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3273 0 0 0 0 0 0 0 0
+S
+#59911
+Hut~
+This unfinished room was created by Ubtao.
+~
+599 jl 0 0 0 0
+D3
+~
+~
+0 0 59910 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 59944 0 0 0 0 0 0 0 0
+S
+#59912
+@DKronk's Temple dedicated to @MUbtao@n~
+@DThe walls of this small temple are covered by a huge maze that extends to the floor and ceiling. In the middle of the room, there is a life like @gadamantine@D statue made in @MUbtao's@D image with glowing diamond @Ceyes@D
+~
+599 n 0 0 0 0
+D2
+~
+~
+0 0 59906 0 0 0 0 0 0 0 0
+D4
+~
+Door~
+2 10010 59913 20 0 0 0 0 0 0 0
+S
+#59913
+Storeroom~
+@cAs you enter the room a over powering smell of @yearth@c and @Ddust@c fills your nostrils. In this small storage room various barrels of different @rores@c line the walls along with shelves of small ornate box's filled with rare and valuable @Ggems@c above them.@n
+~
+599 jlm 0 0 0 0
+D5
+~
+door~
+2 10010 59912 20 0 0 0 0 0 0 0
+S
+#59914
+Faeforge Minor Residence~
+This house with polished wooden floors is quite spacious and well kept. A line of wooden pegs next to the door allows visitors to hang their cloaks and hats. Overstuffed chairs are arranged around an oval table next to a small fireplace forming the common area which spans the left side of the house. 
+To the right side hugging the wall is a staircase leading upward. Beneath it is a reading area which consists of two padded chairs, a small writing desk and a partially filled bookshelf while a kitchen with a square darkwood table and four matching chairs can be seen further back.
+Although several windows allow light and fresh air into the room, several waist-high potted plants and hung tapestries of dwarven origin help to liven up the place even further. And mounted on top of the fireplace is a large steel shield with the Faeforge clan crest, a flaming anvil.
+~
+599 jlmn 0 0 0 0
+D2
+You can see the green lawn from here and the cobblestone path leading back to the street
+~
+Door~
+1 0 59909 20 21 0 0 0 0 0 0
+D4
+A staircase leads to the upper floor, most probably where the master bedroom is location.
+~
+~
+0 0 59915 0 0 0 0 0 0 0 0
+S
+#59915
+Faeforge Residence's Upper Level~
+This level has two rooms with polished wooden floors and an open archway connecting them. Two handsome beds with thick pillows covered by fine cotton sheets and wool blankets, each with a nicely carved bureau by their side mark the larger of the two rooms as the master bedroom. Two padded chairs sit in the far corner next to a small writing table, a tall mirror and a small shrine to Moradin while the privy can be seen from behind a partially closed door.
+The smaller room has been converted to a workroom and it is well equipped with everything needed to tackle a project, whether mundane or magical. Among other things, a crafting station, several braziers, a long table laden with assorted chemicals, a chest full of essences and unusual components and a large storage cabinet are here.
+~
+599 jlm 0 0 0 0
+D5
+The staircase leads down to the main floor of the house.
+~
+~
+0 0 59914 0 0 0 0 0 0 0 0
+S
+#59916
+Residential Street~
+The street is made of cobblestone and very new. Not many people walk by this way. It seem quite and safe compared to the rest of the city. There are houses all around and the neighborhood looks inviting.
+~
+599 n 0 0 0 0
+D0
+~
+~
+0 0 59920 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59917 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59909 0 0 0 0 0 0 0 0
+S
+#59917
+Residential Street~
+The street is made of cobblestone and very new. Not many people walk by this way. It seem quite and safe compared to the rest of the city. There are houses all around and the neighborhood looks inviting.
+~
+599 0 0 0 0 0
+D1
+~
+~
+0 0 59918 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59916 0 0 0 0 0 0 0 0
+S
+#59918
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D0
+~
+~
+0 0 59923 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59917 0 0 0 0 0 0 0 0
+S
+#59919
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D0
+~
+~
+0 0 59931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 59925 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 59923 0 0 0 0 0 0 0 0
+S
+#59920
+Vyers House~
+The home was arranged with neat and minimalist ideals.  A few simple blankets folded into a makeshift bed in one corner.  A low desk in the center of the room.  Sitting mats, no chairs.  A chest peaks out a closet not fully closed.  A number of shelves line the walls of this simple room.  A large window on one wall, and a simple ink landscape painting on the other.
+~
+599 jlm 0 0 0 0
+D2
+You see the cobblestone street through a window.
+~
+~
+0 0 59916 0 0 0 0 0 0 0 0
+S
+#59921
+@yA large @gTreehouse@y with a @YGoldsmithy@y sign reads above the doorway~
+This unfinished room was created by Ubtao.
+~
+599 jl 0 0 0 0
+D2
+~
+~
+0 0 59908 0 0 0 0 0 0 0 0
+S
+#59922
+Caide's House~
+This unfinished room was created by Ubtao.
+~
+599 jl 0 0 0 0
+D1
+~
+~
+0 0 59923 0 0 0 0 0 0 0 0
+S
+#59923
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 n 0 0 0 0
+D2
+~
+~
+0 0 59918 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59922 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 59919 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 59924 0 0 0 0 0 0 0 0
+S
+#59924
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 n 0 0 0 0
+D2
+~
+~
+0 0 59927 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 59923 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 59925 0 0 0 0 0 0 0 0
+S
+#59925
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 n 0 0 0 0
+D1
+~
+~
+0 0 59926 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 59919 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 59924 0 0 0 0 0 0 0 0
+S
+#59926
+Kwan's House~
+   This building serves as both a martial arts school and a small chapel to
+Ilmater.  It follows the classic Eastern architecture, and has a large area for
+sparring.  Off to the side is a small walled area with a simple wooden cot for
+sleeping, and a padded mat for meditation and prayer.  A small bookcase filled
+with scrolls and tomes about the martial arts and philosphy line the walls.  
+The courtyard is filled with training weapons of all different styles, and it
+seems that here is where Master San Chu trains his discipline to novices.  
+~
+599 jl 0 0 0 0
+D3
+~
+~
+0 0 59925 0 0 0 0 0 0 0 0
+S
+#59927
+Dirk's House~
+This unfinished room was created by Ubtao.
+~
+599 jl 0 0 0 0
+D0
+~
+~
+0 0 59924 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59929 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59928 0 0 0 0 0 0 0 0
+S
+#59928
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D1
+~
+~
+0 0 59927 0 0 0 0 0 0 0 0
+S
+#59929
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D3
+~
+~
+0 0 59927 0 0 0 0 0 0 0 0
+S
+#59930
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 jlm 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#59931
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D0
+~
+~
+0 0 59932 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59935 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59919 0 0 0 0 0 0 0 0
+S
+#59932
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 n 0 0 0 0
+D2
+~
+~
+0 0 59931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59933 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 59940 0 0 0 0 0 0 0 0
+S
+#59933
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D1
+~
+~
+0 0 59932 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59934 0 0 0 0 0 0 0 0
+S
+#59934
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D1
+~
+~
+0 0 59933 0 0 0 0 0 0 0 0
+S
+#59935
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+599 n 0 0 0 0
+D3
+~
+~
+0 0 59931 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 59936 0 0 0 0 0 0 0 0
+S
+#59936
+A Dank Undergound Cavern~
+This unfinished room was created by Ubtao.
+~
+599 jl 0 0 0 0
+D0
+~
+~
+0 0 59937 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59939 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 59935 0 0 0 0 0 0 0 0
+S
+#59937
+A Dank Undergound Cavern~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D1
+~
+~
+0 0 59938 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59936 0 0 0 0 0 0 0 0
+S
+#59938
+A Dank Undergound Cavern~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D2
+~
+~
+0 0 59939 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59937 0 0 0 0 0 0 0 0
+S
+#59939
+A Dank Undergound Cavern~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D0
+~
+~
+0 0 59938 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59936 0 0 0 0 0 0 0 0
+S
+#59940
+Balzamoth's small House~
+A small but comfortable house, neatly decorated.  
+~
+599 jlm 0 0 0 0
+D9
+~
+~
+0 0 59932 0 0 0 0 0 0 0 0
+S
+#59941
+Ethkar's Storeroom~
+A storeroom with tons of materials for crafting and extras.
+~
+599 jl 0 0 0 0
+D5
+~
+~
+0 0 59905 0 0 0 0 0 0 0 0
+S
+#59942
+East Tower~
+A small area where Ethkar keeps all his blacksmithing materials. From adamantine to steel and essences to craft as well.
+~
+599 jlm 0 0 0 0
+D5
+~
+~
+0 0 59904 0 0 0 0 0 0 0 0
+S
+#59943
+Dwarven Friend Ethkar's House~
+You are in an unfinished room.
+~
+599 jlm 0 0 0 0
+D0
+~
+~
+0 0 4914 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#59944
+Entrance to Laberynth~
+This unfinished room was created by Ubtao.
+~
+599 n 0 0 0 0
+D1
+~
+~
+0 0 59945 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59946 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 59911 0 0 0 0 0 0 0 0
+S
+#59945
+Dess Treasury Room~
+Save house
+~
+599 jl 0 0 0 0
+D3
+~
+~
+0 0 59944 0 0 0 0 0 0 0 0
+S
+#59946
+Laberynth~
+This unfinished room was created by Ubtao.
+~
+599 0 0 0 0 0
+D0
+~
+~
+0 0 59944 0 0 0 0 0 0 0 0
+S
+#59999
+Supplies Room for Imms~
+This is where we add all the containers and stuff and then place them on housing
+~
+599 0 0 0 0 0
+S
+$~

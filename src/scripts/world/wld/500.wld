@@ -1,0 +1,51 @@
+#50000
+A Cell~
+&X
+~
+500 cdrx 0 0 0 0
+D0
+A sturdy cast iron cell door blocks the way out.
+~
+Cell door~
+1 1 50001 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50001
+In a dark, dank hallway~
+&X
+~
+500 c 0 0 0 0
+D2
+A cell door
+~
+cell door~
+1 1 50000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50002 0 0 0 0 0 0 0 0
+S
+#50002
+A dark, dank hallway~
+&X
+~
+500 d 0 0 0 0
+D1
+~
+0~
+0 0 50001 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50003
+Storage Room~
+&X
+~
+500 0 0 0 0 0
+S
+$~

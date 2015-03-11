@@ -1,0 +1,1198 @@
+#5400
+Beneath the Temple of Morgion~
+   A large cavern begins to open up spanning off to the northeast.  A faint
+musty odor can be detected, but nothing seen.  Large jagged rocks sprout from
+off both the ceiling and the cavern's floor.  No torch light seems to visibal
+at all.    
+~
+54 acdfip h 0 0  5
+D4
+~
+floorboard~
+1 0 298 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5401 0 0 0 0 0 0 0 0
+S
+#5401
+Roaming the Cave-Like Tunnels~
+   A large cavern begins to open up spanning off to the northeast.  A faint
+musty odor can be detected, but nothing seen.  Large jagged rocks sprout from
+off both the ceiling and the cavern's floor.  No torch light seems to visibal
+at all.    
+~
+54 adfip h 0 0  5
+D0
+~
+~
+0 0 5402 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5400 0 0 0 0 0 0 0 0
+S
+#5402
+Roaming the Cave-Like Tunnels~
+   A large cavern begins to open up spanning off to the northeast.  A faint
+musty odor can be detected, but nothing seen.  Large jagged rocks sprout from
+off both the ceiling and the cavern's floor.  No torch light seems to visibal
+at all.    
+~
+54 adfip h 0 0  5
+D0
+~
+~
+0 0 5403 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5401 0 0 0 0 0 0 0 0
+S
+#5403
+Roaming the Cave-Like Tunnels~
+   A large cavern begins to open up spanning off to the northeast.  A faint
+musty odor can be detected, but nothing seen.  Large jagged rocks sprout from
+off both the ceiling and the cavern's floor.  No torch light seems to visibal
+at all.    
+~
+54 adfp h 0 0  5
+D2
+~
+~
+0 0 5402 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5404 0 0 0 0 0 0 0 0
+S
+#5404
+Before a Massive Boulder~
+   A large cavern begins to open up spanning off to the northeast.  A faint
+musty odor can be detected, but nothing seen.  Large jagged rocks sprout from
+off both the ceiling and the cavern's floor.  No torch light seems to visibal
+at all.    
+~
+54 adfip h 0 0  5
+D0
+~
+boulder~
+1 0 5405 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5403 0 0 0 0 0 0 0 0
+S
+#5405
+An Entrance to a Massive Cave~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 acdfpx h 0 0  0
+D0
+~
+~
+0 0 5408 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5406 0 0 0 0 0 0 0 0
+D2
+~
+boulder~
+1 0 5404 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5407 0 0 0 0 0 0 0 0
+S
+#5406
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5417 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5405 0 0 0 0 0 0 0 0
+S
+#5407
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5405 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5412 0 0 0 0 0 0 0 0
+S
+#5408
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5409 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5405 0 0 0 0 0 0 0 0
+S
+#5409
+Before a Corrupted Altar~
+   A straing glow permiates from withint this room.  Followers of the God of
+Damned Souls gather here and pay their respects.  Black walls coated with
+sumbols and pentagrams of blood adorn the area.  A merchant's altar sets in the
+center of room, a faint humming sound coming from it.    
+~
+54 acdfptwx h 0 0  0
+D0
+~
+~
+0 0 5410 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5408 0 0 0 0 0 0 0 0
+D5
+~
+panel~
+1 0 5426 0 0 0 0 0 0 0 0
+S
+#5410
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5411 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5409 0 0 0 0 0 0 0 0
+S
+#5411
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+door~
+1 0 5425 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5421 0 0 0 0 0 0 0 0
+S
+#5412
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5413 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5407 0 0 0 0 0 0 0 0
+S
+#5413
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5414 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5412 0 0 0 0 0 0 0 0
+S
+#5414
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5415 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5413 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 5423 0 0 0 0 0 0 0 0
+S
+#5415
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5416 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5414 0 0 0 0 0 0 0 0
+S
+#5416
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5415 0 0 0 0 0 0 0 0
+S
+#5417
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5418 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5406 0 0 0 0 0 0 0 0
+S
+#5418
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5419 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 5424 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5417 0 0 0 0 0 0 0 0
+S
+#5419
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D0
+~
+~
+0 0 5420 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5418 0 0 0 0 0 0 0 0
+S
+#5420
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D2
+~
+~
+0 0 5419 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5422 0 0 0 0 0 0 0 0
+S
+#5421
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5411 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5416 0 0 0 0 0 0 0 0
+S
+#5422
+Along the Rocky Tunnels~
+   The cavern slowly begins to turn into a multi-tunneled walkway.  The sounds
+of footsteps can be detected from somewhat damp ground.  Strange figures can be
+seen roaming about the area in blood red attire.  Sounds of chanting can be
+heard an various directions.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5420 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5411 0 0 0 0 0 0 0 0
+S
+#5423
+A Small Private Room~
+   A small space with a makeshift door has been constructed to allow for some
+privacy.  A small bed and working table lie against one side of the room, while
+a meditation altar stands at the other.  Hardly any light can manage its way
+into this darkened room.    
+~
+54 adfpx h 0 0  0
+D1
+~
+door~
+1 0 5414 0 0 0 0 0 0 0 0
+S
+#5424
+A Small Private Room~
+   A small space with a makeshift door has been constructed to allow for some
+privacy.  A small bed and working table lie against one side of the room, while
+a meditation altar stands at the other.  Hardly any light can manage its way
+into this darkened room.    
+~
+54 adfpx h 0 0  0
+D3
+~
+door~
+1 0 5418 0 0 0 0 0 0 0 0
+S
+#5425
+A Small Private Room~
+   A small space with a makeshift door has been constructed to allow for some
+privacy.  A small bed and working table lie against one side of the room, while
+a meditation altar stands at the other.  Hardly any light can manage its way
+into this darkened room.    
+~
+54 adfpx h 0 0  0
+D2
+~
+door~
+1 0 5411 0 0 0 0 0 0 0 0
+S
+#5426
+Beneath the Altar~
+   This small room is surround by thick solid walls of rock.  No source of
+light can be detected from any given diretion.  The mouns of tortured souls can
+be heard echoing off into the distance.    
+~
+54 adhipwx eh 0 0  0
+D0
+~
+door~
+2 5406 5427 0 0 0 0 0 0 0 0
+D4
+~
+panel~
+1 0 5409 0 0 0 0 0 0 0 0
+S
+#5427
+Wandering a Stone Hallway~
+   A large stone hallway opens up into a various number of corridors.  A faint
+sound of rushing water can be heard off to the northwest.  Sounds of torture
+can be heard off to the east, while not a sound comes from the west.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5428 0 0 0 0 0 0 0 0
+D2
+~
+door~
+2 5406 5426 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5433 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5437 0 0 0 0 0 0 0 0
+S
+#5428
+Wandering a Stone Hallway~
+   A large stone hallway opens up into a various number of corridors.  A faint
+sound of rushing water can be heard off to the northwest.  Sounds of torture
+can be heard off to the east, while not a sound comes from the west.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5429 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5427 0 0 0 0 0 0 0 0
+S
+#5429
+Wandering a Stone Hallway~
+   A large stone hallway opens up into a various number of corridors.  A faint
+sound of rushing water can be heard off to the northwest.  Sounds of torture
+can be heard off to the east, while not a sound comes from the west.    
+~
+54 adfpx h 0 0  0
+D0
+~
+door~
+1 5406 5432 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 5406 5430 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 5406 5431 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5428 0 0 0 0 0 0 0 0
+S
+#5430
+Inside a Small Cell~
+   A small stray bed sets into the corner of this cell.  Barely enough room for
+one person in here, multiple captives can be seen.  The smell of urine and
+faeces linger heavily in the air.    
+~
+54 adfpx h 0 0  0
+D3
+~
+door~
+1 5406 5429 0 0 0 0 0 0 0 0
+S
+#5431
+Inside a Small Cell~
+   A small stray bed sets into the corner of this cell.  Barely enough room for
+one person in here, multiple captives can be seen.  The smell of urine and
+faeces linger heavily in the air.    
+~
+54 adfpx h 0 0  0
+D0
+~
+door~
+1 5406 5429 0 0 0 0 0 0 0 0
+S
+#5432
+Inside a Small Cell~
+   A small stray bed sets into the corner of this cell.  Barely enough room for
+one person in here, multiple captives can be seen.  The smell of urine and
+faeces linger heavily in the air.    
+~
+54 adfpx h 0 0  0
+D2
+~
+door~
+1 5406 5429 0 0 0 0 0 0 0 0
+S
+#5433
+Approaching a Vast Chamber~
+   The hallway opens up in a vast and greater walk area.  A small flash of
+light can be seen at the end of the hall.  A faint prayer can be heard coming
+from a single person.  Back to the east, the sounds of tortured souls can be
+heard.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5427 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5434 0 0 0 0 0 0 0 0
+S
+#5434
+Approaching a Vast Chamber~
+   The hallway opens up in a vast and greater walk area.  A small flash of
+light can be seen at the end of the hall.  A faint prayer can be heard coming
+from a single person.  Back to the east, the sounds of tortured souls can be
+heard.    
+~
+54 adfpx h 0 0  0
+D3
+~
+~
+0 0 5435 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5433 0 0 0 0 0 0 0 0
+S
+#5435
+Inside a Vast Chamber~
+   A Large chamber sprouts off from the main hallway.  Lavishly decorated with
+the bones and bodies of those sacrificed the Devourer of Souls.  A massive
+fountain, shaped into the form of a dragon adorns the center of this chamber.
+A large, door can be seen on one of the walls.    
+~
+54 adfpx h 0 0  0
+D1
+~
+~
+0 0 5434 0 0 0 0 0 0 0 0
+D2
+~
+door~
+2 5409 5436 0 0 0 0 0 0 0 0
+S
+#5436
+The Chamber's of a Shadow Dragon~
+   An immense room opens up with sharp rocks clinging to the ceilings.  No
+source of light can be seen anywhere in this area, only the gigantic size of
+the room.    
+~
+54 adfhpwx eh 0 0  0
+D0
+~
+door~
+2 5409 5435 0 0 0 0 0 0 0 0
+S
+#5437
+Wandering a Stone Hallway~
+   The sound of rushing water can be heard down at the end of this tunnel.  
+Unlit torches can be seen hung upon the wall, but appear to have never been
+lit.  The sound of solo prayer session can be heard back at the other end of
+the tunnel, along with the screams of tortured captives.    
+~
+54 adfp h 0 0  0
+D0
+~
+~
+0 0 5438 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5427 0 0 0 0 0 0 0 0
+S
+#5438
+Wandering a Stone Hallway~
+   The sound of rushing water can be heard down at the end of this tunnel.  
+Unlit torches can be seen hung upon the wall, but appear to have never been
+lit.  The sound of solo prayer session can be heard back at the other end of
+the tunnel, along with the screams of tortured captives.    
+~
+54 adfp h 0 0  0
+D0
+~
+~
+0 0 5439 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5437 0 0 0 0 0 0 0 0
+S
+#5439
+Wandering a Stone Hallway~
+   The sound of rushing water can be heard down at the end of this tunnel.  
+Unlit torches can be seen hung upon the wall, but appear to have never been
+lit.  The sound of solo prayer session can be heard back at the other end of
+the tunnel, along with the screams of tortured captives.
+~
+54 adfp h 0 0  0
+D2
+~
+~
+0 0 5438 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5440 0 0 0 0 0 0 0 0
+S
+#5440
+Before an Underground River~
+   The sound of rushing water can be heard down at the end of this tunnel.  
+Unlit torches can be seen hung upon the wall, but appear to have never been
+lit.  The sound of solo prayer session can be heard back at the other end of
+the tunnel, along with the screams of tortured captives.    
+~
+54 adfp h 0 0  0
+D0
+~
+~
+0 0 5441 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5439 0 0 0 0 0 0 0 0
+S
+#5441
+Along an Underground River~
+   Rushing water meets up to a shallow area of the hallway.  The water is a
+cool river blue color, though no signs of life can be seen in the water.  The
+current of the river flows off to the north, nortwestish direction.    
+~
+54 adfp h 0 0  7
+D2
+~
+~
+0 0 5440 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5442 0 0 0 0 0 0 0 0
+S
+#5442
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D3
+~
+~
+0 0 5443 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5441 0 0 0 0 0 0 0 0
+S
+#5443
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D1
+~
+~
+0 0 5442 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5444 0 0 0 0 0 0 0 0
+S
+#5444
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D0
+~
+~
+0 0 5445 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5443 0 0 0 0 0 0 0 0
+S
+#5445
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D0
+~
+~
+0 0 5446 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5444 0 0 0 0 0 0 0 0
+S
+#5446
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D2
+~
+~
+0 0 5445 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5447 0 0 0 0 0 0 0 0
+S
+#5447
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D0
+~
+~
+0 0 5448 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5446 0 0 0 0 0 0 0 0
+S
+#5448
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D2
+~
+~
+0 0 5447 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5449 0 0 0 0 0 0 0 0
+S
+#5449
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D1
+~
+~
+0 0 5448 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5450 0 0 0 0 0 0 0 0
+S
+#5450
+Along an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  7
+D0
+~
+~
+0 0 5451 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5449 0 0 0 0 0 0 0 0
+S
+#5451
+Before an Underground River~
+   The water continues to flow off into the north, northwest direction.  
+Still, no fish, or any other living thing can be seen.  The water seems to have
+a calming affect to it.    
+~
+54 adfp h 0 0  0
+D2
+~
+~
+0 0 5450 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5452 0 0 0 0 0 0 0 0
+S
+#5452
+At the Bottom of a Well~
+   The river slowly ends beneath a stone well.  Barely any light can be seen
+from the top.  Nothing but the rushing water from behind can be heard.  An
+eaerie feeling can be felt as you continue along your way.    
+~
+54 adfp h 0 0  0
+D4
+~
+~
+0 0 5453 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5451 0 0 0 0 0 0 0 0
+S
+#5453
+Inside a Well~
+   Cool wind rushes over your body as you feel yourself falling through utter
+darkness.  You reach for something to grab hold of, but always come up empty
+handed.    
+~
+54 adfpq h 0 0  0
+D4
+~
+~
+0 0 5454 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5452 0 0 0 0 0 0 0 0
+S
+#5454
+Inside a Well~
+   Cool wind rushes over your body as you feel yourself falling through utter
+darkness.  You reach for something to grab hold of, but always come up empty
+handed.    
+~
+54 adfpq h 0 0  0
+D4
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5453 0 0 0 0 0 0 0 0
+S
+#5455
+At the Ever Flowing Well~
+   Strange vegetation can be scattered about the area.  Strange elements are at
+work as various magical lights whip by your head.  Dancing lights and an easy
+feeling soon calm your nerves.    
+~
+54 chpux eh 0 0  3
+D0
+~
+~
+0 0 5457 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5459 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5463 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5460 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5454 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5458 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5456 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5462 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5461 0 0 0 0 0 0 0 0
+S
+#5456
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D7
+~
+~
+0 0 5467 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+S
+#5457
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D0
+~
+~
+0 0 5468 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+S
+#5458
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D6
+~
+~
+0 0 5469 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+S
+#5459
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D1
+~
+~
+0 0 5466 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+S
+#5460
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D1
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5470 0 0 0 0 0 0 0 0
+S
+#5461
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D6
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5465 0 0 0 0 0 0 0 0
+S
+#5462
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D7
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5471 0 0 0 0 0 0 0 0
+S
+#5463
+Before a Spirit of the Grove~
+   A wide open glade spans off into the elemental spirits grove.  Upon entering
+most creatures become judged and finally learn their purpose in the realm of
+the living.    
+~
+54 px h 0 0  3
+D0
+~
+~
+0 0 5455 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5464 0 0 0 0 0 0 0 0
+S
+#5464
+At the Spirit of Earth~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  3
+D0
+~
+~
+0 0 5463 0 0 0 0 0 0 0 0
+S
+#5465
+At the Spirit of Water~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  3
+D6
+~
+~
+0 0 5461 0 0 0 0 0 0 0 0
+S
+#5466
+At the Spirit of Wind~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  3
+D3
+~
+~
+0 0 5459 0 0 0 0 0 0 0 0
+S
+#5467
+At the Spirit of Air~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  3
+D9
+~
+~
+0 0 5456 0 0 0 0 0 0 0 0
+S
+#5468
+At the Spirit of Fire~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  0
+D2
+~
+~
+0 0 5457 0 0 0 0 0 0 0 0
+S
+#5469
+At the Spirit of Metal~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  3
+D8
+~
+~
+0 0 5458 0 0 0 0 0 0 0 0
+S
+#5470
+At the Spirit of Crystal~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  3
+D1
+~
+~
+0 0 5460 0 0 0 0 0 0 0 0
+S
+#5471
+At the Spirit of Bone~
+   Absolutely nothing but the spirit before you and yourself can be seen.  
+It's almost as if you're floating in an infinate darkness, a void of some
+sorts.  You feel nearvous as the spirit begins to judge you.    
+~
+54 ipx h 0 0  3
+D7
+~
+~
+0 0 5462 0 0 0 0 0 0 0 0
+S
+$

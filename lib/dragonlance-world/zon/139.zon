@@ -1,0 +1,80 @@
+#139
+None.~
+Merchant Caravan (Cae)~
+13900 13999 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0 13921     3     1   0   101     1    -10 
+
+M 0 13901     1 13915   1   100     2    -1          0 a sullen blacksmith's assistant
+
+M 0 13900     1 13915   1   100     3    -1          0 a burly, blustering blacksmith
+
+M 0 13902     1 13916   1   100     4    -1          0 a shapely, well dressed woman
+
+M 0 13903     1 13917   1   100     5    -1          0 a plump, matronly woman
+
+M 0 13905     1 13918   1   100     6    -1          0 a short, pudgy bandit
+
+M 0 13904     1 13918   1   100     7    -1          0 a craven, lanky bandit
+
+O 0 13917     1 13919   0   100     8    -1          0 a glass display case
+
+P 1 13918     3 13917   0    52     9     8          0 a pair of unadorned, silver gauntlets
+
+M 0 13906     1 13919   1   100    10    -1          0 a well-groomed young man
+
+O 0 13903     1 13913   0   100    11    -1          0 a steel money chest
+
+P 1 13913     1 13903   0   100    12    11          0 a neat stack of coins
+
+M 0 13907     1 13913   1   100    13    -1          0 a portly man clad in finery
+
+E 1 13904     5    17   0   100    14    13          0 a simple steel key
+
+O 0 13914     1 13912   0   100    15    -1          0 a large, wooden crate
+
+P 1 13916     5 13914   0    50    16    15          0 a well carved, wooden horse
+
+P 1 13915     5 13914   0    50    17    15          0 a battered, steel pot
+
+M 0 13908     1 13912   1   100    18    -1          0 a thin, toothless man
+
+M 0 13913     1 13911   1   100    19    -1          0 an awestruck child
+
+M 0 13909     1 13911   1   100    20    -1          0 a handsome well-travelled bard
+
+E 1 13902     5    17   0    15    21    20          0 a fine, vallenwood lute
+
+M 0 13911     1 13920   1   100    22    -1          0 a grey-robed renegade mage
+
+M 0 13910     1 13920   1   100    23    -1          0 a muscular brigand clad in green
+
+E 1 13901    10     5   0    38    24    23          0 a green, studded leather cuirass
+
+M 0 13912     1 13908   1   100    25    -1          0 a sneaky, green clad bandit
+
+M 0 13915     1 13922   1   100    26    -1          0 a stoic, mail clad guard
+
+E 1 13912     5    16   0    50    27    26          0 a well-worn steel mace
+
+E 1 13911     5    17   0    50    28    26          0 a sturdy bronze key
+
+O 0 13908     1 13922   0   100    29    -1          0 a small bronze brazier
+
+P 1 13909     5 13908   0    60    30    29          0 a handful of unburnt incense
+
+O 0 13910     1 13922   0   100    31    -1          0 a large steel bound chest
+
+P 1 13906     7 13910   0    45    32    31          0 a finely cut emerald
+
+P 1 13907     7 13910   0    45    33    31          0 a strange, rune covered, steel rod
+
+M 0 13914     1 13905   1   100    34    -1          0 a stocky, blue clad merchant
+
+E 1 13905     4    13   0    40    35    34          0 an ornate, platinum belt
+
+S
+$

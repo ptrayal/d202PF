@@ -1,0 +1,1862 @@
+#3000
+pickpocket captured~
+a captured pickpocket~
+A captured pickpocket is here begging for his life.
+~
+   This poor man was surely once a slick and cocky street roamer, his crimes
+announced as being a pickpocket.  He wears the remnants of his belongings and a
+suit of studded leather armor, with a shortsword strapped to his waist.  He
+looks frightened to death, as he should be in this place of death and immoral
+justice.  
+~
+d 0 0 0 k 0 0 0 -500
+3 20 7 24d100+152 1d8+0
+15 0 42 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 16
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3001
+arsonist incriminated~
+an incriminated arsonist~
+An incriminated arsonist is here in a panic seeking a way to freedom.
+~
+   This young man looks very sickly, as if he's already endured all manner of
+hell.  His black hair is stringy and slick with sweat.  He is pallid and
+extremely thin and looks like he hasn't eaten well in weeks.  His eyes are wide
+with panic as he sees his impending doom at hand and is desperately trying to
+find a way to win his freedom.  
+~
+d 0 0 0 k 0 0 0 -500
+4 20 6 60d100+153 1d8+0
+40 0 42 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3002
+thug incarcerated~
+an incarcerated thug~
+An incarcerated thug is here fearfully facing the odds.
+~
+   This large man looks like he's at wits end as he faces the trials of the
+gladiators pits for his crimes against the city of Luskan.  He has dark brown
+hair cut short and a thin beard and wild eyes that are surrounded by deep, dark
+circles.  
+~
+d 0 0 0 k 0 0 0 -500
+5 20 5 72d100+152 1d8+0
+50 0 42 3
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3003
+murderer condemned~
+a condemned murderer~
+A condemned murderer grimly awaits his fate.
+~
+   This thin, wiry man looks hardened, more so than the other prisoners, yet the
+grim look of dread in his eyes speaks voumes of what is going on in his mind,
+ultimately seperating him little from the others in the end.  He wears a chain
+shirt, and wields a pair of daggers, ready to face the obviously overwhelming
+odds about to offer up Luskan justice.
+~
+d 0 0 0 k 0 0 0 -500
+6 20 4 84d100+151 1d8+0
+90 0 42 3
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3004
+prisoner doomed~
+a doomed prisoner~
+A doomed prisoner is here staring at you eagerly in hopes of escape.
+~
+   This old man has the dark skin of southerners and whispy black-grey hair.  
+He is thin and frail and appears to have not eaten well in days, maybe even
+weeks.  Flaps of extra skin hang from his belly where he once was apparantly a
+portly fellow, but starvation here in the luskan jails have left him gaunt and
+emaciated.  He stares at you eagerly with pleading eyes hoping for a second
+chance at life away from this hell and impending doom.  
+~
+bd 0 0 0 k 0 0 0 -500
+3 20 7 48d100+153 1d8+0
+15 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3005
+guard pits~
+a gladiator pits guard~
+Standing here alertly is a guard of the gladiator pits of Luskan.
+~
+   This young man is cleanly shaved and wears a suit of padded scale mail.  He
+wields a shortsword at his hip and a long spear in his hands.  Strapped to his
+back is a small shield bearing the heraldry of Luskan.  His dark brown hair has
+been cut close to his scalp and is almost entirely hidden by a leather helm.
+He eyes you with suspiscion but allows you to pass nonetheless.  
+~
+abdm b 0 0 k 0 0 0 -500
+8 20 2 108d100+153 1d8+0
+160 0 42 3
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3006
+halfling woman pretty lithe~
+a lithe and pretty halfling woman~
+A lithe and pretty halfling woman sits here in the corner, feet up on her chair.
+~
+   This lithe halfling woman is quite pretty and has long red curls of hair that
+extend down her back.  Her skin is a pale milk color with scattered freckles
+here and there.  She has deep green eyes that sparkle with mischief and humour.
+She sips a glass of wine, a stark contrast to the rest of this bar's
+inhabitants.  
+~
+bdnopqrA 0 0 0 k 0 0 0 -500
+10 20 0 66d100+151 1d8+0
+250 0 77 2
+8 8 2
+E
+Str: 14
+E
+Dex: 18
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3007
+rat giant~
+a giant rat~
+A giant rat is here scurrying through the shadows.
+~
+   This large rat is obviously a giant for its kind.  It has beady yellow eyes
+and thick, grey fur that is matted around its body by dirt and filth.  It does
+not seem hostile, but it's obviously a job for adventurers as opposed to the
+local street cleaners.  
+~
+d 0 0 0 k 0 0 0 -500
+2 20 8 36d100+152 1d8+0
+0 0 39 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3008
+Jasper fighter trainer~
+Jasper, the fighter trainer~
+Jasper, the fighter trainer, is here directing two novices in the sparring ring.
+~
+   With thick, curly locks of auburn hair and a pretty, if somewhat masculine
+face, Jasper often captures the hearts of those whom she trains.  However all
+hopes and dreams are dashed when the ring on her finger is viewed, showing her
+as married to the barbarian trainer, Zefthlus.  
+~
+bdnopqrA c 0 0 k 0 0 0 -500
+20 20 -10 252d100+152 1d8+0
+1000 0 42 3
+8 8 2
+E
+BareHandAttack: 3
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3009
+Zefthlus barbarian trainer~
+Zefthlus, the barbarian trainer~
+Zefthlus, the barbarian trainer, is here training others in the art of barbarian combat.
+~
+   This man is tall and large by all standards.  He has a mane of thick, brown
+hair and wears a long moustache and beard as well.  His muscles ripple and sweat
+glistens from his body.  His eyes are stern and alert, and seem to pierce those
+it gazes upon straight to the depths of their soul.  He gives you one of those
+stares and grunts before turning back to his training duties.  
+~
+bdnopqrA c 0 0 k 0 0 0 -500
+20 20 -10 252d100+151 1d8+0
+1000 0 42 6
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3010
+jassa host tower mage trainer~
+Jassa, the Host Tower mage trainer~
+Jassa, the Host Tower mage trainer is here reluctantly training others in the art of the weave.
+~
+   Jassa is a beautiful woman by any means, though her dedication to the art and
+her training and research have left her a little disheveled and bookish.  Her
+hair is not well combed and she wears a pair of thick spectacles.  Still it is
+apparant that there is great beauty beneath her lackluster appearance and cold,
+icy stare.  
+~
+bdnopqrA bc 0 0 k 0 0 0 -500
+20 20 -10 84d100+151 1d8+0
+0 0 42 0
+8 8 2
+E
+BareHandAttack: 12
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3011
+vargas warden guard man~
+Vargas, Warden of the Luskan Justice Department~
+A burly, well-armed man sits behind his desk, recording logs of prisoners entering and leaving his custody.
+~
+This man is the head of the Luskan Justice Department.  Scars from uncountable
+scraps, brawls, and fights cover his muscular frame.  After many years of
+service as a Luskan Guard, he was promoted to his current rank, one which he
+maintains with a fierce devotion.  
+~
+bdelnoqvAF 0 0 0 kr uA d 0 -500
+20 6 -10 2520d100+152 2d12+4
+1000 0 42 3
+6 6 1
+E
+BareHandAttack: 7
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3012
+bank teller female~
+an indifferent bank teller~
+A bank teller who seems to have all the time in the world is here slowly processing transactions.
+~
+Sheer apathy is the only emotion that can be seen in this plump woman's face.  
+She sits on a chair that almost seems to have grown into her body, listlessly
+taking deposits from clients of the bank.  
+~
+adnopqrxA b 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 42 27
+6 6 2
+E
+BareHandAttack: 4
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3013
+mangy dog~
+a mangy dog~
+A mangy looking dog sniffs about for scraps of food that may have been dropped.
+~
+This dog is in bad shape.  Bits of fur have fallen off of its skin, making its
+already visible ribcage even more prominent.  It seems to be a stray.  
+~
+dgh 0 0 0 ik 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 9 27
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3014
+man commoner ~
+a disheveled commoner~
+A disheveled man is here going about his daily routine.
+~
+This man is a member of the lowest class of Luskan.  His clothes are tattered
+and worn, his hair is unkempt.  He is very slim, evidence of his poor diet.  
+~
+adg b 0 0 k 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 42 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3015
+buxom female woman commoner peasant~
+a commoner woman~
+A buxom, though homely, woman is here gossiping with her friends.
+~
+This woman was blessed with a large chest and cursed with extremely plain
+features.  Dirty hair hangs down over her cheeks, looking as if it hasn't been
+washed in weeks.  Her clothes are worn so thin they're almost transparent.  
+~
+dgh b 0 0 k 0 0 0 -500
+1 20 9 12d100+152 1d8+0
+5 0 42 3
+8 8 2
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3016
+dirty child commoner~
+a dirty child~
+A dirty-faced child is here playing with his comrades.
+~
+This child face is covered in filth.  His clothes are in tatters and he wears no
+shoes.  He waves a stick in your face, pretending it's a sword and you're a
+hobgoblin.  
+~
+dgh b 0 0 k 0 0 0 -500
+1 20 9 12d100+152 1d8+0
+5 0 42 3
+8 8 1
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3017
+chittering squirrel~
+a chittering squirrel~
+A chittering squirrel is here gathering nuts.
+~
+This small, fur-covered rodent has a big, bushy tail.  He looks up from his nut
+gathering to chide you for intruding on his territory.  
+~
+dgh 0 0 0 k 0 0 0 -500
+1 20 9 4d100+152 1d8+0
+5 0 9 27
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3018
+chipmunk fuzzy~
+a fuzzy little chipmunk~
+A fuzzy little chipmunk darts in and out of the bushes.
+~
+Black lines run alongside the two white stripes running down this little brown
+chipmunk's back, contrasting sharply with its brown fur.  It runs about,
+scurrying into the bushes whenever someone gets too close.  
+~
+dgh 0 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 9 27
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3019
+tangleshoot vine~
+a thirsty tangleshoot vine~
+This vine has a small rodent wrapped in its tendrils.
+~
+Unlike the other plants of the Garden, this tangleshoot vine is hazardous
+without being eaten.  Its roots sense vibrations in the ground around it,
+alerting it to the presence of prey.  Once prey is found, it entagles its
+victim, squeezing the nourishing life from its body.  
+~
+bdefgnopqr 0 0 0 dfk v 0 0 -500
+1 20 9 12d100+152 1d8+0
+10 0 14 3
+8 8 0
+E
+BareHandAttack: 2
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3020
+angry badger~
+an angry badger~
+A badger fiercely guards what it believes to be its territory.
+~
+The dark fur of this large rodent is slightly matted.  At the end of each of its
+feet is a row of razor-sharp claws.  It bares its teeth at you as you approach
+it.  
+~
+d 0 0 0 k 0 0 0 -500
+2 20 8 12d100+151 1d8+0
+10 0 9 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3021
+scholar wise man~
+a wise scholar~
+A very wise man is here giving an oration on the reproductive habits of shambling mounds.
+~
+This aged man is a learned botanist.  He has spent many years researching
+various forms of plant life, with a focus on shambling mounds.  His wild, grey
+beard reaches almost to his waist, bits of vegetable matter having tinted parts
+of it green.  
+~
+bd b 0 0 hk 0 0 0 -500
+4 20 6 20d100+151 1d8+0
+40 0 42 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3022
+alyssia cleric trainer woman female~
+Alyssia, the cleric trainer~
+Alyssia, the cleric trainer, is here directing incoming guests to their destinations.
+~
+This woman, though advanced in years, still bears the stunning radiance of youth
+on her face.  Long, silver hair flows down her back and around her face, seeming
+oddly out of place against her porcelain skin.  Around her neck she wears a
+long-forgotten medallion bearing the symbol of Ao.  
+~
+bdnopqrsAF bc 0 0 hk 0 f 0 -500
+20 20 -10 84d100+152 1d8+0
+1000 0 42 1
+8 8 2
+E
+BareHandAttack: 14
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3023
+tiburo paladin trainer man knight~
+Tiburo, the paladin trainer~
+Tiburo, the paladin trainer, is here directing squires in the manner of pious knighthood.
+~
+The reflection of candlelight dances across the highly polished surface of this
+man's fine suit of full plate mail.  A large fur cloak slung across his
+shoulders does little to help conceal the muscular girth of his frame.  He
+stands before the gathered knights and squires, directing them to their
+positions before the holy altar.  
+~
+bdnopqrAF bc 0 0 hk 0 0 0 -500
+20 20 -10 84d100+151 1d8+0
+1000 0 42 5
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3024
+crataegus monk trainer man wiry~
+Crataegus, the monk trainer~
+Crataegus, the monk trainer, is here silently welcoming all who come to the monastery for enlightenment.
+~
+Though slender, this man's frame is taught and wiry, its supple musculature
+silent testimony to the years of training he has endured.  He wears a
+loose-fitting toga of coarse wool.  As a new face comes to the entrance to the
+monastery, he turns toward them and silently nods admittance once they have
+removed their shoes.  
+~
+bdnopqrAF bc 0 0 k 0 0 0 -500
+20 20 -10 84d100+151 1d8+0
+1000 0 42 4
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3025
+azemoch ranger trainer~
+Azemoch, the ranger trainer~
+Azemoch, the ranger trainer, is here whistling and clucking bird and animal calls.
+~
+This man is very lithe, his slender form covered by soft leather armor.  Across
+his back is slung a quiver and a long bow, and from his belt hangs a sheathed
+short sword.  He is calling to the birds of the Gardens, causing them to land on
+the ground around him.  
+~
+bdnopqrAF bc 0 0 hk 0 0 0 -500
+20 20 -10 84d100+151 1d8+0
+1000 0 42 8
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3026
+shaeryn druid trainer~
+Shaeryn, the druid trainer~
+Shaeryn, the druid trainer, is here conversing with a tree.
+~
+This woman's skin is stained a deep green and brown from years of living in the
+wild.  Her hair is slightly matted, with a few twigs lodged in it here and
+there.  A cloak of fox fur covers her supple body, doing very little to hide the
+curves of her body.  
+~
+bdnopqrAF bc 0 0 hk 0 0 0 -500
+20 20 -10 84d100+151 1d8+0
+1000 0 42 9
+6 6 2
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3027
+hawk companion bird~
+Shaeryn's hawk companion~
+A large hawk is perched on a limb above the druidess' head.
+~
+This is one big bird.  Larger than a small dog, its wings spread out further
+than the armspan of an average man.  Excepting a dark red patch on its chest,
+its entire body is covered with dark brown feathers.  
+~
+bdnopqrAF b 0 0 kE 0 0 0 -500
+20 20 -10 84d100+152 1d8+0
+1000 0 9 21
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3028
+rogue trainer elf shira~
+Shira, the rogue trainer~
+Shira, the rogue trainer, is sitting in the shadows in the corner of the room.
+~
+Barely visible in the shadows cast from the tavern's fireplace, this lithe elven
+woman sits at a relaxed vigil in her chair.  She wears a heavy cowl over her
+head, hiding her face in inky darkness.  
+~
+abdnopqrAF bc 0 0 k 0 0 0 -500
+20 20 -10 84d100+151 1d8+0
+1000 0 61 2
+6 6 2
+E
+BareHandAttack: 11
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3029
+xarian mystic theurge trainer~
+Xarian Cas'sair, the mystic theurge trainer~
+Xarian Cas'sair, a mystic sage of untold power, is here divining the future in a cup of tea.
+~
+This man has trained for many years in arts both mystic and arcane.  As a
+result, he has gained magical power beyond comprehension.  He wears the robes of
+a mage, yet still wears a blessed holy symbol around his neck.  
+~
+bdnopqrAF bc 0 0 hk 0 0 0 -500
+20 20 -10 2440d10+153 1d8+0
+1000 0 42 19
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3030
+echthros dwarf dwarven defender trainer~
+Echthros, the dwarven defender trainer~
+A stocky dwarf wearing a glistening suit of plate mail leans on his battle axe.
+~
+With his feet firmly planted, this stern-faced dwarf looks completely immovable.
+He carries with him a hefty battle axe with many notches in its blade.  
+~
+bdnopqrAF bc 0 0 hk 0 0 0 -500
+20 20 -10 84d10+151 1d8+0
+1000 0 67 22
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3031
+mob unfinished~
+weapon master trainer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d c 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3032
+mob unfinished~
+duelist trainer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d c 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3033
+gladiator trainer sevyrkin warrior fierce~
+Sevyrkin, the gladiator trainer~
+A fierce warrior is here ravaging his enemies before they can land a single blow.
+~
+This man is a beast.  Towering over all but the tallest of men, he swings a
+massive axe with all the force his tree-trunk arms can muster.  None can resist
+the power of his blows.  
+~
+bdAF b 0 0 hk 0 0 0 -500
+20 20 -10 84d10+151 1d8+0
+1000 0 42 18
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3036
+mob unfinished~
+knight trainer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d c 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3037
+mob unfinished~
+zhentarim knight trainer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d c 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 13
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3038
+mob unfinished~
+zhentarim priest trainer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d c 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3039
+mob unfinished~
+zhentarim wizard trainer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d c 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3040
+mob unfinished~
+sorceror trainer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d c 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3041
+traveling merchant trader man~
+a traveling merchant~
+A man dressed in the garb of a trader is working a deal on the side of the street.
+~
+This man appears to be succesful at his profession.  Though in the same style at
+that of every other trader, his clothing is of much finer material.  Even now,
+he is trying to strike a deal with a street vendor.  
+~
+dgh b 0 0 k 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 42 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3042
+female vendor trader street~
+a female street vendor~
+A pretty young lady strolls along, offering pastries and sweetmeats to passersby.
+~
+This young lady looks to be in her early twenties.  Across her shoulder is slung
+a large wicker pack filled with pastries baked earlier in the day.  In her hand
+she carries a sack of candied nuts and sugarplums.  As she walks past the crowds
+in the streets, she calls out the very modest prices of her goods.  
+~
+dgh b 0 0 k 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 42 3
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3043
+judge chief cruel atrox head~
+Atrox, High Judge of Luskan~
+An androgynous figure is sitting on the throne atop the dais.
+~
+Flowing silk robes of a deep crimson hue with dark green accents make it
+impossible to distiguish the sex of Atrox.  This feat is made even more
+difficult because the High Judge wears a close-fitting mask.  The two halves of
+its face are twisted representations of a face in agony on the left and a face
+filled with bloodlust on the right.  A spiked gavel rests across the judge's
+knees.  
+~
+bdlnopqrtwF 0 0 0 hkmnrz hxD 0 0 -500
+20 20 -10 84d100+152 1d8+0
+1000 0 17 1
+6 6 0
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+E
+SkinData3: 3006
+S
+#3044
+gholus crafting resource vendor~
+Gholus, the crafting resource vendor~
+Gholus, the crafting resource vendor stands here behind the counter.
+~
+   This man is short and stocky, and quite hairy.  He has deep, weathered skin,
+and wears a suit of leather designed in grey and green plaid colors.  His arms
+are quite thick and his hair long and stringy, though neatly brushed.  His eyes
+are filled with laughter, though his eyebrows curve down in such a way that the
+laughter seems cynical, instead of joyous.  
+~
+bdnopqrA b 0 0 k 0 0 0 -500
+20 20 -10 252d100+151 1d8+0
+1000000 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+T 3006
+#3045
+novitiate host mage wizard~
+a novitiate of the Host Tower~
+A novitiate of the Host Tower is examining various spell components on display in a small booth.
+~
+This young lady has only recently been accepted into the register of those
+studying at the Host Tower.  Being of such low status, she must pass her days
+running whatever errands her superiors can think up.  
+~
+dg b 0 0 k 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 42 0
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3046
+high judge elite guard ~
+a member of the High Judge's Elite Guard~
+A fearsome guard prevents anyone from approaching the dais.
+~
+This man is outfitted in an intricately filigreed suit of half plate.  The
+burnished surface of his armor dully reflects the rays of the sun.  As people
+from the crowd attempt to pass him and reach the dais upon which the judge sits,
+he lifts them over the edge of the narrow walkway and tosses them into the Pits
+below.  
+~
+abdelnopqwE 0 0 0 hk 0 0 0 -500
+18 20 -8 76d100+152 1d8+0
+810 0 42 3
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3047
+visiting mage wizard ~
+a visiting mage~
+A visiting mage has come to further his studies at the Host Tower.
+~
+It looks unfinished.
+~
+adgl b 0 0 kz 0 0 0 -500
+4 20 6 20d100+151 1d8+0
+40 0 45 0
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3048
+fishmonger woman~
+a malodorous fishmonger~
+A woman who reeks of fish is here trying to sell today's catch.
+~
+This woman is obviously a peasant.  Her dirty clothes are covered with patches
+and stitches where holes have been repaired.  The stench of fish grows stronger
+as you near her.  
+~
+dg b 0 0 k 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 42 3
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3049
+bored young lady apprentice shopkeeper~
+a bored apprentice~
+A very bored young lady is here dozing off behind the counter.
+~
+This young lady has just recently been accepted into apprenticeship under the
+wondrous Xarian Cas'sair.  It seems she has been given the riveting task of
+watching the shop while her master goes about his daily business.  Nodding in
+and out of consciousness, she still maintains a watchful eye on the shop's
+wares.  
+~
+bdA b 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 42 0
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3050
+woman cheering spectator~
+a cheering spectator~
+A woman is here cheering for her favorite gladiator.
+~
+This woman is dressed in foreign clothing.  She has obviously traveled far to
+witness the spectacle in the Gladiatorial Pits of Luskan.  Cheering almost
+continuously, her eyes never stray from a particular scantily clad gladiator.  
+~
+dg b 0 0 k 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 45 3
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3051
+man jeering spectator~
+a jeering spectator~
+A man is throwing garbage and booing a particularly bad gladiator.
+~
+This man wears the clothes of a commoner, though not in the local style.  
+Travelling from the far reaches of Faerun, he has come to watch the bloody
+spectacle at the Gladiatorial Pits of Luskan.  
+~
+dg b 0 0 k 0 0 0 -500
+1 20 9 4d100+151 1d8+0
+5 0 47 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3052
+wolf large timber~
+a large timber wolf~
+A large timber wolf is here standing loyally at his master's side.
+~
+   With a thick, grey coat and rippling muscles beneath this timber wolf seems
+to be a force to be reckoned with.  It's long jaws are filled with sharp, yellow
+teeth and it's yellow eyes seem intelligent and alert.  
+~
+bd 0 0 0 k 0 0 0 -500
+3 20 7 48d30+152 1d8+0
+0 0 10 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3053
+viper pit~
+a green and black pit viper~
+A green and black pit viper slithers here near the feet of her master.
+~
+   Measuring about 3 feet long, this pit viper is definitely not something to be
+trifled with.  It is black with dark green stripes, and has two huge venemous
+fangs.  It flicks its tongue regularly intimidating all those nearby.  
+~
+bdno 0 0 0 k 0 0 0 -500
+2 20 8 36d100+180 1d8+0
+0 0 9 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3054
+Yhustren~
+Yhustren, the pawn shop owner~
+Yhustren, the pawn shop owner stands here dealing with customers.
+~
+It looks unfinished.
+~
+bdnopqrA bd 0 0 k 0 0 0 -500
+10 20 0 132d200+330 1d8+0
+1000000 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3055
+black spitting cobra red~
+a black spitting cobra with red stripes~
+A black cobra with red stripes is here bareing it's wickedly curved fangs at any that come near.
+~
+It looks unfinished.
+~
+bd 0 0 0 kE d 0 0 -500
+4 18 8 20d100+170 1d8+0
+8 0 9 8
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3056
+spitting asp red black~
+a red spitting asp with black bands~
+A 3 foot long asp is here spitting nasty venom to any who come nearby.
+~
+It looks unfinished.
+~
+bd 0 0 0 kE 0 0 0 -500
+5 16 7 24d100+190 1d8+0
+10 0 9 8
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3057
+bat~
+a tiny fruit bat~
+A very small fruit bat flits about, chirping his ultrasonic waves.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+140 1d8+0
+3 0 9 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3058
+cat~
+a small cat~
+A furry little cat stands here, rubbing against his master's leg and purring softly.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+130 1d8+0
+3 0 9 3
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3059
+hawk~
+a majestic hawk~
+A majestic hawk with a foot long wingspan circles above.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+140 1d8+0
+3 0 9 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3060
+scaly lizard~
+a small scaly lizard~
+A small scaly lizard crawls along the ground tasting its environment with its tongue.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+140 1d8+0
+3 0 9 3
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3061
+owl~
+a large owl~
+An enormous owl spreads its wings and hoots with passion.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+130 1d8+0
+3 0 9 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3062
+rat~
+a large rat~
+a large rat stands here baring its fangs, it's matted fur stinking up the area.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+150 1d8+0
+3 0 39 3
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3063
+raven~
+a raven~
+An intelligent raven sits upon its master's shoulder, listening intently.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+140 1d8+0
+3 0 9 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3064
+toad~
+a warted toad~
+A warted toad hops about speaking his mind about everything and nothing.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+150 1d8+0
+3 0 9 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3065
+weasel~
+a weasel~
+A weasel stands here upon its hind legs looking intently at its surroundings.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 -500
+2 20 8 12d100+140 1d8+0
+3 0 9 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3066
+mob unfinished~
+the druid buffer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3067
+mob unfinished~
+the mage buffer~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 -500
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#3068
+Hennia cleric buffer~
+Hennia, the cleric buffer~
+Hennia, the cleric buffer is here assisting the people of the city.
+~
+   This young woman has risen through the ranks of the church of Ao until given
+the esteemed title of temple buffer.  It is her duty to cast enchantments on the
+citizens of the city for a donation price to the temple.  She has long golden
+hair and wears a white and black shawl aroound her neck along with white and
+black robes.  
+~
+bdnopqrAF b 0 0 k 0 0 0 -500
+60 20 -50 5490d0+1730 1d8+0
+5700 0 42 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 31
+E
+Con: 12
+E
+Cha: 10
+S
+#3069
+Benfirth steward~
+Benfirth, the palace junior steward~
+Benfirth, the palace junior steward stands here conversing with some nobles.
+~
+   This man is well dressed and groomed and seems to have shaven his head bald.
+He is a little uncommon in appaearance for a steward, looking more like an
+unarmed warrior than a diplomat and servant.  He has dark brown skin and has
+tattooed strange sigils under his eyes.  He wears a long braided goatee thick
+with gold and platinum beads.  
+~
+abdnopqrA bd 0 0 k 0 0 0 -500
+10 20 0 132d100+740 1d8+0
+0 0 47 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

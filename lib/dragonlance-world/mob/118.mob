@@ -1,0 +1,499 @@
+#11800
+sentinel flame guard~
+a flame sentinel~
+A sentinel wearing a suit of flaming armor stands here guarding entrance to the city.
+~
+   Completely covered in a suit of flaming, orange-hued platemail, here stands
+a flame sentinel, the guardians of the cult of the flame and the city of
+morning dew.  His face is stern and expressionless, and he seems to pay no
+attention, his gaze not wavering from the horizon even as you stare boldly at
+his face.  He wields a large, flaming glaive that is crossed in front of the
+entrance to the city.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11801
+engineer craech husky man~
+a craech engineer~
+A husky man clad in flame-orange studded leather stands next to the cannon.
+~
+   This husky looking man is clad in a suit of flame orange studded leather.  
+He stands next to the craech cannon, occasionally unscrewing a lid, taking out
+a small white capsule and putting it back in.  He suddenly notices your
+presence and looks at you sternly as if awaiting an answer for your being here.
+  
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11802
+knight fire~
+a fire knight~
+A fire knight patrols the streets in silence.
+~
+   This grim-looking man silently patrols the streets of the City of Morning
+Dew.  He is clad in fiery orange plate mail, covering him from head to toe.  
+He scans the area with stern, alert eyes, keeping an eye out for trouble.  His
+eyes finally settle on you, unwavering and questioning in their glance.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11803
+commoner female~
+a female commoner~
+A female commoner strolls down the street with her head down.
+~
+   This woman has seen a few days for sure.  Her hair is a little ragged,
+although it looks like some attempt has been made to comb it.  Her face is
+lined with wrinkles of worry and stress, and her expression is grim.  She walks
+with her head down and casts you a sidelong glance, hoping that you don't
+notice her.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11804
+commoner male~
+a male commoner~
+A male commoner strolls by with a grim expression on his face.
+~
+   This man has seen some hard times by the look of his grizzled face.  He
+doesn't appear to have shaven for several days, nor washed either by the look
+of his dirt splotched skin.  His expression is grim and he does what he can to
+avoid your attention.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11805
+boy freckle faced young~
+a freckle-faced young boy~
+A young boy with a freckle-spotted face runs by, eager to get out of your way.
+~
+   This young boy could be no more than 15 years old.  His face is covered with
+freckles and his expression is suprisingly fresh for the people of this grim
+city.  Nonetheless, he runs past you, eagerly trying to get out of your way and
+avoid the attention of the fire knights.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11806
+merchant impassive aged~
+an impassive-looking merchant~
+An aged merchant with an impassive expressions pushes a cart down the street.
+~
+   This old man has been pushing his wares for many years in this glum city.  
+His face in wrinkled and weathered, and his hair is long and somewhat tangled.
+He pushes a cart filled with produce down these wind swept streets without so
+much as offering you a glance.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11807
+performer happy go lucky~
+a happy-go-lucky performer~
+Nearby is a happy-go-lucky performer doing acrobatic tricks.
+~
+   This man is a black sheep in this grim city, for he is the only one that can
+be seen with a smile on his face.  He is lithe and well muscled with pale white
+skin.  He is clad in a green jumpsuit with silver embroidery.  He flashes you a
+quick smile and then quickly flips head over heels, obviously showing off for
+the crowd.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11808
+cutpurse wily sneaking~
+a wily cutpurse~
+Sneaking through the crowd is a wily cutpurse.
+~
+   This wily man sneaks through the crowd undetected, going from person to
+person with his greedy hands outstretched.  He is middle-aged and rather thin.
+He notices your stare and darts back into the mass of the crowd.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11809
+half-ogre ogre grunting~
+a grunting half-ogre~
+Grunting as he walks down the street is a leather-clad half-ogre.
+~
+   How in Krynn this creature came into existance is beyond anyone.  He is half
+human and half-ogre, apprantly the result of an ogre raid on some unfortunate
+village.  He is clad is a large suit of weathered leather armor and grunts to
+himself as he shambles down the street alone.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11810
+half-elf intrusive~
+an intrusive half-elf~
+An intrusive half-elf gazes at you with all-too-peering eyes.
+~
+   This half-elf wanders the street snooping on everyone he sees.  He is clad
+in dull brown leather and is slightly muscular in build.  He suddenly notices
+you an stares right back at you with an unwavering gaze.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11811
+dwarf grumbling middle aged~
+a grumbling, middle-aged dwarf~
+A middle-aged dwarf saunters by grumbling to himself.
+~
+   This dwarf is middle aged, probably about 80 years old or so.  He has a
+thick black beard which he keeps meticulously groomed.  His clothing is drab
+and lifeless, offering very little in the way of personality.  He grumbles to
+himself as he walks along the street, oblivious to your presence.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11812
+kender smiling gaudy~
+a smiling kender in gaudy clothes~
+A smiling kender in gaudy clothing skips by hummin a tune to herself.
+~
+   This kender is certainly no different from any other.  She has long brown
+hair worn in a topknot.  Her clothing is colorful to the extent of gaudiness
+making most onlookers cringe or smirk.  She whistles a merry tune to herself as
+she skips down the streets, oblivious to the mental state of everyone else
+around her.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11813
+whirlwind air elemental small~
+a small air elemental~
+a small whirlwind swirls past you causing the Dew-La'echer to tingle.
+~
+   Before you is a small whirlwind about four feet in height and two feet in
+width at it's top.  It spins extremely fast making a low humming noise and
+sends gusts of wind flying in all directions causing the loose parts of the
+Dew-La'echer to tingle.
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11814
+whirlwind elemental air large~
+a large air elemental~
+A large whirlwind swirls past you causing the Dew-La'echer to tingle.
+~
+   This large elemental appears before you as a swirling and raging whirlwind,
+utterly chaotic in it's look and action.  It blows large gusts of wind in your
+direction making approaching it difficult to say the least.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11815
+djinni pale blue guardian~
+a pale-blue djinni~
+Guarding the entrance to this floating palace is a blue-skinned Djinni.
+~
+   This noble creature is none other than the legendary djinni.  Rumour has it
+that these beings come from the elemental plane of air, and their powers are
+great indeed.  It is clothed in extravagent blue armor, made completely of
+swirling air.  No doubt it has magical protections behind it as well.  The
+djinni crosses its arms across its chest and stares at you with a challenging
+glare.    
+~
+d 0 0 0 k 0 0 0 500
+40 0 -50 480d300+120 1d8+20
+155 0 32 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#11816
+giant storm~
+a storm giant~
+Glaring at you, this storm giant attacks those who wish to enter the palace.
+~
+   About three times the height of the standard ogre, this giant stands tall.
+Bluish hued skin stretches across his body, and blue tinted nails cap his
+fingers and toes.  The only thing close to clothes he wears is a scant, furry
+loincloth.    
+~
+bd g 0 0 k 0 0 0 500
+40 -26 -60 30000d400+130 1d8+57
+155 0 13 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 40
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 6
+E
+Con: 20
+E
+Cha: 6
+S
+$

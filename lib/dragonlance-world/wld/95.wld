@@ -1,0 +1,2181 @@
+#9500
+Walking Along a Paved Road~
+   The road you are traveling has been kept with great care.  The large round
+stones have been placed with such neatness as to show hardly any cracks between
+them.  It makes for very easy travel, a rather nice change of pace from the
+hassle of mud covered roads.  The road is well traveled it seems, you pass a
+few people every now and then, all of which seem to be rather warm, and
+welcoming to strangers.    
+~
+95 0 0 0 0  2
+D0
+~
+~
+0 0 9501 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 419 0 0 0 0 0 0 0 0
+S
+#9501
+Walking Along a Paved Road~
+   This well paved road continues in a mostly northern direction.  The cool
+breeze blows at your back, seeming to help you along your way.  Tall trees line
+the edge of the road, their placement makes it apparent that they were planted
+into the ground by man.  Though their size shows it must have been done many
+years ago.  You hear the singging of birds and the scampering of other wild
+animals.    
+~
+95 0 0 0 0  2
+D0
+~
+~
+0 0 9502 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9500 0 0 0 0 0 0 0 0
+S
+#9502
+Walking Along a Paved Road~
+   The road heads in a mostly northern direction.  The limbs from the large
+trees to either side of you hang over the road, keeping the hot sun from
+beating down upon you.  And when the rains begin to fall, the massive trees
+keep alot of the waters from ever touching the surface of the road.  Just a
+little ways ahead of you, you can see a rather large wagon and a man knelt
+beside of it appanrently trying to fix the wheel.    
+~
+95 0 0 0 0  2
+D0
+~
+~
+0 0 9503 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9501 0 0 0 0 0 0 0 0
+S
+#9503
+Walking Along a Paved Road~
+   The road here begins to turn slightly towards the northeast.  The large
+trees are still placed along the road as far as you can see.  Off into the
+distance you see smoke billowing high into the air, you quickly realize you
+must be approaching a camp site or perhaps a town.  Here on the road is an
+armored man kneeling next in front of his wagon, apparently trying to fix the
+wheel which has broken during his travels.    
+~
+95 c 0 0 0  0
+D2
+~
+~
+0 0 9502 0 0 0 0 0 0 0 0
+D4
+~
+wagon~
+1 0 9504 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9505 0 0 0 0 0 0 0 0
+S
+#9504
+Inside the Wagon~
+   You have climbed up into the large covered wagon.  This is the place that
+the family can sleep during long travels.  The canvas is pulled tightly over
+the roof of the wagon keeping the weather outside.  There are a few crates
+stacked up along one side of the wagon, possibly containing the posessions of
+this family.  A young child sleeps peacefully on a rolled out blanket and his
+mother shows fear of your strange prescence within her wagon.    
+~
+95 d 0 0 0  0
+D5
+~
+wagon~
+1 0 9503 0 0 0 0 0 0 0 0
+S
+#9505
+Walking Along a Paved Road~
+   The road you have been traveling on has made a slight turn in a northeaster
+direction.  The large trees still cover overhead, keeping the temperature on
+this well paved road rather cool.  All the people you see traveling this road
+smile as you pass and greet you warmly.  Every now and then you see some sort
+of wild animal run across the road and dart into the trees.  The smoke you saw
+billowing from the horizon earlier seems to be getting closer.  You wonder if
+perhaps its just one fire, or maybe just the normal smoke from a fireplace in
+the brisk evening.    
+~
+95 0 0 0 0  0
+D7
+~
+~
+0 0 9506 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9503 0 0 0 0 0 0 0 0
+S
+#9506
+Walking Along a Paved Road~
+   The road begins to head in a more northerly direction again.  The wind picks
+up a bit, its force helping you along your way.  A large doe runs quickly
+across the road in front of you, followed closely by her fawn.  They dash into
+the protection of the trees and you hear them running, untill you can no longer
+make out the sound of their steps.  Off towards the north a short ways you see
+a rather large castle sitting upon a hill.  Faint sounds of trumpets can
+vaguely be heard.    
+~
+95 0 0 0 0  0
+D0
+~
+~
+0 0 9507 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9505 0 0 0 0 0 0 0 0
+S
+#9507
+Walking Along a Paved Road~
+   As you continue walking northwards on this finely made road, you see that it
+is headed directly towards the castle you see in the distance.  Perhaps this is
+the home of some wealthy family, or perhaps the Keep from the older days when
+the Knights were plenty and covered much of Solomnia.  You see nor can you
+sense any sort of dangers ahead of you.  Though you can make out little of the
+large structure, you seem to hear the sound of trumpets blowing growing a bit
+louder as you move towards the castle.    
+~
+95 0 0 0 0  0
+D0
+~
+~
+0 0 9508 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9506 0 0 0 0 0 0 0 0
+S
+#9508
+Walking Along a Paved Road~
+   You continue traveling with ease on this paved road.  You are heading almost
+directly northwards.  The birds sing their merry songs in the trees which line
+the sides of the road.  Their songs seems to almost blend in with the growing
+sounds of the trumpets.  Looking ahead of you, it appears that perhaps there is
+more than just the one castle up ahead.  You see the faint outline of other
+structures.  You begin to think that perhaps its a town, and the largeer
+structure would belong to the King or Lord of the small area.    
+~
+95 0 0 0 0  0
+D0
+~
+~
+0 0 9509 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9507 0 0 0 0 0 0 0 0
+S
+#9509
+Walking Along a Paved Road~
+   As you keep traveling in the same direction you see that where you are
+headed is indeed more than just what you previously suspected.  There is many
+other structures besides the large estate.  You see many people walking the
+streets and talking warmly with each other.  Smoke billows out from some of the
+homes and the Inn, giving that complete feeling of safety.  As you look towards
+the large estate you see the massive doors being shut tightly as the trumpeting
+ceases.  Perhaps there is some sort of time in which even the peasants are
+allowed to enter the estate, and the sounding of the trumpets is the end of
+such a time each day.    
+~
+95 0 0 0 0  1
+D0
+~
+~
+0 0 9510 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9508 0 0 0 0 0 0 0 0
+S
+#9510
+Walking Along a Paved Road~
+   As you continue northwards you are getting closer to the town with every
+step.  The brisk wind at your back keeping you on track, almost as if urging
+you to enter the town limits.  You see many people moving about the town, most
+of which seem to be going into one sort of store or another.  The large inn can
+be seen towards the western end of town, smoke billowing from its two large
+chimneys.  The smell of spices and meats fill your nostrils, causing you to
+quickly pick up your pace.    
+~
+95 0 0 0 0  1
+D0
+~
+~
+0 0 9511 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9509 0 0 0 0 0 0 0 0
+S
+#9511
+Approaching the Town~
+   Walking along the stone road you are now approaching the town.  The large
+trees which have kept the sunlight from your skin, have been thinned out as you
+continue to the town, in a manner as to slowly let the light in a little at a
+time so that your eyes may adjust.  You feel the people of this town you are
+coming to care greatly about treating visitors with the respect they would give
+their own family.  The sounds of the marketplace can be heard off in the
+distance, and the smells of food rolling out of the Inn make your mouth begin
+to water.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9512 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9510 0 0 0 0 0 0 0 0
+E
+sign~
+          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+          @  Greetings Strangers!                 @
+          @     Please allow me to welcome you    @
+          @   to our lovely town. I hope that you @
+          @   had a pleasant journey. We always   @
+          @   enjoy seeing a new face in town.    @
+          @   Please feel free to look around     @
+          @   the town, or maybe purchase an      @
+          @   item or two in our various shops.   @
+          @   And by all means feel free to stop  @
+          @   by my estate during the day. I      @
+          @   hope that you enjoy our town!       @
+          @                 -Lord Anias           @
+          @                                       @
+          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+~
+S
+#9512
+Entering the Town~
+   You are now entering the town.  The people whom road the streets smile
+warmly as they pass by you.  Ahead of you is the center street of this town.  
+It runs in a north and south direction.  Several other streets branch off at
+various points running to different areas within the city.  If you keep heading
+northwards you arrive in the plaza area where you can sit and rest by the large
+marble fountain.  A little further from there you can see the market square.  
+~
+95 c f 0 0  1
+D0
+~
+~
+0 0 9513 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9511 0 0 0 0 0 0 0 0
+S
+#9513
+Center Street~
+   This main street in the town is paved with stones much like those on the
+road you were previously on.  It is evident that great care is given to the
+upkeep of the road within the town.  Smiling residents smile warmly and greet
+you as you pass by them.  The loud commontion of the markets towards your north
+can vaguely be heard.  Looking towards your west you see a rather large barn,
+the young stablehand sits on a stool outside the door awaiting the next
+customer.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9527 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9514 0 0 0 0 0 0 0 0
+S
+#9514
+Standing Outside the Stables~
+   You are standing outside a rather large barn.  The smell of hay and maneur
+hangs heavily in the air.  You can hear the sounds of the horses which are held
+within.  Through the door you see a few workers tossing hay down from the loft
+to the stalls.  A young stablehand sits quietly on a small wooden stool.  As
+you begin to approach him, he lifts his head and smiles at you.    
+~
+95 c 0 0 0  1
+D1
+~
+~
+0 0 9513 0 0 0 0 0 0 0 0
+D3
+~
+doors~
+1 0 9515 0 0 0 0 0 0 0 0
+S
+#9515
+Inside the Barn~
+   The smell of hay and manure fills your nostrils as you enter into the barn.
+Looking around you see several stalls which are large enough to hold many
+horses.  Above you is the hay loft, a couple workers are tossing the hay from
+the loft down into the stalls for the horses to feed on.  Your ears are are
+filled with various sounds of the barn, from the whinning of a large white
+steed towards your north, to the sound of the horse pounding his hoof against
+the stall door directly behind you.    
+~
+95 0 0 0 0  0
+D0
+~
+stall~
+1 0 9518 0 0 0 0 0 0 0 0
+D1
+~
+doors~
+1 0 9514 0 0 0 0 0 0 0 0
+D2
+~
+stall~
+1 0 9519 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9516 0 0 0 0 0 0 0 0
+S
+#9516
+Inside the Barn~
+   You are walking between a row of horse stalls.  The dirt floor is packed
+tightly and covered with the stray hay that never quite made it into the horses
+stall.  The smell of manuer raises strongly from the horses and fills your
+nostrils, giving your stomach that uneasy feeling.  The workers up in the loft
+do not appear to be effected by this at all.  Possibly they have been here for
+so long they have grown accustomed to the smell.  To your north is a rather
+large calm warhorse.  Its the only one of the horses in a stall to itself
+~
+95 0 0 0 0  0
+D0
+~
+stall~
+1 0 9520 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9515 0 0 0 0 0 0 0 0
+D2
+~
+stall~
+1 0 9521 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9517 0 0 0 0 0 0 0 0
+S
+#9517
+Inside the Barn~
+   You are at the end of the row of stalls.  From first glance these back two
+stalls seem to be the most used, or possibly just not cleaned as much as the
+others.  Whatever the case, the stench from the stalls pours into your
+nostrils, making you feel rather nausious.  The horses in the stalls to your
+north and south seem content to be eating the hay that has been tossed down
+from the loft above.  Towards the west you see a wooden door which will lead
+you into the tack room.    
+~
+95 c 0 0 0  0
+D0
+~
+stall~
+1 0 9522 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9516 0 0 0 0 0 0 0 0
+D2
+~
+stall~
+1 0 9523 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9524 0 0 0 0 0 0 0 0
+S
+#9518
+Within a Stall~
+   You are standing inside one of the many horse stalls within the barn.  Your
+feet sink slightly into the piles of maneur and hay which cover the floor.  
+The stench filters up from the floor and fills your nostrils, giving your
+stomach that nausiated feeling.  A large water trough sits in the far corner of
+the stall, a place for the horses to drink from.  A large bucket attacked the
+wall is filled with grain and oats a few times a day for the horses.  Its
+apparent that those who run these stables take great care of these large
+animals.    
+~
+95 d 0 0 0  0
+D2
+~
+stall~
+1 0 9515 0 0 0 0 0 0 0 0
+S
+#9519
+Within a Stall~
+   You have walked into one of the many stalls within this large stable.  Your
+feet sink slightly into the mud and maneur which cover the stalls floor.  You
+have to swat away the many flies which try to land on you.  A large fresh pile
+of hay sits off in one of the corners for the animals to eat.  The water trough
+along the back side of the stall seems to have just been recently filled with
+fresh cool water.  One of the stallions has his head down in the bucket eating
+some of the grain.  None of the animals seem to care that a stranger has
+entered their stall.    
+~
+95 0 0 0 0  0
+D0
+~
+stall~
+1 0 9515 0 0 0 0 0 0 0 0
+S
+#9520
+Within a Stall~
+   This stall is the same size as all the others, though there is just one
+horse within.  A jet black warhorse paces the large stall.  His nostrils seem
+to flare as he sees you approach him, yet he remains calm and allows you to
+walk up closely to him.  The water trough at the end of the stall appears to
+have just recently been filled with water, and the feeding bucket is full of
+grain and oats.  The floor is almost completely clean of maneur and mud.  
+Someone must pay good money in order to have this much care given to their
+steed.    
+~
+95 0 0 0 0  0
+D2
+~
+stall~
+1 0 9516 0 0 0 0 0 0 0 0
+S
+#9521
+Within a Stall~
+   You are standing in a stall which looks almost exactly as all the others.  
+With each step you take you can feel your feet sinking into the mud and maneur
+which covers most of the ground.  The stench filling your nostrils and giving
+you that uneasy nausiated feeling.  The feeding bucket has been knocked off
+from its place on the wall and is laying on the floor, its contents spilled
+out.  The water trough has just recently been filled though a few stray pieces
+of hay have managed to find their way into the water.  The animals within this
+stall give no care that you have entered the stable.    
+~
+95 0 0 0 0  0
+D0
+~
+stall~
+1 0 9516 0 0 0 0 0 0 0 0
+S
+#9522
+Within a Stall~
+   This stall seems to be used more than all the others, or perhaps it is just
+not cleaned as much as the rest.  The stench of maneur fills your nostrils.  
+The piles of maneur and hay covering the floor make it hard to walk.  Your feet
+sink deep into the refuse.  The drinking trough along the back of the wall has
+just been recently filled, and the feeding bucket is full of grain and oats.  
+As common in all barns, many flies swarm around you, causing you to swat at
+them with your hand.    
+~
+95 0 0 0 0  0
+D2
+~
+stall~
+1 0 9517 0 0 0 0 0 0 0 0
+S
+#9523
+Within a Stall~
+   As you enter this stall you notice that it is either used more than the
+others, or perhaps it is not cleaned nearly as much.  The large piles of maneur
+and hay make it hard to walk through the area.  You can feel your feet sinking
+into the refuse, and you have to tug your leg to get freed.  The stench fills
+your nostrils, making you feel like you need to vomit.  There is a water trough
+along the back wall which has just been recently filled with fresh water.  The
+large bucket hanging from the wall is full of grain and oats.  Just like in all
+other barns you have to swat the flies away from your face.    
+~
+95 0 0 0 0  0
+D0
+~
+stall~
+1 0 9517 0 0 0 0 0 0 0 0
+S
+#9524
+Inside the Tack Closet~
+   You are standing withtin the tack closet of the barn.  This is the room
+where the bags of grain and oats are kept, along with any other supplies that
+are needed for the care of the animals.  Along two sides of the room hand
+bridels and the saddles that belong to the owners of each horse.  You see a
+small rat scurry across the ground and dart behind some of the bags of grain.
+In the far corner of the room there is a ladder that goes up into an opening in
+the ceiling.  It is possibly another way to get into the loft above.    
+~
+95 0 0 0 0  0
+D1
+~
+door~
+1 0 9517 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9525 0 0 0 0 0 0 0 0
+S
+#9525
+Climbing the Ladder~
+   You are climbing up the ladder from the tack closet.  Looking up you see
+where it will take you through a narrow opening leading up into the loft.  The
+ladder seems very sturdy beneath you, making the climb easy and swift.  As you
+approach the top of the ladder you hear the sound of men talking, and
+pitchforks scraping along the ground.  The aroma of freshly cut hay begins to
+waft down from above and fill your nostrils, a much more pleasant smell from
+the manueur which is caked onto your shoes.    
+~
+95 i 0 0 0  0
+D4
+~
+~
+0 0 9526 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9524 0 0 0 0 0 0 0 0
+S
+#9526
+In the Loft~
+   The ladder has indeed taken you up into the loft.  The area is rather large,
+but most of it is cramped with hay which will be used for feeding the horses.
+The two large swinging doors which the hay is tossed through in order to get up
+to this floor stand slightly ajar, allowing the fresh air from outside fill
+into the room and mix with the aroma of the freshly cut hay.  Two stablehands
+are working hard on stacking the hay neatly against the walls, they dont even
+seem to notice you approach.    
+~
+95 0 0 0 0  0
+D5
+~
+~
+0 0 9525 0 0 0 0 0 0 0 0
+S
+#9527
+Center Street~
+   The walk along this road is extremely pleasant.  The large stones beneath
+your feet have been placed with great care.  This road runs directly through
+the center of this town, and is large enough for horse and buggy to travel
+along.  Residents pass by you, smiling warmly as they see a new face in their
+town.  Towards your north a ways you can see the center square where a large
+fountain glitterling with jewels spews water.  A few paces northwards from
+there you can see the rush of the marketplace.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9528 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9513 0 0 0 0 0 0 0 0
+S
+#9528
+Center Street~
+   You are traveling along the center street of this town.  The construction of
+the streets and the buildings have been done with the greatest care.  The
+stones you walk on make it easy for you to not worry about mud and dirt getting
+on your boots.  Large oil lamps hang from posts along the street, giving plenty
+of light during the night to travel safely throughout the town.  Directly ahead
+of you is an intercestion, this street continues northwards to the marketplace,
+and the other wanders off in a perpendicular direction.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9529 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9527 0 0 0 0 0 0 0 0
+S
+#9529
+Intersection of Center and Temple Streets~
+   You have approached an intersection of the streets.  Continuing northwards
+you will remain on Center Street and be heading towards the fountain area and
+marketplace.  Running east and west is Temple Street.  Towards the east you can
+see a large structure which appears to be the temple of this town.  Towards the
+west are two large structures, what they contain is not certain.  People move
+about you in all directions, every now and then stopping and asking if you need
+any help finding your way around.  The city guards look you over, and smile
+slightly.    
+~
+95 0 f 0 0  0
+D0
+~
+~
+0 0 9565 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9530 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9528 0 0 0 0 0 0 0 0
+S
+#9530
+Temple Street~
+   You have begun walking down the road towards a large temple.  Much like the
+Center Street of this town, this road is paved with stones as well, though not
+nearly quite as wide.  The oil lamps hang from posts along the side of the
+road, allowing safe travels within the city during nightfall.  Citizens pass by
+you and give you a welcoming smile.  If you keep walking towards the east you
+will come upon the rather large Temple of this town.  Many people can be seen
+moving in and out of its large doors, walking and chatting with each other.  
+~
+95 0 f 0 0  0
+D1
+~
+~
+0 0 9531 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9529 0 0 0 0 0 0 0 0
+S
+#9531
+Temple Street~
+   This street heads directly to and from the large temple towards the east.  
+Many people are travling along the road, all seem rather friendly as they smile
+warmly upon passing by you.  The city guards patrol the streets looking for any
+sign of trouble.  They look you over carefully and give you a nod.  The paved
+road makes the walk easy, and the sidewalks seem to be constructed out of some
+sort of cobblestone, giving good traction even in the hardest rains.  You see
+many people moving in and out of the temple towards the east, quietly talking
+and walking with each other.    
+~
+95 0 f 0 0  1
+D1
+~
+~
+0 0 9532 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9530 0 0 0 0 0 0 0 0
+S
+#9532
+Temple Street~
+   You are walking along Temple Street within the city.  The large stones
+beneath yoru feet make the travel rather easy and plesasant.  The sidewalks are
+paved in some sort of cobblestone material, giving your footing great traction
+even in the hardest rains.  Larg oil lamps hang from posts along the road,
+allowing travel after nightfall safe.  The city guards patrol the streets,
+looking for any signs of trouble.  They look you over briefly as you pass by,
+and nod slightly.  Towards your east you see the city's temple off in the
+distance, surrounded by a large garden.    
+~
+95 0 f 0 0  0
+D1
+~
+~
+0 0 9533 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9531 0 0 0 0 0 0 0 0
+S
+#9533
+Temple Street~
+   You are walking along the Temple Street of the city.  The cobblestone
+sidewalks make your travel easy and pleasant, keeping you from having to step
+into the mud and waters left behind by the heavy rains.  People rush by you in
+all directions, chatting quietly with each other.  The city guards partol the
+streets looking for any signs of trouble, they look you over carefully, and
+slightly nod.  Oil lamps hang from posts along the sidewalks, allowing travel
+after nightfall safe and pleasant.  Off towards the east you see a large Temple
+surrounded by its beautiful garden, in which you can see people walking and
+talking, while their children run and play.    
+~
+95 0 f 0 0  0
+D1
+~
+~
+0 0 9534 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9532 0 0 0 0 0 0 0 0
+S
+#9534
+Approaching the Temple Grounds~
+   You are approaching the Temple Grounds.  The sidewalks which line the Temple
+Street you were on begin to curve slightly, and eventually coming together
+forming a small cobblestone path which leads directly eastwards through the
+Gardens and to the Temple Steps.  You can see the two large solid doors of the
+temple are closed, yet they open every now and then as people walk in and out.
+The gardens surrounding the temple are full of some of the most colorful
+flowers you have ever seen.  A few families can be seen in the gardens walking
+and talking with each other, their little children running and playing amongst
+each other.    
+~
+95 0 f 0 0  1
+D1
+~
+~
+0 0 9535 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9533 0 0 0 0 0 0 0 0
+S
+#9535
+Temple Grounds~
+   You are standing on the cobblestone path that leads eastwards to the Temple.
+Small grassy paths lead off in a northeastern and southeastern direction.  The
+grassy paths will take you through the flower gardens of the Temple.  You see a
+few people walking about within the garden talking quietly with each other, as
+their children run and play amongst themselves.  Continuing eastwards will
+eventually take you to the Steps of the Temple.  The large doors open slightly
+and quietly as people enter and exit the place of worship.  A feeling of peace
+seems to radiate from the temple and gardens which surround it.    
+~
+95 0 f 0 0  1
+D1
+~
+~
+0 0 9542 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9534 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9536 0 0 0 0 0 0 0 0
+S
+#9536
+Walking Through the Gardens~
+   You are walking along a small path through the Gardens.  From the looks of
+the worn out grass beneath your feet you can tell that many people walk though
+these beautiful gardens.  The smell of grass and flowers fills your nostrils.
+A few small animals scamper past your feet as you walk, they quickly dart to
+one side of the path and hide under a bush.  The birds can be heard singing in
+harmony in the large trees within this garden.  The sounds of the city, though
+very close by, seem to be the furthest thing from your mind as you quietly walk
+along the path.    
+~
+95 0 0 0 0  2
+D3
+~
+~
+0 0 9537 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9538 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9535 0 0 0 0 0 0 0 0
+S
+#9537
+Walking Through the Gardens~
+   The path you are walking along through the flower garden seems to be well
+traveled.  Your nostrils are filled with the aroma of freshly cut grass and
+flowers.  The sounds of birds singing in harmony fills your ears, drowning out
+the sounds of the city.  The brances of the trees provide a source of shelter
+from the rains and sunlight during the harsh weather.  From the looks of the
+many different flowers it is apparent that someone takes great care of these
+gardens.  A few small animals dart past your feet and quickly runs and hides
+under one of the many hedges.    
+~
+95 0 0 0 0  2
+D1
+~
+~
+0 0 9536 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9539 0 0 0 0 0 0 0 0
+S
+#9538
+Walking Through the Gardens~
+   You are walking along a well travelled path through the temple gardens.  It
+is apparent that great care has been put into the care of this quiet place.  
+As you walk the aroma of flowers and grass fills your nostrils.  The birds sing
+in harmony high in the large trees.  Every now and then you see a small animal
+dart across the path and quickly hide itself under one of the many hedges.  
+You can see ahead of you a family having a picnic.  The adults chat quietly
+with each other on a rolled out blanket while the children run and play amongst
+themselves.    
+~
+95 0 0 0 0  1
+D3
+~
+~
+0 0 9539 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9540 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9536 0 0 0 0 0 0 0 0
+S
+#9539
+Walking Through the Gardens~
+   The grass beneath your feet is worn from the wear of many visitors to the
+gardens.  The branches from the large trees seem to canopy the area, keeping
+the ground fairly dry even during hard rains, yet allowing plenty water in to
+allow the flowers to grow to their brilliant size and color.  The construction
+of the place is quite astonding, how a person could make even plants designed
+in this manner is unknown.  Up in the trees you hear the sounds of many birds
+singing in harmony.  Looking ahead of you, you can see a family having a pinic
+together.  The adults sit and chat with each other on a rolled out blanket, and
+the children run and play with each other.    
+~
+95 0 0 0 0  0
+D1
+~
+~
+0 0 9538 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9541 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9537 0 0 0 0 0 0 0 0
+S
+#9540
+Walking Through the Gardens~
+   You have come to a clearing in the garden.  The trees open up above you and
+allow as much sunlight as possible to touch your skin.  Many different bushes
+of flowers surround the area, making this place a perfect spot to sit and rest.
+The songs of the many birds in the trees can still be heard high up in the
+limbs.  A small animal darts past you in a blur of grey, and hides itself under
+one of the rose bushes.  A couple sits quietly on their rolled out blanket,
+chatting with each other, and watching their children play not to far away.  
+~
+95 0 0 0 0  2
+D3
+~
+~
+0 0 9541 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9538 0 0 0 0 0 0 0 0
+S
+#9541
+Walking Through the Gardens~
+   You are standing in a clearing within the flower gardens.  The trees have
+been cut back to provide as much sunlight as possible to hit your skin.  Many
+different bushes of flowers surround the area, making this a good spot to sit
+and rest for awhile.  The birds can still be heard from high within the trees.
+Rustling can be heard in the bushes, possibly from the scurry of small aminals
+running to hide from your presence in their home.  The aroma of the many
+differnt types of flowers fills your nostrils as you walk through the area.  
+Three children run around playing amongst each other, their parents close by,
+watching them carefully.    
+~
+95 0 0 0 0  2
+D1
+~
+~
+0 0 9540 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9539 0 0 0 0 0 0 0 0
+S
+#9542
+Approaching the Temple~
+   You are approaching the stairs which lead to the large doors of the Temple.
+The smell of roses from the gardens you just passed still carrys strongly in
+the air.  The Temple seems to have been constructed entirely out of the whitest
+stones you have ever seen.  Although the temple's doors are extremely large and
+sturdy, the people passing through them seem to have no troubles at all pushing
+them open.  A quick look through the door, as a man walks out, shows a long row
+between the many pews and standing behind a podium speaking is a man dressed in
+long flowing robes.    
+~
+95 0 0 0 0  2
+D1
+~
+~
+0 0 9543 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9535 0 0 0 0 0 0 0 0
+S
+#9543
+Standing on the Temple Stairs~
+   You are standing on the stairs which lead up to the doors of the Temple.  
+The solid white stones have been arranged so neatly as to not even show where
+one ends, and the other begins.  The construction of the temple must have taken
+quite some time for precision such as this.  The doors ahead of you swing open
+slightly as people come and go from within.  A mans voice can vaguely be heard
+drifting out from inside.  A few people rush past you and enter the doors, they
+act as if they are running late for something.  Perhaps a service is being held
+inside.    
+~
+95 c 0 0 0  1
+D1
+~
+~
+0 0 9545 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9542 0 0 0 0 0 0 0 0
+S
+#9544
+A new room~
+~
+95 d 0 0 0  0
+S
+#9545
+Standing at the Doors to the Temple~
+   You are standing at the entrace to the Temple.  Two large, solid doors stand
+in front of you.  The Temple is made entirely out of a white stone, which seems
+to radiate its light, illuminating the entire area even after darkness falls.
+The roof extends out over the platform you stand now, large marble columns give
+it all the support it needs.  Although the size of the doors are astounding,
+those who enter and leave the building seem to have no trouble at all opening
+and closing them.  The sound of a mans voice carries out the doors as people
+make their way in, and out.    
+~
+95 0 0 0 0  1
+D1
+The Temple Doors
+~
+doors~
+1 0 9546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9543 0 0 0 0 0 0 0 0
+S
+#9546
+Foyer of the Temple~
+   You are standing in the foyer of the Temple.  Looking around you can tell
+that great care is given to this holy place.  The tiled floor is completely
+spotless, and polished to the point where you can almost see your own
+reflection.  Along the walls hang various pantings, all which depict the
+pathegeons of light.  Looking out of this room you see that the entire Temple
+is made up almost entirely of one room, where many rows of pews sit, and a
+podium in front where the priest is speaking.    
+~
+95 cd 0 0 0  0
+D0
+~
+~
+0 0 9547 0 0 0 0 0 0 0 0
+D3
+~
+doors~
+1 0 9545 0 0 0 0 0 0 0 0
+S
+#9547
+Walking Down the Center Isle~
+   You are walking down the center isle between the rows of pews.  Looking
+around the room as you walk you can see that the ceiling of thise Temple must
+be a good hundred or so feet high.  Large marble colums every few feet down
+this isle support the weight of the large roof.  In the very center of the
+ceiling is a section of stained glass.  The architecture put into this place is
+quite astounding, it must have taken quite some time to get a fresco such as
+that put into place.  The large podium stands up on a platform so that the
+speaker can be heard clearly, and seen easily from anywhere in the room.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 9552 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9548 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9550 0 0 0 0 0 0 0 0
+S
+#9548
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9549 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9547 0 0 0 0 0 0 0 0
+S
+#9549
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D3
+~
+~
+0 0 9548 0 0 0 0 0 0 0 0
+S
+#9550
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9547 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9551 0 0 0 0 0 0 0 0
+S
+#9551
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9550 0 0 0 0 0 0 0 0
+S
+#9552
+Walking Down the Center Isle~
+   You are walking down the center isle between the rows of pews.  Looking
+around the room as you walk you can see that the ceiling of thise Temple must
+be a good hundred or so feet high.  Large marble colums every few feet down
+this isle support the weight of the large roof.  In the very center of the
+ceiling is a section of stained glass.  The architecture put into this place is
+quite astounding, it must have taken quite some time to get a fresco such as
+that put into place.  The large podium stands up on a platform so that the
+speaker can be heard clearly, and seen easily from anywhere in the room.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 9557 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9553 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9547 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9555 0 0 0 0 0 0 0 0
+S
+#9553
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9554 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9552 0 0 0 0 0 0 0 0
+S
+#9554
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D3
+~
+~
+0 0 9553 0 0 0 0 0 0 0 0
+S
+#9555
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9552 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9556 0 0 0 0 0 0 0 0
+S
+#9556
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9555 0 0 0 0 0 0 0 0
+S
+#9557
+Walking Down the Center Isle~
+   You are walking down the center isle between the rows of pews.  Looking
+around the room as you walk you can see that the ceiling of thise Temple must
+be a good hundred or so feet high.  Large marble colums every few feet down
+this isle support the weight of the large roof.  In the very center of the
+ceiling is a section of stained glass.  The architecture put into this place is
+quite astounding, it must have taken quite some time to get a fresco such as
+that put into place.  The large podium stands up on a platform so that the
+speaker can be heard clearly, and seen easily from anywhere in the room.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 9562 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9558 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9552 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9560 0 0 0 0 0 0 0 0
+S
+#9558
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9559 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9557 0 0 0 0 0 0 0 0
+S
+#9559
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D3
+~
+~
+0 0 9558 0 0 0 0 0 0 0 0
+S
+#9560
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9557 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9561 0 0 0 0 0 0 0 0
+S
+#9561
+Walking Between the Pews~
+   You are walking between a row of pews here in the Temple.  The long wooden
+benches are kept polished to a point where one can almost see their reflection.
+A few small books lay here and there in the seat, their contents most likely
+written songs which are sung as a form of praise to ones God.  The large glass
+windows along the walls allow plenty of light into the room during the daylight
+hours.  And large candlesticks scattered about the room give off their yellow
+glow to hold services during the evening hours.  Looking towards the front of
+the room you can see the Priest standing behind a podium, his voice carrying
+loudly over the crowd, so that all can hear him speak.    
+~
+95 d 0 0 0  0
+D1
+~
+~
+0 0 9560 0 0 0 0 0 0 0 0
+S
+#9562
+Standing Before the Altar~
+   You are standing before the alar of the Temple.  It is made out of one large
+solid stone, though it does appear the top can be lifted up so that things may
+be placed inside.  This is where many come each day to bow in reverance to
+their God, and ask for guidance in their daily lives.  A couple of stairs to
+the side of you lead up onto the platform where the Priest stands behind the
+podium.  As you approach he briefly stops speaking, perhaps in order to see
+what you are doing.  Feeling that perhaps his speech has brought someone to
+kneel before their God in reverance, he smiles warmly.    
+~
+95 d 0 0 0  0
+D2
+~
+~
+0 0 9557 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9563 0 0 0 0 0 0 0 0
+S
+#9563
+Standing Behind the Podium~
+   You are standing behind the podium where the Priest stands before the crowd.
+The large wooden stand, holds several religous texts used by this man as he
+speaks to the crowds.  Looking to the wall behind you, there is a small wooden
+door which leads into what appears to be an office of sorts.  A painting
+contianing the symbol of a Kingfisher hangs neatly along the wall next to you.
+As you approach the Priest he stops his speech and turns to greet you, though
+looking in his eyes you can see hes a bit confused as to why someone would walk
+up next to him while he is holding a service.    
+~
+95 cd 0 0 0  0
+D0
+~
+Door~
+1 0 9564 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9562 0 0 0 0 0 0 0 0
+S
+#9564
+The Priests Study~
+   You are standing in a well furnished study room that belongs to the temple
+priest.  Large wooden bookcases line all the walls, completely packed full of
+all sorts of different religous texts.  A desk sits along the back window.  
+The drawers all neatly closed, and apparently locked to keep the contents safe.
+The dark green curtains are pulled back from the window to allow the sunlight
+to stream in, and brighten up the room.    
+~
+95 d 0 0 0  0
+D2
+~
+Door~
+1 0 9563 0 0 0 0 0 0 0 0
+S
+#9565
+Center Street~
+   You are walking along the center street of the town.  The construction of
+the streets and the buildings have been done with the greatest care.  The large
+stones under your feet that you walk upon make it very easy to keep the mud and
+dirt off of your boots.  Large oil lamps hang from posts along the street,
+giving plenty of light during night travels to allow safe passage through the
+town.  A little ahead of you is the fountain area, while behind you Temple
+Streets run in an east and west direction.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9566 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9529 0 0 0 0 0 0 0 0
+S
+#9566
+Center Street~
+   You are travelling along the center street of the town.  The road has been
+built with great care, large stones under your feet allow you to walk without
+the worries of mud and dirt getting onto your boots.  The large oil lamps line
+the street, giving off their yellow glow in the evening hours to allow safe
+travel about the town.  Up ahead of you is the fountain area, and just beyond
+that the Market Square where the various shops are built.  A little ways behind
+you the road meets Temple Street which leads in one direction the Temple, and
+the other direction towards the warehouses.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9567 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9565 0 0 0 0 0 0 0 0
+S
+#9567
+Center Street~
+   You are travelling along the center street of the town.  The road has been
+built with remakrable construction.  The stones beneath your feet, which keep
+the dirt and mud from your boots, have been laid together with great precision,
+allowing hardly any cracks to be seen between them.  Large posts along the road
+hold the oil lambs which give off their yellow glow in the evening hours.  
+Allowing for safe passage about the town.  Directly in front of you is the
+fountain area, you see a few people relaxing around the marble fountain,
+chatting amongst each other.  Beyond that you can see the shops where numerous
+people walk in and out of their doors.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9590 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9566 0 0 0 0 0 0 0 0
+S
+#9568
+Central Square~
+   You are standing in the center of the small town.  From here you see the
+shops towards your north, where various people walk in and out of their doors.
+Estate street runs east and west, the easter direction heading up towards Lord
+Ania's palace while the western direction would take you to the housing
+district where all the peasants live.  In the northwestern direction you see
+the local Tavern, sounds of roudy drunken men can be heard drifting out the
+door.  A large marble fountain spews for crystal clear waters for people to
+drink from.    
+~
+95 cu f 0 0  1
+D0
+~
+~
+0 0 9588 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9589 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9590 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9587 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9586 0 0 0 0 0 0 0 0
+S
+#9569
+Center Street~
+   You are walking along the northern part of Center Street.  The large stones
+beneath your feet keep your boots clean from dirt and mud.  The large oil lamps
+line the sides of the road, in the evening times they give off their yellow
+glow, allowing for safe passage about the town.  Behind you lies the central
+square, where people are sitting around the fountain, conversing with each
+other.  Right up ahead of you is the beginning of the market area, where you
+can see many people walking in and out of the various shops.  A little towards
+the northwest you see the large two story tavern.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9570 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9588 0 0 0 0 0 0 0 0
+S
+#9570
+Center Street~
+   You are walking along the northern part of Center Street.  The large stones
+beneath your feet keep your boots clean from dirt and mud.  The large oil lamps
+line the sides of the road, in the evening times they give off their yellow
+glow, allowing for safe passage about the town.  Behind you lies the central
+square, where people are sitting around the fountain, conversing with each
+other.  Right up ahead of you is the beginning of the market area, where you
+can see many people walking in and out of the various shops.  A little towards
+the northwest you see the large two story tavern.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9571 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9569 0 0 0 0 0 0 0 0
+S
+#9571
+Market Square~
+   You are standing within the Market Square in the northernmost part of the
+town.  From this point the shops of the town surrond you in all directions
+except the way you arrived.  Towards the north you see a shop that bears the
+insignia of a bank.  A canapy on the shop to your west bears the sign of the
+armory.  Looking east you see the weapons shop, marked with the sign of a large
+sword.  Towards the northeast you can smell the various foods offered in the
+provisions store, and off to the northwest you see the General store where all
+basic items can be found.    
+~
+95 0 f 0 0  1
+D0
+~
+~
+0 0 9572 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9576 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9570 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9574 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9578 0 0 0 0 0 0 0 0
+S
+#9572
+Standing Before the Depository~
+   You are standing in front of a building in the marketplace.  A sign hanging
+above the door notes this building to be the local bank.  The door is propped
+open as you see many people leaving and entering the establishment.  The sounds
+of coins being tossed together can be heard from within.  Looking through the
+door you see the Banker standing behind a counter counting out a few coins to
+one of his many customers.    
+~
+95 c f 0 0  1
+D0
+~
+~
+0 0 9573 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9571 0 0 0 0 0 0 0 0
+S
+#9573
+Inside the Bank~
+   You are standing inside the bank.  Many people walk in and out of the room,
+handing money to the banker for deposit, or withdrawing some of their savings.
+The sounds of jingling coins fills your ears as you walk into the Bank.  
+Looking through the small wooden door behind the banker you see a large iron
+safe.    
+~
+95 c 0 0 0  1
+D2
+~
+~
+0 0 9572 0 0 0 0 0 0 0 0
+S
+#9574
+Standing in Front of the Armory~
+   You are standing in front of the blacksmith's shop.  Black smoke rises from
+the chimney, where the smoke from his forge fills the sky.  The loud sounds of
+hammering can be heard coming from withtin the shop.  The wooden door has been
+propped open with a small brick.  As you look through the door into the shop
+you see a short balding clerk standing behind the counter, awaiting the next
+customer.    
+~
+95 c f 0 0  1
+D1
+~
+~
+0 0 9571 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9575 0 0 0 0 0 0 0 0
+S
+#9575
+Inside the Blacksmith's Shop~
+   You are standing inside the blacksmith's shop.  Many people pass by you as
+they leave and enter the building.  A short balding clerk stands behind the
+counter, ready to help all of the customers.  Looking past the clerk you see
+the blacksmith's forge, where he works hard molding the metals into various
+types of armor.  The loud hammering can be heard drifting out the door.    
+~
+95 0 0 0 0  1
+D1
+~
+~
+0 0 9574 0 0 0 0 0 0 0 0
+S
+#9576
+Before the Weapon Shop~
+   Before you stands a small shop bearing a carving of a sword on the door.  
+The door swings open and shut as people pass in and out of the shop.  The sound
+of clanking steel can be heard coming from inside as the weaponsmith works hard
+on making the blades of the swords as straight as possible.  A small chimney in
+the room emits the thick black smoke formed from the forge used to create the
+different types of weaponry.    
+~
+95 c f 0 0  1
+D1
+~
+~
+0 0 9577 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9571 0 0 0 0 0 0 0 0
+E
+door~
+
+    _________|_______________
+   |_|_|_|_|_|______________/
+             |   
+~
+S
+#9577
+Inside the Weapon's Shop~
+   You are standing inside the weapon's shop.  Large racks which hold various
+types of weapons line the walls.  Many people looking the weapons over, and
+trying them out to see how well they suit their needs.  In the far corner of
+the shop the weaponsmith is working hard at his forge, every now and then
+stopping to help out a customer, or to give the price on a particular item.  
+~
+95 c 0 0 0  1
+D3
+~
+~
+0 0 9576 0 0 0 0 0 0 0 0
+S
+#9578
+In Front of the General Store~
+   You are now standing in front of a large shop, the sign hanging from a post
+next to the door shows you this is the General Store.  The most basic items
+needed for any adventurer can be found here in this shop.  It does seem to be
+the busiest of most, the door rarely has time to be closed before its opened
+again by someone rushing in or out.  Their hands full of bags of food and other
+provisions.  Looking through the door you see the store owner standing behind
+the counter, awaiting the next customer
+~
+95 c f 0 0  1
+D6
+~
+~
+0 0 9579 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9571 0 0 0 0 0 0 0 0
+S
+#9579
+Inside the General Store~
+   You are standing inside the General Store.  Large shelves align the walls
+holding the merchandise which can be bought here.  People walk up and down the
+rows of shelve's putting things into small baskets used to carry to the goods
+up to the main counter.  The shopkeeper stands behind the large wooden counter
+waiting patiently to help his next customer.  Looking past him you see a large
+iron safe where all his earnings are kept.    
+~
+95 0 0 0 0  0
+D8
+~
+~
+0 0 9578 0 0 0 0 0 0 0 0
+S
+#9580
+Estate Street~
+   This part of Estate street is leading you through the housing district of
+the town.  All of the peasants home are built almost exactly the same.  All
+large two story homes, with red bricked chimneys running up the sides.  The
+road beneath your feet has been paved with great care, the large stones used as
+a walkway lining the road allow you to travel without the worries of mud and
+dirt getting all over your feet.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe travel about the town during the night.  Citizens pass by you as they come
+and go from their homes, as they scurry past you they smile and nod.    
+~
+95 0 0 0 0  1
+D1
+~
+~
+0 0 9587 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9581 0 0 0 0 0 0 0 0
+S
+#9581
+Estate Street~
+   This part of Estate street is leading you through the housing district of
+the town.  All of the peasants home are built almost exactly the same.  All
+large two story homes, with red bricked chimneys running up the sides.  The
+road beneath your feet has been paved with great care, the large stones used as
+a walkway lining the road allow you to travel without the worries of mud and
+dirt getting all over your feet.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe travel about the town during the night.  Citizens pass by you as they come
+and go from their homes, as they scurry past you they smile and nod.    
+~
+95 0 0 0 0  1
+D1
+~
+~
+0 0 9580 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9582 0 0 0 0 0 0 0 0
+S
+#9582
+Estate Street~
+   This part of Estate street is leading you through the housing district of
+the town.  All of the peasants home are built almost exactly the same.  All
+large two story homes, with red bricked chimneys running up the sides.  The
+road beneath your feet has been paved with great care, the large stones used as
+a walkway lining the road allow you to travel without the worries of mud and
+dirt getting all over your feet.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe travel about the town during the night.  Citizens pass by you as they come
+and go from their homes, as they scurry past you they smile and nod.    
+~
+95 0 0 0 0  1
+D1
+~
+~
+0 0 9581 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9583 0 0 0 0 0 0 0 0
+S
+#9583
+Estate Street~
+   This part of Estate street is leading you through the housing district of
+the town.  All of the peasants home are built almost exactly the same.  All
+large two story homes, with red bricked chimneys running up the sides.  The
+road beneath your feet has been paved with great care, the large stones used as
+a walkway lining the road allow you to travel without the worries of mud and
+dirt getting all over your feet.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe travel about the town during the night.  Citizens pass by you as they come
+and go from their homes, as they scurry past you they smile and nod.    
+~
+95 0 0 0 0  1
+D1
+~
+~
+0 0 9582 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9584 0 0 0 0 0 0 0 0
+S
+#9584
+Estate Street~
+   This part of Estate street is leading you through the housing district of
+the town.  All of the peasants home are built almost exactly the same.  All
+large two story homes, with red bricked chimneys running up the sides.  The
+road beneath your feet has been paved with great care, the large stones used as
+a walkway lining the road allow you to travel without the worries of mud and
+dirt getting all over your feet.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe travel about the town during the night.  Citizens pass by you as they come
+and go from their homes, as they scurry past you they smile and nod.    
+~
+95 0 0 0 0  1
+D1
+~
+~
+0 0 9583 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9585 0 0 0 0 0 0 0 0
+S
+#9585
+Estate Street~
+   This part of Estate street is leading you through the housing district of
+the town.  All of the peasants home are built almost exactly the same.  All
+large two story homes, with red bricked chimneys running up the sides.  The
+road beneath your feet has been paved with great care, the large stones used as
+a walkway lining the road allow you to travel without the worries of mud and
+dirt getting all over your feet.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe travel about the town during the night.  Citizens pass by you as they come
+and go from their homes, as they scurry past you they smile and nod.    
+~
+95 0 0 0 0  1
+D0
+~
+~
+0 0 11497 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9584 0 0 0 0 0 0 0 0
+S
+#9586
+Edge of Central Square~
+   You are standing on the outer edge of the central square.  From here you see
+the fountain area which is located directly in the center.  You see many people
+wander in and out of the fountain area, resting and chatting amongst each
+other.  The Square has been paved with great precision, the large smooth stones
+beneath your feet have been placed so precisely as to not show any cracks in
+the surface.  The streetsweepers that move around the area keep all the refuse
+picked up, and the dirt and mud swept off of the walkways.  Large oil lamps
+hang from wooden posts, giving off their faint yellow glow in the evening hours
+to allow the square to be brigthly lit.    
+~
+95 0 f 0 0  1
+D2
+~
+~
+0 0 9587 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9591 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9588 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9568 0 0 0 0 0 0 0 0
+S
+#9587
+Edge of Central Square~
+   You are standing on the outer edge of the central square.  From here you see
+the fountain area which is located directly in the center.  You see many people
+wander in and out of the fountain area, resting and chatting amongst each
+other.  The Square has been paved with great precision, the large smooth stones
+beneath your feet have been placed so precisely as to not show any cracks in
+the surface.  The streetsweepers that move around the area keep all the refuse
+picked up, and the dirt and mud swept off of the walkways.  Large oil lamps
+hang from wooden posts, giving off their faint yellow glow in the evening hours
+to allow the square to be brigthly lit.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 9586 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9568 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9580 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9590 0 0 0 0 0 0 0 0
+S
+#9588
+Edge of Central Square~
+   You are standing on the outer edge of the central square.  From here you see
+the fountain area which is located directly in the center.  You see many people
+wander in and out of the fountain area, resting and chatting amongst each
+other.  The Square has been paved with great precision, the large smooth stones
+beneath your feet have been placed so precisely as to not show any cracks in
+the surface.  The streetsweepers that move around the area keep all the refuse
+picked up, and the dirt and mud swept off of the walkways.  Large oil lamps
+hang from wooden posts, giving off their faint yellow glow in the evening hours
+to allow the square to be brigthly lit.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 9569 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9568 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9586 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9589 0 0 0 0 0 0 0 0
+S
+#9589
+Edge of Central Square~
+   You are standing on the outer edge of the central square.  From here you see
+the fountain area which is located directly in the center.  You see many people
+wander in and out of the fountain area, resting and chatting amongst each
+other.  The Square has been paved with great precision, the large smooth stones
+beneath your feet have been placed so precisely as to not show any cracks in
+the surface.  The streetsweepers that move around the area keep all the refuse
+picked up, and the dirt and mud swept off of the walkways.  Large oil lamps
+hang from wooden posts, giving off their faint yellow glow in the evening hours
+to allow the square to be brigthly lit.    
+~
+95 0 f 0 0  0
+D1
+~
+~
+0 0 11423 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9568 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9588 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9590 0 0 0 0 0 0 0 0
+S
+#9590
+Edge of Central Square~
+   You are standing on the outer edge of the central square.  From here you see
+the fountain area which is located directly in the center.  You see many people
+wander in and out of the fountain area, resting and chatting amongst each
+other.  The Square has been paved with great precision, the large smooth stones
+beneath your feet have been placed so precisely as to not show any cracks in
+the surface.  The streetsweepers that move around the area keep all the refuse
+picked up, and the dirt and mud swept off of the walkways.  Large oil lamps
+hang from wooden posts, giving off their faint yellow glow in the evening hours
+to allow the square to be brigthly lit.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 9568 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9567 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9587 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9589 0 0 0 0 0 0 0 0
+S
+#9591
+Cobble Way~
+   You are walking along a street paved with cobblestones.  The rough surface
+allows you to keep good traction even during the heavy rains.  This road heads
+directly northwest of the central square, heading towards the tavern just up
+ahead.  Various people pass by you on their way to and from the tavern, some
+staggering quite a bit.  Oil lamps hang from posts positioned along the edge of
+the road, they give off their faint yellow glow in the evening hours, allowing
+for safe passage through the town at dark.  Southwest of you is the central
+sqare, the fountain area is full of people sitting and chatting with one
+another.  Continuing along this road you will end up at the tavern, the sounds
+of music and drunkards can faintly be heard coming from inside.    
+~
+95 0 f 0 0  1
+D6
+~
+~
+0 0 9592 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9586 0 0 0 0 0 0 0 0
+S
+#9592
+Cobble Way~
+   You are walking along a street paved with cobblestones.  The rough surface
+allows you to keep good traction even during the heavy rains.  This road heads
+directly northwest of the central square, heading towards the tavern just up
+ahead.  Various people pass by you on their way to and from the tavern, some
+staggering quite a bit.  Oil lamps hang from posts positioned along the edge of
+the road, they give off their faint yellow glow in the evening hours, allowing
+for safe passage through the town at dark.  Southwest of you is the central
+sqare, the fountain area is full of people sitting and chatting with one
+another.  Continuing along this road you will end up at the tavern, the sounds
+of music and drunkards can faintly be heard coming from inside.    
+~
+95 0 f 0 0  1
+D6
+~
+~
+0 0 9593 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9591 0 0 0 0 0 0 0 0
+S
+#9593
+Cobble Way~
+   You are walking along a street paved with cobblestones.  The rough surface
+allows you to keep good traction even during the heavy rains.  This road heads
+directly northwest of the central square, heading towards the tavern just up
+ahead.  Various people pass by you on their way to and from the tavern, some
+staggering quite a bit.  Oil lamps hang from posts positioned along the edge of
+the road, they give off their faint yellow glow in the evening hours, allowing
+for safe passage through the town at dark.  Southwest of you is the central
+sqare, the fountain area is full of people sitting and chatting with one
+another.  Continuing along this road you will end up at the tavern, the sounds
+of music and drunkards can faintly be heard coming from inside.    
+~
+95 0 f 0 0  1
+D6
+~
+~
+0 0 9594 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9592 0 0 0 0 0 0 0 0
+S
+#9594
+Cobble Way~
+   You are walking along a street paved with cobblestones.  The rough surface
+allows you to keep good traction even during the heavy rains.  This road heads
+directly northwest of the central square, heading towards the tavern just up
+ahead.  Various people pass by you on their way to and from the tavern, some
+staggering quite a bit.  Oil lamps hang from posts positioned along the edge of
+the road, they give off their faint yellow glow in the evening hours, allowing
+for safe passage through the town at dark.  Southwest of you is the central
+sqare, the fountain area is full of people sitting and chatting with one
+another.  Continuing along this road you will end up at the tavern, the sounds
+of music and drunkards can faintly be heard coming from inside.    
+~
+95 0 f 0 0  1
+D6
+~
+~
+0 0 9595 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9593 0 0 0 0 0 0 0 0
+S
+#9595
+Cobble Way~
+   You are walking along a street paved with cobblestones.  The rough surface
+allows you to keep good traction even during the heavy rains.  This road heads
+directly northwest of the central square, heading towards the tavern just up
+ahead.  Various people pass by you on their way to and from the tavern, some
+staggering quite a bit.  Oil lamps hang from posts positioned along the edge of
+the road, they give off their faint yellow glow in the evening hours, allowing
+for safe passage through the town at dark.  Southwest of you is the central
+sqare, the fountain area is full of people sitting and chatting with one
+another.  Continuing along this road you will end up at the tavern, the sounds
+of music and drunkards can faintly be heard coming from inside.    
+~
+95 0 f 0 0  1
+D6
+~
+~
+0 0 9596 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9594 0 0 0 0 0 0 0 0
+S
+#9596
+Before the Tilting Mug~
+   You are standing in front of the local tavern.  The sound of muisc and
+laughter can be heard coming from inside the front doors.  As they swing open
+and closed people drift in and out of the tavern, some staggering quite a bit.
+The cobblestone road leads right up to the front doors, where a large canopy
+hangs over the front of the door, allowing people a place to dry their feet
+during the times of heavy rains.  Oil lamps hang from posts along the edge of
+the road, and on each side of the taverns doors, allow safe travel during the
+evening hours.  A sign which has been nailed to the wall next to the door says
+Tilting Mug.    
+~
+95 c 0 0 0  0
+D0
+~
+door~
+1 0 9597 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11492 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9595 0 0 0 0 0 0 0 0
+E
+sign~
+
+
+
+           /\ /\ oOo
+          | / \  OoOo
+          /     \OooOo
+          \       \OoO
+            \    /  oo
+              \/    O
+
+~
+S
+#9597
+Common Room of the Tilting Mug~
+   You are standing in the common room of the tavern.  The area is full of
+round wooden tables, where people sit eating and drinking.  Some getting rather
+tipsy, and loud as they continue to pour the ale down their throats.  Several
+people sit on stools which line the wooden bar in the far corner of the room.
+Directly to the left side of the bar is a metal winding staircase that leads up
+to the second floor.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 11400 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9598 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9596 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9599 0 0 0 0 0 0 0 0
+S
+#9598
+Common Room of the Tilting Mug~
+   You are standing in the common room of the tavern.  The area is full of
+round wooden tables, where people sit eating and drinking.  Some getting rather
+tipsy, and loud as they continue to pour the ale down their throats.  Several
+people sit on stools which line the wooden bar in the far corner of the room.
+Directly to the left side of the bar is a metal winding staircase that leads up
+to the second floor.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 11401 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9597 0 0 0 0 0 0 0 0
+S
+#9599
+Common Room of the Tilting Mug~
+   You are standing in the common room of the tavern.  The area is full of
+round wooden tables, where people sit eating and drinking.  Some getting rather
+tipsy, and loud as they continue to pour the ale down their throats.  Several
+people sit on stools which line the wooden bar in the far corner of the room.
+Directly to the left side of the bar is a metal winding staircase that leads up
+to the second floor.    
+~
+95 d 0 0 0  0
+D0
+~
+~
+0 0 11402 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9597 0 0 0 0 0 0 0 0
+S
+$

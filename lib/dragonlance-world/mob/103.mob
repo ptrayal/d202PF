@@ -1,0 +1,245 @@
+#10300
+midget dwarf~
+a midget dwarf~
+A midget dwarf waddles down the road thinking of something greater.
+~
+   This extremely small dwarf must be the smallest living dwarf in all of
+Krynn.  He stands near two two feet tall.  His body must be wider than his
+height.  He's walking on down the road thinking of greater things.  As part of
+the circus he must be one of the smaller attractions.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10301
+grubby performer~
+a grubby circus performer~
+A grubby looking circus performer is whipping at a caged beast.
+~
+   This large bellied man chuckles as he whips a helpless creature caged up in
+a cart.  He's smoking on a fancy pipe made of ivory.  His long black cloak is
+dragging behind his feet tearing the end of his fine garmet
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10302
+large man strongest~
+the worlds strongest man~
+A large man with enormous muscles is pulling a cart full of hay.
+~
+   This mammoth man has gigantic muscles.  The forearms this man has are the
+size of an average Elf's leg.  His head is clean shaven and shimmering as beads
+of sweat glisten on his skin.  This man lifts large objects and bends
+unbendable things for the circus.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This minotaur seems to have been born without horns.  This is certainly a
+#10304
+bearded elven lady~
+a bearded elven lady~
+A bearded elven lady gracefully rides upon a mule with a limp.
+~
+   Looking at this elven lady or is it man.  But wait, she certainly is a she.
+And an elf at that.  This is quite the strange sight.  This bearded elven woman
+is definately a unique being.  She is dressed in a fine linen gown.  He spindly
+brown hair is worn with a few thick braids.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10305
+middle aged animal trainer~
+a middle-aged animal trainer~
+A middle-aged animal trainer is mounted on an obese mule.
+~
+   This man has whipped his mule so many times its rear end is bleeding and
+heavily scarred.  He curses and spits at this poor beast constantly he trys to
+get the mule to move faster.  He abruptly shouts, 'Faster, foul wretch, faster!
+'.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10306
+extremely muscular plains cat~
+an extremely muscular plains cat~
+An extremely muscular plains cat breaks down the door that he's been caged in!
+~
+   This large plains cat has extremely defined muscles, which is surprising
+since he must be caged up so much.  His large paws are the same diameter as a
+humans head.  One could imagine the damage this cat could do to someones bare
+flesh.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10307
+elven man~
+an elven man disguised in leaves and mud~
+An elven man quickly climbs a tree while keeping close watch on the road.
+~
+   This elven scout is well disguised and hidden from the unscrutanized view of
+the common traveler.  He patiently waits for passerbys so he can tally how many
+and what kind of travelers are coming and going.  His body is covered in mud
+and leaves.  He blends in with his surrounding fairly easily.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10308
+exhausted sunburned human ~
+an exhausted, sunburned human~
+An exhausted, sunburned human drinks heavily from his canteen.
+~
+   Almost completely worn out, this human chugs water from his canteen at a
+dangerous rate.  He pays no attention to the fact that this is the only water
+he will have for hundreds of miles.  Torn cotton clothing covers his body,
+giving him little protection from the burning rays of the sun.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10309
+dying elven man~
+a dying elven man~
+An elven man lies here with a severely broken leg and no hope of survival.
+~
+His right leg extremely fractured, this elven man lies here awaiting his slow, 
+painful death.  The cause of the break is not apparent, but whatever it was had
+to have delivered the blow with enormous force.  He looks straight towards the
+sky and mumbles to himself.
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

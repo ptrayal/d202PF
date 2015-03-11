@@ -1,0 +1,459 @@
+#6500
+halex~
+Halex~
+Halex eyes his tenants carefully, keeping the inn as safe as possible.
+~
+   After having served many years as a guard in the city of Sanction, this
+gaunt man decided to hang up his sword and settle as the local innkeeper.  His
+clothes are not fine, but of better quality than most of the residents of
+Sanction.
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6501
+Kalkar~
+Kalkar~
+Kalkar stands here keeping a close eye on his wares.
+~
+   The human before you slinks behind his counter.  His piercing eyes size you
+up, peering most intently at your coinpurse.  His scrawny frame causes him to
+slouch as he walks.  Greasy thinning hair covers his head
+~
+bd 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6502
+Drax~
+Drax~
+Drax, the weaponsmith of Sanction stands here.
+~
+   Standing tall is a large, burly human.  He stands behind his counter,
+hawking his wares.  In his belt, two knives rest in sheaths.  He pulls one out
+and twirls it casually between his fingers.  His shock of dark black hair is
+combed severely back from his eyes.    
+~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6503
+Teniqua~
+Teniqua~
+Teniqua twirls a long braid of hair and watches her shop.
+~
+   Before you stands an older woman, wearing long robes of a dark brown color.
+Her long, if somewhat unkept hair falls down her back.  She twirls about
+studying her goods, making sure they are all in order for shoppers.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6504
+Thorlin~
+Thorlin~
+Thorlin greedily counts some coins.
+~
+   Peering greedily from behind his counter, Thorlin rubs his hands together
+slowly.  His belt is loaded down with pouches, jingling with the sounds of
+coins clanking against each other.  He is almost completely bald, with a
+crooked nose and relatively small beety eyes staring out of a scubby face.    
+~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6505
+black priest takhisis robes~
+a high priest of Takhisis~
+A tall man donned in the black robes of a high priest to Takhisis stands here.
+~
+   Standing tall and imposing is the high priestess of Takhisis.  His eyes peer
+out from a midnight colored robe.  Strong, yet supple hands hold a staff as he
+prays to his god.  He gives you an intrigued look, yet continues with his
+meditation.    
+~
+d 0 0 0 k 0 0 0 -1000
+30 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6506
+dockworker worker~
+a dockworker~
+A dockworker looks tipsy as he staggers by carrying a large crate.
+~
+   Wearing fairly grubby clothes, this dock worker moves with a steady gait.  
+He looks relatively trim and muscled, as well as severely tanned from time
+spent on the docks.  He trudges past without any acknowledgement of your
+presence.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6507
+guard town burly~
+a burly, town guard~
+A burly, town guard patrols the streets with a sneer.
+~
+   The human before you is bulky in size, yet not extremely tall.  His face is
+covered by whisps of unshaven hair, and his eyes betray extreme boredom.  His
+armor is worn in places, but his weapon looks to be in good order, as well as
+being oft-used.    
+~
+d 0 0 0 k 0 0 0 -900
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6508
+cat alley mangey~
+a mangey alley cat~
+A mangey alley cat looks for food.
+~
+   A small cat sniffs around in the refuse and garbage piled along the streets
+of Sanction.  Large patches of fur are missing from the hide of this animal.  
+A large red welt is visible on the side of the cat, presumably from the kick of
+a boot.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6509
+goblin squat~
+a squat legged goblin~
+A squat legged goblin waddles along picking up trash.
+~
+   Sniveling and sniffing around as it walks, this goblin wears little but a
+loincloth, and some grubby pieces of cloth.  It picks its nose and giggles
+strangely as it picks through refuse on the sides of the street.    
+~
+d 0 0 0 k 0 0 0 -900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6510
+merchant street thrifty~
+a street merchant~
+A thrifty street merchant walks by, pushing a cart of goods.
+~
+   The merchant standing here is dress impeccably, consider the sulfurous
+surroundings.  He pushes his cart slowly along the street, dodging piles of
+garbage and children as he goes.  He calls loudly to the travelling citizens,
+attempting to sell his goods.    
+~
+d 0 0 0 k 0 0 0 -350
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6511
+noblewoman pudgy~
+a pudgy noblewoman~
+Looking around distainfully, a pudgy noblewoman struts by.
+~
+   The woman standing before you wears a relatively finely made dress, however
+years of inactivity have caused the dress to fit poorly.  Her hair is combed
+into a severe bun on the top of her head.  She gives you a haughty look, and
+turns away
+~
+d 0 0 0 k 0 0 0 -500
+3 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6512
+Nuimyn postmaster~
+Nuimyn~
+Hunched and overly wrinkled, Nuimyn offers his courier services.
+~
+   Ancient in appearance, Nuimyn is wrinkled beyond most you have ever
+encountered.  Grumbling to himself, you can occasionally make out comments
+about bad weather and the tardiness of the mail riders.  When he sees you
+standing here, he snaps his fingers and motions with his arms for you to speak
+your business quickly.    
+~
+d 0 0 0 k 0 0 0 500
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6513
+guard temple~
+the temple guard~
+An aged, grumpy man in red armour guards the temple entrance.
+~
+   Weathered and aged, the temple guard eyes you suspiciously, muttering under
+his breath.  A well used red breastplate rests tightly over his shoulders, and
+a gleaming sword is held across his chest.    
+~
+d 0 0 0 k 0 0 0 -700
+3 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6514
+guard town burly~
+a burly, town guard~
+A burly, town guard patrols the streets with a sneer.
+~
+   The human before you is bulky in size, yet not extremely tall.  His face is
+covered by whisps of unshaven hair, and his eyes betray extreme boredom.  His
+armor is worn in places, but his weapon looks to be in good order, as well as
+being oft-used.    
+~
+d 0 0 0 k 0 0 0 -900
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6515
+guard town burly~
+a burly, town guard~
+A burly, town guard patrols the streets with a sneer.
+~
+   The human before you is bulky in size, yet not extremely tall.  His face is
+covered by whisps of unshaven hair, and his eyes betray extreme boredom.  His
+armor is worn in places, but his weapon looks to be in good order, as well as
+being oft-used.    
+~
+d 0 0 0 k 0 0 0 -900
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6516
+dockkeeper againg white haired~
+an aging, white-haired dockkeeper~
+An aging, white-haired dockkeeper leans against the sign chewing on something.
+~
+   This derelict of a man has obviously spent his entire life by the sea.  His
+face is draped with leathery skin stretched tight by the salt air.  He wears a
+dirty, off-white shirt with black and white striped pants, making him look
+rather rediculous despite his apprantly constant sneer.  He leans against a
+nearby wooden sign, occasionally spitting some sort of black goo from his
+chewing maw.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

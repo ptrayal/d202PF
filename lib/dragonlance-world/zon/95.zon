@@ -1,0 +1,342 @@
+#95
+None.~
+Lord Anias' Estate~
+9500 9599 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+O 0  9501     1  9503   0   100     1    -1          0 a large covered wagon.
+
+D 0  9503     4     1   0   101     2    -10 
+
+O 0  9502     1  9504   0   100     3    -1          0 a small wooden crate
+
+M 0  9502     1  9504   1   100     4    -1          0 a young graceful woman
+
+M 0  9501     1  9504   1   100     5    -1          0 a sleeping child
+
+D 0  9504     5     1   0   101     6    -10 
+
+O 0  9500     1  9511   0   100     7    -1          0 a large wooden sign
+
+D 0  9514     3     1   0   101     8    -10 
+
+M 0  9503     1  9514   1   100     9    -1          0 a young stablehand
+
+D 0  9518     2     1   0   101    10    -10 
+
+M 0  9505    10  9518   1   100    11    -1          0 an aging spotted mare
+
+M 0  9504     5  9518   2   100    12    -1          0 a stout brown horse
+
+M 0  9504     5  9518   2   100    13    -1          0 a stout brown horse
+
+D 0  9519     0     1   0   101    14    -10 
+
+M 0  9504     5  9519   1   100    15    -1          0 a stout brown horse
+
+M 0  9507     3  9519   1   100    16    -1          0 a pale brown horse
+
+M 0  9506     5  9519   1   100    17    -1          0 a large black stallion
+
+D 0  9520     2     1   0   101    18    -10 
+
+M 0  9508     1  9520   1   100    19    -1          0 a large stout warhorse
+
+D 0  9521     0     1   0   101    20    -10 
+
+M 0  9507    10  9521   1   100    21    -1          0 a pale brown horse
+
+M 0  9509     4  9521   2   100    22    -1          0 a stout white mare
+
+M 0  9509     4  9521   2   100    23    -1          0 a stout white mare
+
+D 0  9522     2     1   0   101    24    -10 
+
+M 0  9504    10  9522   1   100    25    -1          0 a stout brown horse
+
+M 0  9510     5  9522   1   100    26    -1          0 a large white stallion
+
+D 0  9523     0     1   0   101    27    -10 
+
+M 0  9507    10  9523   2   100    28    -1          0 a pale brown horse
+
+M 0  9507    10  9523   2   100    29    -1          0 a pale brown horse
+
+M 0  9509    10  9523   1   100    30    -1          0 a stout white mare
+
+D 0  9517     0     1   0   101    31    -10 
+
+D 0  9517     2     1   0   101    32    -10 
+
+D 0  9517     3     1   0   101    33    -10 
+
+D 0  9524     1     1   0   101    34    -10 
+
+M 0  9511     2  9526   2   100    35    -1          0 a burly stablehand
+
+M 0  9511     2  9526   2   100    36    -1          0 a burly stablehand
+
+M 0  9513     2  9540   1   100    37    -1          0 a young, slim woman
+
+M 0  9512     2  9540   1   100    38    -1          0 a charming powerful man
+
+M 0  9516     1  9541   1   100    39    -1          0 a hyper chubby boy
+
+M 0  9515     1  9541   1   100    40    -1          0 a tall smiling girl
+
+M 0  9514     1  9541   1   100    41    -1          0 a skinny clumsy boy
+
+D 0  9564     2     1   0   101    42    -10 
+
+M 0  9521     1  9563   1   100    43    -1          0 Garik, a pious holy man
+
+E 1  9504     5    12   0    20    44    43          0 a finely crafted cloak lined with golden embroidery
+
+D 0  9563     0     1   0   101    45    -10 
+
+M 0  9518    20  9549   1   100    46    -1          0 an elderly, frail man
+
+M 0  9517    20  9549   1   100    47    -1          0 a tall, burly man
+
+M 0  9520    15  9548   3   100    48    -1          0 a devout temple member
+
+M 0  9519    20  9548   1   100    49    -1          0 a young, cheerful woman
+
+M 0  9519    20  9555   1   100    50    -1          0 a young, cheerful woman
+
+M 0  9518    20  9554   1   100    51    -1          0 an elderly, frail man
+
+M 0  9519    20  9554   1   100    52    -1          0 a young, cheerful woman
+
+M 0  9519    20  9550   1   100    53    -1          0 a young, cheerful woman
+
+M 0  9520    15  9551   3   100    54    -1          0 a devout temple member
+
+M 0  9518    20  9551   1   100    55    -1          0 an elderly, frail man
+
+M 0  9520    15  9553   3   100    56    -1          0 a devout temple member
+
+M 0  9518    20  9553   1   100    57    -1          0 an elderly, frail man
+
+M 0  9518    20  9558   1   100    58    -1          0 an elderly, frail man
+
+M 0  9520    15  9559   3   100    59    -1          0 a devout temple member
+
+M 0  9517    20  9559   1   100    60    -1          0 a tall, burly man
+
+M 0  9519    20  9559   1   100    61    -1          0 a young, cheerful woman
+
+M 0  9519    20  9560   1   100    62    -1          0 a young, cheerful woman
+
+M 0  9517    20  9560   1   100    63    -1          0 a tall, burly man
+
+M 0  9517    20  9561   1   100    64    -1          0 a tall, burly man
+
+M 0  9518    20  9561   1   100    65    -1          0 an elderly, frail man
+
+M 0  9520    15  9556   3   100    66    -1          0 a devout temple member
+
+M 0  9518    20  9556   1   100    67    -1          0 an elderly, frail man
+
+M 0  9517    20  9556   1   100    68    -1          0 a tall, burly man
+
+M 0  9520    15  9552   3   100    69    -1          0 a devout temple member
+
+M 0  9520    15  9557   3   100    70    -1          0 a devout temple member
+
+O 0  9505     1  9568   0   100    71    -1          0 large marble fountain
+
+D 0  9596     0     1   0   101    72    -10 
+
+M 0  9527     4  9597   1   100    73    -1          0 a young, barmaid
+
+M 0  9526    10  9597   2   100    74    -1          0 a weathered, tired peasant
+
+D 0  9597     2     1   0   101    75    -10 
+
+M 0  9528     5  9599   2   100    76    -1          0 an elderly, dwarven male
+
+M 0  9526    10  9599   2   100    77    -1          0 a weathered, tired peasant
+
+M 0  9528     5  9598   2   100    78    -1          0 an elderly, dwarven male
+
+M 0  9527     4  9598   1   100    79    -1          0 a young, barmaid
+
+M 0  9526    10  9598   2   100    80    -1          0 a weathered, tired peasant
+
+M 0  9525    15  9513   2   100    81    -1          0 a member of the militia
+
+M 0  9525    15  9529   2   100    82    -1          0 a member of the militia
+
+M 0  9533     8  9531   1   100    83    -1          0 a woman in white robes
+
+M 0  9523    12  9531   1   100    84    -1          0 a young, graceful woman
+
+M 0  9522    15  9531   1   100    85    -1          0 a cheerful, smiling man
+
+M 0  9525    15  9531   2   100    86    -1          0 a member of the militia
+
+M 0  9522    15  9533   1   100    87    -1          0 a cheerful, smiling man
+
+M 0  9525    15  9533   2   100    88    -1          0 a member of the militia
+
+M 0  9525    15  9535   2   100    89    -1          0 a member of the militia
+
+M 0  9533     8  9565   1   100    90    -1          0 a woman in white robes
+
+M 0  9523    12  9565   1   100    91    -1          0 a young, graceful woman
+
+M 0  9522    15  9565   1   100    92    -1          0 a cheerful, smiling man
+
+M 0  9525    15  9565   2   100    93    -1          0 a member of the militia
+
+M 0  9533     8  9567   1   100    94    -1          0 a woman in white robes
+
+M 0  9524     6  9567   2   100    95    -1          0 a young playful child
+
+M 0  9525    15  9567   2   100    96    -1          0 a member of the militia
+
+M 0  9523    12  9587   1   100    97    -1          0 a young, graceful woman
+
+M 0  9525    15  9587   2   100    98    -1          0 a member of the militia
+
+M 0  9533     8  9582   1   100    99    -1          0 a woman in white robes
+
+M 0  9524     6  9582   2   100   100    -1          0 a young playful child
+
+M 0  9525    15  9582   2   100   101    -1          0 a member of the militia
+
+M 0  9525    15  9584   2   100   102    -1          0 a member of the militia
+
+M 0  9525    15  9588   2   100   103    -1          0 a member of the militia
+
+M 0  9523    12  9569   1   100   104    -1          0 a young, graceful woman
+
+M 0  9525    15  9569   2   100   105    -1          0 a member of the militia
+
+M 0  9522    15  9570   1   100   106    -1          0 a cheerful, smiling man
+
+M 0  9525    15  9570   2   100   107    -1          0 a member of the militia
+
+M 0  9524     6  9585   2   100   108    -1          0 a young playful child
+
+M 0  9522    15  9585   1   100   109    -1          0 a cheerful, smiling man
+
+M 0  9523    12  9583   1   100   110    -1          0 a young, graceful woman
+
+M 0  9522    15  9583   1   100   111    -1          0 a cheerful, smiling man
+
+M 0  9524     6  9591   2   100   112    -1          0 a young playful child
+
+M 0  9523    12  9591   1   100   113    -1          0 a young, graceful woman
+
+M 0  9522    15  9591   1   100   114    -1          0 a cheerful, smiling man
+
+M 0  9533     8  9593   1   100   115    -1          0 a woman in white robes
+
+M 0  9522    15  9593   1   100   116    -1          0 a cheerful, smiling man
+
+M 0  9522    15  9571   1   100   117    -1          0 a cheerful, smiling man
+
+M 0  9533     8  9589   1   100   118    -1          0 a woman in white robes
+
+M 0  9524     6  9589   2   100   119    -1          0 a young playful child
+
+M 0  9522    15  9589   1   100   120    -1          0 a cheerful, smiling man
+
+M 0  9533     8  9590   1   100   121    -1          0 a woman in white robes
+
+M 0  9523    12  9590   1   100   122    -1          0 a young, graceful woman
+
+M 0  9522    15  9590   1   100   123    -1          0 a cheerful, smiling man
+
+M 0  9522    15  9528   1   100   124    -1          0 a cheerful, smiling man
+
+M 0  9523    12  9566   1   100   125    -1          0 a young, graceful woman
+
+M 0  9533     8  9530   1   100   126    -1          0 a woman in white robes
+
+M 0  9523    12  9530   1   100   127    -1          0 a young, graceful woman
+
+M 0  9523    12  9581   1   100   128    -1          0 a young, graceful woman
+
+M 0  9524     6  9586   2   100   129    -1          0 a young playful child
+
+M 0  9533     8  9580   1   100   130    -1          0 a woman in white robes
+
+M 0  9524     6  9580   2   100   131    -1          0 a young playful child
+
+M 0  9533     8  9592   1   100   132    -1          0 a woman in white robes
+
+D 0  9515     1     1   0   101   133    -10 
+
+D 0  9515     0     1   0   101   134    -10 
+
+D 0  9515     2     1   0   101   135    -10 
+
+D 0  9516     2     1   0   101   136    -10 
+
+D 0  9516     0     1   0   101   137    -10 
+
+M 0  9536     1  9575   1   100   138    -1          0 Garinth, a short, balding clerk
+
+G 1  9518    15     0   0   100   139   138          0 a pair of copper greaves
+
+G 1  9517    15     0   0   100   140   138          0 a leather belt with a copper buckle
+
+G 1  9516    15     0   0   100   141   138          0 a heavy, gray cloak
+
+G 1  9515    15     0   0   100   142   138          0 a copper plated shield
+
+G 1  9514    15     0   0   100   143   138          0 a set of copper vambraces
+
+G 1  9513    15     0   0   100   144   138          0 a copper helm
+
+G 1  9512    15     0   0   100   145   138          0 a pair of fingerless leather gloves
+
+G 1  9511    15     0   0   100   146   138          0 a pair of copper chain mail boots
+
+G 1  9510    15     0   0   100   147   138          0 a set of white robes, lined with silver
+
+G 1  9509    15     0   0   100   148   138          0 a copper ring-mail vest
+
+G 1  9508    15     0   0   100   149   138          0 a sturdy leather vest
+
+M 0  9535     1  9577   1   100   150    -1          0 a tired smith in worn leather.
+
+G 1  9525    15     0   0   100   151   150          0 a copper shortsword
+
+G 1  9524    15     0   0   100   152   150          0 a copper-butted quarterstaff
+
+G 1  9523    15     0   0   100   153   150          0 a two-handed copper bladed sword
+
+G 1  9522    15     0   0   100   154   150          0 a thick-bladed copper longsword
+
+G 1  9521    15     0   0   100   155   150          0 a long-handled copper mace
+
+G 1  9520    15     0   0   100   156   150          0 a dagger with a short, copper blade
+
+G 1  9519    15     0   0   100   157   150          0 a copper longsword
+
+M 0  9534     1  9573   1   100   158    -1          0 a frail elderly man
+
+M 0  9537     1  9579   1   100   159    -1          0 Bawler, a tall, patient man
+
+G 1  9532   999     0   0   100   160   159          0 a deerskin sack
+
+G 1  9531   999     0   0   100   161   159          0 a tanned hide waterskin
+
+G 1  9530   999     0   0   100   162   159          0 a brick of cheddar cheese
+
+G 1  9529   999     0   0   100   163   159          0 a loaf of rye bread
+
+G 1  9528   999     0   0   100   164   159          0 a strip of beef jerky
+
+G 1  9527   999     0   0   100   165   159          0 a metal lantern, painted green
+
+G 1  9526   999     0   0   100   166   159          0 a wooden torch
+
+S
+$

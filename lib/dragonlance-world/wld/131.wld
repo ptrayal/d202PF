@@ -1,0 +1,1232 @@
+#13100
+Just Inside the Mansion~
+   Just towards the west of here one can enter, or exit the Mansion.  This
+mansion has been beautifully maintained, both inside and out.  The carpetting
+inside is a very plush, soft crimson, and no footsteps are even noticable upon
+it.  Beautiful paintings and murals line the walls through here, and exquisite
+hand-carved lanterns have been mounted every few feet.  Fantastic rosewood bars
+line either side of the walls, giving one something to hold onto.  Towards the
+north, another corridor leads, and two more stretch to both the northwest, and
+east of this entryway.    
+~
+131 dg f 0 0 0
+D0
+~
+~
+0 0 13101 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13105 0 0 0 0 0 0 0 0
+D3
+~
+doors~
+1 13017 13099 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13119 0 0 0 0 0 0 0 0
+S
+#13101
+A Northern Corridor~
+   This well maintained corridor is covered in the same plush crimson carpet as
+the other hallways in the palace, though in a few spots you can detect very
+slight wear on the carpet, denoting it is often used.  Nicely pruned plants lie
+within stone crafted hanging pots, and many more beautiful paintings lie upon
+the walls here.  Rosewood hand rails line either side of the hallway.    
+~
+131 dg f 0 0 0
+D0
+~
+~
+0 0 13102 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13100 0 0 0 0 0 0 0 0
+S
+#13102
+A Northern Corridor~
+   This well maintained corridor is covered in the same plush crimson carpet as
+the other hallways in the palace, though in a few spots you can detect very
+slight wear on the carpet, denoting it is often used.  Nicely pruned plants lie
+within stone crafted hanging pots, and many more beautiful paintings lie upon
+the walls here.  Rosewood hand rails line either side of the hallway.  Doors
+lie on both the east and west side of this corridor, and a stairway leads up
+towards the second story.    
+~
+131 dg f 0 0 0
+D1
+A beautiful hand carved door has been placed in the wall here.
+~
+door oak~
+1 0 13103 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13101 0 0 0 0 0 0 0 0
+D3
+A beautiful hand carved door has been placed in the wall here.
+~
+door oak~
+1 0 13104 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 13122 0 0 0 0 0 0 0 0
+S
+#13103
+Within a Room~
+   A massive ironwood table dominates the center of this room, surrounded by
+chairs of matching design.  Lining all the walls here are framed paintings
+depicting scenes of war and battle.  In the center of the table, a map of
+Tarsis and it's surrounding areas have been carved, and some small ornamental
+figurines sit upon the map, probably denoting cavalry, or infantry units.    
+~
+131 dgD f 0 0 0
+D3
+A beautiful hand carved door has been placed in the wall here.
+~
+door oak~
+1 0 13102 0 0 0 0 0 0 0 0
+S
+#13104
+Within a Room~
+   This is a somewhat small room compared to most of the others in the mansion,
+but the setting is very tranquil.  A soft fire burns in a marble fireplace that
+has been placed in the center of the western wall.  Four very comfortable
+chairs sit in each corner, and by each chair is an intricately carved wooden
+stand.  Another larger table sits in the center of the room.    
+~
+131 dg f 0 0 0
+D1
+A beautiful hand carved door has been placed in the wall here.
+~
+door oak~
+1 0 13102 0 0 0 0 0 0 0 0
+S
+#13105
+A Hallway Through the Mansion~
+   This hallway through the mansion continues to both the east and the west.  
+In the northern section of the hallway, a large door has been placed.  Upon the
+door something has been written in an ancient, indecipherable language.  The
+plush crimson carpet still covers the floor here, and fantastic paintings line
+all walls, along with framed documents of law, and accomplishment.    
+~
+131 dg f 0 0 0
+D0
+A large oaken door dominates the wall here.
+~
+door oak~
+1 0 13121 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13106 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13100 0 0 0 0 0 0 0 0
+S
+#13106
+A Hallway Through the Mansion~
+   This hallway through the mansion continues to both the west and the north.
+Towards the north, the hallway winds around the beautifully decorated walls.  
+Upon the walls are many framed portraits and legal documents.  The plush
+crimson carpet still covers the floor here.  Near the west of here the entrance
+to the mansion can be seen.    
+~
+131 dg f 0 0 0
+D0
+~
+~
+0 0 13107 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13105 0 0 0 0 0 0 0 0
+S
+#13107
+A Hallway Through the Mansion~
+   This hallway through the mansion continues to both the east and the south.
+Towards the south, the hallway winds around to the front entrance of the
+mansion.  Upon the walls are many beautiful pictures hanging, and framed
+documents of many different types.  The deep crimson carpet still covers the
+floor here.    
+~
+131 dg f 0 0 0
+D1
+~
+~
+0 0 13108 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13106 0 0 0 0 0 0 0 0
+S
+#13108
+A Hallway Through the Mansion~
+   This hallway continues to wind through the mansion of the governor.  A very
+expensive looking crimson carpet coats the floor here, and many beautiful
+paintings lie upon the walls.  From what you've noticed, the halls seem to be
+fairly well guarded, and everything looks immaculate.    
+~
+131 dg f 0 0 0
+D0
+~
+~
+0 0 13109 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13107 0 0 0 0 0 0 0 0
+S
+#13109
+A Hallway Through the Mansion~
+   This hallway winds towards the northwest, to the back wall of the governor's
+mansion.  Fascinating carved and polished railings line both walls here, and
+there are lanterns of intricate craftsmanship mounted on the walls here to
+provide light.  The windows in here are very small, and up rather high.  You
+suspect it is to keep criminals from having an alternative entrance to the
+mansion.    
+~
+131 dg f 0 0 0
+D2
+~
+~
+0 0 13108 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13110 0 0 0 0 0 0 0 0
+S
+#13110
+A Hallway Through the Mansion~
+   This long hallway stretches both towards the east and the west.  The carpet
+here looks a little more worn than the rest of the carpet through the mansion.
+There is less light in this portion of the mansion, but still plenty enough to
+see clearly.  Fewer paintings cover the walls here, and there are little to no
+framed documents.  A few potted plants sit along the walls here, providing it
+with minimal decoration.    
+~
+131 dg f 0 0 0
+D3
+~
+~
+0 0 13111 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13109 0 0 0 0 0 0 0 0
+S
+#13111
+A Hallway Through the Mansion~
+   This long hallway stretches both towards the east and the west.  The carpet
+here looks a little more worn than the rest of the carpet through the mansion.
+There is less light in this portion of the mansion, but still plenty enough to
+see clearly.  Fewer paintings cover the walls here, and there are little to no
+framed documents.  A few potted plants sit along the walls here, providing it
+with minimal decoration.    
+~
+131 dg f 0 0 0
+D1
+~
+~
+0 0 13110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13112 0 0 0 0 0 0 0 0
+S
+#13112
+A Hallway Through the Mansion~
+   This long hallway stretches both towards the east and the west.  The carpet
+here looks a little more worn than the rest of the carpet through the mansion.
+There is less light in this portion of the mansion, but still plenty enough to
+see clearly.  Fewer paintings cover the walls here, and there are little to no
+framed documents.  A few potted plants sit along the walls here, providing it
+with minimal decoration.    
+~
+131 dg f 0 0 0
+D1
+~
+~
+0 0 13111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13113 0 0 0 0 0 0 0 0
+S
+#13113
+A Hallway Through the Mansion~
+   This long hallway stretches both towards the east and the west.  The carpet
+here looks a little more worn than the rest of the carpet through the mansion.
+There is less light in this portion of the mansion, but still plenty enough to
+see clearly.  Fewer paintings cover the walls here, and there are little to no
+framed documents.  A few potted plants sit along the walls here, providing it
+with minimal decoration.    
+~
+131 dg f 0 0 0
+D1
+~
+~
+0 0 13112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13114 0 0 0 0 0 0 0 0
+S
+#13114
+A Hallway Through the Mansion~
+   This long hallway stretches both towards the east and the west.  The carpet
+here looks a little more worn than the rest of the carpet through the mansion.
+There is less light in this portion of the mansion, but still plenty enough to
+see clearly.  Fewer paintings cover the walls here, and there are little to no
+framed documents.  A few potted plants sit along the walls here, providing it
+with minimal decoration.    
+~
+131 dg f 0 0 0
+D1
+~
+~
+0 0 13113 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13115 0 0 0 0 0 0 0 0
+S
+#13115
+A Hallway Through the Mansion~
+   This hallway winds towards the northeast, to the back wall of the governor's
+mansion.  Fascinating carved and polished railings line either wall here, and
+there are many lanterns of intricate craftsmanship mounted on the walls here to
+provide light.  The windows in here are very small, and up quite high.  You
+suspect it is to keep criminals from having any alternative entrances to the
+mansion.    
+~
+131 dg f 0 0 0
+D2
+~
+~
+0 0 13116 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13114 0 0 0 0 0 0 0 0
+S
+#13116
+A Hallway Through the Mansion~
+   This hallway continues to wind through the governor's mansion.  A very
+expensive looking crimson carpet continues to the coat the floor here, and many
+beautiful paintings lie upon the walls.  From what you've noticed, the halls
+seem to be fairly well guarded, and everything looks simply immaculate.    
+~
+131 dg f 0 0 0
+D0
+~
+~
+0 0 13115 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13117 0 0 0 0 0 0 0 0
+S
+#13117
+A Hallway Through the Mansion~
+   This hallway through the mansion continues to both the south and the west.
+To the south, the hallway winds around to the front entrance of the mansion.  
+Upon the walls here are many beautiful pictures depicting everything from
+scenes of war, to fantastic portraits of people in the city's past, along with
+framed documents of numerous different types, and languages.  The deep crimson
+carpet still covers the floor here.    
+~
+131 dg f 0 0 0
+D2
+~
+~
+0 0 13118 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13116 0 0 0 0 0 0 0 0
+S
+#13118
+A Hallway Through the Mansion~
+   This hallway through the mansion continues to both the east and the north.
+Towards the north, the hallway winds around the beautifully decorated walls.  
+Upon the walls are many framed portraits and legal documents.  The plush
+crimson carpet still covers the floor here.  Near the east of here, the
+entrance to the mansion can be seen.    
+~
+131 dg f 0 0 0
+D0
+~
+~
+0 0 13117 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13119 0 0 0 0 0 0 0 0
+S
+#13119
+A Hallway Through the Mansion~
+   This hallway through the mansion continues to both the southeast and west.
+In the northern section of the hallway, a large door has been placed.  Upon the
+door something has been written in an ancient, indecipherable language.  The
+plush crimson carpet still covers the floor here, and fantastic paintings line
+all walls, along with framed documents of law, and accomplishment.    
+~
+131 dg f 0 0 0
+D0
+A large oaken door dominates the wall here.
+~
+door oak~
+1 0 13120 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13118 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13100 0 0 0 0 0 0 0 0
+S
+#13120
+Within a Room~
+   This room is a bit messy, with bookshelves covering the faces of all walls.
+All of the bookshelves look to be filled with tomes and parchments, most of
+them of little or no interest to the average person.  A large desk sits in the
+center of the room, with two oaken chairs covered in a violet padding.    
+~
+131 dg f 0 0 0
+D2
+A large oaken door dominates the wall here.
+~
+door oak~
+1 0 13119 0 0 0 0 0 0 0 0
+S
+#13121
+Within a Room~
+   This room has a courtroom setting, with a large stand placed at the northern
+edge of the room.  To either side of the larger stand, two smaller stands sit.
+The floor is covered in recently polished cherry wood.  Large stands sit in all
+four corners of the room, wrought-iron lanterns atop all of them.    
+~
+131 dg f 0 0 0
+D2
+A large oaken door dominates the wall here.
+~
+door oak~
+1 0 13105 0 0 0 0 0 0 0 0
+S
+#13122
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on
+towards the east and west of here, and eventually curves in a southward
+direction.  Directly to the north of here, a large door has been placed upon
+the wall, and on it read the words, "The Governor".  The second story of the
+mansion also appears to be very well guarded, and is absolutely spotless.    
+~
+131 cdg f 0 0 0
+D0
+~
+door vallenwood~
+1 0 13142 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13129 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13123 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 13131 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13102 0 0 0 0 0 0 0 0
+S
+#13123
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and the lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on in
+either direction, leading you further along the halls of the second story.  
+This second story of the mansion also appears to be well guarded, and is
+absolutely spotless.    
+~
+131 cdg f 0 0 0
+D1
+~
+~
+0 0 13122 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13124 0 0 0 0 0 0 0 0
+S
+#13124
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and the lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on in
+either direction, leading you further along the halls of the second story.  
+This second story of the mansion also appears to be well guarded, and is
+absolutely spotless.    
+~
+131 cdg f 0 0 0
+D1
+~
+~
+0 0 13123 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 13130 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13125 0 0 0 0 0 0 0 0
+S
+#13125
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and the lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on in
+either direction, leading you further along the halls of the second story.  
+This second story of the mansion also appears to be well guarded, and is
+absolutely spotless.    
+~
+131 cdg f 0 0 0
+D1
+~
+~
+0 0 13126 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13124 0 0 0 0 0 0 0 0
+S
+#13126
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and the lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on in
+either direction, leading you further along the halls of the second story.  
+This second story of the mansion also appears to be well guarded, and is
+absolutely spotless.    
+~
+131 cdg f 0 0 0
+D1
+~
+~
+0 0 13127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13125 0 0 0 0 0 0 0 0
+S
+#13127
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and the lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on in
+either direction, leading you further along the halls of the second story.  
+This second story of the mansion also appears to be well guarded, and is
+absolutely spotless.    
+~
+131 cdg f 0 0 0
+D3
+~
+~
+0 0 13126 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13128 0 0 0 0 0 0 0 0
+S
+#13128
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and the lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on in
+either direction, leading you further along the halls of the second story.  
+This second story of the mansion also appears to be well guarded, and is
+absolutely spotless.    
+~
+131 cdg f 0 0 0
+D3
+~
+~
+0 0 13129 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 13132 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13127 0 0 0 0 0 0 0 0
+S
+#13129
+On The Second Floor~
+   Upon the second floor, you can already tell that it almost mirrors the
+first.  The same carpet covers the floors up here, and the lanterns of the same
+beauty have been mounted on the walls accordingly.  The hallway stretches on in
+either direction, leading you further along the halls of the second story.  
+This second story of the mansion also appears to be well guarded, and is
+absolutely spotless.    
+~
+131 cdg f 0 0 0
+D1
+~
+~
+0 0 13128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13122 0 0 0 0 0 0 0 0
+S
+#13130
+Within a Spired Tower~
+   A long spiraling stairway leads both up and down here, through the spired
+tower.  The stairs here look to be composed of a material such as mithril, and
+long golden etched rails line either side of the stairway.  The stairs hug the
+sides of the tower, forming a beautiful piece of artwork in themselves.    
+~
+131 cdg f 0 0 0
+D4
+~
+~
+0 0 13133 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13124 0 0 0 0 0 0 0 0
+S
+#13131
+Within a Spired Tower~
+   A long spiraling stairway leads both up and down here, through the spired
+tower.  The stairs here look to be composed of a material such as mithril, and
+long golden etched rails line either side of the stairway.  The stairs hug the
+sides of the tower, forming a beautiful piece of artwork in themselves.    
+~
+131 cdg f 0 0 0
+D4
+~
+~
+0 0 13134 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13122 0 0 0 0 0 0 0 0
+S
+#13132
+Within a Spired Tower~
+   A long spiraling stairway leads both up and down here, through the spired
+tower.  The stairs here look to be composed of a material such as mithril, and
+long golden etched rails line either side of the stairway.  The stairs hug the
+sides of the tower, forming a beautiful piece of artwork in themselves.    
+~
+131 cdg f 0 0 0
+D4
+~
+~
+0 0 13135 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13128 0 0 0 0 0 0 0 0
+S
+#13133
+Atop a Spired Tower~
+   You now stand atop of one of the three spired towers of the governor's
+mansion.  As the tower reaches a climax, you can see almost the whole city
+through the open windows.  The floor of the tower is composed of a highly
+polished wood, and beautiful emerald colored rugs cover the middle area of it.
+To the west of here lies a large oak door.    
+~
+131 dg f 0 0 0
+D3
+~
+door oak~
+1 0 13138 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13130 0 0 0 0 0 0 0 0
+S
+#13134
+Atop a Spired Tower~
+   You now stand atop of one of the three spired towers of the governor's
+mansion.  As the tower reaches a climax, you can see almost the whole city
+through the open windows.  The floor of the tower is composed of a highly
+polished wood, and beautiful emerald colored rugs cover the middle area of it.
+To the south of here lies a large oak door.    
+~
+131 dg f 0 0 0
+D2
+~
+door oak~
+1 0 13137 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13131 0 0 0 0 0 0 0 0
+S
+#13135
+Atop a Spired Tower~
+   You now stand atop of one of the three spired towers of the governor's
+mansion.  As the tower reaches a climax, you can see almost the whole city
+through the open windows.  The floor of the tower is composed of a highly
+polished wood, and beautiful emerald colored rugs cover the middle area of it.
+To the east of here lies a large oak door.    
+~
+131 dg f 0 0 0
+D1
+~
+door oak~
+1 0 13136 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13132 0 0 0 0 0 0 0 0
+S
+#13136
+Inside a Well-Maintained Study~
+   This large study is dominated by a large desk in the middle of the room.  A
+thick, comfortable looking carpet covers the floor here, and the walls have
+been painted a handsome color of ivory.  On the northern most wall, a large
+portrait of Lord Murat lies, a depiction that could have only been him as a
+younger man.    
+~
+131 dg f 0 0 0
+D3
+~
+door oak~
+1 0 13135 0 0 0 0 0 0 0 0
+S
+#13137
+Inside an Exquisite Room~
+   This room is simply exquisite.  The floor here is composed of polished
+rosewood, and the walls have been painted an absolutely breathtaking emerald
+green.  Mounted onto the ceiling, a large crystal chandalier hangs, sixteen
+white candles gracing the face of it.  A very comfortable looking leather chair
+sits in the far northeast corner of the room, along with a small rosewood table
+beside it.  A fireplaces burns on the wall in the south.    
+~
+131 dg f 0 0 0
+D0
+~
+door oak~
+1 0 13134 0 0 0 0 0 0 0 0
+S
+#13138
+Inside a Dark Stone Chamber~
+   This chamber is very dark and dismal.  The walls, ceiling, and floor are all
+composed of a slate gray stone.  The air is cold and stale, and makes it
+somewhat hard to breathe.  There are no decorations in the room, which is very
+unlike all of the others.  A very large, uncomfortable looking wooden chair
+sits in the southern portion of the room, and a fireplace lies in the north, it
+is not burning, however.  Towards the east is the exit to this dreary room.  
+~
+131 adg 0 0 0 0
+D1
+~
+door oak~
+1 0 13133 0 0 0 0 0 0 0 0
+S
+#13139
+The North Gate~
+   A large arched stone wall creates a a place for a gate here.  The gate is
+made of fairly new looking wrought iron.  The gate is absolutely massive,
+looking to be large enough to accomodate a whole army to walk through it at
+once, along with wagons, horses, and whatever else they may bring.  The gate
+looks very solid, and is bolted into the stone walls very tightly.    
+~
+131 cp fh 0 0 1
+D0
+~
+gate~
+1 0 13145 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+0 0 13024 0 0 0 0 0 0 0 0
+S
+#13140
+The East Gate~
+   A large arched stone wall creates a a place for a gate here.  The gate is
+made of fairly new looking wrought iron.  The gate is absolutely massive,
+looking to be large enough to accomodate a whole army to walk through it at
+once, along with wagons, horses, and whatever else they may bring.  The gate
+looks very solid, and is bolted into the stone walls very tightly.    
+~
+131 cp fh 0 0 1
+D1
+~
+gate~
+1 0 13150 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13029 0 0 0 0 0 0 0 0
+S
+#13141
+The South Gate~
+   A large arched stone wall creates a a place for a gate here.  The gate is
+made of fairly new looking wrought iron.  The gate is absolutely massive,
+looking to be large enough to accomodate a whole army to walk through it at
+once, along with wagons, horses, and whatever else they may bring.  The gate
+looks very solid, and is bolted into the stone walls very tightly.    
+~
+131 cp fh 0 0 1
+D0
+~
+~
+0 0 13038 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 14199 0 0 0 0 0 0 0 0
+S
+#13142
+Before The Governor's Chamber~
+   This room is very spacious and well kept.  There are framed documents on the
+wall here explaining proper royal protocol, and all of the laws of the city are
+also posted for visitor viewing.  There is a large door to the north of here,
+and also one on the south wall.  A deep azure rug covers the middle of the
+room, and the rest of the floor is composed of a highly polished wood.    
+~
+131 cd f 0 0 0
+D0
+~
+doors ironwood~
+1 13107 13143 0 0 0 0 0 0 0 0
+D2
+~
+door vallenwood~
+1 0 13122 0 0 0 0 0 0 0 0
+S
+#13143
+The Governor's Chamber~
+   This room is the elaborate personal chamber of the governor.  The walls here
+are graces with absolutely fantastic murals.  There is a large throne in the
+middle of the room, in which the governor normally takes his seat.  A very
+fancy and obviously expensive carpet graces the floor here, a cream ivory in
+color.  Upon the ceiling a window lies, letting in the sunlight, or moonlight,
+depending on the time of the day.    
+~
+131 cd f 0 0 0
+D0
+~
+vault iron~
+1 13106 13144 0 0 0 0 0 0 0 0
+D2
+~
+doors ironwood~
+1 13107 13142 0 0 0 0 0 0 0 0
+S
+#13144
+The Treasure Room~
+   Within the treasure room, you can see how secure the vault truly is.  The
+walls are made of solid steel, and if they are the same density as the door
+frame, you suspect the walls are more than six inches thick.  The floor of the
+room is made of a heavy wood, probably either ironwood or oak.  The chamber is
+somewhat dark, making it difficult to see things very clearly at all.    
+~
+131 ad 0 0 0 1
+D2
+~
+vault iron~
+1 13106 13143 0 0 0 0 0 0 0 0
+S
+#13145
+Before the City of Tarsis~
+   To the north now lie the Plains of Dust, and to the south of here is the
+North Gate to Tarsis the Beautiful.  A great wall surrounds the city, or at
+least most of the city.  You can hear the sounds of people within the town, but
+it isn't bustling as you may have expected before.  The city is well lit, and
+looks to be at least a somewhat friendly place.    
+~
+131 cp 0 0 0 2
+D0
+~
+~
+0 0 13146 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 13139 0 0 0 0 0 0 0 0
+S
+#13146
+Nearing the City of Tarsis~
+   Just towards the south of here, you can see that this road leads you
+directly through a gate in the wall of the great city.  The walls surrounding
+the city tower quite high into the air, and you can see many guard towers that
+have been placed along them.  The walls look to be in need of some repair, but
+would probably still be sturdy enough to defend the city easily.    
+~
+131 cp 0 0 0 2
+D0
+~
+~
+0 0 13147 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 16818 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13145 0 0 0 0 0 0 0 0
+S
+#13147
+Nearing the City of Tarsis~
+   Continuing to travel south will eventually lead one right into the city of
+Tarsis, and returning north leads back into the Plains of Dust.  In the south,
+it can be easily seen that a towering wall dominates the outer portion of the
+city, and although it may be in need of a little repair, it still creates a
+very formidable defensive barrier.    
+~
+131 cp 0 0 0 2
+D2
+~
+~
+0 0 13146 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13148 0 0 0 0 0 0 0 0
+S
+#13148
+A Road to the City of Tarsis~
+   The path here is well worn, and looks to be often traveled.  Gravels cover
+much of the road here, and what isn't covered by gravel is simply dirt.  Other
+than your footsteps, it seems to be very quiet in this area.  Not even the
+sound of animals can be heard.  The road stretches forth towards the southeast,
+nearing Tarsis, but also continues to the northwest leading back to the Plains
+of Dust.    
+~
+131 cp 0 0 0 2
+D6
+~
+~
+0 0 13149 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13147 0 0 0 0 0 0 0 0
+S
+#13149
+A Road to the City of Tarsis~
+   At the bottom of this small hill, it brings you level with the base of the
+city walls of Tarsis, which are a ways towards the southeast of here.  It can
+be seen that the walls tower into the sky, making only the biggest of buildings
+viewable from a distance.  Following the path to the southeast will eventually
+lead one into the city of Tarsis, or traveling back up the incline will return
+to the Plains of Dust.    
+~
+131 cp 0 0 0 2
+D4
+~
+~
+0 0 10194 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13148 0 0 0 0 0 0 0 0
+S
+#13150
+Before the City of Tarsis~
+   To the east now lie the Plains of Dust, and to the west is the famous city
+of Tarsis the Beautiful.  A great wall surrounds the city, or at least most of
+the city.  You can hear the sounds of people within the town, but it isn't as
+bustling as you may have expected before.  The city is well lit, and looks to
+be at least a somewhat friendly place.    
+~
+131 cp 0 0 0 2
+D1
+~
+~
+0 0 13152 0 0 0 0 0 0 0 0
+D3
+~
+gate~
+1 0 13140 0 0 0 0 0 0 0 0
+S
+#13151
+Outside the Gate~
+   After stepping out of the South Gate, a bitter, cold wind can already be
+felt coming from the south.  The sky has grown darker, and is gray, and the
+wind just continues to blow harder.  Just a few steps to the north of here,
+Tarsis the Beautiful lies.    
+~
+131 p 0 0 0 0
+D0
+~
+gate~
+2 0 13141 0 0 0 0 0 0 0 0
+S
+#13152
+Nearing the City of Tarsis~
+   Towards the west of here lies the famouns port city of Tarsis the Beautiful.
+In the east lie the Plains of Dust.  The road here is fairly quiet, and covered
+mostly in gravel.  The parts of the road that are not covered in gravel are
+simply composed of nothing other than dirt.  This road is not very worn,
+showing signs of little to no travel.    
+~
+131 cp 0 0 0 2
+D3
+~
+~
+0 0 13150 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13153 0 0 0 0 0 0 0 0
+S
+#13153
+A Road Between Tarsis and the Plains of Dust~
+   This gravel covered road leads between Tarsis the Beautiful, a famous port
+city, and the Plains of Dust, a basically desolate area.  Most of the road is
+covered in gravel, but parts of it are simply dirt.  The road here is very
+quiet, and shows little to no signs of wear, indicating few travelers have
+passed.    
+~
+131 cp 0 0 0 2
+D6
+~
+~
+0 0 13152 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13154 0 0 0 0 0 0 0 0
+S
+#13154
+A Road Between Tarsis and the Plains of Dust~
+   This gravel covered road leads between Tarsis the Beautiful, a famous port
+city, and the Plains of Dust, a basically desolate area.  Most of the road is
+covered in gravel, but parts of it are simply dirt.  The road here is very
+quiet, and shows little to no signs of wear, indicating few travelers have
+passed.    
+~
+131 cp 0 0 0 2
+D1
+~
+~
+0 0 13155 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13153 0 0 0 0 0 0 0 0
+S
+#13155
+A Road Between Tarsis and the Plains of Dust~
+   This gravel covered road leads between Tarsis the Beautiful, a famous port
+city, and the Plains of Dust, a basically desolate area.  Most of the road is
+covered in gravel, but parts of it are simply dirt.  The road here is very
+quiet, and shows little to no signs of wear, indicating few travelers have
+passed.    
+~
+131 cp 0 0 0 2
+D1
+~
+~
+0 0 13156 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13154 0 0 0 0 0 0 0 0
+S
+#13156
+A Road Between Tarsis and the Plains of Dust~
+   This gravel covered road leads between Tarsis the Beautiful, a famous port
+city, and the Plains of Dust, a basically desolate area.  Most of the road is
+covered in gravel, but parts of it are simply dirt.  The road here is very
+quiet, and shows little to no signs of wear, indicating few travelers have
+passed.    
+~
+131 cp 0 0 0 2
+D3
+~
+~
+0 0 13155 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13157 0 0 0 0 0 0 0 0
+S
+#13157
+A Road Between Tarsis and the Plains of Dust~
+   This gravel covered road leads between Tarsis the Beautiful, a famous port
+city, and the Plains of Dust, a basically desolate area.  Most of the road is
+covered in gravel, but parts of it are simply dirt.  The road here is very
+quiet, and shows little to no signs of wear, indicating few travelers have
+passed.    
+~
+131 cp 0 0 0 2
+D1
+~
+~
+0 0 13158 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13156 0 0 0 0 0 0 0 0
+S
+#13158
+A Road Between Tarsis and the Plains of Dust~
+   This gravel covered road leads between Tarsis the Beautiful, a famous port
+city, and the Plains of Dust, a basically desolate area.  Most of the road is
+covered in gravel, but parts of it are simply dirt.  The road here is very
+quiet, and shows little to no signs of wear, indicating few travelers have
+passed.    
+~
+131 cp 0 0 0 2
+D1
+~
+~
+0 0 13159 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13157 0 0 0 0 0 0 0 0
+S
+#13159
+Before the Plains of Dust~
+   Directly to the east lie the Plains of Dust.  A ways to the west, a large
+city can be seen, surrounded by a great wall.  The road leading towards the
+west of here is covered mainly in gravel, though parts of it are simply dirt.
+The gravel comes to an end here, and turns into a desolate looking area, and
+eventually just fades away into the plains.  The ground here shows little wear
+and tear, indicating few travelers have passed.    
+~
+131 cp 0 0 0 2
+D1
+~
+~
+0 0 7215 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13158 0 0 0 0 0 0 0 0
+S
+#13160
+Before the Inn of The Red Dragon~
+   You stand before the Inn of The Red Dragon.  This inn is one of the most
+popular places in the city of Tarsis.  A large building, composed mostly of
+brick and stone, is famous for serving and housing many of the travelers that
+have made their way into town.  Large oak double doors stand before you to the
+north, with a sign posted that reads "Welcome", a sure sign of hospitality to
+any tired man or woman.    
+~
+131 cp h 0 0 1
+D0
+~
+doors double~
+2 0 13161 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13058 0 0 0 0 0 0 0 0
+S
+#13161
+Within the Inn of The Red Dragon~
+This inn is currently closed for construction. You should not be here!
+~
+131 cp 0 0 0 0
+D2
+~
+doors double~
+2 0 13160 0 0 0 0 0 0 0 0
+S
+#13162
+Provisions and More~
+   A wonderful aroma stays within this shop.  The smell of fresh baked goods,
+fruits, and meats all gather together to create the smell of a feast.  The shop
+is very clean, and all of the foods have either been iced, or kept in air tight
+containers to preserve their freshness.  A large counter sits in the front of
+the room, along with a very nice padded oak chair.    
+~
+131 cdp fh 0 0 0
+D2
+~
+~
+0 0 13040 0 0 0 0 0 0 0 0
+S
+#13163
+Ye Olde Magic Shoppe~
+   This shop has a strange smell about it, probably because of all the herbs
+that are present.  Many different potions in flasks and beakers are in the room
+sitting on shelves and tables, and literally thousands of parchments and
+scrolls can be seen sitting on other shelves.    
+~
+131 cdp fh 0 0 0
+D0
+~
+~
+0 0 13040 0 0 0 0 0 0 0 0
+S
+#13164
+Quality Weapons~
+   This shop is well taken care of, in many cases throughout the room you can
+see weapons of various types, and quality.  A large counter sits on the east
+side of the room, with a large stool behind it.  The shop is practically
+spotless, much unlike other weapon shops you've been in before.    
+~
+131 cdp fh 0 0 0
+D0
+~
+~
+0 0 13041 0 0 0 0 0 0 0 0
+S
+#13165
+Armor of Legends~
+   This shop also works as a forge.  You can see an anvil and many hammers in
+the back of the room, also along with a burning forge.  Tongs of various sizes
+line the walls, and the smell of burning coals and hot steel overwhelms this
+room.  The hazy smoke and hot air make it somewhat difficult to breathe in
+here.    
+~
+131 cdp fh 0 0 0
+D0
+~
+~
+0 0 13042 0 0 0 0 0 0 0 0
+S
+#13166
+Drawn Parchments~
+   This is quite a tidy little shop.  The floors are made of hard oak, and are
+polished to perfection.  A large desk sits in the back corner of the room,
+along with a rather comfortable looking chair.  Numerous maps have been framed
+and hung on the walls in here as decoration, and the desk is totally covered in
+parchment, quills, and ink.  A small white candle sits upon the desk as well.
+~
+131 cdp fh 0 0 0
+D0
+~
+~
+0 0 13043 0 0 0 0 0 0 0 0
+S
+#13167
+The Bank of Tarsis~
+   This bank is very elegant in its craftmanship.  It has been constructed of a
+hard oak wood, and the inside walls have been painted a slate grey color.  
+From the ceiling hangs a beautiful crystal chandalier, the facing of it covered
+with perhaps hundreds of candles.  A large vault is built into the back wall,
+and looks to be composed strictly of steel.    
+~
+131 cdp fh 0 0 0
+D1
+~
+~
+0 0 13045 0 0 0 0 0 0 0 0
+S
+$~

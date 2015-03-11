@@ -1,0 +1,42 @@
+#151
+None.~
+Woodland Grove (Chem)~
+15100 15199 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 15106     1 15123   1   100     1    -1          0 an old druid
+
+E 1 15101     5    16   0   100     2     1          0 an oaken shillelagh
+
+M 0 15107     2 15123   2   100     3    -1          0 a spotted fawn
+
+M 0 15100     5 15114   5   100     4    -1          0 a small colorful grouse
+
+M 0 15101     5 15112   2   100     5    -1          0 a sharp billed woodcock
+
+M 0 15101     5 15108   2   100     6    -1          0 a sharp billed woodcock
+
+M 0 15102     5 15118   2   100     7    -1          0 a grey squirrel
+
+M 0 15102     5 15120   2   100     8    -1          0 a grey squirrel
+
+M 0 15103     5 15121   2   100     9    -1          0 a tiny chickadee
+
+M 0 15103     5 15119   2   100    10    -1          0 a tiny chickadee
+
+M 0 15104     5 15138   2   100    11    -1          0 an annoying red squirrel
+
+M 0 15104     5 15133   2   100    12    -1          0 an annoying red squirrel
+
+M 0 15105     5 15134   2   100    13    -1          0 a clumsy striped skunk
+
+M 0 15105     5 15137   2   100    14    -1          0 a clumsy striped skunk
+
+M 0 15108     5 15126   2   100    15    -1          0 a dark quilled porcupine
+
+M 0 15108     5 15129   2   100    16    -1          0 a dark quilled porcupine
+
+S
+$

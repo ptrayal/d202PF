@@ -1,0 +1,221 @@
+#9200
+shirt red black bethel~
+a red and black shirt~
+A red and black shirt lies here on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9201
+sleeves red black bethel~
+some red and black sleeves~
+Some red and black sleeves have been left here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 80 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9202
+pants red black bethel~
+some red and black pants~
+Some red and black pants have been dropped here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 80 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9203
+belt thin blue leather bethel~
+a thin, blue leather belt~
+A thin, blue leather belt has been left here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 80 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9204
+gloves thin silken white bethel~
+a set of thin, white silken gloves~
+A set of thin, white silken gloves lies here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 75 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9205
+sandals brown leather bethel~
+a pair of brown leather sandals~
+A pair of brown leather sandals lies here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 75 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9206
+pendant thin copper bethel~
+a thin copper pendant~
+A thin copper pendant lies on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 75 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 1 0
+#9207
+corn piece food~
+a piece of corn~
+A piece of corn lies here on the ground.~
+~
+19 0 v 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9208
+peas pea food handful~
+a handful of peas~
+Several plants bearing pea pods grow from the ground.~
+~
+19 0 v 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9209
+a wooden sign~
+a wooden sign~
+A wooden sign stands here.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+0
+D
+0
+E
+sign wooden~
+*******************************************
+*******************************************
+****                                   ****
+****       Passage to Palanthas.       ****
+****   Type 'board' to book passage.   ****
+****                                   ****
+****                                   ****
+****                                   ****
+****                                   ****
+*******************************************
+*******************************************
+****                                   ****
+****                                   ****
+****                                   ****
+****                                   ****
+****                                   ****
+****                                   ****
+~
+#9210
+a rolled piece of parchment~
+a rolled piece of parchment~
+A rolled piece of parchment lies here.~
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+100 0 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+0
+D
+0
+E
+rolled piece parchment~
+@Y
+Unfurling the parchment, it reads:
+
+Kalik,
+
+You are to have your men excavate this tunnel, and store our weapons
+and armor here for now.  We will be sending more men shortly, but for
+now we need you to excavate this cave until it is large enough to hold
+at least 3 talons of men.  Lord Cambal wants this island to be the
+staging grounds for our operation here in Palanthas, while Ariaken and
+his men train to the north.  Remember... your job, once this base is
+established, is to make quick strikes at palanthas by night.  Our allies
+in Palanthas will make sure our talons can get in, so the you will not
+have to worry about that.  I will be sending some our finest Kapak
+assassins as well, though for the time being they will be located at our
+secondary base.  For now, I will remain in hiding in the village,
+directing things from there.  Do not seek me out, I will get word to
+you whenever there is need.
+
+Do not fail me,
+
+Commander Galik
+@n
+~
+#9211
+a dragon-shaped silver ring~
+a dragon-shaped silver ring~
+A dragon-shaped silver ring lies here.~
+~
+11 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 41 0 0 0 0 0 0 0 0
+0 3816 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+0
+D
+0
+A
+24 10 0
+A
+13 5 0
+$~

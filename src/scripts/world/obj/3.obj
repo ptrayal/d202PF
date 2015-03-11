@@ -1,0 +1,138 @@
+#300
+spring small clear~
+a small spring~
+A small spring bubbles up clear water before you.~
+~
+23 0 0 0 0 a 0 0 0 0 0 0 0
+99999 99999 15 0 100 100 0 39 0 0 0 0 0 0 0 0
+999999 0 0 0
+Z
+0
+#301
+shillelagh oaken~
+an oaken shillelagh~
+A piece of oak wood has been tossed aside.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+21 1 7 5 100 100 0 12 0 0 0 0 0 0 0 0
+7 10 2 0
+Z
+4
+#302
+dagger tarnished silver~
+a tarnished silver dagger~
+A well worn dagger has been stuck into the ground here.~
+   This silver dagger has seen better days.  Years of neglect have left this
+dagger tarnished and dull.  
+~
+5 0 0 0 0 ano 0 0 0 0 0 0 0
+2 1 6 11 100 100 0 11 1 0 0 0 0 0 0 0
+2 1000 1 1
+Z
+3
+#303
+chest wooden old~
+an old wooden chest~
+A old wooden chest sits here.~
+   This wooden chest looks to be old and battered.  Despite its age, it can
+still keep items safe.  
+~
+15 cq 0 0 0 0 0 0 0 0 0 0 0
+100 15 304 0 100 100 0 12 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+4
+#304
+key iron~
+an iron key~
+A key crafted of iron has been left here.~
+   A old key made of iron.  
+~
+18 cq 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+2
+#305
+armor padded worn~
+a set of worn padded armor~
+A stained set of padded armor has been dropped.~
+   This old piece of padded armor has been stained and well used.  
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+10 1 8 0 100 100 5 20 0 0 0 0 0 0 0 0
+3 500 2 0
+Z
+4
+#306
+scimitar bronze~
+a bronze scimitar with druidic etchings~
+A bronze scimitar with druidic etchings lies here.~
+   The long blade on this sword has a sweeping curve in it.  The blade itself
+looks to be made of bronze.  
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+1 1 6 3 100 100 0 29 2 0 0 0 0 0 0 0
+5 22000 3 0
+Z
+4
+A
+2 1 0
+#307
+ring slender steel~
+a slender steel ring~
+A slender ring of steel rolls on the ground.~
+   A slender ring crafted of steel.  
+~
+11 i 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 9 0 0 0 0 0 0 0 0
+1 55000 0 0
+Z
+4
+A
+13 5 0
+#308
+globe white light~
+a globe of white light~
+A glowing globe of light shines in your eyes.~
+~
+1 a 0 0 0 ao 0 0 0 0 0 0 0
+0 0 -1 0 100 100 0 36 0 0 0 0 0 0 0 0
+1 25000 0 0
+Z
+0
+#309
+cloak drab brown~
+a drab brown cloak~
+A pile of brown cloth sits heaped into a pile.~
+~
+11 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 20 0 0 0 0 0 0 0 0
+2 55000 0 0
+Z
+4
+A
+14 10 0
+#310
+buckler wooden crafted~
+a well crafted wooden buckler~
+A small shield crafted of wood looks to be well made.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+0 0 0 0 100 100 5 12 0 0 0 0 0 0 0 0
+5 31000 0 0
+Z
+3
+A
+17 10 0
+#311
+pouch waist leather~
+a leather waist pouch~
+A pouch made of leather has been left here.~
+~
+15 0 0 0 0 al 0 0 0 0 0 0 0
+100 1 -1 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 12000 0 0
+Z
+4
+$~

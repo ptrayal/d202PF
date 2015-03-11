@@ -1,0 +1,462 @@
+#4800
+Flutedmace Mace Fluted~
+a small fluted mace~
+A small fluted mace lies here~
+~
+5 aixC 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0
+5 0 0 4
+Z
+3
+A
+4 1 0
+A
+27 150 0
+A
+1 -1 0
+#4801
+Fire Key~
+a Blazing red key~
+A key radiating immense heat lies here~
+~
+18 aqx 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0
+1 0 0 20
+Z
+0
+#4802
+Water Key~
+a wet key~
+A key with water seaping from it lies here~
+~
+18 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 10 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+0
+#4803
+A Stone key~
+a key made from stone~
+A stone key lies here collecting dust~
+~
+18 aqx 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 36 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+0
+#4804
+A wooden Key~
+a key made from wood~
+A wooden key lies here~
+~
+18 aqx 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+0
+#4805
+A dimensional key~
+a dimensional key~
+A key lies here flickering between our world and another~
+~
+18 afgqx 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 11 0 0 0 0 0 0 0 0
+0 0 0 20
+Z
+0
+#4806
+Flaming Dagger~
+a Flaming dagger~
+There is a flame in the shape of a dagger here~
+~
+5 agqxA 0 0 0 an 0 0 0 r 0 0 0
+2 1 4 11 100 100 0 7 1 17 10 1 0 0 0 0
+10 87995 0 25
+Z
+3
+A
+18 9 0
+A
+19 8 0
+A
+9 10 0
+A
+2 3 0
+A
+6 -4 0
+#4807
+Long Bow~
+a Natural Long Bow~
+A long bow made from vines and what looks like rough cut wood lies here~
+~
+5 agqxA 0 0 0 an 0 0 0 s 0 0 0
+43 1 8 6 100 100 1 8 0 10 100 14 0 0 0 0
+30 75 0 25
+Z
+5
+A
+2 4 0
+A
+1 -2 0
+A
+18 10 0
+A
+19 6 0
+#4808
+Ice Sword~
+a sword made of ice~
+A large piece of ice in the shape of a sword lies here~
+~
+5 agqxA 0 0 0 an 0 0 0 y 0 0 0
+29 1 6 3 100 100 0 10 2 2 0 11 0 0 0 0
+40 195876 0 25
+Z
+4
+A
+3 4 0
+A
+4 4 0
+A
+5 -3 0
+A
+18 9 0
+A
+19 9 0
+A
+35 1 0
+#4809
+Wind Sword~
+a sword of swirling winds~
+This mass of swirling winds make up the shape of a sword.~
+~
+5 afgqxA 0 0 0 an 0 0 0 ds e 0 0
+29 1 6 3 100 100 0 11 2 2 0 11 0 0 0 0
+40 265876 0 25
+Z
+4
+A
+2 4 0
+A
+6 2 0
+A
+5 -1 0
+A
+18 10 0
+A
+19 12 0
+#4810
+wand rod animal companions~
+an@W ivory@n wand~
+An@W ivory@n wand shaped like an animal is here.~
+~
+3 agqxAE 0 0 0 ao 0 0 0 0 0 0 0
+8 5 5 76 100 100 0 26 0 0 0 0 0 0 0 0
+1 65000 0 27
+Z
+1
+A
+38 1 0
+A
+1 -2 0
+A
+3 3 0
+A
+4 3 0
+A
+48 2 0
+#4811
+steel helmet~
+a steel helmet~
+A steel helmet is lying here~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 75 0 1
+Z
+4
+#4812
+warhammer hammer double headed~
+a double headed warhammer~
+A double headed @cMithril@n war hammer lies here~
+~
+5 agikqxACE 0 0 0 an 0 0 0 h 0 0 0
+31 1 8 5 100 100 1 13 0 2 0 9 0 0 0 0
+50 12 0 30
+Z
+4
+A
+6 3 0
+A
+31 2 0
+A
+27 150 0
+A
+2 -2 0
+A
+1 -1 0
+#4813
+dagger steel razor sharp~
+a @Wrazor sharp@n @wsteel@n @Ddagger@n~
+A @Wrazor sharp@n @wsteel@n @Ddagger@n is lying here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+2 1 4 11 100 100 0 7 1 17 10 1 0 0 0 0
+10 2 0 20
+Z
+2
+A
+2 1 0
+A
+28 2 0
+A
+29 2 0
+A
+3 -2 0
+#4814
+Foreman's Anvil~
+the Foreman's Anvil~
+The Foreman's Anvil sits here~
+~
+12 agx 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 12 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+E
+script rune runes dwarvish dwarfish etching etched~
+The Anvil is the key to life.  Stone is the catalyst of life.  Metal is the
+combining agent of life.  The Anvil is the key to life.  
+~
+#4815
+steel gauntlets~
+a set of steel gauntlets~
+A set of steel gauntlets lie here~
+~
+11 0 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+4 88 0 1
+Z
+4
+#4830
+studded leather jerkin armor~
+@ystudded leather@n jerkin~
+A studded leather jerkin lies here.~
+~
+11 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+200 25 0 1
+Z
+4
+#4831
+padded leather armor~
+a set of padded leather armor~
+A set of padded leather armor sits here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+20 1 6 0 100 100 10 2 30 2 20 0 0 0 0 0
+150 10 0 1
+Z
+4
+#4832
+leather armor soft wristguard guard wrist~
+soft@y leather@n wrist guards~
+A set of soft@y leather@n wrist guards are lying here.~
+~
+11 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+100 5 0 1
+Z
+4
+#4833
+gloves soft leather~
+a pair of soft leather gloves~
+A pair of soft leather gloves are lying here.~
+~
+11 0 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 5 0 0
+Z
+0
+#4834
+leather boots soft~
+a soft pair of leather boots~
+A soft pair of leather boots lie here.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 15 0 1
+Z
+4
+#4835
+soft leather helmet~
+a soft leather helmet~
+A soft leather helmet sits here.~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 15 0 1
+Z
+4
+#4836
+soft leather cloak~
+a soft leather cloak~
+A soft leather cloak lies here.~
+~
+11 0 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 15 0 1
+Z
+4
+#4837
+soft leather belt~
+a soft leather belt~
+A soft leather belt lies here.~
+~
+11 0 0 0 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 15 0 1
+Z
+4
+#4838
+soft leather cape~
+a soft leather cape~
+A soft leather cape lies here.~
+~
+11 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 15 0 1
+Z
+4
+#4890
+anvil station crafting~
+an anvil crafting station~
+An anvil crafting station is here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+5
+#4891
+forge crafting station~
+a stone forge crafting station~
+A stone forge crafting station is here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+1000 0 -1 0 100 100 0 36 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+0
+#4900
+tin stein ale~
+a@w tin stein@n~
+A@w tin stein@n~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+5 5 3 0 100 100 0 29 0 0 0 0 0 0 0 0
+10 5 0 1
+Z
+0
+#4901
+steel flaggon dark ale~
+a@w steel flaggon@n~
+A@w steel flaggon@n~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+7 7 4 0 100 100 0 7 0 0 0 0 0 0 0 0
+12 10 0 0
+Z
+0
+#4902
+stone mug firebreather~
+a@w stone mug@n~
+A@w stone mug@n~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+10 10 7 0 100 100 0 36 0 0 0 0 0 0 0 0
+15 30 0 0
+Z
+0
+#4903
+wooden cup fey wine~
+a@y wooden cup@n~
+A@y wooden cup@n~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+4 4 2 0 100 100 0 44 0 0 0 0 0 0 0 0
+9 65 0 1
+Z
+0
+#4908
+Stone Warhammer~
+a Stone Warhammer~
+A warhammer made from solid stone lies here~
+~
+5 agqxA 0 0 0 an 0 0 0 z 0 0 0
+31 1 8 5 100 100 1 35 0 2 0 9 0 0 0 0
+50 125000 0 25
+Z
+4
+A
+1 4 0
+A
+5 3 0
+A
+2 -3 0
+A
+18 9 0
+A
+19 12 0
+A
+9 -5 0
+#4920
+gargoyle eye eyes~
+a set of@D gargoyle@n@W eyes@n~
+A set of@D gargoyle@n@W eyes@n are here.~
+~
+8 a 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 36 0 0 0 0 0 0 0 0
+1 0 0 1
+Z
+0
+#4989
+orb wolf eye crystal~
+a crystal wolf's eye~
+A crystal orb in the shape of a wolf's eye lies here.~
+~
+3 agiqx 0 0 0 ao 0 0 0 e 0 0 0
+40 10 10 241 100 100 0 10 0 0 0 0 0 0 0 0
+10 0 0 20
+Z
+0
+#4990
+fountain well~
+a stone fountain on top of an old well~
+A stone fountain on top of an old well is here.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+1000 1000 0 0 100 100 0 36 0 0 0 0 0 0 0 0
+1005 0 0 1
+Z
+0
+#4991
+golden fleece wool~
+a@Y golden@y fleece@n~
+A@Y Golden@y Fleece@n lies here.~
+~
+8 aq a 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 24 0 0 0 0 0 0 0 0
+10 0 0 0
+Z
+0
+#4997
+Anvil Altar~
+a massive anvil~
+A massive anvil~
+~
+28 agx 0 0 0 0 0 0 0 0 0 0 0
+4820 0 -1 0 100 100 0 12 20 20 0 0 0 0 0 0
+250000 0 0 0
+Z
+6
+$~

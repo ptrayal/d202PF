@@ -1,0 +1,314 @@
+#2600
+axe cutters wood~
+a wood cutters axe~
+A wood cutters axe has been left here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+19 1 6 3 100 100 1 7 0 2 0 8 0 0 0 0
+30 7800 0 13
+Z
+3
+E
+axe wood cutters~
+   The blade of this axe is actually rather dull from being used often and
+sharpened rarely.  Its handle is anything but smooth, and as you hold it, a
+splinter jams into your thumb.    
+~
+A
+28 4 0
+A
+29 4 0
+#2601
+axe goblin crude~
+a crude goblin axe~
+A crude goblin axe rests on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+24 1 8 3 100 100 1 7 0 2 0 8 0 0 0 0
+60 7800 0 13
+Z
+4
+E
+axe crude goblin~
+   This axe has been fashioned from stone with a wooden handle.  The edge has
+been flaked off to bcome sharp, and it is stury, but the damage is meak
+compared to the better weapons known throughout Krynn.    
+~
+A
+28 4 0
+A
+29 4 0
+#2602
+dagger crude pointed~
+a crude, pointed dagger~
+A crude, pointed dagger has been left on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+2 1 4 11 100 100 0 7 1 17 10 1 0 0 0 0
+10 7800 0 13
+Z
+2
+E
+dagger crude pointed~
+   This dagger has a pointed edge with a chipped wooden handle.  The metal
+seems tarnished and blunt in a few areas, but can still injure an opponent
+seriously is placed correctly.    
+~
+A
+28 4 0
+A
+29 4 0
+#2603
+sword short dented~
+a dented shortsword~
+A dented shortsword has been left here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+23 1 6 11 100 100 0 7 1 2 0 1 0 0 0 0
+20 7800 0 13
+Z
+3
+E
+sword short dented~
+   This sword has a few dents which could easily be repaired, but apparently
+the owner has little care for such matters.    
+~
+A
+28 4 0
+A
+29 4 0
+#2604
+gloves leather pair~
+a pair of leather gloves~
+A pair of leather gloves collects dust on the ground.~
+~
+11 0 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+1 6600 0 12
+Z
+4
+E
+gloves leather pair~
+   These gloves are dry and cracked, but protect their wearer from the stinging
+that the clatter of battle puts on the hands.    
+~
+A
+2 3 0
+#2605
+shoes old leather~
+a pair of old leather shoes~
+A pair of old leather shoes has been left here.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 6600 0 12
+Z
+4
+E
+shoes old leather pair~
+   These shoes have seen a lot of walking in their day.  They are beaten and
+worn, and a small hole in the left shoe reveals the big toe of anyone wearing
+them.    
+~
+A
+5 3 0
+#2606
+vest leather cracked~
+a cracked leather vest~
+A cracked leather vest has been left here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+20 1 6 0 100 100 10 2 30 2 20 0 0 0 0 0
+150 9100 0 14
+Z
+4
+E
+vest leather cracked~
+   This armor appears usable, but has seen its day of battle.  The leather is
+cracked in some places, and one of the buckles is missing its end.    
+~
+A
+22 36 0
+#2607
+shortsword short sword iron~
+an iron shortsword~
+An iron shortsword has been left here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+23 1 6 11 100 100 0 7 1 2 0 1 0 0 0 0
+20 7800 0 13
+Z
+3
+E
+short sword shortsword iron~
+   This iron shortsword has a nick or two in its side, and has a blade that is
+somewhat blunt.  It can still do damage to its opponent in battle however, as
+is evident by a bit of dried blood that is caked into its hilt.    
+~
+A
+28 4 0
+A
+29 4 0
+#2608
+apron leather workman's~
+a workman's leather apron~
+A workman's leather apron has been left here.~
+~
+11 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+2 6600 0 12
+Z
+4
+E
+apron leather workman's~
+   This apron has been oiled and appears well kept.  It has two strings on
+either side for the wearer to tie it around his waist.  A small design of
+crossed hammers has been etched into the front of it.    
+~
+A
+46 6 844
+#2609
+vest chain mail crude~
+a crude chain mail vest~
+A crude chain mail vest has been left here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+40 1 4 -2 100 100 20 7 30 4 20 0 0 0 0 0
+250 19000 0 14
+Z
+4
+E
+vest chain mail~
+   This chain mail vest has a few kinks around its edges, and its difficult to
+fit into, but it serves its purpose on the battlefield.    
+~
+A
+22 50 0
+#2610
+rack torture large~
+a large torture rack~
+A large torture rack rests in the center of the room.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+4
+E
+rack torture large~
+   This torture rack has several compartments along its sides which may hold
+something valuable.  The sides of the rack are covered with blood that has
+dried with the passing of time.    
+~
+#2611
+whistle red wooden~
+a red, wooden whistle~
+A red, wooden whistle collects dust on the ground.~
+You Blow on a whistle as hard as your lungs allow.~
+3 0 0 0 0 ao 0 0 0 0 0 0 0
+20 50 20 282 100 100 0 8 0 0 0 0 0 0 0 0
+0 7800 0 13
+Z
+4
+E
+whistle red wooden~
+   This whistle is plain except for a small word on its side.  You can barely
+make out the word, it says "Animals.  "
+~
+#2612
+hand-axe hand axe small~
+a small hand-axe~
+A small hand-axe has been cast aside here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+19 1 6 3 100 100 1 7 0 2 0 8 0 0 0 0
+30 7800 0 13
+Z
+3
+E
+hand-axe hand axe small~
+   This small hand axe has a sharp blade, with a few nicks in it that mark its
+use in battle.    
+~
+A
+28 6 0
+A
+29 2 0
+#2613
+a necklance made of dwarven ears~
+a necklace made of dwarven ears~
+A necklace made of dwarven ears rests on the ground.~
+1~
+11 0 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+100 9000 0 14
+Z
+4
+E
+necklace ears dwarven~
+   This necklace has been made from a thin piece of twine taken from the body
+of an animal.  Adorning its circumferance are three large dwarven ears, a
+symbol of pride for the wearer who defeated these dwarves in battle.    
+~
+A
+4 4 0
+#2614
+bow short goblin~
+a goblin short bow~
+A goblin short bow rests on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+46 1 6 6 100 100 1 8 0 10 70 14 0 0 0 0
+20 7800 0 13
+Z
+3
+E
+bow short goblin~
+   This goblin short bow has been crafted from wood that bends easily and
+shifts back quickly.  The strong is made of animal wine.    
+~
+A
+28 4 0
+A
+29 4 0
+#2615
+greaves hardened leather~
+a set of hardened leather greaves~
+A set of hardened leather greaves lies here.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+4 9100 0 14
+Z
+4
+A
+17 36 0
+#2616
+boots chain mail bronze~
+a pair of bronze chain mail boots~
+A pair of bronze chain mail boots lie here.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 29 0 0 0 0 0 0 0 0
+40 19000 0 14
+Z
+4
+A
+1 5 0
+#2617
+sign~
+a half eaten, wooden sign~
+A half eaten, wooden sign sits in the ground.~
+~
+13 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+sign~
+Dis big Ugamug clans land. We know lik ntrudurs. Bware 4 ny who
+com n, well b eaten aliv.
+ ---Ugamug
+~
+$~

@@ -1,0 +1,263 @@
+#2201
+Welcome~
+Welcome~
+Oh thank you for your assistance, I am getting too fragile to be doing this
+adventuring thing anymore.  Be a dear and help cull the sparrow population in
+the Gardens of the Blue Phoenix, they keep eating the cotton seeds that I plant.
+If you kill five that should be enough to give my cotton a chance to grow tall
+and flower.  The Gardens of the Blue Phoenix is east five blocks, then north ,
+and then up.  Come back when you complete the task and I may have other things
+for you to do.  
+~
+You have sufficiently lowered the sparrow population in the Gardens of the Blue
+Phoenix, perhaps you should return to the mysterious old lady.  
+~
+You have abandoned the quest, that mysterious old lady can cull the sparrows
+herself.  You no longer care.  
+~
+3 2240 a 5000 -1 -1 -1
+5 0 1 61 -1 -1 5
+25 10 65535
+S
+#2202
+Thieving Squirrels~
+Thieving Squirrels~
+Oh dearie, you came back to help me...  Your here for another task...  Let me
+see.  You remember where the Gardens of the Blue Phoenix was, yes?  Well there
+are some grey haired squiirels there that just cannot keep their hands to
+themselves, they are giving the area a bad name.  Drive them off for me please,
+killing six of them should be enough.  
+~
+You have finally driven the grey haired squirrels from the Gardens of the Blue
+Phoenix, return to the mysterious old woman for your reward.  
+~
+Why assist a frail old woman when all she wants to do is have you kill vermin?
+Doesn't she know your more important than that.  
+~
+3 2240 a 5002 2201 -1 -1
+6 0 2 61 -1 -1 6
+30 20 65535
+S
+#2203
+Filthy Wabbits~
+Filthy Wabbits~
+   I want to say thank you for your help in the Gardens of the Blue Pheonix thus
+far.  The wildlife there has really begun to grow out of control, and it's
+beginning to cause a nuisance, between them eating the vegetation and having to
+constantly clean up their droppings...  We need a healthy balance between flora,
+fauna, and the ability for the city's citizens to just enjoy the park.  
+
+I do imagine you find these tasks beneath you, but the money is good I
+hope you find, and there is an underlying purpose involved as well.  I have
+one more task for you, if you'd do it.  Please quell the rising population of
+white rabbits in the gardens.  They are causing quite a bit of trouble and they
+breed like, well... rabbits.  Five should do for now... if their numbers continue
+to rise I will get you or someone else to help again.
+
+Do this and return to me and I might have something a little more meaningful for
+you.
+
+Be well and may the gods watch over you.
+
+~
+   You've completed the mysterious old lady's task of quelling the rabbit
+population in the Garden of the Blue Phoenix.  Return to her when you are able,
+as she mentioned she had another mission for you, one of significant importance
+this time.  
+~
+   You've decided that culling the rabbit population isn't quite something
+you're interested in.  The mysterious old lady's quest of 'importance' will just
+have to wait for now.  
+~
+3 2240 a 5003 2202 -1 -1
+10 0 3 61 -1 -1 5
+50 20 65535
+S
+#2204
+The Cold War~
+The Cold War~
+@C
+   Thank you for your efforts thus far.  I will let you know what is going on
+now.  These tasks were just to measure your basic trustworthiness and desire to
+help.  I need people willing to serve and assist against the troubles of this
+world, whether they be trivial or grand in scale.  
+
+As things turn out, what you will be getting involved in is more on the
+grand scale of things.  Though that is not to say there may be more,
+seemingly trivial tasks for you in the future.
+
+As for me, my name is Ferra Wingtie, and I am a druid of Habbakuk working
+for the Forces of Whitestone.  As I'm sure you know, the Forces of Whitestone
+are a collaboration of races and nations who signed the treaty during the War
+of the Lance at the Council of Whitestone.  Though many have returned to their
+homelands after the War has apparantly ended, still some, like me, remain.
+
+The harsh truth is that the War is not truly over.  Yes, the large scale battles
+have ended, but we are now into a Cold War with Sanction and Neraka.  The
+dragonarmies have been defeated but not eradicated, and a new threat is on the
+horizon... a knighthood like that of Solamnia, save serving darkness called the
+Knights of Takhisis.  I will get more into them in time, but for now our main
+threat remains the dragonarmies.
+
+We have had some word about a dragonarmy spy residing here in Palanthas.  Indeed
+it is the old elven cleric in the Gardens of the Blue Phoenix, or so we are told.
+We do not want to kill him, because he did serve well in the War of the Lance, but
+if our sources are correct, he is now, for some reason, assisting the Dragonarmies.
+
+He will likely not cooperate, so violence may be required to force the information
+from him, just do not make the killing blow ((this is IC, OOC kill him)).  Once you
+have him beaten, I am sure he will confess.
+
+Go now and take care of it, and come back once you've learned what he has to say.
+
+@n
+~
+@C
+   As you raise your arm to make the final blow, the old elf collapses in a
+bought of tears.  
+
+"Kill me if you want to", he says, "I have done what I have done for good reason,
+despite the evil on the surface.  They have taken my family hostage and are forcing
+me to help them.  Who?  The Red Dragonarmy, that's who.  They have my son and his wife and
+children captive, and it is beyond my ability to save them.  They said if I went to the
+Solamnics they would kill them.  Please!  You have to promise me you will not tell
+anyone, but if you can help me I would be very grateful.  If you must tell someone please
+make sure they are trustworthy, the lives of innocent children is at stake.  As for me,
+my crime is great, this I know.  I pray that you will let me live long enough to see
+my family rescued... after that you may do what you will, I accept justice."
+
+Suddenly the man is covered in a glowing blue light, and the soft female voice echos
+forth, "I am Mishakal.  Leave this old elf be.  He has suffered enough and his sins
+are pardoned.  Save his family and receive my boon.  Be blessed adventurer."
+
+@n
+~
+@C
+You have decided that this task is not fitting for you at the current time.
+Perhaps you will return to it later.
+@n
+~
+3 2240 0 5011 2203 2205 -1
+10 0 3 61 -1 -1 1
+100 25 65535
+S
+#2205
+Trouble at the Docks~
+Trouble at the Docks~
+@C
+"So the old man was being coerced?  That makes more sense then as he was
+truly a good man.  And you say you saw Mishakal?  That is quite
+a story, but as it turns out the old man came to us and confessed
+everything, claiming that he too was visited by Mishakal, and that he
+was instructed to turn himself in, and that no ill would befall him
+or his family.  The church of Mishakal has confirmed that the vision did
+indeed happen and that the old man speaks no lies."
+
+"It turns out there is an operation at the dock.  We have some corrupt
+dockworkers that are smuggling in weapons and armor for dragonarmy operatives.
+We don't know where they are yet, but we mean to find out.  Go talk to some
+of the dockworkers, and any that seem suspicious and don't want to talk, you
+have our leave to get the information from them by any means possible,
+just remember who you are adventurer ((OOC kill them)).  One of them will surely
+have a good idea of what's going on.  You may have to talk to a good many
+of them before one of them finally confesses.  I'd say at least 6, but who knows
+for sure."
+
+"Once you have the information about the smuggling, come back and talk to me."
+@n
+~
+@C
+The dockworker finally gives in to your interrogation, and says, "Fine,
+fine, I'll talk.  First of all I didn't know what I was smuggling or who
+it was for.  If I'd have known it was the dragonarmy, I wouldn't have done it.
+But they paid well and my family needed the money so I did what I thought
+I had to do."
+
+I don't know who is at the head of everything, but I do know that the shipments
+always stopped at the Isle of Bethel.  I always received my payment and orders
+by courier.  That's all I know, I swear... now leave me be, and please, don't
+put me in jail.  My family will starve if I can't work this job.  I swear I will
+be more careful in the future."
+@n
+~
+@C
+You decide not to interrogate the dock workers for the time being.
+@n
+~
+3 2240 0 2421 2204 -1 -1
+10 0 3 61 -1 -1 6
+0 20 65535
+S
+#2206
+The Dark Side of Bethel Island~
+The Dark Side of Bethel Island~
+
+   @C "Bethel Island hmm?  Well it just so happens we have an ex operative
+there.  And he may be able to shed some more light on what's going on there.  
+We're still searching for the old elven cleric's family, so we'll keep you
+posted on that.  For now we have to kill this smuggling operation here and now.
+Go to Bethal Island by taking a fishing vessel from the centre dock here in
+Palanthas.  Once you get there, you'll want to look for an old fisherman
+somewhere there on the docks on Bethel Island.  Tell him Fairwing sent you and
+he'll know it's me.  There's no time to waste, so get going.  You're making more
+of a difference than you realize.  "
+@n
+~
+
+   @C As you disembark from the fishing vessel you see your target immediately.
+An old fisherman in a straw hat and a sky blue tunic sits at the edge of the
+dock, humming to himself with his fishing rod cast out in the bay.  He notices
+you and gives you a polite wave and a sincere smile before returning to his
+business.  
+@n
+~
+@C
+You have decided to look for the old fisherman some other time.
+@n
+~
+2 2240 0 9221 2205 -1 -1
+5 0 4 61 -1 -1 1
+0 5 65535
+S
+#2207
+Find Captain Orluf~
+Find Captain Orluf~
+@C
+You need to find Captain Orluf in the Palanthas Palace.  The Palace
+can be found just north, west and north of Palanthas Centre Square.
+@n
+~
+@C
+You find the captain poring over some maps of Palanthas and the sewer
+network beneath the city.  As you enter he quickly rolls up the maps
+and turns to you.
+
+"Yes?  You've been sent by Fairwing?  How do you know that name?  Oh I
+see, you've been working for her.  She did mention she was sending someone.
+Very well.  We do need your help with a number of things if you'd be so
+willing as to help.  Just give me a moment to clean up this mess and we
+can get down to business."
+@n
+~
+@C
+You dice to look for Captain Orluf some other time.
+@n
+~
+2 2240 0 4218 9203 -1 -1
+5 0 5 61 -1 -1 1
+50 5 65535
+S
+#2240
+Undefined Quest~
+Quest definition is incomplete.~
+There is no information on this quest.
+~
+You have completed the quest.
+~
+You have abandoned the quest.
+~
+-1 -1 0 -1 -1 -1 -1
+0 0 0 37 100 -1 1
+0 0 65535
+S
+$~

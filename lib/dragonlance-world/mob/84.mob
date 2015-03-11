@@ -1,0 +1,330 @@
+#8400
+lurker granite~
+a granite colored lurker~
+Clinging to the ceiling, a lurker attempts to disguise itself as a rock.
+~
+   This granite colored lurker clings easily to the ceiling as it attempts to
+disguise itself as one of the many dark rocks of the temple.  Its round,
+pancake like body slowly crawls its way along the ceiling as it searches the
+dusty corridors for its next meal.  Two pitch black eyes slowly twitch as it
+senses for movement below.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8401
+carrion crawler~
+a carrion crawler~
+A carrion crawler searches the floor of the temple for anything to eat.
+~
+   For its fat, larva like body, this carrion crawler shows great agility as it
+scampers down the dimly lit corridors of the temple in search for its next
+meal.  Two tentacles reach out eagerly from its body, searching and tasting the
+air before it for any sign of dead and decaying flesh.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8402
+small bird creature stirge~
+a small stirge~
+A small, bird-like creature swoops down from the ceiling to assess you.
+~
+   This small creature assumes the appearance of a small bird, with the
+exception of a pink proboscis which dangles from its small head.  Four razor
+sharp pincer-like legs are drawn close to its rusty red body.  It swoops down
+timidly from a crevice in the celing, assessing you with bold red eyes before
+giving up any chance of attacking.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8403
+giant centipede~
+a giant centipede~
+A giant centipede crawls up the temple walls towards the ceiling.
+~
+   This wormlike arthropod's huge bronze colored body consists of hundreds of
+flattened segments, each bearing a pair of jointed appendages.  The jagged
+appendages in its foremost body segments are modified into venemous biting
+organs which it uses to prey on anything smaller than itself.  It makes no
+motion to confront you as it slowly continues its ascent up the wall.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8404
+giant enormous unkempt rat~
+a giant rat~
+An enormous, unkempt rat gnaws on the bloody bone of an unfortunate creature.
+~
+   The bulging, beady red eyes of this large rat shine in the light as it looks
+up from its latest meal to inspect your intrusion.  Matted, coarse brown hair
+lines its body, pulled out in some places in large patches.  It stands on its
+hind legs and hisses viciously at you, attempting to scare you away from its
+meal.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8405
+young baaz draconian~
+a young Baaz Draconian~
+A young Baaz Draconian haphazardly searches the hallways of the temple.
+~
+   Most likely out of spite, this young draconian has been assigned to patrol
+the temple in search of vagrants.  His small, yet muscular body is adorned with
+a suit of loose fitting chainmail.  A constant frown of anger and disgust
+mutters about revenge for sticking him in a place such as this.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8406
+fat lazy guard~
+a fat, lazy guard~
+A fat, lazy guard sits here drooling on himself as he falls asleep on duty.
+~
+   Assigned to keep the general public out of the temple, this guard believes
+his job to be a joke.  He proves this by paying absolutely no attention
+whatsoever to anything but catching a nap before his replacement shows up in a
+few hours time.  A set of badly warped leather armor sits on his round body,
+offering no protection at all.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8407
+oozing snail large~
+an oozing snail~
+An impressively large snail leaves a trail of slime as it trudges down the corridor.
+~
+   The dusty, spirally coiled shell of this large snail protects it well from
+the hazardous falling debris of the temple.  Two black antennae protrude from
+its spongy body, each looking in a seperate direction.  A trail of slippery
+yellow slime lines the ground ground behind it.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8408
+timid white bat~
+a timid white bat~
+A timid white bat sits quietly in the wooden rafters.
+~
+   Dangling from a pair of small webbed feet, this timid white bat keeps
+quietly to himself.  Two small red eyes peer intently towards you, seemingly
+upset at being awoken from its mid-day slumber.  Soft white fur lines its tiny
+body from head to toe.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8409
+spiked spider~
+a spiked shadow spider~
+A spiked spider hunches quietly within the shadows.
+~
+   Quietly hunched in one of the many cracks in the walls of the temple, this
+large spider keeps quietly to itself as it tends to its web.  Small red spikes
+line its otherwise smooth body, making it appear more dangerous than it
+actually is.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8410
+coiled serpent coal~
+a coiled serpent~
+A coiled, coal colored serpent hisses as you invade its territory.
+~
+   Coiled and ready to strike, this irritated serpent hisses loudly at your
+intrusion.  The coal colored scales which line the top of its body contrast
+with the pure white shade of its underbelly.  Two wickedly sharp fangs shine
+with venom as it opens its mouth in fury.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8411
+swarm gnats~
+a swarm of gnats~
+A swarm of gnats hovers above a decomposing corpse.
+~
+   Thousands upon thousands of annoying, black gnats swarm together above a
+decomposing corpse, eagerly awaiting their meal.  As you near them, they
+quickly move as a whole over towards you to investigate.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

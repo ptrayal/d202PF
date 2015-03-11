@@ -1,0 +1,76 @@
+#1400
+mob new~
+a test mob for blocking~
+A test mob for blocking is here.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1401
+clone~
+this is a test~
+This is a test of the emergency broadcast system.
+~
+This clone is nothing to look at.  No, really, it is quite boring.
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1402
+hurist burly man shaven head~
+Hurist~
+Hurist, a burly man with a shaven head stands behind a glass case smiling.
+~
+   This large man has shaven his head completely bald.  He is imposing yet
+friendly, his face offering an expression of happiness and welcomeness.  He is
+clad in fine clothing, befitting nobility, and obviously his business does very
+well.  He looks at you and winks then waves his hand over the area of the shop
+offering you to take a look around.    
+~
+bdA 0 0 0 k 0 0 0 900
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

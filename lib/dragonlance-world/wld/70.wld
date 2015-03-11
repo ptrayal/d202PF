@@ -1,0 +1,1427 @@
+#7000
+The Gates to the Wizard Academy of Palanthas~
+   Two large gates serve as the only barrier to entry.  Each gate is formed of
+meticulously shaped metal which has been shaped so that once the two gates are
+together an image comes into place.  The academy itself is a large complex with
+sloping white walls and rectangular openings which serve as windows.  No guard
+is present, but the unwelcome will find it difficult to enter.    
+~
+70 cp 0 0 0 0
+D1
+~
+~
+0 0 2219 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7002 0 0 0 0 0 0 0 0
+S
+#7001
+A new room~
+You are in a room.
+~
+70 0 0 0 0 0
+D1
+~
+~
+0 0 7000 0 0 0 0 0 0 0 0
+S
+#7002
+Outside the Wizard Academy~
+   A small bridge connects from the street to the base of the complex, although
+no water is present the drop to the ground below is more than any human could
+survive.  Two small sconces fit with torches that burn year round in even the
+fiercest of winds are set to each side of the doors.  The academy has stood in
+Palanthas for years, and despite the attempts of weathering it looks as
+pristine as the first day it was built.    
+~
+70 p 0 0 0 0
+D3
+~
+~
+0 0 7003 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7000 0 0 0 0 0 0 0 0
+S
+#7003
+Within the Entryway to the Academy~
+   A darkly stained wood has been formed to perfection and lines virtually
+every surface save for the marbled floor.  Large vases and statues stand on
+pedestals that are situated throughout the entryway.  Pupils of the academy can
+be seen running hurridly throughout the complex between classes, their robes
+making not a single noise as they are dragged across the floor.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7004 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7002 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7028 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7067 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7068 0 0 0 0 0 0 0 0
+S
+#7004
+The Hallways of the Wizard Academy ~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7005 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7003 0 0 0 0 0 0 0 0
+S
+#7005
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7006 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7004 0 0 0 0 0 0 0 0
+S
+#7006
+The Edge of the Hallway~
+   The carpeting begins to turn gradually and the wooden trim lining the walls
+ever so slightly rounds the corner.  In an alcove on the outer side of the
+corner rests a full size mirror with silver trim which can rotate in any
+direction due to the frame it is set in.  The ceiling trim can be seen more
+clearly at the corner, each piece has been painstakingly cut into various
+shapes each showing a depiction of a major event in Krynn's history.    
+~
+70 dp 0 0 0 0
+D2
+~
+~
+0 0 7005 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7007 0 0 0 0 0 0 0 0
+S
+#7007
+A Recessed Stairwell within the Academy~
+   Spiralling upwards is a single wooden stairway complete with a wooden
+banister.  The stairwell is very small and is hidden away in a recessed area
+opposite the bend in the hallway.  The upper level is restricted to faculty and
+those who have hands-on tests to be performed on the assigned day.    
+~
+70 dp 0 0 0 0
+D3
+~
+~
+0 0 7008 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7032 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7006 0 0 0 0 0 0 0 0
+S
+#7008
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7007 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7009 0 0 0 0 0 0 0 0
+S
+#7009
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7008 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7010 0 0 0 0 0 0 0 0
+S
+#7010
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7011 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7009 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7012 0 0 0 0 0 0 0 0
+S
+#7011
+Outside of the Classroom~
+   The door to the lower classmen stands open here, allowing free access in and
+out of the classroom.  A monotone voice can be heard quietly echoing from
+within speaking about the arcane history of Krynn.  Due to the seriousness of
+this academy very rarely is a students voice heard as they are usually
+completely immersed in the subject.    
+~
+70 cdp 0 0 0 0
+D0
+~
+~
+0 0 7045 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7010 0 0 0 0 0 0 0 0
+S
+#7012
+The Hallways of the Wizard Academy ~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7010 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7013 0 0 0 0 0 0 0 0
+S
+#7013
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7014 0 0 0 0 0 0 0 0
+S
+#7014
+A Recessed Stairwell within the Academy~
+   Spiralling upwards is a single wooden stairway complete with a wooden
+banister.  The stairwell is very small and is hidden away in a recessed area
+opposite the bend in the hallway.  The upper level is restricted to faculty and
+those who have hands-on tests to be performed on the assigned day.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7013 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7031 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7015 0 0 0 0 0 0 0 0
+S
+#7015
+The Edge of the Hallway~
+   The carpeting begins to turn gradually and the wooden trim lining the walls
+ever so slightly rounds the corner.  In an alcove on the outer side of the
+corner sits a gigantic illuminated globe of Krynn.  It can rotate in any way,
+and each major location throughout the continents has a miniature model
+attached.    
+~
+70 dp 0 0 0 0
+D2
+~
+~
+0 0 7016 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7014 0 0 0 0 0 0 0 0
+E
+globe~
+   This gigantic globe glows a pale yellow and each continent stands out in a
+solid grey.  Miniature models of the major landmarks in Krynn stick out, the
+vallenwood trees in Solace stand out, as does a tiny village set in the trees.
+The continents of Ansalon and Taladas are also visible, as is another continent
+that is not labeled.  The Towers of High Sorcery are also located, as is the
+mountain kingdom of Thorbardin.    
+~
+S
+#7016
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7015 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7017 0 0 0 0 0 0 0 0
+D3
+~
+panel~
+1 0 7037 0 0 0 0 0 0 0 0
+S
+#7017
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7016 0 0 0 0 0 0 0 0
+D1
+~
+panel~
+1 0 7038 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7018 0 0 0 0 0 0 0 0
+S
+#7018
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7017 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7019 0 0 0 0 0 0 0 0
+D3
+~
+panel~
+1 0 7036 0 0 0 0 0 0 0 0
+S
+#7019
+The Edge of the Hallway~
+   The carpeting begins to turn gradually and the wooden trim lining the walls
+ever so slightly rounds the corner.  In an alcove on the outer side of the
+corner is a single bust of the headmaster of the Academy.  It is a greyish tone
+with specs of black sparkling throughout the face.  His nearly bald head
+glistening as the single light beam overhead reflects off of it.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7018 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7020 0 0 0 0 0 0 0 0
+S
+#7020
+A Recessed Stairwell within the Academy~
+   Spiralling upwards is a single wooden stairway complete with a wooden
+banister.  The stairwell is very small and is hidden away in a recessed area
+opposite the bend in the hallway.  The upper level is restricted to faculty and
+those who have hands-on tests to be performed on the assigned day.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7021 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7034 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7019 0 0 0 0 0 0 0 0
+S
+#7021
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7022 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7020 0 0 0 0 0 0 0 0
+S
+#7022
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7023 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7021 0 0 0 0 0 0 0 0
+S
+#7023
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7024 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7030 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7022 0 0 0 0 0 0 0 0
+S
+#7024
+The Hallways of the Wizard Academy~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7023 0 0 0 0 0 0 0 0
+S
+#7025
+The Hallways of the Wizard Academy ~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7024 0 0 0 0 0 0 0 0
+S
+#7026
+The Hallways of the Wizard Academy ~
+   Spiralling upwards is a single wooden stairway complete with a wooden
+banister.  The stairwell is very small and is hidden away in a recessed area
+opposite the bend in the hallway.  The upper level is restricted to faculty and
+those who have hands-on tests to be performed on the assigned day.    
+~
+70 dp 0 0 0 0
+D3
+~
+~
+0 0 7025 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7035 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7027 0 0 0 0 0 0 0 0
+S
+#7027
+The Edge of the Hallway~
+   The carpeting begins to turn gradually and the wooden trim lining the walls
+ever so slightly rounds the corner.  In an alcove on the outer side of the
+corner is a door whose wood face lies completely flush with the wall.  It is
+uncertain what lies within, but it undoubtedly has a purpose in this hallway.
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7028 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 7033 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7026 0 0 0 0 0 0 0 0
+S
+#7028
+The Hallways of the Wizard Academy ~
+   A white carpet runs for as far as the eye can see and occasionally a unique
+piece of furniture adorns the hallway.  Small candles are set every few yards
+and their non-natural flame never wavers or gets blown out.  Every so often the
+door to a study room branches off and nearly blends into the wood panelling
+that lines the walls.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7027 0 0 0 0 0 0 0 0
+S
+#7029
+A new room~
+You are in a room.
+~
+70 0 0 0 0 0
+D2
+~
+~
+0 0 7028 0 0 0 0 0 0 0 0
+S
+#7030
+The Entrance to the Advanced Students Classroom ~
+   The door to the lower classmen stands open here, allowing free access in and
+out of the classroom.  A monotone voice can be heard quietly echoing from
+within speaking about the arcane history of Krynn.  Due to the seriousness of
+this academy very rarely is a students voice heard as they are usually
+completely immersed in the subject.    
+~
+70 cdp 0 0 0 0
+D0
+~
+~
+0 0 7023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7039 0 0 0 0 0 0 0 0
+S
+#7031
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 cdp 0 0 0 0
+D1
+~
+~
+0 0 7052 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 7051 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7014 0 0 0 0 0 0 0 0
+S
+#7032
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 cdp 0 0 0 0
+D2
+~
+~
+0 0 7066 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7052 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7007 0 0 0 0 0 0 0 0
+S
+#7033
+The Academy's Broom Closet~
+   This small closet's walls are just as finely decorated as the hallway,
+despite that its purpose is more mundane.  A single shelf lies at eye level, on
+top of which rests a bucket and a single scrubbrush.  The closet itself could
+fit a dwarf, a kender, or a human child, but not all three at once.  The smell
+inside is very sanitary, and not the slightest amount of dust is present.    
+~
+70 dp 0 0 0 0
+D3
+~
+door~
+1 0 7027 0 0 0 0 0 0 0 0
+S
+#7034
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 cdp 0 0 0 0
+D0
+~
+~
+1 0 7051 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7054 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7020 0 0 0 0 0 0 0 0
+S
+#7035
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 cdp 0 0 0 0
+D0
+~
+door~
+1 0 7066 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7054 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7026 0 0 0 0 0 0 0 0
+S
+#7036
+A Small Study Room~
+   The confines of this study room are rather large as a single bookcase stands
+flush with the opposing wall.  A solid wooden desk complete with a small oil
+lamp rests as the centerpiece of the room and a comfortable leather chair sits
+behind it.  The door provides ample protection from the noise that fills the
+hallways so that the studious may focus on their studies while in these
+confines.    
+~
+70 dfp 0 0 0 0
+D1
+~
+panel~
+1 0 7018 0 0 0 0 0 0 0 0
+S
+#7037
+A Small Study Room~
+   The confines of this study room are rather large as a single bookcase stands
+flush with the opposing wall.  A solid wooden desk complete with a small oil
+lamp rests as the centerpiece of the room and a comfortable leather chair sits
+behind it.  The door provides ample protection from the noise that fills the
+hallways so that the studious may focus on their studies while in these
+confines.    
+~
+70 dfp 0 0 0 0
+D1
+~
+panel~
+1 0 7016 0 0 0 0 0 0 0 0
+S
+#7038
+A Small Study Room~
+   The confines of this study room are rather large as a single bookcase stands
+flush with the opposing wall.  A solid wooden desk complete with a small oil
+lamp rests as the centerpiece of the room and a comfortable leather chair sits
+behind it.  The door provides ample protection from the noise that fills the
+hallways so that the studious may focus on their studies while in these
+confines.    
+~
+70 dfp 0 0 0 0
+D3
+~
+panel~
+1 0 7017 0 0 0 0 0 0 0 0
+S
+#7039
+The Upper Classmen Lecture Hall~
+   Long thin tables run from wall to wall here, sitting between each on a stool
+is one of the academies finest students.  Large maps line the walls, and two
+large bookcases line the wall.  The teachers desk sits in the corner, and a
+raised platform complete with a podium is where he conducts most of his
+lectures.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7030 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7042 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7040 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7044 0 0 0 0 0 0 0 0
+S
+#7040
+The Upper Classmen Lecture Hall~
+   Long thin tables run from wall to wall here, sitting between each on a stool
+is one of the academies finest students.  Large maps line the walls, and two
+large bookcases line the wall.  The teachers desk sits in the corner, and a
+raised platform complete with a podium is where he conducts most of his
+lectures.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7039 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7041 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7043 0 0 0 0 0 0 0 0
+S
+#7041
+The Upper Classmen Lecture Hall~
+   Long thin tables run from wall to wall here, sitting between each on a stool
+is one of the academies finest students.  Large maps line the walls, and two
+large bookcases line the wall.  The teachers desk sits in the corner, and a
+raised platform complete with a podium is where he conducts most of his
+lectures.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7042 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7040 0 0 0 0 0 0 0 0
+S
+#7042
+The Upper Classmen Lecture Hall~
+   Long thin tables run from wall to wall here, sitting between each on a stool
+is one of the academies finest students.  Large maps line the walls, and two
+large bookcases line the wall.  The teachers desk sits in the corner, and a
+raised platform complete with a podium is where he conducts most of his
+lectures.    
+~
+70 dp 0 0 0 0
+D2
+~
+~
+0 0 7041 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7039 0 0 0 0 0 0 0 0
+S
+#7043
+The Upper Classmen Lecture Hall~
+   Long thin tables run from wall to wall here, sitting between each on a stool
+is one of the academies finest students.  Large maps line the walls, and two
+large bookcases line the wall.  The teachers desk sits in the corner, and a
+raised platform complete with a podium is where he conducts most of his
+lectures.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7044 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7040 0 0 0 0 0 0 0 0
+S
+#7044
+The Upper Classmen Lecture Hall~
+   Long thin tables run from wall to wall here, sitting between each on a stool
+is one of the academies finest students.  Large maps line the walls, and two
+large bookcases line the wall.  The teachers desk sits in the corner, and a
+raised platform complete with a podium is where he conducts most of his
+lectures.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7039 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7043 0 0 0 0 0 0 0 0
+S
+#7045
+The Classroom of the Academy~
+   Small desks are situated throughout the room, each facing the blackboard
+that hangs on the side wall.  Each desk is complete with a small erasable board
+for notes, and within a small stack of papers is stored.  The room is rather
+quiet, as only the teacher's voice can be heard.  Periodically a scraping noise
+is heard as one of the pupils pressed too hard on his board.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7046 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7050 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7011 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7047 0 0 0 0 0 0 0 0
+S
+#7046
+The Classroom of the Academy~
+   Small desks are situated throughout the room, each facing the blackboard
+that hangs on the side wall.  Each desk is complete with a small erasable board
+for notes, and within a small stack of papers is stored.  The room is rather
+quiet, as only the teacher's voice can be heard.  Periodically a scraping noise
+is heard as one of the pupils pressed too hard on his board.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7049 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7045 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7048 0 0 0 0 0 0 0 0
+S
+#7047
+The Classroom of the Academy~
+   Small desks are situated throughout the room, each facing the blackboard
+that hangs on the side wall.  Each desk is complete with a small erasable board
+for notes, and within a small stack of papers is stored.  The room is rather
+quiet, as only the teacher's voice can be heard.  Periodically a scraping noise
+is heard as one of the pupils pressed too hard on his board.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7048 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7045 0 0 0 0 0 0 0 0
+S
+#7048
+The Classroom of the Academy~
+   Small desks are situated throughout the room, each facing the blackboard
+that hangs on the side wall.  Each desk is complete with a small erasable board
+for notes, and within a small stack of papers is stored.  The room is rather
+quiet, as only the teacher's voice can be heard.  Periodically a scraping noise
+is heard as one of the pupils pressed too hard on his board.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7047 0 0 0 0 0 0 0 0
+S
+#7049
+The Classroom of the Academy~
+   Small desks are situated throughout the room, each facing the blackboard
+that hangs on the side wall.  Each desk is complete with a small erasable board
+for notes, and within a small stack of papers is stored.  The room is rather
+quiet, as only the teacher's voice can be heard.  Periodically a scraping noise
+is heard as one of the pupils pressed too hard on his board.    
+~
+70 dp 0 0 0 0
+D2
+~
+~
+0 0 7050 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7046 0 0 0 0 0 0 0 0
+S
+#7050
+The Classroom of the Academy~
+   Small desks are situated throughout the room, each facing the blackboard
+that hangs on the side wall.  Each desk is complete with a small erasable board
+for notes, and within a small stack of papers is stored.  The room is rather
+quiet, as only the teacher's voice can be heard.  Periodically a scraping noise
+is heard as one of the pupils pressed too hard on his board.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7049 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7045 0 0 0 0 0 0 0 0
+S
+#7051
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+1 0 7031 0 0 0 0 0 0 0 0
+D1
+~
+panel~
+2 7000 7064 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 7034 0 0 0 0 0 0 0 0
+S
+#7052
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 dp 0 0 0 0
+D0
+~
+door~
+1 0 7055 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7032 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7031 0 0 0 0 0 0 0 0
+S
+#7053
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 d 0 0 0 0
+D0
+~
+~
+0 0 7032 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7035 0 0 0 0 0 0 0 0
+S
+#7054
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 cdp 0 0 0 0
+D1
+~
+~
+0 0 7035 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7056 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7034 0 0 0 0 0 0 0 0
+S
+#7055
+The Headmaster's Office~
+   This is the well kept quarters of the Headmaster of the Academy.  Situated
+in the center of the room is a deskless reclining chair.  Bookcases line every
+wall, and atop of them sits many unique items that the headmaster is proud of.
+A large stuffed bird of prey, a flawless stone still partly stuck in the
+original rock it was formed in, and a model of the original Perechon are some
+of the items in his collection.  The Headmaster's room has a very open feel to
+it, and this is the type of feeling he wants to be conveyed to any visitors
+that come here.    
+~
+70 dp 0 0 0 0
+D2
+~
+door~
+1 0 7052 0 0 0 0 0 0 0 0
+S
+#7056
+The Academy's Training Arena~
+   Situated throughout this arena are several tables and areas designated for
+practicing first-hand the magical arts.  There are cages with several rarities
+from throughout Krynn located on on wall.  On another are many beakers filled
+with various colors of liquids, some of which are smoking or emitting a putrid
+odor.  There is also a large area for testing out the affects of spells.  A
+wavering anti-magic barrier hangs in the air forming a globe around it.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7054 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7058 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7057 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7059 0 0 0 0 0 0 0 0
+S
+#7057
+The Academy's Training Arena~
+   Situated throughout this arena are several tables and areas designated for
+practicing first-hand the magical arts.  There are cages with several rarities
+from throughout Krynn located on on wall.  On another are many beakers filled
+with various colors of liquids, some of which are smoking or emitting a putrid
+odor.  There is also a large area for testing out the affects of spells.  A
+wavering anti-magic barrier hangs in the air forming a globe around it.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7056 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7061 0 0 0 0 0 0 0 0
+S
+#7058
+The Academy's Training Arena~
+   Situated throughout this arena are several tables and areas designated for
+practicing first-hand the magical arts.  There are cages with several rarities
+from throughout Krynn located on on wall.  On another are many beakers filled
+with various colors of liquids, some of which are smoking or emitting a putrid
+odor.  There is also a large area for testing out the affects of spells.  A
+wavering anti-magic barrier hangs in the air forming a globe around it.    
+~
+70 dp 0 0 0 0
+D2
+~
+~
+0 0 7060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7056 0 0 0 0 0 0 0 0
+S
+#7059
+The Academy's Training Arena~
+   Situated throughout this arena are several tables and areas designated for
+practicing first-hand the magical arts.  There are cages with several rarities
+from throughout Krynn located on on wall.  On another are many beakers filled
+with various colors of liquids, some of which are smoking or emitting a putrid
+odor.  There is also a large area for testing out the affects of spells.  A
+wavering anti-magic barrier hangs in the air forming a globe around it.    
+~
+70 p 0 0 0 0
+D1
+~
+~
+0 0 7056 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7061 0 0 0 0 0 0 0 0
+S
+#7060
+The Academy's Training Arena~
+   Situated throughout this arena are several tables and areas designated for
+practicing first-hand the magical arts.  There are cages with several rarities
+from throughout Krynn located on on wall.  On another are many beakers filled
+with various colors of liquids, some of which are smoking or emitting a putrid
+odor.  There is also a large area for testing out the affects of spells.  A
+wavering anti-magic barrier hangs in the air forming a globe around it.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7058 0 0 0 0 0 0 0 0
+D2
+~
+cagedoor~
+1 0 7062 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7057 0 0 0 0 0 0 0 0
+S
+#7061
+The Academy's Training Arena~
+   Situated throughout this arena are several tables and areas designated for
+practicing first-hand the magical arts.  There are cages with several rarities
+from throughout Krynn located on on wall.  On another are many beakers filled
+with various colors of liquids, some of which are smoking or emitting a putrid
+odor.  There is also a large area for testing out the affects of spells.  A
+wavering anti-magic barrier hangs in the air forming a globe around it.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7059 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7057 0 0 0 0 0 0 0 0
+S
+#7062
+Inside a Cramped Cage~
+   Despite being rather cramped for a human sized individual, for the beast
+that calls this cage home it is a good fit.  A trough for food hangs on one
+side, and next to it hangs a watering device.  Stained bedding lies on the
+floor and provides padding for the single occupant.    
+~
+70 p 0 0 0 0
+D0
+~
+cagedoor~
+1 0 7060 0 0 0 0 0 0 0 0
+S
+#7063
+A new room~
+You are in a room.
+~
+70 0 0 0 0 0
+D0
+~
+~
+0 0 7055 0 0 0 0 0 0 0 0
+S
+#7064
+A Hidden Stairwell~
+   Hidden behind the wall is a small staircase leading up to the Astronomy lab.
+This cramped area consists of only a single staircase.  There are two candles
+recessed into the wall which light when the door opens, and the stairway
+materializes with the opening of the door.  Very few individuals have ever
+viewed this room, as the typical student does not have permission to visit the
+Headmaster's private lab.    
+~
+70 dp 0 0 0 0
+D3
+~
+panel~
+2 7000 7051 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7065 0 0 0 0 0 0 0 0
+S
+#7065
+The Astronomy Lab~
+   Located at the top of the structure is a magically cloaked astronomy lab.  
+The Headmaster is very passionate about this area of study, and although many
+often wonder where he sneaks away to during his long leave of absences, the
+truth is only known by a few of his trusted friends.  A perfect view of the sky
+is visible from this point, and a very odd mechanical device with multiple
+glass lenses sits affixed to a nearby handrail.    
+~
+70 p 0 0 0 0
+D5
+~
+~
+0 0 7064 0 0 0 0 0 0 0 0
+S
+#7066
+The Upper Level of the Academy~
+   Although this level is identical to the first insofar as decoration and
+carpentry, it is far less busy as the lower levels.  A feeling of confinement
+is here, as the hallway is quite short, and the walls all the same darkly
+stained wood.  No furniture is present, and no areas are designated as study
+rooms either.  Although the quietness of this area would be ideal for a
+courageous mage to escape away too.    
+~
+70 dp 0 0 0 0
+D0
+~
+~
+0 0 7032 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 7035 0 0 0 0 0 0 0 0
+S
+#7067
+Vidgeous's Apothecary Shop~
+   This is the well furbished room where the academy pulls in some of its
+profits from.  Glass display cases showing off the wares of the academy sit
+side by side resting atop several stands.  A few have velvet lined hardwood
+cases filled with potions and other breakables.  Others display the rarities
+that the academies finest have located throughout their travels.    
+~
+70 dp 0 0 0 0
+D1
+~
+~
+0 0 7003 0 0 0 0 0 0 0 0
+S
+#7068
+Entrance to the Portal Room~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  Large paintings of distant lands are visible
+throughout the room.  There is much less activity in this room as the Pupils of
+the Academy do not directly enter this room without permission.  
+~
+70 cp 0 0 0 0
+D0
+~
+~
+0 0 7069 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7070 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7071 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7003 0 0 0 0 0 0 0 0
+S
+#7069
+Portal leading to Solace~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  In the center of the room stands a glowing
+obsidian portal, the magical energy in this room is so thick you can almost
+taste it.  
+~
+70 p 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#7070
+Portal leading to Thelgaard~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  In the center of the room stands a glowing
+obsidian portal, the magical energy in this room is so thick you can almost
+taste it.  
+~
+70 p 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#7071
+Portal leading to Sanction~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  In the center of the room stands a glowing
+obsidian portal, the magical energy in this room is so thick you can almost
+taste it.  
+~
+70 p 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#7072
+Portal leading to Palanthas~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  In the center of the room stands a glowing
+obsidian portal, the magical energy in this room is so thick you can almost
+taste it.  
+~
+70 p 0 0 0 0
+S
+#7073
+Portal leading to Tarsis~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  In the center of the room stands a glowing
+obsidian portal, the magical energy in this room is so thick you can almost
+taste it.  
+~
+70 0 0 0 0 0
+S
+#7074
+Portal leading to Qualinost~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  In the center of the room stands a glowing
+obsidian portal, the magical energy in this room is so thick you can almost
+taste it.  
+~
+70 0 0 0 0 0
+S
+#7075
+Portal leading to Neraka~
+Darkly stained wood has been formed to perfection and lines virtually every
+surface save for the marble floor.  In the center of the room stands a glowing
+obsidian portal, the magical energy in this room is so thick you can almost
+taste it.  
+~
+70 p 0 0 0 0
+S
+#7076
+New BuildWalk Room~
+This unfinished room was created by Gicker.
+~
+70 0 0 0 0 0
+D7
+~
+~
+0 0 7003 0 0 0 0 0 0 0 0
+S
+$~

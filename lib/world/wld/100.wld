@@ -1,0 +1,3485 @@
+#10000
+Ubtao's Creation Area~
+You are in an unfinished room.
+~
+100 jln 0 0 0 0
+D0
+~
+door~
+1 0 10001 20 0 0 0 0 0 0 0
+S
+#10001
+Ubtao's Experiment room~
+This unfinished room was created by Ubtao.
+~
+100 jln 0 0 0 0
+D0
+~
+~
+0 0 10002 0 0 0 0 0 0 0 0
+D2
+~
+Door~
+1 0 10000 20 0 0 0 0 0 0 0
+S
+#10002
+Entrance to the Temple of Ubtao~
+There appears to be a subtle change in the jungle here. The road gets more confusing, the trees are bigger and the vines around them are thicker.  Everything seems to be growing larger around this area.  There are also more clearings and space between the trees. The breeze from the ocean has all but disspeared and the ground is more solid. Additionaly, this area has a permanent sensation that somebody is observing everything and everyone around here, even if there is no sign of habitation. 
+~
+100 c 0 0 0 10
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10003 0 0 0 0 0 0 0 0
+S
+#10003
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10004 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10002 0 0 0 0 0 0 0 0
+S
+#10004
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10003 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10005 0 0 0 0 0 0 0 0
+S
+#10005
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10006 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10004 0 0 0 0 0 0 0 0
+S
+#10006
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10005 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10007 0 0 0 0 0 0 0 0
+S
+#10007
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10008 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10006 0 0 0 0 0 0 0 0
+S
+#10008
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10009 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10007 0 0 0 0 0 0 0 0
+S
+#10009
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10008 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10010 0 0 0 0 0 0 0 0
+S
+#10010
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10011 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10009 0 0 0 0 0 0 0 0
+S
+#10011
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10012 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10010 0 0 0 0 0 0 0 0
+S
+#10012
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10011 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10013 0 0 0 0 0 0 0 0
+S
+#10013
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10012 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10014 0 0 0 0 0 0 0 0
+S
+#10014
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10013 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10015 0 0 0 0 0 0 0 0
+S
+#10015
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10016 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10014 0 0 0 0 0 0 0 0
+S
+#10016
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10015 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10017 0 0 0 0 0 0 0 0
+S
+#10017
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10016 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10018 0 0 0 0 0 0 0 0
+S
+#10018
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10017 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10019 0 0 0 0 0 0 0 0
+S
+#10019
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D1
+~
+~
+0 0 10020 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10018 0 0 0 0 0 0 0 0
+S
+#10020
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10068 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10021 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10019 0 0 0 0 0 0 0 0
+S
+#10021
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10020 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10022 0 0 0 0 0 0 0 0
+S
+#10022
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D1
+~
+~
+0 0 10021 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10023 0 0 0 0 0 0 0 0
+S
+#10023
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10024 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10022 0 0 0 0 0 0 0 0
+S
+#10024
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10025 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10023 0 0 0 0 0 0 0 0
+S
+#10025
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10026 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10024 0 0 0 0 0 0 0 0
+S
+#10026
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10027 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10025 0 0 0 0 0 0 0 0
+S
+#10027
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10026 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10028 0 0 0 0 0 0 0 0
+S
+#10028
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.  
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10029 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10027 0 0 0 0 0 0 0 0
+S
+#10029
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.  
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10030 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10028 0 0 0 0 0 0 0 0
+S
+#10030
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.  
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10031 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10029 0 0 0 0 0 0 0 0
+S
+#10031
+Entrance to Jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D1
+~
+~
+0 0 10032 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10070 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10030 0 0 0 0 0 0 0 0
+S
+#10032
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D3
+~
+~
+0 0 10031 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10033 0 0 0 0 0 0 0 0
+S
+#10033
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10032 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10034 0 0 0 0 0 0 0 0
+S
+#10034
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10033 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10035 0 0 0 0 0 0 0 0
+S
+#10035
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10034 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10036 0 0 0 0 0 0 0 0
+S
+#10036
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10037 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10035 0 0 0 0 0 0 0 0
+S
+#10037
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10038 0 0 0 0 0 0 0 0
+S
+#10038
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10037 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10039 0 0 0 0 0 0 0 0
+S
+#10039
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10038 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10040 0 0 0 0 0 0 0 0
+S
+#10040
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10039 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10041 0 0 0 0 0 0 0 0
+S
+#10041
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10040 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10042 0 0 0 0 0 0 0 0
+S
+#10042
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10041 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10043 0 0 0 0 0 0 0 0
+S
+#10043
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10044 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10042 0 0 0 0 0 0 0 0
+S
+#10044
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10043 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10045 0 0 0 0 0 0 0 0
+S
+#10045
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10046 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10044 0 0 0 0 0 0 0 0
+S
+#10046
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10047 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10045 0 0 0 0 0 0 0 0
+S
+#10047
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10048 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10046 0 0 0 0 0 0 0 0
+S
+#10048
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10049 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10047 0 0 0 0 0 0 0 0
+S
+#10049
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10050 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10048 0 0 0 0 0 0 0 0
+S
+#10050
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10049 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10051 0 0 0 0 0 0 0 0
+S
+#10051
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10052 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10050 0 0 0 0 0 0 0 0
+S
+#10052
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D6
+~
+~
+0 0 10053 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10051 0 0 0 0 0 0 0 0
+S
+#10053
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10054 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10052 0 0 0 0 0 0 0 0
+S
+#10054
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10053 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10055 0 0 0 0 0 0 0 0
+S
+#10055
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10054 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10056 0 0 0 0 0 0 0 0
+S
+#10056
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10057 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10055 0 0 0 0 0 0 0 0
+S
+#10057
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10056 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10058 0 0 0 0 0 0 0 0
+S
+#10058
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10057 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10059 0 0 0 0 0 0 0 0
+S
+#10059
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10058 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10060 0 0 0 0 0 0 0 0
+S
+#10060
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10068 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10059 0 0 0 0 0 0 0 0
+S
+#10061
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10060 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10062 0 0 0 0 0 0 0 0
+S
+#10062
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10063 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10061 0 0 0 0 0 0 0 0
+S
+#10063
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D7
+~
+~
+0 0 10064 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10062 0 0 0 0 0 0 0 0
+S
+#10064
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10065 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10063 0 0 0 0 0 0 0 0
+S
+#10065
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10066 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10064 0 0 0 0 0 0 0 0
+S
+#10066
+Chult's jungle~
+An ancient jungle that time has forgotten, and that seems to have been intentionaly made to represent all time periods in history. Towering tall pines and maples that cover the sun and form a leafy ceiling where murmur of birds and insects can be heard. Gigantic ferns from another time, and large plants whose leaves are big enough to cover the roof of a small hut. Creeping vines, the width of some can be thicker than a man's thigh, wrap themselves forming sometimes bridges from tree to tree.
+Colorful fruits of unknown origin, and some apparently eatable by the scattered seeds left around it's base by foraging animals. The air is warm, humid and fragrant with the smell of unseen flowers and animal life. With all the varieties of and number of plant life it is difficult to tell which way is the correct way to go, no discernable path has been laid out.
+~
+100 0 gm 0 0 3
+D2
+~
+~
+0 0 10065 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10067 0 0 0 0 0 0 0 0
+S
+#10067
+Entrance to Yuan-ti Village~
+The jungle starts clearing to open to a less virgin area. There are signs of inhabitants in the surroundings in the way of small campfires and chopped trees. The indiscernable path becomes a more clearly defined dirt road where wagons and people's tracks are apparent. 
+~
+100 c 0 0 0 10
+D8
+~
+~
+0 0 10066 0 0 0 0 0 0 0 0
+S
+#10068
+View to a valley between mountains~
+The jungle suddenly, and unexpectedly opens to a small clearing that leads to a valley surrounded by mountains. This valley feels older than the rest of the jungle, and gigantic scattered bones can be witness to the aminal population of the area. 
+~
+100 0 a 0 0 4
+D0
+~
+~
+0 0 10069 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10020 0 0 0 0 0 0 0 0
+S
+#10069
+Entrance to valley between mountains~
+Getting closer to the valley's entrance, it seems to be not only a nice respite from the surrounding jungle, but a sanctuary for whatever beasts inhabit this land. It is a rich land, full of streams, vegetation and animal life. From this faraway the beasts do not look very different from the already encountered in this jungle, except for their size.
+~
+100 ce j 0 0 4
+D0
+~
+~
+0 0 10100 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10068 0 0 0 0 0 0 0 0
+S
+#10070
+Port at Chult~
+A large beach area that barely can be considered by people from large cities a port. There are a few small fishing skiffs and a large barge docked here waiting for passengers.
+~
+100 0 0 0 0 10
+D0
+~
+~
+0 0 10071 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10031 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10400 0 0 0 0 0 0 0 0
+S
+#10071
+Ocean around Chult~
+A vast ocean with very dark blue water... at a distance you can see the land of Chult. There are fish swimming around here.. and who knows what else.
+~
+100 v 0 0 0 7
+D2
+~
+~
+0 0 10070 0 0 0 0 0 0 0 0
+S
+#10072
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10073 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10071 0 0 0 0 0 0 0 0
+S
+#10073
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10074 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10072 0 0 0 0 0 0 0 0
+S
+#10074
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 10073 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10075 0 0 0 0 0 0 0 0
+S
+#10075
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10074 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10076 0 0 0 0 0 0 0 0
+S
+#10076
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10077 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10075 0 0 0 0 0 0 0 0
+S
+#10077
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10078 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10076 0 0 0 0 0 0 0 0
+S
+#10078
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10077 0 0 0 0 0 0 0 0
+S
+#10079
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10080 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10078 0 0 0 0 0 0 0 0
+S
+#10080
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10081 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10079 0 0 0 0 0 0 0 0
+S
+#10081
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10082 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10080 0 0 0 0 0 0 0 0
+S
+#10082
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 10081 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10083 0 0 0 0 0 0 0 0
+S
+#10083
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10082 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10084 0 0 0 0 0 0 0 0
+S
+#10084
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10085 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10083 0 0 0 0 0 0 0 0
+S
+#10085
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10086 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10084 0 0 0 0 0 0 0 0
+S
+#10086
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10085 0 0 0 0 0 0 0 0
+S
+#10087
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10088 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10086 0 0 0 0 0 0 0 0
+S
+#10088
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 10087 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10089 0 0 0 0 0 0 0 0
+S
+#10089
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10090 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10088 0 0 0 0 0 0 0 0
+S
+#10090
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10091 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10089 0 0 0 0 0 0 0 0
+S
+#10091
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10092 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10090 0 0 0 0 0 0 0 0
+S
+#10092
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 10091 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10093 0 0 0 0 0 0 0 0
+S
+#10093
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10092 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10094 0 0 0 0 0 0 0 0
+S
+#10094
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10095 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10093 0 0 0 0 0 0 0 0
+S
+#10095
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10096 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10094 0 0 0 0 0 0 0 0
+S
+#10096
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10097 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10095 0 0 0 0 0 0 0 0
+S
+#10097
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 10096 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10098 0 0 0 0 0 0 0 0
+S
+#10098
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10097 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10099 0 0 0 0 0 0 0 0
+S
+#10099
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10101 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10098 0 0 0 0 0 0 0 0
+S
+#10100
+Dinosaur Valley~
+As you head down into the valley, everything seems to change.  The jungle sounds you are used to give way to stranger sounds;  unfamiliar bird calls echo through the forest canopy.  The jungle is changing as you descend, opening up becoming more forest like.  Just before the path leads you down past the tree tops you think you see a large form moving in the distance.
+~
+100 0 e 0 0 3
+D0
+~
+~
+0 0 10108 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10111 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10069 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10102 0 0 0 0 0 0 0 0
+S
+#10101
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 10099 0 0 0 0 0 0 0 0
+S
+#10102
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10107 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10100 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10103 0 0 0 0 0 0 0 0
+S
+#10103
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10106 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10102 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10104 0 0 0 0 0 0 0 0
+S
+#10104
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10105 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10103 0 0 0 0 0 0 0 0
+S
+#10105
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10118 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10104 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10167 0 0 0 0 0 0 0 0
+S
+#10106
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10117 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10103 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10105 0 0 0 0 0 0 0 0
+S
+#10107
+Edge of the forest~
+The forest is thinning out here; the towering trees are replaced by waist high grass.  Small tress and shrubs are common here, clambering for a spot in the sunlight unavailable to them deeper in the forest.  The air is still hot, but the humidity has dropped off considerably.
+~
+100 0 e 0 0 3
+D0
+~
+~
+0 0 10116 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10108 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10102 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10106 0 0 0 0 0 0 0 0
+S
+#10108
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10115 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10100 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10107 0 0 0 0 0 0 0 0
+S
+#10109
+Small river~
+A river runs through the area. It's water clean and clear with the occasional leaves and small fish that float close to the surface. The river although somewhat narrow, looks deep enough to have to swim to get to the other side. It flows to the north and bends from the southeast.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10114 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10110 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10108 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10112 0 0 0 0 0 0 0 0
+S
+#10110
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10113 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10126 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10109 0 0 0 0 0 0 0 0
+S
+#10111
+Edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10109 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10100 0 0 0 0 0 0 0 0
+S
+#10112
+Small river~
+A river runs through the area. It's water clean and clear with the occasional leaves and small fish that float close to the surface. The river although somewhat narrow, looks deep enough to have to swim to get to the other side. It disappears under the inaccessible mountains surrounding the valley.  The river bends to the northwest.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10110 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10111 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10109 0 0 0 0 0 0 0 0
+S
+#10113
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10123 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10125 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10114 0 0 0 0 0 0 0 0
+S
+#10114
+Small river~
+A river runs through the area. It's water clean and clear with the occasional leaves and small fish that float close to the surface. The river although somewhat narrow, looks deep enough to have to swim to get to the other side. It flows to the northeast and comes from the south.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10122 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10113 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10109 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10115 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10123 0 0 0 0 0 0 0 0
+S
+#10115
+Edge of the forest~
+The forest is thinning out here; the towering trees are replaced by waist high grass.  Small tress and shrubs are common here, clambering for a spot in the sunlight unavailable to them deeper in the forest.  The air is still hot, but the humidity has dropped off considerably.
+~
+100 0 e 0 0 3
+D0
+~
+~
+0 0 10121 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10108 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10116 0 0 0 0 0 0 0 0
+S
+#10116
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 0 0 0 2
+D0
+~
+~
+0 0 10120 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10115 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10107 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10117 0 0 0 0 0 0 0 0
+S
+#10117
+Plains~
+You are in the center of grassy plain.  The grass is thick and the going is slow.  Sometimes you find areas which are easier to move through, its almost like something large moved through before you smashing the grass and making a path.
+~
+100 0 0 0 0 2
+D0
+~
+~
+0 0 10119 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10116 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10106 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10118 0 0 0 0 0 0 0 0
+S
+#10118
+Plains~
+You are in the center of grassy plain.  The grass is thick and the going is slow.  Sometimes you find areas which are easier to move through, its almost like something large moved through before you smashing the grass and making a path.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10161 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10117 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10105 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10166 0 0 0 0 0 0 0 0
+S
+#10119
+Plains~
+You are in the center of grassy plain.  The grass is thick and the going is slow.  Sometimes you find areas which are easier to move through, its almost like something large moved through before you smashing the grass and making a path.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10150 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10120 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10161 0 0 0 0 0 0 0 0
+S
+#10120
+Plains~
+You are in the center of grassy plain.  The grass is thick and the going is slow.  Sometimes you find areas which are easier to move through, its almost like something large moved through before you smashing the grass and making a path.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10137 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10121 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10119 0 0 0 0 0 0 0 0
+S
+#10121
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10136 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10120 0 0 0 0 0 0 0 0
+S
+#10122
+Edge of the forest~
+The forest is thinning out here; the towering trees are replaced by waist high grass.  Small tress and shrubs are common here, clambering for a spot in the sunlight unavailable to them deeper in the forest.  The air is still hot, but the humidity has dropped off considerably.
+~
+100 0 e 0 0 3
+D0
+~
+~
+0 0 10135 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10114 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10121 0 0 0 0 0 0 0 0
+S
+#10123
+Small river~
+A river runs through the area. It's water clean and clear with the occasional leaves and small fish that float close to the surface. The river although somewhat narrow, looks deep enough to have to swim to get to the other side. It flows to the north and bends from the southwest.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10134 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10124 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10122 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10114 0 0 0 0 0 0 0 0
+S
+#10124
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10133 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10131 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10125 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10123 0 0 0 0 0 0 0 0
+S
+#10125
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10124 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10130 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10113 0 0 0 0 0 0 0 0
+S
+#10126
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10125 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10129 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10110 0 0 0 0 0 0 0 0
+S
+#10127
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10126 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10112 0 0 0 0 0 0 0 0
+S
+#10128
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10129 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10127 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#10129
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10130 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10153 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10126 0 0 0 0 0 0 0 0
+S
+#10130
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10131 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10129 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10125 0 0 0 0 0 0 0 0
+S
+#10131
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10132 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10155 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10130 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10124 0 0 0 0 0 0 0 0
+S
+#10132
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10143 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10156 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10131 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10133 0 0 0 0 0 0 0 0
+S
+#10133
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10142 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10132 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10134 0 0 0 0 0 0 0 0
+S
+#10134
+Small river~
+A river runs through the area. It's water clean and clear with the occasional leaves and small fish that float close to the surface. The river although somewhat narrow, looks deep enough to have to swim to get to the other side. It bends to the nortwest and comes from the south.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10141 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10133 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10135 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10140 0 0 0 0 0 0 0 0
+S
+#10135
+Edge of the forest~
+The forest is thinning out here; the towering trees are replaced by waist high grass.  Small tress and shrubs are common here, clambering for a spot in the sunlight unavailable to them deeper in the forest.  The air is still hot, but the humidity has dropped off considerably.
+~
+100 0 e 0 0 3
+D0
+~
+~
+0 0 10140 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10122 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10136 0 0 0 0 0 0 0 0
+S
+#10136
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10139 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10135 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10137 0 0 0 0 0 0 0 0
+S
+#10137
+Plains~
+You are in the center of grassy plain.  The grass is thick and the going is slow.  Sometimes you find areas which are easier to move through, its almost like something large moved through before you smashing the grass and making a path.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10138 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10120 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10150 0 0 0 0 0 0 0 0
+S
+#10138
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10149 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10139 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10137 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10151 0 0 0 0 0 0 0 0
+S
+#10139
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10148 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10140 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10138 0 0 0 0 0 0 0 0
+S
+#10140
+River expands~
+The river has increased it width to more than double it's original size. It's water is still clean and clear but now you see more evidence of bigger animal life living in it.  Medium size reptiles and amphibians are numerous around this area.  And where there is prey, there must be predators.  The river flows to the north from here and bends from the southeast.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10147 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10141 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10135 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10139 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10134 0 0 0 0 0 0 0 0
+S
+#10141
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10146 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10142 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10134 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10140 0 0 0 0 0 0 0 0
+S
+#10142
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10145 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10143 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10133 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10141 0 0 0 0 0 0 0 0
+S
+#10143
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10144 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10157 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10132 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10142 0 0 0 0 0 0 0 0
+S
+#10144
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D2
+~
+~
+0 0 10143 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10145 0 0 0 0 0 0 0 0
+S
+#10145
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10174 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10144 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10142 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10146 0 0 0 0 0 0 0 0
+S
+#10146
+Giant Forest~
+This part of the forest reminds you of a cathedral crafted from the forest.  Huge trees surround you blocking almost all the sunlight.  The widely spaced tree trunks are like pillars supporting the canopy which soars hundreds of feet above you.  The lack of sun prevents an understory from growing here leaving the area open.  With this much space, almost anything could live in this part of the forest.
+~
+100 0 em 0 0 3
+D0
+~
+~
+0 0 10173 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10145 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10141 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10147 0 0 0 0 0 0 0 0
+S
+#10147
+River~
+This is a wide river.  It's water is clean and clear, and you see evidence of some larger animal life lving in it.  Mediums size reptiles and amphibians are numerous around this area.  And where there is prey, there must be predators.  The river flows to the north from here and comes from the south.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10172 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10146 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10148 0 0 0 0 0 0 0 0
+S
+#10148
+Edge of the forest~
+The forest is thinning out here; the towering trees are replaced by waist high grass.  Small tress and shrubs are common here, clambering for a spot in the sunlight unavailable to them deeper in the forest.  The air is still hot, but the humidity has dropped off considerably.
+~
+100 0 e 0 0 3
+D0
+~
+~
+0 0 10171 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10147 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10139 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10149 0 0 0 0 0 0 0 0
+S
+#10149
+Edge of the forest~
+The forest is thinning out here; the towering trees are replaced by waist high grass.  Small tress and shrubs are common here, clambering for a spot in the sunlight unavailable to them deeper in the forest.  The air is still hot, but the humidity has dropped off considerably.
+~
+100 0 e 0 0 3
+D0
+~
+~
+0 0 10170 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10148 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10138 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10152 0 0 0 0 0 0 0 0
+S
+#10150
+Plains~
+You are in the center of grassy plain.  The grass is thick and the going is slow.  Sometimes you find areas which are easier to move through, its almost like something large moved through before you smashing the grass and making a path.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10151 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10137 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10119 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10162 0 0 0 0 0 0 0 0
+S
+#10151
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10152 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10138 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10150 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10163 0 0 0 0 0 0 0 0
+S
+#10152
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D1
+~
+~
+0 0 10149 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10151 0 0 0 0 0 0 0 0
+S
+#10153
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10154 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10129 0 0 0 0 0 0 0 0
+S
+#10154
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10155 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10160 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10153 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10130 0 0 0 0 0 0 0 0
+S
+#10155
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10156 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10159 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10154 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10131 0 0 0 0 0 0 0 0
+S
+#10156
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10157 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10158 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10132 0 0 0 0 0 0 0 0
+S
+#10157
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D2
+~
+~
+0 0 10156 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10143 0 0 0 0 0 0 0 0
+S
+#10158
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D2
+~
+~
+0 0 10159 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10156 0 0 0 0 0 0 0 0
+S
+#10159
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10158 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10160 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10155 0 0 0 0 0 0 0 0
+S
+#10160
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10159 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10154 0 0 0 0 0 0 0 0
+S
+#10161
+Plains~
+You are in the center of grassy plain.  The grass is thick and the going is slow.  Sometimes you find areas which are easier to move through, its almost like something large moved through before you smashing the grass and making a path.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10162 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10119 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10118 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10165 0 0 0 0 0 0 0 0
+S
+#10162
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10150 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10161 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10164 0 0 0 0 0 0 0 0
+S
+#10163
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D1
+~
+~
+0 0 10151 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10162 0 0 0 0 0 0 0 0
+S
+#10164
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D1
+~
+~
+0 0 10162 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10165 0 0 0 0 0 0 0 0
+S
+#10165
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10164 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10161 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10166 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10169 0 0 0 0 0 0 0 0
+S
+#10166
+Plains~
+This plain is covered in waist high grass.  The grass is tough and green with small barbs that tugs at your cloak and tears at any unexposed skin.  With no trees to block the sun, you can feel the strength of the sun shinning down on you but the air flows freely here and the humidity is gone.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10165 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10118 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10167 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10168 0 0 0 0 0 0 0 0
+S
+#10167
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10166 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10105 0 0 0 0 0 0 0 0
+S
+#10168
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D0
+~
+~
+0 0 10169 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10166 0 0 0 0 0 0 0 0
+S
+#10169
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D1
+~
+~
+0 0 10165 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10168 0 0 0 0 0 0 0 0
+S
+#10170
+Around the edge of the valley~
+This unfinished room was created by Ubtao.
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D1
+~
+~
+0 0 10171 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10149 0 0 0 0 0 0 0 0
+S
+#10171
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10177 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10172 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10148 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10170 0 0 0 0 0 0 0 0
+S
+#10172
+River~
+This is a wide river.  It's water is clean and clear, and you see evidence of some larger animal life lving in it.  Medium size reptiles and amphibians are numerous around this area.  And where there is prey, there must be predators.  The river flows to the entrace of a small valley to the northwest from here and comes from the south.
+~
+100 w 0 0 0 6
+D0
+~
+~
+0 0 10176 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10173 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10147 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10171 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10177 0 0 0 0 0 0 0 0
+S
+#10173
+Giant Forest~
+The forest that surrounds you is full of unusual trees and plants, everything is bigger than you are used to.  The understory is open but the tree canopy high above you blocks much of the sunlight.  A slight breeze occasionally reaches you bringing relief from the humid heat.
+~
+100 0 gm 0 0 3
+D0
+~
+~
+0 0 10175 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10174 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10146 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10172 0 0 0 0 0 0 0 0
+S
+#10174
+Around the edge of the valley~
+You sense the wall of the valley looming above you but the trees are too thick to see it--much less move toward it.  Moving  away from the rock face is easier.  You notice the tree canopy is lower here and the undergrowth thicker than in other parts of the valley.  
+~
+100 0 ae 0 0 4
+D2
+~
+~
+0 0 10145 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10173 0 0 0 0 0 0 0 0
+S
+#10175
+Base of the mountain~
+You can get close to the wall of the valley here.  A sheer cliff rises above you here.  The rock face is made up of  hundreds of layers of different color rock.  The sight of the sun glinting off the rock is incredible, illuminating the layers of rock like a huge earth toned rainbow.  A few vines snake up the wall and an old pile of rubble lies at the base of the wall.
+~
+100 0 ae 0 0 4
+D2
+~
+~
+0 0 10173 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10176 0 0 0 0 0 0 0 0
+S
+#10176
+Base of the mountain~
+You can get close to the wall of the valley here.  A sheer cliff rises above you here.  The rock face is made up of  hundreds of layers of different color rock.  The sight of the sun glinting off the rock is incredible, illuminating the layers of rock like a huge earth toned rainbow.  A few vines snake up the wall and an old pile of rubble lies at the base of the wall.
+~
+100 0 ae 0 0 4
+D1
+~
+~
+0 0 10175 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10172 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10177 0 0 0 0 0 0 0 0
+S
+#10177
+A narrow passage to an isolated valley~
+The mountain is not as unapproachable from this side. There seems to be a path to climb it.  There is also a narrow passageway going towards the northwest that appears it opens into another part of this valley. The river that flows to this point, dissapears around the base of the mountain to an underground cavern.
+~
+100 w 0 0 0 6
+D1
+~
+~
+0 0 10176 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10171 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10178 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10190 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10172 0 0 0 0 0 0 0 0
+S
+#10178
+Narrow passage~
+The small path open up to a new valley, this one mostly cleared of big trees and with lots of open spaces. You can see for miles from here, and giant animals can be viewed from afar.
+~
+100 0 0 0 0 2
+D0
+~
+~
+0 0 10187 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10199 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10179 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10177 0 0 0 0 0 0 0 0
+S
+#10179
+A Valley within the Valley~
+You are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D0
+~
+~
+0 0 10181 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10180 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10187 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10178 0 0 0 0 0 0 0 0
+S
+#10180
+A Valley within the Valley~
+ou are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D3
+~
+~
+0 0 10179 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10181 0 0 0 0 0 0 0 0
+S
+#10181
+A Valley within the Valley~
+You are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D2
+~
+~
+0 0 10179 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10188 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10182 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10180 0 0 0 0 0 0 0 0
+S
+#10182
+A Valley within the Valley~
+ou are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+There is something very large to your left.
+~
+100 0 ah 0 0 2
+D2
+~
+~
+0 0 10188 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10183 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10181 0 0 0 0 0 0 0 0
+S
+#10183
+The Huge Dinosaur~
+You come upon a small muddy pond in the grass here.  The water is hot, muddy, and stagnant but birds seem to love it and many are spread along the edge of the pond drinking and splashing.  As you watch them for a second, the shape of the pond starts to nag at you.  Its almost like a footprint, but a really big one.
+~
+100 0 ah 0 0 2
+D1
+~
+~
+0 0 10182 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10189 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10184 0 0 0 0 0 0 0 0
+S
+#10184
+A Valley within the Valley~
+You are in a sea of grass.  You can barely make out the edge of the valley in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D1
+~
+~
+0 0 10189 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10185 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10183 0 0 0 0 0 0 0 0
+S
+#10185
+A Valley within the Valley~
+ou are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D0
+~
+~
+0 0 10184 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10186 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10199 0 0 0 0 0 0 0 0
+S
+#10186
+A Valley within the Valley~
+This unfinished room was created by Ubtao.
+ou are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D0
+~
+~
+0 0 10189 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10187 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10199 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10185 0 0 0 0 0 0 0 0
+S
+#10187
+A Valley within the Valley~
+You are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D0
+~
+~
+0 0 10188 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10179 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10178 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10186 0 0 0 0 0 0 0 0
+S
+#10188
+A Valley within the Valley~
+You are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10182 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10181 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10187 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10189 0 0 0 0 0 0 0 0
+S
+#10189
+A Valley within the Valley~
+This unfinished room was created by Ubtao.
+ou are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you. There is something very large ahead. 
+~
+100 0 j 0 0 2
+D0
+~
+~
+0 0 10183 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10188 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10186 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10184 0 0 0 0 0 0 0 0
+S
+#10190
+Climbing a mountain~
+The climb up the mountain is hard, there are footholes and ledges everywere but the mountain is steep. You can see a lot of red clay all over the area. Erosion has taken a toll on the place because there is not much vegetation going up. 
+~
+100 0 c 0 0 5
+D4
+~
+~
+0 0 10191 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10177 0 0 0 0 0 0 0 0
+S
+#10191
+Climbing a mountain~
+These ledge is wide enough to give a chance to rest before continuing the journey. You can see a lot of red clay all over the area. Erosion has taken a toll on the place because there is not much vegetation around here. 
+~
+100 0 c 0 0 5
+D5
+~
+~
+0 0 10190 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10192 0 0 0 0 0 0 0 0
+S
+#10192
+Climbing a mountain~
+More boulders and red clay around here. The path goes up from here.
+~
+100 0 c 0 0 5
+D4
+~
+~
+0 0 10193 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10191 0 0 0 0 0 0 0 0
+S
+#10193
+High in the mountain range~
+A barren terrain mostly covered with nests and littered with remains of past meals. Some sort of animal lives here
+~
+100 0 c 0 0 5
+D0
+~
+~
+0 0 10194 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10197 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10192 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10198 0 0 0 0 0 0 0 0
+S
+#10194
+Nest~
+A barren terrain mostly covered with nests and littered with remains of past meals. Some sort of animal lives here
+~
+100 0 b 0 0 5
+D1
+~
+~
+0 0 10198 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10193 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10195 0 0 0 0 0 0 0 0
+S
+#10195
+Nest~
+A barren terrain mostly covered with nests and littered with remains of past meals. Some sort of animal lives here
+~
+100 0 b 0 0 5
+D2
+~
+~
+0 0 10198 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10196 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10194 0 0 0 0 0 0 0 0
+S
+#10196
+Nest~
+A barren terrain mostly covered with nests and littered with remains of past meals. Some sort of animal lives here
+~
+100 0 b 0 0 5
+D3
+~
+~
+0 0 10198 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10195 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10197 0 0 0 0 0 0 0 0
+S
+#10197
+Nest~
+A barren terrain mostly covered with nests and littered with remains of past meals. Some sort of animal lives here
+~
+100 0 b 0 0 5
+D0
+~
+~
+0 0 10198 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10193 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10196 0 0 0 0 0 0 0 0
+S
+#10198
+Nest~
+A barren terrain mostly covered with nests and littered with remains of past meals. Some sort of animal lives here
+~
+100 0 b 0 0 5
+D0
+~
+~
+0 0 10195 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10196 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10197 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10194 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10193 0 0 0 0 0 0 0 0
+S
+#10199
+A Valley within the Valley~
+ou are in a sea of grass.  You can barely make out the edge of the forest in the distance. The heat from the sun would be unbearable if not for the frequent breeze that swirls the grass around you.
+~
+100 0 ah 0 0 2
+D0
+~
+~
+0 0 10186 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10178 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10185 0 0 0 0 0 0 0 0
+S
+$~

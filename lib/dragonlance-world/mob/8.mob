@@ -1,0 +1,222 @@
+#800
+nixie water sprite ravishing beautiful~
+a pale-skinned, ravishing nixie~
+A ravishingly beautiful water-sprite with pale blue skin swims playfully.
+~
+   Swimming in the water ahead of you is a water-sprite of ravishing beauty.  
+She is completely naked, revealing a supple and well curved body that most men
+would die to possess.  She plays in the water friskily sending you mischievious
+glances and splashing water in your direction.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#801
+minnows school~
+a small school of minnows~
+A small school of minnows speeds quickly through the waters.
+~
+   Swimming this way and that, this school of minnows darts through the pool in
+search of food and space to be free.  They swim towards you but dodge your legs
+as they sense your presence, fearing you to be some sort of predator.  The
+school is comprised of dozens of fish, all of them silvery in color with blue
+and red spots speckled among them.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#802
+salmon freshwater~
+a freshwater salmon~
+A freshwater salmon jets through the pond in search of food.
+~
+   Thrashing through the water beneath you is a large, freshwater salmon.  Its
+silvery scales gleam as the sunlight pierces the waves, filtering down to catch
+the skin of the fish.  The salmon pays little attention, although it seems to
+do what it can to avoid you.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#803
+merman blue scaled~
+a blue scaled merman~
+A blue scaled merman swims amid the waters in peace.
+~
+   Swimming ahead of you is a strange sight.  The creature is part fish, part
+man, with finned arms and legs covered in shiny blue scales.  It has the head
+of a fish, yet with strangely human-like features.  It peers at you with
+obvious intelligence and distinct curiosity.    
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#804
+mermaid woman beautiful~
+a beautiful mermaid~
+A beautiful woman with the torso of a human and lower body of a fish swims by.
+~
+   Swimming nearby is a magestic sight...  That of a beautiful mermaid.  She is
+almost completely naked, save for her breasts which are covered by large
+seashells strapped with vines.  She hums softly to herself and smiles as she
+notices your presence.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#806
+chancellor sidhe~
+a sidhe chancellor~
+A tall, blue skinned male sidhe chancellor strides by with confidence.
+~
+   This tall sidhe wears the purple and red robes of the chancellors, the
+ruling senate of the sidhe kingdom.  They in turn serve the king who governs
+their underwater realm.  The sidhe looks at you with great interest as he
+strides by and seems to make note of something as he places his finger against
+his lips.  He then smiles quickly and continues with his business.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#807
+knight sidhe tempest~
+a sidhe tempest knight~
+A tempest knight, the guardians of the sidhe kingdom, watches over the king.
+~
+   Standing before you in rose colored plate mail is a tempest knight, the
+eternal guardians of the sidhe kingdom.  Both priests of Habbakuk and extremely
+able warriors, these sidhe swordsmen are the best their society has to offer,
+both in skill and morality.  He looks upon you with the face of a well-trained
+hero, as if expecting something from you.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Two large slits of
+#809
+pegasus shining white noble~
+a noble pegasus of shining white~
+Trotting by with an air of extreme nobility is a shining white pegasus.
+~
+   This noble creature of legend is perhaps one of the most beautiful creatures
+you have ever seen.  It is covered with unblotched white fur that shines
+brightly before you.  Twin wings covered in huge, ivory feathers sprout from
+the back of this honorable beast.  It gazes at you with a serene expression,
+patiently awaiting your action.    
+~
+d 0 0 0 k 0 0 0 900
+25 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

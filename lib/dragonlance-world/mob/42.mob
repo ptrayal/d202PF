@@ -1,0 +1,521 @@
+#4200
+foreign nobleman~
+a foreign nobleman~
+A foreign nobleman stands here conversing with a fellow guest.
+~
+   Easily determined to be foreign to Palanthas by the clothing he wears, this
+nobleman converses in common with a fellow guest.  A curly black mustache
+adorns his tanned, wrinkled face.  Possibly having a bit too much to drink, he
+slurs his speech, making it quite hard to understand him.    
+~
+d 0 0 0 k 0 0 0 900
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4201
+dignitary palace~
+a dignitary of the palace~
+A dignitary of the palace paces the room, greeting the guests as they enter.
+~
+   A high ranking official in Palanthas, this dignitary moves from guest to
+guest introducing himself and asking if they need any assistance while in town.
+The official crest of the palace has been sewn into his thick, black velvet
+cloak.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4202
+elegantly dressed maiden~
+an elegantly dressed maiden~
+An elegantly dressed maiden modestly flirts with a nobleman.
+~
+   Wearing a flowing silk dress, this young woman catches the eye of a good
+portion of the men in the room.  Smiling to herself at the amount of attention
+she receives from her suitors, she politely converses with them before excusing
+herself.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4203
+scholar palace ~
+a scholar of the palace~
+A scholar of the palace patiently searches for a tome on the shelf.
+~
+   Patiently searching the mass of bookshelves for a specific tome, this
+scholar sighs in frustration.  A pair of spectacles rest loosely on his pale
+face, occasionally slipping a bit too far down his nose.  Finally finding the
+item he was searching for, he grabs it off the shelf and heads back to his
+table.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4204
+esteemed guest~
+a well esteemed guest~
+A well esteemed guest sits comfortably in a chair, reading a book.
+~
+   Noticeably held in high regard by palace officials, this well dressed man
+sits in a chair quietly reading a book on the history of Palanthas.  
+Occasionally butlers walk up to him offering any assistance he might need.  
+Mildly perturbed by their interuption, he politely refuses and returns his
+attention to his book.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4205
+elderly butler~
+an elderly butler~
+An elderly butler offers his assistance to any guest who needs it.
+~
+   This elderly butler has an amazing amount of energy for his age.  Quickly
+making his way around the room, he smiles kindly at the guests before offering
+his assistance.  A large bottle of expensive dwarven spirits rests in his hand
+as he goes about filling empty glasses.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4206
+impatient noble noblewoman~
+an impatient noblewoman~
+An impatient noblewoman sighs as she waits for her drink to be refilled.
+~
+   Prudely sitting on one of the plush couches, this impatient woman motions
+for the butler to refill her drink.  She mutters rudely to her husband as she
+complains about the slow service of the palace.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4207
+magnanimous gentleman ~
+a magnanimous gentleman~
+A magnanimous gentleman quietly admires the craftsmanship of the palace.
+~
+   Looking towards the rafters, this wealthy guest holds his mouth open in awe.
+Apparently coming from a much smaller town, the look in his eyes shows that he
+has never before been in such an enormous building.  He pauses briefly to thank
+the butler for filling his glass before returning his gaze upward.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4208
+politician hurried~
+a hurried politician~
+A politician makes his way down the hall at a rushed pace.
+~
+   Holding a stack of papers in one hand and a flat leather case in the other,
+this politician speaks with a coworker while making his way down the hall.  
+Showing amazing dexterity, he is able to balance the stack of papers while
+weaving his way through the crowd.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4209
+flustered aid~
+a flustered aid~
+A flustered aid of the head magistrate walks towards his office.
+~
+   This aid of Lord Amothus appears to be completely overwhelmed with the days
+business.  As he makes the way to his office, he quickly repeats his duties to
+himself, as not to forget his tasks at hand.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4210
+eager politician~
+an eager politician~
+An eager politician waits outside Lord Amothus' study.
+~
+   Keeping quietly to himself, this eager politician awaits his turn to speak
+with Lord Amothus.  He calmly checks his appearance and combs his hair in an
+attempt to look as presentable as possible to his Lordship.  After feeling
+confident in his appearance, he reads over a piece of parchment, whispering the
+words to himself in an attempt to memorize them
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4211
+aid~
+Lord Amothus' personal aid~
+A personal aid of Lord Amothus stands here taking notes.
+~
+   Bearing a striking resemblance to a wiry weasel, the Lordship's personal aid
+stands behind his desk taking notes as he is spoken to.  A red bow tie is tied
+tightly around his collared, button down shirt making him look somewhat
+foolish.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4212
+lord amothus~
+Lord Amothus~
+Lord Amothus sits behind his desk, speaking with his aid.
+~
+   Sitting on a sturdy wooden chair behind his polished oak desk, the rather
+portly Lord of Palanthas quickly shouts off a line of orders to his aid while
+eating a meal of sausage and cabbage.  Occasionally fragments of food spit out
+of his mouth as he raises his voice in frustration while speaking of a
+political situation which upsets him.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4213
+drowsy visitor~
+a drowsy visitor~
+A drowsy visitor of the palace settles down for a nap.
+~
+   Settling down for a quick nap, this tired visitor of the palace yawns
+broadly.  His silk button down shirt is half off of him when he notices your
+rude intrusion on his privacy.  He sternly asks if there is anything you want
+while buttoning his shirt back up.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4214
+gluttonous tax collector~
+a gluttonous tax collector~
+A gluttonous tax collector sits at his desk weighing coins on a small scale.
+~
+   Counting a large pyramid of steel coins, the official tax collector of
+Palanthas whispers a series of numbers to himself.  When he reaches the one
+hundred mark, he places the coins in a velvet pouch and tosses it into a safe.
+He continues this process until noticing the door of his study has been opened
+and looks up to see who it is.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4215
+head magistrate~
+the head magistrate~
+The head magistrate studies a small pile of papers before stamping them with his seal.
+~
+   Sitting at his desk in rather formal attire, the head magistrate carefully
+concentrates on a small stack of papers that sit before him.  Scratching his
+head in confusion occasionally, he finally shrugs and staps the stack with his
+special seal.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4216
+busy city magistrate~
+a busy city magistrate~
+Overwhelmed with the amount of work on his desk, a city magistrate sighs.
+~
+   Barely visible behind a wall of towering sheets of parchment, this city
+magistrate mumbles to himself about the amount of work he is forced to do.  
+His dark maroon shirt has been soaked with sweat due to the amount of pressure
+the magistrate has been put under.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4217
+squire knights solamnia guard~
+a squire of the Knights of Solamnia~
+A squire of the Knights of Solamnia has been assigned to guard the palace doors from intruders.
+~
+   A young squire stands here, guarding the palace doors from any unwelcomed
+intruders.  He stands proudly, eyeing everyone who enters the palace with an
+assessing glance.  Occasionally he stops a citizen, asking them their business
+before letting them enter.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4218
+captain orluf~
+Captain Orluf~
+Knight-Captain Orluf stands here looking over some maps of the city.
+~
+   He is young for a captain, but lines of worry and stress mar his youthful
+visage.  His eyes are stern, but bear a sadness of having seen too much
+suffering, and too many friends die in battle.  He has short brown hear and
+wears a black leather headband adorned with the symbol of the kingfisher on the
+forehead.  His plate mail bears the symbol of the kingfisher as well, and he
+wears it with dignity and pride.  
+~
+bdnopqrAF b 0 0 0 0 0 0 500
+61 -10 -81 732d100+100 1d1+30
+0 0 41 5
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 31
+S
+$

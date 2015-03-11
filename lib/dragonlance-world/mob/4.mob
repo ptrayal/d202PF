@@ -1,0 +1,234 @@
+#400
+guard gate elvish~
+a new mob~
+An elvish guard stands watch over the empire gates.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#401
+minstrel humming~
+a humming minstrel~
+A minstrel hums as he walks along the road.
+~
+   Bright orange stripes line his cloak and pants, a brilliant contrast against
+the drab gray of the original material.  A large pack rests on his back, likely
+holding some instrument or something of the like.  He hums as he walks the
+road, probably out to some new town.    
+~
+d 0 0 0 k 0 0 0 900
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#402
+cat sabertooth saber~
+a sabertooth cat~
+A sabertooth cat stalks its prey silently.
+~
+   Many stones in weight lie under this one's skin, held in check as muscles in
+this lithe feline's body.  It slowly follows the trail of some form of life as
+it walks, stopping now and again to see if something is hidden.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#403
+bandit grinning~
+a grinning bandit~
+Lost in the grass, this bandit grins as he eyes his company.
+~
+   A scar at the edge of his lip gives this man a perpetual grin, which is not
+much helped by the form his eyebrows are constantly shaped as.  Short black
+hair is slicked back, as though a stream of water had pushed it all behind his
+head.    
+~
+d 0 0 0 k 0 0 0 900
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#404
+kender frivoulous~
+a frivoulous kender~
+A frivoulous kender smiles as he walks on by.
+~
+   Slightly pointed ears stick up besides his hair, which is strung up in a
+topknot, a black rope atop his head.  Chances are he is not smiling at the
+moment, but has done so often enough that he's permanantly put a turn to his
+lips.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#405
+dog wild~
+a wild dog~
+A wild dog barks loudly.
+~
+   Brown fur, spotted with black, is stretched along this dog's body.  The fur
+darkens in color as it turns towards the nose, lightening as it reaches the
+tail.  Ears are perked up, listening to every and anything that moves.  
+Standing nearly the height of a kender, this dog is no pushover.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#406
+mouse field gray~
+a gray field mouse~
+Sniffing as it walks, this field mouse scurries along.
+~
+   A small sleek body held by four legs makes the body of this rodent.  The
+nose is pink, the fur just before it a white color, fading to gray as it
+reaches the mid body.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#407
+mosquitos swarm~
+a swarm of mosquitos~
+Flying around annoyingly is a swarm of mosquitos.
+~
+   Lots of gnats seem to have teamed together to make this cloud.  Buzzing and
+other insect sounds exude from the fog of bugs which this swarm has made.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#410
+blade grass~
+a blade of grass~
+A blade of grass sways when the wind blows.
+~
+   Almost the height of a kender, this grass is rather tall.  It flows with the
+wind, and seems to move sometimes with a life all its own.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

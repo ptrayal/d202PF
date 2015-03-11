@@ -1,0 +1,311 @@
+#900
+goblin scout~
+a shifty-eyed goblin scout~
+A shifty-eyed goblin patrols the clearing.
+~
+   Slinking back and forth across the clearing, this slender goblin seems to be
+on patrol.  It repeatedly stops to check behind the same tree again and again.
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#901
+dirty goblin child~
+a dirty goblin child~
+A dirty goblin child pokes you with a stick.
+~
+   Tiny even for a goblin, this young goblin is covered in muck and leaves.  A
+small, ragged hide covers most of his torso, leaving scrawny legs and arms
+unprotected.  Yellowed, rotting teeth protrude from his grinning mouth, and a
+stream of drool drips down his chin.    
+~
+d 0 0 0 k 0 0 0 -250
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#902
+goblin guard hefty~
+a hefty goblin guard~
+A hefty goblin guard patrols the area for intruders.
+~
+   Large arms and teeth distinguish this rather heavy goblin from others you
+have seen.  A dull expression seems etched in his face, while his eyes twitch
+like a rat's seeking its next meal.    
+~
+d 0 0 0 k 0 0 0 -950
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#903
+human crying girl~
+a crying human girl~
+A small human girl lies here huddled and crying.
+~
+   Covered in dirt and blood, and wrapped in torn and frayed cloth strips, this
+little girl is barely protected from the elements.  Bruises and cuts cover her
+hands and face, and her few remaining teeth are brown and rotting.  Cowering
+and wimpering like an injured animal, she wraps herself up in a ball, hoping
+not to be noticed.    
+~
+d 0 0 0 k 0 0 0 300
+7 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#905
+dirty little female goblin~
+a dirty little female goblin~
+A dirty little female goblin cowers here.
+~
+   Standing at barely three feet tall this almost skeletal being is a pitiful
+sight.  Her dirty black matted hair is pulled to the side and tied off with a
+cloth revealing her hideous little face.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#906
+goblin patroller~
+a goblin patroller~
+A goblin patroller surveys the area for intruders.
+~
+   This stocky grey-skinned goblin runs along the outskirts of the village
+looking for signs of intruders.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#907
+goblin nasty archer~
+a nasty goblin archer~
+A goblin archer stands here, looking for enemy targets to take down.
+~
+   This nasty little goblins main job is to take out any enemy scouts from a
+distance.  Its obvious he's spent many long hours in the sun because his green
+skin is covered in yellow pussy blisters.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#908
+stocky goblin tower guard~
+a stocky goblin tower guard~
+a stocky goblin guard stands here, watching over the tower.
+~
+   This hefty goblin is one of the few skilled soldiers hand-picked to guard
+entry to the only defensible area of the village.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#909
+heavy goblin tower guard~
+a heavy goblin tower guard~
+A heavy goblin guard stands here, watching over the tower.
+~
+   This hefty goblin is one of the few skilled soldiers hand-picked to guard
+entry to the only defensible area of the village.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#910
+short goblin archer~
+a short goblin archer~
+A goblin archer stands here, looking for enemy targets to take down.
+~
+   This nasty little goblins main job is to take out any enemy scouts from a
+distance.  Its obvious he's spent many long hours in the sun because his green
+skin is covered in yellow pussy blisters.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#911
+burly goblin soldier~
+a burly goblin soldier~
+A burly goblin soldier is here patrolling his designated area.
+~
+   This green-skinned goblin is clad in rusted scalemail and carries to weapon
+whatsoever.  However his movements are those of a trained fighter.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#912
+worg large grey wolf creature~
+a large grey worg~
+A large wolf-like creature stalks the area looking for food.
+~
+   At first glance this grey furred creature looks to be a very large wolf, but
+upon further inspection saddle sores can be seen on the creatures back.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

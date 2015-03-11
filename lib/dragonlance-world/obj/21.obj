@@ -1,0 +1,262 @@
+#2100
+sickle golden~
+a golden sickle~
+A golden sickle rests on the ground.~
+~
+5 klpruwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sickle golden~
+   This sickle has a golden blade.  Gold is not usually a good metal for a
+weapon, but strange runes along the brown handle of the weapon indicate there
+is more to this sickle then meets the eye.    
+~
+A
+18 1 0
+#2101
+cloak green black~
+a green and black cloak~
+A green and black cloak rests on the ground.~
+~
+9 klmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak green black~
+   This cloak appears to have once been a plain green color, but now it covered
+with black spots.  It gives little protecton in battle, but does keep its owner
+warm in times of winter.    
+~
+#2102
+key shiny brass~
+a shiny brass key~
+A shiny brass key has been left here.~
+~
+18 cjklmnopqrstuvwABCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+key brass~
+   This brass key has a jagged edge that s set to fit a specific door.  The
+word "pews" is written on the key in tiny letters.    
+~
+#2103
+vest armored~
+an armored vest~
+An armored vest has been discarded here.~
+~
+9 jklnprstuBCDEF ab stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+vest armored~
+   This vest is armored with a crude set of chain links.  There is a running
+figure etched into its front.    
+~
+#2104
+tail bushy squirrel~
+a bushy squirrel tail~
+A bushy squirrel tail has been left here.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 90 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tail squirrel bushy~
+   This tail has been cut off of a squirrel.  It has a funny smell, but a
+strange energy can be felt when it is worn.    
+~
+A
+14 3 0
+#2105
+tail fox grey~
+a grey fox tail~
+A grey fox tail has been left here.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 90 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tail fox grey~
+   This tail has been cut off of the body of a grey fox.  It appears to twitch
+slightly every few minutes.    
+~
+#2106
+pelt wolf grey~
+the pelt of a grey wolf~
+The pelt of a grey wolf has been discarded.~
+-1~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pelt grey wolf~
+   This wolfs hide was cut from a large grey wolf's body.  It has a grey color
+to it, and has black spots covering its surface.    
+~
+A
+17 -1 0
+#2107
+hide bear brown tunic~
+a brown tunic of bear hide~
+A brown tunic of bear hide has been left here.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 220 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+hide bear brown tunic~
+   This hide has been carefully removed frm the body of female brown bear.  
+Markings have been etched into the inside of the hide, apparently saying
+something in a language that you cannot discern.    
+~
+A
+14 5 0
+#2108
+staff wooden long~
+a long wooden staff~
+A long wooden staff rests upon the ground.~
+~
+5 jklmnoprstuvwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 120 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+staff wooden long~
+   This staff is made of fine oak and appears quite sturdy.  Few markings
+tarnish its flawless surface, except for a small golden band that marks the top
+of the staff.    
+~
+#2109
+sabre black exceptional~
+an exceptional black sabre~
+An exceptional black sabre has been left here to the elements.~
+~
+5 jklprsuBCDEF abc lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 170 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2110
+boots black pair~
+a pair of black boots~
+A pair of black boots has been left here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+boots black pair~
+   These boots are sturdy and suit their purpose, but are commonly found
+through Krynn.  There is a slight design along their edges, but the skill that
+crafted this leather was not great.    
+~
+#2111
+key skull shaped~
+a skull shaped key~
+A skull shaped key has been left here.~
+~
+18 cjklmnopqrstuvwABCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2112
+blade chain dancing wounding~
+the dancing chain blade of wounding~
+Swirling around on the ground, here is a dancing chain blade of wounding.~
+~
+5 bgjklpqrxBCF a hmstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 10000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2113
+scimitar serrated golden~
+a serrated golden scimitar~
+A serrated golden scimitar has been left here.~
+~
+5 bjklpruBCF ac kstuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 5200 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+$~

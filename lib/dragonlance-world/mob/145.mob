@@ -1,0 +1,163 @@
+#14500
+well armored warrior platemail~
+a well armored warrior in solid platemail~
+A warrior dressed in silver platemail guards the entrance to the basement.
+~
+   Standing before you is a warrior dressed in silver platemail.  She holds her
+sword hilt tightly, ready to use it if the need arises.  As you begin to walk
+down the steps towards the basement door, she quickly steps in front of you,
+blocking your path.    
+~
+dD 0 0 0 k 0 0 0 900
+30 2 -38 1800d300+120 1d8+18
+75 0 41 3
+8 8 2
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14501
+warrior well muscled platemail~
+a well armored warrior in solid platemail~
+A warrior dressed in silver platemail guards the entrance to the basement.
+~
+Standing before you is a warrior dressed in silver platemail.  He holds his
+sword hilt tightly, ready to use it if the need arises.  As you begin to walk
+down the steps towards the basement door, he quickly steps in front of you,
+blocking your path
+~
+dD 0 0 0 k 0 0 0 900
+30 2 -38 1800d300+120 1d8+18
+75 0 41 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14502
+bored overweight jailer man~
+a bored, overweight jailer~
+Sitting behind a small desk, this overweight man looks up at you.
+~
+   Before you is a man of above average girth.  He sits behind his desk, paying
+little attention to anything around him.  Hanging from his neck is a chain
+which the cell keys are kept.  As he notices you approach him, he looks up at
+you sadly.    
+~
+d 0 0 0 k 0 0 0 900
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14503
+dark skinned muscular warrior~
+a dark-skinned, muscular warrior~
+Leaning in the corner, is a well-muscled, dark-skinned warrior.
+~
+   A large dark skinned man grins as you approach.  His body is covered in
+marks which have been left from his punishment for whatever crimes he has
+committed.  As you approach him, he stands his ground firmly, and watches you
+carefully.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#14504
+bald man dressed golden himself elderly~
+a bald man dressed in golden robes~
+Sitting here talking to himself is an elderly man with no hair, dressed in golden robes.
+~
+   Sitting on his cot is an elderly man with no hair.  He is wearing finely
+made robes crafted from golden material.  He is talking non-stop to himself,
+ignoring you totally as you approach him.  Every now and then he stands up from
+his bed, then quickly sits back down.    
+~
+d g 0 0 k 0 0 0 900
+30 -2 -39 13500d300+120 1d8+22
+75 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 23
+E
+Con: 12
+E
+Cha: 11
+S
+#14505
+unholy warrior paladin malevolent~
+an unholy, malevolent paladin~
+Cursing loudly at you, this unholy, malevolent warrior prepares to attack you.
+~
+   Before you is a large unholy warrior.  His body is covered in tattoos.  He
+has no hair on his head, only the tattoo of a large five-headed dragon, which
+ends upon his back.  Most of his clothes have been stripped from him, yet as
+you approach, he cracks his knuckles loudly and attacks.    
+~
+d g 0 0 k 0 0 0 -900
+30 -2 -42 16500d300+120 1d8+22
+75 0 22 5
+8 8 1
+E
+Str: 12
+E
+Dex: 13
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 12
+E
+Cha: 23
+S
+$

@@ -1,0 +1,606 @@
+#9200
+fisherman stout~
+a stout fisherman~
+A stout-looking fisherman guides the vessel through the Bay of Branchala.
+~
+   This fisherman wears simple clothing of red and black.  He steers the vessel
+from the rear, occasionally giving you a sidelong glance to make sure you
+aren't getting into any trouble.    
+~
+d 0 0 0 k 0 0 0 900
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9201
+fisherman young~
+a young fisherman~
+A young fisherman brings in the day's catch for the village.
+~
+   This young man is rather scruffy-looking and is clothed in brown and yellow
+clothing.  He tirelessly works to bring in the day's catch for the village.  
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9202
+woman middle aged village~
+a middle-aged village woman~
+A middle-aged village woman works here drying and salting the fish for storage.
+~
+   This middle aged woman wears a simple tan dress and works diligently to dry
+and salt the fish for future storage.  She offers you a kindly smile as you
+pass her by.    
+~
+d 0 0 0 k 0 0 0 900
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9203
+child laughing romping giggling~
+a laughing, romping child~
+A laughing and giggling child romps across the beach playing with his dog.
+~
+   This dirty-faced child is dressed in blue and brown.  He joyously throws a
+stick and runs after his dog as it goes to fetch it.  He pays you no mind
+whatsoever
+~
+d 0 0 0 k 0 0 0 900
+3 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9204
+dog pitbull young~
+a young pitbull~
+A young pitbull friskily chases after a thrown stick.
+~
+   This young pitbull is currently rather busy playing with a nearby small
+child.  As the child sends a stick hurtling through the air, the dog expectedly
+chases it down with great endeavor.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9205
+crab large red backed~
+a large, red-backed crab~
+A large, red-backed crab silently crawls along the shoreline.
+~
+   This crab is quite large and crawls sideways along the beach.  It stops from
+time to time, clicking its claws together and then suddenly resumes its
+business.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9206
+player shueball bare chested~
+a bare-chested shueball player~
+A bare-chested shueball players swims across the court chasing the ball.
+~
+   This young man is bare chested and wears only a set of blue trunks.  He is
+currently involved in some kind of water sport, eagerly chasing a blue and red
+ball.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9207
+player shueball white shirt~
+a shueball player in a white shirt~
+A shueball player in a white shirt eagerly chases after the ball.
+~
+   This young man wears a soaking wet, tight white shirt and a set of red
+trunks.  He is currently involved in some kind of water sport, eagerly chasing
+after a blue and red ball.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9208
+player shueball bare chested~
+a bare-chested shueball player~
+A bare-chested shueball player vigilantly guards the floating net.
+~
+   This young man is bare chested and wears only a set of blue trunks.  He is
+currently involved in some kind of water sport, eagerly chasing a blue and red
+ball.  This young man is bare chested and wears only a set of blue trunks.  He
+is currently involved in some kind of water sport, vigilantly guarding a
+floating net.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9209
+player shueball white shirt~
+a shueball player in a white shirt~
+A shueball player in a tight white shirt vigilantly guards the floating net.
+~
+   This young man wears a soaking wet, tight white shirt and a set of red
+trunks.  He is currently involved in some kind of water sport, vigilantly
+guarding a floating net
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9210
+homemaker mild mannered~
+a mild-mannered homemaker~
+A mild-mannered homemaker diligently goes about her chores
+~
+   This middle aged woman is garbed in a simple red dress of thin cloth.  She
+diligently goes about her various chores with a smile on her face and humming
+softly to herself in a melodic voice.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9211
+woman tired young sleepy~
+a tired young woman~
+A sleepy-looking woman yawns as she folds a heap of clothes.
+~
+   This young woman looks recent to the family life.  She is clad in a blue
+blouse and a short black skirt.  She looks to be rather tired as she folds a
+pile of clothers and suddenly looks up giving you a look of astonishment in
+wonder of your presence.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9212
+woman elderly orange dress~
+an elderly woman in an orange dress~
+An elderly woman in an orange dress sits here quietly sewing a shirt.
+~
+   Here is a woman of old age and mild temperment.  She sits at a small table
+sewing a blue shirt for someone.  Her back is to you and it looks as if she
+doesn't know you are there.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9213
+girl little frolicking~
+a frolicking little girl~
+A cheerful little girl frolicks and skips through the village streets.
+~
+   This cheerful young girl wears a bright yellow dress and skips happily
+through the village streets singing a song as she goes along.  She flashes you
+a bright and wide smile as she notices you and stops skipping to approach you.
+~
+d 0 0 0 k 0 0 0 900
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9214
+man frowning broken leg~
+a frowning man with a broken leg~
+A frowning man with a broken leg sharpens a knife to pass the time.
+~
+   This middle aged man frowns disgustedly at his present situation.  His leg
+is bound in a wooden splint and looks badly bruised.  He sharpens a small knife
+to pass the time, eagerly wishing he could get back to work and active life.  
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9215
+sherrif~
+the village sherrif~
+The village sherrif is here polishing his badge earnestly.
+~
+   This man looks to be around 40 years old.  He sits quietly at a small, round
+table polishing a brass badge.  He looks up and raises an eyebrow as you enter
+his home and office.    
+~
+d 0 0 0 k 0 0 0 900
+6 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9216
+farmer grizzled~
+a grizzled farmer~
+A grizzled farmer tirelessly works the fields, harvesting the crops.
+~
+   This man looks rather grizzled with an unshaven face and deeply tanned and
+weathered skin.  He tirelessly works the fields, harvesting the crops while
+planting new seed for the next bounty.  He nods at you politely then goes back
+to his work.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9217
+planter man aging seed~
+an aging seed planter~
+An aging man slowly walks across the fields laying down seeds for the new crop.
+~
+   This man looks a little too old to work a hoe, so he has been given the job
+of laying down seeds where the crop has been harvested for the next year's
+bounty.  He smiles faintly when he notices you and stops to greet you.    
+~
+d 0 0 0 k 0 0 0 900
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9218
+farmhand young~
+a young farmhand~
+A young farmhand toils in the field with a sturdy-looking hoe.
+~
+   This young man has a depp tan and well muscled frame.  He works the fields
+with endeavor, tugging at the soil with a sturdy-looking hoe.  He nods at you
+upon noticing your presence but doesn't stop his work for a moment.    
+~
+d 0 0 0 k 0 0 0 900
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9219
+man young brown overalls~
+a young man in brown overalls~
+A young man in brown overalls clears the ground of any debris.
+~
+   Before you is a young man with a deep tan wearing brown overalls and no
+shirt.  He goes about the field picking up loose debris and clearing the way
+for seeding.  He smiles at you and raises his hand in greeting, then goes back
+to work immediately.    
+~
+d 0 0 0 k 0 0 0 900
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9220
+leader village~
+the village leader~
+The village leader stands here quietly mumbling to himself.
+~
+   This man looks to be about 50 years old, with patches of grey and sparse
+hair around the crown.  He stands here thoughtfully and quietly mumbling to
+himself.  Upon noticing you he smiles, stops and comes over to greet you.    
+~
+bdF 0 0 0 k 0 0 0 900
+6 17 1 720d60+96 1d8+3
+6 0 41 3
+8 8 1
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#9221
+an old fisherman~
+an old fisherman~
+An old fisherman is here lazing the day away with his fishing rod in the sea.
+~
+   This old man looks like he has enjoyed life here on tropical Bethel Island.
+He wears a straw fishing hat and a bright blue tunic the blends in with the sky
+and the sea.  He is thin but wiry, and looks fairly strong despite not having a
+lot of bulk.  He has a smile pasted on his wrinkled face, and his eyes glitter
+with mischief.  
+~
+abdnopqrA b 0 0 k 0 0 0 500
+61 -10 -81 732d100+100 1d8+30
+0 0 0 3
+8 8 1
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#9222
+a draconian smuggler~
+a draconian smuggler~
+A draconian smuggler is here excavating the cave to make it larger.
+~
+   This draconian looks to be of the Baaz variety.  It has coppery scales and
+small wings meant for gliding, and wield a wickedly curved sabre.  
+~
+bd 0 0 0 k 0 0 0 -500
+5 18 3 20d100+100 1d8+2
+0 0 105 3
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

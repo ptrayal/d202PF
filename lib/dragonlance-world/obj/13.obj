@@ -1,0 +1,1514 @@
+#1300
+shortsword bronze short sword~
+a bronze shortsword~
+A bronze shortsword has been discarded here.~
+~
+5 C bc stuvwxy 0 ano 0 0 0 0 0 0 0
+23 1 6 11 100 100 0 7 1 2 0 1 0 0 0 0
+20 10 250 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+3
+D
+0
+#1301
+sack small leather~
+a small leather sack~
+A small leather sack rests on the ground.~
+~
+15 C 0 0 0 ao 0 0 0 0 0 0 0
+50 0 -1 0 100 100 0 2 0 0 0 0 0 0 0 0
+1 2 1 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sack small leather~
+   The sack is old and worn from heavy use, but appears sturdy.  It has a small
+drawstring around its opening so the user may open or close the bag.    
+~
+#1302
+sack burlap large~
+a large, burlap sack~
+A large, burlap sack has been left here.~
+~
+15 C 0 0 0 ao 0 0 0 0 0 0 0
+150 0 -1 0 1 1 0 38 0 0 0 0 0 0 0 0
+1 3 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sack large burlap~
+   The sack seems to be sturdy and will last for quite some time.  It has a
+small drawstring along its top so that it may be opened and closed while on
+long journeys.    
+~
+#1303
+waterskin skin hide~
+a hide waterskin~
+A hide waterskin has been left on the ground.~
+~
+17 C 0 0 0 a 0 0 0 0 0 0 0
+10 10 0 0 1 1 0 5 0 0 0 0 0 0 0 0
+30 4 6 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+waterskin skin hide~
+   The waterskin is made of some form of animal hide.    
+~
+#1304
+cheese wheel food~
+a small wheel of cheese~
+A small wheel of cheese has been left on the ground.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2 1 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cheese wheel small~
+   The cheese appear a day or so old, but is still edible.    
+~
+#1305
+bread small loaf food~
+a small loaf of bread~
+A small loaf of bread has been discarded here.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5 4 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bread small loaf~
+   The bread is hard but appear well cooked and is still fresh.    
+~
+#1306
+beef strip small food~
+a small strip of beef~
+A small strip of beef collects dirt where it has been discarded.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+beef strip small~
+   The strip of beef has been dried and cooked well.  It seems meager but when
+eaten is surprisingly filling.    
+~
+#1307
+lantern hooded bronze~
+a bronze, hooded lantern~
+A bronze, hooded lantern rests on the ground.~
+~
+1 C 0 0 0 ao 0 0 0 0 0 0 0
+0 0 1000 0 100 100 0 29 0 0 0 0 0 0 0 0
+3 6 5 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+lantern bronze hooded~
+   The lantern has a small wick that is lit and runs downs slowly, enabling
+people to see in dark places.  It is nondirectional but the light does not
+spread far.    
+~
+#1308
+torch wooden~
+a wooden torch~
+A wooden torch has been left on the ground.~
+~
+1 C 0 0 0 ao 0 0 0 0 0 0 0
+0 0 500 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+torch wooden~
+   The torch is wrapped with cloth that has been dipped in some kind of oil.  
+~
+#1309
+roll baked freshly food~
+a freshly baked roll~
+A freshly baked roll has been tossed on the ground.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 4 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+roll freshly baked~
+   The roll is fresh and soft.  It is warm in your hand.    
+~
+#1310
+pastry glazed food~
+a glazed pastry~
+A glazed pastry is getting dirty here on the ground.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 7 6 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pastry glazed~
+   The pastry has cheese on its inside, and is covered with a soft sugar glaze.
+~
+#1311
+cake piece small food~
+a small piece of cake~
+A small piece of cake has been left here.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4 1 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1312
+cider cup warm~
+a cup~
+A cup of warm tea rests on the ground.~
+~
+17 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+1 1 11 0 100 100 0 0 0 0 0 0 0 0 0 0
+13 4 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cider cup warm~
+   The cider has been made from freshly squeezed apple blossoms picked from a
+field near Solace
+~
+#1313
+bread loaf food fresh~
+a fresh loaf of bread~
+A fresh loaf of bread rests on the ground.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 13 7 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bread loaf fresh~
+The bread is bakery fresh.
+~
+#1314
+longsword long sword bronze~
+a bronze longsword~
+A bronze longsword has been tossed aside here.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+26 1 8 3 100 100 0 7 1 2 0 11 0 0 0 0
+40 15 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+longsword bronze long sword~
+   The swords edge is worn slightly, and it seems to have a few nick or two in
+its edge.    
+~
+#1315
+dagger small serrated~
+a small, serrated dagger~
+A small, serrated dagger has been tossed aside.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+2 1 4 11 100 100 0 7 1 17 10 1 0 0 0 0
+10 2 24 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+2
+D
+0
+E
+dagger small serrated~
+   This small dagger has a serrated edge to make it more painful to its
+victims.    
+~
+#1316
+mace large wooden~
+a large, wooden mace~
+A large, wooden mace rests on the ground.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+6 1 8 5 100 100 0 8 0 1 0 2 0 0 0 0
+80 12 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+mace large wooden~
+   The mace has a wooden handle that fits well in your hand.  A large blunt end
+has been fashioned on it to thump your opponents.    
+~
+#1317
+longsword sword long wide~
+a wide-bladed, steel longsword~
+A wide-bladed longsword has been carelessly discarded.~
+~
+5 jkloprstuvBCEF ac stuvwxy 0 an 0 0 0 0 0 0 0
+26 1 8 3 100 100 0 7 1 2 0 11 0 0 0 0
+40 15 50 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+longsword sword long wide~
+   The longsword is of decent craftsmanship.  I has a finaely carved pommel.  
+~
+#1318
+sword two handed heavy~
+a heavy, two-handed sword~
+A heavy, two handed sword has been discarded here.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+51 1 10 3 100 100 0 7 1 4 0 11 0 0 0 0
+60 35 125 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sword two handed~
+   The sword seems sturdy.  It has a figure of a small dragon on its pommel.  
+~
+#1319
+staff oaken~
+an oaken staff~
+An oaken staff rests on the ground.~
+~
+5 BC 0 0 0 an 0 0 0 0 0 0 0
+10 1 6 5 100 100 0 8 0 257 0 0 0 0 0 0
+40 0 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+E
+staff oaken~
+   The staff is made from the branch of an ancient oak tree.    
+~
+#1320
+vest studded leather~
+a studded, leather vest~
+A studded, leather vest rests on the ground.~
+2~
+9 C 0 0 0 ad 0 0 0 0 0 0 0
+30 1 5 -1 100 100 15 2 30 3 20 0 0 0 0 0
+200 25 25 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+vest leather studded~
+   The leather vest is crasked and worn.  It has been dried from prolonged
+exposure to sunlight.    
+~
+#1321
+vest ring mail~
+a ring-mail vest~
+A ring-mail vest rests on the ground.~
+2~
+9 C 0 0 0 ad 0 0 0 0 0 0 0
+40 1 4 -2 100 100 20 7 30 4 20 0 0 0 0 0
+250 100 45 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+vest ring mail~
+   The vest is decently crafted with a few nicks from battles fought.    
+~
+#1322
+robes green~
+a green set of robes~
+A green set of robes lies here in a pile.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 1 0 17 0 0 0 0 0 0
+0 0 25 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+robes green~
+   The robes has a small crest to fasten them together.  The crest is in the
+shape of a small, silver disc.    
+~
+#1323
+boots walking pair~
+a pair of walking boots~
+A pair of walking boots are resting on the ground.~
+~
+9 C 0 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 2 0 17 0 0 0 0 0 0
+0 0 28 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+boots pair walking~
+   The boots are made of leather and appear old.  They are in good shape
+however and appear to be of decent quality.    
+~
+#1324
+gloves pair thick leather~
+a pair of thick leather gloves~
+A pair of thick leather gloves rests on the ground.~
+~
+9 C 0 0 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 17 0 0 0 0 0 0
+0 0 10 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+gloves pair thick leather~
+   The gloves seem to be of medium size.  There is a small hole in the left
+pinky finger, but otherwise they appear to be of in decent shape.    
+~
+#1325
+helmet thin copper~
+a thin copper helmet~
+A thin, copper helmet has been cast aside.~
+~
+9 C 0 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 16 0 0 0 0 0 0 0 0
+3 20 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+helmet thin copper~
+   This is a crude helmet that only a desparate warrior would wear to protect
+his skull.    
+~
+#1326
+armguards crude pair~
+a pair of crude armguards~
+A pair of crude armguards rest on the ground.~
+~
+9 C 0 0 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 2 0 0 0 0 0 0 0 0
+1 12 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+crude pair armguards~
+   These armguards are made of leather that has been toughened and stretched.
+~
+#1327
+shield round wooden~
+a round, wooden shield~
+A round, wooden shield rests on the ground.~
+~
+9 C 0 0 0 aj 0 0 0 0 0 0 0
+20 4 99 -2 100 100 15 7 231 15 231 0 0 0 0 0
+150 20 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shield round wooden~
+   The shield is about a foot in diameter.  It has small handles to slip your
+arm through.    
+~
+#1328
+cloak black cotton~
+a black, cotton cloak~
+A black, cotton cloak lies on the ground.~
+~
+9 C 0 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 11 15 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak black cotton~
+   The cloak has silver writing along its edges.  The language is unknown.    
+~
+#1329
+belt wide leather~
+a wide, leather belt~
+A wide, leather belt rests in the ground.~
+~
+9 C 0 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 17 0 0 0 0 0 0
+0 0 13 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+belt wide leather~
+   The belt is long enough to fit men of even the greatest girth.  There are
+seven notches and a small clasp to keep it around your waist.    
+~
+#1330
+guards leg leather pair~
+a pair of leather leg guards~
+A pair of leather leg guards rests on the ground.~
+~
+9 C 0 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 2 0 17 0 0 0 0 0 0
+0 0 15 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+guards leg leather pair~
+   The leg guards have small straps to keep them fastened to your leg.  They
+appear to be of decent craftsmanship.    
+~
+#1331
+shroud fog silver~
+a silver shroud covered in fog~
+A silver shroud covered in fog rests on the ground.~
+~
+9 C 0 0 0 0 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 41 0 17 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shroud silver fog~
+   The shroud has silver, mystic runes along its edges.  A strange fog
+surrounds the shroud that makes it difficult to see clearly.    
+~
+#1332
+staff long oaken~
+a long, oaken staff with strange carvings~
+A long, oaken staff with strange carvings floats just above the ground.~
+~
+4 a 0 0 0 ano 0 0 0 0 0 0 0
+20 25 20 249 100 100 0 8 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+oaken long staff~
+   The staff appears to be normal wood until you inspect it futher.  The
+carvings along its edges seem to suggest that the staff is not whole, but is
+held together by some unknown means.    
+~
+A
+37 1 0
+A
+38 1 0
+A
+26 1 0
+#1333
+staff blue runes~
+a staff with blue runes~
+A staff with blue runes floats just above the ground.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+10 1 6 5 100 100 0 8 0 257 0 0 0 0 0 0
+40 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+E
+staff blue runes~
+You see nothing special.
+~
+#1334
+scroll red runes recall~
+a scroll with red runes~
+A scroll with red runes rests on the ground.~
+~
+2 0 0 0 0 ao 0 0 0 0 0 0 0
+1 42 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 1600 800 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+scroll red runes~
+   The parchment is crasked and seems old.  The letters upon the page seem to
+glow softly, as if emanating a sense of magic.    
+~
+#1335
+potion blue red~
+a blue potion with red flecks~
+A blue potion with red flecks rests on the ground.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+3 28 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 600 400 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+potion blue red~
+   The potion is contained in a small, glass jar.    
+~
+#1336
+potion tiny black~
+a tiny, black potion~
+A tiny, black potion lies here discarded.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+3 126 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 600 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+potion tiny black~
+You see nothing special.
+~
+#1337
+fountain marble leet~
+a marble fountain~
+A marble fountain formed in the shape of a vallenwood tree rests here.~
+~
+23 cdeqA 0 0 0 a 0 0 0 0 0 0 0
+10000 10000 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+fountain marble~
+   To the citizens of Solace for their outstanding hospitality to a lonely
+traveller.  Enjoy the fountain.    
+                                   -Lord Murat
+~
+#1338
+parchment scorched golden~
+a scorched, golden parchment~
+A scorched, golden parchment rests on the ground.~
+~
+2 0 0 0 0 ao 0 0 0 0 0 0 0
+12 198 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 15000 1000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+parchment scorched golden~
+   The parchment has edges that seem to have been scorched from a small fire.
+The letters on the page seem to glow with a magical essence.    
+~
+#1339
+wand pointy metal~
+a pointy, metal wand~
+A pointy, metal wand rests on the ground.~
+Two bolts of magical energy discharge from the wand.~
+3 0 0 0 0 ao 0 0 0 0 0 0 0
+20 0 15 32 100 100 0 8 0 0 0 0 0 0 0 0
+1 400 200 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+wand pointy metal~
+   This wand is thin and made of solid steel.  It has a sharp point, and small,
+green runes along its edges.    
+~
+#1340
+tunic red loose~
+a loose, red tunic~
+A loose, red tunic has been left here.~
+~
+9 C 0 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 17 0 0 0 0 0 0
+0 0 90 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tunic red loose~
+   This tunic has small buttons along its sides.  A small patch covers a whole
+made in its back from years long past.    
+~
+#1341
+shoes pair tiny~
+a pair of tiny shoes~
+A pair of tiny shoes has been left here.~
+~
+9 C 0 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 5 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shoes tiny pair~
+   These shoes are for children.  They have a small red stripe along their
+sides, and appear to have been white at some point, but are now quite dirty.  
+~
+#1342
+glasses pair~
+a pair of glasses~
+A pair of glasses rests on the ground.~
+~
+9 C 0 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 17 0 0 0 0 0 0
+0 0 10 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+glasses pair~
+   The glasses are green and have two lenses that help people with certain
+types of eye trouble see better.    
+~
+#1343
+shoes pair leather~
+a pair of leather shoes~
+A pair of leather shoes have been left here.~
+~
+9 C 0 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 2 0 17 0 0 0 0 0 0
+0 0 9 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shoes leather pair~
+   These shoes has been crafted by a master leather smith.  A few designs have
+been etched into their sides.    
+~
+#1344
+bracelet delicate ruby~
+a delicate, ruby bracelet~
+A delicate, ruby bracelet has been carelessly left here.~
+0~
+9 C 0 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 16 0 17 0 0 0 0 0 0
+0 0 25 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bracelet ruby delicate~
+   This bracelet has been set with rubies from every corner of Ansalon.  A thin
+golden wire braces the gems, and a small clasp on its edges allows for it to be
+removed easily.    
+~
+#1345
+hammer double sided~
+a double-sided hammer~
+A double-sided hammer rests on the ground.~
+~
+5 BC 0 0 0 an 0 0 0 0 0 0 0
+57 1 6 5 100 100 2 7 0 260 0 5 0 0 0 0
+60 20 24 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+E
+hammer double sided~
+   This hammer is flat on both sides, with a wooden handle fastened to its
+steel head.    
+~
+#1346
+longsword long sword gleaming~
+a gleaming longsword~
+A gleaming longsword has been discarded.~
+~
+5 gC 0 0 0 an 0 0 0 0 0 0 0
+26 1 8 3 100 100 0 7 1 2 0 11 0 0 0 0
+40 15 150 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+longsword gleaming long sword~
+   The blade of this sword seems to shimmer in the light.  It has small flecks
+of silver enliad into it, along its steel blade.    
+~
+A
+28 4 0
+A
+29 4 0
+#1347
+cloak flowing black~
+a flowing, black cloak~
+A flowing, black cloak lies on the floor in a heap of cloth.~
+~
+9 C 0 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 17 0 0 0 0 0 0
+0 0 250 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak black flowing~
+   This cloak seems to devoure any light that touches it.  It is long, and
+seems to flow back and forth although there is no wind.    
+~
+#1348
+pants blue pair~
+a pair of blue pants~
+A pair of blue pants rest on the ground.~
+~
+9 C 0 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 1 0 17 0 0 0 0 0 0
+0 0 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pants blue pair~
+   These pants have been patched at both knees, but do wonders to keep away any
+chill in the air.  A small button at the front keeps them closed, and they are
+tight at the ankles to prevent bugs from crawling up the wearer's legs.    
+~
+#1349
+fork pitch heavy~
+a heavy pitch fork~
+A heavy pitch fork rests on the ground.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+30 1 8 11 100 100 0 7 0 18 0 4 0 0 0 0
+40 15 75 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+fork pitch heavy~
+   The pitch fork has three sharp spikes that could kill a man if used in such
+a way.    
+~
+#1350
+dagger small~
+a small dagger~
+A smaller dagger rests on the ground.~
+~
+5 C 0 0 0 ano 0 0 0 0 0 0 0
+2 1 4 11 100 100 0 7 1 17 10 1 0 0 0 0
+10 2 5 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+2
+D
+0
+E
+dagger small~
+   This dagger appears to not be very harmful, but is still ratehr sharp.  It
+is about two inches long, and has a solid steel, black blade.    
+~
+#1351
+mail chain heavy set~
+a set of heavy chain mail~
+A set of heavy chain mail rests on the ground.~
+~
+9 C 0 0 0 ad 0 0 0 0 0 0 0
+50 2 2 -5 100 100 30 7 20 7 15 0 0 0 0 0
+400 150 350 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+mail heavy chain set~
+   This chain mail is mad with interlocked links of steel.  The craftsmanship
+is not the best, and apparently was not made by the smith of Solace.    
+~
+#1352
+star chain linked~
+a chain-linked morning star~
+A chain-linked morning star has been left here.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+9 750 400 20
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+star chain linked~
+   This morning star has a spiked ball at the end of a chain that is two feet
+long.  A wooden handle is attached to the other end of the chain for the
+wielder to hold while he attacks his victim.    
+~
+A
+28 3 0
+A
+29 3 0
+#1353
+hoopak wooden long~
+0~
+A long wooden hoopak rests on the ground.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+60 1 4 6 100 100 0 8 1 12 30 6 0 0 0 0
+20 100 25 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+3
+D
+0
+E
+hoopak wooden long~
+   This is a plain, kedner hoopak.  It is a long, wooden stick with a y-chaped
+end at its top, with a slingshot attached to it.    
+~
+#1354
+pouch small~
+a small pouch~
+A small pouch rests here.~
+~
+15 C 0 0 0 ao 0 0 0 0 0 0 0
+25 0 -1 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5 3 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pouch small~
+   This pouch contains nothing, and can hold little.  It is made of leather,
+but not apparently well.    
+~
+#1355
+cloak green bright~
+a bright green cloak~
+A bright green cloak has been left here.~
+~
+9 C 0 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 1 0 17 0 0 0 0 0 0
+0 0 75 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak green bright~
+   This green cloak has two initials sewn into its side.  They are L.M.    
+~
+#1356
+axe double-sided battle~
+a double-sided battle axe~
+A double-sided battle axe rests on the ground.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+24 1 8 3 100 100 1 7 0 2 0 8 0 0 0 0
+60 10 350 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+axe double-sided battle~
+   The blades of this axe have more then a few notches, showing that is has
+been used before in battle.    
+~
+#1357
+robes white snowy~
+a set of snowy white robes~
+A set of snowy white robes gathers dirt on the ground.~
+~
+9 C 0 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 17 0 0 0 0 0 0
+0 0 200 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+robes white snowy~
+   These robes bear the mark of the Seeker.  A group that preaches goodness,
+but is evil at its heart.    
+~
+#1358
+spirits dwarf mug~
+a mug of dwarf spirits~
+A mug of dwarf spirits beckons you to drink it.~
+~
+17 C 0 0 0 a 0 0 0 0 0 0 0
+1 1 4 0 100 100 0 0 0 0 0 0 0 0 0 0
+18 4 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+spirits dwarf mug~
+   This mug has foam along its top, and a strong smelling liquid contained
+within it.    
+~
+#1359
+cloak long black~
+a long, black cloak~
+A long, black cloak rests on the ground.~
+~
+9 C 0 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 1 0 17 0 0 0 0 0 0
+0 0 5 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak black long~
+   This cloak is frail, and gives little warmth when it is worn.    
+~
+#1360
+apron large white~
+a large, white apron~
+A large, white apron rests on the ground.~
+~
+9 C 0 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 17 0 0 0 0 0 0
+0 0 3 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+apron large white~
+   This apron is white but has countless stains along its front.  Two thin
+straps tie around to the back to keep it fastened to its owner.    
+~
+#1361
+potatoes bowl spiced food~
+a bowl of spiced potatoes~
+A bowl of spiced potatoes gives off a steady fog of steam.~
+~
+19 C 0 0 0 a 0 0 0 0 0 0 0
+25 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 20 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bowl potatoes spiced~
+   This is a large portion of Otik's famous spiced potatoes.  Most people who
+come to the inn get a bowl of this.    
+~
+#1362
+ale mug large~
+a large mug of ale~
+A large mug of ale rests here.~
+~
+17 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+2 2 3 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 5 1 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ale mug large~
+   This mug of ale is warm, but goes down nicely and has a wonderful flavor.  
+~
+#1363
+fries cheese plate food~
+a plate of cheese fries~
+A plate of cheese fries has been cast aside.~
+~
+19 C 0 0 0 a 0 0 0 0 0 0 0
+1 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 4 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+fries plate cheese~
+   These fries are sloced from potatoes fresh in the kitchen.  The cheese is
+made here in Solace.  The two add up for a delicious meal.    
+~
+#1364
+steak deer plate food~
+a plate of deer steak~
+A plate of deer steak has been left here.~
+~
+19 C 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 14 3 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+steak deer plate~
+   This plate contains steak prepared well done.  A bit of sauce is on the side
+of the plate, in case the customer wishes to dip his steak.    
+~
+#1365
+tea hot cup~
+a cup of hot tea~
+A cup of hot tea gives off steam.~
+~
+17 C 0 0 0 a 0 0 0 0 0 0 0
+1 1 11 0 100 100 0 0 0 0 0 0 0 0 0 0
+11 4 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tea hot cup~
+   This is a cup of green tea.  A small teabag sits in the side of the cup,
+continuing to steepen the tea.    
+~
+#1366
+board brown large general~
+a large brown board~
+A large brown board with many pieces of parchments on it rests here.~
+~
+8 djklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1367
+board brown large ooc~
+a large brown board~
+A large brown board with many pieces of parchments on it rests here.~
+~
+40 0 0 0 0 0 0 0 0 0 0 0 0
+1 1 41 0 100 100 0 8 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1368
+board brown large crime~
+a large brown board~
+A large brown board with many pieces of parchments on it rests here.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1369
+board brown large bug~
+a large brown board~
+A large brown board with many pieces of parchments on it rests here.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1370
+board brown large policy~
+a large brown board~
+A large brown board with many pieces of parchments on it rests here.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1371
+board brown large trade~
+a large brown board~
+A large brown board with many pieces of parchments on it rests here.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1372
+small sign~
+a small sign~
+A small sign has been posted here.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+small sign~
+************************************************************
+**  Welcome, traveler, to Solace.                         **
+**                                                        **
+**  Please notice the weapon and armor shops to your      **
+**  south, the grocery to the east and up in the trees,   **
+**  and the bank south of the grocery.  There is a        **
+**  master sage at the eastern end of town, and in the    **
+**  trees to the north is a shop of wonders.  We          **
+**  recommend that travelers begin their stay with a      **
+**  trip to the Red Moon Festival which is being held in  **
+**  the northwestern part of the village, or the          **
+**  training  pits which are directly to your south.      **
+**                                                        **
+**                                      Enjoy your stay!  **
+************************************************************
+*****                                                  *****
+*****                                                  *****
+*****                                                  *****
+*****                                                  *****
+*****                                                  *****
+*****                                                  *****
+~
+#1373
+map Solace ground~
+a map of the ground of Solace~
+A map of the ground in Solace is moved along by the wind.~
+~
+13 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 40 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ground Solace map~
+     A Map of the Lower Level of Solace:
+   /------------------------------------\
+   |                                    |
+   |                                    |
+   |       7 X                          |
+   |        \|    5_                    |
+   |         |      |-10                |
+   |      #--|      |     6----#        |
+   |         |      |-11    |-X         |
+'  |         |___   X    ___|           |
+'  |             \-----/    |           |
+'  |             3| 2 |-9X  |-4         |
+'  |              -----\    |           |
+   |                |  | \--|           |
+   |                |  1    |           |
+   |                8       #           |
+   |                                    |
+   \------------------------------------/
+     1   Solace Weapon and Armor Shop
+     2   Solace Square
+     3   Solace Library
+     4   Skill/Spell Training area
+     5   The Inn of the Last Home
+     6   Solace Stables
+     7   The Red Moon Festival 
+     8   Training Pits / Woodland Grove
+     9   Staircase to the Bank / Grocery Store
+     10  The Board Rooms of Solace
+     11  Tika's Bar
+     X   Staircase to the Trees
+     #   An Exit from Solace
+~
+#1374
+bridge bridgewalk map solace~
+a map of the Bridgewalks of Solace~
+A map of the Bridgewalks of Solace flutters in the wind.~
+~
+13 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 40 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bridge bridgewalk map solace~
+     A Map of the Upper Level of Solace:
+   /------------------------------------\                           
+   |               3    --              |
+   |               ----/  \--           |
+   |       -------/          |          |
+   |      /                  |          |
+   |    Y|                   |          |
+   |      \                  --Y        |
+'  |       |                   |        |
+'  |       |                   |        |
+'  |       |                   |        |
+'  |       |        Y*-1       |        |
+   |       |        |          |4       |
+   |       |-------------------         |
+   |                2                   |
+   |                                    |
+   \------------------------------------/
+     1  Omar's Grocery
+     2  Dorian's Depository
+     3  Mordeth's Shop of Wonders
+     4  The Solace Bread Pantry
+     5  The Inn of the Last Home
+     Y  A Staircase to the Lower Level
+     *  Exit closest to the Solace Square
+~
+#1375
+mail crimson dragonscale~
+a set of heavy crimson colored chain mail~
+A set of crimson colored chain mail rests on the ground.~
+8~
+9 knstvCE c s 0 ad 0 0 0 0 0 0 0
+40 2 3 -4 100 100 25 7 20 6 15 0 0 0 0 0
+300 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1376
+sword steel bastard~
+a steel bastard sword~
+A steel bastard sword has been left here.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+51 1 10 3 100 100 0 7 1 4 0 11 0 0 0 0
+60 35 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1377
+shirt white~
+a white shirt~
+A white shirt bearing the broken merchant scales on one side.~
+~
+9 C 0 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 1 0 17 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1378
+cake Gilean's birthday~
+a piece of Reo's birthday cake~
+A piece of Reo's bithday cake rests on the ground, inviting you to eat it.~
+~
+19 chqx 0 0 0 a 0 0 0 0 0 0 0
+100 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 600 50 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

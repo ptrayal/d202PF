@@ -1,0 +1,1210 @@
+#1500
+A Path Through Qualinost~
+   A faint path, if it can even be called that, shows the way between the dense
+Qualinesti forest.  Tall evergreen trees make up a form of impenetrable wall,
+preventing you from moving beyond this makeshift trail.  The way leads
+northwest and southeast.    
+~
+15 p h 0 0  0
+D6
+~
+~
+0 0 1501 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1060 0 0 0 0 0 0 0 0
+S
+#1501
+Intersecting Paths~
+   The trails here split into a T-junction, giving you three choices of travel.
+The trees here are still dense, and wave their strong branches in the wind.  
+Around you, you hear the faint sound of light footsteps as the citizens of
+Qualinost tread lightly in their business.    
+~
+15 p h 0 0  0
+D7
+~
+~
+0 0 1505 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1502 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1500 0 0 0 0 0 0 0 0
+S
+#1502
+An Elven Home~
+   A small wooden house rests here as a home to elves.  The few essentials that
+are present are arranged orderly and seem to be in good condition.  Adornments
+are almost totally absent, save for a few pieces of plain-looking functional
+furniture.  To the northeast lies the only exit out of this dwelling.    
+~
+15 p h 0 0  0
+D7
+~
+~
+0 0 1501 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1503
+A Barely Visible Trail~
+   Short grasses line the bottom of this trail, making it almost undiscernible
+in presence.  In the distance, you can hear the sound of voices speaking in
+elven.  The area that you are in has a strong earthy smell, and mixes with the
+scent of pine leaves of the trees here.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1504 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1060 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1504
+An Intersection of Paths~
+   Three paths meet here, creating an intersection of the way you might choose
+to travel.  To the northeast, you can see the Hall of the Sky upon a hilltop,
+and behind that, proudly stands the Tower of the Sun.  To the southwest of
+here, you see nearby the southwest tower that connects the western and southern
+bridges that soar above the city proper.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1514 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1503 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1505 0 0 0 0 0 0 0 0
+S
+#1505
+Intersecting Paths~
+   A three-way junction of trails gives you the choices of northwest, southwest
+and southeast.  The ground here looks well used, but impressions are not deep,
+as the natives of Qualinost are well known for their light-footedness.  The
+rustle of nearby leaves confirms the presence of inhabitants in the vicinity.
+  
+~
+15 p h 0 0  0
+D6
+~
+~
+0 0 1506 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1501 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1504 0 0 0 0 0 0 0 0
+S
+#1506
+A Slightly Curving Path~
+   You push your way through the trees here, their leaves reaching out as if to
+embrace you.  The ground is soft underfoot, and you hear the faint sounds of
+animals nearby.  The breeze brings the smell of leaves and soil to your nose,
+and the air here is cool.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1507 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1505 0 0 0 0 0 0 0 0
+S
+#1507
+Intersecting Paths~
+   This trail junction is surrounded by a mixture of maple and pine trees.  
+The smell of pine leaves fills your senses as the deep, brilliant color of the
+maple leaves burn themselves into your mind.  The trees seem to dance with each
+other as their branches wave in the wind.  The trail leaves east, south and
+northwest.    
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1508 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1506 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1519 0 0 0 0 0 0 0 0
+S
+#1508
+Naras Loop~
+   The trail curves slightly here, trees still hedging the way that you can
+travel.  Their height reaches far above you, and form a gentle canopy to give
+comforting shade.  The occassional squirrel scurries across your path hastily,
+startled by the sound of your footsteps.    
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1509 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1507 0 0 0 0 0 0 0 0
+S
+#1509
+Intersecting Paths~
+   A junction of paths is apparent here when where the main path meets a
+smaller one.  You feel a cool breeze brush past you as it flows through the
+wider main path.  A bird of some kind chirps overhead, looking for its mate,
+and you hear its haunting call.    
+~
+15 p h 0 0  0
+D3
+~
+~
+0 0 1508 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1510 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1515 0 0 0 0 0 0 0 0
+S
+#1510
+Intersecting Paths~
+   You come to a small open space that branches off three ways.  You can see
+the Hall of the Sky eastwards from here.  The ground has started to slope a
+little, towards the north, but the elevation is slight and gentle.  The slight
+wind here brings a subtle coolness with it.    
+~
+15 p h 0 0  0
+D6
+~
+~
+0 0 1516 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1509 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1511 0 0 0 0 0 0 0 0
+S
+#1511
+An Arced Path~
+   There is a little path here leading northwest and east.  The trees here have
+grown less dense, and you can see the Hall of the Sky very close by.  The
+ground is sloping towards the north, but at a gentle incline.  The light from
+the luminaries poke through the sparse cover, spotlighting some of the way
+before you.    
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1071 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1510 0 0 0 0 0 0 0 0
+S
+#1512
+A Branching Path~
+   The path that you are on branches away from the main, larger one towards the
+southeast.  From here, you can see the Hall of the Sky towards the north.  The
+path itself is lightly covered with fallen leaves, and the ground beneath it is
+somewhat soft.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1513 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1068 0 0 0 0 0 0 0 0
+S
+#1513
+A Junction of Trails~
+   A small open space here leads into three different ways.  From here you can
+see that the Hall of the Sky is directly northeast of you.  Directly southwest
+of you, you can make out the southwest tower of the city.  Lush green trees
+surround you as you walk stand here, in the midst of the legendary city of
+Qualinost.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1515 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1514 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1512 0 0 0 0 0 0 0 0
+S
+#1514
+A Sharp Bend~
+   The path bends sharply here, and takes a right angle turn, leading both east
+and south.  A faint moss seems to have grown on some of the trees here.  In the
+distance, you can almost see the graceful movements of the city's inhabitants.
+As you stand here, somewhere high above you a songbird is courting his mate.  
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1513 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1504 0 0 0 0 0 0 0 0
+S
+#1515
+A Sloping Curve~
+   The curve that you are on also inclines slightly northwards, towards the
+Hall of the Sky, which lies to the faint northeast.  The way heads south and
+northwest from here.  You can faintly make out the fleeting shadow of a shy
+forest creature that scatters at your approach.    
+~
+15 p h 0 0  0
+D2
+~
+~
+0 0 1513 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1509 0 0 0 0 0 0 0 0
+S
+#1516
+Intersecting Paths~
+   Towards the east lies the hilltop on which rests the Hall of the Sky.  The
+ground is sloping upwards to the east, and the Hall rests on higher ground,
+overlooking most of Qualinost.  The branches overhead have started looking a
+little more sparse, as the trees thin out in this vicinity.    
+~
+15 p h 0 0  0
+D6
+~
+~
+0 0 1517 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1520 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1510 0 0 0 0 0 0 0 0
+S
+#1517
+A Curving Path~
+   The way curves a little here, like a gentle arc, almost the shape of a moon
+crescent.  Some kind of small forest animal rustles leaves in the wake of its
+flight as it is startled by your presence.  The branches overhead are tangled
+together, creating a protective canopy of shade above you.    
+~
+15 p h 0 0  0
+D9
+~
+~
+0 0 1518 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1516 0 0 0 0 0 0 0 0
+S
+#1518
+Intersecting Paths~
+   Three paths converge in a junction here, giving you the option of taking
+each.  The dirt is loose and soft here, and moist with the dew from the
+morning.  Several twigs bend beneath your feet, and leaves rustle at your
+presence.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1522 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1517 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1519 0 0 0 0 0 0 0 0
+S
+#1519
+A Forking Trail~
+   You come to the convergence of two paths that meet at an angle.  Towards the
+east lies the city of Qualinost, with the Hall of the Sky elevated in the
+middle of the city, in plain sight.  Far above you, you can see the silhouette
+of what looks to be an eagle in flight.    
+~
+15 p h 0 0  0
+D7
+~
+~
+0 0 1518 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1507 0 0 0 0 0 0 0 0
+S
+#1520
+Nearing the Grove~
+   A trail lined on both sides by oak trees, is almost unable to be seen here.
+Towards the southeast, the Hall of the Sky stands proudly, and north and east
+of here, looms before you the Tower of the Sun.  You hear the firm tread of
+elven soldiers and guards nearby.    
+~
+15 p h 0 0  0
+D7
+~
+~
+0 0 1521 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1516 0 0 0 0 0 0 0 0
+S
+#1521
+Nearing the Grove~
+   You are in a room.  The oaks on either side of you grow tall and large,
+almost the width of three men standing shoulder to shoulder.  Large branches
+entwine with each other above your head, forming a canopy umbrella above you.
+The trunks of these great trees look sturdy and hard, even as the bark is
+somewhat smooth.    
+~
+15 p h 0 0  0
+D7
+~
+~
+0 0 1093 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1520 0 0 0 0 0 0 0 0
+S
+#1522
+A Wide Trail~
+   Fallen leaves line this trail as you walk along it, the faint smell of
+leaves filling the air.  Moss grows lightly on some of the lower parts of tree
+trunks, and a few vines have used the strong trunks as supports to grow upon.
+The trail leads south and northeast.  From here you can see the Hall of the Sky
+southeast from here, and the Tower of the Sun towards your east.    
+~
+15 p h 0 0  0
+D2
+~
+~
+0 0 1518 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1523 0 0 0 0 0 0 0 0
+S
+#1523
+An Intersection of Pathways~
+   High above you, you can see the graceful arched bridges that are part of the
+fame of Qualinost, branching towards the east and south.  The four arches look
+gracefully delicate, but are strong enough to hold the weight of an entire
+army.  The way on this part of the ground splits and gives you three choices of
+travel.  You can faintly make out the sound of running water close by.    
+~
+15 p h 0 0  0
+D6
+~
+~
+0 0 1526 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1524 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1522 0 0 0 0 0 0 0 0
+S
+#1524
+A Gentle Arc~
+   Your trek continues through the forest that houses Qualinost, for it is the
+forest that truly houses the city, and not the other way around.  This part of
+the city seems relatively more quiet and peaceful, as if respectful of the
+inhabitants of this region.  The pathway arcs gently northeast and southwards.
+~
+15 p h 0 0  0
+D7
+~
+~
+0 0 1525 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1523 0 0 0 0 0 0 0 0
+S
+#1525
+A Gentle Arc~
+   The trees are less dense here, and the wind here is cooling and you can feel
+a sense of freedom in the way the wind dances here.  A certain reverence hangs
+in the air, and a hallowed hush seems prevalent here.  Even the creatures are
+more careful here, as if showing a deep respect for something or someone.    
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1091 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1524 0 0 0 0 0 0 0 0
+S
+#1526
+Approaching the Northwest Tower~
+   The path before you looks relatively straight, and the ground beneath your
+feet is hard, though with some give to it.  To the northwest stands the
+northwest spire of Qualinost to which the arched bridges are connected.  To the
+east, you can see the Tower of the Sun standing magnificently overlooking the
+city.  To the southeast, the Hall of the Sky stands as an open testament to the
+unity of the Qualinesti.  The path leads northwest and southeast.    
+~
+15 p h 0 0  0
+D6
+~
+~
+0 0 1527 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1523 0 0 0 0 0 0 0 0
+S
+#1527
+Approaching the Northwest Tower~
+   The path is relatively straight here, with only a slight curve to it.  The
+ground is hard beneath your feet, and the soil is compact.  Only the faintest
+of outlines on the ground define this path, for there are not even cart tracks
+that mar it.  The way leads northwest towards the northwest spire, and
+southeast back towards the city proper.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1555 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1526 0 0 0 0 0 0 0 0
+S
+#1528
+A Gentle Arced Path~
+   This small path curves away from the larger one on the west, and leads
+towards the northeast corner of the city.  The trees here are moderate in
+number, but still dense enough to prevent movement beyond this quiet way.  The
+smaller animals here are quiet and scurry about, taking caution not to be too
+noisy.  The way leads west and to the southeast.    
+~
+15 p h 0 0  0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1089 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1529 0 0 0 0 0 0 0 0
+S
+#1529
+A Sharp Turn~
+   The way takes a sharp, nearly ninety degree turn here.  Tall grasses grow in
+the near vicinity, thanks to the sunlight that is availed by the sparse treetop
+cover overhead.  As the wind blows, the grass seems to dance in time with the
+tree branches waving over you.    
+~
+15 p h 0 0  0
+D6
+~
+~
+0 0 1528 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1530 0 0 0 0 0 0 0 0
+S
+#1530
+Approaching the Northeast Tower~
+   The way before you is straight for all purposes, but seems to be curved in
+an aesthetic way.  The smell of elven blossoms are light in the air, and you
+can guess that there is a wild patch growing someplace close by.  The ground
+beneath your feet feels hard and does not give much to your weight.  The path
+leads northeast and southwest.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1554 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1529 0 0 0 0 0 0 0 0
+S
+#1531
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1538 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1532 0 0 0 0 0 0 0 0
+S
+#1532
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1531 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1533 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1551 0 0 0 0 0 0 0 0
+S
+#1533
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1532 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1536 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1534 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1552 0 0 0 0 0 0 0 0
+S
+#1534
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1533 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1535 0 0 0 0 0 0 0 0
+S
+#1535
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1536 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1544 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1534 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1072 0 0 0 0 0 0 0 0
+S
+#1536
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1543 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1535 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1533 0 0 0 0 0 0 0 0
+S
+#1537
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1538 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1542 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1536 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1532 0 0 0 0 0 0 0 0
+S
+#1538
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1539 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1541 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1531 0 0 0 0 0 0 0 0
+S
+#1539
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1540 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1538 0 0 0 0 0 0 0 0
+S
+#1540
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D2
+~
+~
+0 0 1541 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1539 0 0 0 0 0 0 0 0
+S
+#1541
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1540 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1548 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1542 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1538 0 0 0 0 0 0 0 0
+S
+#1542
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1541 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1547 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1543 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+S
+#1543
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1542 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1546 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1544 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1536 0 0 0 0 0 0 0 0
+S
+#1544
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1543 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1545 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1535 0 0 0 0 0 0 0 0
+S
+#1545
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1544 0 0 0 0 0 0 0 0
+S
+#1546
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1547 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1545 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1543 0 0 0 0 0 0 0 0
+S
+#1547
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1548 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1550 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1542 0 0 0 0 0 0 0 0
+S
+#1548
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D2
+~
+~
+0 0 1547 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1541 0 0 0 0 0 0 0 0
+S
+#1549
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1550 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1546 0 0 0 0 0 0 0 0
+S
+#1550
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D2
+~
+~
+0 0 1549 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1547 0 0 0 0 0 0 0 0
+S
+#1551
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D1
+~
+~
+0 0 1532 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1552 0 0 0 0 0 0 0 0
+S
+#1552
+The Grove~
+   The aspen trees in this area are extremely dense.  Very little light reaches
+the ground from above because of the thickness of the trees.  Virtually no
+sounds can be heard from the surrounding city.  While most of the trees are
+aspen, other trees such as apple, peach, and pear trees are also present.  
+Small springs trickle throughout flowing generally northward.    
+~
+15 p h 0 0  0
+D0
+~
+~
+0 0 1551 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1533 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1553
+Inside Suzine Tower~
+   Upon entering this small tower, its small size is apparent.  Barely large
+enough for four average size elves to fit without discomfort, no furnishings
+are present.  A thin ladder of twince winds its way up through the ceiling,
+higher into the tower.  Open holes functioning as doorways lead northeast.    
+~
+15 dp h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1039 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1063 0 0 0 0 0 0 0 0
+S
+#1554
+Inside Suzine Tower~
+   Upon entering this small tower, its small size is apparent.  Barely large
+enough for four average size elves to fit without discomfort, no furnishings
+are present.  A thin ladder of twine winds its way up through the ceiling,
+higher into the tower.  Open holes functioning as doorways lead southwest.    
+~
+15 dp h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1020 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1530 0 0 0 0 0 0 0 0
+S
+#1555
+Inside Suzine Tower~
+   Upon entering this small tower, its small size is apparent.  Barely large
+enough for four average size elves to fit without discomfort, no furnishings
+are present.  A thin ladder of twine winds its way up through the ceiling,
+higher into the tower.  Open holes functioning as doorways lead southeast.    
+~
+15 dp h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1028 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1527 0 0 0 0 0 0 0 0
+S
+#1556
+A new room~
+You are in a room.
+~
+15 0 h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1557
+A new room~
+You are in a room.
+~
+15 0 h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1558
+A new room~
+You are in a room.
+~
+15 0 h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1559
+A new room~
+You are in a room.
+~
+15 0 h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1560
+A new room~
+You are in a room.
+~
+15 0 h 0 0  0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+$

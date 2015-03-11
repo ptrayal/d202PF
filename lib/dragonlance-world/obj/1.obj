@@ -1,0 +1,957 @@
+#100
+armor white ethereal jolith~
+white ethereal armor~
+The breastplate of Kiri-Jolith is lying here.  It is impossible to touch.~
+~
+9 ajklnopqrstuvwBCDEF abc 0 0 d 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+35 0 25000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 3 168
+A
+13 30 168
+A
+19 5 168
+A
+18 5 168
+A
+17 -5 168
+#101
+shield jolith knight sword~
+a shield bearing the insignia of the Knights of the Sword~
+The shield of Kiri-Jolith is here.  It is impossible to touch.~
+~
+9 ajmnopqrstuvwBCDEF abc 0 0 j 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 25000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shield~
+   The shield is made of a brilliant white ethereal material.    
+~
+A
+4 4 168
+A
+6 2 168
+A
+19 5 168
+A
+18 2 168
+A
+17 -8 168
+#102
+legplates jolith white ethereal~
+white ethereal legplates~
+Here are the brilliant white legplates of Kiri-Jolith.  They are impossible to touch.~
+~
+9 ajnopqrstuvwBCDEF abc 0 0 f 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 2 0
+A
+17 -3 0
+A
+19 3 0
+A
+18 3 0
+#103
+axe double bladed battle~
+a double bladed battle-axe~
+A godly axe is sticking in the ground.~
+~
+5 cjpqu c 0 0 o 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 0 100 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 127 100
+A
+18 127 100
+A
+2 1 100
+A
+13 127 100
+A
+1 2 100
+#104
+cape jolith blue silken~
+a blue silken cape~
+Kiri-Jolith's cape was tossed here.  It is impossible to touch.~
+~
+9 ajnopqrstuvwBCDEF abc 0 0 k 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 25000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 2 0
+A
+3 1 0
+A
+17 -3 0
+A
+18 5 0
+A
+19 1 0
+A
+13 25 0
+#105
+band ring jolith steel engraved~
+an engraved steel band~
+A steel ring lies on the ground.  It emits a humming sound and is impossible to touch.~
+~
+9 bjmnpqrstvwBCDEF abc 0 0 b 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 25000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 3 168
+A
+4 1 168
+A
+17 -5 168
+A
+18 5 168
+#106
+sword clasp~
+a sword shaped clasp~
+A knight's cloak clasp is lying here.~
+~
+5 jmnopqrstuvwBCDEF abc 0 0 acn 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 4 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 4
+#107
+pendant bison head jolith~
+a bison-head pendant~
+A steel pendant is lying here.~
+~
+9 bjmnopqrstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 4 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pendant~
+A symbol of Kiri-Jolith.  It has a fine steel chain.
+~
+A
+3 1 4
+#108
+statue kingfisher~
+a kingfisher statue~
+The statue of a kingfisher holding a sword and a rose.~
+~
+8 cjklmnopqrstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+999 0 2000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+statue~
+   A kingfisher with wings half extended, a sword grasped by both its claws a
+rose centered between the claws and a crown held over the bird's head in its
+beak.    
+~
+#109
+mace brilliant white~
+a brilliant white mace~
+A ethereal mace is lying here.  It is impossible to touch.~
+~
+5 acjnpqrstuvwxBCDEF abc 0 0 mn 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+14 0 25000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 3 168
+#110
+corpse knight young~
+the corpse of a young knight~
+The corpse of a young knight is lying here.~
+~
+15 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+180 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+corpse knight young~
+It's the body of an unfortunate arena combatant.
+~
+#111
+flagpole red~
+the front courtyard flagpole~
+A flagpole carries the flag of the Hall of Brotherhood.~
+~
+8 cjklmnopqrstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#112
+head lettuce cabbage~
+a head of cabbage~
+A head of lettuce is lying here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+lettuce head cabbage~
+Upon closer inspection, this head of lettuce seems to be cabbage.
+~
+#113
+sword broken longsword~
+a broken longsword~
+Part of a sword is lying here.~
+~
+5 ijklopruvBCEF abc 0 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 900 450 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sword broken longsword~
+   The blade of this sword has broken cleanly and remains about a foot and a
+half long.  The weapon seems balanced enough for use.  The hilt appears
+slightly antique, this probably used to be a fine longsword.    
+~
+A
+18 1 194
+#114
+chestplate plate iron worn~
+a worn iron chestplate~
+A worn chestplate lies at your feet.~
+9~
+9 jklnpstwCF ac 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+40 450 225 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+chestplate plate iron worn~
+   It is a heavy iron chest plate worn by years of abuse.  It is heavily dented
+and in some places worn rather thin.  Some emblem was painted on the front, but
+now it is only red and blue streaked.    
+~
+A
+17 6 225
+A
+2 -1 225
+#115
+tunic striped green yellow~
+a wide-striped tunic~
+A green and yellow tunic has fallen to the ground.~
+~
+9 jklmnopruvwBCDEF ab 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+9 450 225 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+tunic striped~
+   It is padded canvas tunic with wide vertical stripes of green and yellow.  
+It's slightly oversized.  It provides seemingly good protection.    
+~
+A
+17 -3 225
+A
+14 5 225
+#116
+vest red leather~
+a red leather vest~
+A small leather vest is strewn on the ground.~
+~
+9 jklopruvBDE b 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 40 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+vest red leather~
+It's a small vest tanned dark red.  It seems a little small.
+~
+#117
+hoopak kender~
+a kender hoopak~
+A long Y-shaped stick with a slingshot strap has been stuck into the ground.~
+~
+5 jklmnopruvwxBDE b 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 600 300 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 44
+#118
+skirt hide piece~
+a hide skirt~
+A piece of hide is lying here.~
+~
+9 jklnopruvwDEF abc 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 550 300 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+skirt hide piece~
+It is a primative skirt made of thick hide.
+~
+#119
+club primative heavy~
+a heavy, primative club~
+A heavy wooden club is on the ground.~
+~
+5 jklnpruwCEF ac 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 1500 750 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+club primative heavy thick~
+It is a crude-looking club about three feet long.  The handle end is about four
+inches in diameter while the bloody end is about twelve inches.    
+~
+A
+2 -1 238
+#120
+mace footman footman's~
+a footman's mace~
+A footman's mace has been tossed to the ground.~
+~
+5 jklnoprstuvwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 1200 600 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+mace footman footman's~
+A footman's mace about 3 feet long.  The handle is made of wood and the head is
+iron.  It seems sturdy but it's not exceptional quality.    
+~
+#121
+shortsword sword heavy iron~
+a heavy iron shortsword~
+An iron shortsword is here.~
+~
+5 jkloprstuvBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 1000 500 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shortsword sword heavy iron~
+A durable, but clumsy piece of workmanship.
+~
+A
+13 -3 244
+#122
+sword two-handed antiquated large~
+an antiquated two-handed sword~
+A large, old sword was dropped here.~
+~
+5 jklprstuxCF ac 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 1250 625 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sword two-handed antiquated~
+The sword is about 6' long.  The blade seems to be in good shape, but the hilt
+is noticably aged.    
+~
+#123
+leggings brigandine~
+brigandine leggings~
+A pile of brigandine is here for no apparent reason.~
+~
+9 jklnpstCF a 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+18 600 250 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 2 250
+A
+14 -4 250
+#124
+jerkin leather studded~
+a studded-leather jerkin~
+A leather jerkin is lying here.~
+~
+9 jklopruvCF ac 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 450 225 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 -1 225
+#125
+shield heavy ferrous iron~
+a heavy, ferrous shield~
+A heavy iron shield from a fallen warrior lies here.~
+~
+9 jklmnprstuwBCDEF abc 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+22 650 200 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#126
+dagger stout jade green stone~
+a stout jade dagger~
+A green stone dagger is lying on the ground.~
+~
+5 aghjklopruvwxBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9 1100 550 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+dagger stout jade green stone~
+It's a 18" dagger made of jade rock.  The edge is brittle and sharp.
+~
+#127
+bracer thick iron band~
+a thick, iron bracer~
+A thick band of iron is lying at your feet.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 60 30 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bracer thick iron band~
+It's a thick bracer made of iron.  The outside is scratched heavily, but the
+inside is smooth as if it were new.    
+~
+#128
+longsword sword steel carbide~
+a carbide-edged longsword~
+Here lies a longsword with a two-tone steel blade.~
+~
+5 jklprstuBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+13 1800 900 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+longsword sword steel carbide~
+The sword has a sturdy steel blade with a darker steel carbide at the edge.  
+It is extremely sharp.    
+~
+#129
+block stone sculpture large heavy~
+a heavy stone block~
+A large block with relief sculpture carved into the sides rests here.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+200 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#130
+chair heavy oak~
+a heavy oak chair~
+A heavy oak chair is here.~
+~
+12 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+300 0 10000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#131
+object new~
+a sturdy, rectangular oak table~
+A stury oak table is in the middle of the room.~
+~
+12 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+350 0 20000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#132
+jar glass rawhide sheath hide~
+a glass jar in a rawhide sheath~
+You notice a rawhide covered jar on the ground.~
+~
+17 jklmnoprstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+16 600 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+jar glass rawhide sheath~
+   It is a heavy glass jar with rubber cork.  The rawhide leather casing is
+well sticthed and is in good condition.  A long neck strap makes the jar easy
+to carry.    
+~
+#133
+object new~
+a small nightstand~
+A simple nightstand stands in the corner of the room.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#134
+talc pinch sprinkle component~
+a small pinch of talc~
+A sprinkle of talc dusts the ground.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#135
+lodestone component~
+a piece of lodestone~
+A piece of lodestone lies glittering in the light.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 270 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#136
+sand fine component~
+a pinch of fine sand~
+Some fine sand is sprinkled on the ground.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 140 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#137
+mirror small polished hand component~
+a small, polished hand mirror~
+A mirror was forgotten on the ground.~
+~
+8 jklmoBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#138
+feather small component~
+a small feather~
+A single feather floats in the breeze.~
+~
+8 jklmnBCDF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#139
+feather duck component~
+the feather of a duck~
+The slender feather of a duck flutters in the wind.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 340 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#140
+obsidian flat component~
+a flat piece of obsidian~
+A flat piece of obsidian glints on the ground.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#141
+cloth black component~
+a small black cloth~
+A black cloth lies in a heap.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 600 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#142
+web spider component~
+a bit of spider web~
+A sticky bit of spider web drapes across the ground.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 560 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#143
+powder iron pinch component~
+a pinch of powdered iron~
+A small pinch of black powder drifts around on the ground.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#144
+treacle bottle small component~
+a small bottle of treacle~
+A small bottle of fluid was discarded on the ground.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 120 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#145
+loop leather component~
+a small loop of leather~
+A small loop of leather lies in a coil.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 75 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#146
+feather owl component~
+an owl feather~
+The feather of an owl blows across the ground.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 134 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#147
+cone glass component~
+a glass cone~
+A cone of glass glitters from the floor.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 213 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#148
+leaves skunk cabbage component~
+skunk cabbage leaves~
+A pile of skunk cabbage leaves emits a powerful aroma.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 111 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#149
+hair dog tuft component~
+a tuft of dog hair~
+A tuft of dog hair floats in the breeze.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 45 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#150
+powder pile lime carbon component~
+powdered lime and carbon~
+A pile of powdered lime and carbon sits here.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#151
+charm pentagram component~
+a tiny pentagram charm~
+A charm shines in the light.~
+~
+8 0 0 0 0 aco 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#152
+door ivory component~
+a miniature ivory door~
+A miniature ivory door fell out of someone's pack.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 760 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#153
+book holy component~
+a holy book~
+A holy book lies discarded on the ground.~
+~
+8 jklntBCDF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#154
+mistletoe sprig component~
+a sprig of mistletoe~
+A sprig of mistletoe springs out of the ground.~
+~
+8 jklwBCDF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#199
+a harvesting node~
+a harvesting node~
+An unfinished object is lying here.~
+~
+0 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+0
+D
+0
+$~

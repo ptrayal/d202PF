@@ -1,0 +1,160 @@
+#46
+None.~
+Old Portals (Hiddukel)~
+4600 4699 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  4600     8  4604   1   100     0    -1          0 a thin winged humanoid
+
+M 0  4600     8  4606   1   100     1    -1          0 a thin winged humanoid
+
+E 1  4603     2     8   0    10     2     1          0 swirling mist boots
+
+M 0  4600     8  4610   1   100     3    -1          0 a thin winged humanoid
+
+M 0  4601     8  4617   1   100     4    -1          0 a thin winged humanoid
+
+M 0  4600     8  4617   1   100     5    -1          0 a thin winged humanoid
+
+M 0  4603     1  4623   1   100     6    -1          0 a delicately winged humanoid
+
+E 1  4611     3    17   0    10     7     6          0 a slice of mist
+
+M 0  4600     8  4623   1   100     8    -1          0 a thin winged humanoid
+
+M 0  4602     8  4622   1   100     9    -1          0 a thin winged humanoid
+
+M 0  4600     8  4622   1   100    10    -1          0 a thin winged humanoid
+
+M 0  4601     8  4625   1   100    11    -1          0 a thin winged humanoid
+
+M 0  4601     8  4614   1   100    12    -1          0 a thin winged humanoid
+
+M 0  4602     8  4612   1   100    13    -1          0 a thin winged humanoid
+
+M 0  4601     8  4612   1   100    14    -1          0 a thin winged humanoid
+
+E 1  4610     5    14   0    20    15    14          0 a mist enshrouded bracelet
+
+M 0  4601     8  4609   1   100    16    -1          0 a thin winged humanoid
+
+E 1  4608     3    13   0    15    17    16          0 a mist tasset
+
+M 0  4602     8  4618   1   100    18    -1          0 a thin winged humanoid
+
+M 0  4602     8  4616   1   100    19    -1          0 a thin winged humanoid
+
+M 0  4602     8  4611   1   100    20    -1          0 a thin winged humanoid
+
+M 0  4606     8  4658   2   100    21    -1          0 a wave of lava
+
+M 0  4604     8  4640   2   100    22    -1          0 a wave of lava
+
+G 1  1246     3     0   0    30    23    22          0 a sticky scroll made of mesh
+
+E 1  4612     2    10   0    15    24    22          0 a pair of armguards which drip lava
+
+M 0  4606     8  4640   2   100    25    -1          0 a wave of lava
+
+M 0  4606     8  4649   2   100    26    -1          0 a wave of lava
+
+M 0  4606     8  4642   2   100    27    -1          0 a wave of lava
+
+E 1  4609     4     3   0    15    28    27          0 an amulet of flowing lava
+
+M 0  4605     8  4637   2   100    29    -1          0 a wave of lava
+
+M 0  4605     8  4653   2   100    30    -1          0 a wave of lava
+
+E 1  4609     4     3   0    10    31    30          0 an amulet of flowing lava
+
+M 0  4605     8  4636   2   100    32    -1          0 a wave of lava
+
+M 0  4605     8  4645   2   100    33    -1          0 a wave of lava
+
+M 0  4604     8  4651   2   100    34    -1          0 a wave of lava
+
+E 1  4606     2     8   0    10    35    34          0 a lava anklet of slow strength
+
+M 0  4605     8  4651   2   100    36    -1          0 a wave of lava
+
+M 0  4605     8  4656   2   100    37    -1          0 a wave of lava
+
+M 0  4604     8  4630   2   100    38    -1          0 a wave of lava
+
+M 0  4604     8  4635   2   100    39    -1          0 a wave of lava
+
+M 0  4604     8  4646   2   100    40    -1          0 a wave of lava
+
+M 0  4604     8  4654   2   100    41    -1          0 a wave of lava
+
+M 0  4607     1  4647   1   100    42    -1          0 a heap of molten lava
+
+G 1  4613     1     0   0     5    43    42          0 a flaming scroll written in lava
+
+M 0  4608     1  4600   1   100    44    -1          0 a conclave white-robed mage
+
+G 1  1267     3     0   0    30    45    44          0 a scroll with a picture of a summoner
+
+M 0  4609     1  4600   1   100    46    -1          0 the renegade elementalist
+
+E 1  4600     3     6   0    15    47    46          0 a helm of elemental observation
+
+M 0  4613     1  4681   1   100    48    -1          0 a wall of chaotic smoke
+
+E 1  4615     2    10   0    10    49    48          0 a pair of smoke formed greaves
+
+M 0  4610     8  4680   2   100    50    -1          0 a wisp of smoke
+
+M 0  4611     8  4680   2   100    51    -1          0 a wisp of smoke
+
+M 0  4611     8  4678   2   100    52    -1          0 a wisp of smoke
+
+G 1  4607     2     0   0    20    53    52          0 a ball of smoke
+
+M 0  4611     8  4676   2   100    54    -1          0 a wisp of smoke
+
+M 0  4612     8  4672   2   100    55    -1          0 a wisp of smoke
+
+M 0  4611     8  4672   2   100    56    -1          0 a wisp of smoke
+
+M 0  4611     8  4672   2   100    57    -1          0 a wisp of smoke
+
+M 0  4611     8  4671   2   100    58    -1          0 a wisp of smoke
+
+M 0  4612     8  4670   2   100    59    -1          0 a wisp of smoke
+
+M 0  4610     8  4670   2   100    60    -1          0 a wisp of smoke
+
+M 0  4611     8  4670   2   100    61    -1          0 a wisp of smoke
+
+M 0  4611     8  4668   2   100    62    -1          0 a wisp of smoke
+
+M 0  4610     8  4673   2   100    63    -1          0 a wisp of smoke
+
+M 0  4611     8  4673   2   100    64    -1          0 a wisp of smoke
+
+M 0  4612     8  4677   2   100    65    -1          0 a wisp of smoke
+
+M 0  4610     8  4677   2   100    66    -1          0 a wisp of smoke
+
+M 0  4611     8  4677   2   100    67    -1          0 a wisp of smoke
+
+M 0  4612     8  4679   2   100    68    -1          0 a wisp of smoke
+
+G 1  4614     2     0   0    15    69    68          0 a smoking pipe
+
+M 0  4610     8  4679   2   100    70    -1          0 a wisp of smoke
+
+M 0  4610     8  4675   2   100    71    -1          0 a wisp of smoke
+
+M 0  4610     8  4667   2   100    72    -1          0 a wisp of smoke
+
+M 0  4612     8  4674   2   100    73    -1          0 a wisp of smoke
+
+E 1  4605     3     3   0    15    74    73          0 a transparent coif of smoke
+
+S
+$

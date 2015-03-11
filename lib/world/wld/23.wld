@@ -1,0 +1,1600 @@
+#2300
+A Trail Lined with Flowers~
+   Tall yellow flowers line both sides of this trail.  They appear wilted and
+nearly dead.  A silence hangs over the air, as if the entire plains had suddenly
+emptied of life.  
+~
+23 0 0 0 0 10
+D6
+~
+~
+0 0 51669 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2301 0 0 0 0 0 0 0 0
+S
+#2301
+A Trail Lined with Flowers~
+   Tall yellow flowers line both sides of this trail.  They appear wilted and
+nearly dead.  A silence hangs over the air, as if the entire plains had suddenly
+emptied of life.  
+~
+23 c 0 0 0 10
+D2
+~
+~
+0 0 2302 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2300 0 0 0 0 0 0 0 0
+S
+#2302
+A Trail Lined with Flowers~
+   Tall yellow flowers line both sides of this trail.  They appear wilted and
+nearly dead.  A silence hangs over the air, as if the entire plains had suddenly
+emptied of life.  
+~
+23 0 0 0 0 10
+D0
+~
+~
+0 0 2301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2303 0 0 0 0 0 0 0 0
+S
+#2303
+A Trail Lined with Flowers~
+   Tall yellow flowers line both sides of this trail.  They appear wilted and
+nearly dead.  A silence hangs over the air, as if the entire plains had suddenly
+emptied of life.  
+~
+23 0 0 0 0 10
+D0
+~
+~
+0 0 2302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2304 0 0 0 0 0 0 0 0
+S
+#2304
+Near Some Leafless Trees~
+   You stand near some short, stumpy leafless trees.  The bark appears to be
+peeling off of most of them, and sap oozes from dark ruptures in the wood of the
+trees.  The howling wind sets the trees to rustling.  
+~
+23 0 0 0 0 10
+D0
+~
+~
+0 0 2303 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2305 0 0 0 0 0 0 0 0
+S
+#2305
+Within the Leafless Trees~
+   Leafless trees surround you, shifting in the chill wind.  To the south, a
+mud-walled building stands at the end of the trail.  A bird lies dead at your
+feet, with no apparent cause of death.  
+~
+23 0 0 0 0 10
+D0
+~
+~
+0 0 2304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2306 0 0 0 0 0 0 0 0
+S
+#2306
+Near the Mud-Walled Temple~
+   You stand a few steps from the door of the mud-walled building.  Various
+markings have been carved above and around the door.  They look like symbols of
+Silvanus, the Breath of Life, but they have been twisted and warped into new,
+horrible shapes.  A single figure stands nearly obscured in the shadows near the
+door.  Though you can not be sure, you think it is looking in your direction.  
+~
+23 0 0 0 0 10
+D0
+~
+~
+0 0 2305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2307 0 0 0 0 0 0 0 0
+S
+#2307
+At the Door of the Mud-Walled Temple~
+   The door to the mud-walled temple stands just before you, beckoning you with
+its warped symbols of Silvanus.  Upon the door is a finely crafted brass handle
+with a lock which appears to be made of the same type of brass as the door.  
+The deathly silence of the area is almost astounding.  
+~
+23 c 0 0 0 10
+D0
+~
+~
+0 0 2306 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2308 20 0 0 0 0 0 0 0
+S
+#2308
+The Entrance Hall~
+   You stand in a small, dirty hall.  Double doors to the south stand closed.  
+The large heart of the forest (the symbol of Silvanus) carved upon the door has
+been warped and twisted into an odd shape.  To the east and west, short hallways
+run, turning south after a short distance.  
+~
+23 0 0 0 0 0
+D0
+~
+door~
+1 0 2307 20 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2319 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2315 20 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2309 0 0 0 0 0 0 0 0
+S
+#2309
+The Western Hallway~
+   This narrow hallway is lined with artifacts of Silvanus, though they have been
+warped and twisted into new, bizarre shapes.  The hallway turns south here, and
+is lined with archways on both sides, further on.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2308 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2311 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2310 0 0 0 0 0 0 0 0
+S
+#2310
+A Modest Room~
+   Sparsely furnished and undecorated, this room must belong to a priest of the
+temple.  A few books line the shelves of the rotting bookcase, and a cot lies in
+one corner.  
+~
+23 c 0 0 0 0
+D1
+~
+~
+0 0 2309 0 0 0 0 0 0 0 0
+S
+#2311
+The Western Hallway~
+   You stand before the middle archway in the western hallway.  You can see that
+whatever used to lie inside it has been ruined, for the roofing appears to have
+collapsed.  You can step in a little ways, but your progress will be halted by
+fallen debris.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2309 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2313 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2312 0 0 0 0 0 0 0 0
+S
+#2312
+The Western Archway~
+   You stand before the final archway in the western hallway.  The archway is
+covered in twisted hearts of the forest.  The room beyond the archway seems
+quite large and richly furnished.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2311 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2314 0 0 0 0 0 0 0 0
+S
+#2313
+Amid the Debris~
+   Pieces of the fallen roof stand on all sides but the west.  The rubble gives
+no hint as to what this area might have been used for.  
+~
+23 c 0 0 0 0
+D3
+~
+~
+0 0 2311 0 0 0 0 0 0 0 0
+S
+#2314
+The High Priest's Chambers~
+   This room must belong to the High Priest of this temple, for it is filled
+with twisted artifacts of Silvanus.  A real bed and an orderly, clean bookshelf
+complete the furnishings.  
+~
+23 c 0 0 0 0
+D1
+~
+~
+0 0 2312 0 0 0 0 0 0 0 0
+S
+#2315
+Between the Pews~
+   You stand between the rows of pews set up for the devoted.  You notice pews
+knocked over as well as some smashed to bits by falling pieces of roof.  A
+wooden altar lies to the south, on a raised dais past the pews.  
+~
+23 0 0 0 0 0
+D0
+~
+door~
+1 0 2308 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2316 0 0 0 0 0 0 0 0
+S
+#2316
+Between the Pews~
+   You stand between the rows of pews set up for the devoted.  You notice pews
+knocked over as well as some smashed to bits by falling pieces of roof.  A
+wooden altar lies to the south, on a raised dais past the pews.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2315 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2317 0 0 0 0 0 0 0 0
+S
+#2317
+Before the Dais~
+   You stand with the rows of pews at your back, facing the raised dais upon
+which rests the altar.  The dais is clear of debris and the altar itself
+remained unharmed through whatever might have damaged this building.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2318 0 0 0 0 0 0 0 0
+S
+#2318
+Standing at the Altar~
+   The altar before you is carved from a single immense piece of wood.  It is
+covered with carvings of the heart of the forest, though these have all been
+twisted and warped into bizarre shapes.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2317 0 0 0 0 0 0 0 0
+D5
+~
+secret~
+1 2307 2330 20 0 0 0 0 0 0 0
+S
+#2319
+The Eastern Hallway~
+   This narrow hallway is lined with artifacts of Silvanus, though they have been
+warped and twisted into new, bizarre shapes.  The hallway turns south here, and
+is lined with archways on both sides, further on.  
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2320 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2308 0 0 0 0 0 0 0 0
+S
+#2320
+The Eastern Hallway~
+   You stand before the first archway in the eastern hallway.  Looking into it
+you can make out the sparse furnishings of a priest, and a few dust-covered
+books on a sagging bookshelf.  Two more archways lie to the south, and the
+hallway turns into the entrance hall to the north.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2319 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2321 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2322 0 0 0 0 0 0 0 0
+S
+#2321
+A Modest Room~
+   Sparsely furnished and undecorated, this room must belong to a priest of the
+temple.  A few books line the shelves of the rotting bookcase, and a cot lies in
+one corner.  
+~
+23 c 0 0 0 0
+D3
+~
+~
+0 0 2320 0 0 0 0 0 0 0 0
+S
+#2322
+The Eastern Hallway~
+   You stand before the middle archway in the eastern hallway.  Beyond it lies a
+cramped walk space leading to the priest's side of the confessionals.  The first
+archway and the entrance hall lie to the north, while the final archway lies to
+the south.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2320 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2323 0 0 0 0 0 0 0 0
+S
+#2323
+The Eastern Archway~
+   You stand before the final archway in the eastern hallway.  Beyond it lies a
+modest room with sparse furnishings.  The archway bears a twisted heart of the
+forest.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2322 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2325 0 0 0 0 0 0 0 0
+S
+#2324
+A Modest Room~
+   Sparsely furnished and undecorated, this room must belong to a priest of the
+temple.  A few books line the shelves of the rotting bookcase, and a cot lies in
+one corner.  
+~
+23 c 0 0 0 0
+D3
+~
+~
+0 0 2322 0 0 0 0 0 0 0 0
+S
+#2325
+A Cramped Walkway Behind the Confessionals~
+   This cramped walkway behind the confessionals is dusty and ill-used.  Doors
+into the confessionals stand to the north and south, and the eastern hallway
+lies to the east.  
+~
+23 c 0 0 0 0
+D0
+~
+~
+0 0 2326 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2328 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2323 0 0 0 0 0 0 0 0
+S
+#2326
+At a Confessional Door~
+   You stand before the small door into the confessional.  A small carving of
+the heart of the forest stands on the door, though it has been warped into an
+odd shape.  
+~
+23 0 0 0 0 0
+D1
+~
+door~
+1 0 2327 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2325 0 0 0 0 0 0 0 0
+S
+#2327
+A Confessional~
+   This small room contains a small bench and a screen through which come the
+sins of those who worship Silvanus.  Dark thoughts fill your mind of the evils
+which have been heard here.  
+~
+23 0 0 0 0 0
+D3
+~
+door~
+1 0 2326 0 0 0 0 0 0 0 0
+S
+#2328
+At a Confessional Door~
+   You stand before the small door into the confessional.  A small carving of
+the heart of the forest stands on the door, though it has been warped into an
+odd shape.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2325 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 2329 20 0 0 0 0 0 0 0
+S
+#2329
+A Confessional~
+   This small room contains a small bench and a screen through which come the
+sins of those who worship Silvanus.  Dark thoughts fill your mind of the evils
+which have been heard here.  
+~
+23 0 0 0 0 0
+D3
+~
+door~
+1 0 2328 0 0 0 0 0 0 0 0
+S
+#2330
+An underground tunnel~
+This is a small tunnel, barely high enough for a person to walk through it without having to lower their heads. The walls are moldy and there is an odor that small animals make their nests around here, and their predators.
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2331 0 0 0 0 0 0 0 0
+D4
+~
+secret~
+1 2307 2318 20 0 0 0 0 0 0 0
+S
+#2331
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams which
+support the ceiling.  On every fifth post which support the beams, a torch
+sputters, barely staying alit.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2330 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2332 20 0 0 0 0 0 0 0
+S
+#2332
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams which
+support the ceiling.  On every fifth post which support the beams, a torch
+sputters, barely staying alit.  
+~
+23 0 0 0 0 0
+D0
+~
+door~
+1 0 2331 20 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2333 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2354 0 0 0 0 0 0 0 0
+S
+#2333
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams which
+support the ceiling.  On every fifth post which support the beams, a torch
+sputters, barely staying alit.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2334 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2332 0 0 0 0 0 0 0 0
+S
+#2334
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams which
+support the ceiling.  On every fifth post which support the beams, a torch
+sputters, barely staying alit.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2333 0 0 0 0 0 0 0 0
+S
+#2335
+A Slightly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams which
+support the ceiling.  On every fifth post which support the beams, a torch
+sputters, barely staying alit.  
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2334 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2336 0 0 0 0 0 0 0 0
+S
+#2336
+A Slightly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams which
+support the ceiling.  On every fifth post which support the beams, a torch
+sputters, barely staying alit.  
+~
+23 0 0 0 0 0
+D7
+~
+~
+0 0 2335 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2337 0 0 0 0 0 0 0 0
+S
+#2337
+A Slightly Ventilated Tunnel Stairwell~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams which
+support the ceiling.  On every fifth post which support the beams, a torch
+sputters, barely keeping alit.  A stairwell spirals up into the unknown.  
+~
+23 0 0 0 0 0
+D4
+~
+~
+0 0 2338 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2336 0 0 0 0 0 0 0 0
+S
+#2338
+A Spiraling Staircase~
+   This stairwell is small and spirals quickly.  The risers are overly large,
+making walking up them awkward.  They were obviously designed to be difficult to
+travel, causing slow movement up and down them.  
+~
+23 0 0 0 0 0
+D4
+~
+~
+0 0 2339 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2337 0 0 0 0 0 0 0 0
+S
+#2339
+A Spiraling Staircase~
+   This stairwell is small and spirals quickly.  The risers are overly large,
+making walking up them awkward.  They were obviously designed to be difficult to
+travel, causing slow movement up and down them.  
+~
+23 0 0 0 0 0
+D4
+~
+~
+0 0 2340 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2338 0 0 0 0 0 0 0 0
+S
+#2340
+The Top of a Small Stairwell in the Hidden Prison~
+   The damp air around you smells of unwashed bodies and is thick with the smoke
+of torches.  A small stairwell spirals down into gloom, to the west, a small
+hallway of stone leads by a number of barred cell doors.  Looking north you can
+see a trio of doors, one pair opposite each other and the third standing at the
+end of the hall.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2341 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2339 0 0 0 0 0 0 0 0
+S
+#2341
+A Short Corridor~
+   The dirt beneath your feet is freshly swept, the air scented with fragrant
+oils.  Everything seems clean and neat, and well maintained.  Bas-relief
+carvings of trees and forest animals adorn the walls, perhaps to distract from
+the knowledge that this is a prison.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2342 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2340 0 0 0 0 0 0 0 0
+S
+#2342
+At the Pair of Doors in the Short Corridor~
+   The dirt beneath your feet is freshly swept, the air scented with fragrant
+oils.  Everything seems clean and neat, and well maintained.  Bas-relief
+carvings of trees and forest animals adorn the walls, perhaps to distract from
+the knowledge that this is a prison.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2345 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2344 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2341 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2343 0 0 0 0 0 0 0 0
+S
+#2343
+A Clean, Neat Cubicle~
+   This cubicle is clean and kept very neat and orderly.  Everything is in its
+proper place and there is a place for everything.  Combs are aligned just so
+next to the washbasin, which is centered on the small table in front of the
+mirror.  Some clothes are hung on pegs on the west wall, each hanging perfectly,
+spaced evenly apart.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2342 0 0 0 0 0 0 0 0
+S
+#2344
+A Spacious Cubicle~
+   This cubicle is small, but seems spacious due mostly to the lack of
+furniture, a single cot is folded up and stands against the wall.  A large
+number of mirrors hang from the walls, making the room seem larger.  
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2342 0 0 0 0 0 0 0 0
+S
+#2345
+The End of the Short Corridor~
+   The dirt beneath your feet is freshly swept, the air scented with fragrant
+oils.  Everything seems clean and neat, and well maintained.  Bas-relief
+carvings of trees and forest animals adorn the walls, perhaps to distract from
+the knowledge that this is a prison.  A large iron portcullis set into the north
+wall here blocks the prisoners from passage into the guard's working area.  It
+has 2 inch wide bars set perpendicular to each other, about 6 inches apart.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2346 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2342 0 0 0 0 0 0 0 0
+S
+#2346
+A Hallway Leading to the Cells~
+   This wide hall travels between the rows of cells.  Thick metal cell doors
+stand between you and the inside of each cell.  The doors themselves look solid
+and well maintained.  The damp air is thick with torch smoke and the smell of
+unwashed prisoners.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2347 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2345 0 0 0 0 0 0 0 0
+S
+#2347
+A Hall Between the Cells~
+   This wide hall travels between the rows of cells.  Thick metal cell doors
+stand between you and the inside of each cell.  The doors themselves look solid
+and well maintained.  The damp air is thick with torch smoke and the smell of
+unwashed prisoners.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2349 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2348 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2346 0 0 0 0 0 0 0 0
+S
+#2348
+A Hall Between the Cells~
+   This wide hall travels between the rows of cells.  Thick metal cell doors
+stand between you and the inside of each cell.  The doors themselves look solid
+and well maintained.  The damp air is thick with torch smoke and the smell of
+unwashed prisoners.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2351 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2353 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2352 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2347 0 0 0 0 0 0 0 0
+S
+#2349
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out from
+the wall, and doubles as a bed.  Old hay lies scattered across the floor, but
+mostly only mud is visible.  A thin trickle of water pours in from a rusty pipe,
+collecting in a small pool before draining to Gilean knows where.  
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2347 0 0 0 0 0 0 0 0
+S
+#2350
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out from
+the wall, and doubles as a bed.  Old hay lies scattered across the floor, but
+mostly only mud is visible.  A thin trickle of water pours in from a rusty pipe,
+collecting in a small pool before draining to Gilean knows where.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2347 0 0 0 0 0 0 0 0
+S
+#2351
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out from
+the wall, and doubles as a bed.  Old hay lies scattered across the floor, but
+mostly only mud is visible.  A thin trickle of water pours in from a rusty pipe,
+collecting in a small pool before draining to Gilean knows where.  
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2348 0 0 0 0 0 0 0 0
+S
+#2352
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out from
+the wall, and doubles as a bed.  Old hay lies scattered across the floor, but
+mostly only mud is visible.  A thin trickle of water pours in from a rusty pipe,
+collecting in a small pool before draining to Gilean knows where.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2348 0 0 0 0 0 0 0 0
+S
+#2353
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out from
+the wall, and doubles as a bed.  Old hay lies scattered across the floor, but
+mostly only mud is visible.  A thin trickle of water pours in from a rusty pipe,
+collecting in a small pool before draining to Gilean knows where.  
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2348 0 0 0 0 0 0 0 0
+S
+#2354
+Entrance to an Underground Garden~
+   This small path has a musty smell to it.  To the east, covered in a misty
+fog, a small garden has been set up underground.  The druids of this temple must
+have strange magic to allow plants to grow without the aid of sunlight.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2332 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2355 20 0 0 0 0 0 0 0
+S
+#2355
+An Underground Garden~
+   As you step into the garden, the environment changes to appear as if you were
+standing outside.  A ceiling is above you, but you can see the sky clearly also.
+The garden is a simple path that leads around a large tree at its center.  
+~
+23 0 0 0 0 0
+D1
+~
+door~
+1 0 2354 20 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2356 0 0 0 0 0 0 0 0
+S
+#2356
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2357 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2355 0 0 0 0 0 0 0 0
+S
+#2357
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2356 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2358 0 0 0 0 0 0 0 0
+S
+#2358
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2359 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2357 0 0 0 0 0 0 0 0
+S
+#2359
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2360 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2358 0 0 0 0 0 0 0 0
+S
+#2360
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2361 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2362 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2359 0 0 0 0 0 0 0 0
+S
+#2361
+A Solitary Tree~
+   A large, solitary tree rests in the center of this small clearing of
+vegetation.  The tree has bark that is pitch black, and seems to hum with a soft
+murmur.  The leaves of the tree are a dark green color, and seem to drip with a
+strange sap.  
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2360 0 0 0 0 0 0 0 0
+S
+#2362
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2363 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2360 0 0 0 0 0 0 0 0
+S
+#2363
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2364 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2362 0 0 0 0 0 0 0 0
+S
+#2364
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2365 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2363 0 0 0 0 0 0 0 0
+S
+#2365
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2366 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2364 0 0 0 0 0 0 0 0
+S
+#2366
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2367 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2365 0 0 0 0 0 0 0 0
+S
+#2367
+The Garden Path~
+   The path moves around the edge of the small garden that is grown underground.
+There are small flowers along each edge of the path, but it seems unwise to
+smell them.  The path is composed of dirt, but it is perfectly smooth and the
+dirt does not move onto your boots or clothing.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2366 0 0 0 0 0 0 0 0
+S
+#2368
+An Altar to Silvanus~
+   An altar has been erected here to the god of wisdom, Silvanus.  Incense is
+being burned in jars around the edge of the altar, and a small tree rests in its
+center.  A footstool rests in front of it, where druids come and pray for spells
+and good growth.  
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2367 0 0 0 0 0 0 0 0
+D5
+~
+Door~
+1 2307 2369 20 0 0 0 0 0 0 0
+S
+#2369
+Large Illuminated Chamber~
+The end of the staircase opens to a large chamber. It is completly illuminated with torches and a large @Rpentagram@n has been drawn on its center. There seems to be movement in the room and a few growls echo throughout the adjacent rooms. The feel of these chambers cannot be described any other way but, @rEvil@n.  
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2378 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2370 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2382 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2374 0 0 0 0 0 0 0 0
+D4
+~
+door~
+1 2307 2368 20 0 0 0 0 0 0 0
+S
+#2370
+Corridor~
+A spacious corridor, shadowed and musty, extends from the pentagram chamber to an intersection.
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2371 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2369 0 0 0 0 0 0 0 0
+S
+#2371
+Intersection~
+This intercersection connects a corridor that goes to the room with the pentagram chamber, to an outer hallway that surrounds the area. Its design seems to have more mystical reasoning than practical. 
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2372 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2388 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2373 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2370 0 0 0 0 0 0 0 0
+S
+#2372
+Outercorridor~
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2371 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2380 0 0 0 0 0 0 0 0
+S
+#2373
+Outercorridor~
+This unfinished room was created by Ubtao.
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2371 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2385 0 0 0 0 0 0 0 0
+S
+#2374
+Corridor~
+A spacious corridor, shadowed and musty, extends from the pentagram chamber to an intersection.
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2369 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2375 0 0 0 0 0 0 0 0
+S
+#2375
+Intersection~
+This intercersection connects a corridor that goes to the room with the pentagram chamber, to an outer hallway that surrounds the area. Its design seems to have more mystical reasoning than practical. 
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2377 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2374 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2376 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2387 0 0 0 0 0 0 0 0
+S
+#2376
+Outercorridor~
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2375 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2384 0 0 0 0 0 0 0 0
+S
+#2377
+Outercorridor~
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2375 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2381 0 0 0 0 0 0 0 0
+S
+#2378
+Corridor~
+A spacious corridor, shadowed and musty, extends from the pentagram chamber to an intersection.
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2379 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2369 0 0 0 0 0 0 0 0
+S
+#2379
+Intersection~
+This intercersection connects a corridor that goes to the room with the pentagram chamber, to an outer hallway that surrounds the area. Its design seems to have more mystical reasoning than practical. 
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2386 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2380 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2378 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2381 0 0 0 0 0 0 0 0
+S
+#2380
+Outercorridor~
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2379 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2372 0 0 0 0 0 0 0 0
+S
+#2381
+Outercorridor~
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2379 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2377 0 0 0 0 0 0 0 0
+S
+#2382
+Corridor~
+A spacious corridor, shadowed and musty, extends from the pentagram chamber to an intersection.
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2369 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2383 0 0 0 0 0 0 0 0
+S
+#2383
+Intersection~
+This intercersection connects a corridor that goes to the room with the pentagram chamber, to an outer hallway that surrounds the area. Its design seems to have more mystical reasoning than practical. 
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2382 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2385 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2389 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2384 0 0 0 0 0 0 0 0
+S
+#2384
+Outercorridor~
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2383 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2376 0 0 0 0 0 0 0 0
+S
+#2385
+Outercorridor~
+This corridor is illuminated in places, and in other parts there are shadowed areas large enough for hidden doors, or enemies. It is wide enough for large creatures to move around and high enough for Giants. There are wicked weapons displayed on either side, and a few empty suits of armor along its length. Its so long that it would seem to not have an end. 
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2383 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2373 0 0 0 0 0 0 0 0
+S
+#2386
+On top of a cell~
+The end on the corridor has a heavy trapdoor on the floor with bars securing the window opening. Scratches on the door and some red stains, that could only have been made by blood, decorate it and give witness that the room under the stone floor has been in use, and may still be occupied.
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2379 0 0 0 0 0 0 0 0
+D5
+~
+trap door~
+1 0 2393 20 0 0 0 0 0 0 0
+S
+#2387
+On top of a cell~
+The end on the corridor has a heavy trapdoor on the floor with bars securing the window opening. Scratches on the door and some red stains, that could only have been made by blood, decorate it and give witness that the room under the stone floor has been in use, and may still be occupied.
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2375 0 0 0 0 0 0 0 0
+D5
+~
+trap door~
+1 0 2391 20 0 0 0 0 0 0 0
+S
+#2388
+On top of a cell~
+The end on the corridor has a heavy trapdoor on the floor with bars securing the window opening. Scratches on the door and some red stains, that could only have been made by blood, decorate it and give witness that the room under the stone floor has been in use, and may still be occupied.
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2371 0 0 0 0 0 0 0 0
+D5
+~
+trap door~
+1 0 2392 20 0 0 0 0 0 0 0
+S
+#2389
+On top of a cell~
+The end on the corridor has a heavy trapdoor on the floor with bars securing the window opening. Scratches on the door and some red stains, that could only have been made by blood, decorate it and give witness that the room under the stone floor has been in use, and may still be occupied.
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2383 0 0 0 0 0 0 0 0
+D5
+~
+trap door~
+1 0 2390 20 0 0 0 0 0 0 0
+S
+#2390
+Cell~
+A large cell made from huge stones with minimal furniture, a bed and a table extremly oversized. The smell of is is atrocious, like mud, sweat and bodily fluids have been all mixed without regard for hygiene. 
+~
+23 0 0 0 0 0
+D4
+~
+trap door~
+1 0 2389 0 0 0 0 0 0 0 0
+S
+#2391
+Cell~
+A large cell made from huge stones with minimal furniture, a bed and a table extremly oversized. The smell of is is atrocious, like mud, sweat and bodily fluids have been all mixed without regard for hygiene. 
+~
+23 0 0 0 0 0
+D4
+~
+trap door~
+1 0 2387 0 0 0 0 0 0 0 0
+S
+#2392
+Cell~
+A large cell made from huge stones with minimal furniture, a bed and a table extremly oversized. The smell of is is atrocious, like mud, sweat and bodily fluids have been all mixed without regard for hygiene. 
+~
+23 0 0 0 0 0
+D4
+~
+trap door~
+1 0 2388 0 0 0 0 0 0 0 0
+S
+#2393
+Bottom of stairs~
+The bottom of the stairs has nothing worth mentioning except that is illuminated and spacious.
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+D4
+~
+Trap door~
+1 0 2386 0 0 0 0 0 0 0 0
+S
+#2394
+Hallway in private offices~
+This is a room that serves as intersection between the Highdruid's chamber and that of his subordinates. The area is large and with high ceilings, not much else is in the room except torches to illuminate the way.
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2397 0 0 0 0 0 0 0 0
+D1
+~
+door~
+0 0 2396 10 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2393 0 0 0 0 0 0 0 0
+D3
+~
+door~
+0 0 2395 20 0 0 0 0 0 0 0
+S
+#2395
+Right Hand's chamber~
+This rooms is spacious and 
+This room is spacious and bare. Not much furniture or decorations can be found around the room. There is a sturdy and plain looking chair and desk, and on the walls a few exotic and dark looking weapons are displayed. There is a painting of a deity as well, but it was made so dark that it does not let you see who that god is. The only discernable features are its bright red @Reyes @n  
+~
+23 0 0 0 0 0
+D1
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+S
+#2396
+Left Hand's chamber~
+A large and pleasant room. Potraits of the gods are on all of the walls, including Sylvanus. This area feels closer to nature than the rest of this basement, with plants everywhere and pets scurrying around the floor.
+~
+23 0 0 0 0 0
+D3
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+S
+#2397
+Antechamber~
+This looks like a waiting room for the Highpriests guests. Its a comfortable area with a firepit to keep it warm, sturdy furniture brought, it seems, from several different cities and with different sizes and types of chairs for any size guests. The decorations do not look coordinated but are not unpleasant to look at. It all indicates that this is an area for business.
+~
+23 0 0 0 0 0
+D0
+~
+~
+0 0 2398 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+S
+#2398
+The HighDruid's chamber~
+This seems to be the Highdruid's work area. It looks spacious, with very high ceilings. The furniture in the room is comfortable and sturdy, made of solid oak and very heavy, like it was designed to support a lot of weight. The walls are decorated with pictures of the seven cardianl sins and the seven circles of hell. Seems the Highdruid does not have much faith in humanity. 
+~
+23 0 0 0 0 0
+D2
+~
+~
+0 0 2397 0 0 0 0 0 0 0 0
+S
+$~

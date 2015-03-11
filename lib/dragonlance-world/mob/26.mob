@@ -1,0 +1,442 @@
+#2600
+goblin hefty~
+a hefty goblin~
+A hefty goblin hacks away at an evergreen tree.
+~
+   This goblin has a large build for one of his race.  His arms show a bit of
+tone, and he wields a large axe with basic skill.  He is wearing a crude hide
+of an animal, but which animal is impossible to tell.    
+~
+d 0 0 0 k 0 0 0 -500
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2601
+lumberjack gruff goblin~
+a gruff goblin lumberjack~
+A gruff goblin lumberjack chops at an oakwood tree.
+~
+   This large goblin is wide and muscular.  He is wearing only a pair of loose
+shorts, made of animal hide, and a belt with a golden buckle.  For his race,
+this goblin is a monster, and wields his axe with ease.    
+~
+d 0 0 0 k 0 0 0 -100
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2602
+hungry vulture~
+a hungry vulture~
+A hungry vulture makes a piercing sound as you pass.
+~
+   This vulture has dark black feathers and a long beak.  It wanders around the
+outside of the goblin fortress waiting for scraps to be tossed over the wall.
+~
+d 0 0 0 k 0 0 0 50
+14 13 -6 84d140+104 1d8+7
+18 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#2603
+scout goblin agile~
+an agile goblin scout~
+An agile goblin scout sneaks along the path.
+~
+   This goblin is dressed in crude leather armor and carries a short dagger.  
+As you notice him he grins evilly and winks slightly at you.  As he moves he
+does not make a sounds, which is strange for a creature such as a goblin.    
+~
+d 0 0 0 k 0 0 0 -100
+14 13 -6 84d140+104 1d8+7
+18 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#2604
+dwarf grubby gully~
+a grubby gully dwarf~
+A grubby gully dwarf shrieks as you enter the room.
+~
+   This gully dwarf is dressed in rags and covered in filth.  Probably the only
+thing more disgusting then the look of this poor creature is the smell.  Snot
+hangs loosely from its nose, and its shoes are both untied.    
+~
+d 0 0 0 k 0 0 0 200
+14 13 -6 84d140+104 1d8+7
+18 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#2605
+groggy goblin guard~
+a groggy goblin guard~
+A groggy goblin guard is asleep at his post.
+~
+   This goblin has apparently been on duty too long and has fallen fast asleep.
+His hair is messy and overall he has a disgusting appearance.  Sheathed at his
+side is a short sword that has been stolen on the field of battle.    
+~
+d 0 0 0 k 0 0 0 -500
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2606
+soldier stern goblin~
+a stern goblin soldier~
+A stern goblin soldier walks by with a grim visage.
+~
+   This soldier has a hard life in the fortress.  Wanting nothing more than to
+attack and feel the flow of battle, he is stuck watching after the stinking
+gully dwarves that are used as slave labor for this compound.    
+~
+d 0 0 0 k 0 0 0 -500
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2607
+dwarf beaten gully terrified~
+a terrified, beaten gully dwarf~
+A terrified, beaten gully dwarf scampers around the compound.
+~
+   Brought here as a means of slave labor, the life of this gully dwarf is a
+difficult one.  It runs around the compound trying to keep its goblins captors
+happy and avoiding their crackling whips.    
+~
+d 0 0 0 k 0 0 0 40
+14 13 -6 84d140+104 1d8+7
+18 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#2608
+cook goblin cranky~
+a cranky goblin cook~
+A cranky goblin cook looks at you with a menacing stare.
+~
+   This menacing goblin cook appears very angry and irritable.  He is wearing a
+large white hat and an apron that is covered with mixed soup and dirt.    
+~
+d 0 0 0 k 0 0 0 -600
+14 13 -6 84d140+104 1d8+7
+18 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#2609
+lieutenant goblin hungry~
+a hungry goblin lieutenant~
+A hungry goblin lieutenant eats his soup.
+~
+   This goblin is wearing leather armor and has an iron short sword sheathed at
+his side.  His is eating his soup with tremendous effort, going so fast he
+barely tastes each bit as it goes into his mouth.    
+~
+d 0 0 0 k 0 0 0 -900
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2610
+worker goblin~
+a goblin worker~
+A goblin worker carries a small board.
+~
+   This goblin worker has been assigned the task of trying to cover the hole
+center of the compound.  Little do the goblin know that if his group succeeds,
+the pressure would build up and cause an explosion destroying the whole
+fortress.    
+~
+d 0 0 0 k 0 0 0 -50
+14 13 -6 84d140+104 1d8+7
+18 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#2611
+goblin captain~
+the Goblin Captain~
+The Goblin Captain cackles with insane glee.
+~
+   This captain is wearing a set of crude chain mail and a red leather cap.  
+He is the hairiest goblin you have ever laid eyes upon.  He walks around a
+large table covered with maps, and makes his plans to conquer the countryside.
+~
+bdF 0 0 0 k 0 0 0 -800
+14 8 -13 3360d140+104 1d8+15
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2612
+prisoner malnourished~
+a beaten, whimpering prisoner~
+A beaten, whimpering prisoner lies on the floor.
+~
+   This prisoner is wearing nothing except a small sack with slits cut out for
+his arms and legs.  There are large dark circles under his eyes and he moans
+slightly as you enter the cell.    
+~
+d 0 0 0 k 0 0 0 100
+14 13 -6 84d140+104 1d8+7
+18 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 19
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#2613
+guard tower goblin~
+a goblin tower guard~
+A goblin tower guard mutters about the wind.
+~
+   This goblin guard is dressed in short blue breeches and a small leather
+vest.  He is carrying a hand axe and a small knife.    
+~
+d 0 0 0 k 0 0 0 -700
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2614
+man goblin medicine~
+the goblin medicine man~
+The goblin medicine man looks at you with a strange smile.
+~
+   As you enter this goblin's presence a strange smile comes across his face.
+He is wearing a necklace of beads and a loin cloth around his waist.  His face
+is painted with white and red paint, and when he steps near a shadow it seems
+to glow with an inner radiance.    
+~
+bdE 0 0 0 k 0 0 0 -500
+14 8 -11 1260d140+104 1d8+15
+18 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 11
+S
+#2615
+guard goblin sleeping~
+a goblin guard~
+A sleeping goblin guard rests comfortably on his cot.
+~
+   This goblin is wearing only his a crude night shirt and his birthday suit.
+He is covered with a filthy blanket to keep away the chill air of the room.  
+~
+d 0 0 0 k 0 0 0 -500
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#2616
+archer goblin sharp-eyed sharp eyed~
+a sharp-eyed goblin archer~
+A sharp-eyed goblin archer looks out over the front of the compound.
+~
+   This goblin archer is wearing some padded leather clothes, and carries a
+short bow with him.  He has beedy red eyes that are sharp and focused on the
+front of the compound.  Whenever anyone strange tries to enter the compound
+from the front, this goblin immediately attacks the tresspasser.    
+~
+d 0 0 0 k 0 0 0 -500
+14 13 -11 168d140+104 1d8+7
+18 0 32 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+$

@@ -1,0 +1,505 @@
+#300
+horn forestmaster forest master~
+the horn of the Forestmaster~
+A glimmering horn that shines like a pearl is laying on the ground.~
+~
+3 agjklmnoprstuvwBCDEF abc stuvwxy 0 aeo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 125 250 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#301
+chain mail set~
+a set of chain mail~
+A set of crumppled up chain mail lies on the ground.~
+~
+9 jklprBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 700 450 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#302
+sword long silver~
+a long sword crafted from silver~
+Sword silver~
+~
+5 gijklprstBCDEF ac stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 1200 3000 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 184
+A
+19 -1 184
+#303
+corpse~
+a corpse~
+A half mangled corpse lies shredded upon the ground.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+corpse~
+   A half mangled corpse lies on the ground before you.  A partial view of the
+ripped open rib cage makes you turn your head.  The smell along is enough to
+make you gag.    
+~
+#304
+coins~
+a pile of coins~
+A pile of coins~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#305
+rabbit foot lucky~
+a lucky rabbit's foot~
+A small rabbit's foot lies on the ground.~
+~
+12 jklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 300 1200 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+23 1 176
+A
+21 1 176
+A
+20 1 176
+#306
+black robe~
+a black robe~
+A black piece of cloth lies upon the ground.~
+~
+9 kmprwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 200 620 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#307
+plain golden ring~
+a plain golden ring~
+A plain ring of gold lies almost hidden at your feet.~
+~
+8 jklmnoprstuvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1800 900 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 132
+A
+1 -1 132
+#308
+quarterstaff iron staff~
+an iron quarterstaff~
+A rod of solid iron lies upon the ground.~
+~
+5 jklmnpstuvxBCDF ac stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 450 800 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#309
+shield oaken~
+an oaken shield~
+An oaken shield lies discarded upon the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 480 240 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 2 240
+#310
+fritos bag~
+a bag of fritos~
+A bag of fritos sits here waiting to be eaten.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#311
+staff long sharpened~
+a long, wooden staff with sharpened points~
+A long quarterstaff with sharpened points lies here.~
+~
+5 jklmnoprstuvwxBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 375 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#312
+hood brownie tight~
+a brownie's hood~
+A tight-fitting hood of brown cloth dies here collecting dust.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#313
+flask silver tiny~
+a silver flask~
+A tiny silver flask catches the light and your eye.~
+~
+17 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+55 2000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#314
+pipes pan brass~
+a set of brass pan pipes~
+A set of brass pan pipes lies here on the ground waiting to be played.~
+~
+3 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 750 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#315
+sleeves forest green~
+a pair of forest green sleeves~
+A pair of forest green sleeves lies here in the dirt.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#316
+leggings drakescale red~
+a pair of red drakescale leggings~
+A pair of leggings made from flexable red scales lies here.~
+~
+9 jklnoprstuvwBCDEF abc stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#317
+belt leathery barkskin bark~
+a barkskin belt~
+A leathery belt covered with thick bark is here collecting dust.~
+~
+9 jklmnopruvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 3 0
+A
+13 2 0
+#318
+robe golden long~
+a long, golden robe~
+A long, golden robe of finely woven cloth lies here in a crumpled heap.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1350 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+A
+24 1 0
+#319
+crown crystal intricate~
+an intricate crystal crown~
+An intricately carved crystal crown twinkles in the light.~
+~
+8 jklmnoprstuvwBCDEF abcd stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#320
+horn unicorn~
+a unicorn horn~
+The horn of a unicorn has been hacked off and left here on the ground.~
+~
+3 jklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+17 -5 0
+#321
+pelt unicorn~
+a unicorn's pelt~
+A gleaming white unicorn's pelt lies here in a small pile.~
+-6~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 2500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -8 0
+A
+6 1 0
+#322
+ring petrified wood~
+a ring of petrified wood~
+A ring of petrified wood lies here amongst some debris.~
+-3~
+8 jklmnoprstuvwBCDEF abcC stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1300 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+A
+17 -2 0
+#323
+talisman wood petrified~
+a talisman of petrified wood~
+A large talisman made of petrified wood lies here curled in it's vine chain.~
+~
+11 jklmnoprstuvwBCDEF abcC stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#324
+skeleton remains skeletal~
+the skeletal remains of an ancient warrior~
+The skeletal remains of an ancient warrior lie here, half buried in leaves.~
+~
+13 c 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+skeleton skeletal remains~
+   Lying on the ground, buried underneath a pile of leaves and pine cones are
+the skeletal remains of a warrior from ages past.  A rusted chain shirt covers
+its torso, littered with holes and tears.  It clutches a broken shortsword in
+its hand, obviously having died in battle.    
+~
+#325
+skeleton kobold raider remains~
+the skeletal remains of a kobold raider~
+The skeletal remains of a small creature with a draconic head pokes out of the dirt.~
+~
+13 c 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+skeleton remains skeletal kobold raider~
+   Protruding from the leaf-covered soil are the bones of a small creature
+about three feet in height.  Small, yet sharp teeth jut out of the maw of its
+draconic head.  Lying in the ground near its head is a sharply carved stone,
+most likely the head of this vile creature's spear.    
+~
+#326
+brook shallow dark watered~
+a gloomy, dark-watered brook~
+A shallow brook with gloomy, dark blue water gurgles past your feet.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+51717 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+brook gloomy shallow dark watered~
+   This shallow brook gurgles and bubbles as it trails past your feet, its dark
+water just a few inches deep.  Strange, whispering voices seem to speak from
+the water, hissing "GO BAAACK!  GO BAAACK!  ".    
+~
+#327
+trinkets bag shiny~
+a bag of shiny trinkets~
+A bag overflowing with tiny trinkets sparkles in your eye.~
+~
+8 0 v 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 600 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#328
+wildberries berries food handful~
+a handful of wildberries~
+A handful of wildberries are scattered here on the ground.~
+~
+19 0 v 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#329
+wreath intertwined flowers~
+a wreath of intertwined flowers~
+A wreath of colorful, intertwined flowers lies here on the ground.~
+~
+11 jklnoprstuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 900 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+A
+14 1 0
+#330
+scroll white black scrawlings~
+a white scroll with black scrawlings~
+A white scroll with black scrawlings lies here on the ground.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

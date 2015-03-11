@@ -1,0 +1,49 @@
+#3300
+servant kelemvor~
+a servant of kelemvor~
+A servant of Kelemvor is here training new souls in their professions.
+~
+&n
+~
+bdenopqrA ac 0 0 k 0 0 0 -500
+1 20 9 9d1038+151 1d20+0
+5 0 0 4
+8 8 0
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 16
+E
+Con: 12
+E
+Cha: 10
+S
+#3301
+trainer skill~
+the skill trainer~
+The skill trainer is here wondering why such a talented guy got stuck with a job like this.
+~
+It's the skill trainer.
+~
+bdnoprs ac 0 0 k 0 0 0 -500
+100 20 -140 900d2585+12605 1d20+0
+50000 0 0 4
+8 8 0
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 41
+E
+Con: 12
+E
+Cha: 10
+S
+$

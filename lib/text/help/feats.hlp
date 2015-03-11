@@ -1,0 +1,152 @@
+ACROBATIC
+Prerequisite: None
+Benefit: Provides a +2 on all jump and tumble checks.
+#
+AGILE
+Prerequisite: None
+Benefit: Provides a +2 on all balance and escape artist checks.
+#
+ALERTNESS
+Prerequisite: None
+Benefit: Provides a +2 on all listen and spot checks.
+#
+AMBIDEXTERITY
+Prerequisite: Dex 15+
+Benefit: Removes -4 penalty to attack rolls with the offhand.
+#
+"ANIMAL AFFINITY"
+Prerequisite: None
+Benefit: Provides a +2 on all handle animal and ride checks.
+#
+ATHLETIC
+Prerequisite: None
+Benefit: Provides a +2 on all climb and swim checks.
+#
+"COMBAT REFLEXES"
+Prerequisite: -
+Benefit: Difficult to implement :)
+#
+DECEITFUL
+Prerequisite: None
+Benefit: Provides a +2 on all disguise and forgery checks.
+#
+"DEFT HANDS"
+Prerequisite: None
+Benefit: Provides a +2 on all sleight of hand and use rope checks.
+#
+DILIGENT
+Prerequisite: None
+Benefit: Provides a +2 on all appraise and decipher script checks.
+#
+DODGE
+Prerequisite: Dex 13+
+Benefit: +1 AC Bonus each round.
+#
+"GREAT FORTITUDE"
+Prerequisite: -
+Benefit: You get a +2 bonus to all Fortitude saving throws.
+#
+"HEAVY ARMOR PROFICIENCY"
+Prerequisite: Light Armor Proficiency, Medium Armor Proficiency.
+Benefit: You are proficient with heavy armor. A character who is wearing armor 
+	 with which she is not proficient suffers its armor check penalty on 
+	 attack rolls and on all skill checks that involve moving.
+#
+"IMPROVED CRITICAL"
+Prerequisite: Proficient with weapon, base attack bonus +8 or higher.
+Benefit: When using the weapon type selected, the threat range is doubled.
+#
+"IMPROVED TWO WEAPON FIGHTING"
+Prerequisite: Ambidexterity, Two-Weapon Fighting, base attack bonus +9 or 
+              higher.
+Benefit: In addition to the standard single extra attack you recieve via
+         Two-Weapon Fighting, you get a second attack with the off-hand
+         weapon, at a -5 penalty.
+#
+INVESTIGATOR
+Prerequisite: None
+Benefit: Provides a +2 on all gather information and search checks.
+#
+"LIGHT ARMOR PROFICIENCY"
+Prerequisite: -
+Benefit: You are proficient with light armor. A character who is wearing armor 
+	 with which she is not proficient suffers its armor check penalty on 
+	 attack rolls and on all skill checks that involve moving.
+#
+"MAGICAL APTITUDE"
+Prerequisite: None
+Benefit: Provides a +2 on all spellcraft information and use magic device checks.
+#
+"MARTIAL WEAPON PROFICIENCY"
+Prerequisite:
+Benefit: You make attack rolls with simple weapons normally. A character who
+	 users a weapon without being proficient with it suffers a -4
+	 penalty on attack rolls.
+#
+"MEDIUM ARMOR PROFICIENCY"
+Prerequisite: Light Armor Proficiency
+Benefit: You are proficient with medium armor. A character who is wearing armor 
+	 with which she is not proficient suffers its armor check penalty on 
+	 attack rolls and on all skill checks that involve moving.
+#
+NEGOTIATOR
+Prerequisite: None
+Benefit: Provides a +2 on all diplomacy information and sense motive checks.
+#
+"NIMBLE FINGERS"
+Prerequisite: None
+Benefit: Provides a +2 on all disable device information and open lock checks.
+#
+PERSUASIVE
+Prerequisite: None
+Benefit: Provides a +2 on all bluff information and intimadate checks.
+#
+"POWER ATTACK"
+Prerequisite: Str 13+
+Benefit: Power attack allows you to subtract from your melee attack rolls 
+         to add to your melee damage rolls.
+#
+"SELF SUFFICIENT"
+Prerequisite: None
+Benefit: Provides a +2 on all heal information and survival checks.
+#
+"SHIELD ARMOR PROFICIENCY"
+Prerequisite: -
+Benefit: Allows you to use a shield without penalty.
+#
+"SIMPLE WEAPON PROFICIENCY"
+Prerequisite: -
+Benefit: You make attack rolls with simple weapons normally. A character who
+	 users a weapon without being proficient with it suffers a -4
+	 penalty on attack rolls.
+#
+STEALTHY
+Prerequisite: None
+Benefit: Provides a +2 on all hide information and move silently checks.
+#
+TOUGHNESS
+Prerequisite: -
+Benefit: You gain +10 hit points. A character may gain this feat multiple
+	 times. Its effects stack.
+#
+"TWO WEAPON FIGHTING"
+Prerequisite: -
+Benefit: You can fight with a weapon in each hand. You can make one extra attack
+	 each round with the second weapon. Your penalties for fighting with
+	 two weapons are reduced by 2.
+#
+"WEAPON FINESSE"
+Prerequisite: Proficient with weapon, base attack bonus +1 or higher.
+Benefit: With the selected weapon, you may use your Dexterity modifier instead
+	 of your Strength modifier on attack rolls.
+#
+"WEAPON FOCUS"
+Prerequisite: Proficient with weapon, base attack bonus +1 or higher.
+Benefit: You add +1 to all attack rolls you make using the selected weapon.
+#
+"WEAPON SPECIALIZATION"
+Prerequisite: Weapon Specialization is available only to warriors of 4th or
+	      higher level. Weapon Focus with chosen weapon.
+Benefit: Weapon Specialization adds a +2 damage bonus with a chosen weapon.
+#
+$

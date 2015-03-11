@@ -1,0 +1,362 @@
+#8300
+gateguard~
+a gateguard~
+A gateguard stands here watching the entrance to Vingaard Keep.
+~
+   Standing before you is a soldier of the forces here at Vingaard Keep.  He
+wears a guardsman tunic adorned with the crest of Solamnia.  He watches you
+closely as you prepare to enter Vingaard Keep.    
+~
+d 0 0 0 k 0 0 0 900
+13 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8301
+knight~
+a Knight of the Crown~
+A Knight of Solamnia trains to better himself against his enemies.
+~
+   This Knight of Solamnia roams about the area training either with himself,
+or another knight.  Sweat drips heavily off his brow, as rest appears to not be
+an option to this knight.    
+~
+d 0 0 0 k 0 0 0 900
+14 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8302
+knight~
+a Knight of the Sword~
+A Knight of Solamnia trains to better himself against his enemies.
+~
+   This Knight of Solamnia roams about the area training either with himself,
+or another knight.  Sweat drips heavily off his brow, as rest appears to not be
+an option to this knight.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8303
+knight~
+a Knight of the Rose~
+A Knight of Solamnia trains to better himself against his enemies.
+~
+   This Knight of Solamnia roams about the area training either with himself,
+or another knight.  Sweat drips heavily off his brow, as rest appears to not be
+an option to this knight.    
+~
+d 0 0 0 k 0 0 0 900
+16 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8304
+lookout~
+an agile lookout~
+An agile lookout peers off into the horizon.
+~
+   Standing here, peering out into the horizon, this agile lookout keeps his
+eyes open for danger.  Inches away from a signal bell, he waits only until the
+last moment before ever ringing it.    
+~
+d 0 0 0 k 0 0 0 900
+14 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8305
+squire~
+a squire to the knighthood~
+A squire to the knighthood trains along with his peers.
+~
+   Training alongside with the knights, this squire takes great pride in
+showing his peers he has what it takes to become a Knight of Solamnia.  
+Dressed in the lightest armor he could find, he dances around the courtyard
+impressing all those who watch.    
+~
+d 0 0 0 k 0 0 0 900
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8306
+knight~
+a Knight of Solamnia~
+A Knight of Solamnia stands watch before a doorway.
+~
+   A Knight of Solamnia stands before a large arched doorway.  Only those
+allowed to pass through the doors are those that belong to the Knighthood.    
+~
+d 0 0 0 k 0 0 0 900
+16 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8307
+gateguard~
+a gateguard~
+A gateguard stands here watching the entrance to Vingaard Keep.
+~
+   Standing before you is a soldier of the forces here at Vingaard Keep.  He
+wears a guardsman tunic adorned with the crest of Solamnia.  He watches you
+closely as you prepare to enter Vingaard Keep.    
+~
+d 0 0 0 k 0 0 0 900
+13 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8308
+knight crown~
+a Knight of the Crown~
+A Knight of the Crown stands here deep in meditation.
+~
+   This Knight of Solamnia stands in deep meditation to his God.  Encased in
+full battle armor, and armed with an immaculate blade he stands ready if battle
+is to be called.    
+~
+d 0 0 0 k 0 0 0 900
+17 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8309
+knight sword~
+a Knight of the Sword~
+A Knight of the Sword stands here deep in meditation.
+~
+   This Knight of Solamnia stands in deep meditation to his God.  Encased in
+full battle armor, and armed with an immaculate blade he stands ready if battle
+is to be called.    
+~
+d 0 0 0 k 0 0 0 900
+18 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8310
+knight rose~
+a Knight of the Rose~
+A Knight of the Rose stands here in deep meditation.
+~
+   This Knight of Solamnia stands in deep meditation to his God.  Encased in
+full battle armor, and armed with an immaculate blade he stands ready if battle
+is to be called.    
+~
+d 0 0 0 k 0 0 0 900
+19 11 -18 209d190+109 1d8+9
+32 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 21
+S
+#8311
+knight senior rose~
+a senior Knight of the Rose~
+A senior Knight of the Rose conducts a meeting with other knights.
+~
+   Outfitted in a full suit of Solamnic plate armor, this high ranking Knight
+of the Rose briefs his knights in a new battle strategy.    
+~
+d 0 0 0 k 0 0 0 900
+20 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8314
+archer solamnic~
+a Solamnic archer~
+With bow in hand, this Solamnic archer patrols the rampart.
+~
+   Standing with a longbow in hand, this keen-eyed archer looks out over the
+horizon for a valid enemy.  Wearing light leather armor, he maintains a patrol
+along the ramparts of Vingaard Keep.    
+~
+d 0 0 0 k 0 0 0 900
+18 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8315
+Valtan~
+Valtan, the bounty collector~
+Valtan, the bounty collector stands here sifting through a stack of papers.
+~
+He is short, with graying hair around his temples.  He is wearing a set of black leather armor emblazoned with the bounty hunter's guild seal and a sword strapped low upon his waist.
+~
+abdnoA 0 0 0 k 0 0 0 0
+60 -10 -50 720d100+100 1d8+30
+0 0 41 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

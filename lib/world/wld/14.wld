@@ -1,0 +1,1722 @@
+#1400
+A Dirt Path~
+   This is a dirt paved path.  The ground is worn smooth from the treading of
+many feet.  A few pebbles are pushed into the ground near the middle.  The path
+leads to a small encampment to the west and continues to the south as well.  
+~
+14 0 0 0 0 10
+D1
+~
+~
+0 0 50110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1401 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1401
+A Dirt Path~
+   This is a dirt paved path.  The ground is worn smooth from the treading of
+many feet.  A few pebbles are pushed into the ground near the middle.  The path
+leads to a small encampment to the west and continues to the south as well.  
+~
+14 0 0 0 0 10
+D1
+~
+~
+0 0 1400 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1402 0 0 0 0 0 0 0 0
+S
+#1402
+A Dirt Path~
+   This is a dirt paved path.  The ground is worn smooth from the treading of
+many feet.  A few pebbles are pushed into the ground near the middle.  The path
+leads to a small encampment to the west and continues to the south as well.  
+~
+14 0 0 0 0 10
+D1
+~
+~
+0 0 1401 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1403 0 0 0 0 0 0 0 0
+S
+#1403
+A Dirt Path~
+   This is a dirt paved path.  The ground is worn smooth from the treading of
+many feet.  A few pebbles are pushed into the ground near the middle.  The path
+leads to a small encampment to the west and continues to the south as well.  
+~
+14 0 0 0 0 10
+D3
+~
+~
+0 0 1404 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1402 0 0 0 0 0 0 0 0
+S
+#1404
+Before a Orcish Raiding Camp~
+   The dirt path comes to an end at a large pallisade gate of wooden logs.  The
+gate stands about ten feet high and is reinforced with iron bands.  To the north
+and south are twin guard rooms, each equipped with murder holes and a reinforced
+wooden door.  The camp to the west looks hastily-built and doesn't look like it
+could stand up to any well-intentioned seige very well.  
+~
+14 c 0 0 0 1
+D0
+~
+door wooden guard post~
+1 0 1405 22 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1403 0 0 0 0 0 0 0 0
+D2
+~
+door wooden guard post~
+1 0 1406 22 0 0 0 0 0 0 0
+D3
+~
+door pallisade~
+1 1400 1407 24 0 0 0 0 0 0 0
+S
+#1405
+A Orcish Raiding Camp Guard Post~
+   This small guard post is fitted with a tiny desk and stool as well as a small
+bunk.  There is a stack of bolts leaning against the western wall and murder
+holes perforate the other walls of the post.  The area smells of sweat and
+urine.  
+~
+14 0 0 0 0 0
+D2
+~
+door wooden guard post~
+1 0 1404 22 0 0 0 0 0 0 0
+S
+#1406
+A Orcish Raiding Camp Guard Post~
+   This small guard post is fitted with a tiny desk and stool as well as a small
+bunk.  There is a stack of bolts leaning against the western wall and murder
+holes perforate the other walls of the post.  The area smells of sweat and
+urine.  
+~
+14 0 0 0 0 0
+D0
+~
+door wooden guard post~
+1 0 1404 0 0 0 0 0 0 0 0
+S
+#1407
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1409 0 0 0 0 0 0 0 0
+D1
+~
+door pallisade~
+1 1400 1404 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1408 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1455 0 0 0 0 0 0 0 0
+S
+#1408
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1407 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1412 0 0 0 0 0 0 0 0
+S
+#1409
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1410 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1407 0 0 0 0 0 0 0 0
+S
+#1410
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1411 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1461 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1409 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1459 0 0 0 0 0 0 0 0
+S
+#1411
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1464 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1462 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1426 0 0 0 0 0 0 0 0
+S
+#1412
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1408 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1452 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1413 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1453 0 0 0 0 0 0 0 0
+S
+#1413
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1412 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1451 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1449 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1414 0 0 0 0 0 0 0 0
+S
+#1414
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D1
+~
+~
+0 0 1413 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1448 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1415 0 0 0 0 0 0 0 0
+S
+#1415
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D1
+~
+~
+0 0 1414 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1447 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1416 0 0 0 0 0 0 0 0
+S
+#1416
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D1
+~
+~
+0 0 1415 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1446 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+S
+#1417
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1477 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1416 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1445 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1418 0 0 0 0 0 0 0 0
+S
+#1418
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D1
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1444 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1419 0 0 0 0 0 0 0 0
+S
+#1419
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1420 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1418 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1443 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1441 0 0 0 0 0 0 0 0
+S
+#1420
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1421 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1474 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1419 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1440 0 0 0 0 0 0 0 0
+S
+#1421
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1420 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1439 0 0 0 0 0 0 0 0
+S
+#1422
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1421 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1438 0 0 0 0 0 0 0 0
+S
+#1423
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1424 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1472 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1422 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1437 0 0 0 0 0 0 0 0
+S
+#1424
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1425 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1423 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1436 0 0 0 0 0 0 0 0
+S
+#1425
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1433 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1424 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1434 0 0 0 0 0 0 0 0
+S
+#1426
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1465 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1411 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1427 0 0 0 0 0 0 0 0
+S
+#1427
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1466 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1426 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1428 0 0 0 0 0 0 0 0
+S
+#1428
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1467 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1427 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1470 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1429 0 0 0 0 0 0 0 0
+S
+#1429
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1468 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1428 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+S
+#1430
+A Path Through the Orcish Raiding Camp~
+   The orc raiding camp appears to be barely organised.  The walls are in no
+danger of falling over but neither do they look like they could withstand any
+serious assault for very long.  The ground is packed dirt with scattered stones
+to help keep the ground firm in rainy weather.  Buildings surround the path,
+built against the wall and against each other in a large complex of buildings
+and tents in the centre of the camp.  
+~
+14 0 0 0 0 1
+D0
+~
+~
+0 0 1432 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1429 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1431 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1425 0 0 0 0 0 0 0 0
+S
+#1431
+The Orcish Matron's Camp~
+   Here the orcish matron, whomever it may be at the time, makes their home.  
+Generally these women are trained as warriors along with the men, and are
+viscous creatures of their own right.  Though not beautiful by most humanoid
+standards, they are held in high esteem by the entire tribe, both for their
+orcish attractiveness and their power as partner of the chief.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1469 0 0 0 0 0 0 0 0
+S
+#1432
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1430 0 0 0 0 0 0 0 0
+S
+#1433
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1425 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1435 0 0 0 0 0 0 0 0
+S
+#1434
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1435 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1425 0 0 0 0 0 0 0 0
+S
+#1435
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1433 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1434 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1482 0 0 0 0 0 0 0 0
+S
+#1436
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1424 0 0 0 0 0 0 0 0
+S
+#1437
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1423 0 0 0 0 0 0 0 0
+S
+#1438
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1422 0 0 0 0 0 0 0 0
+S
+#1439
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1421 0 0 0 0 0 0 0 0
+S
+#1440
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1420 0 0 0 0 0 0 0 0
+S
+#1441
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1419 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1442 0 0 0 0 0 0 0 0
+S
+#1442
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1441 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1443 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1481 0 0 0 0 0 0 0 0
+S
+#1443
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1419 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1442 0 0 0 0 0 0 0 0
+S
+#1444
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1418 0 0 0 0 0 0 0 0
+S
+#1445
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+S
+#1446
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1416 0 0 0 0 0 0 0 0
+S
+#1447
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1415 0 0 0 0 0 0 0 0
+S
+#1448
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1414 0 0 0 0 0 0 0 0
+S
+#1449
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1413 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1450 0 0 0 0 0 0 0 0
+S
+#1450
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1451 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1449 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1480 0 0 0 0 0 0 0 0
+S
+#1451
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1450 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1413 0 0 0 0 0 0 0 0
+S
+#1452
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D3
+~
+~
+0 0 1412 0 0 0 0 0 0 0 0
+S
+#1453
+An Orcish Raiding Camp Barracks~
+   This barracks is a complete mess, with bones from food scattered all over the
+floor, and old straw from the thin mattresses covering the dirt floor.  A rack
+of spears and short swords leans against the wall and aside from that the area
+looks devoid of furnishings.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1454 0 0 0 0 0 0 0 0
+S
+#1454
+An Orcish Raiding Camp Barracks~
+   This barracks is a complete mess, with bones from food scattered all over the
+floor, and old straw from the thin mattresses covering the dirt floor.  A rack
+of spears and short swords leans against the wall and aside from that the area
+looks devoid of furnishings.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1489 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1453 0 0 0 0 0 0 0 0
+S
+#1455
+A Shrine to Gruumsh~
+   This large wooden building serves as the orc's shrine to Gruumsh, their chief
+god to whom they are undyingly loyal.  Normally only shamans are allowed in here
+along with the chief, though occasionally powerful warriors are allowed within
+to receive Gruumsh's blessing.  The area is decorated with the bones of the
+orcs' victims and is heavy with the smell of incense.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1457 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1407 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1456 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1458 0 0 0 0 0 0 0 0
+S
+#1456
+A Shrine to Gruumsh~
+   This large wooden building serves as the orc's shrine to Gruumsh, their chief
+god to whom they are undyingly loyal.  Normally only shamans are allowed in here
+along with the chief, though occasionally powerful warriors are allowed within
+to receive Gruumsh's blessing.  The area is decorated with the bones of the
+orcs' victims and is heavy with the smell of incense.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1455 0 0 0 0 0 0 0 0
+S
+#1457
+A Shrine to Gruumsh~
+   This large wooden building serves as the orc's shrine to Gruumsh, their chief
+god to whom they are undyingly loyal.  Normally only shamans are allowed in here
+along with the chief, though occasionally powerful warriors are allowed within
+to receive Gruumsh's blessing.  The area is decorated with the bones of the
+orcs' victims and is heavy with the smell of incense.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1455 0 0 0 0 0 0 0 0
+S
+#1458
+A Shrine to Gruumsh~
+   This large wooden building serves as the orc's shrine to Gruumsh, their chief
+god to whom they are undyingly loyal.  Normally only shamans are allowed in here
+along with the chief, though occasionally powerful warriors are allowed within
+to receive Gruumsh's blessing.  The area is decorated with the bones of the
+orcs' victims and is heavy with the smell of incense.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1455 0 0 0 0 0 0 0 0
+S
+#1459
+An Orcish Raiding Camp Barracks~
+   This barracks is a complete mess, with bones from food scattered all over the
+floor, and old straw from the thin mattresses covering the dirt floor.  A rack
+of spears and short swords leans against the wall and aside from that the area
+looks devoid of furnishings.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1460 0 0 0 0 0 0 0 0
+S
+#1460
+An Orcish Raiding Camp Barracks~
+   This barracks is a complete mess, with bones from food scattered all over the
+floor, and old straw from the thin mattresses covering the dirt floor.  A rack
+of spears and short swords leans against the wall and aside from that the area
+looks devoid of furnishings.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1459 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1488 0 0 0 0 0 0 0 0
+S
+#1461
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D3
+~
+~
+0 0 1410 0 0 0 0 0 0 0 0
+S
+#1462
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1463 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1411 0 0 0 0 0 0 0 0
+S
+#1463
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1462 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1464 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1479 0 0 0 0 0 0 0 0
+S
+#1464
+An Orcish Raiding Camp Guard Tower~
+   This guard tower is made of wooden beams, cris-crossing their way upwards to
+a platform at the top.  A thin wall of wooden beams keeps would be intruders out
+and murder holes have been drilled through the logs at regular intervals.  
+Racks of bolts sit on shelves and a few heavy crossbows are bolted to stands
+pounded into the ground beside the murder holes.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1463 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1411 0 0 0 0 0 0 0 0
+S
+#1465
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1426 0 0 0 0 0 0 0 0
+S
+#1466
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1427 0 0 0 0 0 0 0 0
+S
+#1467
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1428 0 0 0 0 0 0 0 0
+S
+#1468
+An Orc's Dwelling~
+   This tent serves as the dwelling place for an orc family.  Messy and Smelling
+of Garbage and urine, it is certainly not fit for any civilized creature.  
+Wooden swords and blunt-tipped spears serve as children's toys as young orcs are
+taught to kill from childhood.  A totem to Gruumsh stands in the centre of the
+tent proving the fanatacism the orcs have to their chief god.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1429 0 0 0 0 0 0 0 0
+S
+#1469
+The Orcish Matron's Camp~
+   Here the orcish matron, whomever it may be at the time, makes their home.  
+Generally these women are trained as warriors along with the men, and are
+viscous creatures of their own right.  Though not beautiful by most humanoid
+standards, they are held in high esteem by the entire tribe, both for their
+orcish attractiveness and their power as partner of the chief.  
+~
+14 cd 0 0 0 0
+D3
+~
+~
+0 0 1431 0 0 0 0 0 0 0 0
+S
+#1470
+The Orcish Warmaster's Tent~
+   Here the orcish war master makes his home.  The war master leads the tribe in
+its war efforts and is responsable for the training and discipline of the orcs
+in the camp.  Usually the second strongest orc in the camp, second only to the
+chief, he is held in great esteem and highly feared by other orcs.  It is not
+uncommon for him to regularly kill other orcs out of savagery or to make an
+example over any tiny slight against him or the other tribal leaders.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1428 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1471 0 0 0 0 0 0 0 0
+S
+#1471
+The Orcish Warmaster's Tent~
+   Here the orcish war master makes his home.  The war master leads the tribe in
+its war efforts and is responsable for the training and discipline of the orcs
+in the camp.  Usually the second strongest orc in the camp, second only to the
+chief, he is held in great esteem and highly feared by other orcs.  It is not
+uncommon for him to regularly kill other orcs out of savagery or to make an
+example over any tiny slight against him or the other tribal leaders.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1470 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1487 0 0 0 0 0 0 0 0
+S
+#1472
+A Path to the Orcish Training Grounds~
+   THis path weaves through the tents set up within the pallisade walls of the
+camp to a central area where orcs practice their combat techniques and train
+against each other for future battles and the glory of Gruumsh.  There is no
+vegetation here except a few weeds, and the ground is a little slick with ice
+from the high reaches of the spine of the world.  
+~
+14 c 0 0 0 0
+D1
+~
+~
+0 0 1483 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1423 0 0 0 0 0 0 0 0
+S
+#1473
+Commander's Quarters~
+This room look less damaged than most around the area. It is sparcely furnished but it has a nice rug and a comfortable looking chair and desk. Maps and papers are littered all over the desk with drawings on them. A lit pipe is resting on a rock that serves as a base for it. 
+~
+14 0 0 0 0 0
+D1
+~
+~
+0 0 1490 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1474
+The Orc Chief's Tent~
+   This is the most heavily furnished and luxurious building in the entire camp,
+as it houses the orc tribe's chief.  Furniture no doubt stolen from passing
+caravans has been placed here, much of it of high quality.  There are even some
+paintings standing on easels and a large tapestry hanging from the wooden
+support beams above.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1475 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1420 0 0 0 0 0 0 0 0
+S
+#1475
+The Orc Chief's Tent~
+   This is the most heavily furnished and luxurious building in the entire camp,
+as it houses the orc tribe's chief.  Furniture no doubt stolen from passing
+caravans has been placed here, much of it of high quality.  There are even some
+paintings standing on easels and a large tapestry hanging from the wooden
+support beams above.  
+~
+14 cd 0 0 0 0
+D0
+~
+~
+0 0 1476 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1474 0 0 0 0 0 0 0 0
+S
+#1476
+The Orc Chief's Tent~
+   This is the most heavily furnished and luxurious building in the entire camp,
+as it houses the orc tribe's chief.  Furniture no doubt stolen from passing
+caravans has been placed here, much of it of high quality.  There are even some
+paintings standing on easels and a large tapestry hanging from the wooden
+support beams above.  
+~
+14 cd 0 0 0 0
+D2
+~
+~
+0 0 1475 0 0 0 0 0 0 0 0
+S
+#1477
+The High Priest of Gruumsh's Tent~
+   Second only to the tribe's chief, here the orcish high priest of Gruumsh
+makes his home.  The tent is covered with all manner of strange objects and
+preserved body parts of various creatures, large and tiny.  A large alter
+dominates the eastern end of the room, with the western end serving as a living
+and sleeping area.  A long rug covered in pillows has been placed here both for
+the high priest's communions with other shamans and for his undoubted pleasure
+with the females of the tribe.  
+~
+14 cd 0 0 0 0
+D1
+~
+~
+0 0 1478 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+S
+#1478
+The High Priest of Gruumsh's Tent~
+   Second only to the tribe's chief, here the orcish high priest of Gruumsh
+makes his home.  The tent is covered with all manner of strange objects and
+preserved body parts of various creatures, large and tiny.  A large alter
+dominates the eastern end of the room, with the western end serving as a living
+and sleeping area.  A long rug covered in pillows has been placed here both for
+the high priest's communions with other shamans and for his undoubted pleasure
+with the females of the tribe.  
+~
+14 cd 0 0 0 0
+D3
+~
+~
+0 0 1477 0 0 0 0 0 0 0 0
+S
+#1479
+Atop an Orcish Watch Tower~
+   The top of this watch tower is a platform of wooden logs strapped and nailed
+together.  A chest-high wall surrounds the tower, allowing archers and
+crossbowmen to fire down on targets below.  There is an eagle's nest further
+above where a single person could act as a lookout only, and a crude telescope
+can be see above, likely stolen from some caravan the orcs raided.  
+~
+14 0 0 0 0 0
+D5
+~
+~
+0 0 1463 0 0 0 0 0 0 0 0
+S
+#1480
+Atop an Orcish Watch Tower~
+   The top of this watch tower is a platform of wooden logs strapped and nailed
+together.  A chest-high wall surrounds the tower, allowing archers and
+crossbowmen to fire down on targets below.  There is an eagle's nest further
+above where a single person could act as a lookout only, and a crude telescope
+can be see above, likely stolen from some caravan the orcs raided.  
+~
+14 0 0 0 0 0
+D5
+~
+~
+0 0 1450 0 0 0 0 0 0 0 0
+S
+#1481
+Atop an Orcish Watch Tower~
+   The top of this watch tower is a platform of wooden logs strapped and nailed
+together.  A chest-high wall surrounds the tower, allowing archers and
+crossbowmen to fire down on targets below.  There is an eagle's nest further
+above where a single person could act as a lookout only, and a crude telescope
+can be see above, likely stolen from some caravan the orcs raided.  
+~
+14 0 0 0 0 0
+D5
+~
+~
+0 0 1442 0 0 0 0 0 0 0 0
+S
+#1482
+Atop an Orcish Watch Tower~
+   The top of this watch tower is a platform of wooden logs strapped and nailed
+together.  A chest-high wall surrounds the tower, allowing archers and
+crossbowmen to fire down on targets below.  There is an eagle's nest further
+above where a single person could act as a lookout only, and a crude telescope
+can be see above, likely stolen from some caravan the orcs raided.  
+~
+14 0 0 0 0 0
+D5
+~
+~
+0 0 1435 0 0 0 0 0 0 0 0
+S
+#1483
+A Path to the Orcish Training Grounds~
+   THis path weaves through the tents set up within the pallisade walls of the
+camp to a central area where orcs practice their combat techniques and train
+against each other for future battles and the glory of Gruumsh.  There is no
+vegetation here except a few weeds, and the ground is a little slick with ice
+from the high reaches of the spine of the world.  
+~
+14 c 0 0 0 0
+D2
+~
+~
+0 0 1484 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1472 0 0 0 0 0 0 0 0
+S
+#1484
+Entrance to the training grounds~
+A fenceline made of the bones of dead adventurers lines this section of the orc
+camp.  Bloodied skulls top the posts.  All around crudely fashioned weapons and
+armor lie piled up, some of them filled with pools of blood.  The sound of
+grunting, and swords clashing echos all around.  
+~
+14 0 0 0 0 0
+D0
+~
+~
+0 0 1483 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1487 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1485 0 0 0 0 0 0 0 0
+S
+#1485
+Orc training camp~
+The ground here is sloppy and ridden with holes from the livestock running
+through here, defilig the ground with their filth.  A large campfire burns in
+the center of the area, bodies piled upon it, the acrid stench of burning
+rotting flesh fills the air.  
+~
+14 0 0 0 0 0
+D0
+~
+~
+0 0 1484 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1486 0 0 0 0 0 0 0 0
+S
+#1486
+Southern edge of the training grounds.~
+Orcs run about here, a barracks set far into the corner of the area, more of a
+mud hovel than anything.  A orc drill master stands shouting out orders to his
+soldiers.  The ring of steel on steel can be herd all about you.  
+~
+14 0 0 0 0 0
+D0
+~
+~
+0 0 1487 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1489 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1485 0 0 0 0 0 0 0 0
+S
+#1487
+Center of the Orc training grounds~
+Dead bodies of animals and grotesque misshappen humans are staked up to poles
+and fences.  Their bodies cut to pieces, a pile of used targets lies off to the
+side.  Dogs sit around the pile feeding on them.  The sounds of fighting can be
+herd all about, this place marks the center of the training camp.  
+~
+14 0 0 0 0 0
+D0
+~
+~
+0 0 1471 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1486 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1484 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1488 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1489 0 0 0 0 0 0 0 0
+S
+#1488
+A Path to the Orcish Training Grounds~
+   THis path weaves through the tents set up within the pallisade walls of the
+camp to a central area where orcs practice their combat techniques and train
+against each other for future battles and the glory of Gruumsh.  There is no
+vegetation here except a few weeds, and the ground is a little slick with ice
+from the high reaches of the spine of the world.  
+~
+14 c 0 0 0 0
+D0
+~
+~
+0 0 1460 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1487 0 0 0 0 0 0 0 0
+S
+#1489
+A Path to the Orcish Training Grounds~
+   THis path weaves through the tents set up within the pallisade walls of the
+camp to a central area where orcs practice their combat techniques and train
+against each other for future battles and the glory of Gruumsh.  There is no
+vegetation here except a few weeds, and the ground is a little slick with ice
+from the high reaches of the spine of the world.  
+~
+14 c 0 0 0 0
+D2
+~
+~
+0 0 1454 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1486 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1487 0 0 0 0 0 0 0 0
+S
+#1490
+Guard Outpost~
+A rough outpost that seems to have been attacked and changed hands many times. The walls have scorch marks and gauges everywhere and there are few windows that have not been borded and nailed shut. Inside there is few furniture that has not been broken or used as a barricade.  The guards in this place look weary and distrustful of strangers.
+~
+14 d 0 0 0 0
+D1
+~
+~
+0 0 50116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1473 0 0 0 0 0 0 0 0
+S
+$~

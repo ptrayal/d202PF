@@ -1,0 +1,124 @@
+#7
+None.~
+Marsh Temple (Hiddukel)~
+700 799 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0   701     1   730   1   100     0    -1          0 a massive alligator
+
+E 1   701     5     5   0    30     1     0          0 the decrepit hide of an antiquated beast
+
+M 0   709     1   767   1   100     2    -1          0 a pale, holy apparition
+
+E 1   709     3    13   0    50     3     2          0 the semi-transparent wrap of a wandering soul
+
+M 0   704     1   797 100  2002     4     2          0 a beastial troll
+
+M 0  2002     2   792   1   100     5    -1          0 a beastial troll
+
+M 0   713     5   781   5   100     6    -1          0 a humanoid covered in dripping mud
+
+M 0   703     5   781   1   100     7    -1          0 a small black mosquito
+
+M 0   704     7   791   7   100     8    -1          0 a beastial troll
+
+M 0   703     5   791   1   100     9    -1          0 a small black mosquito
+
+M 0   713     5   789   5   100    10    -1          0 a humanoid covered in dripping mud
+
+M 0   703     5   789   1   100    11    -1          0 a small black mosquito
+
+M 0   715     6   757   1   100    12    -1          0 a beautiful statue formed into the shape of a goddess
+
+E 1   713     2     3   0     5    13    12          0 an earring set with a polished blue stone
+
+M 0   711     1   757   6   100    14    -1          0 an angered marsh snake
+
+O 0  2007     7   757   0   100    15    -1          0 a pile of ceiling rubble
+
+O 0  2007     7   757   0   100    16    -1          0 a pile of ceiling rubble
+
+O 0  2007     7   761   0   100    17    -1          0 a pile of ceiling rubble
+
+O 0  2007     7   749   0   100    18    -1          0 a pile of ceiling rubble
+
+D 0   766     5     2   0   101    19    -10 
+
+M 0   711     6   766   6   100    20    -1          0 an angered marsh snake
+
+M 0   711     1   766   6   100    21    -1          0 an angered marsh snake
+
+O 0  2007     7   766   0   100    22    -1          0 a pile of ceiling rubble
+
+O 0  2007     7   775   0   100    23    -1          0 a pile of ceiling rubble
+
+O 0  2007     7   779   0   100    24    -1          0 a pile of ceiling rubble
+
+M 0   710     1   712   1   100    25    -1          0 a crazed soul, lost in the marsh
+
+E 1   711    20    17   0    75    26    25          0 a jagged wood plank
+
+M 0   711     1   742   6   100    27    -1          0 an angered marsh snake
+
+M 0   711     1   743   6   100    28    -1          0 an angered marsh snake
+
+M 0   711     6   773   6   100    29    -1          0 an angered marsh snake
+
+M 0   711     6   773   1   100    30    -1          0 an angered marsh snake
+
+M 0   711     1   773   6   100    31    -1          0 an angered marsh snake
+
+M 0   711     6   770   1   100    32    -1          0 an angered marsh snake
+
+M 0   711     1   770   6   100    33    -1          0 an angered marsh snake
+
+M 0   712     1   714   1   100    34    -1          0 a will o' the wisp
+
+G 1   716     1     0   0     2    35    34          0 the tail of the will o' the wisp
+
+G 1   717     5     0   0    25    36    34          0 a pair of knee-high black leather boots
+
+G 1   715     5     0   0    15    37    34          0 a silver bladed dagger with a wyvern hilt
+
+G 1   714    10     0   0    25    38    34          0 a green colored tunic
+
+M 0   704     7   784   7   100    39    -1          0 a beastial troll
+
+M 0   704     7   786   7   100    40    -1          0 a beastial troll
+
+M 0   704     7   788   7   100    41    -1          0 a beastial troll
+
+M 0   704     7   785   7   100    42    -1          0 a beastial troll
+
+M 0   714     2   704   1   100    43    -1          0 a dark, grim looking bird of prey
+
+E 1   712    10    17   0    75    44    43          0 a black talon
+
+M 0   713     5   783   5   100    45    -1          0 a humanoid covered in dripping mud
+
+M 0   715     6   753   1   100    46    -1          0 a beautiful statue formed into the shape of a goddess
+
+E 1   713     2     3   0     5    47    46          0 an earring set with a polished blue stone
+
+M 0   715     6   769   1   100    48    -1          0 a beautiful statue formed into the shape of a goddess
+
+E 1   713     2     3   0     5    49    48          0 an earring set with a polished blue stone
+
+M 0   715     6   764   1   100    50    -1          0 a beautiful statue formed into the shape of a goddess
+
+E 1   713     2     3   0     5    51    50          0 an earring set with a polished blue stone
+
+M 0   715     6   762   1   100    52    -1          0 a beautiful statue formed into the shape of a goddess
+
+E 1   713     2     3   0     5    53    52          0 an earring set with a polished blue stone
+
+M 0   715     6   776   1   100    54    -1          0 a beautiful statue formed into the shape of a goddess
+
+E 1   713     2     3   0     5    55    54          0 an earring set with a polished blue stone
+
+D 0   711     4     2   0   101    56    -10 
+
+S
+$

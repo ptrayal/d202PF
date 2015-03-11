@@ -1,0 +1,73 @@
+#50500
+Waterdeep~
+an invis mob named Waterdeep~
+An invis mob named Waterdeep is here.
+~
+It looks unfinished.
+~
+bdnoA 0 0 0 bk 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 27
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#50501
+Neverwinter~
+an invis mob named Neverwinter~
+An invis mob named Neverwinter is here.
+~
+It looks unfinished.
+~
+bdnoA 0 0 0 bk 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 27
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#50502
+Luskan Luskansouth~
+an invis mob named Luskan~
+An invis mob named Luskan is here.
+~
+It looks unfinished.
+~
+bdnoA 0 0 0 bk 0 0 0 0
+60 -10 -62 1920d100+100 1d8+30
+0 0 0 27
+8 8 0
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 31
+E
+Cha: 10
+S
+$

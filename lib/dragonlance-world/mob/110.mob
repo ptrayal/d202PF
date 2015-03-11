@@ -1,0 +1,997 @@
+#11000
+wyvern ancient gargantuous~
+an ancient, gargantuous wyvern~
+Lurking about ferociously is an ancient, gargantuous wyvern.
+~
+   This ancient wyvern glares at you with beedy red eyes.  He is fearless, and
+ready to make you regret disturbing his silence.    
+~
+d 0 0 0 k 0 0 0 -500
+30 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11001
+aged wizened wyvern~
+an aged, wizened wyvern~
+Bellowing a screech that trembles the ground, an aged, wizened wyvern approaches.
+~
+   As you examine this wyvern it releases a terrifying bone chilling shreak
+that echoes throughout the whole cavern.  Thrashing its claws together wildly,
+this wyvern advances toward you with a deadly silence.    
+~
+d 0 0 0 k 0 0 0 -1000
+28 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11002
+ferocious, deranged wyvern~
+a ferocious, deranged wyvern~
+Flapping his wings loudly, here stands a ferocious, deranged wyvern.
+~
+   Before you can even begin to study this wyverns features, he clambers up and
+races toward you with amazing speed.  Being as slient as the darkness, the
+fearless creature strikes at you!    
+~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This poor man has apparently lost his mind.  He stands here staring off into
+#11004
+wyvern astounding proportions~
+a wyvern of astounding proportions~
+A wyvern of astounding proportions stands here, gracefully flapping its wings.
+~
+   This wyvern is abnormally large and musclebound.  Its leathery skin provides
+it with protection that even the sharpest of blades would find difficult to
+pierce.  Squinting black eyes peer out directly at you.  With a hiss, the
+creature steps forth.    
+~
+d 0 0 0 k 0 0 0 -1000
+30 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11006
+wyvern leathery brown scales~
+a wyvern with leathery brown scales~
+A wyvern digs its talons deep into the ground as you approach.
+~
+   As you examine this wyvern it releases a terrifying bone chilling shreak
+that echoes throughout the whole cavern.  Thrashing its claws together wildly,
+this wyvern advances toward you with a deadly silence.    
+~
+d 0 0 0 k 0 0 0 -1000
+25 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11007
+guard wyvern staunch member~
+a snarling red wyvern~
+Curiously watching you is a snarling red wyvern.
+~
+   A rather large red wyvern searches his surroundings for any food source he
+may find.  As you near the dark-eyed wyvern, he callously snorts and gnashes
+his teeth together anticipating your next move.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11008
+jade wyvern large~
+a large, jade hided wyvern~
+A powerful jade hided wyvern slowly makes his way through the tunnels.
+~
+   This large jade hided wyvern appears to be drudging on through these tunnels
+in search of predators and prey alike.  It makes low grumbling and snorting
+noises as it slowly continues down the path.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11009
+grizzly dwarven patron~
+a grizzly, dwarven patron~
+A grizzly dwarven patron smiles as he gulps down his spirits with one drink.
+~
+   This jovial, grizzly dwarf seems to be having a good time drinking his
+spirits and talking with his friends.  He is oblivious to most anything around
+him, other than the barmaid, which he has to keep a close eye on to call
+another drink.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11010
+tanned weathered half-elf~
+a tanned and weathered half-elf~
+A tanned and weathered half-elf sits here staring into his mug of ale.
+~
+   This half-elf looks a bit weary, perhaps tired.  His boots are damp with mud
+and muck, and his hair is somewhat tangled and dirty.  An empty plate sits
+beside him, and he is slowly finishing off a foamy mug of ale.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11011
+somber rotund barkeep~
+a somber, rotund barkeep~
+A somber, rotund barkeep stands here wearily pouring drinks and counting coins.
+~
+   This barkeep stands here pouring mugs of ale, glasses of wine, and various
+other things.  The barmaids continually come up to fill up their trays as he
+works diligently to keep his customers happy.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11012
+homely red haired barmaid~
+a homely, red-haired barmaid~
+A homely, red-haired barmaid makes her way through the crowd collecting mugs.
+~
+   Ugly to the normal eye, this young barmaid is walking through the crowd
+collecting empty mugs, and serving drinks to those who want more.  None of the
+people in the tavern seem to regard her with anything more than a smile.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11013
+beautiful dark haired barmaid~
+a beautiful, dark-haired barmaid~
+A beautiful, dark-haired barmaid fills mugs with ale and replaces empty wine glasses.
+~
+   This barmaid is absolutely beautiful.  She seems to be the prettiest thing
+to look at in the tavern.  Many a young man stares at her with their mouth
+gaped in awe, while others try and hide their fascination with her, glancing at
+her only when her back is turned.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11014
+lithe blonde haired barmaid~
+a lithe, blonde haired barmaid~
+A lithe, blonde haired barmaid stands patiently taking orders from customers.
+~
+   This lovely barmaid is taking orders from the customers, being very friendly
+with them all.  She goes around to each and every table, checking with each
+person as an individual making sure their stay is one that will be enjoyed.  
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11015
+weary cloaked traveler~
+a weary, cloaked traveler~
+A weary, cloaked traveler sits here drinking a glass of sweet elven wine.
+~
+   This man looks rather gruff and wizened.  His skin is darkly tanned and
+weathered by the elements.  He wears a heavy travelers cloak, in an effort to
+protect himself from the wrath of nature.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11016
+black skinned human warrior~
+a black skinned human warrior~
+A black skinned human warrior drinks his spirits waiting on his soup to cool.
+~
+   This muscular warrior wears various tattoos of tribal art around his arms
+and neck that are barely visible on his black skin.  Large scars can be seen on
+his chest from old battle wounds.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11017
+rotund jovial dwarf~
+a rotund, jovial dwarf~
+A rotund, jovial dwarf laughs loudly while gulping down his dwarven spirits.
+~
+   This jovial dwarf is having the time of his life, drinking his staggering
+dwarf spirits by the mouthful, and chatting away with some of his old friends.
+He is constantly calling for another mug of spirits.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11018
+frowning dwarf braided beard~
+a frowning dwarf wearing a braided beard~
+A frowning dwarf sits here stroking his long braided beard listening quietly.
+~
+   This frowning, bearded dwarf sits here quietly listening to the
+conversations of his comrades.  He drinks from a flask that he carries in his
+own pocket, apparently tiring of all of the talk.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11019
+solemn half elf somber~
+a solemn, somber half-elf~
+This somber, solemn half-elf sits here sipping quietly on a glass of wine.
+~
+   This half-elf has a sullen, saddened expression on his face.  He sips slowly
+on a glass of elvenblossom wine, and occasionally takes a bite of the tavern's
+famous potato soup.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11020
+venerable old man~
+a venerable, old man with a staff~
+A venerable old man with a staff sits here mumbling something about better times.
+~
+   This old mans face creases in a frown as he sits here recollecting on better
+times.  He drinks a mug of ale, wincing at the taste of it, calling for a
+tarbean tea.  He fiddles with his staff unconciously as he talks.    
+~
+d 0 0 0 k 0 0 0 600
+16 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11021
+off duty off-duty militia tired~
+a tired, off-duty militia guard~
+A tired, off-duty militia guard sits here with a wry smile on his face sipping ale.
+~
+   A tired look on his face, this off-duty militia guard sits here sipping on
+his ale watching all of the tavern's patrons come and go.  He smiles a wry
+smile, while casting a glance at one of the barmaids.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11022
+gully dwarf smelly~
+a smelly gully dwarf~
+A smelly gully dwarf is here licking up some spilled ale, disgusting everyone.
+~
+   This disgusting little gully dwarf is licking up spilled ale, along with
+muck and mud off of incoming customers boots and sandals.  He looks to very
+content, almost reveling in his work.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11023
+burly sweating cook~
+a burly, sweating cook~
+A burly, sweating cook is here slaving over the warm pots making many meals.
+~
+   This burly, sweating cook is hard at work trying to make various different
+dishes as fast as he can.  The barmaids keep coming in, reminding him that the
+customers are waiting for their food, but he just grouchily waves them off,
+stirring the pots wearily.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11024
+robed qualinesti elf~
+a robed, qualinesti elf~
+A robed, qualinesti elf sits here quietly sipping his glass of wine.
+~
+   This qualinesti elf sits here quietly sipping on his glass of wine, not
+paying much attention to anything going on in the bar - other than the rowdy
+dwarves across the room from him.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11025
+sagacious qualinesti elf~
+a sagacious, qualinesti elf~
+A sagacious, qualinesti elf sits here drinking from a bottle of elvenblossom wine.
+~
+   This sagacious, qualinesti elf doesn't appear to be concerned with much of
+what is going on in the tavern.  He's simply resting his legs, drinking some
+elven wine.  The barmaids seem to like him, he tips nicely.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11026
+rugged gruff barbarian~
+a rugged, gruff barbarian~
+A rugged, gruff barbarian sits here drinking dwarven spirits endlessly.
+~
+   This rugged, gruff barbarian sits here drinking dwarven spirits continually.
+He has his whole body painted with a midnight blue paint, and many strange
+designs have been drawn onto his face with a yellow paint giving him a very
+intimidating appearance.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11027
+painted fearless barbarian~
+a fearless, painted barbarian~
+A fearless, painted barbarian sits here with a gruff look crossing his face.
+~
+   This gruff barbarian warrior is painted blue, with many ceremonial yellow
+paint markings upon his face.  He is musclebound, and very intimidating.  He
+drinks his ale, not saying much of anything.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11028
+kender inebriated furrowed~
+a furrowed, inebriated kender~
+A furrowed, inebriated kender sits here staring around the tavern wildly.
+~
+   This kender has drank himself into a drunken stupor.  He stares around the
+tavern looking at everything with a piercing interest.  He continually finds
+things in his own knapsack, returning them there saying, 'Oops, must have
+dropped that, I should be more careful!  '
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11029
+smiling freckled kender~
+a smiling, freckled kender~
+A smiling, freckled kender sits here giggling at his drunken friend.
+~
+   This kender is seeming to be endlessly amused by his friends drunken
+behavior.  He constantly laughs at every action made by the other.  Tears are
+streaming down his face from the hilarious event.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11030
+black skinned maiden~
+a pleasant, black skinned maiden~
+A pleasant, black skinned maiden sips on her wine with dignity.
+~
+   This beautiful black skinned maiden sits here sipping on her wine watching
+all of the incoming patrons, and the ones who are leaving.  She sits quietly,
+careful not to disturb anyone.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11031
+armored human soldier~
+an armored, human soldier~
+An armored, human soldier sits here drinking his ale watching the patrons.
+~
+   This armored, human soldier sits here drinking his ale watching everyone in
+the tavern.  He seems to be a bit bored with the happenings, but not very
+willing to spark up a conversation.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11032
+rowdy vulgar dwarf~
+a rowdy, vulgar dwarf~
+A rowdy, vulgar dwarf sits here cursing and swearing his way into the Abyss.
+~
+   This drunken dwarf curses and swears so loudly and vulgarly that it would
+make the Dark Queen blush.  He keeps waving his hand back and forth, sloshing
+dwarven spirits on the floor.    
+~
+d 0 0 0 k 0 0 0 -200
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11033
+loathesome tired man~
+a loathesome, tired man~
+A loathesome, tired man sits here drinking his ale enjoying the evening.
+~
+   This loathesome, tired man sits here in a comfortable chair enjoying his
+evening.  He drinks his ale, and exchanges dirty looks with some of the rowdy
+dwarves that are trying to stir up a commotion.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11034
+burly strong warrior~
+a burly, strong warrior~
+A burly, strong warrior sits here gulping down a mug of dwarven spirits.
+~
+   This burly, strong man sits here gulping down a mug of dwarven spirits.  He
+wipes his mouth after each drink, smiling a slight, sardonic smile.  He keeps
+an eye on the dwarves in the corner, waiting for them to start trouble.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11035
+relaxed young gentleman~
+a relaxed, young gentleman~
+A relaxed young gentleman sits here upon a fine velvet chair.
+~
+   This young gentleman seems to be enjoying his time in the lounge, sitting
+here upon one of the nicest chairs in the room, sipping a glass of wine.  He
+leans his head back to stare at the paintings on the ceiling, smiling with
+pleasure.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11036
+stout veteran warrior~
+a stout, veteran warrior~
+A stout veteran warrior stands here explaining the scenes on the wall.
+~
+   This veteran soldier stands here pointing to the mosaics painted on the wall
+and explains them - in depth - to anyone who will listen.  He seems to be
+enjoying this greatly, and is very long winded.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11037
+young squire azurite eyes~
+a young squire with azurite eyes~
+A young squire stands here staring at the mosaics through azurite eyes.
+~
+   This deathly calm young squire stands here staring at the mosaics on the
+wall through his fascinating deep azurite eyes.  He listens intently to every
+word the veteran warrior tells him of the scenes depicted.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11038
+sleepy weary traveler~
+a sleepy, weary traveler~
+A sleepy, weary traveler drifts off into a comfortable sleep.
+~
+   This weary traveler has slipped into the comfortable bed to get some rest.
+He looks totally exhausted, even as sleeping.  He snores loudly, and tosses and
+turns during his dreams.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11039
+admiring young lady~
+an admiring young lady~
+An admiring young lady stands here observing the fascinating trophies.
+~
+   This beautiful maiden stands here admiring the various trophies that have
+been hung up on the wall.  She twirls her thick curly hair through her fingers
+as she observes each one of them.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

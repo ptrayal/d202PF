@@ -1,0 +1,154 @@
+#11001
+huge spider~
+a HUGE spider~
+A huge black spider scurries forward in anticipation.
+~
+Thick black plates of chiton cover the spider like plate mail.  Years of solitude on this island have made the spider quick and mean.  You notice a green substance dripping from its clicking fangs.
+~
+bdefE 0 0 0 fklr 0 n 0 -400
+35 9 -32 26600d450+1000 5d8+11
+0 0 18 6
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+#11002
+drow male fighter warrior~
+a male drow~
+A male drow in chainmail draws his swords.
+~
+A male drow fighter in chainmail and armed with dual longswords.
+~
+defgpwD 0 0 0 kr u 0 0 0
+33 9 -29 5544d330+1000 3d8+11
+1000 0 0 3
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11003
+gray spider~
+a large gray spider~
+A large gray spider clicks its mandibles in warning.
+~
+It looks unfinished.
+This spider is about the size of a small pony with thick, dry, leathery, gray skin.  Its multifaceted eyes watch your evey move.
+~
+bdemw 0 0 0 fklr 0 0 0 0
+30 10 -26 1260d300+120 2d8+10
+0 0 18 2
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 14
+E
+Dex: 23
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#11004
+undead drow monk~
+an undead drow monk~
+An undead drow wearing monk's robes awaits your move.
+~
+An undead drow with flowing white hair and moldering monks robes stands before you.  The stench of death flows off his form in waves.  His eyes are gone, but his eye sockes glow with a dark power.
+~
+delnprw 0 0 0 kzC bvx d 0 -500
+32 9 -28 1792d320+122 3d8+11
+0 0 58 4
+8 8 1
+E
+Str: 12
+E
+Dex: 16
+E
+Int: 12
+E
+Wis: 24
+E
+Con: 10
+E
+Cha: 12
+S
+#11005
+female drow priestess~
+a drow priestess~
+A female drow in black robes stands here.
+~
+A female drow with piercing lavender eyes and short white hair.  Her robes are of dark silk and covered with silver spiders.
+~
+djnprtwF 0 0 0 hknzC w mn 0 -400
+38 7 -35 27360d380+128 4d8+13
+125 0 58 1
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 12
+E
+Wis: 25
+E
+Con: 10
+E
+Cha: 12
+S
+#11006
+fish carnivorious~
+carnivorious fish~
+A pale eyeless fish with large teeth is swimming here.
+~
+In the centuries since these fish were swept underground they have lost the need for eyes but not for teeth.  This fish is a sickly pale white color, the pink lines of blood vessels visible through its skin.
+~
+bdfmu 0 0 0 fy B 0 0 0
+20 14 -14 1700d100+1000 1d12+6
+0 0 9 6
+5 5 0
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+$

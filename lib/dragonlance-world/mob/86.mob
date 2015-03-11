@@ -1,0 +1,59 @@
+#8600
+cat feral white blue eyes~
+a feral cat~
+A feral white cat with blue eyes stares and hisses.
+~
+   This cat looks to be descended from the well fed pets of elven youths.  But
+instead of sleak fur, mange has matted the white into balls of grey and its
+eyes flare as it opens its mouth to reveal razor sharp yellow fangs.    
+~
+d 0 0 0 k 0 0 0 -100
+1 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This poor girl has suffered too much in her young life and the signs of
+The tip of one ear is a
+This silver scaled runt of a draconian seems unaffected by the weather and
+This poor woman has been avoiding being captured by living off boiled snow
+#8607
+draconian sergeant bozak~
+the bozak draconian~
+A draconian sergeant licks the air with his black tongue.
+~
+   This massive bozak draconian looks comfortable as he rests nearby.  His
+black tongue tastes the air as he unconsciously runs his hand down his barbed
+spear head.    
+~
+d 0 0 0 k 0 0 0 -500
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The faerie dragon wings through the trees.
+This tiny snake-like lizard has large multicoloured wings like a butterfly
+$

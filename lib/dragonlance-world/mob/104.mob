@@ -1,0 +1,295 @@
+#10400
+half elven half-elven elven traveller young~
+a young, half-elven traveller~
+A young, half-elven man wearing a black cape quickly jumps out of sight.
+~
+   This young, half-elven traveller is wearing a black cape around his bearded
+neck.  His elven ears stick ever so slightly out of his wide copper crown.  
+His clothing is dusty and dirty.  He looks as if he has been travelling for a
+long time.    
+~
+d 0 0 0 k 0 0 0 900
+11 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10401
+whiny merchant~
+a whiny merchant~
+A whiny merchant is walking along the road complaining about his feet.
+~
+   A sense of arrogance and phony friendship surround this man.  He is dressed
+in common garb, nothing too fancy.  He's definately not poor though.  He is
+well fed and a little on the large side.  His head is slightly baldning and
+pudgy.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10402
+migrant peasant dirty~
+a migrant peasant~
+A dirty, migrant peasant is travelling with his family.
+~
+   This dirty peasant is a human male in his early fourties.  He is dressed in
+some torn trousers with a blue button up coat.  His head is balding due to the
+stresses of family life on the road.  On his back he carries with him what
+meager possessions he owns.    
+~
+d 0 0 0 k 0 0 0 900
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10403
+pot bellied dwarven~
+a pot-bellied dwarven mountaineer~
+A pot-bellied dwarven mountaineer is sitting here taking a rest.
+~
+   A middle aged dwarven male with a firey red head of curls stands before you.
+He has a fairly large pot-belly and thick muscular limbs.  He is sitting here
+eating a loaf of bread and some dried meats.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10404
+peasant woman migrant~
+a migrant peasant woman~
+A migrant peasant woman is walking with her head slumped over.
+~
+   Here stands a tired and worn human female in her early fourties.  Her hair
+is knotted and ill kept.  She is wearing a tattered, drab cloak.  Upon her back
+a large sack is strapped.  Her facial expressions mirror her burden of endless
+travel.    
+~
+d 0 0 0 k 0 0 0 900
+6 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10405
+frail little boy~
+a frail little boy~
+A frail, little boy drags his feet on the dusty ground while he walks.
+~
+   This frail little boy looks to be down in the dumps.  His face is dirty, his
+hair is dirty, his clothes are filthy.  As he's walking down the dusty road he
+drags his feet kicking up dust into the air.    
+~
+d 0 0 0 k 0 0 0 900
+4 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10406
+slim woman travelling~
+a slim woman in travelling clothes~
+A slim women adorned in tanned travelling atire walks the mountain path.
+~
+   This womans tanned leather atire and set of mountain climbing tools give the
+impression that she has spent quite a long time traversing quite a few mountain
+ranges in her time.  Her hair is firmly combed back into a ponytail so it does
+not distract her from the job at hand.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10407
+unfamiliar traveller man~
+an unfamiliar traveller~
+An unfamiliar man wearing a simple red cloak stops to admire the view.
+~
+   A simply made red cloak covers the majority of this mans body.  Beneath it,
+the flash of steel and the scent of strange herbs can be detected.  He stands
+here calmly, admiring the view with an unspoken respect.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10408
+screeching hawk~
+a screeching hawk~
+A screeching hawk circles above you as it makes a move to protect its nest.
+~
+   Screeching wildly at you as you near its nest, this hawk is not about to let
+anyone come close enough to its young to cause them harm.  Its screams increase
+in volume the closer you get.  Ruffled brown and black feathers line its sleek
+body, giving it quite a formidable appearance.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10409
+cunning brigand wiry~
+a cunning brigand~
+A wiry brigand steps out from an alcove and demands your money.
+~
+   This wiry, well-dressed brigand has stepped out from hiding in one of the
+numerous alcoves in the side of the mountains face.  He stands with a dagger in
+one hand, angrily demanding you give him all of your posessions.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10410
+lost traveller~
+a lost traveller~
+A lost traveller is here crawling on his knees through the storm.
+~
+   Crawling frantically on his knees, this blinded traveller tries to find his
+way out of the storm.  He calls out in help, begging if anyone can hear him and
+lead him to safety.  His shouts are muffled though by the winds, and he stands
+little hope of getting out alive.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

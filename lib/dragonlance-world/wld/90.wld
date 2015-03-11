@@ -1,0 +1,1622 @@
+#9000
+The Entrance to a Cave~
+   Standing at the entrance to a massive cave you notice a few signs of living
+creatures about the area.  Large footprints can be seen both walking towards
+the cave and away from it.  Carcasses can be see throughout the area, and more
+then one buzzard circles in the sky above you.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9001 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9057 0 0 0 0 0 0 0 0
+S
+#9001
+A Blocked Passage~
+   The cave ends abruptly here where a large boulder blocks passage into the
+deeper parts of the cave.  Upon further inspection there seems to be large
+footprints that lead directly into the northern wall, and the boulder seems
+much easier to move then could be expected.    
+~
+90 i h 0 0  0
+D0
+~
+boulder~
+1 0 9002 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9000 0 0 0 0 0 0 0 0
+S
+#9002
+Inside a Massive Hallway~
+   The hallway before you looks to have been carved from the cave from which
+you entered, massive granite pillars act as supports for the high inner dome.
+The hallway extends to the north and a smaller doorway leads to the northwest.
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9028 0 0 0 0 0 0 0 0
+D2
+~
+boulder~
+1 0 9001 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9003 0 0 0 0 0 0 0 0
+S
+#9003
+A New Looking Corridor~
+   Looking down this dark corridor you can see that it has been recently made.
+The granite walls are scratched and scarred from the picks and chisels that
+carved and shaped this passage.    
+~
+90 0 h 0 0  0
+D3
+~
+~
+0 0 9013 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9004 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9002 0 0 0 0 0 0 0 0
+S
+#9004
+A New Looking Corridor~
+   Looking down this dark corridor you can see that it has been recently made.
+The granite walls are scratched and scarred from the picks and chisels that
+carved and shaped this passage.    
+~
+90 0 h 0 0  0
+D6
+~
+~
+0 0 9005 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9003 0 0 0 0 0 0 0 0
+S
+#9005
+A New Looking Corridor~
+   Looking down this dark corridor you can see that it has been recently made.
+The granite walls are scratched and scarred from the picks and chisels that
+carved and shaped this passage.  To the west there is a wooden cell door. 
+~
+90 0 h 0 0  0
+D3
+~
+cell~
+1 0 9012 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9006 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9004 0 0 0 0 0 0 0 0
+S
+#9006
+A New Looking Corridor~
+   Looking down this dark corridor you can see that it has been recently made.
+The granite walls are scratched and scarred from the picks and chisels that
+carved and shaped this passage.  To the east there is a wooden cell door. 
+~
+90 0 h 0 0  0
+D1
+~
+cell~
+1 0 9010 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9007 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9005 0 0 0 0 0 0 0 0
+S
+#9007
+A New Looking Corridor~
+   Looking down this dark corridor you can see that it has been recently made.
+The granite walls are scratched and scarred from the picks and chisels that
+carved and shaped this passage.  To the west there is a wooden cell door. 
+~
+90 0 h 0 0  0
+D3
+~
+cell~
+1 0 9011 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9008 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9006 0 0 0 0 0 0 0 0
+S
+#9008
+A New Looking Corridor~
+   Looking down this dark corridor you can see that it has been recently made.
+The granite walls are scratched and scarred from the picks and chisels that
+carved and shaped this passage.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9009 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9007 0 0 0 0 0 0 0 0
+S
+#9009
+A New Looking Corridor~
+   Looking down this dark corridor it is obvious that it has been recently
+made.  The granite walls are scratched and scarred from the picks and chisels
+that carved and shaped this passage.  To the north a heavy ironwood door blocks
+any further passage.    
+~
+90 0 h 0 0  0
+D0
+~
+door~
+1 0 9027 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9008 0 0 0 0 0 0 0 0
+S
+#9010
+A Dark Cell~
+   This small dark cell seems to have been carved from the corridor from which
+you entered.  A small wooden chair sits at one corner of the room, while a pile
+of straw lies in the opposite corner.    
+~
+90 0 h 0 0  0
+D3
+~
+cell~
+1 0 9006 0 0 0 0 0 0 0 0
+S
+#9011
+A Dark Cell~
+   This small dark cell seems to have been carved from the corridor from which
+you entered.  A small wooden chair sits at one corner of the room, while a pile
+of straw lies in the opposite corner.    
+~
+90 0 h 0 0  0
+D1
+~
+cell~
+1 0 9007 0 0 0 0 0 0 0 0
+S
+#9012
+A Dark Cell~
+   This small dark cell seems to have been carved from the corridor from which
+you entered.  A small wooden chair sits at one corner of the room, while a pile
+of straw lies in the opposite corner.    
+~
+90 0 h 0 0  0
+D1
+~
+cell~
+1 0 9005 0 0 0 0 0 0 0 0
+S
+#9013
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9014 0 0 0 0 0 0 0 0
+S
+#9014
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9021 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9016 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9017 0 0 0 0 0 0 0 0
+S
+#9015
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9016 0 0 0 0 0 0 0 0
+S
+#9016
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9018 0 0 0 0 0 0 0 0
+S
+#9017
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9022 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9014 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9018 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9020 0 0 0 0 0 0 0 0
+S
+#9018
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9017 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9016 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9019 0 0 0 0 0 0 0 0
+S
+#9019
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9020 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9018 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9053 0 0 0 0 0 0 0 0
+S
+#9020
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9023 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9017 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9054 0 0 0 0 0 0 0 0
+S
+#9021
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D2
+~
+~
+0 0 9014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9022 0 0 0 0 0 0 0 0
+S
+#9022
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9017 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9023 0 0 0 0 0 0 0 0
+S
+#9023
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9022 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9020 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9055 0 0 0 0 0 0 0 0
+S
+#9024
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9020 0 0 0 0 0 0 0 0
+S
+#9025
+Inside a Large Mess Hall~
+   Massive stone columns line the outer walls of this oddly shaped room.  
+Murals cover the polished granite walls, and animal furs line the bases of the
+walls.  A large oakwood table sits in the center of the room surrounded by
+massive oakwood chairs.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9009 0 0 0 0 0 0 0 0
+S
+#9026
+Inside a Large Mess Hall~
+   Massive stone columns line the outer walls of this oddly shaped room.  
+Murals cover the polished granite walls, and animal furs line the bases of the
+walls.  A large oakwood table sits in the center of the room surrounded by
+massive oakwood chairs.    
+~
+90 0 h 0 0  0
+D3
+~
+door~
+1 0 9009 0 0 0 0 0 0 0 0
+S
+#9027
+The Captains Chamber~
+   Upon entering you notice this room is much larger and nicer then the other
+rooms down the corridor.  Animal furs line the base of the walls, and large
+murals cover the walls and ceilings.  In the center of the rooms sits a large
+solid oak chair covered in intricate carvings.    
+~
+90 0 h 0 0  0
+D2
+~
+door~
+1 0 9009 0 0 0 0 0 0 0 0
+S
+#9028
+Inside a Massive Hallway~
+  The hallway before you looks to have been carved from the cave from which
+you entered, granite pillers stand twenty feet high supporting the domelike
+structure above you.  Intricate murals have been painted on the western wall
+depicting a large two-headed giant fighting with an elven warrior. 
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9029 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9002 0 0 0 0 0 0 0 0
+S
+#9029
+Inside a Massive Hallway~
+   The hallway extends farther to the north where it disappears into the
+shadows.  To the east and west there are doors made from solid vallenwood,
+carved into each door is a crudely made picture of a bed.  The air here is
+stale and dry, making it most difficult to breathe.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9030 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9032 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9028 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9033 0 0 0 0 0 0 0 0
+S
+#9030
+Inside a Massive Hallway~
+   The hallway before you looks to have been carved from the cave from which
+you entered, granite pillars stand twenty feet high supporting the domelike
+structure above you.  Intricate murals have been painted on the western wall
+depicting a large two-headed giant fighting with an elven warrior.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9031 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9029 0 0 0 0 0 0 0 0
+S
+#9031
+Inside a Massive Hallway~
+   The hallway before you looks to have been carved from the cave from which
+you entered, granite pillars stand twenty feet high supporting the domelike
+structure above.  There are two doors here, the one to the north is painted
+with the symbol of a bear and the one to the east is painted with the symbol of
+a pale white star.    
+~
+90 0 h 0 0  0
+D0
+~
+door~
+2 9006 9050 0 0 0 0 0 0 0 0
+D1
+~
+door~
+2 9004 9048 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9030 0 0 0 0 0 0 0 0
+S
+#9032
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9034 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9029 0 0 0 0 0 0 0 0
+S
+#9033
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9029 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9041 0 0 0 0 0 0 0 0
+S
+#9034
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9035 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9032 0 0 0 0 0 0 0 0
+S
+#9035
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9034 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9040 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9039 0 0 0 0 0 0 0 0
+S
+#9036
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9037 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9034 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9038 0 0 0 0 0 0 0 0
+S
+#9037
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D3
+~
+door~
+1 0 9036 0 0 0 0 0 0 0 0
+S
+#9038
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9036 0 0 0 0 0 0 0 0
+S
+#9039
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9035 0 0 0 0 0 0 0 0
+S
+#9040
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D3
+~
+door~
+1 0 9035 0 0 0 0 0 0 0 0
+S
+#9041
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9042 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9033 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9043 0 0 0 0 0 0 0 0
+S
+#9042
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9045 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9041 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9044 0 0 0 0 0 0 0 0
+S
+#9043
+Entrance to the Sleeping Quarters~
+   This room looks nothing like the hallway or rooms before it, bearskin rugs
+cover the floors and the walls are made of highly polished granite.  The
+polished granite ceilings are supported by large pillars that line each side of
+the walls.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9041 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9046 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9047 0 0 0 0 0 0 0 0
+S
+#9044
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9042 0 0 0 0 0 0 0 0
+S
+#9045
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D3
+~
+door~
+1 0 9042 0 0 0 0 0 0 0 0
+S
+#9046
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D3
+~
+door~
+1 0 9043 0 0 0 0 0 0 0 0
+S
+#9047
+Inside a Bedroom~
+   Upon entering this room you notice a large pile of furs in the corner of the
+room.  A large chair has been carved from the western wall, and beside it a
+table covered in food scraps can be seen.    
+~
+90 0 h 0 0  0
+D1
+~
+door~
+1 0 9043 0 0 0 0 0 0 0 0
+S
+#9048
+A Well Furnished Room~
+   Intricate murals cover the walls of this well furnished room, large well
+made tapestries cover the wall to the north.  A desk made from solid oakwood
+sits in the middle of the room, from the looks of the desk it doesn't seem to
+serve any special purpose other then decoration.    
+~
+90 0 h 0 0  0
+D3
+~
+door~
+1 9004 9031 0 0 0 0 0 0 0 0
+S
+#9049
+A Well Furnished Room~
+   Intricate murals cover the walls of this well furnished room, large well
+made tapestries cover the wall to the north.  A desk made from solid oakwood
+sits in the middle of the room, from the looks of the desk it doesn't seem to
+serve any special purpose other then decoration.    
+~
+90 0 h 0 0  0
+D0
+~
+door~
+1 9003 9051 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 9002 9031 0 0 0 0 0 0 0 0
+S
+#9050
+The Chieftain's Quarters~
+   Intricate murals cover the walls of this grand room, a massive throne of
+pure black granite rests against the northern wall.  A large bearskin rug
+covers the ground in front of the throne and carved granite tables sits on both
+sides covered with a variety of foods and wines.    
+~
+90 0 h 0 0  0
+D2
+~
+door~
+1 9006 9031 0 0 0 0 0 0 0 0
+S
+#9051
+A Well Furnished Room~
+   Intricate murals cover the walls of this well furnished room, large well
+made tapestries cover the wall to the north.  A desk made from solid oakwood
+sits in the middle of the room, from the looks of the desk it doesn't seem to
+serve any special purpose other then decoration.    
+~
+90 0 h 0 0  0
+D2
+~
+door~
+1 9003 9049 0 0 0 0 0 0 0 0
+S
+#9052
+A Well Furnished Room~
+   Intricate murals cover the walls of this well furnished room, large well
+made tapestries cover the wall to the north.  A desk made from solid oakwood
+sits in the middle of the room, from the looks of the desk it doesn't seem to
+serve any special purpose other then decoration.    
+~
+90 0 h 0 0  0
+D2
+~
+door~
+1 9005 9048 0 0 0 0 0 0 0 0
+S
+#9053
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9054 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9019 0 0 0 0 0 0 0 0
+D9
+~
+rock~
+1 0 9059 0 0 0 0 0 0 0 0
+S
+#9054
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9055 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9020 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9053 0 0 0 0 0 0 0 0
+S
+#9055
+A Large Opening~
+   This area seems to have been mined for its many precious metals, the walls
+on either side are much wider then the previous hallway, and the dome shaped
+ceiling above is nearly twice as high.  Loud scraping and pounding sounds fill
+the entire area.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9054 0 0 0 0 0 0 0 0
+S
+#9056
+A new room~
+You are in a room.
+~
+90 0 h 0 0  0
+S
+#9057
+An Area Consumed In Darkness~
+   Total darkness encloses the entire area, the lights that once glowed so
+brightly now flicker and fade until nothing can be seen at all.  Scraping
+sounds can be heard to the west, making this darkness seem more inviting then
+walking any further to explore the unknown areas ahead.    
+~
+90 acfght h 0 0  0
+D1
+~
+~
+0 0 9058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9000 0 0 0 0 0 0 0 0
+S
+#9058
+An Area Consumed In Darkness~
+   Total darkness encloses the entire area, the lights that once glowed so
+brightly now flicker and fade until nothing can be seen at all.  Scraping
+sounds can be heard to the west, making this darkness seem more inviting then
+walking any further to explore the unknown areas ahead.    
+~
+90 acfghpt h 0 0  0
+D3
+~
+~
+0 0 9057 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10199 0 0 0 0 0 0 0 0
+S
+#9059
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 cfghtw gh 0 0  0
+D3
+~
+~
+0 0 9060 0 0 0 0 0 0 0 0
+D7
+~
+rock~
+1 0 9053 0 0 0 0 0 0 0 0
+S
+#9060
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9061 0 0 0 0 0 0 0 0
+S
+#9061
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9062 0 0 0 0 0 0 0 0
+S
+#9062
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9064 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9063 0 0 0 0 0 0 0 0
+S
+#9063
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9062 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9068 0 0 0 0 0 0 0 0
+S
+#9064
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9065 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9062 0 0 0 0 0 0 0 0
+S
+#9065
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D2
+~
+~
+0 0 9064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9066 0 0 0 0 0 0 0 0
+S
+#9066
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9065 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9067 0 0 0 0 0 0 0 0
+S
+#9067
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9066 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9084 0 0 0 0 0 0 0 0
+S
+#9068
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9063 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9069 0 0 0 0 0 0 0 0
+S
+#9069
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9068 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9070 0 0 0 0 0 0 0 0
+S
+#9070
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9069 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9071 0 0 0 0 0 0 0 0
+S
+#9071
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9070 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9072 0 0 0 0 0 0 0 0
+S
+#9072
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9071 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9073 0 0 0 0 0 0 0 0
+S
+#9073
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9074 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9072 0 0 0 0 0 0 0 0
+S
+#9074
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9075 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9073 0 0 0 0 0 0 0 0
+S
+#9075
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D2
+~
+~
+0 0 9076 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9074 0 0 0 0 0 0 0 0
+S
+#9076
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9075 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9077 0 0 0 0 0 0 0 0
+S
+#9077
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9076 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9078 0 0 0 0 0 0 0 0
+S
+#9078
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9077 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9079 0 0 0 0 0 0 0 0
+S
+#9079
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9078 0 0 0 0 0 0 0 0
+S
+#9080
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D2
+~
+~
+0 0 9081 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9079 0 0 0 0 0 0 0 0
+S
+#9081
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D0
+~
+~
+0 0 9080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9082 0 0 0 0 0 0 0 0
+S
+#9082
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9081 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9083 0 0 0 0 0 0 0 0
+S
+#9083
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 c h 0 0  0
+D7
+~
+~
+0 0 9082 0 0 0 0 0 0 0 0
+S
+#9084
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9067 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9085 0 0 0 0 0 0 0 0
+S
+#9085
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9084 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9086 0 0 0 0 0 0 0 0
+S
+#9086
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9085 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9087 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9088 0 0 0 0 0 0 0 0
+S
+#9087
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9086 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9089 0 0 0 0 0 0 0 0
+S
+#9088
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 c h 0 0  0
+D8
+~
+~
+0 0 9086 0 0 0 0 0 0 0 0
+S
+#9089
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9087 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9090 0 0 0 0 0 0 0 0
+S
+#9090
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9089 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9091 0 0 0 0 0 0 0 0
+S
+#9091
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9090 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9092 0 0 0 0 0 0 0 0
+S
+#9092
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9091 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9093 0 0 0 0 0 0 0 0
+S
+#9093
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9092 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9095 0 0 0 0 0 0 0 0
+S
+#9094
+A new room~
+You are in a room.
+~
+90 0 h 0 0  0
+D1
+~
+~
+0 0 9093 0 0 0 0 0 0 0 0
+S
+#9095
+A Dark Stone Corridor~
+   The walls of this corridor seem to move and shift of their own free will
+making it very diffucult to tell directions.  The walls are smoothe and clean
+as if the rock removed itself or was removed magically.  The sound of rock
+grinding against rock can be heard throughout the entire corridor.    
+~
+90 c h 0 0  0
+D7
+~
+~
+0 0 9093 0 0 0 0 0 0 0 0
+S
+$

@@ -1,0 +1,687 @@
+#15000
+creek fetid murky infected~
+a murky, fetid creek~
+A murky, fetid creek trickles along sickly.~
+water pouring out of a hole in the ground.~
+23 0 y 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5000 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15001
+sign wood wooden chopped screwed~
+a wooden sign~
+A chopped piece of wood is screwed to a tree here.~
+~
+12 cejklmnoprstuvwBCDF abc stuvwxyz 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5000 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sign chopped screwed~
+************************************
+************************************
+**                                **
+**  Attention: This area of the   **
+**  forest is off-limits to all   **
+**  except those adults wanting   **
+**  to assist in the clean-up.    **
+**      If not here to help,      **
+**       please stay out.         **
+**             - Solace Council   **
+**                                **
+************************************
+************************************
+                ***
+                ***
+                ***
+                ***
+                ***
+~
+E
+wooden wood~
+************************************
+************************************
+**                                **
+**  Attention: This area of the   **
+**  forest is off-limits to all   **
+**  except those adults wanting   **
+**  to assist in the clean-up.    **
+**      If not here to help,      **
+**       please stay out.         **
+**             - Solace Council   **
+**                                **
+************************************
+************************************
+                ***
+                ***
+                ***
+                ***
+~
+#15002
+spring fetid infected~
+a fetid spring~
+A sick looking, fetid spring gurgles up brown and grey junk with the water.~
+water pouring out of a hole in the ground.~
+23 0 y 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5000 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15003
+brush pile infected~
+a brush pile~
+A pile of dead brush and wood sits here, ready to be burned.~
+~
+12 cejklmnoprstuvwBCDF abc stuvwxyz 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5000 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+brush pile~
+   This pile gets bigger and bigger as time goes on, with people dragging dead
+plants and trees over to it.    
+~
+#15004
+rabbits foot chain infected~
+a rabbits foot on a chain~
+An old chain with a ball of hair lies here on the floor.~
+The rabbit foot beings to shake.~
+9 ijklmnoprstuvwBCDF abc stuvwxyz 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+23 1 0
+#15005
+whetstone grey infected~
+a rough, grey whetstone~
+A small grey stone lies here.~
+~
+8 cjklmnoprstuvwABCDF abc stuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+wetstone grey rough~
+   This wetstone is for sharpening weapons.  It is rough, and made of grey
+stone.    
+~
+E
+whetstone~
+   This whetstone is for sharpening weapons.  It is rough, and made of grey
+stone.    
+~
+A
+19 1 0
+A
+14 -10 0
+#15006
+dragonfly crystallized emerald infected~
+a crystallized emerald dragonfly~
+A shiny emerald object lies here on the ground.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15007
+dragonfly crystallized ruby infected~
+a crystallized ruby dragonfly~
+An oddly shaped, ruby item lies here.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15008
+branch splintered heavy infected~
+a splintered, heavy vallenwood branch~
+A piece of broken tree seems to be stuck in the mud.~
+~
+5 jklpruwxBCDF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 953 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+4 -1 0
+#15009
+dragonfly crystallized sapphire infected~
+a crystallized sapphire dragonfly~
+A shiny emerald object lies here on the ground.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 300 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15010
+dragonfly crystallized infected~
+a crystallized dragonfly~
+A shiny emerald object lies here on the ground.~
+~
+25 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15011
+coins handful~
+a handful of coins~
+A pile of coins is scattered among the stones.~
+~
+20 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15012
+vine thick thorny infected~
+a thick, thorny vine~
+A thorned vine lies here on the floor.~
+The vine's thorns pierces your skin.~
+5 hjklmopruvwBCDF abcu stuvwxyz 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 3252 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15013
+ladder rickety wooden infected~
+a rickety, wooden ladder~
+A rickety ladder pokes up out of the gaping hole.~
+~
+24 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15014
+ladder wooden broken infected~
+a broken, wooden ladder~
+A broken, wooden ladder lies here on the floor in peices.~
+~
+13 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15015
+hide armor rhino infected~
+a small armor made of rhino hide~
+In the dirt seems to be a peace of a rhino.~
+10~
+9 jklnprsuvBDE b 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+10 1 0
+A
+14 5 0
+#15016
+sheet cloaked ape skin infected~
+a tough sheet made of cloaked ape skin~
+A sheet of skin has been tossed aside on the ground.~
+~
+9 jklmnoprstuvwBCDF abc stuvwxyz 0 adk 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 150 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 2 0
+#15017
+note commission paper infected~
+a note of commission~
+A paper note lies here on the floor.~
+~
+16 jklmnoprstuvwBCDF abc istuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+note commission~
+   You see nothing special.  This paper is slightly worn, and has a bit of grey
+mold growing on it.  The note seems to indicate that the bearer may assist in
+the cleanup of the infected forest, south of Solace.    
+~
+A
+14 2 0
+#15018
+Eye blood ape ruby infected~
+an eye of a blood ape~
+Lying on the floor is a ruby of some sort.~
+~
+25 a 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15019
+claw gorilla sharp infected~
+a gorilla claw~
+Laying in the dirt is a sharp claw.~
+~
+8 ejklmnoprstuvwBCDF abcu stuvwxyz 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 234 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15020
+mandrake plant bell purple flower infected~
+a mandrake plant~
+A bell shaped purple flower is hidden in between leaves.~
+~
+10 b v 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15021
+vine tempin bushy yellow flowers infected~
+a tempin vine~
+A bushy climbing vine with tubular yellow flowers are hanging down a tree.~
+~
+19 jklmnoprstuvwBCDF abcuv stuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15022
+spellbook crystals gloves silk grey~
+a pair of silk gloves inlaid with grey crystals~
+Some grey crystals seems scattered in the dirt.~
+~
+26 jklmBCDF abcm stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 4000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+crystals gloves silk grey~
+   This pair of gloves is made of silk, and has grey crystals embroidered into
+them.  A small patch in the gloves raise to reveal a small writing area for
+spells.    
+~
+A
+3 1 0
+#15023
+mask barghest infected~
+a mask made from the face of a barghest~
+An ugly mask seems to be covered in dirt.~
+2~
+9 jklmopruvwBCDF abcx stuvwxyz 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 50 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 -1 0
+A
+13 5 0
+#15024
+claw barghest infected~
+a claw from an barghest~
+A barghest's claw is laying here unclaimed.~
+~
+5 jklmopruvwBCDF abc stuvwxyz 0 ahno 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 350 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#15025
+skull choker infected~
+a skull of a choker~
+Tossed away is a choker's skull.~
+~
+25 jklmnoprstuvwDE b z 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+#15026
+wings ruby wing pair infected~
+a pair of ruby wings~
+A large ruby is in the dirt.~
+~
+9 ajklmnopruvwBCDF abcez stuvwxyz 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 5000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#15027
+icicle dagger infected~
+a cold dagger in the form of an icicle~
+An icicle seems to be sticking out of the ground.~
+~
+5 jklmoprtuvwBCDF abcxy bstuvwxyz 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2104 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15028
+tentacles green rubbery infected~
+a set of rubbery green tentacles~
+A set of green tentacles are lying here.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15029
+armguards rhino hide tan crystals infected~
+a set of rhino-hide armguards embedded with tan crystals~
+Discarded on the floor is a piece of rhino hide.~
+~
+9 jkluBCDF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 4000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+A
+13 5 0
+#15030
+hair asperi infected~
+a lock of asperi hair~
+A peace of beautiful hair is on the floor spread out.~
+~
+25 jklmnoprstuvwBCDF abc stuvwxyz 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15031
+crystal blue infected~
+a glowing blue crystal~
+A blue crystal seems to shining on the ground.~
+~
+1 ajkltBCDF abcfu stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+A
+4 -1 0
+A
+13 5 0
+A
+14 -5 0
+#15032
+breastplate ornately ornate carved infected~
+an ornately carved, vallenwood breastplate~
+A chunk of vallenwood lies here on the ground.~
+10~
+9 jklruwBCDF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 5000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 5 0
+#15033
+boots boot high topped leather infected~
+a set of deep, high topped leather boots~
+A set of high topped boots are discarded here.~
+~
+15 jklmnoprstuvwBCDF ab tvwxyz 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 7258 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 10 0
+A
+17 -2 0
+#15034
+rocks rock pile infected~
+a large pile of rocks~
+A large pile of rocks lies here on the floor.~
+~
+15 ce u 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15035
+scroll bloody three bears infected~
+a bloody scroll with the image of three bears~
+A bloody scroll lies here amongst the stones.~
+~
+2 ce u 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15036
+brick small solid infected~
+a small, solid brick~
+A small brick is sitting here on the ground.~
+~
+8 ce u 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 6023 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#15037
+goup infected gelatinous~
+a gelatinous handful of infected goup~
+A handful of goup is splattered in the ground.~
+~
+10 cjklmnoprstuvwBCDF abc stuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1200 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 -1 0
+#15038
+chain stone tan large crystal infected~
+a long chain attached to a large tan crystal~
+A chunk of stone lies here on the ground.~
+~
+5 ejkluABCDF abcu stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 5235 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+A
+18 1 0
+A
+14 -5 0
+#15039
+object new~
+a new object~
+A new object is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

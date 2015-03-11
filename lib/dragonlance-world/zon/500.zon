@@ -1,0 +1,13 @@
+#500
+Moradin~
+Road-Neverwinter/Luskan~
+50000 50199 30 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+2 2 0 0 0
+M 0 50502 1 50000 100 0 	(an invis mob named Luskan)
+O 0 51004 1 50000 100 0 	(a wooden sign at Luskan's south gate)
+M 0 50002 3 50002 100 0 	(a goblin guard)
+S
+$

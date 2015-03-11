@@ -1,0 +1,3527 @@
+#12000
+Zone Description~
+You are in an unfinished room.
+~
+120 0 0 0 0 0
+D2
+~
+~
+0 0 12004 0 0 0 0 0 0 0 0
+S
+#12001
+Entrance to Undermountain~
+   You have found your way to the entrance of Undermountain, the death-maze /
+dungeon created by the mad wizard Halastar for reasons unknown; and the last
+mortal standing ground for thousands of adventure and treasure-seeking
+adventurers.  The cavern is made of carved stone blocks, possibly of dwarven
+make, though they seem to be almost fused together as if by some kind of
+incredible heat.  There is little moisture in the air despite being underground,
+and it is very dark, impossible to see without light or infravision.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12002 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12004 0 0 0 0 0 0 0 0
+S
+#12002
+A Circular Cavern~
+   This cavern has walls set with dark grey stonework, which seems to have been
+fused together with intense heat instead of with mortar.  Scrawled on the wall
+are dozens of messages in different languages, most likely either left by
+adventurers who braved these halls or by the monster who roam them.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12001 0 0 0 0 0 0 0 0
+S
+#12003
+A Circular Cavern~
+   This cavern has walls set with dark grey stonework, which seems to have been
+fused together with intense heat instead of with mortar.  Scrawled on the wall
+are dozens of messages in different languages, most likely either left by
+adventurers who braved these halls or by the monster who roam them.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12002 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12004 0 0 0 0 0 0 0 0
+S
+#12004
+A Circular Cavern~
+   This cavern has walls set with dark grey stonework, which seems to have been
+fused together with intense heat instead of with mortar.  Scrawled on the wall
+are dozens of messages in different languages, most likely either left by
+adventurers who braved these halls or by the monster who roam them.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12001 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12003 0 0 0 0 0 0 0 0
+S
+#12005
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12006 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12036 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12003 0 0 0 0 0 0 0 0
+S
+#12006
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12007 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12005 0 0 0 0 0 0 0 0
+S
+#12007
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12008 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12006 0 0 0 0 0 0 0 0
+S
+#12008
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12009 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12007 0 0 0 0 0 0 0 0
+S
+#12009
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12010 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12008 0 0 0 0 0 0 0 0
+S
+#12010
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  There is a rusty iron door in the
+northern wall.  
+~
+120 ad 0 0 0 0
+D0
+~
+door rusty iron~
+1 0 12011 40 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12015 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12009 0 0 0 0 0 0 0 0
+S
+#12011
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12012 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12014 0 0 0 0 0 0 0 0
+D2
+~
+door rusty iron~
+1 0 12010 0 0 0 0 0 0 0 0
+S
+#12012
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12011 0 0 0 0 0 0 0 0
+S
+#12013
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12012 0 0 0 0 0 0 0 0
+S
+#12014
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12011 0 0 0 0 0 0 0 0
+S
+#12015
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12016 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12010 0 0 0 0 0 0 0 0
+S
+#12016
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12017 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12015 0 0 0 0 0 0 0 0
+S
+#12017
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12018 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12016 0 0 0 0 0 0 0 0
+S
+#12018
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12017 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12019 0 0 0 0 0 0 0 0
+S
+#12019
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12018 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12024 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12020 0 0 0 0 0 0 0 0
+S
+#12020
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12021 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12023 0 0 0 0 0 0 0 0
+S
+#12021
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12020 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12022 0 0 0 0 0 0 0 0
+S
+#12022
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12023 0 0 0 0 0 0 0 0
+S
+#12023
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12022 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12020 0 0 0 0 0 0 0 0
+S
+#12024
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12019 0 0 0 0 0 0 0 0
+S
+#12025
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12024 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12047 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12026 0 0 0 0 0 0 0 0
+S
+#12026
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12027 0 0 0 0 0 0 0 0
+S
+#12027
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12028 0 0 0 0 0 0 0 0
+S
+#12028
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12027 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12029 0 0 0 0 0 0 0 0
+S
+#12029
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12028 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12030 0 0 0 0 0 0 0 0
+S
+#12030
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12041 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12029 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12031 0 0 0 0 0 0 0 0
+S
+#12031
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12030 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12032 0 0 0 0 0 0 0 0
+S
+#12032
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12031 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12033 0 0 0 0 0 0 0 0
+S
+#12033
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12032 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12034 0 0 0 0 0 0 0 0
+S
+#12034
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12035 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12033 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12101 0 0 0 0 0 0 0 0
+S
+#12035
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12034 0 0 0 0 0 0 0 0
+S
+#12036
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12005 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12037 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12035 0 0 0 0 0 0 0 0
+S
+#12037
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D1
+~
+~
+0 0 12038 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12040 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12036 0 0 0 0 0 0 0 0
+S
+#12038
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D2
+~
+~
+0 0 12039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12037 0 0 0 0 0 0 0 0
+S
+#12039
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D0
+~
+~
+0 0 12038 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12040 0 0 0 0 0 0 0 0
+S
+#12040
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D0
+~
+~
+0 0 12037 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12039 0 0 0 0 0 0 0 0
+S
+#12041
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12042 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12030 0 0 0 0 0 0 0 0
+S
+#12042
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12045 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12041 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12043 0 0 0 0 0 0 0 0
+S
+#12043
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12042 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12044 0 0 0 0 0 0 0 0
+S
+#12044
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12043 0 0 0 0 0 0 0 0
+S
+#12045
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12046 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12042 0 0 0 0 0 0 0 0
+S
+#12046
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12045 0 0 0 0 0 0 0 0
+S
+#12047
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12048 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12075 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12025 0 0 0 0 0 0 0 0
+S
+#12048
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12049 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12047 0 0 0 0 0 0 0 0
+S
+#12049
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12050 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12067 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12048 0 0 0 0 0 0 0 0
+S
+#12050
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12051 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12068 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12049 0 0 0 0 0 0 0 0
+S
+#12051
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12052 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12069 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12050 0 0 0 0 0 0 0 0
+S
+#12052
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12053 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12051 0 0 0 0 0 0 0 0
+S
+#12053
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12054 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12069 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12052 0 0 0 0 0 0 0 0
+S
+#12054
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12055 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12053 0 0 0 0 0 0 0 0
+S
+#12055
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12054 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12056 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12069 0 0 0 0 0 0 0 0
+S
+#12056
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12055 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12057 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12068 0 0 0 0 0 0 0 0
+S
+#12057
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12056 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12067 0 0 0 0 0 0 0 0
+S
+#12058
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12057 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12065 0 0 0 0 0 0 0 0
+S
+#12059
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12058 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12066 0 0 0 0 0 0 0 0
+S
+#12060
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12061 0 0 0 0 0 0 0 0
+S
+#12061
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12066 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12062 0 0 0 0 0 0 0 0
+S
+#12062
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12063 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12061 0 0 0 0 0 0 0 0
+S
+#12063
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12064 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12066 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12062 0 0 0 0 0 0 0 0
+S
+#12064
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12049 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12065 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12063 0 0 0 0 0 0 0 0
+S
+#12065
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12067 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12058 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12066 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12064 0 0 0 0 0 0 0 0
+S
+#12066
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12065 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12059 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12063 0 0 0 0 0 0 0 0
+S
+#12067
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12068 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12057 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12065 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12049 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 12070 0 0 0 0 0 0 0 0
+S
+#12068
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12069 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12056 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12067 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12050 0 0 0 0 0 0 0 0
+S
+#12069
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12053 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12055 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12068 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12051 0 0 0 0 0 0 0 0
+S
+#12070
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 9
+D4
+~
+~
+0 0 12071 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12067 0 0 0 0 0 0 0 0
+S
+#12071
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 9
+D1
+~
+~
+0 0 12072 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 12074 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12070 0 0 0 0 0 0 0 0
+S
+#12072
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D1
+~
+~
+0 0 12073 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12074 0 0 0 0 0 0 0 0
+S
+#12073
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D3
+~
+~
+0 0 12072 0 0 0 0 0 0 0 0
+S
+#12074
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D1
+~
+~
+0 0 12072 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12071 0 0 0 0 0 0 0 0
+S
+#12075
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12047 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12076 0 0 0 0 0 0 0 0
+S
+#12076
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12075 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12077 0 0 0 0 0 0 0 0
+S
+#12077
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12076 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12078 0 0 0 0 0 0 0 0
+S
+#12078
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12077 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12079 0 0 0 0 0 0 0 0
+S
+#12079
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12080 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12078 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12084 0 0 0 0 0 0 0 0
+S
+#12080
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12081 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12083 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12079 0 0 0 0 0 0 0 0
+S
+#12081
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12082 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12080 0 0 0 0 0 0 0 0
+S
+#12082
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12083 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12081 0 0 0 0 0 0 0 0
+S
+#12083
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12082 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12080 0 0 0 0 0 0 0 0
+S
+#12084
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 0 0 0 0 0
+D1
+~
+~
+0 0 12079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12085 0 0 0 0 0 0 0 0
+S
+#12085
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 0 0 0 0 0
+D0
+~
+~
+0 0 12084 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12086 0 0 0 0 0 0 0 0
+S
+#12086
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12085 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12087 0 0 0 0 0 0 0 0
+S
+#12087
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12086 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12197 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12088 0 0 0 0 0 0 0 0
+S
+#12088
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12087 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12089 0 0 0 0 0 0 0 0
+S
+#12089
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12090 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12088 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12123 0 0 0 0 0 0 0 0
+S
+#12090
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12091 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12089 0 0 0 0 0 0 0 0
+S
+#12091
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12096 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12092 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12090 0 0 0 0 0 0 0 0
+S
+#12092
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12093 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12095 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12091 0 0 0 0 0 0 0 0
+S
+#12093
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12094 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12092 0 0 0 0 0 0 0 0
+S
+#12094
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12093 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12095 0 0 0 0 0 0 0 0
+S
+#12095
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12092 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12094 0 0 0 0 0 0 0 0
+S
+#12096
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12091 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12097 0 0 0 0 0 0 0 0
+S
+#12097
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12096 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12098 0 0 0 0 0 0 0 0
+S
+#12098
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12097 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12099 0 0 0 0 0 0 0 0
+S
+#12099
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12098 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12100 0 0 0 0 0 0 0 0
+S
+#12100
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12101 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12099 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12104 0 0 0 0 0 0 0 0
+S
+#12101
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12034 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12102 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12100 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12103 0 0 0 0 0 0 0 0
+S
+#12102
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D3
+~
+~
+0 0 12101 0 0 0 0 0 0 0 0
+S
+#12103
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12101 0 0 0 0 0 0 0 0
+S
+#12104
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12100 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12105 0 0 0 0 0 0 0 0
+S
+#12105
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12104 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12106 0 0 0 0 0 0 0 0
+S
+#12106
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12105 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12119 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12107 0 0 0 0 0 0 0 0
+S
+#12107
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12108 0 0 0 0 0 0 0 0
+S
+#12108
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12109 0 0 0 0 0 0 0 0
+S
+#12109
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12108 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12110 0 0 0 0 0 0 0 0
+S
+#12110
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12109 0 0 0 0 0 0 0 0
+S
+#12111
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12116 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12110 0 0 0 0 0 0 0 0
+S
+#12112
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12111 0 0 0 0 0 0 0 0
+S
+#12113
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12114 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12112 0 0 0 0 0 0 0 0
+S
+#12114
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12115 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12113 0 0 0 0 0 0 0 0
+S
+#12115
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12089 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12114 0 0 0 0 0 0 0 0
+S
+#12116
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D0
+~
+~
+0 0 12117 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12111 0 0 0 0 0 0 0 0
+S
+#12117
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12125 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12124 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12118 0 0 0 0 0 0 0 0
+S
+#12118
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12119 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12117 0 0 0 0 0 0 0 0
+S
+#12119
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12120 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12125 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12118 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12106 0 0 0 0 0 0 0 0
+S
+#12120
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12121 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12119 0 0 0 0 0 0 0 0
+S
+#12121
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12126 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12125 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12120 0 0 0 0 0 0 0 0
+S
+#12122
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12121 0 0 0 0 0 0 0 0
+S
+#12123
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12122 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12089 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12125 0 0 0 0 0 0 0 0
+S
+#12124
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12117 0 0 0 0 0 0 0 0
+S
+#12125
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12121 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12119 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 12129 0 0 0 0 0 0 0 0
+S
+#12126
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12098 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12121 0 0 0 0 0 0 0 0
+S
+#12127
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12113 0 0 0 0 0 0 0 0
+S
+#12128
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12196 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12134 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12127 0 0 0 0 0 0 0 0
+S
+#12129
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D4
+~
+~
+0 0 12130 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12125 0 0 0 0 0 0 0 0
+S
+#12130
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D4
+~
+~
+0 0 12131 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12129 0 0 0 0 0 0 0 0
+S
+#12131
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D1
+~
+~
+0 0 12132 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 12130 0 0 0 0 0 0 0 0
+S
+#12132
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D1
+~
+~
+0 0 12133 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12131 0 0 0 0 0 0 0 0
+S
+#12133
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D3
+~
+~
+0 0 12132 0 0 0 0 0 0 0 0
+S
+#12134
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12135 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12128 0 0 0 0 0 0 0 0
+S
+#12135
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12134 0 0 0 0 0 0 0 0
+S
+#12136
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12137 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12135 0 0 0 0 0 0 0 0
+S
+#12137
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12138 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12136 0 0 0 0 0 0 0 0
+S
+#12138
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12139 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12137 0 0 0 0 0 0 0 0
+S
+#12139
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12138 0 0 0 0 0 0 0 0
+S
+#12140
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12141 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12139 0 0 0 0 0 0 0 0
+S
+#12141
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12142 0 0 0 0 0 0 0 0
+S
+#12142
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12141 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12143 0 0 0 0 0 0 0 0
+S
+#12143
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12142 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12144 0 0 0 0 0 0 0 0
+S
+#12144
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12145 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12143 0 0 0 0 0 0 0 0
+S
+#12145
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12144 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12146 0 0 0 0 0 0 0 0
+S
+#12146
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12145 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12147 0 0 0 0 0 0 0 0
+S
+#12147
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12146 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12148 0 0 0 0 0 0 0 0
+S
+#12148
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12149 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12147 0 0 0 0 0 0 0 0
+S
+#12149
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12148 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12150 0 0 0 0 0 0 0 0
+S
+#12150
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12151 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12149 0 0 0 0 0 0 0 0
+S
+#12151
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12152 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12150 0 0 0 0 0 0 0 0
+S
+#12152
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12153 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12151 0 0 0 0 0 0 0 0
+S
+#12153
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12154 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12152 0 0 0 0 0 0 0 0
+S
+#12154
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12153 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12155 0 0 0 0 0 0 0 0
+S
+#12155
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12156 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12154 0 0 0 0 0 0 0 0
+S
+#12156
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12157 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12155 0 0 0 0 0 0 0 0
+S
+#12157
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12156 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12158 0 0 0 0 0 0 0 0
+S
+#12158
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12157 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12159 0 0 0 0 0 0 0 0
+S
+#12159
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12160 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12158 0 0 0 0 0 0 0 0
+S
+#12160
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12161 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12159 0 0 0 0 0 0 0 0
+S
+#12161
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12162 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12160 0 0 0 0 0 0 0 0
+S
+#12162
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12163 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12161 0 0 0 0 0 0 0 0
+S
+#12163
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12164 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12162 0 0 0 0 0 0 0 0
+S
+#12164
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12165 0 0 0 0 0 0 0 0
+D3
+~
+slightlyLooseStone~
+3 0 12167 45 40 0 0 0 0 0 0
+S
+#12165
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12166 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12164 0 0 0 0 0 0 0 0
+S
+#12166
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12165 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12168 0 0 0 0 0 0 0 0
+S
+#12167
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 0 0 0 0 0
+D1
+   The faint outline of a secret door can be seen here.  It is covered in arcane
+runes, and a small handle allows you to open it from the inside.  
+~
+secret~
+1 0 12164 0 0 0 0 0 0 0 0
+S
+#12168
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12166 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12169 0 0 0 0 0 0 0 0
+S
+#12169
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12168 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12170 0 0 0 0 0 0 0 0
+S
+#12170
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12169 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12171 0 0 0 0 0 0 0 0
+S
+#12171
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12170 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12172 0 0 0 0 0 0 0 0
+S
+#12172
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12171 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12173 0 0 0 0 0 0 0 0
+S
+#12173
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12172 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12174 0 0 0 0 0 0 0 0
+S
+#12174
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12173 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12175 0 0 0 0 0 0 0 0
+S
+#12175
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12174 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12176 0 0 0 0 0 0 0 0
+S
+#12176
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12177 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12175 0 0 0 0 0 0 0 0
+S
+#12177
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D2
+~
+~
+0 0 12176 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12178 0 0 0 0 0 0 0 0
+S
+#12178
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12177 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12179 0 0 0 0 0 0 0 0
+S
+#12179
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12178 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12180 0 0 0 0 0 0 0 0
+S
+#12180
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12179 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12181 0 0 0 0 0 0 0 0
+S
+#12181
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12180 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12182 0 0 0 0 0 0 0 0
+S
+#12182
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12181 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12183 0 0 0 0 0 0 0 0
+S
+#12183
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12182 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12184 0 0 0 0 0 0 0 0
+S
+#12184
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12183 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12185 0 0 0 0 0 0 0 0
+S
+#12185
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12184 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12186 0 0 0 0 0 0 0 0
+S
+#12186
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12187 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12185 0 0 0 0 0 0 0 0
+S
+#12187
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12188 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12186 0 0 0 0 0 0 0 0
+S
+#12188
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12189 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12187 0 0 0 0 0 0 0 0
+S
+#12189
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12190 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12188 0 0 0 0 0 0 0 0
+S
+#12190
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12191 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12189 0 0 0 0 0 0 0 0
+S
+#12191
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12192 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12190 0 0 0 0 0 0 0 0
+S
+#12192
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12193 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12191 0 0 0 0 0 0 0 0
+S
+#12193
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12194 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12192 0 0 0 0 0 0 0 0
+S
+#12194
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12195 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12193 0 0 0 0 0 0 0 0
+S
+#12195
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D3
+~
+~
+0 0 12194 0 0 0 0 0 0 0 0
+S
+#12196
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12197 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 12199 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12128 0 0 0 0 0 0 0 0
+S
+#12197
+A Stone Hallway~
+   This underground hallway is made of stacked stone bricks, apparantly fused
+together with intense heat instead of with mortar.  The hallway is filled with
+dust, or possibly fine ash.  There is no light save what you bring with you.  
+Cobwebs give this place a deserted look, though if the tales are true there are
+definite dangers roaming these halls.  
+~
+120 ad 0 0 0 0
+D0
+~
+~
+0 0 12087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 12196 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 12198 0 0 0 0 0 0 0 0
+S
+#12198
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D1
+~
+~
+0 0 12197 0 0 0 0 0 0 0 0
+S
+#12199
+New BuildWalk Room~
+This unfinished room was created by Ilmater.
+~
+120 ad 0 0 0 0
+D3
+~
+~
+0 0 12196 0 0 0 0 0 0 0 0
+S
+$~

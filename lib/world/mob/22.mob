@@ -1,0 +1,466 @@
+#2200
+red robed battle mage~
+@Ra red robed battle-mage@n~
+@RA red robed battle-mage stands here his hands resting on a thin onyx tablet.@n
+~
+   This man is not large, niether small, and overall appears rather easy to give
+a once over and forget about entirely.  He wears red robes, and carries in his
+hands a rather common looking staff and a sling as his belt.  His free hand
+rests against a thin onyx tablet on the table.  Enscribed in a flowing font on
+the tablet, engraven right into the stone are several names with accompanying
+details, apparently a list of occupants in the camp.  
+~
+bdlm 0 0 0 k 0 0 0 0
+12 20 -8 48d100+111 1d8+0
+720 0 42 0
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2201
+guard flaming hand gate~
+a flaming hand gate guard~
+A flaming hand gate guard is here ensuring only those permitted enter the camp.
+~
+   Dressed in a full suit of splint mail, this man looks to be in his mid
+thirties.  He wields a long halberd in his two hands and absently raps it
+against the gate behind him continuously.  His head is covered by a steel pot
+helm though tufts of uncombed brown hair sneak their way out of the chain mesh
+covering the neck.  
+~
+bdel 0 0 0 k 0 0 0 0
+12 20 -8 144d100+125 1d12+0
+720 0 42 3
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2202
+mercenary fighter flaming hand~
+a flaming hand mercenary fighter~
+A flaming hand mercenary fighter is here resting between training sessions.
+~
+   This man is large and well built.  He has thick black hair and a heavy
+stubble of unshaven beard on his face.  He smells of sweat and the road, though
+he isn't quite unhygienic.  He wears a suit of studded leather armor and wields
+a boardsword at his hip, with three daggers sheathed on the other side of his
+weapon's belt.  
+~
+bd 0 0 0 k 0 0 0 0
+14 20 -4 180d100+390 1d8+0
+125 0 42 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2203
+mercenary barbarian flaming hand~
+a flaming hand mercenary barbarian~
+A flaming hand mercenary barbarian wanders here drinking heavily on a mug of ale.
+~
+   This large man looks to be rather primitive in culture, though the gleam of
+cunning and intelligence shines in his bright blue eyes.  He has wild blonde
+hair and a long braided beard.  He wears a suit of wolfskin hide armor and wield
+a huge greatsword across his back with a light warhammer at each of his hips and
+a carving knife tucked in his boot.  
+~
+d 0 0 0 k 0 0 0 0
+15 20 -5 192d100+260 1d8+0
+150 0 43 6
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#2204
+mercenary druid flaming hand~
+a flaming hand mercenary druid~
+A flaming hand mercenary druid is here tending to a small garden.
+~
+   This man is very wild looking with long, tangled brown hair and a long
+unkempt beard to match.  He wears a suit of green leather armor and carries a
+staff and scimitar as weaponry.  He wears some wooden beads around his neck and
+in his hair and has painted his skin green with some kind of plant dye.  
+~
+bd 0 0 0 k 0 0 0 0
+15 20 -5 128d100+420 1d8+0
+150 0 42 9
+8 8 2
+E
+BareHandAttack: 3
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#2205
+wolf black and white dire~
+a black and white dire wolf~
+A black and white dire wolf sits here on the ground staring at you with red eyes.
+~
+   This huge wolf has black and white fur that is thick with sweat, twigs and
+grass.  It's muscles ripple with strength as it stretches lazily.  It stares at
+you with blood red eyes and occasionaly yawns displaying huge yellow canines.  
+~
+d 0 0 0 k 0 0 0 0
+15 20 -5 192d100+460 1d8+0
+0 0 10 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2206
+mercenary flaming hand ranger~
+a flaming hand mercenary ranger~
+A flaming hand mercenary ranger is here preparing a small coney.
+~
+   This man has short, cropped brown hair and wears a suit of studded leather
+armor.  He wield a long bow across his back and twin shortswords at his belt.  
+His eyes are deep and serene, as if he were at home here in the wilderness.  
+~
+d 0 0 0 k 0 0 0 0
+15 20 -5 160d100+260 1d8+0
+150 0 42 8
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#2207
+mercenary cleric flaming hand~
+a flaming hand mercenary cleric~
+A flaming hand mercenary cleric is here in silent prayer.
+~
+   This man has a head of straight brown hair and wears the robes of a priest
+over a suit of polished chainmail.  He carries a heavy mace at his side and
+bears the holy symbol of his god across his chest.  He kneels here in silent
+prayer, apprantly unmolested by your entrance.  
+~
+bd 0 0 0 k 0 0 0 0
+16 20 -6 153d100+330 1d8+0
+200 0 42 1
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 10
+S
+#2208
+mercenary monk flaming hand~
+a flaming hand mercenary monk~
+A flaming hand mercenary monk is here praticing his discipline.
+~
+   This man is lithe and well muscled.  He wears a shaven head save for a long
+black topknot sprouting from the centre of the crown and trailing down his back.
+He wears a suit of tight fitting robes tied together with a black belt around
+his waist.  
+~
+d 0 0 0 k 0 0 0 0
+16 20 -6 153d350+3300 1d8+0
+200 0 42 4
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 10
+S
+#2209
+mercenary flaming hand rogue~
+a flaming hand mercenary rogue~
+A flaming hand mercenary rogue is here sharpening a dagger.
+~
+   This shady fellow wears a night blue hood over his head concelaing most of
+his features.  He wears a suit of night blue studded leather armor as well and
+carries four daggers at his belt and one in his hand.  He has many pouches at
+his belt as well, with leather straps and black buckles.  
+~
+d 0 0 0 k 0 0 0 0
+17 20 -7 108d100+430 1d8+0
+250 0 42 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 20
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2210
+mercenary flaming hand mage~
+a flaming hand mercenary mage~
+A flaming hand mercenary mage is here studying his spells.
+~
+   This man is clad in dark grey robes embroidered with gold and blue thread.  
+He carries a quarterstaff at his side, a dagger at his belt and a light crossbow
+across his back.  In his hands is his coveted spellbook filled with the arcane
+knowledge and lore of his business.  
+~
+bd 0 0 0 k 0 0 0 0
+17 20 -7 72d100+330 1d8+0
+250 0 42 0
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2211
+mercenary captain rogue flaming hand~
+the flaming hand mercenary rogue captain~
+The flaming hand mercenary rogue captain is here overseeing his charges.
+~
+   This man wears a suit of dark grey light chainmail armor and wields twin
+rapiers at his belt.  He has the look of great intelligence and cunning in his
+eyes and appears as if he has seen many campaigns.  He oversees this part of the
+camp for the commanders in the central tents.  
+~
+bdE 0 0 0 k 0 0 0 0
+18 20 -8 570d100+490 1d8+0
+1000 0 42 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 20
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2212
+mercenary captain flaming hand barbarian~
+the flaming hand mercenary barbarian captain~
+The flaming hand mercenary barbarian captain stands here shouting orders at his soldiers.
+~
+   THis man is huge with a barreled-chest, tree trunks for legs and huge arms.
+He wields a massive two handed hammer in his hands and twin broadswords at his
+hips.  He wears a steel breastplate and leather armor with chain links at the
+vulnerable parts.  His eyes are fierce and stern and it appears as if he has
+little patience for nonsense.  
+~
+bdE 0 0 0 k 0 0 0 0
+18 20 -8 1140d100+290 1d8+0
+1000 0 43 6
+8 8 2
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#2213
+mercenary flaming hand druid captain~
+the flaming hand mercenary druid captain~
+The flaming hand mercenary druid captain is here patiently overseeing his troops.
+~
+   This man is tall and covered head to toe in green plant dye.  He has twin
+glowing scimitars at his belt and wears a suit of brown leather armor.  His eyes
+are serene yet filled with cunning and intensity.  He pets a small badger at his
+side.  
+~
+bdE 0 0 0 k 0 0 0 0
+18 20 -8 760d100+480 1d8+0
+1000 0 42 9
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#2214
+mercenary flaming hand monk captain~
+the flaming hand mercenary monk captain~
+The flaming hand mercenary monk captain oversees the training of his men and women.
+~
+   This tall and well built man has a tonsured head and wears beige robes tied
+with a brown belt.  He wears the chain of his god around his neck and carries in
+his hand a long iron-shod quarterstaff.  His eyes are filled with patience and
+discipline.  
+~
+bdE 0 0 0 k 0 0 0 0
+18 20 -8 855d380+4400 1d8+0
+1000 0 42 4
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 10
+S
+#2215
+mercenary lieutenant flaming hand~
+a flaming hand mercenary lieutenant~
+A flaming hand mercenary lieutenant consults with the commander.
+~
+   This man has risen through the ranks of the band to serve as a lieutenant to
+the captains and commanders of the group.  He wears a suit of banded mail and
+carries a tower shield and long sword.  
+~
+bdD 0 0 0 k 0 0 0 0
+18 20 -8 456d100+460 1d8+0
+500 0 42 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

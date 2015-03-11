@@ -1,0 +1,1719 @@
+#3100
+A Path Through the Forest~
+   This narrow path winds its way through a thick forest.  The path winds its
+way between the trees making it difficult to see anything that is in either
+direction on the path.  The trees are alive with the sounds of forest animals.
+~
+31 0 h 0 0  3
+D6
+~
+~
+0 0 3101 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3113 0 0 0 0 0 0 0 0
+S
+#3101
+Approaching the Outpost~
+   You are at the edge of a large cleared section of the forest.  Dominating
+the clearing is a small fortress.  The emblem of the Seeker's of Haven flies
+from the tops of the four towers on the wooden palisade.  To the southeast a
+narrow path disappears into the thick forest.    
+~
+31 0 h 0 0  3
+D6
+~
+~
+0 0 3102 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3100 0 0 0 0 0 0 0 0
+S
+#3102
+Before the Seeker Outpost~
+   Before you stands the Seeker's outpost near Solace.  Here the Seeker's have
+set up a training camp for new recruits to their priesthood and a place of
+worship for the people of nearby Solace.  The sturdy looking wooden gates are
+usually open to all.  Guards walk the battlements and stand watch in the
+towers.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3103 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3101 0 0 0 0 0 0 0 0
+S
+#3103
+Inside the Outpost's Gates~
+   You stand inside the Seeker's outpost main gates.  The complex resembles a
+military camp more than it does a place of worship.  Two long, low structures
+on the east and west sides of the grounds house the resident Seekers.  A larger
+building against the north wall is the public worship place and where masses
+are held.  A large well dominates the center courtyard of the outpost.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3105 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3104 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3102 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3106 0 0 0 0 0 0 0 0
+S
+#3104
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3118 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3103 0 0 0 0 0 0 0 0
+S
+#3105
+Approaching the Courtyard of the Outpost~
+   The ground here is hard packed from the constant traffic of worshippers
+going to the temple to the north.  Ahead is the center of the complex.  Some
+kind of wooden stake has been driven into the ground in the middle of the
+grounds ahead.  To the south loom the sturdy wooden gates.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3160 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3103 0 0 0 0 0 0 0 0
+S
+#3106
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3103 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3125 0 0 0 0 0 0 0 0
+S
+#3107
+A Hallway in the Acolyte's Barracks~
+   This hallway runs north and south along the length of the building.  Doors
+line the hallway leading to sleeping chambers.  A doorway leads west to the
+common chamber.    
+~
+31 0 h 0 0  0
+D0
+~
+~
+0 0 3108 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3109 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3199 0 0 0 0 0 0 0 0
+S
+#3108
+The End of the Hallway~
+   This is the northern end of the hallway.  Two doors lead off to the east and
+west here.  Muffled voices can be heard behind the doors.  To the south light
+streams in from an open doorway leading west.    
+~
+31 0 h 0 0  0
+D1
+~
+door~
+1 0 3110 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3107 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3111 0 0 0 0 0 0 0 0
+S
+#3109
+The End of the Hallway~
+   This is the southern end of the hallway.  Three doors lead off to the east,
+west, and south.  Muffled voices can be heard behind the doors.  To the north
+light streams into the hallway from an open doorway leading west.    
+~
+31 0 h 0 0  0
+D0
+~
+~
+0 0 3107 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 3112 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 3115 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3114 0 0 0 0 0 0 0 0
+S
+#3110
+An Acolyte's Chambers~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+31 0 h 0 0  0
+D3
+~
+door~
+1 0 3108 0 0 0 0 0 0 0 0
+S
+#3111
+An Acolyte's Chambers~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+31 0 h 0 0  0
+D1
+~
+door~
+1 0 3108 0 0 0 0 0 0 0 0
+S
+#3112
+An Acolyte's Chambers~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+31 0 h 0 0  0
+D3
+~
+door~
+1 0 3109 0 0 0 0 0 0 0 0
+S
+#3113
+A Path Through the Forest~
+   This narrow path winds its way through a thick forest.  The path winds its
+way between the trees making it difficult to see anything that is in either
+direction on the path.  The trees are alive with the sounds of forest animals.
+~
+31 c h 0 0  3
+D6
+~
+~
+0 0 3100 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2911 0 0 0 0 0 0 0 0
+S
+#3114
+An Acolyte's Chambers~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+31 0 h 0 0  0
+D1
+~
+door~
+1 0 3109 0 0 0 0 0 0 0 0
+S
+#3115
+The Master's Chambers~
+   This is the master's chambers.  His room is much larger than the acolytes.
+It sports a real bed, chest of drawers, and a nightstand with a mirror.  A
+small window also looks out onto the courtyard.    
+~
+31 0 h 0 0  0
+D0
+~
+door~
+1 0 3109 0 0 0 0 0 0 0 0
+S
+#3116
+A Prayer Alcove~
+   This is a small alcove in the side of the church.  Here you can have some
+privacy from the rest of the congregation to pray and confess your sins.  A
+small box has been affixed to the wall here.    
+~
+31 fhi h 0 0  0
+D1
+~
+~
+0 0 3177 0 0 0 0 0 0 0 0
+S
+#3117
+A Prayer Alcove~
+   This is a small alcove in the side of the church.  Here you can have some
+privacy from the rest of the congregation to pray and confess your sins.  A
+small box has been affixed to the wall here.    
+~
+31 fhi h 0 0  0
+D3
+~
+~
+0 0 3176 0 0 0 0 0 0 0 0
+S
+#3118
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3119 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3104 0 0 0 0 0 0 0 0
+S
+#3119
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3120 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3118 0 0 0 0 0 0 0 0
+S
+#3120
+At the Base of a Tower~
+   This is the south eastern corner of the outpost.  A small wooden tower has
+been built into the outer wall here.  A sturdy wooden ladder leads up to the
+ramparts atop the walls.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3119 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3152 0 0 0 0 0 0 0 0
+S
+#3121
+Along the Eastern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3120 0 0 0 0 0 0 0 0
+S
+#3122
+Along the Eastern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3121 0 0 0 0 0 0 0 0
+S
+#3123
+Along the Eastern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3124 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3122 0 0 0 0 0 0 0 0
+S
+#3124
+At the Base of a Tower~
+   This is the north eastern corner of the outpost.  A small wooden tower has
+been built into the outer wall here.  A sturdy wooden ladder leads up to the
+ramparts atop the walls.    
+~
+31 0 h 0 0  1
+D2
+~
+~
+0 0 3123 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3140 0 0 0 0 0 0 0 0
+S
+#3125
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3106 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3126 0 0 0 0 0 0 0 0
+S
+#3126
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3125 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3127 0 0 0 0 0 0 0 0
+S
+#3127
+At the Base of a Tower~
+   This is the south western corner of the outpost.  A small wooden tower has
+been built into the outer wall here.  A sturdy wooden ladder leads up to the
+ramparts atop the walls.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3128 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3126 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3144 0 0 0 0 0 0 0 0
+S
+#3128
+Along the Western Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3129 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3127 0 0 0 0 0 0 0 0
+S
+#3129
+Along the Western Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3130 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3128 0 0 0 0 0 0 0 0
+S
+#3130
+Along the Western Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3131 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3129 0 0 0 0 0 0 0 0
+S
+#3131
+At the Base of a Tower~
+   This is the north western corner of the outpost.  A small wooden tower has
+been built into the outer wall here.  A sturdy wooden ladder leads up to the
+ramparts atop the walls.    
+~
+31 0 h 0 0  1
+D2
+~
+~
+0 0 3130 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3132 0 0 0 0 0 0 0 0
+S
+#3132
+At the North West Tower~
+   This is the north west corner of the complex.  A small wooden tower has been
+built into the outer wall here.  A ladder leads down the ground level and
+another one leads up to the top of the tower.  A narrow walkway leads along the
+wall to the south and east.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3133 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3141 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 3157 0 0 0 0 0 0 0 0
+D5
+~
+none~
+0 0 3131 0 0 0 0 0 0 0 0
+S
+#3133
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3134 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3132 0 0 0 0 0 0 0 0
+S
+#3134
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3135 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3133 0 0 0 0 0 0 0 0
+S
+#3135
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3134 0 0 0 0 0 0 0 0
+S
+#3136
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3137 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3135 0 0 0 0 0 0 0 0
+S
+#3137
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3138 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3136 0 0 0 0 0 0 0 0
+S
+#3138
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3139 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3137 0 0 0 0 0 0 0 0
+S
+#3139
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3138 0 0 0 0 0 0 0 0
+S
+#3140
+At the North East Tower~
+   This is the north east corner of the complex.  A small wooden tower has been
+built into the outer wall here.  A ladder leads down the the ground level and
+another one leads up to the top of the tower.  A narrow walkway leads along the
+wall to the south and west.    
+~
+31 0 h 0 0  1
+D2
+~
+~
+0 0 3155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3139 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 3156 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3124 0 0 0 0 0 0 0 0
+S
+#3141
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3132 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3142 0 0 0 0 0 0 0 0
+S
+#3142
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3141 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3143 0 0 0 0 0 0 0 0
+S
+#3143
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3142 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3144 0 0 0 0 0 0 0 0
+S
+#3144
+At the South West Tower~
+   This is the south west corner of the complex.  A small wooden tower has been
+built into the outer wall here.  A ladder leads down the the ground level and
+another one leads up to the top of the tower.  A narrow walkway leads along the
+wall to the north and east.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3143 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3145 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 3158 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3127 0 0 0 0 0 0 0 0
+S
+#3145
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3146 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3144 0 0 0 0 0 0 0 0
+S
+#3146
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3147 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3145 0 0 0 0 0 0 0 0
+S
+#3147
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3148 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3146 0 0 0 0 0 0 0 0
+S
+#3148
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3149 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3147 0 0 0 0 0 0 0 0
+S
+#3149
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3150 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3148 0 0 0 0 0 0 0 0
+S
+#3150
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3151 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3149 0 0 0 0 0 0 0 0
+S
+#3151
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3152 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3150 0 0 0 0 0 0 0 0
+S
+#3152
+At the South East Tower~
+   This is the south east corner of the complex.  A small wooden tower has been
+built into the outer wall here.  A ladder leads down the the ground level and
+another one leads up to the top of the tower.  A narrow walkway leads along the
+wall to the north and west.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3153 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3151 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 3159 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3120 0 0 0 0 0 0 0 0
+S
+#3153
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3152 0 0 0 0 0 0 0 0
+S
+#3154
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3155 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3153 0 0 0 0 0 0 0 0
+S
+#3155
+Walking Along the Ramparts~
+   Wooden torches are set at regular intervals along the walls.  A narrow ledge
+has been built along the wall to defend against anyone trying to scale the
+walls.  The forest has been cut back far enough to give anyone guarding the
+walls time to prepare for an attack.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3140 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3154 0 0 0 0 0 0 0 0
+S
+#3156
+Atop a Tower~
+   You stand atop the north eastern tower of the Seeker's Outpost.  The height
+of the tower provides an excellent view of the lands to the east including the
+north-south road a short distance to the east.  A trapdoor in the middle of the
+floor leads to a ladder leading down.    
+~
+31 0 h 0 0  1
+D5
+~
+trapdoor~
+1 0 3140 0 0 0 0 0 0 0 0
+S
+#3157
+Atop a Tower~
+   You stand atop the north western tower of the Seeker's Outpost.  The height
+provides a good view of the forests to the north and west.  A trapdoor in the
+middle of the floor leads to a ladder leading down.    
+~
+31 0 h 0 0  1
+D5
+~
+trapdoor~
+1 0 3132 0 0 0 0 0 0 0 0
+S
+#3158
+Atop a Tower~
+   You are standing atop the south western tower of the Seeker's Outpost.  
+From here you have a clear view of anyone coming up the path to the gates and a
+clear shot at any potential attackers.  A trapdoor in the floor leads to a
+ladder down.    
+~
+31 0 h 0 0  1
+D5
+~
+trapdoor~
+1 0 3144 0 0 0 0 0 0 0 0
+S
+#3159
+Atop a Tower~
+   You are standing on the top of the south eastern tower of the Seeker's
+Outpost.  From here you have a clear view of anyone coming up the path to the
+gates and a clear shot at any potential attackers.  A trapdoor in the floor
+leads to the a ladder down.    
+~
+31 0 h 0 0  1
+D5
+~
+trapdoor~
+1 0 3152 0 0 0 0 0 0 0 0
+S
+#3160
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3164 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3105 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3161 0 0 0 0 0 0 0 0
+S
+#3161
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3162 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3160 0 0 0 0 0 0 0 0
+S
+#3162
+Before the Seeker's Barracks~
+   This is the main courtyard of the outpost.  The ground here is hard packed
+earth.  To the west stands the barracks for the Seeker priests.  Seeker's and
+other faithful followers of the seeker religion travel about the complex.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3167 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3163 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3161 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3191 0 0 0 0 0 0 0 0
+S
+#3163
+The Center of the Courtyard~
+   This is the center of the courtyard.  A large well stands in the very center
+providing water to the inhabitants of the post.  A large wooden stake for
+burning heretics has also been set up nearby.  The ashes of past victims is
+gathered about the pole.  To the east and west are the barracks for the
+Seeker's.  The temple stands to the north.    
+~
+31 u h 0 0  1
+D0
+~
+~
+0 0 3166 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3165 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3160 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3162 0 0 0 0 0 0 0 0
+S
+#3164
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3165 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3160 0 0 0 0 0 0 0 0
+S
+#3165
+Before the Acolyte's Barracks~
+   This is the main courtyard of the outpost.  To the east stands a long low
+building used to house the aspiring seekers.  The center of the courtyard lies
+to the west.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3168 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 3199 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3164 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3163 0 0 0 0 0 0 0 0
+S
+#3166
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3169 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3168 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3163 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3167 0 0 0 0 0 0 0 0
+S
+#3167
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+~
+31 0 h 0 0  1
+D1
+~
+~
+0 0 3166 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3162 0 0 0 0 0 0 0 0
+S
+#3168
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+~
+31 0 h 0 0  1
+D2
+~
+~
+0 0 3165 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3166 0 0 0 0 0 0 0 0
+S
+#3169
+Approaching the Temple~
+   Seeker's and other faithful followers of that religion travel purposefully
+up and down the path to the temple.  The temple itself is an unimpressive
+structure.  It has a steepled roof and is larger than the other structures in
+the complex but is otherwise unremarkable.    
+~
+31 0 h 0 0  1
+D0
+~
+~
+0 0 3170 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3166 0 0 0 0 0 0 0 0
+S
+#3170
+On the Temple Steps~
+   These are a set of wide wooden steps leading up to the temple doors.  
+Residents and pilgrims to the outpost linger here gossiping or talking about
+the recent sermon.  The doors to the temple stand wide open at the top of the
+steps.    
+~
+31 0 h 0 0  0
+D0
+~
+~
+0 0 3171 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3169 0 0 0 0 0 0 0 0
+S
+#3171
+The Temple Foyer~
+   This is a small entry room just outside the main temple chamber.  The high
+vaulted ceiling makes even the slightest sound echo.  The wooden floor is
+smooth and polished making your footsteps sound loudly.    
+~
+31 0 h 0 0  0
+D0
+~
+~
+0 0 3172 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3170 0 0 0 0 0 0 0 0
+S
+#3172
+The Center Aisle~
+   This is the large worship area of the temple.  Rows of pews stand off to
+either side of the main aisle.  The floor in here is made of wood except for
+the aisle which is covered in a carpet of red dyed animal furs.  Ahead at the
+front of the church is a small raised dias with a wooden podium from which the
+priest preaches.    
+~
+31 0 h 0 0  0
+D0
+~
+~
+0 0 3175 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3173 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3174 0 0 0 0 0 0 0 0
+S
+#3173
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.    
+~
+31 0 h 0 0  0
+D3
+~
+~
+0 0 3172 0 0 0 0 0 0 0 0
+S
+#3174
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.    
+~
+31 0 h 0 0  0
+D1
+~
+~
+0 0 3172 0 0 0 0 0 0 0 0
+S
+#3175
+The Center Aisle~
+   This is the center aisle of the temple.  Long wooden pews are lined up
+facing the raised dias at the front of the temple.  A thick carpet of red dyed
+animal furs muffles your footfalls.    
+~
+31 0 h 0 0  0
+D0
+~
+~
+0 0 3178 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3176 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3172 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3177 0 0 0 0 0 0 0 0
+S
+#3176
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.    
+~
+31 0 h 0 0  0
+D1
+~
+~
+0 0 3117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3175 0 0 0 0 0 0 0 0
+S
+#3177
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.    
+~
+31 0 0 0 0  0
+D1
+~
+~
+0 0 3175 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3116 0 0 0 0 0 0 0 0
+S
+#3178
+The Center Aisle~
+   This is the center aisle of the temple.  Long wooden pews are lined up
+facing the raised dias at the front of the temple.  A thick carpet of red dyed
+animal furs muffles your footfalls.    
+~
+31 0 0 0 0  0
+D0
+~
+~
+0 0 3181 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3179 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3175 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3180 0 0 0 0 0 0 0 0
+S
+#3179
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.    
+~
+31 0 0 0 0  0
+D3
+~
+~
+0 0 3178 0 0 0 0 0 0 0 0
+S
+#3180
+Among the Pews~
+   This is one of many of the long wooden pews that are lined up in the temple.
+Its made of roughly cut wood and looks very uncomfortable to sit on.  Small,
+narrow windows line the walls letting in rays of sunlight.    
+~
+31 0 0 0 0  0
+D1
+~
+~
+0 0 3178 0 0 0 0 0 0 0 0
+S
+#3181
+At the Podium~
+   This is a raised circular platform at the front of the temple.  A large
+wooden podium stands here facing the pews.  From here the Seeker Priests spread
+their teachings to the masses that come here.    
+~
+31 0 0 0 0  0
+D0
+~
+secret~
+1 0 3182 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3178 0 0 0 0 0 0 0 0
+S
+#3182
+Secret Priest's Chambers~
+   This is the secret chamber of the priests.  Here they prepare for sermons
+and await the filling of the temple before the service begins.  A full length
+mirror rests against one wall.  A small table and chair stands in the middle of
+the room.  A set of wooden steps leads down beneath the temple.    
+~
+31 0 0 0 0  0
+D2
+~
+secret~
+1 0 3181 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3183 0 0 0 0 0 0 0 0
+S
+#3183
+At the Bottom of Stairs~
+   This is a small dark chamber.  The only light coming in is down the stairs
+from the room above.  A passage leads off into the darkness south.    
+~
+31 0 0 0 0  0
+D2
+~
+~
+0 0 3184 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3182 0 0 0 0 0 0 0 0
+S
+#3184
+A Dark Underground Passage~
+   The air in this passage is cool.  The dark stone walls press in on each
+side.  A dark wood door rests in the east wall.  Its barely noticeable except
+for the thin sliver of light showing underneath the door.  The passage
+continues to the north and south.    
+~
+31 0 0 0 0  0
+D0
+~
+~
+0 0 3183 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 3185 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3187 0 0 0 0 0 0 0 0
+S
+#3185
+The High Seeker's Chambers~
+   This is the High Seeker's Chambers.  Its far more luxurious than anything
+the rest of the priests have.  Thick furs cover the cold stone floor and a
+large four post bed with a thick mattress and down filled pillows dominates the
+room.  A large wooden desk rests against one wall.  On the east wall a large
+quilt made to represent Abanasinia is hanging on the wall.    
+~
+31 0 0 0 0  0
+D1
+~
+quilt~
+1 0 3186 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3184 0 0 0 0 0 0 0 0
+E
+quilt~
+   The quilt is of exquisite craftsmanship.  As you examine the quilt you
+notice a large vault door with a combination lock set into the wall behind!  
+
+~
+S
+#3186
+Secret Vault~
+   This is the secret vault of the High Seeker.  In here he keeps everything of
+value.  Its a very small cramped room made entirely of some dark metal.    
+~
+31 fghj 0 0 0  0
+D3
+~
+quilt~
+1 0 3185 0 0 0 0 0 0 0 0
+S
+#3187
+A Dark Underground Passage~
+   This is a dark, cool passage.  The only light comes from the north end of
+the passage.  The stone walls are dark and smooth.  It is difficult to tell
+whether they were man made, natural, or carved by magic.    
+~
+31 0 0 0 0  0
+D0
+~
+~
+0 0 3184 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3188 0 0 0 0 0 0 0 0
+S
+#3188
+The End of the Passage~
+   This is the end of a long dark passage.  Two heavy oaken doors are on either
+side of the passage.  Movement can be heard behind the door to the east.  A
+metallic grinding sound is coming from the door to the west.    
+~
+31 0 0 0 0  0
+D0
+~
+~
+0 0 3187 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 3189 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3190 0 0 0 0 0 0 0 0
+S
+#3189
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.    
+~
+31 0 0 0 0  0
+D3
+~
+door~
+1 0 3188 0 0 0 0 0 0 0 0
+S
+#3190
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  A small table rests in the middle of the room.
+Thick leather straps have been attached to the table.    
+~
+31 0 0 0 0  0
+D1
+~
+door~
+1 0 3188 0 0 0 0 0 0 0 0
+S
+#3191
+The Common Room~
+   This is the main chamber of the Seeker's barracks.  Two long tables stand in
+the center of the room.  Here the Seeker's take their meals and gather
+together.  A doorway to the west leads to the sleeping quarters.    
+~
+31 0 0 0 0  0
+D1
+~
+door~
+1 0 3162 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3192 0 0 0 0 0 0 0 0
+S
+#3192
+A Hallway in the Seeker's Barracks~
+   This is a short hallway running the length of the building.  Doors line the
+hallway on both sides.  To the east is the common chamber.    
+~
+31 0 0 0 0  0
+D0
+~
+~
+0 0 3193 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3191 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3194 0 0 0 0 0 0 0 0
+S
+#3193
+The End of the Hallway~
+   This is the northern end of the hallway.  Doors stand on either side of the
+hallway.  The hallway is cold and bare.  No decorations adorn the walls.    
+~
+31 0 0 0 0  0
+D1
+~
+door~
+1 0 3195 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3192 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3196 0 0 0 0 0 0 0 0
+S
+#3194
+The End of the Hallway~
+   This is the southern end of the hallway.  Doors stand on either side of the
+hallway.  The hallway is cold and bare.  No decorations adorn the walls.    
+~
+31 0 0 0 0  0
+D0
+~
+~
+0 0 3192 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 3197 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3198 0 0 0 0 0 0 0 0
+S
+#3195
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+31 0 0 0 0  0
+D3
+~
+door~
+1 0 3193 0 0 0 0 0 0 0 0
+S
+#3196
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+31 0 0 0 0  0
+D1
+~
+door~
+1 0 3193 0 0 0 0 0 0 0 0
+S
+#3197
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+31 0 0 0 0  0
+D3
+~
+door~
+1 0 3194 0 0 0 0 0 0 0 0
+S
+#3198
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+31 0 0 0 0  0
+D1
+~
+door~
+1 0 3194 0 0 0 0 0 0 0 0
+S
+#3199
+The Common Room~
+   This is common room of the acolyte's barracks.  One long table with benches
+runs along one wall.  A large slate board has been hung on the opposite wall.
+Here the acolyte's learn from a resident master the teachings of the Seeker's.
+A doorway leads east to the sleeping chambers.    
+~
+31 0 0 0 0  0
+D1
+~
+~
+0 0 3107 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3165 0 0 0 0 0 0 0 0
+S
+$

@@ -1,0 +1,610 @@
+#100
+marble fountain ironwood~
+a marble fountain~
+A marble fountain formed in the shape of a ironwood tree rests here.~
+Nothing.
+~
+23 C 0 0 0 0 0 0 0 0 0 0 0
+99999999 99999999 15 0 100 100 0 28 23 0 0 0 0 0 268435456 0
+100000004 0 0 0
+Z
+4
+#101
+board todo~
+the to do list board~
+A message board entitled 'to do list' is here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 6 41 0 1 0 0 0 0 0
+0 0 0 0
+Z
+4
+#102
+suggestion brainstorming board~
+the suggestion and brainstorming board~
+This is the ideas board.  Meant for suggestions and brainstorming.~
+~
+30 0 0 0 0 a 0 0 0 0 0 0 0
+1 1 1 0 100 100 0 23 30 0 1 0 0 0 0 0
+500 0 0 0
+Z
+4
+#103
+spellbook book brown well used~
+a brown, well-used spellbook~
+Lying here is an old brown book, it's covered wrinkled by age and use.~
+~
+39 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+5 0 0 0
+Z
+2
+S
+1 2
+S
+20 1
+S
+32 2
+S
+38 2
+S
+62 1
+S
+69 2
+S
+63 1
+S
+64 1
+S
+61 1
+S
+60 1
+#104
+medallion faith~
+a medallion of faith~
+Someone has carelessly left their medallion of faith here.~
+~
+11 i 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 17 11 0 5 0 0 0 256 0
+0 10 0 0
+Z
+3
+#105
+thieves-tools tools thieves basic~
+a set of basic thieves tools~
+A lump of leather, wrapped in on itself, and with many bulges is here.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 12 0 1 0 0 0 0 0
+5 50 0 0
+Z
+4
+#106
+coins coin purse~
+a bulging coin purse~
+A bulging coin purse lies here on the ground.~
+~
+20 0 0 0 0 a 0 0 0 0 0 0 0
+1000 0 0 0 100 100 0 6 20 0 1 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+purse bulging coin coins~
+   This small purse contains 10 steel coins.  To receive the money drop the
+purse and pick it up again.  
+~
+#107
+scroll burning hands~
+a scroll of burning hands~
+A scroll of burning hands lies here on the ground.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 5 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#108
+scroll charm person~
+a scroll of charm person~
+A scroll of charm person lies here on the ground.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 7 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#109
+scroll chill touch~
+a scroll of chill touch~
+A scroll of chill touch lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 8 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#110
+scroll of color spray~
+a scroll of color spray~
+A scroll of color spray lies here on the ground.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 10 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#111
+scroll detect alignment~
+a scroll of detect alignment~
+A scroll of detect alignment lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 18 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#112
+scroll protection evil~
+a scroll of protection from evil~
+A scroll of protection from evil lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 34 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#113
+scroll shocking grasp~
+a scroll of shocking grasp~
+A scroll of shocking grasp lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 37 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#114
+scroll identify~
+a scroll of identify~
+A scroll of identify lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 56 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#115
+scroll shout~
+a scroll of shout~
+A scroll of shout lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 80 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#116
+scroll fear~
+a scroll of fear~
+A scroll of fear lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+1 81 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 1000 0 0
+Z
+4
+#117
+scroll see invisibility~
+a scroll of see invisibility~
+A scroll of see invisibility lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+3 19 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 3000 0 0
+Z
+4
+#118
+scroll invisibility~
+a scroll of invisibility~
+A scroll of invisibility lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+3 29 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 3000 0 0
+Z
+4
+#119
+scroll bull strength~
+a scroll of bull strength~
+A scroll of bull strength lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+3 39 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 3000 0 0
+Z
+4
+#120
+scroll waterwalk~
+a scroll of waterwalk~
+A scroll of waterwalk lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+3 51 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 3000 0 0
+Z
+4
+#121
+scroll summon monster ii~
+a scroll of summon monster ii~
+A scroll of summon monster ii is here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+3 70 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 3000 0 0
+Z
+4
+#122
+scroll blindness~
+a scroll of blindness~
+A scroll of blindness lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+5 4 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 9000 0 0
+Z
+4
+#123
+scroll fireball~
+a scroll of fireball~
+A scroll of fireball lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+5 26 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 9000 0 0
+Z
+4
+#124
+scroll locate object~
+a scroll of locate object~
+A scroll of locate object lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+5 31 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 9000 0 0
+Z
+4
+#125
+scroll hold person~
+a scroll of hold person~
+A scroll of hold person lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+5 53 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 9000 0 0
+Z
+4
+#126
+scroll summon monster iii~
+a scroll of summon monster iii~
+A scroll of summon monster iii lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+5 71 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 9000 0 0
+Z
+4
+#127
+scroll bestow curse~
+a scroll of bestow curse~
+A scroll of bestow curse lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 17 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#128
+scroll word recall~
+a scroll of word of recall~
+A scroll of word of recall lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 42 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#129
+scroll sense life~
+a scroll of sense life~
+A scroll of sense life lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 44 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#130
+scroll animate dead~
+a scroll of animate dead~
+A scroll of animate dead lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 45 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#131
+scroll lesser globe invulnerability~
+a scroll of lesser globe of invulnerability~
+A scroll of lesser globe of invulnerability lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 66 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#132
+scroll stoneskin~
+a scroll of stoneskin~
+A scroll of stoneskin lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 67 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#133
+scroll summon monster iv~
+a scroll of summon monster iv~
+A scroll of summon monster iv lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 72 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#134
+scroll fire shield~
+a scroll of fire shield~
+A scroll of fire shield lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 78 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#135
+scroll ice storm~
+a scroll of ice storm~
+A scroll of ice storm lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+27000 79 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#136
+scroll baleful polymorph~
+a scroll of baleful polymorph~
+A scroll of baleful polymorph lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+7 87 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 27000 0 0
+Z
+4
+#137
+scroll enchant weapon~
+a scroll of enchant weapon~
+A scroll of enchant weapon lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+9 24 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 81000 0 0
+Z
+4
+#138
+scroll summon monster v~
+a scroll of summon monster v~
+A scroll of summon monster v lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+9 73 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 81000 0 0
+Z
+4
+#139
+scroll cloudkill~
+a scroll of cloudkill~
+A scroll of cloudkill lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+9 82 0 0 1 1 0 16 2 0 1 0 0 0 0 0
+0 81000 0 0
+Z
+4
+#140
+scroll hold monster~
+a scroll of hold monster~
+A scroll of hold monster lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+9 84 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 81000 0 0
+Z
+4
+#141
+scroll cone cold~
+a scroll of cone of cold~
+A scroll of cone of cold lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+9 85 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 81000 0 0
+Z
+4
+#142
+scroll passwall~
+a scroll of passwall~
+A scroll of passwall lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+9 88 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 81000 0 0
+Z
+4
+#143
+scroll summon monster vi~
+a scroll of summon monster vi~
+A scroll of summon monster vi lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+11 74 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 243000 0 0
+Z
+4
+#144
+scroll summon monster vii~
+a scroll of summon monster vii~
+A scroll of summon monster vii lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+13 75 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 713700 0 0
+Z
+4
+#145
+scroll teleport~
+a scroll of teleport~
+A scroll of teleport lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+13 2 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 731700 0 0
+Z
+4
+#146
+scroll summon monster viii~
+a scroll of summon monster viii~
+A scroll of summon monster viii lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+15 76 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 2000000 0 0
+Z
+4
+#147
+scroll portal~
+a scroll of portal~
+A scroll of portal lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+17 52 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 2000000 0 0
+Z
+4
+#148
+scroll summon monster ix~
+a scroll of summon monster ix~
+A scroll of summon monster ix lies here.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+17 77 0 0 100 100 0 16 2 0 1 0 0 0 0 0
+0 2000000 0 0
+Z
+4
+#149
+scroll blank~
+a blank scroll~
+A rolled-up piece of parchment lies here on the ground.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 16 2 0 1 0 0 0 0 0
+0 750 0 0
+Z
+4
+#150
+map solace rolled parchment~
+a map of solace~
+A rolled up piece of parchment rocks back and forth in the breeze.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16 12 0 1 0 0 0 0 0
+0 50 0 0
+Z
+4
+E
+map solace rolled parchment~
+
+############################################################
+##          M A P   O F   B R Y N   S H A N D E R         ##
+############################################################
+#         GROUND LEVEL            #       BRIDGEWALKS      #
+#                                 #                        #
+#                          _____5 #              J         #
+#     ^                   /       #          ____|         #
+# 1---|                  |^       #       __/     \____    #
+#     |        A     ____|        #      /             \   #
+#     |________|____/    |        #     v              |-v #
+#    /     |       |     |-F      #      \     v       |   #
+#   /    D-|   &   |^    |        #      |   G-|-H     |   #
+#  2       |       |     |        #      --------------v   #
+#          ---------\    |-|      #            |           #
+#              | B-| \___| ^      #            I           #
+#           E---   C     |        #                        #
+#                        |        #                        #
+#                       / \       #                        #
+#                      /   \      #                        #
+#                     3     4     #                        #
+#                                 #                        #
+############################################################
+## A - Inn         # B - Armor Shop   # C - Weapon Shop   ##
+## D - Library     # E - Training Pit # F - Guildmaster   ##
+## G - Pawn Shop   # H - Gen. Store   # I - Bank          ##
+## J - Magic Shop  # 1 - To Lake      # 2 - To Grove      ##
+## 3 - South Road  # 4 - To Temple    # 5 - East Road     ##
+## ^ - Stairs Up   # v - Stairs Down  # & - Fountain      ##
+############################################################
+~
+#151
+wooden torch~
+a wooden torch~
+Someone has dropped a wooden torch here.~
+~
+1 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 2400 0 100 100 0 8 0 0 0 0 0 0 0 0
+2 1 10 0
+Z
+3
+#152
+lantern gnomish powered copper~
+a gnomish powered copper lantern~
+A gnomish powered copper lantern lies here, ever-glowing and threatening to explode.~
+~
+1 0 0 0 0 alo 0 0 0 0 0 0 0
+0 0 -1 0 100 100 0 7 0 0 0 0 0 0 0 0
+100 2000 0 3
+Z
+2
+#153
+workbench mending~
+a mending workbench~
+A mending workbench is here against the far wall.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+5
+#199
+corpse~
+the corpse object~
+The corpse object lies here.~
+~
+0 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+$~

@@ -1,0 +1,4717 @@
+#50500
+The High Road: near Neverwinter~
+The High Road passes near the city of Neverwinter here, which is one of the most
+important settlements along the Sword Coast.  This part of the road is always
+busy as goods flow to and from Luskan to the north, and Waterdeep to the south.
+There are always groups of marching soldiers trudging along, keeping order
+amidst the constant bustle of traffic.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50143 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 50138 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50503 0 0 0 0 0 0 0 0
+S
+#50501
+The road to Neverwinter~
+This small branching road leads toward the city of Neverwinter, a cosmopolitan
+settlement famous throughout the realms for its beauty, wealth and high degree
+of civilization.  You can see the sweeping array of rooftops and towers off in
+the distance to the northeast.  
+~
+505 p 0 0 0 2
+D7
+~
+~
+0 0 50502 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50506 0 0 0 0 0 0 0 0
+S
+#50502
+The road to Neverwinter~
+This small branching road leads toward the city of Neverwinter, a cosmopolitan
+settlement famous throughout the realms for its beauty, wealth and high degree
+of civilization.  You can see the sweeping array of rooftops and towers off in
+the distance to the northeast.  
+~
+505 p 0 0 0 2
+D1
+~
+~
+0 0 50783 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50501 0 0 0 0 0 0 0 0
+S
+#50503
+The High Road: near Neverwinter~
+The High Road passes near the city of Neverwinter here, which is one of the most
+important settlements along the Sword Coast.  This part of the road is always
+busy as goods flow to and from Luskan to the north, and Waterdeep to the south.
+There are always groups of marching soldiers trudging along, keeping order
+amidst the constant bustle of traffic.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50500 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50504 0 0 0 0 0 0 0 0
+S
+#50504
+The High Road: near Neverwinter~
+The High Road passes near the city of Neverwinter here, which is one of the most
+important settlements along the Sword Coast.  This part of the road is always
+busy as goods flow to and from Luskan to the north, and Waterdeep to the south.
+There are always groups of marching soldiers trudging along, keeping order
+amidst the constant bustle of traffic.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50503 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50505 0 0 0 0 0 0 0 0
+S
+#50505
+The High Road: Southern Intersection with Neverwinter~
+   The High Road approaches the city of Neverwinter here, which is one of the
+most important settlements along the Sword Coast.  This part of the road is
+always busy as goods flow to and from Luskan to the north, and Waterdeep to the
+south.  There are always groups of marching soldiers trudging along, keeping
+order amidst the constant bustle of traffic.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50504 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50507 0 0 0 0 0 0 0 0
+S
+#50506
+The road to Neverwinter~
+This small branching road leads toward the city of Neverwinter, a cosmopolitan
+settlement famous throughout the realms for its beauty, wealth and high degree
+of civilization.  You can see the sweeping array of rooftops and towers off in
+the distance to the northeast.  
+~
+505 p 0 0 0 2
+D3
+~
+~
+0 0 50144 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50501 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50507
+The High Road: Southern Intersection with Neverwinter~
+   The High Road approaches the city of Neverwinter here, which is one of the
+most important settlements along the Sword Coast.  This part of the road is
+always busy as goods flow to and from Luskan to the north, and Waterdeep to the
+south.  There are always groups of marching soldiers trudging along, keeping
+order amidst the constant bustle of traffic.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50505 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50508 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50508
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50507 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50509 0 0 0 0 0 0 0 0
+S
+#50509
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50508 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50511 0 0 0 0 0 0 0 0
+S
+#50511
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50509 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50512 0 0 0 0 0 0 0 0
+S
+#50512
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50511 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50513 0 0 0 0 0 0 0 0
+S
+#50513
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50512 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50514 0 0 0 0 0 0 0 0
+S
+#50514
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50513 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50515 0 0 0 0 0 0 0 0
+S
+#50515
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50514 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50516 0 0 0 0 0 0 0 0
+S
+#50516
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50515 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50517 0 0 0 0 0 0 0 0
+S
+#50517
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50516 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50518 0 0 0 0 0 0 0 0
+S
+#50518
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50517 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50519 0 0 0 0 0 0 0 0
+S
+#50519
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50518 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50521 0 0 0 0 0 0 0 0
+S
+#50521
+The High Road: between Neverwinter and Waterdeep~
+The High Road connects Neverwinter with Waterdeep, serving as one of northern
+Faerun's most vital links.  Its importance is underscored by the excellent
+condition of the road.  Despite the heavy traffic it receives daily, the highway
+is almost perfectly level and clear of debris.  The well-groomed gravel surface
+has virtually no potholes at all and contains only a few minor wheel ruts.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50519 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50522 0 0 0 0 0 0 0 0
+S
+#50522
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50523 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50521 0 0 0 0 0 0 0 0
+S
+#50523
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50522 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50524 0 0 0 0 0 0 0 0
+S
+#50524
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50523 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50525 0 0 0 0 0 0 0 0
+S
+#50525
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50524 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50526 0 0 0 0 0 0 0 0
+S
+#50526
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50525 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50527 0 0 0 0 0 0 0 0
+S
+#50527
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50526 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50528 0 0 0 0 0 0 0 0
+S
+#50528
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50527 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50529 0 0 0 0 0 0 0 0
+S
+#50529
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50528 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50531 0 0 0 0 0 0 0 0
+S
+#50531
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50529 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50532 0 0 0 0 0 0 0 0
+S
+#50532
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50531 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50533 0 0 0 0 0 0 0 0
+S
+#50533
+The High Road: between Neverwinter and Waterdeep~
+There is a roughshod wooden fence lining each side of the highway here,
+presumably to keep wild animals off the road.  Horse-drawn carts and convoys of
+pack mules pass by regularly, transporting trade goods north or south.  Every
+now and then a squad of armed guards sweeps by on horseback, keeping an eye on
+things to make sure no one stirs up trouble.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50532 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50534 0 0 0 0 0 0 0 0
+S
+#50534
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50535 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50533 0 0 0 0 0 0 0 0
+S
+#50535
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50534 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50536 0 0 0 0 0 0 0 0
+S
+#50536
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50535 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50537 0 0 0 0 0 0 0 0
+S
+#50537
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50536 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50538 0 0 0 0 0 0 0 0
+S
+#50538
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50537 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50539 0 0 0 0 0 0 0 0
+S
+#50539
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50538 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50541 0 0 0 0 0 0 0 0
+S
+#50541
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50539 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50542 0 0 0 0 0 0 0 0
+S
+#50542
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50541 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50543 0 0 0 0 0 0 0 0
+S
+#50543
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50542 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50544 0 0 0 0 0 0 0 0
+S
+#50544
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50543 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50545 0 0 0 0 0 0 0 0
+S
+#50545
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50544 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50546 0 0 0 0 0 0 0 0
+S
+#50546
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50545 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50547 0 0 0 0 0 0 0 0
+S
+#50547
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50546 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50548 0 0 0 0 0 0 0 0
+S
+#50548
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50547 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50549 0 0 0 0 0 0 0 0
+S
+#50549
+The High Road: between Neverwinter and Waterdeep~
+The surroundings here are rather plain; nothing more than empty grassland as far
+as the eye can see.  The High Road crosses this countryside, serving as the main
+trade route between Neverwinter and Waterdeep.  Little clouds of dust are
+stirred up as merchants' wagons drive past.  The high frequency of traffic along
+the road means that regular guard patrols are necessary to keep preying bandits
+in check.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50548 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50551 0 0 0 0 0 0 0 0
+S
+#50551
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50552 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50549 0 0 0 0 0 0 0 0
+S
+#50552
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50551 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50553 0 0 0 0 0 0 0 0
+S
+#50553
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50552 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50554 0 0 0 0 0 0 0 0
+S
+#50554
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50553 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50555 0 0 0 0 0 0 0 0
+S
+#50555
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50554 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50556 0 0 0 0 0 0 0 0
+S
+#50556
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50555 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50557 0 0 0 0 0 0 0 0
+S
+#50557
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50556 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50558 0 0 0 0 0 0 0 0
+S
+#50558
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50557 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50559 0 0 0 0 0 0 0 0
+S
+#50559
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50558 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50561 0 0 0 0 0 0 0 0
+S
+#50561
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50559 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50562 0 0 0 0 0 0 0 0
+S
+#50562
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50561 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50563 0 0 0 0 0 0 0 0
+S
+#50563
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50562 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50564 0 0 0 0 0 0 0 0
+S
+#50564
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50563 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50565 0 0 0 0 0 0 0 0
+S
+#50565
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50564 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50566 0 0 0 0 0 0 0 0
+S
+#50566
+The High Road: between Neverwinter and Waterdeep~
+This section of road moves through a landscape of empty pastures and dead
+meadows.  There are a few shrub-like bushes and the occasional crooked tree
+standing in the fields, but for the most part there is very little large
+vegetation.  The High Road passes through here, a perfectly straight, grey blade
+of gravel slashing through a canvas of yellow grassland.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50565 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50567 0 0 0 0 0 0 0 0
+S
+#50567
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50568 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50566 0 0 0 0 0 0 0 0
+S
+#50568
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50567 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50569 0 0 0 0 0 0 0 0
+S
+#50569
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50568 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50570 0 0 0 0 0 0 0 0
+S
+#50570
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50569 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50571 0 0 0 0 0 0 0 0
+S
+#50571
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50570 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50573 0 0 0 0 0 0 0 0
+S
+#50573
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50574 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50571 0 0 0 0 0 0 0 0
+S
+#50574
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50573 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50575 0 0 0 0 0 0 0 0
+S
+#50575
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50574 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50576 0 0 0 0 0 0 0 0
+S
+#50576
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50575 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50577 0 0 0 0 0 0 0 0
+S
+#50577
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50576 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50578 0 0 0 0 0 0 0 0
+S
+#50578
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50577 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50580 0 0 0 0 0 0 0 0
+S
+#50580
+The High Road: between Neverwinter and Waterdeep~
+Barren countryside stretches out as far as the eye can see.  The road is
+well-traveled, and sliced in places by wheel ruts from passing wagons.  This is
+the main overland trade route between Neverwinter and Waterdeep.  Hundreds of
+people and thousands of pounds of goods pass through here every day.  There is
+not much to see around these parts except for empty plains and the occasional
+lonely coyote off in the distance.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50578 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50581 0 0 0 0 0 0 0 0
+S
+#50581
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50582 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50580 0 0 0 0 0 0 0 0
+S
+#50582
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50581 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50583 0 0 0 0 0 0 0 0
+S
+#50583
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50582 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50584 0 0 0 0 0 0 0 0
+S
+#50584
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50583 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50585 0 0 0 0 0 0 0 0
+S
+#50585
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50584 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50586 0 0 0 0 0 0 0 0
+S
+#50586
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50585 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50587 0 0 0 0 0 0 0 0
+S
+#50587
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50586 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50588 0 0 0 0 0 0 0 0
+S
+#50588
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50587 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50589 0 0 0 0 0 0 0 0
+S
+#50589
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50588 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50590 0 0 0 0 0 0 0 0
+S
+#50590
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50592 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50589 0 0 0 0 0 0 0 0
+S
+#50592
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50593 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50590 0 0 0 0 0 0 0 0
+S
+#50593
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50592 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50594 0 0 0 0 0 0 0 0
+S
+#50594
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50593 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50595 0 0 0 0 0 0 0 0
+S
+#50595
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50594 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50596 0 0 0 0 0 0 0 0
+S
+#50596
+The High Road: between Neverwinter and Waterdeep~
+The great High Road passes through grassy fields and low, rolling hills as it
+winds its way up the Sword Coast between Waterdeep and Neverwinter.  Frequent
+highway patrols ensure the safety of all travelers and regular maintenance crews
+make sure the road itself is in good condition.  You never know who you might
+meet on the High Road; merchants and mercenaries, paupers and priests, and
+everybody else in between travel along this route daily.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50595 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50597 0 0 0 0 0 0 0 0
+S
+#50597
+The High Road: near the Mere of Dead Men~
+The ground is wet and spongy on either side of the road, which has been built at
+an elevated height to keep it from flooding.  Now and again, a layer of cold,
+ankle-high mist blows in from the murky swampland to the south.  If you stand
+and listen for long enough, you can hear an ominous growling sound drifting in
+with the wind.  The High Road continues its way northwest and southeast.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50596 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50598 0 0 0 0 0 0 0 0
+S
+#50598
+The High Road: near the Mere of Dead Men~
+The ground is wet and spongy on either side of the road, which has been built at
+an elevated height to keep it from flooding.  Now and again, a layer of cold,
+ankle-high mist blows in from the murky swampland to the south.  If you stand
+and listen for long enough, you can hear an ominous growling sound drifting in
+with the wind.  The High Road continues its way east and northwest.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50599 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50597 0 0 0 0 0 0 0 0
+S
+#50599
+The High Road: near the Mere of Dead Men~
+The ground is wet and spongy on either side of the road, which has been built at
+an elevated height to keep it from flooding.  Now and again, a layer of cold,
+ankle-high mist blows in from the murky swampland to the south.  If you stand
+and listen for long enough, you can hear an ominous growling sound drifting in
+with the wind.  The High Road continues its way east and west.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50601 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50598 0 0 0 0 0 0 0 0
+S
+#50601
+The High Road: near the Mere of Dead Men~
+The ground is wet and spongy on either side of the road, which has been built at
+an elevated height to keep it from flooding.  Now and again, a layer of cold,
+ankle-high mist blows in from the murky swampland to the south.  If you stand
+and listen for long enough, you can hear an ominous growling sound drifting in
+with the wind.  The High Road continues its way east and west.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50602 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50599 0 0 0 0 0 0 0 0
+S
+#50602
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50601 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50603 0 0 0 0 0 0 0 0
+S
+#50603
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50602 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50604 0 0 0 0 0 0 0 0
+S
+#50604
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50603 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50605 0 0 0 0 0 0 0 0
+S
+#50605
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50604 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50606 0 0 0 0 0 0 0 0
+S
+#50606
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50605 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50607 0 0 0 0 0 0 0 0
+S
+#50607
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50606 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50608 0 0 0 0 0 0 0 0
+S
+#50608
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50607 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50609 0 0 0 0 0 0 0 0
+S
+#50609
+The High Road: near the Mere of Dead Men~
+The road passes near the Mere of Dead Men here, which is a flooded saltwater
+swamp famous for its collection of yuan-ti and powerful undead monsters.  
+Fortunately, very few of these creatures ever venture anywhere near the highway.
+Nevertheless, it is wise to keep a vigilant lookout just in case one of them
+happens to wander too far from its home.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50608 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50610 0 0 0 0 0 0 0 0
+S
+#50610
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50612 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50609 0 0 0 0 0 0 0 0
+S
+#50612
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50610 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50613 0 0 0 0 0 0 0 0
+S
+#50613
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50612 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50614 0 0 0 0 0 0 0 0
+S
+#50614
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50613 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50615 0 0 0 0 0 0 0 0
+S
+#50615
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50614 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50616 0 0 0 0 0 0 0 0
+S
+#50616
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50615 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50617 0 0 0 0 0 0 0 0
+S
+#50617
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50616 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50618 0 0 0 0 0 0 0 0
+S
+#50618
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50617 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50619 0 0 0 0 0 0 0 0
+S
+#50619
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50618 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50621 0 0 0 0 0 0 0 0
+S
+#50621
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50619 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50622 0 0 0 0 0 0 0 0
+S
+#50622
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50621 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50623 0 0 0 0 0 0 0 0
+S
+#50623
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50622 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50624 0 0 0 0 0 0 0 0
+S
+#50624
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50625 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50623 0 0 0 0 0 0 0 0
+S
+#50625
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50624 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50626 0 0 0 0 0 0 0 0
+S
+#50626
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50625 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50627 0 0 0 0 0 0 0 0
+S
+#50627
+The High Road: near the Mere of Dead Men~
+The High Road skirts the edge of the swamp.  Off to the west you can see the
+vast expanse of the marshland, which is tucked away within a low-hanging cloud
+of white mist.  Deep ditches have been dug parallel to the road on each side to
+collect rainwater and swamp runoff.  There are noticeable areas in the road
+where the gravel has been swept away by the frequent washouts.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50626 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50628 0 0 0 0 0 0 0 0
+S
+#50628
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50627 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50629 0 0 0 0 0 0 0 0
+S
+#50629
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50628 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50631 0 0 0 0 0 0 0 0
+S
+#50631
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50629 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50632 0 0 0 0 0 0 0 0
+S
+#50632
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50631 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50633 0 0 0 0 0 0 0 0
+S
+#50633
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50632 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50634 0 0 0 0 0 0 0 0
+S
+#50634
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50633 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50635 0 0 0 0 0 0 0 0
+S
+#50635
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50634 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50636 0 0 0 0 0 0 0 0
+S
+#50636
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50635 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50637 0 0 0 0 0 0 0 0
+S
+#50637
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50636 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50638 0 0 0 0 0 0 0 0
+S
+#50638
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50637 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50640 0 0 0 0 0 0 0 0
+S
+#50640
+The High Road: near the Mere of Dead Men~
+The elevated highway is in good shape, but the ground off to either side is
+soggy and wet.  Northeast of here, the High Road winds its way around the
+infamous swampland known as the Mere of Dead Men.  To the south, the jagged
+rocky peaks of the Sword Mountains rise up in the distance.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50641 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50638 0 0 0 0 0 0 0 0
+S
+#50641
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50640 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50642 0 0 0 0 0 0 0 0
+S
+#50642
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50641 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50643 0 0 0 0 0 0 0 0
+S
+#50643
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50642 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50644 0 0 0 0 0 0 0 0
+S
+#50644
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50643 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50645 0 0 0 0 0 0 0 0
+S
+#50645
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50644 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50646 0 0 0 0 0 0 0 0
+S
+#50646
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50645 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50647 0 0 0 0 0 0 0 0
+S
+#50647
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50646 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50648 0 0 0 0 0 0 0 0
+S
+#50648
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50647 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50649 0 0 0 0 0 0 0 0
+S
+#50649
+The High Road: near the Sword Mountains~
+The road slopes abruptly upwards to the south as it enters the reaches of the
+Sword Mountains.  This mountain range, famous for its large population of
+aggressive orcs, acts as a sort of buffer zone between Neverwinter and
+Waterdeep, making travel between the two great cities more difficult than it
+would otherwise be.  Nevertheless, trading groups pass through the mountains
+almost daily despite the elevated terrain, colder temperatures, and the
+dangerous possibility of encountering hostile orcs.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50648 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50650 0 0 0 0 0 0 0 0
+S
+#50650
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50649 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50652 0 0 0 0 0 0 0 0
+S
+#50652
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50650 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50653 0 0 0 0 0 0 0 0
+S
+#50653
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50652 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50654 0 0 0 0 0 0 0 0
+S
+#50654
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50653 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50655 0 0 0 0 0 0 0 0
+S
+#50655
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50654 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50656 0 0 0 0 0 0 0 0
+S
+#50656
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50655 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50657 0 0 0 0 0 0 0 0
+S
+#50657
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50656 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50658 0 0 0 0 0 0 0 0
+S
+#50658
+The High Road: within the Sword Mountains~
+Icy streaks of frost crisscross the crushed stone surface of the highway.  The
+quietness of the mountains is striking; now and again there is a resounding
+clack as a dislodged stone falls down onto the rocks from above, but for the
+most part it is absolutely still and silent here.  The everpresent coldness
+creeps into your body, burrowing deep into your bones.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50657 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50659 0 0 0 0 0 0 0 0
+S
+#50659
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50661 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50658 0 0 0 0 0 0 0 0
+S
+#50661
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50662 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50659 0 0 0 0 0 0 0 0
+S
+#50662
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50663 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50661 0 0 0 0 0 0 0 0
+S
+#50663
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50664 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50662 0 0 0 0 0 0 0 0
+S
+#50664
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50665 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50663 0 0 0 0 0 0 0 0
+S
+#50665
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50666 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50664 0 0 0 0 0 0 0 0
+S
+#50666
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50665 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50667 0 0 0 0 0 0 0 0
+S
+#50667
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50668 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50666 0 0 0 0 0 0 0 0
+S
+#50668
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50669 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50667 0 0 0 0 0 0 0 0
+S
+#50669
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50671 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50668 0 0 0 0 0 0 0 0
+S
+#50671
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50672 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50669 0 0 0 0 0 0 0 0
+S
+#50672
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50671 0 0 0 0 0 0 0 0
+S
+#50673
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50674 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50672 0 0 0 0 0 0 0 0
+S
+#50674
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50673 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50675 0 0 0 0 0 0 0 0
+S
+#50675
+The High Road: within the Sword Mountains~
+The mountains appear to have been blasted apart by magic here, creating a gap
+wide enough for the road to pass through.  There is little snow, but long
+icicles hang down from the surrounding rock walls.  The road itself is a bit
+rough, but still of quite high quality; certainly good enough to allow the
+typical wagon train to pass through unhindered.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50674 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50676 0 0 0 0 0 0 0 0
+S
+#50676
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50675 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 50677 0 0 0 0 0 0 0 0
+S
+#50677
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50678 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50676 0 0 0 0 0 0 0 0
+S
+#50678
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50679 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50677 0 0 0 0 0 0 0 0
+S
+#50679
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50678 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50680 0 0 0 0 0 0 0 0
+S
+#50680
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50679 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50681 0 0 0 0 0 0 0 0
+S
+#50681
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50683 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50680 0 0 0 0 0 0 0 0
+S
+#50683
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50685 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50681 0 0 0 0 0 0 0 0
+S
+#50685
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50686 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50683 0 0 0 0 0 0 0 0
+S
+#50686
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50687 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50685 0 0 0 0 0 0 0 0
+S
+#50687
+The High Road: within the Sword Mountains~
+Your boots crunch heavily on the frozen gravel of this section of the High Road,
+which cuts through the great Sword Mountains.  Your breath turns immediately
+into puffs of white fog as it exits your nose and mouth into the surrounding
+cold air.  The sides of the highway are lined with tall, wooden poles, which
+serve as a protective barrier from mountain rock slides.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50686 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50688 0 0 0 0 0 0 0 0
+S
+#50688
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50687 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 50689 0 0 0 0 0 0 0 0
+S
+#50689
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50690 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50688 0 0 0 0 0 0 0 0
+S
+#50690
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50691 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50689 0 0 0 0 0 0 0 0
+S
+#50691
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50690 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50692 0 0 0 0 0 0 0 0
+S
+#50692
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50691 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50693 0 0 0 0 0 0 0 0
+S
+#50693
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50692 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50694 0 0 0 0 0 0 0 0
+S
+#50694
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50693 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50695 0 0 0 0 0 0 0 0
+S
+#50695
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50697 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50694 0 0 0 0 0 0 0 0
+S
+#50697
+The High Road: within the Sword Mountains~
+A bone-chilling fog hangs heavy in the air and the surrounding stone of the
+mountains is streaked with frost.  The road leads through the mist, which
+obscures visibility to a dangerous degree.  It is easy to become nervous
+traveling through the Sword Mountains, which are home to many bands of orcish
+bandits.  But, because the High Road is the most direct route from Neverwinter
+to Waterdeep, traders have no choice but to come this way.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50698 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50695 0 0 0 0 0 0 0 0
+S
+#50698
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50697 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50699 0 0 0 0 0 0 0 0
+S
+#50699
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50698 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50700 0 0 0 0 0 0 0 0
+S
+#50700
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50699 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50701 0 0 0 0 0 0 0 0
+S
+#50701
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50700 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50702 0 0 0 0 0 0 0 0
+S
+#50702
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50701 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50703 0 0 0 0 0 0 0 0
+S
+#50703
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50705 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50702 0 0 0 0 0 0 0 0
+S
+#50705
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50706 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50703 0 0 0 0 0 0 0 0
+S
+#50706
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D8
+~
+~
+0 0 50707 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50705 0 0 0 0 0 0 0 0
+S
+#50707
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50706 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50708 0 0 0 0 0 0 0 0
+S
+#50708
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50707 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50709 0 0 0 0 0 0 0 0
+S
+#50709
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50708 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50710 0 0 0 0 0 0 0 0
+S
+#50710
+The High Road: within the Sword Mountains~
+The highway becomes a long switchback here as it works its way up a particularly
+steep slope.  A vertical cliff drops off on the side of the road, plunging down
+into a deep gorge.  Luckily, mountain road crews keep the route well-maintained,
+so there is little danger of falling if you keep away from the edge.  In
+addition to covered wagons, convoys of donkeys and pack mules are often used to
+transport goods through here.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50711 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50709 0 0 0 0 0 0 0 0
+S
+#50711
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50710 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50712 0 0 0 0 0 0 0 0
+S
+#50712
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50711 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50713 0 0 0 0 0 0 0 0
+S
+#50713
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50712 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50714 0 0 0 0 0 0 0 0
+S
+#50714
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50713 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50715 0 0 0 0 0 0 0 0
+S
+#50715
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50716 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50714 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50716
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50718 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50715 0 0 0 0 0 0 0 0
+S
+#50718
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50719 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50716 0 0 0 0 0 0 0 0
+S
+#50719
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50720 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50718 0 0 0 0 0 0 0 0
+S
+#50720
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50719 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50721 0 0 0 0 0 0 0 0
+S
+#50721
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50720 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50723 0 0 0 0 0 0 0 0
+S
+#50723
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50721 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50724 0 0 0 0 0 0 0 0
+S
+#50724
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50723 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50725 0 0 0 0 0 0 0 0
+S
+#50725
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50726 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50724 0 0 0 0 0 0 0 0
+S
+#50726
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50727 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50725 0 0 0 0 0 0 0 0
+S
+#50727
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50728 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50726 0 0 0 0 0 0 0 0
+S
+#50728
+The High Road: within the Sword Mountains~
+Traces of snow line each side of the road, a permanent effect of the high
+altitude of the Sword Mountains.  The towering rocky peaks surrounding the High
+Road are breathtaking, as is the bitterly cold air up here.  Occasionally, there
+are broken spear shafts or ragged remnants of cloth off to the side; ominous
+reminders that you are not alone within these mountains.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50729 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50727 0 0 0 0 0 0 0 0
+S
+#50729
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50728 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50730 0 0 0 0 0 0 0 0
+S
+#50730
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50731 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50729 0 0 0 0 0 0 0 0
+S
+#50731
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D7
+~
+~
+0 0 50732 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50730 0 0 0 0 0 0 0 0
+S
+#50732
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D8
+~
+~
+0 0 50733 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50731 0 0 0 0 0 0 0 0
+S
+#50733
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50732 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50734 0 0 0 0 0 0 0 0
+S
+#50734
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50733 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50736 0 0 0 0 0 0 0 0
+S
+#50736
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50734 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50737 0 0 0 0 0 0 0 0
+S
+#50737
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50736 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50738 0 0 0 0 0 0 0 0
+S
+#50738
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50739 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50737 0 0 0 0 0 0 0 0
+S
+#50739
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50741 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50738 0 0 0 0 0 0 0 0
+S
+#50741
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50742 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50739 0 0 0 0 0 0 0 0
+S
+#50742
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50743 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50741 0 0 0 0 0 0 0 0
+S
+#50743
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50744 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50742 0 0 0 0 0 0 0 0
+S
+#50744
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50743 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50745 0 0 0 0 0 0 0 0
+S
+#50745
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50744 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50746 0 0 0 0 0 0 0 0
+S
+#50746
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50745 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50747 0 0 0 0 0 0 0 0
+S
+#50747
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50748 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50746 0 0 0 0 0 0 0 0
+S
+#50748
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50750 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50747 0 0 0 0 0 0 0 0
+S
+#50750
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50751 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50748 0 0 0 0 0 0 0 0
+S
+#50751
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50752 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50750 0 0 0 0 0 0 0 0
+S
+#50752
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50751 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50753 0 0 0 0 0 0 0 0
+S
+#50753
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50752 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50754 0 0 0 0 0 0 0 0
+S
+#50754
+The High Road: within the Sword Mountains~
+There is a slight chill in the air here.  All around, the rocky spires of the
+Sword Mountains rise up, dwarfing everything.  The road is narrower within the
+mountains, but still wide enough to allow trade wagons to pass through
+unhindered.  Of course, there is always the ever-present threat of orc raiders,
+who have been known to inhabit this area.  The High Road continues through the
+mountain range.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50753 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50755 0 0 0 0 0 0 0 0
+S
+#50755
+The High Road: near the Sword Mountains~
+   The rocky expanse of the Sword Mountains dominates the view to the north and
+west.  The High Road slopes gently upwards, leading into the great mountain
+range.  There are a few wheel ruts in the gravel, but overall this road is quite
+well taken care of.  It continues north and southeast.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50754 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50756 0 0 0 0 0 0 0 0
+S
+#50756
+The High Road: near the Sword Mountains~
+   The rocky expanse of the Sword Mountains dominates the view to the north and
+west.  The High Road slopes gently upwards, leading into the great mountain
+range.  There are a few wheel ruts in the gravel, but overall this road is quite
+well taken care of.  It continues northwest and southeast.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50755 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50757 0 0 0 0 0 0 0 0
+S
+#50757
+The High Road: near the Sword Mountains~
+   The rocky expanse of the Sword Mountains dominates the view to the north and
+west.  The High Road slopes gently upwards, leading into the great mountain
+range.  There are a few wheel ruts in the gravel, but overall this road is quite
+well taken care of.  It continues northwest and southeast.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50756 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50758 0 0 0 0 0 0 0 0
+S
+#50758
+The High Road: near the Sword Mountains~
+   The rocky expanse of the Sword Mountains dominates the view to the north and
+west.  The High Road slopes gently upwards, leading into the great mountain
+range.  There are a few wheel ruts in the gravel, but overall this road is quite
+well taken care of.  It continues northwest and southeast.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50757 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50760 0 0 0 0 0 0 0 0
+S
+#50760
+The High Road: near the Sword Mountains~
+   The rocky expanse of the Sword Mountains dominates the view to the north and
+west.  The High Road slopes gently upwards, leading into the great mountain
+range.  There are a few wheel ruts in the gravel, but overall this road is quite
+well taken care of.  It continues northwest and southeast.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50758 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50761 0 0 0 0 0 0 0 0
+S
+#50761
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50762 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50760 0 0 0 0 0 0 0 0
+S
+#50762
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50763 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50761 0 0 0 0 0 0 0 0
+S
+#50763
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50764 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50762 0 0 0 0 0 0 0 0
+S
+#50764
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50765 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50763 0 0 0 0 0 0 0 0
+S
+#50765
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50766 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50764 0 0 0 0 0 0 0 0
+S
+#50766
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50767 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50765 0 0 0 0 0 0 0 0
+S
+#50767
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50769 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50766 0 0 0 0 0 0 0 0
+S
+#50769
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50770 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50767 0 0 0 0 0 0 0 0
+S
+#50770
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50769 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50771 0 0 0 0 0 0 0 0
+S
+#50771
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50770 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50772 0 0 0 0 0 0 0 0
+S
+#50772
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50771 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50773 0 0 0 0 0 0 0 0
+S
+#50773
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50772 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50774 0 0 0 0 0 0 0 0
+S
+#50774
+The High Road: between Neverwinter and Waterdeep~
+The High Road extends through a pastoral landscape of corn and wheat fields.  
+The road itself is very well-maintained, and wide enough to allow two wagons to
+pass each other side by side comfortably.  The High Road is the major trade
+route linking Waterdeep to the northern communities of Neverwinter, Luskan and
+beyond.  Millions of pounds of trade goods pass along this road every day.  
+~
+505 p 0 0 0 10
+D6
+~
+~
+0 0 50773 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50775 0 0 0 0 0 0 0 0
+S
+#50775
+The High Road: near Waterdeep~
+The road is perfectly straight and level this close to Waterdeep.  Regular
+highway guard patrols ensure the safety of merchants traveling to and from the
+city.  From here, the High Road bends northwest through the countryside, while
+you can feel the energy of the City of Splendors itself beckoning you from the
+east.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50777 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50774 0 0 0 0 0 0 0 0
+S
+#50777
+The High Road: near Waterdeep~
+The road is perfectly straight and level this close to Waterdeep.  Regular
+highway guard patrols ensure the safety of merchants traveling to and from the
+city.  From here, the High Road stretches westward through the countryside,
+while you can feel the energy of the City of Splendors itself beckoning you from
+the east.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50778 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50775 0 0 0 0 0 0 0 0
+S
+#50778
+The High Road: near Waterdeep~
+The road is perfectly straight and level this close to Waterdeep.  Regular
+highway guard patrols ensure the safety of merchants traveling to and from the
+city.  From here, the High Road stretches westward through the countryside,
+while you can feel the energy of the City of Splendors itself beckoning you from
+the east.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50779 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50777 0 0 0 0 0 0 0 0
+S
+#50779
+The High Road: near Waterdeep~
+The road is perfectly straight and level this close to Waterdeep.  Regular
+highway guard patrols ensure the safety of merchants traveling to and from the
+city.  From here, the High Road stretches westward through the countryside,
+while you can feel the energy of the City of Splendors itself beckoning you from
+the east.  
+~
+505 p 0 0 0 10
+D1
+~
+~
+0 0 50780 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50778 0 0 0 0 0 0 0 0
+S
+#50780
+The High Road: near Waterdeep~
+The road is perfectly straight and level this close to Waterdeep.  Regular
+highway guard patrols ensure the safety of merchants traveling to and from the
+city.  From here, the High Road stretches westward through the countryside,
+while you can feel the energy of the City of Splendors itself beckoning you from
+the east.  
+~
+505 p 0 0 0 10
+D3
+~
+~
+0 0 50779 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50781 0 0 0 0 0 0 0 0
+S
+#50781
+Just north of Waterdeep~
+Directly south of here is Waterdeep, the City of Splendors; the Crown of the
+North.  Waterdeep is considered to be the most important and influential city in
+the north, and perhaps all of Faerun.  Its majesty dominates the southern
+landscape; an eclectic sprawl of spires, shops and port areas.  It is said that
+all roads lead to Waterdeep, but you can only see two of them here; one leading
+northwest and the other northeast.  
+~
+505 p 0 0 0 10
+D2
+~
+~
+0 0 50782 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50780 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50850 0 0 0 0 0 0 0 0
+S
+#50782
+Outside Waterdeep's North Gate~
+The northern gate of Waterdeep is almost always open, admitting travelers,
+traders, tourists and thieves at all hours of the day or night.  As a place
+tolerant of all races and religions, the citizenry is extremely diverse.  
+People of all shapes and sizes come here to make their fortune.  You may join
+them by walking through the gate to the south.  
+~
+505 p 0 0 0 10
+D0
+~
+~
+0 0 50781 0 0 0 0 0 0 0 0
+S
+#50783
+Overlooking the City of Neverwinter~
+This city is surrounded by a stone wall to keep out unwanted visitors and
+thieves.  The wall rises up 20 feet into the air, and completely encompasses the
+city.  The city itself is nestled within the only pass found along the entire
+length of the Fang mountains.  Banners flap in the wind, brandished with the
+insignia of a clenched fist.  A small building lies nestled behind a gate to the
+southeast.
+~
+505 p 0 0 0 2
+D0
+~
+~
+0 0 50145 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50502 0 0 0 0 0 0 0 0
+S
+#50784
+Outside Neverwinter's South Gate~
+You stand just outside the southern gate of Neverwinter, sometimes called the
+"City of Skilled Hands" for its large population of artisans and accomplished
+gardeners.  A popular tourist destination, the city takes its name from the
+Neverwinter River, which flows with a warm current heated by fire elementals
+that creates a permanent mild climate in the immediate area.  The city proper is
+north, while the High Road is off to the southwest.  
+~
+505 0 0 0 0 2
+D2
+~
+~
+0 0 50783 0 0 0 0 0 0 0 0
+S
+$~

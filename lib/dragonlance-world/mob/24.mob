@@ -1,0 +1,755 @@
+#2400
+piranha viscious~
+a viscious piranha~
+A viscious piranha swims toward you snapping it's jaws hungrily.
+~
+   This small fish may not look deadly, but the frenzy in which it swims around
+you, and the rows of razor sharp teeth prove otherwise.  It streaks toward you
+snapping it's jaws, searching for an open spot of flesh to dig int.    
+~
+bd 0 0 0 k 0 0 0 0
+9 16 -3 108d60+96 1d8+4
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2401
+swordfish fish~
+a large-finned swordfish~
+A large swordfish has somehow made it's way into this underground lake.
+~
+   This large fish is characterised by it's huge dorsal fin and an elongated
+beak that resembles a sword.  It is blue in color, and is easily over five feet
+in length, a third of that being it's beak.  It charges you as you near it, but
+veers out of the way before stabbing you.    
+~
+bd 0 0 0 k 0 0 0 0
+9 16 -3 108d50+95 1d8+4
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2402
+mob new~
+a new mob~
+A new mob is existing here.
+~
+An undefined string.~
+bd 0 0 0 k 0 0 0 0
+9 16 1 36d10+91 1d8+4
+9 0 41 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#2403
+hydra sea~
+a two-headed sea hydra~
+A large sea hydra with two snake-like heads screams as it charges you.
+~
+   This terrible creature has two long, snake like necks, each of which ends in
+a serpentine head.  Each head has a maw filled with razor sharp teeth, and
+flick their tongues repeatedly.  The body is large, with blue scales and
+several long fins.  It screeches loudly as it rushes toward you to attack.    
+~
+dfF 0 0 0 k 0 0 0 0
+9 13 -5 2160d90+99 1d8+8
+15 0 101 3
+8 8 0
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2404
+dummy wooden training~
+a wooden training dummy~
+A wooden training dummy stands here against the wall.
+~
+Engraved on the chest of the dummy is the following:
+This dummy will magically create a key every time it appears.  The key
+itself will vaporise when it is dropped on the ground.  As a security
+precaution for the safety and privacy of the thieves guild, please lock
+the door when you exit using this key and then drop it on the ground.
+Do not leave unless you have a key.  This dummy will recreate if
+destroyed every fifteen hours.
+~
+bd 0 0 0 k 0 0 0 0
+9 16 1 36d10+91 1d8+4
+9 0 41 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#2405
+guard guardian~
+a thieves guild guard~
+A guardian of the thieves guild blocks the way forward.
+~
+   This young man is a member of the Palanthas thieves guild and has been
+assigned to guard the entrance of the guild should any strangers happen upon
+it.  He is clad in dark blue leather armor and keenly gazes over the area.    
+~
+bd 0 0 0 k 0 0 0 0
+9 16 -3 108d60+96 1d8+4
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2406
+rogue trainee~
+a rogue trainee~
+A rogue trainee practices his lockpicking skills here.
+~
+   This rogue is a beginner to the pilfering trade, and has begun his
+membership in the theives guild by training hard at the various skills
+important to the profession.  He is dressed in dark blue leather armor, a
+trademark of the Palanthas thieves guild.    
+~
+bd 0 0 0 k 0 0 0 0
+9 16 -3 108d70+97 1d8+4
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2407
+trainer experienced rogue~
+the thieves guild trainer~
+An experienced rogue stands here overseeing the training area.
+~
+   This man has the look of profound experience in his eyes, and it has
+rewarded him with the position of the trainer of the Palanthas thieves guild.
+He watches over the crowd of trainees, harshly pointing out mistakes as he sees
+them occur.  He repeatedly points out that such errors would result in capture
+in the field.  He wears a suit of dark blue leather armor, the trademark of the
+thieves guild.
+~
+bd 0 0 0 k 0 0 0 0
+9 16 0 54d100+100 1d8+4
+9 0 41 2
+8 8 1
+E
+Str: 15
+E
+Dex: 18
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#2408
+rogue trainee~
+a rogue trainee~
+A rogue trainee practices her trap removal skills at a nearby chest.
+~
+   Ther rogue is a beginner to the pilfering trade, and has begun her
+membership in the theives guild by training hard at the various skills
+important to the profession.  She is dressed in dark blue leather armor, a
+trademark of the Palanthas thieves guild.    
+~
+bd 0 0 0 k 0 0 0 0
+9 16 -3 108d70+97 1d8+4
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2409
+rogue trainee~
+a rogue trainee~
+A rogue trainee attempts to pilfer from an animated training dummy.
+~
+   This rogue is a beginner to the pilfering trade, and has begun his
+membership in the theives guild by training hard at the various skills
+important to the profession.  He is dressed in dark blue leather armor, a
+trademark of the Palanthas thieves guild.    
+~
+bd 0 0 0 k 0 0 0 0
+9 16 -3 108d70+97 1d8+4
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2410
+rogue trainee~
+a rogue trainee~
+A rogue trainee silenty moves up behind a wooden training dummy.
+~
+   This rogue is a beginner to the pilfering trade, and has begun his
+membership in the theives guild by training hard at the various skills
+important to the profession.  He is dressed in dark blue leather armor, a
+trademark of the Palanthas thieves guild.    
+~
+bd 0 0 0 k 0 0 0 0
+9 16 -3 108d70+97 1d8+4
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2411
+nobleman noble~
+a Palanthas nobleman~
+A nobleman from Palanthas negotiates with the thieves guild leaders.
+~
+   This nobleman has been blindly led to the heart of the thieves guild to
+negotiate with the guild leaders.  He is most likely involved in some lowly
+plan of embezzlement.  He is dressed in fine silk and cotton clothing and has
+an expression of extreme haughtiness.    
+~
+bdE 0 0 0 k 0 0 0 -500
+9 13 -4 1080d90+99 1d8+8
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2412
+merchant insidious~
+an insidious merchant~
+An insidious merchant is sitting here quibbling with the thieves guild leaders.
+~
+   This merchant of Palanthas has been led here by blindfold by the agents of
+the thieves guild.  He is here, attending a meeting of negotiation with the
+leaders of the thieves guild, in order to protect his shops from burglary.  He
+is dressed in a fine green suit, and carries an apathetic expression.    
+~
+bdE 0 0 0 k 0 0 0 0
+9 13 -4 1080d90+99 1d8+8
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2413
+leader rogue thief~
+a thieves guild leader~
+A leader of the thieves guild confidently explains his terms.
+~
+   This man is one of the leaders of the Palanthas thieves guild.  He is
+currently attending a meeting with the other guilds and factions of Palanthas.
+He speak calmly and confidently to the others, boldly offering the terms of the
+thieves guild.  He wears a suit of dark blue leather armor, a trademark of the
+Palanthas thieves guild.    
+~
+bdE 0 0 0 k 0 0 0 0
+9 13 -2 540d90+99 1d8+8
+9 0 41 2
+8 8 1
+E
+Str: 15
+E
+Dex: 18
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#2414
+priest garbed blood red robes~
+a priest of Hiddukel~
+A priest garbed in blood red robes sits quietly at the table.
+~
+   This man is garbed in blood red robes and wears the symbol of a broken scale
+around his neck.  He sits here at the bargaining table in complete silence, and
+with a stern, defiant gaze on the leaders of the thieves guild.  He glances
+over at you briefly as you approach.    
+~
+bdE 0 0 0 k 0 0 0 -500
+9 13 -3 810d90+99 1d8+8
+9 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 11
+S
+#2415
+wizard black robed jet garbed~
+a black robed wizard~
+A wizard garbed in jet black robes sits smirking to himself.
+~
+   This man is wearing long, jet black robes, describing him as a wizard of the
+black robes.  Whether his mission here is personal or from the conclave is
+unknown, but he sits in his chair smirking to himself as the others argue with
+each other intesively.    
+~
+bdE 0 0 0 k 0 0 0 -500
+9 13 0 360d90+99 1d8+8
+9 0 41 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#2416
+assassin representative grey cloaked~
+a grey cloaked assassin~
+A grey cloaked representative of the assassin's guild frowns in contempt.
+~
+   Clad in a long grey cloak, this representative of the assassins guild sits
+at the table with a frown of contempt.  His eyes dart from person to person,
+taking in all that is said and gestured.  His eyes finally fall upon you, and
+then narrow with suspicion.    
+~
+bdE 0 0 0 k 0 0 0 -500
+9 13 -2 540d90+99 1d8+8
+9 0 41 2
+8 8 1
+E
+Str: 15
+E
+Dex: 18
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#2417
+agent dragonarmy~
+a dragonarmy agent~
+An agent of the blue dragonarmy resolutely speaks to the rogue leaders.
+~
+   Wearing shining blue chainmail, this dragonarmy agent resolutely speak on
+behalf of the dragonarmy forces.  What they might have interest with the
+thieves guild is unknown, but it is plain that their presence is felt in this
+room.  He sees you as you approach and throws you an irritated glance.    
+~
+bdE 0 0 0 k 0 0 0 -500
+9 13 -4 1080d90+99 1d8+8
+9 0 41 3
+8 8 1
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#2418
+guildmaster guild master rogue~
+the guildmaster~
+The guildmaster of the thieves guild sits here at his desk with an abacus.
+~
+   This man is the guildmaster for the Palanthas Thieves guild.  He sits at his
+desk with a piece of parchment and an abacus.  He wears a suit of ornate blue
+leather armor, similar to that of the rest of the thieves guild, but a with a
+little more pizzaz.  He stares angrily at your entry.    
+~
+bd g 0 0 k 0 0 0 0
+9 12 -3 2700d90+99 1d8+10
+9 0 41 2
+8 8 1
+E
+Str: 15
+E
+Dex: 18
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#2420
+seagull gull~
+a seagull~
+A seagull circles above you waiting to spot a stray fish.
+~
+   This seabird has stark white feathers with streaks of grey on its wings.  
+It caws loudly as it circles above your head, looking keenly for a stray fish
+or scrap of food.  The small white patches that cover the dockyards make you
+wary of what might drop out of the sky at any time.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2421
+dockworker worker~
+a dockworker~
+A grizzled dockworker tiressly transports a wooden crate to its destination.
+~
+   This man appears to be in his middle aged and has chiseled features and a
+face weathered by long exposure to intense climates.  He ardently pushes a
+crate-bearing cart to its destination, possibly a warehouse or a ship to export
+it.  He pays little attention to you or anyone else around him, so bent is he
+on his task.    
+~
+d 0 0 0 k 0 0 0 500
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2422
+dockworker worker~
+a dockworker~
+A grizzled dockworker is here stacking the wooden crates.
+~
+   This man appears to be in his middle ages and has chiseled features with a
+face weathered by long exposure to intense climates.  He ardently pushes a
+cratebearing cart to the loading area underneath the pulley.  He raises his
+head from his work to look demanding at you.    
+~
+d 0 0 0 k 0 0 0 500
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2423
+sailor~
+a sailor~
+A sailor lazily strolls through the crowd in search of a tavern.
+~
+   This man is clad in an asortment of differint clothings, mis-matched and
+clashing in every conceivable way.  His face is unshaven and bears a permanent
+leer to all who meet his gaze.  He strides forward, peering all around of him,
+most likely in search of a tavern to spend his downtime in.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2424
+fisherman incessant~
+a fisherman~
+A incessant fisherman lugs a barrel full of fish to be cured for sale.
+~
+   This man has spent the majority of his life at the sea, working hard to
+provide for his family.  His trade as a fisherman has made him a tough
+individual, as he has seen the worst of climates and undoubtedly has had his
+life at risk many a time in the ill-tempered seas of Zeboim.  He incessantly
+moves his catch to a place where it can be cured and then sold in the
+marketplace.    
+~
+d 0 0 0 k 0 0 0 500
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2425
+rat wharf~
+a wharf rat~
+A wharf rat prowls the area in search of food.
+~
+   This large rat has steely grey fur that puffs out of it's body, nearly
+tripling it's apparant size.  It prowls through the nearby stacks of produce
+looking for a morsel of food.  It quickly darts away as it sees you approach.
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2426
+gholus the crafting vendor~
+Gholus, the crafting vendor~
+Gholus, the crafting vendor stands here. (Type @Yhelp shops@n)
+~
+   This man is tall and stocky, and wears a thin, black beard and moustache.  
+He wears a leather crafter's apron with a black tunic underneath, and brown
+leather slacks.  He seems serious in nature, but friendly and polite.  
+~
+bdnopq f 0 0 k 0 0 0 500
+61 -10 -81 732d100+100 1d8+30
+0 0 0 3
+8 8 1
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2427
+Blasia, the supply order forewoman~
+Blasia, the supply order forewoman~
+Blasia, the supply order forewoman stands here. (Type @Ylook blasia@n)
+~
+   This mob will give out supply orders that will help you level up your
+crafting skills.  See @YHELP SUPPLY ORDERS@n for more information.  Type
+@Ysupplyorder new@n to begin or @Ysupplyorder complete@n to turn in a completed
+supply order.  
+~
+abdA 0 0 0 k 0 0 0 0
+70 -15 -60 840d100+100 1d8+35
+0 0 23 30
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 33
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2428
+Codrin, the mold salesman~
+Codrin, the mold salesman~
+Codrin, the mold salesman, a hefty and plump, black haired dwarf stands here. (Type @Yitem@n)
+~
+Please use the '@Yitem@n' command to purchase molds.
+~
+bdA 0 0 0 k 0 0 0 0
+50 -5 -40 600d100+100 1d8+25
+0 0 25 30
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 28
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

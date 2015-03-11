@@ -1,0 +1,145 @@
+#51000
+sign wooden Triboar~
+a wooden sign at Triboar~
+A wooden sign has been staked into the ground here.~
+~
+29 dA 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0
+99 0 0 0
+Z
+4
+E
+wooden sign~
+*********************************************
+* North - The Long Road (to Mirabar)        *
+* South - The Long Road (to Waterdeep)      *
+* Northeast - Evermoor Way (to Silverymoon) *
+* West - Township of Triboar                *
+*********************************************
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+~
+#51001
+sign wooden Mirabar~
+a wooden sign at Mirabar~
+A wooden sign has been staked into the ground here.~
+~
+29 dA 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 8 0 0 0 0 0 0 0 0
+99 0 0 0
+Z
+0
+E
+wooden sign~
+*********************************************
+* North -  Mirabar                          *
+* East - The Long Road (to Triboar)         *
+* East - The Long Road (to WaterDeep)       *
+* West - to Luskan                          *
+*********************************************
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+~
+#51002
+sign wooden Waterdeep~
+a wooden sign at Waterdeep~
+A wooden sign has been staked into the ground here.~
+~
+29 dA 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 8 0 0 0 0 0 0 0 0
+99 0 0 0
+Z
+0
+E
+wooden sign~
+*********************************************
+* South     - Waterdeep                     *
+* Northeast - The Long Road (to Triboar)    *
+* Northeast - The Long Road (to Mirabar)    *
+* Northwest - The High Road (to Neverwinter)*
+* Northwest - The High Road ( to Luskan )   *
+*********************************************
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+~
+#51003
+sign wooden Luskan eastgate~
+a wooden sign at Luskan's east gate~
+A wooden sign has been staked into the ground here.~
+~
+29 dA 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 8 0 0 0 0 0 0 0 0
+99 0 0 0
+Z
+0
+E
+wooden sign~
+*********************************************
+*                                           *
+*                                           *
+*         East - to Mirabar                 *
+*                                           *
+*                                           *
+*********************************************
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+~
+#51004
+sign wooden Luskan southgate~
+a wooden sign at Luskan's south gate~
+A wooden sign has been staked into the ground here.~
+~
+29 dA 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 8 0 0 0 0 0 0 0 0
+99 0 0 0
+Z
+0
+E
+wooden sign~
+*********************************************
+* North - Luskan                            *
+* South - Luskan Academy Ruins              *
+* South - Bandit's Forest                   *
+* South - Orc camp                          *
+* South - High Road (to Neverwinter)        *
+* South - The High Road (to Waterdeep)      *
+*********************************************
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+                    ***
+~
+$~

@@ -1,0 +1,164 @@
+#8200
+sword broad strdy~
+a sturdy broad sword~
+A well worn sword of sturdy steel rests here.~
+~
+5 jklprstuvBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 1000 500 1
+Z
+4
+#8201
+globe blue crystal silver liquid~
+a blue crystal globe filled with a silver liquid~
+Lying here is a blue crystal globe filled with a silver liquid.~
+~
+10 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+#8202
+band wedding plain white gold~
+a plain wedding band of white gold~
+A plain-looking wedding band of white gold is here covered by the dirt.~
+~
+11 jklmnoprstuvwBCDF v 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 1
+Z
+4
+A
+13 5 0
+#8203
+vial crystal murky white liquid~
+a crystal vial filled with a murky white liquid~
+A crystal vial filled with a murky white liquid lies here.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 3500 0 1
+Z
+4
+#8204
+token restring~
+a restring token~
+Lying here is a small copper token, almost hidden from your view.~
+~
+12 q 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#8205
+bracer tusk ogre hide~
+a thick hide bracer studded with ogre tusks~
+A thick piece of brown hide with tusk protruding from it lies here airing in the wind.~
+~
+9 jqu c 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 2
+Z
+4
+A
+18 1 0
+A
+13 5 0
+#8206
+dagger serrated~
+a serrated dagger laced with the poisonous blood of Takhisis~
+A serrated dagger laced with the poisonous blood of Takhisis lies here.~
+~
+5 koqC 0 m 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 0 0 5
+Z
+4
+A
+18 5 0
+A
+19 5 0
+#8207
+dirk golden~
+a golden dirk~
+A gold-plated dirk with razor-sharp edges lies here.~
+~
+5 koqC 0 m 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 0 0 5
+Z
+4
+A
+18 5 0
+A
+19 5 0
+#8208
+cape torn tattered black silver~
+a torn and tattered cape of black and silver~
+A torn and tattered cape of black and silver lies here.~
+~
+9 koyzC dfgjlmu 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 5
+Z
+4
+#8209
+longspear spear night black wickedly barbed -eidothsur~
+a night black longspear with a wickedly barbed tip~
+A night black longspear with a wickedly barbed tip lies here on the ground.~
+~
+5 koprstuvxCF ac l 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 3
+Z
+4
+E
+longspear spear night black wickedly barbed~
+   This finely crafted longspear has a length of almost eight feet.  It has
+been carved out of a night black wood, finely polished and glossed over.  It
+has been fitted with blue leather tape for hand grips, and the butt end is shod
+with a steel spike.  The tip of the spear is covered in dangerous-looking barbs
+which could only have evil intent in their making.  Overall it is a deadly
+weapon suitable for any man who enjoys the maim with the kill.    
+~
+#8210
+gown flowing white pink roses intertwined~
+a flowing white gown with pink roses interwined into it~
+A flowing white gown with pink roses intertwined into it lies here.~
+~
+11 lr a 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+4
+#8211
+slippers white silk dainty~
+a pair of dainty, white silk slippers~
+A pair of dainty, white silk slippers lie here on the ground.~
+~
+11 lr a 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+4
+#8212
+cloak long thick deep cobalt blue~
+a long, thick cloak of deep cobalt blue~
+Lying here is a long, thick cloak of deep cobalt blue.~
+~
+9 jmrz adfgilmntu 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 50000 0 5
+Z
+4
+A
+23 10 0
+A
+21 10 0
+A
+17 -100 0
+A
+19 10 0
+A
+18 10 0
+$~

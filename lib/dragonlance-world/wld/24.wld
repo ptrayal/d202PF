@@ -1,0 +1,1901 @@
+#2400
+Zone Outline~
+Rooms 01-06 Palanthas Sewers
+Rooms 10-54 Thieves Guild
+Rooms 55-99 Dockyards
+~
+24 0 0 0 0 0
+S
+#2401
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad h 0 0 0
+D1
+~
+~
+0 0 2402 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2388 0 0 0 0 0 0 0 0
+S
+#2402
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad h 0 0 0
+D1
+~
+~
+0 0 2403 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2401 0 0 0 0 0 0 0 0
+S
+#2403
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad h 0 0 0
+D1
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2402 0 0 0 0 0 0 0 0
+S
+#2404
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad h 0 0 0
+D1
+~
+~
+0 0 2405 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2394 0 0 0 0 0 0 0 0
+S
+#2405
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad h 0 0 0
+D1
+~
+~
+0 0 2406 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2404 0 0 0 0 0 0 0 0
+S
+#2406
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad h 0 0 0
+D1
+~
+~
+0 0 2371 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2405 0 0 0 0 0 0 0 0
+S
+#2407
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 acd 0 0 0 0
+D0
+~
+grate iron~
+1 0 2408 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2363 0 0 0 0 0 0 0 0
+S
+#2408
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad 0 0 0 0
+D0
+~
+~
+0 0 2409 0 0 0 0 0 0 0 0
+D2
+~
+grate iron~
+1 0 2407 0 0 0 0 0 0 0 0
+S
+#2409
+Travelling Down a Sewer Tunnel~
+   The sewers are a maze of rock-hewn corridors.  A stream of murky water runs
+down the center of the corridors, filled with filth and sewage.  The air is
+ripe with a foul odor that very nearly forces you to gag.  The sounds of
+scavenging creatures weaving their way through the tunnels is ever present.  
+~
+24 ad 0 0 0 0
+D2
+~
+~
+0 0 2408 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2410 0 0 0 0 0 0 0 0
+S
+#2410
+At the Shore of an Underground Lake~
+   The monotonous sewer tunnels break here as the stream fills into a large,
+underground lake.  The cavern is very large, and you cannot see the other side
+of the shore.  The sounds of something swimming in the water can be heard.    
+~
+24 acd 0 0 0 0
+D0
+~
+~
+0 0 2411 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2409 0 0 0 0 0 0 0 0
+S
+#2411
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.    
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2418 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2413 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2412 0 0 0 0 0 0 0 0
+S
+#2412
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.    
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2415 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2411 0 0 0 0 0 0 0 0
+S
+#2413
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.    
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2419 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2414 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2411 0 0 0 0 0 0 0 0
+S
+#2414
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2421 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2413 0 0 0 0 0 0 0 0
+S
+#2415
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2426 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2418 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2416 0 0 0 0 0 0 0 0
+S
+#2416
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2427 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2415 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2417 0 0 0 0 0 0 0 0
+S
+#2417
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.  An iron grate
+leads west, along with the current of the water.    
+~
+24 ad 0 0 0 7
+D1
+~
+~
+0 0 2416 0 0 0 0 0 0 0 0
+D3
+~
+grate iron~
+1 0 2434 0 0 0 0 0 0 0 0
+S
+#2418
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2425 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2419 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2411 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2415 0 0 0 0 0 0 0 0
+S
+#2419
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2424 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2413 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2418 0 0 0 0 0 0 0 0
+S
+#2420
+Travelling Along the Current~
+   A wide stream travels north along the tunnel walls.  The current is not
+strong, although there are occasional bursts now and again.  The water is murky
+green, and the faint smell of sewage is present.  Mixed with that is another
+faint odor of salt air.  From the north comes a faint light, though not bright
+enough to light this tunnel.    
+~
+24 acd 0 0 0 7
+D0
+~
+~
+0 0 2435 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2434 0 0 0 0 0 0 0 0
+S
+#2421
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.    
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2423 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2414 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2419 0 0 0 0 0 0 0 0
+S
+#2422
+The Lair of a Sea Hydra~
+   The lake comes to a shoreline at a small cave.  The floor is littered with
+large swordfish skeletons, and minor rubble.  Among the fish bones is the
+skeleton of a humanoid, half-eaten.
+~
+24 a 0 0 0 0
+D3
+~
+~
+0 0 2421 0 0 0 0 0 0 0 0
+S
+#2423
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard.    
+~
+24 ad 0 0 0 7
+D2
+~
+~
+0 0 2421 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2424 0 0 0 0 0 0 0 0
+S
+#2424
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2430 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2419 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2425 0 0 0 0 0 0 0 0
+S
+#2425
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2429 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2424 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2418 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2426 0 0 0 0 0 0 0 0
+S
+#2426
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 7
+D0
+~
+~
+0 0 2428 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2425 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2415 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2427 0 0 0 0 0 0 0 0
+S
+#2427
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 7
+D1
+~
+~
+0 0 2426 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2416 0 0 0 0 0 0 0 0
+S
+#2428
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 6
+D1
+~
+~
+0 0 2429 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2426 0 0 0 0 0 0 0 0
+S
+#2429
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 6
+D0
+~
+~
+0 0 2431 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2430 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2425 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2428 0 0 0 0 0 0 0 0
+S
+#2430
+Navigating the Underground Lake~
+   The water is quite deep here, as you cannot feel the bottom as you plunge
+your oar into the murky depths.  The water is also very still aside from the
+ripples created by your rowing.  Despite the apparently calm waters, the sound
+of a creature or creatures swimming in the water can be heard. 
+~
+24 ad 0 0 0 6
+D2
+~
+~
+0 0 2424 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2429 0 0 0 0 0 0 0 0
+S
+#2431
+At the Rocky Shoreline of an Underground Lake~
+   The lake ends at a rocky shoreline here.  Small ripples creep up the
+shoreline in varied intervals.  The cavern to the north is clean cut, unlike
+the rough, uneven walls of the rest of this large cave.  Torches line the walls
+in sconces, lighting the way ahead to the north.    
+~
+24 cd 0 0 0 0
+D0
+~
+~
+0 0 2439 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2429 0 0 0 0 0 0 0 0
+S
+#2432
+Under the Ramparts~
+   Above you are the ramparts that run atop Palanthas' high outer walls.  A
+large gate rises up to the north, seperating New Palanthas from Old Palanthas,
+a decision obviously made by the upper class residents who dwell within the
+safety of Old Palanthas' walls.  To the south you can vaguely make out a large
+crowd gathered in center square.    
+~
+24 c 0 0 0 1
+D0
+~
+gate gates~
+1 0 2433 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2256 0 0 0 0 0 0 0 0
+S
+#2433
+Approaching the Dockyards~
+   Spreading out before your eyes to the north are the busy dockyards of
+Palanthas.  They are set outside of the walls of Old Palanthas, and stretch out
+into the Bay of Branchala.  Warehouses have been built to the east and west
+against the high stone walls of Palanthas.  The commotion to the north
+indicates a healthy economy from the business that occurs via the sea.    
+~
+24 d 0 0 0 0
+D0
+~
+~
+0 0 2455 0 0 0 0 0 0 0 0
+D2
+~
+gate gates~
+1 0 2432 0 0 0 0 0 0 0 0
+S
+#2434
+Travelling Along the Current~
+   A wide stream travels north along the tunnel walls.  The current is not
+strong, although there are occasional bursts now and again.  The water is murky
+green, and the faint smell of sewage is present.  Mixed with that is another
+faint odour of salt air.  From the north comes a faint light, though not bright
+enough to light this tunnel.    
+~
+24 acd 0 0 0 7
+D0
+~
+~
+0 0 2420 0 0 0 0 0 0 0 0
+D1
+~
+grate iron~
+1 0 2417 0 0 0 0 0 0 0 0
+S
+#2435
+Travelling Along the Current~
+   A wide stream travels north along the tunnel walls.  The current is not
+strong, although there are occasional bursts now and again.  The water is murky
+green, and the faint smell of sewage is present.  Mixed with that is another
+faint odour of salt air.  From the north comes a faint light, though not bright
+enough to light this tunnel. 
+~
+24 acd 0 0 0 7
+D0
+~
+~
+0 0 2436 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2420 0 0 0 0 0 0 0 0
+S
+#2436
+Travelling Along the Current~
+   A wide stream travels north along the tunnel walls.  The current is not
+strong, although there are occasional bursts now and again.  The water is murky
+green, and the faint smell of sewage is present.  Mixed with that is another
+faint odour of salt air.  From the north comes a faint light, though not bright
+enough to light this tunnel. 
+~
+24 acd 0 0 0 7
+D0
+~
+~
+0 0 2437 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2435 0 0 0 0 0 0 0 0
+S
+#2437
+Travelling Along the Current~
+   A wide stream travels north along the tunnel walls.  The current is not
+strong, although there are occasional bursts now and again.  The water is murky
+green, and the faint smell of sewage is present.  Mixed with that is another
+faint odour of salt air.  To the north is a large iron grate, where a strong
+light pours into the tunnel, and the smell of salt air is strong and abundant.
+~
+24 cd 0 0 0 7
+D0
+~
+grate iron~
+1 0 2438 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2436 0 0 0 0 0 0 0 0
+S
+#2438
+At the Mouth of the Stream~
+   The small river opens up here into the ocean.  The shoreline is rocky and
+cliff-like both to the east and west.  However, the east looks completely
+unmanagable, although a vague pathline can be seen heading west.  The waves
+crash against the grate to the south, causing momentary lapses in the current
+of the stream.    
+~
+24 d 0 0 0 7
+D2
+~
+grate iron~
+1 0 2437 0 0 0 0 0 0 0 0
+S
+#2439
+Along a Rocky Corridor~
+   This corridor is neatly cut from the granite stone it resides in.  The scene
+is gloomy and full of dancing shadows from the nearby torchlight.  To the south
+you can barely see the shoreline of an underground lake.  To the north the
+corridoor continues into the rocky depths below Palanthas.    
+~
+24 d 0 0 0 0
+D0
+~
+~
+0 0 2440 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2431 0 0 0 0 0 0 0 0
+S
+#2440
+An Intersection of Rocky Corridors~
+   The corridor transforms into a four-way intersection here.  Torches throw
+their light across the area from their resting places in sconces bolted to the
+walls.  Some small commotion can be heard to the west, while to the north faint
+murmers travel to your ears.  The east and south are very quiet.    
+~
+24 d 0 0 0 0
+D0
+~
+~
+0 0 2449 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2445 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2439 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2441 0 0 0 0 0 0 0 0
+S
+#2441
+Along a Rocky Corridor~
+   The rocky corridor ends here at an iron bound door.  Torches line the
+corridor, resting in brass sconces bolted to the wall.  The air is filled with
+sounds of commotion coming from the door to the west.    
+~
+24 cd 0 0 0 0
+D1
+~
+~
+0 0 2440 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2442 0 0 0 0 0 0 0 0
+S
+#2442
+A Hidden, Underground Training Center~
+   This room has been set up to serve as a training center of some sort.  
+Wooden dummies are scattered throughout the area for practicing mock-battles.
+Some of them seem to be animated and roam through the area mindlessly.  A long,
+wooden beam stretches across the room, covered in locks of varying sizes, types
+and complexity.  There are also a few chests and one-way doors among the rest
+of the chaos in this room.    
+~
+24 d 0 0 0 0
+D0
+~
+~
+0 0 2443 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 2441 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2444 0 0 0 0 0 0 0 0
+E
+chests doors~
+   They seem to be quite normal at first glance, but each bears a small
+engraved label, presumably describing differint trap effects.  "Poison Needle,
+Fireball, Cutting Blade" are a few of them.    
+~
+E
+dummies~
+   These wooden dummies are constructed to look vaguely humanoid.  They have
+several hinges that allow them to swing around, and some carry small weapons of
+wood.  A few are animated and roam mindlessly throught he room.  These are
+followed by rogues that are trying to sneak up on them.  Occasionally, one of
+the dummies emits a high pitched wail, signifying the rogues faliure.    
+~
+E
+locks~
+   This long wooden beam is covered in dozens of padlocks, each of a differint
+size, variety and complexity.  There are several padlocks, a few combination
+locks and the rest look like simple keyholes.  The beam is heavily populated by
+several rogues practicing their lock picking skills.    
+~
+S
+#2443
+A Hidden, Underground Training Center~
+   This room has been set up to serve as a training center of some sort.  
+Wooden dummies are scattered throughout the area for practicing mock-battles.
+Some of them seem to be animated and roam thourhg the area mindlessly.  A long,
+wooden beam stretches across the room, covered in locks of varying sizes, types
+and complexity.  There are also a few chests and one-way doors among the rest
+of the chaos in this room.    
+~
+24 d 0 0 0 0
+D2
+~
+~
+0 0 2442 0 0 0 0 0 0 0 0
+S
+#2444
+A Hidden, Underground Training Center~
+   This room has been set up to serve as a training center of some sort.  
+Wooden dummies are scattered throughout the area for practicing mock-battles.
+Some of them seem to be animated and roam thourhg the area mindlessly.  A long,
+wooden beam stretches across the room, covered in locks of varying sizes, types
+and complexity.  There are also a few chests and one-way doors among the rest
+of the chaos in this room.    
+~
+24 d 0 0 0 0
+D0
+~
+~
+0 0 2442 0 0 0 0 0 0 0 0
+S
+#2445
+Along a Rocky Corridor~
+   The rocky corridor ends here at an iron-bound door.  Torches line the
+corridor, resting in brass sconces bolted to the wall.  The air is relatively
+silent, while occasional sounds too faint to be identified come from the east.
+~
+24 d 0 0 0 0
+D1
+~
+door~
+1 2402 2446 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2440 0 0 0 0 0 0 0 0
+S
+#2446
+A Private Room in the Thieves Guild~
+   This room is decently furnished with couches, chairs and tables.  Several
+extravagent tapestries woven with gold and silver thread adorn the walls.  The
+floor is stone, but has been smoothed and polished to look like fine tiles.  
+~
+24 d 0 0 0 0
+D0
+~
+~
+0 0 2447 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2448 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 2402 2445 0 0 0 0 0 0 0 0
+S
+#2447
+A Private Room in the Thieves Guild~
+   This room is decently furnished with couches, chairs and tables.  Several
+extravagent tapestries woven woth gold and silver thread adorn the walls.  The
+floor is stone, but has been smoothed and polished to look like fine tiles.  
+~
+24 d 0 0 0 0
+D2
+~
+~
+0 0 2446 0 0 0 0 0 0 0 0
+S
+#2448
+A Private Room in the Thieves Guild~
+   This room is decently furnished with couches, chairs and tables.  Several
+extravagent tapestries woven woth gold and silver thread adorn the walls.  The
+floor is stone, but has been smoothed and polished to look like fine tiles.  
+~
+24 d 0 0 0 0
+D0
+~
+~
+0 0 2446 0 0 0 0 0 0 0 0
+S
+#2449
+Along a Rocky Corridor~
+   The rocky corridor ends here at an iron-bound door.  Torches line the
+corridor, resting in brass sconces bolted to the wall.  A faint murmer can be
+heard through the door to the north, while the sound of some sort of commotion
+drifts to you ears from the south.    
+~
+24 d 0 0 0 0
+D0
+~
+door iron-bound~
+1 0 2450 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2440 0 0 0 0 0 0 0 0
+S
+#2450
+The Guild Leaders Meeting Room~
+   This room serves as the meeting room for the leaders of the thieves guild.
+A large table dominates the room, surrounded by chairs.  It is here that the
+guild decides who does what and how the rewards are divided.  Several paintings
+and tapestries adorn the walls.    
+~
+24 d 0 0 0 0
+D0
+~
+door iron-bound~
+1 0 2453 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2452 0 0 0 0 0 0 0 0
+D2
+~
+door iron-bound~
+1 0 2449 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2451 0 0 0 0 0 0 0 0
+S
+#2451
+The Guild Leaders Meeting Room~
+   This room serves as the meeting room for the leaders of the thieves guild.
+A large table dominates the room, surrounded by chairs.  It is here that the
+guild decides who does what and how the rewards are divided.  Several paintings
+and tapestries adorn the walls.
+~
+24 d 0 0 0 0
+D1
+~
+~
+0 0 2450 0 0 0 0 0 0 0 0
+S
+#2452
+The Guild Leaders Meeting Room~
+   This room serves as the meeting room for the leaders of the thieves guild.
+A large table dominates the room, surrounded by chairs.  It is here that the
+guild decides who does what and how the rewards are divided.  Several paintings
+and tapestries adorn the walls.    
+~
+24 d 0 0 0 0
+D3
+~
+~
+0 0 2450 0 0 0 0 0 0 0 0
+S
+#2453
+The Guildmaster's Quarters~
+   This is the private office and occasional quarters of the guildmaster.  A
+large desk stands against the western wall, and bookshelves line the eastern
+wall.  Against the northern wall is a large, comfortable looking bed, and
+beside it a small chest.
+~
+24 d 0 0 0 0
+D1
+~
+hidden_door door hidden~
+1 0 2454 0 0 0 0 0 0 0 0
+D2
+~
+door iron-bound~
+1 0 2450 0 0 0 0 0 0 0 0
+S
+#2454
+A Secret Treasure Trove~
+   This plain, hidden alcove serves as the guildmaster's private treasure
+hoard.  Several chests and caskets fill the small area, each filled with
+treasures of all types and values.    
+~
+24 d 0 0 0 0
+D3
+~
+hidden_door hidden door~
+1 0 2453 0 0 0 0 0 0 0 0
+S
+#2455
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2456 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2468 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2433 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2460 0 0 0 0 0 0 0 0
+S
+#2456
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2457 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2480 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2455 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2479 0 0 0 0 0 0 0 0
+S
+#2457
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2458 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2456 0 0 0 0 0 0 0 0
+S
+#2458
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine. 
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2459 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2457 0 0 0 0 0 0 0 0
+S
+#2459
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D2
+~
+~
+0 0 2458 0 0 0 0 0 0 0 0
+S
+T 2459
+#2460
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2479 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2455 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2467 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2461 0 0 0 0 0 0 0 0
+S
+#2461
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2478 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2460 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2466 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2462 0 0 0 0 0 0 0 0
+S
+#2462
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2477 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2461 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2465 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2463 0 0 0 0 0 0 0 0
+S
+#2463
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2476 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2462 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2464 0 0 0 0 0 0 0 0
+S
+#2464
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place.    
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2463 0 0 0 0 0 0 0 0
+S
+#2465
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place. 
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2462 0 0 0 0 0 0 0 0
+S
+#2466
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place. 
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2461 0 0 0 0 0 0 0 0
+S
+#2467
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place. 
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2460 0 0 0 0 0 0 0 0
+S
+#2468
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+strongly of salt and brime.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2480 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2469 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2475 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2455 0 0 0 0 0 0 0 0
+S
+#2469
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2481 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2470 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2474 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2468 0 0 0 0 0 0 0 0
+S
+#2470
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2482 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2471 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2473 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2469 0 0 0 0 0 0 0 0
+S
+#2471
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2483 0 0 0 0 0 0 0 0
+D2
+~
+doors bay~
+1 0 2472 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2470 0 0 0 0 0 0 0 0
+S
+#2472
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place. 
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2471 0 0 0 0 0 0 0 0
+S
+#2473
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place. 
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2470 0 0 0 0 0 0 0 0
+S
+#2474
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place. 
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2469 0 0 0 0 0 0 0 0
+S
+#2475
+A Waterfront Warehouse~
+   This warehouse serves as a storage area for the various goods imported to
+Palanthas from various locations throughout Ansalon.  Large crates dominate the
+area, stacked to the ceiling.  A pulley-system hangs from the roof, used to
+move the heavy crates from place to place. 
+~
+24 0 h 0 0 1
+D0
+~
+doors bay~
+1 0 2468 0 0 0 0 0 0 0 0
+S
+#2476
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2491 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2477 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2463 0 0 0 0 0 0 0 0
+S
+#2477
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D1
+~
+~
+0 0 2478 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2462 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2476 0 0 0 0 0 0 0 0
+S
+#2478
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2489 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2479 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2461 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2477 0 0 0 0 0 0 0 0
+S
+#2479
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D1
+~
+~
+0 0 2456 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2460 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2478 0 0 0 0 0 0 0 0
+S
+#2480
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D1
+~
+~
+0 0 2481 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2468 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2456 0 0 0 0 0 0 0 0
+S
+#2481
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2487 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2482 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2469 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2480 0 0 0 0 0 0 0 0
+S
+#2482
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D1
+~
+~
+0 0 2483 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2470 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2481 0 0 0 0 0 0 0 0
+S
+#2483
+The Dockyards of Palanthas~
+   Swarms of people surround you, busy with the heavy work that goes on here at
+the dockyards.  Seagulls are plentiful, scavenging for a scrap of food, or a
+nibble of fish.  Dockworkers are busy loading and unloading ships, while
+sailors scrape barnacles off the hulls of their vessels.  Warehouses line the
+stone wall of Palanthas, filled with the products imported from various parts
+of Krynn.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2484 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2471 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2482 0 0 0 0 0 0 0 0
+S
+#2484
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2485 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2483 0 0 0 0 0 0 0 0
+S
+#2485
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2486 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2484 0 0 0 0 0 0 0 0
+S
+#2486
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D2
+~
+~
+0 0 2485 0 0 0 0 0 0 0 0
+S
+#2487
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2488 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2481 0 0 0 0 0 0 0 0
+S
+#2488
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D2
+~
+~
+0 0 2487 0 0 0 0 0 0 0 0
+S
+#2489
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2490 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2478 0 0 0 0 0 0 0 0
+S
+#2490
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.  A large galleon has been docked to the north, with
+a wooden ramp leading to its deck.    
+~
+24 0 h 0 0 1
+D2
+~
+~
+0 0 2489 0 0 0 0 0 0 0 0
+S
+#2491
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2492 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2476 0 0 0 0 0 0 0 0
+S
+#2492
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D0
+~
+~
+0 0 2493 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2491 0 0 0 0 0 0 0 0
+S
+#2493
+A Wooden Pier~
+   This wooden pier extends into the mouth of the Bay of Branchala.  Small
+fishing boats have been tied to either side of the pier, while larger vessels
+float at the end of the pier.  Fisherman are busy maintaining their ships and
+unloading their catches.  The wind is strong here at the waterfront and smells
+strongly of salt and brine.    
+~
+24 0 h 0 0 1
+D2
+~
+~
+0 0 2492 0 0 0 0 0 0 0 0
+S
+#2494
+Floating in Thin Air~
+   You are floating in thin air.  The only obvious way to travel from here is
+down into the world of Krynn.  You have not yet become corporeal, but will be
+soon, if you measure up.  Please read the help newbie files and see the policy
+board to make your stay a good one.    
+~
+24 dh 0 0 0 0
+D5
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+S
+#2495
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+24 0 0 0 0 0
+D0
+~
+~
+0 0 2497 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2498 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2399 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2496 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2327 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2499 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 692 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 693 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 694 0 0 0 0 0 0 0 0
+S
+#2496
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+24 0 0 0 0 0
+D1
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+#2497
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+24 0 0 0 0 0
+D2
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+#2498
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+24 0 0 0 0 0
+D3
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+#2499
+Palanthas Crafting Halls~
+   This area, the basement of the Platinum Dragon Inn, serves as the official
+Crafting Halls for the Palanthas adventuring community.  It is filled with
+tools, shelves, gnomish contraptions, and all manner of raw materials.  
+~
+24 0 0 0 0 0
+D8
+~
+~
+0 0 2495 0 0 0 0 0 0 0 0
+S
+$~

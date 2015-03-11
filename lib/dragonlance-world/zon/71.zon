@@ -1,0 +1,220 @@
+#71
+None.~
+The Thieves Guild (Hiddukel)~
+7100 7199 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0  7102     1     1   0   101     1    -10 
+
+D 0  7104     1     1   0   101     2    -10 
+
+D 0  7104     3     1   0   101     3    -10 
+
+D 0  7105     3     1   0   101     4    -10 
+
+M 0  7110     1  7111   1   100     5    -1          0 a large boned thug
+
+M 0  7109     1  7111   1   100     6    -1          0 a jumpy greaser
+
+E 1  7110     2    16   0    15     7     6          0 a slim handled blade
+
+M 0  7108     1  7111   1   100     8    -1          0 a short thug
+
+E 1  7109     1     5   0    15     9     8          0 a thin black cloth tunic
+
+D 0  7111     1     1   0   101    10    -10 
+
+D 0  7114     3     1   0   101    11    -10 
+
+D 0  7121     2     1   0   101    12    -10 
+
+D 0  7124     0     1   0   101    13    -10 
+
+M 0  7120     3  7142   1   100    14    -1          0 a minor pursesnatcher
+
+D 0  7142     2     1   0   101    15    -10 
+
+D 0  7143     0     1   0   101    16    -10 
+
+D 0  7152     5     2   0   101    17    -10 
+
+D 0  7152     1     1   0   101    18    -10 
+
+D 0  7158     3     1   0   101    19    -10 
+
+O 0  1222     5  7112   0    20    20    -1          0 some sinewy parchment inscribed with symbols
+
+M 0  7106     1  7112   1   100    21    -1          0 a timid quiet elf 
+
+M 0  7107     1  7112   1   100    22    -1          0 a well armored elf 
+
+E 1  7102     1    17   0    10    23    22          0 a chipped handaxe with a spiked handle
+
+M 0  7103     1  7109   1   100    24    -1          0 a hearty young dwarf
+
+M 0  7104     1  7109   1   100    25    -1          0 a cloaked and concealed man
+
+G 1   141   100     0   0    75    26    25          0 a small black cloth
+
+M 0  7101     1  7107   1   100    27    -1          0 a lithe looking minotaur
+
+E 1  7101     1    12   0    10    28    27          0 a decorated war sheath
+
+M 0  7102     1  7107   1   100    29    -1          0 a vicious looking elf 
+
+M 0  7105     1  7113   1   100    30    -1          0 a suited bartender
+
+G 1  7108   999     0   0   100    31    30          0 a bowl of nacho chips and salsa
+
+G 1  7107    99     0   0   100    32    30          0 a plate of peanuts
+
+G 1  7106   999     0   0   100    33    30          0 a mug of imported dark ale
+
+G 1  7105   999     0   0   100    34    30          0 a large pitcher of tap ale
+
+G 1  7104    99     0   0   100    35    30          0 a mug of dwarven ale
+
+G 1  7103   999     0   0   100    36    30          0 a shot of whisky
+
+O 0  1220     5  7110   0    20    37    -1          0 a blue-ish scroll in the shape of a hand
+
+M 0  7113     1  7110   1   100    38    -1          0 a calm and restrained kender
+
+M 0  7112     1  7110   1   100    39    -1          0 a scarred half-elf
+
+G 1  4362    20     0   0    50    40    39          0 a vial of scorpion poison
+
+M 0  7111     1  7110   1   100    41    -1          0 a hunchbacked man
+
+D 0  7122     0     1   0   101    42    -10 
+
+M 0  7115     2  7160   2   100    43    -1          0 an interrogator
+
+M 0  7115     2  7160   2   100    44    -1          0 an interrogator
+
+E 1  7120     1    17   0    10    45    44          0 a thin interrogation scalpel
+
+M 0  7114     1  7160   1   100    46    -1          0 an interrogation victim
+
+E 1  7119     2     6   0    10    47    46          0 a mouth gag
+
+D 0  7160     2     1   0   101    48    -10 
+
+M 0  7118     1  7161   1   100    49    -1          0 a guild delegate
+
+M 0  7117     2  7161   2   100    50    -1          0 a tarsian personal assistant
+
+M 0  7116     1  7161   1   100    51    -1          0 a tarsian diplomat
+
+E 1  7116     2    17   0    10    52    51          0 a small coin purse
+
+D 0  7161     0     1   0   101    53    -10 
+
+D 0  7153     2     1   0   101    54    -10 
+
+M 0  7119    -1  7155   3     1    55    -1          0 a common cutpurse
+
+M 0  7119    -1  7117   3     1    56    -1          0 a common cutpurse
+
+M 0  7119    -1  7140   3     1    57    -1          0 a common cutpurse
+
+M 0  7120     3  7151   1   100    58    -1          0 a minor pursesnatcher
+
+G 1  1227     3     0   0    30    59    58          0 a round disk, with runes etched upon it
+
+M 0  7120     3  7115   1   100    60    -1          0 a minor pursesnatcher
+
+M 0  7121     2  7125   2   100    61    -1          0 a hatchet thrower
+
+G 1  1221     2     0   0    15    62    61          0 some rolled paper sealed with a closed, wax eye
+
+E 1  7112     1    16   0    10    63    61          0 a handy throwing hatchet
+
+M 0  7122     3  7126   3   100    64    -1          0 a long armed archer
+
+M 0  7122     3  7126   3   100    65    -1          0 a long armed archer
+
+M 0  7122     3  7126   3   100    66    -1          0 a long armed archer
+
+M 0  7123     1  7127   1   100    67    -1          0 an inexperienced thief
+
+M 0  7125     1  7129   1   100    68    -1          0 a skilled pickpocket
+
+G 1   135   100     0   0    75    69    68          0 a piece of lodestone
+
+M 0  7124     3  7129   3   100    70    -1          0 a pickpocket in training
+
+M 0  7124     3  7129   3   100    71    -1          0 a pickpocket in training
+
+M 0  7124     3  7129   3   100    72    -1          0 a pickpocket in training
+
+M 0  7126     1  7130   1   100    73    -1          0 a training dummy
+
+M 0  7125     1  7130   1   100    74    -1          0 a skilled pickpocket
+
+M 0  7128     1  7133   1   100    75    -1          0 a climbing instructor
+
+E 1  7113     1    17   0    15    76    75          0 a length of sturdy rope
+
+M 0  7127     1  7133   1   100    77    -1          0 a young balayer
+
+M 0  7131     1  7128   1   100    78    -1          0 a confident thief dressed in yellow
+
+E 1  7111     1    14   0    10    79    78          0 a golden wrist clasp
+
+M 0  7130     1  7128   1   100    80    -1          0 a confident thief dressed in red
+
+M 0  7133     1  7149   1   100    81    -1          0 a very gaudy senator
+
+E 1  7118     1     7   0    10    82    81          0 a set of silky grey pants
+
+M 0  7134     1  7147   1   100    83    -1          0 a high ranking thug
+
+M 0  7136     1  7148   1   100    84    -1          0 a very well trained killer
+
+E 1  7115     1    16   0    10    85    84          0 a deadly honed hornblade
+
+M 0  7135     1  7148   1   100    86    -1          0 a representative from qualinost
+
+M 0  7138     2  7145   1   100    87    -1          0 a dark skinned man in a suit
+
+M 0  7137     1  7145   1   100    88    -1          0 a corrupt dragonarmy officer
+
+E 1  7114     1     7   0    10    89    88          0 a set of standard issue boots
+
+M 0  7138     2  7146   1   100    90    -1          0 a dark skinned man in a suit
+
+M 0  7139     1  7144   1   100    91    -1          0 a delicate female
+
+M 0  7141     2  7162   2   100    92    -1          0 a secretive guild guard
+
+M 0  7141     2  7162   2   100    93    -1          0 a secretive guild guard
+
+M 0  7140     1  7162   1   100    94    -1          0 the head of the guild
+
+E 1  7121     3     2   0    10    95    94          0 a dark sapphire ring
+
+E 1  7121     3     1   0    10    96    94          0 a dark sapphire ring
+
+D 0  7162     4     2   0   101    97    -10 
+
+M 0  7129     1  7139   1   100    98    -1          0 a lazy student
+
+E 1  7110     1    16   0    10    99    98          0 a slim handled blade
+
+D 0  7135     0     2   0   101   100    -10 
+
+D 0  7135     3     2   0   101   101    -10 
+
+D 0  7136     1     2   0   101   102    -10 
+
+D 0  7137     2     2   0   101   103    -10 
+
+O 0  7117     1  7159   0   100   104     1          0 a stretched backless sofa 
+
+D 0  7100     0     1   0   101   105    -10 
+
+S
+$

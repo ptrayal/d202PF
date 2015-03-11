@@ -1,0 +1,482 @@
+#5300
+powerful dark-eyed soldier~
+a powerful, dark-eyed soldier~
+Marching arrogantly is a powerful, dark-eyed soldier.
+~
+   Scowling angrily as you stare at him, this soldier has a very arrogant heir
+about him.  He stands near six-feet in height, and is very powerfully built.  
+A smirk of confidence crosses his face as he slightly turns his nose towards
+the air.    
+~
+d 0 0 0 k 0 0 0 -1000
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The Baaz
+This draconian seems to
+#5303
+sinewy draconian aurak devious~
+a devious, sinewy draconian~
+A sinewy, devious Aurak draconian shouts orders with a sense of worth and pride.
+~
+   Aurak draconians are much like the "special agents" of the Dragon Highlords.
+They are the most powerful, and devious of any of the other draconians.  This
+particular one appears to be over seven feet tall, with a short tail, and no
+wings.  Even though they can not fly, their swift movements prove to be
+convenient enough.    
+~
+d 0 0 0 k 0 0 0 -850
+15 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5304
+slim armored draconian sivac~
+a slim, armored draconian~
+A slim, armored Sivac draconian paces about.
+~
+   Sivac draconians are one of the most powerful of all, second only to the
+Auraks.  Sivacs are known for their normally deadly attacks with two wicked
+edged swords, and their attack with their tails.  This draconian in particular
+seems to be rather comfortable in the camp, watching all of the other soldiers
+perform their daily duties with humor in his eyes.    
+~
+d 0 0 0 k 0 0 0 -900
+14 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5305
+sly conniving draconian kapak~
+a sly, conniving draconian~
+A sly, conniving Kapak draconian lurks within the shadows.
+~
+   Kapak draconians are venomous in nature, and you often notice this Kapak
+draconian licking it's blade, in order to make the blade poisonous.  Kapak
+draconians are often utilized as assassins by their Dragon Highlords.  This
+particular Kapak draconian seems to be very secretive, and conniving.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5306
+goblin armored wicked~
+a wicked, armored goblin soldier~
+Hurriedly scampering about is a wicked, armored goblin soldier.
+~
+   This wretched little goblin wears flimsy armor, and wields a crude sword.  
+He has squinty and beady little eyes, that seem to watch your every movement.
+He scampers about like the nasty little creature he is, bothering everyone in
+his general area.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5307
+high ranking corrupt muscular officer dragon soldier~
+an corrupt, muscular officer~
+A high-ranking officer of the Dragon Army walks confidently.
+~
+   This high-ranking officer is very corrupt, and distinguished.  He wears a
+breastplate with the emblem of a black dragon, showing his rank amongst the
+other soldiers.  His expression is stern, and unforgiving as he carefully
+watches the other soldiers.    
+~
+d 0 0 0 k 0 0 0 -900
+17 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5308
+personal guard dragon highlord~
+a personal guard of the dragon highlord~
+One of the Dragon Highlords personal guards stands here unmoving.
+~
+   This guard has a stern look on his face, and does not move any part of his
+body, other than his eyes.  With his quickly moving, keen eyes, this guard
+keeps a close eye on any person that wishes to harm the Dragon Highlord.    
+~
+d 0 0 0 k 0 0 0 -900
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This soldier isn't very well armored.  You are assuming he's probably just
+#5310
+stocky well-built soldier~
+a stocky, well-built soldier~
+A stocky, well-built soldier walks about.
+~
+   This soldier is muscled and stockily built.  He paces around, seemingly not
+paying attention to much of anything.  There doesn't appear to be any special
+physical traits to him, he's just a very basic person.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5311
+frowning ill-mannered soldier~
+a frowning, ill-mannered soldier~
+Walking about cursing is a frowning, ill-mannered soldier.
+~
+   This soldier appears to be very aggressive.  He's bullying other soldiers,
+and screaming obscenities on a semi-regular basis.  His mannerisms are poor,
+much like one may expect from a conniving member of the dragon armies.    
+~
+d 0 0 0 k 0 0 0 -900
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5312
+enormous muscular aurak draconian~
+an enormous, muscular Aurak draconian~
+Pacing about diligently is an enormous, muscular Aurak draconian soldier.
+~
+   This Aurak draconian is astounding.  His size is very large, possibly
+magically enhanced although, enormous nonetheless.  His claws appear to be much
+sharper than any other draconians, and his movements are very quick.    
+~
+d 0 0 0 k 0 0 0 -900
+18 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5313
+stalwart snarling draconian Sivac~
+a stalwart, snarling Sivac draconian~
+Corrupt and angry, this stalwart, snarling Sivac draconian glares at you.
+~
+   A powerful, angry Sivac draconian stands here before you.  His face is set
+in a frown with his sharp teeth jutting from his mouth, and an overbearing
+scowl crossing his face.  Forbidding, and dangerous, he stands unfaltering.  
+~
+d 0 0 0 k 0 0 0 -900
+26 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5314
+towering hulking soldier~
+a towering, hulking soldier~
+Walking casually is a towering, hulking soldier.
+~
+   This soldier has a confident smirk on his face as he carefully walks down
+the paths.  His eyes gleam with self satisfaction, as he unconciously lays his
+hand near the hilt of his sword.    
+~
+d 0 0 0 k 0 0 0 -900
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5315
+frowning stockily built guard~
+a frowning, stockily-built guard~
+Wearily standing at his post is a frowning, stockily-built guard.
+~
+   Glaring at you in utter hatred stands a very well-built soldier.  His large
+hands gripping his weapon, he readys himself for the chance to attack anyone
+that may be considered an enemy.    
+~
+d 0 0 0 k 0 0 0 -900
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5316
+Huretheleaon shadow young dragon~
+Huretheleaon, a young shadow dragon~
+Huretheleaon, a young shadow dragon snarls at your entrance.
+~
+   Before you is a creature standing well over twenty five feet tall, long
+transparent scales line its entire body.  Large demonic eyes stare out of
+shadowy sockets as a warning sign to anyone who may intrude on this massive
+beast.    
+~
+d 0 0 0 k 0 0 0 -900
+29 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5317
+shadowy robed soldier~
+a shadowy robed soldier~
+Glaring evilly as you enter is a shadowy robed soldier.
+~
+   Surrounded by pure evil this robed soldier glares at any bold enough to
+approach him.  Long matted hair hangs down his around his face hiding it from
+your view.    
+~
+d 0 0 0 k 0 0 0 -900
+25 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5318
+groggy tired guard dragonarmy~
+a groggy, tired guard of the dragonarmy~
+Yawning lazily is a groggy, tired guard of the dragonarmy.
+~
+   Still wearing his sleeping clothes this young soldier looks as though he has
+just awakened from a sleepless night.  His large blood-shot eyes look upon you
+seemingly somewhat stunned.    
+~
+d 0 0 0 k 0 0 0 -900
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5319
+naked scowling soldier~
+a naked, scowling soldier~
+Attempting to cleanse himself of germs, here stands a naked, scowling soldier.
+~
+   Standing here completely naked, this elderly soldier attempts to cover
+himself upon your intrusion.  In his hand you notice he is holding a bar of
+soap.    
+~
+d 0 0 0 k 0 0 0 -900
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5320
+speech spectator~
+a calm spectator~
+A spectator awaiting the speech rests upon the bench.
+~
+   Resting calmly on the bench here, this spectator is completely lost in the
+speakers words.  Every so often he will nod in agreement or shake his head to
+show that he does not agree.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

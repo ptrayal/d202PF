@@ -1,0 +1,1386 @@
+#1200
+slab stone general~
+a stone slab~
+A stone slab containing the wisdom of the immortals hovers here.~
+~
+40 0 0 0 0 0 0 0 0 0 0 0 0
+1 1 1 0 100 100 0 36 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1201
+slab stone olc~
+a stone slab~
+A stone slab containing the wisdom of the immortals hovers here.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1202
+slab stone policy~
+a stone slab~
+A stone slab containing the wisdom of the immortals hovers here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1203
+slab stone jail~
+a stone slab~
+A stone slab containing the wisdom of the immortals hovers here.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1204
+portal~
+a shimmering portal~
+A shimmering portal showers the area with brilliant colors.~
+~
+28 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 -1 1 100 100 0 37 20 20 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1205
+cheesecake cake~
+a piece of cheesecake~
+A luscious slice of cheesecake has been left here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1206
+poopie~
+a shimmering silver globe~
+A small silver globe hovers a few feet from the ground.~
+~
+12 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1207
+portal gateway~
+a mysterious gateway of vegetation~
+A mysterious gateway parts the plant life surrounding it.~
+~
+8 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1208
+badge black~
+a black badge~
+A black badge of dishonor has been discarded here.~
+~
+13 bjklmnoprstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1209
+rune spellbook book leather~
+a rune covered, leather bound spellbook~
+A thick book, covered in runes and in leather, waits to be picked up.~
+~
+26 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1000 250 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1210
+scroll blank clean white parchment~
+a clean, white parchment~
+A scroll of clean, white paper waits to be written upon.~
+~
+2 cejklmqBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6250 5000 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1211
+scroll eyes transparent adorned msdetectinvis~
+a scroll adorned with transparent eyes~
+Lying on the ground, a scroll adorned with transparent eyes seems to watch you.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 250 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1212
+scroll shades blue red msdetectalign~
+a scroll covered in shades of blue and red~
+A scroll covered in shades of blue and red rests here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 750 250 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1213
+scroll wavy runes msdetectmagic~
+a scroll with wavy runes~
+A small scroll covered in wavy runes lies here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 250 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1214
+scroll small glowing paper msinfravision~
+a small, glowing piece of paper~
+A small, glowing paper scroll lies here, tightly rolled up.~
+~
+2 0 0 0 0 ao 0 0 0 0 0 0 0
+1 10 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 1000 275 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1215
+scroll miniature lantern cryptic mscontinuallight~
+a miniature lantern with cryptic writing~
+A miniature lantern with cryptic writing upon it rests here.~
+~
+2 cgjklmnopqrstuvwABCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 250 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1216
+scroll fire red msburninghands~
+a fire-red scroll~
+A scroll of firey red glimmers in the light.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1500 500 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1217
+scroll short encased red silk msdetectpoison~
+a short scroll encased in red silk~
+A short scroll encased in red silk lies in a puddle.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 700 450 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1218
+scroll translucent parchment clear glass cylinder msinvis~
+a translucent parchment within a clear glass cylinder~
+A translucent parchment rests here, within a clear glass cylinder.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1219
+scroll scrollcase magnifying glass mslocateobject~
+a scrollcase with an emblem of a magnifying glass~
+A scrollcase with an emblem of a magnifying glass rests here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 700 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1220
+scroll blue hand msshockinggrasp~
+a blue-ish scroll in the shape of a hand~
+Shaped like a hand, a blue scroll lies on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1221
+scroll paper rolled wax eye mssleep~
+some rolled paper sealed with a closed, wax eye~
+A length of rolled paper, sealed with a closed, wax eye.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1222
+scroll sinewy parchment symbols msstrength~
+some sinewy parchment inscribed with symbols~
+A sinewy parchment inscribed with strange symbols waits to be read.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1223
+scroll scrollcase drops water mswaterwalk~
+a scrollcase covered with drops of water~
+A scrollcase covered with drops of water has made a small puddle.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1224
+scroll shiny reflective parchment msmirrorimage~
+a shiny, reflective parchment~
+A shiny, reflective parchment longs to be read.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1225
+scroll scrollcase dull metal msshield~
+a scrollcase of dull metal~
+Lying on the ground, a scrollcase of dull metal gathers dust.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1226
+scroll arrow miniature msacidarrow~
+a miniature arrow with writing on it~
+A miniature arrow with writing on it looks for an owner.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1227
+disk round runes msfloatingdisk~
+a round disk, with runes etched upon it~
+Lying among rubbish, a round disk, with runes etched upon it rests here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1228
+scroll thin bone mschilltouch~
+a thin bone scroll~
+A thin scroll made of bone lies here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1229
+scroll closed eyes dusty msblindness~
+a scroll covered in closed eyes~
+A dusty scroll covered in closed eyes lies here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1230
+parchment shape bolt electricity dusty mslightningbolt~
+a parchment in the shape of a bolt of electricity~
+A dusty parchment in the shape of a bolt of electricity lies in the dirt.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1231
+scroll thin feather plume mssenselife~
+a thin scroll, bound by a feather plume~
+A thin scroll, bound by a feather plume rests gently on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1232
+poem closed mouth picture mssilence~
+a poem with a picture of a closed mouth~
+Lying here, written upon some paper is a poem with a picture of a closed mouth.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1233
+arrow thick red runes etched msflamearrow~
+a thick arrow etched with red runes~
+Dropped on the ground, a thick arrow etched with red runes waits to be shot.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1234
+doll tiny servant writing msminorconjuration~
+a tiny doll servant, covered in writing~
+Covered in writing, a tiny servant doll stands by closely.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1235
+scroll bearing red plume~
+a scroll bearing a red plume~
+Fluttering in the wind, an old scroll bearing a red plume is here.~
+~
+2 cjklmnrstCDF ac g 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1236
+shirt midnight blue~
+a finely sewn, midnight blue shirt~
+A shirt the shade of midnight blue rests softly on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc g 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1237
+scrollcase dog leash mscharmperson~
+a scrollcase wrapped in a dog leash~
+Wrapped in a worn, leather dog leash, a large scroll lies here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2500 2500 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1238
+scroll rainbow mscolorspray~
+a rainbow coloured scroll~
+Covered in the bright colours of the rainbow, a dazzling scroll rests here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1239
+scrollcase burned blackened mscurse~
+a burned, blackened scrollcase~
+A burned, blackened scrollcase rests on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1240
+parchment orange rolled msenergydrain~
+a rolled-up, orange coloured parchment~
+A rolled-up, orange coloured parchment waits to be picked up.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1241
+parchment white small piece msfireball~
+a small piece of white parchment~
+A small piece of white parchment rests on the ground here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1242
+withered cracked parchment msweaken~
+a withered, cracked parchment~
+A withered, cracked parchment decays on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1243
+scroll giant msenlarge~
+a scroll with the image of a giant~
+A long scroll with the image of a giant on it lies on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1244
+fangs pair inscribed msvampirictouch~
+a pair of inscribed fangs~
+A pair of fangs covered in runes rests on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1245
+scroll dipped molasses msslow~
+an old scroll dipped in molasses~
+An old scroll lies here, with its ends covered in a dark, thick liquid.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1246
+scroll sticky mesh msweb~
+a sticky scroll made of mesh~
+A scroll made from mesh lies here, stuck fast to the floor.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1247
+paper thin floating mslevitate~
+a thin, floating piece of paper~
+Floating gently on the wind, a thin piece of paper avoids your grasp.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1248
+mirror small shimmering runes msteleport~
+a small, shimmering mirror with runes~
+Lying on the ground is a small, shimmering mirror with runes.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1249
+scroll thick fancy green ribbon msidentify~
+a thick, fancy scroll with green ribbon~
+A thick, fancy scroll with green ribbon waits to be read.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1250
+scroll thin wards msnosummon~
+a thin scroll covered in wards of protection~
+Resting on the ground is a thin scroll covered in wards of protection.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1251
+scroll blue blue-ish icicle msconeofcold~
+a blue-ish scroll in the shape of an icicle~
+Melting slightly, a blue scroll shaped like an icicle lies on the floor.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1252
+ribbon colourful msdispelmagic~
+some colourful ribbon with words~
+A colourful ribbon, with words written upon it, lies in a pile on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1253
+scroll glowing red warm mshellfire~
+a glowing red scroll that is warm to the touch~
+Glowing on the ground, radiating heat, lies a red scroll.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1254
+scrollcase cracked bone mscripple~
+a scrollcase made from a cracked bone~
+A cracked bone lies on the ground, its marrow partially visible.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1255
+scroll silver image closed msblink~
+a silver scroll with the image of two closed eyes~
+Two closed eyes for the image on a silver scroll resting on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1256
+scroll topknot small msfear~
+a topknot attached to a small scroll~
+A brown topknot lies in the dirt, bound to a small scroll.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1257
+sword short ancient msenchantweapon~
+a short sword with ancient writing upon it~
+Written on in an ancient langauge, a short sword rusts away in the dirt.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1258
+door miniature antique oak msportal~
+a miniature door made of antique oak~
+Too small for a doorway, a miniature door made of antique oak rests in the dirt.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1259
+parchment frayed sheets yellowed msdisintegrate~
+some frayed sheets of yellowed parchment~
+Yellowed with age, a few sheets of frayed parchment lie scattered on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1260
+scroll thin wire msgate~
+a thin scroll wrapped in fine wire~
+Bound in fine wire, a thin scroll waits to be picked up.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1261
+scroll small grey msparalyze~
+a small, grey scroll~
+A small, grey scroll lies motionless on the ground.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1262
+scroll purple yellow ribbon mspetrify~
+a purple scroll wrapped in yellow ribbon~
+Wrapped in yellow ribbon, a pretty purple scroll lies here.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1263
+scroll dark grey thunderclouds mschainlightning~
+a dark grey scroll with images of thunderclouds~
+Covered in images of thunderclouds, a dark grey scroll lies rolled up.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 750 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1264
+runes apocolyptic image glowing msprismaticspray~
+an apocolyptic image framed in glowing runes~
+An apocolyptic image framed in glowing runes leans against some debris.~
+~
+2 cgjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 1200 750 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1265
+scroll silver iridescent glitter~
+a silver scroll covered in iridescent glitter~
+A silver scroll covered in iridescent glitter lies here.~
+~
+2 cjklmnopqrstuvwBCDEF abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1266
+scroll slimy green pungent msstinkingcloud~
+a slimy, pungent green scroll~
+A slimy green scrolls sends off a pungent odor here on the ground.~
+~
+2 cjklmnopqrstuvwBCDEF abc g 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1267
+scroll picture summoner msmajorconjuration~
+a scroll with a picture of a summoner~
+A scroll with a picture of a summoner is laying here.~
+~
+2 cgjklmqv 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1200 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1268
+torn parchment scene war~
+a torn parchment depicting a scene of war~
+A yellowish torn parchment has been carelessly left here.~
+~
+2 cejklmCF a g 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1269
+dagger~
+a dagger~
+A dagger lies here.~
+x=@87/~
+5 akloCF a 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 -12 0
+#1270
+scroll image huge flaming dragon msgreaterconjuration~
+a scroll with the image of a huge flaming dragon~
+A scroll with the image of a huge flaming dragon has been left here.~
+~
+2 cgjklmqv 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1200 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1271
+scroll red runes recall~
+a scroll with red runes~
+A scroll with red runes rests on the ground.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1600 800 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+scroll red runes~
+   The parchment is crasked and seems old.  The letters upon the page seem to
+glow softly, as if emanating a sense of magic.    
+~
+#1272
+piece of paper~
+a piece of paper~
+A piece of paper~
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1273
+dartboard board dart~
+a black and red painted dartboard~
+A wooden dartboard laid with black and red painted cork is nailed against the wall.~
+~
+21 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+dartboard dart board~
+   This dartboard is has been fashioned from vallenwood and is finely polished.
+String aragoth title layer of painted cork has been attatched to the front so
+that the darts can stick into it.  The board is covered in a painted grid, each
+indicating string aragoth title different point score.    
+Type "playdarts" to play a game of darts.
+~
+#1274
+object new~
+a mug of ale~
+A mug of ale sets here.~
+~
+17 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 10 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1275
+dagger~
+a large, dragon tooth dagger~
+A large, dragon tooth dagger lies here collecting dust~
+corpse~
+5 klowCF 0 0 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 30 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1276
+boots gold sky-blue trim~
+a pair of sky-blue boots with gold trim~
+Two sky-blue boots are collecting dust here.~
+~
+9 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1277
+necklace hammer small adamantium suspended platinum chain -Palberdere~
+a small adamantium hammer suspended on a platinum chain~
+A small hammer-like necklace lies upon the floor.~
+~
+9 jnqzB 0 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+17 -7 0
+#1278
+spellbook rune leather bound~
+a rune covered, leather bound spellbook~
+A thick book, covered in runes and bound in leather waits to be picked up.~
+~
+26 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1000 250 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1279
+leather jacket gleaming vines -Jaeroth~
+a thick leather jacket, interwoven with gleaming vines~
+A jacket covered in vines is heaped in a pile on the ground~
+~
+9 lqr an 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+#1280
+turkey tasty large~
+a large, tasty looking turkey~
+A large turkey sits here on the table.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1281
+scroll msdancingsword~
+a scroll bearing a picture of a sword~
+A scroll bearing a picture of a sword lies in the mud.~
+~
+2 cgjklmnopqrstuvwBCDE abc g 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1282
+table large feasting~
+a large feasting table~
+A large feasting table sits here covered in food.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+300 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1283
+corpse boy~
+the corpse of a small boy selling newspapers~
+Here lies the corpse of a small boy selling newspapers.~
+~
+13 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1284
+white cloak bison -unique- pyris~
+a white cloak with brown trimming, styled with the symbol of the bison's horns~
+A white cloak is crumpled here.~
+~
+9 ajqt a l 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+A
+18 1 0
+A
+9 -40 0
+#1285
+tears chislev stones~
+the Tears of Chislev~
+Two stones in a glass case rest here.~
+~
+8 abcgjklqruwABCDF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+inscription stones~
+   These stones are as different as they are similar.  One is a brownish in
+color with reams of color swirling through it.  The other is stormy grey, and
+crackles with electric energy.  The glass casing holding these stones
+sepperates them, and keeps them from touching.    
+~
+#1286
+scales merchant ring~
+a ring depicting broken merchant scales of platinum and gold~
+A ring depicting broken merchant scales of platinum and gold lays here.~
+~
+9 agklmq at kz 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+inscription ring~
+   Exceptionally intricate designs adorn this platinum and gold ring.  
+Fashioned by a master jewlsmith for a long dead elven prince, this ring has
+laid in wait for a new bearer.  Imbued with the magic of the elves, the ring
+glows faintly, and if one cares to look closer at the patterns one would see
+the wheels of balance forever turning between light and darkness.    
+~
+A
+1 1 0
+A
+6 1 0
+#1287
+medallion black chain kellan-unique~
+a plain black medallion suspended from a blackened chain~
+A plain black medallion hangs here.~
+~
+9 knA au l 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+medallion~
+   Plain black metal cool to the touch makes up this black medallion.  Nothing
+mars its surface and it is complete in its lack of decoration.  How ever when
+worn by one who worships Takhisis, the five headed dragon appears lined in
+silver.    
+~
+A
+3 1 0
+A
+24 1 0
+#1288
+ring obsidian dragon~
+an obsidian ring~
+The ring of chromatic supremacy has been left here.~
+~
+9 abgknqs am k 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+18 1 0
+#1289
+spiked onyx vambraces VASH QUESTRESTRING~
+a set of spiked, onyx vambraces~
+A set of intracately spiked onyx vambraces has been left here.~
+13~
+9 ks a k 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -2 0
+A
+13 10 0
+#1290
+onyx bladed bastard sword spiked VASH QUESTRESTRING~
+an onyx bladed bastard sword with a spiked hilt~
+A beautiful onyx bladed bastard sword has been jammed in the ground here with a spiked hilt pointing upwards.~
+~
+5 ks a l 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+13 40000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#1291
+Ring of vitality~
+a slender bronze ring~
+A slender, bronze ring rest here.~
+~
+11 ajklmnoprstuvwBCDF abc stuvwxyz 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 -75 0
+#1292
+object new~
+a new object~
+A new object is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1299
+key iron heavy~
+a heavy iron key~
+An iron key sits heavily on the ground.~
+~
+18 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

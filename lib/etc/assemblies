@@ -1,0 +1,55 @@
+Vnum                #60000 forge
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64000 1 0
+Component           #64100 1 0
+
+Vnum                #60001 craft
+Component           #64000 1 0
+Component           #64001 1 0
+Component           #64101 1 0
+
+Vnum                #60002 craft
+Component           #64004 1 0
+Component           #64101 1 0
+
+Vnum                #60003 craft
+Component           #64101 1 0
+Component           #64005 1 0
+Component           #64003 1 0
+
+Vnum                #60004 forge
+Component           #64101 1 0
+Component           #64000 1 0
+Component           #64003 1 0
+
+Vnum                #60005 forge
+Component           #64000 1 0
+Component           #64001 1 0
+Component           #64001 1 0
+Component           #64101 1 0
+
+Vnum                #60006 craft
+Component           #64100 1 0
+Component           #64000 1 0
+
+Vnum                #60007 forge
+Component           #64000 1 0
+Component           #64100 1 0
+
+Vnum                #60008 weave
+Component           #64004 1 0
+Component           #64005 1 0
+Component           #64021 1 0
+Component           #64021 1 0
+Component           #64021 1 0
+Component           #64021 1 0
+Component           #64104 1 0
+Component           #64013 0 1

@@ -1,0 +1,364 @@
+#16800
+The Palanthas Vault~
+   This area serves as a vault and storage area for Palanthas' citizens and
+adventuring community.  Available actionsa re @Ywithdraw@n, @Ydeposit@n and
+@Ylist@n.  
+~
+168 0 0 0 0 0
+D0
+~
+~
+0 0 2314 0 0 0 0 0 0 0 0
+S
+#16801
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Solamnia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D3
+~
+~
+0 0 2358 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 16802 0 0 0 0 0 0 0 0
+S
+#16802
+Climbing the Airship Tower~
+   This tower is made of sturdy stone with a large platform at the top.  It
+serves as a docking area for small gnomish airships, used for travel between
+nations on Ansalon and beyond.  
+~
+168 0 0 0 0 0
+D4
+~
+~
+0 0 16803 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 16801 0 0 0 0 0 0 0 0
+S
+#16803
+Climbing the Airship Tower~
+   This tower is made of sturdy stone with a large platform at the top.  It
+serves as a docking area for small gnomish airships, used for travel between
+nations on Ansalon and beyond.  
+~
+168 0 0 0 0 0
+D4
+~
+~
+0 0 16804 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 16802 0 0 0 0 0 0 0 0
+S
+#16804
+Atop the Dragon Tower~
+   This tower serves as an area where adventurers may take airships to the
+various parts of Ansalon.  Available commands are @Yairship@n.  
+~
+168 0 0 0 0 0
+D5
+~
+~
+0 0 16803 0 0 0 0 0 0 0 0
+S
+#16805
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Solamnia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D3
+~
+~
+0 0 8170 0 0 0 0 0 0 0 0
+S
+#16806
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Solamnia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D1
+~
+~
+0 0 4495 0 0 0 0 0 0 0 0
+S
+#16807
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Solamnia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D0
+~
+~
+0 0 6114 0 0 0 0 0 0 0 0
+S
+#16808
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D2
+~
+~
+0 0 1358 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 16809 0 0 0 0 0 0 0 0
+S
+#16809
+Climbing the Airship Tower~
+   This tower is made of sturdy stone with a large platform at the top.  It
+serves as a docking area for small gnomish airships, used for travel between
+nations on Ansalon and beyond.  
+~
+168 0 0 0 0 0
+D4
+~
+~
+0 0 16810 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 16808 0 0 0 0 0 0 0 0
+S
+#16810
+Climbing the Airship Tower~
+   This tower is made of sturdy stone with a large platform at the top.  It
+serves as a docking area for small gnomish airships, used for travel between
+nations on Ansalon and beyond.  
+~
+168 0 0 0 0 0
+D4
+~
+~
+0 0 16811 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 16809 0 0 0 0 0 0 0 0
+S
+#16811
+Atop the Dragon Tower~
+   This tower serves as an area where adventurers may take airships to the
+various parts of Ansalon.  Available commands are @Yairship@n.  
+~
+168 0 0 0 0 0
+D5
+~
+~
+0 0 16810 0 0 0 0 0 0 0 0
+S
+#16812
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D2
+~
+~
+0 0 3221 0 0 0 0 0 0 0 0
+S
+#16813
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D3
+~
+~
+0 0 2942 0 0 0 0 0 0 0 0
+S
+#16814
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D1
+~
+~
+0 0 201 0 0 0 0 0 0 0 0
+S
+#16815
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D3
+~
+~
+0 0 4428 0 0 0 0 0 0 0 0
+S
+#16816
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D0
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+S
+#16817
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D3
+~
+~
+0 0 3097 0 0 0 0 0 0 0 0
+S
+#16818
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Abanasinia.  Available actions are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D3
+~
+~
+0 0 13146 0 0 0 0 0 0 0 0
+S
+#16819
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Taman Busuk, Plains of Dust, Blode, Nordmaar & Silvanesti.  Available actions
+are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D3
+~
+~
+0 0 1602 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 16820 0 0 0 0 0 0 0 0
+S
+#16820
+Climbing the Airship Tower~
+   This tower is made of sturdy stone with a large platform at the top.  It
+serves as a docking area for small gnomish airships, used for travel between
+nations on Ansalon and beyond.  
+~
+168 0 0 0 0 0
+D4
+~
+~
+0 0 16821 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 16819 0 0 0 0 0 0 0 0
+S
+#16821
+Climbing the Airship Tower~
+   This tower is made of sturdy stone with a large platform at the top.  It
+serves as a docking area for small gnomish airships, used for travel between
+nations on Ansalon and beyond.  
+~
+168 0 0 0 0 0
+D4
+~
+~
+0 0 16822 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 16820 0 0 0 0 0 0 0 0
+S
+#16822
+Atop the Dragon Tower~
+   This tower serves as an area where adventurers may take airships to the
+various parts of Ansalon.  Available commands are @Yairship@n.  
+~
+168 0 0 0 0 0
+D4
+~
+~
+0 0 16823 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 16821 0 0 0 0 0 0 0 0
+S
+#16823
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Taman Busuk, Plains of Dust, Blode, Nordmaar & Silvanesti.  Available actions
+are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D1
+~
+~
+0 0 8715 0 0 0 0 0 0 0 0
+S
+#16824
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Taman Busuk, Plains of Dust, Blode, Nordmaar & Silvanesti.  Available actions
+are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D2
+~
+~
+0 0 10312 0 0 0 0 0 0 0 0
+S
+#16825
+Carriage Station~
+   This room serves as an area where you can take a carriage to various parts of
+Taman Busuk, Plains of Dust, Blode, Nordmaar & Silvanesti.  Available actions
+are @Ycarriage@n.  
+~
+168 0 0 0 0 0
+D2
+~
+~
+0 0 7581 0 0 0 0 0 0 0 0
+S
+#16826
+Holi's Binding Services~
+   This shop allows someone to bind an item to them at an increased cost,
+instead of trying to do it themselves, when their deception, persuasion or
+knowledge skills are low.  Available actions are @Ybind@n.  
+~
+168 d 0 0 0 0
+D2
+~
+~
+0 0 2212 0 0 0 0 0 0 0 0
+S
+#16827
+Forlod the Repair Gnome~
+   This is the workshop of one Forlod the Tinkerer, a semi sane gnome known
+throughout the area as being able to fix anything and everything, and in record
+time to boot.  To fix an item, type @Yrepair <item name>@n.  To repair all
+equipped items, type @Yrepair all@n (you will have to re-equip the items
+though).  
+~
+168 d 0 0 0 0
+D0
+~
+~
+0 0 2212 0 0 0 0 0 0 0 0
+S
+$~

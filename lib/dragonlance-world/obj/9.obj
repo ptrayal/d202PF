@@ -1,0 +1,80 @@
+#900
+hat bear skin~
+a bear skin hat~
+A hat made of the skin from a bear's head lies here.~
+~
+9 jklmnopstuvwBCDEF abc 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 125 1 0
+Z
+4
+E
+hat bear skin~
+   This mangy hat appears to come from a bear's head, and is covered in matted
+blood and dirt.  It is rather inflexible with its caked on blood.  A small
+string of leather connects the bear's ears together to form a chinstrap of
+sorts.    
+~
+#901
+stick wooden thin~
+a thin, wooden stick~
+A thin piece of carved wood rests on the ground.~
+~
+5 jklmnopruvwBCDEF abc 0 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 1 0
+Z
+4
+#902
+pump rusty water~
+a rusty water pump~
+An unused, rusty water pump sticks out of the ground.~
+~
+23 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10005 1 1 0
+Z
+4
+#903
+collar guard black thick~
+a black guard collar~
+A thick, black leather collar rests on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 70 10 0
+Z
+4
+#904
+torch crude cloth~
+a crude, cloth torch~
+A crude torch made of cloth wrapped around a branch is here.~
+~
+1 jklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 8 1 0
+Z
+4
+#905
+crown braided iron thorny~
+a thorny crown of braided iron~
+A crown of interwoven iron and thorns lies here.~
+~
+9 jklnopruvwBDF abc suvwxz 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 1
+Z
+4
+A
+18 1 0
+#906
+heart innocent child~
+a heart from an innocent child~
+A bloody heart rests here in a forming pool of blood.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+$~

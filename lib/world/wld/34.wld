@@ -1,0 +1,391 @@
+#3400
+The Hall of Judgment~
+   You step forth from beyond the veil and into the realm of Kelemvor.  You are
+neither dead nor alive, and your presence here at the Hall of Judgement, given
+that fact, means that you must go forth into the Realms, and leave this place of
+stasis.  A ghostly being, a herald of some sort, urges you north through a set
+of black, wrought-iron gates.  A voice speaks to your mind telling you to use
+the @Ynewbie@n command if you need any help at any time.  If you are completely
+new to muds please go east by typing @Yeast@n to begin the beginners lessons.  
+~
+34 d 0 0 0 0
+D0
+~
+~
+0 0 3415 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3405 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3220 0 0 0 0 0 0 0 0
+S
+#3401
+Choose Your Race~
+   Since all beings are created with a gender, you are urged by Kelemvor's
+servants here to select the race you would choose for your being during your
+life on Toril.  It is said that the Gods allow some stalwart followers of their
+to reincarnate as advanced races, and if you are one of these lucky fellows you
+may ask any deity in the heavens above to change your race now, if indeed there
+are any available for such a task.  However, if you are like most souls coming
+through these gates, you must choose a common race.  But be not vexed for this,
+as the common races, though plentiful, are as rich in culture and are by no
+means left aside in the realm of ability either.  The ghostly servant escorting
+you through your journey of creation explains to you that you may receive a
+message to your mind of what races are avaialble through the @Ylistraces@n
+command.  Once you are ready to choose a race, you simply must use the
+@Ysetrace@n command followed by the name of the race you wish to become.  For
+example: setrace icefolk barbarian.  This would set your race to that of the
+icefolk barbarians common in the far reaches of the North such as Icewind Dale.
+When you have chosen your race simply go north to continue your creation.  If
+you need information on a race, use help &Yrace <racename>@n, or just type &Yhelp races@n for a full list.
+~
+34 d 0 0 0 0
+D0
+~
+~
+0 0 3402 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3415 0 0 0 0 0 0 0 0
+S
+#3402
+Choose Your Alignment~
+   Here Kelemvor's servants urge you to select an alignment.  This should be an
+easy choice for most spirits, as they each have their own personalities from the
+beginning.  However each spirit has the choice to alter that personality before
+they are born on Faerun.  TO change your alignment you may use @Ysetalign@n
+<alignment>.  Your alignment is one of good, neutral or evil.  To set your
+ethos, use @Ysetethos@n <ethos> Your ethos is one of lawful, nuetral or chaotic.
+Your full alignment is your ethos followed by your alignment.  So lawful good
+for example.  Your alignment will determine what equipment you can use, what
+classes you can choose, and other aspects of being in the world of Faerun.  You
+are urged to go north once you have chosen your alignment and ethos.  
+~
+34 d 0 0 0 0
+D0
+~
+~
+0 0 3403 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3401 0 0 0 0 0 0 0 0
+S
+#3403
+Choose Your Ability Scores~
+   You are urged into this area by Kelemvor's servants to set your ability
+scores.  You can do this by using the @Ysetstats@n command.  The proper syntax
+is @Ysetstats @Y<ability @Yscore> @Y<new @Yscore>@n or @Ysetstats @Yshow@n to
+display your stats.  For example, @Ysetstats @Ystrength @Y16@n would set your
+strength to 16 if you had enough points to buy that score.  You start off with
+20 stat points to assign, and the higher the stat the more points it costs.  
+The available ability scores are strength, dexterity, constitution,
+intelligence, wisdom and charisma.  Type @Yhelp @Yability @Yscore @Y<name>@n for
+more information on each ability score.  
+No stat can be set below 8.
+~
+34 d 0 0 0 0
+D0
+~
+~
+0 0 3404 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3402 0 0 0 0 0 0 0 0
+S
+#3404
+Choose Your Description~
+   The servants of Kelemvor urge you here to describe your physical form.  You
+may do this by using @Ysetdescs@n.  This will take you to a menu where you can
+choose the various descriptors for your character.  If you do not see a
+descriptor that you would like to have, please tell a God and it will be added
+for you to choose later.  
+~
+34 d 0 0 0 0
+D0
+~
+~
+0 0 3301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3403 0 0 0 0 0 0 0 0
+S
+#3405
+Beginner's Lesson 1 - Directional Movement~
+   To move around the mud you must type the name of the direction you want to
+go.  You may see which directions are available by typing exits, or if you have
+autoexits enabled it will display the exits in the room automatically when you
+look or move.  The automap and map commands as well can help to see where things
+are.  On the map you are in the room with the exclamation mark (!  ).  Go east
+to continue ro go down to test out moving in different directions.  
+~
+34 0 0 0 0 0
+D1
+~
+~
+0 0 3407 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3400 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+S
+#3406
+Beginner's Lesson 1 - Testing Directional Movement~
+   Here you may test out directional movement.  All of the exits lead back to
+this room, so don't worry about getting lost.  Go @Yup@n@N again when you are
+done.  
+~
+34 0 0 0 0 0
+D0
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3405 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D11
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+S
+#3407
+Beginner's Lesson 2 - Looking~
+   You wil undoubtedly want to get greater detail on things throughout the game,
+and one of the ways you can do this is by looking at them.  To look in the room
+you are in simply type @Ylook@n.  To look at another player or a monster
+(otherwise known as mob) type @Ylook @Y<name @Yor @Ydescription>@n To look at an
+object type @Ylook @Y<object @Ydescription @Ykeyword>@n.  You can test this out
+by typing @Ylook@n, @Ylook @Yself@n, and @Ylook @Ymap@n to look at the map in
+your inventory.  
+~
+34 0 0 0 0 0
+D1
+~
+~
+0 0 3408 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3405 0 0 0 0 0 0 0 0
+S
+#3408
+Beginner's Lesson 3 - Doors~
+   Sometimes exits are blocked with a door of some kind whether it be an actual
+door, a sewer manhole, a gate, or what have you.  In order to open it, you must
+type @Yopen @Y<door @Ykeyword>@n.  If it is locked and you have the key, you can
+unlock it using the @Yunlock @Y<door @Ykeyword>@n command.  If you have the pick
+locks skill practiced, you can pick the lock by typing @Ypick @Y<door
+@Ykeyword>@n.  Sometimes exits are hidden and you are able to find them by using
+the @Ysearch @Y<direction>@N command.  @n
+~
+34 0 0 0 0 0
+D1
+~
+~
+0 0 3409 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3407 0 0 0 0 0 0 0 0
+S
+#3409
+Beginner's Lesson 4 - Containers~
+   You will often interact with containers such as bags and backpacks throughout
+the game.  In order to get something from the container, whether it be a bag or
+a corpse of the mob you just killed, you will need to type @Yget @Y<item
+@Ykeyword> @Y<container @Ykeyword>@n.  For example, get coins corpse.  You can
+also get all items from a container by typing @Yget @Yall @Y<container
+@Ykeyword>@n.  If you want to put something in a container type @Yput @Y<item
+@Ykeyword> @Y<container @Ykeyword>@n, and just like get, you can use the all
+keyword in place of the item keyword to put everything in your inventory into a
+container.  You can see what is typeing @Yinventory@n or just @Yi@n@N for short.
+
+~
+34 0 0 0 0 0
+D1
+~
+~
+0 0 3410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3408 0 0 0 0 0 0 0 0
+S
+#3410
+Beginner's Lesson 5 - Equipment~
+   You will undoubtedly want to use the items you find and in order to do so you
+will need to learn a few new commands.  If the item is a weapon, you can start
+using it by typing @Ywield @Y<weapon @Ykeyword@n>.  
+~
+34 0 0 0 0 0
+D3
+~
+~
+0 0 3409 0 0 0 0 0 0 0 0
+S
+#3411
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+34 0 0 0 0 0
+D1
+~
+~
+0 0 3412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3410 0 0 0 0 0 0 0 0
+S
+#3412
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+34 0 0 0 0 0
+D1
+~
+~
+0 0 3413 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3411 0 0 0 0 0 0 0 0
+S
+#3413
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+34 0 0 0 0 0
+D1
+~
+~
+0 0 3414 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3412 0 0 0 0 0 0 0 0
+S
+#3414
+New BuildWalk Room~
+This unfinished room was created by Tyr.
+~
+34 0 0 0 0 0
+D3
+~
+~
+0 0 3413 0 0 0 0 0 0 0 0
+S
+#3415
+Please Read the Rules~
+   Before you begin creating your character we require you to familiarize
+yourself with the rules of the game.  You will be required to read each help
+file in the '@Yhelp @Yrules@n' help file.  Once all are read you will be able to
+continue with your character creation.  
+~
+34 d 0 0 0 0
+D0
+~
+~
+0 0 3401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3400 0 0 0 0 0 0 0 0
+S
+#3416
+A Kitchen and Living Area~
+In one corner sits a BBQ grill along with a cupboard full of utensils and
+seasonings.  Above it is a carved image of the cook wearing an apron.  Opposite
+the grill is a comfy couch covered with a handmade throw near a window
+overlooking the yard.  
+~
+34 0 0 0 0 0
+D2
+~
+~
+0 0 3418 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3417 0 0 0 0 0 0 0 0
+S
+#3417
+a Rangery Bedroom~
+A skylight covers the entire ceiling.  A huge hammock is neatly made with
+several soft cozy blankets and a fluffy pillow.  One always has sweet dreams
+here.  Ink, quill, and parchment sit on a small oak desk with chair half pushed
+in.  
+~
+34 0 0 0 0 0
+D5
+~
+~
+0 0 3416 0 0 0 0 0 0 0 0
+S
+#3418
+Pathway through a patch of yellow roses~
+A path of sparkling white stones lead to a well taken care of home right to the
+front door.  Wild yellowish roses of various sizes cover the entire yard.  On
+the door is an intricately carved sign with the owner's name shimmering brightly
+in the center.  
+~
+34 0 0 0 0 0
+D0
+~
+~
+0 0 3416 0 0 0 0 0 0 0 0
+S
+#3420
+An unfinished room~
+You are in an unfinished room.
+~
+34 0 0 0 0 0
+D2
+~
+~
+0 0 3318 0 0 0 0 0 0 0 0
+S
+$~

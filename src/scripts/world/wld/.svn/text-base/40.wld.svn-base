@@ -1,0 +1,3053 @@
+#4000
+Freedom Square~
+Freedom's standard waves proudly in the wind high above this massive
+intersection at the heart of the city.  The cobblestoned streets seem to shine
+beneath the flag, a watery coat upon the stones reflecting light from above.  
+Trees frosted with dew line the streets.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4001 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4007 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4003 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4002 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4008 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4006 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4004 0 0 0 0 0 0 0 0
+S
+#4001
+North of City Square~
+Freedom Lane runs north and south of here, the road paved with ancient pavers
+from the ruins of the original city, shops line either side of the street, the
+people of this city seem to all carry some form of weapon.  To the south, the
+Spire of Dawn can be seen looming high up into the clouds, while to the north
+the gates to the wall of Redemption can be seen.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4010 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4002
+Freedom Bank~
+This bank is very large and is seperated into two sections.  The first section
+has rows of service tills that are ready to help anyone.  The second section has
+a few desks with experienced people ready to answer any question about their
+services.  
+~
+40 0 0 0 0 0
+D8
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4003
+Grace's Way~
+Knights gathered here are on guard to help protect the City.  A small group of
+them discuss tactical maneuvers in preparation of the next invasion.  Several
+mounts have been tied to a nearby post and are eating from the trough.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4054 0 0 0 0 0 0 0 0
+S
+#4004
+The Stables~
+This straw-covered building houses many creatures of note; you see stable areas
+for horses, ponies and even eagles.  A young stable-hand walks towards you to
+see if he can offer you any help.  
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4005
+South of City Square~
+The stalls that once crowded together here have been moved into new shops on
+either side of the freshly paved street.  Fir trees and silver lightpoles line
+the way, and the clicking of heels on cobblestones can be heard as shoppers
+travel past.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4016 0 0 0 0 0 0 0 0
+S
+#4006
+Herb shop~
+Surprisingly well-kempt and free of riff-raff, the walls of this tiny shop are
+lined with various bins and jars containing seeds and herbs both exotic and
+mundane.  Dried miscellany hangs from the rafters.  A wheezing cough comes from
+the back of the shop.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4009 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4007
+East of City Square~
+Loud laughter and the jingle of coins fill the air as people are jostled along
+the busy lane.  Various merchants offer cheap items to those without
+discriminating taste.  Nearby, merchants offer a place to store your more
+valuable items for a price.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4040 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4008
+Armor and Weapons Shop~
+To the clanging of steel and the heat of the furnace, you walk into a busy smith
+shop.  People are working on all types of weapons and armour.  You see the
+Master Smith over by the east wall.  
+~
+40 0 0 0 0 0
+D9
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4009
+Potion shop~
+A small annex to the main herb store contains racks upon racks of glittering
+runes, well-crafted rods, and sundry other merchandise.  A burbling fountain in
+the corner adds an air of sophistication, and the scent of herbs is still
+detectable.  
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4006 0 0 0 0 0 0 0 0
+S
+#4010
+Freedom Lane~
+Freedom Lane continues on north, into the primary housing district of the city,
+and the Wall of Redemption.  The third wall in the cities defenses.  The
+cobblestones here seem to be torn up, and out of place; as if someone were
+digging in the street.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4011 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4001 0 0 0 0 0 0 0 0
+S
+#4011
+Melody Lane~
+This part of Freedom Lane is in stark contrast to the rest of the street; unlike
+the other areas of the road, is has not been well cared for.  The cobbles are
+patchy and even missing in parts.  A decrepit shop lies east of you.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4013 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4012 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4010 0 0 0 0 0 0 0 0
+S
+#4012
+Merchant Shop off Freedom Lane~
+This shop is very busy with people of all classes trying to buy items.  The
+sharp eyes of the over-weight merchant quickly picks out those that appear to
+have the most gold.  It is very noisy in here from people shouting at each
+other.  
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4011 0 0 0 0 0 0 0 0
+S
+#4013
+Freedom Lane~
+A large aqueduct runs over the street here.  It is built from white stone of
+Dwarvish design and the rest of the street has been built to help support it.  
+Set in the centre of the road is a manhole cover.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4011 0 0 0 0 0 0 0 0
+S
+#4014
+Gates of Redemption~
+The ground here appears to have suffered some form of underground disturbance.
+The road has cracks all over it and several of the buildings have had supports
+placed on them.  Large jagged claw marks criss cross the gates, to either side
+of the street large wooden braces lie in wait, ready to be used as reinforcings
+for the Gate.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4015 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4059 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4093 0 0 0 0 0 0 0 0
+S
+#4015
+Way of Redemption~
+You stand below the huge stone gate that leads out of Freedom City.  The huge
+gates stand open at present but you can clearly see the claw marks from
+creatures that have tried to gain entry while the doors have been closed.  
+North leads to the wall of Courage, the second wall in the cities defenses.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4052 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4053 0 0 0 0 0 0 0 0
+S
+#4016
+Melody Lane~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4005 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4017 0 0 0 0 0 0 0 0
+S
+#4017
+Freedom Lane~
+Carved from pure white marble, the road shines in the light.  Wide enough for
+four men on horseback and lined with statues the road is obviously well used.  
+Despite the volume of travel along the road, the marble is immaculate; perhaps
+magic keeps it clean.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4016 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4019 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4018 0 0 0 0 0 0 0 0
+S
+#4018
+Circle of Truth~
+The road gently slopes downwards.  For being so close to the marketplace, the
+road is strangely empty and peaceful.  The smallest sounds echo, adding to the
+aura of mystery.  Silver light envelops everything on this street, including
+you.  
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4020 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4017 0 0 0 0 0 0 0 0
+S
+#4019
+Circle of Truth~
+The road twists and turns making it difficult to see ahead.  A gentle silvery
+glow emits from everything around, even the air seems to shimmer with a glow of
+its own.  The buildings have a mystic yet solid look
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4122 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4017 0 0 0 0 0 0 0 0
+S
+#4020
+Circle of Truth~
+Rows of brightly colored flowers flourish in this section of the circle.  White
+stone benches have been placed to either side of the street, providing places to
+relax while enjoying this fragrant place.  A soft silvery aura envelops each
+flower.  The road continues north, and south.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4021 0 0 0 0 0 0 0 0
+S
+#4021
+Circle of Truth~
+The trees form a processional, with the stately Aspen standing tall, their
+silver lined leaves stirring gently in the wind.  At their side, weeping willow
+trees trail bright green branches like a bride with her train.  The melody grows
+stronger.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4020 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4022 0 0 0 0 0 0 0 0
+S
+#4022
+City gates into enemy territory~
+Carved from a single block of granite, massive archways grant entrance to
+Freedom Cities main roads.  Dressed in crimson red armor trimmed in gold, the
+honour guard patrols the area, protecting the mysterious treasures which lie
+within the cities' boundaries.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4023 0 0 0 0 0 0 0 0
+S
+#4023
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4022 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4024 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4025 0 0 0 0 0 0 0 0
+S
+#4024
+Inn~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4023 0 0 0 0 0 0 0 0
+S
+#4025
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4029 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4026 0 0 0 0 0 0 0 0
+S
+#4026
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4027 0 0 0 0 0 0 0 0
+S
+#4027
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4028 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4026 0 0 0 0 0 0 0 0
+S
+#4028
+Tavern~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4027 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+S
+#4029
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4025 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4030 0 0 0 0 0 0 0 0
+S
+#4030
+Auchtareen Lane~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4029 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4038 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4031 0 0 0 0 0 0 0 0
+S
+#4031
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4030 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4032 0 0 0 0 0 0 0 0
+S
+#4032
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4031 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4033 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4125 0 0 0 0 0 0 0 0
+S
+#4033
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4035 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4032 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4034 0 0 0 0 0 0 0 0
+S
+#4034
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4036 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4033 0 0 0 0 0 0 0 0
+S
+#4035
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4033 0 0 0 0 0 0 0 0
+S
+#4036
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4034 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4037 0 0 0 0 0 0 0 0
+S
+#4037
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4036 0 0 0 0 0 0 0 0
+S
+#4038
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4030 0 0 0 0 0 0 0 0
+S
+#4039
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4051 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4038 0 0 0 0 0 0 0 0
+S
+#4040
+Honor Street~
+It is clear from the style and grandeur of the buildings that this is a nice
+section of the city.  There are a bunch of houses spaced out nicely to the
+south, each has a tiny garden and path.  The road continues east towards more
+housing, and west back towards Freedom Square
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4041 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4007 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4045 0 0 0 0 0 0 0 0
+S
+#4041
+Honor Street~
+A cobblestone street meanders through a residential area of Freedom City.  
+Wrought iron lamps provides a soft lighting for those that are out at night.  
+You can glimpse houses of all styles beyond the trees that line this lane.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4042 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4040 0 0 0 0 0 0 0 0
+S
+#4042
+Honor Street~
+The quiet lane invites one to take a leisurely stroll.  The lazy buzz of insects
+and the soft melody of birds float through the air.  Neatly kept yards surround
+the quaint houses on either side of the lane, a welcome return to simpler days.
+
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4043 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4041 0 0 0 0 0 0 0 0
+S
+#4043
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4042 0 0 0 0 0 0 0 0
+S
+#4044
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4043 0 0 0 0 0 0 0 0
+S
+#4045
+In Shadows Alley by a Tavern~
+Lights from the entrance of Freedom's Inn provide the only real light in the
+alley.  Some old boxes are piled up against the walls.  The smell of ale and
+bread mixes with that of the sewers.  
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4046 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4040 0 0 0 0 0 0 0 0
+S
+#4046
+Outside Freedom's Inn~
+The large doors to the Inn have recently been repaired and strengthened with
+some steel.  The smell of stale ale, freshly baked bread, and steak come from
+within.  A few old cartons have been left on the street.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4045 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4047 0 0 0 0 0 0 0 0
+S
+#4047
+Bar within Freedom's Inn~
+The large bar is made of a red oak tree.  The eagle-eyed bartender looks around
+at all of his customers.  He appears to want to start a conversation with
+someone.  Bottles of alcohol are lined up all over the room.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4050 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4048 0 0 0 0 0 0 0 0
+S
+#4048
+In front of a fireplace~
+Situated in the southern wall is a roaring log fire; it seems to draw people
+towards it.  Two mangy hounds lay sprawled before it.  A racks of firewood is
+full near the fireplace and has a poker leaning against it.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4047 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4049 0 0 0 0 0 0 0 0
+S
+#4049
+Gambling room within the Inn~
+Smoke fills the air in this part of the inn.  Four green baize- covered tables
+are placed in a square.  Every sort of gambling game appears to be set up.  
+Money is changing hands between people very quickly here.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4048 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4050 0 0 0 0 0 0 0 0
+S
+#4050
+A set of Stairs~
+To the south is a large, plush staircase that leads to the top floor of the inn.
+A cart of extra linen is waiting near a locked storage closet.  A small plaque
+is attached to the wall listing the names of some famous past guests.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4047 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4049 0 0 0 0 0 0 0 0
+S
+#4051
+Sorlar's Smiling Satyr Tavern~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4039 0 0 0 0 0 0 0 0
+S
+#4052
+Honor's path~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4074 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4015 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 0 0 0 0 0 0 0 0 0
+S
+#4053
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4069 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4015 0 0 0 0 0 0 0 0
+S
+#4054
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4099 0 0 0 0 0 0 0 0
+S
+#4055
+the slums~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4043 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4056 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4057 0 0 0 0 0 0 0 0
+S
+#4056
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4120 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+S
+#4057
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4118 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+S
+#4058
+palace entrance~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+S
+#4059
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+S
+#4060
+Forest Glade~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4059 0 0 0 0 0 0 0 0
+S
+#4061
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4062 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4066 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4060 0 0 0 0 0 0 0 0
+S
+#4062
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4063 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4065 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4061 0 0 0 0 0 0 0 0
+S
+#4063
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4062 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4068 0 0 0 0 0 0 0 0
+S
+#4064
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4063 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4065 0 0 0 0 0 0 0 0
+S
+#4065
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4062 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4066 0 0 0 0 0 0 0 0
+S
+#4066
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4061 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4065 0 0 0 0 0 0 0 0
+S
+#4068
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D6
+~
+~
+0 0 4063 0 0 0 0 0 0 0 0
+S
+#4069
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4070 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4053 0 0 0 0 0 0 0 0
+S
+#4070
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4071 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4069 0 0 0 0 0 0 0 0
+S
+#4071
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4072 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4070 0 0 0 0 0 0 0 0
+S
+#4072
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4071 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4073 0 0 0 0 0 0 0 0
+S
+#4073
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D6
+~
+~
+0 0 4072 0 0 0 0 0 0 0 0
+S
+#4074
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4052 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4075 0 0 0 0 0 0 0 0
+S
+#4075
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4074 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4076 0 0 0 0 0 0 0 0
+S
+#4076
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4075 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4077 0 0 0 0 0 0 0 0
+S
+#4077
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4076 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4078 0 0 0 0 0 0 0 0
+S
+#4078
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4077 0 0 0 0 0 0 0 0
+S
+#4079
+Gates of Courage~
+You find yourself in the centre of a large gathering place.  There is a large
+stone gate here that appears to glitter when you look at it, the names of men
+who have fallen to the legion of necros have been recorded across the gates.  
+From this area you can go east and west down a small track, to some of the more
+elequent housing within the city.  North leads to the Gates of Strength, or
+south back to Freedom Square.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4080 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4015 0 0 0 0 0 0 0 0
+S
+#4080
+Gateway through the Wall of Strength~
+This small pathway looks to be in need of repair; it bears all the marks of a
+heavily used walk way.  However, the narrow path has now been turned into a
+deadly bottle neck.  Volunteer militia with bows stand ready as the city's first
+defense.  These men know they will not survive.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4201 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4079 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4081 0 0 0 0 0 0 0 0
+S
+#4081
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4082 0 0 0 0 0 0 0 0
+S
+#4082
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4081 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4083 0 0 0 0 0 0 0 0
+S
+#4083
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4082 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4084 0 0 0 0 0 0 0 0
+S
+#4084
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4083 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4085 0 0 0 0 0 0 0 0
+S
+#4085
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4084 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4086 0 0 0 0 0 0 0 0
+S
+#4086
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4085 0 0 0 0 0 0 0 0
+S
+#4087
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4088 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4080 0 0 0 0 0 0 0 0
+S
+#4088
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4089 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4087 0 0 0 0 0 0 0 0
+S
+#4089
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4090 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4088 0 0 0 0 0 0 0 0
+S
+#4090
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4091 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4089 0 0 0 0 0 0 0 0
+S
+#4091
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4090 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4092 0 0 0 0 0 0 0 0
+S
+#4092
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D6
+~
+~
+0 0 4091 0 0 0 0 0 0 0 0
+S
+#4093
+Roses climb the walls on Redemption street~
+The aged cobblestone road winds beside an enormous granite wall, safeguarding
+the city from harm.  Nestled in a niche of the ivy covered wall, the beauty of a
+blossoming rose bush unfolds, the sharp contrast in colors dancing in the mind's
+eye.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4094 0 0 0 0 0 0 0 0
+S
+#4094
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4093 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4095 0 0 0 0 0 0 0 0
+S
+#4095
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4094 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4096 0 0 0 0 0 0 0 0
+S
+#4096
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4095 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4097 0 0 0 0 0 0 0 0
+S
+#4097
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4096 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4098 0 0 0 0 0 0 0 0
+S
+#4098
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4097 0 0 0 0 0 0 0 0
+S
+#4099
+Grace's Way~
+Several knights gather on the road here, making preparations for various
+missions and duties.  A fountain stands to your left, with water gently flowing
+into the stone base.  Coins have been tossed into the water, shimmering in the
+clear water.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4054 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4100 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4101 0 0 0 0 0 0 0 0
+S
+#4100
+At a Tower on Grace's Way~
+Ladders climb the wooden and stone tower, allowing Knights and other citizens to
+look over the Keep and to see the wall that follows the city like a horseshoe.
+The two guard towers and the towers of the wall of Strength can be seen here.  
+~
+40 0 0 0 0 0
+D8
+~
+~
+0 0 4099 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+S
+#4101
+Outside the Knights of Redemption Guild Hall~
+A cobblestone path leads around the Knight's Guild.  On either side of the path,
+beds of flowers brighten the area with an array of color.  A statue of a knight
+stands on either side of the path, appearing ready to defend the guild from the
+fiercest invasion
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4115 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4099 0 0 0 0 0 0 0 0
+S
+#4102
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4103 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4100 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4101 0 0 0 0 0 0 0 0
+S
+#4103
+Guardian's Way~
+The sound of laughter and happy chatter echoes in from the courtyard.  A stone
+bench sits near the courtyard entrance, an urn filled with bright flowers on
+either side.  A statue of a knight stands opposite the bench, watching for
+intruders
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4104 0 0 0 0 0 0 0 0
+S
+#4104
+Guardian's way, in a courtyard filled with light~
+Light streams in through a glass dome that seems suspended in mid-air.  Tables
+and chairs have been arranged into conversation areas throughout the courtyard.
+Knights and their guests can be found here relaxing after a battle or
+celebrating a special event
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4105 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4103 0 0 0 0 0 0 0 0
+S
+#4105
+Outside a small Chapel~
+A newly built chapel contrasts deeply with the archaic building of the Knights
+Guild, visible to the east.  The walls of the chapel are hewn from colossal
+blocks of sandstone that have been smoothed to an even finish.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4104 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+S
+#4106
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4105 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+S
+#4107
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4108 0 0 0 0 0 0 0 0
+S
+#4108
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4109 0 0 0 0 0 0 0 0
+S
+#4109
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4108 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4110 0 0 0 0 0 0 0 0
+S
+#4110
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4109 0 0 0 0 0 0 0 0
+S
+#4111
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4110 0 0 0 0 0 0 0 0
+S
+#4112
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4113 0 0 0 0 0 0 0 0
+S
+#4113
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4114 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4112 0 0 0 0 0 0 0 0
+S
+#4114
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+S
+#4115
+Knights of Redemption Guild Gates~
+You stand underneath the main entrance to the Guild.  From the south you hear
+the clanging of swords on shields as the young knights go about their training.
+North leads back into the city while south leads to the courtyard.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4101 0 0 0 0 0 0 0 0
+S
+#4116
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4058 0 0 0 0 0 0 0 0
+S
+#4117
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4116 0 0 0 0 0 0 0 0
+S
+#4118
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4119 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4057 0 0 0 0 0 0 0 0
+S
+#4119
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4118 0 0 0 0 0 0 0 0
+S
+#4120
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4056 0 0 0 0 0 0 0 0
+S
+#4121
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4120 0 0 0 0 0 0 0 0
+S
+#4122
+Circle of Truth~
+Rows of brightly colored flowers flourish in this section of the circle.  White
+stone benches have been placed to either side of the street, providing places to
+relax while enjoying this fragrant place.  A soft silvery aura envelops each
+flower.  The road continues north, and south.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4019 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4123 0 0 0 0 0 0 0 0
+S
+#4123
+Entrance to the Spire of Dawn~
+An ancient stone path leads the way between towering oak trees.  Wild flowers
+peek out between the gnarled roots and the animal calls are only faintly heard
+here.  A lovely melody lingers in the air, drawing you into the palce.  
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4021 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4122 0 0 0 0 0 0 0 0
+S
+#4124
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4200 0 0 0 0 0 0 0 0
+S
+#4125
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4126 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4032 0 0 0 0 0 0 0 0
+S
+#4126
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4125 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4127 0 0 0 0 0 0 0 0
+S
+#4127
+West of Freedom Square~
+A trader from far east reveals spices and trinkets he has gathered to sell in
+the flourishing marketplace.  Gold coins move freely as the rare items are
+practically snatched out of his hands.  Further down the lane, life returns to
+normal.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4126 0 0 0 0 0 0 0 0
+S
+#4128
+South Freedom Square~
+Fresh mortar spread evenly between worn cobblestones rejuvenates a small road.
+Sparkling water erupts from a captivating fountain anchored in the road's
+center.  Tender buds blossom beneath shady oaks whose gnarled branches mark the
+passing of ancient times.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4130 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4129 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4131 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4127 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4133 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4132 0 0 0 0 0 0 0 0
+S
+#4129
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4200 0 0 0 0 0 0 0 0
+S
+#4130
+South Freedom Armory~
+Large racks are full of weapons of all sorts from swords to large axes and bows.
+The counter where the shop-owner works has a small box of stones that can be
+used to sharpen any blade.  
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4131
+South of Freedom Square~
+Loud laughter and the jingle of coins fill the air as people are jostled along
+the busy lane.  Various merchants offer cheap items to those without
+discriminating taste.  Nearby, merchants offer a place to store your more
+valuable items for a price.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4134 0 0 0 0 0 0 0 0
+S
+#4132
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4133
+Rune Shop~
+The front of the shop is spacious, clean and well lit.  The walls are lined with
+enchanted armor and weapons.  Runes, rings and bits of arcana clutter the
+counter top.  The rear of the shop is dark.  
+~
+40 0 0 0 0 0
+D6
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4134
+A newly repaired bridge leads to the City~
+Chiseled from a slab of granite, a magnificent pegasus seems to soar above the
+recently repaired bridge.  The older warped boards creek as you pass over the
+dried riverbed towards the massive steps of black marble leading into Freedom
+City
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4131 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4135 0 0 0 0 0 0 0 0
+S
+#4135
+undefined~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+S
+#4136
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4198 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+S
+#4137
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+S
+#4138
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+S
+#4139
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D6
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+S
+#4140
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4141 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4143 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+S
+#4141
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4142 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+S
+#4142
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4141 0 0 0 0 0 0 0 0
+S
+#4143
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+S
+#4144
+Forest~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4148 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4143 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4145 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4146 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4147 0 0 0 0 0 0 0 0
+S
+#4145
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4146 0 0 0 0 0 0 0 0
+S
+#4146
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4145 0 0 0 0 0 0 0 0
+S
+#4147
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D6
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4148 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+S
+#4148
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4147 0 0 0 0 0 0 0 0
+S
+#4149
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4147 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4146 0 0 0 0 0 0 0 0
+S
+#4150
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4152 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4151 0 0 0 0 0 0 0 0
+S
+#4151
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+S
+#4152
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+S
+#4153
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4151 0 0 0 0 0 0 0 0
+S
+#4154
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4156 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+S
+#4155
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4152 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4154 0 0 0 0 0 0 0 0
+S
+#4156
+troll cave~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4154 0 0 0 0 0 0 0 0
+S
+#4157
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4158 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4199 0 0 0 0 0 0 0 0
+S
+#4158
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4159 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4157 0 0 0 0 0 0 0 0
+S
+#4159
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4158 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4160 0 0 0 0 0 0 0 0
+S
+#4160
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4161 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4159 0 0 0 0 0 0 0 0
+S
+#4161
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4160 0 0 0 0 0 0 0 0
+S
+#4162
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4161 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+S
+#4163
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4164 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+S
+#4164
+Half Giant berserker~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D8
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+S
+#4165
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+S
+#4166
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4167 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+S
+#4167
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4168 0 0 0 0 0 0 0 0
+S
+#4168
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4167 0 0 0 0 0 0 0 0
+S
+#4169
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4170 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4168 0 0 0 0 0 0 0 0
+S
+#4170
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+S
+#4171
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4175 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+S
+#4172
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4173 0 0 0 0 0 0 0 0
+S
+#4173
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+S
+#4174
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4175 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+S
+#4175
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+S
+#4176
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4177 0 0 0 0 0 0 0 0
+S
+#4177
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+S
+#4178
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+S
+#4179
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4177 0 0 0 0 0 0 0 0
+S
+#4180
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+S
+#4181
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+S
+#4182
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+S
+#4183
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+S
+#4184
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4185 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+S
+#4185
+ancient giant~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D9
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+S
+#4186
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4187 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4028 0 0 0 0 0 0 0 0
+S
+#4187
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+S
+#4188
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4189 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4187 0 0 0 0 0 0 0 0
+S
+#4189
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+S
+#4190
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+S
+#4191
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4196 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+S
+#4193
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4194 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4173 0 0 0 0 0 0 0 0
+S
+#4194
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4195 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+S
+#4195
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4196 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4194 0 0 0 0 0 0 0 0
+S
+#4196
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4195 0 0 0 0 0 0 0 0
+S
+#4197
+Beneath the Gates to Freedom City~
+Worn smooth with time, silvery boulders form an archway over the massive black
+gate of this fabled village.  Archaic gold runes carved into the sturdy rock
+tell of times past.  A freshly painted sign rests above a small woven basket
+hanging from the gates.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4135 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4199 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4198 0 0 0 0 0 0 0 0
+S
+#4198
+Climbing the Hillside~
+The well worn trail continues to wrap around the hill.  The incline is so
+gentle, it is hard to tell you're moving upwards.  Several cairns have been
+built amongst the wild flowers on either side of the path.  
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+S
+#4199
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4157 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+S
+#4200
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4124 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4129 0 0 0 0 0 0 0 0
+S
+#4201
+Outside Freedom City~
+The gates are barred and no one is being permitted through the gates.  Guards
+armed with long spears hold anyone who approaches at bay.  As evidenced by the
+corpses piled to the sides of the road, there have already been several
+incidents of the Necro Horde, trying to infiltrate the city.  
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4080 0 0 0 0 0 0 0 0
+S
+$~

@@ -1,0 +1,31 @@
+#16800
+forlod tinkerer~
+Forlod, the tinkerer~
+Forlod, the tinkerer is here fixing various items.
+~
+   This small gnome is busy fixing knick knacks of all different sorts, from
+small clocks, to armor, weapons, jewelry, clothing, even small gnomish-made
+machines.  
+~
+bdA 0 0 0 0 0 0 0 500
+10 20 0 90d100+1000 1d1+5
+10 0 5 30
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 20
+E
+Int: 12
+E
+Wis: 8
+E
+Con: 16
+E
+Cha: 10
+E
+Feat: 459 2
+S
+$

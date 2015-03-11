@@ -1,0 +1,1597 @@
+#1500
+A Faint Path~
+   This path is very faint and looks somewhat new.  The path obviously doesn't
+see much traffic, as the grass is merely pressed down, and not actually worn.  
+The path leads on to the north into the thicker portion of the forest.  
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1501 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 51100 0 0 0 0 0 0 0 0
+S
+#1501
+A Faint Path~
+   This path is very faint and looks somewhat new.  The path obviously doesn't
+see much traffic, as the grass is merely pressed down, and not actually worn.  
+The path leads on to the north into the thicker portion of the forest.  
+~
+15 0 0 0 0 10
+D2
+~
+~
+0 0 1500 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1502 0 0 0 0 0 0 0 0
+S
+#1502
+A Faint Path~
+   This path is very faint and looks somewhat new.  The path obviously doesn't
+see much traffic, as the grass is merely pressed down, and not actually worn.  
+The path leads on to the north into the thicker portion of the forest.  
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1503 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1501 0 0 0 0 0 0 0 0
+S
+#1503
+A Faint Path~
+   This path is very faint and looks somewhat new.  The path obviously doesn't
+see much traffic, as the grass is merely pressed down, and not actually worn.  
+The path leads on to the north into the thicker portion of the forest.  
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1504 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1502 0 0 0 0 0 0 0 0
+S
+#1504
+Outside a Large Cave~
+   To the north a large cave opens up before you.  A cool breeze seems to escape
+from the cave.  You can't really see how deep the cave leads into the hillside,
+but it does appear that the cave must slope downward, as you don't see much of a
+hill above it.  
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1505 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1503 0 0 0 0 0 0 0 0
+S
+#1505
+Entering the Cave~
+   Darkness envelopes you completely as you step inside this dark cavern.  You
+can hear the faint trickle of water as it drips down the walls of the cave,
+forming hundreds of miniature streams that delve deeper into the cave.  
+~
+15 ac 0 0 0 0
+D0
+~
+~
+0 0 1506 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1504 0 0 0 0 0 0 0 0
+S
+#1506
+Inside the Cave~
+   The cave appears to be carved into three different partitions that you can
+see.  The cave does indeed begin to slope downward at this point, and then looks
+to branch off into the northeast, northwest, and northern directions.  The
+calmness here is almost eerie.  
+~
+15 ac 0 0 0 0
+D2
+~
+~
+0 0 1505 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1507 0 0 0 0 0 0 0 0
+S
+#1507
+An Intersection in the Cave~
+   The cave appears to be carved into three different partitions that you can
+see.  The cavern branches off into the northeast, northwest, and northern
+directions.  You can still hear the faint trickle of water, and you can hear the
+water dripping from deeper within the caverns into a pool.  A trail of blood
+streams off to the north.  
+~
+15 ac 0 0 0 0
+D0
+~
+~
+0 0 1520 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1506 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1533 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1508 0 0 0 0 0 0 0 0
+S
+#1508
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D1
+~
+~
+0 0 1509 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1507 0 0 0 0 0 0 0 0
+S
+#1509
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D1
+~
+~
+0 0 1510 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1508 0 0 0 0 0 0 0 0
+S
+#1510
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D3
+~
+~
+0 0 1509 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1511 0 0 0 0 0 0 0 0
+S
+#1511
+Before the Troglodyte Lair~
+   East of here lies a large opening, and from that opening you can hear several
+strange noises, and you are almost overwhelmed by the stench of death.  The
+floor here is still very slick and slimy feeling, and you hear a sickening
+crunch beneath your feet as you walk, very similar to the sound of bones
+breaking.  
+~
+15 ac 0 0 0 0
+D1
+~
+~
+0 0 1512 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1510 0 0 0 0 0 0 0 0
+S
+#1512
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1519 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1511 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1518 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1513 0 0 0 0 0 0 0 0
+S
+#1513
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1514 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1512 0 0 0 0 0 0 0 0
+S
+#1514
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D2
+~
+~
+0 0 1513 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1516 0 0 0 0 0 0 0 0
+S
+#1515
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D3
+~
+~
+0 0 1516 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1514 0 0 0 0 0 0 0 0
+S
+#1516
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1591 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1514 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1517 0 0 0 0 0 0 0 0
+S
+#1517
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D2
+~
+~
+0 0 1518 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1516 0 0 0 0 0 0 0 0
+S
+#1518
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1517 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1512 0 0 0 0 0 0 0 0
+S
+#1519
+The Cleric's Cove~
+   This large portion of the lair seems to have been partitioned off for someone
+very important to the tribe.  The walls in here look as if they have been
+absolutely painted with blood, and the floor is carpeted with the remains of
+creatures of all sorts, most of them appear to be humanoid.  
+~
+15 ac 0 0 0 0
+D2
+~
+~
+0 0 1512 0 0 0 0 0 0 0 0
+S
+#1520
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  Closer observation shows that the slimy and
+slick feeling is caused by blood and bits of flesh and bone scattered all over
+the floor.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1521 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1507 0 0 0 0 0 0 0 0
+S
+#1521
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 ac 0 0 0 0
+D2
+~
+~
+0 0 1520 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1522 0 0 0 0 0 0 0 0
+S
+#1522
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D7
+~
+~
+0 0 1523 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1521 0 0 0 0 0 0 0 0
+S
+#1523
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1524 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1522 0 0 0 0 0 0 0 0
+S
+#1524
+Before the Cave Troll Lair~
+   East of here lies a large opening, and from that opening you can hear several
+strange noises, and you are almost overwhelmed by the stench of death.  The
+floor here is still very slick and slimy feeling, and you hear a sickening
+crunch beneath your feet as you walk, very similar to the sound of bones
+breaking.  
+~
+15 ac 0 0 0 0
+D0
+~
+~
+0 0 1525 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1523 0 0 0 0 0 0 0 0
+S
+#1525
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1532 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1524 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1531 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1526 0 0 0 0 0 0 0 0
+S
+#1526
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1527 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1525 0 0 0 0 0 0 0 0
+S
+#1527
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D2
+~
+~
+0 0 1526 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1529 0 0 0 0 0 0 0 0
+S
+#1528
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D3
+~
+~
+0 0 1529 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1527 0 0 0 0 0 0 0 0
+S
+#1529
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D8
+~
+~
+0 0 1527 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1530 0 0 0 0 0 0 0 0
+S
+#1530
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D2
+~
+~
+0 0 1531 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1529 0 0 0 0 0 0 0 0
+S
+#1531
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1530 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1525 0 0 0 0 0 0 0 0
+S
+#1532
+The Shaman's Cove~
+   This large portion of the lair seems to have been partitioned off for someone
+very important to the tribe.  The walls in here look as if they have been
+absolutely painted with blood, and the floor is carpeted with the remains of
+creatures of all sorts, most of them appear to be humanoid.  
+~
+15 ac 0 0 0 0
+D2
+~
+~
+0 0 1525 0 0 0 0 0 0 0 0
+S
+#1533
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D3
+~
+~
+0 0 1534 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1507 0 0 0 0 0 0 0 0
+S
+#1534
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D1
+~
+~
+0 0 1533 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1535 0 0 0 0 0 0 0 0
+S
+#1535
+A Narrow Passage~
+   This narrow passage through the cavern is very damp and dark.  The ceiling is
+uncomfortably low, and the width of the passage barely provides room for you to
+walk.  The floor of the cave beneath you feels slimy and slick, making it
+difficult to get your footing.  
+~
+15 a 0 0 0 0
+D1
+~
+~
+0 0 1534 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1536 0 0 0 0 0 0 0 0
+S
+#1536
+Before the Gnoll Lair~
+   East of here lies a large opening, and from that opening you can hear several
+strange noises, and you are almost overwhelmed by the stench of death.  The
+floor here is still very slick and slimy feeling, and you hear a sickening
+crunch beneath your feet as you walk, very similar to the sound of bones
+breaking.  
+~
+15 ac 0 0 0 0
+D3
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1535 0 0 0 0 0 0 0 0
+S
+#1537
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1544 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1536 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1543 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1538 0 0 0 0 0 0 0 0
+S
+#1538
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1539 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+S
+#1539
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D2
+~
+~
+0 0 1538 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1541 0 0 0 0 0 0 0 0
+S
+#1540
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D8
+~
+~
+0 0 1539 0 0 0 0 0 0 0 0
+S
+#1541
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a a 0 0 0
+D8
+~
+~
+0 0 1539 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1542 0 0 0 0 0 0 0 0
+S
+#1542
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D2
+~
+~
+0 0 1543 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1541 0 0 0 0 0 0 0 0
+S
+#1543
+Within the Lair~
+   The narrow cavern opens up into a larger lair.  The cave floor here shows
+signs of wear and tear, indicating very frequent usage.  Various claw marks have
+been etched into the rock and earth, and there is a stench of death here.  
+~
+15 a 0 0 0 0
+D0
+~
+~
+0 0 1542 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+S
+#1544
+The Champion's Cove~
+   This large portion of the lair seems to have been partitioned off for someone
+very important to the tribe.  The walls in here look as if they have been
+absolutely painted with blood, and the floor is carpeted with the remains of
+creatures of all sorts, most of them appear to be humanoid.  
+~
+15 ac 0 0 0 0
+D2
+~
+~
+0 0 1537 0 0 0 0 0 0 0 0
+S
+#1545
+The over grown path~
+This path ventures off from the trade road into the wilds.  The 
+trees lining the sides of path are covered in leafy vines.
+~
+15 a 0 0 0 3
+D3
+~
+~
+0 0 1546 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1564 0 0 0 0 0 0 0 0
+S
+#1546
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D1
+~
+~
+0 0 1545 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1547 0 0 0 0 0 0 0 0
+S
+#1547
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1548 0 0 0 0 0 0 0 0
+S
+#1548
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D1
+~
+~
+0 0 1547 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1549 0 0 0 0 0 0 0 0
+S
+#1549
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D2
+~
+~
+0 0 1573 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1548 0 0 0 0 0 0 0 0
+S
+#1550
+Before the Fireside Tavern~
+   A small trail from the main road ends here before a medium sized inn.  The
+wood is somewhat weathered, but the surrounding vegetation helps maintain the
+longevity of the structure.  A small wooden sign hangs above the inns doorway to
+the east.  To the north lie the stables used to house the mounts and pack
+animals of traveling guests.  
+~
+15 c 0 0 0 10
+D0
+~
+stable~
+1 0 1551 20 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1552 20 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 51455 0 0 0 0 0 0 0 0
+S
+#1551
+Inside a Dusky Stable~
+   The inside of the stable is kept quite clean.  A few animal droppings are
+scattered on the floor amid the hay and dirt, but it seems to be regularly
+maintained.  There are six stalls in all, each large enough for the average
+workhorse.  
+~
+15 0 0 0 0 0
+D2
+~
+stable~
+1 0 1550 0 0 0 0 0 0 0 0
+S
+#1552
+Common Room of the Fireside Tavern~
+   The interior of the inn is in much better shape than the weathered exterior.
+Rows of booths line the walls and two large oval shaped tables adorn the center
+of the inn's common room.  The heads of various animals are mounted on the
+walls.  The low buzz of conversation is present as few bother to raise their
+heads to notice you.  
+~
+15 0 d 0 0 0
+D0
+~
+~
+0 0 1553 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1554 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1550 20 0 0 0 0 0 0 0
+S
+#1553
+Common Room of the Fireside Tavern~
+   This seems to be the quieter corner of the bar.  A large oval table fills the
+majority of the area but a few small booths line the walls.  Perched on the wall
+is a large map of the immediate area.  Sitting around the table are several men
+absorbed in serious discussion.  Some are dressed in woodsmen leathers while the
+others look to be clad in the expensive garb of merchants or nobles.  
+~
+15 0 d 0 0 0
+D1
+~
+~
+0 0 1555 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1552 0 0 0 0 0 0 0 0
+S
+#1554
+Common Room of the Fireside Tavern~
+   Conversation is prominent at this end of the bar.  Several patrons sit around
+a large oval table, apparently playing some sort of dice game.  The table is
+littered with empty mugs, and even more packed with full ones.  It seems that
+the game has been going on for quite some time and does not look as if it will
+end any time soon.  
+~
+15 0 d 0 0 0
+D0
+~
+~
+0 0 1555 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1552 0 0 0 0 0 0 0 0
+S
+#1555
+Standing at the Bar~
+   The bar is surrounded by eager patrons looking for another ale.  The long oak
+table which separates the rowdy group from the bartender and the precious ale is
+skillfully carved and surprisingly well finished.  
+~
+15 0 d 0 0 0
+D1
+~
+~
+0 0 1556 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1554 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1553 0 0 0 0 0 0 0 0
+S
+#1556
+Behind the Bar~
+   The area behind the bar is kept fairly clean, considering the number of
+patrons that are within the tavern.  Several tankards of ale line the floor of
+of the bar, as well as a few filled with wine.  To the south you hear the
+clanging of pots and pans, where a small doorway leads into the kitchen.  A
+narrow staircase leads up to the second floor of the tavern.  
+~
+15 c d 0 0 0
+D2
+~
+~
+0 0 1557 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1555 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1558 0 0 0 0 0 0 0 0
+S
+#1557
+A Dingy Kitchen~
+   This tiny kitchen is a complete mess.  Dishes are stacked in disorganized
+piles on every available countertop.  Pots and pans litter the floor along with
+small piles of slop that you assume is being passed off as food.  A small stove
+heats a pot bubbling over with foam, possibly the same slop that is on the
+floor.  Surprisingly, and contradictory to the state of the kitchen, it smells
+quite good.  
+~
+15 0 d 0 0 0
+D0
+~
+~
+0 0 1556 0 0 0 0 0 0 0 0
+S
+#1558
+The Top of the Stairway~
+   Atop the staircase is a small loft with two equally small doorways.  There is
+absolutely no furnishing or decoration, and the area seems to have seen better
+days without a doubt.  Rowdy laughter and loud conversation can be heard at the
+bottom of the steps.  
+~
+15 0 d 0 0 0
+D2
+~
+door~
+1 0 1560 20 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1559 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1556 0 0 0 0 0 0 0 0
+S
+#1559
+An Unkempt Bedroom~
+   This bedroom is rather well furnished, albeit with low quality decoration.  
+The room itself is rather unkempt.  Clothes cover the floor, the bed is unmade,
+small piles of tobacco cover the wooden floors, basically this place is a mess.
+A plain wooden wardrobe stands against the eastern wall.  Next to it is a full
+length mirror
+~
+15 0 d 0 0 0
+D1
+~
+door~
+1 0 1558 0 0 0 0 0 0 0 0
+S
+#1560
+A Small, Sparsely Furnished Bedroom~
+   This room is rather small, and has little in the way of furniture or
+decoration.  A thin mattress lies on the floor next to the southern wall.  A
+small shelf runs along the western wall carrying an assortment of objects.  The
+northern wall is covered in hooks, on which the residents clothes is hung
+~
+15 0 d 0 0 0
+D0
+~
+door~
+1 0 1558 0 0 0 0 0 0 0 0
+S
+#1561
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1562 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2653 0 0 0 0 0 0 0 0
+S
+#1562
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1563 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1561 0 0 0 0 0 0 0 0
+S
+#1563
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1564 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1562 0 0 0 0 0 0 0 0
+S
+#1564
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D2
+~
+~
+0 0 1563 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1545 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1565 0 0 0 0 0 0 0 0
+S
+#1565
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1566 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1564 0 0 0 0 0 0 0 0
+S
+#1566
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1567 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1565 0 0 0 0 0 0 0 0
+S
+#1567
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1568 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1566 0 0 0 0 0 0 0 0
+S
+#1568
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1569 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1567 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#1569
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 1570 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1568 0 0 0 0 0 0 0 0
+S
+#1570
+The Northern Trade Road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The road is
+very dusty because the amount of travel on this road tends to dry up any rain
+that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.
+~
+15 0 0 0 0 10
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1569 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1571 0 0 0 0 0 0 0 0
+S
+#1571
+The northern trade road~
+   This is the Northern Trade road.  It leads north through the mountains on to
+Icewind Dale.  It is wide enough for horses and wagons to ride on easily.  The
+road is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  In the distance to the north you can see the road leading
+through some mountains and beyond.  
+~
+15 0 0 0 0 10
+D6
+~
+~
+0 0 1572 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1570 0 0 0 0 0 0 0 0
+S
+#1572
+Path leading up to the mountains~
+The northern road comes to a end here, branching off into a cramped mountain
+trail.  It leads north up into the fang mountains.  
+~
+15 0 0 0 0 10
+D0
+~
+~
+0 0 118 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1571 0 0 0 0 0 0 0 0
+S
+#1573
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1589 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1575 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1574 0 0 0 0 0 0 0 0
+S
+#1574
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D2
+~
+~
+0 0 1577 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1573 0 0 0 0 0 0 0 0
+S
+#1575
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D2
+~
+~
+0 0 1576 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1573 0 0 0 0 0 0 0 0
+S
+#1576
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1575 0 0 0 0 0 0 0 0
+S
+#1577
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1574 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1578 0 0 0 0 0 0 0 0
+S
+#1578
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D2
+~
+~
+0 0 1580 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1577 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1579 0 0 0 0 0 0 0 0
+S
+#1579
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1582 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1578 0 0 0 0 0 0 0 0
+S
+#1580
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1578 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1581 0 0 0 0 0 0 0 0
+S
+#1581
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1580 0 0 0 0 0 0 0 0
+S
+#1582
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D2
+~
+~
+0 0 1579 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1583 0 0 0 0 0 0 0 0
+S
+#1583
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1584 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1582 0 0 0 0 0 0 0 0
+S
+#1584
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D2
+~
+~
+0 0 1583 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1585 0 0 0 0 0 0 0 0
+S
+#1585
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D1
+~
+~
+0 0 1586 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1584 0 0 0 0 0 0 0 0
+S
+#1586
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D1
+~
+~
+0 0 1587 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1585 0 0 0 0 0 0 0 0
+S
+#1587
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D3
+~
+~
+0 0 1586 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1588 0 0 0 0 0 0 0 0
+S
+#1588
+New BuildWalk Room~
+This unfinished room was created by Venoch.
+~
+15 0 0 0 0 0
+D6
+~
+~
+0 0 1587 0 0 0 0 0 0 0 0
+S
+#1589
+New BuildWalk Room~
+This unfinished room was created by Tymora.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1573 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1590 0 0 0 0 0 0 0 0
+S
+#1590
+New BuildWalk Room~
+This unfinished room was created by Tymora.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1589 0 0 0 0 0 0 0 0
+S
+#1591
+Windy Passage Way~
+A deep rumbling can be heard down this dark passage way.  The walls are damp 
+and dirty, with many debries on the ground.  Old bones of unlucky adventurers 
+are strung about like such waste.
+~
+15 adi 0 0 0 0
+D2
+~
+~
+0 0 1516 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1592 0 0 0 0 0 0 0 0
+S
+#1592
+Windy Tunnel~
+The tunnel continues on as does the deep rumbling.  The wind passing
+through here has gotten a bit more moist and warm.
+~
+15 adi c 0 0 0
+D7
+~
+~
+0 0 1593 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1591 0 0 0 0 0 0 0 0
+S
+#1593
+Small Dark Tunnel~
+The tunnel continues to get smaller and darker, and the wind gets stronger and hotter.
+~
+15 aiC c 0 0 5
+D1
+~
+~
+0 0 1594 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1592 0 0 0 0 0 0 0 0
+S
+#1594
+Small Dark Tunnel~
+The tunnel keeps going, is dark and hot and crammed now.
+~
+15 aiC b 0 0 5
+D1
+~
+~
+0 0 1595 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1593 0 0 0 0 0 0 0 0
+S
+#1595
+The Windy Tunnel~
+Finally light at the end of the tunnel?  Up ahead towards the 
+sounds of the deep rumbling light creeps into the tunnel and 
+you can see without the need for torches.
+~
+15 aiC c 0 0 5
+D3
+~
+~
+0 0 1594 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1596 0 0 0 0 0 0 0 0
+S
+#1596
+The Windy Tunnel.~
+The craftsmanship of this tunnel digging dates back to ancient dwarven or giant crafters.  
+~
+15 0 0 0 0 0
+D6
+~
+~
+0 0 1595 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2974 0 0 0 0 0 0 0 0
+S
+$~

@@ -1,0 +1,260 @@
+#6600
+child runny nosed~
+a runny nosed child~
+With his runny nose flowing, a sickly child wanders along the street.
+~
+   Smaller and thinner than most children you've seen, this dirty child walks
+around sniffing his nose.    
+~
+d 0 0 0 k 0 0 0 50
+1 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6601
+bully neighborhood~
+a neighborhood bully~
+A bully of the neighborhood children passes down the road.
+~
+   Covered in grime and dirt, this rotund boy pushes around all the children in
+the area.  Some smears of blood are visible on his clothes, but he seems none
+the worse for wear.    
+~
+d 0 0 0 k 0 0 0 -300
+2 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6602
+lady tired old~
+a tired, old lady~
+An old lady winds her way slowly down the street.
+~
+   Hunched over from age, this little old lady slowly makes her way down the
+street.  She stops frequently to catch her breath, and she seems tired, even
+for her advanced age.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6603
+laborer unemployed bum~
+an unemployed laborer~
+An out of work laborer wallows in his own misery.
+~
+   Depressed and out of money, this unemployed worker sighs, resigned to his
+miserable life.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6604
+filthy beggar~
+a filthy, emaciated beggar~
+A filthy, emanciated beggar bangs loudly on a metal cup.
+~
+   Clad in tattered rags is an emaciated beggar.  Salvia trickles down his
+muddy face and collects in his unshaven beard as he shouts at passersby.  In
+his hand he bangs a worn metal cup to try to get your attention.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6605
+obese goblin~
+an obese, ugly goblin~
+An obese, ugly goblin waddles about aimlessly.
+~
+   The buttons on his tunic loosely hold in his protruding gut.  A long scar
+splits his face creating an ugly sight.  His bulging black eyes glance around
+nervously as if he is trying to avoid someone or something.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6606
+draconian scrawny~
+a perplexed, scrawny draconian~
+A perplexed, scrawny draconian makes his way through the slum.
+~
+   Wearing a tattered imperial tunic is a scrawny draconian.  He wanders around
+confused as he tried to navigate the slums.  His face is adorned with scars and
+one of his eyes is missing.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6607
+gigantic rat sewer~
+a gigantic, disease infested sewer rat~
+A gigantic, disease infested sewer rat scurries about looking for food.
+~
+   About the size of a small dog is a gigantic sewer rat.  Its fur is missing
+at places and huge boils cover its body.  Its beedy eyes dart about looking for
+something to eat.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6608
+gnats swarm~
+a surging swarm of gnats~
+A surging swarm of gnats buzz around above.
+~
+   Emitting a loud buzzing sound, a swarm of gnats collect to form a black
+cloud in the sky.  They move from building to to building looking for something
+to feast upon.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6609
+tired saddened woman~
+a tired, saddened woman~
+A tired, saddened woman sighs as she heads to her destination.
+~
+   This woman breathes a deep sigh of frustration and depression as she heads
+to her next destination.  A tattered cotton blouse and dress cover her body
+pathetically from the elements.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

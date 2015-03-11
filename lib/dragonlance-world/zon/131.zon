@@ -1,0 +1,368 @@
+#131
+None.~
+Tarsis II (Izual)~
+13100 13199 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0 13138     1     1   0   101     1    -10 
+
+M 0 13002     1 13138   1   100     2    -1          0 Durath Shilluk
+
+E 1 13000     1    16   0     8     3     2          0 an ancient, radiant bastard sword with a serpentine hilt
+
+D 0 13137     0     1   0   101     4    -10 
+
+M 0 13070     1 13137   1   100     5    -1          0 an unaware, scrawny personal guard
+
+M 0 13009     1 13137   1   100     6    -1          0 Tara Le'Beau
+
+E 1 13113     1     3   0     5     7     6          0 a pendant decorated with the symbol of a griffon
+
+E 1 13034     1     5   0    15     8     6          0 an ethereal gown of divine vestments
+
+D 0 13136     3     1   0   101     9    -10 
+
+M 0 13029     1 13136   1   100    10    -1          0 Lord Murat
+
+E 1 13001     1     7   0     8    11    10          0 a pair of mithril greaves bearing golden scriptures
+
+D 0 13103     3     1   0   101    12    -10 
+
+M 0 13041     1 13103   1   100    13    -1          0 a red-haired, senior artillerist
+
+M 0 13040     1 13103   1   100    14    -1          0 a savvy, sharp-eyed engineer
+
+M 0 13039     1 13103   1   100    15    -1          0 a courageous, silver-haired crusader
+
+M 0 13038     1 13103   1   100    16    -1          0 the captain of the guard
+
+E 1 13040     2    16   0    25    17    16          0 an enormous flamberge crafted of cold steel
+
+D 0 13104     1     1   0   101    18    -10 
+
+M 0 13035     1 13104   1   100    19    -1          0 an intrepid, auburn-haired alderman
+
+M 0 13034     1 13104   1   100    20    -1          0 a respectful, emerald-eyed duchess
+
+M 0 13033     1 13104   1   100    21    -1          0 a tanned, haughty noble
+
+M 0 13032     1 13104   1   100    22    -1          0 a stately, thunderous count
+
+D 0 13120     2     1   0   101    23    -10 
+
+M 0 13011     1 13120   1   100    24    -1          0 a shrewd dragoman official
+
+E 1 13110     1     6   0    20    25    24          0 a pair of golden rimmed spectacles
+
+E 1 13042     2    13   0     5    26    24          0 a crimson and sapphire sash
+
+M 0 13004     1 13120   1   100    27    -1          0 a regale, dainty scrivener
+
+E 1 13108     2    17   0   100    28    27          0 a worn feather quill
+
+G 1 13109     8     0   0   100    29    27          0 a clean white parchment
+
+M 0 13003     1 13120   1   100    30    -1          0 a daunting scribe in vermilion robes
+
+E 1 13108     2    17   0   100    31    30          0 a worn feather quill
+
+G 1 13109     8     0   0   100    32    30          0 a clean white parchment
+
+D 0 13121     2     1   0   101    33    -10 
+
+M 0 13037     1 13121   1   100    34    -1          0 a dignified foreign ambassador
+
+M 0 13031     1 13121   1   100    35    -1          0 a striking young courtesan
+
+E 1 13036     1    10   0    15    36    35          0 a pair of black leather vambraces with silver designs
+
+M 0 13036     1 13121   1   100    37    -1          0 an opulent, august marshal
+
+M 0 13012     1 13121   1   100    38    -1          0 a morose, belligerent barrister
+
+M 0 13046     1 13108   1   100    39    -1          0 an obese, reprehensive palace guard
+
+M 0 13047     1 13116   1   100    40    -1          0 a hearty, hale palace guard
+
+M 0 13030     1 13114   1   100    41    -1          0 a palace servant
+
+M 0 13048     1 13114   1   100    42    -1          0 a muscular, robust palace guard
+
+M 0 13044     1 13110   1   100    43    -1          0 a black-skinned palace guard
+
+D 0 13102     1     1   0   101    44    -10 
+
+D 0 13102     3     1   0   101    45    -10 
+
+M 0 13045     1 13102   1   100    46    -1          0 a weary, uninterested palace guard
+
+D 0 13105     0     1   0   101    47    -10 
+
+D 0 13119     0     1   0   101    48    -10 
+
+M 0 13013     1 13118   1   100    49    -1          0 a malevolent, cold-eyed murderer
+
+E 1 13037     1    16   0    15    50    49          0 a deadly, triangular steel blade
+
+E 1 13038     1     6   0    15    51    49          0 the mask of deception
+
+M 0 13014     1 13118   1   100    52    -1          0 a surreptitious, quaint cohort
+
+E 1 13036     3    10   0    30    53    52          0 a pair of black leather vambraces with silver designs
+
+E 1 13035     3     7   0    30    54    52          0 a pair of black leather greaves with silver designs
+
+E 1 13039     3    16   0    30    55    52          0 a blood-stained silver rapier
+
+M 0 13030     1 13117   1   100    56    -1          0 a palace servant
+
+M 0 13030     1 13109   1   100    57    -1          0 a palace servant
+
+M 0 13042     1 13107   1   100    58    -1          0 a young palace maid
+
+M 0 13043     1 13101   1   100    59    -1          0 a white-haired palace aide
+
+D 0 13139     0     0   0   101    60    -10 
+
+D 0 13139     2     0   0   101    61    -10 
+
+M 0 13007     1 13139   1   100    62    -1          0 a muscular, attentive gateguard
+
+E 1 13021    10    16   0    25    63    62          0 a finely polished steel longsword
+
+E 1 13022    10     5   0    25    64    62          0 a polished breastplate bearing the seal of Tarsis
+
+D 0 13140     1     0   0   101    65    -10 
+
+M 0 13067     1 13140   1   100    66    -1          0 a watchful gate guardian
+
+E 1 13021    10    16   0    25    67    66          0 a finely polished steel longsword
+
+E 1 13022    10     5   0    25    68    66          0 a polished breastplate bearing the seal of Tarsis
+
+D 0 13141     2     0   0   101    69    -10 
+
+M 0 13068     1 13141   1   100    70    -1          0 a stern, indomitable gateguard
+
+E 1 13021    10    16   0    25    71    70          0 a finely polished steel longsword
+
+E 1 13022    10     5   0    25    72    70          0 a polished breastplate bearing the seal of Tarsis
+
+M 0 13049     1 13124   1   100    73    -1          0 a vast, powerful guard
+
+D 0 13122     0     1   0   101    74    -10 
+
+M 0 13050     1 13122   1   100    75    -1          0 a rough-looking palace guard
+
+M 0 13069     1 13128   1   100    76    -1          0 a broad-shouldered palace guard
+
+O 0 13111     1 13142   0   100    77    -1          0 a massive ironwood desk
+
+P 1 13112     1 13111   0   100    78    77          0 a decorative steel flask
+
+D 0 13142     2     1   0   101    79    -10 
+
+D 0 13142     0     2   0   101    80    -10 
+
+M 0 13005     1 13142   1   100    81    -1          0 a steely-eyed royal clerk
+
+G 1 13107     1     0   0   100    82    81          0 a crimson and sable key
+
+D 0 13143     2     2   0   101    83    -10 
+
+O 0 13105     1 13143   0   100    84    -1          0 a golden framed picture
+
+P 1 13104     1 13105   0   100    85    84          0 a strange circular key
+
+D 0 13143     0     2   0   101    86    -10 
+
+M 0 13071     1 13143   1   100    87    -1          0 a pleading adventurer
+
+E 1 13018     2     3   0    25    88    87          0 a crescent-shaped, copper-gilded collar
+
+M 0 13001     1 13143   1   100    89    -1          0 the royal advisor
+
+E 1 13007     2    14   0    15    90    89          0 a gold and silver bracer of radiance
+
+E 1 13003     1    17   0    18    91    89          0 an archaic, midnight blue grimoire
+
+M 0 13000     1 13143   1   100    92    -1          0 the governor
+
+E 1 13106     1    17   0   100    93    92          0 a solid steel vault key
+
+D 0 13144     2     2   0   101    94    -10 
+
+O 0 13016     1 13144   0   100    95    -1          0 a steel-banded ironwood chest
+
+P 1 13002     1 13016   0     2    96    95          0 a lurid mask of ineffable gloom, "Death Tyrant"
+
+P 1 13019     1 13016   0    10    97    95          0 a black leather scabbard decorated with tiny chips of topaz
+
+P 1 13015     1 13016   0    75    98    95          0 a mound of valuable coins
+
+P 1 13014     1 13016   0    75    99    95          0 a stamped and sealed silver ingot
+
+P 1 13013     1 13016   0    75   100    95          0 a stamped and sealed golden ingot
+
+P 1 13012     1 13016   0    75   101    95          0 a beautiful amethyst gemstone
+
+P 1 13011     1 13016   0    68   102    95          0 a semi-transparent sapphire gemstone
+
+P 1 13010     1 13016   0    65   103    95          0 an expertly cut ruby gemstone
+
+P 1 13009     1 13016   0    60   104    95          0 a perfect emerald gemstone
+
+P 1 13008     1 13016   0    50   105    95          0 a handful of crushed diamond gemstones
+
+D 0 13134     2     1   0   101   106    -10 
+
+D 0 13133     3     1   0   101   107    -10 
+
+D 0 13135     1     1   0   101   108    -10 
+
+D 0 13145     2     0   0   101   109    -10 
+
+D 0 13150     3     0   0   101   110    -10 
+
+D 0 13151     0     2   0   101   111    -10 
+
+M 0 13077     1 13154   1   100   112    -1          0 a heavily cloaked traveler
+
+M 0 13078     1 13148   1   100   113    -1          0 a lithe, female traveler
+
+D 0 13161     2     2   0   101   114    -10 
+
+O 0 13030     1 13160   0   100   115    -1          0 a wooden sign on an iron post
+
+D 0 13160     0     2   0   101   116    -10 
+
+M 0 13105     1 13167   1   100   117    -1          0 Velron
+
+M 0 13104     1 13166   1   100   118    -1          0 Hidzel
+
+G 1 13029   999     0   0   100   119   118          0 an elegantly drawn map of Tarsis
+
+G 1  6526   999     0   0   100   120   118          0 a map of Sanction
+
+G 1  2227   999     0   0   100   121   118          0 a map of Palanthas
+
+G 1  1374   999     0   0   100   122   118          0 a map of the Bridgewalks of Solace
+
+G 1  1373   999     0   0   100   123   118          0 a map of the ground of Solace
+
+M 0 13103     1 13165   1   100   124    -1          0 Ghorash
+
+G 1  1330   999     0   0   100   125   124          0 a pair of leather leg guards
+
+G 1  1329   999     0   0   100   126   124          0 a wide, leather belt
+
+G 1  1328   999     0   0   100   127   124          0 a black, cotton cloak
+
+G 1  1327   999     0   0   100   128   124          0 a round, wooden shield
+
+G 1  1326   999     0   0   100   129   124          0 a pair of crude armguards
+
+G 1  1325   999     0   0   100   130   124          0 a thin copper helmet
+
+G 1  1324   999     0   0   100   131   124          0 a pair of thick leather gloves
+
+G 1  1323   999     0   0   100   132   124          0 a pair of walking boots
+
+G 1  1322   999     0   0   100   133   124          0 a green set of robes
+
+G 1  1321   999     0   0   100   134   124          0 a ring-mail vest
+
+G 1  1320   999     0   0   100   135   124          0 a studded, leather vest
+
+G 1  6128   999     0   0   100   136   124          0 a pair of splint mail leggings
+
+G 1  6127   999     0   0   100   137   124          0 a pair of spiked gauntlets
+
+G 1  6126   999     0   0   100   138   124          0 a sturdy pair of bronze brassarts
+
+G 1  6125   999     0   0   100   139   124          0 a bronzen shirt of chainmail
+
+G 1  6116   999     0   0   100   140   124          0 an ordinary shirt of chainmail
+
+M 0 13102     1 13164   1   100   141    -1          0 Zenia
+
+G 1  2303   999     0   0   100   142   141          0 a wooden footman's mace
+
+G 1  2302   999     0   0   100   143   141          0 a sharp, bronze broadsword
+
+G 1  2301   999     0   0   100   144   141          0 a short, double-edged blade
+
+G 1  2300   999     0   0   100   145   141          0 a bronze, serrated-edged knife
+
+G 1  6124   999     0   0   100   146   141          0 a long handled bronze warhammer
+
+G 1  6123   999     0   0   100   147   141          0 a shoddy iron dagger
+
+G 1  6122   999     0   0   100   148   141          0 a shiny steel shortsword
+
+G 1  6121   999     0   0   100   149   141          0 an ordinary steel broadsword
+
+G 1  6100   999     0   0   100   150   141          0 a sturdy, steel dagger
+
+G 1  1314   999     0   0   100   151   141          0 a bronze longsword
+
+G 1  1315   999     0   0   100   152   141          0 a small, serrated dagger
+
+G 1  1316   999     0   0   100   153   141          0 a large, wooden mace
+
+G 1  1317   999     0   0   100   154   141          0 a wide-bladed, steel longsword
+
+G 1  1318   999     0   0   100   155   141          0 a heavy, two-handed sword
+
+G 1  1300   999     0   0   100   156   141          0 a bronze shortsword
+
+G 1  1319   999     0   0   100   157   141          0 an oaken staff
+
+M 0 13101     1 13163   1   100   158    -1          0 Manfred
+
+G 1  7013   999     0   0   100   159   158          0 a spellbook bound in leather
+
+G 1  7009   999     0   0   100   160   158          0 a brilliant green potion
+
+G 1  7015   999     0   0   100   161   158          0 a blank sheet of papyrus paper
+
+G 1  1209   999     0   0   100   162   158          0 a rune covered, leather bound spellbook
+
+G 1  1210   999     0   0   100   163   158          0 a clean, white parchment
+
+G 1  1339   999     0   0   100   164   158          0 a pointy, metal wand
+
+G 1  1338   999     0   0   100   165   158          0 a scorched, golden parchment
+
+G 1  7011   999     0   0   100   166   158          0 a bubbling crimson potion
+
+G 1  1336   999     0   0   100   167   158          0 a tiny, black potion
+
+G 1  1335   999     0   0   100   168   158          0 a blue potion with red flecks
+
+G 1  1334   999     0   0   100   169   158          0 a scroll with red runes
+
+M 0 13100     1 13162   1   100   170    -1          0 Durford
+
+G 1  6515   999     0   0   100   171   170          0 a burlap bag
+
+G 1  2313   999     0   0   100   172   170          0 a large, buckskin sack
+
+G 1  1301   999     0   0   100   173   170          0 a small leather sack
+
+G 1  1118   999     0   0   100   174   170          0 a large, burlap sack
+
+G 1  2315   999     0   0   100   175   170          0 a leather waterskin
+
+G 1  1303   999     0   0   100   176   170          0 a hide waterskin
+
+G 1  2323   999     0   0   100   177   170          0 a plate of mixed vegetables
+
+G 1  1313   999     0   0   100   178   170          0 a fresh loaf of bread
+
+G 1  1116   999     0   0   100   179   170          0 a bronze, hooded lantern
+
+S
+$

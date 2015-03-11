@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "Purging $1"
+cd $1
+rm -rf *.new
+cd ..

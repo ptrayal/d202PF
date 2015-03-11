@@ -1,0 +1,425 @@
+#8900
+Age of Dragons~
+   Welcome to Age of Dragons.  You should find in your possession a beginning
+suit of clothes, a weapon, a sack, a couple of torches, some provisions, and a
+couple of recall potions.  You have also been given some coins to make
+purchases with, and if you are a wizard, you should have a spellbook.  Once you
+have been approved, you may continue into the world itself, or walk through the
+learning section to familiarize yourself with how things work here.    
+~
+89 de 0 0 0  0
+D0
+~
+~
+1 0 8901 0 0 0 0 0 0 0 0
+S
+#8901
+The Introduction System~
+   The WHO list and Introduction When you type the command "who", you will only
+be able to see those people who have introduced themselves to you, OR any
+member of the AoD staff that is online and visible.    
+
+The Intro Command:
+  This command is used to reveal your name to another character.  Once you have
+another character's intro, you will be able to tell to them and their name
+will appear instead of a description.  A character will only be able to know
+a limited number of characters before they begin to forget people.
+
+Usage: intro <victim>
+
+The Greet Command:
+  When a player is greeted, he or she will not forget the character who
+has greeted them as fast as someone who does not greet them.
+
+Usage: greet <victim>
+
+  If you have not received any one's introduction, when you type in the
+"who" command, you will only see yourself and any Imms who might be
+present. However, at the bottom of the output, you will see something
+that says "Characters playing:".  This will show you the number of other,
+unintroduced players that are in the game with you.
+
+There is also a newbie channel available, that is a global channel.  This
+will allow you to ask experienced players questions and get advice.
+Usage:  newbie (message)
+
+Please continue north.
+~
+89 de 0 0 0  0
+D0
+~
+~
+0 0 8902 0 0 0 0 0 0 0 0
+S
+#8902
+The Rent System~
+   To save your character and belongings, you need to rent instead of quitting
+out of the game.  Rent is currently based on level, not on value of items and
+so is not expensive.    
+  There is also a long-term rent available, for those going on vacation or
+whatever would keep a person from playing.  The command is: ltrent
+It charges a one-time fee, and so is more costly than renting day to day, but
+once you pay it, you may remain in rent as long as you wish.
+
+  If you make an offer at an innkeeper, the innkeeper will tell you how 
+many days of rent you have.  When those days run out, the innkeeper will be
+forced to begin selling your things to pay for your room.  Thus, if you know
+you are going to be away for several days or weeks, use the LTRENT function.
+
+Please continue to the north.
+~
+89 de 0 0 0  0
+D0
+~
+~
+0 0 8903 0 0 0 0 0 0 0 0
+S
+#8903
+Spellcasting and Memorization~
+   Spells are handled differently here at Age of Dragons.  We use a
+memorization system, which you can read more about to the east.    
+  Wizards are required to scribe their spells into a spellbook which is
+provided as part of the set of equipment when a new wizard starts the game.
+You can learn how to scribe spells to the west.
+
+  After you have read all the information about spells, please continue 
+traveling to the north.
+~
+89 de 0 0 0  0
+D0
+~
+~
+0 0 8904 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8915 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8916 0 0 0 0 0 0 0 0
+S
+#8904
+Ego System~
+   Certain items (equipment, weapons, etc) that are endowed with special powers
+or affects carry with them a rating known as an 'ego' value.  The more powerful
+the item, the higher this ego value.  Player characters are assigned an ego
+limit based on certain factors, and can not rent equipment in excess of that
+limit.  (Note: the innkeepers will inform you that you have exceeded this limit
+with the message: "I'm afraid I can not assure the safety of all of your items"
+when you ask for an offer.  )
+
+  The ego command informs you of how close you are to your ego limit.
+
+Please continue to the north.
+~
+89 de 0 0 0  0
+D0
+~
+~
+0 0 8906 0 0 0 0 0 0 0 0
+S
+#8905
+Age of Dragons~
+   Welcome to Age of Dragons.  You should find in your possession a beginning
+suit of clothes, a weapon, a sack, a couple of torches, some provisions, and a
+couple of recall potions.  You have also been given some coins to make
+purchases with, and if you are a wizard, you should have a spellbook.  Once you
+have been approved, you may continue into the world itself, or walk through the
+learning section to familiarize yourself with how things work here.    
+~
+89 de 0 0 0  0
+D2
+~
+~
+0 0 8901 0 0 0 0 0 0 0 0
+S
+#8906
+The Death and Fate System~
+   Death is an unfortunate part of the game.  When your character is killed,
+they will lose a great deal of experience, increasing as your character's level
+increases.    
+
+  There is also an aspect of the game called "fates".  Fates are more or less
+the number of lives your character gets.  You start off with a large number of
+these fates, and have a chance of getting additional ones with each level you
+attain.  Every time you are killed, you lose one of these fates.  Death from
+another player and death from a monster are counted against different limits.
+Also, new characters (levels 1-5) do not lose fates when they die.  Once you
+run out of either type of fates (i.e. none remaining), you character is dead
+permanently.
+
+    Using the attribute command will inform you when you are running low on
+either type of your fates.  Also note: deaths of any kind no longer result
+in the loss of any ability stats.
+
+Please continue north.
+~
+89 de 0 0 0  0
+D0
+~
+~
+0 0 8907 0 0 0 0 0 0 0 0
+S
+#8907
+Portal to the Age of Dragons World~
+The world around you spins, as a sudden pulse tells you that the world of Age of
+Dragons is close.  
+
+NORTH you can find Solace, a city suitable for all players to begin their adventures.
+
+You may alternatively, enter the portal leading down and practice on the
+creatures provided before coming back to this portal.
+~
+89 de 0 0 0  0
+D0
+~
+~
+0 0 8917 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 8908 0 0 0 0 0 0 0 0
+S
+#8908
+To the Practice Fields~
+   Please continue down, to enter the practice fields and pit your fledgling
+skills against the foes there.  Do not forget to practice any skills or spells
+first and if you are a spellcaster, memorize your spells!    
+~
+89 cde 0 0 0  0
+D4
+~
+~
+0 0 8907 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 8911 0 0 0 0 0 0 0 0
+S
+#8909
+The Practice Fields~
+   This is a simple field, with various creatures to practice your skills and
+spells upon.  When you tire, you may go up to rest, or to enter the rest of the
+world.    
+~
+89 0 0 0 0  0
+D0
+~
+~
+0 0 8910 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8912 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8911 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8913 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8908 0 0 0 0 0 0 0 0
+S
+#8910
+The Practice Fields~
+   This is a simple field, with various creatures to practice your skills and
+spells upon.  When you tire, you may go up to rest, or to enter the rest of the
+world.    
+~
+89 0 0 0 0  0
+D2
+~
+~
+0 0 8909 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8908 0 0 0 0 0 0 0 0
+S
+#8911
+The Practice Fields~
+   This is a simple field, with various creatures to practice your skills and
+spells upon.  When you tire, you may go up to rest, or to enter the rest of the
+world.    
+~
+89 0 0 0 0  0
+D0
+~
+~
+0 0 8909 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8908 0 0 0 0 0 0 0 0
+S
+#8912
+The Practice Fields~
+   This is a simple field, with various creatures to practice your skills and
+spells upon.  When you tire, you may go up to rest, or to enter the rest of the
+world.    
+~
+89 0 0 0 0  0
+D3
+~
+~
+0 0 8909 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8908 0 0 0 0 0 0 0 0
+S
+#8913
+The Practice Fields~
+   This is a simple field, with various creatures to practice your skills and
+spells upon.  When you tire, you may go up to rest, or to enter the rest of the
+world.    
+~
+89 0 0 0 0  0
+D1
+~
+~
+0 0 8909 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 8908 0 0 0 0 0 0 0 0
+S
+#8914
+Age of Dragons~
+   Welcome to Age of Dragons.  You should find in your possession a beginning
+suit of clothes, a weapon, a sack, a couple of torches, some provisions, and a
+couple of recall potions.  You have also been given some coins to make
+purchases with, and if you are a wizard, you should have a spellbook.  Once you
+have been approved, you may continue into the world itself, or walk through the
+learning section to familiarize yourself with how things work here.    
+~
+89 de 0 0 0  0
+D2
+~
+~
+0 0 8901 0 0 0 0 0 0 0 0
+S
+#8915
+Spell Memorization~
+   Let's say your character happens to be a level 1 Wizard.  You decide that
+you are going to go try your skills against a monster and opt to use the Magic
+Missile spell.  Assuming you have already practiced this skill at one of the
+many guilds, you would type the following in order to begin memorizing the
+spell: >mem 'magic missile' Age of Dragons will respond with an Okay message
+and you will begin memorizing this spell.  In order to see which spells you
+have completed memorizing, which spells you are currently memorizing, and which
+spells you have left to memorize, type mem on a line by itself.  Continuing
+with the above example, if you wanted to confirm that you were indeed
+memorizing a Magic Missile spell, issue the following command: MEM
+
+  This will show you:
+[Spells Memorized]
+None.
+[Spells Being Memorized]
+1: (5h)Magic Missile
+[Spells Remaining] 1: 1/2 2: 1/1
+
+
+  This tells us that we have no spells currently memorized, however we are
+indeed currently memorizing a Magic Missile spell and it will be completed
+in 5 game hours.
+
+  This information also shows us we have one level 1 spell and one level
+2 spell that can still be memorized.  When you have completed memorizing a
+spell, the game will inform you with an appropriate message.  Once a spell
+is memorized, it may be cast where appropriate.  After a spell has been cast,
+the character will automatically begin memorizing the spell again so it may be
+cast another time.
+
+  If you wish to remove a spell either from memory or one being memorized,
+the forget command must be used.
+
+     If we decide we no longer wish to memorize the Magic Missile
+spell, we could issue the following command to get rid of it: >forg 'Magic
+Missile'.
+
+~
+89 0 0 0 0  0
+D3
+~
+~
+0 0 8903 0 0 0 0 0 0 0 0
+S
+#8916
+The Scribing System~
+   Wizards and bards are required to scribe their spells into a spellbook
+before they can cast them.    
+
+SCRIBE
+              [------- source -------]    [-- target --]
+Usage: scribe <spellbook> 'spell name'    <spellbook>
+       scribe <SCROLL>                    <spellbook>
+       scribe 'spell name'                <blank_scroll>
+This skill allows a Wizard to copy new spells into his/her spellbook,
+copy spells from one spellbook to another, and copy spells from memory
+to blank parchment for later use as a scroll.  A very powerful skill indeed,
+that has a certain degree of danger when performed improperly.
+
+~
+89 0 0 0 0  0
+D1
+~
+~
+0 0 8903 0 0 0 0 0 0 0 0
+S
+#8917
+Portal to Solace~
+   Solace welcomes travellers of all alignments, races and beliefs.  It is a
+good neutral city to start out in, however, currently there are only a few
+areas geared towards lower levels.    
+~
+89 0 0 0 0  0
+D0
+~
+~
+0 0 1317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 8907 0 0 0 0 0 0 0 0
+S
+#8918
+Portal to Palanthas~
+   If you are evil, STOP RIGHT HERE AND GO BACK!!!!  The citizens of Palanthas
+do not welcome evil denizens and will KILL new adventurers of the evil
+alignment.  It is recommended to enter either the Sanction, or Solace portals
+instead.    
+~
+89 0 0 0 0  0
+D1
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 8907 0 0 0 0 0 0 0 0
+S
+#8919
+Portal to Sanction~
+   If you are of good alignment STOP RIGHT HERE AND GO BACK!!!!!  The citizens
+of Sanction do NOT look favorably upon citizens of good and will do their best
+to KILL them!!  It is recommended you enter the Solace or Palanthas portals
+instead.    
+~
+89 0 0 0 0  0
+D1
+~
+~
+0 0 8907 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+$

@@ -1,0 +1,206 @@
+#20300
+scythe weapon adamantine~
+an adamantine greatscythe~
+An adamantine greatscythe is lying here.~
+~
+5 D 0 0 0 an 0 0 0 0 0 0 0
+42 2 4 3 100 100 2 12 0 2 0 13 0 0 0 0
+100 60000 0 34
+Z
+5
+A
+28 10 0
+A
+29 10 0
+#20301
+mithril fullplate armor suit~
+a suit of mithril full plate armor with a wolverine engraving~
+A glistening suit of full plate armor is laying here.~
+~
+9 i 0 0 0 ad 0 0 0 0 0 0 0
+80 3 1 -6 100 100 35 13 20 12 15 0 0 0 0 0
+500 75000 0 35
+Z
+4
+A
+22 100 0
+#20302
+spellbook book velvet~
+a velvet lined spellbook~
+A book lined in velvet is laying here.~
+~
+39 g 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 21 0 0 0 0 0 0 0 0
+10 50000 0 32
+Z
+0
+A
+3 8 0
+#20303
+dragonhide hide haversack backpack pack sack~
+a dragonhide haversack~
+A dragonhide haversack is laying here.~
+~
+15 q 0 0 0 az 0 0 0 0 0 0 0
+10000 1 -1 0 100 100 0 45 0 0 0 0 0 0 0 0
+20 5000 0 20
+Z
+3
+#20304
+mask darkness~
+Mask of Darkness~
+A group of shadows swirl and coalesce into the shape of a face~
+~
+11 gA 0 0 0 ap 0 0 0 k 0 0 0
+0 0 0 0 100 100 0 11 0 0 0 0 0 0 0 0
+0 0 0 20
+Z
+4
+A
+45 5 0
+#20305
+light chainmail mail armor suit~
+a suit of mithril chainmail armor~
+An unfinished object is lying here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+40 1 4 -2 100 100 20 13 30 4 20 0 0 0 0 0
+125 1000 0 14
+Z
+4
+A
+22 40 0
+#20306
+hydra collar neck waist chain~
+a hydras platinum collar~
+A platinum chain and leash is laying here.~
+~
+11 a 0 0 0 acl 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 22 0 0 0 0 0 0 0 0
+250 15000 0 24
+Z
+4
+A
+1 6 0
+#20307
+mithril longspear weapon~
+a mithril longspear~
+A mithril longspear lays here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+9 1 8 11 100 100 1 13 0 33 0 4 0 0 0 0
+70 5 0 13
+Z
+5
+A
+28 4 0
+A
+29 4 0
+#20308
+mithral tower shield~
+a mithral tower shield~
+A mithril tower shield lays here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+40 4 2 -10 100 100 50 13 999 16 999 0 0 0 0 0
+225 1000 0 14
+Z
+4
+A
+23 40 0
+#20309
+pick heavy weapon adamantine~
+an adamantine heavy pick~
+An adamantine heavy pick lays here.~
+~
+5 0 0 0 0 a 0 0 0 0 0 0 0
+27 1 6 11 100 100 2 12 0 2 0 10 0 0 0 0
+60 1500 0 13
+Z
+4
+A
+28 4 0
+A
+29 4 0
+#20310
+adamantine breastplate plate armor~
+a suit of adamantine breastplate armor~
+An unfinished object is lying here.~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+50 2 3 -4 100 100 25 12 20 8 15 0 0 0 0 0
+300 1500 0 14
+Z
+4
+A
+22 40 0
+#20311
+mantle hills leather~
+Mantle of the Hills~
+A mantle of animal skin is crumpled on the ground here.~
+~
+11 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+20 3000 0 20
+Z
+4
+A
+43 5 0
+#20312
+velvet kimono armor~
+a ceremonial velvet kimono~
+A ceremonial kimono is lying here.~
+~
+11 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 21 0 0 0 0 0 0 0 0
+10 10000 0 20
+Z
+4
+A
+22 60 0
+#20313
+ceremonial satin black belt armor~
+a ceremonial satin black belt~
+A black satin belt is crumpled here.~
+~
+11 0 0 0 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 18 0 0 0 0 0 0 0 0
+10 5000 0 20
+Z
+4
+A
+23 60 0
+#20314
+crown mountain king~
+@YCrown@n of the @rMountain King@n~
+@wA large stone @Ycrown@w of the @rMountain King@w rests here.@n~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 36 0 0 0 0 0 0 0 0
+100 4000 0 20
+Z
+4
+A
+21 60 0
+#20315
+Staff Inferno~
+Staff of the Inferno~
+A Staff covered entirely in flames floats just off the ground.~
+The Inferno Staff covers the room in fire.
+~
+4 afD 0 0 0 an 0 0 0 0 0 0 0
+20 50 20 298 100 100 0 0 0 0 0 0 0 0 0 0
+20 0 0 1
+Z
+2
+#20399
+candy cane ~
+@ga @WC@Ra@Wn@Rd@Wy @RC@Wa@Rn@We@n~
+@ga nonedible glow in the dark @WC@Ra@Wn@Rd@Wy @RC@Wa@Rn@We @gis waiting to be picked up.@n~
+~
+1 aA 0 0 0 as 0 0 0 0 0 0 0
+0 0 -1 0 100 100 0 22 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+$~

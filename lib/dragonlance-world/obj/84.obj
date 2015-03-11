@@ -1,0 +1,145 @@
+#8400
+object new~
+KEY TO ENTRANCE~
+A new object is here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#8401
+brass candlestick~
+a set of heavy brass candlesticks~
+A set of brass candlestick holders rest heavily upon the ground.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+500 0 0 0
+Z
+4
+E
+candlestick~
+   These heavy brass candlestick holders have been heavily tarnished from the
+years of being uncared for.  Hardened waves of tan colored wax pour off of the
+sides, suggesting that they were once heavily used.    
+~
+E
+brass~
+   These heavy brass candlestick holders have been heavily tarnished from the
+years of being uncared for.  Hardened waves of tan colored wax pour off of the
+sides, suggesting that they were once heavily used.    
+~
+E
+heavy~
+   These heavy brass candlestick holders have been heavily tarnished from the
+years of being uncared for.  Hardened waves of tan colored wax pour off of the
+sides, suggesting that they were once heavily used.    
+~
+E
+set~
+   These heavy brass candlestick holders have been heavily tarnished from the
+years of being uncared for.  Hardened waves of tan colored wax pour off of the
+sides, suggesting that they were once heavily used.    
+~
+E
+candlesticks~
+   These heavy brass candlestick holders have been heavily tarnished from the
+years of being uncared for.  Hardened waves of tan colored wax pour off of the
+sides, suggesting that they were once heavily used.    
+~
+#8402
+wings strige HuerzydTemple~
+the delicate wings of a stirge~
+A pair of delicate wings of a small animal rest here softly on the ground.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+#8403
+glob slime HuerzydTemple~
+a small glob of snail slime~
+A small glob of snail slime slowly dries on the ground.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#8404
+hide coal snake HuerzydTemple~
+a coal colored hide of a large snake~
+The coal colored hide of a large snake lies wrapped in a coil on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 300 0 0
+Z
+4
+A
+9 1 0
+#8405
+sword shortsword poorly steel HuerzydTemple~
+a poorly crafted steel shortsword~
+A poorly crafted steel shortsword lies on the ground.~
+~
+5 jkloprstuvBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 100 0 0
+Z
+4
+#8406
+hide white bat HuerzydTemple~
+the hide of a white bat~
+The hide of a small white bat lies on the ground, collecting dirt.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#8407
+exoskeleton spiked spider HuerzydTemple~
+a spiked spider's exoskeleton~
+The brittle exoskeleton of a spiked spider lies softly upon the ground.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 80 0 0
+Z
+4
+#8408
+hide granite lurker HuerzydTemple~
+the hardened hide of a granite colored lurker~
+The flattened, hardened hide of a large granite colored lurker stinks up the area.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 100 0 0
+Z
+4
+#8409
+broadsword iron polished HuerzydTemple~
+a highly polished iron broadsword~
+A highly polished iron broadsword lies here silently.~
+~
+5 jkloprstuvBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1000 0 1
+Z
+4
+A
+18 1 0
+#8410
+meat scrap food HuerzydTemple~
+a small scrap of meat~
+A small scrap of cold meat collects dirt on the ground.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+$~

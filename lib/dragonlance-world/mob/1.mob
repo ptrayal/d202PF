@@ -1,0 +1,249 @@
+#100
+strong stout cleric itsu~
+a strong stout cleric~
+A stout man in white cleric robes stands here keeping an eye on things.
+~
+   A heavy set man of medium height is standing here.  He wears a white cleric
+robe with a brown vine-like embroidery.  His hair is cut really short and his
+beard is cleanly shaven.  He wears scars of battle and carries a sturdy mace at
+his side.    
+~
+d 0 0 0 k 0 0 0 1000
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#104
+combatant bare barrel-chested shirtless~
+a bare chested combatant~
+A barrel-chested, shirtless man calls for next opponent.
+~
+   A sturdy built human, he weighs over 230 pounds.  He shouts loudly and
+haughtily and motions that he can take on more than one challenger.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#105
+knight regal young lightly armored~
+a regal, lightly armored knight~
+A regal young knight honorably accepts all his challenges.
+~
+~
+d 0 0 0 k 0 0 0 650
+12 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#106
+Cass younger brother hefty calm~
+Sir Cass, the younger brother~
+A hefty, calm man sits at his desk.
+~
+~
+d 0 0 0 k 0 0 0 500
+10 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#107
+pupil young juvenile knight~
+a young pupil~
+A juvenile knight is here learning swordplay.
+~
+   A young, strapping human, hes had some fighting experience.  Impatient
+practicing with his shadow, he looks around for an opponent.    
+~
+d 0 0 0 k 0 0 0 350
+7 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#108
+pupil barbarian savage man~
+a barbarian pupil~
+A savage man is here learning swordplay.
+~
+   A plains barbarian, he is tall and dark complected.  He is strong but not
+very nimble with a knight's sword.    
+~
+d 0 0 0 k 0 0 0 550
+7 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#109
+fighter quiescent~
+a quiescent fighter~
+A quiescent fighter is just milling around, tired from his workout.
+~
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#110
+pupil student aggressive hostile~
+a hostile pupil~
+An aggressive student is here looking for swordplay.
+~
+   A clean man, dressed is light black armor.  He walks around trying to pick
+fights, always keeping an eye out to duck the instructor.    
+~
+d 0 0 0 k 0 0 0 -650
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The swordsmanship proctor stretches to scan over the people.
+#112
+kender aged quiet~
+a quiet aged kender~
+An aged kender keeps to himself, mostly.
+~
+   A middle-aged kender, he seems to be a bit more refined than most kenders.
+He quietly watches the knights and other goings on and picks up a few things
+here and there.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#113
+amputee young man one arm~
+a young amputee~
+A young man with one arm cut off is lying in bed.
+~
+   A young man with dark hair and gray eyes, he sits up when someone enters the
+room.  He wears underclothes and an armbandage in bed.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

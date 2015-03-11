@@ -1,0 +1,2104 @@
+#4100
+Whoa Dude, Look Out!~
+   You feel really scared in this room like you are gonna die.  If you didnt
+bring a recall potion you are a dumbass because a big dragon is about to come
+and kill you.  He casts fireball, has sanc, and he has magic missile wands that
+he will use against you!  Boy you sure are dumb.    
+~
+41 ceg h 0 0  6
+S
+#4101
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 c h 0 0  2
+D1
+~
+~
+0 0 8127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+S
+#4102
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4101 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4103 0 0 0 0 0 0 0 0
+S
+#4103
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 c h 0 0  2
+D1
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+D2
+~
+grass~
+1 0 4104 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4123 0 0 0 0 0 0 0 0
+S
+#4104
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D0
+~
+grass~
+1 0 4103 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4105 0 0 0 0 0 0 0 0
+S
+#4105
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4104 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+S
+#4106
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4159 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4157 0 0 0 0 0 0 0 0
+S
+#4107
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4105 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4109 0 0 0 0 0 0 0 0
+S
+#4108
+Within Eben's Grave~
+   Several feet below the surface of the ground above lies a small coffin made
+from the wood of the majestic Vallenwood tree.  Tangled green moss hangs
+loosely from the dirt walls of the grave, giving off a slightly musty odor.  A
+thin layer of dust has settled upon the lid of the coffin, implying that it has
+not been touched in quite some time.    
+~
+41 ac h 0 0  0
+D4
+~
+~
+0 0 4118 0 0 0 0 0 0 0 0
+S
+#4109
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4110 0 0 0 0 0 0 0 0
+S
+#4110
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4120 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4111 0 0 0 0 0 0 0 0
+S
+#4111
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4112 0 0 0 0 0 0 0 0
+S
+#4112
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4113 0 0 0 0 0 0 0 0
+S
+#4113
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4114 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4112 0 0 0 0 0 0 0 0
+S
+#4114
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D2
+~
+~
+0 0 4113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4115 0 0 0 0 0 0 0 0
+S
+#4115
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4116 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4114 0 0 0 0 0 0 0 0
+S
+#4116
+Walking Through the Overgrown Grass~
+   Overgrown weeds and bushes all but conceal this unwelcoming path.  Sharp
+thorns from briarwood bushes tear at every piece of clothing that comes near
+them, attempting to slow further progress to a crawl.  The sound of wildlife
+has noticeably diminished, causing a somewhat foreboding silence to fall upon
+the area.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4117 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4115 0 0 0 0 0 0 0 0
+S
+#4117
+At the Entrance of a Small Canyon~
+   The once muddy trail has gained a firmer consistancy as small rocks blown
+from the upcoming canyon have lodged themselves into the ground.  Short gusts
+of wind emanate from within the canyon walls, causing loose dirt and leaves to
+blow lazily along the ground.  The trail of wagon wheels can barely be detected
+leading onward.  A small plaque has been affixed to the starting walls of the
+canyon.  Two less frequented trails lead to the east and south.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4131 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4118 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4132 0 0 0 0 0 0 0 0
+E
+plaque~
+In loving memory of Eben Willowthorn,
+
+On this day, The 7th Day of the Month of Long Shadows, Year 289, our loving
+son Eben Willowthorn fell to his death from atop the canyon walls.  This plaque
+commemorates his short life for all eternity.  From this day forth, with great
+sorrow, we name this canyon 'Eben's Canyon' in memory of our son.  We will miss 
+you Eben.
+
+-Emblin and Marisha Willowthorn-
+~
+S
+#4118
+At a Burial Site~
+   Delicate, violet colored flowers line the edges of this small burial site.
+Out of place in the vast plains of grass, it lends a touch of beauty to the
+otherwise barren landscape.  A tombstone carved from the finest onyx sits
+before a six foot deep hole in the soil.  Within the hole is a polished wooden
+coffin, suitable for a small woman or child.    
+~
+41 c h 0 0  2
+D3
+~
+~
+0 0 4117 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4108 0 0 0 0 0 0 0 0
+E
+tombstone~
+
+                                  Eben Willowthorn
+
+        -=- Born - The 14th Day of the Month of the Winter Wolf, Year 280 -=-
+
+          -=- Died - The 7th Day of the Month of Long Shadows, Year 289 -=-
+~
+S
+#4119
+A Small Clearing~
+   As the small clearing of weeds leads closer to the ominous rock formation,
+the foul stench of death engulfs you in its pungent embrace.  Bones of small
+animals litter large patches of trampled grass.  Directly overhead, vultures
+patiently circle the immediate area expectantly.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4121 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4120 0 0 0 0 0 0 0 0
+S
+#4120
+A Small Clearing~
+   The hazardous, overgrown path promptly comes to a halt at this point, as the
+briarwood bushes suddenly recede into a small field of knee high weeds.  
+Vultures circle the skies above, apparently awaiting their turn to feast on a
+dead animal beneath them.  A ways off to the north east, a jagged formation of
+ancient boulders juts proudly from the ground's surface.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4119 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4110 0 0 0 0 0 0 0 0
+S
+#4121
+An Enormous Rock Wall~
+   An enormous, ancient cluster of boulders stands here, forming an impassible
+rock wall.  Numerous birds have carefully made their nests among the rocks.  
+Screaming violently, baby vultures sit in their nests hungrily demanding to be
+fed.  Along side the formation, a small cave has been cut into its surface.  
+~
+41 0 h 0 0  0
+D1
+~
+~
+0 0 4122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4119 0 0 0 0 0 0 0 0
+S
+#4122
+An Animal's Den~
+   The floor of this unkempt den is littered with the bloody, gnawed remains of
+numerous victims that fell prey to the lions which inhabit it.  A slight
+trickle of water runs down the side of the cave before pouring into a large
+pool of blood in the center.  Malicious, aggressive growling is directed
+towards you immediately upon entering.    
+~
+41 adi h 0 0  0
+D3
+~
+~
+0 0 4121 0 0 0 0 0 0 0 0
+S
+#4123
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4124 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4103 0 0 0 0 0 0 0 0
+S
+#4124
+A Bend in the Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 0 h 0 0  2
+D2
+~
+~
+0 0 4123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4125 0 0 0 0 0 0 0 0
+S
+#4125
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4126 0 0 0 0 0 0 0 0
+S
+#4126
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4125 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4127
+An Abandoned Wagon~
+   Like the skeleton of some giant, decaying beast, this wagon lies in the mud
+silently.  The cause of its abandonment is obvious, its axle has been snapped
+under the stress of crossing the mud at unnatural angles.  Its frame has been
+picked clean, and little remains behind to be eaten or salvaged by the small
+rodents that inhabit this grassland.    
+~
+41 0 h 0 0  2
+D2
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4128
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  The skeleton of a wagon can be seen to the north, the reason for its
+abandonment cannot be determined from here.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4127 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4129 0 0 0 0 0 0 0 0
+S
+#4129
+A Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 d h 0 0  2
+D1
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4130 0 0 0 0 0 0 0 0
+S
+#4130
+A Bend in the Muddy Trail~
+   A wide, muddy trail has been formed by wagon travel in recent time.  The
+tall grass which lines the trail is broken and trampled, while the grass that
+stood in these wagons way is utterly destroyed.  Mice and other small rodents
+dash out of view into their burrows and quickly peer out of them in curious
+fear.  A few scattered arrows are impaled into the ground beside some of the
+holes.    
+~
+41 d h 0 0  2
+D1
+~
+~
+0 0 4129 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4131 0 0 0 0 0 0 0 0
+S
+#4131
+Approaching a Small Canyon~
+   The once muddy trail has gained a firmer consistancy as small rocks blown
+from the upcoming canyon have lodged themselves into the ground.  Short gusts
+of wind emanate from from within the canyon walls, causing loose dirt and
+leaves to blow lazily along the ground.  The trail of wagon wheels can barely
+be detected leading onward.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4130 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4117 0 0 0 0 0 0 0 0
+S
+#4132
+Within Eben's Canyon~
+   A narrow chasm formed from steep cliff walls of the most brilliant shade of
+puce rises from the ground to form a small but magnificent canyon.  Strong
+gusts of wind cause a hollow wailing sound, almost as if the canyon is crying
+out in sorrow.  Though narrow, there is just enough room for a small cart or
+wagon to pass through without too much trouble.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4133 0 0 0 0 0 0 0 0
+S
+#4133
+Within Eben's Canyon~
+   A narrow chasm formed from steep cliff walls of the most brilliant shade of
+puce rises from the ground to form a small but magnificent canyon.  Strong
+gusts of wind cause a hollow wailing sound, almost as if the canyon is crying
+out in sorrow.  Though narrow, there is just enough room for a small cart or
+wagon to pass through without too much trouble.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4132 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4134 0 0 0 0 0 0 0 0
+S
+#4134
+Within Eben's Canyon~
+   A narrow chasm formed from steep cliff walls of the most brilliant shade of
+puce rises from the ground to form a small but magnificent canyon.  Strong
+gusts of wind cause a hollow wailing sound, almost as if the canyon is crying
+out in sorrow.  Though narrow, there is just enough room for a small cart or
+wagon to pass through without too much trouble.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4133 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4135 0 0 0 0 0 0 0 0
+S
+#4135
+Within Eben's Canyon~
+   A narrow chasm formed from steep cliff walls of the most brilliant shade of
+puce rises from the ground to form a small but magnificent canyon.  Strong
+gusts of wind cause a hollow wailing sound, almost as if the canyon is crying
+out in sorrow.  The walls widen considerably to the west, opening up to a small
+makeshift campground.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4134 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+S
+#4136
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4135 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4199 0 0 0 0 0 0 0 0
+S
+#4137
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.  The commotion of people can be heard to the
+south long before the sights of a marketplace comes into view.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4199 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+S
+#4138
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+S
+#4139
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4141 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+S
+#4140
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4189 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+S
+#4141
+Standing Before the Main Stage~
+   Looming more than twice the height of a full grown human, this enormous
+stage is where the majority of slaves are sold.  A large crowd has formed
+before it, talking amongst themselves as they eagerly await the next auction.
+Several whimpering slaves can be seen chained ankle to ankle atop the stage.  
+~
+41 0 h 0 0  1
+D2
+~
+~
+0 0 4189 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+S
+#4142
+The Auctioning Stage~
+   Atop the weather beaten stage, a clear view of the clustered crowd comes
+into view.  With very little open space available down below, people
+frantically push and shove to get as close as they possibly can to the base of
+the structure.  The cracked, flimsy wooden planks which make up the floor of
+the stage reek with sweat and urine.  Barely suitable to hold the amount of
+weight it is, the floor creaks and bends slightly with every step taken.    
+~
+41 0 h 0 0  1
+D2
+~
+~
+0 0 4145 0 0 0 0 0 0 0 0
+S
+#4143
+Inside Lord Grismold's House~
+   A drastic contrast to the dirty slave market, this home has been
+meticulously well kept.  Various items of exceptional craftsmanship furnish
+Lord Grismold's dwelling, each of which was most likely aquired through slave
+trade.  A dirty piece of parchment has been pinned to the front of a door
+leading to the north.    
+~
+41 0 h 0 0  0
+D0
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 4124 4146 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 4118 4161 0 0 0 0 0 0 0 0
+E
+parchment~
+Esmalda,
+
+A long time friend of mine, Sir Damien Calhoun of the Knights of Solamnia will
+be arriving later this evening.  I expect you to have a feast fit for a king
+prepared for this man when I bring him here after the slave market closes.
+He has always been a well paying customer, and I intend to keep it that way.
+If you fail me again, wench, you will be the next to be sold.
+
+-Master Grismold-
+~
+S
+#4144
+The Kitchen~
+   Immediately upon entering the kitchen, a mouth watering aroma of freshly
+baked breads and broiled meats fills the air.  Huge pots of boiling water hiss
+as they cook large heads of cabbage atop a cast iron stove.  Several cooks race
+frantically around the room, desperately trying to prepare an enormous meal as
+quickly as possible.    
+~
+41 0 h 0 0  0
+D2
+~
+~
+0 0 4143 0 0 0 0 0 0 0 0
+S
+#4145
+The Auctioning Stage~
+   Atop the weather beaten stage, a clear view of the clustered crowd comes
+into view.  With very little open space available down below, people
+frantically push and shove to get as close as they possibly can to the base of
+the structure.  The cracked, flimsy wooden planks which make up the floor of
+the stage reek with sweat and urine.  Barely suitable to hold the amount of
+weight it is, the floor creaks and bends slightly with every step taken.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4142 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4147 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4189 0 0 0 0 0 0 0 0
+S
+#4146
+Lord Grismold's Private Study~
+   Apparently Lord Grismold's private study, this room has the distinct smell
+of cheap cigars.  A large glass-topped desk sits heavily in one corner of the
+room, directly across from an enormous portrait of Lord Grismold himself.  
+Sleeping on the floor next to the desk lies an obese orange cat, completely
+oblivious to anything that wishes to disturb it.    
+~
+41 d h 0 0  0
+D3
+~
+door~
+1 4124 4143 0 0 0 0 0 0 0 0
+S
+#4147
+The Auctioning Stage~
+   Atop the weather beaten stage, a clear view of the clustered crowd comes
+into view.  With very little open space available down below, people
+frantically push and shove to get as close as they possibly can to the base of
+the structure.  The cracked, flimsy wooden planks which make up the floor of
+the stage reek with sweat and urine.  Barely suitable to hold the amount of
+weight it is, the floor creaks and bends slightly with every step taken.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4145 0 0 0 0 0 0 0 0
+S
+#4148
+Standing Before the Main Stage~
+   Looming more than twice the height of a full grown human, this enormous
+stage is where the majority of slaves are sold.  A large crowd has formed
+before it, talking amongst themselves as they eagerly await the next auction.
+Several whimpering slaves can be seen chained ankle to ankle atop the stage.  
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4189 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+S
+#4149
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4148 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+S
+#4150
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+S
+#4151
+Ergold's Wagon Supplies~
+   Packed from wall to wall with an abundance of wagon parts, this tent is by
+far the busiest in the marketplace.  As evident by the numerous broken down
+wagons along side the path leading to the market, spare parts are in high
+demand.  Young clerks quickly fill customers' orders as fast as they possibly
+can.    
+~
+41 c h 0 0  0
+D0
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+S
+#4152
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+S
+#4153
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 c h 0 0  1
+D0
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4151 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+S
+#4154
+A Theiwar Dwarf's Tent~
+   Small paper lanterns attached to the ceiling sway back and forth as the flap
+of this tent opens to let prospective buyers enter.  Several dusty bearskin
+rugs line the sparsely furnished dirt floor.  Behind a crude wooden counter in
+the center of the tent, sticks of incense burn, emitting a constant cloud of
+rose scented smoke.    
+~
+41 cd h 0 0  0
+D0
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+S
+#4155
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+S
+#4156
+Kromlin's Slave Supplies~
+   Numerous crude metal chains and clevises line the walls of this dimly lit
+tent.  A small glass display case sits in the back of the tent, housing a
+variety of metal shackles.  Along side the glass case, a crude wooden mannequin
+exhibits the use of some of the items available for sale.    
+~
+41 c h 0 0  0
+D0
+~
+door~
+0 0 4157 0 0 0 0 0 0 0 0
+S
+#4157
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 c h 0 0  1
+D0
+~
+~
+0 0 4158 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+D2
+~
+door~
+0 0 4156 0 0 0 0 0 0 0 0
+S
+#4158
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.  A small fenced in path leads to
+the north.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4161 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4159 0 0 0 0 0 0 0 0
+D2
+~
+door~
+0 0 4157 0 0 0 0 0 0 0 0
+S
+#4159
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D1
+~
+~
+0 0 4160 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4158 0 0 0 0 0 0 0 0
+S
+#4160
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4159 0 0 0 0 0 0 0 0
+S
+#4161
+A Serene Garden Path~
+   A serene garden of multi-colored roses fills the air with a sweet, delicate
+smell.  Standing side by side, the bushes outline a gravel path which meanders
+lazily towards a house to the north.  Numerous bees fly from bush to bush,
+completely occupied with their own business.    
+~
+41 c h 0 0  1
+D0
+~
+door~
+1 4118 4143 0 0 0 0 0 0 0 0
+D2
+~
+door~
+0 0 4158 0 0 0 0 0 0 0 0
+S
+#4162
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4187 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4160 0 0 0 0 0 0 0 0
+S
+#4163
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4164 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+S
+#4164
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.  The commotion of people can be heard to the
+south long before the sights of a marketplace comes into view.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4199 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4187 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+S
+#4165
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D1
+~
+~
+0 0 4167 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+S
+#4166
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4168 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4196 0 0 0 0 0 0 0 0
+S
+#4167
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+S
+#4168
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+S
+#4169
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4170 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4168 0 0 0 0 0 0 0 0
+S
+#4170
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+S
+#4171
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4170 0 0 0 0 0 0 0 0
+S
+#4172
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+S
+#4173
+Within the Holding Cell~
+   Humid, musty air fills the surrounding area with a putrid aroma.  
+Malnourished bodies line the walls of the cell, their bleeding limbs securely
+fastened with antiquated metal chains.  A tiny hole in the decaying mud ceiling
+is the only source of light available to the slaves.    
+~
+41 a h 0 0  0
+D1
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4194 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+S
+#4174
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4175 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+S
+#4175
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D2
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+S
+#4176
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4175 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4177 0 0 0 0 0 0 0 0
+S
+#4177
+Before the Holding Cell~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.  A heavy
+iron cell door stands imposingly to the west.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 4115 4192 0 0 0 0 0 0 0 0
+S
+#4178
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4177 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+S
+#4179
+A Shaded Path~
+   This path which encircles a sun baked, mud complex has been painstakingly
+cut out of a patch of briarwood bushes.  The windowless, vine infested walls of
+the building give no hint as to what lies inside.  Sparse willow trees lazily
+stretch their branches over the path, offering a fair amount of shade.    
+~
+41 0 h 0 0  2
+D1
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4167 0 0 0 0 0 0 0 0
+S
+#4180
+Wading in a Stagnant Pond~
+   Stagnant, brackish water hosts a variety of parasitic insects.  Mosquito
+larve squirms blindly atop a surface of brown, foul smelling foam.  
+Occasionaly, small patches of foam dart under the water, as if being pulled
+down by an unknown force.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+S
+#4181
+Wading in a Stagnant Pond~
+   Stagnant, brackish water hosts a variety of parasitic insects.  Mosquito
+larve squirms blindly atop a surface of brown, foul smelling foam.  
+Occasionaly, small patches of foam dart under the water, as if being pulled
+down by an unknown force.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4199 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4164 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+S
+#4182
+Wading in a Stagnant Pond~
+   Stagnant, brackish water hosts a variety of parasitic insects.  Mosquito
+larve squirms blindly atop a surface of brown, foul smelling foam.  
+Occasionaly, small patches of foam dart under the water, as if being pulled
+down by an unknown force.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4164 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4185 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+S
+#4183
+Wading in a Stagnant Pond~
+   Stagnant, brackish water hosts a variety of parasitic insects.  Mosquito
+larve squirms blindly atop a surface of brown, foul smelling foam.  
+Occasionaly, small patches of foam dart under the water, as if being pulled
+down by an unknown force.    
+~
+41 0 h 0 0  2
+D0
+~
+~
+0 0 4196 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4198 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+S
+#4184
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4198 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4185 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+S
+#4185
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4187 0 0 0 0 0 0 0 0
+S
+#4186
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+door~
+0 0 4199 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+S
+#4187
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.  The commotion of people can be heard to the
+south long before the sights of a marketplace comes into view.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4185 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4164 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+S
+#4188
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+S
+#4189
+The Base of the Stage Steps~
+   Looming more than twice the height of a full grown human, this enormous
+stage is where the majority of slaves are sold.  A large crowd has formed
+before it, talking amongst themselves as they eagerly await the next auction.
+Several whimpering slaves can be seen chained ankle to ankle atop the stage.  
+A set of steep wooden stairs leads upwards toward the stage.    
+~
+41 c h 0 0  1
+D0
+~
+~
+0 0 4141 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4148 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4145 0 0 0 0 0 0 0 0
+S
+#4190
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 0 h 0 0  1
+D0
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4152 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+S
+#4191
+Within the Holding Cell~
+   Humid, musty air fills the surrounding area with a putrid aroma.  
+Malnourished bodies line the walls of the cell, their bleeding limbs securely
+fastened with antiquated metal chains.  A tiny hole in the decaying mud ceiling
+is the only source of light available to the slaves.    
+~
+41 a h 0 0  0
+D2
+~
+~
+0 0 4192 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4173 0 0 0 0 0 0 0 0
+S
+#4192
+Within the Holding Cell~
+   Humid, musty air fills the surrounding area with a putrid aroma.  
+Malnourished bodies line the walls of the cell, their bleeding limbs securely
+fastened with antiquated metal chains.  A tiny hole in the decaying mud ceiling
+is the only source of light available to the slaves.  It appears that all hope
+of escape these prisoners might once have held is lost, as none make any
+movement towards the door as it opens.    
+~
+41 a h 0 0  0
+D0
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+D1
+~
+cell~
+1 4115 4177 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4194 0 0 0 0 0 0 0 0
+S
+#4193
+The Infamous Slave Market of Lord Grismold~
+   This jam packed marketplace bustles with hundreds of people coming from all
+corners of Ansalon.  Virtually every race is represented here, be it slave or
+slave master.  Those who are frequent visitors of the slave market have set up
+their own tents, while others use the main stage to buy and sell their prized
+slaves.  The ground has been cleared clean of all vegetation, and due to
+frequent use, it is as hard as any city road.    
+~
+41 c h 0 0  1
+D0
+~
+~
+0 0 4160 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4154 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+S
+#4194
+Within the Holding Cell~
+   Humid, musty air fills the surrounding area with a putrid aroma.  
+Malnourished bodies line the walls of the cell, their bleeding limbs securely
+fastened with antiquated metal chains.  A tiny hole in the decaying mud ceiling
+is the only source of light available to the slaves.    
+~
+41 a h 0 0  0
+D0
+~
+~
+0 0 4173 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4192 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4195 0 0 0 0 0 0 0 0
+S
+#4195
+Within the Holding Cell~
+   Humid, musty air fills the surrounding area with a putrid aroma.  
+Malnourished bodies line the walls of the cell, their bleeding limbs securely
+fastened with antiquated metal chains.  A tiny hole in the decaying mud ceiling
+is the only source of light available to the slaves.    
+~
+41 a h 0 0  0
+D0
+~
+door~
+0 0 4197 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4194 0 0 0 0 0 0 0 0
+S
+#4196
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D1
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4198 0 0 0 0 0 0 0 0
+S
+#4197
+Within the Holding Cell~
+   Humid, musty air fills the surrounding area with a putrid aroma.  
+Malnourished bodies line the walls of the cell, their bleeding limbs securely
+fastened with antiquated metal chains.  A tiny hole in the decaying mud ceiling
+is the only source of light available to the slaves.    
+~
+41 a h 0 0  0
+D1
+~
+~
+0 0 4173 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4195 0 0 0 0 0 0 0 0
+S
+#4198
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.    
+~
+41 c h 0 0  2
+D1
+~
+~
+0 0 4196 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+S
+#4199
+At the Bank of a Small Pond~
+   The ground has absorbed much of the water from the nearby pond, making it
+very difficult to keep one's balance.  It appears whoever inhabits the area has
+made this location their dump, as various pieces of trash and bodily waste can
+be seen mixed in with the mud.  The commotion of people can be heard to the
+south long before the sights of a marketplace comes into view.    
+~
+41 c h 0 0  2
+D0
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4164 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+S
+$

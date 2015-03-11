@@ -1,0 +1,1821 @@
+#3200
+The Western Que-Shu Plains~
+   Grass stretches out as far as you can see to the north, south, and west.  
+The eastwall mountains rise up in the distant east, creating a jagged horizon
+for the sun to rise over.  The path is well trodden, and a short distance to
+the east there are small billows of smoke rising from the ground.    
+~
+32 c h 0 0 0
+D1
+~
+~
+0 0 3201 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2924 0 0 0 0 0 0 0 0
+S
+#3201
+The Western Que-Shu Plains~
+   Grass stretches out as far as you can see to the north, south, and west.  
+The eastwall mountains rise up in the distant east, creating a jagged horizon
+for the sun to rise over.  The path is well trodden, and a short distance to
+the east there are small billows of smoke rising from the ground.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3202 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3200 0 0 0 0 0 0 0 0
+S
+#3202
+Near a Que-Shu Village~
+   Along the eastern horizon you can begin to make out forms of buildings.  
+Barbarians of the plains pass by this way often, and seem surprised to see
+anyone else walking here.  There is a faint odor in the air.  It smells like
+meat cooking over a large fire.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3203 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3201 0 0 0 0 0 0 0 0
+S
+#3203
+Near a Que-Shu Village~
+   Along the eastern horizon you can begin to make out forms of buildings.  
+Barbarians of the plains pass by this way often, and seem surprised to see
+anyone else walking here.  There is a faint odor in the air.  It smells like
+meat cooking over a large fire.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3204 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3202 0 0 0 0 0 0 0 0
+S
+#3204
+Nearing a Que-Shu Village~
+   This path leads to a Que-Shu village to the east, and to the open Que-Shu
+plains to the west.  The village is encircled by a large stone wall.  The
+plainsmen are semi-nomadic, but with the difficult times spreading through
+Krynn in the past three hundred years, have settled down for protection.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3205 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3203 0 0 0 0 0 0 0 0
+S
+#3205
+Standing in Front of a Que-Shu Village~
+   This village is surrounded by a stone wall to keep out unwanted visitors and
+thieves.  It is not large, but there are many tents pitched within its walls.
+All around the open plains stretch for miles, and the Eastwall Mountains rise
+up on the eastern horizon.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3206 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3204 0 0 0 0 0 0 0 0
+S
+#3206
+Just Inside a Que-Shu Village~
+   The horrors of the world today come home as you step into this village.  
+Living as best they can, these people survive by sheer force of will.  Strong
+and proud, they look at you with a defiant nature as you enter their home.  
+The village consists mostly of grass, countless tents set up around its edges,
+and a few stone buildings.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3221 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3205 0 0 0 0 0 0 0 0
+S
+#3207
+A Path to the Tents~
+   This small side path leads away from the main gravel path to the north.  
+Barbarians walk along the path, heading for their tents located to the south.
+The sound of laughter can be heard from here.  As you look closer, you see a
+few children playing.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3222 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3208 0 0 0 0 0 0 0 0
+S
+#3208
+Among The Tents~
+   This small side path leads away from the main gravel path to the north.  
+Barbarians walk along the path, heading for their tents located to the east and
+west.  The sound of laughter can be heard from here.  As you look closer, you
+see a few children playing.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3207 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3209 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3211 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3210 0 0 0 0 0 0 0 0
+S
+#3209
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 0 h 0 0 0
+D3
+~
+~
+0 0 3208 0 0 0 0 0 0 0 0
+S
+#3210
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 d h 0 0 0
+D1
+~
+~
+0 0 3208 0 0 0 0 0 0 0 0
+S
+#3211
+Among The Tents~
+   This small side path leads away from the main gravel path to the north.  
+Barbarians walk along the path, heading for their tents located to the east and
+west.  The sound of laughter can be heard from here.  As you look closer, you
+see a few children playing.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3208 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3213 0 0 0 0 0 0 0 0
+S
+#3212
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 0 h 0 0 0
+D3
+~
+~
+0 0 3211 0 0 0 0 0 0 0 0
+S
+#3213
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3211 0 0 0 0 0 0 0 0
+S
+#3214
+A Path to the Tents~
+   This small side path leads away from the main gravel path to the south.  
+Barbarians walk along the path, heading for their tents located to the south.
+The sound of laughter can be heard from here.  As you look closer, you see a
+few children playing.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3215 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3222 0 0 0 0 0 0 0 0
+S
+#3215
+A Path to the Tents~
+   This small side path leads away from the main gravel path to the east and
+west.  Barbarians walk along the path, heading for their tents located to the
+south.  The sound of laughter can be heard from here.  As you look closer, you
+see a few children playing.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3218 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3216 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3214 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3217 0 0 0 0 0 0 0 0
+S
+#3216
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 0 h 0 0 0
+D3
+~
+~
+0 0 3215 0 0 0 0 0 0 0 0
+S
+#3217
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3215 0 0 0 0 0 0 0 0
+S
+#3218
+A Path to the Tents~
+   This small side path leads away from the main gravel path to the east and
+west.  Barbarians walk along the path, heading for their tents located to the
+south.  The sound of laughter can be heard from here.  As you look closer, you
+see a few children playing.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3219 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3215 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3220 0 0 0 0 0 0 0 0
+S
+#3219
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 0 h 0 0 0
+D3
+~
+~
+0 0 3218 0 0 0 0 0 0 0 0
+S
+#3220
+Inside a Small Tent~
+   This tent is made of animal hide and wood.  A small fire pit rests in the
+center of the tent, to keep the family warm during the harsh winters.  A small
+hole rests in the center of the tent where smoke can escape.  Blankets and
+eating utensils are scattered around the tent.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3218 0 0 0 0 0 0 0 0
+S
+#3221
+A Gravel Path Through the Que-Shu Village~
+   This gravel path leads through the heart of the Que-Shu village.  Small
+rocks have been gathered to ensure that the path is not overrun with weeds that
+sprout up from the ground.  Some distance to the east, the path ends abruptly
+where a seemingly large pit is open in the ground.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 16812 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3222 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3206 0 0 0 0 0 0 0 0
+S
+#3222
+A Gravel Path Through the Que-Shu Village~
+   This gravel path leads through the heart of the Que-Shu village.  Small
+rocks have been gathered to ensure that the path is not overrun with weeds that
+sprout up from the ground.  Some distance to the east, the path ends abruptly
+where a seemingly large pit is open in the ground.  To the north and south are
+paths leading to the tents of the plainsmen.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3214 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3223 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3207 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3221 0 0 0 0 0 0 0 0
+S
+#3223
+A Gravel Path Through the Que-Shu Village~
+   This gravel path leads through the heart of the Que-Shu village.  Small
+rocks have been gathered to ensure that the path is not overrun with weeds that
+sprout up from the ground.  Some distance to the east, the path ends abruptly
+where a seemingly large pit is open in the ground.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3224 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3222 0 0 0 0 0 0 0 0
+S
+#3224
+A Gravel Path Through the Que-Shu Village~
+   This gravel path leads through the heart of the Que-Shu village.  Small
+rocks have been gathered to ensure that the path is not overrun with weeds that
+sprout up from the ground.  To the north is a stone building, where plainsmen
+boys start on their paths to becoming men.    
+~
+32 p h 0 0 0
+D0
+~
+~
+0 0 3225 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3231 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3223 0 0 0 0 0 0 0 0
+S
+#3225
+The Central Square of a Small Building~
+   The floor of this courtyard has been laid with smooth stone that fits
+together flawlessly.  There are three doors heading into the building, one in
+each direction except the way back to the path.  There are large carvings cut
+into the side of the building, but what they represent is difficult to tell.  
+~
+32 0 h 0 0 0
+D0
+~
+door~
+1 0 3227 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 3228 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3224 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3226 0 0 0 0 0 0 0 0
+S
+#3226
+Along A Short Corridor in a Small Stone Building~
+   The walls of this hallway are lined with various weapons.  The walls are
+made of hard stone with carvings cut into them.  The structure appears to be
+one solid piece, but there must have been several stones fit together to create
+a building of this size.    
+~
+32 d h 0 0 0
+D0
+~
+~
+0 0 3230 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 3225 0 0 0 0 0 0 0 0
+S
+#3227
+Along A Short Corridor in a Small Stone Building~
+   The walls of this hallway are lined with various weapons.  The walls are
+made of hard stone with carvings cut into them.  The structure appears to be
+one solid piece, but there must have been several stones fit together to create
+a building of this size.  A row of beds is set here, for the young warriors in
+trying to sleep.    
+~
+32 d h 0 0 0
+D1
+~
+~
+0 0 3229 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 3225 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3230 0 0 0 0 0 0 0 0
+S
+#3228
+Along A Short Corridor in a Small Stone Building~
+   The walls of this hallway are lined with various weapons.  The walls are
+made of hard stone with carvings cut into them.  The structure appears to be
+one solid piece, but there must have been several stones fit together to create
+a building of this size.    
+~
+32 d h 0 0 0
+D0
+~
+~
+0 0 3229 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3225 0 0 0 0 0 0 0 0
+S
+#3229
+Along A Short Corridor in a Small Stone Building~
+   The walls of this hallway are lined with various weapons.  The walls are
+made of hard stone with carvings cut into them.  The structure appears to be
+one solid piece, but there must have been several stones fit together to create
+a building of this size.    
+~
+32 d h 0 0 0
+D2
+~
+~
+0 0 3228 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3227 0 0 0 0 0 0 0 0
+S
+#3230
+Along A Short Corridor in a Small Stone Building~
+   The walls of this hallway are lined with various weapons.  The walls are
+made of hard stone with carvings cut into them.  The structure appears to be
+one solid piece, but there must have been several stones fit together to create
+a building of this size.    
+~
+32 d h 0 0 0
+D1
+~
+~
+0 0 3227 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3226 0 0 0 0 0 0 0 0
+S
+#3231
+A Gravel Path Through the Que-Shu Village~
+   This gravel path leads through the heart of the Que-Shu village.  Small
+rocks have been gathered to ensure that the path is not overrun with weeds that
+sprout up from the ground.  To the south is a stone building where the
+plainsmen bring those that are sick to be spiritually healed by the village
+medicine man.    
+~
+32 p h 0 0 0
+D1
+~
+~
+0 0 3241 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3232 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3224 0 0 0 0 0 0 0 0
+S
+#3232
+In Front of a Short Staircase~
+   The staircase is made of a solid, grey stone the origins of which are not
+apparent.  It leads up to a large, stone building that is some sort of healing
+hut for the plainsmen.  A few pots of herbs have been set on the sides of the
+staircase, revealing a refreshing scent.    
+~
+32 p h 0 0 0
+D0
+~
+~
+0 0 3231 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3233 0 0 0 0 0 0 0 0
+S
+#3233
+Standing on a Small Staircase~
+   You stand on a staircase made of a solid, grey stone.  Below you is a small
+path that leads back to the main path near the Sunken Arena.  There are small
+pots of herbs set down near the sides of the staircase, giving off a fresh
+scent.  As you near the door to the building, the reason for the covering odor
+becomes more obvious.    
+~
+32 0 h 0 0 0
+D4
+~
+~
+0 0 3234 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3232 0 0 0 0 0 0 0 0
+S
+#3234
+In a Small, Round Chamber~
+   This chamber has a few beds set up within it for the sick to wait for the
+medicine man to be ready to see them.  There is an odor of sickness and decay
+prevalent in this room which makes you feel queazy to stand here.  There are
+two hallways leading to the south and west, and a smaller room to the
+southwest.    
+~
+32 d h 0 0 0
+D2
+~
+~
+0 0 3235 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3237 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3233 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3236 0 0 0 0 0 0 0 0
+S
+#3235
+A Short Corridor~
+   This short corridor ends almost as abruptly as it began here.  A door has
+been set in the western wall, and is closed tight.  The floor of the hallway is
+laid with a green and red rug, with swirling design patterns that give the room
+an artistic feel.    
+~
+32 d h 0 0 0
+D0
+~
+~
+0 0 3234 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 3240 0 0 0 0 0 0 0 0
+S
+#3236
+Among Some Chairs~
+   This is a waiting area for families who have sick people in the building to
+bide their time.  There are small wooden stools here, fashioned into a shape
+that looks somewhat like a chair.  Rugs cover the floor, depicting abstract
+artistic patterns of the plainsmen.    
+~
+32 d h 0 0 0
+D7
+~
+~
+0 0 3234 0 0 0 0 0 0 0 0
+S
+#3237
+A Short Hallway~
+   This short hallway leads from the outer chamber to the east, to the chamber
+of the sick to the west.  There is only bare cold stone beneath your feet,
+making it difficult to move quietly for those without the skills.    
+~
+32 d h 0 0 0
+D1
+~
+~
+0 0 3234 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3238 0 0 0 0 0 0 0 0
+S
+#3238
+The End of the Hallway~
+   Just to the south of here is a room filled with the stench of decay.  Loud
+gibberish sounds can be heard coming from inside the room.  Every few moments a
+bright flash of light fills the room, causing the shadows to flee in its
+brilliance.    
+~
+32 d h 0 0 0
+D1
+~
+~
+0 0 3237 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3239 0 0 0 0 0 0 0 0
+S
+#3239
+A Room Full of Herbs~
+   A small bed has been set in the center of this room.  A yellowish stain
+appears on the bed, probably from some sort of medicine the doctor uses on his
+patients.  There are pots filled with herbs and various sorts of powder set all
+around the room.  A small window in the northern wall reveals a trickle of
+sunlight during the day.  The light allows the doctor to work but does not hurt
+the eyes of his sick patients.    
+~
+32 d h 0 0 0
+D0
+~
+~
+0 0 3238 0 0 0 0 0 0 0 0
+S
+#3240
+A Makeshift Supply Closet~
+   Shelves filled with herbs, bandages and other medicinal supplies fill up
+this closet.  Apparently, the closet has not been used in a long time, which is
+strange with the sickness that fills the land.  Dust covers most of the objects
+in the room.    
+~
+32 d h 0 0 0
+D1
+~
+door~
+1 0 3235 0 0 0 0 0 0 0 0
+S
+#3241
+The Edge of a Gravel Path~
+   The path ends here as a stairway leads down into a Sunken Arena.  On either
+side of the area are seats with a few spectators gathered to watch the fight
+happening below.  The stairs appear sturdy, but how they were brought here or
+cut into the stone is a mystery that noone inthe village can remember.    
+~
+32 p h 0 0 0
+D3
+~
+~
+0 0 3231 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3242 0 0 0 0 0 0 0 0
+S
+#3242
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that no one in the village can
+remember.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3243 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3241 0 0 0 0 0 0 0 0
+S
+#3243
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that no one in the village can
+remember.    
+~
+32 c h 0 0 0
+D3
+~
+~
+0 0 3242 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3244 0 0 0 0 0 0 0 0
+S
+#3244
+The Level of the Sunken Arena~
+   Ths arena floor is stone but sand and other debris causes the footing here
+to be difficult to manage.  A large bowl of seats surrounds you, and spectators
+look down with jeers for interrupting the match of the contestants.  The
+fighters in this arena apparently do not fight to the death, but contest here
+as a rite of passage to manhood.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3245 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3243 0 0 0 0 0 0 0 0
+S
+#3245
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3246 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3248 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3247 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3244 0 0 0 0 0 0 0 0
+S
+#3246
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3249 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3245 0 0 0 0 0 0 0 0
+S
+#3247
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3245 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3250 0 0 0 0 0 0 0 0
+S
+#3248
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3249 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3254 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3250 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3245 0 0 0 0 0 0 0 0
+S
+#3249
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3251 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3255 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3248 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3246 0 0 0 0 0 0 0 0
+S
+#3250
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3248 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3253 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3252 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3247 0 0 0 0 0 0 0 0
+S
+#3251
+The Level of the Sunken Arena~
+   Ths arena floor is stone but sand and other debris causes the footing here
+to be difficult to manage.  A large bowl of seats surrounds you, and spectators
+look down with jeers for interrupting the match of the contestants.  The
+fighters in this arena apparently do not fight to the death, but contest here
+as a rite of passage to manhood.    
+~
+32 0 h 0 0 0
+D2
+~
+~
+0 0 3249 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3257 0 0 0 0 0 0 0 0
+S
+#3252
+The Level of the Sunken Arena~
+   Ths arena floor is stone but sand and other debris causes the footing here
+to be difficult to manage.  A large bowl of seats surrounds you, and spectators
+look down with jeers for interrupting the match of the contestants.  The
+fighters in this arena apparently do not fight to the death, but contest here
+as a rite of passage to manhood.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3250 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3282 0 0 0 0 0 0 0 0
+S
+#3253
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3254 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3250 0 0 0 0 0 0 0 0
+S
+#3254
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3255 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3256 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3253 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3248 0 0 0 0 0 0 0 0
+S
+#3255
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D2
+~
+~
+0 0 3254 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3249 0 0 0 0 0 0 0 0
+S
+#3256
+Inside the Sunken Arena~
+   Ths arena floor is hard stone but debris and sand make the footing
+precarious.  The circular floor of the fighting area is about thirty feet in
+diameter.  A small crowd has gathered in the seats around the arena to watch
+the boys test their skill in becoming men.    
+~
+32 0 h 0 0 0
+D3
+~
+~
+0 0 3254 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3270 0 0 0 0 0 0 0 0
+S
+#3257
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that no one in the village can
+remember.    
+~
+32 c h 0 0 0
+D0
+~
+~
+0 0 3258 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3251 0 0 0 0 0 0 0 0
+S
+#3258
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that no one in the village can
+remember.    
+~
+32 0 h 0 0 0
+D2
+~
+~
+0 0 3257 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3259 0 0 0 0 0 0 0 0
+S
+#3259
+The Edge of the Path~
+   The path ends here as a stairway leads down into a Sunken Arena.  On either
+side of the area are seats with a few spectators gathered to watch the fight
+happening below.  The stairs appear sturdy, but how they were brought here or
+cut into the stone is a mystery that noone inthe village can remember.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3260 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3258 0 0 0 0 0 0 0 0
+S
+#3260
+A Short Gravel Path~
+   This short path leads from an arena sunk down into the ground to some sort
+of large stone building found in the north.  The building seems somewhat
+circular with a small dome on top of it.  Behind the building, along a circular
+wall surrounding the village, are more tents where the plainsmen stay in safety
+during the night.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3259 0 0 0 0 0 0 0 0
+S
+#3261
+A Short Gravel Path~
+   This short path leads from an arena sunk down into the ground to some sort
+of large stone building found in the north.  The building seems somewhat
+circular with a small dome on top of it.  Behind the building, along a circular
+wall surrounding the village, are more tents where the plainsmen stay in safety
+during the night.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3262 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3260 0 0 0 0 0 0 0 0
+S
+#3262
+Near an Ancestor's Temple~
+   Ths stone building to the north has strange designs carved all around its
+sides.  A large dome rests on it top, which appears like a roof.  The dome has
+openings alongs its edge however which allow the elements of nature to enter
+the temple and purify the worshipers.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3263 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3261 0 0 0 0 0 0 0 0
+S
+#3263
+Inside an Ancestor's Temple~
+   This temple was built more then a century ago in the days following the
+Cataclysm.  Four large pillars support a large domed ceiling.  The ceiling has
+a carving of the first elder to be venerated by the plainsmen, and is purely
+ornamental.  The elements of nature still enter the temple through a gap
+between the ceiling and the walls, purifying the worshippers inside.    
+~
+32 d h 0 0 0
+D0
+~
+~
+0 0 3264 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3262 0 0 0 0 0 0 0 0
+S
+#3264
+Atop a Small Dais~
+   This small dais is raised almost ten feet from the floor below.  The
+chieftain of the tribe sits here while worship takes place to ensure his
+dominance is held in check during rituals.  A small stairway leads from the
+dais to an upper chamber, and there is a door to the right with a wooden frame.
+~
+32 d h 0 0 0
+D1
+~
+door~
+1 0 3269 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3263 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3265 0 0 0 0 0 0 0 0
+S
+#3265
+Walking Up a Siral Staircase~
+   Ths stairway is of amazing craftsmanship.  Solid stone has been cut into an
+apparent solid piece to construct a stairway leading to small upper level
+within the domed ceiling.  To your right and left are the gaps between the
+ceiling and the edges of the wall, and a breeze of cool air blows past you.  
+~
+32 d h 0 0 0
+D4
+~
+~
+0 0 3266 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3264 0 0 0 0 0 0 0 0
+S
+#3266
+Atop a Small Staircase~
+   Only the Chieftain of the tribe is allowed to be in this level of the
+temple, where it is said the spirits of past Chieftains come to visit.  Small
+stone jars are laid about the sides of the room, apparently housing the ashes
+of the deceased.    
+~
+32 d h 0 0 0
+D1
+~
+~
+0 0 3267 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3265 0 0 0 0 0 0 0 0
+S
+#3267
+A Plain, Circular Room~
+   Small maps and other parchments clutter up a table in the center of this
+room.  It is a strange room, because from the outside of the temple there is no
+room for this room to exist.  Looking out the ground seems perfectly natural,
+and you would guess the work of magic but for the strong mistrust of true magic
+by the plainsmen.    
+~
+32 d h 0 0 0
+D3
+~
+~
+0 0 3266 0 0 0 0 0 0 0 0
+D5
+~
+secret~
+1 3218 3268 0 0 0 0 0 0 0 0
+E
+secret~
+As you gaze closer at the secret door, you see a strange script upon it:
+     The leather pouch is the key to all who wish to enter.
+
+~
+S
+#3268
+Inside the Secret Chamber~
+   A large floor rug lies in the center of the floor with an odd contrast to
+the rest of the room.  The rug has a small flower pattern alongs its edges,
+while the rest of the room looks dark and bleak.  A small offering table rests
+against the northern wall with a small pile of bones near its front edge.    
+~
+32 d h 0 0 0
+D4
+~
+secret~
+1 3218 3267 0 0 0 0 0 0 0 0
+S
+#3269
+A Circular Worship Area~
+   This small room has a rug enlaid with fine gold laying across its floor.  A
+small, circular window rests in the northern wall, allowing elements of nature
+to enter the worship space.  This room is reserved for members of the
+Chieftain's Family to worship the head of their household.    
+~
+32 d h 0 0 0
+D3
+~
+door~
+1 0 3264 0 0 0 0 0 0 0 0
+S
+#3270
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that no one in the village can
+remember.    
+~
+32 c h 0 0 0
+D1
+~
+~
+0 0 3271 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3256 0 0 0 0 0 0 0 0
+S
+#3271
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that no one in the village can
+remember.    
+~
+32 0 h 0 0 0
+D3
+~
+~
+0 0 3270 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3272 0 0 0 0 0 0 0 0
+S
+#3272
+The Edge of the Path~
+   The path ends here as a stairway leads down into a Sunken Arena.  On either
+side of the area are seats with a few spectators gathered to watch the fight
+happening below.  The stairs appear sturdy, but how they were brought here or
+cut into the stone is a mystery that noone in the village can remember.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3273 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3271 0 0 0 0 0 0 0 0
+S
+#3273
+A Short, Gravel Path~
+   The path you walk on has gravel spread out across it to keep the grass and
+weeds from growing along it.  The area is wide open and clear, and from here
+you get a good view of the entire village.  A large circular wall surrounds the
+village, keeping out unwanted intruders.  The path leads from the sunken arena
+to the west, to another stone building to the east.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3294 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3274 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3272 0 0 0 0 0 0 0 0
+S
+#3274
+A Short, Gravel Path~
+   The path you walk on has gravel spread out across it to keep the grass and
+weeds from growing along it.  The area is wide open and clear, and from here
+you get a good view of the entire village.  A large circular wall surrounds the
+village, keeping out unwanted intruders.  The path leads from the sunken arena
+to the west, to another stone building to the east.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3275 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3273 0 0 0 0 0 0 0 0
+S
+#3275
+Near an Ancestor's Temple~
+   The path you walk on has gravel spread out across it to keep the grass and
+weeds from growing along it.  The area is wide open and clear, and from here
+you get a good view of the entire village.  A large stone building rests to the
+east, and the path continues back towards the west.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3276 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3303 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3274 0 0 0 0 0 0 0 0
+S
+#3276
+Inside an Ancestor's Temple~
+   A few rugs are set around the cold floor.  This temple is used to venerate
+the Chieftain and his ancestors.  A small, circular dais has been raised up off
+the floor to the east.  A cool breeze flows into the room from a gap between
+the ceiling and the walls around the room.    
+~
+32 d h 0 0 0
+D1
+~
+~
+0 0 3277 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3275 0 0 0 0 0 0 0 0
+S
+#3277
+Atop A Circular Dais~
+   This circular dais is raised about six feet from the floor below.  In the
+center of the pit is a hole with flames flickering along its surface.  The hole
+leads to a room with erupting flames all along its sides.  Strangely you hear
+moaning sounds coming from the inside the hole, although apparently no one is
+inside.    
+~
+32 d h 0 0 0
+D3
+~
+~
+0 0 3276 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3278 0 0 0 0 0 0 0 0
+S
+#3278
+The Chamber of Fire~
+   Flames dance all around the room searing your flesh.  Surprisingly, the
+walls are not smooth but have large mouths in them, each covered by a large
+stone.  The stone seems small enough to roll out of the way, but it may not be
+worth the time with the flames burning you alive.    
+~
+32 dr h 0 0 0
+D0
+~
+stone~
+1 3302 3279 0 0 0 0 0 0 0 0
+D1
+~
+stone~
+1 3302 3280 0 0 0 0 0 0 0 0
+D2
+~
+stone~
+1 3302 3281 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3277 0 0 0 0 0 0 0 0
+S
+#3279
+A Hidden Chamber~
+   There are wild markings on each side of this room, depicting battle scenes
+and other atrocities of life.  Blood oozes slowly from the ceiling, having
+collected in a system from sacrifices made by the Chieftain.  Oddly, this room
+is not even warm from the flames roaring just a few feet outside.    
+~
+32 d h 0 0 0
+D2
+~
+stone~
+1 3302 3278 0 0 0 0 0 0 0 0
+S
+#3280
+A Hidden Chamber~
+   There are wild markings on each side of this room, depicting battle scenes
+and other atrocities of life.  Blood oozes slowly from the ceiling, having
+collected in a system from sacrifices made by the Chieftain.  Oddly, this room
+is not even warm from the flames roaring just a few feet outside.    
+~
+32 d h 0 0 0
+D3
+~
+stone~
+1 3302 3278 0 0 0 0 0 0 0 0
+S
+#3281
+A Hidden Chamber~
+   There are wild markings on each side of this room, depicting battle scenes
+and other atrocities of life.  Blood oozes slowly from the ceiling, having
+collected in a system from sacrifices made by the Chieftain.  Oddly, this room
+is not even warm from the flames roaring just a few feet outside.    
+~
+32 d h 0 0 0
+D0
+~
+door~
+1 3302 3278 0 0 0 0 0 0 0 0
+S
+#3282
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that noone in the village can remember.
+~
+32 c h 0 0 0
+D2
+~
+~
+0 0 3283 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3252 0 0 0 0 0 0 0 0
+S
+#3283
+A Staircase Between the Seats~
+   This staircase leads from the path above to the Sunken Arena below.  On each
+side of the staircase are seats where spectators watch the fighting that is
+going on in the arena.  The stairs appear sturdy, but how they were brought
+here or cut into the stone is a mystery that noone in the village can remember.
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3282 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3284 0 0 0 0 0 0 0 0
+S
+#3284
+The Edge of the Path~
+   The path ends here as a stairway leads down into a Sunken Arena.  On either
+side of the area are seats with a few spectators gathered to watch the fight
+happening below.  The stairs appear sturdy, but how they were brought here or
+cut into the stone is a mystery that noone in the village can remember.    
+~
+32 0 h 0 0 0
+D2
+~
+~
+0 0 3285 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3283 0 0 0 0 0 0 0 0
+S
+#3285
+Wandering Through the Village~
+   A narrow path wanders through the village that leads from the large, sunken
+arena in the north to a stone structure in the south.  The path is still
+covered with grass, but numerous broken blades and beaten down patches mark a
+definite trail across an open field.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3284 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3286 0 0 0 0 0 0 0 0
+S
+#3286
+Wandering Through the Village~
+   A narrow path wanders through the village that leads from the large, sunken
+arena in the north to a stone structure in the south.  The path is still
+covered with grass, but numerous broken blades and beaten down patches mark a
+definite trail across an open field.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3285 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3287 0 0 0 0 0 0 0 0
+S
+#3287
+Wandering Through the Village~
+   A narrow path wanders through the village that leads from the large, sunken
+arena in the north to a stone structure in the south.  The path is still
+covered with grass, but numerous broken blades and beaten down patches mark a
+definite trail across an open field.    
+~
+32 c h 0 0 0
+D1
+~
+~
+0 0 3286 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3288 0 0 0 0 0 0 0 0
+S
+#3288
+Near a Large Fire Pit~
+   A large stone ceiling gives some shelter over a large stone slab here.  The
+plainsmen use this enclosure for feasts that they hold at various times
+throughout the year.  To the south is a large fire pit with some food roasting
+above it.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3287 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3291 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3289 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3290 0 0 0 0 0 0 0 0
+S
+#3289
+Standing in the Fire Pit~
+   Hot coals burn under your feet as you stand in the center of a large fire.
+The flames seem to stick to your skin and you smell your flesh begin to burn.
+The plainsmen look at you in amazement for a few seconds and then begin to
+laugh at you hysterically.    
+~
+32 dr h 0 0 0
+D0
+~
+~
+0 0 3288 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3293 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3292 0 0 0 0 0 0 0 0
+S
+#3290
+The Edge of the Feasting Area~
+   This is the eastern side of the feasting area.  A few blankets have been
+spread along the ground for people to sit on while they enjoy their meals.  
+Large wooden bowls and other eating devices have been set out for use during
+the meal.  The atmosphere here is pleasant and peaceful.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3288 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3292 0 0 0 0 0 0 0 0
+S
+#3291
+The Edge of the Feasting Area~
+   This is the eastern side of the feasting area.  A few blankets have been
+spread along the ground for people to sit on while they enjoy their meals.  
+Large wooden bowls and other eating devices have been set out for use during
+the meal.  The atmosphere here is pleasant and peaceful.    
+~
+32 0 h 0 0 0
+D2
+~
+~
+0 0 3293 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3288 0 0 0 0 0 0 0 0
+S
+#3292
+Under a Large Roof~
+   This is the eastern side of the feasting area.  A few blankets have been
+spread along the ground for people to sit on while they enjoy their meals.  
+Large wooden bowls and other eating devices have been set out for use during
+the meal.  The atmosphere here is pleasant and peaceful.    
+~
+32 d h 0 0 0
+D0
+~
+~
+0 0 3290 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3289 0 0 0 0 0 0 0 0
+S
+#3293
+Under a Large Roof~
+   This is the eastern side of the feasting area.  A few blankets have been
+spread along the ground for people to sit on while they enjoy their meals.  
+Large wooden bowls and other eating devices have been set out for use during
+the meal.  The atmosphere here is pleasant and peaceful.    
+~
+32 d h 0 0 0
+D0
+~
+~
+0 0 3291 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3289 0 0 0 0 0 0 0 0
+S
+#3294
+Heading for the Village Hall~
+   The path you walk on has gravel spread out across it to keep the grass and
+weeds from growing along it.  The area is wide open and clear, and from here
+you get a good view of the entire village.  A large circular wall surrounds the
+village, keeping out unwanted intruders.  To the north is a stone structure
+that serves as the village hall.  The elders of the tribe meet there to discuss
+the future and debate justice.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3295 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3273 0 0 0 0 0 0 0 0
+S
+#3295
+Near the Village Hall~
+   The path you walk on has gravel spread out across it to keep the grass and
+weeds from growing along it.  The area is wide open and clear, and from here
+you get a good view of the entire village.  A large circular wall surrounds the
+village, keeping out unwanted intruders.  To the west is a stone structure that
+serves as the village hall.  The elders of the tribe meet there to discuss the
+future and debate justice.    
+~
+32 0 h 0 0 0
+D2
+~
+~
+0 0 3294 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3296 0 0 0 0 0 0 0 0
+S
+#3296
+In Front of the Village Hall~
+   The village hall rests just to the north of here.  A small step leads up to
+a stone floor that is smooth and flawless.  From here it is difficult to make
+out the inside of the hall, but the roof seems to have a triangular shape to
+it.  Four columns stand in front of the hall depicting battle scenes that were
+victories for the plainsmen in days long past.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3297 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3295 0 0 0 0 0 0 0 0
+S
+#3297
+The Central Plaza of the Village Hall~
+   The stone floor is cold and hard on your feet.  Despite the discomfort
+however you marvel at the beauty of its unflawed, perfect symmetry.  To the
+north is a long row of rugs where the village elders sit, and to the east and
+west are other places to sit so the people can watch the discussions.    
+~
+32 0 h 0 0 0
+D0
+~
+~
+0 0 3298 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3296 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3301 0 0 0 0 0 0 0 0
+S
+#3298
+A Row of Seats~
+   A long row of artistic rugs have been placed here for the elders of the
+tribe to sit and discuss the affairs that threaten the survival of the
+plainsmen.  A few pitchers of a spicy kind of wine are placed near each
+blanket.  The elders enjoy warming themselves with the fine spirits while they
+speak.    
+~
+32 0 h 0 0 0
+D1
+~
+~
+0 0 3299 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3297 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3300 0 0 0 0 0 0 0 0
+S
+#3299
+A Row of Seats~
+   A long row of artistic rugs have been placed here for the elders of the
+tribe to sit and discuss the affairs that threaten the survival of the
+plainsmen.  A few pitchers of a spicy kind of wine are placed near each
+blanket.  The elders enjoy warming themselves with the fine spirits while they
+speak.    
+~
+32 0 h 0 0 0
+D2
+~
+~
+0 0 3302 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3298 0 0 0 0 0 0 0 0
+S
+$~

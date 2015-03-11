@@ -1,0 +1,1667 @@
+#10600
+The Temple of Ubtao~
+You are in an unfinished room.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10636 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10601 0 0 0 0 0 0 0 0
+S
+#10601
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10602 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10600 0 0 0 0 0 0 0 0
+S
+#10602
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10603 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10601 0 0 0 0 0 0 0 0
+S
+#10603
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10604 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10602 0 0 0 0 0 0 0 0
+S
+#10604
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10605 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10603 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10637 0 0 0 0 0 0 0 0
+S
+#10605
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10606 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10604 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10638 0 0 0 0 0 0 0 0
+S
+#10606
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10608 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10605 0 0 0 0 0 0 0 0
+S
+#10607
+@GJade Entrance@n~
+This entrance is surrounded by carvings and inscirptions of Yuan-ti. The lizard people are represented in paintings and descriptions all around... with outstanding accuracy. It is almost like yuan-ti carved this place, and still mantain it to this day.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10693 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10695 0 0 0 0 0 0 0 0
+S
+#10608
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10609 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10606 0 0 0 0 0 0 0 0
+S
+#10609
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10610 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10608 0 0 0 0 0 0 0 0
+S
+#10610
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10611 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10609 0 0 0 0 0 0 0 0
+S
+#10611
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10612 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10610 0 0 0 0 0 0 0 0
+S
+#10612
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10613 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10611 0 0 0 0 0 0 0 0
+S
+#10613
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10614 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10612 0 0 0 0 0 0 0 0
+S
+#10614
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10615 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10613 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10645 0 0 0 0 0 0 0 0
+S
+#10615
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10616 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10614 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10646 0 0 0 0 0 0 0 0
+S
+#10616
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10617 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10615 0 0 0 0 0 0 0 0
+S
+#10617
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10618 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10616 0 0 0 0 0 0 0 0
+S
+#10618
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10619 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10617 0 0 0 0 0 0 0 0
+S
+#10619
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D2
+~
+~
+0 0 10618 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10620 0 0 0 0 0 0 0 0
+S
+#10620
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10619 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10621 0 0 0 0 0 0 0 0
+S
+#10621
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10620 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10622 0 0 0 0 0 0 0 0
+S
+#10622
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10621 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10623 0 0 0 0 0 0 0 0
+S
+#10623
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10622 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10624 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10652 0 0 0 0 0 0 0 0
+S
+#10624
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10623 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10625 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10653 0 0 0 0 0 0 0 0
+S
+#10625
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10624 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10626 0 0 0 0 0 0 0 0
+S
+#10626
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10625 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10627 0 0 0 0 0 0 0 0
+S
+#10627
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10628 0 0 0 0 0 0 0 0
+S
+#10628
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10627 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10629 0 0 0 0 0 0 0 0
+S
+#10629
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10628 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10630 0 0 0 0 0 0 0 0
+S
+#10630
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10629 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10631 0 0 0 0 0 0 0 0
+S
+#10631
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10630 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10632 0 0 0 0 0 0 0 0
+S
+#10632
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10631 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10633 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10659 0 0 0 0 0 0 0 0
+S
+#10633
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10634 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10660 0 0 0 0 0 0 0 0
+S
+#10634
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10633 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10635 0 0 0 0 0 0 0 0
+S
+#10635
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10634 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10636 0 0 0 0 0 0 0 0
+S
+#10636
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10635 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10600 0 0 0 0 0 0 0 0
+S
+#10637
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10638 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10665 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10666 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10604 0 0 0 0 0 0 0 0
+S
+#10638
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10639 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10637 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10667 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10605 0 0 0 0 0 0 0 0
+S
+#10639
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10641 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10638 0 0 0 0 0 0 0 0
+S
+#10640
+@YGolden Entrance@n~
+The entrance dedicated to the God Ubtao himself. All the paintings and inscriptions have a golden sheen to them. The entrance is well illuminated, and the walls are covered in the history of Chult.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10692 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10690 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#10641
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10642 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10639 0 0 0 0 0 0 0 0
+S
+#10642
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10643 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10641 0 0 0 0 0 0 0 0
+S
+#10643
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10644 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10642 0 0 0 0 0 0 0 0
+S
+#10644
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10645 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10643 0 0 0 0 0 0 0 0
+S
+#10645
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10646 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10644 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10671 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10614 0 0 0 0 0 0 0 0
+S
+#10646
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10647 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10645 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10672 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10615 0 0 0 0 0 0 0 0
+S
+#10647
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10648 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10646 0 0 0 0 0 0 0 0
+S
+#10648
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10649 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10647 0 0 0 0 0 0 0 0
+S
+#10649
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D2
+~
+~
+0 0 10648 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10650 0 0 0 0 0 0 0 0
+S
+#10650
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10649 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10651 0 0 0 0 0 0 0 0
+S
+#10651
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10650 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10652 0 0 0 0 0 0 0 0
+S
+#10652
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10651 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10653 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10676 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10623 0 0 0 0 0 0 0 0
+S
+#10653
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10652 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10654 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10677 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10624 0 0 0 0 0 0 0 0
+S
+#10654
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10653 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10655 0 0 0 0 0 0 0 0
+S
+#10655
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10654 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10656 0 0 0 0 0 0 0 0
+S
+#10656
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10655 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10657 0 0 0 0 0 0 0 0
+S
+#10657
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10656 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10658 0 0 0 0 0 0 0 0
+S
+#10658
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10657 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10659 0 0 0 0 0 0 0 0
+S
+#10659
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10658 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10660 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10681 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10632 0 0 0 0 0 0 0 0
+S
+#10660
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10659 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10661 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10682 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10633 0 0 0 0 0 0 0 0
+S
+#10661
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10660 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10662 0 0 0 0 0 0 0 0
+S
+#10662
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10661 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10663 0 0 0 0 0 0 0 0
+S
+#10663
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10662 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10664 0 0 0 0 0 0 0 0
+S
+#10664
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10665 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10663 0 0 0 0 0 0 0 0
+S
+#10665
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10637 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10664 0 0 0 0 0 0 0 0
+S
+#10666
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10667 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10685 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10686 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10637 0 0 0 0 0 0 0 0
+S
+#10667
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10666 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10687 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10638 0 0 0 0 0 0 0 0
+S
+#10668
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10669 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10667 0 0 0 0 0 0 0 0
+S
+#10669
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10670 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10668 0 0 0 0 0 0 0 0
+S
+#10670
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10671 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10669 0 0 0 0 0 0 0 0
+S
+#10671
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10672 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10670 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10689 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10645 0 0 0 0 0 0 0 0
+S
+#10672
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10673 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10671 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10690 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10646 0 0 0 0 0 0 0 0
+S
+#10673
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10674 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10672 0 0 0 0 0 0 0 0
+S
+#10674
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D2
+~
+~
+0 0 10673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10675 0 0 0 0 0 0 0 0
+S
+#10675
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10674 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10676 0 0 0 0 0 0 0 0
+S
+#10676
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10675 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10677 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10692 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10652 0 0 0 0 0 0 0 0
+S
+#10677
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10676 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10678 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10693 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10653 0 0 0 0 0 0 0 0
+S
+#10678
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10677 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10679 0 0 0 0 0 0 0 0
+S
+#10679
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10678 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10680 0 0 0 0 0 0 0 0
+S
+#10680
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10679 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10681 0 0 0 0 0 0 0 0
+S
+#10681
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10680 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10682 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10695 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10659 0 0 0 0 0 0 0 0
+S
+#10682
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10681 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10683 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10696 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10660 0 0 0 0 0 0 0 0
+S
+#10683
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10682 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10684 0 0 0 0 0 0 0 0
+S
+#10684
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10683 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10685 0 0 0 0 0 0 0 0
+S
+#10685
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10666 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10684 0 0 0 0 0 0 0 0
+S
+#10686
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10698 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10687 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10697 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10666 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#10687
+Southern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10699 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10688 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10686 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10667 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#10688
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10689 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10687 0 0 0 0 0 0 0 0
+S
+#10689
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10690 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10688 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10699 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10671 0 0 0 0 0 0 0 0
+S
+#10690
+Eastern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10691 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10689 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10640 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10672 0 0 0 0 0 0 0 0
+S
+#10691
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D2
+~
+~
+0 0 10690 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10692 0 0 0 0 0 0 0 0
+S
+#10692
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10691 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10640 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10693 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10676 0 0 0 0 0 0 0 0
+S
+#10693
+Northern Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10692 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10607 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10694 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10677 0 0 0 0 0 0 0 0
+S
+#10694
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10693 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10695 0 0 0 0 0 0 0 0
+S
+#10695
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10694 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10607 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10696 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10681 0 0 0 0 0 0 0 0
+S
+#10696
+Western Stairs of the Pyramid~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10695 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10698 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10697 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10682 0 0 0 0 0 0 0 0
+S
+#10697
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 0 0 0 0 0
+D0
+~
+~
+0 0 10696 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10686 0 0 0 0 0 0 0 0
+S
+#10698
+@WSh@Dad@Wow Entrance @n~
+The entrance to the pyramid dedicated to the battle between Ubtao and Eshodow.  This entrance is covered in shadows all around, and it can almost be felt the presence of something, in the dark.
+~
+106 0 0 0 0 0
+D2
+~
+~
+0 0 10686 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10696 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10700 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#10699
+@RScarlet Entrance@n~
+An entrance with descriptions and paintings of the cat folk of Chult.  The misterious race is represented with vibrant colors and relieves.
+~
+106 0 0 0 0 0
+D1
+~
+~
+0 0 10689 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10687 0 0 0 0 0 0 0 0
+S
+#10700
+New BuildWalk Room~
+This unfinished room was created by Ubtao.
+~
+106 af 0 0 0 0
+D4
+~
+~
+0 0 10698 0 0 0 0 0 0 0 0
+S
+$~

@@ -1,0 +1,27 @@
+#4101
+Mountain Lion~
+A large mountain lion~
+a large mountain lion growls
+~
+The lion looks at you hungrily...licking it's massive mouth.
+~
+bd 0 0 0 0 0 0 0 0
+12 8 -2 144d100+1000 1d1+12
+0 0 135 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 19
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

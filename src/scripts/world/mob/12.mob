@@ -1,0 +1,734 @@
+#1200
+priest earth cultist~
+a earth cultist priest~
+A earth cultist priest walks confidently by here.
+~
+   This priest of the earth cultist religion is wearing light blue robes with white
+trim.  He seems very arrogant and uncaring, and fails to give you the impression
+of what a true priest should be.  
+~
+ad 0 0 0 k 0 0 0 0
+9 20 1 90d90+151 1d8+0
+180 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1201
+guardian earth cultist~
+a guardian earth cultist~
+A guardian earth cultist walks about here watching for trouble.
+~
+   This guardian earth cultist looks a little more robust than most of the other
+individuals roaming about the complex.  He doesn't seem very interested in his
+job, however he is keeping a rather close eye on your as if he finds you
+suspicious.  
+~
+d 0 0 0 k 0 0 0 0
+9 20 1 120d90+151 1d8+0
+180 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1202
+follower earth cultist man young male~
+a earth cultist follower~
+A young man strolls about talking about the earth cultist religion.
+~
+   This young man is clothed in robes and attire similar to that of the earth cultist
+priests, but by his excited looks and quivering voice you can tell that he is
+fairly new to the religion.  He seems willing to initiate conversation with
+anyone that nears him.  
+~
+ad 0 0 0 k 0 0 0 0
+6 20 4 63d60+151 1d8+0
+90 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1203
+follower earth cultist woman young female~
+a earth cultist follower~
+A young woman strolls about talking about the earth cultist religion.
+~
+   This young woman is clothed in robes and attire similar to that of the earth cultist
+priests, but by her excited looks and quivery voice you can tell that she is
+fairly new to the religion.  She seems willing to initiate conversation with
+anyone that nears her.  
+~
+ad 0 0 0 k 0 0 0 0
+6 20 4 63d60+152 1d8+0
+90 0 42 1
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1204
+convert recent earth cultist~
+a earth cultist convert~
+A recent convert of the earth cultist religion is here roaming about the complex.
+~
+   This young man is clothed in robes and attire similar to that of the earth cultist
+priests, but by his excited looks and quivering voice you can tell that he is
+fairly new to the religion.  He seems willing to initiate conversation with
+anyone that nears him.  
+~
+ad 0 0 0 k 0 0 0 0
+5 20 5 54d50+151 1d8+0
+50 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1205
+convert earth cultist recent~
+a earth cultist convert~
+A recent convert of the earth cultist religion is here roaming about the complex.
+~
+   This young woman is clothed in robes and attire similar to that of the earth cultist
+priests, but by her excited looks and quivery voice you can tell that she is
+fairly new to the religion.  She seems willing to initiate conversation with
+anyone that nears her.  
+~
+ad 0 0 0 k 0 0 0 0
+5 20 5 54d50+151 1d8+0
+50 0 42 1
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1206
+skeptic earth cultist male man~
+a earth cultist skeptic~
+A skeptic of the earth cultist religion is here studying the complex in disbelief.
+~
+   This young man is somewhat skeptical of the earth cultist religion, as any sensible
+person probably should be.  He keeps walking about the complex speaking with
+anyone who seems interested in doing so, and seems to be paying very close
+attention.  
+~
+ad 0 0 0 k 0 0 0 0
+7 20 3 72d70+151 1d8+0
+105 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1207
+skeptic earth cultist female woman~
+a earth cultist skeptic~
+A skeptic of the earth cultist religion is here studying the complex in disbelief.
+~
+   This young woman is somewhat skeptical of the earth cultist religion, as any
+sensible person probably should be.  She keeps walking about the complex
+speaking with anyone who seems interested in doing so, and seems to be paying
+very close attention.  
+~
+ad 0 0 0 k 0 0 0 0
+7 20 3 72d70+151 1d8+0
+105 0 42 1
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1208
+acolyte man male earth cultist~
+a earth cultist acolyte~
+An acolyte of the earth cultist religion walks about in contemplation.
+~
+   This young man is clothed in robes and attire similar to that of the earth cultist
+priests, but by his excited looks and quivery voice you can tell that he is
+fairly new to the religion.  He seems willing to initiate conversation with
+anyone that nears him.  
+~
+d 0 0 0 k 0 0 0 0
+7 20 3 72d70+152 1d8+0
+105 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1209
+acolyte woman female earth cultist~
+a earth cultist acolyte~
+An acolyte of the earth cultist religion walks about in contemplation.
+~
+   This young woman is clothed in robes and attire similar to that of the earth cultist
+priests, but by her excited looks and quivery voice you can tell that she is
+fairly new to the religion.  She seems willing to initiate conversation with
+anyone that nears her.  
+~
+ad 0 0 0 k 0 0 0 0
+7 20 3 72d70+152 1d8+0
+105 0 42 1
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1210
+temple priest~
+the temple priest~
+The temple priest stands here preaching the earth cultist religion.
+~
+   This middle-aged man is quite overweight and appears to be exhausted.  He is
+yelling out some of the more prominent aspects of the earth cultist religion, but seems
+mostly like a raving madman.  The veins bulge out in his forehead and neck as he
+screams red-faced at the worshipers.  
+~
+abd 0 0 0 k 0 0 0 0
+9 20 1 90d90+151 1d8+0
+180 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1211
+arlem earth cultist guard~
+earth cultist Arlem~
+Earth cultist Arlem staunchly guards the gate, eyeing everyone who passes.
+~
+   Earth cultist Arlem is a rather robust, well-built man.  He seems to be
+tentative and very dedicated to his job.  He carefully looks you up and down as
+you approach him, and doesn't seem very pleased with what he sees.  
+~
+bdo 0 0 0 k 0 0 0 0
+11 20 -1 144d110+151 1d8+0
+275 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1212
+earth cultist dirkas man male guard~
+earth cultist Dirkas~
+Earth cultist Dirkas stands stiffly at his post, scowling fiercely.
+~
+   Earth cultist Dirkas does not seem very pleased with his duties.  He is not
+nearly as attentive or observant as earth cultist Arlem, and doesn't seem very
+intent with performing any duties that he doesn't absolutely have to.  He
+doesn't even look at you as you approach.  
+~
+bcdo 0 0 0 k 0 0 0 0
+10 20 0 132d100+153 2d8+0
+250 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1213
+malis high earth cultist~
+High earth cultist Malis~
+High earth cultist Malis eyes you coldly for intruding upon his privacy.
+~
+   High earth cultist Malis is not a very friendly individual.  He glares at you upon
+your entrance to the room, making you feel very uncomfortable.  He is
+broad-shouldered and robust, appearing to be a formidable force, unlike most of
+the other priests in the complex.  He continues to glare at you.  
+~
+abd 0 0 0 k 0 0 0 0
+10 20 0 99d100+152 1d8+0
+250 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1214
+earth cultist inquisitor man~
+the Inquisitor~
+The Inquisitor stands here calmly sharpening his knives.
+~
+   The Inquisitor is a tall, lanky man with a scruffy, grizzled look.  His hair
+looks rather unkempt, and he is sweating profusely.  He seems to notice you
+enter, but doesn't really seem to care, nonetheless.  
+~
+bd 0 0 0 k 0 0 0 0
+10 20 0 132d100+152 1d8+0
+250 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1215
+Master Tolbert~
+Master Tolbert~
+Master Tolbert, the headmaster of the acolytes stands here grimacing.
+~
+   Master Tolbert is a rotund fellow, and is quite unfriendly.  He has a look of
+disgust on his face, and your entrance doesn't exactly brighten his day.  He
+glances up at you as you enter the room, sighs loudly, and continues on about
+his business.  
+~
+abd 0 0 0 k 0 0 0 0
+9 20 1 90d90+151 1d8+0
+180 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1216
+tower guard earth cultist man~
+a tower guard~
+A tower guard stands here watching the surrounding land for signs of trouble.
+~
+   This man seems a bit uncoordinated to be a guard, but it does appear as if he
+is at least making his best effort.  He is somewhat lanky, but looks as if he
+may be a force if agitated.  
+~
+bd 0 0 0 k 0 0 0 0
+10 20 0 132d100+151 1d8+0
+250 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1217
+noxious green cloud vaporous~
+a noxious, green vaporous cloud~
+A noxious, green vaporous cloud swirls about the room.
+~
+   You can not determine what this strange being is, or if it is even a being at
+all for that matter.  It appears to just be a strange green cloud, but it
+nevertheless attacks you.  
+~
+adefo 0 0 0 k 0 0 0 0
+7 20 3 85d70+151 1d8+1
+0 0 15 3
+8 8 0
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1218
+worshiper devout earth cultist man~
+a devout worshiper~
+A devout worshiper is here listening intently to everything said.
+~
+   This young man is clothed in robes and attire similar to that of the earth cultist
+priests, but he doesn't seem quite as confident or arrogant as them.  He listens
+intently as the temple priest preaches his sermon.  
+~
+abd 0 0 0 k 0 0 0 0
+6 20 4 63d60+151 1d8+0
+90 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1219
+worshiper devout earth cultist woman~
+a devout worshiper~
+A devout worshiper is here listening intently to everything said.
+~
+   This young woman is clothed in robes and attire similar to that of the earth cultist
+priests, but she doesn't seem quite as confident or arrogant as them.  She
+listens intently as the temple priest preaches his sermon.  
+~
+abd 0 0 0 k 0 0 0 0
+6 20 4 63d60+151 1d8+0
+90 0 42 1
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1220
+earth cultist priest man~
+a earth cultist priest~
+A earth cultist priest is here trying to get some rest and relaxation.
+~
+   This priest of the earth cultist religion is wearing light blue robes with white
+trim.  He seems very arrogant and uncaring, and fails to give you the impression
+of what a true priest should be.  
+~
+abd 0 0 0 k 0 0 0 0
+9 20 1 90d90+151 1d8+0
+180 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1221
+earth cultist acolyte man~
+a earth cultist acolyte~
+A earth cultist acolyte is here, trying to get some rest and relaxation.
+~
+   This young man is clothed in robes and attire similar to that of the earth cultist
+priests, but by his excited looks and quivery voice you can tell that he is
+fairly new to the religion.  He seems willing to initiate conversation with
+anyone that nears him.  
+~
+abd 0 0 0 k 0 0 0 0
+7 20 3 72d70+151 1d8+0
+105 0 42 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#1222
+temple guardian earth cultist~
+a temple guardian~
+A temple guardian sits here in the pews keeping an eye out for trouble.
+~
+   This temple guardian seems somewhat menacing and uncaring.  He glares about
+the whole complex keenly and constantly, watching for any sort of trouble.  He
+eyes you as you approach him.  
+~
+bd 0 0 0 k 0 0 0 0
+8 20 2 108d80+152 1d8+0
+160 0 42 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1223
+heretic raving~
+a raving heretic~
+A raving heretic is here, wide-eyed and mumbling something unintelligible. 
+~
+   This poor man looks as if he's probably gone crazy from being locked up so
+long.  He is mumbling something about the earth cultist religion - about how it is a
+fraud, and must be stopped.  He looks as if he may have actually ripped some of
+his hair out by the roots.  
+~
+abcd 0 0 0 k 0 0 0 0
+7 20 3 85d70+151 1d8+0
+105 0 42 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1224
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+ad 0 0 0 k 0 0 0 0
+1 20 10 1d1+0 1d8+0
+0 0 42 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#1225
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+ad 0 0 0 k 0 0 0 0
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+$

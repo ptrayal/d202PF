@@ -1,0 +1,43 @@
+#3500
+pile nest garbage rat~
+a large rat nest~
+A particularly large amount of garbage has been piled up on the side of the tunnel.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+pile nest garbage rat~
+This large mound of waste has been collected to form a huge rat nest.  Numerous
+small sleeping forms can be seen atop and inside it.  
+~
+#3501
+ring gold~
+a thin gold ring~
+Someone has dropped a fine gold ring on the ground here.~
+~
+11 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+0
+A
+22 12 0
+#3502
+amulet platinum~
+a glittering platinum amulet~
+Encrusted with gems, this amulet sparkles with an inner light.~
+As you place the rope over your head and around your neck, you slowly begin to feel your throat becoming hoarse.
+~
+11 aA 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 22 0 0 0 0 0 0 0 0
+1 10000 0 10
+Z
+2
+A
+3 2 0
+A
+4 2 0
+$~

@@ -1,0 +1,488 @@
+#6900
+mob new~
+a new mob~
+A new mob is existing here.
+~
+this mob has a great attitude but seems to be bugged.
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6901
+swine wallowing~
+a wallowing swine~
+A swine wallowing in mud seeks a deeper part of the pen.
+~
+   This swine serves as one food source to the dark riders.  It is fed well,
+and one day the tribe will eat well.  It wanders about the pen very slowly,
+barely able to move it's oversized form through the muck.  No matter which way
+it moves, the mud isn't deep enough, or cool enough for its liking.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6902
+piglet small~
+a small piglet~
+A smaller piglet trods slowly through the mud.
+~
+   This young piglet has it easy, it lives in a well fed bunch of hogs, and has
+a cool, yet not too deep mud puddle to wallow in.  It makes occassional noises
+as it searches for its mother, ready to feed.  The fur on its sides is just
+barely starting to come in, peaking out in tiny tufts about its small body.  
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6903
+redshadow leader ~
+Redshadow, leader of the dark riders~
+Redshadow, the leader of the dark riders stands here, defiantly.
+~
+   Red shadow is dressed in robes of pure ebony, which swirl about his legs
+like tendrals of some great sea monster.  Glossy looking armor peaks out from
+below, and a mask with a face of that of a gruesome beast is carved into it, as
+if it is in a state of pure destruction, yet at the same time pain.  Black
+horns stick out of the mask, and a faint red glow is left behind wherever he
+walks, thus his name.    
+~
+d g 0 0 k 0 0 0 -999
+30 -2 -33 18000d300+120 1d8+22
+75 0 41 7
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 11
+S
+#6907
+foul mouthed dragonarmy officer~
+a foul-mouthed Dragonarmy officer~
+A foul-mouthed Dragonarmy officer mumbles to himself as he heads towards a tent.
+~
+   Mumbling to himself, using words that would make even the shadiest of people
+blush, this dragonarmy officer heads towards a tent on the other side of the
+camp.  He appears to be a member of the Green Dragonarmy by the looks of his
+adornment of armor.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6908
+informant gainly half-elf green~
+an informant of the Dark Riders~
+A gainly half-elf in deep green studded leather armor smirks as he walks.
+~
+   Though the ground of the campsite of the Dark Riders is covered in leaves
+and rocks, the footsteps this man makes are hardly audible.  He moves with the
+dexterity not often seen in a man of his size.  The studded leather armor he
+wears has been dyed a deep green, giving him an almost naturalistic appearance.
+~
+d 0 0 0 k 0 0 0 0
+21 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6909
+shady suspicious pale pale-skinned~
+a shady, suspicious elf~
+A shady, pale-skinned elf stands here with his eyes focused on the ground.
+~
+   Making certain not to make eye contact with anyone near him, this suspicious
+elf wanders the campgrounds of the Dark Riders.  Though seemingly out of place,
+none of the soldiers question him or show any signs of concerns of his
+presense.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6910
+soldier armored dark riders~
+a soldier of the Dark Riders~
+A heavily armored soldier stands here garbed in black and red plate mail.
+~
+   Standing arrogantly, and with the strength of an ox, this heavily armored
+soldier of the Dark Riders stands here polishing his blade while keeping an eye
+on the camp.  He nods at fellow soldiers as they walk past, showing them
+respect when it is due.    
+~
+d 0 0 0 k 0 0 0 0
+23 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6911
+well trained tanned battle scarred soldier~
+a well-trained infantry soldier~
+A tanned, battle-scarred infantry soldier readies his blade for combat.
+~
+   This young soldier stands quietly along side one of the many tents of the
+campgrounds, polishing his blade with a keen eye.  It is apparent that he keeps
+great attention to detail when polishing his blade and armor by the way the
+light glistens vibrantly off their surfaces.  He occasionally hums a tune to
+keep himself entertained.    
+~
+d 0 0 0 k 0 0 0 0
+23 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6912
+bald portly medic~
+a bald, portly medic~
+A bald, portly man stands here sorting the first aid supplies of the camp.
+~
+   Sorting through wooden boxes of crude medical supplies, this portly man
+sighs in frustration.  Having not much to work with, he seems unsure of his
+ability to complete his job should the need occur.  He nervously pulls on what
+remaining hair he has.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6913
+supply officer obese man~
+a supply officer~
+An obese man with greasy hair is here stacking boxes of supplies.
+~
+   Almost as round as he is tall, this supply officer stands here stacking
+boxes of newly aquired supplies.  His body smells of cooked meats and sour
+wine, causing the others within the tent not to get too close to him.  He looks
+the next person in line over quickly and asks what they want.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6914
+astute watchman soldier~
+an astute watchman~
+An astute soldier stands here looking through a spyglass into the horizon.
+~
+   Standing with a small brass spyglass to his eye, this watchman keeps an eye
+on the camps perimeter.  His hair has been combed straight back, so it will not
+fall over the lense and obstruct his view.  He pays no attention to those who
+approach him, only his job at hand.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6915
+stern eyed cavalier stern-eyed~
+a stern-eyed cavalier~
+A stern-eyed half-elven cavalier heads towards his horse.
+~
+   This half-elf wears a surprisingly large amount of armor for a mounted
+soldier.  Field plate mail covers the majority of his body, but does not appear
+to restrict much of his mobility.  He carries a large lance between his hands
+as he heads towards his horse.    
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6916
+hungry soldier~
+a hungry soldier~
+A soldier sits here devouring his meal at an amazing rate.
+~
+   This soldier sits rigidly at one of the dining tables, devouring his meal as
+fast he possibly can.  He seems to be rushed, dropping food from his fork
+everywhere, and not noticing.  He looks at his fork in frustration, places it
+on the table beside his plate, and begins using his fingers instead.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6917
+soldier green dragonarmy~
+a soldier of the Green Dragonarmy~
+A soldier of the Green Dragonarmy keeps to himself as he eats his meal.
+~
+   Speaking to noone, this soldier of the Green Dragonarmy eats his meal
+quietly.  He is lost in his own thoughts, or so he appears, as he takes small,
+uninterested bites of his meal.  His sword has been sheathed and placed upon
+the table next to him.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6918
+young unassured soldier~
+a young, unassured soldier~
+A young soldier eyes those around him as he sits nervously at a table.
+~
+   Sitting at the end of a table with his back to the wall, this young soldier
+keeps a nervous eye on those around him.  Untrusting of those he does not know,
+he ignores his meal in favor of paying close attention to his fellow soldiers
+and officers.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6919
+cloaked silent individual~
+a cloaked, silent individual~
+A cloaked, silent individual sits here finishing his meal.
+~
+   Caring not to speak with anyone during his one relaxing moment of the day,
+this cloaked human sits enjoying his meal.  A pitch black velvet cloak
+encircles his thin frame, causing him to stand out slightly from the other more
+well-armored soldiers in the mess hall.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6920
+huardian defender chosen ~
+the chosen guardian of the dark riders~
+A chosen defender of the dark riders stands his ground.
+~
+   This escort stands here, guarding the tent of Redshadow.  He never moves,
+yet through his hooded cover little misses his attention.  His arms are large,
+and riple with muscles, and has been chosen for his superior observatory
+ability.  He stands with his back to the entrance to the tent, and does not
+move even when the wind comes across the plain and through the camp.    
+~
+d 0 0 0 k 0 0 0 -999
+23 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

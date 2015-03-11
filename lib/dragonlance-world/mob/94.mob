@@ -1,0 +1,675 @@
+#9400
+fatigued soldier tired~
+a fatigued soldier~
+Sleeping very soundly, this obviously tired soldier catches a few moments rest.
+~
+   This soldier of the Red Dragonarmy is clad only from his waist below.  
+Matted brown hair that hasn't been washed in what looks like days rests upon
+his head.  His nose whistles softly every time he breathes out.  Drool slowly
+dribbles out of his open mouth, finding its own way down his unshaven face.  
+~
+d 0 0 0 k 0 0 0 -500
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9401
+angry sergeant~
+an angry, loud-mouthed sergeant~
+Barking orders to the new recruits, this angry sergeant looks for someone to punish.
+~
+   Anger and outrage show in this sergeant's eyes as he walks back and forth
+between the ranks of his new recruits, finding noone to punish.  His
+breastplate and helmet, the only pieces of his armor he wears now, is trimmed
+is red to signify his acceptance into the Red Dragonarmy.  Sandy brown hair
+peeks through the opening of his helmet, and his smolderingly angry brown eyes
+are oblivious of it.  The dark brown moustache on his face quivers comically
+with rage as he continues his pacing.    
+~
+d 0 0 0 k 0 0 0 -500
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9402
+determined recruit~
+a determined, stone-faced recruit~
+Showing little emotion, this determined recruit stands perfectly at attention.
+~
+   This stone-faced man shows to be one of the Red Dragon Army's more promising
+recruits.  His brown eyes don't even move when his sergeant makes his passes to
+find someone to punish.  Even though he wears a dirty, blood-stained training
+uniform and hanging at his hip is a poorly made practice blade, his pride in
+being one of the top recruits for the Red Dragon Army shows through.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9403
+lithe nervous recruit~
+a lithe, nervous recruit~
+Quivering ever so slightly, this lithe recruit nervously watches the sergeant.
+~
+   Though this recruit is standing as straight-backed as the rest, his
+nervousness is betrayed by his blue eyes.  Every order the sergeant barks, this
+recruit jumps in his ill-fitting boots.  As the sergeant makes his way closer
+and closer, the recruit's eyes follow his every move almost pleading for him to
+find someone else to punish.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9404
+distant grim healer~
+a distant, grim-faced healer~
+Silently doing her task, this grim-faced healer amputates the leg of her patient.
+~
+   Blood splatters onto her white apron as she saws through her patients
+infected leg.  Her green eyes are glazed over as if she is not even seeing what
+she is doing.  The chilling screams of her patient do not even rattle her grim
+visage.  Her long blonde hair is tied up in a bun to keep the blood from
+getting to it.    
+~
+d 0 0 0 k 0 0 0 500
+16 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9405
+large red soldier~
+a large, red-haired soldier~
+Listening to a comrade tell a joke, this red-haired soldier booms with laughter.
+~
+   Weighing close to three hundred pounds and over six and half feet tall is
+this rather ugly soldier.  He wears only the leggings of his uniform, blood red
+leather pants.  His smelly, untied shirt allows thick chest to show itself.  
+Several teeth are noticeably missing from his mouth as his booming laugh,
+stirred on by a comrades joke, echoes throughout the mess tent.    
+~
+d 0 0 0 k 0 0 0 -500
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9406
+silver wiry man soldier~
+a wiry, quick-witted soldier~
+Joking with his soldier friends, this wiry, quick-witted soldier smirks.
+~
+   Spooning some smelly, disgusting looking soup slowly into his mouth is a
+thin, quick-witted soldier.  He is softly joking with his slower, red-headed
+friend, spurring on his laughter.  Because of the blazing heat, this soldier
+only wears the red leather leggings of his uniform, allowing clear view of the
+glistening sweat covering his body.    
+~
+d 0 0 0 k 0 0 0 -500
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9407
+towering well veteran soldier~
+a towering, well-built veteran~
+Barring your entrance is a well-built veteran soldier of towering proportions.
+~
+   Easily one of the largest soldiers in the camp, this human stands before
+you, barring any entrance.  His wide, well-built physique is covered from head
+to toe with full plate mail bearing the insignia of the Red Dragonarmy.  Blood
+red horns protrude visciously from his full helm, and a brutal looking
+broadsword hangs at his hip.  He watches your approach with indifference as his
+hand slowly comes to rest at the hilt of his sword.    
+~
+d 0 0 0 k 0 0 0 -500
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9409
+grizzled veteran blue piercing~
+a grizzled veteran with piercing blue eyes~
+Carving something out of a block of wood is a grizzled veteran with piercing blue eyes.
+~
+   His once blonde hair is now streaked with steel-grey, giving him a more
+distinguished air.  The small wrinkles next to his eyes deepen as he squints at
+the object he is carving.  His body is still lean, and muscular changed little
+over the passage of time.  A sword and scabard too embelished and well-made to
+be those of a mere grunt lie about his waist.  Piercing blue eyes meet your
+gaze with intelligence and confidence as you stare at him.    
+~
+d 0 0 0 k 0 0 0 100
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9410
+boisterous lieutenant~
+a boisterous lieutenant~
+Swinging his arms about, this boisterous lieutenant tells a story.
+~
+   Drinking heavily from a large, foam topped mug this lieutenant is
+practically yelling his story to the unlucky occupants of his table.  Swinging
+his arms about in accentuation, inadvertently spilling the contents of his
+drink on his listeners.  Undaunted by the angry comments of fellow soldiers,
+this lieutenant continues his tale.    
+~
+d 0 0 0 k 0 0 0 -500
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9411
+enraged sergeant~
+an enraged sergeant smelling of ale~
+Quivering with rage, this sergeant looks about to murder the lieutenant across from him.
+~
+   Wiping from his face the ale splashed onto him by the lieutenant sitting
+across the table, this red-faced sergeant looks about ready to murder someone.
+Quivering with rage, and eyes staring daggers he walks over to the lieutenant
+to speak his mind.    
+~
+d 0 0 0 k 0 0 0 -500
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9412
+sick soldier pale~
+a sick, pale-faced soldier~
+Coughing violently, this pale-faced soldier tries to clean the blood from his face.
+~
+Between the violent fits of coughing that result in a lot of blood, he tries
+to clean his face of the fluids to no avail.  His pale, almost white face, is
+framed by curly brown hair soaked in his own sweat.  He is oblivious to the
+fact that the bed sheets once covering his body now lie bunched at his knees,
+exposing himself for all to see.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9413
+amputee screaming~
+a screaming amputee in agonizing pain~
+Grabing his pallet in a death grip, this screaming amputee struggles not to move.
+~
+   This soldier, not only unlucky enough to get cut in practice, but also
+allowing the wound to fester is now getting the rewards of his foolishness.  
+Blood sprays in all directions from the stump that is his leg.  His eyes are
+rolled up into his head, exposing only the whites of them to your gaze.  
+Struggling to keep his body from moving and complicating the surgery, his
+chilling screams only increase, sending shock waves down your spine.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9414
+pleasant young woman~
+a pleasant, young woman~
+Comforting the sick and dying, this pleasant, young woman quietly walks about the tent.
+~
+   Although few men here are in any shape to notice, this young woman isn't
+ugly in the least.  Her white apron perfectly fits her attractive body, and her
+pleasant, smiling face gives comfort to those she is helping.  She circles
+around the room, wiping fevered brows with a cool white cloth, and talking with
+those who look to need it.    
+~
+d 0 0 0 k 0 0 0 500
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9415
+brooding black robed priestess~
+a brooding, black-robed priestess ~
+Looking over a list of ingredients, this black-robed priestess seems to be lost in thought.
+~
+   The five headed dragon of Takhisis hangs from a twisted chain around her
+neck.  Her black robes hide her body and any weapons she would carry with ease.
+Straight brown hair successfully covers half her face, showing only her brows
+furrowed in confusion as she broods over an ingredients list.  She is oblivious
+of your entrance into her section of the tent.    
+~
+d 0 0 0 k 0 0 0 -1000
+22 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9416
+patient keen soldier~
+a patient, keen-eyed soldier~
+Playing a strategic game with a friend, this patient soldier contemplates his move.
+~
+   Waiting for his game partner to make his next move, this keen-eyed soldier
+glances up at you with genuine curiousity.  He wears a light pair of light
+brown breeches and no shirt to allow the breeze to cool him in the blazing
+heat.  Running his hands in thought through his wavy brown hair, he moves his
+game piece, and removes a one of his partners.    
+~
+d 0 0 0 k 0 0 0 -500
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9417
+frustrated curly soldier~
+a frustrated, curly-haired soldier~
+Watching himself lose to his partner, this curly-haired soldier seems to be frustrated.
+~
+   As he watches yet another of his pieces be removed from the game in front of
+him, he almost pulls out his curly brown locks in frustration.  His blue eyes
+study his opponents for anything as he thinks of his next move.  Wearing
+nothing but leggings in this blazing heat, he picks up one of his pieces and
+moves it.    
+~
+d 0 0 0 k 0 0 0 -500
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9418
+boy young thin~
+a thin young boy quivering with fear~
+Holding a message for the captain, this thin young boy looks about to cry.
+~
+   This young boy of around thirteen looks about to cry as he sits on the
+uncomfortable wooden benches of the captain's waiting room.  In his hand he
+holds a message for the Captain of the Red Dragonarmy, and from the quivering
+of his bottom lip, and hand, it looks to be a bad message at that.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9419
+occupied soldier rushed~
+an occupied, rushed soldier~
+Obviously busy with some errand, this rushed soldier walks by.
+~
+   Seemingly going to some place important, this occupied soldier wears his
+full uniform, complete with his armor and blade.  His hair is slicked back with
+grease and he holds his red-trimmed steel helm in the crook of his arm.  He
+walks quickly to whatever destination he is off too.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9420
+armored fully soldier~
+a fully armored soldier~
+Struggling to stay standing, this fully armored soldier endures the blazing heat.
+~
+   This soldier stands under the broiling heat fully clad in plate mail because
+of something he did or didn't do.  The heat in the mountains all year round is
+close to intolerable even with light, breathable clothes, one cannot even
+fathom the effects with clad from head to toe in steel.  Every few minutes this
+soldiers knees quiver with exhaustion, but he dare not sit down for fear of
+worse punishment.    
+~
+d 0 0 0 k 0 0 0 -500
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9421
+dehydrated exhausted soldier~
+an exhausted, dehydrated soldier~
+Collapsed upon the ground, this dehydrated soldier looks about ready to pass out.
+~
+   Unlike his fellow soldiers, this one could stand up in the heat no longer.
+The wieght of his armor has handicaped him, and has thwarted all efforts to
+climb back to his feet.  He mumbles something about water over and over again,
+leading you to believe he has gone mad from dehydration.    
+~
+d 0 0 0 k 0 0 0 -500
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9422
+captain~
+the Captain of the Red Dragonarmy~
+Holding a crumpled message in a death grip, The Captain of the Red Dragonarmy seems to be angry.
+~
+   Shouting obscenities at the top of his lungs, the Captain of the Red
+Dragonarmy looks to be angry at something.  He wears full scale mail armor
+trimmed in red despite the heat, and the horned helmet he wears only increases
+the impressive image.  A recently recieved message is under the process of
+being squeezed in a death grip when he turns in outrage at your intrusion.    
+~
+d 0 0 0 k 0 0 0 -1000
+26 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9423
+irresistibly attractive woman~
+an irresistibly attractive woman~
+At your intrusion, this irresistibly attractice woman stops what she was doing.
+~
+   The simple robes of a wizard do little to hide this woman's magnificent
+body.  Curly brown locks bounce as she stops writing on a piece of paper to
+look up at you, her intruders.  A smile from perfect red lips reveal beautiful,
+pearly-white teeth.  Her brows furrow ever so slightly as she trys to puzzle
+out your business in her study.    
+~
+d 0 0 0 k 0 0 0 -1000
+23 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9424
+girl elven battered~
+a scared, battered elven girl~
+Cowering with fear in the corner is a battered elven girl covered with bruises.
+~
+   Cowering naked in the corner is a lithe elven girl of about fifty years.  
+From head to toe, huge purple and yellow bruises cover her body, the result of
+the captain's idea of a fun time.  Her eyes dart about the room, desperatly
+looking for an escape as you approach.  Her body quivers uncontrolably and
+sweat begins to appear on her brow as she realizes her fate.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

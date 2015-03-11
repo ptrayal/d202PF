@@ -1,0 +1,2283 @@
+#4500
+A Path towards the Forest~
+The path between southern Luskan and the woods is quite a small trail, much too
+small for merchant trade but just wide enough for one or two horses.  Pine trees
+populate much of the surrounding woods, and block off visibility into the deeper
+expanses of the forest.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 50021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4599 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+E
+oak tree bark~
+I tumbled below, but I wasn't agile.
+Crashed to the earth, found I was fragile.
+~
+S
+#4501
+A Peaceful Glade~
+The cliff to the northwest funnels downward here, emptying into a pretty little
+glade.  The forest floor is carpeted in a thick green moss which has been
+littered with sticks, acorns and other forest debris.  The trees, a medley of
+spruce and pine, are spaced out enough to allow cascading rays of golden
+sunlight to pour in among the luxuriant green foliage.  The sweet melody of
+birdsong and chattering squirrels fills the air.  The glade extends east and
+south.  
+~
+45 0 af 0 0 3
+D1
+~
+~
+0 0 4508 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4502 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4502
+A Peaceful Glade~
+Steep, rocky foothills border the glade to the west.  The forest floor is
+carpeted in a thick green moss which has been littered with sticks, acorns and
+other forest debris.  The trees, a medley of spruce and pine, are spaced out
+enough to allow cascading rays of golden sunlight to pour in among the luxuriant
+green foliage.  The sweet melody of birdsong and chattering squirrels fills the
+air.  The glade extends north, south and east.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4501 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4507 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4503 0 0 0 0 0 0 0 0
+S
+#4503
+A Peaceful Glade~
+Steep, rocky foothills border the glade to the west.  The forest floor is
+carpeted in a thick green moss which has been littered with sticks, acorns and
+other forest debris.  The trees, a medley of spruce and pine, are spaced out
+enough to allow cascading rays of golden sunlight to pour in among the luxuriant
+green foliage.  The sweet melody of birdsong and chattering squirrels fills the
+air.  The glade extends north, south and east.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4502 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4506 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4504 0 0 0 0 0 0 0 0
+S
+#4504
+A Peaceful Glade~
+The glade is bordered on the south and west by steep sloping rocky hills.  
+Large tracks can be found along the soft moss covered earth, tracks made by a
+rather large-pawed creature.  The dew covered trees in the glade glisten softly,
+reflecting prismatic colors off of the tips of their branches.  All around, the
+soft song of a vocal bird can be heard.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4503 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4505 0 0 0 0 0 0 0 0
+S
+#4505
+A Peaceful Glade~
+The glade is bordered on the south by steep sloping rocky hills.  Large tracks
+can be found along the soft moss covered earth, tracks made by a rather
+large-pawed creature.  The dew covered trees in the glade glisten softly,
+reflecting prismatic colors off of the tips of their branches.  All around, the
+soft song of a vocal bird can be heard.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4506 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4504 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4506
+Center of the Glade~
+The heart of the glade is much quieter than the outskirts, permeated with a
+feeling of sacred natural serenity.  Rays of muted sunlight fall softly through
+the towering pines overhead, breaking upon a woodland carpet of cones, needles
+and mossy undergrowth.  The air is moist and the foliage is fresh with forest
+dew.  
+~
+45 0 f 0 0 3
+D0
+~
+~
+0 0 4507 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4511 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4505 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4503 0 0 0 0 0 0 0 0
+S
+#4507
+Center of the Glade~
+The heart of the glade is much quieter than the outskirts, permeated with a
+feeling of sacred natural serenity.  Rays of muted sunlight fall softly through
+the towering pines overhead, breaking upon a woodland carpet of cones, needles
+and mossy undergrowth.  The air is moist and the foliage is fresh with forest
+dew.  A small pond can be seen to the east.  
+~
+45 0 f 0 0 3
+D0
+~
+~
+0 0 4508 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4510 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4506 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4502 0 0 0 0 0 0 0 0
+S
+#4508
+A Peaceful Glade~
+A dense thicket of thorny brambles prevents further passage to the north.  The
+glade stretches out southwards, a calming mix of coniferous trees, alder bushes
+and bright green moss.  Although very peaceful, it is far from quiet here as
+small animals scurry to and fro across the forest floor.  Occasionally, the
+sound of something larger can be heard crashing through the bushes.  
+~
+45 0 af 0 0 3
+D1
+~
+~
+0 0 4509 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4507 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4501 0 0 0 0 0 0 0 0
+S
+#4509
+A Peaceful Glade~
+A dense thicket of thorny brambles prevents further passage to the north.  The
+glade stretches out southwards, a calming mix of coniferous trees, alder bushes
+and bright green moss.  Although very peaceful, it is far from quiet here as
+small animals scurry to and fro across the forest floor.  Occasionally, the
+sound of something larger can be heard crashing through the bushes.  A small
+pond can be seen to the south.  
+~
+45 0 af 0 0 3
+D1
+~
+~
+0 0 4516 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4510 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4508 0 0 0 0 0 0 0 0
+S
+#4510
+A Glistening Pond~
+The lush greenery of the forest thins here, opening into a clear space with a
+small, sparkling pond.  The water looks fresh and clear, still and shiny.  The
+surface is calm enough to produce a mirror effect as the cascading sunlight
+reflects off the water.  Every now and then, a fish breaks the surface with a
+gentle splash.  
+~
+45 0 e 0 0 6
+D0
+~
+~
+0 0 4509 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4515 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4511 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4507 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4529 0 0 0 0 0 0 0 0
+E
+pond water~
+The water is clear and fresh.  Looking closer, there seems to be something
+sparkling from deep below the surface.  
+~
+S
+#4511
+Center of the Glade~
+The heart of the glade is much quieter than the outskirts, permeated with a
+feeling of sacred natural serenity.  Rays of muted sunlight fall softly through
+the towering pines overhead, breaking upon a woodland carpet of cones, needles
+and mossy undergrowth.  The air is moist and the foliage is fresh with forest
+dew.  A small pond can be seen to the north.  
+~
+45 0 f 0 0 3
+D0
+~
+~
+0 0 4510 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4514 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4506 0 0 0 0 0 0 0 0
+S
+#4512
+A Peaceful Glade~
+The glade is bordered on the south by steep sloping rocky hills.  Large tracks
+can be found along the soft moss covered earth, tracks made by a rather
+large-pawed creature.  The dew covered trees in the glade glisten softly,
+reflecting prismatic colors off of the tips of their branches.  All around, the
+soft song of a vocal bird can be heard.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4511 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4513 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4505 0 0 0 0 0 0 0 0
+S
+#4513
+A Peaceful Glade~
+The glade is bordered on the south and east.  Steep hills block the path to the
+south, and the denseness of the conifers to the east makes traveling appear less
+than hospitable.  Large tracks can be found along the soft moss covered earth,
+tracks made by a rather large-pawed creature.  The dew covered trees in the
+glade glisten softly, reflecting prismatic colors off of the tips of their
+branches.  All around, the soft song of a vocal bird can be heard.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4514 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4596 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4517 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4512 0 0 0 0 0 0 0 0
+S
+#4514
+A Peaceful Glade~
+The trees are too dense to continue eastward.  The glade extends in all other
+directions, a serene and picturesque forest landscape filled with all sorts of
+wildlife, both small and large.  The air smells fresh and clean, with a pleasant
+underlying bouquet of wildflowers and pine sap.  Every now and then you see
+clusters of berry bushes poking up through the soft moss.  There is a sense of
+calmness all around.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4515 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4513 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4511 0 0 0 0 0 0 0 0
+S
+#4515
+A Peaceful Glade~
+The trees are too dense to continue eastward.  The glade extends in all other
+directions, a serene and picturesque forest landscape filled with all sorts of
+wildlife, both small and large.  The air smells fresh and clean, with a pleasant
+underlying bouquet of wildflowers and pine sap.  Every now and then you see
+clusters of berry bushes poking up through the soft moss.  There is a sense of
+calmness all around.  A small pond can be seen to the west.  
+~
+45 0 af 0 0 3
+D0
+~
+~
+0 0 4516 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4514 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4510 0 0 0 0 0 0 0 0
+S
+#4516
+A Peaceful Glade~
+The northeast corner of the glade is bordered by extremely dense trees to the
+east and an impassible thicket of thorny brambles to the north.  The glade
+extends south and west, a serene and picturesque forest landscape filled with
+all sorts of wildlife, both small and large.  The air smells fresh and clean,
+with a pleasant underlying bouquet of wildflowers and pine sap.  Every now and
+then you see clusters of berry bushes poking up through the soft moss.  There is
+a sense of calmness all around.  
+~
+45 0 af 0 0 3
+D2
+~
+~
+0 0 4515 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4509 0 0 0 0 0 0 0 0
+S
+#4517
+A Slippery Trail~
+This trail is covered with slick, oily mud and is shaped like a chute, making
+walking very difficult.  Garbage and old bones have been strewn about in places.
+There is a faint stink in the air wafting in from the south.  
+~
+45 c a 0 0 10
+D0
+~
+~
+0 0 4513 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4520 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4518 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4518
+A Trail through the Camp~
+Steel pikes line this beaten dirt path which winds its way into and through a
+small settlement of dirty tents.  There is very little order here, with wood
+crates, old weapons and stacks of goods strewn about every which way.  Here and
+there, the brown earth is stained with dark streaks of dried blood.  The
+entrance to a tent is west, while the trail through the camp continues east and
+south.  North of here the path narrows, becoming quite slippery.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4517 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+D3
+a tent flap
+~
+tent flap~
+0 0 4519 20 0 0 0 0 0 0 0
+S
+#4519
+Inside of a Bandit's Tent~
+The tent is constructed from a large length of canvas dragged across many spears
+that have been stabbed into the earth.  The inside of this tent has many crates
+and barrels containing food, supplies, and the occassional bit of loot.  So many
+spears have been used to create this boxed in structure, that it forms a cage
+with only one exit at the tent flaps.  Along the back of the tent, a large oak
+chest has been locked with a very high quality lock.  
+~
+45 0 0 0 0 0
+D1
+~
+~
+0 0 4518 0 0 0 0 0 0 0 0
+S
+#4520
+A Trail near a Small Camp~
+Steel pikes line this beaten dirt path which winds its way through a small
+settlement of dirty tents.  There is very little order here, with wood crates,
+old weapons and stacks of goods strewn about every which way.  Here and there,
+the brown earth is stained with dark streaks of dried blood.  The trail
+continues east and west.  
+~
+45 c a 0 0 10
+D1
+~
+~
+0 0 4521 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4517 0 0 0 0 0 0 0 0
+S
+#4521
+A Trail near a Small Camp~
+Steel pikes line this beaten dirt path which winds its way through a small
+settlement of dirty tents.  There is very little order here, with wood crates,
+old weapons and stacks of goods strewn about every which way.  Here and there,
+the brown earth is stained with dark streaks of dried blood.  The trail
+continues west and approaches a small hill to the east.  
+~
+45 0 a 0 0 10
+D1
+~
+~
+0 0 4522 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4520 0 0 0 0 0 0 0 0
+S
+#4522
+At the Top of a Hill~
+This little knob of a hill has been scraped free of all vegetative life, making
+it nothing more than a barren lump of dirt.  It must be a frequent battleground
+site, judging by the heaps of charred bones and broken weapons scattered around.
+A single spear has been staked into the ground at the very top of the hill,
+adorned with a broken humanoid skull.  A narrow cut path leads down the hill
+while a wider trail approaches a small settlement to the west.  
+~
+45 0 a 0 0 10
+D3
+~
+~
+0 0 4521 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4527 0 0 0 0 0 0 0 0
+S
+#4523
+Center of the Camp~
+The center of the camp has a small fire burning.  The logs smolder and create
+enough heat to stay warm, but not enough light to see by at night.  Tents
+surround the fire, but the one to the south appears to have burned down
+recently.  A trail leads off to the north, and quickly splits in two directions.
+
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4518 0 0 0 0 0 0 0 0
+D1
+a tent flap
+~
+tent flap~
+0 0 4526 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4525 0 0 0 0 0 0 0 0
+D3
+a tent flap
+~
+tent flap~
+0 0 4524 0 0 0 0 0 0 0 0
+S
+#4524
+Inside of a Bandit's Tent~
+The tent is constructed of canvas held up by four spears, creating a boxed in
+room large enough for a few to sleep in.  Aside from bedrolls on the ground,
+there's nothing of worth inside of this tent.  The tent canvas ripples as a
+light breeze rushes by.  
+~
+45 0 0 0 0 0
+D1
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+S
+#4525
+Inside the burned remains of a Tent~
+Ashes cover the earth, and remnants of a previous traveler are scattered about
+in the debris.  Broken glass and human remains are wrapped up in what was left
+of the canvas tent.  Just to the north of the tent a camp fire still blazes
+brightly.  Fresh footprints lead off into the distance, but quickly disappear
+into the thick of the forest.  
+~
+45 0 0 0 0 0
+D0
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+S
+#4526
+Inside of a Bandit's Tent~
+The tent is constructed of canvas held up by four spears, creating a boxed in
+room large enough for a few to sleep in.  Aside from the bedrolls on the ground,
+there's nothing of worth inside of this tent.  The tent canvas ripples as a
+light breeze rushes by.  
+~
+45 0 0 0 0 0
+D3
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+S
+#4527
+At the Bottom of a Hill~
+You stand at the base of a barren hill of dirt.  There is nearly no plant life
+here, and patches of the earth have been scorched black.  There is a faint smell
+of acrid smoke in the air.  A narrow cut path ascends up to the top of the
+gently sloping hill, while a broader trail leads eastwards into a dense wood.  
+~
+45 0 a 0 0 10
+D1
+~
+~
+0 0 4528 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4522 0 0 0 0 0 0 0 0
+S
+#4528
+A Trail through the Dark Forest~
+While the outer edge of the forest is relatively bright, it becomes darker very
+quickly to the east.  The trees are tall and foreboding, with long and twisted
+branches jutting forth from all sides.  Spotted red toadstools and yellow
+dandelions line the pebbled pathway, which continues westward toward a hill and
+eastward deeper into the forest.  
+~
+45 c a 0 0 10
+D1
+~
+~
+0 0 4536 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4527 0 0 0 0 0 0 0 0
+S
+#4529
+Under the Pond's Surface~
+A multitude of glowing colored orbs bob in the water here.  Their glow must also
+be putting off a warmth because the water is very comfortable and relaxing.  
+The water is a rich teal color, with intermittent lavender swirls.  From here,
+you may ascend to the surface above or venture down into the depths below.  
+~
+45 c ac 0 0 8
+D4
+~
+~
+0 0 4510 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4530 0 0 0 0 0 0 0 0
+S
+#4530
+Far Under the Pond's Surface~
+The water here is very murky and difficult to see through.  The water weeds are
+thick and wave gently back and forth.  Clouds of shimmering bubbles periodically
+burst forth from the black tar of the pond bottom.  Small flecks of detritus
+hang suspended in the dark water.  
+~
+45 0 ac 0 0 8
+D4
+~
+~
+0 0 4529 0 0 0 0 0 0 0 0
+S
+#4531
+Within the Deep Forest~
+The mossy forest floor rises upward to form a little mound here, with a dark
+hole dug into its side.  Some sort of animal den, perhaps?  Vines and Spanish
+moss droop down from the tall trees above, obstructing your view, while prickly
+briars and tough roots are a major hindrance underfoot.  
+~
+45 0 0 0 0 3
+D0
+~
+~
+0 0 4534 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4532
+A Trail through the Dark Forest~
+You stand on a trail within a deep, dark forest.  While the path itself has been
+leveled and sprinkled with a thin layer of small stones, the footing becomes
+treacherous almost immediately on either side, where roots, thorny brambles and
+sharp stumps poke up through slippery moss.  The trail bends north and west
+here.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4533 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4551 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4531 0 0 0 0 0 0 0 0
+S
+#4533
+A Trail through the Dark Forest~
+You stand on a trail within a deep, dark forest.  While the path itself has been
+leveled and sprinkled with a thin layer of small stones, the footing becomes
+treacherous almost immediately on either side, where roots, thorny brambles and
+sharp stumps poke up through slippery moss.  The trail extends north and south
+from here.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4536 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4539 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4534 0 0 0 0 0 0 0 0
+S
+#4534
+Within the Dense Forest~
+A fallen log stretches across the forest floor, hollow and quite rotten.  Worms
+and various bugs scurry across its decaying surface, burrowing inward where they
+can.  A cloying, earthy smell hangs heavy in the cold, still air.  Dead vines
+loop down from the trees all around, each one covered in some sort of
+grey-colored fungus.  The fallen log stretches northward.  East of here, you can
+see some sort of trail.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4533 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4531 0 0 0 0 0 0 0 0
+S
+#4535
+undefined~
+undefined~
+45 0 ek 0 0 3
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4536
+A Trail through the Dark Forest~
+The trail bends sharply here, twisting its way to the east and south.  The air
+has a cold, moist feeling which hangs heavy in your lungs.  Massive pines and
+cedars tower all around, dwarfed by the occasional giant sequoia.  A carpet of
+decaying twigs, needles and flakes of dried bark crunches underfoot, while the
+faint hooting of owls can be heard off in the distance.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4537 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4538 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4533 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4528 0 0 0 0 0 0 0 0
+S
+#4537
+Within the Dense Forest~
+The mossy forest floor rises upward to form a little mound here, with a dark
+hole dug into its side.  Some sort of animal den, perhaps?  Vines and Spanish
+moss droop down from the tall trees above, obstructing your view, while prickly
+briars and tough roots are a major hindrance underfoot.  
+~
+45 0 ek 0 0 3
+D1
+~
+~
+0 0 4540 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4536 0 0 0 0 0 0 0 0
+S
+#4538
+A Trail through the Dark Forest~
+The trail bends sharply here, twisting its way to the north and west.  The air
+has a cold, moist feeling which hangs heavy in your lungs.  Massive pines and
+cedars tower all around, dwarfed by the occasional giant sequoia.  A carpet of
+decaying twigs, needles and flakes of dried bark crunches underfoot, while the
+faint hooting of owls can be heard off in the distance.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4540 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4544 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4539 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4536 0 0 0 0 0 0 0 0
+S
+#4539
+Within the Dense Forest~
+You sense shadowy shapes swooping through the silent woods, just out of sight.
+It is quiet here, save for the rustling of dried leaves and the occasional crack
+of a twig snapping as something walks across it.  Giant spider webs stretch
+across the gaps between the trees, their thin silken strands glimmering in the
+soft light.  The edge of a trail can be seen faintly through the trees both to
+the north and west.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4538 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4551 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4533 0 0 0 0 0 0 0 0
+S
+#4540
+A Trail deeper into the Forest~
+The trail bends sharply here, twisting its way to the east and south.  The air
+has a cold, moist feeling which hangs heavy in your lungs.  Massive pines and
+cedars tower all around, dwarfed by the occasional giant sequoia.  A carpet of
+decaying twigs, needles and flakes of dried bark crunches underfoot, while the
+faint hooting of owls can be heard off in the distance.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4542 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4541 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4538 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4537 0 0 0 0 0 0 0 0
+S
+#4541
+A Trail deeper into the Forest~
+The narrow trail is nearly overgrown with the surrounding wilderness.  Only a
+very thin pathway grants passage through the forest.  The trees on either side
+of the path are packed tightly together, their branches intertwining in a
+complex melange of sharp, spidery offshoots.  It is difficult to see anything
+off the path, but every once in a while a large, shadowy shape can be glimpsed
+gliding through the woods.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4543 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4554 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4544 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4540 0 0 0 0 0 0 0 0
+S
+#4542
+Within the Dense Forest~
+Some trees have been knocked over here, their trunks broken and splintered.  
+Deep claw gouges can be found on a few of them, along with brown smears of
+animal spoor.  Several holes have been dug into the forest floor, and fresh dirt
+is scattered around everywhere.  There is an uneasy quiet all around.  
+~
+45 0 ek 0 0 3
+D1
+~
+~
+0 0 4543 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4540 0 0 0 0 0 0 0 0
+S
+#4543
+Within the Dense Forest~
+The trees are very densely packed together, their branches chock full of long,
+pointy needles.  Their color is a very deep shade of green, almost black in some
+spots.  The dark sap oozing out of the tree bark is sticky to the touch and
+emits a heady perfumed aroma.  The forest continues east and west, but is
+blocked by a wall of vegetation to the north.  The trail is south.  
+~
+45 0 f 0 0 3
+D1
+~
+~
+0 0 4555 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4541 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4542 0 0 0 0 0 0 0 0
+S
+#4544
+Within the Dense Forest~
+This dark and shady section of the forest is unusually quiet.  Shadows dance and
+play amid the the trees, but silently, creating an eerie atmosphere.  A series
+of wild, overgrown bushes block passage to the south.  For some reason, the
+animals around here seem to avoid these bushes.  The forest extends east, with
+the main trail to the north and west.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4541 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4556 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4538 0 0 0 0 0 0 0 0
+S
+#4545
+undefined~
+undefined~
+45 c 0 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4546
+The Satyr's Glen~
+An otherwordly green light illuminates this secluded dell within the forest.  
+It is hauntingly quiet here, and there is a feeling of powerful suppressed
+energy oscillating through the air.  The ground has been torn up in a few
+places, creating several heaps of freshly turned earth.  Within it all, an
+ancient stone altar stands facing south.  
+~
+45 0 0 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4547 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4549 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4548 0 0 0 0 0 0 0 0
+S
+#4547
+Center of the Satyr's Glen~
+A single ray of light breaks through the canopy of shadows overhead, falling
+softly upon a lone tree stump in the middle of the clearing.  Spaced evenly
+around the stump in the cardinal directions are four crude stone altars, each
+one inset with a peculiar spherical depression that faces toward the stump.  
+There is an odd, almost electric feeling in the air.  From here, you may
+approach any of the four altars to the north, south, east or west.  
+~
+45 0 0 0 0 2
+D0
+~
+~
+0 0 4546 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4550 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4548 0 0 0 0 0 0 0 0
+S
+#4548
+The Satyr's Glen~
+An otherwordly green light illuminates this secluded dell within the forest.  
+It is hauntingly quiet here, and there is a feeling of powerful suppressed
+energy oscillating through the air.  Rainwater has collected here within a
+depression in the low-lying ground to create a small pool.  Rising up from the
+soggy puddle, an ancient stone altar stands facing east.  
+~
+45 0 0 0 0 2
+D1
+~
+~
+0 0 4547 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4546 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4550 0 0 0 0 0 0 0 0
+S
+#4549
+The Satyr's Glen~
+An otherwordly green light illuminates this secluded dell within the forest.  
+It is hauntingly quiet here, and there is a feeling of powerful suppressed
+energy oscillating through the air.  There is a charred patch of grass here,
+from which tendrils of smoke constantly snake upwards.  Upon this burnt spot, an
+ancient stone altar stands facing west.  
+~
+45 0 0 0 0 2
+D3
+~
+~
+0 0 4547 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4546 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4550 0 0 0 0 0 0 0 0
+S
+#4550
+The Satyr's Glen~
+An otherwordly green light illuminates this secluded dell within the forest.  
+It is haunting here, and there is a feeling of powerful suppressed energy
+oscillating through the air.  Although tucked away deep within the forest,
+strong gusts of wind swirl about here, causing the leaves to rustle and the
+treetops to sway.  There seems to be no apparent source for the breeze.  An
+ancient stone altar stands facing north.  
+~
+45 0 0 0 0 2
+D0
+~
+~
+0 0 4547 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4548 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4549 0 0 0 0 0 0 0 0
+S
+#4551
+Within the Dense Forest~
+You sense shadowy shapes swooping through the silent woods, just out of sight.
+It is quiet here, save for the rustling of dried leaves and the occasional crack
+of a twig snapping as something walks across it.  Giant spider webs stretch
+across the gaps between the trees, their thin silken strands glimmering in the
+soft light.  The forest becomes much too thick to progress east or south.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4539 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+S
+#4552
+undefined~
+undefined~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4553
+undefined~
+undefined~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4554
+A Trail deeper into the Forest~
+The narrow trail is nearly overgrown with the surrounding wilderness.  Only a
+very thin pathway grants passage through the forest.  The trees on either side
+of the path are packed tightly together, their branches intertwining in a
+complex melange of sharp, spidery offshoots.  It is difficult to see anything
+off the path, but every once in a while a large, shadowy shape can be glimpsed
+gliding through the woods.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4555 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4559 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4556 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4541 0 0 0 0 0 0 0 0
+S
+#4555
+Within the Dense Forest~
+The trees are very densely packed together, their branches chock full of long,
+pointy needles.  Their color is a very deep shade of green, almost black in some
+spots.  The dark sap oozing out of the tree bark is sticky to the touch and
+emits a heady perfumed aroma.  The trail is south, and the forest spreads out in
+all other directions.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4557 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4554 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4543 0 0 0 0 0 0 0 0
+S
+#4556
+Within the Dense Forest~
+Slippery, moss-laden rocks mark this section of the forest.  All around, an
+eclectic collection of blue spruce, sugar pine and giant sequoia stretch up to
+the sky.  Butterflies flutter about in the air while green garter snakes slither
+around underfoot.  A giant woodpile is stacked haphazardly to the south,
+blocking passage in that direction.  There seems to be some sort of trail to the
+north, while the forest continues east and west.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4554 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4558 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4544 0 0 0 0 0 0 0 0
+S
+#4557
+Within the Dense Forest~
+It is dark and shadowy deep within the wood.  Irregular-shaped branches press
+inward from all sides; tangled and twisted, bent and gnarled.  Their rough
+fingers scrape at your skin as you force your way through.  Glowing red eyes can
+be seen floating around in the shadows between the trees.  The forest continues
+north, east and south.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4563 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4561 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4555 0 0 0 0 0 0 0 0
+S
+#4558
+Within the Dense Forest~
+Slippery, moss-laden rocks mark this section of the forest.  All around, an
+eclectic collection of blue spruce, sugar pine and giant sequoia stretch up to
+the sky.  Butterflies flutter about in the air while green garter snakes slither
+around underfoot.  A giant woodpile is stacked haphazardly to the south,
+blocking passage in that direction.  There seems to be some sort of trail to the
+north, while the forest continues east and west.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4559 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4585 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4556 0 0 0 0 0 0 0 0
+S
+#4559
+A Trail deeper into the Forest~
+The narrow trail is nearly overgrown with the surrounding wilderness.  Only a
+very thin pathway grants passage through the forest.  The trees on either side
+of the path are packed tightly together, their branches intertwining in a
+complex melange of sharp, spidery offshoots.  It is difficult to see anything
+off the path, but every once in a while a large, shadowy shape can be glimpsed
+gliding through the woods.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4582 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4558 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4554 0 0 0 0 0 0 0 0
+S
+#4560
+Within the Dense Forest~
+The trees are very densely packed together, their branches chock full of long,
+pointy needles.  Their color is a very deep shade of green, almost black in some
+spots.  The dark sap oozing out of the tree bark is sticky to the touch and
+emits a heady perfumed aroma.  The trail is south, and the forest spreads out in
+all other directions.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4561 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4579 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4559 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4555 0 0 0 0 0 0 0 0
+S
+#4561
+Within the Dense Forest~
+Lichen-encrusted stones and clusters of fallen pine cones characterize this
+section of the forest.  Small piles of animal scat are all over the place,
+sometimes so fresh that they are still steaming.  An old boot lies alone off to
+the side, worn through and useless.  All around, the trees peer down menacingly.
+
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4562 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4557 0 0 0 0 0 0 0 0
+S
+#4562
+Within the Dense Forest~
+Rugged, gnarly roots on the forest floor try to trip you up as you pass.  It
+doesn't help that the ground is uneven and coated with a slick layer of slippery
+mud.  To make matters even worse, every now and then there is a sinkhole in the
+ground, just waiting for you to accidentally step into and snap an ankle.  A
+clearing is to the east.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4565 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4578 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4561 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4563 0 0 0 0 0 0 0 0
+S
+#4563
+Within the Dense Forest~
+It is dark and shadowy deep within the wood.  Irregular-shaped branches press
+inward from all sides; tangled and twisted, bent and gnarled.  Their rough
+fingers scrape at your skin as you force your way through.  Glowing red eyes can
+be seen floating around in the shadows between the trees.  The forest continues
+north, east and south.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4564 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4562 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4557 0 0 0 0 0 0 0 0
+S
+#4564
+Within the Dense Forest~
+It is dark and shadowy deep within the wood.  Irregular-shaped branches press
+inward from all sides; tangled and twisted, bent and gnarled.  Their rough
+fingers scrape at your skin as you force your way through.  Glowing red eyes can
+be seen floating around in the shadows between the trees.  The forest continues
+east and south, being much too dense to travel in any other direction.  
+~
+45 0 ek 0 0 3
+D1
+~
+~
+0 0 4565 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4563 0 0 0 0 0 0 0 0
+S
+#4565
+Within the Dense Forest~
+Rugged, gnarly roots on the forest floor try to trip you up as you pass.  It
+doesn't help that the ground is uneven and coated with a slick layer of slippery
+mud.  To make matters even worse, every now and then there is a sinkhole in the
+ground, just waiting for you to accidentally step into and snap an ankle.  A
+clearing is to the east.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4566 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4575 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4562 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4564 0 0 0 0 0 0 0 0
+S
+#4566
+Within the Dense Forest~
+A giant thorny briar patch serves as a natural fence blocking passage further
+north or west.  There is a little pile of acorns here on the ground; some
+animal's winter collection, perhaps.  The trees are mostly coniferous, but there
+are a few deciduous specimens mixed in.  All around is the musical sound of
+birdsong.  
+~
+45 0 ek 0 0 3
+D1
+~
+~
+0 0 4567 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4565 0 0 0 0 0 0 0 0
+S
+#4567
+Within the Dense Forest~
+Stringy climbing vines intertwine all around the various trees, their thin but
+tough cordage wrapped so tight that it looks like the tree trunks are being
+choked.  Some of the tendrils of ivy are barbed with sharp thorns which pierce
+through the bark, strengthening the impression that the vines are hurting the
+trees.  There is a clearing of sorts to the south.  
+~
+45 0 ek 0 0 3
+D1
+~
+~
+0 0 4568 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4575 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4566 0 0 0 0 0 0 0 0
+S
+#4568
+Within the Dense Forest~
+Stringy climbing vines intertwine all around the various trees, their thin but
+tough cordage wrapped so tight that it looks like the tree trunks are being
+choked.  Some of the tendrils of ivy are barbed with sharp thorns which pierce
+through the bark, strengthening the impression that the vines are hurting the
+trees.  There is a clearing of sorts to the south.  
+~
+45 0 ek 0 0 3
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4576 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4567 0 0 0 0 0 0 0 0
+S
+#4569
+Within the Dense Forest~
+This corner of the wood is somewhat cold and dank.  A horseshoe-shaped rock
+cliff towers up to the northeast.  From high atop this cliff, a frigid
+mini-waterfall trickles down.  The water is absorbed into the spongy moss of the
+forest floor almost immediately upon reaching it.  A damp mist rises up from
+wherever the icy water splashes.  
+~
+45 0 ek 0 0 3
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4570
+Within the Dense Forest~
+Holly and thistle grow wildly in this part of the forest, flourishing alongside
+dandelions and blueberry bushes.  A symphony of different wildlife sounds
+resonates through the woods: birds chirping, insects buzzing, and larger animals
+crashing heedlessly through the brush.  The surrounding trees are covered with
+fuzzy moss.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4571 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4576 0 0 0 0 0 0 0 0
+S
+#4571
+Within the Dense Forest~
+Holly and thistle grow wildly in this part of the forest, flourishing alongside
+dandelions and blueberry bushes.  A symphony of different wildlife sounds
+resonates through the woods: birds chirping, insects buzzing, and larger animals
+crashing heedlessly through the brush.  The surrounding trees are covered with
+fuzzy moss.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4570 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4572 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4577 0 0 0 0 0 0 0 0
+S
+#4572
+Within the Dense Forest~
+Holly and thistle grow wildly in this part of the forest, flourishing alongside
+dandelions and blueberry bushes.  A symphony of different wildlife sounds
+resonates through the woods: birds chirping, insects buzzing, and larger animals
+crashing heedlessly through the brush.  The surrounding trees are covered with
+fuzzy moss.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4571 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4581 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+S
+#4573
+Within the Dense Forest~
+A particularly large sequoia stretches up into the forest canopy overhead,
+dwarfing the surrounding trees.  Looking closer, there appear to be finger and
+toeholds cut into the thick bark, making it possible to climb up the massive
+tree.  The forest thins out a bit to the north.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4577 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4572 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4580 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4597 0 0 0 0 0 0 0 0
+S
+#4574
+Within the Dense Forest~
+Lichen-encrusted stones and clusters of fallen pine cones characterize this
+section of the forest.  Small piles of animal scat are all over the place,
+sometimes so fresh that they are still steaming.  There is a particularly large
+anthill here on the ground, teeming forth with the usual residents.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4578 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4579 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4561 0 0 0 0 0 0 0 0
+S
+#4575
+A small clearing in the forest~
+This little clearing is a small oasis of peace within the dark and twisted
+forest.  The bright emerald greenness of the soft grass contrasts with the
+suffocating tangle of black trees that presses in from the north and west.  
+Clusters of yellow and purple wildflowers give off a pleasant floral scent.  
+The clearing continues east and south.  
+~
+45 0 k 0 0 2
+D0
+~
+~
+0 0 4567 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4576 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4578 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4565 0 0 0 0 0 0 0 0
+S
+#4576
+A small clearing in the forest~
+This little clearing is a small oasis of peace within the dark and twisted
+forest.  The bright emerald greenness of the soft grass contrasts with the
+suffocating tangle of black trees that presses in from the north and east.  
+Clusters of red and blue wildflowers give off a pleasant floral scent.  The
+clearing continues west and south.  
+~
+45 0 k 0 0 2
+D0
+~
+~
+0 0 4568 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4570 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4577 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4575 0 0 0 0 0 0 0 0
+S
+#4577
+A small clearing in the forest~
+This little clearing is a small oasis of peace within the dark and twisted
+forest.  The bright emerald greenness of the soft grass contrasts with the
+suffocating tangle of black trees that presses in from the east and south.  
+Clusters of black and silver wildflowers give off a pleasant floral scent.  The
+clearing continues north and west.  
+~
+45 0 k 0 0 2
+D0
+~
+~
+0 0 4576 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4571 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4578 0 0 0 0 0 0 0 0
+S
+#4578
+A small clearing in the forest~
+This little clearing is a small oasis of peace within the dark and twisted
+forest.  The bright emerald greenness of the soft grass contrasts with the
+suffocating tangle of black trees that presses in from the south and west.  
+Clusters of white and orange wildflowers give off a pleasant floral scent.  The
+clearing continues north and east.  
+~
+45 0 k 0 0 2
+D0
+~
+~
+0 0 4575 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4577 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4562 0 0 0 0 0 0 0 0
+S
+#4579
+Within the Dense Forest~
+The trees are very densely packed together, their branches chock full of long,
+pointy needles.  Their color is a very deep shade of green, almost black in some
+spots.  The dark sap oozing out of the tree bark is sticky to the touch and
+emits a heady perfumed aroma.  The trail is south, and the forest spreads out in
+all other directions.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4580 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4582 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+S
+#4580
+Within the Dense Forest~
+The trees are very densely packed together, their branches chock full of long,
+pointy needles.  Their color is a very deep shade of green, almost black in some
+spots.  The dark sap oozing out of the tree bark is sticky to the touch and
+emits a heady perfumed aroma.  The trail is south, and the forest spreads out in
+all other directions.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4581 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4583 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4579 0 0 0 0 0 0 0 0
+S
+#4581
+Within the Dense Forest~
+The trees are very densely packed together, their branches chock full of long,
+pointy needles.  Their color is a very deep shade of green, almost black in some
+spots.  The dark sap oozing out of the tree bark is sticky to the touch and
+emits a heady perfumed aroma.  The trail is south, and the forest extends north
+and west.  
+~
+45 0 ek 0 0 3
+D0
+~
+~
+0 0 4572 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4584 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4580 0 0 0 0 0 0 0 0
+S
+#4582
+A Trail deeper into the Forest~
+The narrow trail is nearly overgrown with the surrounding wilderness.  Only a
+very thin pathway grants passage through the forest.  The trees on either side
+of the path are packed tightly together, their branches intertwining in a
+complex melange of sharp, spidery offshoots.  It is difficult to see anything
+off the path, but every once in a while a large, shadowy shape can be glimpsed
+gliding through the woods.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4579 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4583 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4585 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4559 0 0 0 0 0 0 0 0
+S
+#4583
+Along the Woodcutter's Trail~
+The branches have been trimmed back enough to create a space suitable for
+walking.  All around, densely packed trees loom as if standing guard over the
+happy little trail.  Now and then you see signs of habitation such as a small
+stack of sticks or a footprint in the mossy mud.  The woodcutter's trail bends
+here to the east and south, while dense forest presses in to the north.  
+Westward, the trail becomes darker as it heads deeper into the woods.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4580 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4584 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4586 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4582 0 0 0 0 0 0 0 0
+S
+#4584
+Along the Woodcutter's Trail~
+The branches have been trimmed back enough to create a space suitable for
+walking.  All around, densely packed trees loom as if standing guard over the
+happy little trail.  Now and then you see signs of habitation such as a small
+stack of sticks or a footprint in the mossy mud.  The woodcutter's trail
+continues east and west, while dense forest presses in to the north and south.
+
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 4581 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4599 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4587 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4583 0 0 0 0 0 0 0 0
+S
+#4585
+Within the Dense Forest~
+A tiny fruit orchard has been planted here in the middle of the forest.  
+Instead of the usual pines and spruces, there are apple, cherry, and even pear
+trees here.  The orchard looks well-tended, with neatly trimmed branches and a
+few empty wooden baskets placed off to the side.  The mouth watering scent of
+fresh fruit wafts through the air.  
+~
+45 c e 0 0 3
+D0
+~
+~
+0 0 4582 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4586 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4594 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4558 0 0 0 0 0 0 0 0
+S
+#4586
+Along the Woodcutter's Trail~
+The branches have been trimmed back enough to create a space suitable for
+walking.  All around, densely packed trees loom as if standing guard over the
+happy little trail.  Now and then you see signs of habitation such as a small
+stack of sticks or a footprint in the mossy mud.  The trail continues north,
+while forest presses inward to the east and west.  A small cabin is directly
+south.  
+~
+45 c 0 0 0 10
+D0
+~
+~
+0 0 4583 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4587 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4588 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4585 0 0 0 0 0 0 0 0
+S
+#4587
+Within the Dense Forest~
+This is a jolly little section of forest, hemmed in on three sides by the
+woodcutter's trail.  To the east, a rustic wooden fence has been erected, behind
+which can be seen a small, orderly vegetable garden.  Patches of grass mingle
+with bright clover and delicate buttercups.  This is a great spot for a picnic.
+
+~
+45 c e 0 0 3
+D0
+~
+~
+0 0 4584 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4593 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4586 0 0 0 0 0 0 0 0
+S
+#4588
+In front of the Woodcutter's Cabin~
+A small trail cut out from the ever-thickening forest goes around the
+Woodcutter's cabin.  An open area of light forest populates the land to the
+immediate north.  A trail of footsteps can be made out along the path, leading
+from the northern light forest, and traveling around the west side of this
+structure.  The doorway leading into the cabin is shaded by a canvas awning.  
+The trail continues around the cabin.  
+~
+45 c 0 0 0 10
+D0
+~
+~
+0 0 4586 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4593 0 0 0 0 0 0 0 0
+D2
+a cabin door
+~
+door~
+1 4509 4589 20 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4594 0 0 0 0 0 0 0 0
+S
+#4589
+Inside of the Woodcutter's Cabin~
+The inside of this large wood cabin seems like it was occupied recently.  The
+coals in the hearth still show some signs of heat, although smoke no longer
+rises from the dull embers.  An eerie presence fills your bones as you realize
+the walls are watching you, with the mounted heads of deer looking from all
+walls towards the center of the room.  Stained and scratched, a large table with
+four chairs is in the center of the room, notches of wood taken out of it with
+the edge of an axe.  Small windows on all sides of the cabin let in the fresh
+forest air, but are small enough to keep the outside world unseen.  
+~
+45 0 0 0 0 0
+D0
+a cabin door
+~
+door~
+1 4509 4588 20 0 0 0 0 0 0 0
+D2
+a cabin door
+~
+door~
+1 4509 -1 20 0 0 0 0 0 0 0
+E
+hearth~
+The hearth emits a light amount of heat as the embers at the base fade.  Food
+was cooked here very recently, and the light smell of a delicious stew still
+fills the air.  A large pot hangs above the hearth, closed with a lid.  
+~
+E
+mounted heads deer~
+The deer heads adorning three of the four walls are all from very large bucks.
+Their massive antlers loom near the ceiling.  Stoic and stern, the deer heads
+all face the center of the room with unfocused black marbles for eyes.  
+~
+E
+stained large table notches~
+The large table appears to be made of oak, and has been stained into a very dark
+earthy tone.  Large chunks of wood crack out from the surface, signs of blade or
+axe being hacked into the surface.  If you squint just right, it looks as if
+someone has written instructions here.  
+~
+E
+small windows~
+Very small windows adorn the walls of the cabin, more as a means of letting in
+fresh air then letting in the scenary of the forest.  Steel mesh covers all of
+the holes in the walls, keeping critters from being able to get into the cabin.
+One of the small window sills has a book left on it.  If you reach high enough,
+you should be able to pull it off the sill.  
+~
+E
+instructions~
+Don't forget your book.  Take it with you to the treetops.  
+~
+S
+#4590
+undefined~
+undefined~
+45 0 0 0 0 10
+D0
+a cabin door
+~
+door~
+1 4509 -1 20 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4591
+undefined~
+undefined~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4592
+A Path towards the Forest~
+The path between southern Luskan and the woods is quite a small trail, much too
+small for merchant trade but just wide enough for one or two horses.  Pine trees
+populate much of the surrounding woods, and block off visibility into the deeper
+expanses of the forest.  
+~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 417 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4500 0 0 0 0 0 0 0 0
+S
+#4593
+Around the Woodcutter's Cabin~
+A small trail cut out from the ever-thickening forest goes around the
+Woodcutter's cabin.  An open area of light forest populates the land to the
+immediate north.  Branches dip down from the pine trees surrounding the eastern
+side of the cabin, making the path south appear very harsh.  The path continues
+around both sides of the cabin, and a trail leads into the northern forest.  
+~
+45 c 0 0 0 10
+D0
+~
+~
+0 0 4587 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4588 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4594
+Around the Woodcutter's Cabin~
+A small trail cut out from the ever-thickening forest goes around the
+Woodcutter's cabin.  An open area of light forest populates the land to the
+immediate north.  A trail of footsteps can be made out along the path, leading
+from the front of the cabin around to the west side.  Leaning against the house,
+a small pile of rocks has been stacked, only a few inches in height.  The trail
+continues around the cabin.  
+~
+45 c 0 0 0 10
+D0
+~
+~
+0 0 4585 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4588 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4595
+undefined~
+undefined~
+45 0 0 0 0 10
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4596
+@nInside of a Cave@n~
+Entering the cave, a pungent foul smell fills the air.  A large boulder has been
+cut to flatten its top, and is being used as a table in the center of the cave.
+Atop it, a small magical flame glows and casts shadows on all of the caves
+walls.  A small bed made of leaves is built along the east wall of the cave.  
+~
+45 c 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4513 0 0 0 0 0 0 0 0
+S
+#4597
+Up in a Tree~
+You cling precariously to the side of a giant sequoia tree, about halfway up its
+massive trunk.  The bark is thick, with a somewhat spongy texture, and has
+enough small holes in it to make climbing possible, albeit challenging.  Small
+bugs living in the bark occasionally scurry across your fingertips.  There seems
+to be some sort of platform above.  
+~
+45 c 0 0 0 3
+D4
+~
+~
+0 0 4598 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+S
+#4598
+Top of the Tree~
+A varied assortment of thin planks has been nailed together up in the top
+branches of the sequoia, making a crude platform of sorts.  Below, the vast
+expanse of the forest stretches out in all directions.  Just north of here is a
+sunny clearing, while far off to the west can be seen a barren hilltop in the
+distance.  To the south, a thin tendril of wood smoke snakes its way up out of
+the forest, possibly from a cabin.  There is nothing but trees in any other
+direction.  
+~
+45 0 0 0 0 3
+D5
+~
+~
+0 0 4597 0 0 0 0 0 0 0 0
+S
+#4599
+The beginning of a Woodcutter's Trail~
+You stand at the edge of a dense forest.  Just ahead, a narrow trail heads into
+a gap cut between the trees.  There is a soft stillness in the air, which
+blossoms with the intermingling scents of pines and cedars.  There are axe marks
+on some of the outer trees.  
+~
+45 c 0 0 0 10
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4500 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4584 0 0 0 0 0 0 0 0
+S
+$~

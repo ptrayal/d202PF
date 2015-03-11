@@ -1,0 +1,193 @@
+#11400
+large well built standing motionless guard~
+a large, well-built warrior~
+Standing motionless, this large well-muscled warrior guards the door.
+~
+   Standing motionless at the doors to the palace is a large well-built
+warrior.  His eyes seem to scan all the area around him, making sure he doesn't
+miss anything that goes on.  His hand stays on the hilt of his sword, ready to
+pull it out at a moments notice.    
+~
+d 0 0 0 k 0 0 0 1000
+22 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11401
+tall muscular guard patrolling~
+a tall muscular guard~
+Patrolling the area, a tall muscular guard passes by you.
+~
+   Patrolling the palace halls is a very large, musuclar warrior.  His eyes
+seem to take in everyone and everything around him as he looks for signs of
+trouble.  He is dressed in highly polished armor and his hand grips the hilt of
+his sword, ready to pull it out in a moments notice.    
+~
+d 0 0 0 k 0 0 0 1000
+27 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11402
+muttering mage spellcaster ancient ~
+an ancient, insane spellcaster~
+Muttering quietly to himself, this ancient spellcaster flips through a book.
+~
+   This ancient spellcaster before you flips through some sort of book and
+mutters quietly to himself.  His long hair and beard has been greyed by the
+passing of time, but his face still seems rather youthful.  His is dressed in
+long white flowing robes, that seem to catch under his feet when he walks,
+almost tripping him.    
+~
+d 0 0 0 k 0 0 0 1000
+33 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11403
+captain guard ~
+the captain of the guard~
+The Captain of the Guard grips his weapon as you approach.
+~
+   Before you stands a massive warrior.  His face and arms show the scars of
+numerous battles.  He is very well muscled, his armor looks as though two men
+could easily fit into it.  As he notices your unexpected arrival into his
+office, he quickly looks up from his work.    
+~
+d 0 0 0 k 0 0 0 1000
+35 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11404
+frustrated busy ambassador ~
+a frustrated, busy ambassador~
+Pouring over a stack of paperwork, the ambassador sits behind his desk.
+~
+   Looking through a stack of papers on his desk, the ambassord mutters to
+himself.  He seems to be rather frustrated with something, or perhaps just from
+all the work.  His hand runs through his thinning red hair, and his eyes show a
+man suffering from a lack of sleep.  As he notices you enter his room, he looks
+up from his work.    
+~
+d 0 0 0 k 0 0 0 1000
+29 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#11405
+Anias Lord~
+Lord Anias~
+Sifting through a stack of papers, Lord Anias sits behind his desk.
+~
+   Sitting behind his desk going through a stack of papers is Lord Anias.  He
+is dressed in long flowing robes.  His short dark hair has streaks of grey
+running through it.  His hands and face show little sings of age, though his
+eyes show a lack of sleep.  As you walk into his study he looks up from his
+papers.    
+~
+d g 0 0 k 0 0 0 1000
+29 -1 -40 15950d290+119 1d8+21
+71 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 24
+S
+#11406
+hurried servant ~
+a hurried servant~
+One of the many servants scurries about the room tidying things up.
+~
+   Quickly moving about the room, this servant carries fresh linens to the bed.
+He is cleanign things up as quickly as possible so that he will be out of the
+room by time the occupant comes back to their room.  He doesn't even really
+seem to pay you much notice, hes to busy making sure he gets his job done.    
+~
+d 0 0 0 k 0 0 0 1000
+22 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

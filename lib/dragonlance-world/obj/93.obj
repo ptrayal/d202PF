@@ -1,0 +1,1066 @@
+#9300
+key obsidian Luerkhisis~
+an obsidian key inlaid with flawless sapphires~
+A highly polished obsidian key inlaid with dozens of flawless sapphires lies here.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9301
+key granite forest green Luerkhisis~
+a smooth, forest green granite key~
+A smooth granite key lies on the ground collecting dust.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9302
+key thick iron Luerkhisis~
+a thick, dented iron key hanging from a golden chain~
+A thick, dented iron key lies here attached to a golden chain.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9303
+desk mahogany large~
+a large, mahogany desk~
+A large, mahogany desk sits imposingly against the northern wall.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+57600 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9304
+sword bastard petrified wood Luerkhisis~
+a two-handed bastard sword carved from petrified wood~
+A heavy bastard sword carved from coal black petrified wood stands impaled in the ground.~
+~
+5 jklprstuxBCEF ac kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 10000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9305
+gauntlets steel mesh Luerkhisis~
+a set of heavy steel mesh gauntlets~
+Two steel mesh gauntlets lie here in a heavy pile.~
+~
+9 jklnpstuBCEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 3000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9306
+belt wide steel Luerkhisis~
+a wide, steel plated belt~
+A wide steel belt lies wrapped on the ground.~
+~
+9 jklnprstBCDEF abcu stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 2500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9307
+dagger ivory razor sharp Luerkhisis~
+an ivory hilted, razor sharp dagger~
+A small dagger with a vicious blade lies dangerously on the ground.~
+~
+5 jklmoprstuvBCDEF abc lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9308
+cuirass blood red steel Luerkhisis~
+a blood red cuirass of tempered steel~
+A blood red cuirass wails softly as the wind blows through it.~
+~
+9 jklnpstCF au stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+25 3500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+20 1 0
+A
+14 -5 0
+A
+13 3 0
+#9309
+amulet red watch symbol Luerkhisis~
+an amulet depicting the symbol of the Red Watch~
+A dull golden amulet engraved with twin dragons lies here.~
+~
+11 knopqrstuvwBDEF ac stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+amulet~
+   This corroded golden amulet hangs heavily on a chain of blackened steel.  
+It depicts two enormous dragons circling each other in the skies, engaged in a
+battle to the death.    
+~
+A
+6 -1 0
+A
+13 5 0
+#9310
+band ruby serpents jade Luerkhisis~
+a ruby band ornamented with small jade serpents~
+A solid ruby band glistens brightly as light hits its surface.~
+~
+11 kmnopqrstuvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+#9311
+broadsword sword large double Luerkhisis~
+a large, double-edged broadsword~
+A long, double-edged broadsword rocks slightly on its side.~
+~
+5 jkloprstuvBCEF ac kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+18 1 0
+#9312
+kris blood wavy Luerkhisis~
+a wavy, blood-stained kris~
+A kris with a wavy, blood-stained blade lies here half-buried under debris.~
+~
+5 kprstuBCDEF abc lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 -1 0
+#9313
+legplates barbed Luerkhisis~
+a set of barbed legplates~
+A set of steel legplates with curved barbs lean against each other on the ground.~
+~
+9 jklpstuBCEF a stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9314
+bracer woven silk blue Luerkhisis~
+a bracer woven from fine blue silk~
+A sky blue bracer of finely woven silk lies by itself on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 750 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9315
+helm winged cobalt Luerkhisis~
+a winged helm of finely crafted cobalt~
+A winged helm of finely crafted cobalt lies upside down on the ground.~
+~
+9 jklpqstBCDEF ab stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9316
+shield bones dracolich Luerkhisis~
+a shield formed from the bones of a dracolich~
+A shield constructed of large reptilian bones rocks back and forth on the ground.~
+~
+9 aklnpqstuBCDEF abcu stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9317
+pelt hellhound Luerkhisis~
+a freshly skinned pelt of a hellhound~
+The bloody hide of an undead beast lies motionless on the ground.~
+~
+9 klmnopqruvwBCDEF abcu stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 7 0
+#9318
+sheath scales basilish Luerkhisis~
+a sheath fashioned from the scales of a basilisk~
+A thin sheath crafted from the scales of a large basilisk lies here undisturbed.~
+~
+15 jklpqrstuBCDEF abcu stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 5000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+A
+17 -6 0
+#9319
+helm granite Luerkhisis~
+a granite helm adorned with the tusks of a thanoi~
+A heavy granite helm with two tusks protruding from its sides lies here.~
+~
+9 jklpquwBCDEF abu stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 5000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#9320
+staff obsidian magma Luerkhisis~
+an obsidian staff imbued with an orb of surging magma~
+A staff imbued with an orb of flowing lava singes the ground it lies upon~
+~
+5 akmqxBCDEF abc kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9321
+flail gruesome evil Luerkhisis~
+a gruesome flail of irrepressible evil~
+A gruesome flail lies on the ground, concealing itself within its own shadows.~
+~
+5 ahknqxBCDEF abcu lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+flail~
+   Curved, wickedly sharp iron barbs jut out at random intervals along the
+sides of this massive flail.  The bases of the barbs have been stained a deep
+crimson color from the blood of the thousands of lives it has ended.    
+~
+#9322
+chain metal dragon Luerkhisis~
+a corroded metal chain with the emblem of a five-headed dragon~
+A corroded metal chain lies on the ground, attached to a dark symbol of a metal dragon.~
+~
+9 knqrtwBCDEF abcu stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+13 5 0
+#9323
+bracer dragonscale sanguine Luerkhisis~
+a sanguine dragonscale bracer intricately woven with metallic fibers~
+A blood-red bracer woven from beautifully curved dragon scales lies surprisingly on the ground.~
+~
+9 knoqrstuvwBCDEF abcu stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 1 0
+A
+21 1 0
+#9324
+helm night blue dragon Luerkhisis~
+a night blue, dragon-faced helm~
+A deep blue helm crafted to resemble the head of a dragon lies intimidatingly on the ground.~
+~
+9 bhknpqrstuBCDEF abu stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+helm~
+   Two curved yellow horns protrude from the sides of this dragon-faced helm.
+Golden trim encircles the eye slits, connecting them together in the center
+with an intricate, ceremonial design.  Jagged teeth, wripped from the mouths of
+yearling chromatic dragons, line the open mouth of the helm, giving it the
+appearance of an angered dragon.    
+~
+E
+night~
+   Two curved yellow horns protrude from the sides of this dragon-faced helm.
+Golden trim encircles the eye slits, connecting them together in the center
+with an intricate, ceremonial design.  Jagged teeth, wripped from the mouths of
+yearling chromatic dragons, line the open mouth of the helm, giving it the
+appearance of an angered dragon.    
+~
+E
+blue~
+   Two curved yellow horns protrude from the sides of this dragon-faced helm.
+Golden trim encircles the eye slits, connecting them together in the center
+with an intricate, ceremonial design.  Jagged teeth, wripped from the mouths of
+yearling chromatic dragons, line the open mouth of the helm, giving it the
+appearance of an angered dragon.    
+~
+E
+dragon~
+   Two curved yellow horns protrude from the sides of this dragon-faced helm.
+Golden trim encircles the eye slits, connecting them together in the center
+with an intricate, ceremonial design.  Jagged teeth, wripped from the mouths of
+yearling chromatic dragons, line the open mouth of the helm, giving it the
+appearance of an angered dragon.    
+~
+A
+1 1 0
+A
+18 1 0
+#9325
+table rosewood~
+a heavily lacquered, circular rosewood table~
+A heavily lacquered, circular rosewood table sits firmly in the center of the room.~
+~
+12 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34464 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9326
+vial rosemary Luerkhisis~
+a vial of crushed rosemary~
+A vial full of a crushed herb rolls along the ground.~
+~
+10 jklmnopqrstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9327
+sceptre salt Luerkhisis~
+a sceptre of pure salt~
+A sceptre carved of pure salt lies upon the ground.~
+~
+4 ajklmnopqrvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9328
+crossbow ornate sturdy Luerkhisis~
+a sturdy, ornate crossbow~
+A crossbow of exceptional craftsmanship lies alone on the ground.~
+~
+5 jkprxBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 15000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9329
+belt eagle feathers Luerkhisis~
+a belt of woven eagle feathers~
+A belt of white and brown eagle feathers flaps in the wind.~
+~
+9 jklmpruwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 7 0
+#9330
+case scroll Luerkhisis~
+a tightly sealed scroll case~
+A tightly sealed scroll case rolls along the ground.~
+~
+15 jklmnoprstuvwBCDEF abcu stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 5000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9331
+scroll dusty Luerkhisis~
+a dusty scroll inscribed with human blood~
+A dusty scroll wrapped with the vines of a willow tree lies here.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9332
+scroll scorched Luerkhisis~
+a scorched scroll inscribed with faded blue ink~
+A singed scroll inscribed with soft blue ink lies wrapped on the ground.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9333
+scroll torn Luerkhisis~
+a torn scroll decorated with gold trim~
+A slightly torn scroll decorated with gold trim lies partially unbound.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9334
+scroll crimson Luerkhisis~
+a crimson scroll sealed with the symbol of a five-headed dragon~
+A crimson scroll sealed with the symbol of a five-headed dragon rests on the ground.~
+~
+2 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9335
+armguards splint Luerkhisis~
+a set of splint mail armguards~
+A pair of split mail armguards lie here side by side.~
+~
+9 jklnprstBCDEF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 4000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -3 0
+#9336
+broadsword sword heavy iron Luerkhisis~
+a heavy iron broadsword~
+A heavy iron broadsword lies heavily upon the ground.~
+~
+5 jkloprstuBCDEF abc kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+13 2 0
+#9337
+fang curved dragon Luerkhisis~
+a curved fang of an adult copper dragon~
+The curved fang of an ancient dragon lies sadly on the ground.~
+~
+5 ajpqruBCDEF abc lstuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+18 1 0
+A
+21 1 0
+A
+20 1 0
+#9338
+shroud eternal darkness Luerkhisis~
+a shroud of eternal darkness~
+A shroud hidden within its own shadows lies here.~
+~
+9 aknopqrstuvwBCDEF abcu stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+2 1 0
+#9339
+cudgel granite mindless spite Luerkhisis~
+a granite cudgel of mindless spite~
+A gigantic cudgel formed of pure granite lies heavily upon the ground.~
+~
+5 aklpquxBCDEF abcu stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 0 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 -2 0
+A
+4 -2 0
+A
+19 1 0
+#9340
+robe red exceptionally vivid Luerkhisis~
+an exceptionally tailored, vivid red robe~
+A cloak of superb craftsmanship lies on the ground collecting dirt.~
+~
+9 kmnqBCDEF abcu stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -2 0
+#9341
+gloves white satin blood Luerkhisis~
+a pair of blood-stained, white satin gloves~
+A pair of bloodied gloves lie in a small pile.~
+~
+9 jklmnopqrvwBCDEF ab stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+A
+6 1 0
+#9342
+key~
+a tarnished key of warped copper~
+A warped copper key lies awkwardly on the ground.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9343
+keyring thin gold~
+a thin keyring of pure gold~
+A thin keyring of pure gold lies here unspoken for.~
+~
+15 cjklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9344
+chest enormous~
+an enormous, gem-lined treasure chest~
+An enormous golden treasure chest rests against the northern wall.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5000 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9345
+chest platinum~
+a platinum chest lined with finely polished emeralds~
+A platinum chest lined with finely polished emeralds sits in the center of the room.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+50000 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9346
+coin platinum~
+a small platinum coin from the Istarian Empire~
+A small, slightly dented platinum coin from the ancient Istarian Empire lies here.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9347
+spellbook book ancient Luerkhisis~
+an ancient spellbook of immense value~
+An ancient spellbook hums quietly as rests by itself on the ground.~
+~
+25 jklmBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+#9348
+coins mountain~
+a golden mountain of coins~
+A mountain of coins fills the entire chest.~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+50 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9349
+gemstones handful~
+a handful of precious gemstones~
+A small pile of precious gemstones have been foolishly left here.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9350
+horn unicorn spiraling~
+a spiraling unicorn's horn~
+A spiraling horn of an extinct unicorn lies here mysteriously.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9351
+coins mountain~
+a golden mountain of coins~
+A mountain of coins fills the entire chest.~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+50 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9352
+egg~
+an unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9353
+egg cracked~
+a slightly cracked, unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9354
+egg~
+an unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9355
+egg cracked~
+a slightly cracked, unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9356
+egg~
+an unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9357
+egg cracked~
+a slightly cracked, unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9358
+egg~
+an unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9359
+egg cracked~
+a slightly cracked, unhatched egg of a chromatic dragon~
+An unhatched egg of a chromatic dragon lies in a large heap with others.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9360
+parchment sheet~
+an unbound sheet of parchment~
+An unbound sheet of parchment marked with the official seal of the Red Dragonarmy lies here.~
+~
+12 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+parchment~
+Dracart,
+  Her Majesty has expressed considerable pleasure in your rituals involving
+the chromatic dragon eggs.  Due to a small rebellion in the southern Ice Wall
+region, you will need to speed up production of the Sivak draconians to 
+ensure a prompt quelling of those who wish to hinder our progress.
+                      Emperor Ariakas
+~
+#9361
+desk wooden~
+a simple wooden desk~
+A simple wooden sits here covered by a variety of parchments and scrolls.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5000 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9362
+desk rosewood drawer simple~
+a simple rosewood desk~
+A simple rosewood desk sits here with a drawer slightly ajar.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5000 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9363
+heap coins~
+a heap of golden and silver coins~
+A heap of golden and silver coins covers a large portion of the floor.~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9364
+pile coins~
+a small pile of dusty coins~
+A small pile of dusty coins lies stacked against a corner of the room.~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9365
+vial sticky glass oil~
+a sticky glass vial of lamp oil~
+A sticky glass vial of black lamp oil drips slightly on the ground.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#9366
+key polished oyster~
+a smoothly polished key carved from the shell of a giant oyster~
+A smooth key carved from the shell of a giant oyster lies here.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

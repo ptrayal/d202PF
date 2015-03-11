@@ -1,0 +1,821 @@
+#600
+serpentine serpent snake water long~
+a giant water snake~
+A large serpentine creature slithers in the wet darkness, awakened by your presence.
+~
+   This creature must be the length of 6 men lying end to end.  Heavy scales
+cover its body from head to tail, and cold black eyes stare at you from within
+it's deeply muscled head.  You wonder at how long this creature has lived here
+and how old it is, for it looks old indeed.    
+~
+d 0 0 0 k 0 0 0 -900
+18 11 -17 216d100+100 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#601
+ogre enraged pain~
+an enraged ogre~
+An ogre in pain, obviously enraged, is in a foul mood.
+~
+   This ogre is obviously in a foul mood.  His hair is slightly singed, and he
+is missing part of an eyebrow.  His armor is still smoking from where hot bits
+of metal were in contact with leather.  Because of his mood, he is much more
+dangerous if he hits you, so it's a good thing he's too much in pain to
+concentrate.    
+~
+d 0 0 0 k 0 0 0 -900
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#602
+ogre blind pain~
+a blind ogre~
+An ogre that has his eyes burnt swings about frantically in pain.
+~
+   Having both eyes damaged by fire has this ogre seething with rage.  He
+lashes out in a berserker rage, trying to find the source of his pain.  You
+notice his armor has been singed as well, but he has had time to recover from
+whatever injury caused to him, except, of course, to his eyes.    
+~
+d 0 0 0 k 0 0 0 -900
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#603
+gnoll tracker~
+a gnoll tracker~
+A gnoll tracker sniffs at a patch of blood on the ground.
+~
+   Dressed in the skins of various creatures, including humanoids such as
+elves, humans and dwarves, this tracker has his nose to the ground near a pool
+of blood.  His ears prick up as he hears you nearby and he doesn't hesitate to
+attack you.    
+~
+d 0 0 0 k 0 0 0 -900
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#604
+hyena hungry ravenous~
+a hungry hyena~
+A ravenous hyena feeds on the remains of the dead.
+~
+   With short, fuzzy hair covering its entire body, this dog-like creature has
+a pelt of dirty blue-gray.  As it paces around the object of its interest, it
+makes a saw-saw sound in its throat, much like a mocking laughter.  You assume
+that it might be mocking its latest meal, then again, it could be you.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#605
+gnoll bloodthirsty~
+a bloodthirsty gnoll~
+A bloodthirsty gnoll focuses totally on the task ahead of him.
+~
+   This shaggy-haired gnoll is intent on the prey that is beyond, and is not
+aware of much else.  Focusing all his senses on his prey, he is oblivious to
+any other threat.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#606
+gnoll hunter assassin~
+a gnoll hunter~
+A gnoll hunter lies in wait for any prey to ambush.
+~
+   A feral grin lights up this gnoll's face as he sees you as potential prey.
+He has been waiting here for a long time, ready to make short work out of
+anyone who comes by.  He waits for you to come by before he readies his weapon
+to ambush you.    
+~
+d 0 0 0 k 0 0 0 -900
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#607
+hobgoblin short impatient~
+a short, impatient hobgoblin~
+A short hobgoblin lies in wait impatiently here.
+~
+   This short figure has been lying in wait for some time, hence explaining his
+impatience.  Dressed in animal skins and wielding crude weapons, hobgobins are
+only a threat when they attack in numbers.  Like now.    
+~
+d 0 0 0 k 0 0 0 -900
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#608
+mage white-robed~
+a nervous white-robed mage~
+A white-robed mage looks nervously at anyone coming close.
+~
+   This mage has had considerable experience at the feet of her master, and
+even some combat experience.  However she is very aware of the danger that she
+is in, and the odds do not look good.  Glancing around with wide eyes, she
+appears nervous, and the last syllable of an offensive spell are on her lips.
+~
+d 0 0 0 k 0 0 0 900
+18 11 -8 72d50+95 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#609
+warrior elven keen-eyed~
+a keen-eyed elven warrior~
+A keen-eyed elven warrior watches out for her enemies.
+~
+   An elven warrior with short-cropped blonde hair is here, her keen eyes
+picking out dangers before they come.  She is dressed in leather clothing, and
+has a firm musculature that comes from hard work.  She stands calmly relaxed as
+she awaits her enemies with firm determination.    
+~
+d 0 0 0 k 0 0 0 900
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#610
+bear irritated~
+an irritated bear~
+A large bear takes it's annoyance out on you!
+~
+   This large bear, weighing close to three hundred pounds, is very very
+annoyed at something.  He plans to placate himself by releasing his agitation
+out on something living.  Like you.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#611
+hunter terrified~
+a terrified hunter~
+A terrified hunter looks over his shoulder for danger.
+~
+   A man dressed in deerskin is looking very afraid of even the slightest
+noise.  He jumps as he hears your footsteps, but ignores you as if you aren't
+his main problem.  He is carrying a broken bow and arrow, ruined beyond repair.
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#612
+elf wary kagonesti~
+a wary kagonesti elf~
+A kagonesti elf gets ready to launch himself against his attackers.
+~
+   With her face painted, this kagonesti elf looks fiercer than she ever could.
+Snarling as she charges into battle, this elf launches herself at her enemies
+with wild abandon, wrecking havoc and inflicting damage.    
+~
+d 0 0 0 k 0 0 0 900
+18 11 -17 216d50+95 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#613
+wizard white~
+an elf of the white robes~
+An elf wearing white robes will carry out his duties here.
+~
+   Wearing white robes that hang to his ankles, this wizard has elfin features
+that clearly mark his descent.  Thrusting himself forward towards any threat,
+he carries out his duties as a mentor, bodyguard and friend.    
+~
+d 0 0 0 k 0 0 0 900
+18 11 -8 72d50+95 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#614
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#615
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#616
+guardian vine~
+a vine guardian~
+A creature made up of vines stands stoically here.
+~
+   A mass of vines in a humanoid shape stands here impassively.  There are no
+eyes, ears, nose or mouth from what you can see of its 'head', but you sense
+that it is watching your every move.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -11 198d280+118 1d8+9
+29 0 32 7
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+#617
+sprite water~
+a water sprite~
+A knee-high water sprite is here playing.
+~
+   This strange creature is only as tall as your knee.  With an impish look and
+elvish ears, the water sprite is both mischevious and playful.  It takes great
+joy out of playing in and out of the water.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -8 72d200+110 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#618
+horse winged~
+a young winged horse~
+A winged horse, too young to fly, is grazing here.
+~
+   With a coat of the purest white, this winged horse's wings are still too
+small to carry it.  Barely a foal, this young horse grazes innocently here.  
+~
+d 0 0 0 k 0 0 0 0
+18 11 -15 234d280+118 1d8+9
+29 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+#619
+dryad young~
+a young dryad~
+A young dryad drinks water from here shyly.
+~
+   Almost a whisp of a girl, this dryad is still in her early years.  Dressed
+in woodland brown, garnished with forest green, her girlish figure still
+reveals itself to be lithe and graceful.  As she notices you, she blushes and
+turns away.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -15 234d110+101 1d8+9
+29 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+#620
+owlbear lazy~
+a lazy owlbear~
+An owlbear ambles along lazily.
+~
+   With the head of an owl and the body of a bear, this owlbear can be a
+formidible foe.  Right now however, it just looks like it wants to sleep.  It
+doesn't seem to be concentrating on anything else other than taking its time to
+amble across your path.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 198d110+101 1d8+9
+29 0 32 5
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 12
+E
+Cha: 21
+S
+#621
+crab giant~
+a large crab~
+A large crab is hungry and looking for something to eat.
+~
+   With a hard shell and sharp pincers, this tough creature can be a danger
+when hungry, which in this case, is now.  Snapping its pincers, it wanders
+around looking for a meal.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -8 72d70+97 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#622
+eel freshwater electric quicksilver blue~
+a freshwater eel~
+A blue eel moves in the water like quicksilver.
+~
+   Covered by tiny blue scales all over it, this two-foot long eel makes its
+way easily in the water.  As it bares its tiny teeth at you, you realize that
+it has probably devoured more than its fair share of adventurers.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -8 72d70+97 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#623
+lobster giant~
+a giant lobster~
+A large lobster of gigantic proportions swims around.
+~
+   A gigantic lobster the size of a large dog moves around in the water,
+snapping it's pincers at prey.  It's hard shell makes it a survivor in the
+underwater game of eat or be eaten.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d80+98 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#624
+turtle grandfater~
+a freshwater turtle~
+A grandfather turtle makes his way slowly around here.
+~
+   Pushing his way along with its huge flippers, this grandfather turtle moves
+his considerable bulk around the lake with ease.  His large shell rests on him
+like a familiar home, and you notice that though it is hard, there is some give
+to it.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d80+98 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#625
+hag freshwater old woman~
+a freshwater hag~
+An old woman wearing a hood over her head mutters to herself.
+~
+   You cannot make out her face, but you think it is an old woman, especially
+from the way she is hunched over.  As you get closer you notice that she seems
+to be talking to herself.  Grabbing and what seems to be her shawl, she pulls
+it close to her as you get closer.    
+~
+d 0 0 0 k 0 0 0 -900
+18 11 -8 72d100+100 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#626
+nymph water woman beautiful~
+a water nymph~
+An incredibly beautiful woman is wearing nothing as she swims by you.
+~
+   Naked, this water nymph has nothing to hide as she displays her flawless
+body while swimming strongly past you.  Her features are well-proportioned, and
+as you gaze at her, you can in no way imagine any flaws of any kind.  You
+believe that many a fisherman has drowned in the lake, enraptured by her
+enchanting smile.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -8 72d100+100 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#627
+statue~
+a statue of Chislev~
+A statue of Chislev gazes towards the heavens as her feet take root in the ground.
+~
+   This is a statue of Chislev, Nature Incarnate.  The figure of Chislev is
+that of a woman, vibrant, yet timeless.  Her hair is braided with ivy vines,
+and her adornments consist mainly of natural affects.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -15 162d250+115 1d8+9
+29 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#628
+oyster giant large~
+a giant oyster~
+A large oyster the size of your head lies open here.
+~
+   Lying vulnerably open, this huge oyster lies with its shell wide open.  As
+it languishes in the cool darkness, it is somewhat oblivious to the environment
+around it.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -15 270d100+100 1d8+9
+29 0 32 8
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+#629
+servant wooden animated statue~
+a animated wooden servant~
+A stiff jointed wooden figure moves with great precision.
+~
+   A large animated statue made of wood seems as though it is stiff at the
+joints, but moves with surprising efficiency and precision.  It's face has no
+expression, which is scary in some sense, as you cannot fathom what it is
+thinking, or if it even is.  It wears a light pink tabard across it's upper
+body, though you wonder why it should need clothes.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -15 234d250+115 1d8+9
+29 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+#630
+servant wooden animated statue~
+a animated wooden servant~
+A stiff jointed wooden figure moves with great precision.
+~
+   A large animated statue made of wood seems as though it is stiff at the
+joints, but moves with surprising efficiency and precision.  It's face has no
+expression, which is scary in some sense, as you cannot fathom what it is
+thinking, or if it even is.  It wears a light pink tabard across it's upper
+body, though you wonder why it should need clothes.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -11 198d250+115 1d8+9
+29 0 32 7
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+$

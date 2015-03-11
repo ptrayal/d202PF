@@ -1,0 +1,727 @@
+#8700
+small dagger~
+a small useless dagger~
+A small dagger embedded in stone~
+~
+5 akouC cst m 0 an 0 0 0 0 0 0 0
+2 1 4 11 100 100 0 7 1 17 10 1 0 0 0 0
+10 2 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+3
+D
+0
+#8701
+flail rusted iron~
+a wood handled rusted iron flail~
+A rusted ball and chain lies here connected to a rotten wood handle.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+0 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8702
+sword bastard double-edge neraka~
+a double-edged steel bastard sword~
+A bastard sword lies here rusting.~
+~
+5 jklprstuBCDF abc lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+13 40000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#8703
+yellow scroll~
+a yellow scroll~
+A yellow fucking scroll you idiot!~
+~
+2 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8704
+armbands green leather neraka~
+a pair of green leather armbands~
+A pair of green bands rest here covered in mud.~
+~
+11 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+1 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 30 0
+#8705
+a small emerald ring~
+a small emerald ring~
+A dull emerald ring~
+~
+11 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+100 5 0 9
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+22 20 0
+#8706
+belt weathered dacaying brown leather neraka~
+a weathered belt of brown leather~
+A long brown strip of decaying leather wastes away here.~
+~
+11 0 0 0 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+3 400 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+22 10 0
+#8707
+cloak emerald dragonscale neraka~
+a magnificent emerald dragonscale cloak~
+A cloak of green dragonscales lies here foolishly forgotten.~
+~
+11 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 10000 0 28
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 60 0
+A
+6 2 0
+#8708
+boots green dragonscale heavy neraka~
+a pair of heavy green dragonscale boots~
+A shimmering green plate of dragonscale lies here rotting.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 45 0 0 0 0 0 0 0 0
+17 10000 0 16
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 5 0
+#8709
+pack large leathery wings dragon neraka~
+a large pack made from the leathery wings of a green dragon~
+A pile of green leathery material lies here forgotten.~
+~
+15 0 0 0 0 ako 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 45 0 0 0 0 0 0 0 0
+2 20000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -5 0
+#8710
+a sceptre~
+a rusted sceptre~
+A rusted sceptre sits here tarnished~
+~
+13 0 0 0 0 n 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8711
+necklace thin vines neraka~
+a thin necklace made of vines~
+Here lies some vines almost completely covered in dirt.~
+~
+11 0 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+2 1234 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+A
+24 1 0
+#8712
+fruit rotten handful food~
+a handful of rotten fruit~
+Flies gather around this pile of rotten fruit.~
+~
+19 mnoprstuvwBCDEF abcu 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8713
+chalice corroded iron neraka~
+a corroded iron chalice~
+Lying forgotten on the ground is an iron chalice.~
+~
+17 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+2 3456 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8714
+massive stone four tier fountain~
+a massive stone four tier fountain~
+A massive stone four tier fountain occupies this entire area.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8715
+pie apple food neraka~
+a piece of apple pie~
+Steam hovers above a warm piece of apple pie.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8716
+leg turkey burnt food neraka~
+a burnt turkey leg~
+Lying on the ground and burnt to a crisp is a turkey leg.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8717
+oysters bowl mountain food neraka~
+a bowl of mountain oysters~
+Steam surrounds a tiny bowl on the ground before you.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8718
+bottle tin~
+a tin bottle~
+Tossed aside, here is a dull tin bottle.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+35 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8719
+pack backpack patches neraka~
+a leather backpack covered in patches~
+Dust collects on this backpack lying on the ground before you.~
+~
+15 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+1 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8720
+sack cloth thin neraka~
+a thin cloth sack~
+A dirty piece of cloth is lying on the ground before you.~
+~
+15 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8721
+vial small silver neraka~
+a small silver vial~
+Lying on the ground before you is a small silver vial.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8722
+vial giants blood neraka~
+a vial of giants blood~
+Lying on the ground before you is a small vial of blood.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8723
+vial trolls blood neraka~
+a small vial of trolls blood~
+Lying on the ground before you is a vial of blood.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8724
+vial purple liquid neraka~
+a vial of purple liquid~
+Lying on the ground before you is a vial of purple liquid.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8725
+scroll depicting death neraka~
+a scroll depicting a death knight~
+Lying on the ground, with footprints all over it, is a small piece of paper.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8726
+rod mithril slender neraka~
+a slender mithril rod~
+Tossed aside, here lies a slender mithril rod.~
+~
+3 0 0 0 0 ao 0 0 0 0 0 0 0
+25 50 20 48 100 100 0 13 0 0 0 0 0 0 0 0
+1 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8727
+vial black thick neraka~
+a vial of thick black liquid~
+Lying on the ground before you is a vial of thick black liquid.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8728
+vial clear neraka~
+a vial of clear liquid~
+Lying on the ground before you is a vial of clear liquid.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 700 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8729
+scroll grey smokey neraka~
+a smokey grey scroll with silver runes~
+Fluttering in the wind around you, there is a grey piece of paper.~
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 900 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8730
+robes grey ragged neraka~
+a set of ragged grey robes~
+On the ground before you is a pile of grey cloth.~
+~
+9 jklmnvBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8731
+cap old leather neraka~
+an old leather cap~
+Tossed helplessly on the ground before you is an old piece of leather.~
+~
+11 0 0 0 0 e 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 0 0 9
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 2 0
+#8732
+breastplate iron cracked neraka~
+a cracked iron breastplate~
+A large piece of iron is lying on the ground before you.~
+~
+9 0 0 0 0 d 0 0 0 0 0 0 0
+50 2 3 -4 100 100 25 14 20 8 15 0 0 0 0 0
+300 200 0 10
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+22 20 0
+#8733
+vest torn leather neraka~
+a torn leather vest~
+A small pile of leather is lying on the ground at your feet.~
+~
+9 0 0 0 0 d 0 0 0 0 0 0 0
+20 1 6 0 100 100 10 2 30 2 20 0 0 0 0 0
+150 10 0 9
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+22 20 0
+#8734
+chain leather wrist neraka~
+a leather wrist chain~
+A pile of chain and leather gather at your feet.~
+~
+11 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10 0 9
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 2 0
+#8735
+codpiece cod piece leather neraka~
+a leather cod piece~
+A pile of leather gathers at your feet.~
+~
+11 0 0 0 0 l 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+3 12 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+24 10 0
+#8736
+chipped cherrywood quarterstaff neraka~
+a chipped cherrywood quarterstaff~
+A large piece of wood rolls around on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+10 1 6 5 100 100 0 8 0 257 0 0 0 0 0 0
+40 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+#8737
+great sword two handed neraka~
+a two handed great sword~
+A large greatsword is lying on the ground before you~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+37 2 6 3 100 100 0 7 1 2 0 12 0 0 0 0
+80 50 0 6
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+A
+28 2 0
+A
+29 3 0
+#8738
+flail chain linked neraka~
+a chain-linked flail~
+Lying on the ground before you, there is a chain flail.~
+~
+5 0 0 0 0 n 0 0 0 0 0 0 0
+25 1 8 5 100 100 0 7 0 2 0 3 0 0 0 0
+50 8 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8739
+blade wooden short neraka~
+a short wooden blade~
+On the ground before you is a small blade made of wood.~
+~
+5 0 0 0 0 ano 0 0 0 0 0 0 0
+23 1 6 11 100 100 0 8 1 2 0 1 0 0 0 0
+20 10 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+3
+D
+0
+#8740
+club miniature neraka~
+a miniature club~
+A tiny club is lying on the ground before you.~
+~
+5 jklmnoprstuvwBCDEF abc stuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 700 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8741
+milk cup neraka~
+a cup of milk~
+Resting on the ground before you is a cup full of milk.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+35 1 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8742
+vial crystal clear neraka~
+a crystal clear vial of clear liquid~
+Reflecting in the light, here lies a crystal clear vial.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 700 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8743
+shield midnight black neraka~
+a midnight black shield inlaid with platinum~
+A midnight black shield lies here sparkling in the dirt.~
+~
+9 gi 0 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 23 0 0 0 0 0 0 0 0
+8 20000 0 33
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+31 2 0
+A
+23 80 0
+#8744
+breastplate black steel neraka~
+a black steel breastplate~
+A large plate of black steel rest on the ground here.~
+~
+9 klnpstuvBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 3000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8745
+mace black steel neraka~
+a long black-steel mace~
+Laying forgotten here is a long black-steel mace.~
+~
+5 klnptuBCDEF acu kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 1400 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#8746
+soup bowl food neraka~
+a bowl of soup~
+On the ground before you is a bowl of soup with steam filling the air above it.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8747
+pond clear refreshing~
+a clear, refreshing pond of water~
+A clear, refreshing pond of water is here.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8748
+finger death~
+an old finger used for crack scratching~
+An old rottin finger lies here stinking of shit.~
+~
+5 ku c 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

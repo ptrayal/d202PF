@@ -1,0 +1,1438 @@
+#900
+A Trail Through the Forest~
+   Moderate vegetation covers the forest floor, except for this trail winding
+among the trees.  The trail itself is wide enough for a carriage or cart, and
+seems to have been well used.  A clearing can be seen to the northwest, while a
+larger, more heavily travelled road lies off in the opposite direction.    
+~
+9 cr 0 0 0  3
+D1
+~
+~
+0 0 3028 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 901 0 0 0 0 0 0 0 0
+S
+#901
+Small Forest Clearing~
+   A small clearing in the forest is formed where three slender trails merge
+together.  With a few trees having been felled, more of the sky can be seen
+through the treetops.  To the southeast, a wide road can be seen in the
+distance.  This clearing, however, seems to be the beginnings of a small
+village of sorts.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+1 0 918 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 902 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 900 0 0 0 0 0 0 0 0
+S
+#902
+A Winding Dirt Path~
+   This dirt path winds along the southern edge of this small village.  Wood
+framed houses with thatch rooves dot the landscape around you.  Most of these
+houses seem to be in great disrepair, as most of their rooves have at least
+partially collapsed.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 901 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 903 0 0 0 0 0 0 0 0
+S
+#903
+A Winding Dirt Path~
+   Winding east and west, this tiny path cuts through dense trees and
+vegetation, which at one time was carefully cleared away from the path.  Now,
+however, weeds and plants and grasses sprout up along the path.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 902 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 904 0 0 0 0 0 0 0 0
+S
+#904
+A Winding Dirt Path~
+   Bending slightly, the path ventures closer to what must be the village
+square, as a few sturdier buildings can be seen a short distance to the north,
+along a different road.  Signs point to this village being empty, as refuse can
+be seen occasionally along the path.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 905 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 903 0 0 0 0 0 0 0 0
+S
+#905
+A Winding Dirt Path~
+   A shabby house lies just off the road to the south, surrounded on three
+sides by the closely lines trees.  Broken shards of pottery litter the path
+here, as does some torn cloth.  A short way to the west the path turns sharply
+to the north, heading to the center of the village.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+1 0 931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 906 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 904 0 0 0 0 0 0 0 0
+S
+#906
+A Winding Dirt Path~
+   The shattered remains of a horse drawn cart are strewn about the path here.
+A few bones are mixed in the debris, and they resemble the ribs and legs of
+roughly an Elven sized adult.  A long, thin tree branch is driven into the
+ground here, right in the middle of the skeletal ribs.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 905 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 907 0 0 0 0 0 0 0 0
+S
+#907
+A Winding Dirt Path~
+   The winding dirt path takes a turn here, heading north and east.  The dense
+trees continue to line the path, except to the northeast, where some larger
+buildings stand.  More run down houses dot the area both to the north and east,
+and one of them lies directly to the west.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 908 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 906 0 0 0 0 0 0 0 0
+D2
+~
+bushes~
+1 0 977 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 932 0 0 0 0 0 0 0 0
+S
+#908
+A Winding Dirt Path~
+   Running along the western edge of the village, this dirt path winds between
+many small houses, most of which are in ruins.  To the northeast rest some
+sturdy buildings, still intact.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+0 0 907 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 909 0 0 0 0 0 0 0 0
+S
+#909
+A Winding Gravel Path~
+   The winding path continues northeast and southeast as it passes by a small
+house to the west.  Debris litters the path, and more can be seen just to the
+side of the path.  Further east, through the trees, some solid looking
+buildings can been seen.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 933 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 910 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 908 0 0 0 0 0 0 0 0
+S
+#910
+A Winding Gravel Path~
+   A winding path runs roughly north-south here, while a slightly more worn
+path splits off to the southeast into the village market.  More sound than the
+thatch homes in the area, sturdy buildings line the path that splits off to the
+southeast.  The shrubbery off the western side of the path appears to have been
+trampled over.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 911 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 909 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 927 0 0 0 0 0 0 0 0
+E
+west shrubbery western~
+   Shrubs and small trees have been run over and beaten into the ground.  A
+closer inspection reveals many hoof marks have passed from the west to the path
+you are on.    
+~
+S
+#911
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+1 0 926 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 912 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 910 0 0 0 0 0 0 0 0
+S
+#912
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 913 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 911 0 0 0 0 0 0 0 0
+S
+#913
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 937 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 914 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 912 0 0 0 0 0 0 0 0
+S
+#914
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 915 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 913 0 0 0 0 0 0 0 0
+S
+#915
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+1 0 939 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 914 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 916 0 0 0 0 0 0 0 0
+S
+#916
+A Winding Dirt Path~
+   Here at the eastern edge of the village, a clearer view of the area can be
+seen.  Just to the southwest, a small road runs through the market area, which
+has sturdier buildings than the others in the village.  Also, the various paths
+through the village are visible from this spot.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 919 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 917 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 915 0 0 0 0 0 0 0 0
+S
+#917
+A Winding Dirt Path~
+   Two paths intersect here, one running north-south, the other to the west,
+into the village's central market.  A weather beaten house lies just off the
+road to the east.  In the distance to the northwest, a small plume of smoke can
+be seen.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+1 0 916 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 940 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 930 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 918 0 0 0 0 0 0 0 0
+S
+#918
+A Winding Dirt Path~
+   This narrow dirt path winds along the eastern edge of this humble little
+village.  Dense trees surround the entire village, but a small clearing to the
+south leads to a larger road beyond.  Small, run down houses are located
+throughout the village, and a central market is to the northwest.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+1 0 901 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 917 0 0 0 0 0 0 0 0
+S
+#919
+The Northern Loop~
+   Here at the eastern edge of the village a clearer view of the entire area
+can be seen, to the west are various rundown houses and buildings.  To the
+north crumbling granite towers can be seen looming in the distance.  The path
+continues north towards the northern edge of the village and on north to the
+crumbling towers.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 920 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 916 0 0 0 0 0 0 0 0
+S
+#920
+The Northern Loop~
+   The overgrown gravel path branches to the northwest here and a crumbling
+rundown house rests directly to the east.  To the west the rest of the rundown
+village is visable and further to the north crumbling granite towers loom on
+the horizon.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 938 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 919 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 921 0 0 0 0 0 0 0 0
+S
+#921
+The Northern Loop~
+   The path here turns into more of a road paved in stone blocks, the
+vegitation starts to thicken on either side of the road making this an ideal
+spot for an ambush.  The stone road continues to the northwest towards a few
+rundown structures then runs further north ending at the base of a crumbling
+granite tower.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 922 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 920 0 0 0 0 0 0 0 0
+S
+#922
+The Northern Loop~
+   The stone road here leads to the north where ancient crumbling towers can be
+seen in the distance.  Thick shrubs line each side of the path as it continues
+towards the towers making the road a very good place for an ambush.  The stone
+path also leads to the west towards thicker vegitation.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 946 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 936 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 923 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 921 0 0 0 0 0 0 0 0
+S
+#923
+The Northern Loop~
+   The road here is made of stone blocks instead of the loose gravel to the
+west.  Newly chopped trees and bushes line the path showing upkeep in this area
+of the village.  To the northeast the crumbling ruins of old archer towers can
+be seen in the distance.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 922 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 924 0 0 0 0 0 0 0 0
+S
+#924
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D0
+~
+door~
+1 0 935 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 923 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 925 0 0 0 0 0 0 0 0
+S
+#925
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D2
+~
+~
+0 0 926 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 924 0 0 0 0 0 0 0 0
+S
+#926
+A Winding Gravel Path~
+   This gravel road is lined up and down with spears with skulls impaled on
+them.  It seems that the leader of this camp wanted to use them to serve as a
+warning for anyone who dares to enter their camp.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 925 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 911 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 934 0 0 0 0 0 0 0 0
+S
+#927
+A Rundown Path of Scattered Stones~
+   The gravel trail continues on from the east, but there are signs of recent
+activity everywhere.  Footprints can be seen along the trail, and the outline
+of heavy containers has been impressed along the sides of the path.  It looks
+as if a very large caravan has come through this area recently.  The trail
+continues on to the northwest.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 928 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 941 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 910 0 0 0 0 0 0 0 0
+S
+#928
+A Rundown Path of Scattered Stones~
+   The gravel trail continues on from the east, but there are signs of recent
+activity everywhere.  Footprints can be seen along the trail, and the outline
+of heavy containers has been impressed along the sides of the path.  It looks
+as if a very large caravan has come through this area recently.  The trail
+continues on to the west.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 942 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 929 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 927 0 0 0 0 0 0 0 0
+S
+#929
+A Rundown Path of Scattered Stones~
+   The gravel trail continues on from the east, but there are signs of recent
+activity everywhere.  Footprints can be seen along the trail, and the outline
+of heavy containers has been impressed along the sides of the path.  It looks
+as if a very large caravan has come through this area recently.  The trail
+continues on to the west.    
+~
+9 0 0 0 0  3
+D0
+~
+~
+0 0 943 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 930 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 944 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 928 0 0 0 0 0 0 0 0
+S
+#930
+A Rundown Path of Scattered Stones~
+   The gravel trail continues on from the east, but there are signs of recent
+activity everywhere.  Footprints can be seen along the trail, and the outline
+of heavy containers has been impressed along the sides of the path.  It looks
+as if a very large caravan has come through this area recently.  The trail
+continues on to the west.    
+~
+9 0 0 0 0  3
+D1
+~
+~
+0 0 917 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 945 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 929 0 0 0 0 0 0 0 0
+S
+#931
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D0
+~
+~
+1 0 905 0 0 0 0 0 0 0 0
+S
+#932
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D1
+~
+~
+0 0 907 0 0 0 0 0 0 0 0
+S
+#933
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D1
+~
+~
+0 0 909 0 0 0 0 0 0 0 0
+S
+#934
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D1
+~
+~
+0 0 926 0 0 0 0 0 0 0 0
+S
+#935
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D2
+~
+door~
+1 0 924 0 0 0 0 0 0 0 0
+S
+#936
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D0
+~
+door~
+1 0 922 0 0 0 0 0 0 0 0
+S
+#937
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D2
+~
+~
+0 0 913 0 0 0 0 0 0 0 0
+S
+#938
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D3
+~
+~
+0 0 920 0 0 0 0 0 0 0 0
+S
+#939
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D0
+~
+~
+1 0 915 0 0 0 0 0 0 0 0
+S
+#940
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D3
+~
+~
+0 0 917 0 0 0 0 0 0 0 0
+S
+#941
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D0
+~
+~
+0 0 927 0 0 0 0 0 0 0 0
+S
+#942
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D2
+~
+~
+0 0 928 0 0 0 0 0 0 0 0
+S
+#943
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D2
+~
+~
+0 0 929 0 0 0 0 0 0 0 0
+S
+#944
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D0
+~
+~
+0 0 929 0 0 0 0 0 0 0 0
+S
+#945
+A Crumbling Thatch Roofed House~
+   A squat, square building about eight feet high rests here, slightly leaning
+to the side.  The walls are crumbling in places and the thatch roofing material
+lies strewn about the ground.  Ceramic fragments of smashed bowls and jars
+clutter the floor, and some rusty eating utensils lie on the dirt floor, half
+buried under debris.    
+~
+9 d 0 0 0  0
+D0
+~
+~
+0 0 930 0 0 0 0 0 0 0 0
+S
+#946
+A Path Towards the Ruined Towers~
+   The stone road leads north where ancient crumbling towers can be seen
+looming in the distance.  Thick vegitation lines each side of the path as it
+continues north, making the road a very good place to be ambushed.  The rundown
+village lies south and west from this point.    
+~
+9 c 0 0 0  0
+D0
+~
+~
+0 0 947 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 922 0 0 0 0 0 0 0 0
+S
+#947
+A Path Towards the Ruined Towers~
+   The stone road leads north where ancient crumbling towers can be seen
+looming in the distance.  Thick vegitation lines each side of the path as it
+continues north, making the road a very good place to be ambushed.  The rundown
+village lies south and west from this point.    
+~
+9 0 0 0 0  0
+D0
+~
+~
+0 0 948 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 946 0 0 0 0 0 0 0 0
+S
+#948
+An Intersection Before the Ruined Towers~
+   The stone path continues to the east and west from here leading towards the
+other towers.  The base of the northern tower is completely covered in thick
+ivy, and the once wooden doors have rotted off of the long rusted hinges.    
+~
+9 0 0 0 0  0
+D0
+~
+~
+0 0 959 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 950 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 947 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 949 0 0 0 0 0 0 0 0
+S
+#949
+A Path Between the Towers~
+   The stone path runs along the front of the ancient crumbling towers from
+east to west.  Thick overgrown vegitation lines the northern and southern edges
+of the stone road which makes leaving the road impossible.    
+~
+9 0 0 0 0  0
+D1
+~
+~
+0 0 948 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 951 0 0 0 0 0 0 0 0
+S
+#950
+A Path Between the Towers~
+   The stone path runs along the front of the ancient crumbling towers from
+east to west.  Thick overgrown vegitation lines the northern and southern edges
+of the stone road which makes leaving the road impossible.    
+~
+9 0 0 0 0  0
+D1
+~
+~
+0 0 952 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 948 0 0 0 0 0 0 0 0
+S
+#951
+A Path Between the Towers~
+   The stone path continues to the west from here leading towards the other
+towers.  The base of the tower to the north is completely covered in thick ivy,
+and the once wooden doors have rotted off of the long rusted hinges.    
+~
+9 0 0 0 0  0
+D0
+~
+~
+0 0 960 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 949 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 954 0 0 0 0 0 0 0 0
+S
+#952
+A Path Between the Towers~
+   The stone path continues to the east from here leading towards the other
+towers.  The base of the tower to the north is completely covered in thick ivy,
+and the once wooden doors have rotted off of the long rusted hinges.    
+~
+9 0 0 0 0  0
+D0
+~
+~
+0 0 958 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 953 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 950 0 0 0 0 0 0 0 0
+S
+#953
+A Path Between the Towers~
+   The stone path runs along the front of the ancient crumbling towers from
+east to west.  Thick overgrown vegitation lines the northern and southern edges
+of the stone road which makes leaving the road impossible.    
+~
+9 0 0 0 0  0
+D1
+~
+~
+0 0 956 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 952 0 0 0 0 0 0 0 0
+S
+#954
+A Path Between the Towers~
+   The stone path runs along the front of the ancient crumbling towers from
+east to west.  Thick overgrown vegitation lines the northern and southern edges
+of the stone road which makes leaving the road impossible.    
+~
+9 0 0 0 0  0
+D1
+~
+~
+0 0 951 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 955 0 0 0 0 0 0 0 0
+S
+#955
+A Path Between the Towers~
+   The stone road ends here at the base of the western tower, thick overgrown
+vegitation prevents any further travel to the west.  The base of the tower to
+the north is covered in thick ivy, and the once wooden doors to the tower have
+rotted off the long rusted hinges.    
+~
+9 0 0 0 0  0
+D0
+~
+~
+0 0 961 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 954 0 0 0 0 0 0 0 0
+S
+#956
+A Path Between the Towers~
+   The stone road ends here at the base of the eastern tower, thick overgrown
+vegitation prevents any further travel to the east.  The base of the tower to
+the north is covered in thick ivy, and the once wooden doors to the tower have
+rotted off the long rusted hinges.    
+~
+9 0 0 0 0  0
+D0
+~
+~
+0 0 957 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 953 0 0 0 0 0 0 0 0
+S
+#957
+Inside a Crumbling Tower~
+   The inside of this tower is covered with the remains of the stone rooftop
+and the rotting wooden support beams.  The stone staircase leading to the upper
+areas of the tower seems intact and lit candles line the walls of tower along
+the granite stairway.    
+~
+9 0 0 0 0  0
+D2
+~
+~
+0 0 956 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 974 0 0 0 0 0 0 0 0
+S
+#958
+Inside a Crumbling Tower~
+   The inside of this tower is covered with the remains of the stone rooftop
+and the rotting wooden support beams.  The stone staircase leading to the upper
+areas of the tower seems intact and lit candles line the walls of tower along
+the granite stairway.    
+~
+9 0 0 0 0  0
+D2
+~
+~
+0 0 952 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 971 0 0 0 0 0 0 0 0
+S
+#959
+Inside a Crumbling Tower~
+   The inside of this tower is covered with the remains of the stone rooftop
+and the rotting wooden support beams.  The stone staircase leading to the upper
+areas of the tower seems intact and lit candles line the walls of tower along
+the granite stairway.    
+~
+9 0 0 0 0  0
+D2
+~
+~
+0 0 948 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 968 0 0 0 0 0 0 0 0
+S
+#960
+Inside a Crumbling Tower~
+   The inside of this tower is covered with the remains of the stone rooftop
+and the rotting wooden support beams.  The stone staircase leading to the upper
+areas of the tower seems intact and lit candles line the walls of tower along
+the granite stairway.    
+~
+9 0 0 0 0  0
+D2
+~
+~
+0 0 951 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 965 0 0 0 0 0 0 0 0
+S
+#961
+Inside a Crumbling Tower~
+   The inside of this tower is covered with the remains of the stone rooftop
+and the rotting wooden support beams.  The stone staircase leading to the upper
+areas of the tower seems intact and lit candles line the walls of tower along
+the granite stairway.    
+~
+9 0 0 0 0  0
+D2
+~
+~
+0 0 955 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 962 0 0 0 0 0 0 0 0
+S
+#962
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 963 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 961 0 0 0 0 0 0 0 0
+S
+#963
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 964 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 962 0 0 0 0 0 0 0 0
+S
+#964
+Atop the Ruined Tower~
+   The top of this tower is half buried in broken support beams and thatch
+roofing material.  The stone walls that once supported the roof are also broken
+and scattered about littering the area and making the footing dangerous.    
+~
+9 0 0 0 0  0
+D5
+~
+~
+0 0 963 0 0 0 0 0 0 0 0
+S
+#965
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 966 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 960 0 0 0 0 0 0 0 0
+S
+#966
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 967 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 965 0 0 0 0 0 0 0 0
+S
+#967
+Atop the Ruined Tower~
+   The top of this tower is half buried in broken support beams and thatch
+roofing material.  The stone walls that once supported the roof are also broken
+and scattered about littering the area and making the footing dangerous.    
+~
+9 0 0 0 0  0
+D5
+~
+~
+0 0 966 0 0 0 0 0 0 0 0
+S
+#968
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 969 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 959 0 0 0 0 0 0 0 0
+S
+#969
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 970 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 968 0 0 0 0 0 0 0 0
+S
+#970
+Atop the Ruined Tower~
+   The top of this tower is half buried in broken support beams and thatch
+roofing material.  The stone walls that once supported the roof are also broken
+and scattered about littering the area and making the footing dangerous.    
+~
+9 0 0 0 0  0
+D5
+~
+~
+0 0 969 0 0 0 0 0 0 0 0
+S
+#971
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 972 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 958 0 0 0 0 0 0 0 0
+S
+#972
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 973 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 971 0 0 0 0 0 0 0 0
+S
+#973
+Atop the Ruined Tower~
+   The top of this tower is half buried in broken support beams and thatch
+roofing material.  The stone walls that once supported the roof are also broken
+and scattered about littering the area and making the footing dangerous.    
+~
+9 0 0 0 0  0
+D5
+~
+~
+0 0 972 0 0 0 0 0 0 0 0
+S
+#974
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 975 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 957 0 0 0 0 0 0 0 0
+S
+#975
+Climbing the Ruined Staircase~
+   This level of the tower is littered with broken stone fragments and
+splintered wood from the caved in rooftop.  Rotting support beams lay wedged
+accross the stone staircase making passage to the top of the tower dangerous
+and hard to manage.    
+~
+9 0 0 0 0  0
+D4
+~
+~
+0 0 976 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 974 0 0 0 0 0 0 0 0
+S
+#976
+Atop the Ruined Tower~
+   The top of this tower is half buried in broken support beams and thatch
+roofing material.  The stone walls that once supported the roof are also broken
+and scattered about littering the area and making the footing dangerous.    
+~
+9 0 0 0 0  0
+D5
+~
+~
+0 0 975 0 0 0 0 0 0 0 0
+S
+#977
+An Overgrown Path Through the Brambles~
+   Many sharp brambles cover this barely noticable path making it nearly
+impossible to traverse.  To the south the brambles seem to be burning as smoke
+can be seen drifting up through the thick bramble bushes.  The trail seems to
+continue southward right into the haze of the smoke.    
+~
+9 0 0 0 0  0
+D0
+~
+bushes~
+1 0 907 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 978 0 0 0 0 0 0 0 0
+S
+#978
+An Overgrown Path Through the Brambles~
+   Many sharp brambles cover this barely noticable path making it nearly
+impossible to traverse.  A faint trail of smoke rises from the ground in this
+very spot, and the smell of meat cooking fills the entire area.  The path looks
+to have continued to the south but the brambles are impossible to navigate any
+further.    
+~
+9 0 0 0 0  0
+D0
+~
+~
+0 0 977 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 979 0 0 0 0 0 0 0 0
+S
+#979
+The Goblin Kings War Room~
+   Several unrolled maps lay tossed about the inside of the tent, half soiled
+with the rotting leftovers of the king's latest dinner.  The tent looks to be
+crafted from some sort of animal hides and well hidden behind the mass of sharp
+brambles.  A makeshift throne seems to have been pieced together from the
+remains of an old wagon and sits directly in the center of the room.    
+~
+9 0 0 0 0  0
+D4
+~
+trapdoor~
+1 0 978 0 0 0 0 0 0 0 0
+S
+$

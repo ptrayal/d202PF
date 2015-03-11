@@ -1,0 +1,374 @@
+#118
+None.~
+City of Morning Dew (Tak)~
+11800 11899 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0 11851     5     2   0   101     0    -10 
+
+D 0 11851     4     2   0   101     1    -10 
+
+D 0 11869     5     2   0   101     2    -10 
+
+D 0 11889     4     2   0   101     3    -10 
+
+D 0 11890     5     2   0   101     4    -10 
+
+M 0 11816     1 11896   1   100     5    -1          0 a storm giant
+
+E 1 11841     2    17   0    80     6     5          0 a vaporous key of pink smoke
+
+D 0 11896     1     2   0   101     7    -10 
+
+D 0 11897     3     2   0   101     8    -10 
+
+M 0 11801     8 11855   8   100     9    -1          0 a craech engineer
+
+E 1 11805     4     5   0    25    10     9          0 an orange-hued studded leather cuirass
+
+O 0 11803     8 11855   0   100    11    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    12    11          0 a small capsule filled with a bone white powder
+
+M 0 11801     8 11856   8   100    13    -1          0 a craech engineer
+
+E 1 11806     4    10   0    25    14    13          0 a set of orange-hued studded leather vambraces
+
+O 0 11803     8 11856   0   100    15    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    16    15          0 a small capsule filled with a bone white powder
+
+M 0 11801     8 11857   8   100    17    -1          0 a craech engineer
+
+E 1 11807     4     7   0    25    18    17          0 a set of orange-hued studded leather greaves
+
+O 0 11803     8 11857   0   100    19    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    20    19          0 a small capsule filled with a bone white powder
+
+M 0 11801     8 11858   8   100    21    -1          0 a craech engineer
+
+E 1 11808     4     6   0    25    22    21          0 an orange-hued studded leather basinet
+
+O 0 11803     8 11858   0   100    23    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    24    23          0 a small capsule filled with a bone white powder
+
+M 0 11801     8 11859   8   100    25    -1          0 a craech engineer
+
+E 1 11809     4     9   0    25    26    25          0 a pair of orange-hued leather gloves
+
+O 0 11803     8 11859   0   100    27    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    28    27          0 a small capsule filled with a bone white powder
+
+M 0 11801     8 11860   8   100    29    -1          0 a craech engineer
+
+E 1 11810     4     8   0    25    30    29          0 a pair of orange-hued hard leather boots
+
+O 0 11803     8 11860   0   100    31    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    32    31          0 a small capsule filled with a bone white powder
+
+M 0 11801     8 11861   8   100    33    -1          0 a craech engineer
+
+E 1 11811     4    13   0    25    34    33          0 an orange-hued leather girdle depicting the sigil of a flame
+
+O 0 11803     8 11861   0   100    35    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    36    35          0 a small capsule filled with a bone white powder
+
+M 0 11801     8 11862   8   100    37    -1          0 a craech engineer
+
+E 1 11812     4    12   0    25    38    37          0 a fiery-orange cape bearing the sigil of a flame
+
+O 0 11803     8 11862   0   100    39    -1          0 a craech cannon
+
+P 1 11804     8 11803   0   100    40    39          0 a small capsule filled with a bone white powder
+
+M 0 11800     4 11828   4   100    41    -1          0 a flame sentinel
+
+G 1 11821     2     0   0   100    42    41          0 an intricate gate key
+
+E 1 11802     4    16   0     6    43    41          0 a flaming glaive of orange-hued steel
+
+M 0 11800     4 11828   4   100    44    -1          0 a flame sentinel
+
+E 1 11802     4    16   0     6    45    44          0 a flaming glaive of orange-hued steel
+
+D 0 11812     0     2   0   101    46    -10 
+
+M 0 11800     4 11812   4   100    47    -1          0 a flame sentinel
+
+G 1 11821     2     0   0   100    48    47          0 an intricate gate key
+
+E 1 11802     4    16   0     6    49    47          0 a flaming glaive of orange-hued steel
+
+M 0 11800     4 11812   4   100    50    -1          0 a flame sentinel
+
+E 1 11802     4    16   0     6    51    50          0 a flaming glaive of orange-hued steel
+
+M 0 11805     6 11800   6   100    52    -1          0 a freckle-faced young boy
+
+M 0 11803     6 11800   6   100    53    -1          0 a female commoner
+
+D 0 11800     2     2   0   101    54    -10 
+
+M 0 11802     8 11800   8   100    55    -1          0 a fire knight
+
+G 1  1241     3     0   0    20    56    55          0 a small piece of white parchment
+
+G 1 11800     1     0   0   100    57    55          0 a sparkling crystal key
+
+E 1 11813     4     5   0    20    58    55          0 an orange-hued platemail cuirass bearing the sigil of a flame
+
+M 0 11802     8 11816   8   100    59    -1          0 a fire knight
+
+E 1 11814     4    10   0    20    60    59          0 a set of orange-hued platemail vambraces
+
+M 0 11810     6 11822   6   100    61    -1          0 an intrusive half-elf
+
+M 0 11809     6 11822   6   100    62    -1          0 a grunting half-ogre
+
+M 0 11808     6 11822   6   100    63    -1          0 a wily cutpurse
+
+M 0 11807     6 11822   6   100    64    -1          0 a happy-go-lucky performer
+
+M 0 11803     6 11822   6   100    65    -1          0 a female commoner
+
+M 0 11802     8 11822   8   100    66    -1          0 a fire knight
+
+E 1 11815     4     7   0    20    67    66          0 a set of orange-hued platemail greaves
+
+M 0 11807     6 11826   6   100    68    -1          0 a happy-go-lucky performer
+
+M 0 11805     6 11826   6   100    69    -1          0 a freckle-faced young boy
+
+M 0 11803     6 11826   6   100    70    -1          0 a female commoner
+
+M 0 11802     8 11826   8   100    71    -1          0 a fire knight
+
+E 1 11816     4     6   0    20    72    71          0 an orange-hued greathelm covered in flames
+
+M 0 11811     6 11833   6   100    73    -1          0 a grumbling, middle-aged dwarf
+
+M 0 11810     6 11833   6   100    74    -1          0 an intrusive half-elf
+
+M 0 11809     6 11833   6   100    75    -1          0 a grunting half-ogre
+
+M 0 11807     6 11833   6   100    76    -1          0 a happy-go-lucky performer
+
+M 0 11803     6 11833   6   100    77    -1          0 a female commoner
+
+M 0 11802     8 11833   8   100    78    -1          0 a fire knight
+
+E 1 11817     4     9   0    20    79    78          0 a set of orange-hued platemail gauntlets
+
+M 0 11809     6 11837   6   100    80    -1          0 a grunting half-ogre
+
+M 0 11807     6 11837   6   100    81    -1          0 a happy-go-lucky performer
+
+M 0 11802     8 11837   8   100    82    -1          0 a fire knight
+
+E 1 11818     4     8   0    20    83    82          0 a set of orange hued platemail boots
+
+M 0 11810     6 11844   6   100    84    -1          0 an intrusive half-elf
+
+M 0 11809     6 11844   6   100    85    -1          0 a grunting half-ogre
+
+M 0 11807     6 11844   6   100    86    -1          0 a happy-go-lucky performer
+
+M 0 11805     6 11844   6   100    87    -1          0 a freckle-faced young boy
+
+M 0 11804     6 11844   6   100    88    -1          0 a male commoner
+
+M 0 11802     8 11844   8   100    89    -1          0 a fire knight
+
+E 1 11819     4    14   0    20    90    89          0 an orange-hued bracer covered in flames
+
+O 0 11822     1 11806   0   100    91     2          0 a common, lifeless fountain
+
+M 0 11802     8 11806   8   100    92    -1          0 a fire knight
+
+E 1 11820     4     3   0    20    93    92          0 an orange hued pendant covered in flames
+
+M 0 11810     6 11803   6   100    94    -1          0 an intrusive half-elf
+
+M 0 11809     6 11803   6   100    95    -1          0 a grunting half-ogre
+
+M 0 11808     6 11803   6   100    96    -1          0 a wily cutpurse
+
+M 0 11803     6 11803   6   100    97    -1          0 a female commoner
+
+M 0 11806     6 11843   6   100    98    -1          0 an impassive-looking merchant
+
+M 0 11803     6 11843   6   100    99    -1          0 a female commoner
+
+M 0 11805     6 11821   6   100   100    -1          0 a freckle-faced young boy
+
+M 0 11804     6 11821   6   100   101    -1          0 a male commoner
+
+M 0 11812     6 11813   6   100   102    -1          0 a smiling kender in gaudy clothes
+
+M 0 11811     6 11813   6   100   103    -1          0 a grumbling, middle-aged dwarf
+
+M 0 11810     6 11813   6   100   104    -1          0 an intrusive half-elf
+
+M 0 11809     6 11813   6   100   105    -1          0 a grunting half-ogre
+
+M 0 11808     6 11813   6   100   106    -1          0 a wily cutpurse
+
+M 0 11806     6 11813   6   100   107    -1          0 an impassive-looking merchant
+
+M 0 11804     6 11813   6   100   108    -1          0 a male commoner
+
+M 0 11812     6 11852   6   100   109    -1          0 a smiling kender in gaudy clothes
+
+M 0 11804     6 11852   6   100   110    -1          0 a male commoner
+
+M 0 11812     6 11849   6   100   111    -1          0 a smiling kender in gaudy clothes
+
+M 0 11804     6 11849   6   100   112    -1          0 a male commoner
+
+M 0 11804     6 11835   6   100   113    -1          0 a male commoner
+
+M 0 11811     6 11841   6   100   114    -1          0 a grumbling, middle-aged dwarf
+
+M 0 11811     6 11841   6   100   115    -1          0 a grumbling, middle-aged dwarf
+
+M 0 11810     6 11841   6   100   116    -1          0 an intrusive half-elf
+
+M 0 11804     6 11841   6   100   117    -1          0 a male commoner
+
+M 0 11805     6 11808   6   100   118    -1          0 a freckle-faced young boy
+
+M 0 11805     6 11832   6   100   119    -1          0 a freckle-faced young boy
+
+M 0 11806     6 11836   6   100   120    -1          0 an impassive-looking merchant
+
+M 0 11805     6 11836   6   100   121    -1          0 a freckle-faced young boy
+
+M 0 11806     6 11867   6   100   122    -1          0 an impassive-looking merchant
+
+M 0 11812     6 11864   6   100   123    -1          0 a smiling kender in gaudy clothes
+
+M 0 11806     6 11864   6   100   124    -1          0 an impassive-looking merchant
+
+M 0 11806     6 11819   6   100   125    -1          0 an impassive-looking merchant
+
+M 0 11807     6 11802   6   100   126    -1          0 a happy-go-lucky performer
+
+M 0 11806     6 11802   6   100   127    -1          0 an impassive-looking merchant
+
+M 0 11807     6 11809   6   100   128    -1          0 a happy-go-lucky performer
+
+M 0 11808     6 11842   6   100   129    -1          0 a wily cutpurse
+
+M 0 11808     6 11834   6   100   130    -1          0 a wily cutpurse
+
+G 1  4364     5     0   0    25   131   130          0 a vial of cyanide
+
+M 0 11811     6 11830   6   100   132    -1          0 a grumbling, middle-aged dwarf
+
+M 0 11810     6 11830   6   100   133    -1          0 an intrusive half-elf
+
+M 0 11809     6 11830   6   100   134    -1          0 a grunting half-ogre
+
+M 0 11808     6 11830   6   100   135    -1          0 a wily cutpurse
+
+M 0 11811     6 11823   6   100   136    -1          0 a grumbling, middle-aged dwarf
+
+M 0 11811     6 11820   6   100   137    -1          0 a grumbling, middle-aged dwarf
+
+M 0 11812     6 11866   6   100   138    -1          0 a smiling kender in gaudy clothes
+
+M 0 11812     6 11846   6   100   139    -1          0 a smiling kender in gaudy clothes
+
+M 0 11813     6 11870   6   100   140    -1          0 a small air elemental
+
+G 1 11823     5     0   0     5   141   140          0 a jagged wand of blue crystal
+
+M 0 11813     6 11870   6   100   142    -1          0 a small air elemental
+
+G 1 11823     5     0   0     5   143   142          0 a jagged wand of blue crystal
+
+M 0 11813     6 11870   6   100   144    -1          0 a small air elemental
+
+G 1 11823     5     0   0     5   145   144          0 a jagged wand of blue crystal
+
+M 0 11813     6 11870   6   100   146    -1          0 a small air elemental
+
+G 1 11823     5     0   0     5   147   146          0 a jagged wand of blue crystal
+
+M 0 11813     6 11870   6   100   148    -1          0 a small air elemental
+
+G 1 11823     5     0   0     5   149   148          0 a jagged wand of blue crystal
+
+M 0 11813     6 11870   6   100   150    -1          0 a small air elemental
+
+G 1 11823     5     0   0     5   151   150          0 a jagged wand of blue crystal
+
+M 0 11814     6 11880   6   100   152    -1          0 a large air elemental
+
+G 1 11801     1     0   0   100   153   152          0 a deep green crystal key
+
+G 1 11824     5     0   0     5   154   152          0 a jagged wand of green crystal
+
+M 0 11814     6 11880   6   100   155    -1          0 a large air elemental
+
+G 1 11824     5     0   0     5   156   155          0 a jagged wand of green crystal
+
+M 0 11814     6 11880   6   100   157    -1          0 a large air elemental
+
+G 1 11824     5     0   0     5   158   157          0 a jagged wand of green crystal
+
+M 0 11814     6 11880   6   100   159    -1          0 a large air elemental
+
+G 1 11824     5     0   0     5   160   159          0 a jagged wand of green crystal
+
+M 0 11814     6 11880   6   100   161    -1          0 a large air elemental
+
+G 1 11824     5     0   0     5   162   161          0 a jagged wand of green crystal
+
+M 0 11814     6 11880   6   100   163    -1          0 a large air elemental
+
+G 1 11824     5     0   0     5   164   163          0 a jagged wand of green crystal
+
+M 0 11814     6 11880   6   100   165    -1          0 a large air elemental
+
+G 1 11824     5     0   0     5   166   165          0 a jagged wand of green crystal
+
+M 0 11815     1 11895   1   100   167    -1          0 a pale-blue djinni
+
+O 0 11833     1 11898   0   100   168    -1          0 an armor rack
+
+P 1 11839     3 11833   0     9   169   168          0 a pair of sapphire platemail boots
+
+P 1 11838     3 11833   0     9   170   168          0 a pair of sapphire platemail gauntlets
+
+P 1 11837     3 11833   0    10   171   168          0 a sapphire platemail helmet
+
+P 1 11836     3 11833   0     7   172   168          0 a set of sapphire platemail greaves
+
+P 1 11835     3 11833   0     8   173   168          0 a set of sapphire platemail vambraces
+
+P 1 11834     3 11833   0     6   174   168          0 a sapphire platemail breastplate
+
+O 0 11832     1 11898   0   100   175    -1          0 a weapon rack
+
+P 1 11840     2 11832   0     5   176   175          0 a defender longsword
+
+O 0 11827     1 11899   0     6   177     5          0 a golden dragon egg
+
+O 0 11828     2 11899   0    10   178     5          0 a silver dragon egg
+
+O 0 11831     2 11899   0    15   179     5          0 a bronze dragon egg
+
+O 0 11830     3 11899   0    20   180     5          0 a brass dragon egg
+
+O 0 11829     3 11899   0    25   181     5          0 a copper dragon egg
+
+S
+$

@@ -1,0 +1,416 @@
+#5200
+guard bright kender~
+a kender guard~
+A bright eyed kender guard patrols the gateway.
+~
+   This kenderic guard seems more interested in what might be beyond the hills
+to the west than on who is entering the city.  Creases line his face as he
+glints at the sky.  Even at four feet, this kender makes most think twice about
+confrontation.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The topknot on this old man nearly reaches the floor, as you can see it
+#5203
+kender maid~
+a kender maid~
+A kender maid stirs the stew while holding her nose.
+~
+   With her long hair in a braid, sourced at the back of her head, this kender
+has no hair in her eyes.  Her skin is pock marked, most likely from the oils
+that evaporate when cooking various foods.  Her apron is a bit sooty, with a
+brown stain on one of the corners.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5204
+bald grizzled kender~
+a grizzled, bald kender~
+A grizzled, bald kender glares at the Mayor.
+~
+   With grizzled features, this kender seems to always look in a sour mood.  
+Odd for one of his race, his head is completely shaved.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5205
+aloof baliff~
+an aloof baliff~
+An aloof baliff looks outside through the window.
+~
+   He is good at what he does.  Of course, what he does, is pay absoloutly no
+attention to anything at all.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5206
+kender woman~
+a kender woman~
+A kender woman stirs up the soup.
+~
+   Thin, and delicate, this kender woman seems no more than a girl.  As it is,
+she seems to have more responsibility, and here it is plain to see that she is
+preparing a meal.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5207
+kender man bright red~
+a kender man~
+A kender man in a bright red shirt searches among the rubble.
+~
+   Frantically searching for something, this one hardly notices your intrusion.
+His shirt is a bright red, and his hair is rather short for what one may guess
+it to be, if he is in his middle ages.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5208
+malawak guard~
+Malawak Bristleberry~
+Malawak Bristleberry stands watch over the safe.
+~
+   A guard for hire, it appears, from his lack of interest.  He watches
+children play in the street, and Gusta's customers as well.  It seems that he
+may just walk away before boredom strikes him.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The fleece on this goat is rather thick, and seems like a nice coat could be
+This one is obviously too young to worry about the stresses of life.  With him,
+#5211
+underweight kender maiden~
+an underweight kender maiden~
+An underweight kender maiden looks about the room.
+~
+   Eyes hidden by the shadows of the room, it is still a fairly obvious feel to
+the sensitive that she is looking at you everynow and then.  Dark hair is
+tightly pulled back, and in a tail.  She stands with her arms crossed, as if
+expecting something.  A small blow pipe is visible, being held in one hand.  
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5212
+kender man orange hat~
+a kender man~
+A kender man tips his bright orange top hat to you.
+~
+   What he is doing in this dark walkway isn't apparent.  He is dressed in
+mostly dark hues, excepting his hat.  A top hat of aa brilliant orange color
+rests above his head.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5213
+groggy kender guard~
+a groggy kender guard~
+A groggy kender appears to be guarding a bench here.
+~
+   Bags under his eyes pull on some of his wrinkles.  He looks relaxed on the
+bench, almost ready to fall into a slumber.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5214
+kender~
+a whistling kender~
+A kender whistles a merry tune as she walks by.
+~
+   With long blonde hair wrapped in a thin purple scarf, this kender looks to
+think she has style.  The rest of her clothes are rather plain.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5215
+agile kender~
+an agile kender~
+An agile kender somersaults in the streets.
+~
+   Thin arms and legs are able to support the constantly shifting weight of
+this kender.  Back flips and somersaults are performed quite often.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5216
+jiminy fourhands~
+Jiminy Fourhands~
+Jiminy Fourhands counts some change.
+~
+   His safe is slightly ajar, perhaps to keep kender from wondering what may be
+inside.  His nose is rather sharp, and his hair tighly pulled from his face.  
+He glances for Malawak every now and then, but mostly keeps to himself.    
+~
+d 0 0 0 k 0 0 0 0
+35 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5217
+gusta kender unkempt~
+Gusta~
+Gusta, an unkempt kender dressed in rags smiles at you.
+~
+     Smiling broadly at the thought of a customer, she shows her ... missing teeth.  The rags she wears are of many colors, and types.  Her hair is ratty and tangled.
+~
+d 0 0 0 k 0 0 0 0
+35 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5218
+rusty willowknot~
+Rusty Willowknot~
+Rusty Willowknot stands here behind his counter.
+~
+   Behind a counter sits a gruff kender with an eye patch over his left eye.  
+His good eye rolls toward you and he offers his services.  Even in old age, and
+retirement, he keeps on working.  Among the scars on his arms, he has two
+knives in sheaths attached on his arms.  With all this, most realize that
+swindling isn't his game, on either side.    
+~
+d 0 0 0 k 0 0 0 0
+35 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#5220
+mob wrong~
+the wrong mob~
+The wrong mob is here... OOPS!
+~
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

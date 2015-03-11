@@ -1,0 +1,2027 @@
+#8000
+stone small tarnished~
+a small, slightly tarnished stone~
+A small, slightly tarnished stone has been left here.~
+~
+8 cjklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 125 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+stone~
+   This small stone looks to be ancient.  The years have made this stone look
+almost tarnished.  A faint orange glow can be seen pulsing from the stone
+itself.    
+~
+#8001
+stone large blue~
+a large blue stone~
+A stone of rich blue tones has been dropped here.~
+@`@`~
+8 bjklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 40 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8002
+letter parchment skin~
+a letter written on parchment made from human skin~
+A letter written on parchment made from human skin has been left here.~
+~
+12 krC 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+letter parchment skin~
+   Though dried and torn in places, this parchment made of pale, human skin
+seems to still keep it's lettering quite well.  Written upon it in blood red,
+elven words is the following letter:
+   To my son Uristhantalis,
+Not all spirits go to rest my son. In a time of godless ages, I have
+only the realm of the mortals to turn to. My soul lies restless still
+within the shaded veil of death. The chains of love and hate tear me
+in two directions.
+In this I have little time to explain, except to say in death's moment
+your father and I called upon and cursed all those forgotten gods who
+have long since been forgotten and heard no more by mortal ears.  In
+this my son, we have payed a terrible price, for in our misery only
+the two gods whom we least expect to spend eternity with answered our
+cries.
+My dearest son, I know you have payed the price for losing us, with
+your guilt and now a cold heart, but I beg of you....find a way to
+release us of these eternal chains which bind us between the realm
+of life and eternal sleep we seek.
+Seek out the temples of those gods whom would bind us...there shall
+you find the first steps to rescue our souls.
+I must go now...the demons whom chase us are near...I pray
+ye shall find release for us soon.
+Larisania
+~
+A
+14 5 0
+#8003
+quiver flaming red heart tree~
+a flaming red quiver crafted from the heart of a tree~
+A flaming red quiver crafted from the heart of a tree lies here on the ground.~
+~
+9 klqwC 0 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+quiver flaming red heart tree~
+   This quiver is made from a strange, flaming red wood.  Obviously magical,
+the wood bends and flexes as easily as silk, yet seems to be hard as ironwood.
+The swirls of the wood itself seem to spell out strange sigils and runes, all
+of which cannot be identified with any currently known runes.  As the quiver
+presses against your skin you can almost feel a heartbeat within it filling you
+with life, energy, and strangely enough a strange kind of warmth.    
+~
+A
+3 1 0
+A
+21 1 0
+A
+24 1 0
+#8004
+dagger mithril blackened edge~
+a blackened dagger with a mithril edge~
+A mithril-edged, blackened dagger hums lightly as it lies in the dirt.~
+~
+5 jklmoprsuvBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 400 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8005
+shield blackened blood dead~
+a blackened shield etched in the blood of the dead~
+A rounded, blackened shield etched in blood lies here hideously.~
+~
+9 jklpqrstuBCDEF abc 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 20 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8006
+egg strap silver -Alysandria~
+a silver egg suspended from a leather strap~
+A silver egg suspended from a leather strap hovers strangley here.~
+5~
+15 jqst a 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 500 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+egg golden strap~
+   This oblong silver nugget appears to be in the shape of an egg.  It is
+suspended from a worn leather strap by a forged hook at it's pinnacle.  A
+slight crease circles the radius of the egg, almost suggesting it could be
+opened.  Gold letters etched into the sphere read, "In your days of chilling
+demeanors and unforgiving carriage, may this egg add some humor and warmth to
+your heart.".  Though it seems large when handled, it appears to shrink when
+worn.......almost unnoticable.
+~
+A
+13 15 0
+A
+17 -5 0
+A
+4 1 0
+A
+19 1 0
+#8007
+medallion holy symbol platinum roaring dragon -caide~
+a platinum medallion bearing the symbol of a roaring dragon~
+A platinum medallion bearing the symbol of a roaring dragon lies here.~
+~
+11 gjqtBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 50000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 2 0
+#8008
+ring raven golden blue gem~
+a golden raven's claw grasping a blue gem~
+A golden ring shaped like a raven claw, gently holding a blue gem, rests here.~
+a tarnished iron ring~
+8 jklmnoprstuvwBCDEF abc 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -1 0
+#8009
+robes crimson blood moon~
+crimson robes with a blood moon on the back~
+Finely crafted crimson robes, adorned with a blood moon on the back, lie here.~
+~
+9 jklmnoprsvwBCDEF abc 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 110 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8010
+ring raven grasp~
+raven grasp~
+A ring named "raven grasp" lies here discarded aside.~
+~
+0 ajklmnopqrstuvwBCDEF abc 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+raven grasp ring~
+   A single blue stone trimmed with gold is afixed in the center of this ring.
+Swirling colors of blur are in constant motion within the gem, and the single
+claw of a raven is grasping it as if to keep its' power in check.  The lineage
+of this ring states that a long history of men and women of great power came
+into contact with this ring.  One old sage studied it for years, and in his
+final scribblings before his passing wrote about it: "The ring is of an
+indeterminable past.  While in my person I noticed that I was was imbued with
+the agility of a cat, less succeptable to disease, and my sense of perception
+seemed to be greatly amplified"
+~
+A
+17 -1 0
+#8011
+mask ivory fates~
+an ivory mask of the fates~
+A mask with a swirling pattern, carved entirely of ivory, lies here.~
+~
+9 jklmnopqrstuvwBCDEF abc 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+mask~
+   For centuries certain sects have used this mask as a coming-of-age
+adornment.  It hides the features of the wearer until the day comes for them to
+meet the High Druid and prove their devotion.  The mask is carved entirely of
+ivory, and a unique pattern which represents the true feelings of the wearer is
+drawn upon the face using an extract of the liphinwood root.  These markings
+never change as the wearer ages, yet it is rumored in those that go astray from
+the path of their sect, upon meeting the High Druid when the mask is removed,
+the pattern will be permanantly seared into their skin and will serve as a
+lifelong reminder of their lack of commitment.    
+~
+#8012
+staff healing~
+a staff of pure healing~
+A staff of slender jade lies here discarded aside from the rest.~
+~
+5 jklmnopqrstuvwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+staff~
+   This staff of slender jade looks extremely brittle, and it appears as if it
+could break with the mere touch of a moth's wings.  However, those who wield it
+know well that the staff and its owner never falter as long as their faith is
+strong.  It is rumored that when the staff comes in contact with an individual
+of undying devotion, it shall never fail the wielder in combat, so long as the
+owner never strays from their path.    
+~
+E
+healing~
+You see nothing special.
+~
+#8013
+pendant black disk~
+a pendant of a black disk~
+A small, black disk pendant hangs from a thin necklace.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pendant black disk~
+   This small pendant glistens brightly in the light.  It appears to be a
+small, black disk with an opening through which a tiny necklace supports it.  
+~
+#8014
+skull human hollowed water~
+a hollowed human skull~
+A hollowed human skull lies here discarded.~
+~
+17 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8015
+chalice platinum~
+a chalice made of pure platinum~
+A chalice made of a valuable metal lies discarded here.~
+~
+17 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8016
+breasplate heavy steel crest house percival~
+a heavy, steel breastplate with the crest of the House Percival~
+A heavy, steel breastplate with the crest of the House Percival rests here~
+~
+9 jklnopqrstuvBCDEF abc 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+breasplate heavy steel crest house percival~
+   This breasplate is made of finely tempered, heavy steel.  It was crafted by
+a blacksmith in the employ of House Percival, and although it serves as
+ornament it is also used for battle.    
+~
+#8017
+wisdom goblet -Travist~
+the Goblet of Wisdom~
+The Goblet of Wisdom rests here.~
+~
+17 jklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+35 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+goblet wisdom~
+   This goblet is enlaid with four rubies, each representing a step on the path
+to enlightenment.  Blue, red, green, and black, each with their own meaning,
+lost for ages.  It is rumored that he who discovers their secrets, shall see
+life eternal.    
+~
+#8018
+cloak silver mantis ~
+a black cloak with a silver, mantis-shaped clasp~
+A black cloak with a shiny, odd-looking clasp lies in a heap.~
+~
+15 jklmnopqrstuvwBCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak ~
+   This long black cloak draps around its wearer.  Flowing, and concealing, it
+can easily conceal a weapon.  The silver clasp on the front is shaped like a
+small mantis, with it's two front claws reaching out, grasping.  Two red stones
+are set as eyes on the insects head.    
+~
+#8019
+pendant everlasting sleep~
+a pendant of everlasting sleep~
+A pendant of everlasting sleep blinks out of existance here.~
+~
+9 ahkmnryCF ais 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8020
+Wrasp boa constrictor snake~
+Wrasp, the boa constrictor~
+A boa constrictor with a red name tag saying "Name: Wrasp, Owner Jadin" is curled here.~
+~
+9 jklmnopqrstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+wrasp~
+   A boa constrictor of immense size curls up here and occassionally tests the
+air temperature with his lithe, double-pronged tongue.  This action immediately
+alerts him to any sort of danger, and allows him a distinct advantage when
+hunting prey.  His body is as thick as a minotaur's forearm, and is covered
+with green and black scales which glitter when wet like a pile of dark ore does
+under the starfilled sky.  His piercing eyes are the shade of a Theiwar mined
+Ruby, and miss nothing yet never seem to move.  His temperment is calm, yet his
+razor-sized fangs could strike quickly if he gets startled.  If he is truly
+upset, he takes pleasure in coiling round his victims, squeezing the body till
+every bone breaks, and then swallowing the body whole.    
+~
+#8021
+volume ancient leather blue runes~
+an ancient, leather volume covered in blue runes~
+An ancient, leather volume covered in blue runes has been left here.~
+~
+26 jklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8022
+warhammer wicked~
+a wicked looking spiked warhammer of mithril named, 'Vindicator'~
+Resting on the ground is a wicked looking warhammer.~
+~
+5 ijklpqrstuBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#8023
+pendant silver -caide~
+an intricately crafted, silver pendant bearing the Solamnic crest of House Delancis~
+Tiny interlocking strands of silver form a small pile on the ground.~
+~
+11 jnqrtvBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 120 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pendant delancis silver~
+   Suspended from a long, interlocking chain of pure platinum is an intricately
+crafted, silver pendant inlaid with onyx.  Etched into the silver with such
+precision and subtle detail only a master smith could do is a depictions of an
+armored horsemen mounted upon a beautifully warhorse, the Solamnic crest of
+House Delancis.    
+~
+A
+17 -1 0
+A
+13 2 0
+#8024
+shortsword Highlord Slayer~
+a shortsword named 'Highlord Slayer'~
+A mighty shortsword name 'Highlord Slayer' beckons for a master.~
+~
+5 jklmnprtuwBEF abc 0 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 10 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8025
+shortsword sharp shadows~
+a maliciously sharp shortsword of shadows~
+A shortsword lies here, absorbing its own shadows.~
+~
+5 jklopqrstuvBCDEF abc 0 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sword~
+   A thin, razor sharp blade of quenched iron, this sword emanates waves of
+coal-black shadows.  As quickly as they are sent forth, the shadows are
+absorbed back into the blade, creating a constant cycle of darkness.  Because
+of this, its form is nearly impossible to focus on.    
+~
+E
+shadows~
+   A thin, razor sharp blade of quenched iron, this sword emanates waves of
+coal-black shadows.  As quickly as they are sent forth, the shadows are
+absorbed back into the blade, creating a constant cycle of darkness.  Because
+of this, its form is nearly impossible to focus on.    
+~
+E
+shortsword~
+   A thin, razor sharp blade of quenched iron, this sword emanates waves of
+coal-black shadows.  As quickly as they are sent forth, the shadows are
+absorbed back into the blade, creating a constant cycle of darkness.  Because
+of this, its form is nearly impossible to focus on.    
+~
+#8026
+visor steel polished~
+a polished steel visor~
+A polished, steel visor shines brightly while it rests on the ground.~
+~
+9 jklprstBCDEF abc 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 45 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8027
+infant swaddled clothes~
+a swaddled infant~
+An infant in swaddling clothes whimpers quietly.~
+~
+13 jklmnopsuvwADEF ac 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 0 125 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 125
+#8028
+iron scythe~
+new object~
+A heavy iron scythe rests on the ground.~
+~
+5 jklnoprsuwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 99 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8029
+soul diminishing wayward being~
+the diminishing soul of a wayward being~
+A floating soul of a long lost entity hovers here, seeking guidance.~
+~
+1 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+A
+14 4 0
+#8030
+shield bone formed~
+a shield formed of bone~
+A shield formed entirely of bone lies here, in shambles.~
+~
+9 hjklpsuvBCDEF abc 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8031
+robes set white mage~
+a set of white mage robes bordered with silver runes~
+A set of white mage robes bordered with silver runes have been left here.~
+~
+15 jmqC 0 0 0 akn 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+robes mage set white~
+   These white robes are lined with many pockets.  Silver runes of protection
+are sewn into several places.    
+~
+#8032
+dagger ankelbone bone~
+a dagger carved from a human anklebone~
+A dagger carved of a human bone lies here on the side, discarded.~
+~
+5 jklmopuvBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+9 10 0
+#8033
+finger banshee trembling~
+a trembling finger of a banshee~
+A trembling skeletal finger lies here quietly.~
+~
+3 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8034
+loincloth belt cemetary~
+a loincloth covered in cemetary dirt~
+A pile of cemetary soil lies here in a heap.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+#8035
+object new~
+a piece of decaying flesh~
+A new object is here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8036
+shaft red rock crimson orb~
+a long shaft of red rock, mounted with a crimson orb~
+A long shaft of red rock lies here with a crimson orb embedded onto its top.~
+~
+5 jklmnpqstuvxBCDF ac 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 450 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+orb~
+   At just over six feet in length, this thick staff of ancient red rock is
+indeed an intimidating sight.  Atop its thick shaft sits a crimson orb of an
+unknown origin.  Small, forest-green runes have been etched along side the orb,
+their words indecipherable by all but the one who rightfully owns this weapon.
+~
+E
+rock~
+   At just over six feet in length, this thick staff of ancient red rock is
+indeed an intimidating sight.  Atop its thick shaft sits a crimson orb of an
+unknown origin.  Small, forest-green runes have been etched along side the orb,
+their words indecipherable by all but the one who rightfully owns this weapon.
+~
+E
+shaft~
+   At just over six feet in length, this thick staff of ancient red rock is
+indeed an intimidating sight.  Atop its thick shaft sits a crimson orb of an
+unknown origin.  Small, forest-green runes have been etched along side the orb,
+their words indecipherable by all but the one who rightfully owns this weapon.
+~
+#8037
+wand eye~
+a wand with an eye on the handle~
+A wand with an eye on the handle is here.~
+~
+3 jknqs a 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8038
+cloak shifting greens browns~
+a cloak of shifting greens and browns~
+A soft cloak of shifting greens and browns lies here folded neatly.~
+~
+9 jklmnopqrstuvwBCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak~
+   A vivid cotton cloak of magically shifting greens and browns, this article
+of clothing was obviously created by a magic user of great ability.  The greens
+and browns which make up the cloak constantly swirl together, never stopping to
+form a defined pattern.  Staring at it for too long will surely put you into a
+trance-like state.    
+~
+#8039
+ring platinum~
+a sparkling platinum ring engraved with the words, "Est Sularus Oth Mithas"~
+Resting peacefully on the ground is a sparkling ring of platinum.~
+~
+11 agjklmnoprstvwBCDEF abc 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ring ~
+   Two interlocking dragons wind around the pure band of platinum forming a
+remarkably, beautiful ring.  Where the two head's of the dragons meet,
+carefully engraved into the ring are the words, "Est Sularus Oth Mithas"
+~
+A
+18 1 0
+A
+17 -1 0
+#8040
+branch oak encarved runes~
+new object~
+A branch of oak encarved with runes rests here.~
+~
+5 lqwxBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 12000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+branch oak encarved runes~
+   This branch was made from an ancient oak tree, which had fallen in the
+forests of Qualinesti.  Strange runes mark it edges, empowering it hold its own
+in any battle.  The branch is always warm to the touch, even in the coldest
+weather.    
+~
+A
+19 1 0
+#8041
+armor suit blue scale~
+a suit of night blue scale mail~
+A suit of night blue scale mail rests on the ground.~
+~
+9 kpqBCDEF abc 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8042
+blade ancient sharpened edge~
+an ancient blade with a sharpened edge~
+An ancient blade with a sharpened edge rests here.~
+~
+5 kpqBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 16000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 25 0
+#8043
+object new~
+a NEW OBJECT~
+A new object is here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8044
+cloak tattered thick~
+a thick, tattered cloak bearing a five-headed dragon~
+A thick cloak with the markings of the dark queen lies discarded in a heap.~
+~
+15 ajklmnopqrstuvwBCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8045
+dagger spider~
+a long, spider dagger~
+A long dagger engraved with a symbol of the spider lies on the ground.~
+~
+5 jklopqrstuvwxBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 850 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#8046
+spellbook white brilliant moon~
+a brilliant white spellbook with silver moon etchings~
+A brilliant white spellbook with silver moon etchings rests here, softly.~
+~
+26 jklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8047
+cup glossed silver rim~
+a glossed ebony cup with a silver rim~
+A glossed, ebony cup with a silver rim rests here.~
+~
+17 jklmnopqrstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+55 12000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cup glossed silver rim~
+   This cup is made of a black metal, which absorbs all the light that touches
+it.  As the owner drinks from its contents, it seems to shift and move out of
+sight for a second, as if your eyes slide right off its surface.    
+~
+#8048
+leg endrin~
+new object~
+Someone seems to have left their leg here.~
+~
+19 hjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8049
+collar spiked black leather~
+a spiked black leather collar~
+A spiked leather collar with solid steel spikes is here.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+collar~
+   A Spiked black leather collar, the spikes are solid steel and it has an
+engraving that says "property of Jadin."
+~
+A
+14 2 0
+#8050
+pair mirror shades~
+a pair of mirror shades~
+A shiny pair of mirror shades rests on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8051
+cloak midnight flowing~
+a flowing, midnight cloak~
+A pile of midnight black cloth lies on the ground, collecting dirt.~
+-13~
+15 jklmnopqrstuvwBCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 12000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak midnight flowing~
+   The fabric of this cloak drinks in the light touching it, creating a
+slippery affect when one tries to look at it.  Woven into the inside of the
+cloak are several pockets, each somehow able to hold more then it should for
+its size.  Upon the center of the inside of the cloak is a single silver star,
+the sign of a mage, Kyllandrec, who disappeared during the Cataclysm.    
+~
+A
+17 -11 0
+#8052
+necklace opal -Milo~
+an opal necklace, etched through with gold letters~
+An opal necklace lies tossed upon the ground.~
+~
+9 lqs a 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -6 0
+A
+13 15 0
+A
+20 1 0
+#8053
+sceptre emerald polished~
+a finely polished sceptre of emerald~
+A glistening emerald sceptre rests here peacefully.~
+~
+5 bjklmnoprstuvwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8054
+large dwarven battle axe~
+a large dwarven battle axe~
+A large battle axe of dwarven construction lies here.~
+~
+5 jklmnoprstuvwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8055
+robe hooded fuscous opaque~
+a fuscous, hooded robe with frayed opaque trim~
+A fuscous, hooded robe with frayed opaque trim lies here.~
+~
+9 bjklmnopquvwCEF aj 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8056
+sphere swirling colors -Travist~
+a sphere of swirling colors~
+A sphere of swirling colors rests gently above the ground here.~
+~
+15 jlnpquF ac 0 0 alo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sphere swirling colors~
+   The swirling colors of this sphere flow in a circular pattern all throughout
+its inside.  Representing every color of the rainbow, they seem to swim through
+its depths, holding the objects contained within it.    
+~
+#8057
+armor polished suit~
+a suit of nicely polished armor~
+A suit of nicely poliched armor rests here.~
+~
+9 jqs a 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+13 16000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+armor polished suit~
+   This suit of armor is kept in excellent condition by its owner.  It gleams
+in the light of the sun, and almost seems to radiate by the light of the moon.
+Spotless and untarnished, armor this well-kept could only belong to a Knight of
+Solamnia.    
+~
+A
+6 1 0
+#8058
+kingfisher small metallic -Travist~
+a small, metallic kingfisher~
+A small, metallic kingfisher rests on the ground.~
+- 8~
+9 ajnqF an 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 12000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+kingfisher small metallic~
+   This small kingfisher is the holy symbol of Paladine.  Fashioned by the
+Order of Light, this symbol represents qualities of compassion and kindness.  
+It bestows upon its wearer great responsibility, for those in need, when they
+see it, shall know they have found a man they can trust.    
+~
+A
+3 1 0
+A
+4 1 0
+A
+6 1 0
+A
+17 -9 0
+#8059
+ceremonial breastplate~
+a ceremonial breastplate bearing the Ananke crest~
+A ceremonial breastplate bearing the Ananke crest lies on the ground.~
+~
+9 jklpsBCEF ac 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 20 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ceremonial breastplate~
+   A shimmering golden breastplate with the family crest of Septian Ananke upon
+it.  The crest consists of three parts: On its top half, is the symbol of the
+Platinum Dragon.  On the bottom left side is a symbol of two swords crossed,
+and on the other side is a symbol of a waning moon.  It is polished and shines
+brightly in the light.    
+~
+#8060
+treesnake green small~
+a small, green treesnake~
+A small, green treesnake rests upon the ground.~
+~
+9 lpq a 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 40 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+treesnake small green~
+   This small treesnake is harmless to pretty much everything.  A slender body,
+marked with a few red spots are its only characteristics.    
+~
+#8061
+aspen necklace grass~
+a finely woven necklace made of grass~
+A finely woven necklace made of grass is falling apart on the ground.~
+~
+9 bgjklnrtwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1400 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+#8062
+robes white silver~
+a set of flowing white robes edged with silver moon runes~
+A set of white robes edged with silver moon runes lies on the ground.~
+~
+9 jklmnoprstuvwBCDF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 350 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8063
+staff long sharpened~
+a long quarterstaff with sharpened points~
+A long quarterstaff with sharpened points lies here.~
+~
+5 jklmoruvwxBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 375 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8064
+new object~
+a NEW OBJECT~
+Burning on the ground before you is a sword crafted from bone.~
+~
+5 agjklpstBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 3000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+scimitar bone flames~
+   Looking upon this weapon you can see that it wasn't made by mortal man.  
+The magical fire that encases this finely made weapon doesn't seem to harm the
+one who posseses it, but seems to lash out at those who do not.    
+~
+A
+19 1 0
+#8065
+sword silver bladed blackened hilt~
+a silver-bladed sword with a blackened hilt~
+A silver-bladed sword with a blackened hilt rests here.~
+~
+5 loF 0 0 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sword silver-bladed blackened hilt~
+   The runes along the edge of this sword are written in High Elven Script.  
+They read "Forged in light, and honed in fire, this blade shall pierce your
+darkest foe."
+~
+A
+19 1 0
+#8066
+shield dragon crest steel solid~
+a solid steel shield with a Dragon Crest~
+A solid steel shield with a Dragon Crest rests upon the ground.~
+~
+9 kqs a 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 12000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shield dragon crest steel solid~
+   This shield bears the Crest of House Stromguard, an old family lines with
+Knights of Solamnia.  The crest shows a dragon, surrounding a shield enclosing
+four pictures.  One for each trait the House held dear, strength, wisdom,
+loyalty, and honour.    
+~
+A
+5 1 0
+A
+18 1 0
+A
+6 1 0
+#8067
+bracelet draconic etchings midnight -Kle~
+a midnight bracelet adorned with draconic carvings~
+A bracelet with draconic etchings lies tossed upon the ground.~
+~
+9 aghknq a 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 125 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+A
+24 1 0
+A
+4 1 0
+#8068
+dagger keenly long~
+a long, keenly tapered dagger~
+A long, keenly tapered dagger rests upon the ground.~
+~
+5 loqC 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 12000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+dagger tapered keenly long~
+   The dagger before you posesses a thirteen inch blade, and a wickedly razor sharp edge.
+The hilt of the weapon is as long as the width of the average mans hand, and seems to
+have a very custom shape to it, as that it would only feel right in one perticular persons
+hand.
+   Upon closer examination of the dagger, you notice small engravings about the base of
+the blade, which seemed to have been of a common tongue, but have worn down
+to the point that they cannot be read. In addition, on the very bottom of the hilt,
+is inset with a brilliant, almost luminescent green jewel.
+~
+A
+18 1 0
+#8069
+vines tangled mass -Mercer~
+a tangled mass of vines~
+A tangled mass of vines lies tossed upon the ground.~
+~
+9 lqr af 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 2 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 1 0
+#8070
+robe blue lace flowing -Jillista~
+a flowing blue robe trimmed in matching blue lace~
+A flowing blue robe trimmed in matching blue lace has been left here.~
+~
+9 jnqF 0 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 12000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+robe lace blue~
+   This robe is made from the finest elven cloth which is soft to the touch but
+firm enough to stand up to heavy wear and long travels.  Trimmed with fine,
+blue lace, it is fit for a noble lady and bestows and elegance and grace upon
+it's wearer.    
+~
+A
+6 1 0
+A
+4 1 0
+A
+3 1 0
+#8071
+belt loose leather flame -Shar~
+a loose fitting, leather belt~
+A loose fitting, leather belt has been tossed aside here.~
+~
+9 ghlpq ao 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+belt loose leather flame~
+   Although the upper and lower edges of this belt are worn from years of use,
+it still works to accomplish it's job of holding up one's trousers.  At first
+glance, it appears to be nothing special.  However, after a closer inspection,
+once notices insignias of a flame embedded all about it.  Though all color from
+this worn item should have long ago disappeared, the flames still seem to glow
+with an orange light.    
+~
+A
+19 1 0
+A
+6 1 0
+A
+9 -50 0
+#8072
+robe satin black condor -Serendi~
+a black satin robe, bearing a red condor~
+Lying upon the ground is a black satin robe~
+~
+9 knqC 0 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8073
+band globe intricate obsidian~
+an intricate, obsidian band with a globe upon it~
+An obsidian band with a globe upon it, rests upon the floor.~
+~
+9 kmqC 0 0 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 100000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+6 1 0
+A
+24 2 0
+#8074
+bracelet deep-red deep red hued bone intricate carvings -Serendi~
+a deep-red hued, bone bracelet with intricate carvings~
+A deep-red hued, bone bracelet lies upon the ground.~
+~
+9 bknqC 0 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2780 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+4 1 0
+#8075
+medallion granite black crescent moon~
+a black granite medallion, shaped like a crescent moon~
+A granite medallion lies tossed upon the ground.~
+0~
+9 bkmq a 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 125 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+nightingale dagger white gold hilt~
+   With a soft, golden glow, this dagger stares back at you with a gleaming
+sparkle.  Embedded within the hilt is a picture of a reddish-brown nightingale
+with two small gems for it's eyes.  The blade itself, though made of what
+appears to be white gold, is resiliently strong, unbreakable from even the
+strongest of blows.    
+~
+A
+24 2 0
+A
+3 1 0
+A
+6 1 0
+#8076
+belt obsidian pouches -rothan~
+an obsidian colored belt with multiple pouches~
+A belt draws in all the sunlight surrounding it.~
+~
+9 bjlmtC a 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+4 1 0
+A
+24 1 0
+#8077
+armplates ancient pair blue dragonscale~
+an ancient pair of blue dragonscale armplates~
+An ancient pair of blue dragonscale armplates rests here.~
+~
+9 lqs a 0 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1200 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+armplates ancient pair blue dragonscale~
+   These armplates date back well before the Cataclysm.  Made of blue
+dragonscale, they fit comfortably on the arm, while providing excellent
+proection.  A few chips can be seen along the sides of the armplates, signs of
+heavy battle.  However, the plates are mostly intact after hundreds of years of
+use.    
+~
+A
+18 1 0
+A
+13 3 0
+#8078
+sleeves crimson dragons~
+crimson sleeves embroidered with dragons~
+Crimson sleeves embroidered with dragons have been placed here.~
+~
+9 lmqC 0 0 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 12000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sleeves crimson dragons~
+   These sleeves have been fashioned with a velvet, crimson cloth.  Made for a
+member of a noble family in Qualinesti, they bring the wearer prestige, and
+envy.  Two dragons have been emroidered along their sides, each breathing
+bright blue flame towards the hands of the owner.    
+~
+A
+24 -1 0
+#8079
+onyx blade lined platinum~
+an onyx blade lined with platinum~
+An obsidian spear with a barbed tip lies here on the ground.~
+~
+5 jkloprstuvwxBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 850 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#8080
+short dagger~
+a short dagger~
+A short dagger with a dull blade rests on the ground.~
+~
+5 gjklmoprstvwBCDEF abc 0 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+dagger~
+   Dull and worn with age, this dagger appears to have been used beyond it's
+years.    
+~
+A
+19 1 0
+#8081
+breastplate breast plate blue~
+a breastplate of blue dragon scales~
+A breastplate of blue dragon scales has been tossed aside here.~
+~
+9 akquB f 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 99999 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+breastplate plate breast blue~
+   Tightly fitted blue scales embed themselves within the breast of this steel
+plate of armor.  The insignia of a dwarven cup full of spirits appears on the
+front and back of this ancient encasing.    
+~
+A
+18 1 0
+A
+19 1 0
+#8082
+bag purple dark~
+a dark purple bag~
+A dark purple bag, with patches of steaking stars, rests upon the ground.~
+~
+15 jklmnopqrstuvwBCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bag dark purple~
+   This bag has been passed from times when Elves first walked the face of
+Krynn.  Though ancient, no wear has come to its edges, and it serves its owner
+well in any weather.  Three, mystical stars mark the sides.  They streak across
+the bag in a colorful display of sewing genius.    
+~
+#8083
+boots red blue steel pair -Darshin~
+a pair of boots crafted from red and blue steel~
+A pair of red and blue boots sit heavily on the floor.~
+~
+9 lqs a 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 900000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+boots red blue steel pair~
+   A mixture of a strange steel alloy, forged by powerful blacksmiths of long
+ago, cause these boots to almost glow blue and red.  Though noone knows their
+true origin, golden lettering which has yet to fade, spell out several names at
+the base of the heel.  One of these names spells out 'Darshin'.    
+~
+A
+6 1 0
+A
+19 1 0
+A
+1 1 0
+A
+9 -50 0
+#8084
+ring dragon claw silver curled~
+a ring formed of a curled dragon claw~
+A curled dragon claw has been left on the ground here.~
+10~
+8 agjqs a 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 900000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ring curled silver claw dragon~
+   The history of this ancient ring dates back to the days of the great Dragon
+Wars.  During that time period, many valiant dragons gave up their lives in
+fighting for just cause.  It was not unusual for mages to come across the
+bodies of these magnificient creatures and gather the componets needed for
+spellcasting.  This particular claw comes from a great silver whom gave her
+life in the service of Paladine.  Her mortal friend, a white mage, cast upon
+the claw enchantments of great power which only one of pure heart and soul may
+ever utilize.    
+~
+A
+18 1 0
+A
+17 -10 0
+A
+19 1 0
+#8085
+staff vallenwood -serendi~
+a vallenwood staff~
+A staff lies upon the ground.~
+~
+5 knqC 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+#8086
+glass crystalline water~
+a crystalline glass of water~
+A crustalline glass has been carefully put ont he ground here.~
+~
+17 hq 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+65 900000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#8087
+orb glowing red~
+a glowing red orb~
+A glowing red orb hums on the ground here.~
+~
+1 ablmqC 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+24 1 0
+#8088
+shield crimson crondor onyx~
+a scorched onyx shield with a crimson crondor emblazoned on it~
+A shield with a scorched crimson condor lies here glistening.~
+~
+9 klptuC a 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 2500 100 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+crondor~
+The sunlight seems to be sucked into this onyx shield.  The vague outline
+of a crimson crondor shimmers emblazoned as a great crest, with the head of 
+the crondor standing out prominently, with large oval shaped eyes.
+~
+#8089
+robe satin gilean~
+a shimmering robe of satin sewn with the symbol of Gilean's book~
+A shimmering satin robe of the Book lies here.~
+~
+9 jklnC a 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 600 350 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8090
+hood crimson red -Tabarath~
+a crimson red hood~
+A red hood has been left on the ground.~
+~
+9 ablmqC 0 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 900000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+hood crimson red~
+   A dark, rich crimson color gives this hood an almost blackish tint under dim
+light.  Made of the finest silk, it is embued with the powers of wizards long
+past.    
+~
+A
+3 1 0
+A
+4 1 0
+A
+24 1 0
+#8091
+mace steel gold holiness~
+a steel and gold-etched mace of holiness~
+A mace with long iron spikes lies stuck partially into the ground.~
+~
+5 jklnoprtuvBCEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 2250 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+mace steel gold etched holiness~
+   This gold-etched mace of steel glows with an aura of holiness matched only
+by it's wielder.    
+~
+#8092
+cloak dark hooded~
+a dark, hooded cloak~
+A dark, hooded cloak has been left here.~
+~
+9 loqC 0 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak dark hooded~
+   This darkly colored cloak tends to blend in with any shade of shadow.  It
+has blood red runes on the inside of the sleeves.  It's long hood masks any
+wearer when he walks about the twilight.    
+~
+A
+6 1 0
+A
+18 1 0
+A
+19 1 0
+A
+5 1 0
+#8093
+ring silver holy symbol~
+a silver ring with a holy symbol~
+A silver ring with a holy symbol has been left here.~
+~
+9 abjnq a 0 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ring silver holy symbol~
+   This small, silver ring has a miniature Kingfisher mounted to the top.  It
+glows with a pure, white light and signifies the holiness of the one who can
+wear it.    
+~
+A
+4 1 0
+A
+3 1 0
+A
+9 -50 0
+#8094
+necklace steel elven make~
+a steel necklace of elven make~
+A steel necklace of elven make rusts on the ground.~
+~
+9 lpqC 0 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 900000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+necklace steel make~
+   Made of woven steel threads, this necklace appears old beyond the current
+age of elves.  It seems to glow with a dim aura of light.    
+~
+A
+5 1 0
+A
+18 1 0
+A
+6 1 0
+#8095
+boots mud caked -uristhantalis~
+a pair of mud-caked boots~
+Upon the ground lies a pair of mud-caked boots.~
+v0 13~
+9 kqrC 0 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 2500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+2 1 0
+A
+5 1 0
+#8096
+bracer blue red steel~
+a bracer crafted from blue and red steel~
+A blue and red steel bracer has been left here.~
+~
+9 aklrs a 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bracer blue red steel~
+   It is blue.  It is red.  It is a bracer.  It is made of steel.  Your very
+impressed upon looking at it.    
+~
+A
+17 -1 0
+A
+20 1 0
+#8097
+robe rune lined black rune-lined -Page~
+a rune-lined black robe with many deep pockets~
+A large black pile of cloth lies here in the dust.~
+~
+15 jklmnoprsuvwBCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+robe black rune lined rune-lined~
+   This robe is black with small silver runes around the outside edges as trim.
+It has many deep pockets inside and out to put spell components and maps in.  
+~
+E
+shell~
+   The shell you are looking at belonged to a large turtle, just before he was
+savagely killed by adventurers.  You realize that after cleaning this shell
+out, you can use it to put your belongings in, as it can hold quite a bit.    
+~
+#8098
+staff vallenwood crooked -Jillista~
+a crooked, vallenwood staff~
+A long, curved stick lays here.~
+~
+5 jnF 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 800 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+staff vallenwood curved stick crooked~
+   This long, crooked staff is carved from the branch of a vallenwood tree.  
+It has been worn smooth from the hand of it's owner.  Enscribed on the staff is
+the infinity sign of Mishakal, twin teardrops joined at the tips.    
+~
+#8099
+maul spikes ivory~
+an ivory hilted maul with diamond spikes~
+An ivory hilted maul with diamond spikes sits here.~
+apply 13~
+5 bklpuxBCEF ac 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 4300 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sleeves~
+   These loose fitting, leather sleeves seem to offer very little protection
+from much of anything.  Worn and cracked from years of use, they do offer
+freedom of movement.  Interestingly enough though, a strange humming noise
+seems to eminate from the elbows.    
+~
+A
+18 1 0
+A
+1 1 0
+A
+5 -1 0
+A
+2 -1 0
+$~

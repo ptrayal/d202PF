@@ -1,0 +1,82 @@
+#7900
+burly minitaur~
+the burly minitaur~
+A burly minitaur stands here like stone scanning the ground in place
+~
+] The burly minitaur stands here in place scanning the area around him. The min
+] minitaur is fiercly big and has a body that is very furry. The minitaur has
+] large arm muscles and wears rusted shackles on his wrists. His nose ring moves
+] up and down as the minitaur moves his head up and down and side to side. His
+] legs seem to have some sort of chain mail on them making his legs armored.
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7901
+gunthar uth wistan grand master~
+Gunthar Uth Wistan, Grand Master of the Solamnic Knights~
+The Grandmaster of the Solamnic Knighthood stands here with a concerned expression.
+~
+   The man before you has past his prime, yet still carries the weight of a
+well muscled frame.  His black hair has greyed heavily, and the expression of
+deep concern upon his face offers the answer why.  He wears a well polished
+siut of half plate armor with the emblem of a kingfisher and a rose on its
+breast.  When he notices your entry he cocks his eyebrows in curiosity.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7902
+wyrm mahestic blue~
+a majestic, blue scaled wyrm~
+Hovering with its tail curled about its body is a majestic, blue scaled wyrm.
+~
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This black scaled dragon is enormous.  He has huge, dark talons with sharp,
+$
+$

@@ -1,0 +1,13 @@
+#59700
+Quest Creation and Birthing Room~
+   This room will be used to create what you need for an IMM run quest.  Please
+remember to make sure things are balanced before unleasing a mob or an object.
+
+
+There are vnums 59700 to 59799 to use for mobs
+objects and triggers. Please be sure to test
+all mobs, objects and triggers before they leave this room.
+~
+597 0 0 0 0 0
+S
+$~

@@ -1,0 +1,187 @@
+#3300
+elder tribe~
+an elder of the tribe~
+An elder of the tribe patiently rests on his rug.
+~
+   This man is ancient beyond years, and has earned a lot of respect within the
+tribe.  He wears a tanned, leather tunic and a small head dress of feathers on
+his head.  He doesn't appear happy, but is listening to another member of the
+tribe speak with firm awareness of his surroundings.    
+~
+d 0 0 0 k 0 0 0 500
+18 11 -17 216d180+108 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3301
+female member tribe~
+a female member of the tribe~
+A female member of the tribe rests here quietly.
+~
+   This woman is dressed in plain, leather clothes.  She quietly listens to the
+elder of the tribe speak about the future of their people.  A few children run
+around her, and every so often she scolds one of them for misbehaving, probably
+her child.    
+~
+d 0 0 0 k 0 0 0 400
+18 11 -17 216d150+105 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3302
+child carefree~
+a carefree child~
+A carefree child tries to tackle his friend.
+~
+   This child is dirty from roughhousing on the ground.  He is wearing some
+leather clothes and has short, cropped hair.  His bright smile and carefree
+gait shows that he is still innocent in this world.    
+~
+d 0 0 0 k 0 0 0 999
+18 11 -11 108d70+97 1d8+9
+29 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 20
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3303
+farmer middle aged~
+a middle aged farmer~
+A middle aged farmer plants some seeds in a large pot.
+~
+   This man has the job of planting small, leafy plants into the large pots on
+the side of the path.  When in bloom, the plants have leaves with three edges.
+The leaves are harvested over time, and are smoked by the mebers of thr tribe
+for relaxation.    
+~
+d 0 0 0 k 0 0 0 400
+18 11 -17 216d140+104 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3304
+maiden young barbarian~
+a young, barbarian maiden~
+A young, barbarian maiden admires the art work.
+~
+   This woman is one of a few that the chieftain finds pleasure in these days.
+She has dark brown hair, as do most of the barbarian women, and a slender body.
+She looks at you with a descerning gaze, and smiles warmly.    
+~
+d 0 0 0 k 0 0 0 700
+18 11 -17 216d140+104 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3305
+sokath advisor~
+Sokath~
+Sokath, the chieftain's advisor, glares at you and attacks!
+~
+   This advisor is wearing a midnight black robe spun with the finest cloth to
+be found on this of Ansalon.  Where the barbarian people found such cloth is a
+mystery.  He has pale white skin, and is odd looking for a barbarian, but he
+wears a feather in his hair, signaling that he is a member of the tribe.    
+~
+d 0 0 0 k 0 0 0 -600
+18 11 -15 162d200+110 1d8+9
+29 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#3306
+creature hideously deformed~
+a hideously deformed creature~
+A hideously deformed creature lunges for you!
+~
+   This creature appears to be wormlike, but somehow had arms and legs.  It
+eyes are like red fireballs that bulge out of its head, and as it moves in to
+attack you, you notice acid drpping from its mouth.    
+~
+d 0 0 0 k 0 0 0 -500
+18 11 -17 216d250+115 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+$

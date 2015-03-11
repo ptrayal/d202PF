@@ -1,0 +1,51 @@
+#2700
+cartographer master~
+a master cartographer~
+A master cartographer, created by Takhisis herself, works tirelessly on his current task.
+~
+   Stop looking at me.  It distracts me from my work.  
+~
+bd 0 0 0 k 0 0 0 0
+60 20 -80 709d600+171 1d8+0
+18000 0 0 3
+6 6 0
+E
+BareHandAttack: 2
+E
+Str: 31
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2713
+gnoll mercenary~
+A gnoll mercenary~
+A shaggy gnoll mercenary awaits orders here.
+~
+This humanoid is slightly taller then a human. It has grey skin, a furry body, and a head like a hyena's, with a reddish-gray mane.
+~
+bdux 0 0 0 0 0 0 0 0
+8 15 1 64d100+1000 1d6+5
+10 0 12 3
+8 8 0
+E
+Str: 14
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

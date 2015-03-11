@@ -1,0 +1,1853 @@
+#9300
+The Watch Tower~
+   Carved into the very top of the dragon's nostril is a small watch tower.  
+The small circular room overlooks the immense dragonarmy camp that resides
+outside the temple walls.  Against the wall rests a signaling horn that has
+been carved out of a dragon's horn.  Two torches keep the room well lit at all
+times.    
+~
+93 d 0 0 0  0
+D5
+~
+~
+0 0 9360 0 0 0 0 0 0 0 0
+S
+#9301
+Before the Temple Doors~
+   Chiseled from the side of the Lord of Doom is a temple in the shape of an
+immense dragon's head.  Smoke pours out from the towering nostrils protruding
+from the side of the mountain.  Fiery eyes created by the continuous stream of
+magma flowing through them gives the appearance of life in the solid granite
+beast.  Two blackened steel doors rest between the nostrils.    
+~
+93 c 0 0 0  0
+D0
+~
+doors~
+1 0 9355 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9461 0 0 0 0 0 0 0 0
+S
+#9302
+Ariakas' Private Study~
+   A large, mahogany desk envelops the entire room.  Dozens of unraveled
+scrolls and parchments are scattered about the desk and the floor surrounding
+it.  Hot wax, dribbling down the side of a lit candle, pools on one of the
+numerous papers resting on the desk.  A liquor cabinet rests against the
+northern wall.  Behind the desk in between the two large, potted ferns, is an
+obsidian statue of the five-headed dragon.    
+~
+93 d 0 0 0  0
+D2
+~
+~
+0 0 9310 0 0 0 0 0 0 0 0
+S
+#9303
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9316 0 0 0 0 0 0 0 0
+S
+#9304
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9305 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9303 0 0 0 0 0 0 0 0
+S
+#9305
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9304 0 0 0 0 0 0 0 0
+S
+#9306
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the east, a worn
+mahogany door stands firmly.    
+~
+93 cd 0 0 0  0
+D1
+~
+door~
+1 0 9307 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9305 0 0 0 0 0 0 0 0
+S
+#9307
+The Blue Interview Room~
+   A beautiful golden chandelier, hanging from the ceiling, spins lazily in
+circles.  The dim golden-white light bounces off the blue tinted walls, giving
+the room a tranquil feeling.  The floor is covered with a thick layer of soft
+bleached blue wool carpet.  Lavishly decorated blue pillows rest comfortably on
+the numerous solid wooden chairs about the room.    
+~
+93 cd 0 0 0  0
+D3
+~
+door~
+1 0 9306 0 0 0 0 0 0 0 0
+S
+#9308
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the east, is a
+beautifully carved mahogany door.    
+~
+93 cd 0 0 0  0
+D1
+~
+door~
+1 9300 9309 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9321 0 0 0 0 0 0 0 0
+S
+#9309
+Ariakas' Apartment~
+   The lush, thick black carpet covering the floor has little wear.  The white
+marble walls have been covered with a multitude of tapestries and black silk
+curtains hang down, blocking out most of the outside light.  In the center of
+the room is a giant crystal chandelier.  Resting on the solid wooden chairs are
+a variety of plush black silk pillows.  A large statue depicting Takhisis rests
+against the northern wall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9310 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 9300 9308 0 0 0 0 0 0 0 0
+S
+#9310
+Ariakas' Bedchambers~
+   Large mirrors line all the walls and ceiling of the bedroom.  In the center
+of the room is a magnificently carved mahogany bed.  Above the headboard of the
+bed, is a beautiful painting of the five-head dragon.  On the bed are dozens of
+lavishly embroidered black silk pillows.  The floor is covered with a lush,
+thick black woolen carpet.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9302 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9309 0 0 0 0 0 0 0 0
+S
+#9311
+Slave Quarters~
+   Weaving in and out of the granite walls are several thick, cold steel
+chains.  Attached to the chains every few feet are a set of shackles.  The
+floors are covered with a thin layer of matted, urine soaked straw.  The room
+has an unbelievable stench of filth and decay.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9312 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9323 0 0 0 0 0 0 0 0
+S
+#9312
+Slave Quarters~
+   Weaving in and out of the granite walls are several thick, cold steel
+chains.  Attached to the chains every few feet are a set of shackles.  The
+floors are covered with a thin layer of matted, urine soaked straw.  The room
+has an unbelievable stench of filth and decay.    
+~
+93 d 0 0 0  0
+D2
+~
+~
+0 0 9324 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9311 0 0 0 0 0 0 0 0
+S
+#9313
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the east, a marred
+mahogany door rests patiently.    
+~
+93 d 0 0 0  0
+D1
+~
+door~
+1 0 9314 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9325 0 0 0 0 0 0 0 0
+S
+#9314
+The Red Watch Barracks~
+   Dozens of sturdy wooden beds rest against the granite walls of the barracks.
+Clean red linen adorns each of the beds.  No dirt tarnishes the floors or the
+walls of the immaculate room.  Small slits in the walls allow light to filter
+in.  To the west, a marred mahogany door rests patiently.    
+~
+93 cd 0 0 0  0
+D2
+~
+~
+0 0 9326 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9313 0 0 0 0 0 0 0 0
+S
+#9315
+The Dining Room~
+   Filling the hall are two large wooden tables.  Sturdy, worn benches flank
+the table on both sides.  The room is well lit by the numerous torches circling
+it.  Scraps of food and bones lie discarded about on the white marble floors.
+To the east, a set of ancient mahogany doors rest comfortably on their hinges.
+~
+93 d 0 0 0  0
+D1
+~
+doors~
+1 0 9316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9327 0 0 0 0 0 0 0 0
+S
+#9316
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  He torch flames
+lick the air lazily as a slight draft enters the hall.  To the west, a set of
+ancient mahogany doors rest comfortably on their hinges.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9303 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9328 0 0 0 0 0 0 0 0
+D3
+~
+doors~
+1 0 9315 0 0 0 0 0 0 0 0
+S
+#9317
+A Grand Audience Hall~
+   Light glistens off the flawless white marble covering the large throne room
+floor.  Nothing furnishes the room except a solid granite throne resembling a
+five-headed dragon that rests in the center of the room.  Dozens of cast iron
+torches line the walls casting a faint glow of red light around the room.    
+~
+93 cd 0 0 0  0
+D1
+~
+~
+0 0 9318 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9329 0 0 0 0 0 0 0 0
+S
+#9318
+A Grand Audience Hall~
+   Light glistens off the flawless white marble covering the large throne room
+floor.  Nothing furnishes the room except a solid granite throne resembling a
+five-headed dragon that rests in the center of the room.  Dozens of cast iron
+torches line the walls casting a faint glow of red light around the room.    
+~
+93 cd 0 0 0  0
+D2
+~
+~
+0 0 9330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9317 0 0 0 0 0 0 0 0
+S
+#9319
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the east, a worn
+mahogany door stands firmly.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9306 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9320 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9331 0 0 0 0 0 0 0 0
+S
+#9320
+The Red Interview Room~
+   A beautiful golden chandelier, hanging from the ceiling, spins lazily in
+circles.  The dim golden-white light bounces off the red tinted walls, giving
+the room a tranquil feeling.  The floor is covered with a thick layer of soft
+bleached red wool carpet.  Lavishly decorated red pillows rest comfortably on
+the numerous solid wooden chairs about the room.    
+~
+93 d 0 0 0  0
+D3
+~
+door~
+1 0 9319 0 0 0 0 0 0 0 0
+S
+#9321
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the east, a heavy,
+mahogany door rests on its hinges.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9308 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9333 0 0 0 0 0 0 0 0
+S
+#9322
+The Conference Room~
+   Adorning the room is a large rosewood table.  Lining either side of the
+table are nine lavishly cushioned wooden chairs.  Fifteen of the chairs are
+engraved with the red, blue, green, black, and white dragonarmy emblems.  
+Carved in the three remaining chairs is the symbol of the five-headed dragon.
+Dangling above the table are three crystal chandeliers.  To the west, a heavy,
+mahogany door rests on its hinges.    
+~
+93 cd 0 0 0  0
+D3
+~
+door~
+1 0 9321 0 0 0 0 0 0 0 0
+S
+#9323
+Slave Quarters~
+   Weaving in and out of the granite walls are several thick, cold steel
+chains.  Attached to the chains every few feet are a set of shackles.  The
+floors are covered with a thin layer of matted, urine soaked straw.  The room
+has an unbelievable stench of filth and decay.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9311 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9335 0 0 0 0 0 0 0 0
+S
+#9324
+Slave Quarters~
+   Weaving in and out of the granite walls are several thick, cold steel
+chains.  Attached to the chains every few feet are a set of shackles.  The
+floors are covered with a thin layer of matted, urine soaked straw.  The room
+has an unbelievable stench of filth and decay.  To the east, a sturdy steel
+cell door, stands in disdain.    
+~
+93 cd 0 0 0  0
+D0
+~
+~
+0 0 9312 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9336 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9323 0 0 0 0 0 0 0 0
+S
+#9325
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the west, a sturdy
+steel cell door stands in disdain.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9313 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9337 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9324 0 0 0 0 0 0 0 0
+S
+#9326
+The Red Watch Barracks~
+   Dozens of sturdy wooden beds rest against the granite walls of the barracks.
+Clean red linen adorns each of the beds.  No dirt tarnishes the floors or the
+walls of the immaculate room.  Small slits in the walls allow light to filter
+in.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9314 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9338 0 0 0 0 0 0 0 0
+S
+#9327
+The Dining Room~
+   Filling the hall are two large wooden tables.  Sturdy, worn benches flank
+the table on both sides.  The room is well lit by the numerous torches circling
+the room.  Scraps of food and bones lie discarded about the white marble
+floors.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9315 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9339 0 0 0 0 0 0 0 0
+S
+#9328
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9316 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9329 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9341 0 0 0 0 0 0 0 0
+S
+#9329
+A Grand Audience Hall~
+   Light glistens off the flawless white marble covering the large throne room
+floor.  Nothing furnishes the room except a solid granite throne resembling a
+five-headed dragon that rests in the center of the room.  Dozens of cast iron
+torches line the walls casting a faint glow of red light around the room.    
+~
+93 cd 0 0 0  0
+D0
+~
+~
+0 0 9317 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9330 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9342 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9328 0 0 0 0 0 0 0 0
+S
+#9330
+A Grand Audience Hall~
+   Light glistens off the flawless white marble covering the large throne room
+floor.  Nothing furnishes the room except a solid granite throne resembling a
+five-headed dragon that rests in the center of the room.  Dozens of cast iron
+torches line the walls casting a faint glow of red light around the room.    
+~
+93 cd 0 0 0  0
+D0
+~
+~
+0 0 9318 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9331 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9343 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9329 0 0 0 0 0 0 0 0
+S
+#9331
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9344 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9330 0 0 0 0 0 0 0 0
+S
+#9332
+Treasure Room~
+   The white marble floors are completely covered with an assortment of gems
+and artifacts.  On the southern wall is a large cabinet containing a variety of
+armor types, from full leather, to Solamnic breastplates bearing the insignia
+of the rose.  Opened treasure chests expose dozens of scrolls and books that
+have been sacked by the dragonarmy campaigns.  The three dozen golden
+chandeliers above cause the room to be excruciatingly bright.    
+~
+93 cd 0 0 0  0
+D3
+~
+~
+0 0 9347 0 0 0 0 0 0 0 0
+S
+#9333
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9321 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9346 0 0 0 0 0 0 0 0
+S
+#9334
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D0
+~
+~
+0 0 9384 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9383 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9399 0 0 0 0 0 0 0 0
+S
+#9335
+Slave Quarters~
+   Weaving in and out of the granite walls are several thick, cold steel
+chains.  Attached to the chains every few feet are a set of shackles.  The
+floors are covered with a thin layer of matted, urine soaked straw.  The room
+has an unbelievable stench of filth and decay.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9323 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9336 0 0 0 0 0 0 0 0
+S
+#9336
+Slave Quarters~
+   Weaving in and out of the granite walls are several thick, cold steel
+chains.  Attached to the chains every few feet are a set of shackles.  The
+floors are covered with a thin layer of matted, urine soaked straw.  The room
+has an unbelievable stench of filth and decay.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9324 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9335 0 0 0 0 0 0 0 0
+S
+#9337
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9350 0 0 0 0 0 0 0 0
+S
+#9338
+The Red Watch Barracks~
+   Dozens of sturdy wooden beds rest against the granite walls of the barracks.
+Clean red linen adorns each of the beds.  No dirt tarnishes the floors or the
+walls of the immaculate room.  Small slits in the walls allow light to filter
+in.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9326 0 0 0 0 0 0 0 0
+S
+#9339
+A Lavish Kitchen~
+   Between the two large stone ovens rests a solid obsidian counter.  Spoons
+and other cooking utensils are bunched up in small wooden containers against
+the back edge of the counter.  Above the counter are several wooden cupboards
+containing spices and oils.  Underneath the counter are cabinets with a variety
+of pots and pans used to prepare the large meals.  To the north, a worn
+mahogany door swings back and forth as food is being sent inside.    
+~
+93 c 0 0 0  0
+D0
+~
+door~
+1 0 9327 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9340 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9352 0 0 0 0 0 0 0 0
+S
+#9340
+The Pantry~
+   Hundreds of glass bottles line the large shelves of the pantry.  Resting on
+the floor are large sacks of flour, salt, and other spices.  Inside the bottles
+are a variety of exotic fruits and vegetables from all over Krynn.  On the
+bottom shelf is an assortment of cookbooks.    
+~
+93 d 0 0 0  0
+D3
+~
+door~
+1 0 9339 0 0 0 0 0 0 0 0
+S
+#9341
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9328 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9354 0 0 0 0 0 0 0 0
+S
+#9342
+A Grand Audience Hall~
+   Light glistens off the flawless white marble covering the large throne room
+floor.  Nothing furnishes the room except a solid granite throne resembling a
+five-headed dragon that rests in the center of the room.  Dozens of cast iron
+torches line the walls casting a faint glow of red light around the room.    
+~
+93 cd 0 0 0  0
+D0
+~
+~
+0 0 9329 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9343 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9355 0 0 0 0 0 0 0 0
+S
+#9343
+A Grand Audience Hall~
+   Light glistens off the flawless white marble covering the large throne room
+floor.  Nothing furnishes the room except a solid granite throne resembling a
+five-headed dragon that rests in the center of the room.  Dozens of cast iron
+torches line the walls casting a faint glow of red light around the room.    
+~
+93 cd 0 0 0  0
+D0
+~
+~
+0 0 9330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9342 0 0 0 0 0 0 0 0
+S
+#9344
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9331 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9357 0 0 0 0 0 0 0 0
+S
+#9345
+Gateway To Evil~
+   In the center of the room is a solid marble staircase leading down into an
+unknown darkness.  On the northern wall is a weapon rack for the rotation of
+guards that watch the stairway.  The room is lit by four torches that rest in
+the four corners of the room.  A resounding sound of chanting can be heard from
+within the darkness below.    
+~
+93 d 0 0 0  0
+D1
+~
+door~
+1 0 9346 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9397 0 0 0 0 0 0 0 0
+S
+#9346
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the east and west,
+rest two solid mahogany doors.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9333 0 0 0 0 0 0 0 0
+D1
+~
+door~
+2 9301 9347 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9359 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9345 0 0 0 0 0 0 0 0
+S
+#9347
+Treasure Room~
+   The white marble floors are completely covered with an assortment of gems
+and artifacts.  On the southern wall is a large cabinet containing a variety of
+armor types, from full leather, to Solamnic breastplates bearing the insignia
+of the rose.  Opened treasure chests expose dozens of scrolls and books that
+have been sacked by the dragonarmy campaigns.  The three dozen golden
+chandeliers above cause the room to be excruciatingly bright.    
+~
+93 cd 0 0 0  0
+D1
+~
+~
+0 0 9332 0 0 0 0 0 0 0 0
+D3
+~
+door~
+2 9301 9346 0 0 0 0 0 0 0 0
+S
+#9348
+The Watch Tower~
+   Carved into the very top of the dragon's nostril is a small watch tower.  
+The small circular room overlooks the immense dragonarmy camp that resides
+outside the temple walls.  Against the wall rests a signaling horn that has
+been carved out of a dragon's horn.  Two torches keep the room well lit at all
+times.    
+~
+93 d 0 0 0  0
+D5
+~
+~
+0 0 9349 0 0 0 0 0 0 0 0
+S
+#9349
+Before a Staircase~
+   A spiraling, stone staircase disappears into the ceiling above.  Wooden
+torches rest peacefully in their iron holders, which have been bolted to the
+wall following the staircase.  Shadows dance about the room as the wind
+flickers the torch flames.    
+~
+93 cd 0 0 0  0
+D1
+~
+~
+0 0 9350 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9348 0 0 0 0 0 0 0 0
+S
+#9350
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9337 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9349 0 0 0 0 0 0 0 0
+S
+#9351
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9352 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9350 0 0 0 0 0 0 0 0
+S
+#9352
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.  To the north, a
+swiveling mahogany door swings back and forth.    
+~
+93 d 0 0 0  0
+D0
+~
+door~
+1 0 9339 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9353 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9351 0 0 0 0 0 0 0 0
+S
+#9353
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9354 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9352 0 0 0 0 0 0 0 0
+S
+#9354
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9341 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9355 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9353 0 0 0 0 0 0 0 0
+S
+#9355
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9342 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9356 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 9301 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9354 0 0 0 0 0 0 0 0
+S
+#9356
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9357 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9355 0 0 0 0 0 0 0 0
+S
+#9357
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9344 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9358 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9356 0 0 0 0 0 0 0 0
+S
+#9358
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9359 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9357 0 0 0 0 0 0 0 0
+S
+#9359
+A Marble Hallway~
+   Cast iron torches line the walls of the well-lit hallway.  The flawless
+white marble adorning the floor has taken on a red tint from the flame light.
+Hanging sparsely on the walls are massive banners with the emblem of the five
+dragonarmies and Takhisis' symbol of the five-headed dragon.  The torch flames
+lick the air lazily as a slight draft enters the hall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9346 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9360 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9358 0 0 0 0 0 0 0 0
+S
+#9360
+Before a Staircase~
+   A spiraling, stone staircase disappears into the ceiling above.  Wooden
+torches rest peacefully in their iron holders, which have been bolted to the
+wall following the staircase.  Shadows dance about the room as the wind
+flickers the torch flames.    
+~
+93 cd 0 0 0  0
+D3
+~
+~
+0 0 9359 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9300 0 0 0 0 0 0 0 0
+S
+#9361
+The Altar of Corruption~
+   An opaque obsidian pedestal rests upon a large solid piece of white marble.
+The dome-shaped room is lit by a river of molten lava, which meanders
+peacefully behind the pedestal.  Hundreds of shattered, metallic-colored egg
+shells envelope the floor of the room.  The acoustics of the room amplify the
+chanting to a deafening tone.    
+~
+93 d 0 0 0  0
+D2
+~
+~
+0 0 9362 0 0 0 0 0 0 0 0
+S
+#9362
+The Altar of Corruption~
+   An opaque obsidian pedestal rests upon a large solid piece of white marble.
+The dome-shaped room is lit by a river of molten lava, which meanders
+peacefully behind the pedestal.  Hundreds of shattered, metallic-colored egg
+shells envelope the floor of the room.  The acoustics of the room amplify the
+chanting to a deafening tone.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9361 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9365 0 0 0 0 0 0 0 0
+S
+#9363
+The Meditation Cell~
+   Suspended by tightly wound twine, hooked into the charred black ceiling by
+numerous iron hooks, are dozens of yellowish-white cots.  In the center of the
+room is an altar of an obsidian five-headed dragon, readying to take flight.  
+Around the base of the altar are hundreds of candles and incenses burning as
+offerings.    
+~
+93 d 0 0 0  0
+D2
+~
+door~
+1 0 9370 0 0 0 0 0 0 0 0
+S
+#9364
+The Egg Room~
+   Only patches of the blackened marble floor can be seen through the thousands
+of copper dragon eggs lying about the room.  Resting in iron holders, dozens of
+wooden torches circle the room.  The crimson torch flames flicker in the wind,
+causing shadows to dance about the room.    
+~
+93 d 0 0 0  0
+D7
+~
+~
+0 0 9365 0 0 0 0 0 0 0 0
+S
+#9365
+The Hall of Corruption~
+   No light touches the curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D1
+~
+~
+0 0 9371 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9362 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9364 0 0 0 0 0 0 0 0
+S
+#9366
+The Hall of Corruption~
+   No light touches the curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D1
+~
+~
+0 0 9367 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9374 0 0 0 0 0 0 0 0
+S
+#9367
+The Hall of Corruption~
+   No light touches the curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D1
+~
+~
+0 0 9368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9366 0 0 0 0 0 0 0 0
+S
+#9368
+The Cell of Sorrow~
+   A draft of cold air enters the room, causing excruciating pain.  Sickly,
+black icicles have formed upon all the walls.  Encasing the floor is a thin
+layer of frozen blood.  An aura of magic pulsates about the room, emitting
+sparks and flashes of pale blue light.  The resounding sound of humans chanting
+is amplified to a deafening tone.    
+~
+93 dr 0 0 0  0
+D2
+~
+~
+0 0 9376 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9367 0 0 0 0 0 0 0 0
+S
+#9369
+The Hall of Learning~
+   Blood-stained, weathered oaken torture devices lie against the walls of the
+spacious hall.  An assortment of books and scrolls rest patiently on the
+dust-covered book cases adorning the room.  The charred black walls and floor
+are lit by the crimson flames of the numerous wooden torches hanging in their
+iron encasings upon the wall.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9370 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9379 0 0 0 0 0 0 0 0
+S
+#9370
+The Hall of Learning~
+   Blood-stained, weathered oaken torture devices lie against the walls of the
+spacious hall.  An assortment of books and scrolls rest patiently on the
+dust-covered book cases adorning the room.  The charred black walls and floor
+are lit by the crimson flames of the numerous wooden torches hanging in their
+iron encasings upon the wall.  To the north, a cold, blackened steel cell door
+rests patiently.    
+~
+93 d 0 0 0  0
+D0
+~
+door~
+1 0 9363 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9369 0 0 0 0 0 0 0 0
+S
+#9371
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D1
+~
+~
+0 0 9382 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9398 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9365 0 0 0 0 0 0 0 0
+S
+#9372
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D1
+~
+~
+0 0 9373 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9384 0 0 0 0 0 0 0 0
+S
+#9373
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D1
+~
+~
+0 0 9374 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9372 0 0 0 0 0 0 0 0
+S
+#9374
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.  To the south, a blackened steel door
+vibrates from the energy discharges.    
+~
+93 a 0 0 0  0
+D0
+~
+~
+0 0 9366 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9386 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9373 0 0 0 0 0 0 0 0
+S
+#9375
+The Egg Room~
+   Only patches of the blackened marble floor can be seen through the thousands
+of gold dragon eggs lying about the room.  Resting in iron holders, dozens of
+wooden torches circle the room.  The crimson torch flames flicker in the wind,
+causing shadows to dance about the room.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9399 0 0 0 0 0 0 0 0
+S
+#9376
+The Cell of Sorrow~
+   A draft of cold air enters the room, causing excruciating pain.  Sickly,
+black icicles have formed upon all the walls.  Encasing the floor is a thin
+layer of frozen blood.  An aura of magic pulsates about the room, emitting
+sparks and flashes of pale blue light.  The resounding sound of humans chanting
+is amplified to a deafening tone.    
+~
+93 dr 0 0 0  0
+D0
+~
+~
+0 0 9368 0 0 0 0 0 0 0 0
+D2
+~
+cell~
+1 9342 9388 0 0 0 0 0 0 0 0
+S
+#9377
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The once
+white walls and marble floors have been stained black by the smoke.  The
+corridor is bare of any decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9378 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9389 0 0 0 0 0 0 0 0
+S
+#9378
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The once
+white walls and marble floors have been stained black by the smoke.  The
+corridor is bare of any decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9379 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9377 0 0 0 0 0 0 0 0
+S
+#9379
+The Hall of Learning~
+   Blood-stained, weathered oaken torture devices lie against the walls of the
+spacious hall.  An assortment of books and scrolls rest patiently on the
+dust-covered book cases adorning the room.  The charred black walls and floor
+are lit by the crimson flames of the numerous wooden torches hanging in their
+iron encasings upon the wall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9369 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9390 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9378 0 0 0 0 0 0 0 0
+S
+#9380
+Dracart's Chambers~
+   The walls of this small room are completely covered by paintings depicting
+the five-headed dragon.  In the center of the room is a simple wooden desk
+enveloped by numerous scrolls.  Against the wall are a wooden clothes cabinet
+containing dozens of simple black robes, and a modest mahogany bed that has
+been recently slept in.  A sturdy bookcase behind the desk is full of an
+assortment of books and scrolls.  A bluish-green orb of light, suspended
+magically in the air, lights the room.    
+~
+93 d 0 0 0  0
+D3
+~
+door~
+1 0 9383 0 0 0 0 0 0 0 0
+S
+#9381
+The Egg Room~
+   Only patches of the blackened marble floor can be seen through the thousands
+of silver dragon eggs lying about the room.  Resting in iron holders, dozens of
+wooden torches circle the room.  The crimson torch flames flicker in the wind,
+causing shadows to dance about the room.    
+~
+93 d 0 0 0  0
+D2
+~
+~
+0 0 9382 0 0 0 0 0 0 0 0
+S
+#9382
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D0
+~
+~
+0 0 9381 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9399 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9371 0 0 0 0 0 0 0 0
+S
+#9383
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.  To the east, a blackened steel door vibrates
+from the energy discharges.    
+~
+93 a 0 0 0  0
+D0
+~
+~
+0 0 9334 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9380 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9387 0 0 0 0 0 0 0 0
+S
+#9384
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D0
+~
+~
+0 0 9372 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9334 0 0 0 0 0 0 0 0
+S
+#9385
+Harkiel's Chambers~
+   The walls of the massive room are completely covered by paintings depicting
+the five-headed dragon.  An assortment of treasure chests and other ancient
+artifacts envelope the floor of the room.  The dome-shaped ceiling allows the
+light from dozens of torches circling to room to illuminate it nicely.    
+~
+93 d 0 0 0  0
+D6
+~
+door~
+1 0 9387 0 0 0 0 0 0 0 0
+S
+#9386
+Wyrllish's Chambers~
+   The walls of the small room are completely covered by paintings depicting
+the five-headed dragon.  In the center of the room is a simple wooden desk.  
+Against the wall are a wooden clothes cabinet containing dozens of simple brown
+robes, and a modest mahogany bed that has been recently slept in.  A simple oil
+lantern, resting on the desk, lights the room.    
+~
+93 d 0 0 0  0
+D0
+~
+door~
+1 0 9374 0 0 0 0 0 0 0 0
+S
+#9387
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.  To the southeast, a blackened steel door
+vibrates from the energy discharges.    
+~
+93 a 0 0 0  0
+D0
+~
+~
+0 0 9383 0 0 0 0 0 0 0 0
+D8
+~
+door~
+1 0 9385 0 0 0 0 0 0 0 0
+S
+#9388
+The Red Watch Deathwatch~
+   A pulsating, spherical orb of energy, hovering magically above the stone
+table, illuminates the room with a soft orange glow.  The blackened stone walls
+are bare of any elaborate decorations.  Against the eastern wall is a metallic
+weapon rack adorned with numerous weapons.  To the north, an opaque, steel cell
+door leads further into the darkness.    
+~
+93 ad 0 0 0  0
+D0
+~
+cell~
+1 9342 9376 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9393 0 0 0 0 0 0 0 0
+S
+#9389
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The once
+white walls and marble floors have been stained black by the smoke.  The
+corridor is bare of any decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9377 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9396 0 0 0 0 0 0 0 0
+S
+#9390
+The Hall of Learning~
+   Blood-stained, weathered oaken torture devices lie against the walls of the
+spacious hall.  An assortment of books and scrolls rest patiently on the
+dust-covered book cases adorning the room.  The charred black walls and floor
+are lit by the crimson flames of the numerous wooden torches hanging in their
+iron encasings upon the wall.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9379 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9391 0 0 0 0 0 0 0 0
+S
+#9391
+The Hall of Learning~
+   Blood-stained, weathered oaken torture devices lie against the walls of the
+spacious hall.  An assortment of books and scrolls rest patiently on the
+dust-covered book cases adorning the room.  The charred black walls and floor
+are lit by the crimson flames of the numerous wooden torches hanging in their
+iron encasings upon the wall.  To the east, a cold, blackened steel cell door
+rests patiently.    
+~
+93 d 0 0 0  0
+D1
+~
+door~
+1 0 9392 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9390 0 0 0 0 0 0 0 0
+S
+#9392
+The Meditation Cell~
+   Suspended by tightly wound twine, hooked into the charred black ceiling by
+numerous iron hooks, are dozens of yellowish-white cots.  In the center of the
+room is an altar of an obsidian five-headed dragon, readying to take flight.  
+Around the base of the altar are hundreds of candles and incenses burning as
+offerings.    
+~
+93 d 0 0 0  0
+D3
+~
+door~
+1 0 9391 0 0 0 0 0 0 0 0
+S
+#9393
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The once
+white walls and marble floors have been stained black by the smoke.  The
+corridor is bare of any decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.  To the north, a massive steel
+door rests peacefully.    
+~
+93 d 0 0 0  0
+D0
+~
+door~
+1 0 9388 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9394 0 0 0 0 0 0 0 0
+S
+#9394
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The once
+white walls and marble floors have been stained black by the smoke.  The
+corridor is bare of any decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9395 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9393 0 0 0 0 0 0 0 0
+S
+#9395
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The once
+white walls and marble floors have been stained black by the smoke.  The
+corridor is bare of any decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.    
+~
+93 d 0 0 0  0
+D1
+~
+~
+0 0 9396 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9394 0 0 0 0 0 0 0 0
+S
+#9396
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The once
+white walls and marble floors have been stained black by the smoke.  The
+corridor is bare of any decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9389 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9397 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9395 0 0 0 0 0 0 0 0
+S
+#9397
+The Blackened Corridor~
+   A thick haze from the torch smoke envelops the entire corridor.  The walls
+and once white marble floors have been stained black by the smoke.  The
+corridor is bare of any sort of decorations.  A low, resounding sound of humans
+chanting echoes throughout the vacant hallway.  The large marble staircase
+leads back up into the light of the upper section of the temple.    
+~
+93 d 0 0 0  0
+D3
+~
+~
+0 0 9396 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9345 0 0 0 0 0 0 0 0
+S
+#9398
+The Egg Room~
+   Only patches of the blackened marble floor can be seen through the thousands
+of bronze dragon eggs lying about the room.  Resting in iron holders, dozens of
+wooden torches circle the room.  The crimson torch flames flicker in the wind,
+causing shadows to dance about the room.    
+~
+93 d 0 0 0  0
+D0
+~
+~
+0 0 9371 0 0 0 0 0 0 0 0
+S
+#9399
+The Hall of Corruption~
+   No light touches this curved, dome-shaped hallway.  The ancient corridor was
+designed to amplify warning signals from above.  Now the hallway is used to
+amplify the sounds of the chanting by the servants of Takhisis.  Tiny cracks
+blemish the once magnificently carved marble floors.  The walls pulsate with a
+pale blue aura of magical energy.    
+~
+93 a 0 0 0  0
+D1
+~
+~
+0 0 9334 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9375 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9382 0 0 0 0 0 0 0 0
+S
+$

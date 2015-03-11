@@ -1,0 +1,768 @@
+#4800
+Sonnlinor~
+a Sonnlinor~
+The Sonnlinor seems to be deep in study.
+~
+This Sonnlinor is here studying a book that looks very old.
+~
+dgnot 0 0 0 hk 0 0 0 50
+20 -1 -14 360d150+105 1d8+18
+76 0 67 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 10
+S
+#4801
+Mine Foreman~
+the Mine Foreman~
+The Mine Foreman stands here barking out orders
+~
+It looks unfinished.  The foreman is here covered in dust.  He is barking orders
+to everyone around him to 'Work Harder, and to stop slacking'.  
+~
+bdenopw 0 0 0 krz 0 0 0 0
+20 16 -20 160d100+100 1d8+12
+500 0 67 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 24
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4802
+Dwarven Monk~
+a Dwarven Monk~
+The monk sits here deep in a trance
+~
+This dwarf is sitting here with her legs crossed.  She is in a deep trance.  
+~
+bdenou 0 0 0 dhkmnrz 0 0 0 0
+26 7 -21 468d100+100 1d8+14
+2000 0 67 4
+5 5 0
+E
+BareHandAttack: 16
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 22
+E
+Con: 12
+E
+Cha: 10
+S
+#4803
+The Master Forgesmith~
+the Master Forgesmith~
+The Master Forgesmith of Moradin
+~
+The Master Forgesmith stands here watching everyone and everything.
+~
+bdenoptuAF 0 0 0 dhkmnrzA uA 0 0 0
+40 7 -38 -736d400+1000 1d8+13
+155 0 67 23
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+S
+#4804
+blacksmith trainer teacher~
+the blacksmith training teacher~
+The master blacksmith trainer is here
+~
+The master blacksmith is here waiting patiently to train young ones in the ways
+of metallurgy.  
+~
+abdnopqr bc 0 0 k 0 0 0 0
+25 8 -20 7000d50+95 1d8+12
+131 0 67 21
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4805
+Monk Trainer~
+the Master Monk~
+The Master Monk is here
+~
+The Master Monk is here waiting to teach the young ones.  
+~
+bdnopqr a 0 0 k 0 0 0 0
+25 8 -20 450d50+95 1d8+12
+131 0 67 4
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 22
+E
+Con: 12
+E
+Cha: 10
+S
+#4806
+dwarven merchant nurur glorgyth~
+Nurur Glorgyth, medium armor merchant~
+The medium armor merchant Nurur stands here
+~
+This dwarf looks very tough, his chest looks like a barrel with two tree trunks
+for arms.  
+~
+bdnopqrA d 0 0 k 0 0 0 0
+24 8 -18 864d250+115 1d8+12
+50000 0 67 22
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4807
+female dwarf shop doria glanlyr~
+Doria Glanlyr, Shop Keeper~
+The shop keeper Doria Glanlyr is here selling her wares.
+~
+Doria wears the garb of a blacksmith, long sleeve shirt with high neck line,
+long pants, gloves, leather smock and chaps and leather boots.  She keeps her
+hair tightly wrapped up on her head in a bun so as to not singe or burn it.  
+Her skin is a light tan color, her eyes are bright and full of life.  Her hands
+though covered by leather gloves are very thick, the gloves fit very tightly.  
+~
+bcdnoprA d 0 0 k 0 0 0 0
+25 8 -20 200d100+100 1d8+12
+10000 0 67 3
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4808
+vonshar ovral~
+Vonshar Ovral, Shop keeper~
+The shop keeper Vonshar Ovral is here selling her wares.
+~
+Vonshar Ovral seems to look a little out of place.  She is dressed up very
+nicely.  She does not wear the outfit of a blacksmith, but rather that of a
+sunday outfit to relax in.  She is selling her wares none the less.  Her outfit
+has not a speck of dust, dirt or grime on it.  Her hair is neatly in a pony tail
+hanging low and her eyes are very bright.  
+~
+bcdnopqrA d 0 0 k 0 0 0 0
+25 8 -20 200d100+100 1d8+12
+10000 0 67 3
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4809
+blacksmith apprentice black smith dwarf~
+a dwarven blacksmith apprentice~
+A young dwarven blacksmith apprentice is here listening intently.
+~
+This dwarf is wearing the garb of an apprentice blacksmith.  He must carry a
+smithing hammer, chipping hammer, and slag hammer with him at all times.  His
+leather smock looks as if it was just made, there is not a single burn scar or
+cut in it at all.  His hands look soft as you can see because he seems to have
+forgotten to wear his gloves this day.  His boots are still very shiny and new
+and he has yet to learn why it is important to wear his hair back and his beard
+tight.  
+~
+bcdnpr 0 0 0 k 0 0 0 0
+15 13 -8 120d100+100 1d8+7
+0 0 67 6
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4810
+hardin abek dwarf merchant shop~
+Hardin Abek, shop keeper~
+The light armor shop keeper, Hardin Abek is here.
+~
+Hardin Abek stands here manning his store front.  He is steadily polishing a
+piece of armor while at the same time wondering what you want!  
+~
+bcdnopqrA bd 0 0 k 0 0 0 0
+24 8 -18 864d250+115 1d8+12
+50000 0 67 6
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4811
+nurbir orsten merchant heavy armor shop~
+Nurbir Orsten, shop keeper~
+The heavy armor merchant, Nurbir Orsten is here
+~
+Nurbir Orsten looks around his shop and nods his head as he inspects his own
+wares for defects and smudged surfaces.  
+~
+bcdnopqrA d 0 0 k 0 0 0 0
+24 8 -18 864d250+115 1d8+12
+50000 0 67 6
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4812
+Valdal Farmek shop keeper~
+Valdal Farmek, shop keeper~
+The magical implements shop keeper, Valdal Farmek is here selling his wares
+~
+Valdal is here wraggling his fingers and crinkling his nose over a few scrolls
+and potions, not paying any attention to his customers, or so it seems.  
+~
+bcdnopqrA d 0 0 defk 0 0 0 0
+24 8 -18 480d250+115 1d8+12
+50000 0 67 20
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4813
+whurent garest shop keeper merchant~
+Whurent Garest, shop keeper~
+The shield and defensive protection shop keeper, Whurent Garest is here selling his wares
+~
+Whurent Garest is here keeping his wares clean and it excellent condition.  He
+is wearing normal clothes, nothing too fancy and nothing too drab.  
+~
+bcdnopqrA d 0 0 k 0 0 0 0
+24 8 -18 864d250+115 1d8+12
+50000 0 67 6
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4814
+garak durek shop keeper merchant~
+Garak Durek, shop keeper~
+The simple weapons merchant, Garak Durek is here selling his wares.
+~
+This merchant is manning his store front.
+~
+bcdnopqrA d 0 0 k 0 0 0 0
+24 8 -18 864d250+115 1d8+12
+50000 0 67 6
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4815
+kilbir antek shop keeper merchant dwarf~
+Kilbir Antek, Shop Keeper~
+The exotic weapons merchant, Kilbir Antek is here selling his wares.
+~
+This dwarf looks slightly crazed.  He has this very exotic look to his face and
+his eyes look slightly crazy.  One of his eyes is looking straight ahead and the
+other eye is looking off in a random direction, never in the same direction it's
+like his one eye is surveying his surroundings.  
+~
+bcdnopqrA d 0 0 k D 0 0 0
+24 8 -18 864d250+115 1d8+12
+50000 0 67 6
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4816
+undefined~
+Agan Torlegg, Shop Keeper~
+The martial weapons merchant, Agan Torlagg is here selling his wares.
+~
+This dwarf looks very stout and solid.  His arms are huge along with his chest
+and legs.  Agan's neck is as big around as a small oak tree.  He wears thick
+leather straps around his waist covered in dwarven runes.  
+~
+bcdnopqrA d 0 0 k 0 0 0 0
+24 8 -18 864d250+115 1d8+12
+50000 0 67 6
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4817
+gimral ocral bartender barkeep bar keep dwarf~
+Gimral Ocral, bar keep~
+The Stone Dwarf Food and Spirits bar keep, Grimral Ocral is here.
+~
+The famous bar keep of the "Stone Dwarf Food and Spirits Tavern" is here putting
+glasses up on the shelf and wiping the counter top with a somewhat halfway clean
+rag.  
+~
+bcdnopqrA 0 0 0 k 0 0 0 0
+30 5 -26 240d100+100 1d8+15
+0 0 67 6
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4890
+dwarf guard defender barbarian~
+an elite dwarven defender~
+An elite dwarven defender is here guarding his post.
+~
+This dwarf looks very tough and very much insane.  His eyes glow with a fire
+that blazes out of control.  His armor is polished to a blinding shine.  Every
+piece of his armor is in perfect condition, the metal has no scratches or dents
+of any kind, the leather straps are in perfect condition, no thinning spots and
+no scuffs or tears.  He carries a massive dwarven urgosh in one hand and a huge
+tower shield in the other hand.  
+~
+bcdmnovD 0 0 0 dfkmnz 0 0 0 0
+30 5 -26 2160d300+1000 1d8+15
+216 0 67 22
+8 8 1
+E
+BareHandAttack: 16
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+#4891
+female drow elf invader darkelf~
+a dark elf invader~
+A@D dark elf@n@W invader@n is here hiding.
+~
+This dark elf look rather nervous.  She is wearing light clothing and she is not
+carrying very much with here, she must want to move very quickly to and from her
+destination.  She is carrying a small backpack though on her back that is
+bulging with something in it.  
+~
+bcdev 0 0 0 kst 0 0 0 0
+25 8 -20 600d100+100 1d8+12
+131 0 58 28
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#4892
+dwarf dwarven miner bazgen glanvir~
+Bazgen Glanvir, dwarven miner~
+The dwarven miner Bazgen Glanvir is here working the mine.
+~
+Bazgen Glanvir is here wearing the standard mining outfit and gear.  He is
+wearing leather boots, gloves, kneep pads, elbow pads and shoulder pads.  He
+carries a whistle and a couple of emergency candles in a pouch on his side.  
+His helmet is made of steel and has a candle lit inside of a silver dome on the
+front to act as a light in the tunnel.  
+~
+bcdmq 0 0 0 fk 0 0 0 0
+23 9 -17 552d10+1000 1d8+11
+106 0 67 3
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4897
+drow dark elf darkelf scout~
+a drow scout~
+A drow scout tries to hide in the shadows here
+~
+This drow looks very skittish, he is constantly looking around and over his
+shoulder as if he is expecting something or someone to pop out of nowhere.  He
+is carrying a small dagger and a small backpack.  There seems to be something
+strapped to his wrist.  
+~
+bcdeln 0 0 0 dfkst A 0 0 -500
+22 9 -18 484d200+110 1d8+12
+96 0 58 28
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+T 4800
+T 4802
+#4898
+drider spider drow darkelf dark elf assassin~
+a Drider Assassin~
+A Drider Assassin is here waiting for it's next target
+~
+This spider is what's known as a Drider.  A hideous combination between a giant
+cave spider and a drow elf.  This drider carries two scimitars in his drow elf
+hands as well as nasty spider fangs in his mouth, he is very large and very
+angry.  
+~
+bcdelnovD 0 0 0 krs ABDF 0 0 -500
+27 5 -35 216d100+100 1d8+15
+0 0 12 26
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4801
+#4900
+dwarven miner worker dwarf~
+a dwarven miner~
+A dwarf miner is here working the mine.
+~
+This miner is wearing traditional miners gear and clothes.  Light clothes with
+thick leather guards on the hands, feet, elbows, shoulders and knees.  He wears
+a thick iron helmet to protect his noggin from falling rocks and debris.  
+~
+cdgq 0 0 0 k 0 0 0 0
+15 13 -8 120d100+100 1d8+7
+40 0 67 3
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4901
+mirabar city guard dwarf~
+a Mirabar city guard~
+A Mirabar city guard is here.
+~
+This city guard is wearing very well kept armor and gear for his post.  He is
+patrolling the streets of Mirabar keeping the people safe.  
+~
+cdglmx 0 0 0 dfkmn 0 0 0 0
+20 10 -14 680d100+1000 1d8+10
+76 0 67 22
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#4902
+mirabar city guard~
+a Mirabar city guard~
+A Mirabar city guard is here.
+~
+This guard is here wearing just plain clothes and light cotton padding.  The
+guard is taking a break from duty.  
+~
+bcdqx 0 0 0 dfkmn 0 0 0 0
+20 10 -14 680d100+100 1d8+10
+76 0 67 22
+8 8 2
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#4903
+dwarf dwarven farmer~
+a dwarven farmer~
+A dwarven farmer is here looking very worried
+~
+This farmer is here wearing your basic farming cloths.  He has on some overalls,
+some thick leather boots, gloves, a wide brimmed hat and a short sleeve shirt.
+His cloths look as if they have seen better days, they are holy and worn out in
+many vital areas.  He looks very worried about something.  
+~
+abcdnopqrA b 0 0 k 0 0 0 0
+20 10 -14 520d100+1000 1d8+10
+76 0 67 21
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#4904
+Delshar Dorrak female dwarf cook chef~
+the stone dwarf cook, Delshar Dorrak~
+Delshar Dorrak, the Stone Dwarf Chef is here.
+~
+Delshar is wearing thick clothes with a thick apron on her front.  Her hair is
+done up in 4 large braids that are tied together at the end.  
+~
+abcdenopqrwAD 0 0 0 cdhkm 0 0 0 0
+30 5 -26 840d100+100 1d8+15
+216 0 67 11
+8 8 2
+E
+BareHandAttack: 12
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+$

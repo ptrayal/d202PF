@@ -1,0 +1,618 @@
+#14100
+grey robed guardsman guard~
+an irritated grey robed guardsman~
+A grey robed guardsman stands here mixing two potions.
+~
+   Before you stands a very pale, very frail man.  His straight, thinning hair
+is a velvet black color and is kept short.  He wears oversized grey robes,
+which conceal almost his entire body.  The veins in his hands are clearly
+visible, making them appear to be different shades of blue and green.  His eyes
+are a dull yellow and hide centuries of wickedness.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -25 140d250+115 1d8+17
+110 0 41 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#14101
+black robed guardsman guard nelrek~
+an irritated black robed guardsman~
+A black robed guardsman stands here scribing a scroll into his spellbook.
+~
+   Before you stands a very pale, very frail man.  His straight, thinning hair
+is a dull silver color and extends in to the middle of his shoulders.  He wears
+oversized black robes, which conceal almost his entire body.  The veins in his
+hands are clearly visible, making them appear to be different shades of blue
+and green.  His eyes are pure white and hide centuries of wickedness.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -25 140d250+115 1d8+17
+110 0 41 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#14102
+silver robed guardsman guard~
+an irritated silver robed guardsman~
+A silver robed guardsman is here studying his spells.
+~
+   Before you stands a very pale, very frail man.  His straight, thinning hair
+is snow white and hangs nearly to his waist.  He wears oversized silver robes,
+which conceal almost his entire body.  The veins in his hands are clearly
+visible, making them appear to be different shades of blue and green.  His eyes
+are completely black and have large black circles underneath.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -25 140d250+115 1d8+17
+110 0 41 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#14103
+malevolent guardian priest guard~
+a malevolent guardian priest~
+A malevolent guardian priest is here praying to The Dark Queen, Takhisis.
+~
+   Before you stands a man in flowing dull silver robes.  On the chest of his
+robes there is an emblem of the five-headed dragon, which is done in black
+velvet.  The eyes of each dragon are outlined in red, causing them to appear as
+if they were staring directly into your soul.  He has white hair and pale skin.
+Piercing blue eyes and pale blue lips finish off his remaining features.    
+~
+dE 0 0 0 k 0 0 0 -1000
+35 -10 -44 3150d250+115 1d8+38
+110 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 24
+E
+Con: 12
+E
+Cha: 11
+S
+#14104
+malevolent guardian priest guard~
+a malevolent guardian priest~
+A malevolent guardian priest is here meditating.
+~
+   Before you stands a man in flowing dull silver robes.  On the chest of his
+robes there is an emblem of the five-headed dragon, which is done in black
+velvet.  The eyes of each dragon are outlined in red, causing them to appear as
+if they were staring directly into your soul.  He has white hair and pale skin.
+Piercing blue eyes and pale blue lips finish off his remaining features.    
+~
+dF 0 0 0 k 0 0 0 -1000
+35 -13 -46 6300d250+115 1d8+42
+110 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 24
+E
+Con: 12
+E
+Cha: 11
+S
+#14105
+malevolent guardian priest guard~
+a malevolent guardian priest~
+A malevolent guardian priest is here practicing his dark blessings.
+~
+   Before you stands a man in flowing dull silver robes.  On the chest of his
+robes there is an emblem of the five-headed dragon, which is done in black
+velvet.  The eyes of each dragon are outlined in red, causing them to appear as
+if they were staring directly into your soul.  He has white hair and pale skin.
+Piercing blue eyes and pale blue lips finish off his remaining features.    
+~
+dE 0 0 0 k 0 0 0 -1000
+35 -10 -44 3150d250+115 1d8+38
+110 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 24
+E
+Con: 12
+E
+Cha: 11
+S
+#14106
+somber guardian knight guard~
+a somber guardian knight~
+A somber guardian knight is here polishing the blade of his sword.
+~
+   Before you stands an immense man.  His hair is dark brown, but is unkept.  
+He wears his armor at all times and is always battle ready.  His eyes are a
+still grey, showing no sign of emotion.  His face is unshaven and he has a
+strong brow.  He wears a thick mustache and beard, which make him appear
+intimidating.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 385d250+115 1d8+17
+110 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 25
+S
+#14107
+somber guardian knight guard~
+a somber guardian knight~
+A somber guardian knight is here polishing his armor.
+~
+   Before you stands an immense man.  His hair is dark brown, but is unkept.  
+He wears his armor at all times and is always battle ready.  His eyes are a
+still grey, showing no sign of emotion.  His face is unshaven and he has a
+strong brow.  He wears a thick mustache and beard, which make him appear
+intimidating.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 385d250+115 1d8+17
+110 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 25
+S
+#14108
+somber guardian knight guard~
+a somber guardian knight~
+A somber guardian knight is here pacing the floor.
+~
+   Before you stands an immense man.  His hair is dark brown, but is unkept.  
+He wears his armor at all times and is always battle ready.  His eyes are a
+still grey, showing no sign of emotion.  His face is unshaven and he has a
+strong brow.  He wears a thick mustache and beard, which make him appear
+intimidating.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 385d250+115 1d8+17
+110 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 25
+S
+#14109
+hideous ogre alseep guard~
+a hideous ogre~
+Lying on a cot fully asleep, an ogre snores loudly.
+~
+   Completely asleep, unknowing to the world around him, here lies a large
+yellow-skinned ogre.  Large warts cover his entire body.  He has many cuts
+along his oversized folded arms, which have caused large pools of blood to
+gather around him.  Some of the warts on his body have been oozing puss and it
+is dripping down his arm.  He does not hear as anyone enters, he just continues
+to snore loudly.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14110
+hideous ogre half asleep guard~
+a hideous, half asleep ogre~
+Half asleep on his cot, here lies an ogre.
+~
+   Half asleep lying on his cot, there is an oversized yellow-skinned ogre.  
+Large warts cover his entire body.  He has many cuts along his massive arms,
+which appear he has bandaged up with pieces of dirty cloth.  The cloth,
+however, is now bloodstained and the blood is running down his arms.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14111
+belligerent goblin guard sleeping ~
+a belligerent goblin guard~
+Sleeping soundly on a small cot, here lies a goblin guard.
+~
+   Completely asleep, unknowing to the world around him, here lies a dark green
+skinned goblin.  He has tiny warts that cover almost his entire body.  
+Although he is asleep, he is still in full battle uniform, always ready to
+protect the castle.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14112
+belligerent goblin guard sleeps~
+a belligerent goblin guard~
+A goblin guard sleeps peacefully on his tiny cot.
+~
+   Completely asleep, unknowing to the world around here, here lies a yellow
+skinned goblin.  He has large gashes on his arms, which appear to have been
+bandaged up yet the blood has soaked through the bandage.  He is still in full
+battle armor, always ready to protect the castle.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14113
+sleeping guard snores patrol~
+a groggy guard~
+A sleeping guard snores loudly drowning out the noise around him.
+~
+   Lying on his side on a cot just big enough to fit him, here lies a sleeping
+guard on patrol.  He has removed his armor, but it is lying next to him on the
+ground, ready to put it on anytime it is needed.  His massive brown beard match
+his unkept brown hair.  He has a strong brow and his skin appears to be very
+pale.  He has very muscular arms which have many scars along them.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14114
+weary guard deep slumber~
+a weary guard~
+A weary guard rests on his cot in a deep slumber.
+~
+   Lying on his back, taking up the space of the entire cot, here lies a guard
+on patrol.  He has dull silver hair, which matches his mustache and bushy
+beard.  He has one large arm folded up behind his head, which shows the scars
+that run along the inner part of his arm.  He has a large scar right under his
+left eye that extends clear to his ear.  He has removed his armor, but has
+placed it at the end of his bed.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14115
+exhausted draconian guard sleep~
+an exhausted draconian guard~
+An exhausted draconian guard is here asleep on his cot.
+~
+   Lying in a deep slumber on his cot, here lies an exhausted draconian guard.
+His skin is a yellowish-green color and he has large claws with long jagged
+fingernails.  He has a bit of fur hanging from his chin.  A large scar can be
+seen stretching from his chin up to the corner of his right eye.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14116
+fatigued draconian guard asleep~
+a fatigued draconian guard~
+Completely unaware of his surroundings, on a cot lies a fatigued draconian guard.
+~
+   Completely lost in a deep slumber, here lies a somewhat smaller draconian
+guard.  He has long slender fingers and long smooth fingernails.  Not being
+fooled by his size, he too is quite muscular.  He sleeps in full battle armor,
+ready to protect the castle at any cost.  He has a large gash on his right arm,
+which has been neatly bandaged and has been well taken care of.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d250+115 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14117
+confident maiden guard patrol~
+a confident patrol guard~
+A confident partol maiden is here guarding the area against trespassers.
+~
+   Sinful yellow-green eyes stare from a mane of cascading ebony ringlets.  
+Tiny braids sporadically appear throughout her cascading ebony ringlets.  She
+has full red lips and a petite nose.  Her slightly elevated cheekbones are the
+foremost attributes of her facial features that deliver a somewhat cynical
+touch.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d200+110 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14118
+raving adamant guard patrol~
+a raving, adamant guard~
+An adamant maiden patrols the area with a disgusted look upon her face.
+~
+   This guard walks with her head held high.  Her lean but powerful appearance
+makes her seem whimsical.  Her long ebony hair is kept back in a prim, strong
+braid that hangs past the middle of her back.  She has elevated cheekbones and
+diminutive pointy ears.  Abhorrence fills her merciless mirror-like eyes.  She
+has slender red lips that curl slightly at the ends as if she is smirking as
+you look her over.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d200+110 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14119
+callous powerful guard wench ~
+a callous patrol guard~
+A callous wench patrols the area looking for those who wish to trespass.
+~
+   Before you stands a pale-skinned maiden.  Her elevated cheekbones and
+slender, lustrous devil-red lips are quite appealing to the eye.  Although her
+frame is diminutive, her muscles shine through with well-defined lines.  Her
+straight, velvet like, ebony hair falls to her waist and has small streaks of
+unpigmented hair sporadically woven throughout.  Because her hair is so
+lengthy, she keeps it back in a loose braid that flows behind her as she walks
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d200+110 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14120
+muscular dwarven guard irate~
+a muscular dwarven guard~
+An irate muscular dwarven guard is here patrolling the area.
+~
+   This dwarven guard has muscles that are very well defined.  A large, dirty
+brown beard and mustache take up most of this short man's face.  He has small
+brown eyes and his skin is very pale.  He has long, bushy brown hair that is
+kept back out of his face by his battle helmet.  He is completely armored and
+walks with a stride of confidence.  He notices you looking him over and returns
+it with a dead stare.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d200+110 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#14121
+elven tower archer~
+an elven tower archer~
+Keeping an eye on the entire perimeter of the castle, here stands a tower archer.
+~
+   Long white hair is kept in a prim band at the bottom of this elf's neck.  
+His skin is ebony color while his eyes glow with a mysterious jade color.  He
+is very lithe and quick on his feet.  He carries himself with a confidence, yet
+keeps himself quite mysterious.  He is constantly surveying the area around the
+castle, making sure intruders do not pass through the castle wall.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 41 3
+8 8 1
+E
+Str: 25
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+$

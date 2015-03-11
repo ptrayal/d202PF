@@ -1,0 +1,1759 @@
+#4600
+Path through Moorwaine Swamp~
+   The ground is soft and has a slight sinking feel to it.  All around the path
+is stagnant water and various plant life.  No sounds can be heard, nor is there
+any visible life other than the many plants.  The path continues north and
+south.  
+~
+46 0 0 0 0 10
+D0
+~
+~
+0 0 4601 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 51231 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4601
+Path through Moorwaine Swamp~
+The path continues here with mild changes.  It appears to turn towards the west
+away from a large pool of water lillies.  A few black spotted frogs and toads
+can be seen swimming amongst the lillies.  
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4602 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4600 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4602
+Path through Moorwaine Swamp~
+The path continues northwards around the pool of water lillies.  The ground is a
+bit softer here than previous, most liklely a result to the mass of water.  
+Further up the path some trees can be seen surronded by more of the swamp.  
+~
+46 0 0 0 0 10
+D0
+~
+~
+0 0 4603 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4601 0 0 0 0 0 0 0 0
+S
+#4603
+Path through Moorwaine Swamp~
+North of here stands a small structure atop one of the surronding trees.  A bog
+appears to be west of here, making that direction impassable.  
+~
+46 0 0 0 0 10
+D0
+~
+~
+0 0 4604 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4602 0 0 0 0 0 0 0 0
+S
+#4604
+Path through Moorwaine Swamp~
+Above you a small watch post appears to have been built atop one of the trees.
+A fire can be seen within the post.  The bog continues west of here and
+stretches north and farther west.  
+~
+46 0 0 0 0 10
+D0
+~
+~
+0 0 4606 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4603 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4605 0 0 0 0 0 0 0 0
+S
+#4605
+A Crude Watch Post~
+The watch post appears to be crude in fashion.  It seems to be built from
+various pieces of wood found within the swamp.  A large torch hangs from the top
+of the post.  
+~
+46 0 d 0 0 0
+D5
+~
+~
+0 0 4604 0 0 0 0 0 0 0 0
+S
+#4606
+Path through Moorwaine Swamp~
+Off in the distance to the northwest past the bog there appears to be some small
+structures.  Any other details are to hard to make out.  The path turns east
+here, north appears to be blocked by a large decaying tree.  
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4607 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4604 0 0 0 0 0 0 0 0
+S
+#4607
+Path through Moorwaine Swamp~
+The path seems to continue east for awhile.  Another structure seems to be built
+atop a tree just east of here.  South of here lies a pool of water lillies.  
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4608 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4606 0 0 0 0 0 0 0 0
+S
+#4608
+Path through Moorwaine Swamp~
+The path continues here past another watch post.  A rope ladder grants access to
+the post above.  A slight fox seems to be setting in to the north of here .
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4610 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4607 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4609 0 0 0 0 0 0 0 0
+S
+#4609
+A Crude Watch Post~
+The watch post has a large torch hanging in the center.  The southern watch post
+is slightly visible from here.  The torch there appears to be lit along with
+this one.  
+~
+46 0 d 0 0 0
+D5
+~
+~
+0 0 4608 0 0 0 0 0 0 0 0
+S
+#4610
+Path through Moorwaine Swamp~
+The path is blocked to the east by an impassable bog.  The smell of the swamp
+seems to be getting stronger and the fog is a little denser here then before.  
+~
+46 0 0 0 0 10
+D0
+~
+~
+0 0 4611 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4608 0 0 0 0 0 0 0 0
+S
+#4611
+Path through Moorwaine Swamp~
+The path seems to end here with the bog surronding it.  A dead tree seems to
+stretch out to the northwest.  The path seems to continue again in that
+direction.  
+~
+46 0 0 0 0 10
+D2
+~
+~
+0 0 4610 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4612 0 0 0 0 0 0 0 0
+S
+#4612
+Path through Moorwaine Swamp~
+The ground is a bit firmer here then previous.  Another watch post can be seen
+to the north atop a tree.  A fire can be seen lit within it.  
+~
+46 0 0 0 0 10
+D0
+~
+~
+0 0 4613 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4611 0 0 0 0 0 0 0 0
+S
+#4613
+Path through Moorwaine Swamp~
+A watch post can be seen atop one of the surronding trees.  A sturdy rope ladder
+leads up into the post.  The path continues to the northwest with mild
+difficulty.  
+~
+46 0 0 0 0 10
+D2
+~
+~
+0 0 4612 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4614 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4615 0 0 0 0 0 0 0 0
+S
+#4614
+A Crude Watch Post~
+This watch post is much like the others in design.  A torch is seen lit and
+hanging from the center of the post.  The southwestern post can be seen also
+with its torch lit.  
+~
+46 0 d 0 0 0
+D5
+~
+~
+0 0 4613 0 0 0 0 0 0 0 0
+S
+#4615
+Forked Path through Moorwaine Swamp~
+The path seems to fork here.  North looks to be a marsh filled with a dense fog.
+West the normal path continues through the swamp.  
+~
+46 0 0 0 0 10
+D0
+~
+~
+0 0 4660 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4616 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4613 0 0 0 0 0 0 0 0
+S
+#4616
+Path through Moorwaine Swamp~
+The path continues and the fog surronding the marsh seems to be fainter here.  
+On the ground in the middle of the path stands a gruesome totem.  
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4615 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4617 0 0 0 0 0 0 0 0
+E
+gruesome totem made of skulls~
+This totem appears to be made out of humanoid skulls with dried flesh and blood
+smeared over them.  A black feather sits atop the skulls with a few
+multi-colored beads around it.  
+~
+S
+#4617
+Path through Moorwaine Swamp~
+The path makes a sudden sharp turn southeast.  West of here is covered in a
+tanlge of vines.  Just past the vines however appears to be small structures.  
+Another watchpost can be seen atop a tree to the southwest of here.  
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4616 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4618 0 0 0 0 0 0 0 0
+S
+#4618
+Path through Moorwaine Swamp~
+The fog is much lighter here and the ground is firm once again.  South of here a
+bog can be seen.  Farther west a watch post is resting atop a tree.  
+~
+46 0 0 0 0 10
+D3
+~
+~
+0 0 4619 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4617 0 0 0 0 0 0 0 0
+S
+#4619
+Path through Moorwaine Swamp~
+The path continues with little disturbance.  The watch post is easily visible to
+the west with a fire lit within.  The bog south of here is very still and
+motionless.  
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4618 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4620 0 0 0 0 0 0 0 0
+S
+#4620
+Outside of a Village~
+The path through the swamp comes to an end here.  A watch post rests on one of
+the trees above.  West of here seems to be a village.  
+~
+46 c 0 0 0 10
+D1
+~
+~
+0 0 4619 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4622 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4621 0 0 0 0 0 0 0 0
+S
+#4621
+A Crude Watch Tower~
+This watch post is made up of the same wood as the rest.  The torch hanging in
+the center is lit.  The eastern watch post's fire can be seen from here.  A
+blanket is on the floor of this post covered with dirt.  
+~
+46 0 d 0 0 0
+D5
+~
+~
+0 0 4620 0 0 0 0 0 0 0 0
+S
+#4622
+A Path through the Village~
+North of here various huts can be seen.  A large fire can be seen southwest.  
+The village patch continues west and south.  
+~
+46 0 0 0 0 1
+D1
+~
+~
+0 0 4620 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4625 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4623 0 0 0 0 0 0 0 0
+S
+#4623
+Outside a cluster of Huts~
+This part of the path appears to lead into the huts located north of here.  A
+large bonefire can be seen to the south.  Various tools and ceramic pots can be
+seen scattered around the floor.  
+~
+46 0 0 0 0 1
+D1
+~
+~
+0 0 4622 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4624 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4628 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4632 0 0 0 0 0 0 0 0
+S
+#4624
+A Path through the Village~
+The village path leads south.  A watch post appears atop a tree further south
+from here.  A cluster of huts is visible to the north.  Another bog makes up
+most of the area west of here.  
+~
+46 0 0 0 0 1
+D1
+~
+~
+0 0 4623 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4627 0 0 0 0 0 0 0 0
+S
+#4625
+A Path through the Village~
+The village path leads west to what seems like a large bonefire.  South and west
+of here the bog can be seen.  The smell of smoke fills the air.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4622 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4626 0 0 0 0 0 0 0 0
+S
+#4626
+A Large Bonfire~
+The bonefire takes up most of the area here.  Dead animals can be seen on spits
+around the fire.  A circle of red seems to be drawn into the dirt around the
+fire.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4623 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4625 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4633 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4627 0 0 0 0 0 0 0 0
+S
+#4627
+A Path through the Village~
+This area is filled with wood for the large bonefire east of here.  Dense smoke
+fills this area with little air movement.  The path seems heavily traveled.  
+South atop a tree a watch post can be seen.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4624 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4626 0 0 0 0 0 0 0 0
+S
+#4628
+A Small Hut~
+Various tools and weapons can be seen around the hut.  A flat surface takes up
+the center of the hut.  A blanket lays to one side worn from use.  A pile of
+beads can be seen near the blanket.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4629 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4623 0 0 0 0 0 0 0 0
+S
+#4629
+A Small Hut~
+Ceramic pots containing liquids of different colors lay scattered about this
+hut.  A rack with a skinned animal pinned to it stands here.  The hut seems to
+be able to house two or three creatures based on its size.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4628 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4630 0 0 0 0 0 0 0 0
+S
+#4630
+A Small Hut~
+This hut is mostly empty.  A stack of feathers covered in blood and red beads
+lays in the center of the hut.  Nothing else can be seen inside.  
+~
+46 0 0 0 0 1
+D8
+~
+~
+0 0 4631 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4629 0 0 0 0 0 0 0 0
+S
+#4631
+A Small Hut~
+This hut is very dirty and all the items seem to be covered in dust or various
+types of dirt found around the swamp.  Some clothing is seen in a pile on the
+floor near the entrance.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4632 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4630 0 0 0 0 0 0 0 0
+S
+#4632
+A Small Hut~
+This hut is lined with furs and looks comfortable.  The floor is covered with
+foilage and is soft to the touch.  A hatchet made of wood and stone has been
+left to one side of the hut.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4631 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4623 0 0 0 0 0 0 0 0
+S
+#4633
+A Path covered with Overgrowth~
+Another path begins here.  This path is full of overgrowth from the swamp.  
+Vines and moss are pouring out from both sides.  A large bog can be seen south
+of here while another watch post appears just west of here atop the trees.  
+~
+46 c 0 0 0 10
+D0
+~
+~
+0 0 4626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4634 0 0 0 0 0 0 0 0
+S
+#4634
+A Path covered with Overgrowth~
+The overgrown foilage floods the path.  A watch post can be seen atop one of the
+trees here.  A fire seems to be lit within the post.  A large bog spans the area
+south of here.  
+~
+46 0 0 0 0 10
+D1
+~
+~
+0 0 4633 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4637 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4635 0 0 0 0 0 0 0 0
+S
+#4635
+A Crude Watch Tower~
+The watch post is made up of worn pieces of wood.  A large torch is hanging from
+the center of the post.  Far east of here a fire can be seen atop another post.
+
+~
+46 0 d 0 0 0
+D5
+~
+~
+0 0 4634 0 0 0 0 0 0 0 0
+S
+#4636
+New BuildWalk Room~
+This unfinished room was created by Corellon.
+~
+46 0 0 0 0 0
+S
+#4637
+A Path covered with Overgrowth~
+The overgrown path continues here.  Vines weave and tangle upon the ground here.
+A watch post can be seen to the east and west of here within the trees.  A large
+bog spans the south and south west.  
+~
+46 c 0 0 0 10
+D1
+~
+~
+0 0 4634 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4638 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4638
+A Path through the Village~
+The path is much cleaner here and seems to go through another village.  A watch
+post is atop one of the trees here.  A wooden ladder leads up into it.  
+~
+46 0 0 0 0 1
+D1
+~
+~
+0 0 4637 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4641 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4640 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4639 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#4639
+A Crude Watch Tower~
+The watch tower is covered in vines and the view outside is limited.  A large
+torch hangs from the center of the post unlit.  A blanket is pushed to the
+corner of the post on the floor.  
+~
+46 0 d 0 0 0
+D5
+~
+~
+0 0 4638 0 0 0 0 0 0 0 0
+S
+#4640
+A Path through the Village~
+The smell of smoke is strong and it clouds this area.  The source of the smoke
+seems to be a large bonefire to the south.  Northwest through the smoke, several
+small huts can be seen.  The path continues west.  
+~
+46 0 0 0 0 1
+D1
+~
+~
+0 0 4638 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4642 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4649 0 0 0 0 0 0 0 0
+S
+#4641
+Outside a cluster of Huts~
+A cluster of huts is located south of here.  A large fire can be seen to the
+west and the smell of smoke is strong.  Strips of cloth can be seen on the
+floor, some seem to be covered in blood.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4638 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4643 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4642 0 0 0 0 0 0 0 0
+S
+#4642
+A Large Bonfire~
+The bonefire is very large but seems to be under control.  Various ritualistic looking designs are drawn in the ashes here.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4640 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4641 0 0 0 0 0 0 0 0
+S
+#4643
+A Small Hut~
+Ceramic pots containing liquids of different colors lay scattered about this
+hut.  Various animal pelts are littered around the hut.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4641 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4648 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4644 0 0 0 0 0 0 0 0
+S
+#4644
+A Small Hut~
+A bed made up of furs lays along the floor of this hut.  Other than the bed the
+hut is barren of items.  Dirt footprints can seen faded into the floor.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4645 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4643 0 0 0 0 0 0 0 0
+S
+#4645
+A Small Hut~
+This hut is lined with furs and looks comfortable.  The floor is covered with
+foilage and is soft to the touch.  A hatchet made of wood and stone has been
+left to one side of the hut.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4644 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4646 0 0 0 0 0 0 0 0
+S
+#4646
+Troll King's Hovel~
+The hut has several weapons placed along its walls.  An assortment of beads and
+string hang from the ceiling.  A slab of meat has been placed on a flattened
+stone surface located at the center of the hut.  
+~
+46 0 0 0 0 1
+D6
+~
+~
+0 0 4645 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4647 0 0 0 0 0 0 0 0
+S
+#4647
+A Small Hut~
+This hut smells of blood and meat.  The floor seems to be covered in dried blood
+and has a red tint mixed into the dirt.  Animal skins and bones liter the hut.
+Several large knives and axes have been left on the floor.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4648 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4646 0 0 0 0 0 0 0 0
+S
+#4648
+A Small Hut~
+This hut is very dirty and all the items seem to be covered in dust or various
+types of dirt found around the swamp.  Some clothing is seen in a pile on the
+floor near the entrance.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4647 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4643 0 0 0 0 0 0 0 0
+S
+#4649
+Outside a cluster of Huts~
+The village path contiues here and to the west.  North another cluster of huts
+can be seen.  The path seems to be heavily traveled and is cleared of the normal
+foilage found within the swamp.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4650 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4640 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4656 0 0 0 0 0 0 0 0
+S
+#4650
+A Small Hut~
+This hut is mostly empty.  A stack of feathers covered in blood and red beads
+lays in the center of the hut.  Nothing else can be seen inside.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4649 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4651 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4655 0 0 0 0 0 0 0 0
+S
+#4651
+A Small Hut~
+A small fire is lit at the center of the hut.  A copper pot sits atop it filled
+with a green liquid.  Animal parts lay around the fire pit clean of blood.  The
+walls of the hut are brown and green.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4652 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4650 0 0 0 0 0 0 0 0
+S
+#4652
+A Small Hut~
+Several tools and pieces of wood are strewn about the huts floor.  A feather
+tied to some string hangs above the doorway of the hut.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4651 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4653 0 0 0 0 0 0 0 0
+S
+#4653
+A Small Hut~
+This hut is very dirty and all the items seem to be covered in dust or various
+types of dirt found around the swamp.  Some clothing is seen in a pile on the
+floor near the entrance.  
+~
+46 0 0 0 0 1
+D8
+~
+~
+0 0 4654 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4652 0 0 0 0 0 0 0 0
+S
+#4654
+A Small Hut~
+Fur pelts lay around the hut in no specific order.  A few animal bones and
+various ceramic bowls litter the floor.  A string of various colored beads hang
+from the ceiling.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4655 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4653 0 0 0 0 0 0 0 0
+S
+#4655
+A Small Hut~
+A few wooden spears have been left on the floor of this hut.  A necklace of
+teeth hangs on the wall near the front of the hut.  A iron pot sits at the
+center of the hut its contents unknown.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4654 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4650 0 0 0 0 0 0 0 0
+S
+#4656
+A Path through the Village~
+The air is clouded with smoke flowing from the south.  The path extends west and
+south through the smoke.  A stack of wood can be seen on the northern side of
+the path.  A large axe can be found beside the pile.  
+~
+46 0 0 0 0 1
+D1
+~
+~
+0 0 4649 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4657 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4658 0 0 0 0 0 0 0 0
+S
+#4657
+A Large Bonfire~
+A large fire burns here.  Various animal hides and bones can be seen around the
+fire.  A black circle is drawn in the ground here.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4656 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4659 0 0 0 0 0 0 0 0
+S
+#4658
+A Path through the Village~
+The path turns south here and a large bog can be seen west of here.  Vines and
+foilage seem to be creeping onto the path.  
+~
+46 0 0 0 0 1
+D1
+~
+~
+0 0 4656 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4659 0 0 0 0 0 0 0 0
+S
+#4659
+Outside a cluster of Huts~
+The path ends here infront of a cluster of small huts.  East a large fire can be
+seen.  A large bog can be seen to the west.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4658 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4657 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4682 0 0 0 0 0 0 0 0
+S
+#4660
+Into the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 c 0 0 0 3
+D0
+~
+~
+0 0 4661 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4615 0 0 0 0 0 0 0 0
+S
+#4661
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4677 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4676 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4660 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4662 0 0 0 0 0 0 0 0
+S
+#4662
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4663 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4661 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4689 0 0 0 0 0 0 0 0
+S
+#4663
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D2
+~
+~
+0 0 4662 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4664 0 0 0 0 0 0 0 0
+S
+#4664
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4665 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4663 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4689 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4690 0 0 0 0 0 0 0 0
+S
+#4665
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4666 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4681 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4664 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4691 0 0 0 0 0 0 0 0
+S
+#4666
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4693 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4667 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4665 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4692 0 0 0 0 0 0 0 0
+S
+#4667
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4666 0 0 0 0 0 0 0 0
+S
+#4668
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4694 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4669 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4667 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4693 0 0 0 0 0 0 0 0
+S
+#4669
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4695 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4670 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4679 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4668 0 0 0 0 0 0 0 0
+S
+#4670
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4696 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4697 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4671 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4669 0 0 0 0 0 0 0 0
+S
+#4671
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4670 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4672 0 0 0 0 0 0 0 0
+S
+#4672
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4697 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4698 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4671 0 0 0 0 0 0 0 0
+S
+#4673
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4672 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4699 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4674 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4680 0 0 0 0 0 0 0 0
+S
+#4674
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4673 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4688 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4675 0 0 0 0 0 0 0 0
+S
+#4675
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D1
+~
+~
+0 0 4674 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4676 0 0 0 0 0 0 0 0
+S
+#4676
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4675 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4688 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4661 0 0 0 0 0 0 0 0
+S
+#4677
+Within the Marsh~
+You are in an unfinished room.
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4678 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4661 0 0 0 0 0 0 0 0
+S
+#4678
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4679 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4680 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4677 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4681 0 0 0 0 0 0 0 0
+S
+#4679
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4669 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4678 0 0 0 0 0 0 0 0
+S
+#4680
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D1
+~
+~
+0 0 4673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4678 0 0 0 0 0 0 0 0
+S
+#4681
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D1
+~
+~
+0 0 4678 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4665 0 0 0 0 0 0 0 0
+S
+#4682
+A Small Hut~
+Three humanoid skulls are stacked to one side of the hut.  Various feathers and
+beads can be seen within a few of the pots scattered about.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4659 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4687 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4683 0 0 0 0 0 0 0 0
+S
+#4683
+A Small Hut~
+This hut has many pieces of metal laid about.  A few gems can be seen along the
+floor randomly.  A large hammer sits next to a flat piece of stone.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4684 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4682 0 0 0 0 0 0 0 0
+S
+#4684
+A Small Hut~
+This hut is very dirty and all the items seem to be covered in dust or various
+types of dirt found around the swamp.  Some clothing is seen in a pile on the
+floor near the entrance.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4683 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4685 0 0 0 0 0 0 0 0
+S
+#4685
+A Small Hut~
+Several lengths of string lined with beads hang from the ceiling of this hut.  
+A cruel looking knife can be seen wrapped in an animal skin near the firepit.  
+~
+46 0 0 0 0 1
+D6
+~
+~
+0 0 4684 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4686 0 0 0 0 0 0 0 0
+S
+#4686
+A Small Hut~
+A iron pot sits at the center of the hut its contents unknown.  Various pots
+filled with random herbs and liquids sit around the pot.  A strange mist seems
+to fill this hut.  
+~
+46 0 0 0 0 1
+D0
+~
+~
+0 0 4687 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4685 0 0 0 0 0 0 0 0
+S
+#4687
+A Small Hut~
+Large animal bones and pelts cover the floor of this hut.  A bed of furs are
+positioned at the rear of the hut.  The walls are decorated with smeared green
+and red liquids.  
+~
+46 0 0 0 0 1
+D2
+~
+~
+0 0 4686 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4682 0 0 0 0 0 0 0 0
+S
+#4688
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4674 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4676 0 0 0 0 0 0 0 0
+S
+#4689
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4664 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4662 0 0 0 0 0 0 0 0
+S
+#4690
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4691 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4664 0 0 0 0 0 0 0 0
+S
+#4691
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4692 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4665 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4690 0 0 0 0 0 0 0 0
+S
+#4692
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D1
+~
+~
+0 0 4666 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4691 0 0 0 0 0 0 0 0
+S
+#4693
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D1
+~
+~
+0 0 4668 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4666 0 0 0 0 0 0 0 0
+S
+#4694
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D1
+~
+~
+0 0 4695 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4668 0 0 0 0 0 0 0 0
+S
+#4695
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D1
+~
+~
+0 0 4696 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4669 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4694 0 0 0 0 0 0 0 0
+S
+#4696
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D2
+~
+~
+0 0 4670 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4695 0 0 0 0 0 0 0 0
+S
+#4697
+Within the Marsh~
+The fog at this part of the marsh is extremely thick.  A pugent smell seems to
+be rising from the ground.  The ground itself is very uneven and difficult to
+navigate.  
+~
+46 0 0 0 0 3
+D2
+~
+~
+0 0 4672 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4670 0 0 0 0 0 0 0 0
+S
+#4698
+Within the Marsh~
+The marsh seems to be shifting as the deep fog sways from the wind.  Vines seem
+to cover the ground making it uneven.  The sky cannot be seen through the fog,
+very little light is showing through.  
+~
+46 0 0 0 0 3
+D2
+~
+~
+0 0 4699 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4672 0 0 0 0 0 0 0 0
+S
+#4699
+Within the Marsh~
+The marsh is filled with a very dense fog, visibility is very low and an eerie
+darkness floods the area.  Various animals can be seen roaming the marsh in
+search of food sources.  
+~
+46 0 0 0 0 3
+D0
+~
+~
+0 0 4698 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4673 0 0 0 0 0 0 0 0
+S
+$~

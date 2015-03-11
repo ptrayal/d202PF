@@ -1,0 +1,140 @@
+#8000
+The Wild Party Room~
+The wild Party Room.
+~
+80 d 0 0 0  0
+D5
+~
+door~
+1 0 8009 0 0 0 0 0 0 0 0
+S
+#8001
+To Solace NE Gate~
+There is a door here leading down to Solaces North Eastern Gate.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1358 0 0 0 0 0 0 0 0
+S
+#8002
+To East of The Inn of the Last Home~
+There is a door leading down to just east of the ramp to the Inn of the
+Last Home.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1344 0 0 0 0 0 0 0 0
+S
+#8003
+To the SE Gate of Solace~
+  There is a door here leading down to the southeast gate of Solace.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1333 0 0 0 0 0 0 0 0
+S
+#8004
+To the Eastern Side Path Near Solace Square~
+  There is a door here leading down to a side path just southeast of Solace
+Square.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1327 0 0 0 0 0 0 0 0
+S
+#8005
+To the Path Leading to Crystalmyr Lake~
+  There is a door here leading down to the path that goes to Crystalmyr Lake.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1302 0 0 0 0 0 0 0 0
+S
+#8006
+To the NE Area of the Solace Boardwalk~
+  There is a door here leading down to the northeastern section of Solace's
+boardwalk.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1399 0 0 0 0 0 0 0 0
+S
+#8007
+To the Southern Area of Solace's Boardwalk~
+  There is a door here leading down to the southern area of Solace's boardwalk.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1389 0 0 0 0 0 0 0 0
+S
+#8008
+To the Central Area of Solace's Boardwalk~
+  There is a door here leading down to the central area of Solace's boardwalk.
+~
+80 0 0 0 0  0
+D5
+~
+door~
+1 0 1382 0 0 0 0 0 0 0 0
+S
+#8009
+Within a Shaft of Sunlight~
+   Standing here surrounded by sunlight, you notice the pristine atmosphere of
+this place.  Delicate crystal raindrops float in random paterns over the
+ceiling and walls.  Gentle whisps of cloud drift around your ankles and as you
+look down, you see all of Krynn far below you.  Standing in one corner is a
+Blue Crystal Staff, and hanging from the bare, white walls from a rune covered
+hook are the Disks of Mishakal.    
+~
+80 deg 0 0 0  0
+D3
+~
+~
+0 0 8010 0 0 0 0 0 0 0 0
+D4
+~
+pit~
+1 0 7900 0 0 0 0 0 0 0 0
+E
+staff~
+   Gleaming in the sunlight a Blue Crystal Staff leans against a wall.  The
+holy aura surrounding it is a sight to behold.  Inscribed in tiny writing along
+the shaft are the words 'Mishakal, The Healing Hand'.    
+~
+S
+#8010
+The Four Corners of Krynn~
+   This wide open space high above the land allows access to the four corners
+of Krynn.  Sunlight shines all around you and the feeling of weightlessness is
+almost overwhelming.  Choose carefully which direction you wish to go, for
+there is no return.    
+~
+80 e 0 0 0  0
+D0
+~
+~
+0 0 1317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+$

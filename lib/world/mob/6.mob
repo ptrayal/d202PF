@@ -1,0 +1,204 @@
+#600
+skeleton humanoid mob~
+a humanoid skeleton~
+A humanoid skeleton walks the academy ruins aimlessly.
+~
+   There's nothing remarkable about this skeleton.  It's humanoid, possibly
+human, elf or half-elf, it's missing a few bones here and there and clad in
+rusty armor and tattered leathers and clothing.  
+~
+d 0 0 0 k 0 0 0 0
+2 20 8 36d20+151 1d8+0
+1 0 7 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#601
+zombie humanoid mob~
+a humanoid zombie~
+A humanoid zombie wanders the ruins mindlessly.
+~
+   There is not much to this zombie, aside from decayed and, in some parts,
+half-eaten flesh.  It's hair comes down in long whisps and its eyes have long
+ago disappeared as the meal to some crawling creature.  It wears tattered
+leathers covered in earth and dirt and wields in its hand a large club.  
+~
+d 0 0 0 k 0 0 0 0
+4 20 6 60d40+153 1d8+0
+4 0 6 3
+8 8 0
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#602
+ghoul humanoid mob~
+a humanoid ghoul~
+A humanoid ghoul is here guarding passage to the lower level of the academy.
+~
+   This creature is a twisted incarnation of undeath, and green and grey skinned
+ghoul wearing rusted and ruined chainmail armor.  He wears a brass key around
+his neck that probably opens the door to the stairway leading down to the next
+level of the academy.  He sneers at you with evil intelligence and a burning
+hatred for all that lives.  
+~
+bdE 0 0 0 k 0 0 0 0
+5 20 5 360d50+153 1d8+0
+5 0 6 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#603
+ghast greu gray skinned mob~
+a grey-skinned ghast~
+A grey-skinned ghast shambles across the room enveloped ina cloud of nausteating gas.
+~
+   Before you is a creature of filth and darkness, a ghast.  It is enveloped in
+a cloud of nauseating green gas.  The ghoul is clad is moldy leather armor and
+wields no weapon except for its long black claws.  Its eyes are red and filled
+with hate for all that lives.  
+~
+d 0 0 0 k 0 0 0 0
+7 20 3 96d70+152 1d8+0
+10 0 6 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#604
+wraith dark shrouded mob~
+a dark, shrouded wraith~
+Shrouded in darkness is the wraith of a academy professor floating menacingly nearby.
+~
+   Barely recognisable as once being human, this wrath is shrouded in darkness
+and choking mist.  Through the foreboding haze can be seen the image of robes
+though the spectral face of the undead horror is twisted in eternal torment and
+the hatred for all who live without it.  
+~
+d 0 0 0 k 0 0 0 0
+9 20 1 40d90+152 1d8+0
+18 0 6 0
+8 8 0
+E
+BareHandAttack: 12
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#605
+priest undead mob~
+an undead priest of Cyric~
+The "revived" corpse of a priest of Cyric is here sustaining the undead army.
+~
+   Clad completely in black robes and wearing a white skull mask, this priest
+most definitely serves the Lord of Death, Cyric.  He is humanoid and from the
+rotting grey skin that does show, he has obvious accepted Cyric's "gift of
+eternal life".  He stands at the side of a cloth covered altar chanting in low
+gutteral tones, and though he appears to be aware of your presence he makes no
+move towards you.  
+~
+abduF 0 0 0 k 0 0 0 0
+10 20 0 198d100+151 1d8+0
+25 0 6 1
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#606
+giant skeleton~
+a giant skeleton~
+A giant skeleton is here shambling aimlessly through the hall.
+~
+   This skeleton appears to be of an ogre or a small hill giant possibly.  It
+wields a giant rusty great axe.  A shirt of tattered chain mail hangs loosely
+over the bones, and a large pot helm looks to have been welded naturally to the
+skull.  
+~
+d 0 0 0 k 0 m 0 0
+12 14 -4 288d110+101 1d8+6
+14 0 7 3
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

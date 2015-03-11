@@ -1,0 +1,267 @@
+#4400
+smelly hobgoblin~
+a smelly hobgoblin~
+A smelly hobgoblin attacks with fury.
+~
+   Attacking you is a smelly hobgoblin.  It is short even for a hobgoblin and
+has a terrible stench to it.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4401
+cloak black traveler silver~
+a traveler in a silver and black cloak~
+A traveler in a silver and black cloak is here minding his own business.
+~
+   Before you stands a traveler whose face is hidden in his hood.  He wears a
+silver and black cape and walks with a gracefulness.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4402
+large black ox~
+a large black ox~
+A large black ox is here pulling a wagon.
+~
+Before you is a large black ox pulling a wagon.
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4403
+traveler wagon~
+a traveler on a wagon~
+A traveler sitting on a wagon being pulled by two large black oxen is here.
+~
+   Before you is an old wooden wagon being pulled by two black oxen.  There is
+a traveler sitting on the wagon.  He looks to be a farmer or at least someone
+who doesn't have great wealth.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4404
+rugged scarred dockmaster~
+a rugged, scarred dockmaster~
+A rugged, scarred dockmaster stands here awaiting the ferry.
+~
+   This dockmaster is a former veteran soldier.  He stands here now, in his
+retirement, waiting for the ferry to dock to the north.  Large scars run up and
+down his arms and chest, giving proof of his adventurous early life.    
+~
+d 0 0 0 k 0 0 0 400
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4405
+half-elf rugged~
+a rugged, leather clad half-elf~
+A rugged looking half-elf donned in green and brown leathers stands here.
+~
+  Standing ahead of you is a rugged looking half-elf wearing a complete
+suit of green and brown leather armor.  He wears his hair long, and it is rather
+unkempt.  His face is unshaven, but not so much as to show a beard.  He looks
+at you suspiciously, but without any apparent hostility.
+~
+d 0 0 0 k 0 0 0 150
+15 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4406
+vague hooded man~
+a vague, blue hooded man~
+A vague looking man donning a night blue hood stares at the shoreline.
+~
+This man is nearly completely hidden by the black robes he wears and
+the night blue hood draped over his head.  His robes are of a rather fine
+craftmanship, and are embroidered with red trimming.  Two dark eyes
+pierce the only holes in his clothing, and strike you with profound
+intensity.
+~
+d 0 0 0 k 0 0 0 -600
+16 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4407
+member dragonarmy soldier~
+a member of the dragonarmy~
+A member of the dragonarmy stands nearby.
+~
+   The woman before you is not beautiful, but where good looks lack, definition
+and strength more than suffice.  Her appearance is one of a seasoned warrior,
+and as her hand hovers unconsciously near the hilt of her blade you realize
+this to be more than appearance.  She wears dark blue chain mail bearing a
+crest of gold.    
+~
+d 0 0 0 k 0 0 0 -800
+14 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4408
+knight patrol leader~
+a knight patrol leader~
+A seasoned knight leads a routine patrol along the road.
+~
+Standing confidently before you is a well trained knight in half plate
+armor. He wears a visorless helm from which two stern eyes scan the
+area. On his breastplate is the insignia of a sword, counting him
+as a high ranked Knight of Solamnia.  He regards you suspiciously, but
+makes no action, friendly or hostile.
+~
+d 0 0 0 k 0 0 0 790
+18 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4409
+knight patrol~
+a knight on patrol~
+A young Knight of Solamnia patrols the Thelgaard road.
+~
+Strolling down this road, a young Knight of Solamnia keeps an
+open eye out for trouble.  He wears the traditional moustache of
+the knighthood and keeps a ready hand near his sword.  He stares
+at you suspiciously for a few moments and then glances at his
+commander expectantly.
+~
+d 0 0 0 k 0 0 0 650
+14 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

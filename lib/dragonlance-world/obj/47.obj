@@ -1,0 +1,217 @@
+#4700
+key bone tiny~
+a tiny bone key~
+A tiny bone lies on the ground.~
+~
+18 acjklmnoprstuvwABCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+E
+bone tiny~
+   All you see is a small bone in the shape of a key.    
+~
+#4701
+sparkling diamond~
+a sparkling diamond key~
+A sparkling diamond rests in the dirt.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+E
+sparkling diamond key~
+   The only thing noticable about this key is that it sparkles.    
+~
+#4702
+longsword black creeping death templechemosh~
+a black longsword called "Creeping Death"~
+An ancient black longsword has been discarded here.~
+~
+5 bklprstBCDEF acDE mstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 30000 0 5
+Z
+4
+E
+black longsword creeping death~
+   This sword is made from a dark, unknown material.  Rumors says that the mere
+hit of this blade will doom the soul of the one who got hurt.    
+~
+A
+18 2 0
+A
+19 1 0
+A
+1 1 0
+#4703
+ring dull bone templechemosh~
+a dull bone ring~
+A piece of bone was thrown here.~
+1~
+9 jklmnqwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4000 0 1
+Z
+4
+E
+bone dull ring~
+   All you can see is a simple ring made of a polished bone.    
+~
+A
+3 1 0
+#4704
+sickle chemosh platinum templechemosh~
+the Sickle of Chemosh~
+A large sickle with platinum edge rests here.~
+~
+5 aklnwxCDEF acDE msuxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 10000 0 3
+Z
+4
+E
+sickle chemosh~
+   This sickle is made from a mysterious metal, enshrouded in darkness.  With
+edges of platinum, this sickle will inflict massive pain on it's poor victim.
+Rumored to be used by Chemosh himself, this weapon should be treated with
+extreme care.    
+~
+A
+5 1 0
+A
+4 1 0
+#4705
+skull yellow templechemosh~
+a yellow, horned skull~
+A yellow skull is lying on the ground.~
+~
+9 bklntBDEF abDE stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 5000 0 2
+Z
+4
+E
+yellow horned skull~
+   This yellow skull is shaped like a ram's skull.  More than once, skulls as
+this one were used by followers of Chemosh, in rituals of death.    
+~
+A
+18 1 0
+A
+1 1 0
+#4706
+black cloak yellow~
+a black cloak with yellow stripes~
+A pile of black fabric is waiting to be picked.~
+~
+9 bkmnoprstvwBCDEF abcDE 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 7300 0 3
+Z
+4
+E
+black cloak yellow~
+   This cloak is made from a hard and heavy material, yet flexible and
+comfortable to wear.    
+~
+A
+5 1 0
+A
+3 1 0
+#4707
+long jagged dagger~
+a long, jagged dagger~
+A long, jagged dagger is stuck in the ground.~
+~
+5 klovBCEF abc l 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 5900 0 2
+Z
+4
+E
+long jagged dagger~
+   This weapon was crafted from an extremely hard metal.  The jagged edges were
+added just to make sure the victim of this dagger wont be able to recover.    
+~
+A
+18 1 0
+A
+19 1 0
+#4708
+knife long black templechemosh~
+a long, black knife~
+A long knife is lying here unwanted.~
+~
+5 jklopruvBCDEF abc stuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 4500 0 3
+Z
+4
+E
+long black knife~
+   This knife is almost the size of a short sword.  Made of a black metal, it
+does not reflect any light.  Just touching the blade runs shiver down your
+spine.    
+~
+A
+18 2 0
+A
+19 1 0
+#4709
+wand flaming stick templechemosh~
+a flaming wand~
+A flaming stick rests here.~
+~
+3 jklmnortvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 3000 0 0
+Z
+4
+E
+flaming wand stick~
+   This wand seems to be engulfed with flames, but does not show any evidence
+of burning out.    
+~
+#4710
+black silver scroll~
+a black scroll with silver edges~
+A black piece of paper with silver edges catches your attention.~
+~
+2 jklmnoprstvwBCDEF ab 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 750 0 0
+Z
+4
+E
+scroll black silver~
+   Made of black parachment, this scroll is covered with strange silver runes.
+~
+#4711
+object new~
+a new object~
+A new object is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#4712
+bracer wrought souls templechemosh~
+a bracer wrought from tortured souls~
+A swirling bracer of shadows makes a strange noise as it lies here.~
+~
+9 knpstBCEF a stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 25000 0 3
+Z
+4
+A
+19 1 0
+A
+17 -4 0
+$~

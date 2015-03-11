@@ -1,0 +1,28 @@
+@Wd20MUD HELP FILE INDEX@n
+
+@wWithin these pages you can find the answer to virtually any question you may
+have.  To view a help file type @YHELP <topic identifier>@n (usually in caps).
+If you are new to the mud the very first thing you should do is read
+@YHELP NEWBIE@w.@n
+
+@YINTRODUCTION@W Intro to the Game           @YFEATS      @W Feats@n
+@YABOUT       @W About d20MUD                @YMAGIC      @W Magic@n
+@YOPTIONS     @W Options                     @YITEMS      @W Items@n
+@YCOMMUNICATE @W Communication               @YMOBILES    @W Mobiles@n
+@YMOVEMENT    @W Movement                    @YCITIES     @W Cities@n
+@YCHARACTERS  @W Your Character              @YCRAFTING   @W Crafting@n
+@YSTATES      @W The State of Your Character @YDEATH      @W Death@n
+@YRACES       @W Races                       @YQUESTS     @W Quests@n
+@YCLASSES     @W Classes                     @YPOLICIES   @W Policies@n
+@YSKILLS      @W Skills                      @YINFORMATION@W Information@n
+
+@WPlease note that our help file documentation is incomplete and out-of-date.
+It is of the utmost importance to us that this is corrected, but it is a
+time consuming process, so please bear with us.  In the mean time, if you
+have a question, please use the @Ychat@W or @Ynewbie@W commands to ask your
+fellow players and staff members the questions you have.  They will be happy
+to respond more often than not.  Thanks for your patience && cooperation.
+
+If your question cannot be resolved in the above manner, please use the
+petition command to contact a staff member (HELP PETITION)
+@n

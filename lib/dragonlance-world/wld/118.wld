@@ -1,0 +1,2050 @@
+#11800
+The Intersection of The Street of the Tempest and The Street of the Dew-La'echer~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11854 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11813 0 0 0 0 0 0 0 0
+D2
+~
+gates~
+1 11821 11812 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11801 0 0 0 0 0 0 0 0
+S
+#11801
+The Street of the Tempest~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11800 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11802 0 0 0 0 0 0 0 0
+S
+#11802
+The Street of the Tempest~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 10705 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11801 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11803 0 0 0 0 0 0 0 0
+S
+#11803
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11804 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11802 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11805 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11806 0 0 0 0 0 0 0 0
+S
+#11804
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 0 h 0 0  1
+D2
+~
+~
+0 0 11803 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11808 0 0 0 0 0 0 0 0
+S
+#11805
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11803 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11807 0 0 0 0 0 0 0 0
+S
+#11806
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 u h 0 0  1
+D0
+~
+~
+0 0 11808 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11803 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11807 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11809 0 0 0 0 0 0 0 0
+S
+#11807
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11806 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11805 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11810 0 0 0 0 0 0 0 0
+S
+#11808
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11846 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11804 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11806 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11811 0 0 0 0 0 0 0 0
+S
+#11809
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11811 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11806 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11810 0 0 0 0 0 0 0 0
+S
+#11810
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming high above you here is a huge building with wavy crimson spires
+depicting raging flames.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11809 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11807 0 0 0 0 0 0 0 0
+S
+#11811
+Plaza of the Flame~
+   The wind is especially strong here in this open plaza.  It seems to be one
+of the few areas of the city where there is any kind of noise.  Vendors hawk
+their wares and peasants from nearby farms sell their produce.  A few children
+are present as well, although they seem strangely quiet and well behaved.  
+Looming into the sky in the southwest corner is a huge building with wavy
+crimson spires depicting raging flames.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11808 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11809 0 0 0 0 0 0 0 0
+S
+#11812
+The South Gate of The City of Morning Dew~
+   The wind whistles past the tall iron gates that give access to the City of
+Morning Dew.  The walls are tall wooden pallisades reinforced with iron
+strapping and stone parapats.  The ground is hard packed dirt, and bestows a
+variety of colorful plants that have managed to flourish in this relatively
+harsh enviornment.  The city within is deathly quiet, drawing all of your
+attention to a large sculpture in the center of the town.  Hundreds of web-like
+crystal beams intricately interconnect to catch the moisture in the air,
+creating a sparkling presentation of utter beauty.    
+~
+118 c h 0 0  1
+D0
+~
+gates~
+1 11821 11800 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10311 0 0 0 0 0 0 0 0
+S
+#11813
+The Street of the Tempest~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11814 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11800 0 0 0 0 0 0 0 0
+S
+#11814
+The Street of the Tempest~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11815 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11813 0 0 0 0 0 0 0 0
+S
+#11815
+The Street of the Tempest~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city.    
+~
+118 p h 0 0  1
+D1
+~
+~
+0 0 11816 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11814 0 0 0 0 0 0 0 0
+S
+#11816
+Intersection of the Street of the Tempest and the Street of the Unseen Eye~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city.    
+~
+118 p h 0 0  1
+D0
+~
+~
+0 0 11819 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11817 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11818 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11815 0 0 0 0 0 0 0 0
+S
+#11817
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 cp h 0 0  1
+D3
+~
+~
+0 0 11816 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11856 0 0 0 0 0 0 0 0
+S
+#11818
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 cp h 0 0  1
+D0
+~
+~
+0 0 11816 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11855 0 0 0 0 0 0 0 0
+S
+#11819
+The Street of the Unseen Eye~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 p h 0 0  1
+D0
+~
+~
+0 0 11820 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11816 0 0 0 0 0 0 0 0
+S
+#11820
+The Street of the Unseen Eye~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 p h 0 0  1
+D0
+~
+~
+0 0 11821 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11819 0 0 0 0 0 0 0 0
+S
+#11821
+The Street of the Unseen Eye~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11822 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11820 0 0 0 0 0 0 0 0
+S
+#11822
+The Intersection of The Street of The Unseen Eye and The Street of Corrupted Justice~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11823 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11828 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11821 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11863 0 0 0 0 0 0 0 0
+S
+#11823
+The Street of the Unseen Eye~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11824 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11822 0 0 0 0 0 0 0 0
+S
+#11824
+The Street of the Unseen Eye~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11825 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11823 0 0 0 0 0 0 0 0
+S
+#11825
+The Street of the Unseen Eye~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11826 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11824 0 0 0 0 0 0 0 0
+S
+#11826
+The Intersection of The Street of the Unseen Eye and the Street of Chaotic Intent~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11829 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11827 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11825 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11830 0 0 0 0 0 0 0 0
+S
+#11827
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 c h 0 0  1
+D3
+~
+~
+0 0 11826 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11857 0 0 0 0 0 0 0 0
+S
+#11828
+The East Gate of the City of Morning Dew~
+   The wind whistles past the tall iron gates that give access to the City of
+Morning Dew.  The walls are tall wooden pallisades reinforced with iron
+strapping and stone parapats.  The ground is hard packed dirt, and bestows a
+variety of colorful plants that have managed to flourish in this relatively
+harsh enviornment.  The city within is deathly quiet, drawing all of your
+attention to a large sculpture in the center of the town.  Hundreds of web-like
+crystal beams intricately interconnect to catch the moisture in the air,
+creating a sparkling presentation of utter beauty.    
+~
+118 c h 0 0  1
+D1
+~
+~
+0 0 10312 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11822 0 0 0 0 0 0 0 0
+S
+#11829
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 c h 0 0  1
+D2
+~
+~
+0 0 11826 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11858 0 0 0 0 0 0 0 0
+S
+#11830
+The Street of Chaotic Intent~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11826 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11831 0 0 0 0 0 0 0 0
+S
+#11831
+The Street of Chaotic Intent~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11830 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11832 0 0 0 0 0 0 0 0
+S
+#11832
+The Street of Chaotic Intent~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11831 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11833 0 0 0 0 0 0 0 0
+S
+#11833
+The Intersection of The Street of Chaotic Intent and The Street of the Dew-La'echer~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11840 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11832 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11848 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11834 0 0 0 0 0 0 0 0
+S
+#11834
+The Street of Chaotic Intent~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11833 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11835 0 0 0 0 0 0 0 0
+S
+#11835
+The Street of Chaotic Intent~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11834 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11836 0 0 0 0 0 0 0 0
+S
+#11836
+The Street of Chaotic Intent~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11835 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11837 0 0 0 0 0 0 0 0
+S
+#11837
+Intersection of The Street of Chaotic Intent and The Street of the Lost Child~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11839 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11836 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11841 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11838 0 0 0 0 0 0 0 0
+S
+#11838
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 c h 0 0  1
+D1
+~
+~
+0 0 11837 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11860 0 0 0 0 0 0 0 0
+S
+#11839
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 c h 0 0  1
+D2
+~
+~
+0 0 11837 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11861 0 0 0 0 0 0 0 0
+S
+#11840
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 c h 0 0  1
+D2
+~
+~
+0 0 11833 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11859 0 0 0 0 0 0 0 0
+S
+#11841
+The Street of the Lost Child~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11837 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11842 0 0 0 0 0 0 0 0
+S
+#11842
+The Street of the Lost Child~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11841 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11843 0 0 0 0 0 0 0 0
+S
+#11843
+The Street of the Lost Child~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11842 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11844 0 0 0 0 0 0 0 0
+S
+#11844
+The Intersection of The Street of the Lost Child and The Street of Corrupted Justice~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11843 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11868 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11845 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11847 0 0 0 0 0 0 0 0
+S
+#11845
+The Street of the Lost Child~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11844 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11846 0 0 0 0 0 0 0 0
+S
+#11846
+The Street of the Lost Child~
+   Like all streets in this city, this one bears a strange name.  Its ominous
+tone is well put, as the street is deathly quiet, with only a few sullen
+figures making their way through the wide pathways.  Clay buildings line
+either side of the street, showing no windows, presumably due to the harsh wind
+that ever blows through the runs of this city.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11845 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11808 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10700 0 0 0 0 0 0 0 0
+S
+#11847
+At the Base of a Craech Tower~
+   This large tower is built from wooden beams and set with the same
+rusty-brown clay that is ever-present in this city.  The walls look sturdy
+enough and seem as if they could withstand a modest assault.  The main feature
+of this tower is seen above the long winding staircase, where a large,
+ballista-like contraption sits ready to purge any possible enemies from the
+city perimeter.    
+~
+118 c h 0 0  1
+D1
+~
+~
+0 0 11844 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11862 0 0 0 0 0 0 0 0
+S
+#11848
+The Street of the Dew-La'echer~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the south is the only noise that
+occupies this deathly quiet city. 
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11833 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11849 0 0 0 0 0 0 0 0
+S
+#11849
+The Street of the Dew-La'echer~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the south is the only noise that
+occupies this deathly quiet city. 
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11848 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11850 0 0 0 0 0 0 0 0
+S
+#11850
+The Street of the Dew-La'echer~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the south is the only noise that
+occupies this deathly quiet city. 
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11849 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11851 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10704 0 0 0 0 0 0 0 0
+S
+#11851
+Standing Before the Dew-La'echer~
+   Rising up before you is the an amazng structure called the Dew-La'echer.  
+It is formed of hundreds of crystal beams, intertwining with each other to form
+a spherical web-like sculpture.  Moisture clings to each beam, making it
+sparkle like a shining star.  A strange tingling sound comes from within the
+sculpture, though there is no visible source.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11850 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11865 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11852 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11866 0 0 0 0 0 0 0 0
+D4
+~
+panel~
+1 11800 11869 0 0 0 0 0 0 0 0
+D5
+~
+grate~
+1 11800 10724 0 0 0 0 0 0 0 0
+S
+#11852
+The Street of the Dew-La'echer~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city. 
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11851 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10703 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11853 0 0 0 0 0 0 0 0
+S
+#11853
+The Street of the Dew-La'echer~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city. 
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11852 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11854 0 0 0 0 0 0 0 0
+S
+#11854
+The Street of the Dew-La'echer~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the north is the only noise that
+occupies this deathly quiet city. 
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 11853 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11800 0 0 0 0 0 0 0 0
+S
+#11855
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 p h 0 0  1
+D5
+~
+~
+0 0 11818 0 0 0 0 0 0 0 0
+S
+#11856
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 p h 0 0  1
+D5
+~
+~
+0 0 11817 0 0 0 0 0 0 0 0
+S
+#11857
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 0 h 0 0  1
+D5
+~
+~
+0 0 11827 0 0 0 0 0 0 0 0
+S
+#11858
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 0 h 0 0  1
+D5
+~
+~
+0 0 11829 0 0 0 0 0 0 0 0
+S
+#11859
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 0 h 0 0  1
+D5
+~
+~
+0 0 11840 0 0 0 0 0 0 0 0
+S
+#11860
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 0 h 0 0  1
+D5
+~
+~
+0 0 11838 0 0 0 0 0 0 0 0
+S
+#11861
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 0 h 0 0  1
+D5
+~
+~
+0 0 11839 0 0 0 0 0 0 0 0
+S
+#11862
+Atop a Craech Tower~
+   The wide perimeter outside the city walls can be seen from atop this tall
+clay and wood tower.  The forest has been razed back a hundred yards to make
+targetting easy for the archers atop this parapat.  Filling up the large
+majority of the tower is a strange ballista-like device.  Instead of firing a
+missile, however, it has a hollow opening in the front, and is covered in
+arcane runes.  The sheer complexity of the device makes it reminiscent of
+gnomish technology, although the runes are suspect of magical forces as well.
+  
+~
+118 0 h 0 0  1
+D5
+~
+~
+0 0 11847 0 0 0 0 0 0 0 0
+S
+#11863
+The Street of Corrupted Justice~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the west is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11822 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11864 0 0 0 0 0 0 0 0
+S
+#11864
+The Street of Corrupted Justice~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the west is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11863 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11865 0 0 0 0 0 0 0 0
+S
+#11865
+The Street of Corrupted Justice~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the west is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11864 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10702 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11851 0 0 0 0 0 0 0 0
+S
+#11866
+The Street of Corrupted Justice~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the east is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D0
+~
+~
+0 0 10701 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11851 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11867 0 0 0 0 0 0 0 0
+S
+#11867
+The Street of Corrupted Justice~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the east is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11866 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11868 0 0 0 0 0 0 0 0
+S
+#11868
+The Street of Corrupted Justice~
+   The wind howls as it courses down this long street.  The ground is hard
+packed dirt, although wild gardens of varying colorful plants line its sides.
+The buildings are made of a rusty brown clay, and have few windows, most likely
+to keep the ever-present wind outside.  Murals are painted everywhere, most of
+them depicting scenes of divine battles and infernos of fire.  The always
+sounding tingling of the Dew-La'echer to the east is the only noise that
+occupies this deathly quiet city.    
+~
+118 0 h 0 0  1
+D1
+~
+~
+0 0 11867 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11844 0 0 0 0 0 0 0 0
+S
+#11869
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 cdgq f 0 0  1
+D4
+~
+~
+0 0 11870 0 0 0 0 0 0 0 0
+D5
+~
+panel~
+1 11800 11851 0 0 0 0 0 0 0 0
+S
+#11870
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11878 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11876 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11874 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11872 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11871 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11869 0 0 0 0 0 0 0 0
+S
+#11871
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D4
+~
+~
+0 0 11880 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11870 0 0 0 0 0 0 0 0
+S
+#11872
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11879 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11870 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11873 0 0 0 0 0 0 0 0
+S
+#11873
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11872 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11874 0 0 0 0 0 0 0 0
+S
+#11874
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11870 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11875 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11873 0 0 0 0 0 0 0 0
+S
+#11875
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11876 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11874 0 0 0 0 0 0 0 0
+S
+#11876
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11877 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11875 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11870 0 0 0 0 0 0 0 0
+S
+#11877
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D2
+~
+~
+0 0 11876 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11878 0 0 0 0 0 0 0 0
+S
+#11878
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D1
+~
+~
+0 0 11877 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11870 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11879 0 0 0 0 0 0 0 0
+S
+#11879
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D1
+~
+~
+0 0 11878 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11872 0 0 0 0 0 0 0 0
+S
+#11880
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11887 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11885 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11883 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11881 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11889 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11871 0 0 0 0 0 0 0 0
+S
+#11881
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11888 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11880 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11882 0 0 0 0 0 0 0 0
+S
+#11882
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11881 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11883 0 0 0 0 0 0 0 0
+S
+#11883
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11880 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11884 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11882 0 0 0 0 0 0 0 0
+S
+#11884
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11885 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11883 0 0 0 0 0 0 0 0
+S
+#11885
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11886 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11884 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11880 0 0 0 0 0 0 0 0
+S
+#11886
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D2
+~
+~
+0 0 11885 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11887 0 0 0 0 0 0 0 0
+S
+#11887
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D1
+~
+~
+0 0 11886 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11880 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11888 0 0 0 0 0 0 0 0
+S
+#11888
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 dgq f 0 0  1
+D1
+~
+~
+0 0 11887 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11881 0 0 0 0 0 0 0 0
+S
+#11889
+Inside the Dew-La'echer~
+   The inside of the Dew-La'echer is a sight to see for sure.  The light is
+almost blinding, as each droplet of dew sparkles brightly in your eyes.  The
+edges of the structure are smooth and slippery, making them near impossible to
+grip.  A loud tingling noise echos off the sides of the structure, making
+communication quite difficult.    
+~
+118 cdgq f 0 0  1
+D4
+~
+panel~
+1 11801 11890 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11880 0 0 0 0 0 0 0 0
+S
+#11890
+Above the Dew-La'echer~
+   From this vantage atop the dew-la'echer, you can see the majority of the
+city below.  The air is cool and crisp up here, and the wind blows steadily,
+stripping the moisture from your skin and leaving you feeling a bit bitter.  
+The crystaline structure of the dew-la'echer below is no less beautiful from
+here, perhaps even moreso.  You can see some movement inside the small openings
+between the strands.    
+~
+118 dgq f 0 0  1
+D4
+~
+~
+0 0 11891 0 0 0 0 0 0 0 0
+D5
+~
+panel~
+1 11801 11889 0 0 0 0 0 0 0 0
+S
+#11891
+Above the Dew-La'echer~
+   From this vantage atop the dew-la'echer, you can see the majority of the
+city below.  The air is cool and crisp up here, and the wind blows steadily,
+stripping the moisture from your skin and leaving you feeling a bit bitter.  
+The crystaline structure of the dew-la'echer below is no less beautiful from
+here, perhaps even moreso.  You can see some movement inside the small openings
+between the strands.    
+~
+118 dgq f 0 0  1
+D4
+~
+~
+0 0 11892 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11890 0 0 0 0 0 0 0 0
+S
+#11892
+Above the Dew-La'echer~
+   From this vantage atop the dew-la'echer, you can see the majority of the
+city below.  The air is cool and crisp up here, and the wind blows steadily,
+stripping the moisture from your skin and leaving you feeling a bit bitter.  
+The crystaline structure of the dew-la'echer below is no less beautiful from
+here, perhaps even moreso.  You can see some movement inside the small openings
+between the strands.    
+~
+118 dgq f 0 0  1
+D4
+~
+~
+0 0 11893 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11891 0 0 0 0 0 0 0 0
+S
+#11893
+Above the Dew-La'echer~
+   From this vantage atop the dew-la'echer, you can see the majority of the
+city below.  The air is cool and crisp up here, and the wind blows steadily,
+stripping the moisture from your skin and leaving you feeling a bit bitter.  
+The crystaline structure of the dew-la'echer below is no less beautiful from
+here, perhaps even moreso.  You can see some movement inside the small openings
+between the strands.    
+~
+118 dgq f 0 0  1
+D4
+~
+~
+0 0 11894 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11892 0 0 0 0 0 0 0 0
+S
+#11894
+Above the Dew-La'echer~
+   From this vantage atop the dew-la'echer, you can see the majority of the
+city below.  The air is cool and crisp up here, and the wind blows steadily,
+stripping the moisture from your skin and leaving you feeling a bit bitter.  
+The crystaline structure of the dew-la'echer below is no less beautiful from
+here, perhaps even moreso.  You can see some movement inside the small openings
+between the strands.    
+~
+118 dgq f 0 0  1
+D4
+~
+~
+0 0 11895 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11893 0 0 0 0 0 0 0 0
+S
+#11895
+Floating Above the Clouds Before a Fortress of Vapor~
+   Here, high above the ground below, are endless whisps of cloud and vapor.  
+It is difficult to see, although small beams of light penetrate the cloudy
+interior.  Dew immediately begins to form on your face, making the going a
+little uncomfortable.  To the east is a small fortress seemingly formed of
+solidified pinkish vapor.    
+~
+118 dgq f 0 0  1
+D1
+~
+~
+0 0 11896 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11894 0 0 0 0 0 0 0 0
+S
+#11896
+Floating Above the Clouds Before a Fortress of Vapor~
+   Here, high above the ground below, are endless whisps of cloud and vapor.  
+It is difficult to see, although small beams of light penetrate the cloudy
+interior.  Dew immediately begins to form on your face, making the going a
+little uncomfortable.  To the east is a small fortress seemingly formed of
+solidified pinkish vapor.    
+~
+118 dgq f 0 0  1
+D1
+~
+gates~
+1 11841 11897 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11895 0 0 0 0 0 0 0 0
+S
+#11897
+Within a Small Fortress of Solidified Vapor~
+   You stand inside a large antechamber of this small fortress.  The walls are
+of a pinkish hue, and seem to be magically solidified to prevent you from
+falling through the clouds.  Through some similar feat of arcane ability the
+clouds part, so that no vapor is present in the center of the chamber.  The
+ceiling is made of a very thin vapor that seems to prevent anything but the
+visage of the starry sky above you from coming through.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11899 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11898 0 0 0 0 0 0 0 0
+D3
+~
+gates~
+1 11841 11896 0 0 0 0 0 0 0 0
+S
+#11898
+Within a Small Fortress of Solidified Vapor~
+   You stand inside a large antechamber of this small fortress.  The walls are
+of a pinkish hue, and seem to be magically solidified to prevent you from
+falling through the clouds.  Through some similar feat of arcane ability the
+clouds part, so that no vapor is present in the center of the chamber.  The
+ceiling is made of a very thin vapor that seems to prevent anything but the
+visage of the starry sky above you from coming through.    
+~
+118 dgq f 0 0  1
+D0
+~
+~
+0 0 11897 0 0 0 0 0 0 0 0
+S
+#11899
+Within a Small Fortress of Solidified Vapor~
+   You stand inside a large antechamber of this small fortress.  The walls are
+of a pinkish hue, and seem to be magically solidified to prevent you from
+falling through the clouds.  Through some similar feat of arcane ability the
+clouds part, so that no vapor is present in the center of the chamber.  The
+ceiling is made of a very thin vapor that seems to prevent anything but the
+visage of the starry sky above you from coming through.    
+~
+118 dgq f 0 0  1
+D2
+~
+~
+0 0 11897 0 0 0 0 0 0 0 0
+S
+$

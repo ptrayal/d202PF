@@ -1,0 +1,29 @@
+#145
+d20~
+Lord Anias' Estate(III)~
+14500 14599 10 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 14501 1 14516 100 100 	(a well armored warrior in solid platemail)
+G 1 14506 1 -1 -1 100 	(a large brass key)
+M 0 14500 1 14516 100 100 	(a well armored warrior in solid platemail)
+D 0 14518 3 2 100 100 	(Stairs Leading To The Basement)
+D 0 14524 2 1 100 100 	(Within The Mansion's Basement)
+M 0 14502 1 14527 100 100 	(a bored, overweight jailer)
+E 1 14507 1 3 -1 100 	(a set of keys on a long chain)
+D 0 14525 1 2 -1 100 	(Within The Estate's Prison)
+D 0 14525 3 2 -1 100 	(Within The Estate's Prison)
+D 0 14526 1 2 -1 100 	(Within The Estate's Prison)
+D 0 14529 3 2 -1 100 	(Inside A Holding Cell)
+M 0 14503 1 14529 100 100 	(a dark-skinned, muscular warrior)
+E 1 14508 1 1 -1 8 	(the ancient ring of equality)
+D 0 14528 1 2 -1 8 	(Inside A Holding Cell)
+M 0 14504 1 14528 100 100 	(a bald man dressed in golden robes)
+E 1 14509 1 1 -1 8 	(the ring of holy virtue)
+D 0 14530 3 2 -1 8 	(Inside A Holding Cell)
+M 0 14505 1 14530 100 100 	(an unholy, malevolent paladin)
+E 1 14503 1 1 -1 8 	(the ring of pure corruption)
+S
+$

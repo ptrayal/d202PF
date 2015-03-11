@@ -1,0 +1,1038 @@
+#14900
+Tanis' Room~
+2200  - Palanthus
+6530  - Sanction
+1317  - Solace
+
+14901 - PK Arena
+14943 - Quest Gauntlet
+14949 - Card Table
+14955 - Mobkill Arena (portal to)
+14958 - Team PK Deathmatch Arena
+~
+149 d 0 0 0  0
+D0
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+S
+#14901
+Entrance to a Large Colorful Arena~
+   You are at the beginning lane of the PK arena.  The walls are very colorful
+and the floors are the same.  The path north leads into the area where the
+fighting begins.  The arena consists of no magic rooms, peace rooms and fall
+rooms.  You can also disqualify yourself...  If you find the exit.    
+~
+149 eu 0 0 0  0
+D0
+~
+~
+0 0 14902 0 0 0 0 0 0 0 0
+E
+map~
+save~
+S
+#14902
+A Long Bright Hallway~
+   You are in the beginning lane of the PK arena.  The walls are very colorful
+and the floors are the same.  The path north leads into the area where the
+fighting begins.    
+~
+149 euD 0 0 0  1
+D0
+~
+~
+0 0 14903 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14901 0 0 0 0 0 0 0 0
+S
+#14903
+A Long Bright Hallway~
+   You are in the beginning lane of the PK arena.  The walls are very colorful
+and the floors are the same.  The path north leads into the area where the
+fighting begins.    
+~
+149 eu 0 0 0  0
+D0
+~
+~
+0 0 14904 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14902 0 0 0 0 0 0 0 0
+S
+#14904
+Just Inside the Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14925 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14905 0 0 0 0 0 0 0 0
+S
+#14905
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 g 0 0 0  1
+D1
+~
+~
+0 0 14904 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14906 0 0 0 0 0 0 0 0
+S
+#14906
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14905 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14907 0 0 0 0 0 0 0 0
+S
+#14907
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14908 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14906 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 14926 0 0 0 0 0 0 0 0
+S
+#14908
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14909 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14907 0 0 0 0 0 0 0 0
+S
+#14909
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14910 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14908 0 0 0 0 0 0 0 0
+S
+#14910
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14911 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14909 0 0 0 0 0 0 0 0
+S
+#14911
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14912 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14910 0 0 0 0 0 0 0 0
+S
+#14912
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14913 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14911 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 14928 0 0 0 0 0 0 0 0
+S
+#14913
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14914 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14912 0 0 0 0 0 0 0 0
+S
+#14914
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14915 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14913 0 0 0 0 0 0 0 0
+S
+#14915
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14942 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14916 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14914 0 0 0 0 0 0 0 0
+S
+#14916
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14917 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14915 0 0 0 0 0 0 0 0
+S
+#14917
+Outter Wall of the Lower Arena~
+   You are in a room.  You are within the PK arena.  It is no-holds barred at
+this point.  The arena is very colorful from top to bottom and seems to have a
+catwalk around the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14918 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14916 0 0 0 0 0 0 0 0
+S
+#14918
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D2
+~
+~
+0 0 14919 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14917 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 14930 0 0 0 0 0 0 0 0
+S
+#14919
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14918 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14920 0 0 0 0 0 0 0 0
+S
+#14920
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14919 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14921 0 0 0 0 0 0 0 0
+S
+#14921
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14920 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14922 0 0 0 0 0 0 0 0
+S
+#14922
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14921 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14923 0 0 0 0 0 0 0 0
+S
+#14923
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D0
+~
+~
+0 0 14922 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14924 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 14932 0 0 0 0 0 0 0 0
+S
+#14924
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14923 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14925 0 0 0 0 0 0 0 0
+S
+#14925
+Outter Wall of the Lower Arena~
+   You are within the PK arena.  It is no-holds barred at this point.  The
+arena is very colorful from top to bottom and seems to have a catwalk around
+the outside and a central portion.    
+~
+149 0 0 0 0  1
+D1
+~
+~
+0 0 14924 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14904 0 0 0 0 0 0 0 0
+S
+#14926
+The Narrow Room~
+   The path you are on connects the outer catwalk to the central facility.  
+The walls are colorful but it is a very narrow passage.    
+~
+149 i 0 0 0  1
+D7
+~
+~
+0 0 14927 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 14907 0 0 0 0 0 0 0 0
+S
+#14927
+The Dark Rooms~
+   This room in the central portion of the arena and has no lighting.  A large
+ladder stands in the center of the room leading to an upper catwalk.    
+~
+149 a 0 0 0  1
+D0
+~
+~
+0 0 14929 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14934 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 14937 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 14926 0 0 0 0 0 0 0 0
+S
+#14928
+The Narrow Room~
+   The path you are on connects the outer catwalk to the central facility.  
+The walls are colorful but it is a very narrow passage.    
+~
+149 i 0 0 0  1
+D6
+~
+~
+0 0 14912 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 14929 0 0 0 0 0 0 0 0
+S
+#14929
+The Dark Rooms~
+   This room in the central portion of the arena and has no lighting.  A large
+ladder stands in the center of the room leading to an upper catwalk.    
+~
+149 a 0 0 0  1
+D1
+~
+~
+0 0 14935 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14927 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 14936 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 14928 0 0 0 0 0 0 0 0
+S
+#14930
+The Narrow Room~
+   The path you are on connects the outer catwalk to the central facility.  
+The walls are colorful but it is a very narrow passage.    
+~
+149 i 0 0 0  1
+D7
+~
+~
+0 0 14918 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 14931 0 0 0 0 0 0 0 0
+S
+#14931
+The Dark Rooms~
+   This room in the central portion of the arena and has no lighting.  A large
+ladder stands in the center of the room leading to an upper catwalk.    
+~
+149 a 0 0 0  1
+D2
+~
+~
+0 0 14933 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14935 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 14939 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 14930 0 0 0 0 0 0 0 0
+S
+#14932
+The Narrow Room~
+   The path you are on connects the outer catwalk to the central facility.  
+The walls are colorful but it is a very narrow passage.    
+~
+149 i 0 0 0  1
+D6
+~
+~
+0 0 14933 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 14923 0 0 0 0 0 0 0 0
+S
+#14933
+The Dark Rooms~
+   This room in the central portion of the arena and has no lighting.  A large
+ladder stands in the center of the room leading to an upper catwalk.    
+~
+149 a 0 0 0  1
+D0
+~
+~
+0 0 14931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14934 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 14938 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 14932 0 0 0 0 0 0 0 0
+S
+#14934
+The Peace Room~
+   You are in a padded room that magically prevents you from harming anyone.  
+The room however; is going to rip you into shreds if you wait too long.    
+~
+149 er 0 0 0  1
+D1
+~
+~
+0 0 14933 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14927 0 0 0 0 0 0 0 0
+S
+#14935
+The Peace Room~
+   You are in a padded room that magically prevents you from harming anyone.  
+The room however; is going to rip you into shreds if you wait too long.    
+~
+149 er 0 0 0  1
+D1
+~
+~
+0 0 14931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14929 0 0 0 0 0 0 0 0
+S
+#14936
+The Magic-Free Zone~
+   The catwalk here is relatively small with no railing facing the center of
+the arena.  There is a magical aura gleaming from the catwalk your on.    
+~
+149 h 0 0 0  1
+D1
+~
+~
+0 0 14940 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14937 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 14929 0 0 0 0 0 0 0 0
+S
+#14937
+The Magic-Free Zone~
+   The catwalk here is relatively small with no railing facing the center of
+the arena.  There is a magical aura gleaming from the catwalk your on.    
+~
+149 h 0 0 0  1
+D0
+~
+~
+0 0 14936 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14941 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 14927 0 0 0 0 0 0 0 0
+S
+#14938
+The Magic-Free Zone~
+   The catwalk here is relatively small with no railing facing the center of
+the arena.  There is a magical aura gleaming from the catwalk your on.    
+~
+149 h 0 0 0  1
+D0
+~
+~
+0 0 14939 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14941 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 14933 0 0 0 0 0 0 0 0
+S
+#14939
+The Magic-Free Zone~
+   The catwalk here is relatively small with no railing facing the center of
+the arena.  There is a magical aura gleaming from the catwalk your on.    
+~
+149 h 0 0 0  1
+D2
+~
+~
+0 0 14938 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14940 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 14931 0 0 0 0 0 0 0 0
+S
+#14940
+Falling~
+You fall off of the platform!
+~
+149 q 0 0 0  0
+D5
+~
+~
+0 0 14935 0 0 0 0 0 0 0 0
+S
+#14941
+Falling~
+You fall off of the platform!
+~
+149 q 0 0 0  0
+D5
+~
+~
+0 0 14934 0 0 0 0 0 0 0 0
+S
+#14942
+Quitter!~
+   If you continue north you are disqualified from the competition.    
+~
+149 0 0 0 0  0
+D2
+~
+~
+0 0 14915 0 0 0 0 0 0 0 0
+S
+#14943
+Entrance to the Gauntlet~
+   Standing in this room, the only thing that can be seen is a large metal
+double-door on the north side of the room.  The door is rusted, but sturdy, and
+has an eerie feel.  Several unrecognizable sounds seemingly pierce the walls,
+and a small pool of blood seems to form at the base of the door.    
+~
+149 u h 0 0  0
+D0
+The keyhole for the door is white.
+~
+doubledoor~
+1 14914 14944 0 0 0 0 0 0 0 0
+S
+#14944
+Inside the Gauntlet~
+   This room is very large and bright.  The walls and floor are all unfinished
+wood planks with bloodstains and burns covering them.  The ceiling doesn't
+appear to have an end, just solid darkness.  Groans and roars can be heard
+also, but it's hard to tell from which direction.    
+~
+149 u h 0 0  0
+D2
+The keyhole for this door is white.
+~
+doubledoor~
+1 14914 14943 0 0 0 0 0 0 0 0
+D3
+The keyhole for this door is green.
+~
+door~
+1 14915 14945 0 0 0 0 0 0 0 0
+S
+#14945
+Inside the Gauntlet~
+   This room is very large and bright.  The walls and floor are all unfinished
+wood planks with bloodstains and burns covering them.  The ceiling doesn't
+appear to have an end, just solid darkness.  Groans and roars can be heard
+also, but it's hard to tell from which direction.    
+~
+149 u h 0 0  0
+D1
+The keyhole for this door is green.
+~
+door~
+1 14915 14944 0 0 0 0 0 0 0 0
+D2
+A strange looking keyhole is in the center of the portal.
+~
+portal~
+1 14916 14946 0 0 0 0 0 0 0 0
+S
+#14946
+Inside the Gauntlet~
+   This room is very large and bright.  The walls and floor are all unfinished
+wood planks with bloodstains and burns covering them.  The ceiling doesn't
+appear to have an end, just solid darkness.  Groans and roars can be heard
+also, but it's hard to tell from which direction.  The passage to the west
+seems to be guarded by an invisible barrier.    
+~
+149 u h 0 0  0
+D0
+A strange looking keyhole is in the center of the portal.
+~
+portal~
+1 14916 14945 0 0 0 0 0 0 0 0
+D3
+The invisible passageway has a multi-colored hole in the shape of a star.
+~
+passage~
+1 14917 14947 0 0 0 0 0 0 0 0
+S
+#14947
+The End of the Gauntlet~
+   This room is very large and bright.  The walls and floor are all unfinished
+wood planks with bloodstains and burns covering them.  The ceiling doesn't
+appear to have an end, just solid darkness.  Groans and roars can be heard
+also, but it's hard to tell from which direction.  The passage to the east
+seems to be guarded by an invisible barrier.    
+~
+149 u h 0 0  0
+D0
+The keyhole on the door is golden.
+~
+door~
+1 14918 14948 0 0 0 0 0 0 0 0
+D1
+The invisible passageway has a multi-colored hole in the shape of a star.
+~
+passage~
+1 14917 14946 0 0 0 0 0 0 0 0
+S
+#14948
+The Treasure Room~
+   This room has no obvious exit other than the entrance.  The walls here are
+not bloodstained or charred, and their are no signs of any damage to the room.
+The room is dim-lit, more so than the other rooms in the gauntlet, but it is
+also more highly decorated.  This room appears to be the last room in the
+gauntlet.    
+~
+149 u h 0 0  0
+D2
+~
+door~
+1 14918 14947 0 0 0 0 0 0 0 0
+S
+#14949
+The Card Table~
+   The table is covered in green felt, and wrapped in finely crafted elvenwood.
+Several handmade chairs surround the table, spaced far enough apart to provide
+some privacy.  A large throne type chair is placed at a point around the table,
+providing comfort for the dealer.    
+~
+149 cd 0 0 0  0
+D0
+~
+~
+0 0 14951 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14952 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14953 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14950 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 14954 0 0 0 0 0 0 0 0
+S
+#14950
+The Card Deck~
+   The area is covered with playing cards in no specific order.  The area is
+well made, styled like a cramped box.  The area is fairly dim lit, making it
+impossible to look at the cards.    
+~
+149 d 0 0 0  0
+D1
+~
+~
+0 0 14949 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 14951 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 14953 0 0 0 0 0 0 0 0
+S
+#14951
+The Card Deck~
+   The area is covered with playing cards in no specific order.  The area is
+well made, styled like a cramped box.  The area is fairly dim lit, making it
+impossible to look at the cards.    
+~
+149 d 0 0 0  0
+D2
+~
+~
+0 0 14949 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 14950 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 14952 0 0 0 0 0 0 0 0
+S
+#14952
+The Card Deck~
+   The area is covered with playing cards in no specific order.  The area is
+well made, styled like a cramped box.  The area is fairly dim lit, making it
+impossible to look at the cards.    
+~
+149 d 0 0 0  0
+D3
+~
+~
+0 0 14949 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 14951 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 14953 0 0 0 0 0 0 0 0
+S
+#14953
+The Card Deck~
+   The area is covered with playing cards in no specific order.  The area is
+well made, styled like a cramped box.  The area is fairly dim lit, making it
+impossible to look at the cards.    
+~
+149 d 0 0 0  0
+D0
+~
+~
+0 0 14949 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 14950 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 14952 0 0 0 0 0 0 0 0
+S
+#14954
+The Card Switching Room~
+   This is the room where you switch out your cards if the game requires it.  
+The rooms is nice, Tanis type quality.  You feel impressed.    
+~
+149 d 0 0 0  0
+D5
+~
+~
+0 0 14949 0 0 0 0 0 0 0 0
+S
+#14955
+Before a Large Chamber~
+   Standing in the center of a field, unable to move any direction but north,
+the sun is absent, but the area is lit with torches.  Before you is a massive
+burnt-looking building, with a large doorway crafted in the center.  A deep
+chant is barely recognizable, leaving an eerie feeling about the area.    
+~
+149 ceu fh 0 0  2
+D0
+~
+gate~
+1 0 14956 0 0 0 0 0 0 0 0
+S
+#14956
+The Chamber of Bereavement~
+   The chamber before has tall walls that appear to be made of vallenwood, but
+are severely charred.  The floors are engulfed in onyx tiles, extending from
+wall to wall.  The only obvious exit is south, into what appears to be a field.
+A faint, disturbing chant can be heard.    
+~
+149 cd 0 0 0  0
+D0
+~
+gate~
+1 0 14957 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 14955 0 0 0 0 0 0 0 0
+S
+#14957
+The Chamber of Death~
+   The chamber before has tall walls that appear to be made of vallenwood, but
+are severely charred.  The floors are engulfed in onyx tiles, extending from
+wall to wall.  The only obvious exit is south, into what appears to be a field.
+A faint, disturbing chant can be heard.    
+~
+149 cd 0 0 0  0
+D2
+~
+gate~
+1 0 14956 0 0 0 0 0 0 0 0
+S
+#14958
+PK Deathmatch Entry~
+   The room you are standing in is a large room with stadium style seating.  A
+podium is centered at the northernmost point with two rooms beside it leading
+northwest and northeast.  The northeast room leads to the staging area for the
+Red Team and the northwest room leads to the staging area for the Blue Team.  
+
+~
+149 0 f 0 0  0
+D6
+~
+~
+0 0 14960 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 14959 0 0 0 0 0 0 0 0
+S
+#14959
+Red Team Staging Area~
+   The walls in this room are solid wood with a large red stripe across the
+top.  To the west is a large window showing the Deathmatch room.  The players
+will be transfered into battle in the selected order.    
+~
+149 0 f 0 0  0
+S
+#14960
+Blue Team Staging Area~
+   The walls in this room are solid wood with a large blue stripe across the
+top.  To the east is a large window showing the Deathmatch room.  The players
+will be transfered into battle in the selected order.    
+~
+149 0 f 0 0  0
+S
+#14961
+PK Deathmatch Room~
+   The room your standing in is a large octogon room with no doors.  A large
+window has been placed to the east and west allowing competitors to watch the
+competition happen.  The only way out of this room is victory or death.    
+~
+149 tw f 0 0  0
+S
+$

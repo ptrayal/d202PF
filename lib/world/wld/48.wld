@@ -1,0 +1,3695 @@
+#4800
+A steep mountain pass~
+   The walls of the mountain pass are very steep.  The pass looks to have been
+cut straight through the mountain itself.  The sheer sides are covered with tool
+marks from chisels, picks and hammers.  There seem to be spots on the walls that
+glow and shimmer randomly depicting strange but also familiar symbols.  Far off
+in the distance a voice can be heard.  It's very hard to make out.  The voice is
+too far away to make out what is being said.  
+~
+48 e 0 0 0 5
+D0
+~
+~
+0 0 4801 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4963 0 0 0 0 0 0 0 0
+E
+Tool Marks Mark~
+   These tool marks are deep and smooth.  They are very precise.  Each mark
+leading to the next with perfect precision.  
+~
+E
+Symbols Symbol~
+   These symbols are etched deep into the stone.  They sparkle and shimmer
+randomly.  They seem to be magical symbols of some kind.  
+~
+S
+#4801
+A steep mountain pass~
+   The walls of the mountain pass are very steep.  The pass looks to have been
+cut straight through the mountain itself.  The sheer sides are covered with tool
+marks from chisels, picks and hammers.  There seem to be spots on the walls that
+glow and shimmer randomly depicting strange but also familiar symbols.  Far off
+in the distance a voice can be heard.  It's very hard to make out.  The voice is
+too far away to make out what is being said.  
+~
+48 e 0 0 0 5
+D0
+~
+~
+0 0 4802 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4800 0 0 0 0 0 0 0 0
+E
+Tool Marks Mark~
+   These tool marks are deep and smooth.  They are very precise.  Each mark
+leading to the next with perfect precision.  
+~
+E
+Symbols Symbol~
+   These symbols are etched deep into the stone.  They sparkle and shimmer
+randomly.  They seem to be magical symbols of some kind.  
+~
+S
+#4802
+A steep mountain pass~
+   The walls of the mountain pass are very steep.  The pass looks to have been
+cut straight through the mountain itself.  The sheer sides are covered with tool
+marks from chisels, picks and hammers.  There seem to be spots on the walls that
+glow and shimmer randomly depicting strange but also familiar symbols.  Far off
+in the distance a voice can be heard.  It's very hard to make out.  The voice is
+too far away to make out what is being said.  
+~
+48 e 0 0 0 5
+D2
+~
+~
+0 0 4801 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4826 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4803 0 0 0 0 0 0 0 0
+E
+Tool Marks Mark~
+   These tool marks are deep and smooth.  They are very precise.  Each mark
+leading to the next with perfect precision.  
+~
+E
+Symbols Symbol~
+   These symbols are etched deep into the stone.  They sparkle and shimmer
+randomly.  They seem to be magical symbols of some kind.  
+~
+S
+#4803
+The mine entrance~
+   All around there are support beams holding up the walls and the ceilings.  
+The walls, ceiling and floor glow and sparkle every now and then when the light
+from the torches hits it just right.  There is a rail system on the floor
+running down the center of the mine to allow the mine cars to move around more
+easily.  
+~
+48 iC 0 0 0 5
+D7
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4802 0 0 0 0 0 0 0 0
+S
+#4804
+Center of the mine~
+   This is the Epicenter of the mine shaft system.  There are mines leading in
+all directions from this room.  The foreman stands here in this room barking
+orders out to all the miners in the mines.  To the east is a very large slab of
+stone that looks like it was put there for a reason.  The stone slab is as
+smooth as glass.  What could be on the other side?  
+~
+48 iC a 0 0 5
+D0
+~
+~
+0 0 4808 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4811 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4823 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4970 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4973 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4814 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4805 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4817 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4803 0 0 0 0 0 0 0 0
+S
+#4805
+An enormous mine shaft~
+   This mine shaft is extremely big.  The walls are ceiling are smooth to the
+touch.  They look as if a huge worm crawled through here chewing through the
+stone and dirt and then heating it all to create a glass like surface.  There
+are four sets of mining cart tracks in this shaft.  The ground carries many foot
+prints from the workers going back and forth in the shaft.  There are a few
+torches along the walls as well as the occasional pick or hammer left leaning
+against the wall.  
+~
+48 iC a 0 0 5
+D7
+~
+~
+0 0 4806 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+S
+#4806
+An enormous mine shaft~
+   This mine shaft is extremely big.  The walls are ceiling are smooth to the
+touch.  They look as if a huge worm crawled through here chewing through the
+stone and dirt and then heating it all to create a glass like surface.  There
+are four sets of mining cart tracks in this shaft.  The ground carries many foot
+prints from the workers going back and forth in the shaft.  There are a few
+torches along the walls as well as the occasional pick or hammer left leaning
+against the wall.  
+~
+48 iC a 0 0 5
+D7
+~
+~
+0 0 4807 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4805 0 0 0 0 0 0 0 0
+S
+#4807
+An enormous mine shaft~
+   This mine shaft is extremely big.  The walls are ceiling are smooth to the
+touch.  They look as if a huge worm crawled through here chewing through the
+stone and dirt and then heating it all to create a glass like surface.  There
+are four sets of mining cart tracks in this shaft.  The ground carries many foot
+prints from the workers going back and forth in the shaft.  There are a few
+torches along the walls as well as the occasional pick or hammer left leaning
+against the wall.  
+~
+48 iC a 0 0 5
+D9
+~
+~
+0 0 4806 0 0 0 0 0 0 0 0
+S
+#4808
+Large mine shaft~
+   This mine shaft is very large.  The distance between the walls spans thirty
+feet easily.  The ceiling is so far above that even the water drops from the
+ceiling get blown away by the draft before they reach the floor.  The walls and
+ceilings have no braces to support them, they are solid stone with no weak
+spots.  There are no rails for the mine carts in this mine.  There are some odd
+tracks on the floor though.  
+~
+48 iC a 0 0 5
+D0
+~
+~
+0 0 4809 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+S
+#4809
+Large mine shaft~
+   This mine shaft is very large.  The distance between the walls spans thirty
+feet easily.  The ceiling is so far above that even the water drops from the
+ceiling get blown away by the draft before they reach the floor.  The walls and
+ceilings have no braces to support them, they are solid stone with no weak
+spots.  There are no rails for the mine carts in this mine.  There are some odd
+tracks on the floor though.  
+~
+48 iC a 0 0 5
+D0
+~
+~
+0 0 4810 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4808 0 0 0 0 0 0 0 0
+S
+#4810
+Large mine shaft~
+   This mine shaft is very large.  The distance between the walls spans thirty
+feet easily.  The ceiling is so far above that even the water drops from the
+ceiling get blown away by the draft before they reach the floor.  The walls and
+ceilings have no braces to support them, they are solid stone with no weak
+spots.  There are no rails for the mine carts in this mine.  There are some odd
+tracks on the floor though.  
+~
+48 iC a 0 0 5
+D2
+~
+~
+0 0 4809 0 0 0 0 0 0 0 0
+S
+#4811
+A narrow mine~
+   This mine shaft is very narrow.  Almost to narrow for more than two people to
+fit side by side.  There is a single set of mine cart tracks in the center of
+the mine shaft here.  The ceiling is low and the floor is wet and slippery.  
+~
+48 iC a 0 0 5
+D0
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4812 0 0 0 0 0 0 0 0
+S
+#4812
+A narrow mine~
+   This mine shaft is very narrow.  Almost to narrow for more than two people to
+fit side by side.  There is a single set of mine cart tracks in the center of
+the mine shaft here.  The ceiling is low and the floor is wet and slippery.  
+~
+48 iC a 0 0 5
+D0
+~
+~
+0 0 4811 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4813 0 0 0 0 0 0 0 0
+S
+#4813
+A narrow mine~
+   This mine shaft is very narrow.  Almost to narrow for more than two people to
+fit side by side.  There is a single set of mine cart tracks in the center of
+the mine shaft here.  The ceiling is low and the floor is wet and slippery.  
+~
+48 iC a 0 0 5
+D0
+~
+~
+0 0 4812 0 0 0 0 0 0 0 0
+S
+#4814
+A well used mine~
+   This mine shaft seems to be used often.  There are fresh boot tracks on the
+floor as well as the mine cart tracks are still shiny from much use.  The walls
+are smooth and the tools are as clean as can be expected in a mine shaft.  
+There are even stools placed every ten feet so the miners can take a short break
+before pounding away again at the rock.  
+~
+48 iC a 0 0 5
+D6
+~
+~
+0 0 4815 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+S
+#4815
+A well used mine~
+   This mine shaft seems to be used often.  There are fresh boot tracks on the
+floor as well as the mine cart tracks are still shiny from much use.  The walls
+are smooth and the tools are as clean as can be expected in a mine shaft.  
+There are even stools placed every ten feet so the miners can take a short break
+before pounding away again at the rock.  
+~
+48 iC a 0 0 5
+D6
+~
+~
+0 0 4816 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4814 0 0 0 0 0 0 0 0
+S
+#4816
+A well used mine~
+   This mine shaft seems to be used often.  There are fresh boot tracks on the
+floor as well as the mine cart tracks are still shiny from much use.  The walls
+are smooth and the tools are as clean as can be expected in a mine shaft.  
+There are even stools placed every ten feet so the miners can take a short break
+before pounding away again at the rock.  
+~
+48 iC a 0 0 5
+D8
+~
+~
+0 0 4815 0 0 0 0 0 0 0 0
+S
+#4817
+An unused mine~
+   This mine shaft does not look as if it gets used at all.  The dust is thick
+on the old broken tools that have been left behind.  The mine cart tracks are
+rusted and corroded from years of not being used.  The walls are covered in
+cobwebs and spider webs.  The deeper into the tunnel the thicker the spider webs
+get.  
+~
+48 iC a 0 0 5
+D6
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4818 0 0 0 0 0 0 0 0
+S
+#4818
+An unused mine~
+   This mine shaft does not look as if it gets used at all.  The dust is thick
+on the old broken tools that have been left behind.  The mine cart tracks are
+rusted and corroded from years of not being used.  The walls are covered in
+cobwebs and spider webs.  The deeper into the tunnel the thicker the spider webs
+get.  
+~
+48 iC 0 0 0 5
+D6
+~
+~
+0 0 4817 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4819 0 0 0 0 0 0 0 0
+S
+#4819
+An unused mine~
+   This mine shaft does not look as if it gets used at all.  The dust is thick
+on the old broken tools that have been left behind.  The mine cart tracks are
+rusted and corroded from years of not being used.  The walls are covered in
+cobwebs and spider webs.  The deeper into the tunnel the thicker the spider webs
+get.  
+~
+48 iC 0 0 0 5
+D6
+~
+~
+0 0 4818 0 0 0 0 0 0 0 0
+S
+#4820
+A glowing mine shaft~
+   This mine shaft is very bright.  Almost too bright.  There are many gems and
+different types of metal ore veins running through this mine.  The light from
+the few torches seems to be pointless.  The mine has two sets of tracks for the
+mine carts, one for incoming carts that are empty and another for carts that are
+full and on their way out.  
+~
+48 iC ac 0 0 5
+D1
+~
+~
+0 0 4821 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+S
+#4821
+A glowing mine shaft~
+   This mine shaft is very bright.  Almost too bright.  There are many gems and
+different types of metal ore veins running through this mine.  The light from
+the few torches seems to be pointless.  The mine has two sets of tracks for the
+mine carts, one for incoming carts that are empty and another for carts that are
+full and on their way out.  
+~
+48 iC ac 0 0 5
+D1
+~
+~
+0 0 4822 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4820 0 0 0 0 0 0 0 0
+S
+#4822
+A glowing mine shaft~
+   This mine shaft is very bright.  Almost too bright.  There are many gems and
+different types of metal ore veins running through this mine.  The light from
+the few torches seems to be pointless.  The mine has two sets of tracks for the
+mine carts, one for incoming carts that are empty and another for carts that are
+full and on their way out.  To the east there is a small intersection in the
+mine shaft.  
+~
+48 iC ac 0 0 5
+D1
+~
+~
+0 0 4860 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4821 0 0 0 0 0 0 0 0
+S
+#4823
+A caved in mine~
+   This mine shaft has collapsed partially.  The walls are loose and being held
+up by very thick wire netting.  The beams look very old and very shakey.  The
+floor is not solid like stone, there is loose sand every where.  Every now and
+then the sound of shifting rock can be heard.  
+~
+48 iC a 0 0 5
+D1
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4824 0 0 0 0 0 0 0 0
+S
+#4824
+A caved in mine~
+   This mine shaft has collapsed partially.  The walls are loose and being held
+up by very thick wire netting.  The beams look very old and very shakey.  The
+floor is not solid like stone, there is loose sand every where.  Every now and
+then the sound of shifting rock can be heard.  
+~
+48 iC a 0 0 5
+D1
+~
+~
+0 0 4823 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4825 0 0 0 0 0 0 0 0
+S
+#4825
+A caved in mine~
+   This mine shaft has collapsed partially.  The walls are loose and being held
+up by very thick wire netting.  The beams look very old and very shakey.  The
+floor is not solid like stone, there is loose sand every where.  Every now and
+then the sound of shifting rock can be heard.  
+~
+48 iC a 0 0 5
+D1
+~
+~
+0 0 4824 0 0 0 0 0 0 0 0
+S
+#4826
+Mirabar city gates~
+   The great city gates of Mirabar.  What a site to behold.  These gates are
+enormous, towering far overhead, and able to rive twenty carriages through them
+side by side.  On the other side of the gates the city is booming, sounds of the
+market and the people can all be heard from right here.  
+~
+48 eh 0 0 0 1
+D3
+~
+~
+0 0 4827 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4802 0 0 0 0 0 0 0 0
+E
+Gate Gates~
+These gates are massive.  The right gate has a mural of a massive battle between
+orcs, trolls and Dwarves.  The dwarves are the victors of course.  The left gate
+has a lifelike depiction of Moradin, Dwarven god, Soul Forger.  
+~
+S
+#4827
+Mirabar main street~
+   Mirabar city main street.  The street here is very busy.  This particular
+four way intersection seems to be the busiest in the entire city.  To the north
+you have the forges and smelting workers.  To the south you have the grand forge
+of Moradin.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4838 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4826 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4842 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4828 0 0 0 0 0 0 0 0
+S
+#4828
+Mirabar main street~
+The main street is bustling with life. Patrons and Merchants alike make their
+way up and down the street.  The locals wander around trying to keep busy.  
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  
+~
+48 0 0 0 0 1
+D1
+~
+~
+0 0 4827 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4829 0 0 0 0 0 0 0 0
+S
+#4829
+Mirabar main street~
+   The main street is bustling with life.  Patrons and Merchants alike make
+their way up and down the street.  The locals wander around trying to keep busy.
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  To the north the weapons merchants are found.  To the south the armor
+merchants are found.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4864 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4828 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4872 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4830 0 0 0 0 0 0 0 0
+S
+#4830
+Mirabar main street~
+The main street is bustling with life. Patrons and Merchants alike make their
+way up and down the street.  The locals wander around trying to keep busy.  
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  
+~
+48 0 0 0 0 1
+D1
+~
+~
+0 0 4829 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4831 0 0 0 0 0 0 0 0
+S
+#4831
+Mirabar main street~
+The main street is bustling with life. Patrons and Merchants alike make their
+way up and down the street.  The locals wander around trying to keep busy.  
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  
+~
+48 0 0 0 0 1
+D1
+~
+~
+0 0 4830 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4832 0 0 0 0 0 0 0 0
+S
+#4832
+Mirabar City Center~
+   The main street is bustling with life.  Patrons and Merchants alike make
+their way up and down the street.  The locals wander around trying to keep busy.
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  To the north and south the housing district can be seen.  Many
+Dwarves have made their homes here in the heart of this bustling city.  This is
+the center of the city of Mirabar.  There is a large fountain here with statues
+around it depicting all of the dwarven deities.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4899 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4831 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4911 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4833 0 0 0 0 0 0 0 0
+S
+#4833
+Mirabar main street~
+The main street is bustling with life. Patrons and Merchants alike make their
+way up and down the street.  The locals wander around trying to keep busy.  
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  
+~
+48 0 0 0 0 1
+D1
+~
+~
+0 0 4832 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4834 0 0 0 0 0 0 0 0
+S
+#4834
+Mirabar main street~
+The main street is bustling with life. Patrons and Merchants alike make their
+way up and down the street.  The locals wander around trying to keep busy.  
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  
+~
+48 0 0 0 0 1
+D1
+~
+~
+0 0 4833 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4835 0 0 0 0 0 0 0 0
+S
+#4835
+Mirabar main street~
+The main street is bustling with life. Patrons and Merchants alike make their
+way up and down the street.  The locals wander around trying to keep busy.  
+There are kids playing in the street, and wagons passing by.  This city street
+is full of so many races from around the continent.  There are Elves from all
+over, Gnomes, Svirfnebli, Dwarves of course, and others that are not so
+familiar.  To the north smells of ale and food come wafting across your nose.  
+The tavern of "The Stone Dwarf" lies to the north.  
+~
+48 p 0 0 0 1
+D0
+~
+~
+0 0 4923 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4834 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4932 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4836 0 0 0 0 0 0 0 0
+S
+#4836
+Mirabar guild house gates~
+   The gates to the guild house.  Large thick planks of wood with black iron
+bands make up the gates to the guild house.  The house itself looks like a
+massive stone fortress.  There are small windows barely big enough to get a shot
+from a bow off.  There are four guards here at the main gates.  
+~
+48 dp 0 0 0 1
+D1
+~
+~
+0 0 4835 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4837 0 0 0 0 0 0 0 0
+S
+#4837
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4880 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4836 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4892 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4886 0 0 0 0 0 0 0 0
+S
+#4838
+Foehammer Street~
+This is the main road through the center of the forges.  Workers can be heard on
+both sides of the street.  Strange smells waft through the air as the different
+metals are being melted down into their purest form.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4839 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4827 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4846 0 0 0 0 0 0 0 0
+S
+#4839
+Foehammer Street~
+This is the main road through the center of the forges.  Workers can be heard on
+both sides of the street.  Strange smells waft through the air as the different
+metals are being melted down into their purest form.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4840 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4850 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4838 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4847 0 0 0 0 0 0 0 0
+S
+#4840
+Foehammer Street~
+This is the main road through the center of the forges.  Workers can be heard on
+both sides of the street.  Strange smells waft through the air as the different
+metals are being melted down into their purest form.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4841 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4848 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4839 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4849 0 0 0 0 0 0 0 0
+S
+#4841
+Foehammer Street~
+This is the main road through the center of the forges.  Workers can be heard on
+both sides of the street.  Strange smells waft through the air as the different
+metals are being melted down into their purest form.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4995 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4840 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4851 0 0 0 0 0 0 0 0
+S
+#4842
+Grand Forge Entrance~
+   This is the entrance to the "Grand Forge of Moradin".  The floors are crafted
+and hand carved from solid stone, each tile of the floor depicts a different
+weapon that has been created in this forge with the name or initials of the
+craftsman that created it.  There is a massive mural on the ceiling that can not
+be seen fully from this room.  Moving forward might give you a better look at
+it.  There are massive pillars toward the center of the room with arch ways
+between them.  At the end of the room a massive forge can be seen.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4827 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4853 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4843 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4852 0 0 0 0 0 0 0 0
+S
+#4843
+Center of the forge (North)~
+   This room is very large.  The heat in this room is intense but bearable.  
+There is a very large crafting station in the shape of an anvil in the middle of
+the room.  Standing beside the anvil station is a young looking female dwarf,
+she is managing a store front next to the station for those that are in need of
+last minute supplies.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4842 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4855 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4844 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4854 0 0 0 0 0 0 0 0
+S
+#4844
+Center of the forge (North)~
+   This room is very large.  The heat in this room is intense but bearable.  
+There is a very large crafting station in the shape of an anvil in the middle of
+the room.  Standing beside the anvil station is a young looking female dwarf,
+she is managing a store front next to the station for those that are in need of
+last minute supplies.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4843 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4857 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4845 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4856 0 0 0 0 0 0 0 0
+S
+#4845
+Great Forge smithing Anvil~
+   The Grand forge main room.  This room houses the Grand Anvil of Moradin.  
+This anvil is said to be created from a piece of the anvil that Moradin himself
+used to craft the dwarves themselves on.  The anvil radiates with magical power
+and seems to be humming and vibrating.  The Master Forge Smith and his
+apprentices are standing here behind the anvil.  The apprentices are listening
+very intently as the Master Forge Smith recounts the tale of how the dwarven
+race was created.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4844 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4859 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4858 0 0 0 0 0 0 0 0
+S
+#4846
+Smelting room~
+In this room all of the low grade metal mineral is melted down and all of the
+impurities are removed.  After the metal mineral is melted down and purified it
+is poured into molds and formed into brick ingots.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4847 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4838 0 0 0 0 0 0 0 0
+S
+#4847
+Martial weapon forge~
+There is a rather large and surely dwarf here pounding away rigorously on a
+piece of white hot metal.  On the walls many different kinds of weapons can be
+seen.  They all look to be a master piece of dwarven craftsmanship.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4849 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4839 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4846 0 0 0 0 0 0 0 0
+S
+#4848
+Light armor forge~
+The walls are covered with pieces of finished and unfinished light armor.  The
+forge master in this room is working diligantly on a piece of armor and doesn't
+even notice you come in.  
+~
+48 deh 0 0 0 1
+D2
+~
+~
+0 0 4850 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4840 0 0 0 0 0 0 0 0
+S
+#4849
+Simple weapon forge~
+This room is stacked along the walls with crates.  The crates are marked with
+different symbols.  Some of the symbols represent daggers, short swords, long
+swords and maces.  There is a dwarf in the center of the room working on some
+paper work for the crates.  He looks very dissatisfied.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4851 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4840 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4847 0 0 0 0 0 0 0 0
+S
+#4850
+Medium and Heavy armor forge~
+Pieces of solide plate armor and heavy banded armor lie strewn across the floor
+here.  Most of which looks like a masterpiece.  The dwarf pounding on a piece of
+armor grumbles as he throws another piece of armor to the side.  
+~
+48 deh 0 0 0 1
+D0
+~
+~
+0 0 4848 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4839 0 0 0 0 0 0 0 0
+S
+#4851
+Exotic weapon forge~
+Many weapons from all over the land are here hung on the walls and leaned on the
+weapon racks.  Some of the weapons seem familiar while others are very odd
+looking.  All of these weapons are very exotic in nature.  The dwarf that should
+be working in here, is not here right now.  Perhaps he will be back later.  
+~
+48 deh 0 0 0 1
+D1
+~
+~
+0 0 4841 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4849 0 0 0 0 0 0 0 0
+S
+#4852
+Forge Smelting room~
+   This room contains a massive smelting furnace.  The furnace opening is
+covered by a very large "something."  It is hard to make out exactly what it is --
+it is clear and yet opaque at the same time, the heat does not melt it, and it
+is cool to the touch.  The room does not feel very hot at all due to the shield
+in front of the furnace.  A dwarf passes by you and pushes an entire mine cart
+into the smelting furnace right through the curious "something" that covers it.
+
+~
+48 de 0 0 0 0
+D1
+~
+~
+0 0 4842 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4854 0 0 0 0 0 0 0 0
+S
+#4853
+Ingot Purity room~
+   The ingot purity room.  This room contains four odd looking dwarves.  They
+look slightly out of place because they are wearing glasses and making odd
+gestures at the ingots on the tables.  The room has four tables in the middle of
+the room, many large book shelves filled with catalogs of invoices and forms
+containing the information of the ore purity.  
+~
+48 de 0 0 0 0
+D2
+~
+~
+0 0 4855 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4842 0 0 0 0 0 0 0 0
+S
+#4854
+Blacksmithing training room~
+   This room must be used for teaching.  There are so many tools, clothes,
+papers and books about blacksmithing, smelting and how to use your tools
+properly.  There are large book shelves along the back wall although the books
+do not look to have been touched in a very long time, they are covered in dust
+and half of them are falling out of their bindings.  There is a small forge,
+smelting furnace and anvil in the center of the room.  There are many tools on
+wracks all around the room.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4852 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4843 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4856 0 0 0 0 0 0 0 0
+S
+#4855
+Blacksmithing training room~
+   This room must be used for teaching.  There are so many tools, clothes,
+papers and books about blacksmithing, smelting and how to use your tools
+properly.  There are large book shelves along the back wall although the books
+do not look to have been touched in a very long time, they are covered in dust
+and half of them are falling out of their bindings.  There is a small forge,
+smelting furnace and anvil in the center of the room.  There are many tools on
+wracks all around the room.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4853 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4857 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4843 0 0 0 0 0 0 0 0
+S
+#4856
+Blacksmithing training room~
+   This room must be used for teaching.  There are so many tools, clothes,
+papers and books about blacksmithing, smelting and how to use your tools
+properly.  There are large book shelves along the back wall although the books
+do not look to have been touched in a very long time, they are covered in dust
+and half of them are falling out of their bindings.  There is a small forge,
+smelting furnace and anvil in the center of the room.  There are many tools on
+wracks all around the room.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4854 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4844 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4858 0 0 0 0 0 0 0 0
+S
+#4857
+Blacksmithing training room~
+   This room must be used for teaching.  There are so many tools, clothes,
+papers and books about blacksmithing, smelting and how to use your tools
+properly.  There are large book shelves along the back wall although the books
+do not look to have been touched in a very long time, they are covered in dust
+and half of them are falling out of their bindings.  There is a small forge,
+smelting furnace and anvil in the center of the room.  There are many tools on
+wracks all around the room.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4855 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4859 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4844 0 0 0 0 0 0 0 0
+S
+#4858
+Great Forge Bellows (Left)~
+   These are the bellows for the great forge.  The bellows for the great forge
+are so large they had to be broken down into two parts a RIGHT and a LEFT
+bellows.  These are the RIGHT bellows.  They are not operated by hand like in
+most forges you see.  These bellows are operated by ingeniously created
+machinery of wood, metal and stone ballasts.  As the bellows from the LEFT side
+go down the stone ballasts are pulled up on the RIGHT side and as the RIGHT side
+go down the LEFT bellows ballast go up.  This keeps the fires hot enough to melt
+anything that is put in the great forge.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4856 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4845 0 0 0 0 0 0 0 0
+S
+#4859
+Great Forge Bellows (Right)~
+   These are the bellows for the great forge.  The bellows for the great forge
+are so large they had to be broken down into two parts a RIGHT and a LEFT
+bellows.  These are the RIGHT bellows.  They are not operated by hand like in
+most forges you see.  These bellows are operated by ingeniously created
+machinery of wood, metal and stone ballasts.  As the bellows from the LEFT side
+go down the stone ballasts are pulled up on the RIGHT side and as the RIGHT side
+go down the LEFT bellows ballast go up.  This keeps the fires hot enough to melt
+anything that is put in the great forge.  
+~
+48 de 0 0 0 0
+D0
+~
+~
+0 0 4857 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4845 0 0 0 0 0 0 0 0
+S
+#4860
+A glowing mine shaft~
+   This mine shaft is very bright.  Almost too bright.  There are many gems and
+different types of metal ore veins running through this mine.  The light from
+the few torches seems to be pointless.  The mine has two sets of tracks for the
+mine carts, one for incoming carts that are empty and another for carts that are
+full and on their way out.  To the north, south and east there are smaller rooms
+in the mine.  
+~
+48 iC ac 0 0 5
+D0
+~
+~
+0 0 4861 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4863 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4862 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4822 0 0 0 0 0 0 0 0
+S
+#4861
+A glowing mine shaft~
+   The north room in the mine shaft contains tools and other equipment for
+mining the gems specifically.  There are small chisels, brush's, hammers and
+small containers used for carefully extracting the gems with out damaging them.
+
+~
+48 iC ac 0 0 5
+D2
+~
+~
+0 0 4860 0 0 0 0 0 0 0 0
+S
+#4862
+A glowing mine shaft~
+   The south room in the mine shaft contains various pieces of safety equipment.
+There are helmets, harnesses, gloves, boots made to keep your feet from getting
+hurt, and many other things that do not look familiar.  Nearly all of this
+equipment looks to be brand new except for all the dust that has collected on
+the top of all the equipment.  
+~
+48 iC ac 0 0 5
+D0
+~
+~
+0 0 4860 0 0 0 0 0 0 0 0
+S
+#4863
+A glowing mine shaft~
+   The east room contains more tools.  These tools look to be of a more
+destructive nature, they are used for extracting the metal ore from the mine
+shaft.  There are large picks, hammers and spikes lying against the walls here.
+Perhaps someone has left other things behind as well.  
+~
+48 iC ac 0 0 5
+D3
+~
+~
+0 0 4860 0 0 0 0 0 0 0 0
+S
+#4864
+Merchant row (North)~
+   Along this street vendors and merchants can be seen.  The merchants on this
+part of "Merchants Row" seem to be selling magical implements of different
+types.  
+~
+48 d 0 0 0 1
+D0
+~
+~
+0 0 4865 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4829 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4871 0 0 0 0 0 0 0 0
+S
+#4865
+Merchant row (North)~
+Along this street vendors and merchants can be seen.  The merchants on this part
+of "Merchants row" seem to all be selling weapons of some type.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4866 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4864 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4870 0 0 0 0 0 0 0 0
+S
+#4866
+Merchant row (North)~
+Along this street vendors and merchants can be seen.  The merchants on this part
+of "Merchants row" seem to all be selling weapons of some type.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4867 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4865 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4869 0 0 0 0 0 0 0 0
+S
+#4867
+Merchant row (North)~
+Along this street vendors and merchants can be seen.  The merchants on this part
+of "Merchants row" seem to all be selling weapons of some type.  
+~
+48 0 0 0 0 1
+D2
+~
+~
+0 0 4866 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4868 0 0 0 0 0 0 0 0
+S
+#4868
+Martial Weapons Merchant~
+   There are many of the standard weapons in this room.  There are racks on the
+floor full of weapons, and racks on the walls as well.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4867 0 0 0 0 0 0 0 0
+S
+#4869
+Exotic Weapons Merchant~
+   There are many exotic types of weapons in this room.  Some hang from the
+walls, some are leaned against the walls, and others are locked safely away in a
+glass case.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4866 0 0 0 0 0 0 0 0
+S
+#4870
+Simple Weapons Merchant~
+   The simplest of weapons can be found at this merchants store.  Daggers,
+sickles, axes, and swords alike.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4865 0 0 0 0 0 0 0 0
+S
+#4871
+Magical Implements~
+   This merchant is selling all sorts of magical implements such as scrolls,
+potions, spell books and wands.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4864 0 0 0 0 0 0 0 0
+S
+#4872
+Merchant row (South)~
+The merchants on this part of "Merchant Row" seem to all be selling different
+types of armor, heavy armor, medium armor, light armor and clothing as well.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4829 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4873 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4879 0 0 0 0 0 0 0 0
+S
+#4873
+Merchant row (South)~
+The merchants on this part of "Merchant Row" seem to all be selling different
+types of armor, heavy armor, medium armor, light armor and clothing as well.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4872 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4874 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4878 0 0 0 0 0 0 0 0
+S
+#4874
+Merchant row (South)~
+The merchants on this part of "Merchant Row" seem to all be selling different
+types of armor, heavy armor, medium armor, light armor and clothing as well.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4873 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4875 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4877 0 0 0 0 0 0 0 0
+S
+#4875
+Merchant row (South)~
+The merchants on this part of "Merchant Row" seem to all be selling different
+types of armor, heavy armor, medium armor, light armor and clothing as well.  
+~
+48 0 0 0 0 1
+D0
+~
+~
+0 0 4874 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4876 0 0 0 0 0 0 0 0
+S
+#4876
+Light Armor Merchant~
+   Soft leather armor, and studded leather armor suits are hanging on the walls
+and on rails along the walls.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4875 0 0 0 0 0 0 0 0
+S
+#4877
+Medium Armor Merchant~
+   There are many different types of medium armor on the walls here, Brigandine
+armor, Ring mail armor, Shell mail armor and Lamellar armor as well.  The
+different types of armor are many different colors and shapes for the many
+different races.  
+~
+48 cd 0 0 0 0
+D1
+~
+~
+0 0 4874 0 0 0 0 0 0 0 0
+S
+#4878
+Heavy Armor Merchant~
+   This room is fill of armor stands holding many different types of heavy
+armor.  Some of the armor looks familiar while some of the armor looks very odd
+and very not familiar.  Most of the armor is out in the open.  Some of the suits
+of armor are behind locked cage doors and some are behind glass doors with
+magical sygils protecting them or perhaps you.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4873 0 0 0 0 0 0 0 0
+S
+#4879
+Shields and Defense Merchant~
+   This merchant seems to be dedicating his inventory to defending yourself from
+attacks physicall and magical.  There are plane wood plank shields leaning on
+the walls, Shields with spikes on them to keep your enemy from getting too close
+and shields with magical symbols on them to ward against magical attacks.  
+There are even some shields that are the color of the different elements with a
+depiction of the corrosponding element upon it's face.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4872 0 0 0 0 0 0 0 0
+S
+#4880
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4881 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4837 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4885 0 0 0 0 0 0 0 0
+S
+#4881
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4882 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4880 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4884 0 0 0 0 0 0 0 0
+S
+#4882
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 0 0 0 0 0
+D2
+~
+~
+0 0 4881 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4883 0 0 0 0 0 0 0 0
+S
+#4883
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4882 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4884 0 0 0 0 0 0 0 0
+S
+#4884
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4883 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4881 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4885 0 0 0 0 0 0 0 0
+S
+#4885
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4884 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4880 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4886 0 0 0 0 0 0 0 0
+S
+#4886
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4885 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4837 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4887 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4893 0 0 0 0 0 0 0 0
+S
+#4887
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4886 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4892 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4888 0 0 0 0 0 0 0 0
+S
+#4888
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4887 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4891 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4889 0 0 0 0 0 0 0 0
+S
+#4889
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4888 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4890 0 0 0 0 0 0 0 0
+S
+#4890
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4891 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4889 0 0 0 0 0 0 0 0
+S
+#4891
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4892 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4890 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4888 0 0 0 0 0 0 0 0
+S
+#4892
+Guild House Foyer~
+   This is the Foyer of the Mirabar Guild House.  There are lavish rugs on the
+cold granite floors, Masterwork paintings on the walls and likeness's of all the
+Guild House leaders.  
+~
+48 p 0 0 0 0
+D0
+~
+~
+0 0 4837 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4891 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4887 0 0 0 0 0 0 0 0
+S
+#4893
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4894 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4886 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4898 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4896 0 0 0 0 0 0 0 0
+S
+#4894
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D2
+~
+~
+0 0 4893 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4895 0 0 0 0 0 0 0 0
+S
+#4895
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4894 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4896 0 0 0 0 0 0 0 0
+S
+#4896
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4895 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4893 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4897 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4941 0 0 0 0 0 0 0 0
+S
+#4897
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4896 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4898 0 0 0 0 0 0 0 0
+S
+#4898
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4893 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4897 0 0 0 0 0 0 0 0
+S
+#4899
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4900 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4910 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4832 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4909 0 0 0 0 0 0 0 0
+S
+#4900
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4901 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4908 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4899 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4907 0 0 0 0 0 0 0 0
+S
+#4901
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4902 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4906 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4900 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4905 0 0 0 0 0 0 0 0
+S
+#4902
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  To the north lies the house
+of the miners guild Foreman.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4976 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4904 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4901 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4903 0 0 0 0 0 0 0 0
+S
+#4903
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4902 0 0 0 0 0 0 0 0
+S
+#4904
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4902 0 0 0 0 0 0 0 0
+S
+#4905
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4901 0 0 0 0 0 0 0 0
+S
+#4906
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4901 0 0 0 0 0 0 0 0
+S
+#4907
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4900 0 0 0 0 0 0 0 0
+S
+#4908
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4900 0 0 0 0 0 0 0 0
+S
+#4909
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4899 0 0 0 0 0 0 0 0
+S
+#4910
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4899 0 0 0 0 0 0 0 0
+S
+#4911
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4832 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4922 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4912 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4921 0 0 0 0 0 0 0 0
+S
+#4912
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4911 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4920 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4913 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4919 0 0 0 0 0 0 0 0
+S
+#4913
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4912 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4918 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4914 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4917 0 0 0 0 0 0 0 0
+S
+#4914
+Mirabar Housing District~
+   This is the housing district for the Mirabar miners and towns people.  The
+houses are rather simple.  They are small but big enough for four to live in.  
+The houses are very well built and very efficient.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4913 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4916 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59943 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4915 0 0 0 0 0 0 0 0
+S
+#4915
+Dwarven miner housing~
+This unfinished room was created by Uthgar.
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4914 0 0 0 0 0 0 0 0
+S
+#4916
+Dwarven miner housing~
+This unfinished room was created by Uthgar.
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4914 0 0 0 0 0 0 0 0
+S
+#4917
+Dwarven miner housing~
+This unfinished room was created by Uthgar.
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4913 0 0 0 0 0 0 0 0
+S
+#4918
+Dwarven miner housing~
+This unfinished room was created by Uthgar.
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4913 0 0 0 0 0 0 0 0
+S
+#4919
+Dwarven miner housing~
+This unfinished room was created by Uthgar.
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4912 0 0 0 0 0 0 0 0
+S
+#4920
+Dwarven miner housing~
+This unfinished room was created by Uthgar.
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4912 0 0 0 0 0 0 0 0
+S
+#4921
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4911 0 0 0 0 0 0 0 0
+S
+#4922
+Dwarven miner housing~
+   The rooms for the miners and their significant others if they have one is
+rather plain.  The rooms do not have much amenities.  There is a bed suited for
+two, a table with 2 chairs, a single chamber pot, a wood stove used for heating
+a cooking and a single window looking into the street.  
+~
+48 0 0 0 0 0
+D3
+~
+~
+0 0 4911 0 0 0 0 0 0 0 0
+S
+#4923
+Taven Entrance~
+   The fabeled "Stone Dwarf" Tavern.  Stories of this tavern float all over
+every city from here to the horizon and back again.  Stories of great
+adventurers and grand treasures.  There are rumors of a drink made by the local
+barkeep called "The Stoner", There is a reward for anyone who can drink this
+drink down in one gulp and not passout.  
+~
+48 d d 0 0 0
+D0
+~
+~
+0 0 4924 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4931 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4835 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4930 0 0 0 0 0 0 0 0
+S
+#4924
+Stone Dwarf Food and Spirits~
+   The barkeep is here in the middle of a very large bar.  There are 3 helpers
+behind the bar helping him deal out the drinks and the food.  These helpers keep
+dissapearing under the countertop and into the kitchen in the basement to make
+the drinks and the food.  
+~
+48 d d 0 0 0
+D0
+~
+~
+0 0 4925 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4929 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4923 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4928 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4968 0 0 0 0 0 0 0 0
+S
+#4925
+The Stone Dwarf Tavern~
+   This is the "Stone Dwarf" Tavern.  Conversations can be heard from all over
+the tavern.  There are dwarves telling about what they found in the mines, their
+adventures into the mountains surround Mirabar, and their womanly conquests
+(much of which is fabricated of course).  
+~
+48 d d 0 0 0
+D1
+~
+~
+0 0 4927 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4924 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4926 0 0 0 0 0 0 0 0
+S
+#4926
+The Stone Dwarf Tavern~
+   This is the "Stone Dwarf" Tavern.  Conversations can be heard from all over
+the tavern.  There are dwarves telling about what they found in the mines, their
+adventures into the mountains surround Mirabar, and their womanly conquests
+(much of which is fabricated of course).  
+~
+48 d d 0 0 0
+D1
+~
+~
+0 0 4925 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4928 0 0 0 0 0 0 0 0
+S
+#4927
+The Stone Dwarf Tavern~
+   This is the "Stone Dwarf" Tavern.  Conversations can be heard from all over
+the tavern.  There are dwarves telling about what they found in the mines, their
+adventures into the mountains surround Mirabar, and their womanly conquests
+(much of which is fabricated of course).  
+~
+48 d d 0 0 0
+D2
+~
+~
+0 0 4929 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4925 0 0 0 0 0 0 0 0
+S
+#4928
+The Stone Dwarf Tavern~
+   This is the "Stone Dwarf" Tavern.  Conversations can be heard from all over
+the tavern.  There are dwarves telling about what they found in the mines, their
+adventures into the mountains surround Mirabar, and their womanly conquests
+(much of which is fabricated of course).  
+~
+48 d d 0 0 0
+D0
+~
+~
+0 0 4926 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4924 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4930 0 0 0 0 0 0 0 0
+S
+#4929
+The Stone Dwarf Tavern~
+   This is the "Stone Dwarf" Tavern.  Conversations can be heard from all over
+the tavern.  There are dwarves telling about what they found in the mines, their
+adventures into the mountains surround Mirabar, and their womanly conquests
+(much of which is fabricated of course).  
+~
+48 d d 0 0 0
+D0
+~
+~
+0 0 4927 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4924 0 0 0 0 0 0 0 0
+S
+#4930
+The Stone Dwarf Tavern~
+   This is the "Stone Dwarf" Tavern.  Conversations can be heard from all over
+the tavern.  There are dwarves telling about what they found in the mines, their
+adventures into the mountains surround Mirabar, and their womanly conquests
+(much of which is fabricated of course).  
+~
+48 d d 0 0 0
+D0
+~
+~
+0 0 4928 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4923 0 0 0 0 0 0 0 0
+S
+#4931
+The Stone Dwarf Tavern~
+   This is the "Stone Dwarf" Tavern.  Conversations can be heard from all over
+the tavern.  There are dwarves telling about what they found in the mines, their
+adventures into the mountains surround Mirabar, and their womanly conquests
+(much of which is fabricated of course).  
+~
+48 d d 0 0 0
+D0
+~
+~
+0 0 4929 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4923 0 0 0 0 0 0 0 0
+S
+#4932
+Mirabar Guard Barracks~
+   These are the barracks for the Mirabar Guards.  The walls are unadorned
+except for the occasional flyer or letter from the guild leaders stating the
+rules and regulations that each guard must follow to the "T".  There are six
+rooms along this corridor each being occupied by the guards as they rotate their
+shifts.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4835 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4940 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4933 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4939 0 0 0 0 0 0 0 0
+S
+#4933
+Mirabar Guard Barracks~
+   These are the barracks for the Mirabar Guards.  The walls are unadorned
+except for the occasional flyer or letter from the guild leaders stating the
+rules and regulations that each guard must follow to the "T".  There are six
+rooms along this corridor each being occupied by the guards as they rotate their
+shifts.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4932 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4938 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4934 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4937 0 0 0 0 0 0 0 0
+S
+#4934
+Mirabar Guard Barracks~
+   These are the barracks for the Mirabar Guards.  The walls are unadorned
+except for the occasional flyer or letter from the guild leaders stating the
+rules and regulations that each guard must follow to the "T".  There are six
+rooms along this corridor each being occupied by the guards as they rotate their
+shifts.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4933 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4936 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4935 0 0 0 0 0 0 0 0
+S
+#4935
+Southwest Guard Room~
+   This guard room is rather plain.  There are two sleeping bunks, a table and 2
+chairs.  There is a small box containing some hard tack and some cheese as well
+as a cask in the corner to keep their mead or water, which would be a miracle to
+find water in one of these casks, or what ever it is they wish to drink.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4934 0 0 0 0 0 0 0 0
+S
+#4936
+Southeast Guard Room~
+   This guard room is rather plain.  There are two sleeping bunks, a table and 2
+chairs.  There is a small box containing some hard tack and some cheese as well
+as a cask in the corner to keep their mead or water, which would be a miracle to
+find water in one of these casks, or what ever it is they wish to drink.  
+~
+48 d 0 0 0 0
+D3
+~
+~
+0 0 4934 0 0 0 0 0 0 0 0
+S
+#4937
+West Guard Room~
+   This guard room is rather plain.  There are two sleeping bunks, a table and 2
+chairs.  There is a small box containing some hard tack and some cheese as well
+as a cask in the corner to keep their mead or water, which would be a miracle to
+find water in one of these casks, or what ever it is they wish to drink.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4933 0 0 0 0 0 0 0 0
+S
+#4938
+East Guard Room~
+   This guard room is rather plain.  There are two sleeping bunks, a table and 2
+chairs.  There is a small box containing some hard tack and some cheese as well
+as a cask in the corner to keep their mead or water, which would be a miracle to
+find water in one of these casks, or what ever it is they wish to drink.  
+~
+48 d 0 0 0 0
+D3
+~
+~
+0 0 4933 0 0 0 0 0 0 0 0
+S
+#4939
+Northwest Guard Room~
+   This guard room is rather plain.  There are two sleeping bunks, a table and 2
+chairs.  There is a small box containing some hard tack and some cheese as well
+as a cask in the corner to keep their mead or water, which would be a miracle to
+find water in one of these casks, or what ever it is they wish to drink.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4932 0 0 0 0 0 0 0 0
+S
+#4940
+Northeast Guard Room~
+   This guard room is rather plain.  There are two sleeping bunks, a table and 2
+chairs.  There is a small box containing some hard tack and some cheese as well
+as a cask in the corner to keep their mead or water, which would be a miracle to
+find water in one of these casks, or what ever it is they wish to drink.  
+~
+48 d 0 0 0 0
+D3
+~
+~
+0 0 4932 0 0 0 0 0 0 0 0
+S
+#4941
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4942 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4896 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4946 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4944 0 0 0 0 0 0 0 0
+S
+#4942
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D2
+~
+~
+0 0 4941 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4943 0 0 0 0 0 0 0 0
+S
+#4943
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D1
+~
+~
+0 0 4942 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4944 0 0 0 0 0 0 0 0
+S
+#4944
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4943 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4941 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4945 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4947 0 0 0 0 0 0 0 0
+S
+#4945
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4944 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4946 0 0 0 0 0 0 0 0
+S
+#4946
+Guild house meeting room~
+   This is one of the guild house meeting rooms.  These rooms seem to be rather
+plain.  There is a table and a few chairs that can be seen inside a small
+closet.  There are some minor details on the granite floor and along the walls.
+
+~
+48 0 0 0 0 0
+D0
+~
+~
+0 0 4941 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4945 0 0 0 0 0 0 0 0
+S
+#4947
+Treasury Guard Room~
+   This room houses four of Mirabar's most elite guards.  They seem to be
+guarding something very important.  The floor does not have a trap door or any
+door for that matter.  There are only the four elite guards standing here.  The
+guards do not move or change position their entire shift.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4944 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4948 0 0 0 0 0 0 0 0
+S
+T 4890
+#4948
+Treasury level 1~
+   This is the first level of the Mirabar guild house treasury.  There are many
+guards down here; one in every room.  The light from the torches bounces off of
+all the different gems and treasures in all the rooms.  The reflecting lights
+dance a mysterious dance along the walls, floors and ceilings.  
+~
+48 iC 0 0 0 0
+D0
+~
+~
+0 0 4949 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4955 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4951 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4953 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4947 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4957 0 0 0 0 0 0 0 0
+S
+#4949
+Treasury North~
+   This tunnel contains treasures from the Forgers Guild.  There are many
+different relic tools in here in glass cases.  Some of the tools look to double
+as weapons such as some of the hammers have a blunt face on one side and a spike
+on the other side.  
+~
+48 iC 0 0 0 0
+D0
+~
+~
+0 0 4950 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4948 0 0 0 0 0 0 0 0
+S
+#4950
+Treasury North~
+   This tunnel contains treasures from the Forgers Guild.  There are many
+different relic tools in here in glass cases.  Some of the tools look to double
+as weapons such as some of the hammers have a blunt face on one side and a spike
+on the other side.  
+~
+48 iC 0 0 0 0
+D2
+~
+~
+0 0 4949 0 0 0 0 0 0 0 0
+S
+#4951
+Treasury South~
+   The Mirabar Miners Guild keep their treasures down here.  They seem to have a
+different idea of what treasure is.  They are keeping the belongings of fallen
+miners in here.  There are old helmets, gloves, a canteen, some oil lanterns, a
+mining car buggy and many other things that you would see every day in a mine
+shaft or on a mine workers person.  
+~
+48 iC 0 0 0 0
+D0
+~
+~
+0 0 4948 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4952 0 0 0 0 0 0 0 0
+S
+#4952
+Treasury South~
+   The Mirabar Miners Guild keep their treasures down here.  They seem to have a
+different idea of what treasure is.  They are keeping the belongings of fallen
+miners in here.  There are old helmets, gloves, a canteen, some oil lanterns, a
+mining car buggy and many other things that you would see every day in a mine
+shaft or on a mine workers person.  
+~
+48 iC 0 0 0 0
+D0
+~
+~
+0 0 4951 0 0 0 0 0 0 0 0
+S
+#4953
+Treasury West~
+   This tunnel is the Mirabar Merchants Guild Treasury.  The merchants guild
+keep many rich's here, fine silks, priceless paintings, antique pieces of
+furniture and many other things which are unfamiliar.  There are some items that
+are in glass cases and under heavy guard.  
+~
+48 iC 0 0 0 0
+D1
+~
+~
+0 0 4948 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4954 0 0 0 0 0 0 0 0
+S
+#4954
+Treasury West~
+   This tunnel is the Mirabar Merchants Guild Treasury.  The merchants guild
+keep many rich's here, fine silks, priceless paintings, antique pieces of
+furniture and many other things which are unfamiliar.  There are some items that
+are in glass cases and under heavy guard.  
+~
+48 iC 0 0 0 0
+D1
+~
+~
+0 0 4953 0 0 0 0 0 0 0 0
+S
+#4955
+Treasury East~
+   Beer mugs and golden steins can been seen lining the walls on shelves.  
+There are some barrles and casks of whiskey and wine some of which are dated
+over 400 yrs old.  This is the treasury of the Guild of Taverns.  
+~
+48 iC 0 0 0 0
+D1
+~
+~
+0 0 4956 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4948 0 0 0 0 0 0 0 0
+S
+#4956
+Treasury East~
+   Beer mugs and golden steins can been seen lining the walls on shelves.  
+There are some barrles and casks of whiskey and wine some of which are dated
+over 400 yrs old.  This is the treasury of the Guild of Taverns.  
+~
+48 iC 0 0 0 0
+D3
+~
+~
+0 0 4955 0 0 0 0 0 0 0 0
+S
+#4957
+Treasury level 2~
+   The bottom floor of the treasury looks to be deserted.  There are no guards
+at all, though the walls are all covered in glowing runes and magical symbols.
+Each of the doors in this room are outlined with runes and magical symbols to
+match the color of the door.  To the north there is a @Rred@n door.  To the east
+there is a @Ggreen@n door.  To the west there is a @Bblue@n door and to the
+south there is a @Dgrey@n door.  There seems to be something pulling in another
+direction, perhaps further investigation would help figure it out.  
+~
+48 dC 0 0 0 0
+D0
+~
+door gate north red~
+1 4801 4958 24 0 0 0 0 0 0 0
+D1
+~
+door gate east green~
+1 4804 4960 24 0 0 0 0 0 0 0
+D2
+~
+door gate south earth grey~
+1 4803 4959 24 0 0 0 0 0 0 0
+D3
+~
+door gate west water blue~
+1 4802 4961 24 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4948 0 0 0 0 0 0 0 0
+D6
+~
+door gate hatch~
+4 4805 4962 0 0 0 0 0 0 0 0
+S
+#4958
+Treasury room of @Rfire@n~
+   This room is extremely hot.  The walls and floor of this room are almost
+glowing orange and red from the immense heat.  The room contains a single
+pedastal in the center of the room.  Floating above the pedastal is a dagger
+with two blades side by side.  The dagger is surrounded by a blazing white fire.
+
+~
+48 dfhC 0 0 0 0
+D2
+~
+~
+0 0 4957 0 0 0 0 0 0 0 0
+S
+#4959
+Treasury room of Stone~
+   The walls, floor and ceiling are made from what looks like one solid piece of
+@Dgrey@n granite.  There is a single weapon rack made from the same piece of stone
+in the center of the room, upon this wrack is a very large two handed war
+hammer.  The hammer itself looks like it was also carved from the same piece of
+granite.  The hammer does not look like it will come loose easily.  
+~
+48 dfhC 0 0 0 0
+D0
+~
+~
+0 0 4957 0 0 0 0 0 0 0 0
+S
+#4960
+Treasury room of @Gnature@n~
+   The floor in this room is not made of stone, instead the floor is lush green
+grass with wild flowers growing in the 4 corners of the room.  The walls and
+ceiling are covered with flowering vines and grass.  In the center of the room
+there is a small tree with vines growing up the tree.  At the top of the tree
+there is a bow.  The bow has vines growing and wrapping around it holding it in
+place.  
+~
+48 dfhC 0 0 0 0
+D3
+~
+~
+0 0 4957 0 0 0 0 0 0 0 0
+S
+#4961
+Treasury room of @Bwater@n~
+   This room is very wet.  There is water leaking into the room from the stone
+itself.  The floor of the room has enough water to make your boots wet.  There
+is an enormous clam in the center of this room.  Resting upon the inside of the
+open glam is a set of identicle swords.  They look to be floating on water
+because they are bobbing up and down as if on a raft, but there is nothing under
+them.  
+~
+48 dfhC 0 0 0 7
+D1
+~
+~
+0 0 4957 0 0 0 0 0 0 0 0
+S
+#4962
+Treasury room of @Wspirit@n~
+   This room is not your typical room.  The walls, floor and ceiling are all
+fading in and out of existance.  Out of nowhere something appears and then
+dissappears just a quickly only to reappear in a different place in the room.  
+The item is quickly identified as an axe.  This axe is moving very quickly and
+is never in the same place twice.  The only way to find out more about this axe
+is to try and catch it.  
+~
+48 dfhC 0 0 0 9
+D8
+~
+~
+0 0 4957 0 0 0 0 0 0 0 0
+S
+#4963
+Near a mountain pass~
+   Powerful mountains dominate the view to the north.  These great domes of rock
+rise upward, casting long shadows over everything below.  There is a slight
+vibration under your feet.  The ground seems to be shaking as if from a small
+earthquake.  Just past here, a steep pass has been cut into the rock, allowing
+passage into the mountains.  A road leads off to the south.  
+~
+48 0 ek 0 0 5
+D0
+~
+~
+0 0 4800 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4964 0 0 0 0 0 0 0 0
+S
+#4964
+Near Mirabar~
+   Powerful mountains dominate the view to the north.  These massive domes of
+rock rise upward like great earth gods, dwarfing all that is around them and
+casting long shadows across everything below.  There is a slight vibration under
+your feet.  The ground seems to be shaking as if from a small earthquake.  From
+here, the highway known as the Long Road begins to the east, while the
+Luskan-Mirabar Trade Road stretches west.  
+~
+48 0 ek 0 0 10
+D0
+~
+~
+0 0 4963 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4965 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50400 0 0 0 0 0 0 0 0
+S
+#4965
+The Long Road: near Mirabar~
+   Powerful mountains dominate the view to the north.  These massive domes of
+rock rise upward like great earth gods, dwarfing all that is around them and
+casting long shadows across everything below.  There is a slight vibration under
+your feet.  The ground seems to be shaking as if from a small earthquake.  The
+road continues west and southeast.  
+~
+48 0 ek 0 0 10
+D3
+~
+~
+0 0 4964 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4966 0 0 0 0 0 0 0 0
+S
+#4966
+The Long Road: near Mirabar~
+   Powerful mountains dominate the view off in the distance to the north.  
+These massive domes of rock rise upward like great earth gods, dwarfing all that
+is around them and casting long shadows across everything below.  There is a
+slight vibration under your feet.  The ground seems to be shaking as if from a
+small earthquake.  The road continues northwest and south.  
+~
+48 0 ek 0 0 10
+D2
+~
+~
+0 0 4967 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4965 0 0 0 0 0 0 0 0
+S
+#4967
+The Long Road: near Mirabar~
+   Powerful mountains dominate the view off in the distance to the north.  
+These massive domes of rock rise upward like great earth gods, dwarfing all that
+is around them and casting long shadows across everything below.  There is a
+slight vibration under your feet.  The ground seems to be shaking as if from a
+small earthquake.  The road continues north and south.  
+~
+48 0 ek 0 0 10
+D0
+~
+~
+0 0 4966 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 51726 0 0 0 0 0 0 0 0
+S
+#4968
+Stone Dwarf Kitchen~
+   The kitchen is very hot and surprisingly clean, for a dwarf establishment
+that is.  There are stoves and ovens along all four walls; they all seem to be
+running at the same time to keep up with the food order demands upstairs.  To
+the north you can see a room with large pieces of leather hanging in front of
+the door way.  
+~
+48 d d 0 0 0
+D0
+~
+~
+0 0 4969 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4924 0 0 0 0 0 0 0 0
+S
+#4969
+Stone Dwarf Ale and Mead storage~
+   This room is extremely clean.  There is not a spec of dust on the ground or
+on any of the shelves.  All the barrels are spaced the exact same distance from
+each other.  The room is very very cold.  Apparently the ale and mead in here
+needs to be kept at a certain constant cold temperature to be any good.  
+~
+48 d d 0 0 0
+D2
+~
+~
+0 0 4968 0 0 0 0 0 0 0 0
+S
+#4970
+A Vertical Mine Shaft~
+   This mine shaft runs vertically.  There are ladders on all sides of this
+square shaft.  The ladders are large enough to accommodate two persons at the
+same time.  The walls have small holes dug into the sides where ore and gems
+were taken.  There seems to be notches carved into the ladder every few feet.  
+The sound of wings can be heard from above.  
+~
+48 iC ab 0 0 5
+D4
+~
+~
+0 0 4971 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+S
+#4971
+A Vertical Mine Shaft~
+   This mine shaft runs vertically.  There are ladders on all sides of this
+square shaft.  The ladders are large enough to accommodate two persons at the
+same time.  The walls have small holes dug into the sides where ore and gems
+were taken.  There seems to be notches carved into the ladder every few feet.  
+The sound of wings can be heard from above.  
+~
+48 iC ab 0 0 5
+D4
+~
+~
+0 0 4972 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4970 0 0 0 0 0 0 0 0
+S
+#4972
+A Vertical Mine Shaft~
+   This mine shaft runs vertically.  There are ladders on all sides of this
+square shaft.  The ladders are large enough to accommodate two persons at the
+same time.  The walls have small holes dug into the sides where ore and gems
+were taken.  There seems to be notches carved into the ladder every few feet.  
+The sound of wings can be heard from above.  
+~
+48 iC ab 0 0 5
+D5
+~
+~
+0 0 4971 0 0 0 0 0 0 0 0
+S
+#4973
+An old mine shaft~
+   This mine shaft looks to be very old.  There are cob webs all around the
+shaft walls and on the support beams.  It doesn't look like this mine shaft gets
+used very often.  Strange noises can be heard from somewhere behind the walls.
+Perhaps it's not wise to hang around here for very long.  
+~
+48 iC ab 0 0 5
+D4
+~
+~
+0 0 4804 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4974 0 0 0 0 0 0 0 0
+S
+#4974
+An old mine shaft~
+   This mine shaft looks to be very old.  There are cob webs all around the
+shaft walls and on the support beams.  It doesn't look like this mine shaft gets
+used very often.  Strange noises can be heard from somewhere behind the walls.
+Perhaps it's not wise to hang around here for very long.  
+~
+48 iC ab 0 0 5
+D4
+~
+~
+0 0 4973 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4975 0 0 0 0 0 0 0 0
+S
+#4975
+An old mine shaft~
+   This mine shaft looks to be very old.  There are cob webs all around the
+shaft walls and on the support beams.  It doesn't look like this mine shaft gets
+used very often.  Strange noises can be heard from somewhere behind the walls.
+Perhaps it's not wise to hang around here for very long.  
+~
+48 iC ab 0 0 5
+D4
+~
+~
+0 0 4974 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11000 0 0 0 0 0 0 0 0
+S
+#4976
+A covered path~
+   The awning over this path is made from a hedge.  It looks like they let the
+hedge grow to an enormous state and then cut a path out of the center of it.  
+The path way has an arch at the top that lets in little slivers of light every
+now and then.  There are flowering vines growing all over the path sides.  To
+the north a giant house can be seen.  To the west the gate to the "North Farm"
+can be seen.  
+~
+48 0 0 0 0 2
+D0
+~
+~
+0 0 4977 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4902 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4984 0 0 0 0 0 0 0 0
+S
+#4977
+Mansion Entrnace~
+   The entrance to this house is expertly carved from the face of the mountain.
+The house itself seems to be carved directly into the mountain itself.  The
+stone work is done by that of an expert.  The stone doors are massive with
+intricately carved designs depicting a great dwarf with a massive hammer for a
+weapon slung across his shoulders.  
+~
+48 d 0 0 0 0
+D0
+~
+door gate gates doors~
+1 0 4981 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4976 0 0 0 0 0 0 0 0
+S
+#4978
+Kitchen and Ale Storage~
+   The kitchen has many implements used for cooking and storing food and drink.
+There is a large wood burning stove on the back wall in the center, a large walk
+in wooden room that would be used for cold storage since it has been insulated,
+there is a second large walk in wooden room that has been sealed to not let in
+light.  The light would ruin the ales and meads in the room.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4981 0 0 0 0 0 0 0 0
+S
+#4979
+Sleeping Quarters~
+   These sleeping quarters are rather plain.  There is a bed made for one
+against the far wall, a table against the opposite wall with a single chair.  
+There is a small oil lantern on the wall and a candle stick on the table.  The
+walls are carved with odd symbols and a language that is not recognizable.  
+~
+48 d 0 0 0 0
+D3
+~
+~
+0 0 4981 0 0 0 0 0 0 0 0
+S
+#4980
+Foreman's Secret Forge~
+   This room is rather large.  There is a furnace in one corner of the room and
+a rather simple forge on the other side of the room.  In the center of the room
+is a large anvil.  There are many tools of master work design hanging on the
+wall in specially made holders for each tool.  Upon closer inspection of the
+anvil there is an inscription on the back written in 'Dwarvish Runes'.  
+~
+48 hiC 0 0 0 0
+D4
+~
+~
+0 0 4983 0 0 0 0 0 0 0 0
+S
+#4981
+Center of the house~
+   The center of the house looks rather elegant.  There are master work
+paintings on the walls, beautiful wood worked furniture and a statue in the
+center of the room.  There are three other exits from this room, not counting
+the way you cam in.  
+~
+48 d 0 0 0 0
+D0
+~
+panel door hidden~
+3 0 4983 20 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4979 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4977 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4978 0 0 0 0 0 0 0 0
+S
+#4983
+Foremans secret hide away~
+   The panel opens to reveal a small rather plain room.  The walls are blank
+with no significant markings at all.  The only thing that sticks out in this
+room is a small rug on the floor.  
+~
+48 0 0 0 0 0
+D2
+~
+~
+0 0 4981 0 0 0 0 0 0 0 0
+D5
+A hidden panel in the floor barely visible.
+~
+panel hidden door~
+3 0 4980 20 0 0 0 0 0 0 0
+E
+rug~
+   This rug is a rather plain looking rug.  There are some simple designs on the
+rug but nothing very lavish.  The rug has recently been moved perhaps there is
+something underneath it.  
+~
+S
+#4984
+North Farm gate~
+   The gate to the "North Farm" does not look like it would be hard to get past.
+There are no guards and it is only made from a couple pieces of wood.  The gate
+looks rather shabby and old.  The farm on the other hand is assaulting your
+sense of smell as the wind picks up.  The farm hands can be seen hard at work
+taking care of the animals.  
+~
+48 0 h 0 0 2
+D1
+~
+~
+0 0 4976 0 0 0 0 0 0 0 0
+D3
+~
+gate~
+1 0 4985 20 0 0 0 0 0 0 0
+S
+#4985
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4986 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4984 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4994 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4992 0 0 0 0 0 0 0 0
+S
+#4986
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4987 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4985 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4991 0 0 0 0 0 0 0 0
+S
+#4987
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4988 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4986 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4990 0 0 0 0 0 0 0 0
+S
+#4988
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D2
+~
+~
+0 0 4987 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4989 0 0 0 0 0 0 0 0
+S
+#4989
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D1
+~
+~
+0 0 4988 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4990 0 0 0 0 0 0 0 0
+S
+#4990
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4989 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4987 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4991 0 0 0 0 0 0 0 0
+S
+#4991
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4990 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4986 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4992 0 0 0 0 0 0 0 0
+S
+#4992
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4991 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4985 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4993 0 0 0 0 0 0 0 0
+S
+#4993
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4992 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4994 0 0 0 0 0 0 0 0
+S
+#4994
+North Farm~
+   These fields contain animals of all kinds.  There are troughs for food and
+water for large animals and small animals.  Horses, goats, chickens, sheep,
+dogs, Llamas and many others can be seen here grazing for food.  The farm hands
+are working diligently to keep the animals as comfortable as possible.  
+~
+48 0 hi 0 0 2
+D0
+~
+~
+0 0 4985 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4993 0 0 0 0 0 0 0 0
+S
+#4995
+Martial Academy center~
+   This is the center of the famous "Mirabar Martial Academy".  There are 3
+rooms that branch off of this single room.  To the west the fighter trainer is
+teaching his students about the different weapons they will be using on a day to
+day basis.  To the east the weapon master is teaching the advanced uses of the
+different exotic weapons.  To the north the dwarven defender teacher is teaching
+how to hold a perfect defense and how to ignore pain.  
+~
+48 d 0 0 0 0
+D0
+~
+~
+0 0 4998 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4997 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4841 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4996 0 0 0 0 0 0 0 0
+S
+#4996
+Fighters training room~
+   The room is filled with weapons and straw dummies.  This is where the fighter
+trainer teaches his students about the proper use of the different weapons.  
+The room has a statue in the middle of the room with a name on it.  The students
+in this room all seem to be applying their best efforts at learning what their
+teacher has to offer.  
+~
+48 d 0 0 0 0
+D1
+~
+~
+0 0 4995 0 0 0 0 0 0 0 0
+S
+#4997
+Weapon Master training room~
+   This room is filled with all manner of weapons ranging from exotic weapons
+such as the "Dwarven Urgosh" to simple weapons like the "Dagger".  The students
+in here pay attention to their teacher has he moves through a series of complex
+movements with two different weapons.  The floor is stained with the blood of
+many students who did not listen closely enough.  
+~
+48 d 0 0 0 0
+D3
+~
+~
+0 0 4995 0 0 0 0 0 0 0 0
+S
+#4998
+Dwarven Defender training room~
+   This room is filled with large shields and heavy pieces of armor.  There are
+some odd looking objects protruding from the wall.  The students in this room
+are learning how to create impossible defenses.  They are being taught by a
+dwarf that looks as if he has seen better days.  
+~
+48 d 0 0 0 0
+D2
+~
+~
+0 0 4995 0 0 0 0 0 0 0 0
+S
+$~

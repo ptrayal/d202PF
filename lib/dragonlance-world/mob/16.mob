@@ -1,0 +1,238 @@
+#1600
+mumbling draconian guard young~
+a mumbling draconian guard~
+A young draconian stands here mumbling about the heat.
+~
+   Just recently assigned the unenviable task of guarding the mountain pass
+from possible invaders, this young draconian stands here sullenly.  He keeps a
+very lazy eye on his surroundings, far too busy complaining about the heat to
+actually notice anything sneaking up on him.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1601
+watchman burly draconian~
+a burly draconian watchman~
+A burly draconian in dented steel armor stands here guarding the mountain pass.
+~
+   Wearing armor that has most likely been handed down from someone else, this
+burly draconian guards the pass leading towards Sanction.  He keeps a keen eye
+on all those that approach, apparently deciding their fates.  A curved cutlass
+rests firmly in a sheath along his waist.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1602
+captain draconian~
+a draconian captain of the guards~
+The captain of the draconian watch paces the area as he keeps a stern eye on his soldiers.
+~
+   Fully engulfed with thoughts of his next promotion, this stern-eyed
+draconian captain makes sure none of his soldiers are out of place.  
+Ceremonial battle armor covers his chest, protecting him from all but the
+strongest of blades.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1603
+tired malnourished draconian~
+a tired, malnourished draconian~
+A tired, malnourished draconian sits here resting on a large rock.
+~
+   Miles from the nearest ration of food or water, this draconian has spent
+countless hours stationed on guard duty.  He pants heavily as he struggles to
+keep from passing out.  Unwavering, he still manages to inspect all those who
+approach.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1604
+docile stout barbarian~
+a stout, docile barbarian~
+A stout, docile barbarian carefully stirs a pot of stew.
+~
+   Carefully stirring a pot of stew is a stout barbarian woman.  Her black hair
+cascades down over her fur tunic that completely covers her body.  Plain black
+eyes and a partial smile splits her face.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1605
+rambunctious fearless~
+a rambunctious, fearless child~
+A rambunctious, fearless child runs around the room.
+~
+   Dirt mats down his pitch-black hair.  About his toddler body he wears a
+white, fur tunic.  Beady, black eyes display a glaring distain for any
+self-regard or fear.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1606
+beautiful enchanting~
+an enchanting, beautiful girl~
+An enchanting, beautiful girl hums to herself peacefully.
+~
+   Mesmerizing, deep pools of black form her eyes.  Beautiful black hair
+cascades down her back, covering her soft white fur tunic.  She methodically
+twirls a strand of her hair as she hums to herself peacefully.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1607
+rugged hunter~
+a rugged, muscular hunter~
+A rugged, muscular hunter silently sharpens his spear.
+~
+   He is deaf to the world as he focuses all his concentration on sharpening
+his blade to perfection.  Protruding from his fur tunic, well defined muscles
+give him an intimidating appearance.  A full, grizzled beard envelops his face.
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1608
+draconian sivak husky~
+a husky Sivak draconian~
+Standing before the city of Sanction is a husky Sivak draconian.
+~
+   A set of full battle armor covers his entire scaled body, implying that he
+is more than ready to defend the security of the city.    
+~
+d 0 0 0 k 0 0 0 -1000
+20 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

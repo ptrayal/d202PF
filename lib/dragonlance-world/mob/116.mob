@@ -1,0 +1,363 @@
+#11600
+zombie shambling rotting~
+a half rotting zombie~
+A shambling mound of rotting flesh lurches about.
+~
+   Lumbering about slowly, this shambling mound of a zombie makes his way
+towards you.  Flesh lies torn from his body as it drags from behind.  Hollow
+sockets for eyes stare upon you with only horrid intensions in mind.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d450+135 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11601
+skeleton partially~
+a partially armored skeleton~
+Partially armored, this skeleton walks the fields of Dargaard.
+~
+   Wearing what is left of his armor, this undead warrior patrols the hollow
+fields of Dargaard.  No signs of flesh can be seen covering this figures bones
+as ages of service wore it away.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11602
+death knight lord soth~
+Lord Soth~
+Lord Soth, death knight of Krynn is here brooding on his throne.
+~
+   Soth stands before you encased in the blackened armor of a Solamnic Knight
+of the Rose.  All that can be seen of this frightening apparition are his
+flaming orange eyes.    
+~
+bdf g 0 0 k q 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11603
+lich heavily robed figure~
+a heavily robed lich~
+A heavily robed figure stands before you.
+~
+   Covered in heavy robes this lich stands before you, guarding the entrance to
+Dargaard Keep.  He mutters to himself in some archaic language you can not
+understand.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11604
+warrior immense figure skeletal~
+a skeletal warrior~
+An immense undead figure towers high above you.
+~
+   Once formerly powerful fighters, these skeletal warriors are now trapped in
+their nightmarish service to Lord Soth.  Bearing ancient solamnic plate, they
+stand ready to do their masters bidding.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11605
+elven figure wizard~
+an elven wizard~
+An elven wizard garbed in black robes stands before you.
+~
+   Garbed in black robes this undead elven wizard stands before you.  Beneath
+his cowl, glowing red eyes glance around his surroundings.  He has a frail
+build to him, obviously due to his eternal service to Lord Soth.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11606
+thief ebony clad~
+an ebony clad thief~
+An ebony clad thief disapproves of your entrance.
+~
+   Covered in ebony attire, this thief dislikes being bothered.  With whats
+left of his hair, he slicks it back long enough to grab his dagger and charges
+towards you.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11607
+banshee wailing elven~
+an elven banshee~
+A wailing banshee stands here singing an eerie tune.
+~
+   Covered with whats left of her former clothing, this elven banshee wails an
+eerie tune.  Dead sockets for eyes look upon you with hunger, and hatred.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11608
+nightmare horse~
+a nightmare~
+A large, powerful horse with a jet black coat, and glowing red eyes stomps about.
+~
+   With a jet black coat, and glowing red eyes, this nightmarish steed stomps
+about in its cell.  Smoke can be seen being blown from its nose as it snorts at
+you.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11609
+hound~
+a hell hound~
+A large hound with rust-red fur snarls in your direction.
+~
+   A large hound covered in rusty brown fur snarls before you.  Soot eyes train
+themselves upon you as sharp jagged teeth slowly appear from the beasts mouth.
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11610
+fighter dark elven~
+a dark-elven fighter~
+A dark-elven fighter stands here pacing about the room.
+~
+   Standing here in scorched leather armor is a dark-elven fighter.  Coal black
+eyes and pale grey skin give his face a haunting look.  After a few moments of
+silence he charges out of the shadows screaming.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11611
+mogg gigantic black steed~
+Mogg~
+A gigantic black steed snorts and stomps about the area wildly.
+~
+   A long black mane dangles over the mares neck.  Fiery red eyes glare upon
+you as you enter within the stable.  The mare rears back and begins to dash
+towards you.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#11612
+ghost elven nurse~
+a spectral ghost of an elven nursemaid~
+The ghost of an elven nursemaid hovers here.
+~
+   The nursemaid of Lord Soth's murdered elven wife leads the banshees in their
+unholy song.  Her face switches from careworn to feral over and over again as
+the song echoes across the haunted keep.    
+~
+bd 0 0 0 k p 0 0 500
+45 -2 -57 540d120+102 1d8+22
+14 0 6 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 27
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

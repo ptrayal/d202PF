@@ -1,0 +1,413 @@
+#500
+undead rat~
+an undead rat~
+An undead rat scurries about the ground.
+~
+   These small rodents are much like their living counterparts.  Very little
+flesh remains attached to the bones.  They wander about mindlessly snapping at
+anything that gets in their way.    
+~
+d 0 0 0 k 0 0 0 1
+1 20 7 24d100+152 1d8+0
+15 0 6 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#501
+kobold young~
+a young kobold~
+A young kobold stands here looking about curiously.
+~
+   This small humanoid stands no more than a couple feet high.  It has large
+protruding eyes and long pointed ears.  A wide mouth sports irregular, rotting
+teeth.  It waddles about curiously.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#502
+undead snake~
+an undead snake~
+An undead snake slithers across the ground here.
+~
+   This snake crawls along the ground much as it did when it was alive.  Its
+stark white body gleams slightly in the meager light.  It mindlessly wanders
+along the ground.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 6 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#503
+skeleton~
+a skeleton~
+A skeleton shuffles mindlessly about here.
+~
+   Bleach white bones are all that remain of this hapless soul.  Their body has
+been animated and is now used to practice fighting against.  The empty
+eyesockets stare forward at nothing at all.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 7 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#504
+zombie~
+a zombie~
+A zombie covered in rotting flesh lurches about here.
+~
+   Bits and pieces of rotting flesh fall off this creature as it stumbles
+about.  It silently wanders about with no apparant purpose.  Vacant eyes fixed
+on a goal that no longer exists.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#505
+female kobold~
+a female kobold~
+A female kobold hovers about keeping an eye on the young ones.
+~
+   This small humanoid stands only a couple feet high.  It has a bulbous head
+with large protruding eyes.  She wears dirty animal furs.  She watches you
+warily and keeps close to the young kobolds.    
+~
+d 0 0 0 k 0 0 0 -300
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#506
+guard kobold~
+a kobold guard~
+A kobold guard stands here gripping its weapon tightly.
+~
+   This is a small humanoid standing only a couple feet tall.  It has a large
+head and protruding eyes.  This one appears to be a warrior of some kind.  It
+grips a primitive looking spear tightly at the ready.    
+~
+d 0 0 0 k 0 0 0 -500
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#507
+kobold chieftain~
+the kobold chieftain~
+A large, burly kobold sits atop a makeshift throne here.
+~
+   This is the largest kobold you have seen.  Standing about half a foot taller
+than the rest and at least twice the weight.  He is decorated with charms and
+necklaces made from small animal bones.    
+~
+d 0 0 0 k 0 0 0 -500
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#508
+summoner acolyte~
+a training pit summoner~
+An acolyte summoner is here animating the remains of the fallen.
+~
+   Garbed in grey concealing cloths this acolyte of Gilean chants softly.  He
+pays no heed to anything but his duty.  He sways gently as he murmurs prayers
+to Gilean to animate the skeletons for use in training young adventurers.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#509
+small blue crab~
+a small, blue crab~
+A small blue crab scuttles along.
+~
+   With a hard shell, and a set of pincers, this crab is set to defend itself.
+It walks along the ground sideways, searching for something to do.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#510
+shrieking seagull gull~
+a shrieking seagull~
+A shrieking seagull walks awkwardly as it cries.
+~
+   An awful sound is coming from this bird, a loud cry that is heartrending to
+hear.  Its feathers are white and gray, and the beak is yellow, with a small
+red spot.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#511
+lone seagull gull~
+a lone seagull~
+A lone seagull has perched on a pole.
+~
+   Resting on this pole, this gull looks quite comfortable.  Cleaning his
+feathers, this bird pays no mind to that which is going on around it.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#512
+spotted dogfish~
+a spotted dogfish~
+A spotted dogfish searches for prey.
+~
+   Smooth gray skin, spotted blue, makes this dogfish rather smooth to the
+touch.  It swims through the water, hoping to find its next meal.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#513
+gray skate~
+a gray skate~
+A gray skate glides through the water.
+~
+   The wings on this skate are rounded, and undulate gently to move this
+creature through the water.  Its eyes are focused on something not far away.  
+Most likely it is planning to feed.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#514
+anenome sea~
+a sea anenome~
+A sea anenome sifts the water with its tentacles.
+~
+   A red, rounded base, sprouting many tentacles of orange searches the water
+for food.  It is about four to five hands across, and around three rising out
+of the base.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#515
+skeletal skeleton warrior~
+a large skeleton warrior~
+a large skeletal warrior stands here, emitting a cold aura of death.
+~
+A large skeletal warrior eyes you with empty sockets, all the flesh has long ago
+been stripped from his body.  
+~
+bde g 0 0 k 0 0 0 -1000
+5 13 2 3000d100+100 1d10+7
+0 0 7 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

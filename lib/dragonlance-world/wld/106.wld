@@ -1,0 +1,518 @@
+#10600
+A Newly Built Fishing Pier~
+   Branching off of the original pier, this newly built one seems much more
+reliable.  The craftsmanship is shown with the sturdy rails and freshly cut
+boards.  A layer of lacquer is thrown over the floor to keep it in good
+condition.  A few fishermen can be seen fishing into the New Sea.    
+~
+106 c 0 0 0  1
+D1
+~
+~
+0 0 6507 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10601 0 0 0 0 0 0 0 0
+S
+#10601
+A Newly Built Fishing Pier~
+   Branching off of the original pier, this newly built one seems much more
+reliable.  The craftsmanship is shown with the sturdy rails and freshly cut
+boards.  A layer of lacquer is thrown over the floor to keep it in good
+condition.  A few fishermen can be seen fishing into the New Sea.    
+~
+106 0 0 0 0  1
+D0
+~
+~
+0 0 10605 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10600 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10603 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10602 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10604 0 0 0 0 0 0 0 0
+S
+#10602
+A Newly Built Fishing Pier~
+   Branching off of the original pier, this newly built one seems much more
+reliable.  The craftsmanship is shown with the sturdy rails and freshly cut
+boards.  A layer of lacquer is thrown over the floor to keep it in good
+condition.  A few fishermen can be seen fishing into the New Sea.    
+~
+106 0 0 0 0  1
+D1
+~
+~
+0 0 10601 0 0 0 0 0 0 0 0
+S
+#10603
+A Docked Vessel~
+   This vessel is docked to the new pier, which is just an addition to the old
+one.  The vessel isn't very large, but does look to be built quite sturdy.  
+The sails extend up here high into the air, and if you were to climb down,
+entry to a rowboat is possible.    
+~
+106 0 0 0 0  1
+D0
+~
+door~
+0 0 10601 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10608 0 0 0 0 0 0 0 0
+S
+#10604
+Climbing A Net~
+   You attempt to climb up this net up towards the top of the boat.  The sails
+are flapping in the wind back and forth, making the climb quite difficult.  It
+is also very strenuous work trying to keep your feet in the net.    
+~
+106 cq 0 0 0  5
+D5
+~
+~
+0 0 10601 0 0 0 0 0 0 0 0
+S
+#10605
+Aboard a Large Vessel~
+   The vessel is pretty large, and covered with nets.  The boat rocks back and
+forth with the wake, almost making you sick.  To the west is the front of the
+ship, where a large wooden wheel steers the boat.  Towards the back is a locked
+hatch, showing no sign of being openable.    
+~
+106 0 0 0 0  1
+D1
+~
+~
+0 0 10606 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10601 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10607 0 0 0 0 0 0 0 0
+D5
+~
+hatch~
+1 0 10609 0 0 0 0 0 0 0 0
+S
+#10606
+Aboard a Large Vessel~
+   The vessel is pretty large, and covered with nets.  The boat rocks back and
+forth with the wake, almost making you sick.  To the east is the front of the
+ship, where a large wooden wheel steers the boat.  Towards the back is a locked
+hatch, showing no sign of being openable.    
+~
+106 0 0 0 0  1
+D3
+~
+~
+0 0 10605 0 0 0 0 0 0 0 0
+D5
+~
+hatch~
+1 10600 10609 0 0 0 0 0 0 0 0
+S
+#10607
+The Bow of the Vessel~
+   The vessel is pretty large, and covered with nets.  The boat rocks back and
+forth with the wake, almost making you sick.  A large wooden wheel is here,
+barely attached, steering the ship.  Towards the back is a locked hatch,
+showing no sign of being openable.    
+~
+106 0 0 0 0  1
+D1
+~
+~
+0 0 10605 0 0 0 0 0 0 0 0
+S
+#10608
+Aboard a Small Rowboat~
+   Just down from the dock, you are in someone else's rowboat.  It is
+impossible to steal it however, large chains secure it to the dock.  The boat
+is unoccupied, and doesn't feel very sturdy.    
+~
+106 c 0 0 0  0
+D4
+~
+~
+0 0 10603 0 0 0 0 0 0 0 0
+S
+#10609
+Beneath the Hatch~
+   The room is absolutely frozen.  A distractive humming noise can be heard as
+you notice the ice everywhere.  Piles after piles of fish are stored down here
+to be kept until sold later on.  An unsteady white ladder leads out and back on
+top of the boat.    
+~
+106 c 0 0 0  0
+D4
+~
+hatch~
+1 10600 10605 0 0 0 0 0 0 0 0
+E
+fish~
+Nothing special, just a bunch of fish, frozen to the floor.
+~
+S
+#10610
+A Pass Between the Mountains~
+   This mountainous pass is the only means of over-land travel between Sanction
+and the outside world.  The Doom Range, and other ominous mountains, loom above
+from either side, leaving a less then scenic view.  Occasionally, a weed or a
+small bit of grass may sprout out of the rocky soil, but otherwise the pass is
+barren of life.    
+~
+106 0 h 0 0  5
+D0
+~
+~
+0 0 10611 0 0 0 0 0 0 0 0
+S
+#10611
+A Pass Between the Mountains~
+   This mountainous pass is the only means of over-land travel between Sanction
+and the outside world.  The Doom Range, and other ominous mountains, loom above
+from either side, leaving a less then scenic view.  Occasionally, a weed or a
+small bit of grass may sprout out of the rocky soil, but otherwise the pass is
+barren of life.    
+~
+106 0 h 0 0  5
+D2
+~
+~
+0 0 10610 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10612 0 0 0 0 0 0 0 0
+S
+#10612
+A Pass Between the Mountains~
+   This mountainous pass is the only means of over-land travel between Sanction
+and the outside world.  The Doom Range, and other ominous mountains, loom above
+from either side, leaving a less then scenic view.  Occasionally, a weed or a
+small bit of grass may sprout out of the rocky soil, but otherwise the pass is
+barren of life.    
+~
+106 0 h 0 0  5
+D0
+~
+~
+0 0 10613 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10611 0 0 0 0 0 0 0 0
+S
+#10613
+Before a Small Arena~
+   The mountainous pass seems to come to an end, where the rock seems to have
+quit being cut out.  To the west is a massive forest extending out of sight.  
+Grunts and groans can be heard ahead, and a small arena can be seen.  Just
+north of here is a tremendous looking stone statue.    
+~
+106 c fh 0 0  2
+D0
+~
+~
+0 0 10614 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10612 0 0 0 0 0 0 0 0
+S
+#10614
+At a Large Stone Statue~
+   Right on the edge of the arena, a statue of a large, brute minotaur can be
+seen.  He holds a large trident in one hand, and a tower shield in the other,
+both of which are carved from stone.  Many spectators can be heard from all
+directions, and you hear the occasional clang of a weapons.    
+A gold plaque rests in front of the statue.
+~
+106 c fh 0 0  1
+D0
+~
+~
+0 0 10623 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10615 0 0 0 0 0 0 0 0
+E
+plaque~
+   Hjor the minotaur was an honourable, respected member of the minotaurian
+society, being a heroic warrior and a powerful leader.  One day he was in his
+fighting chamber, practicing new techniques with a trident, when a beautiful
+seductress appeared before him.  She cast an unbreakable charm spell on him,
+and beckoned him to follow her into the town proper.  She then rendered herself
+invisible and ordered Hjor to massacre all of the minotaurs he saw.  Hjor
+struggled with the order, and a great sweat broke out on his massive brow.  He
+fought against the sorceress with all of his heroic might, but to no avail.  
+Finally, he gave in to her wiles, and took his gigantic trident and began to
+slay his kin.  Eventually he was subdued, but by then it was too late.  He
+pleaded his innocence, telling them what happened.  We the council were greatly
+surprised by this claim.  If indeed Hjor had been under a spell, surely we
+could not condemn him to an evil end.  We gave him one chance to prove that he
+was innocent: we told him of a series of trials, or labors that he must
+complete.  The great warrior set forth to prove himself worthy, and returned
+the victor in all his quests.  After Hjor died, the townspeople constructed
+this arena in his memory.  --Belourin Stonefist, chief council, year 124
+~
+E
+gold~
+   Hjor the minotaur was an honourable, respected member of the minotaurian
+society, being a heroic warrior and a powerful leader.  One day he was in his
+fighting chamber, practicing new techniques with a trident, when a beautiful
+seductress appeared before him.  She cast an unbreakable charm spell on him,
+and beckoned him to follow her into the town proper.  She then rendered herself
+invisible and ordered Hjor to massacre all of the minotaurs he saw.  Hjor
+struggled with the order, and a great sweat broke out on his massive brow.  He
+fought against the sorceress with all of his heroic might, but to no avail.  
+Finally, he gave in to her wiles, and took his gigantic trident and began to
+slay his kin.  Eventually he was subdued, but by then it was too late.  He
+pleaded his innocence, telling them what happened.  We the council were greatly
+surprised by this claim.  If indeed Hjor had been under a spell, surely we
+could not condemn him to an evil end.  We gave him one chance to prove that he
+was innocent: we told him of a series of trials, or labors that he must
+complete.  The great warrior set forth to prove himself worthy, and returned
+the victor in all his quests.  After Hjor died, the townspeople constructed
+this arena in his memory.    
+--Belourin Stonefist, Chief council, Year 124
+~
+E
+stone~
+   The statue is huge, over nine feet tall.  A large trident is on his right
+hand, and a tower shield is in the other.  The expression in his face is one of
+honor and respect.    
+~
+E
+statue~
+   The statue is huge, over nine feet tall.  A large trident is on his right
+hand, and a tower shield is in the other.  The expression in his face is one of
+honor and respect.    
+~
+S
+#10615
+A Path Around the Arena~
+   Around the arena, large stone pillars prevent you from watching the battles
+without being seated.  Several groans can be heard, with the occasional
+applause from the crowd.  The dense forest to the west prevents any passage
+past the arena.    
+~
+106 c fh 0 0  1
+D1
+~
+~
+0 0 10614 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10616 0 0 0 0 0 0 0 0
+S
+#10616
+A Path Around the Arena~
+   Around the arena, large stone pillars prevent you from watching the battles
+without being seated.  Several groans can be heard, with the occasional
+applause from the crowd.  The dense forest to the west prevents any passage
+past the arena.    
+~
+106 c fh 0 0  1
+D0
+~
+~
+0 0 10617 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10615 0 0 0 0 0 0 0 0
+S
+#10617
+The Spectator Seating~
+   Made entirely of stone, the spectator's seating is comprised of long stone
+benches extending the length of the arena.  The arena is crafted well, with a
+hard-looking dirt floor.  In the center of the arena, the champion prepares for
+his next challenger.    
+~
+106 c fh 0 0  1
+D0
+~
+~
+0 0 10618 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10616 0 0 0 0 0 0 0 0
+S
+#10618
+The Spectator Seating~
+   Made entirely of stone, the spectator's seating is comprised of long stone
+benches extending the length of the arena.  The arena is crafted well, with a
+hard-looking dirt floor.  In the center of the arena, the champion prepares for
+his next challenger.    
+~
+106 c fh 0 0  1
+D0
+~
+~
+0 0 10619 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10617 0 0 0 0 0 0 0 0
+S
+#10619
+The Training Rooms~
+   These rooms seem to have been added on.  Many young warriors are training
+here to prepare for battle in the arena.  The walls are all padded, and
+numerous wooden shields and swords have been hung upon the walls.  The path
+continues to the entrance of the arena.    
+~
+106 c f 0 0  0
+D1
+~
+~
+0 0 10620 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10618 0 0 0 0 0 0 0 0
+S
+#10620
+The Entrance to the Arena~
+   The northern wall is padded much like the training rooms, and the stone
+floor turns into red carpet leading south.  The walls are very narrow south of
+here, and a gleam of light can be seen in the distance.    
+~
+106 c f 0 0  0
+D1
+~
+~
+0 0 10621 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10624 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10619 0 0 0 0 0 0 0 0
+S
+#10621
+The Training Rooms~
+   These rooms seem to have been added on.  Many young warriors are training
+here to prepare for battle in the arena.  The walls are all padded, and
+numerous wooden shields and swords have been hung upon the walls.  The path
+continues to the entrance of the arena.    
+~
+106 c f 0 0  0
+D2
+~
+~
+0 0 10622 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10620 0 0 0 0 0 0 0 0
+S
+#10622
+The Spectator Seating~
+   Made entirely of stone, the spectator's seating is comprised of long stone
+benches extending the length of the arena.  The arena is crafted well, with a
+hard-looking dirt floor.  In the center of the arena, the champion prepares for
+his next challenger.    
+~
+106 c fh 0 0  1
+D0
+~
+~
+0 0 10621 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10623 0 0 0 0 0 0 0 0
+S
+#10623
+The Spectator Seating~
+   Made entirely of stone, the spectator's seating is comprised of long stone
+benches extending the length of the arena.  The arena is crafted well, with a
+hard-looking dirt floor.  In the center of the arena, the champion prepares for
+his next challenger.    
+~
+106 c fh 0 0  1
+D0
+~
+~
+0 0 10622 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10614 0 0 0 0 0 0 0 0
+S
+#10624
+The Stairway to the Arena~
+   The staircase is covered in red carpet, leading right down to the arena.  A
+quick glance shows the champion awaits a challenger.  At the same time someone
+steps on the stairs, the crowd cheers loudly in hopes of seeing a battle.    
+~
+106 0 fh 0 0  1
+D0
+~
+~
+0 0 10620 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10625 0 0 0 0 0 0 0 0
+S
+#10625
+Inside Hjor's Arena~
+   Inside the arena, you are surrounded by spectators.  A small staircase to
+the north leads back out of the arena, and a gate to the west holds what seems
+to be a tiger.  The man who defeats the champion, must defeat the beast to
+claim prize.    
+~
+106 c fh 0 0  1
+D3
+~
+gate~
+1 0 10626 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10624 0 0 0 0 0 0 0 0
+S
+#10626
+The Animal Storage~
+   The room is small and rugged, and is used to house the animal in case of the
+champion being defeated.  The tiger looks mean and vicious, and snarls at your
+very entrance.  A few bones lay in the corner from the tigers past meal,
+although the dust on the bones could mean the tiger hasn't eaten for many days
+yet.    
+~
+106 a h 0 0  0
+D1
+~
+gate~
+1 0 10625 0 0 0 0 0 0 0 0
+S
+$

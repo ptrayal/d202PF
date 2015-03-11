@@ -1,0 +1,616 @@
+Oct  3 09:39:51 :: Using etc/config for configuration.
+Oct  3 09:39:51 :: CircleMUD, version 3.1
+Oct  3 09:39:51 :: OasisOLC 2.0.6
+Oct  3 09:39:51 :: DG Scripts 1.0.14
+Oct  3 09:39:51 :: ASCII Player Files 3.0.1
+Oct  3 09:39:51 :: CWG Rasputin - 1.2.28b
+Oct  3 09:39:51 :: Using lib as data directory.
+Oct  3 09:39:51 :: Running game on port 8000.
+Oct  3 09:39:51 :: Finding player limit.
+Oct  3 09:39:51 ::    Setting player limit to 1016 using rlimit.
+Oct  3 09:39:51 :: Boot db -- BEGIN.
+Oct  3 09:39:51 :: Resetting the game time:
+Oct  3 09:39:51 ::    Current Gametime: 0H 0D 1M 609Y.
+Oct  3 09:39:51 :: Reading news, credits, help, bground, info & motds.
+Oct  3 09:39:51 :: SYSERR: misc/news: string too big (64000 max)
+Oct  3 09:39:51 :: Loading spell definitions.
+Oct  3 09:39:51 :: Loading feats.
+Oct  3 09:39:51 :: Loading level tables.
+Oct  3 09:39:51 :: Base hit for class mage: low
+Oct  3 09:39:51 :: Base hit for class cleric: medium
+Oct  3 09:39:51 :: Base hit for class rogue: medium
+Oct  3 09:39:51 :: Base hit for class fighter: high
+Oct  3 09:39:51 :: Base hit for class monk: medium
+Oct  3 09:39:51 :: Base hit for class paladin: high
+Oct  3 09:39:51 :: Base hit for class barbarian: high
+Oct  3 09:39:51 :: Base hit for class bard: medium
+Oct  3 09:39:51 :: Base hit for class ranger: high
+Oct  3 09:39:51 :: Base hit for class druid: medium
+Oct  3 09:39:51 :: Base hit for class knight: high
+Oct  3 09:39:51 :: Base hit for class templar: high
+Oct  3 09:39:51 :: Base hit for class champion: high
+Oct  3 09:39:51 :: Base hit for class dragon knight: high
+Oct  3 09:39:51 :: Base hit for class dragon priest: medium
+Oct  3 09:39:51 :: Base hit for class dragon wizard: medium
+Oct  3 09:39:51 :: Base hit for class wizard of high sorcery: low
+Oct  3 09:39:51 :: Base hit for class duelist: low
+Oct  3 09:39:51 :: Base hit for class gladiator: low
+Oct  3 09:39:51 :: Base hit for class mystic theurge: low
+Oct  3 09:39:51 :: Base hit for class sorcerer: low
+Oct  3 09:39:51 :: Base hit for class classless: low
+Oct  3 09:39:51 :: Base hit for class dwarven defender: low
+Oct  3 09:39:51 :: Base hit for class weapon master: low
+Oct  3 09:39:51 :: Base hit for class dragon disciple: low
+Oct  3 09:39:51 :: Base hit for class arcane archer: low
+Oct  3 09:39:51 :: Base hit for class invisible blade: low
+Oct  3 09:39:51 :: Base hit for class npc: low
+Oct  3 09:39:51 :: Base hit for class assassin: manual
+Oct  3 09:39:51 :: Base hit for class blackguard: manual
+Oct  3 09:39:51 :: Base hit for class artisan: manual
+Oct  3 09:39:51 :: Base hit for class arcane trickster: manual
+Oct  3 09:39:51 :: Base hit for class favored soul: manual
+Oct  3 09:39:51 :: Base hit for class eldritch knight: manual
+Oct  3 09:39:51 :: Base hit for class pale master: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Base hit for class expansion: manual
+Oct  3 09:39:51 :: Saves for class mage: fort=low, reflex=low, will=high
+Oct  3 09:39:51 :: Saves for class cleric: fort=high, reflex=low, will=high
+Oct  3 09:39:51 :: Saves for class rogue: fort=low, reflex=high, will=low
+Oct  3 09:39:51 :: Saves for class fighter: fort=high, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class monk: fort=high, reflex=high, will=high
+Oct  3 09:39:51 :: Saves for class paladin: fort=high, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class barbarian: fort=high, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class bard: fort=low, reflex=high, will=low
+Oct  3 09:39:51 :: Saves for class ranger: fort=high, reflex=high, will=low
+Oct  3 09:39:51 :: Saves for class druid: fort=high, reflex=low, will=high
+Oct  3 09:39:51 :: Saves for class knight: fort=high, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class templar: fort=high, reflex=low, will=high
+Oct  3 09:39:51 :: Saves for class champion: fort=high, reflex=low, will=high
+Oct  3 09:39:51 :: Saves for class dragon knight: fort=high, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class dragon priest: fort=high, reflex=low, will=high
+Oct  3 09:39:51 :: Saves for class dragon wizard: fort=low, reflex=low, will=high
+Oct  3 09:39:51 :: Saves for class wizard of high sorcery: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class duelist: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class gladiator: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class mystic theurge: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class sorcerer: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class classless: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class dwarven defender: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class weapon master: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class dragon disciple: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class arcane archer: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class invisible blade: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class npc: fort=low, reflex=low, will=low
+Oct  3 09:39:51 :: Saves for class assassin: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class blackguard: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class artisan: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class arcane trickster: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class favored soul: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class eldritch knight: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class pale master: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Saves for class expansion: fort=manual, reflex=manual, will=manual
+Oct  3 09:39:51 :: Loading zone table.
+Oct  3 09:39:51 ::    50 zones, 6000 bytes.
+Oct  3 09:39:51 :: Loading triggers and generating index.
+Oct  3 09:39:51 :: Loading rooms.
+Oct  3 09:39:51 ::    4871 rooms, 1013168 bytes.
+Oct  3 09:39:51 :: Renumbering rooms.
+Oct  3 09:39:51 :: Checking start rooms.
+Oct  3 09:39:51 :: Loading mobs and generating index.
+Oct  3 09:39:51 ::    565 mobs, 18080 bytes in index, 2734600 bytes in prototypes.
+Oct  3 09:39:51 :: Loading objs and generating index.
+Oct  3 09:39:51 ::    743 objs, 23776 bytes in index, 338808 bytes in prototypes.
+Oct  3 09:39:51 :: Warning: object #1217 (@wa lightweight and perfectly balanced steel rapier@n) uses deprecated saving throw applies
+Oct  3 09:39:51 :: SYSERR: Object #2966 (&WE&Dpiales'&rs &WB&Dottomles&rs &WS&Dtei&rn&n) doesn't have drink type as last alias. (epiales bottomless stein red black white)
+Oct  3 09:39:51 :: Warning: object #4025 (@WTabbard of the Faithful@n) uses deprecated saving throw applies
+Oct  3 09:39:51 :: Converted armor #4032 [Golden Hourglass] armor=0 i=0 maxdex=100 acheck=0 sfail=0
+Oct  3 09:39:51 :: Converted armor #4033 [Gown Of Destiny] armor=0 i=0 maxdex=100 acheck=0 sfail=0
+Oct  3 09:39:51 :: Warning: object #4403 (a dragonhide haversack) uses deprecated saving throw applies
+Oct  3 09:39:51 :: Warning: object #4404 (Mask of Darkness) uses deprecated saving throw applies
+Oct  3 09:39:51 :: Warning: object #4411 (Mantle of the Hills) uses deprecated saving throw applies
+Oct  3 09:39:51 :: Warning: object #60002 (a silver bracelet engraved with stylized falcons) uses deprecated saving throw applies
+Oct  3 09:39:51 :: Converted armor #60008 [a set of bright white monks robes embroidered with gold and silver] armor=0 i=0 maxdex=100 acheck=0 sfail=0
+Oct  3 09:39:51 :: Renumbering zone table.
+Oct  3 09:39:51 :: Loading disabled commands list...
+Oct  3 09:39:51 :: Saving converted worldfiles to disk.
+Oct  3 09:39:51 :: OasisOLC: Saving objects 'world/obj/600.obj'
+Oct  3 09:39:51 :: OasisOLC: Saving objects 'world/obj/40.obj'
+Oct  3 09:39:51 :: Loading shops.
+Oct  3 09:39:51 :: Loading quests.
+Oct  3 09:39:51 ::    92 entries, 11776 bytes.
+Oct  3 09:39:51 :: Loading guild masters.
+Oct  3 09:39:51 :: Loading Weapons.
+Oct  3 09:39:51 :: Loading Armor.
+Oct  3 09:39:51 :: Loading Races.
+Oct  3 09:39:51 :: Loading Pets.
+Oct  3 09:39:51 :: Loading Deities.
+Oct  3 09:39:51 :: Setting up fightsort_table
+Oct  3 09:39:51 :: Placing Harvesting Nodes
+Oct  3 09:39:51 :: htree stats (global): 8820 nodes, 1270080 bytes (depth 4/5 used/possible)
+Oct  3 09:39:51 :: Loading help entries.
+Oct  3 09:39:51 ::    3552 entries, 85248 bytes.
+Oct  3 09:39:51 :: Setting up context sensitive help system for OLC
+Oct  3 09:39:51 :: Generating player index.
+Oct  3 09:39:51 :: Loading fight messages.
+Oct  3 09:39:51 :: Loading social messages.
+Oct  3 09:39:51 :: Social table contains 368 socials.
+Oct  3 09:39:51 :: Building command list.
+Oct  3 09:39:51 :: Command info rebuilt, 914 total commands.
+Oct  3 09:39:51 :: Assigning function pointers:
+Oct  3 09:39:51 ::    Mobiles.
+Oct  3 09:39:51 ::    Shopkeepers.
+Oct  3 09:39:51 ::    Objects.
+Oct  3 09:39:51 :: SYSERR: Attempt to assign spec to non-existant obj #2237
+Oct  3 09:39:51 :: SYSERR: Attempt to assign spec to non-existant obj #7024
+Oct  3 09:39:51 ::    Rooms.
+Oct  3 09:39:51 ::    Guildmasters.
+Oct  3 09:39:51 ::    Questmasters.
+Oct  3 09:39:51 :: SYSERR: Quest #3500 has no questmaster specified.
+Oct  3 09:39:51 :: SYSERR: Quest #4503 has no questmaster specified.
+Oct  3 09:39:51 :: Init Object Unique Hash
+Oct  3 09:39:51 :: Booting assembled objects.
+Oct  3 09:39:51 :: Assigning skill levels.
+Oct  3 09:39:51 :: Assigning race skill classes.
+Oct  3 09:39:51 :: Sorting command list and spells.
+Oct  3 09:39:51 :: Booting mail system.
+Oct  3 09:39:51 ::    58640000 bytes read.
+Oct  3 09:39:51 ::    Mail file read -- 5291 messages.
+Oct  3 09:39:51 :: Booting boards system.
+Oct  3 09:39:51 :: No associated object exists when attempting to create a board [vnum 1367].
+Oct  3 09:39:51 :: Board vnum 1367, Version 2
+Oct  3 09:39:51 :: No associated object exists when attempting to create a board [vnum 1369].
+Oct  3 09:39:51 :: Board vnum 1369, Version 2
+Oct  3 09:39:51 :: No associated object exists when attempting to create a board [vnum 1370].
+Oct  3 09:39:51 :: Board vnum 1370, Version 2
+Oct  3 09:39:51 :: There are 9 boards located; 1 messages
+Oct  3 09:39:51 :: Reading banned site and invalid-name list.
+Oct  3 09:39:51 :: Deleting timed-out crash and rent files:
+Oct  3 09:39:51 ::    Done.
+Oct  3 09:39:51 :: Booting houses.
+Oct  3 09:39:51 :: Loading clans.
+Oct  3 09:39:51 :: Loading polls.
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 0 OPTION 1
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '0' AND  `option` = '1'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 1
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '1'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 2
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '2'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 3
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '3'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 4
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '4'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 5
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '5'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 6
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '6'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 7
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '7'
+Oct  3 09:39:52 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:52 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 1
+Oct  3 09:39:52 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '1'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 2
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '2'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 3
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '3'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 4
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '4'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 5
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '5'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 6
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '6'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 7
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '7'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 8
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '8'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 9
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '9'
+Oct  3 09:39:53 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:53 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 1
+Oct  3 09:39:53 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '1'
+Oct  3 09:39:54 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:54 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 2
+Oct  3 09:39:54 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '2'
+Oct  3 09:39:54 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:54 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 3
+Oct  3 09:39:54 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '3'
+Oct  3 09:39:54 :: Cannot connect to mysql database in add poll option.
+Oct  3 09:39:54 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 4
+Oct  3 09:39:54 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '4'
+Oct  3 09:39:54 :: Resetting #0: Limbo (rooms 0-99).
+Oct  3 09:39:54 :: Resetting #1: CODE RESERVED VNUMS DON'T EDIT (rooms 100-199).
+Oct  3 09:39:54 :: Resetting #2: CODE RESERVED VNUMS DON'T EDIT (rooms 200-299).
+Oct  3 09:39:54 :: Resetting #6: Crypt of Shadow I (rooms 600-699).
+Oct  3 09:39:54 :: Resetting #9: Training Pits (Luskan) (rooms 900-999).
+Oct  3 09:39:54 :: Resetting #12: Earth Cultists (rooms 1200-1299).
+Oct  3 09:39:54 :: Resetting #14: Orc Camp - Spine of the World (rooms 1400-1499).
+Oct  3 09:39:54 :: Resetting #15: Fireside Tavern and Gnoll Caverns (rooms 1500-1599).
+Oct  3 09:39:54 :: Resetting #22: Flaming Hand Mercenary Camp (rooms 2200-2299).
+Oct  3 09:39:54 :: Resetting #23: Tainted Druids (Solace) (rooms 2300-2399).
+Oct  3 09:39:54 :: Resetting #26: Luskan Buildings (rooms 2600-2699).
+Oct  3 09:39:54 :: Resetting #27: Immortals Rooms (rooms 2700-2799).
+Oct  3 09:39:54 :: Resetting #28: Dragon's Lair (rooms 2800-2999).
+Oct  3 09:39:54 :: Resetting #30: Luksan (rooms 3000-3299).
+Oct  3 09:39:54 :: Resetting #33: Mud School (rooms 3300-3399).
+Oct  3 09:39:54 :: Resetting #34: D20 School (rooms 3400-3499).
+Oct  3 09:39:54 :: Resetting #35: Luskan Sewers (rooms 3500-3599).
+Oct  3 09:39:54 :: Resetting #36: Ruins of Illusk (rooms 3600-3799).
+Oct  3 09:39:54 :: Resetting #38: Cavern of the fire giants (rooms 3800-3899).
+Oct  3 09:39:54 :: Resetting #40: Neverwinter (rooms 4000-4399).
+Oct  3 09:39:54 :: Resetting #44: Talos`s Zone (rooms 4400-4499).
+Oct  3 09:39:54 :: Resetting #45: Hunters Forest (rooms 4500-4599).
+Oct  3 09:39:54 :: Resetting #46: Moorwaine Swamp (rooms 4600-4699).
+Oct  3 09:39:54 :: Resetting #47: lower crypt (rooms 4700-4799).
+Oct  3 09:39:54 :: Resetting #48: Mirabar (rooms 4800-4998).
+Oct  3 09:39:54 :: Resetting #49: Mirabar 2 (rooms 4999-4999).
+Oct  3 09:39:54 :: Resetting #51: Mere of Dead Men (rooms 5100-5199).
+Oct  3 09:39:54 :: Resetting #52: Gauntlgrym (rooms 5200-5399).
+Oct  3 09:39:54 :: Resetting #60: New Zone (rooms 6000-6399).
+Oct  3 09:39:54 :: Resetting #100: Chult (rooms 10000-10199).
+Oct  3 09:39:54 :: Resetting #102: Dwarven Stronghold (rooms 10200-10399).
+Oct  3 09:39:54 :: Resetting #104: Mezro (rooms 10400-10599).
+Oct  3 09:39:54 :: Resetting #106: Ubtao's Temple (rooms 10600-10799).
+Oct  3 09:39:54 :: Resetting #108: Chult (rooms 10800-10999).
+Oct  3 09:39:54 :: Resetting #110: Under the mines of Mirabar (rooms 11000-11099).
+Oct  3 09:39:54 :: Resetting #120: Undermountain Level I (rooms 12000-12199).
+Oct  3 09:39:54 :: Resetting #300: Stock Objects and Mobs I (rooms 30000-30099).
+Oct  3 09:39:54 :: Resetting #301: Stock Objects and Mobs II (rooms 30100-30199).
+Oct  3 09:39:54 :: Resetting #302: Quest Rewards I (rooms 30200-30299).
+Oct  3 09:39:54 :: Resetting #500: Road-Neverwinter/Luskan (rooms 50000-50199).
+Oct  3 09:39:54 :: Resetting #502: Road-Luskan/Mirabar (rooms 50200-50499).
+Oct  3 09:39:54 :: Resetting #505: Road-Neverwinter/Waterdeep (rooms 50500-50849).
+Oct  3 09:39:54 :: Resetting #508: Road-Waterdeep/Triboar (rooms 50850-51049).
+Oct  3 09:39:54 :: Resetting #510: Road-Silverymoon/Triboar (rooms 51050-51449).
+Oct  3 09:39:54 :: Resetting #514: Road-Mirabar/Triboar (rooms 51450-51799).
+Oct  3 09:39:54 :: Resetting #596: Whack-a-Mole (rooms 59600-59699).
+Oct  3 09:39:54 :: Resetting #597: Quests (rooms 59700-59799).
+Oct  3 09:39:54 :: Resetting #598: Vehicles (rooms 59800-59899).
+Oct  3 09:39:54 :: Resetting #599: Player Housing (rooms 59900-59999).
+Oct  3 09:39:54 :: Resetting #600: Crafting Items (rooms 60000-65000).
+Oct  3 09:39:54 :: Boot db -- DONE.
+Oct  3 09:39:54 :: Signal trapping.
+Oct  3 09:39:54 :: Copyover recovery initiated
+Oct  3 09:39:54 :: Cannot connect to mysql database in enter player game.
+Oct  3 09:39:54 :: Gicker un-renting and entering game.
+Oct  3 09:39:54 :: Gicker (level 1) has 0 objects (max 1000).
+Oct  3 09:39:54 :: Gicker had no variable file
+Oct  3 09:39:54 :: Cannot connect to mysql database in note_list_all_cats.
+Oct  3 09:39:54 :: Entering game loop.
+Oct  3 09:39:55 :: SYSERR: a goblin guard (#50002): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a gargoyle (#10209): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the blacksmith training teacher (#4804): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the blacksmith training teacher (#4804): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the blacksmith training teacher (#4804): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the blacksmith training teacher (#4804): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the stone dwarf cook, Delshar Dorrak (#4904): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a Stone Giant Shaman (#4400): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an indifferent bank teller (#3012): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: Shira, the rogue trainer (#3028): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a member of the High Judge's Elite Guard (#3046): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a visiting mage (#3047): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a visiting mage (#3047): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a visiting mage (#3047): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a visiting mage (#3047): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a visiting mage (#3047): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a visiting mage (#3047): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a disheveled commoner (#3014): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the troll shaman (#1511): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the troglodyte cleric (#1507): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a short woman with long red hair (#1519): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an old sage (#1518): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a shifty looking individual (#1521): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1219): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a devout worshiper (#1218): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a noxious, green vaporous cloud (#1217): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a raving heretic (#1223): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist convert (#1205): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist convert (#1205): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: High earth cultist Malis (#1213): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the temple priest (#1210): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: Master Tolbert (#1215): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: the master's apprentice (#920): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an acolyte summoner (#903): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: Renthilos (#901): Attempting to call non-existing mob function.
+Oct  3 09:39:55 :: SYSERR: an undead priest of Cyric (#605): Attempting to call non-existing mob function.
+Oct  3 09:40:00 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:00 :: Cannot set online status to 0
+Oct  3 09:40:00 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:00 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:00 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:00 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:00 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:06 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:06 :: Cannot set online status to 0
+Oct  3 09:40:06 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:06 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:06 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:06 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:06 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:12 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:12 :: Cannot set online status to 0
+Oct  3 09:40:12 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:12 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:12 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:12 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:12 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:18 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:18 :: Cannot set online status to 0
+Oct  3 09:40:18 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:18 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:18 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:18 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:18 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:24 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:24 :: Cannot set online status to 0
+Oct  3 09:40:24 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:24 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:24 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:24 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:24 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:30 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:30 :: Cannot set online status to 0
+Oct  3 09:40:30 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:30 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:30 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:30 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:30 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:36 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:36 :: Cannot set online status to 0
+Oct  3 09:40:36 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:36 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:36 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:36 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:36 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:42 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:42 :: Cannot set online status to 0
+Oct  3 09:40:42 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:42 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:42 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:42 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:42 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:48 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:48 :: Cannot set online status to 0
+Oct  3 09:40:48 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:48 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:48 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:48 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:48 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:40:54 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:54 :: Cannot set online status to 0
+Oct  3 09:40:54 :: Cannot connect to mysql database in point update.
+Oct  3 09:40:54 :: Cannot set delete Gicker from player_data table
+Oct  3 09:40:54 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:40:54 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:40:54 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:41:00 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:00 :: Cannot set online status to 0
+Oct  3 09:41:00 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:00 :: Cannot set delete Gicker from player_data table
+Oct  3 09:41:00 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:41:00 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:41:00 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:41:06 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:06 :: Cannot set online status to 0
+Oct  3 09:41:06 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:06 :: Cannot set delete Gicker from player_data table
+Oct  3 09:41:06 :: Cannot insert data for Gicker into player_data table
+Oct  3 09:41:06 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('1','1','Gicker','Gicker','Gicker', '0','None', NOW(), '0.000000', '0', 'Mage 1 / Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '4', '0')
+Oct  3 09:41:06 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:41:10 :: Gicker has self-deleted.
+Oct  3 09:41:10 :: PCLEAN: gicker Lev: 1 Last: Wed Oct  3 09:41:10 2012
+Oct  3 09:41:12 :: Cannot connect to mysql database in enter player game.
+Oct  3 09:41:12 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:12 :: Cannot set online status to 0
+Oct  3 09:41:13 :: Elvis has connected.
+Oct  3 09:41:13 :: Elvis [127.0.0.1] has connected.
+Oct  3 09:41:14 :: Cannot connect to mysql database in enter player game.
+Oct  3 09:41:14 :: Cannot set forum_exp to 0 for gicker from player_extra_data table
+Oct  3 09:41:14 :: Cannot set delete Elvis from player_data table
+Oct  3 09:41:14 :: Elvis un-renting and entering game.
+Oct  3 09:41:14 :: Elvis (level 1) has 0 objects (max 1000).
+Oct  3 09:41:14 :: Elvis had no variable file
+Oct  3 09:41:14 :: Cannot connect to mysql database in note_list_all_cats.
+Oct  3 09:41:18 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:18 :: Cannot set online status to 0
+Oct  3 09:41:18 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:18 :: Cannot set delete Elvis from player_data table
+Oct  3 09:41:18 :: Cannot insert data for Elvis into player_data table
+Oct  3 09:41:18 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('2','1','Elvis','Elvis','Elvis', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '0', '0')
+Oct  3 09:41:18 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:41:24 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:24 :: Cannot set online status to 0
+Oct  3 09:41:24 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:24 :: Cannot set delete Elvis from player_data table
+Oct  3 09:41:24 :: Cannot insert data for Elvis into player_data table
+Oct  3 09:41:24 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('2','1','Elvis','Elvis','Elvis', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'gicker', '0', '0')
+Oct  3 09:41:24 :: Cannot insert data for gicker into player_forum_data table
+Oct  3 09:41:25 :: Elvis has self-deleted.
+Oct  3 09:41:25 :: PCLEAN: elvis Lev: 1 Last: Wed Oct  3 09:41:25 2012
+Oct  3 09:41:27 :: Cannot connect to mysql database in enter player game.
+Oct  3 09:41:30 :: Cannot connect to mysql database in point update.
+Oct  3 09:41:30 :: Cannot set online status to 0
+Oct  3 09:41:32 :: WARNING: EOF on socket read (connection broken by peer)
+Oct  3 09:41:32 :: Losing player: Elvis.
+Oct  3 09:41:32 :: No connections.  Going to sleep.
+Oct  3 09:48:11 :: New connection.  Waking up.
+Oct  3 09:48:15 :: Cannot connect to mysql database in point update.
+Oct  3 09:48:15 :: Cannot set online status to 0
+Oct  3 09:48:18 :: WARNING: EOF on socket read (connection broken by peer)
+Oct  3 09:48:18 :: No connections.  Going to sleep.

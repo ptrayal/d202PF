@@ -1,0 +1,873 @@
+#9900
+In View of Vingaard Keep~
+   The beautiful Vingaard Keep spans high overhead.  The sounds of marching and
+patroling knights can heard in the near off distance.  Trees sway back and
+forth in the gentle breeze and the various animals can be seen scowering for
+food.    
+~
+99 0 h 0 0  2
+D2
+~
+~
+0 0 9901 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 8170 0 0 0 0 0 0 0 0
+S
+#9901
+Approaching Vingaard Keep~
+   The road heads off straight for a large stone structure known as Vingaard
+Keep to the north.  The Keep is a major stronghold for the Knights of Solamnia,
+fuarding the Vingaard River.  Once there, the road slowly begins to lead off
+towards Palanthas.    
+~
+99 0 h 0 0  2
+D0
+~
+~
+0 0 9900 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9902 0 0 0 0 0 0 0 0
+S
+#9902
+In View of the Vingaard River~
+   The plains grass surrounds you on all sides, broken only in the far distance
+and by the Vingaard River, which you walk along.  Far to the north, along this
+river, is Vingaard Keep, the first major stronghold of the Solamnic Knights on
+the northern Plains.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9903 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9901 0 0 0 0 0 0 0 0
+S
+#9903
+Along the Banks of the Vingaard River~
+   The plains grass surrounds you on all sides, broken only in the far distance
+and by the Vingaard River, which you walk along.  Far to the west, along this
+river, is Vingaard Keep, the first major stronghold of the Solamnic Knights on
+the northern Plains.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9904 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9902 0 0 0 0 0 0 0 0
+S
+#9904
+Along the Banks of the Vingaard River~
+   The plains grass surrounds you on all sides, broken only in the far distance
+and by the Vingaard River, which you walk along.  Far to the west, along this
+river, is Vingaard Keep, the first major stronghold of the Solamnic Knights on
+the northern Plains.    
+~
+99 0 h 0 0  2
+D3
+~
+~
+0 0 9903 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9905 0 0 0 0 0 0 0 0
+S
+#9905
+Wandering a Lesser Traveled Road~
+   The sounds of the Vingaard river can be heard echoing off to the south.  A
+small trail slowly begins to open up, filled with trees to both sides of the
+path.  The sounds of animal life can heared, though none can be seen.  The
+small trail continues off to the east, and back to the southwest.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9906 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9904 0 0 0 0 0 0 0 0
+S
+#9906
+Wandering a Lesser Traveled Road~
+   The sounds of the Vingaard river can be heard echoing off to the south.  A
+small trail slowly begins to open up, filled with trees to both sides of the
+path.  The sounds of animal life can heared, though none can be seen.  The
+small trail continues off to the southeast, and back to the west.    
+~
+99 0 h 0 0  2
+D3
+~
+~
+0 0 9905 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9907 0 0 0 0 0 0 0 0
+S
+#9907
+Wandering a Lesser Traveled Road~
+   The sounds of the Vingaard river can be heard echoing off to the south.  A
+small trail slowly begins to open up, filled with trees to both sides of the
+path.  The sounds of animal life can heared, though none can be seen.  The
+small trail continues off to the east, and back to the northwest.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9908 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9906 0 0 0 0 0 0 0 0
+S
+#9908
+Along the Lesser Traveled Road~
+   The sounds of the Vingaard river slowly fade out as the road continues both
+east, and west.  Trees continue to line the way of the road on both sides,
+while animal sounds can be detected, but still no animals to be seen.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9909 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9907 0 0 0 0 0 0 0 0
+S
+#9909
+Along the Lesser Traveled Road~
+   The road continues to span off to the east, and back to the west.  A small
+mountain range can be seen not too far off in the distance.  The trees contine
+to form walls alongside of the road, too thick to allow anyone to pass through
+them.  Sounds of animals can be heard, though none appear to be seen.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9910 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9908 0 0 0 0 0 0 0 0
+S
+#9910
+Along the Lesser Traveled Road~
+   The road continues to span off to the east, and back to the west.  A small
+mountain range can be seen not too far off in the distance.  The trees contine
+to form walls alongside of the road, too thick to allow anyone to pass through
+them.  Sounds of animals can be heard, though none appear to be seen.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9911 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9909 0 0 0 0 0 0 0 0
+S
+#9911
+Along the Lesser Traveled Road~
+   The road continues to span off to the east, and back to the west.  A small
+mountain range can be seen not too far off in the distance.  The trees contine
+to form walls alongside of the road, too thick to allow anyone to pass through
+them.  Sounds of animals can be heard, though none appear to be seen.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9912 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9910 0 0 0 0 0 0 0 0
+S
+#9912
+Along the Lesser Traveled Road~
+   The road continues to span off to the east, and back to the west.  A small
+mountain range can be seen not too far off in the distance.  The trees contine
+to form walls alongside of the road, too thick to allow anyone to pass through
+them.  Sounds of animals can be heard, though none appear to be seen.  A small
+trail can be seen heading off to the northeast.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9913 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9911 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9914 0 0 0 0 0 0 0 0
+S
+#9913
+Against the Mountain~
+   A large, rocky mountain spans up before you.  Its rocky slope proving to be
+impassable in this direction.  The path continues back to the west, where the
+trees act as walls to the road.    
+~
+99 0 h 0 0  2
+D3
+~
+~
+0 0 9912 0 0 0 0 0 0 0 0
+S
+#9914
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the northeast, and back to the southwest.    
+~
+99 0 h 0 0  2
+D7
+~
+~
+0 0 9915 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9912 0 0 0 0 0 0 0 0
+S
+#9915
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the northeast, and back to the southwest.    
+~
+99 0 h 0 0  2
+D7
+~
+~
+0 0 9916 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9914 0 0 0 0 0 0 0 0
+S
+#9916
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the southwest.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9917 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9915 0 0 0 0 0 0 0 0
+S
+#9917
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9918 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9916 0 0 0 0 0 0 0 0
+S
+#9918
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9919 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9917 0 0 0 0 0 0 0 0
+S
+#9919
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9920 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9918 0 0 0 0 0 0 0 0
+S
+#9920
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9921 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9919 0 0 0 0 0 0 0 0
+S
+#9921
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9922 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9920 0 0 0 0 0 0 0 0
+S
+#9922
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9923 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9921 0 0 0 0 0 0 0 0
+S
+#9923
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9924 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9922 0 0 0 0 0 0 0 0
+S
+#9924
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9925 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9923 0 0 0 0 0 0 0 0
+S
+#9925
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the southeast, and back to the west.    
+~
+99 0 h 0 0  2
+D3
+~
+~
+0 0 9924 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9926 0 0 0 0 0 0 0 0
+S
+#9926
+Alone the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the southeast, and back to the northwest.    
+~
+99 0 h 0 0  2
+D6
+~
+~
+0 0 9925 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9927 0 0 0 0 0 0 0 0
+S
+#9927
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the southeast, and back to the northwest.    
+~
+99 0 h 0 0  2
+D6
+~
+~
+0 0 9926 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9928 0 0 0 0 0 0 0 0
+S
+#9928
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the northwest.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9929 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9927 0 0 0 0 0 0 0 0
+S
+#9929
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9930 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9928 0 0 0 0 0 0 0 0
+S
+#9930
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9931 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9929 0 0 0 0 0 0 0 0
+S
+#9931
+Around the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9932 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9930 0 0 0 0 0 0 0 0
+S
+#9932
+Around the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9933 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9931 0 0 0 0 0 0 0 0
+S
+#9933
+Around the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the north, and back to the west.    
+~
+99 0 h 0 0  2
+D0
+~
+~
+0 0 9934 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9932 0 0 0 0 0 0 0 0
+S
+#9934
+Around the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off the the north, and back to the south.    
+~
+99 0 h 0 0  2
+D0
+~
+~
+0 0 9935 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9933 0 0 0 0 0 0 0 0
+S
+#9935
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail leads up onto some mountainous trail, and back to the south.    
+~
+99 0 h 0 0  2
+D2
+~
+~
+0 0 9934 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9936 0 0 0 0 0 0 0 0
+S
+#9936
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+southeast, and back down to the forsest floor.    
+~
+99 0 h 0 0  5
+D5
+~
+~
+0 0 9935 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9937 0 0 0 0 0 0 0 0
+S
+#9937
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+southeast, and back to the northwest.    
+~
+99 0 h 0 0  5
+D6
+~
+~
+0 0 9936 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9938 0 0 0 0 0 0 0 0
+S
+#9938
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+east, and back to the northwest.    
+~
+99 0 h 0 0  5
+D1
+~
+~
+0 0 9939 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9937 0 0 0 0 0 0 0 0
+S
+#9939
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+southeast, and back to the west.    
+~
+99 0 h 0 0  5
+D3
+~
+~
+0 0 9938 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9940 0 0 0 0 0 0 0 0
+S
+#9940
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+east, and back to the northwest.    
+~
+99 0 h 0 0  5
+D1
+~
+~
+0 0 9941 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9939 0 0 0 0 0 0 0 0
+S
+#9941
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+east, and back to the west.    
+~
+99 0 h 0 0  5
+D1
+~
+~
+0 0 9942 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9940 0 0 0 0 0 0 0 0
+S
+#9942
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+east, and back to the west.    
+~
+99 0 h 0 0  5
+D1
+~
+~
+0 0 9943 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9941 0 0 0 0 0 0 0 0
+S
+#9943
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+east, and back to the west.    
+~
+99 0 h 0 0  5
+D1
+~
+~
+0 0 9944 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9942 0 0 0 0 0 0 0 0
+S
+#9944
+Along a Mountain Trail~
+   A rocky slope slowly ascends upwards, gripping the sides of this vast
+mountain range.  The dense forest can now be seen from below, the green
+treetops acting like a grassy floor below.  The trail continues off to the
+east, and back to the west.    
+~
+99 0 h 0 0  5
+D1
+~
+~
+0 0 9945 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9943 0 0 0 0 0 0 0 0
+S
+#9945
+Along a Mountain Trail~
+   A rocky slope slowly descends downwards gripping the sides of this vast
+mountain range.  The dense forest once again begins to open up beneath you,
+while trees stand on both sides.  The trail leads down off the mountain, and
+back to the west.    
+~
+99 0 h 0 0  5
+D3
+~
+~
+0 0 9944 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9946 0 0 0 0 0 0 0 0
+S
+#9946
+Along the Base of the Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off to the southeast, and back up to the mountain trail.  
+~
+99 0 h 0 0  2
+D4
+~
+~
+0 0 9945 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9947 0 0 0 0 0 0 0 0
+S
+#9947
+Along the Base of the Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off to the east, and back to the northwest.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9948 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9946 0 0 0 0 0 0 0 0
+S
+#9948
+Along the Base of a Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off to the east, and back to the west.    
+~
+99 0 h 0 0  2
+D1
+~
+~
+0 0 9949 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9947 0 0 0 0 0 0 0 0
+S
+#9949
+Along the Base of the Mountain~
+   Trees stand to one side of the road, too thick to pass through, while the
+base of a large, rocky mountain stands to the other.  Smaller pieces of
+mountain rock can be heard, as well as seen sliding down the mountains side.  
+The trail continues off to the southeast, and back to the west.    
+~
+99 0 h 0 0  2
+D3
+~
+~
+0 0 9948 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9950 0 0 0 0 0 0 0 0
+S
+#9950
+An Opening in the Trail~
+   The mountain side slowly begins to open up, as the forest spans away from
+the trail.  A large fortress can be seen not too far off to the southeast.  A
+large darkness seems to loom higher over the structure, giving off a strange
+earie vibe.    
+~
+99 0 h 0 0  0
+D6
+~
+~
+0 0 9949 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11600 0 0 0 0 0 0 0 0
+S
+#9951
+A new room~
+You are in a room.
+~
+99 0 0 0 0  0
+S
+$

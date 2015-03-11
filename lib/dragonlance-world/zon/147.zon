@@ -1,0 +1,66 @@
+#147
+None.~
+Clan Halls (Chem)~
+14700 14799 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0 14706     0     1   0   101     1    -10 
+
+O 0 14700     1 14701   0   100     2    -1          0 a fountain crafted from three moons
+
+D 0 14701     2     1   0   101     3    -10 
+
+O 0 14702     1 14702   0   100     4    -1          0 an exquisitely carved cherrywood bookcase
+
+O 0 14706     1 14708   0   100     5    -1          0 a granite board
+
+O 0 14705     1 14708   0   100     6    -1          0 an altar carved with various woodland scenes
+
+D 0 14708     2     2   0   101     7    -10 
+
+M 0 14702     1 14707   1   100     8    -1          0 a gentle rolling flame
+
+D 0 14707     0     2   0   101     9    -10 
+
+O 0 14704     1 14709   0   100    10     1          0 a refreshing spring of cold water
+
+M 0 14703     1 14711   1   100    11    -1          0 a sivak guardian
+
+O 0 14708     1 14715   0   100    12    -1          0 a fountain etched with the images of various dragons
+
+D 0 14716     3     2   0   101    13    -10 
+
+M 0 14704     1 14716   1   100    14    -1          0 a knight of the sword
+
+O 0 14715     1 14717   0   100    15    -1          0 an exquisite banner crafted from bronze thread
+
+O 0 14710     1 14717   0   100    16    -1          0 a fountain crafted in the shape of a dragon
+
+D 0 14717     1     2   0   101    17    -10 
+
+O 0 14711     1 14718   0   100    18    -1          0 a wooden bulletin board
+
+O 0 14701     1 14703   0   100    19    -1          0 a floating bulletin board
+
+O 0 14707     1 14710   0   100    20    -1          0 a sturdy oak board
+
+O 0 14709     1 14713   0   100    21    -1          0 a cobalt colored board
+
+O 0 14712     1 14719   0   100    22    -1          0 a silver water basin
+
+D 0 14719     8     2   0   101    23    -10 
+
+D 0 14719     0     1   0   101    24    -10 
+
+M 0 14705     1 14720   1   100    25    -1          0 an agile being
+
+D 0 14720     7     2   0   101    26    -10 
+
+O 0 14713     1 14721   0   100    27    -1          0 a silver lined bulletin board
+
+M 0 14707     1 14722   1   100    28    -1          0 an orb of shifting colors
+
+S
+$

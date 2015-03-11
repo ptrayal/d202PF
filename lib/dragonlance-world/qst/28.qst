@@ -1,0 +1,182 @@
+#2800
+Oracle asks to kill Ogre barbarians~
+Oracle asks to kill Ogre barbarians~
+@C'Welcome Hero.@Y I'm glad you have come, the need is great and our goal will require all of your skills to accomplish.@C But accomplish it you must."@n
+
+"This castle used to belong to good people until the @rOgre Magi@n invaded and murdered every person living here."
+
+"The @rOgres@n insatiable greed drove him to devise a plan for conquering our world. Using the wealth from his conquests, he hired an army of @Rmercenaries@n to attack the nearest town. He intended to conquer town after town until the entire region was under his control."
+
+"However, he was never able to complete his plans... He accidentally awoke a @gdragon@n who now waits at the castle entrance for easy meals."
+
+"The @gdragon@n is much too powerful for the @rOgre@n to destroy, so he must wait for the @gdragon's@n departure or demise to proceed with his plan for world domination."
+
+"The @gdragon@n is a force of destruction that must be eliminated.  However, we cannot do so until the @rOgre@n and his army have been vanquished."
+
+"The first step to conquering the @rOgre@n is to sow chaos in his army of mercenaries."
+
+@C"I charge @MYOU@C, hero, with the destruction of @Y20 ogre barbarians@C who make up part of the @rOgres@C army"@n
+~
+
+@C"You have accomplished much @Rhero@C, but we still have much to do"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2812 -1 2801 -1
+25 0 15 61 -1 -1 20
+500 5 65535
+S
+#2801
+Kill the army's lieutenants~
+Kill the army's lieutenants~
+@n"Now that the @rOgre's@n army is in disarray, you may take advantage of their weakness to kill their lieutenants. The @Ggoblin@n lieutenants are seasoned veterans that will not be as easy to defeat as the drunken soldiers. Their deaths will add to the confusion and lower the morale of the army."
+~
+
+@C"You have accomplished much @Rhero@C, but we still have much to do"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2850 -1 2802 -1
+25 0 15 61 -1 -1 6
+2000 5 65535
+S
+#2802
+Kill the captains to create chaos~
+Kill the captains to create chaos~
+@C" Your success is great indeed!"@n
+
+"This is the perfect opportunity to strike a fatal blow to the @rOgres@n army.  Kill the @yOgre Captains@n and the armys resistance will crumble"
+~
+
+@C"You have accomplished much @Rhero@C, but we still have much to do"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2849 -1 2803 -1
+50 0 17 61 -1 -1 3
+3000 5 65535
+S
+#2803
+Get rid of the guards to the Ogre's roo~
+Get rid of the guards to the Ogre's room~
+@n"Thanks to you, the @rOgre's@n army will not be a danger to anyone for a while. The chain of command has been broken and it will take time to restore order and promote replacements to lead them."
+
+@C"However@n, the @rOgre@n still has several faithful @Yguards@n to protect him. Be warned, they will attack first and not bother to ask questions later. These @Yguards@n are the last obstacle to reaching the @rOgre Magi's@n quarters and must be eliminated ."
+
+@Y"Kill 10 guards to gain access to the @rOgre's@Y quarters."@n
+~
+
+@C"You have accomplished much @Rhero@C, but we still have much to do"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2811 -1 2804 -1
+50 0 17 61 -1 -1 10
+2000 5 65535
+S
+#2804
+Time to kill the Ogre Magi~
+Time to kill the Ogre Magi~
+@C"Now is your opportunity to rid our land of one of its greatest threats. Although the @rOgre Magi@C is not unprotected, this is your best chance to strike at him."
+
+@Y"Kill The @rOgre Magi@Y and avenge his victims in my name."@n
+~
+
+@C"You have done much for this land my @Rhero@C, and yet, our work is not finished"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2847 -1 2805 -1
+100 0 20 61 -1 -1 1
+5000 5 65535
+S
+#2805
+Erradicate the elder ooze paraelemental~
+Erradicate the elder ooze paraelemental~
+@C"I congratulate you on your victory. This was no small feat."@n
+
+@C"However@n, I am afraid that your work is not yet finished. The @rOgre@n had not just hired an army and created @rGolems@n to protect him, he had also acquired a @GDeep@cspawn@n. This horrid creature was placed in the castle and has infected the area with its dark magic."
+
+"All sorts of terrors are present here that must be destroyed before we can strike at the @gdragon@n.
+
+@Y"Your next task is to eliminate the elder ooze paraelemental created by the @GDeep@cspawn@n."
+~
+
+@C"You have accomplished much @Rhero@C, but we still have much to do"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2805 -1 2806 -1
+25 0 10 61 -1 -1 1
+2000 5 65535
+S
+#2806
+Destroy the a massive yellow musk creep~
+Destroy the a massive yellow musk creeper~
+@n"The @GDeep@cspawn@n wisely created three horrors to serve as his own captains. His plan was to have them keep each other in check, so that they would lack the power to challenge their creator."
+
+"The first captain was the @Yelder ooze paraelemental@n; the second is a @Ymassive yellow musk creeper@n."
+
+@C"Having one eliminated makes it easier for the next to rise in power.@Y  Kill the musk creeper quickly Hero, before it grows in strength!"@n
+~
+
+@C"You have accomplished much @Rhero@C, but we still have much to do"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2806 -1 2807 -1
+50 0 15 61 -1 -1 1
+3000 5 65535
+S
+#2807
+Defeat the collosal man eating vine~
+Defeat the collosal man eating vine~
+@n"As I said before, the horrors become more powerful when their rivals have been eliminated. There is but one left, and it has already @Mgrown in power@n. If it is not stopped soon, it will grow as mighty as the @GDeep@cspawn@n himself."
+
+@Y"Your next task, Hero, is to defeat the colossal man eating plant."@n
+~
+
+@C"You have accomplished much @Rhero@C, but we still have much to do"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2901 -1 2808 -1
+50 0 17 61 -1 -1 1
+3000 5 65535
+S
+#2808
+It's time for the Deepspawn~
+It's time for the Deepspawn~
+@n"Your actions have lessened the @GDeep@cspawns@n magical influence in the castle, @Mit is now time to eradicate it completely."@n
+
+@YDestroy the @GDeep@cspawn@Y before he fills the void left by the @rOgre Magi@Y."@n
+~
+
+@Y"The quest is almost at it's completion, @Mwell done Hero"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2946 -1 2809 -1
+100 0 20 61 -1 -1 1
+5000 5 65535
+S
+#2809
+The Green Dragon~
+The Green Dragon~
+@c"The end is within sight now. One last task awaits you.  Since you have rid our lands of the @rOgre@c and his dark minions, we can focus our efforts on eliminating the @gdragon@c."@n
+
+@M"Hero of old@Y, this will be a mighty task indeed, but you must kill the @gdragon@Y and remove her evil once and for all"@n
+~
+@Y"The land owes you a great debt @MHero@Y."
+
+@C"The land will eventually finish erasing the evil that used to emanate from this place"
+
+@Y"Here is something to show my gratitude and that of the rest of the gods"@n
+~
+You have abandoned the quest.
+~
+3 2970 0 2902 -1 -1 -1
+250 0 25 61 -1 -1 1
+10000 5 65535
+S
+$~

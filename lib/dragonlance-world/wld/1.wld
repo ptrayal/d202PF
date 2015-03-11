@@ -1,0 +1,1622 @@
+#100
+Floating in Thin Air~
+   You are floating in thin air.  The only obvious way to travel from here is
+down into the world of Krynn.  You have not yet become corporeal, but will be
+soon, if you measure up.  Please read the help newbie files and see the policy
+board to make your stay a good one.    
+~
+1 dh 0 0 0 0
+D0
+A spectral minion comes for you!
+~
+door~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 30000 0 0 0 0 0 0 0 0
+S
+#101
+Before the Gates of the Hall of Brotherhood~
+   The Hall of Brotherhood is a small, independent castle owned by two
+brothers.  It is open as a place for young fighters to learn the arts of
+combat.  The facilities are financed by kingdoms that come here to recruit
+fresh, able knights.    
+~
+1 0 0 0 0 3
+D0
+~
+gates~
+1 0 102 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+E
+sign~
+The Hall of Brotherhood: Welcome All.  
+~
+S
+#102
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of outdoors.  This courtyard is a rectangular
+field used to practice the basics of swordsmanship.  The iron gates are south.
+  
+~
+1 c 0 0 0 2
+D0
+~
+~
+0 0 105 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 150 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 101 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 154 0 0 0 0 0 0 0 0
+S
+#103
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  The courtyard is bound by a
+gray stone wall eight feet high.  Atop of the wall junction is a flag pole with
+a red flag waving in the wind.    
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 106 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 150 0 0 0 0 0 0 0 0
+S
+#104
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  The courtyard is bound by a
+gray stone wall eight feet high.  The number '104' is written in gold ink low
+on the wall.    
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 107 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 154 0 0 0 0 0 0 0 0
+S
+#105
+In the Front Courtyard, Before the Keep~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  The entrance to the castle
+keep is directly north.  The large wooden doors stand open.  The coat of arms
+is on a crest above the door.    
+~
+1 c 0 0 0 2
+D0
+~
+doors~
+1 0 163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 151 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 102 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 153 0 0 0 0 0 0 0 0
+S
+#106
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  The stone wall lies west,
+and the wall of the keep lies north.  A small path leads around the corner of
+the keep to another courtyard.    
+~
+1 0 0 0 0 2
+D2
+~
+~
+0 0 103 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 151 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 196 0 0 0 0 0 0 0 0
+S
+#107
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  The stone wall lies west,
+and the wall of the keep lies north.  A small path leads around the corner of
+the keep to another courtyard.    
+~
+1 0 0 0 0 2
+D1
+~
+~
+0 0 153 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 104 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 194 0 0 0 0 0 0 0 0
+S
+#108
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 111 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 109 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#109
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 110 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 196 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 108 0 0 0 0 0 0 0 0
+S
+#110
+On the Walk at the Entrance to the Arena~
+You are in a room.
+~
+1 c 0 0 0 0
+D0
+~
+~
+0 0 118 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 119 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 109 0 0 0 0 0 0 0 0
+S
+#111
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 112 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 108 0 0 0 0 0 0 0 0
+S
+#112
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 125 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 111 0 0 0 0 0 0 0 0
+S
+#113
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 123 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 114 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 125 0 0 0 0 0 0 0 0
+S
+#114
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D1
+~
+~
+0 0 149 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 113 0 0 0 0 0 0 0 0
+S
+#115
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 149 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#116
+In the Arena Ring~
+You are in a room.
+~
+1 i 0 0 0 0
+D0
+~
+~
+0 0 117 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 118 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#117
+In the Arena Ring~
+You are in a room.
+~
+1 i 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 120 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 129 0 0 0 0 0 0 0 0
+S
+#118
+In the Arena Ring~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 120 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 116 0 0 0 0 0 0 0 0
+S
+#119
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 121 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 110 0 0 0 0 0 0 0 0
+S
+#120
+In the Arena Ring~
+You are in a room.
+~
+1 i 0 0 0 0
+D2
+~
+~
+0 0 118 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 117 0 0 0 0 0 0 0 0
+S
+#121
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 115 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 119 0 0 0 0 0 0 0 0
+S
+#122
+A new room~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 124 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#123
+the hospital~
+At the entrance to the hospital tent.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 126 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 113 0 0 0 0 0 0 0 0
+S
+#124
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 2
+D1
+~
+~
+0 0 126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#125
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 113 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#126
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 147 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 152 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 124 0 0 0 0 0 0 0 0
+S
+#127
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 133 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 128 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#128
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 132 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 127 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 195 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 130 0 0 0 0 0 0 0 0
+S
+#129
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 0
+S
+#130
+In the West Courtyard~
+   The gray stone wall surrounding the courtyard here is only 3 feet high.  
+The grass here is still very green and cut neatly.  The joust, where warriors
+test their prowess, is in the center of the courtyard.    
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 131 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 128 0 0 0 0 0 0 0 0
+S
+#131
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 137 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 130 0 0 0 0 0 0 0 0
+S
+#132
+Below the Joust Ladder~
+   A crude wooden staircase leads up to the jousting beam.  The stairs are so
+steep that you must climb it like a ladder.  There seems to be little extra
+room here or at the top.  The grass in directly front of the steps is worn to
+the dirt.    
+~
+1 ci 0 0 0 0
+D2
+~
+~
+0 0 128 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 146 0 0 0 0 0 0 0 0
+S
+#133
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#134
+Under the Jousting Beam~
+   The jousting beam high overhead is squeaky and aged.  It's only 2 feet wide,
+but the shade from it has killed the grass.  Blood and broken armor lie on the
+ground, probably all from today's fights.  The courtyard is brightly lit east
+and west.    
+~
+1 acd 0 0 0 0
+D1
+~
+~
+0 0 136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 137 0 0 0 0 0 0 0 0
+S
+#135
+A new room~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#136
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 143 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 133 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 134 0 0 0 0 0 0 0 0
+S
+#137
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 138 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 131 0 0 0 0 0 0 0 0
+S
+#138
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 139 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 137 0 0 0 0 0 0 0 0
+S
+#139
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 140 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 138 0 0 0 0 0 0 0 0
+S
+#140
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 141 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 142 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 139 0 0 0 0 0 0 0 0
+S
+#141
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+~
+0 0 143 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 140 0 0 0 0 0 0 0 0
+S
+#142
+Below the Joust Ladder~
+   A crude wooden staircase leads up to the jousting beam.  The stairs are so
+steep that you must climb it like a ladder.  There seems to be little extra
+room here or at the top.  The grass in directly front of the steps is worn to
+the dirt.    
+~
+1 ci 0 0 0 0
+D0
+~
+~
+0 0 140 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 144 0 0 0 0 0 0 0 0
+S
+#143
+In the West Courtyard~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 141 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#144
+Cautiously on a Narrow Beam~
+   The jousting beam is about one and half feet wide and twenty feet off the
+ground.  It is constructed with aluminum supports bridged by a tarp, giving it
+flex and strength.  To the left and right is a far drop and a fight here will
+take concentration.    
+~
+1 i 0 0 0 0
+D1
+~
+~
+0 0 168 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 145 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 168 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 142 0 0 0 0 0 0 0 0
+S
+#145
+Cautiously on a Narrow Beam~
+   The jousting beam is about one and half feet wide and twenty feet off the
+ground.  It is constructed with aluminum supports bridged by a tarp, giving it
+flex and strength.  To the left and right is a far drop and a fight here will
+take concentration.    
+~
+1 i 0 0 0 0
+D0
+~
+~
+0 0 144 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 168 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 146 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 168 0 0 0 0 0 0 0 0
+S
+#146
+Cautiously on a Narrow Beam~
+   The jousting beam is about one and half feet wide and twenty feet off the
+ground.  It is constructed with aluminum supports bridged by a tarp, giving it
+flex and strength.  To the left and right is a far drop and a fight here will
+take concentration.    
+~
+1 i 0 0 0 0
+D0
+~
+~
+0 0 145 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 168 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 168 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 132 0 0 0 0 0 0 0 0
+S
+#147
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 2
+D0
+~
+~
+0 0 157 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 155 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 156 0 0 0 0 0 0 0 0
+S
+#148
+Above the Altar in the Temple of Kiri-Jolith~
+   The domain of the Sword of Justice is an ethereal and sanctified haven.  
+The room is boundless but has foci of many rooms.  One is arranged as a study
+where battle plans can be worked out.  Another holds only a statue of a
+kingfisher.  A third is the personal quarters of the Sword containing a pile of
+his weapons and armors.    
+~
+1 d 0 0 0 2
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1423 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1200 0 0 0 0 0 0 0 0
+S
+#149
+On the Walk Beside the Arena~
+You are in a room.
+~
+1 0 0 0 0 2
+D2
+~
+~
+0 0 115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 114 0 0 0 0 0 0 0 0
+S
+#150
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of outdoors.  You are in the east half of the
+front courtyard.  A gray stone wall, eight feet high, stands south of you.    
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 151 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 103 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 102 0 0 0 0 0 0 0 0
+S
+#151
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  You are in the east half of
+the front courtyard.  The east tower of the brothers' keep stands high above
+you.    
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 150 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 105 0 0 0 0 0 0 0 0
+S
+#152
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 126 0 0 0 0 0 0 0 0
+S
+#153
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  You are in the west half of
+the front courtyard.  The west tower of the brothers' keep stands high above
+you.    
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 105 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 154 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 107 0 0 0 0 0 0 0 0
+S
+#154
+In the Front Courtyard~
+   The ground is covered with a soft carpet of well-cared for grass.  A light
+breeze brings the pleasant smell of the outdoors.  You are in the west half of
+the front courtyard.  A gray stone wall, eight feet high, stands south of you.
+  
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 153 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 102 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 104 0 0 0 0 0 0 0 0
+S
+#155
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D3
+~
+~
+0 0 147 0 0 0 0 0 0 0 0
+S
+#156
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 147 0 0 0 0 0 0 0 0
+S
+#157
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 160 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 158 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 147 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 159 0 0 0 0 0 0 0 0
+S
+#158
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D3
+~
+~
+0 0 157 0 0 0 0 0 0 0 0
+S
+#159
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 157 0 0 0 0 0 0 0 0
+S
+#160
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 161 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 157 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 162 0 0 0 0 0 0 0 0
+S
+#161
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D3
+~
+~
+0 0 160 0 0 0 0 0 0 0 0
+S
+#162
+the hospital~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 160 0 0 0 0 0 0 0 0
+S
+#163
+Under the Portcullis~
+You are in a room.
+~
+1 c 0 0 0 0
+D0
+~
+~
+0 0 164 0 0 0 0 0 0 0 0
+D2
+~
+~
+1 0 105 0 0 0 0 0 0 0 0
+S
+#164
+In the Castle Foyer~
+You are in a room.
+~
+1 d 0 0 0 0
+D0
+~
+doors double~
+1 0 188 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 170 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 163 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 181 0 0 0 0 0 0 0 0
+S
+#165
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 166 0 0 0 0 0 0 0 0
+D1
+~
+door kitchen~
+1 0 169 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#166
+delete~
+You are in a room.
+~
+1 d 0 0 0 0
+D0
+~
+~
+0 0 167 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 165 0 0 0 0 0 0 0 0
+S
+#167
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+~
+0 0 166 0 0 0 0 0 0 0 0
+D3
+~
+None~
+1 0 -1 0 0 0 0 0 0 0 0
+S
+#168
+Fallen from the Joust~
+   The wind is knocked out of you and your body feels weakened: you fell
+sixteen feet from the jousting beam.  The ground didn't feel nearly as hard and
+dry before.  This is directly under the center of the beam, to the east and
+west is the courtyard.    
+~
+1 acdg 0 0 0 0
+D1
+~
+~
+0 0 136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 137 0 0 0 0 0 0 0 0
+S
+#169
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D3
+~
+~
+0 0 165 0 0 0 0 0 0 0 0
+S
+#170
+In the East Wing of the Castle~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+door single~
+2 0 187 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 164 0 0 0 0 0 0 0 0
+S
+#171
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 172 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#172
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 173 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 171 0 0 0 0 0 0 0 0
+S
+#173
+deletel~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 174 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 172 0 0 0 0 0 0 0 0
+S
+#174
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+~
+0 0 173 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 175 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 177 0 0 0 0 0 0 0 0
+S
+#175
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 174 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 176 0 0 0 0 0 0 0 0
+S
+#176
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 175 0 0 0 0 0 0 0 0
+S
+#177
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+~
+0 0 178 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 179 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 174 0 0 0 0 0 0 0 0
+S
+#178
+delete~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 177 0 0 0 0 0 0 0 0
+S
+#179
+deletel~
+You are in a room.
+~
+1 0 0 0 0 0
+S
+#180
+In an Ornate Parlor~
+You are in a room.
+~
+1 d 0 0 0 0
+D3
+~
+~
+0 0 189 0 0 0 0 0 0 0 0
+D7
+~
+door doors~
+2 0 188 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 191 0 0 0 0 0 0 0 0
+S
+#181
+In the West Wing of the Castle~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+~
+0 0 164 0 0 0 0 0 0 0 0
+D3
+~
+door single~
+1 0 182 0 0 0 0 0 0 0 0
+S
+#182
+At the Bottom of the Stairwell~
+You are in a room.
+~
+1 0 0 0 0 0
+D1
+~
+door single~
+1 0 181 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 183 0 0 0 0 0 0 0 0
+S
+#183
+On a Landing of the Stair~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+door short~
+1 0 184 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 185 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 182 0 0 0 0 0 0 0 0
+S
+#184
+A Small Bedchamber~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+door short~
+1 0 183 0 0 0 0 0 0 0 0
+S
+#185
+In a Bedchamber with a Down Stairwell~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+panel door~
+1 0 186 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 183 0 0 0 0 0 0 0 0
+S
+#186
+In a Small Private Room~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+secret~
+1 0 190 0 0 0 0 0 0 0 0
+D2
+~
+door panel~
+1 0 185 0 0 0 0 0 0 0 0
+S
+#187
+Locked room~
+You are in a room.
+~
+1 0 0 0 0 0
+S
+#188
+In the Dining Hall~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+doors double~
+1 0 164 0 0 0 0 0 0 0 0
+D3
+~
+nix~
+2 0 187 0 0 0 0 0 0 0 0
+S
+#189
+In an Ornate Parlor~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+~
+0 0 191 0 0 0 0 0 0 0 0
+D4
+~
+ceiling~
+2 0 192 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 180 0 0 0 0 0 0 0 0
+S
+#190
+Cramped in a Dark Cubbyhole~
+You are in a room.
+~
+1 0 0 0 0 0
+D2
+~
+nix~
+2 0 187 0 0 0 0 0 0 0 0
+D5
+   The floor here is not stone but metal panels.  The centermost lifts
+revealing a shaft down to the next floor.    
+~
+trapdoor~
+2 0 192 0 0 0 0 0 0 0 0
+S
+#191
+In an Ornate Parlor~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 180 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 189 0 0 0 0 0 0 0 0
+S
+#192
+In a Narrow Vertical Shaft~
+You are in a room.
+~
+1 0 0 0 0 0
+D4
+~
+trapdoor~
+2 0 190 0 0 0 0 0 0 0 0
+D5
+   A nine foot drop down to the next level.  The room below seems to be a
+well-furnished meeting place.    
+~
+drop~
+2 0 189 0 0 0 0 0 0 0 0
+S
+#193
+A new room~
+You are in a room.
+~
+1 0 0 0 0 0
+S
+#194
+A new room~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 195 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 107 0 0 0 0 0 0 0 0
+S
+#195
+A new room~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 128 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 194 0 0 0 0 0 0 0 0
+S
+#196
+On a Path around the Keep~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 109 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 106 0 0 0 0 0 0 0 0
+S
+#197
+A new room~
+You are in a room.
+~
+1 0 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#198
+A new room~
+You are in a room.
+~
+1 0 0 0 0 0
+S
+$~

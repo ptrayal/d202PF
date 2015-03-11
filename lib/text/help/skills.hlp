@@ -1,0 +1,44 @@
+HIDE
+Benefit: Character attempts to hide from being seen by others.
+Opposed by: Spot Skill.
+#
+LISTEN
+Benefit: Listen is an active skill which opposes other characters' attempts to
+         move silently.
+Opposed by: Move Silently Skill.
+#
+"MOVE SILENTLY"
+Benefit: Character attempts to quietly move from room too room. Success means
+         that others in the room don't hear you enter or leave. 
+         move silently.
+Opposed by: Listen Skill.
+#
+"OPEN LOCK"
+Benefit: Character can attempt to open a locked doorway without the proper key.
+Opposed by: Doorway DC LOCK value.
+#
+SEARCH
+Benefit: Character searches in a specific direction for hidden or secret doors.
+         Elves gain a racial bonus of +2 on such checks, and Half Elves a +1.
+Opposed by: Doorway DC HIDE value.
+#
+"SLEIGHT OF HAND"
+Benefit: Character attempts to take items (or coins) from another character.
+         Weather you are successful or not depends on your sleight of hand
+	 skill. Weather you are noticed or not depends on your victim's Spot 
+	 skill. Skill synergy of +2 is granted for 5 or more ranks of 
+	 the Bluff Skill.
+Opposed by: Spot Skill.
+#
+"SPEAK LANGUAGE"
+Benefit: Character is fluent in this language and can speak and understand
+	 it perfectly.
+Opposed by: None.
+#
+SPOT
+Benefit: Character is able to spot hidden characters or attempts to have
+	 their pocket picked!
+Opposed by: Hide Skill or Sleight of Hand Skill, depending on circumstance.
+#
+$
+

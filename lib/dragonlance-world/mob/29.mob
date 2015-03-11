@@ -1,0 +1,188 @@
+#2900
+weary traveller~
+a weary traveller~
+A weary traveller walks along the road.
+~
+   This man is wearing a rounded, brown hat to keep the sun off of his sagging
+face.  His legs have difficulty moving as he walks along.  He has apparently
+been on the road a long time.    
+~
+d 0 0 0 k 0 0 0 -300
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2901
+gruff plains barbarian~
+a gruff, plains barbarian~
+A gruff, plains barbarian makes his way along the road.
+~
+   This barbarian has long, black hair that hangs around his shoulders and
+reaches down his back.  His skin is a golden, tan color from long hours spent
+in the sunlight.    
+~
+d 0 0 0 k 0 0 0 400
+12 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2902
+creature lizard bronze~
+a bronze, lizard-like creature~
+A bronze, lizard-like creature looks at you and attacks!
+~
+   This lizard-like creature has red, beady eyes and scaly skin.  He is not
+wearing armor or wielding a weapon, but his sharp claws and scaly skin make him
+a formidable opponent.    
+~
+d 0 0 0 k 0 0 0 -900
+7 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2903
+gully dwarf smelly terror~
+a dirty, smelly gully dwarf~
+A gully dwarf swarthed in smelly rags looks over his shoulder in terror.
+~
+   The gully dwarf before you smells typical of all others of his kin.  
+Covered with assorted dirt and dressed in disarray, this gully looks over his
+shoulder periodically, obviously afraid that something is pursuing him.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2904
+kender short fearless~
+a fearless kender~
+A short, fearless kender gets ready to brave the mountain.
+~
+   The kender before you is short even by kender standards, but that does not
+reflect upon the size of his boldness.  Face set firm and resolute, he looks at
+the mountain before him and regards it with determination.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2906
+dog plains wild sniffs~
+a wild plains dog~
+A wild dog sniffs the ground ahead of you.
+~
+   Short fur grows in tuffs on this wild animal, making it look a little larger
+than it really is.  It seems to be busy nosing around the ground a little ahead
+of you, you have no idea what for.  It's hide is a mix of dirty grey and black
+patches.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2907
+draconian bozak cloaked hooded dockkeeper~
+a hooded, bozak draconian dockkeeper~
+A cloaked bozak draconian with bronze scales watches over the docks.
+~
+   With eyes betraying no hint of tolerance or patience, this bronze-scaled
+draconian is clearly upset with your visit.  It briefly pulls back its hood
+long enough to hiss, "The Sea Wolf Docks here, cause any trouble and you'll be
+tossed into the undertow."
+~
+d 0 0 0 k 0 0 0 -900
+20 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This man has obviously neither shaved, nor washed in quite some time.  A
+This poul soul has been captured by the dragonarmies and has been forced to
+This hobgoblin is large, even for his kind.  He is brutish and certainly not
+$

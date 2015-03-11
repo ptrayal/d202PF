@@ -1,0 +1,2062 @@
+#6400
+Amidst a Silvery-White Glow~
+   A warm breeze gently caresses your body.  There seems to be an infinate
+amount of space surrounding you.  Yet, all that can be seen is a bright,
+silvery-white glow reflected from a mist that swirls around in all directions.
+~
+64 cg 0 0 0 0
+D5
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+S
+#6401
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D2
+~
+~
+0 0 6402 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6410 0 0 0 0 0 0 0 0
+D4
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6411 0 0 0 0 0 0 0 0
+S
+#6402
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6403 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6411 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6410 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6412 0 0 0 0 0 0 0 0
+S
+#6403
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6402 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6404 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6412 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6411 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6404
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6403 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6405 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6413 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6412 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6414 0 0 0 0 0 0 0 0
+S
+#6405
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6404 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6406 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6414 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6413 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6415 0 0 0 0 0 0 0 0
+S
+#6406
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6405 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6407 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6415 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6414 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6416 0 0 0 0 0 0 0 0
+S
+#6407
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6406 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6408 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6416 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6415 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6417 0 0 0 0 0 0 0 0
+S
+#6408
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6407 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6409 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6417 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6416 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6418 0 0 0 0 0 0 0 0
+S
+#6409
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6408 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6418 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6417 0 0 0 0 0 0 0 0
+S
+#6410
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D1
+~
+~
+0 0 6401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6411 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6419 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6402 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6420 0 0 0 0 0 0 0 0
+S
+#6411
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6410 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6402 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6420 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6419 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6401 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6403 0 0 0 0 0 0 0 0
+S
+#6412
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6411 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6403 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6413 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6420 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6402 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6404 0 0 0 0 0 0 0 0
+S
+#6413
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6412 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6404 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6414 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6403 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6405 0 0 0 0 0 0 0 0
+S
+#6414
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 c h 0 0 2
+D0
+~
+~
+0 0 6413 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6405 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6415 0 0 0 0 0 0 0 0
+D3
+~
+gate~
+1 0 6423 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6404 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6406 0 0 0 0 0 0 0 0
+S
+#6415
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6414 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6406 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6416 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6405 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6407 0 0 0 0 0 0 0 0
+S
+#6416
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6415 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6407 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6417 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6406 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6408 0 0 0 0 0 0 0 0
+S
+#6417
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6416 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6408 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6418 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6407 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6409 0 0 0 0 0 0 0 0
+S
+#6418
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6417 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6409 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6408 0 0 0 0 0 0 0 0
+S
+#6419
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D1
+~
+~
+0 0 6410 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6420 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6411 0 0 0 0 0 0 0 0
+S
+#6420
+The Farmlands Outside of Keiflore~
+   Golden, rolling hills go on for as far as the eye can see.  Small walkways
+have been cut into the waist high wheat.  The village of Keiflore is known
+throughout Solamnia, for its robust flavored wheat.  The wheat is commonly used
+for bread, ales, and many other useful things.  The villagers are in the
+process of harvesting and rolling the wheat into large cylindrical shapes for
+drying.  The wheat will then be taken to the village mill.    
+~
+64 0 h 0 0 2
+D0
+~
+~
+0 0 6419 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6411 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6410 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6412 0 0 0 0 0 0 0 0
+S
+#6421
+The Silver Claw Tavern~
+   This spacious tavern is dimly lit and cozy looking.  A few tables are
+scattered about the room.  Two large tables with circular benches sit between a
+large fireplace that serves as the only good light source for this side of the
+tavern.  Above the mantle, a massive solid silver claw hangs.  A small plaque
+below the claw states that this claw is an actual representation of a dragons
+hind foot.  Laughter and cheering come from a table of warriors, swords hang to
+their sides and they are suited in battle armor.  Only two barmaids can be seen
+running around frantically.  This day must be abnormally busy for the Silver
+Claw Tavern.    
+~
+64 d h 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6422 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6430 0 0 0 0 0 0 0 0
+S
+#6422
+A Small Dirt Path~
+   This small dirt path follows the outer wall of a tavern.  Along the tavern
+walls ivy has taken over the brick and wood.  A variety of rose bushes grow
+along the northern side of this path.  In front of the bushes, knee-high stones
+have been placed along the path to keep dogs and other beasts from destroying
+the splendid florals that line the path.  To the north cheering and laughter
+can be heard coming from within the building.    
+~
+64 c h 0 0 1
+D0
+~
+door~
+1 0 6421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6423 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6431 0 0 0 0 0 0 0 0
+S
+#6423
+A Well Traveled Dirt Path~
+   This well traveled dirt path splits in multiple directions.  To the south, a
+small thatch roofed home stands with its door open.  Smoke billows out from the
+home's chimney.  The village well is to the west.  A small wooden gate, to the
+east, leads to the wheat fields that surround Keiflore.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 6422 0 0 0 0 0 0 0 0
+D1
+~
+gate~
+1 0 6414 21 21 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6424 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6432 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6433 0 0 0 0 0 0 0 0
+S
+#6424
+A Small Thatch Roofed Home~
+   This small room serves as the living quarters for a small, lower classed
+family.  Simple decorations adorn the walls of this dirt floored home.  A few
+fresh roses are hanging to dry from a string over the bed.  Obviously someone
+lives simply and happily in this small dwelling.  The home is well maintained
+and has a pleasant aroma of herbs and flowers.    
+~
+64 d h 0 0 0
+D0
+~
+door~
+1 0 6423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6425
+A Well Traveled Dirt Path~
+   This well traveled dirt path ends at the mill to the south.  The deep wagon
+tracks continue on through the wide double doors of the village mill.  The mill
+stands around twenty feet tall and is the second largest structure in Keiflore.
+The mill is constructed from thick beams of white oak.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+doors double~
+1 0 6426 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6433 0 0 0 0 0 0 0 0
+S
+#6426
+The Mill~
+   Tall oak beams make up the walls and ceiling of the mill.  This room is
+where the wheat is sold to the merchants, brewers, and bakers of Solamnia.  A
+variety of harvesting tools line the walls.  Storage cabinets and a few pieces
+of furniture decorate this room.  The wagon tracks stop before the large
+entranceway to the west.  This is where the ground wheat is loaded into the
+wagons for transportation.    
+~
+64 0 h 0 0 0
+D0
+~
+doors double~
+1 0 6425 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6435 0 0 0 0 0 0 0 0
+S
+#6427
+A Small Thatch Roofed Home~
+   This small room serves as the living quarters for a small family.  Each wall
+has one small window, some small pictures, dried flowers and some other simple
+decorations.  The home is quaint and well taken care of.  The floor is made of
+tightly fitted, white stones.  There are two beds in this cozy home.  One small
+bed, possibly a childs and the other is large enough for two adults.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6436 0 0 0 0 0 0 0 0
+S
+#6428
+Lord Rosenthorn's Bedroom~
+   This room is lavishly decorated and filled with furniture.  Large
+tapestries, magnificent paintings, and ancient weapons cover the walls of this
+bedroom.  In the northeast corner a tall mirror sits within its oak frame.  A
+massive bed, large enough for four people takes up a majority of the room.  
+The silver lined wash basin reflects the bright light from oil burning lamps
+that are scattered throughout the corners.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6429 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6437 0 0 0 0 0 0 0 0
+D7
+~
+mirror~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6429
+The Pool Room~
+   The humidity and smell of herbs and incense overwhelm this room.  A large
+pool of cool, refreshing water takes up the entire floor of this room.  There
+are stairs leading to the bottom of the pool.  A brightly colored mosaic lies
+on the pools floor.  In each corner, a pedestal made of white marble billows
+puffs of burning incense.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 6428 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6430
+At the Bar of the Silver Claw Tavern~
+   A long, cherry wood bar with comfortable looking stools extends the full
+width of the tavern.  More tables and a few ornamental swords decorate this
+room.  A tapestry in poor repair displays a battle between a silver and red
+dragon of legends past.  A strong odor of dwarf spirits, ales, and other
+various beverages fills the musty tavern air.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6431
+A Small Dirt Path~
+   This small dirt path follows the outer wall of a tavern.  Along the tavern
+walls ivy has taken over the brick and wood.  A variety of rose bushes grow
+along the northern side of this path.  In front of the bushes, knee-high stones
+have been placed along the path to keep dogs and other beasts from destroying
+the splendid florals that line the path.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6432 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6440 0 0 0 0 0 0 0 0
+S
+#6432
+The Village Well of Keiflore~
+   The well is surrounded by large cobblestones.  A nice view of Keiflore can
+be seen from here.  The manor to the north, the mill to the south, small homes
+and various trees, can all be seen from here.  This well is the only source of
+water in all of Keiflore.  A large hawk flies in circles high above the well.
+~
+64 c h 0 0 1
+D0
+~
+~
+0 0 6431 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6433 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6441 0 0 0 0 0 0 0 0
+S
+#6433
+A Well Traveled Dirt Path~
+   This well traveled dirt path splits in multiple directions.  To the north,
+is a small, covered well.  The wagon tracks continue on to the southeast.  A
+fresh pile of horse droppings lays in the middle of the wagon trail.  An
+indistinct grinding noise can be heard coming from a large, wooden building to
+the south.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 6432 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6442 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6423 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6425 0 0 0 0 0 0 0 0
+S
+#6434
+The Mill's Grain Storage~
+   This wooden room consists of high ceilings, massive support beams, and
+seperate stalls for grain storage.  Inside these large stalls, huge mounds of
+ground wheat and wheat stalks sit waiting to be processed or transported for
+use throughout Solamnia.  A few birds can be heard chirping high in the
+rafters.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6435 0 0 0 0 0 0 0 0
+S
+#6435
+The Grinding Stone~
+   The constant drone of the stone grinding the wheat is produced by four
+workhorses walking around in circles.  The horses are tied to wooden beams that
+stick out from a massive stone that sits upon another large stone.  The wheat
+is forced in through the upper stone and ground up by the two stones.  Wagons
+that are easily carried by one man, transport the freshly ground grain into the
+large storage room to the north.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 6434 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6426 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6436
+A Small Dirt Path~
+   This path follows the outer rim of the village.  Along the southern side of
+the path, roses and smaller floral arrangements grow.  The peacefulness of
+Keiflore seems to be reflected upon this dirt path.  A small thatch roofed home
+sits nestled between two small vegetable gardens, to the east.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6427 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6445 0 0 0 0 0 0 0 0
+S
+#6437
+A Magnificent Hallway~
+   The entire ceiling of this hallway is made of mirrors and crystal
+chandeliers.  This effect gives the impression that the hallway is a hundred
+feet high.  Rainbows are sprayed through the hall from all the crystal and
+mirrors.  The walls are covered in a deep, crimson red.  Golden baseboards and
+fine vases decorate the marble floor.  A few chairs and couches make this hall
+comfortable, yet still luxurious.    
+~
+64 d h 0 0 0
+D1
+~
+door~
+1 0 6428 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6438 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6446 0 0 0 0 0 0 0 0
+S
+#6438
+The Guest Room~
+   The walls in this room are decorated with a gloomy floral patern.  The
+colors of this room range from deep purples to light grey.  Thick velvet
+curtains block most of the light from the high windows.  A large bed made of a
+black colored wood lies in the center of the eastern wall.  The high, stone
+ceilings make this morbid room seem a little more comfortable.  A few
+decorations sparsely decorate this large room.    
+~
+64 d h 0 0 0
+D0
+~
+door~
+1 0 6437 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6447 0 0 0 0 0 0 0 0
+S
+#6439
+The Gatehouse~
+   This tall stone tower serves as the gatehouse to the manor.  Massive oak
+doors stand open on each side of the entrance way to the village.  The tower
+reaches thirty feet to a few thick beams that support the stone ceiling.  A
+small set of stairs reach up towards a platform for archers to stand on.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6440 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 6408 6448 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6479 0 0 0 0 0 0 0 0
+S
+#6440
+A Cobblestone Walkway Leading to the Manor~
+   The dirt path ends here, and continues on to the manor with a cobblestone
+walkway.  The stones are arranged in a simple, yet interesting geometric
+pattern.  Straight ahead the manor gatehouse stands as the entranceway.  To the
+west, a small sign with the symbol of a horse hangs in front of the stable.  
+The high walls of the manor look well maintained and fairly clean.    
+~
+64 c h 0 0 1
+D0
+~
+door~
+1 0 6439 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6431 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6441 0 0 0 0 0 0 0 0
+D3
+~
+gate~
+1 0 6449 0 0 0 0 0 0 0 0
+S
+#6441
+A Wide Dirt Path~
+   The wide, dirt path continues south, and north.  A small thatch roofed home
+is to the west.  A covered well made of small, grey stones with a wooden
+pitched roof stands to the east.  A few scattered weeds that seem out of place
+amongst the quaint village, grow along the path here.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 6440 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6432 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6442 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6450 0 0 0 0 0 0 0 0
+S
+#6442
+A Wide Dirt Path~
+   The wide path continues on towards the north.  To the east, a well traveled
+dirt path leads to a small covered well.  There are wagon tracks that lead to
+the east.  The manor gatehouse can now be seen to the north.  Another small,
+thatch roofed home stands to the west.  An inaudible bark can be heard coming
+from the east.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 6441 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6433 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6443 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6451 0 0 0 0 0 0 0 0
+S
+#6443
+A Wide Dirt Path~
+   The wide path reaches on to the north and south.  To the west, a smaller
+path leads toward some other houses.  A large wooden building much taller than
+the other homes, stands to the east.  A few birds can be heard chirping from a
+nest on the roof of the large building.  A faint odor of cooking can be sensed
+drifting through the air.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 6442 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6444 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6452 0 0 0 0 0 0 0 0
+S
+#6444
+A Wide Dirt Path~
+   The wide path continues on to the north and south.  A small thatch roofed
+home with flowers growing in window planters is to the west.  A large wooden
+structure, to the east, much taller than the home on the other side of the path
+makes a steady grinding noise.  Delicious smells from something cooking floats
+through the air.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 6443 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6445 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6453 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6445
+Entering the Village of Keiflore~
+   Before you is a wide path, wagon tracks have worn two lines in the hard
+packed dirt.  Small thatch roofed homes are to each side of the wide path.  A
+few large oak trees can be seen in the distance.  Down the path to the west,
+stands a large wooden gate.  Following the path to the north, is a large manor
+made of marbled stones.    
+~
+64 c h 0 0 1
+D0
+~
+~
+0 0 6444 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6436 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6481 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6454 0 0 0 0 0 0 0 0
+S
+#6446
+Lord Rosenthorn's Library~
+   The overwhelming odor of ancient texts and oiled wood fills the air.  Every
+single bit of wall space in this room is crammed with books, tomes, scrolls,
+and pieces of parchment.  The high ceiling is covered in carved cherry wood.  
+In the center of the ceiling a crystal chandelier burns brightly.  A few desks
+and writing tables decorate the floor.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6437 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6447 0 0 0 0 0 0 0 0
+D3
+~
+bookcase~
+1 0 6455 0 0 0 0 0 0 0 0
+S
+#6447
+The Sitting Room~
+   This room is where Lord Rosenthorn meets with his guests and discusses
+political matters.  In the center of the floor a crude, but artistic map of
+Ansalon is inlaid within the black marble.  Silk cushions pad the cherry wood
+furniture that decorates this room.  A few large, vase-like oil burning lamps
+light the room.    
+~
+64 d h 0 0 0
+D0
+~
+door~
+1 0 6446 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6438 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6448 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6456 0 0 0 0 0 0 0 0
+S
+#6448
+A Grand Entrance Hall~
+   The interior decorations in the entrance hall are elaborate and expensive.
+A black silk couch sits beside two marble pillars topped with marble busts.  
+The floor is made of black and grey marble.  The ceiling is of geometrically
+carved designs covered in gold leaf.  Some paintings, tapestries, and assorted
+furniture decorate the rest of this wide hallway.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 6447 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 6408 6439 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6449
+The Manor Stables~
+   Piles of hay and buckets of water are scattered about this small stable.  
+The stalls provide a suitable living space for three horses.  The smell of
+fresh hay and manure float through the air.  An assortment of riding gear hangs
+on the wall opposite the stables.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+gate~
+1 0 6440 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6450
+A Small Thatch Roofed Home~
+   This small room serves as the living quarters for a small family.  Each wall
+has one small window, some decorations, dried flowers and other simple
+decorations.  The floor is made of tightly fitted, white stones.  A blackened,
+wood burning stove is in the southeast corner.  The accomodations are simple
+and efficient, easily sustaining respectable living for two people.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6441 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6451
+A Thatch Roofed Home~
+   This rather large thatch roofed home, is well decorated with trinkets and
+furniture.  A beautiful, hand carved, cherry wood table sits in the center of
+this room.  A collection of butterflies is in a glass display case upon a small
+table.  This finely decorated home seems nicer than what would be expected for
+such a small village.  To the west, a door made of thin logs tied together
+leads into the back room.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6442 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 6409 6460 0 0 0 0 0 0 0 0
+S
+#6452
+A Small Dirt Path~
+   This small dirt path is lined with large white stones.  The stones are
+carved to fit right next to each other, forming an appealing walkway.  A faint,
+female voice can be heard singing, from the small house to the south.    
+~
+64 0 h 0 0 1
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6443 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 6461 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6453
+A Small Thatch Roofed Home~
+   This small room serves as the living quarters for a small family.  Each wall
+has one small window, some simple decorations, and a trinket or two.  The floor
+is made of tightly fitted, white stones.  The accomodations are simple and
+efficient, easily sustaining a respectable living for two people.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6444 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6454
+A Small Dirt Path~
+   This small path follows the outer rim of the village.  Along the southern
+side of the path, roses, and smaller florals grow.  The peacefulness of
+Keiflore seems to be reflected upon this dirt path.  To the north, a small
+thatch roofed home shares its simple beauty with the path.  A tall gate can be
+seen further down the path, to the west.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6445 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6463 0 0 0 0 0 0 0 0
+S
+#6455
+The Kitchen~
+   This kitchen supplies all the food for the residents of the manor.  Two
+massive fireplaces burn brightly inside the north wall.  A freshly slaughtered
+cow lays ripped apart in a pool of blood on the floor.  Fresh vegetables and
+grains rest on the large counter in the center of the room.  Parts of the roof
+are made of a thick patch of thatched hay.  When the room becomes too smokey,
+these patches are raised to let the smoke rise outside of the manor.    
+~
+64 d h 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6456 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6464 0 0 0 0 0 0 0 0
+S
+#6456
+The Dining Hall~
+   A table streches from one end of this hall to the other.  Oil burning lamps,
+candles, and a splendid array of floral arangments decorate the table.  The
+wood table is polished to a high gloss.  The reflection of the candles and
+flowers upon the table is almost mirror-like.  At the north end a high backed
+throne sits for Lord Rosenthorn.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 6455 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6447 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6457 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6465 0 0 0 0 0 0 0 0
+S
+#6457
+A Large Guest Room~
+   Large red banners hanging from where the walls meet the ceiling all the way
+to the floor are the most noticable decoration.  The symbol of a crown from the
+Solamnic Knighthood stands alone on the banners.  Perhaps a high ranking
+nobleman from the Knighthood is expected to stay as Lord Rosenthorn's guest.  
+A large, iron bed frame with gold trim lies along the eastern wall.  Next to
+the bed, a massive wooden wardrobe reflects the dim glow of the candles that
+light this room.  A pristine, white sheepskin rug lies on the cool stone floor.
+~
+64 0 h 0 0 0
+D0
+~
+door~
+1 0 6456 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6458
+Keiflore Gardens~
+   The large stone wall of the manor stands tall, to the north.  This part of
+the manor wall is almost completely covered in a thick blanket of ivy.  An
+assortment of berries grow in this flower bed.  Some are in blossom, one can
+see why a fruit bearing bush would be used in a garden.  A few berries lay
+scattered and squashed into the white stone path.  Along the other side of the
+path, a marble statue sits amongst the roses and lilies.  The statue is made of
+a white marble that has a silvery glow to it.  The shape of the statue is in
+that of a massive silver dragon in flight.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6459 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6468 0 0 0 0 0 0 0 0
+E
+statue dragon~
+--{ Donated by: Lord Michisle Aft Krobin, Knight of the Crown }--
+~
+S
+#6459
+The Alcove in the Gardens~
+   This tiny alcove is surrounded completely in large bushes and a giant oak
+tree.  The thick branches of the oak shade this area from the light.  A bench
+made into the shape of a crescent moon sits along the southern edge of this
+alcove.  Only the faint creaking and groaning from the oaks branches can be
+heard.  This place has a calm, peaceful feel to it.    
+~
+64 a h 0 0 3
+D0
+~
+~
+0 0 6458 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6460
+The Artists Bedroom~
+   In the center of this bedroom sits a large bed with a thick frame.  Paints
+and paintings are all over the furniture and floor.  The resident of this home
+is obviously an artist.  The paintings depict local life and floral
+arrangements.  A large window opens up on the western wall to reveal a
+magnificent garden outside.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 6409 6451 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6461
+A Thatch Roofed Home~
+   This home is well above the meager standards that other farmers live by.  
+Beautiful silver pieces and wooden sculptures decorate this room.  Crystal
+candle holders, and plush leather furniture add to this homes luxurious
+appearance.  A large bearskin rug lies in the center of the floor.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 6452 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6462 0 0 0 0 0 0 0 0
+S
+#6462
+A Lavishly Decorated Bedroom~
+   In the center of the room is an unusually short bed.  Black silk sheets line
+the overstuffed bed.  Two large wardrobes house a multitude of fine clothes.  
+A copper lined wash basin sits in the southeastern corner.  The person that
+lives here really enjoys the finer things in life.    
+~
+64 d h 0 0 0
+D0
+~
+~
+0 0 6461 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6463
+A Small Dirt Path~
+   This small path follows the outer rim of the village.  All along the
+southern side of the path, roses and smaller flowers grow.  The peacefulness of
+Keiflore seems to be reflected upon this dirt path.  To the north, the back end
+of a fairly large home can be seen.  Just down the path, to the west, is a tall
+oaken gate.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6454 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6472 0 0 0 0 0 0 0 0
+S
+#6464
+The Servants Quarters~
+   Compared to the rest of the manor, this room is poorly decorated.  By no
+means do the servants live in squaller.  The room is divided into eight
+separate quarters by wooden screens.  Each quarter has it's own personal style.
+One contains a double bed, obviously for a husband and wife.  A few chests and
+small dressers rest beside each bed.  Some dried flowers and animal skins are
+the only decorations on the walls.    
+~
+64 0 h 0 0 0
+D1
+~
+~
+0 0 6455 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6465
+A Hallway~
+   This hallway is long and decorated with a couple of shields and some long
+wooden benches.  A red carpet trimmed in yellow cords rests on the cool stone
+floor.  The hallway is lit by four iron torches.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6456 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 6466 0 0 0 0 0 0 0 0
+S
+#6466
+Lord Rosenthorn's Armory~
+   Scattered about this room weapons of all types, quality, and age collect
+dust.  A few suits of full plate mail hang from wooden stands.  Upon closer
+inspection most of the weapons and armor are in ill repair and contain a great
+deal of rust.  Shields decorated with symbols of different clans and the
+Knighthood hang from the walls.    
+~
+64 0 h 0 0 0
+D0
+~
+gate~
+1 0 6465 0 0 0 0 0 0 0 0
+D2
+~
+shield~
+1 0 6467 0 0 0 0 0 0 0 0
+S
+#6467
+Inside the Stone Wall~
+   This small passageway is carved out from the stone wall of the manor.  
+Patches of slippery moss and a pungent odor of plantlife fills this tunnel.  
+Little streams of light can be seen through the ivy, to the south.    
+~
+64 0 h 0 0 0
+D0
+~
+shield~
+1 0 6466 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6468 0 0 0 0 0 0 0 0
+S
+#6468
+Keiflore Gardens~
+   The large stone wall of the manor stands tall, to the north.  This part of
+the manor wall is almost completely covered in a thick blanket of ivy.  A neat
+and orderly row of finely trimmed, rose bushes lines the path in a magnificent
+display.  Not a single weed can be seen throughout the entire garden.  A few
+leaf eating insects and birds can be seen with a scanning glance.  The robust
+aroma of a skunky plant is present in the soft breeze.  A small collection of
+white spotted pansies grow along the bricks lining the path.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6458 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6469 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6473 0 0 0 0 0 0 0 0
+S
+#6469
+Keiflore Gardens~
+   The eastern side of the path is completely filled in with tall bushes.  
+Along the other side of the path, a splendid arrangement fit for a wealthy
+nobleman grows reaching towards the heavens.  The flowers range from deep
+purple to glowing orange.  The shapes and variety produce a harmonious and
+relaxing appearance.  The gardner spends an awful lot of time maintaining these
+grounds.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 6468 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6470 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6474 0 0 0 0 0 0 0 0
+S
+#6470
+Keiflore Gardens~
+   The eastern side of the path is completely filled in with tall bushes.  
+Flowing like a small wave, some iris flowers move in the breeze.  Between the
+flowers tiny seedlings can be seen sprouting in the fertile soil.  One of the
+bricks that lines the path is missing.  This is definitely out of place within
+these well maintained gardens.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 6469 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6475 0 0 0 0 0 0 0 0
+S
+#6471
+The Gardener's Quarters~
+   These small quarters are simple and efficient.  A single bed, wash basin,
+and stove are the only things in this home.  A few pots and wooden spoons hang
+from the wall.  The dirt floor is covered with a worn, hide skinned rug.    
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 6472 0 0 0 0 0 0 0 0
+S
+#6472
+A Tall Oaken Gate~
+   The small dirt path ends here at a tall gate.  The oaken gate is wrapped in
+ivy, and has a natural splendor about it.  Intricate geometric designs are
+carved about the gate and gateposts.  To the north, a tiny thatch roofed home
+sits back from the main path.    
+~
+64 0 h 0 0 0
+D0
+~
+door~
+1 0 6471 21 21 0 0 0 0 0 0
+D1
+~
+~
+0 0 6463 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+gate~
+1 0 6477 0 0 0 0 0 0 0 0
+S
+#6473
+Keiflore Gardens~
+   The large stone wall of the manor stands tall, to the north.  This part of
+the manor wall is almost completely covered in a thick blanket of ivy.  Large
+purplish bushes form a tall wall along the western side of the path.  Just in
+front of of the wall of bushy foliage, a small patch of yellow flowers contrast
+with the purple hue from the bushes.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6468 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6474 0 0 0 0 0 0 0 0
+S
+#6474
+Keiflore Gardens~
+   Along the path to the east, a perfectly rounded apple tree grows.  The apple
+tree is so well groomed that its shape resembles that of the moon Solinari.  
+Underneath the apple tree, in the shade, a few spotted mushrooms must have
+escaped the eagle-eyed gardener.  Lush green fills the flower bed opposite the
+apple tree.  Tall ferns, thick vines, and thin towering bushes stand to the
+west.  A large blackbird cries out loudly in the distance.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 6473 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6469 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6475 0 0 0 0 0 0 0 0
+S
+#6475
+Keiflore Gardens~
+   Along each side of the small, gravel path flowers of assorted species and
+colors grow.  The smaller, warm colored ones are closest to the path.  Then the
+cool spectrum reigns over the flower bed in the rear.  Beauty like this is not
+often seen in a small village garden.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 6474 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6470 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6476 0 0 0 0 0 0 0 0
+S
+#6476
+Keiflore Gardens~
+   The small gravel path reaches on to the north and south.  A covered archway
+rises above the path.  The archway is made of wood covered completely in
+spiraling red rose bushes.  Small ferns and white flowers fill the rich flower
+beds on each side of the path.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 6475 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6477 0 0 0 0 0 0 0 0
+S
+#6477
+Keiflore Gardens~
+   The gardens of Keiflore are well manicured and contain a splendid variety of
+floral arrangements, bushes, and small, sculpted trees.  There is a small stone
+path made of white stones.  The path is enclosed within large clay bricks that
+resemble a fine set of gapped, Gully Dwarf teeth.  Birds chirping and the
+wonderful aroma of blossoming flowers make these gardens very pleasant to be
+in.    
+~
+64 0 h 0 0 3
+D0
+~
+~
+0 0 6476 0 0 0 0 0 0 0 0
+D1
+~
+gate~
+1 0 6472 0 0 0 0 0 0 0 0
+S
+#6478
+A Small Hole~
+   This hole is very cold and dark.  The walls are made of solid granite.  
+There is no air and you find difficulty with focusing on anything.    
+~
+64 a h 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6479
+The Small Wooden Platform~
+   The platform is made of rotting wood.  In a few places, holes are present,
+from someones foot breaking through the wood.  The entire village can be seen
+from this view.  To the east, the golden field of wheat ripples like water in
+the flowing breeze.  Off in the distance, to the south, a few houses billow
+smoke from their chimneys.    
+~
+64 q h 0 0 0
+D4
+~
+stone-slab~
+1 0 6480 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6439 0 0 0 0 0 0 0 0
+S
+#6480
+An Incredibly Small Room~
+   This tiny room can only fit two people.  No light or decorations are in this
+room.  This room must serve as some kind of hiding or storage place.  The walls
+are made of the same stones as the rest of the gatehouse.    
+~
+64 ai h 0 0 0
+D5
+~
+stone_slab~
+1 0 6479 0 0 0 0 0 0 0 0
+S
+#6481
+A Well Travelled Path~
+   A wide dirt path has been cut into the tall plains grass.  Along side the
+path stand several young rose bushes, apparently just recently planted.  A
+small yet noisy village can be detected close to the north.  Several pillars of
+billowy grey smoke rise high into the sky from small fires lit in the village.
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 6445 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6482 0 0 0 0 0 0 0 0
+S
+#6482
+A Well Travelled Path~
+   A wide dirt path has been cut into the tall plains grass.  Along side the
+path stand several young rose bushes, apparently just recently planted.  A
+small yet noisy village can be detected close to the north.  Several pillars of
+billowy grey smoke rise high into the sky from small fires lit in the village.
+~
+64 0 h 0 0 0
+D0
+~
+~
+0 0 6481 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6483 0 0 0 0 0 0 0 0
+S
+#6483
+A Well Travelled Path~
+   A wide dirt path has been cut into the tall plains grass.  Along side the
+path stand several young rose bushes, apparently just recently planted.  A
+small yet noisy village can be detected close to the northeast.  Several
+pillars of billowy grey smoke rise high into the sky from small fires lit in
+the village.    
+~
+64 0 h 0 0 0
+D1
+~
+~
+0 0 6482 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6484 0 0 0 0 0 0 0 0
+S
+#6484
+A Well Travelled Path~
+   A wide dirt path has been cut into the tall plains grass.  Along side the
+path stand several young rose bushes, apparently just recently planted.  A
+small yet noisy village can be detected close to the northeast.  Several
+pillars of billowy grey smoke rise high into the sky from small fires lit in
+the village.    
+~
+64 0 h 0 0 0
+D1
+~
+~
+0 0 6483 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6485 0 0 0 0 0 0 0 0
+S
+#6485
+A Well Travelled Path~
+   A wide dirt path has been cut into the tall plains grass.  Along side the
+path stand several young rose bushes, apparently just recently planted.  A
+small yet noisy village can be detected close to the northeast.  Several
+pillars of billowy grey smoke rise high into the sky from small fires lit in
+the village.    
+~
+64 0 h 0 0 0
+D1
+~
+~
+0 0 6484 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 15402 0 0 0 0 0 0 0 0
+S
+$~

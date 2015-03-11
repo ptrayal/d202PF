@@ -1,0 +1,1860 @@
+#5200
+Gate to Kendermore~
+   Although there is no fence surrounding the town, you stand at the entry gate
+to Kendermore.  Kender may be seen leaving, kenderish weapons in tow.  One may
+also notice kender entering the town, some with baskets of berries, from the
+nearby bushes and trees.    
+~
+52 0 h 0 0  1
+D1
+~
+~
+0 0 5201 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3610 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+E
+gateway~
+   You see nothing special.  Standing as tall as four kender, this gateway
+sprouts from the ground, and arches over the road.    
+~
+S
+#5201
+A Small Street Leading to Kendermore Circle~
+   Along this street, one may see kender bustling about the roads, some
+seemingly aimlessly.  To the west is a path out of Kendermore, and to the east
+is Town Circle.  The twittering of both birds and kender fills the air.    
+~
+52 c h 0 0  1
+D1
+~
+~
+0 0 5203 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5200 0 0 0 0 0 0 0 0
+S
+#5202
+Zeb's Room~
+   A nice bed, soft to the touch, hard for the back...  Perfect...  Cans of
+Sprite decorate the room, most empty, some half full, others not opened, and
+getting warmer by the minute.  The hard wood floor helps for echos in the room,
+as he is hard of hearing.    
+~
+52 0 h 0 0  0
+D6
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5203
+A Small Street Leading to Kendermore Circle~
+   Along this street, one may see kender bustling about the roads, some
+seemingly aimlessly.  To the west is a path out of Kendermore, and to the east
+is Town Circle.  The twittering of both birds and kender fills the air.    
+~
+52 0 h 0 0  1
+D1
+~
+~
+0 0 5205 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5201 0 0 0 0 0 0 0 0
+S
+#5204
+A new room~
+You are in a room.
+~
+52 0 h 0 0  0
+D1
+~
+~
+0 0 5203 0 0 0 0 0 0 0 0
+S
+#5205
+Town Circle~
+   A dirt path surrounds the circle, with roads leading every which way further
+into Kendermore's streets.  From here one can see a statue erected in a pool of
+water.  The grass outside the walkway is brown and crushed, as if some people
+didn't know where the road is.    
+~
+52 0 h 0 0  1
+D1
+~
+~
+0 0 5206 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5203 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5207 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5208 0 0 0 0 0 0 0 0
+S
+#5206
+The Center of Town Circle~
+   A gathering place for kender to talk about latest finds, trips, and
+adventures.  The fountain waters flow around a statue of a broad smiling
+kender, which is looking at the skies.  If one asks, they'd be told the statue
+is of one or another's Uncle Trapspringer.    
+~
+52 cu h 0 0  1
+D0
+~
+~
+0 0 5207 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5209 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5208 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5205 0 0 0 0 0 0 0 0
+S
+#5207
+Town Circle~
+   A dirt path surrounds the circle, with roads leading every which way further
+into Kendermore's streets.  From here one can see a statue erected in a pool of
+water.  The grass outside the walkway is brown and crushed, as if some people
+didn't know where the road is.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5210 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5206 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5205 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5209 0 0 0 0 0 0 0 0
+S
+#5208
+Town Circle~
+   A dirt path surrounds the circle, with roads leading every which way further
+into Kendermore's streets.  From here one can see a statue erected in a pool of
+water.  The grass outside the walkway is brown and crushed, as if some people
+didn't know where the road is.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5206 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5222 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5205 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5209 0 0 0 0 0 0 0 0
+S
+#5209
+Town Circle~
+   A dirt path surrounds the circle, with roads leading every which way further
+into Kendermore's streets.  From here one can see a statue erected in a pool of
+water.  The grass outside the walkway is brown and crushed, as if some people
+didn't know where the road is.    
+~
+52 0 h 0 0  1
+D1
+~
+~
+0 0 5235 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5206 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5207 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5208 0 0 0 0 0 0 0 0
+S
+#5210
+A Small Turning Street~
+   To the north, the road curves to the right.  The shops are visible just to
+the north, white to the east, there is a small house, painted a dull yellow
+color.  The circle is just to the south, where people go to congregate.    
+~
+52 0 h 0 0  1
+D1
+~
+door~
+1 0 5211 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5207 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5212 0 0 0 0 0 0 0 0
+S
+#5211
+Inside a Dull Yellow House~
+   Inside this house, it is fairly obvious the kender live like many other
+people.  There is a small table, a firepit with a bubbling pot over it, and a
+few scattered chairs.  A rug is partially covering a trapdoor, likely leading
+to the basement.    
+~
+52 0 h 0 0  0
+D3
+~
+door~
+1 0 5210 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 5247 0 0 0 0 0 0 0 0
+S
+#5212
+In Front of a Long Warehouse~
+   To the north is a long, one story warehouse.  The eyes of many a kender
+stare at you and wonder what you might sell.  To the east the final curve of
+the street coms to an end.    
+~
+52 c h 0 0  1
+D0
+~
+~
+0 0 5213 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5216 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5210 0 0 0 0 0 0 0 0
+S
+#5213
+The National Kenderic Bank~
+   Next to an iron safe sits Jiminy Fourhands.  He doesn't stand here alone, of
+course.  With him is Malawak Bristleway, a volunteer guard who may just leave
+at any time.  Jiminy appears to be counting some coinage, while Malawak looks
+toward the item shop.  The wall the safe is set against seems solid, although
+dusty.  Small kender children run about the market, yet they are kept at bay
+near the safe.    
+~
+52 c h 0 0  0
+D0
+~
+~
+0 0 5214 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5212 0 0 0 0 0 0 0 0
+S
+#5214
+Gusta's Junk~
+   Immediately, upon walking in, a kender woman wearing mismatched rags begs
+your attention to her table.  A few kender can be seen sneaking away behind
+her.  There are rat tails hanging on the walls behind her, various other
+oddities hanging all about.  More likely than not, she has lost her interest in
+her own items, and so looks to each new passerby with a gleam of interest in
+her eye.    
+~
+52 c h 0 0  0
+D0
+~
+~
+0 0 5215 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5213 0 0 0 0 0 0 0 0
+S
+#5215
+Rusty Willowknot's Armory~
+   There is a counter here, behind it standing Rusty Willowknot.  A few shields
+are hung up on the wall behind him, along with a halberd.  His shop is simple,
+a single counter, and racks holding all of his merchandise.    
+~
+52 c h 0 0  0
+D2
+~
+~
+0 0 5214 0 0 0 0 0 0 0 0
+S
+#5216
+A Small Street on a Curving Road~
+   To the north can be seen a long warehouse, where as to the south lies two
+houses of contrasting colors.  In either direction, east or west, the road
+curves directly to the south.  The ground is not unlike stone, for the packing
+that the feet of as many kender as travel here is quite tough on the road.    
+~
+52 0 h 0 0  1
+D3
+~
+~
+0 0 5212 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5217 0 0 0 0 0 0 0 0
+S
+#5217
+A Small Street on a Curving Road~
+   Coming around the curve, the Mayor's mansion comes into veiw, although there
+is no visible way in reaching it.  In directions south and north, it would seem
+that the road comes into a complete coil or circle, causing some to wonder on
+the construction of the streets.    
+~
+52 0 h 0 0  1
+D2
+~
+~
+0 0 5218 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5216 0 0 0 0 0 0 0 0
+S
+#5218
+A Small Street on a Curving Road~
+   The road to the south abruptly turns out of veiw, leaving you to look at the
+rather small mansion of the Mayor.  Facing the east, the endless plains of
+grass would fill the scape.  The road's function comes into question as you
+walk along it.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5219 0 0 0 0 0 0 0 0
+S
+#5219
+An Abrupt Turn~
+   The road of dirt suddenly stops moving southwards, and turns northwards.  
+Heading north would bring one to a curve along the road, while northwest leads
+to a bright green house.  More southwards, another dizzying road is visible,
+yet not reachable.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5218 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5220 0 0 0 0 0 0 0 0
+S
+#5220
+Dead End Before a Home~
+   Oddly enough, unless one is a kender, the road suddenly stops before a
+bright green house.  The grass around it is rather well cared for, giving it a
+lustrous green.  To the south, an abrupt turn to the north is all that is
+visible, excepting the houses and street to the farther south.    
+~
+52 0 h 0 0  1
+D0
+~
+door~
+1 0 5221 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5219 0 0 0 0 0 0 0 0
+S
+#5221
+Inside a Bright Green House~
+   Inside this house, it is apparent the kender live like any other people.  
+There is a small table, a fire pit with a bubbling pot over it, and a few
+scattered chairs.  A rug is partially covering a trapdoor, undoubtedly leading
+to the basement.    
+~
+52 0 h 0 0  0
+D2
+~
+door~
+1 0 5220 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 5248 0 0 0 0 0 0 0 0
+S
+#5222
+Along Circle Street~
+   A house lies just off the street here.  The dirt beneath your feet feels
+solid, indicating many kender feet packing it in over the years.  Children play
+in the street, most uncaring about the passersby.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5208 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 5223 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5224 0 0 0 0 0 0 0 0
+S
+#5223
+Inside a Dull Red House~
+   Inside this house, it is fairly obvious the kender live like many other
+people.  There is a small table, a firepit with a bubbling pot over it, and a
+few scattered chairs.  A rug is partially covering a trapdoor, likely leading
+to the basement.    
+~
+52 0 h 0 0  0
+D3
+~
+door~
+1 0 5222 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 5242 0 0 0 0 0 0 0 0
+S
+#5224
+Along Circle Street~
+   A house lies just off the street here.  The dirt beneath your feet feels
+solid, indicating many kender feet packing it in over the years.  Children play
+in the street, most uncaring about the passersby.    
+~
+52 0 h 0 0  1
+D2
+~
+~
+0 0 5226 0 0 0 0 0 0 0 0
+D3
+~
+door ~
+1 0 5225 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5222 0 0 0 0 0 0 0 0
+S
+#5225
+Inside a Dull Green House~
+   Inside this house, it is fairly obvious the kender live like many other
+people.  There is a small table, a firepit with a bubbling pot over it, and a
+few scattered chairs.  A rug is partially covering a trapdoor, likely leading
+to the basement.    
+~
+52 0 h 0 0  0
+D1
+~
+door~
+1 0 5224 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 5236 0 0 0 0 0 0 0 0
+S
+#5226
+Along Circle Street~
+   The noise of kender children playing in the streets fills the air as you
+make your way around the street.  Some children are even seen chasing a goat
+around the block.  Houses of various hues line the street.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5224 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5227 0 0 0 0 0 0 0 0
+S
+#5227
+Along Circle Street~
+   A house lies just off the street here.  The dirt beneath your feet feels
+solid, indicating many kender feet packing it in over the years.  Children play
+in the street, most uncaring about the passersby.    
+~
+52 0 h 0 0  1
+D0
+~
+door~
+1 0 5228 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5229 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5226 0 0 0 0 0 0 0 0
+S
+#5228
+Inside a Lavender Colored House~
+   Inside this house, it is fairly obvious the kender live like many other
+people.  There is a small table, a firepit with a bubbling pot over it, and a
+few scattered chairs.  A rug is partially covering a trapdoor, likely leading
+to the basement.    
+~
+52 0 h 0 0  0
+D2
+~
+door~
+1 0 5227 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 5239 0 0 0 0 0 0 0 0
+S
+#5229
+Along Circle Street~
+   The noise of kender children playing in the streets fills the air as you
+make your way around the street.  Some children are even seen chasing a goat
+around the block.  Houses of various hues line the street.    
+~
+52 0 h 0 0  1
+D3
+~
+~
+0 0 5227 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5230 0 0 0 0 0 0 0 0
+S
+#5230
+Along Circle Street~
+   The noise of kender children playing in the streets fills the air as you
+make your way around the street.  Some children are even seen chasing a goat
+around the block.  Houses of various hues line the street.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5231 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5229 0 0 0 0 0 0 0 0
+S
+#5231
+Along Circle Street~
+   A house lies just off the street here.  The dirt beneath your feet feels
+solid, indicating many kender feet packing it in over the years.  Children play
+in the street, most uncaring about the passersby.    
+~
+52 0 h 0 0  1
+D2
+~
+~
+0 0 5230 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 5232 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5233 0 0 0 0 0 0 0 0
+S
+#5232
+Inside an Orange House~
+   Inside this house, it is fairly obvious the kender live like many other
+people.  There is a small table, a firepit with a bubbling pot over it, and a
+few scattered chairs.  A rug is partially covering a trapdoor, likely leading
+to the basement.    
+~
+52 0 h 0 0  0
+D1
+~
+door ~
+1 0 5231 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 5240 0 0 0 0 0 0 0 0
+S
+#5233
+Along Circle Street~
+   The noise of kender children playing in the streets fills the air as you
+make your way around the street.  Some children are even seen chasing a goat
+around the block.  Houses of various hues line the street.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5234 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5231 0 0 0 0 0 0 0 0
+S
+#5234
+Along Circle Street~
+   The noise of kender children playing in the streets fills the air as you
+make your way around the street.  Some children are even seen chasing a goat
+around the block.  Houses of various hues line the street.    
+~
+52 0 h 0 0  1
+D2
+~
+~
+0 0 5233 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5235 0 0 0 0 0 0 0 0
+S
+#5235
+Along Circle Street~
+   The noise of kender children playing in the streets fills the air as you
+make your way around the street.  Some children are even seen chasing a goat
+around the block.  Houses of various hues line the street.    
+~
+52 0 h 0 0  1
+D3
+~
+~
+0 0 5209 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5234 0 0 0 0 0 0 0 0
+S
+#5236
+The Basement of a Small Kender Home~
+   Just as might be expected, this basement is full of junk.  Old maps, clothes
+and furniture litter the floor, making the action of walking hazardous The air
+smells wet, and those that feel the walls can tell that they are rather thin.
+  
+~
+52 0 h 0 0  0
+D1
+~
+~
+0 0 5237 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 5225 0 0 0 0 0 0 0 0
+S
+#5237
+A Dimly Lit Corridor~
+   It seems that all of the kender homes connect under ground.  The why of
+locked doors is odd, though.  Perhaps the kender were having fun when they
+designed the city.    
+~
+52 0 h 0 0  0
+D1
+~
+wall~
+1 5220 5238 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5236 0 0 0 0 0 0 0 0
+S
+#5238
+A Dimly Lit Corridor~
+   It seems that all of the kender homes connect under ground.  The why of
+locked doors is odd, though.  Perhaps the kender were having fun when they
+designed the city.    
+~
+52 0 h 0 0  0
+D1
+~
+wall~
+1 5219 5240 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5239 0 0 0 0 0 0 0 0
+D3
+~
+wall~
+1 5220 5237 0 0 0 0 0 0 0 0
+S
+#5239
+The Basement of a Small Kender Home~
+   Just as might be expected, this basement is full of junk.  Old maps, clothes
+and furniture litter the floor, making the action of walking hazardous The air
+smells wet, and those that feel the walls can tell that they are rather thin.
+  
+~
+52 0 h 0 0  0
+D0
+~
+~
+0 0 5238 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 5228 0 0 0 0 0 0 0 0
+S
+#5240
+The Basement of a Small Kender Home~
+   Just as might be expected, this basement is full of junk.  Old maps, clothes
+and furniture litter the floor, making the action of walking hazardous The air
+smells wet, and those that feel the walls can tell that they are rather thin.
+  
+~
+52 0 h 0 0  0
+D0
+~
+wall~
+1 5214 5242 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5241 0 0 0 0 0 0 0 0
+D3
+~
+wall~
+1 5219 5238 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 5232 0 0 0 0 0 0 0 0
+S
+#5241
+A Dimly Lit Corridor~
+   It seems that all of the kender homes connect under ground.  The why of
+locked doors is odd, though.  Perhaps the kender were having fun when they
+designed the city.    
+~
+52 0 h 0 0  0
+D0
+~
+~
+0 0 5240 0 0 0 0 0 0 0 0
+S
+#5242
+The Basement of a Small Kender Home~
+   Just as might be expected, this basement is full of junk.  Old maps, clothes
+and furniture litter the floor, making the action of walking hazardous The air
+smells wet, and those that feel the walls can tell that they are rather thin.
+  
+~
+52 0 h 0 0  0
+D0
+~
+~
+0 0 5243 0 0 0 0 0 0 0 0
+D2
+~
+wall~
+1 5214 5240 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 5223 0 0 0 0 0 0 0 0
+S
+#5243
+A Dimly Lit Corridor~
+   It seems that all of the kender homes connect under ground.  The why of
+locked doors is odd, though.  Perhaps the kender were having fun when they
+designed the city.    
+~
+52 0 h 0 0  0
+D0
+~
+wall~
+1 5216 5244 0 0 0 0 0 0 0 0
+D1
+~
+wall~
+1 5217 5249 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5242 0 0 0 0 0 0 0 0
+S
+#5244
+A Dimly Lit Corridor~
+   It seems that all of the kender homes connect under ground.  The why of
+locked doors is odd, though.  Perhaps the kender were having fun when they
+designed the city.    
+~
+52 0 h 0 0  0
+D0
+~
+wall~
+1 0 5246 0 0 0 0 0 0 0 0
+D2
+~
+wall~
+1 5216 5243 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5245 0 0 0 0 0 0 0 0
+S
+#5245
+A dimly lit room~
+   Water leaks and drips from a stone ceiling into a chipped water bowl here.
+The purpose of this room isn't too clear, unless it is for hiding in, should an
+emergency present itself.  It is an odd, dim light without a source that lights
+this room.  There are statues of little people in the upper corners of the
+room, unreachable by most.  They seem to be protecting the room.    
+~
+52 g h 0 0  0
+D1
+~
+~
+0 0 5244 0 0 0 0 0 0 0 0
+S
+#5246
+A Dimly Lit Corridor~
+   It seems that all of the kender homes connect under ground.  The why of
+locked doors is odd, though.  Perhaps the kender were having fun when they
+designed the city.    
+~
+52 0 h 0 0  0
+D0
+~
+~
+0 0 5247 0 0 0 0 0 0 0 0
+D2
+~
+wall~
+1 0 5244 0 0 0 0 0 0 0 0
+S
+#5247
+The Basement of a Small Kender Home~
+   Just as might be expected, this basement is full of junk.  Old maps, clothes
+and furniture litter the floor, making the action of walking hazardous The air
+smells wet, and those that feel the walls can tell that they are rather thin.
+  
+~
+52 0 h 0 0  0
+D1
+~
+wall~
+1 5218 5248 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5246 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 5211 0 0 0 0 0 0 0 0
+S
+#5248
+The Basement of a Small Kender Home~
+   Just as might be expected, this basement is full of junk.  Old maps, clothes
+and furniture litter the floor, making the action of walking hazardous The air
+smells wet, and those that feel the walls can tell that they are rather thin.
+  
+~
+52 0 h 0 0  0
+D3
+~
+wall~
+1 5218 5247 0 0 0 0 0 0 0 0
+D4
+~
+trapdoor~
+1 0 5221 0 0 0 0 0 0 0 0
+S
+#5249
+A Dark, Narrow Hallway~
+   The stone walls seem to be breaking apart, as if hundreds of hands trail
+along them each day.  The ground is well trodden, allowing for a nice path to
+have been dug into the ground.  Some light is visible to the east.    
+~
+52 a h 0 0  0
+D1
+~
+~
+0 0 5250 0 0 0 0 0 0 0 0
+D3
+~
+wall~
+1 5217 5243 0 0 0 0 0 0 0 0
+S
+#5250
+A Dark, Narrow Hallway~
+   The stone walls seem to be breaking apart, as if hundreds of hands trail
+along them each day.  The ground is well trodden, allowing for a nice path to
+have been dug into the ground.  Some light is visible to the east.    
+~
+52 a h 0 0  0
+D1
+~
+~
+0 0 5251 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5249 0 0 0 0 0 0 0 0
+S
+#5251
+A Dark, Narrow Hallway~
+   The stone walls seem to be breaking apart, as if hundreds of hands trail
+along them each day.  The ground is well trodden, allowing for a nice path to
+have been dug into the ground.  Some light is visible to the east.    
+~
+52 a h 0 0  0
+D1
+~
+~
+0 0 5252 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5250 0 0 0 0 0 0 0 0
+S
+#5252
+A Narrow Curved Stairwell~
+   A bench is here, usually guarded by kender guards.  Above, there is open
+sky, and one may feel the wind coming down the steps.  To the west lies a
+shadowy path that is lost in the darkness.    
+The bench looks very inviting.
+~
+52 0 h 0 0  0
+D2
+~
+~
+0 0 5253 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5251 0 0 0 0 0 0 0 0
+E
+bench~
+   Made of soft pine, and looking to curve to fit the body of the sitter
+perfectly.  It is still in the color of the wood, and is a nice addition to any
+place you may imagine.    
+~
+S
+#5253
+A Stone Stairwell~
+   Standing at the bottom of the stairwell, one might see the door to a
+building directly at the top of the steps.  From the north wafts in an old,
+musty smell.  The tunnel to the north cuts immediately to the west.    
+~
+52 0 h 0 0  0
+D0
+~
+~
+0 0 5252 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5254 0 0 0 0 0 0 0 0
+S
+#5254
+A Completely Fenced in Area~
+   From here there seems only two ways to go.  To the east there is the door to
+a white building.  The sign over the door reads, 'Metwinger for Mayor'.  Below
+you rises the dingey smell of the underground hallways from beyond the curving
+stone stair well.    
+~
+52 0 h 0 0  1
+D1
+~
+door~
+1 5217 5255 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5262 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5253 0 0 0 0 0 0 0 0
+S
+#5255
+The Antechamber~
+   All around, one might notice numerous chairs of various hues of blue.  
+There are many cloaks of drab colors hanging on hooks every which where.  They
+must have belonged to the common travelers that were fool enough to have come
+to Kendermore.    
+~
+52 0 h 0 0  0
+D1
+~
+~
+0 0 5256 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 5217 5254 0 0 0 0 0 0 0 0
+S
+#5256
+A Hallway in the Mayor's House~
+   The floor boards are painted a pale purple, and the walls are a
+complementary vivid orange.  There is some dust on the floor, but all in the
+corners, as many people must walk through here.  There is another coat rack
+hanging on the wall.    
+~
+52 0 h 0 0  0
+D1
+~
+~
+0 0 5258 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5255 0 0 0 0 0 0 0 0
+D4
+~
+attic~
+1 0 5257 0 0 0 0 0 0 0 0
+S
+#5257
+An Old Map Room~
+   All around, there is nothing but maps, rolled and stored on shelves.  A map
+of Abinasinia is unrolled on the huge, heavy table in the center of the room.
+The smell of old leather permeates the room.    
+~
+52 0 h 0 0  0
+D5
+~
+attic~
+1 0 5256 0 0 0 0 0 0 0 0
+S
+#5258
+An Empty Room~
+   There are various books and rolled up parchments adorning a shelf here.  
+With four comfortable looking rocking chairs, this has the feel of a waiting
+room.  An odd smell wafts in from the north.  If one listens, they may hear
+arguing or talking coming through the east wall.    
+~
+52 0 h 0 0  0
+D0
+~
+~
+0 0 5259 0 0 0 0 0 0 0 0
+D1
+~
+panel~
+1 0 5261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5260 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5256 0 0 0 0 0 0 0 0
+S
+#5259
+The Kitchen~
+   A pot sits bubbling over the fire, its contents most wouldn't want to guess
+at.  A kender maiden stirs the stew while holding her nose.  A small, round
+table sits in one corner, with two stools pushed underneath of it.  The floor
+is tiled in white marble, and the walls are painted green.    
+~
+52 0 h 0 0  0
+D2
+~
+~
+0 0 5258 0 0 0 0 0 0 0 0
+S
+#5260
+A Darkened Room~
+   With skins and rugs draped over the floor, this must be the warmest room in
+the house.  A huge bed occupies this room, along with a cracked water basin.  
+There is also a tall, oak wardrobe standing against the western wall.    
+~
+52 0 h 0 0  0
+D0
+~
+~
+0 0 5258 0 0 0 0 0 0 0 0
+S
+#5261
+A Hearing Room~
+   Here, the various citizens argue charges, plead for repairs, and whine over
+taxes.  No one seems to be looking where Mayor Metwinger judges from, and talk
+amongst themselves instead.  The audience seems to pay no attention to the case
+at hand.    
+~
+52 0 h 0 0  0
+D3
+~
+panel~
+1 0 5258 0 0 0 0 0 0 0 0
+S
+#5262
+Entrance to Metwinger's Hedge Maze~
+   The Mayor's mansion sits just to the north, while a hedge maze lay to the
+south.  The wailing and laughing of many a kender can be heard over the bushes.
+To the south east and west, lay the first steps into the maze.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5254 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5263 0 0 0 0 0 0 0 0
+S
+#5263
+Entrance to Metwinger's Hedge Maze~
+   The Mayor's mansion sits just to the north, while a hedge maze lay to the
+south.  The wailing and laughing of many a kender can be heard over the bushes.
+To the south east and west, lay the first steps into the maze.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5262 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5264 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5265 0 0 0 0 0 0 0 0
+S
+#5264
+Entrance to the Hedge Maze~
+   These are the last few steps before getting lost in the maze.  It is up to
+the traveler to decide if they wish to go back to the reason that is their
+city, or just lose it all in here.  The twittering of birds can be heard along
+with the screams of kender, be they happy shouts or not.    
+~
+52 0 h 0 0  1
+D1
+~
+~
+0 0 5266 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5263 0 0 0 0 0 0 0 0
+S
+#5265
+Entrance to the Hedge Maze~
+   These are the last few steps before getting lost in the maze.  It is up to
+the traveler to decide if they wish to go back to the reason that is their
+city, or just lose it all in here.  The twittering of birds can be heard along
+with the screams of kender, be they happy shouts or not.    
+~
+52 0 h 0 0  1
+D3
+~
+~
+0 0 5266 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5263 0 0 0 0 0 0 0 0
+S
+#5266
+Entrance to the Hedge Maze~
+   These are the last few steps before getting lost in the maze.  It is up to
+the traveler to decide if they wish to go back to the reason that is their
+city, or just lose it all in here.  The twittering of birds can be heard along
+with the screams of kender, be they happy shouts or not.    
+~
+52 0 h 0 0  1
+D1
+~
+~
+0 0 5265 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5267 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5264 0 0 0 0 0 0 0 0
+S
+#5267
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5266 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5273 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5268 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5267 0 0 0 0 0 0 0 0
+S
+#5268
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5267 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5268 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5268 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5269 0 0 0 0 0 0 0 0
+S
+#5269
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5270 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5268 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5271 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5269 0 0 0 0 0 0 0 0
+S
+#5270
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5270 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5270 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5269 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5270 0 0 0 0 0 0 0 0
+S
+#5271
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5269 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5271 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5272 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5271 0 0 0 0 0 0 0 0
+S
+#5272
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5271 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5272 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5272 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5272 0 0 0 0 0 0 0 0
+S
+#5273
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5273 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5273 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5274 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5267 0 0 0 0 0 0 0 0
+S
+#5274
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5273 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5274 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5275 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5274 0 0 0 0 0 0 0 0
+S
+#5275
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5274 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5279 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5276 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5275 0 0 0 0 0 0 0 0
+S
+#5276
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5275 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5276 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5276 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5277 0 0 0 0 0 0 0 0
+S
+#5277
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5278 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5276 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5277 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5277 0 0 0 0 0 0 0 0
+S
+#5278
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5278 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5278 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5277 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5278 0 0 0 0 0 0 0 0
+S
+#5279
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5282 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5279 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5280 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5275 0 0 0 0 0 0 0 0
+S
+#5280
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5279 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5281 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5280 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5280 0 0 0 0 0 0 0 0
+S
+#5281
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5281 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5281 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5281 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5280 0 0 0 0 0 0 0 0
+S
+#5282
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5283 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5284 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5279 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5282 0 0 0 0 0 0 0 0
+S
+#5283
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5283 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5283 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5282 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5283 0 0 0 0 0 0 0 0
+S
+#5284
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5285 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5284 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5286 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5282 0 0 0 0 0 0 0 0
+S
+#5285
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5285 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5285 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5284 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5285 0 0 0 0 0 0 0 0
+S
+#5286
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5284 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5287 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5286 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5286 0 0 0 0 0 0 0 0
+S
+#5287
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5289 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5287 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5288 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5286 0 0 0 0 0 0 0 0
+S
+#5288
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5287 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5288 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5288 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5288 0 0 0 0 0 0 0 0
+S
+#5289
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5290 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5289 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5287 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5289 0 0 0 0 0 0 0 0
+S
+#5290
+The Hedge Maze~
+   The shrubs all around seemed to be not only incredibly cut and shaped, but
+beautifully grown as well.  A narrow dirt trail is scratched into the ground,
+most likely from the many kender that wander this maze.  The bushes grow to
+about twenty feet in height, making one marvel at the sheer impossibility of
+such a thing.    
+~
+52 0 h 0 0  1
+D0
+~
+~
+0 0 5290 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5290 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5289 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5290 0 0 0 0 0 0 0 0
+S
+#5291
+A new room~
+You are in a room.
+~
+52 0 0 0 0  0
+D3
+~
+~
+0 0 5292 0 0 0 0 0 0 0 0
+D0
+~
+~
+0 0 5293 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5291 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 -1 5291 0 0 0 0 0 0 0 0
+S
+#5293
+A new room~
+You are in a room.
+~
+52 0 0 0 0  0
+S
+$

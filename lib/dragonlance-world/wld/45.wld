@@ -1,0 +1,1849 @@
+#4500
+Travelling the Northern Abanasinian Plains~
+   Tall plains grasses wave in the wind and slap against you as you pass.  The
+plains are dry and the plains have taken on a golden hue.  A small animal trail
+cuts across the plains going to the east and west.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4416 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4501 0 0 0 0 0 0 0 0
+S
+#4501
+Travelling the Plains~
+   This animal trail winds across the northern plains of Abanasinia.  The tall
+plains grasses wave in the wind.  Not many animals are seen as they sense your
+approach and hide among the grass.  The Sentinel mountain range rises out of
+the plains to the south.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4500 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4502 0 0 0 0 0 0 0 0
+S
+#4502
+Travelling the Plains~
+   Tall plains grasses sway in the wind making it appear as if your standing in
+an ocean of gold tinted water.  The plains are dry and dusty.  A narrow trail
+winds its way through the plains.  To the south the Sentinel mountain range
+rises out of the plains to the south.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4501 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4503 0 0 0 0 0 0 0 0
+S
+#4503
+Travelling the Plains~
+   The trail bends to the north here travelling around the northern most
+reaches of the Sentinel Mountains.  A dry breeze brushes across the plains
+making the tall grasses sway gently.  To the northwest vultures circle in the
+sky.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4502 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4504 0 0 0 0 0 0 0 0
+S
+#4504
+Travelling the Plains~
+   Tall plains grasses sway in the wind.  A foul stench fills the air here.  
+The grass has been trampled down and the smell of blood and decay fills the
+air.  The Sentinel Mountains rise to the south.  The plains stretch endlessly
+to the north, east, and west.    
+~
+45 0 h 0 0  2
+D6
+~
+~
+0 0 4505 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4503 0 0 0 0 0 0 0 0
+S
+#4505
+Travelling the Northern Plains~
+   The northern most peaks of the Sentinel Mountain range stand on the southern
+horizon.  The endless plains of Northern Abanasinia surround you.  Tall golden
+plains grasses sway gently in the wind.  An animal trail leads off to the west
+and southeast.    
+~
+45 0 h 0 0  2
+D3
+~
+~
+0 0 4506 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4504 0 0 0 0 0 0 0 0
+S
+#4506
+Travelling the Northern Plains~
+   The endless plains of Northern Abanasinia stretch off to the four horizons.
+A narrow animal trail cuts through the tall grasses.  The trail is covered in
+animal tracks and its obvious that many animals use the trail.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4505 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4507 0 0 0 0 0 0 0 0
+S
+#4507
+Travelling the Northern Plains~
+   The animal path abruptly opens up to a small clearing among the tall
+grasses.  A small pond filled with clear water and ringed with rushes is here.
+The sounds of some frogs and other creatures fills the air.  Animal tracks
+cover the ground as this is probably a popular watering hole for the animals of
+the plains.    
+~
+45 u h 0 0  2
+D1
+~
+~
+0 0 4506 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4508 0 0 0 0 0 0 0 0
+S
+#4508
+Travelling the Northern Plains~
+   The endless plains of Northern Abanasinia surround you.  Tall plains grasses
+stretch in every direction.  Occasional clumps of short hardy trees block the
+view.    
+~
+45 0 h 0 0  2
+D7
+~
+~
+0 0 4507 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4509 0 0 0 0 0 0 0 0
+S
+#4509
+Travelling the Northern Plains~
+   The endless plains of Northern Abanasinia surround you.  Tall plains grasses
+stretch in every direction.  Occasional clumps of short hardy trees block the
+view.    
+~
+45 0 h 0 0  2
+D3
+~
+~
+0 0 4511 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4508 0 0 0 0 0 0 0 0
+S
+#4510
+A new room~
+You are in a room.
+~
+45 0 h 0 0  0
+D1
+~
+~
+0 0 4509 0 0 0 0 0 0 0 0
+S
+#4511
+Approaching the Straits of Algoni~
+   Tall plains grasses wave in the wind around you.  To the east the horizon
+turns blue as the plains meet the Straits of Algoni.  Thin plumes of smoke rise
+to the east from a small village.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4509 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4512 0 0 0 0 0 0 0 0
+S
+#4512
+Approching the Straits of Algoni~
+   Tall plains grasses wave in the wind around you.  To the east the horizon
+turns blue as the plains meet the Straits of Algoni.  Thin plumes of smoke rise
+to the east from a small village.  Its not very large consisting of a dozen or
+so small hovels and a short pier that juts out into the sea.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4511 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4513 0 0 0 0 0 0 0 0
+S
+#4513
+On the Outskirts of a Fishing Village~
+   The ground here is very dry and dust kicks up into the air with every step.
+This place can hardly be called a village.  Barely a dozen or so small hovels
+crowd together.  There appears to be only one main structure, some kind of long
+storage building.  A number of small fishing boats are moored to a small pier
+on the far side of the village.    
+~
+45 0 h 0 0  1
+D3
+~
+~
+0 0 4514 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4512 0 0 0 0 0 0 0 0
+S
+#4514
+Amidst A Gathering of Small Hovels~
+   This is the center of the village.  Most of the hovels face in towards this
+logical center.  The ground here is cleared and packed hard from the tread of
+the villagers feet.  Most of the hovels are shut tight and those villagers you
+see eye you with fear and duck out of sight quickly.    
+~
+45 0 h 0 0  1
+D1
+~
+~
+0 0 4513 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4515 0 0 0 0 0 0 0 0
+S
+#4515
+At a Broken Down Dock~
+   This is a short wooden dock on the Straits of Algoni.  It creaks and sways
+ominously under your feet.  A couple of leaky fishing boats are tied up to the
+dock.  The turbulent waters of the Strait lap against the shoreline.  The smell
+of the cold salt water fills the air and a few seagulls wheel about looking for
+food.    
+~
+45 c h 0 0  1
+D1
+~
+~
+0 0 4514 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4516 0 0 0 0 0 0 0 0
+S
+#4516
+Crossing the Straits of Algoni~
+   The small fishing boat you have commandeered rocks dangerously in the
+turbulent waters of the Strait.  Cold spray washes over the side drenching
+everyone inside.  Water must be constantly bailed to keep afloat.  To the east
+the shore line of Northern Abanasinia can be seen.  The Island of Southern
+Ergoth lies to the west.    
+~
+45 0 h 0 0  6
+D1
+~
+~
+0 0 4515 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4517 0 0 0 0 0 0 0 0
+S
+#4517
+On a Sandy Beach~
+   This is a short sandy beach on the east coast of Southern Ergoth.  Large
+rolling waves wash up on the sand erasing any signs of passage.  Bits of
+driftwood and shells litter the beach and small creatures skitter about.  A
+tall jagged cliff isolates the beach from the plains lands to the west.    
+~
+45 c h 0 0  2
+D0
+~
+~
+0 0 4518 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4516 0 0 0 0 0 0 0 0
+S
+#4518
+Climbing the Cliff~
+   At the northern end of the beach the cliff isn't quite as steep and what
+appears to be an animal trail of some kind provides a way up to the plains and
+off of the beach.  The salty water of Straits rolls onto the beach with a
+steady lulling cadence.  Holes cover the cliff sides and small birds pop in and
+out some twittering angrily at your intrusion.    
+~
+45 0 h 0 0  4
+D0
+~
+~
+0 0 4519 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4517 0 0 0 0 0 0 0 0
+S
+#4519
+Climbing the Cliff~
+   The cliff face here becomes rather steep but not impassable.  It angles
+sharply upwards towards the land above.  The beach lies quite a dangerous
+distance down below you.    
+~
+45 0 h 0 0  4
+D2
+~
+~
+0 0 4518 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4520 0 0 0 0 0 0 0 0
+S
+#4520
+On a Steep Trail~
+   The trail along the cliff here is very steep but has plentiful handholds to
+make it passable.  It angles sharply downwards here towards an isolated beach
+on the coastline of Southern Ergoth.  Waves roll onto the beach depositing bits
+of driftwood and carrying other things away.    
+~
+45 0 h 0 0  4
+D2
+~
+~
+0 0 4521 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4519 0 0 0 0 0 0 0 0
+S
+#4521
+At the Top of a Cliff~
+   The ground drops away here to form a cliff overlooking the shoreline of
+Southern Ergoth.  The dark turbulent waters of the Straits of Algoni toss about
+in white foam topped waves.  A narrow animal trail leads down to a small beach
+at the base of the cliff.  The barren, broken plains stretch to the west.    
+~
+45 c h 0 0  2
+D0
+~
+~
+0 0 4520 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4522 0 0 0 0 0 0 0 0
+S
+#4522
+The Eastern Wilderness~
+   Tall, pockmarked stone pillars dot this rolling broken plains land.  No
+trees can be seen.  Only short scraggly grass and some hardy bushes live in
+this wilderness.  The wind whistles by the stone monoliths.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4521 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+S
+#4523
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4522 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4525 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4524 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4526 0 0 0 0 0 0 0 0
+S
+#4524
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4544 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4525 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4545 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+S
+#4525
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4524 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4526 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4545 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4534 0 0 0 0 0 0 0 0
+S
+#4526
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4525 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4527 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4523 0 0 0 0 0 0 0 0
+S
+#4527
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4526 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4527 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4528 0 0 0 0 0 0 0 0
+S
+#4528
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4533 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4529 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4527 0 0 0 0 0 0 0 0
+S
+#4529
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4528 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4530 0 0 0 0 0 0 0 0
+S
+#4530
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4529 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4546 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4531 0 0 0 0 0 0 0 0
+S
+#4531
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4530 0 0 0 0 0 0 0 0
+S
+#4532
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4535 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4534 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4531 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4536 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4533 0 0 0 0 0 0 0 0
+S
+#4533
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D2
+~
+~
+0 0 4528 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+S
+#4534
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4538 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4525 0 0 0 0 0 0 0 0
+S
+#4535
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D2
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4545 0 0 0 0 0 0 0 0
+S
+#4536
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D7
+~
+~
+0 0 4537 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4532 0 0 0 0 0 0 0 0
+S
+#4537
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4539 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4536 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4538 0 0 0 0 0 0 0 0
+S
+#4538
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D2
+~
+~
+0 0 4534 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4537 0 0 0 0 0 0 0 0
+S
+#4539
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4540 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4537 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4541 0 0 0 0 0 0 0 0
+S
+#4540
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D3
+~
+~
+0 0 4539 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4542 0 0 0 0 0 0 0 0
+S
+#4541
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4542 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4539 0 0 0 0 0 0 0 0
+S
+#4542
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4543 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4541 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4540 0 0 0 0 0 0 0 0
+S
+#4543
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D3
+~
+~
+0 0 4542 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4544 0 0 0 0 0 0 0 0
+S
+#4544
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D2
+~
+~
+0 0 4524 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4543 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4545 0 0 0 0 0 0 0 0
+S
+#4545
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4524 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4544 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4535 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4525 0 0 0 0 0 0 0 0
+S
+#4546
+Wandering the Broken Plains~
+   A broken, rolling plain stretches out in every direction.  The landscape is
+eroded by wind and rain and crevices and gullies crease the terrain.  Tall
+stone monoliths are scattered about randomly forming a sort of rock forest.  
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4530 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4547 0 0 0 0 0 0 0 0
+S
+#4547
+Approaching a Scorched Area~
+   The terrain here is very broken and spoiled by erosion and wind.  Large
+pillars of stone dot the landscape randomly.  The wind whistles around the
+monoliths making an eerie sound.  Ahead the ground appears as if it has
+suffered from a fire of some kind.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4548 0 0 0 0 0 0 0 0
+S
+#4548
+Approaching a Scorched Area~
+   The terrain here is very broken and spoiled by erosion and wind.  Large
+pillars of stone dot the landscape randomly.  The wind whistles around the
+monoliths making an eerie sound.  Ahead the ground appears as if it has
+suffered from a fire of some kind.  To the south there is an oddly large amount
+of the stone pillars clustered together.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4547 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4549 0 0 0 0 0 0 0 0
+S
+#4549
+Outside a Ring of Stone Monoliths~
+   A large circle of stone monoliths stands here.  They all appear to be angled
+slightly outwards from the center of the ring.  The grass here is scorched as
+if it was exposed to an intense flash of heat but its not burned away like a
+fire.  The air is noticeably warmer here and the pillars still feel warm to the
+touch.    
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4548 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4550 0 0 0 0 0 0 0 0
+S
+#4550
+Inside a Circle of Stone Monoliths~
+   A wide circle of stone monoliths form a ring around a small raised stone
+platform at its center.  The ground here has been scorched and the brittle
+blackened grass crunches under foot.  The air is very warm here.  Atop the
+platform a large shimmering disk of swirling fire pulses violently.    
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4551 0 0 0 0 0 0 0 0
+S
+#4551
+Before a Shimmering Portal~
+   Before you stands a large shimmering portal of fire.  The air around the
+portal is very hot and you sweat freely.  The whole platform is covered in a
+thin film of white ash.  A small mound of a darker grey ash lies in front of
+the portal.    
+~
+45 c h 0 0  2
+D0
+~
+~
+0 0 4550 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4552 0 0 0 0 0 0 0 0
+E
+portal~
+   Shimmering patterns of fire and energy swirl about in this circular portal.
+It pulses rapidly and emits a great deal of heat.  It seems to bend out of
+shape occasionally.  It may be very unstable.  Nothing can be seen on the other
+side.    
+~
+S
+#4552
+Atop of Pillar of Elemental Earth~
+   Burning magma surrounds this stable piece of elemental earth.  The ground in
+all directions is a shifting mass of superheated rock.  Great geysers of molten
+lava erupt out of the ground.  The air is stifling and your vision is blurred
+from the continuous waves of intense heat.    
+~
+45 0 h 0 0  3
+D0
+~
+~
+0 0 4553 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4554 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4556 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4555 0 0 0 0 0 0 0 0
+S
+#4553
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D0
+~
+~
+0 0 4557 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4552 0 0 0 0 0 0 0 0
+S
+#4554
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4582 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4552 0 0 0 0 0 0 0 0
+S
+#4555
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4552 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4566 0 0 0 0 0 0 0 0
+S
+#4556
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4552 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+S
+#4557
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D2
+~
+~
+0 0 4553 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4559 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4558 0 0 0 0 0 0 0 0
+S
+#4558
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4585 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4557 0 0 0 0 0 0 0 0
+S
+#4559
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D3
+~
+~
+0 0 4563 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4557 0 0 0 0 0 0 0 0
+S
+#4560
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4561 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4562 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4559 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4558 0 0 0 0 0 0 0 0
+S
+#4561
+At a Swirling Pool of Magma~
+   The shifting blackened crust gives way here to a large pool of molten lava.
+It swirls in a strange whirlpool like effect.  Bubbles of noxious, superheated
+gases bubble to the surface.    
+~
+45 0 h 0 0  3
+D3
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4598 0 0 0 0 0 0 0 0
+E
+pool~
+   Ths scorching heat from the pool keeps you from getting too close.  It
+bubbles and spurts small bubbles of noxious fumes.  It almost appears as if
+there are creatures made of flame dancing about inside the pool.    
+~
+S
+#4562
+At a Swirling Pool of Magma~
+   The shifting blackened crust gives way here to a large pool of molten lava.
+It swirls in a strange whirlpool like effect.  Bubbles of noxious, superheated
+gases bubble to the surface.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4560 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4597 0 0 0 0 0 0 0 0
+E
+pool~
+   The scorching heat from the pool keeps you from getting too close.  It
+bubbles and spurts small bubbles of noxious fumes.    
+~
+E
+lava~
+You see nothing special.
+~
+S
+#4563
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4559 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4565 0 0 0 0 0 0 0 0
+S
+#4564
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D0
+~
+~
+0 0 4565 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4567 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4566 0 0 0 0 0 0 0 0
+S
+#4565
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D2
+~
+~
+0 0 4564 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4563 0 0 0 0 0 0 0 0
+S
+#4566
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4555 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4564 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4569 0 0 0 0 0 0 0 0
+S
+#4567
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D3
+~
+~
+0 0 4568 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4564 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4569 0 0 0 0 0 0 0 0
+S
+#4568
+At a Fiery Geyser of Lava~
+   A huge geyser of molten rock continuously spurts into the air here.  Chunks
+of magma rain down on the ground pelting the hard crust.  The ground
+continually shifts violently as the edges of the crust are caught in the geyser
+and thrown into the air.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4567 0 0 0 0 0 0 0 0
+D5
+~
+geyser~
+1 0 4599 0 0 0 0 0 0 0 0
+E
+geyser~
+   The geyser continuously shoots magma into the air.  Swirling magma rotates
+about the base of the geyser in an almost hypnotic pattern.  It almost looks as
+if there are living creatures dancing about in chaotic patterns within the
+magma.    
+~
+S
+#4569
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D2
+~
+~
+0 0 4570 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4567 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4566 0 0 0 0 0 0 0 0
+S
+#4570
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4569 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4571 0 0 0 0 0 0 0 0
+S
+#4571
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4572 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4570 0 0 0 0 0 0 0 0
+S
+#4572
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D3
+~
+~
+0 0 4571 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+S
+#4573
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4556 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4572 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4577 0 0 0 0 0 0 0 0
+S
+#4574
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4575 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4576 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4572 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4577 0 0 0 0 0 0 0 0
+S
+#4575
+At a Swirling Pool of Lava~
+   The shifting blackened crust gives way here to a large pool of molten lava.
+It swirls in a strange whirlpool like effect.  Bubbles of noxious, superheated
+gases bubble to the surface.    
+~
+45 0 h 0 0  3
+D3
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4595 0 0 0 0 0 0 0 0
+E
+pool~
+   The scorching heat from the pool keeps you from getting too close.  It
+bubbles and spurts small bubbles of noxious fumes.    
+~
+S
+#4576
+At a Swirling Pool of Lava~
+   The shifting blackened crust gives way here to a large pool of molten lava.
+It swirls in a strange whirlpool like effect.  Bubbles of noxious, superheated
+gases bubble to the surface.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4596 0 0 0 0 0 0 0 0
+E
+pool~
+   The scorching heat from the pool keeps you from getting too close.  It
+bubbles and spurts small bubbles of noxious fumes.    
+~
+S
+#4577
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4578 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4573 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4574 0 0 0 0 0 0 0 0
+S
+#4578
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D3
+~
+~
+0 0 4577 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4579 0 0 0 0 0 0 0 0
+S
+#4579
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D0
+~
+~
+0 0 4580 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4578 0 0 0 0 0 0 0 0
+S
+#4580
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D2
+~
+~
+0 0 4579 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4582 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4581 0 0 0 0 0 0 0 0
+S
+#4581
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  2
+D1
+~
+~
+0 0 4586 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4583 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4580 0 0 0 0 0 0 0 0
+S
+#4582
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D3
+~
+~
+0 0 4554 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4583 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4580 0 0 0 0 0 0 0 0
+S
+#4583
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D0
+~
+~
+0 0 4584 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4582 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4581 0 0 0 0 0 0 0 0
+S
+#4584
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D2
+~
+~
+0 0 4583 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4585 0 0 0 0 0 0 0 0
+S
+#4585
+A Blackened Plain of Magma~
+   The ground is continually shifting beneath your feet as the molten rock
+beneath the crust moves.  Great gouts of magma burst forth from the ground
+throwing chunks of superheated rock soaring into the sky.  Pools of lava dot
+the landscape.    
+~
+45 0 h 0 0  3
+D3
+~
+~
+0 0 4558 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4584 0 0 0 0 0 0 0 0
+S
+#4586
+Approaching a Black Stone Fortress~
+   Rising out of the shifting plains of magma flows to the east is a fortress
+made from pitch black stone.  It rests atop a huge floating piece of elemental
+earth.  A long switch back path leads up to the fiery gates.    
+~
+45 0 h 0 0  3
+D1
+~
+~
+0 0 4587 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4581 0 0 0 0 0 0 0 0
+S
+#4587
+At the Bottom of a Steep Trail~
+   The ground here is solid earth.  The black stone fortress rests atop a piece
+of earth that drifted in from the plane of Earth.  Creatures made of elemental
+fire can be seen wandering about the fortress.  A steep switch back trail leads
+up to the gates.    
+~
+45 0 h 0 0  4
+D0
+~
+~
+0 0 4588 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4586 0 0 0 0 0 0 0 0
+S
+#4588
+On a Trail to the Fortress~
+   This narrow earthen path has been carved into the side of the chunk of
+elemental earth that the fortress rests on.  High above stand the fiery gates
+to the fortress.  Spreading out in every direction lies a plain of ever
+shifting magma.  Great geysers of molten rock shoot into the air.    
+~
+45 0 h 0 0  4
+D0
+~
+~
+0 0 4589 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4587 0 0 0 0 0 0 0 0
+S
+#4589
+On a Trail to the Fortress~
+   This trail angles upward here as it switches back to the south on its way up
+to the gates of the black stone fortress.  The bubbling shifting plains of
+magma surround the fortress.  The piece of solid earth moves slowly in the
+magma rivers and currents of the plane.    
+~
+45 0 h 0 0  4
+D2
+~
+~
+0 0 4588 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4590 0 0 0 0 0 0 0 0
+S
+#4590
+On a Trail to the Fortress~
+   The trail narrows as it gets closer to the gates of the fortess.  Atop the
+berg of elemental earth the fortress seems to absorb all light.  The black
+stone is almost glossy in appearance and appears very smooth.  Beings made of
+fire can be seen walking the battlements.    
+~
+45 0 h 0 0  4
+D2
+~
+~
+0 0 4591 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4589 0 0 0 0 0 0 0 0
+S
+#4591
+On a Trail to the Fortress~
+   The trail narrows as it gets closer to the gates of the fortess.  Atop the
+berg of elemental earth the fortress seems to absorb all light.  The black
+stone is almost glossy in appearance and appears very smooth.  Beings made of
+fire can be seen walking the battlements.    
+~
+45 0 h 0 0  4
+D0
+~
+~
+0 0 4590 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4592 0 0 0 0 0 0 0 0
+S
+#4592
+On a Trail to the Fortress~
+   The trail narrows as it gets closer to the gates of the fortess.  Atop the
+berg of elemental earth the fortress seems to absorb all light.  The black
+stone is almost glossy in appearance and appears very smooth.  Beings made of
+fire can be seen walking the battlements.    
+~
+45 0 h 0 0  4
+D0
+~
+~
+0 0 4591 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4593 0 0 0 0 0 0 0 0
+S
+#4593
+On a Trail to the Fortress~
+   The smooth glossy black stone of the fortress rises up on the east side of
+the path.  It's slightly reflective and is very warm to the touch.  It's very
+smooth and would be impossible to climb.  The fiery gates stand just to the
+north.    
+~
+45 0 h 0 0  4
+D0
+~
+~
+0 0 4594 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4592 0 0 0 0 0 0 0 0
+S
+#4594
+Before the Fiery Gates~
+   Before you stands the gates to the fortress.  A gate made of red glowing
+metal bars blocks the way.  A long steep path leads back down to the magma
+plains below.  A black ash covered courtyard can be seen on the other side of
+the gates.    
+~
+45 0 h 0 0  2
+D0
+~
+gate~
+2 0 13600 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4593 0 0 0 0 0 0 0 0
+S
+#4595
+Burning in the Lava Pool~
+   You are slowing sinking down into the magma.  Your flesh burns and begins to
+melt away from your bones.  The pain is excruciating as you blacken and are
+consumed by the intense heat.    
+~
+45 r h 0 0  2
+D4
+~
+~
+0 0 4575 0 0 0 0 0 0 0 0
+S
+#4596
+Burning in the Lava Pool~
+   You are slowing sinking down into the magma.  Your flesh burns and begins to
+melt away from your bones.  The pain is excruciating as you blacken and are
+consumed by the intense heat.    
+~
+45 r h 0 0  2
+D4
+~
+~
+0 0 4576 0 0 0 0 0 0 0 0
+S
+#4597
+Burning in the Lava Pool~
+   You are slowing sinking down into the magma.  Your flesh burns and begins to
+melt away from your bones.  The pain is excruciating as you blacken and are
+consumed by the intense heat.    
+~
+45 r h 0 0  2
+D4
+~
+~
+0 0 4562 0 0 0 0 0 0 0 0
+S
+#4598
+Burning in the Lava Pool~
+   You are slowly sinking down into the magma.  Your flesh burns and begins to
+melt away from your bones.  The pain is excruciating as you blacken and are
+consumed by the intense heat.  Small creatures made of magma cling to you and
+burn into your flesh.  Your eyes burst and evaporate into the magma.  Molten
+rock pours through every orifice in your body and disintegrates you to nothing.
+~
+45 br h 0 0  2
+D4
+~
+~
+0 0 4561 0 0 0 0 0 0 0 0
+S
+#4599
+Burning in the Lava Pool~
+   You are slowing sinking down into the magma.  Your flesh burns and begins to
+melt away from your bones.  The pain is excruciating as you blacken and are
+consumed by the intense heat.    
+~
+45 r h 0 0  2
+D3
+~
+~
+0 0 1420 0 0 0 0 0 0 0 0
+D4
+~
+geyser~
+1 0 4568 0 0 0 0 0 0 0 0
+S
+$

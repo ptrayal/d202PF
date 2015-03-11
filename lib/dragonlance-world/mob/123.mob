@@ -1,0 +1,289 @@
+#12300
+dwarven burly brewmaster~
+a burly dwarven Brewmaster~
+A burly dwarven Brewmaster peers over his stein of ale in your direction.
+~
+   Seated comfortably on a hard wooden bench, this stout old dwarf has taken it
+upon himself to personally test every ale and brew available.  His beard hangs
+limply beneath his chin suggesting he's wearing as much of the ale as he's
+ingested.    
+~
+d 0 0 0 k 0 0 0 250
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12302
+broad young man~
+a broad shouldered, young man~
+Cursing to himself, a broad-shouldered young man carries a heavy keg around the cellar.
+~
+Shouting many oaths, this vibrant young man carries a heavy laden barrel atop
+his shoulder, sweating profusely he still carries the weight unhindered as he
+make his way through the cellar.    
+~
+d 0 0 0 k 0 0 0 250
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12306
+weary elderly worker~
+a weary, elderly worker~
+A weary, elderly worker rests peacefully infront of the hearth.
+~
+   With eyes closed, this elderly fellow rests with his feet up close to the
+hearth in an effort to shake the chill from his old bones, despite his apparent
+age he still seems fit and muscular, with a brief grunt he tries to make
+himself comfortable.    
+~
+d 0 0 0 k 0 0 0 200
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12307
+young buxom maid~
+a young, buxom maid~
+A young, buxom maid carrying an armload of various herbs mutters quietly to herself.
+~
+   Draped in a loose fitting dress, perhaps too loose, stands a young maid
+still in her younger years.  With frustration she rummages through the herb
+racks obviously looking for something in particular.    
+~
+d 0 0 0 k 0 0 0 200
+6 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12308
+tall lanky worker~
+a tall, lanky worker~
+A tall, lanky worker muffles a slight grunt as he shoulders a sack of grain.
+~
+   Clad in a leather apron, this tall figure works eagerly as he rushes back
+and forth along the sack piles.  His entire body is covered in loose flour and
+grain as he sweats profusely.    
+~
+d 0 0 0 k 0 0 0 200
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12309
+blind newborn rat~
+a blind, newborn rat~
+A blind, newborn rat stumbles after its mother.
+~
+   Sniffing the air frantically for its mothers scent, this tiny rat with
+eyelids still sealed shut creeps along the ground, emitting faint squeaking
+calls with every step.    
+~
+d 0 0 0 k 0 0 0 -100
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12311
+stout bloodied butcher~
+a stout, bloodied butcher~
+Large cleaver in hand this stout, bloodied butcher hacks furiously at a carcass.
+~
+   Clad in a blood stained apron, and wield a large steel cleaver this large
+man can appear rather imposing, with a brief snort he goes back to work on a
+nearby carcass.    
+~
+d 0 0 0 k 0 0 0 200
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12312
+brooding hulking worker~
+a brooding, hulking worker~
+Seated atop one of the crates this brooding, hulking worker smokes a cork pipe.
+~
+   Caring little as to whether the cellar floorman catches him this worker has
+decided to sneak in a quick break, smoking his pipe in peace.  The foul scent
+of smoke weed lingers heavily about him.    
+~
+d 0 0 0 k 0 0 0 200
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12313
+long bloated worm~
+a long, bloated worm~
+Protruding from the tunnels wall a long, bloated worm leans in your direction.
+~
+   Its long body covered in dirt, this fat earthworm digs its way through the
+tunnels rock walls, tilting its sightless head in your direction only for a
+moment before it returns to burrowing.    
+~
+d 0 0 0 k 0 0 0 100
+6 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12314
+pudgy small mole~
+a small, pudgy mole~
+Feeling its way along the tunnels floor, a small, pudgy mole sniffs the air.
+~
+   Covered in slick grey fur, this fat little mole creeps along the ground,
+heeding you little attention it continues to seek out something to eat, its
+pink little nose wiggling as it sniffs the air fervently.    
+~
+d 0 0 0 k 0 0 0 100
+6 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#12315
+wily dust kobold~
+a wily, dust covered kobold~
+Startled from his digging a wily, dust covered Kobold lunges ferociously towards you.
+~
+   Covered in dirt this Kobold works tirelessly to burrow through the tunnels
+wall, despite his thin frame, he moves with unbound speed.  With every swing he
+utters a beastial grunt, spittle escaping his gaping maw as he pants heavily.
+~
+d 0 0 0 k 0 0 0 -500
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

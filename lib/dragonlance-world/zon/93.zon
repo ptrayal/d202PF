@@ -1,0 +1,426 @@
+#93
+None.~
+Luerkhisis Temple (Sic)~
+9300 9399 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  9351     2  9301   2   100     0    -1          0 a husky Sivak draconian
+
+M 0  9351     2  9301   2   100     1    -1          0 a husky Sivak draconian
+
+D 0  9301     0     1   0   101     2    -10 
+
+D 0  9355     2     1   0   101     3    -10 
+
+M 0  9310     7  9324   1   100     4    -1          0 a bound slave
+
+D 0  9324     1     1   0   101     5    -10 
+
+M 0  9329     1  9325   1   100     6    -1          0 an irritated Baaz cell guard
+
+D 0  9325     3     1   0   101     7    -10 
+
+M 0  9331     1  9339   1   100     8    -1          0 a portly draconian assistant
+
+M 0  9330     1  9339   1   100     9    -1          0 a sweaty cook
+
+D 0  9339     0     1   0   101    10    -10 
+
+D 0  9339     2     1   0   101    11    -10 
+
+D 0  9352     0     1   0   101    12    -10 
+
+M 0  9317     1  9327   1   100    13    -1          0 a stout officer of the Red Dragonarmy
+
+E 1  9329     3    13   0    10    14    13          0 a belt of woven eagle feathers
+
+M 0  9316     1  9327   1   100    15    -1          0 a Captain of the Black Dragonarmy
+
+E 1  9311     3    16   0    10    16    15          0 a large, double-edged broadsword
+
+M 0  9315     1  9327   1   100    17    -1          0 an annoyed Sergeant of the Blue Dragonarmy
+
+E 1  9313     4     7   0    10    18    17          0 a set of barbed legplates
+
+D 0  9327     2     1   0   101    19    -10 
+
+M 0  9302     5  9313   1   100    20    -1          0 a Sivak member of the Red Watch
+
+E 1  9305     4     9   0     5    21    20          0 a set of heavy steel mesh gauntlets
+
+D 0  9313     1     1   0   101    22    -10 
+
+M 0  9312     3  9314   2   100    23    -1          0 a tired draconian
+
+E 1  9312     3    16   0     2    24    23          0 a wavy, blood-stained kris
+
+M 0  9312     3  9314   2   100    25    -1          0 a tired draconian
+
+E 1  9312     3    16   0     2    26    25          0 a wavy, blood-stained kris
+
+D 0  9314     3     1   0   101    27    -10 
+
+M 0  9314     1  9315   1   100    28    -1          0 a hungry Lieutenant of the Green Dragonarmy
+
+E 1  9314     4    14   0    10    29    28          0 a bracer woven from fine blue silk
+
+D 0  9315     1     1   0   101    30    -10 
+
+D 0  9316     3     1   0   101    31    -10 
+
+M 0  9308     1  9308   1   100    32    -1          0 a motionless guard
+
+E 1  9306     4    13   0    10    33    32          0 a wide, steel plated belt
+
+D 0  9308     1     2   0   101    34    -10 
+
+D 0  9309     3     2   0   101    35    -10 
+
+O 0  9345     1  9347   0   100    36    -1          0 a platinum chest lined with finely polished emeralds
+
+P 1  9348     1  9345   0   100    37    36          0 a golden mountain of coins
+
+P 1  9349     1  9345   0   100    38    36          0 a handful of precious gemstones
+
+P 1  9346     1  9345   0   100    39    36          0 a small platinum coin from the Istarian Empire
+
+D 0  9347     3     2   0   101    40    -10 
+
+D 0  9346     3     1   0   101    41    -10 
+
+D 0  9346     1     2   0   101    42    -10 
+
+M 0  9336     4  9345   4   100    43    -1          0 a hostile Kapak draconian
+
+M 0  9336     4  9345   4   100    44    -1          0 a hostile Kapak draconian
+
+E 1  9319     2     6   0    10    45    44          0 a granite helm adorned with the tusks of a thanoi
+
+M 0  9336     4  9345   4   100    46    -1          0 a hostile Kapak draconian
+
+M 0  9336     4  9345   4   100    47    -1          0 a hostile Kapak draconian
+
+D 0  9345     1     1   0   101    48    -10 
+
+M 0  9302     5  9306   1   100    49    -1          0 a Sivak member of the Red Watch
+
+E 1  9305     4     9   0     5    50    49          0 a set of heavy steel mesh gauntlets
+
+M 0  9306     5  9306   1   100    51    -1          0 an Aurak member of the Red Watch
+
+E 1  9309     4     3   0     5    52    51          0 an amulet depicting the symbol of the Red Watch
+
+D 0  9306     1     1   0   101    53    -10 
+
+M 0  9307     1  9307   1   100    54    -1          0 a terrified captive
+
+M 0  9304     1  9307   1   100    55    -1          0 a short-tempered interrogator
+
+G 1  1250     3     0   0    30    56    55          0 a thin scroll covered in wards of protection
+
+E 1  9307     3    16   0    10    57    55          0 an ivory hilted, razor sharp dagger
+
+D 0  9307     3     1   0   101    58    -10 
+
+D 0  9319     1     1   0   101    59    -10 
+
+M 0  9323     1  9320   1   100    60    -1          0 a nervous, twitching dwarf
+
+M 0  9322     1  9320   1   100    61    -1          0 a charismatic, calm man
+
+D 0  9320     3     1   0   101    62    -10 
+
+M 0  9349     4  9388   4   100    63    -1          0 an elite member of the Red Watch
+
+M 0  9349     4  9388   4   100    64    -1          0 an elite member of the Red Watch
+
+M 0  9349     4  9388   4   100    65    -1          0 an elite member of the Red Watch
+
+E 1  9342     1    17   0   100    66    65          0 a tarnished key of warped copper
+
+M 0  9349     4  9388   4   100    67    -1          0 an elite member of the Red Watch
+
+D 0  9388     2     1   0   101    68    -10 
+
+D 0  9388     0     2   0   101    69    -10 
+
+D 0  9376     2     2   0   101    70    -10 
+
+D 0  9393     0     1   0   101    71    -10 
+
+D 0  9370     0     1   0   101    72    -10 
+
+M 0  9342     6  9363   3   100    73    -1          0 a meditating disciple of Takhisis
+
+M 0  9342     6  9363   3   100    74    -1          0 a meditating disciple of Takhisis
+
+M 0  9342     6  9363   3   100    75    -1          0 a meditating disciple of Takhisis
+
+D 0  9363     2     1   0   101    76    -10 
+
+M 0  9342     6  9392   3   100    77    -1          0 a meditating disciple of Takhisis
+
+M 0  9342     6  9392   3   100    78    -1          0 a meditating disciple of Takhisis
+
+M 0  9342     6  9392   3   100    79    -1          0 a meditating disciple of Takhisis
+
+D 0  9392     3     1   0   101    80    -10 
+
+D 0  9391     1     1   0   101    81    -10 
+
+O 0  9362     1  9386   0   100    82    -1          0 a simple rosewood desk
+
+P 1  9365     1  9362   0   100    83    82          0 a sticky glass vial of lamp oil
+
+D 0  9386     0     1   0   101    84    -10 
+
+D 0  9374     2     1   0   101    85    -10 
+
+O 0  9361     1  9380   0   100    86    -1          0 a simple wooden desk
+
+P 1  9360     1  9361   0   100    87    86          0 an unbound sheet of parchment
+
+M 0  9348     1  9380   1   100    88    -1          0 a bluish-green orb
+
+D 0  9380     3     1   0   101    89    -10 
+
+D 0  9383     1     1   0   101    90    -10 
+
+M 0  9324     2  9321   2   100    91    -1          0 a disciplined guard
+
+E 1  9308     3     5   0     5    92    91          0 a blood red cuirass of tempered steel
+
+M 0  9324     2  9321   2   100    93    -1          0 a disciplined guard
+
+E 1  9308     3     5   0     5    94    93          0 a blood red cuirass of tempered steel
+
+M 0  9306     5  9321   1   100    95    -1          0 an Aurak member of the Red Watch
+
+D 0  9321     1     1   0   101    96    -10 
+
+M 0  9328     1  9322   1   100    97    -1          0 Fewmaster Toede
+
+E 1  9339     2    16   0     5    98    97          0 a granite cudgel of mindless spite
+
+M 0  9327     1  9322   1   100    99    -1          0 a calm, balding General of the Blue Dragonarmy
+
+E 1  9341     3     9   0    10   100    99          0 a pair of blood-stained, white satin gloves
+
+O 0  9325     1  9322   0   100   101    -1          0 a heavily lacquered, circular rosewood table
+
+M 0  9326     1  9322   1   100   102    -1          0 an annoyed General of the White Dragonarmy
+
+E 1  9318     2    13   0     7   103   102          0 a sheath fashioned from the scales of a basilisk
+
+M 0  9325     1  9322   1   100   104    -1          0 a representative of the Red Dragonarmy
+
+E 1  9340     2     5   0    10   105   104          0 an exceptionally tailored, vivid red robe
+
+D 0  9322     3     1   0   101   106    -10 
+
+D 0  9387     9     1   0   101   107    -10 
+
+O 0  9364     1  9385   0   100   108    -1          0 a small pile of dusty coins
+
+O 0  9363     1  9385   0   100   109    -1          0 a heap of golden and silver coins
+
+D 0  9385     6     1   0   101   110    -10 
+
+M 0  9300     1  9300   1   100   111    -1          0 a Sivak watch guard
+
+E 1  9304     3    16   0    10   112   111          0 a two-handed bastard sword carved from petrified wood
+
+M 0  9301     1  9302   1   100   113    -1          0 a cleaning servant
+
+O 0  9303     1  9302   0   100   114    -1          0 a large, mahogany desk
+
+P 1  9301     1  9303   0   100   115   114          0 a smooth, forest green granite key
+
+M 0  9306     5  9303   1   100   116    -1          0 an Aurak member of the Red Watch
+
+E 1  9309     4     3   0     5   117   116          0 an amulet depicting the symbol of the Red Watch
+
+M 0  9302     5  9303   1   100   118    -1          0 a Sivak member of the Red Watch
+
+E 1  9305     4     9   0     5   119   118          0 a set of heavy steel mesh gauntlets
+
+M 0  9306     5  9359   1   100   120    -1          0 an Aurak member of the Red Watch
+
+E 1  9309     4     3   0     5   121   120          0 an amulet depicting the symbol of the Red Watch
+
+M 0  9302     5  9359   1   100   122    -1          0 a Sivak member of the Red Watch
+
+E 1  9305     4     9   0     5   123   122          0 a set of heavy steel mesh gauntlets
+
+M 0  9338     1  9350   1   100   124    -1          0 a Lieutenant of the Red Dragonarmy
+
+E 1  9336     4    16   0    10   125   124          0 a heavy iron broadsword
+
+M 0  9306     5  9350   1   100   126    -1          0 an Aurak member of the Red Watch
+
+E 1  9309     4     3   0     5   127   126          0 an amulet depicting the symbol of the Red Watch
+
+M 0  9302     5  9333   1   100   128    -1          0 a Sivak member of the Red Watch
+
+E 1  9305     4     9   0     5   129   128          0 a set of heavy steel mesh gauntlets
+
+M 0  9309     1  9310   1   100   130    -1          0 a scantly dressed woman
+
+E 1  9310     3     1   0     8   131   130          0 a ruby band ornamented with small jade serpents
+
+M 0  9311     5  9311   1   100   132    -1          0 a muttering slave
+
+M 0  9310     7  9311   2   100   133    -1          0 a bound slave
+
+M 0  9310     7  9311   2   100   134    -1          0 a bound slave
+
+M 0  9310     7  9312   1   100   135    -1          0 a bound slave
+
+M 0  9311     5  9312   1   100   136    -1          0 a muttering slave
+
+M 0  9310     7  9336   1   100   137    -1          0 a bound slave
+
+M 0  9311     5  9336   1   100   138    -1          0 a muttering slave
+
+M 0  9311     5  9336   1   100   139    -1          0 a muttering slave
+
+M 0  9310     7  9335   1   100   140    -1          0 a bound slave
+
+M 0  9311     5  9323   1   100   141    -1          0 a muttering slave
+
+M 0  9312     3  9338   1   100   142    -1          0 a tired draconian
+
+E 1  9312     3    16   0     2   143   142          0 a wavy, blood-stained kris
+
+M 0  9313     2  9326   2   100   144    -1          0 a fatigued Aurak draconian
+
+M 0  9313     2  9326   2   100   145    -1          0 a fatigued Aurak draconian
+
+M 0  9318     1  9317   1   100   146    -1          0 Dragon Highlord Ariakas
+
+E 1  9302     1     3   0   100   147   146          0 a thick, dented iron key hanging from a golden chain
+
+E 1  9321     1    16   0     3   148   146          0 a gruesome flail of irrepressible evil
+
+E 1  9324     1     6   0     5   149   146          0 a night blue, dragon-faced helm
+
+M 0  9319     1  9317   1   100   150    -1          0 Highlord Ariakas' personal advisor
+
+M 0  9320     1  9329   1   100   151    -1          0 a preeminent guard
+
+E 1  9315     3     6   0    10   152   151          0 a winged helm of finely crafted cobalt
+
+M 0  9321     1  9318   1   100   153    -1          0 a preeminent guard
+
+E 1  9316     3    11   0    10   154   153          0 a shield formed from the bones of a dracolich
+
+M 0  9332     1  9340   1   100   155    -1          0 a wiry Baaz draconian
+
+E 1  9326     8    17   0    50   156   155          0 a vial of crushed rosemary
+
+M 0  9335     1  9342   1   100   157    -1          0 a General of the Black Dragonarmy
+
+E 1  9317     2    12   0     8   158   157          0 a freshly skinned pelt of a hellhound
+
+M 0  9334     1  9342   1   100   159    -1          0 a cloaked officer
+
+E 1  9330     1    17   0   100   160   159          0 a tightly sealed scroll case
+
+P 0  9334     1  9330   0     1   161   160          0 a crimson scroll sealed with the symbol of a five-headed dragon
+
+P 0  9333     1  9330   0    10   162   160          0 a torn scroll decorated with gold trim
+
+P 0  9332     1  9330   0    10   163   160          0 a scorched scroll inscribed with faded blue ink
+
+P 0  9331     1  9330   0    10   164   160          0 a dusty scroll inscribed with human blood
+
+M 0  9333     1  9342   1   100   165    -1          0 a well dressed human servant
+
+M 0  9337     1  9348   1   100   166    -1          0 a draconian archer
+
+E 1  9328     2    16   0     8   167   166          0 a sturdy, ornate crossbow
+
+M 0  9303     1  9344   1   100   168    -1          0 a Sivak Lieutenant of the Red Watch
+
+E 1  9335     4    10   0    10   169   168          0 a set of splint mail armguards
+
+M 0  9341     1  9361   1   100   170    -1          0 Harkiel, an ancient red dragon
+
+G 1  1259     4     0   0    20   171   170          0 some frayed sheets of yellowed parchment
+
+E 1  9323     1    14   0     8   172   170          0 a sanguine dragonscale bracer intricately woven with metallic fibers
+
+M 0  9340     1  9362   1   100   173    -1          0 Wyrllish
+
+E 1  9322     1     3   0     8   174   173          0 a corroded metal chain with the emblem of a five-headed dragon
+
+M 0  9339     1  9362   1   100   175    -1          0 Dracart
+
+E 1  9320     1    16   0     5   176   175          0 an obsidian staff imbued with an orb of surging magma
+
+M 0  9343     4  9365   1   100   177    -1          0 a frightened draconian guard
+
+M 0  9343     4  9399   1   100   178    -1          0 a frightened draconian guard
+
+M 0  9343     4  9382   1   100   179    -1          0 a frightened draconian guard
+
+M 0  9343     4  9371   1   100   180    -1          0 a frightened draconian guard
+
+M 0  9344     1  9368   1   100   181    -1          0 Cymbal, an adult copper dragon
+
+G 1  1258     4     0   0    20   182   181          0 a miniature door made of antique oak
+
+E 1  9337     1    16   0     7   183   181          0 a curved fang of an adult copper dragon
+
+M 0  9345     2  9369   2   100   184    -1          0 a diligent cleric of Takhisis
+
+M 0  9345     2  9369   2   100   185    -1          0 a diligent cleric of Takhisis
+
+M 0  9346     1  9377   1   100   186    -1          0 a hurried cleric of Takhisis
+
+M 0  9347     1  9379   1   100   187    -1          0 a high priest of Takhisis
+
+G 1  1260     4     0   0    20   188   187          0 a thin scroll wrapped in fine wire
+
+E 1  9327     2    17   0    10   189   187          0 a sceptre of pure salt
+
+E 1  9338     1    12   0     6   190   187          0 a shroud of eternal darkness
+
+M 0  9350     3  9390   3   100   191    -1          0 a studious cleric of Takhisis
+
+M 0  9350     3  9390   3   100   192    -1          0 a studious cleric of Takhisis
+
+M 0  9350     3  9390   3   100   193    -1          0 a studious cleric of Takhisis
+
+M 0  9305     1  9330   1   100   194    -1          0 an exhausted servant
+
+O 0  9344     1  9332   0   100   195    -1          0 an enormous, gem-lined treasure chest
+
+P 1  9366     1  9344   0   100   196   195          0 a smoothly polished key carved from the shell of a giant oyster
+
+P 1  9351     1  9344   0   100   197   195          0 a golden mountain of coins
+
+P 1  9347     1  9344   0   100   198   195          0 an ancient spellbook of immense value
+
+P 1  9350     1  9344   0   100   199   195          0 a spiraling unicorn's horn
+
+O 0  9354     2  9364   0     3   200    -1          0 an unhatched egg of a chromatic dragon
+
+O 0  9352     2  9364   0     3   201    -1          0 an unhatched egg of a chromatic dragon
+
+O 0  9353     2  9381   0     3   202    -1          0 a slightly cracked, unhatched egg of a chromatic dragon
+
+O 0  9355     2  9381   0     3   203    -1          0 a slightly cracked, unhatched egg of a chromatic dragon
+
+O 0  9357     1  9375   0     5   204    -1          0 a slightly cracked, unhatched egg of a chromatic dragon
+
+O 0  9356     1  9375   0     5   205    -1          0 an unhatched egg of a chromatic dragon
+
+O 0  9359     1  9398   0     5   206    -1          0 a slightly cracked, unhatched egg of a chromatic dragon
+
+O 0  9358     1  9398   0     5   207    -1          0 an unhatched egg of a chromatic dragon
+
+S
+$

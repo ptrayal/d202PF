@@ -1,0 +1,8 @@
+cd $1
+rm -rf A-E/*
+rm -rf F-J/*
+rm -rf K-O/*
+rm -rf P-T/*
+rm -rf U-Z/*
+rm -rf ZZZ/*
+

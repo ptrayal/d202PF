@@ -1,0 +1,18 @@
+
+This is the a Beta release of autorun_cron a set of scripts to restart circle
+mud if it ever crashes/reboots via a crontab entry.
+There are some bugs in the cron-manage script so use it with care.
+
+These scripts provided AS IS with no guarantee as to their useablity.
+
+If you get mailbombed by cron getting hung up in a script its not my fault 
+
+Installation Directions:
+
+1. untar cron.tar in the circle root directory (the one with autorun in it)	
+2. edit CIRCLEHOME both scripts (restart and cron-manage) 
+2a. use pwd to find the CIRCLEHOME path if you don't already know it.
+3. either run "cron-manage -a" or add
+   "0,15,30,45 * * * * /path_to_circle/restart" to your crontab. 
+4. use cronon and cronoff to turn crontab restarting on or off.
+

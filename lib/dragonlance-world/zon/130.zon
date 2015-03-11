@@ -1,0 +1,124 @@
+#130
+None.~
+Tarsis I (Izual)~
+13000 13099 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+O 0 13026     1 13000   0   100     0    -1          0 a once beautiful ivory fountain
+
+O 0 13028     1 13000   0   100     1    -1          0 an ivory plaque gilted with silver
+
+M 0 13027     1 13089   1   100     2    -1          0 a vigorous, demure guardian
+
+G 1 13047     1     0   0   100     3     2          0 a wrought-iron gate key
+
+D 0 13089     1     2   0   101     4    -10 
+
+M 0 13022     1 13090   1   100     5    -1          0 a pallid, lonesome lady
+
+D 0 13090     3     2   0   101     6    -10 
+
+M 0 13021     1 13096   1   100     7    -1          0 a worn-out garden laborer
+
+O 0 13046     1 13096   0   100     8    -1          0 a small hole in the ground
+
+P 1 13006     3 13046   0    25     9     8          0 a tarnished silver chain necklace
+
+M 0 13028     1 13099   1   100    10    -1          0 a commanding, palatial guard
+
+G 1 13017     1     0   0   100    11    10          0 a skeleton key of blackened steel
+
+D 0 13099     1     2   0   101    12    -10 
+
+D 0 13095     4     2   0   101    13    -10 
+
+M 0 13019     1 13095   1   100    14    -1          0 a haughty, black-haired caretaker
+
+M 0 13020     1 13092   1   100    15    -1          0 a pleasant, artistic caretaker
+
+M 0 13023     1 13097   1   100    16    -1          0 a studious, white-haired herbalist
+
+M 0 13008     1 13015   1   100    17    -1          0 a dismal, blue-eyed alchemist
+
+G 1  1268     3     0   0    30    18    17          0 a torn parchment depicting a scene of war
+
+M 0 13015     1 13010   1   100    19    -1          0 a rough, caustic individual
+
+M 0 13016     1 13005   1   100    20    -1          0 an unalluring, quiet lady
+
+M 0 13017     1 13020   1   100    21    -1          0 a shrewd, robed figure
+
+E 1 13005     4    15   0    10    22    21          0 a worn, studded leather wrist sheath
+
+E 1 13005     4    14   0    20    23    21          0 a worn, studded leather wrist sheath
+
+M 0 13018     1 13025   1   100    24    -1          0 a cold, gruff man-at-arms
+
+E 1 13004     5     2   0    30    25    24          0 an unadorned topaz ring
+
+E 1 13004     5     1   0    30    26    24          0 an unadorned topaz ring
+
+M 0 13024     1 13030   1   100    27    -1          0 a calm young porter
+
+M 0 13025     1 13035   1   100    28    -1          0 a burly, frowning teamster
+
+M 0 13026     1 13040   1   100    29    -1          0 an immense, stone-faced watchman
+
+M 0 13051     1 13045   1   100    30    -1          0 a lithe, dark-eyed woman
+
+M 0 13052     1 13050   1   100    31    -1          0 a calm, brown haired man
+
+M 0 13053     1 13055   1   100    32    -1          0 a young, tanned peasant
+
+M 0 13054     1 13060   1   100    33    -1          0 an elegant, black-skinned lady
+
+M 0 13055     1 13065   1   100    34    -1          0 a gruff, elderly man
+
+M 0 13056     1 13070   1   100    35    -1          0 a venerable old lady
+
+M 0 13057     1 13075   1   100    36    -1          0 a stout, rugged man
+
+M 0 13058     1 13080   1   100    37    -1          0 a sturdy, handsome lad
+
+M 0 13059     1 13085   1   100    38    -1          0 a homely, blonde-haired woman
+
+M 0 13060     1 13013   1   100    39    -1          0 a frowning, middle-aged man
+
+M 0 13061     1 13023   1   100    40    -1          0 a pale, red-haired boy
+
+M 0 13062     1 13033   1   100    41    -1          0 a stern, overbearing man
+
+E 1 13050     5     3   0    70    42    41          0 a simple brass necklace
+
+M 0 13063     1 13043   1   100    43    -1          0 an emerald eyed maiden
+
+M 0 13064     1 13053   1   100    44    -1          0 a burly, commanding guardsman
+
+M 0 13006     1 13034   1   100    45    -1          0 a burly, watchful guardsman
+
+M 0 13072     1 13082   1   100    46    -1          0 a smiling, narrow-eyed kender
+
+E 1 13048     3    16   0    25    47    46          0 a sturdy, curved hoopak
+
+M 0 13073     1 13022   1   100    48    -1          0 a curious little gnome
+
+E 1 13049     2     5   0    25    49    48          0 a masterfully designed studded leather breastplate
+
+M 0 13076     1 13037   1   100    50    -1          0 a lithe, beautiful barbarian female
+
+E 1 13045     2    12   0     8    51    50          0 a cloak made from thick, ashen thanoi hide
+
+M 0 13075     1 13037   1   100    52    -1          0 a towering, powerful barbarian hunter
+
+E 1 13044     2     7   0     8    53    52          0 a pair of leggings made from finely-sewn pearlescent furs
+
+M 0 13074     1 13037   1   100    54    -1          0 a rough, bronze-skinned barbarian tracker
+
+E 1 13043     2     8   0     8    55    54          0 a pair of boots made of finely-sewn pearlescent furs
+
+D 0 13024     0     0   0   101    56    -10 
+
+S
+$

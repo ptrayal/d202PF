@@ -1,0 +1,213 @@
+#3300
+A Row of Seats~
+   A long row of artistic rugs have been placed here for the elders of the
+tribe to sit and discuss the affairs that threaten the survival of the
+plainsmen.  A few pitchers of a spicy kind of wine are placed near each
+blanket.  The elders enjoy warming themselves with the fine spirits while they
+speak.    
+~
+33 0 h 0 0  0
+D1
+~
+~
+0 0 3298 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3301 0 0 0 0 0 0 0 0
+S
+#3301
+Facing a Row of Seats~
+   A few plain rugs have been set here for people to sit and watch the
+discussion of the elders.  Among the rugs are blankets used to wrap infants and
+to warm adults during colder winter months.  The stone wall to the west is
+carved with designs of ivy and there is apparently a strange rune along its
+bottom.    
+~
+33 0 h 0 0  0
+D0
+~
+~
+0 0 3300 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3297 0 0 0 0 0 0 0 0
+S
+#3302
+Facing a Row of Seats~
+   A few plain rugs have been set here for people to sit and watch the
+discussion of the elders.  Among the rugs are blankets used to wrap infants and
+to warm adults during colder winter months.  The stone wall to the east is
+carved with designs of ivy and there is apparently a strange rune along its
+bottom.    
+~
+33 0 h 0 0  0
+D0
+~
+~
+0 0 3299 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3297 0 0 0 0 0 0 0 0
+S
+#3303
+Wandering Through the Village~
+   This path meanders away from the main one through the village.  Large pots
+are set to either side of the trail, but their significance is difficult to
+determine.  To the south, a large home stands out alone against the bare
+circular wall surrounding the village.    
+~
+33 0 h 0 0  0
+D0
+~
+~
+0 0 3275 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3304 0 0 0 0 0 0 0 0
+S
+#3304
+Wandering Through the Village~
+   This path meanders away from the main one through the village.  Large pots
+are set to either side of the trail, but their significance is difficult to
+determine.  To the south, a large home stands out alone against the bare
+circular wall surrounding the village.    
+~
+33 0 h 0 0  0
+D0
+~
+~
+0 0 3303 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3305 0 0 0 0 0 0 0 0
+S
+#3305
+Wandering Through the Village~
+   This path meanders away from the main one through the village.  Large pots
+are set to either side of the trail, but their significance is difficult to
+determine.  To the south, a large home stands out alone against the bare
+circular wall surrounding the village.    
+~
+33 0 h 0 0  0
+D2
+~
+~
+0 0 3306 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3304 0 0 0 0 0 0 0 0
+S
+#3306
+Approaching A Large Home~
+   Large pots are set to either side of the trail leading up to a solitary,
+large home that stands out against the circular wall to the south.  The pots
+seem to signify an importance in the tribe, as they are not easily found among
+the plains.    
+~
+33 0 h 0 0  0
+D0
+~
+~
+0 0 3305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3307 0 0 0 0 0 0 0 0
+S
+#3307
+Before the Chieftain's Home~
+   The clay pots end here in a small circle.  In the center of the circle is a
+larger pot with herbs and spices burning inside it, giving off a faint, sweet
+aroma.  The house to the south is made of stone, with a large door sitting in
+an edge carved into the front of it.    
+~
+33 0 h 0 0  0
+D0
+~
+~
+0 0 3306 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 3308 0 0 0 0 0 0 0 0
+S
+#3308
+A Stone Room Filled With Rugs~
+   This room is filled with finery that is treasured among the plainsmen.  
+Even a small painting is hung along the southern wall.  The painting is of poor
+quality, but is rare indeed this far from a civilized society.    
+~
+33 d h 0 0  0
+D0
+~
+door~
+1 0 3307 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3309 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3310 0 0 0 0 0 0 0 0
+S
+#3309
+A Sleeping Quarters~
+   Large rugs of various animal hide cover the floor of this chamber.  A small
+lamp that has burned down long ago sits in the northeastern corner.  There are
+no decorations in the room, but the smell of incense burning from unseen places
+has a strong presence in the air.    
+~
+33 d h 0 0  0
+D3
+~
+~
+0 0 3308 0 0 0 0 0 0 0 0
+S
+#3310
+A Grand Sitting Room~
+   A small dais has been erected in the center of this room.  A chair has been
+placed on the dais that resembles a make shift throne.  Along each side of the
+stairway leading up the dais are small heads of animals.  Behind the throne is
+a large, arch-shaped statue with large, white lizards encircling it.    
+~
+33 d h 0 0  0
+D0
+~
+~
+0 0 3308 0 0 0 0 0 0 0 0
+D5
+~
+secret~
+1 3300 3311 0 0 0 0 0 0 0 0
+S
+#3311
+Inside a Small, Hidden Chamber~
+   Standing in this room you feel some form of raw power eminating from the
+walls.  There is a small wooden table in the center of the area with one small
+lamp burning forever atop it.  The air is heavy here.  It is damp from an
+unknown source of moisture.  The walls are tainted with strange designs written
+in blood.  The feel of this room is of great evil.    
+~
+33 d h 0 0  0
+D4
+~
+secret~
+1 3300 3310 0 0 0 0 0 0 0 0
+S
+#3312
+Plans~
+   The rest of this zone will be added later.  It will be a portal like trap
+set of which opens a small portal to a realm of fire and minions of the Abyss.
+  
+                                  Reo
+~
+33 d 0 0 0  0
+S
+$

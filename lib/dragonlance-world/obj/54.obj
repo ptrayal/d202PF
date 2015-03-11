@@ -1,0 +1,489 @@
+#5400
+altar broken scale~
+an altar~
+An altar depicting a broken merchant's scale sets in solid stone.~
+~
+15 b 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5401
+key merchant scale templeHID~
+a merchant scale shaped key~
+A merchant scale shaped key lies upon the ground.~
+~
+18 cjklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5402
+orb crystal souls templeHID~
+a crystal orb swirling with trapped souls~
+A crystal orb swirling with trapped souls sets here.~
+~
+1 abgkmnwBCDEF acjt stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 3000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#5403
+staff crystal templeHID~
+a crystal staff flowing with lost souls~
+A dark crystal staff rests up against the wall here.~
+~
+5 agkmnwBCDEF ac stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 4250 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#5404
+scroll flesh~
+a torn scroll of a recently skinned flesh~
+A scroll of flesh sets upon the floor.~
+~
+2 jklmnrtvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5405
+dagger elongated black templeHID~
+an elongated, black plated dagger~
+An elongated dagger has been dropped here.~
+~
+5 jklmoprstuvwBCDEF abc mstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 1200 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 10 0
+#5406
+key jailer's small templeHID~
+a small jailer's key~
+A key lies almost invisible here.~
+~
+18 cjklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5407
+robe blood red white bone templeHID~
+a blood red robe with bone white trimming~
+A red robe with white trimming rests upon the floor.~
+~
+9 knBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 5000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+#5408
+sphere mithril ornamental templeHID~
+an ornamental sphere of mithril~
+A mithril sphere lies tossed upon the ground.~
+~
+15 jklmnoprstuvwBCDEF abctu stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 3000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5409
+key simple brass templeHID~
+a simple brass key~
+A simple brass key lies here.~
+~
+18 c 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5410
+boots shadow templeHID~
+a pair of shadow boots~
+A pair of shadow boots lie upon the ground.~
+~
+9 jklnoprstuBCDEF ab stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 4500 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+A
+2 1 0
+#5411
+fountain dragon~
+a large dragon shaped fountain~
+Carved from solid marble is a dragon shaped fountain.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5412
+band circular steel templeHID~
+a circular band of solid steel~
+A circular band of steel lies upon the ground.~
+~
+9 jklnBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1200 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 5 0
+#5413
+cap silk fine silvery templeHID~
+a silvery cap of fine silk~
+A silvery cap of fine silk lies upon the floor.~
+~
+9 jklmBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+#5414
+pouch pockets templeHID~
+a pouch of many pockets~
+A pouch with multiple pockets lie here.~
+~
+15 jkloBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 2100 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -8 0
+A
+13 5 0
+#5415
+collar steel diamonds templeHID~
+a steel collar encrusted with diamonds~
+A steel collar encrusted with diamonds has been left here.~
+~
+9 jklpBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1250 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#5416
+bracer tribalistic templeHID~
+a tribalistic bracer adorned with feathers~
+A bracer of tribalistic descent lies here.~
+~
+9 jkluBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1275 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 10 0
+A
+18 1 0
+#5417
+belt white dragon scales templeHID~
+a belt crafted from the scales of a white dragon~
+A white belt of dragon scales lies upon the floor.~
+~
+9 jklrBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 2600 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+A
+14 5 0
+A
+1 1 0
+#5418
+cloak silk golden templeHID~
+a golden silk cloak~
+A golden silk cloak lies upon the floor.~
+~
+9 jklsBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2200 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#5419
+helm platinum open-faced templeHID~
+an open-faced helm crafted from platinum~
+A platinum helm lies upon the floor here.~
+~
+9 jkltBCDEF abcx stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+9 3400 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#5420
+blade light-weight parrying templeHID~
+a light-weight parrying blade~
+A parrying blade has been left here.~
+~
+5 jklopruvBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 3400 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -8 0
+A
+2 1 0
+#5421
+well~
+an ever flowing well~
+An ever flowing well sets here into the ground.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5422
+tornado miniature whirling dervish templeHID~
+a miniature tornado~
+A whirling dervish swirls around at your feet.~
+~
+1 jklrwzBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 3000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+24 1 0
+A
+23 1 0
+A
+21 1 0
+A
+20 1 0
+#5423
+amulet revitalization templeHID~
+an amulet of revitalization~
+An amulet swirling with water lies here.~
+~
+9 jklrwBCDEF abcmn stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 3000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5424
+chainmail suit liquid stone templeHID~
+a suit of chainmail formed from liquid stone~
+A suit of liquid stone chainmail sets upon the floor.~
+~
+9 jklrwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 3000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 10 0
+#5425
+bracelet bone templeHID~
+a highly decorated bracelet crafted from the remains of a bone golem~
+A bracelet of bones lies upon the floor here.~
+0~
+11 jklrwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+4 1 0
+#5426
+crown crystal heart templeHID~
+a crown forged from crystal birthed in the heart of the world~
+A crown of crystal has been dropped here.~
+~
+9 jklrwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 3000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+23 1 0
+#5427
+whip nine section chain linked templeHID~
+a nine-section chain-linked whip~
+A destructive looking whip lies upon the floor here.~
+~
+5 jklrwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 3000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 2 0
+A
+18 1 0
+#5428
+sandals flame shrouded fiery templeHID~
+a pair of flame shrouded sandals~
+A pair of fiery sandals lie upon the floor.~
+~
+9 ajklrwBCDEF abcy stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 4000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5429
+ring non detection templeHID~
+a ring of non detection~
+A small, odd-looking ring lies upon the ground.~
+~
+9 fjklrwyBCDEF abcqru stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 3 0
+$~

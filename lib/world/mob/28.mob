@@ -1,0 +1,938 @@
+#2800
+ooze paraelemental clay~
+a small ooze paraelemental~
+A small humanoid mass of clay undulates here.
+~
+Rising from the surrounding muck this four foot mass of muddy clay moves about. It has a reddish grey torso, head, and arms rising up from a pool of muck. As the pool flows across the ground the creature moves with it. Gaping black indentations rest where its eyes and mouth should be.
+~
+d 0 0 0 k 0 0 0 0
+2 19 8 8d100+100 2d8+1
+2 100 16 3
+8 8 0
+E
+Str: 14
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2801
+medium ooze clay paraelemental~
+a medium ooze paraelemental~
+A humanoid mass of undulating clay is here.
+~
+Raising over eight feet tall this mass of oozing reddish grey clay moves with its own purpose, gliding wetly across the ground with its own purpose leaving a thick trail of mud in its wake. Two thick arms jut out from each side of it, made from the same gooey substance as the rest of it with a small spherical head resting between the shoulders. Where its face should be there are only three dark holes where its eyes and mouth should be.
+~
+bd 0 0 0 k 0 0 0 0
+8 16 9 64d100+100 1d10+4
+10 300 16 3
+8 8 0
+E
+Str: 16
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2805
+huge clay ooze paraelemental~
+an elder ooze paraelemental~
+A massive collection of oozing clay bubbles messily here.
+~
+A truly gigantic mass of undulating lay towers here, nearly reaching the ceiling through the sheer mass of its dark reddish grey body. Two arms reach out from either side, drooling oozing mud to the ground near the pool of sludge that makes up its base. In its large head three gaping pits can be seen where its eyes and mouth would be.
+~
+bdnoprw 0 0 0 kz 0 0 0 0
+24 8 -18 576d100+1000 3d10+12
+120 0 16 3
+8 8 0
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2806
+yellow musk creeper plant massive~
+a massive yellow musk creeper~
+A massive plant with bright yellow flowers towers here.
+~
+This truly massive yellow musk creeper towers above the bones of its past meals.
+~
+bdeijknpru 0 0 0 dfk 0 0 0 0
+28 6 8 224d100+100 2d8+14
+180 0 14 3
+8 8 0
+E
+BareHandAttack: 12
+E
+Str: 30
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2807
+yellow musk zombie ogre~
+a yellow musk zombie ogre~
+A large yellow zombie stands here.
+~
+This large creature looks to be the remains of a large ogre. Slumping down to nearly human height with glazed over features of bloating yellowing flesh, it still holds a large club from its former life in its grasp.
+~
+dijknprv 0 0 0 k b 0 0 0
+16 12 8 128d0+90 2d8+8
+46 0 13 3
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2808
+bloated corpse yellow musk zombie~
+a yellow musk zombie~
+A bloated yellow corpse stands here.
+~
+This hulking mass of bloated yellow flesh moans quietly here. Apparently the untimely end for an inexperienced adventurer.
+~
+bdijknpru 0 0 0 k b 0 0 0
+11 15 9 88d100+100 2d8+5
+20 0 6 3
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2810
+kobold slave~
+a pitiful kobold slave~
+An unwashed kobold slave runs about here.
+~
+This humanoid is about the size of a gnome or halfing. It has a scaly hide, a naked tail like that of a rat, and a doglike head with two small horns.
+Its entire existence here seems to circle around doing chores for its ogre masters.
+~
+d 0 0 0 k 0 0 0 3
+1 20 9 4d100+100 1d8+0
+1 0 12 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2811
+ogre guard~
+an ogre guard~
+A smelly ogre guards the way here.
+~
+This hulking brute appears to be at least 9 feet tall. It has a thick hide covered in dark, warty bumps, it wears smelly skins, and its hair is long, unkempt, and greasy.
+~
+bdfijkw 0 0 0 k 0 0 0 0
+15 13 -8 120d100+100 2d8+7
+40 0 13 6
+8 8 0
+E
+BareHandAttack: 7
+E
+Str: 26
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2812
+Ogre Barbarian~
+an Ogre barbarian~
+An awful smelling Ogre Barbarian fights amongst his peers here.
+~
+This hulking brute appears to be at least 9 feet tall. It has a thick hide covered in dark, warty bumps, it wears smelly skins, and its hair is long, unkempt, and greasy. Grasped firmly in its right hand is a massive great axe with a worn and chipped blade.
+~
+bd 0 0 0 k rD 0 0 0
+17 12 -10 136d100+100 2d8+8
+53 0 13 6
+7 7 1
+E
+BareHandAttack: 7
+E
+Str: 30
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2847
+Ogre magi mage~
+Ogre Magi~
+@yAn impressive looking ogre is sitting here with a @revil@y grin@n
+~
+This creature looks like a big demonic human. It has green skin, dark hair, 
+and a pair of short ivory horns protruding from its forehead. The eyes are 
+dark with strikingly white pupils, and its teeth and claws are jet black.
+~
+bdtE 0 0 0 kw 0 m 0 -500
+35 0 -32 2800d100+1000 2d10+20
+316 0 13 0
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2848
+thayan golem~
+Thayan Golem~
+A @rThayan Golem@n is here guarding its master
+~
+This tireless bodyguard looks like an excellent archer. He is 6 feet tall and
+made of Thayan oak. One of its arms end in a built-in longbow. Its eyes look
+devoided of any compassion, which can only bode ill for whomever crosses its path.
+~
+bdmux 0 0 0 kz z l 0 0
+30 5 -26 960d100+100 1d10+15
+0 0 100 8
+8 8 0
+E
+BareHandAttack: 6
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+#2849
+mercenary captain ogre~
+Half-Ogre Mercenary Captain~
+@ya @gHalf-Ogre@y mercenary captain is reviewing the orders of the day@n
+~
+This captain is in the middle of a very animated conversation with his troop,
+he looks like a veteran of a few campaigns but still very much in his prime.
+His eyes dart from the documents he is reading to the rest of the room, like 
+somebody that is used to be always vigilant, and prepared.
+~
+duD 0 0 0 k sx 0 0 0
+25 8 -20 4500d250+115 1d8+12
+131 0 13 3
+8 8 2
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#2850
+mercenary lieutenant goblin~
+Lieutenant Mercenary Goblin~
+A @GGoblin@n lieutenant is standing here observant of intruders
+~
+This goblin looks like it would be a fierce opponent. He has a very muscular 
+frame and he looks like his whole life has been spent training in some kind of
+combat specialty. He stands at attention inspecting the area for intruders.
+~
+dm 0 0 0 k qx 0 0 0
+20 10 -14 1360d100+100 1d8+10
+0 0 70 23
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#2855
+owlbear~
+an owlbear~
+A large owlbear stands here.
+~
+This creature has a thick, shaggy coat of feathers and fur.
+Its body is like a bear's, but it has an avian head with big, round eyes and a hooked beak.
+~
+bdu 0 0 0 k 0 0 0 0
+5 -30 6 20d100+1000 20d20+50
+3 100 18 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 30
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2899
+A grey figure dressed in black robes~
+a grey figure in black robes~
+A grey figure dressed in black robes stalks around the edges of the room.
+~
+A nondescript, grey being with large, empty black eyes lays dead before you. Its unnatural appearance makes you both fearful and sick.
+~
+df 0 0 0 bks B 0 0 -500
+30 0 -20 186d200+770 2d8+25
+1000 500 100 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 23
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2900
+vine plant man eater~
+the man eating plant~
+A tangle of dangerous looking vines crawl along the floor and walls here.
+~
+These vines are covered in a sickly green sap and sharp thorns.
+~
+dijknopr 0 0 0 k 0 0 0 0
+20 0 -14 480d100+1000 3d8+10
+40 0 14 3
+8 8 0
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2901
+collosal man eater plant vine~
+the collosal man eating vine~
+A collosal tangle of dangerous vines overgrow the ledge here.
+~
+This entangled group of vines and thorns looks to be well fed.
+~
+d 0 0 0 k 0 0 0 0
+30 -10 4 240d100+100 5d8+15
+216 0 14 3
+8 8 0
+E
+BareHandAttack: 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2902
+dragon green ~
+the female @Ggr@gee@Gn d@gra@Ggon@n~
+@yA hungry looking female @Ggr@gee@Gn d@gra@Ggon@y lays here.@n
+~
+   A large green dragon is here hovering over you menacingly.  
+~
+bdegijknoprtxF 0 0 0 k 0 0 0 -500
+40 7 -38 14400d400+1000 4d10+13
+5000 0 101 0
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2903
+empty armor Onyx Knight~
+an empty armor The Onyx Knight~
+@yAn @gempty suit of armor made of @GOnyx@y is preventing your passage @n
+~
+This armor is huge. You can only imagine what kind of creature wore it. It
+stands in a readied position and it does not look like you are going to get
+through without a fight.
+~
+bdg 0 0 0 kz sy 0 0 -500
+20 10 -14 600d100+100 1d8+10
+200 0 100 22
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#2905
+Green Dragon Hatchling~
+Green Dragon Hatchling~
+@yA @Ggreen@y dragon hatchling is looking hungrily at you @n
+~
+This little beast looks very cute.. until it opens it's mouth full of 
+sharp teeth. It looks very much able to defend itself.. or actually to hunt 
+its own food.
+~
+dfgtu 0 0 0 k 0 0 0 0
+12 14 -4 96d100+100 1d8+6
+50 0 101 20
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2946
+deepspawn~
+Deepspawn~
+@yA horrific @cDeepspawn@y is here armed and waiting for you @n
+~
+A large aberration with six arms, three of which wield weapons and three
+end in snake heads with teeth, and a rubbery gray and brown sphere for body
+with a dozen flexible eyestalks is in the middle of the room in a ready to 
+fight position. This seems to have been the monster that spawned many of the
+dark creatures that surround the area, although is obviously not the master 
+in this ruins. 
+~
+bdfgoE 0 0 0 k qsxA 0 0 -500
+35 3 -32 1400d100+100 1d8+17
+1000 0 17 6
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2947
+tentacle~
+Deepspawn tentacle snake head~
+@yA tentacle with a snake head is here hissing at you @n
+~
+A tentacle with a snake head is here hissing at you
+~
+bdfgmu 0 0 0 k wAB 0 0 0
+20 10 -14 480d100+100 1d10+10
+0 0 17 2
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 14
+E
+Dex: 21
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2948
+tentacle arm~
+deepspawn tentacle arm~
+@yA tentacle with a weapon is here ready for you @n
+~
+A tentacle with a weapon is here ready for you
+~
+bdgmu 0 0 0 k wxAB 0 0 -500
+20 10 -14 1360d100+100 1d10+10
+0 0 17 23
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#2949
+tentacle arm 2~
+tentacle arm with weapon 2~
+@yA tentacle with a weapon is here ready for you @n
+~
+A tentacle with a weapon is here ready for you
+~
+bdfmu 0 0 0 k wxAB 0 0 -500
+20 10 -14 1360d100+100 1d10+10
+0 0 17 23
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#2950
+tentacle arm 3~
+tentacle arm with weapon 3~
+@yA tentacle with a weapon is here ready for you @n
+~
+A tentacle with a weapon is here ready for you
+~
+dfuD 0 0 0 k wxAB 0 0 -500
+20 10 -14 1360d100+100 1d10+10
+0 0 17 23
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#2955
+darkenbeast~
+Darkenbeast @mfemale@n~
+a small @mdarkenbeast@n with her reptilian head is perched here
+~
+This used to be somekind of animal of which there are not traces left. The 
+wings on this beast are two times your size and her reptilian head looks at
+you evily.
+~
+bd 0 0 0 kr eq 0 0 -500
+15 13 -8 120d0+90 2d8+7
+0 0 18 0
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2956
+darkenbeast~
+Darkenbeast @gmale@n~
+a small @gdarkenbeast@n with her reptilian head is perched here
+~
+This used to be somekind of animal of which there are not traces left. The
+wings on this beast are two times your size and her reptilian head looks at
+you evily.
+~
+bd 0 0 0 kC eq 0 0 0
+15 13 -8 120d100+100 2d8+7
+0 0 18 0
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2960
+Empty Knight's armor~
+Empty Knight's armor~
+An empty knight's armor is standing at attention.
+~
+There is nothing particular about this armor, except for the size of it, it's
+easily a full head taller than a normal person. It also looks ancient, but the 
+most surprising thing of all is that there is not a speck of dust on it. As if 
+it had just been left there a second ago.
+~
+dg 0 0 0 k s d 0 0
+10 15 -2 280d100+100 1d8+5
+25 0 18 10
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 14
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 18
+E
+Cha: 10
+S
+#2961
+empty Archer's Armor~
+Empty Archer's Armor~
+an empty archer's armor with a crossbow is standing here.
+~
+There is nothing particular about this armor, except for the size of it, it's
+easily a full head taller than a normal person. It also looks ancient, but the 
+most surprising thing of all is that there is not a speck of dust on it. As if 
+it had just been left there a second ago.
+~
+dgu 0 0 0 k 0 l 0 0
+10 15 -2 280d100+100 1d8+5
+25 0 18 8
+8 8 0
+E
+BareHandAttack: 6
+E
+Str: 14
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 18
+E
+Cha: 10
+S
+#2962
+Empty Pikemen's armor~
+Empty Pikemen's armor~
+an empty pikemen's armor is here blocking the way.
+~
+There is nothing particular about this armor, except for the size of it, it's
+easily a full head taller than a normal person. It also looks ancient, but the
+most surprising thing of all is that there is not a speck of dust on it. As if
+it had just been left there a second ago.
+~
+dgx 0 0 0 kC s d 0 0
+10 15 -2 240d100+100 1d8+5
+25 0 100 3
+8 8 0
+E
+BareHandAttack: 11
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#2967
+white statue~
+White Statue at the dragon's den~
+@yA @WWhite@y Statue looms over you, it almost feels alive. @n
+~
+This statue is representing what must have been a powerful sorcerer. She looks
+directly at you and estates "@WYou must go back the way you came from@n". She does
+not say anything else, but her furious look speaks volumes.
+~
+bdgit 0 0 0 krzC 0 0 0 0
+25 8 -20 700d100+100 1d8+12
+100 0 100 20
+8 8 0
+E
+BareHandAttack: 14
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#2968
+gray statue~
+Grey Statue at the dragon's den~
+@yA @DGrey@y Statue looms over you. It almost feels alive.
+~
+This statue is representing a Gigantic Barbarian all covered in animal pelts.
+He looks very muscular and ferocius, good thing he is a statue. And then it 
+grunts "@DLeave or Die@n"
+~
+bdgkx 0 0 0 kz D d 0 0
+25 8 -20 1800d100+100 1d8+12
+100 0 100 6
+8 8 0
+E
+BareHandAttack: 7
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#2969
+red statue~
+Red Statue at dragon's den~
+@yA @RRed@y Statue looms over you, it almost feels alive.
+~
+This is a statue of what it seems used to be a famous ranger. He seems to be 
+looking in your direction wherever you go. The tension in the room is 
+palpable, and then it speaks "@RGo no further or I shall deal with you@n".
+~
+bdgjuv 0 0 0 kz w m 0 0
+25 8 -20 800d100+100 2d8+12
+100 0 100 8
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 22
+E
+Cha: 10
+S
+#2970
+Oracle of Mystra~
+the @cOracle of @CMystra@n~
+The @cOracle of @CMystra@n stands here.
+~
+A solid statue. The resemblance to the goddess is remarkable, as if it was made by Mystra herself.  The artists was so skilled that the statue appears to breathe, or is it breathing?
+~
+bdenopz b 0 0 hkz e m 0 500
+35 3 -32 770d100+100 1d8+17
+0 0 100 5
+8 8 2
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 24
+S
+#2999
+man black red robes~
+a man in black and red robes~
+A man in black and red robes stands here, mumbling quietly to himself.
+~
+This mans face is as gray as the waters of a swamp, with eyes that glow a dim red. He doesn't seem to be completely aware of his surroundings.
+~
+d 0 0 0 k 0 0 0 -500
+25 15 -15 156d100+2140 2d8+5
+1755 0 6 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 22
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

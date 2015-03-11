@@ -1,0 +1,3714 @@
+#4000
+Freedom Square~
+Freedom's standard waves proudly in the wind high above this massive
+intersection at the heart of the city.  The cobblestoned streets seem to shine
+beneath the flag, a watery coat upon the stones reflecting light from above.  
+Trees frosted with dew line the streets.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4001 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4007 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4003 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4002 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4008 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4006 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4004 0 0 0 0 0 0 0 0
+S
+#4001
+North of City Square~
+Freedom Lane runs north and south of here, the road paved with ancient pavers
+from the ruins of the original city, shops line either side of the street, the
+people of this city seem to all carry some form of weapon.  To the south, the
+Spire of Dawn can be seen looming high up into the clouds, while to the north
+the gates to the wall of Redemption can be seen.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4010 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4002
+Freedom Bank~
+This bank is very large and is seperated into two sections.  The first section
+has rows of service tills that are ready to help anyone.  The second section has
+a few desks with experienced people ready to answer any question about their
+services.  
+~
+40 p 0 0 0 1
+D8
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4003
+Grace's Way~
+Knights gathered here are on guard to help protect the City.  A small group of
+them discuss tactical maneuvers in preparation of the next invasion.  Several
+mounts have been tied to a nearby post and are eating from the trough.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4054 0 0 0 0 0 0 0 0
+S
+#4004
+The Stables~
+This straw-covered building houses many creatures of note; you see stable areas
+for horses, ponies and even eagles.  A young stable-hand walks towards you to
+see if he can offer you any help.  
+~
+40 p 0 0 0 1
+D7
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4005
+South of City Square~
+The stalls that once crowded together here have been moved into new shops on
+either side of the freshly paved street.  Fir trees and silver lightpoles line
+the way, and the clicking of heels on cobblestones can be heard as shoppers
+travel past.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4016 0 0 0 0 0 0 0 0
+S
+#4006
+Herb shop~
+Surprisingly well-kempt and free of riff-raff, the walls of this tiny shop are
+lined with various bins and jars containing seeds and herbs both exotic and
+mundane.  Dried miscellany hangs from the rafters.  A wheezing cough comes from
+the back of the shop.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4009 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4007
+East of City Square~
+Loud laughter and the jingle of coins fill the air as people are jostled along
+the busy lane.  Various merchants offer cheap items to those without
+discriminating taste.  Nearby, merchants offer a place to store your more
+valuable items for a price.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4040 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4008
+Guard's Armor and Weapons Shop~
+To the clanging of steel and the heat of the furnace, you walk into a busy smith
+shop.  People are working on all types of weapons and armour.  You see the
+Master Smith over by the east wall.  
+~
+40 p 0 0 0 1
+D9
+~
+~
+0 0 4000 0 0 0 0 0 0 0 0
+S
+#4009
+Potion shop~
+A small annex to the main herb store contains racks upon racks of glittering
+runes, well-crafted rods, and sundry other merchandise.  A burbling fountain in
+the corner adds an air of sophistication, and the scent of herbs is still
+detectable.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4006 0 0 0 0 0 0 0 0
+S
+#4010
+Freedom Lane~
+Freedom Lane continues on north, into the primary housing district of the city,
+and the Wall of Redemption.  The third wall in the cities defenses.  The
+cobblestones here seem to be torn up, and out of place; as if someone were
+digging in the street.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4011 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4001 0 0 0 0 0 0 0 0
+S
+#4011
+Melody Lane~
+This part of Freedom Lane is in stark contrast to the rest of the street; unlike
+the other areas of the road, is has not been well cared for.  The cobbles are
+patchy and even missing in parts.  A decrepit shop lies east of you.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4013 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4012 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4010 0 0 0 0 0 0 0 0
+S
+#4012
+Merchant Shop off Freedom Lane~
+This shop is very busy with people of all classes trying to buy items.  The
+sharp eyes of the over-weight merchant quickly picks out those that appear to
+have the most gold.  It is very noisy in here from people shouting at each
+other.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4011 0 0 0 0 0 0 0 0
+S
+#4013
+Freedom Lane~
+A large aqueduct runs over the street here.  It is built from white stone of
+Dwarvish design and the rest of the street has been built to help support it.  
+Set in the centre of the road is a manhole cover.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4011 0 0 0 0 0 0 0 0
+S
+#4014
+Gates of Redemption~
+The ground here appears to have suffered some form of underground disturbance.
+The road has cracks all over it and several of the buildings have had supports
+placed on them.  Large jagged claw marks criss cross the gates, to either side
+of the street large wooden braces lie in wait, ready to be used as reinforcings
+for the Gate.  
+~
+40 p 0 0 0 1
+D0
+The Gates of Redemption, weathered over time, these gates have only once felt
+the bite of the blade.  
+~
+Gate of Redemption~
+2 0 4015 20 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4059 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4093 0 0 0 0 0 0 0 0
+S
+#4015
+Way of Redemption~
+You stand below the huge stone gate that leads out of Freedom City.  The huge
+gates stand open at present but you can clearly see the claw marks from
+creatures that have tried to gain entry while the doors have been closed.  
+North leads to the wall of Courage, the second wall in the cities defenses.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4052 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4053 0 0 0 0 0 0 0 0
+S
+#4016
+Freedom Lane~
+Smooth cobblestones make up most of the street, small planters line either side
+of the street filled with roses.  The Spire of Dawn looms over head south of
+here, its Polished stone walls glow with a magical aura.  South of here leads to
+the circle of truth, while north takes you to Freedom Square.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4005 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4017 0 0 0 0 0 0 0 0
+S
+#4017
+Freedom Lane~
+Carved from pure white marble, the road shines in the light.  Wide enough for
+four men on horseback and lined with statues the road is obviously well used.  
+Despite the volume of travel along the road, the marble is immaculate; perhaps
+magic keeps it clean.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4016 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4019 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4018 0 0 0 0 0 0 0 0
+S
+#4018
+Circle of Truth~
+The road gently slopes downwards.  For being so close to the marketplace, the
+road is strangely empty and peaceful.  The smallest sounds echo, adding to the
+aura of mystery.  Silver light envelops everything on this street, including
+you.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4020 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4017 0 0 0 0 0 0 0 0
+S
+#4019
+Circle of Truth~
+The road twists and turns making it difficult to see ahead.  A gentle silvery
+glow emits from everything around, even the air seems to shimmer with a glow of
+its own.  The buildings have a mystic yet solid look
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4122 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4017 0 0 0 0 0 0 0 0
+S
+#4020
+Circle of Truth~
+Rows of brightly colored flowers flourish in this section of the circle.  White
+stone benches have been placed to either side of the street, providing places to
+relax while enjoying this fragrant place.  A soft silvery aura envelops each
+flower.  The road continues north, and south.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4021 0 0 0 0 0 0 0 0
+S
+#4021
+Circle of Truth~
+The trees form a processional, with the stately Aspen standing tall, their
+silver lined leaves stirring gently in the wind.  At their side, weeping willow
+trees trail bright green branches like a bride with her train.  The melody grows
+stronger.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4020 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4022 0 0 0 0 0 0 0 0
+S
+#4022
+City gates into enemy territory~
+Carved from a single block of granite, massive archways grant entrance to
+Freedom Cities main roads.  Dressed in crimson red armor trimmed in gold, the
+honour guard patrols the area, protecting the mysterious treasures which lie
+within the cities' boundaries.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4023 0 0 0 0 0 0 0 0
+S
+#4023
+Before a Large building~
+The road here continues on north, toward the gates leading into the northern
+half of the city.  Wooden poles line the sides of the street, their tips honed
+sharp.  To the east a large building dominates the area, laughter and music can
+be heard coming from South of here leads back to the southern Freedom Square.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4022 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4024 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4025 0 0 0 0 0 0 0 0
+S
+#4024
+Black Bear Inn~
+A rotting wooden sign hangs above the door.  Inside the lobby a sign-in desk
+stands, littered with tattered scrolls.  A bleary eyed manager argues with a
+snaggle-toothed maid.  Beaded curtains reveal a dimly lit fortune teller's room
+to the right.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4023 0 0 0 0 0 0 0 0
+S
+#4025
+Outside an old Warehouse~
+Hanging above the wide doorway to the west is the dried skull of what appears to
+be a hydra.  The sounds of activity from the Knight training yard to the south
+echo down the streets, yet it is rather quiet outside this storehouse.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4029 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4026 0 0 0 0 0 0 0 0
+S
+#4026
+Outside an old Warehouse~
+The front of this area is deceptive in that it is only the wooden front of an
+old dockside warehouse.  Instead, there is a wide cobbled courtyard, stable and
+stone built houses encompassed on each side with the actual storehouses of
+Freedom City.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4027 0 0 0 0 0 0 0 0
+S
+#4027
+Former Stables~
+The mud brick walls of the stable have been removed, leaving only the timber
+frame and tiled roof of the stables.  Instead of being home to horses, iron
+braziers filled with crushed pummice stone have been placed here, each warmed by
+charcoal fires.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4028 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4026 0 0 0 0 0 0 0 0
+S
+#4028
+a Tavern hidden behind the Smithy~
+The Tavern is cloaked in the shadows of the smoke filled courtyard of the
+smithy.  A covered lantern above the front doors give off the only visible light
+in the area.  A red painted Dagger covers the front of the door.  Cloaked
+figures stand at the far end of the building, smoke trailing out of their pipes.
+
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4027 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+S
+#4029
+Beneath the trees, on the road to the northern half of the city~
+The path is lined at either side with massive and tall evergreen trees.  Eagles
+can be heard crying high above.  The air here has an almost magical property,
+making the area feel of the constant chill of winter.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4025 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4030 0 0 0 0 0 0 0 0
+S
+#4030
+Saints way~
+The road here is surrounded by evergreen trees, the cobblestones here are all
+torn up from the tree's root system pushing them up through the ground.  The
+road north leads to the Circle of truth, the illustrious circle surrounding the
+Spire of Dawn.  Both west and east of here run down Saints way, west of here a
+large dark tower can be seen.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4029 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4038 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4031 0 0 0 0 0 0 0 0
+S
+#4031
+Saints way~
+On either side of the street, mighty evergreen trees stand tall and proud before
+the houses.  The terrace of houses on the east side of the street has been
+broken by the construction of a grand pavilion, a stark contrast to the neat,
+ordered houses.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4030 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4032 0 0 0 0 0 0 0 0
+S
+#4032
+at a curve~
+The road curves here, diverting around a large, dark tower which looms overhead.
+A short road heads north, lined by warehouses and bakeries.  A large windmill
+has been erected to the north.  To the east, an old bakery has been converted
+into a shop.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4031 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4033 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4125 0 0 0 0 0 0 0 0
+S
+#4033
+standing north of a large black tower~
+Small warehouses and food businesses line the street here.  A large windmill
+stands tall here, its sails billowing in the wind.  A narrow road to the west
+leads to a junction with two other streets.  A tall, dark tower looms to the
+south.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4035 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4032 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4034 0 0 0 0 0 0 0 0
+S
+#4034
+at a junction west of a dark tower~
+The road is very narrow here with tall buildings looming on either side, casting
+their shadow over the cobbled streets.  The road appears to run northeast and
+west from here, while a narrow road heads off to a junction with two other
+streets.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4036 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4033 0 0 0 0 0 0 0 0
+S
+#4035
+in small dark shop~
+A man stands behind a counter in the back of the room.  Necklaces and charms
+line the glass encased walls.  The floor is covered in pelts of fur rarely if
+never before seen animals.  Hanging beads cover the entrance to a door in the
+west wall.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4033 0 0 0 0 0 0 0 0
+S
+#4036
+on Rifgran Lane~
+The road is very narrow here with tall buildings looming on either side, casting
+their shadow over the cobbled streets.  The houses here are tightly packed and
+many appear to be in need of some maintenance.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4034 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4037 0 0 0 0 0 0 0 0
+S
+#4037
+a dead end on rifgran lane~
+On either side of the street, unkempt evergreen trees stand aslant before the
+houses, and the cobblestones that make up the road are loose.  A dark alley
+leads north-easterly, while the east leads to a street with tightly packed
+houses.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4036 0 0 0 0 0 0 0 0
+S
+#4038
+Saints way~
+The cobblestone road continues east and west here.  A fountain has been placed
+here, designed so that the water trickles down stones that have been carved to
+look like a dragon wrapped around a man.  Some ducks swim about in the pool of
+the fountain.  West of here the road leads to Justice way.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4030 0 0 0 0 0 0 0 0
+S
+#4039
+Top of the Curve~
+Saints curve ends here from the south, while the Circle extends to the southwest
+and west of here.  Far to the east, you can make out a peaceful looking grove
+that has been planted just north of an outcrop of mountains.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4051 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4038 0 0 0 0 0 0 0 0
+S
+#4040
+Honor Street~
+It is clear from the style and grandeur of the buildings that this is a nice
+section of the city.  There are a bunch of houses spaced out nicely to the
+south, each has a tiny garden and path.  The road continues east towards more
+housing, and west back towards Freedom Square
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4041 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4007 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4045 0 0 0 0 0 0 0 0
+S
+#4041
+Honor Street~
+A cobblestone street meanders through a residential area of Freedom City.  
+Wrought iron lamps provides a soft lighting for those that are out at night.  
+You can glimpse houses of all styles beyond the trees that line this lane.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4042 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4040 0 0 0 0 0 0 0 0
+S
+#4042
+Honor Street~
+The quiet lane invites one to take a leisurely stroll.  The lazy buzz of insects
+and the soft melody of birds float through the air.  Neatly kept yards surround
+the quaint houses on either side of the lane, a welcome return to simpler days.
+
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4043 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4041 0 0 0 0 0 0 0 0
+S
+#4043
+Honor street, by some temples~
+On either side of the street, mighty evergreen trees stand tall and proud before
+the terrace of houses here.  The renowned Temple court, with its large
+collection of holy shrines and places of worship, lies to the east.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4042 0 0 0 0 0 0 0 0
+S
+#4044
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4043 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 0 0 0 0 0 0 0 0 0
+S
+#4045
+In Shadows Alley by a Tavern~
+Lights from the entrance of Freedom's Inn provide the only real light in the
+alley.  Some old boxes are piled up against the walls.  The smell of ale and
+bread mixes with that of the sewers.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4046 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4040 0 0 0 0 0 0 0 0
+S
+#4046
+Outside Freedom's Inn~
+The large doors to the Inn have recently been repaired and strengthened with
+some steel.  The smell of stale ale, freshly baked bread, and steak come from
+within.  A few old cartons have been left on the street.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4045 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4047 0 0 0 0 0 0 0 0
+S
+#4047
+Bar within Freedom's Inn~
+The large bar is made of a red oak tree.  The eagle-eyed bartender looks around
+at all of his customers.  He appears to want to start a conversation with
+someone.  Bottles of alcohol are lined up all over the room.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4050 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4048 0 0 0 0 0 0 0 0
+S
+#4048
+In front of a fireplace~
+Situated in the southern wall is a roaring log fire; it seems to draw people
+towards it.  Two mangy hounds lay sprawled before it.  A racks of firewood is
+full near the fireplace and has a poker leaning against it.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4047 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4049 0 0 0 0 0 0 0 0
+S
+#4049
+Gambling room within the Inn~
+Smoke fills the air in this part of the inn.  Four green baize- covered tables
+are placed in a square.  Every sort of gambling game appears to be set up.  
+Money is changing hands between people very quickly here.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4048 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4050 0 0 0 0 0 0 0 0
+S
+#4050
+A set of Stairs~
+To the south is a large, plush staircase that leads to the top floor of the inn.
+A cart of extra linen is waiting near a locked storage closet.  A small plaque
+is attached to the wall listing the names of some famous past guests.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4047 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4049 0 0 0 0 0 0 0 0
+S
+#4051
+A weathered Shrine~
+A beautiful piece of granite has been errected here.  It is badly weathered
+altho, and you can make out the shape of a man, holding a Sword and shield.  
+Part of its tail has been broken off, but through the tests of time, a beautiful
+depiction of a dragon is wrapped around the man, as if guarding him.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4039 0 0 0 0 0 0 0 0
+E
+shrine~
+The carving of the dragon seems intact, yet one jewelled eye seems to be
+missing.  
+~
+S
+#4052
+This section of housing is more poor than the others, the wall looks as if~
+This section of housing is more poor than the others, the wall looks as if it
+has been repaired recently.  The housing here is very minimalist.  As if the
+patrons were ready to leave at a moments notice.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4074 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4015 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 0 0 0 0 0 0 0 0 0
+S
+#4053
+Merchant quarters of the road of Courage~
+The beginning of the merchant quarter of the city, the buildings all have a
+small table in front of them.  The wear is visible in the cobblestones below.  
+A merchant walks back and forth in front of his store looking for something.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4069 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4015 0 0 0 0 0 0 0 0
+S
+#4054
+Grace's Way~
+Brilliant glowing cobblestones dot the path here, two men stand here haggling
+over the price of a tin of Dwarven Polish.  West leads further down Grace's way,
+towards the Knights Guild Tower.  East leads back toward Freedom Square.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4099 0 0 0 0 0 0 0 0
+S
+#4055
+Before a large beautiful Church of many religions~
+Small paths lead from the street through the great courtyard.  Statues of past
+leaders and creatures of legend are scattered throughout the courtyard.  A small
+pond is in the center of the courtyard with small ducks splashing water
+everywhere.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4043 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4056 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4057 0 0 0 0 0 0 0 0
+S
+#4056
+a hall within the church~
+The walls are high and lead to the large dome made of blue glass in the center
+of the ceiling.  The floor is well polished white marble, which sparkles
+splendidly.  Elegant statues of Tyr, Forgrim and other immortals stand in niches
+along the walls.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4120 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+S
+#4057
+Church Guardroom~
+From the racks of weapons and suits of armour, it is clear that the palace has a
+large garrison.  A desk is at the back wall and has the applications of the many
+guards on it.  The floor has many scratches in it from the weapons being dropped
+and dragged.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4118 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+S
+#4058
+Entrance to the Church~
+This large church is decorated in the traditional fashion.  Flowers fill the
+window ledges and tall candle-holders stand at each side of the pews.  The
+elegant timber frame that supports the ceiling looks like the spine construct of
+a long ship.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4055 0 0 0 0 0 0 0 0
+S
+#4059
+Redemption way~
+On either side of the street, mighty evergreen trees stand tall and proud before
+the houses.  The houses run in an unbroken terrace here, and appear to be of
+good quality.  A rather promiscuous looking merchant wanders the street here.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+S
+#4060
+Redemption Street, beside a bunch of merchant tents.~
+Merchant stands line the street with wares being displayed for all to see.  The
+street is littered with wrappers from the objects that have been bought here.  
+Large beautiful houses are inbetween the many shops.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4059 0 0 0 0 0 0 0 0
+S
+#4061
+Redemption road, beside some houses~
+Large, beautiful houses line the street.  In the middle of two of the houses is
+a fine white statue of 'Eliases' that has been carved out of marble.  Some
+merchants walk back and forth from their houses to their shops.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4062 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4066 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4060 0 0 0 0 0 0 0 0
+S
+#4062
+Redemption lane~
+The houses here are plain, but the gardens and flowers give the area a lot of
+color.  Rose-bushes have been neatly trimmed along the street.  The road curves,
+with the largest house at the turn.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4063 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4065 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4061 0 0 0 0 0 0 0 0
+S
+#4063
+near the end of Redemption road~
+A small access road to the south gives off a slight odor that makes this
+otherwise pleasant area a bit uncomfortable.  Only one house is to the north, a
+small house with a faint light coming from near the door.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4062 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4068 0 0 0 0 0 0 0 0
+S
+#4064
+Garden of inspiration~
+Yellow chrysanthemums border a blanket of thick green grass.  Marble statues of
+great heroes of yesterday are scattered about the lawn, a source of inspiration
+to all.  Though the cool air numbs your body, it awakens your mind and soul.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4063 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4065 0 0 0 0 0 0 0 0
+S
+#4065
+within a peaceful glade~
+A tranquil stream runs along the edge of this lush garden, the sound of water
+trickling down the rocks fills the air.  Fragrant lavendar grows wild, bordering
+a thick blanket of Kelly green grass.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4062 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4066 0 0 0 0 0 0 0 0
+S
+#4066
+a small peaceful Glade~
+A path made from sandstone pavers weaves its way through a well tended lawn,
+flower beds line the sides of the pathway.  Large oak trees loom overhead, their
+branches hang over the pathway as if cradling you from the rest of the world.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4061 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4065 0 0 0 0 0 0 0 0
+S
+#4068
+the end of Redemption street~
+Very fine houses have been built up along the street.  Some small gardens have
+been planted in front of the houses.  The road here has been tended very well by
+both the city and those people that live in the area.  A wall surrounds this
+little cul-de-sac large tree braches hang over the wall to the south.  
+~
+40 p 0 0 0 1
+D6
+~
+~
+0 0 4063 0 0 0 0 0 0 0 0
+S
+#4069
+Courage road, among the merchant quarters~
+Merchant stands line the street with wares being displayed for all to see.  The
+street is littered with wrappers from the objects that have been bought here.  
+Large beautiful houses are inbetween the many shops.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4070 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4053 0 0 0 0 0 0 0 0
+S
+#4070
+Courage street, near some merchant houses~
+This is a small well-paved access road between some merchant tents and some well
+made houses..  Even the buildings here bear all the hallmarks of gentility and
+wealth.  A small open manhole lies in the middle of the road.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4071 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4069 0 0 0 0 0 0 0 0
+S
+#4071
+Merchant quarters of Courage road.~
+This area is used as a dropping off point for the Merchant carts that carry the
+stalls to the market.  Straw is strewn all over the floor and young children
+clean away the mess caused by the creatures that pull the carts.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4072 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4070 0 0 0 0 0 0 0 0
+S
+#4072
+Courage road, next to some merchant houses~
+The many merchant guild houses line the road here.  All have the tied knot of
+the merchant guild visible on the paint work or doors.  Some have even taken to
+hanging the rope from a pole set in the roof.  You notice several guards posted
+outside some of the doors.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4071 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4073 0 0 0 0 0 0 0 0
+S
+#4073
+at the end of Courage road~
+The Wall of courage stands bare here, houses have been torn down, leaving a
+large lot for storing siege materials, and weapons.  Long ladders lie on the
+ground here, ready to be raised so archers can man the ramparts.  
+~
+40 p 0 0 0 1
+D6
+~
+~
+0 0 4072 0 0 0 0 0 0 0 0
+S
+#4074
+Courage street before some siege equipment~
+Siege equipment is stacked against a cleared section of wall.  Large clay jugs
+are stacked beside a building, pitch covers the ground here, as if a couple of
+the jugs were broken here.  A large ballista is locked and loaded here.  The
+ground is torn and rutted from the wear and tear of siege movement.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4052 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4075 0 0 0 0 0 0 0 0
+S
+#4075
+Courage road in front of some poorly made houses.~
+The houses here are all boarded up, and roof tiles lie strewn about the street.
+The road lacks cobblestones, and is trecherously unsafe for anyone mounted on
+horseback.  A giant axe lies on the porch of one of the houses, its blades give
+off a golden glow.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4074 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4076 0 0 0 0 0 0 0 0
+S
+#4076
+Courage street, infront of a memorial.~
+A large memorial has been errected here, flowers of all kinds surround it.  One
+of the houses nearbye has the same flowers all across the porch.  People stand
+in awe of the memorial, as if it were their salvation.  To the west, the area
+has been cleared of buildings, while east leads back towards Freedom Street.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4075 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4077 0 0 0 0 0 0 0 0
+S
+#4077
+Courage street at a bend~
+On either side of the street, mighty evergreen trees stand tall and proud before
+the houses.  The street takes a slight bend here, but does not seem to break the
+chain of terrace houses.  A friendly squire leans against the western wall.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4076 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4078 0 0 0 0 0 0 0 0
+S
+#4078
+at a dead end~
+The beautiful teracced houses come to an end, this section of the road comes to
+an end.  A large sewer grate sits in the middle of the road.  The Remdeption
+wall has large gouges in it from enemy siege engines.  
+~
+40 p 0 0 0 1
+D7
+~
+~
+0 0 4077 0 0 0 0 0 0 0 0
+E
+grate sewer grate~
+You can see the glint of something beneath the sewer grate.  Perhaps you should
+check out the metalsmith's room in town for a crowbar.  And try using it here.
+
+~
+S
+#4079
+Gates of Courage~
+You find yourself in the centre of a large gathering place.  There is a large
+stone gate here that appears to glitter when you look at it, the names of men
+who have fallen to the legion of necros have been recorded across the gates.  
+From this area you can go east and west down a small track, to some of the more
+elequent housing within the city.  North leads to the Gates of Strength, or
+south back to Freedom Square.  
+~
+40 p 0 0 0 1
+D0
+The Gates of courage stand proud and tall, assaulted a hundred times through the
+years, they have been breached only once.  
+~
+Gate of Courage~
+2 0 4080 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4015 0 0 0 0 0 0 0 0
+S
+#4080
+Gateway through the Wall of Strength~
+This small pathway looks to be in need of repair; it bears all the marks of a
+heavily used walk way.  However, the narrow path has now been turned into a
+deadly bottle neck.  Volunteer militia with bows stand ready as the city's first
+defense.  These men know they will not survive.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4201 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4079 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4081 0 0 0 0 0 0 0 0
+S
+#4081
+Strength street~
+A woman with a large smile on her face stands in front of her house.  The
+gardens of the houses are all well tended as are the lawns.  The road has been
+cleared of all rubble and some rose-bushes have been planted here.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4082 0 0 0 0 0 0 0 0
+S
+#4082
+Strength street~
+The road here is poorly paved, loose stones are scattered about the street.  
+This looks to be the poorer section of the city, the wall to the north is
+covered in stains, and has cracks running up and down its length.  The ramparts
+above are smashed and the torn to pieces.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4081 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4083 0 0 0 0 0 0 0 0
+S
+#4083
+a torn up section of road~
+You are in an unfinished room.  The road is torn to pieces here, it looks as if
+someone drove a plow through it.  A house against the north wall looks as if an
+explosion went off inside it, its stonework littering the area.  West of here
+leads to some run down dilapidated buildings, while east heads back to Freedom
+Street.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4082 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4084 0 0 0 0 0 0 0 0
+S
+#4084
+behind wall one~
+You are in an unfinished room.  The section of road here is covered in arrows
+and broken sword blades.  Ten feet of wall here has been smashed to pieces, a
+large portion of wall is missing here.  A large steel plate is lying on the
+ground about the same size as the hole.  Rope has this section blocked off,
+buckets lie all about the area.  To the west there are some run down shacks.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4083 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4085 0 0 0 0 0 0 0 0
+S
+#4085
+before a group of small rundown shacks~
+Three shacks are here, torn to pieces.  Drapes and large blankets are pinned up
+over holes in the houses.  Southwest of here a beautifully tended yard
+encompasses one of the grandest houses in the entire city.  It seems all of the
+destruction and war never touched that part of the road.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4084 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4086 0 0 0 0 0 0 0 0
+S
+#4086
+An unfinished room~
+Ancient hoary oaks and stone colonnades line the sun dappled roadway.  Deep
+green mosses and ivy cover everything as a mute reminder of the many years it
+lay unoccupied.  Set back from the road, newly constructed houses hide in the
+shadows of years past.  
+~
+40 p 0 0 0 1
+D7
+~
+~
+0 0 4085 0 0 0 0 0 0 0 0
+S
+#4087
+Strength street~
+A cobblestone street meanders through a residential area of the city of Freedom.
+Wrought iron lamps provides a soft lighting for those that are out at night.  
+You can glimpse houses of all styles beyond the trees that line this lane.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4088 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4080 0 0 0 0 0 0 0 0
+S
+#4088
+heading down Strength Street~
+The quiet lane invites one to take a leisurely stroll.  The lazy buzz of insects
+and the soft melody of birds float through the air.  Neatly kept yards surround
+the quaint houses on either side of the lane, a welcome return to simpler days.
+
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4089 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4087 0 0 0 0 0 0 0 0
+S
+#4089
+Strength Street, under some trees~
+The cries of playing children can be heard from several of yards along this
+charming street.  Tall oaks, interspersed with maple and pine trees provide
+shade during the hot, humid days.  Playful screams and shouts can be heard up
+ahead.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4090 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4088 0 0 0 0 0 0 0 0
+S
+#4090
+At a park on Strength Street~
+Laughing, screaming children run past, heading for the tiny park that lies here.
+Nestled between the houses, this park is a lifesaver for the many families that
+live here.  A statue of a small child rests beneath one of the tall trees.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4091 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4089 0 0 0 0 0 0 0 0
+S
+#4091
+at a public garden on Strength street~
+A small pathway winds through an enormous garden filled with herbs and
+vegetables of every variety.  Here the residents of Freedom City tend their
+community's garden growing food and medicinal herbs to share among all whom
+dwell here
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4090 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4092 0 0 0 0 0 0 0 0
+S
+#4092
+a set of houses at the east end of strength street~
+A large wagon filled with sharpened, long wooden poles sits in front of one of
+the houses here.  A Catapult lies dismantled in pieces, alongside a large box of
+tools.  The houses here have had their windows boarded up, yet the lawn looks
+well kept.  The board covering one of the doors is loose and swings back and
+forth in the wind.  
+~
+40 p 0 0 0 1
+D6
+~
+~
+0 0 4091 0 0 0 0 0 0 0 0
+S
+#4093
+Roses climb the walls on Redemption street~
+The aged cobblestone road winds beside an enormous granite wall, safeguarding
+the city from harm.  Nestled in a niche of the ivy covered wall, the beauty of a
+blossoming rose bush unfolds, the sharp contrast in colors dancing in the mind's
+eye.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4014 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4094 0 0 0 0 0 0 0 0
+S
+#4094
+Redemption street~
+Large stone buildings line either side of the street, with small neatly cut
+lawns, each building looks to hold four apartments.  The cobblestones on this
+street are polished to a shine, their edges rounded with age.  The doors down
+this street are all White, except for a Green one a little further down.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4093 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4095 0 0 0 0 0 0 0 0
+S
+#4095
+Redemption way, at a construction sight.~
+A small stone building is here, with a Green painted door.  The rest of this
+wall section the buildings have been torn down, and a large crack is being
+repared down the entire height of the wall.  Ropes and pullys dangle from the
+rampart.  West of here leads to more housing that survived the wall repairs.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4094 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4096 0 0 0 0 0 0 0 0
+S
+#4096
+Redemption way~
+It is clear from the style and grandeur of the buildings that this is a nice
+section of the city.  There are a bunch of houses spaced out nicely to the
+south, each has a tiny garden and path.  There are tiny stones on the roadway
+with gold coins.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4095 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4097 0 0 0 0 0 0 0 0
+S
+#4097
+Redemption Way~
+The street here is beautifuly well kept, the houses each have a small grass
+lawn, and a white picket fence.  This part of the northern walls hasnt seen the
+necro hordes in a thousand years.  A wagon sits on the side of the street,
+filled with catapult shot . Even though this wall will probably never see
+bloodshed, the protectors of the city have no problem storing their munitions
+here.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4096 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4098 0 0 0 0 0 0 0 0
+S
+#4098
+Standing in front of a large house~
+Hovered over by large green trees, stepping on round stones on the ground
+surrounded by large, green needles of grass, you look up at the large oak door
+that blocks the entrance to this house.  You look blankly wondering how to get
+in.  
+~
+40 p 0 0 0 1
+D7
+~
+~
+0 0 4097 0 0 0 0 0 0 0 0
+S
+#4099
+Grace's Way~
+Several knights gather on the road here, making preparations for various
+missions and duties.  A fountain stands to your left, with water gently flowing
+into the stone base.  Coins have been tossed into the water, shimmering in the
+clear water.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4054 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4100 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4101 0 0 0 0 0 0 0 0
+S
+#4100
+At a Tower on Grace's Way~
+Ladders climb the wooden and stone tower, allowing Knights and other citizens to
+look over the Keep and to see the wall that follows the city like a horseshoe.
+The two guard towers and the towers of the wall of Strength can be seen here.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4203 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4099 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+S
+#4101
+Outside the Knights of Redemption Guild Hall~
+A cobblestone path leads around the Knight's Guild.  On either side of the path,
+beds of flowers brighten the area with an array of color.  A statue of a knight
+stands on either side of the path, appearing ready to defend the guild from the
+fiercest invasion
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4115 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4099 0 0 0 0 0 0 0 0
+S
+#4102
+Path to the Chapel~
+A cobblestone path leads around the Knight's Guild.  On either side of the path,
+beds of flowers brighten the area with an array of color.  A statue of a knight
+stands on either side of the path, appearing ready to defend the guild from the
+fiercest invasion.  A path leads west of here, into the Knights Chapel
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4103 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4100 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4101 0 0 0 0 0 0 0 0
+S
+#4103
+Guardian's Way~
+The sound of laughter and happy chatter echoes in from the courtyard.  A stone
+bench sits near the courtyard entrance, an urn filled with bright flowers on
+either side.  A statue of a knight stands opposite the bench, watching for
+intruders
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4102 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4104 0 0 0 0 0 0 0 0
+S
+#4104
+Guardian's way, in a courtyard filled with light~
+Light streams in through a glass dome that seems suspended in mid-air.  Tables
+and chairs have been arranged into conversation areas throughout the courtyard.
+Knights and their guests can be found here relaxing after a battle or
+celebrating a special event
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4105 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4103 0 0 0 0 0 0 0 0
+S
+#4105
+Outside a small Chapel~
+A newly built chapel contrasts deeply with the archaic building of the Knights
+Guild, visible to the east.  The walls of the chapel are hewn from colossal
+blocks of sandstone that have been smoothed to an even finish.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4104 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+S
+#4106
+Seating area of the Chapel~
+The feature that catches your eyes here are the vast crystal windows.  Unlike a
+normal stained glass window, some arcane process causes the images to change
+over time.  The fluctuating images bathe the church in colour and light.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4105 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+S
+#4107
+Entrance to the Knight's Chapel of rememberance.~
+The entrance hall is quite subdued.  The open doors show that anyone who sayes
+to worship their chosen deity, or honour the memory of past knights is welcome
+to enter.  The hall is pretty much empty apart from a stone font.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4106 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4108 0 0 0 0 0 0 0 0
+S
+#4108
+Knight's Memorial~
+On either side of the room Trophies of past campaigns line the walls.  Racks of
+weapons and armor lie positioned about the room, old retired blades, and armor
+too cracked and worn to wear.  A book sits atop a pedastal, a golden glow
+radiating from its page
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4109 0 0 0 0 0 0 0 0
+S
+#4109
+Shrine~
+This room glows with a silvery hue, an altar sits to the back wall.  A sword
+rests across it broken, pulsing with a golden glow.  A Shield rests on the back
+wall, a golden dragon emblazoned across it.  A stand sits in the corner, covered
+in Armor made from
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4108 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4110 0 0 0 0 0 0 0 0
+S
+#4110
+Memorial Gardens~
+The trees and flowers extend out to this part of the gardens.  Statues and
+corssed memorials are spread through, dotting the grounds.  Family members come
+to mouirn and remember loved ones lost in tragedy.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4109 0 0 0 0 0 0 0 0
+S
+#4111
+Rememberance Garden~
+Lush green grass spreads throughout this area, sprinkled with the occasional
+bench for relaxing.  Well pruned bushes covered in exotic flowers line the
+walkways as trees throughout provide shade for visitors.  Statues of past
+knights watch over all.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4112 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4110 0 0 0 0 0 0 0 0
+S
+#4112
+Eastern section of the shrine~
+The Eastern end of the shrine, once again, candles have been placed onto small
+steps carved in the walls.  This differs from the rest of the shrine as a small
+pool has been constructed in the centre of the room South leads into a small
+Garden within the Chapel
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4113 0 0 0 0 0 0 0 0
+S
+#4113
+Southern Quarter of the Shrine~
+This is the eastern end of the shrine.  A draft from the nearby entrance causes
+the flames of the candles to flicker, yet they keep burning.  A testament to the
+memory of these knights who have passed from the realms.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4114 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4112 0 0 0 0 0 0 0 0
+S
+#4114
+The Shrine of Rememberance~
+A sombre atmosphere dominates the entrance to the shrine, into which it has
+become customary to leave a candle to honour the memory and guide home any
+knight who has left the realm of Light.  Hundreds of candles line the walls of
+this room.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4107 0 0 0 0 0 0 0 0
+S
+#4115
+Knights of Redemption Guild Gates~
+You stand underneath the main entrance to the Guild.  From the south you hear
+the clanging of swords on shields as the young knights go about their training.
+North leads back into the city while south leads to the courtyard.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4101 0 0 0 0 0 0 0 0
+S
+#4116
+nearing the altar~
+The pews nearing the altar are slightly nicer than those in the back of the
+church.  Flowers and candles are at each side of the pews.  Small prayer books
+have been placed on each of the seats.  The ceiling looks like that of a large
+ship.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4058 0 0 0 0 0 0 0 0
+S
+#4117
+at an Altar~
+This large altar is decorated to the glory of God, Marriage, and the betterment
+of mankind.  Simple markings note out the holy vows and the promise of
+commitment that comes from the bonding of two like-minded souls within the
+realm.  Flowers decorate the altar and sweet incense burns softly.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4116 0 0 0 0 0 0 0 0
+S
+#4118
+Clerics Hall~
+This room smells of herbs, and sweet smelling poultices.  Clerics hustle from
+table to table mixing things with mortar and pestle.  Huge Stainglass windows
+line the north wall, depicting the creation of the world as if through gods
+eyes.  You can see through the windows, rows and rows of pews from within the
+church.  East leads to a library of sorts, clerics seem to enter and never come
+out.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4119 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4057 0 0 0 0 0 0 0 0
+S
+#4119
+Cleric's Sanctuary~
+Clerics rest upon their knees, hands held together in prayer to their god.  
+Bookcases line the walls of the room their shelves littered in books and
+scrolls.  A cellar door lies behind a table in the northeast corner of the room.
+
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4118 0 0 0 0 0 0 0 0
+S
+#4120
+Grand Ballroom~
+The polished floor shimmers as it reflects the sparkle of the fabulous
+chandelier hanging overhead.  Dozens of silver chains, hanging from the walls,
+hold up the chandelier.  There is a stage for an orchestra in the south-eastern
+corner.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4121 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4056 0 0 0 0 0 0 0 0
+S
+#4121
+Bankquet Hall~
+A highly polished oak table, which could easily seat two hundred, stands in the
+middle of the hall and almost stretches the length of the hall.  A cabinet with
+white plates and bowls is against one wall.  A smaller table, holding
+candlesticks, is in the corner.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4120 0 0 0 0 0 0 0 0
+S
+#4122
+Circle of Truth~
+Rows of brightly colored flowers flourish in this section of the circle.  White
+stone benches have been placed to either side of the street, providing places to
+relax while enjoying this fragrant place.  A soft silvery aura envelops each
+flower.  The road continues north, and south.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4019 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4123 0 0 0 0 0 0 0 0
+S
+#4123
+Entrance to the Spire of Dawn~
+An ancient stone path leads the way between towering oak trees.  Wild flowers
+peek out between the gnarled roots and the animal calls are only faintly heard
+here.  A lovely melody lingers in the air, drawing you into the palce.  
+~
+40 p 0 0 0 1
+D0
+Beautiful Pearly white gates stand here.  
+~
+gate gates~
+2 4020 4208 20 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4021 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4122 0 0 0 0 0 0 0 0
+S
+#4124
+Saints Curve~
+Within the depth of the curve, quivers of arrows lie leanig up against a four
+foot stone wall.  The cobblestones here are stained red, some torn and broken
+from the ground.  North of hear leads to stone street.  To the west, you can see
+the fountain bubbling from south freedom Square.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4200 0 0 0 0 0 0 0 0
+S
+#4125
+west of south freedom square~
+On either side of the street, mighty evergreen trees stand tall and proud before
+the houses.  The street appears to washed frequently, and puddles of soapy water
+fill the gaps between the smooth cobbles.  The smell of blood and raw meat hangs
+in the air.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4202 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4032 0 0 0 0 0 0 0 0
+S
+#4126
+a road west of south freedom square~
+Trees line either side of the path here, elegantly carved benches sit between
+the trees.  There is a rope hanging from one of the branches, Citizens come and
+go through this section of the street.  East of here leads to freedom Square,
+while north begins to curve towards the north gates.  
+~
+40 np 0 0 0 1
+D0
+~
+~
+0 0 4125 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4216 0 0 0 0 0 0 0 0
+S
+#4127
+West of Freedom Square~
+A trader from far east reveals spices and trinkets he has gathered to sell in
+the flourishing marketplace.  Gold coins move freely as the rare items are
+practically snatched out of his hands.  Further down the lane, life returns to
+normal.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4126 0 0 0 0 0 0 0 0
+S
+#4128
+South Freedom Square~
+Fresh mortar spread evenly between worn cobblestones rejuvenates a small road.
+Sparkling water erupts from a captivating fountain anchored in the road's
+center.  Tender buds blossom beneath shady oaks whose gnarled branches mark the
+passing of ancient times.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4130 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4129 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4131 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4127 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4133 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4132 0 0 0 0 0 0 0 0
+S
+#4129
+East of South Freedom Square~
+   Standing on a loosely cobbled path, flagpoles line either side, bearig the
+Symbol of Freedom, a clenched fist with a dragon wrapped around it.  The Tall
+Pine Trees to the east loom over head, their branches swaying in the wind.  A
+large cave mouth can be seen far behind the forest, set back within the Fang
+Mountains.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4200 0 0 0 0 0 0 0 0
+S
+#4130
+South Freedom Armory~
+Large racks are full of weapons of all sorts from swords to large axes and bows.
+The counter where the shop-owner works has a small box of stones that can be
+used to sharpen any blade.  
+~
+40 p 0 0 0 1
+D2
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4131
+South of Freedom Square~
+Loud laughter and the jingle of coins fill the air as people are jostled along
+the busy lane.  Various merchants offer cheap items to those without
+discriminating taste.  Nearby, merchants offer a place to store your more
+valuable items for a price.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4134 0 0 0 0 0 0 0 0
+S
+#4132
+The Supply shop~
+Ropes and satchels hang all across the wall here, fishing poles line the west
+wall.  Racks upon racks of small trinkets are spaced all across the floor.  
+Pictures hang from the south wall, and a large oak counter covers the east wall.
+A curtain is hanging in the southwest corner, covering a doorway.  
+~
+40 p 0 0 0 1
+D7
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4133
+Rune Shop~
+The front of the shop is spacious, clean and well lit.  The walls are lined with
+enchanted armor and weapons.  Runes, rings and bits of arcana clutter the
+counter top.  The rear of the shop is dark.  
+~
+40 p 0 0 0 1
+D6
+~
+~
+0 0 4128 0 0 0 0 0 0 0 0
+S
+#4134
+A newly repaired bridge leads to the City~
+Chiseled from a slab of granite, a magnificent pegasus seems to soar above the
+recently repaired bridge.  The older warped boards creek as you pass over the
+dried riverbed towards the massive steps of black marble leading into Freedom
+City
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4131 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4135 0 0 0 0 0 0 0 0
+S
+#4135
+Under the Southern Gates~
+The large stone gates of the city are open.  Multiple guards watch passers by
+with scrutinising eyes.  Their mismatched armour bears the symbol of the
+militia.  Teams of workers can be seen hammering huge spikes into the gate and
+the ground at the base of the wall.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+S
+#4136
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D2
+~
+~
+0 0 4198 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+S
+#4137
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+S
+#4138
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4137 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+S
+#4139
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D6
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4138 0 0 0 0 0 0 0 0
+S
+#4140
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4141 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4143 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4139 0 0 0 0 0 0 0 0
+S
+#4141
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4142 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+S
+#4142
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D2
+~
+~
+0 0 4141 0 0 0 0 0 0 0 0
+S
+#4143
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4140 0 0 0 0 0 0 0 0
+S
+#4144
+Forest~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4148 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4143 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4145 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4146 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4147 0 0 0 0 0 0 0 0
+S
+#4145
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4146 0 0 0 0 0 0 0 0
+S
+#4146
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D7
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4145 0 0 0 0 0 0 0 0
+S
+#4147
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D6
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4148 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+S
+#4148
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D3
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4147 0 0 0 0 0 0 0 0
+S
+#4149
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4144 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4147 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4146 0 0 0 0 0 0 0 0
+S
+#4150
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4152 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4149 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4151 0 0 0 0 0 0 0 0
+S
+#4151
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+S
+#4152
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4150 0 0 0 0 0 0 0 0
+S
+#4153
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4151 0 0 0 0 0 0 0 0
+S
+#4154
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4156 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4153 0 0 0 0 0 0 0 0
+S
+#4155
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D2
+~
+~
+0 0 4152 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4154 0 0 0 0 0 0 0 0
+S
+#4156
+troll cave~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4154 0 0 0 0 0 0 0 0
+S
+#4157
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4158 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4199 0 0 0 0 0 0 0 0
+S
+#4158
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D1
+~
+~
+0 0 4159 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4157 0 0 0 0 0 0 0 0
+S
+#4159
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D3
+~
+~
+0 0 4158 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4160 0 0 0 0 0 0 0 0
+S
+#4160
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D7
+~
+~
+0 0 4161 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4159 0 0 0 0 0 0 0 0
+S
+#4161
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4160 0 0 0 0 0 0 0 0
+S
+#4162
+undefined~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D2
+~
+~
+0 0 4161 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+S
+#4163
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4164 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4162 0 0 0 0 0 0 0 0
+S
+#4164
+Half Giant berserker~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D8
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+S
+#4165
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+S
+#4166
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4167 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4165 0 0 0 0 0 0 0 0
+S
+#4167
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4166 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4168 0 0 0 0 0 0 0 0
+S
+#4168
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4167 0 0 0 0 0 0 0 0
+S
+#4169
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4170 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4168 0 0 0 0 0 0 0 0
+S
+#4170
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+S
+#4171
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4175 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4169 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+S
+#4172
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4173 0 0 0 0 0 0 0 0
+S
+#4173
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+S
+#4174
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4175 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4172 0 0 0 0 0 0 0 0
+S
+#4175
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+S
+#4176
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4174 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4177 0 0 0 0 0 0 0 0
+S
+#4177
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+S
+#4178
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4176 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+S
+#4179
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4180 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4177 0 0 0 0 0 0 0 0
+S
+#4180
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+S
+#4181
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4179 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+S
+#4182
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4181 0 0 0 0 0 0 0 0
+S
+#4183
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4182 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+S
+#4184
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D7
+~
+~
+0 0 4185 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4183 0 0 0 0 0 0 0 0
+S
+#4185
+ancient giant~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D9
+~
+~
+0 0 4184 0 0 0 0 0 0 0 0
+S
+#4186
+Doorway to the Tavern~
+Dilapidated wooden tables and chairs fill the room.  The tables are sticky with
+spilled ale and dried meat juices.  You spy three doors.  A kitchen lies at one
+end and a grimy door at the other marked 'toilet'.  Loud raucous noises emanate
+from the third.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4187 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4028 0 0 0 0 0 0 0 0
+S
+#4187
+Tavern Kitchen~
+A plump cook is busily plucking feathers from some unfortunate bird while the
+chef stirs a huge pot of meat stock and root vegetables.  The chef's apron is
+covered with blood and other unidentifiable stains.  An iron pot goes flying
+over your head.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4186 0 0 0 0 0 0 0 0
+S
+#4188
+Hidden Hallway~
+The sounds of grunting, and flesh tearing can be herd at the end of the hall.  
+A large man stands in the doorway, eyeing you he holds out his hand, as if
+expecting something.  Over his shoulder you can see a group of people standing
+in a ring . around two men fighting one another.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4189 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4187 0 0 0 0 0 0 0 0
+S
+#4189
+The Back room~
+Two burly men fist-fight while patrons place their bets.  A drunken din fills
+the air as you try to move through the crowd.  The air is thick with the smell
+of blood, sweat, and ale.  A huge bouncer watches as a scantily clad woman slips
+you a note.  
+~
+40 p 0 0 0 1
+D3
+~
+~
+0 0 4188 0 0 0 0 0 0 0 0
+S
+#4190
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D2
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+S
+#4191
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4190 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4196 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4178 0 0 0 0 0 0 0 0
+S
+#4193
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D3
+~
+~
+0 0 4194 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4173 0 0 0 0 0 0 0 0
+S
+#4194
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4195 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4193 0 0 0 0 0 0 0 0
+S
+#4195
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D0
+~
+~
+0 0 4196 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4194 0 0 0 0 0 0 0 0
+S
+#4196
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4191 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4195 0 0 0 0 0 0 0 0
+S
+#4197
+Beneath the Gates to Freedom City~
+Worn smooth with time, silvery boulders form an archway over the massive black
+gate of this fabled village.  Archaic gold runes carved into the sturdy rock
+tell of times past.  A freshly painted sign rests above a small woven basket
+hanging from the gates.  
+~
+40 p 0 0 0 1
+D0
+~
+~
+0 0 4135 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50145 0 0 0 0 0 0 0 0
+S
+#4198
+Climbing the Hillside~
+The well worn trail continues to wrap around the hill.  The incline is so
+gentle, it is hard to tell you're moving upwards.  Several cairns have been
+built amongst the wild flowers on either side of the path.  
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4136 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+S
+#4199
+An unfinished room~
+You are in an unfinished room.
+~
+40 0 0 0 0 3
+D0
+~
+~
+0 0 4157 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+S
+#4200
+Saints curve~
+   The road begins to curve here, wrapping around back towards a set of large
+buildings.  The forest to the east creaks and groans in the wind, giving this
+place an air of mystery.  Arrowheads litter the cobblestones here, all across
+the side of the hill, Arrows lie sticking out of the ground, with corpses strewn
+about the hillside that leads down to the forest.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4124 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4129 0 0 0 0 0 0 0 0
+S
+#4201
+Outside Freedom City~
+The gates are barred and no one is being permitted through the gates.  Guards
+armed with long spears hold anyone who approaches at bay.  As evidenced by the
+corpses piled to the sides of the road, there have already been several
+incidents of the Necro Horde, trying to infiltrate the city.  
+~
+40 p 0 0 0 2
+D2
+~
+~
+0 0 4080 0 0 0 0 0 0 0 0
+S
+#4202
+Graftons Butcher shop~
+This shop, like any other butcher shop, is filled with the coppery smell of
+blood.  Bits of entrails are piled around the counter, and long sausages hang
+from nets on the ceiling rafters.  
+~
+40 p 0 0 0 1
+D1
+~
+~
+0 0 4125 0 0 0 0 0 0 0 0
+S
+#4203
+Latos City Council~
+undefined~
+40 p 0 0 0 0
+D0
+~
+~
+0 0 4100 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4204 0 0 0 0 0 0 0 0
+S
+#4204
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D5
+~
+~
+0 0 4203 0 0 0 0 0 0 0 0
+S
+#4205
+Garden of Tranquility~
+Well cut green grass fills the entire area, blossoming flowers dot the lawn.  
+Birds can be heard in the trees above, small animals walk about the area
+munching on vegetation.  To the south a wood hut can be seen, while east lies
+the entrance to a small stone building.  
+~
+40 p 0 0 0 0
+D1
+~
+~
+0 0 4207 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4206 0 0 0 0 0 0 0 0
+D6
+Wrought iron gate
+~
+gate~
+1 4206 164 20 0 0 0 0 0 0 0
+S
+#4206
+Wood hut~
+A small wood house stands here.  The people that live here seem not have no care
+for luxury or fine furniture.  The place is well kept and clean, sunlight poors
+in through the large bay windows.  
+~
+40 p 0 0 0 0
+D0
+~
+~
+0 0 4205 0 0 0 0 0 0 0 0
+S
+#4207
+The great Dojo~
+   This is a place that monks and martial artists gather to prove their worth
+against eachother.  The floor is made of red wood, tapestries and martial arts
+weapons hang from the walls.  
+~
+40 p 0 0 0 0
+D3
+~
+~
+0 0 4205 0 0 0 0 0 0 0 0
+S
+#4208
+The chamber of Dawn~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D0
+~
+~
+0 0 4209 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4123 0 0 0 0 0 0 0 0
+S
+#4209
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D2
+~
+~
+0 0 4208 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4210 0 0 0 0 0 0 0 0
+S
+#4210
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D0
+~
+~
+0 0 4214 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4212 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4213 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4211 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4215 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4209 0 0 0 0 0 0 0 0
+S
+#4211
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D1
+~
+~
+0 0 4210 0 0 0 0 0 0 0 0
+S
+#4212
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D3
+~
+~
+0 0 4210 0 0 0 0 0 0 0 0
+S
+#4213
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D0
+~
+~
+0 0 4210 0 0 0 0 0 0 0 0
+S
+#4214
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D2
+~
+~
+0 0 4210 0 0 0 0 0 0 0 0
+S
+#4215
+An unfinished room~
+You are in an unfinished room.
+~
+40 p 0 0 0 0
+D5
+~
+~
+0 0 4210 0 0 0 0 0 0 0 0
+S
+#4216
+a house~
+This house seems to be under construction
+~
+40 jlmp 0 0 0 0
+D1
+~
+~
+0 0 4126 0 0 0 0 0 0 0 0
+S
+#4217
+Temple of Forgrim - Training yard~
+As you pass through the great gates and into the temple, you find yourself in a
+great training yard, like you might find in a military barracks, and for good
+reason, as the temple also serves as the barracks for the local legion of
+Forgrim.  The yard is often filled with training soldiers, their swords crossing
+against each other inside the large sparring ring, or thudding against the many
+straw training dummies arranged arround the yard.  To the north you can see the
+officers quarters, and to the east the militia barracks.  A path continues west
+of here toward a fortress-like chapel, the crossed axes of Forgrim displayed
+prominantly above the entrance.  
+~
+40 dlm 0 0 0 0
+D0
+~
+~
+0 0 4220 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4218 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3210 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4219 0 0 0 0 0 0 0 0
+S
+#4218
+Temple of Forgrim - Barracks~
+   This large building houses beds for a full legion of soldiers, bunk beds
+three cots high line both walls, with a line of chests for the soldiers few
+perosnal belongings running down the center of the room.  The beds are barely 3
+feet across and only 6 feet long, causing the feet of the taller legionairs to
+stick out from their beds.  There is rarely anyone here during the daylight
+hours, and there is a strict lights out time during the night.  Anyone caught
+here doing anything other than sleeping is likely to end up with extra training
+time with the Master-at-Arms.  
+~
+40 d 0 0 0 0
+D3
+~
+~
+0 0 4217 0 0 0 0 0 0 0 0
+S
+#4219
+Temple of Forgrim - Chapel~
+   The interior of the chapel is every bit as spartan as on the inside as is
+it's exterior.  There is a simple altar to the Patron of @RWar@n here, and a
+half dozen pews for the faithful to sit upon, but it all seems to carry a thin
+film of dust.  It is rare for the clerics of Forgrim to hold services here, as
+they are more likely to preform them right on the battlefield, where they feel
+closest to their patron.  The walls here are decorated with various tapestries
+and murals depicting the deeds of the patron of war and his blades, past and
+present.  
+~
+40 d 0 0 0 0
+D1
+~
+~
+0 0 4217 0 0 0 0 0 0 0 0
+S
+#4220
+Temple of Forgrim - Sigmars quarters~
+   You stand now in the Private chambers of Sigmar, the ranking Battlepriest
+assigned to Luskan, and Legion commander of the Brassheart Legion.  The room
+is surprisingly spare despite the occupant's rank, the furniture consisting only
+of a large darkwood table, a map of Luskan and the surrounding regions layed
+out upon it.  The map is marked and circled in various places, denoting local
+hotspots of orc raiding, and portential ambush sites along the trade roads.  
+Near the back of the room is a small bed, though not as small as those in the
+nearby barracks, made of light weight wood, and sporting a goose down matress,
+the only luxury to be found in the room.  Various discarded and broken weapons,
+shields, and pieces of armor lie scatterd about the room.  
+~
+40 d 0 0 0 0
+D2
+~
+~
+0 0 4217 0 0 0 0 0 0 0 0
+S
+#4221
+Before the tower of @GDisc@n~
+An ancient stone path leads the way between towering oak trees.  Wild flowers
+peek out between the gnarled roots and the animal calls are only faintly heard
+here.  A lovely melody lingers in the air, drawing you into the palce.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 3039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4222 0 0 0 0 0 0 0 0
+S
+#4222
+Tower of @GDisc@n~
+At the base of a tall, majestic tower.  Potted plants line the walkway all the
+way up to the Tower door.  Twin Gargoyles flank the passage, their eyes watching
+your every movement.  
+~
+40 0 0 0 0 0
+D1
+~
+~
+0 0 4221 0 0 0 0 0 0 0 0
+S
+#4223
+Disc's Personal Chambers~
+This can be anything you want it to be.
+~
+40 de dfilm 0 0 0
+D1
+~
+~
+0 0 4222 0 0 0 0 0 0 0 0
+S
+T 4040
+#4394
+Masks Treasure Chamber~
+This room is extraordinarily elaborately decorated with a variety of the rarest
+treasures to be found in the realms.  All testament to the skill of the shadow
+lord Mask when it comes to acquiring what he wants.
+~
+40 0 0 0 0 0
+D4
+Forgrims Chambers.
+~
+~
+0 0 4396 0 0 0 0 0 0 0 0
+S
+#4395
+Alper's room~
+Just tell me if you want any of this stuff changed.  
+~
+40 0 0 0 0 0
+S
+#4396
+Masks Planning Room~
+A great table resides in the center of this room, and upon it many maps
+and various tools of the shadow trade.  Each of the walls displays a fine
+tapestry map of large areas of Faerun with gold sconces lighting up the room.
+~
+40 dhk 0 0 0 0
+D5
+~
+~
+0 0 4394 0 0 0 0 0 0 0 0
+S
+#4397
+No i didnt!~
+No i didnt!
+~
+40 0 0 0 0 0
+S
+#4398
+The Gates of Verin~
+The Tunnel is filled with brown waste.
+~
+40 a 0 0 0 0
+S
+#4399
+In a Long forgotten room~
+This small room is covered in dust from years of waiting for the chosen one to
+claim its secrets.  The only thing to catch your eye is a small altar.  A small
+tablet sits upon the altar.  The east wall is covered in scratches.  
+~
+40 j 0 0 0 0
+E
+wall~
+Bron was here first
+~
+S
+T 4007
+$~

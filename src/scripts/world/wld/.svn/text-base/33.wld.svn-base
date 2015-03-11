@@ -1,0 +1,609 @@
+#3300
+d20MUD - Forgotten Realms MUD School~
+   Welcome to d20MUD: Forgotten Realms.  Please be aware that this is not your
+standard, run of the mill MUD school.  It will not teach you the basics of
+mudding as most do, but rather, the more intricate details of this MUD.  There
+are some unique features to d20MUD: Forgotten Realms, that you will want to
+learn before adventuring.  Go north to visit the MUD School and learn about the
+special things unique to d20MUD: Forgotten Realms or go south to return to the
+Adventurer's Guild in Luskan.  
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2673 0 0 0 0 0 0 0 0
+S
+#3301
+Training Your Character~
+@w
+The next step we need to take is to train your character.  Every time that your
+character gains a level, he will attain hit points, move points, skill points 
+and depending on his class and level, new spell slots, feats, and class 
+abilities.  We will focus first on feats.  
+
+Every character starts off with at least 1 feat, and possibly more depending on 
+class and race.  A feat is a character trait that either grants your character 
+a new ability or improves an already existing one.  
+
+Characters automatically start with one and gain one every 3 levels.  Some 
+classes offer bonus feats to choose from a seperate list and at epic levels all 
+classes offer bonus feats.  
+
+Epic levels begin at level 21, and enable the ability to obtain even more 
+powerful feats.  
+
+Skill points are granted based on class and intelligence.  Humans also get an 
+extra skill point each level and 4 more at level 1.  Skill points are used to 
+increase the skills your character has.  Some of these skills grant new 
+character abilities and powers while others are used passively to enhance your 
+character in certain situations.  
+
+The biggest difference between a feat and a skill is that, in general, skills 
+have a rating, while feats are simply either you have it or you don't.  Also of 
+note are your ability scores.  
+
+Every 4 levels you obtain an ability score point that you can add to any of your
+ability scores you desire (ie.  Strength, Dexterity, etc.  ). 
+
+Go north to begin your training and to learn more about feats.  
+@n
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3404 0 0 0 0 0 0 0 0
+S
+#3302
+Choosing Feats~
+   First you must choose your class.  You simply need to type @Ygain
+@Y<classname>@n to gain a level in whatever class you qualify for.  For
+information on what classes are avaialble see @Yhelp @Yclasses@n or to get help
+on a specific class type @Yhelp @Yclass @Y<classname>@n.  @w The next thing you
+must do is choose feats and to see what is available and see what you already
+have.  To see what you already have type '@Yfeats @Yknown@n'.  To see what you
+qualify for to choose type '@Yfeats @Yavailable@n'.  In both lists you will see
+the names of various feats.  For help on a specific feat the help command is
+generally @Yhelp @Yfeat @Y<name @Yof @Yfeat>@n for example 'help feat
+toughness'.  In the event that there is no or insufficient help on a feat feel
+free to look the feat up on http://d20srd.  Org/.  Once you have decided to
+choose a feat type @Ylearn @Y<featname>@n for example 'learn toughness'.  If you
+want to learn a feat with a specific subset, you need to seperate the general
+feat name and the specific subset you wish to specialize in with a colon and no
+spaces.  For example, skill focus can be specialized in the tumble skill and the
+syntax would be: 'learn skill focus:tumble'.  Once you have learned all your
+feats here at the trainer go north to learn about raising skills.  @n
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3303 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3301 0 0 0 0 0 0 0 0
+S
+#3303
+Choosing Skills~
+@W
+To see your skills type practice or prac for short.  Your skills are seperated
+into class skills which are highlighted in green  and cross-class skills which
+are white.  Each skill has an ability score tied to it, and this value is added
+to the skill.  Some skills can be used without actually buying and ranks in
+them, such as hide, though others must have at least one rank to be able to use
+it, such as open lock.  You can find out what skills do by reading their help
+file, usually help skill <skill name> as in 'help skill tumble' or by check the
+per skill rank, a 1:1 ratio.  Their maximum value is always your level + 3.
+Cross-class skills can be purchased for 2 skill points per rank, a 2:1 ratio.
+Their maximum value is always your (level / 2) + 1.  This maximum value applies
+only to purchased ranks.
+
+Some skills can be used without actually buying and ranks in them, such as hide,
+though others must have at least one rank to be able to use it, such as open
+lock.
+
+In order to learn  a skill simply type practice <skill name> for example
+'practice tumble'.  Each time  you type this you will buy one rank in this skill
+assuming you have enough skill points, you are at a trainer who can and will
+teach the skill to you, and you are not already at your maximum value for that
+skill at your level.  Once you are done training in your skills go north to read
+about ability score trains and milestones.
+@n
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3302 0 0 0 0 0 0 0 0
+S
+#3304
+Training Ability Scores~
+   Every 4 levels you achieve in total (all of your classes combined) you
+receive one ability score training point.  This is used by the train command and
+is very simple.  If you wish to increase your strength by one you would type
+'train strength'.  If it was your wisdom, 'train wisdom'.  
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3303 0 0 0 0 0 0 0 0
+S
+#3305
+The Gain Command and Multi-Classing~
+   &w In order to gain a level in your current class, or another you must use
+the gain command.  This command is used by typing gain <name of class you wish
+to gain a level in>.  A character may always gain any number of levels in any of
+the basic classes (see help classes basic), and may also gain additional levels
+in any of the prestige classes that they qualify for (see help classes
+prestige).  A person may find out what classes they qualify for by tying the
+gain command without any arguments, like this: 'gain'.  If a class is not listed
+there, you may find out what requisites you are missing by attempting to gain a
+level in that class, and by typing gain <class name>.  You will be notified when
+you are able to gain a level by a yellow message when you gain experience.  
+However if you qualify for a milestone you have not yet taken, this message may
+not show.  However it will display that you have achieved 100% of your
+experience required for the next level in your score (type score).  When you
+actually gain a level you will receive a text flow that will describe what you
+attained that level in hit points, skill points, feats, class abilities and so
+on.  You may have any number of classes at any given time, and any number of
+combinations of levels up to a total level cap, currently, of 100, which for all
+intents and purposes is unattainable without the proper zone support.  Each race
+has a favored class, and this class does not count towards multi-class
+penalties.  What is a multi-class penalty?  Well if you have more than 1 basic
+class, not including your races favored class (prestige classes don't count
+toward this as well) then you suffer a permanent -10% to experience for every
+class beyond the first to a maximum of -50%.  To learn about magic please go
+north . &n
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3306 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3304 0 0 0 0 0 0 0 0
+S
+#3306
+Magic and the Spellcasting System~
+   &w The magic system here is comprised of a memorization system, and thus mana
+points are not used.  In most cases you have to select beforehand the spells
+that you want to have available, and then rest for a 3-5 minutes while your
+character prepares them for casting.  There are a few basic commands that must
+be learned in order to play a spellcasting class effectively.  First is the cast
+command.  Second is the mem command, and third is the spells command.  Wizards
+also require spellbooks, libraries and scrolls to operate properly.  
+Information on spellbooks, libraries and scrolls can be found to the west, as
+well as a library to research some spells if you so choose.  Wizards only need
+go in that direction.  All classes, wizards included, should go east to learn
+about casting, memorizing spells, and reviewing their spell list.  If you are
+not a spellcasting class or already know everything about spellcasting here,
+please continue north to learn the basics of combat here.  &n
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3312 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3310 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3305 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3307 0 0 0 0 0 0 0 0
+S
+#3307
+Researching Spells and Libraries~
+   &w The room you are in is a spell researching library.  There are three types
+of spell research libraries, small, medium and large.  Small libraries have up
+to level 3 spells, medium to 6 and large up to 9.  Epic spells are gained as
+feats.  By using the research command in these libraries you are able to learn
+new spells, either by spending spell research points, which wizards gain two of
+each level, or by spending coin.  As a new character you will start with a
+spellbook with all the cantrips already in it and a few first level spells.  
+Take a moment to 'look spellbook' now to see what spells you already have.  
+Take note that your spellbook has a certain number of pages.  The number beside
+each spell is the number of pages it occupies.  Higher level mages will need to
+carry with them multiple spellbooks.  When a mage wants to research a new spell
+in a library, they must use the research command by typing research <spell
+name>.  For example 'research chill touch'.  Notice that I did not use the
+quotes around the spell name.  If the mage has any available spell research
+tokens, success is automatic and one token is taken from the character.  These
+tokens are intangible and are stored in your character file.  You can see how
+many you have at any given time by typing 'stat'.  If you have no tokens you can
+attempt to research a spell by paying in coins.  The cost of the research
+depends on the spell level.  When researching by paying, success is not
+automatic.  It is an ability check with your intelligence modifier against the
+level of the spell.  So if you have an intelligence of 18 and are trying to
+learn a level 5 spell, the roll would be 1d20 + 4 (your modifier) against 10
+(base difficulty) + 5 (spell level).  If your roll is higher than than the
+difficulty class (or dc, 15 in this case) then you learn the spell and scribe it
+into your spellbook assuming you have space.  Otherwise you fail and must pay
+20% of the research fee in wasted resources.  Please continue west.  &n
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 3306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3308 0 0 0 0 0 0 0 0
+S
+#3308
+Scribing Spells Into Your Spellbook~
+   &w Wizards automatically have the ability to scribe magical scrolls into
+their spellbook.  First the wizard must have a spellbook in their inventory with
+enough free pages in it to fit the spell.  Second he must have the spell
+memorized that they wish to scribe.  This spell must also be a spell that he is
+able to learn.  Thus it must be an arcane spell of a spell level that the wizard
+can cast normally.  With these requisites satisfied, the wizard simply need type
+scribe <spellbook keyword> <name of memorized spell>.  So if I wanted to scribe
+a scroll containing the chill touch spell into my spellbook, I would first
+memorize the spell from the scroll, and then I would type 'scribe spellbook
+chill touch'.  The spell would go into the first spellbook in my inventory that
+has room for it.  This command can also be used to create scrolls.  Simply
+replace <spellbook keyword> with <scroll keyword>.  So if I wanted to copy chill
+touch from my spellbook onto a blank scroll I would first memorize the spell
+from the spellbook, and then I would type 'scribe scroll chill touch' and the
+spell would be scribed onto the scroll which could then use to cast the spell
+on-the-fly or sell to another wizard for him to memorize and scribe into his
+spellbook.  &n
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 3307 0 0 0 0 0 0 0 0
+S
+#3309
+Casting Spells~
+   &w Spellcasting is a relatively simple process though the use of aliases,
+either using the in-game alias command or by using a mud client, both of which
+are descrbed later, makes it much, much, easier.  The cast command is used to
+cast a spell and contains the syntax cast '<spell name>' <target keyword>.  
+Note that the spell name is encolsed in quotation marks.  In order to cast the
+magic missile spell at a goblin I would type 'cast 'magic missile' goblin'.  If
+I was already fighting that goblin, I would only need to type 'cast 'magic
+missile''.  If I was fighting two goblins, and I wanted to cast the spell on the
+second I would type 'cast 'magic missile' 2.goblin'.  Non aggresive spells
+work similarly.  If I wanted to cast mage armor on myself I would only need to
+type 'cast 'mage armor''.  If I wanted to cast the spell on a nearby elf I would
+type 'cast 'mage armor' elf'.  As a side note, you can always target yourself by
+using the keyword me.  For example 'cast 'mage armor' me'.  &n
+~
+33 d 0 0 0 0
+D3
+~
+~
+0 0 3311 0 0 0 0 0 0 0 0
+S
+T 3300
+#3310
+Reviewing Your Spell List~
+&w
+   The first step to using your magical aptitude is to see what you can actually
+cast.  The spells command comes in here.  It's basic use is simple.  You type
+'spells' and you are given a list of what spells are available to you to cast,
+unless you are a wizard, in which case you need to look at your spellbook(s) to
+see what spells you have.  However the spells command can be used to review any
+spell in the game by using the wildcards arcane and divine and also by
+specifying a specific spell level.  Here are some examples from the help file:
+
+Wizard types spells, lists all wizard spells
+Cleric types spell: lists all divine spells
+Fighter types spell: lists all divine spells:
+Character types spells arcane: lists all arcane spells
+Character types spells divine lists all divine spells
+Character types spells arcane 5: lists all level 5 arcane spells
+
+Continue east to learn how to memorize spells.&n
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 3311 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3306 0 0 0 0 0 0 0 0
+S
+#3311
+Preparing Spells for Casting By Memorizing Them~
+   &w In order to cast a spell, you must first memorize it.  In the future bards
+and sorcerers will be added who can cast any spell that they know at any time,
+assuming they have spell slots left.  Clerics and druids will also be able to
+spontaneously cast certain spells as well, though this feature is not currently
+implemented.  The syntax for memorizing a spell is simple: memorize <spellname>.
+Please note that you must separate words in the spell name with dashes instead
+of spaces.  So if the magic missile spell was available to me I would memorize
+it by typing 'mem mage magic-missile'.  As a caster you will most likely want to
+use automem most of the time.  This option automatically starts memorizing a
+spell after you cast it and can be turned on simply by typing 'automem'.  If you
+are memorizing a spell and want to stop memorizing it, type stop <spell name>.
+If you have a spell memorized already and want to replace it with something
+else, type forget <spell name>.  If you cleric, paladin, ranger or druid you
+will need to have a holy symbol in order to cast spells.  All spellcasting
+classes start with a holy symbol but they can also be bought at the various
+shops throughout the game.  &n
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 3309 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3310 0 0 0 0 0 0 0 0
+S
+#3312
+Combat Basics~
+   &w Combat here is much like combat on pretty much any MUD, with a few small
+differences.  First the combat pulses (or ticks) are about twice as long here as
+on other muds.  The reason is to allow for more strategy in combat, through the
+various use of skills, spells, and combat options.  We have tried to keep things
+quick enough that combat is not tedious in situations where strategy is not
+really necessary.  There are some basic combat commands that are available to
+everyone, such as trip, feint, and so on.  Go west to read up on those.  To the
+east is a description on the formation system, and an exlanation on how it works
+to create an enhanced strategic combat experience that can make the most of the
+DnD3.5 rules.  Also east is information on the hate system which will help
+to teach you about how the game decides who gets aggro and how to control
+it.  Go north to learn about deities and religion.
+&n
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3318 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3313 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3314 0 0 0 0 0 0 0 0
+S
+#3313
+The Formation System~
+   &w Heroes of Icewind Dale uses a formation combat system.  This allows for up
+to 9 individuals to be in combat per party/group.  The formations are split into
+3 rows of three, numbered 1-3, 4-6 and 7-9.  Party members in slots 1-3 are the
+tanks, and they take the brunt of the damage.  They are able to attack with any
+kind of weapon, though attacking with ranged weapons without the point blank
+shot feat will result in attacks of oppourtunity and penalties to hit.  In rows
+4-6 members may use spears, polearms and ranged weapons.  In the final row,
+slots 7-9, members may only use ranged weapons.  In any slot a character may
+cast a spell, though touch attacks obviously require that the member be in the
+front row to make the touch.  Likewise if a caster casts a spell in the front
+row they open themselves to a free attack while they cast the spell.  Mobs, in a
+similar manner, attack in rows when fighting more than more.  If there are more
+than 9 characters in a group, only 9 of them may participate in combat.  The
+others can feel free to assist with spells (not offensive ones), magic items,
+skill use, or what have you.  To assign someone, or yourself to a position type
+reform <character name / mob keyword> <formation slot (1-9)>.  So if I wanted to
+set myself to position 6, which is the right side of the middle row, I would
+type 'reform me 6'.  Only the party leader has the ability to reform someone
+else.  It is often a good idea for the party leader to thus be someone who
+either works in one of the two back rows, so they can spend their time adjusting
+formation instead of controlling hate.  Fighters generally make the best party
+leaders since usually they don't have much extra to do during combat if they
+aren't controlling hate besides repeatedly use their weapon, which is performed
+automatically.  To view the current formation simply type 'form'.  Please go
+east and read up on the hate system and how to manage hate against your
+character or party.  &n
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 3317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3312 0 0 0 0 0 0 0 0
+S
+#3314
+Trip~
+   &w The trip skill is actually a combat ability option that is available to
+everyone.  In order to use this ability you must be fighting in the first row,
+formation slows 1-3.  When you initiate a trip you are allowed one trip attempt
+per normal attack that you have (not including other abilities or feats that
+give extra attacks or extra attacks from wielding multiple weapons).  If you
+have the improved trip feat you get one extra trip attempt.  Your trip attempts
+are attack rolls made against the opponent's armor class without including their
+actual worn armor or shield bonus.  If successful an opposed ability score check
+is made involved strength and dexterity.  The larger opponent generally has an
+advantage here in making the trip, and creatures with more than two legs receive
+a defensive bonus.  Dwarves, being very sturdy, also receive a bonus to their
+resistance roll.  If the trip succeeds, the opponent is placed on their back,
+and must spend an action standing up again.  Usually this will allow them to
+still make a partial attack, though they will not be able to make a full attack
+(a partial attack means at max they will only make one attack).  If the trip
+fails the other character immediately gets a free trip attempt against the
+character that tried to trip them.  The same rules apply here.  Monks are able
+to use any remaining trip attempts that they have as normal attacks.  &n
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 3312 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3315 0 0 0 0 0 0 0 0
+S
+#3315
+Feint~
+   &w The feint skill is another combat ability option that is available to
+anyone.  Feint is an opposed skill check between the attacker's bluff skill and
+the defender's sense motive skill.  A successful feint will make the defender
+flat footed, which may open them up to a single sneak attack.  Ranged attacks do
+not require a character to be flat footed to qualify for a sneak attack in
+melee, though the attacker must not have the defender's attention.  Unless the
+character has the improved feint skill, their feint attempt qualifies as a
+partial action, limiting them to a single attack that round.  With the improved
+feint feat, a feint attempt is a free action, and costs no attacks.  Feint tends
+to generate quite a bit of hate, so it should be used sparingly in some
+situations.  &n
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 3314 0 0 0 0 0 0 0 0
+S
+#3316
+An unfinished room~
+You are in an unfinished room.
+~
+33 d 0 0 0 0
+S
+T 3300
+#3317
+Consider Your Enemy~
+
+Before you attack anything you haven't fought before, you will want to
+consider it.  For your convenience we have added an autocon system as well.
+To manually consider your enemy type @Yconsider <target>@n.  It will give you
+a message detailing how powerful the creature is compared to you.  The autocon
+system on the other hand, which is turned on by default, places a symbol in
+parenthesis beside the mob's long description.  It will also display a
+color code.  Here is a quick legend:
+@B(+)@n 8 levels lower than yours or more
+@b(+)@n 7 levels lower than yours
+@C(-)@n 6 levels lower than yours
+@c(-)@n 5 levels lower than yours
+@G(-)@n 4 levels lower than yours
+@g(-)@n 3 levels lower than yours
+@Y(-)@n 2 levels lower than yours
+@y(-)@n 1 level lower than yours
+@W(=)@n same level as yours
+@m(+)@n 1 level higher than yours
+@M(+)@n 2 levels higher than yours
+@r(+)@n 3 levels higher than yours
+@R(+)@n 4 levels higher than yours
+@l@R(+)@n 5 levels higher than yours or more
+@W(==)@n double normal hit points
+@W(===)@n triple normal hit points
+@W(====)@n 4 times normal hit points
+@W(=====)@n 5 times normal hit points or more
+
+~
+33 d 0 0 0 0
+D3
+~
+~
+0 0 3313 0 0 0 0 0 0 0 0
+S
+#3318
+Religion, Devotion and Domains~
+   &w In the world of Krynn, everyone must devote themselves to one of the
+pantheon of dieties, normally of their own race, but not always as a
+requirement.  Those who do not devote themselves to a deity, or who only pay lip
+service to their deity, are placed in the living wall in the life after death,
+or have their souls handed over to the devils or demons to torment for eternity.
+Thus the people of Toril take their religion quite seriously, and virtually
+every sentient creature on the planet worships at least one deity.  For divine
+spellcasters, this is even more important, for they can cast no spells without a
+patron deity.  In order to choose a deity, type @Ydevote @Y<deity @Yname>@n.  To see a
+list of deities which you qualify to be accepted as a worshipper, type '@Ydevote
+@Ylist@n'.  At any time during the life of your character you may change your deity
+by typing devote <new deity name> yes.  You will have to meet the requirements
+of the deity's race and/or alignment and/or class and you will also suffer a
+penalty to experience for a time until you have fully converted to your new
+faith.  The first faith you choose will never cause an exp penalty.  If you are
+a cleric you may choose up to two domains of the four that your deity possess.
+These domains will grant you bonus spells and bonus abilities (in most cases).
+To see a list of domains your deity offers type 'domain'.  If you have not yet
+devoted to a deity, the game will, at this point, direct you to do so.  To see
+what benefits a domain offers, type 'help domain <domain name>'.  Once you have
+chosen your two domains, you can see what they are at any time by typing
+'domain' by itself.  &n
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3320 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3312 0 0 0 0 0 0 0 0
+S
+#3319
+Before You Enter the Game~
+   You are almost ready to enter the realm.  Go west to enter Silverymoon, the
+city of good and law, or go east for Luskan, a city of injustice and evil.  At
+any time you may @Yrecall@n to the beginning of this mud school by using the recall
+command.  We recommend that you read the @Yhelp @Ynewbie@n file and also @Yhelp @Ynewbie
+@Yzones@n.  This will help you learn your way around the mud and get used to some of
+the intracacies here.  
+~
+33 d 0 0 0 0
+D1
+~
+~
+0 0 2672 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3320 0 0 0 0 0 0 0 0
+S
+#3320
+Choose Your Equipment~
+   Now you must choose your equipment.  Here you may buy any non magical item of
+any type.  Simply type @Ybuy @Y<itemname>@n to buy an item and @Ylist
+@Y<armor|weapons> @Y<itemtype>@n to see what is available along with its cost.
+The amount of money you get is dependant on the class you chose earlier in
+character generation.  Once you have purchased all of your equipment, go north
+to prepare to enter the game.  If you decide you don't want an item you may be
+reimbursed for its value by typing @Ysell @Y<item>@n.  
+~
+33 d 0 0 0 0
+D0
+~
+~
+0 0 3319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3318 0 0 0 0 0 0 0 0
+S
+$~

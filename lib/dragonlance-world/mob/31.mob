@@ -1,0 +1,450 @@
+#3100
+follower woman~
+a follower of the seeker religion~
+A young woman strolls about talking about the seeker religion.
+~
+   Before you is a young woman from Solace.  She is dressed in the garb common
+to the people of Abanasinia.  She walks about talking with other followers and
+the priests about the seeker religion.    
+~
+d 0 0 0 k 0 0 0 900
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3101
+follower man~
+a follower of the seeker religion~
+A young man strolls about talking about the seeker religion.
+~
+   Before you is a young man from Solace.  He is dressed in the garb common to
+the people of Abanasinia.  He walks about talking with the other followers and
+the priests about the seeker religion.    
+~
+d 0 0 0 k 0 0 0 900
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3102
+heretic~
+a raving heretic~
+A raving heretic stalks about pulling at his hair.
+~
+   Driven mad by the confinement and torture this man is now dangerous to
+anyone near him.  He stalks about his cell pulling at his hair and muttering.
+~
+d 0 0 0 k 0 0 0 0
+16 12 -9 144d160+106 1d8+8
+23 0 32 4
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#3103
+guardian seeker~
+a guardian seeker~
+A guardian seeker walks about here watching for trouble.
+~
+   This is one of the seeker's hired mercenaries.  Its there job to protect the
+seeker's from heretics and to help enforce their policies.    
+~
+d 0 0 0 k 0 0 0 0
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3104
+tower guard~
+a tower guard~
+A tower guard stands here watching the surrounding land for signs of trouble.
+~
+   This is one of the seeker's hired mercenaries.  Its his job to guard the
+seeker's outpost from attack by monsters or those who feel the seeker's should
+preach their religion elsewhere.    
+~
+d 0 0 0 k 0 0 0 0
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3105
+temple priest~
+the temple priest~
+The temple priest stands here preaching the seeker religion.
+~
+   This priest is in the typical robes of the Seeker's.  He stands at the front
+of the temple preaching his religion to the masses.  He brings his fist down on
+the podium to drive home his point now and again.    
+~
+bdD 0 0 0 k 0 0 0 0
+16 6 -14 720d160+1000 1d8+17
+23 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#3106
+seeker priest~
+a seeker priest~
+A seeker priest walks confidently by here.
+~
+   This priest is dressed in the traditional robes of the seekers.  He walks
+about with a confidence that reflects his faith in his religion.  He smiles
+warmly at all that pass.    
+~
+d 0 0 0 k 0 0 0 -900
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3107
+master tolbert~
+Master Tolbert~
+Master Tolbert, the headmaster of the acolytes stands here grimacing.
+~
+   This is the teacher of the acolytes.  He keeps a watchful eye on the
+aspiring priests and teaches them the way.  He has a stern unforgiving look on
+his face that has cowed even the most spirited acolyte.    
+~
+bdF 0 0 0 k 0 0 0 0
+16 5 -15 2880d160+106 1d8+19
+23 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#3108
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+16 12 -6 64d100+100 1d8+8
+23 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3109
+seeker dirkas~
+Seeker Dirkas~
+Seeker Dirkas stands stiffly at his post scowling fiercly.
+~
+   Standing very straight and obviously unhappy with his assignment seeker
+Dirkas guards the outpost gates.  He barely watches the peasant that come in
+and out of the gates seemingly absorbed in his misery at having to stand watch.
+~
+bdE 0 0 0 k 0 0 0 0
+16 6 -16 1920d160+106 1d8+17
+23 0 32 3
+8 8 1
+E
+Str: 3
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3110
+inquisitor~
+the Inquisitor~
+The Inquisitor stands here calmly sharpening his knives.
+~
+An undefined string.~
+bdE 0 0 0 k 0 0 0 -900
+16 6 -11 960d160+1000 1d8+17
+23 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 20
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3111
+high seeker malis~
+High Seeker Malis~
+High Seeker Malis eyes you coldly for intruding upon his privacy.
+~
+An undefined string.~
+bdF 0 0 0 k 0 0 0 -900
+16 5 -15 2880d160+106 1d8+19
+23 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#3112
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+16 12 -6 64d100+100 1d8+8
+23 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3113
+acolyte young~
+a young acolyte~
+An acolyte of the seeker religion walks about in contemplation.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 900
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3114
+convert~
+a recent convert~
+Roaming about the complex is a recent convert.
+~
+   Wearing blue robes, a recent convert walks about the complex smiling to
+those around him.  Long black hair flows down the man's back and over his broad
+shoulders.    
+~
+d 0 0 0 k 0 0 0 0
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3115
+skeptic~
+a skeptic~
+A skeptic walks about the complex in disbelief.
+~
+   Shaking her head in disbelief, this skeptic walks the complex.  
+Reddish-blonde hair cascades down the woman's back, as pale blue eyes scan the
+area.    
+~
+d 0 0 0 k 0 0 0 0
+16 12 -14 192d160+106 1d8+8
+23 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3116
+clone~
+the clone~
+A boring old clone is standing here.
+~
+This clone is nothing to look at.  No, really, it is quite boring.
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3144
+guard~
+a pair of guards~
+a pair of guards flanking each side of the entrance into the castle
+~
+It looks unfinished.
+~
+dD 0 0 0 k 0 0 0 0
+50 -25 -40 600d100+100 1d8+25
+200 0 91 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 28
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

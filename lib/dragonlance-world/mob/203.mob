@@ -1,0 +1,335 @@
+#20300
+stone giant sorcerer shaman~
+a Stone Giant Shaman~
+A Stone Giant Shaman stands here.
+~
+   This giant is standing here, watching over his fellow brethren, so as to
+protect them from harmful outsiders.  He has a stare that seems to pierce
+through to your soul, looking for your true intentions.  
+~
+abdentwF 0 0 0 dkrzC 0 c 0 0
+30 3 -20 5100d300+1000 4d10+17
+75 0 13 20
+8 8 1
+E
+BareHandAttack: 12
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 8
+E
+Con: 29
+E
+Cha: 6
+E
+SkinData1: 1
+S
+#20301
+quaroth giant fighter ettin epic~
+Quaroth the Ettin~
+Quaroth stands here, waiting for all comers.
+~
+   Quaroth is whats reffered to as an Ettin, a fairly slimy, stinky, two headed
+giant.  This Ettin though, is particularly dangerous, to go with his nasty
+disposition, he is wearing full plate armor, and wielding a scythe in each hand.
+
+~
+bdeflnwxF 0 0 0 dfk 0 0 0 -1000
+40 -10 -58 12000d300+120 4d8+30
+155 0 13 3
+8 8 1
+E
+Str: 40
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 6
+E
+Con: 20
+E
+Cha: 6
+S
+#20302
+pyrohydra hydra lizard epic~
+a Pyrohydra~
+A Giant Firebreathing Hydra stands here.
+~
+   A huge multiheaded lizard is looking you over with hunger in its eyes, and
+waiting for just one taste of your delicious flesh.  Each mouth flickering with
+flame ready to roast you alive to make you taste that much better.  
+~
+bdfprwxE 0 0 0 fk 0 0 0 0
+35 -15 -25 720d10+571 4d8+15
+200 0 18 21
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#20303
+hill giant sentry guard hillgiant~
+a Hill Giant Sentry~
+A Hill Giant stands at the ready.
+~
+   A Hill Giant Sentry stands at the ready to dispatch any newcomers who might
+wish to investigate the area.  His hulking barrel chested frame standing in the
+way of any progress you might wish to make into this city.  
+~
+bdjklnvD 0 0 0 k vx 0 0 -500
+20 8 -22 300d100+1000 4d10+12
+35 0 13 4
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 35
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 6
+E
+Con: 20
+E
+Cha: 6
+S
+#20304
+hill giant hillgiant warrior~
+a Hill Giant Warrior~
+A Hill Giant Warrior patrols the streets.
+~
+rawr
+~
+dgw 0 0 0 k 0 n 0 0
+18 11 -8 216d100+100 3d12+9
+0 0 13 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 28
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#20305
+hill giant hillgiant wandering~
+a Hill Giant~
+a female Hill Giant is wandering about the camp.
+~
+   This female Hill Giant is wandering about the camp, tending to the needs of
+the male warriors and children.  She is making sure everyone is in good shape to
+handle local threats and is properly fed.  
+~
+dgu 0 0 0 k 0 0 0 0
+16 10 -12 192d100+100 3d8+10
+23 0 13 1
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 16
+E
+Con: 18
+E
+Cha: 6
+S
+#20306
+young hill giant hillgiant female~
+a Young Hill Giant~
+a Young Hill Giant is here enjoying her youth.
+~
+   This Young Hill Giant is relaxing after a nice hard days training to become a
+servant to her people.  Doing as she pleases as she wastes the rest of her day
+away talking to her friends and family.  
+~
+cdgu 0 0 0 k 0 0 0 0
+12 12 -6 144d100+100 2d8+8
+14 0 13 1
+8 8 2
+E
+BareHandAttack: 5
+E
+Str: 26
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 15
+E
+Con: 18
+E
+Cha: 6
+S
+#20307
+young hill giant hillgiant male~
+a Young Hill Giant~
+a Young Hill Giant is here relaxing.
+~
+   This Young Hill Giant is relaxing after a hard days training to become a
+warrior for his people.  Sitting here enjoying himself and eyeing the young
+local girls chatting to thier friends and family.  
+~
+cdv 0 0 0 k 0 0 0 0
+12 12 -9 180d100+100 2d12+8
+14 0 13 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 33
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 6
+E
+Con: 20
+E
+Cha: 6
+S
+#20308
+hill giant hillgiant mountain king~
+the Mountain King~
+The Mountain King sits at his throne
+~
+   The self proclaimed king of this mountain lounges in his throne talking to
+his advisor, plotting the downfall of any who may or may not cross him.  
+~
+bdelnpqrwzF 0 0 0 dknz 0 n 0 -1000
+25 6 -20 3000d100+100 5d10+14
+0 0 13 4
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 26
+E
+Dex: 14
+E
+Int: 6
+E
+Wis: 18
+E
+Con: 18
+E
+Cha: 6
+S
+#20309
+kings advisor sorcerer female~
+Vanessa~
+The Kings Advisor stands here regally.
+~
+   This is the Kings Advisor, Vanessa, she is a small framed and young human
+sorceress with a fire in her eyes.  It is easy to tell how she became the kings
+advisor, her beauty only being matched by her power.  
+~
+bdlnpqrtwD 0 0 0 cdefkmnrzC e c 0 0
+35 -1 -28 2625d350+125 2d8+21
+110 0 41 20
+8 8 2
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 11
+S
+#20310
+legendary grizzly bear~
+a Monstrous Grizzly Bear~
+An unbelievably large Grizzly Bear wanders the hills.
+~
+   The Grizzly you see standing before you wanders the plains in fear of
+nothing, surveying the land for its next meal.  The height of this beast is
+staggering and its broad shoulders are atleast two men wide, a wise man would
+steer clear of it.  
+~
+cdfglnpqrswE 0 0 0 koz D cn 0 0
+15 13 -9 1200d100+100 2d8+7
+0 0 9 21
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 42
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+#20311
+legendary stag deer buck~
+a Legendary Stag~
+An enourmous stag watches the herd.
+~
+   The Stag standing before you is one of the largest you've ever seen.  Each
+antler larger and heavier than any normal man, Each hoof as wide as a person at
+thier shoulders, and with its shoulders as high in the air as the top of a young
+tree, it can see for miles in this almost blank landscape.  
+~
+dimvyD 0 0 0 fk 0 c 0 500
+15 13 -9 480d100+5000 1d8+7
+0 0 9 21
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 28
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 19
+E
+Cha: 10
+S
+$

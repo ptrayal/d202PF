@@ -1,0 +1,70 @@
+#44
+None.~
+SolRdtoThelgaard(Majere)~
+4400 4499 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  4400     3  4412   3   100     1    -1          0 a smelly hobgoblin
+
+M 0  4400     3  4412   3   100     2    -1          0 a smelly hobgoblin
+
+M 0  4401     4  4450   1   100     3    -1          0 a traveler in a silver and black cloak
+
+M 0  4401     4  4480   1   100     4    -1          0 a traveler in a silver and black cloak
+
+M 0  4403     1  4465   1   100     5    -1          0 a traveler on a wagon
+
+G 1  1231     3     0   0    20     6     5          0 a thin scroll, bound by a feather plume
+
+G 1  4400     1     0   0   100     7     5          0 a golden pen
+
+M 0  4402     2  4465   2   100     8    -1          0 a large black ox
+
+M 0  4402     2  4465   2   100     9    -1          0 a large black ox
+
+M 0  4404     1  4430   1   100    10    -1          0 a rugged, scarred dockmaster
+
+D 0  4430     3     1   0   101    11    -10 
+
+D 0  4496     1     1   0   101    12    -10 
+
+M 0  4407     1  4429   1    33    13    -1          0 a well built soldier bearing the crest of a lily
+
+E 1  4403     4    16   0    33    14    13          0 a sterling broadsword of blackened steel
+
+M 0  4406     1  4429   1    33    15    -1          0 a vague, blue hooded man
+
+E 1  4402     3     6   0    33    16    15          0 a night blue hood
+
+M 0  4405     1  4429   1    33    17    -1          0 a rugged, leather clad half-elf
+
+E 1  4401     3     9   0    33    18    17          0 a pair of green suede gloves
+
+M 0  4409     8  4483   8    25    19    26          0 a knight on patrol
+
+M 0  4409     8  4483   8    25    20    27          0 a knight on patrol
+
+M 0  4409     8  4483   8    25    21    27          0 a knight on patrol
+
+M 0  4409     8  4483   8    25    22    27          0 a knight on patrol
+
+M 0  4409     8  4483   8    25    23    27          0 a knight on patrol
+
+M 0  4409     8  4483   8    25    24    27          0 a knight on patrol
+
+M 0  4409     8  4483   8    25    25    27          0 a knight on patrol
+
+M 0  4409     8  4483   8    25    26    27          0 a knight on patrol
+
+M 0  4408     1  4483   1   100    27    -1          0 a knight patrol leader
+
+E 1  4404     2     8   0    20    28    27          0 a pair of golden sollerets
+
+O 0  4405     1  4469   0   100    29    -1          0 a large wooden sign
+
+O 0  1273     5  4497   0   100    30    -1          0 a black and red painted dartboard
+
+S
+$

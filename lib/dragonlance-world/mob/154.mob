@@ -1,0 +1,27 @@
+#15400
+Freya, cleric of Mishakal~
+Freya, cleric of Mishakal~
+Freya, cleric of Mishakal is here offering healings and enhancements for monetary donations.
+~
+   She has long golden hair and looks like she's just entering her middle years.
+She wears long, sky blue robes and wears a silver infinity sign around her neck.
+(Type @Ybuff <spell name>@n to receive her blessings for a price).  
+~
+bdnopqrA 0 0 0 k 0 0 0 500
+20 10 -18 180d100+100 1d8+10
+35 0 41 1
+8 8 2
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+$

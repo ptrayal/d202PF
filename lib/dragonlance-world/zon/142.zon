@@ -1,0 +1,54 @@
+#142
+None.~
+Sanction Concentration Camp~
+14200 14299 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 14200     4 14209   2   100     0    -1          0 a worn elven slave
+
+M 0 14200     4 14201   2   100     1    -1          0 a worn elven slave
+
+E 1 14202     2     3   0    50     2     1          0 a faded leather collar
+
+M 0 14200     4 14200   2   100     3    -1          0 a worn elven slave
+
+M 0 14200     4 14207   2   100     4    -1          0 a worn elven slave
+
+M 0 14201     4 14208   2   100     5    -1          0 a worn elven slave
+
+M 0 14206     2 14206   2   100     6    -1          0 a dirty goblin slave
+
+E 1 14201     2    10   0    50     7     6          0 a pair of faded leather vambraces
+
+M 0 14201     4 14206   2   100     8    -1          0 a worn elven slave
+
+M 0 14206     2 14204   2   100     9    -1          0 a dirty goblin slave
+
+M 0 14202     4 14204   2   100    10    -1          0 a weary human slave
+
+E 1 14200     2     7   0    50    11    10          0 a pair of faded leather greaves
+
+M 0 14201     4 14204   2   100    12    -1          0 a worn elven slave
+
+M 0 14207     1 14202   1   100    13    -1          0 a half-elven slave
+
+M 0 14203     4 14202   2   100    14    -1          0 a weary human slave
+
+M 0 14202     4 14202   2   100    15    -1          0 a weary human slave
+
+M 0 14204     2 14205   2   100    16    -1          0 a draconian slave driver
+
+M 0 14203     4 14205   2   100    17    -1          0 a weary human slave
+
+M 0 14205     1 14203   1   100    18    -1          0 the draconian slave master
+
+E 1 14204     2     9   0    50    19    18          0 a pair of faded leather gloves
+
+M 0 14204     2 14203   2   100    20    -1          0 a draconian slave driver
+
+E 1 14203     2    14   0    50    21    20          0 a faded leather bracer
+
+S
+$

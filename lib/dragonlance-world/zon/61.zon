@@ -1,0 +1,178 @@
+#61
+None.~
+Caergoth (Izual)~
+6100 6199 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  6107     1  6191   1   100     0    -1          0 a colorfully dressed minstrel
+
+E 1  6118     2    17   0    55     1     0          0 a delicate, wooden harp
+
+E 1  6114     2     7   0    55     2     0          0 a pair of multi-colored cross cut pants
+
+E 1  6109     3    12   0    55     3     0          0 a flashy red and blue cape
+
+M 0  6109     1  6191   1   100     4    -1          0 a beautiful young woman
+
+E 1  6119     2    17   0    55     5     4          0 a strange, vallenwood lute
+
+E 1  6110     2     2   0    55     6     4          0 a magnificent, lapis lazuli ring
+
+M 0  6108     1  6191   1   100     7    -1          0 a middle-aged entertainer
+
+E 1  6115     2     7   0    55     8     7          0 a pair of tasteless, colorful thigh-high sandals
+
+E 1  6111     2     5   0    55     9     7          0 a gaudy, colorful tunic
+
+E 1  6117     2    17   0    55    10     7          0 a small brass flute
+
+M 0  6110     3  6192   1   100    11    -1          0 a thoroughly worn resident
+
+M 0  6110     3  6193   1   100    12    -1          0 a thoroughly worn resident
+
+M 0  6110     3  6190   1   100    13    -1          0 a thoroughly worn resident
+
+M 0  6102     3  6182   1   100    14    -1          0 a pretty young lady
+
+M 0  6102     3  6144   1   100    15    -1          0 a pretty young lady
+
+M 0  6102     3  6116   1   100    16    -1          0 a pretty young lady
+
+M 0  6111     1  6151   1   100    17    -1          0 a fearsome, stealthy thief
+
+E 1  6101     1    14   0    21    18    17          0 a splendid silver chained bracelet
+
+M 0  6113     1  6109   1   100    19    -1          0 an implacable, solamnic escort
+
+E 1  6105     1    16   0    55    20    19          0 an elongated bronze guisarme
+
+M 0  6112     1  6109   1   100    21    -1          0 a gruesome minotaur prisoner
+
+E 1  6113     1     1   0    23    22    21          0 a granite fingerband
+
+M 0  6101     5  6133   5   100    23    -1          0 a keen, heavily armored guard
+
+M 0  6114     1  6133   1   100    24    -1          0 an eccentric, elderly bard
+
+E 1  6133     2     6   0    80    25    24          0 an absurdly broad plumed hat
+
+M 0  6103     6  6120   1   100    26    -1          0 a rigid, stern solamnic knight
+
+M 0  6103     6  6140   1   100    27    -1          0 a rigid, stern solamnic knight
+
+M 0  6103     6  6160   1   100    28    -1          0 a rigid, stern solamnic knight
+
+M 0  6103     6  6175   1   100    29    -1          0 a rigid, stern solamnic knight
+
+M 0  6103     6  6132   1   100    30    -1          0 a rigid, stern solamnic knight
+
+M 0  6103     6  6110   1   100    31    -1          0 a rigid, stern solamnic knight
+
+E 1  6106     2     5   0    50    32    32          0 a scale mail shirt
+
+E 1  6104     2    16   0    50    33    32          0 an eloquent, steel halberd
+
+E 1  6106     2     5   0    50    34    34          0 a scale mail shirt
+
+E 1  6104     2    16   0    50    35    34          0 an eloquent, steel halberd
+
+E 1  6108     1     5   0     5    36    36          0 a breastplate adorned with the emblem of a kingfisher and sword
+
+E 1  6103     1    11   0     5    37    36          0 an ornamented, ceremonial shield
+
+E 1  6102     1    16   0    60    38    36          0 an ornate, platinum gilded broadsword
+
+O 0  6134     1  6199   0   100    39    -1          0 a donation plate
+
+M 0  6115     1  6199   1   100    40    -1          0 an aging, wise priest
+
+E 1  6107     1     6   0    15    41    40          0 a silky black cap
+
+M 0  6104     1  6198   1   100    42    -1          0 Sir Vodren, a Solamnic Knight of the Sword
+
+E 1  6102     1    16   0    30    43    42          0 an ornate, platinum gilded broadsword
+
+E 1  6103     1    11   0    18    44    42          0 an ornamented, ceremonial shield
+
+E 1  6108     1     5   0    12    45    42          0 a breastplate adorned with the emblem of a kingfisher and sword
+
+M 0  6106     2  6194   2   100    46    -1          0 an elite, temple guardian
+
+E 1  6106     4     5   0    50    47    46          0 a scale mail shirt
+
+E 1  6104     4    16   0    50    48    46          0 an eloquent, steel halberd
+
+M 0  6106     2  6194   2   100    49    -1          0 an elite, temple guardian
+
+E 1  6106     4     5   0    50    50    49          0 a scale mail shirt
+
+E 1  6104     4    16   0    50    51    49          0 an eloquent, steel halberd
+
+M 0  6100     5  6118   5   100    52    -1          0 a stealthy, shadowy pickpocket
+
+M 0  6101     5  6118   5   100    53    -1          0 a keen, heavily armored guard
+
+M 0  6101     5  6172   5   100    54    -1          0 a keen, heavily armored guard
+
+M 0  6101     5  6153   5   100    55    -1          0 a keen, heavily armored guard
+
+M 0  6101     5  6102   5   100    56    -1          0 a keen, heavily armored guard
+
+M 0  6100     5  6106   5   100    57    -1          0 a stealthy, shadowy pickpocket
+
+M 0  6100     5  6145   5   100    58    -1          0 a stealthy, shadowy pickpocket
+
+M 0  6100     5  6101   5   100    59    -1          0 a stealthy, shadowy pickpocket
+
+E 1  6100     3    16   0   100    60    59          0 a sturdy, steel dagger
+
+M 0  6116     3  6195   2   100    61    -1          0 a middle-aged acolyte in white robes
+
+M 0  6116     3  6197   2   100    62    -1          0 a middle-aged acolyte in white robes
+
+M 0  6116     3  6196   2   100    63    -1          0 a middle-aged acolyte in white robes
+
+E 1  6135     3    12   0    70    64    63          0 a fine silk embroidered cape
+
+M 0  6117     1  6187   1   100    65    -1          0 a gruff, grizzled armorer
+
+G 1  6128   900     0   0   100    66    65          0 a pair of splint mail leggings
+
+G 1  6127   900     0   0   100    67    65          0 a pair of spiked gauntlets
+
+G 1  6126   900     0   0   100    68    65          0 a sturdy pair of bronze brassarts
+
+G 1  6125   900     0   0   100    69    65          0 a bronzen shirt of chainmail
+
+G 1  6116   900     0   0   100    70    65          0 an ordinary shirt of chainmail
+
+M 0  6118     1  6188   1   100    71    -1          0 a hardy, stout weaponsmith
+
+G 1  6124   900     0   0   100    72    71          0 a long handled bronze warhammer
+
+G 1  6123   900     0   0   100    73    71          0 a shoddy iron dagger
+
+G 1  6122   900     0   0   100    74    71          0 a shiny steel shortsword
+
+G 1  6121   900     0   0   100    75    71          0 an ordinary steel broadsword
+
+G 1  6100   900     0   0   100    76    71          0 a sturdy, steel dagger
+
+M 0  6119     1  6189   1   100    77    -1          0 a jovial, middle-aged fellow
+
+G 1  6132   900     0   0   100    78    77          0 a clay jug
+
+G 1  6131   900     0   0   100    79    77          0 a loaf of raisin bread
+
+G 1  6130   900     0   0   100    80    77          0 a wheel of cheese
+
+G 1  6129   900     0   0   100    81    77          0 a roasted pheasant
+
+O 0  6120     1  6156   0   100    82    -1          0 a beautiful bronze fountain in the shape of a griffon
+
+D 0  6168     3     1   0   101    83    -10 
+
+S
+$

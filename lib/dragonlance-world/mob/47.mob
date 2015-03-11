@@ -1,0 +1,81 @@
+#4700
+keeper lost souls~
+the Keeper of Lost Souls~
+The Keeper of Lost Souls tries to make sure you stay here.
+~
+   A huge skeleton covered in a black and yellow cloak gazes at you with
+flaming red eyes.  He will not let anyone pass him without killing him first.
+~
+d 0 0 0 k 0 0 0 -500
+35 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4701
+spectre white~
+a white spectre~
+A white spectre lunges at you.
+~
+   The translucent body of this foul creature moves around with a hissing
+noise.  Cold white smoke follows it slowly.    
+~
+d 0 0 0 k 0 0 0 -500
+20 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The stench coming from this walking piece of rotting flesh, doesn't leave
+The statue of Chemosh, lord of death, is waiting for your soul.
+Two red flames, where his eye-sockets should be, are the only visible things
+This poor soul was claimed by Chemosh and now walks the dark corridors of
+The guardian of the temple of Chemosh examines you carefully.
+#4711
+test mob~
+a test mob~
+a test mob
+~
+a test mob
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

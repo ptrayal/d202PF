@@ -1,0 +1,178 @@
+#97
+None.~
+Sanction Palace~
+9700 9799 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0  9705     2     1   0   101     1    -10 
+
+M 0  9701     8  9706   2    50     2    -1          0 a dark worshipper
+
+D 0  9706     1     1   0   101     3    -10 
+
+D 0  9706     0     1   0   101     4    -10 
+
+D 0  9710     3     1   0   101     5    -10 
+
+M 0  9702     8  9715   2    50     6    -1          0 a devoted warrior
+
+D 0  9715     3     1   0   101     7    -10 
+
+D 0  9715     0     1   0   101     8    -10 
+
+D 0  9714     1     1   0   101     9    -10 
+
+D 0  9720     2     1   0   101    10    -10 
+
+M 0  9703     8  9724   2    50    11    -1          0 an armored dragonarmy soldier
+
+E 1  9712     8     5   0    30    12    11          0 a hardened, crimson leather breastplate
+
+D 0  9724     2     1   0   101    13    -10 
+
+D 0  9724     3     1   0   101    14    -10 
+
+D 0  9738     0     1   0   101    15    -10 
+
+D 0  9728     1     1   0   101    16    -10 
+
+M 0  9710     1  9733   1   100    17    -1          0 a shady elven messenger
+
+D 0  9733     0     1   0   101    18    -10 
+
+M 0  9706     1  9732   1    10    19    -1          0 a woman of immense beauty
+
+E 1  9701     2    17   0    50    20    19          0 a vanity mirror
+
+M 0  9705     8  9732   2    50    21    -1          0 an ebony robed wizard
+
+E 1  9713     8     5   0    30    22    21          0 a heavy, black velvet robe
+
+D 0  9732     1     1   0   101    23    -10 
+
+D 0  9732     2     1   0   101    24    -10 
+
+M 0  9707     6  9731   1   100    25    -1          0 a palace servant
+
+D 0  9731     3     1   0   101    26    -10 
+
+D 0  9779     2     2   0   101    27    -10 
+
+D 0  9783     0     2   0   101    28    -10 
+
+M 0  9707     6  9711   1   100    29    -1          0 a palace servant
+
+D 0  9711     0     2   0   101    30    -10 
+
+D 0  9719     2     2   0   101    31    -10 
+
+M 0  9700     2  9700   1   100    32    -1          0 a black dragonarmy guard
+
+E 1  9706     1    17   0    25    33    32          0 a swift parrying dagger
+
+M 0  9700     2  9735   1   100    34    -1          0 a black dragonarmy guard
+
+G 1  1224     5     0   0    20    35    34          0 a shiny, reflective parchment
+
+M 0  9711     1  9707   1    10    36    -1          0 the high priestess of Takhisis
+
+E 1  9700     2     4   0    10    37    36          0 an etched clasp marked with an ebony crescent
+
+E 1  9700     2     3   0    10    38    36          0 an etched clasp marked with an ebony crescent
+
+M 0  9701     8  9709   2    50    39    -1          0 a dark worshipper
+
+E 1  9711    10    14   0    30    40    39          0 a black and crimson metal wristguard
+
+M 0  9701     8  9708   2    50    41    -1          0 a dark worshipper
+
+E 1  9711    10    14   0    30    42    41          0 a black and crimson metal wristguard
+
+M 0  9714     1  9717   1    10    43    -1          0 a favored warrior
+
+E 1  9703     1    16   0    25    44    43          0 a black flag-tipped lance
+
+M 0  9702     8  9717   2    50    45    -1          0 a devoted warrior
+
+M 0  9702     8  9718   2    50    46    -1          0 a devoted warrior
+
+M 0  9702     8  9716   2    50    47    -1          0 a devoted warrior
+
+M 0  9703     8  9739   2    50    48    -1          0 an armored dragonarmy soldier
+
+M 0  9703     8  9741   2    50    49    -1          0 an armored dragonarmy soldier
+
+G 1  1229     3     0   0    30    50    49          0 a scroll covered in closed eyes
+
+G 1  1219     2     0   0    15    51    49          0 a scrollcase with an emblem of a magnifying glass
+
+M 0  9704     1  9740   1    10    52    -1          0 an armored dragonarmy soldier
+
+E 1  9702     1     9   0    50    53    52          0 a pair of deep black gauntlets
+
+M 0  9703     8  9740   2    50    54    -1          0 an armored dragonarmy soldier
+
+M 0  9705     8  9742   2    50    55    -1          0 an ebony robed wizard
+
+M 0  9705     8  9744   2    50    56    -1          0 an ebony robed wizard
+
+E 1  9715     8    16   0    30    57    56          0 a thin, gem-lined dagger
+
+M 0  9705     8  9743   2    50    58    -1          0 an ebony robed wizard
+
+M 0  9707     6  9737   1   100    59    -1          0 a palace servant
+
+M 0  9707     6  9721   1   100    60    -1          0 a palace servant
+
+M 0  9708     1  9712   1   100    61    -1          0 the palace butler
+
+M 0  9709     8  9784   2   100    62    -1          0 a guard on patrol
+
+E 1  9714     8    16   0    15    63    62          0 a blunt, stone-headed wooden cudgel
+
+M 0  9709     8  9785   2   100    64    -1          0 a guard on patrol
+
+E 1  9714     8    16   0    15    65    64          0 a blunt, stone-headed wooden cudgel
+
+M 0  9709     8  9786   2   100    66    -1          0 a guard on patrol
+
+E 1  9714     8    16   0    15    67    66          0 a blunt, stone-headed wooden cudgel
+
+M 0  9709     8  9787   2   100    68    -1          0 a guard on patrol
+
+M 0  9709     8  9729   2   100    69    -1          0 a guard on patrol
+
+M 0  9709     8  9736   2   100    70    -1          0 a guard on patrol
+
+M 0  9715     4  9760   1   100    71    -1          0 an accurate crossbow wielding marksman
+
+M 0  9715     4  9761   1   100    72    -1          0 an accurate crossbow wielding marksman
+
+M 0  9715     4  9762   1   100    73    -1          0 an accurate crossbow wielding marksman
+
+E 1  9704     2    12   0    50    74    73          0 a full-sized bolt case
+
+M 0  9715     4  9763   1   100    75    -1          0 an accurate crossbow wielding marksman
+
+M 0  9716     3  9755   1   100    76    -1          0 an archway lookout
+
+M 0  9716     3  9753   1   100    77    -1          0 an archway lookout
+
+E 1  9705     3     8   0    35    78    77          0 a pair of soft toed boots
+
+M 0  9716     3  9751   1   100    79    -1          0 an archway lookout
+
+M 0  9718     1  9788   1   100    80    -1          0 Hopsloth the Seadragon
+
+E 1  9707     1     5   0    15    81    80          0 the encrusted hide of Hopsloth
+
+O 0  9710     1  9789   0   100    82    -1          0 a throne
+
+M 0  9719     1  9789   1   100    83    -1          0 the highlords personal bodyguard
+
+E 1  9709     1    11   0    10    84    83          0 a spike encrusted tower shield
+
+S
+$

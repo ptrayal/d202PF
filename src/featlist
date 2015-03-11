@@ -1,0 +1,197 @@
+  switch (featnum) {
+  case FEAT_GREAT_FORTITUDE:
+    SET_FEAT(ch, feat_num, 1);
+    GET_SAVE_MOD(ch, SAVING_FORTITUDE) += 2;
+    break;
+  case FEAT_IRON_WILL:
+    SET_FEAT(ch, feat_num, 1);
+    GET_SAVE_MOD(ch, SAVING_WILL) += 2;
+    break;
+  case FEAT_LIGHTNING_REFLEXES:
+    SET_FEAT(ch, feat_num, 1);
+    GET_SAVE_MOD(ch, SAVING_REFLEX) += 2;
+    break;
+  case FEAT_TOUGHNESS:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    GET_MAX_HIT(ch) += GET_LEVEL(ch);
+    break;
+  case FEAT_ENDURANCE:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    GET_MAX_MOVE(ch) += GET_LEVEL(ch) * 10;
+    break;
+  case FEAT_EXTRA_RAGE:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    break;
+  case FEAT_SPELL_MASTERY:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    GET_SPELL_MASTERY_POINTS(ch) += MAX(1, ability_mod_value(GET_INT(ch)));
+    break;
+  case FEAT_ACROBATIC:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
+    SET_SKILL_BONUS(ch, SKILL_TUMBLE, GET_SKILL_BONUS(ch, SKILL_TUMBLE) + 2);
+    break;
+  case FEAT_AGILE:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_BALANCE, GET_SKILL_BONUS(ch, SKILL_BALANCE) + 2);
+    SET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST, GET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST) + 2);
+    break;
+  case FEAT_ALERTNESS:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_LISTEN, GET_SKILL_BONUS(ch, SKILL_LISTEN) + 2);
+    SET_SKILL_BONUS(ch, SKILL_SPOT, GET_SKILL_BONUS(ch, SKILL_SPOT) + 2);
+    break;
+  case FEAT_ANIMAL_AFFINITY:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL, GET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL) + 2);
+    SET_SKILL_BONUS(ch, SKILL_RIDE, GET_SKILL_BONUS(ch, SKILL_RIDE) + 2);
+    break;
+  case FEAT_ATHLETIC:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
+    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
+    break;
+  case FEAT_DECEITFUL:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_DISGUISE, GET_SKILL_BONUS(ch, SKILL_DISGUISE) + 2);
+    SET_SKILL_BONUS(ch, SKILL_FORGERY, GET_SKILL_BONUS(ch, SKILL_FORGERY) + 2);
+    break;
+  case FEAT_DEFT_HANDS:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
+    SET_SKILL_BONUS(ch, SKILL_USE_ROPE, GET_SKILL_BONUS(ch, SKILL_USE_ROPE) + 2);
+    break;
+  case FEAT_DILIGENT:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_APPRAISE, GET_SKILL_BONUS(ch, SKILL_APPRAISE) + 2);
+    SET_SKILL_BONUS(ch, SKILL_DECIPHER_SCRIPT, GET_SKILL_BONUS(ch, SKILL_DECIPHER_SCRIPT) + 2);
+    break;
+  case FEAT_INVESTIGATOR:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_GATHER_INFORMATION, GET_SKILL_BONUS(ch, SKILL_GATHER_INFORMATION) + 2);
+    SET_SKILL_BONUS(ch, SKILL_SEARCH, GET_SKILL_BONUS(ch, SKILL_SEARCH) + 2);
+    break;
+  case FEAT_MAGICAL_APTITUDE:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_SPELLCRAFT, GET_SKILL_BONUS(ch, SKILL_SPELLCRAFT) + 2);
+    SET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE, GET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE) + 2);
+    break;
+  case FEAT_NEGOTIATOR:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_DIPLOMACY, GET_SKILL_BONUS(ch, SKILL_DIPLOMACY) + 2);
+    SET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE, GET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE) + 2);
+    break;
+  case FEAT_NIMBLE_FINGERS:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE, GET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE) + 2);
+    SET_SKILL_BONUS(ch, SKILL_OPEN_LOCK, GET_SKILL_BONUS(ch, SKILL_OPEN_LOCK) + 2);
+    break;
+  case FEAT_PERSUASIVE:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_BLUFF, GET_SKILL_BONUS(ch, SKILL_BLUFF) + 2);
+    SET_SKILL_BONUS(ch, SKILL_INTIMIDATE, GET_SKILL_BONUS(ch, SKILL_INTIMIDATE) + 2);
+    break;
+  case FEAT_SELF_SUFFICIENT:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_HEAL, GET_SKILL_BONUS(ch, SKILL_HEAL) + 2);
+    SET_SKILL_BONUS(ch, SKILL_SURVIVAL, GET_SKILL_BONUS(ch, SKILL_SURVIVAL) + 2);
+    break;
+  case FEAT_STEALTHY:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    SET_SKILL_BONUS(ch, SKILL_HIDE, GET_SKILL_BONUS(ch, SKILL_HIDE) + 2);
+    SET_SKILL_BONUS(ch, SKILL_MOVE_SILENTLY, GET_SKILL_BONUS(ch, SKILL_MOVE_SILENTLY) + 2);
+    break;
+  case FEAT_DAMAGE_REDUCTION:
+    if (ch->damage_reduction_feats == 5) {
+      if (manual) send_to_char(ch, "You can only take the damage reduction feat 5 times.\r\n");
+      return 0;
+    }
+    ch->damage_reduction_feats++;
+    subval = HAS_FEAT(ch, feat_num) + 3;
+    SET_FEAT(ch, feat_num, subval);
+    for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
+      if (reduct->feat == FEAT_DAMAGE_REDUCTION) {
+        REMOVE_FROM_LIST(reduct, ch->damreduct, next);
+      }
+    }
+    CREATE(dptr, struct damreduct_type, 1);
+    dptr->next = ch->damreduct;
+    ch->damreduct = dptr;
+    dptr->spell = 0;
+    dptr->feat = FEAT_DAMAGE_REDUCTION;
+    dptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION);
+    dptr->duration = -1;
+    dptr->max_damage = -1;
+    for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
+      dptr->damstyle[q] = dptr->damstyleval[q] = 0;
+    dptr->damstyle[0] = DR_NONE;
+    break;
+  case FEAT_FAST_HEALING:
+    if (ch->fast_healing_feats == 5) {
+      if (manual) send_to_char(ch, "You can only take the fast healing feat 5 times.\r\n");
+      return 0;
+    }
+    ch->fast_healing_feats++;
+    break;
+  case FEAT_ARMOR_SKIN:
+    if (ch->armor_skin_feats == 5) {
+      if (manual) send_to_char(ch, "You can only take the armor skin feat 5 times.\r\n");
+      return 0;
+    }
+    ch->armor_skin_feats++;
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    break;
+  case FEAT_GREAT_STRENGTH:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    ch->real_abils.str++;
+    break;
+  case FEAT_GREAT_DEXTERITY:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    ch->real_abils.dex++;
+    break;
+  case FEAT_GREAT_CONSTITUTION:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    ch->real_abils.con++;
+    break;
+  case FEAT_GREAT_INTELLIGENCE:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    ch->real_abils.intel++;
+    break;
+  case FEAT_GREAT_WISDOM:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    ch->real_abils.wis++;
+    break;
+  case FEAT_GREAT_CHARISMA:
+    subval = HAS_FEAT(ch, feat_num) + 1;
+    SET_FEAT(ch, feat_num, subval);
+    ch->real_abils.cha++;
+    break;
+  default:
+    SET_FEAT(ch, feat_num, HAS_FEAT(ch, feat_num) + 1);
+    break;
+  }

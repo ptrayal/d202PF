@@ -1,0 +1,54 @@
+#30
+None.~
+The Road South of Solace~
+3000 3099 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  3001     1  3020   1   100     0    -1          0 a stout fisherman
+
+E 1  3001    15    16   0    40     1     0          0 a small fishing knife
+
+M 0  3002     1  3007   1   100     2    -1          0 a childlike kender
+
+E 1  3002    15    16   0    50     3     2          0 a hoopak with a bright green feather
+
+M 0  3003     1  3029   1   100     4    -1          0 a cloaked, weary traveller
+
+E 1  3003    10    16   0    20     5     4          0 a long bow with a nocked arrow
+
+M 0  3005     1  3040   1   100     6    -1          0 an older barbarian warrior
+
+M 0  3004     1  3040   1   100     7    -1          0 a stern plains barbarian
+
+E 1  3004    15     5   0    50     8     7          0 a deer hide tunic
+
+M 0  3006     1  3048   1   100     9    -1          0 a peaceful, frail deer
+
+M 0  3007     4  3055   2   100    10    -1          0 an agile elven scout
+
+E 1  3005    15    16   0    50    11    10          0 an elven short bow with an arrow nocked
+
+M 0  3007     4  3055   2   100    12    -1          0 an agile elven scout
+
+E 1  3005    15    16   0    50    13    12          0 an elven short bow with an arrow nocked
+
+M 0  3007     4  3058   2   100    14    -1          0 an agile elven scout
+
+E 1  3005    15    16   0    50    15    14          0 an elven short bow with an arrow nocked
+
+M 0  3007     4  3058   2   100    16    -1          0 an agile elven scout
+
+E 1  3005    15    16   0    50    17    16          0 an elven short bow with an arrow nocked
+
+M 0  3008     2  3098   2   100    18    -1          0 a mean looking dwarven gateguard
+
+M 0  3008     2  3098   2   100    19    -1          0 a mean looking dwarven gateguard
+
+D 0  3098     2     2   0   101    20    -10 
+
+D 0  3099     0     1   0   101    21    -10 
+
+S
+$

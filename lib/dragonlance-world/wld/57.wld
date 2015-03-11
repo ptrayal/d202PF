@@ -1,0 +1,1383 @@
+#5700
+The Unholy Tomb of Darkonon~
+   This chamber is buried deep within the black soil of the graveyard.  The
+walls are made of polished obsidian that absorb even the brightest of lights.
+The vaulted ceiling is void of any design, texture or depth.  The actual height
+is indeterminable.  In the center of the room a deep crimson stoned altar
+rests.  This alter sits upon hundreds of elven skulls.  Resting on top of this
+alter, shrouded in black silk, the unholy body of Darkonon lies.    
+~
+57 adgr 0 0 0 5
+D4
+~
+~
+0 0 5701 0 0 0 0 0 0 0 0
+S
+#5701
+A Great Hall Within the Catacombs~
+   The cavern reaches a great distance to the north.  Small banners hang from
+the ceiling.  The decorations bear family crests, clan emblems, and strange
+symbols from generations past.  The eastern wall has three shelves carved deep
+inside the rock.  The corpses, and remains of ancient citizens rest for all
+eternity within these halls.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 5702 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5711 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5702
+A Great Hall Within the Catacombs~
+   An almost living slime covers the eastern walls in this portion of the hall.
+The once bright colored banners that hang from the ceiling are tattered and
+slick with slime.  The eastern wall has three shelves carved deep inside the
+eastern wall.  Inside these shelves hundreds of thousands of bones lay in their
+final resting place.  Skulls and decomposing fabrics can be seen throughout the
+piles of remains.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 5703 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5701 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5712 0 0 0 0 0 0 0 0
+S
+#5703
+A Great Hall Within the Catacombs~
+   The cavern reaches a great distance to the south.  Small banners hang from
+the ceiling.  The decorations bear family crests, clan emblems, and strange
+symbols.  These flags hang as limply as the dead contained withing these
+catacombs.  The eastern wall has three shelves carved deep inside the dull,
+grey rock.  Inside these shelves hundreds thousands of bones rest for eternity.
+Skulls, large bones, and ribcages can be seen throughout the piles and piles of
+remains.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 5704 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5702 0 0 0 0 0 0 0 0
+S
+#5704
+The Catacombs of Palanthas~
+   The passageway narrows considerably here.  The edges of the stone where the
+walkway was carved out are rough and jagged.  The way to the south opens up
+much wider than this section.  The ceiling is low and uneven.  It looks as
+though this passage was carved by a novice mason.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5703 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5714 0 0 0 0 0 0 0 0
+S
+#5705
+The Cavern of the Dead~
+   This portion of the catacombs opens into a large chamber.  The ceiling here
+is decorated with archaic symbols painted in a crimson paint.  Hanging from
+hooks on the stone cavern walls, bodies decorated in ceremonial garb of priests
+of Paladine.  Magnificent, once white robes, now are drab and ratty from the
+passing ages.  The eyelids of one priest have decomposed leaving dried,
+shriveled eyes that peer out with a blank stare.  Some markings near the floor
+read, 'Six priestly corpses hang.  Songs of light, they once sang.  '
+~
+57 a h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5715 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5714 0 0 0 0 0 0 0 0
+S
+#5706
+Inside the Tomb of Golodan the Magnificent~
+   The air is dry and slightly chilly.  The green marble floor of this tomb is
+decorated with a simple geometric design.  A white vaulted ceiling reaches high
+above.  A splendid fresco is displayed on the large ceiling.  The fresco
+depicts an enormous tower nestled between two mountain ranges.  An army stands
+before the tower waiting for battle.  Poised throughout the towers battlements
+hundreds of knights look down upon the army below.    
+~
+57 a h 0 0 0
+D0
+~
+~
+0 0 5707 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 5716 0 0 0 0 0 0 0 0
+S
+#5707
+The Burial Chamber of Golodan the Magnificent~
+   The green marble floor rises to form three steps in the center of this room.
+Upon this raised platform a white marble table rests.  Carved into the stone
+are symbols of the Knights of Solamnia.  A large sword is carved into the top
+of this table.  The ceiling in this room shows a skyscape, clouds and a setting
+sun.  Flying through the clouds is an enormous platinum dragon.  The dragon
+seems to be guarding this tomb by circling the heavens always keeping an eye on
+this place.    
+~
+57 a h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5706 0 0 0 0 0 0 0 0
+S
+#5708
+A Stone Walkway~
+   This small, well traveled, stone walkway leads to a tall iron gate.  In
+large letters above the gate, Palanthas Graveyards can be read.  Sculpted from
+iron and leafed in gold, ivy decorations adorn the gate.  The black iron and
+gold create a beautiful, yet simple entrance to the graveyard.  This graveyard
+has been in use prior to four hundred years before the cataclysm.  The walkway
+is well groomed with lovely floral arrangements and other assorted greenery.  
+~
+57 c h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2250 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5756 0 0 0 0 0 0 0 0
+S
+#5709
+The Shady Path~
+   The path leads through a large grouping of oak trees.  Some of the larger
+branches hang down almost as low as the path.  The thick trunks and massive
+branches shade most of the light from reaching through the trees.  This section
+of the graveyard is less kept up.  More often than near the hill, the grass
+isn't groomed as well.  Weeds and undesirable mushrooms pollute the previously
+manicured grounds.  A few large mounds covered in grass give evidence of mass
+burials.    
+~
+57 c h 0 0 2
+D0
+~
+~
+0 0 5710 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5719 0 0 0 0 0 0 0 0
+S
+#5710
+A Row of Gravestones~
+   Along the walkway, rows of gravestones can be seen.  There are a few large
+plots dedicated to entire generations of families.  A dull, yellowish-brown
+obelisk stands over eight feet tall in the northeast corner.  There are even
+old plaques made of brass, with faint scribbly marks representing dates and
+names.  The leaves of a nearby oak rustle loudly in the brisk breeze.    
+~
+57 0 h 0 0 2
+D2
+~
+~
+0 0 5709 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5720 0 0 0 0 0 0 0 0
+S
+#5711
+A Small Prayer Alcove~
+   This somewhat small alcove was used in ancient times to burn incense for the
+recently deceased.  A dull white, marble altar sits next to the western wall.
+Charred pits carved in the marble altar were used to place piles of incense to
+be burned.  Six large stones peek out in a circular pattern from inside the
+ground.  Archaic Solamnic carvings decorate the stone walls of this chamber.  
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5701 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5712
+A Small Staircase~
+   A small staircase leads down from the west.  The stone steps are covered in
+a slippery lime green slime.  The walls are covered in this same slime mold.  
+In some places the patches of this slime grow so dense, they seem to breath
+with life.  The hallway to the north stretches on for a great distance.  Some
+slimy flower petals lay on the ground.    
+~
+57 ad h 0 0 0
+D0
+~
+boulder~
+1 0 5713 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5702 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5722 0 0 0 0 0 0 0 0
+S
+#5713
+A Burial Chamber~
+   A few large stones cover the walls in this room.  The air is cool and a bit
+stale tasting.  The ceilings are only about six feet tall supported by a few
+wooden beams dug in to the dirt floor.  Inbetween the stone boulders that make
+up portions of the walls, holes are dug in the dirt.  Inside these holes piles
+and piles of bones confirm the burial of hundreds of bodies.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+boulder~
+1 0 5712 0 0 0 0 0 0 0 0
+S
+#5714
+The Catacombs of Palanthas~
+   Large drops fall to a puddle of water in the center of the room.  Dwip,
+Drip, Dwoop.  Dwip, Drip, Dwoop.  The rancid smell of a rotting beast fouls the
+chilly air.  In the northwest corner a large rat decomposes in the dampness of
+the cavern.  More large drops of water fall to the puddle below.  Dwip, Drip,
+Dwoop.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5704 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5724 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5705 0 0 0 0 0 0 0 0
+S
+#5715
+The Cavern of the Dead~
+   Large rocks form the ceiling above.  The walls of the cavern are moist.  
+Mold and mildew cover the moist cavern walls.  A musty, dead air radiates
+within the chamber.  Two rotting torches rest in nitches dug into the stone.  
+The dirt ground is somewhat muddy from all the moisture here.  Within the north
+side of the wall, holes are dug deep in the cavern wall.  Inside these holes
+the skeletal remains from early Palanthians lay.    
+~
+57 a h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5705 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5725 0 0 0 0 0 0 0 0
+S
+#5716
+Before a Small Marble Structure~
+   The path ends before three large steps made of grey streaked marble.  To
+each side of the stairs olive trees grow magnificently beautiful.  A brass door
+without handles or design sits at the top of the stairway.  Two pillars adorn
+the entrance way to the domed tomb.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 5717 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 5706 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5717
+Following the Stone Walkway Through the Graveyards~
+   This part of the path is well manicured and maintained.  The path is made of
+granite stones interlocked together.  The trees grow together far above your
+head.  Branches and leaves wrap together to form a placid tree tunnel.  The
+faint ballad of crickets can be heard throughout the graveyard.  The smell of
+freshly dug dirt wafts through the air for a moment.    
+~
+57 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5716 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5727 0 0 0 0 0 0 0 0
+S
+#5718
+Along the Stone Walkway~
+   The walkway continues to the east and west.  Along the path, tall oak trees
+shade a majority of the path.  A low iron fence keeps visitors from walking in
+the deep green grass that flourishes beneath the massive oaks.  An assortment
+of flowers and statuettes are situated between the fence and the path.  A
+sudden gust of chilly air blows through the trees and an eerie silence fills
+the graveyard.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5728 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5760 0 0 0 0 0 0 0 0
+S
+#5719
+A Deep Pit Filled With Corpses~
+   The foul stench of rotting flesh overwhelms the once fragrant air.  An
+annoying buzz from thousands of breeding flys can be heard from within the pit.
+Looking down to the depths of the large pit reveals forty, or possibly sixty
+bodies pilled on top of each other.  This is where the less wealthy citizens of
+Palanthas are buried.  From the size of this pit it seems that five hundred
+people could be buried within this gruesome hole.    
+~
+57 c h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5709 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5754 0 0 0 0 0 0 0 0
+S
+#5720
+A Small Hill~
+   The stone walkway slowly reaches up towards the peak of a small hill where a
+large mausoleum stands.  Numerous gravestones are placed upon this hill.  A few
+small shrubs and a lone tree decorate this hill.  The strange thing about this
+tree is that it's dead.  The massive branches are barren of life, giving this
+tree a skeletal appearance.    
+~
+57 0 h 0 0 2
+D1
+~
+~
+0 0 5710 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5730 0 0 0 0 0 0 0 0
+S
+#5721
+A Pile of Boulders~
+   The hallway here is piled high with boulders and debris from the ceiling
+collapsing.  The top half of an oaken door can be seen to the west.  Some dirt
+falls from the ceiling.  The air becomes dusty and difficult to breath.    
+~
+57 adi h 0 0 0
+D0
+~
+~
+0 0 5722 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 5731 0 0 0 0 0 0 0 0
+S
+#5722
+A Small Staircase~
+   A small staircase leads down from the south.  The slippery stone steps are
+covered with a slimy green mold.  The walls are covered in the same substance.
+Pools of a raunchy liquid have gathered within cracks on the stairs.  
+Mosquitos and gnats swarm around this room.  Festering larva swim in the murky
+liquid.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5712 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5721 0 0 0 0 0 0 0 0
+S
+#5723
+A Burial Chamber~
+   A few large stones cover the walls in this room.  The air is cool and a bit
+stale tasting.  The ceilings are only about six feet tall supported by a few
+wooden beams dug in to the dirt floor.  Inbetween the stone boulders that make
+up portions of the walls, holes are dug in the dirt.  Inside these holes, piles
+and piles of bones confirm the burial of hundreds of bodies.    
+~
+57 ad h 0 0 0
+D0
+~
+stone~
+1 0 5724 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5724
+An Intersection Within the Catacombs of Palanthas~
+   The cavern splits in three directions here.  The height of this passage
+seems to be decreasing.  The ceiling is low enough to cause an average sized
+human to crouch down a little.  The walls are made of solid granite in this
+area.  It's as if this walkway was carved from a giant boulder.  A suspicious
+looking stone wall stands to the south.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 5725 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5714 0 0 0 0 0 0 0 0
+D2
+~
+stone~
+1 0 5723 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5734 0 0 0 0 0 0 0 0
+S
+#5725
+The Cavern of the Dead~
+   This part of the cavern drops down from the south.  The air within this hall
+drops considerably.  An almost unnatural chillness hangs in the air.  Inside
+the north side of the wall, holes are dug deep within the cavern wall.  Within
+these holes the skeletal remains of the early citizens of Palanthas lay.    
+~
+57 a h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5715 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5724 0 0 0 0 0 0 0 0
+S
+#5726
+Following the Stone Walkway Through the Graveyards~
+   Just past a lone oak tree, a few more gravestones and a large statue in the
+shape of a man can be seen.  The stones on the path are made to fit tightly
+with each other.  Not a single weed can be seen growing from within the
+walkway.  Some of the gravestones show off a few famous Palanthians of ages
+past.  One being Herash I.  Anake, one of the well known bards of his time.  
+There is a statue, a man standing upon a pedestal his arms outstretched towards
+the heavens.  The statue is made of a shiny, highly polished marble.  The flesh
+of the statue seems to glow with life.    
+~
+57 0 h 0 0 0
+D0
+~
+~
+0 0 5727 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5736 0 0 0 0 0 0 0 0
+S
+#5727
+Following the Stone Walkway Through the Graveyards~
+   This part of the path is well manicured and maintained.  The path is made of
+granite stones interlocked together.  Not a single crack can be seen in the
+stone of the path.  The trees grow denser here and the gravestones are fewer
+and far between.  A dual set of cherry trees have twisted together to form a
+chaotic spiral for a trunk.  Off in the distance, to the east a stone structure
+can be seen.    
+~
+57 0 h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5717 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5726 0 0 0 0 0 0 0 0
+S
+#5728
+Along the Stone Walkway~
+   Along the path, tall oak trees shade a majority of the stone path.  A low
+iron fence keeps visitors from walking in the deep, green grass that flourishes
+beneath the massive oaks.  An assortment of flowers and statuettes are situated
+between the fence and the path.  The walkway moves on towards an open grassy
+area to the west that sits below an ancient weeping willow tree.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5718 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5738 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5739 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5737 0 0 0 0 0 0 0 0
+S
+#5729
+Inside the Mausoleum~
+   The stagnant odor of mold and slime overwhelm the air in this room.  Inside
+this mausoleum the walls are made of a polished obsidian that seems to absorb
+even the brightest of lights.  The vaulted ceiling is void of any design or
+texture.  Four white columns of brightly polished marble reach up to the
+chambers ceiling.  Inside the columns, a white altar streaked with greys and
+blues.  Upon the altar, the skeleton of a man dressed in full plate armor
+rests.  His arms lay crossed about his chest while clutching an ancient sword.
+~
+57 a h 0 0 0
+D0
+~
+door~
+1 0 5730 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5730
+Atop a Small Hill~
+   Upon the crest of this small hill, a nice view of the graveyard can be seen
+to the east and west.  The view to the south is blocked by a mausoleum made of
+a brilliant white marble.  A large iron gate bars the entrance to the
+mausoleum.  The front is decorated with four fluted columns and two marble
+pedestals.  Surrounding this structure are some statuettes that mark the graves
+of some of the more wealthy Palanthians of times past.  A few smaller
+gravestones surround the statuettes.  A strange silence can be heard once again
+as the wind dies down.    
+~
+57 0 h 0 0 2
+D1
+~
+~
+0 0 5720 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 5729 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5740 0 0 0 0 0 0 0 0
+S
+#5731
+A Musty Storage Room~
+   The ceiling has a multitude of large roots hanging down.  A few old brooms
+and a couple of tools hang from the southern wall.  A pickaxe, a few
+differently shaped shovels, and a variety of stone cutting tools lay about the
+room.  An awful musty stench fills the air.  Some of the larger roots reach
+directly into a few puddles that are on the ground.    
+~
+57 ad h 0 0 0
+D0
+~
+door~
+1 0 5732 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 5721 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5732
+A Small Passageway~
+   The hallway turns without much room here.  The walls are made of large gray
+stones.  Pictures, names, and other graffiti are scratched in the rock.  The
+floor is made of loose dirt, it's almost like sand.  A couple of holes are
+carved in the rock, to the north.  Inside these holes a few skeletal remains
+rest.  A skull with partially decayed eyes peers out from within the cubby
+hole.    
+~
+57 adi h 0 0 0
+D0
+~
+~
+0 0 5733 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 5731 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5741 0 0 0 0 0 0 0 0
+S
+#5733
+A Dingy Hallway~
+   This small hallway is lined with trash.  There are broken tools and leftover
+bones along with an assortment of other junk scattered about.  Dusty cobwebs
+hang from the wooden beams that support the ceiling above.  Awful smells drift
+through the stagnant air.  The passage walls radiate the cold from within the
+ground.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5732 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 5743 0 0 0 0 0 0 0 0
+S
+#5734
+The Catacombs of Palanthas~
+   The walls are lined with fist sized stones stacked neatly together.  As you
+walk through this long hall dirt begins to drift though the air.  This hall is
+barely wide enough for two people to walk through side by side.  Every so often
+within the stones a skull can be seen staring blankly into the darkness.  A
+large bone or two has been placed within these rocks as well.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5724 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 5744 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5745 0 0 0 0 0 0 0 0
+S
+#5735
+A Large Circular Chamber~
+   This room is a large circular chamber lined in white stones.  A small marble
+altar sits in the center of this room.  Three large logs support the ceiling.
+This room may have been used for prayer or as a memorial place for the recently
+deceased.  The ground is made of dirt that was packed down through the ages.  
+~
+57 d h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5745 0 0 0 0 0 0 0 0
+S
+#5736
+Following the Stone Walkway Through the Graveyards~
+   The large white stones that make up the path leading through the graveyards
+are new in appearance.  The stones seem as if they were recently replaced
+compared to the other older stones on the path before.  Large groups of
+gravestones are well placed and organized in this part of the graveyard.  The
+gravestones are fairly new, at least from within the past one hundred years.  
+A few names can be read from the stones.  One large stone boasts the name
+Ferrel Steelwaves, a once great Knight of Solamnia.  There is a lone oak that
+seems to be protecting a large stone with the name Elizen carved into the black
+stone.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5726 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5746 0 0 0 0 0 0 0 0
+S
+#5737
+Within the Graveyards of Palanthas~
+   The stone walkway travels beneath the oak trees that seem to be hugging each
+other overhead.  A low iron fence keeps visitors from walking in the plush,
+green grass that grows beneath the oaks.  Flowers and small shrubs decorate the
+paths outer ridge.  This path leads to the majority of burial sights that are
+within these walls.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5747 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5728 0 0 0 0 0 0 0 0
+S
+#5738
+A Grassy Area~
+   This large grassy area sits beneath a large weeping willow tree.  A few
+flowers grow along the outer rim of this grassy area.  The long sweeping
+branches of the tree gently brush against the ground.  A lone bench sits
+nestled in the comforting shade of the massive tree.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5728 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5739
+Within the Graveyards of Palanthas~
+   The stone walkway continues on to the southeast and west.  Along each side
+of the walkway, a row of finely groomed knee-high bushes grow.  Small well worn
+paths lead to a few various grave stones.  The brilliant white from the newer
+grave stones contrast with the older, more decrepit ones from ancient times
+past.  An eerie silence overwhelms the atmosphere.  Not a single bird can be
+heard singing or a leaf rustling in the breeze.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5749 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5728 0 0 0 0 0 0 0 0
+S
+#5740
+A Small Hill~
+   The stone walkway slowly reaches up towards the peak of a small hill where a
+large mausoleum stands.  Numerous gravestones are placed upon this hill.  A few
+small shrubs and a lone tree also decorate this hill.  The strange thing about
+this tree is that, it's dead.  The massive branches are barren of life giving
+this tree a skeletal look.    
+~
+57 0 h 0 0 2
+D1
+~
+~
+0 0 5730 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5750 0 0 0 0 0 0 0 0
+S
+#5741
+A Slippery Mold Covered Rock~
+   A slippery mold covered rock slants downward to the chamber below.  Water is
+dripping from the ceiling on to the mold covered rock.  It is difficult to see
+into the darkness below.    
+~
+57 adq h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5742 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5732 0 0 0 0 0 0 0 0
+S
+#5742
+A Waist-Deep Puddle~
+   A waist-deep puddle collects in the bottom of this cavern.  A boulder sticks
+out from within the depths of the murky water.  The foul smell of rotting
+animal flesh combined with pungent molds floats through the air in this
+chamber.  The boulder in this room is covered with piles of rat droppings.    
+~
+57 acdg h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5741 0 0 0 0 0 0 0 0
+D5
+Searching through the murkey waters you find a rusted ring.
+~
+hatch~
+1 0 2390 0 0 0 0 0 0 0 0
+E
+down hatch~
+You see nothing special.
+~
+S
+#5743
+A Burial Chamber~
+   A few large stones cover the walls in this room.  The air is cool and a bit
+stale tasting.  The ceiling is only about six feet tall supported by a few
+wooden beams dug in to the dirt floor.  Inbetween the stone boulders that make
+up portions of the walls, holes are dug in the dirt.  Inside these holes, piles
+and piles of bones confirm the burial of hundreds of bodies.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 5733 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5744
+A Burial Chamber~
+   A few large stones cover the walls in this room.  The air is cool and a bit
+stale tasting.  The ceiling is only about six feet tall supported by a few
+wooden beams dug in to the dirt floor.  Inbetween the stone boulders that make
+up portions of the walls, holes are dug in the dirt.  Inside these holes, piles
+and piles of bones confirm the burial of hundreds of bodies.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 5734 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#5745
+The Catacombs of Palanthas~
+   The large stone that served as the entranceway to the catacombs now forms
+the stairs that reach deep within the ground.  The air is alot cooler than it
+was outside this chamber.  The ceilings are only about six feet tall.  The
+walls are lined with rocks stacked on top of each other.  The ceiling every so
+often will have a large wooden beam holding up the dirt.  A few symbols are
+painted on the large smooth rocks.  In solamnic, the phrase 'honor our
+ancestors' is painted on a rock.  There is not much of an odor of any kind down
+here.  The most notable aspect is the chilly air within the catacombs.    
+~
+57 ad h 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5735 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5746 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5734 0 0 0 0 0 0 0 0
+S
+#5746
+The Entrance to the Catacombs~
+   A large greyish, black rock reaches out from the fertile soil of the
+graveyard.  Two columns stand to each side of a short opening in the rock.  On
+top of the columns a relief carving portrays hundreds of skulls stacked on top
+of each other.  The stone walkway continues on to the east past the large rock.
+A cool draft creeps up, out from the depths of the cavern that is carved from
+the rock.    
+~
+57 c h 0 0 2
+D0
+~
+~
+0 0 5747 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5736 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5745 0 0 0 0 0 0 0 0
+S
+#5747
+Following the Stone Walkway~
+   Along the stone path rows of gravestones reach up from the lush ground.  
+Like skeletal fingers a row of four identical cylinder shaped stones rise from
+the graveyard.  A bushy tree with large fan leaves grows against the graveyard
+wall that stands to the west.  Ivy flourishes on the western wall of the
+graveyard.  Large roots reach into cracks that have formed within the rock
+wall.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5737 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5746 0 0 0 0 0 0 0 0
+S
+#5748
+Inside the Massive Willow~
+   The inside of this large willow tree has been hollowed out.  The willow has
+become a quaint home for someone.  Dried flowers, herbs and a long tapestry
+hang from the walls.  A beautifully painted ladder leads to the loft above.  
+Two carved chairs and a small round table make this humble room complete.    
+~
+57 ad h 0 0 3
+D0
+~
+bark~
+1 5704 5749 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5751 0 0 0 0 0 0 0 0
+S
+#5749
+A Row of Gravestones~
+   Along the stone path rows of gravestones can be seen.  Some of the
+gravestones are made of marble, some of granite.  Each stone has a unique
+design and shape.  One of the stones reads, To my beloved husband, may Paladine
+teach you to clean up after yourself.  On top of another gravestone, a bouquet
+of beautiful, fresh roses lay.  Behind the gravestones to the west, a large
+stone wall forms the outer edge of the graveyards.    
+~
+57 0 h 0 0 2
+D0
+~
+~
+0 0 5750 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5739 0 0 0 0 0 0 0 0
+D2
+~
+bark~
+1 5704 5748 0 0 0 0 0 0 0 0
+S
+#5750
+A Row of Gravestones~
+   Along the stone path, rows of gravestones can be seen.  Nestled deep in the
+corner, a large blue statue of Mishakal has been erected to watch over one of
+her priests from ancient times.  As you glance at a few of the other
+gravestones, a few names seem to catch your eye.  The dates are quite old, some
+date back to five hundred years before the cataclysm.  The stone wall that
+surrounds the graveyards meets here to form the corner.    
+~
+57 0 h 0 0 2
+D1
+~
+~
+0 0 5740 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5749 0 0 0 0 0 0 0 0
+S
+#5751
+A Loft Inside the Massive Willow~
+   This comfortable room is decorated with the necesseties of life.  There is
+an oaken wardrobe carved with flowers against the southern side of the tree.  
+A cozy bed made of straw and grasses resting inside of a wooden frame is to the
+west.  The walls are decorated with dried flowers and large nuts.  The dried
+flowers radiate a most pleasant smell throughout the loft.    
+~
+57 ad h 0 0 3
+D4
+~
+knot~
+1 0 5752 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5748 0 0 0 0 0 0 0 0
+S
+#5752
+Inside the Canopy~
+   The canopy of this massive willow blocks a majority of the light from
+outside the branches.  Splitting off the main trunk of this tree a multitude of
+branches reach out over the graveyard.  To the east, the largest of all these
+branches streches outward.  A calm breeze rustles the thousands of leaves that
+reside among this canopy.  Birds can be heard chirping and singing in the
+temperate air.    
+~
+57 0 h 0 0 3
+D1
+~
+~
+0 0 5753 0 0 0 0 0 0 0 0
+D5
+~
+knot~
+1 0 5751 0 0 0 0 0 0 0 0
+S
+#5753
+Out On a Limb~
+   The canopy of this massive willow extends out to the tip of this large
+branch that slowly sinks towards the ground.  A calm breeze rustles the
+thousands of leaves that provide shelter from the outside world.  In the
+distance, some of the larger sights of Palanthas can be seen.    
+~
+57 0 h 0 0 3
+D3
+~
+~
+0 0 5752 0 0 0 0 0 0 0 0
+S
+#5754
+In a Sea of Bodies~
+   A sickening odor radiates from the corpses that decompose at your feet.  
+The walls of this large hole reach to seven feet from where the corpses level
+out.  Hordes of maggots swim in and out of the rotting flesh.  Eyeballs,
+tongues, and bits of skin are pecked out from ravens and other birds.  The
+overly ripe mass of corpses are enough to make one sick.    
+~
+57 r h 0 0 5
+D4
+~
+~
+0 0 5719 0 0 0 0 0 0 0 0
+S
+#5755
+New BuildWalk Room~
+This unfinished room was created by Majere.
+~
+57 0 0 0 0 0
+D9
+~
+~
+0 0 5708 0 0 0 0 0 0 0 0
+S
+#5756
+Along the Stone Walkway~
+   The walkway continues to the east and west.  Along the path, tall oak trees
+shade a majority of the path.  A low iron fence keeps visitors from walking in
+the deep green grass that flourishes beneath the massive oaks.  An assortment
+of flowers and statuettes are situated between the fence and the path.  A
+sudden gust of chilly air blows through the trees and an eerie silence fills
+the graveyard.    
+~
+57 0 0 0 0 0
+D3
+~
+~
+0 0 5757 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5708 0 0 0 0 0 0 0 0
+S
+#5757
+Along the Stone Walkway~
+   The walkway continues to the east and west.  Along the path, tall oak trees
+shade a majority of the path.  A low iron fence keeps visitors from walking in
+the deep green grass that flourishes beneath the massive oaks.  An assortment
+of flowers and statuettes are situated between the fence and the path.  A
+sudden gust of chilly air blows through the trees and an eerie silence fills
+the graveyard.    
+~
+57 0 0 0 0 0
+D1
+~
+~
+0 0 5756 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5758 0 0 0 0 0 0 0 0
+S
+#5758
+Along the Stone Walkway~
+   The walkway continues to the east and west.  Along the path, tall oak trees
+shade a majority of the path.  A low iron fence keeps visitors from walking in
+the deep green grass that flourishes beneath the massive oaks.  An assortment
+of flowers and statuettes are situated between the fence and the path.  A
+sudden gust of chilly air blows through the trees and an eerie silence fills
+the graveyard.    
+~
+57 0 0 0 0 0
+D1
+~
+~
+0 0 5757 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5759 0 0 0 0 0 0 0 0
+S
+#5759
+Along the Stone Walkway~
+   The walkway continues to the east and west.  Along the path, tall oak trees
+shade a majority of the path.  A low iron fence keeps visitors from walking in
+the deep green grass that flourishes beneath the massive oaks.  An assortment
+of flowers and statuettes are situated between the fence and the path.  A
+sudden gust of chilly air blows through the trees and an eerie silence fills
+the graveyard.    
+~
+57 0 0 0 0 0
+D1
+~
+~
+0 0 5758 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5760 0 0 0 0 0 0 0 0
+S
+#5760
+Along the Stone Walkway~
+   The walkway continues to the east and west.  Along the path, tall oak trees
+shade a majority of the path.  A low iron fence keeps visitors from walking in
+the deep green grass that flourishes beneath the massive oaks.  An assortment
+of flowers and statuettes are situated between the fence and the path.  A
+sudden gust of chilly air blows through the trees and an eerie silence fills
+the graveyard.    
+~
+57 0 0 0 0 0
+D1
+~
+~
+0 0 5759 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5718 0 0 0 0 0 0 0 0
+S
+$~

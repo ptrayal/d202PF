@@ -1,0 +1,1750 @@
+#1900
+Approaching The Kalkist Mountains~
+   This path, covered mostly in grass, begins to travel up into the Kalkist
+Mountains in the northeast.  The road appears to widen a little more as you
+near them, though at this point it's still just a trail.  Numerous different
+kinds of vegetation line the path on either side.    
+~
+19 c 0 0 0  2
+D3
+~
+~
+0 0 499 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1901 0 0 0 0 0 0 0 0
+S
+#1901
+Approaching the Kalkist Mountains~
+   This path, covered mostly in grass, begins to travel up into the Kalkist
+Mountains in the east.  The road appears to widen further along the trail,
+though at this point and time, it's still nothing more than a foot path.  
+Numerous different types of vegetation and plant life surround the path on
+either side.    
+~
+19 0 0 0 0  2
+D1
+~
+~
+0 0 1902 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1900 0 0 0 0 0 0 0 0
+S
+#1902
+Approaching The Kalkist Mountains~
+   This path, covered mostly in grass, begins to travel up into the Kalkist
+Mountains in the northeast.  The road appears to widen a little more as you
+near them, though at this point it's still just a trail.  Numerous different
+kinds of vegetation line the path on either side.    
+~
+19 0 0 0 0  4
+D3
+~
+~
+0 0 1901 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1903 0 0 0 0 0 0 0 0
+S
+#1903
+Traveling The Mountains~
+   The mountain begins to rise into the sky, and the road begins to widen.  
+It's very steep here, as you travel nearly straight up the side of the
+mountain.  Moving off of the road on either side could cause one to plummet to
+a sure death down the rock face of the Kalkist Mountains.  The trail continues
+onward here, through the mountains.    
+~
+19 0 0 0 0  5
+D0
+~
+~
+0 0 1904 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1902 0 0 0 0 0 0 0 0
+S
+#1904
+Traveling The Mountains~
+   The mountain begins to rise into the sky, and the road begins to widen.  
+It's very steep, as you travel nearly straight up the side of this mountain.  
+Moving off the path here would cause one to plummet to a sure death down the
+rocky surface of the Kalkist Mountains.  Vegetation sprouts up in various
+different locations along this mountain.    
+~
+19 0 0 0 0  5
+D2
+~
+~
+0 0 1903 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1907 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1905 0 0 0 0 0 0 0 0
+S
+#1905
+A Less Traveled Path~
+   This path is very rocky, and difficult to travel upon.  It looks as if the
+path may be used from time to time, but the travel upon it is in no way
+consistent.  The trail has mostly grown over, as brush and plant life have
+claimed it.  Towards the east, it looks s if there is an old wagon.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1906 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1904 0 0 0 0 0 0 0 0
+S
+#1906
+small side path, broken wagon goes here~
+   This part of the path is very desolate looking, most of the vegetation in
+this portion is either dying or dead.  The ground has footprints on it, and
+looks as if someone has been here recently.  The smell of a campfire is still
+somewhat fresh.  Before you is a broken down old wagon.    
+~
+19 c 0 0 0  5
+D0
+~
+door_wagon~
+1 0 1917 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1905 0 0 0 0 0 0 0 0
+S
+#1907
+Traveling The Mountains~
+   The mountain begins to rise into the sky, and the road begins to widen.  
+It's very steep, as you travel nearly straight up the side of this mountain.  
+Moving off the path here would cause one to plummet to a sure death down the
+rocky surface of the Kalkist Mountains.  Vegetation sprouts up in various
+different locations along this mountain.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1908 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1904 0 0 0 0 0 0 0 0
+S
+#1908
+Traveling The Mountains~
+   The mountain begins to rise into the sky, and the road begins to widen.  
+It's very steep, as you travel nearly straight up the side of this mountain.  
+Moving off the path here would cause one to plummet to a sure death down the
+rocky surface of the Kalkist Mountains.  Vegetation sprouts up in various
+different locations along this mountain.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1909 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1907 0 0 0 0 0 0 0 0
+S
+#1909
+Traveling The Mountains~
+   The mountain begins to rise into the sky, and the road begins to widen.  
+It's very steep, as you travel nearly straight up the side of this mountain.  
+Moving off the path here would cause one to plummet to a sure death down the
+rocky surface of the Kalkist Mountains.  Vegetation sprouts up in various
+different locations along this mountain.    
+~
+19 0 0 0 0  5
+D3
+~
+~
+0 0 1908 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1910 0 0 0 0 0 0 0 0
+S
+#1910
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 c 0 0 0  5
+D6
+~
+~
+0 0 1909 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1911 0 0 0 0 0 0 0 0
+S
+#1911
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D2
+~
+~
+0 0 1912 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1910 0 0 0 0 0 0 0 0
+S
+#1912
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D0
+~
+~
+0 0 1911 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1913 0 0 0 0 0 0 0 0
+S
+#1913
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D2
+~
+~
+0 0 1914 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1912 0 0 0 0 0 0 0 0
+S
+#1914
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.  Another small path leads off to the
+west, and the main road continues on to the southeast.    
+~
+19 0 0 0 0  5
+D0
+~
+~
+0 0 1913 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1915 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1922 0 0 0 0 0 0 0 0
+S
+#1915
+A Small Path Through The Mountain~
+   This small path twists and turns through the Kalkist Mountains.  The trail
+is a bit grown over, showing signs of little travel.  The ground of the path is
+very rocky and slippery, as moss and wild grass cover most of it's surface.  
+The path continues on to the west, and leads back eastwards to the main road.
+~
+19 0 0 0 0  2
+D1
+~
+~
+0 0 1914 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1916 0 0 0 0 0 0 0 0
+S
+#1916
+A Small Path Through The Mountains~
+   This small path twists and turns through the mountains, and leads off from
+the main road.  It is a bit grown over, which shows signs of little travel.  
+The ground of the path is very rocky and slippery, as moss and wild grass cover
+most of it's furace.  Various different types of vegetation and flowers line
+the path, making it seem very peaceful.    
+~
+19 0 0 0 0  2
+D1
+~
+~
+0 0 1915 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1918 0 0 0 0 0 0 0 0
+S
+#1917
+Within a Broken Wagon~
+   This wagon, though quite old and musty, is very spacious and looks
+comfortable on the inside.  The quality of the wagon when first built was
+probably very good, though it doesn't look exactly stable, or capable now.  
+Some of the boards in the wagon are beginning to bend and twist due to the
+exposure to harsh elements.    
+~
+19 0 0 0 0  2
+D1
+~
+~
+0 0 1921 0 0 0 0 0 0 0 0
+D2
+~
+door_wagon~
+1 0 1906 0 0 0 0 0 0 0 0
+S
+#1918
+A Small Path Through The Mountains~
+   This small path twists and turns through the mountains, and leads off from
+the main road.  It is a bit grown over, which shows signs of little travel.  
+The ground of the path is very rocky and slippery, as moss and wild grass cover
+most of it's furace.  Various different types of vegetation and flowers line
+the path, making it seem very peaceful.    
+~
+19 0 0 0 0  2
+D2
+~
+~
+0 0 1919 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1916 0 0 0 0 0 0 0 0
+S
+#1919
+The Threshold of a Small Cave~
+   The twisting path has lead to this small cave to the southwest.  The cave
+looks very dark within it, making it almost impossible to look inside.  The
+path here is still very rocky and slippery, moss still covering almost the
+whole trail.  The vegetation here is still abundant, and the sound of wildlife
+is present.  A small trickling of water can be heard, though it is very faint.
+~
+19 c 0 0 0  2
+D0
+~
+~
+0 0 1918 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1920 0 0 0 0 0 0 0 0
+S
+#1920
+Within a Small Cave~
+   This cave is dark and damp, it's very small.  Stalagmites stick out
+threateningly.  The floor of the cave is covered in moss, and drops of water
+fall upon your head from the ceiling of the cave.  The ground in here is still
+quite slippery, as the water drops onto the moss, making it difficult for you
+to keep your footing.    
+~
+19 0 0 0 0  2
+D7
+~
+~
+0 0 1919 0 0 0 0 0 0 0 0
+S
+#1921
+Within a Broken Wagon~
+   This wagon, though quite old and musty, is very spacious and looks
+comfortable on the inside.  The quality of the wagon when first built was
+probably very good, though it doesn't look exactly stable, or capable now.  
+Some of the boards in the wagon are beginning to bend and twist due to the
+exposure to harsh elements.    
+~
+19 0 0 0 0  2
+D3
+~
+~
+0 0 1917 0 0 0 0 0 0 0 0
+S
+#1922
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1923 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1914 0 0 0 0 0 0 0 0
+S
+#1923
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1924 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1922 0 0 0 0 0 0 0 0
+S
+#1924
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1925 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1923 0 0 0 0 0 0 0 0
+S
+#1925
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D3
+~
+~
+0 0 1924 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1926 0 0 0 0 0 0 0 0
+S
+#1926
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1927 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1925 0 0 0 0 0 0 0 0
+S
+#1927
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D3
+~
+~
+0 0 1926 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1928 0 0 0 0 0 0 0 0
+S
+#1928
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1929 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1927 0 0 0 0 0 0 0 0
+S
+#1929
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1930 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1928 0 0 0 0 0 0 0 0
+S
+#1930
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D3
+~
+~
+0 0 1929 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1931 0 0 0 0 0 0 0 0
+S
+#1931
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D2
+~
+~
+0 0 1932 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1930 0 0 0 0 0 0 0 0
+S
+#1932
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D0
+~
+~
+0 0 1931 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1933 0 0 0 0 0 0 0 0
+S
+#1933
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D2
+~
+~
+0 0 1934 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1932 0 0 0 0 0 0 0 0
+S
+#1934
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 c 0 0 0  5
+D0
+~
+~
+0 0 1933 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1935 0 0 0 0 0 0 0 0
+S
+#1935
+Traveling The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D0
+~
+~
+0 0 1934 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1936 0 0 0 0 0 0 0 0
+S
+#1936
+A Decline in The Mountains~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 0 0 0 0  5
+D1
+~
+~
+0 0 1937 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1935 0 0 0 0 0 0 0 0
+S
+#1937
+Before a Dark Tunnel~
+   Now traveling through the Kalkist Mountains, the trail has widened a good
+bit into a very easily traveled road, though at some parts of the road, there
+are large cracks in the surface that still cause a threat to your safety.  
+This road does look to be well traveled, and vegetation still covers most of
+the mountain on either side of the road.    
+~
+19 c 0 0 0  5
+D1
+~
+~
+0 0 1938 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1936 0 0 0 0 0 0 0 0
+S
+#1938
+Entering a Tunnel~
+   This tunnel has been dug through the Kalkist Mountains, and whoever dug it
+did quite a job.  Posts and braces line the tunnel walls and ceiling, and the
+floor of the tunnel is quite smooth.  It's very damp in here, water trickles
+down the walls onto the floor, through it's quite easy to travel upon the path.
+~
+19 ad 0 0 0  5
+D1
+~
+~
+0 0 1939 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1937 0 0 0 0 0 0 0 0
+S
+#1939
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  Towards the west,
+the tunnel comes to an end.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1940 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1938 0 0 0 0 0 0 0 0
+S
+#1940
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D3
+~
+~
+0 0 1939 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1941 0 0 0 0 0 0 0 0
+S
+#1941
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1942 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1940 0 0 0 0 0 0 0 0
+S
+#1942
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1943 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1941 0 0 0 0 0 0 0 0
+S
+#1943
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 acd h 0 0  0
+D3
+~
+~
+0 0 1942 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1944 0 0 0 0 0 0 0 0
+S
+#1944
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1945 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1943 0 0 0 0 0 0 0 0
+S
+#1945
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D3
+~
+~
+0 0 1944 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1946 0 0 0 0 0 0 0 0
+S
+#1946
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1947 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1945 0 0 0 0 0 0 0 0
+S
+#1947
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1948 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1946 0 0 0 0 0 0 0 0
+S
+#1948
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 acd h 0 0  0
+D3
+~
+~
+0 0 1947 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1949 0 0 0 0 0 0 0 0
+S
+#1949
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1950 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1948 0 0 0 0 0 0 0 0
+S
+#1950
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D3
+~
+~
+0 0 1949 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1951 0 0 0 0 0 0 0 0
+S
+#1951
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D7
+~
+~
+0 0 1952 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1950 0 0 0 0 0 0 0 0
+S
+#1952
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  There is a loose
+looking boulder to the south.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1953 0 0 0 0 0 0 0 0
+D2
+~
+boulder~
+1 0 1968 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1951 0 0 0 0 0 0 0 0
+S
+#1953
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1954 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1952 0 0 0 0 0 0 0 0
+S
+#1954
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D0
+~
+~
+0 0 1955 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1953 0 0 0 0 0 0 0 0
+S
+#1955
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D2
+~
+~
+0 0 1954 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1956 0 0 0 0 0 0 0 0
+S
+#1956
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1957 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1955 0 0 0 0 0 0 0 0
+S
+#1957
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D3
+~
+~
+0 0 1956 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1958 0 0 0 0 0 0 0 0
+S
+#1958
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1959 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1957 0 0 0 0 0 0 0 0
+S
+#1959
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1960 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1958 0 0 0 0 0 0 0 0
+S
+#1960
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D3
+~
+~
+0 0 1959 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1961 0 0 0 0 0 0 0 0
+S
+#1961
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1962 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1960 0 0 0 0 0 0 0 0
+S
+#1962
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 acd h 0 0  0
+D3
+~
+~
+0 0 1961 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1963 0 0 0 0 0 0 0 0
+S
+#1963
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1964 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1962 0 0 0 0 0 0 0 0
+S
+#1964
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D3
+~
+~
+0 0 1963 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1965 0 0 0 0 0 0 0 0
+S
+#1965
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D1
+~
+~
+0 0 1966 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1964 0 0 0 0 0 0 0 0
+S
+#1966
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ad h 0 0  0
+D3
+~
+~
+0 0 1965 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1967 0 0 0 0 0 0 0 0
+S
+#1967
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  Towards the east,
+the tunnel comes to an end.    
+~
+19 acd h 0 0  0
+D1
+~
+~
+0 0 8800 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1966 0 0 0 0 0 0 0 0
+S
+#1968
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  There is a loose
+looking boulder to the north.    
+~
+19 a h 0 0  0
+D0
+~
+boulder~
+1 0 1952 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1969 0 0 0 0 0 0 0 0
+S
+#1969
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D0
+~
+~
+0 0 1968 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1976 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1970 0 0 0 0 0 0 0 0
+S
+#1970
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D7
+~
+~
+0 0 1969 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1971 0 0 0 0 0 0 0 0
+S
+#1971
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D1
+~
+~
+0 0 1972 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1970 0 0 0 0 0 0 0 0
+S
+#1972
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D1
+~
+~
+0 0 1973 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1971 0 0 0 0 0 0 0 0
+S
+#1973
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D1
+~
+~
+0 0 1974 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1972 0 0 0 0 0 0 0 0
+S
+#1974
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  There are a series
+of loose looking stones below you.    
+~
+19 a h 0 0  0
+D3
+~
+~
+0 0 1973 0 0 0 0 0 0 0 0
+D5
+~
+stones~
+1 0 1977 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1975 0 0 0 0 0 0 0 0
+S
+#1975
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D6
+~
+~
+0 0 1976 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1974 0 0 0 0 0 0 0 0
+S
+#1976
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D3
+~
+~
+0 0 1969 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1975 0 0 0 0 0 0 0 0
+S
+#1977
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  There are a series
+of loose stones above you.    
+~
+19 ac h 0 0  0
+D4
+~
+stones~
+1 0 1974 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1978 0 0 0 0 0 0 0 0
+S
+#1978
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D1
+~
+~
+0 0 1979 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1977 0 0 0 0 0 0 0 0
+S
+#1979
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D3
+~
+~
+0 0 1978 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1980 0 0 0 0 0 0 0 0
+S
+#1980
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D6
+~
+~
+0 0 1979 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1981 0 0 0 0 0 0 0 0
+S
+#1981
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D1
+~
+~
+0 0 1982 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1980 0 0 0 0 0 0 0 0
+S
+#1982
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D1
+~
+~
+0 0 1983 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1981 0 0 0 0 0 0 0 0
+S
+#1983
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D3
+~
+~
+0 0 1982 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1984 0 0 0 0 0 0 0 0
+S
+#1984
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D9
+~
+~
+0 0 1983 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1985 0 0 0 0 0 0 0 0
+S
+#1985
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D1
+~
+~
+0 0 1994 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1984 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1986 0 0 0 0 0 0 0 0
+S
+#1986
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D2
+~
+~
+0 0 1987 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1985 0 0 0 0 0 0 0 0
+S
+#1987
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D0
+~
+~
+0 0 1986 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1988 0 0 0 0 0 0 0 0
+S
+#1988
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ac h 0 0  0
+D3
+~
+~
+0 0 1987 0 0 0 0 0 0 0 0
+D5
+~
+stone~
+1 0 1989 0 0 0 0 0 0 0 0
+S
+#1989
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  There is a door
+here to your southwest.  There is a loose looking stone here above you.    
+~
+19 a h 0 0  0
+D4
+~
+stone~
+1 0 1988 0 0 0 0 0 0 0 0
+D9
+~
+door~
+1 0 1990 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1992 0 0 0 0 0 0 0 0
+S
+#1990
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  There is a large
+door to the northeast of here.    
+~
+19 a h 0 0  0
+D7
+~
+door~
+1 0 1989 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1991 0 0 0 0 0 0 0 0
+S
+#1991
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.  There is a loose
+looking boulder to the north.    
+~
+19 a h 0 0  0
+D0
+~
+boulder~
+1 0 1993 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1990 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1992 0 0 0 0 0 0 0 0
+S
+#1992
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 a h 0 0  0
+D6
+~
+~
+0 0 1989 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1991 0 0 0 0 0 0 0 0
+S
+#1993
+Within A Hollowed Out Room~
+   This room has been formed within the rock itself, chiseled out to
+perfection.  The walls are braced with the same posts and braces that cover the
+rest of the tunnel, and this room is just as dark and dreary as the rest of the
+tunnel.    
+~
+19 a h 0 0  0
+D2
+~
+boulder~
+1 0 1991 0 0 0 0 0 0 0 0
+S
+#1994
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 ac h 0 0  0
+D2
+~
+~
+0 0 1995 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1985 0 0 0 0 0 0 0 0
+S
+#1995
+A Tunnel Through The Mountains~
+   This tunnel has been dug through the Kalkist Mountains, most likely to make
+the travel a little easier for merchants and adventurers alike.  Posts and
+braces line the walls and ceiling of the tunnel for safety purposes.  Water
+trickles down the walls here into small pools on the floor.    
+~
+19 c h 0 0  0
+D0
+~
+~
+0 0 1994 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1996 0 0 0 0 0 0 0 0
+S
+#1996
+Losing Your Footing~
+   As you step into this room after paying the sign no attention, you realize
+you've made a terrible mistake.  You slip on a piece of smooth, wet rock, and
+slide into a dark, hollow passage with great speed.  You try desperately to
+grab onto stones and rocks to prevent your fall, although it only loosens
+boulders that now begin tumbling down the passage behind you.    
+~
+19 cq h 0 0  0
+D3
+~
+~
+0 0 1995 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1997 0 0 0 0 0 0 0 0
+S
+#1997
+Falling Down a Passage~
+   As you begin to fall down this passage, a large, jagged piece of rock that
+is sticking out from the side of the passage rips through your throat, nearly
+decapitating you.  Blood begins to squirt out of your neck like a fountain, and
+although the pain is excruciating, the severing of your neck stops you from
+screaming.  Totally horrified, and dying, you continue to fall.    
+~
+19 bq h 0 0  0
+D5
+~
+~
+0 0 1998 0 0 0 0 0 0 0 0
+S
+#1998
+Falling Down a Passage~
+   Your head is now spinning after having your neck ripped open on the jagged
+rocks.  Blood has completely covered your body, and it's impossible for you to
+breathe.  Total darkness surrounds you, causing you to see nothing but
+blackness.    
+~
+19 q h 0 0  0
+D5
+~
+~
+0 0 1999 0 0 0 0 0 0 0 0
+S
+#1999
+A Very Hard Landing~
+   After your brief fall, you slam into the ground with great force.  Your life
+suddenly flashes before your eyes, you see all of your possessions,
+accomplishments, and deeds swirl before you in a strange, dream-like sense.  
+The fall seemed painless, though you know it will be the death of you.    
+~
+19 r h 0 0  0
+S
+$

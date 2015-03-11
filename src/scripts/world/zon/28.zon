@@ -1,0 +1,22 @@
+#28
+Kelemvor~
+Dragons Lair~
+2800 2999 60 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+1536 2 0 0 0
+D 0 2915 0 1 -1 	(A Hallway of Knights)
+D 1 2915 0 2 -1 	(A Hallway of Knights)
+D 0 2916 2 1 -1 	(An Onyx Passage)
+D 1 2916 2 2 -1 	(An Onyx Passage)
+D 0 2847 2 1 -1 	(Champion's Quarters)
+D 1 2847 2 2 -1 	(Champion's Quarters)
+D 0 2867 0 1 -1 	(Under an Arch)
+D 1 2867 0 2 -1 	(Under an Arch)
+D 0 2814 3 1 -1 	(Into the Darkness)
+D 0 2814 3 2 -1 	(Into the Darkness)
+D 0 2813 1 1 -1 	(An Old Door)
+D 0 2813 1 2 -1 	(An Old Door)
+S
+$

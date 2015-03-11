@@ -1,0 +1,411 @@
+#14700
+Clan Hall Design Room~
+CoW:  14701-14706
+CC :  14707-14710
+DA :  14711-14715
+KoS:  14716-14718
+NB :  14719-14721
+~
+147 0 0 0 0  0
+D0
+~
+~
+0 0 14707 0 0 0 0 0 0 0 0
+D1
+~
+~
+1 0 14701 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14711 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14716 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 14719 0 0 0 0 0 0 0 0
+S
+#14701
+Chamber of Mages~
+   This immense chamber is used as a meeting place for the Conclave of Wizards.
+The ceiling is shrouded in dark shadows.  It looks as if the ceiling extends as
+far as the eye can see.  This chamber is lit by small floating orbs of light.
+Three sets of tables sit at the head of the chamber, each a different color.  
+The heads of each order sits at their respective table during meetings.  The
+rest of the chamber contains numerous benches for lower ranking wizards.  
+Despite the vastness of this chamber, it is quite warm and inviting.    
+~
+147 0 f 0 0  0
+D0
+~
+~
+0 0 14702 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14704 0 0 0 0 0 0 0 0
+D2
+~
+portal~
+2 0 14706 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14703 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 14705 0 0 0 0 0 0 0 0
+S
+#14702
+Library of the Three Moons~
+   Bookshelves line the walls for as far as the eye can see.  Written works
+have been collected from all over Krynn to fill the shelves.  Some of the
+shelves give off an eerie glow, revealing the magical nature of the tomes they
+contain.  Small alcoves can be seen tucked in between the bookcases, offering a
+small study area.    
+~
+147 0 f 0 0  0
+D2
+~
+~
+0 0 14701 0 0 0 0 0 0 0 0
+S
+#14703
+Conclave Notices~
+   A large board fills most of this small room.  The walls are littered with
+notices of upcoming events and seminars.  A desk sits in the corner for
+scribing new notes to be posted.    
+~
+147 0 f 0 0  0
+D1
+~
+~
+0 0 14701 0 0 0 0 0 0 0 0
+S
+#14704
+Meditation Chamber~
+   This small chamber is decorated with the finest rugs in all of Krynn.  A
+small brazier of incense smokes in the corner.  The walls have been enchanted
+to help remove some of the outside noises and distractions.    
+~
+147 u f 0 0  0
+D3
+~
+~
+0 0 14701 0 0 0 0 0 0 0 0
+S
+#14705
+Conjuration Chamber~
+   A very large, detailed pentagram has been carved into the floor of this
+chamber.  This serves as protection from some of the more powerful beings that
+are conjured in this chamber.  The walls are lined with cages of various sizes.
+The cages look to be made of the finest materials and are covered with runes of
+protection.    
+~
+147 0 f 0 0  0
+D8
+~
+~
+0 0 14701 0 0 0 0 0 0 0 0
+S
+#14706
+The Base of an Illuminated Tower~
+   The shine from this tall tower almost forces one to shut their eyes.  The
+walls of this tower radiate in the sun.  It appears as if the walls have been
+polished to an almost blinding sheen.  The top of the tower itself looks to get
+lost in the clouds.  A single doorway can be seen at its base.  The door looks
+to be made of some strange magic force, much like a portal.    
+~
+147 0 f 0 0  2
+D0
+~
+portal~
+2 0 14701 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6388 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14722 0 0 0 0 0 0 0 0
+S
+#14707
+Standing before an Enormous Oak Tree~
+   Towering before you is an ancient oak tree.  From its massive proportion you
+figure it is no ordinary oak tree.  The base is covered in bright green moss.
+Its roots ripple deep into the surface, nothing but godly might can rip this
+tree out of the ground.  Despite the tree, a small creek bed flows behind it,
+with a smooth flowing sound of water.  Birds of all kind are singing in the
+area, the wind is gently blowing through the leaves.  All the sounds seem to be
+working toghter in a musical melody that promotes peace and harmony.  A
+campfire has been left ablaze.  The flame seems to move harmoniously along with
+the melody of the glade.    
+~
+147 0 fh 0 0  3
+D0
+~
+bark~
+2 14703 14708 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3001 0 0 0 0 0 0 0 0
+S
+#14708
+Worship Chamber~
+   Inside the ancient oak tree, you see the true meaning of its presence.  
+Inside the walls are beautifully carved out and polished with woodland designs.
+A set of stairs curve around the heartwood and spirals up.  There are many
+stumps shaped for seating.  There is a wooden altar made of rare woods, with
+symbols that contribute to the goddess of nature.    
+~
+147 0 fh 0 0  0
+D2
+~
+bark~
+2 14703 14707 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 14709 0 0 0 0 0 0 0 0
+S
+#14709
+Meeting Chamber~
+   Inside this room you see more beautifully carved and polished walls.  More
+shaped stumps used for sitting are situated in a perfect circle at the center
+of the room.  Every seat keeps the occupant in view of every other person in
+the room.  One seat is a marvelous carved throne with every animal known to
+exist on Krynn, and others that must be of other planes.  This throne is
+reserved for a being of godly might, Chislev.    
+~
+147 0 fh 0 0  0
+D4
+~
+~
+0 0 14710 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 14708 0 0 0 0 0 0 0 0
+S
+#14710
+Hall of Memories~
+   Inside this room you see smoothly polished walls.  On the walls, you see
+names of members of the past and present that have at one time proudly served
+in chislevs' name.  Also on the walls are prayers of guidance and rememberance.
+  
+~
+147 0 fh 0 0  0
+D5
+~
+~
+0 0 14709 0 0 0 0 0 0 0 0
+S
+#14711
+Before a Polished Obsidian Building~
+   Large polished obsidian slabs have been formed to make this building.  The
+entrance to the building is immense, able to allow even a dragon inside.  
+Workers are still hard at work to complete this hall for the growing armies.  
+Orders shouted to the troops can be heard coming from inside, each answered in
+a fevered pitch.    
+~
+147 0 f 0 0  1
+D2
+~
+~
+0 0 14712 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1609 0 0 0 0 0 0 0 0
+S
+#14712
+Hallway of Dragons~
+   Statues of every evil dragon in Krynn line this hallway.  The statues appear
+to be almost life size.  Despite the large statues, their is plenty of room to
+accomidate the passing of troops.  This grand hallway spills into an even
+larger chamber to the south.  Two doorways can be seen on either side of this
+hallway.    
+~
+147 0 f 0 0  0
+D0
+~
+~
+0 0 14711 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14713 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14715 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14714 0 0 0 0 0 0 0 0
+S
+#14713
+Notices Chamber~
+   This chamber is quite barren except for a few pieces of furniture.  A small
+desk rests in one corner, with stacks of paper and a quill pen set upon it.  The
+desk is used to scribe posts for the rather large board at the end of this
+chamber.  The bulletin board covers almost an entire wall.    
+~
+147 0 f 0 0  0
+D3
+~
+~
+0 0 14712 0 0 0 0 0 0 0 0
+S
+#14714
+Armory~
+   This chamber is bare at the moment.  It looks as if work has begun to make
+this chamber an armory of some sort.  Racks for both weapons and armor line the
+walls.  A counter stands near the doorway, blocking access to those with sticky
+fingers.  The counter will help the future quartermaster hand out equipment to
+new soldiers.    
+~
+147 0 f 0 0  0
+D1
+~
+~
+0 0 14712 0 0 0 0 0 0 0 0
+S
+#14715
+Hall of the Dragonlords~
+   This great hall is immense.  This hall could fit a legion or more of troops
+with ease.  A detailed map covers one wall.  The map is covered with various
+colors, inticating the regions controlled by the dragon armies.  Numerous large
+pedistals are arranged in this chamber.  Each pedistal is colored to match the
+color of the army it represents.  Here the dragon high-lords discuss their
+future plans.    
+~
+147 0 f 0 0  0
+D0
+~
+~
+0 0 14712 0 0 0 0 0 0 0 0
+S
+#14716
+A Solamnic Outpost~
+   A well fortified outpost has been erected here by the Knights of Solamnia.
+Two large turrets cover the corners of this building.  An elaborate gate system
+has been built to keep access to the outpost secure.  Work continues to be done
+on the outpost walls, to prepare for future conflicts.    
+~
+147 0 f 0 0  1
+D1
+~
+~
+0 0 8208 0 0 0 0 0 0 0 0
+D3
+~
+gate~
+2 14716 14717 0 0 0 0 0 0 0 0
+S
+#14717
+The Meeting Hall~
+   The walls of this great chamber are covered with flags and banners of the
+different military units in the service of the Knights of Solamnia.  Three
+wooden tables sit at the north end of the hall, each representing the different
+orders within the knighthood.  Numerous chairs sit in rows before the tables.
+Torches have been set in the walls to illuminate the hall in a soft light.  
+Several exits can be seen leading to other areas of the outpost.    
+~
+147 u f 0 0  0
+D1
+~
+gate~
+2 14716 14716 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14718 0 0 0 0 0 0 0 0
+S
+#14718
+A Small Alcove~
+   This small alcove serves as a notices room.  A large bulletin board covers
+one entire wall of this room.  Below the bulletin board is a small desk that is
+covered in papers.  Notices can be posted for other knights to read.    
+~
+147 0 f 0 0  0
+D0
+~
+~
+0 0 14717 0 0 0 0 0 0 0 0
+S
+#14719
+A Comfortable Lounge~
+   A large room has been carved out from this enormous tree trunk.  Years of
+intense work has made this chamber almost flawless in design.  Priceless
+paintings and exquisite tapestries cover the smooth wood walls.  Padded chairs
+and stools sit around antique walnut tables.  A small aspen wood bar sits in
+one corner of the room, decorated with woodland carvings.  An elaborate system
+of pipes and filters spills clean water into a silver basin.  A small room lies
+to the east.    
+~
+147 u f 0 0  0
+D0
+~
+passage~
+1 0 1347 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 14721 0 0 0 0 0 0 0 0
+D9
+~
+secret~
+2 14714 14720 0 0 0 0 0 0 0 0
+S
+#14720
+The Base of a Large Vallenwood~
+   The base of this vallenwood tree is enormous.  The tree is easily as wide as
+two horse drawn wagons.  This particular tree appears to have nothing in its
+upper branches.  Most of the vallenwood trees in Solace house a family or even
+a shop.  The catwalk system doesn't even connect to this tree.  The ferns at
+the base of the tree look to be trampled recently.    
+~
+147 0 f 0 0  1
+D7
+~
+secret~
+2 14714 14719 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1307 0 0 0 0 0 0 0 0
+S
+#14721
+Notices Room~
+   This small room is quite barren.  A plain desk stands against the east wall.
+The desk holds stacks of paper and a few quill pens.  Against the north wall is
+a large bulletin board.  This is where fellow members share information.    
+~
+147 0 f 0 0  0
+D3
+~
+~
+0 0 14719 0 0 0 0 0 0 0 0
+S
+#14722
+A Round Clearing at the Towers Base~
+   The illuminated tower lights up the small clearing.  In the middle there is
+a paved circle of stones, surrounded by three tall marble pillars.  The
+stonework displays the three moons of magic set in a triangle framed by arcane
+runes.  Crimson, silver and black mist snake around the pillars and out towards
+the treeline, partly obscuring the surrounding forest from view.    
+~
+147 0 f 0 0  3
+D1
+~
+~
+0 0 14706 0 0 0 0 0 0 0 0
+S
+$

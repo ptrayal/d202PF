@@ -1,0 +1,681 @@
+#200
+suit padded armor~
+a suit of padded armor~
+A suit of padded armor lies here neatly folded.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+10 1 8 0 0 0 5 0 20 0 0 0 0 0 0 0
+100 500 0 0
+Z
+4
+#201
+suit leather armor~
+a suit of leather armor~
+A suit of leather armor lies here neatly folded.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+20 1 6 0 0 0 10 1 20 0 0 0 0 0 0 0
+150 1000 0 0
+Z
+4
+#202
+suit studded leather armor~
+a suit of studded leather armor~
+A suit of studded leather armor lies here neatly folded.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+30 1 5 -1 0 0 15 1 20 0 0 0 0 0 0 0
+200 2500 0 0
+Z
+4
+#203
+suit light chain armor~
+a suit of light chain armor~
+A suit of light chain armor lies here neatly folded.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+40 1 4 -2 0 0 20 6 30 0 0 0 0 0 0 0
+250 10000 0 0
+Z
+4
+#204
+suit hide armor~
+a suit of hide armor~
+A suit of hide armor lies here neatly folded.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+30 2 4 -3 0 0 20 1 15 0 0 0 0 0 0 0
+250 1500 0 0
+Z
+4
+#205
+suit scale mail armor~
+a suit of scale mail armor~
+A suit of scale mail armor is here neatly folded.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+40 2 3 -4 0 0 25 6 15 0 0 0 0 0 0 0
+300 5000 0 0
+Z
+4
+#206
+suit chain mail armor~
+a suit of chain mail armor~
+A suit of chain mail armor lies here neatly folded.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+50 2 2 -5 0 0 30 6 15 0 0 0 0 0 0 0
+400 15000 0 0
+Z
+4
+#207
+suit piecemeal armor~
+a suit of piecemeal armor~
+A suit of piecemeal armor lies here in a neatly arranged pile.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+50 2 3 -4 0 0 25 1 15 0 0 0 0 0 0 0
+300 20000 0 0
+Z
+4
+#208
+suit splint mail armor~
+a suit of splint mail armor~
+A suit of splint mail armor lies here in a neatly arranged pile.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+60 3 0 -7 0 0 40 6 15 0 0 0 0 0 0 0
+450 20000 0 0
+Z
+4
+#209
+banded-mail-armor banded mail armor~
+a suit of banded mail armor~
+A set of banded mail armor lies here.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+60 3 1 -6 0 0 35 6 15 0 0 0 0 0 0 0
+350 25000 0 0
+Z
+4
+#210
+half-plate-armor half plate armor~
+a suit of half plate armor~
+A set of half plate armor lies here.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+70 3 0 -7 0 0 40 20 15 0 0 0 0 0 0 0
+500 60000 0 0
+Z
+4
+#211
+full-plate-armor full plate armor~
+a suit of full plate armor~
+A set of full plate armor lies here.~
+~
+42 0 0 0 0 ad 0 0 0 0 0 0 0
+80 3 1 -6 0 0 35 6 15 0 0 0 0 0 0 0
+500 150000 0 0
+Z
+4
+#212
+small-wooden-shield small wooden shield~
+a small wooden shield~
+3~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+10 4 999 -1 100 100 5 12 9 0 513 0 0 0 0 0
+5 300 0 0
+Z
+4
+#213
+buckler steel~
+a steel buckler~
+A steel buckler lies here.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+10 4 999 -1 100 100 5 9 9 0 513 0 0 0 0 0
+5 1500 0 0
+Z
+4
+#214
+small-steel-shield small steel shield~
+a small steel shield~
+A small steel shield lies here.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+10 4 999 -1 100 100 5 9 9 0 513 0 0 0 0 0
+6 900 0 0
+Z
+4
+#215
+large-wooden-shield large wooden shield~
+a large wooden shield~
+A large wooden shield lies here.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+20 4 999 -1 100 100 15 12 9 0 513 0 0 0 0 0
+10 700 0 0
+Z
+4
+#216
+large-steel-shield large steel shield~
+a large steel shield~
+A large steel shield lies here.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+20 4 999 -1 100 100 15 9 9 0 513 0 0 0 0 0
+15 2000 0 0
+Z
+4
+#217
+wooden-tower-shield wooden tower shield~
+a wooden tower shield~
+A wooden tower shield lies here.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+50 4 0 -10 100 100 50 12 9 0 513 0 0 0 0 0
+45 3000 0 0
+Z
+4
+#218
+dagger steel~
+a steel dagger~
+A steel dagger lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+2 1 4 0 100 100 2 6 1 17 10 1 0 0 0 0
+10 200 0 0
+Z
+2
+#219
+light-mace light mace steel~
+a steel light mace~
+A steel light mace lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+3 1 6 0 100 100 2 6 0 1 0 2 0 0 0 0
+40 500 0 0
+Z
+3
+#220
+sickle steel~
+a steel sickle~
+A steel sickle lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+4 1 6 0 100 100 2 6 0 1 0 1 0 0 0 0
+20 600 0 0
+Z
+3
+#221
+club wooden~
+a wooden club~
+A wooden club lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+5 1 6 0 100 100 2 7 0 1 0 2 0 0 0 0
+30 10 0 0
+Z
+3
+#222
+halfspear wooden spear~
+a wooden halfspear~
+A wooden halfspear lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+8 1 6 0 100 100 2 6 0 17 20 4 0 0 0 0
+30 100 0 0
+Z
+4
+#223
+heavy-mace heavy mace steel~
+a steel heavy mace~
+A steel heavy mace lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+6 1 8 0 100 100 2 6 0 1 0 2 0 0 0 0
+80 1200 0 0
+Z
+4
+#224
+morningstar steel~
+a steel morningstar~
+A steel morningstar lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+7 1 8 0 100 100 2 6 0 1 0 3 0 0 0 0
+60 800 0 0
+Z
+4
+#225
+quarterstaff wooden staff~
+a wooden quarterstaff~
+A wooden quarterstaff lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+10 1 6 0 100 100 2 7 0 257 0 5 0 0 0 0
+40 10 0 0
+Z
+5
+#226
+shortspear wooden~
+a wooden shortspear~
+A wooden shortspear lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+8 1 6 0 100 100 2 6 0 17 20 4 0 0 0 0
+30 100 0 0
+Z
+4
+#227
+light crossbow~
+a light crossbow~
+A light crossbow lies here on the ground~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+13 1 8 0 100 100 2 7 1 2057 80 6 0 0 0 0
+40 3500 0 0
+Z
+5
+#228
+sling~
+a sling~
+A sling lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+16 1 4 0 100 100 2 1 0 9 50 7 0 0 0 0
+1 10 0 0
+Z
+3
+#229
+heavy-crossbow heavy crossbow xbow~
+a heavy crossbow~
+A heavy crossbow lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+12 1 10 0 100 100 2 7 1 2057 120 6 0 0 0 0
+80 5000 0 0
+Z
+5
+#230
+light-hammer light hammer steel~
+a steel light hammer~
+A steel light hammer lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+18 1 4 0 100 100 2 6 0 18 20 9 0 0 0 0
+20 100 0 0
+Z
+3
+#231
+steel-handaxe steel handaxe~
+a steel handaxe~
+A steel handaxe lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+19 1 6 0 100 100 3 6 0 2 0 8 0 0 0 0
+30 600 0 0
+Z
+3
+#232
+light-lance light lance~
+a steel light lance~
+A steel light lance lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+40 1 8 0 100 100 3 6 0 8226 0 13 0 0 0 0
+100 1000 0 0
+Z
+5
+#233
+light-pick light pick~
+a steel light pick~
+A steel light pick lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+21 1 4 0 100 100 4 6 0 2 0 10 0 0 0 0
+30 400 0 0
+Z
+3
+#234
+shortsword steel short sword~
+a steel shortsword~
+A steel shortsword lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+23 1 6 0 100 100 2 6 1 2 0 1 0 0 0 0
+20 1000 0 0
+Z
+3
+#235
+battleaxe steel axe~
+a steel battleaxe~
+A steel battleaxe lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+24 1 8 0 100 100 3 6 0 2 0 8 0 0 0 0
+60 1000 0 0
+Z
+4
+#236
+light-flail light flail steel~
+a steel light flail~
+A steel light flail lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+25 1 8 0 100 100 2 6 0 2 0 3 0 0 0 0
+50 800 0 0
+Z
+4
+#237
+heavy-lance heavy lance wooden~
+a wooden heavy lance~
+A wooden heavy lance lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+40 1 8 0 100 100 3 6 0 8226 0 13 0 0 0 0
+100 1000 0 0
+Z
+5
+#238
+longsword steel long sword~
+a steel longsword~
+A steel longsword lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+26 1 8 0 100 100 2 6 1 2 0 11 0 0 0 0
+40 1500 0 0
+Z
+4
+#239
+heavy-pick heavy pick steel~
+a steel heavy pick~
+A steel heavy pick lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+27 1 6 0 100 100 4 6 0 2 0 10 0 0 0 0
+60 800 0 0
+Z
+4
+#240
+rapier steel~
+a steel rapier~
+A steel rapier lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+28 1 6 0 100 100 2 6 2 4098 0 11 0 0 0 0
+20 2000 0 0
+Z
+4
+#241
+scimitar steel~
+a steel scimitar~
+A steel scimitar lies here~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+19 1 6 3 100 100 0 9 5 0 8193 0 0 0 0 0
+4 1500 0 0
+Z
+4
+#242
+warhammer hammer steel~
+a steel warhammer~
+A steel warhammer lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+12 1 8 5 100 100 1 9 5 0 8193 0 0 0 0 0
+8 1200 0 0
+Z
+4
+#243
+falchion steel~
+a steel falchion~
+A steel falchion lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+17 2 4 3 100 100 0 9 5 0 8193 0 0 0 0 0
+16 7500 0 0
+Z
+4
+#244
+heavy-flail heavy flail steel~
+a steel heavy flail~
+A steel heavy flail lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+14 1 10 5 100 100 0 9 5 0 8193 0 0 0 0 0
+20 1500 0 0
+Z
+4
+#245
+glaive steel~
+a steel glaive~
+A steel glaive lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+20 1 10 3 100 100 1 9 5 0 8193 0 0 0 0 0
+15 800 0 0
+Z
+4
+#246
+greatclub club wooden~
+a wooden greatclub~
+A wooden greatclub lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+21 1 10 5 100 100 0 12 5 0 8193 0 0 0 0 0
+10 500 0 0
+Z
+4
+#247
+maul steel~
+a steel maul~
+A steel maul lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+12 1 10 5 100 100 1 9 5 0 8193 0 0 0 0 0
+20 1200 0 0
+Z
+4
+#248
+greatsword sword steel~
+a steel greatsword~
+A steel greatsword lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+37 2 6 0 100 100 2 6 1 2 0 12 0 0 0 0
+80 5000 0 0
+Z
+5
+#249
+guisarme steel~
+a steel guisarme~
+A steel guisarme lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+20 2 4 3 100 100 1 9 5 0 8193 0 0 0 0 0
+15 900 0 0
+Z
+4
+#250
+halberd steel~
+a steel halberd~
+A steel halberd lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+20 1 10 3 100 100 1 9 5 0 8193 0 0 0 0 0
+15 1000 0 0
+Z
+4
+#251
+longspear spear wooden~
+a wooden longspear~
+A wooden longspear lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+20 1 8 11 100 100 1 12 5 0 8193 0 0 0 0 0
+9 500 0 0
+Z
+4
+#252
+scythe steel~
+a steel scythe~
+A steel scythe lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+4 2 4 3 100 100 2 9 5 0 8193 0 0 0 0 0
+12 1800 0 0
+Z
+4
+#253
+shortbow bow~
+a shortbow~
+A shortbow lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+9 1 6 6 100 100 1 12 5 0 8193 0 0 0 0 0
+2 3000 0 0
+Z
+4
+#254
+longbow bow~
+a longbow~
+A longbow lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+8 1 8 6 100 100 1 12 5 0 8193 0 0 0 0 0
+3 7500 0 0
+Z
+4
+#255
+bastard-sword steel~
+a steel bastard sword~
+A steel bastard sword lies here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+22 1 10 3 100 100 0 9 5 0 8193 0 0 0 0 0
+10 3500 0 0
+Z
+4
+#256
+backpack pack leather~
+a leather backpack~
+A leather backpack lies here.~
+~
+15 0 0 0 0 ap 0 0 0 0 0 0 0
+50 1 -1 0 100 100 0 6 15 0 32769 0 0 0 0 0
+2 200 0 0
+Z
+4
+#257
+inkpen pen~
+an inkpen and bottle of ink~
+An inkpen and bottle of ink are here on the ground.~
+~
+21 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 13 21 0 1 0 0 0 0 0
+0 800 0 0
+Z
+4
+#258
+lantern bullseye~
+a bullseye lantern~
+A bullseye lantern lies here, unlit.~
+~
+1 0 0 0 0 alo 0 0 0 0 0 0 0
+0 0 240 0 100 100 0 9 1 0 18433 0 0 0 0 0
+3 1300 0 0
+Z
+4
+#259
+sheet-of-paper sheet paper~
+a sheet of paper~
+A sheet of paper lies here, blowing in the wind.~
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16 16 0 1 0 0 0 0 0
+0 40 0 0
+Z
+4
+#260
+belt-pouch belt pouch~
+a belt pouch~
+A belt pouch lies here.~
+~
+15 0 0 0 0 al 0 0 0 0 0 0 0
+10 1 -1 0 100 100 0 6 15 0 2049 0 0 0 0 0
+1 100 0 0
+Z
+4
+#261
+sack cloth~
+a cloth sack~
+A cloth sack lies here on the ground.~
+~
+15 0 0 0 0 ao 0 0 0 0 0 0 0
+50 1 -1 0 100 100 0 17 15 0 16385 0 0 0 0 0
+1 10 0 0
+Z
+4
+#262
+torch~
+a torch~
+An unlit torch lies here.~
+~
+1 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 120 0 100 100 0 12 1 0 16385 0 0 0 0 0
+1 1 0 0
+Z
+4
+#263
+monk-outfit outfit monk monks brown white~
+a light-brown and white monk's outfit~
+A light-brown and white monk's outfit lies here.~
+~
+11 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 17 11 0 9 0 0 0 0 0
+1 50 0 0
+Z
+4
+#264
+mage-robe grey blue white mage robe robes~
+a grey-blue mage robe with white trim~
+A grey-blue mage robe with white trim lies here.~
+~
+11 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 17 11 0 9 0 0 0 0 0
+1 1000 0 0
+Z
+4
+#265
+double-bladed-battle-axe double bladed battle axe steel~
+a steel double bladed battle axe~
+A steel double bladed battle axe lies here.~
+~
+5 0 a 0 0 an 0 0 0 0 0 0 0
+24 1 8 7 100 100 1 9 5 0 8193 0 0 0 0 1
+25 6000 0 0
+Z
+4
+#266
+safe iron reinforced~
+a reinforced iron safe~
+A huge, reinforce iron safe is built into the back wall.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 9 12 0 0 0 0 0 0 0
+1000000 0 0 0
+Z
+4
+#267
+light-crossbow light crossbow~
+a light crossbow~
+A light crossbow lies here on the ground.~
+~
+5 0 0 0 0 a 0 0 0 0 0 0 0
+13 1 8 0 100 100 2 7 1 2057 80 6 0 0 0 0
+40 3500 0 0
+Z
+5
+$~

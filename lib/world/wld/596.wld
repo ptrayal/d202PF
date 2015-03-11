@@ -1,0 +1,352 @@
+#59600
+WHACK-A-MOLE PORTAL ROOM!~
+Whack-a-Mole Rules
+1. No using gate spells/skills
+2. Use 'kill mole' only!
+3. No hindering other players.
+~
+596 0 0 0 0 0
+S
+#59601
+Whack-a-Mole Room~
+You are in an unfinished room.
+~
+596 0 0 0 0 0
+D1
+~
+~
+0 0 59602 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59610 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 59611 0 0 0 0 0 0 0 0
+S
+#59602
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D1
+~
+~
+0 0 59603 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59609 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59601 0 0 0 0 0 0 0 0
+S
+#59603
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D1
+~
+~
+0 0 59604 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59608 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59602 0 0 0 0 0 0 0 0
+S
+#59604
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D1
+~
+~
+0 0 59605 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59607 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59603 0 0 0 0 0 0 0 0
+S
+#59605
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D2
+~
+~
+0 0 59606 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59604 0 0 0 0 0 0 0 0
+S
+#59606
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59605 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59617 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59607 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 59618 0 0 0 0 0 0 0 0
+S
+#59607
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59604 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59606 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59608 0 0 0 0 0 0 0 0
+S
+#59608
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59603 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59607 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59615 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59609 0 0 0 0 0 0 0 0
+S
+#59609
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59602 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59608 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59614 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59610 0 0 0 0 0 0 0 0
+S
+#59610
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59601 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59609 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59611 0 0 0 0 0 0 0 0
+S
+#59611
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D1
+~
+~
+0 0 59610 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59612 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 59601 0 0 0 0 0 0 0 0
+S
+#59612
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59611 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59613 0 0 0 0 0 0 0 0
+S
+#59613
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59610 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59614 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59612 0 0 0 0 0 0 0 0
+S
+#59614
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59609 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59615 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59613 0 0 0 0 0 0 0 0
+S
+#59615
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59608 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59614 0 0 0 0 0 0 0 0
+S
+#59616
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59607 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59617 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59615 0 0 0 0 0 0 0 0
+S
+#59617
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59606 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59618 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59616 0 0 0 0 0 0 0 0
+S
+#59618
+Whack-a-Mole Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D3
+~
+~
+0 0 59617 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 59606 0 0 0 0 0 0 0 0
+S
+#59619
+New BuildWalk Room~
+This unfinished room was created by Bane.
+~
+596 0 0 0 0 0
+D0
+~
+~
+0 0 59603 0 0 0 0 0 0 0 0
+S
+$~

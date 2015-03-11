@@ -1,0 +1,29 @@
+#30100
+a shadowy being~
+a shadowy being~
+A shadowy being is here terrorizing the citizens of Palanthas.
+~
+   This creature is made of pure shadow with a humanoid form and eyes of deepest
+blood red.  It stalks through the darkness and shadow lashing out at anything
+and anyone living that comes too close.  
+~
+d 0 0 0 0 0 0 0 -500
+15 13 -12 180d100+1000 1d1+7
+0 0 6 3
+8 8 0
+E
+BareHandAttack: 12
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

@@ -1,0 +1,503 @@
+#3400
+short fat clerk~
+a short fat clerk~
+A short fat clerk is standing here waiting to sell you a weapon.
+~
+   Before you stands a short fat clerk dressed in a plain brown jerkin and
+black boots.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3403
+inexperienced soldier~
+an inexperienced soldier~
+An inexperienced soldier is here practicing his sword technique with another soldier.
+~
+   Before you stands a young inexperienced warrior trying to learn the proper
+way to use a longsword.    
+~
+d 0 0 0 k 0 0 0 600
+22 9 -25 264d110+101 1d8+11
+41 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3404
+veteran solider~
+a veteran soldier~
+A veteran soldier is here trying to show a younger recruit the proper technique.
+~
+   You are looking at a battle worn soldier.  He carries the wisdom of the ages
+in his eyes along with many battle scars.    
+~
+d 0 0 0 k 0 0 0 0
+23 9 -26 276d170+107 1d8+11
+44 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3405
+laughing child~
+a laughing child~
+A laughing child is running thoughout the courtyard.
+~
+   Before you stands a small child who is running about and dancing and
+laughing.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3406
+poor peasant rags~
+a poor peasant dressed in rags~
+A poor peasant dressed in rags is walking about the courtyard.
+~
+   Dressed in rags that barely cling to her body this woman is a perfect image
+of poverty.    
+~
+d 0 0 0 k 0 0 0 0
+20 10 -22 240d120+102 1d8+10
+35 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3407
+young woman ~
+a young woman~
+A young woman is walking about feeding the birds birdseed.
+~
+   A woman who looks to be in the upper class of society is walking about
+feeding the birds that frequent the courtyard.    
+~
+d 0 0 0 k 0 0 0 0
+20 10 -22 240d100+100 1d8+10
+35 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3408
+fink~
+Fink~
+Fink, the banker, is standing here counting his money.
+~
+   Before you stands the richest person in Thelgaard keep.  He is dressed in
+fine clothing and wearing expensive jewery.    
+~
+d 0 0 0 k 0 0 0 0
+31 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3409
+ida~
+Ida~
+Ida, the magic shop owner, is standing here looking through a bag of herbs.
+~
+   Ida is an old woman who looks to be hundreds of years old.  Indeed there are
+many stories about her and her adventures that she had when she was younger.  
+~
+bd 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3411
+stable hand~
+a stable hand~
+A stable hand is here shoveling out a pen.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+21 10 -23 252d170+107 1d8+10
+38 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3412
+tower archer~
+a tower archer~
+A tower archer stands here watching for any sign of an attack on the keep.
+~
+   Before you stands a well built soldier.  His role in the protection of
+Thelgaard is to keep a watchout for an attack and if there is one to sound the
+alarm.  He also provides the first line of defense with his bow and arrows.  
+~
+d 0 0 0 k 0 0 0 0
+23 9 -17 207d200+110 1d8+11
+15 0 41 4
+8 8 1
+E
+Str: 13
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#3413
+guard tower~
+a tower guard~
+A tower guard is standing here making sure only authorized people enter the tower.
+~
+   You are looking at a veteran soldier placed with the duty of keeping
+unwanted visitors from going to the top of the tower.    
+~
+d 0 0 0 k 0 0 0 0
+24 8 -28 288d200+110 1d8+12
+51 0 41 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3414
+inexperienced archer~
+an inexperienced archer~
+An inexperienced archer is here learning how to shoot a bow and arrow.
+~
+   Before you stands a young soldier who is attempting to learn how to shoot a
+bow and arrow.    
+~
+d 0 0 0 k 0 0 0 0
+22 9 -16 198d150+105 1d8+11
+15 0 41 4
+8 8 1
+E
+Str: 13
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+#3415
+veteran knight sword instructor~
+a sword instructor~
+A veteran knight is standing here barking orders and instructing soldiers.
+~
+   From the looks of this soldier you think he has probably seen many battles.
+He is tall and loud he seems to enjoy his job greatly.    
+~
+bdE 0 0 0 k 0 0 0 500
+24 4 -35 2880d220+1000 1d8+16
+51 0 41 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3416
+young knight crown~
+a young Knight of the Crown~
+A young Knight of the Crown is here dueling in the main dueling circle.
+~
+   This young Knight of the Crown is preparing to duel in the main circle of
+the training area.    
+~
+d 0 0 0 k 0 0 0 0
+23 9 -26 253d180+108 1d8+11
+44 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 22
+S
+#3417
+champion circle~
+the champion of the circle~
+The champion of the circle is here getting ready for his next challenge.
+~
+   Before you stands the champion of the circle.  He has won many battles and
+has the scars to show it.  He wields a short sabre that many think is the
+secret to his success.    
+~
+bdF 0 0 0 k 0 0 0 0
+24 4 -38 5760d270+117 1d8+16
+51 0 41 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3418
+soldier sleeping~
+a sleeping soldier~
+A soldier is sound asleep here.
+~
+   This soldier looks to be in a deep deep sleep.  Obviously he is oblivious to
+the danger at hand.    
+~
+d 0 0 0 k 0 0 0 0
+21 10 -23 252d140+104 1d8+10
+38 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3419
+priest~
+a priest of Paladine~
+A priest of Paladine is here praying to his god.
+~
+   Before you stands a priest of Paladine.  The priest is dressed in white
+robes and carries a small mace.  He looks to be a very powerful priest.    
+~
+bdF 0 0 0 k 0 0 0 1000
+24 4 -33 4320d300+1000 1d8+16
+51 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 22
+E
+Con: 12
+E
+Cha: 11
+S
+#3420
+veteran knight crown~
+a veteran Knight of the Crown~
+A veteran Knight of the Crown is standing here observing you calmly.
+~
+   Before you stands an honorable Knight of the Crown.  He is dressed in full
+armor and carries a beautifully crafted longsword.    
+~
+d 0 0 0 k 0 0 0 1000
+24 8 -28 288d240+114 1d8+12
+51 0 41 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3421
+knight sword~
+a Knight of the Sword~
+A Knight of the Sword is here sharpening his sword.
+~
+   Before you stands a Knight of the Sword he is garbed in an ancient armor
+that has the symbol of a sword on the breastplate.  He is tall and well built,
+with a thick beard.    
+~
+bdD 0 0 0 k 0 0 0 500
+24 5 -33 1440d280+1000 1d8+15
+51 0 41 3
+8 8 1
+E
+Str: 23
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#3422
+Azerol knight rose~
+Lord Azerol~
+Azerol, a Knight of the Rose,  is here dressed in full battle armor.
+~
+   Before you stands a Knight of the Rose.  He is dressed in ancient armor and
+wields a beautifully crafted longsword.  His hair is mostly grey with a few
+stripes of brown still in it.    
+~
+bd g 0 0 k 0 0 0 1000
+24 2 -40 13200d340+1000 1d8+18
+51 0 41 5
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 12
+E
+Cha: 23
+S
+$

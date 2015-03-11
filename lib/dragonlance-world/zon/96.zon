@@ -1,0 +1,324 @@
+#96
+None.~
+The Farm~
+9600 9699 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0  9620     2     1   0   101     1    -10 
+
+O 0  9618     1  9620   0   100     2    -1          0 a small wooden dresser
+
+P 1  9621     3  9618   0    50     3     2          0 an expensive necklace encrusted with jewels
+
+O 0  9644     1  9619   0   100     4    -1          0 an iron stove for cooking
+
+O 0  9643     1  9619   0   100     5    -1          0 a copper wash basin
+
+D 0  9619     0     1   0   101     6    -10 
+
+D 0  9619     3     1   0   101     7    -10 
+
+M 0  9603    10  9619   1   100     8    -1          0 a young mother
+
+E 1  9620     5    16   0    85     9     8          0 an iron cooking pan
+
+O 0  9647     1  9607   0   100    10    -1          0 a red brick fireplace
+
+O 0  9646     1  9607   0   100    11    -1          0 a tall narrow bookcase
+
+D 0  9607     0     1   0   101    12    -10 
+
+D 0  9607     1     1   0   101    13    -10 
+
+M 0  9602     2  9607   1   100    14    -1          0 an orange tabby cat
+
+M 0  9604     1  9681   1   100    15    -1          0 a stocky young farmer
+
+E 1  9622     5    16   0    50    16    15          0 a battered wooden plowshare
+
+G 1  9619     2     0   0   100    17    15          0 a small iron key
+
+D 0  9666     3     1   0   101    18    -10 
+
+M 0  9605     1  9666   1   100    19    -1          0 a huge black spider with a red abdomen
+
+G 1   142   100     0   0   100    20    19          0 a bit of spider web
+
+E 1  9632     2    10   0    50    21    19          0 a spikey bracer made of black spider legs
+
+M 0  9606     2  9618   1   100    22    -1          0 a large brown dog
+
+E 1  9623    10    16   0    30    23    22          0 a large dog bone
+
+M 0  9606     2  9625   1   100    24    -1          0 a large brown dog
+
+O 0  9641     1  9614   0   100    25    -1          0 a high shelf in the closet
+
+P 1  9639     2  9641   0    50    26    25          0 a small velvet lined box
+
+P 1  9640     2  9639   0    50    27    26          0 a tiny set of diamond earrings
+
+D 0  9614     2     1   0   101    28    -10 
+
+M 0  9607     1  9614   1   100    29    -1          0 a half naked girl
+
+G 1  9638     2     0   0    50    30    29          0 a tiny gold key with a red lace string
+
+E 1  9624    10     0   0    50    31    29          0 a small flickering candle
+
+M 0  9608     4  9602   1   100    32    -1          0 a small black snake
+
+M 0  9608     4  9601   1   100    33    -1          0 a small black snake
+
+M 0  9627     6  9668   1   100    34    -1          0 a small brown mouse
+
+M 0  9608     4  9668   1   100    35    -1          0 a small black snake
+
+M 0  9627     6  9654   1   100    36    -1          0 a small brown mouse
+
+M 0  9617     8  9654   2   100    37    -1          0 a huge black worker ant
+
+M 0  9608     4  9654   1   100    38    -1          0 a small black snake
+
+M 0  9617     8  9690   2   100    39    -1          0 a huge black worker ant
+
+M 0  9608     4  9690   1   100    40    -1          0 a small black snake
+
+O 0  9635     1  9609   0   100    41    -1          0 a steeply placed ladder
+
+D 0  9609     0     1   0   101    42    -10 
+
+D 0  9609     1     1   0   101    43    -10 
+
+D 0  9609     4     1   0   101    44    -10 
+
+M 0  9609     1  9609   1   100    45    -1          0 a small brown spider
+
+E 1  9637    10    17   0    50    46    45          0 a small, brown velvet spider sack
+
+D 0  9630     0     1   0   101    47    -10 
+
+D 0  9630     5     1   0   101    48    -10 
+
+M 0  9610     1  9630   1   100    49    -1          0 a little green iguana
+
+E 1  9633     3    17   0    40    50    49          0 a gleaming golden eye of an iguana
+
+O 0  9636     4  9613   0   100    51    -1          0 a small wooden bed with wool blankets
+
+O 0  9636     4  9613   0   100    52    -1          0 a small wooden bed with wool blankets
+
+D 0  9613     0     1   0   101    53    -10 
+
+D 0  9613     1     1   0   101    54    -10 
+
+M 0  9611     1  9613   1   100    55    -1          0 a playful little girl
+
+D 0  9640     1     1   0   101    56    -10 
+
+M 0  9612     9  9640   3    90    57    -1          0 a large brown cow
+
+D 0  9639     3     1   0   101    58    -10 
+
+M 0  9612     9  9639   3    90    59    -1          0 a large brown cow
+
+D 0  9636     1     1   0   101    60    -10 
+
+M 0  9612     9  9636   3    90    61    -1          0 a large brown cow
+
+D 0  9637     3     1   0   101    62    -10 
+
+M 0  9613     6  9637   2   100    63    -1          0 a large brown farm horse
+
+D 0  9664     3     1   0   101    64    -10 
+
+M 0  9613     6  9664   2   100    65    -1          0 a large brown farm horse
+
+D 0  9665     1     1   0   101    66    -10 
+
+M 0  9613     6  9665   2   100    67    -1          0 a large brown farm horse
+
+M 0  9616     1  9641   1   100    68    -1          0 a little sneaky rat
+
+M 0  9615     1  9641   1   100    69    -1          0 a large black owl
+
+M 0  9614     1  9641   1   100    70    -1          0 a teenage boy
+
+E 1  9642     3    16   0    90    71    70          0 a brown handled pitchfork
+
+D 0  9603     3     1   0   101    72    -10 
+
+D 0  9604     1     1   0   101    73    -10 
+
+D 0  9606     3     1   0   101    74    -10 
+
+D 0  9621     1     1   0   101    75    -10 
+
+D 0  9608     5     1   0   101    76    -10 
+
+D 0  9608     2     1   0   101    77    -10 
+
+D 0  9610     2     1   0   101    78    -10 
+
+D 0  9611     2     1   0   101    79    -10 
+
+O 0  9636     4  9612   0   100    80    -1          0 a small wooden bed with wool blankets
+
+D 0  9612     3     1   0   101    81    -10 
+
+D 0  9612     0     1   0   101    82    -10 
+
+D 0  9626     4     1   0   101    83    -10 
+
+D 0  9631     2     1   0   101    84    -10 
+
+D 0  9633     2     1   0   101    85    -10 
+
+D 0  9634     3     1   0   101    86    -10 
+
+D 0  9634     2     1   0   101    87    -10 
+
+D 0  9634     1     1   0   101    88    -10 
+
+D 0  9634     0     1   0   101    89    -10 
+
+M 0  9631     3  9659   3   100    90    -1          0 a small pink piglet
+
+M 0  9630     1  9659   1   100    91    -1          0 a fat mother pig
+
+M 0  9628     3  9659   1   100    92    -1          0 a big smelly pig
+
+D 0  9659     3     1   0   101    93    -10 
+
+M 0  9632     6  9661   3   100    94    -1          0 a small brown and white chicken
+
+M 0  9632     6  9661   3   100    95    -1          0 a small brown and white chicken
+
+D 0  9661     0     1   0   101    96    -10 
+
+D 0  9661     1     1   0   101    97    -10 
+
+M 0  9634     1  9662   1   100    98    -1          0 a large white rooster
+
+M 0  9633     3  9662   3   100    99    -1          0 a small brown and white chicken
+
+E 1  9630     3    17   0    80   100    99          0 a round white chicken egg
+
+M 0  9625     1  9662   1   100   101    -1          0 a sly red tailed fox
+
+D 0  9662     2     1   0   101   102    -10 
+
+D 0  9635     1     1   0   101   103    -10 
+
+D 0  9635     3     1   0   101   104    -10 
+
+D 0  9635     0     1   0   101   105    -10 
+
+D 0  9638     3     1   0   101   106    -10 
+
+D 0  9638     1     1   0   101   107    -10 
+
+D 0  9663     2     1   0   101   108    -10 
+
+D 0  9663     3     1   0   101   109    -10 
+
+D 0  9663     1     1   0   101   110    -10 
+
+D 0  9642     0     1   0   101   111    -10 
+
+D 0  9694     5     1   0   101   112    -10 
+
+O 0  9625     1  9694   0   100   113    -1          0 a huge ant hill of dirt
+
+P 1  9629     0  9625   0     2   114   113          0 a large, juicy red cranberry
+
+P 1  9629     0  9625   0     1   115   113          0 a large, juicy red cranberry
+
+P 1  9627     8  9625   0   100   116   113          0 a small golden egg
+
+P 1  9627     8  9625   0   100   117   113          0 a small golden egg
+
+P 1  9627     8  9625   0   100   118   113          0 a small golden egg
+
+M 0  9619     3  9694   3   100   119    -1          0 a huge black soldier ant
+
+M 0  9618     6  9694   6   100   120    -1          0 a huge black worker ant
+
+M 0  9617     8  9694   2   100   121    -1          0 a huge black worker ant
+
+M 0  9617     8  9694   2   100   122    -1          0 a huge black worker ant
+
+M 0  9617     8  9693   2   100   123    -1          0 a huge black worker ant
+
+M 0  9617     8  9669   2   100   124    -1          0 a huge black worker ant
+
+M 0  9617     8  9652   2   100   125    -1          0 a huge black worker ant
+
+M 0  9617     8  9652   2   100   126    -1          0 a huge black worker ant
+
+M 0  9617     8  9652   2   100   127    -1          0 a huge black worker ant
+
+M 0  9617     8  9648   2   100   128    -1          0 a huge black worker ant
+
+O 0  9627     4  9696   0    90   129    -1          0 a small golden egg
+
+O 0  9627     4  9696   0    90   130    -1          0 a small golden egg
+
+O 0  9627     4  9696   0    90   131    -1          0 a small golden egg
+
+O 0  9627     4  9696   0    90   132    -1          0 a small golden egg
+
+M 0  9621     8  9696   4   100   133    -1          0 a huge black worker ant
+
+E 1  9627     8    17   0   100   134   133          0 a small golden egg
+
+D 0  9695     4     1   0   101   135    -10 
+
+M 0  9621     8  9695   4   100   136    -1          0 a huge black worker ant
+
+E 1  9627     8    17   0   100   137   136          0 a small golden egg
+
+M 0  9622     1  9697   1   100   138    -1          0 a huge queen ant
+
+E 1  9628    10    17   0   100   139   138          0 an antenae of a huge queen ant
+
+M 0  9623     2  9697   2   100   140    -1          0 a group of royal guardian ants
+
+M 0  9624     1  9688   1   100   141    -1          0 a white mother rabbit
+
+M 0  9620     4  9688   4   100   142    -1          0 a teeny white bunny kitten
+
+O 0  9626     1  9688   0   100   143    -1          0 a small brown rabbit nest
+
+M 0  9626     1  9644   1   100   144    -1          0 a sneaky red tailed fox
+
+E 1  9631     5     6   0    80   145   144          0 a white tipped, red fox tail hat
+
+M 0  9627     6  9656   1   100   146    -1          0 a small brown mouse
+
+M 0  9627     6  9651   1   100   147    -1          0 a small brown mouse
+
+M 0  9627     6  9645   1   100   148    -1          0 a small brown mouse
+
+M 0  9627     6  9646   1   100   149    -1          0 a small brown mouse
+
+M 0  9627     6  9649   1   100   150    -1          0 a small brown mouse
+
+M 0  9627     6  9689   1   100   151    -1          0 a small brown mouse
+
+M 0  9627     6  9671   1   100   152    -1          0 a small brown mouse
+
+M 0  9627     6  9678   1   100   153    -1          0 a small brown mouse
+
+M 0  9628     3  9660   2   100   154    -1          0 a big smelly pig
+
+O 0  9634     1  9632   0   100   155     2          0 a red brick chimney
+
+M 0  9635     1  9699   1   100   156    -1          0 Firebreather, a baby dragon with gold scales
+
+D 0  9699     5     2   0   101   157    -10 
+
+S
+$

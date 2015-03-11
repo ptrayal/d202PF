@@ -1,0 +1,216 @@
+#7200
+nomad wandering grizzled~
+a wandering nomad~
+A grizzled nomad wanders the plains, hunting for prey.
+~
+   This man is a sturdy individual with weathered, deeply tanned skin.  He is a
+nomad, rare in Ansalon, but common to the plains of dust.  He and his tribe
+wander the plains, following the roaming patterns of the zebra and other wild
+beasts.  He is stealthy and quick, and he moves through the barren landscape
+like a sleek predator.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7201
+rattlesnake snake~
+a rattlesnake~
+A rattlesnake is here coiled on the ground rattling its tail dangerously.
+~
+   This large rattlesnake lies on the ground, coiled and poised to strike.  
+It's brown and yellow striped body writhes in a circular pattern as it inches
+toward you.  It flicks it's tongue and hisses, daring you to move nearer.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7202
+warthog hog boar~
+a warthog~
+A warthog grunts at you angrily, then begins to charge.
+~
+   This boar has rusty brown fur and two large tusks that sprout from its maw.
+It calmly noses the ground, sniffing for the scent of plant life or carrion.  
+As you approach it raises its head and snorts angrily as it prepares to charge
+you.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7203
+hedgehog desert hog~
+a desert hedgehog~
+A desert hedgehog curls up into a spiny ball as you approach it.
+~
+   This small animal is covered in spiny quills that protrude several inches
+from its body.  It is a timid creature, mainly preying on small insects and
+rodents.  As it notices your presence, it quickly curls into a prickly ball of
+spines.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7204
+rat desert~
+a desert rat~
+A desert rat quickly scurries past.
+~
+   This small rodent has dusty brown fur that puffs out widely from its body.
+It scurries along the cracked, dehydrated ground, searching for a small beetle
+or ant to digest.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7205
+zebra~
+a zebra~
+A zebra roams the barren landscape in search of some vegetation to consume.
+~
+   This equestrine animal resembles a horse with black and white stripes
+covering its body.  It is graceful and peaceful as it trots through the barren
+landscape, nosing the ground for any sign of vegetation.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7206
+cheetah lithe~
+a lithe cheetah~
+A lithe cheetah strides across the badlands like a blazing arrow.
+~
+   This lithe plains cat has a glossy yellow coat with patches of brown
+throughout.  It streaks across the barren wasteland like a blazing arrow,
+searching for prey.  If the animal notices your presence, it does not seem to
+care much.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7207
+scorpion~
+a scorpion~
+A small scorpion scuttles across the cracked dirt in search of prey.
+~
+   This small arachnid has twin pincers and a large tail ending in a barb and
+curled over its back.  It's carapice is a shiny black, and it glimmers in the
+light as the scorpion scuttles across the cracked dirt ground in search of
+prey.    
+~
+d 0 0 0 k 0 0 0 0
+2 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

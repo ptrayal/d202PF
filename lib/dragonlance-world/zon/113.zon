@@ -1,0 +1,158 @@
+#113
+None.~
+Gypsy Travelers (Xergon)~
+11300 11399 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 11305     2 11300   2   100     0    -1          0 a thick-headed gyspy guard
+
+E 1 11309    10    16   0    50     1     0          0 a nail-ridden, four-by-four piece of oak
+
+M 0 11305     2 11300   2   100     2    -1          0 a thick-headed gyspy guard
+
+E 1 11309    10    16   0    50     3     2          0 a nail-ridden, four-by-four piece of oak
+
+M 0 11302     5 11301   1   100     4    -1          0 a beautiful female dancer
+
+M 0 11301     5 11301   1   100     5    -1          0 a sure-footed dancer
+
+M 0 11306    12 11328 100   100     6    -1          0 a wandering gyspy
+
+E 1 11308    10     5   0    25     7     6          0 a flimsy toga made of smelly cloth
+
+M 0 11306    12 11328 100   100     8    -1          0 a wandering gyspy
+
+M 0 11306    12 11340 100   100     9    -1          0 a wandering gyspy
+
+M 0 11306    12 11344 100   100    10    -1          0 a wandering gyspy
+
+M 0 11306    12 11385 100   100    11    -1          0 a wandering gyspy
+
+M 0 11306    12 11383 100   100    12    -1          0 a wandering gyspy
+
+E 1 11308    10     5   0    25    13    12          0 a flimsy toga made of smelly cloth
+
+M 0 11306    12 11373 100   100    14    -1          0 a wandering gyspy
+
+M 0 11306    12 11376 100   100    15    -1          0 a wandering gyspy
+
+E 1 11308    10     5   0    25    16    15          0 a flimsy toga made of smelly cloth
+
+M 0 11306    12 11354 100   100    17    -1          0 a wandering gyspy
+
+M 0 11306    12 11356 100   100    18    -1          0 a wandering gyspy
+
+M 0 11306    12 11316 100   100    19    -1          0 a wandering gyspy
+
+M 0 11306    12 11317 100   100    20    -1          0 a wandering gyspy
+
+E 1 11310    10     1   0    25    21    20          0 a shiny, tin ring
+
+M 0 11302     5 11322   1   100    22    -1          0 a beautiful female dancer
+
+M 0 11301     5 11322   1   100    23    -1          0 a sure-footed dancer
+
+M 0 11302     5 11367   1   100    24    -1          0 a beautiful female dancer
+
+M 0 11301     5 11367   1   100    25    -1          0 a sure-footed dancer
+
+M 0 11307     3 11306  22   100    26    -1          0 a clumsy, bumbling merchant
+
+M 0 11303     5 11306 100   100    27    -1          0 a gangly juggler
+
+M 0 11300     5 11306 100   100    28    -1          0 a waddling midget
+
+E 1 11310    10     1   0    25    29    28          0 a shiny, tin ring
+
+M 0 11301     5 11306   1   100    30    -1          0 a sure-footed dancer
+
+M 0 11302     5 11306   1   100    31    -1          0 a beautiful female dancer
+
+M 0 11308     3 11352  22   100    32    -1          0 a decrepit, old hag
+
+E 1 11310    10     1   0    25    33    32          0 a shiny, tin ring
+
+M 0 11302     5 11352   1   100    34    -1          0 a beautiful female dancer
+
+G 1  1237     2     0   0    50    35    34          0 a scrollcase wrapped in a dog leash
+
+M 0 11301     5 11352   1   100    36    -1          0 a sure-footed dancer
+
+M 0 11300     5 11351 100   100    37    -1          0 a waddling midget
+
+M 0 11300     5 11345 100   100    38    -1          0 a waddling midget
+
+M 0 11307     3 11311  22   100    39    -1          0 a clumsy, bumbling merchant
+
+M 0 11300     5 11311 100   100    40    -1          0 a waddling midget
+
+M 0 11303     5 11302 100   100    41    -1          0 a gangly juggler
+
+M 0 11300     5 11302 100   100    42    -1          0 a waddling midget
+
+E 1 11308    10     5   0    25    43    42          0 a flimsy toga made of smelly cloth
+
+M 0 11303     5 11319 100   100    44    -1          0 a gangly juggler
+
+E 1 11310    10     1   0    25    45    44          0 a shiny, tin ring
+
+E 1 11308    10     5   0    25    46    44          0 a flimsy toga made of smelly cloth
+
+M 0 11300     5 11319 100   100    47    -1          0 a waddling midget
+
+M 0 11303     5 11359 100   100    48    -1          0 a gangly juggler
+
+M 0 11303     5 11366 100   100    49    -1          0 a gangly juggler
+
+M 0 11304     3 11321  22   100    50    -1          0 a sly, gypsy thief
+
+M 0 11303     5 11321 100   100    51    -1          0 a gangly juggler
+
+M 0 11304     3 11303  22   100    52    -1          0 a sly, gypsy thief
+
+E 1 11310    10     1   0    25    53    52          0 a shiny, tin ring
+
+M 0 11307     3 11309  22   100    54    -1          0 a clumsy, bumbling merchant
+
+M 0 11304     3 11309  22   100    55    -1          0 a sly, gypsy thief
+
+M 0 11311     1 11347   1   100    56    -1          0 an old, vile hermit
+
+E 1 11307     2     3   0    10    57    56          0 an ancient amulet of sustenance
+
+M 0 11308     3 11347  22   100    58    -1          0 a decrepit, old hag
+
+M 0 11309     1 11313   1   100    59    -1          0 Marco, The Fortune Teller
+
+E 1 11303     5    17   0    20    60    59          0 a fortune teller's crystal ball
+
+E 1 11304     3    10   0    10    61    59          0 the sleeves of fortune telling
+
+M 0 11310     1 11358   1   100    62    -1          0 a silly-looking gyspy half-kender
+
+E 1 11301     3     8   0    10    63    62          0 a pair of sky-blue boots with gold trim
+
+M 0 11313     1 11370   1   100    64    -1          0 the Caravan Captain
+
+E 1 11300     2     5   0    10    65    64          0 a deep violet tunic emblazoned with the symbol of the joker
+
+M 0 11312     2 11370   2   100    66    -1          0 a caravan guard
+
+M 0 11312     2 11370   2   100    67    -1          0 a caravan guard
+
+M 0 11314     1 11381   1   100    68    -1          0 the Head Gypsy Weaver
+
+E 1 11305     3     6   0    10    69    68          0 a hat of one hundred feathers
+
+M 0 11315     1 11325   1   100    70    -1          0 Grathrin, the dwarven merchant
+
+E 1 11302     2    17   0    10    71    70          0 a silver dagger of swirling colors
+
+M 0 11316     1 11336   1   100    72    -1          0 Tanya, the Master Musician
+
+E 1 11306     3    14   0    10    73    72          0 a violet, black and gold bracer
+
+S
+$

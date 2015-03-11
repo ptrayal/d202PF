@@ -1,0 +1,917 @@
+#600
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 1
+D0
+~
+~
+0 0 2504 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 601 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 603 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 602 0 0 0 0 0 0 0 0
+S
+#601
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D2
+~
+~
+0 0 605 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 600 0 0 0 0 0 0 0 0
+S
+#602
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D1
+~
+~
+0 0 600 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 604 0 0 0 0 0 0 0 0
+S
+#603
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D0
+~
+~
+0 0 600 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 605 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 606 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 604 0 0 0 0 0 0 0 0
+S
+#604
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D0
+~
+~
+0 0 602 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 603 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 607 0 0 0 0 0 0 0 0
+S
+#605
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D0
+~
+~
+0 0 601 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 608 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 603 0 0 0 0 0 0 0 0
+S
+#606
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D0
+~
+~
+0 0 603 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 608 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 609 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 607 0 0 0 0 0 0 0 0
+S
+#607
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D0
+~
+~
+0 0 604 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 606 0 0 0 0 0 0 0 0
+S
+#608
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 0 0 0 0 0
+D0
+~
+~
+0 0 605 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 606 0 0 0 0 0 0 0 0
+S
+#609
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  
+~
+6 c 0 0 0 0
+D0
+~
+~
+0 0 606 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 600 610 25 0 0 0 0 0 0 0
+S
+#610
+Academy Ruins~
+   You walk the ruins of the former Academy of Magic in Luskan, now lying
+completely in ruins.  The sky seems to be perpetually overcast here and the
+occasional sound of something moving can be heard.  The ruins appear to have
+been completely looted, as nothing of worth is anywhere in sight.  A stone
+staircase leads down into darkness.  
+~
+6 c 0 0 0 0
+D0
+~
+door~
+1 600 609 25 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 611 0 0 0 0 0 0 0 0
+S
+#611
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D0
+~
+~
+0 0 614 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 612 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 610 0 0 0 0 0 0 0 0
+S
+#612
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D0
+~
+~
+0 0 615 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 611 0 0 0 0 0 0 0 0
+S
+#613
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D0
+~
+~
+0 0 616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 611 0 0 0 0 0 0 0 0
+S
+#614
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D0
+~
+~
+0 0 617 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 616 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 611 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 615 0 0 0 0 0 0 0 0
+S
+#615
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D0
+~
+~
+0 0 618 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 614 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 612 0 0 0 0 0 0 0 0
+S
+#616
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D0
+~
+~
+0 0 619 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 614 0 0 0 0 0 0 0 0
+S
+#617
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D0
+~
+~
+0 0 620 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 619 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 614 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 618 0 0 0 0 0 0 0 0
+S
+#618
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D1
+~
+~
+0 0 617 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 615 0 0 0 0 0 0 0 0
+S
+#619
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 d 0 0 0 0
+D2
+~
+~
+0 0 616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 617 0 0 0 0 0 0 0 0
+S
+#620
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  
+~
+6 cd 0 0 0 0
+D0
+~
+door~
+1 601 621 30 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 617 0 0 0 0 0 0 0 0
+S
+#621
+Academy Ruins Basement~
+   The basement of the academy ruins looks to have been equally looted by
+thieves and previous adventurers.  The air is musty and smells faintly of myrrh.
+There appears to be little left down here except for broken furniture and it
+looks as if the area served once as a large classroom with shelves lining the
+walls filled with broken vials and worm-eaten books and scrolls.  In the center
+of the floor is a swiling portal of fire and smoke leading to some unknown but
+dangerous-looking destination.  
+~
+6 cd 0 0 0 0
+D2
+~
+door~
+1 601 620 30 0 0 0 0 0 0 0
+S
+#622
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#623
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#624
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#625
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#626
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#627
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#628
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#629
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#630
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#631
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#632
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#633
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#634
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#635
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#636
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#637
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#638
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#639
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#640
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#641
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#642
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#643
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#644
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#645
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#646
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#647
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#648
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#649
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#650
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#651
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#652
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#653
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#654
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#655
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#656
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#657
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#658
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#659
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#660
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#661
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#662
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#663
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#664
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#665
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#666
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#667
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#668
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#669
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#670
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#671
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#672
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#673
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#674
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#675
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#676
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#677
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#678
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#679
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#680
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#681
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#682
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#683
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#684
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#685
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#686
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#687
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#688
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#689
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#690
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#691
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#692
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#693
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#694
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#695
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#696
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#697
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#698
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+#699
+A new room~
+You are in an unfinished room.
+~
+6 0 0 0 0 0
+S
+$~

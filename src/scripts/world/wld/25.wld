@@ -1,0 +1,652 @@
+#2500
+New Adventurer Registration~
+   This is a spacious room of sanded vallenwood, occupied mostly by one large
+counter and several shelves filled with scrolls of paper, parchments and
+papyrus.  Posted on the wall are several leather tapestries with various bits of
+information about Solace and the local adventuring community engraven upon them.
+There are vents near the ceilings to allow the passage of air, though only one
+window occupies the room, set in the wall behind the counter.  
+~
+25 d 0 0 0 0
+S
+#2501
+Solace Greeting Post~
+   A rather extravagent display has been set up just off the road heading into
+Solace to the west.  There is a small buildng, just large enough to house one
+person comfortably, and a window at head level.  Beside it and off to the side
+is a rather ornate stone platform with some strange symbols engraven into the
+stone.  The platform seems to be surrounded by an almost invisble globe of
+energy.  
+~
+25 ceh 0 0 0 1
+D2
+~
+~
+0 0 116 0 0 0 0 0 0 0 0
+S
+#2502
+A Path to the Luskan Academy Ruins~
+   This rocky path appears well abused with the looks of trampled grass and
+shrubbery on both sides of the strewn rock path.  Not much grows nearby except
+for a few weeds, and it seems almost as if the area near the ruins of the
+academy are filled with a dark mist and shrouded with clouds low overhead.  
+~
+25 0 0 0 0 10
+D0
+~
+~
+0 0 118 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2503 0 0 0 0 0 0 0 0
+S
+#2503
+A Path to the Luskan Academy Ruins~
+   This rocky path appears well abused with the looks of trampled grass and
+shrubbery on both sides of the strewn rock path.  Not much grows nearby except
+for a few weeds, and it seems almost as if the area near the ruins of the
+academy are filled with a dark mist and shrouded with clouds low overhead.  
+~
+25 0 0 0 0 10
+D0
+~
+~
+0 0 2502 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2504 0 0 0 0 0 0 0 0
+S
+#2504
+A Path to the Luskan Academy Ruins~
+   This rocky path appears well abused with the looks of trampled grass and
+shrubbery on both sides of the strewn rock path.  Not much grows nearby except
+for a few weeds, and it seems almost as if the area near the ruins of the
+academy are filled with a dark mist and shrouded with clouds low overhead.  
+~
+25 c 0 0 0 10
+D0
+~
+~
+0 0 2503 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 600 0 0 0 0 0 0 0 0
+S
+#2505
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2506
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2507
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2508
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2509
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2510
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2511
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2512
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2513
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2514
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2515
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2516
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2517
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+D0
+~
+~
+0 0 281 0 0 0 0 0 0 0 0
+S
+#2518
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2519
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2520
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2521
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2522
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2523
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2524
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2525
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2526
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2527
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2528
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2529
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2530
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2531
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2532
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2533
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2534
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2535
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2536
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2537
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2538
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2539
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2540
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2541
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2542
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2543
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2544
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2545
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2546
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2547
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2548
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2549
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2550
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2551
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2552
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2553
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2554
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2555
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2556
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2557
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2558
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2559
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2560
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2561
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2562
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2563
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2564
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2565
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2566
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2567
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2568
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2569
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2570
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2571
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2572
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2573
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2574
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2575
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2576
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2577
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2578
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2579
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2580
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2581
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2582
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2583
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2584
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2585
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2586
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2587
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2588
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2589
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2590
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2591
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2592
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2593
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2594
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2595
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2596
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2597
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2598
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+#2599
+A New Room~
+You are in an unfinished room.
+~
+25 0 0 0 0 0
+S
+$~

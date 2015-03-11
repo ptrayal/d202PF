@@ -1,0 +1,218 @@
+#9
+None.~
+Goblin Village~
+900 999 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0   904     1   979   1   100     1    -1          0 Sloth, the repugnant goblin king
+
+E 1   905     3     6   0    25     2     1          0 a thorny crown of braided iron
+
+M 0   910    10   964   2   100     3    -1          0 a short goblin archer
+
+M 0   907    10   964   2   100     4    -1          0 a nasty goblin archer
+
+M 0   907    10   967   2   100     5    -1          0 a nasty goblin archer
+
+M 0   910    10   967   2   100     6    -1          0 a short goblin archer
+
+M 0   910    10   970   2   100     7    -1          0 a short goblin archer
+
+M 0   907    10   970   2   100     8    -1          0 a nasty goblin archer
+
+M 0   910    10   973   2   100     9    -1          0 a short goblin archer
+
+M 0   907    10   973   2   100    10    -1          0 a nasty goblin archer
+
+M 0   907    10   976   2   100    11    -1          0 a nasty goblin archer
+
+M 0   910    10   976   2   100    12    -1          0 a short goblin archer
+
+M 0   909    30   975   2   100    13    -1          0 a heavy goblin tower guard
+
+M 0   908    30   975   2   100    14    -1          0 a stocky goblin tower guard
+
+M 0   908    30   974   2   100    15    -1          0 a stocky goblin tower guard
+
+M 0   909    30   974   2   100    16    -1          0 a heavy goblin tower guard
+
+M 0   909    30   957   2   100    17    -1          0 a heavy goblin tower guard
+
+M 0   908    30   957   2   100    18    -1          0 a stocky goblin tower guard
+
+M 0   908    30   958   2   100    19    -1          0 a stocky goblin tower guard
+
+M 0   909    30   958   2   100    20    -1          0 a heavy goblin tower guard
+
+M 0   909    30   971   2   100    21    -1          0 a heavy goblin tower guard
+
+M 0   908    30   971   2   100    22    -1          0 a stocky goblin tower guard
+
+M 0   908    30   972   2   100    23    -1          0 a stocky goblin tower guard
+
+M 0   909    30   972   2   100    24    -1          0 a heavy goblin tower guard
+
+M 0   909    30   959   2   100    25    -1          0 a heavy goblin tower guard
+
+M 0   908    30   959   2   100    26    -1          0 a stocky goblin tower guard
+
+M 0   908    30   968   2   100    27    -1          0 a stocky goblin tower guard
+
+M 0   909    30   968   2   100    28    -1          0 a heavy goblin tower guard
+
+M 0   909    30   969   2   100    29    -1          0 a heavy goblin tower guard
+
+M 0   908    30   969   2   100    30    -1          0 a stocky goblin tower guard
+
+M 0   908    30   960   2   100    31    -1          0 a stocky goblin tower guard
+
+M 0   909    30   960   2   100    32    -1          0 a heavy goblin tower guard
+
+M 0   909    30   965   2   100    33    -1          0 a heavy goblin tower guard
+
+M 0   908    30   965   2   100    34    -1          0 a stocky goblin tower guard
+
+M 0   908    30   966   2   100    35    -1          0 a stocky goblin tower guard
+
+M 0   909    30   966   2   100    36    -1          0 a heavy goblin tower guard
+
+M 0   909    30   961   2   100    37    -1          0 a heavy goblin tower guard
+
+M 0   908    30   961   2   100    38    -1          0 a stocky goblin tower guard
+
+M 0   908    30   962   2   100    39    -1          0 a stocky goblin tower guard
+
+M 0   909    30   962   2   100    40    -1          0 a heavy goblin tower guard
+
+M 0   909    30   963   2   100    41    -1          0 a heavy goblin tower guard
+
+M 0   908    30   963   2   100    42    -1          0 a stocky goblin tower guard
+
+M 0   905    15   936   1   100    43    -1          0 a dirty little female goblin
+
+M 0   903     1   936   1   100    44    -1          0 a crying human girl
+
+M 0   902    10   924   1   100    45    -1          0 a hefty goblin guard
+
+M 0   912    25   924   1   100    46    -1          0 a large grey worg
+
+M 0   902    10   911   1   100    47    -1          0 a hefty goblin guard
+
+M 0   900    10   911   1   100    48    -1          0 a shifty-eyed goblin scout
+
+M 0   912    25   911   1   100    49    -1          0 a large grey worg
+
+M 0   901     7   913   1   100    50    -1          0 a dirty goblin child
+
+M 0   912    25   913   1   100    51    -1          0 a large grey worg
+
+M 0   911    10   916   1   100    52    -1          0 a burly goblin soldier
+
+M 0   912    25   916   1   100    53    -1          0 a large grey worg
+
+M 0   912    25   930   1   100    54    -1          0 a large grey worg
+
+M 0   912    25   928   1   100    55    -1          0 a large grey worg
+
+M 0   902    10   910   1   100    56    -1          0 a hefty goblin guard
+
+M 0   901     7   910   1   100    57    -1          0 a dirty goblin child
+
+M 0   912    25   910   1   100    58    -1          0 a large grey worg
+
+M 0   912    25   902   1   100    59    -1          0 a large grey worg
+
+M 0   900    10   904   1   100    60    -1          0 a shifty-eyed goblin scout
+
+M 0   912    25   904   1   100    61    -1          0 a large grey worg
+
+D 0   907     2     1   0   101    62    -10 
+
+M 0   912    25   907   1   100    63    -1          0 a large grey worg
+
+M 0   905    15   932   1   100    64    -1          0 a dirty little female goblin
+
+M 0   901     7   931   1   100    65    -1          0 a dirty goblin child
+
+M 0   905    15   931   1   100    66    -1          0 a dirty little female goblin
+
+M 0   905    15   933   1   100    67    -1          0 a dirty little female goblin
+
+M 0   905    15   934   1   100    68    -1          0 a dirty little female goblin
+
+M 0   905    15   935   1   100    69    -1          0 a dirty little female goblin
+
+M 0   905    15   937   1   100    70    -1          0 a dirty little female goblin
+
+M 0   911    10   938   1   100    71    -1          0 a burly goblin soldier
+
+M 0   905    15   938   1   100    72    -1          0 a dirty little female goblin
+
+M 0   905    15   939   1   100    73    -1          0 a dirty little female goblin
+
+M 0   905    15   940   1   100    74    -1          0 a dirty little female goblin
+
+M 0   911    10   941   1   100    75    -1          0 a burly goblin soldier
+
+M 0   905    15   941   1   100    76    -1          0 a dirty little female goblin
+
+M 0   905    15   942   1   100    77    -1          0 a dirty little female goblin
+
+M 0   905    15   943   1   100    78    -1          0 a dirty little female goblin
+
+M 0   905    15   944   1   100    79    -1          0 a dirty little female goblin
+
+M 0   905    15   945   1   100    80    -1          0 a dirty little female goblin
+
+M 0   901     7   901   1   100    81    -1          0 a dirty goblin child
+
+M 0   900    10   901   1   100    82    -1          0 a shifty-eyed goblin scout
+
+M 0   901     7   906   1   100    83    -1          0 a dirty goblin child
+
+M 0   900    10   906   1   100    84    -1          0 a shifty-eyed goblin scout
+
+M 0   900    10   908   1   100    85    -1          0 a shifty-eyed goblin scout
+
+M 0   902    10   925   1   100    86    -1          0 a hefty goblin guard
+
+M 0   900    10   925   1   100    87    -1          0 a shifty-eyed goblin scout
+
+M 0   911    10   923   1   100    88    -1          0 a burly goblin soldier
+
+M 0   902    10   923   1   100    89    -1          0 a hefty goblin guard
+
+M 0   900    10   923   1   100    90    -1          0 a shifty-eyed goblin scout
+
+M 0   900    10   921   1   100    91    -1          0 a shifty-eyed goblin scout
+
+M 0   901     7   915   1   100    92    -1          0 a dirty goblin child
+
+M 0   901     7   909   1   100    93    -1          0 a dirty goblin child
+
+M 0   902    10   922   1   100    94    -1          0 a hefty goblin guard
+
+M 0   911    10   926   1   100    95    -1          0 a burly goblin soldier
+
+M 0   902    10   926   1   100    96    -1          0 a hefty goblin guard
+
+M 0   906     5   919   1   100    97    -1          0 a goblin patroller
+
+M 0   906     5   917   1   100    98    -1          0 a goblin patroller
+
+M 0   911    10   929   1   100    99    -1          0 a burly goblin soldier
+
+M 0   906     5   929   1   100   100    -1          0 a goblin patroller
+
+M 0   906     5   927   1   100   101    -1          0 a goblin patroller
+
+M 0   911    10   912   1   100   102    -1          0 a burly goblin soldier
+
+D 0   977     0     1   0   101   103    -10 
+
+D 0   978     5     1   0   101   104    -10 
+
+S
+$

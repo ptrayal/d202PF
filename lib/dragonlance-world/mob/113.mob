@@ -1,0 +1,92 @@
+#11300
+waddling midget~
+a waddling midget~
+A midget waddles around aimlessly, here.
+~
+   Short, stumpy arms and legs make this fellow look clumsy and weak.  His eyes
+are close together and he has a broad forehead.  He ambles along at his slow,
+methodical pace.    
+~
+d 0 0 0 k 0 0 0 0
+23 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This fellow, who is picking your
+This huge guard towers seven feet in the air.  He is built like a rock, and
+This gyspy wanders around, bumping into people rather clumsily.  He is
+This merchant has come to sell his wares, although he has lost a great deal
+This old crone screams at the top of here lungs in several languages about
+They are not selling well, and she fidgets constantly.
+#11309
+marco fortune teller~
+Marco, The Fortune Teller~
+The Fortune Teller sits here, peering into his crystal ball.
+~
+   Marco, The Fortune Teller sits calmly in his chair and eyes you over.  Bony
+hands clutch his crystal ball as he peers into the swirling masses within.  
+The top of his completely bald head is covered with a hat plumed with a hundred
+feathers.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This gypsy giggles and prances around her blue tent with glee.  Her hair is
+#11312
+caravan guard~
+a caravan guard~
+A caravan guard stands watch over the wagons.
+~
+   Brawny and dark-skinned from hours in the sun, this guard walks in a random
+pattern around the wagons.  He stays near the caravan leader, and always keeps
+one eye in his direction.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The Captain of the Caravan parades around his wagons.
+The Captain of the Caravan parades around this place with arrogance.  He
+The gypsy's head weaver works the loom with a great mastery.
+Tanya, the Master Musician~
+Tanya weaves a beautiful tune for all to hear.  You feel strangely drawn to
+$

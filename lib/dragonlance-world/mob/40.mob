@@ -1,0 +1,1502 @@
+#4000
+knight~
+a @YKnight@n of @RRedemption@n~
+a @YKnight@n of @RRedemption@n Patrols the City streets.
+~
+A knight of Redemption scans the area looking for those it can redeem
+~
+deimu 0 0 0 k u d 0 0
+29 -3 -19 120d100+470 1d8+0
+1817 900 21 10
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4001
+captain~
+a @YKnight@n @rCaptain@n~
+a @YKnight@n @rCaptain@n
+~
+An undefined string.~
+dimuE b 0 0 k u d 0 0
+32 20 -22 132d100+520 1d8+0
+1880 1500 21 10
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4003
+cleric~
+an Elder Cleric~
+an Elder Cleric is here.
+~
+It looks unfinished.
+~
+bdA 0 0 0 k 0 0 0 0
+40 20 -30 164d100+630 1d8+0
+2080 0 44 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4004
+Book keeper~
+a Bookkeeper~
+A Bookkeeper is here.
+~
+It looks unfinished.
+~
+bdA 0 0 0 k 0 0 0 0
+40 20 -30 164d100+610 1d8+0
+2080 0 44 27
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4007
+#4005
+carpenter~
+a Carpenter~
+A Carpenter stands here, with a look of desperation.
+~
+It looks unfinished.
+~
+bdzA 0 0 0 k 0 0 0 0
+50 20 -40 204d100+750 1d8+0
+2420 0 0 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 28
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4009
+#4006
+shield maker~
+a Shield Maker~
+a Shield Maker is here waiting on a shipment
+~
+It looks unfinished.
+~
+bd b 0 0 k 0 0 0 0
+40 20 -30 164d100+640 1d8+0
+2080 0 44 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4012
+#4007
+show quest~
+a @YQuest@n is here type: (@YShow Quest@n) to view it.~
+a @YQuest@n is here type: (@YShow Quest@n) to view it.
+~
+It looks unfinished.
+~
+bd 0 0 0 k 0 0 0 0
+1 20 10 1d1+0 1d8+0
+0 0 0 27
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#4008
+painter~
+a Painter~
+a Painter
+~
+It looks unfinished.
+~
+bdA 0 0 0 k 0 0 0 0
+40 20 -30 164d100+650 1d8+0
+2080 0 44 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4009
+guard~
+a Guard~
+A Guard stands on duty here, he seems to be looking for something.
+~
+It looks unfinished.
+~
+bdA 0 0 0 k 0 0 0 0
+40 20 -30 164d100+620 1d8+0
+2080 0 44 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4010
+squire~
+a @YKnights@n Squire~
+a @YKnights@n Squire is here.
+~
+It looks unfinished.
+~
+di 0 0 0 k 0 0 0 0
+25 20 -15 104d100+410 1d8+0
+1755 225 44 10
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4011
+butcher~
+a Butcher~
+A butcher stands here trying to find his cleaver.
+~
+It looks unfinished.
+~
+bdA 0 0 0 k 0 0 0 0
+40 20 -30 164d100+660 1d8+0
+2080 0 44 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4012
+knight commander~
+a @YKnight@n @CCommander@n~
+a @YKnight@n @CCommander@n is here.
+~
+It looks unfinished.
+~
+diwE 0 0 0 k 0 0 0 0
+36 20 -26 148d100+620 1d8+0
+15000 2000 44 5
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 25
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4013
+page~
+a @YPage@n~
+a @YPage@n is standing here.
+~
+It looks unfinished.
+~
+dim 0 0 0 k 0 0 0 0
+25 20 -15 312d100+690 1d8+0
+1755 0 44 3
+8 8 2
+E
+BareHandAttack: 2
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4014
+knight sentinel~
+a @YKnight@n Sentinel~
+a @YKnight@n Sentinel is here standing at ease.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+1 20 10 1d1+0 1d8+0
+0 0 0 0
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#4015
+knight errant~
+a @YKnight@n @cErrant@n~
+a @YKnight@n @cErrant@n is here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+27 20 -17 112d100+470 1d8+0
+1784 0 44 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4016
+knight marshal~
+a @YKnight@n @rMarshal@n~
+a @YKnight@n @rMarshal@n stands here.
+~
+It looks unfinished.
+~
+abdEF 0 0 0 k F 0 0 0
+40 20 -30 164d100+570 1d8+0
+2080 0 44 11
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4017
+pickpocket~
+a @rPickpocket@n is here~
+a @rPickpocket@n is here
+~
+It looks unfinished.
+~
+dhjk 0 0 0 k 0 0 0 -1000
+24 20 -14 294d100+630 1d8+0
+1744 0 44 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4018
+Latos Trainer~
+Latos City Trainer~
+Latos City Trainer is here, training pupils.
+~
+It looks unfinished.
+~
+bdA ac 0 0 k 0 0 0 0
+40 20 -30 164d100+710 1d8+0
+2080 0 44 5
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 26
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4019
+peddler~
+a @gPeddler@n~
+a @gPeddler@n is here.
+~
+It looks unfinished.
+~
+du 0 0 0 k 0 0 0 -1000
+25 20 -15 104d100+450 1d8+0
+1755 0 44 2
+8 8 2
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4020
+necro lord~
+@rNecro Lord@n~
+@rNecro Lord@n
+~
+the necro lord is here to tickle anula to death
+~
+bdijklmrstuF e 0 0 kz q 0 0 0
+40 0 -38 4800d200+110 1d8+20
+1000 25000 6 0
+8 8 1
+E
+BareHandAttack: 12
+E
+Str: 12
+E
+Dex: 26
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4021
+three headed giant~
+@rThree headed Giant@n~
+@rThree headed Giant@n
+~
+It looks unfinished.
+~
+bdfjklmF 0 0 0 k s c 0 0
+17 12 -10 5100d170+107 1d8+8
+53 80000 13 12
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 20
+E
+Cha: 10
+S
+#4022
+@wAncient@n @rGiant@n~
+@wAncient@n @rGiant@n~
+@wAncient@n @rGiant@n
+~
+It looks unfinished.
+~
+bdfjklmnpruF 0 0 0 k 0 0 0 0
+21 20 -11 88d100+410 1d8+0
+1709 15000 13 6
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4023
+Neverwinter gate guard~
+a @RNeverwinter's@n city Gate Guard stands here in full plate armor, with a missing helm.~
+a @RNeverwinter's@n city Gate Guard stands here in full plate armor, with a missing helm.
+~
+It looks unfinished.
+~
+abdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d10+921 1d8+0
+2860 0 43 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4024
+col colo colossus bronze~
+@yBronze@n @rColossus@n~
+@yBronze@n @rColossus@n
+~
+It looks unfinished.
+~
+bdjklmnprtuF 0 0 0 k 0 0 0 0
+22 20 -12 2760d100+1300 1d8+0
+1720 1 30 3
+8 8 1
+E
+BareHandAttack: 16
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4025
+@rMountain Troll@n~
+@rMountain Troll@n~
+@rMountain Troll@n
+~
+It looks unfinished.
+~
+bdfjklmnpruE 0 0 0 k 0 0 0 0
+22 20 1 92d100+400 1d8+0
+1720 0 13 6
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4026
+oak tree~
+a @wOak@n tree~
+a @wOak@n tree
+~
+It looks unfinished.
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+950 1d8+0
+2860 0 14 21
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4027
+hole~
+a round hole in the wall~
+a round hole in the wall
+~
+The hole in the wall looks just big enough for a marble to fit into it.  
+~
+bdA 0 0 0 k 0 0 0 0
+1 20 9 4d100+120 1d8+0
+1 0 100 21
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4028
+gralth~
+@gGralth@n the @YQuestpoint@n redeemer~
+@gGralth@n the @YQuestpoint@n redeemer
+~
+It looks unfinished.
+~
+bdnopqrzA d 0 0 k 0 0 0 0
+60 20 -50 244d100+960 1d8+0
+2860 0 43 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4029
+man beggar~
+the beggar of Latos~
+A seemingly blind beggar holds out a tin cup in a shakey hand.
+~
+This man is dressed in clothes that are about to fall off him, with dirty strips of cloth covering his eyes.
+~
+dlntwxE 0 0 0 k 0 0 0 0
+40 20 -30 1230d300+900 3d10+0
+2080 2500 48 18
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 14
+E
+Dex: 26
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4034
+#4030
+shifty underling thief~
+the Lato's Beggar's underling~
+A shifty looking character watches the goings on around him.
+~
+This man looks away as you look at him, keeping his face from view behind his cloak.
+~
+bcdegu 0 0 0 ikst B 0 0 0
+20 20 -60 84d100+370 2d8+0
+76 1750 48 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4031
+bulldog dog~
+a black snarling bulldog~
+A strapping bulldog snarls at all who approach.
+~
+This dog looks like he's seen the pits and has the awards to tell about it.
+~
+bcdew 0 0 0 fikr 0 0 0 0
+25 20 -70 104d100+440 2d8+0
+1755 1950 9 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4032
+stable master~
+a stable master~
+a stable master
+~
+The stable master stands here ready to sell you any kind of mount a person could
+ever need.  
+~
+bdA 0 0 0 k 0 m 0 0
+60 20 -50 244d100+1000 1d8+0
+2860 0 43 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 3045
+#4033
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+The priest stands here preaching the laws of justice.  
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+970 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4034
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+It looks unfinished.
+~
+bdnopqrA 0 0 0 k 0 0 0 0
+60 20 -50 244d100+920 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4035
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+the priest says a prayer to seraphime
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+950 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4036
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+It looks unfinished.
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+940 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4037
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+The priest is saying a prayer to Seraphime.  
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+920 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4038
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+The priest stands here praying to seraphime.  
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+910 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4039
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+The priest stands here praying to seraphime.  
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+870 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4040
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+It looks unfinished.
+~
+bdnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+950 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4041
+Rennor mad druid~
+@RRennor@n the Mad @GDruid@n~
+@RRennor@n the Mad @GDruid@n stands here gibbering like a madman.
+~
+This crazy man's eyes roll wildly in their sockets while flecks of drool drip
+from his lips.  He talks to himself continually, spouting nothing but nonsense.
+
+~
+bdl 0 0 0 k 0 0 0 0
+8 20 2 72d150+195 1d8+0
+10 0 43 9
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4036
+#4042
+priest of justice~
+a @WPriest@n of @CJustice@n~
+a @WPriest@n of @CJustice@n
+~
+   The priest stands here reciting a prayer to Seraphime.  
+~
+dnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+980 1d8+0
+2860 0 43 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4043
+abomination~
+an @rAbomination@n~
+an @rAbomination@n
+~
+The abomination stands here, hunched over.  Huge strands of druel drip from its
+maw.  
+~
+bdlnopqrsuD 0 0 0 k 0 0 0 0
+15 20 -5 64d100+380 1d8+0
+40 0 18 3
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 4037
+#4044
+pile of marker stones~
+a pile of @YMarker Stones@n~
+a pile of @YMarker Stones@n
+~
+This @YMarker stone@n glows with a faint light, it seems to be wanting
+something...  You feel an urge to explore luskan.  
+~
+bdA 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+1236 0 100 27
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4045
+pile of marker stones~
+a pile of @YMarker Stones@n~
+a pile of @YMarker Stones@n
+~
+A pile of @YMarker Stones@n are here, they all seem to have the number two
+etched into them.  
+~
+bdA 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+1236 0 100 27
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4050
+Szas Tam lich necromancer lord thay~
+Szas Tam ~
+Szas Tam, Lich Lord of Thay, stands proudly here.
+~
+It looks unfinished.
+~
+bdfijkmnoptwF 0 0 0 cdfhkmnqrz bhqv m 0 0
+30 10 -26 25200d300+120 5d20+10
+0 0 6 0
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4079
+wolf tundra great~
+a large great tundra wolf~
+A large great tundra wolf with tortoise shell markings stands on alert here
+~
+This large great tundra wolf is a magnifigant example of the wild tortoise shell 
+markings of wild wolves.  She has the silver bib under her mawl, and the 
+silver trimmings along the outside of her ears.
+~
+dy 0 0 0 k 0 0 0 0
+4 18 6 48d40+1000 1d8+2
+1 0 10 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4080
+stallion horse~
+a black and brown stallion with a dark grey mane and tail~
+A black and brown stallion with a dark grey mane and tail is here.
+~
+   This steed has a deep black coat with splotches of dark chocolate brown.  It
+seems to have the training of a formal mount and some combat experience.  
+~
+dy 0 0 0 k 0 0 0 0
+10 15 -2 240d80+98 1d8+5
+1 0 40 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4081
+donkey mule stead~
+a brown mule~
+A stubborn brown mule with black mane and tail stands here
+~
+This stubborn beast is a good representation of it's kind.
+Her hooves are firmly planted in the ground, legs stiff and
+she continues to graze against the orders of her owner.
+~
+dy 0 0 0 k 0 0 0 0
+6 20 4 84d100+800 1d8+0
+0 0 40 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4082
+Council Member~
+a @WCouncil Member@n~
+a @WCouncil Member@n
+~
+It looks unfinished.
+~
+bdADEF 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4083
+mob unfinished~
+a @WCouncil Member@n~
+a @WCouncil Member@n
+~
+It looks unfinished.
+~
+bdADEF 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 0
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4084
+mob unfinished~
+a @WCouncil Member@n~
+a @WCouncil Member@n
+~
+It looks unfinished.
+~
+bdADEF 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 0
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4085
+Council Member~
+a @WCouncil Member@n~
+a @WCouncil Member@n
+~
+It looks unfinished.
+~
+bdDE 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 0
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4086
+Chancelor~
+@WThe Chancelor@n~
+@WThe Chancelor@n
+~
+It looks unfinished.
+~
+bdADEF 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4100
+Melnik~
+Melnik the Shop owner ~
+Melnik the General Shop owner is here
+~
+It looks unfinished.
+~
+bdA bd 0 0 k 0 0 0 500
+20 14 -14 1100d100+100 1d8+6
+50000 0 42 27
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#4101
+Garlth~
+Garlth the armorer~
+Garlth the armorer polishes a sword
+~
+A strong looking man, if a little round around the belly. A few scars tell of a troubled and adventurous past. He seems to look at his inventory with a certain eagerness that is suited more for battle than for a shop keeper.
+~
+bdA bd 0 0 0 0 0 0 500
+20 14 -14 1100d100+100 1d1+6
+50000 0 42 27
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#4102
+Grafton~
+Grafton the butcher~
+Grafton the butcher is cleaving a piece of meat
+~
+A strong and muscled man. He looks like he enjoys his job by the way he attacks the meat on his counter.
+~
+bd bd 0 0 0 0 0 0 -250
+20 14 -14 1100d100+100 1d1+6
+1000 0 42 27
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 10
+S
+#4397
+spirit of a dead soldier~
+@WSpirit@n of a dead @rSoldier@n~
+@WSpirit@n of a dead @rSoldier@n
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+20 10 -14 160d100+100 1d8+10
+0 0 0 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4398
+necro king~
+@rNecro King@n~
+@rNecro King@n
+~
+It looks unfinished.
+~
+djkrD 0 0 0 k uF 0 0 0
+15 20 -5 64d100+300 1d8+0
+90 35000 93 2
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4399
+steam driven robot~
+@WSteam@n driven @CRobot@n~
+@WSteam@n driven @CRobot@n
+~
+This is brons little pony
+~
+dy 0 0 0 k 0 m 0 0
+1 20 9 4d100+140 1d8+0
+1 0 100 4
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

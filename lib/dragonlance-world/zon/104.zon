@@ -1,0 +1,50 @@
+#104
+None.~
+RdBlodetoKhur~
+10400 10499 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 10400     1 10401   1   100     0    -1          0 a young, half-elven traveller
+
+M 0 10401     2 10416   1   100     1    -1          0 a whiny merchant
+
+M 0 10401     2 10450   1   100     2    -1          0 a whiny merchant
+
+M 0 10403     3 10424   1   100     3    -1          0 a pot-bellied dwarven mountaineer
+
+G 1 10400    20     0   0   100     4     3          0 a piece of dried deer meat
+
+M 0 10405     1 10408   1   100     5    -1          0 a frail little boy
+
+M 0 10404     1 10408   1   100     6    -1          0 a migrant peasant woman
+
+M 0 10402     1 10408   1   100     7    -1          0 a migrant peasant
+
+M 0 10406     1 10480   1   100     8    -1          0 a slim woman in travelling clothes
+
+M 0 10407     1 10470   1   100     9    -1          0 an unfamiliar traveller
+
+M 0 10408     4 10455   1   100    10    -1          0 a screeching hawk
+
+M 0 10408     4 10454   1   100    11    -1          0 a screeching hawk
+
+M 0 10408     4 10453   1   100    12    -1          0 a screeching hawk
+
+M 0 10408     4 10452   1   100    13    -1          0 a screeching hawk
+
+M 0 10409     1 10445   1   100    14    -1          0 a cunning brigand
+
+M 0 10410     1 10434   1   100    15    -1          0 a lost traveller
+
+G 1  1239     2     0   0    20    16    15          0 a burned, blackened scrollcase
+
+O 0 10401     1 10493   0   100    17    -1          0 a deteriorated wooden sign
+
+O 0 10402     1 10433   0   100    18     1          0 a whithered stump
+
+D 0 10433     5     1   0   101    19    -10 
+
+S
+$

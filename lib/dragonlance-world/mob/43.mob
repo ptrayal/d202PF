@@ -1,0 +1,1005 @@
+#4300
+sentry stern stern-looking white~
+a stern-looking sentry in white studded leather~
+A stern-looking sentry in white studded leather blocks the eastern gates.
+~
+   This man appears to be of middle aged and from the expression on his face he
+takes his job very seriously.  He wields a large, one-handed spear in one hand
+and a wooden shield bearing the crest of a blue star on a red background in the
+other.  He looks at you sternly and shakes his head disapprovingly as you take
+a step forward.    
+~
+d 0 0 0 k 0 0 0 1000
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4301
+warrior rugged rugged-looking human~
+a rugged-looking human warrior~
+A rugged-looking human warrior stands here with an angry look on his face.
+~
+   This man looks to be in his early thirties or so.  He is rugged-looking with
+an unshaven, blemished face.  He wears simple clothing of grey and brown, all
+of which look like they've seen plenty of use.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4302
+warrior human humble humble-looking~
+a humble-looking human warrior~
+A humble-looking human warrior stands here with a look of astonishment on his face.
+~
+   This man looks to be in his late twenties or early thirties.  His expression
+is one of calmness and peace.  He wears neatly kept clothing of white and
+black.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4303
+silly looking creature~
+:: MobHPs After Level 20~
+Q@Q@points 6d20+88~Wed Dec  5 (Sargonnas)  :: New Zones
+~
+0 0 0 0 0 0
+dgjklp n c 0  0 0 0 0  -500 0 E
+10 11 0 6d20+88 5d2+3
+3 400
+8 8 1
+#4304
+knight crown clean-shaven~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4305
+knight crown fresh-faced~
+a fresh-faced knight of the crown~
+A fresh-faced knight of the crown stands here frowning for some reason.
+~
+   This young man appears to be in his early twenties, and must have just
+recently been made a knight of the crown.  His face is fresh and young and
+shows few signs of any experience.  He wears a suit of white chain mail bearing
+the crest of a blue star over a red background.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4306
+elf qualinesti calm tactful~
+a calm, tactful qualinesti elf~
+A calm, tactful qualinesti elf stands here with quiet observance on his face.
+~
+   This elf looks to be in his middle years and has a calm, peaceful
+expression.  He wears a suit of white studded leather armor bearing the crest
+of a blue star on a red background.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4307
+elf silvanesti arrogant disgruntled~
+an arrogant, disgruntled silvanesti elf~
+An arrogant, disgruntled silvanesti elf stands here with a perpetual scowl.
+
+~
+This elf is of silvanesti origin and looks to be in his early life.  His
+expression is on of discontent, and apparantly he doesn't want to be where
+his is right now.  He wears a suit of white studded leather armor bearing
+the crest of a blue star over a red background.
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4308
+dwarf hylar gruff~
+a gruff hylar dwarf~
+A gruff hylar dwarf stands here banging his fists together.
+~
+   This dwarf appears to be in his middle years and wears a long, black beard,
+neatly combed.  He wears a suit of white studded leather armor bearing the
+crest of a blue star over a red background.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4309
+dwarf neidar aging~
+an aging neidar dwarf~
+An aging neidar dwarf stands here rubbing his head thoughtfully.
+~
+   This dwarf has certainly seen many things and many years.  His beard is kept
+short and is brown with streaks of grey throughout.  He wears a suit of white
+studded leather armor bearing the crest of a blue star over a red background.
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4310
+wizard white robed thoughtful~
+a white-robed wizard with a thoughtful expression~
+A white-robed wizard with a thoughftul expression peers over the tables.
+~
+   This wizard appears to be middle-aged and wears the snowy robes of the order
+of white robes.  He occasionally fiddles with the alchemal equipment, pouring
+smoking liquids into glass vials.  From time to time he pauses and leans over
+the table, thinking quietly to himself.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4311
+wizard red robed cropped brown hair~
+a red-robed wizard with cropped brown hair~
+A red-robed wizard with cropped brown hair fiddles with the alchemal equipment.
+~
+   This female wizard wears the blood red robes of Lunitari.  She slowly passes
+from table to table, carefully adjusting the alchemal equipment and smelling
+the smoke pouring out of some of the vials.  She pays you little attention,
+obviously enamoured with her work.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4312
+studious red-haired white robe~
+a studious, red-haired white robe~
+A studious, red-haired white robe peers intently into a dusty tome.
+~
+   This young man is certainly less than thirty years old.  His skin is fair
+and unblemished, a definite sign of youth and perhaps of sheltering as well.  
+He quietly reads from a tome scanning the pages with his finger very quickly
+before skipping to the next.    
+~
+d 0 0 0 k 0 0 0 890
+13 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4313
+flaring blond-haired red robe~
+a flaring, blond-haired red robe~
+A blond-haired red robe with flaring eyes shifts uncomfortably as she reads.
+~
+   This woman is quite attractive, with shoulder-length blond hair and a fair,
+milky white complexion.  Most noticable are her eyes, which flare with life and
+ambition.  She glances at you briefly before returning to her studies.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4314
+sorcerer impatient white-robed~
+an impatient, white-robed sorcerer~
+An impatient, white-robed sorcerer gazes frustratingly into a crystal orb.
+~
+   This man appears to be in his late fourties or so.  He has a rugged
+appearance with strangely weathered skin, and a slight tan.  He wears robes of
+bone white that cover his feet and slide against the floor as he adjusts his
+seating.  He looks at you impatiently as if wondering what in Krynn you are
+doing in his chambers
+~
+d 0 0 0 k 0 0 0 600
+17 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4315
+aide clerical young~
+a young clerical aide~
+A young clerical aide strolls through the shrines going about an errand.
+~
+   This young man is a low level acolyte whose duties include running errands
+for the elder priests in the camp.  He is fresh-faced and eager in his duties
+and he flashes you a friendly smile after an intially confused look.    
+~
+d 0 0 0 k 0 0 0 900
+9 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4316
+priest resident~
+the resident priest of Paladine~
+The resident priest of Paladine kneels here, deep in prayer.
+~
+  This man is in his mid-fourties or so, and has a cleanly shaven face
+and young, friendly eyes.  He wears a set of white robes that fall short
+just below his knees.  He stops kneeling as you approach and offers
+his arms out in greeting.
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4317
+priest resident~
+the resident priest of Kiri-Jolith~
+The resident priest of Kiri-Jolith is here polishing a ceremonial mace.
+~
+   This man is somewhat young for a priest of high standing.  He has short
+blond hair with streaks of brown throughout.  He wears white robes with brown
+trimming bearing the symbol of a bison's horns on the chest.  He stops his
+polishing of the ceremonial mace for a quick moment to give you a brief smile.
+He then returns to his work and beckons for you to have a seat on a nearby
+bench
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4318
+priest resident~
+the resident priest of Habbakuk~
+The resident priest of Habbakuk tends to a small plant near the altar.
+~
+   This woman, although relatively old, is still quite attractive.  She has
+soft, flowing brown hair that drapes halfway down her back.  Her eyes are
+clearest blue and sparkle with joy and love for life.  She wears deep blue
+robes with white trimming and a holy symbol bearing the symbol of a blue
+phoenix.  She smiles as you enter and takes a seat near the altar eagerly
+awaiting a chance to be of assistance.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4320
+priest resident~
+the resident priest of Mishakal~
+The resident priest of Mishakal is here tending to some herbs.
+~
+   This man is quite old, almost decrepit in fact.  Despite his age he seems to
+be in pretty good health, although his movements are slow and planned.  He has
+stringy white hair cut close to the head and deep, knowledge-filled eyes of a
+hazel hue.  He smiles at you warmly as you enter and beckons for you to come
+closer to speak with him.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4321
+priest resident~
+the resident priest of Majere~
+The resident priest of Majere sits here in quiet meditation.
+~
+   This man looks to be about fourty or so.  He has short black hair with a few
+whisps of grey.  His eyes are calm and relaxed, and you imagine that it would
+take a lot to rustle the feathers of this bird.  He sits cross-legged on the
+floor, breathing slowly in deep meditation.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4322
+commander stern white studded leather~
+a stern commander garbed in white studded leather~
+A stern commander garbed in white studded leather barks out orders.
+~
+   This middle aged man serves as a training commander for the forces of
+whitestone camp.  He is grizzled and stern-faced and barks out orders
+repeatedly to the troops in training.  He wears a suit of white studded leather
+armor bearing the symbol of a blue star over a red background.    
+~
+dD 0 0 0 k 0 0 0 900
+15 12 -14 900d150+105 1d8+8
+20 0 41 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#4323
+warrior half-elven~
+a half-elven warrior in white studded leather~
+Sparring with another combantant in mock-battle is a half-elven warrior.
+~
+   This half elf appears to be rather young, though on his face is an
+expression of grim determination.  He is currently involved in a sparring
+session with another warrior.  He wears a suit of white studded leather armor
+bearing the symbol of a blue star over a red background.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4325
+warrior fierce human~
+a fierce human warrior in white studded leather~
+A fierce human warrior clashes blades with another warrior in mock-battle.
+~
+   This human warrior is clad entirely in a suit of bleached white studded
+leather armor bearing the symbol of a blue star over a red background.  His
+expression is fierce and concentrated as he clashes his blade against that of
+another warrior in mock-battle.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4326
+soldier human calm calculating~
+a calm, calculating human soldier~
+A human soldier calmly and calculatingly exchanges blows with another warrior.
+~
+   This human soldier looks to be in his early thirties or so and has a cleanly
+shaven face with short brown hair.  He wears a suit of white studded leather
+armor bearing the symbol of a blue star over a red background.  His demeanor is
+calm and calculating as he methodically exchanges blows with another warrior in
+mock-battle.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4327
+swordsman elven confident elf~
+a confident elven swordsman~
+An elven swordsman confidently practices a thrust and parry maneuver.
+~
+   This young-looking elf has long blonde hair tied into four distinct thick
+braids that run down the length of his back.  He wears a suit of white studded
+leather armor bearing the symbol of a blue star over a red background.  He
+confidently practices a complex thrust and parry maneuver in practice for the
+inevitable upcoming war.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4328
+human bladesman white leather~
+a human bladesman in white studded leather~
+A human bladesman in white studded leather practices thrust combinations.
+~
+   This middle aged human bladesman is currently in the process of practicing
+various thrusting and slashing combinations.  He has a cleanly shaven head and
+a short black goatee.  He wears a suit of white studded leather armor bearing
+the symboml of a blue star over a red background.  He eyes you carefully but
+does not immediately stop his exercises.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4329
+horse brown white riding~
+a brown and white riding horse~
+A brown and white riding horse gnaws on a bale of hay.
+~
+   This horse is well-muscled and well-groomed.  It has dominant brown fur with
+patches of white throughout.  It calmly gnaws on a nearby bale of hay, paying
+you little to no attention at all.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4330
+warhorse horse large shining white~
+a shining white warhorse~
+A large warhorse with shining white fur brays at you in disturbance.
+~
+   This beautiful and majestic animal is quite large and well-muscled.  It has
+a coat of shining white fur without a single patch of any other color.  It
+brays at you in annoyance of disturbing its home.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#4331
+paladin impassive righteous~
+an impassive, righteous paladin~
+An impassive, righteous paladin guards the entrance to the command building.
+~
+   Clad in ornate white platemail, this paladin is impassive in keeping his
+duty.  He has short black hair and a long, solamnic moustache.  Strapped to his
+side in an elaborate scabbard is a gleaming white longsword.  He looks at you
+questioningly and takes a step forward to block your way.    
+~
+bdE 0 0 0 k 0 0 0 900
+16 10 -16 1920d180+1000 1d8+10
+23 0 41 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#4332
+angrik~
+Angrik~
+Angrik, a stone-faced plainsman, sits back with his arms folded across his chest.
+~
+   This man is quite large, standing over six feet tall and wieghing in at well
+over 200 pounds.  He has deeply tanned skin and wears an assortment of animal
+pelts.  He sits back in the chair with a stone-faced expression taking in the
+conversation without saying much at all
+~
+bdF 0 0 0 k 0 0 0 0
+16 9 -15 5440d250+115 1d8+11
+23 0 22 6
+8 8 1
+E
+Str: 12
+E
+Dex: 13
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 10
+S
+#4333
+shalun~
+Shalun~
+Shalun, a sturdy-looking knight of the rose, speaks with animated gestures.
+~
+   Before you is a sturdy-looking man with dark brown hair and a traditional
+Solamnic moustache on his face.  He wears the armor of a knight of the rose and
+has a long broadsword strapped to his side.  He speaks with great conviction on
+the dragonarmies and uses animated gesturing to help make his points strike
+home.    
+~
+bdF 0 0 0 k 0 0 0 900
+16 9 -17 3840d250+115 1d8+11
+23 0 41 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#4334
+varlux~
+Varlux~
+Varlux, a methodical white-robed wizard, sits here with a thoughtful expression.
+~
+   This man looks rather old, though he appears to be relatively healthy.  He
+has short grey hair and a neatly trimmed beard to match.  He wears robes of
+snow white that fall down to his ankles.  He sits here with a thoughtful
+expression, listening closely and acutely.    
+~
+bdF 0 0 0 k 0 0 0 900
+16 9 -9 1280d250+115 1d8+11
+23 0 41 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 11
+S
+#4335
+dalton~
+Dalton~
+Dalton, an experienced human swordsman, listens intently to the conversation.
+~
+   This human swordsman stands about six feet in height and is fairly muscular
+as well.  He has short black hair that is messy and uncombed.  He wears a suit
+of glossy white studded leather armor bearing the symbol of a blue star over a
+red background.    
+~
+bdF 0 0 0 k 0 0 0 0
+16 9 -17 3840d250+1000 1d8+11
+23 0 41 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#4336
+roland~
+Roland~
+Roland, a calm-looking priest, sits back with a ponderous expression.
+~
+   This calm-looking man is garbed in bone white robes trimmed with brown.  He
+is gettin on in his years and has black hair streaked with grey.  His
+expression is one lacking in judgement and he smiles from time to time as the
+conversation goes on.    
+~
+bdF 0 0 0 k 0 0 0 900
+16 9 -15 2880d250+115 1d8+11
+23 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 11
+S
+#4337
+calanathas calan~
+Calanathas~
+Calanathas, a distinguished silvanesti elf, listens intently to the conversation.
+~
+   This elf looks very distinguished and cultured.  He has short blond hair and
+wears a silver visor denoting his status as both a senator and a warrior.  He
+wears a suit of fine elven chainmail and wears a pair of iridescent forest
+green boots.  He raises his eyebrow questioningly as he notices your presence.
+~
+bdF 0 0 0 k 0 0 0 900
+16 9 -12 2880d250+115 1d8+11
+23 0 41 4
+8 8 1
+E
+Str: 13
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 11
+S
+#4338
+padre~
+Padre~
+Padre, a rugged, stout dwarf, grumbles to himself as he listens to the conversation.
+~
+   This dwarf is clothed in simple grey and brown clothing, covered by a suit
+of dwarven platemail.  He has a rough-looking brown beard with tousled hair to
+match.  He grumbles to himself, obviously not happy with the way the
+conversation is going.    
+~
+bdF 0 0 0 k 0 0 0 900
+16 9 -17 4160d250+115 1d8+11
+23 0 2 3
+8 8 1
+E
+Str: 20
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 16
+E
+Cha: 8
+S
+#4339
+falwyr~
+Falwyr~
+Falwyr, Commander of the Forces of Whitestone, sits here at a small writing desk.
+~
+   This man looks like he doesn't get much sleep at all.  All the same, he
+manages to keep a modest appearance and although he looks weary, you get the
+sense that he still takes care of business very well.  He currently sits at a
+small writing desk perusing several maps of Ansalon.    
+~
+bd g 0 0 k 0 0 0 900
+16 8 -18 9600d300+1000 1d8+12
+23 0 41 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+$

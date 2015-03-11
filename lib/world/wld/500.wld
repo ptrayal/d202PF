@@ -1,0 +1,2210 @@
+#50000
+The High Road: just outside Luskan~
+   &X This spot marks the northernmost reach of the High Road, perhaps the most
+important trade route of the Northern Sword Coast.  From here, the road works
+its way south, linking Luskan with Neverwinter and eventually Waterdeep.  
+Directly north of here is the busy and sometimes wild port city of Luskan.  The
+salty tang of sea air drifts in from that direction, as do the noises of a
+bustling, active population.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 3154 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50001 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50001
+The High Road: near Luskan~
+   The High Road is well built, constructed of hard-packed gravel and lined with
+wooden posts laid horizontally to mark each boundary.  The port city of Luskan
+can be seen off in the distance to the north, the roof tops of its buildings and
+the sails of the ships in its harbors poking up over the horizon.  One
+particularly tall, multi-spired tower juts upwards in the middle of the city.  
+The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50000 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50003 0 0 0 0 0 0 0 0
+S
+#50002
+A Strange, Unused Room~
+This room is very odd.  There seems to be no way in or out.
+~
+500 0 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50003
+The High Road: near Luskan~
+   The High Road is well built, constructed of hard-packed gravel and lined with
+wooden posts laid horizontally to mark each boundary.  The port city of Luskan
+can be seen off in the distance to the north, the roof tops of its buildings and
+the sails of the ships in its harbors poking up over the horizon.  One
+particularly tall, multi-spired tower juts upwards in the middle of the city.  
+The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50004 0 0 0 0 0 0 0 0
+S
+#50004
+The High Road: near Luskan~
+   The High Road is well built, constructed of hard-packed gravel and lined with
+wooden posts laid horizontally to mark each boundary.  The port city of Luskan
+can be seen off in the distance to the north, the roof tops of its buildings and
+the sails of the ships in its harbors poking up over the horizon.  One
+particularly tall, multi-spired tower juts upwards in the middle of the city.  
+The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50005 0 0 0 0 0 0 0 0
+S
+#50005
+The High Road: near Luskan~
+   The High Road is well built, constructed of hard-packed gravel and lined with
+wooden posts laid horizontally to mark each boundary.  The port city of Luskan
+can be seen off in the distance to the north, the roof tops of its buildings and
+the sails of the ships in its harbors poking up over the horizon.  One
+particularly tall, multi-spired tower juts upwards in the middle of the city.  
+The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50004 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50006 0 0 0 0 0 0 0 0
+S
+#50006
+The High Road: near Luskan~
+   The High Road is well built, constructed of hard-packed gravel and lined with
+wooden posts laid horizontally to mark each boundary.  The port city of Luskan
+can be seen off in the distance to the north, the roof tops of its buildings and
+the sails of the ships in its harbors poking up over the horizon.  One
+particularly tall, multi-spired tower juts upwards in the middle of the city.  
+The High Road continues north and southeast.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 605 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50007 0 0 0 0 0 0 0 0
+S
+#50007
+The High Road: crossing a large bridge~
+   This great bridge is built from thick, well-sanded boards of lumber that have
+been nailed together and bolstered with triangular support beams extending
+downward on each side.  The bridge spans the River Mirar which flows in from the
+east, emptying out into the ocean not far from here to the west.  The white
+water roars mightily underneath as it surges past, causing the planks of the
+bridge to vibrate slightly.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50006 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50008 0 0 0 0 0 0 0 0
+S
+#50008
+The High Road: crossing a large bridge~
+   This great bridge is built from thick, well-sanded boards of lumber that have
+been nailed together and bolstered with triangular support beams extending
+downward on each side.  The bridge spans the River Mirar which flows in from the
+east, emptying out into the ocean not far from here to the west.  The white
+water roars mightily underneath as it surges past, causing the planks of the
+bridge to vibrate slightly.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50007 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50009 0 0 0 0 0 0 0 0
+S
+#50009
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D2
+~
+~
+0 0 50010 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50008 0 0 0 0 0 0 0 0
+S
+#50010
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50009 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50011 0 0 0 0 0 0 0 0
+S
+#50011
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50010 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50012 0 0 0 0 0 0 0 0
+S
+#50012
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50011 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50013 0 0 0 0 0 0 0 0
+S
+#50013
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50012 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50014 0 0 0 0 0 0 0 0
+S
+#50014
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50015 0 0 0 0 0 0 0 0
+S
+#50015
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50014 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50016 0 0 0 0 0 0 0 0
+S
+#50016
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50015 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50017 0 0 0 0 0 0 0 0
+S
+#50017
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50016 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50018 0 0 0 0 0 0 0 0
+S
+#50018
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50017 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50019 0 0 0 0 0 0 0 0
+S
+#50019
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50020 0 0 0 0 0 0 0 0
+S
+#50020
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50019 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50021 0 0 0 0 0 0 0 0
+S
+#50021
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50020 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50022 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4500 0 0 0 0 0 0 0 0
+S
+#50022
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50021 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50023 0 0 0 0 0 0 0 0
+S
+#50023
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50022 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50024 0 0 0 0 0 0 0 0
+S
+#50024
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50025 0 0 0 0 0 0 0 0
+S
+#50025
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50024 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50026 0 0 0 0 0 0 0 0
+S
+#50026
+The High Road: between Luskan and Neverwinter~
+   The trees have started to thin out this far north, replaced by a landscape of
+low tundra and icy plains.  The air always has a deep chill regardless of season
+and more often than not the land is coated by frost or a light dusting of snow.
+The High Road moves steadily through the increasingly barren scenery.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50025 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50027 0 0 0 0 0 0 0 0
+S
+#50027
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50026 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50028 0 0 0 0 0 0 0 0
+S
+#50028
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50027 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50029 0 0 0 0 0 0 0 0
+S
+#50029
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D2
+~
+~
+0 0 50030 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50028 0 0 0 0 0 0 0 0
+S
+#50030
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50029 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50031 0 0 0 0 0 0 0 0
+S
+#50031
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50030 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50032 0 0 0 0 0 0 0 0
+S
+#50032
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50031 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50033 0 0 0 0 0 0 0 0
+S
+#50033
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50032 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50034 0 0 0 0 0 0 0 0
+S
+#50034
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50033 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50035 0 0 0 0 0 0 0 0
+S
+#50035
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50034 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50036 0 0 0 0 0 0 0 0
+S
+#50036
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50035 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50037 0 0 0 0 0 0 0 0
+S
+#50037
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50038 0 0 0 0 0 0 0 0
+S
+#50038
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50037 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50039 0 0 0 0 0 0 0 0
+S
+#50039
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50038 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50040 0 0 0 0 0 0 0 0
+S
+#50040
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50039 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50041 0 0 0 0 0 0 0 0
+S
+#50041
+The High Road: between Luskan and Neverwinter~
+   The High Road moves through a sort of corridor here, boxed in by a narrow
+mountain range to the west and the trees of the Neverwinter Wood to the east.  
+These tall obstacles on each side block out the sun, casting deep shadows across
+the road throughout most of the day.  The air is crisp and naturally scented
+from the nearby pine trees.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50040 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50042 0 0 0 0 0 0 0 0
+S
+#50042
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50041 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50043 0 0 0 0 0 0 0 0
+S
+#50043
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D2
+~
+~
+0 0 50044 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50042 0 0 0 0 0 0 0 0
+S
+#50044
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50043 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50045 0 0 0 0 0 0 0 0
+S
+#50045
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50044 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50046 0 0 0 0 0 0 0 0
+S
+#50046
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50045 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50047 0 0 0 0 0 0 0 0
+S
+#50047
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50048 0 0 0 0 0 0 0 0
+S
+#50048
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50047 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50049 0 0 0 0 0 0 0 0
+S
+#50049
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50048 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50050 0 0 0 0 0 0 0 0
+S
+#50050
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50049 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50051 0 0 0 0 0 0 0 0
+S
+#50051
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50050 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50052 0 0 0 0 0 0 0 0
+S
+#50052
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50051 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50053 0 0 0 0 0 0 0 0
+S
+#50053
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50052 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50054 0 0 0 0 0 0 0 0
+S
+#50054
+The High Road: between Luskan and Neverwinter~
+   The dark green, coniferous trees of the Neverwinter Wood form an impenetrable
+mass just a few paces off the side of the road to the east.  A tall cliff rises
+up on the other side.  It appears that rock slides happen frequently around
+here.  The cliff itself does not look very stable and there are numerous small
+boulders in the roadside ditch that seem to have fallen down from above.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50053 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50055 0 0 0 0 0 0 0 0
+S
+#50055
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50054 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50056 0 0 0 0 0 0 0 0
+S
+#50056
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50055 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50057 0 0 0 0 0 0 0 0
+S
+#50057
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50056 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50058 0 0 0 0 0 0 0 0
+S
+#50058
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50057 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50059 0 0 0 0 0 0 0 0
+S
+#50059
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50058 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50060 0 0 0 0 0 0 0 0
+S
+#50060
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50059 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50061 0 0 0 0 0 0 0 0
+S
+#50061
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50060 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50062 0 0 0 0 0 0 0 0
+S
+#50062
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50061 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50063 0 0 0 0 0 0 0 0
+S
+#50063
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50062 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50064 0 0 0 0 0 0 0 0
+S
+#50064
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50063 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50065 0 0 0 0 0 0 0 0
+S
+#50065
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50064 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50066 0 0 0 0 0 0 0 0
+S
+#50066
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50065 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50067 0 0 0 0 0 0 0 0
+S
+#50067
+The High Road: between Luskan and Neverwinter~
+   The great highway cuts through an area of trees and rocky cliffs.  Now and
+again there is a dead squirrel or vole on the road; an unfortunate denizen of
+the nearby forest that happened to wander out onto the road at a bad time and
+was crushed by a passing wagon.  The High Road continues north and south.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50066 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50068 0 0 0 0 0 0 0 0
+S
+#50068
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D2
+~
+~
+0 0 50069 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50067 0 0 0 0 0 0 0 0
+S
+#50069
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50068 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50070 0 0 0 0 0 0 0 0
+S
+#50070
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50069 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50071 0 0 0 0 0 0 0 0
+S
+#50071
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50070 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50072 0 0 0 0 0 0 0 0
+S
+#50072
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50071 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50073 0 0 0 0 0 0 0 0
+S
+#50073
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50072 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50074 0 0 0 0 0 0 0 0
+S
+#50074
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50073 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50075 0 0 0 0 0 0 0 0
+S
+#50075
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50074 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50076 0 0 0 0 0 0 0 0
+S
+#50076
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50075 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50077 0 0 0 0 0 0 0 0
+S
+#50077
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50076 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50078 0 0 0 0 0 0 0 0
+S
+#50078
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50077 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50079 0 0 0 0 0 0 0 0
+S
+#50079
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50078 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50080 0 0 0 0 0 0 0 0
+S
+#50080
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50081 0 0 0 0 0 0 0 0
+S
+#50081
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50080 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50082 0 0 0 0 0 0 0 0
+S
+#50082
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50081 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50083 0 0 0 0 0 0 0 0
+S
+#50083
+The High Road: between Luskan and Neverwinter~
+   Posts have been staked into the ground at regular intervals along this
+stretch of road, with knotted ropes strung between them to serve as a sort of
+crude fence.  Beyond this on the eastern side are numerous windfalls of timber
+stacked together in rough heaps; evidence of the logging trade that occurs
+regularly within the nearby Neverwinter Wood.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50082 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50106 0 0 0 0 0 0 0 0
+S
+#50106
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D2
+~
+~
+0 0 50107 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50083 0 0 0 0 0 0 0 0
+S
+#50107
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50108 0 0 0 0 0 0 0 0
+S
+#50108
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50109 0 0 0 0 0 0 0 0
+S
+#50109
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50108 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50110 0 0 0 0 0 0 0 0
+S
+#50110
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1400 0 0 0 0 0 0 0 0
+S
+#50111
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50110 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50112 0 0 0 0 0 0 0 0
+S
+#50112
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50111 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50113 0 0 0 0 0 0 0 0
+S
+#50113
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50112 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50114 0 0 0 0 0 0 0 0
+S
+#50114
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50113 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50115 0 0 0 0 0 0 0 0
+S
+#50115
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50116 0 0 0 0 0 0 0 0
+S
+#50116
+The High Road: between Luskan and Neverwinter~
+   The High Road skirts along the outer edge of the Neverwinter Wood to the
+east.  Westward, a thin but tall mountain range rises up, making travel in that
+direction impossible.  The highway stretches its way between these two
+obstacles, continuing onward towards eventual civilization.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1490 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50117 0 0 0 0 0 0 0 0
+S
+#50117
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50116 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50118 0 0 0 0 0 0 0 0
+S
+#50118
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50117 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50119 0 0 0 0 0 0 0 0
+S
+#50119
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50118 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50120 0 0 0 0 0 0 0 0
+S
+#50120
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50119 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50121 0 0 0 0 0 0 0 0
+S
+#50121
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D2
+~
+~
+0 0 50122 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50120 0 0 0 0 0 0 0 0
+S
+#50122
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50121 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50123 0 0 0 0 0 0 0 0
+S
+#50123
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50124 0 0 0 0 0 0 0 0
+S
+#50124
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50125 0 0 0 0 0 0 0 0
+S
+#50125
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50124 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50126 0 0 0 0 0 0 0 0
+S
+#50126
+The High Road: between Luskan and Neverwinter~
+   The rich coniferous forest known as the Neverwinter Wood is nearby to the
+east along here.  This timberland is the primary source of lumber for the
+communities of the northern Sword Coast.  The tall, dark green trees are very
+densely packed together, making it difficult to see very far into the woods.  
+~
+500 0 0 0 0 10
+D6
+~
+~
+0 0 50125 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 50127 0 0 0 0 0 0 0 0
+S
+#50127
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D2
+~
+~
+0 0 50128 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 50126 0 0 0 0 0 0 0 0
+S
+#50128
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50127 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50129 0 0 0 0 0 0 0 0
+S
+#50129
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50128 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50130 0 0 0 0 0 0 0 0
+S
+#50130
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50129 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50131 0 0 0 0 0 0 0 0
+S
+#50131
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50130 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50132 0 0 0 0 0 0 0 0
+S
+#50132
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50131 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50133 0 0 0 0 0 0 0 0
+S
+#50133
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50132 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50134 0 0 0 0 0 0 0 0
+S
+#50134
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50133 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50135 0 0 0 0 0 0 0 0
+S
+#50135
+The High Road: between Luskan and Neverwinter~
+   The High Road stretches through a vast plain.  The road is dry, causing small
+clouds of dust to stir up as you move past.  Shallow ditches have been dug into
+the dirt on each side of the highway.  A few discarded items can be seen within
+these ditches: old cans, bottles and the like, thrown away by passing travelers.
+
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50136 0 0 0 0 0 0 0 0
+S
+#50136
+The High Road: near Neverwinter~
+   The High Road approaches the city of Neverwinter here, which is one of the
+most important settlements along the Sword Coast.  This part of the road is
+always busy as goods flow to and from Luskan to the north, and Waterdeep to the
+south.  There are always groups of marching soldiers trudging along, keeping
+order amidst the constant bustle of traffic.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50135 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50137 0 0 0 0 0 0 0 0
+S
+#50137
+The High Road: near Neverwinter~
+   The High Road approaches the city of Neverwinter here, which is one of the
+most important settlements along the Sword Coast.  This part of the road is
+always busy as goods flow to and from Luskan to the north, and Waterdeep to the
+south.  There are always groups of marching soldiers trudging along, keeping
+order amidst the constant bustle of traffic.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50136 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50141 0 0 0 0 0 0 0 0
+S
+#50138
+A small road leading to Neverwinter~
+This small but serviceable road leads onwards to the city of Neverwinter, one of
+the preeminent colonies of the north.  The city attracts a wide variety of
+learned people: scientists and inventors especially, who come here to research
+and develop new technologies.  The High Road is to the west.  
+~
+500 0 0 0 0 2
+D1
+~
+~
+0 0 50139 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50500 0 0 0 0 0 0 0 0
+S
+#50139
+A small road leading to Neverwinter~
+This small but serviceable road leads onwards to the city of Neverwinter, one of
+the preeminent colonies of the north.  The city attracts a wide variety of
+learned people: scientists and inventors especially, who come here to research
+and develop new technologies.  The High Road is to the west.  
+~
+500 0 0 0 0 2
+D1
+~
+~
+0 0 50140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50138 0 0 0 0 0 0 0 0
+S
+#50140
+A small road leading to Neverwinter~
+This small but serviceable road leads onwards to the city of Neverwinter, one of
+the preeminent colonies of the north.  The city attracts a wide variety of
+learned people: scientists and inventors especially, who come here to research
+and develop new technologies.  The High Road is to the west.  
+~
+500 0 0 0 0 2
+D1
+~
+~
+0 0 50144 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50139 0 0 0 0 0 0 0 0
+S
+#50141
+The High Road: near Neverwinter~
+   The High Road approaches the city of Neverwinter here, which is one of the
+most important settlements along the Sword Coast.  This part of the road is
+always busy as goods flow to and from Luskan to the north, and Waterdeep to the
+south.  There are always groups of marching soldiers trudging along, keeping
+order amidst the constant bustle of traffic.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50137 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50142 0 0 0 0 0 0 0 0
+S
+#50142
+The High Road: near Neverwinter~
+The High Road passes near the city of Neverwinter here, which is one of the most
+important settlements along the Sword Coast.  This part of the road is always
+busy as goods flow to and from Luskan to the north, and Waterdeep to the south.
+There are always groups of marching soldiers trudging along, keeping order
+amidst the constant bustle of traffic.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50141 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50143 0 0 0 0 0 0 0 0
+S
+#50143
+The High Road: near Neverwinter~
+The High Road passes near the city of Neverwinter here, which is one of the most
+important settlements along the Sword Coast.  This part of the road is always
+busy as goods flow to and from Luskan to the north, and Waterdeep to the south.
+There are always groups of marching soldiers trudging along, keeping order
+amidst the constant bustle of traffic.  
+~
+500 0 0 0 0 10
+D0
+~
+~
+0 0 50142 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50500 0 0 0 0 0 0 0 0
+S
+#50144
+A small road leading to Neverwinter~
+This small but serviceable road leads onwards to the city of Neverwinter, one of
+the preeminent colonies of the north.  The city attracts a wide variety of
+learned people: scientists and inventors especially, who come here to research
+and develop new technologies.  The High Road is to the west.  
+~
+500 0 0 0 0 2
+D1
+~
+~
+0 0 50506 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50140 0 0 0 0 0 0 0 0
+S
+#50145
+Outside Neverwinter's South Gate~
+You stand outside the southern gate of Neverwinter, known as the "Jewel of the
+North" for all the riches that flow from here.  A prosperous place, Neverwinter
+is famous for producing expensive doodads such as precision water clocks and
+exquisite jewelry.  The city itself is picturesque, filled with intricately
+carved bridges and stunningly beautiful architecture.  The main entrance is
+north and the path to the great High Road is south.  
+~
+500 0 0 0 0 2
+D0
+~
+~
+0 0 4197 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50783 0 0 0 0 0 0 0 0
+S
+$~

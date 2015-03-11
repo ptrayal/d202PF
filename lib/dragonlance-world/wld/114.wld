@@ -1,0 +1,2047 @@
+#11400
+Common Room of the Tilting Mug~
+   You are standing in the common room of the tavern.  The area is full of
+round wooden tables, where people sit eating and drinking.  Some getting rather
+tipsy, and loud as they continue to pour the ale down their throats.  Several
+people sit on stools which line the wooden bar in the far corner of the room.
+Directly to the left side of the bar is a metal winding staircase that leads up
+to the second floor.    
+~
+114 d 0 0 0  1
+D0
+~
+~
+0 0 11403 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9597 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11402 0 0 0 0 0 0 0 0
+S
+#11401
+Common Room of the Tilting Mug~
+   You are standing in the common room of the tavern.  The area is full of
+round wooden tables, where people sit eating and drinking.  Some getting rather
+tipsy, and loud as they continue to pour the ale down their throats.  Several
+people sit on stools which line the wooden bar in the far corner of the room.
+Directly to the left side of the bar is a metal winding staircase that leads up
+to the second floor.    
+~
+114 d 0 0 0  1
+D2
+~
+~
+0 0 9598 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11400 0 0 0 0 0 0 0 0
+S
+#11402
+Common Room of the Tilting Mug~
+   You are standing in the common room of the tavern.  The area is full of
+round wooden tables, where people sit eating and drinking.  Some getting rather
+tipsy, and loud as they continue to pour the ale down their throats.  Several
+people sit on stools which line the wooden bar in the far corner of the room.
+Directly to the left side of the bar is a metal winding staircase that leads up
+to the second floor.    
+~
+114 d 0 0 0  1
+D1
+~
+~
+0 0 11400 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9599 0 0 0 0 0 0 0 0
+S
+#11403
+Standing in Front of the Bar~
+   You are standing in front of the long wooden bar.  It stretches from this
+wall, to the metal, spiral staircase off to the left.  The bartender stands
+behind the bar serving drinks to his various customers.  Several people sit on
+stools around the bar, seeing who can drink the most firebreather.  As you
+approach the bar, the bartender looks up and you and nods.    
+~
+114 d 0 0 0  1
+D2
+~
+~
+0 0 11400 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 11404 0 0 0 0 0 0 0 0
+S
+#11404
+Standing in Front of the Bar~
+   You are standing in front of the long wooden bar.  It stretches from this
+wall, to the metal, spiral staircase off to the left.  The bartender stands
+behind the bar serving drinks to his various customers.  Several people sit on
+stools around the bar, seeing who can drink the most firebreather.  As you
+approach the bar, the bartender looks up and you and nods.    
+~
+114 d 0 0 0  1
+D3
+~
+~
+0 0 11405 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11403 0 0 0 0 0 0 0 0
+S
+#11405
+Base of a Spiraling Staircase.~
+   You are standing directly to the left side of the tavern's bar.  Here you
+are at the base of a metal spiral staircase which leads up into the seconf
+floor of the tavern.  Those whom walk up the stairs are heading to their rooms,
+some doing all they can to keep their balance after all the ale thats been
+drank.  A railing slong the side of the staircase has been placed so that
+people have something to hang on to in order to safely make it to the top.  
+Off to your right just a bit is the bar, where the bartender serves drinks and
+food to his customers.    
+~
+114 d 0 0 0  1
+D1
+~
+~
+0 0 11404 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11406 0 0 0 0 0 0 0 0
+S
+#11406
+Top of the Staircase~
+   You are at the top of the spiraling staircase.  From here there is a hallway
+that runs southwards which leads to the bedrooms here in the tavern.  A few
+servants scurry up and down the halls, brining food or frest bed linen to the
+customers.  A large window at the far end of this hallway allows the sunlight
+to trickle in during the daylight hours, brightly illuminating the hall.  
+Candles sit in the holders mounted to the walls, giving off their faint yellow
+glow in the evening time to allow one to see where they are going.  The
+staircase here leads down into the common room of the tavern.    
+~
+114 cd 0 0 0  1
+D2
+~
+~
+0 0 11407 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11405 0 0 0 0 0 0 0 0
+S
+#11407
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  A large window at the far
+end of this hallway allows the sunlight to trickle in during the daylight
+hours, brightly illuminatin the hall.  Candles sit in their holders mounted to
+the walls, giving off their faint yellow glow in the evening hours to allow one
+to see clearly where they are going.  Servants scurry up and down the halls,
+taking food and fresh bed linens to the rooms for the customers.  At the other
+end of the hall is a spiral staircase that leads down to the common room of the
+tavern
+~
+114 d 0 0 0  1
+D0
+~
+~
+0 0 11406 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11408 0 0 0 0 0 0 0 0
+S
+#11408
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  A large window at the far
+end of this hallway allows the sunlight to trickle in during the daylight
+hours, brightly illuminatin the hall.  Candles sit in their holders mounted to
+the walls, giving off their faint yellow glow in the evening hours to allow one
+to see clearly where they are going.  Servants scurry up and down the halls,
+taking food and fresh bed linens to the rooms for the customers.  At the other
+end of the hall is a spiral staircase that leads down to the common room of the
+tavern
+~
+114 d 0 0 0  1
+D0
+~
+~
+0 0 11407 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11409 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11420 0 0 0 0 0 0 0 0
+S
+#11409
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  A large window at the far
+end of this hallway allows the sunlight to trickle in during the daylight
+hours, brightly illuminatin the hall.  Candles sit in their holders mounted to
+the walls, giving off their faint yellow glow in the evening hours to allow one
+to see clearly where they are going.  Servants scurry up and down the halls,
+taking food and fresh bed linens to the rooms for the customers.  At the other
+end of the hall is a spiral staircase that leads down to the common room of the
+tavern
+~
+114 d 0 0 0  1
+D0
+~
+~
+0 0 11408 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11418 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11410 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11419 0 0 0 0 0 0 0 0
+S
+#11410
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  A large window at the far
+end of this hallway allows the sunlight to trickle in during the daylight
+hours, brightly illuminatin the hall.  Candles sit in their holders mounted to
+the walls, giving off their faint yellow glow in the evening hours to allow one
+to see clearly where they are going.  Servants scurry up and down the halls,
+taking food and fresh bed linens to the rooms for the customers.  At the other
+end of the hall is a spiral staircase that leads down to the common room of the
+tavern
+~
+114 d 0 0 0  1
+D0
+~
+~
+0 0 11409 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11411 0 0 0 0 0 0 0 0
+E
+window~
+   Looking out the large glass window you can see almost the whole town, the
+foutain area off to the souteast of the tavern, various people sitting around
+chatting with one another.  The stablehand moves around the outside of the
+stables helping a customer with their horse.  And off towareds the east of the
+central square you see the road which leads to the Lord's palace.    
+~
+S
+#11411
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  The sunlight from the
+window fills this hall brightly illuminating it.  The candlebra's mounted on
+the wall give off their faint yellow glow in the evening hours allowing a
+person to see where they are going.  Servants scurry up and down the hall
+carrying food and fresh linens to the customers.  This hallway leads to a dead
+end, the wall holds a large picture of a silver dragon with a lonely knight
+standing next to it.  Back the other way you will come to the hall that leads
+to the stairs going down to the common room of the tavern.    
+~
+114 d 0 0 0  1
+D1
+~
+~
+0 0 11412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11410 0 0 0 0 0 0 0 0
+S
+#11412
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  The sunlight from the
+window fills this hall brightly illuminating it.  The candlebra's mounted on
+the wall give off their faint yellow glow in the evening hours allowing a
+person to see where they are going.  Servants scurry up and down the hall
+carrying food and fresh linens to the customers.  This hallway leads to a dead
+end, the wall holds a large picture of a silver dragon with a lonely knight
+standing next to it.  Back the other way you will come to the hall that leads
+to the stairs going down to the common room of the tavern.    
+~
+114 d 0 0 0  1
+D0
+~
+door~
+1 0 11417 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11413 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11411 0 0 0 0 0 0 0 0
+S
+#11413
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  The sunlight from the
+window fills this hall brightly illuminating it.  The candlebra's mounted on
+the wall give off their faint yellow glow in the evening hours allowing a
+person to see where they are going.  Servants scurry up and down the hall
+carrying food and fresh linens to the customers.  This hallway leads to a dead
+end, the wall holds a large picture of a silver dragon with a lonely knight
+standing next to it.  Back the other way you will come to the hall that leads
+to the stairs going down to the common room of the tavern.    
+~
+114 d 0 0 0  1
+D1
+~
+~
+0 0 11414 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 11416 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11412 0 0 0 0 0 0 0 0
+S
+#11414
+A Well-Lit Hallway~
+   This hallway leads to the bedrooms in the tavern.  The sunlight from the
+window fills this hall brightly illuminating it.  The candlebra's mounted on
+the wall give off their faint yellow glow in the evening hours allowing a
+person to see where they are going.  Servants scurry up and down the hall
+carrying food and fresh linens to the customers.  This hallway leads to a dead
+end, the wall holds a large picture of a silver dragon with a lonely knight
+standing next to it.  Back the other way you will come to the hall that leads
+to the stairs going down to the common room of the tavern.    
+~
+114 d 0 0 0  1
+D0
+~
+door~
+1 0 11415 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11413 0 0 0 0 0 0 0 0
+S
+#11415
+One of the Bedrooms~
+   You are standing in one of the rooms in the tavern.  It looks just like
+every other room.  The bed sits over along the far wall, the covers have been
+made up and pulled back slightly, so the customers can come in and slip right
+into bed after a long day.  A wooden chest sits on the other side for people to
+put their clothes in if they plan on staying for awhile.  The wooden floor is
+kept mopped and waxed, almost allowing you to see your own reflection in the
+floor.    
+~
+114 d 0 0 0  1
+D2
+~
+door~
+1 0 11414 0 0 0 0 0 0 0 0
+S
+#11416
+One of the Bedrooms~
+   You are standing in one of the rooms in the tavern.  It looks just like
+every other room.  The bed sits over along the far wall, the covers have been
+made up and pulled back slightly, so the customers can come in and slip right
+into bed after a long day.  A wooden chest sits on the other side for people to
+put their clothes in if they plan on staying for awhile.  The wooden floor is
+kept mopped and waxed, almost allowing you to see your own reflection in the
+floor.    
+~
+114 d 0 0 0  1
+D0
+~
+door~
+1 0 11413 0 0 0 0 0 0 0 0
+S
+#11417
+One of the Bedrooms~
+   You are standing in one of the rooms in the tavern.  It looks just like
+every other room.  The bed sits over along the far wall, the covers have been
+made up and pulled back slightly, so the customers can come in and slip right
+into bed after a long day.  A wooden chest sits on the other side for people to
+put their clothes in if they plan on staying for awhile.  The wooden floor is
+kept mopped and waxed, almost allowing you to see your own reflection in the
+floor.    
+~
+114 d 0 0 0  1
+D2
+~
+door~
+1 0 11412 0 0 0 0 0 0 0 0
+S
+#11418
+One of the Bedrooms~
+   You are standing in one of the rooms in the tavern.  It looks just like
+every other room.  The bed sits over along the far wall, the covers have been
+made up and pulled back slightly, so the customers can come in and slip right
+into bed after a long day.  A wooden chest sits on the other side for people to
+put their clothes in if they plan on staying for awhile.  The wooden floor is
+kept mopped and waxed, almost allowing you to see your own reflection in the
+floor.    
+~
+114 d 0 0 0  1
+D3
+~
+door~
+1 0 11409 0 0 0 0 0 0 0 0
+S
+#11419
+One of the Bedrooms~
+   You are standing in one of the rooms in the tavern.  It looks just like
+every other room.  The bed sits over along the far wall, the covers have been
+made up and pulled back slightly, so the customers can come in and slip right
+into bed after a long day.  A wooden chest sits on the other side for people to
+put their clothes in if they plan on staying for awhile.  The wooden floor is
+kept mopped and waxed, almost allowing you to see your own reflection in the
+floor.    
+~
+114 d 0 0 0  1
+D1
+~
+door~
+1 0 11409 0 0 0 0 0 0 0 0
+S
+#11420
+One of the Bedrooms~
+   You are standing in one of the rooms in the tavern.  It looks just like
+every other room.  The bed sits over along the far wall, the covers have been
+made up and pulled back slightly, so the customers can come in and slip right
+into bed after a long day.  A wooden chest sits on the other side for people to
+put their clothes in if they plan on staying for awhile.  The wooden floor is
+kept mopped and waxed, almost allowing you to see your own reflection in the
+floor.    
+~
+114 d 0 0 0  1
+D1
+~
+door~
+1 0 11408 0 0 0 0 0 0 0 0
+S
+#11421
+One of the Bedrooms~
+   You are standing in one of the rooms in the tavern.  It looks just like
+every other room.  The bed sits over along the far wall, the covers have been
+made up and pulled back slightly, so the customers can come in and slip right
+into bed after a long day.  A wooden chest sits on the other side for people to
+put their clothes in if they plan on staying for awhile.  The wooden floor is
+kept mopped and waxed, almost allowing you to see your own reflection in the
+floor.    
+~
+114 d 0 0 0  1
+D3
+~
+door~
+1 0 11407 0 0 0 0 0 0 0 0
+S
+#11422
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everything is fine inside the palace.  Oil lamps
+hang from their holders which have been mounted to the walls, their faint
+yellow glow brightly illuminating the entire room.    
+~
+114 d f 0 0  1
+D0
+~
+~
+0 0 11442 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11439 0 0 0 0 0 0 0 0
+S
+#11423
+Estate Street~
+   You are walking down estate street.  This part runs from the central square
+off to your west, and eastwards up the hill to the Lord's estate.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from the posts along the
+walkway, giving off their faint yellow glow int he evening hours to allow for
+safe travel about the town after dark.  Cirizens pass by you as they come and
+go from the palace and fountain area, as they scurry past you they smile and
+nod.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11424 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9589 0 0 0 0 0 0 0 0
+S
+#11424
+Estate Street~
+   You are walking down estate street.  This part runs from the central square
+off to your west, and eastwards up the hill to the Lord's estate.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from the posts along the
+walkway, giving off their faint yellow glow int he evening hours to allow for
+safe travel about the town after dark.  Cirizens pass by you as they come and
+go from the palace and fountain area, as they scurry past you they smile and
+nod.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11425 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11423 0 0 0 0 0 0 0 0
+S
+#11425
+Estate Street~
+   You are walking down estate street.  This part runs from the central square
+off to your west, and eastwards up the hill to the Lord's estate.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from the posts along the
+walkway, giving off their faint yellow glow int he evening hours to allow for
+safe travel about the town after dark.  Cirizens pass by you as they come and
+go from the palace and fountain area, as they scurry past you they smile and
+nod.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11426 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11424 0 0 0 0 0 0 0 0
+S
+#11426
+Estate Street~
+   You are walking down estate street.  This part runs from the central square
+off to your west, and eastwards up the hill to the Lord's estate.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from the posts along the
+walkway, giving off their faint yellow glow int he evening hours to allow for
+safe travel about the town after dark.  Cirizens pass by you as they come and
+go from the palace and fountain area, as they scurry past you they smile and
+nod.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11427 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11425 0 0 0 0 0 0 0 0
+S
+#11427
+Estate Street~
+   You are walking down estate street.  This part runs from the central square
+off to your west, and eastwards up the hill to the Lord's estate.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from the posts along the
+walkway, giving off their faint yellow glow int he evening hours to allow for
+safe travel about the town after dark.  Cirizens pass by you as they come and
+go from the palace and fountain area, as they scurry past you they smile and
+nod.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11428 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11426 0 0 0 0 0 0 0 0
+S
+#11428
+Estate Street~
+   You are walking down estate street.  This part runs from the central square
+off to your west, and eastwards up the hill to the Lord's estate.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from the posts along the
+walkway, giving off their faint yellow glow int he evening hours to allow for
+safe travel about the town after dark.  Cirizens pass by you as they come and
+go from the palace and fountain area, as they scurry past you they smile and
+nod.    
+~
+114 c f 0 0  1
+D1
+~
+~
+0 0 11429 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11427 0 0 0 0 0 0 0 0
+S
+#11429
+At the Base of the Hill~
+   You are walking up a small hill towards the Lord's estate.  The stone path
+under your feet allow you to walk without the mud and dirt from getting all
+over your boots.  The walkway has been placed with great care, the stones
+placed so that hardly any cracks can be seen.  Citizens pass by you on their
+way to and from the large palace.  As they see you they smile and nod then
+continue on to their destination.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe passage along the walkway.    
+~
+114 0 f 0 0  1
+D3
+~
+~
+0 0 11428 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11430 0 0 0 0 0 0 0 0
+S
+#11430
+Walking Along a Stone Path~
+   You are walking up a small hill towards the Lord's estate.  The stone path
+under your feet allow you to walk without the mud and dirt from getting all
+over your boots.  The walkway has been placed with great care, the stones
+placed so that hardly any cracks can be seen.  Citizens pass by you on their
+way to and from the large palace.  As they see you they smile and nod then
+continue on to their destination.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe passage along the walkway.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11431 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11429 0 0 0 0 0 0 0 0
+S
+#11431
+Walking Along a Stone Path~
+   You are walking up a small hill towards the Lord's estate.  The stone path
+under your feet allow you to walk without the mud and dirt from getting all
+over your boots.  The walkway has been placed with great care, the stones
+placed so that hardly any cracks can be seen.  Citizens pass by you on their
+way to and from the large palace.  As they see you they smile and nod then
+continue on to their destination.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe passage along the walkway.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11432 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11430 0 0 0 0 0 0 0 0
+S
+#11432
+Walking Along a Stone Path~
+   You are walking up a small hill towards the Lord's estate.  The stone path
+under your feet allow you to walk without the mud and dirt from getting all
+over your boots.  The walkway has been placed with great care, the stones
+placed so that hardly any cracks can be seen.  Citizens pass by you on their
+way to and from the large palace.  As they see you they smile and nod then
+continue on to their destination.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe passage along the walkway.    
+~
+114 0 f 0 0  1
+D3
+~
+~
+0 0 11431 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11433 0 0 0 0 0 0 0 0
+S
+#11433
+Walking Along a Stone Path~
+   You are walking up a small hill towards the Lord's estate.  The stone path
+under your feet allow you to walk without the mud and dirt from getting all
+over your boots.  The walkway has been placed with great care, the stones
+placed so that hardly any cracks can be seen.  Citizens pass by you on their
+way to and from the large palace.  As they see you they smile and nod then
+continue on to their destination.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe passage along the walkway.    
+~
+114 0 f 0 0  1
+D1
+~
+~
+0 0 11434 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11432 0 0 0 0 0 0 0 0
+S
+#11434
+Walking Along a Stone Path~
+   You are walking up a small hill towards the Lord's estate.  The stone path
+under your feet allow you to walk without the mud and dirt from getting all
+over your boots.  The walkway has been placed with great care, the stones
+placed so that hardly any cracks can be seen.  Citizens pass by you on their
+way to and from the large palace.  As they see you they smile and nod then
+continue on to their destination.  Large oil lamps hang from posts along the
+walkway, giving off their faint yellow glow in the evening hours to allow for
+safe passage along the walkway.    
+~
+114 0 f 0 0  1
+D3
+~
+~
+0 0 11433 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11435 0 0 0 0 0 0 0 0
+S
+#11435
+In Front of the Palace~
+   You are at the top of the hill, standing right before the doors to the
+Lord's Palace.  The stone walkway you have traveled up the grassy hill widens
+out and continues right up to the stairs that lead to the doors to the palace.
+Two guards stand on the sides of the door, neither talking or moving even the
+slightest bit.  Back behind you the walkway goes down the hill, heading towards
+the street, the fountain area can be seen from here, and just beyond that, the
+smoke rising from the chimney in the tavern is clearly seen climbing into the
+sky.    
+~
+114 0 f 0 0  1
+D0
+~
+~
+0 0 11436 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 14500 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11434 0 0 0 0 0 0 0 0
+S
+#11436
+The Doors to the Palace~
+   You are standing at the the top of the steps, right before the large doors
+that will lead you into the Lord's Palace.  The palace is made of white brick,
+and the large columns on the corners of the overhang are made from marbel of
+the whitest color.  The large doors keep all sound from inside the palace from
+being heard.  Two very well muscled warriors stand on each side of the doors.
+They never speak or move even the slightest bit.  A carving of a Platinum
+Dargon hangs over the doorway.    
+~
+114 cd f 0 0  0
+D0
+~
+doors~
+1 0 11437 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11435 0 0 0 0 0 0 0 0
+S
+#11437
+Foyer of the Palace~
+   You are standing just inside of the palace doors in the foyer.  The black
+and white tiled floors beneath your feet are polished to the point where you
+can almost see your reflection.  A blueish carpet lays on the floor close to
+the doors where one can wipe the mud and dirt off their boots without messing
+up the floors to much.  The tall white walls are full of various pictures and
+hanging artifacts.  Looking through the doorway you see guards patrolling the
+Palace, and various nobility going to and from meeting rooms and their own bed
+chambers.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11438 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 11436 0 0 0 0 0 0 0 0
+S
+#11438
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everying is fine inside the palace.  A hallway
+leads off to your left and right, and the main part of the Grand Hall is right
+in front of you.    
+~
+114 d f 0 0  0
+D0
+~
+~
+0 0 11439 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11445 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11437 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11456 0 0 0 0 0 0 0 0
+S
+#11439
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everything is fine inside the palace.  Oil lamps
+hang from their holders which have been mounted to the walls, their faint
+yellow glow brightly illuminating the entire room.    
+~
+114 d f 0 0  0
+D0
+~
+~
+0 0 11422 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11440 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11438 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11441 0 0 0 0 0 0 0 0
+S
+#11440
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everything is fine inside the palace.  Oil lamps
+hang from their holders which have been mounted to the walls, their faint
+yellow glow brightly illuminating the entire room.    
+~
+114 d f 0 0  0
+D0
+~
+~
+0 0 11443 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11439 0 0 0 0 0 0 0 0
+S
+#11441
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everything is fine inside the palace.  Oil lamps
+hang from their holders which have been mounted to the walls, their faint
+yellow glow brightly illuminating the entire room.    
+~
+114 d f 0 0  0
+D0
+~
+~
+0 0 11444 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11439 0 0 0 0 0 0 0 0
+S
+#11442
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everything is fine inside the palace.  Oil lamps
+hang from their holders which have been mounted to the walls, their faint
+yellow glow brightly illuminating the entire room.    
+~
+114 d f 0 0  0
+D1
+~
+~
+0 0 11443 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11422 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11444 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11466 0 0 0 0 0 0 0 0
+S
+#11443
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everything is fine inside the palace.  Oil lamps
+hang from their holders which have been mounted to the walls, their faint
+yellow glow brightly illuminating the entire room.    
+~
+114 d f 0 0  0
+D2
+~
+~
+0 0 11440 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11442 0 0 0 0 0 0 0 0
+S
+#11444
+Grand Hall of the Palace~
+   You are standing at the back of the Grand Hall in the Palace.  This area is
+what is used by the Lord and the townsfolk for balls such as those held during
+the Yuletide season, or for town concil meetings to discuss those matters such
+as laws, and taxes.  Guards patrol the area, travling through the hall, and
+down the hallways, making sure everything is fine inside the palace.  Oil lamps
+hang from their holders which have been mounted to the walls, their faint
+yellow glow brightly illuminating the entire room.    
+~
+114 d f 0 0  0
+D1
+~
+~
+0 0 11442 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11441 0 0 0 0 0 0 0 0
+S
+#11445
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11446 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11438 0 0 0 0 0 0 0 0
+S
+#11446
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11447 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11445 0 0 0 0 0 0 0 0
+S
+#11447
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11448 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11446 0 0 0 0 0 0 0 0
+S
+#11448
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11450 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11447 0 0 0 0 0 0 0 0
+S
+#11449
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D2
+~
+~
+0 0 11447 0 0 0 0 0 0 0 0
+S
+#11450
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11451 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11448 0 0 0 0 0 0 0 0
+S
+#11451
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11452 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11450 0 0 0 0 0 0 0 0
+S
+#11452
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11453 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11451 0 0 0 0 0 0 0 0
+S
+#11453
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11454 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11452 0 0 0 0 0 0 0 0
+S
+#11454
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11455 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11453 0 0 0 0 0 0 0 0
+S
+#11455
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D2
+~
+~
+0 0 11454 0 0 0 0 0 0 0 0
+S
+#11456
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11438 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11457 0 0 0 0 0 0 0 0
+S
+#11457
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11456 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11458 0 0 0 0 0 0 0 0
+S
+#11458
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11457 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11459 0 0 0 0 0 0 0 0
+S
+#11459
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11458 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11460 0 0 0 0 0 0 0 0
+S
+#11460
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11459 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11461 0 0 0 0 0 0 0 0
+S
+#11461
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11462 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11460 0 0 0 0 0 0 0 0
+S
+#11462
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11463 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11461 0 0 0 0 0 0 0 0
+S
+#11463
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11464 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11462 0 0 0 0 0 0 0 0
+S
+#11464
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11465 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11463 0 0 0 0 0 0 0 0
+S
+#11465
+A Brightly Lit Hallway~
+   You are walking down a brightly lit hallway.  The large candles hang from
+their holders mounted on the walls, giving off their faint yellow glow.  The
+tiled floor beneath your feet has been polished to the point where you can
+almost see your reflection.  Palace guards patrol the area, looking for any
+signs of trouble, while the servants carry fresh linens to the bedrooms.  This
+floor of the palace is used as guest rooms for the many visitors that come
+visit, yet its given just as much care as the rest of the palace.    
+~
+114 d 0 0 0  0
+D2
+~
+~
+0 0 11464 0 0 0 0 0 0 0 0
+S
+#11466
+Small Sitting Area~
+   You are on the second floor of the palace in the small sitting area outside
+the Lord's study.  This is where people come and sit while they wait their turn
+to speak privately with Lord Anias.  There are several chairs scattered about
+the area, and a large wooden table in the middle where a few glasses, and a
+pitcher of water sits.  Behind you just a bit a hallway leads to the east and
+west.  In front of you the door to Lord Anias' study is locked so that nobody
+can get in without the key.    
+~
+114 d 0 0 0  0
+D0
+~
+door~
+2 11400 11490 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11467 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11442 0 0 0 0 0 0 0 0
+S
+#11467
+Small Sitting Area~
+   You are on the second floor of the palace in the small sitting area outside
+the Lord's study.  This is where people come and sit while they wait their turn
+to speak privately with Lord Anias.  There are several chairs scattered about
+the area, and a large wooden table in the middle where a few glasses, and a
+pitcher of water sits.  Behind you just a bit a hallway leads to the east and
+west.  In front of you the door to Lord Anias' study is locked so that nobody
+can get in without the key.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11466 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11468 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11469 0 0 0 0 0 0 0 0
+S
+#11468
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11470 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11467 0 0 0 0 0 0 0 0
+S
+#11469
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11467 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11478 0 0 0 0 0 0 0 0
+S
+#11470
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11471 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11468 0 0 0 0 0 0 0 0
+S
+#11471
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11472 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11470 0 0 0 0 0 0 0 0
+S
+#11472
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11473 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11471 0 0 0 0 0 0 0 0
+S
+#11473
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11474 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11472 0 0 0 0 0 0 0 0
+S
+#11474
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11475 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11473 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11491 0 0 0 0 0 0 0 0
+S
+#11475
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11476 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11489 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11474 0 0 0 0 0 0 0 0
+S
+#11476
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11477 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11475 0 0 0 0 0 0 0 0
+S
+#11477
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the bedrooms of the Lord and
+the other nobility.  The tiled floor is polished almost to the point where you
+can see your reflection.  Candles hang from their holders mounted on the walls,
+giving off their faint yellow glow.  Allowing you to see everything as you
+travel down the hall.  On the walls are pictures of silver and brass dragons,
+as well as some depicting battle scenes of war.  The guards patrol the halls
+looking for any signs of trouble.  Every now and then you see the servants dash
+in and out of one of the rooms, carrying fresh linens for the beds.    
+~
+114 d 0 0 0  0
+D2
+~
+~
+0 0 11476 0 0 0 0 0 0 0 0
+S
+#11478
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11469 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11479 0 0 0 0 0 0 0 0
+S
+#11479
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11478 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11480 0 0 0 0 0 0 0 0
+S
+#11480
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D1
+~
+~
+0 0 11479 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11481 0 0 0 0 0 0 0 0
+S
+#11481
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11482 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11480 0 0 0 0 0 0 0 0
+S
+#11482
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11483 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11481 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11488 0 0 0 0 0 0 0 0
+S
+#11483
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11484 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11482 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11487 0 0 0 0 0 0 0 0
+S
+#11484
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D0
+~
+~
+0 0 11485 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11483 0 0 0 0 0 0 0 0
+S
+#11485
+A Well-Lit Hallway~
+   You are walking down a hallway that leads to the offices of the Lord's
+advisors and the other nobility.  The tiled floor is polished almost to the
+point where you can see your reflection.  Candles hang from their holders
+mounted on the walls, giving off their faint yellow glow.  Allowing you to see
+everything as you travel down the hall.  On the walls are pictures of silver
+and brass dragons, as well as some depicting battle scenes of war.  The guards
+patrol the halls looking for any signs of trouble.  Every now and then you see
+the servants dash in and out of the rooms, carrying food and drink to the
+nobles.    
+~
+114 d 0 0 0  0
+D1
+~
+door~
+1 0 11486 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11484 0 0 0 0 0 0 0 0
+S
+#11486
+Inside the Alchemy Lab~
+   The smell of incense and spell components fills yours nostrils as you step
+into the alchemy lab.  Here in this room the mage works hard on reading his
+ancient texts, and brewing new and unusual potions.  The walls are lined with
+bookshelves that rise all the way up to the ceiling, a small window in the
+furthest corner of the room is the only source of light, and this itself is
+kept covered by a heavy blanket.  It seems that perhaps the mage either wants
+to keep society out, or society wishes to keep him out.    
+~
+114 c 0 0 0  0
+D3
+~
+door~
+1 0 11485 0 0 0 0 0 0 0 0
+S
+#11487
+Captain of the Guards Office~
+   You are standing inside the office of the captain of the guard.  This is
+where all the officers will report for duty, and get their assignments.  The
+men whom work the local militia, patrolling the streets of the town, and the
+more prestigous job of patrolling the palace halls, all have steped foot into
+this room at some point and time.  A large window behind the Captains desk
+looks out over most of the town.  There are ancient shields and swords hanging
+on the wall for decoration.  As you enter his office, the guard looks up from
+his desk.    
+~
+114 cd 0 0 0  0
+D1
+~
+door~
+1 0 11483 0 0 0 0 0 0 0 0
+S
+#11488
+Chief Ambassadors Office~
+   You are standing inside the ambassadors office.  This is the office of the
+man whom travels to other cities and towns in the area making sure there is a
+good trade relationship.  His walls are full of bookcaes.  The large wooden
+desk has papers scattered all over the top of it as the man works on drawing up
+some official document.  The window behind the desk allows the sunlight to
+shine in, brightly lighting up the area.  As he notices you wander into his
+room, he looks up from his work.    
+~
+114 cd 0 0 0  0
+D1
+~
+door~
+1 0 11482 0 0 0 0 0 0 0 0
+S
+#11489
+Lord Anias' Bed Chambers~
+   You are standing inside the bedroom which belongs to the Lord and his wife.
+The large canopy bed has been made recently by one of the many servants.  Not a
+wrinkle can be seen on the sheets or pillows.  A fresh pitcher of water sits on
+a wooden table on either side of the bed.  A large green carpet is in the
+middle of the floor, good for keeping ones feet off the cold room floor during
+the cold winter months.    
+~
+114 0 0 0 0  0
+D3
+~
+door~
+1 0 11475 0 0 0 0 0 0 0 0
+S
+#11490
+Lord Anias' Study~
+   You are standing inside Lord Anias' study room.  The walls are lined with
+bookcases that reach all the way up to the ceiling.  They are filled with books
+of various types.  A large wooden desk sits in the middle of the room, all
+sorts of papers and books are scattered on its top.  The long velvet curtains
+are pulled back from the window behind the desk, allowing the sunlight to
+trickle through in the daytime hours illuminating the room.  In the furtherst
+corner of the room from you, stands Lord Anias' safe box.    
+~
+114 d 0 0 0  0
+D2
+~
+door~
+2 11400 11466 0 0 0 0 0 0 0 0
+S
+#11491
+One of the Bedrooms~
+   You are standing inside one of the bedrooms in the palace.  This one looks
+just like most of the others.  The large bed sits along the far wall, and a
+pitcher of water is neatly placed next to it on a table.  The curtains have
+been pulled back from the window to allow the sunlight to fill the room.  A
+wooden dresser sits against the other wall, all the drawers closed with nothing
+hanging out.  The floor has been highly polished to where you can almost see
+your reflection.    
+~
+114 cd 0 0 0  0
+D1
+~
+door~
+1 0 11474 0 0 0 0 0 0 0 0
+S
+#11492
+Rose Road~
+   This part of Rose road is leading you through the housing district of the
+town.  All of the peasants home are built almost exactly the same.  All large
+two story homes, with red bricked chimneys running up the sides.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from posts along the walkway,
+giving off their faint yellow glow in the evening hours to allow for safe
+travel about the town during the night.  Citizens pass by you as they come and
+go from their homes, as they scurry past you they smile and nod.    
+~
+114 0 0 0 0  1
+D0
+~
+~
+0 0 9596 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11493 0 0 0 0 0 0 0 0
+S
+#11493
+Rose Road~
+   This part of Rose road is leading you through the housing district of the
+town.  All of the peasants home are built almost exactly the same.  All large
+two story homes, with red bricked chimneys running up the sides.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from posts along the walkway,
+giving off their faint yellow glow in the evening hours to allow for safe
+travel about the town during the night.  Citizens pass by you as they come and
+go from their homes, as they scurry past you they smile and nod.    
+~
+114 0 0 0 0  1
+D0
+~
+~
+0 0 11492 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11494 0 0 0 0 0 0 0 0
+S
+#11494
+Rose Road~
+   This part of Rose road is leading you through the housing district of the
+town.  All of the peasants home are built almost exactly the same.  All large
+two story homes, with red bricked chimneys running up the sides.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from posts along the walkway,
+giving off their faint yellow glow in the evening hours to allow for safe
+travel about the town during the night.  Citizens pass by you as they come and
+go from their homes, as they scurry past you they smile and nod.    
+~
+114 0 0 0 0  1
+D0
+~
+~
+0 0 11493 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11495 0 0 0 0 0 0 0 0
+S
+#11495
+Rose Road~
+   This part of Rose road is leading you through the housing district of the
+town.  All of the peasants home are built almost exactly the same.  All large
+two story homes, with red bricked chimneys running up the sides.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from posts along the walkway,
+giving off their faint yellow glow in the evening hours to allow for safe
+travel about the town during the night.  Citizens pass by you as they come and
+go from their homes, as they scurry past you they smile and nod.    
+~
+114 0 0 0 0  1
+D0
+~
+~
+0 0 11494 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11496 0 0 0 0 0 0 0 0
+S
+#11496
+Rose Road~
+   This part of Rose road is leading you through the housing district of the
+town.  All of the peasants home are built almost exactly the same.  All large
+two story homes, with red bricked chimneys running up the sides.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from posts along the walkway,
+giving off their faint yellow glow in the evening hours to allow for safe
+travel about the town during the night.  Citizens pass by you as they come and
+go from their homes, as they scurry past you they smile and nod.    
+~
+114 0 0 0 0  1
+D0
+~
+~
+0 0 11495 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11497 0 0 0 0 0 0 0 0
+S
+#11497
+Rose Road~
+   This part of Rose road is leading you through the housing district of the
+town.  All of the peasants home are built almost exactly the same.  All large
+two story homes, with red bricked chimneys running up the sides.  The road
+beneath your feet has been paved with great care, the large stones used as a
+walkway lining the road allow you to travel without the worries of mud and dirt
+getting all over your feet.  Large oil lamps hang from posts along the walkway,
+giving off their faint yellow glow in the evening hours to allow for safe
+travel about the town during the night.  Citizens pass by you as they come and
+go from their homes, as they scurry past you they smile and nod.    
+~
+114 0 0 0 0  1
+D0
+~
+~
+0 0 11496 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9585 0 0 0 0 0 0 0 0
+S
+$

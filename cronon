@@ -1,0 +1,72 @@
+#!/bin/sh
+#
+# CircleMUD 3.0 cron job managment script
+# by Puff 
+# This script is released under the circle mud license
+# 
+#
+#############################################################################
+#
+#  This script is meant to help manage the cron tab restarting of autorun 
+#
+#  the crontab entry should look like :
+#
+#  0,15,30,45 * * * * $CIRCLEHOME/restart
+#
+# if you want restart to check every 15 minutes. 
+#
+# If you edit the $CIRCLEHOME to the path to your circle installation's root
+# directory then issue the command "cron-manage -a " this script will try
+# and install the crontab by it's self.
+#
+# NOTE: you will get mail everytime autorun is restarted, plan accordingly.
+#
+#
+#############################################################################
+#
+#
+#
+#
+#
+CIRCLEHOME=/home/aol/code/beta-build
+#
+#
+#############################################################################
+
+case "$0" in
+  cronon)
+         rm  .killcron
+         echo "cron restarting of autorun turned on"
+         exit 0
+         ;;
+  cronoff)
+         touch  .killcron
+         echo "cron restarting of autorun turned off"
+         exit 0
+         ;;
+  cron-manage)
+     crontab -l > .cron.current
+     case "$1" in
+        -l)
+            more .cron.current
+            ;;
+        -d)
+            echo "feature not in yet"
+
+            ;;
+        -a)
+            echo "0,15,30,45 * * * *  $CIRCLEHOME/restart" >>.cron.current
+	    crontab .cron.current 
+            echo "added restart entry to crontab"
+            ;;
+	 *)
+            echo "Usage : "
+            echo "        -l  list current crontab"
+            echo "        -d  remove restart from crontab "
+            echo "        -a  add restart to crontab"
+
+            echo " "
+            ;;
+      esac
+      ;;
+esac

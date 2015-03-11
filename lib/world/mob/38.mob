@@ -1,0 +1,76 @@
+#3800
+cavern guard~
+the cavern guard~
+A cavern guard is here protecting the entrance.
+~
+The guard is huge!  He appears to be a fire giant.  And judging by the look on
+his face, he takes his role seriously.  
+~
+d 0 0 0 k 0 0 0 1000
+16 20 -6 68d100+340 1d8+0
+200 0 0 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3801
+A lost traveller~
+a lost tarveller~
+A lost traveller is here trying to navigate the mountain path.
+~
+It looks unfinished.
+~
+bdA 0 0 0 dkp 0 0 0 1000
+16 19 -6 68d100+340 1d8+0
+200 0 82 21
+8 8 2
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3802
+Pseudodragon~
+a watchful pseudodragon~
+A guardian pseudodragon flies quietly here.
+~
+It looks unfinished.
+~
+demt 0 0 0 0 e 0 0 0
+2 19 8 18d100+100 1d1+1
+0 0 9 1
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 16
+E
+Con: 12
+E
+Cha: 10
+S
+$

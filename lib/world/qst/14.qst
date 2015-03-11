@@ -1,0 +1,138 @@
+#1400
+Orc trouble~
+Orc trouble~
+Hmmm... the orcs are getting bolder by the day.
+
+As if talking to himself, the commander continues: "We have reports of orcs roaming the countryside almost every day, and the villages around here are scared"
+
+He then turns and looks at you: "This outpost has been attacked twice within this month and we think is just the beginning of the hostilities."
+"There is a new Chieft in the orc camp and he has make them become bolder and more aggresive"
+"we dare not leave this place, our mission is to protect the pass to Neverwinter, but we cannot leave this menace unnatended and growing in power"
+
+He walks towards you and puts his arm on your shoulder: "We need somebody that think their ranks and give us more time to prepare some plans of attack"
+
+"So what do you say brave warrior, are you ready to kill some orcs?"
+
+"Bring death to @C10 of the orc guards@n first"
+~
+"That was good work, now lets plan for something new for those orcs"
+~
+You have abandoned the quest.
+~
+3 1414 a 1400 -1 -1 -1
+5 0 10 41 -1 -1 10
+300 1 65535
+S
+#1401
+Orc Soldiers~
+Orc Soldiers~
+"The next logical step is to thin out the soldier base, without them, their raids should be greatly diminished'
+
+Showing you a map of the orc encampment, he continues: "The soldiers are located in these barracks, to be able to hurt their numbers, you probably will need to kill at least 15"
+
+"On your way then, and godspeed"
+~
+"Excellent news, you are quite an asset to this endeavor"
+~
+You have abandoned the quest.
+~
+3 1414 a 1401 -1 -1 -1
+5 0 10 41 -1 -1 15
+300 1 65535
+S
+#1402
+Orc Warriors~
+Orc Warriors~
+"Besides the soldiers, there are warriors in this camp.  They are the real threat to the villages around here. The soldiers have more discipline but the warriors are allowed more freedom and they are the ones that ransack and burn everything they find."
+
+"We cannot leave that threat unchecked"
+
+"Nuetralize the threat of those warriors by killing 10"
+~
+"We can breath easier by this news, Thank you"
+~
+You have abandoned the quest.
+~
+3 1414 a 1405 -1 -1 -1
+5 0 10 41 -1 -1 10
+300 1 65535
+S
+#1403
+The Orc Shamans~
+The Orc Shamans~
+"Ok, we have slowed them down, but this is very temporary"
+ 
+"The orcs reproduce like rabbits and there are always more young orcs trying to attain their status by becoming soldiers or warriors"
+ 
+"If we want to kill a snake, we need to strike at the head, to that end, we need to get rid of their leadership, that will be the best way to make sure they have stopped their plans"
+ 
+"We must strike at their Shaman first, without their aid and guidance, the orcs will become frightened and discouraged"
+
+"Kill 10 shaman and sow chaos into their ranks"
+~
+"We are starting to see the fruits of your labor, my scouts report that the camp in in disarray. Good work"
+~
+You have abandoned the quest.
+~
+3 1414 a 1402 -1 -1 -1
+5 0 10 41 -1 -1 10
+300 1 65535
+S
+#1404
+The High Priest~
+The High Priest~
+" Your task is far from completed. The orc leadership has many branches. The High Priest is the moral support of the orcs and striking at him would give us a great Victory towards our ultimate goal."
+
+"The Priest is guarded just like all the leadership of the orcs, so be careful"
+~
+"Outstanding, we must celebrate"
+~
+You have abandoned the quest.
+~
+3 1414 a 1411 -1 -1 -1
+5 0 11 41 -1 -1 1
+500 1 65535
+S
+#1405
+The Orc Matron ~
+The Orc Matron ~
+"This next task is crucial to crush the leadership of the orc camp.  The next target should be the orcish Matron."
+
+"Ware my friend, this female is just as skilled as her consort and she will be a tough one to defeat"
+
+"Even thou she is a female, she carries almost as much weight with the orcs as the chief, is imperative that we get rid of her"
+~
+'Your task is almost complete, fortune has smiled on us"
+~
+You have abandoned the quest.
+~
+3 1414 a 1412 -1 -1 -1
+5 0 11 41 -1 -1 1
+500 1 65535
+S
+#1406
+The Orc Chieft~
+The Orc Chieft~
+"All your actions have taken you to this last endeavor. It is too late to hesitate or to go back now"
+
+"By now the orc Chief has heard of our extermination of his consort and his High priest, he will be on the lookout for you"
+
+"The Orc Chief must be eliminated, and this region will know some measure of safety again"
+~
+"I congratulate you my friend on a job well done"
+
+He takes a bottle out of his desk and uncorks it
+
+"The task was an ardous one but you passed with flying colors, here have a drink."
+
+He takes a glup of the bottle and then passes it to you
+
+"Nah, take the bottle, is the least I can do, and with our gratitude, here is your just reward"
+~
+You have abandoned the quest.
+~
+3 1414 a 1407 -1 -1 -1
+5 0 11 41 -1 -1 1
+750 1 4010
+S
+$~

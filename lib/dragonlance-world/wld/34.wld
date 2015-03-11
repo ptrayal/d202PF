@@ -1,0 +1,2056 @@
+#3400
+The Gates of Thelgaard Keep~
+   The towering doors of Thelgaard Keep are truly a sight to see.  The ancient
+oaken doors are over thirty feet high.  During this time of peace they are wide
+open to all travelers.  Beyond the doors in the north is a huge courtyard
+filled with various sites to see and many people walking about.    
+~
+34 0 h 0 0 2
+D0
+~
+~
+0 0 3402 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4495 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3403 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3401 0 0 0 0 0 0 0 0
+S
+#3401
+Entering Thelgaard~
+   As you enter the courtyard you see before you a very large building to the
+north.  There are huge stone walls in every direction protecting the keep from
+invasion.  To the east is a small market and to the west is a stable for weary
+horses.    
+~
+34 c h 0 0 1
+D0
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3402 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3400 0 0 0 0 0 0 0 0
+S
+#3402
+Entering Thelgaard~
+   As you enter the courtyard you see before you a very large building to the
+north.  There are huge stone walls in every direction protecting the keep from
+invasion.  To the east is a small market and to the west is a stable for weary
+horses.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3405 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3400 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3403 0 0 0 0 0 0 0 0
+S
+#3403
+Entering Thelgaard~
+   As you enter the courtyard you see before you a very large building to the
+north.  There are huge stone walls in every direction protecting the keep from
+invasion.  To the east is a small market and to the west is a stable for weary
+horses.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3404 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3402 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3400 0 0 0 0 0 0 0 0
+S
+#3404
+The Courtyard of Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is a market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3416 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3405 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3403 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3407 0 0 0 0 0 0 0 0
+S
+#3405
+The Courtyard of Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is a market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3417 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3402 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3404 0 0 0 0 0 0 0 0
+S
+#3406
+Southwest of Thelgaard Market~
+   The sounds of Thelgaard Market begin to overwhelm you.  To the northeast is
+the bustling market filled with goods from all over Krynn.  Off to the west is
+the stables and far to the north is a large multi-floored building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3418 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3411 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3401 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3405 0 0 0 0 0 0 0 0
+S
+#3407
+Walking along the Thelgaard Stables~
+   Standing next to the stables, the distinct smell of horses assaults your
+senses.  The stables are made of a dark wood that is rare in this area of the
+world.  Far to the east is the Thelgaard market and filling your vision to the
+north is a large multi-floored building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3415 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3404 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3408 0 0 0 0 0 0 0 0
+S
+#3408
+Walking next to the Stables~
+   You are walking in an area between the ancient walls of Thelgaard keep and
+the stable.  To the north is the building that makes up the stable.  Directly
+to the west is an entrance to one of Thelgaards six towers.  Far to the east is
+Thelgaards market.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3407 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3409 0 0 0 0 0 0 0 0
+S
+#3409
+Walking next to the Stables~
+   You are walking in an area between the ancient walls of Thelgaard keep and
+the stable.  To the north is the building that makes up the stable.  Directly
+to the west is an entrance to one of Thelgaards six towers.  Far to the east is
+Thelgaards market.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3408 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3410 0 0 0 0 0 0 0 0
+S
+#3410
+Outside the Southwest Tower~
+   To the southwest is the entrance to the southwest tower of Thelgaard Keep.
+There are six of these towers throughout Thelgaard placed at strategic points.
+The towers are made of huge blocks of stone which are stacked and cemented
+together.  The towers reach almost one hundred feet into the air which allows
+them to oversee the lands surrounding the keep.    
+~
+34 c h 0 0 1
+D1
+~
+~
+0 0 3409 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3523 0 0 0 0 0 0 0 0
+S
+#3411
+In Thelgaard's Market~
+   You are walking in the area known as the Thelgaard market.  The market is
+filled with vendors from all over the country side selling their wares.  
+Children run about playing with wooden swords while shopkeepers yell out what
+they are selling.  To the east you can see the entrance to the southeast tower
+of Thelgaard.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+S
+#3412
+In Thelgaard's Market~
+   You are walking in the area known as the Thelgaard market.  The market is
+filled with vendors from all over the country side selling their wares.  
+Children run about playing with wooden swords while shopkeepers yell out what
+they are selling.  To the east you can see the entrance to the southeast tower
+of Thelgaard.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3449 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3413 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3411 0 0 0 0 0 0 0 0
+S
+#3413
+In Thelgaard's Market~
+   You are walking in the area known as the Thelgaard market.  The market is
+filled with vendors from all over the country side selling their wares.  
+Children run about playing with wooden swords while shopkeepers yell out what
+they are selling.  To the east you can see the entrance to the southeast tower
+of Thelgaard.    
+~
+34 d h 0 0 1
+D1
+~
+~
+0 0 3414 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3412 0 0 0 0 0 0 0 0
+S
+#3414
+Outside the Southeast Tower~
+   To the southeast is the entrance to the southeast tower of Thelgaard Keep.
+There are six of these towers throughout Thelgaard placed at strategic points.
+The towers are made of huge blocks of stone which are stacked and cemented
+together.  The towers reach almost one hundred feet into the air which allows
+them to oversee the lands surrounding the keep.    
+~
+34 c h 0 0 1
+D0
+~
+~
+0 0 3445 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3413 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3522 0 0 0 0 0 0 0 0
+S
+#3415
+Walking along the Thelgaard Stables~
+   Standing next to the stables, the distinct smell of horses assaults your
+senses.  The stables are made of a dark wood that is rare in this area of the
+world.  Far to the east is the Thelgaard market and filling your vision to the
+north is a large multi-floored building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3422 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3416 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3407 0 0 0 0 0 0 0 0
+S
+#3416
+The Courtyard of Thelgaard ~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3421 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3417 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3404 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3415 0 0 0 0 0 0 0 0
+S
+#3417
+The Courtyard of Thelgaard ~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3420 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3418 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3405 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3416 0 0 0 0 0 0 0 0
+S
+#3418
+West of Thelgaard Market~
+   The Thelgaard Market is directly to the east from here.  Vendors from all
+over come here to market their wares and to make their riches.  From here it is
+hard to see what exactly is being sold but it looks like a little bit of
+everything.  To the west is the Thelgaard stables and to the north is a
+multi-floored stone building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3419 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3406 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3417 0 0 0 0 0 0 0 0
+S
+#3419
+West of Thelgaard Market~
+   The Thelgaard Market is directly to the east from here.  Vendors from all
+over come here to market their wares and to make their riches.  From here it is
+hard to see what exactly is being sold but it looks like a little bit of
+everything.  To the west is the Thelgaard stables and to the north is a
+multi-floored stone building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3426 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3418 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3420 0 0 0 0 0 0 0 0
+S
+#3420
+The Courtyard of Thelgaard ~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3425 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3419 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3417 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3421 0 0 0 0 0 0 0 0
+S
+#3421
+The Courtyard of Thelgaard ~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is a market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3424 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3420 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3416 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3422 0 0 0 0 0 0 0 0
+S
+#3422
+Outside the Thelgaard Stables~
+   You are at the entrance to the Thelgaard Stables.  The stables are made of a
+dark wood that is rare in this area of the world.  To the north is a large
+multi-floored building and far to the east is the Thelgaard market.    
+~
+34 c h 0 0 1
+D0
+~
+~
+0 0 3423 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3415 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3459 0 0 0 0 0 0 0 0
+S
+#3423
+Outside the Thelgaard Stables~
+   You are at the entrance to the Thelgaard Stables.  The stables are made of a
+dark wood that is rare in this area of the world.  To the north is a large
+multi-floored building and far to the east is the Thelgaard market.    
+~
+34 c h 0 0 1
+D0
+~
+~
+0 0 3430 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3424 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3422 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3453 0 0 0 0 0 0 0 0
+S
+#3424
+The Courtyard of Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is a market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3429 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3425 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3421 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3423 0 0 0 0 0 0 0 0
+S
+#3425
+The Courtyard of Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is a market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 cu h 0 0 1
+D0
+~
+~
+0 0 3428 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3426 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3420 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3424 0 0 0 0 0 0 0 0
+S
+#3426
+West of Thelgaard Market~
+   The Thelgaard Market is directly to the east from here.  Vendors from all
+over come here to market their wares and to make their riches.  From here it is
+hard to see what exactly is being sold but it looks like a little bit of
+everything.  To the west is the Thelgaard stables and to the north is a
+multi-floored stone building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3427 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3419 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3425 0 0 0 0 0 0 0 0
+S
+#3427
+West of Thelgaard Market~
+   The Thelgaard Market is directly to the east from here.  Vendors from all
+over come here to market their wares and to make their riches.  From here it is
+hard to see what exactly is being sold but it looks like a little bit of
+everything.  To the west is the Thelgaard stables and to the north is a
+multi-floored stone building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3434 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3426 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3428 0 0 0 0 0 0 0 0
+S
+#3428
+The Courtyard of Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is a market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3433 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3427 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3425 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3429 0 0 0 0 0 0 0 0
+S
+#3429
+The Courtyard of Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is a market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3432 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3428 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3424 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3430 0 0 0 0 0 0 0 0
+S
+#3430
+Walking along the Thelgaard Stables~
+   Standing next to the stables, the distinct smell of horses assaults your
+senses.  The stables are made of a dark wood that is rare in this area of the
+world.  Far to the east is the Thelgaard market and filling your vision to the
+north is a large multi-floored building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3431 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3429 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3423 0 0 0 0 0 0 0 0
+S
+#3431
+Walking along the Thelgaard Stables~
+   Standing next to the stables, the distinct smell of horses assaults your
+senses.  The stables are made of a dark wood that is rare in this area of the
+world.  Far to the east is the Thelgaard market and filling your vision to the
+north is a large multi-floored building.  Directly to the east is an entrance
+to one of the six towers of Thelgaard Keep.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3464 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3432 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3430 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3439 0 0 0 0 0 0 0 0
+S
+#3432
+The Courtyard at Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3465 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3433 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3429 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3431 0 0 0 0 0 0 0 0
+S
+#3433
+The Courtyard at Thelgaard~
+   The courtyard of Thelgaard is a surprisingly large and busy place.  During
+these times of peace Thelgaard has grown into a place where people can go to
+peddle their wares and offer their services.  Far off to the east is market
+place and to the west is a small stable.  A large building fills your vision to
+the north.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3466 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3434 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3428 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3432 0 0 0 0 0 0 0 0
+S
+#3434
+Northwest of Thelgaard Market~
+   The Thelgaard Market is directly to the southeast from here.  Vendors from
+all over come here to market their wares and make their riches.  From here it
+is hard to see what exactly is being sold but it looks like a little bit of
+everything.  To the west is the Thelgaard stables and to the north is a
+multi-floored stone building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3467 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3435 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3427 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3433 0 0 0 0 0 0 0 0
+S
+#3435
+North of Thelgaard Market~
+   The Thelgaard Market is directly to the south from here.  Vendors from all
+over come here to market their wares and make their riches.  From here it is
+hard to see what exactly is being sold but it looks like a little bit of
+everything.  To the west is the Thelgaard stables and to the north is a
+multi-floored stone building.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3468 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3436 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3434 0 0 0 0 0 0 0 0
+S
+#3436
+North of Thelgaard Market~
+   You are walking in the area known as the Thelgaard market.  The market is
+filled with venders from all over the country side selling their wares.  
+Children run about playing with wooden swords while shopkeepers yell out what
+they are selling.  To the east you can see the enterance to the southeast tower
+of Thelgaard.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3437 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3446 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3435 0 0 0 0 0 0 0 0
+S
+#3437
+North of Thelgaard Market~
+   The Thelgaard Market is directly to the south from here.  Vendors from all
+over come here to market their wares and make their riches.  From here it is
+hard to see what exactly is being sold but it looks like a little bit of
+everything.  To the west is the Thelgaard stables and to the north is a
+multi-floored stone building.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3438 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3436 0 0 0 0 0 0 0 0
+S
+#3438
+Outside the East Tower~
+   To the east is the entrance to the east tower of Thelgaard Keep.  There are
+six of these towers throughout Thelgaard placed at strategic points.  The
+towers are made of huge blocks of stone which are stacked and cemented
+together.  The towers reach almost one hundred feet into the air which allows
+them to oversee the lands surrounding the keep.    
+~
+34 c h 0 0 1
+D2
+~
+~
+0 0 3442 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3437 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3521 0 0 0 0 0 0 0 0
+S
+#3439
+Walking along the Thelgaard Stables~
+   You are walking in an area between the ancient walls of Thelgaard keep and
+the stable.  To the south is the building that makes up the stable.  Directly
+to the west is an entrance to one of Thelgaards six towers.  Far to the east
+is Thelgaards market.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3431 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3440 0 0 0 0 0 0 0 0
+S
+#3440
+Walking along the Thelgaard Stables~
+   You are walking in an area between the ancient walls of Thelgaard keep and
+the stable.  To the south is the building that makes up the stable.  Directly
+to the west is an entrance to one of Thelgaards six towers.  Far to the east is
+Thelgaards market.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3439 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3441 0 0 0 0 0 0 0 0
+S
+#3441
+Outside the West Tower~
+   To the west is the entrance to the west tower of Thelgaard Keep.  There are
+six of these towers throughout Thelgaard placed at strategic points.  The
+towers are made of huge blocks of stone which are stacked and cemented
+together.  The towers reach almost one hundred feet into the air which allows
+them to oversee the lands surrounding the keep.    
+~
+34 c h 0 0 1
+D1
+~
+~
+0 0 3440 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3524 0 0 0 0 0 0 0 0
+S
+#3442
+East of Thelgaard Market~
+   The noise from the Thelgaard market to the west fills you ears.  Children
+run along this path that leads along the eastern walls of Thelgaard.  To the
+north is the eastern tower and to the south is the south eastern tower.  Far
+off to north you can see a large multi-floor stone building.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3438 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3443 0 0 0 0 0 0 0 0
+S
+#3443
+East of Thelgaard Market~
+   The noise from the Thelgaard market to the west fills you ears.  Children
+run along this path that leads along the eastern walls of Thelgaard.  To the
+north is the eastern tower and to the south is the south eastern tower.  Far
+off to north you can see a large multi-floor stone building.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3442 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3444 0 0 0 0 0 0 0 0
+S
+#3444
+East of Thelgaard Market~
+   The noise from the Thelgaard market to the west fills you ears.  Children
+run along this path that leads along the eastern walls of Thelgaard.  To the
+north is the eastern tower and to the south is the south eastern tower.  Far
+off to north you can see a large multi-floor stone building.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3443 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3445 0 0 0 0 0 0 0 0
+S
+#3445
+East of Thelgaard Market~
+   The noise from the Thelgaard market to the west fills you ears.  Children
+run along this path that leads along the eastern walls of Thelgaard.  To the
+north is the eastern tower and to the south is the south eastern tower.  Far
+off to north you can see a large multi-floor stone building.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3444 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3414 0 0 0 0 0 0 0 0
+S
+#3446
+The Center of Thelgaard Market~
+   You are walking through the center of the market.  This is where most
+business takes place.  There are vendors on either side of you.  To the west
+you see a shop that exchanges money.  You can proceed deeper into the market by
+heading either north or south.  If you proceed far enough either way you will
+exit the market.    
+~
+34 c h 0 0 0
+D0
+~
+~
+0 0 3436 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3447 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3455 0 0 0 0 0 0 0 0
+S
+#3447
+The Center of Thelgaard Market~
+   You are walking through the center of the market.  This is where most
+business takes place.  There are vendors on either side of you.  To the east
+you see a shop selling magical items.  You can proceed deeper into the market
+by heading either north or south.  If you proceed far enough either way you
+will exit the market.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3446 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3452 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3448 0 0 0 0 0 0 0 0
+S
+#3448
+The Center of Thelgaard Market~
+   You are walking through the center of the market.  This is where most
+business takes place.  There are vendors on either side of you.  To the west
+you see a shop selling weapons.  You can proceed deeper into the market by
+heading north or head out by going south.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3447 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3449 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3451 0 0 0 0 0 0 0 0
+S
+#3449
+The Center of Thelgaard Market~
+   You are walking through the center of the market.  This is where most
+business takes place.  There are vendors on either side of you.  To the east
+you see a shop selling food and water.  You can proceed deeper into the market
+by heading north or head out by going south.    
+~
+34 c h 0 0 0
+D0
+~
+~
+0 0 3448 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3450 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3412 0 0 0 0 0 0 0 0
+S
+#3450
+Lily's Food Shop~
+   As you enter Lily's food shop the smell of freshly baked bread fills your
+nose.  You see dozens of freshly baked loaves of bread sitting on shelves along
+with wedges of cheese wrapped in animal skins.  There is a large stone counter
+which has multiple scales and jars on it.    
+~
+34 d h 0 0 0
+D3
+~
+~
+0 0 3449 0 0 0 0 0 0 0 0
+S
+#3451
+Lott's Weapon and Armor Shop~
+   This shops sole purpose is to sell weapons and armor.  You can see a forge
+and hammer in the back of the shop where many of the items that are sold here
+are made.  There are all different lengths of swords, axes and daggers hanging
+from the walls of the shop.  There are also quite a few sets of full body armor
+on display along with highly decorated shields.  There is one man standing in
+the back of the shop overseeing the clerks.    
+~
+34 d h 0 0 0
+D1
+~
+~
+0 0 3448 0 0 0 0 0 0 0 0
+S
+#3452
+Ida's Magic Shop~
+   This shop looks to be one that sells magical items.  There are bags of herbs
+hanging from hooks and small vials of liquid sit in metal containers.  
+Decorated staffs and wands lay against the walls and hang from the ceiling.  
+The smell of spell components fills your nose.    
+~
+34 d h 0 0 0
+D0
+~
+~
+0 0 7072 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3447 0 0 0 0 0 0 0 0
+S
+#3453
+Inside the Stables~
+   Soft hay crunches under your feet as you make your way through the Thelgaard
+stables.  Stable hands are hard at work keeping the stables clean and keeping
+the horses well fed.  The stable looks to be holding about four horses at this
+time.  To the north is a horses stall.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3462 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3459 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3454 0 0 0 0 0 0 0 0
+S
+#3454
+Inside the Stables~
+   Soft hay crunches under your feet as you make your way through the Thelgaard
+stables.  Stable hands are hard at work keeping the stables clean and keeping
+the horses well fed.  The stable looks to be holding about four horses at this
+time.    
+~
+34 0 h 0 0 0
+D1
+~
+~
+0 0 3453 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3458 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3456 0 0 0 0 0 0 0 0
+S
+#3455
+The Money Exchangers Stall~
+   You have arrived at the money exchangers stall.  A fat pudgy man stands
+behind the counter counting copper ,gold, steel and platinum coins.  There is a
+large steel safe in the back of the stall in which the fat man keeps his money
+safe.    
+~
+34 d h 0 0 0
+D1
+~
+~
+0 0 3446 0 0 0 0 0 0 0 0
+S
+#3456
+Inside the Stables~
+   Soft hay crunches under your feet as you make your way through the Thelgaard
+stables.  Stable hands are hard at work keeping the stables clean and keeping
+the horses well fed.  The stable looks to be holding about four horses at this
+time.  To the north is a horses stall.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3461 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3454 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3457 0 0 0 0 0 0 0 0
+S
+#3457
+Inside the Stables~
+   Soft hay crunches under your feet as you make your way through the Thelgaard
+stables.  Stable hands are hard at work keeping the stables clean and keeping
+the horses well fed.  The stable looks to be holding about four horses at this
+time.  To the south is a horses stall.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3456 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3458 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3460 0 0 0 0 0 0 0 0
+S
+#3458
+Inside the Stables~
+   Soft hay crunches under your feet as you make your way through the Thelgaard
+stables.  Stable hands are hard at work keeping the stables clean and keeping
+the horses well fed.  The stable looks to be holding about four horses at this
+time.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3454 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3459 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3457 0 0 0 0 0 0 0 0
+S
+#3459
+Inside the Stables~
+   Soft hay crunches under your feet as you make your way through the Thelgaard
+stables.  Stable hands are hard at work keeping the stables clean and keeping
+the horses well fed.  The stable looks to be holding about four horses at this
+time.  To the south is a horses stall.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3453 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3463 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3458 0 0 0 0 0 0 0 0
+S
+#3460
+A Horse's Stall~
+   The stalls in this stable are kept very clean as knights of Thelgaard Keep
+demand that their horses be treated with the utmost respect.  The horses are
+well fed and well groomed.  The stalls are large which gives the horses plenty
+of room to move.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3457 0 0 0 0 0 0 0 0
+S
+#3461
+A Horse's Stall~
+   The stalls in this stable are kept very clean as knights of Thelgaard Keep
+demand that their horses be treated with the utmost respect.  The horses are
+well fed and well groomed.  The stalls are large which gives the horses plenty
+of room to move.    
+~
+34 0 h 0 0 0
+D2
+~
+~
+0 0 3456 0 0 0 0 0 0 0 0
+S
+#3462
+A Horse's Stall~
+   The stalls in this stable are kept very clean as knights of Thelgaard Keep
+demand that their horses be treated with the utmost respect.  The horses are
+well fed and well groomed.  The stalls are large which gives the horses plenty
+of room to move.    
+~
+34 0 h 0 0 0
+D2
+~
+~
+0 0 3453 0 0 0 0 0 0 0 0
+S
+#3463
+A Horse's Stall~
+   The stalls in this stable are kept very clean as knights of Thelgaard Keep
+demand that their horses be treated with the utmost respect.  The horses are
+well fed and well groomed.  The stalls are large which gives the horses plenty
+of room to move.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3459 0 0 0 0 0 0 0 0
+S
+#3464
+Between the Courtyard and a Large Multifloored Stone Building~
+   To the northeast is a large multi-floored stone building.  It is made of
+ancient white stones that look to have been cut by dwarven hands.  To the south
+is the Thelgaard courtyard, market and stables.  Far to the north you can hear
+swords clanging.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3479 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3465 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3431 0 0 0 0 0 0 0 0
+S
+#3465
+Between the Courtyard and a Large Multifloored Stone Building~
+   To the northeast is a large multi-floored stone building.  It is made of
+ancient white stones that look to have been cut by dwarven hands.  To the south
+is the Thelgaard courtyard, market and stables.  Far to the north you can hear
+swords clanging.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3466 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3432 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3464 0 0 0 0 0 0 0 0
+S
+#3466
+Between the Courtyard and a Large Multifloored Stone Building~
+   You are standing at the entrance to the huge multi-floored stone building
+that stands at the center of Thelgaard Keep.  The doors are made of ancient oak
+taken from the woods near the keep.  The walls are made of white stone cut so
+carefully that only dwarves could have sculpted them.    
+~
+34 c h 0 0 1
+D0
+~
+door oaken north~
+1 0 3508 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3467 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3433 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3465 0 0 0 0 0 0 0 0
+S
+#3467
+Between the Courtyard and a Large Multifloored Stone Building~
+   To the north is a large multi-floored building.  It is made of large white
+stones that show no affects of age or weather.  They are of such make that they
+must have been cut by dwarven hands in times past.  To the south is the
+Thelgaard courtyard, market and stables.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3468 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3434 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3466 0 0 0 0 0 0 0 0
+S
+#3468
+Between the Courtyard and a Large Multifloored Stone Building~
+   To the northwest is the large multi-floored stone building which has to be
+of dwarven make.  The north leads between the large stone walls or Thelgaard
+and the large building in the center.  To the north is a fenced in area from
+which the sounds of clanging swords can be heard.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3469 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3435 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3467 0 0 0 0 0 0 0 0
+S
+#3469
+Along the East Side of a Large Building~
+   To the west is the large multi-floored stone building which has to be of
+dwarven make.  The north leads between the large stone walls of Thelgaard and
+the large building in the center.  To the north is a fenced in area from which
+the sounds of clanging swords can be heard.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3470 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3468 0 0 0 0 0 0 0 0
+S
+#3470
+Along the East Side of a Large Building~
+   To the west is the large multi-floored stone building which has to be of
+dwarven make.  The north leads between the large stone walls of Thelgaard and
+the large building in the center.  To the north is a fenced in area from which
+the sounds of clanging swords can be heard.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3471 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3469 0 0 0 0 0 0 0 0
+S
+#3471
+Along the East Side of a Large Building~
+   To the west is the large multi-floored stone building which has to be of
+dwarven make.  The north leads between the large stone walls of Thelgaard and
+the large building in the center.  To the north is a fenced in area from which
+the sounds of clanging swords can be heard.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3472 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3470 0 0 0 0 0 0 0 0
+S
+#3472
+The Northeast Corner of a Large Building~
+   To the southwest is a large multi-floored stone building of dwarven make.  
+To the north is a fenced in area which is the training area for new recruits.
+The sounds of steel clashing fill your ears.  To the west is a sleeping
+building for the soldiers.    
+~
+34 0 h 0 0 1
+D2
+~
+~
+0 0 3471 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3473 0 0 0 0 0 0 0 0
+S
+#3473
+The Entrance to the Training Area~
+   You are standing at the entrance to the training court.  To the north you
+can see soldiers fighting with poles in training exercises.  There are archers
+taking aim at targets across the court and commanders barking orders on how to
+improve their shot.    
+~
+34 c h 0 0 1
+D0
+~
+gate~
+1 0 3491 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3472 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3474 0 0 0 0 0 0 0 0
+S
+#3474
+Between the Training Area and a Large Building~
+   To the north is a fenced in area that is the training area for new recruits.
+You can hear orders being barked and steel hitting steel coming from within.  
+To the south is the large multi-floored building which stands at the center of
+Thelgaard Keep.  To the east is the sleeping building for the soldiers.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3473 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3475 0 0 0 0 0 0 0 0
+S
+#3475
+Between the Training Area and a Large Building~
+   To the north is a fenced in area that is the training area for new recruits.
+You can hear orders being barked and steel hitting steel coming from within.  
+To the south is the large multi-floored building which stands at the center of
+Thelgaard Keep.  To the east is the sleeping building for the soldiers.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3474 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3476 0 0 0 0 0 0 0 0
+S
+#3476
+The Northwest Corner of a Large Building~
+   To the southwest is the large multi-floored building that stands at the
+center of Thelgaard keep.  It is made of ancient white stone cut by dwarven
+hands.  To the east is a fenced in area from which you can hear the sounds of
+swords clanging.  To the north is the sleeping area of soldiers that protect
+the keep.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3480 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3475 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3477 0 0 0 0 0 0 0 0
+S
+#3477
+Along the West Side of a Large Building~
+   To the east is a large multi-floored stone building.  It is made of ancient
+white stones that look to have been cut by dwarven hands.  To the south is the
+Thelgaard courtyard, market and stables.  Far to the north you can hear swords
+clanging.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3476 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3478 0 0 0 0 0 0 0 0
+S
+#3478
+Along the West Side of a Large Building~
+   To the east is a large multi-floored stone building.  It is made of ancient
+white stones that look to have been cut by dwarven hands.  To the south is the
+Thelgaard courtyard, market and stables.  Far to the north you can hear swords
+clanging.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3477 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3479 0 0 0 0 0 0 0 0
+S
+#3479
+Along the West Side of a Large Building~
+   To the east is a large multi-floored stone building.  It is made of ancient
+white stones that look to have been cut by dwarven hands.  To the south is the
+Thelgaard courtyard, market and stables.  Far to the north you can hear swords
+clanging.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3478 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3464 0 0 0 0 0 0 0 0
+S
+#3480
+At an Entrance to a Medium Sized Building~
+   This is the entrance to the sleeping quarters of the soldiers of Thelgaard
+Keep.  The building is not large but neither is it small.  Since only about one
+quarter of the soldiers sleep here at one time the building does not need to be
+large enough to house all the warriors of Thelgaard Since only about one large
+enough to house all the warriors of Thelgaard Keep
+~
+34 c h 0 0 1
+D0
+~
+~
+0 0 3481 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3476 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3482 0 0 0 0 0 0 0 0
+S
+#3481
+Outside a Medium Sized Building~
+   To the east is the training area and to the west is the small building that
+makes up the sleeping quarters of the soldiers.  Since only about one quarter
+of the soldiers sleep here at one time the building does not need to be large
+enough to house all the warriors of Thelgaard Keep.    
+~
+34 0 h 0 0 1
+D2
+~
+~
+0 0 3480 0 0 0 0 0 0 0 0
+S
+#3482
+Walking through the Center of the Sleeping Area~
+   Walking through the center of the rest building of the soldiers you see
+mostly just a bunch of beds.  The one interesting thing about this building is
+how it connects directly to the northwest tower.  The tower is actually part of
+this building.  This was done so the soldiers could get to the walls quicker.
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3483 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3480 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3490 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3486 0 0 0 0 0 0 0 0
+S
+#3483
+Walking Between the Beds~
+   You are walking between the beds here.  They are spaced about three feet
+apart.  Some of the beds are occupied while others are not.  The beds that are
+not being used are neatly kept.  The soldiers that are sleeping would be easy
+prey to an assassin.    
+~
+34 0 h 0 0 0
+D2
+~
+~
+0 0 3482 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3484 0 0 0 0 0 0 0 0
+S
+#3484
+Walking Between the Beds~
+   You are walking between the beds here.  They are spaced about three feet
+apart.  Some of the beds are occupied while others are not.  The beds that are
+not being used are neatly kept.  The soldiers that are sleeping would be easy
+prey to an assassin.    
+~
+34 0 h 0 0 0
+D1
+~
+~
+0 0 3483 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3486 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3485 0 0 0 0 0 0 0 0
+S
+#3485
+Outside the Northwest Tower~
+   To the northwest is the entrance to the northwest tower of Thelgaard Keep.
+There are six of these towers throughout Thelgaard placed at strategic points.
+The towers are made of huge blocks of stone which are stacked and cemented
+together.  The towers reach almost one hundred feet into the air which allows
+them to oversee the lands surrounding the keep.    
+~
+34 c h 0 0 0
+D1
+~
+~
+0 0 3484 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3487 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3525 0 0 0 0 0 0 0 0
+S
+#3486
+Walking through the Center of the Sleeping Area~
+   Walking through the center of the building of the soldiers you see mostly
+just a bunch of beds.  The one interesting thing about this building is how it
+connects directly to the northwest tower.  The tower is actually part of this
+building.  This was done so the soldiers could get to the walls quicker.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3484 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3482 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3489 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3487 0 0 0 0 0 0 0 0
+S
+#3487
+Walking through the Center of the Sleeping Area~
+   Walking through the center of the building of the soldiers you see mostly
+just a bunch of beds.  The one interesting thing about this building is how it
+connects directly to the northwest tower.  The tower is actually part of this
+building.  This was done so the soldiers could get to the walls quicker.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3485 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3486 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3488 0 0 0 0 0 0 0 0
+S
+#3488
+Walking Between the Beds~
+   You are walking between the beds here.  They are spaced about three feet
+apart.  Some of the beds are occupied while others are not.  The beds that are
+not being used are neatly kept.  The soldiers that are sleeping would be easy
+prey to an assassin.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3487 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3489 0 0 0 0 0 0 0 0
+S
+#3489
+Walking Between the Beds~
+   You are walking between the beds here.  They are spaced about three feet
+apart.  Some of the beds are occupied while others are not.  The beds that are
+not being used are neatly kept.  The soldiers that are sleeping would be easy
+prey to an assassin.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3486 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3490 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3488 0 0 0 0 0 0 0 0
+S
+#3490
+Walking Between the Beds~
+   You are walking between the beds here.  They are spaced about three feet
+apart.  Some of the beds are occupied while others are not.  The beds that are
+not being used are neatly kept.  The soldiers that are sleeping would be easy
+prey to an assassin.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3482 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3489 0 0 0 0 0 0 0 0
+S
+#3491
+Inside a Training Area~
+   This is the training area for soldiers new and old.  A twenty foot fence
+surrounds the area.  To the east is a dueling circle with an instructor barking
+instructions.  To the north is an archery set-up where archers practice there
+their aim.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3496 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3504 0 0 0 0 0 0 0 0
+D2
+~
+gate south~
+1 0 3473 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3492 0 0 0 0 0 0 0 0
+S
+#3492
+Inside a Training Area~
+   This is the training area for soldiers new and old.  A twenty foot fence
+surrounds the area.  To the east is a dueling circle with an instructor barking
+instructions.  To the north is an archery set-up where archers practice there
+their aim.    
+~
+34 0 h 0 0 1
+D0
+~
+~
+0 0 3495 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3491 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3493 0 0 0 0 0 0 0 0
+S
+#3493
+Dualing Pits~
+   This section of the training area is dedicated to solo practice.  There are
+practice dummies mounted to poles here.  The soldiers practice there technique
+and new attacks.  To the north are archers and to the east are soldiers
+dueling.    
+~
+34 0 h 0 0 0
+D0
+~
+~
+0 0 3494 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3492 0 0 0 0 0 0 0 0
+S
+#3494
+Dualing Pits~
+   This section of the training area is dedicated to solo practice.  There are
+practice dummies mounted to poles here.  The soldiers practice there technique
+and new attack.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3495 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3493 0 0 0 0 0 0 0 0
+S
+#3495
+Inside a Training Area~
+   This is the archery range where potential archers learn to shoot and where
+veteran archers master their shot.  There are targets set up that are in the
+shape of a human figure and barrels of arrows about.  The archers have the
+choice of a cross bow or a long bow.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3496 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3492 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3494 0 0 0 0 0 0 0 0
+S
+#3496
+Inside a Training Area~
+   Off to the west are soldiers dueling and practicing there skills with
+multiple weapons.  To the east is a dueling circle with an instructor barking
+orders.  To the north is an archery set-up where the archers are practicing
+their aim.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3497 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3491 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3495 0 0 0 0 0 0 0 0
+S
+#3497
+Archery Range~
+   This is the archery range where potential archers learn to shoot and where
+veteran archers master their shot.  There are targets set up that are in the
+shape of a human figure and barrels of arrows about.  The archers have the
+choice of a cross bow or a long bow.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3498 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3504 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3496 0 0 0 0 0 0 0 0
+S
+#3498
+Archery Range~
+   This is the archery range where potential archers learn to shoot and where
+veteran archers master their shot.  There are targets set up that are in the
+shape of a human figure and barrels of arrows about.  The archers have the
+choice of a cross bow or a long bow.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3499 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3503 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3497 0 0 0 0 0 0 0 0
+S
+#3499
+Archery Range~
+   This is the archery range where potential archers learn to shoot and where
+veteran archers master their shot.  There are targets set up that are in the
+shape of a human figure and barrels of arrows about.  The archers have the
+choice of a cross bow or a long bow.    
+~
+34 0 h 0 0 1
+D1
+~
+~
+0 0 3500 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3502 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3498 0 0 0 0 0 0 0 0
+S
+$~

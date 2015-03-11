@@ -1,0 +1,240 @@
+#4500
+a burned skull~
+a burned skull~
+A skull covered in charred bits of flesh seems out of place.~
+~
+27 qD 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 9 0 0 0 0 0 0 0 0
+10 0 0 0
+Z
+2
+E
+skull~
+This human skull is covered in bits of charred flesh.  Flipping the skull around
+in your hands, you find a large puncture through the bone around the back side
+of the head.  It almost seems as if a mining pick was the cause of death, and
+the fire was moreso to get rid of the remains.  The bandits of this campsite
+must have had some reason behind this barbaric death.  
+~
+A
+5 -1 0
+#4501
+MW Composite Longbow~
+Masterwork Composite Longbow~
+A composite longbow with many strange ethching has been left behind.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+45 1 8 6 100 100 1 8 0 10 110 14 0 0 0 0
+30 400 0 1
+Z
+5
+A
+28 1 0
+#4502
+Satyr Tree Stump~
+a tree stump~
+A large tree stump from a mighty oak is in the center of the glen.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+100 0 0 0
+Z
+4
+#4503
+Satyr Magical Pipes~
+a set of hand pipes~
+A wooden set of hand pipes looks very well made.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 44 0 0 0 0 0 0 0 0
+10 400 0 0
+Z
+0
+A
+32 1 0
+A
+33 1 0
+A
+34 1 0
+#4504
+book nocturn woods~
+a book entitled: Nocturn of the Woods~
+A book with a leather cover is closed.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 80 80 0 6 0 0 0 0 0 0 0 0
+10 0 0 0
+Z
+2
+E
+book nocturn woods~
+This book is encased in animal skin, and has been tanned and painted upon its
+cover.  The title reads "Nocturn of the Woods", though no author's name is
+present.  Thumbing through the book, it looks like it's a book of nightly
+prayers, nearly all relating to nature in some way.  
+~
+#4505
+cooking pot~
+a cooking pot above the hearth~
+Undefined~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+20 5 -1 0 100 100 0 0 0 0 0 0 0 0 0 0
+50 0 0 0
+Z
+0
+#4506
+chunk beef~
+a chunk of beef~
+A chunk of beef~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+8 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 1 0 0
+Z
+0
+#4507
+bookshelf shelf~
+a bookshelf~
+Undefined~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+100 0 -1 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+5
+#4508
+pile rocks~
+a pile of rocks~
+Undefined~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 36 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#4509
+key to cabin~
+a small copper key~
+A small copper key~
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16 0 0 0 0 0 0 0 0
+10 0 0 0
+Z
+0
+#4510
+altar primitive stone~
+a primitive stone altar~
+A primitive stone altar stands here.~
+~
+15 gA 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 36 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+5
+E
+stone primitive altar~
+The altar is constructed of rough stone chiseled into the shape of a pedestal.
+There is a round hole set into the side which faces east, about the size of a
+human fist.  
+~
+E
+hole~
+It looks like some kind of orb would fit in here.
+~
+#4511
+altar primitive stone~
+a primitive stone altar~
+A primitive stone altar stands here.~
+~
+15 gA 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 36 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+5
+E
+hole~
+It looks like some kind of orb would fit in here.
+~
+E
+stone primitive altar~
+The altar is constructed of rough stone chiseled into the shape of a pedestal.
+There is a round hole set into the side which faces north, about the size of a
+human fist.  
+~
+#4512
+altar primitive stone~
+a primitive stone altar~
+A primitive stone altar stands here.~
+~
+15 gA 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 36 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+5
+E
+stone primitive altar~
+The altar is constructed of rough stone chiseled into the shape of a pedestal.
+There is a round hole set into the side which faces west, about the size of a
+human fist.  
+~
+E
+hole~
+It looks like some kind of orb would fit in here.
+~
+#4513
+altar stone primitive~
+a primitive stone altar~
+A primitive stone altar stands here.~
+~
+15 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 36 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+5
+E
+hole~
+It looks like some kind of orb would fit in here.
+~
+E
+altar primitive stone~
+The altar is constructed of rough stone chiseled into the shape of a pedestal.
+There is a round hole set into the side which faces south, about the size of a
+human fist.  
+~
+#4514
+woodcutting axe~
+a woodcutting axe~
+A woodcutting axe is here.~
+~
+5 C 0 0 0 an 0 0 0 0 0 0 0
+55 1 8 3 100 100 1 7 0 260 0 5 0 0 0 0
+50 65 0 1
+Z
+3
+#4515
+druidic cloak~
+a druidic cloak~
+A cloak made of treated oak leaves has been left here.~
+~
+8 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+10 500 0 12
+Z
+0
+A
+4 3 0
+#4516
+headband glowing emerald~
+a headband with an everglowing emerald~
+A headband adorned with a single gemstone shines brightly.~
+~
+1 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 -1 0 100 100 0 33 0 0 0 0 0 0 0 0
+0 2000 0 10
+Z
+0
+A
+48 1 0
+$~

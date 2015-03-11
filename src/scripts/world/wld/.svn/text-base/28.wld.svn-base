@@ -1,0 +1,2819 @@
+#2800
+A Narrow Cliffside Path~
+This long, narrow cliffside path runs far down the coast high above the Sea of Swords. The ground here is covered in debris, and looks as though it has not had much use as of late.
+An ambiance of both curiosity and forboding hangs in the air as the waves break against the rocks below.
+~
+28 0 0 0 0 5
+D0
+~
+~
+0 0 2801 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 0 0 0 0 0 0 0 0 0
+S
+#2801
+A Narrow Cliffside Path~
+The path begins to narrow here, with only four or so feet between the cliff edge and the wall as the ground becomes even more uneven.
+Large chips and cracks cover the stone surface, evidence of erosion on this ancient walkway.
+~
+28 0 0 0 0 5
+D2
+~
+~
+0 0 2800 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2802 0 0 0 0 0 0 0 0
+S
+#2802
+Down a Curve in the Path~
+The path here is at a slight incline, twisting around the edge of a cove. The water below looks shallow and clear and there is even a small beach, though from this height you can't see any way to access it.
+~
+28 0 0 0 0 5
+D0
+~
+~
+0 0 2803 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2801 0 0 0 0 0 0 0 0
+S
+#2803
+Following the Cliff Road~
+The path rounds out the rest of the cove here and it seems the corrosion is
+lessened in this section.  The seabreeze is nowhere near as strong, and the
+overhang of rock seems to keep the elements at bay.  There are a number of
+strange marks carved into the wall here.  
+~
+28 0 0 0 0 5
+D2
+~
+~
+0 0 2802 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2804 0 0 0 0 0 0 0 0
+E
+Strange Marks Wall~
+There are several marks scribed into the wall, about the size of a human hand. Upon closer inspection, and some thought, they appear to form a skull.
+There are other markings, some of which look as though they might have been words, but they aren't legible.
+~
+S
+#2804
+A Cliffside View~
+From here the view of the roads route is clear. It runs for about two miles from the south northward, and bends to the northwest where it enters a fissure in the cliff wall.
+~
+28 0 0 0 0 5
+D0
+~
+~
+0 0 2805 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2803 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#2805
+Along the Cliffside Path~
+The path stretches along the coast for several miles at an almost unnoticealbe downward angle. The dark tan rock under your feet is uneven, occasionaly requiring you to climb.
+~
+28 0 0 0 0 5
+D0
+~
+~
+0 0 2806 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2804 0 0 0 0 0 0 0 0
+S
+#2806
+Along the Cliffside Path~
+The path stretches along the coast for several miles at an almost unnoticealbe downward angle. The dark tan rock under your feet is uneven, occasionaly requiring you to climb.
+~
+28 0 0 0 0 5
+D2
+~
+~
+0 0 2805 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2807 0 0 0 0 0 0 0 0
+S
+#2807
+Westward Along the Cliff~
+
+The ground here levels out, still forty or so feet above the waterline. The path here is fairly straight though its width and stability are changing every few yards.
+~
+28 0 0 0 0 5
+D3
+~
+~
+0 0 2808 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2806 0 0 0 0 0 0 0 0
+S
+#2808
+Westward Along the Cliff~
+
+The ground here levels out, still forty or so feet above the waterline. The path here is fairly straight though its width and stability are changing every few yards.
+~
+28 0 0 0 0 5
+D1
+~
+~
+0 0 2807 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2809 0 0 0 0 0 0 0 0
+S
+#2809
+Before the Threshold~
+You stand in the shadow of the cliff wall, looking up to see patches of green running into the dark fissure. The path here is wet, and you can faintly hear the rumbling of running, falling water. The sheer size of this formation is awe inspiring.
+~
+28 0 0 0 0 5
+D1
+~
+~
+0 0 2808 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2810 0 0 0 0 0 0 0 0
+S
+#2810
+The Threshold~
+The ground here feels slick as you move over the small pools of water around your feet. Before you is a stairway carved into the fissure itself, with steep steps at least a foot and a half tall each.
+It winds back and forth, upwards and forwards into the the cold darkness, daring you to take the first step.
+~
+28 0 0 0 0 5
+D4
+~
+~
+0 0 2811 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2809 0 0 0 0 0 0 0 0
+S
+#2811
+Ascending the Stairway~
+The stairway winds and twists, slippery steps placed awkwardly and uneven as you get further up. From here, you can hear a definite flow of water, but can't see its source.
+~
+28 0 0 0 0 5
+D4
+~
+~
+0 0 2812 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2810 0 0 0 0 0 0 0 0
+S
+#2812
+Nearing the Top~
+The stairs become a jagged line here, heading north. The climb is over, and looking down you can see that you've actually gone quite far. You can see part of the Cliffside Path from here, and a sliver of coast miles away.
+Looking north, further into the fissure and across a gap, you can see water pouring out of an opening in the rock, where it falls into grooves leading down the side of the cliff.
+~
+28 0 0 0 0 5
+D0
+~
+~
+0 0 2813 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2811 0 0 0 0 0 0 0 0
+S
+#2813
+An Old Door~
+You stand in front of an old door, its wood splintered and scarred from abuse. Vines wrap through many of the holes in it, covering a rune that has been burned into the door.
+The lock on the door however is in mint condition, and has not weathered since its installment. The keyhole is unusual in shape, and seems to require a special key.
+~
+28 0 0 0 0 5
+D1
+An Old, Sturdy door with an odd looking silver lock.
+~
+door old~
+2 2899 2814 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2812 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#2814
+Into the Darkness~
+The door leads into a natural cave with smoothed walls and floors, all of which
+seem are made of stone.  The ground here is still slick with water, and you can
+feel water droplets hitting your head from above.  As you look deeper into the
+cave, it is VERY dark.  
+~
+28 C 0 0 0 0
+D3
+~
+door old~
+2 2899 2813 20 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2815 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#2815
+A Dark Passage~
+The cave begins to twist around around a corner here. The rock walls are incredibly polished, almost reflective.
+Another notable feature of the cave are strange, hairlike strands attached to the walls, stretching along both ways and connecting to the vines wrapped into the door.
+~
+28 adC 0 0 0 0
+D6
+~
+~
+0 0 2814 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2816 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#2816
+Continuing into the Darkness~
+You continue to delve deeper into the cave as the air gets colder and the darkness consumes you completely. The light and comfort of outside fading as you walk on. There is a most uncomfortable feeling here, as if someone is watching you.
+~
+28 adC 0 0 0 0
+D6
+~
+~
+0 0 2817 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2815 0 0 0 0 0 0 0 0
+S
+#2817
+A Light in the Wall~
+Your vision seems to be dampened in this room, as if the darkness is pushing into your eyes. You can see a faint light coming through crack high in the wall, and it looks large enough to squeeze through.
+You can't shake the feeling that someone is standing right behind you.
+~
+28 adC 0 0 0 0
+D0
+~
+~
+0 0 2818 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2816 0 0 0 0 0 0 0 0
+S
+#2818
+A Forgotten Hallway~
+This hallway looks as iff it hasn't been maintained in years. Cobwebs and mold cover the walls, and dust lays caked on the ground.
+Looking back to the south, you can see that the frame of the door that used to be there has been filled in with stones and mortar, with only the crack you came in through open.
+The wirey vines running along the ceiling and walls are growing luminescent mushrooms inside this hallway, which glow faintly with a yellow green hue.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2819 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2817 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2824 0 0 0 0 0 0 0 0
+S
+#2819
+A Forgotten Hallway~
+This unfinished room was created by Kelemvor.
+The conditions in this part of the hallway are no better. To your west you can see a filled in doorframe surrounded by many glowing mushrooms. To your east, you can see a room full of barrels and sacks, most likely a pantry.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2820 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2818 0 0 0 0 0 0 0 0
+S
+#2820
+A Storage Room~
+Standing here and looking into the massive pantry makes you wonder who or what used to live here. There are barrels as tall as a human, and oversized yet empty sacks.
+In the far, northeastern corner you can see a particular stack of old sacks in the shape of a bag.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2821 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2823 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2819 0 0 0 0 0 0 0 0
+S
+#2821
+A Storage Room~
+The ground beneath your feet is sticky here. There are hundreds of wet, rotting linen sacks here in a pile, and he stench of mold and decay is unbearable... Perhaps you should find something else to investigate?
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2822 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2820 0 0 0 0 0 0 0 0
+S
+#2822
+A Place of Rest~
+The stack of sacks here is dry and unbelievably warm. You feel relieved in this spot, relaxed and completely safe. This spot is also well hidden from view behind large barrels and stacks of cloth.
+~
+28 cde 0 0 0 0
+D2
+~
+~
+0 0 2823 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2821 0 0 0 0 0 0 0 0
+S
+#2823
+A Storage Room~
+This corner of the room is littered with piles of toppled barrels, some of which are still full. Wonder what could be in them?
+Luminescent mushrooms and their veins grow into the wood of a couple of barrels, seemingly deriving nutrients from the contents.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2822 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2820 0 0 0 0 0 0 0 0
+S
+#2824
+A Forgotten Hallway~
+The Hallway wraps around a corner here, looking as if it leads into a larger, open room north of here. The mushrooms here are beginning to dim, and the room ahead looks dark.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2825 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2818 0 0 0 0 0 0 0 0
+S
+#2825
+End of the Hallway~
+This room is dark and strangely sterile smelling compared to the rest of this building. Looking north, you can see something moving in the darkness, though it shambles and twitches as it does.
+~
+28 ad 0 0 0 0
+D0
+~
+~
+0 0 2826 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2824 0 0 0 0 0 0 0 0
+S
+#2826
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+There is a bridge to the north of you that walks over the pool.
+~
+28 ad 0 0 0 0
+D0
+~
+~
+0 0 2831 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2828 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2825 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2827 0 0 0 0 0 0 0 0
+S
+#2827
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2829 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2826 0 0 0 0 0 0 0 0
+S
+#2828
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2832 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2826 0 0 0 0 0 0 0 0
+S
+#2829
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+There is a bridge to the east of you that walks over the pool.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2835 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2831 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2827 0 0 0 0 0 0 0 0
+S
+#2830
+A Wide Hall~
+The walls here are spread wide apart, with columns running to the high ceiling from the floor. There is some natural light here, coming in from a large crack in the stone roof.
+Vines can be seen draping in from the crack, green and lush as they run down to the walls, where their wire like roots spread out over the walls.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2834 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2836 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#2831
+Over a Pool of Clay~
+You stand on the center of two intersecting bridges over a huge pool of earthen clay, which is grey with a slight reddish tint.
+The muck looks as though it is bubbling, and on occasion you can see what appears to be a hand or a face rise slightly from the surface, only to disolve away.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2834 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2832 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2826 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2829 0 0 0 0 0 0 0 0
+S
+#2832
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+There is a bridge to the west of you that walks over the pool.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2833 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2828 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2831 0 0 0 0 0 0 0 0
+S
+#2833
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2832 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2834 0 0 0 0 0 0 0 0
+S
+#2834
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+There is a bridge to the south of you that walks over the pool.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2830 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2833 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2831 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2835 0 0 0 0 0 0 0 0
+S
+#2835
+Around a Pool of Clay~
+You walk along the edge of a massive pool of clay. The walls here are covered with human replicas, all twisted and contorted into painfully awkward positions.
+Most are nailed to the wall in one way or another, and some of them appear to be breathing and twitching.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2834 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2829 0 0 0 0 0 0 0 0
+S
+#2836
+A Wide Hall~
+The walls here are spread wide apart, with columns running to the high ceiling from the floor. There is some natural light here, coming in from a large crack in the stone roof.
+Vines can be seen draping in from the crack, green and lush as they run down to the walls, where their wire like roots spread out over the walls.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2830 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2837 0 0 0 0 0 0 0 0
+S
+#2837
+A Wide Hall~
+The walls here are spread wide apart, with columns running to the high ceiling from the floor. There is some natural light here, coming in from a large crack in the stone roof.
+Vines can be seen draping in from the crack, green and lush as they run down to the walls, where their wire like roots spread out over the walls.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2836 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2838 0 0 0 0 0 0 0 0
+S
+#2838
+A Wide Hall~
+The hallway intersects here with another, smaller hall to the north. You can see light coming from that direction, and you can hear water once again.
+There are huge, spread out blood-stains covering the floor here, and some of them lead in ragged trails to the north.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2842 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2837 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2839 0 0 0 0 0 0 0 0
+E
+blood stains~
+These blood stains look fresh, and the way the blood was spilt looks extremely vicious, as if the flesh was torn instead of simply cut.
+~
+S
+#2839
+A Wide Hall~
+The walls here are spread wide apart, with columns running to the high ceiling from the floor. There is some natural light here, coming in from a large crack in the stone roof.
+Vines can be seen draping in from the crack, green and lush as they run down to the walls, where their wire like roots spread out over the walls.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2838 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2840 0 0 0 0 0 0 0 0
+S
+#2840
+A Wide Hall~
+The walls here are spread wide apart, with columns running to the high ceiling from the floor. There is some natural light here, coming in from a large crack in the stone roof.
+Vines can be seen draping in from the crack, green and lush as they run down to the walls, where their wire like roots spread out over the walls.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2839 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2841 0 0 0 0 0 0 0 0
+S
+#2841
+A Wide Hall~
+The walls here are spread wide apart, with columns running to the high ceiling from the floor. There is some natural light here, coming in from a large crack in the stone roof.
+Vines can be seen draping in from the crack, green and lush as they run down to the walls, where their wire like roots spread out over the walls.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2840 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2844 0 0 0 0 0 0 0 0
+S
+#2842
+A Bloody Corridor~
+The blood trails leading outside get more vicious as you continue on. It begings transferring to the walls in large patches and ends in a large pool, where it drains outside and off the ledge leading to a bridge.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2838 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2843 0 0 0 0 0 0 0 0
+S
+#2843
+A Covered Ledge~
+You walk out underneath a stone covering, in front of a large stone bridge. The blood trails become more scarce here, but you can still see small lines dripping up and over the bridge.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2854 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2874 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2842 0 0 0 0 0 0 0 0
+S
+#2844
+Entering a New Construction~
+The wall here has been carved into the rock, and seems both newer and incomplete compared to the rest of this sprawling underground hall. The path seems to open up to the northwest.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2845 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2841 0 0 0 0 0 0 0 0
+S
+#2845
+Southeast Wing of the Barracks~
+You stand in the center of the southeast portion of the barracks, the room apparently cut into the rock. The stone here, however, is unpolished, and looks much newer than the rest of the area.
+It is dimly lit by hundreds of glowing mushrooms covering the ceiling, giving the area a slight green tint and leading your vision to the many identical holes in the walls.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2852 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2856 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2844 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2846 0 0 0 0 0 0 0 0
+S
+#2846
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2851 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2845 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2848 0 0 0 0 0 0 0 0
+S
+#2847
+Champion's Quarters~
+This room is lavish and fully furnished, looking as though it used to belong to someone important.
+The carpet and walls are the same royal colored red though the color has faded over time. The furniture matches, all with dark red leather and cloth, and golden thread trim.
+A fireplace sits in the wall in the center, its magic flame dancing long after the wood has burned away.
+~
+28 d 0 0 0 0
+D2
+A sturdy door made from ebony and iron.
+~
+door~
+1 0 2867 0 0 0 0 0 0 0 0
+S
+#2848
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2849 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2851 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2846 0 0 0 0 0 0 0 0
+S
+#2849
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2850 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2848 0 0 0 0 0 0 0 0
+S
+#2850
+Southeast Wing of the Barracks~
+You stand in the center of the southeast portion of the barracks, the room apparently cut into the rock. The stone here, however, is unpolished, and looks much newer than the rest of the area.
+It is dimly lit by hundreds of glowing mushrooms covering the ceiling, giving the area a slight green tint and leading your vision to the many identical holes in the walls.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2857 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2853 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2851 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2849 0 0 0 0 0 0 0 0
+S
+#2851
+Southeast Wing of the Barracks~
+You stand in the center of the southeast portion of the barracks, the room apparently cut into the rock. The stone here, however, is unpolished, and looks much newer than the rest of the area.
+It is dimly lit by hundreds of glowing mushrooms covering the ceiling, giving the area a slight green tint and leading your vision to the many identical holes in the walls.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2850 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2852 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2846 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2848 0 0 0 0 0 0 0 0
+S
+#2852
+Southeast Wing of the Barracks~
+You stand in the center of the southeast portion of the barracks, the room apparently cut into the rock. The stone here, however, is unpolished, and looks much newer than the rest of the area.
+It is dimly lit by hundreds of glowing mushrooms covering the ceiling, giving the area a slight green tint and leading your vision to the many identical holes in the walls.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2853 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2855 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2845 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2851 0 0 0 0 0 0 0 0
+S
+#2853
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2852 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2850 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2855 0 0 0 0 0 0 0 0
+S
+#2854
+Over a Marble Bridge~
+This bridge appears to be very old, and the once white marble has turned to a tarnished grey.
+A breeze travels through the fissure that it spans across, and from here you can barely make out the stairway you walked up to get here.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2874 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2843 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2870 0 0 0 0 0 0 0 0
+S
+#2855
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2856 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2852 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2853 0 0 0 0 0 0 0 0
+S
+#2856
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2855 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2845 0 0 0 0 0 0 0 0
+S
+#2857
+Further into the Barracks~
+The roots of the mushrooms trail from the southeast part of the barracks to the northewest, lighting up a slightly more clean looking room ahead.
+The air here is cold and dry,  indicitave of just how far underground you are.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2850 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2858 0 0 0 0 0 0 0 0
+S
+#2858
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2869 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2859 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2863 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2857 0 0 0 0 0 0 0 0
+S
+#2859
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2858 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2860 0 0 0 0 0 0 0 0
+S
+#2860
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2863 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2859 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2861 0 0 0 0 0 0 0 0
+S
+#2861
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2862 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2860 0 0 0 0 0 0 0 0
+S
+#2862
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2865 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2863 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2861 0 0 0 0 0 0 0 0
+S
+#2863
+Northwest Wing of the Barracks~
+Standing in the center of this room gives you a terrible feeling. Looking around, you can see constructs of many shapes and size, though one in particular stands out.
+Seemingly complete, polished and refined, this half steel, half earthen pair of legs and attached right arm apparently have another piece to them.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2864 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2858 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2860 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2862 0 0 0 0 0 0 0 0
+S
+#2864
+Northwest Wing of the Barracks~
+Standing in the center of this room gives you a terrible feeling. Looking around, you can see constructs of many shapes and size, though one in particular stands out.
+An unfinished, armored version of the standard constructs lies here, toppled over and in disrepair.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2867 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2869 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2863 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2865 0 0 0 0 0 0 0 0
+S
+#2865
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2866 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2864 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2862 0 0 0 0 0 0 0 0
+S
+#2866
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2867 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2865 0 0 0 0 0 0 0 0
+S
+#2867
+Under an Arch~
+You stand underneath a high arch before a masterfully crafted wood and wrought iron door. The door appears to be made of ebony and iron, looking formidable and tough yet highly decorative and classy.
+~
+28 d 0 0 0 0
+D0
+A sturdy door made from ebony and iron.
+~
+door~
+1 0 2847 20 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2868 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2864 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2866 0 0 0 0 0 0 0 0
+S
+#2868
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2869 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2867 0 0 0 0 0 0 0 0
+S
+#2869
+Along the Walls of the Barracks~
+As you step closer to the walls of this area, you can see that the holes in the walls are the bunks, each containing several of the earthen creatures you have seen guarding the halls here.
+They appear to be inactive, waiting for commands from their master.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2868 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2858 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2864 0 0 0 0 0 0 0 0
+S
+#2870
+Crossing the Bridge~
+You can see that thick, lush vegetation coat the steep walls of the fissure.
+Thick vines, strange lichens and exotic mushrooms all run along and into the cracks and crevices in the walls.
+Directly to the northeast of you however, just across the bridge, you can see the marble begin to turn red once more.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2875 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2871 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2854 0 0 0 0 0 0 0 0
+S
+#2871
+Crossing the Bridge~
+The ground here is cracked and pitted, well worn by shuffling feet and clashing arms. 
+Further to the northeast you can see a huge pillar with a chain stringing down from it.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2876 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2872 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2870 0 0 0 0 0 0 0 0
+S
+#2872
+Over a Marble Bridge~
+Two massive pillars stand at either side of the bridge with heavy, black chains running down from them. There are multiple dragging scratch marks dugs into the bridge here.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2873 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2877 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2871 0 0 0 0 0 0 0 0
+S
+#2873
+Over a Marble Bridge~
+Two massive pillars stand at either side of the bridge with heavy, black chains running down from them. There are multiple dragging scratch marks dugs into the bridge here.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2877 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2872 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2876 0 0 0 0 0 0 0 0
+S
+#2874
+Over a Marble Bridge~
+This bridge appears to be very old, and the once white marble has turned to a tarnished grey.
+A breeze travels through the fissure that it spans across, and from here you can barely make out the stairway you walked up to get here.
+~
+28 0 0 0 0 0
+D3
+~
+~
+0 0 2854 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2875 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2843 0 0 0 0 0 0 0 0
+S
+#2875
+Crossing the Bridge~
+You can see that thick, lush vegetation coat the steep walls of the fissure.
+Thick vines, strange lichens and exotic mushrooms all run along and into the cracks and crevices in the walls.
+Directly to the northeast of you however, just across the bridge, you can see the marble begin to turn red once more.
+~
+28 0 0 0 0 0
+D3
+~
+~
+0 0 2870 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2876 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2874 0 0 0 0 0 0 0 0
+S
+#2876
+Crossing the Bridge~
+The ground here is cracked and pitted, well worn by shuffling feet and clashing arms. 
+Further to the northeast you can see a huge pillar with a chain stringing down from it.
+~
+28 0 0 0 0 0
+D3
+~
+~
+0 0 2871 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2873 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2875 0 0 0 0 0 0 0 0
+S
+#2877
+A Damp Hallway~
+Moisture drips from the walls in this hallway, and the air feels cool and crisp. Various plant roots grow here, and more mushrooms can be seen popping up all around you on the stone.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2878 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2873 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2872 0 0 0 0 0 0 0 0
+S
+#2878
+A Damp Hallway~
+The hall carries on, illuminated by the many small green mushrooms popping out from the cracks in the ceiling and floor.
+There is a large, old fashioned window here, offering a clear view of the outside.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2879 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2877 0 0 0 0 0 0 0 0
+E
+window~
+From this window, you can see another structure bridging the gap of the great fissure. There is what looks like a large metal pillar leaning out from the roof of it and you can see a waterfall pouring out from underneath it.
+~
+S
+#2879
+A Damp Hallway~
+As you approach a split in the hallways direction, you can hear rumbling water and the sound of grinding metal to the west.
+To the east, however, you can hear nothing.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2880 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2878 0 0 0 0 0 0 0 0
+S
+#2880
+A Crossing~
+To the west, you can see a nicely furnished and well lit room, with the sounds of grinding gears and machinery coming from it. To the northeast, you can see sunlight and feel a slight draft.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2879 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2883 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2881 0 0 0 0 0 0 0 0
+S
+#2881
+Into the Southern Greenhouse~
+Up to the northeast, you can see a lush green room made completely of glass. It seems as though the glass is missing in some parts, and that the room may have not been used in any conventional way in years.
+~
+28 d 0 0 0 0
+D7
+~
+~
+0 0 2882 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2880 0 0 0 0 0 0 0 0
+S
+#2882
+Entering a Shattered Greenhouse~
+You walk inside the run down greenhouse, gaining an appreciation for the age of these interconnected buildings. The glass is all covered in moss and vines, with a thin layer of dirt covering the floor all over.
+To the Northeast you can see a mound of bones and vines, all covered in lit up, bioluminescent mushrooms.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2884 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2893 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2881 0 0 0 0 0 0 0 0
+S
+#2883
+A Decorative Hallway~
+The walls here are decorated in a water motif, with small fish sculptures carved into the walls that look as though they are swimming towards the room you're entering.
+On each side of this hallway, there are rusted spiral staircases leading up to a second level of this building.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2880 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2895 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2945 0 0 0 0 0 0 0 0
+S
+#2884
+Along a Vine Covered Wall~
+You walk along a near solid green wall over moss, mushrooms and thick, healthy vines. The amount of plant life, and sheer variety, is amazing.
+You can see many potted plants growing in organized pots along the wall here.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2885 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2894 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2882 0 0 0 0 0 0 0 0
+S
+#2885
+Along a Vine Covered Wall~
+You walk along a near solid green wall over moss, mushrooms and thick, healthy vines. The amount of plant life, and sheer variety, is amazing.
+You can see many potted plants growing in organized pots along the wall here.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2886 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2887 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2884 0 0 0 0 0 0 0 0
+S
+#2886
+Near the Edge of the Broken Greenhouse~
+Looking down this steep drop into the valley, you can see that the fissure widens to a couple hundred feet across, making a near circular open field.
+There seems to be spring out in the center of the valley, and you can see that various plants cover and span across the gap atop the fissure.
+~
+28 0 0 0 0 0
+D2
+~
+~
+0 0 2885 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2887 0 0 0 0 0 0 0 0
+S
+#2887
+Near the Edge of the Broken Greenhouse~
+Looking down this steep drop into the valley, you can see that the fissure widens to a couple hundred feet across, making a near circular open field.
+There seems to be spring out in the center of the valley, and you can see that various plants cover and span across the gap atop the fissure.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2888 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2894 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2885 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2886 0 0 0 0 0 0 0 0
+S
+#2888
+Near the Edge of the Broken Greenhouse~
+Looking down this steep drop into the valley, you can see that the fissure widens to a couple hundred feet across, making a near circular open field.
+There seems to be spring out in the center of the valley, and you can see that various plants cover and span across the gap atop the fissure.
+~
+28 0 0 0 0 0
+D2
+~
+~
+0 0 2889 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2887 0 0 0 0 0 0 0 0
+S
+#2889
+Near the Edge of the Broken Greenhouse~
+Looking down this steep drop into the valley, you can see that the fissure widens to a couple hundred feet across, making a near circular open field.
+There seems to be spring out in the center of the valley, and you can see that various plants cover and span across the gap atop the fissure.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2888 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2890 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2892 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2894 0 0 0 0 0 0 0 0
+S
+#2890
+Near the Edge of the Broken Greenhouse~
+Looking down this steep drop into the valley, you can see that the fissure widens to a couple hundred feet across, making a near circular open field.
+There seems to be spring out in the center of the valley, and you can see that various plants cover and span across the gap atop the fissure.
+~
+28 0 0 0 0 0
+D2
+~
+~
+0 0 2891 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2889 0 0 0 0 0 0 0 0
+S
+#2891
+Along a Vine Covered Wall~
+You walk along a near solid green wall over moss, mushrooms and thick, healthy vines. The amount of plant life, and sheer variety, is amazing.
+You can see many potted plants growing in organized pots along the wall here.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2890 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2892 0 0 0 0 0 0 0 0
+S
+#2892
+Along a Vine Covered Wall~
+You walk along a near solid green wall over moss, mushrooms and thick, healthy vines. The amount of plant life, and sheer variety, is amazing.
+You can see many potted plants growing in organized pots along the wall here.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2889 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2891 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2893 0 0 0 0 0 0 0 0
+S
+#2893
+Along a Vine Covered Wall~
+You walk along a near solid green wall over moss, mushrooms and thick, healthy vines. The amount of plant life, and sheer variety, is amazing.
+You can see many potted plants growing in organized pots along the wall here.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2894 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2892 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2882 0 0 0 0 0 0 0 0
+S
+#2894
+Atop a Pile of Bones~
+You stand on top of an old pile of bones. These bones came from animals of many different shapes and sizes, and all ended neatly stacked up here.
+A thick patch of moss in the center of the pile has giant footprints sunk into it. Whatever made them must have been quite heavy.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2887 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2889 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2893 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2884 0 0 0 0 0 0 0 0
+S
+#2895
+Viewing the Waterworks~
+There is a guardrail here, surrounding a dam for the running water. The water is then funneled into a narrow, steep stream, and is supposed to turn a large watermill.
+Though the gears seem to lead upstairs from this contraption, the mill doesn't seem to be turning.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2896 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2883 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2904 0 0 0 0 0 0 0 0
+S
+#2896
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2895 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2897 0 0 0 0 0 0 0 0
+S
+#2897
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2896 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2898 0 0 0 0 0 0 0 0
+S
+#2898
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2897 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2899 0 0 0 0 0 0 0 0
+S
+#2899
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2898 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2900 0 0 0 0 0 0 0 0
+S
+#2900
+Viewing the Waterworks~
+There is a guardrail here, surrounding a dam for the running water. The water is then funneled into a narrow, steep stream, and is supposed to turn a large watermill.
+Though the gears seem to lead upstairs from this contraption, the mill doesn't seem to be turning.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2899 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2901 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2905 0 0 0 0 0 0 0 0
+S
+#2901
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2900 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2902 0 0 0 0 0 0 0 0
+S
+#2902
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2903 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2901 0 0 0 0 0 0 0 0
+S
+#2903
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2904 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2902 0 0 0 0 0 0 0 0
+S
+#2904
+Along the Sides of the Waterworks~
+The waterworks are filled with beautiful sculptures all over. Fish, and merfolk, and strange patterns cover the walls in every visible part of this room.
+The mushrooms that grow here glow a bright, light blue. The water sparkles and glitters against their light.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2895 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2903 0 0 0 0 0 0 0 0
+S
+#2905
+A Decorative Hallway~
+The walls here are decorated in a water motif, with small fish sculptures carved into the walls that look as though they are swimming towards the room you're entering.
+On each side of this hallway, there are rusted spiral staircases leading up to a second level of this building.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2900 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2906 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2956 0 0 0 0 0 0 0 0
+S
+#2906
+A Smaller Passage~
+In comparison to the rest of the halls in this complex, this passage seems compact and claustrophobic, with a short ceiling only 7 or so feet tall. However, it looks well maintained, bright and furnished with carpet.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2905 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2907 0 0 0 0 0 0 0 0
+S
+#2907
+A Hallway of Knights~
+This long hallway seems to go on forever, the door seeming very hard to judge distance on. There are many suits of armor along the walls, each next to painting of their former owners and their crests.
+The red carpet runs down towards the door lit by orange red mushrooms, leading your eyes and tempting you to carry on with your journey.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2908 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2906 0 0 0 0 0 0 0 0
+S
+#2908
+A Hallway of Knights~
+This long hallway seems to go on forever, the door seeming very hard to judge distance on. There are many suits of armor along the walls, each next to painting of their former owners and their crests.
+The red carpet runs down towards the door lit by orange red mushrooms, leading your eyes and tempting you to carry on with your journey.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2909 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2907 0 0 0 0 0 0 0 0
+S
+#2909
+A Hallway of Knights~
+This long hallway seems to go on forever, the door seeming very hard to judge distance on. There are many suits of armor along the walls, each next to painting of their former owners and their crests.
+The red carpet runs down towards the door lit by orange red mushrooms, leading your eyes and tempting you to carry on with your journey.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2910 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2908 0 0 0 0 0 0 0 0
+S
+#2910
+A Hallway of Knights~
+This long hallway seems to go on forever, the door seeming very hard to judge distance on. There are many suits of armor along the walls, each next to painting of their former owners and their crests.
+The red carpet runs down towards the door lit by orange red mushrooms, leading your eyes and tempting you to carry on with your journey.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2911 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2909 0 0 0 0 0 0 0 0
+S
+#2911
+A Hallway of Knights~
+This long hallway seems to go on forever, the door seeming very hard to judge distance on. There are many suits of armor along the walls, each next to painting of their former owners and their crests.
+The red carpet runs down towards the door lit by orange red mushrooms, leading your eyes and tempting you to carry on with your journey.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2912 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2910 0 0 0 0 0 0 0 0
+S
+#2912
+A Hallway of Knights~
+This long hallway seems to go on forever, the door seeming very hard to judge distance on. There are many suits of armor along the walls, each next to painting of their former owners and their crests.
+The red carpet runs down towards the door lit by orange red mushrooms, leading your eyes and tempting you to carry on with your journey.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2913 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2911 0 0 0 0 0 0 0 0
+S
+#2913
+A Hallway of Knights~
+This long hallway seems to go on forever, the door seeming very hard to judge distance on. There are many suits of armor along the walls, each next to painting of their former owners and their crests.
+The red carpet runs down towards the door lit by orange red mushrooms, leading your eyes and tempting you to carry on with your journey.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2914 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2912 0 0 0 0 0 0 0 0
+S
+#2914
+A Hallway of Knights~
+The door finally seems to be getting closer, the number of mushrooms and the amount of light available fading quickly. The walls begin to lose their regal look, the paint chipping and cracking, and the carpet tattering into slick, black rock.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2915 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2913 0 0 0 0 0 0 0 0
+S
+#2915
+A Hallway of Knights~
+You finally reach the end of the hall, and the door leading out of it. It seems solid, and is made of an exotic red wood. The lock is made of a dark steel which weaves back over the door in intricate.
+~
+28 d 0 0 0 0
+D0
+~
+door~
+1 0 2916 50 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2914 0 0 0 0 0 0 0 0
+S
+#2916
+An Onyx Passage~
+The walls here are jet black and slick to the touch, almost as if covered by lead or something similar. Footing is hard to maintain, and beyond this room you can see little to no light.
+~
+28 d 0 0 0 0
+D2
+~
+door~
+1 0 2915 50 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2958 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2917 0 0 0 0 0 0 0 0
+S
+#2917
+An Onyx Passage~
+This dark passage leads on at a slight upward angle to the east, where it seems more groundwater is leading in from. To the west you can see a door and as your vision leads on, more darkness.
+~
+28 ad 0 0 0 0
+D1
+~
+~
+0 0 2918 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2916 0 0 0 0 0 0 0 0
+S
+#2918
+An Onyx Passage~
+This area is so polluted that not even the muhshrooms or their vines will grow here. It is incredibly hard to walk, and every step requires that you check your footing.
+~
+28 ad 0 0 0 0
+D1
+~
+~
+0 0 2919 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2917 0 0 0 0 0 0 0 0
+S
+#2919
+An Onyx Passage~
+This area is so polluted that not even the muhshrooms or their vines will grow here. It is incredibly hard to walk, and every step requires that you check your footing.
+~
+28 ad 0 0 0 0
+D1
+~
+~
+0 0 2920 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2918 0 0 0 0 0 0 0 0
+S
+#2920
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 ad 0 0 0 0
+D0
+~
+~
+0 0 2921 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2919 0 0 0 0 0 0 0 0
+S
+#2921
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2922 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2920 0 0 0 0 0 0 0 0
+S
+#2922
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2923 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2921 0 0 0 0 0 0 0 0
+S
+#2923
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2922 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2924 0 0 0 0 0 0 0 0
+S
+#2924
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2925 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2923 0 0 0 0 0 0 0 0
+S
+#2925
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2926 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2924 0 0 0 0 0 0 0 0
+S
+#2926
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2927 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2925 0 0 0 0 0 0 0 0
+S
+#2927
+Bottom of a Stairwell~
+This stairwell seems to go up quite a ways, though you can see light coming in at the top. Additionally, the vines seem to become healthier as you ascend higher.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2926 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2928 0 0 0 0 0 0 0 0
+S
+#2928
+Entering a Greenhouse~
+This walkway is much cleaner than the stairwell. You can smell fresh, oxygenated air, and the scent of flowers and fresh produce. Looking more towards the outside, you can see that this greenhouse is broken as well.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2927 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2929 0 0 0 0 0 0 0 0
+S
+#2929
+Entering a Greenhouse~
+This walkway is much cleaner than the stairwell. You can smell fresh, oxygenated air, and the scent of flowers and fresh produce. Looking more towards the outside, you can see that this greenhouse is broken as well.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2930 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2928 0 0 0 0 0 0 0 0
+S
+#2930
+Entering a Greenhouse~
+This walkway is much cleaner than the stairwell. You can smell fresh, oxygenated air, and the scent of flowers and fresh produce. Looking more towards the outside, you can see that this greenhouse is broken as well.
+~
+28 d 0 0 0 0
+D3
+~
+~
+0 0 2929 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2931 0 0 0 0 0 0 0 0
+S
+#2931
+A Demolished Greenhouse~
+This greenhouse has been completely obliterated. Not only is the entire thing collapsed, but what remains is on a dangerous downard angle. Shattered glass and wild vines run about the floor.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2935 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2932 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2930 0 0 0 0 0 0 0 0
+S
+#2932
+A Demolished Greenhouse~
+The vines spiral up the walls here, sprouting huge red and orange flowers. They smell sickeningly sweet, and appear to be bearing some sort of fruit as well, locked in small bulbs below the flowers.
+Whatever produce that once grew here has been starved by these huge, pioneering plants.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2931 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2941 0 0 0 0 0 0 0 0
+S
+#2935
+A Demolished Greenhouse~
+The vines spiral up the walls here, sprouting huge red and orange flowers. They smell sickeningly sweet, and appear to be bearing some sort of fruit as well, locked in small bulbs below the flowers.
+Whatever produce that once grew here has been starved by these huge, pioneering plants.
+~
+28 0 0 0 0 0
+D2
+~
+~
+0 0 2941 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2931 0 0 0 0 0 0 0 0
+S
+#2941
+A Demolished Greenhouse~
+The vines spiral up the walls here, sprouting huge red and orange flowers. They smell sickeningly sweet, and appear to be bearing some sort of fruit as well, locked in small bulbs below the flowers.
+Whatever produce that once grew here has been starved by these huge, pioneering plants.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2935 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2942 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2932 0 0 0 0 0 0 0 0
+S
+#2942
+A Ledge in the Greenhouse~
+This one ledge offers a clear view of a large, darkened valley between the greenhouses, which appears to be the source of all the wild vegatation seen in this complex.
+Large mushrooms can be seen covering the walls of the valley, as well as root clusters for the vines blocking your view of the sky.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2941 0 0 0 0 0 0 0 0
+S
+#2945
+Atop a Spiral Staircase~
+You stand under a covering here, but you can see that you are standing on the roof of the waterworks and are just feet away from a giant, metal dome.
+~
+28 0 0 0 0 0
+D3
+~
+~
+0 0 2946 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2883 0 0 0 0 0 0 0 0
+S
+#2946
+The Waterworks Rooftop~
+
+Standing outside here, the air is oddly still and quiet. The waterworks below sound distant, only a faint rumble, as you stand before the entrance to the giant metal dome atop the roof.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2947 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2945 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2951 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2957 0 0 0 0 0 0 0 0
+S
+#2947
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer north, you can see the fissure spread into a wider valley, and the spring that the stream flows from to the northeast.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D2
+~
+~
+0 0 2946 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2948 0 0 0 0 0 0 0 0
+S
+#2948
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer north, you can see the fissure spread into a wider valley, and the spring that the stream flows from to the northeast.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2947 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2949 0 0 0 0 0 0 0 0
+S
+#2949
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer north, you can see the fissure spread into a wider valley, and the spring that the stream flows from to the northeast.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2948 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2950 0 0 0 0 0 0 0 0
+S
+#2950
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer north, you can see the fissure spread into a wider valley, and the spring that the stream flows from to the northeast.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2949 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2955 0 0 0 0 0 0 0 0
+S
+#2951
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer south, you can see into the narrower part of the fissure, and the steady slant at which the water flows down and out.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2946 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2952 0 0 0 0 0 0 0 0
+S
+#2952
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer south, you can see into the narrower part of the fissure, and the steady slant at which the water flows down and out.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2951 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2953 0 0 0 0 0 0 0 0
+S
+#2953
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer south, you can see into the narrower part of the fissure, and the steady slant at which the water flows down and out.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2952 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2954 0 0 0 0 0 0 0 0
+S
+#2954
+The Waterworks Rooftop~
+There are cool stone walls here, guarding you from a steep fall from the roof.
+As you peer south, you can see into the narrower part of the fissure, and the steady slant at which the water flows down and out.
+You can barely see the sky between the crossing, twisting vines stitching over the top of the fissure.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2955 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2953 0 0 0 0 0 0 0 0
+S
+#2955
+The Waterworks Rooftop~
+The walkway leads both ways here, to the north and south around the huge metal dome near centered on this rooftop.
+You can barely see the sky through the vegetation stitching across the top of the fissure.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2950 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2954 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2956 0 0 0 0 0 0 0 0
+S
+#2956
+Atop a Spiral Staircase~
+You stand under a covering here, but you can see that you are standing on the roof of the waterworks, and from this viewpoint you can see up and down the length of the fissure.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2955 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2905 0 0 0 0 0 0 0 0
+S
+#2957
+The Sky Lens~
+You stand at the base of a large telescope, which connects to the floor using a massive assembly of gears. It must be 25 feet long, and its assembly must be at least 15 foot tall.
+Before you there is a panel of levers and switches which leads into the mechanics of the huge device.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2946 0 0 0 0 0 0 0 0
+S
+#2958
+An Onyx Passage~
+This room is almost too slick and disorienting to traverse. All light in this hallway is absorbed by the pitch black walls, and sound seems to be muffled by the thick, caked on dirt covering everything.
+~
+28 ad 0 0 0 0
+D1
+~
+~
+0 0 2916 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2959 0 0 0 0 0 0 0 0
+S
+#2959
+An Onyx Passage~
+This room is almost too slick and disorienting to traverse. All light in this hallway is absorbed by the pitch black walls, and sound seems to be muffled by the thick, caked on dirt covering everything.
+~
+28 ad 0 0 0 0
+D1
+~
+~
+0 0 2958 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2960 0 0 0 0 0 0 0 0
+S
+#2960
+The Onyx Stairwell~
+This long stairwell weaves left to right, as the ground sinks out and the roof remains high above you, vaulted as you continue down into the blackness. You can feel a breeze blowing from the bottom of the stairway.
+~
+28 ad 0 0 0 0
+D1
+~
+~
+0 0 2959 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2961 0 0 0 0 0 0 0 0
+S
+#2961
+The Onyx Stairwell~
+This long stairwell weaves left to right, as the ground sinks out and the roof remains high above you, vaulted as you continue down into the blackness. You can feel a breeze blowing from the bottom of the stairway.
+~
+28 ad 0 0 0 0
+D0
+~
+~
+0 0 2960 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2962 0 0 0 0 0 0 0 0
+S
+#2962
+The Onyx Stairwell~
+This long stairwell weaves left to right, as the ground sinks out and the roof remains high above you, vaulted as you continue down into the blackness. You can feel a breeze blowing from the bottom of the stairway.
+~
+28 ad 0 0 0 0
+D0
+~
+~
+0 0 2961 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2963 0 0 0 0 0 0 0 0
+S
+#2963
+The Onyx Stairwell~
+This long stairwell weaves left to right, as the ground sinks out and the roof remains high above you, vaulted as you continue down into the blackness. You can feel a breeze blowing from the bottom of the stairway.
+~
+28 ad 0 0 0 0
+D0
+~
+~
+0 0 2962 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2964 0 0 0 0 0 0 0 0
+S
+#2964
+The Onyx Stairwell~
+This long stairwell weaves left to right, as the ground sinks out and the roof remains high above you, vaulted as you continue down into the blackness. You can feel a breeze blowing from the bottom of the stairway.
+~
+28 ad 0 0 0 0
+D6
+~
+~
+0 0 2965 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2963 0 0 0 0 0 0 0 0
+S
+#2965
+Leaving a Stairwell~
+You begin to leave the blackened stairwell, only to enter an equally dark room with only very faint light. The air here smells stale and unbroken as if this passage hasn't been used in years.
+~
+28 ad 0 0 0 0
+D6
+~
+~
+0 0 2966 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2964 0 0 0 0 0 0 0 0
+S
+#2966
+Three Statues~
+You stand in a strange room, where the shadows along the walls and the faint lights above three statues give a feeling of endless boundaries.
+Stepping further into the room, you can hear the statues move, opening their eyes and exclaiming in three raspy voices "Feed me!". They move for a second more, looking at the statues next to themselves, and then snap back into their original places.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2967 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2969 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2968 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2965 0 0 0 0 0 0 0 0
+S
+#2967
+The White Statue~
+Here stands a towering statue of a demon, perched on a stone. Its skin is a bleached, artificial white, and its face is solemn and plain, almost meditative in expression.
+~
+28 d 0 0 0 0
+D2
+~
+~
+0 0 2966 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2968 0 0 0 0 0 0 0 0
+S
+#2968
+The Gray Statue~
+Here stands a towering statue of a demon, perched on a stone. Its skin is a dull grey, and its face has an expression of excited mischeif stretched across its face.
+~
+28 d 0 0 0 0
+D1
+~
+~
+0 0 2967 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2969 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2970 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2966 0 0 0 0 0 0 0 0
+S
+#2969
+The Red Statue~
+Here stands a towering statue of a demon, perched on a stone. Its skin in a vicious red, and its face is shaped into the pained look of blind hatred.
+~
+28 d 0 0 0 0
+D0
+~
+~
+0 0 2968 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2966 0 0 0 0 0 0 0 0
+S
+#2970
+The Dragons Lair~
+This unfinished room was created by Kelemvor.
+You stand on a platform with paths leading down on both sides, and a bridge connecting you to another raises platform. From here, you can see hundreds of broken trinkets, sketches and diagrams all over the walls.
+Tattered carcasses litter the pools of water which flow from cracks in the walls and drain towards the spined cliff entrances to this room. You have found the Dragons Lair.
+~
+28 d 0 0 0 0
+D6
+~
+~
+0 0 2977 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2972 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2968 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2971 0 0 0 0 0 0 0 0
+S
+#2971
+Inside the Dragons Lair~
+There are hundreds of maps and graphs all aroud here, written in various languages and from different time periods. On some you can see illustrations of the clay pit, on others the horrid creations that can be found all over this ancient building.
+~
+28 d 0 0 0 0
+D6
+~
+~
+0 0 2976 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2970 0 0 0 0 0 0 0 0
+S
+#2972
+Inside the Dragons Lair~
+There are hundreds of maps and graphs all aroud here, written in various languages and from different time periods. On some you can see illustrations of the clay pit, on others the horrid creations that can be found all over this ancient building.
+~
+28 d 0 0 0 0
+D6
+~
+~
+0 0 2973 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2970 0 0 0 0 0 0 0 0
+S
+#2973
+A Cliff Edge~
+Inside of this massive cavern you have come to the edge of a cliff, hundreds of feet up. Water flows under your feet, falling from this entrance down to the coast.
+The view of the ocean is perfect here, and you can see much of the surrounding area.
+The rock right at the edge has been carved to look like giant jagged teeth.
+~
+28 0 0 0 0 0
+D3
+~
+~
+0 0 2974 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2972 0 0 0 0 0 0 0 0
+S
+#2974
+A Cliff Edge~
+Inside of this massive cavern you have come to the edge of a cliff, hundreds of feet up. Water flows under your feet, falling from this entrance down to the coast.
+The view of the ocean is perfect here, and you can see much of the surrounding area.
+The rock right at the edge has been carved to look like giant jagged teeth.
+~
+28 0 0 0 0 0
+D1
+~
+~
+0 0 2973 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2975 0 0 0 0 0 0 0 0
+S
+#2975
+A Cliff Edge~
+Inside of this massive cavern you have come to the edge of a cliff, hundreds of feet up. Water flows under your feet, falling from this entrance down to the coast.
+The view of the ocean is perfect here, and you can see much of the surrounding area.
+The rock right at the edge has been carved to look like giant jagged teeth.
+~
+28 0 0 0 0 0
+D2
+~
+~
+0 0 2976 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2974 0 0 0 0 0 0 0 0
+S
+#2976
+A Cliff Edge~
+Inside of this massive cavern you have come to the edge of a cliff, hundreds of feet up. Water flows under your feet, falling from this entrance down to the coast.
+The view of the ocean is perfect here, and you can see much of the surrounding area.
+The rock right at the edge has been carved to look like giant jagged teeth.
+~
+28 0 0 0 0 0
+D0
+~
+~
+0 0 2975 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2971 0 0 0 0 0 0 0 0
+S
+#2977
+Perch of Lorem~
+You stand inside of an arcane circle drawn about the floor, the rune glowing a deep bronzish gold as you enter it. To your right you can see a gazing pool, full of crystal clear water.
+To your left, you can see a partially reconstructed skeleton with a fungal growth twisting around the bones, emulating a muscle structure. Closer inspection reveals several red, glowing cracks running through the moss like body.
+~
+28 d 0 0 0 0
+D8
+~
+~
+0 0 2970 0 0 0 0 0 0 0 0
+S
+$~

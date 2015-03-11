@@ -1,0 +1,151 @@
+#6000
+object new~
+a new object~
+A new object is here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6001
+symbol book fist~
+a symbol bearing the image of a book and a fist~
+A symbol bearing the image of a book and a fist lies on the ground nearby.~
+~
+1 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 10 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6002
+symbol book quill~
+a symbol bearing the symbol of a book and a quill~
+A symbol bearing the image of a book and a quill lies on the ground nearby.~
+~
+1 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 10 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6003
+symbol book wings~
+a symbol bearing the image of a book and a pair of wings~
+A symbol bearing the image of a book and a pair of wings lies on the ground nearby.~
+~
+1 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 10 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6004
+symbol book fist~
+a symbol bearing the image of a book and a fist~
+A symbol bearing the image of a book and a fist lies on the ground nearby.~
+~
+1 ajklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#6005
+symbol book wings~
+a symbol bearing the image of a book and a pair of wings~
+A symbol bearing the image of a book and a pair of wings lies on the ground nearby.~
+~
+1 gjklmnprstvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 777 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6006
+Fully body armor~
+Full body armor of human bones.~
+Full body armor of human bones lies here giving off an unbearable stench.~
+~
+9 acjklozC egijkoqrt h 0 d 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 30 0
+#6007
+A helmet of a human skull~
+a helmet of a human skull~
+A human skull lies here collecting dirt~
+~
+9 abijkloyC agjkopqst 0 0 e 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 30 0
+A
+2 30 0
+#6008
+A small, glowing candle~
+a small, glowing candle~
+A small, glowing candle lies here flickering~
+~
+1 mnorstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6009
+bracer human skin sanctionpits~
+a bracer made of human skin~
+A pile of human flesh has been tossed on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 1 0
+$~

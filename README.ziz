@@ -1,0 +1,73 @@
+This is a package which takes the stock Circle 3.1 code and adds the following:
+-DG Scripts pl9		by Welcor <welcor@dune.net>
+-Oasis OLC 2.0.1	by Mythran <kip_potter@hotmail.com>
+-ASCII Player Files 2.1	by samedi@ticnet.com, samedi1971@yahoo.com
+-Autowiz for APF        by Cathy Gore <cheron@arcanerealms.org>
+-HOST save fix for APF  by Cathy Gore <cheron@arcanerealms.org>
+-Last login fix for APF	by Torgny Bjers <artovil@arcanerealms.org>
+-Races guide for bpl21	by Edward J Glamkowski <eglamkowski@angelfire.com>	
+			   Carlos Myers <dhstranger@hotmail.com>
+			   Brian Williams <bmw@efn.org>
+			   Henrik Stuart <hstuart@geocities.com>
+			   TOOIE <zyrenthian@home.com>
+-Xapobjs 1.2		by Patrick Dughi <dughi@imaxx.net>
+-EZColor 2.2		by MUD <mud@proimages.proimages.com>
+			by Trevor Man <tman@dial.pipex.com>
+-Object Stacking	by Brian Willaims <bmw@efn.org>
+			   Mathew Earle Reuther <graymere@zipcon.net>
+-Spoken Language Code	by Frollo <mudaholic@aol.com>
+			   Brian Borlick <borlick@mines.edu>
+			   Izham Syah Mahrome <doomvoid@hotmail.com>
+			   Mark Garringer <zizazat@hotmail.com>
+-MUD Mail Fix for APF	by Daniel A. Koepke <dkoepke@circlemud.org>
+-Copyover		by Shane P. Lee <tacodog21@yahoo.com>
+			by Erwin <erwin@andreasen.com>
+-128bit Code		by Niese-Petersen <Tenp@cris.com>
+			by Tony Robbins <tonyr@nwpaclink.com>
+			by Templar Viper <Templarviper@hotmail.com>
+-Assembly Edit Code	by Geoff Davis <azrael@laker.net>
+			by Del Minturn <caminturn@earthlink.net>
+-Whois Code		by Primacy <jmrobins@wired.uvm.edu>
+			by Ron Hensley <ron@peace.dmv.com>
+			by Hugor <hugor@freebox.com>
+-EZColor Fix		by Kaz <kaz@hrealms.net>
+-Weapon Skill Code	by Mark Garringer <zizazat@hotmail.com>
+-Skill Progression Code by Mark Garringer <zizazat@hotmail.com>
+-Mob Race/Class Code    by Mark Garringer <zizazat@hotmail.com>
+-Race/Class Restriction by Brian Williams <bmw@efn.org>
+-Vehicle Code           by Chris Jacobson <fear@athenet.net>
+			by Mark Garringer <zizazat@hotmail.com>
+-Compare Object Code	by Mark Garringer <zizazat@hotmail.com>
+-Autoloot and Autogold  by Mark Garringer <zizazat@hotmail.com>
+-Mobs corpse loot &	by Mark Garringer <zizazat@hotmail.com>
+ fight other mobs
+-Object Damage &	by Mark Garringer <zizazat@hotmail.com>
+ Material Types 
+-Container Patch 	by Adam Scriven <scriven@lore.com>
+-Percentage Zone Loads  by Johan Dustler <Johan.Dustler@epk.ericsson.se>
+-Improved Portal Code   by Ken Ray <kenr86@hotmail.com>
+-Patchlist Code		by Ken Ray <kenr86@hotmail.com>
+
+As of the 9/16/2003 addition of the Patchlist Code, this file is no longer
+going to be maintained. Please use the in game "version full" command to
+get a list of installed patches!
+
+This package was put together by Mark Garringer <zizazat@hotmail.com>
+
+Original README files, where available, for these patches have been put in 
+doc/README.
+
+Additional bug reports	by Adam Scriven <scriven@lore.com>
+			by Fred <stormcrow@ewdcc.edu>
+			by MUSU <musu@comcast.net>
+			by Chris Ward <wwc@cyg.net>
+			by Rhytnen <rhytnen@yahoo.com>
+                        by Matrim <matrim@prism.net>
+                        by Ken Ray <kenr86@hotmail.com>
+
+I would also like to throw in an additional shout out to the CircleMUD
+Mailing List!
+
+Mad props to anyone else who contributed code, but is unrecognized.
+
+--Ziz

@@ -1,0 +1,271 @@
+#7700
+phantom mirror image yourself~
+a mirror phantom~
+A spitting image of yourself mimics your every move.
+~
+   Shockingly enough, the figure before you looks exactly like you!  Every
+little detail is the same, and in fact the figure mimics every move you make.
+You move around the area a bit and manage to corner it against the mirrored
+wall, but it simply steps back into the mirror and physically disappears.    
+~
+d 0 0 0 k 0 0 0 0
+35 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7701
+Garuhk large spirit ogre~
+the spirit of Garuhk~
+The spirit of a large, well-built Ogre stands here defiantly.
+~
+   Standing tall and proud in front of you is a large Ogre warrior.  He wears a
+breastplate constructed of the bones of his victims.  Although his skin is
+blue, like his Irdan descendants, his visage is that of a ravaging beast.  He
+stares at you with an impetuous gaze.    
+~
+d 0 0 0 k 0 0 0 -1000
+36 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7702
+Igraine irda blue figure spirit~
+the spirit of Igraine~
+The spirit of a tall, blue skinned figure wearing ivory armor gazes at you.
+~
+   Before you is the figure of a tall, slender figure with deep blue skin, one
+of the ancient Irda.  He has shortly cropped lavender hair with eyes to match.
+He wears a suit of ivory plate mail, finely forged and etched with runes.  His
+gaze is intense, yet somehow peaceful, and it strikes your own without falter.
+~
+d 0 0 0 k 0 0 0 1000
+36 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7703
+Heghir spirit irda~
+the spirit of Heghir~
+The spirit of an Irda dressed in ornate full plate mail armor is here.
+~
+   Before you, hovering above his tomb, is an Irda dressed in a suit of ornate,
+full plate mail armor.  He wields a huge claymore of jet black steel that
+somehow sends chills down your spine simply by staring at it.  The eyes of the
+spirit shine a bright golden glow from behind his visor.    
+~
+d 0 0 0 k 0 0 0 1000
+36 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7704
+Landur spirit figure~
+the spirit of Landur~
+The spirit of a tall, well-built figure with deep blue skin hovers in the air.
+~
+   This Irdan spirit looks to be in his prime, and is covered with black steel
+chainmail.  He wields a short, ivory broadsword in one hand and a strange,
+triangular blade in the other.  His gaze is stoic, and unwavering, and it
+pierces your own like thrown daggers.    
+~
+d 0 0 0 k 0 0 0 1000
+36 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7705
+Jaiur spirit irda~
+the spirit of Jaiur~
+The spirit of an Irda wrapped in a flickering silver cloak hovers here.
+~
+   This spectre is that of a blue-skinned figure wrapped in a silver cloak that
+seems to flicker in and out of existance so fast, it is very difficult to tell
+where the spirit actually is.  Very little else can be determined as the
+intense strobing hurts your eyes too much to peer into further detail.    
+~
+d 0 0 0 k 0 0 0 0
+36 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7706
+Tanguashi sleek irda thin spirit~
+the spirit of Tanguashi~
+The spirit of a sleek, thin Irda wearing a shadowy shroud streaks forward!
+~
+   Before you stands a sleek, thin Irdan woman of astounding beauty.  She wears
+a skin tight black suit that hides none of her mesmerizing curves.  Draped over
+her back is a shadowy black shroud.  As she stares at you coldly, she pulls the
+shroud over her, and disappears suddenly.    
+~
+d 0 0 0 k 0 0 0 -1000
+36 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7707
+Weirnol spirit blue robed spellweaver irda~
+the spirit of Weirnol~
+The spirit of a blue robed Irdan spellweaver hovers over his tomb.
+~
+   Before you is a slender Irdan spellweaver, draped in a thick, blue robe.  
+An aura of raging flames surrounds him, although they are strangely
+transparant.  He stares at you with a well-knowing gaze, and begins to mutter
+strange words softly and to himself.    
+~
+d 0 0 0 k 0 0 0 1000
+36 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7708
+Shanazar spirit righteous irda priest~
+the spirit of Shanazar~
+The spirit of a righteous Irdan priest in gleaming white armor is here.
+~
+   This Irdan spirit is of a righteous priest wearing gleaming white armor.  
+She gazes upon you with a serene expression, and clutches an unidentifiable
+holy symbol as she whispers soft prayers in a strange language.    
+~
+d 0 0 0 k 0 0 0 1000
+36 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7709
+Quindra spirit serene irda~
+the spirit of Quindra~
+The spirit of a serene Irda dressed in long green robes gover above her tomb.
+~
+   Before you is the spirit of a beautiful, serene Irdan woman with long blue
+hair and silver eyes.  She wears a long robe of green silk that seems to trace
+it's way around her curvy body.  She regards you with a look of slight
+curiosity.    
+~
+d 0 0 0 k 0 0 0 0
+36 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

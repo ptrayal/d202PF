@@ -1,0 +1,392 @@
+#4700
+waricks first room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4701 0 0 0 0 0 0 0 0
+S
+#4701
+Entrance to an Ancient Tomb~
+Ancient text is written upon a golden plaque. Resting behind the 
+boulder the Lich Lord Ebener waits to be released.
+~
+47 0 0 0 0 0
+D2
+~
+~
+0 0 4700 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 0 0 0 0 0 0 0 0 0
+E
+Plaque~
+Ancient text is written upon a golden plaque. Resting behind the 
+boulder the Lich Lord Ebener waits to be released.
+~
+E
+Vines~
+   These massive vines appear to have a mind of their own.  They shimmer with
+magic.  
+~
+S
+#4702
+Long Tunnel~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D7
+~
+~
+0 0 4703 0 0 0 0 0 0 0 0
+S
+#4703
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D7
+~
+~
+0 0 4704 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4702 0 0 0 0 0 0 0 0
+S
+#4704
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4705 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4703 0 0 0 0 0 0 0 0
+S
+#4705
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4706 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4704 0 0 0 0 0 0 0 0
+S
+#4706
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D2
+~
+~
+0 0 4705 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4707 0 0 0 0 0 0 0 0
+S
+#4707
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D3
+~
+~
+0 0 4708 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4706 0 0 0 0 0 0 0 0
+S
+#4708
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4710 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4707 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4709 0 0 0 0 0 0 0 0
+S
+#4709
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4708 0 0 0 0 0 0 0 0
+S
+#4710
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4711 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4708 0 0 0 0 0 0 0 0
+S
+#4711
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4712 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4710 0 0 0 0 0 0 0 0
+S
+#4712
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4713 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4711 0 0 0 0 0 0 0 0
+S
+#4713
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D3
+~
+~
+0 0 4712 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4714 0 0 0 0 0 0 0 0
+S
+#4714
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D5
+~
+~
+0 0 4715 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4713 0 0 0 0 0 0 0 0
+S
+#4715
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4716 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4714 0 0 0 0 0 0 0 0
+S
+#4716
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4717 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4715 0 0 0 0 0 0 0 0
+S
+#4717
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D3
+~
+~
+0 0 4716 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4718 0 0 0 0 0 0 0 0
+S
+#4718
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4719 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4717 0 0 0 0 0 0 0 0
+S
+#4719
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4718 0 0 0 0 0 0 0 0
+S
+#4720
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D0
+~
+~
+0 0 4723 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4721 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4719 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4722 0 0 0 0 0 0 0 0
+S
+#4721
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D3
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+S
+#4722
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+S
+#4723
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D2
+~
+~
+0 0 4720 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4724 0 0 0 0 0 0 0 0
+S
+#4724
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4723 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4725 0 0 0 0 0 0 0 0
+S
+#4725
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4724 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4726 0 0 0 0 0 0 0 0
+S
+#4726
+An unfinished room~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D1
+~
+~
+0 0 4725 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4727 0 0 0 0 0 0 0 0
+S
+#4727
+Private Chamber of Lich Lord Ebener~
+You are in an unfinished room.
+~
+47 0 0 0 0 0
+D4
+~
+~
+0 0 4726 0 0 0 0 0 0 0 0
+S
+$~

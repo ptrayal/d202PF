@@ -1,0 +1,273 @@
+#11100
+Across the Southern Plains of Dust~
+You are in a room.
+~
+111 0 0 0 0  0
+D2
+~
+~
+0 0 11101 0 0 0 0 0 0 0 0
+S
+#11101
+Approaching the Glaciers~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11100 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11102 0 0 0 0 0 0 0 0
+S
+#11102
+Approaching the Glaciers~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11101 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11103 0 0 0 0 0 0 0 0
+S
+#11103
+The Great Southern Glacier~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11102 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11104 0 0 0 0 0 0 0 0
+S
+#11104
+The Great Southern Glacier~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11103 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11105 0 0 0 0 0 0 0 0
+S
+#11105
+The Great Southern Glacier~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11104 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11106 0 0 0 0 0 0 0 0
+S
+#11106
+The Great Southern Glacier~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11105 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11107 0 0 0 0 0 0 0 0
+S
+#11107
+Along an Ice-covered Ridge~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11108 0 0 0 0 0 0 0 0
+S
+#11108
+Along an Ice-covered Ridge~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11109 0 0 0 0 0 0 0 0
+S
+#11109
+Along an Ice-covered Ridge~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11108 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11112 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11110 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11118 0 0 0 0 0 0 0 0
+S
+#11110
+Along an Ice-covered Ridge~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11111 0 0 0 0 0 0 0 0
+S
+#11111
+Along an Ice-covered Ridge~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11110 0 0 0 0 0 0 0 0
+S
+#11112
+Before the Frozen Lake~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11113 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11109 0 0 0 0 0 0 0 0
+S
+#11113
+Along a Frozen Pier~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11112 0 0 0 0 0 0 0 0
+S
+#11114
+Along a Frozen Pier~
+You are in a room.
+~
+111 0 0 0 0  0
+D2
+~
+~
+0 0 11113 0 0 0 0 0 0 0 0
+S
+#11115
+Along a Frozen Pier~
+You are in a room.
+~
+111 0 0 0 0  0
+D0
+~
+~
+0 0 11112 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11116 0 0 0 0 0 0 0 0
+S
+#11116
+On the Frozen Lake~
+You are in a room.
+~
+111 0 0 0 0  0
+D3
+~
+~
+0 0 11115 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11117 0 0 0 0 0 0 0 0
+S
+#11117
+Under the Ice~
+You are in a room.
+~
+111 0 0 0 0  0
+D4
+~
+~
+0 0 11116 0 0 0 0 0 0 0 0
+S
+#11118
+Before the Icewall Village~
+You are in a room.
+~
+111 0 0 0 0  0
+D3
+~
+~
+0 0 11119 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11109 0 0 0 0 0 0 0 0
+S
+#11119
+Before the Icewall Village~
+You are in a room.
+~
+111 0 0 0 0  0
+D1
+~
+~
+0 0 11118 0 0 0 0 0 0 0 0
+S
+$

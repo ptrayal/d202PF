@@ -1,0 +1,42 @@
+#52
+Oghma~
+Gauntlgrym~
+5200 5399 30 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+2 0 0 0 0
+M 0 5202 30 5254 100 0 	(a wailing banshee)
+M 0 5202 30 5254 100 0 	(a wailing banshee)
+M 0 5202 30 5257 100 0 	(a wailing banshee)
+M 0 5202 30 5257 100 0 	(a wailing banshee)
+M 0 5202 30 5251 100 0 	(a wailing banshee)
+M 0 5202 30 5251 100 0 	(a wailing banshee)
+M 0 5202 30 5251 100 0 	(a wailing banshee)
+M 0 5202 30 5249 100 0 	(a wailing banshee)
+M 0 5202 30 5249 100 0 	(a wailing banshee)
+M 0 5202 30 5248 100 0 	(a wailing banshee)
+M 0 5202 30 5248 100 0 	(a wailing banshee)
+M 0 5202 30 5313 100 0 	(a wailing banshee)
+M 0 5202 30 5253 100 0 	(a wailing banshee)
+M 0 5202 30 5255 100 0 	(a wailing banshee)
+M 0 5202 30 5259 100 0 	(a wailing banshee)
+M 0 5202 30 5258 100 0 	(a wailing banshee)
+D 0 5363 2 1 100 0 	(Within the Lavish Dining Hall)
+D 0 5366 0 1 100 0 	(Inside of the Keep's Kitchen)
+D 0 5328 1 1 100 0 	(Inside of the Kitchen's Pantry)
+D 0 5327 3 1 100 0 	(A Hallway through the Keep)
+D 0 5354 4 1 100 0 	(Inside of the Subterranean Sewers)
+D 0 5345 5 1 100 0 	(Within the Gauntlgrym Dungeons)
+D 0 5349 1 2 100 0 	(Inside of a Dusty Office)
+D 0 5347 3 2 100 0 	(Within the Gauntlgrym Dungeons)
+D 0 5343 0 2 100 0 	(@DChallenge of the Black Guardian@n)
+D 0 5341 1 2 100 0 	(@gChallenge of the Green Guardian@n)
+D 0 5339 1 2 100 0 	(@rChallenge of the Red Guardian@n)
+D 0 5336 2 2 100 0 	(Inside of the Vault)
+D 0 5335 0 2 100 0 	(Hidden Path beneath the Dais)
+M 0 5200 1 5216 100 0 	(Durnuk the Paladin)
+D 0 5308 2 1 100 0 	(@nInside of Gauntlgrym's Keep)
+D 0 5307 0 1 100 0 	(@DGates to an Ancient Keep@n)
+S
+$

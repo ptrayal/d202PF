@@ -1,0 +1,167 @@
+#2700
+map solamnia~
+a map of Greater Solamnia~
+A large map has been carelessly discarded here.~
+this is the map!
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0
+1 4 1 0
+Z
+6
+E
+map greater~
+This beautifully illuminated scroll highlights the major cities and Keeps of Solamnia.
+
+ City of
+Palanthas                  Vingaard
+    |                        Keep
+    |                          |
+     \                         |
+      \                        |
+       +---+\                  |
+      /      +-----------------+-------+
+     /                         |        \
+    /                          |         \              City of
+   /                          +           +-------------Kalaman
+Thelgaard                    /
+  Keep                     /
+    \                      +
+     \                    / \
+      \              +---+   \
+        *Solanthus, the       +-------+
+       Solamnic Capital*  
+            
+~
+#2701
+book spellbook Tak~
+Tak's big book spells~
+Tak's big book of spells is here.  Don't touch it!~
+This is the A-Desc!
+~
+29 jl 0 0 0 ajo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 25 0 0 0 0 0 0 0 0
+1 0 0 1
+Z
+8
+E
+spellbook book Tak~
+   This is Tak's big book of spells.  Within these pages are all her terrible
+tricks and schemes.  
+~
+S
+7 2
+S
+103 2
+#2702
+minivan Tak~
+Tak's minivan~
+A minivan is parked here.  Its license plate reads, 'Takhisis'.~
+This is the A-Desc.
+~
+24 0 0 0 0 a 0 0 0 0 0 0 0
+2703 1 -1 1 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+8
+#2776
+smith apron~
+a smith's apron~
+A smith's apron is here.~
+~
+9 0 0 0 0 ak 0 0 0 0 0 0 0
+20 1 6 0 100 100 10 2 30 2 20 0 0 0 0 0
+150 10 0 60
+Z
+4
+A
+32 50 0
+A
+33 50 0
+A
+34 50 0
+A
+35 50 0
+A
+36 50 0
+A
+37 50 0
+#2777
+soulhammer hammer~
+the @cS@wo@Culhamm@we@cr@n~
+A gigantic warhammer is here, crackling with limitless energy.~
+~
+5 agkuvw 0 0 0 an 0 0 0 hm 0 0 0
+31 1 8 5 100 100 1 7 0 2 0 9 0 0 0 0
+5 12 0 60
+Z
+4
+A
+5 50 0
+A
+18 250 0
+A
+29 250 0
+A
+48 50 0
+A
+20 50 0
+A
+13 500 0
+#2778
+bracer gold pure~
+a bracer of @Ypure gold@n~
+An unfinished object is lying here.~
+~
+11 agik 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 4 0 0 0 0 0 0 0 0
+0 0 0 60
+Z
+4
+A
+2 50 0
+A
+3 50 0
+A
+4 50 0
+A
+6 50 0
+A
+41 50 0
+#2779
+plain smith leather leggings~
+some plain smith's leather leggings~
+Some plain smith's leather legging are here.~
+~
+9 0 0 0 0 af 0 0 0 0 0 0 0
+20 1 6 0 100 100 10 2 30 2 20 0 0 0 0 0
+150 10 0 60
+Z
+4
+A
+22 50 0
+A
+17 50 0
+A
+21 50 0
+A
+40 50 0
+A
+39 50 0
+A
+38 50 0
+#2780
+horns fury great axe diamond double bladed blade~
+@D"@RHorns of Fury@D", a massive double-bladed axe made of polished black diamond@n~
+A large axe made of glowing black diamond lies here, waiting to be used.~
+~
+5 0 0 0 0 an 0 0 0 cnr 0 0 0
+55 1 8 0 100 100 3 38 0 260 0 5 0 0 0 0
+150 6500 0 0
+Z
+5
+A
+1 4 0
+A
+13 200 0
+$~

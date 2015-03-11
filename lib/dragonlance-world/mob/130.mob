@@ -1,0 +1,2054 @@
+#13000
+governor slight wisp fine clothing~
+the governor~
+A slight wisp of a man, dressed in fine clothing sits here, obviously bored.
+~
+   This slight wisp of a man is the governor of Tarsis.  He weighs little more
+than one hundred pounds, and he is dressed in the finest of clothing.  He seems
+to be haughty, and overbearing.  His sour expression shows no sign of interest,
+or intrigue.    
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This appears to be an Aurak draconian, and it is dressed in run of the mill
+The draconian sneers at you as he sees you stare him
+This warrior, called the Tarsian Warlord, is of massive proportions.  He
+This human scribe is absoultely daunting.  His features are very stern and
+#13004
+regale dainty scrivener woman~
+a regale, dainty scrivener~
+A regale, dainty scrivener is here copying the text of the scribe fervently.
+~
+   This beautiful young damsel is a scrivener, or someone who copies books and
+scriptures.  She is apparently copying the text of the scribe, and she is
+writing feverishly in a desperate attempt to catch up to him.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13005
+steely-eyed royal clerk~
+a steely-eyed royal clerk~
+A steely-eyed royal clerk rises to his feet as you enter the room.
+~
+   This royal clerk looks to be an extremely capable warrior.  He will not let
+anyone pass without going through the proper order of approval, as he still
+makes sure all royal protocols are followed.  He stands before the entrance to
+the governor's chamber, watching you with a menacing gaze.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13006
+burly watchful guardsman~
+a burly, watchful guardsman~
+A burly, watchful guardsman strolls by, examining you carefully.
+~
+   This burly guard keeps a close eye on you.  He continually looks you up and
+down, seeming to judge your overall character.  His chilling blue eyes stare
+you right in the face.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13007
+muscular attentive gateguard~
+a muscular, attentive gateguard~
+A muscular, attentive gateguard stands watch here, scrutinizing you.
+~
+   This gateguard appears to be a very capable warrior.  He is very muscular,
+and has a stern yet noble bearing over him.  He carefully looks you over,
+attempting to determine whether you should be allowed within Tarsis or not.  
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13008
+man dismal alchemist blue eyed~
+a dismal, blue-eyed alchemist~
+A dismal, blue-eyed alchemist trudges by here in a very dreary manner.
+~
+   This human alchemist has a very dismal look about him.  He looks unrested,
+and his eyes have a distant look.  His long crimson robes look travelworn and
+drab.  Long blonde hair has been pulled back into a pony-tail on his head.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13009
+Tara lovely green woman ~
+Tara Le'Beau~
+A lovely green-eyed woman examines her precarious guard with a dismal expression.
+~
+   This woman is absolutely stunning.  Her descent is obviously human, however
+her features are so delicate and refined that elven maidens often long to be so
+beautiful.  An aura of kindness and protection seems to emanate from her.  She
+is dressed in ethereal robes of the finest quality.  A dismal expression lies
+upon her faces as she carefully judges the usefulness of her guardsman.    
+~
+d 0 0 0 k 0 0 0 0
+29 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13010
+Thalin Justarious blue eyed knightly figure~
+Thalin Justarious~
+A blue-eyed knightly figure stands here looking over a piece of parchment.
+~
+   This man is fully armored in combat gear, though he wears a robe that
+conceals the majority of it.  He has icy, stern blue eyes and long golden hair.
+He has a grandeur arrogance about him.  His build is muscular and refined.  As
+he notices your stare, he pulls his robe tighter about his body.    
+~
+d 0 0 0 k 0 0 0 500
+30 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13011
+shrewd dragoman official man~
+a shrewd dragoman official~
+A shrewd dragoman official is here carefully interpreting scriptures for a scribe.
+~
+   This dragoman is a muscular, bronze-skinned human.  He is very keen and can
+interpret many different languages.  He is standing here, patiently instructing
+the scribe and scrivener.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13012
+belligerent morose barrister man~
+a morose, belligerent barrister~
+A morose, belligerent barrister is arguing here, indescribably furious.
+~
+   This barrister is here before the marshal arguing his case with extreme
+discontentment.  His face is completely crimson, and he is short of breath.  
+The flare in his eyes leads you believe he could charge after the marshal at
+any given moment.    
+~
+d 0 0 0 k 0 0 0 0
+28 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13013
+cold-eyed murderer malevolent~
+a malevolent, cold-eyed murderer~
+Stalking about in deathly silence, here is a malevolent, cold-eyed murderer.
+~
+   This man has a very well-defined build, and is rather handsome.  He has
+cold, almost startling sapphire eyes that glitter from beneath his hood.  His
+attire consists of a very dull, black leather, and a black hooded cloak.  As he
+notices your stare, a large grin spreads across his face, and he says in a very
+soft voice, almost a whisper, 'Now you die.'
+~
+d 0 0 0 k 0 0 0 -750
+31 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This beautiful young girl is skulking by very quietly.  Her hair is black as
+This man has a very rough, rugged appearance.  He wears clothes that are
+#13016
+unalluring quiet lady woman~
+an unalluring, quiet lady~
+Trudging along slowly, here is an unalluring, quiet lady.
+~
+   This young woman looks very plain.  From what you can assume, she probably
+doesn't get many stares from the young men in this area.  Her hair has been
+pulled back and braided.  She has strange, almost yellow looking eyes.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13017
+shrewd robed figure~
+a shrewd, robed figure~
+A shrewd, robed figure is here, making his way through the city.
+~
+   This man is heavily robed, and most of his features are quite concealed.  
+He is over above average height, and a bit plump.  He is walking through the
+city at a very steady pace, oblivious to most of his surroundings.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13018
+cold gruff man at arms~
+a cold, gruff man-at-arms~
+A cold, gruff man-at-arms is here, keeping watch over the citizens.
+~
+   This man is of above average height, and has a somewhat muscular build.  He
+seems very gruff, and straight to the point.  He watches you closely, as if he
+may be studying you for future reference.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13019
+haughty black haired black-haired caretaker man~
+a haughty, black-haired caretaker~
+A haughty, black-haired caretaker is here tending to the plants and flowers.
+~
+   This haughty caretaker is here taking care of the plans and flowers in the
+governor's exquisite garden.  He's dressed in fairly nice, though somewhat drab
+clothing.  He eyes you attentively as you step a bit to close to some of the
+vegetation.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13020
+woman artistic pleasant female caretaker~
+a pleasant, artistic caretaker~
+A pleasant, artistic caretaker is here carefully pruning away at the plants.
+~
+   This pleasant, attractive young lady looks quite pleased as she examines her
+work here.  She is pruning the plants in the garden to perfection, carefully
+examining each one after her work.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13021
+man worn-out garden laborer~
+a worn-out garden laborer~
+A worn-out garden laborer is here digging holes for new plants and trees.
+~
+   This worn-out laborer is digging holes for new plans and trees in the
+gardens here.  His shirt is almost drenched with sweat, and his face and hands
+are quite dirty.  He doesn't even seem to notice your presence, as he is so
+engrossed in his work.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13022
+lonesome pallid lady woman~
+a pallid, lonesome lady~
+A pallid, lonesome young lady saunters about through the garden.
+~
+   This young, pale-skinned woman is absolutely stunning.  She has long, amber
+hair, and beautiful chestnut shaped brown eyes.  She wears fine, white robes
+giving her pallid look an almost haunting beauty.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This herbalist is a master at his craft.  He is carefully examining some of
+This young porter looks a bit exhausted.  He doesn't look to be carrying
+#13025
+burly frowning teamster man~
+a burly, frowning teamster~
+A burly, frowning teamster is here grumbling about the lack of work recently.
+~
+   This burly teamster is here endlessly complaining about the lack of work
+he's been getting.  He mutters something about the porters stealing all the
+work, and about how revenge will soon be his.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This stone-faced warrior is of huge proportions.  His arms are the size of
+This guardian of the gate keeps a close eye on all of those who pass.  It
+This stern, commanding warrior is here to keep the doors to the palace
+Tarsis, and from the looks of
+#13030
+servant palace man~
+a palace servant~
+A servant of the palace is here working to tidy things up a bit.
+~
+   This older gentleman is dressed in very fine clothing.  He is clean-shaven,
+and his hair has been brushed very neatly.  He walks around through the palace
+halls here trying to find something to do, though from the almost spotless
+condition of the palace, you can't imagine what.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13031
+courtesan woman striking young~
+a striking young courtesan~
+A striking young courtesan sits here tapping her fingers impatiently.
+~
+   This beautiful young woman seems very impatient and preoccupied.  She sighs
+with a hint of frustration, and sits here tapping her fingers.  As she notices
+your stare, she sends you a swift, well-trained smile.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13032
+count stately thunderous~
+a stately, thunderous count~
+A stately, thunderous count is here bellowing on about certain events.
+~
+   This well-dressed nobleman looks to be leading the conversation at this
+point.  He is very dignified, but also quite loud.  His voice carries well, and
+it's possible he may not be aware of that.  He bellows loudly into the faces of
+his fellow nobles.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13033
+haughty tanned noble man~
+a tanned, haughty noble~
+A tanned, haughty noble is sitting here comfortably, a smirk on his face.
+~
+   This noble is overbearing, and you can tell it just by his appearance.  
+He's sitting here listening to what the other nobles have to say, but
+occassionally butts in frustrating the other nobles terribly.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13034
+respectful woman duchess emerald-eyed emerald eyed~
+a respectful, emerald-eyed duchess~
+A respectful, emerald-eyed duchess sits here patiently awaiting her turn.
+~
+   This duchess is absolutely stunning.  Her eyes glitter like beautiful green
+emeralds, and look especially good with her tanned complexion.  She has dark
+chestnut hair that rolls down over her shapely body.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13035
+alderman auburn-haired intrepid man~
+an intrepid, auburn-haired alderman~
+An intrepid, auburn-haired alderman is here listening with great dignity.
+~
+   This high ranking noble sits here listening to all the squabbles of his
+fellow nobles.  His face is without expression, he just listens intently to all
+that is said from each side of every story.    
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13036
+opulent august marshal man~
+an opulent, august marshal~
+An opulent, august marshal is here listening with apparent lack of interest.
+~
+   This handsome marshal looks to be about in his mid-thirties.  His build is
+robust and very well defined.  He is darkly tanned, and has finely combed ebony
+hair.  His icy-blue eyes offer an interesting contrast to his tanned
+appearance.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13037
+ambassador man foreign dignified~
+a dignified foreign ambassador~
+A dignified foreign ambassador sits here listening to the matters at hand.
+~
+   This dignified foreign ambassador is listening to the matters at hand very
+intently, but looks somewhat confused at what is going on.  From what you can
+gather, it seems the ambassador has been accused of some wrong-doings while
+within the city.    
+~
+d 0 0 0 k 0 0 0 0
+21 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The captain of the guard is here discussing matters with some of his cohorts.
+The captain of the guard is a rather large man, he is dressed in fine
+This silver-haired crusader actually looks somewhat young, though closer
+Tarsis seal.    
+This intelligent engineer is helping the captain of the guard develop
+The captain often calls on
+The engineer is dressed in very basic armor, but
+This artillerist is a master at his trade.  He is one of the most respected
+The captain of the guard often times utilizes his knowledge of
+This young maid is very quaint and pretty.  She's walking up and down the
+The palace is probably overstaffed, as it's in simply
+#13043
+man white-haired palace aide~
+a white-haired palace aide~
+A white-haired palace aide is here roaming the halls of the governors mansion.
+~
+   This white-haired palace aide is trudging up and down the halls of the
+palace, seemingly bored.  He regards you with little interest at first, but
+then upon closer examination, looks a bit concerned.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13044
+man black skinned guard palace~
+a black-skinned palace guard~
+An black-skinned palace guard is here, watching keenly for intruders.
+~
+~
+d 0 0 0 k 0 0 0 0
+22 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13045
+weary uninterested palace guard man~
+a weary, uninterested palace guard~
+A weary, uninterested palace guard is here, very bored and slouching.
+~
+   This palace guard looks to be terribly bored.  He's slouching, unlike most
+of the other guards, and doesn't even seem to pay any mind to you.  He has
+broad shoulders, and wears the same armor as the other guards.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13046
+obese guard palace reprehensive man~
+an obese, reprehensive palace guard~
+An obese, reprehensive palace guard is here, attempting to persecute you.
+~
+   This palace guard is terribly obese.  His armor barely fits him, and you're
+sure he's the butt-end of a many a lame joke.  Seeing his perfect opportunity
+to oppress someone, he approaches you with hate filled eyes.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13047
+hearty hale palace guard man~
+a hearty, hale palace guard~
+A hearty, hale palace guard is here keeping a close eye out for trespassers.
+~
+   This palace guard stares at you with a very peculiar look on his face.  He
+seems as if he wants to say something, but he doesn't speak a word.  After
+staring at you for quite some time, he finally gives you a slow nod.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13048
+man muscular robust palace guard~
+a muscular, robust palace guard~
+A muscular, robust palace guard is here keeping watch on the halls of the palace.
+~
+   This palace guard is keeping a keen eye on his surroundings.  As he sees you
+approach, he carefully examines you, and gives a snort.  He mockingly turns his
+head, regarding you as no threat.    
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13049
+vast powerful guard man~
+a vast, powerful guard~
+A vast, powerful palace guard stands here keeping a watchful eye.
+~
+   This palace guard is a man of very large stature.  His arms are very
+muscular, and connect to broad shoulders.  His dark eyes glitter as he watches
+your every move.    
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13050
+rough looking palace guard man~
+a rough-looking palace guard~
+A rough-looking palace guard is here, keeping a close eye on you.
+~
+   This gruff, rugged warrior has a very rough looking appearance.  His face is
+grizzled and unshaven, and his hair has a matted appearance.  He stands here
+very stoutly, keeping a close eye on you.    
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13051
+woman lithe dark eyed~
+a lithe, dark-eyed woman~
+A lithe, dark-eyed woman is here making her way through town.
+~
+   This beautiful, lithe woman has very dark, attractive eyes.  She doesn't
+seem to pay you any attention as she walks by.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13052
+man calm brown haired~
+a calm, brown haired man~
+A calm, brown-haired man is here walking through the city.
+~
+   This young man is just trudging along through the city, kicking at loose
+pieces of cobblestone as he walks along.  He doesn't seem to pay you any mind.
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13053
+man tanned peasant young~
+a young, tanned peasant~
+A young, tanned peasant is here walking through the city at a slow pace.
+~
+   This young peasant doesn't appear to be very lively, or happy for that
+matter.  He walks along through the town at his own pace, making sure to take
+his time.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13054
+woman black elegant skinned lady~
+an elegant, black-skinned lady~
+An elegant, black-skinned lady walks through, her nose in the air.
+~
+   This young woman is quite breathtaking with her beauty.  She appears to be
+very snobbish, and doesn't even turn her head to acknowledge you.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13055
+man gruff elderly~
+a gruff, elderly man~
+Mumbling as he walks, a gruff, elderly man makes his way through the town.
+~
+   This gruff, elderly man is trapsing through the city slowly, mumbling all
+the while.  He looks at you carefully as you walk by, and continues mumbling a
+bit louder now.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13056
+venerable old lady~
+a venerable old lady~
+A venerable old lady is here, a broad smile on her face as she walks by.
+~
+   This cheerful old gal looks happy just to be outdoors.  She smiles at you as
+you walk by, and approaches you almost as if she's ready to start a
+conversation.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13057
+stout rugged man~
+a stout, rugged man~
+A stout, rugged man is here walking the streets at a quick pace.
+~
+   This stout, rugged man is making his way through the city at a somewhat
+hurried pace, he seems as if he may have places to be.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13058
+sturdy handsome lad man~
+a sturdy, handsome lad~
+A sturdy, handsome lad is here, walking confidently through the city.
+~
+   This young man is very handsome, he has dark hair and eyes, and is quite
+tall.  A well trimmed beard covers the lower portion of his face, and his
+clothes are much nicer than what you see on a normal person.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13059
+homely blonde haired woman~
+a homely, blonde-haired woman~
+A homely, blonde-haired woman is here, strolling through the city.
+~
+   This middle aged woman isn't very attractive, she has pretty, long blonde
+hair, but her face leaves man with something to desire.  Her plain, greyish
+eyes stare out at you.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13060
+man middle aged frowning~
+a frowning, middle-aged man~
+A frowning, middle-aged man is standing here, arms folded.
+~
+   From the looks of this man, he isn't very happy.  He's simply standing here,
+a permanent frown on his face, with his arms folded in a very belligerant way.
+As he notices your stare, he simply turns away.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13061
+boy man pale red haired~
+a pale, red-haired boy~
+A pale, red-haired boy is running through the street here playing.
+~
+   This homely little boy looks to be having the time of his life.  He's
+running through the streets and playing, paying attention to nothing in the
+world.  He's very loud, and somewhat annoying.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13062
+stern overbearing man~
+a stern, overbearing man~
+A stern, overbearing man is here, taking his time through the city.
+~
+   This man looks quite overbearing.  He's walking about the city, looking at
+everything with contempt in his eyes.  He regards your stare with a frown, and
+a glare.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13063
+emerald eyed maiden woman~
+an emerald eyed maiden~
+An emerald eyed maiden is here, keeping a careful eye on you.
+~
+   This emerald eyed maiden has a firm, lithe build.  Her delicate hands pull a
+brown cloak tighter around her body, and she watches your every move very
+carefully.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13064
+burly commanding guardsman man~
+a burly, commanding guardsman~
+A burly, commanding guardsman patrols there area here, watching you.
+~
+   This burly guardsman has a very commanding presence.  He is patrolling the
+area, and seems to be keeping a very close eye on you in particular.  He
+watches you even more carefully once he notices your stare.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13065
+stiff proper knight solamnic rose derek crownguard man~
+Derek Crownguard~
+A stiff and proper solamnic knight of the rose is standing here.
+~
+   This Solamnic Knight is wearing a set of priestly robes, obviously to
+disguise himself.  The robes hang very loosely over his shiny plate armor,
+making it easy for most to identify him despite his efforts of disguise.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13066
+relaxed friendly aaron tallbow solamnic knight~
+Aaron Tallbow~
+A relaxed, friendly solamnic knight of the rose is present here.
+~
+   Sir Aaron Tallbow stands here somewhat close to Lord Derek Crownguard.  He
+listens intently, a look of understanding in his eyes.  As he sees you enter
+the room, he looks to Lord Crownguard for orders.  He is a rather muscular
+built man, and wears priestly robes as a sort of disguise over his Solamnic
+Armor.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13067
+gate guardian watchful man guard gate~
+a watchful gate guardian~
+A watchful gate guardian is here, standing vigorously and stern.
+~
+   This burly gateguard stands here, totally unwavering.  He is very muscled
+and stands well over six feet tall.  He has very stern mannerisms, and keeps a
+very close eye on you as you attempt to enter the city of Tarsis.    
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13068
+stern indomitable gateguard gate guard man~
+a stern, indomitable gateguard~
+A stern, indomitable gateguard stands here keeping close watch.
+~
+~
+d 0 0 0 k 0 0 0 0
+25 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13069
+broad shouldered palace guard man~
+a broad-shouldered palace guard~
+A broad-shouldered palace guard stands here keeping a careful watch on the area.
+~
+   This powerful looking, broad-shouldered guard stands here keeping a very
+careful watch on the surrounding area.  As he notices you approach, he eyes you
+carefully, but does not attack.    
+~
+d 0 0 0 k 0 0 0 0
+24 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13070
+unaware scrawny personal guard man~
+an unaware, scrawny personal guard~
+An unaware, scrawny personal guard stands here staring off into space.
+~
+   After looking at this man, you're quite amused at the fact he is even a
+guard.  He is in no way or form a means of protection for even the weakest of
+nobles.  He stands here, totally unware of his surroundings, humming a simple
+tune to himself while he stares blankly at the ceiling.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13071
+pleading adventurer man~
+a pleading adventurer~
+A pleading adventurer is here on his knees, begging for forgiveness.
+~
+   Tears streaming down his face in a bold effort to gain the governor's
+forgiveness, this young adventurer has dropped to his knees and began some old
+fashioned begging.  Things look fairly dismal for him.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13072
+kender narrow eyed smiling man~
+a smiling, narrow-eyed kender~
+A smiling, narrow-eyed kender is here, bouncing through the city playfully.
+~
+   This little kender seems very happy about..  Well, just about anything.  
+Her cheeks are very rosy-red, and a constant smile graces her face.  Her light
+brown hair has been pulled up into a topknot on her head.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This little gnomish man seems to be quite happy today.  He walks through
+#13074
+rough bronze skinned barbarian tracker man~
+a rough, bronze-skinned barbarian tracker~
+A rough, bronze-skinned barbarian tracker is here, unfurling his heavy cloak.
+~
+   This barbarian warrior is totally bronze-skinned, but you suspect it's not
+from a the sun, but instead the cold weather of Icewall.  He is dressed in furs
+of a polar bear, and in the hides of thanoi.  His build is extremely muscular,
+and he towers high into the air.    
+~
+d 0 0 0 k 0 0 0 0
+29 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This towering, powerful barbarian warrior looks extremely tired.  He is
+This beautiful barbarian female has dark emerald eyes, and her skin is
+This traveler looks to be very worn and tired.  He is resting his legs here,
+#13078
+lithe female traveler woman~
+a lithe, female traveler~
+A lithe female traveler is here resting her legs.
+~
+   This lithe female is sitting here, resting her legs.  She is a very pretty
+lady, and seems friendly.  As she notices you standing there, she smiles at you
+and gives you a wink, and beckons for you to come sit with her.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13079
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13080
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13081
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13082
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13083
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13084
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13085
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13086
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13087
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13088
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13089
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13090
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13091
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13092
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13093
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13094
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13095
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13096
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13097
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13098
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#13099
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

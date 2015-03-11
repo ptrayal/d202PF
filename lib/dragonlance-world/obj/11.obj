@@ -1,0 +1,628 @@
+#1100
+halberd steel~
+a steel bladed halberd~
+A halberd seems to bave been left here.~
+~
+5 jklpstuxCF ac stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+16 1600 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 10 0
+#1101
+chain steel turtle~
+a chain of burned steel, with the pendant of a turtle~
+A turtle pendant is here, lying on the ground.~
+~
+11 kmnoprstuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1400 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+21 1 0
+A
+14 7 0
+A
+17 -3 0
+#1102
+skin viper waterskin~
+a viper skin~
+The skin of a viper is here, looking rather moist.~
+~
+17 jklmnoprstuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+35 120 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1103
+hat fox tail furry~
+a furry hat with a fox tail~
+The tail of a fox lay here.~
+~
+9 jklnopruvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 760 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+23 -1 0
+#1104
+crossbow wooden polished~
+a polished, wooden crossbow~
+A crossbow made of polished wood sits here, enticingly.~
+~
+5 jkloprstuvwxBCDEF ab kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 1350 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#1105
+corpse~
+the corpse of a handsome green eyed elf~
+The corpse of a handsome green eyed elf is lying here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1106
+coins pile~
+a pile of coins~
+A pile of coins lies here on the ground.~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1107
+wooden training sword~
+a wooden training sword~
+A wooden sword usable for training lies here.~
+~
+5 jklmnoprstuvwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 15 5 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1108
+guards leg leather pair~
+a pair of leather leg guards~
+A pair of leather leg guards rests on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 12 15 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+guards leg leather pair~
+   The leg guards have small straps to keep them fastened to your leg.  They
+appear to be of decent craftsmanship.    
+~
+#1109
+belt wide leather~
+a wide, leather belt~
+A wide, leather belt rests in the ground.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 13 13 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+belt wide leather~
+   The belt is long enough to fit men of even the greatest girth.  There are
+seven notches and a small clasp to keep it around your waist.    
+~
+#1110
+cloak black cotton~
+a black, cotton cloak~
+A black, cotton cloak lies on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 11 15 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cloak black cotton~
+   The cloak has silver writing along its edges.  The language is unknown.    
+~
+#1111
+armguards crude pair~
+a pair of crude armguards~
+A pair of crude armguards rest on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 12 20 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+crude pair armguards~
+   These armguards are made of leather that has been toughened and stretched.
+~
+#1112
+gloves pair thick leather~
+a pair of thick leather gloves~
+A pair of thick leather gloves rests on the ground.~
+~
+9 jklnoprstuvwBCDEF abc 0 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 15 10 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+gloves pair thick leather~
+   The gloves seem to be of medium size.  There is a small hole in the left
+pinky finger, but otherwise they appear to be of in decent shape.    
+~
+#1113
+boots walking pair~
+a pair of walking boots~
+A pair of walking boots are resting on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 24 28 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+boots pair walking~
+   The boots are made of leather and appear old.  They are in good shape
+however and appear to be of decent quality.    
+~
+#1114
+vest studded leather~
+a studded, leather vest~
+A studded, leather vest rests on the ground.~
+2~
+9 jklnoprtuvwBCDEF abc 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 20 25 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+vest leather studded~
+   The leather vest is crasked and worn.  It has been dried from prolonged
+exposure to sunlight.    
+~
+#1115
+bridge bridgewalk map solace~
+a map of the Bridgewalks of Solace~
+A map of the Bridgewalks of Solace flutters in the wind.~
+~
+13 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bridge bridgewalk map solace~
+A Map of the Bridgewalks of Solace:
+            --------------------------------------                           
+           |               3    --                |
+           |               ----/  \--|            |
+           |       -------/          |            |
+'          |      /             5*   |            |
+           |    Y*                   |            |
+           |      \                  Y*           |
+           |       |                   |          |
+           |       |                   |          |
+           |       |                   |          |
+           |       |        Y*-1       |          |
+'          |       |        |          |4         |
+           |       |-------------------Y*         |
+'          |       |        2                     |
+           |       Y*                             |
+'           ---------------------------------------
+1  Omar's Grocery
+2  Dorian's Depository
+3  Mordeth's Shop of Wonders
+4  The Solace Bread Pantry
+5  The Inn of the Last Home
+Y  A Staircase
+*  Marker for leading to lower level
+~
+#1116
+lantern hooded bronze~
+a bronze, hooded lantern~
+A bronze, hooded lantern rests on the ground.~
+~
+1 jklmnoprstuvwABCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 6 5 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+lantern bronze hooded~
+   The lantern has a small wick that is lit and runs downs slowly, enabling
+people to see in dark places.  It is nondirectional but the light does not
+spread far.    
+~
+#1117
+waterskin skin hide~
+a hide waterskin~
+A hide waterskin has been left on the ground.~
+~
+17 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+30 4 6 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+waterskin skin hide~
+   The waterskin is made of some form of animal hide.    
+~
+#1118
+sack burlap large~
+a large, burlap sack~
+A large, burlap sack has been left here.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 3 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sack large burlap~
+   The sack seems to be sturdy and will last for quite some time.  It has a
+small drawstring along its top so that it may be opened and closed while on
+long journeys.    
+~
+#1119
+beef strip small food~
+a small strip of beef~
+A small strip of beef collects dirt where it has been discarded.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+beef strip small~
+   The strip of beef has been dried and cooked well.  It seems meager but when
+eaten is surprisingly filling.    
+~
+#1120
+robe brown tattered~
+a tattered brown robe~
+A tattered brown robe lies in a heap on the ground.~
+~
+9 jklmnoprstuvwABCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1121
+hat wide brimmed brown leather~
+a wide-brimmed, brown leather hat~
+A wide-brimmed, brown leather hat lies here on the ground.~
+~
+9 jklmnoprstuvwABCDEF abc 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 20 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1122
+pants black cotton~
+a pair of black, cotton pants~
+A pair of jet black pants woven from cotton lies here on the ground.~
+~
+9 jklmnoprstuvwABCDEF abc 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 17 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1123
+boots black leather~
+a pair of soft, black walking boots~
+A pair of soft, black leather walking boots lie here.~
+~
+9 jklmnoprstuvwABCDEF abc 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 24 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1124
+cloak red hooded~
+a red, hooded cloak~
+A red, hooded cloak woven from cotton lies here on the ground.~
+~
+9 jklmnoprstuvwABCDEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 11 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1125
+belt black leather thin~
+a thin, black leather belt~
+A thin, black leather belt with a circular buckle lies here.~
+~
+9 jklmnoprstuvwABCDEF abc 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 13 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1126
+branch tree broken~
+a broken tree branch~
+A broken tree branch rests on the ground.~
+~
+5 jklmnoprstuvwABCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1127
+torch wooden~
+a wooden torch~
+A wooden torch has been left on the ground.~
+~
+1 jklmnoprstuvwABCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3 2 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+torch wooden~
+   The torch is wrapped with cloth that has been dipped in some kind of oil.  
+~
+#1128
+potion tiny black recall~
+a potion of recall~
+A tiny, black potion lies here discarded.~
+~
+10 jklmnoprstuvwABCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 600 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1129
+sleeves cotton~
+a set of white, cotton sleeves~
+A set of white sleeves woven from cotton lies here.~
+~
+9 jklmnoprstuvwABCDEF abc 0 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 12 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1130
+ball wood~
+a ball fashioned out of wood~
+Rolling slightly as it sits, this ball longs to be held.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 -2 0
+#1131
+chest wood~
+a chest made of wood~
+A chest made of wood rests here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1132
+scythe steel wooden~
+a steel scythe with a wooden handle~
+A wooden handled scythe lay here, gleaming while it awaits an owner.~
+~
+5 jlnpruwxBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 750 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+3 1 0
+A
+9 -4 0
+#1133
+coins pile~
+a pile of coins~
+A pile of coins has been dropped here.~
+~
+20 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1134
+tooth squirrel~
+a squirrel tooth~
+A leather cord tied to a tooth litters the ground.~
+~
+5 jklmopruvwBCDEF abc stuvwxy 0 acn 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 150 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1135
+panpipes reed~
+a panpipes made of reed~
+Sounding softly in the wind, these panpipes seem to have been discarded.~
+~
+18 cfjkl 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#1136
+brace leather fur fur-lined wrist~
+a fur-lined leather wrist brace~
+A piece of leather lined with fur rests here.~
+~
+9 jklnopruvwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+20 1 0
+A
+17 -1 0
+A
+21 1 0
+$~

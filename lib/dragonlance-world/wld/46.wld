@@ -1,0 +1,1491 @@
+#4600
+An Area Devoid of Vegetation~
+   This cleared out area is rather small in scale, but completely devoid of
+vegetation.  The ground is dusty with fine gray ash, as it the vegetation was
+disintegrated or burned.  You can see three disks of light, one to the south,
+west, and north.  They shimmer and flicker with their own odd glow.    
+~
+46 0 0 0 0  0
+D0
+~
+~
+0 0 4601 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4682 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4662 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4626 0 0 0 0 0 0 0 0
+S
+#4601
+Nearing the Misty Disk of Light~
+   A fine layer of grey ash coats the ground here.  Ahead, a misty disk of
+light wavers in and out as if possessing a life of its own.  The air here is
+heavy with mist, and quite difficult to breath.  Not a single patch of living
+foliage can be seen in any direction, it's as if the mist itself is a plague.
+~
+46 0 0 0 0  0
+D0
+~
+~
+0 0 4602 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4600 0 0 0 0 0 0 0 0
+S
+#4602
+Before the Misty Disk of Light~
+   A wavering portal in the form of an elipse lies here, hovering just a few
+feet above the ground.  Small bolts of electrical energy crackle around the
+rim, propelling themselves outwards and eventually impaling themselves into the
+ground.  A fine layer of mist is the only barrier to entering into the disk,
+and what awaits beyond on the other side cannot be seen with mortal eyes.    
+~
+46 0 0 0 0  0
+D0
+~
+~
+0 0 4603 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4601 0 0 0 0 0 0 0 0
+S
+#4603
+Within the Portal To the Para-Elemental Plane of Mist~
+   A blinding light emanates within this entryway, and an odd 'side-shifting'
+sensation can be felt surging throughout the portal.  The light prevents any
+knowledge as to what awaits ahead.  The temperature here is immense, and no
+life could withstand the hot steam that exists in this entryway for long.    
+~
+46 cdfr 0 0 0  0
+D0
+~
+~
+0 0 4604 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4602 0 0 0 0 0 0 0 0
+S
+#4604
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 d 0 0 0  0
+D0
+~
+~
+0 0 4605 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4603 0 0 0 0 0 0 0 0
+S
+#4605
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4606 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4604 0 0 0 0 0 0 0 0
+S
+#4606
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4608 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4607 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4605 0 0 0 0 0 0 0 0
+S
+#4607
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D3
+~
+~
+0 0 4606 0 0 0 0 0 0 0 0
+S
+#4608
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4609 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4606 0 0 0 0 0 0 0 0
+S
+#4609
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D2
+~
+~
+0 0 4608 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4610 0 0 0 0 0 0 0 0
+S
+#4610
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4616 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4609 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4611 0 0 0 0 0 0 0 0
+S
+#4611
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4610 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4612 0 0 0 0 0 0 0 0
+S
+#4612
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4611 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4613 0 0 0 0 0 0 0 0
+S
+#4613
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4612 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4624 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4614 0 0 0 0 0 0 0 0
+S
+#4614
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4615 0 0 0 0 0 0 0 0
+S
+#4615
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4614 0 0 0 0 0 0 0 0
+S
+#4616
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4617 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4610 0 0 0 0 0 0 0 0
+S
+#4617
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4622 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4620 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4618 0 0 0 0 0 0 0 0
+S
+#4618
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4617 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4619 0 0 0 0 0 0 0 0
+S
+#4619
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4618 0 0 0 0 0 0 0 0
+S
+#4620
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4621 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4617 0 0 0 0 0 0 0 0
+S
+#4621
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D3
+~
+~
+0 0 4620 0 0 0 0 0 0 0 0
+S
+#4622
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4623 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4617 0 0 0 0 0 0 0 0
+S
+#4623
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D2
+~
+~
+0 0 4622 0 0 0 0 0 0 0 0
+S
+#4624
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4613 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4625 0 0 0 0 0 0 0 0
+S
+#4625
+The Para-Elemental Plane of Mist~
+   Swirling mist surrounds and envelops anything and everything within this
+plane.  Visibility is virtually nonexistent and clearly the matter that loosely
+holds this world together is not natural.  Although the heat here is intense,
+it is bearable, but far from comfortable.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4624 0 0 0 0 0 0 0 0
+S
+#4626
+An Ashen Pathway~
+   Nearly a foot of dark grey ash lies on this pathway, far ahead a red elipse
+comes into sight.  Here and there lie chunks of dried lava, some of which are
+the size of a human child.  Heavy waves of heat come from ahead, each one
+driving forward with intensity.  The temperature is so high, that any moisture
+in the area is evaporated the instant it forms.    
+~
+46 0 0 0 0  0
+D1
+~
+~
+0 0 4600 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4627 0 0 0 0 0 0 0 0
+S
+#4627
+Before the Heated Disk of Light~
+   Hovering just above the ground is a circular disk of light.  From within an
+eerie red glow emanates, and on the outside crackling energy circles
+monotonously around the perimeter.  Several chunks of lava have been arranged
+in a circular fashion outside of the portal, each is identical in size and
+shape and probably serves as a warning to those considering entering.    
+~
+46 0 0 0 0  0
+D1
+~
+~
+0 0 4626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4628 0 0 0 0 0 0 0 0
+S
+#4628
+Within the Portal to the Para-Elemental Plane of Lava~
+   A blinding light emanates within this entryway, and an odd 'side-shifting'
+sensation can be felt surging throughout the portal.  The light prevents any
+knowledge as to what awaits ahead.  The temperature here is immense, and no
+life could withstand the hot steam that exists in this entryway for long.    
+~
+46 cdfr 0 0 0  0
+D1
+~
+~
+0 0 4627 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4629 0 0 0 0 0 0 0 0
+S
+#4629
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4630 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4628 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4657 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4631 0 0 0 0 0 0 0 0
+S
+#4630
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4633 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4629 0 0 0 0 0 0 0 0
+S
+#4631
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 d 0 0 0  0
+D1
+~
+~
+0 0 4629 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4632 0 0 0 0 0 0 0 0
+S
+#4632
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4631 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4658 0 0 0 0 0 0 0 0
+S
+#4633
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D2
+~
+~
+0 0 4630 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4634 0 0 0 0 0 0 0 0
+S
+#4634
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4633 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4635 0 0 0 0 0 0 0 0
+S
+#4635
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4636 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4634 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4637 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4638 0 0 0 0 0 0 0 0
+S
+#4636
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D2
+~
+~
+0 0 4635 0 0 0 0 0 0 0 0
+S
+#4637
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4635 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4658 0 0 0 0 0 0 0 0
+S
+#4638
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4635 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4639 0 0 0 0 0 0 0 0
+S
+#4639
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4638 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4640 0 0 0 0 0 0 0 0
+S
+#4640
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4639 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4641 0 0 0 0 0 0 0 0
+S
+#4641
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4640 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4643 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4649 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4642 0 0 0 0 0 0 0 0
+S
+#4642
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4641 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4644 0 0 0 0 0 0 0 0
+S
+#4643
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4658 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4641 0 0 0 0 0 0 0 0
+S
+#4644
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4645 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4642 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4646 0 0 0 0 0 0 0 0
+S
+#4645
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4647 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4644 0 0 0 0 0 0 0 0
+S
+#4646
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4644 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4648 0 0 0 0 0 0 0 0
+S
+#4647
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D2
+~
+~
+0 0 4645 0 0 0 0 0 0 0 0
+S
+#4648
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4646 0 0 0 0 0 0 0 0
+S
+#4649
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4641 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4650 0 0 0 0 0 0 0 0
+S
+#4650
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4649 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4651 0 0 0 0 0 0 0 0
+S
+#4651
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4652 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4650 0 0 0 0 0 0 0 0
+S
+#4652
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4653 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4655 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4654 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4651 0 0 0 0 0 0 0 0
+S
+#4653
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4658 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4652 0 0 0 0 0 0 0 0
+S
+#4654
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4652 0 0 0 0 0 0 0 0
+S
+#4655
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4656 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4652 0 0 0 0 0 0 0 0
+S
+#4656
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4657 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4655 0 0 0 0 0 0 0 0
+S
+#4657
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4629 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4656 0 0 0 0 0 0 0 0
+S
+#4658
+The Para-Elemental Plane of Lava~
+   Waves of lava swirl and form before crashing into the endless pool that
+forms this plane.  It is quite warm, but not unbearable to dwell in.  Almost
+nothing can be seen within the lava, however several small black spots in the
+lava appear to be eyes staring out at the new prey that has unfortunately
+fallen into their hands.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4637 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4653 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4643 0 0 0 0 0 0 0 0
+S
+#4659
+A new room~
+You are in a room.
+~
+46 0 0 0 0  0
+S
+#4660
+A new room~
+You are in a room.
+~
+46 0 0 0 0  0
+S
+#4661
+A new room~
+You are in a room.
+~
+46 0 0 0 0  0
+S
+#4662
+Nearing the Smokey Disk of Light~
+   A pathway formed out of small granules of grey ash leads on to unknown
+territory.  No markings of any sort mark this path as it has undeniably been
+left untouched for quite some time.  The smell of burnt timber fills the air
+here.  This smell is so thick that it could nearly suffocate any who fail to
+prevent the thick smoke from entering their lungs.    
+~
+46 0 0 0 0  0
+D0
+~
+~
+0 0 4600 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4663 0 0 0 0 0 0 0 0
+S
+#4663
+Before the Smokey Disk of Light~
+   Heavy smoke swirls in a circular fashion a few inches above the ground.  
+This is the only entrance to the smoke portal and crackling magical energy
+drips from the bottom of the portal.  A slight electrical current hangs in the
+air here, just enough to cause the hairs on the back of ones neck to stand at
+attention.    
+~
+46 0 0 0 0  0
+D0
+~
+~
+0 0 4662 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4664 0 0 0 0 0 0 0 0
+S
+#4664
+Within the Portal to the Para-Elemental Plane of Smoke~
+   Thick smoke moves endlessly towards the center of the portal, charring
+anything foolish enough to stick around.  The waves are completely opaque,
+preventing passage and disorientating those within the pseudo space.  The
+density of this smoke is enough to form a faint wall, one easily passed
+through, but none the less one that passage through will form a lasting
+impression on those traversing this area.    
+~
+46 cdfr 0 0 0  0
+D0
+~
+~
+0 0 4663 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4665 0 0 0 0 0 0 0 0
+S
+#4665
+Within the Portal to the Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4664 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4666 0 0 0 0 0 0 0 0
+S
+#4666
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4665 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4667 0 0 0 0 0 0 0 0
+S
+#4667
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4666 0 0 0 0 0 0 0 0
+S
+#4668
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4669 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4667 0 0 0 0 0 0 0 0
+S
+#4669
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D2
+~
+~
+0 0 4670 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4668 0 0 0 0 0 0 0 0
+S
+#4670
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4669 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4671 0 0 0 0 0 0 0 0
+S
+#4671
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4670 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4672 0 0 0 0 0 0 0 0
+S
+#4672
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4671 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4673 0 0 0 0 0 0 0 0
+S
+#4673
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4672 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4674 0 0 0 0 0 0 0 0
+S
+#4674
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4675 0 0 0 0 0 0 0 0
+S
+#4675
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4676 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 4674 0 0 0 0 0 0 0 0
+S
+#4676
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4677 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4675 0 0 0 0 0 0 0 0
+S
+#4677
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4678 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4676 0 0 0 0 0 0 0 0
+S
+#4678
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D1
+~
+~
+0 0 4679 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4677 0 0 0 0 0 0 0 0
+S
+#4679
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 f 0 0 0  0
+D2
+~
+~
+0 0 4680 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4678 0 0 0 0 0 0 0 0
+S
+#4680
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 df 0 0 0  0
+D0
+~
+~
+0 0 4679 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4681 0 0 0 0 0 0 0 0
+S
+#4681
+The Para-Elemental Plane of Smoke~
+   Dense smoke rolls in from every direction, billowing out of nonexistent
+cracks filling the surrounding area.  A layer of dense matter exists below,
+keeping whatever hits the smokey floor hovering slightly above it.  The thick
+stench is enough to make anyone gag, and covering one's mouth is essential to
+survival.    
+~
+46 dfg 0 0 0  0
+D1
+~
+~
+0 0 4680 0 0 0 0 0 0 0 0
+S
+#4682
+Amidst Strange Vegetation~
+   The vegetation here is thick, unlike much of the area surrounding the path.
+The air is heavy, and seems somehow charged, as if a spark from your sword
+could send flames everywhere.  To the west, two men face each other in
+opposition.    
+~
+46 0 h 0 0  0
+D1
+~
+~
+0 0 4683 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4600 0 0 0 0 0 0 0 0
+S
+#4683
+Amidst Strange Vegetation~
+   The vegetation here is thick, unlike much of the area surrounding the path.
+The air is heavy, and seems somehow charged, as if a spark from your sword
+could send flames everywhere.  To the west, two men face each other in
+opposition.    
+~
+46 0 h 0 0  0
+D1
+~
+~
+0 0 4684 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4682 0 0 0 0 0 0 0 0
+S
+#4684
+Amidst Strange Vegetation~
+   The vegetation here is thick, unlike much of the area surrounding the path.
+The air is heavy, and seems somehow charged, as if a spark from your sword
+could send flames everywhere.  To the west, two men face each other in
+opposition.    
+~
+46 c h 0 0  0
+D3
+~
+~
+0 0 4683 0 0 0 0 0 0 0 0
+S
+$

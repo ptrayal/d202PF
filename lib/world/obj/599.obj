@@ -1,0 +1,80 @@
+#59900
+chest storage box crate~
+a small chest~
+A small chest sits here in the corner.~
+~
+15 yA 0 0 0 0 0 0 0 0 0 0 0
+10000 1 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+500 0 0 1
+Z
+4
+#59901
+house key 59901~
+Minarius House@W Key@n~
+The key to Minarius's house is here.~
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+0
+#59902
+pedistal fountain ivory~
+an@W ivory@n pedestal with arance markings~
+An@W ivory@n pedestal with arance markings has a small dragon carved on top that is holding its claws as if to support something.~
+~
+23 agx 0 0 0 0 0 0 0 0 0 0 0
+150 150 2 0 100 100 0 10 0 0 0 0 0 0 0 0
+155 0 0 1
+Z
+0
+E
+dragon carving~
+This carving depicts a dragon.  To be more exact it is an Ancient Gold Dragon.
+This dragon has lived a very long time as depicted in his carving.  He seems to
+be holding his claws up as if he is holding something.  
+~
+#59903
+chest crate box~
+a round chest shaped like a large ball~
+A chest in the shape of a large round ball is here~
+~
+15 yA 0 0 0 0 0 0 0 0 0 0 0
+5000 1 -1 0 100 100 0 10 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+6
+E
+ball chest crate box~
+This ball has a smooth surface like that of glass.  There is a seam along the
+center of the ball running horizontally, though it is very hard to make out.  
+The ball looks like it should roll all over the room and yet it stands fast and
+does not move.  
+~
+#59904
+Locate Object Scroll~
+Locate Object Scroll~
+A roll of parchment is laying here..~
+~
+2 g 0 0 0 a 0 0 0 0 0 0 0
+2 31 0 0 1 1 0 6 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#59905
+Prayer of Ubtao~
+Prayer of @MUbtao@n~
+A papirus with the Prayer of @MUbtao@n is hanging on the wall.~
+~
+29 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+E
+prayer sign pole papirus papyrus~
+To the faithful of Ubtao:
+
+"Say Praise Ubtao of Chult"
+~
+$~

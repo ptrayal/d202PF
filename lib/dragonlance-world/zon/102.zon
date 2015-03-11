@@ -1,0 +1,36 @@
+#102
+None.~
+RdDusttoSilvanesti~
+10200 10299 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 10207     5 10202   1   100     0    -1          0 a disgusting figure
+
+G 1  1231     2     0   0    20     1     0          0 a thin scroll, bound by a feather plume
+
+M 0 10202     5 10220   1   100     2    -1          0 an elder, dwarven male
+
+M 0 10201     5 10220   1   100     3    -1          0 a malnourished horse
+
+M 0 10207     5 10281   1   100     4    -1          0 a disgusting figure
+
+E 1 10204     5    16   0   100     5     4          0 a large jagged tooth
+
+M 0 10204     5 10276   1   100     6    -1          0 a giant lizard
+
+M 0 10203     5 10232   1   100     7    -1          0 a merry, whistlin' Kender
+
+M 0 10206     5 10269   1   100     8    -1          0 a woman wrapped in white robes
+
+M 0 10205     5 10269   1   100     9    -1          0 a man wrapped in a white cloak
+
+M 0 10202     5 10242   1   100    10    -1          0 an elder, dwarven male
+
+M 0 10201     5 10242   1   100    11    -1          0 a malnourished horse
+
+M 0 10200     5 10263   1   100    12    -1          0 a dusty, red-robed wizard
+
+S
+$

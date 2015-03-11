@@ -1,0 +1,332 @@
+#117
+None.~
+Goblin Warrens~
+11700 11799 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 11700     5 11708   2    80     0    -1          0 a goblin in dark robes
+
+E 1 11700    10    16   0    40     1     0          0 a black wand topped with an onyx ball
+
+D 0 11713     8     1   0   101     2    -10 
+
+D 0 11713     9     1   0   101     3    -10 
+
+M 0 11700     5 11713   2    80     4    -1          0 a goblin in dark robes
+
+E 1 11700    10    16   0    40     5     4          0 a black wand topped with an onyx ball
+
+D 0 11727     3     1   0   101     6    -10 
+
+M 0 11700     5 11727   2    80     7    -1          0 a goblin in dark robes
+
+D 0 11724     3     1   0   101     8    -10 
+
+M 0 11700     5 11724   2    80     9    -1          0 a goblin in dark robes
+
+D 0 11722     1     1   0   101    10    -10 
+
+M 0 11701     5 11722   2    80    11    -1          0 a female goblin in dark robes
+
+E 1 11700    10    16   0    40    12    11          0 a black wand topped with an onyx ball
+
+D 0 11719     1     1   0   101    13    -10 
+
+M 0 11701     5 11719   2    80    14    -1          0 a female goblin in dark robes
+
+M 0 11701     5 11731   2    80    15    -1          0 a female goblin in dark robes
+
+E 1 11700    10    16   0    40    16    15          0 a black wand topped with an onyx ball
+
+D 0 11715     6     1   0   101    17    -10 
+
+M 0 11702     6 11715   1    70    18    -1          0 a goblin necromancer
+
+D 0 11720     3     1   0   101    19    -10 
+
+M 0 11702     6 11720   1    70    20    -1          0 a goblin necromancer
+
+D 0 11723     3     1   0   101    21    -10 
+
+M 0 11702     6 11723   1    70    22    -1          0 a goblin necromancer
+
+D 0 11725     1     1   0   101    23    -10 
+
+M 0 11702     6 11725   1    70    24    -1          0 a goblin necromancer
+
+D 0 11728     1     1   0   101    25    -10 
+
+M 0 11702     6 11728   1    70    26    -1          0 a goblin necromancer
+
+D 0 11716     7     1   0   101    27    -10 
+
+M 0 11702     6 11716   1    70    28    -1          0 a goblin necromancer
+
+D 0 11730     0     1   0   101    29    -10 
+
+M 0 11703     1 11730   1    95    30    -1          0 a goblin archmagus
+
+E 1 11702     2     5   0    10    31    30          0 black robes of an archmagus
+
+G 1  1266    10     0   0    20    32    30          0 a slimy, pungent green scroll
+
+E 1 11701     3    17   0    85    33    30          0 a small finger bone, notched like a key
+
+M 0 11704     5 11740   2    80    34    -1          0 a goblin cleric
+
+D 0 11710     3     1   0   101    35    -10 
+
+M 0 11704     5 11710   2    80    36    -1          0 a goblin cleric
+
+M 0 11704     5 11737   2    80    37    -1          0 a goblin cleric
+
+M 0 11704     5 11749   2    80    38    -1          0 a goblin cleric
+
+M 0 11705     5 11735   2    80    39    -1          0 a female goblin cleric
+
+D 0 11748     0     1   0   101    40    -10 
+
+M 0 11705     5 11748   2    80    41    -1          0 a female goblin cleric
+
+E 1 11703     8     6   0    67    42    41          0 a black cowl
+
+M 0 11705     5 11745   2    80    43    -1          0 a female goblin cleric
+
+E 1 11703     8     6   0    67    44    43          0 a black cowl
+
+D 0 11741     3     1   0   101    45    -10 
+
+M 0 11705     5 11741   2    80    46    -1          0 a female goblin cleric
+
+D 0 11733     9     1   0   101    47    -10 
+
+M 0 11706     6 11733   1    75    48    -1          0 a goblin priest
+
+D 0 11734     8     1   0   101    49    -10 
+
+M 0 11706     6 11734   1    75    50    -1          0 a goblin priest
+
+E 1 11705     8    16   0    50    51    50          0 a human arm
+
+D 0 11739     1     1   0   101    52    -10 
+
+M 0 11706     6 11739   1    75    53    -1          0 a goblin priest
+
+D 0 11747     3     1   0   101    54    -10 
+
+M 0 11706     6 11747   1    75    55    -1          0 a goblin priest
+
+E 1 11705     8    16   0    50    56    55          0 a human arm
+
+D 0 11744     3     1   0   101    57    -10 
+
+M 0 11706     6 11744   1    75    58    -1          0 a goblin priest
+
+D 0 11742     1     1   0   101    59    -10 
+
+M 0 11706     6 11742   1    75    60    -1          0 a goblin priest
+
+E 1 11705     8    16   0    50    61    60          0 a human arm
+
+D 0 11750     2     1   0   101    62    -10 
+
+M 0 11707     1 11750   1    95    63    -1          0 a goblin high priest
+
+E 1 11704     3    17   0    95    64    63          0 a toe bone notched like a key
+
+E 1 11706     5    16   0    70    65    63          0 a ceremonial dagger encrusted with goblin blood
+
+D 0 11743     1     1   0   101    66    -10 
+
+D 0 11746     1     1   0   101    67    -10 
+
+D 0 11738     3     1   0   101    68    -10 
+
+D 0 11711     3     1   0   101    69    -10 
+
+D 0 11711     1     1   0   101    70    -10 
+
+D 0 11732     6     1   0   101    71    -10 
+
+D 0 11732     7     1   0   101    72    -10 
+
+D 0 11712     1     1   0   101    73    -10 
+
+D 0 11729     2     1   0   101    74    -10 
+
+M 0 11709     4 11754   2    75    75    -1          0 a goblin hunter
+
+E 1 11708     4    16   0     8    76    75          0 a crossbow with wickedly barbed bolts
+
+D 0 11759     3     1   0   101    77    -10 
+
+M 0 11709     4 11759   2    75    78    -1          0 a goblin hunter
+
+E 1 11708     4    16   0     8    79    78          0 a crossbow with wickedly barbed bolts
+
+M 0 11709     4 11766   2    75    80    -1          0 a goblin hunter
+
+E 1 11708     4    16   0     8    81    80          0 a crossbow with wickedly barbed bolts
+
+M 0 11709     4 11768   2    75    82    -1          0 a goblin hunter
+
+E 1 11708     4    16   0     8    83    82          0 a crossbow with wickedly barbed bolts
+
+M 0 11710     3 11769   1   100    84    -1          0 a goblin guardsman
+
+M 0 11710     3 11762   1   100    85    -1          0 a goblin guardsman
+
+D 0 11757     8     1   0   101    86    -10 
+
+D 0 11757     9     1   0   101    87    -10 
+
+D 0 11757     3     1   0   101    88    -10 
+
+D 0 11757     1     1   0   101    89    -10 
+
+M 0 11711     6 11757   5   100    90    -1          0 a frightened goblin child
+
+M 0 11711     6 11757   5   100    91    -1          0 a frightened goblin child
+
+M 0 11711     6 11757   5   100    92    -1          0 a frightened goblin child
+
+M 0 11711     6 11757   5   100    93    -1          0 a frightened goblin child
+
+M 0 11711     6 11757   5   100    94    -1          0 a frightened goblin child
+
+M 0 11712     3 11767   2    40    95    -1          0 a visiting troll
+
+E 1 11709     3     8   0     8    96    95          0 a pair of hardened leather boots
+
+M 0 11712     3 11753   2    40    97    -1          0 a visiting troll
+
+E 1 11709     3     8   0     8    98    97          0 a pair of hardened leather boots
+
+M 0 11715     4 11765   2    70    99    -1          0 a goblin huntsman
+
+E 1 11707     5     5   0     9   100    99          0 a studded leather breastplate with splotches of green blood on it
+
+D 0 11760     1     1   0   101   101    -10 
+
+M 0 11715     4 11760   2    70   102    -1          0 a goblin huntsman
+
+E 1 11707     5     5   0     9   103   102          0 a studded leather breastplate with splotches of green blood on it
+
+M 0 11715     4 11761   2    70   104    -1          0 a goblin huntsman
+
+E 1 11707     5     5   0     9   105   104          0 a studded leather breastplate with splotches of green blood on it
+
+M 0 11715     4 11755   2    70   106    -1          0 a goblin huntsman
+
+E 1 11707     5     5   0     9   107   106          0 a studded leather breastplate with splotches of green blood on it
+
+D 0 11774     7     1   0   101   108    -10 
+
+D 0 11774     8     1   0   101   109    -10 
+
+M 0 11716     6 11774   2    60   110    -1          0 a goblin tunnel digger
+
+E 1 11711    10    16   0   100   111   110          0 an iron shovel
+
+M 0 11716     6 11788   2    60   112    -1          0 a goblin tunnel digger
+
+E 1 11711    10    16   0   100   113   112          0 an iron shovel
+
+M 0 11716     6 11782   2    60   114    -1          0 a goblin tunnel digger
+
+E 1 11711    10    16   0   100   115   114          0 an iron shovel
+
+D 0 11770     1     1   0   101   116    -10 
+
+M 0 11716     6 11770   2    60   117    -1          0 a goblin tunnel digger
+
+E 1 11711    10    16   0   100   118   117          0 an iron shovel
+
+M 0 11716     6 11793   2    60   119    -1          0 a goblin tunnel digger
+
+E 1 11711    10    16   0   100   120   119          0 an iron shovel
+
+D 0 11796     8     1   0   101   121    -10 
+
+M 0 11716     6 11796   2    60   122    -1          0 a goblin tunnel digger
+
+E 1 11711    10    16   0   100   123   122          0 an iron shovel
+
+M 0 11717     6 11794   2    60   124    -1          0 a goblin tunnel worker
+
+E 1 11712    10    16   0   100   125   124          0 a sturdy pickaxe
+
+D 0 11790     0     1   0   101   126    -10 
+
+M 0 11717     6 11790   2    60   127    -1          0 a goblin tunnel worker
+
+E 1 11712    10    16   0   100   128   127          0 a sturdy pickaxe
+
+M 0 11717     6 11779   2    60   129    -1          0 a goblin tunnel worker
+
+E 1 11712    10    16   0   100   130   129          0 a sturdy pickaxe
+
+M 0 11717     6 11781   2    60   131    -1          0 a goblin tunnel worker
+
+E 1 11712    10    16   0   100   132   131          0 a sturdy pickaxe
+
+M 0 11717     6 11783   2    60   133    -1          0 a goblin tunnel worker
+
+E 1 11712    10    16   0   100   134   133          0 a sturdy pickaxe
+
+D 0 11772     2     1   0   101   135    -10 
+
+M 0 11718     3 11772   2    75   136    -1          0 a scared, frenzied goblin
+
+D 0 11784     0     2   0   101   137    -10 
+
+M 0 11718     3 11784   2    75   138    -1          0 a scared, frenzied goblin
+
+M 0 11718     3 11799   2    75   139    -1          0 a scared, frenzied goblin
+
+D 0 11798     1     1   0   101   140    -10 
+
+D 0 11798     7     1   0   101   141    -10 
+
+M 0 11719     1 11798   1    50   142    -1          0 a visiting bugbear
+
+E 1 11713     3     9   0    10   143   142          0 a pair of human skin gloves
+
+D 0 11786     7     2   0   101   144    -10 
+
+M 0 11720     1 11786   1   100   145    -1          0 the thing
+
+E 1 11714     3     6   0    15   146   145          0 the eye of an abberation
+
+D 0 11787     8     2   0   101   147    -10 
+
+M 0 11721     1 11787   1   100   148    -1          0 the goblin king
+
+E 1 11718     3    12   0     7   149   148          0 the robes of the goblin king
+
+E 1 11716     3    16   0     5   150   148          0 the goblin king's sceptre
+
+E 1 11715     3     6   0    10   151   148          0 the goblin king's crown
+
+D 0 11775     7     1   0   101   152    -10 
+
+D 0 11776     8     1   0   101   153    -10 
+
+D 0 11791     2     1   0   101   154    -10 
+
+D 0 11792     3     1   0   101   155    -10 
+
+D 0 11797     3     1   0   101   156    -10 
+
+D 0 11773     0     1   0   101   157    -10 
+
+D 0 11785     2     2   0   101   158    -10 
+
+D 0 11756     6     1   0   101   159    -10 
+
+D 0 11758     7     1   0   101   160    -10 
+
+S
+$

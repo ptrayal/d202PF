@@ -1,0 +1,628 @@
+#2600
+map solace parchment~
+a rolled up piece of parchment~
+A rolled up piece of parchment lies here on the ground, rocking back and forth in the wind.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0
+0 5 1 0
+Z
+1
+E
+map solace parchment~
+*
+*                1
+*               /                     __________________________________3
+*              /                     /                      |
+*             /                     /                       |
+*            /                   D-|                        |
+*    G      /                      |                        |
+*     \    /                      /|                        |
+*      \  /                      / |                        |
+*       \/                      /  |                        |
+*        \                  E---   |                        H
+*         \                        |
+*  2--------------------------------------
+*                   |        |     |      \
+*                   |   A    |     |       \
+*                   |        |     |       |
+*                   ----------     |       |
+*                  /  C    B  \    |       F
+*                 /            \   |
+*                /              \  |
+*               /                \ |
+*              /                  \|
+*             /                    |
+*            4                     5
+*           
+*           
+A - Town Square                       1 - To Que-Shu & New Sea
+B - Smithy                            2 - To Crystalmir Lake
+C - Grocer                            3 - To Xak Tsaroth & Que-Kiri
+D - Inn of the Last Home              4 - To Qualinesti Forest
+E - Adventurer's Academy              5 - To Pax Tharkas & Thorbardin
+F - Shrine of Mishakal
+G - Ranger / Druid Trainer
+H - Academy of Sorcery
+~
+#2601
+sign wooden~
+a wooden sign~
+@YA wooden sign is here hammered into the ground.@n~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+E
+sign wooden~
+The following services are available at this chapel:
+
+ 'neutralize poison'
+
+Simply say the name of the service you wish without the
+quotes and the Priestess will heal you.
+
+Donations are appreciated and will be rewarded with blessings
+from Mishakal.
+~
+#2602
+guide newbie book~
+the newbie guide~
+A newbie guide is here lying on the ground.~
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+2
+E
+arcane~
+Arcane Spellcasters
+
+Arcane Spellcasters are different than divine spellcasters in that they
+receive their spells from the magical weave that permeates all of Krynn.
+Some receive this through the medium of the deities of magic, wizards for
+example, while others receive their abilities by tapping directly into
+gthe magical weave itself through natural talents, such as sorcerers
+and bards.
+
+Wizards are special in that they require the use of spellbooks to maintain
+a list of the spells which the can memorize and cast.  More information can
+be found on that in one of the following sections.
+Sorcerers are able to know a set number of spells which they can change when
+they level, and bards can choose from a set spell list that does not change.
+
+Another special limitation of arcane spellcasters is that they suffer
+a chance to fail spells when they cast them in armor.  The heavier the
+armor the greater the chance of spell failure.  Bards have the ability
+to cast spells without chance of spell failure in light armor and can
+extend this to medium armor with the battle caster feat.  Also Knights
+of the Thorn obtain the ability to lower the spell failure chance when
+casting in armor as they achieve higher levels.
+
+Researching Spells in Libraries-------------libraries or research
+Spellbooks and Scribing Spells--------------spellbooks or scribe
+~
+E
+divine religion domains devote~
+Religion, Devotion and Domains
+
+In the world of Krynn, everyone must devote themselves to one of 
+the pantheon of dieties, normally of their own race, but not always 
+as a requirement. The people of Krynn take their religion quite 
+seriously, and virtually every sentient creature on the planet 
+worships at least one deity.  For divine spellcasters, this is even 
+more important, for they can cast no spells without a patron deity.  
+
+In order to choose a deity, type devote <deity name>.  To see a list 
+of deities which you qualify to be accepted as a worshipper, type 
+'devote list'.  At any time during the life of your character you may 
+change your deity by typing devote <new deity name> yes.  
+You will have to meet the requirements of the deity's race and/or 
+alignment and/or class and you will also suffer a penalty to experience 
+for a time until you have fully converted to your new faith.  
+
+The first faith you choose will never cause an exp penalty.  If you are
+a cleric you may choose up to two domains of the (up to) four that your deity 
+possess. These domains will grant you bonus spells and bonus abilities 
+(in most cases). To see a list of domains your deity offers type 'domain'.  
+If you have not yet devoted to a deity, the game will, at this point, 
+direct you to do so.  To see what benefits a domain offers, type 'help domain 
+<domain name>'.  Once you have chosen your two domains, you can see what they 
+are at any time by typing 'domain' by itself.  
+
+Dieties of Good: Paladine(*), Mishakal, Habbakuk, Majere, Kiri-Jolith, Solinari, Branchala
+Dieites of Nutrality: Chislev, Reorx, Sirrion, Zivilyn, Lunitari, Shinari
+Dieties of Evil: Takhisis(**), Sargonnas, Zeboim, Chemosh, Morgion, Nuitari
+
+Dieties of Nature: Chislev, Habbakuk, Zivilyn, Zeboim
+Dieties of Magic: Solinari, Lunitari, Nuitari
+
+(*) Paladine gave up his godhood in the War of the Souls in order to free Krynn from
+its fate, trapped by Takhisis.  He wanders the world as a mortal, though many still
+pay him homage.  His domains have been taken up by Kiri-Jolith, though the new
+patron of good allows mortals to worship him in Paladine's name.  Thus Paladine may
+still be chosen as a deity, even though in reality the divine power is provided by
+Kiri-Jolith.
+
+(**) Takhisis was killed during the War of the Souls.  Paladine gave up his immortality
+so that Takhisis would lose hers, and thus be able to be killed.  Sargonnas has taken
+up the Dragon Queen's domains in an attempt to retain her followers under his banner.
+There is little doubt among Takhisis' followers that their Queen is dead, however they
+grudgingly accept Sargonnas' assistance as they continue following the mandates of
+their past religion.  Of course there is always a twinge of Sargonnas' personality in
+their divine orders, but Sargonnas does at least allow them to worship him in Takhisis'
+name in order to keep them on as followers and not lose them to another deity of darkness.
+~
+E
+spellcasters~
+Information for Spellcasters
+
+Spellcasters are a special case here on this mud.  They follow some
+special rules regarding the preparation and casting of their spells.
+Please browse through the following articles that interest you.
+
+Divine Spellcasters: Cleric, Druid, Ranger, Paladin
+Arcane Spellcasters: Wizard, Sorcerer, Bard
+
+Information for Divine Spellcasters-----------------divine
+Information for Arcane Spellcasters-----------------arcane
+
+Spellcasting Principles-----------------------------spellcasting
+Memorization System---------------------------------memorizing
+Spell List------------------------------------------spell-list
+~
+E
+spellcasting~
+Magic and the Spellcasting System
+
+The magic system here is comprised of a memorization system, and 
+thus mana points are not used.  In most cases you have to select 
+beforehand the spells that you want to have available, and then 
+rest for a 2-5 minutes while your character prepares them for 
+casting.  There are a few basic commands that must be learned in 
+order to play a spellcasting class effectively.  
+First is the cast command.  Second is the mem command, and third 
+is the spells command.  
+
+Wizards also require spellbooks, libraries and scrolls to operate 
+properly.
+
+Spellcasting is a relatively simple process though the use of aliases, 
+either using the in-game alias command or by using a mud client, both of 
+which are described later, makes it much, much, easier.  See help alias 
+to set aliases.
+
+The cast command is used to cast a spell and contains the syntax cast 
+'<spell name>' <target keyword>.   Note that the spell name is encolsed 
+in quotation marks.  
+
+In order to cast the magic missile spell at a goblin I would type 'cast 
+'magic missile' goblin'.  If I was already fighting that goblin, I would 
+only need to type 'cast 'magic missile'.  If I was fighting two goblins, 
+and I wanted to cast the spell on the second I would type 'cast 'magic 
+missile' 2.goblin'. 
+
+Non-aggresive spells work similarly.  If I wanted to cast mage armor on 
+myself I would only need to type 'cast 'mage armor''.  If I wanted to cast
+the spell on a nearby elf I would type 'cast 'mage armor' elf'.  As a side 
+note, you can always target yourself by using the keyword me.  For example 
+'cast 'mage armor' me'.  Go four rooms west to learn about researching 
+spells and libraries.
+~
+E
+spell-list~
+Reviewing Your Spell List
+
+The first step to using your magical aptitude is to see what 
+you can actually cast.  The spells command comes in here.  It's
+basic use is simple.  You type 'spells' and you are given a list
+of what spells are available to you to cast, unless you are a 
+wizard, in which case you need to look at your spellbook(s) to 
+see what spells you have.  The spells command will only list the 
+spells that are available to you to memorize or learn in the case
+of wizards.  As you gain levels in spellcasting classes, your spell
+list will widen.  You will need to change your active class in order
+to see spells for different spellcasting classes.
+
+This can be done by using the setactive command.  Type setactive
+and it will list your classes.  Then type setactive and the number
+beside the class you wish to change to, and it will change your
+active class.  This mainly comes in use with spell memorization and
+other spellcasting class utilities.
+~
+E
+memorizing~
+Preparing Spells for Casting By Memorizing Them
+
+In order to cast a spell, you must first memorize it.  In the 
+future bards and sorcerers will be added who can cast any spell 
+that they know at any time, assuming they have spell slots left.  
+Clerics and druids will also be able to spontaneously cast certain
+spells as well, though this feature is not currently implemented.  
+The syntax for memorizing a spell is simple: memorize <spellname>. 
+So if the magic missile spell was available to me I would memorize 
+it by typing 'mem magic missile'.  
+
+As a caster you will most likely want to use automem most of the time.
+This option automatically starts memorizing a spell after you cast it 
+and can be turned on simply by typing 'automem'.  
+
+If you are memorizing a spell and want to stop memorizing it, type stop
+<spell name>.  If you have a spell memorized already and want to replace
+it with something else, type forget <spell name>.  
+
+If you cleric, paladin, ranger or druid you will need to have a holy 
+symbol item in order to cast spells.  All spellcasting classes start 
+with a holy symbol item but they can also be bought at the various shops
+throughout the game.
+~
+E
+levelling multiclassing~
+The Gain Command and Multi-Classing
+
+In order to gain a level in your current class, or another you must use
+the gain command.  This command is used by typing gain <name of class 
+you wish to gain a level in>.  
+
+A character may always gain any number of levels in any of the basic 
+classes (see help classes basic), and may also gain additional levels
+in any of the prestige classes that they qualify for (see help classes
+prestige).  A person may find out what classes they qualify for by 
+typing the gain command without any arguments, like this: 'gain'.  If
+a class is not listed there, you may find out what requisites you are 
+missing by attempting to gain a level in that class, and by typing gain
+<class name>.  You will be notified when you are able to gain a level 
+by a yellow message when you gain experience.   However if you qualify 
+for a milestone you have not yet taken, this message may not show.  It
+will display that you have achieved 100% of your experience required for
+the next level in your score (type score).  
+When you actually gain a level you will receive a text flow that will 
+describe what you attained that level in hit points, skill points, feats,
+class abilities and so on.  
+
+You may have any number of classes at any given time, and any number of
+combinations of levels up to a total level cap, currently, of 100, which
+for all intents and purposes is unattainable without the proper zone 
+support.  Each race has a favored class, and this class does not count
+towards multi-class penalties.  To prevent min-maxxing however we have made
+it so that you must have a minimum of 5 levels i each class you have before
+you can take a new one.
+
+What is a multi-class penalty?  Well if you have more than 1 basic class, 
+not including your races favored class (prestige classes don't count toward
+this as well) then you suffer a permanent -10% to experience for every 
+class beyond the first to a maximum of -50%.
+~
+E
+abilities milestones~
+Training Ability Scores and Obtaining Milestones
+
+Every 4 levels you achieve in total (all of your classes combined)
+you receive one ability score training point.  This is used by the
+train command and is very simple.  If you wish to increase your 
+strength by one you would type 'train strength'.  If it was your 
+wisdom, 'train wisdom'. 
+
+Milestones are a little extra to take out the tedium of levelling
+at higher levels, though they are available right from the 
+beginning. Every time you achieve a 20% mark of your exp required
+for the next level you receive a milestone bonus that you can 
+receive at your trainer.  So if you need 1000 exp for level 2, 
+you will receive a milestone at 200 exp, 400 exp, 600 exp, 800 
+exp, and then your full level at 1000 exp.  
+
+To gain a milestone simply type gain <class name>.  For example 
+if I was a fighter I would type 'gain fighter' and this would 
+grant me my milestone. 
+
+Milestone rewards can be anything from some free gold, to an 
+extra hp or two, to a skill point or even an extra feat or 
+ability score training point.  Milestones are one of the few 
+things that are never reimbursed in any circumstance.  
+
+If for whatever reason you ever have to remake or respec your 
+character your milestone rewards will not be reimbursed, you 
+will have to take what you get during the process of levelling 
+your character again with the exp that is reimbursed to you.  To 
+learn about levelling up in general please go north.  
+~
+E
+skills~
+
+To see your skills type practice or prac for short.  Your skills are seperated
+into class skills which are highlighted in green  and cross-class skills which
+are white.  Each skill has an ability score tied to it, and this value is added
+to the skill.  Some skills can be used without actually buying and ranks in
+them, such as hide, though others must have at least one rank to be able to use
+it, such as open lock.  You can find out what skills do by reading their help
+file, usually help skill <skill name> as in 'help skill tumble' or by check the
+per skill rank, a 1:1 ratio.  Their maximum value is always your level + 3.
+Cross-class skills can be purchased for 2 skill points per rank, a 2:1 ratio.
+Their maximum value is always your (level / 2) + 1.  This maximum value applies
+only to purchased ranks.
+
+Some skills can be used without actually buying and ranks in them, such as hide,
+though others must have at least one rank to be able to use it, such as open
+lock.
+
+In order to learn  a skill simply type practice <skill name> for example
+'practice tumble'.  Each time  you type this you will buy one rank in this skill
+assuming you have enough skill points, you are at a trainer who can and will
+teach the skill to you, and you are not already at your maximum value for that
+skill at your level.  Once you are done training in your skills go north to read
+about ability score trains and milestones.
+~
+E
+feats~
+
+The first thing you must do in order to choose feats is see what is available 
+and see what you already have.  To see what you already have type 'feats known'.
+To see what you qualify for to choose type 'feats available'.  In both lists you
+will see the names of various feats. 
+
+For help on a specific feat the help command is generally feat <name of feat> 
+for example 'help feat toughness'.  In the event that there is no or 
+insufficient help on a feat feel free to look the feat up on http://d20srd.org/. 
+
+Once you have decided to choose a feat type learn <featname> for example 'learn 
+toughness'.  If you want to  learn a feat with a specific subset, you need to 
+seperate the general feat name and the specific subset you wish to specialize in
+with a colon and no spaces.   For example, skill focus can be specialized in the
+tumble skill and the syntax  would be: 
+'learn skill focus:tumble'.
+~
+E
+training~
+One of the first things you will want to do is to train your character.  Every time
+that your character gains a level, he will attain hit points, move points, skill 
+points and depending on his class and level, new spell slots, feats, and class 
+abilities.  We will focus first on feats.  
+
+Every character starts off with at least 1 feat, and possibly more depending on 
+class and race.  A feat is a character trait that either grants your character 
+a new ability or improves an already existing one.  
+
+Characters automatically start with one and gain one every 3 levels.  Some 
+classes offer bonus feats to choose from a seperate list and at epic levels all 
+classes offer bonus feats.  
+
+Epic levels begin at level 21, and enable the ability to obtain even more 
+powerful feats.  
+
+Skill points are granted based on class and intelligence.  Humans also get an 
+extra skill point each level and 4 more at level 1.  Skill points are used to 
+increase the skills your character has.  Some of these skills grant new 
+character abilities and powers while others are used passively to enhance your 
+character in certain situations.  
+
+The biggest difference between a feat and a skill is that, in general, skills 
+have a rating, while feats are simply either you have it or you don't.  Also of 
+note are your ability scores.  
+
+Every 4 levels you obtain an ability score point that you can add to any of your
+ability scores you desire (ie.  Strength, Dexterity, etc.  ). 
+To train you may find Gage, who is the in the training pits of the adventurer's
+academy.  From the mud school entrance go south, east, north, east and down.
+Gage can train you in every skill and feat, though eventually you will have to find
+a trainer more specific to the abilities you want to learn, as Gage only trains
+up to level 10.
+
+Choosing Feats----------------feats
+Choosing Skills---------------skills
+Levelling & Multiclassing-------levelling or multiclassing
+Abilities & Milestones----------abilities or milestones
+~
+E
+guide newbie book~
+Solace New Adventurer Guide
+---------------------------
+
+The MUD School --------------- read mudschool
+Training --------------------- read training
+Spellcasters ----------------- read spellcasters
+Buying New Gear -------------- read buynewgear
+Your First Few Levels -------- read firstlevels
+Moving Onward ---------------- read movingon
+
+Please also read 'help newbie' and all files within it.
+
+If you have any question use the newbie channel by typing:
+newbie <your question>
+
+Above all... Enjoy Yourself!
+~
+E
+libraries research~
+Researching Spells and Libraries
+
+The room you are in is a spell researching library.  There are three types 
+of spell research libraries, small, medium and large.  Small libraries have 
+up to level 3 spells, medium to 6 and large up to 9.  
+Note:Epic spells are gained as feats. 
+
+By using the research command in these libraries you are able to learn new 
+spells, either by spending spell research points, which wizards gain two of 
+each level, or by spending coin.  As a new character you will start with a 
+spellbook with all the cantrips already in it and a few first level spells.   
+Take a moment to 'look spellbook' now to see what spells you already have.   
+Take note that your spellbook has a certain number of pages.  The number 
+beside each spell is the number of pages it occupies.  Higher level mages 
+will need to carry with them multiple spellbooks.  
+
+When a mage wants to research a new spell in a library, they must use the 
+research command by typing research <spell name>.  For example 'research 
+chill touch'.  Notice that I did not use the quotes around  the spell name.  
+If the mage has any available spell research tokens, success is automatic 
+and one token is taken from the character.  These tokens are intangible and 
+are stored in your character file.  
+
+You can see how many you have at any given time by typing 'stat'.  If you 
+have no tokens you can attempt to research a spell by paying in coins.  
+The cost of the research depends on the spell level.  When researching by 
+paying, success is not automatic.  It is an ability check with your 
+intelligence modifier against the level of the spell.  
+
+If you have an intelligence of 18 and are trying to learn a level 5 spell, 
+the roll would be 1d20 + 4 (your modifier) against 10 (base difficulty) + 5 
+(spell level).  If your roll is higher than than the difficulty class (or 
+dc, 15 in this case) then you learn the spell and scribe it into your 
+spellbook assuming you have space.  Otherwise you fail and must pay 20% of 
+the research fee in wasted resources.  
+~
+E
+spellbooks scribe~
+Scribing Spells Into Your Spellbook
+
+Wizards automatically have the ability to scribe magical scrolls into their 
+spellbook.  First the wizard must have a spellbook in their inventory with 
+enough free pages in it to fit the spell.  Second he must have the spell 
+memorized that they wish to scribe.  This spell must also be a spell that 
+he is able to learn.  Thus it must be an arcane spell of a spell level that 
+the wizard can cast normally.  With these requisites satisfied, the wizard 
+simply need type scribe <spellbook keyword> <name of memorized spell>.
+If I wanted to scribe a scroll containing the chill touch spell into my 
+spellbook, I would first memorize the spell from the scroll, and then I 
+would type 'scribe spellbook chill touch'.  The spell would go into the
+first spellbook in my inventory that has room for it.  
+
+This command can also be used to create scrolls.  Simply replace <spellbook 
+keyword> with <scroll keyword>.  If I wanted to copy chill touch from my 
+spellbook onto a blank scroll I would first memorize the spell from the 
+spell book, and then I would type 'scribe scroll chill touch' and the spell 
+would be scribed onto the scroll which could then use to cast the spell 
+on-the-fly or sell to another wizard for him to memorize and scribe into 
+his spellbook.  
+~
+#2603
+sign wooden~
+a wooden sign~
+A wooden sign is here detailing Galen's services.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+3
+E
+sign wooden~
+The sign reads: 
+
+   If you are interested in having something identified by Galen simply type
+identify and the object you wish to identify, and if you have 100 gold (1
+mithril piece) then Galen will identify the item for you for the cost of 100
+gold.  
+~
+#2604
+board forum bulletin luskan general~
+the Luskan general news board~
+The Luskan general news board is here nailed against the walls.~
+~
+40 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 5 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#2605
+ring gold~
+a gold ring~
+A gold ring lies here.~
+~
+11 0 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 4 0 0 0 0 0 0 0 0
+0 50 0 0
+Z
+0
+#2606
+medallion gold~
+a gold medallion~
+A gold medallion lies here.~
+~
+11 0 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 4 0 0 0 0 0 0 0 0
+0 50 0 0
+Z
+0
+#2607
+bracer gold~
+a gold bracer~
+A gold bracer lies here.~
+~
+11 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 4 0 0 0 0 0 0 0 0
+0 50 0 0
+Z
+0
+#2608
+cloak black silver~
+a black and silver cloak~
+A black and silver cloak lies here.~
+~
+11 0 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 1 0 0 0 0 0 0 0 0
+0 5 0 0
+Z
+0
+#2609
+belt black leather~
+a black leather belt~
+A black leather belt lies here on the ground.~
+~
+11 0 0 0 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 5 0 0
+Z
+0
+#2610
+gloves black leather~
+a pair of black leather gloves~
+A pair of black leather gloves lie here.~
+~
+11 0 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 5 0 0
+Z
+0
+#2611
+boots black leather~
+a pair of black leather boots~
+A pair of black leather boots lie here.~
+~
+11 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 5 0 0
+Z
+0
+#2612
+helmet leather~
+a leather helmet~
+A leather helmet lies here on the ground.~
+~
+11 0 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 2 0 0
+Z
+4
+#2613
+golden watch fob~
+a @YGolden@n watch fob~
+A @YGolden@n watch fob~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0
+2 0 0 1
+Z
+0
+#2614
+knuckles brass~
+a set of brass knuckles~
+A set of brass knuckles lie here on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+1 1 3 5 100 100 0 27 0 1 0 0 0 0 0 0
+1 2 0 0
+Z
+3
+$~

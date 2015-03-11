@@ -1,0 +1,215 @@
+#10200
+dusty red robed wizard~
+a dusty, red-robed wizard~
+A red-robed wizard hobbles slowly down the dusty road.
+~
+   This red-robed wizard is walking at a slow pace down the dusty road.  He is
+limping slightly, putting most of his weight on a thin, wooden staff he is
+carrying.  His velvety hood hangs low over his head covering his eyes from the
+dusty wind.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10201
+malnourished horse~
+a malnourished horse~
+A malnourished horse is slowly pulling a wooden cart.
+~
+   A malnourished horse is slowly pulling a small wooden cart down the dusty
+road.  His once full mane is patchy and his ribs are sticking out of his sides.
+Around his collar, his skin is bleeding and chapped.  This horse looks as if he
+is about to die.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10202
+elder dwarven male~
+an elder, dwarven male~
+An elder, dwarven man sits slumped over while driving his wooden cart.
+~
+   This elderly dwarven man has an enormous beard that falls down below his
+feet.  If he was walking one might imagine that he often trips over his own
+beard.  His clothing has been sandblown to rags.  He looks to be in a miserable
+mood.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10203
+Kender merry whistlin whistlin'~
+a merry, whistlin' Kender~
+A merry, whistlin' Kender travels down the road.
+~
+   With her hair pulled back tightly in a topknot it's hard to tell exactly if
+she is really a she.  She's whistling a happy tune and walking with a quick
+step.  She stops for a second to look at a rock she found on the road and
+quickly continues with her journey.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10204
+giant lizard~
+a giant lizard~
+A giant lizard is laying across the road soaking in the sun.
+~
+   This enormous lizard is just around the size of a small barn.  Its large
+tail stretches on for a ways into the desert.  His skin in a light pink color.
+He doesn't seem to be paying attention to anything around him.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10205
+man cloak white~
+a man wrapped in a white cloak~
+A man wrapped in a white cloak is travelling along the road.
+~
+   This man is almost entirely wrapped in a white cloak.  Only his eyes can be
+seen peering out from his wrapped face.  He is a tall man with a slightly
+muscular build.  Hanging around his neck is pouch containing some strong
+smelling herbs.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10206
+woman dusty white~
+a woman wrapped in white robes~
+A dusty woman wrapped in white robes is making her way down the road.
+~
+   This woman is wrapped completely in white robes.  Only her charcoal lined
+eyes can be seen looking out from her wrapped head.  She is carrying a large
+wooden staff which she is using as a walking stick.    
+~
+d 0 0 0 k 0 0 0 900
+8 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10207
+figure disgusting~
+a disgusting figure~
+A disgusting figure greedily eyes your possessions.
+~
+   This mans face is heavily scarred and disfigured.  He smells of excrement
+and sweat.  He is chewing on his bottom lip which is bleeding and raw.  He
+carries with him a long jagged tooth in his right hand.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

@@ -1,0 +1,487 @@
+#9000
+umberhulk creature ugly buglike~
+a large umberhulk~
+Charging out of the shadows is an ugly buglike creature.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 -1500
+25 8 -27 300d200+110 1d8+12
+55 0 32 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#9001
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+25 8 -15 100d100+100 1d1+12
+55 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9002
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+25 8 -15 100d100+100 1d1+12
+55 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9003
+geriyk broad captain ettin~
+Geriyk, a broad shouldered ettin captain~
+Suprised at your presence the giant ettin captain attacks!
+~
+   Before you stands a massive two-headed ettin.  At least nine foot tall this
+ettin towers over many and most foes it faces.  Dark brown fur covers its
+entire body from head to toe.    
+~
+d 0 0 0 k 0 0 0 -1000
+25 8 -27 300d250+115 1d8+12
+55 0 32 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#9004
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+25 8 -15 100d100+100 1d1+12
+55 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9005
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+25 8 -15 100d100+100 1d1+12
+55 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9006
+sick green goblin~
+a sick goblin slave~
+Lying motionlessly on the ground is a sick goblin slave.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+25 8 -27 300d150+105 1d8+12
+55 0 32 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#9007
+white furred ettin shaman~
+the white furred ettin shaman~
+Long white fur covers the entire body of this massive ettin.
+~
+   Snowy white fur covers this elegant yet brutal beast.  Large brown eyes
+stare out of deep shadowed sockets, seemingly strait into your very soul.  
+Muscular arms and massive shoulders move quickly to confront your intrusion.  
+~
+d 0 0 0 k 0 0 0 -500
+25 8 -25 225d220+112 1d8+12
+55 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 23
+E
+Con: 12
+E
+Cha: 11
+S
+#9008
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+25 8 -15 100d100+100 1d1+12
+55 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9009
+short chubby ettin female~
+a short, white-furred ettin female~
+A short, white-furred ettin with chubby features sleeps soundly.
+~
+   This short overly chubby female ettin looks to be sleeping peacefully in her
+bed.  Long white fur covers her entire body making her look somewhat larger
+then she really is.    
+~
+d 0 0 0 k 0 0 0 0
+25 8 -20 225d160+106 1d8+12
+15 0 32 4
+8 8 1
+E
+Str: 12
+E
+Dex: 14
+E
+Int: 10
+E
+Wis: 23
+E
+Con: 12
+E
+Cha: 11
+S
+#9010
+guard ettin grey burly~
+a burly grey-furred ettin guard~
+Beating a goblin with insane glee is an ettin guard.
+~
+   Holding a thick black rod this guard seems to take great joy in the pain of
+his slaves.  Grey fur covers his entire body and large bloodshot eyes are open
+wide with hatred.    
+~
+d 0 0 0 k 0 0 0 -1000
+25 8 -20 300d180+108 1d8+12
+55 0 32 7
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 22
+E
+Cha: 11
+S
+#9011
+goblin slave bloody~
+a bruised and bloody goblin slave~
+A goblin covered in his own blood works to clear out loose rock.
+~
+   Beaten nearly to death this blood soaked goblin strains to move loose rocks
+and other objects in the way.  Bruised and battered this creature looks to have
+once been strong and healthy, but those days are long gone as death seems to be
+approaching.    
+~
+d 0 0 0 k 0 0 0 -1000
+25 8 -20 150d130+103 1d8+12
+55 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 22
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9012
+burly brown ettin guard~
+a burly brown-furred ettin guard~
+Beating a kobold with insane glee is an ettin guard.
+~
+   Holding a thick black rod this guard seems to take great joy in the pain of
+his slaves.  Brown fur covers his entire body and large bloodshot eyes are open
+wide with hatred.    
+~
+d 0 0 0 k 0 0 0 -1000
+25 8 -20 300d180+108 1d8+12
+55 0 32 7
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 22
+E
+Cha: 11
+S
+#9013
+kobold slave beaten~
+a beaten kobold slave~
+A kobold covered in his own blood works to clear out loose rock.
+~
+   This doglike creature is covered in a rusty red colored fur and has bright
+yellow eyes.  Large scrapes and bruises can be seen on its entire body and his
+rags are stained with blood.    
+~
+d 0 0 0 k 0 0 0 -1000
+25 8 -20 150d130+103 1d8+12
+55 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 22
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9014
+demon rock greater pillar~
+a greater rock demon~
+A pillar of animated rock roams aimlessly throughout the corridor.
+~
+   This large mound of rock glides across the ground wihout making a noise, its
+deformed base is as wide as a tree and has many different appendages extending
+in all directions.  Two glowing pieces of metal make the eyes for this large
+rock demon, and they are constantly scanning the corridor as though looking for
+something.    
+~
+d 0 0 0 k 0 0 0 0
+25 8 -25 350d250+115 1d8+12
+55 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 22
+E
+Cha: 11
+S
+#9015
+lesser rock demon column ~
+a lesser rock demon~
+A column of animated rock moves slowly down the corridor.
+~
+   This large mound of rock glides across the ground wihout making a noise, its
+deformed base is as wide as a tree and has many different appendages extending
+in all directions.  Two glowing pieces of metal make the eyes for this large
+rock demon, and they are constantly scanning the corridor as though looking for
+something.    
+~
+d 0 0 0 k 0 0 0 -1000
+25 8 -15 100d200+110 1d8+12
+55 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9016
+elemental earth gigantic rock mound~
+a gigantic earth elemental~
+A gigantic mound of dirt and rock tranforms itself into a humanoid shape.
+~
+   This large mound of earth is around eleven feet tall and its broad frame
+expands the corridor where it walks making the elemental seemingly grow in
+size.  Two large onyx stones glow brightly near the top of the mound giving
+this elemental a demonic look.    
+~
+d 0 0 0 k 0 0 0 0
+25 8 -25 225d300+120 1d8+12
+55 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 23
+E
+Con: 12
+E
+Cha: 11
+S
+#9017
+tiny imp rock malevolent~
+a malevolent rock imp~
+A tiny rock imp thrashes around with a malevolent look in its eyes.
+~
+   This tiny rock imp stands barely two feet tall, its body composed emtirely
+of rock thrashes around wildly beneath the feet of the larger creatures roaming
+the corridor
+~
+d 0 0 0 k 0 0 0 -1000
+25 8 -15 100d200+110 1d8+12
+55 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#9018
+greater rock demon~
+a greater rock demon~
+A pillar of animated rock roams aimlessly throughout the corridor.
+~
+   This large mound of rock glides across the ground wihout making a noise, its
+deformed base is as wide as a tree and has many different appendages extending
+in all directions.  Two glowing pieces of metal make the eyes for this large
+rock demon, and they are constantly scanning the corridor as though looking for
+something.    
+~
+d 0 0 0 k 0 0 0 0
+25 8 -25 350d250+115 1d8+12
+55 0 32 9
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 22
+E
+Cha: 11
+S
+$

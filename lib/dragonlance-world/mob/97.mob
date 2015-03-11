@@ -1,0 +1,503 @@
+#9700
+guard black dragonarmy~
+a black dragonarmy guard~
+Standing at attention, this guard does not let you pass.
+~
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9701
+worshipper dark robed ~
+a dark worshipper~
+A robed worshipper of the Dark Queen stands here in silent meditation.
+~
+   Darkly garbed in flowing robes, this devotee of the dark queen and her
+dealings stands in complete silence.  An oversized hood conceils this
+individuals face, and it is impossible to tell whether it is male or female.  
+The movement of these worshippers is hypnotizing, as they move in a slow
+methodic path, each indistinguishable from the other.    
+~
+d 0 0 0 k 0 0 0 -999
+18 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9702
+warrior devoted ~
+a devoted warrior~
+A devoted warrior of the dark queen prays for her blessing in battle.
+~
+   Ebony armor and a full dark colored warhelm graces this warriors form.  He
+has devoted his entire existence to purging the world of the forces of light,
+especially those in opposition to the path of his queen.  When the time comes,
+he will be in perfect harmony with the battle, and his sword will be swung as
+if it were his god herself swinging that blade.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This soldier of the dragonarmy is well outfitted and spars with his fellow
+#9704
+soldier dragonarmy armored~
+an armored dragonarmy soldier~
+A dragonarmy soldier dressed in full battlegear spars with others.
+~
+   Ther soldier of the dragonarmy is well outfitted and spars with her fellow
+soldiers.  Each of the soldiers although not fighting to the death, fights
+until exhausted or until too much blood is shed.  She has been chosen as one of
+the highlords personal soldiers, so she is the top of her class and her
+swordsmanship is superior.    
+~
+d 0 0 0 k 0 0 0 -999
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9705
+wizard ebony robed ~
+an ebony robed wizard~
+A wizard dressed in night-black robes practices his art quietly.
+~
+   The life of this mage is demanding, but the coming rewards are vast.  In
+front of his robes is a large red strip, inside which is the symbol of the five
+headed dragon and a black moon behind it.  No faces are visible, but frail thin
+hands move about searching or practicing for what he desires.    
+~
+d 0 0 0 k 0 0 0 -999
+20 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9706
+woman beauty beautiful blond~
+a woman of immense beauty~
+A beautiful blond haired elf dressed in black robes attracts attention.
+~
+   This elf has long blond hair, and a breathtaking form.  She instructs the
+other dark magic users who have come to aid in Takhisis's overthrow of Ansalon.
+She smiles at near anything that peaks her interest, but the smile is sinister
+and unwelcoming.  Unlike the others, she walks with her hood down, and proudly
+displays her desirable qualities for all to see.    
+~
+d 0 0 0 k 0 0 0 -999
+19 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9707
+servant palace ~
+a palace servant~
+A servant catering to the highlords duties hurries along.
+~
+   Dressed in humble garb, this servant hurries along, perhaps getting his
+lords food, or perhaps hurrying for more firewood.  He unconditionally carries
+out his masters duties, and keeps the castle in top shape.  Near every day, he
+is forced to work to near exhaustion, but when the army is not in, his worklife
+is easy and relaxed.    
+~
+d 0 0 0 k 0 0 0 -750
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9708
+butler palace tux full~
+the palace butler~
+A butler in a full tux carries his lords next meal with him.
+~
+   A thin mustache and a full tuxedo make this man stand out as the palace
+butler.  His one hand is held high, carrying his lords meal from the kitchen
+over to the highlord's residence.  In his other hand he carries a place setting
+and all that is needed for the meal.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9709
+guard patrol ~
+a guard on patrol~
+A patrol guard wanders the hallways here keeping an eye out for trouble
+~
+   Dressed in heavy armor with flexible links this guard moves quickly through
+the corridors.  He scans from side to side looking for an sign of a scuffle
+within the ranks, or making sure that the hired help is doing their job and not
+slacking off.  His job is rather padded, and easy compared to others, so he
+doesn't complain.    
+~
+d 0 0 0 k 0 0 0 -999
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9710
+elf shady dressed grey~
+a shady elven messenger~
+An elf dressed in grey moves along the palace searching for something.
+~
+   This elf is dressed in light leather armor, and loose pants, tied off at the
+ankles.  He has a partial hood that doesn't cover much of his face hanging from
+his neck, and a very serious looks is set on his face.  He carries urgent news
+to the highlord, news of great importance and is not to be interrupted in his
+path.    
+~
+d 0 0 0 k 0 0 0 -999
+20 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9711
+priestess high ~
+the high priestess of Takhisis~
+The high priestess of the dark queen leads in the chant.
+~
+   Dressed in black, a very wrinkled and spotted face stares out at the others,
+her hair completely hidden beneath a paper thin circular cap.  She moves
+extremely slow and leads in the chanting as she moves.  Her years of devotion
+have accumulated, and she is unable to be on the move due to her age.  
+However, she gets along well enough, using her blessings from her goddess who
+provides for her.    
+~
+d 0 0 0 k 0 0 0 -999
+23 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9712
+guardian hall ~
+a hall guardian~
+A guardian in charge of the palace's defense stands here at the ready.
+~
+   This guardian stands firmly in place, protecting the palace and ready to
+defend his post if need be.  He is dressed extremely well and highly decorated.
+His armor is sparkling clean, and well kept, and his weapons well polished.  
+He carries a large tower shield, ready to defend his position.    
+~
+d 0 0 0 k 0 0 0 -999
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9713
+goblin servant green skinned ~
+a goblin servant~
+A green skinned goblin servant moves quickly tripping and fumbling along.
+~
+   This goblin although clumsy, is very well trusted in some of the less
+respected organizations in town.  Although not wise, he is rather intelligent
+for his kind and has done quite well.  This job is quite easy, and demands
+respect within his other organizations.  Although the dragonarmy is not
+generous to goblins, those that show promise are given their chance.    
+~
+d 0 0 0 k 0 0 0 -999
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9714
+warrior favored ~
+a favored warrior~
+The dark queens favored warrior eminates greatness.
+~
+   Walking proudly amongst his trainees, this man seems to have an aura of
+greatness radiating from his sides.  His armor is sparkling, and he has long
+golden locks that roll down his head; springing up and down as he moves.  Very
+few see him for what he actually is, as so many are quickly taken aback by his
+beauty, grace, and skill.    
+~
+d 0 0 0 k 0 0 0 -999
+23 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This crossbow wielding guard is dressed in light, flexible garb.  He keeps a
+#9716
+lookout archway guard~
+an archway lookout~
+An archway guard stands on the lookout staring at the horizon.
+~
+   This lookout carries a small looking glass, that allows him to see far off
+into the distance.  As he stares out at the horizon, he continually covers his
+territory watching for any sign of an invasion.  He wears little armor, as it
+is his duty to quickly report any disturbances to the nearby crossbowmen and
+guards.    
+~
+d 0 0 0 k 0 0 0 -999
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9717
+serpent moat~
+a moat serpent~
+A serpent of the moat rears its ugly head through the muck.
+~
+   The scales of this serpent are caked in dirty muck, which makes the
+seperation between scales near impossible to see.  Deeply submerged in the
+moat, he will snap at any that come foolishly into his territory.  Long
+tendrils extend from his nostrils, and a constricting body allows him to wrap
+himself around his prey and drag it into the opaque cesspool.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9718
+Hopsloth seadragon sea dragon~
+Hopsloth the Seadragon~
+Hopsloth the seadragon rests here awaiting Toedes return.
+~
+   This dragon has a very short wide neck for a dragon, looking much like a
+large toad.  Its wings are short and stubby, and it most likely could never
+fly.  It has a turtle like body, covered with large warts, and it reaks
+horribly.  If has short webbed feet, and powerful hind legs allowing it to
+propel itself to great heights if necessary.  Easily irritated, Hopsloth will
+swallow anything that falls into his domain.    
+~
+d 0 0 0 k 0 0 0 -500
+33 20 7 24d100+152 1d8+0
+15 0 41 10
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9719
+bodyguard personal elite~
+the highlords personal bodyguard~
+An elite Dragonarmy bodyguard stands here, arms crossed.
+~
+   This elite bodyguard wears a long flowing cape which hangs from his
+shoulders and is attached with emerald pins.  He stares forward, focusing on
+protecting the palace if need be.  He is decked out in full dragonarmy gear,
+and wields two long barbed swords, each razor sharp and jagged: capable of
+inflicting intense pain in addition to killing.  A partially lowered head, and
+a dark determined look make him stand out as a very intimidating individual.  
+~
+d 0 0 0 k 0 0 0 -999
+33 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

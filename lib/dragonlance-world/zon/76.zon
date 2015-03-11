@@ -1,0 +1,136 @@
+#76
+None.~
+The Onyx Obelisk II (Tak)~
+7600 7699 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+E 1  5931     2    14   0     5     1     0          0 a bracer of writhing snakes
+
+G 1  5928     1     0   0    12     2     0          0 a diamond shaped chunk of obsidian
+
+D 0  7650     2     2   0   101     3    -10 
+
+M 0  5915     4  7659   1   100     4    -1          0 an enormous cyclops
+
+G 1  5928     1     0   0    12     5     4          0 a diamond shaped chunk of obsidian
+
+E 1  5933     2    13   0     5     6     4          0 a platinum girdle illuminated with thousands of tiny diamonds
+
+D 0  7659     3     2   0   101     7    -10 
+
+M 0  5912     5  7658   5   100     8    -1          0 a massive, crystal scorpion
+
+E 1  5929     2    12   0     3     9     8          0 a large, crystal scorpion stinger
+
+D 0  7658     1     2   0   101    10    -10 
+
+D 0  7654     2     2   0   101    11    -10 
+
+M 0  5914     4  7655   1   100    12    -1          0 an ambiguous sphinx
+
+G 1  5928     1     0   0    12    13    12          0 a diamond shaped chunk of obsidian
+
+E 1  5932     2     1   0     5    14    12          0 a golden ring ornamented with a large, rose-shaped ruby
+
+D 0  7655     0     2   0   101    15    -10 
+
+D 0  7656     0     2   0   101    16    -10 
+
+M 0  5913     4  7657   1   100    17    -1          0 a flagituous medusa
+
+G 1  5928     1     0   0    12    18    17          0 a diamond shaped chunk of obsidian
+
+E 1  5931     2    14   0     5    19    17          0 a bracer of writhing snakes
+
+D 0  7657     2     2   0   101    20    -10 
+
+O 0  7600     1  7602   0   100    21    -1          0 an obsidian tablet
+
+O 0  7601     1  7607   0   100    22    -1          0 a sapphire tablet
+
+O 0  7602     1  7612   0   100    23    -1          0 a crystal tablet
+
+O 0  7603     1  7617   0   100    24    -1          0 an amber tablet
+
+O 0  7604     1  7622   0   100    25    -1          0 an amethyst tablet
+
+O 0  7605     1  7632   0   100    26    -1          0 a topaz tablet
+
+O 0  7607     1  7627   0   100    27    -1          0 an emerald tablet
+
+O 0  7606     1  7637   0   100    28    -1          0 an onyx tablet
+
+O 0  7608     1  7642   0   100    29    -1          0 a ruby tablet
+
+M 0  5911     5  7652   5   100    30    -1          0 a slate-grey basilisk
+
+E 1  5930     2    10   0     3    31    30          0 a set of slate-grey, basilisk scale arm guards
+
+M 0  7600     1  7606   1   100    32    -1          0 an obsidian golem
+
+E 1  7610     1     6   0    10    33    32          0 an obsidian great helm
+
+M 0  7601     1  7611   1   100    34    -1          0 a sapphire golem
+
+E 1  7611     1     9   0    10    35    34          0 a pair of sapphire gauntlets
+
+M 0  7602     1  7616   1   100    36    -1          0 a crystal golem
+
+E 1  7612     1     8   0    10    37    36          0 a pair of crystal sollerets
+
+M 0  7603     1  7621   1   100    38    -1          0 an amber golem
+
+E 1  7613     1    10   0    10    39    38          0 a pair of amber vambraces
+
+M 0  7604     1  7626   1   100    40    -1          0 an amethyst golem
+
+E 1  7614     1     7   0    10    41    40          0 a pair of amethyst greaves
+
+M 0  7606     1  7631   1   100    42    -1          0 a topaz golem
+
+E 1  7616     1    11   0    10    43    42          0 a large, topaz shield
+
+M 0  7605     1  7634   1   100    44    -1          0 an emerald golem
+
+E 1  7615     1     5   0    10    45    44          0 an emerald breastplate
+
+M 0  7607     1  7641   1   100    46    -1          0 an onyx golem
+
+G 1  7617     1     0   0    10    47    46          0 a serrated edged, barbed onyx javelin
+
+M 0  7608     1  7646   1   100    48    -1          0 a ruby golem
+
+G 1  1262     4     0   0    20    49    48          0 a purple scroll wrapped in yellow ribbon
+
+G 1  7618     1     0   0    10    50    48          0 an ivory hilted broadsword with a wide, ruby blade
+
+O 0  7623     1  7673   0   100    51    -1          0 a fine wooden chest banded with platinum sleeves
+
+P 1  7635     5  7623   0   100    52    51          0 a purse filled with coins of the Irdan Empire
+
+P 1  7634     1  7623   0     5    53    51          0 a staff of healing
+
+O 0  7625     1  7687   0   100    54    -1          0 a fine wooden chest banded with platinum sleeves
+
+P 1  7635     5  7625   0   100    55    54          0 a purse filled with coins of the Irdan Empire
+
+P 1  7633     1  7625   0    10    56    54          0 an iridescent blue stone
+
+O 0  7626     1  7693   0   100    57    -1          0 a fine wooden chest banded with platinum sleeves
+
+P 1  7635     5  7626   0   100    58    57          0 a purse filled with coins of the Irdan Empire
+
+P 1  7632     1  7626   0     5    59    57          0 a staff of striking
+
+M 0  7609     5  7679   1   100    60    -1          0 a granite gargoyle
+
+G 1  7622     1     0   0   100    61    60          0 a square-shaped, runed key
+
+M 0  7609     5  7691   1   100    62    -1          0 a granite gargoyle
+
+G 1  7624     1     0   0   100    63    62          0 a triangular, runed key
+
+S
+$

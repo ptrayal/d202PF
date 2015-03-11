@@ -1,0 +1,186 @@
+#3700
+dried corpse~
+the corpse of Lady Gladria~
+The corpse of Lady Gladria stands here wracked in torment.
+~
+~
+d 0 0 0 k 0 0 0 -250
+24 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3702
+snake water blue silvery~
+a water snake~
+A silvery blue water snake struggles to swim through the sewage.
+~
+   The slender, blue body of this nocturnal water snake strains with effort as
+it attempts to navigate the flowing waters of the sewer system.  Most likely
+swept into the sewage from a drain up above, it seems very lost in such an
+environment.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3703
+giant leech~
+a giant leech~
+A giant leech inches its way through the water, searching for blood.
+~
+   This aquatic, bloodsucking worm slowly pushes its way through the water in
+search of its next unsuspecting meal.  Its body has no definate shape as it
+twists and contorts itself to get through normally impassible obstacles.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3704
+vampire bat~
+a vampire bat~
+A rabid vampire bat swoops down from the ceiling, attacking with a vengeance.
+~
+   What this small brown bat lacks in size, it more than makes up with fury and
+determination.  Stricken with rabies, it viciously swoops down from the
+ceiling, attacking anything and everything that moves.  Small, razor sharp
+teeth glisten with blood as it opens its mouth to tear into your flesh.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 8
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3705
+hostile bandit~
+a hostile bandit~
+A hostile bandit hunches over his latest victim, looting her corpse.
+~
+   The clothing this bandit wears has been dirtied and torn beyond repair from
+the many hazards that this sewer system houses.  Adhesive, gooey cobwebs stick
+to his back and arms.  He greedily tears the clothing off of his latest victim,
+searching for any item that could potentially be sold for profit.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3706
+lost child bruised frightened~
+a lost child~
+A bruised, frightened child screams for his parents as he wanders the corridors.
+~
+   As evident from the many bruises and bleeding cuts on this young boy's body,
+it appears he has fallen into the sewer system from one of the many manholes
+above.  With not so much as a lantern to help guide him back to safety, his
+life is near its end.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#3707
+vivid water beetle poisonous~
+a poisonous water beetle~
+A vivid water beetle vigorously feeds on the raw sewage.
+~
+   The prismatic wings of this grimy water beetle twitch slightly as it
+hungrily feeds on a large clump of sewage which has washed up on one of the
+cobblestone walkways.  Large, serrated pincers tear into the sewage and force
+it to its mouth, where it is quickly consumed.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

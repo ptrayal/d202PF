@@ -1,0 +1,2175 @@
+#9600
+The Outskirts of a Small Farmland~
+   A small farming plot spans the distance as far as an eye can see.  Small
+stalks of wheat can be seen to either side of the field.  Off in the distance,
+the High Clerists Tower guards the Solamnic Road from intruders.  A small wisp
+of smoke can also be seen coming from one of the farm houses.    
+~
+96 0 0 0 0  2
+D3
+~
+~
+0 0 9601 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 228 0 0 0 0 0 0 0 0
+S
+#9601
+Walking on a Narrow Dirt Road~
+   There is a small dirt road here that leads to a little farm house with wisps
+of smoke coming from the chimney.  On either side of the road are wheat fields
+as far as the eye can see.  The wheat is tall enough for a kender to easily get
+lost in, and it looks as if it is about time for it to be cut.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9600 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9602 0 0 0 0 0 0 0 0
+S
+#9602
+Walking on a Narrow Dirt Road~
+   There is a small dirt road here that leads to a little farm house with wisps
+of smoke coming from the chimney.  On either side of the road are wheat fields
+as far as the eye can see.  The wheat is tall enough for a kender to easily get
+lost in, and it looks as if it is about time for it to be cut.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9601 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9603 0 0 0 0 0 0 0 0
+S
+#9603
+Nearing a Small Farm House~
+   The dirt road comes to a small white gate and a fence that goes around a
+small farm house.  There are small trees along the fence that provide some
+privacy to the family that lives here and some flower beds just before the
+gate.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9602 0 0 0 0 0 0 0 0
+D3
+~
+gate~
+1 0 9604 0 0 0 0 0 0 0 0
+S
+#9604
+Just Inside The Gate~
+   There is a white gate here that opens up to get in and out of the farmhouse
+yard.  The gate is part of a white picket fence that goes all the way around
+the house, and there are small evergreen trees that line up against the fence.
+A few small flower beds line the walk just inside the gate and you can see that
+there are a few up by the porch as well.    
+~
+96 c 0 0 0  1
+D1
+~
+gate~
+1 0 9603 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9605 0 0 0 0 0 0 0 0
+S
+#9605
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the pets and
+children to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9616 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9604 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9625 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9606 0 0 0 0 0 0 0 0
+S
+#9606
+On A Small Wooden Covered Porch~
+   This covered porch has a small lean-to type of roof that keeps the rain off
+the main part of the porch.  There is a small rug for people to wipe their feet
+on before they enter, and a large oak door with a brass knocker at the
+entrance.  The porch is decent sized and covers the entire front of the house.
+It has a small rail and there are flowerbeds in front of it growing all sorts
+of pretty flowers.    
+~
+96 0 0 0 0  0
+D1
+~
+~
+0 0 9605 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9607 0 0 0 0 0 0 0 0
+S
+#9607
+A Large Warm Living Room~
+   This large living room is well furnished with a couch and a few decorations
+on the walls.  There is a red brick fireplace in the corner that keeps the
+whole place warm enough to live in, even during winter.  There is a large throw
+rug that covers the hard wood floor, and a soft chair in the corner.  There is
+a doorway that leads into the kitchen and another door that opens up outside to
+the porch.  A small wood door to the north leads into the stairway that goes to
+the bedrooms upstairs.    
+~
+96 0 0 0 0  0
+D0
+~
+door~
+1 0 9608 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9606 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9619 0 0 0 0 0 0 0 0
+E
+red brick fireplace fire~
+   This fireplace is made entirely of red brick and takes up one whole corner
+of the room.  It has a small fire burning inside of it to keep the house warm,
+and a small stack of wood next to it so there will always be a fire kept up.  
+The smoke from the fire can be seen climbing up the soot covered chimney to go
+outside where it will be carried off by the wind.    
+~
+E
+tall narrow bookcase bookshelf~
+   This tall bookcase is up against one wall in the living room.  It holds all
+kinds of books with number of stories and books for teaching the children
+different things.  It is made of imported vallenwood that is finely polished.
+  
+~
+S
+#9608
+A Large Closet With Stairs~
+   This room has very sparse lightning, but you can make out a narrow wooden
+staircase leading up to the second floor of this small farmhouse.  The only
+light comes from the top of the stars where a little window allows some light
+to come in.  There is a musky smell and a small rug on the floor that has
+interesting designs of roses intertwined.    
+~
+96 a 0 0 0  0
+D2
+~
+door~
+1 0 9607 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9611 0 0 0 0 0 0 0 0
+D5
+   There is a rug with many interesting designs on its surface here.  It is
+thick and round and good for wiping ones feet on.  Pulling back the rug,
+however, reveals and interesting latch and trapdoor.  When the trapdoor is
+opened you can see a steeply placed ladder that goes down into a dark room.  
+
+~
+rug~
+1 0 9609 0 0 0 0 0 0 0 0
+E
+ladder~
+You see nothing special.
+~
+S
+#9609
+A Dark Pantry Full of Firewood~
+   This cellar has small cubby holes along one wall that are cut into the cold
+dirt of the ground for putting food stuffs in to keep them cool.  The floor and
+walls are also made of hard packed brown dirt.  There is a pile of firewood on
+the other side of the room, making it seem even smaller.  There is a hatch that
+can be opened on the wall to drop firewood down so it can be stacked.    
+~
+96 a 0 0 0  0
+D0
+   Along this wall is a hatch that leads outside into the yard.  It is used to
+transport firewood down into the cellar without having to carry it through the
+house.    
+~
+hatch~
+1 0 9610 0 0 0 0 0 0 0 0
+D1
+   A large pile of firewood is stacked neatly here against the east wall.  
+There is a strange looking peice of wood sticking out that is a bit bigger than
+the others.    
+~
+wood~
+1 0 9666 0 0 0 0 0 0 0 0
+D4
+   A steep ladder leads up out of the cellar into the open hall above.  The
+trapdoor above is covered with a rug so as not to be seen quite so easilly.  
+
+~
+rug~
+1 0 9608 0 0 0 0 0 0 0 0
+S
+#9610
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the children and
+homes pets to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D1
+~
+~
+0 0 9618 0 0 0 0 0 0 0 0
+D2
+~
+hatch~
+1 0 9609 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9624 0 0 0 0 0 0 0 0
+S
+#9611
+At The Top Of The Stairs~
+   The top of this stairwell is still slightly dark, but there is a small round
+window that looks out over the yard to the north.  Far off in the distance to
+the north you can see the High Clerist Tower, tall and regale as a guard
+watching over the plains that stretch out before it.  Some people can be seen
+walking in front of the tower on the High Solamnic Road, they apear as small
+specks.  This small window lets in enough light to see the door to the south
+leading into a bedroom.    
+~
+96 0 0 0 0  0
+D2
+~
+door~
+1 0 9612 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9608 0 0 0 0 0 0 0 0
+S
+#9612
+A Medium Sized Tidy Bedroom~
+   This room is kept very tidy and clean, with everything in its proper place
+and the bed made up just right, this is the bedroom of a near perfectionist.  
+The room looks to be the room of a young boy, with books on a shelf and some
+toys resembling small soldiers next to them.  There is a window on the east
+wall that looks out over the yard and fields to the High Solamnic Road and
+Vingaard Keep can be seen a long way off in the distance.    
+~
+96 0 0 0 0  0
+D0
+~
+door~
+1 0 9611 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9613 0 0 0 0 0 0 0 0
+E
+bed wool small wooden blankets~
+   This bed is small and sits up against the north wall of the bedroom.  It has
+wool blankets thrown casually on it, the owner not seeming to be particularly
+concerned with the placement of such.    
+~
+S
+#9613
+A Large Well Decorated Room~
+   This room is the largest room in the house and looks to be shared by two
+girls.  There is a bunk bed against one wall and a large dresser against
+another.  On top of the dresser is a neat row of dolls and a few other toys.  
+There is a window set into the west wall and out it can only be seen wheat
+fields.  As far as you can see there are just wheat fields, and it looks like
+the farmer is beginning to cut some of it down.  There is a door that opens up
+into a small dressing closet to the north and a door toward the east that goes
+into the boys room.    
+~
+96 0 0 0 0  0
+D0
+~
+closet~
+1 0 9614 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9612 0 0 0 0 0 0 0 0
+E
+bed wooden blankets small wool~
+This bed is small and made completely of wood. It has wool blankets spread out neatly on it, obviously done with great care and desire to be tidy.
+~
+S
+#9614
+A Small Dressing Closet~
+   This closet is a bit cramped with a pole for hanging things on either side
+of the closet.  There is a shelf above the hanging area to put stuff on, and it
+looks like this closet is used as a storage area too.  There is not too much
+light, only what a small candle can do.    
+~
+96 a 0 0 0  0
+D2
+~
+closet~
+1 0 9613 0 0 0 0 0 0 0 0
+S
+#9615
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9658 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9657 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9668 0 0 0 0 0 0 0 0
+S
+#9616
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the children and
+homes pets to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9617 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9605 0 0 0 0 0 0 0 0
+S
+#9617
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the children and
+homes pets to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D2
+~
+~
+0 0 9616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9618 0 0 0 0 0 0 0 0
+S
+#9618
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the children and
+homes pets to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D1
+~
+~
+0 0 9617 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9610 0 0 0 0 0 0 0 0
+S
+#9619
+A Large Warm Kitchen~
+   This kitchen is warm and cozy.  There is a wood stove for cooking meals up
+against one wall of the kitchen and a copper wash basin next to it.  There are
+some oak cabinets on the wall over the top of the wash basin, and a large oak
+table in the center of the room with five chairs around it.  The chairs are
+made of ornately carved oak, and there is a tablecloth on the table with
+interesting designs.    
+~
+96 0 0 0 0  0
+D0
+~
+door~
+1 0 9620 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9607 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9621 0 0 0 0 0 0 0 0
+E
+stove iron cooking~
+   This stove is made completely of iron and sits up against one wall of the
+kitchen.  The young mother stands in front of it, cooking somethin in a frying
+pan.    
+~
+S
+#9620
+A Small Sparse Bedroom~
+   This room is the parents room and is sparsely furnished.  There is a single
+bed up against one wall and a small dresser next to it.  The room is fairly
+clean, though the bed is not made and there is a shirt lying on the dresser.  
+There is a small window on the back wall and out it you can see a portion of
+the yard and a few trees that are near the fence.  Beyond that is the wheat
+fields that stretch out into the horizon.    
+~
+96 d 0 0 0  0
+D2
+~
+door~
+1 0 9619 0 0 0 0 0 0 0 0
+E
+small wooden dresser~
+   This small wooden dresser sits next to the bed and has only one wooden
+drawer.  There is an iron plate and a lock on the front of the drawer, testing
+the lock proves the need of some type of key.    
+~
+S
+#9621
+On A Small Dirt Path Leading From The House~
+   This small, narrow dirt path leads from the back porch out to the barn in
+the field.  A grassy yard is on either side and an occasional leaf from the oak
+tree blows over the path.  The back porch is small and not covered, it opens up
+into the kitchen of the farmhouse.  The path continues to the south toward a
+small white gate in the picket fence.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9622 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9619 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9629 0 0 0 0 0 0 0 0
+S
+#9622
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the children and
+homes pets to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9623 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9621 0 0 0 0 0 0 0 0
+S
+#9623
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the children and
+homes pets to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D1
+~
+~
+0 0 9624 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9622 0 0 0 0 0 0 0 0
+S
+#9624
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the children and
+homes pets to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D1
+~
+~
+0 0 9610 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9623 0 0 0 0 0 0 0 0
+S
+#9625
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the pets and
+children to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9605 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9626 0 0 0 0 0 0 0 0
+S
+#9626
+A Large Grassy Yard With a Tall Oak Tree~
+   There is a large oak tree in the middle of the yard here that blows in with
+the wind, dropping an occasional leaf.  The branches of the tree are large and
+the tree is tall, some of the branches go up above the house, leaving a few
+leaves up there.  In the tree is a small wooden structure, a treehouse that is
+painted brown and green to blend in with the rest of the tree.  There is a
+small ladder on the tree that leads up to the treehouse.    
+~
+96 0 0 0 0  1
+D1
+~
+~
+0 0 9625 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9627 0 0 0 0 0 0 0 0
+D4
+~
+board~
+1 0 9630 0 0 0 0 0 0 0 0
+S
+#9627
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the pets and
+children to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D1
+~
+~
+0 0 9626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9628 0 0 0 0 0 0 0 0
+S
+#9628
+A Large Grassy Yard~
+   The farmhouse has within its fence a large grassy yard for the pets and
+children to play in.  There is a large oak tree in the yard and you can see a
+few pets wandering around the yard looking for fun.  The farmhouse looks to be
+a two story home with partially cracked outer boards.  It is a light brown
+color with a small covered porch and a large oak door.  You can hear the sound
+of animals coming from the barn to the south, and as far as you can see there
+are wheat fields.    
+~
+96 0 0 0 0  1
+D1
+~
+~
+0 0 9627 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9629 0 0 0 0 0 0 0 0
+S
+#9629
+On A Small Dirt Path Leading From The House~
+   There is a small, narrow dirt path that leads from the back porch of the
+house to the barn out in the field.  The grassy yard is on either side of the
+path and you can see the oak tree more clearly from here and it looks like
+there may be a small structure of some sort in it.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9621 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9628 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+0 0 9633 0 0 0 0 0 0 0 0
+S
+#9630
+Up In a Small Wooden Tree House~
+   This small tree house is suspended among the branches of a large oak tree in
+the backyard of the farm house.  The top of the house can be seen and the
+chimney lets out wisps of smoke from inside.  Looking out a small window to the
+south you can see a large wooden barn and some other small outbuildings, as
+well as all of the fields as far as can be seen in one direction.  Inside this
+fort there are a couple small chairs and a short bench.  There are a few toys
+about and a small terrarium on one wall.    
+~
+96 c 0 0 0  0
+D0
+~
+board~
+1 0 9631 0 0 0 0 0 0 0 0
+D5
+~
+board~
+1 0 9626 0 0 0 0 0 0 0 0
+S
+#9631
+Out On a Sturdy Oak Limb~
+   This oak limb is quite sturdy and wide enough to walk on with ease.  It
+looks to have grown right overtop of the roof of the house and left a few
+leaves on the roof.  The leaves of this tree are large and there are many
+branches on the tree.  The tree house takes up a good deal of room in the tree,
+leaving only a small part to climb in.  It looks as if this branch is used a
+lot by the children that live here.    
+~
+96 0 0 0 0  0
+D0
+~
+~
+0 0 9632 0 0 0 0 0 0 0 0
+D2
+~
+board~
+1 0 9630 0 0 0 0 0 0 0 0
+S
+#9632
+On The Roof Of a Small Farm House~
+   The roof of this small farmhouse is not very steep, making it an easy one to
+walk on at will.  The top of the tall oak tree in the yard and the barn are
+about all that is visible of the farm.  There are great expansive fields that
+stretch most of the way to the High Solamnic Road, and far away in the distance
+the great white High Clerist Tower can barely be seen.  There is a chimney here
+in the center of the roof with small wisps of smoke drifting out.    
+~
+96 0 h 0 0  0
+D2
+~
+~
+0 0 9631 0 0 0 0 0 0 0 0
+E
+chimney red brick~
+   This chimney is made of hard baked red brick and sits here on the peak of
+the roof.  It lets out whisps of grey smoke that float off with the breeze and
+soon disapear.    
+~
+S
+#9633
+At a Small White Gate~
+   There is a small white gate that swings open into the grassy yard.  There
+are posts on either side of it with small tufts of grass sticking up and waving
+in the wind.  To the south you can see the barn and the fields, the house is up
+to the north with a little wisp of smoke coming from the chimney.  There are
+prints in the narrow dirt path that lead to the barn and there are flowerbeds
+just inside the gate with a few pretty flowers.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9629 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 9634 0 0 0 0 0 0 0 0
+S
+#9634
+Walking On a Small Dirt Path~
+   This narrow dirt path leads to the doors of the barn, as well as to either
+side where there are gates into the pens.  The eastern pen has a few pigs that
+are making some loud noises and rolling in the mud.  To the west is a chicken
+coop and a pen for them to be kept safe from foxes in.  The barn is tall and
+brown, made of a dark wood that is slightly cracked from the heat.    
+~
+96 0 0 0 0  1
+D0
+~
+gate~
+1 0 9633 0 0 0 0 0 0 0 0
+D1
+~
+pen~
+1 0 9659 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 9635 0 0 0 0 0 0 0 0
+D3
+~
+pen~
+1 0 9661 0 0 0 0 0 0 0 0
+S
+#9635
+Just Inside The Barn~
+   This barn seems large and lofty.  There are a couple stalls down either side
+of the barn that hold a few animals.  The floor is made of hard packed dirt and
+a little bit of stray hay that has made its way out to the main floor.  There
+is a ladder that leads up to the hay loft.  Different type of tack and other
+farming things hang on the posts between the stalls.    
+~
+96 c 0 0 0  0
+D0
+~
+doors~
+1 0 9634 0 0 0 0 0 0 0 0
+D1
+~
+stall~
+1 0 9637 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9638 0 0 0 0 0 0 0 0
+D3
+~
+stall~
+1 0 9636 0 0 0 0 0 0 0 0
+S
+#9636
+A Large Wooden Animal Stall~
+   This wooden stall is large and has walls that reach near to the ceiling of
+the barn.  There is a small water bucket in the corner and hay all over the
+floor for the animals that sleep here to use.  There is a small wooden
+structure on the wall that has some hay and oats to eat.    
+~
+96 c 0 0 0  0
+D1
+~
+stall~
+1 0 9635 0 0 0 0 0 0 0 0
+S
+#9637
+A Large Wooden Animal Stall~
+   This wooden stall is large and has walls that reach near to the ceiling of
+the barn.  There is a small water bucket in the corner and hay all over the
+floor for the animals that sleep here to use.  There is a small wooden
+structure on the wall that has some hay and oats to eat.    
+~
+96 c 0 0 0  0
+D3
+~
+stall~
+1 0 9635 0 0 0 0 0 0 0 0
+S
+#9638
+Inside The Barn~
+   This barn seems large and lofty.  There are a couple stalls down either side
+of the barn that hold a few animals.  The floor is made of hard packed dirt and
+a little bit of stray hay that has made its way out to the main floor.  There
+is a ladder that leads up to the hay loft.  Different type of tack and other
+farming things hang on the posts between the stalls.    
+~
+96 c 0 0 0  0
+D0
+~
+~
+0 0 9635 0 0 0 0 0 0 0 0
+D1
+~
+stall~
+1 0 9639 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 9663 0 0 0 0 0 0 0 0
+D3
+~
+stall~
+1 0 9640 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9641 0 0 0 0 0 0 0 0
+S
+#9639
+A Large Wooden Animal Stall~
+   This stall has been stripped of all its normal items and looks to be getting
+cleaned up a bit.  There is a pile of nasty mildewed hay that is all wet and
+stinks in the center of the stall floor.  There is a young teenage boy here
+trying to clean it up, but it looks like it is going to take a while.    
+~
+96 c 0 0 0  0
+D3
+~
+stall~
+1 0 9638 0 0 0 0 0 0 0 0
+S
+#9640
+A Large Wooden Animal Stall~
+   This wooden stall is large and has walls that reach near to the ceiling of
+the barn.  There is a small water bucket in the corner and hay all over the
+floor for the animals that sleep here to use.  There is a small wooden
+structure on the wall that has some hay and oats to eat.    
+~
+96 c 0 0 0  0
+D1
+~
+stall~
+1 0 9638 0 0 0 0 0 0 0 0
+S
+#9641
+Up In The Hay Loft~
+   This hay loft is quite expansive, stretching from one end of the large barn
+to the other.  It is stocked full of hay, most of it stacked neatly in bundles.
+There are a few piles of strewn hay here and there where the children have torn
+out a bundle to play with.  There is a thick rope hanging from the rafters to
+swing on.    
+~
+96 0 0 0 0  0
+D5
+~
+~
+0 0 9638 0 0 0 0 0 0 0 0
+S
+#9642
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+doors~
+1 0 9663 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9643 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9657 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9658 0 0 0 0 0 0 0 0
+S
+#9643
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9644 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9656 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9642 0 0 0 0 0 0 0 0
+S
+#9644
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9645 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9651 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9655 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9643 0 0 0 0 0 0 0 0
+S
+#9645
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9646 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9650 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9644 0 0 0 0 0 0 0 0
+S
+#9646
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9688 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9647 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9645 0 0 0 0 0 0 0 0
+S
+#9647
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9689 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9650 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9646 0 0 0 0 0 0 0 0
+S
+#9648
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9652 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9649 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9688 0 0 0 0 0 0 0 0
+S
+#9649
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9653 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9689 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9648 0 0 0 0 0 0 0 0
+S
+#9650
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9647 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9651 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9645 0 0 0 0 0 0 0 0
+S
+#9651
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9650 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9654 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9644 0 0 0 0 0 0 0 0
+S
+#9652
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9691 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9653 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9648 0 0 0 0 0 0 0 0
+S
+#9653
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9690 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9649 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9652 0 0 0 0 0 0 0 0
+S
+#9654
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9651 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9655 0 0 0 0 0 0 0 0
+S
+#9655
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9644 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9654 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9656 0 0 0 0 0 0 0 0
+S
+#9656
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9643 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9655 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9657 0 0 0 0 0 0 0 0
+S
+#9657
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9642 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9656 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9615 0 0 0 0 0 0 0 0
+S
+#9658
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9642 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9615 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9667 0 0 0 0 0 0 0 0
+S
+#9659
+A Very Messy Pig Pen~
+   This pig pen is quite disgusting.  There are a few pigs here that lie around
+and root in the mud, looking for roots to eat.  There is a large slop trough
+that the pigs eat out of, it looks very nasty with the slop thats in it.  The
+stench here is quite bad and there are flies everywhere.    
+~
+96 0 0 0 0  1
+D0
+~
+~
+0 0 9660 0 0 0 0 0 0 0 0
+D3
+~
+pen~
+1 0 9634 0 0 0 0 0 0 0 0
+S
+#9660
+A Very Messy Pig Pen~
+   This pig pen is quite disgusting.  There are a few pigs here that lie around
+and root in the mud, looking for roots to eat.  There is a large slop trough
+that the pigs eat out of, it looks very nasty with the slop thats in it.  The
+stench here is quite bad and there are flies everywhere.    
+~
+96 0 0 0 0  1
+D2
+~
+~
+0 0 9659 0 0 0 0 0 0 0 0
+S
+#9661
+In A Chicken Pen~
+   This pen contains masses of chickens clucking about, pecking the ground in
+search of worms and seeds to eat.  There is a chicken coop just to the north
+that is small and made of wood similar to that of the barn.  As you walk around
+you try not to step in the chicken feces that takes up a good area of the pen.
+You hear a slightly sickening 'SQUISH' sound as you step in a particularly
+large pile of it.    
+~
+96 0 0 0 0  1
+D0
+~
+trapdoor~
+1 0 9662 0 0 0 0 0 0 0 0
+D1
+~
+pen~
+1 0 9634 0 0 0 0 0 0 0 0
+S
+#9662
+Inside a Small Wooden Chicken House~
+   This small structure contains even more chickens than the pen outside.  
+There are boxes along the wall with chickens resting in them, sitting on
+unknown numbers of large white eggs.  On one wall there is a few poles that
+span the distance from one wall to the other, making a stand for the chickens
+and rooster to sit.    
+~
+96 0 0 0 0  0
+D2
+~
+trapdoor~
+1 0 9661 0 0 0 0 0 0 0 0
+S
+#9663
+Just Inside The Barn~
+   This barn seems large and lofty.  There are a couple stalls down either side
+of the barn that hold a few animals.  The floor is made of hard packed dirt and
+a little bit of stray hay that has made its way out to the main floor.  There
+is a ladder that leads up to the hay loft.  Different type of tack and other
+farming things hang on the posts between the stalls.    
+~
+96 c 0 0 0  0
+D0
+~
+~
+1 0 9638 0 0 0 0 0 0 0 0
+D1
+~
+stall~
+1 0 9664 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+1 0 9642 0 0 0 0 0 0 0 0
+D3
+~
+stall~
+1 0 9665 0 0 0 0 0 0 0 0
+S
+#9664
+A Large Wooden Animal Stall In The Barn~
+   This wooden stall is large and has walls that reach near to the ceiling of
+the barn.  There is a small water bucket in the corner and hay all over the
+floor for the animals that sleep here to use.  There is a small wooden
+structure on the wall that has some hay and oats to eat.    
+~
+96 c 0 0 0  0
+D3
+~
+stall~
+1 0 9663 0 0 0 0 0 0 0 0
+S
+#9665
+A Large Wooden Animal Stall In The Barn~
+   This wooden stall is large and has walls that reach near to the ceiling of
+the barn.  There is a small water bucket in the corner and hay all over the
+floor for the animals that sleep here to use.  There is a small wooden
+structure on the wall that has some hay and oats to eat.    
+~
+96 c 0 0 0  0
+D1
+~
+stall~
+1 0 9663 0 0 0 0 0 0 0 0
+S
+#9666
+Inside a Small Wood Fort~
+   This small fort looks to have been constructed as the wood was stacked in
+the cellar.  There is a small wooden stool and a few small dishes on a round
+log set up as a table for the children that played in here.  It looks like it
+hasn't been used in quite some time, most likely due to the problem of spiders
+down here.    
+~
+96 a 0 0 0  0
+D3
+~
+wood~
+1 0 9609 0 0 0 0 0 0 0 0
+S
+#9667
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9675 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9658 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9670 0 0 0 0 0 0 0 0
+S
+#9668
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9667 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9615 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9669 0 0 0 0 0 0 0 0
+S
+#9669
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9670 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9668 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9671 0 0 0 0 0 0 0 0
+S
+#9670
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9674 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9667 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9669 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9672 0 0 0 0 0 0 0 0
+S
+#9671
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 c 0 0 0  2
+D0
+~
+~
+0 0 9672 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9669 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9692 0 0 0 0 0 0 0 0
+S
+#9672
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9673 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9670 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9671 0 0 0 0 0 0 0 0
+S
+#9673
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9678 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9674 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9672 0 0 0 0 0 0 0 0
+S
+#9674
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9677 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9675 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9670 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9673 0 0 0 0 0 0 0 0
+S
+#9675
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9676 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9667 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9674 0 0 0 0 0 0 0 0
+S
+#9676
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9679 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9675 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9677 0 0 0 0 0 0 0 0
+S
+#9677
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9680 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9676 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9674 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9678 0 0 0 0 0 0 0 0
+S
+#9678
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9681 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9677 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9673 0 0 0 0 0 0 0 0
+S
+#9679
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9684 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9676 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9680 0 0 0 0 0 0 0 0
+S
+#9680
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9683 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9679 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9677 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9681 0 0 0 0 0 0 0 0
+S
+#9681
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9682 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9680 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9678 0 0 0 0 0 0 0 0
+S
+#9682
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9685 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9683 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9681 0 0 0 0 0 0 0 0
+S
+#9683
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9686 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9684 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9680 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9682 0 0 0 0 0 0 0 0
+S
+#9684
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9687 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9679 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9683 0 0 0 0 0 0 0 0
+S
+#9685
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9686 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9682 0 0 0 0 0 0 0 0
+S
+#9686
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9687 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9683 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9685 0 0 0 0 0 0 0 0
+S
+#9687
+A Cleared Portion Of The Wheat Field~
+   This part of the wheat field has been cut down by the farmer.  The stalks of
+wheat stop abruptly in a straight line through the field and only short brown
+grass is left where the wheat once stood.  A few animals look dazedly around,
+wondering what might have happened to their homes.    
+~
+96 0 0 0 0  2
+D2
+~
+~
+0 0 9684 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9686 0 0 0 0 0 0 0 0
+S
+#9688
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9648 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9689 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9646 0 0 0 0 0 0 0 0
+S
+#9689
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9649 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9647 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9688 0 0 0 0 0 0 0 0
+S
+#9690
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D2
+~
+~
+0 0 9653 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9691 0 0 0 0 0 0 0 0
+S
+#9691
+Wandering In a Wheat Field~
+   The wheat fields stretch as far as you can see.  It grows tall and blows
+with the wind, looking as if it needs to be cut soon.  There are a few small
+animals about among the wheat, it being their home.  A few tall stalks of wheat
+right near you are thick and brown with large heads of wheat on top.    
+~
+96 0 0 0 0  2
+D1
+~
+~
+0 0 9690 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9652 0 0 0 0 0 0 0 0
+S
+#9692
+At The Edge of The Wheat~
+   The edge of the expansive wheat field is before you.  Away off to the
+northeast there is a small house with smoke coming from a chimney.  There is a
+farmer in the field to the north and a few animals dart in and out of the
+wheat.  A small trail leads out of the fields a little ways from here.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9671 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9693 0 0 0 0 0 0 0 0
+S
+#9693
+At The Edge of The Wheat~
+   The edge of the expansive wheat field is before you.  Away off to the
+northeast there is a small house with smoke coming from a chimney.  There is a
+farmer in the field to the north and a few animals dart in and out of the
+wheat.  A small trail leads out of the fields a little ways from here.    
+~
+96 0 0 0 0  2
+D0
+~
+~
+0 0 9692 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9694 0 0 0 0 0 0 0 0
+S
+#9694
+Near A Large Ant Hill~
+   The small trail runs up to a huge ant hill that is easily as tall as a human
+stands high.  There are a few huge ants moving around it, working to make the
+hill bigger and collecting food for the colony.  It is a ways away from the
+field where the farmer cuts his wheat, so the farmer does not bother them too
+much.    
+~
+96 0 0 0 0  2
+D5
+~
+hill~
+1 0 9695 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9693 0 0 0 0 0 0 0 0
+S
+#9695
+Inside The Ant Hill~
+   This ant hill is large, but it is still not large enough to hold more than a
+couple people.  There are a few huge ants scurrying around in the tunnel,
+moving large bits of dirt, or carrying eggs to and fro.    
+~
+96 ai 0 0 0  0
+D1
+~
+~
+0 0 9696 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9697 0 0 0 0 0 0 0 0
+D4
+~
+hill~
+1 0 9694 0 0 0 0 0 0 0 0
+S
+#9696
+The Egg Chamber~
+   This chamber is smaller than the other two, but it holds quite a number of
+ant eggs to be hatched.  A few worker ants haul the eggs around from the queen
+to the egg chamber.  Rows are setup for the eggs to sit in in an organized
+fashion.    
+~
+96 ai 0 0 0  0
+D3
+~
+~
+0 0 9695 0 0 0 0 0 0 0 0
+S
+#9697
+The Queens Chamber~
+   This chamber is larger than the other ones.  The queen sits here in the
+middle, laying eggs one after another.  She fills most of the entire chamber,
+and could not get through the door to leave if she tried.  Positioned around
+her are the royal guards of the queen, huge soldier ants that will attack if
+the queen is harmed.    
+~
+96 ai 0 0 0  0
+D1
+~
+~
+0 0 9695 0 0 0 0 0 0 0 0
+S
+#9698
+Going Through The Portal~
+   When you first open the disk, all that can be seen is the top of the tree
+and the long drop down, but as you watch, a humming field of energy begins to
+emerge and a portal quickly fills in the hole.  You step out over the portal
+and float slowly down on the magical updraft.  You float down through the
+portal and begin to feel slightly disembodied as part of you is displaced at a
+time.  Right as you are almost all the way through, the circular hole above you
+closes and clicks back into place.    
+~
+96 0 0 0 0  0
+S
+#9699
+Page Larksin's Private Study~
+   This is the Private Studying room of Page Larksin.  It apears to be located
+at the top of one of the highest Vallenwood trees in all of Krynn, in the city
+of Solace.  There is an expansive desk made of burnt oak, so as to be a
+midnight black color, sitting on a large circular disk that is
+semi-transperant, and of a reddish tint.  The disk floats at the tip of the
+Vallenwood, moving gently with the tree as the wind blows.  Encasing the disk
+and its passengers is a shimmering red field of energy that protects them from
+rain and any other falling debree.    
+~
+96 0 0 0 0  0
+D0
+   To the north can be seen a small forest and a rocky hill amoung them,
+further north is New Sea and Ceargoth in the distance.  New Sea road can be
+seen winding its way north toward Thelgaard.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+   To the east, the plains of the Que Shue and a small mountain range can be
+seen, as well as the ruins of Xak Tsaroth.  Far off to the east the sea and a
+small speck, like an island can be seen out on the water.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+   Far to the south is the Qualinesti forest and a small mountain range, as
+well as the Wayreth forest, with its continually shifting canopy.  The Plains
+of Dust are almost visable, though only as a brown smudge on the horizon.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+   Off to the west the Sirrion Sea begins after the edge of the Qualinesti
+forest.  A small part of Southern Ergoth can be seen, as well as a couple
+smaller islands.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+In every direction you can see the endless sky from horizon to horizon. Occasionally a bird will fly by and see you and get a quizical look in its eyes.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+   Spread out below are all the vallenwood trees of Solace, and a few trails
+leading away from them to the east and south.  Crystalmir lake is as a small
+puddle of sparkling blue, with the cabin on it looking as a childs play thing.
+  
+~
+disk~
+1 9645 9698 0 0 0 0 0 0 0 0
+D6
+   In every direction you can see the endless sky from horizon to horizon.  
+Occasionally a bird will fly by and see you and get a quizical look in its
+eyes.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D7
+   In every direction you can see the endless sky from horizon to horizon.  
+Occasionally a bird will fly by and see you and get a quizical look in its
+eyes.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D9
+   In every direction you can see the endless sky from horizon to horizon.  
+Occasionally a bird will fly by and see you and get a quizical look in its
+eyes.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+   In every direction you can see the endless sky from horizon to horizon.  
+Occasionally a bird will fly by and see you and get a quizical look in its
+eyes.    
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+E
+map krynn~
+   This large map is spread out over the entire desk, and it shows all of Krynn
+on its face.  Toward the top of the map is Palanthas and the Solamnia regions,
+and to the south is Solace and the Plains of Dust.  Sanction and some other
+cities are also drawn, though not as visibly as the other half.  There are many
+red and silver lines all over the map, magically drawn, that show where the
+Mapmaker has been and explored.    
+~
+E
+red ball glowing light~
+   This ball of red light sits on the desk in a golden stand.  It provides
+light for the mage to see and do his work, as well as lighting up the rest of
+the room.  Looking into the ball of magical light, you cannot seem to grasp a
+sense of depth, with all of its swirling colors and soft edges.    
+~
+E
+slot~
+   This slot is in the shape of the symbol of the magical eye.  It has three
+circles, each inside of eachother, with the center being hollow.  It looks like
+a certain key may fit in there to open up the disk.    
+~
+E
+desk~
+   This desk sits here on the disk with a chair behind it.  On the surface of
+the desc is etched a map of all Krynn that Page has mapped so far.  As you
+watch, a new etch mark is added as new places are discovered and drawn.  The
+desk is made of burnt oak wood and gives off a nice oak fragrance.  There are a
+couple small drawers in the desk, and a red orb sitting in a platinum stand on
+the desk giving off a brilliant red glow for good visibility.    
+~
+E
+drawer~
+   This drawer is in the center of the desk and opens with a small click.  
+Inside the drawer is a feather quill pen, a vial of black ink, and a small tome
+bound in wrinkled white leather.  The tome looks to have been written on
+extensivly, probably with the feather pen.    
+~
+E
+tome ~
+You see nothing special.
+~
+E
+tome~
+   This tome is bound in white leather that seems to be old and wrinkled.  
+Within its pages are some words written in magic, as well as what seems to be a
+listing of scrolls on Krynn.  The book is entitled, "The Book of Scrolls".    
+~
+E
+feather quill pen~
+   This pen is golden in color and when you examine it, it actually looks to be
+a griffon feather.  The quill has black ink on the tip of it, and it has worked
+down from its original pointy tip, proof of extensive use.    
+~
+E
+ink vial black~
+   This small vial is made of a clear glass and contains black ink for writing.
+It is neatly labelled and sits next to the feather pen in the drawer.    
+~
+E
+orb red~
+   A brilliant red orb sits here in a platinum stand on the burnt oak desk.  
+Lights swirl within it in a dizying circular motion that sets your head
+spinning.  You cannot look at it too long without blinking, as it tends to make
+your eyes wander off of it.    
+~
+E
+disk~
+   The disk is reddish in color and seems to be semi transperant.  Etched on
+the surface of it is the symbol of the magic eye, with the center being darker
+red than the outer edge.  In the very center of the eye is a curiously shaped
+slot, looking to also be the shape of the magical eye.    
+~
+S
+$

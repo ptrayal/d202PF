@@ -1,0 +1,90 @@
+#36
+None.~
+Roads~
+3600 3699 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  3600     5  3601   1   100     1    -1          0 a giggling kender
+
+M 0  3602     3  3605   1   100     2    -1          0 a tumble weed
+
+M 0  3600     5  3605   1   100     3    -1          0 a giggling kender
+
+M 0  3603    10  3609   3   100     4    -1          0 an adventurous kender
+
+M 0  3600     5  3609   1   100     5    -1          0 a giggling kender
+
+M 0  3600     5  3616   1   100     6    -1          0 a giggling kender
+
+M 0  3601     5  3618   1   100     7    -1          0 a frail deer
+
+M 0  3600     5  3618   1   100     8    -1          0 a giggling kender
+
+E 1  3601    10    16   0   100     9     8          0 a wooden whipak
+
+M 0  3601     5  3622   1   100    10    -1          0 a frail deer
+
+M 0  3601     5  3626   1   100    11    -1          0 a frail deer
+
+O 0  3602     1  3630   0   100    12    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    13    12          0 a handful of red berries
+
+M 0  3601     5  3630   1   100    14    -1          0 a frail deer
+
+O 0  3602     1  3632   0   100    15    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    16    15          0 a handful of red berries
+
+M 0  3601     5  3632   1   100    17    -1          0 a frail deer
+
+M 0  3602     3  3602   1   100    18    -1          0 a tumble weed
+
+M 0  3602     3  3606   1   100    19    -1          0 a tumble weed
+
+M 0  3603    10  3615   3   100    20    -1          0 an adventurous kender
+
+M 0  3603    10  3621   3   100    21    -1          0 an adventurous kender
+
+E 1  3600    10     6   0   100    22    21          0 a pretty red string
+
+O 0  3602     1  3631   0   100    23    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    24    23          0 a handful of red berries
+
+O 0  3602     1  3634   0   100    25    11          0 a flourishing berry bush
+
+O 0  3602     1  3635   0   100    26    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    27    26          0 a handful of red berries
+
+O 0  3602     1  3636   0   100    28    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    29    28          0 a handful of red berries
+
+O 0  3602     1  3637   0   100    30    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    31    30          0 a handful of red berries
+
+O 0  3602     1  3638   0   100    32    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    33    32          0 a handful of red berries
+
+O 0  3602     1  3639   0   100    34    11          0 a flourishing berry bush
+
+O 0  3602     1  3640   0   100    35    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    36    35          0 a handful of red berries
+
+O 0  3602     1  3641   0   100    37    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    38    37          0 a handful of red berries
+
+O 0  3602     1  3610   0   100    39    11          0 a flourishing berry bush
+
+P 1  3603    10  3602   0   100    40    39          0 a handful of red berries
+
+S
+$

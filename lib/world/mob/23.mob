@@ -1,0 +1,25 @@
+#2394
+Test dummy~
+test dummy~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+0 20 10 1d1+0 1d1+0
+0 0 0 0
+8 8 1
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+$

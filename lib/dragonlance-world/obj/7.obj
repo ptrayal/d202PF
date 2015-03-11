@@ -1,0 +1,393 @@
+#700
+object new~
+a new object~
+A new object is here.~
+~
+9 cjklprsuvwBCDEF abc 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 30 0
+#701
+hide~
+the decrepit hide of an antiquated beast~
+A cracked piece of animal hide is carelessly tossed aside.~
+~
+9 jklpruvwBEF abc 0 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 900 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+A
+2 -1 0
+A
+14 -5 0
+#702
+object new~
+rubble~
+A pile of fallen ceiling stones have collected here.~
+~
+13 cjklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34463 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#703
+dagger wickedly curved~
+a wickedly curved dagger~
+This shouldn't be on the ground, so don't pick it up biiiaatch!!!~
+~
+5 abcfgiknorsuvBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+inscription blade~
+You see nothing special.
+In memory of the black and silver caped elf, that once bore this blade.
+~
+A
+5 25 0
+A
+1 25 0
+A
+2 25 0
+A
+19 -106 0
+A
+18 -106 0
+A
+13 100 0
+#704
+sword thin rapier~
+a slim quick sword~
+A thin curved foil lays discarded here.~
+~
+5 jkloprstuvBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#705
+scale hiddukel unbalanced~
+a large unbalanced scale~
+A large silver scale, in perpetual imbalance, rests uneasily where it has been placed.~
+~
+8 ckmnopqrstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+white~
+You see nothing special.
+~
+E
+black~
+   This statue is quite detailed, and upon looking closely one notices that
+there are actually several figures etched into it.  Each being unique in it's
+appearance.  The first is a simple black robed man, his face being conceiled
+beneath his cloak.  In his hands rests a spherical object, several circular
+indents running along its surface.  The second is a skull faced individual,
+around him swarms small skeletons, all of which are evenly spaced.  The middle
+is a large black clad warrior, it's features being quite female despite the
+armor, upon which is etched a large five headed dragon.  The next figure is a
+man with a deap cloak pulled around him, his face not looking all so well.  
+The following figure is a large brutish minotaur, in his hands is a
+double-bitted axe and an unmistakable grin of revenge covers his face, his form
+towers over that of the accompaning figures.  Following the beast, is a single,
+rather portly figure, his smile gleaming greedily, and a large pile of treasure
+has accumulated at his side.    
+~
+E
+scale~
+   On each side of the balance, several items are placed.  On the right lies a
+pile of diamonds, several pearls, and a single marbled statue with several
+figures.  On the opposing side several onxy gems of varying sizes are placed.
+As is a jade necklace, and a contrasting statue that is quite similar to
+thewhite.  The scale itself is molded out of a melted silver, and a single ruby
+is faceted atop the balance.  The scale itself was made to resemble a rather
+delighted man in his middle ages, wearing a robust outfit, as well as looking
+quite well off.  In each hand he holds the diases, and as his arms are never
+fully parallel to the ground, it appears as though he is spilling little bits
+of his collection off each side as he goes.  Odd enough, nothing is ever
+leaving his hoard as it sways.    
+~
+#706
+glistening white bastard sword~
+a glistening white bastard sword~
+A lengthy blade with a shining white marble hilt has been discarded here.~
+~
+5 bjpstuvCF ac 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+13 1 0
+A
+2 -1 0
+#707
+brass trimmed chain mail~
+worn brass-trimmed chainmail~
+A brass trimmed set of worn chain mail has been tossed aside here.~
+~
+9 ijklnpstBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+A
+9 -3 0
+#708
+circlet golden leaf intertwined~
+a shining circlet with intertwined leaves~
+A circular object with a speck of gold has been discarded here.~
+~
+0 jklnpBCF a 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -1 0
+A
+14 3 0
+#709
+white wrap semi transparent soul~
+the semi-transparent wrap of a wandering soul~
+A wispy white colored piece of fabric floats slightly above the ground.~
+~
+9 jklmnwBCDEF abc 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+A
+13 -25 0
+#710
+dagger~
+hid's dagger~
+Hid's deadly dagger~
+~
+5 jklmnoprstuvwBCDEF abc 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#711
+jagged moldy wood plank ~
+a jagged wood plank~
+A piece of moldy worn down wood has fallen here.~
+~
+5 jklopuvBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#712
+talon black bird claw~
+a black talon~
+The claw of some large bird has disconnected itself from its original master.~
+~
+0 jklmnopruvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 15 0
+#713
+earring blue stone~
+an earring set with a polished blue stone~
+A tiny piece of blue glass sparkles in the light.~
+~
+9 ajklmnoprstuvwBCDEF abc 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#714
+tunic green colored~
+a green colored tunic~
+A green tunic lies neatly folded here.~
+~
+9 jklmnoprstuvwBCDEF ab 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 250 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#715
+dagger silver wyvern~
+a silver bladed dagger with a wyvern hilt~
+A sharp dagger lies here where it has been tossed aside.~
+~
+5 jklmnoprsuvBCDEF abc k 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#716
+tail will wisp~
+the tail of the will o' the wisp~
+A large ball of light hovers slightly above the ground.~
+~
+1 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#717
+boots knee high~
+a pair of knee-high black leather boots~
+A large pair of leather boots lie here in a heap.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+heel~
+   There appears to be a hollowness to the heel of this boot.    
+~
+#718
+scale broken merchants~
+a broken merchants scale~
+A large golden scale with two carvings of merchants supporting each balance balances here.~
+~
+1 ajklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+merchants carvings~
+   Two robust figures sit on either side, their hands raised slightly over
+their balding heads.  Each is dressed in large black robes, and they appear to
+be twins.  Their double chins and unwavering look are accompanied by a greedy
+grin.  No matter what is being evaluated here, this man always comes out ahead.
+Each of these figures is carved out of a clear crystal, inside which a black
+fluid flows in perpetual motion.    
+~
+A
+18 1 0
+#719
+armguard insignia marked chemosh~
+the insignia marked armguard of chemosh~
+An insignia marked armguard of the lord of the dead lies here.~
+~
+8 akmnoprstuvwBCDEF abc 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+armguard~
+   This armguard is formed entirely of polished bone, and was soaked for a
+short time in a black pigment which has now found its way into all the crevaces
+along the piece.  The symbol of a skull is now visible on the face of the
+armguard, and the ink here was not nearly as heavily applied so it has a
+yellowish pigment to it.  It is rumored that many centuries ago Chemosh himself
+once wore this item, before he attained the position he holds in recent times.
+~
+A
+2 1 0
+A
+17 -5 0
+$~

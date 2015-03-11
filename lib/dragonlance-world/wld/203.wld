@@ -1,0 +1,1730 @@
+#20300
+Entrance to the Mountain Pass~
+   You are entering a wide mountain path into the fire fang mountains, it does
+not seem fairly well traveled or safe.  There are very large footprints going in
+and out of the pass, with very few signs of life otherwise.  
+~
+203 0 0 0 0 10
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20301 0 0 0 0 0 0 0 0
+S
+#20301
+Mountain Pass~
+   Traveling deeper into the pass the footprints coalesce into one large path as
+the trail starts to steepen on its way up into the hills.  It is becoming fairly
+obvious as to what sort of territory this is.  
+~
+203 0 0 0 0 10
+D1
+~
+~
+0 0 20300 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20302 0 0 0 0 0 0 0 0
+S
+#20302
+Mountain Pass~
+   This path is becoming more and more entrenched as you go along into the
+mountain, the footprints are now not the only tracks that can be seen.  Hoof
+prints can be seen here and there, and are fairly oversized, just like the trail
+you are following now.  
+~
+203 0 0 0 0 10
+D1
+~
+~
+0 0 20301 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20303 0 0 0 0 0 0 0 0
+S
+#20303
+Mountain Pass~
+   Nearing a turn in the trail, the path starts to become very steep from here.
+With jagged outcrops here and there just off the path, it is becoming less and
+less safe to travel through.  
+~
+203 0 0 0 0 10
+D1
+~
+~
+0 0 20302 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20305 0 0 0 0 0 0 0 0
+S
+#20304
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D3
+~
+~
+0 0 20398 0 0 0 0 0 0 0 0
+S
+#20305
+Mountain Pass~
+   The path turns to the north from here, with the same jagged outcroppings as
+before.  The footprints are just as prevailent as before, with quite a few more
+hoof prints zigzagging here and there across the path.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20306 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20303 0 0 0 0 0 0 0 0
+S
+#20306
+Mountain Pass~
+   The path turns back east and the outcroppings are starting to subside, with
+more and more hoofprints that can be seen crossing back and forth across the
+path, with rolling hills off in the distance.  
+~
+203 0 0 0 0 10
+D2
+~
+~
+0 0 20305 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20307 0 0 0 0 0 0 0 0
+S
+#20307
+Mountain Pass~
+   Nearing the rolling hilltops the creatures leaving the hoofprints can now be
+seen rather clearly, giant stags, fawns, and does can be seen eating the tall
+grass even from here.  
+~
+203 0 0 0 0 10
+D1
+~
+~
+0 0 20306 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20308 0 0 0 0 0 0 0 0
+S
+#20308
+Path through the Hills~
+   The path opens up here into rolling hills and vast fields with huge animals
+grazing and trotting around with very little fear of humanity.  With the larger
+stags keeping an eye on passers by just in case.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20309 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20307 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20313 0 0 0 0 0 0 0 0
+S
+#20309
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D2
+~
+~
+0 0 20308 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20311 0 0 0 0 0 0 0 0
+S
+#20310
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20308 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20314 0 0 0 0 0 0 0 0
+S
+#20311
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20312 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20309 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20313 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20318 0 0 0 0 0 0 0 0
+S
+#20312
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D2
+~
+~
+0 0 20311 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20316 0 0 0 0 0 0 0 0
+S
+#20313
+Path through the Hills~
+   The path widens and calms here as one passes through the hillside, with
+rolling fields of grass and unbelieveably large animals grazing here, it seems
+rather peaceful and tame.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20311 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20308 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20314 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20319 0 0 0 0 0 0 0 0
+S
+#20314
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20313 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20310 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20315 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20320 0 0 0 0 0 0 0 0
+S
+#20315
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20314 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20321 0 0 0 0 0 0 0 0
+S
+#20316
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20317 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20312 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20323 0 0 0 0 0 0 0 0
+S
+#20317
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, to the north one can see a jagged cliff leading
+almost straight up.  
+~
+203 0 0 0 0 4
+D2
+~
+~
+0 0 20316 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 20332 0 0 0 0 0 0 0 0
+S
+#20318
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20316 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20311 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20324 0 0 0 0 0 0 0 0
+S
+#20319
+Path through the Hills~
+   At the center of the rolling hills the area seems rather calm, with a
+slightly used path leading off into the distance in the south, and rolling hills
+off to the north.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20318 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20313 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20320 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20325 0 0 0 0 0 0 0 0
+S
+#20320
+Unused Path~
+   The path here still has a few recent footprints on it, but is much less used
+than the east to west path off to the north, and seems much less safer than the
+rest of the hillside.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20319 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20314 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20321 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20326 0 0 0 0 0 0 0 0
+S
+#20321
+Unused Path~
+   This area of the hillside is littered with broken stone and rubble, and it
+has an old carved stone path leading through the ravine to the south.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20320 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20315 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20322 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20327 0 0 0 0 0 0 0 0
+S
+#20322
+Unused Path~
+   In the center of this ravine the trail is all broken stone and fallen rubble,
+it doesnt seem safe to stay here for very long.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20321 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20349 0 0 0 0 0 0 0 0
+S
+#20323
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D1
+~
+~
+0 0 20316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20324 0 0 0 0 0 0 0 0
+S
+#20324
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20323 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20318 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20325 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20328 0 0 0 0 0 0 0 0
+S
+#20325
+Path through the Hills~
+   The path here narrows as you head to the west, with the same tell tale
+footprints as before trailing back and forth east to west, marking the path out
+for one to follow.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20324 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20326 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20329 0 0 0 0 0 0 0 0
+S
+#20326
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20325 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20320 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20330 0 0 0 0 0 0 0 0
+S
+#20327
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20326 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20321 0 0 0 0 0 0 0 0
+S
+#20328
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D1
+~
+~
+0 0 20324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20329 0 0 0 0 0 0 0 0
+S
+#20329
+Path through the Hills~
+   The path starts to narrow again as the mountain begins to rise up to the
+north and west, with outcroppings making the path a bit more round about than
+before, and the path continuing off to the west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20328 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20331 0 0 0 0 0 0 0 0
+S
+#20330
+Rolling Hills~
+   The hills here are expansive, rolling hills, with large fields of grass, and
+sparse trees here and there, dotting the landscape, preventing you from getting
+lost in the near blank landscape.  
+~
+203 0 0 0 0 4
+D0
+~
+~
+0 0 20329 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20326 0 0 0 0 0 0 0 0
+S
+#20331
+Mountain Pass~
+   The path continues here to the west around the outcroppings, with the signs
+of hoofprints becoming more scarce as the path rises up into the mountains.  
+~
+203 0 0 0 0 10
+D1
+~
+~
+0 0 20329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20370 0 0 0 0 0 0 0 0
+S
+#20332
+Steep Cliff~
+   This is a jagged, steep cliff, it doesn't seem safe for anyone who cant fly.
+One can see the rolling hillside below, and even more of the jagged cliff above.
+
+~
+203 0 0 0 0 5
+D4
+~
+~
+0 0 20333 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 20317 0 0 0 0 0 0 0 0
+S
+#20333
+Steep Cliff~
+   This is a jagged, steep cliff, it doesn't seem safe for anyone who cant fly.
+One can see the rolling hillside far far below, and even more of the jagged
+cliff above.  
+~
+203 0 0 0 0 5
+D4
+~
+~
+0 0 20334 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 20332 0 0 0 0 0 0 0 0
+S
+#20334
+Steep Cliff~
+   This is a jagged, steep cliff, it doesn't seem safe for anyone who cant fly.
+One can see the rolling hillside far far below, and even more of the jagged
+cliff above.  
+~
+203 0 0 0 0 5
+D4
+~
+~
+0 0 20335 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 20333 0 0 0 0 0 0 0 0
+S
+#20335
+Steep Cliff~
+   This is a jagged, steep cliff, it doesn't seem safe for anyone who cant fly.
+One can see the rolling hillside down in the distance, and the jagged cliff ends
+shortly above.  
+~
+203 0 0 0 0 5
+D4
+~
+~
+0 0 20336 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 20334 0 0 0 0 0 0 0 0
+S
+#20336
+Roc's Nest~
+   The edge of the cliff here is home to a very large nest, looking at the size
+of the nest, one hopes to not be here at the same time as its owner.  
+~
+203 0 0 0 0 5
+D0
+~
+~
+0 0 20337 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 20335 0 0 0 0 0 0 0 0
+S
+#20337
+Abandoned Cave~
+   Entering this cave it is strewn with bones, with scorch marks dotting the
+ground, off to the east one can see occasional flashes of light and heat.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20338 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20340 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20336 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20339 0 0 0 0 0 0 0 0
+S
+#20338
+Abandoned Cave~
+   This portion of the cave here looks to be nearly abandoned, covered in
+cobwebs, with little spiders here and there skittering away as one comes near.
+
+~
+203 C a 0 0 0
+D2
+~
+~
+0 0 20337 0 0 0 0 0 0 0 0
+S
+#20339
+Abandoned Cave~
+   This portion of the cave here looks to be nearly abandoned, covered in
+cobwebs, with little spiders here and there skittering away as one comes near.
+
+~
+203 C a 0 0 0
+D1
+~
+~
+0 0 20337 0 0 0 0 0 0 0 0
+S
+#20340
+Hydra's Lair~
+   Covered in scorch marks and blood stains, this portion of the cave has a
+fairly large multiheaded creature chained to the wall, doing its best to try and
+eat you.  
+~
+203 C 0 0 0 0
+D1
+~
+door~
+3 0 20341 20 35 601 0 0 0 0 0
+D3
+~
+~
+0 0 20337 0 0 0 0 0 0 0 0
+S
+#20341
+Old Passage~
+   This near empty passage has broken traps and runes lying here and there, to
+the north looks to be torch light, in the direction of what one hopes to be
+treasure.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20342 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 20340 20 0 0 0 0 0 0 0
+S
+#20342
+Old Passage~
+   There are fewer broken traps and runes here.  As one continues to the north
+the passage seems more and more intact, making one weary as to the veracity of
+the traps still to be found.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20343 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20341 0 0 0 0 0 0 0 0
+S
+#20343
+Old Passage~
+   The cave here is nearly intact, with almost all of the traps being in full
+working order, leaving one to wonder what these traps are protecting.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20344 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20342 0 0 0 0 0 0 0 0
+S
+#20344
+Before the Hoard~
+   The cave here is completely intact, with everything in full working order,
+including a huge stone door with narrow slits in it blocking ones way north.  
+~
+203 C 0 0 0 0
+D0
+~
+Stone Door~
+1 0 20345 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20343 0 0 0 0 0 0 0 0
+S
+#20345
+Ettins Lair~
+   Welcome to the Lair of Quaroth the Ettin, one was hoping for a treasure
+horde, but finds only a heavily armored two headed giant in its place.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20346 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20348 0 0 0 0 0 0 0 0
+D2
+~
+Stone Door~
+1 0 20344 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20347 0 0 0 0 0 0 0 0
+S
+#20346
+Empty Dragons Hoard~
+This hoard was long ago stripped bare by thieves and bandits, one would be lucky to find a broken copper piece still laying here.
+~
+203 C b 0 0 0
+D2
+~
+~
+0 0 20345 0 0 0 0 0 0 0 0
+S
+#20347
+Empty Dragons Hoard~
+   This hoard was long ago stripped bare by thieves and bandits, one would be
+lucky to find a broken copper piece still laying here.  
+~
+203 C b 0 0 0
+D1
+~
+~
+0 0 20345 0 0 0 0 0 0 0 0
+S
+#20348
+Empty Dragons Hoard~
+   This hoard was long ago stripped bare by thieves and bandits, one would be
+lucky to find a broken copper piece still laying here.  
+~
+203 C b 0 0 0
+D3
+~
+~
+0 0 20345 0 0 0 0 0 0 0 0
+S
+#20349
+Near the Dwarven City~
+   The rubble is starting to clear out now as a abandoned dwarven city appears
+off in the distance to the south, now the problem is the hill giants one can see
+at the gates, protecting thier territory.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20350 0 0 0 0 0 0 0 0
+S
+#20350
+Dwarven City Gates~
+   Welcome to the ruined city of darphur, once a thriving home to many a dwarf,
+now crumbled and destroyed by the hill giants who now occupy it, it has seen its
+better days.  
+~
+203 0 0 0 0 0
+D0
+~
+~
+0 0 20349 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20352 0 0 0 0 0 0 0 0
+D2
+This is a door
+~
+Gate~
+1 0 20353 45 0 601 0 0 0 0 0
+D3
+~
+~
+0 0 20351 0 0 0 0 0 0 0 0
+S
+#20351
+Near the Gates~
+   This portion of the city appears to be old crumbled battlements used to
+defend the dwarven city at its prime, before the Hill Giants invaded and took it
+for thier own.  
+~
+203 0 0 0 0 0
+D1
+~
+~
+0 0 20350 0 0 0 0 0 0 0 0
+S
+#20352
+Near the Gates~
+   This portion of the city appears to be old crumbled battlements used to
+defend the dwarven city at its prime, before the Hill Giants invaded and took it
+for thier own.  
+~
+203 0 0 0 0 0
+D3
+~
+~
+0 0 20350 0 0 0 0 0 0 0 0
+S
+#20353
+Entrance to the Dwarven City~
+   This passageway is the main entrance of this once thriving dwarven city, now
+only amenities for giants are strewn here and there.  With the passage in
+disrepair and covered in rubble, one almost feels sorry for the ones that used
+to live here.  
+~
+203 C 0 0 0 0
+D0
+~
+Gate~
+1 0 20350 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20354 0 0 0 0 0 0 0 0
+S
+#20354
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20353 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20363 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20355 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20362 0 0 0 0 0 0 0 0
+S
+#20355
+Center Pillar~
+   The Pillar here is the support beam for the entirety of the cavern, if this
+pillar were to ever collapse nothing in the cavern would survive.  One would
+think it best to keep thier distance from it, as it is in as much disrepair as
+the rest of cavern.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20354 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20366 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20356 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20364 0 0 0 0 0 0 0 0
+S
+#20356
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20355 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20369 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20357 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20368 0 0 0 0 0 0 0 0
+S
+#20357
+Main Corridor~
+   This corridor extends south away from the center pillar and looks quite a bit
+more organized, and gets even cleaner the further south you go.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20356 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20358 0 0 0 0 0 0 0 0
+S
+#20358
+Southern Gate~
+   The gate here is very clean, ornate and large.  The only thing dwarfing thier
+size is the size of the two guards watching the door to keep out riff raff.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20357 0 0 0 0 0 0 0 0
+D2
+~
+Gate Iron~
+1 0 20359 45 0 0 0 0 0 0 0
+S
+#20359
+Main Corridor~
+   This area is much cleaner than the rest of the ruins, refurbished with
+tapestries and such from the more ruined areas, making it look much more lavish
+than any other section of the ruins.  
+~
+203 C 0 0 0 0
+D0
+~
+Gate~
+1 0 20358 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20360 0 0 0 0 0 0 0 0
+S
+#20360
+Elite Quarters~
+   This room is where all the elite guards are housed to protect the leader of
+the Hill Giants.  Well organized and clean, to keep the leaders best troops
+happy.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20359 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20361 0 0 0 0 0 0 0 0
+S
+#20361
+Collapsed Passageway~
+   This is where the Hill Giant Lord claims his home, it has an elegant
+oversized bed, huge tapestries, and an oversized throne for him to sit on, and a
+collapsed tunnel all the way to the south.  
+~
+203 C c 0 0 0
+D0
+~
+~
+0 0 20360 0 0 0 0 0 0 0 0
+S
+#20362
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D1
+~
+~
+0 0 20354 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20364 0 0 0 0 0 0 0 0
+S
+#20363
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D2
+~
+~
+0 0 20366 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20354 0 0 0 0 0 0 0 0
+S
+#20364
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20362 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20355 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20365 0 0 0 0 0 0 0 0
+S
+#20365
+Collapsed Passageway~
+The passageway here collapsed long ago, most likely when the Hill Giants took
+over this place and seems just as safe as everywhere else in this cavern.  
+~
+203 C 0 0 0 0
+D1
+~
+~
+0 0 20364 0 0 0 0 0 0 0 0
+S
+#20366
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20363 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20367 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20369 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20355 0 0 0 0 0 0 0 0
+S
+#20367
+Collapsed Passageway~
+The passageway here collapsed long ago, most likely when the Hill Giants took
+over this place and seems just as safe as everywhere else in this cavern.  
+~
+203 C 0 0 0 0
+D3
+~
+~
+0 0 20366 0 0 0 0 0 0 0 0
+S
+#20368
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20364 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20356 0 0 0 0 0 0 0 0
+S
+#20369
+Center Circle~
+   This is the main circle for the entire dwarven city.  The ceiling here is
+immensely taller than even a giant would need, with vast arching butresses,
+runes carved into the stones everwhere, and crumbling passages expanding in
+every direction away from an immense pillar in the center that holds up this
+entire cavern.  
+~
+203 C 0 0 0 0
+D0
+~
+~
+0 0 20366 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20356 0 0 0 0 0 0 0 0
+S
+#20370
+Mountain Pass~
+   The path here turns to the north as the area to the west becomes nothing more
+than a jagged cliff with a large ravine at the bottom.  The presence of animals
+is now next to nil as the path straightens out and widens here.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20371 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20331 0 0 0 0 0 0 0 0
+S
+#20371
+Mountain Pass~
+   The path slopes gently up to the north and becomes much safer to travel as
+you can see that the outcroppings have been cleared out to make a much
+straighter path, with it marked by large stones on both sides.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20372 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20370 0 0 0 0 0 0 0 0
+S
+#20372
+Mountain Pass~
+   The path continues to the north from here with the stones on the side of the
+path now having territorial markers, looking closely one may be able to make out
+what type of territory one has crossed into.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20373 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20371 0 0 0 0 0 0 0 0
+S
+#20373
+Mountain Pass~
+   On the way further north this path starts to become paved with rough stone,
+as with the markers becoming more readily seen, one is fairly sure to have
+crossed into giant territory now.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20374 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20372 0 0 0 0 0 0 0 0
+S
+#20374
+Mountain Pass~
+   The rough stone pathway here becomes much smoother and almost cobblestoned,
+if one could call them such with the immense size of them, and continues off to
+the north.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20375 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20373 0 0 0 0 0 0 0 0
+S
+#20375
+Mountain Pass~
+   There is a near jagged cliff here to the north, it would be almost impossible
+to get up the cliff, if it werent for the enormous stone steps carved into the
+cliffside.  
+~
+203 0 0 0 0 10
+D2
+~
+~
+0 0 20374 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 20376 0 0 0 0 0 0 0 0
+S
+#20376
+Entrance to the Stone Giant Camp~
+   As one rises the stone steps a vast stone wall can be seen blocking the path
+to the north.  With the only way through to the stone giant encampment an even
+larger stone gate.  This stone gate is almost beyond measure, its pillars
+stretching into the sky.  
+~
+203 0 0 0 0 10
+D0
+~
+Gate~
+1 0 20377 55 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 20375 0 0 0 0 0 0 0 0
+S
+#20377
+Path into the Camp~
+   Passing into the camp one can see all the immense stone houses carved from
+what looks to be granite.  The solid stone path creates a circle around the
+center home.  The home of the elder of the village, the stone giant shaman.  
+With the rest of the houses on the outer edge of the semicircle, built into the
+circular wall.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20378 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 20376 20 0 0 0 0 0 0 0
+S
+#20378
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20379 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20395 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20377 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20386 0 0 0 0 0 0 0 0
+S
+#20379
+Elder Shamans Hut~
+   This is the home of the stone giant elder, Gartax.  More like a meeting place
+than a home, it is covered with the pelts and skins of large beasts, with an
+altar to some long forgotten god, and places for all the other giants to settle
+in for worship.  
+~
+203 0 0 0 0 0
+D2
+~
+~
+0 0 20378 0 0 0 0 0 0 0 0
+S
+#20380
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20381 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20393 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20384 0 0 0 0 0 0 0 0
+S
+#20381
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20382 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20392 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20380 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20383 0 0 0 0 0 0 0 0
+S
+#20382
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D2
+~
+~
+0 0 20381 0 0 0 0 0 0 0 0
+S
+#20383
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D1
+~
+~
+0 0 20381 0 0 0 0 0 0 0 0
+S
+#20384
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D1
+~
+~
+0 0 20380 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20385 0 0 0 0 0 0 0 0
+S
+#20385
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20384 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20386 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20389 0 0 0 0 0 0 0 0
+S
+#20386
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20385 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20378 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20387 0 0 0 0 0 0 0 0
+S
+#20387
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D0
+~
+~
+0 0 20386 0 0 0 0 0 0 0 0
+S
+#20388
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D2
+~
+~
+0 0 20389 0 0 0 0 0 0 0 0
+S
+#20389
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20388 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20385 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20390 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20391 0 0 0 0 0 0 0 0
+S
+#20390
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D0
+~
+~
+0 0 20389 0 0 0 0 0 0 0 0
+S
+#20391
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D1
+~
+~
+0 0 20389 0 0 0 0 0 0 0 0
+S
+#20392
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D3
+~
+~
+0 0 20381 0 0 0 0 0 0 0 0
+S
+#20393
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D2
+~
+~
+0 0 20394 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20380 0 0 0 0 0 0 0 0
+S
+#20394
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20393 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20398 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20395 0 0 0 0 0 0 0 0
+S
+#20395
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20394 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20396 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20378 0 0 0 0 0 0 0 0
+S
+#20396
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D0
+~
+~
+0 0 20395 0 0 0 0 0 0 0 0
+S
+#20397
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D2
+~
+~
+0 0 20398 0 0 0 0 0 0 0 0
+S
+#20398
+Path through the Camp~
+   The path around the stone giant encampment encircles the main hut and extends
+outward to all the other stone giant huts to the north, east and west.  
+~
+203 0 0 0 0 10
+D0
+~
+~
+0 0 20397 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 20304 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 20399 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 20394 0 0 0 0 0 0 0 0
+S
+#20399
+Stone Giant Hut~
+   This stone giant hut is well furnished in stone furniture, from the beds, to
+the chairs, to the tables.  Tended to by the children and women of the stone
+giant society.  
+~
+203 0 0 0 0 0
+D0
+~
+~
+0 0 20398 0 0 0 0 0 0 0 0
+S
+$~

@@ -1,0 +1,1864 @@
+#7800
+The start of the zone~
+You are in a room.
+~
+78 0 h 0 0  0
+S
+#7801
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7802 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7804 0 0 0 0 0 0 0 0
+S
+#7802
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7805 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7801 0 0 0 0 0 0 0 0
+S
+#7803
+An Immense Lava Pit~
+   The large pit has been turned into a burial ground for the Shadowpeople.  
+Bright reddish-orange lava from the pit spews violently into the air, creating
+a beautiful but dangerous sight.  The magma which has splattered onto the walls
+has cooled, forming a dark grey, reflective surface.    
+~
+78 d h 0 0  1
+D2
+~
+~
+0 0 7809 0 0 0 0 0 0 0 0
+S
+#7804
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7801 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7805 0 0 0 0 0 0 0 0
+S
+#7805
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7802 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7804 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7813 0 0 0 0 0 0 0 0
+S
+#7806
+A Freshly Dug Tunnel~
+   Sophisticated metal frames line the ceiling of this newly dug tunnel,
+protecting the workers from potential cave-ins.  Massive boulders have been cut
+away from the walls, extending the tunnel further underground.  Piles of debris
+wait patiently to be carted away to the lava pit.  The dust filled air makes it
+extremely hard to breath.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7837 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7814 0 0 0 0 0 0 0 0
+S
+#7807
+A Freshly Dug Tunnel~
+   Sophisticated metal frames line the ceiling of this newly dug tunnel,
+protecting the workers from potential cave-ins.  Massive boulders have been cut
+away from the walls, extending the tunnel further underground.  Piles of debris
+wait patiently to be carted away to the lava pit.  The dust filled air makes it
+extremely hard to breath.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7814 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7815 0 0 0 0 0 0 0 0
+S
+#7808
+An Immense Lava Pit~
+   The large pit has been turned into a burial ground for the Shadowpeople.  
+Bright reddish-orange lava from the pit spews violently into the air, creating
+a beautiful but dangerous sight.  The magma which has splattered onto the walls
+has cooled, forming a dark grey, reflective surface.    
+~
+78 d h 0 0  1
+D1
+~
+~
+0 0 7809 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7816 0 0 0 0 0 0 0 0
+S
+#7809
+An Immense Lava Pit~
+   The large pit has been turned into a burial ground for the Shadowpeople.  
+Bright reddish-orange lava from the pit spews violently into the air, creating
+a beautiful but dangerous sight.  The magma which has splattered onto the walls
+has cooled, forming a dark grey, reflective surface.    
+~
+78 d h 0 0  1
+D0
+~
+~
+0 0 7803 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7817 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7808 0 0 0 0 0 0 0 0
+S
+#7810
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7811 0 0 0 0 0 0 0 0
+S
+#7811
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7812 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7818 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7810 0 0 0 0 0 0 0 0
+S
+#7812
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7819 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7811 0 0 0 0 0 0 0 0
+S
+#7813
+Before An Underground Farm~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  From the northwest, a draft of humid air escapes from an underground
+farm.    
+~
+78 acd h 0 0  1
+D6
+~
+~
+0 0 7805 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7820 0 0 0 0 0 0 0 0
+S
+#7814
+A Freshly Dug Tunnel~
+   Sophisticated metal frames line the ceiling of this newly dug tunnel,
+protecting the workers from potential cave-ins.  Massive boulders have been cut
+away from the walls, extending the tunnel further underground.  Piles of debris
+wait patiently to be carted away to the lava pit.  The dust filled air makes it
+extremely hard to breath.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7807 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7806 0 0 0 0 0 0 0 0
+S
+#7815
+A Freshly Dug Tunnel~
+   Sophisticated metal frames line the ceiling of this newly dug tunnel,
+protecting the workers from potential cave-ins.  Massive boulders have been cut
+away from the walls, extending the tunnel further underground.  Piles of debris
+wait patiently to be carted away to the lava pit.  The dust filled air makes it
+extremely hard to breath.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7807 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7821 0 0 0 0 0 0 0 0
+S
+#7816
+An Immense Lava Pit~
+   The large pit has been turned into a burial ground for the Shadowpeople.  
+Bright reddish-orange lava from the pit spews violently into the air, creating
+a beautiful but dangerous sight.  The magma which has splattered onto the walls
+has cooled, forming a dark grey, reflective surface.    
+~
+78 d h 0 0  1
+D0
+~
+~
+0 0 7808 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7817 0 0 0 0 0 0 0 0
+S
+#7817
+An Immense Lava Pit~
+   The large pit has been turned into a burial ground for the Shadowpeople.  
+Bright reddish-orange lava from the pit spews violently into the air, creating
+a beautiful but dangerous sight.  The magma which has splattered onto the walls
+has cooled, forming a dark grey, reflective surface.    
+~
+78 d h 0 0  1
+D0
+~
+~
+0 0 7809 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7822 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7816 0 0 0 0 0 0 0 0
+S
+#7818
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7811 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7819 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7823 0 0 0 0 0 0 0 0
+S
+#7819
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7812 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7818 0 0 0 0 0 0 0 0
+S
+#7820
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7825 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7813 0 0 0 0 0 0 0 0
+S
+#7821
+A Freshly Dug Tunnel~
+   Sophisticated metal frames line the ceiling of this newly dug tunnel,
+protecting the workers from potential cave-ins.  Massive boulders have been cut
+away from the walls, extending the tunnel further underground.  Piles of debris
+wait patiently to be carted away to the lava pit.  The dust filled air makes it
+extremely hard to breath.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7815 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7826 0 0 0 0 0 0 0 0
+S
+#7822
+Approaching a Large Lava Pit.~
+   A reddish-orange glow emerges from the cavern to the north.  The walls here
+have been stripped of any life due to the extreme heat filling the tunnel.  
+Frequent bursts of molten lava have covered parts of the wall in dripping
+magma.    
+~
+78 acd h 0 0  1
+D0
+~
+~
+0 0 7817 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7828 0 0 0 0 0 0 0 0
+S
+#7823
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 acd h 0 0  1
+D0
+~
+~
+0 0 7818 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7831 0 0 0 0 0 0 0 0
+S
+#7824
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7835 0 0 0 0 0 0 0 0
+S
+#7825
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7820 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7836 0 0 0 0 0 0 0 0
+S
+#7826
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  Large clouds of dust emerges from the tunnel northwest.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7827 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7821 0 0 0 0 0 0 0 0
+S
+#7827
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7828 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7826 0 0 0 0 0 0 0 0
+S
+#7828
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  To the north the tunnel opens up into a large cavern of some kind.  
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7822 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7829 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7827 0 0 0 0 0 0 0 0
+S
+#7829
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7830 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7828 0 0 0 0 0 0 0 0
+S
+#7830
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7831 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7829 0 0 0 0 0 0 0 0
+S
+#7831
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  To the north the tunnel opens up into a large cavern of some kind.  
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7823 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7832 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7830 0 0 0 0 0 0 0 0
+S
+#7832
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7833 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7831 0 0 0 0 0 0 0 0
+S
+#7833
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7839 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7832 0 0 0 0 0 0 0 0
+S
+#7834
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7835 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7843 0 0 0 0 0 0 0 0
+S
+#7835
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7824 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7836 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7844 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7834 0 0 0 0 0 0 0 0
+S
+#7836
+Before An Underground Farm~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  From the west, a draft of humid air escapes from an underground farm.
+~
+78 acd h 0 0  1
+D3
+~
+~
+0 0 7835 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7825 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7845 0 0 0 0 0 0 0 0
+S
+#7837
+A Freshly Dug Tunnel~
+   Sophisticated metal frames line the ceiling of this newly dug tunnel,
+protecting the workers from potential cave-ins.  Massive boulders have been cut
+away from the walls, extending the tunnel further underground.  Piles of debris
+wait patiently to be carted away to the lava pit.  The dust filled air makes it
+extremely hard to breath.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7806 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7838 0 0 0 0 0 0 0 0
+S
+#7838
+A Freshly Dug Tunnel~
+   Sophisticated metal frames line the ceiling of this newly dug tunnel,
+protecting the workers from potential cave-ins.  Massive boulders have been cut
+away from the walls, extending the tunnel further underground.  Piles of debris
+wait patiently to be carted away to the lava pit.  The dust filled air makes it
+extremely hard to breath.    
+~
+78 ad h 0 0  1
+D1
+~
+boulder~
+1 0 7846 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7837 0 0 0 0 0 0 0 0
+S
+#7839
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7833 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7847 0 0 0 0 0 0 0 0
+S
+#7840
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7841 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7847 0 0 0 0 0 0 0 0
+S
+#7841
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7842 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7840 0 0 0 0 0 0 0 0
+S
+#7842
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 acd h 0 0  1
+D3
+~
+~
+0 0 7841 0 0 0 0 0 0 0 0
+D4
+~
+stone~
+1 0 8407 0 0 0 0 0 0 0 0
+S
+#7843
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7834 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7844 0 0 0 0 0 0 0 0
+S
+#7844
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7835 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7843 0 0 0 0 0 0 0 0
+S
+#7845
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7848 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7836 0 0 0 0 0 0 0 0
+S
+#7846
+An Ancient Prison~
+   Humming violently, a large field of magic ebbs and flows, encircling a
+glowing rock formation within.  The intrusion has caused the magical
+imprisonment to dissipate, ceasing all noise.  Loose rocks begin to rain from
+the ceiling, and the ground itself begins to quake as several glowing rocks
+quickly begin to construct themselves into one large mass.    
+~
+78 acd h 0 0  1
+D3
+~
+boulder~
+1 0 7838 0 0 0 0 0 0 0 0
+S
+#7847
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D6
+~
+~
+0 0 7839 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7840 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7854 0 0 0 0 0 0 0 0
+S
+#7848
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7845 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7856 0 0 0 0 0 0 0 0
+S
+#7849
+A Large Storage Cavern~
+   Large wooden crates full of multi-colored mushrooms have been lined side by
+side and stacked on top of each other, covering almost every square inch of the
+room.  No holes have been punctured into the floor in this area, as to keep the
+room as dry as possible to preserve the life of the stored mushrooms.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7850 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7857 0 0 0 0 0 0 0 0
+S
+#7850
+A Large Storage Cavern~
+   Large wooden crates full of multi-colored mushrooms have been lined side by
+side and stacked on top of each other, covering almost every square inch of the
+room.  No holes have been punctured into the floor in this area, as to keep the
+room as dry as possible to preserve the life of the stored mushrooms.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7858 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7849 0 0 0 0 0 0 0 0
+S
+#7851
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7852 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7859 0 0 0 0 0 0 0 0
+S
+#7852
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7853 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7860 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7851 0 0 0 0 0 0 0 0
+S
+#7853
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7861 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7852 0 0 0 0 0 0 0 0
+S
+#7854
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D7
+~
+~
+0 0 7847 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7862 0 0 0 0 0 0 0 0
+S
+#7855
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7864 0 0 0 0 0 0 0 0
+S
+#7856
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7867 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7848 0 0 0 0 0 0 0 0
+S
+#7857
+A Large Storage Cavern~
+   Large wooden crates full of multi-colored mushrooms have been lined side by
+side and stacked on top of each other, covering almost every square inch of the
+room.  No holes have been punctured into the floor in this area, as to keep the
+room as dry as possible to preserve the life of the stored mushrooms.    
+~
+78 acd h 0 0  1
+D0
+~
+~
+0 0 7849 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7858 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7869 0 0 0 0 0 0 0 0
+S
+#7858
+A Large Storage Cavern~
+   Large wooden crates full of multi-colored mushrooms have been lined side by
+side and stacked on top of each other, covering almost every square inch of the
+room.  No holes have been punctured into the floor in this area, as to keep the
+room as dry as possible to preserve the life of the stored mushrooms.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7850 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7857 0 0 0 0 0 0 0 0
+S
+#7859
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7851 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7860 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7870 0 0 0 0 0 0 0 0
+S
+#7860
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7852 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7861 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7859 0 0 0 0 0 0 0 0
+S
+#7861
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7853 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7860 0 0 0 0 0 0 0 0
+S
+#7862
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D6
+~
+~
+0 0 7854 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7871 0 0 0 0 0 0 0 0
+S
+#7863
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7864 0 0 0 0 0 0 0 0
+S
+#7864
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7855 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7865 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7872 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7863 0 0 0 0 0 0 0 0
+S
+#7865
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7866 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7864 0 0 0 0 0 0 0 0
+S
+#7866
+Before An Underground Farm~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  From the west, a draft of humid air escapes from an underground farm.
+~
+78 acd h 0 0  1
+D1
+~
+~
+0 0 7867 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7865 0 0 0 0 0 0 0 0
+S
+#7867
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7856 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7868 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7873 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7866 0 0 0 0 0 0 0 0
+S
+#7868
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7869 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7867 0 0 0 0 0 0 0 0
+S
+#7869
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  Northeast the tunnel opens up into a large cavern of some kind.    
+~
+78 ad h 0 0  1
+D3
+~
+~
+0 0 7868 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7857 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7874 0 0 0 0 0 0 0 0
+S
+#7870
+A Clan Cavern~
+   Soft, spongy, crimson colored fungi covers the immense cavern floor.  An
+ingenious ventilation system circulates fresh air regularly, while keeping the
+cavern heated.  Small holes in the floor, leading deep into the volcano's
+center, provide the Shadowpeople with sanitation necessities.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7859 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7877 0 0 0 0 0 0 0 0
+S
+#7871
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D2
+~
+~
+0 0 7881 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7862 0 0 0 0 0 0 0 0
+S
+#7872
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7864 0 0 0 0 0 0 0 0
+S
+#7873
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7867 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7882 0 0 0 0 0 0 0 0
+S
+#7874
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7875 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7869 0 0 0 0 0 0 0 0
+S
+#7875
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7876 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7874 0 0 0 0 0 0 0 0
+S
+#7876
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7877 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3762 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7875 0 0 0 0 0 0 0 0
+S
+#7877
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  To the north the tunnel opens up into a large cavern of some kind.  
+~
+78 acd h 0 0  1
+D0
+~
+~
+0 0 7870 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7878 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7876 0 0 0 0 0 0 0 0
+S
+#7878
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7879 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7877 0 0 0 0 0 0 0 0
+S
+#7879
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7880 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7878 0 0 0 0 0 0 0 0
+S
+#7880
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7881 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7879 0 0 0 0 0 0 0 0
+S
+#7881
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7871 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7883 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7880 0 0 0 0 0 0 0 0
+S
+#7882
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7873 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7884 0 0 0 0 0 0 0 0
+S
+#7883
+Within The Tunnels~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  This section of the tunnel abruptly comes to an end.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7881 0 0 0 0 0 0 0 0
+D8
+~
+wall~
+1 0 7885 0 0 0 0 0 0 0 0
+S
+#7884
+Before An Underground Farm~
+   These natural lava tubes have been excavated over time, making them more
+suitable for travel.  Slick, yellow slime entombs the numerous stalactites
+covering the ceiling.  Every few feet, a small vent allows volcanic air to heat
+the tunnel.  The sound of water dripping echoes throughout the gargantuan
+tunnels.  From the southwest, a draft of humid air escapes from an underground
+farm.    
+~
+78 acd h 0 0  1
+D0
+~
+~
+0 0 7882 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7890 0 0 0 0 0 0 0 0
+S
+#7885
+The Shadowhall~
+   Hazy light filters in through miniscule holes, illuminating the moss and
+minerals lining the dome-shaped cavern.  Large stalagmites covered in soft,
+spongy moss have been painstakingly shaped into working stools.  These stools
+create a circle around a center pedestal covered in runes and magical
+inscriptions.    
+~
+78 c h 0 0  1
+D1
+~
+~
+0 0 7886 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7891 0 0 0 0 0 0 0 0
+D6
+~
+wall~
+1 0 7883 0 0 0 0 0 0 0 0
+S
+#7886
+The Shadowhall~
+   Hazy light filters in through miniscule holes, illuminating the moss and
+minerals lining the dome-shaped cavern.  Large stalagmites covered in soft,
+spongy moss have been painstakingly shaped into working stools.  These stools
+create a circle around a center pedestal covered in runes and magical
+inscriptions.    
+~
+78 0 h 0 0  1
+D2
+~
+~
+0 0 7892 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7885 0 0 0 0 0 0 0 0
+S
+#7887
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7888 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7893 0 0 0 0 0 0 0 0
+S
+#7888
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7889 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7894 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7887 0 0 0 0 0 0 0 0
+S
+#7889
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D1
+~
+~
+0 0 7890 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7895 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7888 0 0 0 0 0 0 0 0
+S
+#7890
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D3
+~
+~
+0 0 7889 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7884 0 0 0 0 0 0 0 0
+S
+#7891
+The Shadowhall~
+   Hazy light filters in through miniscule holes, illuminating the moss and
+minerals lining the dome-shaped cavern.  Large stalagmites covered in soft,
+spongy moss have been painstakingly shaped into working stools.  These stools
+create a circle around a center pedestal covered in runes and magical
+inscriptions.    
+~
+78 0 h 0 0  1
+D0
+~
+~
+0 0 7885 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7892 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7896 0 0 0 0 0 0 0 0
+S
+#7892
+The Shadowhall~
+   Hazy light filters in through miniscule holes, illuminating the moss and
+minerals lining the dome-shaped cavern.  Large stalagmites covered in soft,
+spongy moss have been painstakingly shaped into working stools.  These stools
+create a circle around a center pedestal covered in runes and magical
+inscriptions.    
+~
+78 0 h 0 0  1
+D0
+~
+~
+0 0 7886 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7897 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7891 0 0 0 0 0 0 0 0
+S
+#7893
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7887 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7894 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7898 0 0 0 0 0 0 0 0
+S
+#7894
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7888 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7895 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7899 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7893 0 0 0 0 0 0 0 0
+S
+#7895
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7889 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7894 0 0 0 0 0 0 0 0
+S
+#7896
+The Shadowhall~
+   Hazy light filters in through miniscule holes, illuminating the moss and
+minerals lining the dome-shaped cavern.  Large stalagmites covered in soft,
+spongy moss have been painstakingly shaped into working stools.  These stools
+create a circle around a center pedestal covered in runes and magical
+inscriptions.    
+~
+78 0 h 0 0  1
+D0
+~
+~
+0 0 7891 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7897 0 0 0 0 0 0 0 0
+S
+#7897
+The Shadowhall~
+   Hazy light filters in through miniscule holes, illuminating the moss and
+minerals lining the dome-shaped cavern.  Large stalagmites covered in soft,
+spongy moss have been painstakingly shaped into working stools.  These stools
+create a circle around a center pedestal covered in runes and magical
+inscriptions.    
+~
+78 0 h 0 0  1
+D0
+~
+~
+0 0 7892 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7896 0 0 0 0 0 0 0 0
+S
+#7898
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7893 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7899 0 0 0 0 0 0 0 0
+S
+#7899
+The Mushroom Farms~
+   Moisture collects on the stalactites lining the ceiling, condensing and
+dripping upon the rows of fungi.  In between the numerous rows of thriving
+fungi, the Shadowpeoples food supply, are tiny thermal vents.  Air from the
+volcanoes seeps through these vents, circulating throughout the room, creating
+a comfortable, if somewhat humid atmosphere.    
+~
+78 ad h 0 0  1
+D0
+~
+~
+0 0 7894 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7898 0 0 0 0 0 0 0 0
+S
+$

@@ -1,0 +1,1783 @@
+#400
+Before the Wood~
+   Farther west, the trail disappears into the woods, fading into the shadows
+the trees provide.  To the north, the dargaard mountains are visible, while to
+the east, an endless field of grass stretches.  The foliage below ones feet has
+not grown very tall here, perhaps due to the trees blocking out the sun.    
+~
+4 cp 0 0 0  2
+D1
+~
+~
+0 0 401 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1145 0 0 0 0 0 0 0 0
+S
+#401
+Before the Wood~
+   Farther west, the trail disappears into the woods, fading into the shadows
+the trees provide.  To the north, the dargaard mountains are visible, while to
+the east, an endless field of grass stretches.  The foliage below ones feet has
+not grown very tall here, perhaps due to the trees blocking out the sun.    
+~
+4 cp 0 0 0  2
+D1
+~
+~
+0 0 402 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 400 0 0 0 0 0 0 0 0
+S
+#402
+Within an Empty Field~
+   Farther west, the trail disappears into the woods, fading into the shadows
+the trees provide.  To the north, the dargaard mountains are visible, while to
+the east, an endless field of grass stretches.  The foliage below ones feet has
+not grown very tall here, perhaps due to the trees blocking out the sun.    
+~
+4 cp 0 0 0  2
+D3
+~
+~
+0 0 401 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 403 0 0 0 0 0 0 0 0
+S
+#403
+Within an Empty Field~
+   Farther west, the trail disappears into the woods, fading into the shadows
+the trees provide.  To the north, the dargaard mountains are visible, while to
+the east, an endless field of grass stretches.  The foliage below ones feet has
+not grown very tall here, perhaps due to the trees blocking out the sun.    
+~
+4 cp 0 0 0  2
+D1
+~
+~
+0 0 404 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 402 0 0 0 0 0 0 0 0
+S
+#404
+Within an Empty Field~
+   Farther west, the trail disappears into the woods, fading into the shadows
+the trees provide.  To the north, the dargaard mountains are visible, while to
+the east, an endless field of grass stretches.  The foliage below ones feet has
+not grown very tall here, perhaps due to the trees blocking out the sun.    
+~
+4 cp 0 0 0  2
+D2
+~
+~
+0 0 405 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 403 0 0 0 0 0 0 0 0
+S
+#405
+Within an Empty Field~
+   To the east, the field has a few tracks scored into the ground.  Farther
+west, many trees are grouped together and a bit to the north of that, the
+dargaard mountains are visible.  A tree grows here and there, but the area is
+rather desolate.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 404 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 406 0 0 0 0 0 0 0 0
+S
+#406
+Within an Empty Field~
+   To the east, the field has a few tracks scored into the ground.  Farther
+west, many trees are grouped together and a bit to the north of that, the
+dargaard mountains are visible.  A tree grows here and there, but the area is
+rather desolate.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 405 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 407 0 0 0 0 0 0 0 0
+S
+#407
+Within an Empty Field~
+   To the east, the field has a few tracks scored into the ground.  Farther
+west, many trees are grouped together and a bit to the north of that, the
+dargaard mountains are visible.  A tree grows here and there, but the area is
+rather desolate.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 408 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 406 0 0 0 0 0 0 0 0
+S
+#408
+Within an Empty Field~
+   To the east, the field has a few tracks scored into the ground.  Farther
+west, many trees are grouped together and a bit to the north of that, the
+dargaard mountains are visible.  A tree grows here and there, but the area is
+rather desolate.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 407 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 409 0 0 0 0 0 0 0 0
+S
+#409
+Within an Empty Field~
+   To the east, the field has a few tracks scored into the ground.  Farther
+west, many trees are grouped together and a bit to the north of that, the
+dargaard mountains are visible.  A tree grows here and there, but the area is
+rather desolate.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 410 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 408 0 0 0 0 0 0 0 0
+S
+#410
+Within an Empty Field~
+   To the east, the field has a few tracks scored into the ground.  Farther
+west, many trees are grouped together and a bit to the north of that, the
+dargaard mountains are visible.  A tree grows here and there, but the area is
+rather desolate.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 411 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 409 0 0 0 0 0 0 0 0
+S
+#411
+A Fork in the Road~
+   To the west, the path stretches and fades under the shade of a small forest.
+Farther north, the sky is visible over the plains, while to the east and south,
+grass grows in an endless sea in all directions.  There are several paths
+visible, each treading through the grass, and heading in the cardinal
+directions.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 412 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 439 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 410 0 0 0 0 0 0 0 0
+S
+#412
+A Path Through the Grass~
+   Tall grass scratches the legs and knees as it sways when the wind blows.  
+To the south, an intersection brings together a few of the loose trails through
+the grass.  As one looks to the northeast, the grass seems to have parted
+around a small area.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 413 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 411 0 0 0 0 0 0 0 0
+S
+#413
+A Path Through the Grass~
+   Tall grass scratches the legs and knees as it sways when the wind blows.  
+To the south, an intersection brings together a few of the loose trails through
+the grass.  As one looks to the east, the grass seems to have parted around a
+small area.    
+~
+4 p 0 0 0  2
+D2
+~
+~
+0 0 412 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 418 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 414 0 0 0 0 0 0 0 0
+S
+#414
+Nearing a Dry Patch of Grass~
+   Tall grass scratches the legs and knees as it sways when the wind blows.  
+To the south, an intersection brings together a few of the loose trails through
+the grass.  As one looks to the east, the grass seems to have parted around a
+small area.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 415 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 413 0 0 0 0 0 0 0 0
+S
+#415
+Nearing a Dry Patch of Grass~
+   Tall grass scratches the legs and knees as it sways when the wind blows.  
+To the south, an intersection brings together a few of the loose trails through
+the grass.  As one looks to the northeast, the grass seems to have parted
+around a small area.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 414 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 416 0 0 0 0 0 0 0 0
+S
+#416
+An Area Devoid of Grass~
+   Tall strands of grass stand around this small area like a group of people
+watching some horrid scene.  The ground here is devoid of life, not even a
+single weed marring the dry dirt ground.  Farther to the south, several
+movements through the plains grass indicate there are other forms of life
+around.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 417 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 415 0 0 0 0 0 0 0 0
+S
+#417
+An Area Devoid of Grass~
+   Tall strands of grass stand around this small area like a group of people
+watching some horrid scene.  The ground here is devoid of life, not even a
+single weed marring the dry dirt ground.  Farther to the south, several
+movements through the plains grass indicate there are other forms of life
+around.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 421 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 416 0 0 0 0 0 0 0 0
+S
+#418
+Nearing a Dry Patch of Grass~
+   Tall grass scratches the legs and knees as it sways when the wind blows.  
+To the south, an intersection brings together a few of the loose trails through
+the grass.  As one looks to the east, the grass seems to have parted around a
+small area.    
+~
+4 p 0 0 0  2
+D7
+~
+~
+0 0 419 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 413 0 0 0 0 0 0 0 0
+S
+#419
+Nearing a Dry Patch of Grass~
+   Tall grass scratches the legs and knees as it sways when the wind blows.  
+To the south, an intersection brings together a few of the loose trails through
+the grass.  As one looks to the east, the grass seems to have parted around a
+small area.    
+~
+4 p 0 0 0  2
+D7
+~
+~
+0 0 9500 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 418 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 420 0 0 0 0 0 0 0 0
+S
+#420
+An Area Devoid of Grass~
+   Tall strands of grass stand around this small area like a group of people
+watching some horrid scene.  The ground here is devoid of life, not even a
+single weed marring the dry dirt ground.  Farther to the south, several
+movements through the plains grass indicate there are other forms of life
+around.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 421 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 419 0 0 0 0 0 0 0 0
+S
+#421
+An Area Devoid of Grass~
+   Tall strands of grass stand around this small area like a group of people
+watching some horrid scene.  The ground here is devoid of life, not even a
+single weed marring the dry dirt ground.  Farther to the south, several
+movements through the plains grass indicate there are other forms of life
+around.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 568 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 417 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 420 0 0 0 0 0 0 0 0
+S
+#422
+A Pass through the Plains~
+   Grass brushes the knees and legs of those that walk here.  A faint foot path
+has been carved through the greenery, and a bald spot in the ground is visible
+to the north.  The west brings one to an intersecting path, while farther east,
+the ground climbs a bit in elevation.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 423 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 411 0 0 0 0 0 0 0 0
+S
+#423
+A Pass through the Plains~
+   Grass brushes the knees and legs of those that walk here.  A faint foot path
+has been carved through the greenery, and a bald spot in the ground is visible
+to the north.  The west brings one to an intersecting path, while farther east,
+the ground climbs a bit in elevation.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 422 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 424 0 0 0 0 0 0 0 0
+S
+#424
+A Pass through the Plains~
+   Grass brushes the knees and legs of those that walk here.  A faint foot path
+has been carved through the greenery, and a bald spot in the ground is visible
+to the north.  The west brings one to an intersecting path, while farther east,
+the ground climbs a bit in elevation.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 425 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 423 0 0 0 0 0 0 0 0
+S
+#425
+A Fork in the Road~
+   The narrow foot trail that has been struck though the plains forks here,
+offering another branch which one may travel.  To the east, the path climbs
+around a small hill, while to the south, the moist ground sinks into a small
+pool.  To the north, though, one may notice a spot in which no grass grows, a
+barren part of the plains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 431 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 426 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 424 0 0 0 0 0 0 0 0
+S
+#426
+The Moist Ground~
+   The ground is rather wet here, the light feet of a kender may even slowly
+sink through the mud.  As a result, the grass is a bit more sparse here, though
+against the background of the rest of the Estewilde Plains, one may not even
+notice.  To the north, a thin cut through the grasses may lead some to conclude
+a foot path exists through there.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 425 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 427 0 0 0 0 0 0 0 0
+S
+#427
+The Moist Ground~
+   The ground is rather wet here, the light feet of a kender may even slowly
+sink through the mud.  As a result, the grass is a bit more sparse here, though
+against the background of the rest of the Estewilde Plains, one may not even
+notice.  To the north, a thin cut through the grasses may lead some to conclude
+a foot path exists through there.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 426 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 428 0 0 0 0 0 0 0 0
+S
+#428
+The Moist Ground~
+   The ground is rather wet here, the light feet of a kender may even slowly
+sink through the mud.  As a result, the grass is a bit more sparse here, though
+against the background of the rest of the Estewilde Plains, one may not even
+notice.  To the north, a thin cut through the grasses may lead some to conclude
+a foot path exists through there.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 429 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 427 0 0 0 0 0 0 0 0
+S
+#429
+The Moist Ground~
+   The ground is rather wet here, the light feet of a kender may even slowly
+sink through the mud.  As a result, the grass is a bit more sparse here, though
+against the background of the rest of the Estewilde Plains, one may not even
+notice.  To the north, a thin cut through the grasses may lead some to conclude
+a foot path exists through there.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 428 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 430 0 0 0 0 0 0 0 0
+S
+#430
+The Moist Ground~
+   The ground is rather wet here, the light feet of a kender may even slowly
+sink through the mud.  As a result, the grass is a bit more sparse here, though
+against the background of the rest of the Estewilde Plains, one may not even
+notice.  To the north, a thin cut through the grasses may lead some to conclude
+a foot path exists through there.    
+~
+4 p 0 0 0  2
+D9
+~
+~
+0 0 429 0 0 0 0 0 0 0 0
+S
+#431
+Walking Through the Grassy Field~
+   The grass is parted to the west and east, a narrow walkway which people have
+cut through the greenery.  To the south, one may notice the grass grows a bit
+less frequently, while to the northwest, an entire area without the greens
+exists.  Farther east, the path disappears around a small hill.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 425 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 432 0 0 0 0 0 0 0 0
+S
+#432
+Walking Through the Grassy Field~
+   The grass is parted to the west and east, a narrow walkway which people have
+cut through the greenery.  To the south, one may notice the grass grows a bit
+less frequently, while to the northwest, an entire area without the greens
+exists.  Farther east, the path disappears around a small hill.    
+~
+4 p 0 0 0  2
+D6
+~
+~
+0 0 431 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 433 0 0 0 0 0 0 0 0
+S
+#433
+Walking Through the Grassy Field~
+   The grass is parted to the west and east, a narrow walkway which people have
+cut through the greenery.  To the south, one may notice the grass grows a bit
+less frequently, while to the northwest, an entire area without the greens
+exists.  To the north, the path disappears around a small hill.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 434 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 432 0 0 0 0 0 0 0 0
+S
+#434
+Walking Through the Grassy Field~
+   The grass is parted to the west and east, a narrow walkway which people have
+cut through the greenery.  To the south, one may notice the grass grows a bit
+less frequently, while to the northwest, an entire area without the greens
+exists.  To the north, the path disappears around a small hill.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 435 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 433 0 0 0 0 0 0 0 0
+S
+#435
+A Grassy Incline~
+   The base of a small hill starts here, the foot path climbing through the
+stalks of green, and around the incline.  Farther southwest, a movement is
+visible on the ground, the reflections of light on the water that has collected
+there.  Quite a bit to the west, a dry patch of ground mars the green
+background.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 436 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 434 0 0 0 0 0 0 0 0
+S
+#436
+A Grassy Incline~
+   The base of a small hill starts here, the foot path climbing through the
+stalks of green, and around the incline.  Farther southwest, a movement is
+visible on the ground, the reflections of light on the water that has collected
+there.  Quite a bit to the west, a dry patch of ground mars the green
+background.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 435 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 437 0 0 0 0 0 0 0 0
+S
+#437
+A Grassy Incline~
+   The ground raises in elevation as it leads farther northwest, while it
+merges with common ground level just to the west.  The higher vantage point
+shows a few paths through the grass, and plenty of plains animals as they walk
+through the trails and between the grass.  From here, the dry, cracked ground
+to the west takes on a bit of a shape, the silhouette of a large, eight pointed
+star may be discerned from the clearage.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 438 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 436 0 0 0 0 0 0 0 0
+S
+#438
+A Grassy Incline~
+   The ground raises in elevation as it leads farther northwest, while it
+merges with common ground level just to the west.  The higher vantage point
+shows a few paths through the grass, and plenty of plains animals as they walk
+through the trails and between the grass.  From here, the dry, cracked ground
+to the west takes on a bit of a shape, the silhouette of a large, eight pointed
+star may be discerned from the clearage.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 437 0 0 0 0 0 0 0 0
+S
+#439
+A Trail Through the Plains~
+   The seemingly endless fields of grass are struck through in many places with
+paths such as these.  Animals, brigands, and adventurers may be seen, should
+one know where to look.  Here and there, a wagon seems to have been abandoned
+by the side of the road.  Just to the north, the path forks in a few
+directions, as the trail does here.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 411 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 445 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 440 0 0 0 0 0 0 0 0
+S
+#440
+A Stray Path from the Main Trail~
+   The dirt walkway formed by those that have traveled through here is rather
+narrow, hardly enough room for a wagon.  To the north, one may see the grass
+move in various places, actions not started by winds, giving away a form of
+life that may be in that direction.  Should one look far to the northwest, they
+may just see a faint image of the Dargaard mountains.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 439 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 441 0 0 0 0 0 0 0 0
+S
+#441
+A Stray Path from the Main Trail~
+   The dirt walkway formed by those that have traveled through here is rather
+narrow, hardly enough room for a wagon.  To the north, one may see the grass
+move in various places, actions not started by winds, giving away a form of
+life that may be in that direction.  Should one look far to the northwest, they
+may just see a faint image of the Dargaard mountains.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 440 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 442 0 0 0 0 0 0 0 0
+S
+#442
+A Stray Path from the Main Trail~
+   The dirt walkway formed by those that have traveled through here is rather
+narrow, hardly enough room for a wagon.  To the north, one may see the grass
+move in various places, actions not started by winds, giving away a form of
+life that may be in that direction.  Should one look far to the northwest, they
+may just see a faint image of the Dargaard mountains.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 441 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 443 0 0 0 0 0 0 0 0
+S
+#443
+A Stray Path from the Main Trail~
+   The dirt walkway formed by those that have traveled through here is rather
+narrow, hardly enough room for a wagon.  To the north, one may see the grass
+move in various places, actions not started by winds, giving away a form of
+life that may be in that direction.  Should one look far to the northwest, they
+may just see a faint image of the Dargaard mountains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 444 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 442 0 0 0 0 0 0 0 0
+S
+#444
+A Stray Path from the Main Trail~
+   The dirt walkway formed by those that have traveled through here is rather
+narrow, hardly enough room for a wagon.  To the north, one may see the grass
+move in various places, actions not started by winds, giving away a form of
+life that may be in that direction.  Should one look far to the northwest, they
+may just see a faint image of the Dargaard mountains.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 443 0 0 0 0 0 0 0 0
+S
+#445
+Walking a Narrow Trail~
+   The fields of grass seem to stretch on in every direction from here.  
+Footpaths cut through the grass in many places, streaking through the tall
+green and in almost every direction.  A few hills rise to the northeast, but
+other than that, most of the grasslands is flat.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 439 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 446 0 0 0 0 0 0 0 0
+S
+#446
+Walking a Narrow Trail~
+   The fields of grass seem to stretch on in every direction from here.  
+Footpaths cut through the grass in many places, streaking through the tall
+green and in almost every direction.  A few hills rise to the northeast, but
+other than that, most of the grasslands is flat.    
+~
+4 p 0 0 0  2
+D2
+~
+~
+0 0 447 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 445 0 0 0 0 0 0 0 0
+S
+#447
+Walking a Narrow Trail~
+   The fields of grass seem to stretch on in every direction from here.  
+Footpaths cut through the grass in many places, streaking through the tall
+green and in almost every direction.  A few hills rise to the northeast, but
+other than that, most of the grasslands is flat.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 446 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 448 0 0 0 0 0 0 0 0
+S
+#448
+Walking a Narrow Trail~
+   The fields of grass seem to stretch on in every direction from here.  
+Footpaths cut through the grass in many places, streaking through the tall
+green and in almost every direction.  A few hills rise to the northeast, but
+other than that, most of the grasslands is flat.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 449 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 447 0 0 0 0 0 0 0 0
+S
+#449
+Walking a Narrow Trail~
+   The fields of grass seem to stretch on in every direction from here.  
+Footpaths cut through the grass in many places, streaking through the tall
+green and in almost every direction.  A few hills rise to the northeast, but
+other than that, most of the grasslands is flat.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 450 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 448 0 0 0 0 0 0 0 0
+S
+#450
+Walking a Narrow Trail~
+   The fields of grass seem to stretch on in every direction from here.  
+Footpaths cut through the grass in many places, streaking through the tall
+green and in almost every direction.  A few hills rise to the northeast, but
+other than that, most of the grasslands is flat.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 449 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 451 0 0 0 0 0 0 0 0
+S
+#451
+An Endless Field of Grass~
+   Farther north, some hills rise above the boring green background which the
+grass composes.  A bit to the south, an old wagon seems to have been abandoned.
+To the east and west, the narrow trail leads on.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 452 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 450 0 0 0 0 0 0 0 0
+S
+#452
+An Endless Field of Grass~
+   Farther north, some hills rise above the boring green background which the
+grass composes.  A bit to the south, an old wagon seems to have been abandoned.
+To the east and west, the narrow trail leads on.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 453 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 451 0 0 0 0 0 0 0 0
+S
+#453
+An Endless Field of Grass~
+   Farther north, some hills rise above the boring green background which the
+grass composes.  A bit to the south, an old wagon seems to have been abandoned.
+To the east and west, the narrow trail leads on.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 454 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 452 0 0 0 0 0 0 0 0
+S
+#454
+An Endless Field of Grass~
+   Farther north, some hills rise above the boring green background which the
+grass composes.  A bit to the south, an old wagon seems to have been abandoned.
+To the east and west, the narrow trail leads on.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 453 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 455 0 0 0 0 0 0 0 0
+S
+#455
+An Endless Field of Grass~
+   Farther north, some hills rise above the boring green background which the
+grass composes.  A bit to the south, an old wagon seems to have been abandoned.
+To the east and west, the narrow trail leads on.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 456 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 454 0 0 0 0 0 0 0 0
+S
+#456
+A Trail through the Plains~
+   Green grass covers the plains, an endless sea of grass which extends in
+every direction from here.  A bit to the west, an old, abandoned wagon lay on
+the ground in disrepair, some of the damage obviously from the length of time
+it has lain there.  Farther north, some of the plains rise, a hill here and
+there, capping over the rest of the grassland.    
+~
+4 p 0 0 0  2
+D2
+~
+~
+0 0 457 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 455 0 0 0 0 0 0 0 0
+S
+#457
+A Trail through the Plains~
+   Green grass covers the plains, an endless sea of grass which extends in
+every direction from here.  A bit to the west, an old, abandoned wagon lay on
+the ground in disrepair, some of the damage obviously from the length of time
+it has lain there.  Farther north, some of the plains rise, a hill here and
+there, capping over the rest of the grassland.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 456 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 458 0 0 0 0 0 0 0 0
+S
+#458
+A Trail through the Plains~
+   Green grass covers the plains, an endless sea of grass which extends in
+every direction from here.  A bit to the west, an old, abandoned wagon lay on
+the ground in disrepair, some of the damage obviously from the length of time
+it has lain there.  Farther north, some of the plains rise, a hill here and
+there, capping over the rest of the grassland.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 459 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 457 0 0 0 0 0 0 0 0
+S
+#459
+A Trail through the Plains~
+   Green grass covers the plains, an endless sea of grass which extends in
+every direction from here.  A bit to the west, an old, abandoned wagon lay on
+the ground in disrepair, some of the damage obviously from the length of time
+it has lain there.  Farther north, some of the plains rise, a hill here and
+there, capping over the rest of the grassland.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 460 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 458 0 0 0 0 0 0 0 0
+S
+#460
+A Trail through the Plains~
+   Green grass covers the plains, an endless sea of grass which extends in
+every direction from here.  A bit to the west, an old, abandoned wagon lay on
+the ground in disrepair, some of the damage obviously from the length of time
+it has lain there.  Farther north, some of the plains rise, a hill here and
+there, capping over the rest of the grassland.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 461 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 459 0 0 0 0 0 0 0 0
+S
+#461
+Traveling the Estewilde~
+   Where one finds themselves now is as nondescript as most of the rest of this
+road through the grassy land.  Some wild butter cups bloom here and there,
+though most are hidden in the longer grass.  Farther north, the land frequently
+changes elevations by means of hills and valleys.    
+~
+4 cp 0 0 0  2
+D3
+~
+~
+0 0 460 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 462 0 0 0 0 0 0 0 0
+S
+#462
+Traveling the Estewilde~
+   Where one finds themselves now is as nondescript as most of the rest of this
+road through the grassy land.  Some wild butter cups bloom here and there,
+though most are hidden in the longer grass.  Farther north, the land frequently
+changes elevations by means of hills and valleys.    
+~
+4 cp 0 0 0  2
+D1
+~
+~
+0 0 463 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 461 0 0 0 0 0 0 0 0
+S
+#463
+Traveling the Estewilde~
+   Where one finds themselves now is as nondescript as most of the rest of this
+road through the grassy land.  Some wild butter cups bloom here and there,
+though most are hidden in the longer grass.  Farther north, the land frequently
+changes elevations by means of hills and valleys.    
+~
+4 cp 0 0 0  2
+D1
+~
+~
+0 0 464 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 462 0 0 0 0 0 0 0 0
+S
+#464
+Traveling the Estewilde~
+   Where one finds themselves now is as nondescript as most of the rest of this
+road through the grassy land.  Some wild butter cups bloom here and there,
+though most are hidden in the longer grass.  Farther north, the land frequently
+changes elevations by means of hills and valleys.    
+~
+4 cp 0 0 0  2
+D1
+~
+~
+0 0 465 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 463 0 0 0 0 0 0 0 0
+S
+#465
+Traveling the Estewilde~
+   Where one finds themselves now is as nondescript as most of the rest of this
+road through the grassy land.  Some wild butter cups bloom here and there,
+though most are hidden in the longer grass.  Farther north, the land frequently
+changes elevations by means of hills and valleys.    
+~
+4 cp 0 0 0  2
+D3
+~
+~
+0 0 464 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 466 0 0 0 0 0 0 0 0
+S
+#466
+Traveling the Estewilde~
+   Where one finds themselves now is as nondescript as most of the rest of this
+road through the grassy land.  Some wild butter cups bloom here and there,
+though most are hidden in the longer grass.  Farther north, the land frequently
+changes elevations by means of hills and valleys.    
+~
+4 cp 0 0 0  2
+D2
+~
+~
+0 0 467 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 465 0 0 0 0 0 0 0 0
+S
+#467
+A Weaving Trail through the Grass~
+   Should one notice, the grass here grows much thicker and taller than further
+west in the plains.  A flag pole stands tall a bit to the southeast, though it
+stands bare.  Here and there, one may notice some movement in the grass near
+them, though it is most likely just some animal of the plains.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 466 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 468 0 0 0 0 0 0 0 0
+S
+#468
+A Weaving Trail through the Grass~
+   Should one notice, the grass here grows much thicker and taller than further
+west in the plains.  A flag pole stands tall a bit to the southeast, though it
+stands bare.  Here and there, one may notice some movement in the grass near
+them, though it is most likely just some animal of the plains.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 467 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 469 0 0 0 0 0 0 0 0
+S
+#469
+A Weaving Trail through the Grass~
+   Should one notice, the grass here grows much thicker and taller than further
+west in the plains.  A flag pole stands tall here, though it stands bare.  
+Here and there, one may notice some movement in the grass near them, though it
+is most likely just some animal of the plains.    
+A flag pole stands out here, without a flag.
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 470 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 468 0 0 0 0 0 0 0 0
+E
+letters~
+   The letters are illegible, so no, reading these will not help out at all.  
+
+~
+E
+flag pole~
+   Standing tall, and stained white, this flag pole looms over the grasslands.
+What it is here for, and who placed it is another question, one which may be
+answered by reading the 'letters' scrawled into the pole.    
+~
+S
+#470
+A Weaving Trail through the Grass~
+   Should one notice, the grass here grows much thicker and taller than further
+west in the plains.  A flag pole stands tall a bit to the west, though it
+stands bare.  Here and there, one may notice some movement in the grass near
+them, though it is most likely just some animal of the plains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 471 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 469 0 0 0 0 0 0 0 0
+S
+#471
+A Weaving Trail through the Grass~
+   Should one notice, the grass here grows much thicker and taller than further
+west in the plains.  A flag pole stands tall a bit to the west, though it
+stands bare.  Here and there, one may notice some movement in the grass near
+them, though it is most likely just some animal of the plains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 472 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 470 0 0 0 0 0 0 0 0
+S
+#472
+A Weaving Trail through the Grass~
+   Should one notice, the grass here grows much thicker and taller than further
+west in the plains.  A flag pole stands tall a bit to the west, though it
+stands bare.  Here and there, one may notice some movement in the grass near
+them, though it is most likely just some animal of the plains.    
+~
+4 p 0 0 0  2
+D2
+~
+~
+0 0 473 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 471 0 0 0 0 0 0 0 0
+S
+#473
+Trails through the Grasslands~
+   Grass grows tall and unchecked in most places here in the Estewilde, though
+along several small paths, no grass grows where wagons and the such have passed
+many a time.  A wagon has been left for broke along this pass, the wagon's door
+tightly closed.  Farther east, one may be able to see some mountains against
+the green background.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 472 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 475 0 0 0 0 0 0 0 0
+S
+#474
+Inside an Old Wagon~
+   The floorboards have been broken in a few places, though even a kender would
+likely have a hard time reaching an extremity through one of the gaps.  The two
+windows which passengers would have looked upon the road through have been
+boarded up, for reasons not discernible.  The wagon stands upright, wheeless,
+only the raised floor stopping the floorboards from touching ground.    
+~
+4 p h 0 0  0
+D0
+~
+wagon_door~
+1 0 475 0 0 0 0 0 0 0 0
+S
+#475
+Trails through the Grasslands~
+   Grass grows tall and unchecked in most places here in the Estewilde, though
+along several small paths, no grass grows where wagons and the such have passed
+many a time.  A wagon has been left for broke along this pass, the wagon's door
+tightly closed.  Farther east, one may be able to see some mountains against
+the green background.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 476 0 0 0 0 0 0 0 0
+D2
+~
+wagon_door~
+1 0 474 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 473 0 0 0 0 0 0 0 0
+S
+#476
+Trails through the Grasslands~
+   Grass grows tall and unchecked in most places here in the Estewilde, though
+along several small paths, no grass grows where wagons and the such have passed
+many a time.  A wagon has been left for broke along this pass, the wagon's door
+tightly closed.  Farther east, one may be able to see some mountains against
+the green background.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 477 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 475 0 0 0 0 0 0 0 0
+S
+#477
+Trails through the Grasslands~
+   Grass grows tall and unchecked in most places here in the Estewilde, though
+along several small paths, no grass grows where wagons and the such have passed
+many a time.  A wagon has been left for broke along this pass, the wagon's door
+tightly closed.  Farther east, one may be able to see some mountains against
+the green background.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 476 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 478 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 485 0 0 0 0 0 0 0 0
+S
+#478
+Moving through the Grass~
+   There is no footpath here, only grass.  There is a faintly cleared trail
+south of here, as well as to the east.  The vegetation moves slightly here and
+there, by the actions of either other life or the wind, though one may find it
+hard to tell from here.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 479 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 477 0 0 0 0 0 0 0 0
+S
+#479
+Moving through the Grass~
+   There is no footpath here, only grass.  There is a faintly cleared trail
+south of here, as well as to the east.  The vegetation moves slightly here and
+there, by the actions of either other life or the wind, though one may find it
+hard to tell from here.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 478 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 480 0 0 0 0 0 0 0 0
+S
+#480
+Moving through the Grass~
+   There is no footpath here, only grass.  There is a faintly cleared trail
+south of here, as well as to the east.  The vegetation moves slightly here and
+there, by the actions of either other life or the wind, though one may find it
+hard to tell from here.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 481 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 479 0 0 0 0 0 0 0 0
+S
+#481
+Moving through the Grass~
+   There is no footpath here, only grass.  There is a faintly cleared trail
+south of here, as well as to the east.  The vegetation moves slightly here and
+there, by the actions of either other life or the wind, though one may find it
+hard to tell from here.    
+~
+4 p 0 0 0  2
+D0
+~
+~
+0 0 482 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 480 0 0 0 0 0 0 0 0
+S
+#482
+Among Tall Grasses~
+   Faint movements here and there signify either life is nearby, or the wind
+has blown here, though the grass itself can just about shield one from the
+moving air.  Tall and unchecked, the green grows wildly and just about covers
+any attempt to make a roadway through it.  Here and there, one may catch a
+glimpse of a blue flower, though one would have to search for them, through the
+grass.    
+~
+4 p 0 0 0  2
+D2
+~
+~
+0 0 481 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 483 0 0 0 0 0 0 0 0
+S
+#483
+Among Tall Grasses~
+   Faint movements here and there signify either life is nearby, or the wind
+has blown here, though the grass itself can just about shield one from the
+moving air.  Tall and unchecked, the green grows wildly and just about covers
+any attempt to make a roadway through it.  Here and there, one may catch a
+glimpse of a blue flower, though one would have to search for them, through the
+grass.    
+~
+4 p 0 0 0  2
+D9
+~
+~
+0 0 482 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 484 0 0 0 0 0 0 0 0
+S
+#484
+Among Tall Grasses~
+   Faint movements here and there signify either life is nearby, or the wind
+has blown here, though the grass itself can just about shield one from the
+moving air.  Tall and unchecked, the green grows wildly and just about covers
+any attempt to make a roadway through it.  Here and there, one may catch a
+glimpse of a blue flower, though one would have to search for them, through the
+grass.    
+~
+4 p 0 0 0  2
+D6
+~
+~
+0 0 483 0 0 0 0 0 0 0 0
+S
+#485
+Nearing the Kalkist Mountains~
+   The endless grasslands of the Estewilde stretches far to the west, while the
+Kalkist mountains loom to the east.  The road widens more as one moves nearer
+the mountains, an actual roadway as opposed to the faint trail through the
+plains of green.  The green of plant life is far more scarce to the east, a
+completely different view when compared to the Estewilde which ends at the foot
+of the mountains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 497 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 486 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 477 0 0 0 0 0 0 0 0
+S
+#486
+Straying from the Main Trail~
+   Farther east, one may notice the Kalkist Mountains crawling out of the
+earth.  The grasses where one finds themselves in now are a much more vibrant
+scene, vegetation growing wild all over the place.  The wind shifts the blades
+now and then, and sometimes brings much movement to the grasses, hiding any
+movement therein.    
+~
+4 cp 0 0 0  2
+D2
+~
+~
+0 0 487 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 485 0 0 0 0 0 0 0 0
+S
+#487
+Straying from the Main Trail~
+   Farther east, one may notice the Kalkist Mountains crawling out of the
+earth.  The grasses where one finds themselves in now are a much more vibrant
+scene, vegetation growing wild all over the place.  The wind shifts the blades
+now and then, and sometimes brings much movement to the grasses, hiding any
+movement therein.    
+~
+4 cp 0 0 0  2
+D0
+~
+~
+0 0 486 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 488 0 0 0 0 0 0 0 0
+S
+#488
+Straying from the Main Trail~
+   Farther east, one may notice the Kalkist Mountains crawling out of the
+earth.  The grasses where one finds themselves in now are a much more vibrant
+scene, vegetation growing wild all over the place.  The wind shifts the blades
+now and then, and sometimes brings much movement to the grasses, hiding any
+movement therein.    
+~
+4 cp 0 0 0  2
+D3
+~
+~
+0 0 489 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 487 0 0 0 0 0 0 0 0
+S
+#489
+Straying from the Main Trail~
+   Farther east, one may notice the Kalkist Mountains crawling out of the
+earth.  The grasses where one finds themselves in now are a much more vibrant
+scene, vegetation growing wild all over the place.  The wind shifts the blades
+now and then, and sometimes brings much movement to the grasses, hiding any
+movement therein.    
+~
+4 cp 0 0 0  2
+D0
+~
+~
+0 0 490 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 488 0 0 0 0 0 0 0 0
+S
+#490
+Among Tall Grasses~
+   Faint movements here and there signify either life is nearby, or the wind
+has blown here, though the grass itself can just about shield one from the
+moving air.  Tall and unchecked, the green grows wildly and just about covers
+any attempt to make a roadway through it.  Here and there, one may catch a
+glimpse of a blue flower, though one would have to search for them, through the
+grass.    
+~
+4 p 0 0 0  2
+D2
+~
+~
+0 0 489 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 491 0 0 0 0 0 0 0 0
+S
+#491
+Among Tall Grasses~
+   Faint movements here and there signify either life is nearby, or the wind
+has blown here, though the grass itself can just about shield one from the
+moving air.  Tall and unchecked, the green grows wildly and just about covers
+any attempt to make a roadway through it.  Here and there, one may catch a
+glimpse of a blue flower, though one would have to search for them, through the
+grass.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 492 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 490 0 0 0 0 0 0 0 0
+S
+#492
+Nearing a Small Pool~
+   The green blades that have grown so lushly stand idly by a small pool to the
+west, some growing right at the edge of the waters.  To the south and north,
+should one watch and wait, he or she will likely notice movement in the
+grasses, movements made by life rather than wind.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 491 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 493 0 0 0 0 0 0 0 0
+S
+#493
+At the Bank of a Small Pool~
+   The pool here has restricted the growth of the grass a small bit.  None of
+the green blades can grow from the water.  However, the grass stands idly at
+the bank, possibly in an attempt to grow over the pool.  To the south and
+north, should one watch and wait, he or she will likely notice movement in the
+grasses, movements made by life rather than wind.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 492 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 494 0 0 0 0 0 0 0 0
+S
+#494
+At the Bank of a Small Pool~
+   The pool here has restricted the growth of the grass a small bit.  None of
+the green blades can grow from the water.  However, the grass stands idly at
+the bank, possibly in an attempt to grow over the pool.  To the south and
+north, should one watch and wait, he or she will likely notice movement in the
+grasses, movements made by life rather than wind.    
+~
+4 p 0 0 0  2
+D3
+~
+~
+0 0 495 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 493 0 0 0 0 0 0 0 0
+S
+#495
+At the Bank of a Small Pool~
+   The pool here has restricted the growth of the grass a small bit.  None of
+the green blades can grow from the water.  However, the grass stands idly at
+the bank, possibly in an attempt to grow over the pool.  To the south and
+north, should one watch and wait, he or she will likely notice movement in the
+grasses, movements made by life rather than wind.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 494 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 496 0 0 0 0 0 0 0 0
+S
+#496
+At the Bank of a Small Pool~
+   The pool here has restricted the growth of the grass a small bit.  None of
+the green blades can grow from the water.  However, the grass stands idly at
+the bank, possibly in an attempt to grow over the pool.  To the south and
+north, should one watch and wait, he or she will likely notice movement in the
+grasses, movements made by life rather than wind.    
+~
+4 p 0 0 0  2
+D8
+~
+~
+0 0 495 0 0 0 0 0 0 0 0
+S
+#497
+Nearing the Kalkist Mountains~
+   The endless grasslands of the Estewilde stretches far to the west, while the
+Kalkist mountains loom to the east.  The road widens more as one moves nearer
+the mountains, an actual roadway as opposed to the faint trail through the
+plains of green.  The green of plant life is far more scarce to the east, a
+completely different view when compared to the Estewilde which ends at the foot
+of the mountains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 498 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 485 0 0 0 0 0 0 0 0
+S
+#498
+Nearing the Kalkist Mountains~
+   The endless grasslands of the Estewilde stretches far to the west, while the
+Kalkist mountains loom to the east.  The road widens more as one moves nearer
+the mountains, an actual roadway as opposed to the faint trail through the
+plains of green.  The green of plant life is far more scarce to the east, a
+completely different view when compared to the Estewilde which ends at the foot
+of the mountains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 499 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 497 0 0 0 0 0 0 0 0
+S
+#499
+Nearing the Kalkist Mountains~
+   The endless grasslands of the Estewilde stretches far to the west, while the
+Kalkist mountains loom to the east.  The road widens more as one moves nearer
+the mountains, an actual roadway as opposed to the faint trail through the
+plains of green.  The green of plant life is far more scarce to the east, a
+completely different view when compared to the Estewilde which ends at the foot
+of the mountains.    
+~
+4 p 0 0 0  2
+D1
+~
+~
+0 0 1900 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 498 0 0 0 0 0 0 0 0
+S
+$

@@ -1,0 +1,629 @@
+#6400
+hobgoblin warrior~
+a hobgoblin warrior~
+A hobgoblin warrior eagerly awaits his next kill.
+~
+   This fierce hobgoblin warrior stands ready for battle.  His deep reddish fur
+is matted with dried blood.  An angry gleam can be seen in his eyes.    
+~
+d 0 0 0 k 0 0 0 -900
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6402
+village farmer~
+a village farmer~
+A village farmer defends his land from the invading hobgoblins.
+~
+   Here stands an average man in typical commoners garb.  This man was
+harvesting wheat from a field just before a clan of hobgoblins invaded.  He is
+sweating profusely from battling the ferocious hobgoblins.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6403
+ox grey muscular~
+a muscular, grey ox~
+A muscular, grey ox wonders around aimlessly.
+~
+   This large, muscular beast wonders around aimlessly.  She is still pulling a
+wagon which is carrying a large bundle of wheat.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6404
+squire~
+a well-trained squire~
+A well-trained squire prepares for battle as he sees the hobgoblins invade.
+~
+   This human male is in his early thirties.  He has shoulder length black
+hair.  He wears the moustache typical of the Knights of Solamnia.  Seeing the
+invasion before him he quickly draws his sword, yells for reinforcements, and
+prepares for battle.    
+~
+dD 0 0 0 k 0 0 0 900
+18 5 -18 1080d180+108 1d8+19
+29 0 41 3
+8 8 1
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#6405
+lamone miller~
+Lamone the miller~
+Lamone, a short miller reads over his records.
+~
+   This short man is dressed in traditional overalls and a black hat.  His face
+has a well-trimmed beard and moustache.  He greets you with a cheerfull smile
+and asks how he can help you today.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6406
+swaybacked workhorse~
+a swaybacked workhorse~
+An overworked, swaybacked workhorse turns the enormous grinding stone.
+~
+   This overworked horse walks around in circles endlessly.  This poor old
+horse is overworked and not taken care of.  He seems to be giving his last bit
+of strength to grind the wheat.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6407
+curious grey kender~
+a curious, grey-haired kender~
+A curious, grey-haired kender roams around humming a dwarven drinking song.
+~
+   This grey-haired kender is dressed in bright colors.  His pants are light
+blue and his shirt is a bright red.  He carries a large variety of pouches and
+a backpack.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6409
+dwarven lady flirtatious~
+a dwarven lady~
+An overly flirtatious dwarven lady winks at you.
+~
+   This buxom dwarven lady is wearing almost nothing on top.  Her reddish curls
+wrap around her chubby yet attractive cheeks.  She smiles and asks how she
+could help you.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6410
+hobgoblin sergeant~
+a hobgoblin sergeant~
+A hobgoblin sergeant glares around searching for his next victim.
+~
+   He stands around seven feet tall.  His armor and blade are coated in fresh
+blood.  Glaring from side to side, drool begins to drip from his large mouth.
+This hobgoblin is obviously of a higher rank than the other warriors by the
+decorations on his armor.    
+~
+dD 0 0 0 k 0 0 0 -900
+19 5 -20 1140d190+109 1d8+19
+32 0 12 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#6411
+woman black~
+a woman in black robes~
+A woman dressed in black robes examines the present situation.
+~
+   This womans long, silvery hair hangs in braids to her waist.  She wears
+black velvety robes like the darkest of nights.  Her face is very young in
+appearance and her almond-shaped eyes give away her elven heritage.  Quietly
+she walks around observing what is happening.    
+~
+dE 0 0 0 k 0 0 0 -900
+20 2 -13 800d200+110 1d8+22
+35 0 35 0
+8 8 1
+E
+Str: 11
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 10
+S
+#6412
+young man~
+a young man~
+A frail young man is sitting on a chair reading a book.
+~
+   A young man sits quietly reading a large tome.  His long blond hair and
+frail body make him attractive yet weak.  He seems completely submersed in his
+book.    
+~
+d 0 0 0 k 0 0 0 900
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6413
+attractive young girl~
+an attractive young girl~
+An attractive young girl brushes her hair and sings to herself.
+~
+   This young girl is singing a song about love and flowers.  She seems to not
+have a care in the world.  She is young, innocent, and pure.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6414
+simple druidic man~
+a simple, druidic man~
+A simple, druidic man tends to the gardens with great care.
+~
+   This human male is slightly balding and a little overweight.  He smiles at
+some plants and talks quietly to himself.  His warm blue eyes focus intensely
+on what he's doing.    
+~
+d 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6415
+giant mosquito~
+a giant mosquito~
+A giant mosquito swoops down from the sky and attacks!
+~
+   An annoying humming sound is created by this mosquito's large wings.  The
+wingspan on this giant mosquito is around six feet.  Its enormous piercing nose
+looks like it would hurt a great deal if it punctured your skin.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6416
+black asp~
+a large black asp~
+A large, black asp slithers in the bushes.
+~
+   This large, black asp has a total length of eight feet.  Its scaly body
+moves completely silent through the undergrowth.  The black asps tongue
+slithers in and out as it searches for something to eat.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6417
+feral cat~
+a feral cat~
+A feral cat stealthfully stalks its prey.
+~
+   This orange tabby cat has huge muscles.  Patches of dried blood cover his
+dirty fur.  His left ear has been completely torn from his head.  With all
+these problems he still manages to survive.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6418
+stoic gateguard~
+a stoic gateguard~
+A stoic gateguard dressed in traditional Solamnic armor stands guard.
+~
+   This gateguard stands perfectly still.  Only his eyes dart back and forth
+scanning the area for possible trouble.  He wears the traditional moustache of
+the Solamnic Knighthood.  His high cheek bones and emotionless expression make
+him look very intimidating.    
+~
+d 0 0 0 k 0 0 0 900
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6421
+voluptuous maiden~
+a voluptuous young maiden~
+A voluptuous young maiden quietly sweeps the floor.
+~
+   She is scantily clad in a tight black skirt with a white ruffled top.  Her
+bright red and flashy green eyes make her unusually attractive.  She tends to
+bend over a lot and things slip out far too often.    
+~
+d 0 0 0 k 0 0 0 900
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6422
+gaily minstrel~
+a gaily dressed minstrel~
+A gaily dressed, elven minstrel sings a tale of Huma and a silver dragon.
+~
+   This gaily dressed, elven man gracefully prances around the room.  His
+slender hands romantically strum a lute of magnificent beauty.  He sings a tale
+of Huma riding to victory upon a beautiful silver dragon.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6424
+grumpy bartender~
+a grumpy, dwarven bartender~
+A grumpy, dwarven bartender hobbles around behind the bar.
+~
+   This grumpy, old bartender has flaming red hair.  He is laveshly dressed in
+reds that clash with his frizzy hair.  As he walks around behind the bar he
+moans and groans about the pains of old age.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6425
+friendly waitress~
+a friendly, middle-aged waitress~
+A friendly, middle-aged waitress delivers a tray of frothy ale to a table.
+~
+   Her curly, brown hair bounces around as she serves drinks to the patrons of
+the tavern.  She is wearing a white top and black trousers.  Occasionally she
+will stop to chat with a patron.  The wrinkles around her eyes and muscular
+arms show that she is overworked.  She smiles a crooked grin and happily
+continues with her work.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6429
+stunning female~
+a stunning woman~
+A stunning female Knight of the Rose guards the armory.
+~
+   This attractive woman wears armor bearing the symbol of the Knights of the
+Rose.  Her short blond hair gently curls around her perfectly shaped chin.  
+She has stunning blue eyes that scan the armory for anything out of the
+ordinary.    
+~
+d 0 0 0 k 0 0 0 900
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6432
+diminutive woman~
+a diminutive woman in white robes~
+A diminutive woman in white robes bows her head in silent prayer.
+~
+   This woman has an aura of reverence about her.  Her long, wavy brown hair
+hangs in front of her head as she prays.  She carries her slender body as
+gracefully as an elf.  Silently she utters a prayer to her goddess.    
+~
+d 0 0 0 k 0 0 0 900
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#6434
+workhorse large brown~
+a large, brown workhorse~
+A large, brown workhorse nips at another horse in the stable.
+~
+   This large, brown workhorse is youthful and full of energy.  She is often
+used to carry supplies and goods for Lord Rosenthorn when he travels.  Her coat
+is well groomed and her main is neatly braided.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

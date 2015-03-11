@@ -1,0 +1,49 @@
+#51050
+Silverymoon~
+an invis mob named Silverymoon~
+An invis mob named Silverymoon is here.
+~
+It looks unfinished.
+~
+bdnoA 0 0 0 b 0 0 0 0
+60 -10 -62 480d100+100 1d1+30
+0 0 0 27
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#51400
+Longsaddle~
+an invis mob named Longsaddle~
+An invis mob named Longsaddle is here.
+~
+It looks unfinished.
+~
+bdnoA 0 0 0 bk 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 27
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

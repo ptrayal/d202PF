@@ -1,0 +1,253 @@
+#1500
+carcass human devoured partially~
+a partially devoured human carcass~
+A partially devoured human carcass is lying here on the ground.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+100 0 -1 0 1 1 0 0 0 0 0 0 0 0 0 0
+240 0 0 0
+Z
+4
+#1501
+heart human~
+a human heart~
+A human heart has been left here on the ground to decompose.~
+~
+31 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 0 0 0 0 0 0 0 0
+2 700 0 8
+Z
+3
+A
+38 1 0
+#1502
+brain human~
+a human brain~
+A human brain has been left here on the ground to decompose.~
+~
+31 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 0 0 0 0 0 0 0 0
+3 700 0 8
+Z
+3
+A
+40 1 0
+#1503
+necklace human fingers~
+a necklace made of human fingers~
+A necklace made of human fingers is lying here on the ground.~
+~
+11 g 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+1 300 0 9
+Z
+4
+A
+17 30 0
+#1504
+club spiked wickedly~
+a wickedly spiked club~
+A wickedly spiked club has been left here on the ground.~
+~
+5 gC 0 0 0 an 0 0 0 0 0 0 0
+5 1 6 5 100 100 0 8 0 1 0 2 0 0 0 0
+30 10 0 11
+Z
+3
+A
+18 2 0
+A
+19 2 0
+A
+5 1 0
+#1505
+gloves human flesh~
+a pair of gloves made from human flesh~
+A pair of gloves designed from human flesh have been left here.~
+~
+11 g 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5 0 0 0 0 0 0 0 0
+1 550 0 8
+Z
+4
+A
+5 2 0
+#1506
+bastard sword wooden hilt~
+a bastard sword with a wooden hilt~
+A bastard sword with a wooden hilt has been left here carelessly.~
+~
+5 gC 0 0 0 an 0 0 0 0 0 0 0
+51 1 10 3 100 100 0 7 1 4 0 11 0 0 0 0
+60 3500 0 10
+Z
+4
+A
+18 2 0
+A
+19 2 0
+A
+20 5 0
+#1507
+greatsword blue eagle-hilted eagle hilted~
+a blue eagle-hilted greatsword~
+An eagle-hilted greatsword has been left here for the taking.~
+~
+5 gC 0 0 0 ano 0 0 0 0 0 0 0
+37 2 6 3 100 100 0 7 1 2 0 12 0 0 0 0
+80 5000 0 7
+Z
+5
+A
+18 2 0
+A
+19 2 0
+#1508
+shield falcon crested~
+a falcon crested shield~
+A falcon crested shield lies here reflecting its surroundings.~
+~
+9 g 0 0 0 aj 0 0 0 0 0 0 0
+20 4 999 -1 100 100 15 7 0 0 0 0 0 0 0 0
+6 2200 0 7
+Z
+4
+A
+17 20 0
+#1509
+suit thick hide bearskin~
+a thick hide suit made from bearskin~
+A thick hide suit made of bearskin has been left here.~
+~
+42 g 0 0 0 ad 0 0 0 0 0 0 0
+30 2 4 -3 100 100 20 20 15 5 0 0 0 0 0 0
+250 1500 0 10
+Z
+4
+A
+17 20 0
+A
+13 10 0
+#1510
+boots sleek blue leather~
+a pair of sleek blue leather boots~
+Boots made from sleek blue leather have been left here for the taking.~
+~
+11 g 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+10 50 0 6
+Z
+4
+A
+1 2 0
+#1511
+mace bronze ivory~
+an ivory handled bronze mace~
+A beautiful ivory handled bronze mace has been left here for the taking.~
+~
+5 gC 0 0 0 an 0 0 0 0 0 0 0
+6 1 8 5 100 100 0 7 0 1 0 2 0 0 0 0
+80 1200 0 8
+Z
+4
+A
+18 2 0
+A
+19 2 0
+#1512
+gloves sleek blue leather~
+a pair of sleek blue leather gloves~
+A pair of sleek blue leather gloves have been left here.~
+~
+11 g 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 6 0 0 0 0 0 0 0 0
+1 7000 0 6
+Z
+4
+A
+2 2 0
+#1513
+sphere silver~
+a silver sphere~
+A silver sphere has been left here for the taking.~
+~
+15 g 0 0 0 ao 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 41 0 0 0 0 0 0 0 0
+1 8000 0 0
+Z
+1
+#1514
+set flowing white robes embroidered gold~
+@Wa set of flowing white robes embroidered in gold@n~
+@WA set of flowing white robes embroidered in gold lies here getting dirty.~
+~
+11 g 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 19 0 0 0 0 0 0 0 0
+5 2500 0 8
+Z
+4
+A
+17 20 0
+A
+32 1 0
+A
+31 1 0
+#1515
+armor banded mail suit jet black skull-shaped studs~
+a suit of jet black banded mail with skull-shaped studs~
+A suit of jet black banded mail with skull-shaped studs lies here.~
+~
+42 gi 0 0 0 ad 0 0 0 0 0 0 0
+60 3 1 -6 100 100 35 20 15 10 0 0 0 0 0 0
+350 25000 0 9
+Z
+4
+A
+22 20 0
+A
+6 1 0
+#1516
+cloak midnight blue emblazoned crest silver wolf head~
+@Ba midnight blue cloak emblazoned in silver with the crest of a wolf's head@n~
+@BA midnight blue cloak emblazoned in silver with the crest of a wolf's head lies here.@n~
+~
+11 g 0 0 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 17 0 0 0 0 0 0 0 0
+3 1500 0 11
+Z
+4
+A
+38 1 0
+A
+5 2 0
+#1517
+katar jet black steel serrated~
+@ma jet-black katar of temepered steel with a serrated edge@n~
+@mA jet-black katar of temepered steel with a serrated edge lies here.@n~
+~
+5 gC 0 0 0 an 0 0 0 0 0 0 0
+2 1 4 11 100 100 1 9 0 0 0 0 0 0 0 0
+2 100000 0 8
+Z
+2
+A
+18 2 0
+A
+19 2 0
+#1518
+tunic purple grey symbol dagger~
+@ma purple @Dand grey @mtunic @Dbearing @mthe @Dsymbol @mof @Da @mdagger@n~
+@mA purple @Dand grey @mtunic @Dbearing @mthe @Dsymbol @mof @Da @mdagger @Dlies @mhere.@n~
+~
+11 g 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 17 0 0 0 0 0 0 0 0
+2 120000 0 10
+Z
+4
+A
+2 1 0
+A
+3 1 0
+A
+17 15 0
+$~

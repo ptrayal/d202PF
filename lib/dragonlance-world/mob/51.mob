@@ -1,0 +1,27 @@
+#5100
+large yellow scorpion~
+a large, yellow scorpion~
+A large, yellow scorpion advances in your direction.
+~
+   The deadly effect of the venom of this large, yellow scorpion is known all
+over Krynn.  You would be wise to avoid his sting.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

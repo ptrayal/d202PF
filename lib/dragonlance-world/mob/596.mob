@@ -1,0 +1,25 @@
+#59600
+Mole whackamole~
+a mole~
+A mole peeps it's head out of the ground.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+1 20 9 12d100+100 1d1+1
+0 0 39 27
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

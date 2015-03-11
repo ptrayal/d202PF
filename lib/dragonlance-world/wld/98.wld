@@ -1,0 +1,1569 @@
+#9800
+A Rocky Path Through the Mountains~
+   This rocky path leads you deeper into the mountains.  Looming to either side
+of you are the high mountainous peaks.  There are no signs of wildlife of any
+sort, instead of bird calls the only sound that you can hear is the bitter cold
+wind rushing past your ears as it blows violently through the area.    
+~
+98 c h 0 0  0
+D0
+~
+~
+0 0 9801 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1610 0 0 0 0 0 0 0 0
+S
+#9801
+A Rocky Path Through the Mountains~
+   This rocky path leads you deeper into the mountains.  Looming to either side
+of you are the high mountainous peaks.  There are no signs of wildlife of any
+sort, instead of bird calls the only sound that you can hear is the bitter cold
+wind rushing past your ears as it blows violently through the area.    
+~
+98 c h 0 0  0
+D0
+~
+~
+0 0 9802 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9800 0 0 0 0 0 0 0 0
+S
+#9802
+A Rocky Path Through the Mountains~
+   This rocky path leads you deeper into the mountains.  To your sides all you
+can see are the high mountainous peaks.  There is no sign of wildlife, and the
+only noise you hear is the rustle of the pines as the cold breeze blows
+violently through the area.  Towards the north you can see a rather large
+clearing within the mountains.    
+~
+98 c h 0 0  0
+D0
+~
+~
+0 0 9803 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9801 0 0 0 0 0 0 0 0
+S
+#9803
+A Rocky Path Through the Mountains~
+   This rocky path leads you deeper into the mountains.  To your sides all you
+can see are the high mountainous peaks.  There is no sign of wildlife, and the
+only noise you hear is the rustle of the pines as the cold breeze blows
+violently through the area.  Towards the north you can see a rather large
+clearing within the mountains.    
+~
+98 c h 0 0  0
+D0
+~
+~
+0 0 9804 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9802 0 0 0 0 0 0 0 0
+S
+#9804
+Approching The Encampment~
+   You are approaching a large clearing within the mountains.  Looking towards
+the north you can see a camp site.  Smoke billows from the camp fires, and the
+sounds of drunken men grows louder as you continue on your path.  The tall
+peaks which surround this area make it a good hideout for travelling bandits.
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9805 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9803 0 0 0 0 0 0 0 0
+S
+#9805
+At the Beginning of the Camp~
+   As you enter the camp it looks much larger than you had made it out to be
+from a distance.  A wide range of different people seem to be milling about,
+wandering from the many tents that have been set up around the clearing.  A
+large fire can be seen burning brightly towards the center of the site, the
+distinct smell of roasted pheasant wafts towards you on the cool mountain
+breeze.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9806 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9804 0 0 0 0 0 0 0 0
+S
+#9806
+Within the Encampment~
+   Walking within the emcampment, you can feel you are being watched by anyone
+who sees you.  Towards the west lies a row of several tents.  Looking eastwards
+a bit you see two well armored guards blocking the entrance to a cave.  
+Towards the north you hear the sounds of drunken men fighting loudly with each
+other.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9807 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9871 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9805 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9857 0 0 0 0 0 0 0 0
+S
+#9807
+Approaching the Bonfire~
+   You are heading towards the large bonfire.  Many men and women stand around
+the fire talking amongst themselves.  No one seems to really notice you as you
+approach them.  There are several large barrels full of ale.  A few men stand
+over to the far left of the area arguing quite loudly.    
+~
+98 c h 0 0  0
+D0
+~
+~
+0 0 9882 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9806 0 0 0 0 0 0 0 0
+S
+#9808
+Nearing A Small Cave~
+   An entrance to an underground cave is before you.  The smells here are
+familiar and the scent of cooking meat lingers in the air.    
+~
+98 0 h 0 0  0
+D3
+~
+~
+0 0 9810 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9807 0 0 0 0 0 0 0 0
+S
+#9809
+A Path Through the Mountains~
+   This small trail looks like it has hardly been used.  It rises high above a
+valley floor.  Down below fires can be seen burning in the distance.  Small
+trees line the trail and lead throughout the forest.    
+~
+98 0 h 0 0  0
+D6
+~
+~
+0 0 9815 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9807 0 0 0 0 0 0 0 0
+S
+#9810
+A Small Cavern~
+   This small cavern seems to be a home for something.  Something can be heard
+from within the cave and it sounds like something humming.  A large crack in
+the cavern wall has a lantern shoved in it giving off a faint glow.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9811 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9808 0 0 0 0 0 0 0 0
+S
+#9811
+A Large Cavern~
+   A large rug covers the floor here and an opening in the ceiling lets light
+into the cave.  The walls here are smooth and chisel marks are fresh in them.
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9813 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9812 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9810 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9814 0 0 0 0 0 0 0 0
+S
+#9812
+A Large Cavern~
+   A large rug covers the floor here and an opening in the ceiling lets light
+into the cave.  The walls here are smooth and chisel marks are fresh in them.
+~
+98 0 h 0 0  0
+D3
+~
+~
+0 0 9811 0 0 0 0 0 0 0 0
+S
+#9813
+A Large Cavern~
+   A small makeshift bed is here looking as if it has been slept on quite
+often.  A pile of clothes litter the floor.  The walls are smooth and black.  
+A faint smell of sweat lingers in the air.    
+~
+98 0 h 0 0  0
+D2
+~
+~
+0 0 9811 0 0 0 0 0 0 0 0
+S
+#9814
+A Large Cavern~
+   A large rug covers the floor here and an opening in the ceiling lets light
+into the cave.  The walls here are smooth and chisel marks are fresh in them.
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9811 0 0 0 0 0 0 0 0
+S
+#9815
+A Small Opening~
+   The walls here are rough and the floor is littered with bones.  A smell of
+rotting flesh comes from within the cave.  A black substance grows from the top
+of the opening and hangs down.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9816 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9809 0 0 0 0 0 0 0 0
+S
+#9816
+Inside A Small Cave~
+   The floor here is covered in piles of bones.  The ceiling is very low here
+and a black substance grows from it.  There are claw marks covering the walls
+and the sound of screams can be heard.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9818 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9817 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9815 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9819 0 0 0 0 0 0 0 0
+S
+#9817
+Inside A Small Cave~
+   A fire burns here and the smell of somthing unholy burns from within the
+fire.  The walls here are rough and dull.  A small lantern hangs from the walls
+allowing small shadows to be cast in almost every direction.    
+~
+98 0 h 0 0  0
+D3
+~
+~
+0 0 9816 0 0 0 0 0 0 0 0
+S
+#9818
+Inside A Small Cave~
+   A fire burns here and the smell of somthing burning over the fire makes this
+part of the cave smell awful.  The walls here are rough and dull.  A small
+lantern hangs from the walls allowing small shadows to be cast in almost every
+direction.    
+~
+98 0 h 0 0  0
+D2
+~
+~
+0 0 9816 0 0 0 0 0 0 0 0
+S
+#9819
+Inside A Small Cave~
+   A large table rest here there are also blood stains the table.  Large chains
+and shackles hang from the walls.  The smell of blood is heavy here.    
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9816 0 0 0 0 0 0 0 0
+S
+#9820
+Inside A Small Cave~
+   Here is a entrance to a small cave.  Theere are sounds coming from the
+inside.  A large black rug hangs from the opening and has a duscusting oder
+coming from it.    
+~
+98 d h 0 0  0
+D3
+~
+~
+0 0 9803 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9821 0 0 0 0 0 0 0 0
+S
+#9821
+Inside the Main Opening~
+   The main opening of cave has some strange writings on it none you can seem
+to make out.  A small openining in the roof of the cave and the fire going on
+the middle of the floor tells you somthing lives here.    
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9822 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9824 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9823 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9820 0 0 0 0 0 0 0 0
+S
+#9822
+Inside A Small Cave~
+   Here lies a small makeshift bed and a small hook on the wall with some keys.
+A large carving is on the wall it is of a large beast.    
+~
+98 0 h 0 0  0
+D2
+~
+~
+0 0 9821 0 0 0 0 0 0 0 0
+S
+#9823
+A grand alter~
+   Hanging from a rope is the corpse of a large bear.  Its feet have been cut
+off and looks to be ready to skin.  Its large black lifeless eyes pierce your
+very soul.  The walls here are covered in blood ,and the floor as well.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9821 0 0 0 0 0 0 0 0
+S
+#9824
+Inside A Small Cave~
+   A large dark stone rest here its has many scratch marks upon it.  The walls
+are covered in a think black growth, and the air here smells of buning flesh.
+The floor os covered in dust, and a large black pot rest here.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9825 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9821 0 0 0 0 0 0 0 0
+S
+#9825
+Inside A Small Cave~
+   Here the walls bare no chisel marks, they are smooth as glass with no marks
+at all.  The floor here are as black as the walls and just as smooth.  A large
+blackened lantern lights this part of the cave.    
+~
+98 0 h 0 0  0
+D2
+~
+~
+0 0 9824 0 0 0 0 0 0 0 0
+S
+#9826
+A Trail Into the Mountains~
+   This small trail leads you further into the mountain region.  The air much
+colder here ,and when the wind blows it chills to the bone.    
+~
+98 0 h 0 0  0
+D2
+~
+~
+0 0 9851 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9800 0 0 0 0 0 0 0 0
+S
+#9827
+A Large Opening~
+   Ahead there is a large opening in the side of the mountain.  No sounds can
+be heard from the opening, and there is a strange smell that emits from the
+opening.    
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9828 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9850 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9800 0 0 0 0 0 0 0 0
+S
+#9828
+A Large Openeing~
+   Nearing the mouth of the cave a green mist can be seen.  The mouth of the
+cave is covered in a black substance, and is very slick to the touch.  The air
+about the cave is very stale ,and smells of rotting meat.    
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9829 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9827 0 0 0 0 0 0 0 0
+S
+#9829
+A Deepining Path In the Cave~
+   The smell here is much worse almost stomach churning.  The walls here are
+covered in the same black substance, and is very slick.  Strange noises can be
+heard ,almost like a barking sound.  There is a dim light up ahead.    
+~
+98 d h 0 0  0
+D1
+~
+~
+0 0 9830 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9828 0 0 0 0 0 0 0 0
+S
+#9830
+Deeper into the cave~
+   Here in the cave a fire is burning.  It seem to have been burning for some
+time.  There is a spring here which water flows up from and collects into a
+small pool.  The air is stagnant and the smell still lingers.    
+~
+98 d h 0 0  0
+D2
+~
+~
+0 0 9831 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9829 0 0 0 0 0 0 0 0
+S
+#9831
+Deeper into the cave~
+   The cave walls here ar not as rough as the rest of the cave.  They are
+smooth and black.  A foul smelling wind is blowing from somewhere and, a faint
+scratching sound can be heard.    
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9830 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9832 0 0 0 0 0 0 0 0
+S
+#9832
+Deeper Into the Cave~
+   Here the walls of the cave become smooth and polished.  A faint dripping
+sound can be heard.  The floor here has a slight angle down and is almost
+impossable to stand.    
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9831 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9833 0 0 0 0 0 0 0 0
+S
+#9833
+A Deepining Path~
+   The floor tilts suddenly and seems to be tilting to the hole in the floor.
+The walls are slick as is the floor, and large pointed rocks hang from the
+ceiling.    
+~
+98 adq h 0 0  0
+D0
+~
+~
+0 0 9832 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9834 0 0 0 0 0 0 0 0
+S
+#9834
+A Small Chamber~
+   Inside this small chamber is a pooling of water.  The noises get louder and
+the smell is much worse than can be remembered.  A simple carving is on the
+wall it cannot be made out for it looks to be thousands of years old.    
+~
+98 ad h 0 0  0
+D3
+~
+~
+0 0 9835 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9833 0 0 0 0 0 0 0 0
+S
+#9835
+Outside the Chamber~
+   Here the walls of the look to be losing there smoothness the floor is
+covered in a brown substance and it smells like a sewer.  A large granite ball
+rest here.  Barking noises can be heard in the distance.    
+~
+98 ad h 0 0  0
+D1
+~
+~
+0 0 9834 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9836 0 0 0 0 0 0 0 0
+S
+#9836
+Deeper With In~
+   The walls here are very rough, and seems that it would cut almost through
+any armor.  There is a small water puddle on the floor,and the dripping noise
+can still be heard.  The stone walls are a brownish black color.    
+~
+98 ad h 0 0  0
+D1
+~
+~
+0 0 9835 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9837 0 0 0 0 0 0 0 0
+S
+#9837
+Deeper With In~
+   Here the cave goes off in four diffrent directions.  The walls here are
+covered in sharp rocks, and look as of gold and other metals.  The noises seem
+to be getting louder and, the smell is getting worse.    
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9839 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9836 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9842 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9838 0 0 0 0 0 0 0 0
+S
+#9838
+A Dead End~
+   There is a small bed here too small for a human.  The walls are caked with
+mud and the floor is littered with bone and trash.  A small rotting desk also
+sits here, on the desk rest some small bones an teeth.    
+~
+98 adh h 0 0  0
+D1
+~
+~
+0 0 9837 0 0 0 0 0 0 0 0
+S
+#9839
+Along A Dark Passage~
+   Large jagged rocks can be sen hanging from the ceiling of the cave.  The
+floor of the cave is covered in a light fog.  Sounds of barking seem to be
+coming from all directions.    
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9840 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9837 0 0 0 0 0 0 0 0
+S
+#9840
+A Small Rope Ladder~
+   The walls here have been carved into a smoothness.  Two lit torches rest
+here in the cracks.  A small rope ladder leads to the upper part of the cave.
+A light fog covers the floor of the cave.    
+~
+98 d h 0 0  0
+D2
+~
+~
+0 0 9839 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9841 0 0 0 0 0 0 0 0
+S
+#9841
+A Small Rope Ladder~
+   The walls here have been carved into a smoothness.  Two lit torches rest
+here in the cracks.  A small rope ladder leads to the lower part of the cave.
+A light fog covers the floor of the cave and flows into the passage way down.
+  
+~
+98 d h 0 0  0
+D0
+~
+~
+0 0 9849 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9840 0 0 0 0 0 0 0 0
+S
+#9842
+A Black Stone Wall~
+   The walls in this part of the cave are made of a black substance.  The air
+here is thick and smells of burnning wood.  On the walls are some strange
+carvings of birds and humans.  A small green jem is also imbeded into the wall.
+  
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9837 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9843 0 0 0 0 0 0 0 0
+S
+#9843
+A Black Stone Wall~
+   The walls in this part of the cave are made of a black substance.  The air
+here is thick and smells of burnning wood.  On the walls are some strange
+carvings of birds and humans.  A small green jem is also imbeded into the wall.
+  
+~
+98 ad h 0 0  0
+D1
+~
+~
+0 0 9844 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9842 0 0 0 0 0 0 0 0
+S
+#9844
+A Black Stone Wall~
+   The walls in this part of the cave are made of a black substance.  The air
+here is thick and smells of burnning wood.  On the walls are some strange
+carvings of birds and humans.  A small green jem is also imbeded into the wall.
+  
+~
+98 ad h 0 0  0
+D1
+~
+~
+0 0 9845 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9843 0 0 0 0 0 0 0 0
+S
+#9845
+A Black Stone Wall~
+   Here is a small openining to the back of the cave.  The smell of wood get
+stronger here and Loud barking noises can be heard.  A large rotting wooden
+door leans against the wall.    
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9846 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9848 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9847 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9844 0 0 0 0 0 0 0 0
+S
+#9846
+A Pile of Bones~
+   A small fire burns here, and looks to be somthing cooking over it.  The
+walls here are black and the floor here is littered with trash.  A small dark
+stone has been inlaid into the wall.    
+~
+98 ad h 0 0  0
+D2
+~
+~
+0 0 9845 0 0 0 0 0 0 0 0
+S
+#9847
+A Pile of Bones~
+   The walls here turn brown and green.  A small bed that looks to be slept in
+is also in this end of the cave.  A large circle has been carved into the wall.
+Hanging from the walls are bits if cloth and a few lit torches.    
+~
+98 d h 0 0  0
+D0
+~
+~
+0 0 9845 0 0 0 0 0 0 0 0
+S
+#9848
+A Pile of Bones~
+   Here the air is thick with the smells of animal sweat and worse.  A small
+set of shackles hangs from the walls , and a large pipe leans against the wall,
+one end of the pipe is covered in blood and looks to be used to beat someone.
+  
+~
+98 ad h 0 0  0
+D3
+~
+~
+0 0 9845 0 0 0 0 0 0 0 0
+S
+#9849
+A Jagged Pathway~
+   The rocks are jagged here threating to pierce your armor.  The walls are
+covered in sharp rocks and they glisten in the fire light.  The floor is
+covered with sharp multifaceted side stones.  A slight oder hangs in the air
+and barking sounds can be heard.    
+~
+98 ad h 0 0  0
+D0
+~
+~
+0 0 9850 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9841 0 0 0 0 0 0 0 0
+S
+#9850
+A Thining Path Into the Cave~
+   The walls here are slightly smooth and the floor has jagged stones on it.  
+A green substance grows from the walls.  There are sevral small torches that
+hang from the wall.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9827 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9849 0 0 0 0 0 0 0 0
+S
+#9851
+A Trail Into the Mountains~
+   The Trail goes deeper into the mountains.  From here the peaks of other
+mountains can be seen and the forest on them are green as a vast sea.  A large
+snow owl is resting on a brach of a tree near by.    
+~
+98 c h 0 0  0
+D0
+~
+~
+0 0 9826 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9852 0 0 0 0 0 0 0 0
+S
+#9852
+A Trail Into the Mountains~
+   The Trail goes deeper into the mountains.  From here the peaks of other
+mountains can be seen and the forest on them are green as a vast sea.  A small
+pile of leaves here are burning showing signs of someone being here already.  
+
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9851 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9853 0 0 0 0 0 0 0 0
+S
+#9853
+A Valley Below~
+   The trail rises above a cliff wall now apparent way down can be seen.  The
+trail accends into the mountains even higher.  There large birds flying about
+the sky.  A lagre masive boulder also rest here and looks as if someone carved
+a bench out if the stone.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9852 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9854 0 0 0 0 0 0 0 0
+S
+#9854
+A Trail Into the Mountains~
+   The trail leads onward toward the mountains.  The air here is fresh
+and,brisk.  There is also aslight chill in the air as the elevation gets
+higher.  The howling of wolves can be heard in the distance.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9853 0 0 0 0 0 0 0 0
+S
+#9855
+A new room~
+You are in a room.
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9856 0 0 0 0 0 0 0 0
+S
+#9856
+A new room~
+You are in a room.
+~
+98 0 h 0 0  0
+S
+#9857
+Within a Row of Tents~
+   You are walking along a dirt path between a row of tents.  You can hear
+faint sounds coming from within.  Each tent looks different than all the
+others.  Ahead of you to the west looms a tent that is much larger than all the
+others, as you approach you see the tent flap move slightly, as if someone has
+just passed through it.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9858 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9806 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9859 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9860 0 0 0 0 0 0 0 0
+S
+#9858
+Within a Tent~
+   This tent is large enough to sleep quite a few people.  Several blankets are
+stretched out onto the ground allowing one a place to lay down and sleep.  The
+roof has been patched in several places, keeping the inside dry from the rains.
+A small table sits in the corner containing a pitcher of water.    
+~
+98 d h 0 0  0
+D2
+~
+~
+0 0 9857 0 0 0 0 0 0 0 0
+S
+#9859
+Within a Tent~
+   This tent is spacious enough to house quite a few people.  The roof of it
+stretches over two tall poles placed near the center.  You can make out where
+it has been patched over the years to keep out the rain and wind.  Several worn
+blankets have been scattered here and there over the hard packed dirt floor.  
+A pitcher of water stands on a small wooden table in the corner.    
+~
+98 d h 0 0  0
+D0
+~
+~
+0 0 9857 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9891 0 0 0 0 0 0 0 0
+S
+#9860
+Within a Row of Tents~
+   You are walking along a dirt path between a row of tents.  You can hear
+faint sounds coming from within.  Each tent looks different than all the
+others.  Ahead of you to the west looms a tent that is much larger than all the
+others, as you approach you see the tent flap move slightly, as if someone has
+just passed through it.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9861 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9857 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9862 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9864 0 0 0 0 0 0 0 0
+S
+#9861
+A Small Dirty Tent~
+   As you enter this tent your nostrils are filled with a horrid stench.  
+Large holes in the roof of the tent have allowed the rain waters to make the
+floors nothing but mud.  The rotting corpses of a few dead animals rest in the
+corner, crawling with bugs.    
+~
+98 d h 0 0  0
+D2
+~
+~
+0 0 9860 0 0 0 0 0 0 0 0
+S
+#9862
+Within a Tent~
+   This tent is large enough to sleep quite a few people.  Several blankets are
+stretched out onto the ground allowing one a place to lay down and sleep.  The
+roof has been patched in several places, keeping the inside dry from the rains.
+A small table sits in the corner containing a pitcher of water.
+~
+98 d h 0 0  0
+D0
+~
+~
+0 0 9860 0 0 0 0 0 0 0 0
+S
+#9863
+A new room~
+You are in a room.
+~
+98 0 h 0 0  0
+S
+#9864
+Approaching a Large Tent~
+   You are approaching a tent which is larger than the rest.  It's set neatly
+against the mountain, a rock overhanging protects it from the harsh rains and
+snows.  You hear what seems to be the faint sound of a man screaming.  Looking
+towards the large tent you see the front flap slowly start to open, and a pair
+of eyes peeking out at you.    
+~
+98 d h 0 0  0
+D1
+~
+~
+0 0 9860 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9867 0 0 0 0 0 0 0 0
+S
+#9865
+Within a Tent~
+   This tent is large enough to sleep quite a few people.  Several blankets are
+stretched out onto the ground allowing one a place to lay down and sleep.  The
+roof has been patched in several places, keeping the inside dry from the rains.
+A small table sits in the corner containing a pitcher of water.    
+~
+98 0 h 0 0  0
+D2
+~
+~
+0 0 9864 0 0 0 0 0 0 0 0
+S
+#9866
+Within a Tent~
+   This tent is large enough to sleep quite a few people.  Several blankets are
+stretched out onto the ground allowing one a place to lay down and sleep.  The
+roof has been patched in several places, keeping the inside dry from the rains.
+A small table sits in the corner containing a pitcher of water.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9864 0 0 0 0 0 0 0 0
+S
+#9867
+Entrance to a Large Tent~
+   The tent before you is larger than all of the others.  Its back is right up
+against the wall of the mountain providing it with greater protection from the
+heavy winds that blow in from the west.  Adorning the top of the tent is a
+small red and gold flag bearing a strange emblem.  Wiping blood from his
+dagger, a small elven man emerges from the tent.    
+~
+98 d h 0 0  0
+D1
+~
+~
+0 0 9864 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9868 0 0 0 0 0 0 0 0
+S
+#9868
+Inside a Large Tent~
+   This tent is much larger than the others.  From first glance around the
+inside you can see two passageways leading to smaller rooms within this
+shelter.  It is completely silent within, save for the sound of liquid dripping
+to the floor.    
+~
+98 cd h 0 0  0
+D1
+~
+~
+0 0 9867 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9870 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9869 0 0 0 0 0 0 0 0
+S
+#9869
+The Sleeping Area~
+   This is the sleeping area within the tent.  A large blanket is laid out
+neatly upon the ground.  An old wooden table sits in the far corner, on top of
+it rests a few wilted roses, perhaps used to remove the musty smell of the
+tent.  You see a small mouse scurry across the floor, and dart out the flap
+behind you.    
+~
+98 d h 0 0  0
+D9
+~
+~
+0 0 9868 0 0 0 0 0 0 0 0
+S
+#9870
+Argile's Office~
+   This room is used as a small office.  A desk containing several papers sits
+in the far corner.  Argile sits in his chair, slumped forward on the desk.  
+Blood pours from the wound on his back.  The pen he was using to write with is
+still clutched in his hand.  As he fell forward he knocked over the ink well,
+its contents spilling out and dripping to the floor.    
+~
+98 d h 0 0  0
+D8
+~
+~
+0 0 9868 0 0 0 0 0 0 0 0
+S
+#9871
+Entrance to a Cave~
+   You are standing in front of a cave leading into the mountain wall.  It is
+to dark to notice anything within.  From the size of the two soldiers guarding
+the entrance, you can tell that your admittance into this cavern is not
+welcome.  As you approach the guards, they slowly remove their weapons from
+their sheaths.    
+~
+98 c h 0 0  0
+D0
+~
+~
+0 0 9872 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9806 0 0 0 0 0 0 0 0
+S
+#9872
+Within the Cave~
+   The musty smell of the air fills your nostrils.  The cavern ceiling is high
+enough so that you can stand upright with no worries of hitting your head.  
+The smooth walls show that this cave was carved out by man.  You hear the sound
+of water dripping onto the rocky floor.  You try to look into the distance, but
+see nothing but darkness.    
+~
+98 d h 0 0  0
+D0
+~
+~
+0 0 9873 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9871 0 0 0 0 0 0 0 0
+S
+#9873
+Within the Cave~
+   You are walking deeper into the dark reaches of the mountain.  The rocks on
+the floor have become slick from seeping water, making it difficult to maintain
+your balance.  You turn a moment, looking back, but you can no longer see the
+entrance to the cave, only an enveloping darkness.  Holding out your light you
+see two passageways each veering off in seperate directions.    
+~
+98 d h 0 0  0
+D2
+~
+~
+0 0 9872 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9875 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9874 0 0 0 0 0 0 0 0
+S
+#9874
+A Passageway Within the Cave~
+   You are walking along a narrow corridor within the cavern.  The passageway
+seems to be sloping downwards.  As you continue walking the ceiling gets lower,
+causing you to have to bend down slightly to keep from bumping your head.  Up
+in the distance you hear sounds of a large creature moving about.  You now make
+the decision to push forward, or turn back and run.    
+~
+98 d h 0 0  0
+D7
+~
+~
+0 0 9876 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9873 0 0 0 0 0 0 0 0
+S
+#9875
+A Passageway Within the Cave~
+   This wide passageway leads you deeper into the mountain.  Torches on the
+walls give off faint light, and cast eerie shadows onto the walls.  The floor
+seems to be sloping upwards, and the wet surface makes it hard to keep your
+footing.    
+~
+98 d h 0 0  0
+D6
+~
+~
+0 0 9878 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9873 0 0 0 0 0 0 0 0
+S
+#9876
+A Passageway Within the Cave~
+   You are walking along a narrow corridor within the cavern.  The passageway
+seems to be sloping downwards.  As you continue walking the ceiling gets lower,
+causing you to have to bend down slightly to keep from bumping your head.  Up
+ahead you hear the sounds of a large creature moving about.    
+~
+98 d h 0 0  0
+D7
+~
+~
+0 0 9877 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9874 0 0 0 0 0 0 0 0
+S
+#9877
+A Dead End in the Cave~
+   The pathway you have been walking opens up to a small circular room.  The
+ceiling is now high enough so that you can stand upright again.  An enormous
+lion moves about the room, upon seeing you it charges.  Much to your relief it
+is chained to the wall not allowing it close enough to attack you.  The ground
+here is scattered with pieces of clothing, and bones.  Possibly from those who
+have attempted to unchain this huge beast.    
+~
+98 d h 0 0  0
+D0
+~
+stone~
+1 9824 9892 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9876 0 0 0 0 0 0 0 0
+S
+#9878
+A Passageway Within the Cave~
+   This wide passageway leads you deeper into the mountain.  Torches on the
+walls give off faint light, and cast eerie shadows onto the walls.  The floor
+seems to be sloping upwards, and the wet surface makes it hard to keep your
+footing.    
+~
+98 d h 0 0  0
+D6
+~
+~
+0 0 9879 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9875 0 0 0 0 0 0 0 0
+S
+#9879
+A Passageway Within the Cave~
+   The passageway begins to climb higher into the mountain.  Ahead of you you
+can hear faint thumping sounds and the glow of light can be seen.  The walls
+seem to get further apart and the ceiling here is nearly twenty feet above your
+head.    
+~
+98 d h 0 0  0
+D6
+~
+~
+0 0 9880 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9878 0 0 0 0 0 0 0 0
+S
+#9880
+Standing before a Solid Stone Door~
+   The passageway levels out and you enter a large circular room.  Several
+torches hanging around the wall light the room brightly.  The ceiling is nearly
+twenty feet high.  A solid stone door is on the opposite side of the room.  
+You hear loud thumping on the other side of the door, and faint cries for help
+~
+98 d h 0 0  0
+D0
+   A solid stone door.    
+~
+door~
+1 9800 9881 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9879 0 0 0 0 0 0 0 0
+S
+#9881
+Inside a Torture Chamber~
+   As you walk into this room your nostrils are filled with the smell of death,
+and decay.  Three men are chained to the wall, they are malnourished and seem
+almost to weak to even speak.  One man bangs his head against the stone wall
+hoping for a more instant death.  Several devices of torture are within the
+room, the men chained here apparently have refused to talk, or perhaps just
+give the insane doctor the answer he seeks.    
+~
+98 d h 0 0  0
+D2
+~
+door~
+1 9800 9880 0 0 0 0 0 0 0 0
+S
+#9882
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D0
+~
+~
+0 0 9890 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9807 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9886 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9883 0 0 0 0 0 0 0 0
+S
+#9883
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D3
+~
+~
+0 0 9890 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9884 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9882 0 0 0 0 0 0 0 0
+S
+#9884
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D6
+~
+~
+0 0 9885 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9883 0 0 0 0 0 0 0 0
+S
+#9885
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D3
+~
+~
+0 0 9888 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9884 0 0 0 0 0 0 0 0
+S
+#9886
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9890 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9887 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9882 0 0 0 0 0 0 0 0
+S
+#9887
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D7
+~
+~
+0 0 9889 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9886 0 0 0 0 0 0 0 0
+S
+#9888
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9885 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9890 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9889 0 0 0 0 0 0 0 0
+S
+#9889
+Standing Around the Bonfire~
+   You are standing around the raging bonfire.  The heat coming from the flames
+warms your skin.  Several people are standing around the flames, some resting.
+They talk about various things.  Large barrels of ale sit over to the far side
+of the area.  Some drunk men begin to argue about something, then get into a
+fist fight.    
+~
+98 0 h 0 0  0
+D1
+~
+~
+0 0 9888 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9887 0 0 0 0 0 0 0 0
+S
+#9890
+Standing in the Bonfire~
+   You have wandered into the raging bonfire.  The flames shoot up all around
+you scorching your clothing and skin.  The thick smoke fills your lungs making
+it extremely hard to breath.  You trip over a burning log and fall flat on your
+face.    
+~
+98 cry h 0 0  0
+D0
+~
+~
+0 0 9888 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9883 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9882 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9886 0 0 0 0 0 0 0 0
+S
+#9891
+Within a Tent~
+   This tent is spacious enough to house quite a few people.  The roof of it
+stretches over two tall poles placed near the center.  You can make out where
+it has been patched over the years to keep out the rain and wind.  Several worn
+blankets have been scattered here and there over the hard packed dirt floor.  
+A pitcher of water stands on a small wooden table in the corner.    
+~
+98 d h 0 0  0
+D0
+~
+~
+0 0 9859 0 0 0 0 0 0 0 0
+S
+#9892
+A Hidden Room in the Cave~
+   You have found a well hidden room within the mountain.  There are large
+dusty crates and chests stacked against the walls.  It appears nobody has been
+within this room for many years.  You hear the faint whisper of wind running
+past your ears and feel something cold brush against your arm.  As you peer
+into the darkness a pair of red glowing eyes are all you see.    
+~
+98 df h 0 0  0
+D1
+Large crates are stacked against the wall.
+~
+crates~
+1 0 9893 0 0 0 0 0 0 0 0
+D2
+   The wall here is much flatter than the rest of the walls, looking almost as
+if a doorway has been blocked.    
+~
+stone~
+2 9824 9877 0 0 0 0 0 0 0 0
+S
+#9893
+A Hidden Room in the Cave~
+   After pushing the crates aside you stumble past them into a small area of
+the room that is fairly cramped.  Several of the crates and chests here have
+been damaged, old rotting pieces of wood from the crates litter the floor.  A
+few of the iron chests have been eaten through by rust.  The damp air of the
+mountains seems to have damaged everything here beyond repair.    
+~
+98 0 h 0 0  0
+D3
+Large crates are stacked against the wall.
+~
+crates~
+2 0 9892 0 0 0 0 0 0 0 0
+S
+$

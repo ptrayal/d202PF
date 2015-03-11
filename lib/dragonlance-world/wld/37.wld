@@ -1,0 +1,1213 @@
+#3700
+Below a Heavy Iron Manhole~
+   Firmly set into the moss covered stone walls, rusty iron rungs slowly lead
+down to the sewer system of Sanction.  Only inches below the street's surface,
+the foul stench of flowing sewage engulfs you in its disgusting clasp.  The
+intensity of the darkness makes it nearly impossible to determine if there is
+solid ground below or simply a flowing stream of refuse.    
+~
+37 acd h 0 0 0
+D4
+~
+manhole~
+1 0 6524 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3701 0 0 0 0 0 0 0 0
+S
+#3701
+An Intersection of Corridors~
+   Four dimly lit stone walled corridors come to a crossroads in this murky,
+domed chamber.  Streams of flowing sewage collect into a large pool in the
+center of the room before pouring out into yet another drain.  The hushed
+sounds of echoing voices eerily emanate from deeper within the gloomy
+passageways.    
+~
+37 acd h 0 0 0
+D0
+~
+~
+0 0 3702 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3737 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3736 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3713 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3700 0 0 0 0 0 0 0 0
+S
+#3702
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3703 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3701 0 0 0 0 0 0 0 0
+S
+#3703
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3704 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3702 0 0 0 0 0 0 0 0
+S
+#3704
+A Stone Walled Corridor~
+   A rushing stream of water flows from the north, pouring out into a small
+tributary in the center of the room.  From this tributary, three narrow streams
+redirect the sewage off into seperate directions.  Beneath the water, small
+drains alleviate the abundance of swirling liquid as they draw the excess into
+deeper boundaries of the sewer system.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3705 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3760 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3703 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3706 0 0 0 0 0 0 0 0
+S
+#3705
+At the Mouth of a Drainage Basin~
+   A small waterfall of gushing water flows powerfully from the mouth of a
+stone gargoyle onto the floor of this repulsively dirty corridor.  Disorderly
+piles of foul smelling solid sewage sit in small clumps about the oblong room.
+Occasionally a small rodent crawls out of a crack in the wall to inspect the
+sewage, only to be swept away by the onrushing current.    
+~
+37 acdr h 0 0 0
+D0
+~
+stones~
+1 0 3762 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3704 0 0 0 0 0 0 0 0
+S
+#3706
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3704 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3707 0 0 0 0 0 0 0 0
+S
+#3707
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+stream of sewage flows, occasionally splashing murky water against the walls
+and your clothing.  Cutting into the side of the channel, a seperate stream
+leads some of the sewage towards another dimly lit corridor.  The splashing
+water creates a dangerously slick surface as it coats the cobblestones with a
+thin, slimy film.    
+~
+37 ad h 0 0 0
+D6
+~
+~
+0 0 3708 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3706 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3709 0 0 0 0 0 0 0 0
+S
+#3708
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D6
+~
+~
+0 0 3722 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3707 0 0 0 0 0 0 0 0
+S
+#3709
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D2
+~
+~
+0 0 3710 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3707 0 0 0 0 0 0 0 0
+S
+#3710
+An Intersection of Corridors~
+   Four dimly lit stone walled corridors come to a crossroads in this murky,
+domed chamber.  Streams of flowing sewage collect into a large pool in the
+center of the room before pouring out into yet another drain.  The hushed
+sounds of echoing voices eerily emanate from deeper within the gloomy
+passageways.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3709 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3712 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3711 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3714 0 0 0 0 0 0 0 0
+S
+#3711
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3710 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3730 0 0 0 0 0 0 0 0
+S
+#3712
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3713 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3710 0 0 0 0 0 0 0 0
+S
+#3713
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3701 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3712 0 0 0 0 0 0 0 0
+S
+#3714
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3710 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3715 0 0 0 0 0 0 0 0
+S
+#3715
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3714 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3716 0 0 0 0 0 0 0 0
+S
+#3716
+At A Sharp Incline Between Two Stone Walled Corridors~
+   The floor beneath the running sewage steeply inclines towards dry land at
+this point.  The flowing water is disposed of by numerous iron grates lining
+the bank of the channel.  Two narrow, pitch black caverns formed from large
+rectangular stones lead even deeper into the underbelly of Sanction.    
+~
+37 ac h 0 0 0
+D0
+~
+~
+0 0 3717 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3715 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3723 0 0 0 0 0 0 0 0
+S
+#3717
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3718 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3716 0 0 0 0 0 0 0 0
+S
+#3718
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3719 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3717 0 0 0 0 0 0 0 0
+S
+#3719
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3720 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3718 0 0 0 0 0 0 0 0
+S
+#3720
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D1
+~
+~
+0 0 3721 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3719 0 0 0 0 0 0 0 0
+S
+#3721
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D1
+~
+~
+0 0 3722 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3720 0 0 0 0 0 0 0 0
+S
+#3722
+At A Sharp Incline~
+   The floor beneath the running sewage steeply inclines towards dry land at
+this point.  The flowing water is disposed of by numerous iron grates lining
+the bank of the channel.  A narrow, pitch black cavern formed from large
+rectangular stones leads even deeper into the underbelly of Sanction.    
+~
+37 ac h 0 0 0
+D3
+~
+~
+0 0 3721 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3708 0 0 0 0 0 0 0 0
+S
+#3723
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3716 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3724 0 0 0 0 0 0 0 0
+S
+#3724
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3723 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3725 0 0 0 0 0 0 0 0
+S
+#3725
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3724 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3726 0 0 0 0 0 0 0 0
+S
+#3726
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3725 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3727 0 0 0 0 0 0 0 0
+S
+#3727
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D1
+~
+~
+0 0 3728 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3726 0 0 0 0 0 0 0 0
+S
+#3728
+At A Sharp Incline~
+   The floor beneath the running sewage steeply inclines towards dry land at
+this point.  The flowing water is disposed of by numerous iron grates lining
+the bank of the channel.  A narrow, pitch black cavern formed from large
+rectangular stones leads even deeper into the underbelly of Sanction.    
+~
+37 ac h 0 0 0
+D3
+~
+~
+0 0 3727 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3729 0 0 0 0 0 0 0 0
+S
+#3729
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D7
+~
+~
+0 0 3730 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3728 0 0 0 0 0 0 0 0
+S
+#3730
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+stream of sewage flows, occasionally splashing murky water against the walls
+and your clothing.  Cutting into the side of the channel, a seperate stream
+leads some of the sewage towards another dimly lit corridor.  The splashing
+water creates a dangerously slick surface as it coats the cobblestones with a
+thin, slimy film.    
+~
+37 ad h 0 0 0
+D6
+~
+~
+0 0 3711 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3731 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3729 0 0 0 0 0 0 0 0
+S
+#3731
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3732 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3730 0 0 0 0 0 0 0 0
+S
+#3732
+A Stone Walled Corridor~
+   A rushing stream of water flows from the south, pouring out into a small
+tributary in the center of the room.  From this tributary, three narrow streams
+redirect the sewage off into seperate directions.  Beneath the water, small
+drains alleviate the abundance of swirling liquid as they draw the excess into
+deeper boundaries of the sewer system.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3735 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3734 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3733 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3731 0 0 0 0 0 0 0 0
+S
+#3733
+At the Mouth of a Drainage Basin~
+   A small waterfall of gushing water flows powerfully from the mouth of a
+stone dragon onto the floor of this repulsively dirty corridor.  Disorderly
+piles of foul smelling solid sewage sit in small clumps about the oblong room.
+Occasionally a small rodent crawls out of a crack in the wall to inspect the
+sewage, only to be swept away by the onrushing current.    
+~
+37 acdr h 0 0 0
+D0
+~
+~
+0 0 3732 0 0 0 0 0 0 0 0
+S
+#3734
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D3
+~
+~
+0 0 3732 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3741 0 0 0 0 0 0 0 0
+S
+#3735
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3736 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3732 0 0 0 0 0 0 0 0
+S
+#3736
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 acd h 0 0 0
+D0
+~
+~
+0 0 3701 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3735 0 0 0 0 0 0 0 0
+S
+#3737
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3738 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3701 0 0 0 0 0 0 0 0
+S
+#3738
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3739 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3737 0 0 0 0 0 0 0 0
+S
+#3739
+An Intersection of Corridors~
+   Four dimly lit stone walled corridors come to a crossroads in this murky,
+domed chamber.  Streams of flowing sewage collect into a large pool in the
+center of the room before pouring out into yet another drain.  The hushed
+sounds of echoing voices eerily emanate from deeper within the gloomy
+passageways.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3761 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3751 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3740 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3738 0 0 0 0 0 0 0 0
+S
+#3740
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D0
+~
+~
+0 0 3739 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3741 0 0 0 0 0 0 0 0
+S
+#3741
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+stream of sewage flows, occasionally splashing murky water against the walls
+and your clothing.  Cutting into the side of the channel, a seperate stream
+leads some of the sewage towards another dimly lit corridor.  The splashing
+water creates a dangerously slick surface as it coats the cobblestones with a
+thin, slimy film.    
+~
+37 ad h 0 0 0
+D7
+~
+~
+0 0 3740 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3742 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3734 0 0 0 0 0 0 0 0
+S
+#3742
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D6
+~
+~
+0 0 3741 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3743 0 0 0 0 0 0 0 0
+S
+#3743
+At A Sharp Incline~
+   The floor beneath the running sewage steeply inclines towards dry land at
+this point.  The flowing water is disposed of by numerous iron grates lining
+the bank of the channel.  A narrow, pitch black cavern formed from large
+rectangular stones leads even deeper into the underbelly of Sanction.    
+~
+37 ac h 0 0 0
+D1
+~
+~
+0 0 3744 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3742 0 0 0 0 0 0 0 0
+S
+#3744
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D1
+~
+~
+0 0 3745 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3743 0 0 0 0 0 0 0 0
+S
+#3745
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3746 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3744 0 0 0 0 0 0 0 0
+S
+#3746
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3747 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3745 0 0 0 0 0 0 0 0
+S
+#3747
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3748 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3746 0 0 0 0 0 0 0 0
+S
+#3748
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3749 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3747 0 0 0 0 0 0 0 0
+S
+#3749
+At A Sharp Incline Between Two Stone Walled Corridors~
+   The floor beneath the running sewage steeply inclines towards dry land at
+this point.  The flowing water is disposed of by numerous iron grates lining
+the bank of the channel.  Two narrow, pitch black caverns formed from large
+rectangular stones lead even deeper into the underbelly of Sanction.    
+~
+37 ac h 0 0 0
+D0
+~
+~
+0 0 3752 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3748 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3750 0 0 0 0 0 0 0 0
+S
+#3750
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3749 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3751 0 0 0 0 0 0 0 0
+S
+#3751
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D1
+~
+~
+0 0 3750 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3739 0 0 0 0 0 0 0 0
+S
+#3752
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3753 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3749 0 0 0 0 0 0 0 0
+S
+#3753
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3754 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3752 0 0 0 0 0 0 0 0
+S
+#3754
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D0
+~
+~
+0 0 3755 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3753 0 0 0 0 0 0 0 0
+S
+#3755
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D2
+~
+~
+0 0 3754 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3756 0 0 0 0 0 0 0 0
+S
+#3756
+A Web Infested Cavern~
+   Once used by workers to get from one point of the sewer system to the next
+without having to wade through the refuse laden water, this timeworn cavern has
+obviously not been travelled through in quite some time.  Sticky, forsaken
+spider webs line the dusty walls, clinging to anything which brushes against
+them.  The moldy smell of decaying flesh permeates from deeper within the
+cavern walls.    
+~
+37 a h 0 0 0
+D1
+~
+~
+0 0 3755 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3757 0 0 0 0 0 0 0 0
+S
+#3757
+At A Sharp Incline~
+   The floor beneath the running sewage steeply inclines towards dry land at
+this point.  The flowing water is disposed of by numerous iron grates lining
+the bank of the channel.  A narrow, pitch black cavern formed from large
+rectangular stones leads even deeper into the underbelly of Sanction.    
+~
+37 ac h 0 0 0
+D1
+~
+~
+0 0 3756 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3758 0 0 0 0 0 0 0 0
+S
+#3758
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D7
+~
+~
+0 0 3757 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3759 0 0 0 0 0 0 0 0
+S
+#3759
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+stream of sewage flows, occasionally splashing murky water against the walls
+and your clothing.  Cutting into the side of the channel, a seperate stream
+leads some of the sewage towards another dimly lit corridor.  The splashing
+water creates a dangerously slick surface as it coats the cobblestones with a
+thin, slimy film.    
+~
+37 ad h 0 0 0
+D6
+~
+~
+0 0 3760 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3758 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3761 0 0 0 0 0 0 0 0
+S
+#3760
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D3
+~
+~
+0 0 3704 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3759 0 0 0 0 0 0 0 0
+S
+#3761
+A Stone Walled Corridor~
+   Two cobblestone walkways line this humid corridor.  Between them, a steady
+flow of sewage flows, occasionally splashing murky water against the walls and
+your clothing.  The splashing water creates a dangerously slick surface as it
+coats the cobblestones with a thin, slimy film.    
+~
+37 ad h 0 0 0
+D2
+~
+~
+0 0 3739 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3759 0 0 0 0 0 0 0 0
+S
+#3762
+A Stone Cavern~
+   This stone cavern is extremely narrow, allowing only enough space for one or
+two people to squeeze through.  It appears to have been unnaturally carved from
+a solid wall of stone by extremely well made tools.  The several cobwebs which
+stretch from side to side hint that no creature larger than a mouse has stepped
+foot through it in months, or perhaps years.    
+~
+37 aci h 0 0 0
+D0
+~
+~
+0 0 7876 0 0 0 0 0 0 0 0
+D2
+~
+stones~
+1 0 3705 0 0 0 0 0 0 0 0
+S
+#3769
+Trantin Castle; Courtyard~
+To come in due time
+~
+37 A 0 0 0 1
+D10
+~
+a thick dark brown arched door~
+0 0 3770 0 0 0 0 0 0 0 0
+S
+#3770
+Trantin Castle; Foyer~
+You are in an unfinished room.
+~
+37 n 0 0 0 0
+D11
+~
+a thick dark brown arched door~
+1 0 3769 0 0 0 0 0 0 0 0
+S
+$~

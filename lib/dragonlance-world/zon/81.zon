@@ -1,0 +1,26 @@
+#81
+None.~
+TheltoPalRoad~
+8100 8199 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  8102     4  8123   1   100     1    -1          0 a dusty traveller
+
+M 0  8102     4  8131   1   100     2    -1          0 a dusty traveller
+
+M 0  8103     4  8145   1   100     3    -1          0 a swarthy brigand
+
+M 0  8103     4  8110   1   100     4    -1          0 a swarthy brigand
+
+M 0  8104     1  8170   1   100     5    -1          0 a young, elegant Knight of Solamnia
+
+M 0  8105     1  8177   1   100     6    -1          0 Merle, Merchant Prince of Palanthas
+
+G 1  1237     2     0   0    15     7     7          0 a scrollcase wrapped in a dog leash
+
+O 0  8101     1  8125   0   100     8    -1          0 a small wooden sign
+
+S
+$

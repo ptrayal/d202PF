@@ -1,0 +1,1872 @@
+#5300
+A Winding Path~
+   This path has been heavily traversed and shows visible signs of wear.  Many
+footsteps are pressed into the hardened dirt that now floors the path, along
+with indents from the wheels of wagons and carts.  Just over the surrounding
+trees, you can see the smoke from a fire rolling up gently into the air.    
+~
+53 0 h 0 0  3
+D1
+~
+~
+0 0 5301 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5387 0 0 0 0 0 0 0 0
+S
+#5301
+A Winding Path~
+   This path has been heavily traversed and shows visible signs of wear.  Many
+footsteps are pressed into the hardened dirt that now floors the path, along
+with indents from the wheels of wagons and carts.  Just over the surrounding
+trees, you can see the smoke from a fire rolling up gently into the air.    
+~
+53 0 h 0 0  3
+D3
+~
+~
+0 0 5300 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5302 0 0 0 0 0 0 0 0
+S
+#5302
+A Winding Path~
+   The path towards the fire leads to the south even deeper within the wooded
+area.  With close examination you can see that some of the trees in the area
+have been cut down, possibly meaning they have been used for firewood, or
+building homes for some of its occupants.  The line of smoke still ascends up
+into the sky.    
+~
+53 0 h 0 0  0
+D6
+~
+~
+0 0 5301 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5303 0 0 0 0 0 0 0 0
+S
+#5303
+A Winding Path~
+   The path towards the fire leads to the north even deeper within the wooded
+area.  With close examination you can see that some of the trees in the area
+have been cut down, possibly meaning they have been used for firewood, or
+building homes for some of its occupants.  The line of smoke still ascends up
+into the sky.    
+~
+53 0 h 0 0  0
+D6
+~
+~
+0 0 5302 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5304 0 0 0 0 0 0 0 0
+S
+#5304
+A Winding Path~
+   The path towards the fire leads to the north even deeper within the wooded
+area.  With close examination you can see that some of the trees in the area
+have been cut down, possibly meaning they have been used for firewood, or
+building homes for some of its occupants.  The line of smoke still ascends up
+into the sky.    
+~
+53 0 h 0 0  0
+D7
+~
+~
+0 0 5305 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5303 0 0 0 0 0 0 0 0
+S
+#5305
+A Winding Path~
+   The path towards the fire leads to the north even deeper within the wooded
+area.  With close examination you can see that some of the trees in the area
+have been cut down, possibly meaning they have been used for firewood, or
+building homes for some of its occupants.  The line of smoke still ascends up
+into the sky.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5306 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5304 0 0 0 0 0 0 0 0
+S
+#5306
+Approaching The Camp~
+   The path finally winds to an end.  Only paces away lies a camp, filled with
+what look to be soldiers.  You can see that some cabins have, in fact, been
+made from the trees in the forest.  Many tents have been pitched within this
+man made clearing to house the soldiers.  You can now see the large fire in the
+middle of the camp, where a man looks to be preparing meals for the soldiers.
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5307 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5305 0 0 0 0 0 0 0 0
+S
+#5307
+Approaching The Camp~
+   The path finally winds to an end.  Only paces away lies a camp, filled with
+what look to be soldiers.  You can see that some cabins have, in fact, been
+made from the trees in the forest.  Many tents have been pitched within this
+man made clearing to house the soldiers.  You can now see the large fire in the
+middle of the camp, where a man looks to be preparing meals for the soldiers.
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5308 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5306 0 0 0 0 0 0 0 0
+S
+#5308
+Within The Camp~
+   Now within the camp it is apparent that the soldiers are not of pure heart.
+Amongst the predominant race of humans, there are also many other races of
+soldiers.  Most of the soldiers are wearing blackened chainmail armor, while
+others are wearing simple cloaks and robes.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5310 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5309 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5307 0 0 0 0 0 0 0 0
+S
+#5309
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5314 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5308 0 0 0 0 0 0 0 0
+S
+#5310
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5311 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5308 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5341 0 0 0 0 0 0 0 0
+S
+#5311
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5312 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5342 0 0 0 0 0 0 0 0
+S
+#5312
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5313 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5311 0 0 0 0 0 0 0 0
+S
+#5313
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5343 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5323 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5312 0 0 0 0 0 0 0 0
+S
+#5314
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5315 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5336 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5309 0 0 0 0 0 0 0 0
+S
+#5315
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5316 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5314 0 0 0 0 0 0 0 0
+S
+#5316
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5317 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 5371 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5324 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5315 0 0 0 0 0 0 0 0
+S
+#5317
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5318 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5316 0 0 0 0 0 0 0 0
+S
+#5318
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5348 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5317 0 0 0 0 0 0 0 0
+S
+#5319
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5320 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5346 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5347 0 0 0 0 0 0 0 0
+S
+#5320
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5321 0 0 0 0 0 0 0 0
+S
+#5321
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5345 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5320 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5322 0 0 0 0 0 0 0 0
+S
+#5322
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5321 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5323 0 0 0 0 0 0 0 0
+S
+#5323
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5322 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5344 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5313 0 0 0 0 0 0 0 0
+S
+#5324
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5316 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5372 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5325 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5349 0 0 0 0 0 0 0 0
+S
+#5325
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5326 0 0 0 0 0 0 0 0
+S
+#5326
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5325 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5350 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5327 0 0 0 0 0 0 0 0
+S
+#5327
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5326 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5358 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5328 0 0 0 0 0 0 0 0
+S
+#5328
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5327 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5329 0 0 0 0 0 0 0 0
+S
+#5329
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5338 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5328 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5330 0 0 0 0 0 0 0 0
+S
+#5330
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5332 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5331 0 0 0 0 0 0 0 0
+S
+#5331
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5333 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5330 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5352 0 0 0 0 0 0 0 0
+S
+#5332
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5330 0 0 0 0 0 0 0 0
+S
+#5333
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5334 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5331 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5339 0 0 0 0 0 0 0 0
+S
+#5334
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5335 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5333 0 0 0 0 0 0 0 0
+S
+#5335
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5308 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5340 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5334 0 0 0 0 0 0 0 0
+S
+#5336
+Nearing the Fire~
+   The temperature in this room is much warmer than in the other areas of the
+camp.  You can now see the campfire burning only a few paces away from you.  A
+cook and some of his helpers are scrambling about trying to get the food
+prepared for the hungry soldiers as quickly as possible.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5314 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5337 0 0 0 0 0 0 0 0
+S
+#5337
+The Campfire~
+   Many trees have been chopped in order to create this large fire.  The embers
+of the fire burn and smolder at great temperatures.  There is a man here
+preparing the meals along with a few other men helping him.  There are many
+things being roasted over the fire, including very large hams, and veal.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5336 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5338 0 0 0 0 0 0 0 0
+S
+#5338
+Nearing the Fire~
+   The temperature in this room is much warmer than in the other areas of the
+camp.  You can now see the campfire burning only a few paces away from you.  A
+cook and some of his helpers are scrambling about trying to get the food
+prepared for the hungry soldiers as quickly as possible.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5337 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5329 0 0 0 0 0 0 0 0
+S
+#5339
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5333 0 0 0 0 0 0 0 0
+S
+#5340
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D3
+~
+~
+0 0 5335 0 0 0 0 0 0 0 0
+S
+#5341
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5310 0 0 0 0 0 0 0 0
+S
+#5342
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5311 0 0 0 0 0 0 0 0
+S
+#5343
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5313 0 0 0 0 0 0 0 0
+S
+#5344
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5323 0 0 0 0 0 0 0 0
+S
+#5345
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5321 0 0 0 0 0 0 0 0
+S
+#5346
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D3
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+S
+#5347
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5319 0 0 0 0 0 0 0 0
+S
+#5348
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D3
+~
+~
+0 0 5318 0 0 0 0 0 0 0 0
+S
+#5349
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5324 0 0 0 0 0 0 0 0
+S
+#5350
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D3
+~
+~
+0 0 5326 0 0 0 0 0 0 0 0
+S
+#5351
+Inside A Tent~
+   The space within the tent here is very cramped.  It includes a wicker table
+for the soldiers to lay any of their smaller belongings on top of, a few bales
+of hay that have been covered with a thick, wool blanket as a bed, and a heavy
+bearskin rug covers the ground.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5328 0 0 0 0 0 0 0 0
+S
+#5352
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5331 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5353 0 0 0 0 0 0 0 0
+S
+#5353
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5352 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5354 0 0 0 0 0 0 0 0
+S
+#5354
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5355 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5353 0 0 0 0 0 0 0 0
+S
+#5355
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5356 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5359 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5354 0 0 0 0 0 0 0 0
+S
+#5356
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5357 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5355 0 0 0 0 0 0 0 0
+S
+#5357
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5358 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5356 0 0 0 0 0 0 0 0
+S
+#5358
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5327 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5357 0 0 0 0 0 0 0 0
+S
+#5359
+Within The Camp~
+   Tents along with the occasional cabin line the few well traveled paths
+through the camp.  The men and women present do not seem to be of the most
+friendly sort, glaring and walking silently by.  The paths through the camp are
+still fairly new, though you can tell simply by looking at them they are often
+traveled.  The population of the camp appears to be a very large one.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5355 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5360 0 0 0 0 0 0 0 0
+S
+#5360
+Nearing a Stage~
+   A little ways to the south a large wooden stage can be seen.  The smell of
+fresh wood is almost overwhelming here.  Even from a distance, you can see the
+stage has been crudely constructed, probably very quickly.  The sides of the
+path nearing the stage are covered with wooden benches, obviously to watch the
+performance up on the stage.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5359 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5361 0 0 0 0 0 0 0 0
+S
+#5361
+Nearing a Stage~
+   A little ways to the south a large wooden stage can be seen.  The smell of
+fresh wood is almost overwhelming here.  Even from a distance, you can see the
+stage has been crudely constructed, probably very quickly.  The sides of the
+path nearing the stage are covered with wooden benches, obviously to watch the
+performance up on the stage.    
+~
+53 c h 0 0  0
+D0
+~
+~
+0 0 5360 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5362 0 0 0 0 0 0 0 0
+S
+#5362
+Nearing a Stage~
+   A little ways to the south a large wooden stage can be seen.  The smell of
+fresh wood is almost overwhelming here.  Even from a distance, you can see the
+stage has been crudely constructed, probably very quickly.  The sides of the
+path nearing the stage are covered with wooden benches, obviously to watch the
+performance up on the stage.    
+~
+53 0 h 0 0  0
+D6
+~
+~
+0 0 5361 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5363 0 0 0 0 0 0 0 0
+S
+#5363
+Nearing a Stage~
+   A little ways to the south a large wooden stage can be seen.  The smell of
+fresh wood is almost overwhelming here.  Even from a distance, you can see the
+stage has been crudely constructed, probably very quickly.  The sides of the
+path nearing the stage are covered with wooden benches, obviously to watch the
+performance up on the stage.    
+~
+53 c h 0 0  0
+D1
+~
+~
+0 0 5383 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5364 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5384 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5362 0 0 0 0 0 0 0 0
+S
+#5364
+Before The Stage~
+   Standing directly in front of the stage a podium can now be seen.  There are
+a few men upon the stage, that seem to be preparing for something.  These men
+are nicely armored and are probably higher ranking officers within this army.
+On the front of the podium there is a banner with the emblem of a five-headed
+dragon upon it.    
+~
+53 c h 0 0  0
+D0
+~
+~
+0 0 5363 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5385 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5386 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+S
+#5365
+Upon The Stage~
+   Now upon the stage the rough wood is more easily noticed.  Fresh sap still
+slowly runs its way out of the wood, and large splinters of wood stick up
+threateningly.  The podium is also freshly made, and appears to be made out of
+one large, hollowed out log.  On the inside of the podium, a piece of parchment
+can be seen.  The parchment is probably what the higher ranking officers are
+going to address to the crowds that will soon gather.    
+~
+53 c h 0 0  0
+D1
+~
+~
+0 0 5366 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5370 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5367 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 5364 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5382 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5369 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5368 0 0 0 0 0 0 0 0
+S
+#5366
+Upon The Stage~
+   Now upon the stage the rough wood is more easily noticed.  Fresh sap still
+slowly runs its way out of the wood, and large splinters of wood stick up
+threateningly.  The podium is also freshly made, and appears to be made out of
+one large, hollowed out log.  On the inside of the podium, a piece of parchment
+can be seen.  The parchment is probably what the higher ranking officers are
+going to address to the crowds that will soon gather.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5370 0 0 0 0 0 0 0 0
+S
+#5367
+Upon The Stage~
+   Now upon the stage the rough wood is more easily noticed.  Fresh sap still
+slowly runs its way out of the wood, and large splinters of wood stick up
+threateningly.  The podium is also freshly made, and appears to be made out of
+one large, hollowed out log.  On the inside of the podium, a piece of parchment
+can be seen.  The parchment is probably what the higher ranking officers are
+going to address to the crowds that will soon gather.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5369 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5370 0 0 0 0 0 0 0 0
+S
+#5368
+Upon The Stage~
+   Now upon the stage the rough wood is more easily noticed.  Fresh sap still
+slowly runs its way out of the wood, and large splinters of wood stick up
+threateningly.  The podium is also freshly made, and appears to be made out of
+one large, hollowed out log.  On the inside of the podium, a piece of parchment
+can be seen.  The parchment is probably what the higher ranking officers are
+going to address to the crowds that will soon gather.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5366 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5370 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+S
+#5369
+Upon The Stage~
+   Now upon the stage the rough wood is more easily noticed.  Fresh sap still
+slowly runs its way out of the wood, and large splinters of wood stick up
+threateningly.  The podium is also freshly made, and appears to be made out of
+one large, hollowed out log.  On the inside of the podium, a piece of parchment
+can be seen.  The parchment is probably what the higher ranking officers are
+going to address to the crowds that will soon gather.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5367 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5370 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+S
+#5370
+Upon The Stage~
+   Now upon the stage the rough wood is more easily noticed.  Fresh sap still
+slowly runs its way out of the wood, and large splinters of wood stick up
+threateningly.  The podium is also freshly made, and appears to be made out of
+one large, hollowed out log.  On the inside of the podium, a piece of parchment
+can be seen.  The parchment is probably what the higher ranking officers are
+going to address to the crowds that will soon gather.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5368 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5369 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5367 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5366 0 0 0 0 0 0 0 0
+S
+#5371
+Inside a Cabin~
+   The inside of this cabin is also cramped, though not nearly as bad as the
+tents.  Just from the look of things, you would assume that only the higher
+ranking officers have the privilege of sleeping in a cabin at night.  Wooden
+floors line the inside of the cabin, and they are covered in various different
+types of animal skins, forming a nice carpet.  There is a bunk on the far side
+of the room, with a comfortable looking feather stuffed liner.  A small candle
+sits upon the crude table beside the bunk, providing minimal lighting.    
+~
+53 0 h 0 0  0
+D3
+~
+door~
+1 0 5316 0 0 0 0 0 0 0 0
+S
+#5372
+Nearing a Pond~
+   In the near distance a small pond can be seen.  There are some soldiers
+getting buckets of water out of the pond, and moving them over to another stone
+basin, where a few of the soldiers are bathing.  There is also another section
+of the pond that has been irrigated to a drinking area, where other soldiers
+are filling their waterskins with the cool liquid.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5373 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5324 0 0 0 0 0 0 0 0
+S
+#5373
+Nearing a Pond~
+   In the near distance a small pond can be seen.  There are some soldiers
+getting buckets of water out of the pond, and moving them over to another stone
+basin, where a few of the soldiers are bathing.  There is also another section
+of the pond that has been irrigated to a drinking area, where other soldiers
+are filling their waterskins with the cool liquid.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5374 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5372 0 0 0 0 0 0 0 0
+S
+#5374
+Nearing a Pond~
+   In the near distance a small pond can be seen.  There are some soldiers
+getting buckets of water out of the pond, and moving them over to another stone
+basin, where a few of the soldiers are bathing.  There is also another section
+of the pond that has been irrigated to a drinking area, where other soldiers
+are filling their waterskins with the cool liquid.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5375 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5373 0 0 0 0 0 0 0 0
+S
+#5375
+Nearing a Pond~
+   In the near distance a small pond can be seen.  There are some soldiers
+getting buckets of water out of the pond, and moving them over to another stone
+basin, where a few of the soldiers are bathing.  There is also another section
+of the pond that has been irrigated to a drinking area, where other soldiers
+are filling their waterskins with the cool liquid.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5374 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5376 0 0 0 0 0 0 0 0
+S
+#5376
+Nearing a Pond~
+   In the near distance a small pond can be seen.  There are some soldiers
+getting buckets of water out of the pond, and moving them over to another stone
+basin, where a few of the soldiers are bathing.  There is also another section
+of the pond that has been irrigated to a drinking area, where other soldiers
+are filling their waterskins with the cool liquid.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5375 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5377 0 0 0 0 0 0 0 0
+S
+#5377
+Nearing a Pond~
+   In the near distance a small pond can be seen.  There are some soldiers
+getting buckets of water out of the pond, and moving them over to another stone
+basin, where a few of the soldiers are bathing.  There is also another section
+of the pond that has been irrigated to a drinking area, where other soldiers
+are filling their waterskins with the cool liquid.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5378 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5376 0 0 0 0 0 0 0 0
+S
+#5378
+Beside the Pond~
+   The area seems to be crowded here, as the soldiers are gathering in for
+their drinking and bathing.  The water looks very clear and clean.  Upon close
+observation, it is now obvious that the pond was man made, as limestone
+provides for the main lining to the pond.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5379 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5377 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5380 0 0 0 0 0 0 0 0
+S
+#5379
+The Watering Hole~
+   This is the section of the pond where the soldiers are filling their
+waterskins.  You can see a type of filter put up between this area, and the
+other normal pond, and basin areas.  A few soldiers stand watch here, making
+sure that no one soils the fresh drinking water.    
+~
+53 0 h 0 0  0
+D3
+~
+~
+0 0 5378 0 0 0 0 0 0 0 0
+S
+#5380
+Beside the Pond~
+   The area seems to be crowded here, as the soldiers are gathering in for
+their drinking and bathing.  The water looks very clear and clean.  Upon close
+observation, it is now obvious that the pond was man made, as limestone
+provides for the main lining to the pond.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5381 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5378 0 0 0 0 0 0 0 0
+S
+#5381
+At the Basin~
+   Here lies the basin where the soldiers bathe.  The men scowl as you stand
+before them watching them in their naked form.  A few of the soldiers mutter
+profanity at each other as they discuss the days activities, and tomorrows
+plans.  The basin appears to be made of cobblestone, or a rock very similar to
+it.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5380 0 0 0 0 0 0 0 0
+S
+#5382
+Within A Cave Beside the Stage~
+   You are within a large, darkened cave.  There is a great stench filling this
+cave, and the whole inside of it looks to have been scorched by flames.  You
+see a couple bits and pieces of corpses lying around, they appear to be of
+human, dwarven, and elven descent.    
+~
+53 0 h 0 0  0
+D9
+~
+~
+0 0 5365 0 0 0 0 0 0 0 0
+S
+#5383
+At The Benches~
+   Here sit the benches where the spectators and officers have come to sit in
+order to hear the speech that is soon to take place.  The benches are crafted
+from a fine, sturdy wood, and have been very professionally done.  The benches
+are very long, and totally filled with people.    
+~
+53 0 h 0 0  0
+D3
+~
+~
+0 0 5363 0 0 0 0 0 0 0 0
+S
+#5384
+At The Benches~
+   Here sit the benches where the spectators and officers have come to sit in
+order to hear the speech that is soon to take place.  The benches are crafted
+from a fine, sturdy wood, and have been very professionally done.  The benches
+are very long, and totally filled with people.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5363 0 0 0 0 0 0 0 0
+S
+#5385
+At The Benches~
+   Here sit the benches where the spectators and officers have come to sit in
+order to hear the speech that is soon to take place.  The benches are crafted
+from a fine, sturdy wood, and have been very professionally done.  The benches
+are very long, and totally filled with people.    
+~
+53 0 h 0 0  0
+D3
+~
+~
+0 0 5364 0 0 0 0 0 0 0 0
+S
+#5386
+At The Benches~
+   Here sit the benches where the spectators and officers have come to sit in
+order to hear the speech that is soon to take place.  The benches are crafted
+from a fine, sturdy wood, and have been very professionally done.  The benches
+are very long, and totally filled with people.    
+~
+53 0 h 0 0  0
+D1
+~
+~
+0 0 5364 0 0 0 0 0 0 0 0
+S
+#5387
+A Winding Path~
+   This path has been heavily traversed and shows visible signs of wear.  Many
+footsteps are pressed into the hardened dirt that now floors the path, along
+with indents from the wheels of wagons and carts.  Just over the surrounding
+trees, you can see the smoke from a fire rolling up gently into the air.    
+~
+53 c h 0 0  3
+D7
+~
+~
+0 0 5300 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5388 0 0 0 0 0 0 0 0
+S
+#5388
+The Edge of a Stone Bridge~
+   The northern edge of a stone bridge, this area sees heavy traffic throughout
+the day and night.  To the north and east lie the Red and Black Dragonarmy
+Encampments, and to the south, the city of Sanction itself.  The ground here is
+muddy, and the footing is far from solid, causing an occasional traveler to
+slip.  A tiny, muddy path, recently worn into the dirt, wanders off to the
+northwest towards some dingy buildings.    
+~
+53 c h 0 0  0
+D0
+~
+~
+0 0 5392 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5389 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6646 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5387 0 0 0 0 0 0 0 0
+S
+#5389
+Crossing a Stone Bridge~
+   This bridge spans a lava river, allowing passage to the camps to the north.
+The bridge was recently created when the dragonarmies took up residence in this
+city, and because of its importance, was constructed with care.  Over both
+railings on either side, heat rises up from the molten lava.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5388 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5390 0 0 0 0 0 0 0 0
+S
+#5390
+Crossing a Stone Bridge~
+   This bridge spans a lava river, allowing passage to the camps to the north.
+The bridge was recently created when the dragonarmies took up residence in this
+city, and because of its importance, was constructed with care.  Over both
+railings on either side, heat rises up from the molten lava.    
+~
+53 c h 0 0  0
+D0
+~
+~
+0 0 5389 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5391 0 0 0 0 0 0 0 0
+S
+#5391
+Crossing a Stone Bridge~
+   This bridge spans a lava river, allowing passage to the camps to the north.
+The bridge was recently created when the dragonarmies took up residence in this
+city, and because of its importance, was constructed with care.  Over both
+railings on either side, heat rises up from the molten lava.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5390 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6589 0 0 0 0 0 0 0 0
+S
+#5392
+A Frequently Used Cobblestone Path~
+   Large cobalt blue cobblestones have been tightly placed together into the
+ground, forming a sturdy, if not comfortable path.  The air is slightly cooler
+at this point, but far from pleasant, as evident by the nagging humidity.  
+Various recruits of what looks to be the Red Dragonarmy pace the walkway,
+occasionally stopping to salute a higher ranking officer.  In the horizon
+further to the north, an ominous structure imposingly looms.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5393 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5388 0 0 0 0 0 0 0 0
+S
+#5393
+A Frequently Used Cobblestone Path~
+   Large cobalt blue cobblestones have been tightly placed together into the
+ground, forming a sturdy, if not comfortable path.  The air is slightly cooler
+at this point, but far from pleasant, as evident by the nagging humidity.  
+Various recruits of what looks to be the Red Dragonarmy pace the walkway,
+occasionally stopping to salute a higher ranking officer.  In the horizon
+further to the north, an ominous structure imposingly looms.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5394 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5392 0 0 0 0 0 0 0 0
+S
+#5394
+A Frequently Used Cobblestone Path~
+   Large cobalt blue cobblestones have been tightly placed together into the
+ground, forming a sturdy, if not comfortable path.  The air is slightly cooler
+at this point, but far from pleasant, as evident by the nagging humidity.  
+Various recruits of what looks to be the Red Dragonarmy pace the walkway,
+occasionally stopping to salute a higher ranking officer.  In the horizon
+further to the north, an ominous structure imposingly looms.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5393 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5395 0 0 0 0 0 0 0 0
+S
+#5395
+A Frequently Used Cobblestone Path~
+   Large cobalt blue cobblestones have been tightly placed together into the
+ground, forming a sturdy, if not comfortable path.  The air is slightly cooler
+at this point, but far from pleasant, as evident by the nagging humidity.  
+Various recruits of what looks to be the Red Dragonarmy pace the walkway,
+occasionally stopping to salute a higher ranking officer.  In the horizon
+further to the north, an ominous structure imposingly looms.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5396 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5394 0 0 0 0 0 0 0 0
+S
+#5396
+A Frequently Used Cobblestone Path~
+   Large cobalt blue cobblestones have been tightly placed together into the
+ground, forming a sturdy, if not comfortable path.  The air is slightly cooler
+at this point, but far from pleasant, as evident by the nagging humidity.  
+Various recruits of what looks to be the Red Dragonarmy pace the walkway,
+occasionally stopping to salute a higher ranking officer.  In the horizon
+further to the north, an ominous structure imposingly looms.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5395 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5397 0 0 0 0 0 0 0 0
+S
+#5397
+A Frequently Used Cobblestone Path~
+   Large cobalt blue cobblestones have been tightly placed together into the
+ground, forming a sturdy, if not comfortable path.  The air is slightly cooler
+at this point, but far from pleasant, as evident by the nagging humidity.  
+Various recruits of what looks to be the Red Dragonarmy pace the walkway,
+occasionally stopping to salute a higher ranking officer.  In the horizon
+further to the north, an ominous structure imposingly looms.  A wide, packed
+dirt path leads to a rather large campground to the north.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 5398 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5396 0 0 0 0 0 0 0 0
+S
+#5398
+Before the Campgrounds~
+   Smells of molten metal and cooked meats permeate the area, combining to form
+a rather unpleasant odor.  Soldiers of the Red Dragonarmy walk to and from
+their campgrounds to the north, each having a look of unwavering determination
+upon their faces.  Temporary, yet unusually well made buildings stand sturdily
+side by side throughout the campgrounds.    
+~
+53 0 h 0 0  0
+D2
+~
+~
+0 0 5397 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5399 0 0 0 0 0 0 0 0
+S
+#5399
+Before the Campgrounds~
+   Smells of molten metal and cooked meats permeate the area, combining to form
+a rather unpleasant odor.  Soldiers of the Red Dragonarmy walk to and from
+their campgrounds to the north, each having a look of unwavering determination
+upon their faces.  Temporary, yet unusually well made buildings stand sturdily
+side by side throughout the campgrounds.  A wide granite bridge stretches over
+a river of molten lava directly to the north, before ending at the gates of the
+camp.    
+~
+53 0 h 0 0  0
+D0
+~
+~
+0 0 9402 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5398 0 0 0 0 0 0 0 0
+S
+$

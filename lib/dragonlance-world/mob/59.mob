@@ -1,0 +1,535 @@
+#5900
+ghost battered red-haired kender~
+the ghost of a battered, red-haired kender~
+The ghost of a battered, red-haired kender screams as it charges you!
+~
+   Before you is the ghost of a red-haired kender.  It's form looks severely
+beaten, with large welts and bruises all over it's body.  Large abrasions
+dominate the unfortunate soul's face, and the right side of the kender's head
+has been caved in by a crushing blow.  The spirit charges at you, screaming
+manaically.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5901
+ghost silver armorered knight~
+the ghost of a silver armored knight~
+The ghost of a silver armored knight screams horribly as it charges you!
+~
+   This spirit wears a suit of battered and dented armor bearing the symbol of
+a kingfisher and a crown.  There are place in the armor where the metal has
+ruptured and digs deep into the spirit's "flesh".  His head has been crushed,
+as if pressed in very hard from the temples.  It looks at you with hate-filled
+eyes and rushes forth to attack!    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5902
+ghost bearded stocky dwarf~
+the ghost of a bearded and stocky dwarf~
+The ghost of a pummelled bearded dwarf of stocky build charges you!
+~
+   This ghost is the spirit of a severely pummelled dwarf with a stocky build
+and a long black beard.  A heavy blow seems to have crushed both his windpipe
+and this ribcage.  The cursed soul screams manaically as it charges forth to
+attack!    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5903
+ghost young brown haired mage~
+the ghost of a young, brown haired mage~
+The ghost of a young, brown haired mage with bloodstained robes charges you!
+~
+   This ghost is the spirit of a grotesquely mangled mage, so horrifying, it is
+hard to look at it for more than a few seconds.  His torso is twisted to such
+an extent, that his groin is attatched only by a few strips of flesh near the
+spine.  The cursed spirit charges you with a hate-filled scream.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5904
+ghost clawed brown robed woodsman~
+the ghost of a slight, brown-robed woodsman~
+The ghost of a visciously clawed brown-robed woodsman of slight build charges!
+~
+   This ghost appears to be the spirit of a brown robed woodsman of slight
+build.  He has been visciously clawed several times, and his entrails spill out
+of a broken rib-cage.  One of his legs has been sheared off above the knee, yet
+it floats in mid-air nonetheless.  The grotesque being screams horridly as it
+charges you!    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5905
+ghost priestess elven mangled mauled~
+the ghost of an elven priestess~
+The ghost of a mangled and mauled elven priestess charges you in hatred!
+~
+   This spirit could have once been a beautiful woman, but has been mauled and
+mangled to a point where only her pointed ears and golden hair, now matted with
+blood, define her heritage.  Her torso is impossibly stretched in a position no
+man or woman could ever create in life.  She screams like a wailing banshee as
+she rushes forward to attack!    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5906
+troll plae green garganuan vampire~
+a pale green, gargantuan troll~
+A pale green troll of gargantuan size stoops down as it charges to attack you.
+~
+   This troll is at least twice the size of a normal troll, and has pale green
+skin.  It's fangs are very long, especially the incisors which extend almost to
+the creatures chin.  It floats a few feet above the ground, and stoops over to
+avoid hitting his head on the ceiling.  A long, ruby amulet pulsates on the
+creatures chest.  He rushes forward, grinning madly, to attack!    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5907
+behir lizard creature~
+a red-scaled behir~
+A large, lizard-like creature with flaming red scales snaps it's jaws at you.
+~
+   This strange, lizard-like creature has crimson scales that are covered in
+raging flames.  The creature has wide, slit-like eyes that pierce you like a
+thrown dagger.  It breathes heavily, sending out plumes of smoke that quickly
+rise up into the darkness above.  It snaps it's jaws angrily at you and begins
+to shuffle it's way toward you.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5908
+spider massive crystal~
+a massive, crystal spider~
+A massive spider made purely of crystal guards the entrance to the tomb.
+~
+   This strange golem has been carved from crystal into the shape of a massive
+spider.  It stands motionless in front of the nothern doorway, impassive to
+your presence.  It's huge mandibles clack loudly as you take a step forward.  
+
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5909
+priestess restless spirit irdan~
+the restless spirit of an Irdan priestess~
+The restless spirit of an Irdan priestess hovers above the sarcophagus.
+~
+   Hovering before you is the spirit of an amazingly beautiful humanoid with
+deep blue skin.  Her hair is stark white, and is braided on a very ornate
+fashion.  She wields a large, two-handed mace that glows with it's powerful
+energy.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5910
+mage spirit irdan restless~
+the restless spirit of an Irdan mage~
+The restless spirit of an Irdan mage hovers over the sarcophagus.
+~
+   Hovering before you is the spirit of a very handsome humanoid with deep blue
+skin.  His hair is cut short, and is silver in color.  His expression is grim,
+but serene.  He wields a large, two-handed staff that glows brightly in a
+golden hue.  He seems not to be aware of your presence.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5911
+large lizard basilisk slate grey~
+a slate-grey basilisk~
+A large, lizard-like creature with slate grey scales shambles toward you.
+~
+   Before you is a large, lizard-like creature with slate grey scales.  
+Strangely enough your gaze is pulled towards it's eyes, which litterally
+paralyze you as you make contact with them.  With a huge surge of willpower you
+pull your gaze away, and adrenaline pumps through your veins as the creature
+roars loudly before charging you.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5912
+scorpion massive crystal red~
+a massive, crystal scorpion~
+a massive scorpion of red crystal scuttles toward you, it's tail raised!
+~
+   This massive scorpion seems to be made of some sort of reddish crystal, and
+has been animated through powerful magic.  It wanders the halls in front of
+you, then suddenly turns toward you and begins scuttling forward at an
+impossibly fast rate.  An eerie chiming noise fills the air as it's spindly
+legs hit the ground.  It's tail is raised high in the air, eager to strike out
+at you.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5913
+medusa green skinned woman snakes~
+a flagituous medusa~
+A green skinned woman with a head of snakes hisses at you.
+~
+   This horrifying creature appears to be a green-skinned woman with a head of
+writhing, snapping, hissing snakes.  She hisses at you banefully and screams
+loudly.  Her gaze meets your own and you are suddenly unable to move.  She
+walks toward you quickly, exposing a mouth full of jagged, yet sharp teeth as
+she screams horribly.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5914
+sphinx creature lion wings woman~
+an ambiguous sphinx~
+A strange creature with the head of a woman, body of a lion and great wings.
+~
+   Before you is a great creature of strange proportions.  It has the head of a
+beautiful, dark-haired woman, and the body of a large lion.  Two large,
+white-feathered wings sprout from the creatures back, and are neatly folded at
+it's side.  It gazes upon you with great interest, yet makes no movement at
+all.  In a deep, strangely masculine voice, it booms, "What is it that has four
+feet in the morning, two at noon, and three at night?"
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5915
+cyclops giant~
+an enormous cyclops~
+A giant of a man with one large eye towers over you menacingly.
+~
+   This "man" stands well over ten feet in height and has a single, large eye
+that gazes at you threateningly.  The giant is wearing a golden toga fastened
+with a silver girdle.  He wields a large, wickedly spiked club that he raises
+over his head to attack.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5916
+dertun ancient sage~
+Dertun~
+An ancient sage stands here leafing through a large, blue book.
+~
+   This man is very, very old, and has steely grey hair that is so thin, his
+scalp can be seen beneath it.  He wears a grey tunic and brown slacks, that
+look almost as old as he.  He casually leafs through a large, blue scaled book,
+and occasionally jots down a note on a piece of parchment.    
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#5917
+braugh tall stocky wizard~
+Braugh~
+A tall, stocky wizard draped in long crimson robes walks by.
+~
+   This red robed wizard is fairly young, and is quite stocky for one so
+accustomed to spending his time in study.  He gazes left and right, taking in
+the beauties of the elven city of Qualinost as he walks through the streets.  
+
+~
+bd 0 0 0 k p 0 0 500
+2 18 8 24d20+92 1d8+1
+20 0 17 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

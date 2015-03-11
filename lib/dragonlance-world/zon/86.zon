@@ -1,0 +1,216 @@
+#86
+None.~
+The Snow Wood Convent~
+8600 8699 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  8600    10  8642   1    50     0    -1          0 a feral cat
+
+G 1  8608    10     0   0    50     1     0          0 a white cat's tail
+
+M 0  8600    10  8644   1    50     2    -1          0 a feral cat
+
+G 1  8608    10     0   0    50     3     2          0 a white cat's tail
+
+M 0  8600    10  8646   1    50     4    -1          0 a feral cat
+
+G 1  8608    10     0   0    50     5     4          0 a white cat's tail
+
+M 0  8600    10  8648   1    50     6    -1          0 a feral cat
+
+G 1  8608    10     0   0    50     7     6          0 a white cat's tail
+
+M 0  8600    10  8650   1    50     8    -1          0 a feral cat
+
+G 1  8608    10     0   0    50     9     8          0 a white cat's tail
+
+M 0  8600    10  8652   1    50    10    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    11    10          0 a white cat's tail
+
+M 0  8600    10  8654   1    50    12    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    13    12          0 a white cat's tail
+
+M 0  8600    10  8656   1    50    14    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    15    14          0 a white cat's tail
+
+M 0  8600    10  8657   1    50    16    -1          0 a feral cat
+
+M 0  8500    15  8659   2    50    17    -1          0 a monk of majere
+
+M 0  8600    10  8659   1    50    18    -1          0 a feral cat
+
+G 1  8608    10     0   0    50    19    18          0 a white cat's tail
+
+M 0  8607     4  8643   1   100    20    -1          0 the bozak draconian
+
+E 1  8605    10     6   0    50    21    20          0 a blue leather helm
+
+E 1  8601    10    16   0    30    22    20          0 a barbed headed spear
+
+M 0  8603    10  8643   2   100    23    -1          0 a draconian
+
+E 1  8607    10     5   0    30    24    23          0 white leather armor
+
+M 0  8602    20  8643   4    25    25    -1          0 a mercenary
+
+E 1  8603    10    16   0    30    26    25          0 a rusted longsword
+
+M 0  8601    10  8643   2   100    27    -1          0 a half-elf slave
+
+E 1  8606    10     5   0    50    28    27          0 tattered grey robes
+
+M 0  8603    10  8617   2   100    29    -1          0 a draconian
+
+E 1  8607    10     5   0    30    30    29          0 white leather armor
+
+M 0  8602    20  8617   4    25    31    -1          0 a mercenary
+
+E 1  8603    10    16   0    30    32    31          0 a rusted longsword
+
+M 0  8601    10  8617   2   100    33    -1          0 a half-elf slave
+
+M 0  8607     4  8621   1   100    34    -1          0 the bozak draconian
+
+E 1  8605    10     6   0    50    35    34          0 a blue leather helm
+
+E 1  8601    10    16   0    30    36    34          0 a barbed headed spear
+
+M 0  8603    10  8621   2   100    37    -1          0 a draconian
+
+E 1  8607    10     5   0    30    38    37          0 white leather armor
+
+M 0  8602    20  8621   4    25    39    -1          0 a mercenary
+
+E 1  8603    10    16   0    30    40    39          0 a rusted longsword
+
+M 0  8607     4  8640   1   100    41    -1          0 the bozak draconian
+
+E 1  8605    10     6   0    50    42    41          0 a blue leather helm
+
+E 1  8601    10    16   0    30    43    41          0 a barbed headed spear
+
+M 0  8603    10  8640   2   100    44    -1          0 a draconian
+
+E 1  8607    10     5   0    30    45    44          0 white leather armor
+
+M 0  8602    20  8640   4    25    46    -1          0 a mercenary
+
+E 1  8603    10    16   0    30    47    46          0 a rusted longsword
+
+M 0  8601    10  8640   2   100    48    -1          0 a half-elf slave
+
+E 1  8606    10     5   0    50    49    48          0 tattered grey robes
+
+M 0  8604    10  8610   1   100    50    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    30    51    50          0 a jagged human femur
+
+M 0  8500    15  8600   2    50    52    -1          0 a monk of majere
+
+M 0  8604    10  8600   1   100    53    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    30    54    53          0 a jagged human femur
+
+M 0  8604    10  8666   1   100    55    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    30    56    55          0 a jagged human femur
+
+M 0  8604    10  8674   1   100    57    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    30    58    57          0 a jagged human femur
+
+M 0  8604    10  8677   1   100    59    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    30    60    59          0 a jagged human femur
+
+M 0  8604    10  8682   1   100    61    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    30    62    61          0 a jagged human femur
+
+M 0  8604    10  8691   1   100    63    -1          0 a phantom elven child
+
+E 1  8602    10    16   0    30    64    63          0 a jagged human femur
+
+O 0  8517     2  8699   0   100    65    -1          0 the hand of Lunitari
+
+O 0  8517     2  8699   0   100    66    -1          0 the hand of Lunitari
+
+M 0  8609     1  8699   1   100    67    -1          0 the faerie dragon
+
+M 0  8500    15  8665   2    50    68    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    69    68          0 a red hand-wrap weighted with copper
+
+M 0  8506     1  8665   1    50    70    -1          0 a young squire with a sandy moustache
+
+E 1  8515    15     8   0    50    71    70          0 a large kiteshield bearing a solamnic crest
+
+E 1  8514    15     8   0    50    72    70          0 a pair of iron shod tanned leather boots
+
+M 0  8504     1  8665   1    50    73    -1          0 a curious kender with red hair
+
+E 1  8511    15    13   0    50    74    73          0 a bandoleer of many small pouches
+
+E 1  8510    15    16   0    50    75    73          0 a large hoopak with a blue pocket
+
+M 0  8505     1  8665   1    50    76    -1          0 a grey cloaked stranger with pointed ears
+
+E 1  8512    15    12   0    50    77    76          0 a gray matted wool cloak
+
+E 1  8513    15    16   0    50    78    76          0 a curved bow of yew and bone
+
+M 0  8503     1  8665   1    50    79    -1          0 a short bearded holy dwarf
+
+E 1  8509    15    16   0    50    80    79          0 a carved ironwood root
+
+E 1  8508    15    14   0    50    81    79          0 a heavy iron chain
+
+E 1  8508    15     3   0    50    82    79          0 a heavy iron chain
+
+M 0  8502     1  8665   1    50    83    -1          0 a lithe woman with callused hands
+
+E 1  8507    15    16   0    50    84    83          0 a well worn long-sword
+
+E 1  8506    15     7   0    50    85    83          0 a piece of studded leather tied with red cord
+
+E 1  8506    15    10   0    50    86    83          0 a piece of studded leather tied with red cord
+
+M 0  8501     1  8665   1    50    87    -1          0 a young scholarly elf with long hair
+
+E 1  8505    15    16   0    50    88    87          0 a rough oak staff
+
+E 1  8504    15     5   0    50    89    87          0 a set of rumpled red robes
+
+M 0  8500    15  8618   2    50    90    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    91    90          0 a red hand-wrap weighted with copper
+
+M 0  8500    15  8622   2    50    92    -1          0 a monk of majere
+
+M 0  8500    15  8627   2    50    93    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    94    93          0 a red hand-wrap weighted with copper
+
+M 0  8500    15  8634   2    50    95    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    96    95          0 a red hand-wrap weighted with copper
+
+M 0  8500    15  8639   2    50    97    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20    98    97          0 a red hand-wrap weighted with copper
+
+M 0  8500    15  8609   2    50    99    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20   100    99          0 a red hand-wrap weighted with copper
+
+M 0  8500    15  8658   2    50   101    -1          0 a monk of majere
+
+E 1  8516    20    16   0    20   102   101          0 a red hand-wrap weighted with copper
+
+S
+$

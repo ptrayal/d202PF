@@ -1,0 +1,1893 @@
+#2200
+A Worn Trail off the Northwest Trade Highway~
+   Jutting off the main highway is a wide and oft-used trail bordered by several
+meters of trampled grass and foliage on either side.  The trail leads in a very
+slight southwest direction and into a light wooded area.  Off in the distance to
+the west the smoke of campfires can be seen.  There is little in the way of
+plant or wildlife in this area for whatever reason.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 420 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2201 0 0 0 0 0 0 0 0
+S
+#2201
+A Worn Trail off the Northwest Trade Highway~
+   Jutting off the main highway is a wide and oft-used trail bordered by several
+meters of trampled grass and foliage on either side.  The trail leads in a very
+slight southwest direction and into a light wooded area.  Off in the distance to
+the west the smoke of campfires can be seen.  There is little in the way of
+plant or wildlife in this area for whatever reason.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2200 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2202 0 0 0 0 0 0 0 0
+S
+#2202
+A Worn Trail off the Northwest Trade Highway~
+   Jutting off the main highway is a wide and oft-used trail bordered by several
+meters of trampled grass and foliage on either side.  The trail leads in a very
+slight southwest direction and into a light wooded area.  Off in the distance to
+the west the smoke of campfires can be seen.  There is little in the way of
+plant or wildlife in this area for whatever reason.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2201 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2203 0 0 0 0 0 0 0 0
+S
+#2203
+A Worn Trail off the Northwest Trade Highway~
+   Jutting off the main highway is a wide and oft-used trail bordered by several
+meters of trampled grass and foliage on either side.  The trail leads in a very
+slight southwest direction and into a light wooded area.  Off in the distance to
+the west the smoke of campfires can be seen.  There is little in the way of
+plant or wildlife in this area for whatever reason.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2202 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2204 0 0 0 0 0 0 0 0
+S
+#2204
+A Worn Trail off the Northwest Trade Highway~
+   Jutting off the main highway is a wide and oft-used trail bordered by several
+meters of trampled grass and foliage on either side.  The trail leads in a very
+slight southwest direction and into a light wooded area.  Off in the distance to
+the west the smoke of campfires can be seen.  There is little in the way of
+plant or wildlife in this area for whatever reason.  
+~
+22 0 0 0 0 10
+D3
+~
+~
+0 0 2205 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2203 0 0 0 0 0 0 0 0
+S
+#2205
+A Checkpoint Before the Flaming Hand Mercenary Camp~
+   The smoke of the camp fires finally identify themselves here in front of a
+massive wooden gate.  The gate extends in a huge circle both south and north,
+seemingly encircling the entire camp within.  Emblazoned in red paint on the
+wooden gate is the symbol of a Flaming Hand, knwon throughout the northwest
+as the symbol of the Flaming Hand Mercenary Band.  To the south is a small
+wooden tower, at the base of which is a checkpoint for visitors to the camp.  
+~
+22 c 0 0 0 10
+D1
+~
+~
+0 0 2204 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2206 0 0 0 0 0 0 0 0
+D3
+~
+gate wooden~
+1 2306 2207 30 0 0 0 0 0 0 0
+S
+#2206
+The Flaming Hand's Admissions Checkpoint~
+   Here at the base of a small wooden tower is an admissions checkpoint
+consisting of a small table set under the tower with leather walls shielding the
+occupants from any bad weather.  The table is for the most part bare, and there
+is nothing here to make one comfortable save a wooden bench and a couple of
+field chairs.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2205 0 0 0 0 0 0 0 0
+S
+#2207
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2296 0 0 0 0 0 0 0 0
+D1
+~
+gate wooden~
+1 2306 2205 30 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2210 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2208 0 0 0 0 0 0 0 0
+S
+#2208
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2297 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2207 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2209 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2211 0 0 0 0 0 0 0 0
+S
+#2209
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2208 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2210 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2214 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2212 0 0 0 0 0 0 0 0
+S
+#2210
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2207 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2215 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2209 0 0 0 0 0 0 0 0
+S
+#2211
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2298 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2208 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2299 0 0 0 0 0 0 0 0
+S
+#2212
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2211 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2209 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2213 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2252 0 0 0 0 0 0 0 0
+S
+#2213
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2212 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2214 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2292 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2293 0 0 0 0 0 0 0 0
+S
+#2214
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2209 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2215 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2216 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2213 0 0 0 0 0 0 0 0
+S
+#2215
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2210 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2295 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2294 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2214 0 0 0 0 0 0 0 0
+S
+#2216
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2214 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2217 0 0 0 0 0 0 0 0
+S
+#2217
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2216 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2251 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2259 0 0 0 0 0 0 0 0
+S
+#2218
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2260 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2253 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2228 0 0 0 0 0 0 0 0
+S
+#2219
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2251 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2224 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2222 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2220 0 0 0 0 0 0 0 0
+S
+#2220
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2285 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2219 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2221 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2284 0 0 0 0 0 0 0 0
+S
+#2221
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2220 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2222 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2227 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2253 0 0 0 0 0 0 0 0
+S
+#2222
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2219 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2223 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2225 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2221 0 0 0 0 0 0 0 0
+S
+#2223
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2224 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2226 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2222 0 0 0 0 0 0 0 0
+S
+#2224
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2286 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2287 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2223 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2219 0 0 0 0 0 0 0 0
+S
+#2225
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2222 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2226 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2227 0 0 0 0 0 0 0 0
+S
+#2226
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2223 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2288 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2289 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2225 0 0 0 0 0 0 0 0
+S
+#2227
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2221 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2225 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2290 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2291 0 0 0 0 0 0 0 0
+S
+#2228
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2218 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2229 0 0 0 0 0 0 0 0
+S
+#2229
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2232 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2228 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2233 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2230 0 0 0 0 0 0 0 0
+S
+#2230
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2231 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2229 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2234 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2236 0 0 0 0 0 0 0 0
+S
+#2231
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2254 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2232 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2230 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2237 0 0 0 0 0 0 0 0
+S
+#2232
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2276 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2277 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2229 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2231 0 0 0 0 0 0 0 0
+S
+#2233
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2229 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2278 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2279 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2234 0 0 0 0 0 0 0 0
+S
+#2234
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2230 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2233 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2235 0 0 0 0 0 0 0 0
+S
+#2235
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2236 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2234 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2281 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2280 0 0 0 0 0 0 0 0
+S
+#2236
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2237 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2230 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2235 0 0 0 0 0 0 0 0
+S
+#2237
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2283 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2231 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2236 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2282 0 0 0 0 0 0 0 0
+S
+#2238
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2239 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2255 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2254 0 0 0 0 0 0 0 0
+S
+#2239
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2240 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2238 0 0 0 0 0 0 0 0
+S
+#2240
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2241 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2243 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2239 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2244 0 0 0 0 0 0 0 0
+S
+#2241
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2247 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2242 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2240 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2245 0 0 0 0 0 0 0 0
+S
+#2242
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2248 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2249 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2243 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2241 0 0 0 0 0 0 0 0
+S
+#2243
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2242 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2269 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2268 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2240 0 0 0 0 0 0 0 0
+S
+#2244
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2245 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2240 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2270 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2271 0 0 0 0 0 0 0 0
+S
+#2245
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2246 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2241 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2244 0 0 0 0 0 0 0 0
+S
+#2246
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2273 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2247 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2245 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2272 0 0 0 0 0 0 0 0
+S
+#2247
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D1
+~
+~
+0 0 2248 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2241 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2246 0 0 0 0 0 0 0 0
+S
+#2248
+Within the Flaming Hand Mercenary Camp~
+   The camp is suprisingly well organised with regular files of tents and
+bonfires at regular intervals as well.  Commanders watch over their troops with
+relative boredom as they wait for the next assignment.  The soldiers are a rowdy
+lot, yet by the looks of the camp it seems as if they would quickly come to
+order in a fight.  
+~
+22 0 0 0 0 1
+D0
+~
+~
+0 0 2274 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2275 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2242 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2247 0 0 0 0 0 0 0 0
+S
+#2249
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2250 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2242 0 0 0 0 0 0 0 0
+S
+#2250
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2252 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2263 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2249 0 0 0 0 0 0 0 0
+S
+#2251
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2219 0 0 0 0 0 0 0 0
+S
+#2252
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2250 0 0 0 0 0 0 0 0
+S
+#2253
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2221 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2218 0 0 0 0 0 0 0 0
+S
+#2254
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2238 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2231 0 0 0 0 0 0 0 0
+S
+#2255
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2256 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2238 0 0 0 0 0 0 0 0
+S
+#2256
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2255 0 0 0 0 0 0 0 0
+S
+#2257
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2262 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2258 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2261 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2256 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2264 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2265 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2267 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2266 0 0 0 0 0 0 0 0
+S
+#2258
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2259 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+S
+#2259
+A Trail Between the Camps~
+   This wide dirt trail leads between the different camps of the entire
+mercenary camp.  Tufts of grass grow here and there and large stones have been
+placed along the trail sides to mark it.  Torches have been set on large poles
+to light the way in the dark.  
+~
+22 0 0 0 0 10
+D1
+~
+~
+0 0 2217 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2258 0 0 0 0 0 0 0 0
+S
+#2260
+A new room~
+You are in an unfinished room.
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2218 0 0 0 0 0 0 0 0
+S
+#2261
+A new room~
+You are in an unfinished room.
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2260 0 0 0 0 0 0 0 0
+S
+#2262
+A new room~
+You are in an unfinished room.
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2263 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+S
+#2263
+A new room~
+You are in an unfinished room.
+~
+22 0 0 0 0 10
+D0
+~
+~
+0 0 2250 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2262 0 0 0 0 0 0 0 0
+S
+#2264
+A Mercenary Leader's Tent~
+   This tent is larger and more lavishly furnsihed than those of the common
+soldiers.  If has a small fire pit in the centre with a hole in the roof above
+for smoke to escape.  An actual bed is here, with dresser and wardrobe.  A small
+desk sits in the corner of the tent as well, covered in maps and strategic
+assignments.  
+~
+22 d 0 0 0 0
+D8
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+S
+#2265
+A Mercenary Leader's Tent~
+   This tent is larger and more lavishly furnsihed than those of the common
+soldiers.  If has a small fire pit in the centre with a hole in the roof above
+for smoke to escape.  An actual bed is here, with dresser and wardrobe.  A small
+desk sits in the corner of the tent as well, covered in maps and strategic
+assignments.  
+~
+22 d 0 0 0 0
+D9
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+S
+#2266
+A Mercenary Leader's Tent~
+   This tent is larger and more lavishly furnsihed than those of the common
+soldiers.  If has a small fire pit in the centre with a hole in the roof above
+for smoke to escape.  An actual bed is here, with dresser and wardrobe.  A small
+desk sits in the corner of the tent as well, covered in maps and strategic
+assignments.  
+~
+22 d 0 0 0 0
+D7
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+S
+#2267
+A Mercenary Leader's Tent~
+   This tent is larger and more lavishly furnsihed than those of the common
+soldiers.  If has a small fire pit in the centre with a hole in the roof above
+for smoke to escape.  An actual bed is here, with dresser and wardrobe.  A small
+desk sits in the corner of the tent as well, covered in maps and strategic
+assignments.  
+~
+22 d 0 0 0 0
+D6
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+S
+#2268
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2243 0 0 0 0 0 0 0 0
+S
+#2269
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D3
+~
+~
+0 0 2243 0 0 0 0 0 0 0 0
+S
+#2270
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2244 0 0 0 0 0 0 0 0
+S
+#2271
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2244 0 0 0 0 0 0 0 0
+S
+#2272
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2246 0 0 0 0 0 0 0 0
+S
+#2273
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2246 0 0 0 0 0 0 0 0
+S
+#2274
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2248 0 0 0 0 0 0 0 0
+S
+#2275
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D3
+~
+~
+0 0 2248 0 0 0 0 0 0 0 0
+S
+#2276
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2232 0 0 0 0 0 0 0 0
+S
+#2277
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D3
+~
+~
+0 0 2232 0 0 0 0 0 0 0 0
+S
+#2278
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D3
+~
+~
+0 0 2233 0 0 0 0 0 0 0 0
+S
+#2279
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2233 0 0 0 0 0 0 0 0
+S
+#2280
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2235 0 0 0 0 0 0 0 0
+S
+#2281
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2235 0 0 0 0 0 0 0 0
+S
+#2282
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2237 0 0 0 0 0 0 0 0
+S
+#2283
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2237 0 0 0 0 0 0 0 0
+S
+#2284
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2220 0 0 0 0 0 0 0 0
+S
+#2285
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2220 0 0 0 0 0 0 0 0
+S
+#2286
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2224 0 0 0 0 0 0 0 0
+S
+#2287
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D3
+~
+~
+0 0 2224 0 0 0 0 0 0 0 0
+S
+#2288
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D3
+~
+~
+0 0 2226 0 0 0 0 0 0 0 0
+S
+#2289
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2226 0 0 0 0 0 0 0 0
+S
+#2290
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2227 0 0 0 0 0 0 0 0
+S
+#2291
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2227 0 0 0 0 0 0 0 0
+S
+#2292
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2213 0 0 0 0 0 0 0 0
+S
+#2293
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2213 0 0 0 0 0 0 0 0
+S
+#2294
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D0
+~
+~
+0 0 2215 0 0 0 0 0 0 0 0
+S
+#2295
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D3
+~
+~
+0 0 2215 0 0 0 0 0 0 0 0
+S
+#2296
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2207 0 0 0 0 0 0 0 0
+S
+#2297
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2208 0 0 0 0 0 0 0 0
+S
+#2298
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D2
+~
+~
+0 0 2211 0 0 0 0 0 0 0 0
+S
+#2299
+Inside a Mercenary's Tent~
+   This tent has been fashioned of animal skins and furs to help insulate
+against the cold.  It seems to be able to house several people, and has the
+bedrolls to support that assumption.  Beside each bedroll is a small of cache of
+items, personal effects and small weapons.  
+~
+22 d 0 0 0 0
+D1
+~
+~
+0 0 2211 0 0 0 0 0 0 0 0
+S
+$~

@@ -1,0 +1,248 @@
+#110
+None.~
+Wyverns/Sea Tavern (Izual)~
+11000 11099 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 11003     1 11012   1   100     0    -1          0 an insane, balding man
+
+E 1 11006     1    17   0     5     1     0          0 a short golden-etched steel blade
+
+E 1 11005     1    16   0     5     2     0          0 a long golden-etched steel blade
+
+M 0 11000     1 11075   1   100     3    -1          0 an ancient, gargantuous wyvern
+
+E 1 11002     1     5   0     5     4     3          0 the ancient hide of a ferocious wyvern
+
+M 0 11001     1 11070   1   100     5    -1          0 an aged, wizened wyvern
+
+E 1 11009     1     5   0    15     6     5          0 the scale of an ancient wyvern
+
+G 1 11004     5     0   0    40     7     5          0 a parchment with glowing golden runes
+
+M 0 11002     1 11074   1   100     8    -1          0 a ferocious, deranged wyvern
+
+E 1 11008     2     8   0    10     9     8          0 a pair of wyvern hide boots
+
+M 0 11004     1 11072   1   100    10    -1          0 a wyvern of astounding proportions
+
+E 1 11001     2    17   0    20    11    10          0 a brutally sharp wyvern talon
+
+E 1 11003     1     6   0    10    12    10          0 the skull of a wyvern
+
+M 0 11006     1 11071   1   100    13    -1          0 a wyvern with leathery brown scales
+
+G 1  4365     5     0   0    20    14    13          0 a vial of wyvern poison
+
+E 1 11000     3    12   0    10    15    13          0 a ripped and battered wyvern wing
+
+M 0 11007     5 11061   1   100    16    -1          0 a snarling red wyvern
+
+M 0 11007     5 11063   1   100    17    -1          0 a snarling red wyvern
+
+M 0 11007     5 11051   1   100    18    -1          0 a snarling red wyvern
+
+M 0 11007     5 11056   1   100    19    -1          0 a snarling red wyvern
+
+M 0 11007     5 11058   1   100    20    -1          0 a snarling red wyvern
+
+D 0 11000     4     1   0   101    21    -10 
+
+M 0 11008     3 11009   1   100    22    -1          0 a large, jade hided wyvern
+
+M 0 11008     3 11019   1   100    23    -1          0 a large, jade hided wyvern
+
+M 0 11008     3 11024   1   100    24    -1          0 a large, jade hided wyvern
+
+O 0 11015    10 11086   0   100    25    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    26    25          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    27    25          0 a mug of ale
+
+M 0 11025     1 11086   1   100    28    -1          0 a sagacious, qualinesti elf
+
+G 1  1243     5     0   0    25    29    28          0 a scroll with the image of a giant
+
+E 1 11011     3    10   0    70    30    28          0 a pair of silky sleeves
+
+M 0 11024     1 11086   1   100    31    -1          0 a robed, qualinesti elf
+
+G 1  1238     4     0   0    20    32    31          0 a rainbow coloured scroll
+
+M 0 11014     1 11086   1   100    33    -1          0 a lithe, blonde haired barmaid
+
+O 0 11015    10 11088   0   100    34    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    35    34          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    36    34          0 a mug of ale
+
+M 0 11021     1 11088   1   100    37    -1          0 a tired, off-duty militia guard
+
+M 0 11020     1 11088   1   100    38    -1          0 a venerable, old man with a staff
+
+E 1 11013     2     5   0    50    39    38          0 a plain white robe
+
+O 0 11015    10 11089   0   100    40    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    41    40          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    42    40          0 a mug of ale
+
+M 0 11019     1 11089   1   100    43    -1          0 a solemn, somber half-elf
+
+M 0 11010     1 11089   1   100    44    -1          0 a tanned and weathered half-elf
+
+O 0 11015    10 11085   0   100    45    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    46    45          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    47    45          0 a mug of ale
+
+M 0 11015     1 11085   1   100    48    -1          0 a weary, cloaked traveler
+
+M 0 11016     1 11085   1   100    49    -1          0 a black skinned human warrior
+
+O 0 11015    10 11082   0   100    50    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    51    50          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    52    50          0 a mug of ale
+
+M 0 11009     1 11082   1   100    53    -1          0 a grizzly, dwarven patron
+
+M 0 11017     1 11082   1   100    54    -1          0 a rotund, jovial dwarf
+
+O 0 11015    10 11081   0   100    55    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    56    55          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    57    55          0 a mug of ale
+
+M 0 11018     1 11081   1   100    58    -1          0 a frowning dwarf wearing a braided beard
+
+M 0 11012     1 11081   1   100    59    -1          0 a homely, red-haired barmaid
+
+M 0 11032     1 11081   1   100    60    -1          0 a rowdy, vulgar dwarf
+
+O 0 11015    10 11084   0   100    61    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    62    61          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    63    61          0 a mug of ale
+
+M 0 11013     1 11084   1   100    64    -1          0 a beautiful, dark-haired barmaid
+
+M 0 11026     1 11084   1   100    65    -1          0 a rugged, gruff barbarian
+
+E 1 11012     2     6   0    50    66    65          0 a strange barbarian headdress
+
+M 0 11027     1 11084   1   100    67    -1          0 a fearless, painted barbarian
+
+O 0 11015    10 11083   0   100    68    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    69    68          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    70    68          0 a mug of ale
+
+M 0 11028     1 11083   1   100    71    -1          0 a furrowed, inebriated kender
+
+M 0 11029     1 11083   1   100    72    -1          0 a smiling, freckled kender
+
+O 0 11015    10 11079   0   100    73    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    74    73          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    75    73          0 a mug of ale
+
+M 0 11030     1 11079   1   100    76    -1          0 a pleasant, black skinned maiden
+
+E 1 11014     1     2   0   100    77    76          0 a plain gold band
+
+M 0 11031     1 11079   1   100    78    -1          0 an armored, human soldier
+
+O 0 11015    10 11080   0   100    79    -1          0 an oval, rosewood table
+
+P 1 11020    10 11015   0   100    80    79          0 a mug of dark ale
+
+P 1 11019    10 11015   0   100    81    79          0 a mug of ale
+
+M 0 11033     1 11080   1   100    82    -1          0 a loathesome, tired man
+
+M 0 11034     1 11080   1   100    83    -1          0 a burly, strong warrior
+
+D 0 11096     1     1   0   101    84    -10 
+
+M 0 11036     1 11096   1   100    85    -1          0 a stout, veteran warrior
+
+M 0 11037     1 11096   1   100    86    -1          0 a young squire with azurite eyes
+
+D 0 11098     0     1   0   101    87    -10 
+
+M 0 11035     1 11098   1   100    88    -1          0 a relaxed, young gentleman
+
+D 0 11095     3     1   0   101    89    -10 
+
+O 0 11018     1 11095   0   100    90    -1          0 a large, iron grill
+
+M 0 11023     1 11095   1   100    91    -1          0 a burly, sweating cook
+
+O 0 11017     1 11087   0   100    92    -1          0 a beautifully carved oak bar
+
+P 1 11022     1 11017   0   100    93    92          0 a fine silver flask
+
+P 1 11021     8 11017   0   100    94    92          0 a bottle of perfectly aged wine
+
+P 1 11021     8 11017   0   100    95    92          0 a bottle of perfectly aged wine
+
+P 1 11021     8 11017   0   100    96    92          0 a bottle of perfectly aged wine
+
+P 1 11021     8 11017   0   100    97    92          0 a bottle of perfectly aged wine
+
+P 1 11021     8 11017   0   100    98    92          0 a bottle of perfectly aged wine
+
+P 1 11021     8 11017   0   100    99    92          0 a bottle of perfectly aged wine
+
+P 1 11021     8 11017   0   100   100    92          0 a bottle of perfectly aged wine
+
+P 1 11021     8 11017   0   100   101    92          0 a bottle of perfectly aged wine
+
+M 0 11011     1 11087   1   100   102    -1          0 a somber, rotund barkeep
+
+D 0 11097     2     1   0   101   103    -10 
+
+M 0 11038     1 11097   1   100   104    -1          0 a sleepy, weary traveler
+
+D 0 11093     3     1   0   101   105    -10 
+
+M 0 11039     1 11093   1   100   106    -1          0 an admiring young lady
+
+D 0 11091     1     1   0   101   107    -10 
+
+D 0 11091     0     1   0   101   108    -10 
+
+D 0 11091     3     1   0   101   109    -10 
+
+D 0 11090     3     2   0   101   110    -10 
+
+D 0 11092     1     1   0   101   111    -10 
+
+D 0 11092     3     1   0   101   112    -10 
+
+D 0 11092     2     1   0   101   113    -10 
+
+D 0 11099     1     2   0   101   114    -10 
+
+O 0 11010     1 11099   0    40   115     5          0 a small pile of coins
+
+O 0 11016     1 11094   0   100   116    -1          0 a large, polished oak table
+
+D 0 11094     1     1   0   101   117    -10 
+
+D 0 11078     1     1   0   101   118    -10 
+
+S
+$

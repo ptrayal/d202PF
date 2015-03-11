@@ -1,0 +1,81 @@
+#2700
+map solamnia~
+a map of Greater Solamnia~
+A large map has been carelessly discarded here.~
+this is the map!
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 16 0 0 0 0 0 0 0 0
+1 4 1 0
+Z
+6
+E
+map greater~
+This beautifully illuminated scroll highlights the major cities and Keeps of Solamnia.
+
+ City of
+Palanthas                  Vingaard
+    |                        Keep
+    |                          |
+     \                         |
+      \                        |
+       +---+\                  |
+      /      +-----------------+-------+
+     /                         |        \
+    /                          |         \              City of
+   /                          +           +-------------Kalaman
+Thelgaard                    /
+  Keep                     /
+    \                      +
+     \                    / \
+      \              +---+   \
+        *Solanthus, the       +-------+
+       Solamnic Capital*  
+            
+~
+#2701
+book spellbook Tak~
+Tak's big book spells~
+Tak's big book of spells is here.  Don't touch it!~
+This is the A-Desc!
+~
+29 jl 0 0 0 ajo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 25 0 0 0 0 0 0 0 0
+1 0 0 1
+Z
+8
+E
+spellbook book Tak~
+   This is Tak's big book of spells.  Within these pages are all her terrible
+tricks and schemes.  
+~
+S
+7 2
+S
+103 2
+#2702
+minivan Tak~
+Tak's minivan~
+A minivan is parked here.  Its license plate reads, 'Takhisis'.~
+This is the A-Desc.
+~
+24 0 0 0 0 a 0 0 0 0 0 0 0
+2703 1 -1 1 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+8
+#2780
+horns fury great axe diamond double bladed blade~
+@D"@RHorns of Fury@D", a massive double-bladed axe made of polished black diamond@n~
+A large axe made of glowing black diamond lies here, waiting to be used.~
+~
+5 0 0 0 0 an 0 0 0 cnr 0 0 0
+55 1 8 0 100 100 3 38 0 260 0 5 0 0 0 0
+150 6500 0 0
+Z
+5
+A
+1 4 0
+A
+13 200 0
+$~

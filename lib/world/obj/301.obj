@@ -1,0 +1,221 @@
+#30100
+a steel fullblade~
+a steel fullblade~
+A steel fullblade lies here on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+66 2 8 3 100 100 0 7 1 4 0 12 0 0 0 0
+100 60 0 0
+Z
+5
+#30101
+a steel khopesh~
+a steel khopesh~
+A steel khopesh lies here on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+67 1 8 3 100 100 0 7 2 4 0 11 0 0 0 0
+40 25 0 0
+Z
+4
+#30102
+a steel elven curve blade~
+a steel elven curve blade~
+A steel elven curve blade lies here on the ground.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+68 1 10 3 100 100 0 7 2 4 0 12 0 0 0 0
+70 60 0 0
+Z
+5
+#30103
+a leather belt~
+a leather belt~
+A leather belt lies here.~
+~
+11 0 0 0 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 2 0 0 0 0 0 0 0 0
+0 5 0 0
+Z
+0
+#30104
+an ioun stone~
+an ioun stone~
+An ioun stone hovers here just above the ground.~
+~
+11 0 0 0 0 as 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 34 0 0 0 0 0 0 0 0
+0 100 0 0
+Z
+0
+#30105
+a wooden greatbow~
+a wooden greatbow~
+A wooden greatbow lies here.~
+~
+5 0 0 0 0 a 0 0 0 0 0 0 0
+69 1 12 6 100 100 1 8 0 12 200 14 0 0 0 0
+30 100 0 1
+Z
+4
+#30184
+a potion of epic learning~
+a potion of epic learning~
+A potion of epic learning lies here.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+20 350 0 0 100 100 0 3 0 0 0 0 0 0 0 0
+0 15000 0 0
+Z
+0
+#30185
+a potion of greater learning~
+a potion of greater learning~
+A potion of greater learning lies here.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+20 349 0 0 100 100 0 3 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30186
+a potion of improved learning~
+a potion of improved learning~
+A potion of improved learning lies here.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+20 348 0 0 100 100 0 3 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#30187
+a potion of learning~
+a potion of learning~
+A potion of learning lies here.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+20 347 0 0 100 100 0 3 0 0 0 0 0 0 0 0
+0 500 0 0
+Z
+0
+#30188
+a ring of three wishes~
+a ring of three wishes~
+A ring of three wishes lies here.~
+~
+11 0 a 0 0 ab 0 0 0 0 0 0 0
+3 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 0
+Z
+0
+#30189
+a wooden rack used for storing staves, wands and rods~
+a wooden rack used for storing staves, wands and rods~
+A wooden rack used for storing staves, wands and rods is here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30190
+a wooden bookshelf used for storing scrolls and tomes~
+a wooden bookshelf used for storing scrolls and tomes~
+A wooden bookshelf used for storing scrolls and tomes is here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30191
+a series of shelves used for storing magical potions~
+a series of shelves used for storing magical potions~
+A series of shelves used for storing magical potions are here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30192
+a wooden armoire for holding clothing and jewelry~
+a wooden armoire for holding clothing and jewelry~
+A wooden armoire for holding clothing and jewelry stands here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30193
+a wooden armor rack~
+a wooden armor rack~
+An armor rack stands here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30194
+a wooden weapon rack~
+a wooden weapon rack~
+A wooden weapon rack stands here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30195
+a personal crafting station~
+a personal crafting station~
+A personal, home-sized crafting station stands here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 20000 0 0
+Z
+0
+#30196
+a chest for holding crafting crystals~
+a chest for holding crafting crystals~
+A chest for holding crafting crystals lies here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30197
+a chest for holding crafting essences~
+a chest for holding crafting essences~
+A chest for holding crafting essences lies here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30198
+a chest for holding raw crafting materials~
+a chest for holding raw crafting materials~
+A chest for holding raw crafting materials lies here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+#30199
+a chest for holding miscellaneous goods~
+a chest for holding miscellaneous goods~
+A chest for holding miscellaneous goods lies here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 5000 0 0
+Z
+0
+$~

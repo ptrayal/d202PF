@@ -1,0 +1,53 @@
+#2899
+A grey figure dressed in black robes~
+a grey figure in black robes~
+A grey figure dressed in black robes stalks around the edges of the room.
+~
+A nondescript, grey being with large, empty black eyes stands before you. Its unnatural appearance makes you both fearful and sick.
+~
+df 0 0 0 bks B 0 0 -500
+20 0 6 84d100+390 2d8+25
+1000 500 100 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#2999
+man black red robes~
+a man in black and red robes~
+A man in black and red robes stands here, mumbling quietly to himself.
+~
+This mans face is as gray as the waters of a swamp, with eyes that glow a dim red. He doesn't seem to be completely aware of his surroundings.
+~
+d 0 0 0 0 0 0 0 -500
+25 15 -15 156d100+2140 2d6+5
+1755 0 6 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 14
+E
+Dex: 22
+E
+Int: 12
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

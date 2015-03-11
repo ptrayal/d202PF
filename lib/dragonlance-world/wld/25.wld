@@ -1,0 +1,1877 @@
+#2500
+Dyron's Chamber~
+   Black walls, trimmed with crimson, make the room very blunt and likely.  
+The Floors are a crimson color that matches the walls.  The ceiling is jet
+black and made of marble, which really sets the rooms personality.  Hanging
+from the ceiling is a large hammer, covered completely by lights.  This acts as
+the primary light source.  In the corner is a large bar, which is filled with
+an assortment of drinks.  Doors lead in many directions, and the sign here will
+tell you everything you need to know.    
+A large, black sign is posted here.
+A beautiful dwarven light fixture is hanging here.
+~
+25 cd f 0 0  0
+D0
+~
+~
+1 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+1 0 2501 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1417 0 0 0 0 0 0 0 0
+E
+sign~
+********************
+********************
+****East: Island****
+********************
+*****North: N/A*****
+********************
+********************
+~
+E
+light~
+   Hanging in the center of the room is a large hammer, decorated with various
+lights.  It looks as if it is sturdy, but often sways if wind gets to it.    
+~
+E
+fixture~
+   Hanging in the center of the room is a large hammer, decorated with various
+lights.  It looks as if it is sturdy, but often sways if wind gets to it.    
+~
+S
+#2501
+An Unsturdy Dock~
+   Just north of the ocean, this unsturdy dock helps boats bring citizens to
+the island.  Made of rotted oak and rusty nails, its almost a scare to be on
+it.  Four large posts, one at each corner, hold it into the ground.  Every so
+often you may see a fish jump from the water.  At your feet is a loose board
+that almost catches your shoes.    
+~
+25 c h 0 0  1
+D0
+~
+~
+0 0 2502 0 0 0 0 0 0 0 0
+D5
+~
+board~
+1 0 2597 0 0 0 0 0 0 0 0
+S
+#2502
+A Sandy Beach~
+   Standing on the outer ring of the island, you are constantly startled by
+rushing tides.  The sand is a pearl white and the water is a deep, soothing
+blue.  North of you, past the dense jungle, is a towering mountain.  Strange
+noises can be heard from inside the jungle frequently, but what is more amazing
+is the seductive sounds of the ocean.    
+~
+25 0 h 0 0  0
+D0
+~
+~
+0 0 2509 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2506 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2501 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2503 0 0 0 0 0 0 0 0
+S
+#2503
+A Sandy Beach~
+   Standing on the outer ring of the island, you are constantly startled by
+rushing tides.  The sand is a pearl white and the water is a deep, soothing
+blue.  North of you, past the dense jungle, is a towering mountain.  Strange
+noises can be heard from inside the jungle frequently, but what is more amazing
+is the seductive sounds of the ocean.    
+~
+25 0 h 0 0  2
+D1
+~
+~
+0 0 2502 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2504 0 0 0 0 0 0 0 0
+S
+#2504
+A Sandy Beach~
+   Standing on the outer ring of the island, you are constantly startled by
+rushing tides.  The sand is a pearl white and the water is a deep, soothing
+blue.  North of you, past the dense jungle, is a towering mountain.  Strange
+noises can be heard from inside the jungle frequently, but what is more amazing
+is the seductive sounds of the ocean.    
+~
+25 0 h 0 0  2
+D1
+~
+~
+0 0 2503 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2505 0 0 0 0 0 0 0 0
+S
+#2505
+A Sandy Beach~
+   Standing on the outer ring of the island, you are constantly startled by
+rushing tides.  The sand is a pearl white and the water is a deep, soothing
+blue.  North of you, past the dense jungle, is a towering mountain.  Strange
+noises can be heard from inside the jungle frequently, but what is more amazing
+is the seductive sounds of the ocean.    
+~
+25 0 h 0 0  2
+D8
+~
+~
+0 0 2504 0 0 0 0 0 0 0 0
+S
+#2506
+A Sandy Beach~
+   Standing on the outer ring of the island, you are constantly startled by
+rushing tides.  The sand is a pearl white and the water is a deep, soothing
+blue.  North of you, past the dense jungle, is a towering mountain.  Strange
+noises can be heard from inside the jungle frequently, but what is more amazing
+is the seductive sounds of the ocean.    
+~
+25 0 h 0 0  2
+D1
+~
+~
+0 0 2507 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2502 0 0 0 0 0 0 0 0
+S
+#2507
+A Sandy Beach~
+   Standing on the outer ring of the island, you are constantly startled by
+rushing tides.  The sand is a pearl white and the water is a deep, soothing
+blue.  North of you, past the dense jungle, is a towering mountain.  Strange
+noises can be heard from inside the jungle frequently, but what is more amazing
+is the seductive sounds of the ocean.    
+~
+25 0 h 0 0  2
+D3
+~
+~
+0 0 2506 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2508 0 0 0 0 0 0 0 0
+S
+#2508
+A Sandy Beach~
+   Standing on the outer ring of the island, you are constantly startled by
+rushing tides.  The sand is a pearl white and the water is a deep, soothing
+blue.  North of you, past the dense jungle, is a towering mountain.  Strange
+noises can be heard from inside the jungle frequently, but what is more amazing
+is the seductive sounds of the ocean.    
+~
+25 0 h 0 0  2
+D9
+~
+~
+0 0 2507 0 0 0 0 0 0 0 0
+S
+#2509
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 c h 0 0  0
+D0
+~
+~
+0 0 2536 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2510 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2502 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2523 0 0 0 0 0 0 0 0
+S
+#2510
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  0
+D1
+~
+~
+0 0 2511 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2509 0 0 0 0 0 0 0 0
+S
+#2511
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2510 0 0 0 0 0 0 0 0
+S
+#2512
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2513 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2511 0 0 0 0 0 0 0 0
+S
+#2513
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 c h 0 0  3
+D0
+~
+~
+0 0 2518 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2516 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2514 0 0 0 0 0 0 0 0
+S
+#2514
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D1
+~
+~
+0 0 2513 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2515 0 0 0 0 0 0 0 0
+S
+#2515
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2514 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2552 0 0 0 0 0 0 0 0
+S
+#2516
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2517 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2513 0 0 0 0 0 0 0 0
+S
+#2517
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2519 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2516 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2518 0 0 0 0 0 0 0 0
+S
+#2518
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D1
+~
+~
+0 0 2517 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2513 0 0 0 0 0 0 0 0
+S
+#2519
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2521 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2517 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2520 0 0 0 0 0 0 0 0
+S
+#2520
+The Wicked Spellcasters Hole~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 c h 0 0  0
+D1
+~
+~
+0 0 2519 0 0 0 0 0 0 0 0
+S
+#2521
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2571 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2522 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2519 0 0 0 0 0 0 0 0
+S
+#2522
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2572 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2521 0 0 0 0 0 0 0 0
+S
+#2523
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  0
+D1
+~
+~
+0 0 2509 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2524 0 0 0 0 0 0 0 0
+S
+#2524
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2525 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2523 0 0 0 0 0 0 0 0
+S
+#2525
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2526 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2524 0 0 0 0 0 0 0 0
+S
+#2526
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 c h 0 0  3
+D0
+~
+~
+0 0 2530 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2527 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2525 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2529 0 0 0 0 0 0 0 0
+S
+#2527
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D2
+~
+~
+0 0 2528 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2526 0 0 0 0 0 0 0 0
+S
+#2528
+A Darkened Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  
+Trying desperately to pierce the thick jungle canopy, the light slowly trickles
+down.  Snarls and growls are echoed for miles here, and yet, the air is just as
+bad as the ground.  A dense array of plants and flowers keep the bloody trees
+and unwanted odors out of mind.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2527 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2547 0 0 0 0 0 0 0 0
+S
+#2529
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2531 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2526 0 0 0 0 0 0 0 0
+S
+#2530
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D2
+~
+~
+0 0 2526 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2531 0 0 0 0 0 0 0 0
+S
+#2531
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2532 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2530 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2529 0 0 0 0 0 0 0 0
+S
+#2532
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2534 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2533 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2531 0 0 0 0 0 0 0 0
+S
+#2533
+The Wicked Spellcasters Hole~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 c h 0 0  0
+D3
+~
+~
+0 0 2532 0 0 0 0 0 0 0 0
+S
+#2534
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2568 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2532 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2535 0 0 0 0 0 0 0 0
+S
+#2535
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2569 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2534 0 0 0 0 0 0 0 0
+S
+#2536
+A Darkend Jungle~
+   Soft moist ground and tall maple trees set most of the landscape here.  As
+you look up, patches of light rarely shine down.  Snarls and growls are echoed
+for miles here, and yet, the air is just as dangerous as the ground.  A dense
+array of plants and flowers keep the bloody trees and unwanted odors out.  A
+large boulder blocks travel to the north.    
+~
+25 0 h 0 0  3
+D0
+~
+boulder~
+1 0 2553 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2509 0 0 0 0 0 0 0 0
+S
+#2537
+A Secret Path~
+   Rough and glowing red hot, the walls are constantly changing as the heat
+melts the rock.  The ground is a dark brown color and seems to be cooler.  The
+farther north you get the cooler it seems to get.  It is pitch black with the
+exception of a second or so with a bright heating light.  Also to the north you
+hear growling and snarling which adds to the wonder.    
+~
+25 0 h 0 0  0
+D0
+~
+~
+0 0 2564 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2598 0 0 0 0 0 0 0 0
+S
+#2538
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D0
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2539 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2563 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2545 0 0 0 0 0 0 0 0
+S
+#2539
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D0
+~
+~
+0 0 2540 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2538 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+S
+#2540
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D0
+~
+~
+0 0 2541 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2539 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+S
+#2541
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D2
+~
+~
+0 0 2540 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2542 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+S
+#2542
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D1
+~
+~
+0 0 2541 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2543 0 0 0 0 0 0 0 0
+S
+#2543
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D1
+~
+~
+0 0 2542 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2544 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+S
+#2544
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D0
+~
+~
+0 0 2543 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2545 0 0 0 0 0 0 0 0
+S
+#2545
+At The Top Of A Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D0
+~
+~
+0 0 2544 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2538 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+S
+#2546
+In The Central Point Of The Volcano~
+   Scarred and burnt grounds and no vegatation are not hard to explain here.  
+The temperatures are extreme and don't seem to be getting any cooler.  Most
+animals stay away from this mountain top in hopes that they wont be burnt or
+killed.  At each edge is a very long drop into the lower rocks.    
+~
+25 0 h 0 0  2
+D0
+~
+~
+0 0 2542 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2540 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2538 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2544 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2599 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2543 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2541 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2545 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2539 0 0 0 0 0 0 0 0
+S
+#2547
+In The Upper Canopy~
+   At the tops of hundred foot trees is a thin, fragile path.  Composed of
+small and large branches, you constantly lose your balance.  Bright light beams
+down while deadly winds push you to all directions which just makes it harder
+to stand up.  Looking down would show you the long fall that one would take if
+they fell.    
+~
+25 c h 0 0  3
+D2
+~
+~
+0 0 2548 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2528 0 0 0 0 0 0 0 0
+S
+#2548
+In The Upper Canopy~
+   At the tops of hundred foot trees is a thin, fragile path.  Composed of
+small and large branches, you constantly lose your balance.  Bright light beams
+down while deadly winds push you to all directions which just makes it harder
+to stand up.  Looking down would show you the long fall that one would take if
+they fell.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2547 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2549 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2567 0 0 0 0 0 0 0 0
+S
+#2549
+In The Upper Canopy~
+   At the tops of hundred foot trees is a thin, fragile path.  Composed of
+small and large branches, you constantly lose your balance.  Bright light beams
+down while deadly winds push you to all directions which just makes it harder
+to stand up.  Looking down would show you the long fall that one would take if
+they fell.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2550 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2551 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2548 0 0 0 0 0 0 0 0
+S
+#2550
+The Eagles Nest~
+   At the tops of hundred foot trees is a thin, fragile path.  Composed of
+small and large branches, you constantly lose your balance.  Bright light beams
+down while deadly winds push you to all directions which just makes it harder
+to stand up.  Looking down would show you the long fall that one would take if
+they fell.    
+~
+25 0 h 0 0  3
+D2
+~
+~
+0 0 2549 0 0 0 0 0 0 0 0
+S
+#2551
+In The Upper Canopy~
+   At the tops of hundred foot trees is a thin, fragile path.  Composed of
+small and large branches, you constantly lose your balance.  Bright light beams
+down while deadly winds push you to all directions which just makes it harder
+to stand up.  Looking down would show you the long fall that one would take if
+they fell.    
+~
+25 0 h 0 0  3
+D0
+~
+~
+0 0 2552 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2549 0 0 0 0 0 0 0 0
+S
+#2552
+In The Upper Canopy~
+   At the tops of hundred foot trees is a thin, fragile path.  Composed of
+small and large branches, you constantly lose your balance.  Bright light beams
+down while deadly winds push you to all directions which just makes it harder
+to stand up.  Looking down would show you the long fall that one would take if
+they fell.    
+~
+25 c h 0 0  3
+D2
+~
+~
+0 0 2551 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2515 0 0 0 0 0 0 0 0
+S
+#2553
+At The Foot Of The Mountain~
+   Soft moist ground and tall maple trees set most of the landscape here.  As
+you look up, patches of light rarely shine down.  Snarls and growls are echoed
+for miles here, and yet, the air is just as dangerous as the ground.  A dense
+array of plants and flowers keep the bloody trees and unwanted odors out.    
+~
+25 c h 0 0  3
+D2
+~
+boulder~
+1 0 2536 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2554 0 0 0 0 0 0 0 0
+S
+#2554
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2555 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2553 0 0 0 0 0 0 0 0
+S
+#2555
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2556 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2554 0 0 0 0 0 0 0 0
+S
+#2556
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2557 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2555 0 0 0 0 0 0 0 0
+S
+#2557
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2558 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2556 0 0 0 0 0 0 0 0
+S
+#2558
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2559 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2557 0 0 0 0 0 0 0 0
+S
+#2559
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2560 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2558 0 0 0 0 0 0 0 0
+S
+#2560
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2561 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2559 0 0 0 0 0 0 0 0
+S
+#2561
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2562 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2560 0 0 0 0 0 0 0 0
+S
+#2562
+A Steep Rocky Trail~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.    
+~
+25 0 h 0 0  5
+D4
+~
+~
+0 0 2563 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2561 0 0 0 0 0 0 0 0
+S
+#2563
+At The Top Of The Mountain~
+   With an overly steep incline and loose rocks, this mountain is extremely
+hard to climb.  A rope has been nailed to the side of the trail but it has been
+cut many times making it impossible to use.  Sparse wildlife and loss of
+vegatation seem to be caused by the rising temperatures.  The incline slowly
+decreases as the top of the mountain nears.    
+~
+25 c h 0 0  5
+D0
+~
+~
+0 0 2538 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2562 0 0 0 0 0 0 0 0
+S
+#2564
+A Secret Path~
+   Rough and glowing red hot, the walls are constantly changing as the heat
+melts the rock.  The ground is a dark brown color and seems to be cooler.  The
+farther north you get the cooler it seems to get.  It is pitch black with the
+exception of a second or so with a bright heating light.  Also to the north you
+hear growling and snarling which adds to the wonder.    
+~
+25 0 h 0 0  0
+D0
+~
+~
+0 0 2565 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2537 0 0 0 0 0 0 0 0
+S
+#2565
+A Secret Path~
+   Rough and glowing red hot, the walls are constantly changing as the heat
+melts the rock.  The ground is a dark brown color and seems to be cooler.  The
+farther north you get the cooler it seems to get.  It is pitch black with the
+exception of a second or so with a bright heating light.  Also to the north you
+hear growling and snarling which adds to the wonder.    
+~
+25 0 h 0 0  0
+D0
+~
+~
+0 0 2566 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2564 0 0 0 0 0 0 0 0
+S
+#2566
+The Dragons Lair~
+   Finely carved walls and burnt floors set the overall picture for this room.
+At the edges steaming hot magma seep through.  At this point there is a large
+room behind the dragon, yet it is barely visable due to the large dragon
+standing in the path.    
+~
+25 0 h 0 0  0
+D0
+~
+~
+0 0 2582 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2565 0 0 0 0 0 0 0 0
+S
+#2567
+A Small Leaf Fountain~
+   In the corner of a slim canopy path is what many birds use for a bath.  
+Constructed of large green maple leaves and small tied branches, this fountain
+has an impossible constant source of water.  The harmless animals here don't
+pay a bit of attention to you.    
+~
+25 0 h 0 0  3
+D7
+~
+~
+0 0 2548 0 0 0 0 0 0 0 0
+S
+#2568
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D2
+~
+~
+0 0 2534 0 0 0 0 0 0 0 0
+S
+#2569
+Approching A Family of Gorillas~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 c h 0 0  6
+D2
+~
+~
+0 0 2535 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2570 0 0 0 0 0 0 0 0
+S
+#2570
+A Gorilla Home~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 c h 0 0  6
+D9
+~
+~
+0 0 2569 0 0 0 0 0 0 0 0
+S
+#2571
+In Murky Water~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D2
+~
+~
+0 0 2521 0 0 0 0 0 0 0 0
+S
+#2572
+Approching A Family of Gorillas~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 c h 0 0  6
+D2
+~
+~
+0 0 2522 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2573 0 0 0 0 0 0 0 0
+S
+#2573
+A Gorilla Home~
+   Standing in nearly three feet of putrid water, you feel small animals swim
+in and out from between your legs.  The water is dark, murky and has a layer of
+diseased foam on it.  It is rather easy for something to hide due to the
+darkness and dense vegetation.  In the distance you hear screams that could
+make your blood freeze.    
+~
+25 0 h 0 0  6
+D9
+~
+~
+0 0 2572 0 0 0 0 0 0 0 0
+S
+#2574
+In The Water~
+   Floating in the water above three hundred feet of deadly serpents, the most
+deadly thing here is the tides and small man-eating fish.  The water is a
+smooth and a deep dark blue.  The water is warmer than normal and small animals
+are taking turns eating your flesh.  To the north is a small unstable dock that
+looks like the safest place to go.    
+~
+25 r h 0 0  0
+D2
+~
+~
+0 0 2575 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2501 0 0 0 0 0 0 0 0
+S
+#2575
+In The Water~
+   Floating in the water above three hundred feet of deadly serpents, the most
+deadly thing here is the tides and small man-eating fish.  The water is a
+smooth and a deep dark blue.  The water is warmer than normal and small animals
+are taking turns eating your flesh.  To the north is a small unstable dock that
+looks like the safest place to go.    
+~
+25 r h 0 0  0
+D0
+~
+~
+0 0 2574 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2576 0 0 0 0 0 0 0 0
+S
+#2576
+In The Water~
+   Floating in the water above three hundred feet of deadly serpents, the most
+deadly thing here is the tides and small man-eating fish.  The water is a
+smooth and a deep dark blue.  The water is warmer than normal and small animals
+are taking turns eating your flesh.  To the north is a small unstable dock that
+looks like the safest place to go.    
+~
+25 r h 0 0  0
+D0
+~
+~
+0 0 2575 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2577 0 0 0 0 0 0 0 0
+S
+#2577
+In The Water~
+   Floating in the water above three hundred feet of deadly serpents, the most
+deadly thing here is the tides and small man-eating fish.  The water is a
+smooth and a deep dark blue.  The water is warmer than normal and small animals
+are taking turns eating your flesh.  To the north is a small unstable dock that
+looks like the safest place to go.    
+~
+25 r h 0 0  0
+D0
+~
+~
+0 0 2576 0 0 0 0 0 0 0 0
+S
+#2578
+Secret Treetop~
+   Atop many trees is this small unstable treetop made of rotted branches and
+browned leaves.  There are no noticable traces of anyone ever being here with
+the exception of the hole on the northern side.    
+~
+25 0 h 0 0  0
+S
+#2579
+Aboard Zeboim's Faithful~
+   With well painted floors and sidewalls, this boat seems to be sturdy and
+able to make it safely to another dock.  The boat is rather fast and controlled
+by a sailor in the lower deck.  The main deck is large and lets many people
+ride along with plenty of room.    
+~
+25 cdfghu fh 0 0  0
+D5
+~
+hatch~
+1 0 2580 0 0 0 0 0 0 0 0
+S
+#2580
+The Control Room~
+   With wooden walls and simple controls, this room is used to guide the boat
+through the water.  Above is a hatch to the main deck where most just go along
+for the ride.  Echoes of grunts can be heard from below you and the captain
+makes sure you can't get to see them.    
+~
+25 c h 0 0  0
+D4
+~
+hatch~
+1 0 2579 0 0 0 0 0 0 0 0
+D5
+~
+cellar~
+1 0 2581 0 0 0 0 0 0 0 0
+S
+#2581
+The Boats Power Supply~
+   Grunts are heard here from the slaves paddling the boat with large wooden
+sticks.  The floors are dirty and vomit covered and the small holes for the
+paddles leak profusely.  At the northern part of this room is an elevated layer
+that the enforcer stands on to watch the slaves work.    
+~
+25 a h 0 0  0
+D2
+~
+~
+0 0 2583 0 0 0 0 0 0 0 0
+D4
+~
+cellar~
+1 0 2580 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2585 0 0 0 0 0 0 0 0
+S
+#2582
+A Chamber Filled With Riches~
+   Exotic gems and emeralds of all shapes and sizes fill this chamber with a
+glittering light.  The dragon has hoarded a stash of riches here that no doubt
+came from those straggling passengers of ships whom did not obey the warnings
+of venturing on this island.    
+~
+25 q h 0 0  0
+D2
+~
+~
+0 0 2566 0 0 0 0 0 0 0 0
+S
+#2583
+The Boats Power Supply~
+   Grunts are heard here from the slaves paddling the boat with large wooden
+sticks.  The floors are dirty and vomit covered and the small holes for the
+paddles leak profusely.  At the northern part of this room is an elevated layer
+that the enforcer stands on to watch the slaves work.    
+~
+25 a h 0 0  0
+D0
+~
+~
+0 0 2581 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2584 0 0 0 0 0 0 0 0
+S
+#2584
+The Boats Power Supply~
+   Grunts are heard here from the slaves paddling the boat with large wooden
+sticks.  The floors are dirty and vomit covered and the small holes for the
+paddles leak profusely.  At the northern part of this room is an elevated layer
+that the enforcer stands on to watch the slaves work.    
+~
+25 a h 0 0  0
+D0
+~
+~
+0 0 2585 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2583 0 0 0 0 0 0 0 0
+S
+#2585
+The Boats Power Supply~
+   Grunts are heard here from the slaves paddling the boat with large wooden
+sticks.  The floors are dirty and vomit covered and the small holes for the
+paddles leak profusely.  At the northern part of this room is an elevated layer
+that the enforcer stands on to watch the slaves work.    
+~
+25 a h 0 0  0
+D2
+~
+~
+0 0 2584 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2581 0 0 0 0 0 0 0 0
+D5
+~
+board~
+1 0 2586 0 0 0 0 0 0 0 0
+S
+#2586
+Below Zeboim's Faithful~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  North in, the distance, the sand slowly builds up leading
+to the beach of the island.  Up is the bow of Zeboims Faithful.    
+~
+25 ac h 0 0  6
+D0
+~
+~
+0 0 2588 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2587 0 0 0 0 0 0 0 0
+S
+#2587
+At A Magical Rope~
+   Swirling colors cover a large twined rope here.  The water is magicaly about
+three feet away from the rope.  Nothing can be heard here and it is very
+peaceful.  Up the slaves can be seen paddling the boat and occasionally the
+guard walks by.    
+~
+25 cdegh fh 0 0  0
+D0
+~
+~
+0 0 2586 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2584 0 0 0 0 0 0 0 0
+E
+rope small~
+   Here is a string of woven twine.  The water around it gives the rope a
+gleaming look.  It leads to the bottom of the boat.  Around this rope the water
+is magically avoiding it.    
+~
+S
+#2588
+In The Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2589 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2586 0 0 0 0 0 0 0 0
+S
+#2589
+In The Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  There is also a fork in the visable water.  To the
+northeast there is endless water, and to the north is a load of sand seemingly
+leading to the beach.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2593 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2588 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2590 0 0 0 0 0 0 0 0
+S
+#2590
+In The Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.    
+~
+25 0 h 0 0  6
+D1
+~
+~
+0 0 2591 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2589 0 0 0 0 0 0 0 0
+S
+#2591
+In The Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  To the southeast is a very bright light.    
+~
+25 0 h 0 0  6
+D3
+~
+~
+0 0 2590 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2592 0 0 0 0 0 0 0 0
+S
+#2592
+At A Dead End~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  There is a water demon here, with a large rock behind him.
+The rock leaves you no place to go.    
+~
+25 c h 0 0  6
+D6
+~
+~
+0 0 2591 0 0 0 0 0 0 0 0
+E
+rock~
+   The only thing different about this rock is its large size and slimy mold,
+which seems to be formed into a picture of some sort.    
+~
+S
+#2593
+In Shallowing Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  The water here is becoming more shallow the farther north
+you go.    
+~
+25 0 h 0 0  6
+D2
+~
+~
+0 0 2589 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2594 0 0 0 0 0 0 0 0
+S
+#2594
+In Shallowing Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  The water here is becoming more shallow the farther north
+you go.    
+~
+25 0 h 0 0  6
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2595 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2593 0 0 0 0 0 0 0 0
+S
+#2595
+In Shallowing Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  The water here is becoming more shallow the farther north
+you go.    
+~
+25 0 h 0 0  6
+D0
+~
+~
+0 0 2596 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2594 0 0 0 0 0 0 0 0
+S
+#2596
+In Very Shallow Water~
+   Darkness is all you can see in many directions, but the water is clean.  
+Every word said or heard is echoed about.  Occasionally sharks and other sea
+creatures swim by.  The water here is becoming more shallow the farther north
+you go.  Now if you jump, you can pull your head out of the water and notice
+the beach dead ahead.    
+~
+25 c h 0 0  0
+D0
+~
+~
+0 0 2505 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2595 0 0 0 0 0 0 0 0
+S
+#2597
+A Drain of Red Magma~
+   With bubbling hot lava and an unbearable heat, this room is not one to stay
+cozy in.  To the extent of your sight is dark blue, cloudy water with an
+occasional sight of life.  From the north is a glowing section where all the
+heat seems to come from.    
+~
+25 be h 0 0  0
+D4
+~
+board~
+1 0 2501 0 0 0 0 0 0 0 0
+S
+#2598
+Path Down The Passage~
+   Rough and glowing red hot, the walls are constantly changing as the heat
+melts the rock.  The ground is a dark brown color and seems to be cooler.  The
+farther north you get the cooler it seems to get.  It is pitch black with the
+exception of a second or so with a bright heating light.  Also down you hear
+growling and snarling which adds to the wonder.    
+~
+25 0 h 0 0  2
+D4
+~
+~
+0 0 2599 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2537 0 0 0 0 0 0 0 0
+S
+#2599
+Path Down The Passage~
+   Rough and glowing red hot, the walls are constantly changing as the heat
+melts the rock.  The ground is a dark brown color and seems to be cooler.  The
+farther north you get the cooler it seems to get.  It is pitch black with the
+exception of a second or so with a bright heating light.  Also down you hear
+growling and snarling which adds to the wonder.    
+~
+25 0 h 0 0  2
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2546 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2598 0 0 0 0 0 0 0 0
+S
+$

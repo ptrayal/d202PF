@@ -1,0 +1,1811 @@
+#1300
+The Path to Crystalmir Lake~
+   A cloud of dust rises up from the path as you walk along.  There is a bit of
+grass running along the center of the path, but mostly it is just beaten down
+dirt.  Surrounding the path on either side is a dense forest with the sounds of
+animals coming from all directions.  To the west is Crystalmir Lake and to the
+east the village of Solace.    
+~
+13 c h 0 0 1
+D0
+~
+~
+0 0 601 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1301 0 0 0 0 0 0 0 0
+S
+#1301
+The Path to Crystalmir Lake~
+   A cloud of dust rises up from the path as you walk along.  There is a bit of
+grass running along the center of the path, but mostly it is just beaten down
+dirt.  Surrounding the path on either side is a dense forest with the sounds of
+animals coming from all directions.  To the west is Crystalmir Lake and to the
+east the village of Solace.    
+~
+13 c h 0 0 1
+D1
+~
+~
+0 0 1302 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1300 0 0 0 0 0 0 0 0
+S
+#1302
+Oakwood Avenue~
+   People move along the small avenue going about their daily business.  There
+is not much on the ground in this area, except the trunks of trees that hold up
+the bridgewalks and homes of the residents of Solace.  Towards the south is the
+central town square, towards the north is a walkway into the trees, and to the
+west is Crystalmir Lake.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1303 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1305 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1301 0 0 0 0 0 0 0 0
+S
+#1303
+At the Bottom of a Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine craftsmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.  Sounds can be heard from the northwest, where an apparent
+festival is taking place.    
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1302 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1304 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2800 0 0 0 0 0 0 0 0
+S
+#1304
+Along the Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine craftsmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 c h 0 0 1
+D4
+~
+~
+0 0 1359 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1303 0 0 0 0 0 0 0 0
+S
+#1305
+Oakwood Avenue~
+   People move along the small avenue going about their daily business.  There
+is not much on the ground in this area, except the trunks of trees that hold up
+the bridgewalks and homes of the residents of Solace.  Towards the south is the
+central town square, towards the north is a walkway into the trees.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1302 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1306 0 0 0 0 0 0 0 0
+S
+#1306
+Oakwood Avenue~
+   People move along the small avenue going about their daily business.  There
+is not much on the ground in this area, except the trunks of trees that hold up
+the bridgewalks and homes of the residents of Solace.  Towards the south is the
+central town square, towards the north is a walkway into the trees.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1307 0 0 0 0 0 0 0 0
+S
+#1307
+Oakwood Avenue~
+   People move along the small avenue going about their daily business.  There
+is not much on the ground in this area, except the trunks of trees that hold up
+the bridgewalks and homes of the residents of Solace.  Towards the east is the
+central town square, towards the north is a walkway into the trees.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1306 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1308 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 14720 0 0 0 0 0 0 0 0
+S
+#1308
+Oakwood Avenue~
+   A sweet smell seems to come from the trees as you stand here.  A large
+vallenwood stands just to the north of this spot, a perfect specimen of these
+beautiful trees.  The avenue is no more then a dirt path, but it serves its
+purpose for this village.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1309 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1307 0 0 0 0 0 0 0 0
+S
+#1309
+Oakwood Avenue~
+   The Town Square meets with Oakwood Avenue here.  The Square appears to be a
+plain clearing among the Vallenwood Trees with a small fountain resting in the
+center of it.  The avenue itself is nothing more then a dirt path, but it
+serves its purpose for this small village.    
+~
+13 0 h 0 0 1
+D3
+~
+~
+0 0 1308 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1310 0 0 0 0 0 0 0 0
+S
+#1310
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1311 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1309 0 0 0 0 0 0 0 0
+S
+#1311
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1310 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1317 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1312 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1425 0 0 0 0 0 0 0 0
+S
+#1312
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1311 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1318 0 0 0 0 0 0 0 0
+S
+#1313
+A Short Path~
+   A few small bushes line the edge of this small path.  The ground along the
+path, although beaten down, still has some grass left along it and the footing
+is good here.  A few small child toys have been left on the ground.  To the
+northeast is Solace Square and to the south is a spiral staircase.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1318 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15100 0 0 0 0 0 0 0 0
+S
+#1314
+At the Bottom of a Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine crasftmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1313 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1315 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 540 0 0 0 0 0 0 0 0
+S
+#1315
+Along the Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine crasftmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 c h 0 0 1
+D4
+~
+~
+0 0 1372 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1322 0 0 0 0 0 0 0 0
+S
+#1316
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1345 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1310 0 0 0 0 0 0 0 0
+S
+#1317
+Solace Square~
+   For the center of the village, Solace Square is not a very big place.  A few
+round stones have been placed to try and alleviate the problem of mud, but they
+are scattered and the ground is mostly plain dirt.  A few people are here
+enjoying the day and talking of times when Krynn was peaceful.    
+~
+13 c d 0 0 1
+D0
+~
+~
+0 0 1316 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1320 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1311 0 0 0 0 0 0 0 0
+S
+#1318
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1317 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1321 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1313 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1312 0 0 0 0 0 0 0 0
+S
+#1319
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1320 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1316 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1342 0 0 0 0 0 0 0 0
+S
+#1320
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1319 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1325 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1321 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1317 0 0 0 0 0 0 0 0
+S
+#1321
+The Edge of the Town Square~
+   Stones have been placed in this area because of the heavier traffic, but
+they are spread out and the ground is still mostly just dirt.  In the center of
+the square is a small fountain and many residents of Solace gather there
+frequently.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1320 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1322 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1318 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1327 0 0 0 0 0 0 0 0
+S
+#1322
+The Solace Blacksmith~
+   The Solace Blacksmith was not built in trees because of the heavy tools that
+are used within it, and because of the extremely hot fires that continually
+burn within.  Fine pieces of metal line the walls of the shop.  Some of them
+appear to be artwork, but mostly they are weapons and armor created by the
+blacksmith.    
+~
+13 cd 0 0 0 0
+D0
+~
+~
+0 0 1321 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1324 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1323 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1315 0 0 0 0 0 0 0 0
+S
+#1323
+The Blacksmith Armor Emporium~
+   All sorts of armor line the walls of this quaint shop.  A large wooden
+counter has been erected on the southern side of the room, but the shop keeper
+seems to roam around admiring and polishing all of the armor.  There is a small
+window on the northern wall that points towards Solace Square.    
+~
+13 d 0 0 0 0
+D1
+~
+~
+0 0 1322 0 0 0 0 0 0 0 0
+S
+#1324
+The Blacksmith Weapon Emporium~
+   Weapons from all over Krynn fill the walls of this small shop.  The place is
+kept very neat, and there doesn't seem to be a speck of dust to be found.  A
+large wooden counter rests near the eastern wall with a man waiting behind it
+to wait on you.    
+~
+13 d 0 0 0 0
+D0
+~
+~
+0 0 1322 0 0 0 0 0 0 0 0
+S
+#1325
+At the Bottom of a Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine crasftmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 0 h 0 0 1
+D3
+~
+~
+0 0 1320 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1326 0 0 0 0 0 0 0 0
+S
+#1326
+Along the Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine crasftmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 c h 0 0 1
+D4
+~
+~
+0 0 1383 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1325 0 0 0 0 0 0 0 0
+S
+#1327
+A Small Side Path~
+   A few puddles remain on this path, carried over from the last rain storm.  
+On either side of the path are large vallenwoods which hold up the bridgewalk
+above you.  A few people walk along the path, but they pay no heed to your
+passing.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1328 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1321 0 0 0 0 0 0 0 0
+S
+#1328
+A Small Side Path~
+   A few puddles remain on this path, carried over from the last rain storm.  
+On either side of the path are large vallenwoods which hold up the bridgewalk
+above you.  A few people walk along the path, but they pay no heed to your
+passing.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1327 0 0 0 0 0 0 0 0
+S
+#1329
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1332 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1328 0 0 0 0 0 0 0 0
+S
+#1330
+A Southern Edge of Solace~
+   You stand at the soutern edge of the village of Solace.  Most travellers in
+this part of Krynn stop at this town on their journeys.  The city has paths
+that go along the ground, but the residences are to be found within the
+treetops.    
+~
+13 c h 0 0 1
+D0
+~
+~
+0 0 1329 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3015 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1331 0 0 0 0 0 0 0 0
+S
+#1331
+At the Horses Water Trough~
+   A large trough of water has been placed here for horses to drink water on
+their way in and out of town.  There are a few posts around for horses to be
+tied to, and two benches for travellers to rest their weary feet.  The ground
+here is muddy, being hit often with splashes from the trough.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1330 0 0 0 0 0 0 0 0
+S
+#1332
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1333 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1329 0 0 0 0 0 0 0 0
+S
+#1333
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1338 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1334 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1332 0 0 0 0 0 0 0 0
+S
+#1334
+A Scraggly Path~
+   This path is probably the least travelled in all of Solace.  The grass here
+still grows into the path, and only a worn down portion of blades marks the
+path.  To the west is Vallenwood Lane, and to the east is a spiral staircase
+leading into the trees.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1335 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1333 0 0 0 0 0 0 0 0
+S
+#1335
+A Scraggly Path~
+   This path is probably the least travelled in all of Solace.  The grass here
+still grows into the path, and only a worn down portion of blades marks the
+path.  To the west is Vallenwood Lane, and to the east is a spiral staircase
+leading into the trees.    
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1336 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1334 0 0 0 0 0 0 0 0
+S
+#1336
+At the Bottom of a Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine crasftmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1335 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1337 0 0 0 0 0 0 0 0
+S
+#1337
+Along the Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine crasftmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 c h 0 0 1
+D4
+~
+~
+0 0 1389 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1336 0 0 0 0 0 0 0 0
+S
+#1338
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1340 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1339 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1333 0 0 0 0 0 0 0 0
+S
+#1339
+The Master's Hut~
+   This hut has been built on the ground because of the training that goes on
+here.  Legends of this hut are told throughout Solace, but its actual origin is
+unknown.  There are weapon racks on the floor around the room, and mats on the
+floor for training.  Along the southern wall, incense is burning and a few men
+and woman practice the arts of magic.    
+~
+13 cd 0 0 0 0
+D1
+~
+~
+0 0 1429 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1338 0 0 0 0 0 0 0 0
+S
+#1340
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1343 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1338 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1341 0 0 0 0 0 0 0 0
+S
+#1341
+A Well Worn Path~
+   This path leads from the center square of town to Vallenwood Lane.  The path
+is well worn and is traveller often by visitors travelling from the Inn of the
+Last Home to the square.  The trees are spread out in this part of town, but
+they still mark out the edge of the path clearly.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1340 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1342 0 0 0 0 0 0 0 0
+S
+#1342
+A Well Worn Path~
+   This path leads from the center square of town to Vallenwood Lane.  The path
+is well worn and is traveller often by visitors travelling from the Inn of the
+Last Home to the square.  The trees are spread out in this part of town, but
+they still mark out the edge of the path clearly.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1341 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1319 0 0 0 0 0 0 0 0
+S
+#1343
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1344 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1340 0 0 0 0 0 0 0 0
+S
+#1344
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1350 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1343 0 0 0 0 0 0 0 0
+S
+#1345
+At The Bottom of a Large Vallenwood Tree~
+   A large spiral staircase begins its way around a large vallenwood tree here
+and leads up to a large building resting separate from the other bridgewalks of
+Solace.  The grass here has recently been cut, and it fresh and green.  The
+tree appears flawless, a perfect example of the beauty of the Vallenwoods of
+Solace.    
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1316 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1347 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1346 0 0 0 0 0 0 0 0
+S
+#1346
+Around the Vallenwood Tree~
+   The staircase winds it way completely around tree.  This makes for a long
+walk, but lessens the slope of the stairs so that the climb is not too bad.  
+Just above is a small landing at the front of which is the door to the Inn of
+the Last Home.    
+~
+13 c h 0 0 1
+D4
+~
+~
+0 0 1416 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1345 0 0 0 0 0 0 0 0
+S
+#1347
+A Grassy Area~
+   This area is a place where children is Solace often come to play.  The grass
+is a luscious green color and has recently been cut.  To the north, a dangling
+rope hangs from the kitchen of the Inn, and to the east is a spiral staircase.
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1348 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1345 0 0 0 0 0 0 0 0
+S
+#1348
+The Bottom of a Rope~
+   A rope has been set up here which allows supplies to easily be moved into
+and from the kitchen above.  The area here is grassy, and is well kept.  Just
+the east is a massive vallenwood tree which holds up the Inn of the Last Home.
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1347 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1349 0 0 0 0 0 0 0 0
+S
+#1349
+Climbing a Rope~
+   The rope sways a bit in the breeze as you cling desperately to it in order
+to avoid falling down to the ground and possible injury and assured
+embarrasment.  A small ways above you is a small door leading to the kitchen of
+the Inn of the Last Home.  However, the door is designed to prevent anyone from
+using this as an alternate entrance to the Inn.  The rope is mainly used to
+cart supplies to the Inns kitchen.    
+~
+13 cd 0 0 0 1
+D5
+~
+~
+0 0 1348 0 0 0 0 0 0 0 0
+S
+#1350
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1353 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1351 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1344 0 0 0 0 0 0 0 0
+S
+#1351
+At the Bottom of a Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine crasftmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 0 h 0 0 1
+D3
+~
+~
+0 0 1350 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 1352 0 0 0 0 0 0 0 0
+S
+#1352
+Around the Spiral Staircase~
+   A spiral staircase has been constructed here that leads to the part of the
+village contained within the treetops.  Each step is made of finely crafted
+wood, and due to the fine craftsmanship has withstood years of hard winters.  
+The staircase is surrounded on both sides by a small railing, to protect
+against accidents.    
+~
+13 c 0 0 0 1
+D4
+~
+~
+0 0 1399 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1351 0 0 0 0 0 0 0 0
+S
+#1353
+Vallenwood Lane~
+   This is the only road in Solace that has cobblestones to keep it passable.
+The road runs from north to south, touching both edges of town.  The air is
+less dusty here.  On either sides of the path are large vallenwood trees, which
+grow in every part of town.    
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1354 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1358 0 0 0 0 0 0 0 0
+S
+#1354
+The Front of a Small Stable~
+   A medium size building has been erected to the north of this area to house
+horses that are brought in from the many travellers passing this way.  The
+stable appears well-maintained.  A smell of mold permeates through the air,
+filling your sense of smell with an acrid flavor.    
+~
+13 c h 0 0 1
+D0
+~
+~
+0 0 1355 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1353 0 0 0 0 0 0 0 0
+S
+#1355
+In a Small Stable~
+   This stable houses the horses that are brought in from the many travellers
+passing this way.  The roof of the building is an oval shape and four carvings
+representing different elements have been carved facing the north, east, south,
+and west.  To the north and west are two small stalls where prize horses are
+kept, and there are large tie poles all around for common folk to keep their
+horses from running away.    
+~
+13 d 0 0 0 0
+D0
+~
+~
+0 0 1357 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1354 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1356 0 0 0 0 0 0 0 0
+S
+#1356
+A Horses Stall~
+   A small pile of hay rests in the northwest corner of this stall.  The stall
+is about five by ten feet which leaves plenty of room for the horse to fit but
+leaves little for mobility of the animal.  A small window has been carved into
+the western wall which allows sunlight to filter into the stall.    
+~
+13 d 0 0 0 0
+D1
+~
+~
+0 0 1355 0 0 0 0 0 0 0 0
+S
+#1357
+A Horses Stall~
+   A small pile of hay rests in the northwest corner of this stall.  The stall
+is about five by ten feet which leaves plenty of room for the horse to fit but
+leaves little for mobility of the animal.  A small window has been carved into
+the northern wall which allows sunlight to filter into the stall.    
+~
+13 d 0 0 0 0
+D2
+~
+~
+0 0 1355 0 0 0 0 0 0 0 0
+S
+#1358
+The Northern Edge of Solace~
+   This crossroads marks the end of the village of Solace and the beginning of
+the roads to the north and east.  The ground here is somewhat muddy from
+rainwater that barely gets hit with the sun due to the surrounding trees.  A
+few people walk along the path, but they do not seem to notice you.    
+~
+13 0 h 0 0 2
+D0
+~
+~
+0 0 16808 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2900 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 1353 0 0 0 0 0 0 0 0
+S
+#1359
+Atop a Spiral Staircase~
+   Winding its way to the ground below this point is a spiral staircase.  To
+the northeast and southeast from this point the bridgewalk, which Solace is
+famous for, extends out connecting buildings that are houses in the vallenwood
+trees.    
+~
+13 0 h 0 0 1
+D5
+~
+~
+0 0 1304 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1415 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1360 0 0 0 0 0 0 0 0
+S
+#1360
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D6
+~
+~
+0 0 1359 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 1361 0 0 0 0 0 0 0 0
+S
+#1361
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1362 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 1360 0 0 0 0 0 0 0 0
+S
+#1362
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1361 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1364 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1365 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1363 0 0 0 0 0 0 0 0
+S
+#1363
+A Treetop Home~
+   This home is furnished will all the comforts any resident of Solace could
+ask for.  A small fireplace rests in the eastern wall of the room, with a small
+fire blazing in its maw.  A table and chairs rests in the center of the room,
+with a few scraps of paper resting on the table.    
+~
+13 d h 0 0 0
+D1
+~
+door~
+1 0 1362 0 0 0 0 0 0 0 0
+S
+#1364
+A Treetop Home~
+   This home is furnished with all the comforts any resident of Solace could
+ask for.  A small fireplace rests in the eastern wall of the room, with a small
+fire blazing in its maw.  A table and chairs rests in the center of the room,
+with a few scraps of paper resting on the table.    
+~
+13 d h 0 0 0
+D3
+~
+door~
+1 0 1362 0 0 0 0 0 0 0 0
+S
+#1365
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1362 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1367 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1368 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1366 0 0 0 0 0 0 0 0
+S
+#1366
+A Treetop Home~
+   This home is furnished will all the comforts any resident of Solace could
+ask for.  A small fireplace rests in the eastern wall of the room, with a small
+fire blazing in its maw.  A table and chairs rests in the center of the room,
+with a few scraps of paper resting on the table.    
+~
+13 d h 0 0 0
+D1
+~
+door~
+1 0 1365 0 0 0 0 0 0 0 0
+S
+#1367
+A Treetop Home~
+   This home is furnished with all the comforts any resident of Solace could
+ask for.  A small fireplace rests in the eastern wall of the room, with a small
+fire blazing in its maw.  A table and chairs rests in the center of the room,
+with a few scraps of paper resting on the table.    
+~
+13 d h 0 0 0
+D3
+~
+door~
+1 0 1365 0 0 0 0 0 0 0 0
+S
+#1368
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1365 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1369 0 0 0 0 0 0 0 0
+S
+#1369
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1368 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1370 0 0 0 0 0 0 0 0
+S
+#1370
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1369 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1373 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1371 0 0 0 0 0 0 0 0
+S
+#1371
+The Western Bridge-walk~
+   This is the western side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1370 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1372 0 0 0 0 0 0 0 0
+S
+#1372
+Atop a Spiral Staircase~
+   Winding its way to the ground below this point is a spiral staircase.  To
+the north from this point the bridgewalk, which Solace is famous for, extends
+out connecting buildings that are houses in the vallenwood trees.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1371 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1315 0 0 0 0 0 0 0 0
+S
+#1373
+The Southern Bridge-walk~
+   This is the southern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1376 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1370 0 0 0 0 0 0 0 0
+S
+#1374
+Discrepencies of the World~
+   There is a large tree shooting above the bridgewalk here for people to post
+their message in and of the world.  A small bench rests near the tree for those
+reading the notes to rest their weary feet.  This particular area is set up for
+who wish to reports bugs within the game.  This room is out of character.    
+~
+13 cd h 0 0 1
+S
+#1375
+News from Other Worlds~
+   There is a large tree shooting above the bridgewalk here for people to post
+their message in and of the world.  A small bench rests near the tree for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those who wich to read news from other worlds.  This room is out of character.
+~
+13 cd h 0 0 1
+S
+#1376
+The Southern Bridge-walk~
+   This is the southern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1379 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1441 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1373 0 0 0 0 0 0 0 0
+S
+#1377
+A Small Trading Post~
+   There is a large tree shooting above the bridgewalk here for people to post
+their message in and of the world.  A small bench rests near the tree for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those who wish to trade goods.    
+~
+13 cd h 0 0 1
+S
+#1378
+The Laws of the Land~
+   There is a large tree shooting above the bridgewalk here for people to post
+their message in and of the world.  A small bench rests near the tree for those
+reading the notes to rest their weary feet.  This particular area is set up for
+who wish to know the laws of the land.    
+~
+13 cd h 0 0 1
+S
+#1379
+The Southern Bridge-walk~
+   This is the southern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1382 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1376 0 0 0 0 0 0 0 0
+S
+#1380
+Reports of Criminal Activity~
+   There is a large tree shooting above the bridgewalk here for people to post
+their message in and of the world.  A small bench rests near the tree for those
+reading the notes to rest their weary feet.  This particular area is set up for
+those wishing to report on the activities of criminals in Solace.    
+~
+13 cd h 0 0 1
+S
+#1381
+General Notices~
+   There is a large tree shooting above the bridgewalk here for people to post
+their message in and of the world.  A small bench rests near the tree for those
+reading the notes to rest their weary feet.  This particular area is set up for
+general postings of the residents of Solace.    
+~
+13 cd h 0 0 1
+S
+#1382
+The Southern Bridge-walk~
+   This is the southern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1383 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1386 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1385 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1379 0 0 0 0 0 0 0 0
+S
+#1383
+Atop a Spiral Staircase~
+   Winding its way to the ground below this point is a spiral staircase.  To
+the south from this point the bridgewalk, which Solace is famous for, extends
+out connecting buildings that are houses in the vallenwood trees.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1384 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1382 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1326 0 0 0 0 0 0 0 0
+S
+#1384
+Omar's Grocery~
+   Food and other goods have been set along large shelves that cover the walls
+of this shop.  The floor has not been swept recently and a small layer of dust
+has built up on it.  A large wooden counter rests along the northern wall with
+a man standing behind it waiting to help you.    
+~
+13 cd h 0 0 0
+D3
+~
+~
+0 0 1383 0 0 0 0 0 0 0 0
+S
+#1385
+Dorian's Depository~
+   This building is a recent addition to the village of Solace.  A few small
+safes rest in the back of the room, and the banker is the only one who knows
+their combinations.  A large wooden counter rests along the back wall of the
+room, and a man with a bright smile sits behind it.    
+~
+13 cd h 0 0 1
+D0
+~
+~
+0 0 1382 0 0 0 0 0 0 0 0
+S
+#1386
+The Southern Bridge-walk~
+   This is the southern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1387 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1382 0 0 0 0 0 0 0 0
+S
+#1387
+The Southern Bridge-walk~
+   This is the southern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1388 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1386 0 0 0 0 0 0 0 0
+S
+#1388
+The Southern Bridge-walk~
+   This is the southern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D1
+~
+~
+0 0 1389 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1387 0 0 0 0 0 0 0 0
+S
+#1389
+Atop a Spiral Staircase~
+   Winding its way to the ground below this point is a spiral staircase.  To
+the northeast and southeast from this point the bridgewalk, which Solace is
+famous for, extends out connecting buildings that are houses in the vallenwood
+trees.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1390 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1388 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1337 0 0 0 0 0 0 0 0
+S
+#1390
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1392 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1391 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1389 0 0 0 0 0 0 0 0
+S
+#1391
+The Solace Bread Pantry~
+   The smell of freshly cooked bread permeates through the air of this shop.  
+A plump, balding man stands behind a large counter and twirls some dough around
+in the air.  The entire place seems to be covered in flour, not from being
+spilled but from moving through the air.    
+~
+13 cd h 0 0 0
+D3
+~
+~
+0 0 1390 0 0 0 0 0 0 0 0
+S
+#1392
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1393 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1390 0 0 0 0 0 0 0 0
+S
+#1393
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1395 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1392 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 1394 0 0 0 0 0 0 0 0
+S
+#1394
+A Double Sized, Treetop Home~
+   This is a larger residence of Solace.  There is a large beam running down
+the center of the ceiling where a wall apparently used to be, but another
+section was added onto the house.  Small furniture has been set around the room
+in quaint positions, and a few pictures are hung on the wall.    
+~
+13 cd h 0 0 0
+D1
+~
+door~
+1 0 1393 0 0 0 0 0 0 0 0
+S
+#1395
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1396 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1393 0 0 0 0 0 0 0 0
+S
+#1396
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1398 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 1397 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1395 0 0 0 0 0 0 0 0
+S
+#1397
+A Larger Treetop Home~
+   This is a large residence for the village of Solace.  The back wall seems to
+have been moved back a few feet to give the occupants more room to move around
+in.  A few small toys on the floor indicate that a small child lives here, but
+no child seems to be around.    
+~
+13 cd h 0 0 0
+D3
+~
+door~
+1 0 1396 0 0 0 0 0 0 0 0
+S
+#1398
+The Eastern Bridge-walk~
+   This is the eastern side of the great bridgewalk of Solace.  The ground is
+about fifty feet below you.  The bridge is sturdy and is made out of good wood.
+It does not sway in the breeze and has a large railing on either side to
+prevent accidents.  There are buildings along the sides of the bridgewalk, a
+few with doors open but mostly with their doors shut tight.    
+~
+13 0 h 0 0 1
+D2
+~
+~
+0 0 1396 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1399 0 0 0 0 0 0 0 0
+S
+#1399
+Atop a Spiral Staircase~
+   Winding its way to the ground below this point is a spiral staircase.  To
+the northeast and southeast from this point the bridgewalk, which Solace is
+famous for, extends out connecting buildings that are houses in the vallenwood
+trees.    
+~
+13 0 h 0 0 1
+D0
+~
+~
+0 0 1400 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1398 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 1352 0 0 0 0 0 0 0 0
+S
+$~

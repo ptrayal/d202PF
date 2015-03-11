@@ -1,0 +1,312 @@
+#10603
+knight kiri jolith~
+a knight of Kiri-Jolith~
+A knight of Kiri-Jolith kneels in prayer here.
+~
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10604
+fisherman young eager~
+a young, eager fisherman~
+Holding onto a net, is a young eager fisherman.
+~
+   Holding a deep stare at the water, this young fisherman holds a long-handled
+fishing net into the water, hoping for a catch.  His hair is sun bleached, and
+his arms are scrawny.  He is wearing torn shorts, that make him look like he is
+fresh from the slums.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10605
+man grey burly~
+a burly man with a grey beard~
+Watching over his boat, is a grey bearded man.
+~
+   Pot-bellied and droopy, this big guy has nothing on his mind but his boat.
+His face is sun burnt and squinty, and completely surrounded by a grey beard.
+He is adorned in a cut-off striped shirt, with dirty pants.    
+~
+d 0 0 0 k 0 0 0 -5000
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10606
+scrawny little boy~
+a scrawny little boy~
+Carrying a pail of fish, is a scrawny little boy in dirty clothes.
+~
+   Bony arms, crooked legs, and a big head make this boy look foolish.  He
+appears to be one of the kids that are abandoned at a young age.  Nevertheless
+he puts in his time toting fish back and forth to boats for a few coins.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10607
+blind captain~
+a blind captain~
+The blind captain is spinning the wheel aimlessly.
+~
+   He is rather tall for a human.  He is covered in dirt and reeks of fish.  
+Two patches, one on each eye, tend to his aimless spinning of the wheel.  He is
+wearing an odd bandana, and keeps muttering to himself.    
+~
+d 0 0 0 k 0 0 0 -5000
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10608
+ship hand hands~
+a ship hand~
+A ship hand is here, trudging along wearily.
+~
+   Completely covered in the ships nets, this young man serves as a worker on
+the vessel.  He has short hair, and is fairly short and chunky.  As he moves
+along doing his duties, you notice a lazy eye staring right at you.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10609
+wharf rat small~
+a small wharf rat~
+Dodging footsteps and crates is a small wharf rat.
+~
+   Thick matted fur, and a massive set of front teeth make up this typical
+wharf rat.  Although hard to find and keep a good hold on, the rat doesn't seem
+to be interested in anything but what people have dropped.    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10610
+champion minotaur~
+the champion of the arena~
+Standing patiently, is the champion waiting on his next opponent.
+~
+   Trimmed in blue leather armor, this man appears to have never been touched.
+He has no visible blood stains to speak of and no tears in his equipment.  He
+has no weapon or shield, but his minotaur ways show him as a brute.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The tiger is snarling in the corner at your entrance,
+#10612
+male spectator~
+a rich looking male spectator~
+Watching the battles is a rich looking male spectator.
+~
+   A disgruntled look on his face as he waits for the next fight shows his lack
+of class.  He is wearing nice clothes and has two white gloves on his hands.  
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10613
+female spectator petite young~
+a petite young female spectator~
+Obviously not watching the arena is a petite young female spectator.
+~
+   This young lady has long brunette hair, and a perfect form.  She is wearing
+a red dress, and a set of shiny dress shoes.  Her eyes wander as she is not
+interested in the arena at all.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10614
+dwarven slave~
+a barely trained dwarven slave~
+A barely trained dwarven slave prepares to do battle.
+~
+   Wearing thrown together leather armor and wielding a small sword, this dwarf
+looks doomed.  He appears to be one of many that have tried to destroy the
+arena.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#10615
+knight trained~
+a well-trained knight~
+Swinging his sword about is a well-trained knight.
+~
+   Covered in full platemail and wielding a large sabre, this knight looks to
+be ready for a war.  He is sweating terribly in what seems to be fear, although
+he seems to try his best to cover it up.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

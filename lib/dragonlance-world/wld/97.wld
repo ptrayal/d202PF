@@ -1,0 +1,1850 @@
+#9700
+A Wide Stone Bridge~
+   Spanning the length of a small bar, a magnificent bridge leads up to the
+palace of the reigning Dragon Highlord.  Formed from large square cut blocks,
+this bridge is more for show, than to actually be put into use.  However, below
+a murky dark moat appears like a stain, very much in contrast with the colors
+of the keep.  Large stone arches can be seen overhead, connecting above the
+bridge, and continuing on up to the front of the castle.    
+~
+97 0 h 0 0  0
+D1
+~
+~
+0 0 9701 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9735 0 0 0 0 0 0 0 0
+S
+#9701
+A Wide Stone Bridge~
+   Leading up to the doors of the palace, the two arches come to terms secure
+to the front of the palace wall.  A giant portcullis stands here, with a black
+iron gate half open.  Sharpened to a keen edge, the spikes stand ready to
+plummet down in case of a siege.  Large granite stones make up the protection
+of this keep, each sparkles only at night when the moonlight hits the castle
+front.  Enough so, that evening events require no external torches or lighting.
+~
+97 c h 0 0  0
+D1
+~
+~
+0 0 9726 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9734 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9700 0 0 0 0 0 0 0 0
+S
+#9702
+The Western Wing of the Palace~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 0 0 0 0  0
+D0
+~
+~
+0 0 9725 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9703 0 0 0 0 0 0 0 0
+S
+#9703
+The Western Wing of the Palace~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 0 0 0 0  0
+D0
+~
+~
+0 0 9702 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9704 0 0 0 0 0 0 0 0
+S
+#9704
+The Western Wing of the Palace~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 0 0 0 0  0
+D0
+~
+~
+0 0 9703 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9705 0 0 0 0 0 0 0 0
+S
+#9705
+The Western Wing of the Palace~
+   Dark crimson drapings cover all openings to this room, preventing all light
+rays from entering.  Dust clings thick in the air, as the lack of circulation
+has prevented air currents from finding their way into these chambers.  
+Hanging on the wall is a large oval mirror, which is opaque but still reflects
+slight images.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9704 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9784 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9706 0 0 0 0 0 0 0 0
+S
+#9706
+A Dark Worshipping Chamber~
+   Dark crimson drapings cover all openings to this room, preventing all light
+rays from entering.  Dust clings thick in the air, as the lack of circulation
+has prevented air currents from finding their way into these chambers.  
+Hanging on the wall is a large oval mirror, which is opaque but still reflects
+slight images.    
+~
+97 0 0 0 0  0
+D0
+~
+door~
+1 0 9705 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9710 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9707 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9708 0 0 0 0 0 0 0 0
+S
+#9707
+A Dark Worshipping Chamber~
+   Dark crimson drapings cover all openings to this room, preventing all light
+rays from entering.  Dust clings thick in the air, as the lack of circulation
+has prevented air currents from finding their way into these chambers.  
+Hanging on the wall is a large oval mirror, which is opaque but still reflects
+slight images.    
+~
+97 0 0 0 0  0
+D0
+~
+~
+0 0 9706 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9709 0 0 0 0 0 0 0 0
+S
+#9708
+A Dark Worshipping Chamber~
+   Dark crimson drapings cover all openings to this room, preventing all light
+rays from entering.  Dust clings thick in the air, as the lack of circulation
+has prevented air currents from finding their way into these chambers.  
+Hanging on the wall is a large oval mirror, which is opaque but still reflects
+slight images.    
+~
+97 0 0 0 0  0
+D1
+~
+~
+0 0 9706 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9709 0 0 0 0 0 0 0 0
+S
+#9709
+A Dark Worshipping Chamber~
+   Dark crimson drapings cover all openings to this room, preventing all light
+rays from entering.  Dust clings thick in the air, as the lack of circulation
+has prevented air currents from finding their way into these chambers.  
+Hanging on the wall is a large oval mirror, which is opaque but still reflects
+slight images.    
+~
+97 0 0 0 0  0
+D0
+~
+~
+0 0 9708 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9707 0 0 0 0 0 0 0 0
+S
+#9710
+A Hallway Leading to the Dragon Highlord's Chambers~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9784 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9711 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9706 0 0 0 0 0 0 0 0
+S
+#9711
+A Hallway leading to the Dragon Highlord's Chambers~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D0
+~
+doors~
+2 9708 9719 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9712 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9759 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9710 0 0 0 0 0 0 0 0
+S
+#9712
+A Hallway leading to the Dragon Highlord's Chambers~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D1
+~
+~
+0 0 9714 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9711 0 0 0 0 0 0 0 0
+S
+#9713
+A new room~
+You are in a room.
+~
+97 0 0 0 0  0
+D3
+~
+~
+0 0 9712 0 0 0 0 0 0 0 0
+S
+#9714
+A Hallway leading to the Dragon Highlord's Chambers~
+   The funds which the Dragonarmy have received has gone to good use, as much
+of this side of the palace is restored beautifully.  Arches reside every 20
+feet, and large supporting pillars line the hallway.  Standing in front of each
+pillar is a suit of Dragonarmy armor.  The most basic set being furthest from
+the Highlord's chambers, and directly across from the doors is a set of
+Dragonarmy Highlord armor, resting in all of its splendor.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9785 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9715 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9712 0 0 0 0 0 0 0 0
+S
+#9715
+Dark Devotion Chambers~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D0
+~
+door~
+1 0 9720 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9717 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9716 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9714 0 0 0 0 0 0 0 0
+S
+#9716
+Dark Devotion Chambers~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9715 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9718 0 0 0 0 0 0 0 0
+S
+#9717
+Dark Devotion Chambers~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D2
+~
+~
+0 0 9718 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9715 0 0 0 0 0 0 0 0
+S
+#9718
+Dark Devotion Chambers~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9717 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9716 0 0 0 0 0 0 0 0
+S
+#9719
+The Entrance to the Highlord's Chambers~
+   Virtually everything that Lord Ariakas Needs is at his disposal here.  A
+Landing spot for Ember rests off to one side, and a gigantic throneroom with a
+gigantic pair of tusks protruding off the side of the throne rests on the far
+side.  Behind it, a gigantic fireplace burns, and exotic rugs cover not only
+the floor at the foot of the throne, but most walls as well.  No expense has
+been spared, and everything is fitting for what the Highlord has demanded in
+his residence.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9789 0 0 0 0 0 0 0 0
+D2
+~
+doors~
+2 9708 9711 0 0 0 0 0 0 0 0
+S
+#9720
+A Long Stretching Palace Hallway~
+   Several devoted warriors to the Dark Lady walk about these chambers, many
+being heavily armored yet walk about as if unencumbered.  Their chambers are
+modest, but in comparison to the standard quarters, they are lavish.  Well
+padded bunks are provided for her most esteemed warriors, devoted to their
+cause in her time of powerful uprising they are well compensated for.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9721 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9715 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9785 0 0 0 0 0 0 0 0
+S
+#9721
+A Long Stretching Palace Hallway~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9722 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9720 0 0 0 0 0 0 0 0
+S
+#9722
+A Long Stretching Palace Hallway~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9723 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9721 0 0 0 0 0 0 0 0
+S
+#9723
+A Long Stretching Palace Hallway~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9736 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9722 0 0 0 0 0 0 0 0
+S
+#9724
+Well Kept Training Grounds~
+   This section of the palace is open as only a slight ledge surrounds
+preventing a deadly fall into the moat below.  The ground is covered with
+foot-trodden dirt, and cushions the fall of those that might lose in sparring
+here.  A rigorous amount of training goes on here, and all of those that excel
+here will find themselves rising quickly in the ranks of the Dragonarmy.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9739 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9740 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9738 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9728 0 0 0 0 0 0 0 0
+S
+#9725
+Below the Portcullis~
+   A gigantic orifice looking much like a mouth hangs overhead, sharp
+spearheads pointing down ready to impale anything beneath.  A lavish, well
+decorated hallway spans for as far as the eye can see.  Checkerboard tiles, and
+small square cut blocks form the floor and walls of the castle, and a large
+tapestry hangs within the entryway.  Two guard towers can be seen, and much
+activity can be seen throughout the castle.    
+~
+97 d h 0 0  0
+D0
+~
+~
+0 0 9726 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9702 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9734 0 0 0 0 0 0 0 0
+S
+#9726
+Below the Portcullis~
+   A gigantic orifice looking much like a mouth hangs overhead, sharp
+spearheads pointing down ready to impale anything beneath.  A lavish, well
+decorated hallway spans for as far as the eye can see.  Checkerboard tiles, and
+small square cut blocks form the floor and walls of the castle, and a large
+tapestry hangs within the entryway.  Two guard towers can be seen, and much
+activity can be seen throughout the castle.    
+~
+97 d h 0 0  0
+D0
+~
+~
+0 0 9727 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9725 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9701 0 0 0 0 0 0 0 0
+S
+#9727
+The Western Wing of the Palace~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9733 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9726 0 0 0 0 0 0 0 0
+S
+#9728
+Approaching the Northern Turret~
+   A very modest corridor heads towards this end of the palace.  This side is
+used very rarely, and although there are arches with support pillars lining the
+walls, it is quite plain in comparison to its counterpart.  Ever so slightly,
+the hallway arches towards the spiralling pillar above, which during mid
+afternoon, the shadow of the pillar hangs heavily over this side of the palace.
+~
+97 d 0 0 0  0
+D1
+~
+door~
+1 0 9724 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9786 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9729 0 0 0 0 0 0 0 0
+S
+#9729
+Approaching the Northern Turret~
+   A very modest corridor heads towards this end of the palace.  This side is
+used very rarely, and although there are arches with support pillars lining the
+walls, it is quite plain in comparison to its counterpart.  Ever so slightly,
+the hallway arches towards the spiralling pillar above, which during mid
+afternoon, the shadow of the pillar hangs heavily over this side of the palace.
+~
+97 d 0 0 0  0
+D1
+~
+~
+0 0 9728 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9730 0 0 0 0 0 0 0 0
+S
+#9730
+Approaching the Northern Turret~
+   A very modest corridor heads towards this end of the palace.  This side is
+used very rarely, and although there are arches with support pillars lining the
+walls, it is quite plain in comparison to its counterpart.  Ever so slightly,
+the hallway arches towards the spiralling pillar above, which during mid
+afternoon, the shadow of the pillar hangs heavily over this side of the palace.
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9745 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9729 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9731 0 0 0 0 0 0 0 0
+S
+#9731
+Approaching the Northern Turret~
+   A very modest corridor heads towards this end of the palace.  This side is
+used very rarely, and although there are arches with support pillars lining the
+walls, it is quite plain in comparison to its counterpart.  Ever so slightly,
+the hallway arches towards the spiralling pillar above, which during mid
+afternoon, the shadow of the pillar hangs heavily over this side of the palace.
+~
+97 d 0 0 0  0
+D1
+~
+~
+0 0 9730 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9787 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 9732 0 0 0 0 0 0 0 0
+S
+#9732
+The Chambers of Dark Offerings~
+   A large domed ceiling trimmed with gold arches high up above, and a lavish
+ebony carpet lines the floor below.  Within these confines, the deceptive and
+ominous work of those hired into the ranks of the Dragonarmy is conducted.  
+Candelabras eternally burning form a circle in the middle of the floor, and
+dark forms who keep far out of the light move about on the outskirts.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9743 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 9731 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 9733 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9742 0 0 0 0 0 0 0 0
+S
+#9733
+The Western Wing of the Palace~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+door~
+1 0 9732 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9787 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9727 0 0 0 0 0 0 0 0
+S
+#9734
+A Wide Stone Bridge~
+   Leading up to the doors of the palace, the two arches come to terms secure
+to the front of the palace wall.  A giant portcullis stands here, with a black
+iron gate half open.  Sharpened to a keen edge, the spikes stand ready to
+plummet down in case of a seige.  Large granite stones make up the protection
+of this keep, each sparkles only at night when the moonlight hits the castle
+front.  Enough so, that evening events require no external torches or lighting.
+~
+97 c h 0 0  0
+D0
+~
+~
+0 0 9701 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9725 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9735 0 0 0 0 0 0 0 0
+S
+#9735
+A Wide Stone Bridge~
+   Spanning the length of a small bar, a magnificent bridge leads up to the
+palace of the reigning Dragon Highlord.  Formed from large square cut blocks,
+this bridge is more for show, than to actually be put into use.  However, below
+a murky dark moat appears like a stain, very much in contrast with the colors
+of the keep.  Large stone arches can be seen overhead, connecting above the
+bridge, and continuing on up to the front of the castle.    
+~
+97 0 h 0 0  0
+D0
+~
+~
+0 0 9700 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9734 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1672 0 0 0 0 0 0 0 0
+S
+#9736
+A Long Stretching Palace Hallway~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9737 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9723 0 0 0 0 0 0 0 0
+S
+#9737
+A Long Stretching Palace Hallway~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9738 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9736 0 0 0 0 0 0 0 0
+S
+#9738
+A Long Stretching Palace Hallway~
+   Paintings and other rare articles of furniture pillaged from across the
+lands are placed lavishly throughout the palace halls.  No expense has been
+spared, to furnish this place many rulers holdings would normally have had to
+be confiscated.  Small openings in the walls permit sunlight to enter, and at
+night oil lamps are lit to keep the palace illuminated.    
+~
+97 d 0 0 0  0
+D0
+~
+door~
+1 0 9724 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9737 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9786 0 0 0 0 0 0 0 0
+S
+#9739
+Well Kept Training Grounds~
+   This section of the palace is open as only a slight ledge surrounds
+preventing a deadly fall into the moat below.  The ground is covered with
+foot-trodden dirt, and cushions the fall of those that might lose in sparring
+here.  A rigorous amount of training goes on here, and all of those that excel
+here will find themselves rising quickly in the ranks of the Dragonarmy.    
+~
+97 d 0 0 0  0
+D1
+~
+~
+0 0 9741 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9724 0 0 0 0 0 0 0 0
+S
+#9740
+Well Kept Training Grounds~
+   This section of the palace is open as only a slight ledge surrounds
+preventing a deadly fall into the moat below.  The ground is covered with
+foot-trodden dirt, and cushions the fall of those that might lose in sparring
+here.  A rigorous amount of training goes on here, and all of those that excel
+here will find themselves rising quickly in the ranks of the Dragonarmy.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9741 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9724 0 0 0 0 0 0 0 0
+S
+#9741
+Well Kept Training Grounds~
+   This section of the palace is open as only a slight ledge surrounds
+preventing a deadly fall into the moat below.  The ground is covered with
+foot-trodden dirt, and cushions the fall of those that might lose in sparring
+here.  A rigorous amount of training goes on here, and all of those that excel
+here will find themselves rising quickly in the ranks of the Dragonarmy.    
+~
+97 d 0 0 0  0
+D2
+~
+~
+0 0 9740 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9739 0 0 0 0 0 0 0 0
+S
+#9742
+The Chambers of Dark Offerings~
+   A large domed ceiling trimmed with gold arches high up above, and a lavish
+ebony carpet lines the floor below.  Within these confines, the deceptive and
+ominous work of those hired into the ranks of the Dragonarmy is conducted.  
+Candelabras eternally burning form a circle in the middle of the floor, and
+dark forms who keep far out of the light move about on the outskirts.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9744 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9732 0 0 0 0 0 0 0 0
+S
+#9743
+The Chambers of Dark Offerings~
+   A large domed ceiling trimmed with gold arches high up above, and a lavish
+ebony carpet lines the floor below.  Within these confines, the deceptive and
+ominous work of those hired into the ranks of the Dragonarmy is conducted.  
+Candelabras eternally burning form a circle in the middle of the floor, and
+dark forms who keep far out of the light move about on the outskirts.    
+~
+97 d 0 0 0  0
+D2
+~
+~
+0 0 9732 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9744 0 0 0 0 0 0 0 0
+S
+#9744
+The Chambers of Dark Offerings~
+   A large domed ceiling trimmed with gold arches high up above, and a lavish
+ebony carpet lines the floor below.  Within these confines, the deceptive and
+ominous work of those hired into the ranks of the Dragonarmy conduct.  
+Candelabras eternally burning form a circle in the middle of the floor, and
+dark forms who keep far out of the light move about on the outskirts.    
+~
+97 d 0 0 0  0
+D1
+~
+~
+0 0 9743 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9742 0 0 0 0 0 0 0 0
+S
+#9745
+The Bottom of the Turret~
+   At the bottom of this turret, the stone spiral stairway begins and rotates
+gradually around the tower.  No bannister exists and each step is a simple
+stone stair, connected to the nearby wall.  Beneath the tower, darkness looms,
+and even at night no lighting exists to help aid in descending the steps.    
+~
+97 cd 0 0 0  0
+D2
+~
+~
+0 0 9730 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9746 0 0 0 0 0 0 0 0
+S
+#9746
+Within the Turret Spire~
+   The steps continue to circle, and above during the day a faint light streams
+down partially illuminating the depths.  A cool draft flows down from the open
+tower above, and when the rains pick up the dampness in this tower gets
+considerably worse.  Each drop slowly rappels down the wall, eventually finding
+its goal after many rough turns and bends along its journey.    
+~
+97 d 0 0 0  0
+D4
+~
+~
+0 0 9747 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9745 0 0 0 0 0 0 0 0
+S
+#9747
+Within the Turret Spire~
+   Although a slight covering exists above, it is far from being enough to keep
+this area from getting damp.  Heading off in one direction is the top of the
+walkway, with a view spanning the horizon for as far as the eye can see.  A
+small watch tower connects to this tower's top, and is occupied at all hours of
+the day.    
+~
+97 cd 0 0 0  0
+D0
+~
+~
+0 0 9764 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9748 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9746 0 0 0 0 0 0 0 0
+S
+#9748
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9747 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9749 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9749
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9748 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9750 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9750
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9749 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9751 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9751
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9750 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9752 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9752
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9751 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9753 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9753
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9752 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9754 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9754
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9753 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9755 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9755
+Atop the Palace's Spanning Archway~
+   A knee high wall is all that exists on either side of this archway, movement
+in either direction could quickly send one plummeting down below into the murky
+dark moat water.  From this vantage point, the view is breathtaking.  All of
+the palace's splendor can be seen, as well as the city and all it has to offer.
+Keeping all that in mind, many soldiers tread along this very dangerous
+location day in and day out, keeping watch over the palace.  Several large pots
+on hinges also arch out over the top, ready to be filled with and spill burning
+oil on any that dare invade below.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9754 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9756 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+S
+#9756
+Within the Turret Spire~
+   Although a slight covering exists above, it is far from being enough to keep
+this area from getting damp.  Heading off in one direction is the top of the
+walkway, with a view spanning the horizon for as far as the eye can see.  A
+small watch tower connects to this tower's top, and is occupied at all hours of
+the day.    
+~
+97 cd 0 0 0  0
+D0
+~
+~
+0 0 9755 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9757 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9758 0 0 0 0 0 0 0 0
+S
+#9757
+A Small Opening Leading to the Guard Tower~
+   A small walkway arches out, leading to protected guard towers flanking the
+archway.  Each end is concealed, and promotes high visibility but full
+protection from outside attacks.  The flooring is solid here, but nearby the
+hole to the bottom level is visible, and quite easy to tumble into.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9756 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9761 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9760 0 0 0 0 0 0 0 0
+S
+#9758
+Within the Turret Spire~
+   The steps continue to circle, and above during the day a faint light streams
+down partially illuminating the depths.  A cool draft flows down from the open
+tower above, and when the rains pick up the dampness in this tower gets
+considerably worse.  Each drop slowly rappels down the wall, eventually finding
+its goal after many rough turns and bends along its journey.    
+~
+97 d 0 0 0  0
+D4
+~
+~
+0 0 9756 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9759 0 0 0 0 0 0 0 0
+S
+#9759
+Within the Turret Spire~
+   At the bottom of this turret, the stone spiral stairway begins and rotates
+gradually around the tower.  No bannister exists and each step is a simple
+stone stair, connected to the nearby wall.  Beneath the tower, darkness looms,
+and even at night no lighting exists to help aid in descending the steps.    
+~
+97 cd 0 0 0  0
+D0
+~
+~
+0 0 9711 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 9758 0 0 0 0 0 0 0 0
+S
+#9760
+An Enclosed Tower Turret~
+   This cylindrical extension of the tower has many small slits which are wide
+on the inside, and quite small on the outside of the structure.  Each allows
+for maximum angles for archery experts to pick off their target when necessary.
+Some of the best eyes in the city come to this point, prepared to send a deadly
+shaft into any that are in opposition to the Highlord's occupation of this
+palace.    
+~
+97 d 0 0 0  0
+D1
+~
+~
+0 0 9757 0 0 0 0 0 0 0 0
+S
+#9761
+An Enclosed Tower Turret~
+   This cylindrical extension of the tower has many small slits which are wide
+on the inside, and quite small on the outside of the structure.  Each allows
+for maximum angles for archery experts to pick off their target when necessary.
+Some of the best eyes in the city come to this point, prepared to send a deadly
+shaft into any that are in opposition to the Highlord's occupation of this
+palace.    
+~
+97 d 0 0 0  0
+D3
+~
+~
+0 0 9757 0 0 0 0 0 0 0 0
+S
+#9762
+An Enclosed Tower Turret~
+   This cylindrical extension of the tower has many small slits which are wide
+on the inside, and quite small on the outside of the structure.  Each allows
+for maximum angles for archery experts to pick off their target when necessary.
+Some of the best eyes in the city come to this point, prepared to send a deadly
+shaft into any that are in opposition to the Highlord's occupation of this
+palace.    
+~
+97 0 0 0 0  0
+D1
+~
+~
+0 0 9764 0 0 0 0 0 0 0 0
+S
+#9763
+An Enclosed Tower Turret~
+   This cylindrical extension of the tower has many small slits which are wide
+on the inside, and quite small on the outside of the structure.  Each allows
+for maximum angles for archery experts to pick off their target when necessary.
+Some of the best eyes in the city come to this point, prepared to send a deadly
+shaft into any that are in opposition to the Highlord's occupation of this
+palace.    
+~
+97 d 0 0 0  0
+D3
+~
+~
+0 0 9764 0 0 0 0 0 0 0 0
+S
+#9764
+Within the Turret Spire~
+   Although a slight covering exists above, it is far from being enough to keep
+this area from getting damp.  Heading off in one direction is the top of the
+walkway, with a view spanning the horizon for as far as the eye can see.  A
+small watch tower connects to this tower's top, and is occupied at all hours of
+the day.    
+~
+97 cd 0 0 0  0
+D1
+~
+~
+0 0 9763 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9747 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9762 0 0 0 0 0 0 0 0
+S
+#9765
+Tumbling off the Side of the Archway~
+   Nothing stands between this point, and the murky bubbling waters below.  
+Spinning faster and faster, the air here is strong, and flys by at an
+increasingly rapid rate.  The whole city can be seen here, but taking note of
+any of the major landmarks is impossible.    
+~
+97 cdq 0 0 0  0
+D5
+~
+~
+0 0 9766 0 0 0 0 0 0 0 0
+S
+#9766
+Tumbling off the Side of the Archway~
+   Nothing stands between this point, and the murky bubbling waters below.  
+Spinning faster and faster, the air here is strong, and flys by at an
+increasingly rapid rate.  The whole city can be seen here, but taking note of
+any of the major landmarks is impossible.    
+~
+97 dq 0 0 0  0
+D4
+~
+~
+0 0 9765 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9767 0 0 0 0 0 0 0 0
+S
+#9767
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddy slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 bcd 0 0 0  0
+D0
+~
+~
+0 0 9782 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9778 0 0 0 0 0 0 0 0
+S
+#9768
+Tumbling off the Side of the Archway~
+   Nothing stands between this point, and the murky bubbling waters below.  
+Spinning faster and faster, the air here is strong, and flys by at an
+increasingly rapid rate.  The whole city can be seen here, but taking note of
+any of the major landmarks is impossible.    
+~
+97 cdq 0 0 0  0
+D5
+~
+~
+0 0 9769 0 0 0 0 0 0 0 0
+S
+#9769
+Tumbling off the side of the Archway~
+   Nothing stands between this point, and the murky bubbling waters below.  
+Spinning faster and faster, the air here is strong, and flys by at an
+increasingly rapid rate.  The whole city can be seen here, but taking note of
+any of the major landmarks is impossible.    
+~
+97 dq 0 0 0  0
+D4
+~
+~
+0 0 9768 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9770 0 0 0 0 0 0 0 0
+S
+#9770
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddy slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 bcd 0 0 0  3
+D0
+~
+~
+0 0 9771 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9773 0 0 0 0 0 0 0 0
+S
+#9771
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D0
+~
+~
+0 0 9772 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9773 0 0 0 0 0 0 0 0
+S
+#9772
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D1
+~
+~
+0 0 9779 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9771 0 0 0 0 0 0 0 0
+S
+#9773
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 c 0 0 0  3
+D0
+~
+~
+0 0 9771 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9774 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9791 0 0 0 0 0 0 0 0
+S
+#9774
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D0
+~
+~
+0 0 9773 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9775 0 0 0 0 0 0 0 0
+S
+#9775
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D1
+~
+~
+0 0 9776 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9774 0 0 0 0 0 0 0 0
+S
+#9776
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D0
+~
+~
+0 0 9777 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9775 0 0 0 0 0 0 0 0
+S
+#9777
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D0
+~
+~
+0 0 9778 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9776 0 0 0 0 0 0 0 0
+S
+#9778
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddly slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D0
+~
+~
+0 0 9782 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9777 0 0 0 0 0 0 0 0
+S
+#9779
+Within the Palace Moat~
+   At the base of the side of the palace here, the sludge slips and slowly
+begins to pull towards a large circular grate.  The sludge slowly drips through
+here, and a nauseating stench comes from within.  Dripping slowly, the sludge
+has a suction like affect, pulling towards the grate, and slowly plunging
+through the square holes in the grate, and a loud splash can be heard from
+within, indicating a large drop.    
+~
+97 0 0 0 0  3
+D1
+~
+~
+0 0 9780 0 0 0 0 0 0 0 0
+D2
+~
+grate~
+2 9366 9783 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9772 0 0 0 0 0 0 0 0
+S
+#9780
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddy slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D2
+~
+~
+0 0 9781 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9779 0 0 0 0 0 0 0 0
+S
+#9781
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddy slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D0
+~
+~
+0 0 9780 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9782 0 0 0 0 0 0 0 0
+S
+#9782
+Within the Palace Moat~
+   The dark moat water here is thick and clings to whatever it comes into
+contact with here, quickly penetrating every opening it can locate.  On each
+side of the moat looms a very steep muddy slide into the murk.  Virtually
+impossible to scale, there may be a suitable footing where foliage has become
+attached, but the majority of this area is well submerged, and very difficult
+to move in.    
+~
+97 0 0 0 0  3
+D0
+~
+~
+0 0 9781 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9778 0 0 0 0 0 0 0 0
+S
+#9783
+A Steep Plunge into the Deep Section of the Moat~
+   The moat water slowly drips over the lip here and tumbles down into an
+underground holding.  Although the thick murk barely moves over the edge, the
+slope here is quite deadly, as any who would step upon it would be flung
+downwards into the pit below.  The walls are thick with moss, and dampness
+hangs in the air everywhere.  Nothing below can be seen, a rancid smell and a
+very large outline can be seen below, the size of a large boulder.    
+~
+97 cdq 0 0 0  0
+D0
+~
+grate~
+2 9366 9779 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9788 0 0 0 0 0 0 0 0
+S
+#9784
+An Adjoining Corridor~
+   Abruptly, the hallway turns a quarter circle, away from its original target.
+Within the corridor, the only light serves from each end, leaving those stuck
+in the middle stranded in the darkness until either side is reached.  No
+furnishings of any sort reside in this passageway, as it is somewhat cramped
+and would restrict easy passage.    
+~
+97 0 0 0 0  0
+D2
+~
+~
+0 0 9710 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9705 0 0 0 0 0 0 0 0
+S
+#9785
+An Adjoining Corridor~
+   Abruptly, the hallway turns a quarter circle, away from its original target.
+Within the corridor, the only light serves from each end, leaving those stuck
+in the middle stranded in the darkness until either side is reached.  No
+furnishings of any sort reside in this passageway, as it is somewhat cramped
+and would restrict easy passage.    
+~
+97 0 0 0 0  0
+D1
+~
+~
+0 0 9720 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9714 0 0 0 0 0 0 0 0
+S
+#9786
+An Adjoining Corridor~
+   Abruptly, the hallway turns a quarter circle, away from its original target.
+Within the corridor, the only light serves from each end, leaving those stuck
+in the middle stranded in the darkness until either side is reached.  No
+furnishings of any sort reside in this passageway, as it is somewhat cramped
+and would restrict easy passage.    
+~
+97 d 0 0 0  0
+D0
+~
+~
+0 0 9728 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9738 0 0 0 0 0 0 0 0
+S
+#9787
+An Adjoining Corridor~
+   Abruptly, the hallway turns a quarter circle, away from its original target.
+Within the corridor, the only light serves from each end, leaving those stuck
+in the middle stranded in the darkness until either side is reached.  No
+furnishings of any sort reside in this passageway, as it is somewhat cramped
+and would restrict easy passage.    
+~
+97 0 0 0 0  0
+D0
+~
+~
+0 0 9731 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9733 0 0 0 0 0 0 0 0
+S
+#9788
+A Small Landing Surrounded by Murk~
+   Slowly filling in the area around the landing the murky dark water fills in.
+The landing is a muddy thick dirt, which goes up to ones knees and quickly
+pulls in its victims.  A casual move of ones foot comes in contact with a firm
+substance, partially submerged in the muck.  No handholds exist, and no stray
+tree branches or roots dangle above allowing for one to pull out of the
+impending doom.    
+~
+97 adq 0 0 0  0
+D4
+~
+~
+0 0 9783 0 0 0 0 0 0 0 0
+S
+#9789
+The Highlords Chambers~
+   The gigantic throne is in full view here, it rests in a recessed circular
+opening which allows it to swivel when needed.  Behind the chair rests a
+gigantic mural of an ebony dressed female warrior slaughtering an army, beneath
+her feet rests a map of Ansalon covered with many fires.  Despite the nearby
+opening, this room remains the same temperature and the warmth of the fire is
+not drawn away quickly.  Large tusks stick out from the lavish chair, which is
+lined with a spotted fur which looks softer than that of a white rabbit.    
+~
+97 d 0 0 0  0
+D1
+~
+~
+0 0 9790 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9719 0 0 0 0 0 0 0 0
+S
+#9790
+The Landing Pad~
+   A large circular dias with a walkway to it rests hovering above the muck.  
+White stones have been precisely cut to fit here, and on top of them a red
+circle is marked for accuracy in landing.  Only one beast ever lands here, and
+that is Lord Ariakas' own mount, Ember.  Any foolish enough to come into the
+chambers will quickly become consumed with fear, and panic; as many of the
+servants have found out.    
+~
+97 0 0 0 0  0
+D3
+~
+~
+0 0 9789 0 0 0 0 0 0 0 0
+S
+#9791
+Climbing up Out of the Muck~
+   A twisted root from an old rotting tree twists down to the muck, barely
+allowing for a handhold.  This slight hillside is extremely slick, and a fall
+from this height could be devastating.  Just ahead, the bridge to the palace
+can be seen, and from atop this, the plunge to the moat is a good 15 feet,
+which could be fatal.    
+~
+97 0 0 0 0  0
+D1
+~
+~
+0 0 9773 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9735 0 0 0 0 0 0 0 0
+S
+$

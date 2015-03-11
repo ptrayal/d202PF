@@ -1,0 +1,26 @@
+3 OPTIONS
+
+3.1  AFK - Help on how and when to go AFK (Away From Keyboard)
+3.2  Autoexit - Automatically displaying exits when you look at a room
+3.3  Autoassist - Automatically assisting anyone in your group in battle
+3.4  Autoloot - Automatically looting any corpse your group kills of items
+3.5  Autogold - Automatically looting any corpse your group kills of money
+3.6  Autosac - Automatically sacrificing the corpses of things your group kills
+3.7  Automem - Automatically re-memorizing spells you had previously memorized
+3.8  Autosplit - Automatically splitting any money you loot with your group
+3.9  Brief - Will not display room descriptions (for slow connections only)
+3.10 Compact - No blank lines between any text (Harder to read but can fit more)
+3.11 Display - Also known as 'Prompt', this will display stat info on each line
+3.12 Noauction - You will be deaf to the auction channel
+3.13 Nocompress - Will allow for compression if your mud client supports it.
+3.14 Nogossip - You will be deaf to the gossip channel
+3.15 Nograts - You will be deaf to the grats channel
+3.16 Norepeat - Any communication you make will not be shown to you
+3.17 Noshout - You will be deaf to the shout channel
+3.18 Nosummon - You will be unable to be summoned by others
+3.19 Notell - You will not be able to send or receive tells
+3.20 Quest - Toggles whether or not you are partive or the active quest
+3.21 Vieworder - Toggles whether you see newest or eldest posts first on a board
+3.22 Wimpy - Sets the level of hitpoints at which you will auto-flee in combat
+#
+$

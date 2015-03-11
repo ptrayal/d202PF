@@ -1,0 +1,521 @@
+#10200
+A short corridor~
+   This corridor is made from well-cut stone.  It is clear it is old, yet still
+looks to be in very good condition.  The hallway has outdoor refuse such as
+leaves and sticks strewn about it.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10201 0 0 0 0 0 0 0 0
+S
+#10201
+Main Entryway~
+   This is, or was, the main entry hall for some sort of stronghold.  It is done
+in well-cut stone blocks and looks to be old.  However, the ceiling and walls of
+the room are laced with cracks, all running north and south.  At the north end
+of the room, it looks like there was a stairway at one point, but now it looks
+like it has been filled in completely with many tons of rubble.  
+~
+102 ad 0 0 0 0
+D2
+~
+~
+0 0 10200 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10202 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10223 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10206 0 0 0 0 0 0 0 0
+S
+#10202
+A side corridor~
+   This corridor is made of the same cut stone the rest of the area seems to be
+made from.  There is some sort of @Ymarkings@n which deface the walls here
+though.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10203 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10201 0 0 0 0 0 0 0 0
+D2
+This is a very sturdy door.
+~
+door~
+1 0 10205 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10204 0 0 0 0 0 0 0 0
+E
+markings~
+   Someone, or thing, has extensively graffiti'd this area with crude sayings.
+
+~
+S
+#10203
+An antechamber~
+   This room is, or was, some sort of antechamber.  It has not been used in
+quite sometime.  There are cracks lacing the walls and floor in a north and
+south direction.  There is also some sort of @Ymarkings@n on the walls.  
+~
+102 ad 0 0 0 0
+D2
+~
+~
+0 0 10202 0 0 0 0 0 0 0 0
+E
+markings~
+   There are markings here on the wall in orcish, which seems to be profane.  
+~
+S
+#10204
+An antechamber~
+   This room is, or was, some sort of antechamber.  It has not been used in
+quite sometime.  There are cracks lacing the walls and floor in a north and
+south direction.  There is also some sort of @Ymarkings@n on the walls.  
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10202 0 0 0 0 0 0 0 0
+E
+markings~
+   There are markings here on the wall in orcish, which seems to be profane.  
+~
+S
+#10205
+An unfinished room~
+   This room was never finished for some reason, though indications are that it
+was a more recent edition because it seems to be carved out of roughly hewn
+stone.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10202 0 0 0 0 0 0 0 0
+S
+#10206
+A side chamber~
+   This room is, or was, a side chamber which is off the main entry hall.  It
+was at one point a room which was probably used to hold people and keep them
+waiting.  There is also some @Ymarkings@n on the wall, which look more recent.
+
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10207 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10201 0 0 0 0 0 0 0 0
+E
+marking~
+The markings appears to be some sort of orcish graffiti.
+~
+S
+#10207
+A short corridor~
+   You stand in a short corridor.  The stone here is tightly carved stone
+blocks.  
+~
+102 ad 0 0 0 0
+D1
+door
+~
+door~
+1 0 10208 21 21 0 0 0 0 0 0
+D3
+~
+~
+0 0 10206 0 0 0 0 0 0 0 0
+S
+#10208
+A meeting room~
+   This room was at one point a meeting room.  There is the remains of stone
+chairs and a stone table in the room, though they have been reduced to shards of
+stone now.  
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10209 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10207 0 0 0 0 0 0 0 0
+S
+#10209
+An intersection in a hallway~
+   You are at the intersection in a hallway.  The hallways goes north and east,
+while to the west there appears to be a room, though you cannot tell it's
+purpose from here.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10220 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10210 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10208 0 0 0 0 0 0 0 0
+S
+#10210
+A east/west corridor~
+   This is an east/west corridor.  There is some refuse in the corridor, but
+otherwise is non-descript.  
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10211 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10209 0 0 0 0 0 0 0 0
+S
+#10211
+An Abandoned Barracks~
+   This room was at one time, a barracks chamber.  Now, however, it is filled
+with nothing but refuse.  Indeed, it looks like a more than normal amount of
+debris has accumulated in this room.  Furthermore, there are @Ymarkings@n on the
+walls in this room
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10210 0 0 0 0 0 0 0 0
+E
+marking~
+   The markings appear to be some form of orcish graffiti, apparently saying
+things about the readers mother and a dwarf.  
+~
+S
+#10212
+A north/south corridor~
+   This is a north/south corridor.  It does seem a bit cleaner of refuse than
+other areas on this level appear to have been.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10213 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10211 0 0 0 0 0 0 0 0
+S
+#10213
+An Abandoned Meeting Room~
+   This room has clearly seem some use, but that is evident only by the fact
+there is little refuse in this room.  Also, there is the smell of offal which is
+coming from the east.  Also, this room has @Ymarkings@n on the wall.  
+~
+102 ad 0 0 0 0
+D0
+secret door
+~
+door~
+3 0 10215 21 25 0 0 0 0 0 0
+D1
+~
+~
+0 0 10214 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10216 0 0 0 0 0 0 0 0
+E
+marking~
+   The markings on the wall appear to be some sort of orcish graffiti.  
+~
+S
+#10214
+A (somewhat) Abandoned Latrine~
+   This room is obviously a latrine and was built to be such.  Unlike other
+places on this level, it has seem some use, given the smell coming out of it.  
+~
+102 ad 0 0 0 0
+D3
+~
+~
+0 0 10213 0 0 0 0 0 0 0 0
+S
+#10215
+A Secret Stairwell~
+   This was clearly designed to be a hidden stairwell.  However, someone has
+been using it since it seems to be somewhat well-travelled.  
+~
+102 ad 0 0 0 0
+D2
+~
+~
+0 0 10213 0 0 0 0 0 0 0 0
+S
+#10216
+An East/West corridor~
+   This is an east/west corridor.  It is otherwise unremarkable.  
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10213 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10217 0 0 0 0 0 0 0 0
+S
+#10217
+A Four-way Intersection~
+   This is a four way intersection.  To the east, west, and south there are
+corridors while to the north there is a room which is visible.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10218 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10216 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10219 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10222 0 0 0 0 0 0 0 0
+S
+#10218
+An Abandoned Storage Room~
+   This room was at one time a storage room.  It has since been abandoned and
+remains a room where environmental refuse has accumulated.  There are
+@Ymarkings@n on the wall here.  
+~
+102 ad 0 0 0 0
+D2
+~
+~
+0 0 10217 0 0 0 0 0 0 0 0
+E
+marking~
+   The markings appear to be orcish graffiti making reference to the readers
+mother and three goats.  
+~
+S
+#10219
+A North/South Corridor~
+   This is a north/south corridor that is otherwise unremarkable.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10220 0 0 0 0 0 0 0 0
+D3
+door
+~
+door~
+1 0 10221 21 21 0 0 0 0 0 0
+S
+#10220
+A North/South Corridor~
+   This is a north/south corridor that is otherwise unremarkable.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10219 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10209 0 0 0 0 0 0 0 0
+S
+#10221
+A Stairway Down~
+   This is a stairway down to a lower level.  It looks like it has seen usage
+lately.  
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10219 0 0 0 0 0 0 0 0
+S
+#10222
+An East/West Corridor~
+   This is an east/west corridor.  It seems rather unremarkable.  
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10224 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10223 0 0 0 0 0 0 0 0
+S
+#10223
+An East/West Corridor~
+   This is an east/west corridor.  It seems rather unremarkable.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10225 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10222 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10201 0 0 0 0 0 0 0 0
+S
+#10224
+An Abandoned Meeting Room~
+   This room was at one point a meeting room.  The stone table and stone chairs
+which once occupied this room have been reduced to pieces of stone and shoved in
+the south-west corner of the room.  There are @Ymarkings@n on the walls of the
+room.  
+~
+102 ad 0 0 0 0
+D0
+~
+~
+0 0 10222 0 0 0 0 0 0 0 0
+E
+markings~
+   The markings appear to be uncomprehendible orcish graffiti.  
+~
+S
+#10225
+A Guard Post~
+   It is clear that at one point, this room was a guard post.  There are the
+remains of tables in this room and bones and refuse of an old battle are here,
+though very picked over.  
+~
+102 ad 0 0 0 0
+D2
+~
+~
+0 0 10223 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10226 0 0 0 0 0 0 0 0
+S
+#10226
+A Ramp Down~
+   This is a ramp which slowly slopes down and is wide enough to have moved
+large pieces of equipment up and down it.  
+~
+102 ad 0 0 0 0
+D1
+~
+~
+0 0 10225 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10227 0 0 0 0 0 0 0 0
+S
+#10227
+South-East Corner of Main Social Area~
+   This is the south-east corner of what was once the main social area.  This
+area has suffered structural damage too as there are large cracks on the walls,
+ceiling, and floor.  To the north-west, there looks like the remains of a bridge
+which connected to a large tower-like structure in the middle of the room.  
+There looks to be the remains of another ramp leading up on the south wall, but
+it is filled with many tons of rubble.  
+~
+102 ad 0 0 0 0
+D4
+~
+~
+0 0 10226 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10228 0 0 0 0 0 0 0 0
+S
+#10228
+Above the Ruined Bridge~
+   Below is the ruined bridge, clearly destroyed by whatever caused the
+structural damage to the area.  Above is a landing platform.  
+~
+102 ad 0 0 0 9
+D4
+~
+~
+0 0 10229 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10227 0 0 0 0 0 0 0 0
+S
+#10229
+Top of the Control Tower~
+   This is the top of a tower and is filled with statues of dwarves.  There are
+three levers here as well.  
+~
+102 ad 0 0 0 0
+D5
+~
+~
+0 0 10228 0 0 0 0 0 0 0 0
+E
+levers~
+   There are three levers here.  One has a square on the handle, another has a
+circle, and the final has a triangle.  
+~
+S
+$~

@@ -1,0 +1,260 @@
+#149
+None.~
+Quests~
+14900 14999 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+D 0 14944     3     2   0   101     1    -10 
+
+D 0 14944     2     2   0   101     2    -10 
+
+O 0 14914     1 14943   0   100     3    -1          0 a large white key
+
+D 0 14943     0     2   0   101     4    -10 
+
+O 0 14916     1 14945   0   100     5    -1          0 a strange looking key
+
+D 0 14945     2     2   0   101     6    -10 
+
+D 0 14945     1     2   0   101     7    -10 
+
+O 0 14917     1 14946   0   100     8    -1          0 a multi-colored star key
+
+D 0 14946     3     2   0   101     9    -10 
+
+D 0 14946     0     2   0   101    10    -10 
+
+O 0 14918     1 14947   0   100    11    -1          0 a beautiful gold key
+
+D 0 14947     0     2   0   101    12    -10 
+
+D 0 14947     1     2   0   101    13    -10 
+
+O 0 14930     1 14948   0   100    14    -1          0 a golden rock
+
+D 0 14948     2     2   0   101    15    -10 
+
+D 0 14955     0     1   0   101    16    -10 
+
+D 0 14956     0     1   0   101    17    -10 
+
+D 0 14956     2     1   0   101    18    -10 
+
+M 0 14912    52 14951  30   100    19    -1          0 a playing card
+
+G 1 14937     1     0   0   100    20    19          0 a card with the Ace of Spades on it
+
+M 0 14912    52 14951  30   100    21    -1          0 a playing card
+
+G 1 14950     1     0   0   100    22    21          0 a card with the Ace of Diamonds on it
+
+M 0 14912    52 14951  30   100    23    -1          0 a playing card
+
+G 1 14963     1     0   0   100    24    23          0 a card with the Ace of Clubs on it
+
+M 0 14912    52 14951  30   100    25    -1          0 a playing card
+
+G 1 14976     1     0   0   100    26    25          0 a card with the Ace of Hearts on it
+
+M 0 14912    52 14951  30   100    27    -1          0 a playing card
+
+G 1 14938     1     0   0   100    28    27          0 a card with the Two of Spades on it
+
+M 0 14912    52 14951  30   100    29    -1          0 a playing card
+
+G 1 14951     1     0   0   100    30    29          0 a card with the Two of Diamonds on it
+
+M 0 14912    52 14951  30   100    31    -1          0 a playing card
+
+G 1 14964     1     0   0   100    32    31          0 a card with the Two of Clubs on it
+
+M 0 14912    52 14951  30   100    33    -1          0 a playing card
+
+G 1 14977     1     0   0   100    34    33          0 a card with the Two of Hearts on it
+
+M 0 14912    52 14951  30   100    35    -1          0 a playing card
+
+G 1 14939     1     0   0   100    36    35          0 a card with the Three of Spades on it
+
+M 0 14912    52 14951  30   100    37    -1          0 a playing card
+
+G 1 14952     1     0   0   100    38    37          0 a card with the Three of Diamonds on it
+
+M 0 14912    52 14951  30   100    39    -1          0 a playing card
+
+G 1 14965     1     0   0   100    40    39          0 a card with the Three of Clubs on it
+
+M 0 14912    52 14951  30   100    41    -1          0 a playing card
+
+G 1 14940     1     0   0   100    42    41          0 a card with the Four of Spades on it
+
+M 0 14912    52 14951  30   100    43    -1          0 a playing card
+
+G 1 14953     1     0   0   100    44    43          0 a card with the Four of Diamonds on it
+
+M 0 14912    52 14952  30   100    45    -1          0 a playing card
+
+G 1 14961     1     0   0   100    46    45          0 a card with the Queen of Diamonds on it
+
+M 0 14912    52 14952  30   100    47    -1          0 a playing card
+
+G 1 14979     1     0   0   100    48    47          0 a card with the Four of Hearts on it
+
+M 0 14912    52 14952  30   100    49    -1          0 a playing card
+
+G 1 14975     1     0   0   100    50    49          0 a card with the King of Clubs on it
+
+M 0 14912    52 14952  30   100    51    -1          0 a playing card
+
+G 1 14941     1     0   0   100    52    51          0 a card with the Five of Spades on it
+
+M 0 14912    52 14952  30   100    53    -1          0 a playing card
+
+G 1 14954     1     0   0   100    54    53          0 a card with the Five of Diamonds on it
+
+M 0 14912    52 14952  30   100    55    -1          0 a playing card
+
+G 1 14967     1     0   0   100    56    55          0 a card with the Five of Clubs on it
+
+M 0 14912    52 14952  30   100    57    -1          0 a playing card
+
+G 1 14980     1     0   0   100    58    57          0 a card with the Five of Hearts on it
+
+M 0 14912    52 14952  30   100    59    -1          0 a playing card
+
+G 1 14942     1     0   0   100    60    59          0 a card with the Six of Spades on it
+
+M 0 14912    52 14952  30   100    61    -1          0 a playing card
+
+G 1 14955     1     0   0   100    62    61          0 a card with the Six of Diamonds on it
+
+M 0 14912    52 14952  30   100    63    -1          0 a playing card
+
+G 1 14968     1     0   0   100    64    63          0 a card with the Six of Clubs on it
+
+M 0 14912    52 14952  30   100    65    -1          0 a playing card
+
+G 1 14981     1     0   0   100    66    65          0 a card with the Six of Hearts on it
+
+M 0 14912    52 14952  30   100    67    -1          0 a playing card
+
+G 1 14943     1     0   0   100    68    67          0 a card with the Seven of Spades on it
+
+M 0 14912    52 14952  30   100    69    -1          0 a playing card
+
+G 1 14956     1     0   0   100    70    69          0 a card with the Seven of Diamonds on it
+
+M 0 14912    52 14953  30   100    71    -1          0 a playing card
+
+G 1 14969     1     0   0   100    72    71          0 a card with the Seven of Clubs on it
+
+M 0 14912    52 14953  30   100    73    -1          0 a playing card
+
+G 1 14982     1     0   0   100    74    73          0 a card with the Seven of Hearts on it
+
+M 0 14912    52 14953  30   100    75    -1          0 a playing card
+
+G 1 14944     1     0   0   100    76    75          0 a card with the Eight of Spades on it
+
+M 0 14912    52 14953  30   100    77    -1          0 a playing card
+
+G 1 14957     1     0   0   100    78    77          0 a card with the Eight of Diamonds on it
+
+M 0 14912    52 14953  30   100    79    -1          0 a playing card
+
+G 1 14970     1     0   0   100    80    79          0 a card with the Eight of Clubs on it
+
+M 0 14912    52 14953  30   100    81    -1          0 a playing card
+
+G 1 14983     1     0   0   100    82    81          0 a card with the Eight of Hearts on it
+
+M 0 14912    52 14953  30   100    83    -1          0 a playing card
+
+G 1 14945     1     0   0   100    84    83          0 a card with the Nine of Spades on it
+
+M 0 14912    52 14953  30   100    85    -1          0 a playing card
+
+G 1 14958     1     0   0   100    86    85          0 a card with the Nine of Diamonds on it
+
+M 0 14912    52 14953  30   100    87    -1          0 a playing card
+
+G 1 14971     1     0   0   100    88    87          0 a card with the Nine of Clubs on it
+
+M 0 14912    52 14953  30   100    89    -1          0 a playing card
+
+G 1 14984     1     0   0   100    90    89          0 a card with the Nine of Hearts on it
+
+M 0 14912    52 14953  30   100    91    -1          0 a playing card
+
+G 1 14946     1     0   0   100    92    91          0 a card with the Ten of Spades on it
+
+M 0 14912    52 14953  30   100    93    -1          0 a playing card
+
+G 1 14959     1     0   0   100    94    93          0 a card with the Ten of Diamonds on it
+
+M 0 14912    52 14953  30   100    95    -1          0 a playing card
+
+G 1 14972     1     0   0   100    96    95          0 a card with the Ten of Clubs on it
+
+M 0 14912    52 14950  30   100    97    -1          0 a playing card
+
+G 1 14985     1     0   0   100    98    97          0 a card with the Ten of Hearts on it
+
+M 0 14912    52 14950  30   100    99    -1          0 a playing card
+
+G 1 14947     1     0   0   100   100    99          0 a card with the Jack of Spades on it
+
+M 0 14912    52 14950  30   100   101    -1          0 a playing card
+
+G 1 14960     1     0   0   100   102   101          0 a card with the Jack of Diamonds on it
+
+M 0 14912    52 14950  30   100   103    -1          0 a playing card
+
+G 1 14973     1     0   0   100   104   103          0 a card with the Jack of Clubs on it
+
+M 0 14912    52 14950  30   100   105    -1          0 a playing card
+
+G 1 14986     1     0   0   100   106   105          0 a card with the Jack of Hearts on it
+
+M 0 14912    52 14950  30   100   107    -1          0 a playing card
+
+G 1 14948     1     0   0   100   108   107          0 a card with the Queen of Spades on it
+
+M 0 14912    52 14950  30   100   109    -1          0 a playing card
+
+G 1 14974     1     0   0   100   110   109          0 a card with the Queen of Clubs on it
+
+M 0 14912    52 14950  30   100   111    -1          0 a playing card
+
+G 1 14978     1     0   0   100   112   111          0 a card with the Three of Hearts on it
+
+M 0 14912    52 14950  30   100   113    -1          0 a playing card
+
+G 1 14966     1     0   0   100   114   113          0 a card with the Four of Clubs on it
+
+M 0 14912    52 14950  30   100   115    -1          0 a playing card
+
+G 1 14987     1     0   0   100   116   115          0 a card with the Queen of Hearts on it
+
+M 0 14912    52 14950  30   100   117    -1          0 a playing card
+
+G 1 14962     1     0   0   100   118   117          0 a card with the King of Diamonds on it
+
+M 0 14912    52 14950  30   100   119    -1          0 a playing card
+
+G 1 14949     1     0   0   100   120   119          0 a card with the King of Spades on it
+
+M 0 14912    52 14950  30   100   121    -1          0 a playing card
+
+G 1 14988     1     0   0   100   122   121          0 a card with the King of Hearts on it
+
+D 0 14957     2     1   0   101   123    -10 
+
+O 0 14924     1 14901   0   100   124    -1          0 a weapon rack
+
+P 1 14931    50 14924   0   100   125   124          0 a slender wooden arena sword
+
+S
+$

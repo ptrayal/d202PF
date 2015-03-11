@@ -1,0 +1,423 @@
+#10200
+Mounted TRex Tyranosaurus Rex~
+@rTREX@y and Yuan-ti Commander@n~
+@yThe largest @rTREX@y ever seen mounted by an arrogant Yuan-ti@n
+~
+This animal looks much larger than her male counterpart. She looks ferocious and hungry, and very eager to attack. The rider looks like a very important and experienced Yuan-ti rider. He must be the commander of the riders in this area. His look matches the one of the TRex, ferocious and without mercy.
+~
+bdewyF 0 0 0 kz suBD dmn 0 -500
+42 -1 -40 16800d100+100 1d8+21
+0 0 107 6
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+E
+Feat: 4 3
+E
+Feat: 5 3
+E
+Feat: 32 3
+E
+Feat: 33 3
+E
+Feat: 69 3
+E
+Feat: 86 3
+E
+Feat: 203 3
+S
+T 10200
+#10201
+Yuan-ti Commander snake snake-man rider~
+@GYuan-ti @DCommander@n~
+the arrogant @GYuan-ti @DCommander@n has dismounted for an attack
+~
+The Yuan-ti commander looks enraged. His mount is dead and now he is wanting to take his revenge. He takes two scimitars and readies for an attack. He looks like an expert swordsman.
+~
+defswE 0 0 0 k sxy dmn 0 -500
+35 3 -32 5950d100+100 1d8+17
+110 0 47 12
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+S
+T 10201
+#10202
+Ankylosaurus mount~
+@DAnkylosaurus@n mount with a large @GYuan-ti@n~
+a tough looking @DAnkylosaurus@n being rided by a burly @GYuan-ti@n
+~
+The ankylosaurus looks like a huge tank.  Covered in hard plates all over, will make it for a difficult foe to face. It's rider looks like his mount, muscular, tough and serious looking. He wields a wicked looking club that matches the tail of his dinosaur.
+~
+demuy 0 0 0 kzC sy 0 0 0
+30 5 -26 1080d100+100 1d8+15
+0 0 107 22
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+T 10202
+#10203
+Yuan-ti swordsman yuanti~
+@GYuan-ti@c swordsman@n~
+a large @GYuan-ti@n wielding a sword and shield is here awaiting orders
+~
+This yuan-ti appears to be a sesoned figther. He wields a sword and shield and seems proficient with those weapons. He appears upset, but his cold look is even more frightnening than what a warcry would be. 
+~
+demu 0 0 0 kr s d 0 0
+25 8 -20 600d100+100 1d8+12
+55 0 47 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+E
+Feat: 3 3
+E
+Feat: 4 3
+E
+Feat: 5 3
+E
+Feat: 69 3
+E
+Feat: 86 3
+E
+Feat: 203 3
+E
+Feat: 243 3
+S
+T 10203
+#10204
+Triceratops mount~
+@gTric@re@grat@ro@gps@n mount with a barbaric looking @GYuan-ti@n~
+a @gTric@re@grat@ro@gps@n is being mounted by a barbaric looking @GYuan-ti@n
+~
+A beautiful specimen, large and very muscular. This dinosaur has obviously being in captivity since he was little. Looks very responsive to his master's commands.  He seems to be waiting for the order from his large and savage yuan-ti rider.
+~
+bdemv 0 0 0 kz wyD n 0 0
+33 4 -29 1254d100+100 1d8+16
+0 0 107 6
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 24
+E
+Cha: 10
+E
+Feat: 4 3
+E
+Feat: 5 3
+E
+Feat: 32 3
+E
+Feat: 33 3
+E
+Feat: 69 3
+E
+Feat: 86 3
+E
+Feat: 203 3
+S
+T 10204
+#10205
+Yuan-ti barbarian yuanti~
+@GYuan-ti@r barbarian@n~
+a large and scary looking @GYuan-ti@r barbarian@n appears ready to assault @n
+~
+A wild looking yuan-ti. He is looks muscular and impatient. His hand keeps handling his wicked looking axe and adjusting as if to strike. His face looks eager for battle.
+~
+defmv 0 0 0 kz D dm 0 0
+30 5 -26 1080d100+100 1d8+15
+75 0 47 6
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+E
+Feat: 4 3
+E
+Feat: 5 3
+E
+Feat: 32 3
+E
+Feat: 33 3
+E
+Feat: 69 3
+E
+Feat: 86 3
+E
+Feat: 203 3
+S
+T 10205
+#10206
+Seismosaurus carrier~
+@DSei@cs@Dmos@ca@Durus@n carrier~
+a very long @DSei@cs@Dmos@ca@Durus@n clad in armor is carrying three @GYuan-ti@n
+~
+A very large dinosaur all covered in plate armor form beck to legs. She is carrying a large basket style plataform on her back.
+On that plataform you can distinguish three yuan-ti armed to the teeth.  They seem ready for a siege.
+~
+dwy 0 0 0 k syD dln 0 0
+38 1 -35 1444d0+90 1d8+19
+0 0 107 22
+8 8 2
+E
+BareHandAttack: 6
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 25
+E
+Cha: 10
+S
+T 10206
+#10207
+Yuan-ti archer yuanti~
+@GYuan-ti@m archer@n~
+A @GYuan-ti@m archer @nis aiming ...
+~
+This yuant-ti female is covered completly in chainmail.  She has a long bow and look proficient with it. 
+~
+dfmv 0 0 0 k s ln 0 0
+30 5 -26 840d100+1000 1d8+15
+75 0 47 8
+8 8 2
+E
+BareHandAttack: 6
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+E
+Feat: 4 3
+E
+Feat: 5 3
+E
+Feat: 69 3
+E
+Feat: 86 3
+E
+Feat: 203 3
+S
+#10208
+Dappleford half-orc cleric~
+a half-orc cleric~
+A half-orc stands here, a symbol of Bane hanging from his neck.
+~
+   A half-orc stands here.  His eyes are dark and brooding and his fists are
+scarred.  He does not show fear when he looks at you.  
+~
+dgtD e 0 0 k 0 0 0 -1000
+4 16 5 16d100+100 1d8+2
+4 0 84 1
+8 8 1
+E
+Str: 13
+E
+Dex: 11
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 12
+E
+Feat: 3 3
+E
+Feat: 4 3
+E
+Feat: 5 3
+E
+Feat: 86 3
+E
+Feat: 203 3
+S
+#10209
+gargoyle~
+a gargoyle~
+A gargoyle is here, looking ready for a fight.
+~
+   Seemingly carved from a dark gray stone, this sinister crouching humanoid
+resembles a horned, winged demon.  
+~
+abcdf e 0 0 kq 0 0 0 0
+5 15 4 20d100+100 1d8+2
+5 0 12 21
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 15
+E
+Dex: 14
+E
+Int: 6
+E
+Wis: 11
+E
+Con: 16
+E
+Cha: 7
+E
+Feat: 4 2
+E
+Feat: 86 2
+E
+Feat: 367 2
+E
+Feat: 368 2
+S
+#10210
+slime mold fungi mushrooms~
+a slime mold~
+A carpet of fungi and mushrooms stirs to life!
+~
+   What at first seemed to be a carpet of fungi and mushrooms suddenly stirs to
+life, surging forward with a reek of decay.  
+~
+bcdf e 0 0 f 0 0 0 0
+3 17 7 12d100+100 1d6+4
+3 0 15 21
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 16
+E
+Dex: 8
+E
+Int: 3
+E
+Wis: 3
+E
+Con: 21
+E
+Cha: 3
+E
+Feat: 4 1
+E
+Feat: 86 1
+E
+Feat: 367 1
+E
+Feat: 368 1
+S
+#10211
+gelatinous cube~
+a gelatinous cube~
+A cube of slime with bits of refuse in it is here.
+~
+   Bits of broken weapons, coins, and a partially digested skeleton are visible
+inside this quivering cube of slime.  
+~
+cdfg e 0 0 fst 0 0 0 0
+4 16 5 16d100+1000 2d6+2
+4 0 15 21
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 10
+E
+Dex: 10
+E
+Int: 3
+E
+Wis: 3
+E
+Con: 26
+E
+Cha: 3
+E
+Feat: 4 1
+E
+Feat: 86 1
+E
+Feat: 367 1
+E
+Feat: 368 1
+S
+$

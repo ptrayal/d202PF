@@ -1,0 +1,1864 @@
+#500
+Entrance to the Training Pits~
+   Bits of shattered bone cover the ground here.  To the north a large cavern
+stretches out into the darkness.  Small torches can be seen along the far side
+providing a meager light.  A sturdy wooden ladder leans against the wall
+leading out of the pits to the forest above.    
+~
+5 c 0 0 0 0
+D0
+~
+~
+0 0 501 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 538 0 0 0 0 0 0 0 0
+S
+#501
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 502 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 503 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 500 0 0 0 0 0 0 0 0
+S
+#502
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 505 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 507 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 501 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 504 0 0 0 0 0 0 0 0
+S
+#503
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 507 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 508 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 501 0 0 0 0 0 0 0 0
+S
+#504
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 506 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 502 0 0 0 0 0 0 0 0
+S
+#505
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D2
+~
+~
+0 0 502 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 506 0 0 0 0 0 0 0 0
+S
+#506
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 505 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 504 0 0 0 0 0 0 0 0
+S
+#507
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 509 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 503 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 502 0 0 0 0 0 0 0 0
+S
+#508
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 509 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 510 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 503 0 0 0 0 0 0 0 0
+S
+#509
+Entrance to the Animation Chambers~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  To the east a passage
+has been carved into the cavern wall leading the the animation chambers.  The
+sound of chanting carries out here from the clerics who are animating the
+skeletal creatures.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 514 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 508 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 507 0 0 0 0 0 0 0 0
+S
+#510
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 511 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 513 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 508 0 0 0 0 0 0 0 0
+S
+#511
+Fluorescent Moss Wall~
+   You stand in a large man made cavern.  The walls of the cavern here are
+covered in a strange luminescent fungus.  To the south it appears the ceiling
+caved in.    
+~
+5 0 h 0 0 0
+D2
+~
+~
+0 0 512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 510 0 0 0 0 0 0 0 0
+S
+#512
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 511 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 513 0 0 0 0 0 0 0 0
+S
+#513
+Wandering the Pit~
+   You stand in a large man made cavern.  Small torches flicker in the darkness
+along the walls providing just enough light to see by.  A dull scraping sound
+can be heard as the mindless animations wander the cavern.  Occasionally the
+grunts and curses of others practicing their skills breaks the silence.  To the
+east it appears the ceiling caved in.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 510 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 512 0 0 0 0 0 0 0 0
+S
+#514
+Rough Stone Passage~
+   This rough hewn corridor stretches off to the north.  Doors line the hall on
+each side.  The roots of the trees above poke through the ceiling and
+hang down into the passage.  The low chanting of the clerics at work fills the
+air.    
+~
+5 0 h 0 0 0
+D0
+~
+~
+0 0 515 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 509 0 0 0 0 0 0 0 0
+S
+#515
+Rough Stone Passage~
+   This rough hewn corridor stretches off to the north and south.  The roots of
+the trees from the forest above poke through the ceiling and hang into
+the passage.  Doors line the corridor on both sides.    
+~
+5 0 h 0 0 0
+D0
+~
+~
+0 0 518 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 517 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 514 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 516 0 0 0 0 0 0 0 0
+S
+#516
+An Animation Chamber~
+   This is one of the animation chambers where the priests animate the
+skeletons.  Piles of bones that were once adventurers, and living animals lie
+about the chamber waiting for reanimation.  Low chanting can be heard coming
+from nearby.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 515 0 0 0 0 0 0 0 0
+S
+#517
+An Animation Chamber~
+   This is one of the animation chambers where the priests animate the
+skeletons.  Piles of bones that were once adventurers, and living animals lie
+about the chamber waiting for reanimation.  Low chanting can be heard coming
+from nearby.    
+~
+5 0 0 0 0 0
+D3
+~
+~
+0 0 515 0 0 0 0 0 0 0 0
+S
+#518
+Rough Stone Passage~
+   This rough hewn corrider stretches off to the south.  The roots of the
+trees from the forest above poke through the ceiling and hang into the
+passage.  Doors line the corridor on both sides and to the north.    
+~
+5 0 h 0 0 0
+D0
+~
+~
+0 0 521 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 520 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 515 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 519 0 0 0 0 0 0 0 0
+S
+#519
+An Animation Chamber~
+   This is one of the animation chambers where the priests animate the
+skeletons.  Piles of bones that were once adventurers, and living animals lie
+about the chamber waiting for reanimation.  Low chanting can be heard coming
+from nearby.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 518 0 0 0 0 0 0 0 0
+S
+#520
+An Animation Chamber~
+   This is one of the animation chambers where the priests animate the
+skeletons.  Piles of bones that were once adventurers, and living animals lie
+about the chamber waiting for reanimation.  Low chanting can be heard coming
+from nearby.    
+~
+5 0 0 0 0 0
+D3
+~
+~
+0 0 518 0 0 0 0 0 0 0 0
+S
+#521
+An Animation Chamber~
+   This is one of the animation chambers where the priests animate the
+skeletons.  Piles of bones that were once adventurers, and living animals lie
+about the chamber waiting for reanimation.  Low chanting can be heard coming
+from nearby.    
+~
+5 0 0 0 0 0
+D2
+~
+~
+0 0 518 0 0 0 0 0 0 0 0
+S
+#522
+Narrow Rubble Choked Cave~
+   This narrow cave is filled with rubble from the cave in from above.  The
+passage once went to the west but the passage has been blocked.  A rancid smell
+comes in on a slight breeze coming from the east.    
+~
+5 c 0 0 0 0
+D1
+~
+~
+0 0 523 0 0 0 0 0 0 0 0
+S
+#523
+Narrow Rubble Choked Cave~
+   This cave is filled with rubble from a recent cave in.  A faint breeze from
+the east carries a slightly rancid smell on it.  The cave continues to the east
+and west.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 524 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 522 0 0 0 0 0 0 0 0
+S
+#524
+At An Intersection~
+   You stand in a low ceilinged cavern lit by torches along the walls.  The
+cavern stretches off to the southeast angling slightly upward.  The smell of
+rot and decay is coming from an adjoining cavern to the northeast.  A narrow,
+rubble filled passage leads to the west.    
+~
+5 0 0 0 0 0
+D3
+~
+~
+0 0 523 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 525 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 526 0 0 0 0 0 0 0 0
+S
+#525
+Refuse Chamber~
+   This chamber is used for the storage of junk and other waste.  Small rodents
+and swarms of maggots can be seen crawling everywhere.  The stench in this
+cavern is almost overpowering.  The only visible exit is back to the southwest.
+~
+5 0 0 0 0 0
+D9
+~
+~
+0 0 524 0 0 0 0 0 0 0 0
+S
+#526
+A Low, Wide Cavern~
+   You are in a long, low ceilinged cavern.  Small torches have been affixed to
+the walls shedding a dim, flickering light.  The cavern slopes up to the south.
+A small chamber has been carved out of the stone to the east.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 527 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 528 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 524 0 0 0 0 0 0 0 0
+S
+#527
+Storage Chamber~
+   This small chamber is used for storage.  Barrels and crates have been
+haphazardly stacked around the room.  The main chamber opens up to the west.  
+~
+5 0 0 0 0 0
+D3
+~
+~
+0 0 526 0 0 0 0 0 0 0 0
+S
+#528
+A Low, Wide Cavern~
+   You are in a long, low ceilinged cavern.  Small torches have been affixed to
+the walls shedding a dim, flickering light.  The cavern is on a noticeable
+slope going up to the southeast and down to the north.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 526 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 529 0 0 0 0 0 0 0 0
+S
+#529
+An Intersection of Two Caverns~
+   This is the intersection of two large caverns.  The main chamber slopes up
+and to the southeast and down towards the northwest.  Small torches light up
+the area casting strange shadows on the walls.    
+~
+5 0 0 0 0 0
+D3
+~
+~
+0 0 531 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 528 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 530 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 534 0 0 0 0 0 0 0 0
+S
+#530
+Chieftain's Chambers~
+   Old, rotting furs cover the stone floor of this chamber.  Grisly trophies
+ranging from humanoid heads on poles to unidentifiable organs are on display
+throughout the room.  On the far side of the chamber a makesift throne made out
+of bits of stone, wood scraps, and bones.    
+~
+5 0 0 0 0 0
+D9
+~
+~
+0 0 529 0 0 0 0 0 0 0 0
+S
+#531
+Communal Chamber~
+   This is a communal living chamber for the kobolds.  Here they live out their
+day to day lives.  Small cooking fires and piles of furs dot the chamber.  The
+room smells rank from unwashed kobolds and their waste.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 529 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 533 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 532 0 0 0 0 0 0 0 0
+S
+#532
+Communal Chamber~
+   This is a communal living chamber for the kobolds.  Here they live out their
+day to day lives.  Small cooking fires and piles of furs dot the chamber.  The
+room smells rank from unwashed kobolds and their waste.    
+~
+5 0 0 0 0 0
+D8
+~
+~
+0 0 531 0 0 0 0 0 0 0 0
+S
+#533
+Communal Chamber~
+   This is a communal living chamber for the kobolds.  Here they live out their
+day to day lives.  Small cooking fires and piles of furs dot the chamber.  The
+room smells rank from unwashed kobolds and their waste.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 531 0 0 0 0 0 0 0 0
+S
+#534
+Within a Low, Wide Cavern~
+   You are in a long, low ceilinged cavern.  Smll torches have been affixed to
+the walls shedding a dim, flickering light.  The cavern is on a noticeable
+incline going up to the south and downward to the northwest.  A small chamber
+adjoins this one to the east.    
+~
+5 0 0 0 0 0
+D1
+~
+~
+0 0 535 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 536 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 529 0 0 0 0 0 0 0 0
+S
+#535
+Guard Chamber~
+   This chamber is used for storage of weapons and a guard station for the rest
+of the kobolds caverns.  Racks along the walls are used for holding spears and
+other weapons.    
+~
+5 0 0 0 0 0
+D3
+~
+~
+0 0 534 0 0 0 0 0 0 0 0
+S
+#536
+Within a Low, Wide Cavern~
+   You are in a long, low ceilinged caver.  Small torches have been affixed to
+the walls shedding a dim, flickering light.  A fresh breeze is blowing from the
+west.  The cavern starts to drop at an incline to the north.    
+~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 534 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 537 0 0 0 0 0 0 0 0
+S
+#537
+A Small Cave Entrance.~
+   This is the entrance to a small cave.  Torchlight can be seen ahead in the
+darkness as the cave angles downward and north out of sight.  The forest
+surrounding Solace is just outside the cave to the west.  Large Vallenwoods
+block your view just outside.    
+~
+5 0 h 0 0 0
+D1
+~
+~
+0 0 536 0 0 0 0 0 0 0 0
+D3
+~
+~
+1 0 1330 0 0 0 0 0 0 0 0
+S
+#538
+At the Training Pits~
+   A large pit dominates the center of this small clearing in the forest.  
+Tall trees stand as silent sentinels around the clearing.  A sturdy wooden
+ladder provides easy access to the pit.  The sounds of combat can be heard
+coming from below.  A small path leads back to Palanthas to the east.    
+~
+5 0 h 0 0 1
+D0
+~
+~
+0 0 2257 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 500 0 0 0 0 0 0 0 0
+S
+#539
+A Short Path~
+   Towering trees stand along this path in the area of Palanthas.  To the west
+a small clearing opens in the midst of the venerable forest.  A large pit seems
+to have been dug in the center.  The path continues into Palanthas to the east.
+~
+5 0 h 0 0 1
+D1
+~
+~
+0 0 540 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 538 0 0 0 0 0 0 0 0
+S
+#540
+A Short Path~
+   A small path forms off the whitewashed tiles known as Platinum Street.  The
+path is mostly dirt with various stones scattered about the area.  The dirt
+path continues off to the west.    
+~
+5 0 h 0 0 1
+D3
+~
+~
+0 0 539 0 0 0 0 0 0 0 0
+S
+#541
+Along a Small Beach~
+   Gray sand fills in this beach, with a gray-green tinted water coming in
+waves now and again.  Small crabs have left trails in the sand in some places.
+A gray slab resides to the north, and a dry docked boat restricts passage
+beyond it to the south.  To the west, a wooden pier rises above the sea.    
+~
+5 0 h 0 0 2
+D0
+~
+~
+0 0 548 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 551 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 542 0 0 0 0 0 0 0 0
+S
+#542
+The Beginning of a Pier~
+   The three steps below and to the east lead to the shore, while the west
+brings you further along the board walk.  The water's edge is within a hand of
+the boards beneath your feet, though the distance along the entire edge of the
+boardwalk increases as you walk further towards the west.  The plateau to the
+north looks stunning from here.    
+~
+5 c 0 0 0 1
+D1
+~
+~
+0 0 541 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 543 0 0 0 0 0 0 0 0
+S
+#543
+Along a Pier~
+   The wood beneath you is rotting, as one may see from the soft, splintering
+edges of the planks.  The support poles raise about five feet high, with a
+dull, rounded cap.  They seem to have survived the abuse of many angry
+fishermen.  A jump into the water seems rather inviting.    
+~
+5 0 0 0 0 1
+D0
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 542 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 544 0 0 0 0 0 0 0 0
+S
+#544
+End of the Pier~
+   From here, the newsea surrounds one, and fills the entire scape.  Boats are
+sometimes visible to the south, leaving, arriving, and being repaired.  There
+are four poles with some magic source of light shining over the area, probably
+to give an idea where fish may be.  Most likely they are a blessing from
+Zeboim, Goddess of the sea.  The water is inviting, and a jump into it is
+tempting to some.    
+~
+5 c 0 0 0 1
+D0
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 543 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 545 0 0 0 0 0 0 0 0
+S
+#545
+In the Water~
+   Perhaps it is due to the volcanic action around Solace, but the water is at
+quite a comfortable temperature.  A coral reef to the west prohibits movement
+further into the sea, and to the north lay a huge granite slab.  It is nearly
+impossible to see to a great depth through the water.    
+~
+5 0 h 0 0 2
+D0
+~
+~
+0 0 562 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 563 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+S
+#546
+In the Water~
+   The grayish water seems to move in odd currents, a swish by the feet, a pull
+to the right, and other small motions.  From here, the underside of the pier is
+visible.  The sand below makes for difficult footing through the shallow water.
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 560 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 562 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 561 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 559 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 556 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 545 0 0 0 0 0 0 0 0
+S
+#547
+In the Water~
+   The grayish water seems to move in odd currents, a swish by the feet, a pull
+to the right, and other small motions.  From here, the underside of the pier is
+visible.  The sand below makes for difficult footing through the shallow water.
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 565 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 563 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 545 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 556 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 566 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 564 0 0 0 0 0 0 0 0
+S
+#548
+Along a Small Beach~
+   Gray sand fills in this beach, with a gray-green tinted water coming in
+waves now and again.  Small crabs have left trails in the sand in some places.
+A gray slab resides to the north, and a dry docked boat restricts passage
+beyond it to the south.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 541 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 550 0 0 0 0 0 0 0 0
+S
+#549
+Along a Small Beach~
+   Gray sand fills in this beach, with a gray-green tinted water coming in
+waves now and again.  Small crabs have left trails in the sand in some places.
+A gray slab resides to the north, and a dry docked boat restricts passage
+beyond it to the south.    
+~
+5 0 0 0 0 2
+D2
+~
+~
+0 0 548 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 558 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 550 0 0 0 0 0 0 0 0
+S
+#550
+Along a Small Beach~
+   Gray sand fills in this beach, with a gray-green tinted water coming in
+waves now and again.  Small crabs have left trails in the sand in some places.
+A gray slab resides to the north, and a dry docked boat restricts passage
+beyond it to the south.    
+~
+5 c 0 0 0 2
+D0
+~
+~
+0 0 558 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 548 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 559 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 549 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 556 0 0 0 0 0 0 0 0
+S
+#551
+Along a Small Beach~
+   Gray sand fills in this beach, with a gray-green tinted water coming in
+waves now and again.  Small crabs have left trails in the sand in some places.
+A gray slab resides to the north, and a dry docked boat restricts passage
+beyond it to the south.    
+~
+5 c 0 0 0 2
+D0
+~
+~
+0 0 541 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6509 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 552 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 553 0 0 0 0 0 0 0 0
+S
+#552
+Along a Small Beach~
+   Gray sand fills in this beach, with a gray-green tinted water coming in
+waves now and again.  Small crabs have left trails in the sand in some places.
+A gray slab resides to the north, and a dry docked boat restricts passage
+beyond it to the south.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 551 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 567 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 553 0 0 0 0 0 0 0 0
+S
+#553
+Along a Small Beach~
+   Gray sand fills in this beach, with a gray-green tinted water coming in
+waves now and again.  Small crabs have left trails in the sand in some places.
+A gray slab resides to the north, and a dry docked boat restricts passage
+beyond it to the south.    
+~
+5 c 0 0 0 2
+D1
+~
+~
+0 0 551 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 567 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 556 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 552 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 566 0 0 0 0 0 0 0 0
+S
+#554
+In the Water~
+   The grayish water seems to move in odd currents, a swish by the feet, a pull
+to the right, and other small motions.  From here, the underside of the pier is
+visible.  The sand below makes for difficult footing through the shallow water.
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 559 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 550 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 556 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 560 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 558 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+S
+#555
+In the Water~
+   The grayish water seems to move in odd currents, a swish by the feet, a pull
+to the right, and other small motions.  From here, the underside of the pier is
+visible.  The sand below makes for difficult footing through the shallow water.
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 556 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 553 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 566 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 567 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 565 0 0 0 0 0 0 0 0
+S
+#556
+Under the Pier~
+   The sky is mostly blocked from view by the planks above.  Every so often,
+the supporting poles shift slightly.  The water seems a bit colder here, though
+not by much, perhaps due to the shade.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 550 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 553 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+S
+#557
+Under the Pier~
+   The sky is mostly blocked from view by the planks above.  Every so often,
+the supporting poles shift slightly.  The water seems a bit colder here, though
+not by much, perhaps due to the shade.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 556 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 545 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 562 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 563 0 0 0 0 0 0 0 0
+S
+#558
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  To the north, a huge granite slab blocks further
+travel.  It is nearly impossible to see to a great depth.    
+~
+5 c 0 0 0 2
+D1
+~
+~
+0 0 549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 550 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 559 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+S
+#559
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  To the north, a huge granite slab blocks further
+travel.  It is nearly impossible to see to a great depth.    
+~
+5 0 0 0 0 2
+D1
+~
+~
+0 0 558 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 560 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 550 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+S
+#560
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  To the north, a huge granite slab blocks further
+travel.  It is nearly impossible to see to a great depth.    
+~
+5 0 0 0 0 2
+D1
+~
+~
+0 0 559 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 561 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 554 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 562 0 0 0 0 0 0 0 0
+S
+#561
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  A coral reef to the west prohibits movement further
+into the sea, while a huge granite slab blocks travel to the north.  It is
+nearly impossible to see to a great depth through the water.    
+~
+5 0 0 0 0 2
+D1
+~
+~
+0 0 560 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 562 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+S
+#562
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  A coral reef to the west prohibits movement further
+into the sea, and to the north lies a huge granite slab.  It is nearly
+impossible to see to a great depth through the water.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 561 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 546 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 545 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 560 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+S
+#563
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  A coral reef to the west prohibits movement further
+into the sea, and to the north lies a huge granite slab.  It is nearly
+impossible to see to a great depth through the water.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 545 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 564 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 557 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 565 0 0 0 0 0 0 0 0
+S
+#564
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  A coral reef to the west prohibits movement further
+into the sea, and to the north lays a huge granite slab.  It is nearly
+impossible to see to a great depth through the water.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 563 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 565 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+S
+#565
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  A coral reef to the west prohibits movement further
+into the sea, and to the north lays a huge granite slab.  It is nearly
+impossible to see to a great depth through the water.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 566 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 564 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 563 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+S
+#566
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  A coral reef to the west prohibits movement further
+into the sea, and to the north lays a huge granite slab.  It is nearly
+impossible to see to a great depth through the water.    
+~
+5 0 0 0 0 2
+D0
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 567 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 565 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 547 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 553 0 0 0 0 0 0 0 0
+S
+#567
+In the Water~
+   Due to the volcanic action around Sanction, perhaps, the water is at quite a
+comfortable temperature.  A coral reef to the west prohibits movement further
+into the sea, and to the north lays a huge granite slab.  It is nearly
+impossible to see to a great depth through the water.    
+~
+5 c 0 0 0 2
+D0
+~
+~
+0 0 553 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 552 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 566 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 555 0 0 0 0 0 0 0 0
+S
+#568
+Before a Grave Yard~
+   A silent air hangs to the north, beyond some stury iron gates.  Many statues
+and graves are visible from here, lining the walkways.  A few gnarled trees
+grow among them, offering shade when the sun is unrelenting in its wrath, and
+visitors need escape the heat and light.    
+~
+5 c fh 0 0 1
+D0
+~
+gate~
+1 0 569 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 421 0 0 0 0 0 0 0 0
+S
+#569
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D2
+~
+gate~
+1 0 568 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 572 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 570 0 0 0 0 0 0 0 0
+S
+#570
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D1
+~
+~
+0 0 578 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 571 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 569 0 0 0 0 0 0 0 0
+S
+#571
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D0
+~
+~
+0 0 573 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 570 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 572 0 0 0 0 0 0 0 0
+S
+#572
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D3
+~
+~
+0 0 587 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 571 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 569 0 0 0 0 0 0 0 0
+S
+#573
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D0
+~
+~
+0 0 574 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 571 0 0 0 0 0 0 0 0
+S
+#574
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D2
+~
+~
+0 0 573 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 577 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 575 0 0 0 0 0 0 0 0
+S
+#575
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D1
+~
+~
+0 0 582 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 576 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 574 0 0 0 0 0 0 0 0
+S
+#576
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.  A grave has been freshly dug here, an empty hole in the ground at
+present.    
+~
+5 0 fh 0 0 1
+D5
+The ground has been dug up, a hole going down six feet, awaiting someone's burial.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 575 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 577 0 0 0 0 0 0 0 0
+E
+hole empty~
+The ground has been dug up, a hole going down six feet, awaiting someone's burial.
+~
+S
+#577
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D3
+~
+~
+0 0 583 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 576 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 574 0 0 0 0 0 0 0 0
+S
+#578
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D3
+~
+~
+0 0 570 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 579 0 0 0 0 0 0 0 0
+S
+#579
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D0
+~
+~
+0 0 580 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 578 0 0 0 0 0 0 0 0
+S
+#580
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D0
+~
+~
+0 0 581 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 579 0 0 0 0 0 0 0 0
+S
+#581
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D2
+~
+~
+0 0 580 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 582 0 0 0 0 0 0 0 0
+S
+#582
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D3
+~
+~
+0 0 575 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 581 0 0 0 0 0 0 0 0
+S
+#583
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D1
+~
+~
+0 0 577 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 584 0 0 0 0 0 0 0 0
+S
+#584
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D2
+~
+~
+0 0 585 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 583 0 0 0 0 0 0 0 0
+S
+#585
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D0
+~
+~
+0 0 584 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 586 0 0 0 0 0 0 0 0
+S
+#586
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D0
+~
+~
+0 0 585 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 587 0 0 0 0 0 0 0 0
+S
+#587
+Walking Among Some Graves~
+   Stones are embedded in the ground, and gravel has been tossed over any paths
+which one would walk.  Statues and graves of the fallen are spread throughout
+the area, the sole inhabitants of the yard.  Every now and again, a crow caws,
+disrupting the silence.  For the most part, however, a silence hangs over the
+yard.    
+~
+5 0 fh 0 0 1
+D1
+~
+~
+0 0 572 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 586 0 0 0 0 0 0 0 0
+S
+$~

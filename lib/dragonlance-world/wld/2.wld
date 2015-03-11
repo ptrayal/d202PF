@@ -1,0 +1,2191 @@
+#200
+The Hall of Justice~
+   This large hall is constructed of a shimmering white marble that casts off an
+aura of whitish light on everything in the area.  Several stone pillars rise
+from floor to ceiling, supporting the huge dome overhead.  The walls are
+covered in ornate blades of all sizes and sorts as well as shields bearing
+numerous crests of the various Solamnic families.  Also on the walls are
+several tapestries depicting the great acts of Krynn's heroes.  In the center
+of the room is a shallow pool filled with a silvery liquid.  Gazing into it
+several scenes around Krynn suddenly flash before your eyes before disappearing
+altogether.    
+~
+2 dgkux e 0 0 0
+S
+#201
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 cp 0 0 0 2
+D0
+~
+~
+0 0 202 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13900 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4410 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 16814 0 0 0 0 0 0 0 0
+S
+#202
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 cp 0 0 0 2
+D0
+~
+None~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 201 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 203 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 229 0 0 0 0 0 0 0 0
+S
+#203
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 cp 0 0 0 2
+D0
+~
+~
+0 0 204 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 202 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 210 0 0 0 0 0 0 0 0
+S
+#204
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 c 0 0 0 2
+D0
+~
+~
+0 0 205 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 231 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 203 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 211 0 0 0 0 0 0 0 0
+S
+#205
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 c 0 0 0 2
+D0
+~
+~
+0 0 206 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 232 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 204 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 212 0 0 0 0 0 0 0 0
+S
+#206
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 c 0 0 0 2
+D1
+~
+~
+0 0 233 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 205 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 207 0 0 0 0 0 0 0 0
+S
+#207
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 c 0 0 0 2
+D0
+~
+~
+0 0 208 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 206 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 213 0 0 0 0 0 0 0 0
+S
+#208
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 c 0 0 0 2
+D0
+~
+~
+0 0 209 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 207 0 0 0 0 0 0 0 0
+S
+#209
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 c 0 0 0 2
+D0
+~
+~
+0 0 4408 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 208 0 0 0 0 0 0 0 0
+S
+#210
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles blocks out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other common wildlife is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 211 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 203 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 256 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 217 0 0 0 0 0 0 0 0
+S
+#211
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles blocks out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other common wildlife is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 212 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 204 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 210 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 216 0 0 0 0 0 0 0 0
+S
+#212
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 213 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 205 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 211 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 215 0 0 0 0 0 0 0 0
+S
+#213
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 249 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 207 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 212 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 214 0 0 0 0 0 0 0 0
+S
+#214
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 249 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 213 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 215 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+S
+#215
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 214 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 212 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 216 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 219 0 0 0 0 0 0 0 0
+S
+#216
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 215 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 211 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 217 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 220 0 0 0 0 0 0 0 0
+S
+#217
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 216 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 210 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 218 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 221 0 0 0 0 0 0 0 0
+S
+#218
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 217 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 256 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 222 0 0 0 0 0 0 0 0
+S
+#219
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 249 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 215 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 220 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+S
+#220
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 219 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 216 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 221 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 224 0 0 0 0 0 0 0 0
+S
+#221
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 220 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 217 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 222 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 225 0 0 0 0 0 0 0 0
+S
+#222
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 221 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 218 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 223 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 226 0 0 0 0 0 0 0 0
+S
+#223
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 222 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 256 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 227 0 0 0 0 0 0 0 0
+S
+#224
+Before a Steep and Rocky Hillside~
+   The forest opens up here to a sharply inclined hill.  The sides of the hill
+are very rocky and look difficult to navigate.  About 20 feet up the rocky face
+things begin to level off and bright green grass is abundant.  The face itself
+is covered in crags and sharp rocks.  Thorny bushes, vines and other thick
+foliage cling to the hillside.    
+~
+2 0 0 0 0 3
+D1
+~
+~
+0 0 220 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 225 0 0 0 0 0 0 0 0
+S
+#225
+Before a Steep and Rocky Hillside~
+   The forest opens up here to a sharply inclined hill.  The sides of the hill
+are very rocky and look difficult to navigate.  About 20 feet up the rocky face
+things begin to level off and bright green grass is abundant.  The face itself
+is covered in crags and sharp rocks.  Thorny bushes, vines and other thick
+foliage cling to the hillside.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 224 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 221 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 226 0 0 0 0 0 0 0 0
+S
+#226
+Before a Steep and Rocky Hillside~
+   The forest opens up here to a sharply inclined hill.  The sides of the hill
+are very rocky and look difficult to navigate.  About 20 feet up the rocky face
+things begin to level off and bright green grass is abundant.  The face itself
+is covered in crags and sharp rocks.  Thorny bushes, vines and other thick
+foliage cling to the hillside.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 225 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 222 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 227 0 0 0 0 0 0 0 0
+S
+#227
+Before a Steep and Rocky Hillside~
+   The forest opens up here to a sharply inclined hill.  The sides of the hill
+are very rocky and look difficult to navigate.  About 20 feet up the rocky face
+things begin to level off and bright green grass is abundant.  The face itself
+is covered in crags and sharp rocks.  Thorny bushes, vines and other thick
+foliage cling to the hillside.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 226 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 223 0 0 0 0 0 0 0 0
+S
+#228
+A Small Barren Piece of Plains~
+   Off of the main Solamnic Road lies an endless amount of grassland.  Half
+dead, dried up grass sways back and forth in the windy plains.  Barely visible,
+a patch of grass can be seen, its color slightly different then the rest.    
+~
+2 c 0 0 0 3
+D5
+~
+patch~
+1 0 269 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 8199 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9600 0 0 0 0 0 0 0 0
+S
+#229
+Before the Fireside Tavern~
+   A small trail from the main road ends here before a medium sized inn.  The
+wood is somewhat weathered, but the surrounding vegetation helps maintain the
+longevity of the structure.  A small wooden sign hangs above the inns doorway
+to the east.  To the north lie the stables used to house the mounts and pack
+animals of travelling guests.    
+~
+2 cp 0 0 0 3
+D0
+The inns stables lie just ahead to the north.
+~
+stable~
+1 0 230 0 0 0 0 0 0 0 0
+D1
+You see the entrance to the inn as well as a beaten wooden sign hanging
+above it.
+~
+door~
+1 0 238 0 0 0 0 0 0 0 0
+D2
+The vegetation here looks too thick to pass through.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 202 0 0 0 0 0 0 0 0
+E
+door~
+The entrance to the tavern seems pretty plain as far as doors go.
+Reinforced wooden planks and a sturdy looking lock will provide a pretty
+safe night for those inside.
+~
+E
+stable~
+The stable is barely a shack.  Although it seems rather sturdy, the wood
+has greyed considerably from the constant weathering abuse.  Despite its
+appearances, it will provide a dry and warm night for any pack or riding
+animal.
+~
+E
+sign~
+Hanging above the inns doorway is a beaten wooden sign.
+In brass lettering it reads,
+
+  FIRESIDE INN AND TAVERN  
+    Travellers Welcome!    
+~
+S
+#230
+Inside a Dusky Stable~
+   The inside of the stable is kept quite clean.  A few animal droppings are
+scattered on the floor amid the hay and dirt, but it seems to be regularly
+maintained.  There are six stalls in all, each large enough for the average
+workhorse.    
+~
+2 p h 0 0 0
+D0
+It looks like a wooden wall!
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+It looks like a wooden wall!
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D2
+A large door of dried oak provides the entrance to the stable.
+~
+stable~
+1 0 229 0 0 0 0 0 0 0 0
+D3
+It looks like a wooden wall!
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+E
+droppings~
+They look pretty fresh.  Fit for a gully dwarf Highbulp!
+~
+S
+#231
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 232 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 236 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 204 0 0 0 0 0 0 0 0
+S
+#232
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 233 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 235 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 231 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 205 0 0 0 0 0 0 0 0
+S
+#233
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 259 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 234 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 232 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 206 0 0 0 0 0 0 0 0
+S
+#234
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 260 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 243 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 235 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 233 0 0 0 0 0 0 0 0
+S
+#235
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 234 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 242 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 236 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 232 0 0 0 0 0 0 0 0
+S
+#236
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 235 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 241 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 231 0 0 0 0 0 0 0 0
+S
+#237
+Common Room of the Fireside Tavern~
+   This seems to be the quieter corner of the bar.  A large oval table fills
+the majority of the area but a few small booths line the walls.  Perched on the
+wall is a large map of the immediate area.  Sitting around the table are
+several men absorbed in serious discussion.  Some are dressed in woodsmen
+leathers while the others look to be clad in the expensive garb of merchants or
+nobles.    
+~
+2 p 0 0 0 0
+D1
+~
+~
+0 0 240 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 238 0 0 0 0 0 0 0 0
+S
+#238
+Common Room of the Fireside Tavern~
+   The interior of the inn is in much better shape than the weathered exterior.
+Rows of booths line the walls and two large oval shaped tables adorn the center
+of the inn's common room.  The heads of various animals are mounted on the
+walls.  The low buzz of conversation is present as few bother to raise their
+heads to notice you.    
+~
+2 p 0 0 0 0
+D0
+The common room continues to the north.  You see a few more booths, and
+a large oval table.  On the wall ahead is a large map.
+~
+~
+0 0 237 0 0 0 0 0 0 0 0
+D1
+The common room continues to the east.  You notice a large oval table
+on the other side of the room.
+~
+~
+0 0 239 0 0 0 0 0 0 0 0
+D2
+A couple of booths stand adjacent to the southern wall of the inn.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+The door leading outside lies to the west
+~
+door~
+1 0 229 0 0 0 0 0 0 0 0
+E
+door~
+  The door is rather plain, being constructed of reincforced wooden
+planks. Mountd in an arc above the doorway are several animal heads,
+obviously someone's hunting tropheys.
+~
+E
+plaque~
+  Below each head is a small plaque bearing the name of the hunter who
+killed the animal followed by the date it was killed.  Upon closer
+examination, you notice every plaque bears the name, "Kaol Burtach".
+The dates vary slightly, ranging from the years 341-344.
+~
+E
+heads~
+  The heads of several differint animals are mounted in an arc over
+the doorway.  You can identify a deer, a moose, a fox, a bear and
+a wolf.  Each has the name of the hunter and the date in which it
+was killed engraved on the plaque.
+~
+S
+#239
+Common Room of the Fireside Tavern~
+   Conversation is prominent at this end of the bar.  Several patrons sit
+around a large oval table, apparently playing some sort of dice game.  The
+table is littered with empty mugs, and even more packed with full ones.  It
+seems that the game has been going on for quite some time and does not look as
+if it will end any time soon.    
+~
+2 p 0 0 0 0
+D0
+~
+~
+0 0 240 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 238 0 0 0 0 0 0 0 0
+S
+#240
+Standing at the Bar~
+   The bar is surrounded by eager patrons looking for another ale.  The long
+oak table which seperates the rowdy group from the bartender and the precious
+ale is skillfully carved and surprisingly well finished.    
+~
+2 p 0 0 0 0
+D1
+~
+kitchen door~
+0 0 247 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 239 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 237 0 0 0 0 0 0 0 0
+S
+#241
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 242 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 246 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 236 0 0 0 0 0 0 0 0
+S
+#242
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 243 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 245 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 241 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 235 0 0 0 0 0 0 0 0
+S
+#243
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 244 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 242 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 234 0 0 0 0 0 0 0 0
+S
+#244
+Before a Steep and Rocky Hillside~
+   The forest opens up here to a sharply inclined hill.  The sides of the hill
+are very rocky and look difficult to navigate.  About 20 feet up the rocky face
+things begin to level off and bright green grass is abundant.  The face itself
+is covered in crags and sharp rocks.  Thorny bushes, vines and other thick
+foliage cling to the hillside.    
+~
+2 0 0 0 0 3
+D1
+~
+foliage~
+1 0 266 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 245 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 243 0 0 0 0 0 0 0 0
+S
+#245
+Before a Steep and Rocky Hillside~
+   The forest opens up here to a sharply inclined hill.  The sides of the hill
+are very rocky and look difficult to navigate.  About 20 feet up the rocky face
+things begin to level off and bright green grass is abundant.  The face itself
+is covered in crags and sharp rocks.  Thorny bushes, vines and other thick
+foliage cling to the hillside.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 244 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 246 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 242 0 0 0 0 0 0 0 0
+S
+#246
+Before a Steep and Rocky Hillside~
+   The forest opens up here to a sharply inclined hill.  The sides of the hill
+are very rocky and look difficult to navigate.  About 20 feet up the rocky face
+things begin to level off and bright green grass is abundant.  The face itself
+is covered in crags and sharp rocks.  Thorny bushes, vines and other thick
+foliage cling to the hillside.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 245 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 241 0 0 0 0 0 0 0 0
+S
+#247
+Behind the Bar~
+   The area behind the bar is kept fairly clean, considering the number of
+patrons that are within the tavern.  Several tankards of ale line the floor of
+of the bar, as well as a few filled with wine.  To the south you hear the
+clanging of pots and pans, where a small doorway leads into the kitchen.  A
+narrow staircase leads up to the second floor of the tavern.    
+~
+2 c 0 0 0 0
+D2
+~
+~
+0 0 248 0 0 0 0 0 0 0 0
+D3
+~
+kitchen door~
+1 0 240 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 250 0 0 0 0 0 0 0 0
+S
+#248
+A Dingy Kitchen~
+   This tiny kitchen is a complete mess.  Dishes are stacked in disorganised
+piles on every available countertop.  Pots and pans litter the floor along with
+small piles of slop that you assume is being passed off as food.  A small stove
+heats a pot bubbling over with foam, possibly the same slop that is on the
+floor.  Surprisingly, and contradictory to the state of the kitchen, it smells
+quite good.    
+~
+2 0 0 0 0 0
+D0
+~
+~
+0 0 247 0 0 0 0 0 0 0 0
+S
+#249
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 253 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 213 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+S
+#250
+The Top of the Stairway~
+   Atop the staircase is a small loft with two equally small doorways.  There
+is absolutely no furnishing or decoration, and the area seems to have seen
+better days without a doubt.  Rowdy laughter and loud conversation can be heard
+at the bottom of the steps.    
+~
+2 0 0 0 0 0
+D2
+~
+door~
+1 219 251 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 208 252 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 247 0 0 0 0 0 0 0 0
+S
+#251
+An Unkempt Bedroom~
+   This bedroom is rather well furnished, albiet with low quality decoration.
+The room itself is rather unkempt.  Clothes cover the floor, the bed is unmade,
+small piles of tobacco cover the wooden floors, basically this place is a mess.
+A plain wooden wardrobe stands against the eastern wall.  Next to it is a full
+length mirror.    
+~
+2 0 0 0 0 0
+D0
+~
+door~
+1 219 250 0 0 0 0 0 0 0 0
+S
+#252
+A Small, Sparsely Furnished Bedroom~
+   This room is rather small, and has little in the way of furniture or
+decoration.  A thin matress lies on the floor next to the southern wall.  A
+small shelf runs along the western wall carrying an assortment of objects.  
+The northern wall is covered in hooks, on which the residents clothes is hung.
+~
+2 0 0 0 0 0
+D1
+~
+door~
+1 208 250 0 0 0 0 0 0 0 0
+S
+#253
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 254 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 249 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+S
+#254
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 255 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 253 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+S
+#255
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 256 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 254 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+S
+#256
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 210 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 255 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+S
+#257
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 253 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 254 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 255 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 258 0 0 0 0 0 0 0 0
+S
+#258
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 253 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 257 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 255 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 254 0 0 0 0 0 0 0 0
+S
+#259
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 259 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 260 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 233 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 259 0 0 0 0 0 0 0 0
+S
+#260
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 260 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 234 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 259 0 0 0 0 0 0 0 0
+S
+#261
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 262 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 243 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 260 0 0 0 0 0 0 0 0
+S
+#262
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 263 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 260 0 0 0 0 0 0 0 0
+S
+#263
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 264 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 260 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 243 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 262 0 0 0 0 0 0 0 0
+S
+#264
+Beneath a Lightly Forested Canopy~
+   This area of the woods is rather peaceful and serene.  The canopy of leaves
+and pine needles block out a lot of the sunlight, but also helps to create
+beams of light that add to the forests calm atmosphere.  The sound of birds
+chirping and other day to day life in the wild is abound.    
+~
+2 0 0 0 0 3
+D0
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 263 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 265 0 0 0 0 0 0 0 0
+S
+#265
+Standing Atop An Open Grave~
+   The ground here has been dug up to reveal a deep grave.  The atmosphere of
+the woods here seems to be far less noisy and rather dismal.  You cannot hear
+the sound of birds chirping, in fact you cannot hear anything whatsoever except
+for the wind.  In about a six foot radius around the grave there is absolutely
+no plant life whatsoever.    
+~
+2 gtwx e 0 0 0
+D0
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 264 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 261 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 260 0 0 0 0 0 0 0 0
+S
+#266
+A Narrow, Musty Cave~
+   The interior of this cave is damp and musty.  The foliage cover the entrance
+is too thick to allow any light inside.  Low rumbling sounds can be heard to
+the east, along with a sickly rotting smell.    
+~
+2 c h 0 0 0
+D1
+~
+~
+0 0 267 0 0 0 0 0 0 0 0
+D3
+~
+foliage~
+1 0 244 0 0 0 0 0 0 0 0
+S
+#267
+A Narrow, Musty Cave~
+   This appears to be the den of some large beast.  Several bones with rotting
+flesh clinging to them are strewn about the ground.  Strangely enough, there
+are two corpses within this room.  One of a large, brown furred bear, and the
+other of a brightly clothed kender.  Neither one has been touched by the jaws
+of whatever resides within this cave.    
+~
+2 0 h 0 0 0
+D3
+~
+~
+0 0 266 0 0 0 0 0 0 0 0
+S
+#268
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+rather wet here, unlike the majority of the road.  A thin, small forest has
+managed to sprout up from the increasingly rocky ground, and large trees border
+both sides of the road.  Further to the north, the woods end, and the road
+becomes increasingly difficult to navigate as the hillsides narrow.    
+~
+2 c 0 0 0 2
+D0
+~
+~
+0 0 201 0 0 0 0 0 0 0 0
+S
+#269
+A Narrow Staircase Cut From The Ground~
+   A very narrow staircase cut right from the ground leads down into the
+darkness below.  The steps are jagged and uneven, obviously appearances were
+not of importance when it was built.  The air is extremely moist and a thick,
+almost choking odour of decay is unescapable.    
+~
+2 acdi 0 0 0 0
+D4
+~
+patch~
+1 0 228 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 272 0 0 0 0 0 0 0 0
+S
+#270
+A Small Alcove~
+   This small, hidden alcove is fashioned from the same brown and grey marble
+that covers the rest of the shrine.  Even though dust that covers everything is
+almost an inch thick, the air is moist and sick smelling...  Strange for
+evidence that points to this room being unoccupied for a very long time.    
+~
+2 d 0 0 0 0
+D0
+~
+secret~
+1 269 299 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 271 0 0 0 0 0 0 0 0
+S
+#271
+A Tiny Hole In The Ground~
+   This small hole in the ground barely fits a pair of bodies.  It appears to
+be cut rather unskillfully from the granite, although the trap door covering it
+is very cleverly designed.    
+~
+2 adgi 0 0 0 0
+D4
+~
+trapdoor~
+1 0 270 0 0 0 0 0 0 0 0
+S
+#272
+At The Base of A Narrow Staircase~
+   The rocky staircase comes to an end here at the beginning of a dimly lit,
+musky cavern.  The granite walls are covered in thick, wet moss.  The air
+itself is extremely damp, and filled with a powerful odour of decay.    
+~
+2 acd h 0 0 0
+D3
+~
+~
+0 0 273 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 269 0 0 0 0 0 0 0 0
+S
+#273
+A Small Cavern With a Low Ceiling~
+   This rather large granite cavern is covered in a thick mossy bedding, making
+the ground squish underfoot.  The ceiling is rather low, forcing you to crouch
+in some places.  Small crystal hemispheres stick out from the moss in the
+walls, creating an eerie, dim light.    
+~
+2 d h 0 0 0
+D0
+~
+~
+0 0 275 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 272 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 276 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 277 0 0 0 0 0 0 0 0
+S
+#274
+A new room~
+   You are in a room.    
+~
+2 0 0 0 0 0
+D1
+~
+~
+0 0 273 0 0 0 0 0 0 0 0
+S
+#275
+A Small Cavern With a Low Ceiling~
+   This rather large granite cavern is covered in a thick mossy bedding, making
+the ground squish underfoot.  The ceiling is rather low, forcing you to crouch
+in some places.  Small crystal hemispheres stick out from the moss in the
+walls, creating an eerie, dim light.    
+~
+2 d h 0 0 0
+D0
+~
+door~
+1 0 281 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 273 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 278 0 0 0 0 0 0 0 0
+S
+#276
+A Small Cavern With a Low Ceiling~
+   This rather large granite cavern is covered in a thick mossy bedding, making
+the ground squish underfoot.  The ceiling is rather low, forcing you to crouch
+in some places.  Small crystal hemispheres stick out from the moss in the
+walls, creating an eerie, dim light.    
+~
+2 d h 0 0 0
+D0
+~
+~
+0 0 273 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 282 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 279 0 0 0 0 0 0 0 0
+S
+#277
+A Small Cavern With a Low Ceiling~
+   This rather large granite cavern is covered in a thick mossy bedding, making
+the ground squish underfoot.  The ceiling is rather low, forcing you to crouch
+in some places.  Small crystal hemispheres stick out from the moss in the
+walls, creating an eerie, dim light.    
+~
+2 d h 0 0 0
+D0
+~
+~
+0 0 278 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 273 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 279 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 284 0 0 0 0 0 0 0 0
+S
+#278
+A Small Cavern With a Low Ceiling~
+   This rather large granite cavern is covered in a thick mossy bedding, making
+the ground squish underfoot.  The ceiling is rather low, forcing you to crouch
+in some places.  Small crystal hemispheres stick out from the moss in the
+walls, creating an eerie, dim light.    
+~
+2 d h 0 0 0
+D0
+~
+door~
+1 0 280 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 275 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 277 0 0 0 0 0 0 0 0
+S
+#279
+A Small Cavern With a Low Ceiling~
+   This rather large granite cavern is covered in a thick mossy bedding, making
+the ground squish underfoot.  The ceiling is rather low, forcing you to crouch
+in some places.  Small crystal hemispheres stick out from the moss in the
+walls, creating an eerie, dim light.    
+~
+2 d h 0 0 0
+D0
+~
+~
+0 0 277 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 276 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 283 0 0 0 0 0 0 0 0
+S
+#280
+A Small, Sparsely Furnished Chamber~
+   This small alcove in the larger chamber serves as sleeping quarters for
+someone.  The moss is ever present, and just as damp as in the rest of the
+cavern.  A small straw mattress lies on top of some moss in corner of the room,
+but aside from that and a few hooks on the walls, the room is empty.    
+~
+2 cd h 0 0 0
+D2
+~
+door~
+1 0 278 0 0 0 0 0 0 0 0
+S
+#281
+A Small, Sparsely Furnished Chamber~
+   This small alcove in the larger chamber serves as sleeping quarters for
+someone.  The moss is ever present, and just as damp as in the rest of the
+cavern.  A small straw mattress lies on top of some moss in corner of the room,
+but aside from that and a few hooks on the walls, the room is empty.    
+~
+2 cd h 0 0 0
+D2
+~
+door~
+1 0 275 0 0 0 0 0 0 0 0
+S
+#282
+A Small, Sparsely Furnished Chamber~
+   This small alcove in the larger chamber serves as sleeping quarters for
+someone.  The moss is ever present, and just as damp as in the rest of the
+cavern.  A small straw mattress lies on top of some moss in corner of the room,
+but aside from that and a few hooks on the walls, the room is empty.    
+~
+2 cd h 0 0 0
+D0
+~
+door~
+1 0 276 0 0 0 0 0 0 0 0
+S
+#283
+A Small, Sparsely Furnished Chamber~
+   This small alcove in the larger chamber serves as sleeping quarters for
+someone.  The moss is ever present, and just as damp as in the rest of the
+cavern.  A small straw mattress lies on top of some moss in corner of the room,
+but aside from that and a few hooks on the walls, the room is empty.    
+~
+2 cd h 0 0 0
+D0
+~
+door~
+1 0 279 0 0 0 0 0 0 0 0
+S
+#284
+A Narrow Corridor Cut From Stone~
+   A narrow corridor runs through the granite in a slightly snaking path.  
+Thick, damp moss covers the walls, floor and ceiling, making the air moist and
+giving a heavy odor of decay.  Small stones litter the ground, pushing down the
+moss underneath.  Chanting can be heard echoing further to the west.    
+~
+2 d h 0 0 0
+D1
+~
+~
+0 0 277 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 285 0 0 0 0 0 0 0 0
+S
+#285
+An Intersection of Corridors~
+   Two narrow corridors connect here in a T intersection within this granite
+gloom.  Thick, damp moss covers the walls, floor and ceiling, making the air
+moist and giving a heavy odour of decay.  Small stones litter the ground,
+pushing down the moss underneath.  Chanting can be heard not far to the south.
+~
+2 d h 0 0 0
+D0
+~
+~
+0 0 286 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 284 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 291 0 0 0 0 0 0 0 0
+S
+#286
+A Narrow Corridor Cut From Stone~
+   A narrow corridor runs through the granite in a slightly snaking path.  
+Thick, damp moss covers the walls, floor and ceiling, making the air moist and
+giving a heavy odor of decay.  Small stones litter the ground, pushing down the
+moss underneath.  Chanting can be heard echoing further to the south.    
+~
+2 d h 0 0 0
+D0
+~
+~
+0 0 287 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 285 0 0 0 0 0 0 0 0
+S
+#287
+At The End Of A Narrow Corridor~
+   The narrow corridor comes to an end here before three sealed alcoves.  
+Haunting and chilling moans can faintly be heard behind the door of each
+alcove.  The moss has thinned here considerably...  Being completely absent
+near the alcove entrances, dry and black near the center of the corridor.  The
+smell of decay in this part of the caverns is extremely strong.    
+~
+2 d h 0 0 0
+D0
+~
+door~
+1 0 289 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 290 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 286 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 288 0 0 0 0 0 0 0 0
+S
+#288
+A Small, Red Walled Alcove~
+   The walls of this alcove are made of blood red granite.  No life grows in
+here, not even the suffocating moss that spreads everywhere in the rest of
+these halls.  The air here, however, is damp and chill and almost asphyxiating
+in the strength of the smell of decay.    
+~
+2 c 0 0 0 0
+D1
+~
+door~
+1 0 287 0 0 0 0 0 0 0 0
+S
+#289
+A Small Blue Walled Alcove~
+   The walls of this alcove are made of deep blue granite.  No life grows in
+here, not even the suffocating moss that spreads everywhere in the rest of
+these halls.  The air here, however, is damp and chill and almost asphyxiating
+in the strength of the smell of decay.    
+~
+2 c 0 0 0 0
+D2
+~
+door~
+1 0 287 0 0 0 0 0 0 0 0
+S
+#290
+A Small, Violet Walled Alcove~
+   The walls of this alcove are made of deep violet granite.  No life grows in
+here, not even the suffocating moss that spreads everywhere in the rest of
+these halls.  The air here, however, is damp and chill and almost asphyxiating
+in the strength of the smell of decay.    
+~
+2 c 0 0 0 0
+D3
+~
+door~
+1 0 287 0 0 0 0 0 0 0 0
+S
+#291
+A Narrow Corridor Cut From Stone~
+   A narrow corridor runs through the granite in a slightly snaking path.  
+Thick, damp moss covers the walls, floor and ceiling, making the air moist and
+giving a heavy odor of decay.  Small stones litter the ground, pushing down the
+moss underneath.  Chanting can be heard echoing further to the south.    
+~
+2 cd h 0 0 0
+D0
+~
+~
+0 0 285 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 292 0 0 0 0 0 0 0 0
+S
+#292
+Within a Large Prayer Chamber~
+   This area is quite different from the rest of the cavern.  In fact it
+appears not to be a cavern at all, but a small shrine of some sort.  The walls
+are made of heavily laquered brown and grey marble.  The air is slightly moist,
+but not uncomfortably, and although the smell of decay is still present here,
+it is not nearly as powerful as the rest of this place.  Several large mats lie
+on the floor here, most likely for meditative purposes.  A small dais with an
+altar upon it are at the southern end of the shrine.    
+~
+2 d 0 0 0 0
+D0
+~
+~
+0 0 291 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 294 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 295 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 293 0 0 0 0 0 0 0 0
+S
+#293
+Within a Large Prayer Chamber~
+   This area is quite different from the rest of the cavern.  In fact it
+appears not to be a cavern at all, but a small shrine of some sort.  The walls
+are made of heavily laquered brown and grey marble.  The air is slightly moist,
+but not uncomfortably, and although the smell of decay is still present here,
+it is not nearly as powerful as the rest of this place.  Several large mats lie
+on the floor here, most likely for meditative purposes.  A small dais with an
+altar upon it are at the southern end of the shrine.    
+~
+2 d 0 0 0 0
+D1
+~
+~
+0 0 292 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 296 0 0 0 0 0 0 0 0
+S
+#294
+Within a Large Prayer Chamber~
+   This area is quite different from the rest of the cavern.  In fact it
+appears not to be a cavern at all, but a small shrine of some sort.  The walls
+are made of heavily laquered brown and grey marble.  The air is slightly moist,
+but not uncomfortably, and although the smell of decay is still present here,
+it is not nearly as powerful as the rest of this place.  Several large mats lie
+on the floor here, most likely for meditative purposes.  A small dais with an
+altar upon it are at the southern end of the shrine.    
+~
+2 d 0 0 0 0
+D2
+~
+~
+0 0 297 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 292 0 0 0 0 0 0 0 0
+S
+#295
+Before A Rotting Altar on a Raised Platform~
+   You stand atop the small dais within this chapel.  Beside you a small wooden
+altar with the symbol of an executioners hood upon it.  The altar itself is
+filled with holes and crawling with insects and worms.  The vermin do not leave
+the altar at all, as the floor nearby is completely clear and shining as
+brightly as the rest of the marble in this hall.    
+~
+2 cd 0 0 0 0
+D0
+~
+~
+0 0 292 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 297 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 296 0 0 0 0 0 0 0 0
+S
+#296
+Within a Large Prayer Chamber~
+   This area is quite different from the rest of the cavern.  In fact it
+appears not to be a cavern at all, but a small shrine of some sort.  The walls
+are made of heavily laquered brown and grey marble.  The air is slightly moist,
+but not uncomfortably, and although the smell of decay is still present here,
+it is not nearly as powerful as the rest of this place.  Several large mats lie
+on the floor here, most likely for meditative purposes.  A small dais with an
+altar upon it is to the east.    
+~
+2 d 0 0 0 0
+D0
+~
+~
+0 0 293 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 295 0 0 0 0 0 0 0 0
+S
+#297
+Within a Large Prayer Chamber~
+   This area is quite different from the rest of the cavern.  In fact it
+appears not to be a cavern at all, but a small shrine of some sort.  The walls
+are made of heavily laquered brown and grey marble.  The air is slightly moist,
+but not uncomfortably, and although the smell of decay is still present here,
+it is not nearly as powerful as the rest of this place.  Several large mats lie
+on the floor here, most likely for meditative purposes.  A small dais with an
+altar upon it is to the west.  A copper-banded door lies to the east.    
+~
+2 d 0 0 0 0
+D0
+~
+~
+0 0 294 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 298 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 295 0 0 0 0 0 0 0 0
+S
+#298
+A Short, Stone Corridor~
+   This short corridor is encased in heavily laquered brown and grey marble
+tiling.  To both the east and west are heavy looking, copper-banded doors.  
+The air smells sweet and pungent with decay, the source however is not obvious.
+Strangely enough, the corridor is void of any noise whatsoever...  Almost as if
+time here has stopped altogether.    
+~
+2 cd h 0 0 0
+D1
+~
+door~
+1 0 299 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 297 0 0 0 0 0 0 0 0
+D5
+~
+floorboard~
+1 0 5400 0 0 0 0 0 0 0 0
+S
+#299
+Within the High Priests Chambers~
+   This large chamber is encased in heavily laquered brown and grey tiling.  
+Instead of mortar, platinum has been melted between the tiles to hold them
+together.  The chamber is furnished with many luxeries.  A large, soft-looking
+bed hugs the northeastern corner.  A fine, oak desk stands beside a red cedar
+wardrobe.  Large pillows cover nearly all of the floor area in between.  In the
+center of the room in a small depression is a marble altar with the symbol of a
+hood carved into the surface.  You soon notice that the lines of the carving
+are filled with thick, black blood.    
+~
+2 d 0 0 0 0
+D2
+~
+secret~
+1 269 270 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 298 0 0 0 0 0 0 0 0
+S
+$~

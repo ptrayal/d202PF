@@ -1,0 +1,1768 @@
+#4400
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains on to the
+New Sea.  It is wide enough for horses and wagons to ride on easily.  The road
+is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  In the distance to the north you can see the road
+leading through some mountains and beyond.  To the south there is a road
+leading east and west.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4401 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2917 0 0 0 0 0 0 0 0
+S
+#4401
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains on to the
+New Sea.  It is wide enough for horses and wagons to ride on easily.  The road
+is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  In the distance to the north you can see the road
+leading through some mountains and beyond.  To the south there is a road
+leading east and west.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4402 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4400 0 0 0 0 0 0 0 0
+S
+#4402
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains on to the
+New Sea.  It is wide enough for horses and wagons to ride on easily.  The road
+is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  In the distance to the north you can see the road
+leading through some mountains and beyond.  To the south there is a road
+leading east and west.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4403 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4401 0 0 0 0 0 0 0 0
+S
+#4403
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains on to the
+New Sea.  It is wide enough for horses and wagons to ride on easily.  The road
+is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  In the distance to the north you can see the road
+leading through some mountains and beyond.  To the south there is a road
+leading east and west.    
+~
+44 0 h 0 0 2
+D2
+~
+~
+0 0 4402 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4404 0 0 0 0 0 0 0 0
+S
+#4404
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains on to the
+New Sea.  It is wide enough for horses and wagons to ride on easily.  The road
+is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  In the distance to the north you can see the road
+leading through some mountains and beyond.  To the south there is a road
+leading east and west.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4405 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4403 0 0 0 0 0 0 0 0
+S
+#4405
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains and on to
+the New Sea.  It is wide enough for horses and wagons to ride on easily.  The
+road is very dusty because the amount of travel on this road tends to dry up
+any rain that falls here.  To the north the road leads into the mountains and
+to the south it curves around a bend hiding what is beyond.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4406 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4404 0 0 0 0 0 0 0 0
+S
+#4406
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains on to the
+New Sea.  It is wide enough for horses and wagons to ride on easily.  The road
+is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  To the north the road leads into the mountains and to
+the south it curves around a bend hiding what is beyond.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4407 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4405 0 0 0 0 0 0 0 0
+S
+#4407
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains on to the
+New Sea.  It is wide enough for horses and wagons to ride on easily.  The road
+is very dusty because the amount of travel on this road tends to dry up any
+rain that falls here.  To the north the road leads into the mountains and to
+the south it curves around a bend hiding what is beyond.    
+~
+44 0 h 0 0 2
+D2
+~
+~
+0 0 4406 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4409 0 0 0 0 0 0 0 0
+S
+#4408
+The New Sea Road~
+   The road is getting extremely rough now as it is entering a mountain range.
+The road to the north looks to continue to be very rough going, while to the
+south the road will lead to Solace.  The road looks to have been cut by an
+ancient river.  The canyon walls are very high and also provide many places for
+an ambush.    
+~
+44 0 h 0 0 5
+D0
+~
+~
+0 0 4412 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 209 0 0 0 0 0 0 0 0
+S
+#4409
+The New Sea Road~
+   This is the New Sea road.  It leads north through the mountains and on to
+the New Sea.  It is wide enough for horses and wagons to ride on easily.  The
+road is very dusty because the amount of travel on this road tends to dry up
+any rain that falls here.  To the north the road leads into the mountains to
+the south it curves around a bend hiding what is beyond.    
+~
+44 0 h 0 0 4
+D0
+~
+~
+0 0 4411 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4407 0 0 0 0 0 0 0 0
+S
+#4410
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+still dry and rough from heavy travel but fortunately there is still plenty of
+room for horses and wagons to make their way.  The road to the north looks only
+to get rougher from here and to the south it looks like it is easier going.  
+~
+44 0 h 0 0 4
+D0
+~
+~
+0 0 201 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4411 0 0 0 0 0 0 0 0
+S
+#4411
+The New Sea Road~
+   The road begins to narrow a little as it enters the hills.  The road is
+still dry and rough from heavy travel but fortunately there is still plenty of
+room for horses and wagons to make their way.  The road to the north looks only
+to get rougher from here and to the south it looks like it is easier going.  
+~
+44 0 h 0 0 4
+D0
+~
+~
+0 0 4410 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4409 0 0 0 0 0 0 0 0
+S
+#4412
+The New Sea Road~
+   The road is getting extremely rough now as it is entering a mountain range.
+The road to the north looks to continue to be very rough going, while to the
+south the road will lead to Solace.  The road looks to have been cut by an
+ancient river.  The canyon walls are very high and also provide many places for
+an ambush.    
+~
+44 0 h 0 0 5
+D0
+~
+~
+0 0 4413 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4408 0 0 0 0 0 0 0 0
+S
+#4413
+The New Sea Road~
+   The road is getting extremely rough now as it is entering a mountain range.
+The road to the north looks to continue to be very rough going while to the
+south the road will lead to Solace.  The road looks to have been cut by an
+ancient river.  The canyon walls are very high and also provide many places for
+an ambush.    
+~
+44 0 h 0 0 5
+D2
+~
+~
+0 0 4412 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4414 0 0 0 0 0 0 0 0
+S
+#4414
+The New Sea Road~
+   The road now is leading out of the mountain range and the pace of travel
+will now speed up considerably as wagon wheels will not get caught up so much.
+Without the canyon walls and outcropings the fear of ambush is lowered.    
+~
+44 0 h 0 0 4
+D6
+~
+~
+0 0 4415 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4413 0 0 0 0 0 0 0 0
+S
+#4415
+The New Sea Road~
+   The road now is leading out of the mountain range and the pace of travel
+will now speed up considerably as wagon wheels will not get caught up so much.
+Without the canyon walls and outcropings the fear of ambush is lowered.    
+~
+44 0 h 0 0 5
+D0
+~
+~
+0 0 4416 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4414 0 0 0 0 0 0 0 0
+S
+#4416
+The New Sea Road~
+   The road is now getting very wide again but it is still not easy going
+because the terrain is hilly.  The safety of the road has increased
+considerably because now it is possible to see for quite a distance in all
+directions.  To the north the road continues to the New Sea.    
+~
+44 0 h 0 0 4
+D0
+~
+~
+0 0 4417 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4415 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4500 0 0 0 0 0 0 0 0
+S
+#4417
+The New Sea Road~
+   The terrain has now flattened out so that the pace should now be quite
+quick.  With no worries about ambush on the plains and no mountain ranges left
+to the north the road to the New Sea should be easy traveling.  To the north
+the road continues to the New Sea and to the south a mountain range looms.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4418 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4416 0 0 0 0 0 0 0 0
+S
+#4418
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4419 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4417 0 0 0 0 0 0 0 0
+S
+#4419
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4420 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4418 0 0 0 0 0 0 0 0
+S
+#4420
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4421 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4419 0 0 0 0 0 0 0 0
+S
+#4421
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 2
+D0
+~
+~
+0 0 4422 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4420 0 0 0 0 0 0 0 0
+S
+#4422
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4421 0 0 0 0 0 0 0 0
+S
+#4423
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 2
+D2
+~
+~
+0 0 4422 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4424 0 0 0 0 0 0 0 0
+S
+#4424
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance tho and not
+something that could hold up a travelers.  Far to the northwest the first signs
+of the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 2
+D6
+~
+~
+0 0 4425 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4423 0 0 0 0 0 0 0 0
+S
+#4425
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 2
+D6
+~
+~
+0 0 4426 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4424 0 0 0 0 0 0 0 0
+S
+#4426
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4427 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4425 0 0 0 0 0 0 0 0
+S
+#4427
+The New Sea Road~
+   The road is wide and flat but very dusty.  The dust is caused by heavy
+travel and not enough rain.  The dust is only a minor annoyance though and not
+something that could hold up a traveler.  Far to the north the first signs of
+the New Sea are appearing and to the south is a mountain range.    
+~
+44 0 h 0 0 4
+D6
+~
+~
+0 0 4428 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4426 0 0 0 0 0 0 0 0
+S
+#4428
+Coming to a Small Pier~
+   The road slopes steeply here and the ground is less dusty.  To the north is
+a small pier with a few boats attached to it.  Filling your vision to the north
+is the New Sea and to the south are some dusty roads eclipsed by mountain
+ranges.    
+~
+44 0 h 0 0 4
+D0
+~
+~
+0 0 4429 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 16815 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4427 0 0 0 0 0 0 0 0
+S
+#4429
+Standing on a Small Pier~
+   You are standing on a pier at the edge of the New Sea.  Various boats are
+tied up to the dock, some of them are fishing vessels and in the distance on
+the sea, you can vaguely make out a small ferry.  The pier seems fairly stable,
+though it could use a coat of paint.    
+~
+44 c h 0 0 2
+D2
+~
+~
+0 0 4428 0 0 0 0 0 0 0 0
+S
+T 4400
+T 4402
+T 4403
+T 4404
+T 4405
+#4430
+At a Small Pier~
+   You are standing at a dock at the northern edge of the New Sea.  The dock is
+worn and badly in need of repair.  Off in the distance you can make out the
+vague shape of what seems to be a ferry.  A road leads away from the dock,
+heading in an easterly direction.  To your west, you see a small, wooden
+structure.    
+~
+44 c h 0 0 2
+D3
+~
+door~
+1 0 4496 21 21 0 0 0 0 0 0
+D7
+~
+~
+0 0 6114 0 0 0 0 0 0 0 0
+S
+T 4401
+T 4406
+T 4407
+T 4408
+T 4409
+#4431
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 4432 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6100 0 0 0 0 0 0 0 0
+S
+#4432
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4433 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4431 0 0 0 0 0 0 0 0
+S
+#4433
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 4434 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4432 0 0 0 0 0 0 0 0
+S
+#4434
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4435 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4433 0 0 0 0 0 0 0 0
+S
+#4435
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 4436 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4434 0 0 0 0 0 0 0 0
+S
+#4436
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4437 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4435 0 0 0 0 0 0 0 0
+S
+#4437
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 4438 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4436 0 0 0 0 0 0 0 0
+S
+#4438
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4439 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4437 0 0 0 0 0 0 0 0
+S
+#4439
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 4440 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4438 0 0 0 0 0 0 0 0
+S
+#4440
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4441 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4439 0 0 0 0 0 0 0 0
+S
+#4441
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 4442 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4440 0 0 0 0 0 0 0 0
+S
+#4442
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4443 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4441 0 0 0 0 0 0 0 0
+S
+#4443
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 4444 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4442 0 0 0 0 0 0 0 0
+S
+#4444
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4445 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4443 0 0 0 0 0 0 0 0
+S
+#4445
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4446 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4444 0 0 0 0 0 0 0 0
+S
+#4446
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4447 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4445 0 0 0 0 0 0 0 0
+S
+#4447
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4448 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4446 0 0 0 0 0 0 0 0
+S
+#4448
+The Road Between New Sea and Thelgaard~
+   This well-travelled road runs from the New Sea to the northern Keep of
+Thelgaard.  The road is very wide and allows travellers to pass each other
+quite freely.  The dirt on this road is trampled and rutted from many feet,
+wheels and the hooves of animals, thankfully the dampness of the climate keeps
+the dust from becoming a nuisance.    
+~
+44 0 h 0 0 2
+D1
+~
+~
+0 0 4449 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4447 0 0 0 0 0 0 0 0
+S
+#4449
+The Road Between New Sea and Thelgaard.~
+   A large mountain range to the east causes the road to veer in a new
+direction.  The road remains well travelled but the long distance to the New
+Sea has made the climate a little drier.  The dust rises up as you go past,
+settling on your clothing in a thin layer.    
+~
+44 0 h 0 0 2
+D3
+~
+~
+0 0 4448 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 4450 0 0 0 0 0 0 0 0
+S
+#4450
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4451 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4449 0 0 0 0 0 0 0 0
+S
+#4451
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4452 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4450 0 0 0 0 0 0 0 0
+S
+#4452
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4453 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4451 0 0 0 0 0 0 0 0
+S
+#4453
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 2
+D7
+~
+~
+0 0 4454 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4452 0 0 0 0 0 0 0 0
+S
+#4454
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 2
+D7
+~
+~
+0 0 4455 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4453 0 0 0 0 0 0 0 0
+S
+#4455
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4456 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4454 0 0 0 0 0 0 0 0
+S
+#4456
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4457 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4455 0 0 0 0 0 0 0 0
+S
+#4457
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4458 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4456 0 0 0 0 0 0 0 0
+S
+#4458
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4459 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4457 0 0 0 0 0 0 0 0
+S
+#4459
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 2
+D7
+~
+~
+0 0 4460 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4458 0 0 0 0 0 0 0 0
+S
+#4460
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 2
+D7
+~
+~
+0 0 4461 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4459 0 0 0 0 0 0 0 0
+S
+#4461
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 2
+D7
+~
+~
+0 0 4462 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4460 0 0 0 0 0 0 0 0
+S
+#4462
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4463 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4461 0 0 0 0 0 0 0 0
+S
+#4463
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4464 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4462 0 0 0 0 0 0 0 0
+S
+#4464
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4465 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4463 0 0 0 0 0 0 0 0
+S
+#4465
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4466 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4464 0 0 0 0 0 0 0 0
+S
+#4466
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4467 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4465 0 0 0 0 0 0 0 0
+S
+#4467
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4468 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4466 0 0 0 0 0 0 0 0
+S
+#4468
+The Road Between New Sea and Thelgaard~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the route.  The fields on either side of the road are dotted with
+trees, under which people can be seen taking a rest from their journey.    
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4469 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4467 0 0 0 0 0 0 0 0
+S
+#4469
+An Intersection Along the Road~
+   You've come to an intersection along the roadway.  The path leading east is
+overgrown, seedy looking and appears to lead toward a mountain range.  To the
+south is the New Sea and north is Thelgaard Keep, though the dusty road does
+not seem to lead you on a straight path to either place.    
+~
+44 0 h 0 0 3
+D1
+~
+~
+0 0 5100 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 4470 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4468 0 0 0 0 0 0 0 0
+E
+sign large~
+   DANGER!  THE PATH LEADING EAST IS FRAUGHT WITH DANGER AND PERILS!  ONLY
+WELL-SEASONED TRAVELLERS SHOULD ATTEMPT TO NAVIGATE THIS TRAIL!    
+~
+S
+#4470
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4471 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4469 0 0 0 0 0 0 0 0
+S
+#4471
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4472 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4470 0 0 0 0 0 0 0 0
+S
+#4472
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4473 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4471 0 0 0 0 0 0 0 0
+S
+#4473
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4474 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4472 0 0 0 0 0 0 0 0
+S
+#4474
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4475 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4473 0 0 0 0 0 0 0 0
+S
+#4475
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4476 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4474 0 0 0 0 0 0 0 0
+S
+#4476
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4477 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4475 0 0 0 0 0 0 0 0
+S
+#4477
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4478 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4476 0 0 0 0 0 0 0 0
+S
+#4478
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4479 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4477 0 0 0 0 0 0 0 0
+S
+#4479
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D6
+~
+~
+0 0 4480 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4478 0 0 0 0 0 0 0 0
+S
+#4480
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4481 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 4479 0 0 0 0 0 0 0 0
+S
+#4481
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4482 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4480 0 0 0 0 0 0 0 0
+S
+#4482
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4483 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4481 0 0 0 0 0 0 0 0
+S
+#4483
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4484 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4482 0 0 0 0 0 0 0 0
+S
+#4484
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4485 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4483 0 0 0 0 0 0 0 0
+S
+#4485
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4486 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4484 0 0 0 0 0 0 0 0
+S
+#4486
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4487 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4485 0 0 0 0 0 0 0 0
+S
+#4487
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4488 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4486 0 0 0 0 0 0 0 0
+S
+#4488
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4489 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4487 0 0 0 0 0 0 0 0
+S
+#4489
+The Road Between New Sea and Thelgaard Keep~
+   This rutted and hard-packed road runs from Thelgaard Keep to the New Sea.  
+The climate of this area is very dry causing the road and its travellers to
+become caked with dust.  There seems to be no place to eat or quench one's
+thirst along the way.  The fields along either side of the road are dotted with
+large trees, under which people can be seen taking a rest from their journey.
+~
+44 0 h 0 0 3
+D7
+~
+~
+0 0 4490 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4488 0 0 0 0 0 0 0 0
+S
+#4490
+An Intersection Along the Road~
+   As you stand at this intersection, your gaze is drawn to the north, to the
+large, majestic spires and turrets that warn Thelgaard Keep watchmen of
+impending danger.  The plains of Solamnia stretch out around you as far as the
+eye can see.  To the far south is the New Sea, the road there seems dry and
+perilous.  Off to the west, strange vegetation grows along a small, crooked
+pathway.  Odd sounds and smells drift out through the vegetation.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4491 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 4489 0 0 0 0 0 0 0 0
+S
+#4491
+The Thelgaard Keep Road~
+   A wide, cobblestone road leads to the north toward the Keep of Thelgaard and
+south toward an intersection.  The spires and turrets of the keep allow
+watchmen to protect those within the Keep and the surrounding plains from
+danger of invading armies.  Through the large, open gates, bustle and activity
+can be seen as the citizens of Thelgaard go about their busy day.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4492 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4490 0 0 0 0 0 0 0 0
+S
+#4492
+The Thelgaard Keep Road~
+   A wide, cobblestone road leads to the north toward the Keep of Thelgaard and
+south toward an intersection.  The spires and turrets of the keep allow
+watchmen to protect those within the Keep and the surrounding plains from
+danger of invading armies.  Through the large, open gates, bustle and activity
+can be seen as the citizens of Thelgaard go about their busy day.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4493 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4491 0 0 0 0 0 0 0 0
+S
+#4493
+The Thelgaard Keep Road~
+   A wide, cobblestone road leads to the north toward the Keep of Thelgaard and
+south toward an intersection.  The spires and turrets of the keep allow
+watchmen to protect those within the Keep and the surrounding plains from
+danger of invading armies.  Through the large, open gates, bustle and activity
+can be seen as the citizens of Thelgaard go about their busy day.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4494 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4492 0 0 0 0 0 0 0 0
+S
+#4494
+The Thelgaard Keep Road~
+   A wide, cobblestone road leads to the north toward the Keep of Thelgaard and
+south toward an intersection.  The spires and turrets of the keep allow
+watchmen to protect those within the Keep and the surrounding plains from
+danger of invading armies.  Through the large, open gates, bustle and activity
+can be seen as the citizens of Thelgaard go about their busy day.    
+~
+44 0 h 0 0 3
+D0
+~
+~
+0 0 4495 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4493 0 0 0 0 0 0 0 0
+S
+#4495
+Before Thelgaard Keep~
+   Standing before the gates of Thelgaard Keep the first thing you notice is
+the size and population of this city.  After travelling through the dry, dusty
+plains, the shops and services the Keep has to offer are welcome indeed.  
+Thelgaard has six large towers which are manned at all times by archers who
+scan the plains of Solamnia for trouble.  A smaller, though well travelled road
+heads east, towards Palanthas.    
+~
+44 c h 0 0 3
+D0
+~
+~
+0 0 3400 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 8100 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 4494 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 16806 0 0 0 0 0 0 0 0
+S
+#4496
+Inside a Small Wooden Structure~
+  The air of this simple dwelling is filled with a musky odour.  The large
+heaps of sail cloth in the corner explain this immediately.  The knot-filled
+wooden walls are covered in various navigational maps, several of them
+appearing to be on the edge of being ancient.  A small bed stands next to the
+western wall, and beside that is a common wooden wardrobe.
+~
+44 d 0 0 0 0
+D1
+~
+door~
+1 0 4430 0 0 0 0 0 0 0 0
+S
+#4497
+A Small Ferry Boat~
+   You are aboard a small, rickety boat that is used as a ferry.  Once finely
+painted, most of the lavishness has been worn away by time and neglect.  A
+small puddle of murky water pools at the bottom of this vessel, its source
+unclear.    
+~
+44 0 0 0 0 4
+S
+$~

@@ -1,0 +1,174 @@
+#5600
+scroll blue ribbon~
+a scroll tied with blue ribbon~
+A scroll tied with blue ribbon is resting here.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+scroll~
+The scroll is carefully unrolled, and written upon it is this:
+   I believe they will continue to follow you, do not give up in the plight.  If
+they knew the truth, it could destroy them.  That I, am fighting for their freedom
+yet I am not one of them.  It would send all of what we have worked for into chaos,
+and we could not achieve our goal.  You must uphold the guise for a little while 
+longer, I will continue to prepare the speeches, to keep them going.  We are close
+to getting one of our own into the camp.  Once he is in place we will surely not
+fail.  But you must endure this a little longer.  Give the speech, knowing that 
+for our warriors to continue in our plight, it all depends on this delivery.  
+                                                      Morgan Di Kyre
+~
+#5601
+symbol mangled crystal~
+a twisted and mangled symbol ~
+A symbol in poor shape, bears a faint glowing crystal within it.~
+~
+18 cjklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+crystal~
+This crystal is very worn, and appears to have been at one point connected with
+another.  It has a rather rank smell too it, smelling slightly of garbage.  Odd
+that such an item would be held on a leader such as Morgan Di Kyre.
+~
+#5602
+axe great antique ceremonial khur~
+an antique ceremonial great-axe~
+An enormous axe of gigantic proportions sits here, ready to cleave off a head.~
+~
+5 jklpruxBCDEF abc hlstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 0 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+A
+17 -3 0
+#5603
+jar blue paint khur~
+a jar of blue paint~
+A jar of blue paint lies here discarded.~
+~
+3 jklmnoprstuvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5604
+jar red paint khur~
+a jar of red paint~
+A clay jar full of red paint sits here.~
+~
+3 jklmnopqrstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5605
+jar red paint khur~
+a jar of red paint~
+A jar of red paint lies here, discarded.~
+~
+3 jklmnoprstuvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5606
+sword shortsword bat winged khur~
+a bat-winged shortsword~
+A knife in the shape of a bat lies here sticking out of the ground.~
+~
+5 jklopruvBCDEF abc lstuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#5607
+badge vigilance khur~
+a badge of vigilance~
+A badge representing a constant vigil, rests here shining in the rough.~
+1~
+9 ajklmnpqstvBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 4000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+A
+18 1 0
+#5608
+leggings tattered khur~
+a pair of tattered leggings~
+A pair of ravaged legwear lies discarded in the dust.~
+5~
+9 jklopruvBCDEF abc stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+#5609
+tunic mottled animal furs khur~
+a tattered tunic of mottled animal furs~
+A pile of animal furs lies here matted together.~
+~
+9 ejklnpqruwBDEF abcyz stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 300 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+A
+13 10 0
+$~

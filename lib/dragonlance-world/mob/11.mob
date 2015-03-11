@@ -1,0 +1,317 @@
+#1100
+mob stupid~
+a stupid mob~
+Here is a stupid mob.
+~
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1101
+knight sword solamnic~
+a solamnic knight of the sword~
+Rubbing his chin, this solamnic knight of the sword looks around the area.
+~
+   A shining breastplate covers this man's chest, struck through with an
+etching of a sword.  He stands taller than most men, despite his graying hair,
+by his form, one would assume it would be many years before he did need
+something to lean on.  Pursed lips are hidden behind a pepper colored mustache.
+~
+d 0 0 0 k 0 0 0 900
+24 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1103
+viper pit~
+a pit viper~
+Slithering through the grass is a pit viper.
+~
+   The viper has yellowish scales, fading to green.  Above the eyes, there are
+two flaps of skin which some may say resemble horns, however their function is
+to guard against the sun.  The length looks to be about two human feet long.  
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1106
+beagle braying~
+a braying beagle~
+Barking discordantly, this beagle sniffs out a trail.
+~
+   The brown body on this dog is spotted with white and black spotches, a
+velvety fur that is rather short haired.  The ears droop down on the side of
+its face, forming a horizontal line across the face.  Every now and again it
+paws the ground, then stares forwards curiously.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The fox has a slick look in its eyes, a slight shadow of a grin that is no
+#1110
+dog prairie~
+a prairie dog~
+Sniffing the ground as it walks is a prairie dog.
+~
+   Standing about a human foot tall, this animal is rather short.  A short tail
+has grown on its backside, giving the prairie dog a balance.  Short ears are
+turned back, as it uses the eyes more than the ears.  Noticing your stare, it
+rears on its hind legs and looks back.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1111
+man green~
+a green man~
+A green man, made up of plants, sits here, smiling as he thinks.
+~
+   Leaves construct a beard and litter the chest area on this plant-like man.
+Where eyes would be, there is only found two empty sockets, yet the wise would
+know he does not miss a thing.  Standing at a height with a minotaur, the green
+man is quite tall.    
+~
+d 0 0 0 k 0 0 0 900
+24 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1112
+bird yellow~
+a yellow bird~
+A yellow bird flies in a predetermined circle.
+~
+   Yellow feathers are abound on this cute little bird.  His little brown beak
+sticks out slightly from it's small face.  However, something seems incredibly
+weird, as it flies in the same path over and over and over...    
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1113
+squirrel angry~
+an angry squirrel~
+Chittering loudly, this angry squirrel runs about maniacally.
+~
+   The bushy tail stands nearly straight upwards, giving the angry look which
+is echoed in the eyes.  Gray fur lines its body, a short, sleek coat.  A bit of
+foam drips from its mouth...    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1114
+satyr aged~
+an aged satyr~
+Sitting among rubble is an aging satyr.
+~
+   Legs of a goat, and the upper body of a human make this creature.  Two horns
+stick out from the forehead, giving a devilish appearance.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+Two horns
+Two horns
+Two horns
+Two horns
+#1122
+caterpiller~
+a caterpillar~
+Moving slowly along is a caterpillar
+~
+   Well, this little guy is furry on the top, short bristled hairs sticking
+straight up.  It is green toned, and has designs on it, much like patterns that
+are formed to replicate eyes.    
+~
+d 0 0 0 k 0 0 0 0
+4 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1123
+cocoon~
+a cocoon~
+Dangling on a branch is a cocoon.
+~
+   Strung with web, to encase the soft body of the caterpillar within, this
+cocoon dangles idly.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1124
+bear enraged~
+an enraged bear~
+An enraged bear looks for something to maul.
+~
+   This bear is big, and salivates by the mouth.  Short brown fur covers its
+body, bald in a few spots on the limbs.  Loud snorts are sometimes heard coming
+from it, giving some the idea that it is quite mad.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

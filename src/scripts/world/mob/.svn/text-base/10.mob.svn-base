@@ -1,0 +1,83 @@
+#1000
+soth lord~
+Lord Soth~
+Lord Soth, a death knight with glowing red eyes, lifts his sword and attacks!
+~
+   Glowing red eyes peer through your soul as this being turns his gaze upon
+you.  Ancient platemail that has been blackened by fire still bears the symbol
+of roses on it.  A large sword rests at his hip, ready for use.  An aura of pure
+evil assualts your senses.  
+~
+bdjklnp 0 0 0 dor 0 0 0 -1000
+25 15 -27 300d1000+99 2d6+4
+3000 1500000 0 3
+8 8 1
+E
+BareHandAttack: 14
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1001
+skeleton armor clad~
+an armor-clad skeleton~
+A skeleton clad in ancient armor wanders the cemetery in search of his soul.
+~
+   This skeleton must be the remains of a knight.  Battered and torn armor
+pieces hang from his bone frame.  It wanders about looking for something lost.
+
+~
+cdefnopr 0 0 0 egoqr 0 0 0 -1000
+20 10 -20 240d200+92 3d15+10
+2000 0 0 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1002
+zombie tattered robes~
+a zombie in tattered robes~
+A zombie draped in tattered robes shuffles towards you.
+~
+   This being has cursed to be undead.  Tattered scraps of cloth hang off its
+rotting frame.  It shuffles towards with a look of evil on its decaying face.  
+~
+defnopr 0 0 0 egr 0 0 0 -1000
+22 20 -23 88d100+123 1d1+0
+2420 0 0 1
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

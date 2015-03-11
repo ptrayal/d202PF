@@ -1,0 +1,53 @@
+#10400
+meat deer dried piece food~
+a piece of dried deer meat~
+A piece of dried meat lies here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0  a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+#10401
+sign wooden~
+a deteriorated wooden sign~
+A deteriorated wooden sign struggles to stand.~
+~
+12 jklmnoprstuvwBCDEF abc 0 0  0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1000000 0 0 0
+Z
+4
+E
+sign~
+****************************************
+**     The Khalkist Thoroughfare:     **
+**                                    **
+**  North - Neraka                    **
+**  West - Sanction                   **
+**  Southeast - The Southern Pass     **
+**  Northeast - Drakgoric Pass, Khur  **
+**                                    **
+****************************************
+****                                ****
+****                                ****
+****                                ****
+****                                ****
+****                                ****
+~
+E
+wooden~
+You see nothing special.
+~
+#10402
+stump~
+a withered stump~
+A withered stump sits dead in the ground.~
+~
+0 0 0 0 0  0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+$
+$

@@ -1,0 +1,94 @@
+#123
+None.~
+Otik's Cellar (Zeph)~
+12300 12399 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0 12300     1 12316   2   100     1    -1          0 a burly dwarven Brewmaster
+
+M 0 12302     5 12312   1   100     2    -1          0 a broad shouldered, young man
+
+M 0 12302     5 12313   1   100     3    -1          0 a broad shouldered, young man
+
+M 0 12302     5 12310   1   100     4    -1          0 a broad shouldered, young man
+
+M 0 12302     5 12308   1   100     5    -1          0 a broad shouldered, young man
+
+M 0 12302     5 12307   1   100     6    -1          0 a broad shouldered, young man
+
+M 0 12303     1 12301   3   100     7    -1          0 a large, muscular man
+
+M 0 12304     1 12330   1   100     8    -1          0 a cheerful kender clad in bright red clothing
+
+M 0 12304    -1 12330   1     1     9    -1          0 a cheerful kender clad in bright red clothing
+
+M 0 12306     2 12321   3   100    10    -1          0 a weary, elderly worker
+
+M 0 12306     2 12321   3   100    11    -1          0 a weary, elderly worker
+
+M 0 12305     1 12321   3   100    12    -1          0 a lithe, vibrant child
+
+M 0 12308     3 12317   1   100    13    -1          0 a tall, lanky worker
+
+M 0 12308     3 12322   1   100    14    -1          0 a tall, lanky worker
+
+M 0 12308     3 12326   1   100    15    -1          0 a tall, lanky worker
+
+M 0 12307     1 12325   1   100    16    -1          0 a young, buxom maid
+
+M 0 12310     1 12343   4   100    17    -1          0 a large, black rat
+
+M 0 12309     3 12343   3   100    18    -1          0 a blind, newborn rat
+
+M 0 12309     3 12343   3   100    19    -1          0 a blind, newborn rat
+
+M 0 12309     3 12343   3   100    20    -1          0 a blind, newborn rat
+
+O 0 12300    10 12341   0   100    21    -1          0 a salted carcass
+
+O 0 12300    10 12344   0   100    22    -1          0 a salted carcass
+
+M 0 12311     3 12345   1   100    23    -1          0 a stout, bloodied butcher
+
+O 0 12300    10 12345   0   100    24    -1          0 a salted carcass
+
+O 0 12300    10 12350   0   100    25    -1          0 a salted carcass
+
+O 0 12300    10 12348   0   100    26    -1          0 a salted carcass
+
+M 0 12311     3 12346   1   100    27    -1          0 a stout, bloodied butcher
+
+O 0 12300    10 12346   0   100    28    -1          0 a salted carcass
+
+O 0 12300    10 12342   0   100    29    -1          0 a salted carcass
+
+O 0 12300    10 12347   0   100    30    -1          0 a salted carcass
+
+O 0 12300    10 12349   0   100    31    -1          0 a salted carcass
+
+M 0 12311     3 12351   1   100    32    -1          0 a stout, bloodied butcher
+
+O 0 12300    10 12351   0   100    33    -1          0 a salted carcass
+
+M 0 12312     1 12337   1   100    34    -1          0 a brooding, hulking worker
+
+D 0 12352     3     1   0   101    35    -10 
+
+M 0 12313     3 12357   1   100    36    -1          0 a long, bloated worm
+
+M 0 12313     3 12355   1   100    37    -1          0 a long, bloated worm
+
+M 0 12313     3 12364   1   100    38    -1          0 a long, bloated worm
+
+M 0 12314     2 12359   1   100    39    -1          0 a small, pudgy mole
+
+M 0 12314     2 12367   1   100    40    -1          0 a small, pudgy mole
+
+M 0 12315     1 12371   1   100    41    -1          0 a wily, dust covered kobold
+
+E 1 12301     4    13   0    40    42    41          0 a loincloth crafted from the lower jaw of a dwarf
+
+S
+$

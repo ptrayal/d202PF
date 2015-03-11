@@ -1,0 +1,1376 @@
+#11000
+Under a Mine Shaft~
+The miners penetrated a large natural cavern here.  There is a jagged hole above you where the miners broke through.  You are on a huge pile of broken rock in the center of the room that is high enough to let you crawl back up into the mines.  The cavern is large enough that you can not see the walls from here.  Compared to the mines above this area is darker, colder, and deathly quiet.
+~
+110 0 a 0 0 0
+D0
+~
+~
+0 0 11003 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11005 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11007 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11001 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 4975 0 0 0 0 0 0 0 0
+S
+#11001
+In a Cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11002 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11000 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11008 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11010 0 0 0 0 0 0 0 0
+S
+#11002
+In a cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11001 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11011 0 0 0 0 0 0 0 0
+S
+#11003
+In a cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11013 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11004 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11002 0 0 0 0 0 0 0 0
+S
+#11004
+In a cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11014 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11016 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11003 0 0 0 0 0 0 0 0
+S
+#11005
+In a cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11004 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11015 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11006 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11000 0 0 0 0 0 0 0 0
+S
+#11006
+In a cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11005 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11017 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11007 0 0 0 0 0 0 0 0
+S
+#11007
+In a cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 C a 0 0 0
+D0
+~
+~
+0 0 11000 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11006 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11018 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11008 0 0 0 0 0 0 0 0
+S
+#11008
+In a cavern~
+The cavern stretches off into darkness.  Some areas are filled with stalagmites and stalactites hang over head.  In a few places they have reached each other and formed pillars that stretch to the ceiling.  A mound of rubble is in the center of the cavern and light and noise seem to drift in from the hole in the ceiling.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11001 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11007 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11020 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11009 0 0 0 0 0 0 0 0
+S
+#11009
+A dark place in the cavern~
+The cavern is large here and filled with stalagmites and stalactites.  Shadows dance at the edge of your vision.  The sandy floor muffles your footsteps.  Everything is quiet around you.  A small natural tunnel runs off into darkness to the west.
+~
+110 C a 0 0 0
+D0
+~
+~
+0 0 11010 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11008 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11021 0 0 0 0 0 0 0 0
+S
+#11010
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11011 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11009 0 0 0 0 0 0 0 0
+S
+#11011
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D1
+~
+~
+0 0 11002 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11010 0 0 0 0 0 0 0 0
+S
+#11012
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D1
+~
+~
+0 0 11013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11002 0 0 0 0 0 0 0 0
+S
+#11013
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D1
+~
+~
+0 0 11014 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+S
+#11014
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D2
+~
+~
+0 0 11004 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11013 0 0 0 0 0 0 0 0
+S
+#11015
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11016 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11017 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11005 0 0 0 0 0 0 0 0
+S
+#11016
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D2
+~
+~
+0 0 11015 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11004 0 0 0 0 0 0 0 0
+S
+#11017
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11015 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11006 0 0 0 0 0 0 0 0
+S
+#11018
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11007 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11020 0 0 0 0 0 0 0 0
+S
+#11019
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11006 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11018 0 0 0 0 0 0 0 0
+S
+#11020
+Near the edge of the cavern~
+You can barely see the center of the cavern from here.  The caverns walls rise from the floor and stretch into darkness to form the roof of the cavern.  The walls are worn smooth by millennia of flowing water but the underground river that formed this cavern system is long gone.  The water carved the walls into strange flowing shapes that seem to echo the water currents now lost to time.  Though beautiful, the shapes also create shadow filled depressions where dark things could lurk.
+~
+110 0 0 0 0 0
+D0
+~
+~
+0 0 11008 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11018 0 0 0 0 0 0 0 0
+S
+#11021
+In a dark tunnel~
+The ceiling of this tunnel is about two feet above your head, luckily no stalagmites hang here.  Closer inspection reveals tiny ancient sea shells dot the ceiling and walls, forever encased in their stone prison.  The air here is cool and moist.
+~
+110 C a 0 0 0
+D1
+~
+~
+0 0 11009 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11022 0 0 0 0 0 0 0 0
+S
+#11022
+Still in a dark tunnel~
+The tunnel continues here, though the walls are a bit closer together.  The ceiling keeps changing height; sometimes it is just above your head and other times it rises to soar off into the darkness beyond your vision.  Faint sounds seem to play out just beyond the range of you hearing.
+~
+110 C a 0 0 0
+D1
+~
+~
+0 0 11021 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11023 0 0 0 0 0 0 0 0
+S
+#11023
+In a dark sloping tunnel~
+You notice the tunnel begins to slope down here and becomes very irregular in size.  In some places you have to turn sideways to squeeze through a narrow gap.  The sand on the floor makes it hard to keep your footing, but the walls provide an easy means of support. 
+~
+110 C a 0 0 0
+D1
+~
+~
+0 0 11022 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11024 0 0 0 0 0 0 0 0
+S
+#11024
+More dark sloping tunnel~
+The tunnel continues to slope down here but the walking is easier because there is less sand on the floor. The walls seem to be made of different stone and there are fewer fossils.  Every now and then you think you feel a slight breeze on your face, but you think it must be your imagination.  No air could move this deep in the earth.
+~
+110 C a 0 0 0
+D0
+~
+~
+0 0 11023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11025 0 0 0 0 0 0 0 0
+S
+#11025
+In a twisting tunnel~
+The tunnel begins to twist and turn more here.  As you round a bend you come across something laying in the floor of the tunnel.  Closer inspection reveals an old leather boot that crumbles into dust at your touch.  The tunnel winds on into darkness.
+~
+110 C a 0 0 0
+D0
+~
+~
+0 0 11024 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11026 0 0 0 0 0 0 0 0
+S
+#11026
+In a tunnel~
+The tunnel is straight and level here.  The walls are made of a fine-grained light grey rock and all hints of the fossils are gone.  The air here is cooler and definitely moister.  Sand washed down the tunnels from above is thick on the floor.  The tunnel appears to open up into a larger room to the west.
+~
+110 C a 0 0 0
+D0
+~
+~
+0 0 11025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11027 0 0 0 0 0 0 0 0
+S
+#11027
+In a wider tunnel~
+The tunnel is wider here with a lower ceiling, small round pebbles littler the sandy floor.  There is a loud roaring sound coming from a cavern to the west.  The sand beneath your feet is wet and thick.  There is a fishy smell of lake water here.
+~
+110 C a 0 0 0
+D1
+~
+~
+0 0 11026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11028 0 0 0 0 0 0 0 0
+S
+#11028
+In a wet cavern~
+This is another massive cavern, but no stalactites decorate the soaring ceiling.  The main feature of this cavern is a large lake which is fed by a waterfall which falls from the ceiling into the lake producing a tremendous amount of noise and spray.  The lake takes up the majority of the cavern but a narrow rocky ledge leads around each side.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11039 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11027 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11040 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11029 0 0 0 0 0 0 0 0
+S
+#11029
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11038 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11028 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11041 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11030 0 0 0 0 0 0 0 0
+S
+#11030
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11037 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11029 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11042 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11031 0 0 0 0 0 0 0 0
+S
+#11031
+Under a waterfall~
+This small island is made of rocks from a roof collapse that probably happened thousands of years ago, the collapse is likely what started the waterfall.  The noise of is deafening here.  The sound of hundreds of gallons of cold water pouring onto the rocks sounds like thunder.  The rocks are littered with the bones of large animals and you can see several humanoid skulls laying about the area.  Two large slabs of rock form a dark crevice on one end of the island. 
+~
+110 wC b 0 0 0
+D0
+~
+~
+0 0 11036 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11030 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11043 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11032 0 0 0 0 0 0 0 0
+D10
+Into a large dark rocky crevice
+~
+crevice dark~
+0 0 11063 0 0 0 0 0 0 0 0
+S
+#11032
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 C 0 0 0 6
+D0
+~
+~
+0 0 11035 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11031 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11044 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11033 0 0 0 0 0 0 0 0
+S
+#11033
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11034 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11032 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11045 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11054 0 0 0 0 0 0 0 0
+S
+#11034
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11051 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11035 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11033 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11053 0 0 0 0 0 0 0 0
+S
+#11035
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11050 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11036 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11032 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11034 0 0 0 0 0 0 0 0
+S
+#11036
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11049 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11037 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11031 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11035 0 0 0 0 0 0 0 0
+S
+#11037
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11048 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11038 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11030 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11036 0 0 0 0 0 0 0 0
+S
+#11038
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11047 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11039 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11029 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11037 0 0 0 0 0 0 0 0
+S
+#11039
+On a lake shore~
+Though the dark waters of the lake nearly fill the entire cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11028 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11038 0 0 0 0 0 0 0 0
+S
+#11040
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11028 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11062 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11041 0 0 0 0 0 0 0 0
+S
+#11041
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11029 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11040 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11042 0 0 0 0 0 0 0 0
+S
+#11042
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11030 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11041 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11043 0 0 0 0 0 0 0 0
+S
+#11043
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11031 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11042 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11044 0 0 0 0 0 0 0 0
+S
+#11044
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 wC 0 0 0 6
+D0
+~
+~
+0 0 11032 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11043 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11045 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#11045
+In a dark lake~
+ You sputter as you swallow a mouthful of the cold dark water.
+  The water is terribly cold and saps the strength from your bones.  The rocky lake bottom is treacherous and the slick sharp rocks make standing difficult in the chest deep water.  The water is inky black and visibility is next to zero.  Anything could lurk in the cold darkness.
+~
+110 0 0 0 0 6
+D0
+~
+~
+0 0 11033 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11044 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11057 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11055 0 0 0 0 0 0 0 0
+S
+#11046
+On a lake shore~
+Though the dark waters of the lake nearly fill the entire cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D2
+~
+~
+0 0 11039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11047 0 0 0 0 0 0 0 0
+S
+#11047
+On a lake shore~
+Though the dark waters of the lake nearly fill the entire cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D1
+~
+~
+0 0 11046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11038 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11048 0 0 0 0 0 0 0 0
+S
+#11048
+On a lake shore~
+Though the dark waters of the lake nearly fill the entire cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D1
+~
+~
+0 0 11047 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11037 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11049 0 0 0 0 0 0 0 0
+S
+#11049
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D1
+~
+~
+0 0 11048 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11036 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11050 0 0 0 0 0 0 0 0
+S
+#11050
+A ladder into darkness~
+The rocky shore seems to have been cleared here and some of the rocks used to make a small fire ring, though you can not imagine someone wanting to camp this close to the dark lake.  You notice hand holds have been cut into the wall of the cavern forming a crude but serviceable ladder.  The ladder leads up into darkness. 
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11049 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11035 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11051 0 0 0 0 0 0 0 0
+D4
+A ladder into darkness
+~
+~
+0 0 11065 0 0 0 0 0 0 0 0
+S
+#11051
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D1
+~
+~
+0 0 11050 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11034 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11052 0 0 0 0 0 0 0 0
+S
+#11052
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D1
+~
+~
+0 0 11051 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11053 0 0 0 0 0 0 0 0
+S
+#11053
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11052 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11034 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11054 0 0 0 0 0 0 0 0
+S
+#11054
+A stream into darkness~
+The rocky shoreline is broken here by a rapidly flowing stream that flows from the lake into a narrow tunnel.  Like the rest of this cave system, the tunnel appears to have been carved from the natural rock by the relentless power of the water.  A small path seems to flank the stream leading off into the darkness.
+~
+110 wC 0 0 0 0
+D0
+~
+~
+0 0 11053 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11033 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11055 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11064 0 0 0 0 0 0 0 0
+S
+#11055
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11054 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11045 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11056 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#11056
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11055 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11057 0 0 0 0 0 0 0 0
+S
+#11057
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11045 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11056 0 0 0 0 0 0 0 0
+S
+#11058
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11044 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11057 0 0 0 0 0 0 0 0
+S
+#11059
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 6
+D0
+~
+~
+0 0 11043 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11058 0 0 0 0 0 0 0 0
+S
+#11060
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11042 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11059 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#11061
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11041 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11062 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11060 0 0 0 0 0 0 0 0
+S
+#11062
+On a lake shore~
+Though the dark waters of the lake nearly fill the cavern, a narrow rocky shoreline is nestled between the lake and the walls.  The shore is composed of jagged loose rocks coated with slime and mist from the waterfall.  As small waves lap at the rocks, small dark creatures scuttle away in the darkness.  The rocky shore continues ahead and behind you.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11040 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11061 0 0 0 0 0 0 0 0
+S
+#11063
+In a dark crevice~
+Two huge slabs of rock form a shallow cave here.  The rock blocks some of the sound and most of the spray from the falls.  There is a large pile of bones in one corner and a few broken weapons litter the floor.  It occurs to you that with the sound from the waterfall, no one could hear you scream in here.
+~
+110 afC 0 0 0 0
+D1
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D11
+Back out to the island
+~
+island crevice back~
+0 0 11031 0 0 0 0 0 0 0 0
+S
+#11064
+Underground river~
+The dark waters of the river swirl as they plunge away into darkness here.  The tunnel shrinks until the waters fill it completely.  Even with the aid of spells, trying to continue would surely be suicide.
+~
+110 C 0 0 0 6
+D1
+~
+~
+0 0 11054 0 0 0 0 0 0 0 0
+S
+#11065
+On a small ledge~
+This small ledge looks man-made and (when there is light) provides a stunning view of the waterfall into the dark lake.  A ladder has been carved into the rock and leads down to the a narrow rocky shore that circles the lake.  A small tunnel leads away into darkness.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11066 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D5
+~
+Down a ladder~
+0 0 11050 0 0 0 0 0 0 0 0
+S
+#11066
+In side a tunnel~
+Like the ledge outside, this tunnel looks like it was carved and is not the result of natural processes.  Careful observation shows tool marks along the walls where they were carved out of the gray stone.  The tunnel is square and roughly ten feet by ten feet.  The floor is flat but rough and free of sand.  The sound of the waterfall rumbles in the tunnel like thunder.
+~
+110 iC 0 0 0 0
+D0
+~
+~
+0 0 11067 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11065 0 0 0 0 0 0 0 0
+S
+#11067
+Under a stone arch~
+The tunnel passes through a carved stone arch here.  The white stone arch is covered in ornate carvings that look like gothic flowers and vines.  When you look more closely you realize the carvings are actually spiders and spider webs.  The stone floor is worn flat here as though generations of feet have trod these halls.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11068 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11066 0 0 0 0 0 0 0 0
+S
+#11068
+An intersection~
+This room has an four doorways.  In addition to the archway that leads outside there are three other exits.  Straight across from the entrance is another archway with similar designs.  On either side of the room are dark black wooden doors that standout against the gray stone walls.  The floor is free of dust and dirt and appears to be kept clean.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11069 0 0 0 0 0 0 0 0
+D1
+~
+door east~
+1 0 11071 20 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11067 0 0 0 0 0 0 0 0
+D3
+~
+door west~
+1 0 11073 20 0 0 0 0 0 0 0
+S
+#11069
+A short hallway~
+This hallway is dimly lit by sickly green glow that comes from the stone walls themselves.  The air is stagnant and you can barely hear the roar of the waterfall far outside the halls.  There is an archway at either end of the hall.
+~
+110 C 0 0 0 0
+D0
+~
+~
+0 0 11070 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11068 0 0 0 0 0 0 0 0
+S
+#11070
+A dome-shaped room~
+This room is lit by a low fire burning in a stone brazier, the fire must me magical as it gives off no smoke or heat.  The room is round with a domed ceiling, the walls and ceiling are decorated like a giant spider web giving you the impression that you are trapped under a huge net.  In the center of the room is a jet black alter covered with images of spiders.  Dark reddish brown stains cover the floor around the alter.  The faint scent of death hangs in the air.
+~
+110 C 0 0 0 0
+D2
+~
+~
+0 0 11069 0 0 0 0 0 0 0 0
+S
+#11071
+A partially collapsed hallway~
+This hallway is littered with rubble from a collapsed ceiling.  You can make out the outline of a door to the east.  There is still enough room to scramble over the rubble and make it through the hallway.  As you make your way over the rubble you see a skeletal hand reaching out from under a beam and a pile of rock.  You notice some type of mechanism built into the wall and ceiling above the pile of rubble, though it looks rusty and broken now.  A wire cord leads from the mechanism to the floor under the 
+~
+110 C 0 0 0 0
+D1
+~
+door~
+1 0 11072 20 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11068 0 0 0 0 0 0 0 0
+S
+#11072
+A library tomb~
+This is a long room with a narrow isle down the middle.  The walls are lined with twelve sarcophagi, six on each wall.  Between each sarcophagi is book shelf full of the remains of books which have fallen prey to time and humidity. A large carving covers the wall at the far end of the room.  The first scenes depict a dark elf scribe flaying a human on an alter and making a book of his skin.  Another scene depicts the same scribe  kneeling with a book before a giant spider in front of a dark lake.
+~
+110 C 0 0 0 0
+D3
+~
+door~
+1 0 11071 0 0 0 0 0 0 0 0
+S
+#11073
+A dark hallway~
+This hallway is dark, though the empty torch brackets on the walls indicate it once had light.  Spiders scramble away from you at the edges of your vision and their webs brush against your face.  The hallway has a door at each end, but not other exits.  The air does not move here and you can hear only the sound of your own breathing.
+~
+110 C 0 0 0 0
+D1
+~
+door~
+1 0 11068 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11074 20 0 0 0 0 0 0 0
+S
+#11074
+A web filled room~
+This room used to be a bunk room.  Twelve beds fill the room in three rows of four beds each.  An old foot locker is at the base of each bed.  Unfortunately, it seem impossible to move freely through the room as it is now filled with thick sticky spider webs.  As you walk between the strands you hear a crunching underfoot and a glance down reveals you are  walking on the remains of the dead.
+~
+110 0 0 0 0 0
+D1
+~
+door~
+1 0 11073 0 0 0 0 0 0 0 0
+S
+$~

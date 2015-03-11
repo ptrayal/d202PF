@@ -1,0 +1,685 @@
+#600
+pool calm liquid~
+a pool of calm liquid~
+A calm pool of liquid gives this place a feel of tranquility.~
+~
+23 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34463 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#601
+golden brown leaf~
+a brown leaf with golden streaks~
+A patch of brown flutters in the wind, with flashes of gold winking at you.~
+~
+2 cdjklqsuwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#602
+staff chislev~
+the Staff of Chislev~
+A long ornate staff carved of the most beautiful of woods lies here.~
+~
+3 acjklmnopqrstuvwBCDEF abc 0 0 no 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 25 0
+A
+2 25 0
+A
+5 25 0
+A
+3 25 0
+A
+4 25 0
+A
+6 25 0
+#603
+evergreen robe leaves~
+the Evergreen Robe~
+A robe stitched with the leaves of evergreen trees stands upright in the air.~
+30~
+9 acfgilmnopqrstuvwBCDEF abc 0 0 d 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 30 0
+A
+19 5 0
+A
+17 30 0
+#604
+tooth serpent white small~
+a serpent's tooth~
+A small, white object almost stabs you in the foot.~
+~
+1 jklmnpruwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 777 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#605
+pool blood~
+a pool of blood~
+A dark liquid forms a pool here.~
+~
+23 cjklmnopqrstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34463 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pool~
+   The pool before you looks to be dark and thick.  It is substantially large
+in quantity and has a reddish tint to it.  As you observe it, you notice that
+it is slowly seeping into the ground, giving the surrounding area a red
+coloring.    
+~
+#606
+long bow wood~
+a wooden long bow~
+A long piece of wood, arched and tied with a string on both ends lies unwanted on the ground.~
+~
+5 jklprstuxBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 350 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bow~
+   Made of several strips of wood pressed together as one, this bow is strong
+and has a good, strong action to it.  Those not strong enough to use it might
+have a problem even notching it though, for it is a weapon not meant for the
+weak.    
+~
+#607
+corpse ogre~
+an ogre corpse~
+The burnt corpse of a dead ogre lies undignified on the ground.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#608
+large waist pouch waistpouch~
+a large waistpouch~
+A large mass of leather lies on the ground in disarray.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 350 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#609
+corpse human disfigured~
+a disfigured human corpse~
+The disfigured corpse of a human lies in several parts.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+corpse~
+   A hacked up corpse of what seems to be a human lies here, but you're not
+quite sure of the origins of the creature whose remains these belonged to.  
+Whatever this thing was, it died quite horribly.    
+~
+#610
+hand dismembered~
+a dismembered hand~
+The dismembered hand of a human lies half buried in the ground.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+hand~
+   A somewhat average-sized human left hand lies buried in the dirt.  It has
+been chewed off at the wrist it seems, by something with powerful jaws and
+sharp teeth.  It seems to be clutching something in its grasp though, pretty
+tightly.    
+~
+#611
+ring blue opal~
+a blue opal ring~
+A shiny ring with a deep blue opal in it tinkles as it rolls on the ground.~
+~
+8 jlmnoprtuvwBCDEF abc stuvwxy 0 abo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+opal~
+   The opal of your focus is ocean-blue in color, and you are drawn by its deep
+beauty as you gaze into it.  You think you see it flash at you as you gaze at
+it, but it could be your imagination.    
+~
+E
+ring~
+   The ring before your eyes seems to be a plain silver band, meant to be worn
+on the ring or last finger of a human.  It is mostly ordinary, except for the
+setting on the top which contains a beautiful ocean-blue opal.    
+~
+A
+14 5 0
+#612
+dirk blade barbed~
+a barbed dirk~
+A wickedly barbed blade lies on the ground, waiting to inflict some pain.~
+~
+5 jklmopruvwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 90 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#613
+sword bastard iron metal sharp~
+an iron bastard sword~
+A sharp piece of metal threatens to cut off your foot if you don't step carefully.~
+~
+5 jkloprstuvBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 55 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sword~
+   This sword is nothing more than a piece of iron about a foot and a half long
+and sharpened for killing.  The weight of it lends to its hitting power, making
+it a formidible weapon for one proficient in its use.  It isn't particularly
+well made though, so the more expert swordsman would shun it in favor of a
+better weapon.    
+~
+A
+19 -2 0
+#614
+anklet finger bones circle~
+an anklet of finger bones~
+A small circle of bones glares white against the ground.~
+4~
+9 jlnopruwCDF ab stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 540 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#615
+spear wood carved one-handed~
+an ornately carved one-handed spear~
+A long piece of ornately carved wood lies on the ground desolately.~
+~
+5 jlpruwCEF ac stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 300 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+spear~
+   The spear before you has been painstakingly carved out of the wood of a
+Vallenwood tree.  It has been weighted carefully to be used with one hand.  
+The point of it is edged to cut four ways, and it is sharp enough to draw blood
+if you were to run your hand over the edge.    
+~
+A
+19 1 0
+#616
+buckler bullette hide blueish~
+a bullette hide buckler~
+A round buckler made of some blueish leather lies rocking slowly here.~
+~
+9 jklpstuBCDEF abc stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 900 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+buckler~
+   The buckler has been made out of the hide of the vicious bullette, also known
+as "land-shark'.  The hide of the bullette is particularly tough, making a good
+material for a buckler.  The hide has been tanned, treated and hardened into
+the shape of the buckler you see before you now.    
+~
+#617
+gem firestone fire~
+a firestone gem~
+A gem with a bright fire in it glows brightly.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+gem~
+   This gem glows a bright orange-red, and seems to wink at you and you look
+into it.  A light like a fire is deep inside it and seems to burn as the light
+reflects off it in different ways.  This gem is used in the casting of spells,
+but in itself is useless.    
+~
+#618
+vine pendant~
+a vine-tangled pendant~
+It looks like someone has discarded part of a vine here.~
+0~
+9 jklmpruwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+pendant~
+   The chain of this pendant is tangled up together with a vine of some kind.
+The pendant itself bears the symbol of the Royal Kagonesti Family.    
+~
+#619
+brook gentle water~
+a gentle brook~
+A gentle brook refreshes the plant life nearby.~
+~
+23 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34468 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+brook~
+   This brook trickles with clear water that seems to come from somewhere under
+the ground.  As it flows, you can see that the plant life around it benefits
+from the life-giving liquid.    
+~
+#620
+stream small gurgle~
+a small stream~
+A small stream gurgles happily as it trickles down here.~
+~
+23 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+34468 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#621
+shell crab~
+a crab shell carapace~
+The shell of a giant crab lies here stinking.~
+~
+9 jklpruwBCDEF ab stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 1245 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shell~
+   It looks like this used to belong to a giant crab.  It is large enough to be
+worn over a typical humanoid's body, and hard enough to be armor of some sort.
+~
+#622
+bladder gall sac~
+an eel gall bladder~
+A small, wet, putrid sac lies on the ground drying up.~
+~
+10 jklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bladder~
+   You realize that this is the gall bladder from a freshwater eel.  As you
+consider it in digust, you remember hearing that some people eat it gall
+bladders, in the belief that it will make them ferocious.    
+~
+#623
+waterweed parchment~
+a waterweed parchment~
+A flat layer of waterweeds lies soaking here.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1540 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+waterweed~
+   This parchment has been written on pressed waterweed.  The writing on it
+looks unintelligible to you, but you realize that they are magical in nature.
+~
+#624
+turtle shell~
+a turtle shell~
+A large shell of a dead turtle has been cleaned and makes a funny hollow sound.~
+~
+15 jklmnoprsuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+shell~
+   The shell you are looking at belonged to a large turtle, just before he was
+savagely killed by adventurers.  You realize that after cleaning this shell
+out, you can use it to put your belongings in, as it can hold quite a bit.    
+~
+#625
+blade oak wood~
+a sharp oak wood blade~
+A long, sharp blade of oak wood lies twinkling on the ground.~
+~
+5 jlpruwBCDEF abc lstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 11000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 2 0
+A
+18 1 0
+#626
+crown ivy leaves~
+a crown of ivy leaves~
+A crown of ivy leaves flutter in the wind.~
+-3~
+9 hjlrwBCF a stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+crown~
+   The crown of ivy leaves looks at first to be hazardous to wear, as you look
+for thorns.  However, you do not feel any discomfort while wearing this crown,
+and you realize that it is magical in nature.    
+~
+A
+4 1 0
+#627
+pearl~
+a large pearl~
+A pearl the size of your fist glimmers in the darkness.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#628
+bone finger white~
+a double jointed finger bone~
+A longish white stick lies in stark contrast to the ground.~
+~
+3 egklmnopqrvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#629
+scroll lizard skin lizardskin~
+a lizardskin scroll~
+A skin of a lizard is curled up here.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#630
+club twisted darkwood wrath elements~
+a twisted, darkwood club called, 'Wrath of the Elements'~
+A darkwood club lies tossed about the ground~
+~
+5 ai 0 0 0 an 0 0 0 0 0 0 0
+5 1 6 5 100 100 0 44 0 1 0 2 0 0 0 0
+30 0 0 14
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 4 0
+#631
+holy avenger white blade~
+a holy avenger~
+A blindingly white blade glows pulsatingly here.~
+~
+5 abjtxCF a m 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+23 3 0
+#632
+staff demonic arch-mage~
+a staff of a demonic arch-lich~
+A long black staff lies on the ground, soaking up light with its essence.~
+The laughter of a long dead arch-lich fills your ears.~
+5 abkmCDF a m 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 0 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#633
+ring ivory unicorn finely crafted carved~
+an ivory ring carved with the shape of unicorns~
+An small white circle with finely crafted unicorns upon it lies on the ground.~
+~
+9 jlnwCF ac 0 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+unicorns~
+You see nothing special.
+~
+E
+ivory~
+You see nothing special.
+~
+E
+ring~
+   Pairs of tiny unicorns have been finely carved into a delicate ring of
+ivory, creating an intricate piece of artwork that is both unique as well as
+beautiful.  The ring's surface shines and the light plays off the ridges,
+making it seem like the unicorns are playing with one another.    
+~
+#634
+branch oak tree~
+an oak tree branch~
+Laying here on the ground is a twisted oak tree branch.~
+~
+5 jklnruwBCDEF abc kstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 9750 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+A
+18 1 0
+#635
+bracelet woven pine needles~
+a bracelet of woven pine needles~
+Barely visible here on the ground is a bracelet composed entirely of woven pine needles.~
+~
+11 jklpruwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 17000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+A
+18 1 0
+#636
+fruit hollowed strange~
+a strange piece of hollowed out fruit~
+Gathering dust here on the ground is a strange piece of hollowed out fruit.~
+~
+10 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 20000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

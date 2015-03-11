@@ -1,0 +1,795 @@
+#3200
+hunter barbarian~
+a barbarian hunter~
+A barbarian hunter returns from a successful hunt.
+~
+   This barbarian is wearing tanned, leather boots and a loin cloth.  A large
+sword is carried in his right hand, and by his left he drags a large animal
+which he has hunted and is bringing back for food.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d150+105 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3201
+guard barbarian~
+a barbarian guard~
+A barbarian guard blocks the entrance to the village.
+~
+   This barbarian has long brown hair that falls loosely onto his back.  He has
+a stern expression on his face, and looks at your with a slight frown as your
+approach.    
+~
+d 0 0 0 k 0 0 0 0
+18 11 -17 216d110+101 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3202
+woman large flowing black hair~
+a large woman with flowing black hair~
+A large woman with flowing back hair tends a small fire.
+~
+   This woman is dressed in a deer skin tunic and long, hide boots.  Her hair
+is long and flows smoothly down her back.  Her skin is smooth and flawless, but
+her hands show signs of a hard life working to survive.    
+~
+d 0 0 0 k 0 0 0 600
+18 11 -17 216d140+104 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3203
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3204
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3205
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3206
+elf blonde hazel eyed hazel-eyed~
+a blonde, hazel-eyed elf~
+A blonde, hazel-eyed elf looks at you in surprise.
+~
+   This elf seems terribly out of place sitting in this tent.  He carries no
+weapon, but holds a small orb in his left hand.  What he is doing here is
+unknown, but he appears to wish he had gone unnoticed by you.    
+~
+d 0 0 0 k 0 0 0 900
+18 11 -8 72d160+106 1d8+9
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3207
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3208
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3209
+warrior groggy que shu young~
+a groggy, young warrior~
+A young, Que-Shu warrior sleeps peacefully on his small bed.
+~
+   This young warrior is sleeping in his quarters on this ceremonial night.  
+He is garbed only in his bare skin, and is not ready or prepared for battle.  
+~
+d 0 0 0 k 0 0 0 700
+18 11 -17 216d130+103 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3210
+maiden young beautiful~
+a beautiful young maiden~
+A beautiful young maiden sits quietly on a stool.
+~
+   This young maiden has her hair tied into two braids that come down below her
+shoulders in length.  Her high cheeks and deep set eyes give her a stunning
+face that attracts the eyes of more then one warrior in the tribe.  She is
+wearing a hood over her head as she sits hre praying to her ancestors to heal
+her sick brother.    
+~
+d 0 0 0 k 0 0 0 700
+18 11 -17 216d170+107 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3211
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3212
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3213
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3214
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3215
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3216
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3217
+gladiator que shu~
+a Que-Shu gladiator~
+A Que-Shu gladiator stalks his opponent carefully.
+~
+   This is a warrior that has been sentenced to fight in the sunken pit.  He is
+wielding a large broad sword and wears only a loin cloth for protection.  His
+body is covered with strange paints, which supposedly honour his ancestors and
+offer him magical protection during battle.    
+~
+dE 0 0 0 k 0 0 0 -300
+18 4 -17 3060d200+110 1d8+21
+29 0 32 6
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+#3218
+woman brown hair muscular~
+a muscular woman with long, brown hair~
+A muscular woman with long, brown hair walks past you.
+~
+   This woman has a tanned leather tunic about her body.  Small designs of deer
+and antelope cover the tunic, giving repect to the animals that feed this
+tribe.  Her emerald green eyes take in the area with a firm, cold gaze.  She
+gives you a slight glance, but then continues past you.    
+~
+d 0 0 0 k 0 0 0 300
+18 11 -17 216d150+105 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3219
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3220
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3221
+elderly barbarian~
+an elderly barbarian~
+An elderly barbarian cooks some meat over the fire.
+~
+   This elderly man has been with the Que-Shu for over 70 years.  His skin is
+wrinkled and bruises appear on his arms and legs.  He is holding a long wooden
+pole and is roasting meat in the fire pit.    
+~
+d 0 0 0 k 0 0 0 600
+18 11 -17 216d150+105 1d8+9
+29 0 32 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#3222
+warrior fearless~
+a fearless warrior~
+A fearless warrior looks at you with contempt.
+~
+   This barbarian man has a large wild cat tatooed onto his chest.  His deep
+brown eyes stare about him with a firm gaze, and his rigid jaws makes him
+appear forboding.  He is wielding a long sword and holding a jagged edged
+dagger.    
+~
+d 0 0 0 k 0 0 0 -700
+18 11 -11 198d190+109 1d8+9
+29 0 32 7
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 20
+E
+Cha: 11
+S
+#3223
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3224
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3225
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3226
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3227
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3228
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3229
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3230
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 0 0 0 0 0
+18 11 -8 72d100+100 1d1+9
+29 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#3231
+shadow archmage~
+the shadow of an archmage~
+The shadow of an archmage silently moves through the room.
+~
+   The vague image of this shadow outlines an old man in flowing robes with a
+smoky coloring.  The image seems to fade in and out of existance as you gace
+upon it.    
+~
+dF 0 0 0 k 0 0 0 0
+18 4 -11 1440d340+124 1d8+21
+29 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+$

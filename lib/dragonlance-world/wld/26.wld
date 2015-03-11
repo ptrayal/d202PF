@@ -1,0 +1,1535 @@
+#2600
+A Well Cleared Trail~
+   The trees and shrubbery have been cleared to alleviate the passage of carts
+and horses.  Charred limbs hang over the edges of the path, and a smokey mist
+hangs in the still air.    
+~
+26 c h 0 0 0
+D0
+~
+~
+0 0 2601 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2973 0 0 0 0 0 0 0 0
+S
+#2601
+A Well Cleared Trail~
+   The trees and shrubbery have been cleared to alleviate the passage of carts
+and horses.  Charred limbs hang over the edges of the path, and a smokey mist
+hangs in the still air.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2602 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2600 0 0 0 0 0 0 0 0
+S
+#2602
+A Well Cleared Trail~
+   The trees and shrubbery have been cleared to alleviate the passage of carts
+and horses.  Charred limbs hang over the edges of the path, and a smokey mist
+hangs in the still air.    
+~
+26 0 h 0 0 0
+D2
+~
+~
+0 0 2601 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2603 0 0 0 0 0 0 0 0
+S
+#2603
+A Well Cleared Trail~
+   The trees and shrubbery have been cleared to alleviate the passage of carts
+and horses.  Charred limbs hang over the edges of the path, and a smokey mist
+hangs in the still air.    
+~
+26 c h 0 0 0
+D0
+~
+~
+0 0 2604 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2657 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2602 0 0 0 0 0 0 0 0
+S
+#2604
+A Well Cleared Trail~
+   The trees and shrubbery have been cleared to alleviate the passage of carts
+and horses.  Charred limbs hang over the edges of the path, and a smokey mist
+hangs in the still air.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2605 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2603 0 0 0 0 0 0 0 0
+S
+#2605
+A Well Cleared Trail~
+   The trees and shrubbery have been cleared to alleviate the passage of carts
+and horses.  Charred limbs hang over the edges of the path, and a smokey mist
+hangs in the still air.    
+~
+26 0 h 0 0 0
+D2
+~
+~
+0 0 2604 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2606 0 0 0 0 0 0 0 0
+S
+#2606
+At the End of the Trail~
+   Through the thick foliage which surrounds you, a small fortification is
+visible to the north.  It appears to be occupied by goblins and possibly,
+judging by the smell, gully dwarves.  Peeking through the leaves you can make
+out a sturdy portcullis at the middle of the southern wall just ahead of you.
+The structure continues up to at least two levels with guard towers at each
+corner.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2607 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2605 0 0 0 0 0 0 0 0
+S
+#2607
+Entrance to the Goblin Encampment~
+   You stand before a significant fortress built from the trees which once
+stood in its place.  Parapets tower over the structure at each of the four
+corners, and a wide path has been burned back from the walls.  The ground
+before you is stained with blood which flows forth from behind the portcullis.
+A faint smoky mist hangs in the air.    
+~
+26 c h 0 0 0
+D0
+~
+portcullis~
+1 0 2608 21 21 0 0 0 0 0 0
+D1
+~
+~
+0 0 2663 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2606 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2684 0 0 0 0 0 0 0 0
+S
+#2608
+Between the Portculli~
+   Potentially an ingenious trap, you find youself between two portculli.  The
+ceiling above you is spattered with holes through which long spears are thrust
+down upon you.  The dirt floor slopes gently to the south, allowing your blood
+to seep outside and welcome other adventurous souls.    
+~
+26 cdr h 0 0 0
+D0
+~
+portcullis~
+1 0 2609 21 21 0 0 0 0 0 0
+D2
+~
+portcullis~
+1 0 2607 21 21 0 0 0 0 0 0
+S
+#2609
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2610 0 0 0 0 0 0 0 0
+D2
+~
+portcullis~
+1 0 2608 21 21 0 0 0 0 0 0
+D3
+~
+~
+0 0 2630 0 0 0 0 0 0 0 0
+S
+#2610
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2611 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2609 0 0 0 0 0 0 0 0
+S
+#2611
+Within the Goblin Encampment~
+   Goblins and enslaved gully dwarves scuttle about carrying planks of wood,
+nails and leather straps.  The sound of cracking whips can be heard all around,
+each snap followed closely by a whimpering howl, even over the boistrous roars
+from the watering hole to your south.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2648 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2612 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2650 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2610 0 0 0 0 0 0 0 0
+S
+#2612
+Within the Goblin Encampment~
+   Goblins and enslaved gully dwarves scuttle about carrying planks of wood,
+nails and leather straps.  The sound of cracking whips can be heard all around,
+each snap followed closely by a whimpering howl, even over the boistrous roars
+from the watering hole to your south.  To the south is a large watch tower.  
+~
+26 0 h 0 0 0
+D2
+~
+~
+0 0 2613 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2611 0 0 0 0 0 0 0 0
+S
+#2613
+In the Guard Tower~
+   Long narrow gaps have been shaved between the planks of the outer wall to
+serve as arrow slits and lookout holes.  Bands of steel are riveted to the wood
+to provide structural reinforcement in order to support the upper level of the
+lookout tower.  A sturdy wooden ladder rests agains the outer corner and passes
+through the ceiling.    
+~
+26 c h 0 0 0
+D0
+~
+~
+0 0 2612 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2614 0 0 0 0 0 0 0 0
+S
+#2614
+In the Guard Tower~
+   The sturdy wooden ladder continues both up to an open air parapet, and down
+to the ground level.  The room is sparsely furnished with only a few stools and
+a bare table.  A simple wooden door leads out to the southern wall lookout.  
+~
+26 0 h 0 0 0
+D3
+~
+door~
+1 0 2626 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2615 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2613 0 0 0 0 0 0 0 0
+S
+#2615
+In the Guard Tower~
+   The sturdy wooden ladder continues both up to an open air parapet, and down
+to the ground level.  The room is sparsely furnished with only a few stools and
+a bare table.  A simple wooden door leads out to the southern wall lookout.  
+~
+26 0 h 0 0 0
+D3
+~
+door~
+1 0 2617 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2616 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2614 0 0 0 0 0 0 0 0
+S
+#2616
+The Guard Tower Lookout~
+   The open air parapet atop the guard tower gives view to the lush spanse of
+forest which surrounds the goblin invasion encampment.  However, little can be
+seen of the weaving trails below the foliage.    
+~
+26 0 h 0 0 0
+D5
+~
+~
+0 0 2615 0 0 0 0 0 0 0 0
+S
+#2617
+Along the Southern Wall~
+   This wooden walkway stands behind the southern battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  A wooden
+door leads into the parapet to the east.    
+~
+26 0 h 0 0 0
+D1
+~
+door~
+1 0 2615 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2618 0 0 0 0 0 0 0 0
+S
+#2618
+Along the Southern Wall~
+   This wooden walkway stands behind the southern battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  A wooden
+door leads into the parapet to the east.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2617 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2619 0 0 0 0 0 0 0 0
+S
+#2619
+Along the Southern Wall~
+   This wooden walkway stands behind the southern battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  Holes are
+cut into the walkway here, allowing goblins to stab spears into any unwanted
+visitors.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2618 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2620 0 0 0 0 0 0 0 0
+S
+#2620
+Along the Southern Wall~
+   This wooden walkway stands behind the southern battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  Holes are
+cut into the walkway here, allowing goblins to stab spears into any unwanted
+visitors.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2619 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2621 0 0 0 0 0 0 0 0
+S
+#2621
+In the Guard Tower~
+   The sturdy wooden ladder continues both up to an open air parapet, and down
+to the ground level.  The room is sparsely furnished with only a few stools and
+a bare table.  A simple wooden door leads out to the southern wall lookout.  
+
+~
+26 0 h 0 0 0
+D1
+~
+door~
+1 0 2620 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2627 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2622 0 0 0 0 0 0 0 0
+S
+#2622
+In the Guard Tower~
+   The sturdy wooden ladder continues both up to an open air parapet, and down
+to the ground level.  The room is sparsely furnished with only a few stools and
+a bare table.  A simple wooden door leads out to the southern wall lookout.  
+
+~
+26 0 h 0 0 0
+D1
+~
+door~
+1 0 2623 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2621 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2628 0 0 0 0 0 0 0 0
+S
+#2623
+Along the Southern Wall~
+   This wooden walkway stands behind the southerm battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  A wooden
+door leads into the parapet to the west.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2624 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2622 0 0 0 0 0 0 0 0
+S
+#2624
+Along the Southern Wall~
+   This wooden walkway stands behind the southern battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  Holes are
+cut into the walkway here, allowing goblins to stab spears into any unwanted
+visitors.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2625 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2623 0 0 0 0 0 0 0 0
+S
+#2625
+Along the Southern Wall~
+   This wooden walkway stands behind the southern battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  The belly
+of the encampment opens to the north, revealing the strength of the defending
+forces.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2624 0 0 0 0 0 0 0 0
+S
+#2626
+Along the Southern Wall~
+   This wooden walkway stands behind the southern battlements, offering archers
+protected and elevated positions to rain their arrows upon an enemy.  A wooden
+door leads into the parapet to the east.    
+~
+26 0 h 0 0 0
+D1
+~
+door~
+1 0 2614 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2625 0 0 0 0 0 0 0 0
+S
+#2627
+The Guard Tower Lookout~
+   The open air parapet atop the guard tower gives view to the lush spanse of
+forest which surrounds the goblin invasion encampment.  However, little can be
+seen of the weaving trails below the foliage.  A short distance to the south
+lies the unholy village of Neraka.    
+~
+26 0 h 0 0 0
+D5
+~
+~
+0 0 2621 0 0 0 0 0 0 0 0
+S
+#2628
+In the Guard Tower~
+   Long narrow gaps have been shaved between the planks of the outer wall to
+serve as arrow slits and lookout holes.  Bands of steel are riveted to the wood
+to provide structural reinforcement in order to support the upper level of the
+lookout tower.  A sturdy wooden ladder rests agains the outer corner and passes
+through the ceiling.    
+~
+26 c h 0 0 0
+D0
+~
+~
+0 0 2629 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2622 0 0 0 0 0 0 0 0
+S
+#2629
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.  A goblin grins at you from the top
+of the guard tower to your south.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2630 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2628 0 0 0 0 0 0 0 0
+S
+#2630
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.  You hear some snorting and snoring
+from behind the door to the south.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2631 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2609 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2649 21 21 0 0 0 0 0 0
+D3
+~
+~
+0 0 2629 0 0 0 0 0 0 0 0
+S
+#2631
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2630 0 0 0 0 0 0 0 0
+S
+#2632
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.  To your west is a large tent
+covered in blood stains.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2634 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2631 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2633 0 0 0 0 0 0 0 0
+S
+#2633
+The Saw and Bone~
+   The strange smell of medicines and peculiar herbs hangs in the air of the
+goblin medic's tent.  Blood stains mark the floor and rusty instruments adorn
+the walls.  Strings of teeth and broken bones hang to the floor, serving to
+cover the doorway to the south.    
+~
+26 c h 0 0 0
+D1
+~
+~
+0 0 2632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2686 0 0 0 0 0 0 0 0
+S
+#2634
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2637 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2641 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2632 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2635 0 0 0 0 0 0 0 0
+S
+#2635
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.  The grim shadow of the
+northwestern guard tower chills the air around you.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2636 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2634 0 0 0 0 0 0 0 0
+S
+#2636
+In the Guard Tower~
+   Long narrow gaps have been shaved between the planks of the outer wall to
+serve as arrow slits and lookout holes.  Bands of steel are riveted to the wood
+to provide structural reinforcement in order to support the upper level of the
+lookout tower.  A sturdy wooden ladder rests agains the outer corner and passes
+through the ceiling.    
+~
+26 c h 0 0 0
+D1
+~
+~
+0 0 2637 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2635 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 2638 0 0 0 0 0 0 0 0
+S
+#2637
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.  The grim shadow of the
+northwestern guard tower chills the air around you.    
+~
+26 0 h 0 0 0
+D2
+~
+~
+0 0 2634 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2636 0 0 0 0 0 0 0 0
+S
+#2638
+In the Guard Tower~
+   Long narrow gaps have been shaved between the planks of the outer wall to
+serve as arrow slits and lookout holes.  Bands of steel are riveted to the wood
+to provide structural reinforcement in order to support the upper level of the
+lookout tower.  A sturdy wooden ladder rests agains the outer corner and passes
+through the ceiling.    
+~
+26 0 h 0 0 0
+D4
+~
+~
+0 0 2639 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2636 0 0 0 0 0 0 0 0
+S
+#2639
+The Guard Tower Lookout~
+   The open air parapet atop the guard tower gives view to the lush spanse of
+forest which surrounds the goblin invasion encampment.  However, little can be
+seen of the weaving trails below the foliage.  A short distance to the south
+lies a vulnerable little hamlet.    
+~
+26 0 h 0 0 0
+D5
+~
+~
+0 0 2638 0 0 0 0 0 0 0 0
+S
+#2640
+A new room~
+You are in a room.
+~
+26 0 h 0 0 0
+S
+#2641
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2642 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2634 0 0 0 0 0 0 0 0
+S
+#2642
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.  A large wooden door hangs
+vicariously on its hinges to your north.    
+~
+26 0 h 0 0 0
+D0
+~
+door~
+1 0 2643 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2644 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2641 0 0 0 0 0 0 0 0
+S
+#2643
+The Back Entrance~
+   The walls of the compound rise up on either side and block your view of most
+of the fortress.  To the north is the back door that allows entrance from the
+outside path.  To the east is a door which leads to what looks like a guards
+chamber, but only the sound of snoring can be heard from inside.    
+~
+26 c h 0 0 0
+D0
+~
+gate~
+1 0 2673 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 2685 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2642 0 0 0 0 0 0 0 0
+S
+#2644
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.  To the north is a door leading to
+the room where guards are stationed to watch over the back door.    
+~
+26 0 h 0 0 0
+D0
+~
+door~
+1 0 2685 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2645 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2642 0 0 0 0 0 0 0 0
+S
+#2645
+Within the Goblin Encampment~
+   To your west is the entrance to the central building of this fortification.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2644 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2646 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2648 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2651 0 0 0 0 0 0 0 0
+S
+#2646
+The Eating Pit~
+   Tree stumps and long tables are scattered about a large fire pit.  Goblins
+and gully dwarves occasionally walk up to the massive iron pot for a serving of
+grewl.  Most seem too preoccupied with their only meal of the day to bother
+with your obvious intrusion.    
+~
+26 c h 0 0 0
+D2
+~
+~
+0 0 2647 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2645 0 0 0 0 0 0 0 0
+S
+#2647
+Old Unfaithful~
+   A hole rests in the center of this room, with steam erupting from it causing
+a faint mist to hang in the air.  Goblins and enslaved gully dwarves scuttle
+about carrying planks of wood, nails and leather straps.  The sound of cracking
+whips can be heard all around, each snap followed closely by a whimpering howl.
+~
+26 c h 0 0 0
+D0
+~
+~
+0 0 2646 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2648 0 0 0 0 0 0 0 0
+S
+#2648
+Within the Goblin Encampment~
+   A faint mist hangs in the air, moistening the firmly packed dirt pathways.
+Goblins and enslaved gully dwarves scuttle about carrying planks of wood, nails
+and leather straps.  The sound of cracking whips can be heard all around, each
+snap followed closely by a whimpering howl.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2645 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2647 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2611 0 0 0 0 0 0 0 0
+S
+#2649
+A Crude Sleeping Quarters~
+   This sleeping quarters is used by the goblins who are off duty or just plain
+lazy.  It consists of a few small cots and a chair or two with cushions that
+stink of bad ale and puke.    
+~
+26 c h 0 0 0
+D0
+~
+door~
+1 0 2630 21 21 0 0 0 0 0 0
+S
+#2650
+The Watering Hole~
+   A natural spring wells up from the ground here where the goblins get there
+water.  The spring has become contaminated over the past few weeks however, and
+now appears disgusting as some sort of ooze spews forth from it.    
+~
+26 c h 0 0 0
+D0
+~
+~
+0 0 2611 0 0 0 0 0 0 0 0
+S
+#2651
+The Central Building~
+   A large table rests in the center of this room with a few dusty maps rolled
+across it.  In the southwestern corner of the room is a large pile or some kind
+of filth that is mushy and reeks worse than a rotting corpse.  To the west is a
+room leading to several cells where prisoners are held by the goblins.    
+~
+26 c h 0 0 0
+D1
+~
+door~
+1 0 2645 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2652 0 0 0 0 0 0 0 0
+S
+#2652
+A Room Near the Cells~
+   As you look around this room, there is a cell in each direction except east,
+which leads back to the map room.  The cells don't appear to be locked, but
+instead, are held together with a small wire wound around the wooden edges.  
+The prisoners are too underfed and beaten however, to notice how easy an escape
+would be.    
+~
+26 0 h 0 0 0
+D0
+~
+cell~
+1 0 2653 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2651 0 0 0 0 0 0 0 0
+D2
+~
+cell~
+1 0 2655 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 0 2654 0 0 0 0 0 0 0 0
+D9
+~
+secret~
+2 0 2656 0 0 0 0 0 0 0 0
+S
+#2653
+Inside a Dirty Cell~
+   This cell has a small mat along the northern edge of the room, and some
+straw spread out on the floor.  The smell of the place is dreadful, causing you
+to consider whether staying in here is worth the effort.  There is little light
+here, except a few rays that the lamp from the next room bleeds into this dingy
+cell.    
+~
+26 0 h 0 0 0
+D2
+~
+cell~
+1 0 2652 0 0 0 0 0 0 0 0
+S
+#2654
+Inside a Dirty Cell~
+   This cell has a small mat along the northern edge of the room, and some
+straw spread out on the floor.  The smell of the place is dreadful, causing you
+to consider whether staying in here is worth the effort.  There is little light
+here, except a few rays that the lamp from the next room bleeds into this dingy
+cell.    
+~
+26 0 h 0 0 0
+D1
+~
+door~
+1 0 2652 0 0 0 0 0 0 0 0
+S
+#2655
+Inside a Dirty Cell~
+   This cell has a small mat along the northern edge of the room, and some
+straw spread out on the floor.  The smell of the place is dreadful, causing you
+to consider whether staying in here is worth the effort.  There is little light
+here, except a few rays that the lamp from the next room bleeds into this dingy
+cell.    
+~
+26 0 h 0 0 0
+D0
+~
+cell~
+1 0 2652 0 0 0 0 0 0 0 0
+S
+#2656
+The Captain's Torture Chamber~
+   This is the Goblin Captain's private chambers.  For his amusement, a torture
+rack sits in the center of the room, with blood stained edges and a leather
+cover torn apart from its victims thrashings.  A small bed rests along the
+western wall, and a large table set out with ale and roast turkey rests along
+the southern wall.    
+~
+26 0 h 0 0 0
+D7
+~
+secret~
+2 0 2652 0 0 0 0 0 0 0 0
+S
+#2657
+In the Forest Near the Goblin Camp~
+   A smoky mist hangs in the air of this forest.  The trees of this area are
+being cut down for wood to build a goblin fortress to the north on the path.  
+What was once a thick forest is now being destroyed by the goblins that have
+moved here.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2658 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2659 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2603 0 0 0 0 0 0 0 0
+S
+#2658
+In the Forest Near the Goblin Camp~
+   A smoky mist hangs in the air of this forest.  The trees of this area are
+being cut down for wood to build a goblin fortress to the north on the path.  
+What was once a thick forest is now being destroyed by the goblins that have
+moved here.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2662 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2657 0 0 0 0 0 0 0 0
+S
+#2659
+In the Forest Near the Goblin Camp~
+   A smoky mist hangs in the air of this forest.  The trees of this area are
+being cut down for wood to build a goblin fortress to the north on the path.  
+What was once a thick forest is now being destroyed by the goblins that have
+moved here.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2662 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2660 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2657 0 0 0 0 0 0 0 0
+S
+#2660
+In the Forest Near the Goblin Camp~
+   A smoky mist hangs in the air of this forest.  The trees of this area are
+being cut down for wood to build a goblin fortress to the north on the path.  
+What was once a thick forest is now being destroyed by the goblins that have
+moved here.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2661 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2659 0 0 0 0 0 0 0 0
+S
+#2661
+In the Forest Near the Goblin Camp~
+   A smoky mist hangs in the air of this forest.  The trees of this area are
+being cut down for wood to build a goblin fortress to the north on the path.  
+What was once a thick forest is now being destroyed by the goblins that have
+moved here.    
+~
+26 0 h 0 0 0
+D2
+~
+~
+0 0 2660 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2662 0 0 0 0 0 0 0 0
+S
+#2662
+In the Forest Near the Goblin Camp~
+   A smoky mist hangs in the air of this forest.  The trees of this area are
+being cut down for wood to build a goblin fortress to the north on the path.  
+What was once a thick forest is now being destroyed by the goblins that have
+moved here.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 11700 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2661 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2659 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2658 0 0 0 0 0 0 0 0
+S
+#2663
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2664 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2607 0 0 0 0 0 0 0 0
+S
+#2664
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2665 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2663 0 0 0 0 0 0 0 0
+S
+#2665
+A Corner in the Wall~
+   You walk on a scraggly path that winds around a large wooden fence.  This is
+the southeastern corner of a small goblin fortress.  A faint mist hangs in the
+air, and you can hear the sounds of goblins moving around inside the fortress
+walls.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2666 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2664 0 0 0 0 0 0 0 0
+S
+#2666
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2667 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2665 0 0 0 0 0 0 0 0
+S
+#2667
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2668 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2666 0 0 0 0 0 0 0 0
+S
+#2668
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2669 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2667 0 0 0 0 0 0 0 0
+S
+#2669
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2670 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2668 0 0 0 0 0 0 0 0
+S
+#2670
+A Corner in the Wall~
+   You walk on a scraggly path that winds around a large wooden fence.  This is
+the northeastern corner of a small goblin fortress.  A faint mist hangs in the
+air, and you can hear the sounds of goblins moving around inside the fortress
+walls.    
+~
+26 0 h 0 0 0
+D2
+~
+~
+0 0 2669 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2671 0 0 0 0 0 0 0 0
+S
+#2671
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2670 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2672 0 0 0 0 0 0 0 0
+S
+#2672
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2671 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2673 0 0 0 0 0 0 0 0
+S
+#2673
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.  To the south is
+a gate that serves as a back entrance to the goblin camp.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2672 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 2643 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2674 0 0 0 0 0 0 0 0
+S
+#2674
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2673 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2675 0 0 0 0 0 0 0 0
+S
+#2675
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2674 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2676 0 0 0 0 0 0 0 0
+S
+#2676
+A Corner in the Wall~
+   You walk on a scraggly path that winds around a large wooden fence.  This is
+the northeastern corner of a small goblin fortress.  A faint mist hangs in the
+air, and you can hear the sounds of goblins moving around inside the fortress
+walls.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2675 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2677 0 0 0 0 0 0 0 0
+S
+#2677
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2676 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2678 0 0 0 0 0 0 0 0
+S
+#2678
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2677 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2679 0 0 0 0 0 0 0 0
+S
+#2679
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2678 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2680 0 0 0 0 0 0 0 0
+S
+#2680
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2679 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2681 0 0 0 0 0 0 0 0
+S
+#2681
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2680 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2682 0 0 0 0 0 0 0 0
+S
+#2682
+A Corner in the Wall~
+   You walk on a scraggly path that winds around a large wooden fence.  This is
+the northeastern corner of a small goblin fortress.  A faint mist hangs in the
+air, and you can hear the sounds of goblins moving around inside the fortress
+walls.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2681 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2683 0 0 0 0 0 0 0 0
+S
+#2683
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2684 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2682 0 0 0 0 0 0 0 0
+S
+#2684
+A Path Around the Wall~
+   This scraggly path moves its way around a large wooden wall that encompasses
+a small goblin camp.  There are signs of fresh footprints along the path, as if
+it gets used very heavily, but for what purpose is a mystery.    
+~
+26 0 h 0 0 0
+D1
+~
+~
+0 0 2607 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2683 0 0 0 0 0 0 0 0
+S
+#2685
+Inside a Dirty Room~
+   A few small chairs have been set up around this room for the goblins on duty
+to rest while they supposedly watch the back entrance.  There is a door to the
+west leading to the back entrance, and one to the south leading into the
+compound itself.    
+~
+26 0 h 0 0 0
+D2
+~
+door~
+1 0 2644 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2643 0 0 0 0 0 0 0 0
+S
+#2686
+The Witch Doctor's Chamber~
+   This room is filled with herbs and spices that are used by the witch doctor
+for his healing.  There is a small bed in the southwestern corner, and a round
+window that looks out to the east, further into the compound.    
+~
+26 0 h 0 0 0
+D0
+~
+~
+0 0 2633 0 0 0 0 0 0 0 0
+S
+$~

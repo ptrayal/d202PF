@@ -1,0 +1,74 @@
+#59900
+Sven~
+Sven~
+Sven the bartender is standing here
+~
+A most thin and pleasant fellow. His complexion is slightly tanned and he is rather tall.
+~
+bd b 0 0 k 0 0 0 0
+1 20 9 9d100+100 1d8+0
+1 0 42 27
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 10
+S
+#59901
+Guardian Statue~
+@DGuardian Statue@n~
+a @DGuardian Statue@n is resting againt the wall.
+~
+It looks unfinished.
+~
+bdnoA b 0 0 0 0 0 0 0
+1 20 9 12d100+100 1d1+1
+0 0 0 27
+8 8 0
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 16
+E
+Cha: 10
+S
+T 59901
+#59913
+Grog~
+Grog~
+Grog, a stiff half orc is standing here waiting for his master
+~
+A very rough yet well kept half orc with a friendly smile but wild eyes.
+~
+abd b 0 0 k 0 0 0 0
+1 20 9 9d100+100 1d8+0
+1 0 84 3
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 16
+E
+Con: 12
+E
+Cha: 10
+S
+$

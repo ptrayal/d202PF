@@ -1,0 +1,142 @@
+#14100
+gem opal perfect large~
+a large perfect opal~
+Neatly placed inside the chest is a large opal.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 0
+Z
+4
+E
+gem opal~
+   This opal appears to be well polished and highly taken care of.  There are
+no scuffs or markings on it at all.  The owner of it seems to have never
+touched it, as no fingerprints are visible at all.    
+~
+#14101
+gem peridot perfect large~
+a large perfect peridot~
+Neatly placed inside the chest is a large peridot.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 0
+Z
+4
+E
+gem peridot~
+   This peridot appears to be well polished and highly taken care of.  There
+are no scuffs or markings on it at all.  The owner of it seems to have never
+touched it, as no fingerprints are visible at all.    
+~
+#14102
+gem sapphire perfect large~
+a large perfect sapphire~
+Neatly placed inside the chest is a large sapphire.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 0
+Z
+4
+E
+gem sapphire~
+   This sapphire appears to be well polished and highly taken care of.  There
+are no scuffs or markings on it at all.  The owner of it seems to have never
+touched it, as no fingerprints are visible at all.    
+~
+#14103
+parchment neatly folded piece~
+a neatly folded piece of parchment~
+Lying on top of a folded quilt is a folded piece of parchment.~
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+parchment folded~
+   Respected High Priestess of Takhisis, It is my honor to be the first to
+congradulate you on your recent victory.  The battle you endeavored was quite
+drawn out, but you stood beside Commander Dax from start to finish.  I know
+that I made no mistake by asking you and Dax to join the White Dragonarmies and
+move into Icewall Castle.  I thank you for your honor, loyality and your
+powerful blessings from The Dark Queen.  Respectfully, Feal-Thas, Dragon High
+Lord Of The White Dragonarmies
+~
+#14104
+quilt folded neatly~
+a neatly folded quilt~
+Neatly folded and carefully placed here lies a quilt.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 0
+Z
+4
+E
+quilt folded~
+   This quilt appears to have been hand made.  The edges of the quilt are worn,
+which caused the color to fade a bit.  The quilt is made of a soft cotton, yet
+has patches of black velvet throughout it.  In the corner you see the name,
+Madienne Ad'Duruk.    
+~
+#14105
+handkerchief silk thin~
+a thin silk handkerchief~
+Carefully placed here is a thin silk handkerchief.~
+~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 0
+Z
+4
+E
+handkerchief silk~
+   The material of this handkerchief is made of a black silk.  It appears to be
+hand woven and looks to be brand new.  There has been the emblem of a
+five-headed dragon sewn directly in the center in a blood red color thread.  
+Under the five-headed dragon, there is the name Madienne Ad'Duruk
+~
+#14106
+key ribbon black~
+a platinum key hanging from a thick black ribbon~
+Lying on the ground there is a platinum key attached to a piece of black ribbon.~
+~
+18 A 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#14107
+glasses silver thick blood~
+a pair of thick silver glasses stained with blood~
+Tossed aside, here lies a pair of silver glasses.~
+~
+11 g 0 0 0 ae 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 41 0 0 0 0 0 0 0 0
+1 1000 0 30
+Z
+4
+A
+3 8 0
+#14108
+chest pine ~
+a pine chest~
+A small pine chest sits at the foot of an oversized bed.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10000 0 0 0
+Z
+4
+E
+chest pine foot bed oversized~
+   This chest is made of pure pine.  On the front of the chest, there has been
+the emblem of a five-headed dragon burned into the wood.  On the lid are the
+words, 'To Madienne, Love Dax.  ' There is a platinum lock which keeps the
+valuable contents quite safe.    
+~
+$~

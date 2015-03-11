@@ -1,0 +1,579 @@
+#14000
+Sare-nar white dragon highlord~
+Sare-nar, the new white dragon highlord~
+Sare-nar, the new white dragon highlord is here.
+~
+   Before you stands Sare-nar, White Dragon Highlord.  He has slender pale
+blue lips that curl up slightly in the corners as if he is always smirking.  
+High cheekbones and almond shaped white eyes accentuate the fact that he is
+half-elven.  His hair is black and is kept tied back in a small white transparent
+band, which flows to the middle of his back.  His hands are frail and he has
+long slender fingers.  Appearing as if he can barely hold his armor and sword,
+he eyes you carefully as you enter upon him.    
+~
+d g 0 0 k 0 0 0 -1000
+35 -15 -33 7000d340+124 1d8+43
+110 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#14001
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+35 3 -25 140d100+100 1d8+17
+110 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#14002
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+35 3 -25 140d100+100 1d8+17
+110 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#14003
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+35 3 -25 140d100+100 1d8+17
+110 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#14004
+Bozak Draconian Guard~
+a Bozak Draconian Guard~
+Patrolling his designated area, here is a Bozak Draconian Guard.
+~
+   Before you stands a muscular guard.  His skin is a yellowish-green color
+while his eyes are a glowing yellow.  He has large claws with long jagged
+fingernails, as well as slim pointed ears.  He has a bit of fur hanging from
+his chin, making it appear to be a beard.  A set of wings hang solemnly near
+his back as he patrols his designated area.    
+~
+dD 0 0 0 k 0 0 0 -1000
+35 -9 -28 2625d300+120 1d8+36
+110 0 32 20
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 13
+E
+Con: 24
+E
+Cha: 11
+S
+#14005
+Aurak Draconian Guard~
+an Aurak Draconian Guard~
+Patrolling his designated area, here is an Aurak Draconian Guard.
+~
+   Before you stands an oversized muscular guard.  Comparing him to the
+previous guard, his size almost doubles.  He is pure muscle.  His skin appears
+to be a dark shade of green, yet is very smooth.  He has large claws with long
+jagged fingernails, as well as slim pointed ears.  He has a bit of fur hanging
+from his chin, making it appear to be a beard.  A set of wings hang solemnly
+near his back as he patrols his designated area.    
+~
+dD 0 0 0 k 0 0 0 -1000
+35 -9 -46 2100d300+120 1d8+36
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14006
+malicious barbarian guard~
+a malicious barbarian guard~
+Patrolling his designated area, here is a malicious barbarian guard.
+~
+   Before you stands an oversized ugly barbarian.  His eyes are pure black,
+showing no sign of care or want for anything.  He carries himself with pure
+confidence as if he can beat any foe who tried to step in his way.  He has no
+hair, yet many scars can be seen all over him, including his head.  He notices
+your glance and returns it with a devastating glare.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14007
+homely cleaning wench~
+a homely cleaning wench~
+Keeping the room tidy, before you is a homely cleaning wench.
+~
+   Before you stands a busty woman with flowing red hair.  Her eyes are a
+piercing blue, while her skin is very pale.  She is of average height for a
+woman.  Her frame is quite lithe, as she is very active on her feet all day
+long.  She wears a black and white maid outfit and carries a rag in her hand at
+all times.  She never raises her head to look anyone in the eye.  She feels you
+looking her over and gives you a faint, but polite, curtsey.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14008
+White Dragonarmy Patrol Guard~
+a white dragonarmy patrol guard~
+Patrolling his designated area is a White Dragonarmy Patrol Guard.
+~
+   This oversized man is in full battle armor.  His arms are massive and solid,
+showing all those who stare him over that he is well trained for any battle.  
+His hair is kept short and is jet black.  His eyes are an evil shade of yellow,
+and show a strong resemblance to those of a dragon.  His face is clean shaven
+and he has a strong jawline.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14009
+Madienne High Priestess Madi~
+Madienne, High Priestess of Takhisis~
+Madienne, High Priestess of Takhisis, is here barking orders at her cleaning wench.
+~
+   Enshrouded with independence and refinement stands a small elf.  She has
+almond, cat-like eyes that have a small balls of dark green flames glowing
+within each pupil.  Her petite nose and narrow ears attain to a delicate point
+at the extremity of each.  Her elevated cheekbones and pouty lips are the
+foremost attributes of her facial features.  She stands solely at three and a
+half feet tall and her frame is tender and petite.    
+~
+bdF 0 0 0 k 0 0 0 -1000
+35 -13 -46 6300d340+124 1d8+42
+110 0 32 1
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 25
+E
+Con: 12
+E
+Cha: 11
+S
+#14010
+large minotaur guardsman guard~
+a large minotaur guardsman~
+A large minotaur guardsman patrols his designated area.
+~
+   The minotaur before you is covered in a thick coat of black fur.  His horns
+are a pale yellow, almost giving them an antique look.  His eyes are fire red
+and his teeth are a dingy yellow.  He wears a few pieces of armor just to
+please the Commander.  He is very alert and walks with a stride of confidence
+that can shatter the ego of any foe.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14011
+goblin guardsman patrolling guard~
+a heartless goblin guardsman~
+Patrolling his designated area, here is a goblin guardsman.
+~
+   This dark green skinned goblin has many scars that cover most of his well
+defined arms.  His eyes are a glowing blue color and can send shivers down the
+spine of any of his foes.  He carries himself with confidence and pride that he
+is serving the Dark Queen herself.  He has tiny warts that cover his entire
+visible body parts.  His teeth are brown and rotting.  As you approach, he
+snarls in your direction.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14012
+alert elven guardsman guard patrol patrolling~
+a spiteful elven guardsman~
+Highly alert and patrolling his designated area, here is an elven guardsman.
+~
+   This ebony-skinned elf wears full battle armor which has the emblem of the
+Dark Queen engraved into it.  He is lithe and moves in a smooth, graceful way.
+His hair is white and he keeps it in a prim ponytail, which hangs to the middle
+of his shoulders.  His ears attain to a tiny point at the extremity of each,
+while his high cheek bones and almond brown eyes top off his foremost
+attributes.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14013
+quick patrol guardsman guard patrol half-elven~
+a vindictive half-elven guardsman~
+Quick on his feet, patrolling his designated area, here is a half-elven guardsman.
+~
+   This dark skinned half-elf is quite quick on his feet.  He moves with an
+elegance that is somewhat chilling to those he is hunting.  He has dull grey
+eyes that show no sign of emotion, as if he cared not if he lived or died.  He
+wears armor that has the emblem of a Five Headed Dragon engraved into it.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14014
+obscene threats dwarf dwarven guardsman guard ~
+a bitter dwarven guardsman~
+Shouting obscene threats to any who pass, a dwarven guardsman is patrolling his area.
+~
+   This tiny dwarf has enough confidence for two armies.  His bushy, unkept red
+hair matching his long bushy red beard.  His eyes are a mysterious jade color
+while his skin is very pale.  He wears full battle armor at all times and on
+the chest of his armor is the emblem of Takhisis herself, which he is quite
+proud of.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14015
+draconian patrol guard~
+a draconian patrol guard~
+A draconian of the white dragonarmy is here patrolling the wall.
+~
+   Before you stands an oversized muscular guard.  Comparing him to the
+previous guard, his size almost doubles.  He is pure muscle.  His skin appears
+to be a dark shade of green, yet is very smooth.  He has large claws with long
+jagged fingernails, as well as slim pointed ears.  He has a bit of fur hanging
+from his chin, making it appear to be a beard.  A set of wings hang solemnly
+near his back as he patrols his designated area.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14016
+brawny human guard~
+a brawny human guard~
+A brawny human guard is here patrolling his designated area.
+~
+   This oversized man is in full battle armor.  His arms are massive and solid,
+showing all those who stare him over that he is well trained for any battle.  
+His hair is kept short and is jet black.  His eyes are an evil shade of green,
+and show a close resemblance to those of a dragon.  His face is clean shaven
+and he has a strong jawline.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14017
+ogre towering guard~
+a towering yellow-skinned ogre guard~
+A towering ogre guard leans against the wall looking for intruders.
+~
+   Nearly asleep, but aware to the world around him, here leans a large
+yellow-skinned ogre.  Large warts cover his entire body.  He has many cuts
+along his oversized folded arms, which have caused large pools of blood to
+gather around him.  Some of the warts on his body have been oozing puss and is
+dripping down his arms.    
+~
+d 0 0 0 k 0 0 0 -1000
+35 3 -42 420d220+112 1d8+17
+110 0 32 3
+8 8 1
+E
+Str: 24
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 11
+E
+Con: 14
+E
+Cha: 11
+S
+#14018
+exx sadistically tempered creature foul~
+Exx, a sadistically tempered creature~
+Lurking within the shadows is a foul tempered creature.
+~
+   Concealed in an oversized black hooded cloak, before you stands a tiny
+figure.  His facial features are hard to make out, as he moves with such
+swiftness he looks as if he is just a black blur.  You do see, however, glowing
+yellow eyes peer right through to your inner soul, but only if he allows you to
+see him.    
+~
+dF 0 0 0 k 0 0 0 -1000
+35 -13 -39 4200d250+115 1d8+42
+110 0 32 2
+8 8 1
+E
+Str: 14
+E
+Dex: 24
+E
+Int: 12
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#14019
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+d 0 0 0 k 0 0 0 0
+35 3 -25 140d100+100 1d8+17
+110 0 32 0
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+#14020
+sentry sinewy white dragonarmy guard sentinel~
+a sinewy white dragonarmy sentry~
+A sinewy sentinel stands guard over the entrance of the castle.
+~
+   This burly human stands here motionless attending to the entrance of the
+castle.  Suited in white chainmail save and white leather this sentry seems to
+be very comfortable despite the extreme cold.  Sworn to protect the entrance of
+the castle this man would rather lose his life then fail his queen.    
+~
+d 0 0 0 k 0 0 0 0
+35 3 -25 140d250+115 1d8+17
+110 0 32 0
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 11
+E
+Con: 10
+E
+Cha: 11
+S
+$

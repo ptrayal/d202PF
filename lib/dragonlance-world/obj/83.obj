@@ -1,0 +1,209 @@
+#8300
+tunic knights Vingaard~
+a tunic bearing the insignia of the Knights of Solamnia~
+A tunic lies rolled up upon the floor.~
+~
+9 C 0 0 0 ad 0 0 0 0 0 0 0
+30 2 4 -3 100 100 20 2 20 5 15 0 0 0 0 0
+250 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#8301
+shield training Vingaard~
+a small training shield~
+A shield lies forgotten upon the ground.~
+~
+9 jpst a stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8302
+object new~
+a new object~
+A new object is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8303
+greaves brown studded leather Vingaard~
+a pair of brown, studded leather greaves~
+A pair of brown greaves lie upon the floor.~
+~
+9 jpst a stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 975 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#8304
+gauntlets studded leather Vingaard~
+a pair of studded leather gauntlets~
+A pair of leather gauntlets lie tossed upon the ground.~
+~
+9 jpst a stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 975 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#8305
+boots stiff leather Vingaard~
+a pair of stiff leather boots~
+A pair of boots have been left here.~
+~
+9 jpst a stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 340 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#8306
+a platinum band~
+a platinum band enscribed with the symbol of a rose~
+A gleaming platinum band lays here.~
+~
+11 0 0 0 0 ab 0 0 0 0 0 c 0
+0 0 0 0 100 100 0 22 0 0 0 0 0 0 0 0
+0 0 0 12
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+3
+D
+0
+A
+4 6 0
+A
+1 6 0
+#8307
+spear long Vingaard~
+a long, metal-shafted spear~
+A spear rests against the wall.~
+~
+5 k 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 14 0 0 0 0 0 0 0 0
+5 975 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#8308
+band platinum crown Vingaard~
+a platinum band enscribed with the symbol of a crown~
+A platinum band lies upon the floor.~
+~
+9 jpst a 0 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 975 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+A
+23 1 0
+#8309
+bracer platinum rose Vingaard~
+a platinum bracer etched with the symbol of a rose~
+A platinum bracer has been dropped here.~
+2~
+9 jpst a 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 975 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#8310
+belt platinum Vingaard~
+a platinum belt with an etched symbol of a sword~
+A platinum belt has been tossed here.~
+~
+9 jpst a 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 975 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 10 0
+#8311
+breastplate silver roses Vingaard~
+a silver breastplate adorned with roses~
+A silver breastplate lies upon the ground.~
+~
+9 jpst a 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 1200 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+A
+13 5 0
+A
+18 1 0
+#8312
+bow longbow exceptionally Vingaard~
+an exceptionally crafted longbow~
+Lying upon the ground is a longbow.~
+~
+5 jpstx a k 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 975 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

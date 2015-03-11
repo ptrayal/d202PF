@@ -1,0 +1,462 @@
+#67
+None.~
+Solanthus~
+6700 6799 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+E 0  6733     3    16   0    25     1     0          0 a sharp rose wood footman's lance
+
+M 0  6706     2  6702   2   100     2    -1          0 a crown knight sentry
+
+D 0  6702     0     1   0   101     3    -10 
+
+D 0  6703     2     1   0   101     4    -10 
+
+D 0  6772     3     1   0   101     5    -10 
+
+D 0  6797     1     1   0   101     6    -10 
+
+M 0  6743     2  6780   1   100     7    -1          0 a quiet barmaid with long black pigtails
+
+M 0  6741     1  6780   1   100     8    -1          0 Druen uth Matarin
+
+E 1  6723     1    13   0     5     9     8          0 a small brown bag of holding
+
+G 1  6706     1     0   0   100    10     8          0 a small wooden keyring with a single key
+
+O 0  6711     1  6780   0   100    11    -1          0 a large wooden half-oval bar
+
+P 1  6705     5  6711   0   100    12    11          0 a small wooden glass
+
+P 1  6704     5  6711   0   100    13    11          0 a large wooden mug
+
+D 0  6780     5     2   0   101    14    -10 
+
+O 0  6708     2  6781   0   100    15    -1          0 a tall wooden wine rack
+
+P 1  6709     6  6708   0   100    16    15          0 a dusty bottle of fine wine
+
+O 0  6710     1  6781   0   100    17    -1          0 a large barrel of whisky
+
+D 0  6781     4     2   0   101    18    -10 
+
+D 0  6783     0     1   0   101    19    -10 
+
+M 0  6743     2  6779   1   100    20    -1          0 a quiet barmaid with long black pigtails
+
+O 0  6707     6  6779   0   100    21    -1          0 a tall table and set of chairs
+
+D 0  6779     2     1   0   101    22    -10 
+
+M 0  6729     1  6773   1   100    23    -1          0 the Captain of the Crown
+
+D 0  6773     0     1   0   101    24    -10 
+
+D 0  6791     2     1   0   101    25    -10 
+
+D 0  6788     2     1   0   101    26    -10 
+
+M 0  6727     1  6774   1   100    27    -1          0 the Captain of the Sword
+
+E 1  6745     1    13   0    18    28    27          0 a lightweight chainmail satchel
+
+D 0  6774     0     1   0   101    29    -10 
+
+D 0  6789     2     1   0   101    30    -10 
+
+M 0  6728     1  6775   1   100    31    -1          0 the Captain of the Rose
+
+E 1  6735     2     4   0     3    32    31          0 a thick chainmail collar engraved with ancient writing
+
+E 1  6735     2     3   0     3    33    31          0 a thick chainmail collar engraved with ancient writing
+
+D 0  6775     0     1   0   101    34    -10 
+
+O 0  6708     2  6782   0   100    35    -1          0 a tall wooden wine rack
+
+P 1  6709     6  6708   0   100    36    35          0 a dusty bottle of fine wine
+
+M 0  6740     2  6799   2  1000    37    -1          0 a frail cook in a stained apron
+
+O 0  6700     1  6799   0   100    38    -1          0 an open fire stove
+
+P 1  6701     6  6700   0   100    39    38          0 a flame broiled steak
+
+P 1  6701     6  6700   0   100    40    38          0 a flame broiled steak
+
+P 1  6701     6  6700   0   100    41    38          0 a flame broiled steak
+
+P 1  6701     6  6700   0   100    42    38          0 a flame broiled steak
+
+O 0  6707     6  6784   0   100    43    -1          0 a tall table and set of chairs
+
+M 0  6742     3  6776   1   100    44    -1          0 an aged ex-member of the watch
+
+O 0  6707     6  6776   0   100    45    -1          0 a tall table and set of chairs
+
+O 0  6707     6  6785   0   100    46    -1          0 a tall table and set of chairs
+
+M 0  6742     3  6777   1   100    47    -1          0 an aged ex-member of the watch
+
+O 0  6707     6  6777   0   100    48    -1          0 a tall table and set of chairs
+
+M 0  6742     3  6778   1   100    49    -1          0 an aged ex-member of the watch
+
+O 0  6707     6  6778   0   100    50    -1          0 a tall table and set of chairs
+
+O 0  6712     1  6705   0   100    51    -1          0 a pure spring
+
+M 0  6732     1  6764   1   100    52    -1          0 a priest of Paladine
+
+E 1  6717     1     6   0     6    53    52          0 an ornately carved ivory diadem
+
+O 0  6714     1  6764   0   100    54    -1          0 a massive podium
+
+M 0  6711     9  6798   3   100    55    -1          0 a young solamnic squire
+
+M 0  6711     9  6798   3   100    56    -1          0 a young solamnic squire
+
+M 0  6711     9  6798   3   100    57    -1          0 a young solamnic squire
+
+O 0  6715     3  6798   0   100    58    -1          0 a weapon rack
+
+P 1  6716     6  6715   0   100    59    58          0 a battered iron longsword
+
+M 0  6711     9  6786   3   100    60    -1          0 a young solamnic squire
+
+M 0  6711     9  6786   3   100    61    -1          0 a young solamnic squire
+
+M 0  6711     9  6786   3   100    62    -1          0 a young solamnic squire
+
+O 0  6715     3  6786   0   100    63    -1          0 a weapon rack
+
+P 1  6716     6  6715   0   100    64    63          0 a battered iron longsword
+
+M 0  6711     9  6787   3   100    65    -1          0 a young solamnic squire
+
+M 0  6711     9  6787   3   100    66    -1          0 a young solamnic squire
+
+M 0  6711     9  6787   3   100    67    -1          0 a young solamnic squire
+
+O 0  6715     3  6787   0   100    68    -1          0 a weapon rack
+
+P 1  6716     6  6715   0   100    69    68          0 a battered iron longsword
+
+M 0  6736     4  6760   1   100    70    -1          0 an aged soldier in rustic armor
+
+M 0  6735     4  6760   1   100    71    -1          0 a fully-dressed guardsman
+
+M 0  6734     4  6760   1   100    72    -1          0 an outspoken squire
+
+M 0  6733     4  6760   1   100    73    -1          0 a calm, solamnic squire
+
+O 0  6713     6  6760   0   100    74    -1          0 a long wooden bench
+
+M 0  6736     4  6763   1   100    75    -1          0 an aged soldier in rustic armor
+
+M 0  6735     4  6763   1   100    76    -1          0 a fully-dressed guardsman
+
+M 0  6734     4  6763   1   100    77    -1          0 an outspoken squire
+
+M 0  6733     4  6763   1   100    78    -1          0 a calm, solamnic squire
+
+O 0  6713     6  6763   0   100    79    -1          0 a long wooden bench
+
+M 0  6736     6  6761   1   100    80    -1          0 an aged soldier in rustic armor
+
+M 0  6735     6  6761   1   100    81    -1          0 a fully-dressed guardsman
+
+M 0  6734     6  6761   1   100    82    -1          0 an outspoken squire
+
+M 0  6733     6  6761   1   100    83    -1          0 a calm, solamnic squire
+
+O 0  6713     6  6761   0   100    84    -1          0 a long wooden bench
+
+M 0  6736     4  6762   1   100    85    -1          0 an aged soldier in rustic armor
+
+M 0  6735     4  6762   1   100    86    -1          0 a fully-dressed guardsman
+
+M 0  6734     4  6762   1   100    87    -1          0 an outspoken squire
+
+M 0  6733     4  6762   1   100    88    -1          0 a calm, solamnic squire
+
+O 0  6713     6  6762   0   100    89    -1          0 a long wooden bench
+
+M 0  6736     4  6759   1   100    90    -1          0 an aged soldier in rustic armor
+
+M 0  6735     4  6759   1   100    91    -1          0 a fully-dressed guardsman
+
+M 0  6734     4  6759   1   100    92    -1          0 an outspoken squire
+
+M 0  6733     4  6759   1   100    93    -1          0 a calm, solamnic squire
+
+O 0  6713     6  6759   0   100    94    -1          0 a long wooden bench
+
+M 0  6736     6  6758   1   100    95    -1          0 an aged soldier in rustic armor
+
+M 0  6735     6  6758   1   100    96    -1          0 a fully-dressed guardsman
+
+M 0  6734     6  6758   1   100    97    -1          0 an outspoken squire
+
+M 0  6733     6  6758   1   100    98    -1          0 a calm, solamnic squire
+
+O 0  6713     6  6758   0   100    99    -1          0 a long wooden bench
+
+M 0  6708     4  6741   2   100   100    -1          0 a lithe tower archer
+
+E 1  6734     5    16   0    10   101   100          0 a sturdy, rose wood longbow
+
+M 0  6708     4  6741   2   100   102    -1          0 a lithe tower archer
+
+M 0  6707     4  6741   2   100   103    -1          0 a husky tower archer
+
+E 1  6734     5    16   0    10   104   103          0 a sturdy, rose wood longbow
+
+M 0  6707     4  6741   2   100   105    -1          0 a husky tower archer
+
+M 0  6707     4  6740   2   100   106    -1          0 a husky tower archer
+
+E 1  6734     5    16   0    10   107   106          0 a sturdy, rose wood longbow
+
+M 0  6707     4  6740   2   100   108    -1          0 a husky tower archer
+
+M 0  6708     4  6740   2   100   109    -1          0 a lithe tower archer
+
+E 1  6734     5    16   0    10   110   109          0 a sturdy, rose wood longbow
+
+M 0  6708     4  6740   2   100   111    -1          0 a lithe tower archer
+
+M 0  6710     4  6738   2   100   112    -1          0 a rigid tower guard
+
+M 0  6710     4  6738   2   100   113    -1          0 a rigid tower guard
+
+M 0  6709     4  6738   2   100   114    -1          0 a burly tower guard
+
+M 0  6709     4  6738   2   100   115    -1          0 a burly tower guard
+
+M 0  6709     4  6739   2   100   116    -1          0 a burly tower guard
+
+M 0  6709     4  6739   2   100   117    -1          0 a burly tower guard
+
+M 0  6710     4  6739   2   100   118    -1          0 a rigid tower guard
+
+M 0  6710     4  6739   2   100   119    -1          0 a rigid tower guard
+
+M 0  6730     1  6792   1   100   120    -1          0 a vigilant sentry in polished armor
+
+M 0  6712     1  6794   1   100   121    -1          0 a veteran knight of the sword
+
+M 0  6737    10  6707   2   100   122    -1          0 an experienced member of the watch
+
+E 1  6732     1    16   0     3   123   122          0 a solamnic battle standard
+
+E 1  6727     5    10   0    25   124   122          0 a pair of solamnic platemail arm plates
+
+E 1  6726     5     8   0    25   125   122          0 a pair of solamnic platemail boots
+
+E 1  6725     5     7   0    25   126   122          0 a pair of solamnic platemail greaves
+
+M 0  6737    10  6713   2   100   127    -1          0 an experienced member of the watch
+
+E 1  6732     1    16   0     3   128   127          0 a solamnic battle standard
+
+E 1  6727     5    10   0    25   129   127          0 a pair of solamnic platemail arm plates
+
+E 1  6726     5     8   0    25   130   127          0 a pair of solamnic platemail boots
+
+E 1  6725     5     7   0    25   131   127          0 a pair of solamnic platemail greaves
+
+M 0  6737    10  6709   2   100   132    -1          0 an experienced member of the watch
+
+E 1  6732     1    16   0     3   133   132          0 a solamnic battle standard
+
+E 1  6727     5    10   0    25   134   132          0 a pair of solamnic platemail arm plates
+
+E 1  6726     5     8   0    25   135   132          0 a pair of solamnic platemail boots
+
+E 1  6725     5     7   0    25   136   132          0 a pair of solamnic platemail greaves
+
+M 0  6737    10  6711   2   100   137    -1          0 an experienced member of the watch
+
+E 1  6732     1    16   0     3   138   137          0 a solamnic battle standard
+
+E 1  6727     5    10   0    25   139   137          0 a pair of solamnic platemail arm plates
+
+E 1  6726     5     8   0    25   140   137          0 a pair of solamnic platemail boots
+
+E 1  6725     5     7   0    25   141   137          0 a pair of solamnic platemail greaves
+
+M 0  6737    10  6728   2   100   142    -1          0 an experienced member of the watch
+
+E 1  6732     1    16   0     3   143   142          0 a solamnic battle standard
+
+E 1  6727     5    10   0    25   144   142          0 a pair of solamnic platemail arm plates
+
+E 1  6726     5     8   0    25   145   142          0 a pair of solamnic platemail boots
+
+E 1  6725     5     7   0    25   146   142          0 a pair of solamnic platemail greaves
+
+M 0  6737    10  6726   2   100   147    -1          0 an experienced member of the watch
+
+E 1  6732     1    16   0     3   148   147          0 a solamnic battle standard
+
+E 1  6727     5    10   0    25   149   147          0 a pair of solamnic platemail arm plates
+
+E 1  6726     5     8   0    25   150   147          0 a pair of solamnic platemail boots
+
+E 1  6725     5     7   0    25   151   147          0 a pair of solamnic platemail greaves
+
+M 0  6738     6  6706   2   100   152    -1          0 a young member of the watch
+
+M 0  6738     6  6704   2   100   153    -1          0 a young member of the watch
+
+M 0  6739     4  6730   1   100   154    -1          0 a giggling child
+
+M 0  6738     6  6730   2   100   155    -1          0 a young member of the watch
+
+M 0  6739     4  6731   1   100   156    -1          0 a giggling child
+
+M 0  6738     6  6731   2   100   157    -1          0 a young member of the watch
+
+M 0  6744     4  6725   1   100   158    -1          0 a young acolyte
+
+E 1  6724     8     5   0    25   159   158          0 a white satin robe
+
+O 0  6739     1  6725   0   100   160    -1          0 the Temple of Shinare
+
+M 0  6739     4  6714   1   100   161    -1          0 a giggling child
+
+D 0  6750     8     2   0   101   162    -10 
+
+D 0  6737     9     1   0   101   163    -10 
+
+O 0  6738     1  6737   0   100   164    -1          0 a large wooden sign
+
+D 0  6737     7     2   0   101   165    -10 
+
+M 0  6744     4  6715   1   100   166    -1          0 a young acolyte
+
+E 1  6724     8     5   0    25   167   166          0 a white satin robe
+
+O 0  6740     1  6715   0   100   168    -1          0 the Temple of Mishakal
+
+M 0  6744     4  6751   1   100   169    -1          0 a young acolyte
+
+E 1  6724     8     5   0    25   170   169          0 a white satin robe
+
+O 0  6741     1  6751   0   100   171    -1          0 the Temple of Kiri-Jolith
+
+M 0  6744     4  6752   1   100   172    -1          0 a young acolyte
+
+E 1  6724     8     5   0    25   173   172          0 a white satin robe
+
+O 0  6742     1  6752   0   100   174    -1          0 the Temple of Paladine
+
+M 0  6745     1  6717   1   100   175    -1          0 the High Priest of Solanthus
+
+E 1  6731     1    16   0    12   176   175          0 a blessed silver war mace shrouded in holy white flame
+
+D 0  6753     1     1   0   101   177    -10 
+
+M 0  6749     5  6754   1   100   178    -1          0 a resting recruit
+
+E 1  6716    12    16   0    20   179   178          0 a battered iron longsword
+
+M 0  6748     5  6754   1   100   180    -1          0 a young recruit
+
+E 1  6716    12    16   0    20   181   180          0 a battered iron longsword
+
+M 0  6747     5  6754   1   100   182    -1          0 a veteran instructor
+
+E 1  6716    12    16   0    20   183   182          0 a battered iron longsword
+
+D 0  6754     3     1   0   101   184    -10 
+
+M 0  6746     1  6756   1   100   185    -1          0 the Master Instructor
+
+E 1  6721     1     2   0     1   186   185          0 a thick marble band
+
+E 1  6721     1     1   0     1   187   185          0 a thick marble band
+
+E 1  6720     1    11   0     6   188   185          0 an antique silver buckler covered in ancient solamnic runes
+
+E 1  6719     1    13   0     6   189   185          0 a skirt of looped platemail hoops
+
+E 1  6718     1    16   0     6   190   185          0 a defenders shortsword
+
+E 1  6743     1     4   0     3   191   185          0 a dark potion attached to a lanyard
+
+E 1  6743     1     3   0     3   192   185          0 a dark potion attached to a lanyard
+
+M 0  6749     5  6720   1   100   193    -1          0 a resting recruit
+
+M 0  6748     5  6720   1   100   194    -1          0 a young recruit
+
+M 0  6747     5  6720   1   100   195    -1          0 a veteran instructor
+
+M 0  6749     5  6757   1   100   196    -1          0 a resting recruit
+
+E 1  6716    12    16   0    20   197   196          0 a battered iron longsword
+
+M 0  6748     5  6757   1   100   198    -1          0 a young recruit
+
+E 1  6716    12    16   0    20   199   198          0 a battered iron longsword
+
+M 0  6747     5  6757   1   100   200    -1          0 a veteran instructor
+
+E 1  6716    12    16   0    20   201   200          0 a battered iron longsword
+
+M 0  6749     5  6755   1   100   202    -1          0 a resting recruit
+
+E 1  6716    12    16   0    20   203   202          0 a battered iron longsword
+
+M 0  6748     5  6755   1   100   204    -1          0 a young recruit
+
+E 1  6716    12    16   0    20   205   204          0 a battered iron longsword
+
+M 0  6747     5  6755   1   100   206    -1          0 a veteran instructor
+
+E 1  6716    12    16   0    20   207   206          0 a battered iron longsword
+
+M 0  6749     5  6719   1   100   208    -1          0 a resting recruit
+
+E 1  6716    12    16   0    20   209   208          0 a battered iron longsword
+
+M 0  6748     5  6719   1   100   210    -1          0 a young recruit
+
+E 1  6716    12    16   0    20   211   210          0 a battered iron longsword
+
+M 0  6747     5  6719   1   100   212    -1          0 a veteran instructor
+
+E 1  6716    12    16   0    20   213   212          0 a battered iron longsword
+
+M 0  6714     1  6734   1   100   214    -1          0 a somber, viligent knight of the rose
+
+M 0  6715     1  6735   1   100   215    -1          0 a battered old beggar
+
+M 0  6716     1  6733   1   100   216    -1          0 a well-dressed citizen
+
+G 1  6703   500     0   0   100   217   216          0 a bowl of steamed vegetables
+
+G 1  6702   500     0   0   100   218   216          0 a plate of boiled potatoes
+
+G 1  1313   500     0   0   100   219   216          0 a fresh loaf of bread
+
+M 0  6750     1  6721   1   100   220    -1          0 a enraged ogre of monstrous stature
+
+E 1  6737     5     4   0     3   221   220          0 a spiked granite collar inlaid with peices of razor sharp onyx
+
+E 1  6737     5     3   0     3   222   220          0 a spiked granite collar inlaid with peices of razor sharp onyx
+
+E 1  6736     5     2   0     3   223   220          0 a spiked fingerband crafted from solid granite
+
+E 1  6736     5     1   0     3   224   220          0 a spiked fingerband crafted from solid granite
+
+O 0  6746     1  6721   0   100   225    -1          0 a disfigured human corpse
+
+D 0  6721     6     1   0   101   226    -10 
+
+S
+$

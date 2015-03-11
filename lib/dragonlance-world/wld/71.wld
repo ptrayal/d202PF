@@ -1,0 +1,1212 @@
+#7100
+The Entryway to a Seedy Bar~
+   Long torn off from its hinges, only a ghost of a door stands here.  The
+floor was probably once tiled, but now it's more of a hard-packed dirt floor
+with a sprinkling of glass shards.  During the evenings, the floor gets to be
+caked with spillage, and boots quickly become stuck to the dirt, making a
+sticking sound when removed.    
+~
+71 d 0 0 0  0
+D0
+~
+planks~
+1 0 6599 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7102 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7101 0 0 0 0 0 0 0 0
+S
+#7101
+Several Booths Line the Walls~
+   Hardwood booths are bolted to the walls and ground, unwilling to move even
+when the barfights break out.  The cushions that once lined these resting
+places are now completely gone, or nearly so on almost all booths.  Pictures of
+various local "well-knowns" hang proudly, each pictured in his shining,
+drunken, best pose.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7100 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7103 0 0 0 0 0 0 0 0
+S
+#7102
+At the Counter~
+   The owner of this counter has done his best to wipe clear the grime that is
+thickly applied to nearly all of the length of the surface.  Tiny chairs with
+long legs and short backs sit neatly in rows and will quickly be thrown into
+disarray when the night rush arrives.  Very few liquors line the racks behind
+the bar, but a couple large barrels of ale rest in place, ready to be tapped
+open when the sun goes down.    
+~
+71 d 0 0 0  0
+D1
+~
+door~
+1 0 7104 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7103 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7100 0 0 0 0 0 0 0 0
+S
+#7103
+Several Booths Line the Walls~
+   Hardwood booths are bolted to the walls and ground, unwilling to move even
+when the barfights break out.  The cushions that once lined these resting
+places are now completely gone, or nearly so on almost all booths.  Pictures of
+various local "well-knowns" hang proudly, each pictured in his shining,
+drunken, best pose.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7102 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7101 0 0 0 0 0 0 0 0
+S
+#7104
+At a Blocked Doorway~
+   A very tiny cubicle which runs straight into a closed, reinforced door rests
+conveniently between the two doorways.  The double-swinging door behind the
+counter appears to lead to a cellar for storing ale, but in actuality conceals
+the entrance to another structure.    
+~
+71 d 0 0 0  0
+D1
+~
+door~
+1 0 7105 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 7102 0 0 0 0 0 0 0 0
+S
+#7105
+Entrance to the Watering Hole~
+   Compared to its connecting counterpart, this bar is a very happening place.
+This bar is not restricted to race, sex, or preference, as individuals of all
+the various races represented on Krynn drink heavily here.  The walls are
+obviously magically enchanted to prevent noise, and information leaking out.  
+This well kept secret of Sanction is also one of the biggest partying locals.
+Not to mention home to one of the best networks that exist in Krynn.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7107 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7108 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 7104 0 0 0 0 0 0 0 0
+S
+#7106
+Within the Thieves Bar in Sanction~
+   Well kept chairs and fine vallenwood tables rest about the room, virtually
+every seat being occupied.  When any enter the bar, not one person appears to
+take notice, but in reality, everyone is quickly aware of all visitors, and
+everyone is known by name in this organization.  If a newcomer arrives, they
+will quickly find a dagger at their throat without having a chance to defend
+themselves.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7109 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7111 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7105 0 0 0 0 0 0 0 0
+S
+#7107
+Within the Thieves Bar in Sanction~
+   The exquisitely stone-block formed walls here contain small windows which
+through an intense network of mirrors connect to all the major points in
+Sanction.  This allows the viewers to see anything and everything that happens.
+Although those who are seated here appear not interested in what's going on,
+rest assured they are seeking an opportunity, while relaxing with their
+acquaintances.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7105 0 0 0 0 0 0 0 0
+S
+#7108
+An Empty Booth~
+   Well kept chairs and fine vallenwood tables rest about the room, virtually
+every seat being occupied.  When any enter the bar, not one person appears to
+take notice, but in reality, everyone is quickly aware of all visitors, and
+everyone is known by name in this organization.  If a newcomer arrives, they
+will quickly find a dagger at their throat without having a chance to defend
+themselves.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7105 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7110 0 0 0 0 0 0 0 0
+S
+#7109
+Within the Thieves Bar in Sanction~
+   The exquisitely stone-block formed walls here contain small windows which
+through an intense network of mirrors connect to all the major points in
+Sanction.  This allows the viewers to see anything and everything that happens.
+Although those who are seated here appear not interested in what's going on,
+rest assured they are seeking an opportunity, while relaxing with their
+acquaintances.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7112 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7106 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7107 0 0 0 0 0 0 0 0
+S
+#7110
+Within the Thieves Bar in Sanction~
+   Well kept chairs and fine vallenwood tables rest about the room, virtually
+every seat being occupied.  When any enter the bar, not one person appears to
+take notice, but in reality, everyone is quickly aware of all visitors, and
+everyone is known by name in this organization.  If a newcomer arrives, they
+will quickly find a dagger at their throat without having a chance to defend
+themselves.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7106 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7108 0 0 0 0 0 0 0 0
+S
+#7111
+Within the Thieves Bar in Sanction~
+   A large table of toughs stand here, each undeniably the brutes for this
+network.  A large plush couch lies here, formed into an L-shape which hugs the
+walls.  They sit around playing cards, and laughing at each others crude jokes.
+A large curtain hangs next to the edge of the couch, and it is obvious what
+their purpose there is.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7112 0 0 0 0 0 0 0 0
+D1
+~
+curtain~
+1 0 7114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7113 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7106 0 0 0 0 0 0 0 0
+S
+#7112
+Within the Thieves Bar in Sanction~
+   The exquisitely stone-block formed walls here contain small windows which
+through an intense network of mirrors connect to all the major points in
+Sanction.  This allows the viewers to see anything and everything that happens.
+Although those who are seated here appear not interested in what's going on,
+rest assured they are seeking an opportunity, while relaxing with their
+acquaintances.    
+~
+71 d 0 0 0  0
+D2
+~
+~
+0 0 7111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7109 0 0 0 0 0 0 0 0
+S
+#7113
+Approaching the Bar~
+   Everything about this bar is top notch, fine stained glass conceals an
+assortment of the most lavish drinks that can be found in all the lands.  Long
+necked glasses hang upside down from holsters above the bar, and the clientele
+chat about everything and anything, yet when it comes down to business, they
+keep their voices down low.  There is little information spoken here that is
+not valuable, when overheard by the right person that is.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7110 0 0 0 0 0 0 0 0
+S
+#7114
+A Well Connected Network Within the Guild~
+   A hallway accompanied by magically illuminated lights heads down and forks
+ahead.  Evenly cut stones line the walls, and a plush carpet lies underneath.
+One things for sure, the thieves here have surpassed expectations despite the
+intrusion of the Dragonarmy.  Every so many yards, a few steps exist to
+eventually drop well below the city, into unknown territory.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7115 0 0 0 0 0 0 0 0
+D3
+~
+curtain~
+1 0 7111 0 0 0 0 0 0 0 0
+S
+#7115
+A Well Connected Network Within the Guild~
+   A hallway accompanied by magically illuminated lights heads down and forks
+ahead.  Evenly cut stones line the walls, and a plush carpet lies underneath.
+One things for sure, the thieves here have surpassed expectations despite the
+intrusion of the Dragonarmy.  Every so many yards, a few steps exist to
+eventually drop well below the city, into unknown territory.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7114 0 0 0 0 0 0 0 0
+S
+#7116
+The Fork in the Network~
+   The steps now plunge a few feet down, each heading in a 45 degree angle away
+from the direction the path was heading.  There are no marks on any part of the
+carpet, and the stones that form the walls must be dusted and de-webbed daily.
+A large picture rests here, it depicts a very peculiar looking individual who
+appears quite wealthy despite his setback.    
+~
+71 0 0 0 0  0
+D3
+~
+~
+0 0 7115 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7117 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7118 0 0 0 0 0 0 0 0
+E
+picture ~
+   Framed in this picture is a very thin weasle of a man with a goatee.  He
+sits here relaxing in a chair, and a smirk comes to his face.  A small grey
+wisp of air swirls about him in the background, and a slight form can be seen.
+A deadly blade is poised behind him, and this killer is ready to strike and
+collect on his bounty.    
+~
+S
+#7117
+Taking a Fork~
+   The path is slightly angled and continues on, the placing of the walls
+making it impossible to see what is ahead.  By now, the structure is obviously
+underground and any who were claustrophobic would have given up by now.  No
+wind travels through this pathway, and the air is quite stagnant and unmoving.
+~
+71 d 0 0 0  0
+D7
+~
+~
+0 0 7119 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7116 0 0 0 0 0 0 0 0
+S
+#7118
+A Branch in the Hallway~
+   The path is slightly angled and continues on, the placing of the walls
+making it impossible to see what is ahead.  By now, the structure is obviously
+underground and any who were claustrophobic would have given up by now.  No
+wind travels through this pathway, and the air is quite stagnant and unmoving.
+~
+71 d 0 0 0  0
+D6
+~
+~
+0 0 7116 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7120 0 0 0 0 0 0 0 0
+S
+#7119
+Taking a Fork~
+   The path is slightly angled and continues on, the placing of the walls
+making it impossible to see what is ahead.  By now, the structure is obviously
+underground and any who were claustrophobic would have given up by now.  No
+wind travels through this pathway, and the air is quite stagnant and unmoving.
+~
+71 0 0 0 0  0
+D1
+~
+~
+0 0 7122 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7117 0 0 0 0 0 0 0 0
+S
+#7120
+Taking a Fork~
+   The path is slightly angled and continues on, the placing of the walls
+making it impossible to see what is ahead.  By now, the structure is obviously
+underground and any who were claustrophobic would have given up by now.  No
+wind travels through this pathway, and the air is quite stagnant and unmoving.
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7121 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7118 0 0 0 0 0 0 0 0
+S
+#7121
+Entrance to the Training Area~
+   Several doors line this hallway, each containing an area where the thieves
+in training may practice their art.  No one seems to enter or leave these
+rooms, and nothing can be heard in the hallway.  Although that does not
+necessarily mean no one is keeping watch over this section of the guild.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7123 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 7124 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7120 0 0 0 0 0 0 0 0
+S
+#7122
+A Dark End of the Hallway~
+   This side of the hallway is much darker than the rest of the halls, and what
+goes on behind these closed doors is one of the highly kept secrets in
+Sanction.  Dark as an alleyway on the night of an eclipse, it is impossible to
+distinguish if any major landmarks line the walls.  Perhaps an occasional
+picture or sconce is here, obviously long ago run out of fuel.    
+~
+71 d 0 0 0  0
+D0
+~
+door~
+1 0 7160 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7153 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7119 0 0 0 0 0 0 0 0
+S
+#7123
+The Training Area~
+   Several doors line this hallway, each containing an area where the thieves
+in training may practice their art.  No one seems to enter or leave these
+rooms, and nothing can be heard in the hallway.  Although that does not
+necessarily mean no one is keeping watch over this section of the guild.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7140 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7121 0 0 0 0 0 0 0 0
+S
+#7124
+Entrance to the Sparring League~
+   Many initiates compete and practice their battle skills here.  Knowing that
+at any one time they could be caught, they need to be competent at defending
+themselves.  Practice dummies, an archery range, and expert knivesmen train
+with the pupils here.  This area is responsible for jump-starting the careers
+of many of the best known thieves in Krynn history.    
+~
+71 d 0 0 0  0
+D0
+~
+door~
+1 0 7121 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7125 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7128 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7135 0 0 0 0 0 0 0 0
+S
+#7125
+An Archery Range~
+   Several targets are set up on the far wall, and the students here practice
+their shooting skills.  They have a line anchored to the arrow, and it is used
+to help scale high surfaces.  Some of the targets hang high in the air and are
+formed of glass.  This simulates a window and the difficulty of scaling such
+surfaces with minimal support.    
+~
+71 d 0 0 0  0
+D2
+~
+~
+0 0 7126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7124 0 0 0 0 0 0 0 0
+S
+#7126
+An Archery Range~
+   Several targets are set up on the far wall, and the students here practice
+their shooting skills.  They have a line anchored to the arrow, and it is used
+to help scale high surfaces.  Some of the targets hang high in the air and are
+formed of glass.  This simulates a window and the difficulty of scaling such
+surfaces with minimal support.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7125 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7128 0 0 0 0 0 0 0 0
+S
+#7127
+The Training Corner~
+   Sitting in this corner are several items to work with.  Each table is lined
+with the various tools-of-the trade including lockpicks, portable torches,
+appropriate apparel, and tools for scaling surfaces.  Many bottles and vials
+also rest here, each capable of serving some purpose in a thieve's life.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7126 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7129 0 0 0 0 0 0 0 0
+S
+#7128
+A Sparring Circle~
+   A large circle sits slightly raised in the center of the room.  A white
+chalk line forms the boundary between in and out, and each person trains with
+the master atop the circle.  Knives, blackjacks, swords, and many other
+instruments of destruction are all legal here, as the master is trained in all
+of them.  The students sit alongside of it, watching closely to the techniques
+and punishment the master deals out to the unlucky one who finds himself in the
+circle.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7124 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7126 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7129 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7133 0 0 0 0 0 0 0 0
+S
+#7129
+Pickpocket Training~
+   Individuals stand about this room, testing their thieving skills.  The
+skilled wear clothing with dangling bells hanging from them and serve as "tests
+to one's ability".  When a bell jangles, a quick blast from a switch quickly
+follows.  This is enough incentive for the students to excel at a very fast
+rate.  This is where all the thieves first begin their career, as picking a
+pocket is something even a child can learn with little practice.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7128 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7127 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7130 0 0 0 0 0 0 0 0
+S
+#7130
+The Training Dummy~
+   This corner has only a single purpose, for the students to train alone.  A
+single dummy is suspended by a reinforced and triple bolted chain.  Its legs
+and arms are strapped in as well, but can be undone in case of various
+situations.  The wall has several inches of steel to prevent the walls from
+receiving any damage.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7133 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7129 0 0 0 0 0 0 0 0
+S
+#7131
+A new room~
+You are in a room.
+~
+71 0 0 0 0  0
+D1
+~
+~
+0 0 7128 0 0 0 0 0 0 0 0
+S
+#7132
+A new room~
+You are in a room.
+~
+71 0 0 0 0  0
+D1
+~
+~
+0 0 7124 0 0 0 0 0 0 0 0
+S
+#7133
+A Room of Climbing~
+   A large wall rising many stories high is here, and small hand grips are
+fixed in a particular pattern.  The wall is divided into three sections, one
+course for the novice, one for the intermediate, and one for the advanced
+climbers.  A linked harness is available, but the skilled do not elect to make
+use of it.  A large chord hangs from above, connected to the vests of the
+climbers.    
+~
+71 0 0 0 0  0
+D0
+~
+~
+0 0 7135 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7128 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7130 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 7134 0 0 0 0 0 0 0 0
+S
+#7134
+Climbing the Rope~
+   Thin ropes hang from above, and the wall here is more sparse on handholds.
+Above, a small alcove atop the course can be seen, and the challenge of the
+course continues to increase the higher one climbs.  A small bell can be seen
+hanging atop the support structure on the wall.    
+~
+71 dqs 0 0 0  0
+D4
+~
+~
+0 0 7138 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7133 0 0 0 0 0 0 0 0
+S
+#7135
+The Lockpicking Corner~
+   Twin doors rest here, each containing varying levels in lock difficulty.  
+The doors are reinforced, and the keys that crafted these locks are long gone.
+What lies beyond is anyone's guess.  Sets of lockpicks lie here, and a couple
+skeleton keys are present to prove that they can be opened.  One master
+locksmith shows how to properly pick even the most difficult of locks.    
+~
+71 d 0 0 0  0
+D0
+~
+door~
+1 0 7137 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7124 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7133 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 7136 0 0 0 0 0 0 0 0
+S
+#7136
+Behind the Locked Door~
+   Draped in eternal darkness, this room has but a single line of light focused
+on one area.  A raised platform with a large chest resting upon it sits in the
+center of the room, nothing else in the room is worthy of notice.  The darkness
+that surrounds the area seems to be all a guise, as the air that exists here
+seems somewhat unreal.    
+~
+71 d 0 0 0  0
+D1
+~
+door~
+1 0 7135 0 0 0 0 0 0 0 0
+S
+#7137
+Within the Cell~
+   This area is only available to those that can access the proper tools and
+skill to pick several challenging locks.  Once inside, the door and walls
+become totally clear, allowing one to see out, but nobody can see in.  The bar,
+the hallways, and the training area are all visible from the walls here.  This
+incentive is enough to keep the amateurs improving their skills.    
+~
+71 d 0 0 0  0
+D2
+~
+door~
+1 0 7135 0 0 0 0 0 0 0 0
+S
+#7138
+The Top of the Course~
+   Here is the top of the support structure where the various cords which
+connect to the harnesses comes to a pinnacle.  A small, yet potent bell hangs
+atop the board face, proving to all below that one has completed the course.  
+A tiny orifice lies near by, an area to take a slight breather after one has
+completed the course.    
+~
+71 dqs 0 0 0  0
+D3
+~
+~
+0 0 7139 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 7134 0 0 0 0 0 0 0 0
+S
+#7139
+A Small Break Room~
+   This small alcove serves as a break room for those that have finished the
+course.  A small amount of moisture hangs in the air, which eventually coats
+anything in the area.  This area serves as a quick refreshment for those that
+have conquered the course, and need a breather before they go back down.  It is
+also where an occasional student or two come for drinking or secret missions
+when the others are sound asleep.    
+~
+71 adg 0 0 0  0
+D1
+~
+~
+0 0 7138 0 0 0 0 0 0 0 0
+S
+#7140
+The Training Area~
+   Several doors line this hallway, each containing an area where the thieves
+in training may practice their art.  No one seems to enter or leave these
+rooms, and nothing can be heard in the hallway.  Although that does not
+necessarily mean no one is keeping watch over this section of the guild.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7142 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7123 0 0 0 0 0 0 0 0
+S
+#7141
+A new room~
+You are in a room.
+~
+71 0 0 0 0  0
+S
+#7142
+The Training Area~
+   Several doors line this hallway, each containing an area where the thieves
+in training may practice their art.  No one seems to enter or leave these
+rooms, and nothing can be heard in the hallway.  Although that does not
+necessarily mean no one is keeping watch over this section of the guild.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7150 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 7143 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7140 0 0 0 0 0 0 0 0
+S
+#7143
+A Tight Entryway~
+   This connecting hallway is intentionally slim, unallowing any to quickly
+depart from the meeting hall.  Ahead, a very lush carpet and a highly packed
+room can be seen.  Small globe lights on ornate hangers are placed about the
+room, providing minimal, yet sufficient lighting to the area.  A gigantic rug
+with an exotic design with varying colors fills up the area between the walls
+ahead.    
+~
+71 cd 0 0 0  0
+D0
+~
+door~
+1 0 7142 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7144 0 0 0 0 0 0 0 0
+S
+#7144
+A Central Meeting Hall~
+   Dark curtains hang from ceiling to floor, and many sit here rubbing elbows
+with the elite of Sanction.  If a job needs to get done, this is one of the
+most likely places to come to.  Anyone may enter this area, and discuss a deal,
+but as to whether the proposee is actually being set up or not, is often hard
+to tell.  Speaking with others in this room is an art which takes years to
+learn, and one misunderstanding can prove deadly.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7143 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7146 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7147 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7145 0 0 0 0 0 0 0 0
+S
+#7145
+A Central Meeting Hall~
+   Dark curtains hang from ceiling to floor, and many sit here rubbing elbows
+with the elite of Sanction.  If a job needs to get done, this is one of the
+most likely places to come to.  Anyone may enter this area, and discuss a deal,
+but as to whether the proposee is actually being set up or not, is often hard
+to tell.  Speaking with others in this room is an art which takes years to
+learn, and one misunderstanding can prove deadly.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7144 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 7148 0 0 0 0 0 0 0 0
+S
+#7146
+A Central Meeting Hall~
+   Dark curtains hang from ceiling to floor, and many sit here rubbing elbows
+with the elite of Sanction.  If a job needs to get done, this is one of the
+most likely places to come to.  Anyone may enter this area, and discuss a deal,
+but as to whether the proposee is actually being set up or not, is often hard
+to tell.  Speaking with others in this room is an art which takes years to
+learn, and one misunderstanding can prove deadly.    
+~
+71 d 0 0 0  0
+D2
+~
+~
+0 0 7149 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7144 0 0 0 0 0 0 0 0
+S
+#7147
+A Central Meeting Hall~
+   Dark curtains hang from ceiling to floor, and many sit here rubbing elbows
+with the elite of Sanction.  If a job needs to get done, this is one of the
+most likely places to come to.  Anyone may enter this area, and discuss a deal,
+but as to whether the proposee is actually being set up or not, is often hard
+to tell.  Speaking with others in this room is an art which takes years to
+learn, and one misunderstanding can prove deadly.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7144 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7149 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7148 0 0 0 0 0 0 0 0
+S
+#7148
+A Central Meeting Hall~
+   Dark curtains hang from ceiling to floor, and many sit here rubbing elbows
+with the elite of Sanction.  If a job needs to get done, this is one of the
+most likely places to come to.  Anyone may enter this area, and discuss a deal,
+but as to whether the proposee is actually being set up or not, is often hard
+to tell.  Speaking with others in this room is an art which takes years to
+learn, and one misunderstanding can prove deadly.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7145 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7147 0 0 0 0 0 0 0 0
+S
+#7149
+A Central Meeting Hall~
+   Dark curtains hang from ceiling to floor, and many sit here rubbing elbows
+with the elite of Sanction.  If a job needs to get done, this is one of the
+most likely places to come to.  Anyone may enter this area, and discuss a deal,
+but as to whether the proposee is actually being set up or not, is often hard
+to tell.  Speaking with others in this room is an art which takes years to
+learn, and one misunderstanding can prove deadly.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7146 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7147 0 0 0 0 0 0 0 0
+S
+#7150
+The Training Area~
+   The lavishly decorated hallway now twists away from the straight path it was
+heading.  Small steps begin arching up ever so slowly, and begin to turn.  A
+tiny overhead source of illumination can be seen.  Each hangs slightly apart,
+and is a sphere dangling precariously in the air above.    
+~
+71 d 0 0 0  0
+D3
+~
+~
+0 0 7142 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 7151 0 0 0 0 0 0 0 0
+S
+#7151
+A Branch in the Hallway~
+   The lavishly decorated hallway now twists away from the straight path it was
+heading.  Small steps begin arching up ever so slowly, and begin to turn.  A
+tiny overhead source of illumination can be seen.  Each hangs slightly apart,
+and is a sphere dangling precariously in the air above.    
+~
+71 d 0 0 0  0
+D7
+~
+~
+0 0 7152 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7150 0 0 0 0 0 0 0 0
+S
+#7152
+A Turn in the Hallway~
+   Pressed against this flat wall is a large, man-sized mirror.  It is complete
+with a thin frame, and flawless enough that it portrays accurately a person in
+a more real light than they may perceive themself.  The corridor makes a "V"
+shape, allowing access to both sides of the compound.    
+~
+71 d 0 0 0  0
+D1
+~
+frame~
+1 0 7158 0 0 0 0 0 0 0 0
+D5
+~
+hatch~
+1 0 7162 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7156 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 7151 0 0 0 0 0 0 0 0
+S
+#7153
+A Dark End of the Hallway~
+   This side of the hallway is much darker than the rest of the halls, and what
+goes on behind these closed doors is one of the highly kept secrets in
+Sanction.  Dark as an alleyway on the night of an eclipse, it is impossible to
+distinguish if any major landmarks line the walls.  Perhaps an occasional
+picture or sconce is here, obviously long ago run out of fuel.    
+~
+71 d 0 0 0  0
+D1
+~
+~
+0 0 7154 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 7161 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7122 0 0 0 0 0 0 0 0
+S
+#7154
+A Dark End of the Hallway~
+   This side of the hallway is much darker than the rest of the halls, and what
+goes on behind these closed doors is one of the highly kept secrets in
+Sanction.  Dark as an alleyway on the night of an eclipse, it is impossible to
+distinguish if any major landmarks line the walls.  Perhaps an occasional
+picture or sconce is here, obviously long ago run out of fuel.    
+~
+71 d 0 0 0  0
+D0
+~
+~
+0 0 7159 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 7155 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 7153 0 0 0 0 0 0 0 0
+S
+#7155
+A Branch in the Hallway~
+   The lavishly decorated hallway now twists away from the straight path it was
+heading.  Small steps begin arching up ever so slowly, and begin to turn.  A
+tiny overhead source of illumination can be seen.  Each hangs slightly apart,
+and is a sphere dangling precariously in the air above.    
+~
+71 d 0 0 0  0
+D3
+~
+~
+0 0 7154 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7156 0 0 0 0 0 0 0 0
+S
+#7156
+A Branch in the Hallway~
+   The lavishly decorated hallway now twists away from the straight path it was
+heading.  Small steps begin arching up ever so slowly, and begin to turn.  A
+tiny overhead source of illumination can be seen.  Each hangs slightly apart,
+and is a sphere dangling precariously in the air above.    
+~
+71 d 0 0 0  0
+D6
+~
+~
+0 0 7155 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7152 0 0 0 0 0 0 0 0
+S
+#7157
+A new room~
+You are in a room.
+~
+71 0 0 0 0  0
+D6
+~
+~
+0 0 7156 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 7152 0 0 0 0 0 0 0 0
+S
+#7158
+Behind the Mirror~
+   Concealed from the hustle and bustle above, this area is well hidden from
+the eyes of the unskilled.  This small area provides a looking glass into
+what's going on above, and allows for easy access into the area.  This small
+cramped area behind the mirror only leaves enough space for a dwarf to
+comfortably rest, but each that rests here waits for their window of
+opportunity to present itself.    
+~
+71 0 0 0 0  0
+D3
+~
+frame~
+1 0 7152 0 0 0 0 0 0 0 0
+S
+#7159
+The Lounge Room~
+   Lining the walls are several well-pillowed couches, each extra long and
+several are lacking in backs.  A square table with shortened legs sits complete
+with coasters.  Several drinks rest on these coasters, and a small amount of
+perspiration runs down the sides of most.  Only the most elite of the guild may
+relax here, and it is often in these confines that the next leader is decided,
+and the current ones demise planned.    
+~
+71 d 0 0 0  0
+D2
+~
+~
+0 0 7154 0 0 0 0 0 0 0 0
+S
+#7160
+An Interrogation Room~
+   Only a single light hangs above, shining down fiercly on a focused area.  
+Several chairs are located about the room, but one lone chair sits centrally in
+the room, bolted to the floor.  An inpenetrable darkness hangs in the other
+areas, and a chair resting partly in the light and partly out of it, looks as
+if it stands magically on only one leg, and is cut in half.    
+~
+71 d 0 0 0  0
+D2
+~
+door~
+1 0 7122 0 0 0 0 0 0 0 0
+S
+#7161
+The Dealmaking Room~
+   This room is rather lavish, with several professionaly done paintings lining
+the walls.  A lavish desk and matching chairs sit on the far side, and a
+gigantic stuffed bear stands in the corner.  Although dwelling in this room for
+a long time may seem lavish, the person holding this position is often quickly
+usurped from the inside at a lightning pace, as forced-turnover is a huge
+problem.    
+~
+71 d 0 0 0  0
+D0
+~
+door~
+1 0 7153 0 0 0 0 0 0 0 0
+S
+#7162
+The Guild Headquarters~
+   This single room is where the true power of Sanction lies.  The key
+decisions and fate of many is decided here.  It is a lavish office, and one
+that has maximum security precautions in affect.  However, the precautions
+aren't nearly enough, as the leader of this guild quickly changes.  A large
+desk, and a side area complete with a feather bed, and a bathroom rest here,
+everything the leader needs is at his disposal.    
+~
+71 d 0 0 0  0
+D4
+~
+hatch~
+1 0 7152 0 0 0 0 0 0 0 0
+S
+$

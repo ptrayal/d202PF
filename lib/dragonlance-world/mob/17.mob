@@ -1,0 +1,453 @@
+#1700
+sentry bugbear~
+a bugbear sentry~
+A bugbear sentry guards the entrance to the caverns.
+~
+   The creature before you has a nose that looks much like a bear, thus he
+bears his name.  Sharp claws mark the inside of his mouth, and the stench of
+his breath causes you to take a step back.    
+~
+d 0 0 0 k 0 0 0 -900
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1702
+female bugbear~
+a bugbear female~
+A bugbear female sleeps here quietly.
+~
+   This bugbear is obviously female.  She is wearing a somewhat thick, velvet
+dress, keeping her warm in this damp cavern.  A few grey hairs atop her head
+mark her age as later in life.    
+~
+d 0 0 0 k 0 0 0 -500
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1704
+bugbear staunch haughty~
+a staunch, haughty bugbear~
+A staunch, haughty bugbear looks at you in surprise.
+~
+   This bugbear has a small scar that runs along his left cheek, an old
+reminder of an old battle.  His muscles are somewhat large, but a small
+pot-belly hangs below his waist line.  His eyes narrow as you near him, but he
+makes no threatening move.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1705
+beaten prisoner~
+a beaten prisoner~
+A beaten prisoner moans constantly.
+~
+   This prisoner wears only a ragged cloth about his shoulders and waist.  His
+hair is stringy, dirty and reaches down below his shoulders.  This man is
+probably a plaything to the bugbears that reside in these caverns.    
+~
+d 0 0 0 k 0 0 0 500
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1706
+rat cave large~
+a large, cave rat~
+A large, cave rat sucks the marrow of the bones.
+~
+   This rat is about the size of a large watermelon.  Its teeth are at least
+three inches in length, and snap easily into the bones piled here.  The rat
+looks at you with its beady, red eyes and hisses quietly.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1707
+bugbear short squat~
+a short, squat bugbear~
+A short, squat bugbear screams as you approach!
+~
+   This bugbear is rather young, and obviously a bit squeamish.  As you enter
+the room, he immediately starts screaming and running around like a maniac.  
+He is wearing a pair of dark purple pants, and a sea blue tunic, so its quite
+possible he is also colorblind.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1708
+child bugbear~
+a bugbear child~
+A bugbear child looks at you nervously.
+~
+   This child is wrapped in a bright orange blanket.  Snuggling comfortably
+atop a pile of pillows until you entered, she is suddenly quite agitated.  
+Bright eyes with a pinkish color gaze upon you as her small jaw opens,
+revealing a mouth full of jagged fangs.    
+~
+d 0 0 0 k 0 0 0 -555
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1709
+bugbear plump female~
+a plump, bugbear female~
+A plump, female bugbear looks around with a frightened look.
+~
+   This woman immediately moves in front of her young as you enter the area.  
+Wearing a purple tunic, and draping a blanket about her, she does not appear
+ready for a confrontation.  A studded, ruby necklace adorns her thick neck,
+adding a slight grace to this otherwise clumsy female.    
+~
+d 0 0 0 k 0 0 0 -500
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1711
+bugbear smug sneaky~
+a smug, sneaky bugbear~
+A smug, sneaky bugbear looks upon the path below.
+~
+   This bugbear is wearing dark clothing, and is set upon watching the path
+below.  With a smug grin on his face, he probably thinks his whereabouts are
+unknown and that he is spying on the rest of his community.  However, many
+other young bugbear have taken this spot in the past, and the community knows
+exactly where he is.    
+~
+d 0 0 0 k 0 0 0 -555
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1712
+guard bugbear alert~
+an alert, bugbear guard~
+An alert, bugbear guard eyes you warily.
+~
+   This guard has a flat, wide nose as all bugbear do.  A few, scraggly hairs
+adorn the top of his mostly bald head.  He wears a pair of loose, green pants
+and a chain mail vest.    
+~
+d 0 0 0 k 0 0 0 -555
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1713
+toadstool large walking~
+a large, walking toadstool~
+A large, walking toadstool eyes you warily.
+~
+   This creature appears to be a toadstool walking around in a humanoid form.
+Its skin is bloated and spongy.  Its large, white eyes seem to drink in the
+surrounding area, but pay no mind to you.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1714
+crawler giant carrion~
+a giant carrion crawler~
+A giant carrion crawler feeds upon the remains of past victims.
+~
+   This carrion crawler looks like a cross between a giant green cutworm and a
+cephalopod.  It has large fangs protruding from its gaping maw, but otherwise
+has no weapons for attack.  Mindlessly wandering, it searches these caverns for
+food, often provided by the caverns inhabitants who discard remains here.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1715
+terrified child~
+a terrified child~
+A terrified child looks at you with hesitant hope.
+~
+   This child has escaped, temporarily from the torments of the bugbear.  He is
+dressed in ratty clothing, and smells of week old garbage.  He looks at you
+with hope that you have come to save him, but he is also fearful of the fact
+that you could turn on him, or worse, turn him in.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1716
+guard bugbear grim~
+a grim bugbear guard~
+A grim bugbear guard eyes you warily.
+~
+   This grim guard wears a heavy, chain mail shirt and wields a large
+battle-axe.  His clothes are neater then the rest of the inhabitants, probably
+because of his normally ceremonial duty of guarding the chief.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1718
+bugbear concubine~
+a bugbear concubine~
+A bugbear concubine rests here quietly.
+~
+   This bugbear female has been chosen for her....  Good looks.  To a bugbear,
+that must be the case at least.  She is wearing a silken gown, and has on a
+pair of delicate, ruby ear rings.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1719
+priest dark robes~
+a priest in dark robes~
+A priest in dark robes stands here quietly worshipping Sargonnas.
+~
+   This priest is bowed in worship to the god Sargonnas.  He is wearing a dark
+black cloak, with the symbol of a red condor on the back of it.  You cannot see
+his face underneath the hood, but his hands appear ghostly white, probably from
+a lack of sunlight.    
+~
+dE 0 0 0 k 0 0 0 -999
+17 10 -16 1530d120+102 1d8+10
+26 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 11
+S
+#1720
+Sargonnas high priest~
+the high priest of Sargonnas~
+The high priest of Sargonnas sits here, performing the sacrifice.
+~
+   This priest is bald, with completely white skin.  His steel grey eyes stare
+out of a gruesome visage, and seem to stare into vast emptiness.  He is adorned
+with a long and flowing cloak, with the back marked by the symbol of a red
+condor.    
+~
+bd g 0 0 k 0 0 0 -999
+20 5 -23 9000d140+104 1d8+15
+35 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 21
+E
+Con: 12
+E
+Cha: 11
+S
+$

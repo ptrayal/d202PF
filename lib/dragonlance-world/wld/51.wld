@@ -1,0 +1,262 @@
+#5100
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+Vast plains spread to the east and west, going as far as your eyes can see.  
+There is almost no evidence of travelers that used this path to reach the
+mountains.    
+~
+51 c 0 0 0 2
+D3
+~
+~
+0 0 4469 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5101 0 0 0 0 0 0 0 0
+S
+#5101
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+Vast plains spread to the east and west, going as far as your eyes can see.  
+There is almost no evidence of travelers that used this path to reach the
+mountains.    
+~
+51 0 0 0 0 2
+D7
+~
+~
+0 0 5102 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5100 0 0 0 0 0 0 0 0
+S
+#5102
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+Vast plains spread to the east and west, going as far as your eyes can see.  
+There is almost no evidence of travelers that used this path to reach the
+mountains.    
+~
+51 0 0 0 0 2
+D1
+~
+~
+0 0 5103 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5101 0 0 0 0 0 0 0 0
+S
+#5103
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+Vast plains spread to the east and west, going as far as your eyes can see.  
+There is almost no evidence of travelers that used this path to reach the
+mountains.    
+~
+51 0 0 0 0 2
+D0
+~
+~
+0 0 5104 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5102 0 0 0 0 0 0 0 0
+S
+#5104
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+Vast plains spread to the east and west, going as far as your eyes can see.  
+There is almost no evidence of travelers that used this path to reach the
+mountains.    
+~
+51 0 0 0 0 2
+D2
+~
+~
+0 0 5103 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5106 0 0 0 0 0 0 0 0
+S
+#5105
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+The vast plains can be seen to the south, reaching the horizon.  The path
+starts to climb the dark mountains.    
+~
+51 0 0 0 0 4
+D2
+~
+~
+0 0 5106 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5107 0 0 0 0 0 0 0 0
+S
+#5106
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+Vast plains spread to the east and west, going as far as your eyes can see.  
+There is almost no evidence of travelers that used this path to reach the
+mountains.    
+~
+51 0 0 0 0 4
+D0
+~
+~
+0 0 5105 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5104 0 0 0 0 0 0 0 0
+S
+#5107
+A Dusty Path~
+   This dusty path is headed directly toward the mountains to the northeast.  
+The vast plains can be seen to the south, reaching the horizon.  The path
+starts to climb the dark mountains.    
+~
+51 0 0 0 0 4
+D0
+~
+~
+0 0 5108 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5105 0 0 0 0 0 0 0 0
+S
+#5108
+A Black Path~
+   This dusty path is headed directly toward the mountains to the north.  The
+path is covered with black stones that hardly reflect any light.  A large cave
+can be seen ahead.    
+~
+51 0 0 0 0 5
+D0
+~
+~
+0 0 5109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5107 0 0 0 0 0 0 0 0
+S
+#5109
+A Black Path~
+   This dusty path is headed directly toward the mountains to the north.  The
+path is covered with black stones that hardly reflect any light.  A large cave
+can be seen ahead.    
+~
+51 0 0 0 0 5
+D2
+~
+~
+0 0 5108 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 5110 0 0 0 0 0 0 0 0
+S
+#5110
+A Black Path~
+   This dusty path is headed directly toward the mountains to the north.  The
+path is covered with black stones that hardly reflect any light.  A large cave
+can be seen ahead.    
+~
+51 0 0 0 0 5
+D0
+~
+~
+0 0 5111 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 5109 0 0 0 0 0 0 0 0
+S
+#5111
+A Black Path~
+   This dusty path is headed directly toward the mountains to the north.  The
+path is covered with black stones that hardly reflect any light.  A large cave
+can be seen ahead.    
+~
+51 0 0 0 0 5
+D2
+~
+~
+0 0 5110 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 5112 0 0 0 0 0 0 0 0
+S
+#5112
+A Black Path~
+   This dusty path is headed directly toward the mountains to the north.  The
+path is covered with black stones that hardly reflect any light.  A large cave
+can be seen ahead.    
+~
+51 0 0 0 0 5
+D0
+~
+~
+0 0 5113 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 5111 0 0 0 0 0 0 0 0
+S
+#5113
+A Black Path~
+   This dusty path is headed directly toward the mountains to the north.  The
+path is covered with black stones that hardly reflect any light.  A large cave
+can be seen ahead.    
+~
+51 0 0 0 0 5
+D0
+~
+~
+0 0 5114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5112 0 0 0 0 0 0 0 0
+S
+#5114
+A Black Path~
+   This dusty path is headed directly toward the mountains to the north.  The
+path is covered with black stones that hardly reflect any light.  A large cave
+can be seen ahead.    
+~
+51 0 0 0 0 5
+D0
+~
+~
+0 0 5115 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5113 0 0 0 0 0 0 0 0
+S
+#5115
+A Large Cave~
+   The path ends here, just before a large opening in the side of the mountain.
+Wide stairs lead the way down into a dark cave.    
+~
+51 c 0 0 0 5
+D2
+~
+~
+0 0 5114 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 4700 0 0 0 0 0 0 0 0
+S
+$~

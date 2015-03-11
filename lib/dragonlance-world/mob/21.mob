@@ -1,0 +1,271 @@
+#2100
+druid tainted ~
+a tainted druid~
+A tainted druid sneers at you menacingly.
+~
+   This druid is wearing a dark green cloak, and high boots that come up to his
+knees.  He carries a small staff with runes along its edges.  His face is
+painted with a strange cream, in a design that makes no sense to you.    
+~
+d 0 0 0 k 0 0 0 -700
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This little animal has two beedy eyes that dart quickly around its immediate
+#2102
+figure dark~
+a dark figure~
+A dark figure blocks entrance to this temple.
+~
+BBfigure holds a long sickle in both hands and is wearing a large cloak
+about its body.  You can't make out its face, but its hand appear to have small
+claws on them.    
+~
+d 0 0 0 k 0 0 0 -600
+6 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This hummingbird was once a beautiful bird of nature, but has been
+#2104
+druid tainted ~
+a tainted druid~
+A tainted druid sneers at you menacingly.
+~
+   This druid is wearing a dark green cloak, and high boots that come up to his
+knees.  He carries a small staff with runes along its edges.  His face is
+painted with a strange cream, in a design that makes no sense to you.    
+~
+d 0 0 0 k 0 0 0 -700
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This druid is wearing a dark green cloak, and high boots that come up to his
+This druid is wearing a dark green cloak, and high boots that come up to his
+This druid is wearing a dark green cloak, and high boots that come up to his
+This druid is wearing a dark green cloak, and high boots that come up to his
+This figure is wearing an armored vest and wields a large club.  He has
+#2110
+squirrel tainted~
+a tainted squirrel~
+A tainted squirrel searches the ground for nuts.
+~
+   This squirrel appears meak and weary, but has an unnatural energy that
+allows it to keep moving quickly.  Its fur has a mild brown color to it, but
+its mostly ashen with black spots.    
+~
+d 0 0 0 k 0 0 0 -200
+7 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2111
+fox grey tainted~
+a tainted fox~
+A tainted grey fox sniffs at the ground.
+~
+   This foxy has a dark grey fur, with black spots covering its back.  It
+doesn't appear to see what is going around as most animals would, and sniffs at
+the ground as if searching for something important.    
+~
+d 0 0 0 k 0 0 0 -500
+8 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2112
+groundhog hog tainted~
+a tainted groundhog~
+A tainted groundhog sniffs at some flowers.
+~
+   This little animal has two beedy eyes that dart quickly around its immediate
+area.  It seems to have extraordinarily large teeth, and a dark, black spot
+marks its forhead.    
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2114
+druid female brown-haired~
+a brown-haired, female druid~
+A brown-haired, female druid stands near the solitary tree.
+~
+   This woman has long brown hair that cascades softly around her neck and
+reaches down to her back.  She is wearing only a small brown tunic, that
+reaches down to below her waist.  She has piercing green eyes which stare at
+you as you enter this place that is sacred to her and her kind.    
+~
+d 0 0 0 k 0 0 0 -400
+10 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2115
+garden master~
+the master of the garden~
+The master of the garden worships at the altar.
+~
+   This man has a long brown beard and is wearing clothes made from natural
+sources.  He carries a plain long staff in his right hand, using it to help him
+walk.    
+~
+d 0 0 0 k 0 0 0 -1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#2116
+warden prison~
+the prison warden~
+The prison warden looks at you with a menacing stare.
+~
+   This prison warden stands before you and stares for a moment, and then moves
+towards you at a furious pace to attack.  He has a stern gaze and eyes that
+seem to give off the coldest stare that you have ever witnessed.    
+~
+d 0 0 0 k 0 0 0 -1000
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This guard has fallen asleep when he was supposed to be watching the hallway
+#2118
+prisoner malnourished~
+a malnourished prisoner~
+A malnourished prisoner looks at you eagerly.
+~
+   This prisoner has been kept here long past his alloted time.  He is wearing
+rags and appears to not have eaten in weeks.  He appears a little crazy,
+probably due to the fact that except for people the room is empty.    
+~
+d 0 0 0 k 0 0 0 200
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

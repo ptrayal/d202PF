@@ -1,0 +1,128 @@
+#77
+None.~
+The Onyx Obelisk III (Tak)~
+7700 7799 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+O 0  7627     1  7705   0   100     0    -1          0 a fine wooden chest banded with platinum sleeves
+
+P 1  7635     5  7627   0   100     1     0          0 a purse filled with coins of the Irdan Empire
+
+P 1  7631     1  7627   0    10     2     0          0 a pouch of quantive feasts
+
+P 1  7630     1  7627   0    10     3     0          0 a decanter of endless water
+
+O 0  7628     1  7715   0   100     4    -1          0 a fine wooden chest banded with platinum sleeves
+
+P 1  7635     5  7628   0   100     5     4          0 a purse filled with coins of the Irdan Empire
+
+P 1  7629     1  7628   0     5     6     4          0 a portable hole
+
+M 0  7609     5  7703   1   100     7    -1          0 a granite gargoyle
+
+G 1  7619     1     0   0   100     8     7          0 a circular, runed key
+
+M 0  7609     5  7725   1   100     9    -1          0 a granite gargoyle
+
+G 1  7620     1     0   0   100    10     9          0 a rectangular, runed key
+
+M 0  7609     5  7713   1   100    11    -1          0 a granite gargoyle
+
+G 1  1261     4     0   0    20    12    11          0 a small, grey scroll
+
+G 1  7621     1     0   0   100    13    11          0 an oval-shaped, runed key
+
+D 0  7745     2     2   0   101    14    -10 
+
+M 0  7702     1  7745   1   100    15    -1          0 the spirit of Igraine
+
+E 1  7703     1    16   0     7    16    15          0 a shimmering, ivory greatsword, "Holy Avenger"
+
+D 0  7740     1     2   0   101    17    -10 
+
+D 0  7740     3     2   0   101    18    -10 
+
+D 0  7740     0     2   0   101    19    -10 
+
+M 0  7701     1  7744   1   100    20    -1          0 the spirit of Garuhk
+
+E 1  7701     1    16   0     6    21    20          0 a silver battle-axe etched with blue runes, "Scourge of the Epoch"
+
+E 1  7700     1     5   0     6    22    20          0 a breastplate constructed of bones
+
+D 0  7744     1     2   0   101    23    -10 
+
+M 0  7704     1  7747   1   100    24    -1          0 the spirit of Landur
+
+E 1  7702     1    17   0     8    25    24          0 a tripartite, handheld steel blade, "The Aegis Blade"
+
+D 0  7747     3     2   0   101    26    -10 
+
+M 0  7700     3  7733   1   100    27    -1          0 a mirror phantom
+
+G 1  5909     1     0   0   100    28    27          0 a mirrored pane of silver
+
+M 0  7700     3  7732   1   100    29    -1          0 a mirror phantom
+
+G 1  5908     1     0   0   100    30    29          0 a mirrored pane of silver
+
+M 0  7700     3  7734   1   100    31    -1          0 a mirror phantom
+
+G 1  5907     1     0   0   100    32    31          0 a mirrored pane of silver
+
+M 0  7708     1  7742   1   100    33    -1          0 the spirit of Shanazar
+
+E 1  7709     1     1   0    10    34    33          0 a silver ring adorned with wing-shaped rubies
+
+D 0  7742     1     2   0   101    35    -10 
+
+D 0  7735     2     2   0   101    36    -10 
+
+D 0  7735     3     2   0   101    37    -10 
+
+D 0  7735     0     2   0   101    38    -10 
+
+M 0  7709     1  7741   1   100    39    -1          0 the spirit of Quindra
+
+E 1  7710     1     5   0    15    40    39          0 a long, green silken robe, "Robe of Obscurity"
+
+D 0  7741     0     2   0   101    41    -10 
+
+M 0  7707     1  7743   1   100    42    -1          0 the spirit of Weirnol
+
+G 1  1264     4     0   0    20    43    42          0 an apocolyptic image framed in glowing runes
+
+E 1  7708     1    11   0     8    44    42          0 a small orb of twisting flames
+
+D 0  7743     2     2   0   101    45    -10 
+
+D 0  7736     2     2   0   101    46    -10 
+
+D 0  7736     0     2   0   101    47    -10 
+
+D 0  7736     1     2   0   101    48    -10 
+
+M 0  7703     1  7748   1   100    49    -1          0 the spirit of Heghir
+
+E 1  7704     1    16   0     5    50    49          0 a huge claymore of jet black steel, "The Vorpal Blade"
+
+D 0  7748     2     2   0   101    51    -10 
+
+M 0  7706     1  7750   1   100    52    -1          0 the spirit of Tanguashi
+
+E 1  7707     1    12   0     5    53    52          0 a shadowy black shroud, "The Shroud of the Master Assassin"
+
+E 1  7706     1    16   0     5    54    52          0 a silver, wickedly barbed dirk, "Nightfall"
+
+D 0  7750     0     2   0   101    55    -10 
+
+M 0  7705     1  7749   1   100    56    -1          0 the spirit of Jaiur
+
+E 1  7705     1    12   0     7    57    56          0 a glimmering silver cloak, "The Cloak of Displacement"
+
+D 0  7749     3     2   0   101    58    -10 
+
+S
+$

@@ -1,0 +1,442 @@
+#4400
+stone giant sorcerer shaman~
+a Stone Giant Shaman~
+A Stone Giant Shaman stands here.
+~
+   This giant is standing here, watching over his fellow brethren, so as to
+protect them from harmful outsiders.  He has a stare that seems to pierce
+through to your soul, looking for your true intentions.  
+~
+abdentwF 0 0 0 dkrzC 0 c 0 0
+30 -11 -26 8400d300+1000 2d10+20
+200 0 13 20
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+E
+SkinData1: 1
+S
+#4401
+quaroth giant fighter ettin epic~
+Quaroth the Ettin~
+Quaroth stands here, waiting for all comers.
+~
+   Quaroth is whats reffered to as an Ettin, a fairly slimy, stinky, two headed
+giant.  This Ettin though, is particularly dangerous, to go with his nasty
+disposition, he is wearing full plate armor, and wielding a scythe in each hand.
+
+~
+bdeflnwxF 0 0 0 dfk 0 0 0 -1000
+34 8 -30 -24736d340+124 4d8+12
+105 0 13 3
+8 8 1
+E
+Str: 38
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 6
+E
+Con: 20
+E
+Cha: 6
+S
+#4402
+pyrohydra hydra lizard epic~
+the Pyrohydra~
+A Giant Firebreathing Hydra stands here.
+~
+It looks unfinished.
+~
+bdfwxE 0 0 0 k 0 0 0 0
+35 -15 -25 720d10+571 4d8+15
+200 0 18 21
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4403
+stone giant hunter~
+a @wStone@n @rGiant@n hunter.~
+a @wStone@n @rGiant@n hunter.
+~
+It looks unfinished.
+~
+deflmsuE 0 0 0 k 0 0 0 0
+30 20 -20 124d100+530 1d8+0
+200 0 13 3
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4404
+stone giant berserker~
+a @wStone@n @rgiant@n berserker~
+a @wStone@n @rgiant@n berserker
+~
+It looks unfinished.
+~
+dflsvD 0 0 0 k D 0 0 0
+33 20 -23 136d100+540 1d8+0
+100 0 13 3
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4405
+stone giant warrior~
+a @wStone@n @rgiant@n @Rwarrior@n~
+a @wStone@n @rgiant@n @Rwarrior@n
+~
+It looks unfinished.
+~
+dfluD 0 0 0 k 0 0 0 0
+31 20 -21 128d100+560 1d8+0
+200 0 13 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4406
+giant roc~
+a giant @wSilver@n winged @rRoc@n~
+a giant @wSilver@n winged @rRoc@n
+~
+It looks unfinished.
+~
+bdfqF 0 0 0 k 0 0 0 0
+33 -20 -23 136d100+560 1d8+9
+200 0 18 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 24
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4407
+giant rock troll~
+a @rgiant@n rock troll~
+a @rgiant@n rock troll
+~
+It looks unfinished.
+~
+bdfmu 0 0 0 k 0 0 0 0
+30 20 -20 124d100+510 1d8+0
+200 0 13 3
+8 8 1
+E
+BareHandAttack: 15
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4408
+goblin fighter~
+a @gGoblin@n fighter~
+a @gGoblin@n fighter
+~
+It looks unfinished.
+~
+dfglmsuD 0 0 0 k 0 0 0 0
+26 20 -16 108d100+480 1d8+0
+200 0 70 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4409
+goblin~
+a @gGoblin@n~
+a @gGoblin@n
+~
+It looks unfinished.
+~
+dfglmsD 0 0 0 k 0 0 0 0
+24 -7 -14 100d100+480 3d8+15
+200 0 70 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 24
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4410
+mountain giant king~
+a @rMountain giant@n @WKing@n~
+a @rMountain giant@n @WKing@n
+~
+It looks unfinished.
+~
+bdfmnpruxF 0 0 0 k D 0 0 0
+33 8 -29 -25936d330+123 1d8+12
+100 0 13 3
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 38
+E
+Dex: 12
+E
+Int: 6
+E
+Wis: 6
+E
+Con: 20
+E
+Cha: 6
+S
+#4411
+elite goblin guard~
+an elite @gGoblin@n guard~
+an elite @gGoblin@n guard
+~
+It looks unfinished.
+~
+bdflnD 0 0 0 k u 0 0 0
+26 20 -16 108d100+450 1d8+0
+200 0 70 3
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4412
+goblin champion~
+a @gGoblin@n @yChampion@n~
+a @gGoblin@n @yChampion@n
+~
+It looks unfinished.
+~
+bdfluF 0 0 0 k q 0 0 0
+30 20 -20 124d100+480 1d8+0
+200 0 70 2
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 23
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4413
+goblin shaman~
+a @gGoblin@n shaman~
+a @gGoblin@n shaman
+~
+It looks unfinished.
+~
+bdflmtu 0 0 0 k 0 0 0 0
+20 20 -10 84d100+660 1d8+0
+200 0 70 1
+8 8 1
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4414
+hill giant~
+a @yHill@n @rgiant@n~
+a @yHill@n @rgiant@n
+~
+It looks unfinished.
+~
+bdflmuD 0 0 0 k 0 0 0 0
+26 -10 -21 1248d230+113 2d8+30
+148 20 13 3
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 15
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4415
+pyrohydra head~
+@rPyro@nHydra's head~
+@rPyro@nHydra's head
+~
+It looks unfinished.
+~
+bdflmnopqrD 0 0 0 kr 0 m 0 0
+10 -30 0 44d100+230 4d8+12
+200 0 18 2
+8 8 1
+E
+BareHandAttack: 16
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4416
+Old Dwarven Guard~
+Old Dwarven Guard~
+an @cold Dwarven Guard@n from this outpost is sitting in a chair 
+~
+This old dwarf still has his uniformed oiled and clean. He looks out of place in this ancient ruins. The fire in his eyes shows more vitality than what there should be on such an ancient fellow.
+~
+bdo b 0 0 kz s dm 0 0
+30 5 -26 1080d100+100 1d8+15
+75 0 67 22
+8 8 1
+E
+BareHandAttack: 7
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 23
+E
+Cha: 10
+S
+$

@@ -1,0 +1,694 @@
+#9100
+frantic well-dressed servant~
+a frantic, well-dressed servant~
+Frantically scurrying around, a servant cleans the room.
+~
+   Dressed in a white tunic bearing the Wenfyr crest is a servant of the house.
+He is modestly built and of average height, allowing him to blend in the crowd
+easily.  Dirt mars the pearl white tunic about his body.  In his hand is a
+small cotton rag he uses to clean the walls and floors of the mansion.    
+~
+d 0 0 0 k 0 0 0 500
+8 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9101
+lord bren~
+Lord Bren Wenfyr~
+Lord Bren Wenfyr, a charismatic, ruggedly handsome man towers over you.
+~
+   This man is dressed in an exquisite black silk tunic.  A thick black beard
+frames his jovial face.  His deep-set blue eyes give him an unique beauty.  
+Around his neck flows an obsidian colored, finely woven satin cloak embriodered
+in blood red with the Wenfyr crest.    
+~
+d g 0 0 k 0 0 0 800
+20 5 -19 11000d240+114 1d8+15
+35 0 41 7
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 21
+E
+Cha: 11
+S
+#9104
+Rezla petite~
+Rezla Wenfyr~
+Rezla Wenfyr, a petite, talkative child plays with her dolls
+~
+   The youthful child is being dressed in a dark lavender gown by a servant.  
+She has her mother's face and long sandy brown hair.  In her hands she is
+absently playing with two small, wooden dolls.    
+~
+dF 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9106
+gardener youthful~
+a dirt stained, youthful gardener~
+Picking weeds, a gardener makes her rounds around the aviary.
+~
+   Dirt and grass stains cover the leather tunic she is wearing.  Straight
+brown hair frames a comely face.  In her hand is a sturdy iron hoe.  Her head
+is covered by a wide brimmed hat to keep the bird droppings off her.  She
+whistles as she makes her way around the aviary.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9107
+snow owl~
+a small snow owl~
+Perched on the limb of a tree, a small snow owl hoots loudly.
+~
+   Hooting loudly from the branch of a tree, a small snow owl gives you a
+quizzical look.  It's black speckled white body make it easy to spot among the
+branches.  Razor sharp talons and beak allow the owl to tear easily into it's
+prey.    
+~
+d 0 0 0 k 0 0 0 0
+6 20 7 24d100+152 1d8+0
+15 0 9 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9108
+bird multicolored~
+a multicolored bird~
+A multicolored bird soars lazily through the aviary.
+~
+   Soaring lazily around in the sky is a medium sized bird.  The exotic bird's
+body is comprised of a patchwork of colors.  A sharp beak and talons make the
+bird beautiful, but very dangerous.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9109
+sleek black falcon~
+a sleek, black falcon~
+Scanning the ground below, a black falcon circles the aviary.
+~
+   The bird's sleek, black body allow it move easily and with frightening
+speeds.  Large sharp talons and a viscous beak make the falcon very dangerous.
+Circling around the aviary a sleek, black falcon searches for food.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9110
+Jennifer ravishing~
+Jennifer~
+Jennifer, a tall, ravishing young lady waits patiently.
+~
+   She is wearing a finely woven, black velvet gown on her slender frame.  She
+has large brown eyes and very long eyelashes.  Her full red lips and long
+blonde hair enhance her exotic beauty.  She seems to be waiting for someone or
+something.    
+~
+dF 0 0 0 k 0 0 0 0
+17 9 -17 3060d170+107 1d8+11
+26 0 41 1
+8 8 1
+E
+Str: 13
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 20
+E
+Con: 12
+E
+Cha: 11
+S
+#9111
+finely noble~
+a finely dressed noble~
+a finely dressed noble dances across the ballroom.
+~
+   Before you is a noble clad in one of Palanthas' finest white silk tunics.  
+His hair is slicked back giving him an oily appearance.  His heavy cologne
+masks the perspiration soaking his tunic.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9112
+elegantly lady ~
+an elegantly dressed lady~
+An elegantly dressed lady dances across the ballroom.
+~
+   Before you is a lady dressed in a blue silk gown.  Her hair is pinned up,
+making dancing easier.  Her comely face smiles happily and she glides across
+the ballroom floor.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9113
+plump balding aristocrat~
+a plump, balding aristocrat~
+A plump, balding aristocrat laughs heartily.
+~
+   Standing before you is a plump, balding, middle-aged man.  What little hair
+he has left is combed back into a knotted pony tail.  He is wearing a tunic one
+size to small, embellishing his roundness.  His dingy, mismatched teeth show as
+he laughs heartily.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9114
+tired pallid servant~
+a tired, pallid servant~
+A tired, pallid servant tosses and turns in his sleep.
+~
+   A pallid, worn-out servant lies on a hard wood pallet.  He is scantly
+clothed in a torn cotton robe.  He softly snores as his chest rises and falls,
+oblivious to your approach.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9115
+diaphanous apparition~
+an angered, diaphanous visage~
+A diaphanous apparition reaches out hungrily towards you.
+~
+   It's humanoid shape fades in and out of the darkness.  In a haunting voice
+the apparition demands to be set free, as it reaches out hungrily towards you.
+Black ichor drips from its wounded fingers.  Where eyes should be pools of
+darkness lust for your soul.    
+~
+dF 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 0 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9116
+plump dwarven nanny~
+a plump, dwarven nanny~
+Folding a pile of clothing, this plump dwarven nanny keeps a watchful eye on Rezla.
+~
+   This plump dwarven woman sighs tiredly as she makes her way around Rezla's
+room.  Her stocky frame breathes deeply as she folds a pile of clothing before
+placing it snugly in a dresser drawer.  She wears a pale blue, buttoned down
+dress that drags slightly against the floor as she walks.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9117
+grenten morbidly ~
+Grenten, a morbidly obese, boisterous cook~
+Grenten, a morbidly obese, boisterous cook supervises the food preparations.
+~
+   Moving around the kitchen in a sloth-like manner he watches over the
+servants preparing the dishes to be served.  His massive girth is matched by a
+huge grizzled beard gracing his oily face.  His fat fingers nimbly wield his
+kitchen knife as he dices carrots.    
+~
+dE 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9118
+freckled-faced maid pre-adolesent~
+a pre-adolescent, freckled-faced maid~
+A frustrated, freckled-faced maid tries to hold Rezla still.
+~
+   Frustration distorts this maid's freckled face as she struggles to dress
+Rezla for her father's ball.  A worn, but well made homespun dress drapes over
+her skinny, pre-adolesent body.  Her eyes, placed too close together mar an
+otherwise beautiful face.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9119
+rushed server~
+a rushed, preoccupied server~
+Running back and forth between the kitchen and dinning hall this server carries plates of food.
+~
+   An agile server balances plates of steaming food as he travels between the
+kitchen and dinning hall.  Accidentally spilled food has stained his ivory
+colored wool tunic with small grease spots.  He gives you no notice as he
+passes by.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9120
+tragor butcher ~
+Tragor, a crazy-eyed butcher~
+Swinging viscously with his blood stained cleaver, the butcher prepares cuts of meat.
+~
+   Blood splatters his grizzled face as he lifts his cleaver before every
+strike.  The glint in his eyes expose the sadistic pleasures he obtains from
+his job.  Specs of entrails dangle from his blood stained tattered white apron.
+He pays no heed to your intrusion.    
+~
+dF 0 0 0 k 0 0 0 0
+17 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 3
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9121
+sweaty tired hand~
+a sweaty, tired kitchen hand~
+Washing the dishes, a tired kitchen hand frantically tries to maintain a steady pace.
+~
+   Sweat dripping profusely off his forehead, this tired kitchen hand quickly
+switches from preparing dishes to washing a large pile of dishes in the iron
+cast sink.  His white apron has been soaked and stained thorougly with dish
+water and perspiration.    
+~
+d 0 0 0 k 0 0 0 0
+9 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9122
+young attractive maid~
+an attractive, young maid~
+Cleaning the room, an attractive young maid smiles at you.
+~
+   The young attractive maid makes her way slowly around the room.  Her long
+black hair is done up in a bun keeping the hair out of her eyes.  She wears a
+solid white dress embroidered with the Wenfyr crest on the right breast.  She
+stops momentarily to give you a quick smile.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9123
+guard brawny~
+a brawny, disciplined guard~
+A brawny, disciplined guard watches the halls vigilantly.
+~
+   The brawny guard is clad in a black breastplate bearing the Wenfyr insignia.
+His face gives away no emotions as he scans the hall.  His thumb slowly taps
+the hilt of his blade as he gives you a brief nod.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9124
+stern white dwarven servant~
+a stern, white-haired dwarven servant~
+A stern, white-haired dwarven servant dusts the room.
+~
+   A large white beard dominates the face of this old dwarf.  A few wrinkles
+crease his slightly drooping features.  His intense black eyes dart around the
+room for spots he has missed.    
+~
+d 0 0 0 k 0 0 0 0
+8 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9125
+pompous penurious lordling~
+a pompous, penurious lordling~
+A pompous, penurious lordling glances around the room.
+~
+   The lordling is dressed in the finest silk brocade Palanthas has to offer.
+Large ruby rings rest on his fat fingers.  Long, expensive golden chains dangle
+loosely around his neck as he slowly glances around the room.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9126
+librarian reserved~
+a reserved, knowledgeable librarian~
+Restocking the shelves, a librarian works diligently.
+~
+   A pile of books rest in his hands as he scurries around the library.  He is
+dressed in a dark brown tunic bearing the Wenfyr insignia.  Blonde hair and a
+pair of brass spectacles frame his average face.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9127
+dansol ponderous servant haughty~
+Dansol, a ponderous, haughty servant~
+Dansol, a ponderous, haughty servant looks down his nose at you.
+~
+   This man appears to be the head servant of the mansion because of his
+constant hawklike gaze and acrimonious remarks.  He wears a flashy, crimson
+ruffled tunic complete with balloned sleeves.  A large collar resembling a
+white plate gives him an almost comical appearance as he stairs haughtly at
+you.    
+~
+dD 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9128
+lady insufferable presumptious~
+an insufferable, presumptious lady~
+Powdering her nose is an insufferable, presumptious lady.
+~
+   An obese woman stands here before the large mirror, obnoxiously powdering
+her nose.  Powder flies everywhere as she brings the small clump of cotton to
+her pudgy face.  Noticing your gaze, she returns it with a rude, narcissistic
+frown.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

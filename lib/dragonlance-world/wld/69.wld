@@ -1,0 +1,511 @@
+#6900
+The Outskirts of the Camp~
+   Although the grass has grown quite high here, it looks worn, and appears
+somewhat trampled.  Despite being so close to the tent, no noise can penetrate
+the tough fabric, and it is quite tranquil here.  Discarded, is most of the
+waste of the clan.  Many barrel pieces, unusable bones from various animals,
+and unusable pieces of wood.    
+~
+69 0 h 0 0  0
+D3
+~
+~
+0 0 5687 0 0 0 0 0 0 0 0
+D5
+~
+trashpile~
+2 5601 6902 0 0 0 0 0 0 0 0
+D7
+~
+grasspile~
+1 0 6901 0 0 0 0 0 0 0 0
+S
+#6901
+The Outskirts of the Camp~
+   Here on the backside of the few tents, the grass has already begun to grow
+despite being recently cut, and it appears to be a perpetual struggle against
+the elements.  Every so often a small rodent runs by, but that is in itself a
+rarity, as most of this side of the camp is barren.  Unlike the nearby storm,
+this area gets little wind which is very odd in itself, perhaps the ancient
+spirits are looking out for this clan in a way.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 5684 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 5688 0 0 0 0 0 0 0 0
+D9
+~
+grasspile~
+1 0 6900 0 0 0 0 0 0 0 0
+S
+#6902
+Under the Trashpile~
+   A crawlspace exists here, just large enough for a couple kender to crawl
+side by side through.  It is dark, and damp in comparison to the surroundings.
+It is quite cool, and pieces of crude wood have been assembled to support the
+nearby dirt walls.  Along the floor lie many wooden planks, which are an
+obvious walkway heading down the tunnel.    
+~
+69 adi h 0 0  0
+D2
+~
+~
+0 0 5697 0 0 0 0 0 0 0 0
+D4
+~
+trashpile~
+2 0 6900 0 0 0 0 0 0 0 0
+S
+#6903
+The Camp of the Dark Riders~
+   Several small tents are set up here, each consisting of only a few stakes,
+twine, and a small amount of tanned animal hide.  Each tent is made this way as
+the tribe is always on the move, trying to roust the rebel leader Morgan di
+Kyre.  There are medical tents, supply tents, and a few sleeping tents.  
+However, most of the camp sleeps under the stars, with no protection above
+them.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6904 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6907 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6905 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 5660 0 0 0 0 0 0 0 0
+S
+#6904
+The Camp of the Dark Riders~
+   Several small tents are set up here, each consisting of only a few stakes,
+twine, and a small amount of tanned animal hide.  Each tent is made this way as
+the tribe is always on the move, trying to roust the rebel leader Morgan di
+Kyre.  There are medical tents, supply tents, and a few sleeping tents.  
+However, most of the camp sleeps under the stars, with no protection above
+them.    
+~
+69 0 h 0 0  0
+D1
+~
+~
+0 0 6906 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6903 0 0 0 0 0 0 0 0
+S
+#6905
+The Camp of the Dark Riders~
+   Several small tents are set up here, each consisting of only a few stakes,
+twine, and a small amount of tanned animal hide.  Each tent is made this way as
+the tribe is always on the move, trying to roust the rebel leader Morgan di
+Kyre.  There are medical tents, supply tents, and a few sleeping tents.  
+However, most of the camp sleeps under the stars, with no protection above
+them.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6903 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6908 0 0 0 0 0 0 0 0
+S
+#6906
+The Camp of the Dark Riders~
+   The central area of this camp is mainly barren, as the central location for
+the tribe is at the head tent.  This area is very sandy, and open, giving full
+site of the rest of the camp.  Several tents line the sides, and a large tent
+is off to the northeast.    
+~
+69 0 h 0 0  0
+D1
+~
+~
+0 0 6914 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6907 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6904 0 0 0 0 0 0 0 0
+S
+#6907
+The Camp of the Dark Riders~
+   The central area of this camp is mainly barren, as the central location for
+the tribe is at the head tent.  This area is very sandy, and open, giving full
+site of the rest of the camp.  Several tents line the sides, and a large tent
+is off to the northeast.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6906 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6913 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6908 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6903 0 0 0 0 0 0 0 0
+S
+#6908
+The Camp of the Dark Riders~
+   Standing to the side is a series of tents, each is obviously a source for
+supplies, and they are individual tents made for easy transport.  The
+individual tents have been spaced out, and combined together with twine, so as
+to give the illusion of one large tent.  Painted to the front of the tent is a
+large Dragonarmy flag, with a green background.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6907 0 0 0 0 0 0 0 0
+D1
+~
+flap~
+1 0 6910 0 0 0 0 0 0 0 0
+D2
+~
+flap~
+1 0 6909 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6905 0 0 0 0 0 0 0 0
+S
+#6909
+The Camp's Supply Tents~
+   Several crates line these walls, alongside which many plump bags of grain
+and various consumable products lay.  The air is thick with the heavy air of
+these grains and cooking ingredients.  Occasionally, a mouse runs through a
+hole in the tent, and checks the area for danger, then darts across the floor
+in pursuit of the sacks.    
+~
+69 d h 0 0  0
+D0
+~
+flap~
+1 0 6908 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6911 0 0 0 0 0 0 0 0
+S
+#6910
+The Camp Supplies Rationer's Office~
+   Within this small office, the individual responsible for rationing the
+supplies rests, and makes sure all of the quantities are distributed equally.
+A simple wooden chair is all that rests here, and a stack of papers which
+confirm the incoming supply count among many other figures.  This is often a
+very tense atmosphere, as when supplies get low, feuds can start, and quickly
+errupt into violence.    
+~
+69 d h 0 0  0
+D3
+~
+flap~
+1 0 6908 0 0 0 0 0 0 0 0
+S
+#6911
+A Second Supply Tent~
+   Here, several crates rest, each filled with pieces of salted meat.  The
+sides of the tent are weakly staked down, and as a result as the wind rips
+through the grasslands, the sides of the tent snap when the wind first hits
+them.  Then they shake violently, causing a loud reverberating echo within the
+supply area.    
+~
+69 d h 0 0  0
+D1
+~
+flap~
+1 0 6912 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6909 0 0 0 0 0 0 0 0
+S
+#6912
+A Tent for Camp General Supplies~
+   Piled high in this room are all of the necessary supplies the camp needs for
+its day to day activiites.  There are piles of extra animal hides, and sewing
+materials.  Plenty of tools also rest here, some very worn and others hardly
+used at all.  These are the most prized goods of the tribe, and in these parts,
+coming across such items is a rarity, as only barren grassland surrounds the
+camp for many miles.    
+~
+69 d h 0 0  0
+D2
+~
+flap~
+1 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+1 0 6911 0 0 0 0 0 0 0 0
+S
+#6913
+The Camp of the Dark Riders~
+   The central area of this camp is mainly barren, as the central location for
+the tribe is at the head tent.  This area is very sandy, and open, giving full
+site of the rest of the camp.  Several tents line the sides, and a large tent
+is off to the northeast.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6914 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6907 0 0 0 0 0 0 0 0
+S
+#6914
+The Camp of the Dark Riders~
+   The central area of this camp is mainly barren, as the central location for
+the tribe is at the head tent.  This area is very sandy, and open, giving full
+site of the rest of the camp.  Several tents line the sides, and a large tent
+is off to the northeast.    
+~
+69 c h 0 0  0
+D0
+~
+pen~
+1 0 6915 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6919 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6913 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6906 0 0 0 0 0 0 0 0
+S
+#6915
+Within the Pen~
+   Here is a large mud pen, within which swines of all size wallow about.  
+Small wooden planks are used on the sides, aligned at a slope, so that the lazy
+beasts won't somehow make it out.  The mud is just a few inches deep, except in
+the corner pool, where it has been dug slightly deeper.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6916 0 0 0 0 0 0 0 0
+D2
+~
+pen~
+1 0 6914 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6917 0 0 0 0 0 0 0 0
+S
+#6916
+Within the Pen~
+   Here is a large mud pen, within which swines of all size wallow about.  
+Small wooden planks are used on the sides, aligned at a slope, so that the lazy
+beasts won't somehow make it out.  The mud is just a few inches deep, except in
+the corner pool, where it has been dug slightly deeper.    
+~
+69 0 h 0 0  0
+D2
+~
+~
+0 0 6915 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6918 0 0 0 0 0 0 0 0
+S
+#6917
+Within the Pen~
+   Here is a large mud pen, within which swines of all size wallow about.  
+Small wooden planks are used on the sides, aligned at a slope, so that the lazy
+beasts won't somehow make it out.  The mud is just a few inches deep, except in
+the corner pool, where it has been dug slightly deeper.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6918 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6915 0 0 0 0 0 0 0 0
+S
+#6918
+Within the Pen~
+   Here is a large mud pen, within which swines of all size wallow about.  
+Small wooden planks are used on the sides, aligned at a slope, so that the lazy
+beasts won't somehow make it out.  The mud is just a few inches deep, except in
+the corner pool, where it has been dug slightly deeper.    
+~
+69 0 h 0 0  0
+D1
+~
+~
+0 0 6916 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6917 0 0 0 0 0 0 0 0
+S
+#6919
+A Path Between the Tents~
+   Passing between several of the family tents, this dirt path is nearly
+covered in shadow due to the heighth of the nearby tents.  The tents are well
+kept, but at the same time far from being new, and each is spaced evenly apart.
+Dust blows up along this path, and when coming into contact with the tent side,
+slowly slides down to a small pile of dust which collects at the base of the
+tent flap.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6921 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6920 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6914 0 0 0 0 0 0 0 0
+S
+#6920
+A Path Between the Tents~
+   Passing between several of the family tents, this dirt path is nearly
+covered in shadow due to the heighth of the nearby tents.  The tents are well
+kept, but at the same time far from being new, and each is spaced evenly apart.
+Dust blows up along this path, and when coming into contact with the tent side,
+slowly slides down to a small pile of dust which collects at the base of the
+tent flap.    
+~
+69 0 h 0 0  0
+D0
+~
+~
+0 0 6922 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6924 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6919 0 0 0 0 0 0 0 0
+S
+#6921
+Medical Tent~
+   A small medical tent is set up here, to tend to the wounded.  Right now it
+is vacant of patients, but soon that may change.  Small crates rest about the
+area, with supplies inside.  The wind cooly moves through the tent, causing the
+flap to shake as if an a long lost ghost of the tribe has entered the tent
+seeking that treatment he never received.    
+~
+69 0 h 0 0  0
+D2
+~
+~
+0 0 6919 0 0 0 0 0 0 0 0
+S
+#6922
+A Path Between the Tents~
+   Passing between several of the family tents, this dirt path is nearly
+covered in shadow due to the heighth of the nearby tents.  The tents are well
+kept, but at the same time far from being new, and each is spaced evenly apart.
+Dust blows up along this path, and when coming into contact with the tent side,
+slowly slides down to a small pile of dust which collects at the base of the
+tent flap.    
+~
+69 0 h 0 0  0
+D1
+~
+~
+0 0 6923 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6920 0 0 0 0 0 0 0 0
+S
+#6923
+A Path Between the Tents~
+   Passing between several of the family tents, this dirt path is nearly
+covered in shadow due to the heighth of the nearby tents.  The tents are well
+kept, but at the same time far from being new, and each is spaced evenly apart.
+Dust blows up along this path, and when coming into contact with the tent side,
+slowly slides down to a small pile of dust which collects at the base of the
+tent flap.    
+~
+69 0 h 0 0  0
+D3
+~
+~
+0 0 6922 0 0 0 0 0 0 0 0
+S
+#6924
+Outside the Main Tent~
+   The main flap to this tent is closed, despite that it seems to be the
+central tent.  The color of this tent is a deep dark red, quite possibly died
+in blood, and it prevents any from entering.  Hanging from the sides of the
+tent by thick twine are several skulls, some animal, some possibly human, each
+gaping out at the world from now empty eye sockets.    
+~
+69 0 h 0 0  0
+D1
+~
+~
+0 0 6925 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6920 0 0 0 0 0 0 0 0
+S
+#6925
+Within Redshadow's Tent~
+   This tent is draped in an eternal darkness, that swirls about the room,
+filling up every twist and turn in the fabric.  From all around, eyes of
+crimson peer out, searching for some substance to draw in and consume.  The
+inside of this tent houses Redshadow and his minions, and smells more like a
+damp castle cell than that of a dusty tent.    
+~
+69 0 h 0 0  0
+D3
+~
+~
+0 0 6924 0 0 0 0 0 0 0 0
+S
+$

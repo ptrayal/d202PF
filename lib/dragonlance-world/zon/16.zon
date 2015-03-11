@@ -1,0 +1,68 @@
+#16
+None.~
+Road from Sanction and Road to Khur~
+1600 1699 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  1600     1  1624   1   100     0    -1          0 a mumbling draconian guard
+
+M 0  1603     2  1619   2   100     1    -1          0 a tired, malnourished draconian
+
+M 0  1603     2  1619   2   100     2    -1          0 a tired, malnourished draconian
+
+M 0  1601     2  1610   1   100     3    -1          0 a burly draconian watchman
+
+M 0  1601     2  1606   1   100     4    -1          0 a burly draconian watchman
+
+G 1  1238     3     0   0    20     5     4          0 a rainbow coloured scroll
+
+M 0  1602     1  1607   1   100     6    -1          0 a draconian captain of the guards
+
+M 0  1606     5  1680   1   100     7    -1          0 an enchanting, beautiful girl
+
+M 0  1604     4  1680   1   100     8    -1          0 a stout, docile barbarian
+
+M 0  1606     5  1683   1   100     9    -1          0 an enchanting, beautiful girl
+
+M 0  1605     8  1683   1   100    10    -1          0 a rambunctious, fearless child
+
+M 0  1604     4  1683   1   100    11    -1          0 a stout, docile barbarian
+
+M 0  1606     5  1686   1   100    12    -1          0 an enchanting, beautiful girl
+
+M 0  1604     4  1686   1   100    13    -1          0 a stout, docile barbarian
+
+M 0  1606     5  1682   1   100    14    -1          0 an enchanting, beautiful girl
+
+M 0  1605     8  1682   1   100    15    -1          0 a rambunctious, fearless child
+
+M 0  1607     5  1681   1   100    16    -1          0 a rugged, muscular hunter
+
+M 0  1605     8  1681   1   100    17    -1          0 a rambunctious, fearless child
+
+M 0  1607     5  1685   1   100    18    -1          0 a rugged, muscular hunter
+
+M 0  1605     8  1685   1   100    19    -1          0 a rambunctious, fearless child
+
+M 0  1605     8  1689   1   100    20    -1          0 a rambunctious, fearless child
+
+M 0  1607     5  1688   1   100    21    -1          0 a rugged, muscular hunter
+
+M 0  1605     8  1688   1   100    22    -1          0 a rambunctious, fearless child
+
+M 0  1605     8  1690   1   100    23    -1          0 a rambunctious, fearless child
+
+M 0  1605     8  1684   1   100    24    -1          0 a rambunctious, fearless child
+
+M 0  1606     5  1687   1   100    25    -1          0 an enchanting, beautiful girl
+
+M 0  1607     5  1691   1   100    26    -1          0 a rugged, muscular hunter
+
+M 0  1608     2  1600   2   100    27    -1          0 a husky Sivak draconian
+
+M 0  1608     2  1600   2   100    28    -1          0 a husky Sivak draconian
+
+S
+$

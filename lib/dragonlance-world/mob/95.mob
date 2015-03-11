@@ -1,0 +1,1024 @@
+#9500
+armored large figure~
+a large armored figure~
+A large armored figure, is attempting to fix the broken wagon wheel.
+~
+   Standing here is a large, well muscled figure.  He is dressed in armor made
+from the finest metals.  He is kneeling in front of his wagon, apparently
+trying to fix the broken wagon wheel.  Though the hassle of his task is great,
+he seems to take it in stride, a smile still across his face.  As he notices
+you approach, he nods briefly.    
+~
+d 0 0 0 k 0 0 0 1000
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9501
+sleeping child~
+a sleeping child~
+Sleeping peacefully on a rolled out blanket is a small child.
+~
+   This young child rests peacefully on a rolled out blanket.  The smile on his
+face as he sleeps shows he is a child with little care in this world, safe in
+the knowledge that his mother is near.  He stirs slighty in his sleep, though
+keeps on resting peacefully.    
+~
+d 0 0 0 k 0 0 0 1000
+6 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9502
+graceful woman~
+a young graceful woman~
+This young graceful woman quietly sits next to her child.
+~
+   This woman appears to be no more than twenty years old.  She sits against
+the wall watching over her young child.  As she sees you enter her motherly
+instincs quickly push her towards her child to protect him, she eyes you
+carefully, wondering who you are, and what you want.    
+~
+d 0 0 0 k 0 0 0 1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9503
+stablehand young ~
+a young stablehand~
+A young stablehand sits quietly upon a small wooden stool.
+~
+   This young boy is sitting here quietly on a small wooden stool.  It seems
+that since he is rather young, his job is to speak with those whom wish to keep
+their horses in the stable and to collect the money.  His short blond hair is
+speckeled with dirt, and like most all young boys, his clothes show where he
+has been running through some mud.    
+~
+d 0 0 0 k 0 0 0 1000
+11 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9504
+large brown horse~
+a stout brown horse~
+A large brown horse stands here eating some of the hay.
+~
+   This large stout horse seems to be content eating some of the hay it has
+been fed.  Its tail moves in swift motions trying to keep the flies from
+landing on him.  His deep brown eyes seem to notice you as you begin to
+approach, though he doesn't seem to mind a stranger in his stall.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9505
+aging spotted mare horse~
+an aging spotted mare~
+An aging spotted mare seems to be sleeping in the corner.
+~
+   This large spotted horse seems to be getting rather old.  Though it still
+appears very stout, the greying of its mane show age.  It is standing quietly
+in the corner, its breath heavy and rythmatic.  Apparently the creature is fast
+asleep
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9506
+large black stallion horse~
+a large black stallion~
+A large black stallion dips his head into the feeding bucket.
+~
+   This large black stallion does not even notice you as you enter the stall.
+He has his head dipped down into the feeding bucket, feasting on the grain and
+oats given him by the stable workers.  His tail moves in quick movements
+chasing away the many flies that wish to land on him.    
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9507
+pale brown horse drinking ~
+a pale brown horse~
+Drinking from the water trough is a pale brown horse.
+~
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9508
+jet black warhorse horse ~
+a large stout warhorse~
+A large jet black warhorse stands firmly in front of you.
+~
+   This large black warhorse stands firmly before you.  His jet black fur is
+kept clean, giving it an almost shiny property.  He is larger than any of the
+other horses in the stable, and is placed in a stall alone.  He does not seem
+like the presence of a stranger near him, yet he does not back away.  Standing
+firmly he flares his nostrils and flips away some flies with his tail.    
+~
+d 0 0 0 k 0 0 0 1000
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9509
+stout white mare horse~
+a stout white mare~
+A stout white mare swats the flies with her tail.
+~
+   The mare in front of you has a coat of purest white.  Its eyes seem to
+follow you about the room, tryig to figure out what it is you want.  Its large
+tail swining wilding behind her, swatting the many flies which try to land on
+her.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9510
+stallion white large~
+a large white stallion~
+A large white staillion swats at the flies with his tail.
+~
+   Before you stands a very large white stallion.  His tail swings wildly
+behind him, trying to keep the swarming flies from landing on him.  He does not
+seem to care that you have entered his stall, his large brown eyes follow your
+every movement.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9511
+large burly stablehand~
+a burly stablehand~
+A large burly stablehand carries a large bail of hay.
+~
+   Before you is a large burly man.  He is working up here in the loft making
+sure the hay is kept stacked neatly.  Sweat beads down his face as he crosses
+the room carrying a large bail of hay and stacking it on top of the others.  
+As he notices you approach him, he smiles warmly.    
+~
+d 0 0 0 k 0 0 0 1000
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9512
+powerful charming man~
+a charming powerful man~
+Resting on a blanket, this large man smiles warmly.
+~
+   Before you rests a large muscled figure.  He appears to be very stout and
+strong, though his voice is filled with compassion as he speaks to his wife.  
+His eyes wander to his children playing off in the distance, the knowledge that
+he will never let harm come to them fresh in his mind.  As you begin to
+approach he nods slighty, then goes back to talking with his wife.    
+~
+d 0 0 0 k 0 0 0 1000
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9513
+slim young woman ~
+a young, slim woman~
+Resting on a blanket, this slim young woman watches her children.
+~
+   Before you is a young looking woman.  She is resting on a rolled out blanket
+here in the gardens talking with her husband, and watching her children off in
+the distance playing.  As she looks towards the children you see a smile cross
+her lips.    
+~
+d 0 0 0 k 0 0 0 1000
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9514
+skinny clumsy boy~
+a skinny clumsy boy~
+A skinny clumsy boy is running through the area.
+~
+   Running through the area is a skiinny young boy.  He has short blond hair
+and hazel green eyes.  His pants are stained from the grass and dirt he has
+been playing in.  As he tries to run after his siblings he trips awkwardly over
+his own feet, falling to the ground.  Though quite persistant he quickly gets
+back up and takes off again.    
+~
+d 0 0 0 k 0 0 0 1000
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9515
+tall smiling girl~
+a tall smiling girl~
+A tall smiling girl watches her younger brothers.
+~
+   Before you stands a tall young girl.  Her long brown hair is pulled back
+into braids behind her hair.  Her clothes show signs of wear as is normal for
+all younger children.  She is playing in the gardens with her two brothers,
+though being older she watches them closely, doing what she can to help out her
+mother.    
+~
+d 0 0 0 k 0 0 0 1000
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9516
+boy chubby young hyper~
+a hyper chubby boy~
+Running past you, is a young chubby boy.
+~
+   This young boy is running and playing through the area.  He seems to be full
+of energy and stamina.  He walks nowhere, only runs.  He is not as skinny as
+his brother, though he is not quite as tall either.  As he sees you approach he
+smiles happily and walks up to speak with you.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9517
+tall burly man ~
+a tall, burly man~
+A tall, burly man sits quietly on the pew.
+~
+   Sitting quietly on one of the pew's is a tall, burly man.  His clothes do
+not appear very expensive, though he seems to be dressed as best he can.  His
+hands and arms shows the signs of long days of hard labor, yet his face is warm
+and compassionate.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9518
+man frail elderly~
+an elderly, frail man~
+An elderly, frail man sits here listenting to the speaker.
+~
+   An elderly man sits here on the pew listening to the speaker.  His hair is
+pure white, and his skin is withered with age.  Every now and then he puts a
+rag to his mouth and coughs, trying not to disturb those around him.  He has
+dark circles around his eyes, yet a smile across his face.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9519
+young cheerful woman ~
+a young, cheerful woman~
+A young, cheerful woman listens to the speaker.
+~
+   Sitting here on the pew is a young cheerful woman.  Her eyes are completely
+fixeated on the speaker, giving him her full attention.  Every now and then she
+flips through a book she holds in her hand, as though looking for something.  
+As she notices you approach, she smiles warmly.    
+~
+d 0 0 0 k 0 0 0 1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9520
+devout temple member~
+a devout temple member~
+A devout member of the temple, quietly walks past you.
+~
+   Passing by you is one of the regular members of the church.  He is walking
+around the room trying to find an open seat.  A book clutched tightly in one
+hand, and with his other he shakes the hands of his fellow worshipers.  As he
+passes by you he nods slightly but keeps on going.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9521
+Garik pious holy flowing robes dressed priest~
+Garik, a pious holy man~
+Dressed in white flowing robes, Garik the temple priest stands here.
+~
+   Before you stands the temple priest, he is dressed in long white flowing
+robes embroidered with golden trimming.  His face is warm and pure, but his
+eyes show a hint of fear, perhaps due to the fact that not many dare approach
+the priest as he is giving one of his sermons.    
+~
+d 0 0 0 k 0 0 0 900
+29 20 7 24d100+152 1d8+0
+15 0 41 1
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9522
+cheerful smiling man ~
+a cheerful, smiling man~
+A cheerful, smiling man nods as he passes by you.
+~
+   Brushing past you is a cheerful, smiling man.  He is dressed in well
+tailored clothing, his dark brown hair resting neatly about his shoulders.  
+The mans complextion is darkened from long hours of labor in the sun.  As he
+passes by you he smiles warmy and gives you a nod.    
+~
+d 0 0 0 k 0 0 0 1000
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9523
+young graceful woman ~
+a young, graceful woman~
+A young, graceful woman slowly walks down the street.
+~
+   Walking past you is a young graceful woman.  Her long golden hair hangs down
+to her back, and her bright green eyes glitter as the sunlight hits them.  She
+is walking down the street rather slowly, apparently not much in a hurry to get
+where she is going.    
+~
+d 0 0 0 k 0 0 0 0
+16 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9524
+young playful child~
+a young playful child~
+A young playful child, runs down the street.
+~
+   Running past you is a young playful child.  His trousers are stained with
+the grass and mud that he has been playing in.  Small pieces of grass stick out
+of his short dark hair.  He runs past you without much of a care in the world,
+as he notices you he smiles brieftly but doesn't stop.    
+~
+d 0 0 0 k 0 0 0 1000
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9525
+member militia local ~
+a member of the militia~
+A member of the local militia patrols the streets.
+~
+   Walking proudly down the street is a member of the local militia.  He is
+dressed in higly polished armor.  His hand kept close to the hilt of his sword,
+so he can pull it out at a moments notice.  He walks down the street scanning
+the area, looking for any sings of trouble.    
+~
+d 0 0 0 k 0 0 0 1000
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9526
+weathered tired peasant~
+a weathered, tired peasant~
+A weathered tired peasant sips slowly from a mug of ale.
+~
+   This man before you is relaxing with a mug of ale after a long day of
+working in the fields.  His skin is darkened and aged from the sunlight, and
+his body is muscled from the hard labors.  He sits down at a table drinking,
+talking with some people that he knows, and ocassionally he'll get up to go get
+another pitcher of ale for he and his friends.    
+~
+d 0 0 0 k 0 0 0 900
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9527
+young barmaid ~
+a young, barmaid~
+A barmaid quickly makes her way around the room serving drinks and food.
+~
+   Walking aobut the room is a young barmaid.  She carries a tray of drink and
+food to the customers throughout the tavern.  When a person leaves a table,
+she'll quickly run over with a damp rag and clean the table top, making sure
+its clean for the next person who takes a seat there.  As she notices your gaze
+she blushes softly and turns back to her work.    
+~
+d 0 0 0 k 0 0 0 900
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9528
+elderly dwarven ~
+an elderly, dwarven male~
+An elderly dwarven male drinks from a pitcher of firebreather.
+~
+   Drinking from a pitcher of firebreather is an elderly dwarven male.  He is
+dressed in well tailored clothing, and his long grey beard comes down almost to
+his knees.  He drinks the firebreather quickly , and watches the others around
+the room.  He seems to be rather amused that he can easily out drink any of the
+humans in the tavern.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9529
+man dark skinned drunken~
+a drunken, dark skinned man.~
+A dark skinned man lays passed out on his bed.
+~
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9530
+large muscled figure~
+a large, well muscled figure~
+A large, well muscled figure sits on the edge of the bed.
+~
+   Before you stands a very large muscled figure.  He is wearing armor that
+seems to be large enough for two men your size to fit in.  His face and arms
+are covered with battle scars, though his eyes should youth and compassion.  
+As you enter his room he looks up and nods.    
+~
+d 0 0 0 k 0 0 0 900
+17 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9531
+young man ~
+a young man~
+A young man walks down the hall carrying fresh linens.
+~
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9532
+tall lanky man~
+a tall, lanky man~
+A tall lanky man walks quickly down the streets.
+~
+   Quickly walking down the streets is a tall lanky man.  His blonde hair is
+kept short so that he never need touch it with a comb, and though his clothes
+are clean, they are wrinkled and his pants to short for his long legs.  As he
+passes by you he nods and keeps on moving.    
+~
+d 0 0 0 k 0 0 0 900
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9533
+woman white flowing robes~
+a woman in white robes~
+A woman wearing white flowing robes walks down the street.
+~
+   Slowly walking down the road, is a woman dressed in white flowing robes.  
+Her complextion is fair, and her deep green eyes glitter like a freshly shone
+emerald.  She carries a small book in her hand, every now and then flipping
+through the pages , as though trying to remember something.    
+~
+d 0 0 0 k 0 0 0 900
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9534
+man frail elderly~
+a frail elderly man~
+A frail elderly man counts out some coins for a customer.
+~
+   An elderly man stands before you wearing a green leather apron.  A pair of
+spectecles hangss slighty down off the bridge of his nose as he leans over a
+table to coin the money that comes into his bank.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9535
+tired smith man~
+a tired smith in worn leather.~
+A tired man stands here showing you his wares.
+~
+   Sweet forming upon his brow, this tired smith greets you with a weary smile.
+His grey hair flying about in all directions, and his cool blue eyes, are what
+you notice most about him.    
+~
+d 0 0 0 k 0 0 0 0
+34 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9536
+garinth short balding clerk~
+Garinth, a short, balding clerk~
+A short, balding clerk stands behind the counter.
+~
+   Short gray hair is nearly covering his head, but it appears that he has
+relied on the 'clever' combover to cover it up, so one should not know he is
+balding.  He is pretty buff, of course, cause he works at the forge now and
+again, he does not just stand here aimlessly while others do the hard work of
+the constructing of armor.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#9537
+bawler tall patient~
+Bawler, a tall, patient man~
+Bawler, a tall, patient man stands behind the counter awaiting the next customer.
+~
+   A tall man, wearing an apron to keep his clothes clean, stands here behind
+the counter.  His face has a few pock scars from his youth, but other than
+that, he looks a rather clean man.  His left hand is missing a finger, but it
+seems to bother him none.    
+~
+d 0 0 0 k 0 0 0 0
+30 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$
+$

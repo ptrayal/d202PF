@@ -1,0 +1,760 @@
+#6700
+stove open fire~
+an open fire stove~
+A large open fire stove sits here in the middle of the kitchen.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6701
+steak cooked food~
+a flame broiled steak~
+A peice of cooked steak has been left here.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6702
+potatoes boiled plate food~
+a plate of boiled potatoes~
+A plate of boiled potatoes has been left here.~
+~
+19 0 x 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6703
+vegetables bowl food~
+a bowl of steamed vegetables~
+A bowl of steamed vegetables has been left here.~
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6704
+mug wooden~
+a large wooden mug~
+A large wooden mug has been left here.~
+~
+17 jklmnoprstuvwBCDF abc stuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 20 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6705
+glass wooden~
+a small wooden glass~
+A small wooden glass has been left here.~
+2 con 1~
+17 jklmnoprstuvwBCDF abc stuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 20 10 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6706
+keyring key wooden~
+a small wooden keyring with a single key~
+A small wooden keyring has been left here.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6707
+table chairs tall~
+a tall table and set of chairs~
+A tall round table with four high-backed chairs has been carefully placed here.~
+~
+13 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6708
+rack wine wooden tall~
+a tall wooden wine rack~
+A large wooden wine rack extends to the ceiling here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6709
+wine bottle dusty~
+a dusty bottle of fine wine~
+A bottle of fine wine gathers dust here.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 1500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6710
+barrel whisky large~
+a large barrel of whisky~
+A large barrel of whisky with a tube running through the ceiling has been placed here.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6711
+bar wooden large~
+a large wooden half-oval bar~
+A large wooden half oval bar spans the width of the room.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+bar~
+   This large bar is a half oval shape and spans the entire width of the room
+blocking traffic past it.  A small flap door is positioned in the center to
+allow some access.    
+~
+E
+wooden~
+   This large bar is a half oval shape and spans the entire width of the room
+blocking traffic past it.  A small flap door is positioned in the center to
+allow some access.    
+~
+E
+large~
+   This large bar is a half oval shape and spans the entire width of the room
+blocking traffic past it.  A small flap door is positioned in the center to
+allow some access.    
+~
+#6712
+spring pure~
+a pure spring~
+A pure spring bubbles at the foot of the Cleft Spires.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5005 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6713
+bench long wooden~
+a long wooden bench~
+A long wooden bench has been carefully placed here for seating.~
+~
+13 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6714
+podium massive~
+a massive podium~
+A massive wooden podium sits here on a raised floor.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6715
+rack weapon~
+a weapon rack~
+A weapon rack has been placed against the wall.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6716
+longsword battered iron~
+a battered iron longsword~
+A battered iron longsword used for training has been left here.~
+~
+5 jklprstuBCDF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 -1 0
+#6717
+diadem ivory carved ornately solanthus~
+an ornately carved ivory diadem~
+A circlet of pure ivory has been dropped here.~
+~
+9 jklmntwBCDEF abc 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 13 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+4 1 0
+#6718
+shortsword defenders solanthus~
+a defenders shortsword~
+A beautiful shortsword of solamnic design has been carelessly left here.~
+~
+5 jklpstuCEF abc l 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+garotte~
+   This thin wire seems to be woven of small strands of silver.  It can be worn
+around the neck brazenly as a piece of jewellery.  Or used for a darker
+purpose.....    
+~
+A
+18 1 0
+A
+17 -5 0
+#6719
+skirt platemail looped hoops solanthus~
+a skirt of looped platemail hoops~
+A pile of platemail hoops lay here in a tangled mess.~
+~
+9 jklpstuBCEF abc 0 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+15 11000 0 4
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#6720
+buckler ancient antique silver runes solanthus~
+an antique silver buckler covered in ancient solamnic runes~
+A rune covered silver disk lies here sparkling in the dirt.~
+~
+9 jntBCEF abc 0 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+7 3000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+1 1 0
+#6721
+band thick marble solanthus~
+a thick marble band~
+A thick band of pure white marble lies here in the dirt.~
+~
+9 gjtCDEF abc 0 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 10000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+ring~
+   This blackened ring is made of many interwoven circles of iron.  Within its
+puzzling coils an opening can be seen closed and manacled with a tiny X shaped
+inset.    
+~
+A
+17 -5 0
+A
+19 1 0
+#6722
+bracelet marble thin~
+a thin marble bracelet~
+A thin chain of pure white marble links lies here in the dirt.~
+~
+9 jklmnvwBCDEF abc 0 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 10000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 3 0
+A
+14 3 0
+#6723
+bag holding solanthus brown~
+a small brown bag of holding~
+A brown pile of cloth is laying on the ground here.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 alo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 40000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6724
+robe satin white~
+a white satin robe~
+A tarnished piece of copper sits in the dust.~
+~
+11 jklmntwBCDEF abc 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 1000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+A
+13 5 0
+#6725
+greaves platemail solamnic~
+a pair of solamnic platemail greaves~
+A pair of standard issue solamnic platemail greaves have been abandoned here.~
+~
+9 jnpstBCDEF abc 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+50 1500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6726
+boots platemail solamnic~
+a pair of solamnic platemail boots~
+A pair of standard issue solamnic platemail boots have been abandoned here.~
+~
+9 jnpstBCDEF abc 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6727
+plates arm platemail solamnic~
+a pair of solamnic platemail arm plates~
+A pair of standard issue solamnic platemail arm plates have been abandoned here.~
+~
+9 jnpstBCDEF abc 0 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6728
+cloak royal blue velvet golden embroidery solanthus~
+a royal blue velvet cloak with golden embroidery~
+A pile of royal blue cloth lies here in a ball.~
+5~
+9 jklnpstCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 700 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+A
+13 5 0
+#6729
+necklace brass rings~
+a necklace of brass rings~
+A string of brass rings lies here in the dirt obviously forgotten.~
+~
+9 bgjklnpstBCEF ab 0 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 3000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 3 0
+A
+13 5 0
+#6730
+book bodily health solanthus~
+the book of bodily health~
+A small leatherbound book has been carelessly left here.~
+4~
+2 jklnopstvwCEF ab 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 5000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6731
+mace war blessed silver shrouded holy white flames solanthus~
+a blessed silver war mace shrouded in holy white flame~
+A brightly burning silver war mace scorches the ground around it with holy white fire.~
+~
+5 ajntBCDF ab l 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+6 1 0
+A
+13 10 0
+#6732
+standard battle solamnic solanthus~
+a solamnic battle standard~
+A standard of the solamnic knighthood lies here forgotten.~
+~
+11 jpstCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+A
+13 5 0
+#6733
+lance sharp rose wood solanthus~
+a sharp rose wood footman's lance~
+A short lance crafted from polished rose wood has been left here.~
+~
+5 bjklstCF a k 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+11 1400 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 3 0
+A
+18 1 0
+#6734
+sturdy rose wood longbow bow solanthus~
+a sturdy, rose wood longbow~
+A sturdy longbow crafted from polished rose wood lies here.~
+~
+5 jklopruwxBCDF abc kstuvwxyz 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#6735
+collar thick chainmail ancient solanthus~
+a thick chainmail collar engraved with ancient writing~
+A huge circle of chainmail has been left here.~
+~
+9 jklnpstBCDF abc kstuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 2500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+17 -3 0
+A
+13 10 0
+#6736
+fingerband circle spiked granite solanthus~
+a spiked fingerband crafted from solid granite~
+A spiked circle of granite has been left behind here.~
+~
+9 jkluBCDF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 2500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#6737
+collar peice granite onyx solanthus~
+a spiked granite collar inlaid with peices of razor sharp onyx~
+A large peice of granite with peices of black onyx has been left here.~
+~
+9 jkluBCDF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 2500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+19 1 0
+#6738
+sign~
+a large wooden sign~
+A large wooden sign is posted on the gates.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+sign~
+This gate is closed until further notice.
+   -Lord Mayor of Solanthus
+~
+#6739
+temple simply built~
+the Temple of Shinare~
+A simply built temple of grey stone with large metal doors bearing the symbol of a Griffon is here.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+temple~
+   The Temple of Shinare is simply build from a dull gray stone.  At the front
+of the temple is a set of large metal doors bearing the symbol of a Griffon.  
+The temple appears to be closed to travelers.    
+~
+#6740
+temple~
+the Temple of Mishakal~
+A tall, beautiful and graceful temple emits a blue flame at the very top of it.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6741
+temple~
+the Temple of Kiri-Jolith~
+An old looking temple made of white marble rests peacefully here.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6742
+temple~
+the Temple of Paladine~
+A brand-new temple made of white marble with four huge columns sits against the edge of a rose garden.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6743
+potion dark experience lanyard~
+a dark potion attached to a lanyard~
+A dark potion attached to a lanyard is here.~
+~
+10 cjklmnoprstuvwBCDF abc stuvwxyz 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 25000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6744
+object new~
+bleh~
+A new object is here.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6745
+satchel chainmail lightweight solanthus~
+a lightweight chainmail satchel~
+A pile of thin chainmail has been left here.~
+~
+15 jklmnopstuvwBCDEF abc stuvwxy 0 alo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 40000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#6746
+corpse human disfigured~
+a disfigured human corpse~
+A disfigured pile or human flesh and chainmail is strung about the floor.~
+~
+13 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+corpse~
+   A hacked up corpse of what seems to be a human lies here, but you're not
+quite sure of the origins of the creature whose remains these belonged to.  
+Whatever this thing was, it died quite horribly.    
+~
+$~

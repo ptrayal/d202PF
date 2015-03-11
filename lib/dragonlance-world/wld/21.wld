@@ -1,0 +1,1221 @@
+#2100
+A Trail Lined with Flowers~
+   Tall yellow flowers line both sides of this trail.  They appear wilted and
+nearly dead.  A silence hangs over the air, as if the entire plains had
+suddenly emptied of life.    
+~
+21 0 0 0 0  3
+D0
+~
+~
+0 0 3054 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2101 0 0 0 0 0 0 0 0
+S
+#2101
+A Trail Lined with Flowers~
+   Tall yellow flowers line both sides of this trail.  They appear wilted and
+nearly dead.  A silence hangs over the air, as if the entire plains had
+suddenly emptied of life.    
+~
+21 0 0 0 0  3
+D0
+~
+~
+0 0 2100 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2102 0 0 0 0 0 0 0 0
+S
+#2102
+A Trail Lined with Flowers~
+   Tall yellow flowers line both sides of this trail.  They appear wilted and
+nearly dead.  A silence hangs over the air, as if the entire plains had
+suddenly emptied of life.    
+~
+21 0 0 0 0  3
+D0
+~
+~
+0 0 2101 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2103 0 0 0 0 0 0 0 0
+S
+#2103
+Near Some Leafless Trees~
+   You stand near some short, stumpy leafless trees.  The bark appears to be
+peeling off of most of them, and sap oozes from dark ruptures in the wood of
+the trees.  The howling wind sets the trees to rustling.    
+~
+21 0 0 0 0  3
+D0
+~
+~
+0 0 2102 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2104 0 0 0 0 0 0 0 0
+S
+#2104
+Within the Leafless Trees~
+   Leafless trees surround you, shifting in the chill wind.  To the south, a
+mud-walled building stands at the end of the trail.  A bird lies dead at your
+feet, with no apparent cause of death.    
+~
+21 0 0 0 0  3
+D0
+~
+~
+0 0 2103 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2105 0 0 0 0 0 0 0 0
+S
+#2105
+Near the Mud-Walled Temple~
+   You stand a few steps from the door of the mud-walled building.  Various
+markings have been carved above and around the door.  They look like symbols of
+Zivilyn, the Breath of Life, but they have been twisted and warped into new,
+horrible shapes.  A single figure stands nearly obscured in the shadows near
+the door.  Though you can not be sure, you think it is looking in your
+direction.    
+~
+21 0 0 0 0  3
+D0
+~
+~
+0 0 2104 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2106 0 0 0 0 0 0 0 0
+S
+#2106
+At the Door of the Mud-Walled Temple~
+   The door to the mud-walled temple stands just before you, beckoning you with
+its warped symbols of Zivilyn.  Upon the door is a finely crafted brass handle
+with a lock
+~
+21 c 0 0 0  3
+D0
+~
+~
+0 0 2105 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2107 0 0 0 0 0 0 0 0
+S
+#2107
+Entrance Hall~
+   You stand in a small, dirty hall.  Double doors to the south stand closed.
+The large heart of the forest (the symbol of Zivilyn) carved upon the door has
+been warped and twisted into an odd shape.  To the east and west, short
+hallways run, turning south after a short distance.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2106 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2119 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2115 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2108 0 0 0 0 0 0 0 0
+S
+#2108
+Western Hallway~
+   This narrow hallway is lined with artifacts of Zivilyn, though they have
+been warped and twisted into new, bizarre shapes.  The hallway turns south
+here, and is lined with archways on both sides, further on.    
+~
+21 d 0 0 0  0
+D1
+~
+~
+0 0 2107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2109 0 0 0 0 0 0 0 0
+S
+#2109
+Western Hallway~
+   You stand before the first archway in the western hallway.  Looking inside,
+you can see a sparsely furnished room, filled with dust and grime.  Two more
+archways lie to the south, and the hallway turns into the entrance hall to the
+north.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2108 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2110 0 0 0 0 0 0 0 0
+S
+#2110
+A Modest Room~
+   Sparsly furnished and undecorated, this room must belong to a priest of the
+temple.  A few books line the shelves of the rotting bookcase, and a cot lies
+in one corner.    
+~
+21 d 0 0 0  0
+D1
+~
+~
+0 0 2109 0 0 0 0 0 0 0 0
+S
+#2111
+Western Hallway~
+   You stand before the middle archway in the western hallway.  You can see
+that whatever used to lie inside it has been ruined, for the roofing appears to
+have collapsed.  You can step in a little ways, but your progress will be
+halted by fallen debris.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2109 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2113 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2112 0 0 0 0 0 0 0 0
+S
+#2112
+Western Archway~
+   You stand before the final archway in the western hallway.  The archway is
+covered in twisted hearts of the forest.  The room beyond the archway seems
+quite large and richly furnished.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2114 0 0 0 0 0 0 0 0
+S
+#2113
+Amid the Debris~
+   Pieces of the fallen roof stand on all sides but the west.  The rubble gives
+no hint as to what this area might have been used for.    
+~
+21 d 0 0 0  0
+D3
+~
+~
+0 0 2111 0 0 0 0 0 0 0 0
+S
+#2114
+High Priest's Chambers~
+   This room must belong to the High Priest of this temple, for it is filled
+with twisted artifacts of Zivilyn.  A real bed and an orderly, clean bookshelf
+complete the furnishings.    
+~
+21 cd 0 0 0  0
+D1
+~
+~
+0 0 2112 0 0 0 0 0 0 0 0
+S
+#2115
+Between the Pews~
+   You stand between the rows of pews set up for the devoted.  You notice pews
+knocked over as well as some smashed to bits by falling pieces of roof.  A
+wooden altar lies to the south, on a raised dias past the pews.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2107 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2116 0 0 0 0 0 0 0 0
+S
+#2116
+Between the Pews~
+   You stand between the rows of pews set up for the devoted.  You notice pews
+knocked over as well as some smashed to bits by falling pieces of roof.  A
+wooden altar lies to the south, on a raised dias past the pews.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2115 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2117 0 0 0 0 0 0 0 0
+S
+#2117
+Before the Dais~
+   You stand with the rows of pews at your back, facing the raised dias upon
+which rests the altar.  The dias is clear of debris and the altar itself
+remained unharmed through whatever might have damaged this building.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2116 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2118 0 0 0 0 0 0 0 0
+S
+#2118
+Standing at the Altar~
+   The altar before you is carved from a single immense piece of wood.  It is
+covered with carvings of the heart of the forest, though these have all been
+twisted and warped into bizarre shapes.    
+~
+21 cd 0 0 0  0
+D0
+~
+~
+0 0 2117 0 0 0 0 0 0 0 0
+D5
+~
+secret~
+1 2102 2130 0 0 0 0 0 0 0 0
+S
+#2119
+Eastern Hallway~
+   This narrow hallway is lined with artifacts of Zivilyn, though they have
+been warped and twisted into new, bizarre shapes.  The hallway turns south
+here, and is lined with archways on both sides, further on.    
+~
+21 d 0 0 0  0
+D2
+~
+~
+0 0 2120 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2107 0 0 0 0 0 0 0 0
+S
+#2120
+Eastern Hallway~
+   You stand before the first archway in the eastern hallway.  Looking into it
+you can make out the sparse furnishings of a priest, and a few dust-covered
+books on a sagging bookshelf.  Two more archways lie to the south, and the
+hallway turns into the entrance hall to the north.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2119 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2121 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2122 0 0 0 0 0 0 0 0
+S
+#2121
+A Modest Room~
+   Sparsly furnished and undecorated, this room must belong to a priest of the
+temple.  A few books line the shelves of the rotting bookcase, and a cot lies
+in one corner.    
+~
+21 d 0 0 0  0
+D3
+~
+~
+0 0 2120 0 0 0 0 0 0 0 0
+S
+#2122
+Eastern Hallway~
+   You stand before the middle archway in the eastern hallway.  Beyond it lies
+a cramped walkspace leading to the priest's side of the confessionals.  The
+first archway and the entrance hall lie to the north, while the final archway
+lies to the south.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2120 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2123 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2125 0 0 0 0 0 0 0 0
+S
+#2123
+Eastern Hallway~
+   You stand before the final archway in the eastern hallway.  Beyond it lies a
+modest room with sparse furnishings.  The archway bears a twisted heart of the
+forest.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2122 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2124 0 0 0 0 0 0 0 0
+S
+#2124
+A Modest Room~
+   Sparsly furnished and undecorated, this room must belong to a priest of the
+temple.  A few books line the shelves of the rotting bookcase, and a cot lies
+in one corner.    
+~
+21 d 0 0 0  0
+D3
+~
+~
+0 0 2123 0 0 0 0 0 0 0 0
+S
+#2125
+Cramped Walkway Behind the Confessionals~
+   This cramped walkway behind the confessionals is dusty and ill-used.  Doors
+into the confessionals stand to the north and south, and the eastern hallway
+lies to the east.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2126 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2128 0 0 0 0 0 0 0 0
+S
+#2126
+Confessional Door~
+   You stand before the small door into the confessional.  A small carving of
+the heart of the forest stands on the door, though it has been warped into an
+odd shape.    
+~
+21 d 0 0 0  0
+D2
+~
+~
+0 0 2125 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2127 0 0 0 0 0 0 0 0
+S
+#2127
+Confessional~
+   This small room contains a small bench and a screen through which come the
+sins of those who worship Zivilyn.  Dark thoughts fill your mind of the evils
+which have been heard here.    
+~
+21 d 0 0 0  0
+D1
+~
+door~
+1 0 2126 0 0 0 0 0 0 0 0
+S
+#2128
+Confessional Door~
+   You stand before the small door into the confessional.  A small carving of
+the heart of the forest stands on the door, though it has been warped into an
+odd shape.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2125 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2129 0 0 0 0 0 0 0 0
+S
+#2129
+Confessional~
+   This small room contains a small bench and a screen through which come the
+sins of those who worship Zivilyn.  Dark thoughts fill your mind of the evils
+which have been heard here.    
+~
+21 d 0 0 0  0
+D1
+~
+door~
+1 0 2128 0 0 0 0 0 0 0 0
+S
+#2130
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely staying alit.    
+~
+21 d 0 0 0  0
+D2
+~
+~
+0 0 2131 0 0 0 0 0 0 0 0
+D4
+~
+secret~
+1 2102 2118 0 0 0 0 0 0 0 0
+S
+#2131
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely staying alit.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2130 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2132 0 0 0 0 0 0 0 0
+S
+#2132
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely staying alit.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2131 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2156 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2133 0 0 0 0 0 0 0 0
+S
+#2133
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely staying alit.    
+~
+21 d 0 0 0  0
+D1
+~
+~
+0 0 2132 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2134 0 0 0 0 0 0 0 0
+S
+#2134
+A Poorly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely staying alit.    
+~
+21 d 0 0 0  0
+D1
+~
+~
+0 0 2133 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2135 0 0 0 0 0 0 0 0
+S
+#2135
+A Slightly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely staying alit.    
+~
+21 d 0 0 0  0
+D1
+~
+~
+0 0 2134 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2136 0 0 0 0 0 0 0 0
+S
+#2136
+A Slightly Ventilated Tunnel~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely staying alit.    
+~
+21 d 0 0 0  0
+D7
+~
+~
+0 0 2135 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2137 0 0 0 0 0 0 0 0
+S
+#2137
+A Slightly Ventilated Tunnel Stairwell~
+   This tunnel is ideal for dwarves, kender, and gnomes, but taller races are
+forced to slouch down to avoid hitting their heads on the thick wood beams
+which support the ceiling.  On every fifth post which support the beams, a
+torch sputters, barely keeping alit.  A stairwell spirals up into the unknown.
+~
+21 cd 0 0 0  0
+D4
+~
+~
+0 0 2138 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2136 0 0 0 0 0 0 0 0
+S
+#2138
+A Spiraling Stairwell~
+   This stairwell is small and spirals quickly.  The risers are overly large,
+making walking up them akward.  They were obviously designed to be difficult to
+travel, causing slow movement up and down them.    
+~
+21 d 0 0 0  0
+D4
+~
+~
+0 0 2139 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2137 0 0 0 0 0 0 0 0
+S
+#2139
+A Spiraling Stairwell~
+   This stairwell is small and spirals quickly.  The risers are overly large,
+making walking up them akward.  They were obviously designed to be difficult to
+travel, causing slow movement up and down them.    
+~
+21 d 0 0 0  0
+D4
+~
+~
+0 0 2140 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2138 0 0 0 0 0 0 0 0
+S
+#2140
+Top of a Small Stairwell in the Hidden Prison~
+   The damp air around you smells of unwashed bodies and is thick with the
+smoke of torches.  A small stairwell spirals down into gloom, to the west, a
+small hallway of stone leads by a number of barred cell doors.  Looking north
+you can see a trio of doors, one pair opposite each other and the third
+standing at the end of the hall.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2141 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 2146 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 2139 0 0 0 0 0 0 0 0
+S
+#2141
+A Short Corridor~
+   The dirt beneath your feet is freshly swept, the air scented with fragrant
+oils.  Everything seems clean and neat, and well maintained.  Bas-relief
+carvings of trees and forest animals adorn the walls, perhaps to distract from
+the knowledge that this is a prison.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2142 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2140 0 0 0 0 0 0 0 0
+S
+#2142
+At the Pair of Doors in the Short Corridor~
+   The dirt beneath your feet is freshly swept, the air scented with fragrant
+oils.  Everything seems clean and neat, and well maintained.  Bas-relief
+carvings of trees and forest animals adorn the walls, perhaps to distract from
+the knowledge that this is a prison.    
+~
+21 d 0 0 0  0
+D0
+~
+~
+0 0 2144 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 2145 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2141 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2143 0 0 0 0 0 0 0 0
+S
+#2143
+A Clean, Neat Cubicle~
+   This cubicle is clean and kept very neat and orderly.  Everything is in its
+proper place and there is a place for everything.  Combs are aligned just so
+next to the washbasin, which is centered on the small table in front of the
+mirror.  Some clothes are hung on pegs on the west wall, each hanging
+perfectly, spaced evenly apart.    
+~
+21 d 0 0 0  0
+D1
+~
+door~
+1 0 2142 0 0 0 0 0 0 0 0
+S
+#2144
+The End of the Short Corridor~
+   The dirt beneath your feet is freshly swept, the air scented with fragrant
+oils.  Everything seems clean and neat, and well maintained.  Bas-relief
+carvings of trees and forest animals adorn the walls, perhaps to distract from
+the knowledge that this is a prison.    
+~
+21 d 0 0 0  0
+D2
+~
+~
+0 0 2142 0 0 0 0 0 0 0 0
+S
+#2145
+A Spacious Cubicle~
+   This cubicle is small, but seems spacious due mostly to the lack of
+furniture, a single cot is folded up and stands against the wall.  A large
+number of mirrors hang from the walls, making the room seem larger.    
+~
+21 d 0 0 0  0
+D3
+~
+door~
+1 0 2142 0 0 0 0 0 0 0 0
+S
+#2146
+Portcullis Before the Cells~
+   A large iron portcullis set into the ceiling here blocks the prisoners from
+passage into the guard's working area.  It has 2 inch wide bars set
+perpendicular to each other, about 6 inches apart.  Large holes set into the
+floor wait to receive the sharp points on the bottom of the portcullis.    
+~
+21 d 0 0 0  0
+D1
+~
+door~
+1 2111 2147 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 2140 0 0 0 0 0 0 0 0
+S
+#2147
+Hall Between the Cells~
+   This wide hall travels between the rows of cells.  Thick metal cell doors
+stand between you and the inside of each cell.  The doors themselves look solid
+and well maintainted.  The damp air is thick with torch smoke and the smell of
+unwashed prisoners.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2148 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2150 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2149 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 2111 2146 0 0 0 0 0 0 0 0
+S
+#2148
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out
+from the wall, and doubles as a bed.  Old hay lies scattered across the floor,
+but mostly only mud is visible.  A thin trickle of water pours in from a rusty
+pipe, collecting in a small pool before draining to Gilean knows where.    
+~
+21 d 0 0 0  0
+D2
+~
+door~
+1 0 2147 0 0 0 0 0 0 0 0
+S
+#2149
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out
+from the wall, and doubles as a bed.  Old hay lies scattered across the floor,
+but mostly only mud is visible.  A thin trickle of water pours in from a rusty
+pipe, collecting in a small pool before draining to Gilean knows where.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2147 0 0 0 0 0 0 0 0
+S
+#2150
+Hall Between the Cells~
+   This wide hall travels between the rows of cells.  Thick metal cell doors
+stand between you and the inside of each cell.  The doors themselves look solid
+and well maintainted.  The damp air is thick with torch smoke and the smell of
+unwashed prisoners.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2151 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2153 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2152 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2147 0 0 0 0 0 0 0 0
+S
+#2151
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out
+from the wall, and doubles as a bed.  Old hay lies scattered across the floor,
+but mostly only mud is visible.  A thin trickle of water pours in from a rusty
+pipe, collecting in a small pool before draining to Gilean knows where.    
+~
+21 d 0 0 0  0
+D2
+~
+door~
+1 0 2150 0 0 0 0 0 0 0 0
+S
+#2152
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out
+from the wall, and doubles as a bed.  Old hay lies scattered across the floor,
+but mostly only mud is visible.  A thin trickle of water pours in from a rusty
+pipe, collecting in a small pool before draining to Gilean knows where.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2150 0 0 0 0 0 0 0 0
+S
+#2153
+Hall Between the Cells~
+   This wide hall travels between the rows of cells.  Thick metal cell doors
+stand between you and the inside of each cell.  The doors themselves look solid
+and well maintainted.  The damp air is thick with torch smoke and the smell of
+unwashed prisoners.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2155 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 2154 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2150 0 0 0 0 0 0 0 0
+S
+#2154
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out
+from the wall, and doubles as a bed.  Old hay lies scattered across the floor,
+but mostly only mud is visible.  A thin trickle of water pours in from a rusty
+pipe, collecting in a small pool before draining to Gilean knows where.    
+~
+21 d 0 0 0  0
+D0
+~
+door~
+1 0 2153 0 0 0 0 0 0 0 0
+S
+#2155
+A Holding Cell~
+   This small holding cell is damp and has a foul stench.  A bench juts out
+from the wall, and doubles as a bed.  Old hay lies scattered across the floor,
+but mostly only mud is visible.  A thin trickle of water pours in from a rusty
+pipe, collecting in a small pool before draining to Gilean knows where.    
+~
+21 d 0 0 0  0
+D2
+~
+door~
+1 0 2153 0 0 0 0 0 0 0 0
+S
+#2156
+Entrance to an Underground Garden~
+   This small path has a musty smell to it.  To the east, covered in a misty
+fog, a small garden has been set up underground.  The druids of this temple
+must have strange magic to allow plants to grow without the aid of sunlight.  
+~
+21 cd 0 0 0  0
+D1
+~
+~
+0 0 2157 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2132 0 0 0 0 0 0 0 0
+S
+#2157
+An Underground Garden~
+   As you step into the garden, the environment changes to appear as if you
+were standing outside.  A ceiling is above you, but you can see the sky clearly
+also.  The garden is a simple path that leads around a large tree at its
+center.    
+~
+21 0 0 0 0  3
+D3
+~
+~
+0 0 2156 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 2159 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 2158 0 0 0 0 0 0 0 0
+S
+#2158
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D2
+~
+~
+0 0 2160 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 2157 0 0 0 0 0 0 0 0
+S
+#2159
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2168 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 2157 0 0 0 0 0 0 0 0
+S
+#2160
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2158 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2161 0 0 0 0 0 0 0 0
+S
+#2161
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D1
+~
+~
+0 0 2162 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2160 0 0 0 0 0 0 0 0
+S
+#2162
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2163 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2164 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2161 0 0 0 0 0 0 0 0
+S
+#2163
+A Solitary Tree~
+   A large, solitary tree rests in the center of this small clearing of
+vegetation.  The tree has bark that is pitch black, and seems to hum with a
+soft murmur.  The leaves of the tree are a dark green color, and seem to drip
+with a strange sap.    
+~
+21 c 0 0 0  0
+D2
+~
+~
+0 0 2162 0 0 0 0 0 0 0 0
+S
+#2164
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2165 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2162 0 0 0 0 0 0 0 0
+S
+#2165
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2166 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2164 0 0 0 0 0 0 0 0
+S
+#2166
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2167 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2165 0 0 0 0 0 0 0 0
+S
+#2167
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2171 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2166 0 0 0 0 0 0 0 0
+S
+#2168
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D1
+~
+~
+0 0 2169 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 2159 0 0 0 0 0 0 0 0
+S
+#2169
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D0
+~
+~
+0 0 2172 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 2170 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2168 0 0 0 0 0 0 0 0
+S
+#2170
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D1
+~
+~
+0 0 2171 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2169 0 0 0 0 0 0 0 0
+S
+#2171
+The Garden Path~
+   The path moves around the edge of the small garden that is grown
+underground.  There are small flowers along each edge of the path, but it seems
+unwise to smell them.  The path is composed of dirt, but it is perfectly smooth
+and the dirt does not move onto your boots or clothing.    
+~
+21 0 0 0 0  0
+D2
+~
+~
+0 0 2167 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2170 0 0 0 0 0 0 0 0
+S
+#2172
+An Altar to Zivilyn~
+   An altar has been erected here to the god of wisdom, Zivilyn.  Incense is
+being burned in jars around the edge of the altar, and a small tree rests in
+its center.  A footstool rests in front of it, where druids come and pray for
+spells and good growth.    
+~
+21 c 0 0 0  0
+D2
+~
+~
+0 0 2169 0 0 0 0 0 0 0 0
+S
+$

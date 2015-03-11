@@ -1,0 +1,428 @@
+#4600
+troll lookout scout~
+a troll lookout~
+A troll lookout stands here scouting the area around the watch post.
+~
+It looks unfinished.
+~
+bdijk 0 0 0 k 0 0 0 0
+19 -1 -9 240d170+307 2d8+8
+68 300 93 6
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4601
+black adder~
+a black adder~
+A black adder slithers along the marsh floor.
+~
+The adder has sleek black scales covering its body.  It darts its tongue out
+sniffing for its next meal.  
+~
+dg 0 0 0 k 0 0 0 0
+20 -2 -10 252d180+468 2d8+6
+60 400 9 3
+8 8 0
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4602
+dark grey crocodile~
+a dark grey crocodile~
+A dark grey crocodile is laying still waiting for its prey.
+~
+It looks unfinished.
+~
+dg 0 0 0 k 0 0 0 0
+20 -2 -10 252d180+518 2d8+6
+60 300 9 3
+8 8 0
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4603
+long green python~
+a long green python~
+A long green python slowly moves along the ground here.
+~
+It looks unfinished.
+~
+dg 0 0 0 k 0 0 0 0
+20 -2 -10 252d180+528 2d8+6
+60 200 9 3
+8 8 0
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4604
+venom eye basilisk~
+a venom-eye basilisk~
+A venom-eye basilisk crawls along the marsh floor here.
+~
+It looks unfinished.
+~
+defglstwE 0 0 0 k 0 0 0 0
+19 -3 7 80d100+360 2d8+7
+68 900 9 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4605
+blade spider~
+a blade spider~
+A blade spider skitters along the marsh floor.
+~
+It looks unfinished.
+~
+degm 0 0 0 k v 0 0 0
+20 -2 -10 252d180+578 2d8+6
+60 400 9 3
+8 8 0
+E
+BareHandAttack: 4
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4606
+troll axe thrower~
+a troll axe-thrower~
+A troll axe-thrower stands here sharpening his axes.
+~
+It looks unfinished.
+~
+dgj 0 0 0 k 0 0 0 0
+20 -2 -10 210d180+318 2d8+6
+76 400 93 8
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4607
+troll shaman~
+a troll shaman~
+A troll shaman stands here garbed in animal skins.
+~
+It looks unfinished.
+~
+defgstv 0 0 0 k 0 0 0 0
+21 -3 -11 176d190+329 2d8+7
+1709 450 93 9
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 20
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4608
+troll witch doctor~
+a troll witch doctor~
+A troll witch doctor is standing here wielding a staff with a skull atop it.
+~
+It looks unfinished.
+~
+dgj 0 0 0 k 0 0 0 0
+21 -3 -11 88d190+369 2d8+7
+1709 450 93 0
+8 8 0
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4609
+troll berserker~
+a troll berserker~
+troll berserker stands here brandishing two large axes.
+~
+It looks unfinished.
+~
+defgjlswF 0 0 0 k 0 0 0 0
+22 -5 -12 2760d200+340 2d8+8
+1720 500 93 6
+8 8 0
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4610
+troll head hunter~
+a troll head hunter~
+A troll head hunter is here crouching.
+~
+It looks unfinished.
+~
+dg 0 0 0 k 0 0 0 0
+20 -2 -10 210d180+318 2d8+6
+76 400 93 8
+8 8 0
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#4611
+troll king~
+@rTroll@n @YKing@n~
+@rTroll@n @YKing@n
+~
+The troll King stands here looking disgusting as ever.  
+~
+bdeflmvF 0 0 0 k D dm 0 0
+26 20 -20 108d100+440 1d8+0
+1772 0 30 6
+8 8 0
+E
+BareHandAttack: 5
+E
+Str: 20
+E
+Dex: 16
+E
+Int: 22
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4612
+Servant troll ~
+@GServant@n to the @rTroll@n @YKing@n~
+@GServant@n to the @rTroll@n @YKing@n
+~
+The servant stands here attending to the kings every whim
+~
+bdflmuD 0 0 0 k u d 0 0
+22 20 -12 92d100+420 1d8+0
+1720 0 93 1
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4613
+@rTroll@n @YKings@n @Wpersonal guard@n~
+@rTroll@n @YKings@n @Wpersonal guard@n~
+@rTroll@n @YKings@n @Wpersonal guard@n
+~
+The guard stands here looking to the king for orders.  
+~
+bdflmuD 0 0 0 k D d 0 0
+21 20 -11 88d100+380 1d8+0
+1709 0 93 3
+8 8 2
+E
+BareHandAttack: 7
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 21
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4614
+wounded dwarf~
+a wounded @yDwarf@n~
+a wounded @yDwarf@n is lying off to the side of the path
+~
+It looks unfinished.
+~
+abdgnopqrA d 0 0 k 0 0 0 0
+60 20 -50 244d100+990 1d8+0
+2860 0 68 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#4615
+Gregor the greedy captain~
+@RGregor@y the greedy captain@n~
+@yA captain with @RLuskan's@y uniform is watching from this post@n
+~
+A strong if shortish man of dark complexion. His face looks like the one of a person who is used to give orders.  A narrow forehead lined with deep lines tells of a stubborn man, and his eyes show greed and ambition. 
+~
+bdmovD 0 0 0 r sD d 0 -500
+20 10 -14 960d100+100 1d1+10
+35 0 42 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#4616
+Outpost Soldier~
+Outpost Soldier~
+a soldier is guarding his captain here
+~
+A youth of no more than 20 years. His uniform is newly aquired and oiled. This soldier probably just graduated from the academy and was sent to gain some experience in this area. His hands tremble sligthly at the mention of trolls.
+~
+bdem 0 0 0 0 s d 0 0
+18 11 -11 432d100+100 1d1+9
+29 0 42 3
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

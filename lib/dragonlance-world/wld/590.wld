@@ -1,0 +1,2103 @@
+#59000
+Old Palanthas Road~
+   This is the main road that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D1
+~
+~
+0 0 2254 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59001 0 0 0 0 0 0 0 0
+S
+#59001
+Old Palanthas Road~
+   This is the main road that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D1
+~
+~
+0 0 59000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59002 0 0 0 0 0 0 0 0
+S
+#59002
+Old Palanthas Road~
+   This is the main road that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59044 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59042 0 0 0 0 0 0 0 0
+S
+#59003
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59002 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59004 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59008 0 0 0 0 0 0 0 0
+S
+#59004
+#2 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59003 0 0 0 0 0 0 0 0
+S
+#59005
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D2
+~
+~
+0 0 59006 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59004 0 0 0 0 0 0 0 0
+S
+#59006
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59007 0 0 0 0 0 0 0 0
+S
+#59007
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59006 0 0 0 0 0 0 0 0
+S
+#59008
+#1 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59003 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59009 0 0 0 0 0 0 0 0
+S
+#59009
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D1
+~
+~
+0 0 59008 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59010 0 0 0 0 0 0 0 0
+S
+#59010
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59009 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59011 0 0 0 0 0 0 0 0
+S
+#59011
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59010 0 0 0 0 0 0 0 0
+S
+#59012
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59013 0 0 0 0 0 0 0 0
+S
+#59013
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59012 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59022 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59014 0 0 0 0 0 0 0 0
+S
+#59014
+#3 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59015 0 0 0 0 0 0 0 0
+S
+#59015
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D1
+~
+~
+0 0 59014 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59016 0 0 0 0 0 0 0 0
+S
+#59016
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59015 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59017 0 0 0 0 0 0 0 0
+S
+#59017
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59016 0 0 0 0 0 0 0 0
+S
+#59018
+#4 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59013 0 0 0 0 0 0 0 0
+S
+#59019
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D2
+~
+~
+0 0 59020 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59018 0 0 0 0 0 0 0 0
+S
+#59020
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59021 0 0 0 0 0 0 0 0
+S
+#59021
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59020 0 0 0 0 0 0 0 0
+S
+#59022
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59023 0 0 0 0 0 0 0 0
+S
+#59023
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59022 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59024 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59032 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59028 0 0 0 0 0 0 0 0
+S
+#59024
+#6 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 0 0 0 0 0
+D1
+~
+~
+0 0 59025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59023 0 0 0 0 0 0 0 0
+S
+#59025
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 d 0 0 0 0
+D2
+~
+~
+0 0 59026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59024 0 0 0 0 0 0 0 0
+S
+#59026
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59027 0 0 0 0 0 0 0 0
+S
+#59027
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59026 0 0 0 0 0 0 0 0
+S
+#59028
+#5 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59023 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59029 0 0 0 0 0 0 0 0
+S
+#59029
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D1
+~
+~
+0 0 59028 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59030 0 0 0 0 0 0 0 0
+S
+#59030
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59029 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59031 0 0 0 0 0 0 0 0
+S
+#59031
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59030 0 0 0 0 0 0 0 0
+S
+#59032
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59023 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59033 0 0 0 0 0 0 0 0
+S
+#59033
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59032 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59038 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59084 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59034 0 0 0 0 0 0 0 0
+S
+#59034
+#7 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59033 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59035 0 0 0 0 0 0 0 0
+S
+#59035
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D1
+~
+~
+0 0 59034 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59036 0 0 0 0 0 0 0 0
+S
+#59036
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59035 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59037 0 0 0 0 0 0 0 0
+S
+#59037
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59036 0 0 0 0 0 0 0 0
+S
+#59038
+#8 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59033 0 0 0 0 0 0 0 0
+S
+#59039
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D2
+~
+~
+0 0 59040 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59038 0 0 0 0 0 0 0 0
+S
+#59040
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59039 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59041 0 0 0 0 0 0 0 0
+S
+#59041
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59040 0 0 0 0 0 0 0 0
+S
+#59042
+Old Palanthas Road~
+   This is the main road that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D1
+~
+~
+0 0 59002 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59043 0 0 0 0 0 0 0 0
+S
+#59043
+Old Palanthas Road~
+   This is the main road that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D1
+~
+~
+0 0 59042 0 0 0 0 0 0 0 0
+S
+#59044
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59053 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59049 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59002 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59045 0 0 0 0 0 0 0 0
+S
+#59045
+#9 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59044 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59046 0 0 0 0 0 0 0 0
+S
+#59046
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D0
+~
+~
+0 0 59047 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59045 0 0 0 0 0 0 0 0
+S
+#59047
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59048 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59046 0 0 0 0 0 0 0 0
+S
+#59048
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59047 0 0 0 0 0 0 0 0
+S
+#59049
+#10 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59050 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59044 0 0 0 0 0 0 0 0
+S
+#59050
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D0
+~
+~
+0 0 59051 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59049 0 0 0 0 0 0 0 0
+S
+#59051
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D2
+~
+~
+0 0 59050 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59052 0 0 0 0 0 0 0 0
+S
+#59052
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59051 0 0 0 0 0 0 0 0
+S
+#59053
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59054 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59044 0 0 0 0 0 0 0 0
+S
+#59054
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59063 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59059 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59053 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59055 0 0 0 0 0 0 0 0
+S
+#59055
+#11 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59054 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59056 0 0 0 0 0 0 0 0
+S
+#59056
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D0
+~
+~
+0 0 59057 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59055 0 0 0 0 0 0 0 0
+S
+#59057
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59058 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59056 0 0 0 0 0 0 0 0
+S
+#59058
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59057 0 0 0 0 0 0 0 0
+S
+#59059
+#12 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59054 0 0 0 0 0 0 0 0
+S
+#59060
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 djl 0 0 0 0
+D0
+~
+~
+0 0 59061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59059 0 0 0 0 0 0 0 0
+S
+#59061
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D2
+~
+~
+0 0 59060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59062 0 0 0 0 0 0 0 0
+S
+#59062
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59061 0 0 0 0 0 0 0 0
+S
+#59063
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59064 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59054 0 0 0 0 0 0 0 0
+S
+#59064
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59073 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59069 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59063 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59065 0 0 0 0 0 0 0 0
+S
+#59065
+#13 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 0 0 0 0 0
+D1
+~
+~
+0 0 59064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59066 0 0 0 0 0 0 0 0
+S
+#59066
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59067 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59065 0 0 0 0 0 0 0 0
+S
+#59067
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59068 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59066 0 0 0 0 0 0 0 0
+S
+#59068
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59067 0 0 0 0 0 0 0 0
+S
+#59069
+#14 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 0 0 0 0 0
+D1
+~
+~
+0 0 59070 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59064 0 0 0 0 0 0 0 0
+S
+#59070
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59071 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59069 0 0 0 0 0 0 0 0
+S
+#59071
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D2
+~
+~
+0 0 59070 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59072 0 0 0 0 0 0 0 0
+S
+#59072
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59071 0 0 0 0 0 0 0 0
+S
+#59073
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59074 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59064 0 0 0 0 0 0 0 0
+S
+#59074
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59083 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59073 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59075 0 0 0 0 0 0 0 0
+S
+#59075
+#15 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 0 0 0 0 0
+D1
+~
+~
+0 0 59074 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59076 0 0 0 0 0 0 0 0
+S
+#59076
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59077 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59075 0 0 0 0 0 0 0 0
+S
+#59077
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59078 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59076 0 0 0 0 0 0 0 0
+S
+#59078
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D3
+~
+~
+0 0 59077 0 0 0 0 0 0 0 0
+S
+#59079
+#16 Honeywillow Street~
+   This is the yard of a small, three roomn, one-level home here on Honeywillow
+Street.  The yard is fenced with short, yellow grass, and a small paved walkway.
+The home itself is made of sturdy timber, with a stone foundation, and has been
+painted white with blue trim.  
+~
+590 0 0 0 0 0
+D1
+~
+~
+0 0 59080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59074 0 0 0 0 0 0 0 0
+S
+#59080
+A Simple Living Room~
+   This simple living room is adorned with wooden furniture covered with
+straw-filled cushions.  There is a small fireplace in the corner with a stack of
+wood beside it.  The floor is covered by a simple black rug that covers most of
+the floor.  A simple painting of the house's owner occupies the northern wall.
+
+~
+590 d 0 0 0 0
+D0
+~
+~
+0 0 59081 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59079 0 0 0 0 0 0 0 0
+S
+#59081
+A Simple Kitchen~
+   This roomk is a simple kitchen filled with a wooden table surrounded by four
+wooden chairs, an iron stove with a kettle, a pot and a pan on top, and several
+shelves filled with preserved foods and kitchen supplies.  
+~
+590 d 0 0 0 0
+D2
+~
+~
+0 0 59080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59082 0 0 0 0 0 0 0 0
+S
+#59082
+A Simple Bedroom~
+   This room serves as a simple bedroom.  It has a simple wooden bed covered
+with a straw-filled matress, a wooden dresser and a desk with a single chair.  
+A small potted shrub stands in the corner by the door, and a waste basket is
+beside the desk.  A bookshelf is filled with odds and ends on the southern wall.
+
+~
+590 d 0 0 0 0
+D1
+~
+~
+0 0 59081 0 0 0 0 0 0 0 0
+S
+#59083
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D2
+~
+~
+0 0 59074 0 0 0 0 0 0 0 0
+S
+#59084
+Honeywillow Street~
+   This is one of the roads that runs through the residential district of
+Palanthas.  It is filled with people, playing children, housewives hanging up
+their clothing, and men working their various trades in their yards.  Stray dogs
+and cats are rampant, and garbage is piled on the street corners for collection.
+A shallow gutter runs along both sides of the road to carry waste and rainwater
+into the drainage system and the sewers beneath the city.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59033 0 0 0 0 0 0 0 0
+S
+#59085
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D1
+~
+~
+0 0 59086 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 2258 0 0 0 0 0 0 0 0
+S
+#59086
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59106 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59087 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59085 0 0 0 0 0 0 0 0
+S
+#59087
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59086 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59090 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59092 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59088 0 0 0 0 0 0 0 0
+S
+#59088
+Caide's Amenities and Artifacts~
+   The entrace to this shop is painted in stark white with blue and gold trim.
+It bears the symbol of the kingfisher, the sword and the rose over the door and
+the grounds are kept meticulously clean.  A sign reads, "Weaponry, Armor,
+Crafting Materials and Magical Odds and Ends for Sale".  
+~
+590 n 0 0 0 0
+D1
+~
+~
+0 0 59087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59089 0 0 0 0 0 0 0 0
+S
+#59089
+Inside Caide's Amenities and Artifacts~
+   This shop is kept meticulously clean.  The walls are covered in a huge mural
+of the battle of Huma against Takhisis.  Shelves fill the area, and upon them
+are various odds and ends.  A sign reads, "We sell armor, weapons, crafting
+materials and magical odds and ends.  Check back often for new inventory."  
+~
+590 jlA 0 0 0 0
+D0
+~
+~
+0 0 59088 0 0 0 0 0 0 0 0
+S
+#59090
+Palanthas Outfitters~
+You are standing just outside the entrance to Palanthas Outfitters.
+The shop doors stand open to the south.
+~
+590 n 0 0 0 0
+D2
+~
+~
+0 0 59091 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59087 0 0 0 0 0 0 0 0
+S
+#59091
+Inside Palanthas Outfitters~
+
+You are standing inside Palanthas Outfitters.
+Equipment of all kinds is on display throughout the room.
+
+A sign on the wall indicates that Halcyon is the prioprietor
+and instructs you to send any requests for custom equipment
+to him.
+~
+590 jlA 0 0 0 0
+D0
+~
+~
+0 0 59090 0 0 0 0 0 0 0 0
+S
+#59092
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59093 0 0 0 0 0 0 0 0
+S
+#59093
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59092 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59096 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59098 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59094 0 0 0 0 0 0 0 0
+S
+#59094
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D1
+~
+~
+0 0 59093 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59095 0 0 0 0 0 0 0 0
+S
+#59095
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59094 0 0 0 0 0 0 0 0
+S
+#59096
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D2
+~
+~
+0 0 59097 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59093 0 0 0 0 0 0 0 0
+S
+#59097
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59096 0 0 0 0 0 0 0 0
+S
+#59098
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59093 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59099 0 0 0 0 0 0 0 0
+S
+#59099
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59098 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59102 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59104 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59100 0 0 0 0 0 0 0 0
+S
+#59100
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D1
+~
+~
+0 0 59099 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59101 0 0 0 0 0 0 0 0
+S
+#59101
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59100 0 0 0 0 0 0 0 0
+S
+#59102
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D2
+~
+~
+0 0 59103 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59099 0 0 0 0 0 0 0 0
+S
+#59103
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59102 0 0 0 0 0 0 0 0
+S
+#59104
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59099 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59105 0 0 0 0 0 0 0 0
+S
+#59105
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59104 0 0 0 0 0 0 0 0
+S
+#59106
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59111 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59086 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59107 0 0 0 0 0 0 0 0
+S
+#59107
+The Silver Mistress~
+You are standing at the entrance to The Silver Mistress.
+The inside of the shop is just to your north.
+~
+590 n 0 0 0 0
+D0
+~
+~
+0 0 59108 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59106 0 0 0 0 0 0 0 0
+S
+#59108
+Inside The Silver Mistress~
+You are standing inside The Silver Mistress, a shop which
+seems to be almost as much a temple of Shinare as a place
+of business.  The premium quality of the items on the
+shelves would seem to indicate a wealthy clientele,
+befitting the goddess of wealth and commerce.   The decor
+has a distinctly dwarven feel, giving you the sense that
+the shop owner is either a dwarf or is catering to
+Palanthas's dwarven population.
+~
+590 jlA 0 0 0 0
+D2
+~
+~
+0 0 59107 0 0 0 0 0 0 0 0
+S
+#59109
+Kindle's Emporium of Exotic Wares~
+You are standing at the entrance to Kindle's Emporium of Exotic Wares.
+The inside of the shop is just to your north.
+~
+590 n 0 0 0 0
+D0
+~
+~
+0 0 59110 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59106 0 0 0 0 0 0 0 0
+S
+#59110
+Inside Kindle's Emporium of Exotic Wares~
+You are standing inside Kindle's Emporium of Exotic Wares.
+Intriguing artifacts of all kinds line the walls.
+~
+590 jlA 0 0 0 0
+D2
+~
+~
+0 0 59109 0 0 0 0 0 0 0 0
+S
+#59111
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59112 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59106 0 0 0 0 0 0 0 0
+S
+#59112
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59117 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59115 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59111 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59113 0 0 0 0 0 0 0 0
+S
+#59113
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59114 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59112 0 0 0 0 0 0 0 0
+S
+#59114
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D2
+~
+~
+0 0 59113 0 0 0 0 0 0 0 0
+S
+#59115
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59116 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59112 0 0 0 0 0 0 0 0
+S
+#59116
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D2
+~
+~
+0 0 59115 0 0 0 0 0 0 0 0
+S
+#59117
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59118 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59112 0 0 0 0 0 0 0 0
+S
+#59118
+Steel Row~
+   This street houses the shops of the various merchants of the realms.  Here
+you can buy all kinds of fantastical gear, made by artisans and found by brave
+adventurers.  
+~
+590 0 0 0 0 1
+D0
+~
+~
+0 0 59123 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59121 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59117 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59119 0 0 0 0 0 0 0 0
+S
+#59119
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59120 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 59118 0 0 0 0 0 0 0 0
+S
+#59120
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D2
+~
+~
+0 0 59119 0 0 0 0 0 0 0 0
+S
+#59121
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59122 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 59118 0 0 0 0 0 0 0 0
+S
+#59122
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D2
+~
+~
+0 0 59121 0 0 0 0 0 0 0 0
+S
+#59123
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D0
+~
+~
+0 0 59124 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 59118 0 0 0 0 0 0 0 0
+S
+#59124
+An unclaimed shop~
+  This shop has thus far not been claimed by anyone.
+~
+590 0 0 0 0 0
+D2
+~
+~
+0 0 59123 0 0 0 0 0 0 0 0
+S
+$~

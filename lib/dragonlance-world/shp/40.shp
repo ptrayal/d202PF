@@ -1,0 +1,114 @@
+CircleMUD v3.0 Shop File~
+#4002~
+4044
+4045
+4046
+4047
+4048
+4049
+4050
+4051
+4052
+4053
+4054
+4055
+4056
+4057
+4058
+4059
+-1
+1.00
+1.00
+8
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %s @Yquestpoints@n, thanks.~
+%s There's your new quest item!~
+0
+0
+4028
+0 0 0 0
+4002
+-1
+0
+28
+0
+0
+#4003~
+-1
+1.00
+0.75
+1lantern torch
+15backpack sphere pouch
+41gem onix obsidian sapphire ruby emerald diamond
+41darkwood wood silk hemp cotton wool velvet satin leather dragonhide
+41silver gold steel cold iron mithril adamantine bone
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %s coins, thanks.~
+%s I'll give you %s coins for that.~
+0
+0
+4100
+0 0 0 0
+4132
+-1
+0
+28
+0
+0
+#4004~
+-1
+1.00
+1.00
+5
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %s coins, thanks.~
+%s I'll give you %s coins for that.~
+0
+1
+4101
+0 0 0 0
+4130
+-1
+0
+28
+0
+0
+#4005~
+-1
+1.00
+1.00
+41bone leather dragonhide dragon hide
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %s coins, thanks.~
+%s I'll give you %s coins for that.~
+0
+0
+4102
+0 0 0 0
+4202
+-1
+0
+28
+0
+0
+$~

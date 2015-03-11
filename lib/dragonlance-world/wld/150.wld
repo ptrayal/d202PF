@@ -1,0 +1,1929 @@
+#15000
+A Small Grassy Field Beneath the Vallenwoods~
+   Nice plush grass covers the ground here, perfect for children to play in.  
+High above are the great branches of the vallenwood trees, shading and
+providing cover for all who reside here.  A few flowers grow here and there,
+adding more uniqueness to an already wonderful place.    
+~
+150 0 fh 0 0  2
+D0
+~
+~
+0 0 15009 0 0 0 0 0 0 0 0
+D1
+~
+door~
+0 0 1428 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15010 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15001 0 0 0 0 0 0 0 0
+S
+#15001
+A Narrow, Faint Trail in the Forest~
+   A thin, narrow trail snakes through the underbrush between vallenwood trees.
+Grass, and small bushes line either side of it, with the occasional flower
+poking out to find some sunshine filtering through the trees.  Occasionally a
+small animal runs across the path, or a bird swoops down, chirping.    
+~
+150 c fh 0 0  2
+D1
+~
+~
+0 0 15010 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15002 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15000 0 0 0 0 0 0 0 0
+S
+#15002
+A Narrow, Faint Trail in the Forest~
+   A thin, narrow trail snakes through the underbrush between vallenwood trees.
+Grass, and small bushes line either side of it, with the occasional flower
+poking out to find some sunshine filtering through the trees.  Occasionally a
+small animal runs across the path, or a bird swoops down, chirping.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15003 0 0 0 0 0 0 0 0
+S
+#15003
+A Narrow, Faint Trail in the Forest~
+   A thin, narrow trail snakes through the underbrush between vallenwood trees.
+Grass, and small bushes line either side of it, with the occasional flower
+poking out to find some sunshine filtering through the trees.  Occasionally a
+small animal runs across the path, or a bird swoops down, chirping.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15002 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15004 0 0 0 0 0 0 0 0
+S
+#15004
+A Narrow, Faint Trail in the Forest~
+   A thin, narrow trail snakes through the underbrush between vallenwood trees.
+Grass, and small bushes line either side of it, with the occasional flower
+poking out to find some sunshine filtering through the trees.  Occasionally a
+small animal runs across the path, or a bird swoops down, chirping.    
+~
+150 0 h 0 0  2
+D7
+~
+~
+0 0 15003 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15005 0 0 0 0 0 0 0 0
+S
+#15005
+A Narrow, Faint Trail in the Forest~
+   A thin, narrow trail snakes through the underbrush between vallenwood trees.
+Grass, and small bushes line either side of it, with the occasional flower
+poking out to find some sunshine filtering through the trees.  Occasionally a
+small animal runs across the path, or a bird swoops down, chirping.    
+~
+150 i h 0 0  2
+D2
+~
+~
+0 0 15006 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15004 0 0 0 0 0 0 0 0
+S
+#15006
+A Narrow, Faint Trail in the Forest~
+   A thin, narrow trail snakes through the underbrush between vallenwood trees.
+Grass, and small bushes line either side of it, with the occasional flower
+poking out to find some sunshine filtering through the trees.  Occasionally a
+small animal runs across the path, or a bird swoops down, chirping.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15005 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15007 0 0 0 0 0 0 0 0
+S
+#15007
+A Narrow, Faint Trail in the Forest~
+   A thin, narrow trail snakes through the underbrush between vallenwood trees.
+Grass, and small bushes line either side of it, with the occasional flower
+poking out to find some sunshine filtering through the trees.  Occasionally a
+small animal runs across the path, or a bird swoops down, chirping.    
+~
+150 0 h 0 0  2
+D2
+~
+~
+0 0 15008 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15006 0 0 0 0 0 0 0 0
+S
+#15008
+Between Two Large Trees~
+   The forest thickens with smaller trees here, the trail leading south
+becoming more faint.  The large vallenwoods cover less of the sky, making it
+easier for thick brush and small trees to cover the land more.  Between two
+somewhat large trees is a simple wooden gate, intended to keep children from
+wandering too far from town.    
+~
+150 c fh 0 0  2
+D0
+~
+~
+0 0 15007 0 0 0 0 0 0 0 0
+D2
+~
+gate~
+1 0 15013 0 0 0 0 0 0 0 0
+S
+#15009
+A Small Grassy Field Beneath the Vallenwoods~
+   Nice plush grass covers the ground here, perfect for children to play in.  
+High above are the great branches of the vallenwood trees, shading and
+providing cover for all who reside here.  A few flowers grow here and there,
+adding more uniqueness to an already wonderful place.    
+~
+150 0 fh 0 0  2
+D2
+~
+~
+0 0 15000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15011 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15012 0 0 0 0 0 0 0 0
+S
+#15010
+A Small Grassy Field Beneath the Vallenwoods~
+   Nice plush grass covers the ground here, perfect for children to play in.  
+High above are the great branches of the vallenwood trees, shading and
+providing cover for all who reside here.  A few flowers grow here and there,
+adding more uniqueness to an already wonderful place.    
+~
+150 0 fh 0 0  2
+D0
+~
+~
+0 0 15000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15001 0 0 0 0 0 0 0 0
+S
+#15011
+A Small Grassy Field Beneath the Vallenwoods~
+   Nice plush grass covers the ground here, perfect for children to play in.  
+High above are the great branches of the vallenwood trees, shading and
+providing cover for all who reside here.  A few flowers grow here and there,
+adding more uniqueness to an already wonderful place.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15012 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15009 0 0 0 0 0 0 0 0
+S
+#15012
+A Small Grassy Field Beneath the Vallenwoods~
+   Nice plush grass covers the ground here, perfect for children to play in.  
+High above are the great branches of the vallenwood trees, shading and
+providing cover for all who reside here.  A few flowers grow here and there,
+adding more uniqueness to an already wonderful place.    
+~
+150 0 h 0 0  2
+D2
+~
+~
+0 0 15011 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15009 0 0 0 0 0 0 0 0
+S
+#15013
+Entering an Infected Forest~
+   As you walk past the gate, it quickly becomes obvious that something is not
+right here.  A grey growth is slowly seeming to creep up from the creek on the
+trees and plants along the path here.  The light, cheery chirping that took
+place in other parts of the forest seems more somber and sadder here.    
+~
+150 0 h 0 0  2
+D0
+~
+gate~
+1 0 15008 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15037 0 0 0 0 0 0 0 0
+S
+#15014
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.    
+~
+150 0 h 0 0  2
+D1
+~
+~
+0 0 15040 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15015 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+S
+#15015
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15014 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15016 0 0 0 0 0 0 0 0
+S
+#15016
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15015 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15017 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+S
+#15017
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15021 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15016 0 0 0 0 0 0 0 0
+S
+#15018
+In the Middle of a Small Pond~
+   This pond is rather small, and is murky and a bit gross.  It has scum all
+over the top of the water, and the few plants that are in the water seem to be
+dying.  The banks of the pond have a grey scum growing on them, just like the
+few fish and animals that live in this area.    
+~
+150 cC h 0 0  6
+D0
+~
+~
+0 0 15040 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15019 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15017 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15015 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15014 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15020 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15016 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15021 0 0 0 0 0 0 0 0
+S
+#15019
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15020 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15021 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+S
+#15020
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.    
+~
+150 0 h 0 0  2
+D2
+~
+~
+0 0 15019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15040 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+S
+#15021
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.  Green, fetid water runs into the pond from the
+southeast, where a small creek comes in from the forest.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15019 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15017 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15022 0 0 0 0 0 0 0 0
+S
+#15022
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D2
+~
+~
+0 0 15023 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15021 0 0 0 0 0 0 0 0
+S
+#15023
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D0
+~
+~
+0 0 15022 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15024 0 0 0 0 0 0 0 0
+S
+#15024
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D1
+~
+~
+0 0 15025 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15023 0 0 0 0 0 0 0 0
+S
+#15025
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D1
+~
+~
+0 0 15026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15024 0 0 0 0 0 0 0 0
+S
+#15026
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D0
+~
+~
+0 0 15027 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15025 0 0 0 0 0 0 0 0
+S
+#15027
+Before a Decaying, Infected Meadow~
+   The small fetid creek runs right through the middle of this field, it almost
+seeming to be the source of the infection that caused all the disease in the
+pond.  The grass in the field is all dying, and the flowers that were once here
+have fallen to the side to decay.  The smell of the place is rather unpleasant
+also, with everything rotting terribly.    
+~
+150 0 h 0 0  3
+D1
+~
+~
+0 0 15028 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15026 0 0 0 0 0 0 0 0
+S
+#15028
+A Decaying, Infected Meadow~
+   The small fetid creek runs right through the middle of this field, it almost
+seeming to be the source of the infection that caused all the disease in the
+pond.  The grass in the field is all dying, and the flowers that were once here
+have fallen to the side to decay.  The smell of the place is rather unpleasant
+also, with everything rotting terribly.    
+~
+150 0 h 0 0  3
+D0
+~
+~
+0 0 15030 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15031 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15027 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15029 0 0 0 0 0 0 0 0
+S
+#15029
+A Decaying, Infected Meadow~
+   The small fetid creek runs right through the middle of this field, it almost
+seeming to be the source of the infection that caused all the disease in the
+pond.  The grass in the field is all dying, and the flowers that were once here
+have fallen to the side to decay.  The smell of the place is rather unpleasant
+also, with everything rotting terribly.    
+~
+150 0 h 0 0  3
+D2
+~
+~
+0 0 15031 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15030 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15028 0 0 0 0 0 0 0 0
+S
+#15030
+A Decaying, Infected Meadow~
+   The small fetid creek runs right through the middle of this field, it almost
+seeming to be the source of the infection that caused all the disease in the
+pond.  The grass in the field is all dying, and the flowers that were once here
+have fallen to the side to decay.  The smell of the place is rather unpleasant
+also, with everything rotting terribly.    
+~
+150 0 h 0 0  3
+D1
+~
+~
+0 0 15029 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15028 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15031 0 0 0 0 0 0 0 0
+S
+#15031
+A Decaying, Infected Meadow~
+   The small fetid creek runs right through the middle of this field, it almost
+seeming to be the source of the infection that caused all the disease in the
+pond.  The grass in the field is all dying, and the flowers that were once here
+have fallen to the side to decay.  The smell of the place is rather unpleasant
+also, with everything rotting terribly.  A small tent stands to the southeast,
+appearing to have been recently setup.    
+~
+150 0 h 0 0  3
+D0
+~
+~
+0 0 15029 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15028 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15030 0 0 0 0 0 0 0 0
+D8
+~
+tent~
+1 0 15032 0 0 0 0 0 0 0 0
+S
+#15032
+Inside an Organized, Orderly Tent~
+   This tent is clean, and very orderly.  A small desk is setup in the room,
+with chairs setup out here in the entryway.  Muddy boots are piled against the
+inside the tarp, near the entrance.  A lantern hangs in the center of the tent
+to provide light to all who come.    
+~
+150 ac h 0 0  0
+D1
+~
+~
+0 0 15033 0 0 0 0 0 0 0 0
+D6
+~
+tent~
+1 0 15031 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15035 0 0 0 0 0 0 0 0
+S
+#15033
+Inside an Organized, Orderly Tent~
+   A small cot sits here in the corner, with a small wooden table next to it
+for setting things.  A chest and small bookcase are situated at the end of the
+bed, both containing various personal items of the person who resides here.  A
+light in the center of the tent provides all the light needed for this humble
+abode.    
+~
+150 ac h 0 0  0
+D2
+~
+~
+0 0 15035 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15032 0 0 0 0 0 0 0 0
+S
+#15034
+Behind an Organized Orderly Tent~
+   A large brown tent sits amoung a small patch of trees here.  It has grey
+snaking paths of infection growing up the sides and to the roof, meeting limbs
+from nearby trees.  The trees all around have similar grey snaking trails, and
+large splotchy patches all over.  The forest here seems to be dying of some
+strange infection.    
+~
+150 c fh 0 0  3
+D0
+~
+door~
+1 15017 15035 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15036 0 0 0 0 0 0 0 0
+S
+#15035
+Inside an Organized, Orderly Tent~
+   A small desk is set here with a chair behind it.  Seated in the chair is a
+man dressed in leathers with a cloth mask tied around his neck.  He has a peice
+of paper that he appears to be getting ready to write on, looking up at you
+expectantly.  Every effort has been made to keep the infection out of this
+tent, but it can be seen that it slowly is working its way in.    
+~
+150 a h 0 0  0
+D0
+~
+~
+1 0 15033 0 0 0 0 0 0 0 0
+D2
+~
+door~
+2 15017 15034 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15032 0 0 0 0 0 0 0 0
+S
+#15036
+Walking Between Sick Looking Trees~
+   The infected trees continue, though they do not seem quite as bad the
+further one gets from the small, fetid creek that runs through this part of the
+forest.  Two rather large vallenwood trees stand here, towering above the other
+trees around them.  The infection has spread to them also, though it has not
+reached very high up into the branches.  Between the two vallenwoods, a large
+brush pile has been stacked up to block unsuspecting travelers from coming this
+way.    
+~
+150 0 h 0 0  3
+D0
+~
+~
+0 0 15034 0 0 0 0 0 0 0 0
+D3
+~
+brush~
+1 0 15041 0 0 0 0 0 0 0 0
+S
+#15037
+Walking a Winding Path through the Forest~
+   On either side of the trail, plants and shrubs have grown brown and grey
+spots and streaks that seem to eventually completely take over the plant,
+killing it.  It appears to be some sort of virus or infection that the plants
+and animals have caught.  The dying plants crunch under your boots, leaving a
+grey powder on the bottoms of them.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15038 0 0 0 0 0 0 0 0
+S
+#15038
+Walking a Winding Path through the Forest~
+   On either side of the trail, plants and shrubs have grown brown and grey
+spots and streaks that seem to eventually completely take over the plant,
+killing it.  It appears to be some sort of virus or infection that the plants
+and animals have caught.  The dying plants crunch under your boots, leaving a
+grey powder on the bottoms of them.    
+~
+150 0 h 0 0  2
+D1
+~
+~
+0 0 15037 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15039 0 0 0 0 0 0 0 0
+S
+#15039
+Approaching a Small Infected Pond~
+   The trail widens out a bit as it comes closer to the pond.  The plants seem
+to be getting worse as you go, making it seem like the pond may be what is
+causing the infection.  As you watch, a small squirrel runs down one of the
+trees, trying to dodge the grey powder on the bark.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15038 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15040 0 0 0 0 0 0 0 0
+S
+#15040
+The Banks of a Small Infected Pond~
+   The banks of this pond are made of thick, slimy gray mud, with no flowers or
+nice plush grass anywhere nearby.  The few plants that do live near the waters
+edge appear to barely be alive, and some of them even dying.  Dark colored
+frogs croak miserably here and there, with spots of grey and brown crowing up
+off their once nice green skin.    
+~
+150 0 h 0 0  2
+D0
+~
+~
+0 0 15039 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15020 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15018 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15014 0 0 0 0 0 0 0 0
+S
+#15041
+Between Large, Infected Vallenwood Trees~
+   A large brush pile is stacked up between two large vallenwood trees,
+blocking the way to the east.  The vallenwoods are also affected by the
+infection, but do not seem to be dying yet.  Strong branches still shade any
+who walk beneath them, the infection having only spread so high up.  A little
+creek can just be seen snaking through the infected trees to the west.    
+~
+150 0 h 0 0  3
+D1
+~
+brush~
+1 0 15036 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15042 0 0 0 0 0 0 0 0
+S
+#15042
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D1
+~
+~
+0 0 15041 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15043 0 0 0 0 0 0 0 0
+S
+#15043
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D0
+~
+~
+0 0 15044 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15045 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15042 0 0 0 0 0 0 0 0
+S
+#15044
+Along a Trickling Fetid Creek~
+   The water in this creek smells badly, and probably would not be safe to
+drink.  It flows slowly around the roots of trees, under muddy old logs, and
+over slimy brown and green rocks.  The grass near the creek has gone grey in
+some places, and died altogether in most, making the banks of the creek
+unwelcome and muddy.    
+~
+150 i h 0 0  3
+D2
+~
+~
+0 0 15043 0 0 0 0 0 0 0 0
+S
+#15045
+A Trail Leading in the Middle of the Infected Forest~
+   A faint trail wanders between trees, the ground sloping gently to the south.
+Various trees of different sizes and types are off to either side of the path.
+The infection seems to be less obvious here, only showing up as a few splotches
+here and there.  The ground scrunches slightly under the feet of those walking
+on it, muffling most of the noise.    
+~
+150 a h 0 0  3
+D1
+~
+~
+0 0 15043 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15046 0 0 0 0 0 0 0 0
+S
+#15046
+A Trail Leading in the Middle of the Infected Forest~
+   A faint trail wanders between trees, the ground sloping gently to the south.
+Various trees of different sizes and types are off to either side of the path.
+The infection seems to be less obvious here, only showing up as a few splotches
+here and there.  The ground scrunches slightly under the feet of those walking
+on it, muffling most of the noise.    
+~
+150 a h 0 0  3
+D0
+~
+~
+0 0 15045 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15047 0 0 0 0 0 0 0 0
+S
+#15047
+Around a Bunch of Trees~
+   There is no visible path, but the trees here are large enough to allow one
+to walk around with ease.  Areas of the grass and brush are pressed down,
+making it look as though some creatures use this area to bed down for the
+evenings.  There is no trace of the infection here, and no sign of a water
+source of any kind.    
+~
+150 0 h 0 0  3
+D0
+~
+~
+0 0 15046 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15050 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15048 0 0 0 0 0 0 0 0
+S
+#15048
+Around a Bunch of Trees~
+   There is no visible path, but the trees here are large enough to allow one
+to walk around with ease.  Areas of the grass and brush are pressed down,
+making it look as though some creatures use this area to bed down for the
+evenings.  There is no trace of the infection here, and no sign of a water
+source of any kind.    
+~
+150 0 h 0 0  3
+D1
+~
+~
+0 0 15047 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15049 0 0 0 0 0 0 0 0
+S
+#15049
+Around a Bunch of Trees~
+   There is no visible path, but the trees here are large enough to allow one
+to walk around with ease.  Areas of the grass and brush are pressed down,
+making it look as though some creatures use this area to bed down for the
+evenings.  There is no trace of the infection here, and no sign of a water
+source of any kind.    
+~
+150 0 h 0 0  3
+D0
+~
+~
+0 0 15048 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15050 0 0 0 0 0 0 0 0
+S
+#15050
+Around a Bunch of Trees~
+   There is no visible path, but the trees here are large enough to allow one
+to walk around with ease.  Areas of the grass and brush are pressed down,
+making it look as though some creatures use this area to bed down for the
+evenings.  There is no trace of the infection here, and no sign of a water
+source of any kind.    
+~
+150 0 h 0 0  3
+D0
+~
+~
+0 0 15047 0 0 0 0 0 0 0 0
+D2
+~
+gates~
+0 0 15051 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15049 0 0 0 0 0 0 0 0
+S
+#15051
+Around a Underground Tunnel~
+   The ground dips here into a sump of some sort.  What appears to be a hole in
+the ground is covered with leaves, making it difficult to see if a safe spot
+exists for your foot to go.  Several large trees grow up around the hole, with
+snaking vines around them.    
+~
+150 c h 0 0  3
+D0
+~
+gates~
+0 0 15050 0 0 0 0 0 0 0 0
+D5
+   A bunch of vines and leaves seem to be coving something in the floor.    
+~
+vines~
+1 0 15052 0 0 0 0 0 0 0 0
+S
+#15052
+Down an Underground Tunnel~
+   Sharp rocks jut out at the side of the opening that leads back to the
+surface.  A panel of sorts has been pulled over the opening, to prevent people
+from easilly finding the entrance.  A small trickle of fetid water can be seen
+seeping out of the rocks to the north, and all around it are brown and grey
+splotches.    
+~
+150 aditx e 0 0  0
+D2
+~
+~
+0 0 15053 0 0 0 0 0 0 0 0
+D4
+   A trapdoor covers a whole in the celing with vines snaking out of the
+cracks.    
+~
+trapdoor~
+1 0 15051 0 0 0 0 0 0 0 0
+S
+#15053
+Inside an Infected Cave~
+   The tunnel opens up somewhat into a cave large enough to comfortably stand.
+The floor appears to have had a good deal of traffic, making it smooth and worn
+down.  The walls are slick with water and grey covered moss and mold.  The
+smell in the cave is nearly unbearable, a sense of dread settling in from the
+very walls.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15052 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15054 0 0 0 0 0 0 0 0
+S
+#15054
+Inside an Infected Cave~
+   The floor appears to have had a good deal of traffic, making it smooth and
+worn down.  The walls are slick with water and grey covered moss and mold.  
+The smell in the cave is nearly unbearable, a sense of dread settling in from
+the very walls.  The cave continues on to the south, opening up even more.    
+~
+150 adtx e 0 0  0
+D2
+~
+~
+0 0 15055 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15053 0 0 0 0 0 0 0 0
+S
+#15055
+A Large Area Inside a Cave~
+   The cave opens up into a very large, dark chamber.  Scratching and
+slithering can be heard all around, and the sound of water trickling across
+rough stone.  The darkness pushes in from every side, the air stale and still,
+with a stench that gets into everything.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15054 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15056 0 0 0 0 0 0 0 0
+S
+#15056
+A Large Area Inside a Cave~
+   The cave opens up into a very large, dark chamber.  Scratching and
+slithering can be heard all around, and the sound of water trickling across
+rough stone.  The darkness pushes in from every side, the air stale and still,
+with a stench that gets into everything.    
+~
+150 adtx e 0 0  0
+D1
+~
+~
+0 0 15055 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15057 0 0 0 0 0 0 0 0
+S
+#15057
+A Large Area Inside a Cave~
+   The cave opens up into a very large, dark chamber.  Scratching and
+slithering can be heard all around, and the sound of water trickling across
+rough stone.  The darkness pushes in from every side, the air stale and still,
+with a stench that gets into everything.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15056 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15058 0 0 0 0 0 0 0 0
+S
+#15058
+A Large Area Inside a Cave~
+   The cave opens up into a very large, dark chamber.  Scratching and
+slithering can be heard all around, and the sound of water trickling across
+rough stone.  The darkness pushes in from every side, the air stale and still,
+with a stench that gets into everything.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15055 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15057 0 0 0 0 0 0 0 0
+S
+#15059
+A Narrow Area Between the Stones~
+   Large, sharp stones jut out from the walls at odd angles, making this
+passage feel very narrow, and difficult to get by.  The cave opens up into a
+huge chamber to the north, the passage small continuing on to the south.  Grey
+and brown slime snakes down the rocks, getting on the clothes and skin of
+anything that tries to squeeze between the rocks.    
+~
+150 aditx e 0 0  0
+D0
+~
+~
+0 0 15058 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15060 0 0 0 0 0 0 0 0
+S
+#15060
+A Path Inside an Infected Cave~
+   A small, worn path can be seen snaking between large rocks and boulders that
+have fallen from the ceiling of the cave.  Slime and mold snake across the
+rocks and boulders, evidence of the infection still in the cave.  It almost
+seems to be getting worse as one goes deeper into the cave.  A small trickling
+creek has formed, and it gurgles and wanders in and out of the stones, the
+infection seeming to spread out from it.    
+~
+150 adtxF e 0 0  0
+D0
+~
+~
+0 0 15059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15061 0 0 0 0 0 0 0 0
+S
+#15061
+A Path Inside an Infected Cave~
+   A small, worn path can be seen snaking between large rocks and boulders that
+have fallen from the ceiling of the cave.  Slime and mold snake across the
+rocks and boulders, evidence of the infection still in the cave.  It almost
+seems to be getting worse as one goes deeper into the cave.  A small trickling
+creek has formed, and it gurgles and wanders in and out of the stones, the
+infection seeming to spread out from it.    
+~
+150 adtxF e 0 0  0
+D1
+~
+~
+0 0 15060 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15062 0 0 0 0 0 0 0 0
+S
+#15062
+A Path Inside an Infected Cave~
+   A small, worn path can be seen snaking between large rocks and boulders that
+have fallen from the ceiling of the cave.  Slime and mold snake across the
+rocks and boulders, evidence of the infection still in the cave.  It almost
+seems to be getting worse as one goes deeper into the cave.  A small trickling
+creek has formed, and it gurgles and wanders in and out of the stones, the
+infection seeming to spread out from it.    
+~
+150 adtxF e 0 0  0
+D1
+~
+stones~
+1 15036 15099 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15063 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15061 0 0 0 0 0 0 0 0
+S
+#15063
+A Path Inside an Infected Cave~
+   A small, worn path can be seen snaking between large rocks and boulders that
+have fallen from the ceiling of the cave.  Slime and mold snake across the
+rocks and boulders, evidence of the infection still in the cave.  It almost
+seems to be getting worse as one goes deeper into the cave.  A small trickling
+creek has formed, and it gurgles and wanders in and out of the stones, the
+infection seeming to spread out from it.    
+~
+150 adtxF e 0 0  0
+D0
+~
+~
+0 0 15064 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15062 0 0 0 0 0 0 0 0
+S
+#15064
+A Path Inside an Infected Cave~
+   A small, worn path can be seen snaking between large rocks and boulders that
+have fallen from the ceiling of the cave.  Slime and mold snake across the
+rocks and boulders, evidence of the infection still in the cave.  It almost
+seems to be getting worse as one goes deeper into the cave.  A small trickling
+creek has formed, and it gurgles and wanders in and out of the stones, the
+infection seeming to spread out from it.    
+~
+150 adtxF e 0 0  0
+D2
+~
+~
+0 0 15063 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15065 0 0 0 0 0 0 0 0
+S
+#15065
+A Path Inside an Infected Cave~
+   A small, worn path can be seen snaking between large rocks and boulders that
+have fallen from the ceiling of the cave.  Slime and mold snake across the
+rocks and boulders, evidence of the infection still in the cave.  It almost
+seems to be getting worse as one goes deeper into the cave.  A small trickling
+creek has formed, and it gurgles and wanders in and out of the stones, the
+infection seeming to spread out from it.    
+~
+150 adtxF e 0 0  0
+D0
+~
+~
+0 0 15066 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15064 0 0 0 0 0 0 0 0
+S
+#15066
+A Path Inside an Infected Cave~
+   A small, worn path can be seen snaking between large rocks and boulders that
+have fallen from the ceiling of the cave.  Slime and mold snake across the
+rocks and boulders, evidence of the infection still in the cave.  It almost
+seems to be getting worse as one goes deeper into the cave.  A small trickling
+creek has formed, and it gurgles and wanders in and out of the stones, the
+infection seeming to spread out from it.    
+~
+150 adtxF e 0 0  0
+D2
+~
+~
+0 0 15065 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15067 0 0 0 0 0 0 0 0
+S
+#15067
+A Narrow Area Between the Stones~
+   Large boulders have fallen from the ceiling, making this area rather tight.
+Moss and cold fetid water clings to the rocks, getting the nasty smelling crud
+all over anyone who attempts to get between the stones.  This almost
+tunnel-like area widens out into a smaller save area on the other side.    
+~
+150 aditx e 0 0  0
+D1
+~
+~
+0 0 15068 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15066 0 0 0 0 0 0 0 0
+S
+#15068
+A Path Inside an Infected Cave~
+   The cave gets more cramped the deeper one goes into it.  This chamber is
+smaller than the last, with a small path snaking in and out of the formations
+and boulders all over the place.  The infection seems to have gotten worse now,
+deeper inside the cave.  The water still can be seen here and there, trickling
+around a stone or flowing over a grey mold covered rock.  A tall person can
+reach the roof, and in some cases a person must duck to get by some areas.    
+~
+150 adtx e 0 0  0
+D3
+~
+~
+0 0 15067 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15069 0 0 0 0 0 0 0 0
+S
+#15069
+Before a Rock Wall with a Hole at the Base~
+   Near the edge of the largest, and most open area of the cave, a rock wall
+stands here rising all the way to the ceiling.  Unlike other areas of the cave,
+this wall seems smooth and flat, making it look rather difficult to climb.  A
+hole in the floor right in front of it slopes down into a smaller chamber
+below.    
+~
+150 acdtx e 0 0  0
+D5
+~
+~
+0 0 15070 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15068 0 0 0 0 0 0 0 0
+S
+#15070
+At the Base of a Rock Wall~
+   The wall here looks slick and smooth, going straight up through a small hole
+in the ceiling.  The chamber down here is much smaller than the one above,
+becoming more narrow.  This portion of the cave also is lower, making most
+people have to duck low to able to get through most of it.    
+~
+150 adtx e 0 0  0
+D1
+~
+~
+0 0 15071 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 15069 0 0 0 0 0 0 0 0
+S
+#15071
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D3
+~
+~
+0 0 15070 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15072 0 0 0 0 0 0 0 0
+S
+#15072
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D2
+~
+~
+0 0 15073 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15071 0 0 0 0 0 0 0 0
+S
+#15073
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15072 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15074 0 0 0 0 0 0 0 0
+S
+#15074
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D1
+~
+~
+0 0 15073 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15075 0 0 0 0 0 0 0 0
+S
+#15075
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15074 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15076 0 0 0 0 0 0 0 0
+S
+#15076
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D2
+~
+~
+0 0 15077 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15075 0 0 0 0 0 0 0 0
+S
+#15077
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15076 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15078 0 0 0 0 0 0 0 0
+S
+#15078
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D1
+~
+~
+0 0 15079 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15077 0 0 0 0 0 0 0 0
+S
+#15079
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15078 0 0 0 0 0 0 0 0
+S
+#15080
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D2
+~
+~
+0 0 15079 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15081 0 0 0 0 0 0 0 0
+S
+#15081
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D7
+~
+~
+0 0 15082 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15080 0 0 0 0 0 0 0 0
+S
+#15082
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15083 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15081 0 0 0 0 0 0 0 0
+S
+#15083
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15084 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15082 0 0 0 0 0 0 0 0
+S
+#15084
+A Cold Dark Infected Cave~
+   With a low ceiling, and narrow openings between large boulders and rocks
+jutting out of the sides of the walls, these passages are difficult at best to
+get through.  An occasional dripping noise is all that's left of the water that
+trickles through the cavern.  The infected moss and grey mold does not appear
+to be as bad, deeper inside the cave.    
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15085 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15083 0 0 0 0 0 0 0 0
+S
+#15085
+A Cold Moisturized Infected Cave~
+   The ceiling here is low, but not quite as narrow as the previous portion of
+the cave has been.  The room widens out, the ceiling coming even lower toward
+the edges, nearly to the point of having to crawl on ones belly to get through.
+A pile of stones has fallen down in front of the main path here.    
+~
+150 adtx e 0 0  0
+D0
+~
+stones~
+1 0 15088 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 15086 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 15084 0 0 0 0 0 0 0 0
+S
+#15086
+A Cold Moisturized Infected Cave~
+   Huge rocks jutt out at odd angles, poking into anyone that walks by.  Slime
+covered walls are grey, with splotches of brown, infected moss.  The floor is
+covered in animal feces, that gets stuck in your boots, making it slightly more
+difficult to walk.  A small fetid trickle of water gurgles around some stones
+at your feet.    
+~
+150 aditx e 0 0  0
+D0
+~
+~
+0 0 15087 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15085 0 0 0 0 0 0 0 0
+S
+#15087
+A Cold Moisturized Infected Cave~
+   Huge rocks just out at odd angles, poking into anyone that walks by.  Slime
+covered walls are grey, with splotches of brown, infected moss.  The floor is
+covered in animal's feces, which get stuck in your boots, making it slightly
+more difficult to walk.  A small fetid trickle of water gurgles around some
+stones at your feet.    
+~
+150 aditx e 0 0  0
+D2
+~
+~
+0 0 15086 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15088 0 0 0 0 0 0 0 0
+S
+#15088
+A Cold Moisturized Infected Cave~
+   At this point in the cavern, the ceiling is very low, making it impossible
+to get through without lying on your belly and crawling an inch at a time,
+scotting along on the floor.  Damp and wet with fetid smelling water, this is
+no fun chore to do.  Grey patches of mold and infected moss grow here and
+there, getting all over your armor and clothing.    
+~
+150 adtx e 0 0  0
+D1
+~
+~
+0 0 15087 0 0 0 0 0 0 0 0
+D2
+~
+stones~
+1 0 15085 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15089 0 0 0 0 0 0 0 0
+S
+#15089
+A Gaping Hole~
+   A large, gaping hole is here in the floor.  A rickety wooden ladder pokes up
+out of the darkness, daring anyone to try to climb down into the pit.  The
+darkness here pushes in around you, the mold and musky scents stifling one's
+breath.  A trickle of water can be seen along one wall, making its way over the
+edge to splash on the floor below.    
+~
+150 adtx e 0 0  0
+D5
+A huge, gaping hole opens up into a smaller chamber below.
+The ladder is up against one side, waiting to be used.
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15088 0 0 0 0 0 0 0 0
+S
+#15090
+At the Back of a Deep Cavern Alcove~
+   This alcove is deep, a dead-end tunnel that is deep enough to hide those
+that sneak back in here.  The infection shows little sign of having reached
+this far, though the rock walls are still covered in slimy moss.  The ceiling
+is low, and the walls narrow, offering some protection.    
+~
+150 acdtx e 0 0  0
+D2
+~
+~
+0 0 15091 0 0 0 0 0 0 0 0
+S
+#15091
+A Large, Open Chamber Filled with Noise~
+   This chamber is large, with a hole at the top, in the ceiling.  The floor
+has loose rocks strewn about it, though it is level for the most part, and
+rather open.  A battle of some sort has been taking place for a time now,
+evidenced by the amount of strewn corpses and splattered blood on the ground.
+Magical creatures battle each other, fighting for their respective masters.  
+
+~
+150 adtx e 0 0  0
+D0
+~
+~
+0 0 15090 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15092 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15094 0 0 0 0 0 0 0 0
+S
+#15092
+A Large, Open Chamber Filled with Noise~
+   This chamber is large, with a hole at the top, in the ceiling.  The floor
+has loose rocks strewn about it, though it is level for the most part, and
+rather open.  A battle of some sort has been taking place for a time now,
+evidenced by the amount of strewn corpses and splattered blood on the ground.
+Magical creatures battle each other, fighting for their respective masters.  
+
+~
+150 adtx e 0 0  0
+D1
+~
+~
+0 0 15098 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 15093 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15091 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 15096 0 0 0 0 0 0 0 0
+S
+#15093
+At the Back of a Deep Cavern Alcove~
+   This alcove is deep, a dead-end tunnel that is deep enough to hide those
+that sneak back in here.  The infection shows little sign of having reached
+this far, though the rock walls are still covered in slimy moss.  The ceiling
+is low, and the walls narrow, offering some protection.    
+~
+150 acdtx e 0 0  0
+D1
+~
+~
+0 0 15092 0 0 0 0 0 0 0 0
+S
+#15094
+A Large, Open Chamber Filled with Noise~
+   This chamber is large, with a hole at the top, in the ceiling.  The floor
+has loose rocks strewn about it, though it is level for the most part, and
+rather open.  A battle of some sort has been taking place for a time now,
+evidenced by the amount of strewn corpses and splattered blood on the ground.
+Magical creatures battle each other, fighting for their respective masters.  
+
+~
+150 adtx e 0 0  0
+D1
+~
+~
+0 0 15095 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15091 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 15096 0 0 0 0 0 0 0 0
+S
+#15095
+At the Back of a Deep Cavern Alcove~
+   This alcove is deep, a dead-end tunnel that is deep enough to hide those
+that sneak back in here.  The infection shows little sign of having reached
+this far, though the rock walls are still covered in slimy moss.  The ceiling
+is low, and the walls narrow, offering some protection.    
+~
+150 acdtx e 0 0  0
+D3
+~
+~
+0 0 15094 0 0 0 0 0 0 0 0
+S
+#15096
+A Large, Open Chamber Filled with Noise~
+   This chamber is large, with a hole at the top, in the ceiling.  The floor
+has loose rocks strewn about it, though it is level for the most part, and
+rather open.  A battle of some sort has been taking place for a time now,
+evidenced by the amount of strewn corpses and splattered blood on the ground.
+Magical creatures battle each other, fighting for their respective masters.  
+
+~
+150 adtx e 0 0  0
+D2
+~
+~
+0 0 15097 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 15092 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 15094 0 0 0 0 0 0 0 0
+S
+#15097
+At the Back of a Deep Cavern Alcove~
+   This alcove is deep, a dead-end tunnel that is deep enough to hide those
+that sneak back in here.  The infection shows little sign of having reached
+this far, though the rock walls are still covered in slimy moss.  The ceiling
+is low, and the walls narrow, offering some protection.    
+~
+150 acdtx e 0 0  0
+D0
+~
+~
+0 0 15096 0 0 0 0 0 0 0 0
+S
+#15098
+Standing At the Base of a Ladder~
+   A ladder lies here broken on the floor, from what appears to be the result
+of someone falling down it from the huge hole in the ceiling.  Looking up, you
+can see that it was quite a long fall.  Shards of the broken wood scrunch under
+foot as people walk about.  A small opening in the wall to the west seems to
+open up some out of this cramped, airy room.    
+~
+150 acdhtx e 0 0  0
+D3
+~
+~
+0 0 15092 0 0 0 0 0 0 0 0
+S
+#15099
+In Between A Bunch of Stones~
+   Squeezing through a small crack between some stones finds you surrounded by
+large stones, in a small room of some sort.  There does not appear to be any
+exits at a glance, but a small crack may allow you to leave.  The floor is
+rough and covered in stones.  The gray mold didn't make it in here, for some
+odd reason.    
+~
+150 dtx e 0 0  0
+D3
+~
+stones~
+1 15036 15062 0 0 0 0 0 0 0 0
+S
+$

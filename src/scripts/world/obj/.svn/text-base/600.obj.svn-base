@@ -1,0 +1,595 @@
+#60000
+fullplate full plate steely blue shining~
+a suit of shining, steely blue full plate armor~
+A suit of shining, steely blue full plate armor lies here in a neat pile.~
+~
+9 gD 0 0 0 ad 0 0 0 0 0 0 0
+80 3 1 -6 100 100 35 7 20 12 15 0 0 0 0 0
+500 2500 0 5
+Z
+4
+A
+22 10 0
+#60001
+pendant steel obsidian gemstone~
+a steel pendant set with an obsidian gemstone~
+A steel pendant set with an obsidian gemstone lies here.~
+~
+11 g 0 0 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+10 1500 60 6
+Z
+0
+A
+21 20 0
+#60002
+bracelet silver stylized falcons~
+a silver bracelet engraved with stylized falcons~
+A silver bracelet engraved with stylized falcons lies here.~
+~
+11 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 41 0 0 0 0 0 0 0 0
+5 1500 60 6
+Z
+0
+A
+45 1 0
+A
+13 4 0
+#60003
+ring gold onyx~
+a gold and onyx ring~
+A gold and onyx ring lies here.~
+~
+11 g 0 0 0 ab 0 0 0 b 0 0 0
+0 0 0 0 100 100 0 4 0 0 0 0 0 0 0 0
+0 2800 112 8
+Z
+0
+A
+6 2 0
+#60004
+longsword long sword white bladed onyx hilt~
+a white-bladed longsword with an onyx hilt~
+A white-bladed longsword with an onyx hilt lies here.~
+~
+5 g 0 0 0 an 0 0 0 0 0 0 0
+26 1 8 3 100 100 0 7 1 2 0 11 0 0 0 0
+40 15 0 6
+Z
+4
+A
+18 2 0
+A
+19 2 0
+#60005
+axe dwarven war waraxe moon shaped obisidian~
+a moon-shaped dwarven war axe set with obsidian gemstones~
+A moon-shaped dwarven war axe set with obsidian gemstones lies here~
+~
+5 g 0 0 0 an 0 0 0 0 0 0 0
+52 1 10 3 100 100 1 7 0 4 0 8 0 0 0 0
+80 30 0 6
+Z
+4
+A
+18 2 0
+A
+19 2 0
+#60006
+amulet star shaped steel~
+a steel, star-shaped amulet~
+A steel, star-shaped amulet lies here.~
+~
+11 g 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+10 300 0 3
+Z
+0
+A
+21 10 0
+#60007
+shortsword sword short cross hilted sea blue blade~
+a cross-hilted shortsword with a sea-blue blade~
+A cross-hilted shortsword with a sea-blue blade lies here.~
+~
+5 g 0 0 0 an 0 0 0 0 0 0 0
+23 1 6 11 100 100 0 7 1 2 0 1 0 0 0 0
+20 300 0 3
+Z
+3
+A
+18 1 0
+A
+19 1 0
+#64000
+steel five pounds~
+five pounds of steel~
+Five pounds of steel lie here in a pile.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+50 50 0 0
+Z
+0
+#64001
+obsidian gemstone~
+an obsidian gemstone~
+An obsidian gemstone lies here sparkling on the ground.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 23 0 0 0 0 0 0 0 0
+1 200 0 0
+Z
+0
+#64002
+cold-iron cold iron five pounds~
+five pounds of cold iron~
+Five pounds of cold iron lie here in a neat pile.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 43 0 0 0 0 0 0 0 0
+50 300 0 0
+Z
+0
+#64003
+onyx gemstone~
+an onyx gemstone~
+An onyx gemstone is here sparkling on the ground.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 25 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#64004
+silver five pounds~
+five pounds of silver~
+Five pounds of silver lie here in a neat pile.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 41 0 0 0 0 0 0 0 0
+50 300 0 0
+Z
+0
+#64005
+gold five pounds~
+five pounds of gold~
+Five pounds of gold lie here in a neat pile.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 4 0 0 0 0 0 0 0 0
+50 1000 0 0
+Z
+0
+#64006
+ruby gemstone~
+a ruby gemstone~
+A ruby gemstone lies here on the ground sparkling brightly.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 31 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#64007
+mithril five pounds~
+five pounds of mithril~
+Five pounds of mithril lie here in a neat pile.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 13 0 0 0 0 0 0 0 0
+50 2500 0 0
+Z
+0
+#64008
+sapphire gemstone~
+a sapphire gemstone~
+A sapphire gemstone lies here on the ground sparkling brightly.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 32 0 0 0 0 0 0 0 0
+1 3500 0 0
+Z
+0
+#64009
+emerald gemstone~
+an emerald gemstone~
+An emerald gemstone lies here on the ground sparkling brightly.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 33 0 0 0 0 0 0 0 0
+1 3500 0 0
+Z
+0
+#64010
+adamantium five pounds~
+five pounds of adamantium~
+Five pounds of adamantium lie here in a neat pile.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 12 0 0 0 0 0 0 0 0
+50 7500 0 0
+Z
+0
+#64011
+diamond gemstone~
+a diamond gemstone~
+A diamond gemstone lies here on the ground sparkling brightly.~
+~
+41 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 39 0 0 0 0 0 0 0 0
+1 10000 0 0
+Z
+0
+#64012
+nothing found object~
+the nothing found object~
+The nothing found object is here.  Confusing huh?~
+~
+12 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#64013
+station crafting~
+a crafting station~
+A crafting station is here complete with tools and minor resources.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+10000 0 -1 0 100 100 0 8 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+5
+#64095
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#64096
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#64097
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#64098
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#64099
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 D 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+0
+#64100
+essence minor power~
+a minor power essence~
+A minor power essence lies here.~
+~
+41 gD 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+0 100 0 0
+Z
+0
+#64101
+essence power lesser~
+a lesser power essence~
+A lesser power essence lies here.~
+~
+41 g 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#64102
+essence mediud power~
+a medium power essence~
+A medium power essence lies here.~
+~
+41 gD 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#64103
+essence greater power~
+a greater power essence~
+A greater power essence lies here.~
+~
+41 gD 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 5000 0 0
+Z
+0
+#64104
+essence major power~
+a major power essence~
+A major power essence lies here.~
+~
+41 gD 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 12000 0 0
+Z
+0
+#64105
+essence minor fire~
+a minor fire essence~
+A minor fire essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 100 0 0
+Z
+0
+#64106
+essence fire lesser~
+a lesser fire essence~
+A lesser fire essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#64107
+essence fire medium~
+a medium fire essence~
+A medium fire essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#64108
+essence greater fire~
+a greater fire essence~
+A greater fire essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 5000 0 0
+Z
+0
+#64109
+essence major fire~
+a major fire essence~
+A major fire essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 12000 0 0
+Z
+0
+#64110
+essence minor spirit~
+a minor spirit essence~
+A minor spirit essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 100 0 0
+Z
+0
+#64111
+essence lesser spirit~
+a lesser spirit essence~
+A lesser spirit essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#64112
+essence medium spirit~
+a medium spirit essence~
+A medium spirit essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#64113
+essence greater spirit~
+a greater spirit essence~
+A greater spirit essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 5000 0 0
+Z
+0
+#64114
+essence major spirit~
+a major spirit essence~
+A major spirit essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 12000 0 0
+Z
+0
+#64115
+essence minor water~
+a minor water essence~
+A minor water essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 100 0 0
+Z
+0
+#64116
+essence lesser water~
+a lesser water essence~
+A lesser water essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#64117
+essence medium water~
+a medium water essence~
+A medium water essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#64118
+essence greater water~
+a greater water essence~
+A greater water essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 5000 0 0
+Z
+0
+#64119
+essence major water~
+a major water essence~
+A major water essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 12000 0 0
+Z
+0
+#64120
+essence minor air~
+a minor air essence~
+A minor air essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 100 0 0
+Z
+0
+#64121
+essence lesser air~
+a lesser air essence~
+A lesser air essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#64122
+essence medium air~
+a medium air essence~
+A medium air essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#64123
+essence greater air~
+a greater air essence~
+A greater air essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 5000 0 0
+Z
+0
+#64124
+essence major air~
+a major air essence~
+A major air essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 12000 0 0
+Z
+0
+#64125
+essence minor earth~
+a minor earth essence~
+A minor earth essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 100 0 0
+Z
+0
+#64126
+essence lesser earth~
+a lesser earth essence~
+A lesser earth essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 500 0 0
+Z
+0
+#64127
+essence medium earth~
+a medium earth essence~
+A medium earth essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 1500 0 0
+Z
+0
+#64128
+essence greater earth~
+a greater earth essence~
+A greater earth essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 5000 0 0
+Z
+0
+#64129
+essence major earth~
+a major earth essence~
+A major earth essence lies here.~
+~
+41 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 37 0 0 0 0 0 0 0 0
+1 12000 0 0
+Z
+0
+$~

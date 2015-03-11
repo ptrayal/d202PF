@@ -1,0 +1,13 @@
+#120
+Ilmater~
+Undermountain Level I~
+12000 12199 30 2
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+14336 1 0 0 0
+D 0 12010 0 2 -1 -1 	(A Stone Hallway)
+D 0 12011 2 1 -1 -1 	(New BuildWalk Room)
+D 0 12164 3 2 -1 -1 	(A Stone Hallway)
+S
+$

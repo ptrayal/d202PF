@@ -1,0 +1,435 @@
+#13900
+A Muddy Trail~
+   Previous rains have left this clay trail a muddy mess.  Covered with wagon
+ruts of all sizes, it would seem that a caravan of some sort has decided to
+pull in for the day.  Wilting bushes line this trail, as it leads eastward,
+towards a copse of fir trees.    
+~
+139 c 0 0 0 2
+D1
+~
+door~
+0 0 13901 0 0 0 0 0 0 0 0
+D3
+~
+~
+1 0 201 0 0 0 0 0 0 0 0
+S
+#13901
+Nearing a Copse of Fir Trees~
+   The once hard packed clay trail now lies in a muddy, puddle filled mess.  
+The passage of numerous heavy wagons has created deep ruts in the trail, making
+it difficult to traverse.  The smell of burning fir wood hangs heavy in the
+air, as a few columns of smoke can be seen rising from the copse ahead.  In
+between the sturdy fir trunks, glimpes of a wagon train can be seen.  The trail
+continues eastward towards the copse, or westward onto the main road.    
+~
+139 0 h 0 0 2
+D1
+~
+~
+0 0 13902 0 0 0 0 0 0 0 0
+D3
+~
+door~
+0 0 13900 0 0 0 0 0 0 0 0
+S
+#13902
+At the Edge of a Merchant Caravan~
+   The clamour of various tools, voices and general bustle fill the air, as it
+seems that this merchant caravan has just begun settling in.  Tall fir trees
+hide the caravan from unwanted attention, as if fearful of what may lay on the
+road.  However, they seem more than welcome to those who wish to spend their
+coin, and have already set up their various tents and stalls.    
+~
+139 0 h 0 0 3
+D1
+~
+~
+0 0 13903 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13901 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13906 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13914 0 0 0 0 0 0 0 0
+S
+#13903
+Upon a Makeshift Path of Trampled Grass~
+   Many booted feet have left a distinct trail in the once tall grass.  
+Trampled down into a makeshift path it seems to lead into the centre of the
+copse, towards a large tent.  All about the clearing stand wagons and tents of
+all shapes and sizes, from the plain to the extravagant.  Curious travellers
+have slowly filed into this makeshift fair, eager to part with their coin.    
+~
+139 0 h 0 0 2
+D1
+~
+~
+0 0 13904 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13902 0 0 0 0 0 0 0 0
+S
+#13904
+Upon a Makeshift Path of Trampled Grass~
+   Flags now line this makeshift path, depicting a merchants scale upon a field
+of vibrant blue.  Nearing the very centre of the copse, one can make out the
+details of the large tent that stands proud.  The same vibrant blue bedecks
+this extravagant tent, as a few people mill about apparently waiting for
+someone important.    
+~
+139 c h 0 0 2
+D1
+~
+~
+0 0 13905 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13903 0 0 0 0 0 0 0 0
+S
+#13905
+Before a Large Tent~
+   Crafted from the same color cloth found upon the surrounding flags, this
+vibrant blue tent is quite a sight.  Decorated with the the emblem of a
+merchants scale, the tent speaks volumes of its owners wealth.  A sturdy wooden
+table has been placed in front of the tent, covered with orderly stacks of
+paper and writing utensils.  Two large lanterns hang from nearby poles, ready
+for the onset of night.    
+~
+139 0 0 0 0 0
+D1
+~
+~
+0 0 13922 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13904 0 0 0 0 0 0 0 0
+S
+#13906
+Standing Before an Open Air Wagon~
+   The smell of burning fir wood and coal is strong here, as a large column of
+smoke can be seen rising near the wagon to the north.  The wagon itself is of
+sturdy make, and filled with what looks to be the tools of a blacksmith.  
+Driven into the ground close by is a well worn wooden sign, depicting a hammer
+crashing down upon an anvil.    
+~
+139 0 0 0 0 2
+D0
+~
+~
+0 0 13915 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13907 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13902 0 0 0 0 0 0 0 0
+S
+#13907
+Standing Before a Gaudily Decorated Tent~
+   Gaudily decorated, this tent is quite a sight.  Crafted from pink silk and
+festooned with miniature bells which tinkle in the breeze this exotic tent
+draws the attention of all who pass by.  Inquisitive travellers flock to this
+gaily decorated tent, drawn to its strange appearance.  A well crafted sign
+hangs from a pole nearby, potraying the profile of a well dressed man and
+woman.    
+~
+139 0 0 0 0 2
+D0
+~
+~
+0 0 13916 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13908 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13906 0 0 0 0 0 0 0 0
+S
+#13908
+Standing Before a Plain Brown Tent~
+   Standing forlornly amongst its larger companions, this tent on looks alone
+would not bear a second glance.  Its saving grace however are the delectable
+scents wafting out from inside this plain unadorned tent.  Hordes of travellers
+have nearly packed this tent to its fill, as it teeters slightly with every
+push and shove.    
+~
+139 0 0 0 0 2
+D0
+~
+~
+0 0 13917 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13909 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13907 0 0 0 0 0 0 0 0
+S
+#13909
+Nearing an Unnaturally Quiet Wagon~
+   The quiet surrounding this wagon makes it stand out from the rest of the
+caravan.  Unnaturally silent, as if by magic, no sound can be heard about what
+should be merchant wagon setting up shop.  The wagon itself doesn't look
+suspicious, filled with the usual supplies used during long journeys.  
+However, there is a small pool of dark liquid seeping from underneath the
+wagon, which might bear some investigation.
+~
+139 c 0 0 0 2
+D0
+~
+~
+0 0 13918 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13908 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13910 0 0 0 0 0 0 0 0
+E
+liquid~
+It looks to be a pool of blood seeping from the north....
+~
+S
+#13910
+Amongst the Towering Fir Trees~
+   Numerous fir trees stand side by side, forming an impenetrable wall.  
+Nothing can be seen two feet beyond the tree line, though strangely enough
+there are boot prints upon the soft grass leading towards this impenetrable
+wall of trees.  A worn granite boulder lies here, looking out of place among
+all the greenery.    
+~
+139 0 h 0 0 3
+D1
+~
+boulder~
+1 0 13921 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13909 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13911 0 0 0 0 0 0 0 0
+E
+boulder~
+   Upon closer inspection the boulder itself looks as if it were made of air!
+An illusion perhaps...    
+~
+S
+#13911
+Near an Old Tree Stump~
+   Soft lush grass carpets this area, left free by the caravan.  A number of
+people have decided to use this area as a picnic spot, as they rest their sore
+road weary feet.  Many look worn out, but content with their purchases at the
+caravan.  Children play with each other a ways from here, under the watchful
+gaze of their parents.  An old tree stump sits undisturbed, as if silently
+watching the world around it.    
+~
+139 0 h 0 0 2
+D3
+~
+~
+0 0 13912 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13910 0 0 0 0 0 0 0 0
+S
+#13912
+Standing Before a Tinker's Cart~
+   All sorts of knick knacks hang from this tinkers shabby, but servicable
+cart.  Round pots, square pans, huge skillets, small cups and all manner of
+household items can be seen on display on a roughly hewn bench which serves as
+the tinker's display case.  There are even rickety pieces of furniture for
+sale, ranging from a simple stool, to the old time favourite, the rocking
+chair.    
+~
+139 0 0 0 0 2
+D1
+~
+~
+0 0 13911 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13913 0 0 0 0 0 0 0 0
+S
+#13913
+Before Numerous Display Cases~
+   A line of five glass display cases stand here, their contents, finely crafted
+jewelry and adornments of all sorts.  Each display is securely locked, lest a
+curious kender or two find their way here.  A steel money chest lies some
+distance to the south, behind the display, probably containing the merchant's
+earnings over the past few days.    
+~
+139 0 0 0 0 2
+D1
+~
+~
+0 0 13912 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13914 0 0 0 0 0 0 0 0
+S
+#13914
+Standing Behind a Crowd of People~
+   A rather sizeable host of people crowd round this merchants display, though
+what goods are on show remains a mystery.  The crowd is so tightly packed the
+merchant's table is totally blocked off from sight.  Grunts and the occasional
+yelp of pain can heard, accompanied by what sounds like loud hammering.  By
+coincidence, a small opening has opened up to the south, unbeknownst to the
+jostling crowd.    
+~
+139 0 0 0 0 2
+D1
+~
+~
+0 0 13913 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13919 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13902 0 0 0 0 0 0 0 0
+S
+#13915
+Among the Tools and Forge of a Blacksmith~
+   A solid stone forge stands nearby, a dull roaring emanating from its growing
+fire.  Strangely enough the heat from the forge isn't nearly as hot as it
+should be, which would explain why there are no customers about.  However, a
+crude display table has been set up, allowing customers to survey standard
+ready made goods.    
+~
+139 0 0 0 0 2
+D2
+~
+~
+0 0 13906 0 0 0 0 0 0 0 0
+S
+#13916
+Within a Pink Silk Tent~
+   The aroma of exotic incense hangs heavy in the air here, overpowering the
+usual stench of road worn travelers.  A round brazier sits in the middle of
+this room, surrounded by soft inviting cushions so that customers may rest and
+warm themselves.  A finely detailed display case sits to the right of the tent,
+allowing customers to inspect the various goods on sale.
+~
+139 d 0 0 0 2
+D2
+~
+~
+0 0 13907 0 0 0 0 0 0 0 0
+S
+#13917
+Surrounded by a Throng of People~
+   A horde of customers have filled this small tent to its capacity, creating a
+near riot as people attempt to purchase the food on sale.  The once inviting
+aroma of food, has been replaced with the nearly overpowering stench of sweaty
+bodies, as the crowd presses closer to the counter to place their orders.  The
+tent rocks precariously back and forth as the growing mob jostles for position.
+~
+139 d 0 0 0 2
+D2
+~
+~
+0 0 13908 0 0 0 0 0 0 0 0
+S
+#13918
+Standing in the Middle of a Murder Scene~
+   This once green patch of grass has been turned a crimson red, bathed in
+human blood.  Strewn upon the grass nearby, are the tools of the merchant that
+once stood here.  The blood matted grass tells a gruesome tale, marked by heavy
+boots, and signs of a struggle.  The only exit from this terrible scene lies to
+the south.    
+~
+139 0 0 0 0 2
+D2
+~
+~
+0 0 13909 0 0 0 0 0 0 0 0
+S
+#13919
+Behind the Armorer's Display Table~
+   Various pieces of armor stand on display here, each piece sturdily crafted.
+A large anvil sits to the right, away from the display cases and the jostling
+crowd.  A stone forge has been quickly set up, its fire feeding hungrily upon
+the fir wood.  The once green grass around forge now lies in brown charred
+lumps as the heat rises to unbearable temperatures.  Northwards lies the path
+back to the crowd, and the other wagons.    
+~
+139 0 0 0 0 0
+D0
+~
+~
+0 0 13914 0 0 0 0 0 0 0 0
+S
+#13920
+A Crude Campsite~
+   These trees have formed an impenetrable wall around this area, and there
+seems no way to proceed in any direction save westward.  Broken tree branches
+lie upon the ground here, piled beside a circle of stones.  Ash and charred
+wood indicate there was once a campfire blazing here, well hidden by the
+surrounding foliage.    
+~
+139 a h 0 0 3
+D3
+~
+~
+0 0 13921 0 0 0 0 0 0 0 0
+S
+#13921
+Venturing Among the Trees~
+   Darkness descends, as not a single ray of outside light can be seen from
+this thickly wooded area.  Dense undergrowth makes walking difficult, though
+there are some signs of recent passage here.  Broken branches, and trodden
+undergrowth suggest that either human or animal have passed this way recently.
+Passage is possible to the east and west.    
+~
+139 a h 0 0 3
+D1
+~
+~
+0 0 13920 0 0 0 0 0 0 0 0
+D3
+~
+boulder~
+1 0 13910 0 0 0 0 0 0 0 0
+S
+#13922
+Within a Spacious Blue Tent~
+   The spacious interior of this tent is astounding.  A simple but sturdy bed
+lies to one corner of the room, but the majority of the tent's space is
+dominated by a solid oak table, and a large steel bound chest.  The smell of
+incense hangs heavy in the air, emanating from a small bronze brazier hanging
+from the tent's support poles.    
+~
+139 d 0 0 0 0
+D3
+~
+~
+0 0 13905 0 0 0 0 0 0 0 0
+S
+$~

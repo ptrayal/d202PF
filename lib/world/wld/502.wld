@@ -1,0 +1,3743 @@
+#50200
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D1
+~
+~
+0 0 50201 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3196 0 0 0 0 0 0 0 0
+S
+#50201
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D1
+~
+~
+0 0 50202 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50200 0 0 0 0 0 0 0 0
+S
+#50202
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D1
+~
+~
+0 0 50203 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50201 0 0 0 0 0 0 0 0
+S
+#50203
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D3
+~
+~
+0 0 50202 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50204 0 0 0 0 0 0 0 0
+S
+#50204
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D7
+~
+~
+0 0 50205 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50203 0 0 0 0 0 0 0 0
+S
+#50205
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D7
+~
+~
+0 0 50206 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50204 0 0 0 0 0 0 0 0
+S
+#50206
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D7
+~
+~
+0 0 50207 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50205 0 0 0 0 0 0 0 0
+S
+#50207
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D7
+~
+~
+0 0 50208 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50206 0 0 0 0 0 0 0 0
+S
+#50208
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D7
+~
+~
+0 0 50209 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50207 0 0 0 0 0 0 0 0
+S
+#50209
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D0
+~
+~
+0 0 50210 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50208 0 0 0 0 0 0 0 0
+S
+#50210
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D2
+~
+~
+0 0 50209 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50211 0 0 0 0 0 0 0 0
+S
+#50211
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D7
+~
+~
+0 0 50212 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50210 0 0 0 0 0 0 0 0
+S
+#50212
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D1
+~
+~
+0 0 50213 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50211 0 0 0 0 0 0 0 0
+S
+#50213
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D1
+~
+~
+0 0 50214 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50212 0 0 0 0 0 0 0 0
+S
+#50214
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 e 0 0 10
+D1
+~
+~
+0 0 50215 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50213 0 0 0 0 0 0 0 0
+S
+#50215
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D1
+~
+~
+0 0 50216 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50214 0 0 0 0 0 0 0 0
+S
+#50216
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D1
+~
+~
+0 0 50217 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50215 0 0 0 0 0 0 0 0
+S
+#50217
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D3
+~
+~
+0 0 50216 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50218 0 0 0 0 0 0 0 0
+S
+#50218
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50219 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50217 0 0 0 0 0 0 0 0
+S
+#50219
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50220 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50218 0 0 0 0 0 0 0 0
+S
+#50220
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D0
+~
+~
+0 0 1200 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 50221 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50219 0 0 0 0 0 0 0 0
+S
+#50221
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D1
+~
+~
+0 0 50222 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50220 0 0 0 0 0 0 0 0
+S
+#50222
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D1
+~
+~
+0 0 50223 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50221 0 0 0 0 0 0 0 0
+S
+#50223
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D3
+~
+~
+0 0 50222 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50224 0 0 0 0 0 0 0 0
+S
+#50224
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50225 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50223 0 0 0 0 0 0 0 0
+S
+#50225
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50226 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50224 0 0 0 0 0 0 0 0
+S
+#50226
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50227 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50225 0 0 0 0 0 0 0 0
+S
+#50227
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50228 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50226 0 0 0 0 0 0 0 0
+S
+#50228
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50229 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50227 0 0 0 0 0 0 0 0
+S
+#50229
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50230 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50228 0 0 0 0 0 0 0 0
+S
+#50230
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D0
+~
+~
+0 0 50231 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50229 0 0 0 0 0 0 0 0
+S
+#50231
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D0
+~
+~
+0 0 50232 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 50230 0 0 0 0 0 0 0 0
+S
+#50232
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D2
+~
+~
+0 0 50231 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50233 0 0 0 0 0 0 0 0
+S
+#50233
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50234 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50232 0 0 0 0 0 0 0 0
+S
+#50234
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D7
+~
+~
+0 0 50235 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50233 0 0 0 0 0 0 0 0
+S
+#50235
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D1
+~
+~
+0 0 50236 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50234 0 0 0 0 0 0 0 0
+S
+#50236
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D1
+~
+~
+0 0 50237 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50235 0 0 0 0 0 0 0 0
+S
+#50237
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 a 0 0 10
+D1
+~
+~
+0 0 50238 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50236 0 0 0 0 0 0 0 0
+S
+#50238
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50239 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50237 0 0 0 0 0 0 0 0
+S
+#50239
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50240 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50238 0 0 0 0 0 0 0 0
+S
+#50240
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50239 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50241 0 0 0 0 0 0 0 0
+S
+#50241
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50242 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50240 0 0 0 0 0 0 0 0
+S
+#50242
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50243 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50241 0 0 0 0 0 0 0 0
+S
+#50243
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50244 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50242 0 0 0 0 0 0 0 0
+S
+#50244
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50245 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50243 0 0 0 0 0 0 0 0
+S
+#50245
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50246 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50244 0 0 0 0 0 0 0 0
+S
+#50246
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50247 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50245 0 0 0 0 0 0 0 0
+S
+#50247
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50248 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50246 0 0 0 0 0 0 0 0
+S
+#50248
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50249 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50247 0 0 0 0 0 0 0 0
+S
+#50249
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50250 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50248 0 0 0 0 0 0 0 0
+S
+#50250
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50251 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50249 0 0 0 0 0 0 0 0
+S
+#50251
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50250 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50252 0 0 0 0 0 0 0 0
+S
+#50252
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50253 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50251 0 0 0 0 0 0 0 0
+S
+#50253
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50252 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50254 0 0 0 0 0 0 0 0
+S
+#50254
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50255 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50253 0 0 0 0 0 0 0 0
+S
+#50255
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50254 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50256 0 0 0 0 0 0 0 0
+S
+#50256
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50257 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50255 0 0 0 0 0 0 0 0
+S
+#50257
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50258 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50256 0 0 0 0 0 0 0 0
+S
+#50258
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50259 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50257 0 0 0 0 0 0 0 0
+S
+#50259
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50260 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50258 0 0 0 0 0 0 0 0
+S
+#50260
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50259 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50261 0 0 0 0 0 0 0 0
+S
+#50261
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50262 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50260 0 0 0 0 0 0 0 0
+S
+#50262
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50263 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50261 0 0 0 0 0 0 0 0
+S
+#50263
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50264 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50262 0 0 0 0 0 0 0 0
+S
+#50264
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50263 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50265 0 0 0 0 0 0 0 0
+S
+#50265
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50266 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50264 0 0 0 0 0 0 0 0
+S
+#50266
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50267 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50265 0 0 0 0 0 0 0 0
+S
+#50267
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50268 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50266 0 0 0 0 0 0 0 0
+S
+#50268
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50267 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50269 0 0 0 0 0 0 0 0
+S
+#50269
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50270 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50268 0 0 0 0 0 0 0 0
+S
+#50270
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50271 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50269 0 0 0 0 0 0 0 0
+S
+#50271
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50272 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50270 0 0 0 0 0 0 0 0
+S
+#50272
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50273 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50271 0 0 0 0 0 0 0 0
+S
+#50273
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50274 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50272 0 0 0 0 0 0 0 0
+S
+#50274
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50275 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50273 0 0 0 0 0 0 0 0
+S
+#50275
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50274 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50276 0 0 0 0 0 0 0 0
+S
+#50276
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50277 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50275 0 0 0 0 0 0 0 0
+S
+#50277
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50278 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50276 0 0 0 0 0 0 0 0
+S
+#50278
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50279 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50277 0 0 0 0 0 0 0 0
+S
+#50279
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50280 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50278 0 0 0 0 0 0 0 0
+S
+#50280
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50281 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50279 0 0 0 0 0 0 0 0
+S
+#50281
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50280 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50282 0 0 0 0 0 0 0 0
+S
+#50282
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50283 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50281 0 0 0 0 0 0 0 0
+S
+#50283
+The Luskan-Mirabar Trade Road~
+   This road shadows the Neverwinter Wood to the South and River Mirar which
+empties into the Luskan Harbor.  The area is lightly forested with plains
+visible through the trees to the north.  The river has a fast current and is
+wide enough to carry a small barge.  Shrubs and other plants dot the roadside,
+and small hills obscure vision from time to time.  The road itself is well
+travelled and maintained, with few pot holes or wagon tracks.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50284 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50282 0 0 0 0 0 0 0 0
+S
+#50284
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50285 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50283 0 0 0 0 0 0 0 0
+S
+#50285
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50286 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50284 0 0 0 0 0 0 0 0
+S
+#50286
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50287 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50285 0 0 0 0 0 0 0 0
+S
+#50287
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50286 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50288 0 0 0 0 0 0 0 0
+S
+#50288
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50289 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50287 0 0 0 0 0 0 0 0
+S
+#50289
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50288 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50290 0 0 0 0 0 0 0 0
+S
+#50290
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50291 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50289 0 0 0 0 0 0 0 0
+S
+#50291
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50290 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50292 0 0 0 0 0 0 0 0
+S
+#50292
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50293 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50291 0 0 0 0 0 0 0 0
+S
+#50293
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50294 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50292 0 0 0 0 0 0 0 0
+S
+#50294
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50295 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50293 0 0 0 0 0 0 0 0
+S
+#50295
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50296 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50294 0 0 0 0 0 0 0 0
+S
+#50296
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50297 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50295 0 0 0 0 0 0 0 0
+S
+#50297
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50298 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50296 0 0 0 0 0 0 0 0
+S
+#50298
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50299 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50297 0 0 0 0 0 0 0 0
+S
+#50299
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50300 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50298 0 0 0 0 0 0 0 0
+S
+#50300
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50301 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50299 0 0 0 0 0 0 0 0
+S
+#50301
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50302 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50300 0 0 0 0 0 0 0 0
+S
+#50302
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50303 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50301 0 0 0 0 0 0 0 0
+S
+#50303
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50302 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50304 0 0 0 0 0 0 0 0
+S
+#50304
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50305 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50303 0 0 0 0 0 0 0 0
+S
+#50305
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50306 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50304 0 0 0 0 0 0 0 0
+S
+#50306
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50307 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50305 0 0 0 0 0 0 0 0
+S
+#50307
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50308 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50306 0 0 0 0 0 0 0 0
+S
+#50308
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50309 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50307 0 0 0 0 0 0 0 0
+S
+#50309
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50310 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50308 0 0 0 0 0 0 0 0
+S
+#50310
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50311 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50309 0 0 0 0 0 0 0 0
+S
+#50311
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50312 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50310 0 0 0 0 0 0 0 0
+S
+#50312
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50313 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50311 0 0 0 0 0 0 0 0
+S
+#50313
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50314 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50312 0 0 0 0 0 0 0 0
+S
+#50314
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50315 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50313 0 0 0 0 0 0 0 0
+S
+#50315
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50316 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50314 0 0 0 0 0 0 0 0
+S
+#50316
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50317 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50315 0 0 0 0 0 0 0 0
+S
+#50317
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50316 0 0 0 0 0 0 0 0
+S
+#50318
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50317 0 0 0 0 0 0 0 0
+S
+#50319
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50320 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50318 0 0 0 0 0 0 0 0
+S
+#50320
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50319 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50321 0 0 0 0 0 0 0 0
+S
+#50321
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50322 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50320 0 0 0 0 0 0 0 0
+S
+#50322
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50323 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50321 0 0 0 0 0 0 0 0
+S
+#50323
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50324 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50322 0 0 0 0 0 0 0 0
+S
+#50324
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50325 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 4400 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50323 0 0 0 0 0 0 0 0
+S
+#50325
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50326 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50324 0 0 0 0 0 0 0 0
+S
+#50326
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50325 0 0 0 0 0 0 0 0
+S
+#50327
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50328 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50326 0 0 0 0 0 0 0 0
+S
+#50328
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50329 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50327 0 0 0 0 0 0 0 0
+S
+#50329
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50328 0 0 0 0 0 0 0 0
+S
+#50330
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50331 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50329 0 0 0 0 0 0 0 0
+S
+#50331
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50332 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50330 0 0 0 0 0 0 0 0
+S
+#50332
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50333 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50331 0 0 0 0 0 0 0 0
+S
+#50333
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50334 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50332 0 0 0 0 0 0 0 0
+S
+#50334
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50333 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50335 0 0 0 0 0 0 0 0
+S
+#50335
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50336 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50334 0 0 0 0 0 0 0 0
+S
+#50336
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50337 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50335 0 0 0 0 0 0 0 0
+S
+#50337
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50338 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50336 0 0 0 0 0 0 0 0
+S
+#50338
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50339 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50337 0 0 0 0 0 0 0 0
+S
+#50339
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50340 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50338 0 0 0 0 0 0 0 0
+S
+#50340
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50341 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50339 0 0 0 0 0 0 0 0
+S
+#50341
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50342 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50340 0 0 0 0 0 0 0 0
+S
+#50342
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50343 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50341 0 0 0 0 0 0 0 0
+S
+#50343
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50344 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50342 0 0 0 0 0 0 0 0
+S
+#50344
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50345 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50343 0 0 0 0 0 0 0 0
+S
+#50345
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50346 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50344 0 0 0 0 0 0 0 0
+S
+#50346
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50345 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50347 0 0 0 0 0 0 0 0
+S
+#50347
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50348 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50346 0 0 0 0 0 0 0 0
+S
+#50348
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50349 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50347 0 0 0 0 0 0 0 0
+S
+#50349
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50370 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50348 0 0 0 0 0 0 0 0
+S
+#50370
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50371 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50349 0 0 0 0 0 0 0 0
+S
+#50371
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50372 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50370 0 0 0 0 0 0 0 0
+S
+#50372
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50373 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50371 0 0 0 0 0 0 0 0
+S
+#50373
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50374 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50372 0 0 0 0 0 0 0 0
+S
+#50374
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50375 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50373 0 0 0 0 0 0 0 0
+S
+#50375
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50376 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50374 0 0 0 0 0 0 0 0
+S
+#50376
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50377 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50375 0 0 0 0 0 0 0 0
+S
+#50377
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50378 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50376 0 0 0 0 0 0 0 0
+S
+#50378
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50379 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50377 0 0 0 0 0 0 0 0
+S
+#50379
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50380 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50378 0 0 0 0 0 0 0 0
+S
+#50380
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50379 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50381 0 0 0 0 0 0 0 0
+S
+#50381
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50382 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50380 0 0 0 0 0 0 0 0
+S
+#50382
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50383 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50381 0 0 0 0 0 0 0 0
+S
+#50383
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50384 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50382 0 0 0 0 0 0 0 0
+S
+#50384
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50385 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50383 0 0 0 0 0 0 0 0
+S
+#50385
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50386 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50384 0 0 0 0 0 0 0 0
+S
+#50386
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50387 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50385 0 0 0 0 0 0 0 0
+S
+#50387
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50386 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50388 0 0 0 0 0 0 0 0
+S
+#50388
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50389 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50387 0 0 0 0 0 0 0 0
+S
+#50389
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50390 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50388 0 0 0 0 0 0 0 0
+S
+#50390
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50391 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50389 0 0 0 0 0 0 0 0
+S
+#50391
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D7
+~
+~
+0 0 50392 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50390 0 0 0 0 0 0 0 0
+S
+#50392
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50393 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50391 0 0 0 0 0 0 0 0
+S
+#50393
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50394 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50392 0 0 0 0 0 0 0 0
+S
+#50394
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50395 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50393 0 0 0 0 0 0 0 0
+S
+#50395
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50396 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50394 0 0 0 0 0 0 0 0
+S
+#50396
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50397 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50395 0 0 0 0 0 0 0 0
+S
+#50397
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50398 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50396 0 0 0 0 0 0 0 0
+S
+#50398
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 50399 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 50397 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50399
+The Luskan-Mirabar Trade Road~
+   The road runs here along The Crags mountain range to the south and Spine of
+the World to the North, and beyond it the frigid tundra of Icewind Dale.  The
+road here is not as well maintained as it is closer to the cities and there are
+many potential ambush points in the hills and mountains surrounding it.  There
+is a small amount of shrubbery here, most of it struggling to survive in this
+harsh clime.  The wind howls through the hills and mountain passes making things
+colder and more difficult to move through.  The air however is crisp and clear,
+and refreshing compared to that of the stifling city streets of Luskan and
+Mirabar.  
+~
+502 0 0 0 0 10
+D3
+~
+~
+0 0 50398 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 50400 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#50400
+The Long Road: near Mirabar~
+   Powerful mountains dominate the view to the north.  These massive domes of
+rock rise upward like great earth gods, dwarfing all that is around them and
+casting long shadows across everything below.  There is a slight vibration under
+your feet.  The ground seems to be shaking as if from a small earthquake.  The
+road continues east and southwest.  
+~
+502 0 0 0 0 10
+D1
+~
+~
+0 0 4964 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 50399 0 0 0 0 0 0 0 0
+S
+$~

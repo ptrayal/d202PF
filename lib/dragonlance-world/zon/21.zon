@@ -1,0 +1,190 @@
+#21
+None.~
+Tainted Druids~
+2100 2199 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  2103     3  2102   2   100     1    -1          0 a tainted hummingbird
+
+M 0  2103     3  2104   2   100     2    -1          0 a tainted hummingbird
+
+M 0  2101     3  2101   1   100     3    -1          0 a tainted groundhog
+
+M 0  2101     3  2103   1   100     4    -1          0 a tainted groundhog
+
+D 0  2106     2     1   0   101     5    -10 
+
+M 0  2102     1  2106   1   100     6    -1          0 a dark figure
+
+E 1  2100     8    16   0    50     7     6          0 a golden sickle
+
+E 1  2101    10    12   0    75     8     6          0 a green and black cloak
+
+D 0  2107     2     1   0   101     9    -10 
+
+M 0  2100     2  2107   1   100    10    -1          0 a tainted druid
+
+D 0  2107     0     1   0   101    11    -10 
+
+M 0  2101     2  2105   1   100    12    -1          0 a tainted groundhog
+
+M 0  2100     2  2109   1   100    13    -1          0 a tainted druid
+
+M 0  2104     2  2119   1   100    14    -1          0 a tainted druid
+
+M 0  2104     2  2122   1   100    15    -1          0 a tainted druid
+
+M 0  2105     2  2124   1   100    16    -1          0 a tainted druid
+
+G 1  1212     5     0   0    40    17    16          0 a scroll covered in shades of blue and red
+
+D 0  2126     3     1   0   101    18    -10 
+
+M 0  2106     2  2127   1   100    19    -1          0 a tainted druid
+
+D 0  2127     1     1   0   101    20    -10 
+
+M 0  2106     2  2129   1   100    21    -1          0 a tainted druid
+
+D 0  2129     1     1   0   101    22    -10 
+
+M 0  2107     3  2115   2   100    23     1          0 a tainted druid
+
+D 0  2115     0     1   0   101    24    -10 
+
+M 0  2107     3  2117   2   100    25     1          0 a tainted druid
+
+D 0  2118     5     2   0   101    26    -10 
+
+D 0  2130     4     2   0   101    27    -10 
+
+M 0  2108     1  2114   1   100    28    -1          0 a tainted high druid
+
+G 1  1226     5     0   0    50    29    28          0 a miniature arrow with writing on it
+
+G 1  2102     2     0   0   100    30    28          0 a shiny brass key
+
+M 0  2109     2  2133   1   100    31    -1          0 a large, armored figure
+
+E 1  2113     1    17   0    15    32    31          0 a serrated golden scimitar
+
+E 1  2109     1    16   0    15    33    31          0 an exceptional black sabre
+
+M 0  2109     2  2135   1   100    34    -1          0 a large, armored figure
+
+E 1  2103     8     5   0    50    35    34          0 an armored vest
+
+M 0  2110     3  2158   3   100    36    -1          0 a tainted squirrel
+
+M 0  2110     3  2162   3   100    37    -1          0 a tainted squirrel
+
+E 1  2104     6     5   0    45    38    37          0 a bushy squirrel tail
+
+M 0  2112     3  2171   3   100    39    -1          0 a tainted groundhog
+
+M 0  2110     3  2171   3   100    40    -1          0 a tainted squirrel
+
+E 1  2104     6     5   0    45    41    40          0 a bushy squirrel tail
+
+M 0  2112     3  2168   3   100    42    -1          0 a tainted groundhog
+
+M 0  2111     3  2161   3   100    43    -1          0 a tainted fox
+
+E 1  2105     8     5   0    30    44    43          0 a grey fox tail
+
+M 0  2111     3  2164   3   100    45    -1          0 a tainted fox
+
+E 1  2105     8     5   0    30    46    45          0 a grey fox tail
+
+M 0  2111     3  2166   3   100    47    -1          0 a tainted fox
+
+E 1  2105     8     5   0    30    48    47          0 a grey fox tail
+
+M 0  2113     2  2167   2   100    49    -1          0 a tainted wolf
+
+E 1  2106     8     5   0    25    50    49          0 the pelt of a grey wolf
+
+M 0  2113     2  2170   2   100    51    -1          0 a tainted wolf
+
+E 1  2106     8     5   0    25    52    51          0 the pelt of a grey wolf
+
+M 0  2114     1  2163   1   100    53    -1          0 a brown-haired, female druid
+
+G 1  1224     5     0   0    20    54    53          0 a shiny, reflective parchment
+
+E 1  2107     8    12   0    50    55    53          0 a brown tunic of bear hide
+
+M 0  2115     1  2172   1   100    56    -1          0 the master of the garden
+
+E 1  2108     8    16   0    50    57    56          0 a long wooden staff
+
+D 0  2142     3     1   0   101    58    -10 
+
+D 0  2142     1     1   0   101    59    -10 
+
+M 0  2116     1  2145   1   100    60    -1          0 the prison warden
+
+E 1  2112     1    16   0    10    61    60          0 the dancing chain blade of wounding
+
+D 0  2145     3     1   0   101    62    -10 
+
+M 0  2117     1  2143   1   100    63    -1          0 a scraggly prison guard
+
+G 1  2111     3     0   0   100    64    63          0 a skull shaped key
+
+E 1  2110    25     8   0    60    65    63          0 a pair of black boots
+
+D 0  2143     1     1   0   101    66    -10 
+
+D 0  2140     1     1   0   101    67    -10 
+
+D 0  2146     1     2   0   101    68    -10 
+
+D 0  2146     3     1   0   101    69    -10 
+
+D 0  2147     2     1   0   101    70    -10 
+
+D 0  2147     0     1   0   101    71    -10 
+
+D 0  2147     3     2   0   101    72    -10 
+
+M 0  2118     6  2148   1   100    73    -1          0 a malnourished prisoner
+
+D 0  2148     2     1   0   101    74    -10 
+
+M 0  2118     6  2149   1   100    75    -1          0 a malnourished prisoner
+
+D 0  2149     0     1   0   101    76    -10 
+
+D 0  2150     0     1   0   101    77    -10 
+
+D 0  2150     2     1   0   101    78    -10 
+
+M 0  2118     6  2151   1   100    79    -1          0 a malnourished prisoner
+
+D 0  2151     2     1   0   101    80    -10 
+
+M 0  2118     6  2152   1   100    81    -1          0 a malnourished prisoner
+
+D 0  2152     0     1   0   101    82    -10 
+
+D 0  2153     0     1   0   101    83    -10 
+
+D 0  2153     2     1   0   101    84    -10 
+
+M 0  2118     6  2154   1   100    85    -1          0 a malnourished prisoner
+
+D 0  2154     0     1   0   101    86    -10 
+
+M 0  2118     6  2155   1   100    87    -1          0 a malnourished prisoner
+
+D 0  2155     2     1   0   101    88    -10 
+
+M 0  2111     3  2159   3   100    89    -1          0 a tainted fox
+
+E 1  2105     6     5   0    45    90    89          0 a grey fox tail
+
+S
+$

@@ -1,0 +1,87 @@
+#900
+Find a Sling of Frost~
+Find a well made sling of frost in the luskan training pits.~
+   We're trying to collect some items these summoned monsters may have brought
+with them.  One of these items we're looking for is a well made sling of frost.
+Find one and give it to me and I'll reward you with 200 gold coins.  
+~
+   Well done, we'll put this sling to good use.  As promised, here is your
+reward: 200 gold coins.  Spend it wisely.  
+~
+   You decide to pass on finding and giving a well made sling of frost to Jolin.
+
+~
+5 924 0 928 -1 -1 -1
+40 0 3 60 -1 924 1
+200 9 65535
+S
+#901
+Kill Arsonists~
+Defeat 10 incriminated arsonists~
+   Looking for something a little tougher hmm?  We've had a string of arsonists
+in the city lately.  Something to do with a deranged cult of Kossuth.  Not
+normally their style so we suspect something else is going on.  In any case
+we've got too many arsonists for our prison to hold, so we're throwing them here
+in the gladiator pits for their judgement.  Go ahead and thin their ranks a bit
+and we'll pay you for your efforts.  
+~
+You have successfully defeated 10 incriminated arsonists.  Your reward is:
+60 quest points
+250 gold coins
+100 experience
+Congratulations!
+~
+You have abandoned the quest.
+~
+3 3005 0 3001 -1 -1 -1
+60 0 2 10 -1 -1 10
+250 15 65535
+S
+#902
+kill renthilos~
+Kill the mage Renthilos~
+The mage Renthilos continues to send his golem lackeys into the training area.
+He has become very disruptive to the people at study, and to the city militia.
+Find him and snuff out his existance!  
+~
+Good job young one, this is the first of many steps on your pathway to becoming
+a legend!  Take this as a reward for your services.  
+~
+You have abandoned the quest.
+~
+3 924 0 901 -1 -1 -1
+50 0 6 60 -1 -1 1
+2000 15 65535
+S
+#903
+kill summoners~
+Kill 25 Summoners~
+Hail young one, i am giving you the opportunity to show us your worth.  Go forth
+and destroy 25 summoners in the training area, and you shall be rewarded.  
+~
+Good job, it seems you are getting the hang of things.  Now on to your next
+task!  Meet me at Gage, and i will fill in the details of your next quest.  
+~
+You have abandoned the quest.
+~
+3 924 0 903 -1 -1 -1
+50 0 4 61 -1 -1 25
+500 5 65535
+S
+#904
+masters apprentice~
+Kill the masters apprentice~
+@YThe Masters Apprentice is beginning to excel in his training, he has been
+caught breaking luskan laws governing magic use within the city.  Go forth and
+slay this law breaker!  @n
+~
+Well done adventurer.  I think we will continue to have a steady stream of
+luskan contracts to offer you; if you keep this up.  Here is your payment.  
+~
+You have abandoned the quest.
+~
+3 924 0 920 -1 -1 -1
+30 0 4 60 -1 -1 1
+500 15 65535
+S
+$~

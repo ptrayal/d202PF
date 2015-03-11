@@ -1,0 +1,30 @@
+Caide    (Feb 27) [  900] adjust mem tables for high ability scores & add minimum levels for each spell level
+Caide    (Feb 27) [  900] change the tell color
+Caide    (Feb 27) [  239] make check for all languages to be considered class skills
+Caide    (Feb 27) [  239] add all idea, bug, typo to syslofg normal
+Cirrus   (Feb 27) [  901] affects command
+Gicker   (Feb 28) [    0] a spell listing command that shows what spells are available to be memorized
+Page     (Mar  3) [    0] No try command eh?
+Larin    (Mar  9) [    0] We need to do something to make spell lag on mobs - in 3 rounds I was hit with a lightning bolt and 2 fireballs
+Scion    (Mar  9) [    0] make cleric spell language understandable if person speaks cleric's spoken language
+Anubis   (Mar 15) [    0] has the practice skills been fixed?
+Darmoor  (Mar 21) [    0] Show levels of spells being memorized.
+Caide    (Jul 20) [    0] show level of fullness for containers
+Renald   (Jul 21) [    0] just woundering why only after a combat you find out the strengths and weakness of wielded weapons ?
+Renald   (Jul 21) [    0] i do not understand why i've reached a perfesional milestone and able to train , when i'm still 789 exp tnl?
+Renald   (Jul 21) [    0] agin i killed something and gained another feat befor i lvled?
+Renald   (Jul 21) [    0] never mind i figured out why it keeps saying that after the first time it's just reminding the player that they have a feat they can take right?
+Renald   (Jul 21) [    0] ahh sorry but every time i loot a corpse it says theres nothing i get from it but when i check in my inv after killing ooze's i get a bit of slime... shrug.
+Renald   (Jul 21) [    0] No Scan command?
+Riryan   (Jul 28) [    0] seems half-elves are missing perm infra?
+Manu     (Sep  4) [  983] Would it be possible to get additional messages for rage to let you know when it has ended?  I'm not sure if it will notify you again, but if not when it is available again for use?
+Manu     (Sep  4) [ 3028] AMENDMENT: Saw the notification for refreshed rages, hooray.
+Xin      (Sep 18) [  907] circle kick!
+Xin      (Sep 19) [  908] Stunning Fist needs a message on whether it succeeds or not.
+Thray    (Nov 22) [ 5005] Perhaps sneak and hide could be added to affects?
+Thray    (Nov 23) [    0] Possibly a set of commands to combine 4 of an essence into 1 essence that is one rank higher, and split 1 essence into 3 of lower ranks is in order?
+Thray    (Nov 23) [ 8226] The "vis" command could cancel all forms of sneak, hide or invisibility with a single command and echo, it doesn't seem to function with the code right now, however.
+Solinari (Nov 25) [    0] Cleaned up help stat, also created help stats(attributes, statistics.)  Perhaps help stat is obsolete, or maybe it should be restricted to certain levels?  I wasn't sure how you wanted to go so I didn't screw with it.
+Washaki  (Dec  3) [ 2200] a cpose or pose command, lets you set a short message buy the chr's name. this way it'll keep me from constantly typing something like emote is here leening against her staff, reading a book. every time someone comes in the room. can be cleared of corse.
+Washaki  (Dec  3) [ 2200] a semote or smote pmote? command. lets you start an emote with something like pmote smiling, the elf looks up at the dwarf. should or possabley must, contain the chr's name to keep from being exploited
+Washaki  (Dec  3) [ 2200] how about letting people get things from the backpack they're wearing?

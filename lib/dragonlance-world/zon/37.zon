@@ -1,0 +1,156 @@
+#37
+None.~
+The Sewers of Sanction (Eben)~
+3700 3799 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+G 0  3705    50     0   0   100     1     0          0 a sticky glob of spider's webbing
+
+M 0  3701     8  3746   1   100     2    -1          0 an enormous spider
+
+G 1  3705    50     0   0   100     3     2          0 a sticky glob of spider's webbing
+
+M 0  3701     8  3744   1   100     4    -1          0 an enormous spider
+
+G 1  3705    50     0   0   100     5     4          0 a sticky glob of spider's webbing
+
+M 0  3701     8  3754   1   100     6    -1          0 an enormous spider
+
+G 1  3705    50     0   0   100     7     6          0 a sticky glob of spider's webbing
+
+M 0  3701     8  3718   1   100     8    -1          0 an enormous spider
+
+G 1  3705    50     0   0   100     9     8          0 a sticky glob of spider's webbing
+
+M 0  3701     8  3717   1   100    10    -1          0 an enormous spider
+
+G 1  3705    50     0   0   100    11    10          0 a sticky glob of spider's webbing
+
+M 0  3701     8  3725   1   100    12    -1          0 an enormous spider
+
+G 1  3705    50     0   0   100    13    12          0 a sticky glob of spider's webbing
+
+M 0  3702     8  3729   2   100    14    -1          0 a water snake
+
+G 1  3706    50     0   0   100    15    14          0 a silver, freshly skinned snakeskin
+
+M 0  3702     8  3731   2   100    16    -1          0 a water snake
+
+G 1  3706    50     0   0   100    17    16          0 a silver, freshly skinned snakeskin
+
+M 0  3702     8  3740   2   100    18    -1          0 a water snake
+
+G 1  3706    50     0   0   100    19    18          0 a silver, freshly skinned snakeskin
+
+M 0  3702     8  3761   2   100    20    -1          0 a water snake
+
+G 1  3706    50     0   0   100    21    20          0 a silver, freshly skinned snakeskin
+
+M 0  3702     8  3760   2   100    22    -1          0 a water snake
+
+G 1  3706    50     0   0   100    23    22          0 a silver, freshly skinned snakeskin
+
+M 0  3702     8  3707   2   100    24    -1          0 a water snake
+
+G 1  3706    50     0   0   100    25    24          0 a silver, freshly skinned snakeskin
+
+M 0  3702     8  3708   2   100    26    -1          0 a water snake
+
+G 1  3706    50     0   0   100    27    26          0 a silver, freshly skinned snakeskin
+
+M 0  3702     8  3709   2   100    28    -1          0 a water snake
+
+G 1  3706    50     0   0   100    29    28          0 a silver, freshly skinned snakeskin
+
+M 0  3703     8  3710   2   100    30    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    31    30          0 a tiny, blood-filled leech's stomach
+
+M 0  3703     8  3714   2   100    32    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    33    32          0 a tiny, blood-filled leech's stomach
+
+M 0  3703     8  3737   2   100    34    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    35    34          0 a tiny, blood-filled leech's stomach
+
+M 0  3707     5  3742   2   100    36    -1          0 a poisonous water beetle
+
+E 1  3702     8     6   0    50    37    36          0 a serrated pincer of a giant water beetle
+
+M 0  3703     8  3742   2   100    38    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    39    38          0 a tiny, blood-filled leech's stomach
+
+M 0  3703     8  3732   2   100    40    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    41    40          0 a tiny, blood-filled leech's stomach
+
+M 0  3703     8  3730   2   100    42    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    43    42          0 a tiny, blood-filled leech's stomach
+
+M 0  3703     8  3706   2   100    44    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    45    44          0 a tiny, blood-filled leech's stomach
+
+M 0  3703     8  3702   2   100    46    -1          0 a giant leech
+
+G 1  3707    50     0   0   100    47    46          0 a tiny, blood-filled leech's stomach
+
+M 0  3704     6  3727   1   100    48    -1          0 a vampire bat
+
+G 1  3708    50     0   0   100    49    48          0 a dusty hide of a vampire bat
+
+M 0  3704     6  3724   1   100    50    -1          0 a vampire bat
+
+G 1  3708    50     0   0   100    51    50          0 a dusty hide of a vampire bat
+
+M 0  3704     6  3719   1   100    52    -1          0 a vampire bat
+
+G 1  3708    50     0   0   100    53    52          0 a dusty hide of a vampire bat
+
+M 0  3704     6  3756   1   100    54    -1          0 a vampire bat
+
+G 1  3708    50     0   0   100    55    54          0 a dusty hide of a vampire bat
+
+M 0  3704     6  3752   1   100    56    -1          0 a vampire bat
+
+G 1  3708    50     0   0   100    57    56          0 a dusty hide of a vampire bat
+
+M 0  3707     5  3735   2   100    58    -1          0 a poisonous water beetle
+
+E 1  3702     8     6   0    50    59    58          0 a serrated pincer of a giant water beetle
+
+M 0  3707     5  3713   2   100    60    -1          0 a poisonous water beetle
+
+E 1  3702     8     6   0    50    61    60          0 a serrated pincer of a giant water beetle
+
+M 0  3707     5  3751   2   100    62    -1          0 a poisonous water beetle
+
+M 0  3707     5  3734   2   100    63    -1          0 a poisonous water beetle
+
+E 1  3702     8     6   0    50    64    63          0 a serrated pincer of a giant water beetle
+
+O 0  3700     1  3736   0   100    65    -1          0 the bloody corpse of a murdered woman
+
+P 1  3703     4  3700   0    40    66    65          0 an intricately set diamond wedding band
+
+P 1  3701     1  3700   0    75    67    65          0 a small pile of coins
+
+M 0  3705     1  3736   1   100    68    -1          0 a hostile bandit
+
+M 0  3706     1  3747   1   100    69    -1          0 a lost child
+
+E 1  3704    10     9   0    75    70    69          0 a pair of torn, homespun cotton gloves
+
+D 0  3700     4     1   0   101    71    -10 
+
+D 0  3762     2     1   0   101    72    -10 
+
+D 0  3705     0     1   0   101    73    -10 
+
+S
+$

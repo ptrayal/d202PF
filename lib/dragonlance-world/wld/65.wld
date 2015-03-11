@@ -1,0 +1,1924 @@
+#6500
+The Dock at Sanction Harbor~
+   This rough dock extends out into the bay.  The boards of the pier are
+damaged and broken in many places.  Water laps at the bottom of the pier,
+giving it a slight rocking motion.  Large ships which transport goods all over
+the Newsea float moored along the pier, and traders and sailors continually
+travel to and from the ships.
+~
+65 0 h 0 0 1
+D8
+~
+~
+0 0 6501 0 0 0 0 0 0 0 0
+S
+#6501
+The Pier of Sanction Harbor~
+   A rough pier extends into the mouth of the bay here.  Boards are missing in
+places, and in others, the pier is extremely warped from the constant battering
+of the seawater upon the planks.  Splinters of boards rise in many other
+places.  A few burned out hulks ride low in the water just off the pier, while
+a bit further out some newer vessels are moored.  Traders wander out to those
+ships frequently.  To the southeast is a large ship hauled half-way onto the
+shore.    
+~
+65 0 h 0 0 1
+D6
+~
+~
+0 0 6500 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6504 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6502 0 0 0 0 0 0 0 0
+S
+#6502
+On the Deck of a Dry-docked Ship~
+   This rather small merchant vessel seems to have been dragged onto the
+shoreline.  A small river of magma flows just off the bow, although the ship
+seems to show no signs of wearing from the intense heat.  In fact, at a closer
+glance, the ship stands straight up, as if immersed in water.  A small doorway
+to the south leads into the crew's chambers.    
+~
+65 0 h 0 0 0
+D0
+~
+~
+0 0 6503 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6585 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6501 0 0 0 0 0 0 0 0
+S
+#6503
+At the Bow of a Dry-docked Ship~
+   Standing at the bow of this vessel, you can see the sprawling mass of
+Sanction before you.  The slums seem to overwhelm the city, quite a pathetic
+sight indeed.  However, in the eastern part of town many large and apparently
+new structures have been erected in this volcanic city.  Occasionally a trickle
+of lava spreads into the sea, quickly hardening and sending off large clouds of
+steam.    
+~
+65 0 h 0 0 0
+D2
+~
+~
+0 0 6502 0 0 0 0 0 0 0 0
+S
+#6504
+The Pier of Sanction Harbor~
+   A rough pier extends into the mouth of the bay here.  Boards are missing in
+places, and in others, the pier is extremely warped from the constant assault
+of the water upon the wood.  Splinters of boards rise in other places.  A few
+burned out hulks ride low in the water off the pier.  A few sailors walk about,
+keeping their distance.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6505 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6553 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6501 0 0 0 0 0 0 0 0
+S
+#6505
+The Pier of Sanction Harbor~
+   The pier extends north along the shore of the Newsea here.  It is in very
+rough condition, with many boards broken and warped rising above the level
+surface of the pier.  Crates sit in places, waiting to be loaded on ships
+arriving from other parts of Krynn.  To the east, you see a small path leading
+towards a column of smoke rising into the sky.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6506 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6504 0 0 0 0 0 0 0 0
+S
+#6506
+The Pier of Sanction Harbor~
+   The pier extends north along the shore of the Newsea here.  It is in very
+rough condition, with many boards broken and warped rising above the level
+surface of the pier.  Crates sit in places, waiting to be loaded on ships
+arriving from other parts of Krynn.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6507 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6505 0 0 0 0 0 0 0 0
+S
+#6507
+The Pier of Sanction Harbor~
+   The pier extends north along the shore of the Newsea here.  It is in very
+rough condition, with many boards broken and warped rising above the level
+surface of the pier.  Crates sit in places, waiting to be loaded on ships
+arriving from other parts of Krynn.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6508 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6506 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10600 0 0 0 0 0 0 0 0
+S
+#6508
+The Pier of Sanction Harbor~
+   The pier extends north along the shore of the Newsea here.  It is in very
+rough condition, with many boards broken and warped rising above the level
+surface of the pier.  Crates sit in places, waiting to be loaded on ships
+arriving from other parts of Krynn.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6509 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6507 0 0 0 0 0 0 0 0
+S
+#6509
+The Rocky Beach~
+   Located on the northeast shore of Newsea, and surrounded by the Khalkist
+mountains, is the city of Sanction, the port city of the dragonarmies.  Only
+two passes lead through the Khalkist mountains into Sanction.  They run north
+from the plains of Estwilde and east from Neraka.    
+~
+65 c h 0 0 1
+D1
+~
+~
+0 0 6510 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6508 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 551 0 0 0 0 0 0 0 0
+S
+#6510
+The Central Street of Sanction~
+   Continually widening streams of lava flow through the city, flowing from the
+three volcanoes which surround Sanction, called The Lords of Doom.  Stone
+bridges allow passage over the flows, but the heat and fumes cannot be escaped.
+A small, steaming manhole lies heavily within the surface of the street.    
+~
+65 c h 0 0 1
+D1
+~
+~
+0 0 6511 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6509 0 0 0 0 0 0 0 0
+S
+#6511
+The Central Street of Sanction~
+   Deteriorated buildings mingle with new, but poorly constructed buildings
+along this street.  The central area of the city, seperated into two unequal
+portions by the largest lava flow, is a maze of slums, frequented by the
+dragonarmy forces.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6569 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6510 0 0 0 0 0 0 0 0
+S
+#6512
+The Central Street of Sanction~
+   Deteriorated buildings mingle with new, but poorly constructed buildings
+along this street.  The central area of the city, seperated into two unequal
+portions by the largest lava flow, is a maze of slums, frequented by the
+dragonarmy forces.  To the south is a small structure of blackened stone.  The
+stone itself appears to have risen directly from the flowing magma.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6521 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6513 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6511 0 0 0 0 0 0 0 0
+S
+#6513
+The Entrance to the Chapel of Takhisis~
+   The entrance hall for the Chapel of Takhisis is rather dark and foreboding.
+The stone of the temple is midnight blue and somewhat reflective, almost
+metallic.  The dim light within also seems to be of a dull and deep blue shade.
+Curtains of black and red adorn the walls, although seemingly only as
+decoration.    
+~
+65 cd h 0 0 0
+D0
+~
+~
+0 0 6512 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6514 0 0 0 0 0 0 0 0
+S
+#6514
+An Aisle Between the Pews~
+   This aisle seperates the rows of forest green marble pews.  The aisle itself
+is made of bright crimson tiles which seem almost metallic.  The ceiling above
+is painted with many frescoes depicting the Dark Queen's Greatness.  Further to
+the south you can see a blood red altar.    
+~
+65 d h 0 0 0
+D0
+~
+~
+0 0 6513 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6519 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6515 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6518 0 0 0 0 0 0 0 0
+S
+#6515
+An Aisle Between the Pews~
+   This aisle seperates the rows of forest green marble pews.  The aisle itself
+is made of bright crimson tiles which seem almost metallic.  The ceiling above
+is painted with many frescoes depicting the Dark Queen's Greatness.  Further to
+the south you can see a blood red altar.    
+~
+65 0 h 0 0 0
+D0
+~
+~
+0 0 6514 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6520 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6516 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6517 0 0 0 0 0 0 0 0
+S
+#6516
+At the Altar of Takhisis~
+   Within this spherical alcove is a blood red altar of metallic stone.  It is
+covered in engravings of gold and silver depicting the many forms of the Dark
+Queen.  The curved walls are pure silver and show the reflection of a massive
+five-headed dragon.  The image shifts to that of a dark haired beauty, then to
+a dark figure in heavy, ornate black armor, and finally back to the fearsome
+five-headed serpent.    
+~
+65 0 h 0 0 0
+D0
+~
+~
+0 0 6515 0 0 0 0 0 0 0 0
+S
+#6517
+Among the Green Marble Pews~
+   Several rows of pews, made of swirling dark green marble fill this rather
+cramped area.  The pews are set quite low to the floor, and are quite close
+together.  The walls surrounding the area are made of a deep blue, metallic
+stone.  Faint images of darkness and horror reflect on its surface.    
+~
+65 d h 0 0 0
+D0
+~
+~
+0 0 6518 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6515 0 0 0 0 0 0 0 0
+S
+#6518
+Among the Green Marble Pews~
+   Several rows of pews, made of swirling dark green marble fill this rather
+cramped area.  The pews are set quite low to the floor, and are quite close
+together.  The walls surrounding the area are made of a deep blue, metallic
+stone.  Faint images of darkness and horror reflect on its surface.    
+~
+65 d h 0 0 0
+D1
+~
+~
+0 0 6514 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6517 0 0 0 0 0 0 0 0
+S
+#6519
+Among the Green Marble Pews~
+   Several rows of pews, made of swirling dark green marble fill this rather
+cramped area.  The pews are set quite low to the floor, and are quite close
+together.  The walls surrounding the area are made of a deep blue, metallic
+stone.  Faint images of darkness and horror reflect on its surface.    
+~
+65 d h 0 0 0
+D2
+~
+~
+0 0 6520 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6514 0 0 0 0 0 0 0 0
+S
+#6520
+Among the Green Marble Pews~
+   Several rows of pews, made of swirling dark green marble fill this rather
+cramped area.  The pews are set quite low to the floor, and are quite close
+together.  The walls surrounding the area are made of a deep blue, metallic
+stone.  Faint images of darkness and horror reflect on its surface.    
+~
+65 d h 0 0 0
+D0
+~
+~
+0 0 6519 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6515 0 0 0 0 0 0 0 0
+S
+#6521
+The Central Street of Sanction~
+   Deteriorated buildings mingle with new, but poorly constructed buildings
+along this street.  The central area of the city, seperated into two unequal
+portions by the largest lava flow, is a maze of slums, frequented by the
+dragonarmy forces.    
+~
+65 0 h 0 0 0
+D1
+~
+~
+0 0 6522 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6512 0 0 0 0 0 0 0 0
+S
+#6522
+The Central Street of Sanction~
+   Ahead of you in this crowded city you can see the central plaza of Sanction.
+Lined with shops and an inn, you can view the three major structures that are
+set apart from the city.  These are the temples of Sanction, seen as they rise
+on their respective volcanoes, separated from the chaos of the city by an open
+area.    
+~
+65 0 h 0 0 0
+D1
+~
+~
+0 0 6523 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6521 0 0 0 0 0 0 0 0
+S
+#6523
+Along the Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction, you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn which provides the most safety during your
+stay here.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6532 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6524 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6522 0 0 0 0 0 0 0 0
+S
+#6524
+Along the Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn most safe to stay in while visiting here.  
+A small, steaming iron manhole rests firmly in the street's surface.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6523 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6526 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6525 0 0 0 0 0 0 0 0
+D5
+~
+manhole~
+1 0 3700 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+#6525
+The Depository of Sanction~
+   You stand in a large building of stone in which a safe takes up most of the
+space.  The bank has survived through the years and is rarely raided.  Traffic
+is heavy with citizens and travellers alike as they come to make transactions.
+The people seem to feel confident that their money will be safe.    
+~
+65 c h 0 0 0
+D1
+~
+~
+0 0 6524 0 0 0 0 0 0 0 0
+S
+#6526
+Along the Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn most safe to stay in while visiting here.  
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6527 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6546 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6524 0 0 0 0 0 0 0 0
+S
+#6527
+Along the Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn most safe to stay in while visiting here.  
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6529 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6528 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6526 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+#6528
+Teniqua's General Store~
+   The smell of food and leather dominates the shop, making you a bit hungry.
+Supplies line every wall ranging from lanterns and packs, to waterskins and
+rations for the road.  The reasonable prices keep the customers coming back,
+along with the friendly service.    
+~
+65 c h 0 0 0
+D3
+~
+~
+0 0 6527 0 0 0 0 0 0 0 0
+S
+#6529
+Along The Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn most safe to stay in while visiting here.  
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6534 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6568 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6527 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+#6530
+The Central Plaza Fountain~
+   Once the center of a beautiful plaza, the marble lining the walkway here is
+now cracked with age and the heavy traffic that travels along here.  Dirty and
+often stained with unknown substances, the plaza is still the heart of the city
+of Sanction.    
+~
+65 cu h 0 0 1
+D0
+~
+~
+0 0 6531 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6529 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6526 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6523 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6532 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6534 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6527 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6524 0 0 0 0 0 0 0 0
+S
+#6531
+Along the Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn most safe to stay in while visiting here.  
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6536 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6534 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6532 0 0 0 0 0 0 0 0
+S
+#6532
+Along the Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn most safe to stay in while visiting here.  
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6533 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6531 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6523 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+#6533
+Kalkar's Armor Imporium~
+   You stand inside a medium sized building with a tall arched ceiling that
+serves as the armor shop of Sanction.  Various suits of armor are displayed on
+stickmen standing all around the room.  The shop is known for having rare and
+valuable items.    
+~
+65 c h 0 0 0
+D0
+~
+~
+0 0 7072 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6532 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 7075 0 0 0 0 0 0 0 0
+D10
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+#6534
+Along the Central Plaza~
+   Travelling along the central plaza area in the heart of Sanction you notice
+what a hot, crowded, hellish place this must be to live in.  Half the original
+occupants of Sanction have left, but they are more than replaced by the
+dragonarmy forces camped on the slopes of the city.  Along the plaza are the
+main shops of the city and the inn most safe to stay in while visiting here.  
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6535 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6529 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6531 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+#6535
+Drax's Weapons and More~
+   The shop smells of hot metal as the shopkeeper works on another weapon over
+a coal forge behind the counter.  On the walls hang weapons of various make and
+origin.  Because of the constant wars surrounding Sanction, the shop is never
+without customers.    
+~
+65 c h 0 0 0
+D2
+~
+~
+0 0 6534 0 0 0 0 0 0 0 0
+S
+#6536
+Before the Inn of the Chromatic Dragon~
+   To your north rises the famed Inn of the Chromatic Dragon.  Known as a
+common meeting place all across Krynn, the inn has survived for hundreds of
+years.  It has been rebuilt several times due to Dragon Wars, yet some of the
+original structure is said to remain.  It is the largest structure left in
+Sanction, excluding the Temples of course.    
+~
+65 c h 0 0 1
+D0
+~
+~
+0 0 6537 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6531 0 0 0 0 0 0 0 0
+S
+#6537
+Just Inside the Inn of the Chromatic Dragon~
+   Bustling with rowdy customers and vagabonds, the room is filthy with food
+and drink encrusted on the floor.  Tables are packed side by side to seat as
+many customers as possible.  You see the innkeeper behind a desk at the north
+side of the room showing tenants to their rooms.  To the east lies the entrance
+to the Information Center where all the news of Krynn is kept.    
+~
+65 c h 0 0 0
+D0
+~
+~
+0 0 6539 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6540 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6536 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6538 0 0 0 0 0 0 0 0
+S
+#6538
+A Meeting Room~
+   Barely shielded from the noise and chatter of the restaurant, this room
+offers some privacy to groups who wish to speak without being overheard.  
+There are tables and chairs enough to seat several people.    
+~
+65 c h 0 0 0
+D1
+~
+~
+0 0 6537 0 0 0 0 0 0 0 0
+S
+#6539
+At the Desk of the Receptionist~
+   You find yourself at the north end of the lobby of the Inn of the Chromatic
+Dragon.  The innkeeper sits behind his desk here waiting to register any new
+guests into one of the many rooms of the inn.    
+~
+65 c h 0 0 0
+D2
+~
+~
+0 0 6537 0 0 0 0 0 0 0 0
+S
+#6540
+Entrance to the Information Center of Sanction~
+   This hallway has been designed for the high traffic of those seeking
+information from one of the many board rooms.  Travellers and citizens alike
+come from all around to read about the events of far off lands, and the degrees
+of those who are in a position of power.  A sturdy staircase leads up into the
+second level which contains even more bulletin boards.    
+~
+65 cd h 0 0 0
+D0
+~
+~
+0 0 6541 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6542 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6590 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6537 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6591 0 0 0 0 0 0 0 0
+S
+#6541
+General Board Room~
+   All types of messages can be found on this board.  Some are messages left
+for long lost friends and many are threats to long time enemies.  Many public
+notices also are posted here, thus it is often visited by the citizens of
+Sanction.    
+~
+65 0 h 0 0 0
+D2
+~
+~
+0 0 6540 0 0 0 0 0 0 0 0
+S
+#6542
+Outside some Board Rooms~
+   From this hallway two different board rooms may be reached.  To the north is
+the OOC board and to the south is the Trade board room.  The hall continues
+west and leads to more board rooms.    
+~
+65 c h 0 0 0
+D0
+~
+~
+0 0 6543 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6544 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6545 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6540 0 0 0 0 0 0 0 0
+S
+#6543
+News from Other Worlds~
+   It is in this room that players may post out of character messages to other
+players or to post their complaints to the imms.  Players should leave their IC
+prejudices outside of this room.    
+~
+65 c h 0 0 0
+D2
+~
+~
+0 0 6542 0 0 0 0 0 0 0 0
+S
+#6544
+Nuimyn's Courier Services~
+   You stand in a small office cluttered with parchments and books.  From here
+you can send a message to another character for a small fee.    
+~
+65 c h 0 0 0
+D3
+~
+~
+0 0 6542 0 0 0 0 0 0 0 0
+S
+#6545
+The Trade Board~
+   This room serves as a trade center for all of Sanction.  Here anyone can put
+an item or service up for sale, and place want ads as well.  Many ads fill the
+bulletin board showing some signs of black market activity.    
+~
+65 c h 0 0 0
+D0
+~
+~
+0 0 6542 0 0 0 0 0 0 0 0
+S
+#6546
+Usurpers Row~
+   Piles of litter and refuse line the sides of this street through the Central
+Slum of Sanction.  Deteriorated structures sit next to newer, but less
+structurally sound buildings.  The street twists and turns where buildings were
+built haphazardly in the path of the older street.  Children peer out
+cautiously from broken windows and doors.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6526 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3052 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6547 0 0 0 0 0 0 0 0
+S
+#6547
+Usurpers Row~
+   Piles of litter and refuse line the sides of this street through the Central
+Slum of Sanction.  Deteriorated structures sit next to newer, but less
+structurally sound buildings.  The street twists and turns where buildings were
+built haphazardly in the path of the older street.  Children peer out
+cautiously from broken windows and doors.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6546 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6548 0 0 0 0 0 0 0 0
+S
+#6548
+Usurpers Row~
+   Piles of litter and refuse line the sides of this street through the Central
+Slum of Sanction.  Deteriorated structures sit next to newer, but less
+structurally sound buildings.  The street twists and turns where buildings were
+built haphazardly in the path of the older street.  Children peer out
+cautiously from broken windows and doors.    
+~
+65 0 h 0 0 1
+D2
+~
+~
+0 0 6549 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6547 0 0 0 0 0 0 0 0
+S
+#6549
+The Slave Market~
+   Humans and elves shuffle by with their heads down with chains linking their
+feet, as a large ogre stands watching gleefully with a large whip in hand.  A
+podium stands, raised about three feet into the air, and some slaves are being
+auctioned.  Cells line the western side of the street.  Occasional whimpers can
+be heard above the din of the auctioneer.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6548 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6550 0 0 0 0 0 0 0 0
+S
+#6550
+The Slave Market~
+   Humans and elves shuffle by with their heads bent in submission, chains
+linking each ankle.  Cells line the western side of the street.  Whimpers can
+be faintly heard above the noise of the eager purchasers of slaves.  A huge,
+raised platform used to sell the slaves stands east.
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6551 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 0 6595 0 0 0 0 0 0 0 0
+S
+#6551
+Intersection of Usurpers Row and Sailor's Alley~
+   Two streets intersect here.  One twisting off to the north, and the other
+leading east and west from here.  Far to the west, the topsail of ships are
+visible in the harbor.  Far to the east, the top of the Temple of Duerghast
+looms up before you.  Children in dirty rags glance wearily at you as they pick
+through the garbage.  The unmistakable pungent odor of tanneries and fish
+markets assaults your nostrils.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6550 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 14211 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6552 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6554 0 0 0 0 0 0 0 0
+S
+#6552
+Sailor's Alley~
+   Dilapidated warehouses line this narrow alley.  The doors are broken off
+most of the houses, but a few seem to still be in use.  The pungent smell of
+tanneries and a fish market reminds you that the sea lies not far to the west.
+Swarthy looking sailors walk by, eyeing your valuables, while a few stumble by,
+drunk from the potent liquor served in the bars of the port.  You can make out
+seagulls circling to the west.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6551 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6553 0 0 0 0 0 0 0 0
+S
+#6553
+Sailor's Alley~
+   Dilapidated warehouses line this narrow alley.  The doors are broken off
+many of the houses, and the windows are just empty holes in the walls of the
+buildings.  The aroma of raw fish stings your nose.  Swarthy looking sailors
+walk by, many stumbling badly from too much drink.  The alley continues to the
+east and west from here.    
+~
+65 c h 0 0 1
+D3
+~
+~
+0 0 6504 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6552 0 0 0 0 0 0 0 0
+S
+#6554
+The Southern Lane through the Slums~
+   A heavy film of mist hangs about the area, caused by the contact of the warm
+air rising off the lava river to the south, and the cooler, damp winds from the
+harbor.  The houses which stand side by side on both sides of the street are
+made from the thin bark of trees found on the foothills of the mountains to the
+north and east of town.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6555 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6551 0 0 0 0 0 0 0 0
+S
+#6555
+The Southern Lane through the Slums~
+   The houses lining the street here are made of a thin type of bark found on
+trees which grow in the foothills of the nearby mountains.  A heavy bank of fog
+covers the entire area, caused by the contact of warm air, rising from the lava
+river to the south, and the cooler, damper air pushed into town by the winds of
+the Newsea.  The hissing of the lava rises in your ears.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6556 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6554 0 0 0 0 0 0 0 0
+S
+#6556
+The Southern Lane through the Slums~
+   A heavy film of mist hangs about the area, caused by the contact of the warm
+air rising off the lava river to the south, and the cooler, damper winds from
+the harbor.  The houses which stand side by side on both sides of the street
+are made of the thin bark of trees found on the foothills of the mountains to
+the north and east of town.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6557 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6555 0 0 0 0 0 0 0 0
+S
+#6557
+The Southern Lane through the Slums~
+   The houses lining the street here are made of a thin type of bark found on
+the trees which grow in the foothills of the nearby mountains.  A heavy bank of
+fog covers the entire area, caused by the contact of warm air, rising from the
+lava river to the south, and the cooler, damper air pushed into town by the
+winds of the Newsea.  The hissing of the lava rises in your ears.  The entrance
+to the Temple of Duerghast is southeast.    
+~
+65 0 h 0 0 1
+D3
+~
+~
+0 0 6556 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6558 0 0 0 0 0 0 0 0
+S
+#6558
+Highlord's Thoroughfare~
+   This path through the city looks much newer than other parts of Sanction.  
+The cobbled street seems to be recently redone.  On the east side of the
+street, larger buildings, in much better condition than those on the western
+side of the street, are the homes of high officers in the Dark Queen's armies.
+The commoners stay well to the west side of the road as they pass.    
+~
+65 0 h 0 0 1
+D7
+~
+~
+0 0 6559 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6557 0 0 0 0 0 0 0 0
+S
+#6559
+Highlord's Thoroughfare~
+   This street through the city is much newer than other parts of the city.  
+The streets are cobbled and seem to have been recently redone.  On the west
+side of the street, the buildings are similar to those in other parts of the
+slums.  On the eastern side of the street, larger houses are present, which are
+obviously the residences of high officers of the Dragonarmy.  The commoners
+stay well to the west side of this thoroughfare.    
+~
+65 0 h 0 0 1
+D7
+~
+~
+0 0 6560 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6558 0 0 0 0 0 0 0 0
+S
+#6560
+Highlord's Thoroughfare~
+   This path through the city looks much newer than other parts of Sanction.  
+The cobbled streets seem to have been recently redone.  The eastern side of the
+street is lined by larger buildings, which are in much better condition than
+those on the western side of the street, and are the homes of high officers in
+the Dark Queen's armies.  The common people stay well away from these houses.
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6561 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6559 0 0 0 0 0 0 0 0
+S
+#6561
+Highlord's Thoroughfare~
+   This street through the city is much newer than other parts of the city.  
+The streets are cobbled and seem to have been recently redone.  On the west
+side of the street, the buildings are similar to those in other parts of the
+slums of the city.  On the eastern side of the street, an enchanting obsidian
+walkway cuts between the large houses, which are owned by the elite residents
+of Sanction.  The peasants steer well clear of these homes.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6562 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1667 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6560 0 0 0 0 0 0 0 0
+S
+#6562
+Highlord's Thoroughfare~
+   This path through the city looks newer than other parts of Sanction.  The
+cobbled streets seem to have been recently redone.  The eastern side of the
+street is lined by larger buildings, which are in much better condition than
+those on the western side of the street, and are the homes of high officers in
+the Dark Queen's armies.  The common people stay well away from these larger
+houses.  Typical homes of the peasants stand on the western side of the street.
+Directly to the east is the large complex which serves as the Dragonarmy's
+Sanction-based outpost.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6563 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6561 0 0 0 0 0 0 0 0
+S
+#6563
+Highlord's Thoroughfare~
+   This street through the city is much newer than other parts of the city.  
+The streets are cobbled and seem to have been recently redone.  On the western
+side of the street, the buildings are similar to those in other parts of the
+slums of the city.  On the eastern side of the street, larger houses are
+present, which are obviously the residences of high officers in the Queen's
+Army.  The peasants stay well away from these larger homes.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6564 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6562 0 0 0 0 0 0 0 0
+S
+#6564
+Highlord's Thoroughfare~
+   This path through the city is much newer than other parts of the city.  The
+cobbled streets seem to have been recently redone.  The eastern side of the
+street is lined by larger buildings, made of much better materials than those
+on the western side of the street.  These larger houses are the homes of high
+officers in the Dark Queen's armies.  The common people stay well away from the
+larger homes of the officers.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6565 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6563 0 0 0 0 0 0 0 0
+S
+#6565
+The Central Street of Sanction~
+   Deteriorated buildings mingle with new, but poorly constructed buildings
+along this street.  The central area of the city, separated into two unequal
+portions by the largest lava flow, is a maze of slums, frequented by the
+dragonarmy forces.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6574 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6580 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6564 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6566 0 0 0 0 0 0 0 0
+S
+#6566
+The Central Street of Sanction~
+   Deteriorated buildings mingle with new, but poorly constructed buildings
+along this street.  The central area of the city, separated into two unequal
+portions by the largest lava flow, is a maze of slums, frequented by the
+dragonarmy forces.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6565 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6567 0 0 0 0 0 0 0 0
+S
+#6567
+The Central Street of Sanction~
+   Deteriorated buildings mingle with new, but poorly constructed buildings
+along this street.  The central area of the city, separated into two unequal
+portions by the largest lava flow, is a maze of slums, frequented by the
+dragonarmy forces.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6566 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6568 0 0 0 0 0 0 0 0
+S
+#6568
+The Central Street of Sanction~
+   Ahead of you in this crowded city you can see the central plaza of Sanction.
+Lined with shops and an inn, you can view the three major structures that are
+set apart from the city.  These are the temples of Sanction, seen as they rise
+on their respective volcanoes, separated from the chaos of the city by an open
+area.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6567 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6529 0 0 0 0 0 0 0 0
+S
+#6569
+A Nameless Street through Sanction~
+   Refuse lies outside the doors of the shabby houses which line the sides of
+this street through the Central Slums.  Children peer from second story
+windows, and smile when you pass.  A Dragonarmy soldier lazily strolls by,
+shrugging dust off his cloak.  The sound of a whip is audible in the distance.
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6570 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6511 0 0 0 0 0 0 0 0
+S
+#6570
+A Nameless Street through Sanction~
+   Refuse lines the sides of the street, where children play.  Shabby houses
+stand side by side before you along this makeshift path through the Central
+Slums.  A Dragonarmy soldier lazily strolls by, and kicks a cat which has the
+audacity to get in his way.  The crack of a whip on flesh, followed by a yelp,
+sounds to the south.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6571 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6569 0 0 0 0 0 0 0 0
+S
+#6571
+A Nameless Street through Sanction~
+   Refuse lies outside the doors of the shabby houses which line the sides of
+this street through the Central Slums.  Children peer from second story
+windows, and smile as you pass.  Soldiers of the occupying Dragonarmy calmly
+stride by.  A stone bridge over the lava river lies to the northeast.    
+~
+65 0 h 0 0 1
+D2
+~
+~
+0 0 6570 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6572 0 0 0 0 0 0 0 0
+S
+#6572
+A Narrow Stone Bridge over the Lava Flow~
+   A huge stone bridge spans the lava river which surrounds the town.  The lava
+sends a reddish glow upon the sides of the bridge.  Guards slouch over the side
+of the bridge, throwing over bits of cloth and wood, and watching them burn.  
+A few peasants walk along the bridge travelling from the northern slums to the
+central slum.    
+~
+65 0 h 0 0 1
+D6
+~
+~
+0 0 6573 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6571 0 0 0 0 0 0 0 0
+S
+#6573
+Before a Stone Bridge~
+   A huge stone bridge runs to the southeast, over the lava river which
+surrounds all of Sanction proper.  Dragonarmy guards patrol the bridge
+constantly.  To the north, a rough road leads into the northern section of the
+town, consisting of an area where the living conditions are even worse than
+that in the central city.    
+~
+65 c h 0 0 1
+D0
+~
+~
+0 0 6600 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6572 0 0 0 0 0 0 0 0
+S
+#6574
+A Narrow Street through the Slums~
+   Dilapidated houses stand side by side on both sides of the street.  
+Peasants traverse this street in large groups for greater safety from the
+dangers of the city.  Some slip into doorways and stay there until you pass.  
+Smoke billows from the volcanoes far above and to the north of you.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6575 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6565 0 0 0 0 0 0 0 0
+S
+#6575
+A Narrow Street through the Slums~
+   Peasants traverse this street in groups, almost running in fear at your
+approach.  Dilapidated houses stand in rows along both sides of the street.  
+An occasional soldier from the Dark Queen's army walks by, causing the
+commoners to shrink even further away from the streets.  Rumbling from above
+and to the north of you signals the activity of the volcanoes.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6576 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6574 0 0 0 0 0 0 0 0
+S
+#6576
+A Narrow Street through the Slums~
+   Dilapidated houses stand side by side on both sides of the street.  
+Peasants traverse this street in large groups for greater safety from the
+dangers of the city.  Some slip into doorways and stay there till you pass.  
+Smoke billows from the volcanoes far above and to the north of you.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6577 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6575 0 0 0 0 0 0 0 0
+S
+#6577
+A Narrow Street through the Slums~
+   Peasants traverse this street in groups.  They don't look up as you pass,
+and try to move as far out of your way as they can.  Dilapidated houses stand
+side by side along this north-south street.  Rumbling coming from far above
+gives you notice that the volcanoes are still very active.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6578 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6576 0 0 0 0 0 0 0 0
+S
+#6578
+A Narrow Street through the Slums~
+   Peasants traverse this street in groups.  They don't look up as you pass,
+and try to move as far away from you as they can.  Dilapidated houses stand
+side by side on both sides of the street.  Rumbling far above and north of you
+signals the activity of the unpredictable volcanoes.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6579 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6577 0 0 0 0 0 0 0 0
+S
+#6579
+A Narrow Stone Bridge over the Lava River~
+   A huge stone bridge spans the lava river which surrounds the town.  The lava
+sends a reddish glow upon the sides of the bridge.  Guards slouch over the side
+of the bridge, pondering their fate if their masters decided to throw them
+over.  One of the guards throws a piece of cloth over and cringes as it burns
+into ash instantaneously.  A few peasants walk along the bridge travelling from
+the northern slums to the central slum and back.    
+~
+65 c h 0 0 1
+D0
+~
+~
+0 0 6656 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6578 0 0 0 0 0 0 0 0
+S
+#6580
+The Central Street of Sanction~
+   Deteriorated buildings mingle with new, but poorly constructed buildings
+along this street.  The central area of the city, separated into two unequal
+portions by the largest lava flow, is a maze of slums, frequented by the
+dragonarmy forces.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6581 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6565 0 0 0 0 0 0 0 0
+S
+#6581
+Entering the Business District of Sanction~
+   This section of the city is much cleaner and more sanitary than most of
+Sanction.  The occasional passing goblin adds to the mess, and garners a
+disgusted glance from the other people nearby.  Merchants show off their wares
+from streetside booths, calling out to passersby in loud, throaty voices.  
+Most of the people here are well dressed, and obviously wealthy, though a few
+poor people from the slums beg at corners.    
+~
+65 c h 0 0 1
+D1
+~
+~
+0 0 6582 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6580 0 0 0 0 0 0 0 0
+S
+#6582
+Entering the Business District of Sanction~
+   This section of the city is much cleaner and more sanitary than most of
+Sanction.  The occasional goblin or draconian passes, producing wary glances
+from the people milling about.  Merchants show off their wares from streetside
+booths, calling out to passersbys in loud, throaty voices.  Most of the people
+here are well dressed, and obviously wealthy, though a few poor people from the
+slums beg at corners.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6583 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6581 0 0 0 0 0 0 0 0
+S
+#6583
+The Business District of Sanction~
+   This section of the city is much cleaner and more sanitary than most of
+Sanction.  The occasional goblin or draconian passes, garnering a wary glance
+from the people milling about.  Merchants show off their wares from streetside
+booths, calling out to passersby in loud, throaty voices.  Most of the people
+here are well dressed, and obviously wealthy, though a few poor people from the
+slums beg at corners.    
+~
+65 0 h 0 0 1
+D1
+~
+~
+0 0 6584 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6582 0 0 0 0 0 0 0 0
+S
+#6584
+The Business District of Sanction~
+   This section of the city is much cleaner and more sanitary than most of
+Sanction.  The occasional goblin or draconian passes, garnering a wary glance
+from the people milling about.  Merchants show off their wares from streetside
+booths, calling out to passersby in loud, throaty voices.  Most of the people
+here are well dressed, and obviously wealthy, though a few poor people from the
+slums beg at corners.  Northeast, a stone bridge leads out of Sanction, and
+north and west the Business District continues.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6586 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6583 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 1600 0 0 0 0 0 0 0 0
+S
+#6585
+Within the Captains Quarters~
+   Upon entering the captain's chambers you are momentarily taken aback in
+surprise.  The evidence of this ship being out of the ordinary becomes all the
+more clear.  Rows upon rows of shelves are filled with glass vials, small jars
+of herbs, and other strange and exotic miscelanea.    
+~
+65 c h 0 0 0
+D0
+~
+~
+0 0 6502 0 0 0 0 0 0 0 0
+S
+#6586
+The Business District of Sanction~
+   This section of the city is much cleaner and more sanitary than most of
+Sanction.  The occasional goblin or draconian passes, garnering a wary glance
+from the people milling about.  Merchants show off their wares from streetside
+booths, calling out to passersbys in loud, throaty voices.  Most of the people
+here are well dressed, and obviously wealthy, though a few poor people from the
+slums beg at street corners.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6587 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6584 0 0 0 0 0 0 0 0
+S
+#6587
+The Business District of Sanction~
+   This section of the city is much cleaner and more sanitary than most of
+Sanction.  The occasional goblin or draconian passes, gaining a wary look from
+the people strolling by.  Merchants show off their wares from streetside
+booths, calling out to passersbys in loud, throaty voices.  Most of the people
+here are well dressed, and obviously wealthy, though a few poor people from the
+slums beg at street corners.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6588 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6586 0 0 0 0 0 0 0 0
+S
+#6588
+The Business District of Sanction~
+   This section of the city is much cleaner and more sanitary than most of
+Sanction.  The occasional draconian or goblin passes, gaining a wary look from
+the people milling about.  Merchants show off their wares from streetside
+booths, calling out to passersbys in loud, throaty voices.  Most of the people
+here are well dressed, and obviously wealthy, though a few poor people from the
+slums beg at street corners.  To the north a massive stone bridge leads out of
+Sanction.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 6589 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6587 0 0 0 0 0 0 0 0
+S
+#6589
+A Stone Bridge over the Lava River~
+  A huge stone bridge spans the lava river here.  The lava sends a pale
+reddish glow upon the sides of the bridge.  Guards stand at attention, blocking
+entry into Sanction to all those unwise enough to attempt to enter unwarranted.
+You can see tents and troops of the Dragonarmy outside the city to the north
+and east, and can barely make out the Temple of Luerkhisis a distance to the
+northeast.    
+~
+65 0 h 0 0 1
+D0
+~
+~
+0 0 5391 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6588 0 0 0 0 0 0 0 0
+S
+#6590
+The Policy Board~
+   A large brown board is set here for residents of the Inn to post their
+messages in and of the world.  A small bench rests near the board for those
+reading the notes to rest their weary feet, but in front of it stands a
+guardsman, scowling at any who try to sit there.  This particular area is set
+up for who wish to know the laws of the land.    
+~
+65 0 h 0 0 0
+D0
+~
+~
+0 0 6540 0 0 0 0 0 0 0 0
+S
+#6591
+Outside Some Board Rooms~
+   This hallway has been designed for the high traffic of those seeking
+information from one of the many board rooms.  Travellers and citizens alike
+come from all around to read about the events of far off lands, and the degrees
+of those who are in a position of power.  A sturdy staircase leads down to the
+ground level which contains other bulletin boards.    
+~
+65 c h 0 0 0
+D1
+~
+~
+0 0 6593 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6592 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6540 0 0 0 0 0 0 0 0
+S
+#6592
+Crimes Against Sanction~
+   A large slab of slate rests against the wall here for residents of the Inn
+to post their messages.  The stump of a tree stands in the corner, often used
+as a stool to rest upon while reading.  A slew of messages are stuck to the
+slate board, detailing the various crimes leveled upon Sanction and her
+citizens.    
+~
+65 c h 0 0 0
+D1
+~
+~
+0 0 6591 0 0 0 0 0 0 0 0
+S
+#6593
+The Bug Board~
+   A large slab of slate rests against the wall here for residents of the Inn
+to post their messages.  The stump of a tree stands in the corner, often used
+as a stool to rest upon while reading.  A slew of messages are stuck to the
+slate board, detailing some problems with the game world.    
+~
+65 0 h 0 0 0
+D3
+~
+~
+0 0 6591 0 0 0 0 0 0 0 0
+S
+#6594
+Floating in Thin Air~
+   You are floating in thin air.  The only obvious way to travel from here is
+down into the world of Krynn.  You have not yet become corporeal, but will be
+soon, if you measure up.  Please read the help newbie files and see the policy
+board to make your stay a good one.    
+~
+65 dh h 0 0 0
+D5
+~
+~
+0 0 6530 0 0 0 0 0 0 0 0
+S
+#6595
+Within a Dimly Lit Cell~
+   With the large amount of slaves being sold within the slave market, this
+cell is surprisingly empty.  Dimly lit walls show various signs of wear,
+ranging from dried blood to scratch marks of the attempts of past slaves to
+desperately escape.  The floor is covered in a thin layer of straw and leaves.
+~
+65 acfi h 0 0 0
+D1
+~
+cell~
+1 0 6550 0 0 0 0 0 0 0 0
+D5
+~
+trapdoor~
+1 0 6596 0 0 0 0 0 0 0 0
+S
+#6596
+An Old Wooden Staircase~
+   An old wooden staircase descends into an unknown darkness below.  The only
+sounds heard are those made by your footsteps on the wooden boards and the
+occasional scurrying of a small rodent.  The stairway offers no railing to help
+guide your journey, causing each step to be very undeterminable.    
+~
+65 0 h 0 0 0
+D4
+~
+trapdoor~
+1 0 6595 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6597 0 0 0 0 0 0 0 0
+S
+#6597
+At the Base of An Old Wooden Staircase~
+   A dirt path leads to the south into a brick-lined tunnel.  Small, dimly lit
+torches line the walls at 10 foot intervals, causing it to glow calmly.  The
+sound of many voices is audible from deeper within the passageway.    
+~
+65 0 h 0 0 0
+D2
+~
+~
+0 0 6598 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6596 0 0 0 0 0 0 0 0
+S
+#6598
+A Brick-Lined Tunnel~
+   The distinct smell of mildew and moss is noticeable within this brick-lined
+tunnel.  Torches continue to lead the way towards an undisclosed location.  
+Voices echo throughout the area, becoming louder with each step taken to the
+south.    
+~
+65 0 h 0 0 0
+D0
+~
+~
+0 0 6597 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6599 0 0 0 0 0 0 0 0
+S
+#6599
+A Dead End~
+   The tunnel ends promptly at this point, yet the voices continue to grow
+louder.  Wooden planks jut down from the ceiling to the floor, completely
+blocking any further progress.  Small rays of light pierce through holes in the
+planks, implying that there is indeed something on the other side of the boards.
+~
+65 0 h 0 0 0
+D0
+~
+~
+0 0 6598 0 0 0 0 0 0 0 0
+D2
+~
+planks~
+1 0 7100 0 0 0 0 0 0 0 0
+S
+$~

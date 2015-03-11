@@ -1,0 +1,148 @@
+#60
+None.~
+Training Pits of Sanction~
+6000 6099 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  6004    10  6000   3    90     0    -1          0 a long slimy worm
+
+M 0  6004    10  6000   3    90     1    -1          0 a long slimy worm
+
+M 0  6008    10  6005   3    90     2    -1          0 a large brown bat
+
+M 0  6004    10  6005   3    90     3    -1          0 a long slimy worm
+
+M 0  6008    10  6009   3    90     4    -1          0 a large brown bat
+
+M 0  6007    10  6009   3    90     5    -1          0 a massive black spider
+
+M 0  6006    10  6009   3    90     6    -1          0 a large red-eyed rat
+
+M 0  6004    10  6009   3    90     7    -1          0 a long slimy worm
+
+M 0  6007    10  6010   3    90     8    -1          0 a massive black spider
+
+M 0  6006    10  6010   3    90     9    -1          0 a large red-eyed rat
+
+M 0  6004    10  6010   3    90    10    -1          0 a long slimy worm
+
+M 0  6008    10  6011   3    90    11    -1          0 a large brown bat
+
+M 0  6007    10  6011   3    90    12    -1          0 a massive black spider
+
+M 0  6007    10  6011   3    90    13    -1          0 a massive black spider
+
+M 0  6007    10  6011   3    90    14    -1          0 a massive black spider
+
+M 0  6007    10  6011   3    90    15    -1          0 a massive black spider
+
+M 0  6005    10  6011   3    90    16    -1          0 a large, black beetle
+
+M 0  6004    10  6011   3    90    17    -1          0 a long slimy worm
+
+M 0  6008    10  6014   3    90    18    -1          0 a large brown bat
+
+M 0  6007    10  6014   3    90    19    -1          0 a massive black spider
+
+M 0  6006    10  6014   3    90    20    -1          0 a large red-eyed rat
+
+M 0  6005    10  6014   3    90    21    -1          0 a large, black beetle
+
+M 0  6004    10  6014   3    90    22    -1          0 a long slimy worm
+
+M 0  6007    10  6015   3    90    23    -1          0 a massive black spider
+
+M 0  6005    10  6015   3    90    24    -1          0 a large, black beetle
+
+M 0  6004    10  6015   3    90    25    -1          0 a long slimy worm
+
+M 0  6006    10  6006   3    90    26    -1          0 a large red-eyed rat
+
+M 0  6004    10  6006   3    90    27    -1          0 a long slimy worm
+
+M 0  6009    10  6002   3    90    28    -1          0 a rotting skeleton
+
+E 1  6009   100    14   0    90    29    28          0 a bracer made of human skin
+
+M 0  6008    10  6002   3    90    30    -1          0 a large brown bat
+
+M 0  6007    10  6002   3    90    31    -1          0 a massive black spider
+
+M 0  6006    10  6002   3    90    32    -1          0 a large red-eyed rat
+
+M 0  6005    10  6002   3    90    33    -1          0 a large, black beetle
+
+M 0  6005    10  6002   3    90    34    -1          0 a large, black beetle
+
+M 0  6004    10  6002   3    90    35    -1          0 a long slimy worm
+
+M 0  6009    10  6003   3    90    36    -1          0 a rotting skeleton
+
+M 0  6008    10  6003   3    90    37    -1          0 a large brown bat
+
+M 0  6006    10  6003   3    90    38    -1          0 a large red-eyed rat
+
+M 0  6005    10  6003   3    90    39    -1          0 a large, black beetle
+
+M 0  6005    10  6003   3    90    40    -1          0 a large, black beetle
+
+M 0  6009    10  6016   3    90    41    -1          0 a rotting skeleton
+
+M 0  6008    10  6016   3    90    42    -1          0 a large brown bat
+
+M 0  6007    10  6016   3    90    43    -1          0 a massive black spider
+
+M 0  6005    10  6016   3    90    44    -1          0 a large, black beetle
+
+M 0  6008    10  6012   3    90    45    -1          0 a large brown bat
+
+M 0  6007    10  6012   3    90    46    -1          0 a massive black spider
+
+M 0  6007    10  6012   3    90    47    -1          0 a massive black spider
+
+M 0  6007    10  6012   3    90    48    -1          0 a massive black spider
+
+M 0  6006    10  6012   3    90    49    -1          0 a large red-eyed rat
+
+M 0  6005    10  6012   3    90    50    -1          0 a large, black beetle
+
+M 0  6009    10  6004   3    90    51    -1          0 a rotting skeleton
+
+M 0  6008    10  6004   3    90    52    -1          0 a large brown bat
+
+M 0  6006    10  6004   3    90    53    -1          0 a large red-eyed rat
+
+M 0  6005    10  6004   3    90    54    -1          0 a large, black beetle
+
+M 0  6009    10  6001   3    90    55    -1          0 a rotting skeleton
+
+E 1  6009   100    14   0    90    56    55          0 a bracer made of human skin
+
+M 0  6007    10  6001   3    90    57    -1          0 a massive black spider
+
+G 1   142   100     0   0   100    58    57          0 a bit of spider web
+
+M 0  6006    10  6001   3    90    59    -1          0 a large red-eyed rat
+
+M 0  6006    10  6007   3    90    60    -1          0 a large red-eyed rat
+
+M 0  6009    10  6017   3    90    61    -1          0 a rotting skeleton
+
+M 0  6008    10  6017   3    90    62    -1          0 a large brown bat
+
+M 0  6007    10  6017   3    90    63    -1          0 a massive black spider
+
+M 0  6006    10  6017   3    90    64    -1          0 a large red-eyed rat
+
+M 0  6009    10  6018   3    90    65    -1          0 a rotting skeleton
+
+M 0  6009    10  6019   3    90    66    -1          0 a rotting skeleton
+
+M 0  6009    10  6020   3    90    67    -1          0 a rotting skeleton
+
+M 0  6009    10  6021   3    90    68    -1          0 a rotting skeleton
+
+S
+$

@@ -1,0 +1,553 @@
+#3500
+Outside the Northeast Tower~
+   To the northeast is the entrance to the northeast tower of Thelgaard Keep.
+There are six of these towers throughout Thelgaard placed at strategic points.
+The towers are made of huge blocks of stone which are stacked and cemented
+together.  The towers reach almost one hundred feet into the air which allows
+them to oversee the lands surrounding the keep.    
+~
+35 c 0 0 0  1
+D2
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3499 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3520 0 0 0 0 0 0 0 0
+S
+#3501
+Inside a Training Area~
+   All around you are soldiers training to become knights and defenders of
+Thelgaard.  To the north is the Northeastern tower.  To the west are soldiers
+dueling and practicing their sword technique.  Directly to the west is the main
+dueling circle where the best soldiers duel it out for honors.    
+~
+35 0 0 0 0  1
+D0
+~
+~
+0 0 3500 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3507 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3502 0 0 0 0 0 0 0 0
+S
+#3502
+Dueling Circle~
+   You are standing in the main dueling circle of the training center.  This
+circle is nothing fancy, just a sand pit outlined by white paint.  Only the
+best swordsmen get to duel here.  At the moment there are two massive soldiers
+dueling it out with wooden weapons.    
+~
+35 0 0 0 0  1
+D0
+~
+~
+0 0 3499 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3506 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3503 0 0 0 0 0 0 0 0
+S
+#3503
+Inside a Training Area~
+   This is the training area for soldiers new and old.  A twenty foot fence
+surrounds this area.  To the east is a dueling circle with an instructor
+barking instructions.  To the north is an archery set-up where archers practice
+their aim.    
+~
+35 0 0 0 0  1
+D0
+~
+~
+0 0 3498 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3502 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3505 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3504 0 0 0 0 0 0 0 0
+S
+#3504
+Inside a Training Area~
+   This is the training area for soldiers new and old.  A twenty foot fence
+surrounds this area.  To the east is a dueling circle with an instructor
+barking instructions.  To the north is an archery set-up where archers practice
+their aim.    
+~
+35 0 0 0 0  1
+D0
+~
+~
+0 0 3497 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3503 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3491 0 0 0 0 0 0 0 0
+S
+#3505
+Inside a Training Area~
+   All around you are soldiers training to become knights and defenders of
+Thelgaard.  To the north is the Northeastern tower.  To the west are soldiers
+dueling and practicing their sword technique.  Directly to the west is the main
+dueling circle where the best soldiers duel it out for honors.    
+~
+35 0 0 0 0  1
+D0
+~
+~
+0 0 3503 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3506 0 0 0 0 0 0 0 0
+S
+#3506
+Inside a Training Area~
+   All around you are soldiers training to become knights and defenders of
+Thelgaard.  To the north is the Northeastern tower.  To the west are soldiers
+dueling and practicing their sword technique.  Directly to the west is the main
+dueling circle where the best soldiers duel it out for honors.    
+~
+35 0 0 0 0  1
+D0
+~
+~
+0 0 3502 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3507 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3505 0 0 0 0 0 0 0 0
+S
+#3507
+Inside a Training Area~
+   All around you are soldiers training to become knights and defenders of
+Thelgaard.  To the north is the Northeastern tower.  To the west are soldiers
+dueling and practicing their sword technique.  Directly to the west is the main
+dueling circle where the best soldiers duel it out for honors.    
+~
+35 0 0 0 0  1
+D0
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3506 0 0 0 0 0 0 0 0
+S
+#3508
+Inside a Large Building~
+   Standing inside the huge ancient oaken door you see many paintings adorning
+the walls of the hall to the north.  To the south is the Thelgaard Keep
+courtyard which consists of a market place and stables.  This building is said
+to be hundreds of years old and to have withstood the fiercest of attacks
+without ever being marked.    
+~
+35 d 0 0 0  0
+D0
+~
+~
+0 0 3509 0 0 0 0 0 0 0 0
+D2
+~
+door oaken south~
+1 0 3466 0 0 0 0 0 0 0 0
+S
+#3509
+A Short Hallway~
+   You are in a short hallway.  To the north you can see a stairway leading up.
+To the south are huge oaken doors leading back out to the courtyard.  To your
+right and left there are two oaken doors not nearly as large as the entrance
+way.    
+~
+35 d 0 0 0  0
+D0
+~
+~
+0 0 3510 0 0 0 0 0 0 0 0
+D1
+~
+door oaken east~
+1 0 3511 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3508 0 0 0 0 0 0 0 0
+D3
+~
+door oaken west~
+1 0 3513 0 0 0 0 0 0 0 0
+S
+#3510
+Stairs Leading Up~
+   You are standing at the base of a huge stone stairwell leading up to the top
+chambers where the most powerful knights and leaders make their homes.  There
+is said to be only four chambers in the upper chambers, each belonging to one
+knight of each order.  The fourth chamber is said to belong to the keeps holy
+cleric.    
+~
+35 d 0 0 0  0
+D2
+~
+~
+0 0 3509 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3515 0 0 0 0 0 0 0 0
+S
+#3511
+The War Room~
+   During times of war this is where the most important talks take place.  
+This is a room large enough to hold many generals and knights.  There are huge
+map holders located on the walls.  There is also a huge scrying pool for a
+white robe that might be in the area helping out.    
+~
+35 0 0 0 0  0
+D1
+~
+door oaken east~
+0 0 -1 0 0 0 0 0 0 0 0
+D3
+~
+door oaken west~
+1 0 3509 0 0 0 0 0 0 0 0
+S
+#3512
+A Large Stairwell Leading Down~
+You are in a room.
+~
+35 0 0 0 0  0
+D0
+~
+~
+0 0 3511 0 0 0 0 0 0 0 0
+S
+#3513
+A Meeting Room~
+   This room looks to be where the leaders of Thelgaard come and meet to make
+their plans.  Whether political plans or military they happen here in this
+room.  There is a smaller room to the south of this one.    
+~
+35 0 0 0 0  0
+D1
+~
+door oaken east~
+1 0 3509 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3514 0 0 0 0 0 0 0 0
+S
+#3514
+The Map Room~
+   This room has no furniture or places to sit but is decorated with many maps.
+The walls are lined with maps dating from thousands of years old to recent
+ones.  The back wall is just one huge map holder which looks to hold hundreds
+more maps.  You can only wonder what treasures could be revealed by some of
+these maps.    
+~
+35 0 0 0 0  0
+D0
+~
+~
+0 0 3513 0 0 0 0 0 0 0 0
+S
+#3515
+Top of a Staircase~
+   You have made your way to the top of the staircase.  There are four doorways
+here each leading in a different direction.  None have any markings although
+all could certainly lead to trouble if your not ready.  The room to the south
+looks to have a soft glow coming from underneath the door.    
+~
+35 d 0 0 0  0
+D0
+~
+door north~
+1 0 3516 0 0 0 0 0 0 0 0
+D1
+~
+door east~
+1 0 3517 0 0 0 0 0 0 0 0
+D2
+~
+door south~
+1 0 3518 0 0 0 0 0 0 0 0
+D3
+~
+door west~
+1 0 3519 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3510 0 0 0 0 0 0 0 0
+S
+#3516
+Knight of the Rose Room~
+   This is the Knight of the Roses' room.  This room is highly decorated with
+ancient artifacts including battle badges from dead relatives.  There is a huge
+black oak desk sitting in the left hand corner of the room.  The only way to
+describe this desk is amazing.  It has carvings of roses all over it.  The
+knight of the rose has a very large bed in this room and a large closet filled
+with clothes and armor.    
+~
+35 d 0 0 0  0
+D2
+~
+door south~
+1 0 3515 0 0 0 0 0 0 0 0
+S
+#3517
+Knight of the Crowns Room~
+   This is the Knight of the Crown's room.  There are many sets of armor
+sitting about the room with quite a few swords and daggers.  To your right is a
+bed with black and white sheets and straight in front of you is a desk with a
+pen and parchment sitting on it.  To your left is a small closet that doesn't
+seem to have much in the way of clothing in it.    
+~
+35 d 0 0 0  0
+D3
+~
+door west~
+1 0 3515 0 0 0 0 0 0 0 0
+S
+#3518
+High Cleric's Room~
+   This room is decorated with many holy relics.  There is a huge mural of a
+platinum dragon painted on the wall south of you.  There is a small indescript
+bed to the east.  A small closet to the west shows many sets of robes and a few
+battle maces.    
+~
+35 d 0 0 0  0
+D0
+~
+door north~
+1 0 3515 0 0 0 0 0 0 0 0
+S
+#3519
+Knight of the Swords Room~
+   This is the Knight of the Swords room.  There is a large oak desk straight
+in front of you with papers scattered about it.  To yourr left is a small bed
+with blue sheets and white pillows.  To you right is a very large closet that
+looks to hold an extra set of armor and a few swords.  Also in the closet is a
+few plain leather jerkins.    
+~
+35 d 0 0 0  0
+D1
+~
+door east~
+1 0 3515 0 0 0 0 0 0 0 0
+S
+#3520
+The Bottom of the Northeast Tower~
+   You are standing at the bottom of one of Thelgaards six towers.  There are
+torches lighting this stairwell leading up to the watchout towers.  The towers
+are strategically place throughout the keep to warn of any attack and to offer
+amazing defenses.    
+~
+35 d 0 0 0  0
+D4
+~
+~
+0 0 3526 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3500 0 0 0 0 0 0 0 0
+S
+#3521
+The Bottom of the East Tower~
+   You are standing at the bottom of one of Thelgaards six towers.  There are
+torches lighting this stairwell leading up to the watchout towers.  The towers
+are strategically place throughout the keep to warn of any attack and to offer
+amazing defenses.    
+~
+35 d 0 0 0  0
+D4
+~
+~
+0 0 3527 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3438 0 0 0 0 0 0 0 0
+S
+#3522
+The Bottom of the Southeast Tower~
+   You are standing at the bottom of one of Thelgaards six towers.  There are
+torches lighting this stairwell leading up to the watchout towers.  The towers
+are strategically place throughout the keep to warn of any attack and to offer
+amazing defenses.    
+~
+35 d 0 0 0  0
+D4
+~
+~
+0 0 3528 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3414 0 0 0 0 0 0 0 0
+S
+#3523
+The Bottom of the Southwest Tower~
+   You are standing at the bottom of one of Thelgaards six towers.  There are
+torches lighting this stairwell leading up to the watchout towers.  The towers
+are strategically place throughout the keep to warn of any attack and to offer
+amazing defenses.    
+~
+35 d 0 0 0  0
+D4
+~
+~
+0 0 3529 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3410 0 0 0 0 0 0 0 0
+S
+#3524
+The Bottom of the West Tower~
+   You are standing at the bottom of one of Thelgaards six towers.  There are
+torches lighting this stairwell leading up to the watchout towers.  The towers
+are strategically place throughout the keep to warn of any attack and to offer
+amazing defenses.    
+~
+35 d 0 0 0  0
+D4
+~
+~
+0 0 3530 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3441 0 0 0 0 0 0 0 0
+S
+#3525
+The Bottom of the Northwest Tower~
+   You are standing at the bottom of one of Thelgaards six towers.  There are
+torches lighting this stairwell leading up to the watchout towers.  The towers
+are strategically place throughout the keep to warn of any attack and to offer
+amazing defenses.    
+~
+35 d 0 0 0  0
+D4
+~
+~
+0 0 3531 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3485 0 0 0 0 0 0 0 0
+S
+#3526
+Upper Level of the Northeast Tower~
+   Standing at the top of one of Thelgaard Keep's six towers you can see for
+miles.  The towers were designed with the idea of being able to see for great
+distances while still offering maximum protection.  There are holes in the
+walls for archers to shoot out of that come in very handy.    
+~
+35 d 0 0 0  0
+D5
+~
+~
+0 0 3520 0 0 0 0 0 0 0 0
+S
+#3527
+Upper Level of the East Tower~
+   Standing at the top of one of Thelgaard Keep's six towers you can see for
+miles.  The towers were designed with the idea of being able to see for great
+distances while still offering maximum protection.  There are holes in the
+walls for archers to shoot out of that come in very handy.    
+~
+35 d 0 0 0  0
+D5
+~
+~
+0 0 3521 0 0 0 0 0 0 0 0
+S
+#3528
+Upper Level of the Southeast Tower~
+   Standing at the top of one of Thelgaard Keep's six towers you can see for
+miles.  The towers were designed with the idea of being able to see for great
+distances while still offering maximum protection.  There are holes in the
+walls for archers to shoot out of that come in very handy.    
+~
+35 d 0 0 0  0
+D5
+~
+~
+0 0 3522 0 0 0 0 0 0 0 0
+S
+#3529
+Upper Level of the Southwest Tower~
+   Standing at the top of one of Thelgaard Keep's six towers you can see for
+miles.  The towers were designed with the idea of being able to see for great
+distances while still offering maximum protection.  There are holes in the
+walls for archers to shoot out of that come in very handy.    
+~
+35 d 0 0 0  0
+D5
+~
+~
+0 0 3523 0 0 0 0 0 0 0 0
+S
+#3530
+Upper Level of the West Tower~
+   Standing at the top of one of Thelgaard Keep's six towers you can see for
+miles.  The towers were designed with the idea of being able to see for great
+distances while still offering maximum protection.  There are holes in the
+walls for archers to shoot out of that come in very handy.    
+~
+35 d 0 0 0  0
+D5
+~
+~
+0 0 3524 0 0 0 0 0 0 0 0
+S
+#3531
+Upper Level of the Northwest Tower~
+   Standing at the top of one of Thelgaard Keep's six towers you can see for
+miles.  The towers were designed with the idea of being able to see for great
+distances while still offering maximum protection.  There are holes in the
+walls for archers to shoot out of that come in very handy.    
+~
+35 d 0 0 0  0
+D5
+~
+~
+0 0 3525 0 0 0 0 0 0 0 0
+S
+$

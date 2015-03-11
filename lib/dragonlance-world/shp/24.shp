@@ -1,0 +1,48 @@
+CircleMUD v3.0 Shop File~
+#2495~
+64024
+64020
+64021
+64022
+64023
+64017
+64025
+64014
+64029
+64030
+64028
+64027
+64005
+64004
+64010
+64007
+64002
+64000
+64015
+64016
+64031
+64032
+-1
+1.00
+1.00
+45
+41
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %s coins, thanks.~
+%s I'll give you %s coins for that.~
+0
+0
+2426
+0 0 0 0
+2495
+-1
+0
+28
+0
+0
+$~

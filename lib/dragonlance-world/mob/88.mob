@@ -1,0 +1,252 @@
+#8800
+raven midnight black~
+a midnight black raven~
+Crowing loudly, this midnight black raven flies about in the air.
+~
+   Feathers of deep black line this bird's body, black even melting color onto
+the beak.  Two black eyes may seem to look at you, no matter where the bird
+looks.    
+~
+d 0 0 0 k 0 0 0 -900
+12 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8801
+man old deranged~
+a deranged old man~
+A deranged old man rants about something or other right here...
+~
+   Rambling on about something or other, this old man most likely seems an
+annoyance.  Every so often, he pulls out some of what hair he still has.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8802
+goblin torn fur~
+a goblin in torn fur~
+A goblin in torn fur looks towards the east.
+~
+   Torn animal furs more stain this one than can be considered as clothes.    
+~
+d 0 0 0 k 0 0 0 -900
+16 20 7 24d100+152 1d8+0
+15 0 41 9
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8805
+footpad smirking~
+a smirking footpad~
+A footpad smirks as he patrols the path.
+~
+   Cracking leather armor covers his torso and arms, though his legs are
+exposed.  Short black hair is held in check by a bandana.    
+~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8811
+horse aging brown~
+an aging brown horse~
+Refusing to drink, this aging brown horse just stands here.
+~
+   This horse just stands here, staring at either the wagon-driver or the
+stream.  It has been lead to water, but apparently the man couldn't make him
+drink.    
+~
+d 0 0 0 k 0 0 0 0
+11 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8825
+giant spider~
+a giant spider~
+A giant spider spins a web here.
+~
+   A giant spider of immense proportions spins a web here.  Eight furry black
+legs that end in spike like talons scurry back and forth over the finished
+portions.  A hardened exoskeleton protects its backside as well as any full
+plate made in Ansalon.    
+~
+d g 0 0 k 0 0 0 0
+30 -4 -42 18000d300+120 1d8+24
+15 0 108 3
+8 8 1
+E
+Str: 19
+E
+Dex: 16
+E
+Int: 14
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 14
+S
+#8826
+mound trash~
+a mound of trash~
+A mound of trash stirs as the door is opened.
+~
+   An undistinguishable mound covered in trash and debris stands before you.  
+Green mottled skin can be seen between gaps of rotting refuse.  Clutched in one
+clawed hand is the leg bone of some unfortunate soul.    
+~
+d 0 0 0 k 0 0 0 -900
+30 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8827
+goblin short~
+a short goblin~
+A short goblin holds a tray out before it.
+~
+   A short goblin carries a tray of torture devices.  A cruel smile adorns a
+lopsided scarred face.  Cackling derangely he selects an item from the tray and
+holds it out to the man before him.    
+~
+d 0 0 0 k 0 0 0 -1000
+26 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8835
+spider red small~
+a small red spider~
+a small red spider scurries underfoot.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+10 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8837
+spider large red black~
+a large red and black spider~
+A large red and black spider spins a web here.
+~
+An undefined string.~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

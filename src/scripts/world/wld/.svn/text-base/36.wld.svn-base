@@ -1,0 +1,984 @@
+#3600
+At the Top of a Crumbling Spiral Staircase~
+Water rushes down from the open trapdoor above creating a distant roar as it
+reaches the bottom of this dark descent.  The ancient stone of this once
+grandiose stairwell has fallen into ruin.  All along the downward path, bits and
+pieces of almost every step are missing, having fallen away some time ago.  
+Great care must be taken to traverse this wretched way, lest one should join
+them.  
+~
+36 acdfg 0 0 0 0
+D4
+~
+~
+0 0 3510 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3601 0 0 0 0 0 0 0 0
+S
+#3601
+On a Crumbling Spiral Staircase~
+Dampness fills the air of this long-forgotten passage.  The ancient stone of
+this once grandiose stairwell has fallen into ruin.  All along the downward
+spiral, bits and pieces of almost every step are missing, having fallen away
+some time ago.  Great care must be taken to traverse this wretched way, lest one
+should join them.  
+~
+36 adfgC 0 0 0 0
+D4
+~
+~
+0 0 3600 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3602 0 0 0 0 0 0 0 0
+S
+#3602
+On a Crumbling Spiral Staircase~
+Dampness fills the air of this long-forgotten passage.  The ancient stone of
+this once grandiose stairwell has fallen into ruin.  All along the downward
+spiral, bits and pieces of almost every step are missing, having fallen away
+some time ago.  Great care must be taken to traverse this wretched way, lest one
+should join them.  
+~
+36 adfgC 0 0 0 0
+D4
+~
+~
+0 0 3601 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3603 0 0 0 0 0 0 0 0
+S
+#3603
+On a Crumbling Spiral Staircase~
+Dampness fills the air of this long-forgotten passage.  The ancient stone of
+this once grandiose stairwell has fallen into ruin.  All along the downward
+spiral, bits and pieces of almost every step are missing, having fallen away
+some time ago.  Great care must be taken to traverse this wretched way, lest one
+should join them.  
+~
+36 adfgC 0 0 0 0
+D4
+~
+~
+0 0 3602 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3604 0 0 0 0 0 0 0 0
+S
+#3604
+At the Bottom of a Crumbling Spiral Staircase~
+This small chamber has seen no light for many years.  Carved from the very bones
+of the earth, its slightly vaulted ceiling bears an opening from which descends
+a derelict spiral stairwell.  A dripping sound can be heard at regular intervals
+as the tiniest bit of water squeezes through the hatch above.  Sconces have been
+carved from the very stone of the walls, their grip empty but for the dust that
+has collected in them over the years.  To the south, a tunnel can be seen
+leading deeper into the earth.  
+~
+36 adfC 0 0 0 0
+D2
+~
+~
+0 0 3605 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3603 0 0 0 0 0 0 0 0
+S
+#3605
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust much like the floor.  The
+only sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adfC 0 0 0 0
+D0
+~
+~
+0 0 3604 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3606 0 0 0 0 0 0 0 0
+S
+#3606
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adfC 0 0 0 0
+D4
+~
+~
+0 0 3607 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3605 0 0 0 0 0 0 0 0
+S
+#3607
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adfC 0 0 0 0
+D2
+~
+~
+0 0 3608 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3606 0 0 0 0 0 0 0 0
+S
+#3608
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adfC 0 0 0 0
+D0
+~
+~
+0 0 3607 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3609 0 0 0 0 0 0 0 0
+S
+#3609
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adfC 0 0 0 0
+D2
+~
+~
+0 0 3610 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3608 0 0 0 0 0 0 0 0
+S
+#3610
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adfC 0 0 0 0
+D0
+~
+~
+0 0 3609 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3611 0 0 0 0 0 0 0 0
+S
+#3611
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adfC 0 0 0 0
+D0
+~
+~
+0 0 3610 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3612 0 0 0 0 0 0 0 0
+S
+#3612
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adC 0 0 0 0
+D5
+~
+~
+0 0 3611 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3613 0 0 0 0 0 0 0 0
+S
+#3613
+A Winding Tunnel~
+Ages ago, this tunnel was carved from the earth as an escape route for the
+inhabitants of the lost city of Illusk.  Years of disuse have left a thick layer
+of dust on the smooth stone floor.  Along the walls, sconces carved from the
+very stone of the tunnel itself sit filled with dust and cobwebs.  The only
+sounds audible this deep within the earth are those created by whoever is
+traversing this ancient path.  
+~
+36 adC 0 0 0 0
+D2
+~
+~
+0 0 3614 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3612 0 0 0 0 0 0 0 0
+S
+#3614
+A Winding Tunnel~
+A faint light emanates from the southern part of the tunnel, its sudden
+brightness mixing with the suddenly salty air to bewilder the senses.  Echoes of
+gull cries and crashing waves float in along with the light and smell, creating
+a truly disorienting contrast with the dank silence of the tunnel.  Here and
+there, small carcasses can be seen on the floor, the amount of time they have
+lain here apparent in the amount of dust resting on them.  
+~
+36 adC 0 0 0 0
+D0
+~
+~
+0 0 3613 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3615 0 0 0 0 0 0 0 0
+S
+#3615
+At the Mouth of a Cave~
+From the mouth of the cave that is the entrance to the ancient escape tunnel of
+Illusk issues what once was a magnificent city street.  The smell of salty sea
+air is strong here; the crashing of waves on the rocky shore below sends a
+miniature deluge over the lower levels of the street below.  Large piles of
+rubble line the street, the great stone face within which lies an antediluvian
+city slowly succumbing to the voracious hunger of the Sea of Swords.  It has
+been said that deep within the secret places of the Ruins of Illusk roam the
+spirits of the people who once walked these very streets.  
+~
+36 0 0 0 0 1
+D2
+~
+~
+0 0 3616 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3614 0 0 0 0 0 0 0 0
+S
+#3616
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3615 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3617 0 0 0 0 0 0 0 0
+S
+#3617
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3616 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3618 0 0 0 0 0 0 0 0
+S
+#3618
+A Shattered Plaza~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D2
+~
+~
+0 0 3636 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3617 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3619 0 0 0 0 0 0 0 0
+S
+#3619
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D6
+~
+~
+0 0 3620 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3618 0 0 0 0 0 0 0 0
+S
+#3620
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D5
+~
+~
+0 0 3621 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3619 0 0 0 0 0 0 0 0
+S
+#3621
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D4
+~
+~
+0 0 3620 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3622 0 0 0 0 0 0 0 0
+S
+#3622
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3623 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3651 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3621 0 0 0 0 0 0 0 0
+S
+#3623
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3624 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3652 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3622 0 0 0 0 0 0 0 0
+S
+#3624
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D2
+~
+~
+0 0 3623 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3625 0 0 0 0 0 0 0 0
+S
+#3625
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D2
+~
+~
+0 0 3653 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3626 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3624 0 0 0 0 0 0 0 0
+S
+#3626
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3655 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3654 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3625 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3627 0 0 0 0 0 0 0 0
+S
+#3627
+Before a Rusted Gate~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 10
+D8
+~
+~
+0 0 3626 0 0 0 0 0 0 0 0
+D9
+~
+gate rusted ~
+2 0 3628 20 0 0 0 0 0 0 0
+S
+#3628
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D5
+~
+~
+0 0 3629 0 0 0 0 0 0 0 0
+D7
+~
+gate rusted~
+2 0 3627 0 0 0 0 0 0 0 0
+S
+#3629
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D2
+~
+~
+0 0 3630 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3628 0 0 0 0 0 0 0 0
+S
+#3630
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3629 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3631 0 0 0 0 0 0 0 0
+S
+#3631
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3630 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3632 0 0 0 0 0 0 0 0
+S
+#3632
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D2
+~
+~
+0 0 3633 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3631 0 0 0 0 0 0 0 0
+S
+#3633
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3634 0 0 0 0 0 0 0 0
+S
+#3634
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D0
+~
+~
+0 0 3633 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3635 0 0 0 0 0 0 0 0
+S
+#3635
+A Crumbling Street~
+What was once a glorious city street now lies in ruin.  Years of erosion and
+battering by the sea have caused the faces of the buildings to crumble and
+collapse, their debris covering the street in piles of rubble.  The battering of
+waves on the rocky shore below sends up a fine spray of mist, covering the
+entire ruined city in a constant haze.  Above the din of the raging surf, the
+occasional cry of a gull can be heard.  
+~
+36 0 0 0 0 10
+D7
+~
+~
+0 0 3634 0 0 0 0 0 0 0 0
+S
+#3636
+Residential Street~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D0
+~
+~
+0 0 3618 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3637 0 0 0 0 0 0 0 0
+S
+#3637
+Residential Street~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D0
+~
+~
+0 0 3643 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3638 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3636 0 0 0 0 0 0 0 0
+S
+#3638
+Residential Street~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D3
+~
+~
+0 0 3637 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3644 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3639 0 0 0 0 0 0 0 0
+S
+#3639
+Residential Street~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D0
+~
+~
+0 0 3647 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3645 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3640 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3638 0 0 0 0 0 0 0 0
+S
+#3640
+Residential Street~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D0
+~
+~
+0 0 3639 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3646 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3641 0 0 0 0 0 0 0 0
+S
+#3641
+Residential Street~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D0
+~
+~
+0 0 3640 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3648 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3642 0 0 0 0 0 0 0 0
+S
+#3642
+Residential Street~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D0
+~
+~
+0 0 3641 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3649 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3650 0 0 0 0 0 0 0 0
+S
+#3643
+Inside a Collapsing Home~
+Carved from the very stone of the earth itself, this was once a magnificent
+dwelling.  The walls begin to curve inward halfway to the ceiling, meeting high
+above your head in what must have once been a beautiful dome.  Now, however, the
+floor of this house is littered with piles of rubble as the years have slowly
+caused it to collapse upon itself.  Mixed with the shattered slabs of stone on
+the floor are ancient housewares, looking as if they were left by someone trying
+to escape in a hurry.  
+~
+36 0 0 0 0 0
+D2
+~
+~
+0 0 3637 0 0 0 0 0 0 0 0
+S
+#3644
+A Caved-In House~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D9
+~
+~
+0 0 3638 0 0 0 0 0 0 0 0
+S
+#3645
+New BuildWalk Room~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D3
+~
+~
+0 0 3639 0 0 0 0 0 0 0 0
+S
+#3646
+Inside a Collapsing Home~
+Carved from the very stone of the earth itself, this was once a magnificent
+dwelling.  The walls begin to curve inward halfway to the ceiling, meeting high
+above your head in what must have once been a beautiful dome.  Now, however, the
+floor of this house is littered with piles of rubble as the years have slowly
+caused it to collapse upon itself.  Mixed with the shattered slabs of stone on
+the floor are ancient housewares, looking as if they were left by someone trying
+to escape in a hurry.  
+~
+36 0 0 0 0 0
+D3
+~
+~
+0 0 3640 0 0 0 0 0 0 0 0
+S
+#3647
+Inside a Collapsing Home~
+Carved from the very stone of the earth itself, this was once a magnificent
+dwelling.  The walls begin to curve inward halfway to the ceiling, meeting high
+above your head in what must have once been a beautiful dome.  Now, however, the
+floor of this house is littered with piles of rubble as the years have slowly
+caused it to collapse upon itself.  Mixed with the shattered slabs of stone on
+the floor are ancient housewares, looking as if they were left by someone trying
+to escape in a hurry.  
+~
+36 0 0 0 0 0
+D2
+~
+~
+0 0 3639 0 0 0 0 0 0 0 0
+S
+#3648
+New BuildWalk Room~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D3
+~
+~
+0 0 3641 0 0 0 0 0 0 0 0
+S
+#3649
+A Caved-In House~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D2
+~
+~
+0 0 3650 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3642 0 0 0 0 0 0 0 0
+S
+#3650
+A Caved-In House~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D6
+~
+~
+0 0 3642 0 0 0 0 0 0 0 0
+S
+#3651
+New BuildWalk Room~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D3
+~
+~
+0 0 3622 0 0 0 0 0 0 0 0
+S
+#3652
+New BuildWalk Room~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D3
+~
+~
+0 0 3623 0 0 0 0 0 0 0 0
+S
+#3653
+New BuildWalk Room~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D0
+~
+~
+0 0 3625 0 0 0 0 0 0 0 0
+S
+#3654
+New BuildWalk Room~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D3
+~
+~
+0 0 3626 0 0 0 0 0 0 0 0
+S
+#3655
+New BuildWalk Room~
+This unfinished room was created by Tempus.
+~
+36 0 0 0 0 0
+D2
+~
+~
+0 0 3626 0 0 0 0 0 0 0 0
+S
+#3700
+a new room~
+You are in an unfinished room.
+~
+36 0 0 0 0 0
+S
+$~

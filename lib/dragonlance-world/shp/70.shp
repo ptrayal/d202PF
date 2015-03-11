@@ -1,0 +1,35 @@
+CircleMUD v3.0 Shop File~
+#7067~
+30188
+30187
+30186
+30185
+30184
+7023
+7024
+-1
+1.00
+1.00
+2
+3
+4
+10
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %s coins, thanks.~
+%s I'll give you %s coins for that.~
+0
+0
+7020
+0 0 0 0
+7067
+-1
+0
+28
+0
+0
+$~

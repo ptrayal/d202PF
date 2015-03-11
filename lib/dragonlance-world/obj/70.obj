@@ -1,0 +1,335 @@
+#7000
+key golden silver neck~
+a silver neck chain with a golden key~
+A silver neck chain with a key dangling from it lies here.~
+~
+18 cjklmnopqrstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7001
+belt spell components academy~
+a belt with bags for spell components~
+A belt covered with several large bags lies here abandoned.~
+~
+15 jklmqBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#7002
+bracer ivory academy~
+an ivory bracer~
+A pure white bracer lies here in the dust.~
+~
+9 jmnoprstuvwBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 2 0
+#7003
+bracer crimson black academy~
+a crimson bracer trimmed with black~
+A crimson bracer trimmed with black lies here.~
+~
+9 lmBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 2 0
+#7004
+bracer ebony academy~
+an ebony bracer with blue fringe~
+A large ebony bracer lies here discarded.~
+~
+9 kmxBCDEF abc stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 2 0
+#7005
+blade crooked academy~
+a crooked concealable blade~
+A crooked blade which is easily concealed lies here in the open.~
+~
+5 jklmopvBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7006
+jar glass worm academy~
+a glass jar containing a glowing worm~
+A glass jar with a glowing worm contained within rests here.~
+~
+1 jklmnoprstuvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7007
+sphere force magical academy~
+a magical sphere of force~
+A sphere of magical force hovers here above the ground.~
+~
+9 bgjklmBCDEF abc stuvwxy 0 aj 0 0 0 0 0 0 0
+0 4 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 5 0
+A
+14 5 0
+#7008
+potion bubbling~
+a bubbling potion without a lid~
+A bubbling potion that is lacking any sort of lid rests here.~
+~
+10 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7009
+potion brilliant green sparkling potion~
+a brilliant green potion~
+A sparkling potion bubbling green liquid lies here in the dirt.~
+~
+10 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1200 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7010
+scroll red runes recall~
+a scroll with red runes~
+A scroll with red runes lies on the ground, collecting dust.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1600 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7011
+potion bubbling crimson ~
+a bubbling crimson potion~
+A bubbling potion that is the deepest of reds lies here.~
+~
+10 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 650 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7012
+tome enchanted id silver~
+an enchanted tome bound in silver~
+A tome bound in silver lies here untouched and unused.~
+~
+2 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 17500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7013
+spellbook bound leather~
+a spellbook bound in leather~
+A spellbook bound in dark leather rests here.~
+~
+26 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 1149 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7014
+wand pointy metal~
+a pointy, metal wand~
+A pointy, metal wand has been tossed on the ground here.~
+~
+3 jklmnoprstvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 459 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7015
+paper papyrus sheet blank~
+a blank sheet of papyrus paper~
+A blank sheet of papyrus paper lies here, waiting to be written on.~
+~
+2 cejklmqBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6250 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#7016
+Portal to Solace~
+a Portal to Solace~
+An eerie magical glow emanates from a portal leading to Solace.~
+~
+28 g 0 0 0 0 0 0 0 0 0 0 0
+1409 0 -1 -1 100 100 500 23 20 20 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+#7017
+A Portal to Palanthas~
+a Portal to Palanthas~
+An eerie magical glow emanates from a portal leading to Palanthas.~
+~
+28 g 0 0 0 0 0 0 0 0 0 0 0
+7068 0 -1 -1 100 100 500 23 20 20 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+#7018
+a Portal to Sanction~
+a Portal to Sanction~
+An eerie magical glow emanates from a portal leading to Sanction.~
+~
+28 g 0 0 0 0 0 0 0 0 0 0 0
+6533 0 -1 -1 100 100 500 23 20 20 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+#7019
+Portal to Thelgaard~
+a Portal to Thelgaard~
+An eerie magical glow emanates from a portal leading to Thelgaard.~
+~
+28 g 0 0 0 0 0 0 0 0 0 0 0
+3452 0 -1 -1 100 100 500 23 20 20 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+#7022
+Portal to Neraka~
+a Portal to Neraka~
+An eerie magical glow emanates from a portal leading to Neraka~
+~
+28 g 0 0 0 0 0 0 0 0 0 0 0
+8741 0 0 0 100 100 500 23 20 20 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+5
+D
+0
+#7023
+a potion of recall~
+a potion of recall~
+A potion of recall lies here.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+20 42 0 0 100 100 0 3 0 0 0 0 0 0 0 0
+0 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+0
+D
+0
+#7024
+gnomish identification kit~
+a gnomish identification kit~
+A large box covered in gears and with a small glass display screen lies here labelled, 'gnomish identification kit'.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 7 0 0 0 0 0 0 0 0
+100 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+0
+D
+0
+$~

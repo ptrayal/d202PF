@@ -1,0 +1,268 @@
+#300
+fox bushy tailed tail~
+a bushy-tailed fox~
+A busy-tailed fox is here looking for food.
+~
+   This small fox is a mixture of red and reddish-brown.  His coat is thick, and
+covered with twigs and leaves.  He has a long bushy tail which currently is
+sticking straight out behind the creature.  
+~
+d 0 0 0 k 0 0 0 0
+2 20 8 36d20+151 1d1+0
+0 0 26 3
+8 8 1
+E
+BareHandAttack: 10
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#301
+brown furred wolf~
+a brown furred wolf~
+A brown furred wolf prowls the area here.
+~
+   This wolf has brown furred with patches of grey.  She looks well fed and so
+her growls, though threatening, are not likely to end in an unprovoked attack.
+
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 48d20+151 1d1+0
+0 0 26 3
+8 8 2
+E
+BareHandAttack: 11
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#302
+fearsome black tailed badger~
+a fearsome black tailed badger~
+A fearsome black tailed badger sniffs at the ground.
+~
+   This badger is huge and looks as if it would be dangerous to the common man
+in a fight.  His teeth are yellow and very sharp, though his eyes do not show
+any kind of hostility out of hand.  
+~
+d 0 0 0 k 0 0 0 0
+2 20 8 36d30+152 1d1+0
+0 0 26 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#303
+hawk graceful brown feathered~
+a graceful brown feathered hawk~
+A graceful brown feathered hawk is here perched on the ground looking quite noble.
+~
+   This noble-looking hawk is here, perched on the ground with its talons
+scratching and clawing restlessly.  Its acute eyes take in everything around it
+with great interest though without unprovoked action.  
+~
+d 0 0 0 k 0 0 0 0
+2 20 8 36d20+152 1d1+0
+0 0 26 3
+8 8 2
+E
+BareHandAttack: 11
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#304
+squirrel annoying red~
+an annoying red squirrel~
+An annoying red squirrel chatters away above your head.
+~
+   This small squirrel can make quite a bit of noise.  She seems upset with your
+prescence in her pine stand.  
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 48d30+152 1d1+0
+0 0 26 3
+8 8 1
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#305
+skunk striped clumsy~
+a clumsy striped skunk~
+A clumsy striped skunk wobbles along in front of you.
+~
+   This clumsy skunk wobbles along in front of you.  He does not even appear to
+notice you.  
+~
+d 0 0 0 k 0 0 0 0
+4 20 6 60d40+151 1d1+0
+0 0 26 3
+8 8 2
+E
+BareHandAttack: 3
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#306
+druid old tired~
+an old druid~
+An old druid rests here trying to regain his strength.
+~
+   This old druid looks to be very tired.  Wrinkles cover his weathered face and
+hands.  Years of tending to this grove have taken its toll.  
+~
+d 0 0 0 0 0 0 0 0
+6 20 4 63d60+152 1d1+0
+9 500 0 1
+8 8 1
+E
+BareHandAttack: 13
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 17
+E
+Con: 12
+E
+Cha: 10
+S
+#307
+fawn spotted~
+a spotted fawn~
+A spotted fawn has been adopted by the old druid.
+~
+   This small fawn still has its spots.  The old druid has been taking care of
+it.  Something must have happend to its mother.  
+~
+d 0 0 0 k 0 0 0 0
+2 20 8 36d20+153 1d1+0
+0 0 26 3
+8 8 1
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#308
+porcupine dark quilled~
+a dark quilled porcupine~
+A dark quilled porcupine staggers about.
+~
+   The large rodent is covered in sharp quills.  He seems to have not a care in
+the world.  Most creatures have learn to avoid this animal.  
+~
+d 0 0 0 k 0 0 0 0
+3 20 7 48d30+153 1d1+0
+0 0 26 3
+8 8 2
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#309
+bandit small human~
+a small human bandit~
+A small human bandit draws her blade as you enter her room.
+~
+   This small human looks to be half the size of a normal human.  Her armor is
+tattered and stained.  Her hair is unkept and ragged, a wild look appears in her
+eyes as you look upon her.  
+~
+d 0 0 0 0 0 0 0 0
+5 20 5 72d50+152 1d1+0
+5 500 0 3
+8 8 2
+E
+Str: 17
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

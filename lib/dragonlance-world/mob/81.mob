@@ -1,0 +1,188 @@
+#8100
+mob new~
+a new mob~
+A new mob is existing here.
+~
+~
+d 0 0 0 k 0 0 0 0
+1 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8101
+lizard sea craggly~
+a craggly sea lizard~
+A craggly sea lizard opens its maw wide.
+~
+   The creature before you is covered in a sheen of slime, presumably from the
+bottom of the Vingaard River.  It's maw is approximately 4 feet wide with a
+hinged lower set of razer teeth.  Webbed feet help this creature to quickly
+move about in the shallow water of the stream.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8102
+traveller dusty dust~
+a dusty traveller~
+A traveller, caked in dust, walks with head slumped across the plains.
+~
+   Covered from head to toe in dusty robes, this man walks slowly through the
+plains here.  A backpack stuffed with goods is strapped to his back, and a
+walking stick serves as his only protection, and support when he stumbles.    
+~
+d 0 0 0 k 0 0 0 350
+9 20 7 24d100+152 1d8+0
+15 0 41 4
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8103
+brigand swarthy~
+a swarthy brigand~
+Grinning wickedly, a brigand glances casually at your coin purse.
+~
+   The man before you glances at you casually at first, before fixing upon your
+coin pouch.  His eyes glint in the sunlight with a calculating light.  His
+robes are a patchwork of different colors, as if coming from many different
+sources.  His hands are fine, and flex slowly as he watches you.    
+~
+d 0 0 0 k 0 0 0 -350
+10 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8104
+Knight Solamnia elegant young~
+a young, elegant Knight of Solamnia~
+Standing as straight as an arrow, a young Knight of Solamnia stands watch.
+~
+   Armored in severely polished steel armor, this Knight is the epitome of the
+image of a Knight of Solamnia.  With a Solamnic mustache, and shoulder length
+hair of dark brown, he gazes about with fierce pride.  His mailed steps pound
+the dirt in steady rhythm.    
+~
+d 0 0 0 k 0 0 0 1000
+18 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8105
+Merle Merchant~
+Merle, Merchant Prince of Palanthas~
+Merle, a merchant from Palanthas makes his way purposefully along the road.
+~
+   Weighted down with countless bags of goods, Merle walks steadily along the
+road towards his goal.  Hard times appear to have befallen this merchant.  No
+cart carries his goods, only a backpack and pouch held in his hands and his
+booted feet to carry him along.  A weary expression on his smooth face shows
+his plight.    
+~
+d 0 0 0 k 0 0 0 350
+20 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#8106
+bandit shifty-eyed~
+a shifty-eyed bandit~
+Smirking as he steps in front of you, a shifty-eyed bandit blocks your path.
+~
+   This bandit is wearing a loose leather tunic, and is twirling a dagger in
+his right hand.  He eyes you carefully as you approach him, looking greedily
+over your possessions.  He steps in front of you, blocking your path as you try
+to move past him.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+This stealthy looking mage is wearing deep ebony robes with silver trimming.
+$
+$

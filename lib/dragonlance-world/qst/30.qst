@@ -1,0 +1,437 @@
+#3000
+Kill Captured Pickpockets~
+Defeat 10 captured pickpockets~
+   Well gladiator, if you want to get your nose wet, get out there and defeat 10
+captured pickpockets.  They shouldn't pose too much of a threat, just watch out
+for them, they tend to fight dirty.  Well don't just stand there, get out there
+and fight!  
+~
+   You've defeated 10 captured pickpockets, and have been rewarded with the
+following:
+100 experience points
+200 gold coins
+50 quest points
+Congratulations!
+~
+   You've decided to end your quest to defeat 10 captured pickpockets.  
+~
+3 3005 0 3000 -1 901 -1
+50 0 3 10 -1 -1 10
+500 10 65535
+S
+#3001
+Kill flaming hand mercenary fighters~
+Kill 20 flaming hand mercenary fighters~
+   Our Intelligence has shown us that the Flaming Hand Mercenary Band is really
+just a front for a group of spies and soldiers working for the Necro Kings north
+of the Blight.  This is not widespread knowledge at this point, nor should it be
+so please keep this to yourselves.  I have inscribed your name on a city writ
+that allows you to undertake this mission.  Unfortunately they seem beyond
+reconciliation and are bent on their plan.  We need you to infiltrate the camp
+and kill 20 of their fighters.  Their ranks grow daily will malcontents from
+Faringhal and other cities in the Free Kingdoms, so we need to make sure they
+cannot pose a threat to our security.  I know it's not the most righteous of
+jobs, but it is a necessary evil unfortunately.  May God forgive this last
+resort of ours, for while the act is unrighteous the cause and greater good are.
+Go in peace soldier, upon your successful completion of the mission your reward
+will be magically transferred to you.  Good luck and God Speed.  
+~
+appears automatically in your hands.  You have received 5000 gold coins, 20,000
+experience points, and 5,000 quest points.  You also receive a jade ring covered
+in emblems of sea turtles.  
+   He sigil Benfirth placed upon you glows brightly for a moment and your reward
+appears automatically in your hands.  You have received 5000 gold coins, 20,000
+experience points, and 200 quest points.  You also receive a jade ring covered
+in emblems of sea turtles./s
+~
+   The sigil disappears as you abandon Benfirth's quest to kill 20 flaming hand
+mercenary fighters.  
+~
+3 3069 a 2202 -1 3003 -1
+5 0 14 30 -1 -1 20
+5000 10 3036
+S
+#3002
+Push back the orcs - part one~
+Push back the orc invasion by killing 20 orc commoners.~
+   Welcome adventurer.  As you probably know, a large group of orcs have settled
+just north of here and have been harrassing trade and supply caravans heading
+from Farignhal to Latos.  Our forces are currently exhausted in defending the
+great northern pass at Latos and our own cities against the monstrosities of the
+Chromatic Dragon Overlords north of the blight.  We need you to go to the orc
+encampment and thin their numbers.  The commoners are tasked with maintaining
+their camp and creating their weapons and armor so we can deal a decisive blow
+to their forces this way.  Upon completion you will be rewarded in the usual
+fashion.  Godspeed.  
+~
+The sigil on your arm glows briefly and you receive your reward:
+3,000 gold coins
+10,000 experience
+1,000 quest points
+~
+   You have abandoned the quest: Push back the orcs - part one (kill 20 orc
+commoners).  
+~
+3 3070 0 1403 -1 -1 -1
+1000 0 10 61 -1 -1 20
+3000 10 65535
+S
+#3003
+Mercenary Troubles - Part Two~
+Defeat 20 flaming hand mercenary barbarians~
+   We have received authorization to continue our assault on the spies serving
+in the flaming hand mercenary band.  With their front line fighters taken care
+of we're now moving towards some of their shock troops, the barbarians.  Now
+that they're onto us, and know we're onto them, they've become much more hostile
+and have been attacking villages nearby.  It's important we take care of this
+situation as fast as possible.  Go kill 20 of their barbarians.  The free
+kingdoms are counting on you.  
+~
+The sigil on your arms glows briefly and disappears.  You receive your reward:
+5,000 gold
+5,000 quest points
+20,000 experience
+~
+You have abandoned the quest.
+~
+3 3069 a 2203 -1 -1 -1
+5 0 12 30 -1 -1 20
+5000 10 65535
+S
+#3004
+kill 10 thugs~
+Kill 10 thugs from the gladiator pits.~
+Well gladiator, if you want to get your nose wet, get out there and defeat 10
+captured Thugs.  They shouldn't pose too much of a threat, just watch out for
+them, they tend to fight dirty.  Well don't just stand there, get out there and
+fight!  
+~
+Good job @RGladiator@n!  You have killed 10 captured thugs!  Take this as your
+award.  
+~
+You have abandoned the quest.
+~
+3 3005 0 3002 -1 -1 -1
+50 0 4 61 -1 -1 10
+500 10 65535
+S
+#3005
+kill 10 murderers~
+kill 10 murders within the pits~
+Hail @RGladiator@n here is your next test of strength!  Obliterate 10 Murderers
+and come back here when you have finished the task!  
+~
+You have completed the quest.  Congrats @RGladiator@n!  Can you hear the cheers
+of the croud!  Continue on like this and you will become the @RGladiator@n
+Champion!  
+~
+You have abandoned the quest.
+~
+3 3005 0 3003 -1 -1 -1
+50 0 5 61 -1 -1 10
+600 10 65535
+S
+#3006
+gladiator champion~
+Kill the current Gladiator Champion~
+Do you want fame!  Do you want Fortune!  Battle the @RGladiator Champion@n and
+win, you shall have all of this!  Lose...  And may you find yourself among
+beautiful women and plenty of mead!  For you are in heaven!  
+~
+@GCongratulatons!  I never thought i would see the day@n @WDevon@n @Gwould fall
+in battle!  He has been champion for as long as i can remember.  This is a
+momentous day friend!  Leave here and know you have put your mark on
+Faringhal!!!  @n
+~
+You have abandoned the quest.
+~
+3 3005 0 3071 -1 -1 -1
+150 0 5 61 -1 -1 1
+5000 10 65535
+S
+#3007
+rogue religion 1~
+Rogue Religion 1~
+There is a group to the east that is beginning to spread their beliefs into
+Faringhal.  Find the cultists and destroy the @WWorshippers@n found within their
+temple.  
+~
+Great job thinning out their followers.  While it wont destroy their religion it
+will slow the spread of their stupidity.  
+~
+You have abandoned the quest.
+~
+3 3070 0 1219 -1 -1 -1
+40 0 7 61 -1 -1 50
+2500 15 65535
+S
+#3008
+rogue religion 2~
+Rogue Religion 2~
+Now that the worshippers have dwindled down, begin thinning out their priests
+and servants.  20 guardian cultists  
+~
+The religious group has gotten the point after this visit.  Already they are
+pulling their influence back from Faringhal.  
+~
+You have abandoned the quest.
+~
+3 3070 0 1201 -1 -1 -1
+75 0 8 60 -1 -1 20
+5000 10 65535
+S
+#3009
+rogue religion 3~
+Rogue Religion 3~
+We have thinned out their ranks enough that i think we can order an attack on
+the @WHigh Priest@n.  Bring me news of his death.  
+~
+Fantastic!  This has been a monumental strike against their order.  Take this as
+payment.  
+~
+You have abandoned the quest.
+~
+3 3070 0 1226 -1 -1 -1
+250 0 18 60 -1 -1 1
+7500 3 65535
+S
+#3010
+rogue religion 4~
+Rogue Religion 4~
+The High Priest carries an item of great importance.  They stole it from the
+history museum in Latos.  It contains magical properties, possibly even the item
+driving their religion.  ' Some believe it to be a scale from the first dragon.
+
+~
+Wonderful!  You have found the artifact!.  We will have an armed escort take
+this back to Latos.  
+~
+You have abandoned the quest.
+~
+5 3070 0 3038 -1 -1 -1
+100 0 12 60 -1 3070 1
+25000 10 65535
+S
+#3011
+orc champion~
+Defeat the Orc Champion~
+To the north of Faringhal lies an orc camp, there the beast can be found.  He is
+the Champion among their kind, he has slew dozens of our citizens, and his lot
+harries our trade to the north as well.  Go forth and vanquish this foe!  Much
+rewards to he or she who takes his head.  
+~
+Thank you so much!  Citizens can sleep well knowing that a great evil has been
+removed from this place.  Take this as your @yReward@n
+~
+You have abandoned the quest.
+~
+3 3070 0 1410 -1 -1 -1
+150 0 13 61 -1 -1 1
+10000 5 65535
+S
+#3012
+kill cyric~
+Kill the revived priest cyric~
+There has been mention of a disturbance in the southeast section outside of
+Faringhal.  Find your way past the skeletons, and zombies, and deep in the
+basement there you will find the shade Cyric.  Destroy his spiritual form and
+you will be rewarded.  
+~
+I dare say it was an easy task, the world can rest better at night knowing the
+Shade of Cyric has been put to rest.  Well done adventurer
+~
+You have abandoned the quest.
+~
+3 3069 0 605 -1 -1 -1
+100 0 10 60 -1 -1 1
+2500 5 65535
+S
+#3013
+medallion offer~
+Drunk lost his Tarnished Medallion~
+I dont know what im going to do, i had the medallion on a chain around my neck,
+then the next thing i know the chain fell into my hand; and the medallion was
+gone!  Please find it, i beg of you.  
+~
+Oh thank you so much, this medallion was my fathers.  It meant a great deal to
+me, you have done me a great service.  I sunk as low as petty theft, i stole
+this crystal ball from a fortune teller in the tavern up north, hoping it would
+help me locate my medallion.  You can have it...  
+~
+You have abandoned the quest.
+~
+5 3072 0 4604 -1 -1 -1
+20 0 9 60 -1 3072 1
+0 5 3039
+S
+#3014
+crystall ball offer~
+Return the missing Crystal Ball~
+Oh please find my @CCrystal@n Ball, i know someone broke into my room in the
+night and stole it.  I cant make any money without my crystal ball!  Im a
+fortune teller you know!  
+~
+You have completed the quest.
+~
+Thank you, you are a saint! sit and let me read you; your fortune.
+@Y-----------------------------------------------@n
+The fortune tellers eyes turn a milky white, and she begins speaking softly as her hands glide over the top of her @CCrystal@n Ball.
+Adventurer, have you yet stood upon the Wall of Redemption and stared death in the face? noo.....young you are still...this is much much later.
+The fortune teller gasps suddenly. Look deep within the cave to the north...there you will find a secret...a secret lost to this world for a thousand years!
+The fortune tellers eyes turn back to normal and she smiles at you and asks would you like to hear of your future?
+~
+5 1527 0 3039 -1 -1 3039
+50 0 10 60 -1 1527 1
+0 3 65535
+S
+#3027
+manuscript offer~
+Find the lost ancient manuscript~
+I can't find the thing anywhere!  A lord of one of the houses of Luskan needs the manuscript, and I can't find it!  Please if you can find it, I will be greatly indebted to you.
+~
+"Oh praise Ilmater you found it!.  How can I ever repay you."  The librarian
+shouts "Aha!  Here take this adventurer, one of the academy students left it on
+the table months back, and it has yet to be claimed."
+~
+You have abandoned the quest.
+~
+5 2611 0 4042 -1 -1 -1
+50 0 3 60 -1 2611 1
+0 15 2613
+S
+#3030
+watch fob offer~
+a missing Watch Fob~
+I have looked everywhere I tell you, that watch fob cost me great deal of money!  
+Veilia herself crafted it out of the purest gold!  I would give almost anything to
+get it back.
+~
+Oh dear god, you are a saint!  What can I do for you?  Name your price!  What do you mean you don't want anything?  My god you are the craziest person I've ever met.  Well take this anyway, I have little use for it, my taste lies in gold.
+~
+You have abandoned the quest.
+~
+5 3073 0 2613 -1 -1 2613
+75 0 5 60 -1 3073 1
+0 25 3040
+S
+#3031
+Silver chain offer~
+Looking for a Silver necklace~
+I've got a particular client who has a taste for silver.  If you happen to find a ring or a necklace please bring it here.  It may fetch you a fair price.
+any rings or necklces please bring it here.  It may fetch you a fair price.  
+~
+This @wNecklace@n will do nicely, i havent any gold until i can move some of my
+product.  I spent my nest egg on a suit of armor for another client of mine.  
+But it seems i couldnt aquire the product soon enough.  It's bringing me a hefty
+profit.  If you can make the delivery and bring back the gold, i will share the
+profits with you.  
+~
+You have abandoned the quest.
+~
+5 2608 0 3040 -1 -1 3040
+75 0 5 60 -1 2608 1
+0 18 3041
+S
+#3032
+Black mithril helm offer~
+Black mithril helm offer~
+My commission started sooner than I thought, and my armor order was incomplete. I am waiting for my helm.  Oh!  I see you have been sent to deliver it to me.  Thank the heavens, if my captain saw me out of uniform he would skin me alive.
+~
+The gate guard pulls out two pouches of gold, he tosses them to you and tells you to "Keep the lighter of the two.  That Sage won't notice a few gold pieces missing.  I mean you did come all the way out to Neverwinter!  I say your getting swindled to be honest.  If you want I will call the guards on him!  Such dishonesty within the free cities!  What?  You dont want the law notified?.  Your choice mate, good luck, and thanks for the delivery! "
+~
+You have abandoned the quest.
+~
+5 4023 0 3041 -1 -1 3041
+100 0 8 60 -1 4023 1
+500 5 4043
+S
+#3033
+pouch of gold offer~
+Return with the gold payment~
+Ahh i see you found your way out to Latos, thank goodness you didnt get caught
+up with those pesky orcs out there.  They can be a real nuisance.  Hand over the
+gold now...  And i will just divide it up.  
+~
+Two for me...  Oone...  Three for me...  One for you..  Tw...  Three...  Ahh
+yes, here you are!  Your fair share of my profits!  Come back again sometime i
+may have more work for you.  
+~
+You have abandoned the quest.
+~
+5 2608 0 4043 -1 -1 4043
+400 0 8 61 -1 2608 1
+4 15 65535
+S
+#3034
+orc chief kill offer~
+Destroy the Orc Chief~
+The @YOrc@n Chief has been sending his orcs closer and closer to the luskan
+borders, bring me news of his death so that our citizens can sleep soundly!  
+~
+You have completed the quest.  Well done adventurer!  Those @Yorcs@n are a crazy
+bunch, im sure they will have elected a new chieftan by now.  But we wont let
+the citizens know that!  Take this as a reward.  
+~
+You have abandoned the quest.
+~
+3 3069 0 1407 -1 -1 -1
+100 0 10 61 -1 -1 1
+25000 20 65535
+S
+#3035
+Kill 20 mercenary druids~
+Kill 20 flaming hand mercenary druids~
+@Y
+
+The druids of the flaming hand mercenary band are causing considerable
+trouble for the waterdhavian caravans that come to Luskan by land.
+This group of 'mercenaries' is little more than a glorified group
+of bandits for hire.  We know not who has put them up to this, but for
+now, while our investigation takes place, go to their camp and thin
+their numbers.  I want 20 of those accursed druids dead or heads will
+roll.  Go now.
+
+@n
+~
+@Y
+
+The druid threat against the caravans has ended for the time being.
+Eventually their numbers will recuperate, but you have done a great
+service for Luskan.  Your reward is as follows:
+
+10,000 gold coins
+~
+You have abandoned the quest.
+~
+3 3069 a 2204 -1 -1 -1
+5 0 15 61 -1 -1 20
+10000 10 65535
+S
+#3036
+Kill 20 mercenary rangers~
+KIll 20 flaming hand mercenary rangers~
+@Y
+
+The rangers of the flaming hand 'mercenaries' have been scouting caravans
+for attacks now for months and it's time we repaid the favor in kind.
+Go to their camp and kill at least 20 of their rangers.  With less trackers
+and scouts, they will be less effective in disrupting our land trade routes.
+Remember adventurer who rules this city.  Serve well and you will be
+repaid in kind.  Go now.
+
+@n
+~
+@Y
+
+You have served Taerl's interests well and protected the people on Luskan
+in the process.  Your reward is:
+
+10,000 gold coins
+~
+You have abandoned the quest.
+~
+3 3069 a 2206 -1 -1 -1
+5 0 15 61 -1 -1 20
+10000 10 65535
+S
+$~

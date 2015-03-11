@@ -1,0 +1,40 @@
+#900
+Find a Sling of Frost~
+Find a well made sling of frost in the luskan training pits.~
+   We're trying to collect some items these summoned monsters may have brought
+with them.  One of these items we're looking for is a well made sling of frost.
+Find one and give it to me and I'll reward you with 200 gold coins.  
+~
+   Well done, we'll put this sling to good use.  As promised, here is your
+reward: 200 gold coins.  Spend it wisely.  
+~
+   You decide to pass on finding and giving a well made sling of frost to Jolin.
+
+~
+5 924 a 928 -1 -1 -1
+75 0 1 5 -1 924 1
+200 200 65535
+S
+#901
+Kill Arsonists~
+Defeat 10 incriminated arsonists~
+   Looking for something a little tougher hmm?  We've had a string of arsonists
+in the city lately.  Something to do with a deranged cult of Kossuth.  Not
+normally their style so we suspect something else is going on.  In any case
+we've got too many arsonists for our prison to hold, so we're throwing them here
+in the gladiator pits for their judgement.  Go ahead and thin their ranks a bit
+and we'll pay you for your efforts.  
+~
+You have successfully defeated 10 incriminated arsonists.  Your reward is:
+60 quest points
+250 gold coins
+100 experience
+Congratulations!
+~
+You have abandoned the quest.
+~
+3 3005 0 3001 3000 -1 -1
+60 0 1 10 -1 -1 10
+250 100 65535
+S
+$~

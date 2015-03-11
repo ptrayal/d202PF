@@ -1,0 +1,1818 @@
+#10100
+Aside a Steep Mountainside~
+   This desolate pathway winds throughout the mountains, seemingly without end.
+Far to the southwest, a snowdrenched valley splits the land like a gaping
+wound, defying all who would enter.  Daunting jagged peaks rise in all
+directions, although the rugged path continues to the southeast.    
+~
+101 p h 0 0  3
+D3
+~
+~
+0 0 3093 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10101 0 0 0 0 0 0 0 0
+S
+#10101
+Approaching a Slight Decline~
+   Devoid of vegetation or life, this mountain path begins to snake between
+peaks so mighty as to dwarf a god.  Not even scrub pines line this trail, and
+it is a wonder who made it, as no tracks are noticeable.  The barren pathway
+continues to the northwest, while a decline is partially visible to the south.
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10102 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10100 0 0 0 0 0 0 0 0
+S
+#10102
+Atop a Barren Mountain~
+   Nothing could be more desolate then this mountain plateau, as there is not a
+trace of animals or vegetation to be seen.  Mammoth snow-laden peaks surround
+the plateau on all sides, screaming towards the heavens.  The footing atop this
+mountain is very difficult, with pieces of mountain rock impeding movement.  
+Between two imposing boulders, a scraggly path can be seen to the north, while
+a precarious trail winds its way down the mountainside.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10101 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10103 0 0 0 0 0 0 0 0
+S
+#10103
+Along a Mountainside~
+   This barren pathway snakes its way up the mountainside.  Not a sound can be
+heard, and the area is devoid of life of any kind.  The footing on this trail
+is treacherous, with loose stone crumbling underfoot.  High above, a plateau
+can be faintly seen through the mist.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10104 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10102 0 0 0 0 0 0 0 0
+S
+#10104
+Along a Mountainside~
+   This barren pathway snakes its way up the mountainside.  Not a sound can be
+heard, and the area is devoid of life of any kind.  The footing on this trail
+is treacherous, with loose stone crumbling underfoot.  High above, a plateau
+can be faintly seen through the mist.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10103 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10105 0 0 0 0 0 0 0 0
+S
+#10105
+Beginning of a Mountain Trail~
+   Rising into the clouds, this mountain is quite daunting, seeming to defy all
+those who would attempt to scale it.  A few pine trees are the only life
+visible around this mammoth obstacle, and closer inspection shows even less
+life farther up the mountain.  A dangerous path is visible along the peak,
+without tracks of any sort to identify whomever created it.  To the southwest,
+lush hills beckon invitingly, a vast difference to this bleak and ancient
+beheamoth.    
+~
+101 p h 0 0  3
+D4
+~
+~
+0 0 10104 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10106 0 0 0 0 0 0 0 0
+S
+#10106
+Approaching a Massive Peak~
+   Beautiful green hills stretch far in the distance, covered with trees and
+life of all kinds.  Small woodland creatures are scurrying underfoot, creating
+their own paths in the foilage.  Birds singing their sweet melodies complete
+this picture of nature.  Looking to the northeast, a gigantic mountain can be
+seen jutting into the sky, its top lost in mist.    
+~
+101 cp h 0 0  4
+D7
+~
+~
+0 0 10105 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10107 0 0 0 0 0 0 0 0
+S
+#10107
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D2
+~
+~
+0 0 10108 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10106 0 0 0 0 0 0 0 0
+S
+#10108
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D0
+~
+~
+0 0 10107 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10109 0 0 0 0 0 0 0 0
+S
+#10109
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D2
+~
+~
+0 0 10110 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10108 0 0 0 0 0 0 0 0
+S
+#10110
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D0
+~
+~
+0 0 10109 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10111 0 0 0 0 0 0 0 0
+S
+#10111
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D0
+~
+~
+0 0 10110 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10112 0 0 0 0 0 0 0 0
+S
+#10112
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D7
+~
+~
+0 0 10111 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10113 0 0 0 0 0 0 0 0
+S
+#10113
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D7
+~
+~
+0 0 10112 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10114 0 0 0 0 0 0 0 0
+S
+#10114
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D2
+~
+~
+0 0 10115 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10113 0 0 0 0 0 0 0 0
+S
+#10115
+Travelling through the Hills~
+   Lush green hills stretch as far as the eye can see, almost painful in their
+beauty.  Small woodland creatures scurry underfoot, and birds fill the air with
+their own private melodies.  The very ground seems teeming with life, the hills
+themselves producing a unique energy, proof of nature at its finest.    
+~
+101 p h 0 0  4
+D0
+~
+~
+0 0 10114 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10116 0 0 0 0 0 0 0 0
+S
+#10116
+In the Hills~
+   Between two impressive mountain ranges, these hills are a testament to the
+beauty of Krynn.  Emerald grass covers these gentle rises, and wildlife of all
+types can be seen feasting on the plentiful game available.  A sweet scent
+fills the air, whether from the many birds flying overhead, or the ground
+itself is unknown.  Far to the north, a daunting peak rises above the gentle
+slopes of the hills, while southward can be seen a mountain of even larger
+porpotions.    
+~
+101 p h 0 0  4
+D0
+~
+~
+0 0 10115 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10117 0 0 0 0 0 0 0 0
+S
+#10117
+In the Hills~
+   Between two impressive mountain ranges, these hills are a testament to the
+beauty of Krynn.  Emerald grass covers these gentle rises, and wildlife of all
+types can be seen feasting on the plentiful game available.  A sweet scent
+fills the air, whether from the many birds flying overhead, or the ground
+itself is unknown.  Far to the north, a daunting peak rises above the gentle
+slopes of the hills, while southward can be seen a mountain of even larger
+porpotions.    
+~
+101 p h 0 0  4
+D0
+~
+~
+0 0 10116 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10118 0 0 0 0 0 0 0 0
+S
+#10118
+In the Hills~
+   Between two impressive mountain ranges, these hills are a testament to the
+beauty of Krynn.  Emerald grass covers these gentle rises, and wildlife of all
+types can be seen feasting on the plentiful game available.  A sweet scent
+fills the air, whether from the many birds flying overhead, or the ground
+itself is unknown.  Far to the north, a daunting peak rises above the gentle
+slopes of the hills, while southward can be seen a mountain of even larger
+porpotions.    
+~
+101 p h 0 0  4
+D6
+~
+~
+0 0 10117 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10119 0 0 0 0 0 0 0 0
+S
+#10119
+In the Hills~
+   Between two impressive mountain ranges, these hills are a testament to the
+beauty of Krynn.  Emerald grass covers these gentle rises, and wildlife of all
+types can be seen feasting on the plentiful game available.  A sweet scent
+fills the air, whether from the many birds flying overhead, or the ground
+itself is unknown.  Far to the north, a daunting peak rises above the gentle
+slopes of the hills, while southward can be seen a mountain of even larger
+porpotions.    
+~
+101 p h 0 0  4
+D2
+~
+~
+0 0 10120 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10118 0 0 0 0 0 0 0 0
+S
+#10120
+In the Hills~
+   Between two impressive mountain ranges, these hills are a testament to the
+beauty of Krynn.  Emerald grass covers these gentle rises, and wildlife of all
+types can be seen feasting on the plentiful game available.  A sweet scent
+fills the air, whether from the many birds flying overhead, or the ground
+itself is unknown.  Far to the north, a daunting peak rises above the gentle
+slopes of the hills, while southward can be seen a mountain of even larger
+porpotions.    
+~
+101 p h 0 0  4
+D0
+~
+~
+0 0 10119 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10121 0 0 0 0 0 0 0 0
+S
+#10121
+In the Hills~
+   Between two impressive mountain ranges, these hills are a testament to the
+beauty of Krynn.  Emerald grass covers these gentle rises, and wildlife of all
+types can be seen feasting on the plentiful game available.  A sweet scent
+fills the air, whether from the many birds flying overhead, or the ground
+itself is unknown.  Far to the north, a daunting peak rises above the gentle
+slopes of the hills, while southward can be seen a mountain of even larger
+porpotions.    
+~
+101 p h 0 0  4
+D6
+~
+~
+0 0 10120 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10122 0 0 0 0 0 0 0 0
+S
+#10122
+In the Hills~
+   Between two impressive mountain ranges, these hills are a testament to the
+beauty of Krynn.  Emerald grass covers these gentle rises, and wildlife of all
+types can be seen feasting on the plentiful game available.  A sweet scent
+fills the air, whether from the many birds flying overhead, or the ground
+itself is unknown.  Far to the north, a daunting peak rises above the gentle
+slopes of the hills, while southward can be seen a mountain of even larger
+porpotions.    
+~
+101 p h 0 0  4
+D2
+~
+~
+0 0 10123 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10121 0 0 0 0 0 0 0 0
+S
+#10123
+Before a Mammoth Mountain~
+   Breathtaking green hills begin to roll from the gound here, a vast
+difference to the mountain range to the south.  A sweet, inviting scent beckons
+towards the hills, and small animals can be witnessed scampering for food
+across these small rises.  Small pine trees, and other tiny plants are dotting
+these mounds, and game trails of all sorts intersect and split off from the
+main path.  To the south, an impressive mountain rises into the heavens,
+inticing only the bravest soul to test its craggy peaks.    
+~
+101 cp h 0 0  4
+D0
+~
+~
+0 0 10122 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10124 0 0 0 0 0 0 0 0
+S
+#10124
+A Mountain Path~
+   A desolate mountain trail begins here, carving a path through the imposing
+peaks.  Sparse life grows to either side of the path, although it seems to thin
+out closer to the mountain.  A sharp breeze whistles past, causing even the
+most stalwart traveller to shiver in cold.  The rugged path snakes its way
+south, while green pastures can be spotted to the north.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10123 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10125 0 0 0 0 0 0 0 0
+S
+#10125
+A Mountain Path~
+   A desolate mountain trail begins here, carving a path through the imposing
+peaks.  Sparse life grows to either side of the path, although it seems to thin
+out closer to the mountain.  A sharp breeze whistles past, causing even the
+most stalwart traveller to shiver in cold.  The rugged path snakes its way
+southeast, while green pastures can be spotted to the north.    
+An old rotting tree partially blocks the path here.
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10124 0 0 0 0 0 0 0 0
+D2
+~
+tree~
+1 0 10195 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10126 0 0 0 0 0 0 0 0
+E
+tree old rotting~
+   This old tree completely blocks everything to the south and partially blocks
+the path southeast.  Upon further inspection it can be seen that the tree did
+not fall over but was forced over.    
+~
+S
+#10126
+A Mountain Path~
+   A desolate mountain trail begins here, carving a path through the imposing
+peaks.  Sparse life grows to either side of the path, although it seems to thin
+out closer to the mountain.  A sharp breeze whistles past, causing even the
+most stalwart traveller to shiver in cold.  The rugged path snakes its way
+south, while green pastures can be spotted to the north.    
+~
+101 p h 0 0  5
+D2
+~
+~
+0 0 10127 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10125 0 0 0 0 0 0 0 0
+S
+#10127
+A Steep Mountain Trail~
+   A barren, rock pathway begins its ascent here, travelling up into the rugged
+peak high above.  Small tufts of weeds line this pathway, and farther up the
+trail even less life can be seen.  A sharp wind blows past, giving this
+mountain a desolate, abandoned feel.  Life begins growing again to the north,
+while this craggy path continues rising into the heavens.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10126 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10128 0 0 0 0 0 0 0 0
+S
+#10128
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D2
+~
+~
+0 0 10129 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10127 0 0 0 0 0 0 0 0
+S
+#10129
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10128 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10130 0 0 0 0 0 0 0 0
+S
+#10130
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D2
+~
+~
+0 0 10131 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10129 0 0 0 0 0 0 0 0
+S
+#10131
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10130 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10132 0 0 0 0 0 0 0 0
+S
+#10132
+A Large Plateau~
+   This is a large open expanse at the top of one of the peaks.  Puddles of
+half-melted snow line the path to either side, and a harsh wind whistles past.
+Small rocks and other loose debris crumble underfoot, making travel very
+precarious along this trail.  No animal tracks of any kind can be spotted, and
+it is a wonder at who carved this path through the mountainside.    
+~
+101 p h 0 0  5
+D2
+~
+~
+0 0 10133 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10131 0 0 0 0 0 0 0 0
+S
+#10133
+A Large Plateau~
+   This is a large open expanse at the top of one of the peaks.  Puddles of
+half-melted snow line the path to either side, and a harsh wind whistles past.
+Small rocks and other loose debris crumble underfoot, making travel very
+precarious along this trail.  No animal tracks of any kind can be spotted, and
+it is a wonder at who carved this path through the mountainside.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10132 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10134 0 0 0 0 0 0 0 0
+S
+#10134
+A Large Plateau~
+   This is a large open expanse at the top of one of the peaks.  Puddles of
+half-melted snow line the path to either side, and a harsh wind whistles past.
+Small rocks and other loose debris crumble underfoot, making travel very
+precarious along this trail.  No animal tracks of any kind can be spotted, and
+it is a wonder at who carved this path through the mountainside.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10133 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10135 0 0 0 0 0 0 0 0
+S
+#10135
+A Large Plateau~
+   This is a large open expanse at the top of one of the peaks.  Puddles of
+half-melted snow line the path to either side, and a harsh wind whistles past.
+Small rocks and other loose debris crumble underfoot, making travel very
+precarious along this trail.  No animal tracks of any kind can be spotted, and
+it is a wonder at who carved this path through the mountainside.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10134 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10136 0 0 0 0 0 0 0 0
+S
+#10136
+A Large Plateau~
+   This is a large open expanse at the top of one of the peaks.  Puddles of
+half-melted snow line the path to either side, and a harsh wind whistles past.
+Small rocks and other loose debris crumble underfoot, making travel very
+precarious along this trail.  No animal tracks of any kind can be spotted, and
+it is a wonder at who carved this path through the mountainside.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10135 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10137 0 0 0 0 0 0 0 0
+S
+#10137
+A Granite Wall~
+   A huge granite wall rises far into the sky here, without even a crack
+marring its pristine condition.  The ground in front of this barrier seems more
+heavily trampled down then other places, with deep footprints visible.  The
+barren pathway continues to the north and southeast, both directions seemingly
+converging at this rock.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10136 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10138 0 0 0 0 0 0 0 0
+S
+#10138
+A Large Plateau~
+   This is a large open expanse at the top of one of the peaks.  Puddles of
+half-melted snow line the path to either side, and a harsh wind whistles past.
+Small rocks and other loose debris crumble underfoot, making travel very
+precarious along this trail.  No animal tracks of any kind can be spotted, and
+it is a wonder at who carved this path through the mountainside.    
+~
+101 p h 0 0  5
+D2
+~
+~
+0 0 10139 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10137 0 0 0 0 0 0 0 0
+S
+#10139
+A Large Plateau~
+   This is a large open expanse at the top of one of the peaks.  Puddles of
+half-melted snow line the path to either side, and a harsh wind whistles past.
+Small rocks and other loose debris crumble underfoot, making travel very
+precarious along this trail.  No animal tracks of any kind can be spotted, and
+it is a wonder at who carved this path through the mountainside.    
+~
+101 p h 0 0  5
+D0
+~
+~
+0 0 10138 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10140 0 0 0 0 0 0 0 0
+S
+#10140
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D4
+~
+~
+0 0 10139 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10141 0 0 0 0 0 0 0 0
+S
+#10141
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D5
+~
+~
+0 0 10142 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10140 0 0 0 0 0 0 0 0
+S
+#10142
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D4
+~
+~
+0 0 10141 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 10143 0 0 0 0 0 0 0 0
+S
+#10143
+A Steep Mountain Trail~
+   A desolate trail winds its way up and down this mountainside, carving its
+path into the imposing rock.  Small boulders line this trail, proof that not
+all is stable in this mountain range.  All movement and sounds send endless
+echoes bouncing off the jagged peaks, giving this mountain an abandoned, empty
+feel.    
+~
+101 p h 0 0  5
+D4
+~
+~
+0 0 10142 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10144 0 0 0 0 0 0 0 0
+S
+#10144
+Beginning of a Large Mountain~
+   A rugged, dismal peak rises into the clouds here, so vaunting as to defy all
+who would scale it.  Paltry efforts at life attempt to grow to the sides of the
+mountain, mostly weeds and the smallest of scrub bushes.  A biting wind
+whistles past, effectively cutting off all other sounds.  A desolate path seems
+to carve itself through the mountain to the northwest, and to the south is all
+barren plains.    
+~
+101 p h 0 0  2
+D6
+~
+~
+0 0 10143 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10145 0 0 0 0 0 0 0 0
+S
+#10145
+Approaching a Large Mountain~
+   Desolate, dismal plains are visible in all directions.  The sun-baked land
+throws dirt into the air with every step, and vision is easily obscured by the
+choking dust.  Minor weeds are struggling for life here, and the ground itself
+cries for someone to end its parched torment.  Looking to the northwest, a
+huge, imposing peak juts from the flatlands.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10146 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10144 0 0 0 0 0 0 0 0
+S
+#10146
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10145 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10147 0 0 0 0 0 0 0 0
+S
+#10147
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10146 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10148 0 0 0 0 0 0 0 0
+S
+#10148
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  A lone vulture circles overheard, hungry to feast on an unlucky
+traveller.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10149 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10147 0 0 0 0 0 0 0 0
+S
+#10149
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10148 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10150 0 0 0 0 0 0 0 0
+S
+#10150
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10149 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10151 0 0 0 0 0 0 0 0
+S
+#10151
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10152 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10150 0 0 0 0 0 0 0 0
+S
+#10152
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  A large carcass of a creature lies here, long since picked clean by
+whatever beasts roam these plains.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10151 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10153 0 0 0 0 0 0 0 0
+S
+#10153
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10152 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10154 0 0 0 0 0 0 0 0
+S
+#10154
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the thick dust clouding the
+area.  A convergence of paths can be glimpsed to the south.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10155 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10153 0 0 0 0 0 0 0 0
+S
+#10155
+Intersection in The Plains of Dust~
+   Barely any vegetation grows at these crossroads, and the ground itself seems
+more trampled then normal.  An eerie wind whistles past, throwing dusty debris
+in the air, clouding vision and choking lungs.  In all directions, the desolate
+plains appear as if a scorch mark on the land, although a steeper rise is
+noticeable to the far north.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10154 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 10157 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10168 0 0 0 0 0 0 0 0
+S
+#10156
+plains of dust~
+You are in a room.
+~
+101 0 h 0 0  3
+S
+#10157
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10158 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10155 0 0 0 0 0 0 0 0
+S
+#10158
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10159 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10157 0 0 0 0 0 0 0 0
+S
+#10159
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10160 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10158 0 0 0 0 0 0 0 0
+S
+#10160
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  Some sort of animal carcass lies here decaying, picked clean long ago by
+whatever creatures roam these plains.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10161 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10159 0 0 0 0 0 0 0 0
+S
+#10161
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10162 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10160 0 0 0 0 0 0 0 0
+S
+#10162
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10163 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10161 0 0 0 0 0 0 0 0
+S
+#10163
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10164 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10162 0 0 0 0 0 0 0 0
+S
+#10164
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10165 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10163 0 0 0 0 0 0 0 0
+S
+#10165
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10166 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10164 0 0 0 0 0 0 0 0
+S
+#10166
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 10167 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10165 0 0 0 0 0 0 0 0
+S
+#10167
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D1
+~
+~
+0 0 7200 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 10166 0 0 0 0 0 0 0 0
+S
+#10168
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  A convergence of paths can be glimpsed to the northeast.    
+~
+101 p h 0 0  3
+D7
+~
+~
+0 0 10155 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10169 0 0 0 0 0 0 0 0
+S
+#10169
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D7
+~
+~
+0 0 10168 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10170 0 0 0 0 0 0 0 0
+S
+#10170
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D7
+~
+~
+0 0 10169 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10171 0 0 0 0 0 0 0 0
+S
+#10171
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10172 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10170 0 0 0 0 0 0 0 0
+S
+#10172
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10171 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10173 0 0 0 0 0 0 0 0
+S
+#10173
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  A small patch of blood has been soaked into the ground here, turning the
+otherwise burnt grey soil a musty red.    
+~
+101 p h 0 0  3
+D7
+~
+~
+0 0 10172 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10174 0 0 0 0 0 0 0 0
+S
+#10174
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D7
+~
+~
+0 0 10173 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10175 0 0 0 0 0 0 0 0
+S
+#10175
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D7
+~
+~
+0 0 10174 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 10176 0 0 0 0 0 0 0 0
+S
+#10176
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10177 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 10175 0 0 0 0 0 0 0 0
+S
+#10177
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10176 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10178 0 0 0 0 0 0 0 0
+S
+#10178
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10177 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10179 0 0 0 0 0 0 0 0
+S
+#10179
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  A lone vulture circles overhead, hungry to feast on an unlucky
+traveller.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10178 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10180 0 0 0 0 0 0 0 0
+S
+#10180
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10179 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10181 0 0 0 0 0 0 0 0
+S
+#10181
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10180 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10182 0 0 0 0 0 0 0 0
+S
+#10182
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10181 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10183 0 0 0 0 0 0 0 0
+S
+#10183
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10182 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10184 0 0 0 0 0 0 0 0
+S
+#10184
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10183 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10185 0 0 0 0 0 0 0 0
+S
+#10185
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10186 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10184 0 0 0 0 0 0 0 0
+S
+#10186
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  A lone scrub bush grows here, attempting to eek out an existance in this
+harshest of environments.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10185 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10187 0 0 0 0 0 0 0 0
+S
+#10187
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10186 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10188 0 0 0 0 0 0 0 0
+S
+#10188
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10187 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10189 0 0 0 0 0 0 0 0
+S
+#10189
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10188 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10190 0 0 0 0 0 0 0 0
+S
+#10190
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D6
+~
+~
+0 0 10189 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10191 0 0 0 0 0 0 0 0
+S
+#10191
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10192 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10190 0 0 0 0 0 0 0 0
+S
+#10192
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.    
+~
+101 p h 0 0  3
+D0
+~
+~
+0 0 10191 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 10193 0 0 0 0 0 0 0 0
+S
+#10193
+Plains of Dust~
+   Grey and brown cracked land spreads in all directions, screaming for water
+and nutrients.  Small weeds grow to either side of the pathetic path, proof
+that this trail is well travelled.  Dirt and grime are tossed into the air with
+every step, making it difficult to see through the think dust clouding the
+area.  To the south, a small rise eases its way up from the flatlands.    
+~
+101 p h 0 0  3
+D2
+~
+~
+0 0 10194 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 10192 0 0 0 0 0 0 0 0
+S
+#10194
+Overlooking Tarsis the Beautiful~
+   Standing upon this gentle rise in the Plains, a city can be spied to the
+south.  A great wall surrounds this city, although many cracks and holes appear
+evident in its stonework.  Travellers of all sorts flock to this town, seeking
+whatever solace they can find behind its defenses.  To the center of town, a
+multitude of ruined buildings are visible, although the outer businesses seem
+to be in fine shape.  Along the western edge of the city, white-winged ships
+can be spotted lying deserted in a sea of dust.    
+~
+101 p h 0 0  2
+D0
+~
+~
+0 0 10193 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 13149 0 0 0 0 0 0 0 0
+S
+#10195
+A Nearly Hidden Passage~
+   This passage looks to have been hidden behind a large fallen tree.  Upon
+further inspection it can be seen that the tree did not fall over on its own
+but was forced over by an unknown force.  There is a faint trail to the south
+leading into an opening on the side of a solid granite wall.    
+~
+101 p h 0 0  0
+D0
+~
+tree~
+1 0 10125 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10196 0 0 0 0 0 0 0 0
+S
+#10196
+A Nearly Hidden Passage~
+   The ground here is hard and scorched by the sun and severe winds.  Its hard
+to determind between the trail and the hardened ground.  Many large rocks are
+scattered about the area, some seem to be arranged in different shapes and
+patterns.  There seems to be something strange about this area, as if it was
+meant to be hidden from the rest of Krynn.    
+~
+101 p h 0 0  0
+D0
+~
+~
+0 0 10195 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10197 0 0 0 0 0 0 0 0
+S
+#10197
+A Nearly Hidden Passage~
+   The ground here is hard and scorched by the sun and severe winds.  Its hard
+to determind between the trail and the hardened ground.  Many large rocks are
+scattered about the area, some seem to be arranged in different shapes and
+patterns.  There seems to be something strange about this area, as if it was
+meant to be hidden from the rest of Krynn.    
+~
+101 p h 0 0  0
+D0
+~
+~
+0 0 10196 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10198 0 0 0 0 0 0 0 0
+S
+#10198
+A Nearly Hidden Passage~
+   The ground here is hard and scorched by the sun and severe winds.  Its hard
+to determind between the trail and the hardened ground.  Many large rocks are
+scattered about the area, some seem to be arranged in different shapes and
+patterns.  There seems to be something strange about this area, as if it was
+meant to be hidden from the rest of Krynn.    
+~
+101 p h 0 0  0
+D0
+~
+~
+0 0 10197 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 10199 0 0 0 0 0 0 0 0
+S
+#10199
+A Nearly Hidden Passage~
+   The ground here is hard and scorched by the sun and severe winds.  Its hard
+to determind between the trail and the hardened ground.  Many large rocks are
+scattered about the area, some seem to be arranged in different shapes and
+patterns.  There seems to be something strange about this area, as if it was
+meant to be hidden from the rest of Krynn.    
+~
+101 p h 0 0  0
+D0
+~
+~
+0 0 10198 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 9058 0 0 0 0 0 0 0 0
+S
+$

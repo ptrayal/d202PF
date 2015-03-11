@@ -1,0 +1,2073 @@
+#13000
+The Central Plaza~
+   This plaza stands at the very heart of the city.  It was built before the
+Cataclysm from colored cobblestones, and once formed a great mosaic celebrating
+the proud port city.  Now, with its surface cracked and the colors faded, it
+serves as a testament to the city's ruin.  A ways to the east of here, an
+ornate four-story mansion can be seen.  A ways to the south, a large wooden and
+stone structure stands.  The large building looks to be an inn or tavern.    
+~
+130 cu efh 0 0  1
+D0
+~
+~
+0 0 13003 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13002 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13004 0 0 0 0 0 0 0 0
+S
+#13001
+The Edge of The Central Plaza~
+   Just west of here is the Central Plaza.  In the center of the plaza a
+fountain can be seen, endlessly spewing very clear water.  The plaza was built
+long ago, before the Cataclysm and once served as a proud reminder of the
+city's wealth and leadership.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13008 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13000 0 0 0 0 0 0 0 0
+S
+#13002
+The Edge of The Central Plaza~
+   Just north of here lies the Central Plaza, the very heart of the city.  The
+faded cobblestones and their cracked surface can already be seen.  In the
+center of the plaza a fountain resides there, endlessly spewing glistening
+water.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13000 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13006 0 0 0 0 0 0 0 0
+S
+#13003
+The Edge of the Central Plaza~
+   Just south of here lies the Central Plaza.  The Central Plaza is at the
+heart of the Lordcity.  The faded cobblestones and their cracked surface can
+already be seen.  In the center of the plaza an intricately carved fountain can
+be seen, spitting pure, cool water.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13008 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13000 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13007 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13082 0 0 0 0 0 0 0 0
+S
+#13004
+The Edge of the Central Plaza~
+   Just a few steps east of here lies the Central Plaza.  The Central Plaza is
+a place where many of the townsfolk gather to discuss everyday happenings in
+the Lordcity.  At the center of the plaza a fountain can be seen spewing clear
+water endlessly.  The plaza appears to form some sort of mosaic.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13007 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13000 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13006 0 0 0 0 0 0 0 0
+S
+#13005
+The Edge of The Central Plaza~
+   A short walk to the northwest of here lies the Central Plaza.  This plaza
+has a fountain in the center that spits water into the air.  From the style of
+the plaza, it would appear it was built long ago, probably before the
+Cataclysm.  From here, the plaza looks to form some sort of mosaic.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13001 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13062 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13002 0 0 0 0 0 0 0 0
+S
+#13006
+The Edge of The Central Plaza~
+   To the northeast of here lies the Central Plaza.  Many townsfolk have
+gathered at this plaza to discuss the events of the Lordcity, and others just
+to chit-chat.  Drops of water can be heard falling into the basin of what
+appears to be a fountain.  From here, it looks as if the plaza may form some
+sort of mosaic.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13004 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13002 0 0 0 0 0 0 0 0
+S
+#13007
+The Edge of The Central Plaza~
+   A little to the southeast of here lies the Central Plaza of Tarsis.  This
+once beautiful, luxuriant city has suffered an ill fate from the Cataclysm.  
+The plaza appears to have once been a proud mosaic of the city, however now is
+just cracked and crumbling - much like the economical situation.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13004 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13009 0 0 0 0 0 0 0 0
+S
+#13008
+The Edge of The Central Plaza~
+   Merely a few steps to the southwest of here leads to the Central Plaza.  
+The plaza was once a pleasant, stylish decoration where the townsfolk would
+spend a great deal of their time for socializing.  A once marvelous fountain
+can be viewed in the center of the plaza, as water pours from it in a steady
+stream.    
+~
+130 0 f 0 0  1
+D2
+~
+~
+0 0 13001 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13003 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13069 0 0 0 0 0 0 0 0
+S
+#13009
+West Main Street~
+   This is the west section of Main Street; the most commonly used street in
+the city of Tarsis.  It leads primarily to the Central Plaza, which is to the
+east, and then from there one can reach the governor's palace and gardens.  
+The street is paved, and still in somewhat fair condition.  Heavy wear and tear
+on the street is very apparent.  Some small shrubbery has been planted on
+either side of the street, a few of them have taken root, however, most of them
+appear to be withered and dying.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13007 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13010 0 0 0 0 0 0 0 0
+S
+#13010
+West Main Street~
+   This street is one of the more commonly used streets through Tarsis.  It
+connects the Central Plaza, which is to the east, and Waterfront Boulevard, to
+the west.  The street is paved and still in fair condition, though heavy wear
+and tear are starting to take their toll.  Small bushes and trees have been
+planted along the side of the street, but most of them look to be withered or
+dead.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13009 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13011 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13012 0 0 0 0 0 0 0 0
+S
+#13011
+Intersection of Waterfront Boulevard and West Main Street~
+   East of here lies West Main Street, one of the most commonly used streets in
+Tarsis.  To the southeast, and north, Waterfront Boulevard continues.  
+Waterfront Boulevard was once a street that actually traced the edge of the
+sea, however once the Cataclysm struck the town it became landlocked.  Now,
+where there was once a sea, white winged ships have been overturned, and many
+of them have been made into small hostels and homes for families.    
+~
+130 0 0 0 0  1
+D0
+~
+~
+0 0 13016 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13010 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13054 0 0 0 0 0 0 0 0
+S
+#13012
+A Short Cobblestone Path~
+   This short path, paved in cobblestone doesn't have a name of any sort.  
+It's merely used as a connecting road for the more important streets of Tarsis.
+Years ago, peddlers and merchants lined all of these streets selling their
+wares.  After the sea disappeared, most of the merchant and peddlers did the
+same.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13013 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13010 0 0 0 0 0 0 0 0
+S
+#13013
+A Short Cobblestone Path~
+   This path winds to the west, and to the northwest of here you can see an
+intersection of some kind, probably a place where this path intervenes with a
+more important street.  The path is paved in cobblestone.  The lawn on either
+side of the street is turning wiry, and yellow.    
+~
+130 0 f 0 0  1
+D2
+~
+~
+0 0 13012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13014 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13086 0 0 0 0 0 0 0 0
+S
+#13014
+A Short Cobblestone Path~
+   This path continues towards the east, and to the west of here lies
+Waterfront Boulevard, one of the more commonly used streets within the city.  
+A good distance to the east of here, you can see what looks to be a large
+mansion with spired towers.  The path is paved in cobblestone and looks to be
+in rather ill condition.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13015 0 0 0 0 0 0 0 0
+S
+#13015
+Waterfront Boulevard~
+   Waterfront Boulevard once traced the edge of the sea.  Now, to the west of
+here lies a dry seabed.  The ships that once sat within the docks are now
+strewn across a desert-like land.  Some of the larger ships have been turned
+into residences or small hostels by the people who decided to remain in Tarsis
+after its ill fate.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13017 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13014 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13016 0 0 0 0 0 0 0 0
+S
+#13016
+Waterfront Boulevard~
+   This street once created a border with the sea.  Years ago, sailors,
+merchants, and peddlers of almost every race traipsed to and fro along this
+avenue.  After the Cataclysm the sea drained.  Now to the west of here a new
+city is beginning to form.  The proud white winged ships that once stood in the
+docks have now been scattered across the dry seabed, as if they were discared
+toys of giants.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13015 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13011 0 0 0 0 0 0 0 0
+S
+#13017
+Waterfront Boulevard~
+   North and south of here, Waterfront Boulevard continues to stretch along the
+west side of Tarsis.  To the northeast lies a three-way intersection.  A new
+city has recently began to form to the west on the dry seabed.  The ships that
+once sailed the sea, delivering imports and exports have now been made into
+small hostels or residences for the majority of people who have remained in
+Tarsis.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13018 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13015 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13086 0 0 0 0 0 0 0 0
+S
+#13018
+Waterfront Boulevard~
+   To the north of here, Waterfront Boulevard intersects with a couple of other
+streets and roads, and to the south, Waterfront Boulevard continues.  Far to
+the east of here you can see a large, elaborate four story mansion, with spired
+towers, and to the west of here lies a barren wasteland, though it looks as if
+it could be occupied by some of the local residents.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13019 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13017 0 0 0 0 0 0 0 0
+S
+#13019
+Waterfront Boulevard~
+   To the northeast of here lies Rosewood Avenue, a once beautiful street that
+covered the northern edge of Tarsis.  Southeast of here is a cobblestone
+street, though there is no name specified for it.  To the south of here,
+Waterfront Boulevard continues on, creating a barrier between the new, and old
+cities.    
+~
+130 0 f 0 0  1
+D2
+~
+~
+0 0 13018 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13020 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13085 0 0 0 0 0 0 0 0
+S
+#13020
+Rosewood Avenue~
+   This was once one of the more well taken care of roads in the lordcity.  
+Finely paved roads of flagstone lined the floors here, with craftsmanship that
+only a master paviour could match.  Many a tired sailor or traveler have
+trapsed their way along this road after entering the northern gate of the city.
+Beautiful rails crafted of rosewood once lined either side of the road, but
+have now rotted, or just disappeared completely.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13021 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13019 0 0 0 0 0 0 0 0
+S
+#13021
+Rosewood Avenue~
+   Rosewood avenue was once one of the more elaborate streets in Tarsis.  The
+flagstone perfectly cut, and laid.  Paviours created this street with more an
+intent of making it beautiful than servicable.  Long rails of rosewood line
+both sides of the street, though now most of the rails are rotting or gone.  
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13022 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13020 0 0 0 0 0 0 0 0
+S
+#13022
+Rosewood Avenue~
+   This was one of the more elegant streets on the outskirts of Tarsis.  The
+flagstone was perfectly cut and laid.  The craftsmanship would challenge that
+of dwarven stature.  Long ago, rails of rosewood complimented either side of
+the avenue, acting as aids for the tired travelers and sailors that may walk
+this street.  Most of the rails have now either deteriorated or just
+disappeared completely.    
+~
+130 0 0 0 0  1
+D2
+~
+~
+0 0 13083 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13023 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13021 0 0 0 0 0 0 0 0
+S
+#13023
+Rosewood Avenue~
+   Rosewood Avenue had always been one of the more decorative paths through the
+city of Tarsis.  The flagstones that paved the street were of expert
+craftsmanship, and had been pieced together so well that the avenue appeared to
+be made of a single block of stone.  Before the Cataclysm, beautiful rails made
+from rosewood lined both sides of the street.  Now the rails have almost
+totally disappeared, the few seconds that do remain are battered and rotting.
+~
+130 0 f 0 0  1
+D9
+~
+~
+0 0 13022 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13024 0 0 0 0 0 0 0 0
+S
+#13024
+Before The North Gate~
+   North of here lies a cast iron gate, most commonly referred to as the North
+Gate.  This section of town sports an intersection of streets; to the south
+lies Crimson Avenue, and to the northwest and east Rosewood Avenue continues.
+There is a small station near the gate, most likely a place for the guard on
+duty to stand watch in.    
+~
+130 c fh 0 0  1
+D0
+~
+~
+0 0 13139 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13025 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13078 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13023 0 0 0 0 0 0 0 0
+S
+#13025
+Rosewood Avenue~
+   A few steps to the northwest a large, cast iron gate can be seen.  It is the
+North Gate of Tarsis.  An intersection is also created in front of the gate,
+where Rosewood Avenue and Crimson Avenue come together.  This street is paved
+with aged, crumbling flagstone, though it was most obviously a spectacular feat
+of worksmanship at some point in the city's history.    
+~
+130 0 f 0 0  1
+D3
+~
+~
+0 0 13024 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13026 0 0 0 0 0 0 0 0
+S
+#13026
+Rosewood Avenue~
+   This section of Rosewood Avenue develops into a series of different paths.
+To the west of here is Crimson Avenue, one of the primary roads leading to the
+North Gate of town.  To the southwest, a short cobblestone path can be seen,
+leading most likely to another road of more importance, and to the northwest,
+or southeast, Rosewood Avenue continues.  The flagstone paving this street is
+aged and crumbling, and the carved rosewood rails have either vanished, or
+mostly rotted away.    
+~
+130 0 f 0 0  1
+D3
+~
+~
+0 0 13078 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13025 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13075 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13027 0 0 0 0 0 0 0 0
+S
+#13027
+Rosewood Avenue~
+   Rosewood Avenue continues to the northwest, and intersects with Palace
+Street to the southeast of here.  A short cobblestone path leads to the south
+of here, most likely just connecting one of the more important city streets to
+another.  The flagstone here on Rosewood Avenue was perfectly cut and fitted,
+making the whole street seem as if it were formed from one huge block of stone.
+This craftsmanship challenged even the master paviors of the lands.    
+~
+130 0 f 0 0  1
+D2
+~
+~
+0 0 13073 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13026 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13028 0 0 0 0 0 0 0 0
+S
+#13028
+Corner of Rosewood Avenue and Palace Street~
+   Rosewood Avenue meets Palace Street in this curving of the two roads.  The
+flagstone that paved Rosewood Avenue has also been placed here, and it looks as
+if it may stretch onward to cover Palace Street as well.  Palace Street looks
+to be simply immaculate, you assume that the streetsweepers take very good care
+of their governors personal avenue.    
+~
+130 0 f 0 0  1
+D2
+~
+~
+0 0 13029 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13027 0 0 0 0 0 0 0 0
+S
+#13029
+Before The East Gate~
+   Just to the north of here lies the intersection of Rosewood Avenue and
+Palace Street.  Both of these streets are prominent in the city of Tarsis, and
+are kept generally very clean.  Just to the west of here lies the governor's
+mansion, an ornate four- story building with spired towers.  To the west of
+here is Old Main Street, and to the southwest lies East Main Street.  
+Continuing south is Palace Street.    
+~
+130 c fh 0 0  1
+D0
+~
+~
+0 0 13028 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13140 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13030 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13072 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13071 0 0 0 0 0 0 0 0
+S
+#13030
+Palace Street~
+   To both the north and south of here, Palace Street stretches on.  Further to
+the south, Palace Street merges with Warlord's Walk, one of the more historical
+parts of town.  In the north lies Rosewood Avenue, the most northern street of
+Tarsis.  Just to the west of here you can see the governor's ornate, four-story
+mansion with spired towers.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13029 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13031 0 0 0 0 0 0 0 0
+S
+#13031
+Palace Street~
+   Northwards and southwards, the avenue known as Palace Street lies.  To the
+west of here lies the governor's elaborate, four-story mansion.  The spired
+towers from the mansion stretch high into the sky.  Both north and south of
+here, you can see that Palace Street eventually branches off into a number of
+different roads and avenues.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13030 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13032 0 0 0 0 0 0 0 0
+S
+#13032
+Palace Street~
+   To the north and south Palace Street continues.  In the west, the governor's
+four story ornate mansion can be seen, it's spired towers reaching high into
+the sky.  This street is very clean, you've noticed.  The streetsweepers
+probably take very good care of their governor's personal avenue.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13031 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13033 0 0 0 0 0 0 0 0
+S
+#13033
+Palace Street~
+   Both to the north and south, Palace Street continues.  Further to the south
+of here lies Warlord's Walk, one of the more historical avenues in Tarsis.  
+The road branches off into other small paths or avenues in both directions,
+north and south of here.  The governor's mansion can be seen directly to the
+west, it's spired towers reaching high into the heavens.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13032 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13034 0 0 0 0 0 0 0 0
+S
+#13034
+Palace Street~
+   Palace Street continues to both the north and the south, and to the
+southwest lies a short avenue, probably used only to connect one of the more
+prominent streets in Tarsis to another.  To the northwest of here lies the
+governor's mansion, it looks to be about four stories in height, and has spired
+towers that reach high into the sky.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13033 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13035 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13063 0 0 0 0 0 0 0 0
+S
+#13035
+Palace Street~
+   To the north of here Palace Street hits an intersection with another
+connecting avenue, and also continues on to the south.  Just a short ways from
+here, you can see where it connects with Warlord's Walk, one of the streets in
+Tarsis with an actual historical significance.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13034 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13036 0 0 0 0 0 0 0 0
+S
+#13036
+Corner of Palace Street and Warlord's Walk~
+   To the north of here lies Palace Street, and to the southwest begins the
+famous avenue named Warlord's Walk.  It was on this street that the great
+warriors and defenders of Tarsis waged a small war against suspected Solamnic
+spies.  In honor to their acts of heroism, the governor named this section of
+street Warlord's Walk.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13035 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13037 0 0 0 0 0 0 0 0
+S
+#13037
+Warlord's Walk~
+   This southeast section of town was home to a small war waged by the famous
+warriors of Tarsis.  It was a bloody, murderous conflict that ended only when
+all suspected intruders had been slain.  To honor the act of heroism by the
+warriors, the governor has named this street Warlord's Walk.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13036 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13038 0 0 0 0 0 0 0 0
+S
+#13038
+Before The South Gate~
+   This is the historical location where Solamnic spies were encountered and
+the defending warriors of Tarsis began their battle.  The conflict lasted only
+a few hours, though many of the people involved were slain.  The few men and
+women left standing for Tarsis were dubbed heroes, and this stately avenue was
+give the name Warlord's Walk to celebrate their accomplishment.  Just to the
+south of here lies the south gate of Tarsis.    
+~
+130 c fh 0 0  1
+D2
+~
+~
+0 0 13141 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13060 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13037 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13039 0 0 0 0 0 0 0 0
+S
+#13039
+Warlord's Walk~
+   Warlord's Walk intervenes here with an entourage of streets to the
+northwest.  The short avenues have no legal name, and for the most part lead to
+other streets of more significance.  Towards the southwest, Warlord's Walk
+comes to an end, and becomes Merchant Street, the section of town where most of
+the remaining merchants now either hold residence, or tend to shops.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13065 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13038 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13040 0 0 0 0 0 0 0 0
+S
+#13040
+Intersection of Warlord's Walk and Merchant Street~
+   The historical street of Warlord's Walk becomes Merchant Street at this
+corner of town.  Any reputable merchants left within the city have set up shop
+towards the west of here.  A few peddlers walk the streets in hopes of making
+enough money from their wares to survive during these hard times.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13162 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13163 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13041 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13039 0 0 0 0 0 0 0 0
+S
+#13041
+Merchant Street~
+   To the east of here Warlord's Walk and Merchant Street intervene.  This
+historical significance of Warlord's Walk still brings many curious souls with
+a desire to see the sight of such a great battle.  To the north, a small
+collection of streets lie, their only task to lead citizens and newcomers to
+streets of more importance.  Towards the west, Merchant Street continues
+onward.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13066 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13040 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13164 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13042 0 0 0 0 0 0 0 0
+S
+#13042
+Merchant Street~
+   To the east and west of here Merchant Street continues to stretch outward.
+A few steps to the north, Merchant Street intercepts another smaller collection
+of unnamed avenues.  Most of the reputable merchants left in Tarsis now call
+this section of town their home.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13067 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13041 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13165 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13043 0 0 0 0 0 0 0 0
+S
+#13043
+Merchant Street~
+   To the east of here Merchant Street continues to stretch on towards the
+south gate of town.  A few steps to the west, the street twists and turns,
+forming Merchant Corner.  Merchant Corner is the location of all the old shops
+in Tarsis, and is where most of the reputable peddlers now call home.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13042 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13166 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13045 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13046 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13044 0 0 0 0 0 0 0 0
+S
+#13044
+Merchant Corner~
+   Most of the merchants left in Tarsis now call Merchant Corner, this area of
+town, their home.  Gravels have been strewn about on the ground in an effort to
+prevent the slipping of wagons or horses while the ground is wet or icy.  The
+road twists and turns here, continue to form Merchants Corner.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13045 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13043 0 0 0 0 0 0 0 0
+S
+#13045
+Merchant Corner~
+   The road twists and turns through here, former a corner.  Most of the
+reputable merchants left within the city now call this area of town their home.
+Gravels have been tossed here to help prevent wagons or horses from sliding on
+the slick pavement in times when it is wet or icy.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13043 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13167 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13046 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13044 0 0 0 0 0 0 0 0
+S
+#13046
+Merchant Corner~
+   Merchant Corner intersects with a cobblestone path, and the southern edge of
+Waterfront Boulevard here.  Continuing on to the southwest is Merchant Corner,
+to the southeast is Merchant Street, nad to the northwest Waterfront Boulevard.
+The cobblestone path to the northeast of here merely has the purpose of leading
+persons from one important road to another.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13047 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13055 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13045 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13043 0 0 0 0 0 0 0 0
+S
+#13047
+Corner of Merchant Street and Waterfront Boulevard~
+   To the southeast of here lies Merchant Corner.  Leading towards the
+northeast, Waterfront Boulevard begins.  Waterfront Boulevard was once an
+avenue that lead along the edge of the sea, but now is merely a street between
+a city and a practically barren landscape.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13048 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13046 0 0 0 0 0 0 0 0
+S
+#13048
+Waterfront Boulevard~
+   Waterfront Boulevard continues to reach northeast closer to the center of
+Tarsis, and a short cobblestone path is towards the east.  Most of the unnamed
+paths in the city have only the task of connecting one of the primary streets
+to another.  Towards the southwest, Merchant Corner can be seen.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13055 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13049 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13047 0 0 0 0 0 0 0 0
+S
+#13049
+Waterfront Boulevard~
+   Towards the northeast and southwest Waterfront Boulevard continues.  
+Southeast of here lies a four-way intersection.  Waterfront Boulevard was once
+a street that traced the edge of the sea, however now, it traces nothing but a
+barren landscape full of landlocked ships.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13050 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13048 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13056 0 0 0 0 0 0 0 0
+S
+#13050
+Waterfront Boulevard~
+   Further on to the northeast, and southwest, Waterfront Boulevard continues.
+This street once traced the edge of the ocean, and was a commonly used road by
+the sailors and merchants of their time.  The road now just creates a boundary
+between the old city, and a practically barren landscape.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13051 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13049 0 0 0 0 0 0 0 0
+S
+#13051
+Waterfront Boulevard~
+   In the northeast and southwest, Waterfront Boulevard continues to stretch.
+Once a barrier that lined the lordcity from the sea, this road now just
+seperates a failing city from a barren wasteland.  The road is still commonly
+used, however, as the wear and tear on it are quite apparent.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13052 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13050 0 0 0 0 0 0 0 0
+S
+#13052
+Waterfront Boulevard~
+   Stretching on to both the northwest and southwest, Waterfront Boulevard
+lies.  This once finely paved road acted as a barrier between the sea and the
+lordcity of Tarsis, however it now is just a line between the old city, and new
+city - which is the desolate seabed filled with landlocked, trapped ships.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13053 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13051 0 0 0 0 0 0 0 0
+S
+#13053
+Waterfront Boulevard~
+   To the northwest and southeast Waterfront Boulevard continues.  This street
+is still in everyday use, and the wear and tear on the pavement definately
+shows in some spots.  Waterfront Boulevard once traced the edge of the sea, but
+now is merely a barrier between the old city and new city, the new city being
+practically a barren wasteland.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13054 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13052 0 0 0 0 0 0 0 0
+S
+#13054
+Waterfront Boulevard~
+   To the norwest, Waterfront Boulevard connects with West Main Street, another
+one of the more important streets in Tarsis.  To the far east of here, you can
+see an elaborate four story mansion with spired towers.  Waterfront Boulevard
+was once a street that traced the edge of the sea, but now merely creates a
+barrier between the city and a barren landscape.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13011 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13053 0 0 0 0 0 0 0 0
+S
+#13055
+A Short Cobblestone Path~
+   This short cobblestone path acts as somewhat of an intersection.  To the
+west of here lies Waterfront Boulevard, a street that once traced the edge of
+the sea.  To the northeast of here, is a four-way intersection, and to the
+southwest of here lies Merchant Corner; home to the few remaining merchants and
+peddlers of goods.    
+~
+130 0 f 0 0  1
+D3
+~
+~
+0 0 13048 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13056 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13046 0 0 0 0 0 0 0 0
+S
+#13056
+A Four-Way Intersection~
+   To the east of here lies Red Dragon Avenue, and on that street you can see a
+large building composed of mostly stone.  To the northwest lies an exit to
+Waterfront Boulevard, a street that once traced the edge of the sea.  
+Southwest of here is a small cobblestone path, and yet another intersection.  
+To the southeast of here is a collection of streets, none of them having any
+true name or bearing.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13057 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13049 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13055 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13068 0 0 0 0 0 0 0 0
+S
+#13057
+Red Dragon Avenue~
+   Red Dragon Avenue has been named for it's famous inn, one of the nicer
+places in the city of Tarsis.  The inn has quite the history behind it, many
+stories have been told, and many acts have been performed within it's walls.  
+The street here is composed mostly of a fine, almost sandy gravel, althought it
+feels rather comfortable to walk on.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13058 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13056 0 0 0 0 0 0 0 0
+S
+#13058
+Red Dragon Avenue~
+   Directly north of here lies the Inn of the Red Dragon.  The fine gravels
+here feel comfortable on your feet.  The inn is rather large, and is a
+structure of wood and stone.  The same gravel covering the road here also lines
+the path to the front door of the hostel.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13160 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13059 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13057 0 0 0 0 0 0 0 0
+S
+#13059
+Red Dragon Avenue~
+   This street has been covered in very fine, almost sandy gravels.  Just to
+the northwest of here lies a large building, most likely the fabled Inn of the
+Red Dragon.  To the west lies Red Dragon Avenue, as well as to the east.  To
+the southwest of here is a small collection of streets, their only purpose to
+connect other primary roads together.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13060 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13058 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13064 0 0 0 0 0 0 0 0
+S
+#13060
+Intersection of Red Dragon Avenue and South Street~
+   To the west of here lies Red Dragon Avenue, a street probably named after
+the famous inn here in Tarsis.  The road is covered in very fine, almost sandy
+gravels that are very comfortable on your feet.  A large building can be seen a
+little to the northwest of here.  To the northeast of here, the governor's
+four-story ornate mansion can be seen, it's spired towers reaching high into
+the sky.  South Street lies to the northwest of here, and a large gate built
+into the city wall can be see to the southeast.    
+~
+130 0 f 0 0  1
+D3
+~
+~
+0 0 13059 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13061 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13038 0 0 0 0 0 0 0 0
+S
+#13061
+South Street~
+   South Street continues to the northwest of here, obviously leading to the
+central plaza.  To the southeast of here, this street intersects with Red
+Dragon Avenue, and to the east of here a small connecting avenue will lead you
+to Palace Street.  This street is very well-paved.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13063 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13062 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13060 0 0 0 0 0 0 0 0
+S
+#13062
+South Street~
+   South Street is a very well-paved street; possibly one of the newer streets
+in the city of Tarsis.  Only a few steps to the north of here lies the Central
+Plaza.  You can see from here that the Central Plaza probably formed some sort
+of mosaic, and that there is a very large fountain in the center of it.  A
+little to the northeast of here, the governor's mansion can be seen.  To the
+southwest of here, another very large building stands, quite possibly the local
+inn or tavern.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13005 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13061 0 0 0 0 0 0 0 0
+S
+#13063
+A Connecting Avenue~
+   This small connecting avenue connects the streets Palace Street and South
+Street together.  South Street lies to the west of here, and the elegant Palace
+Street to the northeast.  This road has been covered in basic gravels, nothing
+elaborate.  Directly to the north of here lies the governor's mansion, it's
+spired towers reaching high into the heavens.    
+~
+130 0 f 0 0  1
+D3
+~
+~
+0 0 13061 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13034 0 0 0 0 0 0 0 0
+S
+#13064
+A Collection of Streets~
+   This small collection of streets connections more important roads to others,
+and in some cases, even other little connecting avenues to other ones.  To the
+northeast of here lies Red Dragon Avenue, one of the most important streets in
+the city of Tarsis, but to the southeast and southwest, the small collection of
+streets continue.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13059 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13066 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13065 0 0 0 0 0 0 0 0
+S
+#13065
+A Collection of Streets~
+   Southeast of here lies Warlord's Walk, one of the more important streets in
+the city of Tarsis.  To the northwest, the small collection of roads continues,
+their only task is to bring roads of more importance together for easier
+navigation when moving about through the city.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13064 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13039 0 0 0 0 0 0 0 0
+S
+#13066
+A Collection of Streets~
+   To the south of here lies Merchant Street, the area of town where most of
+the merchants and peddlers still roam the town.  To the west of here, this
+small collection of streets continues, leading travelers on to streets of more
+importance.  To the northeast of here, the collection of streets continues to
+expand.    
+~
+130 0 f 0 0  1
+D2
+~
+~
+0 0 13041 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13067 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13064 0 0 0 0 0 0 0 0
+S
+#13067
+A Collection of Streets~
+   This collection of streets continues to span to the east, and northwest.  
+To the south of here, one can make their way to Merchant Street.  This road is
+paved in cobblestone, which has suffered tremendous wear and tear over the
+years.  In some areas, large portions of the cobblestone is missing entirely.
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13066 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13042 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13068 0 0 0 0 0 0 0 0
+S
+#13068
+A Collection of Streets~
+   This small connecting street acts as a link between one major road to
+another, it has no other purpose.  To the northwest of here, a four-way
+intersection can be seen, and to the southeast, just a continuation of this
+small road.  The road is paved in simple cobblestone.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13056 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13067 0 0 0 0 0 0 0 0
+S
+#13069
+East Main Street~
+   A ways to the east of here, the governor's ornate four-story mansion can be
+seen, it's spired towers reaching high into the sky.  Towards the southwest,
+you can see what looks to be the Central Plaza, basically the heart of Tarsis.
+From what you can tell, there is a large fountain in the plaza, and the whole
+area looks to be some sort of design, or mosaic.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13070 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13008 0 0 0 0 0 0 0 0
+S
+#13070
+East Main Street~
+   Towards the southeast of here, the governors mansion can be seen.  East Main
+Street continues to both the northeast, and southwest.  Continuing to the
+northeast will lead you to the east gate of Tarsis, while traveling further to
+the southwest will lead one to the Central Plaza; the heart of Tarsis.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13071 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13069 0 0 0 0 0 0 0 0
+S
+#13071
+East Main Street~
+   Continuing to the northeast will lead you to the east gate of the city of
+Tarsis.  To the north, Old Main Street stands, the very first road created in
+the original construction of the city.  East Main Street continues to the
+southwest, leading towards the governors mansion, and the Central Plaza.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13072 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13029 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13070 0 0 0 0 0 0 0 0
+S
+#13072
+Old Main Street~
+   Old Main Street was originally the very first road in Tarsis.  It still
+serves an important purpose, leading residents to many different districts of
+the city.  To the east lies the east gate of Tarsis, to the south, East Main
+Street, and towards the north to a small cobblestone pathway.  Old Main Street
+continues on to the northwest.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13073 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13029 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13071 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13074 0 0 0 0 0 0 0 0
+S
+#13073
+A Short Cobblestone Path~
+   Towards the north of here, the path leads you to Rosewood Avenue.  
+Continuing to the south, it connects to Old Main Street.  This path serves no
+purpose other than to connect these two streets together.  The usage of this
+road is minimal, as the wearing of the pavement is almost unable to be noticed.
+  
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13027 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13072 0 0 0 0 0 0 0 0
+S
+#13074
+Old Main Street~
+   Towards the west and southeast of here, Old Main Street continues onwards.
+Old Main Street was the first street constructed in the original building of
+Tarsis, and amazingly it still stands, and is in good condition.  Towards the
+north of here, a small cobblestone path can be seen.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13075 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13076 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13072 0 0 0 0 0 0 0 0
+S
+#13075
+A Short Cobblestone Path~
+   To the south of here lies Old Main Street, the first street built in the
+original construction of Tarsis.  To the northwest lies Crimson Avenue, a
+street that has been paved with red clay bricks.  In the northeast lies
+Rosewood Avenue, the street that conquers most of the northern section of
+Tarsis.    
+~
+130 0 f 0 0  1
+D2
+~
+~
+0 0 13074 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13078 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13026 0 0 0 0 0 0 0 0
+S
+#13076
+Old Main Street~
+   Stretching onward in an east to west pattern is Old Main Street.  This was
+the very first street made in the original construction of Tarsis, and is
+amazingly still in very good shape.  Towards the north lies Crimson Avenue, a
+street that has been paved with red clay bricks.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13077 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13074 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13079 0 0 0 0 0 0 0 0
+S
+#13077
+Crimson Avenue~
+   Directly to the north of here, Crimson Avenue continues.  Towards the south,
+Old Main Street meanders it's way through the city.  This street has been paved
+with a reddish colored brick, all of them strategically placed to form a very
+interesting circular design.  The road is in quite good condition.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13078 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13076 0 0 0 0 0 0 0 0
+S
+#13078
+Crimson Avenue~
+   To the north of here lies the north gate of Tarsis.  Leading towards the
+east, Rosewood Avenue begins it's dominating stretch of the northern section of
+town.  Crimson Avenue continues to the south, and in the southeast is a short
+cobblestone path, it's only task being to connect one more important street to
+another.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13024 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13026 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13077 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13075 0 0 0 0 0 0 0 0
+S
+#13079
+Old Main Street~
+   This street was the first street made in the original building of Tarsis.  
+It continues to reach towards the east, leading one towards the governors
+mansion and the Central Plaza; the heart of Tarsis.  To the west, Old Main
+Street connects with Sage Street to form an intersection.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13076 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13080 0 0 0 0 0 0 0 0
+S
+#13080
+Intersection of Sage Street and Old Main Street~
+   The two streets of Sage and Old Main intercept each other at this point.  
+Old Main Street continues along towards the east, and Sage Street scurries it's
+way into the north.  Aged and worn flagstone paves both of the streets, giving
+them a look of heavy wear and tear.  Once long ago, these streets were probably
+immaculate.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13083 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 13079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13081 0 0 0 0 0 0 0 0
+S
+#13081
+Sage Street~
+   Cracked and chipping flagstone lines this commonly used street of Tarsis.  
+The flagstone was laid many years ago, probably before the Cataclysm.  
+Although most of the city has remained intact, some of the more minor detail
+sof the city have suffered.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13080 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13082 0 0 0 0 0 0 0 0
+S
+#13082
+Sage Street~
+   This winding street is paved with large, smooth slabs of flagstone.  Most of
+the surface of the street is cracked and chipping, showing sure signs of wear
+and tear throughout the years.  This is one of the more commonly used streets
+in the Lordcity.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13081 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13003 0 0 0 0 0 0 0 0
+S
+#13083
+Sage Street~
+   This section of Sage Street intersects with a small cobblestone street
+leading southwest, and to Rosewood Avenue, one of the primary streets in the
+northern section of town.  The large, flat slabs of flagstone that pave the
+street look to be degrading even more near the area where Sage Street
+intersects with Rosewood Avenue.    
+~
+130 0 f 0 0  1
+D0
+~
+~
+0 0 13022 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13080 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13084 0 0 0 0 0 0 0 0
+S
+#13084
+A Cobblestone Street~
+   This small cobblestone avenue continues to the southwest, and leads to the
+northeast towards Sage Street, one of the more often used roads in the city of
+Tarsis.  This small street has no actual name, and only works as a link to
+connect the more commonly traversed roads.    
+~
+130 0 f 0 0  1
+D7
+~
+~
+0 0 13083 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13085 0 0 0 0 0 0 0 0
+S
+#13085
+A Cobblestone Street~
+   To the southeast of here is a three-way intersection, leading one to other
+more important districts of the city.  To the northwest of here, the street
+leads on to Waterfront Boulevard, one of the more commonly used streets in
+Tarsis.  To the northeast, the cobblestone street continues.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13019 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13084 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13086 0 0 0 0 0 0 0 0
+S
+#13086
+A Three-Way Intersection~
+   To the northwest an southeast of here, cobblestone streets lead residents of
+the city from one of the more important roads to another.  Towards the
+southwest, the intersection leads one to Waterfront Boulevard, a street through
+Tarsis that once traced the edge of the sea.    
+~
+130 0 f 0 0  1
+D6
+~
+~
+0 0 13085 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13017 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13013 0 0 0 0 0 0 0 0
+S
+#13087
+A Well-Paved Avenue~
+   A short distance to the east an ornate, four-story mansion can be seen.  It
+sports three spires that rise above expansive gardens.  It appears this is the
+only way to gain access to the mansion.  This serves as home to the governor
+and a few noble families that remain in Tarsis.  The mansion is most commonly
+referred to as the Palace.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13088 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13001 0 0 0 0 0 0 0 0
+S
+#13088
+A Well-Paved Avenue~
+   This is one of the few remaining well-paved avenues in Tarsis.  Stately elm
+trees and marble columns of the governor's palace have survived the Cataclysm's
+upheaval intact.  Towards the east, the mansion and it's three massive spires
+can be seen rising above expansive gardens.  This serves as the home to the
+governor, and a few remaining noble families.    
+~
+130 0 f 0 0  1
+D1
+~
+~
+0 0 13089 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13087 0 0 0 0 0 0 0 0
+S
+#13089
+Before an Expansive Garden~
+   Merely a few steps east of here lies the governor's garden.  It is protected
+from the general public by a florid, wrought-iron gate with a fanciful lock.  
+There is a stone wall surrounding the garden and the palace, and this appears
+to be the only entrance.  A little further to the east, the governor's
+elaborate, four-story mansion has been placed, it's spired towers reaching high
+into the heavens.    
+~
+130 c fh 0 0  1
+D1
+~
+gate florid wrought iron~
+1 13047 13090 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13088 0 0 0 0 0 0 0 0
+S
+#13090
+A Path Through the Garden~
+   To the northeast and southest, the garden path continues, forming a circle
+around the small pond to your east.  Continuing to walk east allows you to
+cross a small bridge that goes directly through the center of the pond.  
+Numerous different flowers, plants, and vines surround the area, creating a
+very peaceful scenery.    
+~
+130 0 fh 0 0  1
+D1
+~
+~
+0 0 13092 0 0 0 0 0 0 0 0
+D3
+~
+gate florid wrought iron~
+1 13047 13089 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13091 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13093 0 0 0 0 0 0 0 0
+S
+#13091
+A Path Through the Garden~
+   The path the the garden continues to snake to the southeast, and southwest.
+The path also continues on towards the north, but looks to reach a dead end.  
+A small pond can be seen to the south, the clear water glistening.  Many
+different types of flowers and plants line the paths, and tangled vines create
+what almost looks to be a fence of some sort.    
+~
+130 0 fh 0 0  1
+D0
+~
+~
+0 0 13094 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13090 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 13092 0 0 0 0 0 0 0 0
+S
+#13092
+A Path Through the Garden~
+   Just to your left a small pond is here, covered in lilypads.  A small stone
+bridge stretches east to west across the pond, allowing one to walk directly
+through the center of it.  The sound of birds and frogs can be heard as you
+make your way along the garden paths.  Many different types of exotic flowers
+and vines surround you, creating a very peaceful and alluring environment.    
+~
+130 0 fh 0 0  1
+D1
+~
+~
+0 0 13098 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13090 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13091 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 13093 0 0 0 0 0 0 0 0
+S
+#13093
+A Path Through the Garden~
+   Directly to the north there is a small pond here where numerous birds have
+flocked to pick at the insects that buzz around it.  Lilypads line the surface
+of the clear pond.  The pathway through the garden leads to the northeast, and
+northwest forming a circle around the pond, making it a beautiful centerpiece.
+Many different types of flowers line either side of the path here, and the
+walkway continues towards the south.    
+~
+130 0 fh 0 0  1
+D2
+~
+~
+0 0 13096 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 13090 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 13092 0 0 0 0 0 0 0 0
+S
+#13094
+A Path Through the Garden~
+   The path through the garden continues to both the north and the south.  A
+short distance to the south, a small glistening pond can be viewed, and it
+looks to have a small bridge leading east to west across it.  To the north of
+here, the path looks to end.  Various sorts of vegetation line the area,
+including plants, flowers, and vines of many different types.    
+~
+130 0 fh 0 0  1
+D0
+~
+~
+0 0 13095 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13091 0 0 0 0 0 0 0 0
+S
+#13095
+A Path Through the Garden~
+   An intricate lightpost sits to the north of here, providing light for even
+the darkest hours of night.  The path leads back to the south of here, and the
+same vegetation enshrouds either side of the path.  Many exotic variations of
+flowers and plants are here.    
+~
+130 0 fh 0 0  1
+D2
+~
+~
+0 0 13094 0 0 0 0 0 0 0 0
+D4
+~
+window~
+1 0 13118 0 0 0 0 0 0 0 0
+S
+#13096
+A Path Through the Garden~
+   Small paths snake their way through this exquisite garden.  There are
+various types of exotic plants, flowers, and vines here.  Small trees form
+miniature orchards in some areas of the garden, some of them bearing fruits or
+flowers.  The path continues to both the north and the south of here.    
+~
+130 0 fh 0 0  1
+D0
+~
+~
+0 0 13093 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 13097 0 0 0 0 0 0 0 0
+S
+#13097
+A Path Through the Garden~
+   Here in the governor's luxurious gardens you can see many exotic flowers,
+vines, and plants.  Small paths have been carefully laid through the gardens,
+forming various little circles and squares to add to the gardens interest.  It
+is obvious that the caretakers of this garden do a very good job with the
+upkeep.    
+~
+130 0 fh 0 0  1
+D0
+~
+~
+0 0 13096 0 0 0 0 0 0 0 0
+S
+#13098
+A Paved Pathway~
+   This exquisitely paved pathway has been formed out of what looks to be one
+huge chunk of cream colored stone.  The grained surface of the stone creates a
+powder that whisks under your feet as you walk onwards.  Various sorts of
+exotic flowers and vines line either side of the pathway, and the vines stretch
+up above you and meet in the center, forming a natural archway.    
+~
+130 c fh 0 0  1
+D1
+~
+~
+0 0 13099 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13092 0 0 0 0 0 0 0 0
+S
+#13099
+Before the Palace~
+   You stand before beautifully carved wooden double doors.  The designs carved
+on the doors have been stained in very tasteful pastels.  The steps here are
+made of pure white marble, which also bear beautiful designs that have been
+carved deep into it's surface.  Small potted plants and flowers sit along
+either side of the entryway to the palace, and snaking vines form an archway
+over the door.    
+~
+130 c ef 0 0  1
+D1
+~
+doors~
+1 13017 13100 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 13098 0 0 0 0 0 0 0 0
+S
+$

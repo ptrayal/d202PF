@@ -1,0 +1,231 @@
+#1900
+knight solamnic plate shining~
+a solamnic knight in shining plate~
+In shining plate, this solamnic knight keeps an eye on passersby.
+~
+   A drooping moustache hangs down below the chin of this man in shining plate
+mail.  He cautiously eyes any passersby, just in case...    
+~
+d 0 0 0 k 0 0 0 900
+29 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1901
+bandit cunning grinning~
+a cunning bandit~
+A grinning, cunning bandit slinks low along the highway.
+~
+   The ratty ends of his cloak hang as he slinks along the road.  His face is
+unshaven, and rather grizzly.  His piercing eyes seem to slide over everything
+in sight.    
+~
+d 0 0 0 k 0 0 0 0
+20 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1902
+dwarf gray coarse~
+a coarse, gray bearded dwarf~
+A course, gray bearded dwarf stands here, looking at the rocky wall.
+~
+   The coarse hair of his beard is almost as rough as the air he gives off.  
+Thick, rough fingers stray through his hair as he thinks aloud while looking at
+the stony wall.    
+~
+d 0 0 0 k 0 0 0 0
+29 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+The fur on this bat is quite short, giving it an edge when moving in air.  
+#1906
+officer dragonarmy blue~
+a blue dragonarmy officer~
+A blue dragonarmy officer hones his sword as he watches the path.
+~
+   Matted black hair may be seen hanging out of the back of his helmet, dirty
+as the chainmail seen on his elbows.  Cautiously, he watches the passersby.  
+~
+d 0 0 0 k 0 0 0 -900
+29 20 7 24d100+152 1d8+0
+15 0 41 5
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1907
+rat cave~
+a cave rat~
+A cave rat scurries along.
+~
+   Short matted fur covers the body of this long tailed rodent.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1908
+bat blue furred~
+a blue furred bat~
+A blue furred bat hangs from a stalactite.
+~
+   Short blue fur lines it's body, giving the animal a bluish tint.  Leather
+wings are folded up along it's body.    
+~
+d 0 0 0 k 0 0 0 0
+7 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1909
+goblin hunter-gatherer~
+a goblin hunter-gatherer~
+A goblin hunter-gatherer walks around the area.
+~
+   Some ragged furs cover the scrawny body of this goblin.  As he walks around,
+every now and then he bends over to listen to the ground.    
+~
+d 0 0 0 k 0 0 0 0
+19 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1910
+goblin short animal furs~
+a short goblin in animal furs~
+A short goblin in animal furs glares about in every direction.
+~
+   Ragged animal furs cover scant parts of this one's body, though he does not
+show whether or not he even knows he wears them.  Some spittle may be noticed
+forming from his lips, as he glares and babbles.    
+~
+d 0 0 0 k 0 0 0 0
+21 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#1912
+goblin shaman~
+a goblin shaman~
+Humming to himself loudly, this goblin shaman fails to notice any visitors.
+~
+   A long wolf pelt hangs from his right shoulder down to his waist, though it
+might seem to be more of an afterthought than an attempt at clothing himself.
+Fingers that seem too long for his hand are constantly moving as he hums rather
+loudly.    
+~
+d 0 0 0 k 0 0 0 -900
+25 20 7 24d100+152 1d8+0
+15 0 41 7
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

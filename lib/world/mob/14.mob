@@ -1,0 +1,427 @@
+#1400
+guard orc~
+an orc guard~
+An orc guard is here serving sentry duty.
+~
+   This burly orc is dressed in a suit of hide armor and carries a small wooden
+shield on it's arm.  Wielded in it's hand is a short spear and a shortsword is
+strapped to its belt, along with three stone daggers.  It's tusks are covered in
+drool and are yellow and grimy, protruding from it's mouth garishly.  
+~
+bd 0 0 0 k 0 0 0 -1000
+11 15 -3 352d100+100 1d8+5
+20 0 93 6
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 18
+E
+Cha: 10
+S
+#1401
+orc orcish soldier~
+an orcish soldier~
+An orcish soldier is here resting in the barracks.
+~
+   This orc is heavy set and obviously one of the larger in the camp.  He has
+been specifically set aside to serve as a camp soldier, even though all orcs in
+the tribe are meant to be battle ready in times of war.  It is these soldiers
+however who perform the majority of the raids, and when they die, they are
+replaced by the strongest members of the tribe.  He wears a suit of scale mail
+armor and wield a crude falchion in his hands with a shortspear strapped to his
+back.  
+~
+bd 0 0 0 k 0 0 0 -1000
+11 20 -1 144d110+151 1d8+0
+275 0 93 6
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 18
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#1402
+shaman orc orcish~
+an orcish shaman~
+An orcish shaman is here chanting loudly to Gruumsh.
+~
+   Clad head to toe in ceremonial leathers and hides this orc shaman is a sight
+to see.  He has bone beaded jewelry hanging from every part of his body
+including piercings in his nose, ears and lower lip.  He has painted his face to
+depict that of a white skull and has several runic tatoos covering both of his
+arms and torso.  
+~
+bd 0 0 0 k 0 0 0 -1000
+10 20 0 99d100+151 1d8+0
+250 0 93 1
+8 8 1
+E
+BareHandAttack: 5
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 18
+E
+Con: 12
+E
+Cha: 10
+S
+#1403
+orc commoner~
+an orc commoner~
+An orc commoner is here strolling about the camp with his general labors.
+~
+   While larger than a human to be sure, this orc was not large enough to be
+considered anything but a backup warrior.  Though surely more skilled in warfare
+than the average human, he is by no means a seasoned fighter.  Thus he has been
+tasked to go about some of the daily menial labor about the camp, such as
+repairing the walls and tents, and assisting with the training of the designated
+warriors.  
+~
+d 0 0 0 k 0 0 0 -1000
+9 20 1 120d90+153 1d8+0
+180 0 93 3
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1404
+orc female~
+an orc female~
+An orc female is here going about household and camp chores.
+~
+   Though not a warrior, orcish women are known for their savagery and love for
+battle and violence as much as the males.  She is clad in simple leathers and
+hides and wears bone jewelry in her hair and ears.  She is well muscled and
+receives an hour of combat training a day along with the males.  
+~
+bd 0 0 0 k 0 0 0 -1000
+9 20 1 120d90+152 1d8+0
+180 0 93 3
+8 8 2
+E
+BareHandAttack: 11
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1405
+warrior orc~
+an orc warrior~
+An orc warrior is here training fervently for battle.
+~
+   Clad in heavy scale mail and hide armors, this orc is a large specimen and is
+obviously a warrior of the tribe.  He is covered in tribal war paint, and wears
+the symbol of Gruumsh around his neck.  He wields a longspear in his hands and
+has a short sword strapped to his waist.  
+~
+d 0 0 0 k 0 0 0 -1000
+11 20 -1 144d110+151 1d8+0
+275 0 93 6
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#1406
+guard honor orc~
+an orcish @rhonor guard@n~
+An orcish @rhonor guard@n is here guarding the leaders of the tribe.
+~
+   Clad in stolen splint mail armor, this orc wield a large halberd in his hands
+with a longsword at his waist and a heavy shield strapped to his back.  He is
+huge for an orc and obviously his size, strength and skill in combat have landed
+him this coveted position as an honor guard for the leaders of the tribe.  
+~
+bd 0 0 0 k 0 0 0 -1000
+12 20 -2 156d120+151 1d8+0
+360 0 93 6
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#1407
+chief orc ~
+the Tribal @gOrc Chief@n~
+The Tribal @gOrc Chief@n is here sitting on a makeshift throne, chewing on a leg of lamb.
+~
+   This orc is massive for his kind and easily the largest in the tribe.  He has
+fierce red eyes and savage yellow teeth and tusks protruding from his ursine
+mouth.  He wields a greatsword on his back and is clad in mithril half plate
+armor.  He seems quite upset about your intrusion but makes no immediate move to
+action.  
+~
+bdF 0 0 0 k 0 0 0 -1000
+12 20 -2 1560d120+151 1d8+0
+360 0 93 6
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#1408
+archer orcish orc~
+an orcish archer~
+An orcish archer stands here on the platform his bow trained on the perimeter.
+~
+   THis orc is dressed in studded leather armor and has a short sword at its
+belt.  It is large, but more lithe than muscular, and wields a longbow in his
+hands with a quiver of arrows across his back.  
+~
+bd 0 0 0 k 0 0 0 -1000
+11 20 -1 120d100+151 1d8+0
+275 0 93 8
+8 8 1
+E
+BareHandAttack: 6
+E
+Str: 11
+E
+Dex: 11
+E
+Int: 11
+E
+Wis: 11
+E
+Con: 11
+E
+Cha: 11
+S
+#1409
+guard orcish~
+an orcish gate guard~
+An orcish guard stands watch at the camp's gates.
+~
+   Burly and heavy set, this orc has been given the honorable, but boring job of
+guarding the camp's main gates.  He is dressed in banded mail and carries a
+steel halberd.  
+~
+bd 0 0 0 k 0 0 0 -1000
+9 20 1 120d100+280 1d8+0
+13 0 93 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 18
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1410
+orc champion~
+@YOrc@n @WChampion@n~
+@YOrc@n @WChampion@n
+~
+The orc champion stands here scratching himself.  His armor drips with gore and
+phecies.  
+~
+defjkmsuF 0 0 0 k D m 0 0
+13 20 -3 56d100+300 1d8+0
+29 0 93 6
+8 8 1
+E
+BareHandAttack: 16
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 19
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#1411
+High Priest of Grummsh~
+@RHigh Priest@D of Grummsh@n~
+The @RHigh Priest@D of Grummsh @nis grinning wickedly at a statue.
+~
+   Clad head to toe in ceremonial leathers and hides but even more ornate and bloddy than his shamans, this orc makes quite a terrifying sight.  He has bone beaded jewelry cimbined with gold hanging from every part of his body including multiple piercings on his nose, ears and lower lip.  He has painted his face to depict that of a white skull and has several runic tatoos covering both of his arms and torso. 
+~
+bdtE 0 0 0 dekC 0 0 0 0
+12 16 -4 1800d100+100 1d8+4
+14 0 93 1
+8 8 1
+E
+BareHandAttack: 1
+E
+Str: 14
+E
+Dex: 12
+E
+Int: 8
+E
+Wis: 17
+E
+Con: 14
+E
+Cha: 8
+S
+#1412
+Orcish Matron~
+Orcish @mMatron@n~
+The Orcish @mMatron@n is sharpening her urgosh here.
+~
+A tall and ferocuois looking warrior. It seems very difficult to distinguish this female from other large males, except that her hair is longer and she wears more jewlery than her counterparts.  By other orc female standards, and most males, of the orc race, she is gigantic. And by the number of fingers from her opponents at her belt, she must be a very fearsome fighter.
+~
+bduE 0 0 0 k 0 0 0 0
+12 16 -4 2340d100+100 1d8+4
+14 0 93 3
+8 8 2
+E
+BareHandAttack: 3
+E
+Str: 21
+E
+Dex: 12
+E
+Int: 8
+E
+Wis: 8
+E
+Con: 16
+E
+Cha: 8
+S
+#1413
+outpost guard~
+Outpost Guard~
+A guard is standing at attention here
+~
+A tired looking guard with the colors of Neverwinter.  He stands at attention although it looks like he would rather go rest.
+~
+dl 0 0 0 k 0 0 0 0
+12 16 -4 432d100+100 1d8+4
+0 0 0 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#1414
+Commander Outpost~
+Commander of the Outpost~
+The Commander of the outpost is examining some papers at his desk.
+~
+This individual looks like a strong willed person. His eyes are intelligent and penetrating and his fists are constantly clenched as if having a fight of their own.  He keeps looking ad different points on the map and cursing under his breath.
+~
+bdvD 0 0 0 k s d 0 0
+15 15 -8 1440d100+100 1d8+5
+20 0 42 3
+8 8 1
+E
+BareHandAttack: 3
+E
+Str: 19
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+$

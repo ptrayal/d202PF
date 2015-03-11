@@ -1,0 +1,143 @@
+#3500
+sanitation sewer cleaner man~
+a Luskan sewer cleaner~
+A man is here picking up excess waste to prevent backups in the sewers.
+~
+This man is dressed in a suit that covers his entire body.  Heavy gloves cover
+his hands, preventing him from making any real contact with whatever disgusting
+things he may be picking up in the sewers.  In his hand he carries a sharp,
+pointy stick for stabbing both rats and garbage as he makes his rounds.  Across
+his back is slung a large pack in which he carries his gross cargo.  
+~
+cdg b 0 0 k 0 0 0 -500
+3 20 7 16d100+151 1d8+0
+15 0 42 2
+8 8 1
+E
+BareHandAttack: 11
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3501
+large male rat rodent~
+a large male rat~
+A large rodent with a piece of trash in its mouth runs along the edge of the water.
+~
+This grey-furred, pink-tailed rodent is as large as a cat.  At the end of its
+pink toes are sharp, yellow claws.  From within its mouth extend razor-sharp
+yellow teeth.  
+~
+cdeqr 0 0 0 k 0 0 0 -500
+3 20 7 16d100+151 1d8+0
+15 0 39 3
+8 8 1
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3502
+large female rat rodent~
+a large female rat~
+A large, furry rodent is digging in the garbage on the side of the tunnel looking for something edible.
+~
+This grey-furred, pink-tailed rodent is as large as a cat.  At the end of its
+pink toes are sharp, yellow claws.  From within its mouth extend razor-sharp
+yellow teeth.  
+~
+cdeqr 0 0 0 k 0 0 0 -500
+3 20 7 48d100+153 1d8+0
+10 0 39 3
+8 8 2
+E
+BareHandAttack: 4
+E
+Str: 16
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 10
+S
+#3503
+mutated monstrous rat~
+a monstrous rat~
+A rat the size of a dog is clawing at the side of the tunnel.
+~
+This rat is monstrous, its bloodline having mutated from years of living on
+human flesh and being exposed to magical radiation.  Its eyes glow red in the
+darkness, and a strange substance drips from its yellow fangs.  
+~
+cdeglruD 0 0 0 k 0 0 0 -500
+4 20 6 20d100+151 1d8+0
+40 0 39 3
+8 8 0
+E
+BareHandAttack: 8
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 17
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+#3504
+baby rat rodent small~
+a rat pup~
+A small rat is sleeping in its filthy nest.
+~
+This is a very young rat.  The dirty brown-grey fur characteristic of its
+species has yet to cover its entire body, leaving large areas the same pink
+color as its tail.  
+~
+bdeqr 0 0 0 k 0 0 0 -500
+2 20 8 12d100+152 1d8+0
+10 0 39 3
+4 4 0
+E
+BareHandAttack: 4
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

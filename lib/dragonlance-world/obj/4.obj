@@ -1,0 +1,286 @@
+#400
+armguards leather pair~
+a pair of studded leather armguards~
+A pair of leather armguards lay here.~
+7~
+9 jklopruvBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+4
+A
+13 5 0
+#401
+scrip leather elongated~
+an elongated leather scrip~
+A long piece of leather lay here, its cover hanging open.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+4
+#402
+ring ivory topaz bone~
+an ivory ring, inlaid with a topaz~
+A bone white ring lay here, glaring an orange light.~
+~
+8 jlmnoprstuvwBCDEF abc stuvwxy 0 ab 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 650 0 1
+Z
+4
+A
+13 5 0
+A
+24 1 0
+#403
+harp wooden~
+a simple wooden harp~
+A harp lay here, stray winds plucking at the strings.~
+~
+3 jkloqvwBCDF ab 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+4
+#404
+pelt cat sabertooth~
+the pelt of a sabertooth cat~
+The pelt of a sabertooth cat has been discarded here.~
+7~
+9 jklmnopruvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1250 0 1
+Z
+4
+A
+13 3 0
+A
+20 1 0
+#405
+hoopak curved hook~
+a hoopak with a curved hook on the end~
+A hoopak with a curved hook lay here.~
+~
+5 jklopvwD ab stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 850 0 1
+Z
+4
+A
+1 -1 0
+#406
+pelt skunk malodorous~
+a malodorous skunk pelt~
+The pelt of a skunk lay here, stinking up the scene.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+4
+A
+6 -2 0
+A
+14 6 0
+A
+9 3 0
+#407
+grass blade~
+a blade of grass~
+A blade of grass sways when the wind blows.~
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+#408
+pool shallow water~
+a shallow pool of water~
+A shallow pool of water seems to have collected here.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+55 0 0 0
+Z
+4
+#409
+wagon abandoned~
+a wagon without two of its wheels~
+A wagon, missing two wheels, has been abandoned here.~
+~
+13 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+4
+E
+wagon abandoned~
+   This wagon is big enough for the driver to sit at the front, and carry only
+two passengers.  Two of its wheels are missing, likely due to the narrow strip
+of road.  However, the wood is in a state of decay that gives away the fact
+that it has been here for some time now.    
+~
+#410
+wagon abandoned~
+a wagon with a broken axle~
+A wagon with a broken axle has been abandoned here.~
+~
+13 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+9999 0 0 0
+Z
+4
+#411
+buttercup flower yellow~
+a buttercup flower~
+A yellow buttercup decays as it lies here.~
+~
+8 jklmnoprstuvwBCDEF abcv j 0 abo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 110 0 0
+Z
+4
+A
+20 1 0
+#412
+seat board~
+the wagon seat board~
+The seat of the wagon looks rather suspicious.~
+~
+15 0 v j 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3490 0 0 0
+Z
+4
+#413
+necklace pearls~
+a necklace strung with pearls~
+A necklace strung through with pearls has been cast aside.~
+~
+25 jklmnoprstuvwBCDEF abcv jstuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+4
+A
+6 1 0
+A
+17 -1 0
+#414
+painting fires dawn~
+the painting "Fires at Dawn"~
+A painting has been tossed here.~
+~
+8 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 0 0 0
+Z
+4
+E
+painting~
+   This painting shows a small villiage covered in the fog of early morning,
+the rooftops blocking out sections of sky.  Where the sky is visible, the sun
+is just peeking over, a bold red-orange, which may look to those that look for
+it, as though the sun is a fire about to settle on the small town.    
+~
+A
+17 100 0
+#415
+gold bar~
+a bar of gold~
+A bar of gold glints when light hits it.~
+~
+25 0 v j 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 0 0 0
+Z
+4
+#416
+arrowhead topaz glaring~
+a topaz arrowhead~
+Glaring with a life of its own, an arrowhead may be seen here.~
+~
+25 jklmnoprstuvwBCDEF abcv j 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+Z
+4
+A
+13 2 0
+#417
+diamonds handful scattered~
+a handful of diamonds~
+A handful of diamonds has been scattered here.~
+~
+25 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+Z
+4
+A
+17 20 0
+A
+19 -2 0
+#418
+pile coins~
+a pile of coins~
+A pile of coins has been stacked rather neatly here.~
+~
+20 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 0 0 0
+Z
+4
+#419
+flower blue forget~
+a blue flower, a forget-me-not~
+A blue forget-me-not has been tossed aside here~
+~
+8 jklmnoprstuvwBCDEF abcv j 0 abo 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 150 0 0
+Z
+4
+A
+23 1 0
+A
+20 1 0
+#420
+pool water small~
+a small pool of water~
+A small pool of water holds the grass at bay.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1004 0 0 0
+Z
+4
+#421
+small wooden sign~
+a small wooden sign~
+A small sign with black letters is nailed to a tree.~
+~
+0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+Z
+4
+E
+sign~
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@                                      @
+@                                      @
+@ North - Lord Anias' Estate           @
+@                                      @
+@ South - Sanction, Neraka,            @
+@      Plains of Dust, Icewall         @
+@                                      @
+@ West - Palanthas, Thelgaard Keep     @
+@                                      @
+@                                      @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+~
+$~

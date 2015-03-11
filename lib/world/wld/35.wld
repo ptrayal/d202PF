@@ -1,0 +1,1882 @@
+#3500
+Descending Into the Sewers~
+Just below the grate a ladder has been mounted so workers can descend into the
+sewers easily.  Water trickles down the slimy stone walls, its dripping echoing
+loudly in the confined space.  The metal of the ladder is rusted from years of
+exposure to moisture, but the slime coating it makes it rather slippery.  
+~
+35 cdi 0 0 0 0
+D4
+~
+grate heavy metal sewer~
+1 0 3183 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+S
+#3501
+At a Four-Way Intersection Below the Dockyards Grate~
+Four branches of the Luskan sewer system meet here, creating small eddies in the
+water as it runs out the western tunnel.  A slimy ladder leads up to a grate in
+the street above.  Hints of red can be seen swirling in the water coming from
+the eastern tunnel, while the tunnels to the north and south spew forth foul,
+murky water.  Years of draining the entire population of Luskan's waste has left
+this intersection covered in a film of muck and mildew, turning the once grey
+and brown stones of the walls to a sickly green.  There appears to be something
+scratched into the stone of the wall.  
+~
+35 d 0 0 0 0
+D0
+~
+~
+0 0 3521 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3502 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3548 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3574 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3500 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is an arrow scratched into the wall here.  It points to the north.  
+~
+S
+#3502
+In the Sewers of Luskan~
+Rust colored water flows on toward the western terminus of the sewers, carrying
+with it garbage mingled with severed limbs.  The smell of spoil and rot is
+extremely potent here, as the piles of waste lining the sides of the water's
+channel are littered with body parts in various states of decay.  Rather large
+groups of gouges, looking much like claw marks, line the walls of the sewers.  
+It would seem the rats in this particular branch of the sewer have grown to
+monstrous proportions from dining on the meaty bits dropped from the Pits.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3503 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+S
+#3503
+In the Sewers of Luskan~
+Rust colored water flows on toward the western terminus of the sewers, carrying
+with it garbage mingled with severed limbs.  The smell of spoil and rot is
+extremely potent here, as the piles of waste lining the sides of the water's
+channel are littered with body parts in various states of decay.  Rather large
+groups of gouges, looking much like claw marks, line the walls of the sewers.  
+It would seem the rats in this particular branch of the sewer have grown to
+monstrous proportions from dining on the meaty bits dropped from the Pits.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3504 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3502 0 0 0 0 0 0 0 0
+S
+#3504
+In the Sewers of Luskan~
+Rust colored water flows on toward the western terminus of the sewers, carrying
+with it garbage mingled with severed limbs.  The smell of spoil and rot is
+extremely potent here, as the piles of waste lining the sides of the water's
+channel are littered with body parts in various states of decay.  Rather large
+groups of gouges, looking much like claw marks, line the walls of the sewers.  
+It would seem the rats in this particular branch of the sewer have grown to
+monstrous proportions from dining on the meaty bits dropped from the Pits.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3505 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3503 0 0 0 0 0 0 0 0
+S
+#3505
+In the Sewers of Luskan~
+Rust colored water flows on toward the western terminus of the sewers, carrying
+with it garbage mingled with severed limbs.  The smell of spoil and rot is
+extremely potent here, as the piles of waste lining the sides of the water's
+channel are littered with body parts in various states of decay.  Rather large
+groups of gouges, looking much like claw marks, line the walls of the sewers.  
+It would seem the rats in this particular branch of the sewer have grown to
+monstrous proportions from dining on the meaty bits dropped from the Pits.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3506 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3504 0 0 0 0 0 0 0 0
+S
+#3506
+In the Sewers of Luskan~
+Rust colored water flows on toward the western terminus of the sewers, carrying
+with it garbage mingled with severed limbs.  The smell of spoil and rot is
+extremely potent here, as the piles of waste lining the sides of the water's
+channel are littered with body parts in various states of decay.  Rather large
+groups of gouges, looking much like claw marks, line the walls of the sewers.  
+It would seem the rats in this particular branch of the sewer have grown to
+monstrous proportions from dining on the meaty bits dropped from the Pits.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3507 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3505 0 0 0 0 0 0 0 0
+S
+#3507
+In the Sewers Below the Gladiatorial Pits~
+One can easily tell that the sewers here pass beneath the Gladiatorial Pits
+above by the red tint that has mingled with the sickly green mold present
+throughout the sewers.  From pipes halfway up the wall, an almost constant flow
+of blood drains into the sewers.  Not only have the walls become stained by the
+foul drainage, but the water is also tinged red as the lifeforce of those
+slaughtered above mingles with it.  Large claws have created deep gouges in the
+stone here, the freshest ones clearly visible as grey lines against a rusty
+backdrop.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3508 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3506 0 0 0 0 0 0 0 0
+S
+#3508
+In the Sewers Below the Gladiatorial Pits~
+One can easily tell that the sewers here pass beneath the Gladiatorial Pits
+above by the red tint that has mingled with the sickly green mold present
+throughout the sewers.  From pipes halfway up the wall, an almost constant flow
+of blood drains into the sewers.  Not only have the walls become stained by the
+foul drainage, but the water is also tinged red as the lifeforce of those
+slaughtered above mingles with it.  Large claws have created deep gouges in the
+stone here, the freshest ones clearly visible as grey lines against a rusty
+backdrop.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3509 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3507 0 0 0 0 0 0 0 0
+S
+#3509
+In the Sewers Below the Gladiatorial Pits~
+One can easily tell that the sewers here pass beneath the Gladiatorial Pits
+above by the red tint that has mingled with the sickly green mold present
+throughout the sewers.  From pipes halfway up the wall, an almost constant flow
+of blood drains into the sewers.  Not only have the walls become stained by the
+foul drainage, but the water is also tinged red as the lifeforce of those
+slaughtered above mingles with it.  Large claws have created deep gouges in the
+stone here, the freshest ones clearly visible as grey lines against a rusty
+backdrop.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3510 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3508 0 0 0 0 0 0 0 0
+S
+#3510
+Beneath the Center of the Gladiatorial Pits~
+Blood and gore flows from a large grate in the ceiling of the tunnels here.  
+Body parts, both humanoid and bestial, can be seen piled atop the grate, either
+too large or at the wrong angle to pass through into the sewers below.  
+Directly below the center drain of the Pits, the foul mixture of water and blood
+becomes a small whirlpool in the midst of the sewers.  The claw marks visible in
+other parts of this branch are more numerous here, some of them reaching almost
+to the grate above.  Apparently something has been trying to get the trapped
+limbs from above.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3511 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3509 0 0 0 0 0 0 0 0
+S
+T 3510
+#3511
+In the Sewers Below the Gladiatorial Pits~
+One can easily tell that the sewers here pass beneath the Gladiatorial Pits
+above by the red tint that has mingled with the sickly green mold present
+throughout the sewers.  From pipes halfway up the wall, an almost constant flow
+of blood drains into the sewers.  Not only have the walls become stained by the
+foul drainage, but the water is also tinged red as the lifeforce of those
+slaughtered above mingles with it.  Large claws have created deep gouges in the
+stone here, the freshest ones clearly visible as grey lines against a rusty
+backdrop.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3512 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3510 0 0 0 0 0 0 0 0
+S
+#3512
+In the Sewers Below the Gladiatorial Pits~
+One can easily tell that the sewers here pass beneath the Gladiatorial Pits
+above by the red tint that has mingled with the sickly green mold present
+throughout the sewers.  From pipes halfway up the wall, an almost constant flow
+of blood drains into the sewers.  Not only have the walls become stained by the
+foul drainage, but the water is also tinged red as the lifeforce of those
+slaughtered above mingles with it.  Large claws have created deep gouges in the
+stone here, the freshest ones clearly visible as grey lines against a rusty
+backdrop.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3513 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3511 0 0 0 0 0 0 0 0
+S
+#3513
+In the Sewers Below the Gladiatorial Pits~
+One can easily tell that the sewers here pass beneath the Gladiatorial Pits
+above by the red tint that has mingled with the sickly green mold present
+throughout the sewers.  From pipes halfway up the wall, an almost constant flow
+of blood drains into the sewers.  Not only have the walls become stained by the
+foul drainage, but the water is also tinged red as the lifeforce of those
+slaughtered above mingles with it.  Large claws have created deep gouges in the
+stone here, the freshest ones clearly visible as grey lines against a rusty
+backdrop.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3514 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3512 0 0 0 0 0 0 0 0
+S
+#3514
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3515 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3513 0 0 0 0 0 0 0 0
+S
+#3515
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3516 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3514 0 0 0 0 0 0 0 0
+S
+#3516
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3517 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3515 0 0 0 0 0 0 0 0
+S
+#3517
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3518 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3516 0 0 0 0 0 0 0 0
+S
+#3518
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3519 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3517 0 0 0 0 0 0 0 0
+S
+#3519
+Below the Eastern Gate Grate~
+From the plaza above, the sounds of trampling feet and hordes of people echoes
+down into the sewers below.  Within the column of light that passes through the
+grate, filth and refuse of every sort can be seen resting along the sides of the
+tunnel.  From the east, water which has been diverted from the River Mirar flows
+through the sewers, washing most of the waste with it.  From time to time, a
+squeak or splash can be heard in the distance, even the most quiet sounds
+echoing clearly within the stone tunnels below the city.  There appears to be
+something scratched into the stone of the wall.  
+~
+35 d 0 0 0 0
+D1
+~
+~
+0 0 3577 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3518 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3520 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is an arrow scratched into the wall here.  It points to the west.  
+~
+S
+#3520
+New BuildWalk Room~
+Just below the grate a ladder has been mounted so workers can descend into the
+sewers easily.  Water trickles down the slimy stone walls, its dripping echoing
+loudly in the confined space.  The metal of the ladder is rusted from years of
+exposure to moisture, but the slime coating it makes it rather slippery.  
+~
+35 cdi 0 0 0 0
+D4
+~
+grate sewer metal ~
+1 0 3114 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3519 0 0 0 0 0 0 0 0
+S
+#3521
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3522 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+S
+#3522
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3523 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3521 0 0 0 0 0 0 0 0
+S
+#3523
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3524 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3522 0 0 0 0 0 0 0 0
+S
+T 3523
+#3524
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3525 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3523 0 0 0 0 0 0 0 0
+S
+#3525
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3526 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3524 0 0 0 0 0 0 0 0
+S
+#3526
+Below the Marketplace Grate~
+The sound of traders and vendors reverbrates down into the sewers from Market
+Square above.  Within the junk piled on the sides of the sewer channel, the
+glitter of a lost coin can be seen every now and then.  As the water flows from
+the east and makes the sharp turn to continue on its circuit, it deposits its
+heavy cargo of garbage onto the western wall here, creating an enormous mound of
+filth.  After rounding the bend, the water seems to be moving slightly faster,
+carrying much less waste with it.  There appears to be something scratched into
+the stone of the wall.  
+~
+35 d 0 0 0 0
+D1
+~
+~
+0 0 3528 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3525 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3527 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is an arrow scratched into the wall here.  It points to the east.  
+~
+S
+#3527
+Descending into the Sewers~
+Just below the grate a ladder has been mounted so workers can descend into the
+sewers easily.  Water trickles down the slimy stone walls, its dripping echoing
+loudly in the confined space.  The metal of the ladder is rusted from years of
+exposure to moisture, but the slime coating it makes it rather slippery.  
+~
+35 cdi 0 0 0 0
+D4
+~
+grate sewer metal ~
+1 0 3201 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3526 0 0 0 0 0 0 0 0
+S
+#3528
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3529 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3526 0 0 0 0 0 0 0 0
+S
+#3529
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3530 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3528 0 0 0 0 0 0 0 0
+S
+#3530
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3531 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3529 0 0 0 0 0 0 0 0
+S
+#3531
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3532 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3530 0 0 0 0 0 0 0 0
+S
+#3532
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3533 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3531 0 0 0 0 0 0 0 0
+S
+#3533
+Below the Warrior's Square Grate~
+The metallic ringing of boots echoes down from the grate above.  Below Warrior's
+Square, the water begins to flow more rapidly, its path becoming narrower as it
+deposits its filthy sediment on the sides of the tunnel.  While the light
+filtering down through the entry tunnel does help to keep the rats at bay, it
+also manages to make some very unappealing bits of garbage readily visible.  A
+small stream of water escapes through a small side grate on the southern wall.
+Above the grate, there seems to be something scratched into the stone.  
+~
+35 dp 0 0 0 0
+D1
+~
+~
+0 0 3534 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3532 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3547 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is a downward pointing arrow etched into the stone of the sewer wall here.
+It seems to be pointing at the grate below.  
+~
+S
+T 3535
+T 3533
+T 3534
+T 3536
+#3534
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3535 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3533 0 0 0 0 0 0 0 0
+S
+#3535
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3536 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3534 0 0 0 0 0 0 0 0
+S
+#3536
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3537 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3535 0 0 0 0 0 0 0 0
+S
+#3537
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3538 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3536 0 0 0 0 0 0 0 0
+S
+#3538
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3539 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3537 0 0 0 0 0 0 0 0
+S
+#3539
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3540 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3538 0 0 0 0 0 0 0 0
+S
+#3540
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3541 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3539 0 0 0 0 0 0 0 0
+S
+#3541
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3542 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3540 0 0 0 0 0 0 0 0
+S
+#3542
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3543 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3541 0 0 0 0 0 0 0 0
+S
+#3543
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3544 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3542 0 0 0 0 0 0 0 0
+S
+#3544
+In the Sewers Below the Commoner's Quarter~
+Smoothly flowing water carries the waste from the Commoner's Quarter into the
+long corridors of the Luskan sewer system.  Rats can be seen swimming in the
+water, some carrying odd bits of garbage in their mouths.  The slimy green film
+covering the walls makes for a slippery walk along this stinking tube.  
+Occasionally, a splash can be heard as someone dumps their trash into one of the
+shafts located throughout the city above.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3545 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3543 0 0 0 0 0 0 0 0
+S
+#3545
+Below the Commoner's Quarter Grate~
+Old bits of food and refuse litter the parts of the tunnel that the water
+flowing from the east doesn't reach.  Years of dampness and filth have created
+the perfect environment for mold and mildew to grow, their rampant spread
+coating the stone walls with a mucus-like green slime.  Squeaks can be heard
+coming from all around, the rats that claim these sewers as their kingdom
+voicing their irritation at your intrusion.  There appears to be something
+scratched into the stone of the wall.  
+~
+35 dp 0 0 0 0
+D1
+~
+~
+0 0 3576 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3544 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3546 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is an arrow scratched into the wall here.  It points to the west.  
+~
+S
+#3546
+Descending into the Sewers~
+Just below the grate a ladder has been mounted so workers can descend into the
+sewers easily.  Water trickles down the slimy stone walls, its dripping echoing
+loudly in the confined space.  The metal of the ladder is rusted from years of
+exposure to moisture, but the slime coating it makes it rather slippery.  
+~
+35 cdip 0 0 0 0
+D4
+~
+grate sewer metal ~
+1 0 3099 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3545 0 0 0 0 0 0 0 0
+S
+#3547
+Descending into the Sewers~
+Just below the grate a ladder has been mounted so workers can descend into the
+sewers easily.  Water trickles down the slimy stone walls, its dripping echoing
+loudly in the confined space.  The metal of the ladder is rusted from years of
+exposure to moisture, but the slime coating it makes it rather slippery.  
+~
+35 cdip 0 0 0 0
+D4
+~
+grate sewer metal ~
+1 0 3072 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3533 0 0 0 0 0 0 0 0
+S
+#3548
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3549 0 0 0 0 0 0 0 0
+S
+#3549
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3548 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3550 0 0 0 0 0 0 0 0
+S
+#3550
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3549 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3551 0 0 0 0 0 0 0 0
+S
+#3551
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3550 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3552 0 0 0 0 0 0 0 0
+S
+#3552
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3551 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3553 0 0 0 0 0 0 0 0
+S
+#3553
+Below the Palace Square Fountain~
+Excess water from the massive fountain above drains out through a pipe that
+extends down into this bend in the sewers.  There is a constant sound of
+splashing as it rushes out and falls into the tunnel, drowning out the squeaking
+of the rats.  Another added bonus of the constant waterflow is that the refuse
+littering the bottom of the tube is kept to a minimum, as most of it is kept
+from settling in the churning current.  However, the added moisture has done
+nothing to help the mucusy growth lining the stone walls.  There appears to be
+something scratched into the stone of the wall.  
+~
+35 ad 0 0 0 0
+D0
+~
+~
+0 0 3552 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3554 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is an arrow scratched into the wall here.  It points to the north.  
+~
+S
+#3554
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3555 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3553 0 0 0 0 0 0 0 0
+S
+#3555
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3556 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3554 0 0 0 0 0 0 0 0
+S
+#3556
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3557 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3555 0 0 0 0 0 0 0 0
+S
+#3557
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3558 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3556 0 0 0 0 0 0 0 0
+S
+#3558
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3559 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3557 0 0 0 0 0 0 0 0
+S
+#3559
+Below the Nobles' District Grate~
+In the light filtering down through the grate above, the murky brown water can
+be seen flowing freely westward.  Piled garbage lines the stone walls of the
+tunnel, creating a malodorous stench.  Rats run along the refuse, staying as
+close to the edge of the light as they can.  As a foreign presence is detected,
+the rats skitter off, running to hide their treasures in their nests.  There
+appears to be something scratched into the stone of the wall.  
+~
+35 d 0 0 0 0
+D1
+~
+~
+0 0 3560 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3558 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3573 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is an arrow scratched into the wall here.  It points to the west.  
+~
+S
+#3560
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3561 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3559 0 0 0 0 0 0 0 0
+S
+#3561
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3562 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3560 0 0 0 0 0 0 0 0
+S
+#3562
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3563 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3561 0 0 0 0 0 0 0 0
+S
+#3563
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3564 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3562 0 0 0 0 0 0 0 0
+S
+#3564
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3565 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3563 0 0 0 0 0 0 0 0
+S
+#3565
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3566 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3564 0 0 0 0 0 0 0 0
+S
+#3566
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3567 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3565 0 0 0 0 0 0 0 0
+S
+#3567
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3568 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3566 0 0 0 0 0 0 0 0
+S
+#3568
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3569 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3567 0 0 0 0 0 0 0 0
+S
+#3569
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3570 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3568 0 0 0 0 0 0 0 0
+S
+#3570
+In the Sewers of Luskan~
+Slimy green mold covers the stone walls of the Luskan sewer system.  Years of
+waste being thrown down into these damp, dank tunnels has created a perfect
+breeding ground for all sorts of vermin.  At the bottom of this large tube, a
+small stream of water flows, carrying with it much of the city's waste as it
+flows out into the Sea of Swords.  Along the walls, rusted sconces that must
+have once held torches have been mounted every so often, most likely for the use
+of sanitation crews cleaning the sewers.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3571 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3569 0 0 0 0 0 0 0 0
+S
+#3571
+Below Temple Square~
+Aside from the mold and mildew present in any damp environ, the sewers here are
+fairly clean.  The priests and monks above produce very little waste, most of
+which is readily washed away by the uninhibited flow of water.  Chants and
+prayers echo down into the tunnel through the grate above, their melancholy
+sound creating a somber air in this chamber.  Along the small channel in the
+stone of the sewer, murky water flows, its purpose to carry away the waste of
+the city.  There appears to be something scratched into the stone of the wall.
+
+~
+35 d 0 0 0 0
+D1
+~
+~
+0 0 3578 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3570 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3572 0 0 0 0 0 0 0 0
+E
+scratched writing wall stone~
+There is an arrow scratched into the wall here.  It points to the west.  
+~
+S
+#3572
+Descending into the Sewers~
+Just below the grate a ladder has been mounted so workers can descend into the
+sewers easily.  Water trickles down the slimy stone walls, its dripping echoing
+loudly in the confined space.  The metal of the ladder is rusted from years of
+exposure to moisture, but the slime coating it makes it rather slippery.  
+~
+35 cdi 0 0 0 0
+D4
+~
+grate sewer metal ~
+1 0 3129 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3571 0 0 0 0 0 0 0 0
+S
+#3573
+Descending into the Sewers~
+Just below the grate a ladder has been mounted so workers can descend into the
+sewers easily.  Water trickles down the slimy stone walls, its dripping echoing
+loudly in the confined space.  The metal of the ladder is rusted from years of
+exposure to moisture, but the slime coating it makes it rather slippery.  
+~
+35 cdi 0 0 0 0
+D4
+~
+grate sewer metal ~
+1 0 3158 20 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3559 0 0 0 0 0 0 0 0
+S
+#3574
+Approaching a Large Grate~
+The stone walls of this tunnel are coated with slime.  Water runs around your
+feet, carrying with it garbage, rotten food, and some other not so pleasant
+waste.  An occasional splash can be heard as a skitteting rat loses its footing
+and plunges into the filthy water.  The sound of the Sea of Swords crashing on
+the shore can be heard to further down the tunnel, and a muck-encrusted ladder
+can be seen ascending into a column of light to the east.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3501 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3575 0 0 0 0 0 0 0 0
+S
+#3575
+Before a Massive Grate~
+A very large metal grate is all that separates the sewer system of Luskan from
+the Sea of Swords.  The salty sea air does very little to help mask the
+repugnant odor of the filth that has flowed through this tunnel over the years.
+Before the grate, a mound of refuse has collected since the last daily cleaning.
+One can only imagine what would happen if the filth around this grate were left
+to build up for very long.  
+~
+35 ad 0 0 0 0
+D1
+~
+~
+0 0 3574 0 0 0 0 0 0 0 0
+S
+#3576
+Before a Small Floodgate~
+A large stone slab attached to an intricate pulley system limits the flow of
+water diverted from the River Mirar.  This irrigation system was devised in
+order to keep waste dumped into the sewers from piling up and creating a
+terrible backup.  Constantly flowing water has kept the slimy mold present in
+the rest of the tunnels from growing here, making the stone glisten with its
+wetness.  To the west, the sewers extend on into the darkness below the city.  
+~
+35 ad 0 0 0 0
+D3
+~
+~
+0 0 3545 0 0 0 0 0 0 0 0
+S
+#3577
+Before a Small Floodgate~
+A large stone slab attached to an intricate pulley system limits the flow of
+water diverted from the River Mirar.  This irrigation system was devised in
+order to keep waste dumped into the sewers from piling up and creating a
+terrible backup.  Constantly flowing water has kept the slimy green mold present
+in the rest of the tunnels from growing here, making the stone glisten with its
+wetness.  To the west, the sewers extend on into the darkness below the city.  
+There appears to be some writing scratched into the wall.  
+~
+35 ad 0 0 0 0
+D3
+~
+~
+0 0 3519 0 0 0 0 0 0 0 0
+S
+T 3577
+#3578
+Before a Small Floodgate~
+A large stone slab attached to an intricate pulley system limits the flow of
+water diverted from the River Mirar.  This irrigation system was devised in
+order to keep waste dumped into the sewers from piling up and creating a
+terrible backup.  Constantly flowing water has kept the slimy mold present in
+the rest of the tunnels from growing here, making the stone glisten with its
+wetness.  To the west, the sewers extend on into the darkness below the city.  
+~
+35 ad 0 0 0 0
+D3
+~
+~
+0 0 3571 0 0 0 0 0 0 0 0
+S
+#3579
+Crawling through a Small Side Tunnel~
+This is a very small tunnel, measuring roughly one meter wide by half a meter
+tall.  Were it not for the slimy mold built up on the walls of this narrow
+shaft, it would be nigh impossible to pass through.  Along the bottom of the
+tunnel, a small stream of water flows, carrying with it whatever small detritus
+which was able to make its way through the grate.  From both directions, the
+echoes of skittering and scratching rats can be heard.  Unlike the carefully
+wrought tunnels of the sewers proper, this small side tunnel seems to have been
+carved hastily, with little heed for the evenness of the stone.  
+~
+35 0 0 0 0 0
+D0
+~
+grate~
+1 0 3533 20 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3580 0 0 0 0 0 0 0 0
+S
+#3580
+Crawling through a Small Side Tunnel~
+   There is a small grey lump standing out like an island in the gentle flow of
+the water.  The stench of decay and mildew emanate from this tiny heap.  Along
+the sides of this narrow earthen tunnel there are numerous scratches, some of
+which resemble animal claws, others resembling human fingernails.  Here and
+there, faint rust-colored stains can be seen in long lines leading from some of
+the larger marks.  This deep in the narrow tunnel, even the slightest sound
+echoes for what seems like ages, making it very difficult to hear anything from
+the main sewer tunnels.  
+~
+35 0 0 0 0 0
+D3
+~
+~
+0 0 3581 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3579 0 0 0 0 0 0 0 0
+S
+#3581
+Crawling through a Small Side Tunnel~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D1
+~
+~
+0 0 3580 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3582 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 3585 0 0 0 0 0 0 0 0
+S
+#3582
+Crawling through a Small Side Tunnel~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D1
+~
+~
+0 0 3581 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3583 0 0 0 0 0 0 0 0
+S
+#3583
+Crawling through a Small Side Tunnel~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D1
+~
+~
+0 0 3582 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3584 0 0 0 0 0 0 0 0
+S
+#3584
+Behind a Small Grate~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D7
+~
+~
+0 0 3583 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3523 0 0 0 0 0 0 0 0
+S
+#3585
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D4
+~
+~
+0 0 3581 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3586 0 0 0 0 0 0 0 0
+S
+#3586
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D6
+~
+~
+0 0 3587 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3585 0 0 0 0 0 0 0 0
+S
+#3587
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D7
+~
+~
+0 0 3588 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3586 0 0 0 0 0 0 0 0
+S
+#3588
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D5
+~
+~
+0 0 3589 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3587 0 0 0 0 0 0 0 0
+S
+#3589
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D2
+~
+~
+0 0 3592 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 3588 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3590 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3593 0 0 0 0 0 0 0 0
+S
+#3590
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D3
+~
+~
+0 0 3592 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3589 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 3591 0 0 0 0 0 0 0 0
+S
+#3591
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D0
+~
+~
+0 0 3592 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 3593 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3590 0 0 0 0 0 0 0 0
+S
+#3592
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D0
+~
+~
+0 0 3589 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 3590 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 3591 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 3593 0 0 0 0 0 0 0 0
+S
+#3593
+New BuildWalk Room~
+This unfinished room was created by Cyric.
+~
+35 0 0 0 0 0
+D1
+~
+~
+0 0 3592 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 3589 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 3591 0 0 0 0 0 0 0 0
+S
+$~

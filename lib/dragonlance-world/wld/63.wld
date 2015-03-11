@@ -1,0 +1,1806 @@
+#6300
+Captain's Office~
+   You have discovered a small room all colored blue.  Small bricks of glowing
+white stone line the upper wall.  Against one wall is a stylish work desk with
+a polished wood stool behind it.  A small pile of papers is set neatly in the
+middle.  A couch is against the opposite wall.  The light blue blanket is
+mussed as if dropped quickly by its previous occupant.    
+~
+63 d 0 0 0  0
+D7
+~
+wall~
+1 0 6317 0 0 0 0 0 0 0 0
+E
+papers~
+The papers are simple supply orders, requests for disciplinary actions and command documents.
+They are worthless outside the Cadre.
+~
+S
+#6301
+The Garden~
+   The exit to the east is through a pair of stained glass french doors leaving
+into the Elven Hand Cadre.  The blue tiled path begins there and continues
+west.  A wall of vines line this section of the garden to the north.  Birds
+sing sweetly in the trees
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6318 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6302 0 0 0 0 0 0 0 0
+S
+#6302
+The Garden~
+   A high wall of living vines surrounds this part of the garden on two sides.
+Year round the scent of flowers are heavy in the air.  A blue bricked path
+weaves through the garden.  There is a bench along the north wall magically
+created of enchanted wood.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6306 0 0 0 0 0 0 0 0
+S
+#6303
+The Garden~
+   The exit to the east is through a pair of stained glass french doors leaving
+into the Elven Hand Cadre.  The blue tiled path begins there and continues
+west.  A wall of vines line this section of the garden to the north.  Birds
+sing sweetly in the trees
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6304 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6318 0 0 0 0 0 0 0 0
+S
+#6304
+The Garden~
+   A high wall of living vines surrounds this part of the garden on two sides.
+Year round the scent of flowers are heavy in the air.  A blue bricked path
+weaves through the garden.  There is a bench along the north wall magically
+created of enchanted wood.    
+~
+63 0 h 0 0  3
+D2
+~
+~
+0 0 6307 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6303 0 0 0 0 0 0 0 0
+S
+#6305
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6306 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6309 0 0 0 0 0 0 0 0
+S
+#6306
+The Garden~
+   Ribbed white stone marks the boundary between the garden and the Cadre
+building.  A bench of the same material spans the corner with blue cushions
+inviting you to rest.  A small fountain babbles soothingly in the center of
+this area.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6302 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6305 0 0 0 0 0 0 0 0
+S
+#6307
+The Garden~
+   Ribbed white stone marks the boundary between the garden and the Cadre
+building.  A bench of the same material spans the corner with blue cushions
+inviting you to rest.  A small fountain babbles soothingly in the center of
+this area.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6304 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6308 0 0 0 0 0 0 0 0
+S
+#6308
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D2
+~
+~
+0 0 6310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6307 0 0 0 0 0 0 0 0
+S
+#6309
+The Garden~
+   This area is bordered on the one side by the Cadre building and the other
+the vines that surround the entire garden.  The scent of jasmine and
+moonflowers hang in the slight breeze.  Here and there you see places to stop
+and rest.    
+~
+63 d h 0 0  3
+D0
+~
+~
+0 0 6305 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6311 0 0 0 0 0 0 0 0
+S
+#6310
+The Garden~
+   This area is bordered on the one side by the Cadre building and the other
+the vines that surround the entire garden.  The scent of jasmine and
+moonflowers hang in the slight breeze.  Here and there you see places to stop
+and rest.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6308 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6316 0 0 0 0 0 0 0 0
+S
+#6311
+The Garden~
+   Here the blue tiled path leads to a round circle of tile, leading off in two
+different directions.  The flowers in bloom dance in the slight breeze.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6309 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6312 0 0 0 0 0 0 0 0
+S
+#6312
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny fuchsia flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6313 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6342 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6311 0 0 0 0 0 0 0 0
+S
+#6313
+The Garden~
+   Vines continue to grow along the walls, their flowers ranging from a royal
+fuchsia to a faded lilac.  There is a long bench at the far end of this room
+for resting, or reading in the quiet of the garden.    
+~
+63 0 h 0 0  3
+D0
+~
+vines~
+1 0 6385 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6312 0 0 0 0 0 0 0 0
+S
+#6314
+The Garden~
+   Vines continue to grow along the walls, their flowers ranging from a royal
+fuchsia to a faded lilac.  There is a long bench at the far end of this room
+for resting, or reading in the quiet of the garden.    
+~
+63 0 h 0 0  3
+D0
+~
+vines~
+1 0 6386 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6315 0 0 0 0 0 0 0 0
+S
+#6315
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny fuchsia flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6316 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6346 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6314 0 0 0 0 0 0 0 0
+S
+#6316
+The Garden Beside the Cadre~
+   Here the blue tiled path leads to a round circle of tile, leading off in two
+different directions.  The flowers in bloom dance in the slight breeze.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6310 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6315 0 0 0 0 0 0 0 0
+S
+#6317
+Captain's Sitting Room~
+   This is a wide, high ceiling room with several light couches for waiting.  
+Several elves sit here talking patiently about the captain of the Cadre.  In
+the center of the floor is a colorful glass moasiac of the symbol of the Order
+of the Elven Hand.  Against the south-east corner is a simple carved wooden
+table bearing a few papers and scrolls.    
+~
+63 d h 0 0  0
+D7
+~
+wall~
+1 0 6318 0 0 0 0 0 0 0 0
+D9
+~
+wall~
+1 0 6300 0 0 0 0 0 0 0 0
+S
+#6318
+The Entrance To The Cadre Headquarters~
+   To the south is a building of astonishing beauty.  Rising up from the land,
+it is made of finely carved white marble.  Its walls glow with an inner light
+from within.  The door is made from a mirror polished metal, harder than any
+steel.  Carved into the door is the symbol of the Order of the Elven Hand.    
+~
+63 0 h 0 0  1
+D0
+~
+~
+0 0 6333 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6303 0 0 0 0 0 0 0 0
+D2
+~
+metal~
+1 0 6319 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6301 0 0 0 0 0 0 0 0
+D9
+~
+wall~
+1 0 6317 0 0 0 0 0 0 0 0
+D8
+~
+wall~
+1 0 6320 0 0 0 0 0 0 0 0
+S
+#6319
+A Hallway Leading Into The Barracks~
+   Tall columns curve into the ceiling of this immaculate white hallway.  
+Between each column is a small creeping plant with vibrant blue flowers.  From
+the south can be heard the sounds of muted conversation.    
+~
+63 d h 0 0  0
+D0
+~
+metal~
+1 0 6318 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6322 0 0 0 0 0 0 0 0
+S
+#6320
+Marshal's Sitting Room~
+   This is a wide, high ceiling room with several light couches for waiting.  
+They are presently empty except for a single officer sleeping on the one
+nearest the door.  In the center of the floor is a colorful glass mosaic of the
+symbol of the Order of the Elven Hand.  Against the south-west corner is a
+simple carved wooden table bearing a few papers and scrolls.    
+~
+63 d h 0 0  0
+D6
+~
+wall~
+1 0 6318 0 0 0 0 0 0 0 0
+D8
+~
+wall~
+1 0 6321 0 0 0 0 0 0 0 0
+S
+#6321
+Marshal's Office~
+   You have discovered a small room all colored violet.  A small fireplace
+keeps the room warm and well lit.  Against one wall is an elaborate bookcase
+and an upholstered black leather reading chair.  A small pile of papers have
+been dropped upon the floor.  A couch is against the opposite wall.  A heavy
+red comforter is layed over it as if to absorb the heat of the fire.    
+~
+63 d h 0 0  0
+D6
+~
+wall~
+1 0 6320 0 0 0 0 0 0 0 0
+S
+#6322
+A Hallway Leading Into The Barracks~
+   Tall columns curve into the ceiling of this immaculate white hallway.  
+Above each column is a strange blue orb giving off a dim glow adequate to light
+the hallway.  From the south can be heard the sounds of muted conversation.  
+~
+63 d h 0 0  0
+D0
+~
+~
+0 0 6319 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6323 0 0 0 0 0 0 0 0
+S
+#6323
+Before The Barracks~
+   Here, the white marble gives way to stylized elven tapestries bearing the
+history of the Cadre.  On the left depicts the founder fighting against a white
+dragon, on the right shows the same warrior commanding an army under an elven
+royal standard.  Between is another set of doors made of mirror polished metal.
+~
+63 d h 0 0  0
+D0
+~
+~
+0 0 6322 0 0 0 0 0 0 0 0
+D2
+~
+mirror~
+1 0 6324 0 0 0 0 0 0 0 0
+S
+#6324
+Entrance~
+   This area opens into a wide loud area.  To the east is a large rack of
+wooden swords and to the west is a large bar.  Ahead is an organized chaos of
+soldiers training, eating and playing.  The walls still have columns arching up
+into the high ceiling but a dirty layer covers everything.    
+~
+63 d h 0 0  0
+D0
+~
+mirror~
+1 0 6323 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6329 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6325 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6326 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6328 0 0 0 0 0 0 0 0
+S
+#6325
+The Bar~
+   Several off duty soldiers sit around a low table on dirty stools.  An old
+half-elven woman serves drinks out of a well-patched wine skin.  The sound of
+clinking pewter mugs and drunken laughter fills the entire barracks.    
+~
+63 d h 0 0  0
+D1
+~
+~
+0 0 6324 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6326 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+S
+#6326
+Entrance To The Officers' Quarters~
+   This area is clearly reserved for soldiers of a higher calibre.  Several
+couches and stools are organized in a circle with a Cadre officer sitting in
+each one.  They are quietly reading reports and occasionally frowning at the
+noise around them.  Beyond the circle of furniture is a set of double doors
+made of mirror polished metal harder than steel.    
+~
+63 d h 0 0  0
+D0
+~
+~
+0 0 6325 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6331 0 0 0 0 0 0 0 0
+D3
+~
+mirror~
+1 0 6334 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6324 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6330 0 0 0 0 0 0 0 0
+S
+#6327
+The Barracks~
+   This area opens into a wide loud area.  To the west is the entrance to the
+officers' quarters and to the east is the entrance to the soldiers' quarters.
+All around is an organized chaos of soldiers training, eating and playing.  
+The walls have columns arching up into the high ceiling but a dirty layer
+covers everything.    
+~
+63 d h 0 0  0
+D0
+~
+~
+0 0 6324 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6328 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6330 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6326 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6325 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6329 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6331 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6332 0 0 0 0 0 0 0 0
+S
+#6328
+Entrance To The Soldiers' Quarters~
+   The noise and ruckus seems to be even louder here.  Half dressed soldiers
+stand around yelling stories to one another.  Sitting against the walls are the
+more dedicated warriors polishing armor and weapons.  The mirror polished metal
+set of double doors is smeared with oil, dirt and other unknown substances.  
+~
+63 d h 0 0  0
+D0
+~
+~
+0 0 6329 0 0 0 0 0 0 0 0
+D1
+~
+mirror~
+1 0 6337 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6332 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6324 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6330 0 0 0 0 0 0 0 0
+S
+#6329
+The Training Area~
+   This corner is roped off with thick black cotton rope.  On a raised
+platform, two elven swordsman are sparring with wooden blades.  Beyond the
+roped off region is a polished stone rack bearing dented and splintering wooden
+swords, spears, and staves.    
+~
+63 d h 0 0  0
+D2
+~
+~
+0 0 6328 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6324 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+S
+#6330
+The Back Wall~
+   This cleared out area has a wrought iron spiral staircase ascending into the
+roof.  The shadows behind the staircase seem somewhat ominous and the sounds
+are muted.  A glint of steel from the dark corners makes everyone shy away from
+this area.  To the west is the kitchen and to the east a pile of cots.    
+~
+63 d h 0 0  0
+D0
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6332 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6331 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6340 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6326 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6328 0 0 0 0 0 0 0 0
+S
+#6331
+The Kitchen~
+   A large line of soldiers wait impatiently for their food.  An old half-elven
+woman serves their food from a large wooden bowl.  Pieces of lettuce and tomato
+stain the floor around her feet.  Beyond the line is a set of low tables where
+soldiers already served wolf down their meals of greens and nuts.    
+~
+63 d h 0 0  0
+D0
+~
+~
+0 0 6326 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6330 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+S
+#6332
+A Temporary Sleeping Area~
+   A large tarp of honey leather keeps this area in gloomy darkness, keeping
+the faint glow of the walls from the sleepers eyes.  Soldiers toss and turn on
+narrow cots beneath the tarp.  The sounds of sleepy murmurs are occasionally
+punctuated by a tired cry.    
+~
+63 a h 0 0  0
+D0
+~
+~
+0 0 6328 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6330 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6327 0 0 0 0 0 0 0 0
+S
+#6333
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  Through the trees a tower can be
+faintly seen to the south.    
+~
+63 c h 0 0  3
+D1
+~
+~
+0 0 6387 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6318 0 0 0 0 0 0 0 0
+S
+#6334
+The Officers' Quarters~
+   Tall columns curve into the ceiling of this immaculate white hallway.  
+Above each column is a strange blue orb giving off a dim glow adequate to light
+the hallway.  Below each orb is a small creeper plant with vibrant blue
+flowers.  From beyond the door to the east can be heard the sounds of muted
+conversation.  Closed doors can be seen on either side.    
+~
+63 d h 0 0  0
+D1
+~
+mirror~
+1 0 6326 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6335 0 0 0 0 0 0 0 0
+S
+#6335
+The Officers' Quarters~
+   Tall columns curve into the ceiling of this immaculate white hallway.  
+Above each column is a strange blue orb giving off a dim glow adequate to light
+the hallway.  Below each orb is a small creeper plant with vibrant blue
+flowers.  Several officers wander around here preparing for their watch.  
+Closed doors can be seen on either side.    
+~
+63 d h 0 0  0
+D1
+~
+~
+0 0 6334 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6336 0 0 0 0 0 0 0 0
+S
+#6336
+The Officers' Quarters~
+   Tall columns curve into the ceiling of this immaculate white hallway.  
+Above each column is a strange blue orb giving off a dim glow adequate to light
+the hallway.  Below each orb is a small creeper plant with vibrant blue
+flowers.  A single officer sleeps against the wall here, supposedly keeping
+watch.  Closed doors can be seen on either side.    
+~
+63 d h 0 0  0
+D1
+~
+~
+0 0 6335 0 0 0 0 0 0 0 0
+S
+#6337
+The Soldiers' Quarters~
+   Tall columns curve into the ceiling of this immaculate white hallway.  Dirt
+coats the columns and walls.  There are several blue orbs giving off light but
+most are dark.  Below each glowing orb is a small creeper plant with vibrant
+blue flowers.  Beneath the dark orbs the plants are dying.  Several soldiers
+are lounging about here.  Closed doors can be seen on either side.    
+~
+63 d h 0 0  0
+D1
+~
+~
+0 0 6338 0 0 0 0 0 0 0 0
+D3
+~
+mirror~
+1 0 6328 0 0 0 0 0 0 0 0
+S
+#6338
+The Soldiers' Quarters~
+   Tall columns curve into the ceiling of this immaculate white hallway.  Dirt
+coats the columns and walls.  There are several blue orbs giving off light but
+most are dark.  Below each glowing orb is a small creeper plant with vibrant
+blue flowers.  Beneath the dark orbs the plants are dying.  Several soldiers
+are lounging about here.  Closed doors can be seen on either side.    
+~
+63 d h 0 0  0
+D1
+~
+~
+0 0 6339 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6337 0 0 0 0 0 0 0 0
+S
+#6339
+The Soldiers' Quarters~
+   Tall columns curve into the ceiling of this immaculate white hallway.  Dirt
+coats the columns and walls.  There are several blue orbs giving off light but
+most are dark.  Below each glowing orb is a small creeper plant with vibrant
+blue flowers.  Beneath the dark orbs the plants are dying.  Several soldiers
+are lounging about here.  Closed doors can be seen on either side.    
+~
+63 d h 0 0  0
+D3
+~
+~
+0 0 6338 0 0 0 0 0 0 0 0
+S
+#6340
+The Armory~
+   This closed in area has a large defendable barricade around the wrought iron
+stairwell coming from floor to ceiling.  Against the walls are artifacts of the
+elven military heritage.  Swords, shields, armor, spears, bows, all hang on
+display for the taking of the Cadre members.  A retired elven warrior issues
+the items here.    
+~
+63 d h 0 0  0
+D4
+~
+~
+0 0 6341 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6330 0 0 0 0 0 0 0 0
+S
+#6341
+The Library~
+   A haze of dust drifts in this sunlit room.  Colored glass sends a rainbow of
+light against the dusty, white marble floor.  Bookshelves are crammed in here
+so tight that its impossible to get through without turning sideways.  An
+ancient elven mage stands here ready to dispense scrolls or spell books.    
+~
+63 di h 0 0  0
+D5
+~
+~
+0 0 6340 0 0 0 0 0 0 0 0
+S
+#6342
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny royal blue flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6312 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6343 0 0 0 0 0 0 0 0
+S
+#6343
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny navy flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6342 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6344 0 0 0 0 0 0 0 0
+S
+#6344
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny blue flowers.  Their intoxicating scent
+flowing in the breeze.  The vines that cover the remaining wall are all shades
+of brown.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6343 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6345 0 0 0 0 0 0 0 0
+S
+#6345
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6344 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6357 0 0 0 0 0 0 0 0
+S
+#6346
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny royal blue flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6315 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6347 0 0 0 0 0 0 0 0
+S
+#6347
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny royal blue flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6348 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6346 0 0 0 0 0 0 0 0
+S
+#6348
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny blue flowers.  Their intoxicating scent
+flowing in the breeze.  The vines that cover the remaining wall are all shades
+of brown.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6362 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6347 0 0 0 0 0 0 0 0
+S
+#6349
+A new room~
+   You are in a room.    
+~
+63 0 h 0 0  0
+D1
+~
+~
+0 0 6348 0 0 0 0 0 0 0 0
+S
+#6350
+The Garden~
+   This area is bordered on the one side by the Cadre building and the other
+the vines that surround the entire garden.  The scent of jasmine and
+moonflowers hang in the slight breeze.  Here and there you see places to stop
+and rest.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6362 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6351 0 0 0 0 0 0 0 0
+S
+#6351
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6352 0 0 0 0 0 0 0 0
+S
+#6352
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny blue flowers.  Their intoxicating scent
+flowing in the breeze.  The vines that cover the remaining wall are all shades
+of brown.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6351 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6353 0 0 0 0 0 0 0 0
+S
+#6353
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny royal blue flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6352 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6354 0 0 0 0 0 0 0 0
+S
+#6354
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny royal blue flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6353 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6355 0 0 0 0 0 0 0 0
+S
+#6355
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6354 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6366 0 0 0 0 0 0 0 0
+S
+#6356
+The Cadre Well~
+   This dark circle of stone is slick with water dripping down its sides.  The
+moss directly against the well is blooming with small blossoms that give off an
+intoxicating scent.    
+~
+63 c h 0 0  1
+D0
+~
+~
+0 0 6365 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6370 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6373 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6367 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6374 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6364 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6366 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6368 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6371 0 0 0 0 0 0 0 0
+S
+#6357
+The Garden~
+   This area is bordered on the one side by the Cadre building and the other
+the vines that surround the entire garden.  The scent of jasmine and
+moonflowers hang in the slight breeze.  Here and there you see places to stop
+and rest.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6345 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6358 0 0 0 0 0 0 0 0
+S
+#6358
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6357 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6359 0 0 0 0 0 0 0 0
+S
+#6359
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny blue flowers.  Their intoxicating scent
+flowing in the breeze.  The vines that cover the remaining wall are all shades
+of brown.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6360 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6358 0 0 0 0 0 0 0 0
+S
+#6360
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny royal blue flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6361 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6359 0 0 0 0 0 0 0 0
+S
+#6361
+The Garden~
+   Green vines grow up the cadre walls bathing the otherwise white stone in a
+variety of green foliage and tiny royal blue flowers.  Their intoxicating scent
+flowing in the breeze.    
+~
+63 0 h 0 0  3
+D2
+~
+~
+0 0 6363 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6360 0 0 0 0 0 0 0 0
+S
+#6362
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D2
+~
+~
+0 0 6350 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6348 0 0 0 0 0 0 0 0
+S
+#6363
+The Garden~
+   Two walls of living vines meet in the corner of this area of the garden.  
+The songs of birds fills the trees and you can see brief splashes of color as
+they fly from tree to tree.  Here the scent of roses fills the air.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6361 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6364 0 0 0 0 0 0 0 0
+S
+#6364
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6365 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6367 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6363 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+S
+#6365
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 0 h 0 0  3
+D1
+~
+~
+0 0 6366 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6364 0 0 0 0 0 0 0 0
+S
+#6366
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 C h 0 0  3
+D1
+~
+~
+0 0 6355 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6370 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6365 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+S
+#6367
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6364 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6368 0 0 0 0 0 0 0 0
+S
+#6368
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6367 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6373 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+S
+#6369
+A new room~
+You are in a room.
+~
+63 0 h 0 0  0
+D3
+~
+~
+0 0 6368 0 0 0 0 0 0 0 0
+S
+#6370
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6366 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6371 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+S
+#6371
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6370 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6373 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+S
+#6372
+A new room~
+You are in a room.
+~
+63 0 h 0 0  0
+S
+#6373
+Around The Well~
+   This part of the garden seems to sink into a floor of spongy spruce colored
+moss.  In the center of this ring of moss is a low stone circle with water
+slowly trickling down its sides.    
+~
+63 0 h 0 0  3
+D0
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6371 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6378 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6368 0 0 0 0 0 0 0 0
+S
+#6374
+The Middle Of The Well~
+   The dark circle of stone is all around, slick and slimy with water and old
+half rotted vegetation.  A faint glow comes from around one rock to the north.
+~
+63 aiqC h 0 0  0
+D4
+~
+~
+0 0 6356 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6375 0 0 0 0 0 0 0 0
+S
+#6375
+The Middle Of The Well~
+   The dark circle of stone is all around, slick and slimy with water and old
+half rotted vegetation.  A faint glow comes from around one rock to the north.
+~
+63 aiqC h 0 0  0
+D4
+~
+~
+0 0 6374 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6376 0 0 0 0 0 0 0 0
+S
+#6376
+The Middle Of The Well~
+   The dark circle of stone is all around, slick and slimy with water and old
+half rotted vegetation.  A faint glow comes from around one rock to the north.
+~
+63 aiqC h 0 0  0
+D4
+~
+~
+0 0 6375 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6377 0 0 0 0 0 0 0 0
+S
+#6377
+The Bottome Of The Well~
+   The bottom of this dark circle of stone is littered with tarnished coins
+from centuries of well wishers.  Beneath the coins can be glimpsed a gleaming
+white bone of someone most unfortunate.  A faint glow comes from around one
+rock to the north.    
+~
+63 r h 0 0  6
+D4
+~
+~
+0 0 6376 0 0 0 0 0 0 0 0
+S
+#6378
+A Peaceful Path~
+   This section of the garden, the blue tiled path shows a bit more wear.  The
+need of help is great in this time.  Not as in the past when Krynn was peaceful.
+~
+63 cu h 0 0  3
+D0
+~
+~
+0 0 6373 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6379 0 0 0 0 0 0 0 0
+S
+#6379
+A Peaceful Path~
+   This section of the garden, the blue tiled path shows a bit more wear.  The
+need of help is great in this time.  Not as in the past when Krynn was peaceful.
+~
+63 cu h 0 0  3
+D0
+~
+~
+0 0 6378 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6380 0 0 0 0 0 0 0 0
+S
+#6380
+Before The Temple Of Mishakal~
+   The blue path fades into fine white sand surrounding a beautiful white
+tower.  The temple is made from polished stone glowing with an inner
+iridescence.  A feeling of peace and well being washes over everyone here.    
+~
+63 cu h 0 0  3
+D0
+~
+~
+0 0 6379 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 6381 0 0 0 0 0 0 0 0
+S
+#6381
+The Foyer~
+   The iridescent stone on the outside walls are mirrored to perfection within
+these walls.  Life size carvings of benevolent clerics of the past are carved
+on every surface.    
+~
+63 u h 0 0  0
+D0
+~
+~
+0 0 6380 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 6382 0 0 0 0 0 0 0 0
+S
+#6382
+The Tower Of Mishakal~
+   Here, glowing lanterns warm the hearts of the sick and dying.  Clerics of
+Mishakal, so long hidden from the world, tend to the needs of their flock.  
+Even now, a sinister force seems to watch the clerics with unchecked hatred.  
+~
+63 u h 0 0  0
+D4
+~
+~
+0 0 6383 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6381 0 0 0 0 0 0 0 0
+S
+#6383
+The Tower Of Mishakal~
+   Here, glowing lanterns warm the hearts of the sick and dying.  Clerics of
+Mishakal, so long hidden from the world, tend to the needs of their flock.  
+Even now, a sinister force seems to watch the clerics with unchecked hatred.  
+~
+63 u h 0 0  0
+D4
+~
+~
+0 0 6384 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 6382 0 0 0 0 0 0 0 0
+S
+#6384
+The Shrine Of Mishakal~
+   A twelve foot high statue of pure platinum stands here.  It is a woman in
+flowing silver robes holding out her hand as if to offer eternal aid.  A hole
+in the base of the pedestal seems to fit a staff of some sort.    
+~
+63 u h 0 0  1
+D5
+~
+~
+0 0 6383 0 0 0 0 0 0 0 0
+S
+#6385
+A Secret Alcove~
+   This alcove is a shady, secretive area.  Away from prying eyes, perfect for
+a intimate rendevous.  Vines hang down covering the small area completely.    
+~
+63 a h 0 0  3
+D2
+~
+vines~
+1 0 6313 0 0 0 0 0 0 0 0
+S
+#6386
+A Secret Alcove~
+   This alcove is a shady, secretive area.  Away from prying eyes, perfect for
+a intimate rendevous.  Vines hang down covering the small area completely.    
+~
+63 a h 0 0  3
+D2
+~
+vines~
+1 0 6314 0 0 0 0 0 0 0 0
+S
+#6387
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 i h 0 0  3
+D1
+~
+~
+0 0 6388 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6333 0 0 0 0 0 0 0 0
+S
+#6388
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D0
+~
+~
+0 0 14706 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 6389 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6387 0 0 0 0 0 0 0 0
+S
+#6389
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6390 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6388 0 0 0 0 0 0 0 0
+S
+#6390
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6391 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6389 0 0 0 0 0 0 0 0
+S
+#6391
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6392 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6390 0 0 0 0 0 0 0 0
+S
+#6392
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6393 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6391 0 0 0 0 0 0 0 0
+S
+#6393
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6394 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6392 0 0 0 0 0 0 0 0
+S
+#6394
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6395 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6393 0 0 0 0 0 0 0 0
+S
+#6395
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6396 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6394 0 0 0 0 0 0 0 0
+S
+#6396
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6397 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6395 0 0 0 0 0 0 0 0
+S
+#6397
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6398 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6396 0 0 0 0 0 0 0 0
+S
+#6398
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 6399 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6397 0 0 0 0 0 0 0 0
+S
+#6399
+A Faint Foot Path~
+   This area is a hilly forestland.  It is filled with larger vallenwoods and
+smaller brush almost clogging the trail.  A very faint set of footprints
+continue through the hills.  To the north and south, steep ravines keep the
+path narrow and dangerous.    
+~
+63 ip h 0 0  3
+D1
+~
+~
+0 0 3034 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 6398 0 0 0 0 0 0 0 0
+S
+$

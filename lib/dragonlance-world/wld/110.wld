@@ -1,0 +1,1810 @@
+#11000
+Under the Rotting Stump~
+   The air here is stale and the smell of rotting wood and mildew are very
+strong.  Mud is knee deep here making movement nearly impossible.  The sound of
+dripping water echoes throughout the entire area and is the only sound that can
+be heard.    
+~
+110 c h 0 0  0
+D2
+~
+~
+0 0 11001 0 0 0 0 0 0 0 0
+D4
+~
+stump~
+1 0 10433 0 0 0 0 0 0 0 0
+S
+#11001
+A Damp Trail~
+   The air here is stale and the smell of rotting wood and mildew are very
+strong.  Mud is knee deep here making movement nearly impossible.  The entire
+area is covered in thick black mud, and nothing can be seen in the darkness
+ahead.    
+~
+110 c h 0 0  0
+D0
+~
+~
+0 0 11076 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11002 0 0 0 0 0 0 0 0
+S
+#11002
+A Damp Trail~
+   The air here is stale and the smell of rotting wood and mildew are very
+strong.  Mud is knee deep here making movement nearly impossible.  The entire
+area is covered in thick black mud, and nothing can be seen in the darkness
+ahead.    
+~
+110 c h 0 0  0
+D0
+~
+~
+0 0 11001 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11003 0 0 0 0 0 0 0 0
+S
+#11003
+A Damp Trail~
+   The air here is stale and the smell of rotting wood and mildew are very
+strong.  Mud is knee deep here making movement nearly impossible.  The entire
+area is covered in thick black mud, and nothing can be seen in the darkness
+ahead.    
+~
+110 c h 0 0  0
+D2
+~
+~
+0 0 11004 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11002 0 0 0 0 0 0 0 0
+S
+#11004
+A Damp Trail~
+   The air here is stale and the smell of rotting wood and mildew are very
+strong.  Mud is knee deep here making movement nearly impossible.  The entire
+area is covered in thick black mud, and nothing can be seen in the darkness
+ahead.    
+~
+110 c h 0 0  0
+D0
+~
+~
+0 0 11003 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11005 0 0 0 0 0 0 0 0
+S
+#11005
+Cave Entrance~
+   The air is a bit dusty here, particles flying all about the room in somewhat
+of a whirlwind fashion.  Jagged rocks jut up out of the top of the ground, and
+hang down from the roof as well.  Stalagmites have built up on the ground of
+the cave, covering nearly all of the entrance, except for a small crevice that
+someone could possibly squeeze through.    
+~
+110 ai h 0 0  0
+D0
+~
+~
+0 0 11004 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11006 0 0 0 0 0 0 0 0
+S
+#11006
+Inside The Cave~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11005 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11007 0 0 0 0 0 0 0 0
+S
+#11007
+Inside The Cave~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11006 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11008 0 0 0 0 0 0 0 0
+S
+#11008
+Inside The Cave~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11007 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11009 0 0 0 0 0 0 0 0
+S
+#11009
+Inside The Cave~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11008 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11011 0 0 0 0 0 0 0 0
+S
+#11010
+Inside The Cave~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11009 0 0 0 0 0 0 0 0
+S
+#11011
+Inside The Cave~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11009 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+S
+#11012
+A Dreary Intersection~
+   A cold wind blows through the air, bringing goosebumps upon your skin.  
+Heavy etched scratch marks lie here upon the ground, showing signs of traverse
+by some unworldly creature, or creatures.  The caves break off into a series of
+different ways, each way being just as dark and dreary as the other.    
+~
+110 ac h 0 0  0
+D0
+~
+~
+0 0 11011 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11020 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11013 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11027 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 11042 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 11038 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11046 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11077 0 0 0 0 0 0 0 0
+S
+#11013
+The Southern Path~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11015 0 0 0 0 0 0 0 0
+S
+#11014
+Inside The Cave~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11013 0 0 0 0 0 0 0 0
+S
+#11015
+The Southern Path~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11013 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11016 0 0 0 0 0 0 0 0
+S
+#11016
+The Southern Path~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11015 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11017 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 11070 0 0 0 0 0 0 0 0
+S
+#11017
+The Southern Path~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11016 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11018 0 0 0 0 0 0 0 0
+S
+#11018
+The Southern Path~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11017 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11019 0 0 0 0 0 0 0 0
+S
+#11019
+The Southern Path~
+   Darkness covers the surroundings inside the cave.  Tricklings of water can
+be heard if one were to listen closely.  The path you walk upon is hardened by
+the years, and seems to be made of a solid stone, rather than pebbles.  The
+sides of the caves are smooth, and house many holes that are probably home for
+the local bats and spiders.  Some strange noises can be heard deeper within the
+cave.    
+~
+110 a h 0 0  0
+D0
+~
+~
+0 0 11018 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11075 0 0 0 0 0 0 0 0
+S
+#11020
+The Eastern Path~
+   Devilish spikes stick up all around you, making any type of movement at all
+somewhat dangerous.  The rocks appear to be too sharp for the work of nature,
+and seem a bit eerie, even for a place of this stature.  The smothering
+darkness seems almost blinding, it is a darkness that even your light source
+can't seem to quench.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11021 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+S
+#11021
+The Eastern Path~
+   Devilish spikes stick up all around you, making any type of movement at all
+somewhat dangerous.  The rocks appear to be too sharp for the work of nature,
+and seem a bit eerie, even for a place of this stature.  The smothering
+darkness seems almost blinding, it is a darkness that even your light source
+can't seem to quench.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11022 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11020 0 0 0 0 0 0 0 0
+S
+#11022
+The Eastern Path~
+   Devilish spikes stick up all around you, making any type of movement at all
+somewhat dangerous.  The rocks appear to be too sharp for the work of nature,
+and seem a bit eerie, even for a place of this stature.  The smothering
+darkness seems almost blinding, it is a darkness that even your light source
+can't seem to quench.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11023 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11021 0 0 0 0 0 0 0 0
+S
+#11023
+The Eastern Path~
+   Devilish spikes stick up all around you, making any type of movement at all
+somewhat dangerous.  The rocks appear to be too sharp for the work of nature,
+and seem a bit eerie, even for a place of this stature.  The smothering
+darkness seems almost blinding, it is a darkness that even your light source
+can't seem to quench.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11024 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11022 0 0 0 0 0 0 0 0
+S
+#11024
+The Eastern Path~
+   Devilish spikes stick up all around you, making any type of movement at all
+somewhat dangerous.  The rocks appear to be too sharp for the work of nature,
+and seem a bit eerie, even for a place of this stature.  The smothering
+darkness seems almost blinding, it is a darkness that even your light source
+can't seem to quench.    
+~
+110 a h 0 0  0
+D3
+~
+~
+0 0 11023 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 11072 0 0 0 0 0 0 0 0
+S
+#11025
+The Eastern Path~
+   Devilish spikes stick up all around you, making any type of movement at all
+somewhat dangerous.  The rocks appear to be too sharp for the work of nature,
+and seem a bit eerie, even for a place of this stature.  The smothering
+darkness seems almost blinding, it is a darkness that even your light source
+can't seem to quench.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11026 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11024 0 0 0 0 0 0 0 0
+S
+#11026
+The Eastern Path~
+   Devilish spikes stick up all around you, making any type of movement at all
+somewhat dangerous.  The rocks appear to be too sharp for the work of nature,
+and seem a bit eerie, even for a place of this stature.  The smothering
+darkness seems almost blinding, it is a darkness that even your light source
+can't seem to quench.    
+~
+110 a h 0 0  0
+D3
+~
+~
+0 0 11025 0 0 0 0 0 0 0 0
+S
+#11027
+The Western Path~
+   After a few steps down this dusty path of the cave, it can be seen that
+torches are lighting sections of the path - and not only that, there are no
+coves or openings on the walls around you.  It appears they have been heavily
+bricked, making the area seem more like an old dungeon than a cave.  The dim
+light from the torches stretches further on to the west.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11028 0 0 0 0 0 0 0 0
+S
+#11028
+The Western Path~
+   After a few steps down this dusty path of the cave, it can be seen that
+torches are lighting sections of the path - and not only that, there are no
+coves or openings on the walls around you.  It appears they have been heavily
+bricked, making the area seem more like an old dungeon than a cave.  The dim
+light from the torches stretches further on to the west.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11027 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11029 0 0 0 0 0 0 0 0
+S
+#11029
+The Western Path~
+   After a few steps down this dusty path of the cave, it can be seen that
+torches are lighting sections of the path - and not only that, there are no
+coves or openings on the walls around you.  It appears they have been heavily
+bricked, making the area seem more like an old dungeon than a cave.  The dim
+light from the torches stretches further on to the west.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11028 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11030 0 0 0 0 0 0 0 0
+S
+#11030
+The Western Path~
+   After a few steps down this dusty path of the cave, it can be seen that
+torches are lighting sections of the path - and not only that, there are no
+coves or openings on the walls around you.  It appears they have been heavily
+bricked, making the area seem more like an old dungeon than a cave.  The dim
+light from the torches stretches further on to the west.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11029 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11031 0 0 0 0 0 0 0 0
+S
+#11031
+The Western Path~
+   After a few steps down this dusty path of the cave, it can be seen that
+torches are lighting sections of the path - and not only that, there are no
+coves or openings on the walls around you.  It appears they have been heavily
+bricked, making the area seem more like an old dungeon than a cave.  The dim
+light from the torches stretches further on to the west.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11030 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11032 0 0 0 0 0 0 0 0
+S
+#11032
+The Western Path~
+   After a few steps down this dusty path of the cave, it can be seen that
+torches are lighting sections of the path - and not only that, there are no
+coves or openings on the walls around you.  It appears they have been heavily
+bricked, making the area seem more like an old dungeon than a cave.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11031 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11074 0 0 0 0 0 0 0 0
+S
+#11033
+The Western Path~
+   After a few steps down this dusty path of the cave, it can be seen that
+torches are lighting sections of the path - and not only that, there are no
+coves or openings on the walls around you.  It appears they have been heavily
+bricked, making the area seem more like an old dungeon than a cave.  The dim
+light from the torches stretches further on to the west.    
+~
+110 a h 0 0  0
+D1
+~
+~
+0 0 11032 0 0 0 0 0 0 0 0
+S
+#11034
+The Southeast Passage~
+   Calm and cool air lies within this hall.  The darkness is very soft, though
+still it is almost impossible to see more than a step ahead of yourself.  
+Large indents in the floor area of this passageway have been made, possibly by
+miners.  There are many attachments on the walls, placed there in order for
+torches to be lit and hung.  The path slightly winds from side to side, but
+generally continues in a straight posture.    
+~
+110 ac h 0 0  0
+D6
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11035 0 0 0 0 0 0 0 0
+S
+#11035
+The Southeast Passage~
+   Calm and cool air lies within this hall.  The darkness is very soft, though
+still it is almost impossible to see more than a step ahead of yourself.  
+Large indents in the floor area of this passageway have been made, possibly by
+miners.  There are many attachments on the walls, placed there in order for
+torches to be lit and hung.  The path slightly winds from side to side, but
+generally continues in a straight posture.    
+~
+110 a h 0 0  0
+D6
+~
+~
+0 0 11034 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11036 0 0 0 0 0 0 0 0
+S
+#11036
+The Southeast Passage~
+   Calm and cool air lies within this hall.  The darkness is very soft, though
+still it is almost impossible to see more than a step ahead of yourself.  
+Large indents in the floor area of this passageway have been made, possibly by
+miners.  There are many attachments on the walls, placed there in order for
+torches to be lit and hung.  The path slightly winds from side to side, but
+generally continues in a straight posture.    
+~
+110 a h 0 0  0
+D6
+~
+~
+0 0 11035 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11037 0 0 0 0 0 0 0 0
+S
+#11037
+The Southeast Passage~
+   Calm and cool air lies within this hall.  The darkness is very soft, though
+still it is almost impossible to see more than a step ahead of yourself.  
+Large indents in the floor area of this passageway have been made, possibly by
+miners.  There are many attachments on the walls, placed there in order for
+torches to be lit and hung.  The path slightly winds from side to side, but
+generally continues in a straight posture.    
+~
+110 a h 0 0  0
+D6
+~
+~
+0 0 11036 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11065 0 0 0 0 0 0 0 0
+S
+#11038
+The Northeast Passage~
+   A strange cold whisps about through this hall, howling and hurtling itself
+from wall to wall.  Soft grains and pebbles cover the path, making it difficult
+to maintain a sure footing.  The perilous nature of the hallway itself seems
+nearly overwhelming, though other than the sounds of the dark underground
+nature, you can't sense any other presence.    
+~
+110 ac h 0 0  0
+D7
+~
+~
+0 0 11039 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+S
+#11039
+The Northeast Passage~
+   A strange cold whisps about through this hall, howling and hurtling itself
+from wall to wall.  Soft grains and pebbles cover the path, making it difficult
+to maintain a sure footing.  The perilous nature of the hallway itself seems
+nearly overwhelming, though other than the sounds of the dark underground
+nature, you can't sense any other presence.    
+~
+110 a h 0 0  0
+D7
+~
+~
+0 0 11040 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11038 0 0 0 0 0 0 0 0
+S
+#11040
+The Northeast Passage~
+   A strange cold whisps about through this hall, howling and hurtling itself
+from wall to wall.  Soft grains and pebbles cover the path, making it difficult
+to maintain a sure footing.  The perilous nature of the hallway itself seems
+nearly overwhelming, though other than the sounds of the dark underground
+nature, you can't sense any other presence.    
+~
+110 a h 0 0  0
+D7
+~
+~
+0 0 11041 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11039 0 0 0 0 0 0 0 0
+S
+#11041
+The Northeast Passage~
+   A strange cold whisps about through this hall, howling and hurtling itself
+from wall to wall.  Soft grains and pebbles cover the path, making it difficult
+to maintain a sure footing.  The perilous nature of the hallway itself seems
+nearly overwhelming, though other than the sounds of the dark underground
+nature, you can't sense any other presence.    
+~
+110 a h 0 0  0
+D7
+~
+~
+0 0 11050 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11040 0 0 0 0 0 0 0 0
+S
+#11042
+The Northwest Passage~
+   This drudging path leads to the northwest of the cave, slightly in the same
+direction that you entered from.  The path here bears a foreboding darkness
+that seems to be so dark that not even your lightsources give much help.  A
+darkness of this sort can only be of one thing - magic.    
+~
+110 ach h 0 0  0
+D6
+~
+~
+0 0 11043 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+S
+#11043
+The Northwest Passage~
+   This drudging path leads to the northwest of the cave, slightly in the same
+direction that you entered from.  The path here bears a foreboding darkness
+that seems to be so dark that not even your lightsources give much help.  A
+darkness of this sort is possibly magical, blinding even the most powerfully
+keen eyesight.    
+~
+110 ah h 0 0  0
+D6
+~
+~
+0 0 11044 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11042 0 0 0 0 0 0 0 0
+S
+#11044
+The Northwest Passage~
+   This drudging path leads to the northwest of the cave, slightly in the same
+direction that you entered from.  The path here bears a foreboding darkness
+that seems to be so dark that not even your lightsources give much help.  A
+darkness of this sort is possibly magical, blinding even the most powerfully
+keen eyesight.    
+~
+110 ah h 0 0  0
+D6
+~
+~
+0 0 11045 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11043 0 0 0 0 0 0 0 0
+S
+#11045
+The Northwest Passage~
+   This drudging path leads to the northwest of the cave, slightly in the same
+direction that you entered from.  The path here bears a foreboding darkness
+that seems to be so dark that not even your lightsources give much help.  A
+darkness of this sort is possibly magical, blinding even the most powerfully
+keen eyesight.    
+~
+110 ah h 0 0  0
+D6
+~
+~
+0 0 11055 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11044 0 0 0 0 0 0 0 0
+S
+#11046
+The Southwest Passage~
+   A multitude of small pebbles and what look to be chipped bones pave this
+sorrowful passage.  Flecks of dust flutter about - creating a transparent wall
+in every direction.  A smell of death is in the air, many animal carcasses lie
+near the edges of the path.  A few corpses of what appear to be deer have been
+savagely ripped to pieces, the bones crushed.    
+~
+110 ac h 0 0  0
+D7
+~
+~
+0 0 11012 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11047 0 0 0 0 0 0 0 0
+S
+#11047
+The Southwest Passage~
+   A multitude of small pebbles and what look to be chipped bones pave this
+sorrowful passage.  Flecks of dust flutter about - creating a transparent wall
+in every direction.  A smell of death is in the air, many animal carcasses lie
+near the edges of the path.  A few corpses of what appear to be deer have been
+savagely ripped to pieces, the bones crushed.    
+~
+110 ac h 0 0  0
+D7
+~
+~
+0 0 11046 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11048 0 0 0 0 0 0 0 0
+S
+#11048
+The Southwest Passage~
+   A multitude of small pebbles and what look to be chipped bones pave this
+sorrowful passage.  Flecks of dust flutter about - creating a transparent wall
+in every direction.  A smell of death is in the air, many animal carcasses lie
+near the edges of the path.  A few corpses of what appear to be deer have been
+savagely ripped to pieces, the bones crushed.    
+~
+110 a h 0 0  0
+D6
+~
+~
+0 0 11071 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 11047 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11049 0 0 0 0 0 0 0 0
+S
+#11049
+The Southwest Passage~
+   A multitude of small pebbles and what look to be chipped bones pave this
+sorrowful passage.  Flecks of dust flutter about - creating a transparent wall
+in every direction.  A smell of death is in the air, many animal carcasses lie
+near the edges of the path.  A few corpses of what appear to be deer have been
+savagely ripped to pieces, the bones crushed.    
+~
+110 ac h 0 0  0
+D7
+~
+~
+0 0 11048 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11060 0 0 0 0 0 0 0 0
+S
+#11050
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D7
+~
+~
+0 0 11051 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11041 0 0 0 0 0 0 0 0
+S
+#11051
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11054 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11052 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11050 0 0 0 0 0 0 0 0
+S
+#11052
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11053 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11051 0 0 0 0 0 0 0 0
+S
+#11053
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D2
+~
+~
+0 0 11052 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11054 0 0 0 0 0 0 0 0
+S
+#11054
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D1
+~
+~
+0 0 11053 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11051 0 0 0 0 0 0 0 0
+S
+#11055
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D6
+~
+~
+0 0 11056 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11045 0 0 0 0 0 0 0 0
+S
+#11056
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11057 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11059 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11055 0 0 0 0 0 0 0 0
+S
+#11057
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D2
+~
+~
+0 0 11056 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11058 0 0 0 0 0 0 0 0
+S
+#11058
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D1
+~
+~
+0 0 11057 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11059 0 0 0 0 0 0 0 0
+S
+#11059
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11058 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11056 0 0 0 0 0 0 0 0
+S
+#11060
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D7
+~
+~
+0 0 11049 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 11061 0 0 0 0 0 0 0 0
+S
+#11061
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D2
+~
+~
+0 0 11064 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11062 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 11060 0 0 0 0 0 0 0 0
+S
+#11062
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D1
+~
+~
+0 0 11061 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11063 0 0 0 0 0 0 0 0
+S
+#11063
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11062 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11064 0 0 0 0 0 0 0 0
+S
+#11064
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11061 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11063 0 0 0 0 0 0 0 0
+S
+#11065
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D6
+~
+~
+0 0 11037 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 11066 0 0 0 0 0 0 0 0
+S
+#11066
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D1
+~
+~
+0 0 11069 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11067 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 11065 0 0 0 0 0 0 0 0
+S
+#11067
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11066 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11068 0 0 0 0 0 0 0 0
+S
+#11068
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D0
+~
+~
+0 0 11069 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11067 0 0 0 0 0 0 0 0
+S
+#11069
+Within A Deep Cavern~
+   These hollowed out caverns are deeper and winder than most of the rest of
+the cave.  The ceiling of the cavern stands well over twenty feet into the
+musty air.  The whole ground of the cavern is filled with knee high water,
+which smells stagnant, and is too murky to penetrate with the mortal eye.    
+~
+110 0 h 0 0  0
+D2
+~
+~
+0 0 11068 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11066 0 0 0 0 0 0 0 0
+S
+#11070
+Inside a Cove~
+   This cove is about the size of a small house.  The darkness is
+incomprehensible, surrounding you like a tight black cloak.  The bitter smell
+of death mingles with other foul odors to create a smothering stench.    
+~
+110 r dh 0 0  0
+D9
+~
+~
+0 0 11016 0 0 0 0 0 0 0 0
+S
+#11071
+Inside a Cove~
+   This cove is about the size of a small house.  The darkness is
+incomprehensible, surrounding you like a tight black cloak.  The bitter smell
+of death mingles with other foul odors to create a smothering stench.    
+~
+110 r dh 0 0  0
+D8
+~
+~
+0 0 11048 0 0 0 0 0 0 0 0
+S
+#11072
+Inside a Cove~
+   This cove is about the size of a small house.  The darkness is
+incomprehensible, surrounding you like a tight black cloak.  The bitter smell
+of death mingles with other foul odors to create a smothering stench.    
+~
+110 r dh 0 0  0
+D9
+~
+~
+0 0 11024 0 0 0 0 0 0 0 0
+S
+#11073
+Inside a Cove~
+   This cove is about the size of a small house.  The darkness is
+incomprehensible, surrounding you like a tight black cloak.  The bitter smell
+of death mingles with other foul odors to create a smothering stench.    
+~
+110 r dh 0 0  0
+D7
+~
+~
+0 0 11007 0 0 0 0 0 0 0 0
+S
+#11074
+Inside a Cove~
+   This cove is about the size of a small house.  The darkness is
+incomprehensible, surrounding you like a tight black cloak.  The bitter smell
+of death mingles with other foul odors to create a smothering stench.    
+~
+110 r dh 0 0  0
+D0
+~
+~
+0 0 11032 0 0 0 0 0 0 0 0
+S
+#11075
+Inside a Cove~
+   This cove is about the size of a small house.  The darkness is
+incomprehensible, surrounding you like a tight black cloak.  The bitter smell
+of death mingles with other foul odors to create a smothering stench.    
+~
+110 r dh 0 0  0
+D7
+~
+~
+0 0 11019 0 0 0 0 0 0 0 0
+S
+#11076
+Under the Rotting Stump~
+   The air here is stale and the smell of rotting wood and mildew are very
+strong.  Mud is knee deep here making movement nearly impossible.  The sound of
+dripping water echoes throughout the entire area and is the only sound that can
+be heard.    
+~
+110 0 h 0 0  0
+D2
+~
+~
+0 0 11001 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 10353 0 0 0 0 0 0 0 0
+S
+#11077
+The Collapsing Cave~
+   As you enter this passage of the underground tunnels you hear a loud
+rumbling noise and boulders suddenly collapse from the ceiling and fall loudly
+to the ground, crushing anything in their way.  Small boulders and jagged rocks
+still continue to fall from far above you, causing the dust to rise, making
+seeing or even talking a difficult task.    
+~
+110 ahr h 0 0  0
+D5
+~
+~
+0 0 11077 0 0 0 0 0 0 0 0
+S
+#11078
+The Sea Serpent Tavern~
+   Laughter and talking can be heard just behind the door of this, The Sea
+Serpent Tavern.  It looks rather crowded tonight, the business must be doing
+well.  There appears to be many men of different ages, and races gathering
+together tonight for nothing more than a good talk, and maybe a laugh or two.
+The warm of the fires burning inside, and the pleasant scent of potato soup
+lurks through the crevices around the door.    
+~
+110 cd 0 0 0  0
+D1
+~
+door~
+1 0 6168 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11079 0 0 0 0 0 0 0 0
+S
+#11079
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11080 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11078 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11085 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11084 0 0 0 0 0 0 0 0
+S
+#11080
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11081 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11079 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11083 0 0 0 0 0 0 0 0
+S
+#11081
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D2
+~
+~
+0 0 11080 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11082 0 0 0 0 0 0 0 0
+S
+#11082
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D1
+~
+~
+0 0 11081 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11083 0 0 0 0 0 0 0 0
+S
+#11083
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11082 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11080 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11084 0 0 0 0 0 0 0 0
+S
+#11084
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11083 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11089 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11087 0 0 0 0 0 0 0 0
+S
+#11085
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11079 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11086 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11089 0 0 0 0 0 0 0 0
+S
+#11086
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11085 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11088 0 0 0 0 0 0 0 0
+S
+#11087
+Before the Barkeep~
+   The counter here has been carved from what looks to be one huge solid oak
+tree.  It has intricately designed scenes on the front depicting many different
+things, some beautiful, and some hideous.  Various bottles of wine, brandy,
+ale, and other more potent drinks line the walls behind the counter, and fill
+the carved bottle holders within the counter itself.    
+~
+110 cd 0 0 0  0
+D1
+~
+~
+0 0 11084 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11090 0 0 0 0 0 0 0 0
+S
+#11088
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11089 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11086 0 0 0 0 0 0 0 0
+S
+#11089
+Inside the Sea Serpent Tavern~
+   This tavern appears to be clean, and friendly.  There are many men of all
+different races and professions here, talking with each other casually, and
+enjoying their evening.  Lovely young maids through the crowds and serve each
+customer with a smile.  Other than the occasionally loud voice of a few drunken
+dwarven patrons, the tavern seems to be unusually quiet.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11084 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11085 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11088 0 0 0 0 0 0 0 0
+S
+#11090
+A Carpeted Hallway~
+   A beautiful lavender carpet clasps onto the oak wood floor here like the
+bark on a tree.  Numerous doors can be seen up and down the short hallway.  
+There are many small tables beside the doors that have lit candles sitting atop
+them.  Some of the doors are closed, though there are faint muffles of noise
+coming from seemingly every direction.    
+~
+110 d 0 0 0  0
+D0
+~
+~
+0 0 11091 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11087 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11092 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11099 0 0 0 0 0 0 0 0
+S
+#11091
+A Carpeted Hallway~
+   The beautiful lavender carpet comes to and end, and three doors.  The
+candles at this end of the hallway look to be newly lit, and burn rather
+brightly.  Muffled talking and snickering can be heard through the doors.  
+Still, other more prominent noises can be heard at the southern end of the
+hallway.    
+~
+110 d 0 0 0  0
+D0
+~
+door~
+1 0 11097 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11093 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11090 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11094 0 0 0 0 0 0 0 0
+S
+#11092
+A Carpeted Hallway~
+   Three doors open to this end of the hallway.  From what you can see, and
+smell, one of them is probably the kitchen.  The lavender carpet curls slightly
+against the door at the end of the hall.  The small tables outside the doors do
+have candles, some of which are lit, and others that seem to be flickering out.
+The hallway seems to end here, but there are more doors visible on the northern
+section of the hallway.    
+~
+110 dD 0 0 0  0
+D0
+~
+~
+0 0 11090 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11095 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 11098 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11096 0 0 0 0 0 0 0 0
+S
+#11093
+The Trophy Room~
+   This room has been filled with various armaments and ornamentations that
+have been dubbed as "trophies".  Various broken swords have been mounted on the
+walls, and under them are plaques that tell stories of the ill fated warriors
+who once wielded them.  The stuffed heads of large animals, including deer,
+bears, and other animals also line the walls, creating an interesting array of
+decoration.    
+~
+110 cd 0 0 0  0
+D3
+~
+door~
+1 0 11091 0 0 0 0 0 0 0 0
+S
+#11094
+A Meeting Room~
+   This is a more formal room than most others in the tavern.  There is a large
+oak table in the middle of the room, surrounded by padded oak chairs.  A fine
+lace tablecloth has been draped across the top of the table to prevent the ale
+and other drinks from ruining the natural beauty.  There is a fine, thick
+carpet across the floor, adding an almost royal taste to the luxurious room.  
+
+~
+110 cd 0 0 0  0
+D1
+~
+door~
+1 0 11091 0 0 0 0 0 0 0 0
+S
+#11095
+The Kitchen~
+   The sweet aroma of steaming potato soup seasoned with spice mixes with the
+scent of brewing tarbean tea.  Black iron pots, pans, and skillets line the
+walls, and many of them are also placed upon racks just above smoldering fires,
+heating their contents at a slow and steady pace.    
+~
+110 cd 0 0 0  0
+D3
+~
+door~
+1 0 11092 0 0 0 0 0 0 0 0
+S
+#11096
+The War Room~
+   Filled with very ordinary furniture, this room has a homelike feel to it for
+many a person.  Fascinating mosaics have been painted on the walls depicting
+scenes of the first Dragon War, and many of the heroes including Kaz the
+Minotaur, and Huma Dragonbane, the Solamnic Knight that drove Takhisis from
+this plane.  Decorative suits of armor stand guard in each corner, giving the
+room a very Solamnic appearance.    
+~
+110 cd 0 0 0  0
+D1
+~
+door~
+1 0 11092 0 0 0 0 0 0 0 0
+S
+#11097
+A Guest Room~
+   This room makes for a cozy little place to rest.  It is decorated with very
+plain furniture, has it's own fireplace, and even a comfortable looking bed by
+the far wall.  The rugs in the room are worn, showing that the rooms are often
+used by people, most likely adventurers.    
+~
+110 cd 0 0 0  0
+D2
+~
+door~
+1 0 11091 0 0 0 0 0 0 0 0
+S
+#11098
+The Lounge~
+   This room is filled with very comfortable furniture, and from the looks of
+it, also very expensive.  The walls have been painted faint pastel colors,
+while the carpeting is silky smooth, and a beautiful crystal chandalier with
+what looks to be hundreds of lit candles dangles from the ceiling, where the
+constellations have been dabbled, making it resemble a clear night sky.    
+~
+110 cd 0 0 0  0
+D0
+~
+door~
+1 0 11092 0 0 0 0 0 0 0 0
+S
+#11099
+The Storage Room~
+   This is the room where all of the goods are stored for the tavern.  There
+are many crates marked with scratchy handwriting labeling the crates, and a few
+chests that have large, tarnished locks on them.  This room is protected by the
+most sturdy door in the whole tavern, a banded heavy ironwood door.    
+~
+110 d 0 0 0  0
+D1
+~
+door~
+1 0 11090 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 -1 0 0 0 0 0 0 0 0
+S
+$

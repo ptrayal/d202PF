@@ -1,0 +1,414 @@
+#4200
+Accursed Mages Part I~
+Accursed Mages Part I~
+@C
+So, Fairwing has sent you to help us rescue this family hmm?  It's
+not quite as easy as it sounds.  The one who has captured them
+has created a globe of force around his location that we simply 
+have no way of entering.  The mages at the academy, however, might
+be able to help with that.  From my understanding they have the
+pupils do all of the research, and then the graduate students
+disseminate it, at which point the headmaster will finally see if
+anything of worth is in there.  So, we need you to go talk to
+all of the pupils you can, and get copies of their research notes.
+Take those to the graduate students, and have them look over them,
+and then take the final result to the headmaster.  I want you to
+check in with me after each stage, as the wizards don't like to be
+bothered, and I'll have to head over there myself from time to
+time in order to make sure they're cooperating."
+
+"At any case we need to do this one step at a time.  So first, go
+and talk to ((OOC: kill)) 8 white robed pupils.  They'll be the
+most willing to cooperate, so it's a good place to start.  Once
+you're done with them, come back to me, give me what they gave you,
+and I'll send you back in there for more."
+ 
+At this point an aide comes in to talk to Captain Orluf.  They go
+off to the corner and discuss something at length.  Captain Orluf
+finally finishes with a shouted curse, and then comes back to you
+and says, "Something else has come up.  You'll have to do this
+without me.  You know what to do, so just come find me once you've
+given the notes to the headmaster, and let me know what he has to
+say."
+ 
+"Oh", he adds before turning away to continue talking to the aide,
+"The Wizard Academy can be found on the street that connect Market
+Square and Centre Square here in Palanthas.  It is on the west side
+of the street on a small hill."
+@n
+~
+@C
+After talking to the last of the white robed students, you bundle
+all of the research notes together and prepare for the next step.
+@n
+~
+@C
+You decide to go collect the research notes from the white robed
+pupils another time.
+@n
+~
+3 4218 0 7000 2207 4201 -1
+15 0 6 61 -1 -1 8
+300 10 65535
+S
+#4201
+Accursed Mages Part II~
+Accursed Mages Part II~
+@C
+Your next step is to retrieve the research notes from the red robed
+pupils.
+@n
+~
+@C
+With the research notes from the white and red robed pupils,
+all that remains are the black robed pupils.
+@n
+~
+@C
+You decide to get the research notes from the red robed pupils
+another time
+@n
+~
+3 4218 0 7001 4200 4202 -1
+15 0 6 61 -1 -1 8
+300 10 65535
+S
+#4202
+Accursed Mages Part III~
+Accursed Mages Part III~
+@C
+The next step is to get the research notes from the black
+robed mages.
+@n
+~
+@C
+Now that you have all of the research notes, you will want to go
+bring them to the graduate students.  You'll have to talk to 
+several of them before you get the notes organized fully.  The
+graduate students are found on the second floor.
+@n
+~
+@C
+You decide to get the research notes from the black robed
+pupils another time.
+@n
+~
+3 4218 0 7002 4201 4203 -1
+15 0 6 61 -1 -1 8
+300 10 65535
+S
+#4203
+Accursed Mages Part IV~
+Accursed Mages Part IV~
+@C
+You must now take the research notes to the graduate students
+and wait for them to disseminate the notes ((OOC: kill them)).
+@n
+~
+@C
+As the final graduate students hands you the organized notes
+he casts you a look of pure annoyance.  "I hope you won't be
+bothering us again, we don't have time to run errands for the
+city all the time."
+
+As you explain the situation with the old elven cleric's
+captured family, the student's face softens and he says, "I
+apologize.  I did not realize the need was so great.  I
+really wish there was more I can do now.  Well... perhaps there
+is.  I have a little something that might help you.  I will have
+it sent to Captain Orluf when I get back to my quarters.  But I
+hope you will find it useful.  I hope you rescue that man's family,
+and may Solinari's light guide your path in the darkest of nights.
+@n
+~
+@C
+You decide to have the graduate students disseminate the
+research notes some other time.
+@n
+~
+3 4218 0 7016 4202 4204 -1
+25 0 8 61 -1 -1 6
+500 10 4211
+S
+#4204
+Accursed Mages Part V~
+Accursed Mages Part V~
+@C
+The final stage is to take the disseminated research notes to
+the headmaster, who resides on the 2nd floor in the north wing.
+@n
+~
+@C
+As you gives the notes to the headmaster he gives you a quizzical
+look and looks them over.
+
+"Yes, this is a magical formulae for a device that will allow someone
+to breach a necromatic force globe, but why give it to me?"
+
+You explain the situation to the headmaster, and he becomes quite
+worried and responds, "This is serious indeed.  If lives are at stake
+then we must do something.  Stay here, I am quite good and extrapolating
+formulae into magical scrolls, this won't take but a moment."
+
+The headmaster quickly goes to work in taking the formulae from the
+research notes and inscribing it onto a magical scroll.  After about
+ten minutes he is finished and hands the scroll over to you.
+
+"Here you go, this should do the trick.  Once you're outside the globe
+you can use this scroll, and it will let you in.  The scroll should
+work multiple times, but it will not defeat the globe for long... eventually
+the globe will re-enact itself.  Good luck in your mission, I truly hope
+you will have success in rescuing that family."
+
+As you recall, Captain Orluf wanted to see you again at this point.
+@n
+~
+@C
+You decide to bring the disseminated research notes to the
+headmaster another time.
+@n
+~
+5 4218 0 4211 4203 -1 -1
+15 0 8 61 -1 7018 1
+100 5 4212
+S
+#4205
+Accursed Mages (Reward)~
+Accursed Mages (Reward)~
+@C
+You need to go see Captain Orluf now that you have what you
+need from the headmaster.  He is in the Palace in the northwest
+corner of centre square.
+@n
+~
+@C
+As you approach Captain Orluf, he looks at you with great interest.
+"Well, what did you find?", he says.  You show him the magical scroll
+that the headmaster gave you and explain what you were told about it.
+
+"That is just what we need then... good work.  However the situation is
+still pretty tight in the cemetary, and we can't afford to send you in
+there until the undead have been cleared out a bit.  Otherwise you'll
+never make it to the necromancer.  I don't know how he's managed to
+create so much undead in such a short amount of time, but he needs to
+be stopped.  And why he kidnapped that family in the first place is
+another mystery.  Necromancers generally aren't too interested in the
+living.  In any case we need you somewhere else for the time being, and
+it's back at Bethel Island.  Talk to Jeg again when you get there, I've
+already sent a message to him explaining what needs to be done.  Oh and
+one of the students at the Academy sent something for you.  Says it'll
+help anyone who can cast spells.  Said if you can use it, then great, but
+otherwise just to sell it for coin.  Good luck!"
+@n
+~
+@C
+You decide to go tell Captain Orluf about the scroll
+another time.
+@n
+~
+2 4218 0 4218 4204 4206 -1
+5 0 6 61 -1 -1 1
+100 2 4213
+S
+#4206
+Back to Bethel Island~
+Back to Bethel Island~
+@C
+"Yes, I need you back at Bethel Island", says the Captain, "Jeg
+has already been informed of your return and he has uncovered some
+more information about the smuggling operation that's going on there.
+Go seek him out."
+@n
+~
+@C
+As you approach old Jeg, you notice a look of worry on his face
+that was not there before.  He looks over in your direction as you
+disembark from the boat and calls you over.
+
+"It's good you've returned.  Things have taken a turn for the worse.
+I can't believe we've all been so blind.  The dragonarmy commander is
+none other than our own mayor here on Bethel Island.  How we let someone
+like that lead us for all these years is too much for me to handle.  But
+handle it we must.  Go to him.  Confront him and see what you can discover.
+I am sure he will deny the charges, but do not let him off the hook, and
+if it comes to blood, be careful... he is a skilled warrior.  You may even
+need the help of a few friends for this one.  Good luck and be safe!"
+@n
+~
+@C
+You decide to find Jeg later.
+@n
+~
+2 4218 0 9221 4205 9204 -1
+5 0 6 36 -1 -1 1
+100 2 65535
+S
+#4207
+The Syndicate I~
+The Syndicate I~
+   @C "Well, we've got a little situation on our hands.  We've figured out how
+our enemy has dragonlances.  The black market.  During the war some of the
+fallen dragon riders hit the ground well away from the city proper.  The
+dragonlances were never recovered.  We have reason to believe that the thieves
+guild here in Palanthas has recoverered the lost lances, and have been peddling
+them to the highest bidder...  Even dragonarmy and this new knighthood.  We need
+you to go investigate.  Start off with the trainees, and work your way through
+the leadership and any delegates that may be 'visiting' them.  Then talk to the
+guildmaster and find out exactly what has been going on.  This is an urgent
+matter, and I warn you, these rogues are skilled combatants...  You may need
+assistance against the upper echelon.  That's all."  Captain Orluf gives you a
+quick salute, and returns to a pile of texts sitting on his desk, obviously
+somewhat distraught.  
+@n
+~
+@C
+   After talking to the trainees, using a little force here and there where
+necessary, as few were willing to talk without some 'incentive', you learn that
+there are various corrupt officials meeting with the leaders of the guild right
+now in the room to the north.  These trainees know nothing of dragonlances, but
+perhaps you will have better luck against the leaders and dignitaries.  
+Interrogate and arrest them, starting from the western most chamber and working
+east.  
+@n
+~
+@C
+You decide to interrogate the trainees later.
+@n
+~
+6 4218 0 2444 9210 4208 -1
+50 0 9 51 -1 -1 1
+4000 10 65535
+S
+#4208
+The Syndicate II~
+The Syndicate II~
+@C
+   Interrogate all of the thieves guild leaders and dignitaries in the western
+most room of the Palanthas thieves guild leader's room.  
+@n
+~
+@C
+   Your investigation resulted in more arrests for the city guard to deal with,
+and some hints that the guildmaster is behind it all.  Still you have no
+evidence save innuendo and false denials from criminals.  Time to keep
+searching.  
+@n
+~
+@C
+You decide to interrogate the leaders later.
+@n
+~
+6 4218 0 2451 4207 4209 -1
+50 0 9 51 -1 -1 1
+2000 5 65535
+S
+#4209
+The Syndicate III~
+The Syndicate III~
+@C
+   Time to interrogate the officials in the center room of the Palanthas thieves
+guild leadership chambers.  
+@n
+~
+@C
+   More investigation turns up more hints towards the guildmaster, but it's all
+heresy from now.  Keep looking.  
+@n
+~
+@C
+You decide to interrogate tyhe thieves guild officials later.
+@n
+~
+6 4218 0 2450 4208 4210 -1
+50 0 9 51 -1 -1 1
+2000 5 65535
+S
+#4210
+The Syndicate IV~
+The Syndicate IV~
+@C
+   Time to interrogate the last of the officials and dignitaries in the eastern
+most room of the Palanthas theives guild leadership chambers.  
+@n
+~
+@C
+   Finally you have something to go on.  You uncover papers from the dragonarmy
+official that confirm the guildmaster has dragonlances and has sold at least a
+few of them to the dragonarmy.  That must also mean the dragonarmy and this new
+knighthood are aligned.  Time to go arrest the guildmaster and bring him into
+the Knighthood and council of whitestone for questioning.  
+@n
+~
+@C
+   You decide to interrogate the officials and dignitaries in the Palanthas
+thieves guild leadership chambers later
+@n
+~
+6 4218 0 2452 4209 4211 -1
+50 0 9 51 -1 -1 1
+2000 5 65535
+S
+#4211
+The Syndicate V~
+The Syndicate V~
+@C
+   Time to go and arrest the guildmaster of the Palanthas theives guild.  
+@n
+~
+@C
+   As the guildmaster falls unconscious from your blow his guilt becomes clear
+as you notice tucked away in one of his pockets a small crystal sphere similar
+to the one found on the Isle of Bethel.  This one shows the inside of a dark
+chamber, filled with tapestries depicting Takhisis' strength.  The face of a
+horribly scarred bald man with tattoos covering his exposed skin stares back at
+you.  With a loud curse, heard only in your mind the image instantly vanishes,
+leaving only swirling black smoke within.  You tie up the guildmaster and let
+loose on your signal whistle.  A few moments later, the contigent of guards
+waiting outside the entrance come in and arrest the entire troupe of thieves
+guild members, the dignitaries and the guildmaster.  With a nod the captain
+sends you on your way, assuring you everything is taken care of here.  Orluf
+will need to know what has happened here.  
+@n
+~
+You have abandoned the quest.
+~
+3 4218 0 2418 4210 4212 -1
+50 0 9 51 -1 -1 1
+4000 10 2434
+S
+#4212
+The Syndicate (Aftermath)~
+The Syndicate (Aftermath)~
+@C
+   Go report the happenings at the Palanthas thieves guild to Captain Orluf in
+the Palanthas Palace Map Room.  
+@n
+~
+@C
+   As you approach, Orluf puts down the map he is looking at and raises an
+eyebrow.  "Well, what have you found?"  , he asks.  As you describe to him what
+you have found he nods his head sagely.  "It is as we feared.  They do indeed
+have original dragonlances, and we fear they have made copies as well, though
+how we do not know.  As far as we know the Silver Arm of Ergoth and the Hammer
+of Kharas, plus true dragonmetal...  None of which the dragonarmy should have.
+But if you saw dragonlances, you saw dragonlances, so somehow, they are being
+produced.  It's possible that dragonmetal is being smuggled out of the forge
+being run by Theros Ironfeld.  The only people who have access to that area are
+the leadership of the Whitestone Council.  It's more investigation I'm afraid,
+my friend.  Take a short rest, go train if you need to, maybe do a few bounties
+and come back when you've reached rank 10 o 11.  I've got a hunch we have a spy
+or two in the Forces of Whitestone Camp.  Thanks for everything friend, you may
+just make the difference in this Cold War."  And with that the Captain returns to
+his previous work, leaving you pondering your next move.  
+@n
+~
+@C
+   You have abandoned the quest.  You decide to report to Captain Orluf later.
+
+@n
+~
+2 4218 0 4218 4211 -1 -1
+10 0 9 51 -1 -1 1
+1000 2 65535
+S
+$~

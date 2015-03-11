@@ -1,0 +1,222 @@
+#25
+None.~
+Undomesticated Island(Areste)~
+2500 2599 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 2 0 0 0
+M 0  2522     1  2553   1   100     1    -1          0 a narcoleptic traveler
+
+M 0  2534     6  2501   6    25     2    -1          0 a dragonarmy soldier
+
+M 0  2534     6  2501   6    25     3    -1          0 a dragonarmy soldier
+
+M 0  2534     6  2501   6    25     4    -1          0 a dragonarmy soldier
+
+M 0  2534     6  2501   6    25     5    -1          0 a dragonarmy soldier
+
+M 0  2534     6  2501   6    25     6    -1          0 a dragonarmy soldier
+
+M 0  2534     6  2501   6    25     7    -1          0 a dragonarmy soldier
+
+M 0  2533     1  2501   1   100     8    -1          0 a dragonarmy officer
+
+D 0  2501     5     1   0   101     9    -10 
+
+O 0  2504     1  2501   0   100    10     0          0 a small sign
+
+M 0  2523     1  2501   1   100    11    -1          0 an elderly dockkeeper
+
+G 1  2528  9999     0   0   100    12    11          0 a small clam shell
+
+G 1  2527  9999     0   0   100    13    11          0 a long, scaled fish
+
+G 1  2526  9999     0   0   100    14    11          0 an oversalted, miniature fish
+
+G 1  2525  9999     0   0   100    15    11          0 a small, green canteen
+
+G 1  2523  9999     0   0   100    16    11          0 a large, deep red sphere
+
+G 1  2519  9999     0   0   100    17    11          0 a small, rusty lantern
+
+M 0  2507    10  2505   2   100    18    -1          0 a hefty sea turtle
+
+G 1  2515   100     0   0   100    19    18          0 a hunk of turtle flesh
+
+M 0  2506    10  2505   2   100    20    -1          0 a large jellyfish
+
+G 1  2513     4     0   0    30    21    20          0 a small stinger
+
+M 0  2505    10  2505   2   100    22    -1          0 a filthy red crab
+
+G 1  2511   100     0   0   100    23    22          0 meat from a red crab
+
+M 0  2507    10  2508   2   100    24    -1          0 a hefty sea turtle
+
+G 1  2515   100     0   0   100    25    24          0 a hunk of turtle flesh
+
+M 0  2506    10  2508   2   100    26    -1          0 a large jellyfish
+
+G 1  2513     4     0   0    30    27    26          0 a small stinger
+
+M 0  2505    10  2508   2   100    28    -1          0 a filthy red crab
+
+G 1  2511   100     0   0   100    29    28          0 meat from a red crab
+
+M 0  2515     5  2503   1   100    30    -1          0 a stout sea gull
+
+M 0  2516     1  2504   1   100    31    -1          0 an out-of-work sailor
+
+M 0  2515     5  2504   1   100    32    -1          0 a stout sea gull
+
+M 0  2501     5  2524   2   100    33    -1          0 a near retarded boar
+
+G 1  2514    20     0   0    35    34    33          0 a cracked tusk
+
+M 0  2500     5  2524   2   100    35    -1          0 a large black snake
+
+G 1  2500     4     0   0    25    36    35          0 a hardened carcass of a dead snake
+
+M 0  2500     5  2511   2   100    37    -1          0 a large black snake
+
+G 1  2500     4     0   0    25    38    37          0 a hardened carcass of a dead snake
+
+M 0  2501     5  2511   2   100    39    -1          0 a near retarded boar
+
+E 1  2514    20     6   0    20    40    39          0 a cracked tusk
+
+M 0  2502     2  2525   1   100    41    -1          0 an orange tiger striped in black
+
+M 0  2502     2  2512   1   100    42    -1          0 an orange tiger striped in black
+
+E 1  2502    10     3   0    40    43    42          0 the black eye of a tiger
+
+M 0  2509     1  2523   1   100    44    -1          0 a sneaky spider monkey
+
+M 0  2508     5  2523   2   100    45    -1          0 a small dragonfly
+
+M 0  2509     3  2510   1   100    46    -1          0 a sneaky spider monkey
+
+M 0  2508     5  2510   2   100    47    -1          0 a small dragonfly
+
+M 0  2508     6  2531   2   100    48    -1          0 a small dragonfly
+
+M 0  2513     3  2531   1   100    49    -1          0 a swooping crane
+
+M 0  2512     3  2531   1   100    50    -1          0 a school of piranhas
+
+M 0  2511     3  2531   1   100    51    -1          0 a scaled, green alligator
+
+M 0  2511     3  2517   1   100    52    -1          0 a scaled, green alligator
+
+E 1  2507   100    16   0    35    53    52          0 a snag of an alligator
+
+M 0  2512     3  2517   1   100    54    -1          0 a school of piranhas
+
+M 0  2513     3  2517   1   100    55    -1          0 a swooping crane
+
+M 0  2519     1  2570   1   100    56    -1          0 a determined mother
+
+M 0  2518     4  2570   4   100    57    -1          0 a youthful gorilla
+
+M 0  2519     1  2573   1   100    58    -1          0 a determined mother
+
+M 0  2518     4  2573   4   100    59    -1          0 a youthful gorilla
+
+M 0  2510     1  2550   1   100    60    -1          0 a colossal eagle
+
+E 1  2509    10    11   0    50    61    60          0 a wing from a colossal eagle
+
+M 0  2520     4  2556   1   100    62    -1          0 a giddy billy goat
+
+M 0  2521     4  2560   1   100    63    -1          0 a sordid mountain lion
+
+M 0  2520     4  2560   1   100    64    -1          0 a giddy billy goat
+
+M 0  2521     4  2558   1   100    65    -1          0 a sordid mountain lion
+
+M 0  2504     1  2566   1   100    66    -1          0 a large towering dragon with sharp claws
+
+E 1  2503     2    16   0     8    67    66          0 a wickedly sharp claw of a towering dragon
+
+O 0  2506     1  2567   0   100    68     0          0 a beatiful vegetation fountain
+
+M 0  2517     2  2569   1   100    69    -1          0 a mighty gorilla
+
+E 1  2517    10     5   0    50    70    69          0 a black fur breastplate
+
+M 0  2517     2  2572   1   100    71    -1          0 a mighty gorilla
+
+E 1  2517    10     5   0    50    72    71          0 a black fur breastplate
+
+M 0  2508     6  2522   2   100    73    -1          0 a small dragonfly
+
+E 1  2505   100    12   0   100    74    73          0 the wings of a dragonfly
+
+M 0  2514     2  2533   1   100    75    -1          0 a gnarled, ancient spellcaster
+
+E 1  2516     4    16   0    25    76    75          0 a black staff engraved with dragon images
+
+M 0  2514     2  2520   1   100    77    -1          0 a gnarled, ancient spellcaster
+
+E 1  2516     3    16   0    15    78    77          0 a black staff engraved with dragon images
+
+D 0  2536     0     1   0   101    79    -10 
+
+D 0  2580     5     1   0   101    80    -10 
+
+D 0  2580     4     1   0   101    81    -10 
+
+M 0  2524     1  2580   1   100    82    -1          0 a strong sailor
+
+E 1  2521     5     6   0    65    83    82          0 a small, white sailors cap
+
+D 0  2581     4     1   0   101    84    -10 
+
+M 0  2526     1  2581   1   100    85    -1          0 a powerful guard
+
+E 1  2520     5    16   0    30    86    85          0 a black whip
+
+M 0  2525     6  2581   6   100    87    -1          0 a weak slave
+
+D 0  2579     5     1   0   101    88    -10 
+
+D 0  2597     4     1   0   101    89    -10 
+
+O 0  2524     5  2582   0   100    90    -1          0 a perfect emerald jewel
+
+M 0  2525    16  2583   4   100    91    -1          0 a weak slave
+
+M 0  2525    16  2584   4   100    92    -1          0 a weak slave
+
+D 0  2585     5     1   0   101    93    -10 
+
+M 0  2525    16  2585   4   100    94    -1          0 a weak slave
+
+M 0  2528     1  2586   1   100    95    -1          0 a large, white whale
+
+M 0  2529     5  2591   1   100    96    -1          0 a viscious, bull shark
+
+M 0  2529     5  2588   1   100    97    -1          0 a viscious, bull shark
+
+M 0  2529     5  2595   1   100    98    -1          0 a viscious, bull shark
+
+M 0  2530     3  2590   1   100    99    -1          0 a long, black eel
+
+M 0  2530     3  2594   1   100   100    -1          0 a long, black eel
+
+M 0  2531     1  2592   1   100   101    -1          0 a water demon
+
+E 1  2529    10    13   0    25   102   101          0 a belt braided with blue and black water
+
+D 0  2500     0     1   0   101   103    -10 
+
+D 0  2500     1     1   0   101   104    -10 
+
+M 0  2532     2  2500   2   100   105    -1          0 a loyal guard
+
+M 0  2532     2  2500   2   100   106    -1          0 a loyal guard
+
+S
+$

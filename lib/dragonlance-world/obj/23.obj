@@ -1,0 +1,581 @@
+#2300
+knife bronze serrated~
+a bronze, serrated-edged knife~
+A bronze knife with a serrated edge lies here.~
+~
+5 jklopruvwBCDEF abc stuvwxy 0 ano 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 25 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2301
+blade short double edged~
+a short, double-edged blade~
+A short, double-edged blade of bronze lies here.~
+~
+5 jkloprstuvBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 42 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2302
+broadsword sword sharp bronze~
+a sharp, bronze broadsword~
+A sharp broadsword made of bronze lies here.~
+~
+5 jkloprstuvBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 65 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2303
+mace footman studded wooden~
+a wooden footman's mace~
+A footman's mace with a studded wooden head lies here.~
+~
+5 jklnoprstuvwBCDEF abc stuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 50 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2304
+robe white cotton~
+a white, cotton robe~
+A white, cotton woven robe lies here in the dirt.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 12 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2305
+vest leather brown~
+a soft, brown leather vest~
+A brown vest of soft leather lies here on the ground.~
+~
+9 jklnoprstuvwBCDEF abc stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2306
+sleeves cotton~
+a set of white, cotton sleeves~
+A set of white sleeves woven from cotton lies here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 12 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2307
+pants black cotton~
+a pair of black, cotton pants~
+A pair of jet black pants woven from cotton lies here on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 17 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2308
+gloves soft black leather~
+a pair of soft, black leather gloves~
+A pair of soft, black leather gloves lie here together.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2309
+boots black leather~
+a pair of soft, black walking boots~
+A pair of soft, black leather walking boots lie here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 24 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2310
+cloak red hooded~
+a red, hooded cloak~
+A red, hooded cloak woven from cotton lies here on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 11 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2311
+hat wide brimmed brown leather~
+a wide-brimmed, brown leather hat~
+A wide-brimmed, brown leather hat lies here on the ground.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 20 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2312
+belt black leather thin~
+a thin, black leather belt~
+A thin, black leather belt with a circular buckle lies here.~
+~
+9 jklmnoprstuvwBCDEF abc stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 13 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2313
+sack buckskin large~
+a large, buckskin sack~
+A large sack of tanned buckskin lies here.~
+~
+15 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2314
+backpack pack forest green leather~
+a forest green backpack~
+A forest green, leather backpack lies here on the ground.~
+~
+15 jklmnoprstuvwBCDEF abc stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 25 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2315
+waterskin skin leather~
+a leather waterskin~
+A small leather waterskin sits here in the dirt.~
+~
+17 jklmnoprstuvwBCDEF abc stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+30 4 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+waterskin leather water~
+You see nothing special.
+~
+#2316
+lantern brass small~
+a small, brass lantern~
+A small, brass hooded lantern lies here without a flame.~
+~
+1 jklmnoprstuvwABCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 6 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+lantern brass~
+   The lantern has a small wick that is lit and runs downs slowly, enabling
+people to see in dark places.  It is nondirectional but the light does not
+spread far.    
+~
+#2317
+torch wooden~
+a wooden torch~
+A long wooden torch with an oil-soaked rag lies here.~
+~
+1 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 600 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+torch wood~
+The torch is wrapped with cloth that has been dipped in some kind of oil.
+~
+E
+torch~
+You see nothing special.
+~
+E
+torch wooden~
+You see nothing special.
+~
+#2318
+quill ink feather vial~
+a feather quill and vial of ink~
+A feather quill sits beside a vial of ink here on the ground.~
+~
+21 jklmnoprstuvwBCDEF abc stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 100 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2319
+parchment sheet~
+a sheet of parchment~
+A sheet of parchment skitters across the ground.~
+~
+16 jklmnoprstuvwBCDEF abc stuvwxy 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 2 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2320
+steak beef roast food~
+a roast beef steak~
+A steak of roast beef lies here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2321
+pork chops plate food~
+a plate of pork chops~
+A plate of pork chops lies here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 5 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2322
+chicken half-roast food half roast~
+a half-roast of chicken~
+A half-roast of chicken lies here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2323
+vegetables plate mixed food~
+a plate of mixed vegetables~
+A plate of mixed vegetables lies here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 4 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2324
+pasta bowl meat sauce food~
+a bowl of pasta in meat sauce~
+A bowl of pasta in meat sauce lies here.~
+~
+19 jklmnoprstuvwBCDEF abc 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 3 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2325
+object new~
+a new object~
+A new object is here.~
+~
+0 jklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2326
+book volume~
+a heavy, leather-bound volume entitled 'Vyrshire Raarifyl: An Epic Tale'~
+A dusty, thick leather-bound volume lies firmly on the ground.~
+~
+8 cjklmnoprstuvwBCDEF abc 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+chapter1~
+The Beginning:
+Many thousands of years ago, there lived a large clan of wood elves, in the
+secluded reaches of an unknown forest.  The ground had not been tainted by the
+endless trade caravans, nor the loggers, which made their living by destroying
+what all wood elves hold dear.  This sacred land had never been seen by any
+eyes other than the elves and the Fey that also lived in the depths of the
+forest.  Perhaps if a man sailed across massive oceans of blue, over endless
+wasteland deserts, through the thick marshes, and into the massive forests of
+which these elves lived, and by some chance did not go completely mad from the
+endless journey, and by an amazing, God-like miracle managed to find the homes
+of these elves, they would welcome him, as men are not entirely bad.
+It was a golden age for the denizens of the wood.  Huge feasts were held every night.
+Glorious choirs sang beautiful hymns, and musicians played songs that weaved
+magic through the leaves.  Artisans and craftsmen created wondrous works of
+art, sculptures that towered through the trees, and beautiful wreathes from the
+Tree of Life that granted untold powers lost in legends to the city in the
+trees.  There were no smiths, as they elves of this wood had no need for
+weapons.  Words such as sword, and armor did not exist.  However, the elves
+were masters of archery, although the thought of using a bow as a weapon had
+never occurred to even the most adolescent of elves.  There was much rejoicing,
+and life continued this way for thousands of years.    
+~
+E
+book~
+                       Vyrshire Raarifyl: An Epic Tale
+                              Tale Number 1
+                          By Ralylar Voralarov
+Table of Contents:
+  Chapter 1 - The Beginning
+  Chapter 2 - An Epic Battle
+  Chapter 3 - Trekking the Wilds
+  Chapter 4 - The Boat to Halibeth
+(To read the following chapters, simply 'l chapter1, l chapter2, etc)
+~
+E
+volume~
+You see nothing special.
+~
+#2327
+ale mug dark stout~
+a mug of dark stout ale~
+A mug of dark stout ale lies here.~
+~
+17 A 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+25 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2328
+ale pale cream mug~
+a mug of pale cream ale~
+A mug of pale cream ale lies here.~
+~
+17 A 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+25 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2329
+wine bottle palanthian white label 302~
+a bottle of Palanthian white label, yr. 302~
+A bottle of Palanthian white label, yr. 302 lies here.~
+~
+17 A 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+30 250 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2330
+shot whiskey shotglass~
+a shot of whiskey~
+A small shotglass filled with whiskey lies here on the ground.~
+~
+17 A 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 50 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2331
+spirits dwarf flask~
+a flask of dwarf spirits~
+A flask of dwarf spirits lies here on the ground.~
+~
+17 A 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2332
+milk glass frothy~
+a frothy glass of milk~
+A frothy glass of milk lies here.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+25 25 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2333
+tea solanthian cup~
+a cup of Solanthian tea~
+A cup of Solanthian tea lies here.~
+~
+17 A 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 30 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2334
+amaretto coffee cup dark roasted~
+a cup of dark roasted amaretto~
+A cup of dark roasted amaretto lies here.~
+~
+17 A 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+20 30 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2335
+canoe boat small~
+a small canoe~
+A small canoe sits here.~
+~
+22 c 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#2336
+cup tea refreshing~
+a cup of refreshing tea~
+A cup of refreshing tea cools off on the ground.~
+~
+10 jklmnoprstuvwBCDF abc stuvwxyz 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1150 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

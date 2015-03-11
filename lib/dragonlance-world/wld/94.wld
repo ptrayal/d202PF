@@ -1,0 +1,1375 @@
+#9400
+Deck of the 'Sea Strider'~
+   Seagulls soar above in the crystal blue sky, calling out to the sailors that
+are scrambling across the deck of this ship.  The ship itself is made from
+vallenwood and kept in prime condition.  Towering pearly white sails of
+gigantic proportion catch the wind, pulling the ship along with grace and ease.
+A picture of a crimson sun rising is depicted upon the sails.    
+~
+94 0 h 0 0  2
+S
+#9401
+A Cleric's Apartment~
+   Bottles of medicines and various herbs line the shelves in this small
+apartment connected to the sick tent.  Papers with diagrams of human bodies,
+and recipes for concoctions are strewn about the room.  A small book, no doubt
+a journal of some kind, lies at the edge of the wooden table centered in the
+middle of the room.  The only embellishment visible is a brightly colored,
+well-made rug depicting a massive red dragon.    
+~
+94 d h 0 0  1
+D0
+~
+flap~
+1 0 9403 0 0 0 0 0 0 0 0
+D5
+~
+rug~
+1 0 9458 0 0 0 0 0 0 0 0
+S
+#9402
+A Bridge Crossing a River of Magma~
+   This seamless granite bridge which allows passage over the river of magma
+seems to be cut out of the very ground itself.  Heat permeating from the river
+of molten rock, not but mere feet under the bridge, makes crossing it almost
+unbearable.  The commotion and sights of an army camp can be seen to the north,
+at the edge of the bridge.    
+~
+94 c h 0 0  1
+D0
+~
+~
+0 0 9404 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 5399 0 0 0 0 0 0 0 0
+S
+#9403
+Within a Huge Tent~
+   The pungent odor of various herbs and medicines do nothing to cover the
+overpowering smell of death that permeates everything in this tent.  A
+magically conjured sphere of yellow light lies suspended at the center of this
+large tent, illuminating every corner.  Pallets lie side by side from one wall
+of the tent to the other, full of the sick, wounded and dying.    
+~
+94 d h 0 0  1
+D2
+~
+flap~
+1 0 9401 0 0 0 0 0 0 0 0
+D7
+~
+flap~
+1 0 9406 0 0 0 0 0 0 0 0
+S
+#9404
+A Bridge Crossing a River of Magma~
+   This seamless granite bridge which allows passage over the river of magma
+seems to be cut out of the very ground itself.  Heat permeating from the river
+of molten rock, not but mere feet under the bridge, makes crossing it almost
+unbearable.  The commotion and sights of an army camp can be seen to the north,
+at the edge of the bridge.    
+~
+94 c h 0 0  1
+D0
+~
+~
+0 0 9409 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9402 0 0 0 0 0 0 0 0
+S
+#9405
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D2
+~
+flap~
+1 0 9411 0 0 0 0 0 0 0 0
+S
+#9406
+At the Entrance of a Tent~
+   The skinny path pulls in at this bend to allow room for the huge, imposing
+tent to southwest.  Small drafts of air coming from the tent bring with it the
+smell of death and bodily fluids.  Sounds of screams and coughing, muffled by
+the tent's thick canvas walls, tell the story of what this tent is used for.  
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9407 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9413 0 0 0 0 0 0 0 0
+D9
+~
+flap~
+1 0 9403 0 0 0 0 0 0 0 0
+S
+#9407
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9408 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9406 0 0 0 0 0 0 0 0
+S
+#9408
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9409 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9407 0 0 0 0 0 0 0 0
+S
+#9409
+The Entrance to the Red Dragonarmy's Camp~
+   For as far as the eye can see to the north, are tents put up side by side in
+perfect symmetry.  New recruits continuously march by, spurred on by the brutal
+commands of superior officers.  Veterans, and soldiers on break occasionally
+walk by, talking to each other.  The chaos, combined with the sheer size of the
+encampment make it a very daunting, and overwhelming sight.    
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9414 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9410 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9404 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9408 0 0 0 0 0 0 0 0
+S
+#9410
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9411 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9409 0 0 0 0 0 0 0 0
+S
+#9411
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D0
+~
+flap~
+1 0 9405 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9412 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9410 0 0 0 0 0 0 0 0
+S
+#9412
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D3
+~
+~
+0 0 9411 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9415 0 0 0 0 0 0 0 0
+S
+#9413
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D6
+~
+~
+0 0 9417 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9406 0 0 0 0 0 0 0 0
+S
+#9414
+A Path Through the Center of the Red Dragonarmy's Camp~
+   Tents line the sides of this path leading through the center of the Red
+Dragonarmy's camp.  Soldiers on break stand around talking with each other as
+new recruits are marched by, sparked by the vulgar shouts of commanding
+officers.  The path has been traveled enough by the daily activities of the
+camp that it now maintains a packed surface.
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9419 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9409 0 0 0 0 0 0 0 0
+S
+#9415
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D7
+~
+~
+0 0 9421 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9412 0 0 0 0 0 0 0 0
+S
+#9416
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D3
+~
+flap~
+1 0 9417 0 0 0 0 0 0 0 0
+S
+#9417
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9424 0 0 0 0 0 0 0 0
+D1
+~
+flap~
+1 0 9416 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9413 0 0 0 0 0 0 0 0
+S
+#9418
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D1
+~
+flap~
+1 0 9419 0 0 0 0 0 0 0 0
+S
+#9419
+A Path Through the Center of the Red Dragonarmy's Camp~
+   Tents line the sides of this path leading through the center of the Red
+Dragonarmy's camp.  Soldiers on break stand around talking with each other as
+new recruits are marched by, sparked by the vulgar shouts of commanding
+officers.  The path has been traveled enough by the daily activities of the
+camp that it is now as hard as any city road.    
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9426 0 0 0 0 0 0 0 0
+D1
+~
+flap~
+1 0 9420 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9414 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+1 0 9418 0 0 0 0 0 0 0 0
+S
+#9420
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D3
+~
+flap~
+1 0 9419 0 0 0 0 0 0 0 0
+S
+#9421
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9428 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+1 0 9422 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9415 0 0 0 0 0 0 0 0
+S
+#9422
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D1
+~
+flap~
+1 0 9421 0 0 0 0 0 0 0 0
+S
+#9423
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D3
+~
+flap~
+1 0 9424 0 0 0 0 0 0 0 0
+S
+#9424
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+flap~
+1 0 9423 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9417 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+0 0 -1 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9430 0 0 0 0 0 0 0 0
+S
+#9425
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D1
+~
+flap~
+1 0 9426 0 0 0 0 0 0 0 0
+S
+#9426
+A Path Through the Center of the Red Dragonarmy's Camp~
+   Tents line the sides of this path leading through the center of the Red
+Dragonarmy's camp.  Soldiers on break stand around talking with each other as
+new recruits are marched by, sparked by the vulgar shouts of commanding
+officers.  The path has been traveled enough by the daily activities of the
+camp that it now maintains a packed surface.    
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9431 0 0 0 0 0 0 0 0
+D1
+~
+flap~
+1 0 9427 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9419 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+1 0 9425 0 0 0 0 0 0 0 0
+S
+#9427
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D3
+~
+flap~
+1 0 9426 0 0 0 0 0 0 0 0
+S
+#9428
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D2
+~
+~
+0 0 9421 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+1 0 9429 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9432 0 0 0 0 0 0 0 0
+S
+#9429
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D1
+~
+flap~
+1 0 9428 0 0 0 0 0 0 0 0
+S
+#9430
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D7
+~
+~
+0 0 9433 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9424 0 0 0 0 0 0 0 0
+S
+#9431
+A Path Through the Center of the Red Dragonarmy's Camp~
+   Tents line the sides of this path leading through the center of the Red
+Dragonarmy's camp.  Soldiers on break stand around talking with each other as
+new recruits are marched by, sparked by the vulgar shouts of commanding
+officers.  The path has been traveled enough by the daily activities of the
+camp that it now maintains a packed surface.    
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9436 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9426 0 0 0 0 0 0 0 0
+S
+#9432
+At the Entrance of a Large Tent~
+   The skinny path turns into the camp at this bend to allow room for the huge,
+noisy tent that lies just to the northeast.  The small draft coming
+periodically from the mouth of the tent brings with it the smell of cooked
+meat, and spices.  Constant talking and the occasional booming laughter of one
+of the soldiers adds to the somewhat relaxed air of this part of the camp.    
+~
+94 d h 0 0  1
+D6
+~
+~
+0 0 9439 0 0 0 0 0 0 0 0
+D7
+~
+flap~
+1 0 9440 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9428 0 0 0 0 0 0 0 0
+S
+#9433
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9434 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9430 0 0 0 0 0 0 0 0
+D8
+~
+flap~
+1 0 9442 0 0 0 0 0 0 0 0
+S
+#9434
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9435 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9433 0 0 0 0 0 0 0 0
+S
+#9435
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9436 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9434 0 0 0 0 0 0 0 0
+S
+#9436
+The Heart of the Red Dragon Army Camp~
+   Here at the heart of the Red Dragonarmy's camp is a massive, skeletal oak
+tree with branches easily as thick as a full grown man.  A few bodies of
+soldiers hang from the tree's branches, serving as examples of desertion and
+disobedience for the others.  No noise is made by anyone as soldiers and
+messengers alike move quickly past the gruesome, and ominous sight.    
+~
+94 0 h 0 0  1
+D0
+~
+~
+0 0 9443 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9437 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9431 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9435 0 0 0 0 0 0 0 0
+S
+#9437
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9438 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9436 0 0 0 0 0 0 0 0
+S
+#9438
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D1
+~
+~
+0 0 9439 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9437 0 0 0 0 0 0 0 0
+S
+#9439
+A Small Path Around The Camp's Edge~
+   The skinny side path leading around the outside edge of the camp is only
+yards from the river of molten rock that encloses the camp.  The fiery red
+magma flares occasionally as it consumes the rocky embankment of the camp's
+edge.  The heat, although not as intense as at the bridge, makes it more than a
+little uncomfortable to spend too much time here.    
+~
+94 0 h 0 0  1
+D2
+~
+flap~
+1 0 9444 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9438 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9432 0 0 0 0 0 0 0 0
+S
+#9440
+The Mess Tent~
+   The small entrance to the mess tent does not do the sheer size of this tent
+justice.  The dimensions of this tent lend attribute to the wonder of how many
+soldiers they must feed here.  Hundreds of sturdy wooden tables fill the tent
+from wall to wall.  Soldiers, numbering enough to be almost impossible to
+count, fill the benches eating food or talking with their fellows.  Laughter
+ripples constantly through the crowd, giving a feeling of relaxed comfort.    
+~
+94 d h 0 0  1
+D1
+~
+~
+0 0 9441 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9460 0 0 0 0 0 0 0 0
+D9
+~
+flap~
+1 0 9432 0 0 0 0 0 0 0 0
+S
+#9441
+The Mess Tent~
+   The small entrance to the mess tent does not do the sheer size of this tent
+justice.  The dimensions of this tent lend attribute to the wonder of how many
+soldiers they must feed here.  Hundreds of sturdy wooden tables fill the tent
+from wall to wall.  Soldiers, numbering enough to be almost impossible to
+count, fill the benches eating food or talking with their fellows.  Laughter
+ripples constantly through the crowd, giving a feeling of relaxed comfort.    
+~
+94 d h 0 0  1
+D2
+~
+~
+0 0 9459 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9440 0 0 0 0 0 0 0 0
+S
+#9442
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D6
+~
+flap~
+1 0 9433 0 0 0 0 0 0 0 0
+S
+#9443
+At the Entrance of the Captain's Tent~
+   The noise of the camp, or absence of it, is noticeable here, as soldiers and
+officers alike kindly keep their distance from the owner of this tent.  The
+tent, thought not the largest in camp, is the most embelished with expensive
+decorations showing the rank and importance of it's owner.  The sole shouting
+of one voice from within the tent is the only indication that somebody takes
+residence in it.    
+~
+94 0 h 0 0  1
+D0
+~
+flap~
+1 0 9446 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9436 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9445 0 0 0 0 0 0 0 0
+D7
+~
+~
+0 0 9447 0 0 0 0 0 0 0 0
+S
+#9444
+Inside a Cramped Tent~
+   Other than the four pallets that serve as beds for the soldiers that take
+residence here, there is little else in the way of furnishings.  Everything is
+kept in perfect order, with the equipment of each soldier at the end of their
+pallets.  With no candle or torch in sight it leads one to believe only the
+light of day will illuminate this tent.    
+~
+94 d h 0 0  1
+D0
+~
+flap~
+1 0 9439 0 0 0 0 0 0 0 0
+S
+#9445
+A Path Towards One of the Lords of Doom~
+   This path is obviously less trekked, as the ground becomes noticeably more
+and more rocky and uneven.  One of the Lords of Doom looms impressively to the
+north.  This section of the mountain slowly pours magma from a rock formation
+cut from its base.  The Captain's tent splits the two paths that connect a few
+hundred feet to the north.    
+~
+94 c h 0 0  2
+D6
+~
+~
+0 0 9448 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9443 0 0 0 0 0 0 0 0
+S
+#9446
+The Waiting Room~
+   The tension and nervousness in the air is so thick that it could almost be
+cut.  Shouting and yelling can be heard to the north, coming from the Captain's
+office, serving only to cause the occupants of this waiting room to sweat even
+more.  Two poorly and obviously uncomfortable wooden benches serve as a seat to
+those that wait for their turn to speak with the captain.    
+~
+94 d h 0 0  1
+D0
+~
+flap~
+1 0 9450 0 0 0 0 0 0 0 0
+D2
+~
+flap~
+1 0 9443 0 0 0 0 0 0 0 0
+S
+#9447
+A Path Towards One of the Lords of Doom~
+   This path is obviously less trekked, as the ground becomes noticeably more
+and more rocky and uneven.  One of the Lords of Doom looms impressively to the
+north.  This section of the mountain slowly pours magma from a rock formation
+cut from its base.  The Captain's tent splits the two paths that connect a few
+hundred feet to the north.    
+~
+94 c h 0 0  2
+D7
+~
+~
+0 0 9452 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9443 0 0 0 0 0 0 0 0
+S
+#9448
+A Path Towards One of the Lords of Doom~
+   This path is obviously less trekked, as the ground becomes noticeably more
+and more rocky and uneven.  One of the Lords of Doom looms impressively to the
+north.  This section of the mountain slowly pours magma from a rock formation
+cut from its base.  The Captain's tent splits the two paths that connect a few
+hundred feet to the north.    
+~
+94 c h 0 0  2
+D0
+~
+~
+0 0 9453 0 0 0 0 0 0 0 0
+D8
+~
+~
+0 0 9445 0 0 0 0 0 0 0 0
+S
+#9449
+A Small Apartment~
+   The distinctive odor of wizards, the smell of spell components, is obvious
+at the first step into this part of the captain's tent.  Various books titled
+with magical script lie about the room, on its shelves and table.  Suspended at
+the very center of the room is a magical sphere of light, illuminating every
+corner and item to perfect detail.    
+~
+94 d h 0 0  1
+D1
+~
+flap~
+1 0 9450 0 0 0 0 0 0 0 0
+S
+#9450
+The Meeting Room~
+   A rich, mahogany desk trimmed in platinum dominates this section of the
+tent.  Objects of gold and silver adorn the desk's surface.  The room is barely
+furnished, leaving alot of space wasted.  This waste of space in a camp that is
+cramped in such a confined area shows more than anything, the arrogance and
+importance of its owner.    
+~
+94 d h 0 0  1
+D1
+~
+flap~
+1 0 9451 0 0 0 0 0 0 0 0
+D2
+~
+flap~
+1 0 9446 0 0 0 0 0 0 0 0
+D3
+~
+flap~
+1 0 9449 0 0 0 0 0 0 0 0
+S
+#9451
+The Captain's Quarters~
+   The arrogant waste of space evident in the captain's meeting room is not
+present in his sleeping quarters.  A large bed fills most of the room in this
+section of the tent.  A suprisingly small dresser sits off to one side with a
+tall mirror the size of a man leaning against its doors.    
+~
+94 d h 0 0  1
+D3
+~
+flap~
+1 0 9450 0 0 0 0 0 0 0 0
+S
+#9452
+A Path Towards One of the Lords of Doom~
+   This path is obviously less trekked, as the ground becomes noticeably more
+and more rocky and uneven.  One of the Lords of Doom looms impressively to the
+north.  This section of the mountain slowly pours magma from a rock formation
+cut from its base.  The Captain's tent splits the two paths that connect a few
+hundred feet to the north.    
+~
+94 c h 0 0  2
+D0
+~
+~
+0 0 9457 0 0 0 0 0 0 0 0
+D9
+~
+~
+0 0 9447 0 0 0 0 0 0 0 0
+S
+#9453
+A Path Towards One of the Lords of Doom~
+   This path is obviously less trekked, as the ground becomes noticeably more
+and more rocky and uneven.  One of the Lords of Doom looms impressively to the
+north.  This section of the mountain slowly pours magma from a rock formation
+cut from its base.  The Captain's tent splits the two paths that connect a few
+hundred feet to the north.    
+~
+94 c h 0 0  2
+D1
+~
+~
+0 0 9454 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9448 0 0 0 0 0 0 0 0
+S
+#9454
+A Path Towards a Large Dragon's Head~
+   As the path approaches the mountain, the rock formation at the base of the
+Lords of Doom becomes all too recognizable.  The formation, a gargantuan head
+of a dragon, rests ominously.  Red, fiery magma flows from it to form the
+unnatural island that the Red Dragonarmy's camp resides.  The light catches the
+dragon's eyes, making them glisten almost expectantly as if it was waiting.  
+~
+94 0 h 0 0  2
+D1
+~
+~
+0 0 9455 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9453 0 0 0 0 0 0 0 0
+S
+#9455
+A Path Towards a Large Dragon's Head~
+   As the path approaches the mountain, the rock formation at the base of the
+Lords of Doom becomes all too recognizable.  The formation, a gargantuan head
+of a dragon, rests ominously.  Red, fiery magma flows from it to form the
+unnatural island that the Red Dragonarmy's camp resides.  The light catches the
+dragon's eyes, making them glisten almost expectantly as if it was waiting.  
+~
+94 c h 0 0  2
+D1
+~
+~
+0 0 9456 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9454 0 0 0 0 0 0 0 0
+S
+#9456
+A Path Towards a Large Dragon's Head~
+   As the path approaches the mountain, the rock formation at the base of the
+Lords of Doom becomes all too recognizable.  The formation, a gargantuan head
+of a dragon, rests ominously.  Red, fiery magma flows from it to form the
+unnatural island that the Red Dragonarmy's camp resides.  The light catches the
+dragon's eyes, making them glisten almost expectantly as if it was waiting.  
+~
+94 c h 0 0  2
+D1
+~
+~
+0 0 9457 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9455 0 0 0 0 0 0 0 0
+S
+#9457
+A Path Towards One of the Lords of Doom~
+   This path is obviously less trekked, as the ground becomes noticeably more
+and more rocky and uneven.  One of the Lords of Doom looms impressively to the
+north.  This section of the mountain slowly pours magma from a rock formation
+cut from its base.  The Captain's tent splits the two paths that connect a few
+hundred feet to the north.    
+~
+94 c h 0 0  2
+D0
+~
+~
+0 0 9461 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9452 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9456 0 0 0 0 0 0 0 0
+S
+#9458
+A Small Storage Space~
+   Musty, stagnant air fills this cramped storage space.  The room has barely
+enough space for one person to turn around, let alone move.  Potions fill the
+small shelves on one side; ingredients for those very potions line the other.
+~
+94 adi h 0 0  0
+D4
+~
+rug~
+1 0 9401 0 0 0 0 0 0 0 0
+S
+#9459
+The Mess Tent~
+   The small entrance to the mess tent does not do the sheer size of this tent
+justice.  The dimensions of this tent lend attribute to the wonder of how many
+soldiers they must feed here.  Hundreds of sturdy wooden tables fill the tent
+from wall to wall.  Soldiers, numbering enough to be almost impossible to
+count, fill the benches eating food or talking with their fellows.  Laughter
+ripples constantly through the crowd, giving a feeling of relaxed comfort.    
+~
+94 d h 0 0  1
+D0
+~
+~
+0 0 9441 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 9460 0 0 0 0 0 0 0 0
+S
+#9460
+The Mess Tent~
+   The small entrance to the mess tent does not do the sheer size of this tent
+justice.  The dimensions of this tent lend attribute to the wonder of how many
+soldiers they must feed here.  Hundreds of sturdy wooden tables fill the tent
+from wall to wall.  Soldiers, numbering enough to be almost impossible to
+count, fill the benches eating food or talking with their fellows.  Laughter
+ripples constantly through the crowd, giving a feeling of relaxed comfort.    
+~
+94 d h 0 0  1
+D0
+~
+~
+0 0 9440 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 9459 0 0 0 0 0 0 0 0
+S
+#9461
+Before the Temple of Luerkhisis~
+   An aura of immense evil emanates from the imposing structure to the north.
+Carved directly from the face of the mountain, a large stone dragon's head
+rests above two massive doors which lead inside the temple.  It appears to be
+heavily guarded, and for good reason.  Those who attempt to enter without
+consent from the Dark Queen herself are not usually heard from again.    
+~
+94 0 h 0 0  0
+D0
+~
+~
+0 0 9301 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 9457 0 0 0 0 0 0 0 0
+S
+#9462
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9463
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9464
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9465
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9466
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9467
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9468
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9469
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9470
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9471
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9472
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9473
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9474
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9475
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9476
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9477
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9478
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9479
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9480
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9481
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9482
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9483
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9484
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9485
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9486
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9487
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9488
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9489
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9490
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9491
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9492
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9493
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9494
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9495
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9496
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9497
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9498
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+#9499
+A new room~
+You are in a room.
+~
+94 0 0 0 0  0
+S
+$

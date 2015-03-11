@@ -1,0 +1,668 @@
+#11800
+key crystal sparkling morningdew~
+a sparkling crystal key~
+Lying here on the ground, visible only by its sparkling is a crystal key.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11801
+key crystal deep green morningdew~
+a deep green crystal key~
+Here lies a crystal key of a deep green hue.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11802
+glaive flaming orange steel morningdew~
+a flaming glaive of orange-hued steel~
+A long glaive of orange-hued steel covers the ground in flames.~
+~
+5 jklprstuvxBCDEF abcu akstuvwxy 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 0 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+glaive orange hued steel flaming~
+   This long, two-handed slashing weapon is ideal for distance combat.  When
+used in proper ranks, the effects can be devastating.  The glaive itself is
+made of an orange-hued steel and bursts flames from the blade of the weapon.  
+Unlike most glaives, the pole is made of a lightweight steel, and is shaped
+with hand grips in the appropriate places.    
+~
+#11803
+cannon craech~
+a craech cannon~
+A huge, complicated looking craech cannon sits here in the battlements.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+cannon craech~
+   This large piece of machinery looks rather complicated and is almost
+certainly gnomish technology.  Metal tubes connect at all angles all over the
+cannon, weaving to and fro.  Strange runes have been painted on the sides as
+well, suggesting there is more to this item than gnomish befuddlement.  The
+huge muzzle of the cannon point out of the tower and at the base of it you can
+see a small screw-top cover.    
+~
+#11804
+capsule bone white powder~
+a small capsule filled with a bone white powder~
+A small capsule filled with a bone white powder lies here.~
+~
+3 jklmnoprstuvwBCDEF abc 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 500 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+capsule bone white powder~
+   This small capsule is made of a hard, yet flexible substance.  It has been
+filled with a strange powder, as stark white as bones.  A thin whick sticks out
+of the top of the capsule extending almost a foot away.    
+~
+#11805
+cuirass orange studded morningdew~
+an orange-hued studded leather cuirass~
+An orange-hued studded leather cuirass lies here on the ground.~
+~
+9 jklnoprstuvwBCDEF abcuy stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11806
+vambraces orange studded leather morningdew~
+a set of orange-hued studded leather vambraces~
+A set of orange-hued studded leather vambraces lie here on the ground.~
+~
+9 jklnoprstuvwBCDEF abcuy stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11807
+greaves orange studded leather morningdew~
+a set of orange-hued studded leather greaves~
+A set of orange-hued studded leather greaves lies here.~
+~
+9 jklnoprstuvwBCDEF abcuy stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11808
+basinet orange studded leather morningdew~
+an orange-hued studded leather basinet~
+An orange-hued studded leather basinet lies here.~
+~
+9 jklnoprstuvwBCDEF abcuy stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11809
+gloves orange leather morningdew~
+a pair of orange-hued leather gloves~
+A pair of orange-hued leather gloves lies here on the ground.~
+~
+9 jklmnoprstuvwBCDEF abcuy stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11810
+boots orange leather morningdew~
+a pair of orange-hued hard leather boots~
+A set of orange-hued hard leather boots lie here.~
+~
+9 jklmnoprstuvwBCDEF abcuy stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11811
+girdle orange sigil flame morningdew~
+an orange-hued leather girdle depicting the sigil of a flame~
+An orange-hued leather girdle depicting the sigil of a flame lies here.~
+~
+9 jklnoprstuvwBCDEF abcuy stuvwxy 0 al 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11812
+cape orange fiery morningdew~
+a fiery-orange cape bearing the sigil of a flame~
+A fiery-orange cape bearing the symbol of a flame lies here.~
+~
+9 jklnoprstuvwBCDEF abcuy stuvwxy 0 ak 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 1000 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11813
+cuirass orange sigil flame morningdew~
+an orange-hued platemail cuirass bearing the sigil of a flame~
+An orange-hued platemail cuirass bearing the sigil of a flame lies here.~
+~
+9 jklpstBCDEF abcuy stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+25 3500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#11814
+vambraces platemail orange morningdew~
+a set of orange-hued platemail vambraces~
+A set of orange-hued platemail vambraces lie here.~
+~
+9 jklpstBCDEF abcuy stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 3500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#11815
+greaves platemail orange morningdew~
+a set of orange-hued platemail greaves~
+A set of orange-hued platemail greaves lie here on the ground.~
+~
+9 jklpstBCDEF abcuy stuvwxy 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+10 3500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#11816
+helm greathelm orange morningdew~
+an orange-hued greathelm covered in flames~
+An orange-hued greathelm covered in flames lies here.~
+~
+9 jklpstBCDEF abcuy stuvwxy 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 3500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#11817
+gauntlets orange platemail morningdew~
+a set of orange-hued platemail gauntlets~
+A set of orange-hued platemail gauntlets lie here.~
+~
+9 jklpstBCDEF abcuy stuvwxy 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 3500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#11818
+boots orange platemail morningdew~
+a set of orange hued platemail boots~
+A set of orange hued platemail boots lie here.~
+~
+9 jklpstBCDEF abcuy stuvwxy 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 3500 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#11819
+bracer orange morningdew~
+an orange-hued bracer covered in flames~
+An orange-hued bracer covered in flames lies here.~
+6~
+9 jklpstBCDEF abcuy stuvwxy 0 am 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+18 1 0
+#11820
+pendant orange flames morningdew~
+an orange hued pendant covered in flames~
+An orange-hued pendant covered in flames lies here.~
+6~
+9 jklpstBCDEF abcuy stuvwxy 0 ac 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+2 3500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 10 0
+#11821
+key gate intricate~
+an intricate gate key~
+An intricate-looking gate key lies here in the dust.~
+~
+18 cq 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11822
+fountain lifeless common~
+a common, lifeless fountain~
+A common looking fountain lifelessly spews water into its pool.~
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+fountain lifeless common~
+   This fountain is quite common looking, havign very little in the way of
+artistic flair.  It has a single column in its center where water spews and
+falls into shallow pool at its base.    
+~
+#11823
+wand jagged blue crystal morningdew~
+a jagged wand of blue crystal~
+A jagged wand of blue crystal lies here on the ground.~
+~
+3 jklmnovwBCDEF abcu stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 6500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11824
+wand jagged green crystal morningdew~
+a jagged wand of green crystal~
+A jagged wand of green crystal lies here on the ground.~
+~
+3 jklmnovwBCDEF abcu stuvwxy 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+1 8500 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11825
+breastplate swirling mist blue morningdew~
+a pale blue breastplate of swirling mist~
+Hovering above the ground here, a breastplate of swirling mist can vaguely be seen.~
+~
+11 gjklnoprstvBCDEF abcu stuvwxy 0 ad 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 15000 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+breastplate swirling mist pale blue~
+   This breastplate is seemingly made of air itself, with tiny droplets of
+water clinging to it's otherwise invisible form.  It bears no markings or
+decoration whatsoever.  Your hand crosses an invisible barrier as you attempt
+to reach through the plate.    
+~
+A
+17 -30 0
+A
+23 1 0
+#11826
+armguards blue swirling mist morningdew~
+a set of pale blue armguards formed of swirling mist~
+Peering closely you can see a pair of pale blue armguards formed of swirling mist here.~
+~
+11 jklnoprstuvBCDEF abcu stuvwxy 0 ai 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 10000 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+E
+armguards pale blue swirling mist~
+   These armguards are formed of pure air, and can only be seen by the tiny
+droplets of water that cling to its otherwise invisible form.  They bear no
+markings or engravings whatsoever.  Your hand crosses an invisible barrier as
+you attempt to push it through the body of the armguards.    
+~
+A
+17 -10 0
+A
+23 1 0
+#11827
+egg golden dragon~
+a golden dragon egg~
+Sitting alone, a golden dragon egg awaits.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11828
+egg silver dragon~
+a silver dragon egg~
+Sitting alone, a silver dragon egg awaits.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11829
+egg copper dragon~
+a copper dragon egg~
+Sitting alone, a copper dragon egg awaits.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11830
+egg brass dragon~
+a brass dragon egg~
+Sitting alone, a brass dragon egg awaits.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11831
+egg bronze dragon~
+a bronze dragon egg~
+Sitting alone, a bronze dragon egg awaits.~
+~
+10 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 1
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11832
+rack weapon~
+a weapon rack~
+A weapon rack stands here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11833
+rack armor~
+an armor rack~
+An armor rack stands here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11834
+breastplate sapphire platemail morningdew~
+a sapphire platemail breastplate~
+A sapphire breastplate has been tossed aside here.~
+~
+9 jpstCF ac 0 0 ad 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+12 8400 0 3
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+5 1 0
+#11835
+vambraces platemail sapphire morningdew~
+a set of sapphire platemail vambraces~
+Someone has discarded a set of sapphire vambraces.~
+~
+9 jpstCF ac 0 0 ai 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+4 1100 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+13 5 0
+#11836
+greaves sapphire platemail morningdew~
+a set of sapphire platemail greaves~
+A set of sapphire platemail greaves awaits an owner.~
+~
+9 jpstCF ac 0 0 af 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+6 1200 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+14 5 0
+#11837
+helmet sapphire platemail morningdew~
+a sapphire platemail helmet~
+A sapphire platemail helmet has been left for broken here.~
+~
+9 jpstCF ac 0 0 ae 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+5 2700 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+9 3 0
+#11838
+gauntlets sapphire platemail morningdew~
+a pair of sapphire platemail gauntlets~
+A set of sapphire gauntlets litters the ground.~
+~
+9 jpstCF ac 0 0 ah 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+3 2600 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11839
+boots sapphire platemail morningdew~
+a pair of sapphire platemail boots~
+Having been discarded, this pair of sapphire boots awaits an owner.~
+~
+9 jpstCF ac 0 0 ag 0 0 0 0 0 0 0
+0 0 100 0 100 100 0 0 0 0 0 0 0 0 0 0
+8 4500 0 2
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+#11840
+longsword sword defender morningdew~
+a defender longsword~
+A thick bladed defender longsword has been left here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 12 0 0 0 0 0 0 0 0
+12 25000 0 40
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+A
+24 40 0
+A
+28 10 0
+#11841
+key pink smoke vaporous wisp morningdew~
+a vaporous key of pink smoke~
+A wisp of pink smoke drifts tendrils above this key.~
+~
+18 cjt 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Z
+4
+D
+0
+$~

@@ -1,0 +1,149 @@
+#50200
+Shandug Luskan~
+@MS@Cha@Mn@Cdu@Mg@n the trader at Luskan~
+A dusty individual named @MS@Cha@Mn@Cdu@Mg@n the trader is ready to depart from Luskan
+~
+   He wears a long and colorful dusty robe that shows of all his travels.  He
+displays bracelets and rings most likely from his trades and has a few camels
+lined ready to depart on yet another trip.  It seems he might have something to
+say to you if you were to @Ysay hello@n.  
+~
+bdnoA 0 0 0 k 0 0 0 0
+60 -10 -62 480d100+100 1d8+30
+0 0 0 27
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 31
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+T 50200
+T 50201
+T 50202
+T 50203
+T 50204
+#50201
+Shandug Mirabar~
+@MS@Cha@Mn@Cdu@Mg@n the trader at Mirabar~
+A dusty individual named @MS@Cha@Mn@Cdu@Mg@n the trader is ready to depart from Mirabar
+~
+He wears a long and colorful dusty robe that shows of all his travels.  He displays bracelets and rings most likely from his trades and has a few camels lined ready to depart on yet another trip.
+~
+bdnoA 0 0 0 k 0 0 0 0
+40 7 -38 5040d100+100 1d8+13
+0 0 0 27
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+S
+T 50200
+T 50202
+T 50203
+T 50204
+T 50205
+#50202
+Shandug Waterdeep~
+@MS@Cha@Mn@Cdu@Mg@n the trader at Waterdeep~
+A dusty individual named @MS@Cha@Mn@Cdu@Mg@n the trader is ready to depart from Waterdeep
+~
+He wears a long and colorful dusty robe that shows of all his travels.  He displays bracelets and rings most likely from his trades and has a few camels lined ready to depart on yet another trip.
+~
+bdnoA 0 0 0 k 0 0 0 0
+40 7 -38 5040d100+100 1d8+13
+0 0 0 27
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+S
+T 50200
+T 50201
+T 50202
+T 50204
+T 50205
+#50203
+Shandug Triboar~
+@MS@Cha@Mn@Cdu@Mg@n the trader at Triboar~
+A dusty individual named @MS@Cha@Mn@Cdu@Mg@n the trader is ready to depart from Triboar
+~
+He wears a long and colorful dusty robe that shows of all his travels.  He displays bracelets and rings most likely from his trades and has a few camels lined ready to depart on yet another trip.
+~
+bdnoA 0 0 0 k 0 0 0 0
+40 7 -38 5040d100+100 1d8+13
+0 0 0 27
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+S
+T 50200
+T 50201
+T 50203
+T 50204
+T 50205
+#50204
+Shandug Neverwinter~
+@MS@Cha@Mn@Cdu@Mg@n the trader at Neverwinter~
+A dusty individual named @MS@Cha@Mn@Cdu@Mg@n the trader is ready to depart from Neverwinter
+~
+He wears a long and colorful dusty robe that shows of all his travels.  He displays bracelets and rings most likely from his trades and has a few camels lined ready to depart on yet another trip.
+~
+bdnoA 0 0 0 k 0 0 0 0
+40 7 -38 5040d100+100 1d8+13
+0 0 0 27
+8 8 1
+E
+Str: 12
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 12
+E
+Con: 26
+E
+Cha: 10
+S
+T 50200
+T 50201
+T 50202
+T 50203
+T 50205
+$

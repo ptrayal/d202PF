@@ -1,0 +1,278 @@
+#7800
+shadow warrior muscular bat humanoid~
+a shadow warrior~
+A muscular, bat-like humanoid slowly patrols the dimly lit tunnels.
+~
+   From a distance, this bat-like humanoid can easily be mistaken for a thin
+ape.  As he comes into clearer view, his appearance more closely resembles a
+humanized bat.  His body is covered from head to toe with dark, smooth fur.  A
+long, stretchable membrane connects his arms to his flanks.  This membrane
+allows the humanoid to glide through the air for short distances.    
+~
+dD 0 0 0 k 0 0 0 0
+14 12 -12 840d140+104 1d8+8
+18 0 41 3
+8 8 1
+E
+Str: 20
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#7804
+tunnel worker shadow~
+a tunnel worker~
+A tunnel worker of the shadowpeople scrapes the walls with a handmade chisel.
+~
+   Large mounds of freshly scraped dirt lie on the ground behind this tireless
+worker.  The amount of dirt in these piles suggests he has been laboring for
+hours on end, yet no sweat or heavy breathing hints that he is the least bit
+fatigued.  A remarkably well crafted homemade chisel rests in his palm as he
+swings it sharply into the wall.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7805
+councilor dignified shadow~
+a dignified councilor~
+A councilor of the shadowpeople silently converses with his brethren.
+~
+   One of the only members of the shadowpeople clan to wear any sort of
+clothing, this elderly councilor wears a set of silver robes over his hairy
+body.  The hood of the robe has been pulled back, exposing his large head and
+flattened, upturned nose.  A set of large amber eyes peer about the chamber
+with marked intensity as he nods at his fellow councilors.  He seems to be
+communicating with them by means other than the physical senses.    
+~
+d 0 0 0 k 0 0 0 0
+15 20 7 24d100+152 1d8+0
+15 0 41 0
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7810
+sick infant young~
+a sick infant~
+Deathly ill, this young infant coughs up blood as she cries.
+~
+   No more than a few weeks old, this infant of the Shadowpeople cries, frantic
+with pain and fear.  A steady trickle of blood flows from the corner of her
+mouth onto her chest and shoulders.  It is not long before this child is taken
+from this world.    
+~
+d 0 0 0 k 0 0 0 0
+5 20 7 24d100+152 1d8+0
+15 0 41 2
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7813
+pile foul transparent jelly slithering tracker~
+a slithering tracker~
+A pile of foul smelling, transparent jelly slithers its way down the tunnel.
+~
+   This foul smelling pile of jelly holds no apparent shape.  Small pink veins
+branch out from the core of its mass, spreading towards its exterior.  As it
+slithers its way down the tunnels, it leaves a trail of acidic ooze which
+causes the ground to temporarily bubble.    
+~
+d 0 0 0 k 0 0 0 0
+13 20 7 24d100+152 1d8+0
+15 0 41 6
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7814
+giant enormous worm red blood~
+a giant blood worm~
+An enormous red worm completely blocks progress through the underground tunnels.
+~
+   This huge blood worm struggels to squeeze through the passageways that would
+normally dwarf any creature navigating them.  As it squeezes through the
+tunnels, loose sand and dirt falls from the ceiling, covering everything in dry
+filth.  A circular mouth of jagged, crude teeth opens and closes at random as
+it blindly searches for its next meal.    
+~
+d 0 0 0 k 0 0 0 0
+18 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7815
+lava serpent~
+a lava serpent~
+A serpent formed completely of lava jumps out of the fissure and attacks.
+~
+   A serpentine creature formed of molten rock slithers its way out of a large
+pool of lava and quickly progresses in your direction.  Two dangerously sharp
+fangs shine with orange and blue heat as it opens its mouth to end your life in
+one terribly painful bite.    
+~
+dF 0 0 0 k 0 0 0 0
+22 5 -27 5720d220+112 1d8+15
+15 0 128 3
+8 8 1
+E
+Str: 27
+E
+Dex: 16
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 16
+E
+Cha: 10
+S
+#7816
+demon rock~
+a rock demon~
+Released from its eternal imprisonment, a rock demon seeks revenge.
+~
+   As apparent by its extremely angry visage, this rock demon has been
+magically imprisoned for centuries below the molten city of Sanction.  A large
+mass of several charred boulders forms the general structure of its body,
+causing it to stand over fifteen feet in height.  As it focuses its deep set
+eyes of onyx on your foolish intrusion, it hurls a massive stone fist directly
+towards your head.    
+~
+d g 0 0 k 0 0 0 -988
+22 4 -28 13200d220+112 1d8+16
+41 0 41 3
+8 8 1
+E
+Str: 22
+E
+Dex: 12
+E
+Int: 10
+E
+Wis: 10
+E
+Con: 14
+E
+Cha: 11
+S
+#7817
+sleepy tired warrior shadowpeople~
+a sleepy warrior of the shadowpeople~
+A tired warrior of the shadowpeople settles down for a long rest.
+~
+   Apparently the members of the shadowpeople share living accomidations, as
+dozens of adults sleep in the same living quarters.  This large male lies on a
+bed of soft, spongy mushrooms.  He makes no movements, signaling that he is
+fast asleep, yet his eyes remain open, staring blankly towards the ceiling.  
+~
+d 0 0 0 k 0 0 0 0
+14 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+#7818
+storage worker~
+a storage worker~
+A storage worker of the shadowpeople stacks crates of mushrooms towards the ceiling.
+~
+   Showing remarkable strength, this young male carries a large crate of
+mushrooms towards the back of the room.  His thin, yet muscular webbed arms
+flex with strain as he lifts the crate above his head to reach the top row
+where it must be placed for storage.    
+~
+d 0 0 0 k 0 0 0 0
+12 20 7 24d100+152 1d8+0
+15 0 41 3
+8 8 1
+E
+Str: 14
+E
+Dex: 14
+E
+Int: 14
+E
+Wis: 14
+E
+Con: 14
+E
+Cha: 14
+S
+$

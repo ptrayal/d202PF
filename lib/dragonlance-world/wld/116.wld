@@ -1,0 +1,1726 @@
+#11600
+Before the Fields of Dargaard Keep~
+   Dry, dead grass crumples beneath your feet as you make your way out of the
+mountains.  The smell of death and slowly rotting corpses linger heavily in the
+air.  Dark clouds seem to roll in and cover the skies as quickly as possible.
+~
+116 cpt h 0 0 2
+D1
+~
+~
+0 0 11601 0 0 0 0 0 0 0 0
+D6
+~
+~
+0 0 9950 0 0 0 0 0 0 0 0
+S
+#11601
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11602 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11616 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11614 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11600 0 0 0 0 0 0 0 0
+S
+#11602
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11603 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11617 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11601 0 0 0 0 0 0 0 0
+S
+#11603
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D1
+~
+~
+0 0 11604 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11602 0 0 0 0 0 0 0 0
+S
+#11604
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D1
+~
+~
+0 0 11605 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11617 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11603 0 0 0 0 0 0 0 0
+S
+#11605
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D1
+~
+~
+0 0 11606 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11618 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11604 0 0 0 0 0 0 0 0
+S
+#11606
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D2
+~
+~
+0 0 11607 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11605 0 0 0 0 0 0 0 0
+S
+#11607
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11606 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11608 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11618 0 0 0 0 0 0 0 0
+S
+#11608
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11607 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11621 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11609 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11619 0 0 0 0 0 0 0 0
+S
+#11609
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11608 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11610 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11620 0 0 0 0 0 0 0 0
+S
+#11610
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11609 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11611 0 0 0 0 0 0 0 0
+S
+#11611
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11620 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11610 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11612 0 0 0 0 0 0 0 0
+S
+#11612
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D1
+~
+~
+0 0 11611 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11613 0 0 0 0 0 0 0 0
+S
+#11613
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11614 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11612 0 0 0 0 0 0 0 0
+S
+#11614
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11601 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11615 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11613 0 0 0 0 0 0 0 0
+S
+#11615
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11616 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11620 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11614 0 0 0 0 0 0 0 0
+S
+#11616
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11617 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11619 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11615 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11601 0 0 0 0 0 0 0 0
+S
+#11617
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11604 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11618 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11616 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11602 0 0 0 0 0 0 0 0
+S
+#11618
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11605 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11607 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11619 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11617 0 0 0 0 0 0 0 0
+S
+#11619
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11618 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11608 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11620 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11616 0 0 0 0 0 0 0 0
+S
+#11620
+Walking the Hollow Fields of Dargaard Keep~
+   Makeshift crosses and graves can be detected as you slowly make your way
+across the hollow grounds of Dargaard.  A low rumbling can be heard, perhaps a
+storm brewing high overhead.  Foot markings can barely be seen upon the ground
+as you continue along your way.    
+~
+116 pt h 0 0 2
+D0
+~
+~
+0 0 11619 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11609 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11611 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11615 0 0 0 0 0 0 0 0
+S
+#11621
+Approaching Dargaard Keep~
+   A large fortress can be seen close off to the east blocking out what is left
+of the sun.  An eerie aura can be felt from what resides within keep.  Loud
+moaning and shufling footsteps can be heard nearby.    
+~
+116 pt h 0 0 2
+D1
+~
+~
+0 0 11622 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11608 0 0 0 0 0 0 0 0
+S
+#11622
+Approaching Dargaard Keep~
+   A large fortress can be seen close off to the east blocking out what is left
+of the sun.  An eerie aura can be felt from what resides within keep.  Loud
+moaning and shufling footsteps can be heard nearby.    
+~
+116 pt h 0 0 2
+D1
+~
+~
+0 0 11623 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11621 0 0 0 0 0 0 0 0
+S
+#11623
+Before the Great Keep of Dargaard~
+   The great keep of Dargaard stands directly in front of you.  A great evil
+presence can be felt from within.  Jet black stone makes up the majority of the
+keeps foundation.  A few crumbling towers can be seen towards the back area of
+the keep.    
+~
+116 cp h 0 0 2
+D0
+~
+door~
+1 0 11624 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11622 0 0 0 0 0 0 0 0
+S
+#11624
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 cdfpt h 0 0 0
+D0
+~
+~
+0 0 11625 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 11623 0 0 0 0 0 0 0 0
+S
+#11625
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11626 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11624 0 0 0 0 0 0 0 0
+S
+#11626
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11627 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11659 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11625 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11634 0 0 0 0 0 0 0 0
+S
+#11627
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11630 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11632 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11628 0 0 0 0 0 0 0 0
+S
+#11628
+The Alcove of Song and Undeath~
+   A great wailing sound can be heard in this small alcove.  Large circular
+pillars stand in the center of the room, holding torches, which allow a small
+amount of light.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11629 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11627 0 0 0 0 0 0 0 0
+S
+#11629
+The Great Halls of Dargaard Keep~
+   A great wailing sound can be heard in this small alcove.  Large circular
+pillars stand in the center of the room, holding torches, which allow a small
+amount of light.    
+~
+116 dfpt h 0 0 0
+D1
+~
+~
+0 0 11630 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11628 0 0 0 0 0 0 0 0
+S
+#11630
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfp h 0 0 0
+D0
+~
+~
+0 0 11633 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11631 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11627 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11629 0 0 0 0 0 0 0 0
+S
+#11631
+The Alcove of Song and Undeath~
+   A great wailing sound can be heard in this small alcove.  Large circular
+pillars stand in the center of the room, holding torches, which allow a small
+amount of light.    
+~
+116 dfpt h 0 0 0
+D2
+~
+~
+0 0 11632 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11630 0 0 0 0 0 0 0 0
+S
+#11632
+The Alcove of Song and Undeath~
+   A great wailing sound can be heard in this small alcove.  Large circular
+pillars stand in the center of the room, holding torches, which allow a small
+amount of light.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11631 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11627 0 0 0 0 0 0 0 0
+S
+#11633
+The Alcove of Song and Undeath~
+   A great wailing sound can be heard in this small alcove.  Large circular
+pillars stand in the center of the room, holding torches, which allow a small
+amount of light.    
+~
+116 dfpt h 0 0 0
+D2
+~
+~
+0 0 11630 0 0 0 0 0 0 0 0
+S
+#11634
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D1
+~
+~
+0 0 11626 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11635 0 0 0 0 0 0 0 0
+S
+#11635
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11636 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11634 0 0 0 0 0 0 0 0
+S
+#11636
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11638 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11635 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11637 0 0 0 0 0 0 0 0
+S
+#11637
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11636 0 0 0 0 0 0 0 0
+S
+#11638
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11640 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11636 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11639 0 0 0 0 0 0 0 0
+S
+#11639
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11638 0 0 0 0 0 0 0 0
+S
+#11640
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11642 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11644 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11638 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11641 0 0 0 0 0 0 0 0
+S
+#11641
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11640 0 0 0 0 0 0 0 0
+S
+#11642
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D1
+~
+~
+0 0 11643 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11640 0 0 0 0 0 0 0 0
+S
+#11643
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+door~
+1 0 11645 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11646 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11644 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11642 0 0 0 0 0 0 0 0
+S
+#11644
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 cdfpt h 0 0 0
+D0
+~
+~
+0 0 11643 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11640 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11660 0 0 0 0 0 0 0 0
+S
+#11645
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D2
+~
+door~
+1 0 11643 0 0 0 0 0 0 0 0
+S
+#11646
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+door~
+1 0 11647 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11648 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11643 0 0 0 0 0 0 0 0
+S
+#11647
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D2
+~
+door~
+1 0 11646 0 0 0 0 0 0 0 0
+S
+#11648
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+door~
+1 0 11649 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11650 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11653 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11646 0 0 0 0 0 0 0 0
+S
+#11649
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D2
+~
+door~
+1 0 11648 0 0 0 0 0 0 0 0
+S
+#11650
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D2
+~
+~
+0 0 11651 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11648 0 0 0 0 0 0 0 0
+S
+#11651
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11650 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11652 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11654 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11653 0 0 0 0 0 0 0 0
+S
+#11652
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D3
+~
+door~
+1 0 11651 0 0 0 0 0 0 0 0
+S
+#11653
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11648 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 11651 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11675 0 0 0 0 0 0 0 0
+S
+#11654
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11651 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11655 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11656 0 0 0 0 0 0 0 0
+S
+#11655
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D3
+~
+door~
+1 0 11654 0 0 0 0 0 0 0 0
+S
+#11656
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11654 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11657 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11658 0 0 0 0 0 0 0 0
+S
+#11657
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D3
+~
+door~
+1 0 11656 0 0 0 0 0 0 0 0
+S
+#11658
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11656 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11659 0 0 0 0 0 0 0 0
+S
+#11659
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D1
+~
+~
+0 0 11658 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 11626 0 0 0 0 0 0 0 0
+S
+#11660
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11661 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11668 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11644 0 0 0 0 0 0 0 0
+S
+#11661
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11664 0 0 0 0 0 0 0 0
+D1
+~
+cell~
+1 0 11663 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11660 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 0 11662 0 0 0 0 0 0 0 0
+S
+#11662
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D1
+~
+cell~
+1 0 11661 0 0 0 0 0 0 0 0
+S
+#11663
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D3
+~
+cell~
+1 0 11661 0 0 0 0 0 0 0 0
+S
+#11664
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+cell~
+1 0 11666 0 0 0 0 0 0 0 0
+D1
+~
+cell~
+1 0 11667 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11661 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 0 11665 0 0 0 0 0 0 0 0
+S
+#11665
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D1
+~
+cell~
+1 0 11664 0 0 0 0 0 0 0 0
+S
+#11666
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D2
+~
+cell~
+1 0 11664 0 0 0 0 0 0 0 0
+S
+#11667
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D3
+~
+cell~
+1 0 11664 0 0 0 0 0 0 0 0
+S
+#11668
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11660 0 0 0 0 0 0 0 0
+D1
+~
+cell~
+1 0 11670 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11671 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 0 11669 0 0 0 0 0 0 0 0
+S
+#11669
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D1
+~
+cell~
+1 0 11668 0 0 0 0 0 0 0 0
+S
+#11670
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D3
+~
+cell~
+1 0 11668 0 0 0 0 0 0 0 0
+S
+#11671
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11668 0 0 0 0 0 0 0 0
+D1
+~
+cell~
+1 0 11674 0 0 0 0 0 0 0 0
+D2
+~
+cell~
+1 0 11673 0 0 0 0 0 0 0 0
+D3
+~
+cell~
+1 0 11672 0 0 0 0 0 0 0 0
+S
+#11672
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D1
+~
+cell~
+1 0 11671 0 0 0 0 0 0 0 0
+S
+#11673
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D0
+~
+cell~
+1 0 11671 0 0 0 0 0 0 0 0
+S
+#11674
+Inside a Cell~
+   Dark and dank, this once used prison cell has now become used for the
+holding area for the mounts of the undead.  Large markings can be seen upon the
+walls, obviously made by the creatures held within the cell.    
+~
+116 dfpt h 0 0 0
+D3
+~
+cell~
+1 0 11671 0 0 0 0 0 0 0 0
+S
+#11675
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 cdfpt h 0 0 0
+D0
+~
+door~
+1 0 11676 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11697 0 0 0 0 0 0 0 0
+D3
+~
+~
+1 0 11678 0 0 0 0 0 0 0 0
+D4
+~
+~
+0 0 11677 0 0 0 0 0 0 0 0
+D5
+~
+~
+0 0 11653 0 0 0 0 0 0 0 0
+S
+#11676
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D2
+~
+door~
+1 0 11675 0 0 0 0 0 0 0 0
+S
+#11677
+The Chambers of Lord Soth~
+   Lavish paintings and furniture cover the chamber of the black knight.  
+Black marble walls make up the foundation for this room.  Hardly touched with
+age, this chamber is surprisingly clean.  A large throne, crafted from the
+bones of an undead dragon sets in the center.    
+~
+116 dfpt 0 0 0 0
+D5
+~
+~
+0 0 11675 0 0 0 0 0 0 0 0
+S
+#11678
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11681 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11675 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11688 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11680 0 0 0 0 0 0 0 0
+S
+#11679
+The Great Halls of Dargaard Keep~
+You are in a room.
+~
+116 0 h 0 0 0
+D2
+~
+~
+0 0 11678 0 0 0 0 0 0 0 0
+S
+#11680
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11678 0 0 0 0 0 0 0 0
+S
+#11681
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11683 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11684 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11678 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11682 0 0 0 0 0 0 0 0
+S
+#11682
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11681 0 0 0 0 0 0 0 0
+S
+#11683
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfp h 0 0 0
+D0
+~
+door~
+1 0 11686 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11687 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11681 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11685 0 0 0 0 0 0 0 0
+S
+#11684
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D3
+~
+door~
+1 0 11681 0 0 0 0 0 0 0 0
+S
+#11685
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11683 0 0 0 0 0 0 0 0
+S
+#11686
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D2
+~
+door~
+1 0 11683 0 0 0 0 0 0 0 0
+S
+#11687
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D3
+~
+door~
+1 0 11683 0 0 0 0 0 0 0 0
+S
+#11688
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11678 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11690 0 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 11691 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11689 0 0 0 0 0 0 0 0
+S
+#11689
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11688 0 0 0 0 0 0 0 0
+S
+#11690
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D3
+~
+door~
+1 0 11688 0 0 0 0 0 0 0 0
+S
+#11691
+The Great Halls of Dargaard Keep~
+   Large, open hallways run in all directions throughout Dargaard keep.  
+Paintings can be seen, hung cockeyed upon the jet black marble walls.  Torches
+burn from an unknown source which are held tightly by the stone pillars in the
+center of the hallway.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11688 0 0 0 0 0 0 0 0
+D1
+~
+door~
+1 0 11694 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 11693 0 0 0 0 0 0 0 0
+D3
+~
+door~
+1 0 11692 0 0 0 0 0 0 0 0
+S
+#11692
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D1
+~
+door~
+1 0 11691 0 0 0 0 0 0 0 0
+S
+#11693
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D0
+~
+door~
+1 0 11691 0 0 0 0 0 0 0 0
+S
+#11694
+Inside a Darkened Room~
+   Broken tables and splintered chairs lie all over the floor.  Jet black
+stone, somewhat smoking lines the walls.  A small window can be seen in the far
+corner of the room, however no light shines through.    
+~
+116 dfpt h 0 0 0
+D3
+~
+door~
+1 0 11691 0 0 0 0 0 0 0 0
+S
+#11695
+test move room~
+You are in a room.
+~
+116 c h 0 0 0
+S
+#11696
+A new room~
+You are in a room.
+~
+116 0 h 0 0 0
+S
+#11697
+Mogg's Private Stable~
+   Scattered black rock line the floors of this dark, dank chamber.  A large
+opening in the southern wall can be seen as to gain access to Keep.  The
+stomping of hooves can be heard as a black steed can be seen.    
+~
+116 dfpt h 0 0 0
+D0
+~
+~
+0 0 11675 0 0 0 0 0 0 0 0
+S
+$~
