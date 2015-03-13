@@ -46,10 +46,10 @@
 #define CAMPAIGN_STAR_WARS 99
 
 // MySQL Stuff
-#define MYSQL_SERVER      "your_db_server"
-#define MYSQL_DB          "your_db_name"
-#define MYSQL_PASSWD      "your_db_pass"
-#define MYSQL_USER        "your_db_user"
+#define MYSQL_SERVER      "mud.themudhost.net"
+#define MYSQL_DB          "uriel_sql"
+#define MYSQL_PASSWD      "uriel"
+#define MYSQL_USER        "pepsic0l@"
 
 typedef int ch_ret;
 typedef int obj_ret;
