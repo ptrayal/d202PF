@@ -1287,9 +1287,7 @@ ACMD(do_gen_write)
 
   time(&rawtime);
   info = localtime( &rawtime);
-  // tmp = asctime(localtime(&ct));
   strftime(buffer, 80, "%b-%d-%Y", info);
-  // strftime(tmp, sizeof tmp, "b-d-Y", localtime(&ct));
 
   if (IS_NPC(ch)) {
     send_to_char(ch, "Monsters can't have ideas - Go away.\r\n");
