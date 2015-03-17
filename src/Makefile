@@ -22,7 +22,7 @@ BINDIR = ../bin
 
 CFLAGS = -g -O2 $(MYFLAGS) $(PROFILE)
 
-LIBS =  -lcrypt  -lz  -lmysqlclient
+LIBS =  -lcrypt -lz  -lmysqlclient
 
 OBJFILES = account.o act.comm.o act.informative.o act.item.o act.movement.o \
 	act.offensive.o act.other.o act.social.o act.wizard.o aedit.o alias.o \

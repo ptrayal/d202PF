@@ -46,7 +46,8 @@
 #define CAMPAIGN_STAR_WARS 99
 
 // MySQL Stuff
-#define MYSQL_SERVER      "mud.themudhost.net"
+//#define MYSQL_SERVER      "mud.themudhost.net"
+#define MYSQL_SERVER      "localhost"
 #define MYSQL_DB          "uriel_sql"
 #define MYSQL_PASSWD      "uriel"
 #define MYSQL_USER        "pepsic0l@"

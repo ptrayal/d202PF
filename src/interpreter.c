@@ -4660,10 +4660,11 @@ void display_levelup_classes(struct descriptor_data *d) {
 	int i = 0;
 	int count = 0;
 
-	for (i = 0; i < TOP_PC_CLASS; i++) {
+	for (i = 0; i < TOP_PC_CLASS; i++) 
+  {
 		if (i == CLASS_NPC_EXPERT || i == CLASS_CLASSLESS || i == CLASS_ARTISAN || class_in_game_dl_aol[i] == FALSE)
 			continue;
-		write_to_output(d, "%s%2d) %-30s   @n", do_class_ok_general(d->character, i, FALSE) > 0 ? "@y" : "@r", i + 1, pc_class_types_dl_aol[i]);
+		write_to_output(d, "%s%2d) %-30s   @n", do_class_ok_general(d->character, i, FALSE) > 0 ? "@y" : "@r", i + 1, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]);
 		if (count % 2 == 1)
 			write_to_output(d, "\r\n");
 		count++;

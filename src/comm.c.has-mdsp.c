@@ -75,6 +75,8 @@
 #include "telnet.h"
 #endif
 
+SVNHEADER("$Id: comm.c 62 2009-03-25 23:06:34Z gicker $");
+
 #ifndef INVALID_SOCKET
 #define INVALID_SOCKET (-1)
 #endif
@@ -125,7 +127,7 @@ int dg_act_check;               /* toggle for act_trigger */
 unsigned long pulse = 0;        /* number of pulses since game start */
 static bool fCopyOver;          /* Are we booting in copyover mode? */
 ush_int port;
-socket_t mother_desc = 0;
+socket_t mother_desc;
 
 /* functions in this file */
 static void msdp_update(void); 

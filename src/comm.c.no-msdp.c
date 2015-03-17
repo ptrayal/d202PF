@@ -75,6 +75,8 @@
 #include "telnet.h"
 #endif
 
+SVNHEADER("$Id: comm.c 62 2009-03-25 23:06:34Z gicker $");
+
 #ifndef INVALID_SOCKET
 #define INVALID_SOCKET (-1)
 #endif
@@ -125,10 +127,9 @@ int dg_act_check;               /* toggle for act_trigger */
 unsigned long pulse = 0;        /* number of pulses since game start */
 static bool fCopyOver;          /* Are we booting in copyover mode? */
 ush_int port;
-socket_t mother_desc = 0;
+socket_t mother_desc;
 
 /* functions in this file */
-static void msdp_update(void); 
 void do_usage_stats_mysql(void);
 RETSIGTYPE reread_wizlists(int sig);
 RETSIGTYPE unrestrict_game(int sig);
@@ -145,7 +146,7 @@ void init_game(ush_int port);
 void signal_setup(void);
 void game_loop(socket_t mother_desc);
 socket_t init_socket(ush_int port);
-static int new_descriptor(socket_t s);
+int new_descriptor(socket_t s);
 int get_max_players(void);
 int process_output(struct descriptor_data *t);
 int process_input(struct descriptor_data *t);
@@ -173,7 +174,6 @@ sigfunc *my_signal(int signo, sigfunc *func);
 void check_auto_shutdown(void);
 void check_auction(void);
 void shop_random_treasure(void);
-int compute_armor_class(struct char_data *ch, struct char_data *att);
 void reset_harvesting_rooms(void);
 void show_hints(void);
 void award_rp_exp(void);
@@ -204,10 +204,6 @@ char *which_desc(struct char_data *ch);
 int level_exp(int level, int race);
 int has_favored_enemy(struct char_data *ch, struct char_data *victim);
 void extract_linkless_characters(void);
-int get_dam_dice_size(struct char_data *ch, struct obj_data *wielded, int return_mode);
-int get_damage_mod(struct char_data *ch, struct obj_data *wielded);
-int get_innate_timer(struct char_data *ch, int spellnum);
-
 
 #ifdef HAVE_ZLIB_H
 /* zlib helper functions */
@@ -1095,10 +1091,6 @@ void heartbeat(int heart_pulse)
   if (!(heart_pulse % (PASSES_PER_SEC * 4))) {
     perform_violence();
   }
-  
-  if (!(heart_pulse % PASSES_PER_SEC)) {
-    msdp_update();
-  }
 
   if (!(heart_pulse % (PASSES_PER_SEC * 60))) {
 //    check_auto_shutdown();
@@ -1869,12 +1861,6 @@ size_t vwrite_to_output(struct descriptor_data *t, const char *format, va_list a
     return (0);
 
   wantsize = size = vsnprintf(txt, sizeof(txt), format, args);
-  
-  strcpy(txt, ProtocolOutput( t, txt, (int*)&wantsize )); 
-  size = wantsize;                   
-  if ( t->pProtocol->WriteOOB > 0 )   
-    --t->pProtocol->WriteOOB;         
-  
   if (t->character)
     wantsize = size = proc_colors(txt, sizeof(txt), COLOR_ON(t->character), COLOR_CHOICES(t->character));
   /* If exceeding the size of the buffer, truncate it for the overflow message */
@@ -2065,7 +2051,6 @@ void init_descriptor (struct descriptor_data *newd, int desc)
   if (++last_desc == 1000)
     last_desc = 1;
   newd->desc_num = last_desc;
-  newd->pProtocol = ProtocolCreate();
 
   CREATE(newd->comp, struct compr, 1);
   newd->comp->state = 0; /* we start in normal mode */
@@ -2088,91 +2073,7 @@ void set_color(struct descriptor_data *d)
   return;
 }
 
-static int new_descriptor(socket_t s)
-{
-  socket_t desc;
-  int sockets_connected = 0;
-  int greetsize;
-  socklen_t i;
-  struct descriptor_data *newd;
-  struct sockaddr_in peer;
-  struct hostent *from;
-  
-  /* accept the new connection */
-  i = sizeof(peer);
-  desc = accept(s, (struct sockaddr *) &peer, &i);
-  if (desc == INVALID_SOCKET) {
-    log("SYSERR: accept : INVALID SOCKET");
-    return (-1);
-  }
-
-  /* keep it from blocking */
-  nonblock(desc);
-
-  /* set the send buffer size */
-  if (set_sendbuf(desc) < 0) {
-    CLOSE_SOCKET(desc);
-    return (0);
-  }
-
-  /* make sure we have room for it */
-  for (newd = descriptor_list; newd; newd = newd->next)
-    sockets_connected++;
-
-  if (sockets_connected >= CONFIG_MAX_PLAYING) {
-    write_to_descriptor(desc, "Sorry, the game is full right now... please try again later!\r\n", NULL);
-    CLOSE_SOCKET(desc);
-    return (0);
-  }
-  /* create a new descriptor */
-  CREATE(newd, struct descriptor_data, 1);
-
-  /* find the sitename */
-  if (CONFIG_NS_IS_SLOW ||
-      !(from = gethostbyaddr((char *) &peer.sin_addr,
-		             sizeof(peer.sin_addr), AF_INET))) {
-
-    /* resolution failed */
-    if (!CONFIG_NS_IS_SLOW)
-      perror("SYSERR: gethostbyaddr");
-
-    /* find the numeric site address */
-    strncpy(newd->host, (char *)inet_ntoa(peer.sin_addr), HOST_LENGTH);	/* strncpy: OK (n->host:HOST_LENGTH+1) */
-    *(newd->host + HOST_LENGTH) = '\0';
-  } else {
-    strncpy(newd->host, from->h_name, HOST_LENGTH);	/* strncpy: OK (n->host:HOST_LENGTH+1) */
-    *(newd->host + HOST_LENGTH) = '\0';
-  }
-
-  /* determine if the site is banned */
-  if (isbanned(newd->host) == BAN_ALL) {
-    CLOSE_SOCKET(desc);
-    mudlog(CMP, ADMLVL_GOD, TRUE, "Connection attempt denied from [%s]", newd->host);
-    free(newd);
-    return (0);
-  }
-
-  /* initialize descriptor data */
-  init_descriptor(newd, desc);
-
-  /* prepend to list */
-  newd->next = descriptor_list;
-  descriptor_list = newd;
-
-//  if (CONFIG_PROTOCOL_NEGOTIATION) {
-//    /* Attach Event */ 
-//    NEW_EVENT(ePROTOCOLS, newd, NULL, 1.5 * PASSES_PER_SEC);
-//    /* KaVir's plugin*/
-//    write_to_output(newd, "Attempting to Detect Client, Please Wait...\r\n");
-//    ProtocolNegotiate(newd);
-//   } else {
-    greetsize = strlen(GREETINGS);
-    write_to_output(newd, "%s", ProtocolOutput(newd, GREETINGS, &greetsize));
-//  }
-  return (0);
-}
-
-int old_new_descriptor(socket_t s)
+int new_descriptor(socket_t s)
 {
   socket_t desc;
   int sockets_connected = 0;
@@ -2184,18 +2085,10 @@ int old_new_descriptor(socket_t s)
 
   /* accept the new connection */
   i = sizeof(peer);
-
-/* OLD CODE REPLACED BY GICKER MARCH 16, 2015
   if ((desc = accept(s, (struct sockaddr *) &peer, &i)) == INVALID_SOCKET) {
-*/
-
-  desc = accept(s, (struct sockaddr *) &peer, &i);
-
-  if (desc == INVALID_SOCKET) {
     log("SYSERR: accept: %s", strerror(errno));
     return (-1);
   }
-
   /* keep it from blocking */
   nonblock(desc);
 
@@ -2258,8 +2151,6 @@ int old_new_descriptor(socket_t s)
   /* prepend to list */
   newd->next = descriptor_list;
   descriptor_list = newd;
-  
-  ProtocolNegotiate(newd);
 
   set_color(newd);
   
@@ -2296,18 +2187,16 @@ int process_output(struct descriptor_data *t)
 
   /* add the extra CRLF if the person isn't in compact mode */
   if (STATE(t) == CON_PLAYING && t->character && !IS_NPC(t->character) && !PRF_FLAGGED(t->character, PRF_COMPACT)) 
-    if ( !t->pProtocol->WriteOOB ) 
-      strcat(osb, "\r\n");	/* strcpy: OK (osb:MAX_SOCK_BUF-2 reserves space) */
+    strcat(osb, "\r\n");	/* strcpy: OK (osb:MAX_SOCK_BUF-2 reserves space) */
 
   /* add a prompt */
-  if ( !t->pProtocol->WriteOOB ) 
-    strcat(i, make_prompt(t));    /* strcpy: OK (i:MAX_SOCK_BUF reserves space) */
+  strcat(i, make_prompt(t));    /* strcpy: OK (i:MAX_SOCK_BUF reserves space) */
 
   /*
    * now, send the output.  if this is an 'interruption', use the prepended
    * CRLF, otherwise send the straight output sans CRLF.
    */
-  if (t->has_prompt && !t->pProtocol->WriteOOB) {
+  if (t->has_prompt) {
     t->has_prompt = false;
     result = write_to_descriptor(t->descriptor, i, t->comp);
     if (result >= 2)
@@ -2661,9 +2550,6 @@ int process_input(struct descriptor_data *t)
   size_t space_left;
   char *ptr, *read_point, *write_point, *nl_pos = NULL;
   char tmp[MAX_INPUT_LENGTH];
-  
-  static char read_buf[MAX_PROTOCOL_BUFFER]; 
-  read_buf[0] = '\0'; 
 
 #ifdef HAVE_ZLIB_H
   const char compress_start[] =
@@ -2688,14 +2574,7 @@ int process_input(struct descriptor_data *t)
       return (-1);
     }
 
-    bytes_read = perform_socket_read(t->descriptor, read_buf, MAX_PROTOCOL_BUFFER);
-
-    if ( bytes_read >= 0 )
-    {
-      read_buf[bytes_read] = '\0';
-      ProtocolInput( t, read_buf, bytes_read, read_point );
-      bytes_read = strlen(read_point);
-    }
+    bytes_read = perform_socket_read(t->descriptor, read_point, space_left);
 
     if (bytes_read < 0)	/* Error, disconnect them. */
       return (-1);
@@ -2992,8 +2871,6 @@ void close_socket(struct descriptor_data *d)
     free(d->showstr_head);
   if (d->showstr_count)
     free(d->showstr_vector);
-	
-  ProtocolDestroy( d->pProtocol );
 
   /*. Kill any OLC stuff .*/
   switch (d->connected) {
@@ -3750,174 +3627,4 @@ int get_new_pref() {
   fclose(fp);
   return i;
 
-}
-
-static void msdp_update( void )
-{
-  struct descriptor_data *d;
-  int PlayerCount = 0;
-  struct char_data *tch = NULL;
-  int gcnt = 0;
-  char exits[200];
-
-  for (d = descriptor_list; d; d = d->next)
-  {
-    struct char_data *ch = d->character;
-    if ( ch && !IS_NPC(ch) && d->connected == CON_PLAYING )
-    {
-      struct char_data *pOpponent = FIGHTING(ch);
-      ++PlayerCount;
-
-      MSDPSetString( d, eMSDP_CHARACTER_NAME, GET_NAME(ch) );
-      MSDPSetNumber( d, eMSDP_ALIGNMENT, GET_ALIGNMENT(ch) );
-
-    float xp = 0;
-    float percent = 0;
-    int int_xp = 0;
-    int int_percent = 0;
-    struct char_data *ch = d->character;
-
-    xp = (((float) GET_EXP(ch)) - ((float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch)))) /
-                (((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)) -
-                (float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch))));
-
-    xp *= (float) 1000.0;
-    percent = (int) xp % 10;
-    xp /= (float) 10;
-    int_xp = MAX(0, (int) xp);
-    int_percent = MAX(0, MIN((int) percent, 99));
-
-      MSDPSetNumber( d, eMSDP_EXPERIENCE, int_xp);
-
-      MSDPSetNumber( d, eMSDP_HEALTH, GET_HIT(ch) );
-      MSDPSetNumber( d, eMSDP_HEALTH_MAX, GET_MAX_HIT(ch) );
-
-      MSDPSetNumber( d, eMSDP_LEVEL, GET_LEVEL(ch) );
-
-      MSDPSetString( d, eMSDP_CLASS, class_desc_str(ch, 1, 0));
-
-      MSDPSetNumber( d, eMSDP_CAMPAIGN, CONFIG_CAMPAIGN );
-      MSDPSetNumber( d, eMSDP_MANA, GET_MANA(ch) );
-      MSDPSetNumber( d, eMSDP_MANA_MAX, GET_MAX_MANA(ch) );
-      MSDPSetNumber( d, eMSDP_WIMPY, GET_WIMP_LEV(ch) );
-      MSDPSetNumber( d, eMSDP_MONEY, GET_GOLD(ch) );
-      MSDPSetNumber( d, eMSDP_BANK, GET_BANK_GOLD(ch) );
-      MSDPSetNumber( d, eMSDP_MOVEMENT, GET_MOVE(ch) );
-      MSDPSetNumber( d, eMSDP_MOVEMENT_MAX, GET_MAX_MOVE(ch) );
-      MSDPSetNumber( d, eMSDP_AC, compute_armor_class(ch, NULL) / 10 );
-      MSDPSetNumber( d, eMSDP_FORT, get_saving_throw_value(ch, SAVING_FORTITUDE)  );
-      MSDPSetNumber( d, eMSDP_WILL, get_saving_throw_value(ch, SAVING_WILL) );
-      MSDPSetNumber( d, eMSDP_STR, GET_STR(ch));
-      MSDPSetNumber( d, eMSDP_DEX, GET_DEX(ch));
-      MSDPSetNumber( d, eMSDP_CON, GET_CON(ch));
-      MSDPSetNumber( d, eMSDP_INT, GET_INT(ch));
-      MSDPSetNumber( d, eMSDP_WIS, GET_WIS(ch));
-      MSDPSetNumber( d, eMSDP_CHA, GET_CHA(ch));
-      MSDPSetNumber( d, eMSDP_STR_PERM, ability_mod_value(GET_STR(ch)));
-      MSDPSetNumber( d, eMSDP_DEX_PERM, ability_mod_value(GET_DEX(ch)));
-      MSDPSetNumber( d, eMSDP_CON_PERM, ability_mod_value(GET_CON(ch)));
-      MSDPSetNumber( d, eMSDP_INT_PERM, ability_mod_value(GET_INT(ch)));
-      MSDPSetNumber( d, eMSDP_WIS_PERM, ability_mod_value(GET_WIS(ch)));
-      MSDPSetNumber( d, eMSDP_CHA_PERM, ability_mod_value(GET_CHA(ch)));
-
-
-//      if (get_innate_timer(ch, SPELL_SKILL_HEAL_USED) > 0)
-        MSDPSetNumber( d, eMSDP_NOHEAL, get_innate_timer(ch, SPELL_SKILL_HEAL_USED));
-//      if (get_innate_timer(ch, SPELL_SKILL_CAMP_USED) > 0)
-        MSDPSetNumber( d, eMSDP_NOCAMP, get_innate_timer(ch, SPELL_SKILL_CAMP_USED));
-
-      MSDPSetString( d, eMSDP_HITROLL, get_attack_text(ch));
-      MSDPSetString( d, eMSDP_DAMROLL, get_weapon_dam(ch));
-
-//      MSDPSetString( d, eMSDP_ROOM_MAP, WorldMap(25, 4, 0, 1));
-
-      // Groups
-      gcnt = 0;
-      for (tch = character_list; tch; tch = tch->next) {
-        if (is_player_grouped(ch, tch)) {
-          gcnt++;
-          xp = (((float) GET_EXP(tch)) - ((float) level_exp(GET_CLASS_LEVEL(tch) , GET_REAL_RACE(tch)))) /
-                (((float) level_exp((GET_CLASS_LEVEL(tch) + 1) , GET_REAL_RACE(tch)) -
-                (float) level_exp(GET_CLASS_LEVEL(tch) , GET_REAL_RACE(tch))));
-
-          xp *= (float) 1000.0;
-          percent = (int) xp % 10;
-          xp /= (float) 10;
-          int_xp = MAX(0, (int) xp);
-          if (gcnt == 1) {
-            MSDPSetString( d, eMSDP_GROUP1_NAME, GET_NAME(tch));
-            MSDPSetNumber( d, eMSDP_GROUP1_CUR_HP, GET_HIT(tch));
-            MSDPSetNumber( d, eMSDP_GROUP1_MAX_HP, calculate_max_hit(tch));
-            MSDPSetNumber( d, eMSDP_GROUP1_CUR_MV, GET_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP1_MAX_MV, GET_MAX_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP1_TNL, int_xp);
-          }
-          if (gcnt == 2) {
-            MSDPSetString( d, eMSDP_GROUP2_NAME, GET_NAME(tch));
-            MSDPSetNumber( d, eMSDP_GROUP2_CUR_HP, GET_HIT(tch));
-            MSDPSetNumber( d, eMSDP_GROUP2_MAX_HP, calculate_max_hit(tch));
-            MSDPSetNumber( d, eMSDP_GROUP2_CUR_MV, GET_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP2_MAX_MV, GET_MAX_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP2_TNL, int_xp);
-          }
-          if (gcnt == 3) {
-            MSDPSetString( d, eMSDP_GROUP3_NAME, GET_NAME(tch));
-            MSDPSetNumber( d, eMSDP_GROUP3_CUR_HP, GET_HIT(tch));
-            MSDPSetNumber( d, eMSDP_GROUP3_MAX_HP, calculate_max_hit(tch));
-            MSDPSetNumber( d, eMSDP_GROUP3_CUR_MV, GET_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP3_MAX_MV, GET_MAX_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP3_TNL, int_xp);
-          }
-          if (gcnt == 4) {
-            MSDPSetString( d, eMSDP_GROUP4_NAME, GET_NAME(tch));
-            MSDPSetNumber( d, eMSDP_GROUP4_CUR_HP, GET_HIT(tch));
-            MSDPSetNumber( d, eMSDP_GROUP4_MAX_HP, calculate_max_hit(tch));
-            MSDPSetNumber( d, eMSDP_GROUP4_CUR_MV, GET_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP4_MAX_MV, GET_MAX_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP4_TNL, int_xp);
-          }
-          if (gcnt == 5) {
-            MSDPSetString( d, eMSDP_GROUP5_NAME, GET_NAME(tch));
-            MSDPSetNumber( d, eMSDP_GROUP5_CUR_HP, GET_HIT(tch));
-            MSDPSetNumber( d, eMSDP_GROUP5_MAX_HP, calculate_max_hit(tch));
-            MSDPSetNumber( d, eMSDP_GROUP5_CUR_MV, GET_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP5_MAX_MV, GET_MAX_MOVE(tch));
-            MSDPSetNumber( d, eMSDP_GROUP5_TNL, int_xp);
-          }
-        }
-      }
-
-      // Map exits
-      sprintf(exits, "%s%s%s%s%s%s%s%s",
-                     CAN_GO(ch, NORTH) ? "north" : "", CAN_GO(ch, NORTH) ? "O\002" : "",
-                     CAN_GO(ch, EAST)  ? "east"  : "", CAN_GO(ch, EAST)  ? "O\002" : "",
-                     CAN_GO(ch, WEST)  ? "west"  : "", CAN_GO(ch, WEST)  ? "O\002" : "",
-                     CAN_GO(ch, SOUTH) ? "south" : "", CAN_GO(ch, SOUTH) ? "O\002" : "");
-      MSDPSetString( d, eMSDP_ROOM_EXITS, exits);
-
-      /* This would be better moved elsewhere */
-      if ( pOpponent != NULL )
-      {
-          int hit_points = (GET_HIT(pOpponent) * 100) / GET_MAX_HIT(pOpponent);
-          MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, hit_points );
-          MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH_MAX, 100 );
-          MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, GET_LEVEL(pOpponent) );
-          MSDPSetString( d, eMSDP_OPPONENT_NAME, PERS(pOpponent, ch) );
-      }
-      else /* Clear the values */
-      {
-          MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, 0 );
-          MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, 0 ); 
-          MSDPSetString( d, eMSDP_OPPONENT_NAME, "" ); 
-      }
-
-      MSDPUpdate( d );
-    }
-
-    /* Ideally this should be called once at startup, and again whenever
-     * someone leaves or joins the mud.  But this works, and it keeps the
-     * snippet simple.  Optimise as you see fit.
-     */
-    MSSPSetPlayers( PlayerCount );
-  }
 }
