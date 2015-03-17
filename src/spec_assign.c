@@ -180,6 +180,7 @@ switch (CONFIG_CAMPAIGN) {
     ASSIGNROOM(30004, set_descs);  
     ASSIGNROOM(30015, read_rules);  
     ASSIGNROOM(30034, buy_items);  
+    ASSIGNROOM(30022, library_small); // Character Generation
   break;
 
   case CAMPAIGN_DRAGONLANCE:
