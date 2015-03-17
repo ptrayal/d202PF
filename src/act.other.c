@@ -1261,10 +1261,11 @@ ACMD(do_display)
 ACMD(do_gen_write)
 {
   FILE *fl;
-  char *tmp;
   const char *filename;
   struct stat fbuf;
-  time_t ct;
+  time_t rawtime;
+  struct tm *info;
+  char buffer[80];
 
   switch (subcmd) {
   case SCMD_BUG:
@@ -1284,8 +1285,11 @@ ACMD(do_gen_write)
     return;
   }
 
-  ct = time(0);
-  tmp = asctime(localtime(&ct));
+  time(&rawtime);
+  info = localtime( &rawtime);
+  // tmp = asctime(localtime(&ct));
+  strftime(buffer, 80, "%b-%d-%Y", info);
+  // strftime(tmp, sizeof tmp, "b-d-Y", localtime(&ct));
 
   if (IS_NPC(ch)) {
     send_to_char(ch, "Monsters can't have ideas - Go away.\r\n");
@@ -1326,9 +1330,9 @@ ACMD(do_gen_write)
     return;
   }
   if (subcmd == SCMD_NEWS)
-    fprintf(fl, "@W%-8s@n @Y(%6.6s)@n %s\n", GET_NAME(ch), (tmp + 4), argument);
+    fprintf(fl, "@W%-8s@n @Y(%11s)@n %s\n", GET_NAME(ch), (buffer), argument);
   else
-    fprintf(fl, "%-8s (%6.6s) [%5d] %s\n", GET_NAME(ch), (tmp + 4),
+    fprintf(fl, "%-8s (%11s) [%5d] %s\n", GET_NAME(ch), (buffer),
 	  GET_ROOM_VNUM(IN_ROOM(ch)), argument);
   if (subcmd == SCMD_NEWS) {
     struct char_data *tch;
