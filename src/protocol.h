@@ -9,7 +9,7 @@
  Set your MUD_NAME, and change descriptor_t if necessary.
  ******************************************************************************/
 
-#define MUD_NAME "d20MUD: Star Wars"
+#define MUD_NAME "PFmud"
 
 typedef struct descriptor_data descriptor_t;
 

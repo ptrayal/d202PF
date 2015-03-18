@@ -3282,10 +3282,10 @@ ACMD(do_devote)
             return;
           }
 
-          send_to_char(ch, "%s\r\n~~~~~~~~~~~~~~~~\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? "Deities of Faerun" : "Deities of Krynn");
-          send_to_char(ch, "%-25s %-5s %-15s %-50s\r\n%25s %s\r\n"
-                           "------------------------- ----- --------------- --------------------------------------------------\r\n",
-                           "DEITY NAME", "ALIGN", "WEAPON", "DOMAINS", " ", "PORTFOLIO");
+          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? "Faerun" : "Krynn");
+          send_to_char(ch, "%-20s %-5s %-15s %-40s\r\n%25s\r\n %s\r\n"
+                           "%s\r\n",
+                           "DEITY NAME", "ALIGN", "WEAPON", "DOMAINS", " ", "PORTFOLIO","--------------------------------------------------------------------------------");
 
           for (i = 0; i < NUM_DEITIES; i++) {
             if ((!strcmp(arg2, "good") && deity_list[i].alignment < 500) || 
@@ -3380,7 +3380,7 @@ ACMD(do_devote)
           }
         }
 
-        send_to_char(ch, "That deity does not exist in Dragonlance (or is not yet implemented)\r\n");
+        send_to_char(ch, "That deity does not exist in this world. (or is not yet implemented)\r\n");
         return;
 
 }
