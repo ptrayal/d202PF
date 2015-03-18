@@ -1,5 +1,0 @@
-rm /home/d20mud/dl_live/bin/circle
-cp ../bin/circle /home/d20mud/dl_live/bin
-chmod 775 /home/d20mud/dl_live/bin/circle
-chown d20mud:d20mud /home/d20mud/dl_live/bin/circle
-echo Binary successfully copied to dragonlance d20 production port.
