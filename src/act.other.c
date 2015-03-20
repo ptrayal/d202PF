@@ -3292,7 +3292,8 @@ ACMD(do_devote)
                 (!strcmp(arg2, "chaotic") && deity_list[i].ethos > -500))
               continue;
 
-            if (deity_list[i].pantheon == ((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) ? DEITY_PANTHEON_FAERUNIAN : DEITY_PANTHEON_DL_PRE_CAT)) {
+            if (deity_list[i].pantheon == ((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) ? DEITY_PANTHEON_FAERUNIAN : DEITY_PANTHEON_DL_PRE_CAT)) 
+            {
               send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
                            weapon_list[deity_list[i].favored_weapon].name);
               sprintf(buf2, "@n");

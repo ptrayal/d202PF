@@ -4208,10 +4208,10 @@ ACMD(do_whois)
   const char *immlevels[ADMLVL_OWNER + 1] = {
   "[Mortal]",          /* lowest admin level */
   "[Immortal]",        /* lowest admin level +1 */
-  "[Creator]",         /* lowest admin level +2 */
+  "[Builder]",         /* lowest admin level +2 */
   "[God]",             /* lowest admin level +3 */
   "[Greater God]",     /* lowest admin level +4 */
-  "[Implementor]",     /* lowest admin level +5 */
+  "[Co-Owner]",     /* lowest admin level +5 */
   };
 
   struct char_data *victim = 0;
