@@ -3342,7 +3342,7 @@ ACMD(do_devote)
               continue;
 
             if (deity_list[i].pantheon == ((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) ? DEITY_PANTHEON_FAERUNIAN : DEITY_PANTHEON_DL_PRE_CAT)) {
-              sprintf(buf, "%s@Y%s@n (%s)\r\nFavored Weapon: %s\r\n", buf, deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
+              send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
                            weapon_list[deity_list[i].favored_weapon].name);
               sprintf(buf2, "@n");
               sprintf(buf2, "Domains: ");
@@ -3353,12 +3353,12 @@ ACMD(do_devote)
                     sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                 }
               }
-              sprintf(buf, "%s%-50s", buf, buf2);
-              sprintf(buf, "%s\r\nPortfolio: %s\r\n", buf, deity_list[i].portfolio);
+              send_to_char(ch, "%-50s", buf2);
+              send_to_char(ch, "\r\nPortfolio: %s\r\n", deity_list[i].portfolio);
               send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
             }
           }
-          send_to_char(ch, "%s", buf);
+          // send_to_char(ch, "%s", buf);
           return;
         }
 
