@@ -1299,7 +1299,7 @@ ACMD(do_shutdown)
     circle_shutdown = 1;
   } else if (!str_cmp(arg, "reboot")) {
     log("(GC) Reboot by %s.", GET_NAME(ch));
-    send_to_all("Rebooting.. come back in a minute or two.\r\n");
+    send_to_all("Rebooting. Please come back in a minute or two.\r\n");
     touch(FASTBOOT_FILE);
     circle_shutdown = circle_reboot = 1;
   } else if (!str_cmp(arg, "die")) {
@@ -1309,7 +1309,7 @@ ACMD(do_shutdown)
     circle_shutdown = 1;
   } else if (!str_cmp(arg, "now")) {
     log("(GC) Shutdown NOW by %s.", GET_NAME(ch));
-    send_to_all("Rebooting.. come back in a minute or two.\r\n");
+    send_to_all("Rebooting. Please come back in a minute or two.\r\n");
     circle_shutdown = 1;
     circle_reboot = 2; /* do not autosave olc */
   } else if (!str_cmp(arg, "pause")) {

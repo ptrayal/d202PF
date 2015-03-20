@@ -3283,9 +3283,6 @@ ACMD(do_devote)
           }
 
           send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? "Faerun" : "Krynn");
-          send_to_char(ch, "%-25s %-5s %-15s %-50s\r\n%25s %s\r\n"
-                           "------------------------- ----- --------------- --------------------------------------------------\r\n",
-                           "DEITY NAME", "ALIGN", "WEAPON", "DOMAINS", " ", "PORTFOLIO");
 
           for (i = 0; i < NUM_DEITIES; i++) {
             if ((!strcmp(arg2, "good") && deity_list[i].alignment < 500) || 
@@ -3331,10 +3328,7 @@ ACMD(do_devote)
             return;
           }
 
-          sprintf(buf, "%s\r\n~~~~~~~~~~~~~~~~\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? "Deities of Faerun" : "Deities of Krynn");
-          sprintf(buf, "%s%-25s %-5s %-15s %-50s\r\n%25s %s\r\n"
-                           "------------------------- ----- --------------- --------------------------------------------------\r\n",
-                           buf, "DEITY NAME", "ALIGN", "WEAPON", "DOMAINS", " ", "PORTFOLIO");
+          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? "Faerun" : "Krynn");
 
           for (i = 0; i < NUM_DEITIES; i++) {
               if ((!strcmp(arg2, "name") && !strstr(deity_list[i].name, CAP(arg3))) ||
@@ -3348,18 +3342,20 @@ ACMD(do_devote)
               continue;
 
             if (deity_list[i].pantheon == ((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) ? DEITY_PANTHEON_FAERUNIAN : DEITY_PANTHEON_DL_PRE_CAT)) {
-              sprintf(buf, "%s%s (%s)\r\nFavored Weapon: %14s\r\n", buf, deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
+              sprintf(buf, "%s@Y%s@n (%s)\r\nFavored Weapon: %s\r\n", buf, deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
                            weapon_list[deity_list[i].favored_weapon].name);
               sprintf(buf2, "@n");
+              sprintf(buf2, "Domains: ");
               for (j = 0; j < 6; j++) {
                 if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) {
                   if (j > 0)
                     sprintf(buf2, "%s, ", buf2);
-                    sprintf(buf2, "%s%s%s", buf2, "Domains: ", domain_names[deity_list[i].domains[j]]);
+                    sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                 }
               }
               sprintf(buf, "%s%-50s", buf, buf2);
-              sprintf(buf, "%s\r\n%-25s %s\r\n", buf, " ", deity_list[i].portfolio);
+              sprintf(buf, "%s\r\nPortfolio: %s\r\n", buf, deity_list[i].portfolio);
+              send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
             }
           }
           send_to_char(ch, "%s", buf);
