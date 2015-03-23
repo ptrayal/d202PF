@@ -31,6 +31,7 @@ SVNHEADER("$Id: act.informative.c 62 2009-03-25 23:06:34Z gicker $");
 #include "boards.h"
 #include "deities.h"
 #include "clan.h"
+#include "protocol.h"
 
 #include "version.h"
 
@@ -3401,10 +3402,13 @@ ACMD(do_gen_ps)
         show_patches = true;
       else
       show_patches = false;
-    send_to_char(ch, "%s\r\n", circlemud_version);
-    send_to_char(ch, "%s\r\n", oasisolc_version);
-    send_to_char(ch, "%s\r\n", DG_SCRIPT_VERSION);
-    send_to_char(ch, "%s\r\n", CWG_VERSION);
+    send_to_char(ch, "We are currently using these versions:\r\n");
+    send_to_char(ch, "\t[U10148/*] %s\r\n", circlemud_version);
+    send_to_char(ch, "\t[U10148/*] %s\r\n", oasisolc_version);
+    send_to_char(ch, "\t[U10148/*] %s\r\n", DG_SCRIPT_VERSION);
+    send_to_char(ch, "\t[U10148/*] %s\r\n", CWG_VERSION);
+    send_to_char(ch, "\t[U10148/*] %s\r\n", ascii_pfiles_version);
+    send_to_char(ch, "\t[U10148/*] KaVir's Protocol Snippet Version %d\r\n", SNIPPET_VERSION);
     if (show_patches == true) {
       send_to_char(ch, "The following patches have been installed:\r\n");
       for (patch_num = 0; **(patch_list + patch_num) != '\n'; patch_num++)

@@ -22,13 +22,10 @@ cpp_extern const char *oasisolc_version =
 	"OasisOLC 2.0.6";
 
 cpp_extern const char *ascii_pfiles_version =
-        "ASCII Player Files 3.0.1";
+  "ASCII Player Files 3.0.1";
 
 const char *patch_list[] =
 {
-  "Oasis OLC                            version 2.0.6  (2003/07/28)",
-  "DG Scripts                           version 1.0.14  (2007/03/29)",
-  "ASCII Player Files                   version 3.0.1  (2004/06/10)",
   "Races Support                        version 3.1",
   "Xapobjs                              version 1.2",
   "EZColor                              version 2.2",
