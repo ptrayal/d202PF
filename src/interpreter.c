@@ -96,8 +96,6 @@ char *current_short_desc(struct char_data *ch);
 void short_desc_descriptors_menu(struct char_data *ch);
 void short_desc_adjectives_menu(struct char_data *ch, int which_type);
 int count_adjective_types(int which_desc);
-void echo_on(struct descriptor_data *d);
-void echo_off(struct descriptor_data *d);
 void do_start(struct char_data *ch);
 int parse_class(struct char_data *ch, char arg);
 int parse_race(struct char_data *ch, char *arg);
@@ -2584,10 +2582,10 @@ void nanny(struct descriptor_data *d, char *arg)
 	    write_to_output(d, "@RInvalid account name, please try another@W.@n\r\n@YName@W:@n ");
 	}
         write_to_output(d, "@YPassword@W:@n ");
-        echo_off(d);
+        ProtocolNoEcho( d, true );
         d->idle_tics = 0;
         STATE(d) = CON_PASSWORD;
-        echo_off(d);
+        ProtocolNoEcho( d, true );
       }
       else {
 	if (!Valid_Name(tmp_name)) {
@@ -2631,7 +2629,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
 
   case CON_ACCOUNT_MENU:
-    echo_on(d);
+    ProtocolNoEcho( d, false );
 
     d->character = NULL;
 
@@ -2822,7 +2820,7 @@ void nanny(struct descriptor_data *d, char *arg)
      * re-add the code to cut off duplicates when a player quits.  JE 6 Feb 96
      */
 
-    echo_on(d);    /* turn echo back on */
+    ProtocolNoEcho( d, false );    /* turn echo back on */
 
     /* New echo_on() eats the return on telnet. Extra space better than none. */
     write_to_output(d, "\r\n");
@@ -2837,7 +2835,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	  STATE(d) = CON_CLOSE;
 	} else {
 	  write_to_output(d, "Wrong password.\r\nPassword: ");
-	  echo_off(d);
+	  ProtocolNoEcho( d, true );
 	}
 	return;
       }
@@ -2886,7 +2884,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	STATE(d) = CON_CHPWD_GETNEW;
       return;
     }
-    echo_on(d);
+    ProtocolNoEcho( d, false );
 
     if (STATE(d) == CON_CNFPASSWD) {
       show_account_menu(d);
@@ -4329,7 +4327,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
     case '4':
       write_to_output(d, "\r\nEnter your old password: ");
-      echo_off(d);
+      ProtocolNoEcho( d, true );
       STATE(d) = CON_CHPWD_GETOLD;
       break;
 
@@ -4347,7 +4345,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
   case CON_CHPWD_GETOLD:
     if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character), MAX_PWD_LENGTH)) {
-      echo_on(d);
+      ProtocolNoEcho( d, false );
       write_to_output(d, "\r\nIncorrect password.\r\n%s", CONFIG_MENU);
       STATE(d) = CON_MENU;
     } else {
@@ -4357,7 +4355,7 @@ void nanny(struct descriptor_data *d, char *arg)
     return;
 
   case CON_DELCNF1:
-    echo_on(d);
+    ProtocolNoEcho( d, false );
     if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character), MAX_PWD_LENGTH)) {
       write_to_output(d, "\r\nIncorrect password.\r\n%s", CONFIG_MENU);
       STATE(d) = CON_MENU;

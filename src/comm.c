@@ -137,8 +137,6 @@ RETSIGTYPE checkpointing(int sig);
 RETSIGTYPE hupsig(int sig);
 ssize_t perform_socket_read(socket_t desc, char *read_point, size_t space_left);
 ssize_t perform_socket_write(socket_t desc, const char *txt, size_t length, struct compr *comp);
-void echo_off(struct descriptor_data *d);
-void echo_on(struct descriptor_data *d);
 void circle_sleep(struct timeval *timeout);
 int get_from_q(struct txt_q *queue, char *dest, int *aliased);
 void init_game(ush_int port);
@@ -1236,40 +1234,6 @@ void record_usage(void)
 }
 
 
-
-/*
- * Turn off echoing (specific to telnet client)
- */
-void echo_off(struct descriptor_data *d)
-{
-  char off_string[] =
-  {
-    (char) IAC,
-    (char) WILL,
-    (char) TELOPT_ECHO,
-    (char) 0,
-  };
-
-  write_to_output(d, "%s", off_string);
-}
-
-
-/*
- * Turn on echoing (specific to telnet client)
- */
-void echo_on(struct descriptor_data *d)
-{
-  char on_string[] =
-  {
-    (char) IAC,
-    (char) WONT,
-    (char) TELOPT_ECHO,
-    (char) 0
-  };
-
-  write_to_output(d, "%s", on_string);
-}
-
 char *make_prompt(struct descriptor_data *d)
 {
   static char prompt[MAX_PROMPT_LENGTH -1];
@@ -2158,6 +2122,7 @@ static int new_descriptor(socket_t s)
   /* prepend to list */
   newd->next = descriptor_list;
   descriptor_list = newd;
+  ProtocolNegotiate(newd);
 
 //  if (CONFIG_PROTOCOL_NEGOTIATION) {
 //    /* Attach Event */ 
@@ -3050,7 +3015,7 @@ void check_idle_passwords(void)
       d->idle_tics++;
       continue;
     } else {
-      echo_on(d);
+      ProtocolNoEcho( d, false );
       write_to_output(d, "\r\nTimed out... goodbye.\r\n");
       STATE(d) = CON_CLOSE;
     }
