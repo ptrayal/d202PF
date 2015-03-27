@@ -55,7 +55,7 @@ typedef struct descriptor_data descriptor_t;
  Symbolic constants.
  ******************************************************************************/
 
-#define SNIPPET_VERSION                6 /* Helpful for debugging */
+#define SNIPPET_VERSION                8 /* Helpful for debugging */
 
 #define MAX_PROTOCOL_BUFFER            2048
 #define MAX_VARIABLE_LENGTH            4096
