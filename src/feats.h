@@ -242,7 +242,7 @@ extern struct feat_info feat_list[];
 #define FEAT_IMPROVED_SHIELD_BASH   230
 #define FEAT_IMPROVED_SUNDER      231
 #define FEAT_IMPROVED_TURNING     232
-#define FEAT_INVESTIGATOR     233
+// #define FEAT_INVESTIGATOR     233
 #define FEAT_MAGICAL_APTITUDE     234
 #define FEAT_MANYSHOT       235
 #define FEAT_NATURAL_SPELL      236

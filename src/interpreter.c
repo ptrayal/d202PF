@@ -5012,12 +5012,6 @@ void process_add_feat(struct char_data *ch, int feat_num)
     SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
     SET_SKILL_BONUS(ch, SKILL_USE_ROPE, GET_SKILL_BONUS(ch, SKILL_USE_ROPE) + 2);
     break;
-  case FEAT_INVESTIGATOR:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_GATHER_INFORMATION, GET_SKILL_BONUS(ch, SKILL_GATHER_INFORMATION) + 2);
-    SET_SKILL_BONUS(ch, SKILL_SEARCH, GET_SKILL_BONUS(ch, SKILL_SEARCH) + 2);
-    break;
   case FEAT_MAGICAL_APTITUDE:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);

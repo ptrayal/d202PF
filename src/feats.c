@@ -230,7 +230,6 @@ feato(FEAT_IMPROVED_PRECISE_SHOT, "improved precise shot", TRUE, FALSE, FALSE, "
 feato(FEAT_IMPROVED_SHIELD_BASH, "improved shield bash", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_SUNDER, "improved sunder", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_TURNING, "improved turning", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_INVESTIGATOR, "investigator", TRUE, TRUE, FALSE, "none", "+2 to gather information and search checks");
 feato(FEAT_MAGICAL_APTITUDE, "magical aptitude", TRUE, TRUE, FALSE, "none", "+2 to spellcraft and use magical device skill checks");
 feato(FEAT_MANYSHOT, "manyshot", TRUE, FALSE, FALSE, "ranger level 6", "extra ranged attack when rapid shot turned on");
 feato(FEAT_NATURAL_SPELL, "natural spell", TRUE, TRUE, FALSE, "wis 13+, ability to wild shape", "allows casting of spells while wild shaped.");
