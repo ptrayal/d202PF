@@ -1270,12 +1270,6 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
     SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
     SET_SKILL_BONUS(ch, SKILL_USE_ROPE, GET_SKILL_BONUS(ch, SKILL_USE_ROPE) + 2);
     break;
-  case FEAT_DILIGENT:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_APPRAISE, GET_SKILL_BONUS(ch, SKILL_APPRAISE) + 2);
-    SET_SKILL_BONUS(ch, SKILL_DECIPHER_SCRIPT, GET_SKILL_BONUS(ch, SKILL_DECIPHER_SCRIPT) + 2);
-    break;
   case FEAT_INVESTIGATOR:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);

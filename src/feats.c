@@ -214,7 +214,6 @@ feato(FEAT_COMBAT_EXPERTISE, "combat expertise", TRUE, TRUE, FALSE, "int 13", "m
 feato(FEAT_DECEITFUL, "deceitful", TRUE, TRUE, FALSE, "none", "+2 to disguise and forgery skill checks");
 feato(FEAT_DEFT_HANDS, "deft hands", TRUE, TRUE, FALSE, "none", "+2 to sleight of hand and use rope skill checks");
 feato(FEAT_DIEHARD, "diehard", TRUE, TRUE, FALSE, "endurance", "will stay alive and conscious until -10 hp or lower");
-feato(FEAT_DILIGENT, "diligent", TRUE, TRUE, FALSE, "none", "+2 bonus to appraise and decipher script skill checks");
 feato(FEAT_ESCHEW_MATERIALS, "eschew materials", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_EXOTIC_WEAPON_PROFICIENCY, "exotic weapon proficiency", TRUE, TRUE, TRUE, "base attack bonus +1", "can use exotic weapon of type chosen without penalties");
 feato(FEAT_GREATER_SPELL_FOCUS, "greater spell focus", FALSE, FALSE, TRUE, "ask staff", "ask staff");

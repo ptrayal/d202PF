@@ -217,6 +217,7 @@ extern struct feat_info feat_list[];
 #define FEAT_EVASION        205
 #define FEAT_IMPROVED_EVASION     206
 #define FEAT_ACROBATIC        207
+// #define FEAT_AGILE                208
 #define FEAT_ANIMAL_AFFINITY      209
 #define FEAT_ATHLETIC       210
 #define FEAT_AUGMENT_SUMMONING      211
@@ -224,7 +225,7 @@ extern struct feat_info feat_list[];
 #define FEAT_DECEITFUL        213
 #define FEAT_DEFT_HANDS       214
 #define FEAT_DIEHARD        215
-#define FEAT_DILIGENT       216
+// #define FEAT_DILIGENT       216
 #define FEAT_ESCHEW_MATERIALS     217
 #define FEAT_EXOTIC_WEAPON_PROFICIENCY    218
 #define FEAT_GREATER_SPELL_FOCUS    219
