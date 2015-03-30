@@ -6152,45 +6152,5 @@ SPECIAL(repair_mob)
 SPECIAL(license_mob)
 {
   return 0;
-/*
 
-  if (!CMD_IS("license") && !CMD_IS("bind")) {
-    return 0;
-  }
-
-  struct char_data *mob = (struct char_data *) me;
-
-  if (!mob)
-    return 0;
-
-  struct obj_data *obj;
-
-  skip_spaces(&argument);
-
-  if (!*argument) {
-    send_to_char(ch, "What do you want to %s?\r\n", CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS ? "license" : "bind");
-    return 1;
-  }
-
-  if (!(obj = get_obj_in_list_vis(ch, argument, NULL, ch->carrying))) {
-    send_to_char(ch, "There is nothing in your inventory by the name of %s.\r\n", argument);
-    return 1;
-  }
-  
-  int cost = get_license_fee(obj, ch) * 4;
-
-  if (GET_GOLD(ch) < cost) {
-    send_to_char(ch, "You don't have enough %s.  You need %d and have %d.\r\n", CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS ? "credits" : "gold", cost, GET_GOLD(ch));
-    return 1;
-  }
-
-  GET_GOLD(ch) -= cost;
-
-  GET_OBJ_VAL(obj, 13) = GET_IDNUM(ch);
-  SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
-
-  send_to_char(ch, "It cost you %d %s to have %s %s.\r\n", cost, CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS ? "credits" : "gold", obj->short_description, CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS ? "license" : "bound");
-
-  return 1;
-*/
 }
