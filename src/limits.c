@@ -1287,10 +1287,9 @@ void point_update(void)
     if (GET_HIT(i) >= GET_MAX_HIT(i))
       GET_FIGHTING_MAX_LVL(i) = 0;	
 
-    if ((IS_ELF(i) || (IS_DWARF(i) && GET_RACE(i) != RACE_AGHAR_DWARF) || 
-            IS_ORC(i) || IS_HALF_ORC(i) || IS_HALF_ELF(i) || IS_DEEP_GNOME(i) || 
-            IS_CENTAUR(i) || IS_DRACONIAN(i) || IS_IRDA(i) || IS_OGRE(i)) &&
-            !IS_AFFECTED(i, AFF_INFRAVISION)) {
+    if ((IS_ELF(i) || IS_ORC(i) || IS_HALF_ORC(i) || IS_HALF_ELF(i) || IS_DEEP_GNOME(i) || 
+            IS_CENTAUR(i) || IS_OGRE(i)) && !IS_AFFECTED(i, AFF_INFRAVISION)) 
+    {
       SET_BIT_AR(AFF_FLAGS(i), AFF_INFRAVISION);
     }
 

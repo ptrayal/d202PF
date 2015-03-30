@@ -2129,7 +2129,6 @@ void add_innate_affects(struct char_data *ch)
   }
 #else
   switch(GET_RACE(ch)) {  
-  case RACE_QUALINESTI_ELF:
   case RACE_HILL_DWARF:
   case RACE_MOUNTAIN_DWARF:
   case RACE_GNOME:

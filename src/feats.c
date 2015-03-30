@@ -1343,13 +1343,6 @@ int is_proficient_with_weapon(const struct char_data *ch, int weapon_type)
     }
   }
 
-  if (GET_RACE(ch) == RACE_BAAZ_DRACONIAN && weapon_type == WEAPON_TYPE_LONG_SWORD)
-    return TRUE;
-
-  if (GET_RACE(ch) == RACE_KAPAK_DRACONIAN && (weapon_type == WEAPON_TYPE_SHORT_SWORD ||
-      weapon_type == WEAPON_TYPE_SHORT_BOW))
-    return TRUE;
-
   if (GET_RACE(ch) == RACE_OGRE && weapon_type == WEAPON_TYPE_GREAT_CLUB)
     return TRUE;
 

@@ -370,10 +370,6 @@ int compute_armor_class(struct char_data *ch, struct char_data *att)
       case RACE_CENTAUR:
         armorclass += 30;
         break;
-      case RACE_BAAZ_DRACONIAN:
-      case RACE_KAPAK_DRACONIAN:
-        armorclass += 20;
-        break;
       case RACE_HALF_OGRE:
         armorclass += 40;
         break;
@@ -2898,79 +2894,85 @@ int bare_hand_damage(struct char_data *ch, int code)
 
   lvl = GET_CLASS_RANKS(ch, CLASS_MONK) + GET_CLASS_RANKS(ch, CLASS_SACRED_FIST);    
 
-  if (IS_NPC(ch)) {
+  if (IS_NPC(ch)) 
+  {
     lvl = MAX(1, GET_LEVEL(ch) - 3);
   }
 
   if (!lvl) {
+
     num = 1;
     size = 3;
-  } else {
+  } 
+  else {
     num = 1;
-    switch (lvl) {
-    case 0:
-    case 1:
-    case 2:
-    case 3:
+    switch (lvl) 
+    {
+      case 0:
+      case 1:
+      case 2:
+      case 3:
       size = 6;
       break;
-    case 4:
-    case 5:
-    case 6:
-    case 7:
+      case 4:
+      case 5:
+      case 6:
+      case 7:
       size = 8;
       break;
-    case 8:
-    case 9:
-    case 10:
-    case 11:
+      case 8:
+      case 9:
+      case 10:
+      case 11:
       size = 10;
       break;
-    case 12:
-    case 13:
-    case 14:
-    case 15:
+      case 12:
+      case 13:
+      case 14:
+      case 15:
       size = 6;
       num = 2;
       break;
-    case 16:
-    case 17:
-    case 18:
-    case 19:
+      case 16:
+      case 17:
+      case 18:
+      case 19:
       size = 8;
       num = 2;
       break;
-    default:
+      default:
       size = 10;
       num = 2;
       break;
     }
   }
 
-  if (!lvl && (HAS_FEAT(ch, FEAT_CLAWS_AND_BITE) || GET_RACE(ch) == RACE_BAAZ_DRACONIAN || GET_RACE(ch) == RACE_KAPAK_DRACONIAN)) {
-    num = 1;
-    size = 6;
-  }
+if (!lvl && HAS_FEAT(ch, FEAT_CLAWS_AND_BITE))
+{
+  num = 1;
+  size = 6;
+}
 
-  if (scale) {
-    sz = get_size(ch);
-    if (HAS_FEAT(ch, FEAT_IMPROVED_NATURAL_WEAPON))
-      sz++;
-    if (sz < SIZE_MEDIUM)
-      for (lvl = sz; lvl < SIZE_MEDIUM; lvl++)
-        scaledown_dam(&num, &size);
+if (scale) 
+{
+  sz = get_size(ch);
+  if (HAS_FEAT(ch, FEAT_IMPROVED_NATURAL_WEAPON))
+    sz++;
+  if (sz < SIZE_MEDIUM)
+    for (lvl = sz; lvl < SIZE_MEDIUM; lvl++)
+      scaledown_dam(&num, &size);
     else if (sz > SIZE_MEDIUM)
       for (lvl = sz; lvl > SIZE_MEDIUM; lvl--)
         scaleup_dam(&num, &size);
-  }
+    }
 
-  if (code == 0)
-    return dice(num, size);
-  else if (code == 1)
-    return num;
-  else
-    return size;
-}
+    if (code == 0)
+      return dice(num, size);
+    else if (code == 1)
+      return num;
+    else
+      return size;
+  }
 
 
 int crit_range_extension(struct char_data *ch, struct obj_data *weap)
@@ -3363,8 +3365,7 @@ ch->att_roll = (diceroll + calc_base_hit) / 10;
       }
     }
 	
-    if (w_type == TYPE_BITE && (GET_RACE(ch) == RACE_BAAZ_DRACONIAN ||
-	GET_RACE(ch) == RACE_KAPAK_DRACONIAN || HAS_FEAT(ch, FEAT_CLAWS_AND_BITE)))
+    if (w_type == TYPE_BITE && (HAS_FEAT(ch, FEAT_CLAWS_AND_BITE)))
 	  strmod /= 2;
 	  
     if (w_type == TYPE_GORE && GET_RACE(ch) == RACE_MINOTAUR)
@@ -3445,12 +3446,10 @@ ch->att_roll = (diceroll + calc_base_hit) / 10;
           diesize = 1;
       }
       else {
-        if ((w_type == TYPE_BITE && (GET_RACE(ch) == RACE_BAAZ_DRACONIAN ||
-          GET_RACE(ch) == RACE_KAPAK_DRACONIAN || HAS_FEAT(ch, FEAT_CLAWS_AND_BITE))) ||
+        if ((w_type == TYPE_BITE && (HAS_FEAT(ch, FEAT_CLAWS_AND_BITE))) ||
           (w_type == TYPE_GORE && GET_RACE(ch) == RACE_MINOTAUR) ||
           (w_type == TYPE_BATTER && GET_RACE(ch) == RACE_CENTAUR)) {
-          if (w_type == TYPE_BITE && (GET_RACE(ch) == RACE_BAAZ_DRACONIAN ||
-            GET_RACE(ch) == RACE_KAPAK_DRACONIAN || HAS_FEAT(ch, FEAT_CLAWS_AND_BITE))) {
+          if (w_type == TYPE_BITE && (HAS_FEAT(ch, FEAT_CLAWS_AND_BITE))) {
             ndice = 1;
             diesize = 6;
           }
@@ -3780,36 +3779,6 @@ ch->att_roll = (diceroll + calc_base_hit) / 10;
                    GET_CLASS_RANKS(ch, CLASS_MONK) >= 4);
 
 
-    if (GET_RACE(ch) == RACE_KAPAK_DRACONIAN && w_type == TYPE_BITE) {
-      if (!mag_newsaves(SAVING_FORTITUDE, ch, victim, SPELL_POISON, 11 + ability_mod_value(GET_CON(ch))) &&
-          !affected_by_spell(victim, SPELL_DELAY_POISON) && !HAS_FEAT(victim, FEAT_ESSENCE_OF_UNDEATH) &&
-          !HAS_FEAT(victim, FEAT_DIAMOND_BODY)) {
-      
-	af.type = SPELL_POISON;
-        af.location = APPLY_DEX;
-        af.modifier = -dice(1, 6);
-        af.duration = 480;
-        af.bitvector = AFF_NONE;
-
-        affect_join(victim, &af, false, false, true, false);
-
-	af.type = SPELL_POISON_TIMER;
-        af.location = APPLY_NONE;
-        af.modifier = 11 + ability_mod_value(GET_CON(ch));
-        af.duration = 10;
-        af.bitvector = AFF_NONE;
-
-        GET_POISON_DAMAGE_TYPE(ch) = APPLY_DEX;
-        GET_POISON_DAMAGE_AMOUNT(ch) = dice(1, 6);
-
-        affect_join(victim, &af, false, false, false, false);
-
-        act("You double over in pain as poison courses through your veins.", FALSE, victim, 0, 0, TO_CHAR);
-        act("$n doubles over in pain as poison courses through $s veins.", FALSE, victim, 0, 0, TO_ROOM);
-
-      }
-    }
-
     do_mob_special_attacks(ch, MOB_TYPE_MOB);
 
 
@@ -3953,16 +3922,13 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
     } else {
 	  if (GET_RACE(ch) == RACE_MINOTAUR ||
 	      GET_RACE(ch) == RACE_CENTAUR ||
-	      GET_RACE(ch) == RACE_BAAZ_DRACONIAN ||
-	      HAS_FEAT(ch, FEAT_CLAWS_AND_BITE) ||
-     	     GET_RACE(ch) == RACE_KAPAK_DRACONIAN) {
+	      HAS_FEAT(ch, FEAT_CLAWS_AND_BITE)) {
                 int calc_base_hit_racial;
 		int racial_attack_type = TYPE_BITE;
 
 
-	     if (GET_RACE(ch) == RACE_BAAZ_DRACONIAN ||
-	         HAS_FEAT(ch, FEAT_CLAWS_AND_BITE) ||
-     	         GET_RACE(ch) == RACE_KAPAK_DRACONIAN) {
+	     if (HAS_FEAT(ch, FEAT_CLAWS_AND_BITE))
+        {
 		  racial_attack_type = TYPE_BITE;
                   calc_base_hit_racial = compute_base_hit(ch, hitmod) - 5;
 	          status = one_hit(ch, victim, NULL, racial_attack_type, calc_base_hit, NULL, NULL, ability_mod_value(GET_STR(ch)) / 2);
