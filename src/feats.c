@@ -207,7 +207,6 @@ feato(FEAT_SNEAK_ATTACK_OF_OPPORTUNITY, "sneak attack of opportunity", TRUE, TRU
 feato(FEAT_EVASION, "evasion", TRUE, FALSE, FALSE, "none", "on successful reflex save no damage from spells and effects");
 feato(FEAT_IMPROVED_EVASION, "improved evasion", TRUE, TRUE, FALSE, "rogue level 11", "as evasion but half damage of failed save");
 feato(FEAT_ACROBATIC, "acrobatic", TRUE, TRUE, FALSE, "none", "+2 to jump and tumble skill checks");
-feato(FEAT_AGILE, "agile", TRUE, TRUE, FALSE, "none", "+2 to balance and escape artist skill checks");
 feato(FEAT_ANIMAL_AFFINITY, "animal affinity", TRUE, TRUE, FALSE, "none", "+2 to handle animal and ride skill checks");
 feato(FEAT_ATHLETIC, "athletic", TRUE, TRUE, FALSE, "none", "+2 to swim and climb skill checks");
 feato(FEAT_AUGMENT_SUMMONING, "augment summoning", TRUE, TRUE, FALSE, "none", "gives all creatures you have from summoning spells +4 to strength and constitution");

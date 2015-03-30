@@ -1240,12 +1240,6 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
     SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
     SET_SKILL_BONUS(ch, SKILL_TUMBLE, GET_SKILL_BONUS(ch, SKILL_TUMBLE) + 2);
     break;
-  case FEAT_AGILE:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_BALANCE, GET_SKILL_BONUS(ch, SKILL_BALANCE) + 2);
-    SET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST, GET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST) + 2);
-    break;
   case FEAT_ALERTNESS:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
