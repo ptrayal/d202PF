@@ -5018,12 +5018,6 @@ void process_add_feat(struct char_data *ch, int feat_num)
     SET_SKILL_BONUS(ch, SKILL_SPELLCRAFT, GET_SKILL_BONUS(ch, SKILL_SPELLCRAFT) + 2);
     SET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE, GET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE) + 2);
     break;
-  case FEAT_NIMBLE_FINGERS:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE, GET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE) + 2);
-    SET_SKILL_BONUS(ch, SKILL_OPEN_LOCK, GET_SKILL_BONUS(ch, SKILL_OPEN_LOCK) + 2);
-    break;
   case FEAT_PERSUASIVE:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);

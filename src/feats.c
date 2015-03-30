@@ -233,7 +233,6 @@ feato(FEAT_IMPROVED_TURNING, "improved turning", FALSE, FALSE, FALSE, "ask staff
 feato(FEAT_MAGICAL_APTITUDE, "magical aptitude", TRUE, TRUE, FALSE, "none", "+2 to spellcraft and use magical device skill checks");
 feato(FEAT_MANYSHOT, "manyshot", TRUE, FALSE, FALSE, "ranger level 6", "extra ranged attack when rapid shot turned on");
 feato(FEAT_NATURAL_SPELL, "natural spell", TRUE, TRUE, FALSE, "wis 13+, ability to wild shape", "allows casting of spells while wild shaped.");
-feato(FEAT_NIMBLE_FINGERS, "nimble fingers", TRUE, TRUE, FALSE, "none", "+2 to open lock and disable device skill checks");
 feato(FEAT_PERSUASIVE, "persuasive", TRUE, TRUE, FALSE, "none", "+2 to bluff and intimidate skill checks");
 feato(FEAT_RAPID_RELOAD, "rapid reload", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SELF_SUFFICIENT, "self sufficient", TRUE, TRUE, FALSE, "none", "+2 to heal and survival skill checks");

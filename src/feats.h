@@ -247,7 +247,7 @@ extern struct feat_info feat_list[];
 #define FEAT_MANYSHOT       235
 #define FEAT_NATURAL_SPELL      236
 // #define FEAT_NEGOTIATOR       237
-#define FEAT_NIMBLE_FINGERS     238
+// #define FEAT_NIMBLE_FINGERS     238
 #define FEAT_PERSUASIVE       239
 #define FEAT_RAPID_RELOAD     240
 #define FEAT_SELF_SUFFICIENT      241
