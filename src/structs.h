@@ -443,10 +443,10 @@ extern struct config_data config_info;
 #define RACE_CHISS                  35
 #define RACE_KUSHIBAN               36
 
-#define RACE_QUALINESTI_ELF         1 // pc dragonlance
-#define RACE_HYLAR_DWARF            2 // pc dragonlance
-#define RACE_NEIDAR_DWARF           3 // pc dragonlance
-#define RACE_KENDER                 4 // pc dragonlance
+// #define RACE_QUALINESTI_ELF         1 // pc dragonlance
+// #define RACE_HYLAR_DWARF            2 // pc dragonlance
+// #define RACE_NEIDAR_DWARF           3 // pc dragonlance
+// #define RACE_KENDER                 4 // pc dragonlance
 #define RACE_GNOME                  5 // pc
 #define RACE_UNDEAD                 6
 #define RACE_SKELETON               7
@@ -463,29 +463,29 @@ extern struct config_data config_info;
 #define RACE_OUTSIDER               17
 #define RACE_MAGICAL_BEAST          18
 #define RACE_STIRGE                 18
-#define RACE_SILVANESTI_ELF         19
-#define RACE_KAGONESTI_ELF          20
+// #define RACE_SILVANESTI_ELF         19
+// #define RACE_KAGONESTI_ELF          20
 #define RACE_HALF_ELF               21
-#define RACE_HUMAN_PLAINS_NOMAD     22
-#define RACE_DAEWAR_DWARF           23
-#define RACE_KLAR_DWARF             24
-#define RACE_DAERGAR_DWARF          25
-#define RACE_THEIWAR_DWARF          26
-#define RACE_DEWAR_DWARF            27
-#define RACE_AGHAR_DWARF            28
-#define RACE_ZHAKAR_DWARF           29
+// 1#define RACE_HUMAN_PLAINS_NOMAD     22
+// #define RACE_DAEWAR_DWARF           23
+// #define RACE_KLAR_DWARF             24
+// #define RACE_DAERGAR_DWARF          25
+// #define RACE_THEIWAR_DWARF          26
+// #define RACE_DEWAR_DWARF            27
+// #define RACE_AGHAR_DWARF            28
+// #define RACE_ZHAKAR_DWARF           29
 #define RACE_MINOTAUR               30
-#define RACE_HUMAN_ERGOTH           31
-#define RACE_HUMAN_ISTAR            32
-#define RACE_HUMAN_BALIFOR          33
-#define RACE_HUMAN_KHAROLIS         34
-#define RACE_HUMAN_NORDMAAR         35
-#define RACE_HUMAN_ICE_FOLK         36
-#define RACE_HUMAN_MOUNTAIN_NOMAD   37
-#define RACE_HUMAN_DESERT_NOMAD     38
+// #define RACE_HUMAN_ERGOTH           31   // pc dragonlance
+// #define RACE_HUMAN_ISTAR            32   // pc dragonlance
+// #define RACE_HUMAN_BALIFOR          33   // pc dragonlance
+// #define RACE_HUMAN_KHAROLIS         34   // pc dragonlance
+// #define RACE_HUMAN_NORDMAAR         35   // pc dragonlance
+// #define RACE_HUMAN_ICE_FOLK         36   // pc dragonlance
+// #define RACE_HUMAN_MOUNTAIN_NOMAD   37   // pc dragonlance
+// #define RACE_HUMAN_DESERT_NOMAD     38   // pc dragonlance
 #define RACE_RAT                    39
 #define RACE_HORSE                  40
-#define RACE_HUMAN_SOLAMNIA         41 // pc dragonlance
+// #define RACE_HUMAN_SOLAMNIA         41 // pc dragonlance
 #define RACE_HUMAN_NORTHERNER       42 // pc forgotten realms
 #define RACE_HUMAN_ICE_BARBARIAN    43 // pc forgotten realms
 #define RACE_HUMAN_CORMYR           44 // pc forgotten realms
@@ -531,9 +531,9 @@ extern struct config_data config_info;
 #define RACE_CENTAUR                99
 #define RACE_CONSTRUCT              100
 #define RACE_DRAGON                 101
-#define RACE_IRDA                   102
-#define RACE_BAAZ_DRACONIAN         103
-#define RACE_KAPAK_DRACONIAN        104
+// #define RACE_IRDA                   102
+// #define RACE_BAAZ_DRACONIAN         103
+// #define RACE_KAPAK_DRACONIAN        104
 #define RACE_HALF_DRAGON            105
 #define RACE_TROLL                  106
 #define RACE_DINOSAUR               107
