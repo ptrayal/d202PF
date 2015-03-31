@@ -1736,7 +1736,7 @@ ACMD(do_file)
 
      l = 3;
 
-     send_to_char(ch, "\r\n@Wd20MUD News@n\r\n@Y-----------@n\r\n");
+     send_to_char(ch, "\r\n@W%s News@n\r\n@Y-----------@n\r\n", MUD_NAME);
 
      if(!*value)
        req_lines = 30; /* default is the last 30 lines */
