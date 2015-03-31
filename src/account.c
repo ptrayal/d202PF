@@ -314,7 +314,7 @@ ACMD(do_account)
      send_to_char(ch,
           "Account Information for %s:\r\n"
           "\r\n"
-          "Email: %s\r\n"
+          "Email: %s\tn\r\n"
           "Level: %d\r\n"
           "Experience: %d\r\n"
           "Gift Experience: %d\r\n"
