@@ -3234,7 +3234,7 @@ ACMD(do_skillcheck) {
 ACMD(do_devote)
 {
 
-  char arg[200], arg2[200], arg3[200], buf[32000], buf2[200];
+  char arg[200], arg2[200], arg3[200], buf2[200];
 	int i=0, j=0;
 
 	one_argument(two_arguments(argument, arg, arg2), arg3);
@@ -3358,7 +3358,6 @@ ACMD(do_devote)
               send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
             }
           }
-          // send_to_char(ch, "%s", buf);
           return;
         }
 
@@ -3368,8 +3367,6 @@ ACMD(do_devote)
             send_to_char(ch, "Which deity would you like to know more about?  Please capitalize the name for proper results.\r\n");
             return;
           }
-
-//          send_to_char(ch, "%s", arg2);
 
           for (i = 0; i < NUM_DEITIES; i++) {
             if (!strcmp(CAP(arg2), deity_list[i].name)) {
