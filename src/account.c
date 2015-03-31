@@ -301,6 +301,34 @@ void combine_accounts(void)
 
 }
 
+char *escape_colorcode(char *query)
+{
+
+    if (!*query)
+        return NULL;
+
+    if (strlen(query) >= MAX_STRING_LENGTH)
+        return NULL;
+
+    char escape[MAX_STRING_LENGTH];
+
+    int i = 0, j = 0;
+
+    for (i = 0; i < strlen(query); i++) {
+        if (query[i] == '@') {
+            escape[i+j] = '@';
+            escape[i + (++j)] = query[i];
+        } else {
+            escape[i+j] = query[i];
+        }
+    }
+
+    escape[i+j] = '\0';
+
+    return strdup(escape);
+
+}
+
 ACMD(do_account)
 {
 
@@ -320,7 +348,7 @@ ACMD(do_account)
           "Gift Experience: %d\r\n"
           "Web Site Password: %s\r\n"
           "Characters:\r\n",
-          acc->name, *acc->email ? acc->email : "Not Set", acc->level, acc->experience, acc->gift_experience, acc->web_password);
+          acc->name, *acc->email ? escape_colorcode(acc->email) : "Not Set", acc->level, acc->experience, acc->gift_experience, acc->web_password);
 
      int i = 0;
      for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
