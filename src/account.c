@@ -281,74 +281,75 @@ void show_account_menu(struct descriptor_data *d)
   write_to_output(d, "Your choice: ");
 }
 
-void combine_accounts(void) {
+void combine_accounts(void) 
+{
 
-  struct descriptor_data *d;
-  struct descriptor_data *k;
+     struct descriptor_data *d;
+     struct descriptor_data *k;
 
-  /* characters */
-  for (d = descriptor_list; d; d = d->next) {
-    for (k = descriptor_list; k; k = k->next) {
-      if (d && k && d->account && k->account && d->account != k->account && 
-        d->character && k->character && d->character->account_name && k->character->account_name &&
-        !strcmp(d->character->account_name, k->character->account_name)) {
-        d->account = k->account;
-        return;
-      }
-    }
-  }
+/* characters */
+     for (d = descriptor_list; d; d = d->next) {
+          for (k = descriptor_list; k; k = k->next) {
+               if (d && k && d->account && k->account && d->account != k->account && 
+                    d->character && k->character && d->character->account_name && k->character->account_name &&
+                    !strcmp(d->character->account_name, k->character->account_name)) {
+                    d->account = k->account;
+               return;
+          }
+     }
+}
 
 }
 
 ACMD(do_account)
 {
 
-  if (IS_NPC(ch) || !ch->desc || !ch->desc->account) {
-    send_to_char(ch, "The account command can only be used by player characters with a valid account.\r\n");
-    return;
-  }
+     if (IS_NPC(ch) || !ch->desc || !ch->desc->account) {
+          send_to_char(ch, "The account command can only be used by player characters with a valid account.\r\n");
+          return;
+     }
 
-  struct account_data *acc = ch->desc->account;
+     struct account_data *acc = ch->desc->account;
 
-  send_to_char(ch,
-    "Account Information for %s:\r\n"
-    "\r\n"
-    "Email: %s\r\n"
-    "Level: %d\r\n"
-    "Experience: %d\r\n"
-    "Gift Experience: %d\r\n"
-    "Web Site Password: %s\r\n"
-    "Characters:\r\n",
-    acc->name, *acc->email ? acc->email : "Not Set", acc->level, acc->experience, acc->gift_experience, acc->web_password);
+     send_to_char(ch,
+          "Account Information for %s:\r\n"
+          "\r\n"
+          "Email: %s\r\n"
+          "Level: %d\r\n"
+          "Experience: %d\r\n"
+          "Gift Experience: %d\r\n"
+          "Web Site Password: %s\r\n"
+          "Characters:\r\n",
+          acc->name, *acc->email ? acc->email : "Not Set", acc->level, acc->experience, acc->gift_experience, acc->web_password);
 
-  int i = 0;
-  for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
-    if (acc->character_names[i] != NULL)
-      send_to_char(ch, "  %s\r\n", acc->character_names[i]);
-  }
+     int i = 0;
+     for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
+          if (acc->character_names[i] != NULL)
+               send_to_char(ch, "  %s\r\n", acc->character_names[i]);
+     }
 
-  sbyte found = FALSE;
+     sbyte found = FALSE;
 
-  send_to_char(ch, "Unlocked Advanced Races:\r\n");
-  for (i = 0; i < MAX_UNLOCKED_RACES; i++) {
-    if (acc->races[i] > 0 && race_list[acc->races[i]].is_pc) {
-      send_to_char(ch, "  %s\r\n", race_list[acc->races[i]].name);
-      found = TRUE;
-    }
-  }  
-  if (!found)
-    send_to_char(ch, "  None.\r\n");
+     send_to_char(ch, "Unlocked Advanced Races:\r\n");
+     for (i = 0; i < MAX_UNLOCKED_RACES; i++) {
+          if (acc->races[i] > 0 && race_list[acc->races[i]].is_pc) {
+               send_to_char(ch, "  %s\r\n", race_list[acc->races[i]].name);
+               found = TRUE;
+          }
+     }  
+     if (!found)
+          send_to_char(ch, "  None.\r\n");
 
-  found = FALSE;
+     found = FALSE;
 
-  send_to_char(ch, "Unlocked Prestige Classes:\r\n");
-  for (i = 0; i < MAX_UNLOCKED_CLASSES; i++) {
-    if (acc->classes[i] < 999) {
-      send_to_char(ch, "  %s\r\n", class_names_dl_aol[acc->classes[i]]);
-      found = TRUE;
-    }
-  }  
-  if (!found)
-    send_to_char(ch, "  None.\r\n");
+     send_to_char(ch, "Unlocked Prestige Classes:\r\n");
+     for (i = 0; i < MAX_UNLOCKED_CLASSES; i++) {
+          if (acc->classes[i] < 999) {
+               send_to_char(ch, "  %s\r\n", class_names_dl_aol[acc->classes[i]]);
+               found = TRUE;
+          }
+     }  
+     if (!found)
+          send_to_char(ch, "  None.\r\n");
 
 }
