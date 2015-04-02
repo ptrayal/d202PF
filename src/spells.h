@@ -479,18 +479,18 @@
 #define SKILL_LANG_INFERNAL     620
 #define SKILL_LANG_SYLVAN       621
 #define SKILL_LANG_TERRAN       622
-#define SKILL_LANG_ISTARIAN     623  // Can be replaced
-#define SKILL_LANG_CHULTAN      624  // Can be replaced
-#define SKILL_LANG_BALIFORIAN   625  // Can be replaced
-#define SKILL_LANG_TUIGAN       626  // Can be replaced
-#define SKILL_LANG_KHAROLISIAN  627  // Can be replaced
-#define SKILL_LANG_LANTANESE    628  // Can be replaced
-#define SKILL_LANG_NORDMAARIAN  629  // Can be replaced
-#define SKILL_LANG_MULHORANDI   639  // Can be replaced
-#define SKILL_LANG_ICESPEAK     630  // Can be replaced
-#define SKILL_LANG_RASHEMI      630  // Can be replaced
-#define SKILL_LANG_BARBARIAN    639  // Can be replaced
-#define SKILL_LANG_UNDERCOMMON  640
+#define SKILL_LANG_ABOLETH      623
+#define SKILL_LANG_DROW_SIGN    624
+#define SKILL_LANG_BOGGARD      625
+#define SKILL_LANG_SPHINX       626
+#define SKILL_LANG_STRIX        627
+#define SKILL_LANG_CYCLOPS      628
+#define SKILL_LANG_DARK_FOLKS   629
+#define SKILL_LANG_GRIPPLI      630
+#define SKILL_LANG_TENGU        631
+#define SKILL_LANG_PROTEAN      632
+#define SKILL_LANG_TREANT       633
+#define SKILL_LANG_UNDERCOMMON  634
 
 #define SKILL_LANG_LOW SKILL_LANG_COMMON
 #define SKILL_LANG_HIGH SKILL_LANG_UNDERCOMMON

@@ -3409,6 +3409,7 @@ ACMD(do_gen_ps)
     send_to_char(ch, "\t[U10148/*] %s\r\n", CWG_VERSION);
     send_to_char(ch, "\t[U10148/*] %s\r\n", ascii_pfiles_version);
     send_to_char(ch, "\t[U10148/*] KaVir's Protocol Snippet Version %d\r\n", SNIPPET_VERSION);
+    // send_to_char(ch, "\t[U10148/*] Campaign Deities %d\r\n", CAMPAIGN_PANTHEON);
     if (show_patches == true) {
       send_to_char(ch, "The following patches have been installed:\r\n");
       for (patch_num = 0; **(patch_list + patch_num) != '\n'; patch_num++)

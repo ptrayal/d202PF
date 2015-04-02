@@ -3966,51 +3966,39 @@ void mag_assign_spells(void)
   skillo(SKILL_LANG_TERRAN, "terran", 0);
   set_skill_type(SKILL_LANG_TERRAN, SKTYPE_SKILL | SKTYPE_LANG);
 
-  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) 
-  {
+  skillo(SKILL_LANG_ABOLETH, "aboleth", 0);
+  set_skill_type(SKILL_LANG_ABOLETH, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_CHULTAN, "chultan", 0);
-    set_skill_type(SKILL_LANG_CHULTAN, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_DROW_SIGN, "drow sign language", 0);
+  set_skill_type(SKILL_LANG_DROW_SIGN, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_TUIGAN, "tuigan", 0);
-    set_skill_type(SKILL_LANG_TUIGAN, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_BOGGARD, "boggard", 0);
+  set_skill_type(SKILL_LANG_BOGGARD, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_LANTANESE, "lantanese", 0);
-    set_skill_type(SKILL_LANG_LANTANESE, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_SPHINX, "sphinx", 0);
+  set_skill_type(SKILL_LANG_SPHINX, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_MULHORANDI, "mulhorandi", 0);
-    set_skill_type(SKILL_LANG_MULHORANDI, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_STRIX, "strix", 0);
+  set_skill_type(SKILL_LANG_STRIX, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_RASHEMI, "rashemi", 0);
-    set_skill_type(SKILL_LANG_RASHEMI, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_CYCLOPS, "cyclops", 0);
+  set_skill_type(SKILL_LANG_CYCLOPS, SKTYPE_SKILL | SKTYPE_LANG);
 
-  }
+  skillo(SKILL_LANG_GRIPPLI, "grippli", 0);
+  set_skill_type(SKILL_LANG_GRIPPLI, SKTYPE_SKILL | SKTYPE_LANG);
 
-  else 
-  {
+  skillo(SKILL_LANG_TENGU, "tengu", 0);
+  set_skill_type(SKILL_LANG_TENGU, SKTYPE_SKILL | SKTYPE_LANG);
 
-  skillo(SKILL_LANG_KOBOLD, "kobold", 0);
-  set_skill_type(SKILL_LANG_KOBOLD, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_PROTEAN, "protean", 0);
+  set_skill_type(SKILL_LANG_PROTEAN, SKTYPE_SKILL | SKTYPE_LANG);
 
-  skillo(SKILL_LANG_ISTARIAN, "istarian", 0);
-  set_skill_type(SKILL_LANG_ISTARIAN, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_DARK_FOLKS, "dark folks", 0);
+  set_skill_type(SKILL_LANG_DARK_FOLKS, SKTYPE_SKILL | SKTYPE_LANG);
 
-  skillo(SKILL_LANG_BALIFORIAN, "baliforian", 0);
-  set_skill_type(SKILL_LANG_BALIFORIAN, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_TREANT, "treant", 0);
+  set_skill_type(SKILL_LANG_TREANT, SKTYPE_SKILL | SKTYPE_LANG);
 
-  skillo(SKILL_LANG_KHAROLISIAN, "kharolisian", 0);
-  set_skill_type(SKILL_LANG_KHAROLISIAN, SKTYPE_SKILL | SKTYPE_LANG);
-
-  skillo(SKILL_LANG_NORDMAARIAN, "nordmaarian", 0);
-  set_skill_type(SKILL_LANG_NORDMAARIAN, SKTYPE_SKILL | SKTYPE_LANG);
-
-  skillo(SKILL_LANG_ICESPEAK, "icespeak", 0);
-  set_skill_type(SKILL_LANG_ICESPEAK, SKTYPE_SKILL | SKTYPE_LANG);
-
-  skillo(SKILL_LANG_BARBARIAN, "barbarian", 0);
-  set_skill_type(SKILL_LANG_BARBARIAN, SKTYPE_SKILL | SKTYPE_LANG);
-
-  }
 }
 
 ACMD(do_spells) {
