@@ -3933,25 +3933,41 @@ void mag_assign_spells(void)
   skillo(SKILL_LANG_GIANT, "giant", 0);
   set_skill_type(SKILL_LANG_GIANT, SKTYPE_SKILL | SKTYPE_LANG);
 
-  skillo(SKILL_LANG_KOBOLD, "kobold", 0);
-  set_skill_type(SKILL_LANG_KOBOLD, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_AKLO, "aklo", 0);
+  set_skill_type(SKILL_LANG_AKLO, SKTYPE_SKILL | SKTYPE_LANG);
 
-  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) {
+  skillo(SKILL_LANG_AQUAN, "aquan", 0);
+  set_skill_type(SKILL_LANG_AQUAN, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_ICE_BARBARIAN, "ice barbaric", 0);
-    set_skill_type(SKILL_LANG_ICE_BARBARIAN, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_AURAN, "auran", 0);
+  set_skill_type(SKILL_LANG_AURAN, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_ORCISH, "orcish", 0);
-    set_skill_type(SKILL_LANG_ORCISH, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_GNOLL, "gnoll", 0);
+  set_skill_type(SKILL_LANG_GNOLL, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_HALFLING, "halfling", 0);
-    set_skill_type(SKILL_LANG_HALFLING, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_IGNAN, "ignan", 0);
+  set_skill_type(SKILL_LANG_IGNAN, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_CHONDATHAN, "chondathan", 0);
-    set_skill_type(SKILL_LANG_CHONDATHAN, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_INFERNAL, "infernal", 0);
+  set_skill_type(SKILL_LANG_INFERNAL, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_MIDANI, "midani", 0);
-    set_skill_type(SKILL_LANG_MIDANI, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_ORCISH, "orc", 0);
+  set_skill_type(SKILL_LANG_ORCISH, SKTYPE_SKILL | SKTYPE_LANG);
+
+  skillo(SKILL_LANG_HALFLING, "halfling", 0);
+  set_skill_type(SKILL_LANG_HALFLING, SKTYPE_SKILL | SKTYPE_LANG);
+
+  skillo(SKILL_LANG_UNDERCOMMON, "undercommon", 0);
+  set_skill_type(SKILL_LANG_UNDERCOMMON, SKTYPE_SKILL | SKTYPE_LANG);
+
+  skillo(SKILL_LANG_SYLVAN, "sylvan", 0);
+  set_skill_type(SKILL_LANG_SYLVAN, SKTYPE_SKILL | SKTYPE_LANG);
+
+  skillo(SKILL_LANG_TERRAN, "terran", 0);
+  set_skill_type(SKILL_LANG_TERRAN, SKTYPE_SKILL | SKTYPE_LANG);
+
+  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) 
+  {
 
     skillo(SKILL_LANG_CHULTAN, "chultan", 0);
     set_skill_type(SKILL_LANG_CHULTAN, SKTYPE_SKILL | SKTYPE_LANG);
@@ -3968,18 +3984,13 @@ void mag_assign_spells(void)
     skillo(SKILL_LANG_RASHEMI, "rashemi", 0);
     set_skill_type(SKILL_LANG_RASHEMI, SKTYPE_SKILL | SKTYPE_LANG);
 
-    skillo(SKILL_LANG_UNDERCOMMON, "undercommon", 0);
-    set_skill_type(SKILL_LANG_UNDERCOMMON, SKTYPE_SKILL | SKTYPE_LANG);
-
   }
 
-  else {
+  else 
+  {
 
-  skillo(SKILL_LANG_SOLAMNIC, "solamnic", 0);
-  set_skill_type(SKILL_LANG_SOLAMNIC, SKTYPE_SKILL | SKTYPE_LANG);
-
-  skillo(SKILL_LANG_ERGOT, "ergot", 0);
-  set_skill_type(SKILL_LANG_ERGOT, SKTYPE_SKILL | SKTYPE_LANG);
+  skillo(SKILL_LANG_KOBOLD, "kobold", 0);
+  set_skill_type(SKILL_LANG_KOBOLD, SKTYPE_SKILL | SKTYPE_LANG);
 
   skillo(SKILL_LANG_ISTARIAN, "istarian", 0);
   set_skill_type(SKILL_LANG_ISTARIAN, SKTYPE_SKILL | SKTYPE_LANG);
@@ -3998,15 +4009,6 @@ void mag_assign_spells(void)
 
   skillo(SKILL_LANG_BARBARIAN, "barbarian", 0);
   set_skill_type(SKILL_LANG_BARBARIAN, SKTYPE_SKILL | SKTYPE_LANG);
-
-  skillo(SKILL_LANG_GULLYTALK, "gullytalk", 0);
-  set_skill_type(SKILL_LANG_GULLYTALK, SKTYPE_SKILL | SKTYPE_LANG);
-
-  skillo(SKILL_LANG_KENDERSPEAK, "kenderspeak", 0);
-  set_skill_type(SKILL_LANG_KENDERSPEAK, SKTYPE_SKILL | SKTYPE_LANG);
-
-  skillo(SKILL_LANG_KOTHIAN, "kothian", 0);
-  set_skill_type(SKILL_LANG_KOTHIAN, SKTYPE_SKILL | SKTYPE_LANG);
 
   }
 }

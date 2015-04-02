@@ -457,33 +457,6 @@
 #define MAX_SPELL_LEVELS    9
 
 
-#define SKILL_LANG_BASIC        601
-#define SKILL_LANG_UNDERWORLD   602
-#define SKILL_LANG_ANCIENT      603
-#define SKILL_LANG_BINARY       604
-#define SKILL_LANG_BOCCE        605
-#define SKILL_LANG_GNOME        606
-#define SKILL_LANG_BOTHESE      607
-#define SKILL_LANG_CEREAN       608
-#define SKILL_LANG_DOSH         609
-#define SKILL_LANG_DURESE       610
-#define SKILL_LANG_EWOKESE      611
-#define SKILL_LANG_GAMORREAN    612
-#define SKILL_LANG_GUNGANESE    613
-#define SKILL_LANG_HIGH_GALACTIC 614
-#define SKILL_LANG_HUTTESE      615
-#define SKILL_LANG_ITHORESE     616
-#define SKILL_LANG_JAWA         617
-#define SKILL_LANG_KEL_DOR      618
-#define SKILL_LANG_MON_CALAMARIAN 619
-#define SKILL_LANG_QUARRENESE   620
-#define SKILL_LANG_RODESE       621
-#define SKILL_LANG_RYL          622
-#define SKILL_LANG_SHYRIIWOOK   623
-#define SKILL_LANG_SULLUSTESE   624
-#define SKILL_LANG_ZABRAK       625
-#define SKILL_LANG_CHEUNH       626
-
 #define SKILL_LANG_COMMON       601
 #define SKILL_LANG_THIEVES_CANT 602
 #define SKILL_LANG_DRUIDIC      603
@@ -493,39 +466,39 @@
 #define SKILL_LANG_DWARVEN      607
 #define SKILL_LANG_CELESTIAL    608
 #define SKILL_LANG_DRACONIC     609
-#define SKILL_LANG_GULLYTALK    610
-#define SKILL_LANG_ORCISH       610
-#define SKILL_LANG_KENDERSPEAK  611
-#define SKILL_LANG_HALFLING     611
-#define SKILL_LANG_GOBLIN       612
-#define SKILL_LANG_KOTHIAN      613
-#define SKILL_LANG_CHONDATHAN   613
-#define SKILL_LANG_GIANT        614
-#define SKILL_LANG_KOBOLD       615
-#define SKILL_LANG_SOLAMNIC     616
-#define SKILL_LANG_ICE_BARBARIAN 616
-#define SKILL_LANG_ERGOT        617
-#define SKILL_LANG_MIDANI       617
-#define SKILL_LANG_ISTARIAN     618
-#define SKILL_LANG_CHULTAN      618
-#define SKILL_LANG_BALIFORIAN   619
-#define SKILL_LANG_TUIGAN       619
-#define SKILL_LANG_KHAROLISIAN  620
-#define SKILL_LANG_LANTANESE    620
-#define SKILL_LANG_NORDMAARIAN  621
-#define SKILL_LANG_MULHORANDI   621
-#define SKILL_LANG_ICESPEAK     622
-#define SKILL_LANG_RASHEMI      622
-#define SKILL_LANG_BARBARIAN    623
-#define SKILL_LANG_UNDERCOMMON  623
+#define SKILL_LANG_AKLO         610
+#define SKILL_LANG_ORCISH       611
+#define SKILL_LANG_AQUAN        612
+#define SKILL_LANG_HALFLING     613
+#define SKILL_LANG_GOBLIN       614
+#define SKILL_LANG_AURAN        615
+#define SKILL_LANG_GNOLL        616
+#define SKILL_LANG_GIANT        617
+#define SKILL_LANG_KOBOLD       618  // Use Draconic and/or replace
+#define SKILL_LANG_IGNAN        619
+#define SKILL_LANG_INFERNAL     620
+#define SKILL_LANG_SYLVAN       621
+#define SKILL_LANG_TERRAN       622
+#define SKILL_LANG_ISTARIAN     623  // Can be replaced
+#define SKILL_LANG_CHULTAN      624  // Can be replaced
+#define SKILL_LANG_BALIFORIAN   625  // Can be replaced
+#define SKILL_LANG_TUIGAN       626  // Can be replaced
+#define SKILL_LANG_KHAROLISIAN  627  // Can be replaced
+#define SKILL_LANG_LANTANESE    628  // Can be replaced
+#define SKILL_LANG_NORDMAARIAN  629  // Can be replaced
+#define SKILL_LANG_MULHORANDI   639  // Can be replaced
+#define SKILL_LANG_ICESPEAK     630  // Can be replaced
+#define SKILL_LANG_RASHEMI      630  // Can be replaced
+#define SKILL_LANG_BARBARIAN    639  // Can be replaced
+#define SKILL_LANG_UNDERCOMMON  640
 
 #define SKILL_LANG_LOW SKILL_LANG_COMMON
-#define SKILL_LANG_HIGH SKILL_LANG_CHEUNH
+#define SKILL_LANG_HIGH SKILL_LANG_UNDERCOMMON
 
 #define MIN_LANGUAGES     SKILL_LANG_LOW
 #define MAX_LANGUAGES     SKILL_LANG_HIGH
 
-#define MAX_LANGUAGES_FR     SKILL_LANG_CHEUNH
+#define MAX_LANGUAGES_FR     SKILL_LANG_UNDERCOMMON
 #define MAX_LANGUAGES_DL_AOL MAX_LANGUAGES_FR
 
 #define SKILL_WP_UNARMED    650 /* Barehanded weapon group        */

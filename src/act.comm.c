@@ -106,51 +106,54 @@ char const *languages_fr[] =
 
 void list_languages(struct char_data *ch)
 {
-  int a = 0, i;
+    int a = 0, i;
 
-  send_to_char(ch, "Languages:\r\n[");
-  for (i = MIN_LANGUAGES ; i <= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? MAX_LANGUAGES_FR : MAX_LANGUAGES_DL_AOL) ; i++)
-    if (GET_SKILL(ch, i) || affected_by_spell(ch, SPELL_TONGUES) ||
-        HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON))
-      send_to_char(ch, "%s %s%s%s",
-        a++ != 0 ? "," : "",
-        SPEAKING(ch) == i ? "@r": "@n",
-        (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[i-MIN_LANGUAGES], 
-	"@n");
-  send_to_char(ch, "%s ]\r\n", a== 0 ? " None!" : "");
-}
+    send_to_char(ch, "Languages:\r\n[");
+        for (i = MIN_LANGUAGES ; i <= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? MAX_LANGUAGES_FR : MAX_LANGUAGES_DL_AOL) ; i++)
+            if (GET_SKILL(ch, i) || affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON))
+                send_to_char(ch, "%s %s%s%s",
+                    a++ != 0 ? "," : "",
+                    SPEAKING(ch) == i ? "@r": "@n",
+                    (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[i-MIN_LANGUAGES], "@n");
+            send_to_char(ch, "%s ]\r\n", a== 0 ? " None!" : "");
+        }
 
 
 ACMD(do_languages)
 {
-  int i, found = false;
-  char arg[MAX_STRING_LENGTH];
+    int i, found = false;
+    char arg[MAX_STRING_LENGTH];
 
-  if (CONFIG_ENABLE_LANGUAGES) {
-  one_argument(argument, arg);
-  
-  if (!*arg)
-    list_languages(ch);
-  else {
-    for (i = MIN_LANGUAGES; i <= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? MAX_LANGUAGES_FR : MAX_LANGUAGES_DL_AOL); i++) {
-      if (((search_block(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol), false) == i-MIN_LANGUAGES) && (GET_SKILL(ch, i) ||
-          affected_by_spell(ch, SPELL_TONGUES) ||
-          HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON)))) {
-        SPEAKING(ch) = i;
-        send_to_char(ch, "You now speak %s.\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[i-MIN_LANGUAGES]);
-        found = true;
-        break;
-      }
+    if (CONFIG_ENABLE_LANGUAGES) 
+    {
+        one_argument(argument, arg);
+
+        if (!*arg)
+            list_languages(ch);
+        else 
+        {
+            for (i = MIN_LANGUAGES; i <= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? MAX_LANGUAGES_FR : MAX_LANGUAGES_DL_AOL); i++) {
+                if (((search_block(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol), false) == i-MIN_LANGUAGES) && (GET_SKILL(ch, i) ||
+                    affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON)))) 
+                {
+                    SPEAKING(ch) = i;
+                    send_to_char(ch, "You now speak %s.\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[i-MIN_LANGUAGES]);
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) 
+            {
+                send_to_char(ch, "You do not know of any such language.\r\n");
+                return;
+            }
+        }
+    } 
+    else 
+    {
+        send_to_char(ch, "But everyone already understands everyone else!\r\n");
+        return;
     }
-    if (!found) {
-      send_to_char(ch, "You do not know of any such language.\r\n");
-      return;
-    }
-  }
-  } else {
-    send_to_char(ch, "But everyone already understands everyone else!\r\n");
-    return;
-  }
 
 }
 

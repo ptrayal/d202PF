@@ -114,35 +114,35 @@ void assign_races(void) {
   if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) {
 
 add_race(RACE_HUMAN_NORTHERNER, "northerner", "Northrn", "Northerner", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_CHONDATHAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_CORMYR, "cormyrian", "Cormyr", "Cormyrian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 0, 0, 0, 1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_CHONDATHAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_ICE_BARBARIAN, "ice barbarian", "IceBarb", "Ice Barbarian", RACE_TYPE_HUMAN, N, Y, Y, 1, 0, 0, 0, 0, -1, 190, 190, 180, 80, 80, 65, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_ICE_BARBARIAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_AMN, "amnite", "Amnite", "Amnite", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 1, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_CHONDATHAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_ANAUROCH, "desert folk", "Desert", "Desert Folk", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, 0, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_MIDANI, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_CHULT, "chultian", "Chult", "Chultian", RACE_TYPE_HUMAN, N, Y, Y, 1, 0, -1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_CHULTAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_DALELANDS, "daleman", "Daleman", "Daleman", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_CHONDATHAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_HORDELANDS, "hordeman", "Horde", "Hordeman", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, 0, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_TUIGAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_LANTAN, "lantanite", "Lantan", "Lantanite", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_LANTANESE, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_MULHORAND, "mulhordanian", "Mulhrnd", "Mulhorandian", RACE_TYPE_HUMAN, N, Y, Y, -1, 0, 1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_MULHORANDI, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_RASHEMAN, "rasheman", "Rashemn", "Rasheman", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, -1, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_RASHEMI, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_SEMBIA, "sembian", "Sembian", "Sembian", RACE_TYPE_HUMAN, N, Y, Y, -1, -1, 0, 1, 0, 1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_CHONDATHAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_TETHYR, "thethyrian", "Tethyr", "Tethyrian", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, -1, 1, -1, 180, 180, 170, 75, 75, 60, 
          Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_THAY, "thayvian", "Thay", "Thayvian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 1, 0, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_MULHORANDI, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 add_race(RACE_HUMAN_WATERDEEP, "waterdhavian", "Waterdp", "Waterdhavian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 0, -1, 1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_CHONDATHAN, 0);
+         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 
 add_race(RACE_MOON_ELF, "moon elf", "MoonElf", "Moon Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 0, 0, 2, 0, 170, 170, 160, 55, 55, 45, 
          Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
@@ -172,11 +172,11 @@ add_race(RACE_GRAY_DWARF, "duergar", "Duergar", "Duergar", RACE_TYPE_DWARF, N, Y
 
 
 add_race(RACE_LIGHTFOOT_HALFLING, "lightfoot halfling", "LtftHlf", "Lightfoot Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 125, 
-         115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_COMMON, 0);
+         115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
 add_race(RACE_GHOSTWISE_HALFLING, "ghostwise halfling", "GhstHlf", "Ghostwise Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 125, 
-         115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_BARBARIAN, SKILL_LANG_COMMON, 0);
+         115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_BARBARIAN, SKILL_LANG_HALFLING, 0);
 add_race(RACE_STRONGHEART_HALFLING, "strongheart halfling", "SthtHlf", "Strongheart Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 
-         125, 115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_COMMON, 0);
+         125, 115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
 
 
 add_race(RACE_ROCK_GNOME, "rock gnome", "RkGnome", "Rock Gnome", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 2, 0, 0, 0, 125, 125, 115, 50, 50, 41,
