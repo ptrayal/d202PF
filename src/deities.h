@@ -102,11 +102,9 @@
 
 extern struct deity_info deity_list[NUM_DEITIES];
 
-#define CAMPAIGN_PANTHEON = (if(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE REALMS) \
-    DEITY_PANTHEON_DL_PRE_CAT \
-    else if (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION) \
-    DEITY_PANTHEON_GOLARION \
-    else if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) \
-    DEITY_PANTHEON_FAERUNIAN \
-    else DEITY_PANTHEON_ALL)
+#ifndef _DEITIES_H_
+#define _DEITIES_H_
 
+int DetermineCampaign();
+
+#endif

@@ -3254,7 +3254,8 @@ ACMD(do_devote)
               send_to_char(ch, "You are already devoted to that deity.\r\n");
               return;
             }
-            if (deity_list[i].pantheon != ((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) ? DEITY_PANTHEON_FAERUNIAN : DEITY_PANTHEON_DL_PRE_CAT)) {
+            if (deity_list[i].pantheon != DetermineCampaign())
+            {
               send_to_char(ch, "That is not a valid deity.\r\n");
               return;
             }
