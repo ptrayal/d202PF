@@ -14,27 +14,6 @@ struct deity_info deity_list[NUM_DEITIES];
 #define Y TRUE
 #define N FALSE
 
-int DetermineCampaign()
-{
-    int campaign = -1;
-    switch(CONFIG_CAMPAIGN) 
-    {
-        default:
-        campaign = DEITY_PANTHEON_ALL;
-        break;
-        case CAMPAIGN_DRAGONLANCE:
-        campaign = DEITY_PANTHEON_DL_PRE_CAT;
-        break;
-        case CAMPAIGN_GOLARION:
-        campaign = DEITY_PANTHEON_GOLARION;
-        break;
-        case CAMPAIGN_FORGOTTEN_REALMS:
-        campaign = DEITY_PANTHEON_FAERUNIAN;
-        break;
-    }
-    return campaign;
-}
-
 void init_deities(void)
 {
 

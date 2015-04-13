@@ -32,6 +32,7 @@ SVNHEADER("$Id: act.informative.c 62 2009-03-25 23:06:34Z gicker $");
 #include "deities.h"
 #include "clan.h"
 #include "protocol.h"
+#include "modules.h"
 
 #include "version.h"
 
@@ -3114,8 +3115,8 @@ ACMD(do_who)
   else if (GET_ADMLEVEL(ch) == 0)
     send_to_char(ch, "\r\n@GThere are Staff Members Available if Required. (HELP PETITION)@n\r\n");
 
-  send_to_char(ch, "\r\nKnown Adventurers Walking in Krynn\r\n"
-                       "----------------------------------\r\n");
+  send_to_char(ch, "\r\nKnown Adventurers Walking in %s\r\n"
+                       "----------------------------------\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
   for (d = descriptor_list; d; d = d->next) {
     if (!IS_PLAYING(d))
       continue;

@@ -36,6 +36,7 @@ SVNHEADER("$Id: act.other.c 65 2009-04-01 13:06:57Z gicker $");
 #include "polls.h"
 #include "pets.h"
 #include "oasis.h"
+#include "modules.h"
 
 /* extern variables */
 extern struct poll_data poll_list[NUM_POLLS];
@@ -3282,7 +3283,7 @@ ACMD(do_devote)
             return;
           }
 
-          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? "Faerun" : "Krynn");
+          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
 
           for (i = 0; i < NUM_DEITIES; i++) {
             if ((!strcmp(arg2, "good") && deity_list[i].alignment < 500) || 
@@ -3292,7 +3293,7 @@ ACMD(do_devote)
                 (!strcmp(arg2, "chaotic") && deity_list[i].ethos > -500))
               continue;
 
-            if (deity_list[i].pantheon == ((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) ? DEITY_PANTHEON_FAERUNIAN : DEITY_PANTHEON_DL_PRE_CAT)) 
+            if (deity_list[i].pantheon == DetermineCampaign()) 
             {
               send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
                            weapon_list[deity_list[i].favored_weapon].name);
@@ -3329,7 +3330,7 @@ ACMD(do_devote)
             return;
           }
 
-          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? "Faerun" : "Krynn");
+          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
 
           for (i = 0; i < NUM_DEITIES; i++) {
               if ((!strcmp(arg2, "name") && !strstr(deity_list[i].name, CAP(arg3))) ||
@@ -3342,7 +3343,7 @@ ACMD(do_devote)
                   (!strcmp(arg2, "portfolio") && !strstr(deity_list[i].portfolio, CAP(arg3)) && !strstr(deity_list[i].portfolio, arg3)))
               continue;
 
-            if (deity_list[i].pantheon == ((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) ? DEITY_PANTHEON_FAERUNIAN : DEITY_PANTHEON_DL_PRE_CAT)) {
+            if (deity_list[i].pantheon == DetermineCampaign()) {
               send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
                            weapon_list[deity_list[i].favored_weapon].name);
               sprintf(buf2, "@n");

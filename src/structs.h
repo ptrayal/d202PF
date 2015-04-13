@@ -38,9 +38,10 @@
 *    these set will prevent your mud from operating correctly.
 */
 
-#define CAMPAIGN_FORGOTTEN_REALMS	1
-#define CAMPAIGN_DRAGONLANCE		2
-#define CAMPAIGN_GOLARION       3
+#define CAMPAIGN_NONE             0  // Do not use.  Mostly for record keeping
+#define CAMPAIGN_FORGOTTEN_REALMS 1
+#define CAMPAIGN_DRAGONLANCE      2
+#define CAMPAIGN_GOLARION         3
 
 #define NUM_CAMPAIGNS 3
 

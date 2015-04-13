@@ -102,9 +102,3 @@
 
 extern struct deity_info deity_list[NUM_DEITIES];
 
-#ifndef _DEITIES_H_
-#define _DEITIES_H_
-
-int DetermineCampaign();
-
-#endif
