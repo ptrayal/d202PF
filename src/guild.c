@@ -394,7 +394,8 @@ void list_skills(struct char_data *ch)
 
   len += print_skills_by_type(ch, buf2 + len, sizeof(buf2) - len, SKTYPE_SKILL);
 
-  if (CONFIG_ENABLE_LANGUAGES) {
+  if (CONFIG_ENABLE_LANGUAGES) 
+  {
     len += snprintf(buf2 + len, sizeof(buf2) - len, "\r\nand the following languages:\r\n");
     len += print_skills_by_type(ch, buf2 + len, sizeof(buf2) - len, SKTYPE_SKILL | SKTYPE_LANG);
   }
@@ -1291,8 +1292,8 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
   case FEAT_STEALTHY:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_HIDE, GET_SKILL_BONUS(ch, SKILL_HIDE) + 2);
-    SET_SKILL_BONUS(ch, SKILL_MOVE_SILENTLY, GET_SKILL_BONUS(ch, SKILL_MOVE_SILENTLY) + 2);
+    SET_SKILL_BONUS(ch, SKILL_STEALTH, GET_SKILL_BONUS(ch, SKILL_STEALTH) + 2);
+    SET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST, GET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST) +2);
     break;
   case FEAT_DAMAGE_REDUCTION:
     if (ch->damage_reduction_feats == 5) {

@@ -236,7 +236,7 @@ feato(FEAT_NATURAL_SPELL, "natural spell", TRUE, TRUE, FALSE, "wis 13+, ability 
 feato(FEAT_PERSUASIVE, "persuasive", TRUE, TRUE, FALSE, "none", "+2 to bluff and intimidate skill checks");
 feato(FEAT_RAPID_RELOAD, "rapid reload", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SELF_SUFFICIENT, "self sufficient", TRUE, TRUE, FALSE, "none", "+2 to heal and survival skill checks");
-feato(FEAT_STEALTHY, "stealthy", TRUE, TRUE, FALSE, "none", "+2 to hide and move silently skill checks");
+feato(FEAT_STEALTHY, "stealthy", TRUE, TRUE, FALSE, "none", "+2 to all Escape Artist and Stealth skill checks");
 feato(FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD, "tower shield proficiency", TRUE, TRUE, FALSE, "none", "can use tower shields without penalties");
 feato(FEAT_TWO_WEAPON_DEFENSE, "two weapon defense", TRUE, TRUE, FALSE, "dex 15, two weapon fighting", "when wielding two weapons receive +1 shield ac bonus");
 feato(FEAT_WIDEN_SPELL, "widen spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
@@ -585,7 +585,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
   case FEAT_SELF_CONCEALMENT:
     if (HAS_REAL_FEAT(ch, FEAT_SELF_CONCEALMENT) >= 5)
       return FALSE;
-    if (GET_SKILL_RANKS(ch, SKILL_HIDE) < 30)
+    if (GET_SKILL_RANKS(ch, SKILL_STEALTH) < 30)
       return FALSE;
     if (GET_SKILL_RANKS(ch, SKILL_TUMBLE) < 30)
       return FALSE;

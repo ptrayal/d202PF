@@ -342,10 +342,10 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 
   /* Stealth increases your move cost, less if you are good at it */
   if (AFF_FLAGGED(ch, AFF_HIDE))
-    need_movement *= ((roll_skill(ch, SKILL_HIDE) > 15) ? 2 : 4);
+    need_movement *= ((roll_skill(ch, SKILL_STEALTH) > 15) ? 2 : 4);
 
   if (AFF_FLAGGED(ch, AFF_SNEAK))
-    need_movement *= ((roll_skill(ch, SKILL_MOVE_SILENTLY) > 15) ? 1.2 : 2);
+    need_movement *= ((roll_skill(ch, SKILL_STEALTH) > 15) ? 1.2 : 2);
 
   if (ch->player_specials->mounted)
     athletics = skill_roll(ch, SKILL_RIDE) + (skill_roll(ch, SKILL_ATHLETICS) / 5);

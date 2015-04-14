@@ -18,6 +18,7 @@ SVNHEADER("$Id: cedit.c 60 2009-03-25 06:38:01Z pladow $");
 #include "genolc.h"
 #include "oasis.h"
 #include "improved-edit.h"
+#include "modules.h"
 
 
 /******************************************************************************/
@@ -1265,7 +1266,7 @@ void cedit_parse(struct descriptor_data *d, char *arg)
 
 	case 'W':
 	case 'w':        
-          write_to_output(d, " 1) Forgoten Realms\r\n"" 2) Dragonlance\r\n""Enter the campaign setting this game should be running : ");
+          write_to_output(d, " 1) Forgotten Realms\r\n"" 2) Dragonlance\r\n"" 3) Pathfinder\r\n""Enter the campaign setting this game should be running : ");
           OLC_MODE(d) = CEDIT_CAMPAIGN;
 	  return;
         

@@ -1589,7 +1589,7 @@ ACMD(do_gen_tog)
       return;
     }
     if (FIGHTING(ch) && HAS_FEAT(ch, FEAT_HIDE_IN_PLAIN_SIGHT) && 
-      skill_roll(FIGHTING(ch), SKILL_SPOT) < skill_roll(ch, SKILL_HIDE)) {
+      skill_roll(FIGHTING(ch), SKILL_SPOT) < skill_roll(ch, SKILL_STEALTH)) {
       stop_fighting(FIGHTING(ch));
       stop_fighting(ch);
     }

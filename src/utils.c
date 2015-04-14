@@ -1491,7 +1491,7 @@ int get_skill_value(struct char_data *ch, int skillnum) {
     case SKILL_FARMING:
       value += HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER);
       break;
-    case SKILL_HIDE:
+    case SKILL_STEALTH:
       value += (SIZE_MEDIUM - get_size(ch)) * 4;
       break;
     case SKILL_LORE:

@@ -988,7 +988,7 @@ void list_char_to_char(struct char_data *list, struct char_data *ch)
   /* hideinfo = lasthide = NULL; */
   
   /* for (i = list; i; i = i->next_in_room) {
-    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_HIDE, ch, SKILL_SPOT)) {
+    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_STEALTH, ch, SKILL_SPOT)) {
       CREATE(tmphide, struct hide_node, 1);
       tmphide->next = NULL;
       tmphide->hidden = i;
@@ -1011,7 +1011,7 @@ void list_char_to_char(struct char_data *list, struct char_data *ch)
         break;
     if (tmphide)
       continue; */
-    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_HIDE, ch, SKILL_SPOT))
+    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_STEALTH, ch, SKILL_SPOT))
 			continue;
 
     if (CAN_SEE(ch, i)) {

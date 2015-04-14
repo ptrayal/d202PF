@@ -607,8 +607,7 @@
 #define SKILL_USE_MAGIC_DEVICE  816
 #define SKILL_FORGERY           807
 #define SKILL_SPELLCRAFT        816
-#define SKILL_HIDE              813
-#define SKILL_MOVE_SILENTLY     813
+// #define SKILL_STEALTH           813
 #define SKILL_SPOT              809
 #define SKILL_LISTEN            809
 #define SKILL_SEARCH            809

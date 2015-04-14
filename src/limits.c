@@ -1188,8 +1188,8 @@ void point_update(void)
     }
 
     if (GET_MARK(i)) {
-      if (skill_roll(i, SKILL_HIDE) > skill_roll(GET_MARK(i), SKILL_SPOT) &&
-          skill_roll(i, SKILL_MOVE_SILENTLY) > skill_roll(GET_MARK(i), SKILL_LISTEN)) {
+      if (skill_roll(i, SKILL_STEALTH) > skill_roll(GET_MARK(i), SKILL_SPOT) &&
+          skill_roll(i, SKILL_STEALTH) > skill_roll(GET_MARK(i), SKILL_LISTEN)) {
         GET_MARK_ROUNDS(i) += 2;
         if (GET_MARK_ROUNDS(i) >= 10)
           send_to_char(i, "Your mark is now ready for assassination.\r\n");

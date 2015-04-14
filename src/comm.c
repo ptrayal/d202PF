@@ -3466,12 +3466,12 @@ void act(const char *str, int hide_invisible, struct char_data *ch,
     type &= ~TO_HIDERESIST;
 
   if (res_sneak) {
-    dcval = roll_skill(ch, SKILL_MOVE_SILENTLY); /* How difficult to counter? */
+    dcval = roll_skill(ch, SKILL_STEALTH); /* How difficult to counter? */
 //    if (has_favored_enemy(ch, (struct char_data *) vict_obj))
 //      dcval -= dice(1, (GET_CLASS_RANKS(ch, CLASS_RANGER) / 5) + 1) * 2;
     resskill = SKILL_LISTEN;             /* Skill used to resist      */
   } else if (res_hide) {
-    dcval = roll_skill(ch, SKILL_HIDE);
+    dcval = roll_skill(ch, SKILL_STEALTH);
 //    if (has_favored_enemy(ch, (struct char_data *) vict_obj))
 //      dcval -= dice(1, (GET_CLASS_RANKS(ch, CLASS_RANGER) / 5) + 1) * 2;
     resskill = SKILL_SPOT;
