@@ -2291,15 +2291,4 @@ char *weapon_damage_types[] =
   "\n"
 };
 
-char *campaign_names[] = {
-  "Star Wars - Knights of the Old Republic",
-  "Dragonlance 4th Age - Post War of the Lance",
-  "Forgotten Realms - 1372 DR",
-  "\n"
-};
-char *campaign_abbrevs[] = {
-  "Star_Wars",
-  "Dragonlance",
-  "Forgotten_Realms",
-  "\n"
-};
+

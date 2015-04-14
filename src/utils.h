@@ -39,8 +39,6 @@ extern const char *pc_class_types_fr[];
 extern const char *pc_class_types_dl_aol[];
 extern const char *class_names_fr[];
 extern const char *class_names_dl_aol[];
-extern char *campaign_names[];
-extern char *campaign_abbrevs[];
 extern const char *weapon_type[];
 extern const char *armor_type[];
 extern const char *wield_names[];

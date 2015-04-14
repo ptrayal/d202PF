@@ -78,7 +78,7 @@ char *hints[NUM_HINTS] = {
   "For help of feats type HELP FEAT <FEAT NAME>, for skills HELP SKILL <SKILL NAME, spells are\r\n"
   "HELP SPELL <SPELL NAME>, classes are HELP CLASS <CLASS NAME> and races are HELP RACE <RACE NAME>.@n\r\n",
 
-  "@R[HINT]: @yIf you have an idea for a hint, please email your idea to stephen.squires@@gmail.com.@n\r\n",
+  "@R[HINT]: @yIf you have an idea for a hint, please email your idea to ptrayal@@gmail.com.@n\r\n",
 
   "@R[HINT]: @yIf you do not wish to see any more hints, type NOHINTS.@n\r\n",
 
