@@ -1582,7 +1582,7 @@ void apply_milestone_bonus(struct char_data *ch)
   }
   else if (number <= 65) {
     GET_BANK_GOLD(ch) += GET_LEVEL(ch) * 1000;
-    send_to_char(ch, "A grateful citizen has rewarded you with %d steel coins! (check bank)@n\r\n", GET_LEVEL(ch) * 10);
+    send_to_char(ch, "A grateful citizen has rewarded you with %d %s! (check bank)@n\r\n", GET_LEVEL(ch) * 10, MONEY_STRING);
     return;
   }
   else if (number <= 73) {

@@ -1241,7 +1241,7 @@ ACMD(do_pilfer)
       award_special_magic_item(ch);
     else if (roll2 <= 200) {
       int gold = GET_LEVEL(FIGHTING(ch)) * MAX(1, (GET_LEVEL(FIGHTING(ch)) / 5)) * MAX(1, (GET_LEVEL(FIGHTING(ch)) / 10)) * 100;
-      send_to_char(ch, "You have pilfered a purse containing gems worth %d steel coins.\r\n", gold);
+      send_to_char(ch, "You have pilfered a purse containing gems worth %d %s.\r\n", gold, MONEY_STRING);
       GET_GOLD(ch) += gold;
     }
     else if (roll2 <= 400)
@@ -3268,7 +3268,7 @@ void award_lockbox_treasure(struct char_data *ch, int level)
       award_special_magic_item(ch);
     else if (roll2 <= 500) {
       int gold = level * MAX(1, (level / 5)) * MAX(1, (level / 10)) * 100;
-      send_to_char(ch, "You have found a credstick with %d credits!\r\n", gold);
+      send_to_char(ch, "You have found %d %s!\r\n", gold, MONEY_STRING);
       GET_GOLD(ch) += gold;
     }
     else if (roll2 <= 700)

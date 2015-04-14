@@ -1933,7 +1933,7 @@ ACMD(do_fix)
   int cost = GET_OBJ_LEVEL(obj) * MAX(1, GET_OBJ_LEVEL(obj) / 5) * 2;
 
   if (GET_GOLD(ch) < cost) {
-    send_to_char(ch, "Repairing that has a material cost of %d steel coins.\r\n", cost);
+    send_to_char(ch, "Repairing that has a material cost of %d %s.\r\n", cost, MONEY_STRING);
     return;
   }
 
@@ -1977,11 +1977,11 @@ ACMD(do_fix)
   else {
     GET_OBJ_VAL(obj, valnum) -= (dc - roll) / 2;
 	if (GET_OBJ_VAL(obj, valnum) > 0) {
-	  send_to_char(ch, "Your attempt to repair %s damages it even further, costing you %d steel coins in materials.", obj->short_description, cost);
+	  send_to_char(ch, "Your attempt to repair %s damages it even further, costing you %d %s in materials.", obj->short_description, cost, MONEY_STRING);
 	  act("$n's attempt to repair $p damages it further.", false, ch, obj, 0, TO_ROOM);
 	}
 	else {
-	  send_to_char(ch, "Your attempt to repair %s breaks it completely, also costing you %d steel coins in materials.", obj->short_description, cost );
+	  send_to_char(ch, "Your attempt to repair %s breaks it completely, also costing you %d %s in materials.", obj->short_description, cost, MONEY_STRING );
 	  act("$n's attempt to repair $p breaks it completely.", false, ch, obj, 0, TO_ROOM);	
 	}
   }

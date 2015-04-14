@@ -3925,7 +3925,7 @@ ACMD(do_binditem) {
   }
 
   if (GET_GOLD(ch) < cost) {
-    send_to_char(ch, "You need %d steel coins to bind this item, but you only have %d on hand.\r\n", cost, GET_GOLD(ch));
+    send_to_char(ch, "You need %d %s to bind this item, but you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
     return;
   }
 
@@ -3961,7 +3961,7 @@ ACMD(do_binditem) {
 
   GET_OBJ_VAL(obj, 13) = GET_IDNUM(ch);
 
-  send_to_char(ch, "%s has been successfully bound to you for %d steel coins.\r\n", (obj->short_description), cost);
+  send_to_char(ch, "%s has been successfully bound to you for %d %s.\r\n", (obj->short_description), cost, MONEY_STRING);
   
 
 }
