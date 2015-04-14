@@ -75,7 +75,6 @@ extern char *race_names[NUM_RACES];
 extern const char compress_offer[];
 extern struct pet_data pet_list[NUM_PETS];
 extern const char *alignments[];
-extern const char *class_display[];
 extern int spell_sort_info[SKILL_TABLE_SIZE + 1];
 extern int feat_sort_info[MAX_FEATS + 1];
 extern int sorcerer_spells_known[22][10];
@@ -1864,37 +1863,26 @@ write_to_output(d,
 
 void display_classes(struct descriptor_data *d)
 {
-send_to_char(d->character, "\r\n");
-send_to_char(d->character, "Please select a class to begin your character's life as.  This is his first class, though\r\n");
-send_to_char(d->character, "once you enter the game and begin to gain levels you may gain levels some of the other\r\n");
-send_to_char(d->character, "classes you see here as well as some advanced classes, of which more can be learned about\r\n");
-send_to_char(d->character, "in the game.\r\n");
-send_to_char(d->character, "\r\n");
-send_to_char(d->character, "Your class will determine the number of skill points you receive and how much each skill\r\n");
-send_to_char(d->character, "costs to learn, as well as your hit points, attack bonus, what weapons and armor you\r\n");
-send_to_char(d->character, "start off knowing how to use, and what special abilities you will start with.  As you\r\n");
-send_to_char(d->character, "progress in each class you will learn new abilities pertaining to that class.  Or you\r\n");
-send_to_char(d->character, "may split yourlevels among multiple class and be able to do many different things, at\r\n");
-send_to_char(d->character, "a lesser degree of ability than if you specialized.\r\n");
-send_to_char(d->character, "\r\n");
-send_to_char(d->character, "To select a class type the class name.  To learn more about a class type help followed\r\n");
-send_to_char(d->character, "by the class name.\r\n");
-send_to_char(d->character, "\r\n");
-send_to_char(d->character, "C@Wlasses: paladin fighter rogue mage cleric monk barbarian@n\r\n");
-send_to_char(d->character, "\r\n");
-send_to_char(d->character, "What class would you like to start as? ");
+  send_to_char(d->character, "\r\n");
+  send_to_char(d->character, "Please select a class to begin your character's life as.  This is his first class, though\r\n");
+  send_to_char(d->character, "once you enter the game and begin to gain levels you may gain levels some of the other\r\n");
+  send_to_char(d->character, "classes you see here as well as some advanced classes, of which more can be learned about\r\n");
+  send_to_char(d->character, "in the game.\r\n");
+  send_to_char(d->character, "\r\n");
+  send_to_char(d->character, "Your class will determine the number of skill points you receive and how much each skill\r\n");
+  send_to_char(d->character, "costs to learn, as well as your hit points, attack bonus, what weapons and armor you\r\n");
+  send_to_char(d->character, "start off knowing how to use, and what special abilities you will start with.  As you\r\n");
+  send_to_char(d->character, "progress in each class you will learn new abilities pertaining to that class.  Or you\r\n");
+  send_to_char(d->character, "may split yourlevels among multiple class and be able to do many different things, at\r\n");
+  send_to_char(d->character, "a lesser degree of ability than if you specialized.\r\n");
+  send_to_char(d->character, "\r\n");
+  send_to_char(d->character, "To select a class type the class name.  To learn more about a class type help followed\r\n");
+  send_to_char(d->character, "by the class name.\r\n");
+  send_to_char(d->character, "\r\n");
+  send_to_char(d->character, "C@Wlasses: paladin fighter rogue mage cleric monk barbarian@n\r\n");
+  send_to_char(d->character, "\r\n");
+  send_to_char(d->character, "What class would you like to start as? ");
 
-/*
-  int x;
-
-  send_to_char(d->character, "\r\n@YClass SELECTION menu:\r\n@G---------------------\r\n@n");
-  for (x = 0; x <= CLASS_DRUID; x++)
-    if (class_ok_general(d->character, x))
-      send_to_char(d->character, "%s\r\n", class_display[x]);
-
-      send_to_char(d->character, "\n@BT@W) @CToggle between SELECTION/HELP Menu\r\n@n");
-      send_to_char(d->character, "\n@WClass: @n");
-*/
 }
 
 void display_races_help(struct descriptor_data *d)

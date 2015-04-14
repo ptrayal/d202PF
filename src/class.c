@@ -429,37 +429,7 @@ const char *class_names_dl_aol[] = {
   "expansion",
   "\n"
 };
-/* The menu for choosing a class in interpreter.c: */
-const char *class_display[NUM_CLASSES] = {
-  "@BA@W)  @nMage",
-  "@BB@W)  @nCleric",
-  "@BC@W)  @nRogue",
-  "@BD@W)  @nFighter",
-  "@BE@W)  @nMonk",
-  "@BF@W)  @nPaladin",
-  "@BG@W)  @nBarbarian",
-  "@BH@W)  @nBard",
-  "@BI@W)  @nRanger",
-  "@BJ@W)  @nDruid",
-  "Knight of the Crown",
-  "Knight of the Sword",
-  "Knight of the Rose",
-  "Knight of the Lily",
-  "Knight of the Skull",
-  "Knight of the Thorn",
-  "Wizard of High Sorcery",
-  "Duelist",
-  "Gladiator",
-  "@BK@W)  @nMystic",
-  "@BL@W)  @nSorcerer",
-  "@BM@W)  @nNoble",
-  "Expansion",
-  "Expansion",
-  "Expansion",
-  "Expansion",
-  "Expansion",  
-  "Npc",
-};
+
 #define Y   true
 #define N   false
 
