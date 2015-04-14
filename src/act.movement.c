@@ -873,7 +873,7 @@ ACMD(do_gen_door)
         EXIT(ch, door)->dclock = 21;
     }
     if (door >= 0 && (EXIT_FLAGGED(EXIT(ch, door), EX_SECRET)) &&
-        (get_skill_value(ch, SKILL_SEARCH) + 20) < EXIT(ch, door)->dchide)  {
+        (get_skill_value(ch, SKILL_PERCEPTION) + 20) < EXIT(ch, door)->dchide)  {
         send_to_char(ch, "There doesn't seem to be %s %s here.\r\n", AN(type), type);
         return;
     }

@@ -38,10 +38,6 @@ const char *CampaignWorld[] =
   "Golarion"
 };
 
-// 
-//  Unstable Code below this comment.  As code becomes working, we move it above.
-// 
-
 const char *CampaignName[] = 
 {
   "Unknown - Alert Admin",
@@ -49,4 +45,9 @@ const char *CampaignName[] =
   "Dragonlance: Age of Legends",
   "Pathfinder - Golarion"
 };
+
+// 
+//  Unstable Code below this comment.  As code becomes working, we move it above.
+// 
+
 

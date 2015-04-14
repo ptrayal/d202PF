@@ -127,7 +127,7 @@ void determine_treasure(struct char_data *ch, struct char_data *mob)
   gold *= (100 + GET_RP_GOLD_BONUS(ch));
   gold /= 100;
   
-  factor += get_skill_value(ch, SKILL_SEARCH);
+  factor += get_skill_value(ch, SKILL_PERCEPTION);
 
   if (GET_MOB_SPEC(mob) == shop_keeper)
     level = dice(1, GET_LEVEL(mob));

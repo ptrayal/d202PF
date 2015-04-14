@@ -339,7 +339,7 @@ if (IS_NPC(vict) && MOB_FLAGGED(vict, MOB_NOKILL))
      continue;
 if (GET_MOB_VNUM(ch) == GET_MOB_VNUM(vict))
      continue;
-if (skill_roll(ch, SKILL_SLEIGHT_OF_HAND) > skill_roll(vict, SKILL_SPOT) && dice(1, 10) == 1 && GET_MOB_SPEC(ch) == NULL) {
+if (skill_roll(ch, SKILL_SLEIGHT_OF_HAND) > skill_roll(vict, SKILL_PERCEPTION) && dice(1, 10) == 1 && GET_MOB_SPEC(ch) == NULL) {
      npc_steal(ch, vict);
      found = TRUE;
 }

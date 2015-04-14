@@ -608,9 +608,9 @@
 #define SKILL_FORGERY           807
 #define SKILL_SPELLCRAFT        816
 // #define SKILL_STEALTH           813
-#define SKILL_SPOT              809
-#define SKILL_LISTEN            809
-#define SKILL_SEARCH            809
+// #define SKILL_SPOT              809
+// #define SKILL_LISTEN            809
+// #define SKILL_SEARCH            809
 #define SKILL_LORE              807
 #define SKILL_OPEN_LOCK         815
 #define SKILL_HANDLE_ANIMAL     812

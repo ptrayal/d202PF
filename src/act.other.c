@@ -430,7 +430,7 @@ ACMD(do_steal)
   if (GET_POS(vict) < POS_SLEEPING)
     detect = 0;
   else
-    detect = (roll_skill(vict, SKILL_SPOT) > roll);
+    detect = (roll_skill(vict, SKILL_PERCEPTION) > roll);
 
   if (!CONFIG_PT_ALLOWED && !IS_NPC(vict))
     pcsteal = 1;
@@ -1589,7 +1589,8 @@ ACMD(do_gen_tog)
       return;
     }
     if (FIGHTING(ch) && HAS_FEAT(ch, FEAT_HIDE_IN_PLAIN_SIGHT) && 
-      skill_roll(FIGHTING(ch), SKILL_SPOT) < skill_roll(ch, SKILL_STEALTH)) {
+      skill_roll(FIGHTING(ch), SKILL_PERCEPTION) < skill_roll(ch, SKILL_STEALTH)) 
+    {
       stop_fighting(FIGHTING(ch));
       stop_fighting(ch);
     }

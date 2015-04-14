@@ -3469,12 +3469,12 @@ void act(const char *str, int hide_invisible, struct char_data *ch,
     dcval = roll_skill(ch, SKILL_STEALTH); /* How difficult to counter? */
 //    if (has_favored_enemy(ch, (struct char_data *) vict_obj))
 //      dcval -= dice(1, (GET_CLASS_RANKS(ch, CLASS_RANGER) / 5) + 1) * 2;
-    resskill = SKILL_LISTEN;             /* Skill used to resist      */
+    resskill = SKILL_PERCEPTION;             /* Skill used to resist      */
   } else if (res_hide) {
     dcval = roll_skill(ch, SKILL_STEALTH);
 //    if (has_favored_enemy(ch, (struct char_data *) vict_obj))
 //      dcval -= dice(1, (GET_CLASS_RANKS(ch, CLASS_RANGER) / 5) + 1) * 2;
-    resskill = SKILL_SPOT;
+    resskill = SKILL_PERCEPTION;
   }
 
   /* this is a hack as well - DG_NO_TRIG is 256 -- Welcor */

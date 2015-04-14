@@ -4003,8 +4003,8 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
 
 
     if (!FIGHTING(ch)) {
-    	if ((skill_roll(ch, SKILL_STEALTH) <= skill_roll(victim, SKILL_SPOT)) || 
-    		  (skill_roll(ch, SKILL_STEALTH) <= skill_roll(victim, SKILL_LISTEN))) {
+    	if ((skill_roll(ch, SKILL_STEALTH) <= skill_roll(victim, SKILL_PERCEPTION))) 
+      {
     		  tot_attacks = 1;
       }
     }

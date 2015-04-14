@@ -1269,7 +1269,7 @@ int has_intro(struct char_data *ch, struct char_data *target)
     if (
         ((AFF_FLAGGED(target, AFF_WILD_SHAPE) && !is_player_grouped(ch, target)) ||
         !AFF_FLAGGED(target, AFF_WILD_SHAPE)) &&
-        AFF_FLAGGED(target, AFF_DISGUISED) && skill_roll(ch, SKILL_SPOT) < GET_DISGUISE_ROLL(target)) {
+        AFF_FLAGGED(target, AFF_DISGUISED) && skill_roll(ch, SKILL_PERCEPTION) < GET_DISGUISE_ROLL(target)) {
         DISGUISE_SEEN(target) = FALSE;
         return false;
     }
@@ -1295,7 +1295,7 @@ int has_intro(struct char_data *ch, struct char_data *target)
     //if (!(&GET_SDESC(target)))
       //return true;
 
-    if (AFF_FLAGGED(target, AFF_DISGUISED) && skill_roll(ch, SKILL_SPOT) < skill_roll(target, SKILL_DISGUISE) &&
+    if (AFF_FLAGGED(target, AFF_DISGUISED) && skill_roll(ch, SKILL_PERCEPTION) < skill_roll(target, SKILL_DISGUISE) &&
         !AFF_FLAGGED(ch, AFF_TRUE_SIGHT) && !is_player_grouped(ch, target))
         return false;
 
@@ -1499,7 +1499,7 @@ int get_skill_value(struct char_data *ch, int skillnum) {
         value += 2;
       value += GET_CLASS_RANKS(ch, CLASS_BARD);
       break;
-    case SKILL_LISTEN:
+    case SKILL_PERCEPTION:
       if (IS_HALF_ELF(ch))
         value += 1;
       break;

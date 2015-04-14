@@ -115,7 +115,7 @@ void assign_feats(void)
 // a feat given automatically to certain classes or races.
 
 feato(FEAT_DIVINE_BOND, "divine bond", TRUE, FALSE, FALSE, "paladin level 5", "bonuses to attack and damage rolls when active");
-feato(FEAT_ALERTNESS, "alertness", TRUE, TRUE, FALSE, "none", "+2 to spot and listen skill checks"); 
+feato(FEAT_ALERTNESS, "alertness", TRUE, TRUE, FALSE, "none", "+2 to Perception and Sense Motives skill checks"); 
 feato(FEAT_ARMOR_PROFICIENCY_HEAVY, "heavy armor proficiency", TRUE, TRUE, FALSE, "armor proficiency light and medium", "allows unpenalizaed use of heavy armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_LIGHT, "light armor proficiency", TRUE, TRUE, FALSE, "none", "allows unpenalized use of light armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_MEDIUM, "medium armor proficiency", TRUE, TRUE, FALSE, "armor proficiency light", "allows unpenalized use of medium armor"); 

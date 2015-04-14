@@ -988,7 +988,7 @@ void list_char_to_char(struct char_data *list, struct char_data *ch)
   /* hideinfo = lasthide = NULL; */
   
   /* for (i = list; i; i = i->next_in_room) {
-    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_STEALTH, ch, SKILL_SPOT)) {
+    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_STEALTH, ch, SKILL_PERCEPTION)) {
       CREATE(tmphide, struct hide_node, 1);
       tmphide->next = NULL;
       tmphide->hidden = i;
@@ -1011,7 +1011,7 @@ void list_char_to_char(struct char_data *list, struct char_data *ch)
         break;
     if (tmphide)
       continue; */
-    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_STEALTH, ch, SKILL_SPOT))
+    if (AFF_FLAGGED(i, AFF_HIDE) && roll_resisted(i, SKILL_STEALTH, ch, SKILL_PERCEPTION))
 			continue;
 
     if (CAN_SEE(ch, i)) {
@@ -4253,7 +4253,7 @@ void search_in_direction(struct char_data * ch, int dir)
   act("$n searches the area intently.", true, ch, 0, 0, TO_ROOM);
 
   /* SEARCHING is allowed untrained */
-  skill_lvl = roll_skill(ch, SKILL_SEARCH);
+  skill_lvl = roll_skill(ch, SKILL_PERCEPTION);
   if (IS_ELF(ch) || IS_DROW_ELF(ch)) 
     skill_lvl = skill_lvl + 2;
   if (IS_HALF_ELF(ch))

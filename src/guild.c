@@ -1244,8 +1244,8 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
   case FEAT_ALERTNESS:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_LISTEN, GET_SKILL_BONUS(ch, SKILL_LISTEN) + 2);
-    SET_SKILL_BONUS(ch, SKILL_SPOT, GET_SKILL_BONUS(ch, SKILL_SPOT) + 2);
+    SET_SKILL_BONUS(ch, SKILL_PERCEPTION, GET_SKILL_BONUS(ch, SKILL_PERCEPTION) + 2);
+    SET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE, GET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE) + 2);
     break;
   case FEAT_ANIMAL_AFFINITY:
     subval = HAS_FEAT(ch, feat_num) + 1;
