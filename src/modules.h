@@ -3,5 +3,6 @@
 
 int DetermineCampaign();
 extern const char *CampaignWorld[];
+extern const char *CampaignName[];
 
 #endif

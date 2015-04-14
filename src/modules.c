@@ -42,5 +42,11 @@ const char *CampaignWorld[] =
 //  Unstable Code below this comment.  As code becomes working, we move it above.
 // 
 
-
+const char *CampaignName[] = 
+{
+  "Unknown - Alert Admin",
+  "Forgotten Realms",
+  "Dragonlance: Age of Legends",
+  "Pathfinder - Golarion"
+};
 
