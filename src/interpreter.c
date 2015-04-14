@@ -4968,7 +4968,7 @@ void process_add_feat(struct char_data *ch, int feat_num)
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
     SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
-    SET_SKILL_BONUS(ch, SKILL_TUMBLE, GET_SKILL_BONUS(ch, SKILL_TUMBLE) + 2);
+    SET_SKILL_BONUS(ch, SKILL_ACROBATICS, GET_SKILL_BONUS(ch, SKILL_ACROBATICS) + 2);
     break;
   case FEAT_ALERTNESS:
     subval = HAS_FEAT(ch, feat_num) + 1;

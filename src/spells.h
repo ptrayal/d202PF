@@ -601,16 +601,17 @@
 #define SKILL_HUNTING           827
 #define SKILL_HERBALISM         828
 
-#define SKILL_BALANCE           800
+// #define SKILL_BALANCE           800
+// #define SKILL_TUMBLE		800
+// #define SKILL_STEALTH           813
+// #define SKILL_SPOT              809
+// #define SKILL_LISTEN            809
+// #define SKILL_SEARCH            809
 #define SKILL_USE_ROPE          800
 #define SKILL_APPRAISE		810
 #define SKILL_USE_MAGIC_DEVICE  816
 #define SKILL_FORGERY           807
 #define SKILL_SPELLCRAFT        816
-// #define SKILL_STEALTH           813
-// #define SKILL_SPOT              809
-// #define SKILL_LISTEN            809
-// #define SKILL_SEARCH            809
 #define SKILL_LORE              807
 #define SKILL_OPEN_LOCK         815
 #define SKILL_HANDLE_ANIMAL     812
@@ -621,7 +622,6 @@
 #define SKILL_DIPLOMACY         810
 #define SKILL_HEAL              814
 #define SKILL_DISGUISE          802
-#define SKILL_TUMBLE		800
 #define SKILL_DISABLE_DEVICE    808
 #define SKILL_DECIPHER_SCRIPT   807
 #define SKILL_ESCAPE_ARTIST     800

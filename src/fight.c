@@ -420,11 +420,11 @@ int compute_armor_class(struct char_data *ch, struct char_data *att)
   
     if (armor) {
       if (GET_OBJ_TYPE(armor) == ITEM_WORN || highest_armor_type(ch) <= ARMOR_TYPE_LIGHT)  // Light armor or less
-        armorclass += get_skill_value(ch, SKILL_TUMBLE);
+        armorclass += get_skill_value(ch, SKILL_ACROBATICS);
      
     }
     else
-      armorclass += get_skill_value(ch, SKILL_TUMBLE);      
+      armorclass += get_skill_value(ch, SKILL_ACROBATICS);      
   }
 
   if (ch->mentor_level > 0) {
@@ -3106,7 +3106,7 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
   	victim_ac += 4;
   	REMOVE_BIT_AR(AFF_FLAGS(victim), AFF_AOO);
         armor = GET_EQ(ch, WEAR_BODY);
-        if (skill_roll(ch, SKILL_TUMBLE) >= 15) {
+        if (skill_roll(ch, SKILL_ACROBATICS) >= 15) {
           if (armor) {
             if (GET_OBJ_TYPE(armor) == ITEM_WORN || highest_armor_type(ch) <= ARMOR_TYPE_LIGHT)  // Light armor or less
               return damage(ch, victim, 0, w_type, 0, -1, 0, 0, 0);          

@@ -587,7 +587,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     if (GET_SKILL_RANKS(ch, SKILL_STEALTH) < 30)
       return FALSE;
-    if (GET_SKILL_RANKS(ch, SKILL_TUMBLE) < 30)
+    if (GET_SKILL_RANKS(ch, SKILL_ACROBATICS) < 30)
       return FALSE;
     if (ch->real_abils.dex < 30)
       return FALSE;
@@ -652,7 +652,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return true;
 
   case FEAT_EPIC_DODGE:
-    if (ch->real_abils.dex >= 25 && has_feat(ch, FEAT_DODGE) && has_feat(ch, FEAT_DEFENSIVE_ROLL) && GET_SKILL(ch, SKILL_TUMBLE) >= 30)
+    if (ch->real_abils.dex >= 25 && has_feat(ch, FEAT_DODGE) && has_feat(ch, FEAT_DEFENSIVE_ROLL) && GET_SKILL(ch, SKILL_ACROBATICS) >= 30)
       return TRUE;
     return FALSE;
 

@@ -3846,7 +3846,7 @@ void mag_assign_spells(void)
 
    */
   skillo(SKILL_DIPLOMACY, "diplomacy", SKFLAG_CHAMOD);
-  skillo(SKILL_BALANCE, "balance", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
+  skillo(SKILL_ACROBATICS, "balance", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_BLUFF, "bluff", SKFLAG_CHAMOD);
   skillo(SKILL_CONCENTRATION, "concentration", SKFLAG_CONMOD);
   skillo(SKILL_DECIPHER_SCRIPT, "decipher script", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
@@ -3868,7 +3868,6 @@ void mag_assign_spells(void)
   skillo(SKILL_SPELLCRAFT, "spellcraft", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_PERCEPTION, "perception", SKFLAG_WISMOD);
   skillo(SKILL_SURVIVAL, "survival", SKFLAG_WISMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_TUMBLE, "tumble", SKFLAG_DEXMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORALL);
   skillo(SKILL_USE_ROPE, "use rope", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_USE_MAGIC_DEVICE, "use magic device", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_COMBAT_TACTICS, "combat tactics", SKFLAG_INTMOD);
