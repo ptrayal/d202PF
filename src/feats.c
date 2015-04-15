@@ -1324,10 +1324,15 @@ int is_proficient_with_weapon(const struct char_data *ch, int weapon_type)
   if (GET_CLASS_RANKS(ch, CLASS_DEATH_MASTER) > 0 && weapon_type == WEAPON_TYPE_SCYTHE)
     return TRUE;
 
-  if (IS_DWARF(ch) && HAS_FEAT((struct char_data *)ch, FEAT_MARTIAL_WEAPON_PROFICIENCY)) {
-    switch (weapon_type) {
+  if (IS_DWARF(ch) && HAS_FEAT((struct char_data *)ch, FEAT_MARTIAL_WEAPON_PROFICIENCY)) 
+  {
+    switch (weapon_type) 
+    {
       case WEAPON_TYPE_DWARVEN_WAR_AXE:
       case WEAPON_TYPE_DWARVEN_URGOSH:
+      case WEAPON_TYPE_BATTLE_AXE:
+      case WEAPON_TYPE_WARHAMMER:
+      case WEAPON_TYPE_HEAVY_PICK:
         return TRUE;
     }
   }

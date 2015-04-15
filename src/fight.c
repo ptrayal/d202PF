@@ -4868,7 +4868,7 @@ int trip_roll(struct char_data *ch, int defending) {
     }
 */	
 	if (IS_DWARF(ch))
-	  roll += 2;
+	  roll += 4;
 
   }
 

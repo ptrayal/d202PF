@@ -2122,7 +2122,8 @@ void add_innate_timer(struct char_data *ch, int spellnum)
 void add_innate_affects(struct char_data *ch) 
 {
 #if defined(CAMPAIGN_FORGOTTEN_REALMS)
-  switch(GET_RACE(ch)) {  
+  switch(GET_RACE(ch)) 
+  {  
   case RACE_MOON_ELF:
   case RACE_SHIELD_DWARF:
   case RACE_ROCK_GNOME:

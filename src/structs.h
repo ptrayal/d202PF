@@ -408,22 +408,22 @@ extern struct config_data config_info;
 #define RACE_UNDEFINED             -1
 #define RACE_SPIRIT                 0
 #define RACE_HUMAN                  1
-#define RACE_BOTHAN                 2
-#define RACE_CEREAN                 3
-#define RACE_DUROS                  4
-#define RACE_EWOK                   5
-#define RACE_GAMORREAN              6
-#define RACE_GUNGAN                 7
-#define RACE_ITHORIAN               8
-#define RACE_KEL_DOR                9
-#define RACE_MON_CALAMARI           10
-#define RACE_QUARREN                11
-#define RACE_RODIAN                 12
-#define RACE_SULLUSTAN              13
-#define RACE_TRANDOSHAN             14
-#define RACE_TWILEK                 15
-#define RACE_WOOKIEE                16
-#define RACE_ZABRAK                 17
+#define RACE_DWARF                  2
+#define RACE_CEREAN                 3  // Replaceable
+#define RACE_DUROS                  4  // Replaceable
+#define RACE_EWOK                   5  // Replaceable
+#define RACE_GAMORREAN              6  // Replaceable
+#define RACE_GUNGAN                 7  // Replaceable
+#define RACE_ITHORIAN               8  // Replaceable
+#define RACE_KEL_DOR                9  // Replaceable
+#define RACE_MON_CALAMARI           10  // Replaceable
+#define RACE_QUARREN                11  // Replaceable
+#define RACE_RODIAN                 12  // Replaceable
+#define RACE_SULLUSTAN              13  // Replaceable
+#define RACE_TRANDOSHAN             14  // Replaceable
+#define RACE_TWILEK                 15  // Replaceable
+#define RACE_WOOKIEE                16  // Replaceable
+#define RACE_ZABRAK                 17  // Replaceable
 #define RACE_TINY_BEAST             18
 #define RACE_SMALL_BEAST            19
 #define RACE_MEDIUM_BEAST           20
@@ -433,16 +433,16 @@ extern struct config_data config_info;
 #define RACE_GARGANTUAN_BEAST       24
 #define RACE_TINY_DROID             25
 #define RACE_ASTROMECH_DROID        26
-#define RACE_PROTOCOL_DROID          27
+#define RACE_PROTOCOL_DROID         27
 #define RACE_BATTLE_DROID           28
 #define RACE_RECON_DROID            29
 #define RACE_HUGE_DROID             30
 #define RACE_COLOSSAL_DROID         31
-#define RACE_SAND_PERSON            32
-#define RACE_YODAN		    33
-#define RACE_JAWA		    34
-#define RACE_CHISS                  35
-#define RACE_KUSHIBAN               36
+#define RACE_SAND_PERSON            32  // Replaceable
+#define RACE_YODAN                  33  // Replaceable
+#define RACE_JAWA                   34  // Replaceable
+#define RACE_CHISS                  35  // Replaceable
+#define RACE_KUSHIBAN               36  // Replaceable
 
 // #define RACE_QUALINESTI_ELF         1 // pc dragonlance
 // #define RACE_HYLAR_DWARF            2 // pc dragonlance

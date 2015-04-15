@@ -2359,7 +2359,7 @@ int get_speed(struct char_data *ch) {
     return 25;
 
   int speed = 20;
-  int i;
+  int i = 0;
   int ft20 = 20, ft30 = 30;
   int mult = 3;
 
