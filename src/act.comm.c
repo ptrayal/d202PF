@@ -27,6 +27,7 @@ SVNHEADER("$Id: act.comm.c 57 2009-03-24 00:15:02Z gicker $");
 #include "dg_scripts.h"
 #include "spells.h"
 #include "boards.h"
+#include "modules.h"
 
 /* local functions */
 void perform_tell(struct char_data *ch, struct char_data *vict, char *arg);
@@ -87,19 +88,30 @@ char const *languages_fr[] =
   "dwarven",
   "celestial",
   "draconic",
+  "aklo",
   "orcish",
+  "aquan",
   "halfing",
   "goblin",
-  "chondathan",
+  "auran",
+  "gnoll",
   "giant",
   "kobold",
-  "ice barbaric",
-  "midani",
-  "chultan",
-  "tuigan",
-  "lantanese",
-  "mulhorandi",
-  "rashemi",
+  "ignan",
+  "infernal",
+  "sylvan",
+  "terran",
+  "aboleth",
+  "drow sign language",
+  "boggard",
+  "sphinx",
+  "strix",
+  "cyclops",
+  "dark folk",
+  "grippli",
+  "tengu",
+  "protean",
+  "treant",
   "undercommon",
   "\n"
 };
@@ -108,8 +120,8 @@ void list_languages(struct char_data *ch)
 {
     int a = 0, i;
 
-    send_to_char(ch, "Languages:\r\n[");
-        for (i = MIN_LANGUAGES ; i <= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? MAX_LANGUAGES_FR : MAX_LANGUAGES_DL_AOL) ; i++)
+    send_to_char(ch, "Languages (red means currently speaking):\r\n[");
+        for (i = MIN_LANGUAGES ; i <= CampaignMaxLanguages() ; i++)
             if (GET_SKILL(ch, i) || affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON))
                 send_to_char(ch, "%s %s%s%s",
                     a++ != 0 ? "," : "",
@@ -132,7 +144,7 @@ ACMD(do_languages)
             list_languages(ch);
         else 
         {
-            for (i = MIN_LANGUAGES; i <= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? MAX_LANGUAGES_FR : MAX_LANGUAGES_DL_AOL); i++) {
+            for (i = MIN_LANGUAGES; i <= CampaignMaxLanguages(); i++) {
                 if (((search_block(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol), false) == i-MIN_LANGUAGES) && (GET_SKILL(ch, i) ||
                     affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON)))) 
                 {

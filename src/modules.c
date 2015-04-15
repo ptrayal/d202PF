@@ -46,6 +46,27 @@ const char *CampaignName[] =
   "Pathfinder - Golarion"
 };
 
+int CampaignMaxLanguages()
+{
+    int campaign = -1;
+    switch(CONFIG_CAMPAIGN) 
+    {
+        default:
+        campaign = MAX_LANGUAGES;
+        break;
+        case CAMPAIGN_DRAGONLANCE:
+        campaign = MAX_LANGUAGES_DL_AOL;
+        break;
+        case CAMPAIGN_GOLARION:
+        campaign = MAX_LANGUAGES;
+        break;
+        case CAMPAIGN_FORGOTTEN_REALMS:
+        campaign = MAX_LANGUAGES_FR;
+        break;
+    }
+    return campaign;
+}
+
 // 
 //  Unstable Code below this comment.  As code becomes working, we move it above.
 // 
