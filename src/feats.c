@@ -1308,7 +1308,8 @@ int is_proficient_with_weapon(const struct char_data *ch, int weapon_type)
     }
   }
 
-  if (HAS_FEAT((struct char_data *)ch, FEAT_WEAPON_PROFICIENCY_ELF) || IS_ELF(ch)) {
+  if (HAS_FEAT((struct char_data *)ch, FEAT_WEAPON_PROFICIENCY_ELF) || IS_ELF(ch)) 
+  {
     switch (weapon_type) {
       case WEAPON_TYPE_LONG_SWORD:
       case WEAPON_TYPE_RAPIER:

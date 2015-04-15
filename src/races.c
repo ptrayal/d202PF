@@ -213,7 +213,9 @@ void assign_races(void)
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, TRUE, CLASS_RANGER, SKILL_LANG_ELVEN, 3);
     }
 
-
+    // Beginning of standard PF races
+    add_race(RACE_DWARF, "dwarf", "Dwarf", "Dwarf", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 2, 0, -2, 145, 145, 140, 65, 65, 60,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_DWARVEN, 0);
 
 // CONSTRUCTS
     add_race(RACE_CONSTRUCT, "construct", "Consrct", "Construct", RACE_TYPE_CONSTRUCT, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
