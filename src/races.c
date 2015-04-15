@@ -107,302 +107,303 @@ void favored_class_female(int race, int favored_class) {
     race_list[race].favored_class[2] = favored_class;
 }
 
-void assign_races(void) {
+void assign_races(void) 
+{
 
-  initialize_races();  
+    initialize_races();  
 
-  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) {
+    if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) 
+    {
 
-add_race(RACE_HUMAN_NORTHERNER, "northerner", "Northrn", "Northerner", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_CORMYR, "cormyrian", "Cormyr", "Cormyrian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 0, 0, 0, 1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_ICE_BARBARIAN, "ice barbarian", "IceBarb", "Ice Barbarian", RACE_TYPE_HUMAN, N, Y, Y, 1, 0, 0, 0, 0, -1, 190, 190, 180, 80, 80, 65, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_AMN, "amnite", "Amnite", "Amnite", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 1, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_ANAUROCH, "desert folk", "Desert", "Desert Folk", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, 0, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_CHULT, "chultian", "Chult", "Chultian", RACE_TYPE_HUMAN, N, Y, Y, 1, 0, -1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_DALELANDS, "daleman", "Daleman", "Daleman", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_HORDELANDS, "hordeman", "Horde", "Hordeman", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, 0, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_LANTAN, "lantanite", "Lantan", "Lantanite", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_MULHORAND, "mulhordanian", "Mulhrnd", "Mulhorandian", RACE_TYPE_HUMAN, N, Y, Y, -1, 0, 1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_RASHEMAN, "rasheman", "Rashemn", "Rasheman", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, -1, 0, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_SEMBIA, "sembian", "Sembian", "Sembian", RACE_TYPE_HUMAN, N, Y, Y, -1, -1, 0, 1, 0, 1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_TETHYR, "thethyrian", "Tethyr", "Tethyrian", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, -1, 1, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_THAY, "thayvian", "Thay", "Thayvian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 1, 0, -1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUMAN_WATERDEEP, "waterdhavian", "Waterdp", "Waterdhavian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 0, -1, 1, 180, 180, 170, 75, 75, 60, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_NORTHERNER, "northerner", "Northrn", "Northerner", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_CORMYR, "cormyrian", "Cormyr", "Cormyrian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 0, 0, 0, 1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_ICE_BARBARIAN, "ice barbarian", "IceBarb", "Ice Barbarian", RACE_TYPE_HUMAN, N, Y, Y, 1, 0, 0, 0, 0, -1, 190, 190, 180, 80, 80, 65, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_AMN, "amnite", "Amnite", "Amnite", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 1, -1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_ANAUROCH, "desert folk", "Desert", "Desert Folk", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, 0, -1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_CHULT, "chultian", "Chult", "Chultian", RACE_TYPE_HUMAN, N, Y, Y, 1, 0, -1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_DALELANDS, "daleman", "Daleman", "Daleman", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_HORDELANDS, "hordeman", "Horde", "Hordeman", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, 0, -1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_LANTAN, "lantanite", "Lantan", "Lantanite", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_MULHORAND, "mulhordanian", "Mulhrnd", "Mulhorandian", RACE_TYPE_HUMAN, N, Y, Y, -1, 0, 1, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_RASHEMAN, "rasheman", "Rashemn", "Rasheman", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, 0, -1, 0, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_SEMBIA, "sembian", "Sembian", "Sembian", RACE_TYPE_HUMAN, N, Y, Y, -1, -1, 0, 1, 0, 1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_TETHYR, "thethyrian", "Tethyr", "Tethyrian", RACE_TYPE_HUMAN, N, Y, Y, 0, 1, 0, -1, 1, -1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_THAY, "thayvian", "Thay", "Thayvian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 1, 0, -1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
+        add_race(RACE_HUMAN_WATERDEEP, "waterdhavian", "Waterdp", "Waterdhavian", RACE_TYPE_HUMAN, N, Y, Y, 0, -1, 1, 0, -1, 1, 180, 180, 170, 75, 75, 60, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
 
-add_race(RACE_MOON_ELF, "moon elf", "MoonElf", "Moon Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 0, 0, 2, 0, 170, 170, 160, 55, 55, 45, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
-add_race(RACE_SUN_ELF, "sun elf", "SunElf", "Sun Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 2, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
-add_race(RACE_WILD_ELF, "wild elf", "WildElf", "Wild Elf", RACE_TYPE_ELF, N, Y, Y, 0, 0, -2, 0, 2, 0, 170, 170, 160, 55, 55, 45, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_SORCERER, SKILL_LANG_ELVEN, 0);
-add_race(RACE_WOOD_ELF, "wood elf", "WoodElf", "Wood Elf", RACE_TYPE_ELF, N, Y, Y, 2, -2, -2, 0, 2, -2, 170, 170, 160, 55, 55, 45, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_RANGER, SKILL_LANG_ELVEN, 0);
-add_race(RACE_DROW_ELF, "drow elf", "DrowElf", "Drow Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 2, 0, 2, 2, 170, 170, 160, 55, 55, 45, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_UNDERCOMMON, 2);
-favored_class_female(RACE_DROW_ELF, CLASS_CLERIC);
-
-
-add_race(RACE_HALF_ELF, "half elf", "HalfElf", "Half Elf", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
-add_race(RACE_HALF_DROW, "half drow", "HlfDrow", "Half Drow", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_UNDERCOMMON, 0);
+        add_race(RACE_MOON_ELF, "moon elf", "MoonElf", "Moon Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 0, 0, 2, 0, 170, 170, 160, 55, 55, 45, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
+        add_race(RACE_SUN_ELF, "sun elf", "SunElf", "Sun Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 2, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
+        add_race(RACE_WILD_ELF, "wild elf", "WildElf", "Wild Elf", RACE_TYPE_ELF, N, Y, Y, 0, 0, -2, 0, 2, 0, 170, 170, 160, 55, 55, 45, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_SORCERER, SKILL_LANG_ELVEN, 0);
+        add_race(RACE_WOOD_ELF, "wood elf", "WoodElf", "Wood Elf", RACE_TYPE_ELF, N, Y, Y, 2, -2, -2, 0, 2, -2, 170, 170, 160, 55, 55, 45, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_RANGER, SKILL_LANG_ELVEN, 0);
+        add_race(RACE_DROW_ELF, "drow elf", "DrowElf", "Drow Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 2, 0, 2, 2, 170, 170, 160, 55, 55, 45, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_UNDERCOMMON, 2);
+        favored_class_female(RACE_DROW_ELF, CLASS_CLERIC);
 
 
-add_race(RACE_SHIELD_DWARF, "shield dwarf", "ShldDwf", "Shield Dwarf", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 0, 0, -2, 145, 145, 140, 65, 65, 60,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_DWARVEN, 0);
-add_race(RACE_GOLD_DWARF, "gold dwarf", "GoldDwf", "Gold Dwarf", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 0, -2, 0, 145, 145, 140, 65, 65, 60,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_DWARVEN, 0);
-add_race(RACE_GRAY_DWARF, "duergar", "Duergar", "Duergar", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 0, 0, -4, 145, 145, 140, 65, 65, 60,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_UNDERCOMMON, 1);
+        add_race(RACE_HALF_ELF, "half elf", "HalfElf", "Half Elf", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
+        add_race(RACE_HALF_DROW, "half drow", "HlfDrow", "Half Drow", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_UNDERCOMMON, 0);
 
 
-add_race(RACE_LIGHTFOOT_HALFLING, "lightfoot halfling", "LtftHlf", "Lightfoot Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 125, 
-         115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
-add_race(RACE_GHOSTWISE_HALFLING, "ghostwise halfling", "GhstHlf", "Ghostwise Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 125, 
-         115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_BARBARIAN, SKILL_LANG_HALFLING, 0);
-add_race(RACE_STRONGHEART_HALFLING, "strongheart halfling", "SthtHlf", "Strongheart Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 
-         125, 115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
+        add_race(RACE_SHIELD_DWARF, "shield dwarf", "ShldDwf", "Shield Dwarf", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 0, 0, -2, 145, 145, 140, 65, 65, 60,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_DWARVEN, 0);
+        add_race(RACE_GOLD_DWARF, "gold dwarf", "GoldDwf", "Gold Dwarf", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 0, -2, 0, 145, 145, 140, 65, 65, 60,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_DWARVEN, 0);
+        add_race(RACE_GRAY_DWARF, "duergar", "Duergar", "Duergar", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 0, 0, -4, 145, 145, 140, 65, 65, 60,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_UNDERCOMMON, 1);
 
 
-add_race(RACE_ROCK_GNOME, "rock gnome", "RkGnome", "Rock Gnome", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 2, 0, 0, 0, 125, 125, 115, 50, 50, 41,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_WIZARD, SKILL_LANG_GNOME, 0);
-add_race(RACE_DEEP_GNOME, "svirfneblin", "Svfnbln", "Svirfneblin", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 0, 2, 2, -4, 125, 125, 115, 50, 50, 41,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_GNOME, 3);
-
-add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 2, 0, -2, 0, 0, -2, 200, 200, 190, 75, 75, 70,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
-add_race(RACE_ORC, "orc", "Orc", "Orc", RACE_TYPE_ORC, N, Y, Y, 2, 2, -2, -2, 0, -2, 210, 210, 200, 85, 85, 80,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
-
-add_race(RACE_AIR_GENESI, "air genesi", "AirGnsi", "Air Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, -2, 2, -2, 185, 185, 175, 80, 80, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
-add_race(RACE_FIRE_GENESI, "fire genesi", "FirGnsi", "Fire Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 0, -2, 185, 185, 175, 80, 80, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
-add_race(RACE_WATER_GENESI, "water genesi", "WatGnsi", "Water Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 2, 0, 0, 0, -2, 185, 185, 175, 80, 80, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
-add_race(RACE_EARTH_GENESI, "earth genesi", "ErtGnsi", "Earth Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 2, 2, 0, -2, 0, -2, 185, 185, 175, 80, 80, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
-
-add_race(RACE_AASIMAR, "aasimar", "Aasimar", "Aasimar", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 0, 2, 0, 2, 185, 185, 175, 80, 80, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
-add_race(RACE_TIEFLING, "tiefling", "Tieflng", "Tiefling", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 2, -2, 185, 185, 175, 80, 80, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
+        add_race(RACE_LIGHTFOOT_HALFLING, "lightfoot halfling", "LtftHlf", "Lightfoot Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 125, 
+            115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
+        add_race(RACE_GHOSTWISE_HALFLING, "ghostwise halfling", "GhstHlf", "Ghostwise Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 125, 
+            115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_BARBARIAN, SKILL_LANG_HALFLING, 0);
+        add_race(RACE_STRONGHEART_HALFLING, "strongheart halfling", "SthtHlf", "Strongheart Halfling", RACE_TYPE_HALFLING, N, Y, Y, -2, 0, 0, 0, 2, 0, 125, 
+            125, 115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
 
 
-add_race(RACE_MINOTAUR, "minotaur", "Mnotaur", "Minotaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 6, 4, -2, 0, 0, -2, 250, 260, 240, 120, 120, 110,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, TRUE, CLASS_FIGHTER, SKILL_LANG_COMMON, 2);
+        add_race(RACE_ROCK_GNOME, "rock gnome", "RkGnome", "Rock Gnome", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 2, 0, 0, 0, 125, 125, 115, 50, 50, 41,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_WIZARD, SKILL_LANG_GNOME, 0);
+        add_race(RACE_DEEP_GNOME, "svirfneblin", "Svfnbln", "Svirfneblin", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 0, 2, 2, -4, 125, 125, 115, 50, 50, 41,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_GNOME, 3);
 
-add_race(RACE_CENTAUR, "centaur", "Centaur", "Centaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 8, 4, -2, 2, 4, 0, 280, 280, 280, 150, 150, 150,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, TRUE, CLASS_RANGER, SKILL_LANG_ELVEN, 3);
-  }
-// End dragonlance races
+        add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 2, 0, -2, 0, 0, -2, 200, 200, 190, 75, 75, 70,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
+        add_race(RACE_ORC, "orc", "Orc", "Orc", RACE_TYPE_ORC, N, Y, Y, 2, 2, -2, -2, 0, -2, 210, 210, 200, 85, 85, 80,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
+
+        add_race(RACE_AIR_GENESI, "air genesi", "AirGnsi", "Air Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, -2, 2, -2, 185, 185, 175, 80, 80, 75,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
+        add_race(RACE_FIRE_GENESI, "fire genesi", "FirGnsi", "Fire Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 0, -2, 185, 185, 175, 80, 80, 75,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
+        add_race(RACE_WATER_GENESI, "water genesi", "WatGnsi", "Water Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 2, 0, 0, 0, -2, 185, 185, 175, 80, 80, 75,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
+        add_race(RACE_EARTH_GENESI, "earth genesi", "ErtGnsi", "Earth Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 2, 2, 0, -2, 0, -2, 185, 185, 175, 80, 80, 75,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
+
+        add_race(RACE_AASIMAR, "aasimar", "Aasimar", "Aasimar", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 0, 2, 0, 2, 185, 185, 175, 80, 80, 75,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
+        add_race(RACE_TIEFLING, "tiefling", "Tieflng", "Tiefling", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 2, -2, 185, 185, 175, 80, 80, 75,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
+
+
+        add_race(RACE_MINOTAUR, "minotaur", "Mnotaur", "Minotaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 6, 4, -2, 0, 0, -2, 250, 260, 240, 120, 120, 110,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, TRUE, CLASS_FIGHTER, SKILL_LANG_COMMON, 2);
+
+        add_race(RACE_CENTAUR, "centaur", "Centaur", "Centaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 8, 4, -2, 2, 4, 0, 280, 280, 280, 150, 150, 150,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, TRUE, CLASS_RANGER, SKILL_LANG_ELVEN, 3);
+    }
 
 
 
 // CONSTRUCTS
-add_race(RACE_CONSTRUCT, "construct", "Consrct", "Construct", RACE_TYPE_CONSTRUCT, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
-         N, N, N, N, Y, N, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_CONSTRUCT, "construct", "Consrct", "Construct", RACE_TYPE_CONSTRUCT, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
+        N, N, N, N, Y, N, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 // DRAGONS
 
-add_race(RACE_DRAGON, "dragon", "Dragon", "Dragon", RACE_TYPE_DRAGON, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
-         N, N, N, N, Y, N, Y, Y, Y, SIZE_COLOSSAL, FALSE, CLASS_FIGHTER, SKILL_LANG_DRACONIC, 0);
-add_race(RACE_HALF_DRAGON, "half dragon", "HlfDrgn", "Half Dragon", RACE_TYPE_DRAGON, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
-         N, N, N, N, Y, N, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_DRACONIC, 0);
+    add_race(RACE_DRAGON, "dragon", "Dragon", "Dragon", RACE_TYPE_DRAGON, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
+        N, N, N, N, Y, N, Y, Y, Y, SIZE_COLOSSAL, FALSE, CLASS_FIGHTER, SKILL_LANG_DRACONIC, 0);
+    add_race(RACE_HALF_DRAGON, "half dragon", "HlfDrgn", "Half Dragon", RACE_TYPE_DRAGON, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
+        N, N, N, N, Y, N, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_DRACONIC, 0);
 
 
 // UNDEAD
 
-add_race(RACE_UNDEAD, "undead", "Undead", "Undead", RACE_TYPE_UNDEAD, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 180, 75, 75, 65,
-         N, N, N, N, Y, N, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_SKELETON, "skeleton", "Skeletn", "Skeleton", RACE_TYPE_UNDEAD, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 170, 35, 35, 35, 
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_ZOMBIE, "zombie", "Zombie", "Zombie", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_GHOUL, "ghoul", "Ghoul", "Ghoul", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_GHAST, "ghast", "Ghast", "Ghast", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MUMMY, "mummy", "Mummy", "Mummy", RACE_TYPE_UNDEAD, N, Y, Y, 14, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MOHRG, "mohrg", "Mohrg", "Mohrg", RACE_TYPE_UNDEAD, N, Y, Y, 11, 0, 0, 0, 9, 0, 180, 180, 170, 75, 75, 65,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_SPIRIT, "spirit", "Spirit", "Spirit", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_UNDEAD, "undead", "Undead", "Undead", RACE_TYPE_UNDEAD, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 180, 75, 75, 65,
+        N, N, N, N, Y, N, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_SKELETON, "skeleton", "Skeletn", "Skeleton", RACE_TYPE_UNDEAD, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 170, 35, 35, 35, 
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_ZOMBIE, "zombie", "Zombie", "Zombie", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_GHOUL, "ghoul", "Ghoul", "Ghoul", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_GHAST, "ghast", "Ghast", "Ghast", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MUMMY, "mummy", "Mummy", "Mummy", RACE_TYPE_UNDEAD, N, Y, Y, 14, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MOHRG, "mohrg", "Mohrg", "Mohrg", RACE_TYPE_UNDEAD, N, Y, Y, 11, 0, 0, 0, 9, 0, 180, 180, 170, 75, 75, 65,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_SPIRIT, "spirit", "Spirit", "Spirit", RACE_TYPE_UNDEAD, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 65,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 
 // ANIMALS
-add_race(RACE_ANIMAL, "animal", "Animal", "Animal", RACE_TYPE_ANIMAL, N, Y, Y, 0, 0, 0, 0, 2, 0, 50, 50, 50, 25, 25, 25,
-         N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_EAGLE, "eagle", "Eagle", "Eagle", RACE_TYPE_ANIMAL, N, Y, Y, 0, 2, 0, 0, 5, 0, 10, 10, 10, 10, 10, 10,
-         N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_RAT, "rat", "Rat", "Rat", RACE_TYPE_ANIMAL, N, Y, Y, -8, 0, -2, 0, 4, -2, 50, 50, 50, 25, 25, 25,
-         N, N, N, N, Y, N, N, N, N, SIZE_TINY, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_WOLF, "wolf", "Wolf", "Wolf", RACE_TYPE_ANIMAL, N, Y, Y, 2, 4, 0, 0, 4, 0, 65, 65, 65, 45, 45, 40,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_GREAT_CAT, "great cat", "Grt Cat", "Great Cat", RACE_TYPE_ANIMAL, N, Y, Y, 4, 2, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_HORSE, "horse", "Horse", "Horse", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 2, 0, 200, 200, 200, 150, 150, 150,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_DINOSAUR, "dinosaur", "Dino", "Dinosaur", RACE_TYPE_ANIMAL, N, Y, Y, 10, 0, 0, 0, 0, 0, 600, 600, 600, 350, 350, 350,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_LION, "lion", "Lion", "Lion", RACE_TYPE_ANIMAL, N, Y, Y, 10, 4, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_BLACK_BEAR, "black bear", "BlkBear", "Black Bear", RACE_TYPE_ANIMAL, N, Y, Y, 8, 4, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_BROWN_BEAR, "brown bear", "BrnBear", "Brown Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_POLAR_BEAR, "polar bear", "PlrBear", "Polar Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_TIGER, "tiger", "Tiger", "Tiger", RACE_TYPE_ANIMAL, N, Y, Y, 12, 6, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_CONSTRICTOR_SNAKE, "constrictor snake", "CnsSnak", "Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_GIANT_CONSTRICTOR_SNAKE, "giant constrictor snake", "GCnSnak", "Giant Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 14, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MEDIUM_VIPER, "medium viper", "MdViper", "Medium Viper", RACE_TYPE_ANIMAL, N, Y, Y, -2, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_LARGE_VIPER, "large viper", "LgViper", "Large Viper", RACE_TYPE_ANIMAL, N, Y, Y, 0, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUGE_VIPER, "huge viper", "HgViper", "Huge Viper", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_WOLVERINE, "wolverine", "Wlvrine", "Wolverine", RACE_TYPE_ANIMAL, N, Y, Y, 4, 8, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_RHINOCEROS, "rhinoceros", "Rhino", "Rhinoceros", RACE_TYPE_ANIMAL, N, Y, Y, 16, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_LEOPARD, "leopard", "Leopard", "Leopard", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_HYENA, "hyena", "Hyena", "Hyena", RACE_TYPE_ANIMAL, N, Y, Y, 4, 4, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_CROCODILE, "crocodile", "Crocodl", "Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 8, 6, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_GIANT_CROCODILE, "giant crocodile", "GCrocdl", "Giant Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_CHEETAH, "cheetah", "Cheetah", "Cheetah", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_BOAR, "boar", "Boar", "Boar", RACE_TYPE_ANIMAL, N, Y, Y, 4, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_APE, "ape", "Ape", "Ape", RACE_TYPE_ANIMAL, N, Y, Y, 10, 6, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_ELEPHANT, "elephant", "Elephnt", "Elephant", RACE_TYPE_ANIMAL, N, Y, Y, 20,10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_ANIMAL, "animal", "Animal", "Animal", RACE_TYPE_ANIMAL, N, Y, Y, 0, 0, 0, 0, 2, 0, 50, 50, 50, 25, 25, 25,
+        N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_EAGLE, "eagle", "Eagle", "Eagle", RACE_TYPE_ANIMAL, N, Y, Y, 0, 2, 0, 0, 5, 0, 10, 10, 10, 10, 10, 10,
+        N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_RAT, "rat", "Rat", "Rat", RACE_TYPE_ANIMAL, N, Y, Y, -8, 0, -2, 0, 4, -2, 50, 50, 50, 25, 25, 25,
+        N, N, N, N, Y, N, N, N, N, SIZE_TINY, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_WOLF, "wolf", "Wolf", "Wolf", RACE_TYPE_ANIMAL, N, Y, Y, 2, 4, 0, 0, 4, 0, 65, 65, 65, 45, 45, 40,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_GREAT_CAT, "great cat", "Grt Cat", "Great Cat", RACE_TYPE_ANIMAL, N, Y, Y, 4, 2, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_HORSE, "horse", "Horse", "Horse", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 2, 0, 200, 200, 200, 150, 150, 150,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_DINOSAUR, "dinosaur", "Dino", "Dinosaur", RACE_TYPE_ANIMAL, N, Y, Y, 10, 0, 0, 0, 0, 0, 600, 600, 600, 350, 350, 350,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_LION, "lion", "Lion", "Lion", RACE_TYPE_ANIMAL, N, Y, Y, 10, 4, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_BLACK_BEAR, "black bear", "BlkBear", "Black Bear", RACE_TYPE_ANIMAL, N, Y, Y, 8, 4, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_BROWN_BEAR, "brown bear", "BrnBear", "Brown Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_POLAR_BEAR, "polar bear", "PlrBear", "Polar Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_TIGER, "tiger", "Tiger", "Tiger", RACE_TYPE_ANIMAL, N, Y, Y, 12, 6, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_CONSTRICTOR_SNAKE, "constrictor snake", "CnsSnak", "Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_GIANT_CONSTRICTOR_SNAKE, "giant constrictor snake", "GCnSnak", "Giant Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 14, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MEDIUM_VIPER, "medium viper", "MdViper", "Medium Viper", RACE_TYPE_ANIMAL, N, Y, Y, -2, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_LARGE_VIPER, "large viper", "LgViper", "Large Viper", RACE_TYPE_ANIMAL, N, Y, Y, 0, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_HUGE_VIPER, "huge viper", "HgViper", "Huge Viper", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_WOLVERINE, "wolverine", "Wlvrine", "Wolverine", RACE_TYPE_ANIMAL, N, Y, Y, 4, 8, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_RHINOCEROS, "rhinoceros", "Rhino", "Rhinoceros", RACE_TYPE_ANIMAL, N, Y, Y, 16, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_LEOPARD, "leopard", "Leopard", "Leopard", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_HYENA, "hyena", "Hyena", "Hyena", RACE_TYPE_ANIMAL, N, Y, Y, 4, 4, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_CROCODILE, "crocodile", "Crocodl", "Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 8, 6, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_GIANT_CROCODILE, "giant crocodile", "GCrocdl", "Giant Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_CHEETAH, "cheetah", "Cheetah", "Cheetah", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_BOAR, "boar", "Boar", "Boar", RACE_TYPE_ANIMAL, N, Y, Y, 4, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_APE, "ape", "Ape", "Ape", RACE_TYPE_ANIMAL, N, Y, Y, 10, 6, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_ELEPHANT, "elephant", "Elephnt", "Elephant", RACE_TYPE_ANIMAL, N, Y, Y, 20,10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 
 // Monstrous Humanoids
 
-add_race(RACE_MONSTROUS_HUMANOID, "monstrous humanoid", "MnsHmnd", "Monstrous Humanoid", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 
-         180, 180, 65, 65, 55, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_GOBLIN, "goblin", "Goblin", "Goblin", RACE_TYPE_GOBLINOID, N, Y, Y, -2, 2, 0, 0, 2, -2, 150, 
-         150, 150, 45, 45, 40, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
-add_race(RACE_TROLL, "troll", "Troll", "Troll", RACE_TYPE_GIANT, N, Y, Y, 2, 4, 0, 0, 0, -2, 220, 
-         220, 220, 75, 75, 70, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
+    add_race(RACE_MONSTROUS_HUMANOID, "monstrous humanoid", "MnsHmnd", "Monstrous Humanoid", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 
+        180, 180, 65, 65, 55, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_GOBLIN, "goblin", "Goblin", "Goblin", RACE_TYPE_GOBLINOID, N, Y, Y, -2, 2, 0, 0, 2, -2, 150, 
+        150, 150, 45, 45, 40, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
+    add_race(RACE_TROLL, "troll", "Troll", "Troll", RACE_TYPE_GIANT, N, Y, Y, 2, 4, 0, 0, 0, -2, 220, 
+        220, 220, 75, 75, 70, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
 
 // Giants
 
-add_race(RACE_GIANT, "giant", "Giant", "Giant", RACE_TYPE_GIANT, N, Y, Y, 14, 6, -4, -4, 0, -4, 500, 500, 500, 200, 200, 200,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 4);
+    add_race(RACE_GIANT, "giant", "Giant", "Giant", RACE_TYPE_GIANT, N, Y, Y, 14, 6, -4, -4, 0, -4, 500, 500, 500, 200, 200, 200,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 4);
 
 // Plants
 
-add_race(RACE_MANDRAGORA, "mandragora", "Mndrgra", "Mandragora", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 90, 90, 90,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MYCANOID, "mycanoid", "Mycanid", "Mycanoid", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 90, 90, 90,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_SHAMBLING_MOUND, "shambling mound", "Shmbler", "Shambling Mound", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 
-         90, 90, 90,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_TREANT, "treant", "Treant", "Treant", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 90, 90, 90,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MANDRAGORA, "mandragora", "Mndrgra", "Mandragora", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 90, 90, 90,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MYCANOID, "mycanoid", "Mycanid", "Mycanoid", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 90, 90, 90,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_SHAMBLING_MOUND, "shambling mound", "Shmbler", "Shambling Mound", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 
+        90, 90, 90,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_TREANT, "treant", "Treant", "Treant", RACE_TYPE_PLANT, Y, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 90, 90, 90,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 // Oozes
 
-add_race(RACE_OOZE, "ooze", "Ooze", "Ooze", RACE_TYPE_OOZE, Y, N, N, 0, 0, 0, 0, 0, 0, 20, 20, 20, 30, 30, 30,
-         N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_OOZE, "ooze", "Ooze", "Ooze", RACE_TYPE_OOZE, Y, N, N, 0, 0, 0, 0, 0, 0, 20, 20, 20, 30, 30, 30,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 // Elementals
 
-add_race(RACE_ELEMENTAL, "elemental", "Elemntl", "Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 75, 75, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0); 
-add_race(RACE_SMALL_FIRE_ELEMENTAL, "small fire elemental", "SFirElm", "Small Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 10, 0, 85, 
-         85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_SMALL_EARTH_ELEMENTAL, "small earth elemental", "SErtElm", "Small Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 8, 0, 0, -2, 0, 
-         85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_SMALL_AIR_ELEMENTAL, "small air elemental", "SAirElm", "Small Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 14, 0, 85, 85, 
-         80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_SMALL_WATER_ELEMENTAL, "small water elemental", "SWatElm", "Small Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 10, 8, 0, 0, 4, 0, 
-         85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MEDIUM_FIRE_ELEMENTAL, "medium fire elemental", "MFirElm", "Medium Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 10, 0, 
-         85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MEDIUM_EARTH_ELEMENTAL, "medium earth elemental", "MErtElm", "Medium Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 8, 0, 0, -2, 
-         0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MEDIUM_AIR_ELEMENTAL, "medium air elemental", "MAirElm", "Medium Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 14, 0, 85, 
-         85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_MEDIUM_WATER_ELEMENTAL, "medium water elemental", "MWatElm", "Medium Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 10, 8, 0, 0, 4, 0, 
-         85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_LARGE_FIRE_ELEMENTAL, "large fire elemental", "LFirElm", "Large Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 10, 0, 85, 
-         85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_LARGE_EARTH_ELEMENTAL, "large earth elemental", "LErtElm", "Large Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 8, 0, 0, -2, 0, 
-         85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_LARGE_AIR_ELEMENTAL, "large air elemental", "LAirElm", "Large Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 14, 0, 85, 85, 
-         80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_LARGE_WATER_ELEMENTAL, "large water elemental", "LWatElm", "Large Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 10, 8, 0, 0, 4, 0, 
-         85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUGE_FIRE_ELEMENTAL, "huge fire elemental", "HFirElm", "Huge Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 8, 8, 0, 0, 14, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUGE_EARTH_ELEMENTAL, "huge earth elemental", "HErtElm", "Huge Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 18, 10, 0, 0, -2, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUGE_AIR_ELEMENTAL, "huge air elemental", "HAirElm", "Huge Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 8, 8, 0, 0, 18, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_HUGE_WATER_ELEMENTAL, "huge water elemental", "HWatElm", "Huge Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 10, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
-         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_ELEMENTAL, "elemental", "Elemntl", "Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 75, 75, 75,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0); 
+    add_race(RACE_SMALL_FIRE_ELEMENTAL, "small fire elemental", "SFirElm", "Small Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 10, 0, 85, 
+        85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_SMALL_EARTH_ELEMENTAL, "small earth elemental", "SErtElm", "Small Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 8, 0, 0, -2, 0, 
+        85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_SMALL_AIR_ELEMENTAL, "small air elemental", "SAirElm", "Small Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 14, 0, 85, 85, 
+        80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_SMALL_WATER_ELEMENTAL, "small water elemental", "SWatElm", "Small Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 10, 8, 0, 0, 4, 0, 
+        85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MEDIUM_FIRE_ELEMENTAL, "medium fire elemental", "MFirElm", "Medium Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 10, 0, 
+        85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MEDIUM_EARTH_ELEMENTAL, "medium earth elemental", "MErtElm", "Medium Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 8, 0, 0, -2, 
+        0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MEDIUM_AIR_ELEMENTAL, "medium air elemental", "MAirElm", "Medium Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 14, 0, 85, 
+        85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_MEDIUM_WATER_ELEMENTAL, "medium water elemental", "MWatElm", "Medium Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 10, 8, 0, 0, 4, 0, 
+        85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_LARGE_FIRE_ELEMENTAL, "large fire elemental", "LFirElm", "Large Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 10, 0, 85, 
+        85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_LARGE_EARTH_ELEMENTAL, "large earth elemental", "LErtElm", "Large Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 8, 0, 0, -2, 0, 
+        85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_LARGE_AIR_ELEMENTAL, "large air elemental", "LAirElm", "Large Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 4, 6, 0, 0, 14, 0, 85, 85, 
+        80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_LARGE_WATER_ELEMENTAL, "large water elemental", "LWatElm", "Large Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 10, 8, 0, 0, 4, 0, 
+        85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_HUGE_FIRE_ELEMENTAL, "huge fire elemental", "HFirElm", "Huge Fire Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 8, 8, 0, 0, 14, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_HUGE_EARTH_ELEMENTAL, "huge earth elemental", "HErtElm", "Huge Earth Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 18, 10, 0, 0, -2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_HUGE_AIR_ELEMENTAL, "huge air elemental", "HAirElm", "Huge Air Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 8, 8, 0, 0, 18, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_HUGE_WATER_ELEMENTAL, "huge water elemental", "HWatElm", "Huge Water Elemental", RACE_TYPE_ELEMENTAL, N, Y, Y, 14, 10, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 // Outsiders
 
-add_race(RACE_OUTSIDER, "outsider", "Outsidr", "Outsider", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 75, 75, 75,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_OUTSIDER, "outsider", "Outsidr", "Outsider", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 180, 75, 75, 75,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 // Magical Beasts
 
-add_race(RACE_STIRGE, "stirge", "Stirge", "Stirge", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_SHOCKER_LIZARD, "shocker lizard", "ShckLiz", "Shocker Lizard", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_BLINK_DOG, "blink dog", "BlnkDog", "Blink Dog", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-add_race(RACE_OWLBEAR, "owlbear", "Owlbear", "Owlbear", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_STIRGE, "stirge", "Stirge", "Stirge", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_SHOCKER_LIZARD, "shocker lizard", "ShckLiz", "Shocker Lizard", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_BLINK_DOG, "blink dog", "BlnkDog", "Blink Dog", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    add_race(RACE_OWLBEAR, "owlbear", "Owlbear", "Owlbear", RACE_TYPE_MAGICAL_BEAST, N, Y, Y, 0, 0, 0, 0, 0, 0, 100, 100, 100, 55, 55, 55,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
 
 // Fey
 
-add_race(RACE_FEY, "fey", "Fey", "Fey", RACE_TYPE_FEY, N, Y, Y, -4, 0, 4, 0, 4, 4, 80, 80, 80, 20, 20, 20,
-         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_TINY, FALSE, CLASS_DRUID, SKILL_LANG_ELVEN, 3);
+    add_race(RACE_FEY, "fey", "Fey", "Fey", RACE_TYPE_FEY, N, Y, Y, -4, 0, 4, 0, 4, 4, 80, 80, 80, 20, 20, 20,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_TINY, FALSE, CLASS_DRUID, SKILL_LANG_ELVEN, 3);
 
 }
 
