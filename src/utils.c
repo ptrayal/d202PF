@@ -1475,7 +1475,8 @@ int get_skill_value(struct char_data *ch, int skillnum) {
   if (ch->player_specials->skill_focus[skillnum - SKILL_LOW_SKILL] > 1)
     value += 10;
 
-  switch (skillnum) {
+  switch (skillnum) 
+  {
     case SKILL_COMBAT_TACTICS:
       break;
     case SKILL_BLACKSMITHING:
@@ -1499,21 +1500,11 @@ int get_skill_value(struct char_data *ch, int skillnum) {
         value += 2;
       value += GET_CLASS_RANKS(ch, CLASS_BARD);
       break;
-    case SKILL_PERCEPTION:
-      if (IS_HALF_ELF(ch))
-        value += 1;
-      break;
     case SKILL_SENSE_MOTIVE:
       if (HAS_FEAT(ch, FEAT_HONORBOUND))
         value += 2;
       break;
-    case SKILL_DIPLOMACY:
-      if (IS_HALF_ELF(ch))
-        value += 2;
-      break;
     case SKILL_GATHER_INFORMATION:
-      if (IS_HALF_ELF(ch))
-        value += 2;
       value += GET_CLASS_RANKS(ch, CLASS_BARD);
       break;
   }
