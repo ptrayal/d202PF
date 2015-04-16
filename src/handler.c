@@ -2365,6 +2365,7 @@ int get_speed(struct char_data *ch) {
 
   if (IS_DWARF(ch) ||
       IS_KENDER(ch) ||
+      IS_HALFLING(ch) ||
       IS_GNOME(ch) || get_size(ch) == SIZE_SMALL)
     speed = 20;
   else if (IS_OGRE(ch))
