@@ -4234,8 +4234,10 @@ int sr_check(struct char_data *caster, struct char_data *victim) {
   int casterLevel = GET_LEVEL(caster);
 
 
-  if (!IS_NPC(caster) && GET_MEM_TYPE(caster)) {
-    switch (GET_MEM_TYPE(caster)) {
+  if (!IS_NPC(caster) && GET_MEM_TYPE(caster)) 
+  {
+    switch (GET_MEM_TYPE(caster)) 
+    {
       case MEM_TYPE_MAGE:
         casterLevel = GET_CASTER_LEVEL(caster, CLASS_WIZARD);
         break;
@@ -4259,10 +4261,13 @@ int sr_check(struct char_data *caster, struct char_data *victim) {
         break;
     }
   }
-  else {
+  else 
+  {
     casterLevel = GET_LEVEL(caster);
   }
   if (HAS_FEAT(caster, FEAT_SPELL_PENETRATION))
+    casterLevel += 2;
+  if (IS_ELF(caster))
     casterLevel += 2;
 
   if ((dice(1, 20) + casterLevel) > get_spell_resistance(victim))
