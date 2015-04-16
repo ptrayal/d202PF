@@ -1479,8 +1479,6 @@ int get_skill_value(struct char_data *ch, int skillnum) {
   {
     case SKILL_COMBAT_TACTICS:
       break;
-    case SKILL_BLACKSMITHING:
-    case SKILL_GOLDSMITHING:
     case SKILL_TANNING:
     case SKILL_TAILORING:
     case SKILL_WOODWORKING:
@@ -1506,6 +1504,16 @@ int get_skill_value(struct char_data *ch, int skillnum) {
       break;
     case SKILL_GATHER_INFORMATION:
       value += GET_CLASS_RANKS(ch, CLASS_BARD);
+      break;
+    case SKILL_BLACKSMITHING:
+      if (IS_DWARF(ch))
+        value += 2;
+      value += HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER);
+      break;
+    case SKILL_GOLDSMITHING:
+      if (IS_DWARF(ch))
+        value += 2;
+      value += HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER);
       break;
   }
 

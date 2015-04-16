@@ -258,11 +258,15 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
   if (spell_info[spellnum].school == SCHOOL_ENCHANTMENT && HAS_FEAT(victim, FEAT_HONORBOUND))
     total += 2;
 
- if ((spellnum == SPELL_AFF_TAUNTED || spellnum == SPELL_AFF_TAUNTED || spellnum == SPELL_AFF_TAUNTED) &&
+  if ((spellnum == SPELL_AFF_TAUNTED || spellnum == SPELL_AFF_TAUNTED || spellnum == SPELL_AFF_TAUNTED) &&
      HAS_FEAT(ch, FEAT_HONORBOUND))
     total += 2;
 
-  if (spellnum == SPELL_FEAR) {
+  if (spellnum == SPELL_POISON && IS_DWARF(victim))
+    total += 2;
+
+  if (spellnum == SPELL_FEAR) 
+  {
     struct char_data *tch;
     for (tch = world[IN_ROOM(victim)].people; tch; tch = tch->next_in_room) {
       if (HAS_FEAT(tch, FEAT_AURA_OF_COURAGE) && is_player_grouped(tch, victim)) {

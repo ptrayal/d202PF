@@ -2359,9 +2359,9 @@ int compute_base_hit(struct char_data *ch, int weaponmod)
   }
 */
   int armor_check_penalty = 0;
-  int i;
+  int i = 0;
 	
-  int calc_bonus;
+  int calc_bonus = 0;
 
   calc_bonus = GET_BAB(ch) + get_size_bonus(get_size(ch));
 

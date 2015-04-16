@@ -184,19 +184,20 @@ void assign_races(void)
         add_race(RACE_DEEP_GNOME, "svirfneblin", "Svfnbln", "Svirfneblin", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 0, 2, 2, -4, 125, 125, 115, 50, 50, 41,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_GNOME, 3);
 
+// Making these NPC for now.
         add_race(RACE_AIR_GENESI, "air genesi", "AirGnsi", "Air Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, -2, 2, -2, 185, 185, 175, 80, 80, 75,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
         add_race(RACE_FIRE_GENESI, "fire genesi", "FirGnsi", "Fire Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 0, -2, 185, 185, 175, 80, 80, 75,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
         add_race(RACE_WATER_GENESI, "water genesi", "WatGnsi", "Water Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 2, 0, 0, 0, -2, 185, 185, 175, 80, 80, 75,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
         add_race(RACE_EARTH_GENESI, "earth genesi", "ErtGnsi", "Earth Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 2, 2, 0, -2, 0, -2, 185, 185, 175, 80, 80, 75,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
 
         add_race(RACE_AASIMAR, "aasimar", "Aasimar", "Aasimar", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 0, 2, 0, 2, 185, 185, 175, 80, 80, 75,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
         add_race(RACE_TIEFLING, "tiefling", "Tieflng", "Tiefling", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 2, -2, 185, 185, 175, 80, 80, 75,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
 
     }
 
