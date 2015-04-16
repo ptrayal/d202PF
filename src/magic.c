@@ -255,6 +255,7 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
   if (spell_info[spellnum].school == SCHOOL_ENCHANTMENT && (IS_ELF(victim) || IS_HALF_ELF(victim)))
     total += 2;
 
+  if (spell_info[spellnum].school == SCHOOL_ILLUSION && IS_GNOME(victim))
     total += 2;
 
   if (spell_info[spellnum].school == SCHOOL_ENCHANTMENT && HAS_FEAT(victim, FEAT_HONORBOUND))
