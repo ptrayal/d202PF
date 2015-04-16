@@ -159,8 +159,6 @@ void assign_races(void)
         favored_class_female(RACE_DROW_ELF, CLASS_CLERIC);
 
 
-        add_race(RACE_HALF_ELF, "half elf", "HalfElf", "Half Elf", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
         add_race(RACE_HALF_DROW, "half drow", "HlfDrow", "Half Drow", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_UNDERCOMMON, 0);
 
@@ -186,11 +184,6 @@ void assign_races(void)
         add_race(RACE_DEEP_GNOME, "svirfneblin", "Svfnbln", "Svirfneblin", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 0, 2, 2, -4, 125, 125, 115, 50, 50, 41,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_GNOME, 3);
 
-        add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 2, 0, -2, 0, 0, -2, 200, 200, 190, 75, 75, 70,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
-        add_race(RACE_ORC, "orc", "Orc", "Orc", RACE_TYPE_ORC, N, Y, Y, 2, 2, -2, -2, 0, -2, 210, 210, 200, 85, 85, 80,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
-
         add_race(RACE_AIR_GENESI, "air genesi", "AirGnsi", "Air Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, -2, 2, -2, 185, 185, 175, 80, 80, 75,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
         add_race(RACE_FIRE_GENESI, "fire genesi", "FirGnsi", "Fire Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 0, -2, 185, 185, 175, 80, 80, 75,
@@ -205,17 +198,20 @@ void assign_races(void)
         add_race(RACE_TIEFLING, "tiefling", "Tieflng", "Tiefling", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 2, -2, 185, 185, 175, 80, 80, 75,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
 
-
-        add_race(RACE_MINOTAUR, "minotaur", "Mnotaur", "Minotaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 6, 4, -2, 0, 0, -2, 250, 260, 240, 120, 120, 110,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, TRUE, CLASS_FIGHTER, SKILL_LANG_COMMON, 2);
-
-        add_race(RACE_CENTAUR, "centaur", "Centaur", "Centaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 8, 4, -2, 2, 4, 0, 280, 280, 280, 150, 150, 150,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, TRUE, CLASS_RANGER, SKILL_LANG_ELVEN, 3);
     }
 
-    // Beginning of standard PF races
+// Beginning of standard PF races
     add_race(RACE_DWARF, "dwarf", "Dwarf", "Dwarf", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 2, 0, -2, 145, 145, 140, 65, 65, 60,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_DWARVEN, 0);
+    add_race(RACE_HALF_ELF, "half elf", "HalfElf", "Half Elf", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
+    add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 2, 0, -2, 0, 0, -2, 200, 200, 190, 75, 75, 70,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
+
+
+// HUMANOIDS
+    add_race(RACE_ORC, "orc", "Orc", "Orc", RACE_TYPE_ORC, N, Y, Y, 2, 2, -2, -2, 0, -2, 210, 210, 200, 85, 85, 80,
+    Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
 
 // CONSTRUCTS
     add_race(RACE_CONSTRUCT, "construct", "Consrct", "Construct", RACE_TYPE_CONSTRUCT, Y, N, N, 0, 0, 0, 0, 0, 0, 180, 180, 180, 150, 150, 130,
@@ -314,6 +310,10 @@ void assign_races(void)
         150, 150, 45, 45, 40, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
     add_race(RACE_TROLL, "troll", "Troll", "Troll", RACE_TYPE_GIANT, N, Y, Y, 2, 4, 0, 0, 0, -2, 220, 
         220, 220, 75, 75, 70, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
+    add_race(RACE_MINOTAUR, "minotaur", "Mnotaur", "Minotaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 6, 4, -2, 0, 0, -2, 250, 260, 240, 120, 120, 110,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 2);
+    add_race(RACE_CENTAUR, "centaur", "Centaur", "Centaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 8, 4, -2, 2, 4, 0, 280, 280, 280, 150, 150, 150,
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_RANGER, SKILL_LANG_ELVEN, 3);
 
 // Giants
 
