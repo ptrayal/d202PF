@@ -255,6 +255,8 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
   if (spell_info[spellnum].school == SCHOOL_ENCHANTMENT && (IS_ELF(victim) || IS_HALF_ELF(victim)))
     total += 2;
 
+    total += 2;
+
   if (spell_info[spellnum].school == SCHOOL_ENCHANTMENT && HAS_FEAT(victim, FEAT_HONORBOUND))
     total += 2;
 
@@ -268,8 +270,10 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
   if (spellnum == SPELL_FEAR) 
   {
     struct char_data *tch;
-    for (tch = world[IN_ROOM(victim)].people; tch; tch = tch->next_in_room) {
-      if (HAS_FEAT(tch, FEAT_AURA_OF_COURAGE) && is_player_grouped(tch, victim)) {
+    for (tch = world[IN_ROOM(victim)].people; tch; tch = tch->next_in_room) 
+    {
+      if (HAS_FEAT(tch, FEAT_AURA_OF_COURAGE) && is_player_grouped(tch, victim)) 
+      {
         total += 4;
         break;
       }
@@ -289,17 +293,22 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
   if (affected_by_spell(victim, SPELL_SICKENED))
     total -= 2;
 
-  if (GET_GUILD(victim) == GUILD_DEVOTIONISTS && dice(1, 5) == 1) {
+  if (GET_GUILD(victim) == GUILD_DEVOTIONISTS && dice(1, 5) == 1) 
+  {
     total += (GET_GUILD_RANK(victim) + 1) / 4;
   }
 
   if (total >= dc)
     return true;
 
-  if (affected_by_spell(victim, SPELL_COUNTERSONG)) {
-    if (ch->affected) {
-      for (af = ch->affected; af; af = af->next) {
-        if (af->type == SPELL_COUNTERSONG) {
+  if (affected_by_spell(victim, SPELL_COUNTERSONG)) 
+  {
+    if (ch->affected) 
+    {
+      for (af = ch->affected; af; af = af->next) 
+      {
+        if (af->type == SPELL_COUNTERSONG) 
+        {
           if (af->modifier >= dc)
             return true;
           else
