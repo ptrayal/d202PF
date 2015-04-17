@@ -2131,9 +2131,10 @@ void add_innate_affects(struct char_data *ch)
     break;
   }
 #else
-  switch(GET_RACE(ch)) {  
-  case RACE_HILL_DWARF:
-  case RACE_MOUNTAIN_DWARF:
+  switch(GET_RACE(ch)) 
+  {  
+  case RACE_DWARF:
+  case RACE_ELF
   case RACE_GNOME:
     affect_modify(ch, APPLY_NONE, 0, 0, AFF_INFRAVISION, true);
     break;

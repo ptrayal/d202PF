@@ -179,12 +179,12 @@ void assign_races(void)
             125, 115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
 
 
+// Making these NPC for now.
         add_race(RACE_ROCK_GNOME, "rock gnome", "RkGnome", "Rock Gnome", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 2, 0, 0, 0, 125, 125, 115, 50, 50, 41,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_WIZARD, SKILL_LANG_GNOME, 0);
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_WIZARD, SKILL_LANG_GNOME, 0);
         add_race(RACE_DEEP_GNOME, "svirfneblin", "Svfnbln", "Svirfneblin", RACE_TYPE_GNOME, N, Y, Y, -2, 0, 0, 2, 2, -4, 125, 125, 115, 50, 50, 41,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_ROGUE, SKILL_LANG_GNOME, 3);
 
-// Making these NPC for now.
         add_race(RACE_AIR_GENESI, "air genesi", "AirGnsi", "Air Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, -2, 2, -2, 185, 185, 175, 80, 80, 75,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
         add_race(RACE_FIRE_GENESI, "fire genesi", "FirGnsi", "Fire Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 0, -2, 185, 185, 175, 80, 80, 75,
@@ -208,8 +208,10 @@ void assign_races(void)
         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
     add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 2, 0, -2, 0, 0, -2, 200, 200, 190, 75, 75, 70,
         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
-    add_race(RACE_MOON_ELF, "elf", "Elf", "Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 2, 0, 2, 0, 170, 170, 160, 55, 55, 45, 
+    add_race(RACE_ELF, "elf", "Elf", "Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 2, 0, 2, 0, 170, 170, 160, 55, 55, 45, 
         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
+        add_race(RACE_GNOME, "gnome", "Gnome", "Gnome", RACE_TYPE_GNOME, N, Y, Y, -2, 2, 0, 0, 0, 2, 125, 125, 115, 50, 50, 41,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_WIZARD, SKILL_LANG_GNOME, 0);
 
 
 // HUMANOIDS

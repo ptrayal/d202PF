@@ -409,7 +409,7 @@ extern struct config_data config_info;
 #define RACE_SPIRIT                 0
 #define RACE_HUMAN                  1
 #define RACE_DWARF                  2
-#define RACE_CEREAN                 3  // Replaceable
+#define RACE_ELF                    3
 #define RACE_DUROS                  4  // Replaceable
 #define RACE_EWOK                   5  // Replaceable
 #define RACE_GAMORREAN              6  // Replaceable

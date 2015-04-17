@@ -1268,7 +1268,8 @@ ACMD(do_pilfer)
 
 }
 
-ACMD(do_taunt) {
+ACMD(do_taunt) 
+{
 	
 	struct char_data *victim;
 	int success = FALSE;	
@@ -1283,35 +1284,43 @@ ACMD(do_taunt) {
 	
 	int dc, roll;
 	
-	if (subcmd == SCMD_TAUNT) {
-          if (!can_use_available_actions(ch, ACTION_MINOR)) {        
+	if (subcmd == SCMD_TAUNT) 
+  {
+          if (!can_use_available_actions(ch, ACTION_MINOR)) 
+          {        
             send_to_char(ch, "You have no available actions to taunt.\r\n");
             return;
           }
 		skillnum = SKILL_BLUFF;
 	}
-	else if (subcmd == SCMD_INTIMIDATE) {
-          if (!can_use_available_actions(ch, ACTION_MINOR)) {        
+	else if (subcmd == SCMD_INTIMIDATE) 
+  {
+          if (!can_use_available_actions(ch, ACTION_MINOR)) 
+          {        
             send_to_char(ch, "You have no available actions to intimidate.\r\n");
             return;
           }
 		skillnum =  SKILL_INTIMIDATE;
 	}
-	else if (subcmd == SCMD_DIPLOMACY) {
-          if (!can_use_available_actions(ch, ACTION_MINOR)) {        
+	else if (subcmd == SCMD_DIPLOMACY) 
+  {
+          if (!can_use_available_actions(ch, ACTION_MINOR)) 
+          {        
             send_to_char(ch, "You have no available actions to challenge.\r\n");
             return;
           }
 		skillnum = SKILL_DIPLOMACY;
 	}
-	else {
+	else 
+  {
 		send_to_char(ch, "Error with do_taunt.  Please contact a staff member.@n\r\n");
 		return;
 	}
 	
         one_argument(argument, arg);
 	
-	if (affected_by_spell(ch, SPELL_AFF_TAUNTING)) {
+	if (affected_by_spell(ch, SPELL_AFF_TAUNTING)) 
+  {
 		send_to_char(ch, "You cannot do this more than once a round.\r\n");
 		return;
 	}
@@ -1339,10 +1348,15 @@ ACMD(do_taunt) {
       tch->exp_chain = 0;
 	
 	dc = dice(1, 20) + skill_roll(victim, SKILL_SENSE_MOTIVE);
-	
+
 	roll = dice(1, 20) + skill_roll(ch, skillnum);
+
+  // Intimidate bonus for Half-Orc's
+  if (IS_HALF_ORC(ch))
+    roll += 2;
+  
 	
-        // Smaller is better for diplomacy
+  // Smaller is better for diplomacy
 	if (subcmd == SCMD_DIPLOMACY) {
 		roll += (get_size(victim) - get_size(ch)) * 2;
 	}
