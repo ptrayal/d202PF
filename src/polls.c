@@ -51,7 +51,7 @@ void add_poll_option(int pnum, int onum, char *option)
 
   poll_list[pnum].options[onum] = strdup(option);
 
-  if (CONFIG_DFLT_PORT == 4000 || CONFIG_DFLT_PORT == 6070) {
+  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) {
     sprintf(query, "SELECT name FROM  `poll_data` WHERE  `poll_num` = '%d' AND  `option` = '%d'", pnum, onum);
 
     mysql_query(conn, query);

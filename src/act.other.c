@@ -6097,9 +6097,11 @@ ACMD(do_poll)
     ch->desc->account->polls[i] = j;
     save_account(ch->desc->account);
 
-    if (CONFIG_DFLT_PORT == 4000) {
+    if (CONFIG_DFLT_PORT == 9080) 
+    {
       sprintf(query, "UPDATE poll_data SET option = '%d', date = NOW() WHERE name = '%s' AND poll_num = '%d'", j, ch->desc->account->name, i);
-      if (mysql_query(conn, query)) {
+      if (mysql_query(conn, query)) 
+      {
          log("Cannot update poll vote.");
       }
     }
@@ -6109,9 +6111,11 @@ ACMD(do_poll)
     poll_list[i].votes[j]++;
     save_account(ch->desc->account);
 
-    if (CONFIG_DFLT_PORT == 4000) {
-      sprintf(query, "INSERT INTO `gicker_d20mud`.`poll_data` (`name`, `poll_num`, `option`, `date`) VALUES ('%s', '%d', '%d', NOW())", ch->desc->account->name, i, j);
-      if (mysql_query(conn, query)) {
+    if (CONFIG_DFLT_PORT == 9080) 
+    {
+      sprintf(query, "INSERT INTO 'poll_data' ('name', 'poll_num', 'option', 'date') VALUES ('%s', '%d', '%d', NOW())", ch->desc->account->name, i, j);
+      if (mysql_query(conn, query)) 
+      {
          log("Cannot insert poll vote.");
       }
     }

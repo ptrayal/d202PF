@@ -884,7 +884,7 @@ void make_corpse(struct char_data *ch)
   int race = 0;
 
   //corpse = create_obj();
-  if (CONFIG_DFLT_PORT == 4000 || CONFIG_DFLT_PORT == 4010)
+  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 4010)
     corpse = read_object(199, VIRTUAL);
   else if (CONFIG_DFLT_PORT == 6070)
     corpse = read_object(199, VIRTUAL);

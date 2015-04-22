@@ -2171,7 +2171,7 @@ int perform_dupe_check(struct descriptor_data *d)
       log("Cannot connect to mysql database in enter player game.");
     }
 
-    if (!d->copyover && CONFIG_DFLT_PORT == 4000) {
+    if (!d->copyover && CONFIG_DFLT_PORT == 9080) {
       ch = d->character;
      sprintf(query, "INSERT INTO player_logins (player_name, last_login, account_name) VALUES('%s',NOW(), '%s')", GET_NAME(ch), ch->desc ? (ch->desc->account ?ch->desc->account->name : "") : "");
       if (mysql_query(conn, query)) {
@@ -2278,7 +2278,7 @@ int enter_player_game (struct descriptor_data *d)
     log("Cannot connect to mysql database in enter player game.");
   }
 
-  if (!d->copyover && CONFIG_DFLT_PORT == 4000) {
+  if (!d->copyover && CONFIG_DFLT_PORT == 9080) {
      sprintf(query, "INSERT INTO player_logins (player_name, last_login, account_name) VALUES('%s',NOW(), '%s')", GET_NAME(ch), ch->desc ? (ch->desc->account ? ch->desc->account->name : "") : "");
     if (mysql_query(conn, query)) {
        log("Cannot set last_login for %s in player_logins", GET_NAME(ch));
@@ -2290,7 +2290,7 @@ int enter_player_game (struct descriptor_data *d)
 
   struct char_data *i = ch;
 
-  if (i->desc && i->desc->account && !IS_NPC(i) && GET_ADMLEVEL(i) == 0 && (CONFIG_DFLT_PORT == 4000)) {
+  if (i->desc && i->desc->account && !IS_NPC(i) && GET_ADMLEVEL(i) == 0 && (CONFIG_DFLT_PORT == 9080)) {
 
     char account_name[255];
 
@@ -2421,7 +2421,7 @@ int enter_player_game (struct descriptor_data *d)
     //combine_accounts();
 
 
-  if (CONFIG_DFLT_PORT == 4000 || CONFIG_DFLT_PORT == 6070) {
+  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) {
 
     char query[200];
 

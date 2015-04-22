@@ -973,7 +973,7 @@ void point_update(void)
     log("Cannot connect to mysql database in point update.");
   }
 
-  if (CONFIG_DFLT_PORT == 4000 || CONFIG_DFLT_PORT == 6070) {
+  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) {
     sprintf(query, "UPDATE player_data SET online = '0'");
     if (mysql_query(conn, query)) {
        log("Cannot set online status to 0");   
@@ -1049,7 +1049,7 @@ void point_update(void)
 
 // MySQL Save
 
-  if (i->desc && i->desc->account && STATE(i->desc) == CON_PLAYING && !IS_NPC(i) && (CONFIG_DFLT_PORT == 4000)) {
+  if (i->desc && i->desc->account && STATE(i->desc) == CON_PLAYING && !IS_NPC(i) && (CONFIG_DFLT_PORT == 9080)) {
 
     conn = mysql_init(NULL);
 

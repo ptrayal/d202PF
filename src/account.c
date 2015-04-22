@@ -148,7 +148,7 @@ void save_account(struct account_data *account)
   if (!(fl = fopen(fname, "w"))) {
     mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open account file %s for write", fname);
     char newdir[100];
-    if (CONFIG_DFLT_PORT == 4000)
+    if (CONFIG_DFLT_PORT == 9080)
       sprintf(newdir, "/home/aod/d20PlayPort/lib");
     else
       sprintf(newdir, "/home/aod/d20CodePort/lib");
@@ -232,53 +232,59 @@ void save_account(struct account_data *account)
 
 void show_account_menu(struct descriptor_data *d)
 {
-  int i = 0;
+    int i = 0;
 
-  write_to_output(d, "ACCOUNT MENU\r\n");
-  write_to_output(d, "------------\r\n");
-  write_to_output(d, "\r\n");
-  write_to_output(d, "To create a new character type @Ycreate@n.\r\n");
-  write_to_output(d, "To delete a character in your account log in as the character and type @Ysuicide@n.\r\n");
-  write_to_output(d, "\r\n");
-  write_to_output(d, "Characters:\r\n");
-  write_to_output(d, "-----------\r\n");
+    write_to_output(d, "ACCOUNT MENU\r\n");
+    write_to_output(d, "------------\r\n");
+    write_to_output(d, "\r\n");
+    write_to_output(d, "To create a new character type @Ycreate@n.\r\n");
+    write_to_output(d, "To delete a character in your account log in as the character and type @Ysuicide@n.\r\n");
+    write_to_output(d, "\r\n");
+    write_to_output(d, "Characters:\r\n");
+    write_to_output(d, "-----------\r\n");
 
-  // Open mysql connection
-  conn = mysql_init(NULL);
+// Open mysql connection
+    conn = mysql_init(NULL);
 
-  /* Connect to database */
-  if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) {
-    log("Cannot connect to mysql database in enter player game.");
-  }
-
-  MYSQL_RES *res = NULL;
-  MYSQL_ROW row = NULL;
-
-  char query[MAX_INPUT_LENGTH];
-
-  if (d->account) {
-    for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
-      if (d->account->character_names[i] != NULL) {
-        write_to_output(d, "%d) %-20s", i + 1, d->account->character_names[i]);
-        sprintf(query, "SELECT alignment, race, classes, level FROM player_data WHERE name='%s'", d->account->character_names[i]);
-        mysql_query(conn, query);
-        res = mysql_use_result(conn);
-        if (res != NULL) {
-          if ((row = mysql_fetch_row(res)) != NULL) {
-            write_to_output(d, "     Level %s %s %s %s", row[3], row[0], row[1], row[2]);
-          }
-        }
-        mysql_free_result(res);
-        write_to_output(d, "\r\n");
-      }
+/* Connect to database */
+    if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) 
+    {
+        log("Cannot connect to mysql database in enter player game.");
     }
-  }
+
+    MYSQL_RES *res = NULL;
+    MYSQL_ROW row = NULL;
+
+    char query[MAX_INPUT_LENGTH];
+
+    if (d->account) 
+    {
+        for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) 
+        {
+            if (d->account->character_names[i] != NULL) 
+            {
+                write_to_output(d, "%d) %-20s", i + 1, d->account->character_names[i]);
+                sprintf(query, "SELECT alignment, race, classes, level FROM player_data WHERE name='%s'", d->account->character_names[i]);
+                mysql_query(conn, query);
+                res = mysql_use_result(conn);
+                if (res != NULL) 
+                {
+                    if ((row = mysql_fetch_row(res)) != NULL) 
+                    {
+                        write_to_output(d, "     Level %s %s %s %s", row[3], row[0], row[1], row[2]);
+                    }
+                }
+                mysql_free_result(res);
+                write_to_output(d, "\r\n");
+            }
+        }
+    }
     mysql_close(conn);
 
 
 
-  write_to_output(d, "\r\n");
-  write_to_output(d, "Your choice: ");
+    write_to_output(d, "\r\n");
+    write_to_output(d, "Your choice: ");
 }
 
 void combine_accounts(void) 

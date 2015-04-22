@@ -4434,7 +4434,7 @@ ACMD(do_clearreply)
 void do_usage_stats_mysql(void)
 {
 
-  if (CONFIG_DFLT_PORT != 4000)
+  if (CONFIG_DFLT_PORT != 9080)
     return;
 
   struct char_data *vict;
