@@ -6240,114 +6240,140 @@ ACMD(do_callcompanion)
 ACMD(do_accexp)
 {
 
-  char arg[200], arg2[200];
-  int i = 0, j = 0;
+    char arg[200], arg2[200];
+    int i = 0, j = 0;
 
-  two_arguments(argument, arg, arg2);
+    two_arguments(argument, arg, arg2);
 
-  if (!*arg) {
-    send_to_char(ch, "Would you like to spend account exp on an advanced @Yrace@n or a prestige @Yclass@n?\r\n");
-    return;
-  }
-
-  if (is_abbrev(arg, "race")) {
-    if (!*arg2) {
-      send_to_char(ch, "Please choose from the following races:\r\n");
-      for (i = 0; i < NUM_RACES; i++) {
-        if (race_list[i].is_pc == FALSE || race_list[i].level_adjustment == 0 || has_unlocked_race(ch, i))
-          continue;
-        send_to_char(ch, "%s (%d account experience)\r\n", race_list[i].name, race_list[i].level_adjustment * 5000);
-      }
-      return;
-    }
-    for (i = 0; i < NUM_RACES; i++) {
-      if (race_list[i].is_pc == FALSE || race_list[i].level_adjustment == 0 || has_unlocked_race(ch, i))
-        continue;
-      if (is_abbrev(arg2, race_list[i].name))
-        break;
+    if (!*arg) 
+    {
+        send_to_char(ch, "Would you like to spend account exp on an advanced @Yrace@n or a prestige @Yclass@n?\r\n");
+        return;
     }
 
-    if (i >= NUM_RACES) {
-      send_to_char(ch, "Either that race does not exist, is not an advanced race, is not available for players, or you've already unlocked it.\r\n");
-      return;
-    }
-    if (ch->desc && ch->desc->account) {
-      for (j = 0; j < MAX_UNLOCKED_RACES; j++) {
-        if (ch->desc->account->races[j] == 0)
-          break;
-      }
-      if (j >= MAX_UNLOCKED_RACES) {
-        send_to_char(ch, "All of your advanced race slots are filled.  Please submit a petition to ask for the limit to be increased.\r\n");
-        return;
-      }
-      if (ch->desc->account->experience >= (race_list[i].level_adjustment * 5000)) {
-        ch->desc->account->experience -= race_list[i].level_adjustment * 5000;
-        ch->desc->account->races[j] = i;
-        save_account(ch->desc->account);
-        send_to_char(ch, "You have unlocked the advanced race '%s' for all character and future characters on your account!.\r\n", race_list[i].name);
-        return;
-      } else {
-        send_to_char(ch, "You need %d account experience to purchase that advanced race and you only have %d.\r\n", race_list[i].level_adjustment * 5000,
-                     ch->desc->account->experience);
-        return;
-      }
-    }
-    else {
-      send_to_char(ch, "There is a problem with your account and the race could not be unlocked.  Please submit a petition to staff.\r\n");
-      return;
-    }
-  }
-  else if (is_abbrev(arg, "class")) {
-    if (!*arg2) {
-      send_to_char(ch, "Please choose from the following classes:\r\n");
-      for (i = 0; i < NUM_CLASSES; i++) {
-        if (!class_in_game_fr[i] || has_unlocked_class(ch, i) || !prestige_classes_fr[i])
-          continue;
-        send_to_char(ch, "%s (5000 account experience)\r\n", class_names_fr[i]);
-      }
-      return;
-    }
-    for (i = 0; i < NUM_CLASSES; i++) {
-        if (!class_in_game_fr[i] || has_unlocked_class(ch, i) || !prestige_classes_fr[i])
-        continue;
-      if (is_abbrev(arg2, class_names_fr[i]))
-        break;
-    }
+    if (is_abbrev(arg, "race")) 
+    {
+        if (!*arg2) 
+        {
+            send_to_char(ch, "Please choose from the following races:\r\n");
+            for (i = 0; i < NUM_RACES; i++) 
+            {
+                if (race_list[i].is_pc == FALSE || race_list[i].level_adjustment == 0 || has_unlocked_race(ch, i))
+                    continue;
+                send_to_char(ch, "%s (%d account experience)\r\n", race_list[i].name, race_list[i].level_adjustment * 5000);
+            }
+            return;
+        }
+        for (i = 0; i < NUM_RACES; i++) 
+        {
+            if (race_list[i].is_pc == FALSE || race_list[i].level_adjustment == 0 || has_unlocked_race(ch, i))
+                continue;
+            if (is_abbrev(arg2, race_list[i].name))
+                break;
+        }
 
-    if (i >= NUM_CLASSES) {
-      send_to_char(ch, "Either that class does not exist, is not a prestige class, is not available for players, or you've already unlocked it.\r\n");
-      return;
+        if (i >= NUM_RACES) 
+        {
+            send_to_char(ch, "Either that race does not exist, is not an advanced race, is not available for players, or you've already unlocked it.\r\n");
+            return;
+        }
+        if (ch->desc && ch->desc->account) 
+        {
+            for (j = 0; j < MAX_UNLOCKED_RACES; j++) 
+            {
+                if (ch->desc->account->races[j] == 0)
+                    break;
+            }
+            if (j >= MAX_UNLOCKED_RACES) 
+            {
+                send_to_char(ch, "All of your advanced race slots are filled.  Please submit a petition to ask for the limit to be increased.\r\n");
+                return;
+            }
+            if (ch->desc->account->experience >= (race_list[i].level_adjustment * 5000)) 
+            {
+                ch->desc->account->experience -= race_list[i].level_adjustment * 5000;
+                ch->desc->account->races[j] = i;
+                save_account(ch->desc->account);
+                send_to_char(ch, "You have unlocked the advanced race '%s' for all character and future characters on your account!.\r\n", race_list[i].name);
+                return;
+            } 
+            else 
+            {
+                send_to_char(ch, "You need %d account experience to purchase that advanced race and you only have %d.\r\n", race_list[i].level_adjustment * 5000,
+                    ch->desc->account->experience);
+                return;
+            }
+        }
+        else 
+        {
+            send_to_char(ch, "There is a problem with your account and the race could not be unlocked.  Please submit a petition to staff.\r\n");
+            return;
+        }
     }
-    if (ch->desc && ch->desc->account) {
-      for (j = 0; j < MAX_UNLOCKED_CLASSES; j++) {
-        if (ch->desc->account->classes[j] == 999)
-          break;
-      }
-      if (j >= MAX_UNLOCKED_CLASSES) {
-        send_to_char(ch, "All of your prestige class slots are filled.  Please submit a petition to ask for the limit to be increased.\r\n");
-        return;
-      }
-      if (ch->desc->account->experience >= (5000)) {
-        ch->desc->account->experience -= 5000;
-        ch->desc->account->classes[j] = i;
-        save_account(ch->desc->account);
-        send_to_char(ch, "You have unlocked the prestige class '%s' for all character and future characters on your account!.\r\n", class_names_fr[i]);
-        return;
-      } else {
-        send_to_char(ch, "You need 5000 account experience to purchase that prestige class and you only have %d.\r\n",
-                     ch->desc->account->experience);
-        return;
-      }
+    else if (is_abbrev(arg, "class")) 
+    {
+        if (!*arg2) 
+        {
+            send_to_char(ch, "Please choose from the following classes:\r\n");
+            for (i = 0; i < NUM_CLASSES; i++) 
+            {
+                if (!class_in_game_fr[i] || has_unlocked_class(ch, i) || !prestige_classes_fr[i])
+                    continue;
+                send_to_char(ch, "%s (5000 account experience)\r\n", class_names_fr[i]);
+            }
+            return;
+        }
+        for (i = 0; i < NUM_CLASSES; i++) 
+        {
+            if (!class_in_game_fr[i] || has_unlocked_class(ch, i) || !prestige_classes_fr[i])
+                continue;
+            if (is_abbrev(arg2, class_names_fr[i]))
+                break;
+        }
+
+        if (i >= NUM_CLASSES) 
+        {
+            send_to_char(ch, "Either that class does not exist, is not a prestige class, is not available for players, or you've already unlocked it.\r\n");
+            return;
+        }
+        if (ch->desc && ch->desc->account) 
+        {
+            for (j = 0; j < MAX_UNLOCKED_CLASSES; j++) 
+            {
+                if (ch->desc->account->classes[j] == 999)
+                    break;
+            }
+            if (j >= MAX_UNLOCKED_CLASSES) 
+            {
+                send_to_char(ch, "All of your prestige class slots are filled.  Please submit a petition to ask for the limit to be increased.\r\n");
+                return;
+            }
+            if (ch->desc->account->experience >= (5000)) 
+            {
+                ch->desc->account->experience -= 5000;
+                ch->desc->account->classes[j] = i;
+                save_account(ch->desc->account);
+                send_to_char(ch, "You have unlocked the prestige class '%s' for all character and future characters on your account!.\r\n", class_names_fr[i]);
+                return;
+            } 
+            else 
+            {
+                send_to_char(ch, "You need 5000 account experience to purchase that prestige class and you only have %d.\r\n",
+                    ch->desc->account->experience);
+                return;
+            }
+        }
+        else 
+        {
+            send_to_char(ch, "There is a problem with your account and the class could not be unlocked.  Please submit a petition to staff.\r\n");
+            return;
+        }
     }
-    else {
-      send_to_char(ch, "There is a problem with your account and the class could not be unlocked.  Please submit a petition to staff.\r\n");
-      return;
+    else 
+    {
+        send_to_char(ch, "You must choose to unlock either a race or a class.\r\n");
+        return;
     }
-  }
-  else {
-    send_to_char(ch, "You must choose to unlock either a race or a class.\r\n");
-    return;
-  }
 
 }
 
