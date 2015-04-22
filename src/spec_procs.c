@@ -606,8 +606,10 @@ SPECIAL(select_race)
   else {
     send_to_char(ch, "%-30s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n------------------------------ --- --- --- --- --- --- ------------\r\n", "Race Name", 
                  "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
-    for (i = 0; i < NUM_RACES; i++) {
-      if (race_list[i].is_pc) {
+    for (i = 0; i < NUM_RACES; i++) 
+    {
+      if (race_list[i].is_pc) 
+      {
         send_to_char(ch, "%-20s %-9s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type, 
                      race_list[i].family == RACE_TYPE_HUMAN ? "" : "", race_list[i].ability_mods[0], 
                      race_list[i].ability_mods[1], 
@@ -813,7 +815,7 @@ if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
   }
 
   if (CMD_IS("idcost")) {
-    send_to_char(ch, "It would cost %d credits to identify that item.\r\n", cost);
+    send_to_char(ch, "It would cost %d %s to identify that item.\r\n", cost, MONEY_STRING);
     return TRUE;
   }
 
@@ -830,7 +832,7 @@ if (GET_GOLD(ch) < cost) {
   send_to_char(ch, "You empty your coin purse into the gnomish machine.  The remainder was withdrawn from your bank for a total cost of %d.\r\n", cost);
 } else {
   GET_GOLD(ch) -= cost;
-  send_to_char(ch, "You dump %d credits into the gnomish machine.\r\n", cost);
+  send_to_char(ch, "You dump %d %s into the gnomish machine.\r\n", cost, MONEY_STRING);
 }
 
 send_to_char(ch, "\r\nThe gnomish machine begins to hum and whir, and finally begins to shake violently before a huge puff of black smoke emerges.\r\n\r\n");
@@ -868,7 +870,7 @@ SPECIAL(research) {
 
     if (GET_GOLD(ch) < cost) {
       if (GET_BANK_GOLD(ch) < cost) {
-        send_to_char(ch, "You must have %d credits on hand or in the bank to identify an item.\r\n", cost);
+        send_to_char(ch, "You must have %d %s on hand or in the bank to identify an item.\r\n", cost, MONEY_STRING);
         return TRUE;
       }
       GET_BANK_GOLD(ch) -= cost;
@@ -898,7 +900,7 @@ SPECIAL(research) {
       return TRUE;
     }
     if (GET_GOLD(ch) < cost) {
-      send_to_char(ch, "You do not have enough credits on hand to pay for the research materials.\r\n");
+      send_to_char(ch, "You do not have enough %s on hand to pay for the research materials.\r\n", MONEY_STRING);
       return TRUE;
     }
     if (sr == 0) {
@@ -1047,7 +1049,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 								SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
 							if (GET_RESEARCH_TOKENS(ch) < 1) {
 								GET_GOLD(ch) -= cost / 100;
-								send_to_char(ch, "You were charged %s credits for this research session.\r\n", change_coins(cost));
+								send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
 							}
 							else {
 								GET_RESEARCH_TOKENS(ch) -= 1;
@@ -1061,7 +1063,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 						}
 						else {
 							GET_GOLD(ch) -= cost / 500;
-							send_to_char(ch, "Your research failed, and the cost in materials was %s credits.\r\n", change_coins(cost / 5));
+							send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
 							return TRUE;
 						}
 					}  
@@ -1072,7 +1074,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 				}
 			}
 			else {
-				send_to_char(ch, "You need to have at least %s credits to do the research for that spell.\r\n", change_coins(cost));
+				send_to_char(ch, "You need to have at least %s %s to do the research for that spell.\r\n", change_coins(cost), MONEY_STRING);
 				return TRUE;
 			}
 		}
@@ -1152,7 +1154,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 								SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
 							if (GET_RESEARCH_TOKENS(ch) < 1) {
 								GET_GOLD(ch) -= cost / 100;
-								send_to_char(ch, "You were charged %s credits for this research session.\r\n", change_coins(cost));
+								send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
 							}
 							else {
 								GET_RESEARCH_TOKENS(ch) -= 1;
@@ -1166,7 +1168,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 						}
 						else {
 							GET_GOLD(ch) -= cost / 500;
-							send_to_char(ch, "Your research failed, and the cost in materials was %s credits.\r\n", change_coins(cost / 5));
+							send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
 							return TRUE;
 						}
 					}  
@@ -1177,7 +1179,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 				}
 			}
 			else {
-				send_to_char(ch, "You need to have at least %s credits to do the research for that spell.\r\n", change_coins(cost));
+				send_to_char(ch, "You need to have at least %s %s to do the research for that spell.\r\n", change_coins(cost), MONEY_STRING);
 				return TRUE;
 			}
 		}
@@ -1257,7 +1259,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 								SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
 							if (GET_RESEARCH_TOKENS(ch) < 1) {
 								GET_GOLD(ch) -= cost / 100;
-								send_to_char(ch, "You were charged %s credits for this research session.\r\n", change_coins(cost));
+								send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
 							}
 							else {
 								GET_RESEARCH_TOKENS(ch) -= 1;
@@ -1271,7 +1273,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 						}
 						else {
 							GET_GOLD(ch) -= cost / 500;
-							send_to_char(ch, "Your research failed, and the cost in materials was %s credits.\r\n", change_coins(cost / 5));
+							send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
 							return TRUE;
 						}
 					}  
@@ -1282,7 +1284,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 				}
 			}
 			else {
-				send_to_char(ch, "You need to have at least %s credits to do the research for that spell.\r\n", change_coins(cost));
+				send_to_char(ch, "You need to have at least %s %s to do the research for that spell.\r\n", change_coins(cost), MONEY_STRING);
 				return TRUE;
 			}
 		}
@@ -1948,84 +1950,97 @@ SPECIAL(item_bank) {
 
 SPECIAL(bank)
 {
-int amount;
+    int amount;
 
-if (CMD_IS("balance")) {
-  if (GET_BANK_GOLD(ch) > 0)
-    send_to_char(ch, "Your current balance is %d credits.\r\n", GET_BANK_GOLD(ch));
-  else
-    send_to_char(ch, "You currently have no money deposited.\r\n");
-  return (TRUE);
-} else if (CMD_IS("deposit")) {
-  if ((amount = atoi(argument)) <= 0) {
-    send_to_char(ch, "How much do you want to deposit?\r\n");
-    return (TRUE);
-  }
-  if (GET_GOLD(ch) < amount) {
-    send_to_char(ch, "You don't have that many credits!\r\n");
-    return (TRUE);
-  }
-  if (AFF_FLAGGED(ch, AFF_SPIRIT)) {
-    send_to_char(ch, "You can't use the bank when you're dead!\r\n");
-    return 1;
-  }
+    if (CMD_IS("balance")) 
+    {
+        if (GET_BANK_GOLD(ch) > 0)
+            send_to_char(ch, "Your current balance is %d %s.\r\n", GET_BANK_GOLD(ch), MONEY_STRING);
+        else
+            send_to_char(ch, "You currently have no money deposited.\r\n");
+        return (TRUE);
+    } else if (CMD_IS("deposit")) 
+    {
+        if ((amount = atoi(argument)) <= 0) 
+        {
+            send_to_char(ch, "How much do you want to deposit?\r\n");
+            return (TRUE);
+        }
+        if (GET_GOLD(ch) < amount) 
+        {
+            send_to_char(ch, "You don't have that many %s!\r\n", MONEY_STRING);
+            return (TRUE);
+        }
+        if (AFF_FLAGGED(ch, AFF_SPIRIT)) 
+        {
+            send_to_char(ch, "You can't use the bank when you're dead!\r\n");
+            return 1;
+        }
 
-  GET_GOLD(ch) -= amount;
-  GET_BANK_GOLD(ch) += amount * 19 / 20;
-  send_to_char(ch, "You deposit %d credits.\r\n", amount * 19 / 20);
-  send_to_char(ch, "%d credits were taken by the bank for taxes and service fees.\r\n", amount / 20);
-  act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
-  return (TRUE);
-} else if (CMD_IS("invest")) {
-  if (!HAS_FEAT(ch, FEAT_FINANCIAL_EXPERT)) {
-    send_to_char(ch, "Only characters with the financial expert feat can invest credits at the bank.\r\n");
-    return 1;
-  }
-  if (!is_innate_ready(ch, SPELL_FINANCIAL_EXPERT)) {
-    send_to_char(ch, "Your cooldown on this ability has not yet expired.  See @Ytimers@n command.\r\n");
-    return 1;
-  }
-  if (AFF_FLAGGED(ch, AFF_SPIRIT)) {
-    send_to_char(ch, "You can't use the bank when you're dead!\r\n");
-    return 1;
-  }
-  if (GET_BANK_GOLD(ch) == 0) {
-    send_to_char(ch, "You do not have any money in your bank to invest.\r\n");
-    return 1;
-  }
+        GET_GOLD(ch) -= amount;
+        GET_BANK_GOLD(ch) += amount * 19 / 20;
+        send_to_char(ch, "You deposit %d %s.\r\n", amount * 19 / 20, MONEY_STRING);
+        send_to_char(ch, "%d %s were taken by the bank for taxes and service fees.\r\n", amount / 20, MONEY_STRING);
+        act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
+        return (TRUE);
+    } else if (CMD_IS("invest")) 
+    {
+        if (!HAS_FEAT(ch, FEAT_FINANCIAL_EXPERT)) 
+        {
+            send_to_char(ch, "Only characters with the financial expert feat can invest %s at the bank.\r\n", MONEY_STRING);
+            return 1;
+        }
+        if (!is_innate_ready(ch, SPELL_FINANCIAL_EXPERT)) 
+        {
+            send_to_char(ch, "Your cooldown on this ability has not yet expired.  See @Ytimers@n command.\r\n");
+            return 1;
+        }
+        if (AFF_FLAGGED(ch, AFF_SPIRIT)) 
+        {
+            send_to_char(ch, "You can't use the bank when you're dead!\r\n");
+            return 1;
+        }
+        if (GET_BANK_GOLD(ch) == 0) 
+        {
+            send_to_char(ch, "You do not have any money in your bank to invest.\r\n");
+            return 1;
+        }
 
-  amount = GET_BANK_GOLD(ch);
+        amount = GET_BANK_GOLD(ch);
 
-  add_innate_timer(ch, SPELL_FINANCIAL_EXPERT);
+        add_innate_timer(ch, SPELL_FINANCIAL_EXPERT);
 
-  int skill_roll = 0;
+        int skill_roll = 0;
 
-  skill_roll = combat_skill_roll(ch, SKILL_KNOWLEDGE);
+        skill_roll = combat_skill_roll(ch, SKILL_KNOWLEDGE);
 
-  amount *= skill_roll;
-  amount /= 1000;
+        amount *= skill_roll;
+        amount /= 1000;
 
-  gain_gold(ch, amount, GOLD_BANK);
-  send_to_char(ch, "You make an investment.  Your bank balance increases by %d credits to a new balance of %d.\r\n",
-                   amount, GET_BANK_GOLD(ch));
-  act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
-  return (TRUE);
-} else if (CMD_IS("withdraw")) {
-if ((amount = atoi(argument)) <= 0) {
-send_to_char(ch, "How much do you want to withdraw?\r\n");
-return (TRUE);
-}
-if (GET_BANK_GOLD(ch) < amount) {
-send_to_char(ch, "You don't have that many credits deposited!\r\n");
-return (TRUE);
-}
-GET_GOLD(ch) += amount;
-GET_BANK_GOLD(ch) -= amount;
-send_to_char(ch, "You withdraw %d credits.\r\n", amount);
-act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
-return (TRUE);
-} else
-return (FALSE);
+        gain_gold(ch, amount, GOLD_BANK);
+        send_to_char(ch, "You make an investment.  Your bank balance increases by %d %s to a new balance of %d.\r\n",
+            amount, MONEY_STRING, GET_BANK_GOLD(ch));
+        act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
+        return (TRUE);
+    } else if (CMD_IS("withdraw")) 
+    {
+        if ((amount = atoi(argument)) <= 0) 
+        {
+            send_to_char(ch, "How much do you want to withdraw?\r\n");
+            return (TRUE);
+        }
+        if (GET_BANK_GOLD(ch) < amount) 
+        {
+            send_to_char(ch, "You don't have that many %s deposited!\r\n", MONEY_STRING);
+            return (TRUE);
+        }
+        GET_GOLD(ch) += amount;
+        GET_BANK_GOLD(ch) -= amount;
+        send_to_char(ch, "You withdraw %d %s.\r\n", amount, MONEY_STRING);
+        act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
+        return (TRUE);
+    } else
+    return (FALSE);
 }
 
 
@@ -3071,7 +3086,7 @@ SPECIAL(enchant_mob)
     cost += apply_gold_cost[i] * (j + 1) * MAX(1, j);
 
   if (CMD_IS("value")) {
-    send_to_char(ch, "That enchantment would cost %d credits.\r\n", cost);
+    send_to_char(ch, "That enchantment would cost %d %s.\r\n", cost, MONEY_STRING);
     return 1;
   }  
  
@@ -3187,7 +3202,7 @@ SPECIAL(buff_mob)
 
   GET_GOLD(ch) -= cost;
 
-  send_to_char(ch, "That cost you %d credits.\r\n", cost);
+  send_to_char(ch, "That cost you %d %s.\r\n", cost, MONEY_STRING);
   call_magic((struct char_data *) me, ch, 0, i, 60, CAST_SPELL, NULL);
 
   return 1;
@@ -4111,7 +4126,7 @@ SPECIAL(crafting_station)
     spell_identify(20, ch, ch, created, NULL);
     send_to_char(ch, "It will make use of your %s skill, which has a value of %d.\r\n", spell_info[skill].name, get_skill_value(ch, skill));
     send_to_char(ch, "This crafting session will take 60 seconds.\r\n");
-    send_to_char(ch, "You need %d credits on hand or in the bank to make this item.\r\n", cost);
+    send_to_char(ch, "You need %d %s on hand or in the bank to make this item.\r\n", cost, MONEY_STRING);
     return 1;
   }
 
@@ -4152,10 +4167,10 @@ SPECIAL(crafting_station)
         return 1;
       }
       if (GET_GOLD(ch) < cost && !CMD_IS("supplyorder")) {
-      send_to_char(ch, "You need %d credits on hand for supplies to make this item.\r\n", cost);
+      send_to_char(ch, "You need %d %s on hand for supplies to make this item.\r\n", cost, MONEY_STRING);
       return 1;
       } 
-      send_to_char(ch, "It cost you %d credits in supplies to create this item.\r\n", cost);
+      send_to_char(ch, "It cost you %d %s in supplies to create this item.\r\n", cost, MONEY_STRING);
       GET_GOLD(ch) -= cost;
     }
 
@@ -4893,8 +4908,8 @@ SPECIAL(mount_shop)
       GET_GOLD(ch) -= pet_list[mob_num].cost;
       ch->player_specials->mount = mob_num;
       save_char(ch);
-      send_to_char(ch, "You just bought yourself %s for %d credits!  You may call your mount using the callmount command.\r\n",
-                   pet_list[mob_num].desc, pet_list[mob_num].cost);
+      send_to_char(ch, "You just bought yourself %s for %d %s!  You may call your mount using the callmount command.\r\n",
+                   pet_list[mob_num].desc, pet_list[mob_num].cost, MONEY_STRING);
     } else {
       if (((MAX(0, GET_CLASS_RANKS(ch, CLASS_RANGER) - 4)) + GET_CLASS_RANKS(ch, CLASS_DRUID)) < pet_list[mob_num].level) {
         send_to_char(ch, "Your total druid and ranger(-4) ranks must be equal to or greater than the level of the mob picked.\r\n");
@@ -4929,7 +4944,7 @@ SPECIAL(mount_shop)
     cost /= 10;
 
     if (GET_GOLD(ch) < cost) {
-      send_to_char(ch, "You only have %d credits on hand, but you need %d to convert that armor to barding.\r\n", GET_GOLD(ch), cost);
+      send_to_char(ch, "You only have %d %s on hand, but you need %d to convert that armor to barding.\r\n", GET_GOLD(ch), MONEY_STRING, cost);
       return 1;
     }
 
@@ -4938,7 +4953,7 @@ SPECIAL(mount_shop)
     REMOVE_BIT_AR(GET_OBJ_WEAR(obj), ITEM_WEAR_BODY);
     SET_BIT_AR(GET_OBJ_WEAR(obj), ITEM_WEAR_BARDING);
 
-    send_to_char(ch, "You have converted %s into barding for your mount for %d credits.\r\n", obj->short_description, cost);
+    send_to_char(ch, "You have converted %s into barding for your mount for %d %s.\r\n", obj->short_description, cost, MONEY_STRING);
   }
   return 1;
 }
@@ -5242,7 +5257,7 @@ SPECIAL(item_seller)
     int cost = GET_OBJ_COST(obj);
 
     if (GET_GOLD(ch) < cost) {
-      send_to_char(ch, "That item costs %d credits and you only have %d on hand.\r\n", cost, GET_GOLD(ch));
+      send_to_char(ch, "That item costs %d %s and you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
       return 1;
     }    
 
@@ -5250,7 +5265,7 @@ SPECIAL(item_seller)
 
     obj_to_char(obj, ch);
 
-    send_to_char(ch, "You purchase %s for %d credits.\r\n", obj->short_description, cost);
+    send_to_char(ch, "You purchase %s for %d %s.\r\n", obj->short_description, cost, MONEY_STRING);
     return 1;
   }
   else if (is_abbrev(arg, "list")) {
@@ -5343,7 +5358,7 @@ SPECIAL(mold_seller)
     int cost = GET_OBJ_COST(obj);
 
     if (GET_GOLD(ch) < cost) {
-      send_to_char(ch, "That item costs %d credits and you only have %d on hand.\r\n", cost, GET_GOLD(ch));
+      send_to_char(ch, "That item costs %d %s and you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
       return 1;
     }    
 
@@ -5353,7 +5368,7 @@ SPECIAL(mold_seller)
 
     obj_to_char(obj, ch);
 
-    send_to_char(ch, "You purchase %s for %d credits.\r\n", obj->short_description, cost);
+    send_to_char(ch, "You purchase %s for %d %s.\r\n", obj->short_description, cost, MONEY_STRING);
     return 1;
   }
   else if (is_abbrev(arg, "list")) {
@@ -5452,7 +5467,7 @@ SPECIAL(player_shop)
     obj_from_room(obj);
     obj_to_char(obj, ch);
 
-    send_to_char(ch, "You have purchased %s for %d credits.\r\n", obj->short_description, cost);
+    send_to_char(ch, "You have purchased %s for %d %s.\r\n", obj->short_description, cost, MONEY_STRING);
 
     struct obj_data *money;
 
@@ -6040,7 +6055,7 @@ SPECIAL(orphan)
   if (!reward) {
     send_to_char(ch, "There is no reward for your action.\r\n");
   } else {
-    send_to_char(ch, "You are rewarded %d credits for your action.\r\n", reward);
+    send_to_char(ch, "You are rewarded %d %s for your action.\r\n", reward, MONEY_STRING);
   }
 
   send_to_char(ch, "Your reputation increased by %d for your action.\r\n", GET_LEVEL(ch));
@@ -6086,7 +6101,7 @@ SPECIAL(repair_mob)
       cost = cost * (100 - GET_OBJ_VAL(obj, 4)) / 100;
 
       if (GET_GOLD(ch) < cost) {
-        send_to_char(ch, "You did not have enough credits on hand to repair %s\r\n", obj->short_description);
+        send_to_char(ch, "You did not have enough %s on hand to repair %s\r\n", MONEY_STRING, obj->short_description);
         continue;
       }
 
@@ -6104,7 +6119,7 @@ SPECIAL(repair_mob)
       obj_to_char(obj, ch);
       equip_char(ch, obj, i);
 
-      send_to_char(ch, "It cost you %d credits to have %s repaired.\r\n", cost, obj->short_description);    
+      send_to_char(ch, "It cost you %d %s to have %s repaired.\r\n", cost, MONEY_STRING, obj->short_description);    
     }
   } else {
 
@@ -6128,7 +6143,7 @@ SPECIAL(repair_mob)
     cost = cost * (100 - GET_OBJ_VAL(obj, 4)) / 100;
 
   if (GET_GOLD(ch) < cost) {
-    send_to_char(ch, "You don't have enough credits.  You need %d and have %d.\r\n", cost, GET_GOLD(ch));
+    send_to_char(ch, "You don't have enough %s.  You need %d and have %d.\r\n", MONEY_STRING, cost, GET_GOLD(ch));
     return 1;
   }
 
@@ -6144,7 +6159,7 @@ SPECIAL(repair_mob)
   obj_from_char(obj);
   obj_to_char(obj, ch);
 
-  send_to_char(ch, "It cost you %d credits to have %s repaired.\r\n", cost, obj->short_description);
+  send_to_char(ch, "It cost you %d %s to have %s repaired.\r\n", cost, MONEY_STRING, obj->short_description);
   }
 
   return 1;
