@@ -604,14 +604,14 @@ SPECIAL(select_race)
     return 1;
   }
   else {
-    send_to_char(ch, "%-30s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n------------------------------ --- --- --- --- --- --- ------------\r\n", "Race Name", 
+    send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- ------------\r\n", "Race Name", 
                  "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
     for (i = 0; i < NUM_RACES; i++) 
     {
       if (race_list[i].is_pc) 
       {
-        send_to_char(ch, "%-20s %-9s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type, 
-                     race_list[i].family == RACE_TYPE_HUMAN ? "" : "", race_list[i].ability_mods[0], 
+        send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type, 
+                     race_list[i].ability_mods[0], 
                      race_list[i].ability_mods[1], 
                      race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
                      race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
