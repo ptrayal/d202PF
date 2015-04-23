@@ -3224,136 +3224,134 @@ ACMD(do_who)
 /* BIG OL' FIXME: Rewrite it all. Similar to do_who(). */
 ACMD(do_users)
 {
-  char line[200], line2[220], idletime[10];
-  char state[30], *timeptr, mode;
-  char name_search[MAX_INPUT_LENGTH], host_search[MAX_INPUT_LENGTH];
-  struct char_data *tch;
-  struct descriptor_data *d;
-  int low = 0, high = CONFIG_LEVEL_CAP, num_can_see = 0;
-  int showclass = 0, outlaws = 0, playing = 0, deadweight = 0, showrace = 0;
-  char buf[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
+    char line[200], line2[220], idletime[10];
+    char state[30], *timeptr, mode;
+    char name_search[MAX_INPUT_LENGTH], host_search[MAX_INPUT_LENGTH];
+    struct char_data *tch;
+    struct descriptor_data *d;
+    int low = 0, high = CONFIG_LEVEL_CAP, num_can_see = 0;
+    int showclass = 0, outlaws = 0, playing = 0, deadweight = 0, showrace = 0;
+    char buf[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
 
-  host_search[0] = name_search[0] = '\0';
+    host_search[0] = name_search[0] = '\0';
 
-  strcpy(buf, argument);	/* strcpy: OK (sizeof: argument == buf) */
-  while (*buf) {
-    char buf1[MAX_INPUT_LENGTH];
+strcpy(buf, argument);	/* strcpy: OK (sizeof: argument == buf) */
+    while (*buf) {
+        char buf1[MAX_INPUT_LENGTH];
 
-    half_chop(buf, arg, buf1);
-    if (*arg == '-') {
-      mode = *(arg + 1);  /* just in case; we destroy arg in the switch */
-      switch (mode) {
-      case 'o':
-      case 'k':
-	outlaws = 1;
-	playing = 1;
-	strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
-	break;
-      case 'p':
-	playing = 1;
-	strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
-	break;
-      case 'd':
-	deadweight = 1;
-	strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
-	break;
-      case 'l':
-	playing = 1;
-	half_chop(buf1, arg, buf);
-	sscanf(arg, "%d-%d", &low, &high);
-	break;
-      case 'n':
-	playing = 1;
-	half_chop(buf1, name_search, buf);
-	break;
-      case 'h':
-	playing = 1;
-	half_chop(buf1, host_search, buf);
-	break;
-      default:
-	send_to_char(ch, "%s", USERS_FORMAT);
-	return;
-      }				/* end of switch */
+        half_chop(buf, arg, buf1);
+        if (*arg == '-') {
+mode = *(arg + 1);  /* just in case; we destroy arg in the switch */
+            switch (mode) {
+                case 'o':
+                case 'k':
+                outlaws = 1;
+                playing = 1;
+strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
+                break;
+                case 'p':
+                playing = 1;
+strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
+                break;
+                case 'd':
+                deadweight = 1;
+strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
+                break;
+                case 'l':
+                playing = 1;
+                half_chop(buf1, arg, buf);
+                sscanf(arg, "%d-%d", &low, &high);
+                break;
+                case 'n':
+                playing = 1;
+                half_chop(buf1, name_search, buf);
+                break;
+                case 'h':
+                playing = 1;
+                half_chop(buf1, host_search, buf);
+                break;
+                default:
+                send_to_char(ch, "%s", USERS_FORMAT);
+                return;
+}				/* end of switch */
 
-    } else {			/* endif */
-      send_to_char(ch, "%s", USERS_FORMAT);
-      return;
+} else {			/* endif */
+                send_to_char(ch, "%s", USERS_FORMAT);
+                return;
+            }
+}				/* end while (parser) */
+            send_to_char(ch,"Name         State          Idl Login    C Site                Client\r\n"
+                            "-------------------------------------------------------------------------\r\n");
+
+            one_argument(argument, arg);
+
+            for (d = descriptor_list; d; d = d->next) {
+                if (STATE(d) != CON_PLAYING && playing)
+                    continue;
+                if (STATE(d) == CON_PLAYING && deadweight)
+                    continue;
+                if (IS_PLAYING(d)) {
+                    if (d->original)
+                        tch = d->original;
+                    else if (!(tch = d->character))
+                        continue;
+
+                    if (*host_search && !strstr(d->host, host_search))
+                        continue;
+                    if (*name_search && str_cmp(GET_NAME(tch), name_search))
+                        continue;
+                    if (!CAN_SEE(ch, tch) || GET_LEVEL(tch) < low || GET_LEVEL(tch) > high)
+                        continue;
+                    if (outlaws && !PLR_FLAGGED(tch, PLR_KILLER) &&
+                        !PLR_FLAGGED(tch, PLR_THIEF))
+                        continue;
+                    if (showclass && !(showclass & (1 << GET_CLASS(tch))))
+                        continue;
+                    if (showrace && !(showrace & (1 << GET_RACE(tch))))
+                        continue;
+                    if (GET_INVIS_LEV(ch) > GET_LEVEL(ch))
+                        continue;
+                }
+
+                timeptr = asctime(localtime(&d->login_time));
+                timeptr += 11;
+                *(timeptr + 8) = '\0';
+
+                if (STATE(d) == CON_PLAYING && d->original)
+                    strcpy(state, "Switched");
+
+                else
+                    strcpy(state, connected_types[STATE(d)]);
+
+                if (d->character && STATE(d) == CON_PLAYING && GET_ADMLEVEL(d->character) <= GET_ADMLEVEL(ch))
+                    sprintf(idletime, "%3d", d->character->timer *
+                        SECS_PER_MUD_HOUR / SECS_PER_REAL_MIN);
+                else
+                    strcpy(idletime, "");
+
+                sprintf(line, "%-12s %-14s %-3s %-8s %1s ", d->original && d->original->name ? d->original->name : d->character && d->character->name ? d->character->name : "UNDEFINED",
+                    state, idletime, timeptr, d->comp->state ? d->comp->state == 1 ? "?" : "Y" : "N");
+
+                if (d->host && *d->host)
+                    sprintf(line + strlen(line), "[%s]", d->host);
+                else
+                    strcat(line, "[Hostname unknown]");
+
+                sprintf(line + strlen(line), " | %-15s\r\n", d->pProtocol->pVariables[eMSDP_CLIENT_ID]->pValueString);
+
+                if (STATE(d) != CON_PLAYING) {
+                    sprintf(line2, "@g%s@n", line);
+                    strcpy(line, line2);
+                }
+                if (STATE(d) != CON_PLAYING ||
+                    (STATE(d) == CON_PLAYING && CAN_SEE(ch, d->character))) {
+                    send_to_char(ch, "%s", line);
+                num_can_see++;
+            }
+        }
+
+        send_to_char(ch, "\r\n%d visible sockets connected.\r\n", num_can_see);
     }
-  }				/* end while (parser) */
-  send_to_char(ch,
-         "Num Name         State          Idl Login    C Site\r\n"
-         "--- ------------ -------------- --- -------- - -----------------------\r\n");
-
-  one_argument(argument, arg);
-
-  for (d = descriptor_list; d; d = d->next) {
-    if (STATE(d) != CON_PLAYING && playing)
-      continue;
-    if (STATE(d) == CON_PLAYING && deadweight)
-      continue;
-    if (IS_PLAYING(d)) {
-      if (d->original)
-	tch = d->original;
-      else if (!(tch = d->character))
-	continue;
-
-      if (*host_search && !strstr(d->host, host_search))
-	continue;
-      if (*name_search && str_cmp(GET_NAME(tch), name_search))
-	continue;
-      if (!CAN_SEE(ch, tch) || GET_LEVEL(tch) < low || GET_LEVEL(tch) > high)
-	continue;
-      if (outlaws && !PLR_FLAGGED(tch, PLR_KILLER) &&
-	  !PLR_FLAGGED(tch, PLR_THIEF))
-	continue;
-      if (showclass && !(showclass & (1 << GET_CLASS(tch))))
-	continue;
-      if (showrace && !(showrace & (1 << GET_RACE(tch))))
-        continue;
-      if (GET_INVIS_LEV(ch) > GET_LEVEL(ch))
-	continue;
-    }
-
-    timeptr = asctime(localtime(&d->login_time));
-    timeptr += 11;
-    *(timeptr + 8) = '\0';
-
-    if (STATE(d) == CON_PLAYING && d->original)
-      strcpy(state, "Switched");
-
-    else
-      strcpy(state, connected_types[STATE(d)]);
-
-    if (d->character && STATE(d) == CON_PLAYING && GET_ADMLEVEL(d->character) <= GET_ADMLEVEL(ch))
-      sprintf(idletime, "%3d", d->character->timer *
-	      SECS_PER_MUD_HOUR / SECS_PER_REAL_MIN);
-    else
-      strcpy(idletime, "");
-
-    sprintf(line, "%3d %-12s %-14s %-3s %-8s %1s ", d->desc_num,
-	d->original && d->original->name ? d->original->name :
-	d->character && d->character->name ? d->character->name :
-	"UNDEFINED", state, idletime, timeptr,
-        d->comp->state ? d->comp->state == 1 ? "?" : "Y" : "N");
-
-    if (d->host && *d->host)
-      sprintf(line + strlen(line), "[%s]\r\n", d->host);
-    else
-      strcat(line, "[Hostname unknown]\r\n");
-
-    if (STATE(d) != CON_PLAYING) {
-      sprintf(line2, "@g%s@n", line);
-      strcpy(line, line2);
-    }
-    if (STATE(d) != CON_PLAYING ||
-		(STATE(d) == CON_PLAYING && CAN_SEE(ch, d->character))) {
-      send_to_char(ch, "%s", line);
-      num_can_see++;
-    }
-  }
-
-  send_to_char(ch, "\r\n%d visible sockets connected.\r\n", num_can_see);
-}
 
 
 /* Generic page_string function for displaying text */
