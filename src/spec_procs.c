@@ -604,7 +604,7 @@ SPECIAL(select_race)
     return 1;
   }
   else {
-    send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- ------------\r\n", "Race Name", 
+    send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name", 
                  "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
     for (i = 0; i < NUM_RACES; i++) 
     {
