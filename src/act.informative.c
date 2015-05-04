@@ -1919,7 +1919,8 @@ ACMD(do_score)
   char    buf[MAX_STRING_LENGTH];
 
   /* struct time_info_data playing_time; */
-  if (IS_NPC(ch)) {
+  if (IS_NPC(ch)) 
+  {
     return;
   }
 
@@ -1927,11 +1928,8 @@ ACMD(do_score)
   sprintf(buf, "\r\n");
 
 
-  sprintf(buf, "%s@CName: @R%s\r\n@n",
-	  buf, GET_NAME(ch));
-  sprintf(buf, "%s@CRanks@W: @R%-12s \r\n@CRace@W: @R%-12s@n",buf,
-	  class_desc_str(ch, 2, 0),
-	  pc_race_types[(int)GET_RACE(ch)]);
+  sprintf(buf, "%s@CName: @R%s\r\n@n", buf, GET_NAME(ch));
+  sprintf(buf, "%s@CRanks@W: @R%-12s \r\n@CRace@W: @R%-12s@n",buf, class_desc_str(ch, 2, 0), pc_race_types[(int)GET_RACE(ch)]);
 
   sprintf(buf,"%s\r\n@CMoney: @W[@R%s@W]", buf, change_coins(GET_GOLD(ch)));
 
@@ -1944,10 +1942,8 @@ ACMD(do_score)
             deity_list[GET_DEITY(ch)].name);
 
 
-  sprintf(buf, "%s\r\n@CCurrent Hp/Max Hp: @W[@R%5d @W/ @R%5d@W]@n",
-	  buf, GET_HIT(ch), GET_MAX_HIT(ch));
-  sprintf(buf, "%s\r\n@CCurrent Mv/Max Mv: @W[@R%5d @W/ @R%5d@W]@n",
-	  buf, GET_MOVE(ch), GET_MAX_MOVE(ch));
+  sprintf(buf, "%s\r\n@CCurrent Hp/Max Hp: @W[@R%5d @W/ @R%5d@W]@n", buf, GET_HIT(ch), GET_MAX_HIT(ch));
+  sprintf(buf, "%s\r\n@CCurrent Mv/Max Mv: @W[@R%5d @W/ @R%5d@W]@n", buf, GET_MOVE(ch), GET_MAX_MOVE(ch));
 
   sprintf(buf, "%s\r\n@CRP Experience Factor: @W[@R%5d@W]@n", buf, 100);
 
@@ -1995,17 +1991,6 @@ ACMD(do_score)
   case POS_SLEEPING:
     strcat(buf, "You are sleeping.\r\n");
     break;
- /*
-  case POS_RIDING:
-    strcat(buf, "You are riding.\r\n");
-    break;
-  case POS_FISHING:
-    strcat(buf, "You are fishing.\r\n");
-    break;
-  case POS_DIGGING:
-    strcat(buf, "You are digging.\r\n");
-    break;
-    */
   case POS_RESTING:
     strcat(buf, "You are resting.\r\n");
     break;
@@ -2030,8 +2015,6 @@ ACMD(do_score)
   
   {
     int drunkValue  = GET_COND(ch, DRUNK);
-  //  int hungerValue = GET_COND(ch, FULL);
-  //  int thirstValue = GET_COND(ch, THIRST);
 
     if (!IS_NPC(ch))
     {
@@ -2041,35 +2024,9 @@ ACMD(do_score)
         strcat(buf, "You are intoxicated.\r\n");
       else if (drunkValue > 5)
         strcat(buf, "You are beginning to feel intoxicated.\r\n");
-   /*
-      if (hungerValue >= 0)
-      { 
-        if (hungerValue == 0)
-          strcat(buf, "You are very hungry.\r\n");
-        else if (hungerValue < 3) 
-          strcat(buf, "You are hungry.\r\n");
-        else if (hungerValue < 5) 
-          strcat(buf, "You are beginning to feel hungry.\r\n");
-      }
-
-      if (thirstValue >= 0)
-      {
-        if (thirstValue == 0)
-          strcat(buf, "You are very thirsty.\r\n");
-        else if (thirstValue < 3) 
-          strcat(buf, "You are thirsty.\r\n");
-        else if (thirstValue < 5) 
-          strcat(buf, "You are beginning to feel thirsty.\r\n");
-      }
-  */
     }
   }
-/*
-  if(GET_CLAN(ch))
-  {
-    sprintf(buf, "%sYou are a member of the %s.\r\n", buf, describe_clan(GET_CLAN(ch)));
-  }
-*/
+
   send_to_char(ch, "%s", buf);
 }
 /* end of new_do_score */
@@ -2422,11 +2379,6 @@ ACMD(do_old_score)
   if (GET_RESEARCH_TOKENS(ch))
   	send_to_char(ch, "@rSpell Research Tokens: @y%d@n\r\n", GET_RESEARCH_TOKENS(ch));
 
-//  if (GET_LEVEL(ch) < CONFIG_LEVEL_CAP - 1)
-    //send_to_char(ch, "@rExperience Points@n : @m%d@n @R%s@n (@y%d @Mtill next level@n)\r\n", GET_EXP(ch), penstr, level_exp(GET_CLASS_LEVEL(ch) + 1) - GET_EXP(ch));
-
-//  send_to_char(ch, "@rAdamantine@n: @Y%d @rMithril@n: @Y%d@n @rSteel@n: @Y%d@n @rBronze@n: @Y%d@n @rCopper@n: @Y%d@n\r\n", 
-//GET_ADAMANTINE(ch), GET_MITHRIL(ch), GET_STEEL(ch), GET_BRONZE(ch), GET_COPPER(ch));
   if (ch->hit_breakdown[0] || ch->hit_breakdown[1]) {
     send_to_char(ch, "@rBreakdown of your last attack@n:\r\n");
     if (ch->hit_breakdown[0] && ch->hit_breakdown[0][0] && ch->dam_breakdown[0])

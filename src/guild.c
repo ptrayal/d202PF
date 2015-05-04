@@ -66,7 +66,8 @@ void sort_skills(void);
 int sorted_skill_list[SKILL_HIGH_SKILL - SKILL_LOW_SKILL + 1];
 int sorted_language_list[SKILL_LANG_HIGH - SKILL_LANG_LOW + 1];
 
-ACMD(do_show_sorted_lists) {
+ACMD(do_show_sorted_lists) 
+{
 
 
   show_skills(ch);
@@ -126,70 +127,76 @@ int compare_skills(const void *x, const void *y)
 void show_skills(struct char_data *ch)
 {
 
-  int i;
-  int count = 0;
+    int i = 0;
+    int count = 0;
 
     send_to_char(ch, "\r\n@WSkill Points: @Y%d@n\r\n\r\n", GET_PRACTICES(ch, GET_CLASS(ch)));
     send_to_char(ch, "\r\n@WClass Skills:@n\r\n\r\n");
 
-    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) {
-      if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
-          SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS) &&
-          !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) {
-        send_to_char(ch, "%-30s: %2d [%2d] ", spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
-                     get_skill_value(ch, spell_sort_info[i]));
-      }
-      else
-        continue;
-      if (count % 2 == 1 )
-        send_to_char(ch, "\r\n");
-      count++;
+    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
+    {
+        if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
+            SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS) &&
+            !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
+        {
+            send_to_char(ch, "%-25s: %2d [%2d] ", spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
+                get_skill_value(ch, spell_sort_info[i]));
+        }
+        else
+            continue;
+        if (count % 2 == 1 )
+            send_to_char(ch, "\r\n");
+        count++;
     }
 
     if (count % 2 == 1 )
-      send_to_char(ch, "\r\n");   
+        send_to_char(ch, "\r\n");   
     send_to_char(ch, "\r\n");
 
     send_to_char(ch, "@WCross-Class Skills:@n\r\n\r\n");
 
-    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) {
-      if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
-          SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CROSSCLASS) &&
-          !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) {
-        send_to_char(ch, "%-30s: %2d [%2d] ", spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
-                     get_skill_value(ch, spell_sort_info[i]));
-      }
-      else
-        continue;
-      if (count % 2 == 1 )
-        send_to_char(ch, "\r\n");
-      count++;
+    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
+    {
+        if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
+            SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CROSSCLASS) &&
+            !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
+        {
+            send_to_char(ch, "%-25s: %2d [%2d] ", spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
+                get_skill_value(ch, spell_sort_info[i]));
+        }
+        else
+            continue;
+        if (count % 2 == 1 )
+            send_to_char(ch, "\r\n");
+        count++;
     }
 
     if (count % 2 == 1 )
-      send_to_char(ch, "\r\n");   
+        send_to_char(ch, "\r\n");   
     send_to_char(ch, "\r\n");
 
-    send_to_char(ch, "@WLanguages:@n (@Wbold white@n if known)\r\n\r\n");
+    send_to_char(ch, "@WLanguages:@n (@Gbright green@n if known)\r\n\r\n");
 
-    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) {
-      if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) && spell_sort_info[i] >= SKILL_LANG_LOW && spell_sort_info[i] <=
-          SKILL_LANG_HIGH)) {
-        send_to_char(ch, "%s%-38s%s ", GET_SKILL(ch, spell_sort_info[i]) ? "@W" : "", spell_info[spell_sort_info[i]].name, GET_SKILL(ch, 
-                     spell_sort_info[i]) ? "@n" : "");
-      }
-      else
-        continue;
-      if (count % 2 == 1 )
-        send_to_char(ch, "\r\n");
-      count++;
+    for (i = MIN_LANGUAGES; i < SKILL_TABLE_SIZE + 1; i++) 
+    {
+        if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) && spell_sort_info[i] >= SKILL_LANG_LOW && spell_sort_info[i] <=
+            SKILL_LANG_HIGH)) 
+        {
+            send_to_char(ch, "%s%-25s%s", GET_SKILL(ch, spell_sort_info[i]) ? "@G" : "", spell_info[spell_sort_info[i]].name, 
+                GET_SKILL(ch, spell_sort_info[i]) ? "@n" : "");
+        }
+        else
+            continue;
+        if (count % 2 == 1 )
+            send_to_char(ch, "\r\n");
+        count++;
     }
 
     if (count % 2 == 1 )
-      send_to_char(ch, "\r\n");
+        send_to_char(ch, "\r\n");
     send_to_char(ch, "\r\n");
 
-  send_to_char(ch, "Format is <skill name> <base skill value> [<modified skill value>]\r\n\r\n");
+    send_to_char(ch, "Format is <skill name> <base skill value> [<modified skill value>]\r\n\r\n");
 
 }
 

@@ -624,10 +624,12 @@ ACMD(do_skillset)
 
   argument = one_argument(argument, name);
 
-  if (!*name) {			/* no arguments. print an informative text */
+  if (!*name) 
+  {			/* no arguments. print an informative text */
     send_to_char(ch, "Syntax: skillset <name> '<skill>' <value>\r\n"
 		"Skill being one of the following:\r\n");
-    for (qend = 0, i = 0; i < SKILL_TABLE_SIZE; i++) {
+    for (qend = 0, i = 0; i < SKILL_TABLE_SIZE; i++) 
+    {
       if (spell_info[i].name == unused_spellname)	/* This is valid. */
 	continue;
       send_to_char(ch, "%18s", spell_info[i].name);
@@ -639,14 +641,16 @@ ACMD(do_skillset)
     return;
   }
 
-  if (!(vict = get_char_vis(ch, name, NULL, FIND_CHAR_WORLD))) {
+  if (!(vict = get_char_vis(ch, name, NULL, FIND_CHAR_WORLD))) 
+  {
     send_to_char(ch, "%s", CONFIG_NOPERSON);
     return;
   }
   skip_spaces(&argument);
 
   /* If there is no chars in argument */
-  if (!*argument) {
+  if (!*argument) 
+  {
     i = snprintf(help, sizeof(help) - i, "\r\nSkills:\r\n");
     i += print_skills_by_type(vict, help + i, sizeof(help) - i, SKTYPE_SKILL);
     i += snprintf(help + i, sizeof(help) - i, "\r\nSpells:\r\n");
@@ -661,7 +665,8 @@ ACMD(do_skillset)
     return;
   }
 
-  if (*argument != '\'') {
+  if (*argument != '\'') 
+  {
     send_to_char(ch, "Skill must be enclosed in: ''\r\n");
     return;
   }
@@ -670,13 +675,15 @@ ACMD(do_skillset)
   for (qend = 1; argument[qend] && argument[qend] != '\''; qend++)
     argument[qend] = LOWER(argument[qend]);
 
-  if (argument[qend] != '\'') {
+  if (argument[qend] != '\'') 
+  {
     send_to_char(ch, "Skill must be enclosed in: ''\r\n");
     return;
   }
   strcpy(help, (argument + 1));	/* strcpy: OK (MAX_INPUT_LENGTH <= MAX_STRING_LENGTH) */
   help[qend - 1] = '\0';
-  if ((skill = find_skill_num(help, SKTYPE_SKILL)) <= 0) {
+  if ((skill = find_skill_num(help, SKTYPE_SKILL)) <= 0) 
+  {
     send_to_char(ch, "Unrecognized skill.\r\n");
     return;
   }
@@ -688,7 +695,8 @@ ACMD(do_skillset)
     return;
   }
   value = atoi(buf);
-  if (value < 0) {
+  if (value < 0) 
+  {
     send_to_char(ch, "Minimum value for learned is 0.\r\n");
     return;
   }
