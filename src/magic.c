@@ -181,7 +181,8 @@ int find_savetype(int spellnum) {
   return stype;
 }
 
-int calc_spell_dc(struct char_data *ch, int spellnum) {
+int calc_spell_dc(struct char_data *ch, int spellnum) 
+{
   int dc = 0;
   int cast_stat = GET_INT(ch);
   int class = CLASS_WIZARD;
@@ -225,6 +226,9 @@ int calc_spell_dc(struct char_data *ch, int spellnum) {
     if (HAS_SCHOOL_FEAT(ch, SFEAT_GREATER_SPELL_FOCUS, spell_info[spellnum].school))
       dc += 3;
   }
+
+  if (IS_GNOME(ch) && spell_info[spellnum].school == SCHOOL_ENCHANTMENT)
+    dc += 1;
 
   dc += HAS_FEAT(ch, FEAT_EMPOWERED_MAGIC);
 

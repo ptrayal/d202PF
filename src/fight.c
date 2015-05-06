@@ -4874,11 +4874,11 @@ int trip_roll(struct char_data *ch, int defending) {
 
   return roll;
 }
-int get_touch_ac(struct char_data *ch) {
 
-  int ac;
+int get_touch_ac(struct char_data *ch) 
+{
 
-  ac = 100;
+  int ac = 100;
 
   if (ch->total_defense)
     ac += 40;
