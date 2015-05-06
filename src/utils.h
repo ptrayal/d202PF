@@ -1454,7 +1454,7 @@ void admin_set(struct char_data *ch, int value);
 #define craft_pattern_vnums(i)		(craft_pattern_vnums_real[i] - 200 + 30000)
 
 #define HAS_LOW_LIGHT_VIS(ch)		(HAS_FEAT(ch, FEAT_LOW_LIGHT_VISION) || IS_ELF(ch) || IS_HALF_ELF(ch) || IS_GNOME(ch))
-#define HAS_DARKVISION(ch)		(HAS_FEAT(ch, FEAT_DARKVISION) || IS_DWARF(ch))
+#define HAS_DARKVISION(ch)		(HAS_FEAT(ch, FEAT_DARKVISION) || IS_DWARF(ch) || IS_HALF_ORC(ch))
 
 #define GET_LAY_HANDS(ch)		(ch->player_specials->lay_hands)
 
