@@ -4204,8 +4204,8 @@ void search_in_direction(struct char_data * ch, int dir)
 
   /* SEARCHING is allowed untrained */
   skill_lvl = roll_skill(ch, SKILL_PERCEPTION);
-  if (IS_ELF(ch) || IS_DROW_ELF(ch) || IS_HALF_ELF(ch)) 
-    skill_lvl = skill_lvl + 2;
+  // if (IS_ELF(ch) || IS_DROW_ELF(ch) || IS_HALF_ELF(ch)) 
+  //   skill_lvl = skill_lvl + 2;
   
   if (EXIT(ch, dir))
     dchide = DOOR_DCHIDE(ch, dir);

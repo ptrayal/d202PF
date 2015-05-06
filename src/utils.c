@@ -1492,7 +1492,7 @@ int get_skill_value(struct char_data *ch, int skillnum)
       value += HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER);
       break;
     case SKILL_PERCEPTION:
-      if (IS_GNOME(ch) || IS_HALFLING(ch))
+      if (IS_GNOME(ch) || IS_HALFLING(ch) || IS_ELF(ch) || IS_HALF_ELF(ch))
         value += 2;
       break;
     case SKILL_ACROBATICS:
