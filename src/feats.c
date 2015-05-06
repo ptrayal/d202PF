@@ -1322,6 +1322,9 @@ int is_proficient_with_weapon(const struct char_data *ch, int weapon_type)
     }
   }
 
+  if (IS_HALFLING(ch) && weapon_type == WEAPON_TYPE_SLING)
+    return TRUE;
+
   if (GET_CLASS_RANKS(ch, CLASS_DEATH_MASTER) > 0 && weapon_type == WEAPON_TYPE_SCYTHE)
     return TRUE;
 
