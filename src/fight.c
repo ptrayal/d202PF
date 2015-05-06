@@ -3102,6 +3102,16 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
   else 
     victim_ac = compute_armor_class(victim, ch);
 
+  // Add checks for racial bonuses/defenses.
+  // Dwarven Defensive Training
+  if (IS_DWARF(victim) && IS_GIANT(ch))
+    victim_ac += 4;
+
+  // Gnome Defensive Trianing
+  if (IS_GNOME(victim) && IS_GIANT(ch))
+    victim_ac += 4;
+
+
   if (AFF_FLAGGED(victim, AFF_AOO) && HAS_FEAT(victim, FEAT_MOBILITY)) {
   	victim_ac += 4;
   	REMOVE_BIT_AR(AFF_FLAGS(victim), AFF_AOO);
@@ -3147,26 +3157,32 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
     }
   }
 
-  if (victim_ac > (diceroll + calc_base_hit)) {
-    if ((diceroll + calc_base_hit + 50) >= victim_ac) {
+  if (victim_ac > (diceroll + calc_base_hit)) 
+  {
+    if ((diceroll + calc_base_hit + 50) >= victim_ac) 
+    {
       if (wielded && ch->weapon_supremacy_miss == 0 && (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_SUPREMACY, GET_OBJ_VAL(wielded, VAL_WEAPON_SKILL)) ||
-          has_weapon_feat(ch, FEAT_WEAPON_SUPREMACY, GET_OBJ_VAL(wielded, VAL_WEAPON_SKILL)))) {
+          has_weapon_feat(ch, FEAT_WEAPON_SUPREMACY, GET_OBJ_VAL(wielded, VAL_WEAPON_SKILL)))) 
+      {
         calc_base_hit += 50;
         ch->weapon_supremacy_miss = 1;
       }
       else if (!wielded && ch->weapon_supremacy_miss == 0 && (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_SUPREMACY, WEAPON_TYPE_UNARMED) ||
-          has_weapon_feat(ch, FEAT_WEAPON_SUPREMACY, WEAPON_TYPE_UNARMED))) {
+          has_weapon_feat(ch, FEAT_WEAPON_SUPREMACY, WEAPON_TYPE_UNARMED))) 
+      {
         calc_base_hit += 50;
         ch->weapon_supremacy_miss = 1;
       }
     }
   }
 
-  if (diceroll >= 191 || !AWAKE(victim)) {
+  if (diceroll >= 191 || !AWAKE(victim)) 
+  {
     is_crit = true; 
     dam = true;
   }
-  else if (AFF_FLAGGED(ch, AFF_SMITING)) {
+  else if (AFF_FLAGGED(ch, AFF_SMITING)) 
+  {
     calc_base_hit += 10 * MAX(0, ability_mod_value(GET_CHA(ch)));
     dam = (diceroll + calc_base_hit) >= victim_ac;
   }
@@ -3175,7 +3191,8 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
   else
    dam = (diceroll + calc_base_hit) >= victim_ac;
 
-  if (dice(1, 10) <= MIN(5, HAS_FEAT(victim, FEAT_SELF_CONCEALMENT))) {
+  if (dice(1, 10) <= MIN(5, HAS_FEAT(victim, FEAT_SELF_CONCEALMENT))) 
+  {
     dam = false;
     is_crit = false;
   }
