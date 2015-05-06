@@ -182,7 +182,7 @@ int find_savetype(int spellnum) {
 }
 
 int calc_spell_dc(struct char_data *ch, int spellnum) {
-  int dc;
+  int dc = 0;
   int cast_stat = GET_INT(ch);
   int class = CLASS_WIZARD;
 
@@ -240,8 +240,8 @@ int calc_spell_dc(struct char_data *ch, int spellnum) {
 int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, int spellnum, int dc)
 {
   int total = 0;
-  struct affected_type *af;
   int diceroll = 0;
+  struct affected_type *af;
 
   total += get_saving_throw_value(victim, savetype);
 
@@ -270,6 +270,9 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
 
   if (spellnum == SPELL_FEAR) 
   {
+    if (IS_HALFLING(victim))
+      total +=2;
+
     struct char_data *tch;
     for (tch = world[IN_ROOM(victim)].people; tch; tch = tch->next_in_room) 
     {
