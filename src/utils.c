@@ -2351,45 +2351,51 @@ int has_light(struct char_data *ch)
 int get_saving_throw_value(struct char_data *victim, int savetype)
 {
 
-  int total = 0;
+    int total = 0;
 
-  if (savetype == SAVING_FORTITUDE) {
-    total += ability_mod_value(GET_CON(victim));
-    if (HAS_FEAT(victim, FEAT_GREAT_FORTITUDE))
-        total += 2;
-  }
-  else if (savetype == SAVING_REFLEX) {
-    total += ability_mod_value(GET_DEX(victim));
-    if (HAS_FEAT(victim, FEAT_LIGHTNING_REFLEXES))
-        total += 2;
-  }
-  else if (savetype == SAVING_WILL) {
-    if (HAS_FEAT(victim, FEAT_STEADFAST_DETERMINATION))
-      total += MAX(ability_mod_value(GET_WIS(victim)), ability_mod_value(GET_CON(victim)));
-    else
-      total += ability_mod_value(GET_WIS(victim));
-    if (HAS_FEAT(victim, FEAT_IRON_WILL))
-        total += 2;
-  }
+    if (savetype == SAVING_FORTITUDE) 
+    {
+        total += ability_mod_value(GET_CON(victim));
+        if (HAS_FEAT(victim, FEAT_GREAT_FORTITUDE))
+            total += 2;
+    }
+    else if (savetype == SAVING_REFLEX) 
+    {
+        total += ability_mod_value(GET_DEX(victim));
+        if (HAS_FEAT(victim, FEAT_LIGHTNING_REFLEXES))
+            total += 2;
+    }
+    else if (savetype == SAVING_WILL) 
+    {
+        if (HAS_FEAT(victim, FEAT_STEADFAST_DETERMINATION))
+            total += MAX(ability_mod_value(GET_WIS(victim)), ability_mod_value(GET_CON(victim)));
+        else
+            total += ability_mod_value(GET_WIS(victim));
+        if (HAS_FEAT(victim, FEAT_IRON_WILL))
+            total += 2;
+    }
 
-  if (has_daylight(victim) && GET_RACE(victim) == RACE_GRAY_DWARF)
-    total -= 2;
+    if (IS_HALFLING(victim))
+        total += 1;
 
-  if (has_daylight(victim) && GET_RACE(victim) == RACE_DROW_ELF)
-    total -= 1;
+    if (has_daylight(victim) && GET_RACE(victim) == RACE_GRAY_DWARF)
+        total -= 2;
 
-  if (HAS_FEAT(victim, FEAT_DIVINE_GRACE) || HAS_FEAT(victim, FEAT_DARK_BLESSING))
-    total += ability_mod_value(GET_CHA(victim));
+    if (has_daylight(victim) && GET_RACE(victim) == RACE_DROW_ELF)
+        total -= 1;
 
-  total += GET_SAVE(victim, savetype);
+    if (HAS_FEAT(victim, FEAT_DIVINE_GRACE) || HAS_FEAT(victim, FEAT_DARK_BLESSING))
+        total += ability_mod_value(GET_CHA(victim));
 
-  if (affected_by_spell(victim, SPELL_PRAYER))
-    total += 1;
+    total += GET_SAVE(victim, savetype);
 
-  if (affected_by_spell(victim, SPELL_BESTOW_CURSE_PENALTIES))
-    total -= 4;
+    if (affected_by_spell(victim, SPELL_PRAYER))
+        total += 1;
 
-  return total;
+    if (affected_by_spell(victim, SPELL_BESTOW_CURSE_PENALTIES))
+        total -= 4;
+
+    return total;
 
 }
 
