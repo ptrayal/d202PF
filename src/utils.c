@@ -1433,11 +1433,12 @@ int is_class_skill(struct char_data *ch, int skillnum) {
 
 }
 
-int get_skill_value(struct char_data *ch, int skillnum) {
+int get_skill_value(struct char_data *ch, int skillnum) 
+{
 	
-  int value;
+  int value = 0;
   int armor_check_penalty = 0;
-  int i, j;
+  int i = 0, j = 0;
 	
   value = GET_SKILL(ch, skillnum);
   value += GET_SKILL_BONUS(ch, skillnum);
@@ -1491,9 +1492,12 @@ int get_skill_value(struct char_data *ch, int skillnum) {
       value += HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER);
       break;
     case SKILL_PERCEPTION:
-      if (IS_GNOME(ch))
+      if (IS_GNOME(ch) || IS_HALFLING(ch))
         value += 2;
       break;
+    case SKILL_ACROBATICS:
+      if (IS_HALFLING(ch))
+        value += 2;
     case SKILL_STEALTH:
       value += (SIZE_MEDIUM - get_size(ch)) * 4;
       break;
@@ -1547,11 +1551,12 @@ int get_skill_value(struct char_data *ch, int skillnum) {
   return value;
 }
 
-int strlencolor(char *arg) {
+int strlencolor(char *arg) 
+{
 	
 	int length = 0;
 	int num_cc = 0;
-	int i;
+	int i = 0;
 	
 	length = strlen(arg);
 	
