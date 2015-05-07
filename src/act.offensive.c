@@ -1351,11 +1351,7 @@ ACMD(do_taunt)
 
 	roll = dice(1, 20) + skill_roll(ch, skillnum);
 
-  // Intimidate bonus for Half-Orc's
-  if (IS_HALF_ORC(ch))
-    roll += 2;
-  
-	
+
   // Smaller is better for diplomacy
 	if (subcmd == SCMD_DIPLOMACY) {
 		roll += (get_size(victim) - get_size(ch)) * 2;
