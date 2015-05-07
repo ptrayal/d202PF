@@ -1501,6 +1501,10 @@ int get_skill_value(struct char_data *ch, int skillnum)
     case SKILL_STEALTH:
       value += (SIZE_MEDIUM - get_size(ch)) * 4;
       break;
+    case SKILL_SPELLCRAFT:
+      if (IS_ELF(ch))
+        value += 2;
+      break;
     case SKILL_LORE:
       if (HAS_FEAT(ch, FEAT_NATURE_SENSE))
         value += 2;
