@@ -4160,7 +4160,7 @@ ACMD(do_review)
       send_to_char(ch, "@WName and Level       :@n %s (Level %d)\r\n", GET_NAME(victim), GET_LEVEL(victim));
       send_to_char(ch, "@WClass Ranks          :@n %s\r\n", class_desc_str(victim, 2, 0));
       send_to_char(ch, "@WRace                 :@n %s\r\n", pc_race_types[GET_RACE(victim)]);
-      send_to_char(ch, "@WDeity                :@n %s\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? deity_names_fr : deity_names_dl_aol)[GET_DEITY(victim)]);     
+      send_to_char(ch, "@WDeity                :@n %s\r\n", deity_list[GET_DEITY(ch)].name);
       send_to_char(ch, "@WAlignment            :@n %s\r\n", get_pc_alignment(victim, buf));     
       send_to_char(ch, "@WStats                :@n Str (%d) Dex (%d) Con (%d) Wis (%d) Int (%d) Cha (%d)\r\n", 
                    GET_STR(victim), GET_DEX(victim), GET_CON(victim), GET_WIS(victim), GET_INT(victim), GET_CHA(victim));

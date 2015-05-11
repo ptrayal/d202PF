@@ -4398,58 +4398,69 @@ int comp_rank(const void *a, const void *b)
   second = *(int *)b;
   return cabbr_ranktable[second] - cabbr_ranktable[first];
 }
+
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 char *class_desc_str(struct char_data *ch, int howlong, int wantthe)
 {
-  static char str[MAX_STRING_LENGTH];
-  char *ptr = str;
-  int i, rank, j;
-  int rankorder[NUM_CLASSES];
-  char *buf, *buf2, *buf3;
-  if (wantthe)
-    ptr += sprintf(str, "the ");
-  if (howlong) {
-    buf2 = buf = buf3 = "";
-    if (howlong == 2) {
-      buf3 = " ";
-      if (GET_CLASS_LEVEL(ch) >= LVL_EPICSTART)
-        ptr += sprintf(ptr, "Epic ");
+    static char str[MAX_STRING_LENGTH];
+    char *ptr = str;
+    int i = 0, rank = 0, j = 0;
+    int rankorder[NUM_CLASSES];
+    char *buf, *buf2, *buf3;
+
+    if (wantthe)
+        ptr += sprintf(str, "the ");
+
+    if (howlong) 
+    {
+        buf2 = buf = buf3 = "";
+        if (howlong == 2) 
+        {
+            buf3 = " ";
+            if (GET_CLASS_LEVEL(ch) >= LVL_EPICSTART)
+                ptr += sprintf(ptr, "Epic ");
+        }
+        for (i = 0; i < NUM_CLASSES; i++) 
+        {
+            cabbr_ranktable[i] = GET_CLASS_RANKS(ch, i);
+            rankorder[i] = i;
+        }
+rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
+        rankorder[GET_CLASS(ch)] = 0;
+        qsort((void *)rankorder, NUM_CLASSES, sizeof(int), comp_rank);
+        for (i = 0; i < NUM_CLASSES; i++) 
+        {
+            rank = rankorder[i];
+            if (cabbr_ranktable[rank] == 0)
+                continue;
+            ptr += snprintf(ptr, sizeof(str) - (ptr - str), "%s%s%s%s%s%d", buf, buf2, buf,
+                CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? 
+                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol) : class_abbrevs_fr)[rank] : 
+                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol) : class_abbrevs_dl_aol)[rank], 
+                buf3, cabbr_ranktable[rank]);
+            buf2 = "/";
+            if (howlong == 2)
+                buf = " ";
+        }
+        return str;
+    } 
+    else 
+    {
+        rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
+        j = GET_CLASS(ch);
+        for (i = 0; i < NUM_CLASSES; i++)
+            if (GET_CLASS_RANKS(ch, i) > rank) 
+            {
+                j = i;
+                rank = GET_CLASS_RANKS(ch, j);
+            }
+            rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
+            snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[GET_CLASS(ch)],
+                rank, GET_LEVEL(ch) == rank ? "" : "+");
+            return str;
     }
-    for (i = 0; i < NUM_CLASSES; i++) {
-      cabbr_ranktable[i] = GET_CLASS_RANKS(ch, i);
-      rankorder[i] = i;
-    }
-    rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
-    rankorder[GET_CLASS(ch)] = 0;
-    qsort((void *)rankorder, NUM_CLASSES, sizeof(int), comp_rank);
-    for (i = 0; i < NUM_CLASSES; i++) {
-      rank = rankorder[i];
-      if (cabbr_ranktable[rank] == 0)
-        continue;
-      ptr += snprintf(ptr, sizeof(str) - (ptr - str), "%s%s%s%s%s%d", buf, buf2, buf,
-                      CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? 
-                      (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol) : class_abbrevs_fr)[rank] : 
-                      (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol) : class_abbrevs_dl_aol)[rank], 
-                      buf3, cabbr_ranktable[rank]);
-      buf2 = "/";
-      if (howlong == 2)
-        buf = " ";
-    }
-    return str;
-  } else {
-    rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
-    j = GET_CLASS(ch);
-    for (i = 0; i < NUM_CLASSES; i++)
-      if (GET_CLASS_RANKS(ch, i) > rank) {
-        j = i;
-        rank = GET_CLASS_RANKS(ch, j);
-      }
-    rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
-    snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[GET_CLASS(ch)],
-             rank, GET_LEVEL(ch) == rank ? "" : "+");
-    return str;
-  }
 }
+
 int total_skill_levels(struct char_data *ch, int skill)
 {
   int i = 0, j, total = 0;
