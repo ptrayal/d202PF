@@ -5276,11 +5276,13 @@ void set_attributes(struct char_data *ch, int str, int con, int dex, int intel, 
   }
 }
 
-void load_deities(void) {
+void load_deities(void) 
+{
 
   int i = 0, j = 0;
 
-  for (i = 0; i < (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? 1 /*NUM_DEITIES_FR*/ : NUM_DEITIES_DL_AOL); i++) {
+  for (i = 0; i < (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? 1 /*NUM_DEITIES_FR*/ : NUM_DEITIES_DL_AOL); i++) 
+  {
     deity_strings[i] = strdup((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? deity_names_fr : deity_names_dl_aol)[i]);
     for (j = 0; j < strlen(deity_strings[i]); j++)
       deity_strings[i][j] = tolower(deity_strings[i][j]);
