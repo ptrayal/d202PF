@@ -4182,7 +4182,7 @@ ACMD(do_setaffinity)
   one_argument(argument, arg);
 
   if (GET_CLASS_RANKS(ch, CLASS_CLERIC) <= 0 || !IS_NEUTRAL(ch)) {
-    send_to_char(ch, "Only nuetral clerics can declare their affinity to positive or negative energy.\r\n");
+    send_to_char(ch, "Only neutral clerics can declare their affinity to positive or negative energy.\r\n");
     return;
   }
 

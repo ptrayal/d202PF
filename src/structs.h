@@ -871,7 +871,7 @@ extern struct config_data config_info;
 #define PRF_SPONSOR_CROWN 54
 #define PRF_SPONSOR_PALADIN 55
 #define PRF_AUTOCON     56 // Autoconsider turned on
-#define PRF_POSITIVE    57 // Nuetral cleric uses positive energy
+#define PRF_POSITIVE    57 // Neutral cleric uses positive energy
 #define PRF_NEGATIVE    58 //Neutral cleric uses negative energy
 #define PRF_HAGGLE      59 // Player would like to haggle his store purchases
 #define PRF_AUTOMAP     60   /* Show map at the side of room descs */

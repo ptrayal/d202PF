@@ -4080,7 +4080,7 @@ int sort_commands_helper(const void *a, const void *b)
 
 void sort_commands(void)
 {
-  int a, num_of_cmds = 0;
+  int a = 0, num_of_cmds = 0;
 
   while (complete_cmd_info[num_of_cmds].command[0] != '\n')
     num_of_cmds++;
@@ -4098,65 +4098,67 @@ void sort_commands(void)
 
 ACMD(do_commands)
 {
-  int no, i, cmd_num;
-  int wizhelp = 0, socials = 0;
-  struct char_data *vict;
-  char arg[MAX_INPUT_LENGTH];
+    int no = 0, i = 0, cmd_num = 0;
+    int wizhelp = 0, socials = 0;
+    struct char_data *vict;
+    char arg[MAX_INPUT_LENGTH];
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (*arg) {
-    if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)) || IS_NPC(vict)) {
-      send_to_char(ch, "Who is that?\r\n");
-      return;
+    if (*arg) 
+    {
+        if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)) || IS_NPC(vict)) 
+        {
+            send_to_char(ch, "Who is that?\r\n");
+            return;
+        }
+        if (GET_LEVEL(ch) < GET_LEVEL(vict)) 
+        {
+            send_to_char(ch, "You can't see the commands of people above your level.\r\n");
+            return;
+        }
+    } 
+    else
+        vict = ch;
+
+    if (subcmd == SCMD_SOCIALS)
+        socials = 1;
+    else if (subcmd == SCMD_WIZHELP)
+        wizhelp = 1;
+
+    send_to_char(ch, "The following %s%s are available to %s:\r\n",
+        wizhelp ? "privileged " : "",
+        socials ? "socials" : "commands",
+        vict == ch ? "you" : GET_NAME(vict));
+
+/* cmd_num starts at 1, not 0, to remove 'RESERVED' */
+    for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++) 
+    {
+        i = cmd_sort_info[cmd_num];
+
+        if (complete_cmd_info[i].minimum_level < 0 || GET_LEVEL(vict) < complete_cmd_info[i].minimum_level)
+            continue;
+
+        if (complete_cmd_info[i].minimum_admlevel < 0 || GET_ADMLEVEL(vict) < complete_cmd_info[i].minimum_admlevel)
+            continue;
+
+        if ((complete_cmd_info[i].minimum_admlevel >= ADMLVL_IMMORT) != wizhelp)
+            continue;
+
+        if (!wizhelp && socials != (complete_cmd_info[i].command_pointer == do_action || complete_cmd_info[i].command_pointer == do_insult))
+            continue;
+
+        if (check_disabled(&complete_cmd_info[i]))
+            sprintf(arg, "(%s)", complete_cmd_info[i].command);
+        else  
+            sprintf(arg, "%s", complete_cmd_info[i].command);
+
+        send_to_char(ch, "%-20s%s", arg, no++ % 4 == 0 ? "\r\n" : "");
+
     }
-    if (GET_LEVEL(ch) < GET_LEVEL(vict)) {
-      send_to_char(ch, "You can't see the commands of people above your level.\r\n");
-      return;
-    }
-  } else
-    vict = ch;
 
-  if (subcmd == SCMD_SOCIALS)
-    socials = 1;
-  else if (subcmd == SCMD_WIZHELP)
-    wizhelp = 1;
-
-  send_to_char(ch, "The following %s%s are available to %s:\r\n",
-	  wizhelp ? "privileged " : "",
-	  socials ? "socials" : "commands",
-	  vict == ch ? "you" : GET_NAME(vict));
-
-  /* cmd_num starts at 1, not 0, to remove 'RESERVED' */
-  for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++) {
-    i = cmd_sort_info[cmd_num];
-
-    if (complete_cmd_info[i].minimum_level < 0 ||
-        GET_LEVEL(vict) < complete_cmd_info[i].minimum_level)
-      continue;
-
-    if (complete_cmd_info[i].minimum_admlevel < 0 ||
-        GET_ADMLEVEL(vict) < complete_cmd_info[i].minimum_admlevel)
-      continue;
-
-    if ((complete_cmd_info[i].minimum_admlevel >= ADMLVL_IMMORT) != wizhelp)
-      continue;
-
-    if (!wizhelp && socials != (complete_cmd_info[i].command_pointer == do_action ||
-                                complete_cmd_info[i].command_pointer == do_insult))
-      continue;
-
-     if (check_disabled(&complete_cmd_info[i]))
-      sprintf(arg, "(%s)", complete_cmd_info[i].command);
-    else  
-      sprintf(arg, "%s", complete_cmd_info[i].command);
-
-    send_to_char(ch, "%-15s%s", arg, no++ % 5 == 0 ? "\r\n" : "");
-
-  }
-
-  if (no % 5 != 1)
-    send_to_char(ch, "\r\n");
+    if (no % 5 != 1)
+        send_to_char(ch, "\r\n");
 }
 
 ACMD(do_whois)
