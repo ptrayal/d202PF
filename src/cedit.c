@@ -827,7 +827,7 @@ void cedit_disp_game_play_options(struct descriptor_data *d)
 	CHECK_VAR(OLC_CONFIG(d)->play.enable_compression),
 	CHECK_VAR(OLC_CONFIG(d)->play.enable_languages),
         // OLC_CONFIG(d)->play.campaign == CAMPAIGN_FORGOTTEN_REALMS ? "Forgotten Realms" : "Dragonlance: Age of Legends",
-  OLC_CONFIG(d)->play.campaign == CampaignWorld[CONFIG_CAMPAIGN],
+  CampaignWorld [OLC_CONFIG (d)->play.campaign],
 	CHECK_VAR(OLC_CONFIG(d)->play.stack_mobs),
 	CHECK_VAR(OLC_CONFIG(d)->play.stack_objs),
         CHECK_VAR(OLC_CONFIG(d)->play.mob_fighting),
