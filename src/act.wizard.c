@@ -4287,7 +4287,8 @@ ACMD(do_reimburse)
 
 }
 
-ACMD(do_loadcrystal) {
+ACMD(do_loadcrystal) 
+{
   get_random_crystal(ch);
 }
 
@@ -4298,6 +4299,7 @@ ACMD(do_test)
         buf2 = do_lower(buf1);
         buf3 = do_upper(buf2, FALSE);
         buf4 = do_upper(buf2, TRUE);
+        
         send_to_char(ch, "----------\r\n");
         send_to_char(ch, "Base Text[pet_table[0].name] - |%s|\r\n", buf1);
         send_to_char(ch, "do_lower result - |%s|\r\n", buf2);
@@ -4305,6 +4307,7 @@ ACMD(do_test)
         send_to_char(ch, "do_upper TRUE [Base Text = do_lower result] - |%s|\r\n", buf4);
         send_to_char(ch, "----------\r\n");
         send_to_char(ch, "@RNote: || are added on the text results to show any applicable white spacing@n\r\n");
+        
 }
 
 

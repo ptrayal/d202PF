@@ -5470,3 +5470,87 @@ char *get_attack_text(struct char_data *ch)
   return strdup(attack_text);
 }
 
+ACMD (do_show_combat)
+{
+    // For testing initiative calculations.
+    int feat = 0;
+    int race_mod = 0;
+    int misc_mod = 0;
+    int initiative_total = 0;
+    
+    if (HAS_FEAT(ch, FEAT_IMPROVED_INITIATIVE))
+        feat += 4;
+    
+    initiative_total = dex_mod_capped(ch) + feat + race_mod + misc_mod;
+    
+    send_to_char(ch, "\t[B321]\tBInitiative\tn\r\n");
+    send_to_char(ch, "\t[B202]\tW[%4s] + [%4s] + [%4s] + [%4s]    %s\tn\r\n", "Dex", "Feat", "Race", "Misc", "Total");
+    send_to_char(ch, "[ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", dex_mod_capped(ch), feat, race_mod, misc_mod, initiative_total);
+    send_to_char(ch, "\r\n");
+
+    // Show saving throws portion.
+    int fort_class = 0;
+    int fort_feat_mod = 0;
+    int fort_magic = 0;
+    int fort_misc = 0;
+
+    int ref_class = 0;
+    int ref_feat_mod = 0;
+    int ref_magic = 0;
+    int ref_misc = 0;
+
+    int will_class = 0;
+    int will_feat_mod = 0;
+    int will_magic = 0;
+    int will_misc = 0;
+
+    // To do:  Need to work in calculation for FEAT_STEADFAST_DETERMINATION (which uses CON instead of WIS for WILL saves.)
+
+    // Calculate class bonus.
+    fort_class = GET_SAVE(ch, SAVING_FORTITUDE);
+    ref_class = GET_SAVE(ch, SAVING_REFLEX);
+    will_class = GET_SAVE(ch, SAVING_WILL);
+
+    // Calculate feat bonus.
+    if (HAS_FEAT(ch, FEAT_GREAT_FORTITUDE))
+        fort_feat_mod += 2;
+    if (HAS_FEAT(ch, FEAT_LIGHTNING_REFLEXES))
+        ref_feat_mod += 2;
+    if (HAS_FEAT(ch, FEAT_IRON_WILL))
+        will_feat_mod += 2;
+
+    // Calculate magic bonus.
+    if (affected_by_spell(ch, SPELL_PRAYER))
+        {
+            fort_magic += 1;
+            ref_magic += 1;
+            will_magic += 1;
+        }
+    if (affected_by_spell(ch, SPELL_BESTOW_CURSE_PENALTIES))
+        {
+            fort_magic -= 4;
+            ref_magic -= 4;
+            will_magic -= 4;
+        }
+
+    // Calculate misc bonus.
+    if (IS_HALFLING(ch))
+    {
+        fort_misc += 1;
+        ref_misc += 1;
+        will_misc += 1;
+    }
+    if (HAS_FEAT(ch, FEAT_DIVINE_GRACE) || HAS_FEAT(ch, FEAT_DARK_BLESSING))
+    {    
+        fort_misc += ability_mod_value(GET_CHA(ch));
+        ref_misc += ability_mod_value(GET_CHA(ch));
+        will_misc += ability_mod_value(GET_CHA(ch));
+    }
+
+    send_to_char(ch, "\t[B321]\tBSaving Throws\tn\r\n");
+    send_to_char(ch, "\t[B202]%11s\tWClass     Stat     Feat     Magic    Misc     Total\tn\r\n", "");
+    send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Fortitude", fort_class, ability_mod_value(GET_CON(ch)), fort_feat_mod, fort_magic, fort_misc, get_saving_throw_value(ch, SAVING_FORTITUDE) );
+    send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Reflex", ref_class, ability_mod_value(GET_DEX(ch)), ref_feat_mod, ref_magic, ref_misc, get_saving_throw_value(ch, SAVING_REFLEX) );
+    send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Will", will_class, ability_mod_value(GET_WIS(ch)), will_feat_mod, will_magic, will_misc, get_saving_throw_value(ch, SAVING_WILL) );
+}
+

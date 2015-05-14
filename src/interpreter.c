@@ -412,6 +412,7 @@ ACMD(do_setactive);
 ACMD(do_setaffinity);
 ACMD(do_set);
 ACMD(do_show);
+ACMD(do_show_combat);
 ACMD(do_show_sorted_lists);
 ACMD(do_shutdown);
 ACMD(do_sit);
@@ -960,6 +961,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "shout"    , "sho"		, POS_RESTING , do_gen_comm , 0, ADMLVL_NONE	, SCMD_SHOUT },
   { "shop"     , "shop"         , POS_RESTING , do_not_here , 0, ADMLVL_NONE    , 0 },
   { "show"     , "show"		, POS_DEAD    , do_show     , 1, ADMLVL_IMMORT	, 0 },
+  { "showcombat", "showcombat", POS_DEAD, do_show_combat, 0, ADMLVL_NONE, 0 },
   { "showguild", "showguild"    , POS_DEAD    , do_showguild, 0, ADMLVL_NONE    , 0 },
   { "shutdow"  , "shutdow"	, POS_DEAD    , do_shutdown , 1, ADMLVL_IMPL	, 0 },
   { "shutdown" , "shutdown"	, POS_DEAD    , do_shutdown , 1, ADMLVL_IMPL	, SCMD_SHUTDOWN },
