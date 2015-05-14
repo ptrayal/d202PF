@@ -131,49 +131,34 @@ void show_skills(struct char_data *ch)
     int count = 0;
 
     send_to_char(ch, "\r\n@WSkill Points: @Y%d@n\r\n\r\n", GET_PRACTICES(ch, GET_CLASS(ch)));
-    send_to_char(ch, "\r\n@WClass Skills:@n\r\n\r\n");
+    send_to_char(ch, "\r\n@WSkills:@n\r\n\r\n");
 
+    send_to_char(ch, "%-3s %-19s   %5s    %5s    %5s    %5s    %5s\r\n", "CS", "Skill Name", "Ranks", "Stat", "Race", "Feat", "Misc");
     for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
     {
         if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
-            SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS) &&
-            !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
+            SKILL_HIGH_SKILL) && !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
         {
-            send_to_char(ch, "%-25s: %2d [%2d] ", spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
-                get_skill_value(ch, spell_sort_info[i]));
+            int racial_bonus = 0;
+            int feat_bonus = 0;
+            int misc_bonus = 0;
+            char *buf;
+
+            if (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS)
+              buf = "X";
+            else
+              buf = " ";
+            send_to_char(ch, "[%s] %-19s: [ %3d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %3d ] ", buf, spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
+                get_skill_mod(ch, spell_sort_info[i]), racial_bonus, feat_bonus, misc_bonus, get_skill_value(ch, spell_sort_info[i]));
         }
         else
             continue;
-        if (count % 2 == 1 )
-            send_to_char(ch, "\r\n");
-        count++;
+        send_to_char(ch, "\r\n");
     }
 
-    if (count % 2 == 1 )
-        send_to_char(ch, "\r\n");   
     send_to_char(ch, "\r\n");
 
-    send_to_char(ch, "@WCross-Class Skills:@n\r\n\r\n");
 
-    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
-    {
-        if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
-            SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CROSSCLASS) &&
-            !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
-        {
-            send_to_char(ch, "%-25s: %2d [%2d] ", spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
-                get_skill_value(ch, spell_sort_info[i]));
-        }
-        else
-            continue;
-        if (count % 2 == 1 )
-            send_to_char(ch, "\r\n");
-        count++;
-    }
-
-    if (count % 2 == 1 )
-        send_to_char(ch, "\r\n");   
-    send_to_char(ch, "\r\n");
 
     send_to_char(ch, "@WLanguages:@n (@Gbright green@n if known)\r\n\r\n");
 
@@ -196,14 +181,12 @@ void show_skills(struct char_data *ch)
         send_to_char(ch, "\r\n");
     send_to_char(ch, "\r\n");
 
-    send_to_char(ch, "Format is <skill name> <base skill value> [<modified skill value>]\r\n\r\n");
-
 }
 
 void display_levelup_skills(struct char_data *ch, int langs)
 {
 
-  int i;
+  int i = 0;
   int count = 0;
 
     send_to_char(ch, "\r\n@WSkill Points: @Y%d@n\r\n\r\n", ch->levelup->practices);
