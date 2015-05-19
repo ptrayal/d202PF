@@ -3854,7 +3854,6 @@ void mag_assign_spells(void)
   skillo(SKILL_DISGUISE, "disguise", SKFLAG_CHAMOD);
   skillo(SKILL_ESCAPE_ARTIST, "escape artist", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_FORGERY, "forgery", SKFLAG_INTMOD);
-  skillo(SKILL_GATHER_INFORMATION, "gather information", SKFLAG_CHAMOD);
   skillo(SKILL_HANDLE_ANIMAL, "handle animal", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
   skillo(SKILL_HEAL, "heal", SKFLAG_WISMOD | SKFLAG_ARMORBAD);
   skillo(SKILL_STEALTH, "stealth", SKFLAG_DEXMOD | SKFLAG_ARMORALL);

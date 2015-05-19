@@ -1299,7 +1299,7 @@ int has_intro(struct char_data *ch, struct char_data *target)
         !AFF_FLAGGED(ch, AFF_TRUE_SIGHT) && !is_player_grouped(ch, target))
         return false;
 
-    if ((skill_roll(ch, SKILL_GATHER_INFORMATION) / 2) > MAX(1, 35 - GET_CLASS_LEVEL(target)))
+    if ((skill_roll(ch, SKILL_DIPLOMACY) / 2) > MAX(1, 35 - GET_CLASS_LEVEL(target)))
       return true;
     
     for (i = 0; i < MAX_INTROS; i++) {
@@ -1518,7 +1518,7 @@ int get_skill_value(struct char_data *ch, int skillnum)
       if (HAS_FEAT(ch, FEAT_HONORBOUND))
         value += 2;
       break;
-    case SKILL_GATHER_INFORMATION:
+    case SKILL_DIPLOMACY:
       value += GET_CLASS_RANKS(ch, CLASS_BARD);
       break;
     case SKILL_BLACKSMITHING:

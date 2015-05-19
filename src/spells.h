@@ -564,7 +564,6 @@
 #define SKILL_ACROBATICS      	800
 #define SKILL_DECEPTION         802
 #define SKILL_ENDURANCE   	803
-#define SKILL_GATHER_INFORMATION 804
 #define SKILL_INITIATIVE     	805
 #define SKILL_TACTICS           806
 #define SKILL_KNOWLEDGE   	807
@@ -602,7 +601,7 @@
 #define SKILL_BLUFF             802
 #define SKILL_SLEIGHT_OF_HAND   802
 #define SKILL_INTIMIDATE        810
-#define SKILL_DIPLOMACY         810
+#define SKILL_DIPLOMACY         804
 #define SKILL_HEAL              814
 #define SKILL_DISGUISE          802
 #define SKILL_DISABLE_DEVICE    815

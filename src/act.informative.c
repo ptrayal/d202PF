@@ -5190,7 +5190,7 @@ ACMD(do_gatherinfo)
     dc += 5;
   dc += (35 - atoi(row[2])) / 2;
   
-  if (!has_intro_idnum(ch, (int) atoi(row[0])) && skill_roll(ch, SKILL_GATHER_INFORMATION) < dc) {
+  if (!has_intro_idnum(ch, (int) atoi(row[0])) && skill_roll(ch, SKILL_DIPLOMACY) < dc) {
     send_to_char(ch, "You couldn't find any information on that person.  You will not be able to use gather information again for 10 minutes.\r\n");
     GET_GATHER_INFO(ch) = 100;
     save_char(ch);
