@@ -142,12 +142,30 @@ void show_skills(struct char_data *ch)
             int racial_bonus = 0;
             int feat_bonus = 0;
             int misc_bonus = 0;
+            int armor_check_penalty = 0;
             char *buf;
 
+            // Armor Check Penalty
+            if (IS_OVER_LOAD(ch))
+              armor_check_penalty += 10;
+            else if (IS_HEAVY_LOAD(ch))
+              armor_check_penalty += 6;
+            if (IS_MEDIUM_LOAD(ch))
+              armor_check_penalty += 3;
+
+            if (IS_SET(spell_info[i].flags, SKFLAG_DEXMOD) ||
+                IS_SET(spell_info[i].flags, SKFLAG_STRMOD))
+              misc_bonus -= armor_check_penalty;
+
+            if (HAS_FEAT(ch, FEAT_ABLE_LEARNER))
+              feat_bonus += 1;
+
+            // Is Class skill?
             if (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS)
               buf = "X";
             else
               buf = " ";
+
             send_to_char(ch, "[%s] %-19s: [ %3d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %3d ] ", buf, spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
                 get_skill_mod(ch, spell_sort_info[i]), racial_bonus, feat_bonus, misc_bonus, get_skill_value(ch, spell_sort_info[i]));
         }
@@ -1259,7 +1277,6 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
     SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
-    SET_SKILL_BONUS(ch, SKILL_USE_ROPE, GET_SKILL_BONUS(ch, SKILL_USE_ROPE) + 2);
     break;
   case FEAT_MAGICAL_APTITUDE:
     subval = HAS_FEAT(ch, feat_num) + 1;

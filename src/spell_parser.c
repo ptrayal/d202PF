@@ -3868,7 +3868,6 @@ void mag_assign_spells(void)
   skillo(SKILL_SPELLCRAFT, "spellcraft", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_PERCEPTION, "perception", SKFLAG_WISMOD);
   skillo(SKILL_SURVIVAL, "survival", SKFLAG_WISMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_USE_ROPE, "use rope", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_USE_MAGIC_DEVICE, "use magic device", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_COMBAT_TACTICS, "combat tactics", SKFLAG_INTMOD);
   skillo(SKILL_LORE, "lore", SKFLAG_INTMOD);

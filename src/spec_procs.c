@@ -3668,7 +3668,7 @@ SPECIAL(crafting_station)
       }
 
       if (CAN_WEAR(created, ITEM_WEAR_FINGER) || CAN_WEAR(created, ITEM_WEAR_ABOVE))
-        skill = SKILL_ROBOTICS;
+        skill = SKILL_TANNING;
       else
         skill = SKILL_TINKERING;
 
@@ -4155,7 +4155,7 @@ SPECIAL(crafting_station)
         break;
       default:
         if (CAN_WEAR(created, ITEM_WEAR_FINGER) || CAN_WEAR(created, ITEM_WEAR_ABOVE))
-          skilltype = SKILL_ROBOTICS;
+          skilltype = SKILL_TANNING;
         else
           skilltype = SKILL_TINKERING;
         break;
@@ -5917,7 +5917,7 @@ SPECIAL(lockbox)
     return 0;
   }
 
-  int roll = skill_roll(ch, SKILL_USE_COMPUTER);
+  int roll = skill_roll(ch, SKILL_OPEN_LOCK);
   struct obj_data *lb = (struct obj_data *) me;
   struct obj_data *obj = NULL;
 
