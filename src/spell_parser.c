@@ -3845,29 +3845,29 @@ void mag_assign_spells(void)
    * the appropriate flags.
 
    */
-  skillo(SKILL_DIPLOMACY, "diplomacy", SKFLAG_CHAMOD);
   skillo(SKILL_ACROBATICS, "balance", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_BLUFF, "bluff", SKFLAG_CHAMOD);
+  skillo(SKILL_COMBAT_TACTICS, "combat tactics", SKFLAG_INTMOD);
   skillo(SKILL_CONCENTRATION, "concentration", SKFLAG_CONMOD);
   skillo(SKILL_DECIPHER_SCRIPT, "decipher script", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
+  skillo(SKILL_DIPLOMACY, "diplomacy", SKFLAG_CHAMOD);
   skillo(SKILL_DISABLE_DEVICE, "disable device", SKFLAG_DEXMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
   skillo(SKILL_DISGUISE, "disguise", SKFLAG_CHAMOD);
   skillo(SKILL_ESCAPE_ARTIST, "escape artist", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_FORGERY, "forgery", SKFLAG_INTMOD);
   skillo(SKILL_HANDLE_ANIMAL, "handle animal", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
   skillo(SKILL_HEAL, "heal", SKFLAG_WISMOD | SKFLAG_ARMORBAD);
-  skillo(SKILL_STEALTH, "stealth", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_INTIMIDATE, "intimidate", SKFLAG_CHAMOD);
+  skillo(SKILL_LORE, "lore", SKFLAG_INTMOD);
+  skillo(SKILL_PERCEPTION, "perception", SKFLAG_WISMOD);
   skillo(SKILL_PERFORM, "perform", SKFLAG_CHAMOD);
   skillo(SKILL_RIDE, "ride", SKFLAG_DEXMOD | SKFLAG_ARMORBAD);
   skillo(SKILL_SENSE_MOTIVE, "sense motive", SKFLAG_WISMOD);
   skillo(SKILL_SLEIGHT_OF_HAND, "sleight of hand", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_SPELLCRAFT, "spellcraft", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_PERCEPTION, "perception", SKFLAG_WISMOD);
+  skillo(SKILL_STEALTH, "stealth", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_SURVIVAL, "survival", SKFLAG_WISMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_USE_MAGIC_DEVICE, "use magic device", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_COMBAT_TACTICS, "combat tactics", SKFLAG_INTMOD);
-  skillo(SKILL_LORE, "lore", SKFLAG_INTMOD);
 
 
   skillo(SKILL_CRAFTING_THEORY, "crafting theory", SKFLAG_INTMOD | SKFLAG_CRAFT);
