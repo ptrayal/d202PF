@@ -348,9 +348,9 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
     need_movement *= ((roll_skill(ch, SKILL_STEALTH) > 15) ? 1.2 : 2);
 
   if (ch->player_specials->mounted)
-    athletics = skill_roll(ch, SKILL_RIDE) + (skill_roll(ch, SKILL_ATHLETICS) / 5);
+    athletics = skill_roll(ch, SKILL_RIDE) + (skill_roll(ch, SKILL_ACROBATICS) / 5);
   else
-    athletics = skill_roll(ch, SKILL_ATHLETICS);
+    athletics = skill_roll(ch, SKILL_ACROBATICS);
   
 
   if (HAS_FEAT(ch, FEAT_ENDURANCE))
@@ -776,11 +776,11 @@ int ok_pick(struct char_data *ch, obj_vnum keynum, int pickproof, int dclock, in
 
   /* PICKING_LOCKS is not an untrained skill */
   
-  if (!GET_SKILL(ch, SKILL_OPEN_LOCK)) {
+  if (!GET_SKILL(ch, SKILL_DISABLE_DEVICE)) {
     send_to_char(ch, "You have no idea how!\r\n");
     return (0);
   }
-  skill_lvl = get_skill_value(ch, SKILL_OPEN_LOCK);
+  skill_lvl = get_skill_value(ch, SKILL_DISABLE_DEVICE);
 
   if (FIGHTING(ch))
       skill_lvl += dice(1, 20);

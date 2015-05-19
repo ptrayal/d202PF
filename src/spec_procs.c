@@ -5917,7 +5917,7 @@ SPECIAL(lockbox)
     return 0;
   }
 
-  int roll = skill_roll(ch, SKILL_OPEN_LOCK);
+  int roll = skill_roll(ch, SKILL_DISABLE_DEVICE);
   struct obj_data *lb = (struct obj_data *) me;
   struct obj_data *obj = NULL;
 

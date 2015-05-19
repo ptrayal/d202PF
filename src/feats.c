@@ -208,11 +208,10 @@ feato(FEAT_EVASION, "evasion", TRUE, FALSE, FALSE, "none", "on successful reflex
 feato(FEAT_IMPROVED_EVASION, "improved evasion", TRUE, TRUE, FALSE, "rogue level 11", "as evasion but half damage of failed save");
 feato(FEAT_ACROBATIC, "acrobatic", TRUE, TRUE, FALSE, "none", "+2 to jump and tumble skill checks");
 feato(FEAT_ANIMAL_AFFINITY, "animal affinity", TRUE, TRUE, FALSE, "none", "+2 to handle animal and ride skill checks");
-feato(FEAT_ATHLETIC, "athletic", TRUE, TRUE, FALSE, "none", "+2 to swim and climb skill checks");
 feato(FEAT_AUGMENT_SUMMONING, "augment summoning", TRUE, TRUE, FALSE, "none", "gives all creatures you have from summoning spells +4 to strength and constitution");
 feato(FEAT_COMBAT_EXPERTISE, "combat expertise", TRUE, TRUE, FALSE, "int 13", "may take penalty to hit rolls and add same amount as dodge ac bonus");
 feato(FEAT_DECEITFUL, "deceitful", TRUE, TRUE, FALSE, "none", "+2 to disguise and forgery skill checks");
-feato(FEAT_DEFT_HANDS, "deft hands", TRUE, TRUE, FALSE, "none", "+2 to sleight of hand and use rope skill checks");
+feato(FEAT_DEFT_HANDS, "deft hands", TRUE, TRUE, FALSE, "none", "+2 to sleight of hand and disable device checks");
 feato(FEAT_DIEHARD, "diehard", TRUE, TRUE, FALSE, "endurance", "will stay alive and conscious until -10 hp or lower");
 feato(FEAT_ESCHEW_MATERIALS, "eschew materials", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_EXOTIC_WEAPON_PROFICIENCY, "exotic weapon proficiency", TRUE, TRUE, TRUE, "base attack bonus +1", "can use exotic weapon of type chosen without penalties");

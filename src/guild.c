@@ -1246,7 +1246,6 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
   case FEAT_ACROBATIC:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
     SET_SKILL_BONUS(ch, SKILL_ACROBATICS, GET_SKILL_BONUS(ch, SKILL_ACROBATICS) + 2);
     break;
   case FEAT_ALERTNESS:
@@ -1261,12 +1260,6 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
     SET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL, GET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL) + 2);
     SET_SKILL_BONUS(ch, SKILL_RIDE, GET_SKILL_BONUS(ch, SKILL_RIDE) + 2);
     break;
-  case FEAT_ATHLETIC:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
-    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
-    break;
   case FEAT_DECEITFUL:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
@@ -1277,6 +1270,7 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
     SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
+    SET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE, GET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE) + 2);
     break;
   case FEAT_MAGICAL_APTITUDE:
     subval = HAS_FEAT(ch, feat_num) + 1;

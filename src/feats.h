@@ -219,7 +219,7 @@ extern struct feat_info feat_list[];
 #define FEAT_ACROBATIC        207
 // #define FEAT_AGILE                208
 #define FEAT_ANIMAL_AFFINITY      209
-#define FEAT_ATHLETIC       210
+// #define FEAT_ATHLETIC       210
 #define FEAT_AUGMENT_SUMMONING      211
 #define FEAT_COMBAT_EXPERTISE     212
 #define FEAT_DECEITFUL        213

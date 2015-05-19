@@ -4969,7 +4969,6 @@ void process_add_feat(struct char_data *ch, int feat_num)
   case FEAT_ACROBATIC:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
     SET_SKILL_BONUS(ch, SKILL_ACROBATICS, GET_SKILL_BONUS(ch, SKILL_ACROBATICS) + 2);
     break;
   case FEAT_ALERTNESS:
@@ -4984,12 +4983,6 @@ void process_add_feat(struct char_data *ch, int feat_num)
     SET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL, GET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL) + 2);
     SET_SKILL_BONUS(ch, SKILL_RIDE, GET_SKILL_BONUS(ch, SKILL_RIDE) + 2);
     break;
-  case FEAT_ATHLETIC:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
-    SET_SKILL_BONUS(ch, SKILL_ATHLETICS, GET_SKILL_BONUS(ch, SKILL_ATHLETICS) + 2);
-    break;
   case FEAT_DECEITFUL:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
@@ -5000,6 +4993,7 @@ void process_add_feat(struct char_data *ch, int feat_num)
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
     SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
+    SET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE, GET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE) + 2);
     break;
   case FEAT_MAGICAL_APTITUDE:
     subval = HAS_FEAT(ch, feat_num) + 1;

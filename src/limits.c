@@ -248,7 +248,7 @@ int move_gain(struct char_data *ch)
   if (HAS_FEAT(ch, FEAT_ENDURANCE))
     gain += 10;
 
-  gain += MAX(0, get_skill_value(ch, SKILL_ATHLETICS));
+  gain += MAX(0, get_skill_value(ch, SKILL_ACROBATICS));
 
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_TAVERN))
     gain += 20;

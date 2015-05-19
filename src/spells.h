@@ -562,7 +562,6 @@
 #define TYPE_SUFFERING               799
 
 #define SKILL_ACROBATICS      	800
-#define SKILL_ATHLETICS      	801
 #define SKILL_DECEPTION         802
 #define SKILL_ENDURANCE   	803
 #define SKILL_GATHER_INFORMATION 804
@@ -572,8 +571,7 @@
 #define SKILL_MECHANICS         808
 #define SKILL_PERCEPTION      	809
 #define SKILL_PERSUASION        810
-#define SKILL_PILOT      	811
-#define SKILL_RIDE 	   	812
+#define SKILL_RIDE 	   	811
 #define SKILL_SURVIVAL     	813
 #define SKILL_CRAFTING_THEORY   817
 #define SKILL_ARMORTECH         818
@@ -599,7 +597,6 @@
 #define SKILL_FORGERY           807
 #define SKILL_SPELLCRAFT        816
 #define SKILL_LORE              807
-#define SKILL_OPEN_LOCK         815
 #define SKILL_HANDLE_ANIMAL     812
 #define SKILL_SENSE_MOTIVE      802
 #define SKILL_BLUFF             802
@@ -608,9 +605,9 @@
 #define SKILL_DIPLOMACY         810
 #define SKILL_HEAL              814
 #define SKILL_DISGUISE          802
-#define SKILL_DISABLE_DEVICE    808
+#define SKILL_DISABLE_DEVICE    815
 #define SKILL_DECIPHER_SCRIPT   807
-#define SKILL_ESCAPE_ARTIST     800
+#define SKILL_ESCAPE_ARTIST     801
 #define SKILL_PERFORM           810
 #define SKILL_COMBAT_TACTICS    806
 #define SKILL_CONCENTRATION     816

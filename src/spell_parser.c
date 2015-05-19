@@ -3850,7 +3850,7 @@ void mag_assign_spells(void)
   skillo(SKILL_BLUFF, "bluff", SKFLAG_CHAMOD);
   skillo(SKILL_CONCENTRATION, "concentration", SKFLAG_CONMOD);
   skillo(SKILL_DECIPHER_SCRIPT, "decipher script", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_DISABLE_DEVICE, "disable device", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
+  skillo(SKILL_DISABLE_DEVICE, "disable device", SKFLAG_DEXMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
   skillo(SKILL_DISGUISE, "disguise", SKFLAG_CHAMOD);
   skillo(SKILL_ESCAPE_ARTIST, "escape artist", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_FORGERY, "forgery", SKFLAG_INTMOD);
@@ -3859,8 +3859,6 @@ void mag_assign_spells(void)
   skillo(SKILL_HEAL, "heal", SKFLAG_WISMOD | SKFLAG_ARMORBAD);
   skillo(SKILL_STEALTH, "stealth", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_INTIMIDATE, "intimidate", SKFLAG_CHAMOD);
-  skillo(SKILL_ATHLETICS, "athletics", SKFLAG_STRMOD | SKFLAG_ARMORALL);
-  skillo(SKILL_OPEN_LOCK, "open lock", SKFLAG_DEXMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
   skillo(SKILL_PERFORM, "perform", SKFLAG_CHAMOD);
   skillo(SKILL_RIDE, "ride", SKFLAG_DEXMOD | SKFLAG_ARMORBAD);
   skillo(SKILL_SENSE_MOTIVE, "sense motive", SKFLAG_WISMOD);
