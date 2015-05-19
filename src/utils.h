@@ -1006,6 +1006,8 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
 
 #define IS_LIZARDFOLK(ch)       (FALSE)
 
+#define IS_REPTILIAN(ch)        (IS_LIZARDFOLK(ch) || IS_KOBOLD(ch))
+
 #define IS_UNDEAD(ch)           (race_list[GET_RACE(ch)].family == RACE_TYPE_UNDEAD)
 
 #define IS_MONSTROUS_HUMANOID(ch) (race_list[GET_RACE(ch)].family == RACE_TYPE_MONSTROUS_HUMANOID)

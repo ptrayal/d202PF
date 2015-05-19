@@ -3111,17 +3111,28 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
   if (IS_GNOME(victim) && IS_GIANT(ch))
     victim_ac += 4;
 
+  // Dwarven Hatred
+  if (IS_DWARF(ch) && (IS_ORC(victim) || IS_GOBLIN(victim)))
+    victim_ac -= 1;
 
-  if (AFF_FLAGGED(victim, AFF_AOO) && HAS_FEAT(victim, FEAT_MOBILITY)) {
+  // Gnome Hatred
+  if (IS_GNOME(ch) && (IS_GOBLIN(victim) || IS_REPTILIAN(victim)))
+    victim_ac -= 1;
+
+  if (AFF_FLAGGED(victim, AFF_AOO) && HAS_FEAT(victim, FEAT_MOBILITY)) 
+  {
   	victim_ac += 4;
   	REMOVE_BIT_AR(AFF_FLAGS(victim), AFF_AOO);
         armor = GET_EQ(ch, WEAR_BODY);
-        if (skill_roll(ch, SKILL_ACROBATICS) >= 15) {
-          if (armor) {
+        if (skill_roll(ch, SKILL_ACROBATICS) >= 15) 
+        {
+          if (armor) 
+          {
             if (GET_OBJ_TYPE(armor) == ITEM_WORN || highest_armor_type(ch) <= ARMOR_TYPE_LIGHT)  // Light armor or less
               return damage(ch, victim, 0, w_type, 0, -1, 0, 0, 0);          
            }
-           else {
+           else 
+           {
               return damage(ch, victim, 0, w_type, 0, -1, 0, 0, 0);          
            } 
         }

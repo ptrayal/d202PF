@@ -2625,11 +2625,16 @@ ACMD(do_feats)
 
   two_arguments(argument, arg, arg2);
 
-  if (is_abbrev(arg, "known") || !*arg) {
+  if (is_abbrev(arg, "known") || !*arg) 
+  {
     list_feats_known(ch, arg2);
-  } else if (is_abbrev(arg, "available")) {
+  } 
+  else if (is_abbrev(arg, "available")) 
+  {
     list_feats_available(ch, arg2);
-  } else if (is_abbrev(arg, "complete")) {
+  } 
+  else if (is_abbrev(arg, "complete")) 
+  {
     list_feats_complete(ch, arg2);
   }
 }
