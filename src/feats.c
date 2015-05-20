@@ -114,7 +114,7 @@ void assign_feats(void)
 // Fourth parameter defines whether or not the feat can be learned through a trainer or whether it is
 // a feat given automatically to certain classes or races.
 
-feato(FEAT_ABLE_LEARNER, "able learner", TRUE, TRUE, FALSE, "no prerequisites", "+1 to all skills");
+feato(FEAT_ABLE_LEARNER, "able learner", TRUE, TRUE, FALSE, "no prerequisites", "You get a +1 bonus to all skills.");
 feato(FEAT_ABUNDANT_STEP, "abundant step", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_ACROBATIC, "acrobatic", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Acrobatics and Fly skill checks.  Fly is not implemented yet.");
 feato(FEAT_ACROBATIC_CHARGE, "acrobatic charge", TRUE, FALSE, FALSE, "none", "can charge in situations when others cannot");
