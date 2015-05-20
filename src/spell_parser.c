@@ -640,7 +640,7 @@ int cast_spell(struct char_data *ch, struct char_data *tch,
     SET_SPELL_SLOT(ch, spell_info[spellnum].spell_level, GET_SPELL_SLOT(ch, spell_info[spellnum].spell_level) - 1);
   }
 
-  concentration = GET_SKILL(ch, SKILL_CONCENTRATION);
+  concentration = GET_SKILL(ch, SKILL_SPELLCRAFT);
   if (HAS_FEAT(ch, FEAT_COMBAT_CASTING) > 0)
     concentration += 4;
 
@@ -1089,7 +1089,7 @@ ACMD(do_cast)
     }
     if (GET_EPIC_SPELLS(ch) < 1) {
       if (is_innate_ready(ch, SPELL_EPIC_SPELLS)) {
-        GET_EPIC_SPELLS(ch) = get_skill_value(ch, SKILL_LORE) / 10;
+        GET_EPIC_SPELLS(ch) = get_skill_value(ch, SKILL_KNOWLEDGE) / 10;
         send_to_char(ch, "Your epic spells have been refreshed to full.\r\n");
       } else {
         send_to_char(ch, "You have used up all of your epic spells for the moment.\r\n");
@@ -3849,17 +3849,15 @@ void mag_assign_spells(void)
   skillo(SKILL_APPRAISE, "Appraise", SKFLAG_INTMOD);
   skillo(SKILL_BLUFF, "Bluff", SKFLAG_CHAMOD);
   skillo(SKILL_COMBAT_TACTICS, "Combat Tactics", SKFLAG_INTMOD);
-  skillo(SKILL_CONCENTRATION, "Concentration", SKFLAG_CONMOD);
-  skillo(SKILL_DECIPHER_SCRIPT, "Decipher Script", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_DIPLOMACY, "Diplomacy", SKFLAG_CHAMOD);
   skillo(SKILL_DISABLE_DEVICE, "Disable Device", SKFLAG_DEXMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
   skillo(SKILL_DISGUISE, "Disguise", SKFLAG_CHAMOD);
   skillo(SKILL_ESCAPE_ARTIST, "Escape Artist", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
-  skillo(SKILL_FORGERY, "Forgery", SKFLAG_INTMOD);
   skillo(SKILL_HANDLE_ANIMAL, "Handle Animal", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_HEAL, "Heal", SKFLAG_WISMOD | SKFLAG_ARMORBAD);
   skillo(SKILL_INTIMIDATE, "Intimidate", SKFLAG_CHAMOD);
-  skillo(SKILL_LORE, "Lore", SKFLAG_INTMOD);
+  skillo(SKILL_KNOWLEDGE, "Knowledge", SKFLAG_INTMOD);
+  skillo(SKILL_LINGUISTICS, "Linguistics", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_PERCEPTION, "Perception", SKFLAG_WISMOD);
   skillo(SKILL_PERFORM, "Perform", SKFLAG_CHAMOD);
   skillo(SKILL_RIDE, "Ride", SKFLAG_DEXMOD | SKFLAG_ARMORBAD);

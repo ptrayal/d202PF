@@ -1505,7 +1505,7 @@ int get_skill_value(struct char_data *ch, int skillnum)
       if (IS_ELF(ch))
         value += 2;
       break;
-    case SKILL_LORE:
+    case SKILL_KNOWLEDGE:
       if (HAS_FEAT(ch, FEAT_NATURE_SENSE))
         value += 2;
       value += GET_CLASS_RANKS(ch, CLASS_BARD);

@@ -1264,7 +1264,7 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
     SET_SKILL_BONUS(ch, SKILL_DISGUISE, GET_SKILL_BONUS(ch, SKILL_DISGUISE) + 2);
-    SET_SKILL_BONUS(ch, SKILL_FORGERY, GET_SKILL_BONUS(ch, SKILL_FORGERY) + 2);
+    SET_SKILL_BONUS(ch, SKILL_LINGUISTICS, GET_SKILL_BONUS(ch, SKILL_LINGUISTICS) + 2);
     break;
   case FEAT_DEFT_HANDS:
     subval = HAS_FEAT(ch, feat_num) + 1;

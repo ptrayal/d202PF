@@ -239,7 +239,7 @@ void do_mem_display(struct char_data *ch)
     len += sprintf(buf + len, "@w(@rNone@w)@n\r\n");
 
   if (HAS_FEAT(ch, FEAT_EPIC_SPELLCASTING))
-      sprintf(buf+len, "Epic Spells: [%d/%d]\r\n", GET_EPIC_SPELLS(ch), get_skill_value(ch, SKILL_LORE) / 10);
+      sprintf(buf+len, "Epic Spells: [%d/%d]\r\n", GET_EPIC_SPELLS(ch), get_skill_value(ch, SKILL_KNOWLEDGE) / 10);
 
   page_string(ch->desc, buf, 1);
 }

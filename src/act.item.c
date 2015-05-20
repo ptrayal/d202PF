@@ -3505,7 +3505,7 @@ ACMD(do_lore)
         return;
   }
 
-  skill = SKILL_LORE;
+  skill = SKILL_KNOWLEDGE;
 
   roll = skill_roll(ch, skill);
   dc = 10 + GET_OBJ_LEVEL(obj);

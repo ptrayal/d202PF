@@ -2278,7 +2278,7 @@ void update_innate(struct char_data *ch)
         break;
        case SPELL_EPIC_SPELLS:
         send_to_char(ch, "Your epic spells usage has been restored to full.\r\n");
-        GET_EPIC_SPELLS(ch) = get_skill_value(ch, SKILL_LORE) / 10;
+        GET_EPIC_SPELLS(ch) = get_skill_value(ch, SKILL_KNOWLEDGE) / 10;
         break;
        case SPELL_BARD_SPELLS:
         send_to_char(ch, "Your bard spells usage has been restored to full.\r\n");
@@ -2450,7 +2450,7 @@ ACMD(do_abilities)
         break;
        case SPELL_EPIC_SPELLS:
         send_to_char(ch, "Your epic spells usage has been restored to full.\r\n");
-        GET_EPIC_SPELLS(ch) = get_skill_value(ch, SKILL_LORE) / 10;
+        GET_EPIC_SPELLS(ch) = get_skill_value(ch, SKILL_KNOWLEDGE) / 10;
         break;
        case SPELL_BARD_SPELLS:
         send_to_char(ch, "Your bard spells usage has been restored to full.\r\n");
