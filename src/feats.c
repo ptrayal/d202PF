@@ -147,7 +147,7 @@ feato(FEAT_BLINDSENSE, "blindsense", TRUE, FALSE, FALSE, "ask staff", "ask staff
 feato(FEAT_BONE_ARMOR, "bone armor", TRUE, FALSE, FALSE, "death master level 1", "allows creation of bone armor and 10% arcane spell failure reduction in bone armor per rank.");
 feato(FEAT_BRANDING, "branding", TRUE, FALSE, FALSE, "Artisan level 3", "All items made carry the artisan's brand");
 feato(FEAT_BREATH_WEAPON, "breath weapon", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_BREW_POTION, "brew potion", FALSE, FALSE, FALSE, "3rd level caster", "can create magical potions"); 
+feato(FEAT_BREW_POTION, "brew potion", FALSE, FALSE, FALSE, "3rd level caster", "You can create magic potions."); 
 feato(FEAT_CALL_MOUNT, "call mount", TRUE, FALSE, FALSE, "Paladin level 5", "Allows you to call a paladin mount");
 feato(FEAT_CAMOUFLAGE, "camouflage", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_CANNY_DEFENSE, "canny defense", TRUE, FALSE, FALSE, "none", "add int bonus (max class level) to ac when useing one light weapon and no shield");
@@ -163,7 +163,7 @@ feato(FEAT_COMBAT_STYLE_MASTERY, "combat style master", TRUE, FALSE, FALSE, "ask
 feato(FEAT_CONSTITUTION_BOOST, "constitution boost", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_COSMIC_UNDERSTANDING, "cosmic understanding", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_COUNTERSONG, "countersong", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_CRAFT_MAGICAL_ARMS_AND_ARMOR, "craft magical arms and armor", FALSE, FALSE, FALSE, "5th level caster", "can create magical weapons and armor"); 
+feato(FEAT_CRAFT_MAGICAL_ARMS_AND_ARMOR, "craft magical arms and armor", FALSE, FALSE, FALSE, "5th level caster", "You can create magic armor, shields, and weapons."); 
 feato(FEAT_CRAFT_ROD, "craft rod", FALSE, FALSE, FALSE, "9th level caster", "can crate magical rods");
 feato(FEAT_CRAFT_STAFF, "craft staff", FALSE, FALSE, FALSE, "12th level caster", "can create magical staves"); 
 feato(FEAT_CRAFT_WAND, "craft wand", FALSE, FALSE, FALSE, "5th level caster", "can create magical wands"); 
@@ -180,8 +180,8 @@ feato(FEAT_DECEITFUL, "deceitful", TRUE, TRUE, FALSE, "none", "+2 to disguise an
 feato(FEAT_DEFENSIVE_ROLL, "defensive roll", TRUE, TRUE, FALSE, "rogue level 10", "can roll reflex save vs damage dealt when hp is to be reduced below 0 to take half damage instead");
 feato(FEAT_DEFENSIVE_STANCE, "defensive stance", TRUE, FALSE, FALSE, "Dwarven Defender level 1", "Allows you to fight defensively with bonuses to ac and stats.");
 feato(FEAT_DEFLECT_ARROWS, "deflect arrows", TRUE, TRUE, FALSE, "dex 13, improved unarmed strike", "can deflect one ranged attack per round"); 
-feato(FEAT_DEFT_HANDS, "deft hands", TRUE, TRUE, FALSE, "none", "+2 to sleight of hand and disable device checks");
-feato(FEAT_DEITY_WEAPON_PROFICIENCY, "deity's weapon proficiency", TRUE, FALSE, FALSE, "favored soul level 1", "allows you to use the weapon of your deity");
+feato(FEAT_DEFT_HANDS, "deft hands", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on Disable Device and Sleight of Hand skill checks.");
+feato(FEAT_DEITY_WEAPON_PROFICIENCY, "deity's weapon proficiency", TRUE, FALSE, FALSE, "favored soul level 1, cleric level 1", "Clerics or Favored Souls are also proficient with the favored weapon of their deity.");
 feato(FEAT_DEMORALIZE, "demoralize", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DETECT_EVIL, "detect evil", TRUE, TRUE, FALSE, "none", "able to detect evil alignments");
 feato(FEAT_DETECT_GOOD, "detect good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -457,7 +457,7 @@ feato(FEAT_WILD_SHAPE_PLANT, "wild shape (plant)", TRUE, FALSE, FALSE, "ask staf
 feato(FEAT_WILD_SHAPE_TINY, "wild shape (tiny)", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WINGS, "wings", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WISDOM_OF_THE_MEASURE, "wisdom of the measure", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_WOODLAND_STRIDE, "woodland stride", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_WOODLAND_STRIDE, "woodland stride", TRUE, FALSE, FALSE, "ask staff", "A druid may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or suffering any other impairment.");
 
 
 feato(FEAT_LAST_FEAT, "do not take me", FALSE, FALSE, FALSE, "placeholder feat", "placeholder feat");

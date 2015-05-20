@@ -2652,6 +2652,7 @@ int free_start_feats_cleric[] = {
   FEAT_ARMOR_PROFICIENCY_LIGHT,
   FEAT_ARMOR_PROFICIENCY_MEDIUM,
   FEAT_ARMOR_PROFICIENCY_SHIELD,
+  FEAT_DEITY_WEAPON_PROFICIENCY,
   0
 };
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
