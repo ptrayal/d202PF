@@ -3845,55 +3845,59 @@ void mag_assign_spells(void)
    * the appropriate flags.
 
    */
-  skillo(SKILL_ACROBATICS, "balance", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
-  skillo(SKILL_BLUFF, "bluff", SKFLAG_CHAMOD);
-  skillo(SKILL_COMBAT_TACTICS, "combat tactics", SKFLAG_INTMOD);
-  skillo(SKILL_CONCENTRATION, "concentration", SKFLAG_CONMOD);
-  skillo(SKILL_DECIPHER_SCRIPT, "decipher script", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_DIPLOMACY, "diplomacy", SKFLAG_CHAMOD);
-  skillo(SKILL_DISABLE_DEVICE, "disable device", SKFLAG_DEXMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
-  skillo(SKILL_DISGUISE, "disguise", SKFLAG_CHAMOD);
-  skillo(SKILL_ESCAPE_ARTIST, "escape artist", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
-  skillo(SKILL_FORGERY, "forgery", SKFLAG_INTMOD);
-  skillo(SKILL_HANDLE_ANIMAL, "handle animal", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
-  skillo(SKILL_HEAL, "heal", SKFLAG_WISMOD | SKFLAG_ARMORBAD);
-  skillo(SKILL_INTIMIDATE, "intimidate", SKFLAG_CHAMOD);
-  skillo(SKILL_LORE, "lore", SKFLAG_INTMOD);
-  skillo(SKILL_PERCEPTION, "perception", SKFLAG_WISMOD);
-  skillo(SKILL_PERFORM, "perform", SKFLAG_CHAMOD);
-  skillo(SKILL_RIDE, "ride", SKFLAG_DEXMOD | SKFLAG_ARMORBAD);
-  skillo(SKILL_SENSE_MOTIVE, "sense motive", SKFLAG_WISMOD);
-  skillo(SKILL_SLEIGHT_OF_HAND, "sleight of hand", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
-  skillo(SKILL_SPELLCRAFT, "spellcraft", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_STEALTH, "stealth", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
-  skillo(SKILL_SURVIVAL, "survival", SKFLAG_WISMOD | SKFLAG_NEEDTRAIN);
-  skillo(SKILL_USE_MAGIC_DEVICE, "use magic device", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
+  skillo(SKILL_ACROBATICS, "Balance", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
+  skillo(SKILL_BLUFF, "Bluff", SKFLAG_CHAMOD);
+  skillo(SKILL_COMBAT_TACTICS, "Combat Tactics", SKFLAG_INTMOD);
+  skillo(SKILL_CONCENTRATION, "Concentration", SKFLAG_CONMOD);
+  skillo(SKILL_DECIPHER_SCRIPT, "Decipher Script", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
+  skillo(SKILL_DIPLOMACY, "Diplomacy", SKFLAG_CHAMOD);
+  skillo(SKILL_DISABLE_DEVICE, "Disable Device", SKFLAG_DEXMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
+  skillo(SKILL_DISGUISE, "Disguise", SKFLAG_CHAMOD);
+  skillo(SKILL_ESCAPE_ARTIST, "Escape Artist", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
+  skillo(SKILL_FORGERY, "Forgery", SKFLAG_INTMOD);
+  skillo(SKILL_HANDLE_ANIMAL, "Handle Animal", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
+  skillo(SKILL_HEAL, "Heal", SKFLAG_WISMOD | SKFLAG_ARMORBAD);
+  skillo(SKILL_INTIMIDATE, "Intimidate", SKFLAG_CHAMOD);
+  skillo(SKILL_LORE, "Lore", SKFLAG_INTMOD);
+  skillo(SKILL_PERCEPTION, "Perception", SKFLAG_WISMOD);
+  skillo(SKILL_PERFORM, "Perform", SKFLAG_CHAMOD);
+  skillo(SKILL_RIDE, "Ride", SKFLAG_DEXMOD | SKFLAG_ARMORBAD);
+  skillo(SKILL_SENSE_MOTIVE, "Sense Motive", SKFLAG_WISMOD);
+  skillo(SKILL_SLEIGHT_OF_HAND, "Sleight of Hand", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
+  skillo(SKILL_SPELLCRAFT, "Spellcraft", SKFLAG_INTMOD | SKFLAG_NEEDTRAIN);
+  skillo(SKILL_STEALTH, "Stealth", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
+  skillo(SKILL_SURVIVAL, "Survival", SKFLAG_WISMOD | SKFLAG_NEEDTRAIN);
+  skillo(SKILL_USE_MAGIC_DEVICE, "Use Magic Device", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
 
-
-  skillo(SKILL_CRAFTING_THEORY, "crafting theory", SKFLAG_INTMOD | SKFLAG_CRAFT);
+  // All Artisans get this.
+  skillo(SKILL_CRAFTING_THEORY, "Crafting Theory", SKFLAG_INTMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_CRAFTING_THEORY, ARTISAN_TYPE_ALL);
 
-  skillo(SKILL_BLACKSMITHING, "blacksmithing", SKFLAG_STRMOD | SKFLAG_CRAFT);
+  // Smith artisan skills
+  skillo(SKILL_BLACKSMITHING, "Blacksmithing", SKFLAG_STRMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_BLACKSMITHING, ARTISAN_TYPE_SMITH);
-  skillo(SKILL_GOLDSMITHING, "goldsmithing", SKFLAG_INTMOD | SKFLAG_CRAFT);
+  skillo(SKILL_GOLDSMITHING, "Goldsmithing", SKFLAG_INTMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_GOLDSMITHING, ARTISAN_TYPE_SMITH);
-  skillo(SKILL_MINING, "mining", SKFLAG_STRMOD | SKFLAG_CRAFT);
+  skillo(SKILL_MINING, "Mining", SKFLAG_STRMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_MINING, ARTISAN_TYPE_SMITH);
 
-  skillo(SKILL_FARMING, "farming", SKFLAG_WISMOD | SKFLAG_CRAFT);
+  // Farmer artisan skills
+  skillo(SKILL_FARMING, "Farming", SKFLAG_WISMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_FARMING, ARTISAN_TYPE_FARMER);
-  skillo(SKILL_TAILORING, "tailoring", SKFLAG_DEXMOD | SKFLAG_CRAFT);
+  skillo(SKILL_TAILORING, "Tailoring", SKFLAG_DEXMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_TAILORING, ARTISAN_TYPE_FARMER);
-  skillo(SKILL_COOKING, "cooking", SKFLAG_WISMOD | SKFLAG_CRAFT);
+  skillo(SKILL_COOKING, "Cooking", SKFLAG_WISMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_COOKING, ARTISAN_TYPE_FARMER);
 
-  skillo(SKILL_WOODWORKING, "woodworking", SKFLAG_DEXMOD | SKFLAG_CRAFT);
+  // Woodsman artisan skills
+  skillo(SKILL_WOODWORKING, "Woodworking", SKFLAG_DEXMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_WOODWORKING, ARTISAN_TYPE_WOODSMAN);
-  skillo(SKILL_TANNING, "tanning", SKFLAG_WISMOD | SKFLAG_CRAFT);
+  skillo(SKILL_TANNING, "Tanning", SKFLAG_WISMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_TANNING, ARTISAN_TYPE_WOODSMAN);
-  skillo(SKILL_FORESTING, "foresting", SKFLAG_WISMOD | SKFLAG_CRAFT);
+  skillo(SKILL_FORESTING, "Foresting", SKFLAG_WISMOD | SKFLAG_CRAFT);
   artisan_skill(SKILL_FORESTING, ARTISAN_TYPE_WOODSMAN);
 
+  // Languages
   skillo(SKILL_LANG_COMMON, "common", 0);
   set_skill_type(SKILL_LANG_COMMON, SKTYPE_SKILL | SKTYPE_LANG);
 
@@ -3995,7 +3999,8 @@ void mag_assign_spells(void)
 
 }
 
-ACMD(do_spells) {
+ACMD(do_spells) 
+{
 
   int i = 0, j, k = 0, n = 0;
   sbyte spellKnown = FALSE, spellInRepetoire = FALSE;
