@@ -222,9 +222,9 @@ int calc_spell_dc(struct char_data *ch, int spellnum)
   dc = spell_info[spellnum].spell_level + (class == CLASS_UNDEFINED ? GET_LEVEL(ch) : GET_CASTER_LEVEL(ch, class)) + ability_mod_value(cast_stat);
   if (ch) {
     if (HAS_SCHOOL_FEAT(ch, SFEAT_SPELL_FOCUS, spell_info[spellnum].school))
-      dc += 3;
+      dc += 1;
     if (HAS_SCHOOL_FEAT(ch, SFEAT_GREATER_SPELL_FOCUS, spell_info[spellnum].school))
-      dc += 3;
+      dc += 1;
   }
 
   if (IS_GNOME(ch) && spell_info[spellnum].school == SCHOOL_ENCHANTMENT)

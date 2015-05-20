@@ -1510,6 +1510,10 @@ int get_skill_value(struct char_data *ch, int skillnum)
         value += 2;
       value += GET_CLASS_RANKS(ch, CLASS_BARD);
       break;
+    case SKILL_SURVIVAL:
+      if (HAS_FEAT(ch, FEAT_NATURE_SENSE))
+        value += 2;
+      break;
     case SKILL_INTIMIDATE:
       if (IS_HALF_ORC(ch))
         value += 2;

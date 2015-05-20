@@ -114,7 +114,7 @@ void assign_feats(void)
 // Fourth parameter defines whether or not the feat can be learned through a trainer or whether it is
 // a feat given automatically to certain classes or races.
 
-feato(FEAT_ABLE_LEARNER, "able learner", TRUE, TRUE, FALSE, "+1 to all skills", "no prerequisites");
+feato(FEAT_ABLE_LEARNER, "able learner", TRUE, TRUE, FALSE, "no prerequisites", "+1 to all skills");
 feato(FEAT_ABUNDANT_STEP, "abundant step", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_ACROBATIC, "acrobatic", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Acrobatics and Fly skill checks.  Fly is not implemented yet.");
 feato(FEAT_ACROBATIC_CHARGE, "acrobatic charge", TRUE, FALSE, FALSE, "none", "can charge in situations when others cannot");
@@ -229,7 +229,7 @@ feato(FEAT_ESCHEW_MATERIALS, "eschew materials", FALSE, FALSE, FALSE, "ask staff
 feato(FEAT_ESSENCE_OF_UNDEATH, "essence of undeath", TRUE, FALSE, FALSE, "death master", "gives immunity to poison, disease, sneak attack and critical hits");
 feato(FEAT_EVASION, "evasion", TRUE, FALSE, FALSE, "none", "on successful reflex save no damage from spells and effects");
 feato(FEAT_EXCEPTIONAL_TURNING, "exceptional turning", TRUE, FALSE, FALSE, "sun cleric domain", "+1d10 hit dice of undead turned");
-feato(FEAT_EXOTIC_WEAPON_PROFICIENCY, "exotic weapon proficiency", TRUE, TRUE, TRUE, "base attack bonus +1", "can use exotic weapon of type chosen without penalties");
+feato(FEAT_EXOTIC_WEAPON_PROFICIENCY, "exotic weapon proficiency", TRUE, TRUE, TRUE, "base attack bonus +1", "You understand how to use that type of exotic weapon in combat.");
 feato(FEAT_EXTEND_RAGE, "extend rage", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_EXTEND_SPELL, "extend spell", TRUE, TRUE, FALSE, "can cast spells", "durations of spells are 50% longer when enabled"); 
 feato(FEAT_EXTRA_MUSIC, "extra music", TRUE, TRUE, FALSE, "bard level 1", "4 extra bard music uses per day");
@@ -325,7 +325,7 @@ feato(FEAT_LINGERING_SONG, "lingering song", TRUE, TRUE, FALSE, "bard level 1", 
 feato(FEAT_LOW_LIGHT_VISION, "low light vision", TRUE, FALSE, FALSE, "none", "can see in the dark outside only");
 feato(FEAT_MAGICAL_APTITUDE, "magical aptitude", TRUE, TRUE, FALSE, "none", "+2 to spellcraft and use magical device skill checks");
 feato(FEAT_MANYSHOT, "manyshot", TRUE, FALSE, FALSE, "ranger level 6", "extra ranged attack when rapid shot turned on");
-feato(FEAT_MARTIAL_WEAPON_PROFICIENCY, "martial weapon proficiency", TRUE, TRUE, FALSE, "none", "able to use all martial weapons");
+feato(FEAT_MARTIAL_WEAPON_PROFICIENCY, "martial weapon proficiency", TRUE, TRUE, FALSE, "none", "You understand how to use martial weapons in combat.");
 feato(FEAT_MASS_SUGGESTION, "mass suggestion", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_MASTERWORK_CRAFTING, "masterwork crafting", TRUE, FALSE, FALSE, "Artisan level 6", "All equipment made is masterwork");
 feato(FEAT_MAXIMIZE_SPELL, "maximize spell", TRUE, TRUE, FALSE, "can cast spells", "all spells cast while maximised enabled do maximum effect.");
@@ -338,7 +338,7 @@ feato(FEAT_MOUNTED_ARCHERY, "mounted archery", FALSE, FALSE, FALSE, "ask staff",
 feato(FEAT_MOUNTED_COMBAT, "mounted combat", TRUE, TRUE, FALSE, "ride rank 1", "once per round rider may negate a hit against him with a successful ride vs attack roll check");
 feato(FEAT_NATURAL_ARMOR_INCREASE, "natural armor increase", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_NATURAL_SPELL, "natural spell", TRUE, TRUE, FALSE, "wis 13+, ability to wild shape", "allows casting of spells while wild shaped.");
-feato(FEAT_NATURE_SENSE, "nature sense", TRUE, FALSE, FALSE, "druid level 1", "+2 to lore and survival skills");
+feato(FEAT_NATURE_SENSE, "nature sense", TRUE, FALSE, FALSE, "druid level 1", "A druid gains a +2 bonus on Knowledge and Survival checks");
 feato(FEAT_NO_RETREAT, "no retreat", TRUE, FALSE, FALSE, "duelist level 9", "allows you to gain an attack of opportunity against retreating opponents");
 feato(FEAT_ONE_THOUGHT, "one thought", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_OPPORTUNIST, "opportunist", TRUE, TRUE, FALSE, "Rogue level 10", "once per round the rogue may make an attack of opportunity against a foe an ally just struck");
@@ -377,10 +377,10 @@ feato(FEAT_SACRED_FLAMES, "sacred flames", TRUE, FALSE, FALSE, "sacred fist leve
 feato(FEAT_SCAVENGE, "scavenge", TRUE, FALSE, FALSE, "Artisan level 5", "Can find materials on corpses");
 feato(FEAT_SCRIBE_SCROLL, "scribe scroll", FALSE, FALSE, FALSE, "1st level caster", "can scribe spells from memory onto scrolls");
 feato(FEAT_SELF_CONCEALMENT, "self concealment", TRUE, TRUE, TRUE, "stealth 30 ranks, dex 30, tumble 30 ranks", "10% miss chance for attacks against you per rank");
-feato(FEAT_SELF_SUFFICIENT, "self sufficient", TRUE, TRUE, FALSE, "none", "+2 to heal and survival skill checks");
+feato(FEAT_SELF_SUFFICIENT, "self sufficient", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Heal checks and Survival checks.");
 feato(FEAT_SHOT_ON_THE_RUN, "shot on the run", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SILENT_SPELL, "silent spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SIMPLE_WEAPON_PROFICIENCY, "simple weapon proficiency", TRUE, TRUE, FALSE, "none", "may use all simple weappons");
+feato(FEAT_SIMPLE_WEAPON_PROFICIENCY, "simple weapon proficiency", TRUE, TRUE, FALSE, "none", "You are trained in the use of basic weapons.");
 feato(FEAT_SKILL_FOCUS, "skill focus", TRUE, TRUE, TRUE, "none", "+3 in chosen skill");
 feato(FEAT_SLEEP_PARALYSIS_IMMUNITY, "sleep & paralysis immunity", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SLIPPERY_MIND, "slippery mind", TRUE, TRUE, FALSE, "Rogue level 11+", "extra chance for will saves");
@@ -391,13 +391,13 @@ feato(FEAT_SNEAK_ATTACK, "sneak attack", TRUE, TRUE, TRUE, "as epic feat: sneak 
 feato(FEAT_SNEAK_ATTACK_OF_OPPORTUNITY, "sneak attack of opportunity", TRUE, TRUE, FALSE, "sneak attack +8d6, opportunist feat", "makes all opportunity attacks sneak attacks");
 feato(FEAT_SONG_OF_FREEDOM, "song of freedom", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SOUL_OF_KNIGHTHOOD, "soul of knighthood", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SPELL_FOCUS, "spell focus", FALSE, FALSE, FALSE, "1st level caster", "+1 to all spell dcs for all spells in school/domain");
+feato(FEAT_SPELL_FOCUS, "spell focus", FALSE, FALSE, FALSE, "1st level caster", "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.");
 feato(FEAT_SPELL_MASTERY, "spell mastery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPELL_PENETRATION, "spell penetration", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPIRITED_CHARGE, "spirited charge", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPRING_ATTACK, "spring attack", TRUE, TRUE, FALSE, "dodge, mobility, base attack +4, dex 13+", "free attack of opportunity against combat abilities (ie. kick, trip)");
 feato(FEAT_STEADFAST_DETERMINATION, "steadfast determination", TRUE, TRUE, FALSE, "endurance feat", "allows you to use your con bonus instead of your wis bonus for will saves");
-feato(FEAT_STEALTHY, "stealthy", TRUE, TRUE, FALSE, "none", "+2 to all Escape Artist and Stealth skill checks");
+feato(FEAT_STEALTHY, "stealthy", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Escape Artist and Stealth skill checks.");
 feato(FEAT_STILL_MIND, "still mind", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STILL_SPELL, "still spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STRENGTH_BOOST, "strength boost", TRUE, FALSE, FALSE, "ask staff", "ask staff");
