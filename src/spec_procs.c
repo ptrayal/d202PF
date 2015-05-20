@@ -6029,7 +6029,7 @@ SPECIAL(orphan)
     return 1;
   }
 
-  int roll = skill_roll(ch, SKILL_PERSUASION);
+  int roll = skill_roll(ch, SKILL_DIPLOMACY);
   int reward = 0;
 
   if (roll > 70) {

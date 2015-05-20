@@ -620,7 +620,7 @@ ACMD(do_skillset)
   struct char_data *vict;
   char name[MAX_INPUT_LENGTH];
   char buf[MAX_INPUT_LENGTH], help[MAX_STRING_LENGTH];
-  int skill, value, i=0, qend;
+  int skill = 0, value = 0, i=0, qend = 0;
 
   argument = one_argument(argument, name);
 

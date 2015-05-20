@@ -3845,7 +3845,8 @@ void mag_assign_spells(void)
    * the appropriate flags.
 
    */
-  skillo(SKILL_ACROBATICS, "Balance", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
+  skillo(SKILL_ACROBATICS, "Acrobatics", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
+  skillo(SKILL_APPRAISE, "Appraise", SKFLAG_INTMOD);
   skillo(SKILL_BLUFF, "Bluff", SKFLAG_CHAMOD);
   skillo(SKILL_COMBAT_TACTICS, "Combat Tactics", SKFLAG_INTMOD);
   skillo(SKILL_CONCENTRATION, "Concentration", SKFLAG_CONMOD);
@@ -3855,7 +3856,7 @@ void mag_assign_spells(void)
   skillo(SKILL_DISGUISE, "Disguise", SKFLAG_CHAMOD);
   skillo(SKILL_ESCAPE_ARTIST, "Escape Artist", SKFLAG_DEXMOD | SKFLAG_ARMORALL);
   skillo(SKILL_FORGERY, "Forgery", SKFLAG_INTMOD);
-  skillo(SKILL_HANDLE_ANIMAL, "Handle Animal", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN | SKFLAG_ARMORBAD);
+  skillo(SKILL_HANDLE_ANIMAL, "Handle Animal", SKFLAG_CHAMOD | SKFLAG_NEEDTRAIN);
   skillo(SKILL_HEAL, "Heal", SKFLAG_WISMOD | SKFLAG_ARMORBAD);
   skillo(SKILL_INTIMIDATE, "Intimidate", SKFLAG_CHAMOD);
   skillo(SKILL_LORE, "Lore", SKFLAG_INTMOD);

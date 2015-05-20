@@ -561,58 +561,60 @@
 /* new attack types can be added here - up to TYPE_SUFFERING */
 #define TYPE_SUFFERING               799
 
-#define SKILL_ACROBATICS      	800
-#define SKILL_DECEPTION         802
-#define SKILL_ENDURANCE   	803
-#define SKILL_INITIATIVE     	805
+#define SKILL_ACROBATICS        800
+#define SKILL_ESCAPE_ARTIST     801
+#define SKILL_SENSE_MOTIVE      802
+#define SKILL_ENDURANCE         803
+#define SKILL_DIPLOMACY         804
+#define SKILL_INITIATIVE        805
+
+#define SKILL_COMBAT_TACTICS    806
 #define SKILL_TACTICS           806
-#define SKILL_KNOWLEDGE   	807
+#define SKILL_KNOWLEDGE         807
+#define SKILL_FORGERY           807
+#define SKILL_LORE              807
+#define SKILL_DECIPHER_SCRIPT   807
+
 #define SKILL_MECHANICS         808
 #define SKILL_PERCEPTION      	809
-#define SKILL_PERSUASION        810
-#define SKILL_RIDE 	   	811
-#define SKILL_SURVIVAL     	813
+#define SKILL_APPRAISE          810
+#define SKILL_RIDE              811
+#define SKILL_HANDLE_ANIMAL     812
+#define SKILL_SURVIVAL          813
+#define SKILL_HEAL              814
+#define SKILL_DISABLE_DEVICE    815
+
+#define SKILL_CONCENTRATION     816
+#define SKILL_SPELLCRAFT        816
+#define SKILL_USE_MAGIC_DEVICE  816
 #define SKILL_CRAFTING_THEORY   817
 #define SKILL_ARMORTECH         818
-#define SKILL_WEAPONTECH        819
-#define SKILL_TINKERING         820
-#define SKILL_STEALTH      	821
-#define SKILL_HARVESTING        822
-
 #define SKILL_FORESTING         818
 #define SKILL_MINING            819
-#define SKILL_FARMING           830
-#define SKILL_BLACKSMITHING     829
+#define SKILL_WEAPONTECH        819
+
+#define SKILL_TINKERING         820
+#define SKILL_STEALTH           821
+
+#define SKILL_HARVESTING        822
 #define SKILL_TAILORING         822
+
 #define SKILL_TANNING           823
 #define SKILL_GOLDSMITHING      824
 #define SKILL_WOODWORKING       825
 #define SKILL_COOKING           826
 #define SKILL_HUNTING           827
 #define SKILL_HERBALISM         828
+#define SKILL_BLACKSMITHING     829
+#define SKILL_FARMING           830
+#define SKILL_INTIMIDATE        831
+#define SKILL_PERFORM           832
+#define SKILL_BLUFF             833
+#define SKILL_SLEIGHT_OF_HAND   834
+#define SKILL_DISGUISE          835
 
-#define SKILL_APPRAISE		810
-#define SKILL_USE_MAGIC_DEVICE  816
-#define SKILL_FORGERY           807
-#define SKILL_SPELLCRAFT        816
-#define SKILL_LORE              807
-#define SKILL_HANDLE_ANIMAL     812
-#define SKILL_SENSE_MOTIVE      802
-#define SKILL_BLUFF             802
-#define SKILL_SLEIGHT_OF_HAND   802
-#define SKILL_INTIMIDATE        810
-#define SKILL_DIPLOMACY         804
-#define SKILL_HEAL              814
-#define SKILL_DISGUISE          802
-#define SKILL_DISABLE_DEVICE    815
-#define SKILL_DECIPHER_SCRIPT   807
-#define SKILL_ESCAPE_ARTIST     801
-#define SKILL_PERFORM           810
-#define SKILL_COMBAT_TACTICS    806
-#define SKILL_CONCENTRATION     816
-
-#define SKILL_LOW_SKILL SKILL_ACROBATICS
-#define SKILL_HIGH_SKILL SKILL_TANNING
+#define SKILL_LOW_SKILL         SKILL_ACROBATICS
+#define SKILL_HIGH_SKILL        SKILL_DISGUISE
 
 #define ART_STUNNING_FIST   	995
 #define ART_WHOLENESS_OF_BODY 	996
