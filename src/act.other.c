@@ -45,7 +45,7 @@ extern struct deity_info deity_list[NUM_DEITIES];
 extern struct race_data race_list[NUM_RACES];
 extern int num_religion_members[NUM_DEITIES];
 extern struct spell_info_type spell_info[];
-extern const char *class_abbrevs_fr[];
+extern const char *class_abbrevs_core[];
 extern const char *class_abbrevs_dl_aol[];
 extern const char *deity_names_fr[];
 extern const char *deity_names_dl_aol[];
@@ -2953,7 +2953,7 @@ ACMD(do_setactive)
 
     for (i = 0; i <= NUM_CLASSES; i++) {
       if (GET_CLASS_RANKS(ch, i))
-        send_to_char(ch, "%d) %s\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]);
+        send_to_char(ch, "%d) %s\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]);
     }
     return;
   }
@@ -2970,7 +2970,7 @@ ACMD(do_setactive)
   send_to_char(ch, "(syntax is setact # (based on which number appears before the class you wish))\r\n");
   for (i = 0; i < NUM_CLASSES; i++) {
     if (GET_CLASS_RANKS(ch, i))
-      send_to_char(ch, "%d) %s\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]);
+      send_to_char(ch, "%d) %s\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]);
   }
   return;
 }
@@ -3454,13 +3454,13 @@ ACMD(do_sponsor) {
   s = strtok(arg2, "\0");
 	
 	for (i = 0; i < NUM_CLASSES; i++) {
-		sprintf(className, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]);
-		for (j = 0; j < strlen((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]); j++)
+		sprintf(className, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]);
+		for (j = 0; j < strlen((CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]); j++)
 		  className[j] = tolower(className[j]);
 	  if (is_abbrev(s, className)) {
 	  	if (GET_CLASS_RANKS(ch, i) > 0 || GET_ADMLEVEL(ch) > ADMLVL_BUILDER) {
-	  		send_to_char(ch, "@wYou have sponsored %s to advance as a %s.@n\r\n", PERS(victim, ch), (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]);
-	  		send_to_char(victim, "@wYou have been sposored by %s to advance as a %s.@n\r\n", PERS(ch, victim), (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]);
+	  		send_to_char(ch, "@wYou have sponsored %s to advance as a %s.@n\r\n", PERS(victim, ch), (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]);
+	  		send_to_char(victim, "@wYou have been sposored by %s to advance as a %s.@n\r\n", PERS(ch, victim), (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]);
 	  		GET_CLASS_SPONSOR(victim, i) = TRUE;
 	  		return;
 	  	}
@@ -4108,13 +4108,13 @@ ACMD(do_bonuslevels)
     for (i = 0; i < NUM_CLASSES; i++)
       if (ch->player_specials->bonus_levels[i] > 0)
         send_to_char(ch, "%s: %d bonus levels\r\n", 
-                    (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i],
+                    (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i],
                     ch->player_specials->bonus_levels[i]);
     return;
   }
 
   for (i = 0; i < NUM_CLASSES; i++) {
-    if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[i]))
+    if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[i]))
       break;
   }
 
@@ -4131,7 +4131,7 @@ ACMD(do_bonuslevels)
     ch->player_specials->bonus_levels_arcane--;
     ch->player_specials->bonus_levels[i] += 1;
     send_to_char(ch, "Your caster level in the %s class has increased by 1 to bring it to a new total of %d.\r\n",
-                     (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[i],
+                     (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[i],
                      GET_CASTER_LEVEL(ch, i));
    
   }
@@ -4143,7 +4143,7 @@ ACMD(do_bonuslevels)
     ch->player_specials->bonus_levels_divine--;
     ch->player_specials->bonus_levels[i] += 1;
     send_to_char(ch, "Your caster level in the %s class has increased by 1 to bring it to a new total of %d.\r\n",
-                     (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[i],
+                     (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[i],
                      GET_CASTER_LEVEL(ch, i));
    
   }
@@ -6321,17 +6321,17 @@ ACMD(do_accexp)
             send_to_char(ch, "Please choose from the following classes:\r\n");
             for (i = 0; i < NUM_CLASSES; i++) 
             {
-                if (!class_in_game_fr[i] || has_unlocked_class(ch, i) || !prestige_classes_fr[i])
+                if (!class_in_game_core[i] || has_unlocked_class(ch, i) || !prestige_classes_core[i])
                     continue;
-                send_to_char(ch, "%s (5000 account experience)\r\n", class_names_fr[i]);
+                send_to_char(ch, "%s (5000 account experience)\r\n", class_names_core[i]);
             }
             return;
         }
         for (i = 0; i < NUM_CLASSES; i++) 
         {
-            if (!class_in_game_fr[i] || has_unlocked_class(ch, i) || !prestige_classes_fr[i])
+            if (!class_in_game_core[i] || has_unlocked_class(ch, i) || !prestige_classes_core[i])
                 continue;
-            if (is_abbrev(arg2, class_names_fr[i]))
+            if (is_abbrev(arg2, class_names_core[i]))
                 break;
         }
 
@@ -6357,7 +6357,7 @@ ACMD(do_accexp)
                 ch->desc->account->experience -= 5000;
                 ch->desc->account->classes[j] = i;
                 save_account(ch->desc->account);
-                send_to_char(ch, "You have unlocked the prestige class '%s' for all character and future characters on your account!.\r\n", class_names_fr[i]);
+                send_to_char(ch, "You have unlocked the prestige class '%s' for all character and future characters on your account!.\r\n", class_names_core[i]);
                 return;
             } 
             else 

@@ -55,7 +55,7 @@ extern char *immlist;
 extern char *policies;
 extern char *handbook;
 extern char *guild_names[];
-extern char *class_abbrevs_fr[];
+extern char *class_abbrevs_core[];
 extern char *class_abbrevs_dl_aol[];
 extern char *race_abbrevs[];
 extern const char *material_names[];
@@ -2313,7 +2313,7 @@ ACMD(do_old_score)
   send_to_char(ch, "@r=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=@n\r\n");
   send_to_char(ch, "@rName: @y%s@n\r\n", GET_TITLE(ch));
   send_to_char(ch, "@r=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=@n\r\n");
-  send_to_char(ch, "@rClass: @y%s @rRace: @y%s @rLevel: @y%d@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[(int)GET_CLASS(ch)], pc_race_types[(int)GET_RACE(ch)], GET_LEVEL(ch));
+  send_to_char(ch, "@rClass: @y%s @rRace: @y%s @rLevel: @y%d@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[(int)GET_CLASS(ch)], pc_race_types[(int)GET_RACE(ch)], GET_LEVEL(ch));
   if (CONFIG_ALLOW_MULTICLASS && GET_LEVEL(ch) > GET_CLASS_RANKS(ch, GET_CLASS(ch))) {
     send_to_char(ch, "@rRanks: @y%s@n\r\n", class_desc_str(ch, 2, 0));
   }
@@ -2866,9 +2866,9 @@ ACMD(do_nohelps) {
   send_to_char(ch, "Missing Class Help Files:\r\n");
   // Classes
   for (i = 0; i <= NUM_CLASSES; i++) {
-    sprintf(buf, "class %s", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr[i] : class_names_dl_aol[i]);
-    if (!(this_help = find_help(buf)) && (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_in_game_fr[i] : class_in_game_dl_aol[i]) == TRUE) {
-      send_to_char(ch, "help class %s\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr[i] : class_names_dl_aol[i]);
+    sprintf(buf, "class %s", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core[i] : class_names_dl_aol[i]);
+    if (!(this_help = find_help(buf)) && (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_in_game_core[i] : class_in_game_dl_aol[i]) == TRUE) {
+      send_to_char(ch, "help class %s\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core[i] : class_names_dl_aol[i]);
     }
   }
   send_to_char(ch, "\r\n");

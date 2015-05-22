@@ -72,7 +72,7 @@ int *free_start_feats[];
 
 
 /* Names first */
-const char *class_abbrevs_fr[] = {
+const char *class_abbrevs_core[] = {
   "Mag",
   "Cle",
   "Rog",
@@ -191,7 +191,7 @@ const char *class_abbrevs_dl_aol[] = {
   "\n"
 };
 /* Copied from the SRD under OGL, see ../doc/srd.txt for information */
-const char *pc_class_types_fr[] = {
+const char *pc_class_types_core[] = {
   "Mage",
   "Cleric",
   "Rogue",
@@ -311,7 +311,7 @@ const char *pc_class_types_dl_aol[] = {
   "\n"
 };
 /* Copied from the SRD under OGL, see ../doc/srd.txt for information */
-const char *class_names_fr[] = {
+const char *class_names_core[] = {
   "mage",
   "cleric",
   "rogue",
@@ -433,7 +433,7 @@ const char *class_names_dl_aol[] = {
 #define Y   true
 #define N   false
 
-int class_ok_available_fr[NUM_CLASSES] = {
+int class_ok_available_core[NUM_CLASSES] = {
 /* W, C, R, F, M, P, B, B, R, D, C, S, R, L, 
      S, T, W, D, G, M, S, C, D, W, D, A, I, N */ 
 
@@ -477,7 +477,7 @@ int class_ok_available_dl_aol_old[NUM_CLASSES] = {
 
 
 /* Adapted from the SRD under OGL, see ../doc/srd.txt for information */
-int class_ok_align_fr[9][NUM_CLASSES] = {
+int class_ok_align_core[9][NUM_CLASSES] = {
 /*         M, C, T, F, M, P, B, B, R, D  C  S  R  L
            S  T  W  D  G  M  S  C  D  W  D  A  I  N 
            A  B  A  A  F  E  D  S  D  X  X  X  X  X
@@ -564,7 +564,7 @@ int class_ok_align_dl_aol[9][NUM_CLASSES] = {
 };
 
 /* Adapted from the SRD under OGL, see ../doc/srd.txt for information */
-int prestige_classes_fr[NUM_CLASSES] = {
+int prestige_classes_core[NUM_CLASSES] = {
 /* MAGE  	*/ N,
 /* CLERIC	*/ N,
 /* ROGUE	*/ N,
@@ -686,7 +686,7 @@ int prestige_classes_dl_aol[NUM_CLASSES] = {
 /* Adapted from the SRD under OGL, see ../doc/srd.txt for information */
 /* -1 indicates no limit to the number of levels in this class under
  * epic rules */
-int class_max_ranks_fr[NUM_CLASSES] = {
+int class_max_ranks_core[NUM_CLASSES] = {
 /* MAGE  	*/ -1,
 /* CLERIC	*/ -1,
 /* ROGUE	*/ -1,
@@ -805,7 +805,7 @@ int class_max_ranks_dl_aol[NUM_CLASSES] = {
 };
 
 
-int class_in_game_fr[NUM_CLASSES] = {
+int class_in_game_core[NUM_CLASSES] = {
 /* MAGE  	*/  TRUE,
 /* CLERIC	*/  TRUE,
 /* ROGUE	*/  TRUE,
@@ -998,10 +998,10 @@ int do_class_ok_general(struct char_data *ch, int whichclass, int show_text)
     return -4;
 //  if (!class_ok_race[(int)GET_RACE(ch)][whichclass])
 //    return -1;
-  if (!(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_ok_align_fr : class_ok_align_dl_aol)[ALIGN_TYPE(ch)][whichclass])
+  if (!(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_ok_align_core : class_ok_align_dl_aol)[ALIGN_TYPE(ch)][whichclass])
     return -2;
-  if (!IS_EPIC(ch) && (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_max_ranks_fr : class_max_ranks_dl_aol)[whichclass] > -1 &&
-      GET_CLASS_RANKS(ch, whichclass) >= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_max_ranks_fr : class_max_ranks_dl_aol)[whichclass])
+  if (!IS_EPIC(ch) && (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_max_ranks_core : class_max_ranks_dl_aol)[whichclass] > -1 &&
+      GET_CLASS_RANKS(ch, whichclass) >= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_max_ranks_core : class_max_ranks_dl_aol)[whichclass])
     return -3;
   if (!class_ok_num_classes(ch, whichclass))
     return -5;
@@ -1363,7 +1363,7 @@ case CLASS_DEATH_MASTER:
   		c1 = TRUE;
     else
     	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n",
-(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[whichclass]);
+(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
     if (GET_BAB(ch) >= 3)
     	c2 = TRUE;
     else
@@ -1405,7 +1405,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SWORD))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
     if (GET_BAB(ch) >= 6)
     	c2 = TRUE;
     else
@@ -1444,7 +1444,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_ROSE))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
     if (GET_BAB(ch) >= 8)
     	c2 = TRUE;
     else
@@ -1495,7 +1495,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_LILY))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
     if (GET_BAB(ch) >= 5)
     	c2 = TRUE;
     else
@@ -1517,7 +1517,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SKULL))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
     if (GET_BAB(ch) >= 3)
     	c2 = TRUE;
     else
@@ -1540,7 +1540,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_THORN))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n",  (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n",  (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
     if (GET_BAB(ch) >= 3)
     	c2 = TRUE;
     else
@@ -1793,7 +1793,7 @@ int saving_throw_lookup(int save_lev, int chclass, int savetype, int level)
 //    save_lev = save_classes[savetype][chclass];
   switch (save_lev) {
   case SAVE_MANUAL:
-    log("Save undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[chclass]);
+    log("Save undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[chclass]);
     return 0;
   case SAVE_LOW:
     return level / 3;
@@ -1969,7 +1969,7 @@ int base_hit(int hit_type, int chclass, int level)
   }  	
   switch (hit_type) {
   case BASEHIT_MANUAL:
-    log("Base hit undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[chclass]);
+    log("Base hit undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[chclass]);
     return 0;
   case BASEHIT_LOW:
     return level / 2;
@@ -3422,7 +3422,7 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
     do_start(ch);
   } 
 
-  if ((CAMPAIGN_FORGOTTEN_REALMS == CONFIG_CAMPAIGN ? prestige_classes_fr[whichclass] : prestige_classes_dl_aol[whichclass]) ? 
+  if ((CAMPAIGN_FORGOTTEN_REALMS == CONFIG_CAMPAIGN ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass]) ? 
        GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 10 : GET_CLASS_LEVEL(ch) >= LVL_EPICSTART-1) { /* Epic character */
     GET_CLASS_EPIC(ch, whichclass)++;
   } else {
@@ -3598,7 +3598,7 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
   llog->spec = whichclass;
   llog->level = GET_CLASS_LEVEL(ch);
 
-  if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_fr[whichclass] : prestige_classes_dl_aol[whichclass])
+  if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
     epiclevel = 11;
 
   /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
@@ -3641,7 +3641,7 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
 
   /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
   if (ranks >= (epiclevel)) { /* Epic class */
-    if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_fr[whichclass] : prestige_classes_dl_aol[whichclass])
+    if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
       j = ranks - 10;
     else
       j = ranks - 20;
@@ -4375,8 +4375,8 @@ rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
                 continue;
             ptr += snprintf(ptr, sizeof(str) - (ptr - str), "%s%s%s%s%s%d", buf, buf2, buf,
                 CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? 
-                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol) : class_abbrevs_fr)[rank] : 
-                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol) : class_abbrevs_dl_aol)[rank], 
+                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol) : class_abbrevs_core)[rank] : 
+                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol) : class_abbrevs_dl_aol)[rank], 
                 buf3, cabbr_ranktable[rank]);
             buf2 = "/";
             if (howlong == 2)
@@ -4395,7 +4395,7 @@ rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
                 rank = GET_CLASS_RANKS(ch, j);
             }
             rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
-            snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[GET_CLASS(ch)],
+            snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[GET_CLASS(ch)],
                 rank, GET_LEVEL(ch) == rank ? "" : "+");
             return str;
     }
@@ -4498,9 +4498,9 @@ int load_levels()
   }
   fclose(fp);
   for (cls = 0; cls < NUM_CLASSES; cls++)
-    log("Base hit for class %s: %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[cls], basehit_type_names[basehit_classes[cls]]);
+    log("Base hit for class %s: %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[cls], basehit_type_names[basehit_classes[cls]]);
   for (cls = 0; cls < NUM_CLASSES; cls++)
-    log("Saves for class %s: fort=%s, reflex=%s, will=%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[cls],
+    log("Saves for class %s: fort=%s, reflex=%s, will=%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[cls],
         save_type_names[save_classes[SAVING_FORTITUDE][cls]],
         save_type_names[save_classes[SAVING_REFLEX][cls]],
         save_type_names[save_classes[SAVING_WILL][cls]]);
@@ -4540,7 +4540,7 @@ int exp_penalty(struct char_data *ch)
   }
   for (high = highclass = i = 0; i < NUM_CLASSES; i++) {
     /* Favored class and prestige classes don't count */
-    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_fr : prestige_classes_dl_aol)[i])
+    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core : prestige_classes_dl_aol)[i])
       continue;
     if (GET_CLASS_RANKS(ch, i) > high) {
       highclass = i;
@@ -4553,7 +4553,7 @@ int exp_penalty(struct char_data *ch)
    */
   pen = 0;
   for (i = 0; i < NUM_CLASSES; i++) {
-    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_fr : prestige_classes_dl_aol)[i] || !GET_CLASS_RANKS(ch, i))
+    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core : prestige_classes_dl_aol)[i] || !GET_CLASS_RANKS(ch, i))
       continue;
     if (GET_CLASS_RANKS(ch, i) < (high - 1))
       pen++;
@@ -5452,12 +5452,12 @@ int num_levelup_class_feats(struct char_data *ch, int whichclass, int ranks) {
 	int epiclevel = 21;
 	int j = 0;
 
-	  if (CAMPAIGN_DESOLATION ? prestige_classes_fr[whichclass] : prestige_classes_dl_aol[whichclass])
+	  if (CAMPAIGN_DESOLATION ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
 	    epiclevel = 11;
 
 	/* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 	  if (ranks >= (epiclevel - 1)) { /* Epic class */
-	    if (CAMPAIGN_DESOLATION ? prestige_classes_fr[whichclass] : prestige_classes_dl_aol[whichclass])
+	    if (CAMPAIGN_DESOLATION ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
 	      j = ranks - 10;
 	    else
 	      j = ranks - 20;

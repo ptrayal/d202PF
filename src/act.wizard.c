@@ -42,7 +42,7 @@ extern struct deity_info deity_list[NUM_DEITIES];
 extern struct race_data race_list[NUM_RACES];
 extern FILE *player_fl;
 extern struct attack_hit_type attack_hit_text[];
-extern char *class_abbrevs_fr[];
+extern char *class_abbrevs_core[];
 extern char *class_abbrevs_dl_aol[];
 extern time_t boot_time;
 extern int circle_shutdown, circle_reboot;
@@ -956,7 +956,7 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
   if (CONFIG_ALLOW_MULTICLASS) {
     strncpy(buf, class_desc_str(k, 1, 0), sizeof(buf));
   } else {
-    sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol), buf, sizeof(buf));
+    sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol), buf, sizeof(buf));
   }
   send_to_char(ch, "Class: %s, Race: %s, Lev: [@y%2d(%dHD+%dcl+%d)@n], XP: [@y%7d@n]\r\n",
                    buf, race_list[GET_RACE(k)].type, GET_LEVEL(k), GET_HITDICE(k),
@@ -2201,7 +2201,7 @@ ACMD(do_last)
       send_to_char(ch, "[%5ld] [%2d %s %s] %-12s : %-30s : %-20s\r\n",
         GET_IDNUM(vict), (int) GET_LEVEL(vict),
         race_list[(int) GET_RACE(vict)].abbrev, 
-        CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_abbrevs_fr[(int) GET_CLASS(vict)] : 
+        CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_abbrevs_core[(int) GET_CLASS(vict)] : 
         class_abbrevs_dl_aol[(int) GET_CLASS(vict)],
         GET_NAME(vict), vict->player_specials->host && *vict->player_specials->host
         ? vict->player_specials->host : "(NOHOST)",
@@ -2755,7 +2755,7 @@ ACMD(do_show)
     }
     send_to_char(ch, "Player: %-12s (%s) [%2d %s %s]\r\n", GET_NAME(vict),
       genders[(int) GET_SEX(vict)], GET_LEVEL(vict), 
-      CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_abbrevs_fr[(int) GET_CLASS(vict)] :
+      CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_abbrevs_core[(int) GET_CLASS(vict)] :
       class_abbrevs_dl_aol[(int) GET_CLASS(vict)], 
       race_list[(int) GET_RACE(vict)].abbrev);
     send_to_char(ch, "Au: %-8d  Bal: %-8d  Exp: %-8d  Align: %-5d  Ethic: %-5d\r\n",
@@ -2935,7 +2935,7 @@ ACMD(do_show)
           send_to_char(ch, "Level");
           for (i = 0; i < NUM_CLASSES; i++)
             send_to_char(ch, "  %s", 
-            CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ?  class_abbrevs_fr[i] : class_abbrevs_dl_aol[i]);
+            CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ?  class_abbrevs_core[i] : class_abbrevs_dl_aol[i]);
           send_to_char(ch, "\n-----");
           while (i--)
             send_to_char(ch, " ---");
@@ -2951,7 +2951,7 @@ ACMD(do_show)
           send_to_char(ch, "Level");
           for (i = 0; i < NUM_CLASSES; i++)
             send_to_char(ch, "  %s", 
-            CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ?  class_abbrevs_fr[i] : class_abbrevs_dl_aol[i]);
+            CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ?  class_abbrevs_core[i] : class_abbrevs_dl_aol[i]);
           send_to_char(ch, "\n-----");
           while (i--)
             send_to_char(ch, " ---");
@@ -3416,7 +3416,7 @@ int perform_set(struct char_data *ch, struct char_data *vict, int mode,
     }
     break;
   case 39:
-    if ((i = search_block(val_arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol), FALSE)) < 0) {
+    if ((i = search_block(val_arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol), FALSE)) < 0) {
       send_to_char(ch, "That is not a class.\r\n");
       return (0);
     }

@@ -28,7 +28,7 @@
 
 /* External variables and functions */
 extern const char *pc_class_types_dl_aol[];
-extern const char *pc_class_types_fr[];
+extern const char *pc_class_types_core[];
 extern struct time_info_data time_info;
 
 int obj_room(obj_data *obj);
@@ -615,7 +615,7 @@ in the vault (vnum: 453) now and then. you can just use
           }
 
           else if (!str_cmp(field, "class"))
-            sprinttype(GET_CLASS(c), CEDIT_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol, str, slen);
+            sprinttype(GET_CLASS(c), CEDIT_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol, str, slen);
 
           else if (!str_cmp(field, "con")) {
             if (subfield && *subfield) {

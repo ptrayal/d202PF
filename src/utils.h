@@ -18,7 +18,7 @@ extern const char *craft_pattern_descs[];
 extern const char *companion_types[];
 extern const char *apply_text[];
 extern long times_harvested[1000000];
-extern int class_in_game_fr[NUM_CLASSES];
+extern int class_in_game_core[NUM_CLASSES];
 extern int class_in_game_dl_aol[NUM_CLASSES];
 extern const char *craft_names[NUM_CRAFTS];
 extern int craft_skills[NUM_CRAFTS];
@@ -29,15 +29,15 @@ extern const char *deity_names_fr[];
 extern const char *deity_names_dl_aol[];
 extern struct weather_data weather_info;
 extern FILE *logfile;
-extern int class_ok_available_fr[NUM_CLASSES];
+extern int class_ok_available_core[NUM_CLASSES];
 extern int class_ok_available_dl_aol[NUM_CLASSES];
-extern int prestige_classes_fr[NUM_CLASSES];
+extern int prestige_classes_core[NUM_CLASSES];
 extern int prestige_classes_dl_aol[NUM_CLASSES];
 extern char * pc_race_types[NUM_RACES];
 extern char *race_names[NUM_RACES];
-extern const char *pc_class_types_fr[];
+extern const char *pc_class_types_core[];
 extern const char *pc_class_types_dl_aol[];
-extern const char *class_names_fr[];
+extern const char *class_names_core[];
 extern const char *class_names_dl_aol[];
 extern const char *weapon_type[];
 extern const char *armor_type[];
@@ -908,7 +908,7 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
 
 #define RACE(ch)      (pc_race_types[(int)GET_RACE(ch)])
 #define CLASS_ABBR(ch) (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? \
-                        class_abbrevs_fr[(int)GET_CLASS(ch)] : \
+                        class_abbrevs_core[(int)GET_CLASS(ch)] : \
                         class_abbrevs_dl_aol[(int)GET_CLASS(ch)])
 #define RACE_ABBR(ch) (race_abbrevs[(int)GET_RACE(ch)])
 

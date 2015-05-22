@@ -953,7 +953,7 @@ void sql_stat_file_char(struct char_data *ch, char *name) {
 		buf,row[12]);
 	sprintf(buf,"%s&WLevel : &M%-2s &WHometown : &M%-5s &WLoadroom : &M%-5s &WWeight/Height : &M%3s&W/&M%-3s&n\r\n",
 		buf,row[16],row[17],row[49],row[18],row[19]);
-	sprinttype(atoi(row[21]), (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol), buf1, sizeof(buf1));
+	sprinttype(atoi(row[21]), (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol), buf1, sizeof(buf1));
 	sprinttype(atoi(row[22]), pc_race_types, buf2, sizeof(buf2));
 	sprintf(buf,"%s&WClass : (&M%-2s&W) &M%-7s  &WRace : (&M%-2s&W) &M%-7s  &WAlignment : &M%-4s&n\r\n",
 		buf,row[21],buf1,row[22],buf2,row[64]);

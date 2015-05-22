@@ -913,8 +913,8 @@ void handle_gain(struct char_data *keeper, int guild_nr, struct char_data *ch, c
       send_to_char(ch, "%-25s %-10s\r\n------------------------- ----------\r\n", "Class Name", "Prestige?");
       for (i = 0; i < NUM_CLASSES; i++) {
         if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) {
-          if (class_in_game_fr[i])
-            send_to_char(ch, "%-25s %-10s\r\n", class_names_fr[i], prestige_classes_fr[i] ? "Yes" : "No");
+          if (class_in_game_core[i])
+            send_to_char(ch, "%-25s %-10s\r\n", class_names_core[i], prestige_classes_core[i] ? "Yes" : "No");
         }
         else  {
           if (class_in_game_dl_aol[i])
@@ -923,7 +923,7 @@ void handle_gain(struct char_data *keeper, int guild_nr, struct char_data *ch, c
       }
       return;
     }
-    if ((whichclass = search_block(argument, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol), FALSE)) < 0) {
+    if ((whichclass = search_block(argument, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol), FALSE)) < 0) {
       send_to_char(ch, "That is not a class.\r\n");
       return;
     }

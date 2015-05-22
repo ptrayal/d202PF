@@ -460,7 +460,7 @@ void medit_disp_class(struct descriptor_data *d)
 
   clear_screen(d);
   for (i = 0; i < NUM_CLASSES; i++) {
-    sprintf(buf, "@g%2d@n) %s\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[i]);
+    sprintf(buf, "@g%2d@n) %s\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]);
     write_to_output(d, buf);
   }
   write_to_output(d, "Enter class number : ");
@@ -569,7 +569,7 @@ void medit_disp_menu(struct descriptor_data *d)
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
 	  attack_hit_text[(int)GET_ATTACK(mob)].singular,
-	  flags, flag2, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[(int)GET_CLASS(mob)],
+	  flags, flag2, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[(int)GET_CLASS(mob)],
           race_list[(int)GET_RACE(mob)].name,
 	  GET_MOB_SPEC(mob) ? "Set." : "Not Set",
           OLC_SCRIPT(d) ?"Set.":"Not Set.", size_names[get_size(mob)]

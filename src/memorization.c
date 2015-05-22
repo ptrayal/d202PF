@@ -119,7 +119,7 @@ void do_mem_display(struct char_data *ch)
 
   if (!findslotnum(ch, 1)) {
     snprintf(buf, MAX_STRING_LENGTH, "You do not have any spellcasting ability in the %s class.\r\n", 
-             (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_fr : class_names_dl_aol)[class]);
+             (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[class]);
     send_to_char(ch, buf);
     return;
   }
@@ -1844,7 +1844,7 @@ void displayslotnum(struct char_data *ch, int class)
   snprintf(slot_buf, sizeof(slot_buf), "test\r\n");
 
   for(class = 0; class < NUM_CLASSES; class++) {
-    snprintf(buf, sizeof(buf), "\r\n/* %s */\r\n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_fr : pc_class_types_dl_aol)[class]);
+    snprintf(buf, sizeof(buf), "\r\n/* %s */\r\n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[class]);
     strcat(slot_buf, buf);
     for(i = 0; i < LVL_EPICSTART; i++) {
       strcat(slot_buf, "  { ");
