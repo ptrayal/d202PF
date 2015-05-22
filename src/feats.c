@@ -114,14 +114,14 @@ void assign_feats(void)
 // Fourth parameter defines whether or not the feat can be learned through a trainer or whether it is
 // a feat given automatically to certain classes or races.
 
-feato(FEAT_ABLE_LEARNER, "able learner", TRUE, TRUE, FALSE, "no prerequisites", "You get a +1 bonus to all skills.");
-feato(FEAT_ABUNDANT_STEP, "abundant step", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_ACROBATIC, "acrobatic", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Acrobatics and Fly skill checks.  Fly is not implemented yet.");
-feato(FEAT_ACROBATIC_CHARGE, "acrobatic charge", TRUE, FALSE, FALSE, "none", "can charge in situations when others cannot");
-feato(FEAT_ALERTNESS, "alertness", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on Perception and Sense Motive skill checks."); 
-feato(FEAT_ANIMAL_AFFINITY, "animal affinity", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Handle Animal and Ride skill checks.");
-feato(FEAT_ANIMAL_COMPANION, "animal companion", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_ANIMATE_DEAD, "animate dead", TRUE, FALSE, FALSE, "death master level 2", "allows innate use of animate dead spell 3x per day.");
+feato(FEAT_ABLE_LEARNER, "Able Learner", TRUE, TRUE, FALSE, "no prerequisites", "You get a +1 bonus to all skills.");
+feato(FEAT_ABUNDANT_STEP, "Abundant Step", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_ACROBATIC, "Acrobatic", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Acrobatics and Fly skill checks.  Fly is not implemented yet.");
+feato(FEAT_ACROBATIC_CHARGE, "Acrobatic Charge", TRUE, FALSE, FALSE, "none", "can charge in situations when others cannot");
+feato(FEAT_ALERTNESS, "Alertness", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on Perception and Sense Motive skill checks."); 
+feato(FEAT_ANIMAL_AFFINITY, "Animal Affinity", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Handle Animal and Ride skill checks.");
+feato(FEAT_ANIMAL_COMPANION, "Animal Companion", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_ANIMATE_DEAD, "Animate Dead", TRUE, FALSE, FALSE, "death master level 2", "allows innate use of animate dead spell 3x per day.");
 feato(FEAT_ARMOR_PROFICIENCY_HEAVY, "heavy armor proficiency", TRUE, TRUE, FALSE, "armor proficiency light and medium", "allows unpenalizaed use of heavy armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_LIGHT, "light armor proficiency", TRUE, TRUE, FALSE, "none", "allows unpenalized use of light armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_MEDIUM, "medium armor proficiency", TRUE, TRUE, FALSE, "armor proficiency light", "allows unpenalized use of medium armor"); 
@@ -421,7 +421,7 @@ feato(FEAT_TRACK, "track", FALSE, FALSE, FALSE, "none", "use survival skill to t
 feato(FEAT_TRACKLESS_STEP, "trackless step", TRUE, FALSE, FALSE, "druid level 3", "cannot be tracked");
 feato(FEAT_TRAMPLE, "trample", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_TRAP_SENSE, "trap sense", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_TRAPFINDING, "trapfinding", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_TRAPFINDING, "trapfinding", TRUE, FALSE, FALSE, "ask staff", "A rogue adds 1/2 her level to Disable Device skill checks (minimum +1).");
 feato(FEAT_TURN_UNDEAD, "turn undead", TRUE, TRUE, FALSE, "none", "can cause fear in or destroy undead based on class level and charisma bonus");
 feato(FEAT_TWO_WEAPON_DEFENSE, "two weapon defense", TRUE, TRUE, FALSE, "dex 15, two weapon fighting", "when wielding two weapons receive +1 shield ac bonus");
 feato(FEAT_TWO_WEAPON_FIGHTING, "two weapon fighting", TRUE, TRUE, FALSE, "dex 15", "attacks with offhand weapons done at reduced penalties");

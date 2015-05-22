@@ -1527,7 +1527,7 @@ int get_skill_value(struct char_data *ch, int skillnum)
       break;
     case SKILL_DISABLE_DEVICE:
       if (HAS_FEAT(ch, FEAT_TRAPFINDING))
-        value += (GET_SKILL(ch, SKILL_PERCEPTION)/2);
+        value += MIN(1,(GET_CLASS_RANKS(ch, CLASS_ROGUE)/2));
       break;
     case SKILL_BLACKSMITHING:
       if (IS_DWARF(ch))
