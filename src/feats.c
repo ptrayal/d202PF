@@ -196,7 +196,7 @@ feato(FEAT_DIVINE_MIGHT, "divine might", TRUE, TRUE, FALSE, "turn undead, power 
 feato(FEAT_DIVINE_SHIELD, "divine shield", TRUE, TRUE, FALSE, "turn undead, power attack, cha 13, str 13", "Add cha bonus to armor class for number of rounds equal to cha bonus");
 feato(FEAT_DIVINE_VENGEANCE, "divine vengeance", TRUE, TRUE, FALSE, "turn undead, extra turning", "Add 2d6 damage against undead for number of rounds equal to cha bonus");
 feato(FEAT_DIVINER, "diviner", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_DODGE, "dodge", TRUE, TRUE, FALSE, "dex 13", "+1 bonus to ac against one opponent per round"); 
+feato(FEAT_DODGE, "dodge", TRUE, TRUE, FALSE, "dex 13", "You gain a +1 dodge bonus to your AC."); 
 feato(FEAT_DRACONIC_CRAFTING, "draconic crafting", TRUE, FALSE, FALSE, "Artisan level 20", "All magical items created gain higher bonuses w/o increasing level");
 feato(FEAT_DRAGON_APOTHEOSIS, "dragon apotheosis", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DRAGON_MOUNT_BOOST, "dragon mount boost", TRUE, FALSE, FALSE, "dragon rider prestige class", "gives +18 hp, +10 ac, +1 hit and +1 damage per rank in the feat");

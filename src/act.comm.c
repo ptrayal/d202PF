@@ -120,7 +120,7 @@ void list_languages(struct char_data *ch)
 {
     int a = 0, i;
 
-    send_to_char(ch, "Languages (red means currently speaking):\r\n[");
+    send_to_char(ch, "Languages Known (red means currently speaking):\r\n[");
         for (i = MIN_LANGUAGES ; i <= CampaignMaxLanguages() ; i++)
             if (GET_SKILL(ch, i) || affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON))
                 send_to_char(ch, "%s %s%s%s",

@@ -2642,7 +2642,6 @@ void do_start(struct char_data *ch)
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 int free_start_feats_mage[] = {
   FEAT_SIMPLE_WEAPON_PROFICIENCY,
-  FEAT_SCRIBE_SCROLL,
   0
 };
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
@@ -2759,7 +2758,6 @@ int free_start_feats_mystic[] = {
 
 int free_start_feats_sorcerer[] = {
 	FEAT_SIMPLE_WEAPON_PROFICIENCY,
-	FEAT_SUMMON_FAMILIAR,
         0
 };
 
@@ -3161,7 +3159,11 @@ int level_feats[][6] = {
 	{CLASS_UNDEFINED, RACE_MOON_ELF,       FALSE,  1, FEAT_LOW_LIGHT_VISION, TRUE},
 	{CLASS_UNDEFINED, RACE_MOON_ELF,       FALSE,  1, FEAT_WEAPON_PROFICIENCY_ELF, TRUE},
 #endif
-	{CLASS_WIZARD,    RACE_UNDEFINED,      FALSE,  1, FEAT_SUMMON_FAMILIAR, TRUE},	
+	{CLASS_WIZARD,    RACE_UNDEFINED,      FALSE,  1, FEAT_SUMMON_FAMILIAR, TRUE},
+  {CLASS_WIZARD,    RACE_UNDEFINED,      FALSE,  1, FEAT_SCRIBE_SCROLL, TRUE},
+  
+  {CLASS_SORCERER,  RACE_UNDEFINED,      FALSE,  1, FEAT_ESCHEW_MATERIALS, TRUE},
+  {CLASS_SORCERER,  RACE_UNDEFINED,      FALSE,  1, FEAT_SUMMON_FAMILIAR, TRUE},
 
 	{CLASS_KNIGHT_OF_THE_CROWN, RACE_UNDEFINED, FALSE, 1,  FEAT_STRENGTH_OF_HONOR, TRUE},	
 	{CLASS_KNIGHT_OF_THE_CROWN, RACE_UNDEFINED, FALSE, 1,  FEAT_KNIGHTLY_COURAGE, TRUE},				

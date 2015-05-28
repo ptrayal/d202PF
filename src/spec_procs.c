@@ -541,7 +541,7 @@ SPECIAL(set_stats)
 
 SPECIAL(select_race)
 {
-  int i;
+  int i = 0;
 
   if (IS_NPC(ch) || (!CMD_IS("setrace") && !CMD_IS("listraces") && !CMD_IS("north"))) 
     return 0;
@@ -549,10 +549,12 @@ SPECIAL(select_race)
   if (GET_CLASS_LEVEL(ch) > 0 && GET_RACE(ch) != RACE_SPIRIT && GET_ADMLEVEL(ch) == 0)
     return 0;
 
-  if (CMD_IS("north")) {
+  if (CMD_IS("north")) 
+  {
     if (GET_RACE(ch) == RACE_SPIRIT)
       send_to_char(ch, "You must choose a race before you can proceed.\r\n");
-    else {
+    else 
+    {
       char_from_room(ch);
       char_to_room(ch, real_room(30002));
       look_at_room(IN_ROOM(ch), ch, 0);    
@@ -560,32 +562,41 @@ SPECIAL(select_race)
     return 1;
   }
 
-  if (CMD_IS("setrace")) {
+  if (CMD_IS("setrace")) 
+  {
 
     skip_spaces(&argument);
 
-    if (!*argument) {
+    if (!*argument) 
+    {
       send_to_char(ch, "Which race would you like to become? Type listraces for a list of available races.\r\n");
       return 1;
     }
 
-    for (i = 0; i < NUM_RACES; i++) {
-      if (is_abbrev(argument, "undefined")) {
+    for (i = 0; i < NUM_RACES; i++) 
+    {
+      if (is_abbrev(argument, "undefined")) 
+      {
         send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
         return 1;    
       }
-      else if (race_list[i].name && is_abbrev(argument, race_list[i].name) && race_list[i].is_pc) {
+      else if (race_list[i].name && is_abbrev(argument, race_list[i].name) && race_list[i].is_pc) 
+      {
 
 
-        if (race_list[i].is_pc && race_list[i].level_adjustment > 0) {
-          if (ch->desc && ch->desc->account) {
-            if (has_unlocked_race(ch, i)) {
+        if (race_list[i].is_pc && race_list[i].level_adjustment > 0) 
+        {
+          if (ch->desc && ch->desc->account) 
+          {
+            if (has_unlocked_race(ch, i)) 
+            {
               send_to_char(ch, "You have changed your race to %s.  For more information type help race %s\r\n", race_list[i].name, race_list[i].name);
               GET_REAL_RACE(ch) = i;
               return 1;
 
             }
-            else {
+            else 
+            {
               send_to_char(ch, "You have not unlocked that race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
               return 1;
             }
@@ -603,7 +614,8 @@ SPECIAL(select_race)
     send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
     return 1;
   }
-  else {
+  else 
+  {
     send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name", 
                  "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
     for (i = 0; i < NUM_RACES; i++) 
@@ -621,6 +633,7 @@ SPECIAL(select_race)
     return 1;
   }
 }
+
 SPECIAL(select_align)
 {
   if (IS_NPC(ch) || (!CMD_IS("setalign") && !CMD_IS("setethos"))) 
@@ -629,21 +642,25 @@ SPECIAL(select_align)
   if (GET_CLASS_LEVEL(ch) > 0 && GET_ADMLEVEL(ch) == 0)
     return 0;
 
-  if (CMD_IS("setalign")) {
+  if (CMD_IS("setalign")) 
+  {
 
     skip_spaces(&argument);
 
-    if (!*argument) {
+    if (!*argument) 
+    {
       send_to_char(ch, "Which alignment would you like to become? Choose between good, neutral and evil.\r\n");
       return 1;
     }
 
-    if (!strcmp(argument, "good")) {
+    if (!strcmp(argument, "good")) 
+    {
       send_to_char(ch, "You have set your alignment to good.\r\n");
       GET_ALIGNMENT(ch) = 500;
       return 1;
     }
-    if (!strcmp(argument, "evil")) {
+    if (!strcmp(argument, "evil")) 
+    {
 /* Uncomment the following if you wish to make evil a disallowed alignment
       send_to_char(ch, 
       "For the time being, evil is not allowed as an alignment.  We are working on\r\n"
@@ -693,22 +710,26 @@ SPECIAL(select_align)
       GET_ALIGNMENT(ch) = -500;
       return 1;
     }
-    if (!strcmp(argument, "neutral")) {
+    if (!strcmp(argument, "neutral")) 
+    {
       send_to_char(ch, "You have set your alignment to neutral.\r\n");
       GET_ALIGNMENT(ch) = 0;
       return 1;
     }
-    else {
+    else 
+    {
       send_to_char(ch, "That is not a valid alignment.  Choose either good, neutral or evil.\r\n");
       return 1;
     }
   }
 
-  if (CMD_IS("setethos")) {
+  if (CMD_IS("setethos")) 
+  {
 
     skip_spaces(&argument);
 
-    if (!*argument) {
+    if (!*argument) 
+    {
       send_to_char(ch, "Which ethos would you like to become? Choose between lawful, neutral and chaotic.\r\n");
       return 1;
     }
@@ -740,43 +761,50 @@ SPECIAL(select_align)
 SPECIAL(identify_mob)
 {
 
-struct obj_data *obj;
-char arg[MAX_STRING_LENGTH];
+    struct obj_data *obj;
+    char arg[MAX_STRING_LENGTH];
 
-if (!CMD_IS("identify"))
-return FALSE;
-	
-one_argument(argument, arg);
+    if (!CMD_IS("identify"))
+        return FALSE;
 
-if (!*arg) {
-send_to_char(ch, "What would you like to have identified?\r\n");
-	return TRUE;
-}
-	
-if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
-send_to_char(ch, "You don't seem to have a %s in your inventory.\r\n", argument);
-	return TRUE;
-}  
+    one_argument(argument, arg);
 
-int cost = GET_OBJ_TYPE(obj) == ITEM_POTION ? GET_OBJ_LEVEL(obj) * 3 : GET_OBJ_LEVEL(obj) * 10;
+    if (!*arg) 
+    {
+        send_to_char(ch, "What would you like to have identified?\r\n");
+        return TRUE;
+    }
 
-if (GET_GOLD(ch) < cost) {
-  if (GET_BANK_GOLD(ch) < cost) {
-    send_to_char(ch, "You must have %d %s on hand or in the bank to identify an item.\r\n", cost, MONEY_STRING);
+    if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) 
+    {
+        send_to_char(ch, "You don't seem to have a %s in your inventory.\r\n", argument);
+        return TRUE;
+    }  
+
+    int cost = GET_OBJ_TYPE(obj) == ITEM_POTION ? GET_OBJ_LEVEL(obj) * 3 : GET_OBJ_LEVEL(obj) * 10;
+
+    if (GET_GOLD(ch) < cost) 
+    {
+        if (GET_BANK_GOLD(ch) < cost) 
+        {
+
+            send_to_char(ch, "You must have %d %s on hand or in the bank to identify an item.\r\n", cost, MONEY_STRING);
+            return TRUE;
+        }
+        GET_BANK_GOLD(ch) -= cost;
+    } 
+    else 
+    {
+        GET_GOLD(ch) -= cost;
+    }
+
+    send_to_char(ch, "Your item has been identified!\r\n");
+
+    convert_coins(ch);
+
+    spell_identify(20, ch, ch, obj, arg);
+
     return TRUE;
-  }
-  GET_BANK_GOLD(ch) -= cost;
-} else {
-  GET_GOLD(ch) -= cost;
-}
-
-send_to_char(ch, "Your item has been identified!\r\n");
-
-convert_coins(ch);
-
-spell_identify(20, ch, ch, obj, arg);
-
-return TRUE;
 }
 
 SPECIAL(identify_kit)
@@ -843,7 +871,8 @@ spell_identify(20, ch, ch, obj, arg);
 return TRUE;
 }
 
-SPECIAL(research) {
+SPECIAL(research) 
+{
 
   if (!CMD_IS("research") && !CMD_IS("study") && !CMD_IS("theorize") && !CMD_IS("identify"))
     return 0;
@@ -3838,8 +3867,19 @@ SPECIAL(crafting_station)
 
   craft_type = SCMD_CRAFT;
 
-  if (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING)) {
+  if (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING)) 
+  {
     GET_OBJ_WEIGHT(created) /= 2;
+  }
+
+  // Code for adding Branding Mark.
+  if (HAS_FEAT(ch, FEAT_BRANDING))
+  {
+    char buf_brand[MAX_STRING_LENGTH]={'\0'};
+
+    sprintf(buf_brand, "This also bears the mark of %s", ch->name);
+
+    created->description = strdup(buf_brand);
   }
 
   if (HAS_FEAT(ch, FEAT_MASTERWORK_CRAFTING)) {
@@ -4088,7 +4128,8 @@ SPECIAL(crafting_station)
 
   int cost = GET_OBJ_LEVEL(created) * GET_OBJ_LEVEL(created) * 100 / 3;
 
-  if (CMD_IS("create") || CMD_IS("restring")) {
+  if (CMD_IS("create") || CMD_IS("restring")) 
+  {
     created->name = strdup(argument);
     created->short_description = strdup(argument);
     sprintf(buf, "%s lies here.", CAP(argument));
