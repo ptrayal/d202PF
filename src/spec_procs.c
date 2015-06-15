@@ -5615,24 +5615,24 @@ struct spec_list spec_names[] = {
 /* Get the name of a special proc. */
 char *get_spec_name(SPECIAL(func))
 {
-int i=0;
+  int i=0;
 
-if (!func)
-return "None";
+  if (!func)
+    return "None";
 
-for (; spec_names[i].func && spec_names[i].func!=func; i++);
+  for (; spec_names[i].func && spec_names[i].func!=func; i++);
 
-return spec_names[i].name;
+    return spec_names[i].name;
 }
 
 /* Get a pointer to the function when you have a name */
 proctype get_spec_proc(char *name)
 {
-int i=0;
+    int i=0;
 
-for (; spec_names[i].func && str_cmp(name, spec_names[i].name); i++);
+    for (; spec_names[i].func && str_cmp(name, spec_names[i].name); i++);
 
-return spec_names[i].func;
+        return spec_names[i].func;
 }
 
 /* Show all specprocs */
@@ -5640,16 +5640,17 @@ return spec_names[i].func;
 Debugging maybe... :] */
 void list_spec_procs(struct char_data *ch)
 {
-int i=0;
+    int i=0;
 
-for(; spec_names[i].func; i++) {
-send_to_char(ch, "%s", spec_names[i].name);
-if (i%4==3)
-send_to_char(ch, "\r\n");
-else
-send_to_char(ch, "\t\t");
-}
-send_to_char(ch, "\r\n");
+    for(; spec_names[i].func; i++) 
+    {
+        send_to_char(ch, "%s", spec_names[i].name);
+        if (i%4==3)
+            send_to_char(ch, "\r\n");
+        else
+            send_to_char(ch, "\t\t");
+    }
+    send_to_char(ch, "\r\n");
 }
 
 
@@ -5945,60 +5946,65 @@ SPECIAL(bacta_merchant) {
 SPECIAL(lockbox)
 {
 
-  if (!CMD_IS("slice") && !CMD_IS("open") && !CMD_IS("pick") && !CMD_IS("unlock")) {
-    return 0;
-  }
+    if (!CMD_IS("slice") && !CMD_IS("open") && !CMD_IS("pick") && !CMD_IS("unlock")) 
+    {
+        return 0;
+    }
 
-  skip_spaces(&argument);
+    skip_spaces(&argument);
 
-  if (!*argument)
-    return 0;
+    if (!*argument)
+        return 0;
 
-  if ((CMD_IS("open") || CMD_IS("pick") || CMD_IS("unlock")) && !is_abbrev(argument, "chest")) {
-    return 0;
-  }
+    if ((CMD_IS("open") || CMD_IS("pick") || CMD_IS("unlock")) && !is_abbrev(argument, "chest")) 
+    {
+        return 0;
+    }
 
-  int roll = skill_roll(ch, SKILL_DISABLE_DEVICE);
-  struct obj_data *lb = (struct obj_data *) me;
-  struct obj_data *obj = NULL;
+    int roll = skill_roll(ch, SKILL_DISABLE_DEVICE);
+    struct obj_data *lb = (struct obj_data *) me;
+    struct obj_data *obj = NULL;
 
-  if (lb != (obj = get_obj_in_list_vis(ch, argument, NULL, world[IN_ROOM(ch)].contents))) {
-      send_to_char(ch, "That is not a treasure chest and cannot be opened.\r\n");
-    return 1;
-  }
+    if (lb != (obj = get_obj_in_list_vis(ch, argument, NULL, world[IN_ROOM(ch)].contents))) 
+    {
+        send_to_char(ch, "That is not a treasure chest and cannot be opened.\r\n");
+        return 1;
+    }
 
 
-  if (!lb)
-    return 0;
+    if (!lb)
+        return 0;
 
-  char buf[200];
+    char buf[200];
 
-  if (roll < 15) {
-      sprintf(buf, "As you try to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
-      act(buf, FALSE, ch, 0, 0, TO_CHAR);
-      sprintf(buf, "As $n tries to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
-      act(buf, FALSE, ch, 0, 0, TO_ROOM);
-    obj_from_room(lb);
-    extract_obj(lb);
-    lb = obj = NULL;
-    lockboxes--;
-    return 1;
-  }
+    if (roll < 15) 
+    {
+        sprintf(buf, "As you try to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
+        act(buf, FALSE, ch, 0, 0, TO_CHAR);
+        sprintf(buf, "As $n tries to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
+        act(buf, FALSE, ch, 0, 0, TO_ROOM);
+        obj_from_room(lb);
+        extract_obj(lb);
+        lb = obj = NULL;
+        lockboxes--;
+        return 1;
+    }
 
-  int level = MAX(1, roll - 14);
-  level = MIN(level, 30);
-  award_lockbox_treasure(ch, level);
+    int level = MAX(1, roll - 14);
+    level = MIN(level, 30);
+    award_lockbox_treasure(ch, level);
     obj_from_room(lb);
     extract_obj(lb);
     lb = obj = NULL;
     lockboxes--;    
-  return 1;
+    return 1;
 }
 
 SPECIAL(orphan)
 {
 
-  if (!CMD_IS("send")) {
+  if (!CMD_IS("send")) 
+  {
     return 0;
   }
 
@@ -6012,14 +6018,16 @@ SPECIAL(orphan)
 
   two_arguments(argument, arg, arg2);
 
-  if (!*arg) {
+  if (!*arg) 
+  {
     if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
     if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | zhentarim)\r\n");
     return 1;
   }
-  if (!*arg2) {
+  if (!*arg2) 
+  {
     if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
     if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
@@ -6027,14 +6035,16 @@ SPECIAL(orphan)
     return 1;
   }
 
-  if (lb != (obj = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents))) {
+  if (lb != (obj = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents))) 
+  {
     send_to_char(ch, "That is not an orphan and cannot be assisted.\r\n");
     return 1;
   }
 
   char buf[200];
 
-  if (is_abbrev(arg2, "foster-home")) {
+  if (is_abbrev(arg2, "foster-home")) 
+  {
     sprintf(buf, "You send $p off to a loving foster home.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
     sprintf(buf, "$n sends $p off to a loving foster home.");
@@ -6043,7 +6053,8 @@ SPECIAL(orphan)
     extract_obj(lb);
     lb = obj = NULL;
     orphans--;
-  } else if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE && is_abbrev(arg2, "dragonarmies")) {
+  } else if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE && is_abbrev(arg2, "dragonarmies")) 
+  {
     sprintf(buf, "You send $p off to to the Dragonarmy Academy.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
     sprintf(buf, "$n sends $p off to the Dragonarmy Academy.");
@@ -6052,7 +6063,8 @@ SPECIAL(orphan)
     extract_obj(lb);
     lb = obj = NULL;
     orphans--;
-  } else if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS && is_abbrev(arg2, "zhentarim")) {
+  } else if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS && is_abbrev(arg2, "zhentarim")) 
+  {
     sprintf(buf, "You send $p off to to the Zhentarim Academy.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
     sprintf(buf, "$n sends $p off to the Zhentarim Academy.");
@@ -6062,7 +6074,9 @@ SPECIAL(orphan)
     lb = obj = NULL;
     orphans--;
 
-  } else {
+  } 
+  else 
+  {
     if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
     if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
@@ -6073,23 +6087,32 @@ SPECIAL(orphan)
   int roll = skill_roll(ch, SKILL_DIPLOMACY);
   int reward = 0;
 
-  if (roll > 70) {
+  if (roll > 70) 
+  {
     reward = 1500;
-  } else if (roll > 60) {
+  } 
+  else if (roll > 60) {
     reward = 1000;
-  } else if (roll > 50) {
+  } 
+  else if (roll > 50) {
     reward = 750;
-  } else if (roll > 40) {
+  } 
+  else if (roll > 40) {
     reward = 500;
-  } else if (roll > 30) {
+  } 
+  else if (roll > 30) {
     reward = 300;
-  } else if (roll > 25) {
+  } 
+  else if (roll > 25) {
     reward = 200;
-  } else if (roll > 20) {
+  } 
+  else if (roll > 20) {
     reward = 100;
-  } else if (roll > 15) {
+  } 
+  else if (roll > 15) {
     reward = 50;
-  } else {
+  } 
+  else {
     reward = 0;
   }
 
@@ -6111,7 +6134,8 @@ SPECIAL(orphan)
 SPECIAL(repair_mob)
 {
 
-  if (!CMD_IS("repair")) {
+  if (!CMD_IS("repair")) 
+  {
     return 0;
   }
 
@@ -6205,6 +6229,7 @@ SPECIAL(repair_mob)
 
   return 1;
 }
+
 SPECIAL(license_mob)
 {
   return 0;
