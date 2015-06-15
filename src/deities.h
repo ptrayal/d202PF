@@ -90,8 +90,14 @@
 #define DEITY_ZEBOIM			139
 #define DEITY_NUITARI			140
 
+// Pathfinder Deities
+#define DEITY_ABADAR            141
+#define DEITY_ASMODEUS          142
+#define DEITY_CALISTRIA         143
 
-#define NUM_DEITIES			141 // One more than the last entry please :)
+
+
+#define NUM_DEITIES			144 // One more than the last entry please :)
 
 #define DEITY_PANTHEON_NONE		0
 #define DEITY_PANTHEON_ALL		1

@@ -555,5 +555,26 @@ void assign_deities(void) {
             "\r\n"
             );
 
+// Pathfinder deities
+  // Abadar's weapon is light crossbow, not unarmed.
+    add_deity(DEITY_ABADAR, "Abadar", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_EARTH, DOMAIN_LAW, DOMAIN_NOBILITY, DOMAIN_PROTECTION,
+            DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_UNARMED, DEITY_PANTHEON_GOLARION,
+            "Cities, Wealth, Merchants, Law",
 
+            "\r\n"
+            );  
+
+    add_deity(DEITY_ASMODEUS, "Asmodeus", ETHOS_LAWFUL, ALIGNMENT_EVIL, DOMAIN_EVIL, DOMAIN_LAW, DOMAIN_FIRE, DOMAIN_MAGIC,
+        DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_MACE, DEITY_PANTHEON_GOLARION,
+        "Contracts, Pride, Slavery, Tyranny",
+
+        "\r\n"
+        );  
+
+    add_deity(DEITY_CALISTRIA, "Calistria", ETHOS_CHAOTIC, ALIGNMENT_NEUTRAL, DOMAIN_CHAOS, DOMAIN_CHARM, DOMAIN_KNOWLEDGE, DOMAIN_LUCK,
+        DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_MACE, DEITY_PANTHEON_GOLARION,
+        "Lust, Revenge, Trickery",
+
+        "\r\n"
+        );  
 };
