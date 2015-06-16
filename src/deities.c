@@ -78,16 +78,6 @@ void assign_deities(void) {
     "\r\n"
     );
 
-  add_deity(DEITY_UTHGAR, "Uthgar", ETHOS_CHAOTIC, ALIGNMENT_NEUTRAL, DOMAIN_ANIMAL, DOMAIN_CHAOS, DOMAIN_RETRIBUTION, DOMAIN_STRENGTH,
-            DOMAIN_WAR, DOMAIN_UNDEFINED, WEAPON_TYPE_BATTLE_AXE, DEITY_PANTHEON_FAERUNIAN, "Uthgardt Barabrian Tribes, Physical Strength",
-    "\r\n"
-    );
-
-  add_deity(DEITY_UBTAO, "Ubtao", ETHOS_NEUTRAL, ALIGNMENT_NEUTRAL, DOMAIN_PLANNING, DOMAIN_PLANT, DOMAIN_PROTECTION, DOMAIN_SCALYKIND,
-            DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_PICK, DEITY_PANTHEON_FAERUNIAN, "Creation, Jungles, Cult, the Chultans, Dinosaurs",
-    "\r\n"
-    );
-
   add_deity(DEITY_TYMORA, "Tymora", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_CHAOS, DOMAIN_GOOD, DOMAIN_LUCK, DOMAIN_PROTECTION,
             DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_SHURIKEN, DEITY_PANTHEON_FAERUNIAN, "Good Fortune, Skill, Victory, Adventurers",
     "\r\n"
@@ -98,12 +88,6 @@ void assign_deities(void) {
     "\r\n"
     );
 
-
-  add_deity(DEITY_LLIIRA, "Lliira", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_CHAOS, DOMAIN_CHARM, DOMAIN_FAMILY, DOMAIN_GOOD,
-            DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_SHURIKEN, DEITY_PANTHEON_FAERUNIAN,
-            "Joy, Happiness, Dance, Festivals, Freedom, Liberty",
-    "\r\n"
-    );
 
   add_deity(DEITY_HELM, "Helm", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_LAW, DOMAIN_PROTECTION, DOMAIN_STRENGTH, DOMAIN_UNDEFINED,
             DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_BASTARD_SWORD, DEITY_PANTHEON_FAERUNIAN,
@@ -133,12 +117,6 @@ void assign_deities(void) {
     "\r\n"
     );
 
-  add_deity(DEITY_AURIL, "Auril", ETHOS_NEUTRAL, ALIGNMENT_EVIL, DOMAIN_AIR, DOMAIN_EVIL, DOMAIN_STORM,
-          DOMAIN_WATER, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_BATTLE_AXE, DEITY_PANTHEON_FAERUNIAN,
-          "Cold, Winter",
-    "\r\n"
-    );
-
   add_deity(DEITY_AZUTH, "Azuth", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_ILLUSION, DOMAIN_MAGIC, DOMAIN_KNOWLEDGE,
           DOMAIN_LAW, DOMAIN_SPELL, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_FLAIL, DEITY_PANTHEON_FAERUNIAN,
           "Wizards, Mages, Spellcasters in General",
@@ -148,12 +126,6 @@ void assign_deities(void) {
     add_deity(DEITY_BANE, "Bane", ETHOS_LAWFUL, ALIGNMENT_EVIL, DOMAIN_DESTRUCTION, DOMAIN_EVIL, DOMAIN_HATRED,
           DOMAIN_LAW, DOMAIN_TYRANNY, DOMAIN_UNDEFINED, WEAPON_TYPE_MORNINGSTAR, DEITY_PANTHEON_FAERUNIAN,
           "Hatred, Tyranny, Fear",
-    "\r\n"
-    );
-
-    add_deity(DEITY_BESHABA, "Beshaba", ETHOS_CHAOTIC, ALIGNMENT_EVIL, DOMAIN_CHAOS, DOMAIN_EVIL, DOMAIN_FATE,
-          DOMAIN_LUCK, DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_SPIKED_CHAIN, DEITY_PANTHEON_FAERUNIAN,
-          "Random Mischief, Misfortune, Bad Luck, Accidents",
     "\r\n"
     );
 
@@ -169,38 +141,6 @@ void assign_deities(void) {
     "\r\n"
     );
 
-    add_deity(DEITY_DENEIR, "Deneir", ETHOS_NEUTRAL, ALIGNMENT_GOOD, DOMAIN_GOOD, DOMAIN_KNOWLEDGE, DOMAIN_RUNE,
-          DOMAIN_PROTECTION, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_DAGGER, DEITY_PANTHEON_FAERUNIAN,
-          "Glyphs, Images, Literature, Scribes, Cartography",
-    "\r\n"
-    );
-
-    add_deity(DEITY_ELDATH, "Eldath", ETHOS_NEUTRAL, ALIGNMENT_GOOD, DOMAIN_FAMILY, DOMAIN_GOOD, DOMAIN_PLANT,
-          DOMAIN_PROTECTION, DOMAIN_WATER, DOMAIN_UNDEFINED, WEAPON_TYPE_NET, DEITY_PANTHEON_FAERUNIAN,
-          "Quiet Places, Springs, Pools, Peace, Waterfalls",
-    "\r\n"
-    );
-
-    add_deity(DEITY_FINDER_WYVERNSPUR, "Finder Wyvernspur", ETHOS_CHAOTIC, ALIGNMENT_NEUTRAL, DOMAIN_CHAOS,
-          DOMAIN_CHARM, DOMAIN_RENEWAL,
-          DOMAIN_SCALYKIND, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_BASTARD_SWORD, DEITY_PANTHEON_FAERUNIAN,
-          "Cycle of Life, Transformation of Art, Saurials",
-    "\r\n"
-    );
-
-    add_deity(DEITY_GARAGOS, "Garagos", ETHOS_CHAOTIC, ALIGNMENT_NEUTRAL, DOMAIN_CHAOS, DOMAIN_DESTRUCTION,
-          DOMAIN_STRENGTH,
-          DOMAIN_WAR, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_LONG_SWORD, DEITY_PANTHEON_FAERUNIAN,
-          "War, Skill-at-Arms, Destruction, Plunder",
-    "\r\n"
-    );
-
-    add_deity(DEITY_GARGAUTH, "Gargauth", ETHOS_LAWFUL, ALIGNMENT_EVIL, DOMAIN_CHARM, DOMAIN_EVIL, DOMAIN_LAW,
-          DOMAIN_TRICKERY, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_DAGGER, DEITY_PANTHEON_FAERUNIAN,
-          "Betrayal, Cruelty, Politcal Corruption, Powerbrokers",
-    "\r\n"
-    );
-
     add_deity(DEITY_GOND, "Gond", ETHOS_NEUTRAL, ALIGNMENT_NEUTRAL, DOMAIN_CRAFT, DOMAIN_EARTH, DOMAIN_FIRE,
           DOMAIN_KNOWLEDGE, DOMAIN_METAL, DOMAIN_PLANNING, WEAPON_TYPE_WARHAMMER, DEITY_PANTHEON_FAERUNIAN,
           "Artifice, Craft, COnstruction, Smithwork",
@@ -213,197 +153,112 @@ void assign_deities(void) {
     "\r\n"
     );
 
-    add_deity(DEITY_GWAERON_WINDSTROM, "Dwaeron Windstrom", ETHOS_NEUTRAL, ALIGNMENT_GOOD, DOMAIN_ANIMAL, DOMAIN_GOOD,
-          DOMAIN_KNOWLEDGE,
-          DOMAIN_PLANT, DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_GREAT_SWORD, DEITY_PANTHEON_FAERUNIAN,
-          "Tracking, Rangers of the North",
-    "\r\n"
-    );
-
-    add_deity(DEITY_HOAR, "Hoar", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_FATE, DOMAIN_LAW, DOMAIN_RETRIBUTION,
-          DOMAIN_TRAVEL, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_JAVELIN, DEITY_PANTHEON_FAERUNIAN,
-          "Revenge, Retribution, Poetic Justice",
-    "\r\n"
-    );
-
     add_deity(DEITY_ISTISHIA, "Istishia", ETHOS_NEUTRAL, ALIGNMENT_NEUTRAL, DOMAIN_DESTRUCTION, DOMAIN_OCEAN, DOMAIN_STORM,
           DOMAIN_TRAVEL, DOMAIN_WATER, DOMAIN_UNDEFINED, WEAPON_TYPE_WARHAMMER, DEITY_PANTHEON_FAERUNIAN,
           "Elemental Water, Purification, Wetness",
             "\r\n"
     );
 
-    add_deity(DEITY_JERGAL, "Jergal", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_DEATH, DOMAIN_FATE, DOMAIN_LAW,
-          DOMAIN_RUNE, DOMAIN_SUFFERING, DOMAIN_UNDEFINED, WEAPON_TYPE_SCYTHE, DEITY_PANTHEON_FAERUNIAN,
-          "Fatalism, Proper Burial, Guardianship of Tombs",
-            "\r\n"
-    );
-
     add_deity(DEITY_KELEMVOR, "Kelemvor", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_DEATH, DOMAIN_FATE, DOMAIN_LAW,
           DOMAIN_PROTECTION, DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_BASTARD_SWORD, DEITY_PANTHEON_FAERUNIAN,
           "Death, the Dead",
-          "Kelemvor (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_KOSSUTH, "Kossuth", ETHOS_NEUTRAL, ALIGNMENT_NEUTRAL, DOMAIN_DESTRUCTION, DOMAIN_FIRE, DOMAIN_RENEWAL,
           DOMAIN_SUFFERING, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_SPIKED_CHAIN, DEITY_PANTHEON_FAERUNIAN,
           "Elemental Fire, Purification through Fire",
-          "Kossuth (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_LATHANDER, "Lathander", ETHOS_NEUTRAL, ALIGNMENT_GOOD, DOMAIN_GOOD, DOMAIN_NOBILITY, DOMAIN_PROTECTION,
           DOMAIN_RENEWAL, DOMAIN_STRENGTH, DOMAIN_SUN, WEAPON_TYPE_HEAVY_MACE, DEITY_PANTHEON_FAERUNIAN,
           "Spring, Dawn, Youth, Birth, Vitality, Athletics",
-          "Lathander (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_LOVIATAR, "Loviatar", ETHOS_LAWFUL, ALIGNMENT_EVIL, DOMAIN_EVIL, DOMAIN_LAW, DOMAIN_RETRIBUTION,
           DOMAIN_SUFFERING, DOMAIN_STRENGTH, DOMAIN_UNDEFINED, WEAPON_TYPE_SPIKED_CHAIN, DEITY_PANTHEON_FAERUNIAN,
           "Pain, Hurt, Agony, Torment, Suffering Torture",
-          "Loviatar (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_LURUE, "Lurue", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_ANIMAL, DOMAIN_CHAOS, DOMAIN_GOOD,
-          DOMAIN_HEALING, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_SHORTSPEAR, DEITY_PANTHEON_FAERUNIAN,
-          "Talking Beasts, Intelligent Non-Humanoid Creatures",
-          "Lurue (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_MALAR, "Malar", ETHOS_CHAOTIC, ALIGNMENT_EVIL, DOMAIN_ANIMAL, DOMAIN_CHAOS, DOMAIN_EVIL,
           DOMAIN_MOON, DOMAIN_STRENGTH, DOMAIN_UNDEFINED, WEAPON_TYPE_UNARMED, DEITY_PANTHEON_FAERUNIAN,
           "Hunters, Stalking, Bloodlust, Evil Lycanthropes",
-          "Malar (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_MIELIKKI, "Meilikki", ETHOS_NEUTRAL, ALIGNMENT_GOOD, DOMAIN_ANIMAL, DOMAIN_GOOD, DOMAIN_PLANT,
           DOMAIN_TRAVEL, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_SCIMITAR, DEITY_PANTHEON_FAERUNIAN,
           "Forests, Forest Creatures, Rangers, Dryads, Autumn",
-          "Meilikki (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_MILIL, "Milil", ETHOS_NEUTRAL, ALIGNMENT_GOOD, DOMAIN_CHARM, DOMAIN_GOOD, DOMAIN_KNOWLEDGE,
-          DOMAIN_MOBILITY, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_RAPIER, DEITY_PANTHEON_FAERUNIAN,
-          "Poetry, Song, Eloquence",
-          "Milil (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_NOBANION, "Nobanion", ETHOS_LAWFUL, ALIGNMENT_GOOD, DOMAIN_ANIMAL, DOMAIN_GOOD, DOMAIN_LAW,
-          DOMAIN_NOBILITY, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_PICK, DEITY_PANTHEON_FAERUNIAN,
-          "Royalty, Lions and Feline Beasts, Good Beasts",
-          "Nobanion (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_OGHMA, "Oghma", ETHOS_NEUTRAL, ALIGNMENT_NEUTRAL, DOMAIN_CHARM, DOMAIN_LUCK, DOMAIN_KNOWLEDGE,
           DOMAIN_TRAVEL, DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_LONG_SWORD, DEITY_PANTHEON_FAERUNIAN,
           "Knowledge, Invention, Inspiration, Bards",
-          "Oghma (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_RED_KNIGHT, "Red Knight", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_LAW, DOMAIN_NOBILITY, DOMAIN_PLANNING,
-          DOMAIN_WAR, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_LONG_SWORD, DEITY_PANTHEON_FAERUNIAN,
-          "Strategy, Planning, Tactics",
-          "Red Knight (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_SAVRAS, "Savras", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_FATE, DOMAIN_KNOWLEDGE, DOMAIN_LAW,
-          DOMAIN_MAGIC, DOMAIN_SPELL, DOMAIN_UNDEFINED, WEAPON_TYPE_DAGGER, DEITY_PANTHEON_FAERUNIAN,
-          "Divination, Fate, Truth",
-          "Savras (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_SELUNE, "Selune", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_CHAOS, DOMAIN_GOOD, DOMAIN_MOON,
           DOMAIN_PROTECTION, DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_MACE, DEITY_PANTHEON_FAERUNIAN,
           "Moon, Stars, Navigation, Prophecy, Questers, Good && Neutral Lycanthropes",
-          "Selune (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_SHARESS, "Sharess", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_CHAOS, DOMAIN_CHARM, DOMAIN_GOOD,
-          DOMAIN_TRAVEL, DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_UNARMED, DEITY_PANTHEON_FAERUNIAN,
-          "Hedonism, Sensual Fulfilment, Festhalls, Cats",
-          "Sharess (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_SHAUNDAKUL, "Shaundakul", ETHOS_CHAOTIC, ALIGNMENT_NEUTRAL, DOMAIN_AIR, DOMAIN_CHAOS, DOMAIN_PORTAL,
-          DOMAIN_PROTECTION, DOMAIN_TRADE, DOMAIN_TRAVEL, WEAPON_TYPE_GREAT_SWORD, DEITY_PANTHEON_FAERUNIAN,
-          "Travel, Exploration, Caravans, Portals",
-          "Shaundakul (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_SHIALLIA, "Shiallia", ETHOS_NEUTRAL, ALIGNMENT_GOOD, DOMAIN_ANIMAL, DOMAIN_PLANT, DOMAIN_GOOD,
-          DOMAIN_RENEWAL, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_QUARTERSTAFF, DEITY_PANTHEON_FAERUNIAN,
-          "Woodland GLades && Fertility, The High Forest, Neverwinter Wood",
-          "Shiallia (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_SIAMORPHE, "Siamorphe", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_KNOWLEDGE, DOMAIN_LAW, DOMAIN_NOBILITY,
-          DOMAIN_PLANNING, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_LIGHT_MACE, DEITY_PANTHEON_FAERUNIAN,
-          "Nobles, Rightful Rule of Nobility, Human Royalty",
-          "Siamorphe (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_SILVANUS, "Silvanus", ETHOS_NEUTRAL, ALIGNMENT_NEUTRAL, DOMAIN_ANIMAL, DOMAIN_PLANT, DOMAIN_RENEWAL,
           DOMAIN_PROTECTION, DOMAIN_WATER, DOMAIN_UNDEFINED, WEAPON_TYPE_GREAT_CLUB, DEITY_PANTHEON_FAERUNIAN,
           "Wild Nature, Druids",
-          "Silvanus (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_SUNE, "Sune", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_CHAOS, DOMAIN_CHARM, DOMAIN_GOOD,
           DOMAIN_PROTECTION, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_WHIP, DEITY_PANTHEON_FAERUNIAN,
           "Beauty, Love, Passion",
-          "Sune (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_TALONA, "Talona", ETHOS_CHAOTIC, ALIGNMENT_EVIL, DOMAIN_DESTRUCTION, DOMAIN_CHAOS, DOMAIN_EVIL,
           DOMAIN_SUFFERING, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_UNARMED, DEITY_PANTHEON_FAERUNIAN,
           "Disease, Poison",
-          "Talona (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_TALOS, "Talos", ETHOS_CHAOTIC, ALIGNMENT_EVIL, DOMAIN_DESTRUCTION, DOMAIN_FIRE, DOMAIN_CHAOS,
           DOMAIN_EVIL, DOMAIN_STORM, DOMAIN_UNDEFINED, WEAPON_TYPE_SPEAR, DEITY_PANTHEON_FAERUNIAN,
           "Storms, Destruction, Rebellion, Conflagrations, Earthquakes, Vortices",
-          "Talos (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_TIAMAT, "Tiamat", ETHOS_LAWFUL, ALIGNMENT_EVIL, DOMAIN_EVIL, DOMAIN_LAW, DOMAIN_SCALYKIND,
           DOMAIN_TYRANNY, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_PICK, DEITY_PANTHEON_FAERUNIAN,
           "Evil Dragons && Reptiles, Greed, Chessenta",
-          "Tiamat (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_TORM, "Torm", ETHOS_LAWFUL, ALIGNMENT_GOOD, DOMAIN_GOOD, DOMAIN_HEALING, DOMAIN_LAW,
           DOMAIN_PROTECTION, DOMAIN_STRENGTH, DOMAIN_UNDEFINED, WEAPON_TYPE_GREAT_SWORD, DEITY_PANTHEON_FAERUNIAN,
           "Duty, Loyalty, Obedience, Paladins",
-          "Torm (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_TYR, "Tyr", ETHOS_LAWFUL, ALIGNMENT_GOOD, DOMAIN_GOOD, DOMAIN_KNOWLEDGE, DOMAIN_LAW,
           DOMAIN_RETRIBUTION, DOMAIN_WAR, DOMAIN_UNDEFINED, WEAPON_TYPE_LONG_SWORD, DEITY_PANTHEON_FAERUNIAN,
           "Justice",
-          "Tyr (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_UMBERLEE, "Umberlee", ETHOS_CHAOTIC, ALIGNMENT_EVIL, DOMAIN_DESTRUCTION, DOMAIN_CHAOS, DOMAIN_EVIL,
           DOMAIN_OCEAN, DOMAIN_STORM, DOMAIN_WATER, WEAPON_TYPE_TRIDENT, DEITY_PANTHEON_FAERUNIAN,
           "Oceans, Currents, Waves, Sea Winds",
-          "Umberlee (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_VALKUR, "Valkur", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_AIR, DOMAIN_CHAOS, DOMAIN_GOOD,
-          DOMAIN_OCEAN, DOMAIN_PROTECTION, DOMAIN_UNDEFINED, WEAPON_TYPE_SCIMITAR, DEITY_PANTHEON_FAERUNIAN,
-          "Sailors, Ships, Favorable Winds, Naval Combat",
-          "Valkur (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
-          );
-
-    add_deity(DEITY_VELSHAROON, "Velsharoon", ETHOS_NEUTRAL, ALIGNMENT_EVIL, DOMAIN_DEATH, DOMAIN_EVIL, DOMAIN_MAGIC,
-          DOMAIN_UNDEATH, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_QUARTERSTAFF, DEITY_PANTHEON_FAERUNIAN,
-          "Necromancy, Necormancers, Evil Liches, Undeath, Undead",
-          "Velsharoon (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     add_deity(DEITY_WAUKEEN, "Waukeen", ETHOS_NEUTRAL, ALIGNMENT_NEUTRAL, DOMAIN_KNOWLEDGE, DOMAIN_PROTECTION, DOMAIN_TRADE,
           DOMAIN_TRAVEL, DOMAIN_UNDEFINED, DOMAIN_UNDEFINED, WEAPON_TYPE_NUNCHAKU, DEITY_PANTHEON_FAERUNIAN,
           "Trade, Money, Wealth",
-          "Waukeen (Description not done yet.  If you wish to write it, email to ilmater@@gmail.com)\r\n"
+          "\r\n"
           );
 
     // End FR Pantheon Deities
@@ -572,7 +427,7 @@ void assign_deities(void) {
         );  
 
     add_deity(DEITY_CALISTRIA, "Calistria", ETHOS_CHAOTIC, ALIGNMENT_NEUTRAL, DOMAIN_CHAOS, DOMAIN_CHARM, DOMAIN_KNOWLEDGE, DOMAIN_LUCK,
-        DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_MACE, DEITY_PANTHEON_GOLARION,
+        DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_WHIP, DEITY_PANTHEON_GOLARION,
         "Lust, Revenge, Trickery",
 
         "\r\n"
