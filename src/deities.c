@@ -415,21 +415,38 @@ void assign_deities(void) {
     add_deity(DEITY_ABADAR, "Abadar", ETHOS_LAWFUL, ALIGNMENT_NEUTRAL, DOMAIN_EARTH, DOMAIN_LAW, DOMAIN_NOBILITY, DOMAIN_PROTECTION,
             DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_UNARMED, DEITY_PANTHEON_GOLARION,
             "Cities, Wealth, Merchants, Law",
-
             "\r\n"
-            );  
+            );
 
     add_deity(DEITY_ASMODEUS, "Asmodeus", ETHOS_LAWFUL, ALIGNMENT_EVIL, DOMAIN_EVIL, DOMAIN_LAW, DOMAIN_FIRE, DOMAIN_MAGIC,
         DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_HEAVY_MACE, DEITY_PANTHEON_GOLARION,
         "Contracts, Pride, Slavery, Tyranny",
-
         "\r\n"
-        );  
+        );
 
     add_deity(DEITY_CALISTRIA, "Calistria", ETHOS_CHAOTIC, ALIGNMENT_NEUTRAL, DOMAIN_CHAOS, DOMAIN_CHARM, DOMAIN_KNOWLEDGE, DOMAIN_LUCK,
         DOMAIN_TRICKERY, DOMAIN_UNDEFINED, WEAPON_TYPE_WHIP, DEITY_PANTHEON_GOLARION,
         "Lust, Revenge, Trickery",
-
         "\r\n"
-        );  
+        );
+
+    add_deity(DEITY_CAYDEN_CAILEAN, "Cayden Cailean", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_CHAOS, DOMAIN_CHARM, DOMAIN_GOOD, DOMAIN_LIBERATION,
+        DOMAIN_STRENGTH, DOMAIN_TRAVEL, WEAPON_TYPE_RAPIER, DEITY_PANTHEON_GOLARION,
+        "Ale, Bravery, Freedom, Wine",
+        "\r\n"
+        );
+
+    add_deity(DEITY_DESNA, "Desna", ETHOS_CHAOTIC, ALIGNMENT_GOOD, DOMAIN_CHAOS, DOMAIN_GOOD, DOMAIN_LIBERATION, DOMAIN_LUCK,
+        DOMAIN_TRAVEL, DOMAIN_UNDEFINED, WEAPON_TYPE_DAGGER, DEITY_PANTHEON_GOLARION,
+        "Dreams, Luck, Stars, Travelers",
+        "\r\n"
+        );
+
+    // WEAPON should be LONG_BOW
+    add_deity(DEITY_ERASTIL, "Erastil", ETHOS_LAWFUL, ALIGNMENT_GOOD, DOMAIN_ANIMAL, DOMAIN_COMMUNITY, DOMAIN_GOOD, DOMAIN_LAW,
+        DOMAIN_PLANT, DOMAIN_UNDEFINED, WEAPON_TYPE_SCYTHE, DEITY_PANTHEON_GOLARION,
+        "Family, Farming, Hunting, Trade",
+        "\r\n"
+        );
+
 };

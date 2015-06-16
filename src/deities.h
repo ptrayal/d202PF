@@ -94,10 +94,26 @@
 #define DEITY_ABADAR            141
 #define DEITY_ASMODEUS          142
 #define DEITY_CALISTRIA         143
+#define DEITY_CAYDEN_CAILEAN    144
+#define DEITY_DESNA             145
+#define DEITY_ERASTIL           146
+#define DEITY_GORUM             147
+#define DEITY_GOZREH            148
+#define DEITY_IOMEDAE           149
+#define DEITY_IRORI             150
+#define DEITY_LAMASHTU          151
+#define DEITY_NETHYS            152
+#define DEITY_NORGORBER         153
+#define DEITY_PHARASMA          154
+#define DEITY_ROVAGUG           155
+#define DEITY_SARENRAE          156
+#define DEITY_SHELYN            157
+#define DEITY_TORAG             158
+#define DEITY_URGATHOA          159
+#define DEITY_ZON_KUTHON        160
 
 
-
-#define NUM_DEITIES			144 // One more than the last entry please :)
+#define NUM_DEITIES             161 // One more than the last entry please :)
 
 #define DEITY_PANTHEON_NONE		0
 #define DEITY_PANTHEON_ALL		1
