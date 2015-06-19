@@ -1233,7 +1233,7 @@ extern struct config_data config_info;
 #define DOMAIN_UNIVERSAL    21
 #define DOMAIN_WAR          22
 #define DOMAIN_WATER        23
-#define DOMAIN_ARTIFACE     24
+#define DOMAIN_ARTIFICE     24
 #define DOMAIN_CHARM        25
 #define DOMAIN_COMMUNITY    26
 #define DOMAIN_CREATION     27
