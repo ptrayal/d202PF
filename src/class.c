@@ -4377,7 +4377,7 @@ rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
             if (cabbr_ranktable[rank] == 0)
                 continue;
             ptr += snprintf(ptr, sizeof(str) - (ptr - str), "%s%s%s%s%s%d", buf, buf2, buf,
-                CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? 
+                CONFIG_CAMPAIGN == CAMPAIGN_GOLARION ? 
                 (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core) : class_abbrevs_core)[rank] : 
                 (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core) : class_abbrevs_dl_aol)[rank], 
                 buf3, cabbr_ranktable[rank]);
