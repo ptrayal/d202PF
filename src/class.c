@@ -5464,16 +5464,11 @@ int num_levelup_class_feats(struct char_data *ch, int whichclass, int ranks) {
 	int epiclevel = 21;
 	int j = 0;
 
-	  if (CAMPAIGN_DESOLATION ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
-	    epiclevel = 11;
-
 	/* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 	  if (ranks >= (epiclevel - 1)) { /* Epic class */
-	    if (CAMPAIGN_DESOLATION ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
-	      j = ranks - 10;
-	    else
 	      j = ranks - 20;
-	    switch (whichclass) {
+	    switch (whichclass) 
+      {
 	// Epic Rogues
 	    case CLASS_ROGUE:
 	      if (!(j % 4))
@@ -5481,7 +5476,8 @@ int num_levelup_class_feats(struct char_data *ch, int whichclass, int ranks) {
 	      break;
 	// Epic Barbarians
 	    case CLASS_BARBARIAN:
-	      if (!(j % 4)) {
+	      if (!(j % 4)) 
+        {
 	        add_class_feats++;
 	      }
 	      break;
@@ -5584,8 +5580,11 @@ int num_levelup_class_feats(struct char_data *ch, int whichclass, int ranks) {
 	        add_class_feats++;
 	      break;
 	    }
-	  } else {
-	    switch (whichclass) {
+	  } 
+    else 
+    {
+	    switch (whichclass) 
+      {
 	    case CLASS_ELDRITCH_KNIGHT:
 	      if (ranks == 1)
 	        add_class_feats++;
@@ -5619,7 +5618,8 @@ int num_levelup_class_feats(struct char_data *ch, int whichclass, int ranks) {
 	  return add_class_feats;
 }
 
-int num_levelup_practices(struct char_data *ch, int whichclass) {
+int num_levelup_practices(struct char_data *ch, int whichclass) 
+{
 
 	int add_prac = 0;
 

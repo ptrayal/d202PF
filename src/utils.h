@@ -1499,7 +1499,6 @@ void admin_set(struct char_data *ch, int value);
                                  ch->player_specials->mount_num == PET_ADULT_SILVER_DRAGON)
 
 #define GET_WISHES(ch)		(ch->wishes)
-#define CAMPAIGN_DESOLATION	(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
 #define MONEY_STRING            ((CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? "steel coins" : "gold coins"))
 
 #define GET_REPUTATION(ch)      (ch->reputation)
