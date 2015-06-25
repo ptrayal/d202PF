@@ -1793,7 +1793,7 @@ int saving_throw_lookup(int save_lev, int chclass, int savetype, int level)
 //    save_lev = save_classes[savetype][chclass];
   switch (save_lev) {
   case SAVE_MANUAL:
-    log("Save undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[chclass]);
+    log("Save undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[chclass]);
     return 0;
   case SAVE_LOW:
     return level / 3;
@@ -1969,7 +1969,7 @@ int base_hit(int hit_type, int chclass, int level)
   }  	
   switch (hit_type) {
   case BASEHIT_MANUAL:
-    log("Base hit undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[chclass]);
+    log("Base hit undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[chclass]);
     return 0;
   case BASEHIT_LOW:
     return level / 2;
@@ -4377,8 +4377,8 @@ rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
                 continue;
             ptr += snprintf(ptr, sizeof(str) - (ptr - str), "%s%s%s%s%s%d", buf, buf2, buf,
                 CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? 
-                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol) : class_abbrevs_core)[rank] : 
-                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol) : class_abbrevs_dl_aol)[rank], 
+                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core) : class_abbrevs_core)[rank] : 
+                (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core) : class_abbrevs_dl_aol)[rank], 
                 buf3, cabbr_ranktable[rank]);
             buf2 = "/";
             if (howlong == 2)

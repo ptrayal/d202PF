@@ -2313,7 +2313,7 @@ ACMD(do_old_score)
   send_to_char(ch, "@r=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=@n\r\n");
   send_to_char(ch, "@rName: @y%s@n\r\n", GET_TITLE(ch));
   send_to_char(ch, "@r=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=@n\r\n");
-  send_to_char(ch, "@rClass: @y%s @rRace: @y%s @rLevel: @y%d@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[(int)GET_CLASS(ch)], pc_race_types[(int)GET_RACE(ch)], GET_LEVEL(ch));
+  send_to_char(ch, "@rClass: @y%s @rRace: @y%s @rLevel: @y%d@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core )[(int)GET_CLASS(ch)], pc_race_types[(int)GET_RACE(ch)], GET_LEVEL(ch));
   if (CONFIG_ALLOW_MULTICLASS && GET_LEVEL(ch) > GET_CLASS_RANKS(ch, GET_CLASS(ch))) {
     send_to_char(ch, "@rRanks: @y%s@n\r\n", class_desc_str(ch, 2, 0));
   }

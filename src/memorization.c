@@ -1844,7 +1844,7 @@ void displayslotnum(struct char_data *ch, int class)
   snprintf(slot_buf, sizeof(slot_buf), "test\r\n");
 
   for(class = 0; class < NUM_CLASSES; class++) {
-    snprintf(buf, sizeof(buf), "\r\n/* %s */\r\n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[class]);
+    snprintf(buf, sizeof(buf), "\r\n/* %s */\r\n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[class]);
     strcat(slot_buf, buf);
     for(i = 0; i < LVL_EPICSTART; i++) {
       strcat(slot_buf, "  { ");

@@ -956,7 +956,7 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
   if (CONFIG_ALLOW_MULTICLASS) {
     strncpy(buf, class_desc_str(k, 1, 0), sizeof(buf));
   } else {
-    sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol), buf, sizeof(buf));
+    sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core), buf, sizeof(buf));
   }
   send_to_char(ch, "Class: %s, Race: %s, Lev: [@y%2d(%dHD+%dcl+%d)@n], XP: [@y%7d@n]\r\n",
                    buf, race_list[GET_RACE(k)].type, GET_LEVEL(k), GET_HITDICE(k),

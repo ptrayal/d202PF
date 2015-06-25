@@ -1907,7 +1907,7 @@ void display_classes_help(struct descriptor_data *d)
   send_to_char(d->character, "\r\n@YClass HELP menu:\r\n@G--------------------------\r\n@n");
   for (x = 0; x < NUM_CLASSES; x++)
     if (class_ok_general(d->character, x))
-      send_to_char(d->character, "%2d) %s\r\n", x+1, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_core)[x]);
+      send_to_char(d->character, "%2d) %s\r\n", x+1, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[x]);
 
       send_to_char(d->character, "\n@BT@W) @CToggle between SELECTION/HELP Menu\r\n@n");
       send_to_char(d->character, "\n@WHelp on Class #: @n");
@@ -3205,10 +3205,10 @@ void nanny(struct descriptor_data *d, char *arg)
     if (!PRF_FLAGGED(d->character, PRF_ANONYMOUS))
       mudlog(CMP, ADMLVL_NONE, true, "New player: %s [%s %s]", 
              GET_NAME(d->character), pc_race_types[GET_RACE(d->character)], 
-             (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_core)[GET_CLASS(d->character)]);
+             (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[GET_CLASS(d->character)]);
     mudlog(CMP, ADMLVL_IMMORT, true, "New player: %s [%s %s]", 
              GET_NAME(d->character), pc_race_types[GET_RACE(d->character)], 
-             (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_core)[GET_CLASS(d->character)]);
+             (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[GET_CLASS(d->character)]);
   
     break;
 
@@ -4652,7 +4652,7 @@ void display_levelup_classes(struct descriptor_data *d) {
   {
 		if (i == CLASS_NPC_EXPERT || i == CLASS_CLASSLESS || i == CLASS_ARTISAN || class_in_game_dl_aol[i] == FALSE)
 			continue;
-		write_to_output(d, "%s%2d) %-30s   @n", do_class_ok_general(d->character, i, FALSE) > 0 ? "@y" : "@r", i + 1, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[i]);
+		write_to_output(d, "%s%2d) %-30s   @n", do_class_ok_general(d->character, i, FALSE) > 0 ? "@y" : "@r", i + 1, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[i]);
 		if (count % 2 == 1)
 			write_to_output(d, "\r\n");
 		count++;

@@ -4079,7 +4079,7 @@ ACMD(do_spells)
     if (GET_ADMLEVEL(ch) < 1 && findslotnum(ch, i) < 1)
       continue;
     if (spellLevel == -1 || spellLevel == i) {
-      send_to_char(ch, "@WLevel @R%d@W %s Spells@n:\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? pc_class_types_core : pc_class_types_dl_aol)[currentClass]);
+      send_to_char(ch, "@WLevel @R%d@W %s Spells@n:\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[currentClass]);
       for (j = 0; j <= MAX_SPELLS; j++) {
         if (spell_info[j].class_level[currentClass] == i && (findslotnum(ch, i) > 0 || GET_ADMLEVEL(ch) > 1)
 	  &&  (spell_info[j].spell_level < 10) && !strstr(spell_info[j].name, "UNUSED")) {
