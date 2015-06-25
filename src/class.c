@@ -1815,7 +1815,8 @@ int saving_throw_lookup(int save_lev, int chclass, int savetype, int level)
  */
 int base_hit(int hit_type, int chclass, int level)
 {
-  if (level < 0 ) {
+  if (level < 0 ) 
+  {
     log("SYSERR: Requesting base hit for invalid level %d!", level);
     level = 0;
   }
@@ -1825,163 +1826,168 @@ int base_hit(int hit_type, int chclass, int level)
   }
   if (!hit_type)
     hit_type = basehit_classes[chclass];
-  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) {
-  switch (chclass) {
-  case CLASS_SORCERER:
-  case CLASS_WIZARD:
-  case CLASS_MYSTIC_THEURGE:
-  case CLASS_ARCANE_TRICKSTER:
-  case CLASS_DEATH_MASTER:
+  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) 
+  {
+    switch (chclass) 
+    {
+      case CLASS_SORCERER:
+      case CLASS_WIZARD:
+      case CLASS_MYSTIC_THEURGE:
+      case CLASS_ARCANE_TRICKSTER:
+      case CLASS_DEATH_MASTER:
       hit_type = BASEHIT_LOW;
-    break;
-  case CLASS_CLERIC:
-  case CLASS_DRAGON_DISCIPLE:
-  case CLASS_FAVORED_SOUL:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  case CLASS_ROGUE:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  case CLASS_FIGHTER:
-  case CLASS_ARCANE_ARCHER:
-  case CLASS_ELDRITCH_KNIGHT:
-  case CLASS_DRAGON_RIDER:
-    hit_type = BASEHIT_HIGH;
-    break;
-  case CLASS_MONK:
-  case CLASS_SACRED_FIST:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  case CLASS_DRUID:
-    hit_type = BASEHIT_MEDIUM;
-    break;    
-  case CLASS_ASSASSIN:
-    hit_type = BASEHIT_MEDIUM;
-    break;    
-  case CLASS_RANGER:
-    hit_type = BASEHIT_HIGH;
-    break;
-  case CLASS_BARBARIAN:
-    hit_type = BASEHIT_HIGH;
-    break;  	  	
-  case CLASS_PALADIN:
-    hit_type = BASEHIT_HIGH;
-    break;	
-  case CLASS_BARD:
-    hit_type = BASEHIT_MEDIUM;
+      break;
+      case CLASS_CLERIC:
+      case CLASS_DRAGON_DISCIPLE:
+      case CLASS_FAVORED_SOUL:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      case CLASS_ROGUE:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      case CLASS_FIGHTER:
+      case CLASS_ARCANE_ARCHER:
+      case CLASS_ELDRITCH_KNIGHT:
+      case CLASS_DRAGON_RIDER:
+      hit_type = BASEHIT_HIGH;
+      break;
+      case CLASS_MONK:
+      case CLASS_SACRED_FIST:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      case CLASS_DRUID:
+      hit_type = BASEHIT_MEDIUM;
+      break;    
+      case CLASS_ASSASSIN:
+      hit_type = BASEHIT_MEDIUM;
+      break;    
+      case CLASS_RANGER:
+      hit_type = BASEHIT_HIGH;
+      break;
+      case CLASS_BARBARIAN:
+      hit_type = BASEHIT_HIGH;
+      break;  	  	
+      case CLASS_PALADIN:
+      hit_type = BASEHIT_HIGH;
+      break;	
+      case CLASS_BARD:
+      hit_type = BASEHIT_MEDIUM;
 
-  case CLASS_DWARVEN_DEFENDER:
-  case CLASS_WEAPON_MASTER:
-  case CLASS_KNIGHT_OF_THE_CROWN:
-  case CLASS_KNIGHT_OF_THE_SWORD:
-  case CLASS_KNIGHT_OF_THE_ROSE:
-  case CLASS_KNIGHT_OF_THE_LILY:
-  case CLASS_GLADIATOR:
-  	hit_type = BASEHIT_HIGH;
-  	break;
-  case CLASS_DUELIST:
-  	hit_type = BASEHIT_HIGH;
-  	break;
+      case CLASS_DWARVEN_DEFENDER:
+      case CLASS_WEAPON_MASTER:
+      case CLASS_KNIGHT_OF_THE_CROWN:
+      case CLASS_KNIGHT_OF_THE_SWORD:
+      case CLASS_KNIGHT_OF_THE_ROSE:
+      case CLASS_KNIGHT_OF_THE_LILY:
+      case CLASS_GLADIATOR:
+      hit_type = BASEHIT_HIGH;
+      break;
+      case CLASS_DUELIST:
+      hit_type = BASEHIT_HIGH;
+      break;
 
-  case CLASS_KNIGHT_OF_THE_THORN:
-  case CLASS_WIZARD_OF_HIGH_SORCERY:
-    hit_type = BASEHIT_LOW;
-    break;
+      case CLASS_KNIGHT_OF_THE_THORN:
+      case CLASS_WIZARD_OF_HIGH_SORCERY:
+      hit_type = BASEHIT_LOW;
+      break;
 
-  case CLASS_KNIGHT_OF_THE_SKULL:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  default:
-    hit_type = BASEHIT_MEDIUM;
-    break;
+      case CLASS_KNIGHT_OF_THE_SKULL:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      default:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+    }
   }
-  }
-  else {
-  switch (chclass) {
-  case CLASS_SORCERER:
-  case CLASS_WIZARD:
-  case CLASS_MYSTIC_THEURGE:
-  case CLASS_ARTISAN:
-  case CLASS_ARCANE_TRICKSTER:
-  case CLASS_DEATH_MASTER:
-    hit_type = BASEHIT_LOW;
-    break;
-  case CLASS_CLERIC:
-  case CLASS_DRAGON_DISCIPLE:
-  case CLASS_FAVORED_SOUL:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  case CLASS_ROGUE:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  case CLASS_ELDRITCH_KNIGHT:
-  case CLASS_FIGHTER:
-  case CLASS_DRAGON_RIDER:
-  case CLASS_ARCANE_ARCHER:
-    hit_type = BASEHIT_HIGH;
-    break;
-  case CLASS_MONK:
-  case CLASS_SACRED_FIST:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  case CLASS_DRUID:
-    hit_type = BASEHIT_MEDIUM;
-    break;    
-  case CLASS_ASSASSIN:
-    hit_type = BASEHIT_MEDIUM;
-    break;    
-  case CLASS_RANGER:
-    hit_type = BASEHIT_HIGH;
-    break;
-  case CLASS_BARBARIAN:
-    hit_type = BASEHIT_HIGH;
-    break;  	  	
-  case CLASS_PALADIN:
-    hit_type = BASEHIT_HIGH;
-    break;	
-  case CLASS_BARD:
-    hit_type = BASEHIT_MEDIUM;
+  else 
+  {
+    switch (chclass) 
+    {
+      case CLASS_SORCERER:
+      case CLASS_WIZARD:
+      case CLASS_MYSTIC_THEURGE:
+      case CLASS_ARTISAN:
+      case CLASS_ARCANE_TRICKSTER:
+      case CLASS_DEATH_MASTER:
+      hit_type = BASEHIT_LOW;
+      break;
+      case CLASS_CLERIC:
+      case CLASS_DRAGON_DISCIPLE:
+      case CLASS_FAVORED_SOUL:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      case CLASS_ROGUE:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      case CLASS_ELDRITCH_KNIGHT:
+      case CLASS_FIGHTER:
+      case CLASS_DRAGON_RIDER:
+      case CLASS_ARCANE_ARCHER:
+      hit_type = BASEHIT_HIGH;
+      break;
+      case CLASS_MONK:
+      case CLASS_SACRED_FIST:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      case CLASS_DRUID:
+      hit_type = BASEHIT_MEDIUM;
+      break;    
+      case CLASS_ASSASSIN:
+      hit_type = BASEHIT_MEDIUM;
+      break;    
+      case CLASS_RANGER:
+      hit_type = BASEHIT_HIGH;
+      break;
+      case CLASS_BARBARIAN:
+      hit_type = BASEHIT_HIGH;
+      break;  	  	
+      case CLASS_PALADIN:
+      hit_type = BASEHIT_HIGH;
+      break;	
+      case CLASS_BARD:
+      hit_type = BASEHIT_MEDIUM;
 
-  case CLASS_DWARVEN_DEFENDER:
-  case CLASS_KNIGHT_OF_THE_CROWN:
-  case CLASS_WEAPON_MASTER:
-  case CLASS_KNIGHT_OF_THE_SWORD:
-  case CLASS_KNIGHT_OF_THE_ROSE:
-  case CLASS_KNIGHT_OF_THE_LILY:
-  case CLASS_GLADIATOR:
-  	hit_type = BASEHIT_HIGH;
-  	break;
-  case CLASS_DUELIST:
-  	hit_type = BASEHIT_HIGH;
-  	break;
+      case CLASS_DWARVEN_DEFENDER:
+      case CLASS_KNIGHT_OF_THE_CROWN:
+      case CLASS_WEAPON_MASTER:
+      case CLASS_KNIGHT_OF_THE_SWORD:
+      case CLASS_KNIGHT_OF_THE_ROSE:
+      case CLASS_KNIGHT_OF_THE_LILY:
+      case CLASS_GLADIATOR:
+      hit_type = BASEHIT_HIGH;
+      break;
+      case CLASS_DUELIST:
+      hit_type = BASEHIT_HIGH;
+      break;
 
-  case CLASS_KNIGHT_OF_THE_THORN:
-  case CLASS_WIZARD_OF_HIGH_SORCERY:
-    hit_type = BASEHIT_LOW;
-    break;
+      case CLASS_KNIGHT_OF_THE_THORN:
+      case CLASS_WIZARD_OF_HIGH_SORCERY:
+      hit_type = BASEHIT_LOW;
+      break;
 
-  case CLASS_KNIGHT_OF_THE_SKULL:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  default:
-    hit_type = BASEHIT_MEDIUM;
-    break;
-  }
+      case CLASS_KNIGHT_OF_THE_SKULL:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+      default:
+      hit_type = BASEHIT_MEDIUM;
+      break;
+    }
   }  	
-  switch (hit_type) {
-  case BASEHIT_MANUAL:
+  switch (hit_type) 
+  {
+    case BASEHIT_MANUAL:
     log("Base hit undefined for class %s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[chclass]);
     return 0;
-  case BASEHIT_LOW:
+    case BASEHIT_LOW:
     return level / 2;
     break;
-  case BASEHIT_MEDIUM:
+    case BASEHIT_MEDIUM:
     return level * 3 / 4;
     break;
-  case BASEHIT_HIGH:
+    case BASEHIT_HIGH:
     return level;
     break;
-  default:
+    default:
     log("Unknown basehit type %d in load_levels", hit_type);
     return 0;
     break;
@@ -2557,7 +2563,8 @@ void do_start(struct char_data *ch)
   ch->aff_abils = ch->real_abils;
   set_height_and_weight_by_race(ch);
 
-  switch (GET_RACE(ch)) {
+  switch (GET_RACE(ch)) 
+  {
   case RACE_CENTAUR:
     GET_MAX_HIT(ch) += 32;
     GET_ACCURACY_BASE(ch) = 4;
@@ -2571,7 +2578,8 @@ void do_start(struct char_data *ch)
     break;
 
   case RACE_MINOTAUR:
-    if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) {    
+    if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) 
+    {    
     GET_MAX_HIT(ch) += 32;
     GET_ACCURACY_BASE(ch) = 4;
     GET_SAVE_BASE(ch, SAVING_FORTITUDE) += 4;
@@ -2599,7 +2607,8 @@ void do_start(struct char_data *ch)
     break;
   default:
 
-    for (i = 0; (j = free_start_feats[GET_CLASS(ch)][i]); i++) {
+    for (i = 0; (j = free_start_feats[GET_CLASS(ch)][i]); i++) 
+    {
       SET_FEAT(ch, j, 1);
     }
 

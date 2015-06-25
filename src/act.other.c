@@ -2021,8 +2021,10 @@ void innate_add(struct char_data * ch, int innate, int timer)
  */
 int is_innate(struct char_data *ch, int spellnum) 
 {
-  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) {
-    switch(spellnum) {
+  if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) 
+  {
+    switch(spellnum) 
+    {
     case SPELL_FAERIE_FIRE:
       if(GET_RACE(ch) == RACE_DROW_ELF)
         return true;
@@ -2058,7 +2060,8 @@ void add_innate_timer(struct char_data *ch, int spellnum)
 {
   int timer = 6; /* number of ticks */
 
-  switch(spellnum) {
+  switch(spellnum) 
+  {
     case ABILITY_CALL_MOUNT:
     case ABILITY_CALL_COMPANION:
       timer = 50;
@@ -2107,9 +2110,11 @@ void add_innate_timer(struct char_data *ch, int spellnum)
       break;
   }
 
-  if (is_innate_ready(ch, spellnum)) {
+  if (is_innate_ready(ch, spellnum)) 
+  {
     innate_add(ch, spellnum, timer);
-  } else if (spellnum != ABIL_SMITE_EVIL && spellnum != SPELL_AFF_RAGE){
+  } else if (spellnum != ABIL_SMITE_EVIL && spellnum != SPELL_AFF_RAGE)
+  {
     send_to_char(ch, "BUG!\r\n");
   }
 }
@@ -2143,7 +2148,8 @@ void add_innate_affects(struct char_data *ch)
   affect_total(ch);
 }
 
-ACMD(do_timers) {
+ACMD(do_timers) 
+{
 
   struct innate_node *inn, *next_inn;
 
