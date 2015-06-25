@@ -2866,9 +2866,9 @@ ACMD(do_nohelps) {
   send_to_char(ch, "Missing Class Help Files:\r\n");
   // Classes
   for (i = 0; i <= NUM_CLASSES; i++) {
-    sprintf(buf, "class %s", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core[i] : class_names_dl_aol[i]);
-    if (!(this_help = find_help(buf)) && (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_in_game_core[i] : class_in_game_dl_aol[i]) == TRUE) {
-      send_to_char(ch, "help class %s\r\n", CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core[i] : class_names_dl_aol[i]);
+    sprintf(buf, "class %s", CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol[i] : class_names_core[i] );
+    if (!(this_help = find_help(buf)) && (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_in_game_dl_aol[i]: class_in_game_core[i] ) == TRUE) {
+      send_to_char(ch, "help class %s\r\n", CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol[i] : class_names_core[i]);
     }
   }
   send_to_char(ch, "\r\n");

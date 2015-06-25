@@ -923,7 +923,7 @@ void handle_gain(struct char_data *keeper, int guild_nr, struct char_data *ch, c
       }
       return;
     }
-    if ((whichclass = search_block(argument, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol), FALSE)) < 0) {
+    if ((whichclass = search_block(argument, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core), FALSE)) < 0) {
       send_to_char(ch, "That is not a class.\r\n");
       return;
     }

@@ -4114,7 +4114,7 @@ ACMD(do_bonuslevels)
   }
 
   for (i = 0; i < NUM_CLASSES; i++) {
-    if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[i]))
+    if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[i]))
       break;
   }
 
@@ -4131,7 +4131,7 @@ ACMD(do_bonuslevels)
     ch->player_specials->bonus_levels_arcane--;
     ch->player_specials->bonus_levels[i] += 1;
     send_to_char(ch, "Your caster level in the %s class has increased by 1 to bring it to a new total of %d.\r\n",
-                     (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[i],
+                     (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[i],
                      GET_CASTER_LEVEL(ch, i));
    
   }
@@ -4143,7 +4143,7 @@ ACMD(do_bonuslevels)
     ch->player_specials->bonus_levels_divine--;
     ch->player_specials->bonus_levels[i] += 1;
     send_to_char(ch, "Your caster level in the %s class has increased by 1 to bring it to a new total of %d.\r\n",
-                     (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[i],
+                     (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[i],
                      GET_CASTER_LEVEL(ch, i));
    
   }

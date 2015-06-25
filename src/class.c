@@ -979,7 +979,8 @@ int class_ok_num_classes(struct char_data *ch, int whichclass) {
 
 }
 
-int class_ok_general(struct char_data *ch, int whichclass) {
+int class_ok_general(struct char_data *ch, int whichclass) 
+{
 	return do_class_ok_general(ch, whichclass, TRUE);
 }
 
@@ -998,10 +999,10 @@ int do_class_ok_general(struct char_data *ch, int whichclass, int show_text)
     return -4;
 //  if (!class_ok_race[(int)GET_RACE(ch)][whichclass])
 //    return -1;
-  if (!(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_ok_align_core : class_ok_align_dl_aol)[ALIGN_TYPE(ch)][whichclass])
+  if (!(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_ok_align_dl_aol : class_ok_align_core)[ALIGN_TYPE(ch)][whichclass])
     return -2;
-  if (!IS_EPIC(ch) && (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_max_ranks_core : class_max_ranks_dl_aol)[whichclass] > -1 &&
-      GET_CLASS_RANKS(ch, whichclass) >= (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_max_ranks_core : class_max_ranks_dl_aol)[whichclass])
+  if (!IS_EPIC(ch) && (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_max_ranks_dl_aol : class_max_ranks_core)[whichclass] > -1 &&
+      GET_CLASS_RANKS(ch, whichclass) >= (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_max_ranks_dl_aol : class_max_ranks_core)[whichclass])
     return -3;
   if (!class_ok_num_classes(ch, whichclass))
     return -5;
@@ -1363,7 +1364,7 @@ case CLASS_DEATH_MASTER:
   		c1 = TRUE;
     else
     	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n",
-(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
+(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
     if (GET_BAB(ch) >= 3)
     	c2 = TRUE;
     else
@@ -1405,7 +1406,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SWORD))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
     if (GET_BAB(ch) >= 6)
     	c2 = TRUE;
     else
@@ -1444,7 +1445,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_ROSE))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
     if (GET_BAB(ch) >= 8)
     	c2 = TRUE;
     else
@@ -1495,7 +1496,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_LILY))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order become a %s.  Please see help sponsor.@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
     if (GET_BAB(ch) >= 5)
     	c2 = TRUE;
     else
@@ -1517,7 +1518,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_SKULL))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor@n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
     if (GET_BAB(ch) >= 3)
     	c2 = TRUE;
     else
@@ -1540,7 +1541,7 @@ case CLASS_DEATH_MASTER:
   	if (GET_CLASS_SPONSOR(ch, CLASS_KNIGHT_OF_THE_THORN))
   		c1 = TRUE;
     else
-    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n",  (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[whichclass]);
+    	if (show_text) send_to_char(ch, "@wYou must be sponsored by an immortal in order to become a %s.  Please see help sponsor.@n\r\n",  (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[whichclass]);
     if (GET_BAB(ch) >= 3)
     	c2 = TRUE;
     else
@@ -3818,7 +3819,7 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
   /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
   i = ability_mod_value(ch->real_abils.con);
   if (level > 1) {
-    j = (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_hit_die_size_fr : class_hit_die_size_dl_aol)[whichclass];
+    j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
     add_hp = MAX(1, i + j);
   }
   if (HAS_FEAT(ch, FEAT_TOUGHNESS))
@@ -4397,7 +4398,7 @@ rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
                 rank = GET_CLASS_RANKS(ch, j);
             }
             rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
-            snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[GET_CLASS(ch)],
+            snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[GET_CLASS(ch)],
                 rank, GET_LEVEL(ch) == rank ? "" : "+");
             return str;
     }
@@ -4500,9 +4501,9 @@ int load_levels()
   }
   fclose(fp);
   for (cls = 0; cls < NUM_CLASSES; cls++)
-    log("Base hit for class %s: %s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[cls], basehit_type_names[basehit_classes[cls]]);
+    log("Base hit for class %s: %s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls], basehit_type_names[basehit_classes[cls]]);
   for (cls = 0; cls < NUM_CLASSES; cls++)
-    log("Saves for class %s: fort=%s, reflex=%s, will=%s", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[cls],
+    log("Saves for class %s: fort=%s, reflex=%s, will=%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls],
         save_type_names[save_classes[SAVING_FORTITUDE][cls]],
         save_type_names[save_classes[SAVING_REFLEX][cls]],
         save_type_names[save_classes[SAVING_WILL][cls]]);
@@ -4542,7 +4543,7 @@ int exp_penalty(struct char_data *ch)
   }
   for (high = highclass = i = 0; i < NUM_CLASSES; i++) {
     /* Favored class and prestige classes don't count */
-    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core : prestige_classes_dl_aol)[i])
+    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? prestige_classes_dl_aol : prestige_classes_core)[i])
       continue;
     if (GET_CLASS_RANKS(ch, i) > high) {
       highclass = i;
@@ -4555,7 +4556,7 @@ int exp_penalty(struct char_data *ch)
    */
   pen = 0;
   for (i = 0; i < NUM_CLASSES; i++) {
-    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core : prestige_classes_dl_aol)[i] || !GET_CLASS_RANKS(ch, i))
+    if (i == fcl || (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? prestige_classes_dl_aol : prestige_classes_core)[i] || !GET_CLASS_RANKS(ch, i))
       continue;
     if (GET_CLASS_RANKS(ch, i) < (high - 1))
       pen++;

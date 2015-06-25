@@ -119,7 +119,7 @@ void do_mem_display(struct char_data *ch)
 
   if (!findslotnum(ch, 1)) {
     snprintf(buf, MAX_STRING_LENGTH, "You do not have any spellcasting ability in the %s class.\r\n", 
-             (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[class]);
+             (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[class]);
     send_to_char(ch, buf);
     return;
   }

@@ -4017,7 +4017,7 @@ ACMD(do_spells)
   }
   else {
     for (i = 0; i <= NUM_CLASSES; i++) {
-      if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol)[i])) {
+      if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[i])) {
         currentClass = i;
         break;
       }

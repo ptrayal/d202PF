@@ -907,9 +907,9 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
 			 !IS_SET(EXIT(ch, door)->exit_info, EX_CLOSED))
 
 #define RACE(ch)      (pc_race_types[(int)GET_RACE(ch)])
-#define CLASS_ABBR(ch) (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? \
-                        class_abbrevs_core[(int)GET_CLASS(ch)] : \
-                        class_abbrevs_dl_aol[(int)GET_CLASS(ch)])
+#define CLASS_ABBR(ch) (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? \
+                        class_abbrevs_dl_aol[(int)GET_CLASS(ch)] : \
+                        class_abbrevs_core[(int)GET_CLASS(ch)])
 #define RACE_ABBR(ch) (race_abbrevs[(int)GET_RACE(ch)])
 
 #define IS_WIZARD(ch)           (IS_NPC(ch) ? GET_CLASS(ch) == CLASS_WIZARD : GET_CLASS_RANKS(ch, CLASS_WIZARD) > 0)

@@ -5210,10 +5210,10 @@ void advance_mob_level(struct char_data *ch, int whichclass)
   /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
   i = ability_mod_value(GET_CON(ch));
   if (GET_HITDICE(ch) > 1) {
-    j = (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_hit_die_size_fr : class_hit_die_size_dl_aol)[whichclass];
+    j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
     add_hp = MAX(1, i + j);
   } else {
-    j = (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_hit_die_size_fr : class_hit_die_size_dl_aol)[whichclass];
+    j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
     add_hp = MAX(1, i + j);
     GET_MAX_HIT(ch) = 0; /* Just easier this way */
   }
@@ -5380,7 +5380,7 @@ void set_auto_mob_stats(struct char_data *mob)
   GET_MANA(mob) = GET_MAX_MANA (mob);
   GET_MOVE(mob) = GET_MAX_MOVE(mob);
 
-  hdsize = (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_hit_die_size_fr : class_hit_die_size_dl_aol)[GET_CLASS(mob)];
+  hdsize = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[GET_CLASS(mob)];
   if (race_list[GET_RACE(mob)].family == RACE_TYPE_UNDEAD)
     hdsize = 12;
   if (!hdsize)

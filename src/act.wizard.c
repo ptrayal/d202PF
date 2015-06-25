@@ -2201,8 +2201,8 @@ ACMD(do_last)
       send_to_char(ch, "[%5ld] [%2d %s %s] %-12s : %-30s : %-20s\r\n",
         GET_IDNUM(vict), (int) GET_LEVEL(vict),
         race_list[(int) GET_RACE(vict)].abbrev, 
-        CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_abbrevs_core[(int) GET_CLASS(vict)] : 
-        class_abbrevs_dl_aol[(int) GET_CLASS(vict)],
+        CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol[(int) GET_CLASS(vict)] : 
+        class_abbrevs_core[(int) GET_CLASS(vict)],
         GET_NAME(vict), vict->player_specials->host && *vict->player_specials->host
         ? vict->player_specials->host : "(NOHOST)",
         ctime(&vict->time.logon));
@@ -2755,8 +2755,8 @@ ACMD(do_show)
     }
     send_to_char(ch, "Player: %-12s (%s) [%2d %s %s]\r\n", GET_NAME(vict),
       genders[(int) GET_SEX(vict)], GET_LEVEL(vict), 
-      CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_abbrevs_core[(int) GET_CLASS(vict)] :
-      class_abbrevs_dl_aol[(int) GET_CLASS(vict)], 
+      CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol[(int) GET_CLASS(vict)] :
+      class_abbrevs_core[(int) GET_CLASS(vict)], 
       race_list[(int) GET_RACE(vict)].abbrev);
     send_to_char(ch, "Au: %-8d  Bal: %-8d  Exp: %-8d  Align: %-5d  Ethic: %-5d\r\n",
                  GET_GOLD(vict), GET_BANK_GOLD(vict), GET_EXP(vict),
@@ -2935,7 +2935,7 @@ ACMD(do_show)
           send_to_char(ch, "Level");
           for (i = 0; i < NUM_CLASSES; i++)
             send_to_char(ch, "  %s", 
-            CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ?  class_abbrevs_core[i] : class_abbrevs_dl_aol[i]);
+            CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ?  class_abbrevs_dl_aol[i] : class_abbrevs_core[i]);
           send_to_char(ch, "\n-----");
           while (i--)
             send_to_char(ch, " ---");
@@ -2951,7 +2951,7 @@ ACMD(do_show)
           send_to_char(ch, "Level");
           for (i = 0; i < NUM_CLASSES; i++)
             send_to_char(ch, "  %s", 
-            CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ?  class_abbrevs_core[i] : class_abbrevs_dl_aol[i]);
+            CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ?  class_abbrevs_dl_aol[i] : class_abbrevs_core[i]);
           send_to_char(ch, "\n-----");
           while (i--)
             send_to_char(ch, " ---");
@@ -3416,7 +3416,7 @@ int perform_set(struct char_data *ch, struct char_data *vict, int mode,
     }
     break;
   case 39:
-    if ((i = search_block(val_arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? class_names_core : class_names_dl_aol), FALSE)) < 0) {
+    if ((i = search_block(val_arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core), FALSE)) < 0) {
       send_to_char(ch, "That is not a class.\r\n");
       return (0);
     }
