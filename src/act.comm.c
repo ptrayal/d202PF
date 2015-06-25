@@ -126,7 +126,7 @@ void list_languages(struct char_data *ch)
                 send_to_char(ch, "%s %s%s%s",
                     a++ != 0 ? "," : "",
                     SPEAKING(ch) == i ? "@r": "@n",
-                    (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[i-MIN_LANGUAGES], "@n");
+                    (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[i-MIN_LANGUAGES], "@n");
             send_to_char(ch, "%s ]\r\n", a== 0 ? " None!" : "");
         }
 
@@ -145,11 +145,11 @@ ACMD(do_languages)
         else 
         {
             for (i = MIN_LANGUAGES; i <= CampaignMaxLanguages(); i++) {
-                if (((search_block(arg, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol), false) == i-MIN_LANGUAGES) && (GET_SKILL(ch, i) ||
+                if (((search_block(arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr), false) == i-MIN_LANGUAGES) && (GET_SKILL(ch, i) ||
                     affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON)))) 
                 {
                     SPEAKING(ch) = i;
-                    send_to_char(ch, "You now speak %s.\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[i-MIN_LANGUAGES]);
+                    send_to_char(ch, "You now speak %s.\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[i-MIN_LANGUAGES]);
                     found = true;
                     break;
                 }
@@ -267,13 +267,13 @@ ACMD(do_say_languages)
 					free(tmpdesc);
         } else {
           send_to_char(tch, "@W%s %ss in %s '%s@W'@n\r\n", CAN_SEE(tch, ch) ? (has_intro(tch, ch) ? GET_NAME(ch) : which_desc(ch)) : "Someone", verb,
-	(CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[SPEAKING(ch)-MIN_LANGUAGES], obuf);
+	(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[SPEAKING(ch)-MIN_LANGUAGES], obuf);
           GET_RP_EXP(ch) += strlen(obuf);
           if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_TAVERN)) {
             GET_RP_EXP(ch) += strlen(obuf);
           }
           sprintf(logmsg, "RPLOG: %s %ss in %s '%s'\r\n", GET_NAME(ch), verb,
-                  (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : languages_dl_aol)[SPEAKING(ch)-MIN_LANGUAGES], obuf);
+                  (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[SPEAKING(ch)-MIN_LANGUAGES], obuf);
           log("%s", logmsg);
         }
       }
@@ -282,8 +282,7 @@ ACMD(do_say_languages)
       send_to_char(ch, "%s", CONFIG_OK);
     } else {
       delete_doubledollar(argument);
-      send_to_char(ch, "@WYou %s in %s, '%s@W'@n\r\n", verb, (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS ? languages_fr : 
-		languages_dl_aol)[SPEAKING(ch)-MIN_LANGUAGES], argument);
+      send_to_char(ch, "@WYou %s in %s, '%s@W'@n\r\n", verb, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[SPEAKING(ch)-MIN_LANGUAGES], argument);
     }
 
     /* trigger check */
