@@ -133,7 +133,7 @@ void show_skills(struct char_data *ch)
     send_to_char(ch, "\r\n@WSkill Points: @Y%d@n\r\n\r\n", GET_PRACTICES(ch, GET_CLASS(ch)));
     send_to_char(ch, "\r\n@WSkills:@n\r\n\r\n");
 
-    send_to_char(ch, "%-3s %-19s   %5s    %5s    %5s    %5s    %5s\r\n", "CS", "Skill Name", "Ranks", "Stat", "Race", "Feat", "Misc");
+    send_to_char(ch, " %-2s %-19s   %5s    %5s    %5s    %5s    %5s     %5s\r\n", "CS", "Skill Name", "Ranks", "Stat", "Race", "Feat", "Misc", "Total");
     for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
     {
         if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
@@ -190,12 +190,12 @@ void show_skills(struct char_data *ch)
         }
         else
             continue;
-        if (count % 2 == 1 )
+        if (count % 3 == 1 )
             send_to_char(ch, "\r\n");
         count++;
     }
 
-    if (count % 2 == 1 )
+    if (count % 3 == 1 )
         send_to_char(ch, "\r\n");
     send_to_char(ch, "\r\n");
 
