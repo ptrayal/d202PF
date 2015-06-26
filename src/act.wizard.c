@@ -33,6 +33,7 @@ SVNHEADER("$Id: act.wizard.c 62 2009-03-25 23:06:34Z gicker $");
 #include "deities.h"
 #include "clan.h"
 #include "quest.h"
+#include "grid.h"
 
 /*   external vars  */
 extern MYSQL *conn;
@@ -4300,14 +4301,24 @@ ACMD(do_test)
     buf3 = do_upper(buf2, FALSE);
     buf4 = do_upper(buf2, TRUE);
 
-    send_to_char(ch, "----------\r\n");
-    send_to_char(ch, "Base Text[pet_table[0].name] - |%s|\r\n", buf1);
-    send_to_char(ch, "do_lower result - |%s|\r\n", buf2);
-    send_to_char(ch, "do_upper FALSE [Base Text = do_lower result] - |%s|\r\n", buf3);
-    send_to_char(ch, "do_upper TRUE [Base Text = do_lower result] - |%s|\r\n", buf4);
-    send_to_char(ch, "----------\r\n");
-    send_to_char(ch, "@RNote: || are added on the text results to show any applicable white spacing@n\r\n");
-    send_to_char(ch, "----------\r\n");
+    GRID_DATA *grid;
+    GRID_ROW *row;
+    GRID_CELL *cell;
+
+    grid = create_grid(75);
+    row = create_row(grid);
+    row_append_cell(row, 35, "Base Text[pet_table[0].name]");
+    row_append_cell(row, 40, "%s", buf1);
+    grid_to_char(grid, ch, TRUE);
+
+    // send_to_char(ch, "----------\r\n");
+    // send_to_char(ch, "Base Text[pet_table[0].name] - |%s|\r\n", buf1);
+    // send_to_char(ch, "do_lower result - |%s|\r\n", buf2);
+    // send_to_char(ch, "do_upper FALSE [Base Text = do_lower result] - |%s|\r\n", buf3);
+    // send_to_char(ch, "do_upper TRUE [Base Text = do_lower result] - |%s|\r\n", buf4);
+    // send_to_char(ch, "----------\r\n");
+    // send_to_char(ch, "@RNote: || are added on the text results to show any applicable white spacing@n\r\n");
+    // send_to_char(ch, "----------\r\n");
 
 
 }
