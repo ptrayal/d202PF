@@ -55,8 +55,8 @@ struct grid_cell
 };
  
 //Prototypes
-void grid_to_char(GRID_DATA *grid, CHAR_DATA *ch, bool destroy );
-void row_to_char( GRID_ROW *row, CHAR_DATA *ch );
+void grid_to_char(GRID_DATA *grid, struct char_data *ch, bool destroy );
+void row_to_char( GRID_ROW *row, struct char_data *ch );
 void cell_set_linecount( GRID_CELL *cell );
 void cell_append_contents (GRID_CELL *cell, char *fmt, ...);
 void cell_set_contents (GRID_CELL *cell, char *fmt, ...);

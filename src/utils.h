@@ -160,7 +160,8 @@ void circle_srandom(unsigned long initial_seed);
 unsigned long circle_random(void);
 
 /* integer utils */
-
+#define UMIN(a, b)    ((a) < (b) ? (a) : (b))
+#define UMAX(a, b)    ((a) > (b) ? (a) : (b))
 #define URANGE(a, b, c)          ((b) < (a) ? (a) : ((b) > (c) ? (c) : (b)))
 
 

@@ -1,7 +1,11 @@
 /* grid.c. Where grids are created, displayed and destroyed. Davion. MudBytes.net */
  
+#include "conf.h"
+#include "sysdep.h"
+
 #if defined(macintosh)
 #include <types.h>
+#include <time.h>
 #else
 #include <sys/types.h>
 #include <sys/time.h>
@@ -13,6 +17,7 @@
 #include <stdarg.h>
  
 #include "structs.h"
+#include "utils.h"
 #include "grid.h"
  
 //Creation/Destruction
@@ -118,7 +123,7 @@ void grid_remove_row( GRID_ROW *row )
  
 void row_add_cell( GRID_ROW *row, GRID_CELL *cell)
 {	if( row->curr_width + cell->width > row->grid->width )
-		log_string("Warning: Added Cell Width Overflows Grid");
+		log("Warning: Added Cell Width Overflows Grid");
  
 	if( !row->last_cell )
 	{	row->first_cell = cell;
@@ -220,13 +225,13 @@ int count_colour( char *str )
 	return count*2;
 }
 //Displaying of the Grid
-void row_to_char( GRID_ROW *row, CHAR_DATA *ch )
+void row_to_char( GRID_ROW *row, struct char_data *ch )
 {	GRID_CELL *cell;
 	char *** ptrs;
 	char *tok;
 	char buf[MSL], pad_buf[MSL];
-	int i = 0, n = 0, x = 0;
-	int bottom_fill = 0, filler = UMIN(0, row->grid->width - row->curr_width - 1 );
+	int i = 0, n = 0;
+	int filler = UMIN(0, row->grid->width - row->curr_width - 1 );
 	int actual_height = row->max_height + ( row->padding_top + row->padding_bottom );
 	int alloced = 0;
 	ptrs = calloc(row->columns, sizeof(*ptrs) );
@@ -262,14 +267,14 @@ void row_to_char( GRID_ROW *row, CHAR_DATA *ch )
 	for( n = 0; n < actual_height ; ++n )		
 	{	for( i = 0 ; i < row->columns ; ++i )
 		{	if( i == 0 )
-				printf_to_char(ch, "%c", row->grid->border_left );
+				send_to_char(ch, "%c", row->grid->border_left );
 			else
-				printf_to_char(ch, "%c", row->grid->border_internal );
+				send_to_char(ch, "%c", row->grid->border_internal );
  
-			printf_to_char(ch, "%s", ptrs[i][n]);
+			send_to_char(ch, "%s", ptrs[i][n]);
 			free(ptrs[i][n]);
 		}
-		printf_to_char(ch, "%-*c\r\n", filler, row->grid->border_right );
+		send_to_char(ch, "%-*c\r\n", filler, row->grid->border_right );
 	}
 	for( i = 0; i < row->columns ; ++i )
 		free(ptrs[i]);
@@ -277,20 +282,20 @@ void row_to_char( GRID_ROW *row, CHAR_DATA *ch )
  
 }
 //Display the whole grid, row by row, and destroy if necessary. Should only not destroy if you intend to display it multiple times in a single function.
-void grid_to_char(GRID_DATA *grid, CHAR_DATA *ch, bool destroy)
+void grid_to_char(GRID_DATA *grid, struct char_data *ch, bool destroy)
 {	GRID_ROW *row;
 	int i;
  
-	printf_to_char(ch, "%c", grid->border_corner);
+	send_to_char(ch, "%c", grid->border_corner);
 	for( i = 0; i < grid->width-1; ++i )
-		printf_to_char(ch, "%c", grid->border_top );
-	printf_to_char(ch, "%c\r\n", grid->border_corner);
+		send_to_char(ch, "%c", grid->border_top );
+	send_to_char(ch, "%c\r\n", grid->border_corner);
 	for( row = grid->first_row ; row ; row = row->next )
 	{	row_to_char(row, ch);
-		printf_to_char(ch, "%c", grid->border_corner);
+		send_to_char(ch, "%c", grid->border_corner);
 		for( i = 0; i < grid->width-1; ++i )
-			printf_to_char(ch, "%c", grid->border_bottom );
-		printf_to_char(ch, "%c\r\n", grid->border_corner);
+			send_to_char(ch, "%c", grid->border_bottom );
+		send_to_char(ch, "%c\r\n", grid->border_corner);
 	}
 	if( destroy )
 		destroy_grid(grid);

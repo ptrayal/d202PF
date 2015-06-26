@@ -39,7 +39,7 @@ OBJFILES = account.o act.comm.o act.informative.o act.item.o act.movement.o \
 	oedit.o olc.o player_guilds.o pets.o players.o polls.o protocol.o qedit.o quest.o races.o random.o redit.o sedit.o \
 	shop.o spec_assign.o \
 	spec_procs.o spell_parser.o spells.o statedit.o tedit.o transport.o treasure.o utils.o vehicles.o \
-	weather.o zedit.o modules.o
+	weather.o zedit.o modules.o grid.o
 
 CXREF_FILES = \
 	account.c act.comm.c act.informative.c act.item.c act.movement.c \
@@ -57,7 +57,7 @@ CXREF_FILES = \
         oedit.c olc.c player_guilds.c pets.c players.c polls.c protocol.c qedit.c quest.c races.c random.c redit.c sedit.c \
         shop.c spec_assign.c \
         spec_procs.c spell_parser.c spells.c statedit.c tedit.c transport.c treasure.c utils.c vehicles.c \
-        weather.c zedit.c modules.c
+        weather.c zedit.c modules.c grid.c
 
 
 default: all
