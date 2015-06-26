@@ -22,7 +22,7 @@ BINDIR = ../bin
 
 CFLAGS = -g -O2 $(MYFLAGS) $(PROFILE)
 
-LIBS =  -lcrypt -lz  -lmysqlclient
+LIBRARIES =  -lcrypt -lz  -lmysqlclient
 
 OBJFILES = \
 	account.o act.comm.o act.informative.o act.item.o act.movement.o act.offensive.o \
@@ -83,7 +83,7 @@ circle:
 	$(MAKE) $(BINDIR)/circle
 
 $(BINDIR)/circle : $(OBJFILES)
-	$(CC) $(CFLAGS) -o $(BINDIR)/circle $(PROFILE) $(OBJFILES) $(LIBS)
+	$(CC) $(CFLAGS) -o $(BINDIR)/circle $(PROFILE) $(OBJFILES) $(LIBRARIES)
 
 clean:
 	rm -f *.o
