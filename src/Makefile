@@ -24,41 +24,45 @@ CFLAGS = -g -O2 $(MYFLAGS) $(PROFILE)
 
 LIBS =  -lcrypt -lz  -lmysqlclient
 
-OBJFILES = account.o act.comm.o act.informative.o act.item.o act.movement.o \
-	act.offensive.o act.other.o act.social.o act.wizard.o aedit.o alias.o \
-	asciimap.o assedit.o assemblies.o auction.o auction_house.o ban.o \
-	boards.o bsd-snprintf.o cedit.o char_descs.o clan.o clanedit.o \
-	class.o comm.o config.o constants.o context_help.o db.o deities.o \
+OBJFILES = \
+	account.o act.comm.o act.informative.o act.item.o act.movement.o act.offensive.o \
+	act.other.o act.social.o act.wizard.o aedit.o alias.o asciimap.o \
+	assedit.o assemblies.o auction.o auction_house.o ban.o boards.o \
+	bsd-snprintf.o cedit.o char_descs.o clan.o clanedit.o class.o \
+	comm.o config.o constants.o context_help.o db.o deities.o \
 	dg_comm.o dg_db_scripts.o dg_event.o dg_handler.o dg_misc.o dg_mobcmd.o \
 	dg_objcmd.o dg_olc.o dg_scripts.o dg_triggers.o dg_variables.o dg_wldcmd.o \
-	feats.o fight.o gedit.o gengld.o genmob.o genobj.o genolc.o genqst.o  \
-	genshp.o genwld.o genzon.o \
-	graph.o guild.o handler.o hedit.o hints.o house.o htree.o improved-edit.o \
-	interpreter.o limits.o magic.o mail.o medit.o memorization.o \
-	mobact.o modify.o new_mail.o note.o oasis.o oasis_copy.o oasis_delete.o oasis_list.o objsave.o \
-	oedit.o olc.o player_guilds.o pets.o players.o polls.o protocol.o qedit.o quest.o races.o random.o redit.o sedit.o \
-	shop.o spec_assign.o \
-	spec_procs.o spell_parser.o spells.o statedit.o tedit.o transport.o treasure.o utils.o vehicles.o \
-	weather.o zedit.o modules.o grid.o
+	feats.o fight.o gedit.o gengld.o genmob.o genobj.o \
+	genolc.o genqst.o genshp.o genwld.o genzon.o graph.o \
+	grid.o guild.o handler.o hedit.o hints.o house.o \
+	htree.o improved-edit.o interpreter.o limits.o magic.o mail.o \
+	medit.o memorization.o mobact.o modify.o modules.o new_mail.o \
+	note.o oasis.o oasis_copy.o oasis_delete.o oasis_list.o objsave.o \
+	oedit.o olc.o pets.o player_guilds.o players.o polls.o \
+	protocol.o qedit.o quest.o races.o random.o redit.o \
+	sedit.o shop.o spec_assign.o spec_procs.o spell_parser.o spells.o \
+	statedit.o tedit.o transport.o treasure.o utils.o vehicles.o \
+	weather.o zedit.o
 
 CXREF_FILES = \
-	account.c act.comm.c act.informative.c act.item.c act.movement.c \
-	act.offensive.c act.other.c act.social.c act.wizard.c aedit.c alias.c \
-	asciimap.c assedit.c assemblies.c auction.c auction_house.c ban.c \
-        boards.c bsd-snprintf.c cedit.c char_descs.c clan.c clanedit.c \
-        class.c comm.c config.c constants.c context_help.c db.c deities.c \
-        dg_comm.c dg_db_scripts.c dg_event.c dg_handler.c dg_misc.c dg_mobcmd.c \
-        dg_objcmd.c dg_olc.c dg_scripts.c dg_triggers.c dg_variables.c dg_wldcmd.c \
-        feats.c fight.c gedit.c gengld.c genmob.c genobj.c genolc.c genqst.c  \
-        genshp.c genwld.c genzon.c \
-        graph.c guild.c handler.c hedit.c hints.c house.c htree.c improved-edit.c \
-        interpreter.c limits.c magic.c mail.c medit.c memorization.c \
-        mobact.c modify.c new_mail.c note.c oasis.c oasis_copy.c oasis_delete.c oasis_list.c objsave.c \
-        oedit.c olc.c player_guilds.c pets.c players.c polls.c protocol.c qedit.c quest.c races.c random.c redit.c sedit.c \
-        shop.c spec_assign.c \
-        spec_procs.c spell_parser.c spells.c statedit.c tedit.c transport.c treasure.c utils.c vehicles.c \
-        weather.c zedit.c modules.c grid.c
-
+	account.c act.comm.c act.informative.c act.item.c act.movement.c act.offensive.c \
+	act.other.c act.social.c act.wizard.c aedit.c alias.c asciimap.c \
+	assedit.c assemblies.c auction.c auction_house.c ban.c boards.c \
+	bsd-snprintf.c cedit.c char_descs.c clan.c clanedit.c class.c \
+	comm.c config.c constants.c context_help.c db.c deities.c \
+	dg_comm.c dg_db_scripts.c dg_event.c dg_handler.c dg_misc.c dg_mobcmd.c \
+	dg_objcmd.c dg_olc.c dg_scripts.c dg_triggers.c dg_variables.c dg_wldcmd.c \
+	feats.c fight.c gedit.c gengld.c genmob.c genobj.c \
+	genolc.c genqst.c genshp.c genwld.c genzon.c graph.c \
+	grid.c guild.c handler.c hedit.c hints.c house.c \
+	htree.c improved-edit.c interpreter.c limits.c magic.c mail.c \
+	medit.c memorization.c mobact.c modify.c modules.c new_mail.c \
+	note.c oasis.c oasis_copy.c oasis_delete.c oasis_list.c objsave.c \
+	oedit.c olc.c pets.c player_guilds.c players.c polls.c \
+	protocol.c qedit.c quest.c races.c random.c redit.c \
+	sedit.c shop.c spec_assign.c spec_procs.c spell_parser.c spells.c \
+	statedit.c tedit.c transport.c treasure.c utils.c vehicles.c \
+	weather.c zedit.c
 
 default: all
 
