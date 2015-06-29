@@ -346,10 +346,9 @@ ASPELL(spell_summon)
 	!PLR_FLAGGED(victim, PLR_KILLER)) {
 			char *tmpdesc = NULL;
       send_to_char(victim, "%s just tried to summon you to: %s.\r\n"
-	      "%s failed because you have summon protection on.\r\n"
+	      "This failed because you have summon protection on.\r\n"
 	      "Type NOSUMMON to allow other players to summon you.\r\n",
-	      has_intro(victim, ch) ? GET_NAME(ch) : (tmpdesc = which_desc(ch)), world[IN_ROOM(ch)].name,
-	      (ch->sex == SEX_MALE) ? "He" : "She");
+	      has_intro(victim, ch) ? GET_NAME(ch) : (tmpdesc = which_desc(ch)), world[IN_ROOM(ch)].name);
 			free(tmpdesc);
 			tmpdesc = NULL;
 

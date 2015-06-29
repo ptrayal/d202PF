@@ -512,7 +512,7 @@ ACMD(do_reply)
       tch = tch->next;
 
     if (tch == NULL)
-      send_to_char(ch, "They are no longer playing.\r\n");
+      send_to_char(ch, "That player is no longer playing.\r\n");
     else if (is_tell_ok(ch, tch))
       perform_tell(ch, tch, argument);
   }

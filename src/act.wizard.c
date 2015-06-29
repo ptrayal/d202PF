@@ -1882,7 +1882,7 @@ ACMD(do_restore)
   else if (!(vict = get_char_vis(ch, buf, NULL, FIND_CHAR_WORLD)))
     send_to_char(ch, "%s", CONFIG_NOPERSON);
   else if (!IS_NPC(vict) && ch != vict && GET_ADMLEVEL(vict) >= GET_ADMLEVEL(ch))
-    send_to_char(ch, "They don't need your help.\r\n");  
+    send_to_char(ch, "That player does not need your help.\r\n");  
   else {
     GET_HIT(vict) = GET_MAX_HIT(vict);
     GET_MANA(vict) = GET_MAX_MANA(vict);

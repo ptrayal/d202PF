@@ -196,7 +196,7 @@ ACMD(do_hit)
   if (!*arg)
     send_to_char(ch, "Hit who?\r\n");
   else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)))
-    send_to_char(ch, "They don't seem to be here.\r\n");
+    send_to_char(ch, "That player is not here.\r\n");
   else if (subcmd != SCMD_MURDER && !IS_NPC(ch) && (!IS_NPC(vict) || (IS_NPC(vict) && MOB_FLAGGED(vict, MOB_INNOCENT)))) {
     send_to_char(ch, "You must use the murder command to attack that opponent.\r\nOtherwise witnesses could turn you over for justice for killing an innocent.\r\n");
     return;
