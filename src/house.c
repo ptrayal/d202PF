@@ -164,12 +164,18 @@ void House_save_control(void)
 {
   FILE *fl;
 
-  if (!(fl = fopen(HCONTROL_FILE, "wb"))) {
+  if (!(fl = fopen(HCONTROL_FILE, "wb"))) 
+  {
     log("SYSERR: Unable to open house control file.: %s", strerror(errno));
     return;
   }
+  
   /* write all the house control recs in one fell swoop.  Pretty nifty, eh? */
-  fwrite(house_control, sizeof(struct house_control_rec), num_of_houses, fl);
+  if (fwrite(house_control, sizeof(struct house_control_rec), num_of_houses, fl) != (size_t)num_of_houses)
+  {
+    perror("SYSERR: Unable to save house control file.");
+    return;   
+  }
 
   fclose(fl);
 }
