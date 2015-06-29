@@ -20,29 +20,15 @@ PROFILE =
 
 BINDIR = ../bin
 
-CFLAGS = -g -O2 $(MYFLAGS) $(PROFILE)
+ENGINE = circle
+
+CFLAGS = -ggdb -O2 $(MYFLAGS) $(PROFILE)
 
 LIBRARIES =  -lcrypt -lz  -lmysqlclient
 
-OBJFILES = \
-	account.o act.comm.o act.informative.o act.item.o act.movement.o act.offensive.o \
-	act.other.o act.social.o act.wizard.o aedit.o alias.o asciimap.o \
-	assedit.o assemblies.o auction.o auction_house.o ban.o boards.o \
-	bsd-snprintf.o cedit.o char_descs.o clan.o clanedit.o class.o \
-	comm.o config.o constants.o context_help.o db.o deities.o \
-	dg_comm.o dg_db_scripts.o dg_event.o dg_handler.o dg_misc.o dg_mobcmd.o \
-	dg_objcmd.o dg_olc.o dg_scripts.o dg_triggers.o dg_variables.o dg_wldcmd.o \
-	feats.o fight.o gedit.o gengld.o genmob.o genobj.o \
-	genolc.o genqst.o genshp.o genwld.o genzon.o graph.o \
-	grid.o guild.o handler.o hedit.o hints.o house.o \
-	htree.o improved-edit.o interpreter.o limits.o magic.o mail.o \
-	medit.o memorization.o mobact.o modify.o modules.o new_mail.o \
-	note.o oasis.o oasis_copy.o oasis_delete.o oasis_list.o objsave.o \
-	oedit.o olc.o pets.o player_guilds.o players.o polls.o \
-	protocol.o qedit.o quest.o races.o random.o redit.o \
-	sedit.o shop.o spec_assign.o spec_procs.o spell_parser.o spells.o \
-	statedit.o tedit.o transport.o treasure.o utils.o vehicles.o \
-	weather.o zedit.o
+C_FILES = ${wildcard *.c}
+
+OBJFILES = $(patsubst %.c, %.o, ${C_FILES})
 
 CXREF_FILES = \
 	account.c act.comm.c act.informative.c act.item.c act.movement.c act.offensive.c \
@@ -67,7 +53,7 @@ CXREF_FILES = \
 default: all
 
 all: .accepted
-	$(MAKE) $(BINDIR)/circle
+	$(MAKE) $(BINDIR)/${ENGINE}
 	$(MAKE) utils
 
 .accepted: licheck
@@ -79,14 +65,18 @@ licheck: licheck.in
 
 utils: .accepted
 	(cd util; $(MAKE) all)
-circle:
-	$(MAKE) $(BINDIR)/circle
 
-$(BINDIR)/circle : $(OBJFILES)
-	$(CC) $(CFLAGS) -o $(BINDIR)/circle $(PROFILE) $(OBJFILES) $(LIBRARIES)
+circle:
+	$(MAKE) $(BINDIR)/${ENGINE}
+
+$(BINDIR)/${ENGINE} : $(OBJFILES)
+	$(CC) $(CFLAGS) -o $(BINDIR)/${ENGINE} $(PROFILE) $(OBJFILES) $(LIBRARIES)
 
 clean:
 	rm -f *.o
+
+
+# Not sure this is really used.  Just leaving this at the bottom of the code.
 ref:
 #
 # Create the cross reference files

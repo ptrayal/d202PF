@@ -33,7 +33,7 @@ ACMD(do_forum)
 		     "   feedback\r\n"
 		     "   bugs\r\n"
 		     "   offtopic\r\n");
-    if (GET_ADMLVL(ch) > 0)
+    if (GET_ADMLEVEL(ch) > 0)
       send_to_char(ch,
                      "   staffannouncements\r\n"
                      "   staffgeneral\r\n"
@@ -41,7 +41,7 @@ ACMD(do_forum)
                      "   staffworld\r\n"
                      "   staffplayers\r\n"
                      "   staffother\r\n");
-    if (GET_ADMLVL(ch) >= 4)
+    if (GET_ADMLEVEL(ch) >= 4)
       send_to_char(ch,
                      "   staffadmins\r\n");
 
