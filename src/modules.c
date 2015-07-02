@@ -1,3 +1,7 @@
+// This deals with helping the modularization of the different campaigns.
+// This helps keep all the campaign information in one place and makes it easier to change
+// and look at.
+
 #include "conf.h"
 #include "sysdep.h"
 
@@ -9,6 +13,7 @@
 #include "deities.h"
 
 
+// Determines what deity pantheon is used based on the campaign.
 int DetermineCampaign()
 {
     int campaign = -1;
@@ -30,6 +35,7 @@ int DetermineCampaign()
     return campaign;
 }
 
+// What is the name of the world based on the campaign.
 const char *CampaignWorld[] = 
 {
   "Unknown - Alert Admin",
@@ -38,6 +44,7 @@ const char *CampaignWorld[] =
   "Golarion"
 };
 
+// What is the name of the campaign.
 const char *CampaignName[] = 
 {
   "Unknown - Alert Admin",
@@ -46,6 +53,7 @@ const char *CampaignName[] =
   "Pathfinder - Golarion"
 };
 
+// What is the maximum number of languages based on the campaign.
 int CampaignMaxLanguages()
 {
     int campaign = -1;
