@@ -1,626 +1,6 @@
           AGE OF DRAGONS NEWS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Gicker   (Feb 28) [    0] News command enhanced!
-Gicker   (Feb 28) [    0] Added All Paladin specials last night.  Aura of good fully functional.  Others still need work.
-Gicker   (Feb 28) [    0] Please read help bugs.  This contains the beta policy for bugs.  Ignorace is not an excuse.
-Gicker   (Feb 28) [    0] Added spellcasting for mobs.  Mages are completed, working on clerics
-Gicker   (Mar  1) [    0] Experience gain rate dropped by approximately 1/2.
-Gicker   (Mar  1) [    0] Fixed level advancement.  Training will now award feats and skill points correctly.
-Baz      (Mar  1) [    0] Seeker Complex (LVL 7-10) added northeast of Solace, just north from The Edge of the Forest.
-Baz      (Mar  1) [    0] The Caverns (LVL 10-12) added northeast of Solace, directly north from A Road Through the Forest.
-Gicker   (Mar  3) [    0] Level 1 gets 200% exp gain, drops by 25% each level until 100% level 5 & thereafter
-Gicker   (Mar  3) [    0] Death experience loss dropped to 15 per level for death (x 2 if you respawn)
-Gicker   (Mar  3) [    0] The spells command has been added in to list spells.  See help spells for more info.
-Gicker   (Mar  3) [    0] Characters now have the ability to switch active class using the setactive command.  See help setactive for more information.  Mostly this comes into play with multiclass spellcasters.
-Gicker   (Mar  4) [    0] The look bug has been fixed.
-Gicker   (Mar  6) [    0] All current mage spells now have scrolls for scribing into spellbooks sold at Mordeth's Magic Shop in the far north-central section of the Solace bridgewalks.  See help scribe for more information on scribing scrolls.
-Baz      (Mar  7) [    0] Fireside Tavern (LVL 10-12) added north of The Grassy Plains, northeast of Solace.
-Gicker   (Mar  7) [    0] Fixed extra line break in help files.  Existing help files need to be reformatted still.
-Gicker   (Mar  7) [    0] The spellbook crashing bug has been fixed.
-Gicker   (Mar  9) [    0] Bless now affects entire group.  Seperate spell for bless object.  Shield of faith and divine favor spells added for clerics and paladins.
-Gicker   (Mar  9) [    0] Fixes for fighting ranks & aggro, further back should get hit less
-Gicker   (Mar  9) [    0] added in concentration checks for spellcasters, taking a lot of damage in the previous round can disrupt spellcasting between rounds
-Gicker   (Mar  9) [    0] Fixed the sneak bug.  People will only sneak now if they have set their sneak flag by typing "sneak"
-Gicker   (Mar  9) [    0] weapons will not deteriorate nearly as fast now... further fixes and a repair skill/mob to come
-Gicker   (Mar 10) [    0] Added in cure moderate and serious, and also refresh spells for all levels up to 7
-Baz      (Mar 11) [    0] Tainted Druid Temple LVL 6-8 added southeast of Solace.
-Gicker   (Mar 11) [    0] The trip combat ability and the improved trip feat are now implemented
-Gicker   (Mar 12) [    0] Trip is now working properly.  See help trip for more info.
-Gicker   (Mar 13) [    0] Divine grace implemented
-Gicker   (Mar 13) [    0] Added ability score modifiers to saving throws
-Gicker   (Mar 15) [    0] smite evil has been added to the game for paladins, use the smite command.
-Gicker   (Jul 13) [    0] Added flurry of blows for monks
-Gicker   (Jul 13) [    0] fixed a bug that was crashing the mud.  Object timers temporarily disabled
-Gicker   (Jul 13) [    0] Rogues will now gain the proper weapon feats upon creation or their next level gained
-Gicker   (Jul 14) [    0] Added damage-based & spell-level based hate/enmity system
-Gicker   (Jul 14) [    0] Added Improved Critical, Improved Feint and Combat Expertise Feats
-Gicker   (Jul 14) [    0] Added the feint combat ability and the ability to have sneak attacks against flat-footed foes or by using ranged weapons
-Gicker   (Jul 14) [    0] Added the taunt, challenge and intimidate hate control systems
-Gicker   (Jul 17) [    0] Fixed the sneak attack messages
-Gicker   (Jul 17) [    0] Added mobs for summon monster i, ii & iii
-Gicker   (Jul 17) [    0] Added mobs for summon monster iv
-Majere   (Jul 19) [    0] Fixed loading of followers (summoned mobs etc.) upon reboot/crash/un-renting.  This will not longer cause crashes
-Majere   (Jul 19) [    0] The mud will no longer crash when a player dies.
-Majere   (Jul 19) [    0] Newbies will now start with some basic equipment and a map of solace plus their normal starting gold
-Majere   (Jul 21) [    0] Fixed help files.  Multiple word strings will now work when searching for a specific help file
-Majere   (Jul 21) [    0] Added the blind fighting, combat reflexes and leadership feats
-Majere   (Jul 21) [    0] attacks of opportunity implemented
-Majere   (Jul 21) [    0] removed all unimplemented feats
-Majere   (Jul 21) [    0] Fixed the spell damage on certain spells that were not dealing damage
-Majere   (Jul 21) [    0] Fixed some bugs with attaks of opportunity.  Made it harder to get multiple sneak attacks in one round with ranged attacks, and impossible with melee weapons & feint
-Majere   (Jul 21) [    0] Implemented Age of Legends Style Score
-Majere   (Jul 22) [    0] Fixed the broken shopkeeper messages
-Gicker   (Jul 25) [    0] Added the barbarian, duelist and knight of the crown classes.  Paladin has been changed to a prestige class.
-Zarik    (Jul 26) [    0] All level 0 sphere spells have help files now ^^
-Gicker   (Jul 26) [    0] Knights of the Sword and Rose added
-Gicker   (Jul 26) [    0] sponsor command added by still buggy.  Does not save.  Will be fixing soon.
-Gicker   (Jul 27) [    0] add the rage feat
-Gicker   (Jul 27) [    0] fixed a number of small bugs
-Gicker   (Jul 27) [    0] people can now gain as duelists
-Gicker   (Jul 27) [    0] Add the stat command
-Gicker   (Jul 29) [    0] Added Artificial Intelligence for mobs.  They will now perform actions in combat, such as casting spells, healing, and using feats and abilities.
-Gicker   (Jul 30) [    0] Added all class abilities to the levelling function.  Note that not all are implemented yet
-Gicker   (Jul 30) [    0] added the precise strike, canny defense, heroic initiative, improved reaction feats
-Gicker   (Jul 30) [    0] The second crash upon group death bug has been fixed, the mud is now stable again
-Zarik    (Jul 30) [    0] Sphere 1 & 2 help files are now in
-Gicker   (Jul 31) [    0] added the expertise command in use with the combat expertise feat
-Gicker   (Jul 31) [    0] fixed the armor class and attack roll computation functions.  Should show correctly now
-Gicker   (Jul 31) [    0] Added the improved weapon finesse, two weapon defense, and strength of honor feats as well as the strengthofhonor command for that feat
-Gicker   (Jul 31) [    0] added affect messages for milestone exp bonuses
-Gicker   (Aug  1) [    0] added Additional information to the statistics command
-Gicker   (Aug  2) [    0] Added the 3 Knights of Takhisis Classes, knight of the lily, skull and thorn
-Gicker   (Aug  3) [    0] Added the following cleric spells: bears endurance, eagles splendor, owls wisdom, aid, death knell, delay poison, hold person, inflict moderate wounds, remove paralysis, silence, sound burst & undetectable alignment
-Gicker   (Aug  3) [    0] Poison has been changed, it now does 1d10 con damage.  If con falls felow 1 the victim dies
-Gicker   (Aug  4) [    0] Exp function changed, should be slightly easier to level at low levels, and significantly harder at mid to high levels
-Gicker   (Aug  4) [    0] Added the acid arrows spell, and divided magic missiles into seperate entities for each missile
-Gicker   (Aug  5) [    0] Added research ability in solace library (west of the fountain).  Mages gain 2 research tokens each level, which can be used to research spells.  They may also attempt to research a spell with money, at a cost of 3^(spell_level - 1) * 10 steel.  
-Gicker   (Aug  5) [    0] The lasting effect of acid arrow is now working.  Additionally the spell reduces the victim's charisma by 2 for the duration
-Gicker   (Aug  6) [    0] The Inn of the Last Home has been expanded.  By the fireplace is a mob that can remove poison for free (for now).  If you are poisoned, simply go to her and say 'neutralize poison' without any color codes in your text and she will cure your poiso
-Gicker   (Aug  7) [    0] Added spell slots to mobs, they will no longer cast unlimited spells in battle, and their most powerful ones will be quite more limited in number.  They have the same number of slots as a PC of the same class and class-level with the same ability
-Gicker   (Aug  7) [    0] Added a random chance for a mob to not cast a heal.  Mobs will cure themselves less often.  Also removed some spells from lists that shouldn't have been there and added some where they should have
-Gicker   (Aug  7) [    0] Fixed various typos and message errors
-Majere   (Mar  3) [    0] Favored Enemy Working
-Majere   (Mar  3) [    0] Switched Combat System to be more like Age of Legends Original
-Majere   (Jun 13) [    0] Removed hate message.  Fixed armor suits so they cannot be worn with body, leg or arm armor.  Fixed milestone messages and updated milestones to happen twice per level now instead of 4 times.
-Majere   (Jun 23) [    0] added random treasure for masterwork items
-Majere   (Jun 23) [    0] fixed two handed weapons wielding
-Majere   (Jun 24) [    0] added random treasure potions
-Majere   (Jun 24) [    0] added and fixed all weapons and armor
-Majere   (Jun 26) [    0] fixed a bug where players were losing their short desc causing multiple mud crashes
-Majere   (Jun 28) [    0] added magical weapons to random treasure list and applied random descriptions to masterwork weapons
-Majere   (Jun 28) [    0] players assisting who are wielding ranged, thrown or reach weapons no longer incur attacks of opportunity
-Majere   (Jun 28) [    0] the milestone bonus for experience now tells you how much bonus exp you get when gaining exp
-Majere   (Oct 11) [    0] fixed cleric spell memorization to coincide with new spell lists
-Majere   (Oct 18) [    0] Changed tick and duration system to be closer to d20, with spells lasting rounds, minutes and hours, and healing + spell memorization ticks coming more often
-Majere   (Oct 18) [    0] mobs no longer die of bloodlack when someone is fighting them
-Majere   (Oct 18) [    0] 'devote list' now lists deities along with alignment and domains
-Majere   (Oct 18) [    0] added centaurs, ogres, half-ogres, irda, kapak and baaz draconians, dargonesti and dimernesti elves
-Majere   (Oct 18) [    0] Added racial ability modifiers for all races
-Majere   (Oct 20) [    0] Fixed weapon loader to load more common and popular weapons more often
-Majere   (Oct 22) [    0] added racial attacks for minotaurs, baaz and kapak draconians.  Also added poison bite for kapak draconians
-Majere   (Oct 24) [    0] added healing domain affect for 50% extra healing power for cure spells
-Majere   (Oct 24) [    0] fixed coin display problem in score, will now auto correct if off every 6 seconds
-Majere   (Oct 24) [    0] added able learner feat, must be taken at level 1, makes cross class skills only cost 1 point instead of 2, but still has same maximum as other cross class skills
-Majere   (Oct 24) [    0] added extend rage feat which gives 5 extra rounds to each rage use
-Majere   (Oct 24) [    0] added extra rage feat which adds 2 more rage uses per cycle
-Majere   (Oct 27) [    0] lore skill added to identify items.  Items are randomly set to use either knowledge arcane, religion or planar for identifying items
-Majere   (Oct 27) [    0] added a mob east and north of the mud school who will identify items for 100 gold
-Majere   (Oct 27) [    0] random treasure now drops money as well
-Majere   (Oct 27) [    0] added weapon and armor proficiencies back into the game.  When using a weapon you are not proficiency with you suffer -4 to attack rolls.
-Majere   (Oct 27) [    0] When wearing armor not proficient with you suffer a penalty to attack rolls and dex and strength based skills equal to the armor check penalty of the heaviest armor you are wearing
-Majere   (Oct 29) [    0] added racial attacks for centaurs
-Majere   (Oct 29) [    0] adjusted starting routine to accurately assign stats to characters including special starting stats for advanced races
-Majere   (Oct 29) [    0] added natural armor for advanced races
-Majere   (Oct 29) [    0] only the best/worst stat apply will affect your character now.  Added multiple armor class apply types
-Majere   (Oct 29) [    0] hide and sneak have been disabled until the crash bug with the is fixed
-Majere   (Oct 30) [    0] Added OGL rules that prevent most object bonuses from stacking.  Now only the highest object bonus will take effect
-Majere   (Oct 31) [    0] Removed OGL stat stacking prevention rules until all bugs are worked out
-Majere   (Nov 17) [    0] removed advanced races from character generation.  A method will be enabled in the future to obtain them in other ways.
-Majere   (Nov 17) [    0] attempted to fix bugs about mobs dying but not leaving corpses
-@WSeraphime@n @Y(Jan 31)@n added featset command for setting players' feats when necessary
-@WSeraphime@n @Y(Jan 31)@n added detailed feat info for sneak attack in feats known
-@WSeraphime@n @Y(Jan 31)@n fixed races of mobs in training pits
-@WSeraphime@n @Y(Jan 31)@n restored coin system to single coin type: steel
-@WSeraphime@n @Y(Jan 31)@n fixed give command
-@WSeraphime@n @Y(Feb  1)@n group exp should work now
-@WSeraphime@n @Y(Feb  1)@n fixed some bad alignment restrictions on some classes
-@WSeraphime@n @Y(Feb  1)@n remove milestone bonus
-@WSeraphime@n @Y(Feb  1)@n summon monster duration lowered
-@WSeraphime@n @Y(Feb  1)@n move regen rate increased
-@WSeraphime@n @Y(Feb  1)@n added credit system, 1 credit gained each level, imms can award credits with set credit, and let characters spend them with set spentcredits
-@WSeraphime@n @Y(Feb  1)@n added extra barehand damage for draconians
-@WSeraphime@n @Y(Feb  1)@n fixed the fix command for weapon and armor repair.  Blacksmith mob coming soon
-@WSeraphime@n @Y(Feb  2)@n fixed several class abilities, preventing them from being learned as feats.
-@WSeraphime@n @Y(Feb  2)@n clerics now start with turn undead
-@WSeraphime@n @Y(Feb  2)@n made some corrections to the feint command
-@WSeraphime@n @Y(Feb  2)@n fixed some description problems with random treasure
-@WSeraphime@n @Y(Feb  2)@n mages now get 2 spell research slots per level
-@WSeraphime@n @Y(Feb  2)@n added library spec procs to library in mud school and adventurer academy
-@WSeraphime@n @Y(Feb  2)@n fixed offense field in score
-@WSeraphime@n @Y(Feb  6)@n Added random name generator for character generation and npc name generation
-@WSeraphime@n @Y(Feb  7)@n gauntlet style weapons renamed to unarmed for reference purposes (ie. feats)
-@WSeraphime@n @Y(Feb  7)@n unarmed weapons given different name possibilities and had their descs improved
-@WSeraphime@n @Y(Feb  7)@n unarmed weapons no longer change base unarmed damage for monks and races with improved unarmed damage
-@WSeraphime@n @Y(Feb  7)@n unarmed weapons are now calculating hit and damage bonuses properly (along with other weapons)
-@WSeraphime@n @Y(Feb  7)@n added magical clothing to random treasure lists
-@WSeraphime@n @Y(Feb  7)@n fixed (null) armor from loading
-@WSeraphime@n @Y(Feb  7)@n fixed random armor from reverting to padded armor
-@WSeraphime@n @Y(Feb  7)@n unarmed weapons now work with flurry of blows
-@WSeraphime@n @Y(Feb  7)@n fixed split command
-@WSeraphime@n @Y(Feb 11)@n added naming guidelines to character generation
-@WSeraphime@n @Y(Feb 15)@n research libraries are working correctly now
-@WSeraphime@n @Y(Feb 15)@n object cost now determined automatically
-@WSeraphime@n @Y(Feb 15)@n spells no longer need to be enclosed in quotes, use dashes instead of spaces... cast magic-missile
-@WSeraphime@n @Y(Feb 16)@n Changed load chance on items to be chance OF occurring instead of chance of NOT occurring
-@WSeraphime@n @Y(Feb 16)@n made all load types but mob and object be out of 1000
-@WSeraphime@n @Y(Feb 21)@n added the ranger class
-@WSeraphime@n @Y(Feb 21)@n fixed favored enemy race selection
-@WTyr     @n @Y(Aug 11)@n added most other forgotten realms races
-@WTyr     @n @Y(Aug 11)@n Added group exp bonus, the more in your group the higher the exp bonus
-@WTyr     @n @Y(Aug 11)@n added account group exp bonus
-@WTyr     @n @Y(Aug 15)@n Added Ranger Class
-@WTyr     @n @Y(Aug 15)@n Added more Character Description Adjectives
-@WTyr     @n @Y(Aug 15)@n Added crafting system
-@WTyr     @n @Y(Aug 16)@n Repeating crossbows now give an extra attack per round
-@WTyr     @n @Y(Aug 20)@n added the following spells - magic weapon, bless weapon, prayer, daylight, magic circle against evil, greater magic weapon, heal mount
-@WTyr     @n @Y(Aug 20)@n fixed the give command and item/spell bitvectors
-@WTyr     @n @Y(Aug 20)@n added strength modifier to bows, max of +2 for regular bows, no max for composite bows
-@WTyr     @n @Y(Aug 21)@n fixed the mystery character deletion bug
-@WTyr     @n @Y(Aug 21)@n new bug with automap.  temporarily disabled until I can fix it.  For now use map command.
-@WTyr     @n @Y(Aug 21)@n bug with automap fixed
-@WTyr     @n @Y(Aug 22)@n added spells for druids: barkskin, shillelagh, flame weapon
-@WTyr     @n @Y(Aug 22)@n hide and sneak back in the game
-@WTyr     @n @Y(Aug 22)@n Faerie fire affect changed.  No longer ac penalty.  Cancels and prevents invis, blur, hide and sneak
-@WTyr     @n @Y(Aug 25)@n added spontaneous spellcasting
-@WTyr     @n @Y(Aug 25)@n added mass harm, inflict serious and inflict minor spells
-@WTyr     @n @Y(Aug 26)@n added bard and dragon disciple classes, not all class features implemented yet
-@WTyr     @n @Y(Aug 26)@n implemented blindsense and natural armor increase class abilities
-@WTyr     @n @Y(Aug 26)@n added claws and bite class ability for dragon disciples
-@WTyr     @n @Y(Aug 26)@n added bardic music, music command, and countersong and inspire courage songs
-@WTyr     @n @Y(Aug 26)@n Adjusted level tables and exp.  Exp is now flat based on mob level with a maximum based on character level.  You will always gain the same amount of exp for killing a mob no matter what level you are.  Exp required to level has been increased app
-@WTyr     @n @Y(Aug 27)@n Added help file and all racial abilities for half elves
-@WTyr     @n @Y(Aug 27)@n added help file and all racial features for northerners
-@WTyr     @n @Y(Aug 27)@n added help file and all racial abilities for ice barbarians.
-@WTyr     @n @Y(Aug 27)@n added help file and all racial abilities for cormyrians
-@WTyr     @n @Y(Aug 27)@n added help file and all racial abilities for amnitesd
-@WTyr     @n @Y(Aug 29)@n x2 exp until sept. 15 for back to school
-@WTyr     @n @Y(Aug 31)@n fixed spell levels for memorization
-@WTyr     @n @Y(Aug 31)@n added magic vestment spell
-@WTyr     @n @Y(Aug 31)@n gauntlet weapons now do barehand damage for monks and other classes
-@WTyr     @n @Y(Sep  3)@n Added extra music and lingering song featsd
-@WTyr     @n @Y(Sep  3)@n Added inspire heroics, inspire greatness, inspire competence bard songs
-@WTyr     @n @Y(Sep  3)@n add help files and racial features for anaurochians
-@WTyr     @n @Y(Sep  4)@n Added enchanter mob in the host tower 2nd floor
-@WTyr     @n @Y(Sep  5)@n added a pawn shop in luskan square
-@WTyr     @n @Y(Sep  5)@n taverns now offer exp bonus at a rate of 2 rounds per round stayed there, and +2 to healing while in there
-@WTyr     @n @Y(Sep  5)@n Double Exp has ended, do not be alarmed.  Next double exp date, Canadian Thanksgiving weekend.  Oct. 10-13
-@WTyr     @n @Y(Sep 16)@n Fixed stunning fist, quivering palm and wholeness of body, reinstated ki systejm for monk abilities
-@WTyr     @n @Y(Sep 16)@n now allowing items to be made unbreakable for 5k account exp
-@WTyr     @n @Y(Sep 16)@n now restringing items for 2500 account exp
-@WTyr     @n @Y(Sep 20)@n added monkey grip and slippery mind feats
-@WTyr     @n @Y(Sep 20)@n fixed typo in slippery mind and made blindness a violent spell, can be resisted now
-@WTyr     @n @Y(Sep 24)@n you can now only have one charmed mob under your control at a time
-@WTyr     @n @Y(Sep 24)@n added mobs for summon monster v
-@WTyr     @n @Y(Sep 24)@n Added backup command to backup your eq and inventory.  Please do this often.  If you lose your eq to a crash or something, we can easily reimburse it if you've backed it up.  Only the most recent backup is saved.
-@WTyr     @n @Y(Sep 25)@n added a new quest for levels 10-25 in palace square
-@WTyr     @n @Y(Sep 26)@n added help file for class ranger
-@WTyr     @n @Y(Sep 26)@n added help file for class fighter
-@WTyr     @n @Y(Sep 26)@n added class paladin help file
-@WTyr     @n @Y(Sep 26)@n added help file for class mage
-@WTyr     @n @Y(Sep 26)@n updated silver sphere to hold 1,000 pounds of gear
-@WTyr     @n @Y(Sep 27)@n added extend spell and maximize spell feats, use metamagic command to enable/disable
-@WIlmater @n @Y(Nov  8)@n You can now gain levels as artisan again using the gain command at Gage
-@WIlmater @n @Y(Nov  8)@n Chatted/spoken text is no longer reduced to lower case automatically
-@WIlmater @n @Y(Nov  8)@n fixed a bug that was causing us to crash in combat
-@WIlmater @n @Y(Nov  8)@n Added help file for backup/reimbursements
-@WIlmater @n @Y(Nov  8)@n redid main help screen
-@WIlmater @n @Y(Nov  8)@n modified HELP INTRODUCTION help file
-@WIlmater @n @Y(Nov  9)@n Fixed the list of deities in devote list.
-@WIlmater @n @Y(Nov  9)@n fixed the RACES help file
-@WIlmater @n @Y(Nov  9)@n Updated theme in levelup screen, opening up access to several more prestige classes
-@WIlmater @n @Y(Nov  9)@n updated @YHELP CLASSES@n
-@WIlmater @n @Y(Nov  9)@n fixed a bug that caused us to crash when someone disconnects in the levelup screen
-@WIlmater @n @Y(Nov  9)@n fixed a bug where new characters were beginning at level 2 instead of 1
-@WIlmater @n @Y(Nov  9)@n updated @YHELP RENT@n
-@WIlmater @n @Y(Nov  9)@n fixed bug where unused feats, skill points, and ability trains would not be removed from characters.  Now if you don't use them, you lose them.
-@WIlmater @n @Y(Nov  9)@n Fixed a bug where incapacitated/mortally wounded enemies would exit combat.  Combat will now not end until you've killed them.
-@WIlmater @n @Y(Nov  9)@n added @YHELP DRAGON DISCIPLE@n including information on prerequisites for the class
-@WIlmater @n @Y(Nov  9)@n Added @YHELP KNIGHT@n which includes prerequisite information
-@WIlmater @n @Y(Nov  9)@n updated @YHELP FEATS@n
-@WTempus  @n @Y(Nov 10)@n HELP-FEAT files have been added for: a thousand faces, able learner, abundant step, acrobatic charge and animal companion
-@WTempus  @n @Y(Nov 10)@n HELP-FEAT files have been added for: armor skin, armored mobility, aura of courage, aura of good and blindsense
-@WIlmater @n @Y(Nov 10)@n fixed a bug where typing artisan with text following the command will crash us... no longer
-@WIlmater @n @Y(Nov 10)@n Made a fix to a bug where we would crash sometimes during combat
-@WIlmater @n @Y(Nov 10)@n added a fix for a bug where we would sometimes crash during a stamina point update during combat
-@WTempus  @n @Y(Nov 10)@n added HELP TRY, the try command allows you to identify before you buy.
-@WIlmater @n @Y(Nov 10)@n updated @YHELP ACCOUNT-EXPERIENCE@n.  Please read it if you are interested in rewards for helping out.
-@WTempus  @n @Y(Nov 10)@n HELP-FEAT files have been added for: bardic knowledge, bardic music, animate dead, bone armor and breath weapon
-@WTempus  @n @Y(Nov 10)@n HELP-FEAT files have been added for: branding, call mount, camouflage, canny defense and charisma boost.
-@WTempus  @n @Y(Nov 12)@n HELP-FEAT files have been added for: claw and bite, combat style, combat style mastery, constitution boost and countersong
-@WTempus  @n @Y(Nov 12)@n HELP-FEAT files have been added for: crippling strike, crown of knighthood, darkvision, death attack and defensive roll
-@WTempus  @n @Y(Nov 12)@n help for Feat Defensive Stance also added. Also the d20mud wiki has been updated for feats
-@WTempus  @n @Y(Nov 12)@n ranging from a thousand faces to defensive stance. thank you and have fun out there! }:)
-@WTempus  @n @Y(Nov 12)@n as a reminder our wiki website for help is http://www.d20mud.com/wiki/index.php
-@WMajere  @n @Y(Nov 20)@n populated the shops in palanthas market square
-@WMajere  @n @Y(Nov 20)@n molds to use for crafting are the stock gear sold in the palanthas shops
-@WMajere  @n @Y(Nov 20)@n significantly reduced the weight of harvested materials for characters with low strength scores
-@WMajere  @n @Y(Nov 20)@n reduced artisan experience gains for harvesting materials
-@WMajere  @n @Y(Nov 20)@n modified harvested material descriptions to better reflect new weights
-@WMajere  @n @Y(Nov 20)@n made fixes to combat system for proper initiative counting including fixes to group combat
-@WMajere  @n @Y(Nov 21)@n fix a bug that was causing us to crash
-@WMajere  @n @Y(Nov 22)@n fixed several errors in the levelup process
-@WMajere  @n @Y(Nov 22)@n converted say command to ooc chat.  Role played chat should be done with rsay or rpsay to gain rp points && exp
-@WMajere  @n @Y(Nov 23)@n Sector type now shown in room desc
-@WMajere  @n @Y(Nov 23)@n can now only disenchant magic items, no essences, crystals or anything else
-@WMajere  @n @Y(Nov 23)@n fixed a few bugs that were causing crashes
-@WMajere  @n @Y(Nov 23)@n adjusted harvesting system, so that there are no longer nodes, instead you have to go to the proper room type (ie. mountains or hills for mining) and type the appropriate harvesting command (mine/farm/hunt/forest).  Higher skill swill result in higher chance for an item, as well as better items
-@WMajere  @n @Y(Nov 23)@n higher level materials now increase the amount of artisan exp gained for an item
-@WMajere  @n @Y(Nov 23)@n random chance to find an essence or crystal while harvestinbg
-@WMajere  @n @Y(Nov 23)@n group exp cap no longer applied if person receiving exp is within 5 levels of highest group member
-@WMajere  @n @Y(Nov 23)@n level 0 spells can now be cast unlimited times
-@WMajere  @n @Y(Nov 23)@n added advanced materials for wood and leather
-@WMajere  @n @Y(Nov 23)@n fixed the feint command.  Can be used to sneak attack in combat when soloing
-@WMajere  @n @Y(Nov 23)@n added several new help files for the crafting system, see @YHELP CRAFTING@n
-@WMajere  @n @Y(Nov 23)@n synthesizing gems now creates crystals instead of essences
-@WMajere  @n @Y(Nov 23)@n disenchanting is now based on alchemy instead of spellcraft
-@WMajere  @n @Y(Nov 24)@n gemstones will now be properly removed from inventory when synthesizing them
-@WMajere  @n @Y(Nov 24)@n steel will now drop again instead of just copper when it is rolled
-@WMajere  @n @Y(Nov 24)@n Player housing is now available, with 16 homes created thus far.  Our current promotion is that each account can gain 1 free home upon any character on that account achieving level 10.  Homes can be shared among multiple characters by adding other characters to the guest list with the house command.
-@WMajere  @n @Y(Nov 24)@n adjusted starting combat distance based on geography, light conditions, and weather
-@WMajere  @n @Y(Nov 24)@n you can now use sneak to start right next to a mob when you start combat if you succeed your stealth check
-@WMajere  @n @Y(Nov 24)@n removed charisma bonuses and penalties to experience
-@WMajere  @n @Y(Nov 24)@n mobs can no longer buff themselves with invisibility or greater invisibility
-@WMajere  @n @Y(Nov 25)@n keywords for identified expendables (scrolls, potions, etc) should now be correct
-@WMajere  @n @Y(Nov 25)@n identifying a crystal will now change its desc to reflect its stats for easier crafting
-@WMajere  @n @Y(Nov 25)@n higher harvesting skills will yield more artisan experience
-@WMajere  @n @Y(Nov 25)@n added the @YHOUSE PERKS@n help file
-@WMajere  @n @Y(Nov 25)@n added new wood types to camp skill.  cheapest wood always used first
-@WMajere  @n @Y(Nov 25)@n increased base healing amount per tick slightly
-@WMajere  @n @Y(Nov 26)@n bounty hunter communication gems now sold at lakhur in palanthas for 500 quest points
-@WMajere  @n @Y(Nov 26)@n sorcerers and favored souls now select their spells during character creation.
-@WMajere  @n @Y(Nov 29)@n added two new quests to the mysterious old lady at palanthas centre square
-@WMajere  @n @Y(Nov 29)@n added boat between bethel island and palanthas at the palanthas docks
-@WMajere  @n @Y(Nov 30)@n added the training pits to palanthas, south of the gardens of the blue phoenix
-@WMajere  @n @Y(Nov 30)@n fixed a bug with prayer spell affect causing us to crash
-@WMajere  @n @Y(Nov 30)@n temporarily removed display of 'tank' hp during combat until I can fix the bug (causing too many crashes)
-@WMajere  @n @Y(Nov 30)@n added another quest to the main storyline (mysterious old lady in palanthas centre square)
-@WMajere  @n @Y(Nov 30)@n added scorching ray and flaming sphere spells
-@WMajere  @n @Y(Nov 30)@n fixed a bug that caused us to crash when using some commands at a quest master
-@WMajere  @n @Y(Nov 30)@n fixed a bug that was crashing us occasionally in combat
-@WMajere  @n @Y(Nov 30)@n added another quest to main storyline (old fisherman at bethel island docks)
-@WMajere  @n @Y(Nov 30)@n combined the hide and move silently skills into stealth.  surplus skill points spent on those skills are reimbursed
-@WMajere  @n @Y(Nov 30)@n combined the spot and listen skills into perception.  surplus skill points spent on those skills are reimbursed
-@WMajere  @n @Y(Nov 30)@n fixed a bug where we would crash when casting area spells on multiple foes sometimes in combat
-@WMajere  @n @Y(Dec  1)@n added two new quests to the old fisherman on the bethel island docks (lvl 5)
-@WMajere  @n @Y(Dec  1)@n added a few new 'find mob quests, to move the main quest line story along
-@WMajere  @n @Y(Dec  1)@n fixed the function thast locates players/mobs on the mud so that it targets players before mobs in the case that a player has a name that is also used in mob descriptions
-@WMajere  @n @Y(Dec  1)@n added code to enable all zones to reset as normal without having to edit every single zone.
-@WMajere  @n @Y(Dec  1)@n added 5 new quests at captain orluf in the palace (to the main quest line)
-@WMajere  @n @Y(Dec  2)@n updated the @Yhelp newbie@n file
-@WMajere  @n @Y(Dec  2)@n added some new information to the @Yscore@n
-@WMajere  @n @Y(Dec  2)@n removed spellcasting spam from mobs (though they are still casting the spells)
-@WMajere  @n @Y(Dec  2)@n added the ability to lore items where lore was previously failed upon at a higher difficulty
-@WMajere  @n @Y(Dec  2)@n reduced required artisan experience to level up and improve skills
-@WMajere  @n @Y(Dec  2)@n Added a new shop by the crafting halls in palanthas that sells essences for quest points and will also buy materials and crystals
-@WMajere  @n @Y(Dec  2)@n adjust mob ac based on class
-@WMajere  @n @Y(Dec  2)@n artisan exp now rewarded each pulse instead of only at the end
-@WMajere  @n @Y(Dec  2)@n Added a message to mob room description when they have fire shields (=less deaths for lowbies)
-@WMajere  @n @Y(Dec  6)@n fixed the portal spell
-@WMajere  @n @Y(Dec  6)@n you can now 'look in' portals to see the destination
-@WMajere  @n @Y(Dec  6)@n you may now cast summon monster spells (other summon spells and animal companions coming soon)
-@WMajere  @n @Y(Dec  6)@n added summon nature's ally i through ix (spell is called 'summon nature i', 'summon nature ii', etc)
-@WMajere  @n @Y(Dec  7)@n added help for wish
-@WMajere  @n @Y(Dec  7)@n fixed a bug with contain
-@WMajere  @n @Y(Dec  7)@n fixed a bug with area and 'loop' spells so that it won't kill mobs multiple times
-@WMajere  @n @Y(Dec  7)@n fixed a bug with summons that was causing a crash
-@WMajere  @n @Y(Dec  7)@n consolidated the exp gain messages into a single line.
-@WMajere  @n @Y(Dec  7)@n fixed a bug with tavern exp bonus that was applying it all the time.  For every tick you stay in a tavern, you get two ticks of the 10% exp bonus.  The taverns currently are palanthas centre square and the room in the inn of the platinum dragon where herald stands.  More will be added in days to come
-@WMajere  @n @Y(Dec  7)@n when fighting, spells affecting you will no only tick down on your turn
-@WMajere  @n @Y(Dec  7)@n Warning for rsay will now no longer show once you have more than 5000 rp points
-@WMajere  @n @Y(Dec  7)@n restored exact numbers in the STATS screen to give a better 'D&D' feel
-@WMajere  @n @Y(Dec  7)@n removed '&' as a color control character.  Now we can say D&D unfettered!
-@WGicker  @n @Y(Dec  8)@n added a quest to captain orluf closing out the accursed mages series of quests and offering an item reward for spellcasters
-@WGicker  @n @Y(Dec  8)@n added clan to whostring when you have the person's intro
-@WGicker  @n @Y(Dec  8)@n added immortal level/position to staff titles
-@WGicker  @n @Y(Dec  8)@n any item, once identified, will now be able to be lore'd by anyone
-@WGicker  @n @Y(Dec  8)@n removed some old color symbols using &
-@WGicker  @n @Y(Dec  8)@n added 6 new races.  2 +1 LA, 2 +2 LA, and 2 +3 LA.  More to come.  You must earn account experience to make characters with 
-+1 or greater LA (level adjustment).  You can currently earn account experience by doing good deeds around the mud, such as helping with the building (we're hiring!), helping new players, and so forth.  If Gicker is not around send a log of what you did to stephen.squires@@gmail.com and you will be rewarded next time he sees you.  Quest points will soon be able to be converted into account exp as well, likely at a 1:2 (qp:acc_exp) ratio
-@WGicker  @n @Y(Dec  8)@n adjusted lay on hands to use pathfinder rules
-@WGicker  @n @Y(Dec  8)@n edited the wizlist... looking pretty empty, anyone who is good with people or a creative and good writer want to help out?
-@WGicker  @n @Y(Dec  8)@n If so, type MAIL GICKER
-@WGicker  @n @Y(Dec  8)@n Changed text in score and stats for offense and defense to base attack bonus and armor class
-@WGicker  @n @Y(Dec  8)@n you will now see that you have armor classes with a decimal point.  I have changed the basics of combat from a d20 roll to a d200 roll to account for items that do not give full points of armor class.  Everything else remains unchaged as far as hit/miss probability goes
-@WGicker  @n @Y(Dec  8)@n added code to allow items to give you or improve your feats.  Not implemented yet for crafting
-@WGicker  @n @Y(Dec  8)@n you can now earn account experience from role playing :)
-@WGicker  @n @Y(Dec  9)@n added 3 new weapon types: fullblade, khopesh and elven curve blade.  pure elves receive elven curve blade proficiency by default.  Otherwise all 3 are exotic weapons
-@WGicker  @n @Y(Dec  9)@n added molds for new weapons to the weapon shop in palanthas
-@WGicker  @n @Y(Dec  9)@n adjusted amount of account exp to be gained when role playing to be based off of rp points received instead of exp (otherwise high level people would have gotten waaaay too much account exp from rping)
-@WGicker  @n @Y(Dec  9)@n made a fix in crafting system when comparing item level to crystal level
-@WGicker  @n @Y(Dec  9)@n incrementally reduced amount of regular experience gained while crafting/harvesting as you go up in level
-@WGicker  @n @Y(Dec  9)@n incrementally reduced amount of regular experience gained from role playing as you go up in level.  Amounts for levels under 10 have been increased, however
-@WGicker  @n @Y(Dec  9)@n Removed staff names from the who list (they can still currently be
-@WGicker  @n @Y(Dec  9)@n seen on the website).  Replaced with a message saying whether any staff are available
-@WGicker  @n @Y(Dec  9)@n or not.
-@WGicker  @n @Y(Dec  9)@n Added augment summoning feat and HELP AUGMENT SUMMONING
-@WGicker  @n @Y(Dec  9)@n added combat challenge feat, as well as improved, greater and epic versions of the
-@WGicker  @n @Y(Dec  9)@n feat.  Also added HELP COMBAT CHALLENGE
-@WGicker  @n @Y(Dec  9)@n Made the following feats only obtainable once: enhanced spell damage, faster
-@WGicker  @n @Y(Dec  9)@n memorization, enhance spell, empowered magic.  Allowing them to stack was unbalancing
-@WGicker  @n @Y(Dec  9)@n the game too much.
-@WGicker  @n @Y(Dec  9)@n added the petition command and HELP PETITION.  Please read the help file for more info.
-@WGicker  @n @Y(Dec  9)@n Removed the ability to send tells to staff members.  You may still reply if
-@WGicker  @n @Y(Dec  9)@n they send a tell to you.  Tells received by staff cannot be overridden by others, so you
-@WGicker  @n @Y(Dec  9)@n do not have to worry about not being able to reply to a staff member after someone else
-@WGicker  @n @Y(Dec  9)@n sends you a tell.  You may still receive tells in all situations as normal.  When you send a tell
-@WGicker  @n @Y(Dec  9)@n to someone other than the person on your reply placeholder, your reply placeholder will be switched
-@WGicker  @n @Y(Dec  9)@n to them.
-@WGicker  @n @Y(Dec  9)@n increased default # of lines seen on the news to 40
-@WGicker  @n @Y(Dec  9)@n added ring of 3 wishes at the magic shop (Vidgeous) in the academy
-@WGicker  @n @Y(Dec 10)@n Added a shop that sells stuff for houses.  It's Sera north and east of Lakhur in market square
-@WGicker  @n @Y(Dec 10)@n Made some updates to the website.  Separated classic age of dragons from our d20 age of dragons. http://www.ageofdragons.com
-@WGicker  @n @Y(Dec 10)@n changed the directory name of the forums to hide from the spam bots
-@WGicker  @n @Y(Dec 10)@n The ring of 3 wishes is currently not working.  If you have bought one, worry not, it will be fine once I get the code working right.
-@WGicker  @n @Y(Dec 10)@n changed name of death master to original pale master
-@WGicker  @n @Y(Dec 10)@n Changed crafting so that if you put an essence higher than the level of the crystal, it will just reduce the bonus on the item until it is within the level of the crystal
-@WGicker  @n @Y(Dec 10)@n changed crafting so that you can use multiple essences.  The bonus of the item will be based on the total level of all essences combined, limited by the level of the crystal.. Help file changes to come shortly
-@WGicker  @n @Y(Dec 10)@n Adjusted the stats on races.  All races have improved racial ability score modifiers now
-@WGicker  @n @Y(Dec 11)@n Captain Orluf is back where he's supposed to be
-@WGicker  @n @Y(Dec 11)@n Added spontaneous spellcasting for druids
-@WGicker  @n @Y(Dec 12)@n you can now gain artisan levels and skills anywhere on the mud
-@WGicker  @n @Y(Dec 12)@n adjusted the way artisan exp gains are displayed
-@WGicker  @n @Y(Dec 12)@n the only restriction on crafted item descs now is that it must contain the material type in its name
-@WGicker  @n @Y(Dec 13)@n added full functionality for feats and skills improvements on items including crystal drops with these properties
-@WGicker  @n @Y(Dec 13)@n fixed a bug where we would crash when someone was in OLC
-@WGicker  @n @Y(Dec 13)@n you will now gain level 1 feats for new classes when multiclassing & retroactively regain feats for levels you might have missed when you level up
-@WGicker  @n @Y(Dec 13)@n if you do not take a standard action in combat, you will do the total defense action now & gain +4 dodge ac until the beginning of your next turn or until combat ends
-@WGicker  @n @Y(Dec 13)@n error message added for when you try to attack after casting a spell or take another standard action
-@WGicker  @n @Y(Dec 13)@n when you flee both you and the mob will now exit combat (unless there's still people fighting the mob)
-@WGicker  @n @Y(Dec 13)@n You can now only intro using the intro command.  Saying your name will no longer cause intros
-@WGicker  @n @Y(Dec 14)@n Added some new quests to the main story line.  If you had completed them all before, you may pick up the new ones at Captain Orluf
-@WGicker  @n @Y(Dec 15)@n fixed bug that would crash us sometimes when a person landed a hit
-@WGicker  @n @Y(Dec 15)@n fixed bug that would crash us sometimes when a person landed a hit
-@WGicker  @n @Y(Dec 15)@n added in-game polls.  See poll command.
-@WGicker  @n @Y(Dec 15)@n fixed a bug in character creation that allowed a person to have unlimited stat points
-@WGicker  @n @Y(Dec 15)@n Added the bleeding attack and powerful sneak rogue class feats
-@WGicker  @n @Y(Dec 16)@n added khopesh, fullbade and curve blade to crafting items list
-@WGicker  @n @Y(Dec 16)@n fixed a bug with excessive artisan exp rewards from rp points
-@WGicker  @n @Y(Dec 16)@n fixed a bug where +LA races could gain unlimited levels just by relogging
-@WGicker  @n @Y(Dec 16)@n added text to listraces to specify which races are human
-@WGicker  @n @Y(Dec 17)@n have fixed several bugs over the past few days that were causing crashes
-@WGicker  @n @Y(Dec 17)@n added smite evil as per pathfinder rules
-@WGicker  @n @Y(Dec 17)@n bounty hunter gem back in the general goods shop for 250 qp, 5 minute timer on uses now
-@WGicker  @n @Y(Dec 17)@n increased exp reward for role playing significantly
-@WGicker  @n @Y(Dec 17)@n Modified the addnews command so it notifies everyone currently on the mud of the new news item
-@WGicker  @n @Y(Dec 17)@n adjusted exp rewards for role playing... were previously increased too much
-@WGicker  @n @Y(Dec 17)@n added a flanking bonus for hit bonus and sneak attacks
-@WGicker  @n @Y(Dec 17)@n Fixed a bug with autoattack that would sometimes cause a crash
-@WGicker  @n @Y(Dec 20)@n Added random treasure drops for misc wear slots
-@WGicker  @n @Y(Dec 20)@n added more stats to the website, also added character pages go to http://www.ageofdragons.com/d20/view-char.php?name=YourCapitalizedNameHere
-@WGicker  @n @Y(Dec 20)@n added gatherinfo command
-@WGicker  @n @Y(Dec 20)@n fixed a bug that occasionally caused a crash when harvesting
-@WGicker  @n @Y(Dec 21)@n gatherinfo command will now show personality and background information that is entered.  If you entered this info on the web site, but it's not showing go back into your edit character screen on the site, and click submit again where your background is
-@WGicker  @n @Y(Dec 21)@n entering background and personality info on the website will award your character with experience and account experience.  Those who abuse this by entering dummy text to try and get tonnes of will be deleted and banned.
-@WGicker  @n @Y(Dec 21)@n Added a code port.  Crashes and copyovers during development should be much less frequent now
-@WGicker  @n @Y(Dec 22)@n Attempted to fix a bug that caused us to crash while harvesting
-@WGicker  @n @Y(Dec 22)@n Fixed a bug where you could craft without using an essence and get maximum crystal bonus
-@WGicker  @n @Y(Dec 22)@n Items that give damage reduction feats now work correctly
-@WGicker  @n @Y(Dec 22)@n experience to level is now calculated correctly for advanced races
-@WGicker  @n @Y(Dec 22)@n Fixed a bug where top tier mining resources would only ever load an emerald
-@WGicker  @n @Y(Dec 22)@n Dragonhide armor and shields now give +1 to AC (+10 to the object apply mod)
-@WGicker  @n @Y(Dec 22)@n Reduced experience gains from entering background info on the website and increase account exp gained for same thing
-@WGicker  @n @Y(Dec 22)@n Removed the double exp gain bug in the harvesting process.
-@WGicker  @n @Y(Dec 22)@n You can no longer interrupt a current harvest/synth/disenchant/crafting sessions with another one
-@WGicker  @n @Y(Dec 23)@n fixed the crafting system: essences will now give the proper bonuses: minor +1, lesser +2, medium +3, greater +4, majpr +5
-@WGicker  @n @Y(Dec 23)@n You can combine essences to achieve higher bonuses: 1 major + 1 lesser = +5 + +2 = +7
-@WGicker  @n @Y(Dec 23)@n If you do not put enough crafting materials in the station it will tell you how many you are short
-@WGicker  @n @Y(Dec 23)@n you can now use the checkcraft at a crafting station to see what you will make before making it
-@WGicker  @n @Y(Dec 23)@n added the summon command for viewing your summoned creature stats
-@WGicker  @n @Y(Dec 23)@n made it so anytime the victim can't see you, you can sneak attack them
-@WGicker  @n @Y(Dec 24)@n 1.5x experience for Christmas Holidays
-@WGicker  @n @Y(Dec 24)@n fixed a bug that was causing crashes with summon spells in combat
-@WGicker  @n @Y(Dec 24)@n fixed prompts in combat so that tanks are shown correctly
-@WGicker  @n @Y(Dec 24)@n fixed spellcasting so that only arcane casters suffer arcane spell failure
-@WGicker  @n @Y(Dec 24)@n fixed a bug that allowed a summoned creature to kill a creature twice in combat
-@WGicker  @n @Y(Dec 24)@n fixed spontaneous spellcasting so you can cast violent spells out of combat when toggled on
-@WGicker  @n @Y(Dec 24)@n Summoned monsters now save over copyovers/reboots/quitting
-@WGicker  @n @Y(Dec 24)@n fixed a bug that would often crash us when a random misc item was rolled
-@WGicker  @n @Y(Dec 24)@n fixed summons.  They will now have proper hp and do proper damage
-@WGicker  @n @Y(Dec 29)@n You can now add additional effects to already enchanted crafted items
-@WGicker  @n @Y(Dec 29)@n Fixed Robilar's Gambit.  Now works correctly and should not crash us.
-@WGicker  @n @Y(Dec 29)@n fixed the crafting system so you cannot create an item unless a base mold is in the station
-@WGicker  @n @Y(Dec 29)@n Double weapons now should work as intended
-@WGicker  @n @Y(Dec 29)@n Mobs will now cast spells in combat and perform other combat maneuvers
-@WGicker  @n @Y(Dec 29)@n Fixed a number of bugs with monks and with double weapons
-@WGicker  @n @Y(Dec 29)@n You can now only auction off items that have been identified
-@WGicker  @n @Y(Dec 29)@n It no longer costs any item to use 'auction identify' command on an item that is being auction
-@WGicker  @n @Y(Dec 30)@n fixed a bug that was causing us to crash in combat related to mob spell affects ticking down
-@WGicker  @n @Y(Jan  1)@n spellcasters will now cast a much wider variety of spells.  be careful out there!
-@WGicker  @n @Y(Jan  1)@n Fixed a bug where being under the effect of a sleep spell will not wake you up when you are hit.  Now you will
-@WGicker  @n @Y(Jan  5)@n You can now use gift experience as currency if you wish.  See the new help file of gift-experience
-@WGicker  @n @Y(Jan  5)@n Added Eagle race for wildshape that will allow flight and high move speed.  Also increased move speed of cheetah form.
-@WGicker  @n @Y(Jan  5)@n When flying (either by having the wings feat, under the fly spell, or shapechanged to a flying race) your movement costs will be reduced
-@WGicker  @n @Y(Jan  5)@n Reduced party leader exp bonus.  Added bonuses for grouping with more people and for grouping with people of the same clan
-@WGicker  @n @Y(Jan  5)@n All new characters are now automatically entered into the adventurer's guild clan
-@WGicker  @n @Y(Jan  5)@n Epic level feats should now be awarded properly
-@WGicker  @n @Y(Jan  6)@n Added epic toughness and automatic quicken spell epic feats
-@WGicker  @n @Y(Jan  6)@n converted skill system to that which pathfinder uses
-@WGicker  @n @Y(Jan  6)@n Fixed situation where mob deaths happened multiple times with robilar's gambit and summons
-@WGicker  @n @Y(Jan  6)@n Gave Brayden a silly new title
-@WGicker  @n @Y(Jan  7)@n Fixed the bug with crashes from robilar's gambit
-@WGicker  @n @Y(Jan  7)@n added mounts to the game.  Use the mount and dismount commands to use them.  You can also mount most summons.
-@WGicker  @n @Y(Jan  7)@n Added a mount shop south and west of palanthas gates
-@WGicker  @n @Y(Jan  7)@n Added option for mounts and summons to tank, with option turned off by default.  Toggle with tanksummon and tankmount
-@WDran    @n @Y(Jan  7)@n The Wizards of High Sorcery have created Portals to Solace, Thelgaard, and Sanction, accessible from inside the Wizard Academy
-@WGicker  @n @Y(Jan  9)@n 1.5x Exp for the Holidays comes to an end
-@WGicker  @n @Y(Jan 10)@n Fixed heal amount on defensive stance
-@WGicker  @n @Y(Jan 10)@n Fixed class skills as per pathfinder rules
-@WGicker  @n @Y(Jan 10)@n Fixed +skill gear
-@WGicker  @n @Y(Jan 10)@n Fixed damage reduction display to include Armor Specialization & Adamantine Armor/Shield
-@WGicker  @n @Y(Jan 10)@n Fixed triceratops attack to add gore
-@WGicker  @n @Y(Jan 10)@n Added Exp TNL percent to group display
-@WGicker  @n @Y(Jan 10)@n Attempted a fix to prevent advanced races from gaining as many class levels as normal races
-@WGicker  @n @Y(Jan 10)@n fixed devote command showing (null) but you have to re-devote to fix yourself
-@WGicker  @n @Y(Jan 10)@n Converted the Elemental Plane of Fire.  Now it is level 24-26 including a final boss with very good level 26 gear
-@WGicker  @n @Y(Jan 11)@n Thelgaard Keep Converted to a level 20-24 Zone with several boss mobs and gear drops
-@WGicker  @n @Y(Jan 11)@n Added summon undead spell
-@WGicker  @n @Y(Jan 11)@n added ghouls, ghasts, mummies and mohrgs with their special attacks as well
-@WGicker  @n @Y(Jan 11)@n added attacks of opportunity against people who stand up in combat
-@WGicker  @n @Y(Jan 11)@n Fixed sorcerer & favored souls number of spells known
-@WGicker  @n @Y(Jan 11)@n favored souls and sorcerers will now have their spells known highlighted cyan in levelup screen
-@WGicker  @n @Y(Jan 11)@n Fixed the file corruption bug.  Uptimes expected to be much higher now
-@WGicker  @n @Y(Jan 12)@n Added Arcane Archer Prestige Class to the Game
-@WGicker  @n @Y(Jan 13)@n Fixed retreat bug
-@WGicker  @n @Y(Jan 13)@n modified arcane archers to use feats instead of class levels to determine bonuses to arrow damage (etc)
-@WGicker  @n @Y(Jan 13)@n Added arcane bonus levels to arcane archer
-@WGicker  @n @Y(Jan 13)@n Put in a fix so that you will wake up on the next time you take damage when put to sleep in combat
-@WGicker  @n @Y(Jan 13)@n Removed regular experience gains from harvesting and crafting
-@WGicker  @n @Y(Jan 13)@n Added an experience cost based on the level of the item being created for crafting equipment.  This was done to discourage the mass equipping of lower level characters with advanced gear (from crafting feats) without asking for anything in return.  The cost is about 0.5% TNL per level of the item being created
-@WGicker  @n @Y(Jan 13)@n Reduced EXP cost for crafting from 0.5% per level to 0.2% per level
-@WGicker  @n @Y(Jan 14)@n Whenever targetting anything color is now removed from the keywords
-@WDran    @n @Y(Jan 14)@n Lord Soth is back in charge of Dargaard Keep
-@WGicker  @n @Y(Jan 14)@n Exp loss for disenchanting removed
-@WGicker  @n @Y(Jan 14)@n Added divine bond for paladins
-@WGicker  @n @Y(Jan 14)@n Added potions of learning for sale at the magic shop (increase artisan and regular exp gains)
-@WGicker  @n @Y(Jan 14)@n Fixed a bug with max skill rank
-@WGicker  @n @Y(Jan 14)@n Max number of items in containers saved increased to 10,000 per contianer
-@WGicker  @n @Y(Jan 14)@n Fixed a bug in combat when initiating combat sometimes causs followers to assist the mob
-@WGicker  @n @Y(Jan 14)@n Added CMB and CMD to score
-@WGicker  @n @Y(Jan 14)@n Fixed a number of feats that weren't adding properly to their respective stats including Damage Reduction, Great Strength, Dexterity, etc, and more.
-@WGicker  @n @Y(Jan 18)@n Maximum Level Increased to 40
-@WGicker  @n @Y(Jan 18)@n Removed exp cost from crafting and replaced with gold cost
-@WGicker  @n @Y(Jan 18)@n Added more synth'able items to all harvesting skills, petrified wood and fossils
-@WGicker  @n @Y(Jan 18)@n Increased amount items sell for by 4x
-@WGicker  @n @Y(Jan 18)@n Added normal exp gains back to crafting
-@WGicker  @n @Y(Jan 18)@n Converted cost of potions of learning to gold instead of quest points
-@WGicker  @n @Y(Jan 18)@n Fixed not being able to put dodge on boots
-@WGicker  @n @Y(Jan 18)@n Fixed Stoneskin, Greater Stoneskin and Premonition
-@WGicker  @n @Y(Jan 18)@n Attempted to fix bounty exp
-@WGicker  @n @Y(Jan 18)@n Attempted to fix fast healing
-@WGicker  @n @Y(Jan 19)@n Adjusted metamagic point system to greatly reduce cost of using them
-@WGicker  @n @Y(Jan 19)@n Added Empower spell and quicken spell metamagic feats
-@WGicker  @n @Y(Jan 19)@n Increase max healing on mass heal spell to 250
-@WGicker  @n @Y(Jan 19)@n kick uses a move action and can only be used on your turn.  It is countered with an AOO with spring attack
-@WGicker  @n @Y(Jan 19)@n Added intensify spell metamagic feat
-@WGicker  @n @Y(Jan 19)@n added maximize and intensify spell effects for healing and move regen spells
-@WGicker  @n @Y(Jan 19)@n You can no longer attack group members and can only attack non grouped players using the murder command
-@WGicker  @n @Y(Jan 19)@n Re-Converted Forces of Whitestone Camp.  Now has several lieutenants, Captains, Bosses and a Final Boss with level 12-16ish gear
-@WGicker  @n @Y(Jan 19)@n attempted to fix starting distance between players and mobs
-@WGicker  @n @Y(Jan 19)@n Fixed a number of combat actions that did not check for distance to victim
-@WGicker  @n @Y(Jan 19)@n added whirlwind attack
-@WGicker  @n @Y(Jan 19)@n fixed the function to check for range before allowing an attack
-@WGicker  @n @Y(Jan 19)@n Added penalties to hit for range increments
-@WGicker  @n @Y(Jan 19)@n Added a mount summary screen by typing mount by itself
-@WGicker  @n @Y(Jan 19)@n fixed the bug wherein your mount would die if tanking in one hit.  You need to call a new mount for this to be fixed.
-@WGicker  @n @Y(Jan 20)@n Changed colors of rsay and newbie channels
-@WGicker  @n @Y(Jan 20)@n Adjusted rp point rewards to be much better
-@WGicker  @n @Y(Jan 20)@n artisan exp gains now go by the same bonus system as regular exp gains
-@WGicker  @n @Y(Jan 20)@n changed the output for gold gains from bounties and treasure
-@WGicker  @n @Y(Jan 20)@n Added rpgsay and rgsay commands.  You can gain rp points and exp with these commands just like rsay
-@WGicker  @n @Y(Jan 20)@n Added bonuses for paladin's mount
-@WGicker  @n @Y(Jan 20)@n updated help rules evil.  Please read it if you play an evil character or role play with them regularly
-@WGicker  @n @Y(Jan 20)@n Converted the Palanthas Thieves Guild to d20 rules
-@WDran    @n @Y(Jan 20)@n Wenfyr Mansion also converted for your pleasure.
-@WGicker  @n @Y(Jan 26)@n Added Dragon Knight epic spell and the following feats: extra sneak attack, sneak attack of opportunity, opportunist, steadfast determination
-@WGicker  @n @Y(Jan 26)@n Adjusted the @YHELP RULES EVIL@n help file again.
-@WGicker  @n @Y(Jan 26)@n Removed restriction on sneak attack that made it fail sometimes when it should have worked
-@WGicker  @n @Y(Jan 26)@n adjusted improved sneak attack to +5% per rank to get a sneak attack on a regular attack
-@WGicker  @n @Y(Jan 26)@n Summons and Mounts will now attack whether you do or not on your turn in combat
-@WGicker  @n @Y(Jan 26)@n You may take unlimited classes and prestige classes (instead of previous limit of 4)
-@WGicker  @n @Y(Jan 26)@n Fixed synthesizing so that it adds the level of the synth'd item to your alchemy skill when determining level of the crystal made
-@WGicker  @n @Y(Jan 26)@n Added restring command for restring any item at a crafting station
-@WGicker  @n @Y(Jan 26)@n Fixed and improved cwho command (clan who)
-@WGicker  @n @Y(Jan 26)@n Restrings and Resizes no longer require a crystal
-@WGicker  @n @Y(Jan 27)@n Added the following epic feats: epic prowess, swarm of arrows, self concealment
-@WGicker  @n @Y(Jan 27)@n added command whirlwind for whirlwind attack
-@WGicker  @n @Y(Jan 27)@n added command swarmofarrows for swarm of arrows
-@WGicker  @n @Y(Jan 27)@n You must now purchase access to advanced races and prestige classes using account experience and the accexp command
-@WGicker  @n @Y(Jan 27)@n You will no longer be able to advance as characters with prestige classes and advanced races until you have purchased the race/class with account exp
-@WGicker  @n @Y(Jan 27)@n restring command is fixed and working properlky
-@WGicker  @n @Y(Jan 28)@n Updated @YHELP ACCOUNT EXPERIENCE@n
-@WGicker  @n @Y(Feb 11)@n Added a tank command and AFF_TANKING flag for mobs that will make them automatically tank against anything in the room grouped with them.  To come soon, phasing out improved, greater and epic combat challenge, reimbursing feats for them, and typing tank command to combat challenge feat
-@WGicker  @n @Y(Feb 11)@n clarification:  with tank toggled on, you will tank anything that attacks a group member in the same room as you
-@WGicker  @n @Y(Feb 15)@n Added two more small quests to the main quest line, starting at Jeg, more to come
-@WGicker  @n @Y(Feb 15)@n Added the augment command and the @YHELP AUGMENT@n help file
-@WGicker  @n @Y(Feb 17)@n Added a new crystal type called CARRY_WEIGHT that increases strength for purposes of weight allowance only
-@WGicker  @n @Y(Feb 17)@n Added Fast Crafter Artisan Exp Bonus
-@WGicker  @n @Y(Feb 17)@n Adjusted feats command description for self concealment
-@WGicker  @n @Y(Feb 17)@n Increased max range on portal, teleport and track
-@WSaranya @n @Y(Mar  1)@n We up!  :D
-@WGicker  @n @Y(Mar  9)@n @YHELP RULES@n and it's contents have been updated.  Please re-read all of the help files under @YHELP RULES@n again to refamiliarize yourself with new rule wording and its implications
-@WGicker  @n @Y(Mar  9)@n Extended the @YDATE@n command to mortals
-@WGicker  @n @Y(Mar  9)@n @YHELP QUALINESTI ELF@n complete
-@WGicker  @n @Y(Mar  9)@n @YHELP RACES@n updated
-@WGicker  @n @Y(Mar  9)@n Removed the housing district of Palanthas and the housing item store in Palanthas for the time being.
-@WGicker  @n @Y(Mar 25)@n Consolidated crafting skills into 3 groups: smith, farmer & woodsman
-@WGicker  @n @Y(Mar 25)@n Modified the copyover message
-@WGicker  @n @Y(Mar 25)@n Changed name of alchemy skill to crafting theory
-@WGicker  @n @Y(Mar 25)@n Revamped the guild list (see listguilds) with actual guild benefits coming in the next week or so
-@WGicker  @n @Y(Mar 25)@n you can now either reroll your height and weight or manually set them using the @Yrerollheightandweight@n, @Ysetheight@n and @Ysetweight@n commands
-@WGicker  @n @Y(Mar 25)@n upgraded the forums and installed new theme and security measures
-@WGicker  @n @Y(Mar 31)@n Fixed a bug where the mud would crash upon a new character gaining artisan exp
-@WGicker  @n @Y(Mar 31)@n Players will now have their artisan experience reimbursed every time they enter the game until they choose an artisan profession
-@WGicker  @n @Y(Mar 31)@n added the admin command resetartisanexp which will reset the artisan experience of the person in question
-@WGicker  @n @Y(Apr  4)@n halved the damage bonus from improved weapon finesse to dex mod / 2 instead of dex mod
-@WGicker  @n @Y(Apr  4)@n capped the ac bonus from dexterity to a max bonus of +9 to prevent all-in-one characters based on dex builds, to reestablish heavy armor users as the tanks, and to reestablish the usefulness of various types of light and medium armor
-@WGicker  @n @Y(Apr  4)@n increased artisan experience required for levelling artisan skills and class to coincide with new artisan system changes
-@WGicker  @n @Y(Apr  4)@n added the supply order system for levelling up artisan skills and class.  See Blasia beside Gholus in the basement of the Platinum Dragon Inn in Palanthas
-@WGicker  @n @Y(Apr  4)@n reduced time to harvest materials from 30 to 10 seconds and removed exp gains from harvesting
-@WGicker  @n @Y(Apr  4)@n removed regular exp gains from crafting with a large lump sum exp gain upon completion.  artisan exp gains still occur throughout
-@WGicker  @n @Y(Apr  4)@n all crafts now require 5 materials to craft and take a base time of 15 10 second ticks to complete.  The time to complete can be reduced by the fast crafter feat and the amount of materials required can be reduced by the elven crafting feat, both obtained by levelling up the artisan class
-@WGicker  @n @Y(Apr  4)@n reminding players of the craftingbrief command which will block all crafting output except for the start and finish messages
-@WGicker  @n @Y(Apr  4)@n Raised max level to 50, new high level zones in the works to compensate
-@WGicker  @n @Y(Apr  5)@n Using more valuable materials on your supply orders will now result in higher gold payouts at the end
-@WGicker  @n @Y(Apr  6)@n last command enhanced for staff members.  Now shows last 10 connections when no argument is supplied
-@WGicker  @n @Y(Apr  6)@n changed the name of staff ranks
-@WGicker  @n @Y(Apr  6)@n updated the wizlist
-@WGicker  @n @Y(Apr  6)@n Web site design and layout has been upgraded
-@WGicker  @n @Y(Apr  8)@n Added a mold vendor at the crafting hall in Palanthas
-@WGicker  @n @Y(Apr  8)@n Mortals can now see visible staff members online in the who list (petition system still required to request assistance)
-@WGicker  @n @Y(Apr  8)@n Have decided to reinstate houses and debug current system.  All those who previously owned a home you have it back now including all contents.  Those who wish to buy a home contact Dran or Gicker.  If you somehow lose your house contents, please contact Gicker.
-@WGicker  @n @Y(Apr 11)@n added the classabilities command.  type class <classname> and it will list every ability they get up to max level (or 20 for prestige classes)
-@WGicker  @n @Y(Apr 11)@n Slowed down speed of combat
-@WGicker  @n @Y(Apr 11)@n Fixed a bug where the mud would crash when an imm stats a character with damage reduction
-@WGicker  @n @Y(Apr 12)@n Added player shops, help files coming shortly, shops are located on the east side of Palanthas.  Use the shop command to interact with them
-@WGicker  @n @Y(Apr 12)@n Added @YHELP PLAYER-SHOPS@n and updated @YHELP SHOPS@n
-@WGicker  @n @Y(Apr 12)@n Added @YHELP COPYOVER@n
-@WGicker  @n @Y(Apr 12)@n Added HELP FAVORED SOUL
-@WGicker  @n @Y(Apr 12)@n fixed color codes in the following class help files: BARBARIAN, BARD, CLERIC, FIGHTER, MONK, PALADIN, RANGER, ROGUE, WIZARD, SORCERER, DRUID
-@WGicker  @n @Y(Apr 12)@n Adjusted pet attacks so that their hit frequency is more balanced with their level
-@WGicker  @n @Y(Apr 12)@n Added support for help files in levelup screens
-@WGicker  @n @Y(Apr 12)@n reduced the rate at which random treasure is generated
-@WGicker  @n @Y(Apr 13)@n Added @YHELP MAP@n
-@WGicker  @n @Y(Apr 14)@n All weapon specific feats now count for any weapon with that damage type.  Ie. weapon focus bastard sword gives weapon focus in all slashing weapons
-@WGicker  @n @Y(Apr 14)@n All accounts with characters over level 6 must now enter their email address the first time they enter the game on that account
-@WGicker  @n @Y(Apr 14)@n The guildexp, guildscore and guildbonuses commands entered.  Guild bonuses entered for devotionists guild
-@WGicker  @n @Y(Apr 14)@n made boss mobs significantly harder
-@WGicker  @n @Y(Apr 14)@n reduced gold and treasure drops for boss mobs
-@WGicker  @n @Y(Apr 14)@n level 1 no longer get x4 skill points to start off (pathfinder rules)
-@WGicker  @n @Y(Apr 15)@n added long descriptions (for when you look at someone) in the main game menu
-@WGicker  @n @Y(Apr 15)@n adjusted wild shape to coincide with pathfinder rules
-@WGicker  @n @Y(Apr 15)@n added some new wild shape forms
-@WGicker  @n @Y(Jul 14)@n Added help class knight of solamnia
-@WGicker  @n @Y(Jul 14)@n added option to return to account menu in main game menu
-@WGicker  @n @Y(Jul 14)@n Added character details for qualifying characters in account menu
-@WGicker  @n @Y(Jul 14)@n fixed immortal switch command
-@WGicker  @n @Y(Jul 14)@n Made updates to web forums at http://www.d20mud.com/d20/forum/
-@WGicker  @n @Y(Jul 14)@n physical descriptions now save on the web site 'view characters' link
-@WGicker  @n @Y(Jul 14)@n You will now see people who are levelling or setting character descs in the who list
-@WGicker  @n @Y(Jul 14)@n correction added help class knight of the crown (not knights of solamnia)
-@WTristero@n @Y(Jul 14)@n added help supply orders
-@WGicker  @n @Y(Jul 14)@n Added addendum to help rules evil
-@WTristero@n @Y(Jul 14)@n Added help class abilities wings
-@WTristero@n @Y(Jul 18)@n Added help skill mining
-@WTristero@n @Y(Jul 23)@n Added help skill blacksmithing
-@WTristero@n @Y(Jul 23)@n Added help skill goldsmithing
-@WTristero@n @Y(Jul 26)@n Added help skill woodworking
-@WTristero@n @Y(Jul 26)@n Added help skill foresting
-@WGicker  @n @Y(Jul 26)@n HELP RULES TITLES amended (see last paragraph) 
-@WTristero@n @Y(Jul 26)@n Updated help player housing
-@WGicker  @n @Y(Jul 29)@n fixed bugs regarding unlocked prestige classes and exotic weapon proficiencies... see bug board
-@WGicker  @n @Y(Jul 29)@n Added @G[Rare]@n, 1214+1[Legendary]@n and @M[Mythical]@n items to the random treasure system, which will allow you to find better than average gear on lucky equipment drops
-@WGicker  @n @Y(Jul 29)@n Type note read 84 to read about the latest changes to the random treasure system
 @WTristero@n @Y(Aug  3)@n added help camp
 @WGicker  @n @Y(Aug  3)@n lowered the max level to 40 until we can create content for higher levels
 @WTristero@n @Y(Aug  3)@n Added help pilfer
@@ -763,3 +143,68 @@ Majere   (Nov 17) [    0] attempted to fix bugs about mobs dying but not leaving
 @WGicker  @n @Y(Jun  9)@n fixed the two weapon fighting penalties (note you do need two weapon fighting and ambidexterity)
 @WGicker  @n @Y(Jun  9)@n fixed randomly spawning chests.,  You can now open/pick/unlock them
 @WGicker  @n @Y(Jun  9)@n Fixed the orphans here on dragonlance port. command is "send"
+@WRayal   @n @Y(Mar 17)@n Test
+@WRayal   @n @Y( Mar-17-2015)@n More testing.
+@WRayal   @n @Y(Mar-31-2015)@n Removed the following Feats: Agile, Diligent, Investigator, Negotiator, Nimble Fingers
+@WRayal   @n @Y(Mar-31-2015)@n Updated the code for keeping track of difference versions.
+@WRayal   @n @Y(Mar-31-2015)@n Updated to the latest KaVir protocol code.
+@WRayal   @n @Y(Mar-31-2015)@n Removed dragonlance races as part of getting rid of them.
+@WRayal   @n @Y(Mar-31-2015)@n Removed FR nonhuman race deities.  Causing a buffer overflow.
+@WRayal   @n @Y(Mar-31-2015)@n Updated depreciated code in some areas.
+@WRayal   @n @Y(Mar-31-2015)@n Put in temporary fix due to bug in account command.
+@WRayal   @n @Y(Mar-31-2015)@n Fixed problem in account concerning e-mails (Thanks to Gicker).
+@WRayal   @n @Y(Apr-14-2015)@n Fixed hard-coded campaign specific money.
+@WRayal   @n @Y(Apr-14-2015)@n Removed a lot of unused code aka code cleanup
+@WRayal   @n @Y(Apr-14-2015)@n Work done on modularizing code for deities.
+@WRayal   @n @Y(Apr-14-2015)@n (Belated) Made languages PF compliant
+@WRayal   @n @Y(Apr-14-2015)@n Hide and Move Silently converted to Stealth as a skill.
+@WRayal   @n @Y(Apr-14-2015)@n Stealthy feat changed to PF version (escape artist and stealth).
+@WRayal   @n @Y(Apr-14-2015)@n Spot, Search, Listen replaced with Perception skill.
+@WRayal   @n @Y(Apr-14-2015)@n Alertness is changed to PF version.
+@WRayal   @n @Y(Apr-14-2015)@n Replaced Balance and Tumble with Acrobatics to be PF compliant.
+@WRayal   @n @Y(Apr-15-2015)@n Work done on modularizing languages and expanding them.
+@WRayal   @n @Y(Apr-15-2015)@n Added Handle Animal to skills available to barbarian.
+@WRayal   @n @Y(Apr-15-2015)@n Expanded weapon familiarity for dwarfs, improved bonus vs. trip.
+@WRayal   @n @Y(Apr-16-2015)@n Minor adjustments made to half-elfs
+@WRayal   @n @Y(Apr-16-2015)@n Halflings now move slower like they should.
+@WRayal   @n @Y(Apr-16-2015)@n Work has begun on moving races around.  Some moved to NPC status for now.
+@WRayal   @n @Y(Apr-16-2015)@n Gnomes now get their bonus vs. illusions.
+@WRayal   @n @Y(Apr-16-2015)@n Elves now get their bonus to spell resistance checks.
+@WRayal   @n @Y(Apr-22-2015)@n Code now properly saving to mySQL database.
+@WRayal   @n @Y(Apr-22-2015)@n Brought races down to core PF races.  Let the games begin!
+@WRayal   @n @Y(Apr-22-2015)@n Truncated misc/news file so it would stop giving an error message in syslog.
+@WRayal   @n @Y(May-04-2015)@n Fixed some bugs in the skills commands.  Now properly shows some things
+@WRayal   @n @Y(May-06-2015)@n Halfling now getting the +1 bonus to all saves.
+@WRayal   @n @Y(May-06-2015)@n Halfling now get +2 vs. Fear.
+@WRayal   @n @Y(May-06-2015)@n Halflings now have keen senses and sure-footed.
+@WRayal   @n @Y(May-06-2015)@n Halflings now proficient with slings.  Halflings complete!
+@WRayal   @n @Y(May-06-2015)@n Gnome spellcasters now have +1dc to illusion spells.
+@WRayal   @n @Y(May-06-2015)@n Gnomes now have low-light vision.
+@WRayal   @n @Y(May-06-2015)@n Half-Orcs now have Darkvision.
+@WRayal   @n @Y(May-06-2015)@n Defensive training added for Dwarves and Gnomes.
+@WRayal   @n @Y(May-07-2015)@n Elven Magic trait finished.  Elves now PF compliant.
+@WRayal   @n @Y(May-14-2015)@n New showcombat command breaks down many bonuses.
+@WRayal   @n @Y(May-19-2015)@n Dwarves and Gnomes now get their hatred bonuses.
+@WRayal   @n @Y(May-19-2015)@n (Belated) Skills now breaks down the bonuses better.  Not quite finished.
+@WRayal   @n @Y(May-19-2015)@n Skills revisions.  USE_ROPE gone.  OPEN_LOCKS replaced with disable device.
+@WRayal   @n @Y(May-19-2015)@n Deft Hands now gives bonus to disable device instead of use rope.
+@WRayal   @n @Y(May-19-2015)@n Removed unused pilot skill.  Ride replaces it.
+@WRayal   @n @Y(May-19-2015)@n Athlethics is gone as is the feat of the same name.
+@WRayal   @n @Y(May-19-2015)@n Gather Information folded into Diplomacy.
+@WRayal   @n @Y(May-20-2015)@n A bunch of skill fixes/modifications.
+@WRayal   @n @Y(May-20-2015)@n Minor clarification of feat descriptions.
+@WRayal   @n @Y(May-20-2015)@n Clerics now are proficient in their deity's favored weapon.
+@WRayal   @n @Y(May-20-2015)@n Spell Focus and Greater Spell Focus now give proper DC bonus.
+@WRayal   @n @Y(May-20-2015)@n Druid's nature sense now adds bonus to survival.
+@WRayal   @n @Y(May-20-2015)@n Trapfinding now mostly works.  Gives bonus to disable device.
+@WRayal   @n @Y(May-22-2015)@n Fixed Trapfinding and added description.
+@WRayal   @n @Y(Jun-16-2015)@n Cleaned up FR deities.
+@WRayal   @n @Y(Jun-25-2015)@n Lots of backend code cleanup.
+@WRayal   @n @Y(Jun-26-2015)@n Added ability to use tables in the code.  Future applications cool.
+@WRayal   @n @Y(Jun-26-2015)@n Minor work on Makefile.  Backend stuff
+@WRayal   @n @Y(Jun-29-2015)@n More backend work on Makefile.
+@WRayal   @n @Y(Jun-29-2015)@n Corrected log message on an error.
+@WRayal   @n @Y(Jun-29-2015)@n Improved pronoun usage.
+@WRayal   @n @Y(Jun-29-2015)@n Fixed a bunch of backend warnings.
+@WRayal   @n @Y(Jul-02-2015)@n Fixed new players with improper quest settings.
+@WRayal   @n @Y(Jul-02-2015)@n added toupper to dg scripts.
