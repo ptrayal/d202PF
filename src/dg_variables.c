@@ -163,14 +163,18 @@ int char_has_item(char *item, struct char_data *ch)
     return 1;
 }
 
-int text_processed(char *field, char *subfield, struct trig_var_data *vd,
-                   char *str, size_t slen)
+int text_processed(char *field, char *subfield, struct trig_var_data *vd, char *str, size_t slen)
 {
   char *p, *p2;
   char tmpvar[MAX_STRING_LENGTH];
 
   if (!str_cmp(field, "strlen")) {                     /* strlen    */
     snprintf(str, slen, "%d", (int)strlen(vd->value));
+    return TRUE;
+  } else if (!str_cmp(field, "toupper")) {             /* toupper   */
+    char *upper = vd->value;
+    if (*upper)
+      snprintf(str, slen, "%c%s", UPPER(*upper), upper + 1);
     return TRUE;
   } else if (!str_cmp(field, "trim")) {                /* trim      */
     /* trim whitespace from ends */
