@@ -3953,7 +3953,7 @@ void init_char(struct char_data *ch)
 
   GET_NUM_QUESTS(ch) = 0;
   ch->player_specials->completed_quests = NULL;
-  GET_QUEST(ch) = -1;
+  GET_QUEST(ch) = NOTHING;
 
   ch->time.birth = time(0) - birth_age(ch);
   ch->time.logon = ch->time.created = time(0);
