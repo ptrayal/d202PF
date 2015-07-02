@@ -7,6 +7,8 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
+#ifndef COMM_H_
+#define COMM_H_
 
 #define NUM_RESERVED_DESCS	8
 #define COPYOVER_FILE "copyover.dat"
@@ -52,4 +54,6 @@ void   show_help(struct descriptor_data *t, const char *entry);
 
 /* variables */
 extern unsigned long pulse;
+
+#endif
 

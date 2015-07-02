@@ -1,7 +1,8 @@
 /* Copywright 2007 Stephen Squires */
 
 // Functions and constants in char_descs.c
-
+#ifndef CHAR_DESCS_H_
+#define CHAR_DESCS_H_
 
 // Feature types that can be chosen from
 
@@ -25,3 +26,6 @@
 #define NUM_HAIR_DESCRIPTORS           55
 #define NUM_BUILD_DESCRIPTORS          27
 #define NUM_COMPLEXION_DESCRIPTORS     14
+
+#endif
+

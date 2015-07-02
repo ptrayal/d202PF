@@ -6,8 +6,8 @@
  * 1999 MAY 07 gdavis/azrael@laker.net Initial implementation.         *
  * ******************************************************************** */
 
-#if !defined( __ASSEMBLIES_H__ )
-#define __ASSEMBLIES_H__
+#ifndef ASSEMBLIES_H_
+#define ASSEMBLIES_H_
 
 /* ******************************************************************** *
  * Preprocessor constants.                                             *
@@ -89,4 +89,3 @@ ASSEMBLY*      assemblyGetAssemblyPtr( long lVnum );
 /* ******************************************************************** */
 
 #endif
-

@@ -1,3 +1,5 @@
+#ifndef DEITIES_H_
+#define DEITIES_H_
 
 #define DEITY_NONE			0
 
@@ -124,3 +126,4 @@
 
 extern struct deity_info deity_list[NUM_DEITIES];
 
+#endif

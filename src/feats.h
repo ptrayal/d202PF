@@ -6,6 +6,8 @@
 **                                                                    **
 ***********************************************************************/
 
+#ifndef FEATS_H_
+#define FEATS_H_
 
 
 /* Functions defined in feats.c */
@@ -375,3 +377,5 @@ extern struct feat_info feat_list[];
 #define FEAT_FINANCIAL_EXPERT 364
 #define FEAT_THEORY_TO_PRACTICE 365
 #define FEAT_RUTHLESS_NEGOTIATOR 366
+
+#endif

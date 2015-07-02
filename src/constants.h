@@ -1,3 +1,6 @@
+#ifndef CONSTANTS_H_
+#define CONSTANTS_H_
+
 extern const char *circlemud_version;
 extern const char *oasisolc_version;
 extern const char *ascii_pfiles_version;
@@ -50,3 +53,5 @@ extern const char *spell_schools[];
 extern const char *cchoice_names[];
 extern const char *dr_style_names[];
 extern const char *creation_methods[];
+
+#endif
