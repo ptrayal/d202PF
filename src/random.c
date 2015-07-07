@@ -5,7 +5,6 @@
 
 #include "conf.h"
 #include "sysdep.h"
-SVNHEADER("$Id: random.c 55 2009-03-20 17:58:56Z pladow $");
 
 /*
  * I am bothered by the non-portablility of 'rand' and 'random' -- rand

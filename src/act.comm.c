@@ -11,8 +11,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: act.comm.c 57 2009-03-24 00:15:02Z gicker $");
-
 #include "mysql/mysql.h"
 #include "structs.h"
 #include "feats.h"

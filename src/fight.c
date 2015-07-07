@@ -28,8 +28,6 @@
 #include "player_guilds.h"
 #include "dg_event.h"
 
-SVNHEADER("$Id: fight.c 57 2009-03-24 00:15:02Z gicker $");
-
 /* Structures */
 struct char_data *combat_list = NULL;	/* head of l-list of fighting chars */
 struct char_data *next_combat_list = NULL;

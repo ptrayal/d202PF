@@ -23,9 +23,6 @@
 #include "screen.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_scripts.c 55 2009-03-20 17:58:56Z pladow $");
- 
-
 #define PULSES_PER_MUD_HOUR     (SECS_PER_MUD_HOUR*PASSES_PER_SEC)
 
 

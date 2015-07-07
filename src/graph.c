@@ -11,8 +11,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: graph.c 65 2009-04-01 13:06:57Z gicker $");
-
 #include "structs.h"
 #include "utils.h"
 #include "comm.h"

@@ -35,8 +35,6 @@ Priest - pray
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: memorization.c 55 2009-03-20 17:58:56Z pladow $");
-
 #include "structs.h"
 #include "feats.h"
 #include "utils.h"

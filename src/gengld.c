@@ -15,9 +15,6 @@
 #include "gengld.h"
 #include "genzon.h"
 
-SVNHEADER("$Id: gengld.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 extern struct index_data *mob_index;
 extern struct index_data *obj_index;
 extern struct guild_data *guild_index;

@@ -90,8 +90,6 @@
 #if 0
 #include "includes.h"
 
-SVNHEADER("$Id: bsd-snprintf.c 55 2009-03-20 17:58:56Z pladow $");
-
 RCSID("$Id: bsd-snprintf.c 55 2009-03-20 17:58:56Z pladow $");
 #else
 # include "conf.h"

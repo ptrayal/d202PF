@@ -17,9 +17,6 @@
 #include "dg_olc.h"
 #include "htree.h"
 
-SVNHEADER("$Id: genobj.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 static int copy_object_main(struct obj_data *to, struct obj_data *from, int free_object);
 
 extern struct obj_data *obj_proto;

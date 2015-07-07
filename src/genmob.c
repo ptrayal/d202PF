@@ -18,9 +18,6 @@
 #include "htree.h"
 #include "feats.h"
 
-SVNHEADER("$Id: genmob.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 /* From db.c */
 void init_mobile_skills(void);
 

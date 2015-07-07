@@ -14,8 +14,6 @@
 #include "sysdep.h"
 #include "mysql/mysql.h"
 
-SVNHEADER("$Id: db.c 60 2009-03-25 06:38:01Z pladow $");
-
 #include "structs.h"
 #include "utils.h"
 #include "db.h"

@@ -7,8 +7,6 @@ improved-edit.c		Routines specific to the improved editor.
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: improved-edit.c 55 2009-03-20 17:58:56Z pladow $");
-
 #include "structs.h"
 #include "utils.h"
 #include "db.h"

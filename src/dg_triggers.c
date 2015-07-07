@@ -27,9 +27,6 @@
 #include "oasis.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_triggers.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 extern const char *cmd_door[];
 extern struct time_info_data time_info;
 

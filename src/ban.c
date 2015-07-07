@@ -11,8 +11,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: ban.c 60 2009-03-25 06:38:01Z pladow $");
-
 #include "structs.h"
 #include "utils.h"
 #include "comm.h"

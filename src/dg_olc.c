@@ -24,9 +24,6 @@
 #include "dg_olc.h"
 #include "dg_event.h"
 
-SVNHEADER("$Id: dg_olc.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 /* external functions */
 extern const char *trig_types[], *otrig_types[], *wtrig_types[];
 zone_rnum real_zone_by_thing(room_vnum vznum);

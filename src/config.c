@@ -19,8 +19,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: config.c 55 2009-03-20 17:58:56Z pladow $");
-
 #include "structs.h"
 #include "interpreter.h"	/* alias_data definition for structs.h */
 

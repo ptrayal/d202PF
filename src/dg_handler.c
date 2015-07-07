@@ -25,9 +25,6 @@
 #include "dg_event.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_handler.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 /* frees memory associated with var */
 void free_var_el(struct trig_var_data *var)
 {

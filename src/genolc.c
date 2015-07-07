@@ -27,9 +27,6 @@
 #include "guild.h"
 #include "quest.h"
 
-SVNHEADER("$Id: genolc.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 extern struct zone_data *zone_table;
 extern zone_rnum top_of_zone_table;
 extern struct room_data *world;

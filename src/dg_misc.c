@@ -21,9 +21,6 @@
 #include "spells.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_misc.c 55 2009-03-20 17:58:56Z pladow $");
- 
-
 void die(struct char_data *ch, struct char_data * killer);
 
 /* external vars */

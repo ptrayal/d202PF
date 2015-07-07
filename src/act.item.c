@@ -11,8 +11,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: act.item.c 62 2009-03-25 23:06:34Z gicker $");
-
 #include "structs.h"
 #include "feats.h"
 #include "deities.h"

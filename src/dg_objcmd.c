@@ -21,9 +21,6 @@
 #include "db.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_objcmd.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 void die(struct char_data * ch, struct char_data *killer);
 bitvector_t asciiflag_conv(char *flag);
 zone_rnum real_zone_by_thing(room_vnum vznum);

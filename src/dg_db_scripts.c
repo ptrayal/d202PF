@@ -24,9 +24,6 @@
 #include "comm.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_db_scripts.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 extern void half_chop(char *string, char *arg1, char *arg2);
 extern bitvector_t asciiflag_conv(char *flag);
 

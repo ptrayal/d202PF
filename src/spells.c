@@ -22,9 +22,6 @@
 #include "dg_scripts.h"
 #include "feats.h"
 
-SVNHEADER("$Id: spells.c 65 2009-04-01 13:06:57Z gicker $");
-
-
 /* external variables */
 extern struct clan_type *clan_info;
 extern room_rnum r_mortal_start_room;

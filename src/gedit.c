@@ -28,9 +28,6 @@
 #include "interpreter.h"
 #include "gengld.h"
 
-SVNHEADER("$Id: gedit.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 /*-------------------------------------------------------------------*/
 /* external variables */
 extern struct guild_data *guild_index;

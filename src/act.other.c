@@ -10,13 +10,10 @@
 
 #define __ACT_OTHER_C__
 
-
 #include "mysql/mysql.h"
 
 #include "conf.h"
 #include "sysdep.h"
-
-SVNHEADER("$Id: act.other.c 65 2009-04-01 13:06:57Z gicker $");
 
 #include "structs.h"
 #include "utils.h"

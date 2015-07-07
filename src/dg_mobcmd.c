@@ -49,9 +49,6 @@
 #include "spells.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_mobcmd.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 /*
  * External functions
  */

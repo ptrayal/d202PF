@@ -15,8 +15,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: interpreter.c 55 2009-03-20 17:58:56Z pladow $");
-
 #include "mysql/mysql.h"
 #include "structs.h"
 #include "comm.h"

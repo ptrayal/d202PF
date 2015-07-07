@@ -12,8 +12,6 @@
 #include "sysdep.h"
 #include "mysql/mysql.h"
 
-SVNHEADER("$Id: act.wizard.c 62 2009-03-25 23:06:34Z gicker $");
-
 #include "structs.h"
 #include "player_guilds.h"
 #include "utils.h"

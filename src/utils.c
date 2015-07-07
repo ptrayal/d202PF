@@ -13,8 +13,6 @@
 
 #include <math.h>
 
-SVNHEADER("$Id: utils.c 62 2009-03-25 23:06:34Z gicker $");
-
 #include "structs.h"
 #include "utils.h"
 #include "db.h"

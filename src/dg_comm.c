@@ -16,8 +16,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: dg_comm.c 55 2009-03-20 17:58:56Z pladow $");
-
 #include "structs.h"
 #include "spells.h"
 #include "feats.h"

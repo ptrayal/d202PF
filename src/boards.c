@@ -49,8 +49,6 @@ it.
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: boards.c 55 2009-03-20 17:58:56Z pladow $");
-
 #include <sys/types.h>
 #include <sys/stat.h>
 

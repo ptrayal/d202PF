@@ -20,9 +20,6 @@
 #include "dg_scripts.h"
 #include "feats.h"
 
-SVNHEADER("$Id: feats.c 63 2009-03-25 23:09:29Z gicker $");
-
-
 /* Local Functions */
 void list_class_feats(struct char_data *ch);
 void assign_feats(void);

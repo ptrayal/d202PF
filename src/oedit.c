@@ -1,127 +1,62 @@
 /************************************************************************
-
  * OasisOLC - Objects / oedit.c					v2.0	*
-
  * Original author: Levork						*
-
  * Copyright 1996 by Harvey Gilpin					*
-
  * Copyright 1997-2001 by George Greer (greerga@circlemud.org)		*
-
  ************************************************************************/
 
-
-
 #include "conf.h"
-
 #include "sysdep.h"
 
-
-
-SVNHEADER("$Id: oedit.c 55 2009-03-20 17:58:56Z pladow $");
-
-
-
 #include "structs.h"
-
 #include "comm.h"
-
 #include "interpreter.h"
-
 #include "spells.h"
-
 #include "utils.h"
-
 #include "db.h"
-
 #include "handler.h"
-
 #include "boards.h"
-
 #include "constants.h"
-
 #include "shop.h"
-
 #include "genolc.h"
-
 #include "genobj.h"
-
 #include "genzon.h"
-
 #include "oasis.h"
-
 #include "improved-edit.h"
-
 #include "dg_olc.h"
-
 #include "feats.h"
 
-
-
 /*------------------------------------------------------------------------*/
-
-
-
 /*
-
  * External variable declarations.
-
  */
 
-
-
 extern struct obj_data *obj_proto;
-
 extern struct index_data *obj_index;
-
 extern struct obj_data *object_list;
-
 extern obj_rnum top_of_objt;
-
 extern struct zone_data *zone_table;
-
 extern zone_rnum top_of_zone_table;
-
 extern struct shop_data *shop_index;
-
 extern struct attack_hit_type attack_hit_text[];
-
 extern struct spell_info_type spell_info[];
-
 extern struct board_info *bboards;
-
 extern struct descriptor_data *descriptor_list;
-
 extern const char *material_names[];
-
 extern long max_obj_id;
-
 extern const char *armor_types[];
-
 extern struct weapon_table weapon_list[];
-
 extern struct armor_table armor_list[];
 
-
-
 void set_armor_values(struct obj_data *obj, int type);
-
 void set_weapon_values(struct obj_data *obj, int type);
-
 int set_object_level(struct obj_data *obj);
-
-
 
 /*------------------------------------------------------------------------*/
 
 extern zone_rnum real_zone_by_thing(room_vnum vznum);
-
-
-
 /*
-
  * Handy macros.
-
  */
 
 #define S_PRODUCT(s, i) ((s)->producing[(i)])
@@ -129,12 +64,8 @@ int Valid_Name(char *newname);
 
 
 /*------------------------------------------------------------------------*\
-
   Utility and exported functions
-
 \*------------------------------------------------------------------------*/
-
-
 
 ACMD(do_oasis_oedit)
 

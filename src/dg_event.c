@@ -35,9 +35,6 @@
 #include "dg_event.h"
 #include "constants.h"
 
-SVNHEADER("$Id: dg_event.c 55 2009-03-20 17:58:56Z pladow $");
-
-
 struct queue *event_q;          /* the event queue */
 
 extern long pulse;

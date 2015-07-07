@@ -1,8 +1,6 @@
 #include "conf.h"
 #include "sysdep.h"
 
-SVNHEADER("$Id: spec_procs.c 62 2009-03-25 23:06:34Z gicker $");
-
 #include "structs.h"
 #include "utils.h"
 #include "comm.h"
