@@ -1199,7 +1199,7 @@ case CLASS_DEATH_MASTER:
       c8 = TRUE;
     if (!c4 && !c7 && !c8)
       if (show_text) send_to_char(ch, "You must be able to cast 3rd level arcane spells to become an eldritch knight.\r\n");
-    if (HAS_FEAT(ch, FEAT_MARTIAL_WEAPON_PROFICIENCY))
+    if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
       c1 = TRUE;
     if (!c1)
       if (show_text) send_to_char(ch, "You must be proficient in the use of martial weapons to become an eldritch knight.\r\n");
@@ -1389,7 +1389,7 @@ case CLASS_DEATH_MASTER:
     	c7 = TRUE;
     else
     	if (show_text) send_to_char(ch, "@wYou must have the honorbound feat before you may enter the order of the crown.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_MARTIAL_WEAPON_PROFICIENCY))
+    if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
     	c8 = TRUE;
     else
     	if (show_text) send_to_char(ch, "@wYou must have the martial weapon proficiency feat before you may enter the order of the crown.@n\r\n");
@@ -1558,7 +1558,7 @@ case CLASS_DEATH_MASTER:
     	c5 = TRUE;
     else
     	if (show_text) send_to_char(ch, "@wYou must have the heavy armor proficiency feat before you may enter the order of the thorn.@n\r\n");
-    if (HAS_FEAT(ch, FEAT_MARTIAL_WEAPON_PROFICIENCY))
+    if (HAS_FEAT(ch, FEAT_WEAPON_PROFICIENCY_MARTIAL))
     	c6 = TRUE;
     else
     	if (show_text) send_to_char(ch, "@wYou must have the martial weapon proficiency feat before you may enter the order of the thorn.@n\r\n");
@@ -2573,7 +2573,7 @@ void do_start(struct char_data *ch)
     GET_SAVE_BASE(ch, SAVING_WILL)  += 4;
     GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
     GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
-    SET_FEAT(ch, FEAT_SIMPLE_WEAPON_PROFICIENCY, 1);
+    SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
     GET_FEAT_POINTS(ch) = 2;
     break;
 
@@ -2587,7 +2587,7 @@ void do_start(struct char_data *ch)
     GET_SAVE_BASE(ch, SAVING_WILL)  += 2;
     GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
     GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
-    SET_FEAT(ch, FEAT_SIMPLE_WEAPON_PROFICIENCY, 1);
+    SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
     SET_FEAT(ch, FEAT_TRACK, 1);
       GET_FEAT_POINTS(ch) = 2;
     }
@@ -2601,7 +2601,7 @@ void do_start(struct char_data *ch)
     GET_SAVE_BASE(ch, SAVING_WILL)  += 1;
     GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
     GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
-    SET_FEAT(ch, FEAT_SIMPLE_WEAPON_PROFICIENCY, 1);
+    SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
     SET_FEAT(ch, FEAT_ARMOR_PROFICIENCY_MEDIUM, 1);
     GET_FEAT_POINTS(ch) = 2;
     break;
@@ -2651,93 +2651,93 @@ void do_start(struct char_data *ch)
 
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 int free_start_feats_mage[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
   0
 };
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 int free_start_feats_cleric[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
   FEAT_ARMOR_PROFICIENCY_HEAVY,
   FEAT_ARMOR_PROFICIENCY_LIGHT,
   FEAT_ARMOR_PROFICIENCY_MEDIUM,
   FEAT_ARMOR_PROFICIENCY_SHIELD,
-  FEAT_DEITY_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_DEITY,
   0
 };
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 int free_start_feats_rogue[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
   FEAT_WEAPON_PROFICIENCY_ROGUE,
   FEAT_ARMOR_PROFICIENCY_LIGHT,
   0
 };
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 int free_start_feats_warrior[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
-  FEAT_MARTIAL_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
+  FEAT_WEAPON_PROFICIENCY_MARTIAL,
   FEAT_ARMOR_PROFICIENCY_HEAVY,
   FEAT_ARMOR_PROFICIENCY_LIGHT,
   FEAT_ARMOR_PROFICIENCY_MEDIUM,
   FEAT_ARMOR_PROFICIENCY_SHIELD,
-  FEAT_MARTIAL_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_MARTIAL,
   FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD,
   0
 };
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 int free_start_feats_monk[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
   FEAT_WEAPON_PROFICIENCY_MONK,
   FEAT_IMPROVED_UNARMED_STRIKE,
   FEAT_FLURRY_OF_BLOWS,
   0
 };
 int free_start_feats_paladin[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
   FEAT_ARMOR_PROFICIENCY_HEAVY,
   FEAT_ARMOR_PROFICIENCY_LIGHT,
   FEAT_ARMOR_PROFICIENCY_MEDIUM,
   FEAT_ARMOR_PROFICIENCY_SHIELD,
-  FEAT_MARTIAL_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_MARTIAL,
   FEAT_AURA_OF_GOOD,
   FEAT_DETECT_EVIL,
   0
 };
 
 int free_start_feats_barbarian[] = {
-	FEAT_SIMPLE_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_SIMPLE,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
 	FEAT_ARMOR_PROFICIENCY_MEDIUM,
 	FEAT_ARMOR_PROFICIENCY_SHIELD,
-	FEAT_MARTIAL_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_MARTIAL,
 	FEAT_FAST_MOVEMENT,
 	FEAT_RAGE,
 	0
 };
 
 int free_start_feats_ranger[] = {
-	FEAT_SIMPLE_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_SIMPLE,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
 	FEAT_ARMOR_PROFICIENCY_MEDIUM,
 	FEAT_ARMOR_PROFICIENCY_SHIELD,
-	FEAT_SIMPLE_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_SIMPLE,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
-	FEAT_MARTIAL_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_MARTIAL,
 
 	0
 };
 
 int free_start_feats_arcane_archer[] = {
-	FEAT_SIMPLE_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_SIMPLE,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
 	FEAT_ARMOR_PROFICIENCY_MEDIUM,
 	FEAT_ARMOR_PROFICIENCY_SHIELD,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
-	FEAT_MARTIAL_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_MARTIAL,
 	0
 };
 
 int free_start_feats_druid[] = {
-	FEAT_SIMPLE_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_SIMPLE,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
 	FEAT_ARMOR_PROFICIENCY_MEDIUM,
 	FEAT_ARMOR_PROFICIENCY_SHIELD,
@@ -2748,7 +2748,7 @@ int free_start_feats_druid[] = {
 };
 
 int free_start_feats_bard[] = {
-	FEAT_SIMPLE_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_SIMPLE,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
 	FEAT_ARMOR_PROFICIENCY_SHIELD,
 	0
@@ -2767,7 +2767,7 @@ int free_start_feats_mystic[] = {
 };
 
 int free_start_feats_sorcerer[] = {
-	FEAT_SIMPLE_WEAPON_PROFICIENCY,
+	FEAT_WEAPON_PROFICIENCY_SIMPLE,
         0
 };
 
@@ -2776,8 +2776,8 @@ int free_start_feats_noble[] = {
 };
 
 int free_start_feats_knight_of_crown[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
-  FEAT_MARTIAL_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
+  FEAT_WEAPON_PROFICIENCY_MARTIAL,
   FEAT_STRENGTH_OF_HONOR,
   FEAT_KNIGHTLY_COURAGE,
   0
@@ -2792,11 +2792,11 @@ int free_start_feats_knight_of_rose[] = {
 };
 
 int free_start_feats_favored_soul[] = {
-        FEAT_SIMPLE_WEAPON_PROFICIENCY,
+        FEAT_WEAPON_PROFICIENCY_SIMPLE,
 	FEAT_ARMOR_PROFICIENCY_LIGHT,
 	FEAT_ARMOR_PROFICIENCY_MEDIUM,
 	FEAT_ARMOR_PROFICIENCY_SHIELD,
-        FEAT_DEITY_WEAPON_PROFICIENCY,
+        FEAT_WEAPON_PROFICIENCY_DEITY,
 	0
 };
 
@@ -2805,8 +2805,8 @@ int free_start_feats_wizard_of_high_sorcery[] = {
 };
 
 int free_start_feats_duelist[] = {
-  FEAT_SIMPLE_WEAPON_PROFICIENCY,
-  FEAT_MARTIAL_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_SIMPLE,
+  FEAT_WEAPON_PROFICIENCY_MARTIAL,
   FEAT_CANNY_DEFENSE,
   FEAT_PRECISE_STRIKE,
   0
@@ -4808,7 +4808,7 @@ const int class_feats_rogue[] = {
   FEAT_DEFLECT_ARROWS,
   FEAT_DODGE,
   FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD,
-  FEAT_EXOTIC_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_EXOTIC,
   FEAT_FAR_SHOT,
   FEAT_GREAT_CLEAVE,
   FEAT_GREATER_TWO_WEAPON_FIGHTING,
@@ -4874,7 +4874,7 @@ const int class_feats_fighter[] = {
   FEAT_DEFLECT_ARROWS,
   FEAT_DODGE,
   FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD,
-  FEAT_EXOTIC_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_EXOTIC,
   FEAT_FAR_SHOT,
   FEAT_GREAT_CLEAVE,
   FEAT_GREATER_TWO_WEAPON_FIGHTING,
@@ -4955,7 +4955,7 @@ const int class_feats_eldritch_knight[] = {
   FEAT_DEFLECT_ARROWS,
   FEAT_DODGE,
   FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD,
-  FEAT_EXOTIC_WEAPON_PROFICIENCY,
+  FEAT_WEAPON_PROFICIENCY_EXOTIC,
   FEAT_FAR_SHOT,
   FEAT_GREAT_CLEAVE,
   FEAT_GREATER_TWO_WEAPON_FIGHTING,

@@ -1100,7 +1100,7 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
   case FEAT_EPIC_SKILL_FOCUS:
   case FEAT_IMPROVED_WEAPON_FINESSE:
   case FEAT_MONKEY_GRIP:
-  case FEAT_EXOTIC_WEAPON_PROFICIENCY:
+  case FEAT_WEAPON_PROFICIENCY_EXOTIC:
   case FEAT_WEAPON_MASTERY:
   case FEAT_WEAPON_FLURRY:
   case FEAT_WEAPON_SUPREMACY:
