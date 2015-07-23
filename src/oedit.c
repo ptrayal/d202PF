@@ -72,87 +72,48 @@ ACMD(do_oasis_oedit)
 {
 
   int number = NOWHERE, save = 0, real_num;
-
   struct descriptor_data *d;
-
   char *buf3;
-
   char buf1[MAX_STRING_LENGTH];
-
   char buf2[MAX_STRING_LENGTH];
 
-
-
   /****************************************************************************/
-
   /** Parse any arguments.                                                   **/
-
   /****************************************************************************/
 
   buf3 = two_arguments(argument, buf1, buf2);
 
-
-
   /****************************************************************************/
-
   /** If there aren't any arguments...well...they can't modify nothing now   **/
-
   /** can they?                                                              **/
-
   /****************************************************************************/
 
   if (!*buf1) {
-
     send_to_char(ch, "Specify an object VNUM to edit.\r\n");
-
     return;
-
   } else if (!isdigit(*buf1)) {
-
     if (str_cmp("save", buf1) != 0) {
-
       send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
-
       return;
-
     }
-
-
 
     save = TRUE;
 
-
-
     if (is_number(buf2))
-
       number = atoi(buf2);
-
     else if (GET_OLC_ZONE(ch) > 0) {
-
       zone_rnum zlok;
 
-
-
       if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
-
         number = NOWHERE;
-
       else
-
         number = genolc_zone_bottom(zlok);
-
     }
-
-
 
     if (number == NOWHERE) {
-
       send_to_char(ch, "Save which zone?\r\n");
-
       return;
-
     }
-
   }
 
 

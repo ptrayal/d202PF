@@ -58,10 +58,10 @@ GRID_ROW *create_row(GRID_DATA *grid)
 	new_row->grid = grid;
 	if(grid)
 		grid_add_row(grid, new_row);
-	new_row->padding_top=1;
-	new_row->padding_bottom=1;
-	new_row->padding_left=2;
-	new_row->padding_right=2;
+	new_row->padding_top=0;
+	new_row->padding_bottom=0;
+	new_row->padding_left=1;
+	new_row->padding_right=1;
 	return new_row;
  
 }
@@ -219,11 +219,12 @@ int count_colour( char *str )
 	int count = 0;
 	while ( (c = *str++ ) != '\0'  )
 	{
-		if(c == '{' )
+		if(c == '{' || c == '@')
 			count++;
 	}
 	return count*2;
 }
+
 //Displaying of the Grid
 void row_to_char( GRID_ROW *row, struct char_data *ch )
 {	GRID_CELL *cell;

@@ -19,6 +19,7 @@
 #include "interpreter.h"
 #include "dg_scripts.h"
 #include "feats.h"
+#include "grid.h"
 
 /* Local Functions */
 void list_class_feats(struct char_data *ch);
@@ -1377,11 +1378,13 @@ void sort_feats(void)
 
 void list_feats_known(struct char_data *ch, char *arg) 
 {
-  int i = 0, sortpos = 0, j = 0;
+  int i = 0, sortpos = 0, j = 0, mode = 0, count = 0;
   int none_shown = TRUE;
-  int mode = 0;
   char buf [MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH], buf3[150];
-  int count = 0;
+
+  GRID_DATA *grid;
+  GRID_ROW *row;
+  GRID_CELL *cell;
 
   if (*arg && is_abbrev(arg, "descriptions")) 
   {
@@ -1392,22 +1395,40 @@ void list_feats_known(struct char_data *ch, char *arg)
     mode = 2;
   }
 
-  if (!GET_FEAT_POINTS(ch))
-    strcpy(buf, "\r\nYou cannot learn any feats right now.\r\n");
-  else
-    sprintf(buf, "\r\nYou can learn %d feat%s and %d class feat%s right now.\r\n",
-            GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
-	    (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
+  // if (!GET_FEAT_POINTS(ch))
+  //   strcpy(buf, "\r\nYou cannot learn any feats right now.\r\n");
+  // else
+  //   sprintf(buf, "\r\nYou can learn %d feat%s and %d class feat%s right now.\r\n",
+  //           GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
+	 //    (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
 
     
     // Display Headings
-    sprintf(buf + strlen(buf), "\r\n");
-    sprintf(buf + strlen(buf), "@WFeats Known@n\r\n");
-    sprintf(buf + strlen(buf), "@M~~~~~~~~~~~@n\r\n");
-    sprintf(buf + strlen(buf), "\r\n");
+    // sprintf(buf + strlen(buf), "\r\n");
+    // sprintf(buf + strlen(buf), "@WFeats Known@n\r\n");
+    // sprintf(buf + strlen(buf), "@M~~~~~~~~~~~@n\r\n");
+    // sprintf(buf + strlen(buf), "\r\n");
 
-  strcpy(buf2, buf);
+  // NEW GRID LAYOUT FOR FEATS.  
+    grid = create_grid(75);
+    row = create_row(grid);
+    row_append_cell(row, 75, "@WFeats Known@n");
+    row = create_row(grid);
 
+    if (!GET_FEAT_POINTS(ch))
+    {
+      row_append_cell(row, 75, "@RYou cannot learn any feats right now.@n");
+    }
+    else
+    {
+      row_append_cell(row, 75, "You can learn %d feat%s and %d class feat%s right now.", GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
+    (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
+    }
+
+    grid_to_char(grid, ch, TRUE);
+  
+  
+  // END NEW GRID LAYOUT
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
 
