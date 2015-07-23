@@ -2488,51 +2488,6 @@ void list_feats_available(struct char_data *ch, char *arg)
   // END NEW GRID LAYOUT
  
   strcpy(buf2, buf);
-
-  // for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
-  // {
-  //   i = feat_sort_info[sortpos];
-  //   if (strlen(buf2) >= MAX_STRING_LENGTH - 32) {
-  //     strcat(buf2, "**OVERFLOW**\r\n"); 
-  //     break;   
-  //   }
-  //   if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) {
-  //       if (mode == 1) {
-  //         sprintf(buf3, "%s:", feat_list[i].name);
-  //         sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].description);
-  //       } else if (mode == 2) {
-  //         sprintf(buf3, "%s:", feat_list[i].name);
-  //         sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].prerequisites);
-  //       } else {
-  //         sprintf(buf, "%-25s ", feat_list[i].name);
-  //       }
-  //     strcat(buf2, buf);        /* The above, ^ should always be safe to do. */
-  //     none_shown = FALSE;
-
-  //     if (!mode) {
-  //       count++;
-  //       if (count % 3 == 2)
-  //        strcat(buf2, "\r\n");
-  //     }
-     
-  //   }
-  // }
-
-  // if (!mode) { 
-  //   if (count % 3 != 2)
-  //     strcat(buf2, "\r\n");
-  // }
-  // strcat(buf2, "\r\n");
-  
-
-  // if (none_shown) {
-  //   sprintf(buf, "There are no feats available for you to learn at this point.\r\n");
-  //   strcat(buf2, buf);
-  // }
-
-  // strcat(buf2, "@WSyntax: feats <known|available|complete> <description|requisitesclassfeats> (both arguments optional)@n\r\n");
-   
-  // page_string(ch->desc, buf2, 1);
 }
 
 void list_class_feats(struct char_data *ch)
