@@ -1395,20 +1395,6 @@ void list_feats_known(struct char_data *ch, char *arg)
     mode = 2;
   }
 
-  // if (!GET_FEAT_POINTS(ch))
-  //   strcpy(buf, "\r\nYou cannot learn any feats right now.\r\n");
-  // else
-  //   sprintf(buf, "\r\nYou can learn %d feat%s and %d class feat%s right now.\r\n",
-  //           GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
-	 //    (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
-
-    
-    // Display Headings
-    // sprintf(buf + strlen(buf), "\r\n");
-    // sprintf(buf + strlen(buf), "@WFeats Known@n\r\n");
-    // sprintf(buf + strlen(buf), "@M~~~~~~~~~~~@n\r\n");
-    // sprintf(buf + strlen(buf), "\r\n");
-
   // NEW GRID LAYOUT FOR FEATS.
     grid = create_grid(75);
     row = create_row(grid);
