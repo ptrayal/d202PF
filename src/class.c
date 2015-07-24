@@ -73,7 +73,7 @@ int *free_start_feats[];
 
 /* Names first */
 const char *class_abbrevs_core[] = {
-  "Mag",
+  "Wiz",
   "Cle",
   "Rog",
   "Fig",
@@ -192,7 +192,7 @@ const char *class_abbrevs_dl_aol[] = {
 };
 /* Copied from the SRD under OGL, see ../doc/srd.txt for information */
 const char *pc_class_types_core[] = {
-  "Mage",
+  "Wizard",
   "Cleric",
   "Rogue",
   "Fighter",
@@ -312,7 +312,7 @@ const char *pc_class_types_dl_aol[] = {
 };
 /* Copied from the SRD under OGL, see ../doc/srd.txt for information */
 const char *class_names_core[] = {
-  "mage",
+  "wizard",
   "cleric",
   "rogue",
   "fighter",
