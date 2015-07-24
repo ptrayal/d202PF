@@ -3831,7 +3831,7 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
     j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
     add_hp = MAX(1, i + j);
   }
-  if (HAS_FEAT(ch, FEAT_TOUGHNESS))
+  if (HAS_FEAT(ch, FEAT_TOUGHNESS) && (level >3))
     add_hp += 1;
   llog->hp_roll = j;
   /* Derived from the SRD under OGL, see ../doc/srd.txt for information */

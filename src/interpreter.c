@@ -5002,7 +5002,7 @@ void process_add_feat(struct char_data *ch, int feat_num)
   case FEAT_PERSUASIVE:
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_BLUFF, GET_SKILL_BONUS(ch, SKILL_BLUFF) + 2);
+    SET_SKILL_BONUS(ch, SKILL_BLUFF, GET_SKILL_BONUS(ch, SKILL_DIPLOMACY) + 2);
     SET_SKILL_BONUS(ch, SKILL_INTIMIDATE, GET_SKILL_BONUS(ch, SKILL_INTIMIDATE) + 2);
     break;
   case FEAT_SELF_SUFFICIENT:
