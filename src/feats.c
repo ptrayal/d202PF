@@ -2588,6 +2588,17 @@ void list_feats_available(struct char_data *ch, char *arg)
     (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
     }
 
+    row = create_row(grid);
+    row_append_cell(row, 35, "Feats");
+    if (mode == 2)
+    {
+      row_append_cell(row, 40, "Prerequisites");
+    }
+    else
+    {
+      row_append_cell(row, 40, "Benefits");
+    }
+
 // LIST OF AVAILABLE FEATS
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
@@ -2601,14 +2612,14 @@ void list_feats_available(struct char_data *ch, char *arg)
         if (mode == 2) 
                 {
           row = create_row(grid);
-          row_append_cell(row, 40, "%s", feat_list[i].name);
-          row_append_cell(row, 35, "%s", feat_list[i].prerequisites);
+          row_append_cell(row, 35, "%s", feat_list[i].name);
+          row_append_cell(row, 40, "%s", feat_list[i].prerequisites);
         } 
         else 
         {
           row = create_row(grid);
-          row_append_cell(row, 40, "%s", feat_list[i].name);
-          row_append_cell(row, 35, "%s", feat_list[i].description);
+          row_append_cell(row, 35, "%s", feat_list[i].name);
+          row_append_cell(row, 40, "%s", feat_list[i].description);
         } 
     }
   }
