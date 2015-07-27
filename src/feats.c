@@ -2603,7 +2603,8 @@ void list_feats_available(struct char_data *ch, char *arg)
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
     i = feat_sort_info[sortpos];
-    if (strlen(buf2) >= MAX_STRING_LENGTH - 32) {
+    if (strlen(buf2) >= MAX_STRING_LENGTH - 32) 
+    {
       strcat(buf2, "**OVERFLOW**\r\n"); 
       break;   
     }
@@ -2647,7 +2648,7 @@ void list_class_feats(struct char_data *ch)
   int featCounter = 0;
   int i = 0;
   int sortpos = 0;
-  char buf3[100];
+  char buf3[100]={'\0'};
 
     send_to_char(ch, "\r\n");
     send_to_char(ch, "@WClass Feats Available to Learn@n\r\n");
@@ -2694,15 +2695,16 @@ int is_class_feat(int featnum, int class) {
 void list_feats_complete(struct char_data *ch, char *arg) 
 {
 
-  char buf[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH], buf3[150];
-  int i, sortpos;
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'}, buf3[150]={'\0'};
   int none_shown = TRUE;
-  int mode = 0, count = 0;
+  int mode = 0, count = 0, i = 0, sortpos = 0;
 
-  if (*arg && is_abbrev(arg, "descriptions")) {
+  if (*arg && is_abbrev(arg, "descriptions")) 
+  {
     mode = 1;
   }
-  else if (*arg && is_abbrev(arg, "requisites")) {
+  else if (*arg && is_abbrev(arg, "requisites")) 
+  {
     mode = 2;
   }
 
@@ -2710,60 +2712,71 @@ void list_feats_complete(struct char_data *ch, char *arg)
     strcpy(buf, "\r\nYou cannot learn any feats right now.\r\n");
   else
     sprintf(buf, "\r\nYou can learn %d feat%s and %d class feat%s right now.\r\n",
-            GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
-	    (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
-    
-    // Display Headings
-    sprintf(buf + strlen(buf), "\r\n");
-    sprintf(buf + strlen(buf), "@WComplete Feat List@n\r\n");
-    sprintf(buf + strlen(buf), "@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@n\r\n");
-    sprintf(buf + strlen(buf), "\r\n");
+      GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
+      (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
+
+// Display Headings
+  sprintf(buf + strlen(buf), "\r\n");
+  sprintf(buf + strlen(buf), "@WComplete Feat List@n\r\n");
+  sprintf(buf + strlen(buf), "@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@n\r\n");
+  sprintf(buf + strlen(buf), "\r\n");
 
   strcpy(buf2, buf);
 
-  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) {
+  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
+  {
     i = feat_sort_info[sortpos];
-    if (strlen(buf2) >= MAX_STRING_LENGTH - 32) {
+    if (strlen(buf2) >= MAX_STRING_LENGTH - 32) 
+    {
       strcat(buf2, "**OVERFLOW**\r\n"); 
       break;   
     }
 //	sprintf(buf, "%s : %s\r\n", feat_list[i].name, feat_list[i].in_game ? "In Game" : "Not In Game");
 //	strcat(buf2, buf);
-    if (feat_list[i].in_game) {
-        if (mode == 1) {
-          sprintf(buf3, "%s:", feat_list[i].name);
-          sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].description);
-        } else if (mode == 2) {
-          sprintf(buf3, "%s:", feat_list[i].name);
-          sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].prerequisites);
-        } else {
-          sprintf(buf, "%-25s ", feat_list[i].name);
-        }
+    if (feat_list[i].in_game) 
+    {
+      if (mode == 1) 
+      {
+        sprintf(buf3, "%s:", feat_list[i].name);
+        sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].description);
+      } 
+      else if (mode == 2) 
+      {
+        sprintf(buf3, "%s:", feat_list[i].name);
+        sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        sprintf(buf, "%-25s ", feat_list[i].name);
+      }
 
       strcat(buf2, buf);        /* The above, ^ should always be safe to do. */
       none_shown = FALSE;
 
-      if (!mode) {
+      if (!mode) 
+      {
         count++;
         if (count % 3 == 2)
-         strcat(buf2, "\r\n");
+          strcat(buf2, "\r\n");
       }
-     
+
     }
   }
-  if (!mode) { 
+  if (!mode) 
+  { 
     if (count % 3 != 2)
       strcat(buf2, "\r\n");
   }
   strcat(buf2, "\r\n");
 
-  if (none_shown) {
+  if (none_shown) 
+  {
     sprintf(buf, "There are currently no feats in the game.\r\n");
     strcat(buf2, buf);
   }
 
   strcat(buf2, "@WSyntax: feats <known|available|complete> <description|requisites|classfeats> (both arguments optional)@n\r\n");
-   
+
   page_string(ch->desc, buf2, 1);
 }
 
@@ -2797,8 +2810,8 @@ int find_feat_num(char *name)
 
 ACMD(do_feats)
 {
-  char arg[80];
-  char arg2[80];
+  char arg[80]={'\0'};
+  char arg2[80]={'\0'};
 
   two_arguments(argument, arg, arg2);
 
@@ -2860,7 +2873,8 @@ int feat_to_subfeat(int feat)
 
 void setweapon( int type, char *name, int numDice, int diceSize, int critRange, int critMult, 
 int weaponFlags, int cost, int damageTypes, int weight, int range, int weaponFamily, int size, 
-int material, int handle_type, int head_type) {
+int material, int handle_type, int head_type) 
+{
 
   weapon_type[type] = name;
   weapon_list[type].name = name;
