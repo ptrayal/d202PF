@@ -272,13 +272,13 @@ feato(FEAT_IMPROVED_BULL_RUSH, "Improved Bull Rush", FALSE, FALSE, FALSE, "ask s
 feato(FEAT_IMPROVED_COMBAT_CHALLENGE, "Improved Combat Challenge", TRUE, TRUE, FALSE, "10 ranks in diplomacy, intimidate or bluff, combat challenge", "allows you to make all mobs focus their attention on you");
 feato(FEAT_IMPROVED_COMBAT_STYLE, "Improved Combat Style", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_COUNTERSPELL, "Improved Counterspell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_CRITICAL, "Improved Critical", TRUE, TRUE, TRUE, "proficient with weapon chosen, BAB +8 or higher", "doubled critical threat rating for weapon chosen");
+feato(FEAT_IMPROVED_CRITICAL, "Improved Critical", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +8", "Double the threat range of one weapon");
 feato(FEAT_IMPROVED_DISARM, "Improved Disarm", FALSE, FALSE, FALSE, "ask staff", "ask staff"); 
 feato(FEAT_IMPROVED_EVASION, "Improved Evasion", TRUE, TRUE, FALSE, "Rogue 11th", "as evasion but half damage of failed save");
 feato(FEAT_IMPROVED_FAMILIAR, "Improved Familiar", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_FEINT, "Improved Feint", TRUE, TRUE, FALSE, "Int 13, combat expertise", "can feint and make one attack per round (or sneak attack if they have it)");
 feato(FEAT_IMPROVED_GRAPPLE, "Improved Grapple", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_INITIATIVE, "Improved Initiative", TRUE, TRUE, FALSE, "-", "+4 to initiative checks to see who attacks first each round");
+feato(FEAT_IMPROVED_INITIATIVE, "Improved Initiative", TRUE, TRUE, FALSE, "-", "+4 bonus on initiative checks");
 feato(FEAT_IMPROVED_INSTIGATION, "Improved Instigation", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_INTIMIDATION, "Improved Intimidation", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_NATURAL_WEAPON, "Improved Natural Weapons", TRUE, TRUE, FALSE, "natural weapon or improved unarmed strike", "increase damage dice by one category for natural weapons");
@@ -328,7 +328,7 @@ feato(FEAT_MOBILE_DEFENSE, "Mobile Defense", TRUE, FALSE, FALSE, "Dwarven Defend
 feato(FEAT_MOBILITY, "Mobility", TRUE, TRUE, FALSE, "Dex 13, Dodge.", "+4 AC against attacks of opportunity from movement");
 feato(FEAT_MONKEY_GRIP, "Monkey Grip", TRUE, TRUE, TRUE, "-", "can wield weapons one size larger than wielder in one hand with -2 to attacks.");
 feato(FEAT_MOUNTED_ARCHERY, "Mounted Archery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_MOUNTED_COMBAT, "Mounted Combat", TRUE, TRUE, FALSE, "ride rank 1", "once per round rider may negate a hit against him with a successful ride vs attack roll check");
+feato(FEAT_MOUNTED_COMBAT, "Mounted Combat", TRUE, TRUE, FALSE, "Ride 1 rank", "once per round rider may negate a hit against him with a successful ride vs attack roll check");
 feato(FEAT_NATURAL_ARMOR_INCREASE, "Natural Armor Increase", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_NATURAL_SPELL, "Natural Spell", TRUE, TRUE, FALSE, "Wis 13, wild shape class feature.", "Cast spells while using wild shape");
 feato(FEAT_NATURE_SENSE, "Nature Sense", TRUE, FALSE, FALSE, "druid level 1", "A druid gains a +2 bonus on Knowledge and Survival checks");
@@ -342,10 +342,10 @@ feato(FEAT_PERSUASIVE, "Persuasive", TRUE, TRUE, FALSE, "-", "+2 bonus on Diplom
 feato(FEAT_POINT_BLANK_SHOT, "Point Blank Shot", TRUE, TRUE, FALSE, "-", "+1 to hit and dam rolls with ranged weapons in the same room");
 feato(FEAT_POISON_SAVE_BONUS,  "Poison Save Bonus", TRUE, FALSE, FALSE, "Assassin level 2", "Bonus to all saves against poison.");
 feato(FEAT_POISON_USE, "Poison Use", TRUE, FALSE, FALSE, "Assassin level 1", "Trained use in poisons without risk of poisoning self.");
-feato(FEAT_POWER_ATTACK, "Power Attack", TRUE, TRUE, FALSE, "str 13", "subtract a number from hit and add to dam.  If 2H weapon add 2x dam instead");
+feato(FEAT_POWER_ATTACK, "Power Attack", TRUE, TRUE, FALSE, "Str 13, base attack bonus +1", "subtract a number from hit and add to dam.  If 2H weapon add 2x dam instead");
 feato(FEAT_POWER_CRITICAL, "Power Critical", TRUE, TRUE, TRUE, "weapon focus in chosen weapon, base attack bonus +4 or higher", "+4 to rolls to confirm critical hits.");
 feato(FEAT_POWERFUL_SNEAK, "Powerful Sneak", TRUE, TRUE, FALSE, "rogue talent", "opt to take -2 to attacks and treat all sneak attack dice rolls of 1 as a 2");
-feato(FEAT_PRECISE_SHOT, "Precise Shot", TRUE, TRUE, FALSE, "point blank shot", "You may shoot in melee without the standard -4 to hit penalty");
+feato(FEAT_PRECISE_SHOT, "Precise Shot", TRUE, TRUE, FALSE, "Point-Blank Shot", "You may shoot in melee without the standard -4 to hit penalty");
 feato(FEAT_PRECISE_STRIKE, "Precise Strike", TRUE, FALSE, FALSE, "-", "+1d6 damage when using only one weapon and no shield");
 feato(FEAT_PROFICIENT_CRAFTER, "Proficient Crafter", TRUE, FALSE, FALSE, "Artisan level 2", "Increases all crafting skills");
 feato(FEAT_PROFICIENT_HARVESTER, "Proficient Harvester", TRUE, FALSE, FALSE, "Artisan level 4", "Increases all harvesting skills");
@@ -598,7 +598,12 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
   case FEAT_ARMOR_SKIN:
     if (ch->armor_skin_feats >= 5)
       return FALSE;
-    return TRUE;    
+    return TRUE;
+
+  case FEAT_MOUNTED_COMBAT:
+    if (GET_SKILL_RANKS(ch, SKILL_RIDE) < 1)
+      return FALSE;
+    return TRUE;
 
   case FEAT_COMBAT_CHALLENGE:
     if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 5 &&
@@ -690,6 +695,11 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
         ch->real_abils.cha >= 13 && ch->real_abils.str >= 13)
       return TRUE;
     return FALSE;
+
+  case FEAT_PRECISE_SHOT:
+    if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
+      return FALSE;
+    return TRUE;
 
   case FEAT_DIVINE_VENGEANCE:
     if (has_feat(ch, FEAT_TURN_UNDEAD) && has_feat(ch, FEAT_EXTRA_TURNING))
@@ -906,7 +916,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     return FALSE;
   
   case FEAT_POWER_ATTACK:
-    if (ch->real_abils.str >= 13)
+    if (ch->real_abils.str >= 13 && GET_BAB(ch) >= 1)
       return TRUE;
     return FALSE;
 
