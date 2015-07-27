@@ -124,7 +124,7 @@ feato(FEAT_ARMOR_PROFICIENCY_HEAVY, "Armor Proficiency (Heavy)", TRUE, TRUE, FAL
 feato(FEAT_ARMOR_PROFICIENCY_LIGHT, "Armor Proficiency (Light)", TRUE, TRUE, FALSE, "-", "No penalties on attack rolls while wearing light armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_MEDIUM, "Armor Proficiency (Medium)", TRUE, TRUE, FALSE, "Armor Proficiency (Light)", "No penalties on attack rolls while wearing medium armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_SHIELD, "Armor Proficiency (Shield)", TRUE, FALSE, FALSE, "-", "able to use bucklers, light and heavy shields without penalty"); 
-feato(FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD, "Armor Proficiency (Tower Shield)", TRUE, TRUE, FALSE, "-", "can use tower shields without penalties");
+feato(FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD, "Armor Proficiency (Tower Shield)", TRUE, TRUE, FALSE, "Armor Proficiency (Shield)", "can use tower shields without penalties");
 feato(FEAT_ARMOR_SKIN, "Armor Skin", TRUE, TRUE, TRUE, "epic level", "Increases natural armor by 1");
 feato(FEAT_ARMOR_SPECIALIZATION_HEAVY, "Armor Specialization (heavy)", TRUE, TRUE, FALSE, "Armor Proficiency (Heavy), BAB +12", "DR 2/- when wearing heavy armor");
 feato(FEAT_ARMOR_SPECIALIZATION_LIGHT, "Armor Specialization (light)", TRUE, TRUE, FALSE, "Armor Proficiency (Light), BAB +12", "DR 2/- when wearing light armor");
@@ -325,7 +325,7 @@ feato(FEAT_MAXIMIZE_SPELL, "Maximize Spell", TRUE, TRUE, FALSE, "Caster level 1s
 feato(FEAT_MIGHT_OF_HONOR, "Might of Honor", TRUE, FALSE, FALSE, "Knight of the Crown level 6", "ask staff");
 feato(FEAT_MIGHTY_RAGE, "Mighty Rage", TRUE, FALSE, FALSE, "str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
 feato(FEAT_MOBILE_DEFENSE, "Mobile Defense", TRUE, FALSE, FALSE, "Dwarven Defender level 8", "Allows one to move while in defensive stance");
-feato(FEAT_MOBILITY, "Mobility", TRUE, TRUE, FALSE, "Dex 13, Dodge.", "+4 AC against attacks of opportunity from movement");
+feato(FEAT_MOBILITY, "Mobility", TRUE, TRUE, FALSE, "Dodge", "+4 AC against attacks of opportunity from movement");
 feato(FEAT_MONKEY_GRIP, "Monkey Grip", TRUE, TRUE, TRUE, "-", "can wield weapons one size larger than wielder in one hand with -2 to attacks.");
 feato(FEAT_MOUNTED_ARCHERY, "Mounted Archery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_MOUNTED_COMBAT, "Mounted Combat", TRUE, TRUE, FALSE, "Ride 1 rank", "once per round rider may negate a hit against him with a successful ride vs attack roll check");
@@ -356,7 +356,7 @@ feato(FEAT_QUIVERING_PALM, "Quivering Palm", TRUE, FALSE, FALSE, "-", "chance to
 feato(FEAT_RAGE, "Rage", TRUE, FALSE, TRUE, "-", "+4 bonus to con and str for several rounds");
 feato(FEAT_RALLYING_CRY, "Rallying Cry", TRUE, FALSE, FALSE, "Knight of the Rose level 1", "ask staff");
 feato(FEAT_RAPID_RELOAD, "Rapid Reload", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_RAPID_SHOT, "Rapid Shot", TRUE, TRUE, FALSE, "dex 13, point blank shot", "can make extra attack per round with ranged weapon at -2 to all attacks");
+feato(FEAT_RAPID_SHOT, "Rapid Shot", TRUE, TRUE, FALSE, "Dex 13, Point-Blank Shot", "can make extra attack per round with ranged weapon at -2 to all attacks");
 feato(FEAT_READ_OMENS, "Read Omens", TRUE, FALSE, FALSE, "Knight of the Thorn level 1", "ask staff");
 feato(FEAT_READ_PORTENTS, "Read Portents", TRUE, FALSE, FALSE, "Knight of the Thorn level 6", "ask staff");
 feato(FEAT_REMOVE_DISEASE, "Remove Disease", TRUE, TRUE, FALSE, "-", "can cure diseases");
@@ -386,7 +386,7 @@ feato(FEAT_SPELL_FOCUS, "Spell Focus", FALSE, FALSE, FALSE, "Caster level 1st", 
 feato(FEAT_SPELL_MASTERY, "Spell Mastery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPELL_PENETRATION, "Spell Penetration", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPIRITED_CHARGE, "Spirited Charge", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SPRING_ATTACK, "Spring Attack", TRUE, TRUE, FALSE, "dodge, mobility, base attack +4, dex 13+", "free attack of opportunity against combat abilities (ie. kick, trip)");
+feato(FEAT_SPRING_ATTACK, "Spring Attack", TRUE, TRUE, FALSE, "Mobility, base attack bonus +4", "free attack of opportunity against combat abilities (ie. kick, trip)");
 feato(FEAT_STEADFAST_DETERMINATION, "Steadfast Determination", TRUE, TRUE, FALSE, "endurance feat", "allows you to use your con bonus instead of your wis bonus for will saves");
 feato(FEAT_STEALTHY, "Stealthy", TRUE, TRUE, FALSE, "-", "+2 bonus on Escape Artist and Stealth checks");
 feato(FEAT_STILL_MIND, "Still Mind", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -423,14 +423,14 @@ feato(FEAT_UNDEAD_FAMILIAR, "Undead Familiar", TRUE, FALSE, FALSE, "death master
 feato(FEAT_VENOM_IMMUNITY, "Venom Immunity", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "use dex for hit roll of weapons smaller than wielder or rapier, whip, spiked chain");
 feato(FEAT_WEAPON_FLURRY, "Weapon Flurry", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization, weapon mastery in specific weapon, base attack bonus +14", "2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action");
-feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "proficient in weapon, base attack of +1", "+1 to hit rolls for selected weapon");
+feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +1", "+1 to hit rolls for selected weapon");
 feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization in specific weapon, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
 feato(FEAT_WEAPON_OF_CHOICE, "weapons of Choice", TRUE, FALSE, FALSE, "Weapon Master level 1", "All weapons with weapon focus gain special abilities");
 feato(FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD, "Weapon Proficiency (Bastard Sword)", FALSE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_DEITY, "Weapon Proficiency (Deity)", TRUE, FALSE, FALSE, "favored soul level 1, cleric level 1", "Clerics or Favored Souls are also proficient with the favored weapon of their deity.");
 feato(FEAT_WEAPON_PROFICIENCY_DRUID, "Weapon Proficiency (Druid)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_ELF, "Weapon Proficiency (Elf)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_WEAPON_PROFICIENCY_EXOTIC, "Weapon Proficiency (Exotic)", TRUE, TRUE, TRUE, "base attack bonus +1", "You understand how to use that type of exotic weapon in combat.");
+feato(FEAT_WEAPON_PROFICIENCY_EXOTIC, "Weapon Proficiency (Exotic)", TRUE, TRUE, TRUE, "Base attack bonus +1", "You understand how to use that type of exotic weapon in combat.");
 feato(FEAT_WEAPON_PROFICIENCY_MARTIAL, "Weapon Proficiency (Martial)", TRUE, TRUE, FALSE, "-", "You understand how to use martial weapons in combat.");
 feato(FEAT_WEAPON_PROFICIENCY_MONK, "Weapon Proficiency (Monk)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_ROGUE, "Weapon Proficiency (Rogue)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
@@ -534,6 +534,16 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return TRUE;
     return FALSE;
 
+  case FEAT_DIEHARD:
+    if (!HAS_REAL_FEAT(ch, FEAT_ENDURANCE))
+      return FALSE;
+    return TRUE;
+
+  case FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD:
+  if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_SHIELD))
+    return FALSE;
+  return TRUE;
+
   case FEAT_INTENSIFY_SPELL:
     if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 30)
       return FALSE;
@@ -566,6 +576,13 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     if (!HAS_REAL_FEAT(ch, FEAT_RAPID_SHOT))
       return FALSE;
     if (!HAS_REAL_FEAT(ch, FEAT_WEAPON_FOCUS))
+      return FALSE;
+    return TRUE;
+
+  case FEAT_RAPID_SHOT:
+    if (ch->real_abils.dex <13)
+      return FALSE;
+    if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
       return FALSE;
     return TRUE;
  
@@ -908,6 +925,13 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     return TRUE;
 
+  case FEAT_SPRING_ATTACK:
+  if (GET_BAB(ch) <4 )
+    return FALSE;
+  if (!HAS_REAL_FEAT(ch, FEAT_MOBILITY))
+    return FALSE;
+  return TRUE;
+
   case FEAT_STUNNING_FIST:
     if (has_feat(ch, FEAT_IMPROVED_UNARMED_STRIKE) && ch->real_abils.str >= 13 && ch->real_abils.dex >= 13 && GET_BAB(ch) >= 8)
       return TRUE;
@@ -1050,9 +1074,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     if (GET_BAB(ch) < 12)
       return FALSE;
     return TRUE;
-
-
-
 
   case FEAT_WEAPON_FOCUS:
     if (GET_BAB(ch) < 1)
