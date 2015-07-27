@@ -1562,7 +1562,7 @@ void list_feats_known(struct char_data *ch, char *arg)
 }
 
     row = create_row(grid);
-    row_append_cell(row, 75, "@WSyntax:\nfeats <known|available|complete> <description|requisitesclassfeats>\n(both arguments optional)@n");
+    row_append_cell(row, 75, "@WSyntax:\nfeats <known|available> <description|requisitesclassfeats>\n(both arguments optional)@n");
 
     grid_to_char(grid, ch, TRUE);
 
@@ -2567,21 +2567,6 @@ void list_feats_known(struct char_data *ch, char *arg)
     }
   }
 
-  // if (!mode) 
-  // {
-  //   if (count % 2 != 1)
-  //     strcat(buf2, "\r\n");
-  // }
-  // strcat(buf2, "\r\n");
-
-  // if (none_shown) 
-  // {
-  //   sprintf(buf, "You do not know any feats at this time.\r\n");
-  //   strcat(buf2, buf);
-  // }
-   
-  // strcat(buf2, "@WSyntax: feats <known|available|complete> <description|requisites|classfeats> (both arguments optional)@n\r\n");
-
   page_string(ch->desc, buf2, 1);
 }
 
@@ -2669,7 +2654,7 @@ void list_feats_available(struct char_data *ch, char *arg)
   }
   
   row = create_row(grid);
-  row_append_cell(row, 75, "@WSyntax:\nfeats <known|available|complete> <description|requisites|classfeats>\n(both arguments optional)@n");
+  row_append_cell(row, 75, "@WSyntax:\nfeats <known|available> <description|requisites|classfeats>\n(both arguments optional)@n");
 
   grid_to_char(grid, ch, TRUE);
 
@@ -2732,9 +2717,9 @@ int is_class_feat(int featnum, int class) {
 void list_feats_complete(struct char_data *ch, char *arg) 
 {
 
-  char buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'}, buf3[150]={'\0'};
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   int none_shown = TRUE;
-  int mode = 0, count = 0, i = 0, sortpos = 0;
+  int mode = 0, i = 0, sortpos = 0;
 
   if (*arg && is_abbrev(arg, "descriptions")) 
   {
@@ -2745,20 +2730,35 @@ void list_feats_complete(struct char_data *ch, char *arg)
     mode = 2;
   }
 
+  GRID_DATA *grid;
+  GRID_ROW *row;
+
+// NEW GRID LAYOUT FOR FEATS.
+  grid = create_grid(75);
+  row = create_row(grid);
+  row_append_cell(row, 75, "@WComplete Feat List@n");
+  row = create_row(grid);
+
   if (!GET_FEAT_POINTS(ch))
-    strcpy(buf, "\r\nYou cannot learn any feats right now.\r\n");
+  {
+    row_append_cell(row, 75, "@RYou cannot learn any feats right now.@n");
+  }
   else
-    sprintf(buf, "\r\nYou can learn %d feat%s and %d class feat%s right now.\r\n",
-      GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
+  {
+    row_append_cell(row, 75, "You can learn %d feat%s and %d class feat%s right now.", GET_FEAT_POINTS(ch), (GET_FEAT_POINTS(ch) == 1 ? "" : "s"), GET_CLASS_FEATS(ch, GET_CLASS(ch)), 
       (GET_CLASS_FEATS(ch, GET_CLASS(ch)) == 1 ? "" : "s"));
+  }
 
-// Display Headings
-  sprintf(buf + strlen(buf), "\r\n");
-  sprintf(buf + strlen(buf), "@WComplete Feat List@n\r\n");
-  sprintf(buf + strlen(buf), "@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@B~@R~@n\r\n");
-  sprintf(buf + strlen(buf), "\r\n");
-
-  strcpy(buf2, buf);
+  row = create_row(grid);
+  row_append_cell(row, 35, "Feats");
+  if (mode == 2)
+  {
+    row_append_cell(row, 40, "Prerequisites");
+  }
+  else
+  {
+    row_append_cell(row, 40, "Benefits");
+  }
 
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
@@ -2768,51 +2768,34 @@ void list_feats_complete(struct char_data *ch, char *arg)
       strcat(buf2, "**OVERFLOW**\r\n"); 
       break;   
     }
-//	sprintf(buf, "%s : %s\r\n", feat_list[i].name, feat_list[i].in_game ? "In Game" : "Not In Game");
-//	strcat(buf2, buf);
     if (feat_list[i].in_game) 
     {
-      if (mode == 1) 
+      row = create_row(grid);
+
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+      if (mode == 2) 
       {
-        sprintf(buf3, "%s:", feat_list[i].name);
-        sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].description);
-      } 
-      else if (mode == 2) 
-      {
-        sprintf(buf3, "%s:", feat_list[i].name);
-        sprintf(buf, "@W%-30s@n %s\r\n", buf3, feat_list[i].prerequisites);
+        row_append_cell(row, 40, "%s", feat_list[i].prerequisites);
       } 
       else 
       {
-        sprintf(buf, "%-25s ", feat_list[i].name);
-      }
-
-      strcat(buf2, buf);        /* The above, ^ should always be safe to do. */
-      none_shown = FALSE;
-
-      if (!mode) 
-      {
-        count++;
-        if (count % 3 == 2)
-          strcat(buf2, "\r\n");
-      }
+        row_append_cell(row, 40, "%s", feat_list[i].description);
+      } 
 
     }
   }
-  if (!mode) 
-  { 
-    if (count % 3 != 2)
-      strcat(buf2, "\r\n");
-  }
-  strcat(buf2, "\r\n");
-
-  if (none_shown) 
+  if (none_shown)
   {
-    sprintf(buf, "There are currently no feats in the game.\r\n");
-    strcat(buf2, buf);
+    row = create_row(grid);
+    row_append_cell(row, 75, "There are no feats available for you to learn at this point.");
   }
 
-  strcat(buf2, "@WSyntax: feats <known|available|complete> <description|requisites|classfeats> (both arguments optional)@n\r\n");
+  row = create_row(grid);
+  row_append_cell(row, 75, "@WSyntax:\nfeats <known|available> <description|requisites|classfeats>\n(both arguments optional)@n");
+
+  grid_to_char(grid, ch, TRUE);
+
+  strcpy(buf2, buf);
 
   page_string(ch->desc, buf2, 1);
 }
