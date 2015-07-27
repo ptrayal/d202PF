@@ -112,50 +112,50 @@ void assign_feats(void)
 // Fourth parameter defines whether or not the feat can be learned through a trainer or whether it is
 // a feat given automatically to certain classes or races.
 
-feato(FEAT_ABLE_LEARNER, "Able Learner", TRUE, TRUE, FALSE, "None", "You get a +1 bonus to all skills.");
+feato(FEAT_ABLE_LEARNER, "Able Learner", TRUE, TRUE, FALSE, "-", "You get a +1 bonus to all skills.");
 feato(FEAT_ABUNDANT_STEP, "Abundant Step", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_ACROBATIC, "Acrobatic", TRUE, TRUE, FALSE, "none", "+2 bonus on Acrobatics and Fly checks.  Fly is not implemented yet.");
-feato(FEAT_ACROBATIC_CHARGE, "Acrobatic Charge", TRUE, FALSE, FALSE, "none", "can charge in situations when others cannot");
-feato(FEAT_ALERTNESS, "Alertness", TRUE, TRUE, FALSE, "none", "+2 bonus on Perception and Sense Motive checks."); 
-feato(FEAT_ANIMAL_AFFINITY, "Animal Affinity", TRUE, TRUE, FALSE, "none", "Y+2 bonus on Handle Animal and Ride checks.");
+feato(FEAT_ACROBATIC, "Acrobatic", TRUE, TRUE, FALSE, "-", "+2 bonus on Acrobatics and Fly checks.  Fly is not implemented yet.");
+feato(FEAT_ACROBATIC_CHARGE, "Acrobatic Charge", TRUE, FALSE, FALSE, "-", "can charge in situations when others cannot");
+feato(FEAT_ALERTNESS, "Alertness", TRUE, TRUE, FALSE, "-", "+2 bonus on Perception and Sense Motive checks."); 
+feato(FEAT_ANIMAL_AFFINITY, "Animal Affinity", TRUE, TRUE, FALSE, "-", "+2 bonus on Handle Animal and Ride checks.");
 feato(FEAT_ANIMAL_COMPANION, "Animal Companion", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_ANIMATE_DEAD, "Animate Dead", TRUE, FALSE, FALSE, "death master level 2", "allows innate use of animate dead spell 3x per day.");
+feato(FEAT_ANIMATE_DEAD, "Animate Dead", TRUE, FALSE, FALSE, "Death Master 2nd", "allows innate use of animate dead spell 3x per day.");
 feato(FEAT_ARMOR_PROFICIENCY_HEAVY, "Armor Proficiency (Heavy)", TRUE, TRUE, FALSE, "Armor Proficiency  (Medium)", "No penalties on attack rolls while wearing heavy armor"); 
-feato(FEAT_ARMOR_PROFICIENCY_LIGHT, "Armor Proficiency (Light)", TRUE, TRUE, FALSE, "none", "No penalties on attack rolls while wearing light armor"); 
+feato(FEAT_ARMOR_PROFICIENCY_LIGHT, "Armor Proficiency (Light)", TRUE, TRUE, FALSE, "-", "No penalties on attack rolls while wearing light armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_MEDIUM, "Armor Proficiency (Medium)", TRUE, TRUE, FALSE, "Armor Proficiency (Light)", "No penalties on attack rolls while wearing medium armor"); 
-feato(FEAT_ARMOR_PROFICIENCY_SHIELD, "Armor Proficiency (Shield)", TRUE, FALSE, FALSE, "none", "able to use bucklers, light and heavy shields without penalty"); 
-feato(FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD, "Armor Proficiency (Tower Shield)", TRUE, TRUE, FALSE, "none", "can use tower shields without penalties");
+feato(FEAT_ARMOR_PROFICIENCY_SHIELD, "Armor Proficiency (Shield)", TRUE, FALSE, FALSE, "-", "able to use bucklers, light and heavy shields without penalty"); 
+feato(FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD, "Armor Proficiency (Tower Shield)", TRUE, TRUE, FALSE, "-", "can use tower shields without penalties");
 feato(FEAT_ARMOR_SKIN, "Armor Skin", TRUE, TRUE, TRUE, "epic level", "Increases natural armor by 1");
-feato(FEAT_ARMOR_SPECIALIZATION_HEAVY, "Armor Specialization (heavy)", TRUE, TRUE, FALSE, "proficient with heavy armor, Base Attack Bonus +12", "DR 2/- when wearing heavy armor");
-feato(FEAT_ARMOR_SPECIALIZATION_LIGHT, "Armor Specialization (light)", TRUE, TRUE, FALSE, "proficient with light armor, Base Attack Bonus +12", "DR 2/- when wearing light armor");
-feato(FEAT_ARMOR_SPECIALIZATION_MEDIUM, "Armor Specialization (medium)", TRUE, TRUE, FALSE, "proficient with medium armor, Base Attack Bonus +12", "DR 2/- when wearing medium armor");
-feato(FEAT_ARMORED_MOBILITY, "Armored Mobility", TRUE, FALSE, FALSE, "none", "heavy armor is treated as medium armor");
+feato(FEAT_ARMOR_SPECIALIZATION_HEAVY, "Armor Specialization (heavy)", TRUE, TRUE, FALSE, "Armor Proficiency (Heavy), BAB +12", "DR 2/- when wearing heavy armor");
+feato(FEAT_ARMOR_SPECIALIZATION_LIGHT, "Armor Specialization (light)", TRUE, TRUE, FALSE, "Armor Proficiency (Light), BAB +12", "DR 2/- when wearing light armor");
+feato(FEAT_ARMOR_SPECIALIZATION_MEDIUM, "Armor Specialization (medium)", TRUE, TRUE, FALSE, "Armor Proficiency (Medium), BAB +12", "DR 2/- when wearing medium armor");
+feato(FEAT_ARMORED_MOBILITY, "Armored Mobility", TRUE, FALSE, FALSE, "-", "heavy armor is treated as medium armor");
 feato(FEAT_ARMORED_SPELLCASTING, "Armored Spellcasting", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_AUGMENT_SUMMONING, "Augment Summoning", TRUE, TRUE, FALSE, "none", "Summoned creatures gain +4 Str and Con.");
-feato(FEAT_AURA_OF_COURAGE, "Aura of Courage", TRUE, TRUE, FALSE, "none", "+2 bonus to fear saves for group members");
+feato(FEAT_AUGMENT_SUMMONING, "Augment Summoning", TRUE, TRUE, FALSE, "-", "Summoned creatures gain +4 Str and Con.");
+feato(FEAT_AURA_OF_COURAGE, "Aura of Courage", TRUE, TRUE, FALSE, "-", "+2 bonus to fear saves for group members");
 feato(FEAT_AURA_OF_EVIL, "Aura of Evil", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_AURA_OF_GOOD, "Aura of Good", TRUE, TRUE, FALSE, "none", "+10 ac to all group members");
+feato(FEAT_AURA_OF_GOOD, "Aura of Good", TRUE, TRUE, FALSE, "-", "+10 ac to all group members");
 feato(FEAT_AURA_OF_TERROR, "Aura of Terror", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_AUTOMATIC_QUICKEN_SPELL, "Automatic Quicken Spell", TRUE, TRUE, TRUE, "epic level, spellcraft 30 ranks, ability to cast level 9 arcane or divine spells", "You can cast level 0, 1, 2 & 3 spells automatically as if quickened.  Every addition rank increases the max spell level by 3.");
 feato(FEAT_BARDIC_KNOWLEDGE, "Bardic Knowledge", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_BARDIC_MUSIC, "Bardic Music", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_BLEEDING_ATTACK, "Bleeding Attack", TRUE, TRUE, FALSE, "rogue talent", "causes bleed damage on living targets who are hit by sneak attack.");
-feato(FEAT_BLIND_FIGHT, "Blind Fighting", TRUE, TRUE, FALSE, "none", "reduced penalties when fighting blind oragainst invisible opponents"); 
+feato(FEAT_BLIND_FIGHT, "Blind Fighting", TRUE, TRUE, FALSE, "-", "reduced penalties when fighting blind oragainst invisible opponents"); 
 feato(FEAT_BLINDSENSE, "Blindsense", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_BONE_ARMOR, "Bone Armor", TRUE, FALSE, FALSE, "death master level 1", "allows creation of bone armor and 10% arcane spell failure reduction in bone armor per rank.");
-feato(FEAT_BRANDING, "Branding", TRUE, FALSE, FALSE, "Artisan level 3", "All items made carry the artisan's brand");
+feato(FEAT_BONE_ARMOR, "Bone Armor", TRUE, FALSE, FALSE, "Death Master 1st", "allows creation of bone armor and 10% arcane spell failure reduction in bone armor per rank.");
+feato(FEAT_BRANDING, "Branding", TRUE, FALSE, FALSE, "Artisan level 3rd", "All items made carry the artisan's brand");
 feato(FEAT_BREATH_WEAPON, "Breath Weapon", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_BREW_POTION, "Brew Potion", FALSE, FALSE, FALSE, "Caster level 3rd", "Create magic potions."); 
-feato(FEAT_CALL_MOUNT, "Call Mount", TRUE, FALSE, FALSE, "Paladin level 5", "Allows you to call a paladin mount");
+feato(FEAT_CALL_MOUNT, "Call Mount", TRUE, FALSE, FALSE, "Paladin 5th", "Allows you to call a paladin mount");
 feato(FEAT_CAMOUFLAGE, "Camouflage", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_CANNY_DEFENSE, "Canny Defense", TRUE, FALSE, FALSE, "none", "add int bonus (max class level) to ac when useing one light weapon and no shield");
+feato(FEAT_CANNY_DEFENSE, "Canny Defense", TRUE, FALSE, FALSE, "-", "add int bonus (max class level) to ac when useing one light weapon and no shield");
 feato(FEAT_CHARISMA_BOOST, "Charisma Boost", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_CLAWS_AND_BITE, "Claws and Bite", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_CLEAVE, "Cleave", TRUE, TRUE, FALSE, "Power Attack", "Make an additional attack if the first one hits.");
-feato(FEAT_COMBAT_CASTING, "Combat Casting", TRUE, TRUE, FALSE, "none", "+4 bonus on concentration checks for defensive casting"); 
+feato(FEAT_COMBAT_CASTING, "Combat Casting", TRUE, TRUE, FALSE, "-", "+4 bonus on concentration checks for defensive casting"); 
 feato(FEAT_COMBAT_CHALLENGE, "Combat Challenge", TRUE, TRUE, FALSE, "5 ranks in diplomacy, intimidate or bluff", "allows you to make a mob focus their attention on you");
 feato(FEAT_COMBAT_EXPERTISE, "Combat Expertise", TRUE, TRUE, FALSE, "Int 13", "Trade attack bonus for AC bonus");
-feato(FEAT_COMBAT_REFLEXES, "Combat Reflexes", TRUE, TRUE, FALSE, "none", "Make additional attacks of opportunity");
+feato(FEAT_COMBAT_REFLEXES, "Combat Reflexes", TRUE, TRUE, FALSE, "-", "Make additional attacks of opportunity");
 feato(FEAT_COMBAT_STYLE, "Combat Style", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_COMBAT_STYLE_MASTERY, "Combat Style Master", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_CONSTITUTION_BOOST, "Constitution Boost", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -166,29 +166,29 @@ feato(FEAT_CRAFT_ROD, "Craft Rod", FALSE, FALSE, FALSE, "Caster level 9th", "Cre
 feato(FEAT_CRAFT_STAFF, "Craft Staff", FALSE, FALSE, FALSE, "Caster level 11th", "Create magic staves"); 
 feato(FEAT_CRAFT_WAND, "Craft Wand", FALSE, FALSE, FALSE, "Caster level 5th", "Create magic wands"); 
 feato(FEAT_CRAFT_WONDEROUS_ITEM, "Craft Wonderous Item", FALSE, FALSE, FALSE, "Caster level 3rd", "Create magic wondrous items"); 
-feato(FEAT_CRIPPLING_CRITICAL, "Crippling Critical", TRUE, FALSE, FALSE, "duelist level 10", "allows your criticals to have random additional effects");
-feato(FEAT_CRIPPLING_STRIKE, "Crippling Strike", TRUE, TRUE, FALSE, "Rogue level 10", "Chance to do 2 strength damage with a sneak attack.");
+feato(FEAT_CRIPPLING_CRITICAL, "Crippling Critical", TRUE, FALSE, FALSE, "Duelist 10th", "allows your criticals to have random additional effects");
+feato(FEAT_CRIPPLING_STRIKE, "Crippling Strike", TRUE, TRUE, FALSE, "Rogue 10th", "Chance to do 2 strength damage with a sneak attack.");
 feato(FEAT_CROWN_OF_KNIGHTHOOD, "crown of knighthood", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_DAMAGE_REDUCTION, "Damage Reduction", TRUE, TRUE, TRUE, "none", "1/- damage reduction per rank of feat, 3/- for epic");
-feato(FEAT_DAMAGE_REDUCTION_FS, "Damage Reduction", TRUE, FALSE, FALSE, "favored soul level 20", "reduces damage by 10 unless dealt by cold iron weapon");
+feato(FEAT_DAMAGE_REDUCTION, "Damage Reduction", TRUE, TRUE, TRUE, "-", "1/- damage reduction per rank of feat, 3/- for epic");
+feato(FEAT_DAMAGE_REDUCTION_FS, "Damage Reduction", TRUE, FALSE, FALSE, "Favored Soul 20th", "reduces damage by 10 unless dealt by cold iron weapon");
 feato(FEAT_DARK_BLESSING, "Dark Blessing", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DARKVISION, "Darkvision", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_DEATH_ATTACK, "Death Attack", TRUE, FALSE, FALSE, "Assassin level 1", "Chance to kill a target with sneak attack or Paralysis after 3 rounds of hidden study.");
-feato(FEAT_DECEITFUL, "Deceitful", TRUE, TRUE, FALSE, "none", "+2 to disguise and linguistics skill checks");
-feato(FEAT_DEFENSIVE_ROLL, "Defensive Roll", TRUE, TRUE, FALSE, "rogue level 10", "can roll reflex save vs damage dealt when hp is to be reduced below 0 to take half damage instead");
+feato(FEAT_DEATH_ATTACK, "Death Attack", TRUE, FALSE, FALSE, "Assassin 1st", "Chance to kill a target with sneak attack or Paralysis after 3 rounds of hidden study.");
+feato(FEAT_DECEITFUL, "Deceitful", TRUE, TRUE, FALSE, "-", "+2 to disguise and linguistics skill checks");
+feato(FEAT_DEFENSIVE_ROLL, "Defensive Roll", TRUE, TRUE, FALSE, "Rogue 10th", "can roll reflex save vs damage dealt when hp is to be reduced below 0 to take half damage instead");
 feato(FEAT_DEFENSIVE_STANCE, "Defensive Stance", TRUE, FALSE, FALSE, "Dwarven Defender level 1", "Allows you to fight defensively with bonuses to ac and stats.");
 feato(FEAT_DEFLECT_ARROWS, "Deflect Arrows", TRUE, TRUE, FALSE, "Dex 13, Improved Unarmed Strike", "Avoid one ranged attack per round"); 
-feato(FEAT_DEFT_HANDS, "Deft Hands", TRUE, TRUE, FALSE, "none", "+2 bonus on Disable Device and Sleight of Hand checks.");
+feato(FEAT_DEFT_HANDS, "Deft Hands", TRUE, TRUE, FALSE, "-", "+2 bonus on Disable Device and Sleight of Hand checks.");
 feato(FEAT_DEMORALIZE, "Demoralize", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_DETECT_EVIL, "Detect Evil", TRUE, TRUE, FALSE, "none", "able to detect evil alignments");
+feato(FEAT_DETECT_EVIL, "Detect Evil", TRUE, TRUE, FALSE, "-", "able to detect evil alignments");
 feato(FEAT_DETECT_GOOD, "Detect Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_DIAMOND_BODY, "Diamond Body", TRUE, FALSE, FALSE, "none", "immune to disease");
-feato(FEAT_DIAMOND_SOUL, "Diamond Soul", TRUE, FALSE, FALSE, "none", "spell resistance equal to class level + 10");
+feato(FEAT_DIAMOND_BODY, "Diamond Body", TRUE, FALSE, FALSE, "-", "immune to disease");
+feato(FEAT_DIAMOND_SOUL, "Diamond Soul", TRUE, FALSE, FALSE, "-", "spell resistance equal to class level + 10");
 feato(FEAT_DIEHARD, "Diehard", TRUE, TRUE, FALSE, "endurance", "will stay alive and conscious until -10 hp or lower");
 feato(FEAT_DISCERN_LIES, "Discern Lies", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DIVINE_BOND, "Divine Bond", TRUE, FALSE, FALSE, "paladin level 5", "bonuses to attack and damage rolls when active");
-feato(FEAT_DIVINE_GRACE, "Divine Grace", TRUE, TRUE, FALSE, "none", "charisma bonus added to all saving throw checks");
-feato(FEAT_DIVINE_HEALTH, "Divine Health", TRUE, TRUE, FALSE, "none", "immune to disease");
+feato(FEAT_DIVINE_GRACE, "Divine Grace", TRUE, TRUE, FALSE, "-", "charisma bonus added to all saving throw checks");
+feato(FEAT_DIVINE_HEALTH, "Divine Health", TRUE, TRUE, FALSE, "-", "immune to disease");
 feato(FEAT_DIVINE_MIGHT, "Divine Might", TRUE, TRUE, FALSE, "turn undead, power attack, cha 13, str 13", "Add cha bonus to damage for number of rounds equal to cha bonus");
 feato(FEAT_DIVINE_SHIELD, "Divine Shield", TRUE, TRUE, FALSE, "turn undead, power attack, cha 13, str 13", "Add cha bonus to armor class for number of rounds equal to cha bonus");
 feato(FEAT_DIVINE_VENGEANCE, "Divine Vengeance", TRUE, TRUE, FALSE, "turn undead, extra turning", "Add 2d6 damage against undead for number of rounds equal to cha bonus");
@@ -199,14 +199,14 @@ feato(FEAT_DRAGON_APOTHEOSIS, "Dragon Apotheosis", TRUE, FALSE, FALSE, "ask staf
 feato(FEAT_DRAGON_MOUNT_BOOST, "Dragon Mount Boost", TRUE, FALSE, FALSE, "dragon rider prestige class", "gives +18 hp, +10 ac, +1 hit and +1 damage per rank in the feat");
 feato(FEAT_DRAGON_MOUNT_BREATH, "Dragon Mount Breath", TRUE, FALSE, FALSE, "dragon rider prestige class", "allows you to use your dragon mount's breath weapon once per rank, per 10 minutes.");
 feato(FEAT_DWARVEN_CRAFTING, "Dwarven Crafting", TRUE, FALSE, FALSE, "Artisan level 15", "All weapons and armor made have higher bonuses");
-feato(FEAT_ELABORATE_PARRY, "Elaborate Parry", TRUE, FALSE, FALSE, "none", "when fighting defensively or total defense, gains +1 dodge ac per class level");
+feato(FEAT_ELABORATE_PARRY, "Elaborate Parry", TRUE, FALSE, FALSE, "-", "when fighting defensively or total defense, gains +1 dodge ac per class level");
 feato(FEAT_ELEMENTAL_IMMUNITY, "Elemental Immunity", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_ELVEN_CRAFTING, "Elven Crafting", TRUE, FALSE, FALSE, "Artisan level 11", "All equipment made is 50% weight and uses 50% materials");
-feato(FEAT_EMPOWER_SPELL, "Empower Spell", TRUE, TRUE, FALSE, "1st level caster", "all variable numerical effects of a spell are increased by one half"); 
-feato(FEAT_EMPOWERED_MAGIC, "Empowered Magic", TRUE, TRUE, FALSE, "spellcaster level 1", "+1 to all spell dcs");
-feato(FEAT_EMPTY_BODY, "Empty Body", TRUE, FALSE, FALSE, "none", "50% concealment for several rounds");
-feato(FEAT_ENDURANCE, "Endurance", TRUE, TRUE, FALSE, "none", "+4 to con and skill checks made to resist fatigue and 1 extra move point per level"); 
-feato(FEAT_ENERGY_RESISTANCE, "Energy Resistance", TRUE, TRUE, TRUE, "none", "reduces all energy related damage by 3 per rank");
+feato(FEAT_EMPOWER_SPELL, "Empower Spell", TRUE, TRUE, FALSE, "Caster level 1st", "all variable numerical effects of a spell are increased by one half"); 
+feato(FEAT_EMPOWERED_MAGIC, "Empowered Magic", TRUE, TRUE, FALSE, "Caster level 1st", "+1 to all spell dcs");
+feato(FEAT_EMPTY_BODY, "Empty Body", TRUE, FALSE, FALSE, "-", "50% concealment for several rounds");
+feato(FEAT_ENDURANCE, "Endurance", TRUE, TRUE, FALSE, "-", "+4 to con and skill checks made to resist fatigue and 1 extra move point per level"); 
+feato(FEAT_ENERGY_RESISTANCE, "Energy Resistance", TRUE, TRUE, TRUE, "-", "reduces all energy related damage by 3 per rank");
 feato(FEAT_ENHANCE_ARROW_ALIGNED, "Enhance Arrow (Aligned)", TRUE, FALSE, FALSE, "arcane archer level 10", "+1d6 holy/unholy damage with bows against different aligned creatures.");
 feato(FEAT_ENHANCE_ARROW_DISTANCE, "Enhance Arrow (Distance)", TRUE, FALSE, FALSE, "arcane archer level 6", "doubles range increment on weapon.");
 feato(FEAT_ENHANCE_ARROW_ELEMENTAL, "Enhance Arrow (Elemental)", TRUE, FALSE, FALSE, "arcane archer level 4", "+1d6 elemental damage with bows");
@@ -224,10 +224,10 @@ feato(FEAT_EPIC_SPELLCASTING, "epic spellcasting", TRUE, TRUE, FALSE, "lore 24, 
 feato(FEAT_EPIC_TOUGHNESS, "epic toughness", TRUE, TRUE, TRUE, "epic level", "You gain +30 max hp.");
 feato(FEAT_ESCHEW_MATERIALS, "Eschew Materials", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_ESSENCE_OF_UNDEATH, "Essence of Undeath", TRUE, FALSE, FALSE, "death master", "gives immunity to poison, disease, sneak attack and critical hits");
-feato(FEAT_EVASION, "Evasion", TRUE, FALSE, FALSE, "none", "on successful reflex save no damage from spells and effects");
+feato(FEAT_EVASION, "Evasion", TRUE, FALSE, FALSE, "-", "on successful reflex save no damage from spells and effects");
 feato(FEAT_EXCEPTIONAL_TURNING, "Exceptional Turning", TRUE, FALSE, FALSE, "sun cleric domain", "+1d10 hit dice of undead turned");
 feato(FEAT_EXTEND_RAGE, "Extend Rage", TRUE, TRUE, FALSE, "ask staff", "ask staff");
-feato(FEAT_EXTEND_SPELL, "Extend Spell", TRUE, TRUE, FALSE, "can cast spells", "durations of spells are 50% longer when enabled"); 
+feato(FEAT_EXTEND_SPELL, "Extend Spell", TRUE, TRUE, FALSE, "Caster level 1st", "durations of spells are 50% longer when enabled"); 
 feato(FEAT_EXTRA_MUSIC, "Extra Music", TRUE, TRUE, FALSE, "bard level 1", "4 extra bard music uses per day");
 feato(FEAT_EXTRA_RAGE, "Extra Rage", TRUE, TRUE, FALSE, "Rage class feature", "ask staff");
 feato(FEAT_EXTRA_TURNING, "Extra Turning", TRUE, TRUE, FALSE, "cleric or paladin", "2 extra turn attempts per day");
@@ -236,27 +236,27 @@ feato(FEAT_FASCINATE, "Fascinate", TRUE, FALSE, FALSE, "ask staff", "ask staff")
 feato(FEAT_FAST_CRAFTER, "Fast Crafter", TRUE, FALSE, FALSE, "Artisan level 1", "Reduces crafting time");
 feato(FEAT_FAST_HEALER, "Fast Healer", TRUE, TRUE, FALSE, "Can only be taken at level 1", "+2 hp healed per round");
 feato(FEAT_FAST_HEALING, "Fast Healing", TRUE, TRUE, TRUE, "epic level, con 25", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
-feato(FEAT_FAST_MOVEMENT, "Fast Movement", TRUE, FALSE, TRUE, "none", "10ft bonus to speed in light or medium armor");
-feato(FEAT_FASTER_MEMORIZATION, "Faster Memorization", TRUE, TRUE, FALSE, "memorization based spellcaster level 1", "decreases spell memorization time");
+feato(FEAT_FAST_MOVEMENT, "Fast Movement", TRUE, FALSE, TRUE, "-", "10ft bonus to speed in light or medium armor");
+feato(FEAT_FASTER_MEMORIZATION, "Faster Memorization", TRUE, TRUE, FALSE, "memorization based Caster level 1", "decreases spell memorization time");
 feato(FEAT_FAVOR_OF_DARKNESS, "Favor of Darkness", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_FAVORED_ENEMY, "Favored Enemy", TRUE, TRUE, TRUE, "ask staff", "ask staff");
 feato(FEAT_FAVORED_ENEMY_AVAILABLE, "Available Favored Enemy Choice(s)", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_FINAL_STAND, "Final Stand", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_FLURRY_OF_BLOWS, "Flurry of Blows", TRUE, FALSE, FALSE, "none", "extra attack when fighting unarmed at -2 to all attacks");
+feato(FEAT_FLURRY_OF_BLOWS, "Flurry of Blows", TRUE, FALSE, FALSE, "-", "extra attack when fighting unarmed at -2 to all attacks");
 feato(FEAT_FORGE_RING, "Forge Ring", FALSE, FALSE, FALSE, "Caster level 7th", "Create magic rings"); 
 feato(FEAT_GRACE, "Grace", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_GREAT_CHARISMA, "great charisma", TRUE, TRUE, TRUE, "epic level", "Increases Wisdom by 1");
 feato(FEAT_GREAT_CLEAVE, "great cleave", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_GREAT_CONSTITUTION, "great constitution", TRUE, TRUE, TRUE, "epic level", "Increases Constitution by 1");
 feato(FEAT_GREAT_DEXTERITY, "great dexterity", TRUE, TRUE, TRUE, "epic level", "Increases Dexterity by 1");
-feato(FEAT_GREAT_FORTITUDE, "Great Fortitude", TRUE, TRUE, FALSE, "none", "+2 on Fortitude saves");
+feato(FEAT_GREAT_FORTITUDE, "Great Fortitude", TRUE, TRUE, FALSE, "-", "+2 on Fortitude saves");
 feato(FEAT_GREAT_INTELLIGENCE, "great intelligence", TRUE, TRUE, TRUE, "epic level", "Increases Intelligence by 1");
 feato(FEAT_GREAT_SMITING, "Great Smiting", TRUE, TRUE, TRUE, "epic level", "For each rank in this feat you add your level in damage to all smite attacks");
 feato(FEAT_GREAT_STRENGTH, "great strength", TRUE, TRUE, TRUE, "epic level", "Increases Strength by 1");
 feato(FEAT_GREAT_WISDOM, "great wisdom", TRUE, TRUE, TRUE, "epic level", "Increases Wisdom by 1");
 feato(FEAT_GREATER_COMBAT_CHALLENGE, "Greater Combat Challenge", TRUE, TRUE, FALSE, "15 ranks in diplomacy, intimidate or bluff, improved combat challenge", "as improved combat challenge, but regular challenge is a minor action & challenge all is a move action ");
-feato(FEAT_GREATER_FLURRY, "Greater Flurry", TRUE, FALSE, FALSE, "none", "extra unarmed attack when using flurry of blows at -5 penalty");
-feato(FEAT_GREATER_RAGE, "Greater Rage", TRUE, FALSE, FALSE, "none", "+6 to str and con when raging");
+feato(FEAT_GREATER_FLURRY, "Greater Flurry", TRUE, FALSE, FALSE, "-", "extra unarmed attack when using flurry of blows at -5 penalty");
+feato(FEAT_GREATER_RAGE, "Greater Rage", TRUE, FALSE, FALSE, "-", "+6 to str and con when raging");
 feato(FEAT_GREATER_SPELL_FOCUS, "Greater Spell Focus", FALSE, FALSE, TRUE, "ask staff", "ask staff");
 feato(FEAT_GREATER_SPELL_PENETRATION, "Greater Spell Penetration", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_GREATER_TWO_WEAPON_FIGHTING, "Greater Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 19, base attack bonus 11+, two weapon & improved two weapon fighting", "gives an additional offhand weapon attack");
@@ -264,27 +264,27 @@ feato(FEAT_GREATER_WEAPON_FOCUS, "Greater Weapon Focus", TRUE, TRUE, TRUE, "prof
 feato(FEAT_GREATER_WEAPON_SPECIALIZATION, "Greater Weapon Specialization", TRUE, TRUE, TRUE, "proficiency, weapon focus, greater weapon focus, weapon specialization (all in same weapon), 12th level fighter", "additional +2 dam with weapon (stacks)");
 feato(FEAT_HASTE, "Haste", TRUE, FALSE, FALSE, "favored soul level 17", "can cast haste 3x per day");
 feato(FEAT_HEIGHTEN_SPELL, "Heighten Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff"); 
-feato(FEAT_HEROIC_INITIATIVE, "Heroic Initiative", TRUE, FALSE, FALSE, "Knight of the Crown level 1", "bonus to initiative checks");
+feato(FEAT_HEROIC_INITIATIVE, "Heroic Initiative", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to initiative checks");
 feato(FEAT_HIDE_IN_PLAIN_SIGHT, "Hide in Plain Sight", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_HONORABLE_WILL, "Honorable Will", TRUE, FALSE, FALSE, "Knight of the Crown level 4", "ask staff");
-feato(FEAT_HONORBOUND, "Honorbound", TRUE, TRUE, FALSE, "none", "+2 to saving throws against fear or compulsion effects, +2 to sense motive checks");
+feato(FEAT_HONORABLE_WILL, "Honorable Will", TRUE, FALSE, FALSE, "Knight of the Crown 4th", "ask staff");
+feato(FEAT_HONORBOUND, "Honorbound", TRUE, TRUE, FALSE, "-", "+2 to saving throws against fear or compulsion effects, +2 to sense motive checks");
 feato(FEAT_IMPROVED_BULL_RUSH, "Improved Bull Rush", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_COMBAT_CHALLENGE, "Improved Combat Challenge", TRUE, TRUE, FALSE, "10 ranks in diplomacy, intimidate or bluff, combat challenge", "allows you to make all mobs focus their attention on you");
 feato(FEAT_IMPROVED_COMBAT_STYLE, "Improved Combat Style", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_COUNTERSPELL, "Improved Counterspell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_CRITICAL, "Improved Critical", TRUE, TRUE, TRUE, "proficient with weapon chosen, base attack bonus of +8 or higher", "doubled critical threat rating for weapon chosen");
+feato(FEAT_IMPROVED_CRITICAL, "Improved Critical", TRUE, TRUE, TRUE, "proficient with weapon chosen, BAB +8 or higher", "doubled critical threat rating for weapon chosen");
 feato(FEAT_IMPROVED_DISARM, "Improved Disarm", FALSE, FALSE, FALSE, "ask staff", "ask staff"); 
-feato(FEAT_IMPROVED_EVASION, "Improved Evasion", TRUE, TRUE, FALSE, "rogue level 11", "as evasion but half damage of failed save");
+feato(FEAT_IMPROVED_EVASION, "Improved Evasion", TRUE, TRUE, FALSE, "Rogue 11th", "as evasion but half damage of failed save");
 feato(FEAT_IMPROVED_FAMILIAR, "Improved Familiar", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_FEINT, "Improved Feint", TRUE, TRUE, FALSE, "int 13, combat expertise", "can feint and make one attack per round (or sneak attack if they have it)");
+feato(FEAT_IMPROVED_FEINT, "Improved Feint", TRUE, TRUE, FALSE, "Int 13, combat expertise", "can feint and make one attack per round (or sneak attack if they have it)");
 feato(FEAT_IMPROVED_GRAPPLE, "Improved Grapple", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_INITIATIVE, "Improved Initiative", TRUE, TRUE, FALSE, "none", "+4 to initiative checks to see who attacks first each round");
+feato(FEAT_IMPROVED_INITIATIVE, "Improved Initiative", TRUE, TRUE, FALSE, "-", "+4 to initiative checks to see who attacks first each round");
 feato(FEAT_IMPROVED_INSTIGATION, "Improved Instigation", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_INTIMIDATION, "Improved Intimidation", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_NATURAL_WEAPON, "Improved Natural Weapons", TRUE, TRUE, FALSE, "natural weapon or improved unarmed strike", "increase damage dice by one category for natural weapons");
 feato(FEAT_IMPROVED_OVERRUN, "Improved Overrun", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_PRECISE_SHOT, "Improved Precise Shot", TRUE, FALSE, FALSE, "ranger level 11", "+1 to hit on all ranged attacks");
-feato(FEAT_IMPROVED_REACTION, "Improved Reaction", TRUE, FALSE, FALSE, "none", "+2 bonus to initiative checks (+4 at 8th class level)");
+feato(FEAT_IMPROVED_REACTION, "Improved Reaction", TRUE, FALSE, FALSE, "-", "+2 bonus to initiative checks (+4 at 8th class level)");
 feato(FEAT_IMPROVED_SHIELD_BASH, "Improved Shield Bash", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_SNEAK_ATTACK, "Improved Sneak Attack", TRUE, TRUE, TRUE, "sneak attack 1d6 or more", "each rank gives +5% chance per attack, per rank to be a sneak attack.");
 feato(FEAT_IMPROVED_SUNDER, "Improved Sunder", FALSE, FALSE, FALSE, "ask staff", "ask staff");
@@ -292,10 +292,10 @@ feato(FEAT_IMPROVED_TAUNTING, "Improved Taunting", TRUE, TRUE, FALSE, "ask staff
 feato(FEAT_IMPROVED_TRIP, "Improved Trip", TRUE, TRUE, FALSE, "int 13, combat expertise", "no attack of opportunity when tripping, +4 to trip check");
 feato(FEAT_IMPROVED_TURNING, "Improved Turning", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_TWO_WEAPON_FIGHTING, "Improved Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 17, two weapon fighting, base attack bonus of +6 or more", "extra attack with offhand weapon at -5 penalty");
-feato(FEAT_IMPROVED_UNARMED_STRIKE, "Improved Unarmed Strike", TRUE, TRUE, FALSE, "none", "unarmed attacks do not provoke attacks of opportunity, and do 1d6 damage");
-feato(FEAT_IMPROVED_UNCANNY_DODGE, "Improved Uncanny Dodge", TRUE, FALSE, FALSE, "none", "cannot be flanked (or sneak attacked");
+feato(FEAT_IMPROVED_UNARMED_STRIKE, "Improved Unarmed Strike", TRUE, TRUE, FALSE, "-", "unarmed attacks do not provoke attacks of opportunity, and do 1d6 damage");
+feato(FEAT_IMPROVED_UNCANNY_DODGE, "Improved Uncanny Dodge", TRUE, FALSE, FALSE, "-", "cannot be flanked (or sneak attacked");
 feato(FEAT_IMPROVED_WEAPON_FINESSE, "Improved Weapon Finesse", TRUE, TRUE, TRUE, "weapon finesse, weapon focus, base attack bonus of 4+", "add dex bonus to damage instead of str for light weapons");
-feato(FEAT_INCREASED_MULTIPLIER, "Increased Multiplier", TRUE, FALSE, FALSE, "Weapon Master level 3", "Weapons of choice have +1 to their critical multiplier");
+feato(FEAT_INCREASED_MULTIPLIER, "Increased Multiplier", TRUE, FALSE, FALSE, "Weapon Master 3rd", "Weapons of choice have +1 to their critical multiplier");
 feato(FEAT_INDOMITABLE_WILL, "Indomitable Will", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_INSPIRE_COMPETENCE, "Inspire Competence", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_INSPIRE_COURAGE, "Inspire Courage", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -303,30 +303,30 @@ feato(FEAT_INSPIRE_GREATNESS, "Inspire Greatness", TRUE, FALSE, FALSE, "ask staf
 feato(FEAT_INSPIRE_HEROICS, "Inspire Heroics", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_INTELLIGENCE_BOOST, "Intelligence Boost", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", TRUE, TRUE, FALSE, "empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
-feato(FEAT_IRON_WILL, "Iron Will", TRUE, TRUE, FALSE, "none", "+2 bonus on Will saves");
-feato(FEAT_KI_CRITICAL, "Ki Critical", TRUE, FALSE, FALSE, "Weapon Master level 7", "Weapons of choice have +1 to threat range per rank");
-feato(FEAT_KI_DAMAGE, "Ki Damage", TRUE, FALSE, FALSE, "Weapon Master level 1", "Weapons of Choice have 5 percent chance to deal max damage");
-feato(FEAT_KI_STRIKE, "Ki Strike", TRUE, FALSE, FALSE, "none", "unarmed attack considered a magical weapon");
-feato(FEAT_KNIGHTHOODS_FLOWER, "Knighthood's Flower", TRUE, FALSE, FALSE, "Knight of the Rose level 10", "ask staff");
-feato(FEAT_KNIGHTLY_COURAGE, "Knightly Courage", TRUE, FALSE, FALSE, "Knight of the Crown level 1", "bonus to fear checks");
+feato(FEAT_IRON_WILL, "Iron Will", TRUE, TRUE, FALSE, "-", "+2 bonus on Will saves");
+feato(FEAT_KI_CRITICAL, "Ki Critical", TRUE, FALSE, FALSE, "Weapon Master 7th", "Weapons of choice have +1 to threat range per rank");
+feato(FEAT_KI_DAMAGE, "Ki Damage", TRUE, FALSE, FALSE, "Weapon Master 1st", "Weapons of Choice have 5 percent chance to deal max damage");
+feato(FEAT_KI_STRIKE, "Ki Strike", TRUE, FALSE, FALSE, "-", "unarmed attack considered a magical weapon");
+feato(FEAT_KNIGHTHOODS_FLOWER, "Knighthood's Flower", TRUE, FALSE, FALSE, "Knight of the Rose 10th", "ask staff");
+feato(FEAT_KNIGHTLY_COURAGE, "Knightly Courage", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to fear checks");
 feato(FEAT_KNOCKDOWN, "Knockdown", TRUE, TRUE, FALSE, "improved trip", "when active, any melee attack that deals 10 damage or more invokes a free automatic trip attempt against your target");
-feato(FEAT_LAYHANDS, "Lay on Hands", TRUE, TRUE, FALSE, "none", "heals (class level) * (charisma bonus) hit points once per day");
-feato(FEAT_LEADERSHIP, "Leadership", TRUE, TRUE, FALSE, "level 6 character", "can have more and higher level followers, group members get extra exp on kills and hit/ac bonuses");
+feato(FEAT_LAYHANDS, "Lay on Hands", TRUE, TRUE, FALSE, "-", "heals (class level) * (charisma bonus) hit points once per day");
+feato(FEAT_LEADERSHIP, "Leadership", TRUE, TRUE, FALSE, "Character level 7th", "can have more and higher level followers, group members get extra exp on kills and hit/ac bonuses");
 feato(FEAT_LEADERSHIP_BONUS, "Improved Leadership", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_LEARNED_CRAFTER, "Learned Crafter", TRUE, FALSE, FALSE, "Artisan level 1", "Artisan gains exp for crafting items and harvesting");
-feato(FEAT_LIGHTNING_REFLEXES, "Lightning Reflexes", TRUE, TRUE, FALSE, "none", "+2 bonus on Reflex saves");
+feato(FEAT_LIGHTNING_REFLEXES, "Lightning Reflexes", TRUE, TRUE, FALSE, "-", "+2 bonus on Reflex saves");
 feato(FEAT_LINGERING_SONG, "Lingering Song", TRUE, TRUE, FALSE, "bard level 1", "5 extra rounds for bard songs");
-feato(FEAT_LOW_LIGHT_VISION, "Low Light Vision", TRUE, FALSE, FALSE, "none", "can see in the dark outside only");
-feato(FEAT_MAGICAL_APTITUDE, "Magical Aptitude", TRUE, TRUE, FALSE, "none", "+2 to spellcraft and use magical device skill checks");
+feato(FEAT_LOW_LIGHT_VISION, "Low Light Vision", TRUE, FALSE, FALSE, "-", "can see in the dark outside only");
+feato(FEAT_MAGICAL_APTITUDE, "Magical Aptitude", TRUE, TRUE, FALSE, "-", "+2 to spellcraft and use magical device skill checks");
 feato(FEAT_MANYSHOT, "Manyshot", TRUE, FALSE, FALSE, "ranger level 6", "extra ranged attack when rapid shot turned on");
 feato(FEAT_MASS_SUGGESTION, "Mass Suggestion", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_MASTERWORK_CRAFTING, "Masterwork Crafting", TRUE, FALSE, FALSE, "Artisan level 6", "All equipment made is masterwork");
-feato(FEAT_MAXIMIZE_SPELL, "Maximize Spell", TRUE, TRUE, FALSE, "can cast spells", "all spells cast while maximised enabled do maximum effect.");
+feato(FEAT_MAXIMIZE_SPELL, "Maximize Spell", TRUE, TRUE, FALSE, "Caster level 1st", "all spells cast while maximised enabled do maximum effect.");
 feato(FEAT_MIGHT_OF_HONOR, "Might of Honor", TRUE, FALSE, FALSE, "Knight of the Crown level 6", "ask staff");
 feato(FEAT_MIGHTY_RAGE, "Mighty Rage", TRUE, FALSE, FALSE, "str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
 feato(FEAT_MOBILE_DEFENSE, "Mobile Defense", TRUE, FALSE, FALSE, "Dwarven Defender level 8", "Allows one to move while in defensive stance");
 feato(FEAT_MOBILITY, "Mobility", TRUE, TRUE, FALSE, "Dex 13, Dodge.", "+4 AC against attacks of opportunity from movement");
-feato(FEAT_MONKEY_GRIP, "Monkey Grip", TRUE, TRUE, TRUE, "none", "can wield weapons one size larger than wielder in one hand with -2 to attacks.");
+feato(FEAT_MONKEY_GRIP, "Monkey Grip", TRUE, TRUE, TRUE, "-", "can wield weapons one size larger than wielder in one hand with -2 to attacks.");
 feato(FEAT_MOUNTED_ARCHERY, "Mounted Archery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_MOUNTED_COMBAT, "Mounted Combat", TRUE, TRUE, FALSE, "ride rank 1", "once per round rider may negate a hit against him with a successful ride vs attack roll check");
 feato(FEAT_NATURAL_ARMOR_INCREASE, "Natural Armor Increase", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -336,30 +336,30 @@ feato(FEAT_NO_RETREAT, "No Retreat", TRUE, FALSE, FALSE, "duelist level 9", "all
 feato(FEAT_ONE_THOUGHT, "One Thought", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_OPPORTUNIST, "Opportunist", TRUE, TRUE, FALSE, "Rogue level 10", "once per round the rogue may make an attack of opportunity against a foe an ally just struck");
 feato(FEAT_PARRY, "Parry", TRUE, FALSE, FALSE, "duelist level 2", "allows you to parry incoming attacks");
-feato(FEAT_PERFECT_SELF, "Perfect Self", TRUE, FALSE, FALSE, "none", "10/magic damage reduction");
+feato(FEAT_PERFECT_SELF, "Perfect Self", TRUE, FALSE, FALSE, "-", "10/magic damage reduction");
 feato(FEAT_PERFECT_TWO_WEAPON_FIGHTING, "Perfect Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 25, greater two weapon fighting", "Extra attack with offhand weapon");
-feato(FEAT_PERSUASIVE, "Persuasive", TRUE, TRUE, FALSE, "none", "+2 bonus on Diplomacy and Intimidate checks");
-feato(FEAT_POINT_BLANK_SHOT, "Point Blank Shot", TRUE, TRUE, FALSE, "none", "+1 to hit and dam rolls with ranged weapons in the same room");
+feato(FEAT_PERSUASIVE, "Persuasive", TRUE, TRUE, FALSE, "-", "+2 bonus on Diplomacy and Intimidate checks");
+feato(FEAT_POINT_BLANK_SHOT, "Point Blank Shot", TRUE, TRUE, FALSE, "-", "+1 to hit and dam rolls with ranged weapons in the same room");
 feato(FEAT_POISON_SAVE_BONUS,  "Poison Save Bonus", TRUE, FALSE, FALSE, "Assassin level 2", "Bonus to all saves against poison.");
 feato(FEAT_POISON_USE, "Poison Use", TRUE, FALSE, FALSE, "Assassin level 1", "Trained use in poisons without risk of poisoning self.");
 feato(FEAT_POWER_ATTACK, "Power Attack", TRUE, TRUE, FALSE, "str 13", "subtract a number from hit and add to dam.  If 2H weapon add 2x dam instead");
 feato(FEAT_POWER_CRITICAL, "Power Critical", TRUE, TRUE, TRUE, "weapon focus in chosen weapon, base attack bonus +4 or higher", "+4 to rolls to confirm critical hits.");
 feato(FEAT_POWERFUL_SNEAK, "Powerful Sneak", TRUE, TRUE, FALSE, "rogue talent", "opt to take -2 to attacks and treat all sneak attack dice rolls of 1 as a 2");
 feato(FEAT_PRECISE_SHOT, "Precise Shot", TRUE, TRUE, FALSE, "point blank shot", "You may shoot in melee without the standard -4 to hit penalty");
-feato(FEAT_PRECISE_STRIKE, "Precise Strike", TRUE, FALSE, FALSE, "none", "+1d6 damage when using only one weapon and no shield");
+feato(FEAT_PRECISE_STRIKE, "Precise Strike", TRUE, FALSE, FALSE, "-", "+1d6 damage when using only one weapon and no shield");
 feato(FEAT_PROFICIENT_CRAFTER, "Proficient Crafter", TRUE, FALSE, FALSE, "Artisan level 2", "Increases all crafting skills");
 feato(FEAT_PROFICIENT_HARVESTER, "Proficient Harvester", TRUE, FALSE, FALSE, "Artisan level 4", "Increases all harvesting skills");
-feato(FEAT_PURITY_OF_BODY, "Purity of Body", TRUE, FALSE, FALSE, "none", "immune to poison");
+feato(FEAT_PURITY_OF_BODY, "Purity of Body", TRUE, FALSE, FALSE, "-", "immune to poison");
 feato(FEAT_QUICK_DRAW, "Quick Draw", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_QUICKEN_SPELL, "Quicken Spell", TRUE, TRUE, FALSE, "can cast spells", "allows you to cast spell as a move action instead of standard action");
-feato(FEAT_QUIVERING_PALM, "Quivering Palm", TRUE, FALSE, FALSE, "none", "chance to kill on strike with unarmed attack");
-feato(FEAT_RAGE, "Rage", TRUE, FALSE, TRUE, "none", "+4 bonus to con and str for several rounds");
+feato(FEAT_QUICKEN_SPELL, "Quicken Spell", TRUE, TRUE, FALSE, "Caster level 1st", "allows you to cast spell as a move action instead of standard action");
+feato(FEAT_QUIVERING_PALM, "Quivering Palm", TRUE, FALSE, FALSE, "-", "chance to kill on strike with unarmed attack");
+feato(FEAT_RAGE, "Rage", TRUE, FALSE, TRUE, "-", "+4 bonus to con and str for several rounds");
 feato(FEAT_RALLYING_CRY, "Rallying Cry", TRUE, FALSE, FALSE, "Knight of the Rose level 1", "ask staff");
 feato(FEAT_RAPID_RELOAD, "Rapid Reload", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_RAPID_SHOT, "Rapid Shot", TRUE, TRUE, FALSE, "dex 13, point blank shot", "can make extra attack per round with ranged weapon at -2 to all attacks");
 feato(FEAT_READ_OMENS, "Read Omens", TRUE, FALSE, FALSE, "Knight of the Thorn level 1", "ask staff");
 feato(FEAT_READ_PORTENTS, "Read Portents", TRUE, FALSE, FALSE, "Knight of the Thorn level 6", "ask staff");
-feato(FEAT_REMOVE_DISEASE, "Remove Disease", TRUE, TRUE, FALSE, "none", "can cure diseases");
+feato(FEAT_REMOVE_DISEASE, "Remove Disease", TRUE, TRUE, FALSE, "-", "can cure diseases");
 feato(FEAT_RESIST_NATURES_LURE, "Resist Nature's Lure", TRUE, FALSE, FALSE, "druid level 4", "+4 to spells and spell like abilities from fey creatures");
 feato(FEAT_RIDE_BY_ATTACK, "Ride-By Attack", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_RIPOSTE, "Riposte", TRUE, FALSE, FALSE, "duelist level 5", "allows you to gain an attack of opportunity after a successful parry");
@@ -369,33 +369,33 @@ feato(FEAT_SACRED_FLAMES, "Sacred Flames", TRUE, FALSE, FALSE, "sacred fist leve
 feato(FEAT_SCAVENGE, "Scavenge", TRUE, FALSE, FALSE, "Artisan level 5", "Can find materials on corpses");
 feato(FEAT_SCRIBE_SCROLL, "Scribe Scroll", FALSE, FALSE, FALSE, "Caster level 1st", "Create magic scrolls");
 feato(FEAT_SELF_CONCEALMENT, "Self Concealment", TRUE, TRUE, TRUE, "stealth 30 ranks, dex 30, tumble 30 ranks", "10% miss chance for attacks against you per rank");
-feato(FEAT_SELF_SUFFICIENT, "Self Sufficient", TRUE, TRUE, FALSE, "none", "You get a +2 bonus on all Heal checks and Survival checks.");
+feato(FEAT_SELF_SUFFICIENT, "Self Sufficient", TRUE, TRUE, FALSE, "-", "You get a +2 bonus on all Heal checks and Survival checks.");
 feato(FEAT_SHOT_ON_THE_RUN, "Shot on the Run", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SILENT_SPELL, "Silent Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SKILL_FOCUS, "Skill Focus", TRUE, TRUE, TRUE, "none", "+3 in chosen skill");
+feato(FEAT_SKILL_FOCUS, "Skill Focus", TRUE, TRUE, TRUE, "-", "+3 in chosen skill");
 feato(FEAT_SLEEP_PARALYSIS_IMMUNITY, "Sleep & Paralysis Immunity", TRUE, FALSE, FALSE, "Dragon Disciple level 10", "ask staff");
 feato(FEAT_SLIPPERY_MIND, "Slippery Mind", TRUE, TRUE, FALSE, "Rogue level 11+", "extra chance for will saves");
-feato(FEAT_SLOW_FALL, "Slow Fall", TRUE, FALSE, FALSE, "none", "no damage for falling 10 ft/feat rank");
-feato(FEAT_SMITE_EVIL, "Smite Evil", TRUE, FALSE, FALSE, "none", "add level to hit roll and charisma bonus to damage");
+feato(FEAT_SLOW_FALL, "Slow Fall", TRUE, FALSE, FALSE, "-", "no damage for falling 10 ft/feat rank");
+feato(FEAT_SMITE_EVIL, "Smite Evil", TRUE, FALSE, FALSE, "-", "add level to hit roll and charisma bonus to damage");
 feato(FEAT_SMITE_GOOD, "Smite Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SNEAK_ATTACK, "Sneak Attack", TRUE, TRUE, TRUE, "as epic feat: sneak attack +8d6", "+1d6 to damage when flanking");
 feato(FEAT_SNEAK_ATTACK_OF_OPPORTUNITY, "Sneak Attack of Opportunity", TRUE, TRUE, FALSE, "sneak attack +8d6, opportunist feat", "makes all opportunity attacks sneak attacks");
 feato(FEAT_SONG_OF_FREEDOM, "Song of Freedom", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SOUL_OF_KNIGHTHOOD, "Soul of Knighthood", TRUE, FALSE, FALSE, "Knight of the Sword level 10", "ask staff");
-feato(FEAT_SPELL_FOCUS, "Spell Focus", FALSE, FALSE, FALSE, "1st level caster", "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.");
+feato(FEAT_SPELL_FOCUS, "Spell Focus", FALSE, FALSE, FALSE, "Caster level 1st", "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.");
 feato(FEAT_SPELL_MASTERY, "Spell Mastery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPELL_PENETRATION, "Spell Penetration", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPIRITED_CHARGE, "Spirited Charge", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPRING_ATTACK, "Spring Attack", TRUE, TRUE, FALSE, "dodge, mobility, base attack +4, dex 13+", "free attack of opportunity against combat abilities (ie. kick, trip)");
 feato(FEAT_STEADFAST_DETERMINATION, "Steadfast Determination", TRUE, TRUE, FALSE, "endurance feat", "allows you to use your con bonus instead of your wis bonus for will saves");
-feato(FEAT_STEALTHY, "Stealthy", TRUE, TRUE, FALSE, "none", "+2 bonus on Escape Artist and Stealth checks");
+feato(FEAT_STEALTHY, "Stealthy", TRUE, TRUE, FALSE, "-", "+2 bonus on Escape Artist and Stealth checks");
 feato(FEAT_STILL_MIND, "Still Mind", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STILL_SPELL, "Still Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STRENGTH_BOOST, "Strength Boost", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STRENGTH_OF_HONOR, "Strength of Honor", TRUE, FALSE, TRUE, "Knight of the Crown level 1", "+4 to strength for several rounds");
 feato(FEAT_STUNNING_FIST, "Stunning Fist", TRUE, TRUE, FALSE, "Dex 13, Wis 13, Improved Unarmed Strike, base attack bonus +8", "Stun opponent with an unarmed strike");
 feato(FEAT_SUGGESTION, "Suggestion", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SUMMON_FAMILIAR, "Summon Familiar", TRUE, FALSE, FALSE, "none", "summon a magical pet");
+feato(FEAT_SUMMON_FAMILIAR, "Summon Familiar", TRUE, FALSE, FALSE, "-", "summon a magical pet");
 feato(FEAT_SUMMON_GREATER_UNDEAD, "Summon Greater Undead", TRUE, FALSE, FALSE, "death master", "allows innate use of summon greater undead spell 3x per day");
 feato(FEAT_SUMMON_UNDEAD, "Summon Undead", TRUE, FALSE, FALSE, "death master", "allows innate use of summon undead spell 3x per day");
 feato(FEAT_SUNDER, "Sunder", FALSE, FALSE, FALSE, "ask staff", "ask staff");
@@ -403,25 +403,25 @@ feato(FEAT_SUPERIOR_WEAPON_FOCUS, "Superior Weapon Focus", TRUE, FALSE, FALSE, "
 feato(FEAT_SWARM_OF_ARROWS, "Swarm of Arrows", TRUE, TRUE, FALSE, "dex 23, point blank shot, rapid shot, weapon focus", "allows you to make a single ranged attack against everyone in range.");
 feato(FEAT_SWIFT_TRACKER, "Swift Tracker", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_THOUSAND_FACES, "A Thousand Faces", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_TIMELESS_BODY, "Timeless Body", TRUE, FALSE, FALSE, "none", "immune to negative agining effects");
-feato(FEAT_TIRELESS_RAGE, "Tireless Rage", TRUE, FALSE, FALSE, "none", "no fatigue after raging");
-feato(FEAT_TONGUE_OF_THE_SUN_AND_MOON, "Tongue of the Sun and Moon", TRUE, FALSE, FALSE, "none", "A monk of 17th level or higher can speak with any living creature");
+feato(FEAT_TIMELESS_BODY, "Timeless Body", TRUE, FALSE, FALSE, "-", "immune to negative agining effects");
+feato(FEAT_TIRELESS_RAGE, "Tireless Rage", TRUE, FALSE, FALSE, "-", "no fatigue after raging");
+feato(FEAT_TONGUE_OF_THE_SUN_AND_MOON, "Tongue of the Sun and Moon", TRUE, FALSE, FALSE, "-", "A monk of 17th level or higher can speak with any living creature");
 feato(FEAT_TOUCH_OF_UNDEATH, "Touch of Undeath", TRUE, FALSE, FALSE, "death master", "allows for paralytic or instant death touch");
-feato(FEAT_TOUGHNESS, "Toughness", TRUE, TRUE, FALSE, "none", "+3 hit points, +1 per Hit Die beyond 3");
-feato(FEAT_TRACK, "Track", FALSE, FALSE, FALSE, "none", "use survival skill to track others");
+feato(FEAT_TOUGHNESS, "Toughness", TRUE, TRUE, FALSE, "-", "+3 hit points, +1 per Hit Die beyond 3");
+feato(FEAT_TRACK, "Track", FALSE, FALSE, FALSE, "-", "use survival skill to track others");
 feato(FEAT_TRACKLESS_STEP, "Trackless Step", TRUE, FALSE, FALSE, "druid level 3", "cannot be tracked");
 feato(FEAT_TRAMPLE, "Trample", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_TRAP_SENSE, "Trap Sense", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_TRAPFINDING, "Trapfinding", TRUE, FALSE, FALSE, "ask staff", "A rogue adds 1/2 her level to Disable Device skill checks (minimum +1).");
-feato(FEAT_TURN_UNDEAD, "Turn Undead", TRUE, TRUE, FALSE, "none", "can cause fear in or destroy undead based on class level and charisma bonus");
+feato(FEAT_TRAPFINDING, "Trapfinding", TRUE, FALSE, FALSE, "ask staff", "A rogue adds 1/2 her level to Disable\n Device skill checks (minimum +1).");
+feato(FEAT_TURN_UNDEAD, "Turn Undead", TRUE, TRUE, FALSE, "-", "can cause fear in or destroy undead based on class level and charisma bonus");
 feato(FEAT_TWO_WEAPON_DEFENSE, "Two Weapon Defense", TRUE, TRUE, FALSE, "dex 15, two weapon fighting", "when wielding two weapons receive +1 shield ac bonus");
 feato(FEAT_TWO_WEAPON_FIGHTING, "Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 15", "attacks with offhand weapons done at reduced penalties");
 feato(FEAT_UNARMED_STRIKE, "Unarmed Strike", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_UNBREAKABLE_WILL, "Unbreakable Will", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "none", "retains dex bonus when flat footed or against invis opponents");
+feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "-", "retains dex bonus when flat footed or against invis opponents");
 feato(FEAT_UNDEAD_FAMILIAR, "Undead Familiar", TRUE, FALSE, FALSE, "death master level 3", "allows for undead familiars");
 feato(FEAT_VENOM_IMMUNITY, "Venom Immunity", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "base attack of +1", "use dex for hit roll of weapons smaller than wielder or rapier, whip, spiked chain");
+feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "use dex for hit roll of weapons smaller than wielder or rapier, whip, spiked chain");
 feato(FEAT_WEAPON_FLURRY, "Weapon Flurry", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization, weapon mastery in specific weapon, base attack bonus +14", "2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action");
 feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "proficient in weapon, base attack of +1", "+1 to hit rolls for selected weapon");
 feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization in specific weapon, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
@@ -431,17 +431,17 @@ feato(FEAT_WEAPON_PROFICIENCY_DEITY, "Weapon Proficiency (Deity)", TRUE, FALSE, 
 feato(FEAT_WEAPON_PROFICIENCY_DRUID, "Weapon Proficiency (Druid)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_ELF, "Weapon Proficiency (Elf)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_EXOTIC, "Weapon Proficiency (Exotic)", TRUE, TRUE, TRUE, "base attack bonus +1", "You understand how to use that type of exotic weapon in combat.");
-feato(FEAT_WEAPON_PROFICIENCY_MARTIAL, "Weapon Proficiency (Martial)", TRUE, TRUE, FALSE, "none", "You understand how to use martial weapons in combat.");
+feato(FEAT_WEAPON_PROFICIENCY_MARTIAL, "Weapon Proficiency (Martial)", TRUE, TRUE, FALSE, "-", "You understand how to use martial weapons in combat.");
 feato(FEAT_WEAPON_PROFICIENCY_MONK, "Weapon Proficiency (Monk)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_ROGUE, "Weapon Proficiency (Rogue)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_WEAPON_PROFICIENCY_SIMPLE, "Weapon Proficiency (Simple)", TRUE, TRUE, FALSE, "none", "You are trained in the use of basic weapons.");
+feato(FEAT_WEAPON_PROFICIENCY_SIMPLE, "Weapon Proficiency (Simple)", TRUE, TRUE, FALSE, "-", "You are trained in the use of basic\n weapons.");
 feato(FEAT_WEAPON_PROFICIENCY_WIZARD, "Weapon Proficiency (Wizard)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_SPECIALIZATION, "Weapon Specialization", TRUE, TRUE, TRUE, "proficiency with weapon, weapon focus in weapon, 4th level fighter", "+2 to dam rolls with weapon");
 feato(FEAT_WEAPON_SUPREMACY, "Weapon Supremacy", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization, weapon master, greater weapon focus, greater weapon specialization in specific weapon, fighter level 18", "+4 to resist disarm, ignore grapples, add +5 to hit roll when miss by 5 or less, can take 10 on attack rolls, +1 bonus to AC when wielding weapon");
 feato(FEAT_WEAPON_TOUCH, "Weapon Touch", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WHIRLWIND_ATTACK, "Whirlwind Attack", TRUE, TRUE, FALSE, "dex 13, int 13, combat expertise, dodge, mobility, spring attack, base attack bonus +4", "allows you to attack everyone in the room or everyone you are fighting (with contain) as a standard action");
-feato(FEAT_WHOLENESS_OF_BODY, "Wholeness of Body", TRUE, FALSE, FALSE, "none", "can heal class level *2 hp to self");
-feato(FEAT_WIDEN_SPELL, "Widen Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_WHOLENESS_OF_BODY, "Wholeness of Body", TRUE, FALSE, FALSE, "-", "can heal class level *2 hp to self");
+feato(FEAT_WIDEN_SPELL, "Widen Spell", FALSE, FALSE, FALSE, "Caster level 1st", "ask staff");
 feato(FEAT_WILD_EMPATHY, "Wild Empathy", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WILD_SHAPE, "Wild Shape", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WILD_SHAPE_ELEMENTAL, "Wild Shape (Elemental)", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -1038,7 +1038,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
 
 
 
-  case FEAT_WEAPON_FINESSE:
   case FEAT_WEAPON_FOCUS:
     if (GET_BAB(ch) < 1)
       return FALSE;
@@ -1418,7 +1417,14 @@ void list_feats_known(struct char_data *ch, char *arg)
 
     row = create_row(grid);
     row_append_cell(row, 35, "Feats");
-    row_append_cell(row, 40, "Benefits");
+    if (mode == 2)
+    {
+      row_append_cell(row, 40, "Prerequisites");
+    }
+    else
+    {
+      row_append_cell(row, 40, "Benefits");
+    }
 
     for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
@@ -1432,46 +1438,94 @@ void list_feats_known(struct char_data *ch, char *arg)
       if (i == FEAT_FAST_CRAFTER) 
       {
           row = create_row(grid);
-          if (mode == 1) 
+          row_append_cell(row, 35, "%s", feat_list[i].name);
+          
+          if (mode == 2) 
           {
-            row_append_cell(row, 35, "%s", feat_list[i].name);
-            row_append_cell(row, 40, "@W%s \n(-%d seconds)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
-          } 
-          else if (mode == 2) 
-          {
-            row_append_cell(row, 35, "%s", feat_list[i].name);
             row_append_cell(row, 40, "@W%s \n(-%d seconds)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
           } 
           else 
           {
-            row_append_cell(row, 35, "%s", feat_list[i].name);
-            row_append_cell(row, 40, "%s", feat_list[i].description, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
-          }
-
+            row_append_cell(row, 40, "@W%s \n(-%d seconds)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
+          } 
     }
-
+    else if (i == FEAT_WEAPON_MASTERY) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_MASTERY, j) || has_weapon_feat_full(ch, FEAT_WEAPON_MASTERY, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      }
+    else if (i == FEAT_WEAPON_FOCUS) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, j) || has_weapon_feat_full(ch, FEAT_WEAPON_FOCUS, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
+    else if (i == FEAT_WEAPON_FLURRY) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FLURRY, j) || has_weapon_feat_full(ch, FEAT_WEAPON_FLURRY, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
     // All non-specific feats go here.
     else
     {
       row = create_row(grid);
-        if (mode == 1) 
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+        if (mode == 2) 
         {
-          row_append_cell(row, 35, "%s", feat_list[i].name);
-          row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
-        } 
-        else if (mode == 2) 
-        {
-          row_append_cell(row, 35, "%s", feat_list[i].name);
-           row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+          row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
         } 
         else 
         {
-          row_append_cell(row, 35, "%s", feat_list[i].name);
-          row_append_cell(row, 40, "%s", feat_list[i].description);
+          row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
         }
       }
   }
 }
+
+    row = create_row(grid);
+    row_append_cell(row, 75, "@WSyntax:\nfeats <known|available|complete> <description|requisitesclassfeats>\n(both arguments optional)@n");
 
     grid_to_char(grid, ch, TRUE);
 
@@ -1488,6 +1542,7 @@ void list_feats_known(struct char_data *ch, char *arg)
     i = feat_sort_info[sortpos];
     if (HAS_FEAT(ch, i)  && feat_list[i].in_game) 
     {
+      // COMPLETED
       if (i == FEAT_WEAPON_FOCUS) 
       {
         for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
@@ -1522,6 +1577,7 @@ void list_feats_known(struct char_data *ch, char *arg)
           }	  
         }
       } 
+      // COMPLETED
       else if (i == FEAT_WEAPON_MASTERY) 
       {
         for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
@@ -1555,7 +1611,9 @@ void list_feats_known(struct char_data *ch, char *arg)
 
           }	  
         }
-      } else if (i == FEAT_WEAPON_FLURRY) 
+      } 
+      // COMPLETED
+      else if (i == FEAT_WEAPON_FLURRY) 
       {
         for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
         {
@@ -2259,7 +2317,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_GREAT_STRENGTH) {
+      } 
+      else if (i == FEAT_GREAT_STRENGTH) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_STRENGTH));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2272,7 +2331,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_GREAT_DEXTERITY) {
+      } 
+      else if (i == FEAT_GREAT_DEXTERITY) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_DEXTERITY));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2285,7 +2345,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_GREAT_CONSTITUTION) {
+      } 
+      else if (i == FEAT_GREAT_CONSTITUTION) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CONSTITUTION));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2298,7 +2359,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_GREAT_INTELLIGENCE) {
+      } 
+      else if (i == FEAT_GREAT_INTELLIGENCE) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_INTELLIGENCE));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2311,7 +2373,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_GREAT_WISDOM) {
+      } 
+      else if (i == FEAT_GREAT_WISDOM) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_WISDOM));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2324,7 +2387,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_GREAT_CHARISMA) {
+      } 
+      else if (i == FEAT_GREAT_CHARISMA) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CHARISMA));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2337,7 +2401,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_POISON_SAVE_BONUS) {
+      } 
+      else if (i == FEAT_POISON_SAVE_BONUS) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_POISON_SAVE_BONUS));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2350,7 +2415,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_SNEAK_ATTACK) {
+      } 
+      else if (i == FEAT_SNEAK_ATTACK) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%dd6):", feat_list[i].name, HAS_FEAT(ch, FEAT_SNEAK_ATTACK));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2363,7 +2429,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_SELF_CONCEALMENT) {
+      } 
+      else if (i == FEAT_SELF_CONCEALMENT) {
           if (mode == 1) {
             sprintf(buf3, "%s (%d%% miss):", feat_list[i].name, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10);
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2376,7 +2443,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_ENHANCE_ARROW_MAGIC) {
+      } 
+      else if (i == FEAT_ENHANCE_ARROW_MAGIC) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_ARROW_MAGIC));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2389,7 +2457,9 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_FAST_CRAFTER) {
+      } 
+      // COMPLETED
+      else if (i == FEAT_FAST_CRAFTER) {
           if (mode == 1) {
             sprintf(buf3, "%s (%d%% less time):", feat_list[i].name, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2402,7 +2472,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_PROFICIENT_CRAFTER) {
+      } 
+      else if (i == FEAT_PROFICIENT_CRAFTER) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d to checks):", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2415,7 +2486,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           }
           strcat(buf2, buf);
           none_shown = FALSE;
-      } else if (i == FEAT_PROFICIENT_HARVESTER) {
+      } 
+      else if (i == FEAT_PROFICIENT_HARVESTER) {
           if (mode == 1) {
             sprintf(buf3, "%s (+%d to checks):", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER));
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
@@ -2430,7 +2502,8 @@ void list_feats_known(struct char_data *ch, char *arg)
           none_shown = FALSE;
       } 
       else 
-      {
+       // COMPLETED
+     {
         if (mode == 1) 
         {
           sprintf(buf3, "%s", feat_list[i].name);
@@ -2457,20 +2530,20 @@ void list_feats_known(struct char_data *ch, char *arg)
     }
   }
 
-  if (!mode) 
-  {
-    if (count % 2 != 1)
-      strcat(buf2, "\r\n");
-  }
-  strcat(buf2, "\r\n");
+  // if (!mode) 
+  // {
+  //   if (count % 2 != 1)
+  //     strcat(buf2, "\r\n");
+  // }
+  // strcat(buf2, "\r\n");
 
-  if (none_shown) 
-  {
-    sprintf(buf, "You do not know any feats at this time.\r\n");
-    strcat(buf2, buf);
-  }
+  // if (none_shown) 
+  // {
+  //   sprintf(buf, "You do not know any feats at this time.\r\n");
+  //   strcat(buf2, buf);
+  // }
    
-  strcat(buf2, "@WSyntax: feats <known|available|complete> <description|requisites|classfeats> (both arguments optional)@n\r\n");
+  // strcat(buf2, "@WSyntax: feats <known|available|complete> <description|requisites|classfeats> (both arguments optional)@n\r\n");
 
   page_string(ch->desc, buf2, 1);
 }
@@ -2525,14 +2598,8 @@ void list_feats_available(struct char_data *ch, char *arg)
     }
     if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) 
     {
-        if (mode == 1) 
-        {
-          row = create_row(grid);
-          row_append_cell(row, 40, "%s", feat_list[i].name);
-          row_append_cell(row, 35, "%s", feat_list[i].description);
-        } 
-        else if (mode == 2) 
-        {
+        if (mode == 2) 
+                {
           row = create_row(grid);
           row_append_cell(row, 40, "%s", feat_list[i].name);
           row_append_cell(row, 35, "%s", feat_list[i].prerequisites);
@@ -2540,8 +2607,9 @@ void list_feats_available(struct char_data *ch, char *arg)
         else 
         {
           row = create_row(grid);
-          row_append_cell(row, 75, "%s", feat_list[i].name);
-        }
+          row_append_cell(row, 40, "%s", feat_list[i].name);
+          row_append_cell(row, 35, "%s", feat_list[i].description);
+        } 
     }
   }
 
@@ -2552,7 +2620,7 @@ void list_feats_available(struct char_data *ch, char *arg)
   }
   
   row = create_row(grid);
-  row_append_cell(row, 75, "@WSyntax:\nfeats <known|available|complete> <description|requisitesclassfeats>\n(both arguments optional)@n");
+  row_append_cell(row, 75, "@WSyntax:\nfeats <known|available|complete> <description|requisites|classfeats>\n(both arguments optional)@n");
 
   grid_to_char(grid, ch, TRUE);
 
