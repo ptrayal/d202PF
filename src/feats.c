@@ -112,7 +112,7 @@ void assign_feats(void)
 // Fourth parameter defines whether or not the feat can be learned through a trainer or whether it is
 // a feat given automatically to certain classes or races.
 
-feato(FEAT_ABLE_LEARNER, "Able Learner", TRUE, TRUE, FALSE, "-", "You get a +1 bonus to all skills.");
+feato(FEAT_ABLE_LEARNER, "Able Learner", TRUE, TRUE, FALSE, "-", "Y+1 bonus to all skills");
 feato(FEAT_ABUNDANT_STEP, "Abundant Step", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_ACROBATIC, "Acrobatic", TRUE, TRUE, FALSE, "-", "+2 bonus on Acrobatics and Fly checks.  Fly is not implemented yet.");
 feato(FEAT_ACROBATIC_CHARGE, "Acrobatic Charge", TRUE, FALSE, FALSE, "-", "can charge in situations when others cannot");
@@ -184,7 +184,7 @@ feato(FEAT_DETECT_EVIL, "Detect Evil", TRUE, TRUE, FALSE, "-", "able to detect e
 feato(FEAT_DETECT_GOOD, "Detect Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DIAMOND_BODY, "Diamond Body", TRUE, FALSE, FALSE, "-", "immune to disease");
 feato(FEAT_DIAMOND_SOUL, "Diamond Soul", TRUE, FALSE, FALSE, "-", "spell resistance equal to class level + 10");
-feato(FEAT_DIEHARD, "Diehard", TRUE, TRUE, FALSE, "endurance", "will stay alive and conscious until -10 hp or lower");
+feato(FEAT_DIEHARD, "Diehard", TRUE, TRUE, FALSE, "Endurance", "will stay alive and conscious until -10 hp or lower");
 feato(FEAT_DISCERN_LIES, "Discern Lies", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DIVINE_BOND, "Divine Bond", TRUE, FALSE, FALSE, "paladin level 5", "bonuses to attack and damage rolls when active");
 feato(FEAT_DIVINE_GRACE, "Divine Grace", TRUE, TRUE, FALSE, "-", "charisma bonus added to all saving throw checks");
@@ -214,7 +214,7 @@ feato(FEAT_ENHANCE_ARROW_ELEMENTAL_BURST, "Enhance Arrow (Elemental Burst)", TRU
 feato(FEAT_ENHANCE_ARROW_MAGIC, "Enhance Arrow (Magic)", TRUE, FALSE, FALSE, "arcane archer level 1", "+1 to hit and damage with bows per rank");
 feato(FEAT_ENHANCE_SPELL, "increase spell damage", TRUE, TRUE, FALSE, "epic spellcaster", "increase max number of damage dice for certain damage based spell by 5");
 feato(FEAT_ENHANCED_MOBILITY, "Enhanced Mobility", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_ENHANCED_SPELL_DAMAGE, "Enhanced Spell Damage", TRUE, TRUE, FALSE, "spellcaster level 1", "+1 spell damage per die rolled");
+feato(FEAT_ENHANCED_SPELL_DAMAGE, "Enhanced Spell Damage", TRUE, TRUE, FALSE, "Caster level 1", "+1 spell damage per die rolled");
 feato(FEAT_ENLARGE_SPELL, "Enlarge Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff"); 
 feato(FEAT_EPIC_COMBAT_CHALLENGE, "epic combat challenge", TRUE, TRUE, FALSE, "20 ranks in diplomacy, intimidate or bluff, greater combat challenge", "as improved combat challenge, but both regular challenges and challenge all are minor actions");
 feato(FEAT_EPIC_DODGE, "epic dodge", TRUE, TRUE, FALSE, "dex 25, dodge, tumble 30, improved evasion, defensive roll", "automatically dodge first attack against you each round");
@@ -292,7 +292,7 @@ feato(FEAT_IMPROVED_TAUNTING, "Improved Taunting", TRUE, TRUE, FALSE, "ask staff
 feato(FEAT_IMPROVED_TRIP, "Improved Trip", TRUE, TRUE, FALSE, "int 13, combat expertise", "no attack of opportunity when tripping, +4 to trip check");
 feato(FEAT_IMPROVED_TURNING, "Improved Turning", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_TWO_WEAPON_FIGHTING, "Improved Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 17, two weapon fighting, base attack bonus of +6 or more", "extra attack with offhand weapon at -5 penalty");
-feato(FEAT_IMPROVED_UNARMED_STRIKE, "Improved Unarmed Strike", TRUE, TRUE, FALSE, "-", "unarmed attacks do not provoke attacks of opportunity, and do 1d6 damage");
+feato(FEAT_IMPROVED_UNARMED_STRIKE, "Improved Unarmed Strike", TRUE, TRUE, FALSE, "-", "Always considered armed");
 feato(FEAT_IMPROVED_UNCANNY_DODGE, "Improved Uncanny Dodge", TRUE, FALSE, FALSE, "-", "cannot be flanked (or sneak attacked");
 feato(FEAT_IMPROVED_WEAPON_FINESSE, "Improved Weapon Finesse", TRUE, TRUE, TRUE, "weapon finesse, weapon focus, base attack bonus of 4+", "add dex bonus to damage instead of str for light weapons");
 feato(FEAT_INCREASED_MULTIPLIER, "Increased Multiplier", TRUE, FALSE, FALSE, "Weapon Master 3rd", "Weapons of choice have +1 to their critical multiplier");
@@ -569,6 +569,12 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     return TRUE;
  
+  case FEAT_DEFLECT_ARROWS:
+    if (ch->real_abils.dex < 13)
+      return FALSE;
+    if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_UNARMED_STRIKE))
+      return FALSE;
+    return TRUE;
 
   case FEAT_FAST_HEALING:
     if (ch->fast_healing_feats >= 5)
