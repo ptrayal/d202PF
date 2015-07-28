@@ -4642,7 +4642,8 @@ char *one_arg_dots(char *argument, char *first_arg)
   return argument;
 }
 
-void display_levelup_classes(struct descriptor_data *d) {
+void display_levelup_classes(struct descriptor_data *d) 
+{
 	int i = 0;
 	int count = 0;
 
@@ -4662,68 +4663,80 @@ void display_levelup_classes(struct descriptor_data *d) {
 	write_to_output(d, "Please select a class from the list (@yyellow@n signifies you qualify for the class requirements, @rred@n signifies you do not)\r\nYour selection: ");
 }
 
-void init_levelup(struct char_data *ch) {
-	struct level_data *l = ch->levelup;
-	int i = 0;
-	int isepic = FALSE;
-	int epiclevel = 21;
+void init_levelup(struct char_data *ch) 
+{
+  struct level_data *l = ch->levelup;
+  int i = 0;
+  int isepic = FALSE;
+  int epiclevel = 21;
 
-	l->level = GET_CLASS_LEVEL(ch) + 1;
-        if ((l->level + 1) >= epiclevel)
- 	  isepic = TRUE;
-        for (i = 0; i <= 9; i++) {
-          l->spell_slots[i] = MAX(0, sorcerer_spells_known[MIN(21, GET_CLASS_RANKS(ch, l->class) + 1)][i]); 
-        }
+  l->level = GET_CLASS_LEVEL(ch) + 1;
+  if ((l->level + 1) >= epiclevel)
+    isepic = TRUE;
+  for (i = 0; i <= 9; i++) 
+  {
+    l->spell_slots[i] = MAX(0, sorcerer_spells_known[MIN(21, GET_CLASS_RANKS(ch, l->class) + 1)][i]); 
+  }
 
-        for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++) {
-          l->spells_known[i] = ch->player_specials->spells_known[i];
-          if (l->spells_known[i] >= 0 && l->spells_known[i] <= TOP_SPELL && spell_info[l->spells_known[i]].class_level[l->class] <= 9)
-            l->spell_slots[spell_info[l->spells_known[i]].class_level[l->class]]--;
-        }
+  for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++) 
+  {
+    l->spells_known[i] = ch->player_specials->spells_known[i];
+    if (l->spells_known[i] >= 0 && l->spells_known[i] <= TOP_SPELL && spell_info[l->spells_known[i]].class_level[l->class] <= 9)
+      l->spell_slots[spell_info[l->spells_known[i]].class_level[l->class]]--;
+  }
 
 
-	l->feat_points = GET_FEAT_POINTS(ch) + (isepic ? 0 : (l->level % 2 == 1 ? 1 : 0));
-	l->practices = 0;
-        if (l->level == 1) {
-		l->feat_points++;
- 	}
-	l->epic_feat_points = GET_EPIC_FEAT_POINTS(ch) + (isepic ? (l->level % 3 == 0 ? 1 : 0) : 0);
-	for (i = 0; i < NUM_FEATS_DEFINED; i++) {
-		l->feats[i] = 0;
-		l->feat_skills[i] = 0;
-		l->feat_weapons[i] = 0;
-	}
-	l->num_trains = GET_TRAINS(ch) + (l->level % 4 == 0 ? 1 : 0);
-	l->practices += GET_PRACTICES(ch, l->class) + num_levelup_practices(ch, l->class);
-	for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) {
-		l->skills[i] = 0;
-	}
-	l->tempFeat = 0;
-	for (i = 0; i < 6; i ++)
-		l->trains[i] = 0;
-	l->num_class_feats = GET_CLASS_FEATS(ch, l->class) + (isepic ? 0 : num_levelup_class_feats(ch, l->class, l->level));
-	l->num_epic_class_feats = GET_EPIC_CLASS_FEATS(ch, l->class) + (isepic ? num_levelup_class_feats(ch, l->class, l->level) : 0);
+  l->feat_points = GET_FEAT_POINTS(ch) + (isepic ? 0 : (l->level % 2 == 1 ? 1 : 0));
+  l->practices = 0;
+  if (l->level == 1) 
+  {
+    l->feat_points++;
+  }
+  l->epic_feat_points = GET_EPIC_FEAT_POINTS(ch) + (isepic ? (l->level % 3 == 0 ? 1 : 0) : 0);
+  for (i = 0; i < NUM_FEATS_DEFINED; i++) 
+  {
+    l->feats[i] = 0;
+    l->feat_skills[i] = 0;
+    l->feat_weapons[i] = 0;
+  }
+  l->num_trains = GET_TRAINS(ch) + (l->level % 4 == 0 ? 1 : 0);
+  l->practices += GET_PRACTICES(ch, l->class) + num_levelup_practices(ch, l->class);
+  for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
+  {
+    l->skills[i] = 0;
+  }
+  l->tempFeat = 0;
+  for (i = 0; i < 6; i ++)
+    l->trains[i] = 0;
+  l->num_class_feats = GET_CLASS_FEATS(ch, l->class) + (isepic ? 0 : num_levelup_class_feats(ch, l->class, l->level));
+  l->num_epic_class_feats = GET_EPIC_CLASS_FEATS(ch, l->class) + (isepic ? num_levelup_class_feats(ch, l->class, l->level) : 0);
 }
 
-ACMD(do_levelup) {
+ACMD(do_levelup) 
+{
 
-  if (!has_unlocked_race(ch, GET_RACE(ch))) {
+  if (!has_unlocked_race(ch, GET_RACE(ch))) 
+  {
     send_to_char(ch, "You cannot gain more levels on this character until you've unlocked your current race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
     return;
   }
 
   if (STATE(ch->desc) == CON_PLAYING &&
       (GET_CLASS_LEVEL(ch) == 0 || (GET_LEVEL(ch) < (CONFIG_LEVEL_CAP - 1) && GET_EXP(ch) >= 
-      level_exp(GET_CLASS_LEVEL(ch) + 1, GET_REAL_RACE(ch))))) {
+      level_exp(GET_CLASS_LEVEL(ch) + 1, GET_REAL_RACE(ch))))) 
+  {
 	send_to_char(ch, "Proceeding to level-up screen. Press enter to continue.\r\n\r\n");
 	STATE(ch->desc) = CON_LEVELUP_START;
-  } else {
+  } 
+  else 
+  {
     send_to_char(ch, "You are not yet ready for further advancement.\r\n");
   }
 
 }
 
-void display_levelup_trains(struct char_data *ch) {
+void display_levelup_trains(struct char_data *ch) 
+{
 
 	send_to_char(ch,
 	"Ability Trains Remaining: %d\r\n"
