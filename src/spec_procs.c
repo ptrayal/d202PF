@@ -25,6 +25,7 @@
 #include "pets.h"
 #include "house.h"
 #include "player_guilds.h"
+#include "grid.h"
 
 /*   external vars  */
 extern struct time_info_data time_info;
@@ -438,7 +439,8 @@ SPECIAL(set_stats)
   if (IS_NPC(ch) || (!CMD_IS("setstats") && !CMD_IS("north"))) 
     return 0;
 
-  if (CMD_IS("setstats") && GET_ROOM_VNUM(IN_ROOM(ch)) == 30003) {
+  if (CMD_IS("setstats") && GET_ROOM_VNUM(IN_ROOM(ch)) == 30003) 
+  {
     do_set_stats(ch, argument, 0, 0);
     return 1;
   }
@@ -446,12 +448,14 @@ SPECIAL(set_stats)
   if (GET_CLASS_LEVEL(ch) > 0)
     return 0;
 
-  if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE) {
+  if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE) 
+  {
     GET_STAT_POINTS(ch) = 20;
     ch->stat_points_given = TRUE;
   }
 
-  if (CMD_IS("north")) {
+  if (CMD_IS("north")) 
+  {
     if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60)
       send_to_char(ch, "You must set your ability scores before you can proceed.\r\n");
     else {
@@ -462,21 +466,24 @@ SPECIAL(set_stats)
     return 1;
   }
 
-  char arg1[100];
-  char arg2[100];
+  char arg1[100]={'\0'};
+  char arg2[100]={'\0'};
 
   two_arguments(argument, arg1, arg2);
 
-  if (!*arg1) {
+  if (!*arg1) 
+  {
     send_to_char(ch, "Which stat do you want to adjust?\r\n");
     return 1;
   }
-  if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1)) {
+  if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1)) 
+  {
     send_to_char(ch, "What do you wish to change the stat to?\r\n");
     return 1;
   }
 
-  if (is_abbrev(arg1, "reset")) {
+  if (is_abbrev(arg1, "reset")) 
+  {
     send_to_char(ch, "You reset your stats back to the default values.\r\n");
     GET_STAT_POINTS(ch) = 20;
     ch->real_abils.str = 10;
@@ -487,7 +494,8 @@ SPECIAL(set_stats)
     ch->real_abils.cha = 10;
     return 1;
   }
-  else if (is_abbrev(arg1, "show")) {
+  else if (is_abbrev(arg1, "show")) 
+  {
     send_to_char(ch, "Here are your current stats:\r\n");
     send_to_char(ch, "Strength     : %d\r\n", ch->real_abils.str);
     send_to_char(ch, "Dexterity    : %d\r\n", ch->real_abils.dex);
@@ -498,29 +506,37 @@ SPECIAL(set_stats)
     send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
     return 1;
   }
-  if (GET_STAT_POINTS(ch) == 0) {
+  if (GET_STAT_POINTS(ch) == 0) 
+  {
     send_to_char(ch, "You need to type @Ysetstats reset@n if you want to change your stats after using all of your points.\r\n");
     return 1;
   }
-  if (is_abbrev(arg1, "strength")) {
+  if (is_abbrev(arg1, "strength")) 
+  {
     ch->real_abils.str = stat_assign_stat(ch->real_abils.str, arg2, ch);
   }
-  else if (is_abbrev(arg1, "dexterity")) {
+  else if (is_abbrev(arg1, "dexterity")) 
+  {
     ch->real_abils.dex = stat_assign_stat(ch->real_abils.dex, arg2, ch);
   }
-  else if (is_abbrev(arg1, "constitution")) {
+  else if (is_abbrev(arg1, "constitution")) 
+  {
     ch->real_abils.con = stat_assign_stat(ch->real_abils.con, arg2, ch);
   }
-  else if (is_abbrev(arg1, "intelligence")) {
+  else if (is_abbrev(arg1, "intelligence")) 
+  {
     ch->real_abils.intel = stat_assign_stat(ch->real_abils.intel, arg2, ch);
   }
-  else if (is_abbrev(arg1, "wisdom")) {
+  else if (is_abbrev(arg1, "wisdom")) 
+  {
     ch->real_abils.wis = stat_assign_stat(ch->real_abils.wis, arg2, ch);
   }
-  else if (is_abbrev(arg1, "charisma")) {
+  else if (is_abbrev(arg1, "charisma")) 
+  {
     ch->real_abils.cha = stat_assign_stat(ch->real_abils.cha, arg2, ch);
   }
-  else {
+  else 
+  {
     send_to_char(ch, "That is not a valid ability score.\r\n");
   }
 
@@ -540,6 +556,9 @@ SPECIAL(set_stats)
 SPECIAL(select_race)
 {
   int i = 0;
+
+  GRID_DATA *grid;
+  GRID_ROW *row;
 
   if (IS_NPC(ch) || (!CMD_IS("setrace") && !CMD_IS("listraces") && !CMD_IS("north"))) 
     return 0;
@@ -614,20 +633,41 @@ SPECIAL(select_race)
   }
   else 
   {
-    send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name", 
-                 "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
+    // send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name", 
+    //              "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
+    grid = create_grid(75);
+    row = create_row(grid);
+    row_append_cell(row, 20, "Race Name");
+    row_append_cell(row, 6, "STR");
+    row_append_cell(row, 6, "CON");
+    row_append_cell(row, 6, "DEX");
+    row_append_cell(row, 6, "INT");
+    row_append_cell(row, 6, "WIS");
+    row_append_cell(row, 6, "CHA");
+    row_append_cell(row, 19, "Account Cost");
+
     for (i = 0; i < NUM_RACES; i++) 
     {
       if (race_list[i].is_pc) 
       {
-        send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type, 
-                     race_list[i].ability_mods[0], 
-                     race_list[i].ability_mods[1], 
-                     race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
-                     race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
+        row = create_row(grid);
+        row_append_cell(row, 20, "%s", race_list[i].type);
+        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[0]);
+        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[1]);
+        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[4]);
+        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[2]);
+        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[3]);
+        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[5]);
+        row_append_cell(row, 19, "%-16d", level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
+        // send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type, 
+        //              race_list[i].ability_mods[0], 
+        //              race_list[i].ability_mods[1], 
+        //              race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
+        //              race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
       }
     }
-    send_to_char(ch, "\r\n");
+    grid_to_char(grid, ch, TRUE);
+    // send_to_char(ch, "\r\n");
     return 1;
   }
 }
