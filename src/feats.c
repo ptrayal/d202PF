@@ -170,7 +170,8 @@ feato(FEAT_CRAFT_WAND, "Craft Wand", FALSE, FALSE, FALSE, "Caster level 5th", "C
 feato(FEAT_CRAFT_WONDEROUS_ITEM, "Craft Wonderous Item", FALSE, FALSE, FALSE, "Caster level 3rd", "Create magic wondrous items"); 
 feato(FEAT_CRIPPLING_CRITICAL, "Crippling Critical", TRUE, FALSE, FALSE, "Duelist 10th", "allows your criticals to have random additional effects");
 feato(FEAT_CRIPPLING_STRIKE, "Crippling Strike", TRUE, TRUE, FALSE, "Rogue 10th", "Chance to do 2 strength damage with a sneak attack.");
-feato(FEAT_CROWN_OF_KNIGHTHOOD, "crown of knighthood", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_CRITICAL_FOCUS, "Critical Focus", TRUE, TRUE, TRUE, "Base attack bonus +9", "+4 bonus on attack rolls made to confirm critical hits");
+feato(FEAT_CROWN_OF_KNIGHTHOOD, "Crown of Knighthood", TRUE, FALSE, FALSE, "Knight of the Crown 10th", "ask staff");
 feato(FEAT_DAMAGE_REDUCTION, "Damage Reduction", TRUE, TRUE, TRUE, "-", "1/- damage reduction per rank of feat, 3/- for epic");
 feato(FEAT_DAMAGE_REDUCTION_FS, "Damage Reduction", TRUE, FALSE, FALSE, "Favored Soul 20th", "reduces damage by 10 unless dealt by cold iron weapon");
 feato(FEAT_DARK_BLESSING, "Dark Blessing", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -345,7 +346,6 @@ feato(FEAT_POINT_BLANK_SHOT, "Point Blank Shot", TRUE, TRUE, FALSE, "-", "+1 to 
 feato(FEAT_POISON_SAVE_BONUS,  "Poison Save Bonus", TRUE, FALSE, FALSE, "Assassin level 2", "Bonus to all saves against poison.");
 feato(FEAT_POISON_USE, "Poison Use", TRUE, FALSE, FALSE, "Assassin level 1", "Trained use in poisons without risk of poisoning self.");
 feato(FEAT_POWER_ATTACK, "Power Attack", TRUE, TRUE, FALSE, "Str 13, base attack bonus +1", "subtract a number from hit and add to dam.  If 2H weapon add 2x dam instead");
-feato(FEAT_CRITICAL_FOCUS, "Critical Focus", TRUE, TRUE, TRUE, "Base attack bonus +9", "+4 bonus on attack rolls made to confirm critical hits");
 feato(FEAT_POWERFUL_SNEAK, "Powerful Sneak", TRUE, TRUE, FALSE, "rogue talent", "opt to take -2 to attacks and treat all sneak attack dice rolls of 1 as a 2");
 feato(FEAT_PRECISE_SHOT, "Precise Shot", TRUE, TRUE, FALSE, "Point-Blank Shot", "You may shoot in melee without the standard -4 to hit penalty");
 feato(FEAT_PRECISE_STRIKE, "Precise Strike", TRUE, FALSE, FALSE, "-", "+1d6 damage when using only one weapon and no shield");
@@ -374,7 +374,7 @@ feato(FEAT_SELF_CONCEALMENT, "Self Concealment", TRUE, TRUE, TRUE, "stealth 30 r
 feato(FEAT_SELF_SUFFICIENT, "Self Sufficient", TRUE, TRUE, FALSE, "-", "You get a +2 bonus on all Heal checks and Survival checks.");
 feato(FEAT_SHOT_ON_THE_RUN, "Shot on the Run", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SILENT_SPELL, "Silent Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SKILL_FOCUS, "Skill Focus", TRUE, TRUE, TRUE, "-", "+3 in chosen skill");
+feato(FEAT_SKILL_FOCUS, "Skill Focus", TRUE, TRUE, TRUE, "-", "+3 bonus on one skill");
 feato(FEAT_SLEEP_PARALYSIS_IMMUNITY, "Sleep & Paralysis Immunity", TRUE, FALSE, FALSE, "Dragon Disciple level 10", "ask staff");
 feato(FEAT_SLIPPERY_MIND, "Slippery Mind", TRUE, TRUE, FALSE, "Rogue level 11+", "extra chance for will saves");
 feato(FEAT_SLOW_FALL, "Slow Fall", TRUE, FALSE, FALSE, "-", "no damage for falling 10 ft/feat rank");
@@ -386,7 +386,7 @@ feato(FEAT_SONG_OF_FREEDOM, "Song of Freedom", TRUE, FALSE, FALSE, "ask staff", 
 feato(FEAT_SOUL_OF_KNIGHTHOOD, "Soul of Knighthood", TRUE, FALSE, FALSE, "Knight of the Sword level 10", "ask staff");
 feato(FEAT_SPELL_FOCUS, "Spell Focus", FALSE, FALSE, FALSE, "Caster level 1st", "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.");
 feato(FEAT_SPELL_MASTERY, "Spell Mastery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SPELL_PENETRATION, "Spell Penetration", FALSE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_SPELL_PENETRATION, "Spell Penetration", FALSE, FALSE, FALSE, "-", "+2 bonus on level checks to beat spell resistance");
 feato(FEAT_SPIRITED_CHARGE, "Spirited Charge", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPRING_ATTACK, "Spring Attack", TRUE, TRUE, FALSE, "Mobility, base attack bonus +4", "free attack of opportunity against combat abilities (ie. kick, trip)");
 feato(FEAT_STEADFAST_DETERMINATION, "Steadfast Determination", TRUE, TRUE, FALSE, "endurance feat", "allows you to use your con bonus instead of your wis bonus for will saves");
@@ -423,7 +423,7 @@ feato(FEAT_UNBREAKABLE_WILL, "Unbreakable Will", TRUE, FALSE, FALSE, "ask staff"
 feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "-", "retains dex bonus when flat footed or against invis opponents");
 feato(FEAT_UNDEAD_FAMILIAR, "Undead Familiar", TRUE, FALSE, FALSE, "death master level 3", "allows for undead familiars");
 feato(FEAT_VENOM_IMMUNITY, "Venom Immunity", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "use dex for hit roll of weapons smaller than wielder or rapier, whip, spiked chain");
+feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "Use Dex instead of Str on attack rolls with light weapons");
 feato(FEAT_WEAPON_FLURRY, "Weapon Flurry", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization, weapon mastery in specific weapon, base attack bonus +14", "2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action");
 feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +1", "+1 to hit rolls for selected weapon");
 feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization in specific weapon, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
