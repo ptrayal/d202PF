@@ -16,6 +16,7 @@
 #include "spells.h"
 #include "polls.h"
 #include "screen.h"
+#include "grid.h"
 
 //Last editted by Jeremy
 
@@ -338,58 +339,90 @@ char *escape_colorcode(char *query)
 ACMD(do_account)
 {
 
-    if (IS_NPC(ch) || !ch->desc || !ch->desc->account) 
+  if (IS_NPC(ch) || !ch->desc || !ch->desc->account) 
+  {
+    send_to_char(ch, "The account command can only be used by player characters with a valid account.\r\n");
+    return;
+  }
+
+  struct account_data *acc = ch->desc->account;
+
+  GRID_DATA *grid;
+  GRID_ROW *row;
+
+  grid = create_grid(75);
+  row = create_row(grid);
+  row_append_cell(row, 75, "@YAccount Information for %s@n", acc->name);
+  row = create_row(grid);
+  row_append_cell(row, 20, "Email");
+  row_append_cell(row, 55, "%-50s", *acc->email ? escape_colorcode(acc->email) : "@RNot Set@n");
+  row = create_row(grid);
+  row_append_cell(row, 20, "Level");
+  row_append_cell(row, 55, "%d", acc->level);
+  row = create_row(grid);
+  row_append_cell(row, 20, "Experience");
+  row_append_cell(row, 55, "%d", acc->experience);
+  row = create_row(grid);
+  row_append_cell(row, 20, "Gift Experience");
+  row_append_cell(row, 55, "%d", acc->gift_experience);
+  row = create_row(grid);
+  row_append_cell(row, 20, "Web Password");
+  row_append_cell(row, 55, "%s", acc->web_password);
+  row = create_row(grid);
+  row_append_cell(row, 75, "@GCharacters@n");
+  row = create_row(grid);
+  row_append_cell(row, 25, "@CCharacter Name@n");
+  row_append_cell(row, 50, "@CSomething Else@n");
+
+  int i = 0;
+  for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) 
+  {
+    if (acc->character_names[i] != NULL)
     {
-        send_to_char(ch, "The account command can only be used by player characters with a valid account.\r\n");
-        return;
+      row = create_row(grid);
+      row_append_cell(row, 25, "%s", acc->character_names[i]);
+      row_append_cell(row, 50, "---");
     }
+  }
 
-    struct account_data *acc = ch->desc->account;
+  row = create_row(grid);
+  row_append_cell(row, 75, "@GUnlocked Advanced Races@n");
 
-    send_to_char(ch,
-        "Account Information for %s:\r\n"
-        "\r\n"
-        "Email: %s\tn\r\n"
-        "Level: %d\r\n"
-        "Experience: %d\r\n"
-        "Gift Experience: %d\r\n"
-        "Web Site Password: %s\r\n"
-        "Characters:\r\n",
-        acc->name, *acc->email ? escape_colorcode(acc->email) : "Not Set", acc->level, acc->experience, acc->gift_experience, acc->web_password);
-
-    int i = 0;
-    for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
-
-        if (acc->character_names[i] != NULL)
-            send_to_char(ch, "  %s\r\n", acc->character_names[i]);
+  sbyte found = FALSE;
+  for (i = 0; i < MAX_UNLOCKED_RACES; i++) 
+  {
+    if (acc->races[i] > 0 && race_list[acc->races[i]].is_pc) 
+    {
+      row = create_row(grid);
+      row_append_cell(row, 75, "  %s", race_list[acc->races[i]].name);
+      found = TRUE;
     }
+  }  
+  if (!found)
+  {
+    row = create_row(grid);
+    row_append_cell(row, 75, "  @RNone@n.  Unlock them with the @Yaccexp@n command.");
+  }
+  found = FALSE;
 
-    sbyte found = FALSE;
+  row = create_row(grid);
+  row_append_cell(row, 75, "@GUnlocked Advanced Classes@n");
 
-    send_to_char(ch, "Unlocked Advanced Races:\r\n");
-    for (i = 0; i < MAX_UNLOCKED_RACES; i++) 
+  for (i = 0; i < MAX_UNLOCKED_CLASSES; i++) 
+  {
+    if (acc->classes[i] < 999) 
     {
-        if (acc->races[i] > 0 && race_list[acc->races[i]].is_pc) 
-        {
-            send_to_char(ch, "  %s\r\n", race_list[acc->races[i]].name);
-            found = TRUE;
-        }
-    }  
-    if (!found)
-        send_to_char(ch, "  None.\r\n");
+      row = create_row(grid);
+      row_append_cell(row, 75, "  %s", class_names_core[acc->classes[i]]);
+      found = TRUE;
+    }
+  }  
+  if (!found)
+  {
+    row = create_row(grid);
+    row_append_cell(row, 75, "  @RNone@n.  Unlock them with the @Yaccexp@n command.");
+  }
 
-    found = FALSE;
-
-    send_to_char(ch, "Unlocked Prestige Classes:\r\n");
-    for (i = 0; i < MAX_UNLOCKED_CLASSES; i++) 
-    {
-        if (acc->classes[i] < 999) 
-        {
-            send_to_char(ch, "  %s\r\n", class_names_dl_aol[acc->classes[i]]);
-            found = TRUE;
-        }
-    }  
-    if (!found)
-        send_to_char(ch, "  None.\r\n");
+  grid_to_char(grid, ch, TRUE);
 
 }

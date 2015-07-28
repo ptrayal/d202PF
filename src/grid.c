@@ -215,7 +215,8 @@ void cell_set_linecount( GRID_CELL *cell )
 }
 //Counts colour codes to display offsets properly
 int count_colour( char *str )
-{	char c;
+{	
+    char c;
 	int count = 0;
 	while ( (c = *str++ ) != '\0'  )
 	{
