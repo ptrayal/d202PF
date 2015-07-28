@@ -276,7 +276,7 @@ feato(FEAT_IMPROVED_COMBAT_CHALLENGE, "Improved Combat Challenge", TRUE, TRUE, F
 feato(FEAT_IMPROVED_COMBAT_STYLE, "Improved Combat Style", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_COUNTERSPELL, "Improved Counterspell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_CRITICAL, "Improved Critical", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +8", "Double the threat range of one weapon");
-feato(FEAT_IMPROVED_DISARM, "Improved Disarm", FALSE, FALSE, FALSE, "ask staff", "ask staff"); 
+feato(FEAT_IMPROVED_DISARM, "Improved Disarm", FALSE, FALSE, FALSE, "Combat Expertise", "ask staff"); 
 feato(FEAT_IMPROVED_EVASION, "Improved Evasion", TRUE, TRUE, FALSE, "Rogue 11th", "as evasion but half damage of failed save");
 feato(FEAT_IMPROVED_FAMILIAR, "Improved Familiar", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_FEINT, "Improved Feint", TRUE, TRUE, FALSE, "Int 13, combat expertise", "can feint and make one attack per round (or sneak attack if they have it)");
@@ -292,7 +292,7 @@ feato(FEAT_IMPROVED_SHIELD_BASH, "Improved Shield Bash", FALSE, FALSE, FALSE, "a
 feato(FEAT_IMPROVED_SNEAK_ATTACK, "Improved Sneak Attack", TRUE, TRUE, TRUE, "sneak attack 1d6 or more", "each rank gives +5% chance per attack, per rank to be a sneak attack.");
 feato(FEAT_IMPROVED_SUNDER, "Improved Sunder", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_TAUNTING, "Improved Taunting", TRUE, TRUE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_TRIP, "Improved Trip", TRUE, TRUE, FALSE, "int 13, combat expertise", "no attack of opportunity when tripping, +4 to trip check");
+feato(FEAT_IMPROVED_TRIP, "Improved Trip", TRUE, TRUE, FALSE, "Combat Expertise", "no attack of opportunity when tripping, +4 to trip check");
 feato(FEAT_IMPROVED_TURNING, "Improved Turning", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_TWO_WEAPON_FIGHTING, "Improved Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 17, two weapon fighting, base attack bonus of +6 or more", "extra attack with offhand weapon at -5 penalty");
 feato(FEAT_IMPROVED_UNARMED_STRIKE, "Improved Unarmed Strike", TRUE, TRUE, FALSE, "-", "Always considered armed");
@@ -893,9 +893,13 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     return FALSE;
 
   case FEAT_IMPROVED_DISARM:
+    if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_EXPERTISE))
+      return FALSE;
     return TRUE;
 
   case FEAT_IMPROVED_TRIP:
+    if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_EXPERTISE))
+      return FALSE;
     return TRUE;
 
   case FEAT_WHIRLWIND_ATTACK:
