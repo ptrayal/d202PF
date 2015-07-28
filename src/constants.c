@@ -1463,7 +1463,8 @@ const char *wield_names[] = {
 };
 
 
-const char *admin_level_names[ADMLVL_IMPL + 2] = {
+const char *admin_level_names[ADMLVL_IMPL + 2] = 
+{
   "Mortal",
   "Junior Staff",
   "Regular Staff",

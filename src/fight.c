@@ -3409,10 +3409,10 @@ ch->att_roll = (diceroll + calc_base_hit) / 10;
       diceroll = rand_number(1, 200);
       if (wielded && IS_SET_AR(GET_OBJ_EXTRA(wielded), ITEM_BLESS) && victim && GET_ALIGN(victim) < -250)
         diceroll = 1000;
-      if (((wielded && HAS_COMBAT_FEAT(ch, CFEAT_POWER_CRITICAL, GET_OBJ_VAL(wielded, 0))) ||
-          (!wielded && HAS_COMBAT_FEAT(ch, CFEAT_POWER_CRITICAL, WEAPON_TYPE_UNARMED))) ||
-          ((wielded && has_weapon_feat(ch, FEAT_POWER_CRITICAL, GET_OBJ_VAL(wielded, 0))) ||
-          (!wielded && has_weapon_feat(ch, FEAT_POWER_CRITICAL, WEAPON_TYPE_UNARMED))))
+      if (((wielded && HAS_COMBAT_FEAT(ch, CFEAT_CRITICAL_FOCUS, GET_OBJ_VAL(wielded, 0))) ||
+          (!wielded && HAS_COMBAT_FEAT(ch, CFEAT_CRITICAL_FOCUS, WEAPON_TYPE_UNARMED))) ||
+          ((wielded && has_weapon_feat(ch, FEAT_CRITICAL_FOCUS, GET_OBJ_VAL(wielded, 0))) ||
+          (!wielded && has_weapon_feat(ch, FEAT_CRITICAL_FOCUS, WEAPON_TYPE_UNARMED))))
         diceroll += 40;
       if ((diceroll + calc_base_hit) >= victim_ac) { /* It's a critical */
       is_crit = 1;

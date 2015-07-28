@@ -94,7 +94,8 @@ void assign_feats(void)
 
   // Initialize the list of feats.
 
-  for (i = 0; i <= NUM_FEATS_DEFINED; i++) {
+  for (i = 0; i <= NUM_FEATS_DEFINED; i++) 
+  {
     feat_list[i].name = "Unused Feat";
     feat_list[i].in_game = FALSE;
     feat_list[i].can_learn = FALSE;
@@ -111,8 +112,9 @@ void assign_feats(void)
 // Third parameter defines whether or not the feat is in the game or not, and thus can be learned and displayed
 // Fourth parameter defines whether or not the feat can be learned through a trainer or whether it is
 // a feat given automatically to certain classes or races.
+// Fifth parameter is can it stack.
 
-feato(FEAT_ABLE_LEARNER, "Able Learner", TRUE, TRUE, FALSE, "-", "Y+1 bonus to all skills");
+feato(FEAT_ABLE_LEARNER, "Able Learner", TRUE, TRUE, FALSE, "-", "+1 bonus to all skills");
 feato(FEAT_ABUNDANT_STEP, "Abundant Step", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_ACROBATIC, "Acrobatic", TRUE, TRUE, FALSE, "-", "+2 bonus on Acrobatics and Fly checks.  Fly is not implemented yet.");
 feato(FEAT_ACROBATIC_CHARGE, "Acrobatic Charge", TRUE, FALSE, FALSE, "-", "can charge in situations when others cannot");
@@ -174,11 +176,11 @@ feato(FEAT_DAMAGE_REDUCTION_FS, "Damage Reduction", TRUE, FALSE, FALSE, "Favored
 feato(FEAT_DARK_BLESSING, "Dark Blessing", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DARKVISION, "Darkvision", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DEATH_ATTACK, "Death Attack", TRUE, FALSE, FALSE, "Assassin 1st", "Chance to kill a target with sneak attack or Paralysis after 3 rounds of hidden study.");
-feato(FEAT_DECEITFUL, "Deceitful", TRUE, TRUE, FALSE, "-", "+2 to disguise and linguistics skill checks");
+feato(FEAT_DECEITFUL, "Deceitful", TRUE, TRUE, FALSE, "-", "+2 bonus on Bluff and Disguise checks");
 feato(FEAT_DEFENSIVE_ROLL, "Defensive Roll", TRUE, TRUE, FALSE, "Rogue 10th", "can roll reflex save vs damage dealt when hp is to be reduced below 0 to take half damage instead");
 feato(FEAT_DEFENSIVE_STANCE, "Defensive Stance", TRUE, FALSE, FALSE, "Dwarven Defender level 1", "Allows you to fight defensively with bonuses to ac and stats.");
 feato(FEAT_DEFLECT_ARROWS, "Deflect Arrows", TRUE, TRUE, FALSE, "Dex 13, Improved Unarmed Strike", "Avoid one ranged attack per round"); 
-feato(FEAT_DEFT_HANDS, "Deft Hands", TRUE, TRUE, FALSE, "-", "+2 bonus on Disable Device and Sleight of Hand checks.");
+feato(FEAT_DEFT_HANDS, "Deft Hands", TRUE, TRUE, FALSE, "-", "+2 bonus on Disable Device and Sleight of Hand checks");
 feato(FEAT_DEMORALIZE, "Demoralize", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DETECT_EVIL, "Detect Evil", TRUE, TRUE, FALSE, "-", "able to detect evil alignments");
 feato(FEAT_DETECT_GOOD, "Detect Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -222,7 +224,7 @@ feato(FEAT_EPIC_PROWESS, "epic prowess", TRUE, TRUE, TRUE, "epic level", "+1 to 
 feato(FEAT_EPIC_SKILL_FOCUS, "epic skill focus", TRUE, TRUE, TRUE, "20 ranks in the skill", "+10 in chosen skill");
 feato(FEAT_EPIC_SPELLCASTING, "epic spellcasting", TRUE, TRUE, FALSE, "lore 24, spellcraft 24", "allows you to cast epic spells");
 feato(FEAT_EPIC_TOUGHNESS, "epic toughness", TRUE, TRUE, TRUE, "epic level", "You gain +30 max hp.");
-feato(FEAT_ESCHEW_MATERIALS, "Eschew Materials", FALSE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_ESCHEW_MATERIALS, "Eschew Materials", FALSE, FALSE, FALSE, "ask staff", "Cast spells without material components");
 feato(FEAT_ESSENCE_OF_UNDEATH, "Essence of Undeath", TRUE, FALSE, FALSE, "death master", "gives immunity to poison, disease, sneak attack and critical hits");
 feato(FEAT_EVASION, "Evasion", TRUE, FALSE, FALSE, "-", "on successful reflex save no damage from spells and effects");
 feato(FEAT_EXCEPTIONAL_TURNING, "Exceptional Turning", TRUE, FALSE, FALSE, "sun cleric domain", "+1d10 hit dice of undead turned");
@@ -317,7 +319,7 @@ feato(FEAT_LEARNED_CRAFTER, "Learned Crafter", TRUE, FALSE, FALSE, "Artisan leve
 feato(FEAT_LIGHTNING_REFLEXES, "Lightning Reflexes", TRUE, TRUE, FALSE, "-", "+2 bonus on Reflex saves");
 feato(FEAT_LINGERING_SONG, "Lingering Song", TRUE, TRUE, FALSE, "bard level 1", "5 extra rounds for bard songs");
 feato(FEAT_LOW_LIGHT_VISION, "Low Light Vision", TRUE, FALSE, FALSE, "-", "can see in the dark outside only");
-feato(FEAT_MAGICAL_APTITUDE, "Magical Aptitude", TRUE, TRUE, FALSE, "-", "+2 to spellcraft and use magical device skill checks");
+feato(FEAT_MAGICAL_APTITUDE, "Magical Aptitude", TRUE, TRUE, FALSE, "-", "+2 bonus on Spellcraft and Use Magic Device checks");
 feato(FEAT_MANYSHOT, "Manyshot", TRUE, FALSE, FALSE, "ranger level 6", "extra ranged attack when rapid shot turned on");
 feato(FEAT_MASS_SUGGESTION, "Mass Suggestion", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_MASTERWORK_CRAFTING, "Masterwork Crafting", TRUE, FALSE, FALSE, "Artisan level 6", "All equipment made is masterwork");
@@ -343,7 +345,7 @@ feato(FEAT_POINT_BLANK_SHOT, "Point Blank Shot", TRUE, TRUE, FALSE, "-", "+1 to 
 feato(FEAT_POISON_SAVE_BONUS,  "Poison Save Bonus", TRUE, FALSE, FALSE, "Assassin level 2", "Bonus to all saves against poison.");
 feato(FEAT_POISON_USE, "Poison Use", TRUE, FALSE, FALSE, "Assassin level 1", "Trained use in poisons without risk of poisoning self.");
 feato(FEAT_POWER_ATTACK, "Power Attack", TRUE, TRUE, FALSE, "Str 13, base attack bonus +1", "subtract a number from hit and add to dam.  If 2H weapon add 2x dam instead");
-feato(FEAT_POWER_CRITICAL, "Power Critical", TRUE, TRUE, TRUE, "weapon focus in chosen weapon, base attack bonus +4 or higher", "+4 to rolls to confirm critical hits.");
+feato(FEAT_CRITICAL_FOCUS, "Critical Focus", TRUE, TRUE, TRUE, "Base attack bonus +9", "+4 bonus on attack rolls made to confirm critical hits");
 feato(FEAT_POWERFUL_SNEAK, "Powerful Sneak", TRUE, TRUE, FALSE, "rogue talent", "opt to take -2 to attacks and treat all sneak attack dice rolls of 1 as a 2");
 feato(FEAT_PRECISE_SHOT, "Precise Shot", TRUE, TRUE, FALSE, "Point-Blank Shot", "You may shoot in melee without the standard -4 to hit penalty");
 feato(FEAT_PRECISE_STRIKE, "Precise Strike", TRUE, FALSE, FALSE, "-", "+1d6 damage when using only one weapon and no shield");
@@ -465,7 +467,7 @@ combatfeat(FEAT_GREATER_WEAPON_FOCUS);
 combatfeat(FEAT_GREATER_WEAPON_SPECIALIZATION);
 combatfeat(FEAT_IMPROVED_WEAPON_FINESSE);
 combatfeat(FEAT_MONKEY_GRIP);
-combatfeat(FEAT_POWER_CRITICAL);
+combatfeat(FEAT_CRITICAL_FOCUS);
 combatfeat(FEAT_WEAPON_MASTERY);
 combatfeat(FEAT_WEAPON_FLURRY);
 combatfeat(FEAT_WEAPON_SUPREMACY);
@@ -986,12 +988,10 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return TRUE;
     return FALSE;
 
-  case FEAT_POWER_CRITICAL:
-    if (GET_BAB(ch) < 4)
+  case FEAT_CRITICAL_FOCUS:
+    if (GET_BAB(ch) < 9)
       return FALSE;
-    if (!iarg || has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
-      return TRUE;
-    return FALSE;
+    return TRUE;
 
   case FEAT_WEAPON_MASTERY:
     if (GET_BAB(ch) < 8)
@@ -1272,21 +1272,21 @@ int is_proficient_with_weapon(const struct char_data *ch, int weapon_type)
       IS_SET(weapon_list[weapon_type].weaponFlags, WEAPON_FLAG_MARTIAL))
     return TRUE;
 
-  if (HAS_COMBAT_FEAT(ch, FEAT_WEAPON_PROFICIENCY_EXOTIC, WEAPON_DAMAGE_TYPE_SLASHING) &&
+  if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_PROFICIENCY_EXOTIC, WEAPON_DAMAGE_TYPE_SLASHING) &&
       IS_SET(weapon_list[weapon_type].weaponFlags, WEAPON_FLAG_EXOTIC) &&
       IS_SET(weapon_list[weapon_type].damageTypes, DAMAGE_TYPE_SLASHING)) 
   {
     return TRUE;
   }
 
-  if (HAS_COMBAT_FEAT(ch, FEAT_WEAPON_PROFICIENCY_EXOTIC, WEAPON_DAMAGE_TYPE_PIERCING) &&
+  if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_PROFICIENCY_EXOTIC, WEAPON_DAMAGE_TYPE_PIERCING) &&
       IS_SET(weapon_list[weapon_type].weaponFlags, WEAPON_FLAG_EXOTIC) &&
       IS_SET(weapon_list[weapon_type].damageTypes, DAMAGE_TYPE_PIERCING)) 
   {
     return TRUE;
   }
 
-  if (HAS_COMBAT_FEAT(ch, FEAT_WEAPON_PROFICIENCY_EXOTIC, WEAPON_DAMAGE_TYPE_BLUDGEONING) &&
+  if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_PROFICIENCY_EXOTIC, WEAPON_DAMAGE_TYPE_BLUDGEONING) &&
       IS_SET(weapon_list[weapon_type].weaponFlags, WEAPON_FLAG_EXOTIC) &&
       IS_SET(weapon_list[weapon_type].damageTypes, DAMAGE_TYPE_BLUDGEONING)) 
   {
@@ -1718,11 +1718,11 @@ void list_feats_known(struct char_data *ch, char *arg)
           }	  
         }
       } 
-      else if (i == FEAT_POWER_CRITICAL) 
+      else if (i == FEAT_CRITICAL_FOCUS) 
       {
         for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
         {
-          if (HAS_COMBAT_FEAT(ch, CFEAT_POWER_CRITICAL, j) || has_weapon_feat_full(ch, FEAT_POWER_CRITICAL, j, FALSE)) 
+          if (HAS_COMBAT_FEAT(ch, CFEAT_CRITICAL_FOCUS, j) || has_weapon_feat_full(ch, FEAT_CRITICAL_FOCUS, j, FALSE)) 
           {
             if (mode == 1) 
             {
@@ -2858,8 +2858,8 @@ int feat_to_subfeat(int feat)
     return CFEAT_EPIC_SKILL_FOCUS;
   case FEAT_IMPROVED_CRITICAL:
     return CFEAT_IMPROVED_CRITICAL;
-  case FEAT_POWER_CRITICAL:
-    return CFEAT_POWER_CRITICAL;
+  case FEAT_CRITICAL_FOCUS:
+    return CFEAT_CRITICAL_FOCUS;
   case FEAT_WEAPON_FINESSE:
     return CFEAT_WEAPON_FINESSE;
   case FEAT_WEAPON_FOCUS:

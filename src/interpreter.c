@@ -3659,7 +3659,7 @@ void nanny(struct descriptor_data *d, char *arg)
 		  case FEAT_IMPROVED_WEAPON_FINESSE:
 		  case FEAT_WEAPON_PROFICIENCY_EXOTIC:
 		  case FEAT_MONKEY_GRIP:
-		  case FEAT_POWER_CRITICAL:
+		  case FEAT_CRITICAL_FOCUS:
 		  case FEAT_WEAPON_MASTERY:
 		  case FEAT_WEAPON_FLURRY:
 		  case FEAT_WEAPON_SUPREMACY:
@@ -4807,7 +4807,7 @@ void display_levelup_changes(struct char_data *ch, int apply_changes) {
 			case FEAT_IMPROVED_WEAPON_FINESSE:
 			case FEAT_WEAPON_PROFICIENCY_EXOTIC:
 			case FEAT_MONKEY_GRIP:
-			case FEAT_POWER_CRITICAL:
+			case FEAT_CRITICAL_FOCUS:
 			case FEAT_WEAPON_MASTERY:
 			case FEAT_WEAPON_FLURRY:
 			case FEAT_WEAPON_SUPREMACY:
