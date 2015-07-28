@@ -389,7 +389,7 @@ feato(FEAT_SPELL_MASTERY, "Spell Mastery", FALSE, FALSE, FALSE, "ask staff", "as
 feato(FEAT_SPELL_PENETRATION, "Spell Penetration", FALSE, FALSE, FALSE, "-", "+2 bonus on level checks to beat spell resistance");
 feato(FEAT_SPIRITED_CHARGE, "Spirited Charge", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SPRING_ATTACK, "Spring Attack", TRUE, TRUE, FALSE, "Mobility, base attack bonus +4", "free attack of opportunity against combat abilities (ie. kick, trip)");
-feato(FEAT_STEADFAST_DETERMINATION, "Steadfast Determination", TRUE, TRUE, FALSE, "endurance feat", "allows you to use your con bonus instead of your wis bonus for will saves");
+feato(FEAT_STEADFAST_DETERMINATION, "Steadfast Determination", TRUE, TRUE, FALSE, "Endurance", "allows you to use your con bonus instead of your wis bonus for will saves");
 feato(FEAT_STEALTHY, "Stealthy", TRUE, TRUE, FALSE, "-", "+2 bonus on Escape Artist and Stealth checks");
 feato(FEAT_STILL_MIND, "Still Mind", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STILL_SPELL, "Still Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
