@@ -733,17 +733,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     return TRUE;
 
-  case FEAT_EMPOWERED_MAGIC:
-  case FEAT_ENHANCED_SPELL_DAMAGE:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_AUGMENT_SUMMONING:
-    if (IS_DRUID(ch) || IS_WIZARD(ch) || IS_CLERIC(ch) || IS_FAVORED_SOUL(ch) || IS_SORCERER(ch))
-      return true;
-    return false;
-
   case FEAT_FASTER_MEMORIZATION:
     if (IS_MEM_BASED_CASTER(ch))
       return TRUE;
@@ -782,9 +771,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     if (has_feat(ch, FEAT_RAGE))
       return TRUE;
     return FALSE;
-
-  case FEAT_ABLE_LEARNER:
-    return TRUE;
 
   case FEAT_FAVORED_ENEMY:
     if (has_feat(ch, FEAT_FAVORED_ENEMY_AVAILABLE))
@@ -1131,79 +1117,75 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return TRUE;
     return FALSE;
 
-  case FEAT_SPELL_FOCUS:
-    if (GET_CLASS_RANKS(ch, CLASS_WIZARD))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_SPELL_PENETRATION:
-    if (GET_LEVEL(ch))
-      return TRUE;
-    return FALSE;
-
   case FEAT_BREW_POTION:
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
     if (GET_LEVEL(ch) >= 3)
       return TRUE;
     return FALSE;
 
   case FEAT_CRAFT_MAGICAL_ARMS_AND_ARMOR:
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
     if (GET_LEVEL(ch) >= 5)
       return TRUE;
     return FALSE;
 
   case FEAT_CRAFT_ROD:
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
     if (GET_LEVEL(ch) >= 9)
       return TRUE;
     return FALSE;
 
   case FEAT_CRAFT_STAFF:
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
     if (GET_LEVEL(ch) >= 12)
       return TRUE;
     return FALSE;
 
   case FEAT_CRAFT_WAND:
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
     if (GET_LEVEL(ch) >= 5)
+      return TRUE;
+    return FALSE;
+
+  case FEAT_CRAFT_WONDEROUS_ITEM:
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
+    if (GET_LEVEL(ch) >= 3)
       return TRUE;
     return FALSE;
 
   case FEAT_FORGE_RING:
-    if (GET_LEVEL(ch) >= 5)
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
+    if (GET_LEVEL(ch) >= 7)
       return TRUE;
     return FALSE;
 
   case FEAT_SCRIBE_SCROLL:
+    if (IS_SPELLCASTER(ch))
+      return TRUE;
     if (GET_LEVEL(ch) >= 1)
       return TRUE;
     return FALSE;
 
   case FEAT_EXTEND_SPELL:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    return FALSE;
-
   case FEAT_HEIGHTEN_SPELL:
-    if (GET_CLASS_RANKS(ch, CLASS_WIZARD))
-      return TRUE;
-    return FALSE;
-
   case FEAT_MAXIMIZE_SPELL:
+  case FEAT_EMPOWERED_MAGIC:
+  case FEAT_ENHANCED_SPELL_DAMAGE:
+  case FEAT_SPELL_FOCUS:
+  case FEAT_SPELL_PENETRATION:
+  case FEAT_AUGMENT_SUMMONING:
+  case FEAT_QUICKEN_SPELL:
+  case FEAT_SILENT_SPELL:
+  case FEAT_STILL_SPELL:
   case FEAT_EMPOWER_SPELL:
     if (IS_SPELLCASTER(ch))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_QUICKEN_SPELL:
-    if (GET_CLASS_RANKS(ch, CLASS_WIZARD))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_SILENT_SPELL:
-    if (GET_CLASS_RANKS(ch, CLASS_WIZARD))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_STILL_SPELL:
-    if (GET_CLASS_RANKS(ch, CLASS_WIZARD))
       return TRUE;
     return FALSE;
 
