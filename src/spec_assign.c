@@ -185,6 +185,18 @@ void assign_rooms(void)
         ASSIGNROOM(30022, library_small); // Character Generation
         break;
 
+        case CAMPAIGN_GOLARION:
+        // Character generation
+        ASSIGNROOM(30000, enforce_chargen);  
+        ASSIGNROOM(30001, select_race);  
+        ASSIGNROOM(30002, select_align);  
+        ASSIGNROOM(30003, set_stats);  
+        ASSIGNROOM(30004, set_descs);  
+        ASSIGNROOM(30015, read_rules);  
+        ASSIGNROOM(30034, buy_items);  
+        ASSIGNROOM(30022, library_small); // Character Generation
+        break;
+
         case CAMPAIGN_DRAGONLANCE:
 
 

@@ -2618,16 +2618,14 @@ void list_feats_available(struct char_data *ch, char *arg)
     }
     if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) 
     {
+        row = create_row(grid);
+        row_append_cell(row, 35, "@W%s@n", feat_list[i].name);
         if (mode == 2) 
-                {
-          row = create_row(grid);
-          row_append_cell(row, 35, "%s", feat_list[i].name);
+        {
           row_append_cell(row, 40, "%s", feat_list[i].prerequisites);
         } 
         else 
         {
-          row = create_row(grid);
-          row_append_cell(row, 35, "%s", feat_list[i].name);
           row_append_cell(row, 40, "%s", feat_list[i].description);
         } 
     }
@@ -2652,10 +2650,7 @@ void list_feats_available(struct char_data *ch, char *arg)
 void list_class_feats(struct char_data *ch)
 {
 
-  int featMarker = 1;
-  int featCounter = 0;
-  int i = 0;
-  int sortpos = 0;
+  int featMarker = 1, featCounter = 0, i = 0, sortpos = 0;
   char buf3[100]={'\0'};
 
     send_to_char(ch, "\r\n");
@@ -2667,14 +2662,18 @@ void list_class_feats(struct char_data *ch)
     send_to_char(ch, "\r\n");
 
 
-  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) {
+  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
+  {
     i = feat_sort_info[sortpos];
-    if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) {
+    if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) 
+    {
       featMarker = 1;
       featCounter = 0;
-      while (featMarker != 0) {
+      while (featMarker != 0) 
+      {
         featMarker = class_bonus_feats[GET_CLASS(ch)][featCounter];
-        if (i == featMarker) {
+        if (i == featMarker) 
+        {
           sprintf(buf3, "%s:", feat_list[i].name);
           send_to_char(ch, "@W%-30s@n %s\r\n", buf3, feat_list[featMarker].description);
           send_to_char(ch, "@W%-30s@n %s\r\n", " ", feat_list[featMarker].prerequisites);
@@ -2685,12 +2684,14 @@ void list_class_feats(struct char_data *ch)
   }
 }
 
-int is_class_feat(int featnum, int class) {
+int is_class_feat(int featnum, int class) 
+{
 
   int i = 0;
   int marker = class_bonus_feats[class][i];
 
-  while (marker != FEAT_UNDEFINED) {
+  while (marker != FEAT_UNDEFINED) 
+  {
     if (marker == featnum)
       return TRUE;
     marker = class_bonus_feats[class][++i];
@@ -2788,11 +2789,12 @@ void list_feats_complete(struct char_data *ch, char *arg)
 
 int find_feat_num(char *name)
 {  
-  int index, ok;
+  int index = 0, ok = 0;
   char *temp, *temp2;
-  char first[256], first2[256];
+  char first[256]={'\0'}, first2[256]={'\0'};
    
-  for (index = 1; index <= NUM_FEATS_DEFINED; index++) {
+  for (index = 1; index <= NUM_FEATS_DEFINED; index++) 
+  {
     if (is_abbrev(name, feat_list[index].name))
       return (index);
     
@@ -2800,7 +2802,8 @@ int find_feat_num(char *name)
     /* It won't be changed, but other uses of this function elsewhere may. */
     temp = any_one_arg((char *)feat_list[index].name, first);
     temp2 = any_one_arg(name, first2);
-    while (*first && *first2 && ok) {
+    while (*first && *first2 && ok) 
+    {
       if (!is_abbrev(first2, first))
         ok = FALSE;
       temp = any_one_arg(temp, first);
@@ -3144,8 +3147,6 @@ MATERIAL_LEATHER, HANDLE_TYPE_GRIP, HEAD_TYPE_MESH);
 WEAPON_FLAG_THROWN, 20, DAMAGE_TYPE_PIERCING, 5, 10, WEAPON_FAMILY_MONK, SIZE_SMALL, 
 MATERIAL_STEEL, HANDLE_TYPE_GRIP, HEAD_TYPE_BLADE); 
 
-
-
 }
 
 void setarmor(int type, char *name, int armorType, int cost, int armorBonus, int dexBonus, int armorCheck, int spellFail, int thirtyFoot, int twentyFoot, int weight, int material)
@@ -3181,7 +3182,8 @@ void initialize_armor(int type)
   armor_list[type].material = 0;
 }
 
-void load_armor(void) {
+void load_armor(void) 
+{
 
     int i = 0;
 
@@ -3207,62 +3209,64 @@ void load_armor(void) {
 	setarmor(SPEC_ARMOR_TYPE_TOWER_SHIELD, "tower shield", ARMOR_TYPE_SHIELD, 3000, 40, 2, -10, 50, 999, 999, 450, MATERIAL_WOOD);
 }
 
-void display_levelup_feats(struct char_data *ch) {
+void display_levelup_feats(struct char_data *ch) 
+{
 
-	int sortpos=0, i=0, count=0;
-	int featMarker, featCounter, classfeat;
-        int j = 0;
+  int sortpos=0, i=0, count=0;
+  int featMarker = 1, featCounter = 0, classfeat = FALSE;
 
-        if (ch->levelup->feat_points > 5)
-          ch->levelup->feat_points = 0;
-        if (ch->levelup->num_class_feats > 5)
-          ch->levelup->num_class_feats = 0;
-        if (ch->levelup->epic_feat_points > 5)
-          ch->levelup->epic_feat_points = 0;
-        if (ch->levelup->num_epic_class_feats > 5)
-          ch->levelup->num_epic_class_feats = 0;
+  if (ch->levelup->feat_points > 5)
+    ch->levelup->feat_points = 0;
+  if (ch->levelup->num_class_feats > 5)
+    ch->levelup->num_class_feats = 0;
+  if (ch->levelup->epic_feat_points > 5)
+    ch->levelup->epic_feat_points = 0;
+  if (ch->levelup->num_epic_class_feats > 5)
+    ch->levelup->num_epic_class_feats = 0;
 
-	send_to_char(ch, "Available Feats to Learn:\r\n"
-			"Number Available: Normal (%d) Class (%d) Epic (%d) Epic CLass (%d)\r\n\r\n",
-			ch->levelup->feat_points, ch->levelup->num_class_feats, ch->levelup->epic_feat_points, ch->levelup->num_epic_class_feats);
+  send_to_char(ch, "Available Feats to Learn:\r\n"
+    "Number Available: Normal (%d) Class (%d) Epic (%d) Epic CLass (%d)\r\n\r\n",
+    ch->levelup->feat_points, ch->levelup->num_class_feats, ch->levelup->epic_feat_points, ch->levelup->num_epic_class_feats);
 
-	  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) {
-	    i = feat_sort_info[sortpos];
-	    classfeat = FALSE;
+  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
+  {
+    i = feat_sort_info[sortpos];
+    classfeat = FALSE;
 
-	    featMarker = 1;
-	    featCounter = 0;
-	    while (featMarker != 0) {
-	      featMarker = class_bonus_feats[ch->levelup->class][featCounter];
-	      if (i == featMarker) {
-		classfeat = TRUE;
-	      }
-	      featCounter++;
-	    }
-            j = 0;
+    while (featMarker != 0) 
+    {
+      featMarker = class_bonus_feats[ch->levelup->class][featCounter];
+      if (i == featMarker) {
+        classfeat = TRUE;
+      }
+      featCounter++;
+    }
 
-	    if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn &&
-		  (!HAS_FEAT(ch, i) || feat_list[i].can_stack)) {
+    if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn &&
+      (!HAS_FEAT(ch, i) || feat_list[i].can_stack)) 
+    {
 
-	          send_to_char(ch, "%s%3d) %-40s @n", classfeat ? "@C(C) " : "@y(N) ", i, feat_list[i].name);
-  	          count++;
-  	          if (count % 2 == 1)
-	            send_to_char(ch, "\r\n");
-	    }
+      send_to_char(ch, "%s%3d) %-40s @n", classfeat ? "@C(C) " : "@y(N) ", i, feat_list[i].name);
+      count++;
+      if (count % 2 == 1)
+        send_to_char(ch, "\r\n");
+    }
 
-	  }
+  }
 
-	  if (count % 2 != 1)
-		  send_to_char(ch, "\r\n");
-	  send_to_char(ch, "\r\n");
+  if (count % 2 != 1)
+    send_to_char(ch, "\r\n");
+  send_to_char(ch, "\r\n");
 
-	  send_to_char(ch, "To select a feat, type the number beside it.  Class feats are in @Ccyan@n and marked with a (C).  When done type -1: ");
+  send_to_char(ch, "To select a feat, type the number beside it.  Class feats are in @Ccyan@n and marked with a (C).  When done type -1: ");
 
 }
 
-int has_feat(struct char_data *ch, int featnum) {
+int has_feat(struct char_data *ch, int featnum) 
+{
 
-	if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) {
+	if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) 
+  {
 		return (HAS_FEAT(ch, featnum) + ch->levelup->feats[featnum]);
 	}
 /*
@@ -3281,9 +3285,11 @@ int has_feat(struct char_data *ch, int featnum) {
 	return HAS_FEAT(ch, featnum);
 }
 
-int has_combat_feat(struct char_data *ch, int i, int j) {
+int has_combat_feat(struct char_data *ch, int i, int j) 
+{
 
-	if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) {
+	if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) 
+  {
 		if ((IS_SET_AR((ch)->levelup->combat_feats[(i)], (j))))
 			return TRUE;
 	}
@@ -3294,11 +3300,13 @@ int has_combat_feat(struct char_data *ch, int i, int j) {
 	return FALSE;
 }
 
-int has_weapon_feat(struct char_data *ch, int i, int j) {
+int has_weapon_feat(struct char_data *ch, int i, int j) 
+{
   return has_weapon_feat_full(ch, i, j, TRUE);
 }
 
-int has_weapon_feat_full(struct char_data *ch, int i, int j, int display) {
+int has_weapon_feat_full(struct char_data *ch, int i, int j, int display) 
+{
 
   struct obj_data *obj = GET_EQ(ch, WEAR_WIELD);
   int k = 0;
@@ -3393,7 +3401,8 @@ int has_weapon_feat_full(struct char_data *ch, int i, int j, int display) {
 	return FALSE;
 }
 
-void display_levelup_weapons(struct char_data *ch) {
+void display_levelup_weapons(struct char_data *ch) 
+{
 
 	int i=0;
 
@@ -3414,7 +3423,8 @@ void display_levelup_weapons(struct char_data *ch) {
 	send_to_char(ch, "Please select a weapon by typing a number beside it: (-1 to cancel) ");
 }
 
-void set_feat(struct char_data *ch, int i, int j) {
+void set_feat(struct char_data *ch, int i, int j) 
+{
 
 	if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) {
 		ch->levelup->feats[i] = j;
@@ -3430,102 +3440,115 @@ void set_feat(struct char_data *ch, int i, int j) {
 #define FEAT_TYPE_EPIC_CLASS            4
 
 
-int handle_levelup_feat_points(struct char_data *ch, int feat_num, int return_val) {
+int handle_levelup_feat_points(struct char_data *ch, int feat_num, int return_val) 
+{
 
-	if (HAS_FEAT(ch, feat_num) && !feat_list[feat_num].can_stack) {
-          send_to_char(ch, "You already have this feat.\r\nPress enter to continue.\r\n");
-          return FALSE;
-        }
-	
+  if (HAS_FEAT(ch, feat_num) && !feat_list[feat_num].can_stack) 
+  {
+    send_to_char(ch, "You already have this feat.\r\nPress enter to continue.\r\n");
+    return FALSE;
+  }
 
-	int feat_points = ch->levelup->feat_points;
-	int epic_feat_points = ch->levelup->epic_feat_points;
-	int class_feat_points = ch->levelup->num_class_feats;
-	int epic_class_feat_points = ch->levelup->num_epic_class_feats;
-	int feat_type = 0;
 
-	if (feat_list[feat_num].epic == TRUE) {
-	    if (is_class_feat(feat_num, ch->levelup->class))
-	      feat_type = FEAT_TYPE_EPIC_CLASS;
-	    else
-	      feat_type = FEAT_TYPE_EPIC;
-	}
-	else {
-	    if (is_class_feat(feat_num, ch->levelup->class))
-	      feat_type = FEAT_TYPE_NORMAL_CLASS;
-	    else
-	      feat_type = FEAT_TYPE_NORMAL;
-	}
+  int feat_points = ch->levelup->feat_points;
+  int epic_feat_points = ch->levelup->epic_feat_points;
+  int class_feat_points = ch->levelup->num_class_feats;
+  int epic_class_feat_points = ch->levelup->num_epic_class_feats;
+  int feat_type = 0;
 
-	if (return_val == 0) {
-		// if it's an epic feat, make sure they have an epic feat point
+  if (feat_list[feat_num].epic == TRUE) 
+  {
+    if (is_class_feat(feat_num, ch->levelup->class))
+      feat_type = FEAT_TYPE_EPIC_CLASS;
+    else
+      feat_type = FEAT_TYPE_EPIC;
+  }
+  else 
+  {
+    if (is_class_feat(feat_num, ch->levelup->class))
+      feat_type = FEAT_TYPE_NORMAL_CLASS;
+    else
+      feat_type = FEAT_TYPE_NORMAL;
+  }
 
-		  if (feat_type == FEAT_TYPE_EPIC && epic_feat_points < 1) {
-		    send_to_char(ch, "This is an epic feat and you do not have any epic feat points remaining.\r\n");
-		    send_to_char(ch, "Please press enter to continue.\r\n");
-		    return 0;
-		  }
+  if (return_val == 0)
+  {
+// if it's an epic feat, make sure they have an epic feat point
 
-		  // if it's an epic class feat, make sure they have an epic feat point or an epic class feat point
+    if (feat_type == FEAT_TYPE_EPIC && epic_feat_points < 1) 
+    {
+      send_to_char(ch, "This is an epic feat and you do not have any epic feat points remaining.\r\n");
+      send_to_char(ch, "Please press enter to continue.\r\n");
+      return 0;
+    }
 
-		  if (feat_type == FEAT_TYPE_EPIC_CLASS && epic_feat_points < 1 && epic_class_feat_points < 1) {
-		    send_to_char(ch, "This is an epic class feat and you do not have any epic feat points or epic class feat points remaining.\r\n");
-		    send_to_char(ch, "Please press enter to continue.\r\n");
-		    return 0;
-		  }
+// if it's an epic class feat, make sure they have an epic feat point or an epic class feat point
 
-		  // if it's a normal feat, make sure they have a normal feat point
+    if (feat_type == FEAT_TYPE_EPIC_CLASS && epic_feat_points < 1 && epic_class_feat_points < 1) 
+    {
+      send_to_char(ch, "This is an epic class feat and you do not have any epic feat points or epic class feat points remaining.\r\n");
+      send_to_char(ch, "Please press enter to continue.\r\n");
+      return 0;
+    }
 
-		  if (feat_type == FEAT_TYPE_NORMAL && feat_points < 1) {
-		    send_to_char(ch, "This is a normal feat and you do not have any normal feat points remaining.\r\n");
-		    send_to_char(ch, "Please press enter to continue.\r\n");
-		    return 0;
-		  }
+// if it's a normal feat, make sure they have a normal feat point
 
-		  // if it's a normal class feat, make sure they have a normal feat point or a normal class feat point
+    if (feat_type == FEAT_TYPE_NORMAL && feat_points < 1) 
+    {
+      send_to_char(ch, "This is a normal feat and you do not have any normal feat points remaining.\r\n");
+      send_to_char(ch, "Please press enter to continue.\r\n");
+      return 0;
+    }
 
-		  if (feat_type == FEAT_TYPE_NORMAL_CLASS && feat_points < 1 && class_feat_points < 1 && epic_class_feat_points < 1) {
-		    send_to_char(ch, "This is a normal class feat and you do not have any normal feat points or normal class feat points remaining.\r\n");
-		    send_to_char(ch, "Please press enter to continue.\r\n");
-		    return 0;
-		  }
-		  return 1;
-	}
-	else {
-		// reduce the appropriate feat point type based on what the feat type was set as above.  This simulatyes spendinng the feat
+// if it's a normal class feat, make sure they have a normal feat point or a normal class feat point
 
-		  if (feat_type == FEAT_TYPE_EPIC) {
-		    epic_feat_points--;
-		  }
-		  else if (feat_type == FEAT_TYPE_EPIC_CLASS) {
-		    if (epic_class_feat_points > 0)
-		      epic_class_feat_points--;
-		    else
-		      epic_feat_points--;
-		  }
-		  else if (feat_type == FEAT_TYPE_NORMAL) {
-		    feat_points--;
-		  }
-		  else if (feat_type == FEAT_TYPE_NORMAL_CLASS) {
-		    if (class_feat_points > 0)
-		      class_feat_points--;
-		    else if (feat_points > 0)
-		      feat_points--;
-		    if (epic_class_feat_points > 0)
-		      epic_class_feat_points--;
-		    else
-		      epic_feat_points--;
-		  }
+    if (feat_type == FEAT_TYPE_NORMAL_CLASS && feat_points < 1 && class_feat_points < 1 && epic_class_feat_points < 1) 
+    {
+      send_to_char(ch, "This is a normal class feat and you do not have any normal feat points or normal class feat points remaining.\r\n");
+      send_to_char(ch, "Please press enter to continue.\r\n");
+      return 0;
+    }
+    return 1;
+  }
+  else {
+// reduce the appropriate feat point type based on what the feat type was set as above.  This simulatyes spendinng the feat
 
-		  ch->levelup->feat_points = feat_points;
-		  ch->levelup->epic_feat_points = epic_feat_points;
-		  ch->levelup->num_class_feats = class_feat_points;
-		  ch->levelup->num_epic_class_feats = epic_class_feat_points;
+    if (feat_type == FEAT_TYPE_EPIC) 
+    {
+      epic_feat_points--;
+    }
+    else if (feat_type == FEAT_TYPE_EPIC_CLASS) 
+    {
+      if (epic_class_feat_points > 0)
+        epic_class_feat_points--;
+      else
+        epic_feat_points--;
+    }
+    else if (feat_type == FEAT_TYPE_NORMAL) 
+    {
+      feat_points--;
+    }
+    else if (feat_type == FEAT_TYPE_NORMAL_CLASS) 
+    {
+      if (class_feat_points > 0)
+        class_feat_points--;
+      else if (feat_points > 0)
+        feat_points--;
+      if (epic_class_feat_points > 0)
+        epic_class_feat_points--;
+      else
+        epic_feat_points--;
+    }
 
-		  ch->levelup->feats[feat_num]++;
+    ch->levelup->feat_points = feat_points;
+    ch->levelup->epic_feat_points = epic_feat_points;
+    ch->levelup->num_class_feats = class_feat_points;
+    ch->levelup->num_epic_class_feats = epic_class_feat_points;
 
-		  return 1;
-	}
+    ch->levelup->feats[feat_num]++;
 
     return 1;
+  }
+
+  return 1;
 }
