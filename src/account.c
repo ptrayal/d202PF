@@ -365,9 +365,10 @@ ACMD(do_account)
   row = create_row(grid);
   row_append_cell(row, 20, "Gift Experience");
   row_append_cell(row, 55, "%d", acc->gift_experience);
-  row = create_row(grid);
-  row_append_cell(row, 20, "Web Password");
-  row_append_cell(row, 55, "%s", acc->web_password);
+  // Not currently using this code.
+  // row = create_row(grid);
+  // row_append_cell(row, 20, "Web Password");
+  // row_append_cell(row, 55, "%s", acc->web_password);
   row = create_row(grid);
   row_append_cell(row, 75, "@GCharacters@n");
   row = create_row(grid);

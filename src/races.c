@@ -189,8 +189,7 @@ void assign_races(void)
         add_race(RACE_EARTH_GENESI, "earth genesi", "ErtGnsi", "Earth Genesi", RACE_TYPE_OUTSIDER, N, Y, Y, 2, 2, 0, -2, 0, -2, 185, 185, 175, 80, 80, 75,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
 
-        add_race(RACE_AASIMAR, "aasimar", "Aasimar", "Aasimar", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 0, 2, 0, 2, 185, 185, 175, 80, 80, 75,
-            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
+        
         add_race(RACE_TIEFLING, "tiefling", "Tieflng", "Tiefling", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 2, 0, 2, -2, 185, 185, 175, 80, 80, 75,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_ABYSSAL, 1);
 
@@ -209,6 +208,10 @@ void assign_races(void)
         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
     add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 2, 0, -2, 0, 0, -2, 200, 200, 190, 75, 75, 70,
         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
+
+// Test Race for unlocking purposes
+    add_race(RACE_AASIMAR, "aasimar", "Aasimar", "Aasimar", RACE_TYPE_OUTSIDER, N, Y, Y, 0, 0, 0, 2, 0, 2, 185, 185, 175, 80, 80, 75,
+            Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_CELESTIAL, 1);
 
 
 

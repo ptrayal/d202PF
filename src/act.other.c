@@ -6247,7 +6247,7 @@ ACMD(do_callcompanion)
 ACMD(do_accexp)
 {
 
-    char arg[200], arg2[200];
+    char arg[200]={'\0'}, arg2[200]={'\0'};
     int i = 0, j = 0;
 
     two_arguments(argument, arg, arg2);
@@ -6267,7 +6267,7 @@ ACMD(do_accexp)
             {
                 if (race_list[i].is_pc == FALSE || race_list[i].level_adjustment == 0 || has_unlocked_race(ch, i))
                     continue;
-                send_to_char(ch, "%s (%d account experience)\r\n", race_list[i].name, race_list[i].level_adjustment * 5000);
+                send_to_char(ch, "  \t[U10148/*] %s (%d account experience)\r\n", race_list[i].name, race_list[i].level_adjustment * 5000);
             }
             return;
         }
@@ -6326,7 +6326,7 @@ ACMD(do_accexp)
             {
                 if (!class_in_game_core[i] || has_unlocked_class(ch, i) || !prestige_classes_core[i])
                     continue;
-                send_to_char(ch, "%s (5000 account experience)\r\n", class_names_core[i]);
+                send_to_char(ch, "  \t[U10148/*] %s (5000 account experience)\r\n", class_names_core[i]);
             }
             return;
         }
