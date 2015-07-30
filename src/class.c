@@ -5024,7 +5024,6 @@ const int class_feats_eldritch_knight[] = {
 const int class_feats_favored_soul[] = {
   FEAT_ARMOR_SKIN,
   FEAT_EPIC_SPELLCASTING,
-  FEAT_GREAT_CHARISMA,
   FEAT_UNDEFINED
 };
 const int class_feats_assassin[] = {
@@ -5090,9 +5089,6 @@ const int class_feats_dragon_disciple[] = {
   FEAT_ARMOR_SKIN,
   FEAT_EPIC_PROWESS,
   FEAT_DAMAGE_REDUCTION,
-  FEAT_GREAT_CHARISMA,
-  FEAT_GREAT_CONSTITUTION,
-  FEAT_GREAT_STRENGTH,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };

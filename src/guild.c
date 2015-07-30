@@ -1335,36 +1335,6 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
     break;
-  case FEAT_GREAT_STRENGTH:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    ch->real_abils.str++;
-    break;
-  case FEAT_GREAT_DEXTERITY:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    ch->real_abils.dex++;
-    break;
-  case FEAT_GREAT_CONSTITUTION:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    ch->real_abils.con++;
-    break;
-  case FEAT_GREAT_INTELLIGENCE:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    ch->real_abils.intel++;
-    break;
-  case FEAT_GREAT_WISDOM:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    ch->real_abils.wis++;
-    break;
-  case FEAT_GREAT_CHARISMA:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    ch->real_abils.cha++;
-    break;
   default:
     SET_FEAT(ch, feat_num, HAS_FEAT(ch, feat_num) + 1);
     break;

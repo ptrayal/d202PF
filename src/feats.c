@@ -234,15 +234,9 @@ feato(FEAT_FAVORED_ENEMY_AVAILABLE, "Available Favored Enemy Choice(s)", TRUE, F
 feato(FEAT_FLURRY_OF_BLOWS, "Flurry of Blows", TRUE, FALSE, FALSE, "-", "extra attack when fighting unarmed at -2 to all attacks");
 feato(FEAT_FORGE_RING, "Forge Ring", FALSE, FALSE, FALSE, "Caster level 7th", "Create magic rings"); 
 feato(FEAT_GRACE, "Grace", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_GREAT_CHARISMA, "great charisma", TRUE, TRUE, TRUE, "epic level", "Increases Wisdom by 1");
 feato(FEAT_GREAT_CLEAVE, "great cleave", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_GREAT_CONSTITUTION, "great constitution", TRUE, TRUE, TRUE, "epic level", "Increases Constitution by 1");
-feato(FEAT_GREAT_DEXTERITY, "great dexterity", TRUE, TRUE, TRUE, "epic level", "Increases Dexterity by 1");
 feato(FEAT_GREAT_FORTITUDE, "Great Fortitude", TRUE, TRUE, FALSE, "-", "+2 on Fortitude saves");
-feato(FEAT_GREAT_INTELLIGENCE, "great intelligence", TRUE, TRUE, TRUE, "epic level", "Increases Intelligence by 1");
 feato(FEAT_GREAT_SMITING, "Great Smiting", TRUE, TRUE, TRUE, "epic level", "For each rank in this feat you add your level in damage to all smite attacks");
-feato(FEAT_GREAT_STRENGTH, "great strength", TRUE, TRUE, TRUE, "epic level", "Increases Strength by 1");
-feato(FEAT_GREAT_WISDOM, "great wisdom", TRUE, TRUE, TRUE, "epic level", "Increases Wisdom by 1");
 feato(FEAT_GREATER_COMBAT_CHALLENGE, "Greater Combat Challenge", TRUE, TRUE, FALSE, "15 ranks in diplomacy, intimidate or bluff, improved combat challenge", "as improved combat challenge, but regular challenge is a minor action & challenge all is a move action ");
 feato(FEAT_GREATER_FLURRY, "Greater Flurry", TRUE, FALSE, FALSE, "-", "extra unarmed attack when using flurry of blows at -5 penalty");
 feato(FEAT_GREATER_RAGE, "Greater Rage", TRUE, FALSE, FALSE, "-", "+6 to str and con when raging");
@@ -402,7 +396,7 @@ feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "Proficiency with wea
 feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization in specific weapon, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
 feato(FEAT_WEAPON_OF_CHOICE, "Weapons of Choice", TRUE, FALSE, FALSE, "Weapon Master level 1", "All weapons with weapon focus gain special abilities");
 feato(FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD, "Weapon Proficiency (Bastard Sword)", FALSE, TRUE, FALSE, "ask staff", "ask staff");
-feato(FEAT_WEAPON_PROFICIENCY_DEITY, "Weapon Proficiency (Deity)", TRUE, FALSE, FALSE, "favored soul level 1, cleric level 1", "Clerics or Favored Souls are also proficient with the favored weapon of their deity.");
+feato(FEAT_WEAPON_PROFICIENCY_DEITY, "Weapon Proficiency (Deity)", TRUE, FALSE, FALSE, "Cleric level 1st", "Clerics are proficient with the favored\n weapon of their deity");
 feato(FEAT_WEAPON_PROFICIENCY_DRUID, "Weapon Proficiency (Druid)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_ELF, "Weapon Proficiency (Elf)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_EXOTIC, "Weapon Proficiency (Exotic)", TRUE, TRUE, TRUE, "Base attack bonus +1", "You understand how to use that type of exotic weapon in combat.");
@@ -481,12 +475,6 @@ epicfeat(FEAT_SELF_CONCEALMENT);
 epicfeat(FEAT_INTENSIFY_SPELL);
 epicfeat(FEAT_EPIC_SPELLCASTING);
 epicfeat(FEAT_EPIC_SKILL_FOCUS);
-epicfeat(FEAT_GREAT_STRENGTH);
-epicfeat(FEAT_GREAT_CONSTITUTION);
-epicfeat(FEAT_GREAT_DEXTERITY);
-epicfeat(FEAT_GREAT_WISDOM);
-epicfeat(FEAT_GREAT_INTELLIGENCE);
-epicfeat(FEAT_GREAT_CHARISMA);
 epicfeat(FEAT_DAMAGE_REDUCTION);
 epicfeat(FEAT_ARMOR_SKIN);
 epicfeat(FEAT_FAST_HEALING);
@@ -1546,14 +1534,14 @@ void list_feats_known(struct char_data *ch, char *arg)
           }   
         }
       } 
-    else if (i == FEAT_SKILL_FOCUS) 
+    else if (i == FEAT_SKILL_FOCUS || i == FEAT_EPIC_SKILL_FOCUS) 
       {
         row = create_row(grid);
         for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
         {
         if (ch->player_specials->skill_focus[j-SKILL_LOW_SKILL] > 0) 
         {
-            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, spell_info[j].name)
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, spell_info[j].name);
             if (mode == 2) 
             {
               
@@ -1565,7 +1553,22 @@ void list_feats_known(struct char_data *ch, char *arg)
             } 
         }
         }
-      } // All non-specific feats go here.
+      } 
+    else if (i == FEAT_WEAPON_PROFICIENCY_DEITY)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s\n(%s)", feat_list[i].name, weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+      if (mode == 2) 
+      {
+        
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+    // All non-specific feats go here.
     else
     {
       row = create_row(grid);
@@ -2359,90 +2362,6 @@ void list_feats_known(struct char_data *ch, char *arg)
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
           } else {
             sprintf(buf3, "%s (+%d natural ac)", feat_list[i].name, HAS_FEAT(ch, FEAT_NATURAL_ARMOR_INCREASE));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_GREAT_STRENGTH) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_STRENGTH));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_STRENGTH));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_STRENGTH));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_GREAT_DEXTERITY) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_DEXTERITY));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_DEXTERITY));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_DEXTERITY));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_GREAT_CONSTITUTION) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CONSTITUTION));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CONSTITUTION));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CONSTITUTION));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_GREAT_INTELLIGENCE) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_INTELLIGENCE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_INTELLIGENCE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_INTELLIGENCE));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_GREAT_WISDOM) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_WISDOM));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_WISDOM));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_WISDOM));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_GREAT_CHARISMA) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CHARISMA));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CHARISMA));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_GREAT_CHARISMA));
             sprintf(buf, "%-35s ", buf3);
           }
           strcat(buf2, buf);
