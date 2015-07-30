@@ -429,36 +429,37 @@ feato(FEAT_WINGS, "Wings", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WOODLAND_STRIDE, "Woodland Stride", TRUE, FALSE, FALSE, "ask staff", "A druid may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or suffering any other impairment.");
 
 // Dragonlance specific feats or class abilities.
-#if defined(CAMPAIGN_DRAGONLANCE)
-feato(FEAT_ARMORED_MOBILITY, "Armored Mobility", TRUE, FALSE, FALSE, "Knight of the Crown level 6\nKnight of the Lily level 6", "heavy armor is treated as medium armor");
-feato(FEAT_ARMORED_SPELLCASTING, "Armored Spellcasting", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
-feato(FEAT_AURA_OF_EVIL, "Aura of Evil", TRUE, FALSE, FALSE, "Knight of the Skull", "ask staff");
-feato(FEAT_AURA_OF_GOOD, "Aura of Good", TRUE, TRUE, FALSE, "Knight of the Rose", "+10 ac to all group members");
-feato(FEAT_AURA_OF_TERROR, "Aura of Terror", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
-feato(FEAT_COSMIC_UNDERSTANDING, "Cosmic Understanding", TRUE, FALSE, FALSE, "Knight of the Thorn level 10", "ask staff");
-feato(FEAT_CROWN_OF_KNIGHTHOOD, "Crown of Knighthood", TRUE, FALSE, FALSE, "Knight of the Crown 10th", "ask staff");
-feato(FEAT_DARK_BLESSING, "Dark Blessing", TRUE, FALSE, FALSE, "Knight of the Skull level 2", "ask staff");
-feato(FEAT_DEMORALIZE, "Demoralize", TRUE, FALSE, FALSE, "Knight of the Lily level 2", "ask staff");
-feato(FEAT_DISCERN_LIES, "Discern Lies", TRUE, FALSE, FALSE, "Knight of the Skull level 3", "ask staff");
-feato(FEAT_DIVINER, "Diviner", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
-feato(FEAT_FAVOR_OF_DARKNESS, "Favor of Darkness", TRUE, FALSE, FALSE, "Knight of the Skull level 10", "ask staff");
-feato(FEAT_FINAL_STAND, "Final Stand", TRUE, FALSE, FALSE, "Knight of the Rose level 9", "ask staff");
-feato(FEAT_HEROIC_INITIATIVE, "Heroic Initiative", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to initiative checks");
-feato(FEAT_HONORABLE_WILL, "Honorable Will", TRUE, FALSE, FALSE, "Knight of the Crown 4th", "ask staff");
-feato(FEAT_HONORBOUND, "Honorbound", TRUE, TRUE, FALSE, "-", "+2 to saving throws against fear or compulsion effects, +2 to sense motive checks");
-feato(FEAT_KNIGHTHOODS_FLOWER, "Knighthood's Flower", TRUE, FALSE, FALSE, "Knight of the Rose 10th", "ask staff");
-feato(FEAT_KNIGHTLY_COURAGE, "Knightly Courage", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to fear checks");
-feato(FEAT_MIGHT_OF_HONOR, "Might of Honor", TRUE, FALSE, FALSE, "Knight of the Crown level 6", "ask staff");
-feato(FEAT_ONE_THOUGHT, "One Thought", TRUE, FALSE, FALSE, "Knight of the Lily level 10", "ask staff");
-feato(FEAT_RALLYING_CRY, "Rallying Cry", TRUE, FALSE, FALSE, "Knight of the Rose level 1", "ask staff");
-feato(FEAT_READ_OMENS, "Read Omens", TRUE, FALSE, FALSE, "Knight of the Thorn level 1", "ask staff");
-feato(FEAT_READ_PORTENTS, "Read Portents", TRUE, FALSE, FALSE, "Knight of the Thorn level 6", "ask staff");
-feato(FEAT_SOUL_OF_KNIGHTHOOD, "Soul of Knighthood", TRUE, FALSE, FALSE, "Knight of the Sword level 10", "ask staff");
-feato(FEAT_STRENGTH_OF_HONOR, "Strength of Honor", TRUE, FALSE, TRUE, "Knight of the Crown level 1", "+4 to strength for several rounds");
-feato(FEAT_UNBREAKABLE_WILL, "Unbreakable Will", TRUE, FALSE, FALSE, "Knight of the Lily", "ask staff");
-feato(FEAT_WEAPON_TOUCH, "Weapon Touch", TRUE, FALSE, FALSE, "Knight of the Thorn level 4", "ask staff");
-feato(FEAT_WISDOM_OF_THE_MEASURE, "Wisdom of the Measure", TRUE, FALSE, FALSE, "Knight of the Rose level 6", "ask staff");
-#endif
+if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
+{
+  feato(FEAT_ARMORED_MOBILITY, "Armored Mobility", TRUE, FALSE, FALSE, "Knight of the Crown level 6\nKnight of the Lily level 6", "heavy armor is treated as medium armor");
+  feato(FEAT_ARMORED_SPELLCASTING, "Armored Spellcasting", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
+  feato(FEAT_AURA_OF_EVIL, "Aura of Evil", TRUE, FALSE, FALSE, "Knight of the Skull", "ask staff");
+  feato(FEAT_AURA_OF_GOOD, "Aura of Good", TRUE, TRUE, FALSE, "Knight of the Rose", "+10 ac to all group members");
+  feato(FEAT_AURA_OF_TERROR, "Aura of Terror", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
+  feato(FEAT_COSMIC_UNDERSTANDING, "Cosmic Understanding", TRUE, FALSE, FALSE, "Knight of the Thorn level 10", "ask staff");
+  feato(FEAT_CROWN_OF_KNIGHTHOOD, "Crown of Knighthood", TRUE, FALSE, FALSE, "Knight of the Crown 10th", "ask staff");
+  feato(FEAT_DARK_BLESSING, "Dark Blessing", TRUE, FALSE, FALSE, "Knight of the Skull level 2", "ask staff");
+  feato(FEAT_DEMORALIZE, "Demoralize", TRUE, FALSE, FALSE, "Knight of the Lily level 2", "ask staff");
+  feato(FEAT_DISCERN_LIES, "Discern Lies", TRUE, FALSE, FALSE, "Knight of the Skull level 3", "ask staff");
+  feato(FEAT_DIVINER, "Diviner", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
+  feato(FEAT_FAVOR_OF_DARKNESS, "Favor of Darkness", TRUE, FALSE, FALSE, "Knight of the Skull level 10", "ask staff");
+  feato(FEAT_FINAL_STAND, "Final Stand", TRUE, FALSE, FALSE, "Knight of the Rose level 9", "ask staff");
+  feato(FEAT_HEROIC_INITIATIVE, "Heroic Initiative", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to initiative checks");
+  feato(FEAT_HONORABLE_WILL, "Honorable Will", TRUE, FALSE, FALSE, "Knight of the Crown 4th", "ask staff");
+  feato(FEAT_HONORBOUND, "Honorbound", TRUE, TRUE, FALSE, "-", "+2 to saving throws against fear or compulsion effects, +2 to sense motive checks");
+  feato(FEAT_KNIGHTHOODS_FLOWER, "Knighthood's Flower", TRUE, FALSE, FALSE, "Knight of the Rose 10th", "ask staff");
+  feato(FEAT_KNIGHTLY_COURAGE, "Knightly Courage", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to fear checks");
+  feato(FEAT_MIGHT_OF_HONOR, "Might of Honor", TRUE, FALSE, FALSE, "Knight of the Crown level 6", "ask staff");
+  feato(FEAT_ONE_THOUGHT, "One Thought", TRUE, FALSE, FALSE, "Knight of the Lily level 10", "ask staff");
+  feato(FEAT_RALLYING_CRY, "Rallying Cry", TRUE, FALSE, FALSE, "Knight of the Rose level 1", "ask staff");
+  feato(FEAT_READ_OMENS, "Read Omens", TRUE, FALSE, FALSE, "Knight of the Thorn level 1", "ask staff");
+  feato(FEAT_READ_PORTENTS, "Read Portents", TRUE, FALSE, FALSE, "Knight of the Thorn level 6", "ask staff");
+  feato(FEAT_SOUL_OF_KNIGHTHOOD, "Soul of Knighthood", TRUE, FALSE, FALSE, "Knight of the Sword level 10", "ask staff");
+  feato(FEAT_STRENGTH_OF_HONOR, "Strength of Honor", TRUE, FALSE, TRUE, "Knight of the Crown level 1", "+4 to strength for several rounds");
+  feato(FEAT_UNBREAKABLE_WILL, "Unbreakable Will", TRUE, FALSE, FALSE, "Knight of the Lily", "ask staff");
+  feato(FEAT_WEAPON_TOUCH, "Weapon Touch", TRUE, FALSE, FALSE, "Knight of the Thorn level 4", "ask staff");
+  feato(FEAT_WISDOM_OF_THE_MEASURE, "Wisdom of the Measure", TRUE, FALSE, FALSE, "Knight of the Rose level 6", "ask staff");
+}
 
 feato(FEAT_LAST_FEAT, "do not take me", FALSE, FALSE, FALSE, "placeholder feat", "placeholder feat");
 
