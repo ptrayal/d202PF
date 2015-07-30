@@ -355,7 +355,7 @@ ACMD(do_account)
   row_append_cell(row, 75, "@YAccount Information for %s@n", acc->name);
   row = create_row(grid);
   row_append_cell(row, 20, "Email");
-  row_append_cell(row, 55, "%-50s", *acc->email ? escape_colorcode(acc->email) : "@RNot Set@n");
+  row_append_cell(row, 54, "%-50s", *acc->email ? escape_colorcode(acc->email) : "@RNot Set@n");
   row = create_row(grid);
   row_append_cell(row, 20, "Level");
   row_append_cell(row, 55, "%d", acc->level);
