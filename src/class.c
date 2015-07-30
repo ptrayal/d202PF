@@ -4789,7 +4789,9 @@ int raise_class_only(struct char_data *ch, int cl, int v)
   GET_CLASS_EPIC(ch, cl) += v;
   return 3;
 }
-const int class_feats_wizard[] = {
+
+const int class_feats_wizard[] = 
+{
   FEAT_SPELL_MASTERY,
   FEAT_BREW_POTION,
   FEAT_CRAFT_MAGICAL_ARMS_AND_ARMOR,
