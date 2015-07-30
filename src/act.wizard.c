@@ -203,7 +203,8 @@ ACMD(do_send)
     send_to_char(ch, "Send what to who?\r\n");
     return;
   }
-  if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
+  if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) 
+  {
     send_to_char(ch, "%s", CONFIG_NOPERSON);
     return;
   }
