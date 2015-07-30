@@ -166,7 +166,6 @@ feato(FEAT_CRIPPLING_CRITICAL, "Crippling Critical", TRUE, FALSE, FALSE, "Duelis
 feato(FEAT_CRIPPLING_STRIKE, "Crippling Strike", TRUE, TRUE, FALSE, "Rogue 10th", "Chance to do 2 strength damage with a sneak attack.");
 feato(FEAT_CRITICAL_FOCUS, "Critical Focus", TRUE, TRUE, TRUE, "Base attack bonus +9", "+4 bonus on attack rolls made to confirm critical hits");
 feato(FEAT_DAMAGE_REDUCTION, "Damage Reduction", TRUE, TRUE, TRUE, "-", "1/- damage reduction per rank of feat, 3/- for epic");
-feato(FEAT_DAMAGE_REDUCTION_FS, "Damage Reduction", TRUE, FALSE, FALSE, "Favored Soul 20th", "reduces damage by 10 unless dealt by cold iron weapon");
 feato(FEAT_DARKVISION, "Darkvision", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_DEATH_ATTACK, "Death Attack", TRUE, FALSE, FALSE, "Assassin 1st", "Chance to kill a target with sneak attack or Paralysis after 3 rounds of hidden study.");
 feato(FEAT_DECEITFUL, "Deceitful", TRUE, TRUE, FALSE, "-", "+2 bonus on Bluff and Disguise checks");
@@ -1547,7 +1546,26 @@ void list_feats_known(struct char_data *ch, char *arg)
           }   
         }
       } 
-    // All non-specific feats go here.
+    else if (i == FEAT_SKILL_FOCUS) 
+      {
+        row = create_row(grid);
+        for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
+        {
+        if (ch->player_specials->skill_focus[j-SKILL_LOW_SKILL] > 0) 
+        {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, spell_info[j].name)
+            if (mode == 2) 
+            {
+              
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+        }
+        }
+      } // All non-specific feats go here.
     else
     {
       row = create_row(grid);
@@ -1572,7 +1590,8 @@ void list_feats_known(struct char_data *ch, char *arg)
   // END NEW GRID LAYOUT
   
   strcpy(buf2, buf);
-
+  
+  // OLD CODE FOR FEATS AVAILABLE
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
 
@@ -2011,6 +2030,7 @@ void list_feats_known(struct char_data *ch, char *arg)
         }
         }
       } 
+      // COMPLETED
       else if (i == FEAT_SKILL_FOCUS) 
       {
         for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
@@ -2199,20 +2219,6 @@ void list_feats_known(struct char_data *ch, char *arg)
             sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
           } else {
             sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BOOST));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_DAMAGE_REDUCTION_FS) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (10/cold iron):", feat_list[i].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (10/cold iron):", feat_list[i].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (10/cold iron):", feat_list[i].name);
             sprintf(buf, "%-35s ", buf3);
           }
           strcat(buf2, buf);

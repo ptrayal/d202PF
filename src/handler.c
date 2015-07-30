@@ -354,33 +354,14 @@ void aff_apply_modify(struct char_data *ch, int loc, int mod, int spec, char *ms
 
   case APPLY_FEAT:
 
-      if (spec == FEAT_DAMAGE_REDUCTION_FS) {
-          if (add && HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION_FS) <= 0) {
-            CREATE(ptr, struct damreduct_type, 1);
-            ptr->next = ch->damreduct;
-            ch->damreduct = ptr;
-            ptr->spell = 0;
-            ptr->feat = FEAT_DAMAGE_REDUCTION_FS;
-            ptr->mod = 10;
-            ptr->duration = -1;
-            ptr->max_damage = -1;
-            for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
-              ptr->damstyle[q] = ptr->damstyleval[q] = 0;
-            ptr->damstyle[0] = DR_MATERIAL;
-            ptr->damstyleval[0] = MATERIAL_COLD_IRON;
-          }
-          else if (!add && (HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION_FS) + mod) <= 0) {
-            for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
-              if (reduct->feat == FEAT_DAMAGE_REDUCTION_FS) {
-                REMOVE_FROM_LIST(reduct, ch->damreduct, next);
-              }      
-            }
-          }
-      }
-      else if (spec == FEAT_DAMAGE_REDUCTION) {
-        if (add) {
-          for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
-            if (reduct->feat == FEAT_DAMAGE_REDUCTION) {
+      if (spec == FEAT_DAMAGE_REDUCTION) 
+      {
+        if (add) 
+        {
+          for (reduct = ch->damreduct; reduct; reduct = reduct->next) 
+          {
+            if (reduct->feat == FEAT_DAMAGE_REDUCTION) 
+            {
               REMOVE_FROM_LIST(reduct, ch->damreduct, next);
             }
           }
@@ -395,13 +376,18 @@ void aff_apply_modify(struct char_data *ch, int loc, int mod, int spec, char *ms
           for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
             ptr->damstyle[q] = ptr->damstyleval[q] = 0;
           ptr->damstyle[0] = DR_NONE;
-        } else {
-          for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
-            if (reduct->feat == FEAT_DAMAGE_REDUCTION) {
+        } 
+        else 
+        {
+          for (reduct = ch->damreduct; reduct; reduct = reduct->next) 
+          {
+            if (reduct->feat == FEAT_DAMAGE_REDUCTION) 
+            {
               REMOVE_FROM_LIST(reduct, ch->damreduct, next);
             }
           }
-          if (HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION) + mod > 0) {
+          if (HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION) + mod > 0)
+          {
             CREATE(ptr, struct damreduct_type, 1);
             ptr->next = ch->damreduct;
             ch->damreduct = ptr;

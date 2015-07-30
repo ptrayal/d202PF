@@ -3175,7 +3175,6 @@ int level_feats[][6] = {
   {CLASS_FAVORED_SOUL,    RACE_UNDEFINED, FALSE, 17,  FEAT_HASTE, TRUE},
   {CLASS_FAVORED_SOUL,    RACE_UNDEFINED, FALSE, 17,  FEAT_WINGS, TRUE},	
   {CLASS_FAVORED_SOUL,    RACE_UNDEFINED, FALSE, 20,  FEAT_ENERGY_RESISTANCE, TRUE},
-  {CLASS_FAVORED_SOUL,    RACE_UNDEFINED, FALSE, 20,  FEAT_DAMAGE_REDUCTION_FS, TRUE},
 
   {CLASS_SACRED_FIST,     RACE_UNDEFINED, FALSE, 5,  FEAT_SACRED_FLAMES, TRUE},
 
@@ -3516,21 +3515,6 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
           SET_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, WEAPON_TYPE_SCYTHE);
           sprintf(featbuf, "%s@YYou have gained weapon specialization in the scythe.@n\r\n", featbuf);
         }
-      }
-      else if (level_feats[i][4] == FEAT_DAMAGE_REDUCTION_FS) {
-          sprintf(featbuf, "%s@YYour damage reduction has increased to 10/cold iron!@n\r\n", featbuf);
-          CREATE(ptr, struct damreduct_type, 1);
-          ptr->next = ch->damreduct;
-          ch->damreduct = ptr;
-          ptr->spell = 0;
-          ptr->feat = FEAT_DAMAGE_REDUCTION_FS;
-          ptr->mod = 10;
-          ptr->duration = -1;
-          ptr->max_damage = -1;
-          for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
-            ptr->damstyle[q] = ptr->damstyleval[q] = 0;
-          ptr->damstyle[0] = DR_MATERIAL;
-          ptr->damstyleval[0] = MATERIAL_COLD_IRON;
       }
       else if (level_feats[i][4] == FEAT_DAMAGE_REDUCTION) {
         for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
