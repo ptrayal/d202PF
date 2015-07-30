@@ -218,7 +218,7 @@ feato(FEAT_ESSENCE_OF_UNDEATH, "Essence of Undeath", TRUE, FALSE, FALSE, "death 
 feato(FEAT_EVASION, "Evasion", TRUE, FALSE, FALSE, "-", "on successful reflex save no damage from spells and effects");
 feato(FEAT_EXCEPTIONAL_TURNING, "Exceptional Turning", TRUE, FALSE, FALSE, "sun cleric domain", "+1d10 hit dice of undead turned");
 feato(FEAT_EXTEND_RAGE, "Extend Rage", TRUE, TRUE, FALSE, "ask staff", "ask staff");
-feato(FEAT_EXTEND_SPELL, "Extend Spell", TRUE, TRUE, FALSE, "Caster level 1st", "durations of spells are 50% longer when enabled"); 
+feato(FEAT_EXTEND_SPELL, "Extend Spell", TRUE, TRUE, FALSE, "Caster level 1st", "durations of spells are 50%% longer when enabled"); 
 feato(FEAT_EXTRA_MUSIC, "Extra Music", TRUE, TRUE, FALSE, "bard level 1", "4 extra bard music uses per day");
 feato(FEAT_EXTRA_RAGE, "Extra Rage", TRUE, TRUE, FALSE, "Rage class feature", "ask staff");
 feato(FEAT_EXTRA_TURNING, "Extra Turning", TRUE, TRUE, FALSE, "cleric or paladin", "2 extra turn attempts per day");
@@ -959,6 +959,11 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     if (ch->real_abils.dex >= 15)
       return TRUE;
     return FALSE;
+
+  case FEAT_LEADERSHIP:
+    if (GET_LEVEL(ch) < 7)
+      return FALSE;
+    return TRUE;
 
   case FEAT_IMPROVED_TWO_WEAPON_FIGHTING:
     if (ch->real_abils.dex >= 17 && has_feat(ch, FEAT_TWO_WEAPON_FIGHTING) && GET_BAB(ch) >= 6)
