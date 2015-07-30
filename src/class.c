@@ -83,7 +83,7 @@ const char *class_abbrevs_core[] = {
   "Brd",
   "Rng",
   "Dru",
-  "Kni",
+  "Exp",
   "Tem",
   "Cha",
   "DKn",
@@ -191,7 +191,8 @@ const char *class_abbrevs_dl_aol[] = {
   "\n"
 };
 /* Copied from the SRD under OGL, see ../doc/srd.txt for information */
-const char *pc_class_types_core[] = {
+const char *pc_class_types_core[] = 
+{
   "Wizard",
   "Cleric",
   "Rogue",
@@ -202,7 +203,7 @@ const char *pc_class_types_core[] = {
   "Bard",
   "Ranger",
   "Druid",
-  "Knight",
+  "Expansion",
   "Templar",
   "Champion",
   "Dragon Knight",
@@ -322,7 +323,7 @@ const char *class_names_core[] = {
   "bard",
   "ranger",
   "druid",
-  "knight",
+  "expansion",
   "templar",
   "champion",
   "dragon knight",
@@ -434,10 +435,10 @@ const char *class_names_dl_aol[] = {
 #define N   false
 
 int class_ok_available_core[NUM_CLASSES] = {
-/* W, C, R, F, M, P, B, B, R, D, C, S, R, L, 
+/* W, C, R, F, M, P, B, B, R, D, X, S, R, L, 
      S, T, W, D, G, M, S, C, D, W, D, A, I, N */ 
 
-   Y, Y, Y, Y, Y, Y, Y, Y, Y, Y, Y, Y, Y, Y,
+   Y, Y, Y, Y, Y, Y, Y, Y, Y, Y, N, Y, Y, Y,
      Y, Y, N, Y, N, Y, Y, N, Y, Y, Y, Y, N, N,
 
 /* A, B, A, A, F, E, D, X, X, X, X, X, X, X,
@@ -477,7 +478,8 @@ int class_ok_available_dl_aol_old[NUM_CLASSES] = {
 
 
 /* Adapted from the SRD under OGL, see ../doc/srd.txt for information */
-int class_ok_align_core[9][NUM_CLASSES] = {
+int class_ok_align_core[9][NUM_CLASSES] = 
+{
 /*         M, C, T, F, M, P, B, B, R, D  C  S  R  L
            S  T  W  D  G  M  S  C  D  W  D  A  I  N 
            A  B  A  A  F  E  D  S  D  X  X  X  X  X
@@ -564,7 +566,8 @@ int class_ok_align_dl_aol[9][NUM_CLASSES] = {
 };
 
 /* Adapted from the SRD under OGL, see ../doc/srd.txt for information */
-int prestige_classes_core[NUM_CLASSES] = {
+int prestige_classes_core[NUM_CLASSES] = 
+{
 /* MAGE  	*/ N,
 /* CLERIC	*/ N,
 /* ROGUE	*/ N,
@@ -575,7 +578,7 @@ int prestige_classes_core[NUM_CLASSES] = {
 /* BARD     */ N,
 /* RANGER   */ N,
 /* DRUID    */ N,
-/* CROWN    */ Y,
+/* KNIGHT   */ N,
 /* SWORD    */ Y,
 /* ROSE     */ Y,
 /* LILY     */ Y,
@@ -697,7 +700,7 @@ int class_max_ranks_core[NUM_CLASSES] = {
 /* BARD     */ -1,
 /* RANGER   */ -1,
 /* DRUID    */ -1,
-/* CROWN    */ 10,
+/* KNIGHT   */ -1,
 /* SWORD    */ 10,
 /* ROSE     */ 10,
 /* LILY     */ 10,
@@ -816,7 +819,7 @@ int class_in_game_core[NUM_CLASSES] = {
 /* BARD     */    TRUE,
 /* RANGER   */   TRUE,
 /* DRUID    */   TRUE,
-/* CROWN    */   TRUE,
+/* EXPANSION*/ FALSE,
 /* SWORD    */   TRUE,
 /* ROSE     */    TRUE,
 /* LILY     */     FALSE,
@@ -930,7 +933,8 @@ int class_in_game_dl_aol[NUM_CLASSES] = {
 int parse_class(struct char_data *ch, char arg)
 {
   int chclass = CLASS_UNDEFINED;
-  switch (arg) {
+  switch (arg) 
+  {
   case 'A': case 'a': chclass = CLASS_WIZARD; break;
   case 'B': case 'b': chclass = CLASS_CLERIC; break;
   case 'C': case 'c': chclass = CLASS_ROGUE; break;
@@ -950,7 +954,9 @@ int parse_class(struct char_data *ch, char arg)
       chclass = CLASS_UNDEFINED;
   return (chclass);
 }
-int class_ok_num_classes(struct char_data *ch, int whichclass) {
+
+int class_ok_num_classes(struct char_data *ch, int whichclass) 
+{
 
   return TRUE;
 

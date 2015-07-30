@@ -3404,7 +3404,7 @@ void mag_assign_spells(void)
         99, 99, 9, 99, 99, 99);
 
 
-  spello(SPELL_SUMMON_MONSTER_I, "summon monster i", 40, 20, 2, POS_FIGHTING,
+  spello(SPELL_SUMMON_MONSTER_I, "Summon Monster I", 40, 20, 2, POS_FIGHTING,
 	TAR_IGNORE, false, MAG_ACTION_FULL | MAG_SUMMONS, 0, 0,
 	NULL,
 	1, SCHOOL_CONJURATION, DOMAIN_UNDEFINED,
@@ -4000,7 +4000,6 @@ void mag_assign_spells(void)
 
 ACMD(do_spells) 
 {
-
   int i = 0, j, k = 0, n = 0;
   sbyte spellKnown = FALSE, spellInRepetoire = FALSE;
   char arg[MAX_STRING_LENGTH];
@@ -4012,12 +4011,16 @@ ACMD(do_spells)
 
   two_arguments(argument, arg, arg2);
 
-  if (!*arg) {
+  if (!*arg) 
+  {
     currentClass = tempClass;
   }
-  else {
-    for (i = 0; i <= NUM_CLASSES; i++) {
-      if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[i])) {
+  else 
+  {
+    for (i = 0; i <= NUM_CLASSES; i++) 
+    {
+      if (is_abbrev(arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[i])) 
+      {
         currentClass = i;
         break;
       }
@@ -4030,7 +4033,8 @@ ACMD(do_spells)
 
   GET_CLASS(ch) = currentClass;
 
-  if (GET_CLASS_RANKS(ch, GET_CLASS(ch)) < 1 && GET_ADMLEVEL(ch) < 1 && !ch->levelup) {
+  if (GET_CLASS_RANKS(ch, GET_CLASS(ch)) < 1 && GET_ADMLEVEL(ch) < 1 && !ch->levelup) 
+  {
     send_to_char(ch, "You don't have any levels in that class.\r\n");
     GET_CLASS(ch) = tempClass;
     return;
@@ -4039,66 +4043,82 @@ ACMD(do_spells)
   if (*arg2)
     spellLevel = atoi(arg2);
 
-  if (currentClass == CLASS_WIZARD) {
+  if (currentClass == CLASS_WIZARD) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
   }
-  else if (currentClass == CLASS_CLERIC) {
+  else if (currentClass == CLASS_CLERIC) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
   }
-  else if (currentClass == CLASS_PALADIN) {
+  else if (currentClass == CLASS_PALADIN) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_PALADIN;
   }
-  else if (currentClass == CLASS_DRUID) {
+  else if (currentClass == CLASS_DRUID) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
   }
-  else if (currentClass == CLASS_RANGER) {
+  else if (currentClass == CLASS_RANGER) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_RANGER;
   }
-  else if (currentClass == CLASS_BARD) {
+  else if (currentClass == CLASS_BARD) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
   }
-  else if (currentClass == CLASS_SORCERER) {
+  else if (currentClass == CLASS_SORCERER) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
   }
-  else if (currentClass == CLASS_FAVORED_SOUL) {
+  else if (currentClass == CLASS_FAVORED_SOUL) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
   }
-  else if (currentClass == CLASS_ASSASSIN) {
+  else if (currentClass == CLASS_ASSASSIN) 
+  {
     GET_MEM_TYPE(ch) = MEM_TYPE_ASSASSIN;
   }
 
-  if (findslotnum(ch, 1) < 1  && GET_ADMLEVEL(ch) < 1) {
+  if (findslotnum(ch, 1) < 1  && GET_ADMLEVEL(ch) < 1) 
+  {
     send_to_char(ch, "The '%s' class has no spellcasting ability.\r\n", class_names_dl_aol[currentClass]);
     GET_CLASS(ch) = tempClass;
     return;
   }
 
-  send_to_char(ch, "@WBelow is a list of spells available to you:@n\r\n\r\n");
+  send_to_char(ch, "@WBelow is a list of spells available to you:@n\r\n");
 
   for (i = 0; i <= MAX_SPELL_LEVELS; i++) {
     if (GET_ADMLEVEL(ch) < 1 && findslotnum(ch, i) < 1)
       continue;
     if (spellLevel == -1 || spellLevel == i) {
-      send_to_char(ch, "@WLevel @R%d@W %s Spells@n:\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[currentClass]);
+      send_to_char(ch, "\r\n@WLevel @R%d@W %s Spells@n:\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[currentClass]);
       for (j = 0; j <= MAX_SPELLS; j++) {
         if (spell_info[j].class_level[currentClass] == i && (findslotnum(ch, i) > 0 || GET_ADMLEVEL(ch) > 1)
-	  &&  (spell_info[j].spell_level < 10) && !strstr(spell_info[j].name, "UNUSED")) {
-          if (!ch->levelup && (currentClass == CLASS_FAVORED_SOUL || currentClass == CLASS_SORCERER)) {
+          &&  (spell_info[j].spell_level < 10) && !strstr(spell_info[j].name, "UNUSED")) 
+        {
+          if (!ch->levelup && (currentClass == CLASS_FAVORED_SOUL || currentClass == CLASS_SORCERER)) 
+          {
             spellKnown = FALSE;
-            for (k = 0; k < MAX_NUM_KNOWN_SPELLS; k++) {
-              if (ch->player_specials->spells_known[k] == j) {
+            for (k = 0; k < MAX_NUM_KNOWN_SPELLS; k++) 
+            {
+              if (ch->player_specials->spells_known[k] == j) 
+              {
                 spellKnown = TRUE;
               }
             }
             if (!spellKnown)
               continue;
           }
-          
+
 
           spellInRepetoire = FALSE;
-          if (currentClass == CLASS_FAVORED_SOUL || currentClass == CLASS_SORCERER) {
+          if (currentClass == CLASS_FAVORED_SOUL || currentClass == CLASS_SORCERER) 
+          {
             for (n = 0; n < MAX_NUM_KNOWN_SPELLS; n++) {
-              if (ch->player_specials->spells_known[n] == j) {
+              if (ch->player_specials->spells_known[n] == j) 
+              {
                 spellInRepetoire = TRUE;
                 break;
               }
@@ -4106,16 +4126,15 @@ ACMD(do_spells)
           }
 
           send_to_char(ch, "%s%-25s%s@n", spellInRepetoire ? "* " : "  ", spell_info[j].name, " ");
-	  count++;
+          count++;
           if (count % 3 == 0)
             send_to_char(ch, "\r\n");
         }
         else
-      	  continue;
+          continue;
       }
       if (count % 3 != 0)
         send_to_char(ch, "\r\n");
-      send_to_char(ch, "\r\n");
 
       count = 0;
     }

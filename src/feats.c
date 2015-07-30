@@ -391,8 +391,8 @@ feato(FEAT_TRAMPLE, "Trample", FALSE, FALSE, FALSE, "Mounted Combat", "ask staff
 feato(FEAT_TRAP_SENSE, "Trap Sense", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_TRAPFINDING, "Trapfinding", TRUE, FALSE, FALSE, "ask staff", "A rogue adds 1/2 her level to Disable\n Device skill checks (minimum +1).");
 feato(FEAT_TURN_UNDEAD, "Turn Undead", TRUE, TRUE, FALSE, "-", "can cause fear in or destroy undead based on class level and charisma bonus");
-feato(FEAT_TWO_WEAPON_DEFENSE, "Two Weapon Defense", TRUE, TRUE, FALSE, "dex 15, two weapon fighting", "when wielding two weapons receive +1 shield ac bonus");
-feato(FEAT_TWO_WEAPON_FIGHTING, "Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 15", "attacks with offhand weapons done at reduced penalties");
+feato(FEAT_TWO_WEAPON_DEFENSE, "Two Weapon Defense", TRUE, TRUE, FALSE, "Two-Weapon Fighting", "Gain +1 shield bonus when fighting with two weapons");
+feato(FEAT_TWO_WEAPON_FIGHTING, "Two Weapon Fighting", TRUE, TRUE, FALSE, "Dex 15", "Reduce two-weapon fighting penalties");
 feato(FEAT_UNARMED_STRIKE, "Unarmed Strike", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "-", "retains dex bonus when flat footed or against invis opponents");
 feato(FEAT_UNDEAD_FAMILIAR, "Undead Familiar", TRUE, FALSE, FALSE, "death master level 3", "allows for undead familiars");
@@ -401,7 +401,7 @@ feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "Use Dex in
 feato(FEAT_WEAPON_FLURRY, "Weapon Flurry", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization, weapon mastery in specific weapon, base attack bonus +14", "2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action");
 feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +1", "+1 to hit rolls for selected weapon");
 feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization in specific weapon, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
-feato(FEAT_WEAPON_OF_CHOICE, "weapons of Choice", TRUE, FALSE, FALSE, "Weapon Master level 1", "All weapons with weapon focus gain special abilities");
+feato(FEAT_WEAPON_OF_CHOICE, "Weapons of Choice", TRUE, FALSE, FALSE, "Weapon Master level 1", "All weapons with weapon focus gain special abilities");
 feato(FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD, "Weapon Proficiency (Bastard Sword)", FALSE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_DEITY, "Weapon Proficiency (Deity)", TRUE, FALSE, FALSE, "favored soul level 1, cleric level 1", "Clerics or Favored Souls are also proficient with the favored weapon of their deity.");
 feato(FEAT_WEAPON_PROFICIENCY_DRUID, "Weapon Proficiency (Druid)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
@@ -412,9 +412,9 @@ feato(FEAT_WEAPON_PROFICIENCY_MONK, "Weapon Proficiency (Monk)", FALSE, FALSE, F
 feato(FEAT_WEAPON_PROFICIENCY_ROGUE, "Weapon Proficiency (Rogue)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_SIMPLE, "Weapon Proficiency (Simple)", TRUE, TRUE, FALSE, "-", "You are trained in the use of basic\n weapons.");
 feato(FEAT_WEAPON_PROFICIENCY_WIZARD, "Weapon Proficiency (Wizard)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_WEAPON_SPECIALIZATION, "Weapon Specialization", TRUE, TRUE, TRUE, "proficiency with weapon, weapon focus in weapon, 4th level fighter", "+2 to dam rolls with weapon");
+feato(FEAT_WEAPON_SPECIALIZATION, "Weapon Specialization", TRUE, TRUE, TRUE, "Weapon Focus, 4th-level fighter", "+2 bonus on damage rolls with one weapon");
 feato(FEAT_WEAPON_SUPREMACY, "Weapon Supremacy", TRUE, TRUE, TRUE, "proficiency, weapon focus, weapon specialization, weapon master, greater weapon focus, greater weapon specialization in specific weapon, fighter level 18", "+4 to resist disarm, ignore grapples, add +5 to hit roll when miss by 5 or less, can take 10 on attack rolls, +1 bonus to AC when wielding weapon");
-feato(FEAT_WHIRLWIND_ATTACK, "Whirlwind Attack", TRUE, TRUE, FALSE, "dex 13, int 13, combat expertise, dodge, mobility, spring attack, base attack bonus +4", "allows you to attack everyone in the room or everyone you are fighting (with contain) as a standard action");
+feato(FEAT_WHIRLWIND_ATTACK, "Whirlwind Attack", TRUE, TRUE, FALSE, "Dex 13, Combat Expertise, Spring Attack, base attack bonus +4", "allows you to attack everyone in the room or everyone you are fighting (with contain) as a standard action");
 feato(FEAT_WHOLENESS_OF_BODY, "Wholeness of Body", TRUE, FALSE, FALSE, "-", "can heal class level *2 hp to self");
 feato(FEAT_WIDEN_SPELL, "Widen Spell", FALSE, FALSE, FALSE, "Caster level 1st", "ask staff");
 feato(FEAT_WILD_EMPATHY, "Wild Empathy", TRUE, FALSE, FALSE, "ask staff", "ask staff");

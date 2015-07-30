@@ -326,9 +326,9 @@ extern struct config_data config_info;
 #define CLASS_BARD                     7
 #define CLASS_RANGER                   8
 #define CLASS_DRUID                    9
-#define CLASS_PURPLE_DRAGON_KNIGHT     10
-#define CLASS_KNIGHT                   10
-#define CLASS_KNIGHT_OF_THE_CROWN      10
+#define CLASS_PURPLE_DRAGON_KNIGHT     10 /* NOW AN EXPANSION*/
+#define CLASS_KNIGHT                   10 /* NOW AN EXPANSION*/
+#define CLASS_KNIGHT_OF_THE_CROWN      10 /* NOW AN EXPANSION*/
 #define CLASS_PURPLE_DRAGON_TEMPLAR    11
 #define CLASS_TEMPLAR                  11
 #define CLASS_KNIGHT_OF_THE_SWORD      11
