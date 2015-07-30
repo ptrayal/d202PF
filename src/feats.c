@@ -1481,6 +1481,54 @@ void list_feats_known(struct char_data *ch, char *arg)
             row_append_cell(row, 40, "@W%s \n(-%d seconds)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
           } 
     }
+    else if (i == FEAT_PROFICIENT_HARVESTER)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode ==2)
+      {
+        row_append_cell(row, 40, "@W%s \n(+%d to checks)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER));
+      }
+      else
+      {
+        row_append_cell(row, 40, "@W%s \n(+%d to checks)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER));
+      }
+    }
+    else if (i == FEAT_PROFICIENT_CRAFTER)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode ==2)
+      {
+        row_append_cell(row, 40, "@W%s \n(+%d to checks)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER));
+      }
+      else
+      {
+        row_append_cell(row, 40, "@W%s \n(+%d to checks)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER));
+      }
+    }
+    else if (i == FEAT_SKILL_FOCUS || i == FEAT_EPIC_SKILL_FOCUS) 
+      {
+        row = create_row(grid);
+        for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
+        {
+        if (ch->player_specials->skill_focus[j-SKILL_LOW_SKILL] > 0) 
+        {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, spell_info[j].name);
+            if (mode == 2) 
+            {
+              
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+        }
+        }
+      } 
     else if (i == FEAT_WEAPON_MASTERY) 
       {
         row = create_row(grid);
@@ -1539,26 +1587,6 @@ void list_feats_known(struct char_data *ch, char *arg)
           }   
         }
       } 
-    else if (i == FEAT_SKILL_FOCUS || i == FEAT_EPIC_SKILL_FOCUS) 
-      {
-        row = create_row(grid);
-        for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
-        {
-        if (ch->player_specials->skill_focus[j-SKILL_LOW_SKILL] > 0) 
-        {
-            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, spell_info[j].name);
-            if (mode == 2) 
-            {
-              
-              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
-            } 
-        }
-        }
-      } 
     else if (i == FEAT_WEAPON_PROFICIENCY_DEITY)
     {
       row = create_row(grid);
@@ -1573,7 +1601,20 @@ void list_feats_known(struct char_data *ch, char *arg)
         row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
       } 
     }
-    // All non-specific feats go here.
+    else if (i == FEAT_WEAPON_ENHANCE_ARROW_MAGIC)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_ARROW_MAGIC);
+      if (mode == 2) 
+      {
+        
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }// All non-specific feats go here.
     else
     {
       row = create_row(grid);
@@ -1591,7 +1632,7 @@ void list_feats_known(struct char_data *ch, char *arg)
 }
 
     row = create_row(grid);
-    row_append_cell(row, 75, "@WSyntax:\nfeats <known|available> <description|requisitesclassfeats>\n(both arguments optional)@n");
+    row_append_cell(row, 75, "@WSyntax:\nfeats <known|available> <description|requisites>\n(both arguments optional)@n");
 
     grid_to_char(grid, ch, TRUE);
 
