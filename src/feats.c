@@ -303,7 +303,7 @@ feato(FEAT_MAXIMIZE_SPELL, "Maximize Spell", TRUE, TRUE, FALSE, "Caster level 1s
 feato(FEAT_MIGHTY_RAGE, "Mighty Rage", TRUE, FALSE, FALSE, "str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
 feato(FEAT_MOBILE_DEFENSE, "Mobile Defense", TRUE, FALSE, FALSE, "Dwarven Defender level 8", "Allows one to move while in defensive stance");
 feato(FEAT_MOBILITY, "Mobility", TRUE, TRUE, FALSE, "Dodge", "+4 AC against attacks of opportunity from movement");
-feato(FEAT_MONKEY_GRIP, "Monkey Grip", TRUE, TRUE, TRUE, "-", "can wield weapons one size larger than wielder in one hand with -2 to attacks.");
+feato(FEAT_MONKEY_GRIP, "Monkey Grip", FALSE, TRUE, TRUE, "-", "can wield weapons one size larger than wielder in one hand with -2 to attacks.");
 feato(FEAT_MOUNTED_ARCHERY, "Mounted Archery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_MOUNTED_COMBAT, "Mounted Combat", TRUE, TRUE, FALSE, "Ride 1 rank", "once per round rider may negate a hit against him with a successful ride vs attack roll check");
 feato(FEAT_NATURAL_ARMOR_INCREASE, "Natural Armor Increase", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -1414,13 +1414,11 @@ void sort_feats(void)
 
 void list_feats_known(struct char_data *ch, char *arg) 
 {
-  int i = 0, sortpos = 0, j = 0, mode = 0, count = 0;
-  int none_shown = TRUE;
-  char buf [MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'}, buf3[150]={'\0'};
+  int i = 0, sortpos = 0, j = 0, mode = 0;
+  char buf [MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
 
   GRID_DATA *grid;
   GRID_ROW *row;
-  GRID_CELL *cell;
 
   if (*arg && is_abbrev(arg, "descriptions")) 
   {
@@ -1523,6 +1521,20 @@ void list_feats_known(struct char_data *ch, char *arg)
        row_append_cell(row, 40, "@W%s \n(@G+%d ranks@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION)); 
       }
     }
+    else if (i == FEAT_FAST_HEALING)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2)
+      {
+        row_append_cell(row, 40, "@W%s \n(@G+%d hp/round@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_FAST_HEALING));
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G+%d hp/round@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_FAST_HEALING)); 
+      }
+    }
     else if (i == FEAT_LEADERSHIP)
     {
       row = create_row(grid);
@@ -1598,7 +1610,20 @@ void list_feats_known(struct char_data *ch, char *arg)
        row_append_cell(row, 40, "@W%s \n(@G+%d damage dice@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_ENHANCE_SPELL)); 
       }
     }
+    else if (i == FEAT_BREATH_WEAPON)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
 
+      if (mode == 2)
+      {
+        row_append_cell(row, 40, "@W%s \n(@G%dd8 dmg|x%d/day@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_BREATH_WEAPON)*2, HAS_FEAT(ch, FEAT_BREATH_WEAPON));
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G%dd8 dmg|x%d/day@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_BREATH_WEAPON)*2, HAS_FEAT(ch, FEAT_BREATH_WEAPON)); 
+      }
+    }
     else if (i == FEAT_SELF_CONCEALMENT)
     {
       row = create_row(grid);
@@ -1669,7 +1694,87 @@ void list_feats_known(struct char_data *ch, char *arg)
         row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
       } 
     }
+    else if (i == FEAT_ENERGY_RESISTANCE)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s (%d/-)", feat_list[i].name, HAS_FEAT(ch, FEAT_ENERGY_RESISTANCE)*3);
 
+      if (mode == 2) 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+    else if (i == FEAT_DAMAGE_REDUCTION)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s (%d/-)", feat_list[i].name, HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION));
+
+      if (mode == 2) 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+    else if (i == FEAT_ARMOR_SKIN)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s\n (+%d Natural AC)", feat_list[i].name, HAS_FEAT(ch, FEAT_ARMOR_SKIN));
+
+      if (mode == 2) 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+
+    else if (i == FEAT_FAVORED_ENEMY) 
+      {
+        row = create_row(grid);
+        for (j = 1; j < NUM_RACE_TYPES; j++)
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_FAVORED_ENEMY, j))
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, race_types[j]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      }
+    else if (i == FEAT_WEAPON_SUPREMACY) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_SUPREMACY, j) || has_weapon_feat_full(ch, FEAT_WEAPON_SUPREMACY, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      }
     else if (i == FEAT_WEAPON_MASTERY) 
       {
         row = create_row(grid);
@@ -1699,6 +1804,103 @@ void list_feats_known(struct char_data *ch, char *arg)
             row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
             if (mode == 2) 
             {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
+   else if (i == FEAT_GREATER_WEAPON_FOCUS) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_GREATER_WEAPON_FOCUS, j) || has_weapon_feat_full(ch, FEAT_GREATER_WEAPON_FOCUS, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
+     else if (i == FEAT_WEAPON_SPECIALIZATION) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, j) || has_weapon_feat_full(ch, FEAT_WEAPON_SPECIALIZATION, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
+     else if (i == FEAT_GREATER_WEAPON_SPECIALIZATION) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_GREATER_WEAPON_SPECIALIZATION, j) || has_weapon_feat_full(ch, FEAT_GREATER_WEAPON_SPECIALIZATION, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
+    else if (i == FEAT_IMPROVED_WEAPON_FINESSE) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_IMPROVED_WEAPON_FINESSE, j) || has_weapon_feat_full(ch, FEAT_IMPROVED_WEAPON_FINESSE, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
+    else if (i == FEAT_WEAPON_PROFICIENCY_EXOTIC) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_PROFICIENCY_EXOTIC, j) || has_weapon_feat_full(ch, FEAT_WEAPON_PROFICIENCY_EXOTIC, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              
               row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
             } 
             else 
@@ -1742,6 +1944,44 @@ void list_feats_known(struct char_data *ch, char *arg)
         row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
       } 
     }
+    else if (i == FEAT_CRITICAL_FOCUS) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_CRITICAL_FOCUS, j) || has_weapon_feat_full(ch, FEAT_CRITICAL_FOCUS, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
+    else if (i == FEAT_IMPROVED_CRITICAL) 
+      {
+        row = create_row(grid);
+        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
+        {
+          if (HAS_COMBAT_FEAT(ch, CFEAT_IMPROVED_CRITICAL, j) || has_weapon_feat_full(ch, FEAT_IMPROVED_CRITICAL, j, FALSE)) 
+          {
+            row_append_cell(row, 35, "%s (%s)", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
+            if (mode == 2) 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+            } 
+            else 
+            {
+              row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+            } 
+          }   
+        }
+      } 
     else if (i == FEAT_SNEAK_ATTACK)
     {
       row = create_row(grid);
@@ -1795,880 +2035,7 @@ void list_feats_known(struct char_data *ch, char *arg)
   
   strcpy(buf2, buf);
   
-  // OLD CODE FOR FEATS AVAILABLE
-  for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
-  {
-
-    if (strlen(buf2) > MAX_STRING_LENGTH -32)
-      break;
-
-    i = feat_sort_info[sortpos];
-    if (HAS_FEAT(ch, i)  && feat_list[i].in_game) 
-    {
-      // COMPLETED
-      if (i == FEAT_WEAPON_FOCUS) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, j) || has_weapon_feat_full(ch, FEAT_WEAPON_FOCUS, j, FALSE)) 
-          {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-            strcat(buf2, buf);
-            none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-          }	  
-        }
-      } 
-      // COMPLETED
-      else if (i == FEAT_WEAPON_MASTERY) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_MASTERY, j) || has_weapon_feat_full(ch, FEAT_WEAPON_MASTERY, j, FALSE)) 
-          {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-            strcat(buf2, buf);
-            none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-          }	  
-        }
-      } 
-      // COMPLETED
-      else if (i == FEAT_WEAPON_FLURRY) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_FLURRY, j) || has_weapon_feat_full(ch, FEAT_WEAPON_FLURRY, j, FALSE)) 
-          {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-            strcat(buf2, buf);
-            none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-          }	  
-        }
-      } 
-      else if (i == FEAT_WEAPON_SUPREMACY) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-          if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_SUPREMACY, j) || has_weapon_feat_full(ch, FEAT_WEAPON_SUPREMACY, j, FALSE)) 
-          {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-            strcat(buf2, buf);
-            none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-          }	  
-        }
-      } 
-      else if (i == FEAT_CRITICAL_FOCUS) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-          if (HAS_COMBAT_FEAT(ch, CFEAT_CRITICAL_FOCUS, j) || has_weapon_feat_full(ch, FEAT_CRITICAL_FOCUS, j, FALSE)) 
-          {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } else {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-            strcat(buf2, buf);
-            none_shown = FALSE;
-
-            if (!mode) {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-          }	  
-        }
-      } else if (i == FEAT_GREATER_WEAPON_FOCUS) 
-      {
-      for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-      {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_GREATER_WEAPON_FOCUS, j) || has_weapon_feat_full(ch, FEAT_GREATER_WEAPON_FOCUS, j, FALSE)) 
-        {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-      }
-      } 
-      else if (i == FEAT_FAVORED_ENEMY) 
-      {
-      for (j = 1; j < NUM_RACE_TYPES; j++) 
-      {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_FAVORED_ENEMY, j)) 
-        {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, race_types[j]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            }
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, race_types[j]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s)", feat_list[i].name, race_types[j]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-      }
-      } 
-      else if (i == FEAT_WEAPON_SPECIALIZATION) 
-      {
-      for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-      {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, j) || has_weapon_feat_full(ch, FEAT_WEAPON_SPECIALIZATION, j, FALSE)) 
-        {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-      }
-      } 
-      else if (i == FEAT_GREATER_WEAPON_SPECIALIZATION) {
-      for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-      {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_GREATER_WEAPON_SPECIALIZATION, j) || has_weapon_feat_full(ch, FEAT_GREATER_WEAPON_SPECIALIZATION, j, FALSE)) {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-        }
-      }
-      } 
-      else if (i == FEAT_IMPROVED_CRITICAL) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_IMPROVED_CRITICAL, j) || has_weapon_feat_full(ch, FEAT_IMPROVED_CRITICAL, j, FALSE)) 
-        {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-        }
-      } 
-      else if (i == FEAT_IMPROVED_WEAPON_FINESSE) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_IMPROVED_WEAPON_FINESSE, j) || has_weapon_feat_full(ch, FEAT_WEAPON_FINESSE, j, FALSE)) 
-        {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-        }
-      } 
-      else if (i == FEAT_WEAPON_PROFICIENCY_EXOTIC) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_WEAPON_PROFICIENCY_EXOTIC, j) || has_weapon_feat_full(ch, FEAT_WEAPON_PROFICIENCY_EXOTIC, j, FALSE)) {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-        }
-      } 
-      else if (i == FEAT_MONKEY_GRIP) 
-      {
-        for (j = MIN_WEAPON_DAMAGE_TYPES; j <= MAX_WEAPON_DAMAGE_TYPES; j++) 
-        {
-        if (HAS_COMBAT_FEAT(ch, CFEAT_MONKEY_GRIP, j) || has_weapon_feat_full(ch, FEAT_MONKEY_GRIP, j, FALSE)) 
-        {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s) ", feat_list[i].name, weapon_damage_types[j-MIN_WEAPON_DAMAGE_TYPES]);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-        }
-      } 
-      // COMPLETED
-      else if (i == FEAT_SKILL_FOCUS) 
-      {
-        for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
-        {
-        if (ch->player_specials->skill_focus[j-SKILL_LOW_SKILL] > 0) {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, spell_info[j].name);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, spell_info[j].name);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s)", feat_list[i].name, spell_info[j].name);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-        }
-      } 
-      else if (i == FEAT_EPIC_SKILL_FOCUS) 
-      {
-        for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
-        {
-        if (ch->player_specials->skill_focus[j-SKILL_LOW_SKILL] > 1) 
-        {
-            if (mode == 1) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, spell_info[j].name);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-            } 
-            else if (mode == 2) 
-            {
-              sprintf(buf3, "%s (%s):", feat_list[i].name, spell_info[j].name);
-              sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-            } 
-            else 
-            {
-              sprintf(buf3, "%s (%s)", feat_list[i].name, spell_info[j].name);
-              sprintf(buf, "%-35s ", buf3);
-            }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-
-            if (!mode) 
-            {
-              count++;
-              if (count % 2 == 1)
-               strcat(buf2, "\r\n");
-            }
-
-        }
-        }
-      } 
-      else if (i == FEAT_FAST_HEALING) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d hp/round):", feat_list[i].name, HAS_FEAT(ch, FEAT_FAST_HEALING) * 3);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d hp/round):", feat_list[i].name, HAS_FEAT(ch, FEAT_FAST_HEALING) * 3);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d hp/round)", feat_list[i].name, HAS_FEAT(ch, FEAT_FAST_HEALING) * 3);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_DAMAGE_REDUCTION) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%d/-):", feat_list[i].name, HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%d/-):", feat_list[i].name, HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%d/-)", feat_list[i].name, HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_ARMOR_SKIN) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d natural ac):", feat_list[i].name, HAS_FEAT(ch, FEAT_ARMOR_SKIN));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d natural ac):", feat_list[i].name, HAS_FEAT(ch, FEAT_ARMOR_SKIN));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d natural ac)", feat_list[i].name, HAS_FEAT(ch, FEAT_ARMOR_SKIN));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_ENERGY_RESISTANCE) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%d/-):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENERGY_RESISTANCE) * 3);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%d/-):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENERGY_RESISTANCE) * 3);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%d/-)", feat_list[i].name, HAS_FEAT(ch, FEAT_ENERGY_RESISTANCE) * 3);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_WEAPON_PROFICIENCY_DEITY) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%s):", feat_list[i].name, weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%s)", feat_list[i].name, weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      }
-      else if (i == FEAT_DRAGON_MOUNT_BREATH) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%dx/day):", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BREATH));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%dx/day):", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BREATH));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%dx/day)", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BREATH));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_DRAGON_MOUNT_BOOST) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BOOST));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BOOST));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BOOST));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_BREATH_WEAPON) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%dd8 dmg|%dx/day):", feat_list[i].name, HAS_FEAT(ch, FEAT_BREATH_WEAPON), HAS_FEAT(ch, FEAT_BREATH_WEAPON));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%dd8 dmg|%dx/day):", feat_list[i].name, HAS_FEAT(ch, FEAT_BREATH_WEAPON), HAS_FEAT(ch, FEAT_BREATH_WEAPON));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%dd8 dmg|%dx/day)", feat_list[i].name, HAS_FEAT(ch, FEAT_BREATH_WEAPON), HAS_FEAT(ch, FEAT_BREATH_WEAPON));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_LEADERSHIP) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d%% group exp):", feat_list[i].name, 5 * (1 + HAS_FEAT(ch, FEAT_LEADERSHIP)));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d%% group exp):", feat_list[i].name, 5 * (1 + HAS_FEAT(ch, FEAT_LEADERSHIP)));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d%% group exp)", feat_list[i].name, 5 * (1 + HAS_FEAT(ch, FEAT_LEADERSHIP)));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_RAGE) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%d / day):", feat_list[i].name, HAS_FEAT(ch, FEAT_RAGE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%d / day):", feat_list[i].name, HAS_FEAT(ch, FEAT_RAGE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%d / day)", feat_list[i].name, HAS_FEAT(ch, FEAT_RAGE));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_STRENGTH_OF_HONOR) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%d / day):", feat_list[i].name, HAS_FEAT(ch, FEAT_STRENGTH_OF_HONOR));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%d / day):", feat_list[i].name, HAS_FEAT(ch, FEAT_STRENGTH_OF_HONOR));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%d / day)", feat_list[i].name, HAS_FEAT(ch, FEAT_STRENGTH_OF_HONOR));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_DEFENSIVE_STANCE) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%d / day):", feat_list[i].name, HAS_FEAT(ch, FEAT_DEFENSIVE_STANCE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%d / day):", feat_list[i].name, HAS_FEAT(ch, FEAT_DEFENSIVE_STANCE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%d / day)", feat_list[i].name, HAS_FEAT(ch, FEAT_DEFENSIVE_STANCE));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_ENHANCED_SPELL_DAMAGE) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d dam / die):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCED_SPELL_DAMAGE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d dam / die):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCED_SPELL_DAMAGE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d dam / die)", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCED_SPELL_DAMAGE));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_FASTER_MEMORIZATION) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d ranks):", feat_list[i].name, HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d ranks):", feat_list[i].name, HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d ranks)", feat_list[i].name, HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_EMPOWERED_MAGIC) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d to dcs):", feat_list[i].name, HAS_FEAT(ch, FEAT_EMPOWERED_MAGIC));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d to dcs):", feat_list[i].name, HAS_FEAT(ch, FEAT_EMPOWERED_MAGIC));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d to dcs)", feat_list[i].name, HAS_FEAT(ch, FEAT_EMPOWERED_MAGIC));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_ENHANCE_SPELL) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d dam dice):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_SPELL) * 5);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d dam dice):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_SPELL) * 5);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d dam dice)", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_SPELL) * 5);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_NATURAL_ARMOR_INCREASE) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d natural ac):", feat_list[i].name, HAS_FEAT(ch, FEAT_NATURAL_ARMOR_INCREASE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d natural ac):", feat_list[i].name, HAS_FEAT(ch, FEAT_NATURAL_ARMOR_INCREASE));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d natural ac)", feat_list[i].name, HAS_FEAT(ch, FEAT_NATURAL_ARMOR_INCREASE));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_POISON_SAVE_BONUS) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_POISON_SAVE_BONUS));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_POISON_SAVE_BONUS));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_POISON_SAVE_BONUS));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_SNEAK_ATTACK) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%dd6):", feat_list[i].name, HAS_FEAT(ch, FEAT_SNEAK_ATTACK));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%dd6):", feat_list[i].name, HAS_FEAT(ch, FEAT_SNEAK_ATTACK));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%dd6)", feat_list[i].name, HAS_FEAT(ch, FEAT_SNEAK_ATTACK));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_SELF_CONCEALMENT) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%d%% miss):", feat_list[i].name, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (%d%% miss):", feat_list[i].name, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (%d%% miss)", feat_list[i].name, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_ENHANCE_ARROW_MAGIC) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_ARROW_MAGIC));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d):", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_ARROW_MAGIC));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_ENHANCE_ARROW_MAGIC));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      // COMPLETED
-      else if (i == FEAT_FAST_CRAFTER) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (%d%% less time):", feat_list[i].name, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (-%d seconds):", feat_list[i].name, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (-%d seconds)", feat_list[i].name, HAS_FEAT(ch, FEAT_FAST_CRAFTER) * 10);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_PROFICIENT_CRAFTER) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d to checks):", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d to checks):", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (+%d to checks)", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_PROFICIENT_HARVESTER) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (+%d to checks):", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (+%d to checks):", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER));
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%-20s (+%d to checks)", feat_list[i].name, HAS_FEAT(ch, FEAT_PROFICIENT_HARVESTER));
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else 
-       // COMPLETED
-     {
-        if (mode == 1) 
-        {
-          sprintf(buf3, "%s", feat_list[i].name);
-          sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-        } 
-        else if (mode == 2) 
-        {
-          sprintf(buf3, "%s", feat_list[i].name);
-          sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-        } 
-        else 
-        {
-          sprintf(buf, "%-35s ", feat_list[i].name);
-        }
-        strcat(buf2, buf);        /* The above, ^ should always be safe to do. */
-        none_shown = FALSE;
-      }
-      if (!mode) 
-      {
-        count++;
-        if (count % 2 == 1)
-         strcat(buf2, "\r\n");
-      }
-    }
-  }
-
-  page_string(ch->desc, buf2, 1);
+    page_string(ch->desc, buf2, 1);
 }
 
 void list_feats_available(struct char_data *ch, char *arg) 
