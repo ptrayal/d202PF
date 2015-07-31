@@ -1509,17 +1509,44 @@ void list_feats_known(struct char_data *ch, char *arg)
         row_append_cell(row, 40, "@W%s \n(@G+%d to checks@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_PROFICIENT_CRAFTER));
       }
     }
-    else if (i == FEAT_SKILL_FOCUS || i == FEAT_EPIC_SKILL_FOCUS) 
+    else if (i == FEAT_FASTER_MEMORIZATION)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2)
       {
-        row = create_row(grid);
-        for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
-        {
+        row_append_cell(row, 40, "@W%s \n(@G+%d ranks@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION));
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G+%d ranks@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION)); 
+      }
+    }
+    else if (i == FEAT_LEADERSHIP)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2)
+      {
+        row_append_cell(row, 40, "@W%s \n(@G+%d%% group experience@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_LEADERSHIP) *5);
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G+%d%% group experience@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_LEADERSHIP) *5); 
+      }
+    }
+    else if (i == FEAT_SKILL_FOCUS || i == FEAT_EPIC_SKILL_FOCUS) 
+    {
+      row = create_row(grid);
+      for (j = SKILL_LOW_SKILL; j < SKILL_HIGH_SKILL; j++) 
+      {
         if (ch->player_specials->skill_focus[j-SKILL_LOW_SKILL] > 0) 
         {
             row_append_cell(row, 35, "%s (%s)", feat_list[i].name, spell_info[j].name);
             if (mode == 2) 
             {
-              
               row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
             } 
             else 
@@ -1527,8 +1554,122 @@ void list_feats_known(struct char_data *ch, char *arg)
               row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
             } 
         }
-        }
+      }
+    }
+    else if (i == FEAT_EMPOWERED_MAGIC)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2)
+      {
+        row_append_cell(row, 40, "@W%s \n(@G+%d to DC@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_EMPOWERED_MAGIC));
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G+%d to DC@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_EMPOWERED_MAGIC)); 
+      }
+    }
+    else if (i == FEAT_ENHANCED_SPELL_DAMAGE)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2)
+      {
+        row_append_cell(row, 40, "@W%s \n(@G+%d dam/die@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_ENHANCED_SPELL_DAMAGE));
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G+%d dam/die@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_ENHANCED_SPELL_DAMAGE)); 
+      }
+    }
+    else if (i == FEAT_ENHANCE_SPELL)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2)
+      {
+        row_append_cell(row, 40, "@W%s \n(@G+%d damage dice@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_ENHANCE_SPELL));
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G+%d damage dice@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_ENHANCE_SPELL)); 
+      }
+    }
+
+    else if (i == FEAT_SELF_CONCEALMENT)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2)
+      {
+        row_append_cell(row, 40, "@W%s \n(@G%d%% miss@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10);
+      }
+      else
+      {
+       row_append_cell(row, 40, "@W%s \n(@G%d%% miss@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10); 
+      }
+    }
+    else if (i == FEAT_NATURAL_ARMOR_INCREASE)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s", feat_list[i].name);
+
+      if (mode == 2) 
+      {
+        row_append_cell(row, 40, "@W%s@n\n (@G+%d natural AC@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_NATURAL_ARMOR_INCREASE));
       } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n\n (@G+%d natural AC@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_NATURAL_ARMOR_INCREASE));
+      } 
+    }
+    else if (i == FEAT_DEFENSIVE_STANCE)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s (@G%d/day@n)", feat_list[i].name, HAS_FEAT(ch, FEAT_DEFENSIVE_STANCE));
+
+      if (mode == 2) 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+    else if (i == FEAT_RAGE)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s (@G%d/day@n)", feat_list[i].name, HAS_FEAT(ch, FEAT_RAGE));
+
+      if (mode == 2) 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+    else if (i == FEAT_POISON_SAVE_BONUS)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s (+%d)", feat_list[i].name, HAS_FEAT(ch, FEAT_POISON_SAVE_BONUS));
+
+      if (mode == 2) 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+
     else if (i == FEAT_WEAPON_MASTERY) 
       {
         row = create_row(grid);
@@ -1591,6 +1732,20 @@ void list_feats_known(struct char_data *ch, char *arg)
     {
       row = create_row(grid);
       row_append_cell(row, 35, "%s\n(%s)", feat_list[i].name, weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+      if (mode == 2) 
+      {
+        
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
+      } 
+      else 
+      {
+        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
+      } 
+    }
+    else if (i == FEAT_SNEAK_ATTACK)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 35, "%s (+%dd6)", feat_list[i].name, HAS_FEAT(ch, FEAT_SNEAK_ATTACK));
       if (mode == 2) 
       {
         
@@ -2217,34 +2372,6 @@ void list_feats_known(struct char_data *ch, char *arg)
           strcat(buf2, buf);
           none_shown = FALSE;
       }
-      else if (i == FEAT_HASTE) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (3x/day):", feat_list[i].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (3x/day):", feat_list[i].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (3x/day)", feat_list[i].name);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
-      else if (i == FEAT_SACRED_FLAMES) {
-          if (mode == 1) {
-            sprintf(buf3, "%s (3x/day):", feat_list[i].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].description);
-          } else if (mode == 2) {
-            sprintf(buf3, "%s (3x/day):", feat_list[i].name);
-            sprintf(buf, "@W%-25s@n %s\r\n", buf3, feat_list[i].prerequisites);
-          } else {
-            sprintf(buf3, "%s (3x/day)", feat_list[i].name);
-            sprintf(buf, "%-35s ", buf3);
-          }
-          strcat(buf2, buf);
-          none_shown = FALSE;
-      } 
       else if (i == FEAT_DRAGON_MOUNT_BREATH) {
           if (mode == 1) {
             sprintf(buf3, "%s (%dx/day):", feat_list[i].name, HAS_FEAT(ch, FEAT_DRAGON_MOUNT_BREATH));
@@ -2626,7 +2753,7 @@ void list_feats_available(struct char_data *ch, char *arg)
   }
   
   row = create_row(grid);
-  row_append_cell(row, 75, "@WSyntax:\nfeats <known|available> <description|requisites|classfeats>\n(both arguments optional)@n");
+  row_append_cell(row, 75, "@WSyntax:\nfeats <known|available> <description|requisites>\n(both arguments optional)@n");
 
   grid_to_char(grid, ch, TRUE);
 

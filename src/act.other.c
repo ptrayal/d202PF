@@ -2243,11 +2243,6 @@ void update_innate(struct char_data *ch)
           GET_INNATE(ch, inn->spellnum) = 1;
         send_to_char(ch, "Your fireball uses have been refreshed to full.\r\n");
         break;
-      case SPELL_HASTE:
-        if (HAS_FEAT(ch, FEAT_HASTE))
-          GET_INNATE(ch, inn->spellnum) = 3;
-        send_to_char(ch, "Your haste uses have been refreshed to full.\r\n");
-        break;
       case SPELL_ICE_STORM:
         if (GET_RACE(ch) == RACE_WATER_GENESI)
           GET_INNATE(ch, inn->spellnum) = 1;
@@ -2414,11 +2409,6 @@ ACMD(do_abilities)
         if (GET_RACE(ch) == RACE_FIRE_GENESI)
           GET_INNATE(ch, inn->spellnum) = 1;
         send_to_char(ch, "Your fireball uses have been refreshed to full.\r\n");
-        break;
-      case SPELL_HASTE:
-        if (HAS_FEAT(ch, FEAT_HASTE))
-          GET_INNATE(ch, inn->spellnum) = 3;
-        send_to_char(ch, "Your haste uses have been refreshed to full.\r\n");
         break;
       case SPELL_ICE_STORM:
         if (GET_RACE(ch) == RACE_WATER_GENESI)

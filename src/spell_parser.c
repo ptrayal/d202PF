@@ -1181,18 +1181,6 @@ ACMD(do_cast)
           return;
         }
         break;
-      case SPELL_HASTE:
-        if (!HAS_FEAT(ch, FEAT_HASTE)) {
-          send_to_char(ch, "You do not have the ability to use haste.\r\n");
-          return;
-        }
-        break;
-      case SPELL_FLAME_WEAPON:
-        if (!HAS_FEAT(ch, FEAT_SACRED_FLAMES)) {
-          send_to_char(ch, "You do not have the ability to use flame weapon.\r\n");
-          return;
-        }
-        break;
       case SPELL_ICE_STORM:
         if (GET_RACE(ch) != RACE_WATER_GENESI) {
           send_to_char(ch, "You do not have the ability to use ice storm.\r\n");
@@ -1279,16 +1267,6 @@ ACMD(do_cast)
             if (GET_RACE(ch) == RACE_FIRE_GENESI)
               GET_INNATE(ch, spellnum) = 1;
             send_to_char(ch, "Your fireball uses have been refreshed to full.\r\n");
-            break;
-          case SPELL_HASTE:
-            if (HAS_FEAT(ch, FEAT_HASTE))
-              GET_INNATE(ch, spellnum) = 3;
-            send_to_char(ch, "Your haste uses have been refreshed to full.\r\n");
-            break;
-          case SPELL_FLAME_WEAPON:
-            if (HAS_FEAT(ch, FEAT_SACRED_FLAMES))
-              GET_INNATE(ch, spellnum) = 3;
-            send_to_char(ch, "Your flame weapon (sacred flames) uses have been refreshed to full.\r\n");
             break;
           case SPELL_ICE_STORM:
             if (GET_RACE(ch) == RACE_WATER_GENESI)
