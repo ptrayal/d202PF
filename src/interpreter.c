@@ -3602,20 +3602,25 @@ void nanny(struct descriptor_data *d, char *arg)
 	  i = atoi(arg);
 
 	  half_chop(arg, arg1, argument);
-          if (is_abbrev(arg1, "help")) {
+          if (is_abbrev(arg1, "help")) 
+          {
             do_help(ch, argument, 0, 0);
             return;
-          } else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) {
+          }
+          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) 
+          {
             display_levelup_feats(d->character);
             return;
           }
 
-	  if (i < 0) {
+	  if (i < 0) 
+    {
 
-		  if (d->character->levelup->feat_points > 0 || d->character->levelup->epic_feat_points > 0 || d->character->levelup->num_class_feats > 0 || d->character->levelup->num_epic_class_feats > 0) {
+		  if (d->character->levelup->feat_points > 0 || d->character->levelup->epic_feat_points > 0 || d->character->levelup->num_class_feats > 0 || d->character->levelup->num_epic_class_feats > 0) 
+      {
  			  write_to_output(d, "You still have feats left to spend.  If you do not use them you will lose them.  Continue and lose them? ");
-  			  STATE(d) = CON_LEVELUP_FEATS_CONFIRM;
-  			  return;
+			  STATE(d) = CON_LEVELUP_FEATS_CONFIRM;
+			  return;
 		  }
 
 		  display_levelup_trains(d->character);
@@ -3624,13 +3629,15 @@ void nanny(struct descriptor_data *d, char *arg)
 
 	  }
 
-	  if (feat_is_available(d->character, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) {
-		write_to_output(d, "Feat Description: %s\r\n\r\nDo you wish to take this feat?\r\n", feat_list[i].description);
-		d->character->levelup->tempFeat = i;
-		STATE(d) = CON_LEVELUP_FEATS_PROCESS;
-		return;
-	  }
-	  else {
+	  if (feat_is_available(d->character, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) 
+    {
+  		write_to_output(d, "Feat Description: %s\r\n\r\nDo you wish to take this feat?\r\n", feat_list[i].description);
+  		d->character->levelup->tempFeat = i;
+  		STATE(d) = CON_LEVELUP_FEATS_PROCESS;
+  		return;
+  	}
+	  else 
+    {
 		  display_levelup_feats(d->character);
 		  write_to_output(d, "Either the feat does not exist, you do not qualify for that feat, or you already have it.\r\nPlease select again.\r\n");
 		  return;		
@@ -3647,8 +3654,10 @@ void nanny(struct descriptor_data *d, char *arg)
 
 	i = d->character->levelup->tempFeat;
 
-	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg)) {
-		  switch (i) {
+	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg)) 
+  {
+		  switch (i) 
+      {
 
 		  case FEAT_IMPROVED_CRITICAL:
 		  case FEAT_WEAPON_FINESSE:
@@ -3667,7 +3676,7 @@ void nanny(struct descriptor_data *d, char *arg)
 			  display_levelup_weapons(d->character);
 			  d->character->levelup->tempFeat = i;
 			  STATE(d) = CON_LEVELUP_FEATS_WEAPONS;
-  			  return;
+  		  return;
 
 		  case FEAT_SKILL_FOCUS:
 		  case FEAT_EPIC_SKILL_FOCUS:
@@ -3677,25 +3686,28 @@ void nanny(struct descriptor_data *d, char *arg)
 			  return;
 
 		  default:
-			  if (handle_levelup_feat_points(d->character, i, 0)) {
+			  if (handle_levelup_feat_points(d->character, i, 0)) 
+        {
 				  display_levelup_feats(d->character);
 				  write_to_output(d, "\r\nYou have learned the %s feat!\r\nPress enter to continue.\r\n", feat_list[i].name);
 				  handle_levelup_feat_points(d->character, i, 1);
 				  return;
 
 			  }
-			  else {
+			  else 
+        {
 				  return;
 			  }
 			  break;
 		  }
 	  }
-	  else {
-		display_levelup_feats(d->character);
-		write_to_output(d, "Please select again: ");
-		STATE(d) = CON_LEVELUP_FEATS;
-		return;
-  	  }
+	  else 
+    {
+  		display_levelup_feats(d->character);
+  		write_to_output(d, "Please select again: ");
+  		STATE(d) = CON_LEVELUP_FEATS;
+  		return;
+  	}
 
 	  break;
 
@@ -3704,31 +3716,38 @@ void nanny(struct descriptor_data *d, char *arg)
 	  i = atoi(arg);
 
 	  half_chop(arg, arg1, argument);
-          if (is_abbrev(arg1, "help")) {
+          if (is_abbrev(arg1, "help")) 
+          {
             do_help(ch, argument, 0, 0);
             return;
-          } else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) {
+          } 
+          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) 
+          {
             display_levelup_weapons(d->character);
             return;
           }
 
-	  if (i < 0) {
-		display_levelup_feats(d->character);
-		STATE(d) = CON_LEVELUP_FEATS;
-		return;
+	  if (i < 0) 
+    {
+  		display_levelup_feats(d->character);
+  		STATE(d) = CON_LEVELUP_FEATS;
+  		return;
 	  }
 
-	  if (i < MIN_WEAPON_DAMAGE_TYPES || i > MAX_WEAPON_DAMAGE_TYPES) {
+	  if (i < MIN_WEAPON_DAMAGE_TYPES || i > MAX_WEAPON_DAMAGE_TYPES) 
+    {
 		  write_to_output(d, "That is not a valid weapon damage type.\r\nPlease select the number beside the weapon damage type you want.\r\n");
 		  return;
 	  }
 
-	  if (has_combat_feat(d->character, feat_to_subfeat(d->character->levelup->tempFeat), i) || d->character->levelup->feat_weapons[d->character->levelup->tempFeat] == i) {
-		write_to_output(d, "\r\nYou already have that feat.\r\n");
- 		return;
-  	  }
+	  if (has_combat_feat(d->character, feat_to_subfeat(d->character->levelup->tempFeat), i) || d->character->levelup->feat_weapons[d->character->levelup->tempFeat] == i) 
+    {
+		  write_to_output(d, "\r\nYou already have that feat.\r\n");
+ 		 return;
+  	}
 
-	  if (handle_levelup_feat_points(d->character, d->character->levelup->tempFeat, 0)) {
+	  if (handle_levelup_feat_points(d->character, d->character->levelup->tempFeat, 0)) 
+    {
 		  display_levelup_feats(d->character);
 		  write_to_output(d, "\r\nYou have learned the %s: %s feat!\r\nPress enter to continue.\r\n", feat_list[d->character->levelup->tempFeat].name, weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES]);
 		  handle_levelup_feat_points(d->character, d->character->levelup->tempFeat, 1);
@@ -3737,8 +3756,9 @@ void nanny(struct descriptor_data *d, char *arg)
 		  STATE(d) = CON_LEVELUP_FEATS;
 		  return;
 	  }
-	  else {
-		write_to_output(d, "Make another choice or type -1 to exit this menu and continue.\r\n");
+	  else 
+    {
+		  write_to_output(d, "Make another choice or type -1 to exit this menu and continue.\r\n");
 		  return;
 	  }
 

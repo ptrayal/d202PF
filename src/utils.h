@@ -163,6 +163,7 @@ unsigned long circle_random(void);
 #define UMIN(a, b)    ((a) < (b) ? (a) : (b))
 #define UMAX(a, b)    ((a) > (b) ? (a) : (b))
 #define URANGE(a, b, c)          ((b) < (a) ? (a) : ((b) > (c) ? (c) : (b)))
+#define IS_NULLSTR(str)                ((str) == NULL || (str)[0] == '\0')
 
 
 /* undefine MAX and MIN so that our functions are used instead */

@@ -2744,7 +2744,7 @@ ACMD(do_weather)
 ACMD(do_help)
 {
   struct help_index_element *this_help;
-  char entry[MAX_STRING_LENGTH];    
+  char entry[MAX_STRING_LENGTH]={'\0'};    
   int chk = 0, bot = 0, mid = 0;
 
   if (!ch->desc)
@@ -2752,24 +2752,30 @@ ACMD(do_help)
 
   skip_spaces(&argument);
 
-  if (!*argument) {
+  if (!*argument) 
+  {
     page_string(ch->desc, help, 0);
     return;
   }
-  if (!help_table) {
+  if (!help_table) 
+  {
     send_to_char(ch, "No help available.\r\n");
     return;
   }
 
-  if (!(this_help = find_help(argument))) {
+  if (!(this_help = find_help(argument))) 
+  {
     log("HELP: %s tried to get help on %s", GET_NAME(ch), argument);
     send_to_char(ch, "There is no help on that word.\r\n");
     return;
-  } else {
+  } 
+  else 
+  {
     if (chk > 0)
       bot = mid + 1;
   }
-  if (this_help->min_level > GET_LEVEL(ch)) {
+  if (this_help->min_level > GET_LEVEL(ch)) 
+  {
     send_to_char(ch, "There is no help on that word.\r\n");
     return;  
   }
@@ -2804,11 +2810,12 @@ ACMD(do_help)
     
 }
 
-ACMD(do_nohelps) {
+ACMD(do_nohelps) 
+{
 
   struct help_index_element *this_help;
-  int i;
-  char buf[100];
+  int i = 0;
+  char buf[100]={'\0'};
 
   if (!ch->desc)
     return;
