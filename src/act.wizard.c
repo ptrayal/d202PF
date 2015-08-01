@@ -146,7 +146,7 @@ void print_show_zone(struct char_data *ch, zone_rnum zone);
 
 ACMD(do_echo)
 {
-  char logmsg[MAX_STRING_LENGTH];
+  char logmsg[MAX_STRING_LENGTH]={'\0'};
 
   if (has_curse_word(ch, argument)) {
     return;
@@ -158,7 +158,7 @@ ACMD(do_echo)
   if (!*argument)
     send_to_char(ch, "Yes.. but what?\r\n");
   else {
-    char buf[MAX_INPUT_LENGTH + 4];
+    char buf[MAX_INPUT_LENGTH + 4]={'\0'};
 
   if ((AFF_FLAGGED(ch, AFF_SILENCE) || PLR_FLAGGED(ch, PLR_NOSHOUT)) && subcmd == SCMD_EMOTE) {
     send_to_char(ch, "You move your mouth but no sound comes out.\r\n");
@@ -190,7 +190,7 @@ ACMD(do_echo)
 
 ACMD(do_send)
 {
-  char arg[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict;
 
   if (has_curse_word(ch, argument)) {
@@ -240,7 +240,7 @@ void reset_artisan_experience(struct char_data *vict) {
 ACMD(do_resetartisan)
 {
 
-  char arg[200];
+  char arg[200]={'\0'};
 
   one_argument(argument, arg);
 
@@ -273,7 +273,7 @@ ACMD(do_resetartisan)
 room_rnum find_target_room(struct char_data *ch, char *rawroomstr)
 {
   room_rnum location = NOWHERE;
-  char roomstr[MAX_INPUT_LENGTH];
+  char roomstr[MAX_INPUT_LENGTH]={'\0'};
 
   one_argument(rawroomstr, roomstr);
 
@@ -291,7 +291,7 @@ room_rnum find_target_room(struct char_data *ch, char *rawroomstr)
     struct char_data *target_mob;
     struct obj_data *target_obj;
     char *mobobjstr = roomstr;
-    int num;
+    int num = 0;
 
     num = get_number(&mobobjstr);
     if ((target_mob = get_char_vis(ch, mobobjstr, &num, FIND_CHAR_WORLD)) != NULL) {
@@ -339,7 +339,7 @@ room_rnum find_target_room(struct char_data *ch, char *rawroomstr)
 
 ACMD(do_at)
 {
-  char command[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH];
+  char command[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'};
   room_rnum location, original_loc;
 
   half_chop(argument, buf, command);
@@ -372,7 +372,7 @@ ACMD(do_at)
 
 ACMD(do_goto)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   room_rnum location;
 
   if ((location = find_target_room(ch, argument)) == NOWHERE)
@@ -395,7 +395,7 @@ ACMD(do_goto)
 
 ACMD(do_trans)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct descriptor_data *i;
   struct char_data *victim;
 
@@ -447,7 +447,7 @@ ACMD(do_trans)
 
 ACMD(do_teleport)
 {
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *victim;
   room_rnum target;
 
@@ -477,41 +477,41 @@ ACMD(do_teleport)
 
 ACMD(do_ofind)
 {
-        char buf[MSL], hbuf[MSL];
-        int i, ftotal = 0;
+  char buf[MSL]={'\0'}, hbuf[MSL]={'\0'};
+  int i = 0, ftotal = 0;
 
 
-        if( argument[0] == '\0' )
-        {
-                send_to_char(ch, "What item do you want to look for?\r\n");
-                return;
-        }
+  if( argument[0] == '\0' )
+  {
+    send_to_char(ch, "What item do you want to look for?\r\n");
+    return;
+  }
 
-        sprintf(hbuf, "%-5s  %-25s\r\n@W-----------------------------@n\r\n", "@CVNUM@n", "@RDescription@n");
-        send_to_char(ch, "%s", hbuf);
+  sprintf(hbuf, "%-5s  %-25s\r\n@W-----------------------------@n\r\n", "@CVNUM@n", "@RDescription@n");
+  send_to_char(ch, "%s", hbuf);
 
 
-        for( i = 0; i <= top_of_objt; i++)
-        {
-                if( isname(argument, obj_proto[i].short_description) )
-                {
-                        sprintf(buf, "@C%-5i@n %-25s\r\n", obj_index[i].vnum, obj_proto[i].short_description);
-                        send_to_char(ch, "%s", buf);
-                        ftotal++;
-                }
-                else
-                        continue;
-        }
+  for( i = 0; i <= top_of_objt; i++)
+  {
+    if( isname(argument, obj_proto[i].short_description) )
+    {
+      sprintf(buf, "@C%-5i@n %-25s\r\n", obj_index[i].vnum, obj_proto[i].short_description);
+      send_to_char(ch, "%s", buf);
+      ftotal++;
+    }
+    else
+      continue;
+  }
 
-        send_to_char(ch, "\r\n@MFound a total of @R%i @Mmatching objects.@n\r\n", ftotal);
-        return;
+  send_to_char(ch, "\r\n@MFound a total of @R%i @Mmatching objects.@n\r\n", ftotal);
+  return;
 
 }
 
 
 ACMD(do_vnum)
 {
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
 
   half_chop(argument, buf, buf2);
 
@@ -654,10 +654,10 @@ void list_zone_commands_room(struct char_data *ch, room_vnum rvnum)
 
 void do_stat_room(struct char_data *ch)
 {
-  char buf2[MAX_STRING_LENGTH];
+  char buf2[MAX_STRING_LENGTH]={'\0'};
   struct extra_descr_data *desc;
   struct room_data *rm = &world[IN_ROOM(ch)];
-  int i, found, column;
+  int i = 0, found = 0, column = 0;
   struct obj_data *j;
   struct char_data *k;
 
@@ -714,7 +714,7 @@ void do_stat_room(struct char_data *ch)
   }
 
   for (i = 0; i < NUM_OF_DIRS; i++) {
-    char buf1[128];
+    char buf1[128]={'\0'};
 
     if (!rm->dir_option[i])
       continue;
@@ -745,11 +745,11 @@ void do_stat_room(struct char_data *ch)
 
 void do_stat_object(struct char_data *ch, struct obj_data *j)
 {
-  int i, found;
+  int i = 0, found = 0;
   obj_vnum vnum;
   struct obj_data *j2;
   struct extra_descr_data *desc;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   vnum = GET_OBJ_VNUM(j);
   send_to_char(ch, "Name: '%s', Aliases: %s, Size: %s\r\n",
@@ -923,8 +923,8 @@ void do_stat_object(struct char_data *ch, struct obj_data *j)
 
 void do_stat_character(struct char_data *ch, struct char_data *k)
 {
-  char buf[MAX_STRING_LENGTH];
-  int i, i2, column, found = FALSE;
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  int i = 0, i2 = 0, column = 0, found = FALSE;
   struct obj_data *j;
   struct follow_type *fol;
   struct affected_type *aff;
@@ -962,8 +962,9 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
                    buf, race_list[GET_RACE(k)].type, GET_LEVEL(k), GET_HITDICE(k),
                    GET_CLASS_LEVEL(k), GET_LEVEL_ADJ(k), GET_EXP(k));
 
-  if (!IS_NPC(k)) {
-    char buf1[64], buf2[64];
+  if (!IS_NPC(k)) 
+  {
+    char buf1[64]={'\0'}, buf2[64]={'\0'};
 
     strlcpy(buf1, asctime(localtime(&(k->time.created))), sizeof(buf1));
     strlcpy(buf2, asctime(localtime(&(k->time.logon))), sizeof(buf2));
@@ -1169,9 +1170,10 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
    }
  } else {
    /* this is a PC, display their global variables */
-   if (k->script && k->script->global_vars) {
+   if (k->script && k->script->global_vars) 
+   {
      struct trig_var_data *tv;
-     char uname[MAX_INPUT_LENGTH];
+     char uname[MAX_INPUT_LENGTH]={'\0'};
      void find_uid_name(char *uid, char *name, size_t nlen);
 
      send_to_char(ch, "Global Variables:\r\n");
@@ -1192,7 +1194,7 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
 
 ACMD(do_stat)
 {
-  char buf1[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf1[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *victim;
   struct obj_data *object;
 
@@ -1285,7 +1287,7 @@ ACMD(do_stat)
 
 ACMD(do_shutdown)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   if (subcmd != SCMD_SHUTDOWN) {
     send_to_char(ch, "If you want to shut something down, say so!\r\n");
@@ -1358,7 +1360,7 @@ void stop_snooping(struct char_data *ch)
 
 ACMD(do_snoop)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *victim, *tch;
 
   if (!ch->desc)
@@ -1402,7 +1404,7 @@ ACMD(do_snoop)
 
 ACMD(do_switch)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *victim;
 
   one_argument(argument, arg);
@@ -1469,7 +1471,7 @@ ACMD(do_return)
 
 ACMD(do_load)
 {
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
 
   two_arguments(argument, buf, buf2);
 
@@ -1524,7 +1526,7 @@ ACMD(do_load)
 
 ACMD(do_vstat)
 {
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
 
   two_arguments(argument, buf, buf2);
 
@@ -1570,7 +1572,7 @@ ACMD(do_vstat)
 /* clean a room of all mobiles and objects */
 ACMD(do_purge)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict;
   struct obj_data *obj;
 
@@ -1640,14 +1642,15 @@ ACMD(do_purge)
 
 
 
-const char *logtypes[] = {
+const char *logtypes[] = 
+{
   "off", "brief", "normal", "complete", "\n"
 };
 
 ACMD(do_syslog)
 {
-  char arg[MAX_INPUT_LENGTH];
-  int tp;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
+  int tp = 0;
 /*
   if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT && GET_ACT_LEVEL(ch) < ADMLVL_IMMORT) {
     send_to_char(ch, "Only immortals and their characters can set their syslog status.\r\n");
@@ -1685,7 +1688,7 @@ ACMD(do_copyover)
 #else
   FILE *fp;
   struct descriptor_data *d, *d_next;
-  char buf [100], buf2[100];
+  char buf [100]={'\0'}, buf2[100]={'\0'};
 	
   fp = fopen (COPYOVER_FILE, "w");
 	
@@ -1790,8 +1793,8 @@ GET_NAME(ch));
 ACMD(do_advance)
 {
   struct char_data *victim;
-  char name[MAX_INPUT_LENGTH], level[MAX_INPUT_LENGTH];
-  int newlevel, oldlevel;
+  char name[MAX_INPUT_LENGTH]={'\0'}, level[MAX_INPUT_LENGTH]={'\0'};
+  int newlevel = 0, oldlevel = 0;
 
   two_arguments(argument, name, level);
 
@@ -1854,10 +1857,10 @@ ACMD(do_advance)
 
 ACMD(do_restore)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict;
   struct descriptor_data *d;
-  int i;
+  int i = 0;
 
   one_argument(argument, buf);
   if (!*buf)
@@ -1940,8 +1943,8 @@ void perform_immort_invis(struct char_data *ch, int level)
 
 ACMD(do_invis)
 {
-  char arg[MAX_INPUT_LENGTH];
-  int level;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
+  int level = 0;
 
   if (IS_NPC(ch)) {
     send_to_char(ch, "You can't do that!\r\n");
@@ -2024,9 +2027,9 @@ ACMD(do_poofset)
 
 ACMD(do_dc)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct descriptor_data *d;
-  int num_to_dc;
+  int num_to_dc = 0;
 
   one_argument(argument, arg);
   if (!(num_to_dc = atoi(arg))) {
@@ -2084,8 +2087,8 @@ ACMD(do_dc)
 
 ACMD(do_wizlock)
 {
-  char arg[MAX_INPUT_LENGTH];
-  int value;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
+  int value = 0;
   const char *when;
 
   one_argument(argument, arg);
@@ -2118,7 +2121,7 @@ ACMD(do_date)
 {
   char *tmstr;
   time_t mytime;
-  int d, h, m;
+  int d = 0, h = 0 , m = 0;
 
   if (subcmd == SCMD_DATE)
     mytime = time(0);
@@ -2164,13 +2167,13 @@ struct char_data *is_in_game(int idnum) {
 
 ACMD(do_last)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict = NULL;
   int num_to_list=-1;
   int name=0;
-  char offend[30];
-  char buf[500];
-  char arg2[200];
+  char offend[30]={'\0'};
+  char buf[500]={'\0'};
+  char arg2[200]={'\0'};
 
   one_argument(argument, arg);
   if(*argument) {
@@ -2226,7 +2229,7 @@ ACMD(do_last)
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
 
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
 
 
   if (*arg2 && is_abbrev(arg2, "complete")) {
@@ -2254,7 +2257,7 @@ ACMD(do_force)
 {
   struct descriptor_data *i, *next_desc;
   struct char_data *vict, *next_force;
-  char arg[MAX_INPUT_LENGTH], to_force[MAX_INPUT_LENGTH], buf1[MAX_INPUT_LENGTH + 32];
+  char arg[MAX_INPUT_LENGTH]={'\0'}, to_force[MAX_INPUT_LENGTH]={'\0'}, buf1[MAX_INPUT_LENGTH + 32]={'\0'};
 
   half_chop(argument, arg, to_force);
 
@@ -2304,8 +2307,8 @@ ACMD(do_force)
 
 ACMD(do_wiznet)
 {
-  char buf1[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32],
-	buf2[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32];
+  char buf1[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32]={'\0'},
+	buf2[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32]={'\0'};
   struct descriptor_data *d;
   char emote = FALSE;
   char any = FALSE;
@@ -2405,7 +2408,7 @@ ACMD(do_wiznet)
 
 ACMD(do_zreset)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   zone_rnum i;
   zone_vnum j;
 
@@ -2443,9 +2446,9 @@ ACMD(do_zreset)
  */
 ACMD(do_wizutil)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict;
-  int taeller;
+  int taeller = 0;
   long result;
 
   one_argument(argument, arg);
@@ -2665,8 +2668,8 @@ ACMD(do_show)
   struct obj_data *obj;
   struct descriptor_data *d;
   struct affected_type *aff;
-  char field[MAX_INPUT_LENGTH], value[MAX_INPUT_LENGTH], *strp,
-	arg[MAX_INPUT_LENGTH], buf[MAX_STRING_LENGTH];
+  char field[MAX_INPUT_LENGTH]={'\0'}, value[MAX_INPUT_LENGTH]={'\0'}, *strp,
+	arg[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
   extern int top_of_trigt;
 
   struct show_struct {
@@ -3161,10 +3164,10 @@ ACMD(do_show)
 int perform_set(struct char_data *ch, struct char_data *vict, int mode,
 		char *val_arg)
 {
-  int i, on = 0, off = 0, value = 0, qvnum;
+  int i, on = 0, off = 0, value = 0, qvnum = 0;
   room_rnum rnum;
   room_vnum rvnum;
-  char name[100];
+  char name[100]={'\0'};
   struct account_data *account;
   int pfilepos = GET_PFILEPOS(vict);
   
@@ -3734,8 +3737,8 @@ int perform_set(struct char_data *ch, struct char_data *vict, int mode,
 ACMD(do_set)
 {
   struct char_data *vict = NULL, *cbuf = NULL;
-  char field[MAX_INPUT_LENGTH], name[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH];
-  int mode, len, player_i = 0, retval;
+  char field[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'};
+  int mode = 0, len = 0, player_i = 0, retval = 0;
   char is_file = 0, is_player = 0;
 
   half_chop(argument, name, buf);
@@ -3832,7 +3835,7 @@ ACMD(do_players)
 {
 
   struct descriptor_data *d;
-  char buf[200];
+  char buf[200]={'\0'};
 
   sprintf(buf, "@Y%-15s %-15s %-6s %-5s %-5s %-7s %-7s %-7s %-20s %-20s %-3s\r\n", "Name", "Account", "AdmLvl", "Level", 
 		"Align", "Room", "ImmChar", "Race", "Deity", "Class", "RP");
@@ -3925,7 +3928,7 @@ ACMD(do_raise)
 {
   room_rnum rm;
   struct char_data *vict = NULL;
-  char name[MAX_INPUT_LENGTH];
+  char name[MAX_INPUT_LENGTH]={'\0'};
 
   one_argument(argument, name);
 
@@ -3969,10 +3972,10 @@ ACMD(do_chown)
 {
  struct char_data *victim;
  struct obj_data *obj;
- char buf[80];
- char buf2[80];
- char buf3[80];
- int i, k = 0;
+ char buf[80]={'\0'};
+ char buf2[80]={'\0'};
+ char buf3[80]={'\0'};
+ int i = 0, k = 0;
 
  two_arguments(argument, buf2, buf3);
 
@@ -4018,8 +4021,8 @@ ACMD(do_approve)
 {
   struct char_data * victim;
   struct descriptor_data * d;
-  char arg[MAX_STRING_LENGTH];
-  char buf[MAX_STRING_LENGTH];
+  char arg[MAX_STRING_LENGTH]={'\0'};
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   switch(subcmd) {
 
@@ -4140,7 +4143,7 @@ ACMD(do_approve)
 
 ACMD(do_review)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   struct char_data *victim;
 
     argument = one_argument(argument, buf);
@@ -4177,8 +4180,8 @@ ACMD(do_review)
 ACMD(do_awardexp)
 {
 
-  char arg[100];
-  char arg2[100];
+  char arg[100]={'\0'};
+  char arg2[100]={'\0'};
   struct char_data *vict;
   int amount = 0;
   int act_exp = 0;
@@ -4259,8 +4262,8 @@ ACMD(do_reimburse)
 {
 
   struct char_data *vict;
-  char arg[100];
-  int i;
+  char arg[100]={'\0'};
+  int i = 0;
 
   one_argument(argument, arg);
 
@@ -4479,7 +4482,7 @@ void do_usage_stats_mysql(void)
   }
 
 
-    char query[500];
+    char query[500]={'\0'};
 
     sprintf(query, "DELETE FROM mud_num_online");
 
@@ -4497,9 +4500,10 @@ void do_usage_stats_mysql(void)
   mysql_close(conn);
 }
 
-ACMD(do_rebind) {
+ACMD(do_rebind) 
+{
   struct char_data *vict;
-  char arg[200];
+  char arg[200]={'\0'};
 
   one_argument(argument, arg);
 

@@ -68,11 +68,11 @@ extern struct index_data *obj_index;
 
 void init_boards(void) 
 {
-  int i,j;
+  int i = 0,j = 0;
   long board_vnum;
   struct xap_dir xd;
   struct board_info *tmp_board;
-  char dir_name[128];
+  char dir_name[128]={'\0'};
 
   if(!insure_directory(BOARD_DIRECTORY,0)) {
     log("Unable to open/create directory '%s' - Exiting", BOARD_DIRECTORY);
@@ -106,8 +106,9 @@ void init_boards(void)
   look_at_boards();
 }
 
-struct board_info *create_new_board(obj_vnum board_vnum) {
-  char buf[512];
+struct board_info *create_new_board(obj_vnum board_vnum) 
+{
+  char buf[512]={'\0'};
   FILE *fl;
   struct board_info *temp=NULL,*backup;
   struct obj_data *obj=NULL;
@@ -157,11 +158,12 @@ struct board_info *create_new_board(obj_vnum board_vnum) {
   return temp;
 }
 
-int save_board(struct board_info *ts) {
+int save_board(struct board_info *ts) 
+{
   struct board_msg *message;
   struct board_memory *memboard;
   FILE *fl;
-  char buf[512];
+  char buf[512]={'\0'};
   int i = 1;
 
   sprintf(buf,"%s/%d",BOARD_DIRECTORY,BOARD_VNUM(ts));
@@ -202,14 +204,15 @@ int save_board(struct board_info *ts) {
 /* a fairly messy function                         */
 /* see accompanying document for board file format */
 
-struct board_info *load_board(obj_vnum board_vnum) {
+struct board_info *load_board(obj_vnum board_vnum) 
+{
   struct board_info *temp_board;
   struct board_msg *bmsg;
   struct obj_data *obj=NULL;
   struct stat st;
   struct board_memory *memboard, *list;
   int t[5], mnum, poster, timestamp, msg_num, retval = 0;
-  char filebuf[512],buf[512], poster_name[128];
+  char filebuf[512]={'\0'},buf[512]={'\0'}, poster_name[128]={'\0'};
   FILE *fl;
   int sflag;
 
@@ -355,10 +358,11 @@ struct board_info *load_board(obj_vnum board_vnum) {
   return temp_board;
 }
 
-int parse_message(FILE *fl, struct board_info *temp_board) {
+int parse_message(FILE *fl, struct board_info *temp_board) 
+{
   struct board_msg *tmsg, *t2msg;
-  char subject[81];
-  char buf[MAX_MESSAGE_LENGTH + 1], poster[128];
+  char subject[81]={'\0'};
+  char buf[MAX_MESSAGE_LENGTH + 1]={'\0'}, poster[128]={'\0'};
   /* arbitrairy max message length */
 
   CREATE(tmsg, struct board_msg, 1);
@@ -459,8 +463,8 @@ void show_board(obj_vnum board_vnum, struct char_data *ch) {
   struct board_msg *message;
   char *tmstr;
   int msgcount=0,yesno=0;
-  char buf[MAX_STRING_LENGTH];
-  char name[127];
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  char name[127]={'\0'};
 
   *buf = '\0';
   *name = '\0';
@@ -537,9 +541,9 @@ void board_display_msg(obj_vnum board_vnum, struct char_data * ch, int arg) {
   struct board_msg *message;
   char *tmstr;
   int msgcount,mem,sflag;
-  char name[127];
+  char name[127]={'\0'};
   struct board_memory *mboard_type, *list;
-  char buf[MAX_STRING_LENGTH+1];
+  char buf[MAX_STRING_LENGTH+1]={'\0'};
 
   if(IS_NPC(ch)) {
     send_to_char(ch,"Silly mob - reading is for pcs!\r\n");
@@ -751,10 +755,11 @@ void write_board_message(obj_vnum board_vnum, struct char_data *ch, char *arg)
 
 }
 
-void board_respond(long board_vnum, struct char_data *ch, int mnum){
+void board_respond(long board_vnum, struct char_data *ch, int mnum)
+{
   struct board_info *thisboard=bboards;
   struct board_msg *message,*other;
-  char number[MAX_STRING_LENGTH],buf[MAX_STRING_LENGTH];
+  char number[MAX_STRING_LENGTH]={'\0'},buf[MAX_STRING_LENGTH]={'\0'};
   int gcount=0;
   
   thisboard = locate_board(board_vnum);
@@ -837,8 +842,8 @@ void remove_board_msg(obj_vnum board_vnum, struct char_data * ch, int arg)
   struct board_info *thisboard;
   struct board_msg *cur, *temp;
   struct descriptor_data *d;
-  int msgcount;
-  char buf[MAX_STRING_LENGTH+1];
+  int msgcount = 0;
+  char buf[MAX_STRING_LENGTH+1]={'\0'};
   
   if(IS_NPC(ch)) {
     send_to_char(ch,"Nuts.. looks like you forgot your eraser back in mobland...\r\n");

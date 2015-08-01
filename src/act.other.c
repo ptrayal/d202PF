@@ -135,10 +135,10 @@ char *deity_strings[100];
 
 ACMD(do_skin)
 {
-    char arg1[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH]={'\0'};
     struct obj_data *cont, *obj;
-    int temp, i, found=0;
-    int percent;
+    int temp = 0, i = 0, found=0;
+    int percent = 0;
     struct obj_data *jj, *next_thing2;
     one_argument(argument, arg1);
 
@@ -390,8 +390,8 @@ ACMD(do_steal)
 {
   struct char_data *vict;
   struct obj_data *obj;
-  char vict_name[MAX_INPUT_LENGTH], obj_name[MAX_INPUT_LENGTH];
-  int roll, detect, diffc = 20, gold, eq_pos, pcsteal = 0, ohoh = 0;
+  char vict_name[MAX_INPUT_LENGTH]={'\0'}, obj_name[MAX_INPUT_LENGTH]={'\0'};
+  int roll = 0, detect = 0, diffc = 20, gold = 0, eq_pos = 0, pcsteal = 0, ohoh = 0;
 
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
     send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
@@ -531,7 +531,7 @@ ACMD(do_steal)
 
 ACMD(do_practice)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   /* if (IS_NPC(ch))
     return; */
@@ -666,7 +666,7 @@ void print_group(struct char_data *ch)
   struct char_data *k;
   struct follow_type *f;
   int found = FALSE;
-  char colora[5]; char color2[5];
+  char colora[5]={'\0'}; char color2[5]={'\0'};
 
   sprintf(colora, "@C");
   sprintf(color2, "@C");
@@ -680,7 +680,7 @@ void print_group(struct char_data *ch)
   if (!AFF_FLAGGED(ch, AFF_GROUP))
     send_to_char(ch, "But you are not the member of a group!\r\n");
   else {
-    char buf[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH]={'\0'};
 
     send_to_char(ch, "Your group consists of:\r\n");
   
@@ -823,10 +823,10 @@ void print_group(struct char_data *ch)
 
 ACMD(do_group)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   struct char_data *vict;
   struct follow_type *f;
-  int found;
+  int found = 0;
 
   one_argument(argument, buf);
 
@@ -871,7 +871,7 @@ ACMD(do_group)
 
 ACMD(do_ungroup)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct follow_type *f, *next_fol;
   struct char_data *tch;
 
@@ -922,11 +922,9 @@ ACMD(do_ungroup)
 }
 
 
-
-
 ACMD(do_report)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   struct char_data *k;
   struct follow_type *f;
 
@@ -955,8 +953,8 @@ ACMD(do_report)
 
 ACMD(do_split)
 {
-  char buf[MAX_INPUT_LENGTH];
-  int amount, num, share, rest;
+  char buf[MAX_INPUT_LENGTH]={'\0'};
+  int amount = 0, num = 0, share = 0, rest = 0;
   size_t len;
   struct char_data *k;
   struct follow_type *f;
@@ -1043,7 +1041,7 @@ ACMD(do_split)
 
 ACMD(do_use)
 {
-  char buf[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *mag_item;
 
   half_chop(argument, arg, buf);
@@ -1106,8 +1104,8 @@ ACMD(do_use)
 
 ACMD(do_value)
 {
-  char arg[MAX_INPUT_LENGTH];
-  int value_lev;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
+  int value_lev = 0;
   int max = 0;
 
   one_argument(argument, arg);
@@ -1263,7 +1261,7 @@ ACMD(do_gen_write)
   struct stat fbuf;
   time_t rawtime;
   struct tm *info;
-  char buffer[80];
+  char buffer[80]={'\0'};
 
   switch (subcmd) {
   case SCMD_BUG:
@@ -1664,14 +1662,10 @@ ACMD(do_gen_tog)
 ACMD(do_file)
 {
   FILE *req_file;
-  int cur_line = 0,
-  num_lines = 0,
-  req_lines = 0,
-  i,
-  j;
-  int l;
-  char field[MAX_INPUT_LENGTH], value[MAX_INPUT_LENGTH], line[READ_SIZE];
-  char buf[MAX_STRING_LENGTH];
+  int cur_line = 0, num_lines = 0, req_lines = 0, i = 0, j = 0;
+  int l = 0;
+  char field[MAX_INPUT_LENGTH]={'\0'}, value[MAX_INPUT_LENGTH]={'\0'}, line[READ_SIZE]={'\0'};
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   struct file_struct {
     char *cmd;
@@ -1785,11 +1779,11 @@ ACMD(do_file)
 
 ACMD(do_compare)
 {
-  char arg1[MAX_INPUT_LENGTH];
-  char arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'};
+  char arg2[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj1, *obj2;
   struct char_data *tchar;
-  int value1 = 0, value2 = 0, o1, o2;
+  int value1 = 0, value2 = 0, o1 = 0, o2 = 0;
   char *msg = NULL;
 
   two_arguments(argument, arg1, arg2);
@@ -1841,10 +1835,10 @@ ACMD(do_compare)
 
 ACMD(do_break)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj;
   struct char_data *dummy = NULL;
-  int brk;
+  int brk = 0;
 
   one_argument(argument, arg);
 
@@ -1875,10 +1869,10 @@ ACMD(do_break)
 
 ACMD(do_fix)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj;
   struct char_data *dummy = NULL;
-  int brk;
+  int brk = 0;
   int roll = 0;
   int dc = 0;
   int valnum = 0;
@@ -2618,7 +2612,7 @@ ACMD(do_resurrect)
 
 ACMD(do_pagelength)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   if (IS_NPC(ch))
     return;
@@ -2641,8 +2635,8 @@ ACMD(do_form) /* Lars - 02/00 */
 {
   struct char_data *k;
   struct follow_type *f;
-  int i, counter = 0, found = false;
-  char buf[MAX_STRING_LENGTH];
+  int i = 0, counter = 0, found = false;
+  char buf[MAX_STRING_LENGTH]={'\0'};
    
   /* Are we grouped? */
   if (!AFF_FLAGGED(ch, AFF_GROUP))
@@ -2720,8 +2714,8 @@ ACMD(do_form) /* Lars - 02/00 */
 ACMD(do_reform)
 {
   struct char_data *vict;
-  char buf[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
-  int j, i;
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
+  int j = 0, i = 0;
    
   two_arguments(argument, buf, buf2);
         
@@ -2796,7 +2790,7 @@ int find_form_pos(struct char_data *ch)
 ACMD(do_intro)
 {
   int i = 0;
-  char arg[MAX_STRING_LENGTH];
+  char arg[MAX_STRING_LENGTH]={'\0'};
   struct char_data *vict;
 
   one_argument(argument, arg);
@@ -2871,7 +2865,7 @@ ACMD(do_greet)
   int i = 0;
   int temp = 0;
   int counter = 0;
-  char arg[MAX_STRING_LENGTH];
+  char arg[MAX_STRING_LENGTH]={'\0'};
   struct char_data *vict;
 
   one_argument(argument, arg);
@@ -2934,8 +2928,8 @@ ACMD(do_greet)
 ACMD(do_setactive)
 {
 
-  int i;
-  char arg[MAX_STRING_LENGTH];
+  int i = 0;
+  char arg[MAX_STRING_LENGTH]={'\0'};
 
   one_argument(argument, arg);
 
@@ -3037,7 +3031,7 @@ ACMD(do_nohints)
 ACMD(do_metamagic)
 {
 
-  char arg[100];
+  char arg[100]={'\0'};
 
   one_argument(argument, arg);
 
@@ -3127,12 +3121,12 @@ ACMD(do_metamagic)
 
 ACMD(do_random) {
 	
-	char arg1[MAX_STRING_LENGTH];
-	char arg2[MAX_STRING_LENGTH];
-	char arg3[MAX_STRING_LENGTH];		
-  char buf[MAX_STRING_LENGTH];
+	char arg1[MAX_STRING_LENGTH]={'\0'};
+	char arg2[MAX_STRING_LENGTH]={'\0'};
+	char arg3[MAX_STRING_LENGTH]={'\0'};	
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
-	int num = 0, size, mod;
+	int num = 0, size = 0, mod = 0;
 	
 	one_argument(two_arguments(argument, arg1, arg2), arg3);
 		
@@ -3162,13 +3156,14 @@ ACMD(do_random) {
 	return;
 }
 
-ACMD(do_skillcheck) {
-	char arg[MAX_STRING_LENGTH], arg2[MAX_STRING_LENGTH];
+ACMD(do_skillcheck) 
+{
+	char arg[MAX_STRING_LENGTH]={'\0'}, arg2[MAX_STRING_LENGTH]={'\0'};
 	int skillnum = 0;
 	char *s, *t;
 	struct char_data *vict;
 	int result = 0;
-	char buf[MAX_STRING_LENGTH];
+	char buf[MAX_STRING_LENGTH]={'\0'};
 	
 	two_arguments(argument, arg, arg2);
 	
@@ -3231,7 +3226,7 @@ ACMD(do_skillcheck) {
 ACMD(do_devote)
 {
 
-  char arg[200], arg2[200], arg3[200], buf2[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'}, buf2[200]={'\0'};
 	int i=0, j=0;
 
 	one_argument(two_arguments(argument, arg, arg2), arg3);
@@ -3409,12 +3404,12 @@ ACMD(do_domain)
 
 ACMD(do_sponsor) {
 	
-	char arg1[MAX_STRING_LENGTH];
-	char arg2[MAX_STRING_LENGTH];	
+	char arg1[MAX_STRING_LENGTH]={'\0'};
+	char arg2[MAX_STRING_LENGTH]={'\0'};	
 	char *s;
 	char className[MAX_STRING_LENGTH];
 	struct char_data *victim;
-	int i, j;
+	int i = 0, j = 0;
 	
 	half_chop(argument, arg1, arg2);
 
@@ -3480,8 +3475,8 @@ ACMD(do_callset)
 {
 
   struct char_data *mob = NULL;
-  char arg1[100];
-  char arg2[100];
+  char arg1[100]={'\0'};
+  char arg2[100]={'\0'};
   int ranks = 0;
  
   two_arguments(argument, arg1, arg2);
@@ -3634,7 +3629,7 @@ ACMD(do_call)
 
 
   struct char_data *mob;
-  char arg1[MAX_STRING_LENGTH];
+  char arg1[MAX_STRING_LENGTH]={'\0'};
   int mob_vnum = 0;
   int call_type = 0;
   struct follow_type *f;
@@ -3792,10 +3787,11 @@ ACMD(do_call)
 
 }
 
-ACMD(do_choose) {
+ACMD(do_choose) 
+{
 
-  char arg[MAX_STRING_LENGTH];
-  char arg2[MAX_STRING_LENGTH];
+  char arg[MAX_STRING_LENGTH]={'\0'};
+  char arg2[MAX_STRING_LENGTH]={'\0'};
   
   two_arguments(argument, arg, arg2);
   
@@ -3830,7 +3826,7 @@ ACMD(do_haggle)
 
 ACMD(do_recall)
 {
-  char arg[100], buf[200];
+  char arg[100]={'\0'}, buf[200]={'\0'};
 
   one_argument(argument, arg);
 
@@ -3949,9 +3945,9 @@ ACMD(do_heal)
 {
 
   struct char_data *vict;
-  char arg1[100];
-  int roll;
-  char buf[200];
+  char arg1[100]={'\0'};
+  int roll = 0;
+  char buf[200]={'\0'};
  
   one_argument(argument, arg1);
 
@@ -4030,11 +4026,11 @@ ACMD(do_heal)
 
 ACMD(do_suicide)
 {
-  int i;
-  char name[100];
+  int i = 0;
+  char name[100]={'\0'};
   struct account_data *account;
   int pfilepos = GET_PFILEPOS(ch);
-  char arg[100];
+  char arg[100]={'\0'};
 
   one_argument(argument, arg);
 
@@ -4089,7 +4085,7 @@ ACMD(do_nosuicide)
 ACMD(do_bonuslevels)
 {
 
-  char arg[100];
+  char arg[100]={'\0'};
   int i = 0;
 
   one_argument(argument, arg);
@@ -4170,7 +4166,7 @@ ACMD(do_spontaneous)
 ACMD(do_setaffinity)
 {
 
-  char arg[100];
+  char arg[100]={'\0'};
 
   one_argument(argument, arg);
 
@@ -4217,8 +4213,8 @@ ACMD(do_backup)
 ACMD(do_companionsettype)
 {
 
-  char arg[100];
-  int i;
+  char arg[100]={'\0'};
+  int i = 0;
 
   one_argument(argument, arg);
 
@@ -4254,7 +4250,7 @@ ACMD(do_companionsettype)
 ACMD(do_companionsetname)
 {
 
-  char arg[100];
+  char arg[100]={'\0'};
 
   one_argument(argument, arg);
 
@@ -4277,7 +4273,7 @@ ACMD(do_companionsetname)
 ACMD(do_gift)
 {
 
-  char arg1[100], arg2[100], arg3[100];
+  char arg1[100]={'\0'}, arg2[100]={'\0'}, arg3[100]={'\0'};
   struct char_data *vict = NULL;
   long exp = 0;
 
@@ -4350,7 +4346,7 @@ ACMD(do_dismiss_mob)
 {
 
   struct char_data *vict;
-  char arg1[200];
+  char arg1[200]={'\0'};
 
   one_argument(argument, arg1);
 
@@ -4588,7 +4584,7 @@ ACMD(do_setcamp)
 ACMD(do_lfg)
 {
 
-  char arg[100];
+  char arg[100]={'\0'};
   struct char_data *i = NULL, *next_char = NULL;
 
   one_argument(argument, arg);
@@ -4644,9 +4640,9 @@ ACMD(do_lfg)
   }
 }
 
-ACMD(do_favoredenemy) {
-
-  char arg[100];
+ACMD(do_favoredenemy) 
+{
+  char arg[100]={'\0'};
   int i = 0;
 
   one_argument(argument, arg);
@@ -4685,7 +4681,7 @@ ACMD(do_favoredenemy) {
 
 ACMD(do_disguise)
 {
-    char arg[20], arg2[20], arg3[20], buf[MAX_STRING_LENGTH];
+    char arg[20]={'\0'}, arg2[20]={'\0'}, arg3[20]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
 
     one_argument(two_arguments(argument, arg, arg2), arg3);
     int mod = 0, i = 0, choice = 0;
@@ -5553,7 +5549,7 @@ struct wild_shape_mods *set_wild_shape_mods(int race)
 ACMD(do_wildshape) {
     
     int i = 0;
-    char buf[200];
+    char buf[200]={'\0'};
     struct wild_shape_mods *abil_mods;
 
     skip_spaces(&argument);
@@ -5856,7 +5852,7 @@ ACMD(do_websiteaccount)
     return;
   }
 
-  char arg[200];
+  char arg[200]={'\0'};
   one_argument(argument, arg);
 
   if (!*arg) {
@@ -6011,7 +6007,7 @@ ACMD(do_poll)
     return;
   }
 
-  char arg[200], arg2[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'};
   int i = 0, j = 0;
   char *title = NULL;
   char *title2 = NULL;
@@ -6084,7 +6080,7 @@ ACMD(do_poll)
   }
 
 
-  char query[300];
+  char query[300]={'\0'};
 
   if (ch->desc->account->polls[i] > 0) {
     ch->desc->account->polls[i] = j;
@@ -6126,7 +6122,7 @@ ACMD(do_callmount)
 {
 
   int mob_num = ch->player_specials->mount;
-  char buf2[400];
+  char buf2[400]={'\0'};
 
   if (HAS_REAL_FEAT(ch, FEAT_DRAGON_MOUNT_BOOST)) {
     if (IS_EVIL(ch))
@@ -6191,7 +6187,7 @@ ACMD(do_callcompanion)
 {
 
   int mob_num = ch->player_specials->companion_num;
-  char buf2[400];
+  char buf2[400]={'\0'};
 
   if (mob_num <= 0 || mob_num >= NUM_PETS) {
       send_to_char(ch, "You do not have an animal companion.  Go see Caris just south of the Palanthas Gate to get a companion.\r\n");
@@ -6387,7 +6383,7 @@ ACMD(do_rerollheightandweight)
 ACMD(do_setheight)
 {
 
-  char arg[200];
+  char arg[200]={'\0'};
 
   one_argument(argument, arg);
 
@@ -6416,7 +6412,7 @@ ACMD(do_setheight)
 ACMD(do_setweight)
 {
 
-  char arg[200];
+  char arg[200]={'\0'};
 
   one_argument(argument, arg);
 
@@ -6444,7 +6440,7 @@ ACMD(do_setweight)
 
 ACMD(do_mentor)
 {
-  char arg[100];
+  char arg[100]={'\0'};
 
   one_argument(argument, arg);
 
@@ -6524,8 +6520,8 @@ ACMD(do_set_stats)
     ch->stat_points_given = TRUE;
   }
 
-  char arg1[100];
-  char arg2[100];
+  char arg1[100]={'\0'};
+  char arg2[100]={'\0'};
 
   two_arguments(argument, arg1, arg2);
 

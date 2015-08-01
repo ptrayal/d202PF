@@ -1645,7 +1645,8 @@ struct guild_info_type guild_info[] = {
  * as part of the boot process.  The function load_levels() at
  * the end of this file reads in the actual values.
  */
-const char *config_sect[] = {
+const char *config_sect[] = 
+{
   "version",
   "experience",
   "vernum",
@@ -1764,7 +1765,8 @@ byte object_saving_throws(int material_type, int type)
 #define SAVE_MANUAL 0
 #define SAVE_LOW 1
 #define SAVE_HIGH 2
-char *save_type_names[] = {
+char *save_type_names[] = 
+{
   "manual",
   "low",
   "high"
@@ -1773,7 +1775,8 @@ char *save_type_names[] = {
 #define BASEHIT_LOW     1
 #define BASEHIT_MEDIUM  2
 #define BASEHIT_HIGH    3
-char *basehit_type_names[] = {
+char *basehit_type_names[] = 
+{
   "manual",
   "low",
   "medium",
@@ -3432,8 +3435,8 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
   int bardLevel = 0;
   int addSpells = 0;
   int level = 0;
-  char buf[MAX_STRING_LENGTH];
-  char featbuf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  char featbuf[MAX_STRING_LENGTH]={'\0'};
   int research_sessions = 0;
   struct damreduct_type *ptr, *reduct, *temp;
   int arcane_bonus = 0, divine_bonus = 0;
@@ -4365,7 +4368,7 @@ int comp_rank(const void *a, const void *b)
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 char *class_desc_str(struct char_data *ch, int howlong, int wantthe)
 {
-    static char str[MAX_STRING_LENGTH];
+    static char str[MAX_STRING_LENGTH]={'\0'};
     char *ptr = str;
     int i = 0, rank = 0, j = 0;
     int rankorder[NUM_CLASSES];
@@ -4437,9 +4440,10 @@ int total_skill_levels(struct char_data *ch, int skill)
 int load_levels()
 {
   FILE *fp;
-  char line[READ_SIZE], sect_name[READ_SIZE] = { '\0' }, *ptr;
+  char line[READ_SIZE]={'\0'}, sect_name[READ_SIZE] = { '\0' }, *ptr;
   int  linenum = 0, tp, cls, sect_type = -1;
-  if (!(fp = fopen(LEVEL_CONFIG, "r"))) {
+  if (!(fp = fopen(LEVEL_CONFIG, "r"))) 
+  {
     log("SYSERR: Could not open level configuration file, error: %s!", 
          strerror(errno));
     return -1;
@@ -5183,7 +5187,8 @@ void display_alignment_help(struct descriptor_data *d)
 
 }
 
-void parse_alignment(struct char_data *ch, char choice) {
+void parse_alignment(struct char_data *ch, char choice) 
+{
   
   if (choice == '1') {
     GET_ETHOS(ch) = ETHOS_LAWFUL;

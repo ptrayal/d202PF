@@ -1141,9 +1141,9 @@ const char *reserved[] =
  */
 void command_interpreter(struct char_data *ch, char *argument)
 {
-  int cmd = 0, length;
+  int cmd = 0, length = 0;
   char *line;
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *k = NULL, *temp = NULL;
   ubyte found = FALSE;
   struct follow_type *f = NULL;
@@ -1330,7 +1330,7 @@ void free_alias(struct alias_data *a)
 /* The interface to the outside world: do_alias */
 ACMD(do_alias)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   char *repl;
   struct alias_data *a, *temp;
 
@@ -1393,7 +1393,7 @@ void perform_complex_alias(struct txt_q *input_q, char *orig, struct alias_data 
 {
   struct txt_q temp_queue;
   char *tokens[NUM_TOKENS], *temp, *write_point;
-  char buf2[MAX_RAW_INPUT_LENGTH], buf[MAX_RAW_INPUT_LENGTH];	/* raw? */
+  char buf2[MAX_RAW_INPUT_LENGTH]={'\0'}, buf[MAX_RAW_INPUT_LENGTH]={'\0'};	/* raw? */
   int num_of_tokens = 0, num;
 
   /* First, parse the original string */
@@ -1453,7 +1453,7 @@ void perform_complex_alias(struct txt_q *input_q, char *orig, struct alias_data 
  */
 int perform_alias(struct descriptor_data *d, char *orig, size_t maxlen)
 {
-  char first_arg[MAX_INPUT_LENGTH], *ptr;
+  char first_arg[MAX_INPUT_LENGTH]={'\0'}, *ptr;
   struct alias_data *a, *tmp;
 
   /* Mobs don't have alaises. */
@@ -1498,7 +1498,7 @@ int perform_alias(struct descriptor_data *d, char *orig, size_t maxlen)
  */
 int search_block(char *arg, const char **list, int exact)
 {
-  int i, l;
+  int i = 0, l = 0;
 
   /*  We used to have \r as the first character on certain array items to
    *  prevent the explicit choice of that point.  It seems a bit silly to
@@ -1531,7 +1531,7 @@ int search_block(char *arg, const char **list, int exact)
 
 int search_block_2(char *arg, char **list, int exact)
 {
-  int i, l;
+  int i = 0, l = 0 ;
 
   /*  We used to have \r as the first character on certain array items to
    *  prevent the explicit choice of that point.  It seems a bit silly to
@@ -1759,7 +1759,7 @@ void display_race_confirm(struct descriptor_data *d)
 {
   struct help_index_element *this_help;
   int x;
-  char help_string[100];
+  char help_string[100]={'\0'};
 
     sprintf(help_string, "%s", race_list[GET_RACE(d->character)].name);
     for (x = 0; x < strlen(help_string); x++)
@@ -2036,7 +2036,7 @@ int perform_dupe_check(struct descriptor_data *d)
   struct descriptor_data *k, *next_k;
   struct char_data *target = NULL, *ch, *next_ch;
   int mode = 0;
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
 
   int id = GET_IDNUM(d->character);
 
@@ -2268,7 +2268,7 @@ int enter_player_game (struct descriptor_data *d)
 
   // MySQL Save
 
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
 
   // Open mysql connection
   conn = mysql_init(NULL);
@@ -2292,7 +2292,7 @@ int enter_player_game (struct descriptor_data *d)
 
   if (i->desc && i->desc->account && !IS_NPC(i) && GET_ADMLEVEL(i) == 0 && (CONFIG_DFLT_PORT == 9080)) {
 
-    char account_name[255];
+    char account_name[255]={'\0'};
 
     sprintf(account_name, "%s", i->desc->account->name);
 
@@ -2423,7 +2423,7 @@ int enter_player_game (struct descriptor_data *d)
 
   if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) {
 
-    char query[200];
+    char query[200]={'\0'};
 
     sprintf(query, "SELECT a.gameaccount, b.account_exp, b.forum_user_id FROM jos_chronoforms_user_details a, mud_web_info b WHERE a.cf_user_id = "
                    "b.forum_user_id AND a.gameaccount = '%s'", d->account ? d->account->name : "Unused");
@@ -2433,7 +2433,7 @@ int enter_player_game (struct descriptor_data *d)
     MYSQL_ROW row = NULL;
     MYSQL_RES *res2 = NULL;
     MYSQL_ROW row2 = NULL;
-    char gameaccount[255];
+    char gameaccount[255]={'\0'};
     int accExp = 0;
     int userId = 0;
 
@@ -2483,22 +2483,23 @@ MXPSendTag( d, "<VERSION>" );
 void nanny(struct descriptor_data *d, char *arg)
 {
   struct help_index_element *this_help;
-  char arg1[50], arg2[50], buf[100];
-  char argument[MAX_INPUT_LENGTH];
+  char arg1[50]={'\0'}, arg2[50]={'\0'}, buf[100]={'\0'};
+  char argument[MAX_INPUT_LENGTH]={'\0'};
   sh_int count = 0;
   int i = 0, j = 0;
-  int load_result;	/* Overloaded variable */
-  int player_i, total;
+  int load_result = 0;	/* Overloaded variable */
+  int player_i = 0, total = 0;
 	char *tmpdesc;
   byte class = 0;
   byte found = FALSE;
   struct char_data *ch = d->character;
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
 
   /* OasisOLC states */
-  struct {
+  struct 
+  {
     int state;
     void (*func)(struct descriptor_data *, char*);
   } olc_functions[] = {
@@ -2556,7 +2557,7 @@ void nanny(struct descriptor_data *d, char *arg)
     if (!*arg)
       STATE(d) = CON_CLOSE;
     else {
-      char buf[MAX_INPUT_LENGTH], tmp_name[MAX_INPUT_LENGTH];
+      char buf[MAX_INPUT_LENGTH]={'\0'}, tmp_name[MAX_INPUT_LENGTH]={'\0'};
 
       if ((_parse_name(arg, tmp_name)) || strlen(tmp_name) < 2 ||
 	  strlen(tmp_name) > MAX_NAME_LENGTH || !Valid_Name(tmp_name) ||
@@ -2700,7 +2701,7 @@ void nanny(struct descriptor_data *d, char *arg)
       return;
     }
     else {
-      char buf[MAX_INPUT_LENGTH], tmp_name[MAX_INPUT_LENGTH];
+      char buf[MAX_INPUT_LENGTH]={'\0'}, tmp_name[MAX_INPUT_LENGTH]={'\0'};
 
       if ((_parse_name(arg, tmp_name)) || strlen(tmp_name) < 2 ||
 	  strlen(tmp_name) > MAX_NAME_LENGTH || !Valid_Name(tmp_name) ||
@@ -3573,7 +3574,7 @@ void nanny(struct descriptor_data *d, char *arg)
         }
       }
       if (!found) {
-        int k;
+        int k = 0;
         write_to_output(d, "\r\n\r\n");
         for (k = 0; k < MAX_NUM_KNOWN_SPELLS; k++)
           write_to_output(d, "%d ", d->character->levelup->spells_known[k]);
@@ -4272,7 +4273,7 @@ void nanny(struct descriptor_data *d, char *arg)
       /* We've updated to 3.1 - some bits might be set wrongly: */
       REMOVE_BIT_AR(PRF_FLAGS(d->character), PRF_BUILDWALK);
 
-      int pct;
+      int pct = 0;
       for (pct = 1; pct < NUM_POLLS; pct++) {
         if (d->account && d->account->polls[pct] == 0 && poll_list[pct].active == TRUE) {
           send_to_char(d->character, "@l@WYou have new polls to vote on (type poll).@n\r\n");
@@ -4447,7 +4448,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
 ACMD(do_disable)
 {
-  int i, length;
+  int i = 0, length = 0;
   DISABLED_DATA *p, *temp;
 
   if (IS_NPC(ch)) {
@@ -4544,8 +4545,8 @@ void load_disabled()
 {
   FILE *fp;
   DISABLED_DATA *p;
-  int i;
-  char line[READ_SIZE], name[MAX_INPUT_LENGTH], temp[MAX_INPUT_LENGTH];
+  int i = 0 ;
+  char line[READ_SIZE]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'}, temp[MAX_INPUT_LENGTH]={'\0'};
 
   if (disabled_first)
     free_disabled();
@@ -4908,7 +4909,7 @@ void display_levelup_changes(struct char_data *ch, int apply_changes) {
 
     // MySQL Save
 
-    char query[MAX_INPUT_LENGTH];
+    char query[MAX_INPUT_LENGTH]={'\0'};
 
     conn = mysql_init(NULL);
 
@@ -5071,7 +5072,7 @@ void process_add_feat(struct char_data *ch, int feat_num)
     dptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION);
     dptr->duration = -1;
     dptr->max_damage = -1;
-    int q;
+    int q = 0;
     for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
       dptr->damstyle[q] = dptr->damstyleval[q] = 0;
     dptr->damstyle[0] = DR_NONE;

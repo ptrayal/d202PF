@@ -4337,7 +4337,7 @@ void perform_violence(void)
 {
   struct char_data *ch;
   struct follow_type *k;
-  int i, j;
+  int i = 0, j = 0;
   ACMD(do_assist);
 
   i = 0;

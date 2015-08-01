@@ -666,19 +666,22 @@ void trigedit_save(struct descriptor_data *d)
 void trigedit_create_index(int znum, char *type)
 {
   FILE *newfile, *oldfile;
-  char new_name[128], old_name[128], *prefix;
-  char buf[MAX_STRING_LENGTH], buf1[MAX_STRING_LENGTH];
-  int num, found = FALSE;
+  char new_name[128]={'\0'}, old_name[128]={'\0'}, *prefix;
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'};
+  int num = 0, found = FALSE;
 
   prefix = TRG_PREFIX;
 
   snprintf(old_name, sizeof(old_name), "%s/index", prefix);
   snprintf(new_name, sizeof(new_name), "%s/newindex", prefix);
 
-  if (!(oldfile = fopen(old_name, "r"))) {
+  if (!(oldfile = fopen(old_name, "r"))) 
+  {
     mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", old_name);
     return;
-  } else if (!(newfile = fopen(new_name, "w"))) {
+  } 
+  else if (!(newfile = fopen(new_name, "w"))) 
+  {
     mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", new_name);
     return;
   }

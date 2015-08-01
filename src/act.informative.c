@@ -5145,12 +5145,12 @@ ACMD(do_gatherinfo)
     return;
   }
 
-  char query[400];
+  char query[400]={'\0'};
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
   MYSQL_RES *res2 = NULL;
   MYSQL_ROW row2 = NULL;
-  char arg[200];
+  char arg[200]={'\0'};
   sbyte found = FALSE;
   int dc = 0;
 
