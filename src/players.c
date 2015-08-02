@@ -92,10 +92,10 @@ extern MYSQL *conn;
 /* generate index table for the player file */
 void build_player_index(void)
 {
-  int rec_count = 0, i;
+  int rec_count = 0, i = 0;
   FILE *plr_index;
-  char index_name[40], line[256], bits[64];
-  char arg2[80];
+  char index_name[40]={'\0'}, line[256]={'\0'}, bits[64]={'\0'};
+  char arg2[80]={'\0'};
 
   sprintf(index_name, "%s%s", LIB_PLRFILES, INDEX_FILE);
   if (!(plr_index = fopen(index_name, "r"))) {
@@ -188,7 +188,7 @@ void build_player_index(void)
  */
 int create_entry(char *name)
 {
-  int i, pos;
+  int i = 0, pos = 0 ;
 
   if (top_of_p_table == -1) {	/* no table */
     CREATE(player_table, struct player_index_element, 1);
@@ -216,8 +216,8 @@ int create_entry(char *name)
 /* This function necessary to save a seperate ASCII player index */
 void save_player_index(void)
 {
-  int i;
-  char index_name[50], bits[64];
+  int i = 0;
+  char index_name[50]={'\0'}, bits[64]={'\0'};
   FILE *index_file;
 
   sprintf(index_name, "%s%s", LIB_PLRFILES, INDEX_FILE);
@@ -258,7 +258,7 @@ void free_player_index(void)
 
 long get_ptable_by_name(const char *name)
 {
-  int i;
+  int i = 0;
 
   for (i = 0; i <= top_of_p_table; i++)
     if (!str_cmp(player_table[i].name, name))
@@ -270,7 +270,7 @@ long get_ptable_by_name(const char *name)
 
 long get_id_by_name(const char *name)
 {
-  int i;
+  int i = 0;
 
   for (i = 0; i <= top_of_p_table; i++)
     if (!str_cmp(player_table[i].name, name))
@@ -282,7 +282,7 @@ long get_id_by_name(const char *name)
 
 char *get_name_by_id(long id)
 {
-  int i;
+  int i = 0;
 
   for (i = 0; i <= top_of_p_table; i++)
     if (player_table[i].id == id)
@@ -294,8 +294,8 @@ char *get_name_by_id(long id)
 
 void load_follower_from_file(FILE *fl, struct char_data *ch)
 {
-  int nr;
-  char line[MAX_INPUT_LENGTH + 1];
+  int nr = 0;
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
   struct char_data *newch;
 
   if (!get_line(fl, line))
@@ -324,8 +324,8 @@ void load_damreduce(struct char_data *ch, FILE *fl)
   sh_int spell, feat;
   int mod, duration, max_damage;
 
-  char buf[READ_SIZE];
-  int i;
+  char buf[READ_SIZE]={'\0'};
+  int i = 0;
 
   if (!get_line(fl, buf)) {
     log("Empty get_line reading damage reduction for %s", GET_NAME(ch));
@@ -374,9 +374,9 @@ int load_char(const char *name, struct char_data *ch)
 {
   int id, i, num = 0, num2 = 0, num3 = 0, num4 = 0;
   FILE *fl;
-  char fname[READ_SIZE];
-  char buf[128], buf2[128], line[MAX_INPUT_LENGTH + 1], tag[6];
-  char f1[128], f2[128], f3[128], f4[128];
+  char fname[READ_SIZE]={'\0'};
+  char buf[128]={'\0'}, buf2[128]={'\0'}, line[MAX_INPUT_LENGTH + 1]={'\0'}, tag[6]={'\0'};
+  char f1[128]={'\0'}, f2[128]={'\0'}, f3[128]={'\0'}, f4[128]={'\0'};
 //  char *s1;
 
   if ((id = get_ptable_by_name(name)) < 0)
@@ -1371,7 +1371,7 @@ void kill_ems(char *str)
 void write_new_pet_data(struct char_data *ch)
 {
 	struct follow_type *foll;
-	char fname[40];
+	char fname[40]={'\0'};
 	FILE *fl;
 
 	if( IS_NPC(ch) || GET_PFILEPOS(ch) < 0) return;
@@ -1399,7 +1399,7 @@ void write_new_pet_data(struct char_data *ch)
 void save_char_pets(struct char_data *ch)
 {
   struct follow_type *foll;
-  char fname[40];
+  char fname[40]={'\0'};
   FILE *fl;
 
   if (IS_NPC(ch) || GET_PFILEPOS(ch) < 0)
@@ -1427,7 +1427,7 @@ void save_char_pets(struct char_data *ch)
 
 void load_char_pets(struct char_data *ch)
 {
-  char fname[40];
+  char fname[40]={'\0'};
   FILE *fl;
   room_rnum load_room;
   struct follow_type *foll;
@@ -1461,19 +1461,18 @@ void load_char_pets(struct char_data *ch)
 void save_char(struct char_data * ch)
 {
   FILE *fl;
-  char fname[40], tmpname[40], bakname[40], buf[MAX_STRING_LENGTH];
-  int i, j = 0, id, save_index = FALSE;
+  char fname[40]={'\0'}, tmpname[40]={'\0'}, bakname[40]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
+  int i = 0, j = 0, id = 0, save_index = FALSE;
   struct affected_type *aff, tmp_aff[MAX_AFFECT], tmp_affv[MAX_AFFECT];
   struct damreduct_type *reduct;
   struct obj_data *char_eq[NUM_WEARS];
-  char fbuf1[MAX_STRING_LENGTH], fbuf2[MAX_STRING_LENGTH];
-  char fbuf3[MAX_STRING_LENGTH], fbuf4[MAX_STRING_LENGTH];
+  char fbuf1[MAX_STRING_LENGTH]={'\0'}, fbuf2[MAX_STRING_LENGTH]={'\0'};
+  char fbuf3[MAX_STRING_LENGTH]={'\0'}, fbuf4[MAX_STRING_LENGTH]={'\0'};
   struct memorize_node *mem, *next;
   struct innate_node *inn = NULL, *next_inn = NULL;
 
   if (IS_NPC(ch) || GET_PFILEPOS(ch) < 0)
     return;
-
 
   /*
    * If ch->desc is not null, then we need to update some session data
@@ -2201,7 +2200,7 @@ void save_etext(struct char_data *ch)
 void tag_argument(char *argument, char *tag)
 {
   char *tmp = argument, *ttag = tag, *wrt = argument;
-  int i;
+  int i = 0;
 
   for (i = 0; i < 4; i++)
     *(ttag++) = *(tmp++);
@@ -2218,8 +2217,8 @@ void tag_argument(char *argument, char *tag)
 
 void load_affects(FILE *fl, struct char_data *ch, int violence)
 {
-  int num, num2, num3, num4, num5, num6, num7, i, retval = 0;
-  char line[MAX_INPUT_LENGTH + 1];
+  int num = 0, num2 = 0, num3 = 0, num4 = 0, num5 = 0, num6 = 0, num7 = 0, i = 0, retval = 0;
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
   struct affected_type af;
 
   i = 0;
@@ -2266,7 +2265,7 @@ void load_affects(FILE *fl, struct char_data *ch, int violence)
 void load_skills(FILE *fl, struct char_data *ch, bool mods)
 {
   int num = 0, num2 = 0;
-  char line[MAX_INPUT_LENGTH + 1];
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
 
   do {
     get_line(fl, line);
@@ -2283,7 +2282,7 @@ void load_skills(FILE *fl, struct char_data *ch, bool mods)
 void load_feats(FILE *fl, struct char_data *ch)
 {
   int num = 0, num2 = 0;
-  char line[MAX_INPUT_LENGTH + 1];
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
 
   do {
     get_line(fl, line);
@@ -2296,7 +2295,7 @@ void load_feats(FILE *fl, struct char_data *ch)
 void load_skill_focus(FILE *fl, struct char_data *ch)
 {
   int num = 0;
-  char line[MAX_INPUT_LENGTH + 1];
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
 
   do {
     get_line(fl, line);
@@ -2309,7 +2308,7 @@ void load_skill_focus(FILE *fl, struct char_data *ch)
 void load_intros(FILE *fl, struct char_data *ch)
 {
   int num = 0, i = 0;
-  char line[MAX_INPUT_LENGTH + 1];
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
 
   do {
     get_line(fl, line);
@@ -2362,8 +2361,8 @@ void load_HMVS(struct char_data *ch, const char *line, int mode)
  */ 
 void remove_player(int pfilepos)
 {
-  char fname[40];
-  int i;
+  char fname[40]={'\0'};
+  int i = 0;
 
   if (!*player_table[pfilepos].name)
     return;
@@ -2428,7 +2427,7 @@ void clean_pfiles(void)
 void load_quests(FILE *fl, struct char_data *ch)
 {
   int num = NOTHING;
-  char line[MAX_INPUT_LENGTH + 1];
+  char line[MAX_INPUT_LENGTH + 1]={'\0'};
 
   do {
     get_line(fl, line);

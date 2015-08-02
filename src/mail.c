@@ -417,7 +417,7 @@ char *read_delete(long recipient)
   mail_index_type *mail_pointer, *prev_mail;
   position_list_type *position_pointer;
   long mail_address, following_block;
-  char *tmstr, buf[MAX_MAIL_SIZE + 256];	/* + header */
+  char *tmstr, buf[MAX_MAIL_SIZE + 256]={'\0'};	/* + header */
   char *from, *to;
 
   if (recipient < 0) {
@@ -566,11 +566,10 @@ SPECIAL(postmaster)
 }
 
 
-void postmaster_send_mail(struct char_data *ch, struct char_data *mailman,
-			  int cmd, char *arg)
+void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int cmd, char *arg)
 {
   long recipient;
-  char buf[MAX_INPUT_LENGTH], **mailwrite;
+  char buf[MAX_INPUT_LENGTH]={'\0'}, **mailwrite;
 
   one_argument(arg, buf);
 
@@ -600,8 +599,7 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman,
   }
   else {
     if ((recipient = get_id_by_name(buf)) < 0 || !mail_recip_ok(buf)) {
-      act("No one by that name is registered here!",
-	FALSE, mailman, 0, ch, TO_VICT);
+      act("No one by that name is registered here!", FALSE, mailman, 0, ch, TO_VICT);
       return;
     }
     act("$n starts to write some mail.", TRUE, ch, 0, 0, TO_ROOM);
@@ -615,8 +613,7 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman,
 }
 
 
-void postmaster_check_mail(struct char_data *ch, struct char_data *mailman,
-			  int cmd, char *arg)
+void postmaster_check_mail(struct char_data *ch, struct char_data *mailman, int cmd, char *arg)
 {
   if (has_mail(GET_IDNUM(ch)))
     act("You have mail waiting.", FALSE, mailman, 0, ch, TO_VICT);
@@ -625,12 +622,11 @@ void postmaster_check_mail(struct char_data *ch, struct char_data *mailman,
 }
 
 
-void postmaster_receive_mail(struct char_data *ch, struct char_data *mailman,
-			  int cmd, char *arg)
+void postmaster_receive_mail(struct char_data *ch, struct char_data *mailman, int cmd, char *arg)
 {
-  char buf[256];
+  char buf[256]={'\0'};
   struct obj_data *obj;
-  int y;
+  int y = 0;
 
   if (!has_mail(GET_IDNUM(ch))) {
     snprintf(buf, sizeof(buf), "Sorry, you don't have any mail waiting.");

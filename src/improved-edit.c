@@ -26,7 +26,7 @@ void send_editor_help(struct descriptor_data *d)
 
 int improved_editor_execute(struct descriptor_data *d, char *str)
 {
-  char actions[MAX_INPUT_LENGTH];
+  char actions[MAX_INPUT_LENGTH]={'\0'};
 
   if (*str != '/')
     return STRINGADD_OK;
@@ -99,8 +99,8 @@ void parse_action(int command, char *string, struct descriptor_data *d)
   int indent = 0, rep_all = 0, flags = 0, replaced, i, line_low, line_high, j = 0;
   unsigned int total_len;
   char *s, *t, temp;
-  char buf[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
 
   switch (command) {
   case PARSE_HELP:
@@ -491,7 +491,7 @@ void format_text(char **ptr_string, int mode, struct descriptor_data *d, unsigne
 {
   int line_chars, cap_next = TRUE, cap_next_next = FALSE, color_chars = 0, i;
   char *flow, *start = NULL, temp;
-  char formatted[MAX_STRING_LENGTH];
+  char formatted[MAX_STRING_LENGTH]={'\0'};
    
   /* Fix memory overrun. */
   if (d->max_str > MAX_STRING_LENGTH) {
@@ -573,7 +573,7 @@ void format_text(char **ptr_string, int mode, struct descriptor_data *d, unsigne
 	strcat(formatted, "\r\n");
 	color_chars = line_chars = 0;
       } else if (*flow == '\"' || *flow == '\'') {
-        char buf[MAX_STRING_LENGTH];
+        char buf[MAX_STRING_LENGTH]={'\0'};
         sprintf(buf, "%c  ", *flow);
         strcat(formatted, buf);
         flow++;
@@ -596,7 +596,7 @@ int replace_str(char **string, char *pattern, char *replacement, int rep_all, un
 {
   char *replace_buffer = NULL;
   char *flow, *jetsam, temp;
-  int len, i;
+  int len = 0, i = 0;
 
   if ((strlen(*string) - strlen(pattern)) + strlen(replacement) > max_size)
     return -1;

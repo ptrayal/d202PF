@@ -1914,7 +1914,7 @@ ACMD(do_score)
 {
   extern  char *  godSelected(struct char_data *ch);
   extern  char *pc_race_types[NUM_RACES];
-  char    buf[MAX_STRING_LENGTH];
+  char    buf[MAX_STRING_LENGTH]={'\0'};
 
   /* struct time_info_data playing_time; */
   if (IS_NPC(ch)) 

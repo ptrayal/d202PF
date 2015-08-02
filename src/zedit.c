@@ -448,12 +448,11 @@ int start_change_command(struct descriptor_data *d, int pos)
  */
 void zedit_disp_menu(struct descriptor_data *d)
 {
-  int subcmd = 0, room, counter = 0;
+  int subcmd = 0, counter = 0;
 	int j = 0;
 	char levelRanges[MAX_STRING_LENGTH];
 
   clear_screen(d);
-  room = real_room(OLC_NUM(d));
 	
 	sprintf(levelRanges, "( ");
 	

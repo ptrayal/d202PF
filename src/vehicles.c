@@ -78,38 +78,37 @@ struct obj_data *find_control(struct char_data *ch)
 
 /* Drive our vehicle into another vehicle */
  void drive_into_vehicle(struct char_data *ch, struct obj_data *vehicle, char *arg)
-{
+ {
   struct obj_data *vehicle_in_out;
-  int was_in, is_in, is_going_to;
-  char   buf[MAX_INPUT_LENGTH];
+  int is_in, is_going_to;
+  char   buf[MAX_INPUT_LENGTH]={'\0'};
 
   if (!*arg) {
     send_to_char(ch, "Drive into what?\r\n");
   } else if (!(vehicle_in_out = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(vehicle)].contents)) ) {
-      send_to_char(ch, "Nothing here by that name!\r\n");
+    send_to_char(ch, "Nothing here by that name!\r\n");
   } else if (GET_OBJ_TYPE(vehicle_in_out) != ITEM_VEHICLE) {
-      send_to_char(ch, "That's not a vehicle.\r\n");
+    send_to_char(ch, "That's not a vehicle.\r\n");
   } else if (vehicle == vehicle_in_out) {
-      send_to_char(ch, "My, we are in a clever mood today, aren't we.\r\n");
+    send_to_char(ch, "My, we are in a clever mood today, aren't we.\r\n");
   } else {
     is_going_to = real_room(GET_OBJ_VAL(vehicle_in_out, 0));
     if (!IS_SET_AR(ROOM_FLAGS(is_going_to), ROOM_NOVEHICLE)) {
       send_to_char(ch, "That vehicle can't carry other vehicles.");
     } else {
-    sprintf(buf, "%s enters %s.\n\r", vehicle->short_description, 
-    vehicle_in_out->short_description);
-    send_to_room(IN_ROOM(vehicle), buf);
+      sprintf(buf, "%s enters %s.\n\r", vehicle->short_description, 
+        vehicle_in_out->short_description);
+      send_to_room(IN_ROOM(vehicle), buf);
 
-    was_in = IN_ROOM(vehicle);
-    obj_from_room(vehicle);
-    obj_to_room(vehicle, is_going_to);
-    is_in = IN_ROOM(vehicle);
-    if (ch->desc != NULL)
+      obj_from_room(vehicle);
+      obj_to_room(vehicle, is_going_to);
+      is_in = IN_ROOM(vehicle);
+      if (ch->desc != NULL)
         look_at_room(is_in, ch, 0);
-    sprintf(buf, "%s enters.\r\n", vehicle->short_description);
-    send_to_room(is_in, buf);
-        }
-        }
+      sprintf(buf, "%s enters.\r\n", vehicle->short_description);
+      send_to_room(is_in, buf);
+    }
+  }
 }
 
 /* Drive our vehicle out of another vehicle */

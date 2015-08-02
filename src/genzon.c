@@ -60,9 +60,9 @@ zone_rnum create_new_zone(zone_vnum vzone_num, room_vnum bottom, room_vnum top, 
 {
   FILE *fp;
   struct zone_data *zone;
-  int i;
+  int i = 0;
   zone_rnum rznum;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
 #if CIRCLE_UNSIGNED_INDEX
   if (vzone_num == NOWHERE) {
@@ -275,10 +275,10 @@ zone_rnum create_new_zone(zone_vnum vzone_num, room_vnum bottom, room_vnum top, 
 void create_world_index(int znum, const char *type)
 {
   FILE *newfile, *oldfile;
-  char new_name[32], old_name[32], *prefix;
-  int num, found = FALSE;
-  char buf[MAX_STRING_LENGTH];
-  char buf1[MAX_STRING_LENGTH];
+  char new_name[32]={'\0'}, old_name[32]={'\0'}, *prefix;
+  int num = 0, found = FALSE;
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  char buf1[MAX_STRING_LENGTH]={'\0'};
 
   switch (*type) {
   case 'z':
@@ -402,8 +402,8 @@ void remove_room_zone_commands(zone_rnum zone, room_rnum room_num)
  */
 int save_zone(zone_rnum zone_num)
 {
-  int subcmd, arg1 = -1, arg2 = -1, arg3 = -1, arg4 = -1, arg5 = -1;
-  char fname[128], oldname[128];
+  int subcmd = 0, arg1 = -1, arg2 = -1, arg3 = -1, arg4 = -1, arg5 = -1;
+  char fname[128]={'\0'}, oldname[128]={'\0'};
   const char *comment = NULL;
   FILE *zfile;
   
