@@ -37,7 +37,7 @@
 /* extern variables */
 extern MYSQL *conn;
 extern int top_of_helpt;
-const char *admin_level_names[ADMLVL_IMPL + 2];
+const char *admin_level_names[ADMLVL_IMPL + 4];
 extern struct help_index_element *help_table;
 extern char *help;
 extern struct time_info_data time_info;
