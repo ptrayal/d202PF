@@ -1474,7 +1474,7 @@ const char *wield_names[] = {
 };
 
 
-const char *admin_level_names[ADMLVL_IMPL + 2] = 
+const char *admin_level_names[ADMLVL_IMPL + 4] = 
 {
   "Mortal",
   "Junior Staff",
@@ -1483,6 +1483,7 @@ const char *admin_level_names[ADMLVL_IMPL + 2] =
   "Administrator",
   "Co-Owner",
   "\n",
+  NULL
 };
 
 
