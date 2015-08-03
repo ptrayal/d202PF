@@ -2198,6 +2198,7 @@ const char *craft_pattern_descs[] = {
 "khopesh",
 "curve blade",
 "\n"
+,NULL
 };
 
 int essence_vnums[NUM_ESSENCE_TYPES] = {
@@ -2251,7 +2252,8 @@ char *curse_words[] =
   "beyotch",
   "asshole",
   "stfu"
-  "badass"
+  "badass",
+  NULL
 };
 
 char *race_types[] =
@@ -2281,6 +2283,7 @@ char *race_types[] =
 "vermin",
 "fey",
 "\n"
+,NULL
 };
 
 
@@ -2289,7 +2292,8 @@ char *weapon_damage_types[] =
   "slashing",
   "bludgeoning",
   "piercing",
-  "\n"
+  "\n",
+  NULL
 };
 
 
