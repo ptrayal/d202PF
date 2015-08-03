@@ -389,7 +389,7 @@ extern struct config_data config_info;
 #define CLASS_EXTRA_AA                 54
 #define CLASS_EXTRA_BB                 55
 
-#define NUM_CLASSES                 56  /* This must be the number of classes!! */
+#define NUM_CLASSES                 58  /* This must be the number of classes!! */
 #define TOP_PC_CLASS                (CLASS_DRAGON_RIDER + 1)
 #define CLASS_PROGRESSION	       54
 

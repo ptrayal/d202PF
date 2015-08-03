@@ -2053,7 +2053,7 @@ struct pettable_data pet_table[] =
 	{CLASS_DRUID,	"Panther",	5,	6,	2,	3,	2,	2,      COMPANION_TYPE_PANTHER},
 	{CLASS_DRUID,	"Giant Hound",	5,	7,	3,	1,	2,	4,      COMPANION_TYPE_DOG},
 	
-	{0, "null", 0, 0, 0, 0, 0, 0} // Last Entry
+	{0, NULL, 0, 0, 0, 0, 0, 0} // Last Entry
 };
 
 void petset_parse(struct descriptor_data *d, char *arg)

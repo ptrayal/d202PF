@@ -61,7 +61,8 @@ const char *patch_list[] =
   "Room currents                        version 1.0  (2004/9/27)",
   "Timed Deathtraps                     version 1.0  (2004/9/27)",
   "Starting Stats Edit                  version 1.0  (1999/2/24)",
-  "\n"
+  "\n",
+  NULL
 };
 
 /* strings corresponding to ordinals/bitvectors in structs.h ***********/
@@ -81,7 +82,8 @@ const char *alignments[] = {
   "Lawful Evil",
   "Neutral Evil",
   "Chaotic Evil",
-  "\n"
+  "\n",
+  NULL
 };
 
 /* Armor Types */
@@ -91,7 +93,8 @@ const char *armor_type[] = {
   "Medium",
   "Heavy",
   "Shield",
-  "\n"
+  "\n",
+  NULL
 };
 
 
@@ -101,7 +104,8 @@ const char *crit_type[] =
   "x2",
   "x3",
   "x4",
-  "\n"
+  "\n",
+  NULL
 };
 
 /* cardinal directions */
@@ -119,7 +123,8 @@ const char *dirs[] =
   "southwest",
   "inside",
   "outside",
-  "\n"
+  "\n",
+  NULL
 };
 const char *abbr_dirs[] =
 {
@@ -135,7 +140,8 @@ const char *abbr_dirs[] =
   "sw",
   "in",
   "out",
-  "\n"
+  "\n",
+  NULL
 };
 
 /* ROOM_x */
@@ -185,7 +191,8 @@ const char *room_bits[] = {
   "HUNTING",
   "HUNTING_ABUNDANT",
   "HUNTING_RICH",
-  "\n"
+  "\n",
+  NULL
 };
 
 
@@ -196,7 +203,8 @@ const char *exit_bits[] = {
   "LOCKED",
   "PICKPROOF",
   "SECRET",
-  "\n"
+  "\n",
+  NULL
 };
 
 
@@ -214,7 +222,8 @@ const char *sector_types[] = {
   "In Flight",
   "Road",
   "Cave",
-  "\n"
+  "\n",
+  NULL
 };
 
 
@@ -227,7 +236,8 @@ const char *genders[] =
   "neutral",
   "male",
   "female",
-  "\n"
+  "\n",
+  NULL
 };
 
 
@@ -245,7 +255,8 @@ const char *position_types[] = {
   "Digging",
   "Fishing",
   "Riding",
-  "\n"
+  "\n",
+  NULL
 };
 
 

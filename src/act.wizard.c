@@ -1688,7 +1688,7 @@ ACMD(do_copyover)
 #else
   FILE *fp;
   struct descriptor_data *d, *d_next;
-  char buf [100]={'\0'}, buf2[100]={'\0'};
+  char buf [400]={'\0'}, buf2[100]={'\0'};
 	
   fp = fopen (COPYOVER_FILE, "w");
 	
@@ -2658,11 +2658,11 @@ zone_table[zone].zone_status == 2 ? "open" : (zone_table[zone].zone_status == 1 
 
 ACMD(do_show)
 {
-  int i, j, k, l, con, level_table;                /* i, j, k to specifics? */
+  int i = 0, j = 0, k = 0, l = 0, con = 0, level_table = 0;                /* i, j, k to specifics? */
   size_t len, nlen;
   zone_rnum zrn = 0;
   zone_vnum zvn;
-  int low, high;
+  int low = 0, high = 0;
   byte self = FALSE;
   struct char_data *vict = NULL;
   struct obj_data *obj;
@@ -2672,7 +2672,8 @@ ACMD(do_show)
 	arg[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
   extern int top_of_trigt;
 
-  struct show_struct {
+  struct show_struct 
+  {
     const char *cmd;
     const char level;
   } fields[] = {

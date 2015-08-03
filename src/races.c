@@ -57,7 +57,8 @@ void initialize_races(void) {
 
   int i = 0;
 
-  for (i = 0; i < NUM_RACES; i++) {
+  for (i = 0; i < NUM_RACES; i++) 
+  {
 
     race_list[i].name = NULL;
     race_names[i] = NULL;
@@ -103,7 +104,8 @@ void add_race(int race, char *name, char *abbrev, char *capName, int family, int
     race_list[race].level_adjustment = level_adjustment;
 }
 
-void favored_class_female(int race, int favored_class) {
+void favored_class_female(int race, int favored_class) 
+{
     race_list[race].favored_class[2] = favored_class;
 }
 
@@ -418,9 +420,12 @@ void assign_races(void)
 void racial_ability_modifiers(struct char_data *ch)
 {
   int chrace = 0;
-  if (GET_RACE(ch) >= NUM_RACES || GET_RACE(ch) < 0) {
+  if (GET_RACE(ch) >= NUM_RACES || GET_RACE(ch) < 0) 
+  {
     log("SYSERR: Unknown race %d in racial_ability_modifiers", GET_RACE(ch));
-  } else {
+  } 
+  else 
+  {
     chrace = GET_RACE(ch);
   }
 
@@ -434,7 +439,7 @@ void racial_ability_modifiers(struct char_data *ch)
 
 void set_height_and_weight_by_race(struct char_data *ch)
 {
-  int race, sex, mod;
+  int race = 0, sex= 0, mod= 0;
 
   race = GET_RACE(ch);
   sex = GET_SEX(ch);
@@ -475,7 +480,7 @@ int invalid_race(struct char_data *ch, struct obj_data *obj)
 
 int get_size(struct char_data *ch)
 {
-  int racenum;
+  int racenum= 0;
 
   if (ch == NULL)
     return SIZE_MEDIUM;
@@ -487,7 +492,8 @@ int get_size(struct char_data *ch)
 }
 
 
-const int size_bonus_table[NUM_SIZES] = {
+const int size_bonus_table[NUM_SIZES] = 
+{
 /* XTINY */	8,
 /* TINY */	4,
 /* XSMALL */	2,

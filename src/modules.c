@@ -41,7 +41,8 @@ const char *CampaignWorld[] =
   "Unknown - Alert Admin",
   "Faerun",
   "Krynn",
-  "Golarion"
+  "Golarion",
+  NULL
 };
 
 // What is the name of the campaign.
@@ -50,7 +51,8 @@ const char *CampaignName[] =
   "Unknown - Alert Admin",
   "Forgotten Realms",
   "Dragonlance: Age of Legends",
-  "Pathfinder - Golarion"
+  "Pathfinder - Golarion",
+  NULL
 };
 
 // What is the maximum number of languages based on the campaign.

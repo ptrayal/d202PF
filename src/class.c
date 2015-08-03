@@ -129,7 +129,8 @@ const char *class_abbrevs_core[] = {
   "Exp",
   "Exp",
   "Exp",
-  "\n"
+  "\n",
+  NULL
 };
 const char *class_abbrevs_dl_aol[] = {
   "Mag",
@@ -188,7 +189,8 @@ const char *class_abbrevs_dl_aol[] = {
   "Exp",
   "Exp",
   "Exp",
-  "\n"
+  "\n",
+  NULL
 };
 /* Copied from the SRD under OGL, see ../doc/srd.txt for information */
 const char *pc_class_types_core[] = 
@@ -250,7 +252,8 @@ const char *pc_class_types_core[] =
   "Expansion",
   "Expansion",
   "Expansion",
-  "\n"
+  "\n",
+  NULL
 };
 const char *pc_class_types_dl_aol[] = {
   "Mage",
@@ -309,7 +312,8 @@ const char *pc_class_types_dl_aol[] = {
   "Expansion",
   "Expansion",
   "Expansion",
-  "\n"
+  "\n",
+  NULL
 };
 /* Copied from the SRD under OGL, see ../doc/srd.txt for information */
 const char *class_names_core[] = {
@@ -369,7 +373,8 @@ const char *class_names_core[] = {
   "expansion",
   "expansion",
   "expansion",
-  "\n"
+  "\n",
+  NULL
 };
 const char *class_names_dl_aol[] = {
   "mage",
@@ -428,7 +433,8 @@ const char *class_names_dl_aol[] = {
   "expansion",
   "expansion",
   "expansion",
-  "\n"
+  "\n",
+  NULL
 };
 
 #define Y   true
@@ -623,7 +629,8 @@ int prestige_classes_core[NUM_CLASSES] =
 /* EXPANSION*/ N,
 /* EXPANSION*/ N,
 /* EXPANSION*/ N,
-/* EXPANSION*/ N
+/* EXPANSION*/ N,
+  0
 };
 
 /* Adapted from the SRD under OGL, see ../doc/srd.txt for information */
@@ -683,7 +690,8 @@ int prestige_classes_dl_aol[NUM_CLASSES] = {
 /* EXPANSION*/ N,
 /* EXPANSION*/ N,
 /* EXPANSION*/ N,
-/* EXPANSION*/ N
+/* EXPANSION*/ N,
+  0
 };
 
 /* Adapted from the SRD under OGL, see ../doc/srd.txt for information */
@@ -745,7 +753,8 @@ int class_max_ranks_core[NUM_CLASSES] = {
 /* EXPANSION*/ -1,
 /* EXPANSION*/ -1,
 /* EXPANSION*/ -1,
-/* EXPANSION*/ -1
+/* EXPANSION*/ -1,
+  0
 };
 
 int class_max_ranks_dl_aol[NUM_CLASSES] = {
@@ -804,7 +813,8 @@ int class_max_ranks_dl_aol[NUM_CLASSES] = {
 /* EXPANSION*/ -1,
 /* EXPANSION*/ -1,
 /* EXPANSION*/ -1,
-/* EXPANSION*/ -1
+/* EXPANSION*/ -1,
+  0
 };
 
 
@@ -864,7 +874,8 @@ int class_in_game_core[NUM_CLASSES] = {
 /* EXPANSION*/ FALSE,
 /* EXPANSION*/ FALSE,
 /* EXPANSION*/ FALSE,
-/* EXPANSION*/ FALSE
+/* EXPANSION*/ FALSE,
+  0
 };
 
 int class_in_game_dl_aol[NUM_CLASSES] = {
@@ -923,7 +934,8 @@ int class_in_game_dl_aol[NUM_CLASSES] = {
 /* EXPANSION*/ FALSE,
 /* EXPANSION*/ FALSE,
 /* EXPANSION*/ FALSE,
-/* EXPANSION*/ FALSE
+/* EXPANSION*/ FALSE,
+  0
 };
 
 /*
