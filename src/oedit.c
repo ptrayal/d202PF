@@ -2194,8 +2194,10 @@ void petset_parse(struct descriptor_data *d, char *arg)
                                         send_to_char(ch, "%s", fHeader);
 					for(i = 0; i < 100; i++)
 					{
-						if( strcmp(pet_table[i].name, "null") == 0)	break;
-						if( pet_table[i].class_required != CLASS_DRUID) continue;
+						if((pet_table[i].name = NULL))
+              break;
+						if( pet_table[i].class_required != CLASS_DRUID)
+              continue;
                                                 if( i > 0)
                                                     send_to_char(ch, "%s", fBar);
 						send_to_char(ch, "|@c%-25s @W%-5i @R%-4i @G%-3i %-3i %-3i %-3i@n|\r\n", pet_table[i].name, pet_table[i].required_level, pet_table[i].type, pet_table[i].str_mod, pet_table[i].dex_mod, pet_table[i].con_mod, pet_table[i].hd_mod);

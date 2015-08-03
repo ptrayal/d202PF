@@ -1688,7 +1688,7 @@ ACMD(do_copyover)
 #else
   FILE *fp;
   struct descriptor_data *d, *d_next;
-  char buf [400]={'\0'}, buf2[100]={'\0'};
+  char buf [500]={'\0'}, buf2[100]={'\0'};
 	
   fp = fopen (COPYOVER_FILE, "w");
 	
