@@ -777,8 +777,8 @@ void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
 
 ACMD(do_quest)
 {
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
-  int  tp;
+  char arg1[MAX_INPUT_LENGTH], arg2[MAX_STRING_LENGTH];
+  int  tp = 0;
 
   two_arguments(argument, arg1, arg2);
   if (!*arg1)

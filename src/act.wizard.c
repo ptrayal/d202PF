@@ -4306,7 +4306,6 @@ ACMD(do_test)
 
     GRID_DATA *grid;
     GRID_ROW *row;
-    GRID_CELL *cell;
 
     grid = create_grid(75);
     row = create_row(grid);

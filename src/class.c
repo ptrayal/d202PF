@@ -1071,7 +1071,7 @@ case CLASS_SACRED_FIST:
       c1 = TRUE;
     }
 
-    if (!GET_SKILL(ch, SKILL_ACROBATICS) < 5) {
+    if (GET_SKILL(ch, SKILL_ACROBATICS) < 5) {
     	if (show_text) send_to_char(ch, "You must have at least 5 ranks in the acrobatics skill to become a sacred fist.\r\n");
     } else {
       c2 = TRUE;

@@ -635,7 +635,6 @@ socket_t init_socket(ush_int port)
 {
   socket_t s;
   struct sockaddr_in sa;
-  int opt;
 
 #ifdef CIRCLE_WINDOWS
   {
@@ -684,7 +683,7 @@ socket_t init_socket(ush_int port)
 #endif				/* CIRCLE_WINDOWS */
 
 #if defined(SO_REUSEADDR) && !defined(CIRCLE_MACINTOSH)
-  opt = 1;
+  int opt = 1;
   if (setsockopt(s, SOL_SOCKET, SO_REUSEADDR, (char *) &opt, sizeof(opt)) < 0){
     log("SYSERR: setsockopt REUSEADDR: %s", strerror(errno));
     exit(1);

@@ -2058,14 +2058,15 @@ struct pettable_data pet_table[] =
 
 void petset_parse(struct descriptor_data *d, char *arg)
 {
-	char arg1[MSL], arg2[MSL], *buf, *pName;
-        char fHeader[MSL], fBar[MSL];
+	char arg1[MSL]={'\0'}, arg2[MSL]={'\0'}, *buf, *pName;
+  char fHeader[MSL]={'\0'}, fBar[MSL]={'\0'};
 	struct char_data *ch;
 	int arg1res = -1;
 	int tSet, cType, i;
-        bool tSearch = false , sName = false, sType = false;
-        sprintf(fHeader, "@w+----------------------------------------------------+@n\r\n");
-        sprintf(fBar, "@D|----------------------------------------------------|@n\r\n");
+  bool tSearch = false , sName = false, sType = false;
+
+  sprintf(fHeader, "@w+----------------------------------------------------+@n\r\n");
+  sprintf(fBar, "@D|----------------------------------------------------|@n\r\n");
 
 	if( d->character ) ch = d->character;
 	else return;
@@ -2182,16 +2183,16 @@ void petset_parse(struct descriptor_data *d, char *arg)
 
 			if( cType == -1)
 			{
-				send_to_char(ch, "You do not have the Animal Companion or Summon Familiar feat, which you need to control a pett.\r\n");
+				send_to_char(ch, "You do not have the Animal Companion or Summon Familiar feat, which you need to control a pet.\r\n");
 				break;
 			}
 			if( arg2[0] == '\0' )
 			{
 				if( GET_CLASS_RANKS(ch, CLASS_RANGER) > 0 || GET_CLASS_RANKS(ch, CLASS_DRUID) > 0)
 				{
-                                        send_to_char(ch, "%s", fHeader);
+          send_to_char(ch, "%s", fHeader);
 					send_to_char(ch, "|@W%-25s %-5s %-4s %-3s %-3s %-3s %-3s@n|\r\n", "Name", "Level", "Type", "Str", "Dex", "Con", "Hit");
-                                        send_to_char(ch, "%s", fHeader);
+          send_to_char(ch, "%s", fHeader);
 					for(i = 0; i < 100; i++)
 					{
 						if((pet_table[i].name = NULL))

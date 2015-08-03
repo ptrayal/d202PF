@@ -1415,7 +1415,7 @@ void sort_feats(void)
 void list_feats_known(struct char_data *ch, char *arg) 
 {
   int i = 0, sortpos = 0, j = 0, mode = 0;
-  char buf [MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
 
   GRID_DATA *grid;
   GRID_ROW *row;
@@ -2032,10 +2032,6 @@ void list_feats_known(struct char_data *ch, char *arg)
     grid_to_char(grid, ch, TRUE);
 
   // END NEW GRID LAYOUT
-  
-  strcpy(buf2, buf);
-  
-    page_string(ch->desc, buf2, 1);
 }
 
 void list_feats_available(struct char_data *ch, char *arg) 
