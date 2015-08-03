@@ -29,7 +29,7 @@ int auction_get_filename(room_vnum vnum, char *filename, size_t maxlen)
 int auction_save(struct obj_data *obj, FILE *fp, int location)
 {
   struct obj_data *tmp;
-  int result;
+  int result = 0;
 
   if (obj) {
     auction_save(obj->next_auction, fp, location);
@@ -59,8 +59,8 @@ void auction_restore_weight(struct obj_data *obj)
 void auction_crashsave(room_vnum vnum)
 {
 
-  int rnum;
-  char buf[MAX_STRING_LENGTH];
+  int rnum = 0;
+  char buf[MAX_STRING_LENGTH]={'\0'};
   FILE *fp;
 
   if ((rnum = real_room(vnum)) == NOWHERE)
@@ -334,12 +334,13 @@ int auction_load(room_vnum rvnum)
     return 1;
 }
 
-SPECIAL(auction_house) {
+SPECIAL(auction_house) 
+{
 
   if (!CMD_IS("buy") && !CMD_IS("sell") && !CMD_IS("list") && !CMD_IS("try"))
     return 0;
 
-  char arg1[200], arg2[200], arg3[200], arg4[200], arg5[200];
+  char arg1[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'}, arg4[200]={'\0'}, arg5[200]={'\0'};
   struct obj_data *obj;
 
 

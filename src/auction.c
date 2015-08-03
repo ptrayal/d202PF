@@ -49,9 +49,9 @@ SPECIAL(auction_house_old)
 
 void load_auction_house(void) {
   FILE *fl;
-  char filename[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
-  char line[256];
+  char filename[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
+  char line[256]={'\0'};
   int t[21],danger,zwei=0;
   struct obj_data *temp;
   int j, nr,k,num_objs=0;
@@ -255,9 +255,9 @@ void load_auction_house(void) {
     }
 }
 
-void save_auction_house(void) {
-
-  char filename[50];
+void save_auction_house(void) 
+{
+  char filename[50]={'\0'};
   FILE *fl;
   struct auction_house_data *ptr = NULL;
 

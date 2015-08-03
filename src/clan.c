@@ -52,7 +52,7 @@ char *get_blank_clan_whostring(int clan);
 
 void free_clan(struct clan_type *c)
 {
-  int    i;
+  int i = 0;
   
   if (c != NULL) {
     free(c->name);
@@ -178,8 +178,8 @@ void load_clans(void)
   FILE   *fl = NULL;
   int    clannum = 0, line_num = 0, i = 0, tmp, tmp1, tmp2, p_kill = FALSE;
   long clangold = 0;
-  int clan_entr, clan_recall;
-  char   name[80], buf[MAX_INPUT_LENGTH];
+  int clan_entr = 0, clan_recall = 0;
+  char   name[80]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'};
   char   *ptr;
   struct clan_type *cptr = NULL;
   bool   newc = FALSE;
@@ -540,10 +540,10 @@ int app_check( struct clan_type *cptr, struct char_data *applicant )
 /* List members of the clan online */
 void show_clan_who(struct char_data *ch, struct clan_type *clan)
 {
-  char query[400];
+  char query[400]={'\0'};
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
-  char buf[50000];
+  char buf[50000]={'\0'};
   long int count = 0;
   long int len = 0;
 
@@ -678,7 +678,7 @@ ACMD(do_clan)
   struct char_data *victim = NULL;
   int i, clan;
   long amount = 0;
-  char arg[MAX_INPUT_LENGTH], arg1[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'}, arg1[MAX_INPUT_LENGTH]={'\0'};
   bool app = FALSE;
   
   if (IS_NPC(ch))
@@ -1156,7 +1156,7 @@ SPECIAL(clan_guard)
   struct char_data *guard = (struct char_data *) me;
   struct clan_type *cptr;
   char *buf2 = "This is a restricted area.  Keep out!";
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   for (cptr = clan_info; cptr->number != GET_CLAN(guard); cptr = cptr->next);
 

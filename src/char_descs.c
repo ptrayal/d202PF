@@ -28,7 +28,8 @@ char *build_descriptions[];
 char *complexion_descriptions[];
 
 
-const char *eye_descriptions[] = {
+const char *eye_descriptions[] = 
+{
   "undefined",
   "blue",
   "green",
@@ -73,10 +74,12 @@ const char *eye_descriptions[] = {
   "fearful",
   "fearless",
   "searching",
-  "\n"
+  "\n",
+  NULL
 };
 
-char *nose_descriptions[] = {
+char *nose_descriptions[] = 
+{
   "undefined",
   "big",
   "large",
@@ -102,11 +105,12 @@ char *nose_descriptions[] = {
   "fair",
   "pretty",
   "handsome",
-  "\n"
+  "\n",
+  NULL
 };
 
-char *ear_descriptions[] = {
-
+char *ear_descriptions[] = 
+{
   "undefined",
   "large",
   "big",
@@ -123,12 +127,13 @@ char *ear_descriptions[] = {
   "astute",
   "alert",
   "scarred",
-  "\n"
+  "\n",
+  NULL
 };
 
 
-char *face_descriptions[] = {
-
+char *face_descriptions[] = 
+{
   "undefined",
   "handsome",
   "pretty",
@@ -160,11 +165,12 @@ char *face_descriptions[] = {
   "angellic",
   "celestial",
   "infernal",
-  "\n"
+  "\n",
+  NULL
 };
 
-char *scar_descriptions[] = {
-
+char *scar_descriptions[] = 
+{
   "undefined",
   "a scar on the right cheek",
   "a scar on the left cheek",
@@ -188,11 +194,12 @@ char *scar_descriptions[] = {
   "a scar on the left foot",
   "a scar on the right foot",
   "scars all over the legs",
-  "\n"
+  "\n",
+  NULL
 };
 
-char *hair_descriptions[] = {
-
+char *hair_descriptions[] = 
+{
   "undefined",
   "short red hair",
   "long red hair",
@@ -263,12 +270,12 @@ char *hair_descriptions[] = {
   "a pair of long horns",
   "a pair of curved horns",
   
-
-  "\n"
+  "\n",
+  NULL
 };
 
-char *build_descriptions[] = {
-
+char *build_descriptions[] = 
+{
   "undefined",
   "tall",
   "short",
@@ -296,11 +303,12 @@ char *build_descriptions[] = {
   "normal",
   "lithe",
   "curvy",
-  "\n"
+  "\n",
+  NULL
 };
 
-char *complexion_descriptions[] = {
-
+char *complexion_descriptions[] = 
+{
   "undefined",
   "white",
   "pale",
@@ -315,13 +323,14 @@ char *complexion_descriptions[] = {
   "olive",
   "fair",
   "jet black",
-  "\n"
+  "\n",
+  NULL
 };
 
-char *current_short_desc(struct char_data *ch) {
-
+char *current_short_desc(struct char_data *ch) 
+{
   int i = 0;
-  char desc[100];
+  char desc[100]={'\0'};
   char *tempDesc;
 
   int race = GET_RACE(ch);
@@ -331,7 +340,8 @@ char *current_short_desc(struct char_data *ch) {
   int pcd2 = GET_PC_DESCRIPTOR_2(ch);
   int pca2 = GET_PC_ADJECTIVE_2(ch);
 
-  if (AFF_FLAGGED(ch, AFF_DISGUISED) && !DISGUISE_SEEN(ch)) {
+  if (AFF_FLAGGED(ch, AFF_DISGUISED) && !DISGUISE_SEEN(ch)) 
+  {
       race = GET_DISGUISE_RACE(ch);
       sex  = GET_DISGUISE_SEX(ch);
       pcd1 = GET_DISGUISE_DESC_1(ch);
@@ -342,8 +352,8 @@ char *current_short_desc(struct char_data *ch) {
 
   sprintf(desc, "a %s %s", genders[(int) sex], pc_race_types[(int) race]);
 
-  switch (pcd1) {
-
+  switch (pcd1) 
+  {
   case FEATURE_TYPE_EYES:
     sprintf(desc, "%s with %s eyes", desc, eye_descriptions[pca1]);
     break;
@@ -368,11 +378,10 @@ char *current_short_desc(struct char_data *ch) {
   case FEATURE_TYPE_COMPLEXION:
     sprintf(desc, "%s with %s %s complexion", desc, AN(complexion_descriptions[pca1]), complexion_descriptions[GET_PC_ADJECTIVE_1(ch)]);
     break;
-  
   }
   
-  switch (pcd2) {
-
+  switch (pcd2) 
+  {
   case FEATURE_TYPE_EYES:
     sprintf(desc, "%s and %s eyes", desc, eye_descriptions[pca2]);
     break;
@@ -417,7 +426,8 @@ char *current_short_desc(struct char_data *ch) {
 
 }
 
-void short_desc_descriptors_menu(struct char_data *ch) {
+void short_desc_descriptors_menu(struct char_data *ch) 
+{
 
   SEND_TO_Q("Please choose a descriptor from the list.  This will determine what kind of feature\r\n"
                "you wish to add to your short description.  Once chosen you will choose a specific\r\n"
@@ -434,17 +444,19 @@ void short_desc_descriptors_menu(struct char_data *ch) {
 
 }
 
-void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
-
-  char buf[100];
+void short_desc_adjectives_menu(struct char_data *ch, int which_desc) 
+{
+  char buf[100]={'\0'};
   int i = 0;
 
   SEND_TO_Q("Please choose an adjective to describe the descriptor you just chose.\r\n\r\n", ch->desc);
 
 
-  switch (which_desc) {
-  case FEATURE_TYPE_EYES:
-    while (i < NUM_EYE_DESCRIPTORS) {
+  switch (which_desc) 
+  {
+    case FEATURE_TYPE_EYES:
+    while (i < NUM_EYE_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s ", i, eye_descriptions[i]);
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -452,8 +464,9 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
       i++;
     }
     break;
-  case FEATURE_TYPE_NOSE:
-    while (i < NUM_NOSE_DESCRIPTORS) {
+    case FEATURE_TYPE_NOSE:
+    while (i < NUM_NOSE_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s ", i, nose_descriptions[i]);
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -461,8 +474,9 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
       i++;
     }
     break;
-  case FEATURE_TYPE_EARS:
-    while (i < NUM_EAR_DESCRIPTORS) {
+    case FEATURE_TYPE_EARS:
+    while (i < NUM_EAR_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s n", i, ear_descriptions[i]);
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -470,8 +484,9 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
       i++;
     }
     break;
-  case FEATURE_TYPE_FACE:      
-    while (i < NUM_FACE_DESCRIPTORS) {
+    case FEATURE_TYPE_FACE:      
+    while (i < NUM_FACE_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s ", i, face_descriptions[i]);
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -479,8 +494,9 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
       i++;
     }
     break;
-  case FEATURE_TYPE_SCAR:      
-    while (i < NUM_SCAR_DESCRIPTORS) {
+    case FEATURE_TYPE_SCAR:      
+    while (i < NUM_SCAR_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s ", i, scar_descriptions[i]);
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -488,8 +504,9 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
       i++;
     }
     break;
-  case FEATURE_TYPE_HAIR:      
-    while (i < NUM_HAIR_DESCRIPTORS) {
+    case FEATURE_TYPE_HAIR:      
+    while (i < NUM_HAIR_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s ", i, hair_descriptions[i]);
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -497,8 +514,9 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
       i++;
     }
     break;
-  case FEATURE_TYPE_BUILD:     
-    while (i < NUM_BUILD_DESCRIPTORS) {
+    case FEATURE_TYPE_BUILD:     
+    while (i < NUM_BUILD_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s ", i, build_descriptions[i]); 
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -506,8 +524,9 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
       i++;
     }
     break;
-  case FEATURE_TYPE_COMPLEXION:
-    while (i < NUM_COMPLEXION_DESCRIPTORS) {
+    case FEATURE_TYPE_COMPLEXION:
+    while (i < NUM_COMPLEXION_DESCRIPTORS) 
+    {
       sprintf(buf, "%d) %-30s ", i, complexion_descriptions[i]);
       if (i % 2 == 1)
         sprintf(buf, "%s\r\n", buf);
@@ -525,40 +544,42 @@ void short_desc_adjectives_menu(struct char_data *ch, int which_desc) {
 }
 
 
-int count_adjective_types(int which_desc) {
+int count_adjective_types(int which_desc) 
+{
 
   int i = 0;
 
-  switch (which_desc) {
-  case FEATURE_TYPE_EYES:
+  switch (which_desc) 
+  {
+    case FEATURE_TYPE_EYES:
     while (i < NUM_EYE_DESCRIPTORS)
       i++;
     break;
-  case FEATURE_TYPE_NOSE:
+    case FEATURE_TYPE_NOSE:
     while (i < NUM_NOSE_DESCRIPTORS)
       i++;
     break;
-  case FEATURE_TYPE_EARS:
+    case FEATURE_TYPE_EARS:
     while (i < NUM_EAR_DESCRIPTORS)
       i++;
     break;
-  case FEATURE_TYPE_FACE:      
+    case FEATURE_TYPE_FACE:      
     while (i < NUM_FACE_DESCRIPTORS)
       i++;
     break;
-  case FEATURE_TYPE_SCAR:      
+    case FEATURE_TYPE_SCAR:      
     while (i < NUM_SCAR_DESCRIPTORS)
       i++;
     break;
-  case FEATURE_TYPE_HAIR:      
+    case FEATURE_TYPE_HAIR:      
     while (i < NUM_HAIR_DESCRIPTORS)
       i++;
     break;
-  case FEATURE_TYPE_BUILD:     
+    case FEATURE_TYPE_BUILD:     
     while (i < NUM_BUILD_DESCRIPTORS)
       i++;
     break;
-  case FEATURE_TYPE_COMPLEXION:
+    case FEATURE_TYPE_COMPLEXION:
     while (i < NUM_COMPLEXION_DESCRIPTORS)
       i++;
     break;

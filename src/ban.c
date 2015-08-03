@@ -33,21 +33,23 @@ void Read_Invalid_List(void);
 void Free_Invalid_List(void);
 
 
-const char *ban_types[] = {
+const char *ban_types[] = 
+{
   "no",
   "new",
   "select",
   "all",
-  "ERROR"
+  "ERROR",
+  NULL
 };
 
 
 void load_banned(void)
 {
   FILE *fl;
-  int i, date;
-  char site_name[BANNED_SITE_LENGTH + 1], ban_type[100];
-  char name[MAX_NAME_LENGTH + 1];
+  int i = 0, date = 0;
+  char site_name[BANNED_SITE_LENGTH + 1]={'\0'}, ban_type[100]={'\0'};
+  char name[MAX_NAME_LENGTH + 1]={'\0'};
   struct ban_list_element *next_node;
 
   ban_list = 0;
@@ -81,7 +83,7 @@ void load_banned(void)
 
 int isbanned(char *hostname)
 {
-  int i;
+  int i = 0;
   struct ban_list_element *banned_node;
   char *nextchar;
 
@@ -128,9 +130,9 @@ void write_ban_list(void)
 #define BAN_LIST_FORMAT "%-25.25s  %-8.8s  %-10.10s  %-16.16s\r\n"
 ACMD(do_ban)
 {
-  char flag[MAX_INPUT_LENGTH], site[MAX_INPUT_LENGTH], *nextchar;
-  char timestr[16];
-  int i;
+  char flag[MAX_INPUT_LENGTH]={'\0'}, site[MAX_INPUT_LENGTH]={'\0'}, *nextchar;
+  char timestr[16]={'\0'};
+  int i = 0;
   struct ban_list_element *ban_node;
 
   if (!*argument) {
@@ -203,7 +205,7 @@ ACMD(do_ban)
 
 ACMD(do_unban)
 {
-  char site[MAX_INPUT_LENGTH];
+  char site[MAX_INPUT_LENGTH]={'\0'};
   struct ban_list_element *ban_node, *temp;
   int found = 0;
 
@@ -246,9 +248,9 @@ int num_invalid = 0;
 
 int Valid_Name(char *newname)
 {
-  int i, wovels = 0;
+  int i = 0, wovels = 0;
   struct descriptor_data *dt;
-  char tempname[MAX_INPUT_LENGTH];
+  char tempname[MAX_INPUT_LENGTH]={'\0'};
 
   /*
    * Make sure someone isn't trying to create this same name.  We want to
@@ -310,9 +312,10 @@ void Free_Invalid_List(void)
 void Read_Invalid_List(void)
 {
   FILE *fp;
-  char temp[256];
+  char temp[256]={'\0'};
 
-  if (!(fp = fopen(XNAME_FILE, "r"))) {
+  if (!(fp = fopen(XNAME_FILE, "r"))) 
+  {
     log("SYSERR: Unable to open '" XNAME_FILE "' for reading: %s", strerror(errno));
     return;
   }
@@ -321,7 +324,8 @@ void Read_Invalid_List(void)
   while (get_line(fp, temp) && num_invalid < MAX_INVALID_NAMES)
     invalid_list[num_invalid++] = strdup(temp);
 
-  if (num_invalid >= MAX_INVALID_NAMES) {
+  if (num_invalid >= MAX_INVALID_NAMES) 
+  {
     log("SYSERR: Too many invalid names; change MAX_INVALID_NAMES in ban.c");
     exit(1);
   }

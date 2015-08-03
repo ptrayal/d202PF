@@ -45,9 +45,9 @@ int aedit_find_command(const char *txt);
 
 ACMD(do_oasis_aedit)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct descriptor_data *d;
-  int i;
+  int i = 0;
   
   if (CONFIG_NEW_SOCIALS == 0) {
     send_to_char(ch, "Socials cannot be edited at the moment.\r\n");
@@ -117,7 +117,8 @@ ACMD(do_oasis_aedit)
 }
 
 
-void aedit_setup_new(struct descriptor_data *d) {
+void aedit_setup_new(struct descriptor_data *d) 
+{
    CREATE(OLC_ACTION(d), struct social_messg, 1);
    OLC_ACTION(d)->command             = strdup(OLC_STORAGE(d));
    OLC_ACTION(d)->sort_as             = strdup(OLC_STORAGE(d));
@@ -144,7 +145,8 @@ void aedit_setup_new(struct descriptor_data *d) {
 
 /*------------------------------------------------------------------------*/
 
-void aedit_setup_existing(struct descriptor_data *d, int real_num) {
+void aedit_setup_existing(struct descriptor_data *d, int real_num) 
+{
    CREATE(OLC_ACTION(d), struct social_messg, 1);
    OLC_ACTION(d)->command             = strdup(soc_mess_list[real_num].command);
    OLC_ACTION(d)->sort_as             = strdup(soc_mess_list[real_num].sort_as);
@@ -184,9 +186,10 @@ void aedit_setup_existing(struct descriptor_data *d, int real_num) {
 
 
       
-void aedit_save_internally(struct descriptor_data *d) {
+void aedit_save_internally(struct descriptor_data *d) 
+{
    struct social_messg *new_soc_mess_list = NULL;
-   int i;
+   int i = 0;
    
    /* add a new social into the list */
    if (OLC_ZNUM(d) > top_of_socialt)  {
@@ -216,17 +219,20 @@ void aedit_save_internally(struct descriptor_data *d) {
 
 /*------------------------------------------------------------------------*/
 
-void aedit_save_to_disk(struct descriptor_data *d) {
+void aedit_save_to_disk(struct descriptor_data *d) 
+{
    FILE *fp;
-   int i;
-   if (!(fp = fopen(SOCMESS_FILE_NEW, "w+")))  {
-     char error[MAX_STRING_LENGTH];
+   int i = 0;
+   if (!(fp = fopen(SOCMESS_FILE_NEW, "w+")))  
+   {
+     char error[MAX_STRING_LENGTH]={'\0'};
      snprintf(error, sizeof(error), "Can't open socials file '%s'", SOCMESS_FILE);
      log("%s: %s", error, strerror(errno));
      exit(1);
    }
 
-   for (i = 0; i <= top_of_socialt; i++)  {
+   for (i = 0; i <= top_of_socialt; i++)  
+   {
       fprintf(fp, "~%s %s %d %d %d %d\n",
               soc_mess_list[i].command,
               soc_mess_list[i].sort_as,
@@ -263,7 +269,8 @@ void aedit_save_to_disk(struct descriptor_data *d) {
 /* Menu functions */
 
 /* the main menu */
-void aedit_disp_menu(struct descriptor_data * d) {
+void aedit_disp_menu(struct descriptor_data * d) 
+{
    struct social_messg *action = OLC_ACTION(d);
 
    write_to_output(d, 
@@ -314,8 +321,9 @@ void aedit_disp_menu(struct descriptor_data * d) {
  * The main loop
  */
 
-void aedit_parse(struct descriptor_data * d, char *arg) {
-   int i;
+void aedit_parse(struct descriptor_data * d, char *arg) 
+{
+   int i = 0;
 
    switch (OLC_MODE(d)) {
     case AEDIT_CONFIRM_SAVESTRING:
@@ -740,8 +748,8 @@ void aedit_parse(struct descriptor_data * d, char *arg) {
 
 ACMD(do_astat)
 {
-  int i, real = FALSE;
-  char arg[MAX_INPUT_LENGTH];
+  int i = 0, real = FALSE;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   if (IS_NPC(ch))
     return;
