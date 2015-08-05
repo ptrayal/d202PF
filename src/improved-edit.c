@@ -278,7 +278,7 @@ void parse_action(int command, char *string, struct descriptor_data *d)
     /*
      * This is kind of annoying...but some people like it.
      */
-    sprintf(buf + strlen(buf), "\r\n%d line%sshown.\r\n", total_len, (total_len != 1) ? "s " : " "); 
+    sprintf(buf + strlen(buf), "\r\n%X line%sshown.\r\n", total_len, (total_len != 1) ? "s " : " "); 
     page_string(d, buf, TRUE);
     break;
   case PARSE_LIST_NUM:

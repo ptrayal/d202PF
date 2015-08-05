@@ -1414,7 +1414,7 @@ void sort_feats(void)
 
 void list_feats_known(struct char_data *ch, char *arg) 
 {
-  int i = 0, sortpos = 0, j = 0, mode = 0;
+  int sortpos = 0, j = 0, mode = 0;
   char buf2[MAX_STRING_LENGTH]={'\0'};
 
   GRID_DATA *grid;
@@ -1462,7 +1462,7 @@ void list_feats_known(struct char_data *ch, char *arg)
     if (strlen(buf2) > MAX_STRING_LENGTH -32)
       break;
 
-    i = feat_sort_info[sortpos];
+    int i = feat_sort_info[sortpos];
     if (HAS_FEAT(ch, i)  && feat_list[i].in_game) 
     {
       if (i == FEAT_FAST_CRAFTER) 
@@ -2037,7 +2037,7 @@ void list_feats_known(struct char_data *ch, char *arg)
 void list_feats_available(struct char_data *ch, char *arg) 
 {
   char buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
-  int i = 0, sortpos = 0, mode = 0;
+  int sortpos = 0, mode = 0;
   int none_shown = TRUE;
 
   GRID_DATA *grid;
@@ -2088,7 +2088,7 @@ void list_feats_available(struct char_data *ch, char *arg)
 // LIST OF AVAILABLE FEATS
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
-    i = feat_sort_info[sortpos];
+    int i = feat_sort_info[sortpos];
     if (strlen(buf2) >= MAX_STRING_LENGTH - 32) 
     {
       strcat(buf2, "**OVERFLOW**\r\n"); 
@@ -2128,7 +2128,7 @@ void list_feats_available(struct char_data *ch, char *arg)
 void list_class_feats(struct char_data *ch)
 {
 
-  int featMarker = 1, featCounter = 0, i = 0, sortpos = 0;
+  int featMarker = 1, featCounter = 0, sortpos = 0;
   char buf3[100]={'\0'};
 
     send_to_char(ch, "\r\n");
@@ -2142,7 +2142,7 @@ void list_class_feats(struct char_data *ch)
 
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
-    i = feat_sort_info[sortpos];
+    int i = feat_sort_info[sortpos];
     if (feat_is_available(ch, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) 
     {
       featMarker = 1;
@@ -2184,7 +2184,7 @@ void list_feats_complete(struct char_data *ch, char *arg)
 
   char buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   int none_shown = TRUE;
-  int mode = 0, i = 0, sortpos = 0;
+  int mode = 0, sortpos = 0;
 
   if (*arg && is_abbrev(arg, "descriptions")) 
   {
@@ -2227,7 +2227,7 @@ void list_feats_complete(struct char_data *ch, char *arg)
 
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
-    i = feat_sort_info[sortpos];
+    int i = feat_sort_info[sortpos];
     if (strlen(buf2) >= MAX_STRING_LENGTH - 32) 
     {
       strcat(buf2, "**OVERFLOW**\r\n"); 
@@ -2267,16 +2267,17 @@ void list_feats_complete(struct char_data *ch, char *arg)
 
 int find_feat_num(char *name)
 {  
-  int index = 0, ok = 0;
-  char *temp, *temp2;
+  int index = 0;
   char first[256]={'\0'}, first2[256]={'\0'};
    
   for (index = 1; index <= NUM_FEATS_DEFINED; index++) 
   {
+    char *temp, *temp2;
+  
     if (is_abbrev(name, feat_list[index].name))
       return (index);
     
-    ok = TRUE;
+    int ok = TRUE;
     /* It won't be changed, but other uses of this function elsewhere may. */
     temp = any_one_arg((char *)feat_list[index].name, first);
     temp2 = any_one_arg(name, first2);
@@ -2690,8 +2691,8 @@ void load_armor(void)
 void display_levelup_feats(struct char_data *ch) 
 {
 
-  int sortpos=0, i=0, count=0;
-  int featMarker = 1, featCounter = 0, classfeat = FALSE;
+  int sortpos=0, count=0;
+  int featMarker = 1, featCounter = 0;
 
   if (ch->levelup->feat_points > 5)
     ch->levelup->feat_points = 0;
@@ -2708,8 +2709,8 @@ void display_levelup_feats(struct char_data *ch)
 
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
-    i = feat_sort_info[sortpos];
-    classfeat = FALSE;
+    int i = feat_sort_info[sortpos];
+    int classfeat = FALSE;
 
     while (featMarker != 0) 
     {

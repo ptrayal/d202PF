@@ -47,34 +47,38 @@ ACMD(do_oasis_aedit)
 {
   char arg[MAX_INPUT_LENGTH]={'\0'};
   struct descriptor_data *d;
-  int i = 0;
   
-  if (CONFIG_NEW_SOCIALS == 0) {
+  if (CONFIG_NEW_SOCIALS == 0) 
+  {
     send_to_char(ch, "Socials cannot be edited at the moment.\r\n");
     return;
   }
 
-  if (GET_OLC_ZONE(ch) != AEDIT_PERMISSION && GET_ADMLEVEL(ch) < ADMLVL_IMPL) {
+  if (GET_OLC_ZONE(ch) != AEDIT_PERMISSION && GET_ADMLEVEL(ch) < ADMLVL_IMPL) 
+  {
     send_to_char(ch, "You don't have access to editing socials.\r\n");
     return;
   }
 
   for (d = descriptor_list; d; d = d->next)
-    if (STATE(d) == CON_AEDIT) {
+    if (STATE(d) == CON_AEDIT) 
+    {
       send_to_char(ch, "Sorry, only one can edit socials at a time.\r\n");
       return;
     }
 
   one_argument(argument, arg);
     
-  if (!*arg) {
+  if (!*arg) 
+  {
     send_to_char(ch, "Please specify a social to edit.\r\n");
     return;
   }
 
   d = ch->desc;
 
-  if (!str_cmp("save", arg)) {
+  if (!str_cmp("save", arg)) 
+  {
     mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves socials.", GET_NAME(ch));
     send_to_char(ch, "Writing social file..\r\n");
     aedit_save_to_disk(d);
@@ -85,7 +89,8 @@ ACMD(do_oasis_aedit)
   /*
    * Give descriptor an OLC structure.
    */
-  if (d->olc) {
+  if (d->olc) 
+  {
     mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_oasis: Player already had olc structure.");
     free(d->olc);
   }
@@ -98,15 +103,20 @@ ACMD(do_oasis_aedit)
     if (is_abbrev(OLC_STORAGE(d), soc_mess_list[OLC_ZNUM(d)].command))
       break;
 
-  if (OLC_ZNUM(d) > top_of_socialt)  {
-    if ((i = aedit_find_command(OLC_STORAGE(d))) != -1)  {
+  if (OLC_ZNUM(d) > top_of_socialt)  
+  {
+    int i = 0;
+    if ((i = aedit_find_command(OLC_STORAGE(d))) != -1)  
+    {
       send_to_char(ch, "The '%s' command already exists (%s).\r\n", OLC_STORAGE(d), complete_cmd_info[i].command);
       cleanup_olc(d, CLEANUP_ALL);
       return;
     }
     send_to_char(ch, "Do you wish to add the '%s' action? ", OLC_STORAGE(d));
     OLC_MODE(d) = AEDIT_CONFIRM_ADD;
-  } else {
+  } 
+  else 
+  {
     send_to_char(ch, "Do you wish to edit the '%s' action? ", soc_mess_list[OLC_ZNUM(d)].command);
     OLC_MODE(d) = AEDIT_CONFIRM_EDIT;
   }
@@ -201,8 +211,8 @@ void aedit_save_internally(struct descriptor_data *d)
       soc_mess_list = new_soc_mess_list;
    }
    /* pass the editted action back to the list - no need to add */
-   else {
-      i = aedit_find_command(OLC_ACTION(d)->command);
+   else 
+   {
       OLC_ACTION(d)->act_nr = soc_mess_list[OLC_ZNUM(d)].act_nr;
       /* why did i do this..? hrm */
       free_action(soc_mess_list + OLC_ZNUM(d));

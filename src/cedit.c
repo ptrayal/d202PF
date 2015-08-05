@@ -1027,13 +1027,14 @@ void cedit_disp_creation_options(struct descriptor_data *d)
 
 void cedit_disp_creation_menu(struct descriptor_data *d)
 {
-  int i;
-  char buf[MAX_INPUT_LENGTH];
+  int i = 0;
+  char buffer1[MAX_INPUT_LENGTH]={'\0'};
 
   clear_screen(d);
-  for (i = 0; i < NUM_CREATION_METHODS; i++) {
-    sprintf(buf, "@W%d@B) @C%s@n\r\n", i, creation_methods[i]);
-    write_to_output(d, "%s", buf);
+  for (i = 0; i < NUM_CREATION_METHODS; i++) 
+  {
+    snprintf(buffer1, sizeof(buffer1), "@W%d@B) @C%s@n\r\n", i, creation_methods[i]);
+    write_to_output(d, "%s", buffer1);
   }
   write_to_output(d, "Choose character creation type: ");
   OLC_MODE(d) = CEDIT_CREATION_MENU;  

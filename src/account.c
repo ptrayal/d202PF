@@ -233,7 +233,6 @@ void save_account(struct account_data *account)
 
 void show_account_menu(struct descriptor_data *d)
 {
-    int i = 0;
 
     write_to_output(d, "ACCOUNT MENU\r\n");
     write_to_output(d, "------------\r\n");
@@ -253,17 +252,16 @@ void show_account_menu(struct descriptor_data *d)
         log("Cannot connect to mysql database in enter player game.");
     }
 
-    MYSQL_RES *res = NULL;
-    MYSQL_ROW row = NULL;
-
-    char query[MAX_INPUT_LENGTH]={'\0'};
-
     if (d->account) 
     {
+        int i = 0;
         for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) 
         {
             if (d->account->character_names[i] != NULL) 
             {
+                MYSQL_RES *res = NULL;
+                MYSQL_ROW row = NULL;
+                char query[MAX_INPUT_LENGTH]={'\0'};
                 write_to_output(d, "%d) %-20s", i + 1, d->account->character_names[i]);
                 sprintf(query, "SELECT alignment, race, classes, level FROM player_data WHERE name='%s'", d->account->character_names[i]);
                 mysql_query(conn, query);

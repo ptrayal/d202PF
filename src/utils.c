@@ -785,7 +785,7 @@ void add_follower(struct char_data *ch, struct char_data *leader)
  */
 int get_line(FILE *fl, char *buf)
 {
-  char temp[READ_SIZE];
+  char temp[READ_SIZE]={'\0'};
   int lines = 0;
   int sl;
 
@@ -808,7 +808,7 @@ int get_line(FILE *fl, char *buf)
 int get_filename(char *filename, size_t fbufsize, int mode, const char *orig_name)
 {
   const char *prefix, *middle, *suffix;
-  char name[PATH_MAX], *ptr;
+  char name[PATH_MAX]={'\0'}, *ptr;
 
   if (orig_name == NULL || *orig_name == '\0' || filename == NULL) {
     log("SYSERR: NULL pointer or empty string passed to get_filename(), %p or %p.",
@@ -1018,7 +1018,8 @@ int count_metamagic_feats(struct char_data *ch)
 /* I shouldn't need to include the following line, right? */
 #include <windows.h>
 
-int xdir_scan(char *dir_name, struct xap_dir *xapdirptest) {
+int xdir_scan(char *dir_name, struct xap_dir *xapdirptest) 
+{
   HANDLE dirhandle;
   WIN32_FIND_DATA wtfd;
   int i, total = 0;
@@ -1061,11 +1062,13 @@ int xdir_scan(char *dir_name, struct xap_dir *xapdirptest) {
   return xapdirp->total;
 }
 
-char *xdir_get_name(struct xap_dir *xd,int i) {
+char *xdir_get_name(struct xap_dir *xd,int i) 
+{
   return xd->namelist[i];
-  }
+}
 
-char *xdir_get_next(struct xap_dir *xd) {
+char *xdir_get_next(struct xap_dir *xd) 
+{
   if(++(xd->current) >= xd->total) {
     return NULL;
   }
@@ -1076,18 +1079,21 @@ char *xdir_get_next(struct xap_dir *xd) {
 #include <dirent.h>
 #include <unistd.h>
 
-int xdir_scan(char *dir_name, struct xap_dir *xapdirp) {
+int xdir_scan(char *dir_name, struct xap_dir *xapdirp) 
+{
   xapdirp->total = scandir(dir_name,&(xapdirp->namelist),0,alphasort);
   xapdirp->current = 0;
 
   return(xapdirp->total);
 }
 
-char *xdir_get_name(struct xap_dir *xd,int i) {
+char *xdir_get_name(struct xap_dir *xd,int i) 
+{
   return xd->namelist[i]->d_name;
 }
 
-char *xdir_get_next(struct xap_dir *xd) {
+char *xdir_get_next(struct xap_dir *xd) 
+{
   if(++(xd->current) >= xd->total) {
     return NULL;
   }
@@ -1110,7 +1116,8 @@ int xdir_get_total(struct xap_dir *xd) {
   return xd->total;
 }
 
-int insure_directory(char *path, int isfile) {
+int insure_directory(char *path, int isfile) 
+{
   char *chopsuey = strdup(path);
   char *p;
   char *temp;
@@ -1346,7 +1353,7 @@ int has_intro_idnum(struct char_data *ch, int idnum)
 
 char *which_desc(struct char_data *ch)
 {
-  char buf[100];
+  char buf[100]={'\0'};
 	
   if (!ch)
     return strdup("error");
@@ -1633,7 +1640,8 @@ char * rewind_string(int num, char *string)
 
 }
 
-char * a_or_an(char *string) {
+char * a_or_an(char *string) 
+{
   switch(tolower(*string)) {
 		case 'a':
 		case 'e':
@@ -1691,7 +1699,7 @@ int find_armor_type(int specType)
 char *strfrmt(char *str, int w, int h, int justify, int hpad, int vpad)
 {
   static char ret[MAX_STRING_LENGTH];
-  char line[MAX_INPUT_LENGTH];
+  char line[MAX_INPUT_LENGTH]={'\0'};
   char *sp = str;
   char *lp = line;
   char *rp = ret;

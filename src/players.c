@@ -1632,7 +1632,7 @@ void save_char(struct char_data * ch)
   if (GET_HITDICE(ch)      != PFDEF_LEVEL)	fprintf(fl, "HitD: %d\n", GET_HITDICE(ch));
   if (GET_LEVEL_ADJ(ch)    != PFDEF_LEVEL)	fprintf(fl, "LvlA: %d\n", GET_LEVEL_ADJ(ch));
   if (GET_HOME(ch)	   != PFDEF_HOMETOWN)	fprintf(fl, "Home: %d\n", GET_HOME(ch));
-  if (GET_COMPANION_VNUM(ch) != 0) fprintf(fl, "CNum: %d\n", GET_COMPANION_VNUM(ch));
+  if (GET_COMPANION_VNUM(ch) != 0) fprintf(fl, "CNum: %X\n", GET_COMPANION_VNUM(ch));
   if (GET_FAMILIAR_VNUM(ch) != 0) fprintf(fl, "FNum: %d\n", GET_FAMILIAR_VNUM(ch));
   if (GET_MOUNT_VNUM(ch) != 0) fprintf(fl, "MNum: %d\n", GET_MOUNT_VNUM(ch));
   if (GET_PET_VNUM(ch) != 0) fprintf(fl, "PNum: %d\n", GET_PET_VNUM(ch));
