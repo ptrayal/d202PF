@@ -145,7 +145,7 @@ int isname(const char *str, const char *namelist)
 
     for (j = 0; j < i; j++) {
       if (curtok && toks[j]) {
-        sprintf(temp, "%s", toks[j]);
+        snprintf(temp, sizeof(temp), "%s", toks[j]);
         if (is_abbrev(temp, curtok)) {
           found[k] = TRUE;
           break;
@@ -2898,10 +2898,11 @@ struct last_entry *find_llog_entry(int punique, int idnum,int close) {
 }
 
   /* mod_llog_entry assumes that llast is accurate */
-void mod_llog_entry(struct last_entry *llast,int type) {
+void mod_llog_entry(struct last_entry *llast,int type) 
+{
   FILE *fp;
   struct last_entry mlast;
-  int size,recs,tmp;
+  int size = 0,recs = 0,tmp = 0;
 
   if(!(fp=fopen(LAST_FILE,"r+"))) {
     log("error opening last_file for reading and writing");
@@ -2949,7 +2950,8 @@ void mod_llog_entry(struct last_entry *llast,int type) {
   return;
 }
 
-void add_llog_entry(struct char_data *ch, int type) {
+void add_llog_entry(struct char_data *ch, int type) 
+{
   FILE *fp;
   struct last_entry *llast;
 
@@ -3006,7 +3008,7 @@ char *list_llog_entry()
     return strdup("Error.");
   }
 
-  sprintf(buffer,"Last log\r\n");
+  snprintf(buffer, sizeof(buffer),"Last log\r\n");
 
   fread(&llast,sizeof(struct last_entry),1,fp);
 
