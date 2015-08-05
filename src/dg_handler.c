@@ -235,9 +235,8 @@ void free_proto_script(void *thing, int type)
 char *skill_percent_roll(struct char_data *ch, char *skill)
 {
   static char retval[16];
-  int skillnum;
-
-  skillnum = find_skill_num(skill, SKTYPE_SKILL);
+  int skillnum = find_skill_num(skill, SKTYPE_SKILL);
+  
   if (skillnum<=0) return("unknown skill");
 
   snprintf(retval, sizeof(retval), "%d", skill_roll(ch, skillnum));
@@ -287,7 +286,7 @@ void copy_proto_script(void *source, void *dest, int type)
 
 void delete_variables(const char *charname)
 {
-  char filename[PATH_MAX];
+  char filename[PATH_MAX]={'\0'};
 
   if (!get_filename(filename, sizeof(filename), SCRIPT_VARS_FILE, charname))
     return;

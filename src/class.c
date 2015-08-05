@@ -1893,6 +1893,7 @@ int base_hit(int hit_type, int chclass, int level)
       break;	
       case CLASS_BARD:
       hit_type = BASEHIT_MEDIUM;
+      break;
 
       case CLASS_DWARVEN_DEFENDER:
       case CLASS_WEAPON_MASTER:
@@ -1967,6 +1968,7 @@ int base_hit(int hit_type, int chclass, int level)
       break;	
       case CLASS_BARD:
       hit_type = BASEHIT_MEDIUM;
+      break;
 
       case CLASS_DWARVEN_DEFENDER:
       case CLASS_KNIGHT_OF_THE_CROWN:

@@ -260,7 +260,6 @@ void show_account_menu(struct descriptor_data *d)
             if (d->account->character_names[i] != NULL) 
             {
                 MYSQL_RES *res = NULL;
-                MYSQL_ROW row = NULL;
                 char query[MAX_INPUT_LENGTH]={'\0'};
                 write_to_output(d, "%d) %-20s", i + 1, d->account->character_names[i]);
                 sprintf(query, "SELECT alignment, race, classes, level FROM player_data WHERE name='%s'", d->account->character_names[i]);
@@ -268,6 +267,7 @@ void show_account_menu(struct descriptor_data *d)
                 res = mysql_use_result(conn);
                 if (res != NULL) 
                 {
+                    MYSQL_ROW row = NULL;
                     if ((row = mysql_fetch_row(res)) != NULL) 
                     {
                         write_to_output(d, "     Level %s %s %s %s", row[3], row[0], row[1], row[2]);

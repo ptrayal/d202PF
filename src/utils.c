@@ -847,7 +847,8 @@ int get_filename(char *filename, size_t fbufsize, int mode, const char *orig_nam
     break;
   case OLD_OBJ_FILES:
     prefix = LIB_PLROBJS;
-     suffix = SUF_OLD_OBJS;
+    suffix = SUF_OLD_OBJS;
+    break;
   case PLR_FILE:
     prefix = LIB_PLRFILES;
     suffix = SUF_PLR;

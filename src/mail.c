@@ -614,6 +614,7 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
     RECREATE(mailwrite, char *, 1);
     string_write(ch->desc, mailwrite, MAX_MAIL_SIZE, recipient, NULL);
   }
+  free(mailwrite);
 
 }
 

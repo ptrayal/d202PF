@@ -306,8 +306,10 @@ int entry_mtrigger(char_data *ch)
   if (!SCRIPT_CHECK(ch, MTRIG_ENTRY) || AFF_FLAGGED(ch, AFF_CHARM))
     return 1;
   
-  for (t = TRIGGERS(SCRIPT(ch)); t; t = t->next) {
-    if (TRIGGER_CHECK(t, MTRIG_ENTRY) && (rand_number(1, 100) <= GET_TRIG_NARG(t))){
+  for (t = TRIGGERS(SCRIPT(ch)); t; t = t->next) 
+  {
+    if (TRIGGER_CHECK(t, MTRIG_ENTRY) && (rand_number(1, 100) <= GET_TRIG_NARG(t)))
+    {
       return script_driver(&ch, t, MOB_TRIGGER, TRIG_NEW);
       break;
     }

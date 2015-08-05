@@ -339,12 +339,11 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
  *
  * -1 = dead, otherwise the amount of damage done.
  */
-int mag_damage(int level, struct char_data *ch, struct char_data *victim,
-		     int spellnum)
+int mag_damage(int level, struct char_data *ch, struct char_data *victim, int spellnum)
 {
   int saveHalf = FALSE;
   int dam = 0, dc = 0;
-  char dammes[MAX_STRING_LENGTH];
+  char dammes[MAX_STRING_LENGTH]={'\0'};
   int numdice = 0;
   int sizedice = 0;
   int dammod = 0;
@@ -973,10 +972,10 @@ void mag_affects(int level, struct char_data *ch, struct char_data *victim,
     to_room = "$n is warded against instant death spells and effects!";
     break;
   case SPELL_PARALYZE:
-    if (affected_by_spell(victim, SPELL_FREEDOM_OF_MOVEMENT)) {
+    if (affected_by_spell(victim, SPELL_FREEDOM_OF_MOVEMENT)) 
+    {
       act("@MYou resist the movement impairing effect due to your freedom of movement.@n", FALSE, victim, 0, ch, TO_CHAR);
       act("@M$n resists the movement impairing effect due to $s freedom of movement.@n", FALSE, victim, 0, ch, TO_ROOM);
-      return;
       return;
     }
     af[0].duration = level/2;
@@ -986,7 +985,8 @@ void mag_affects(int level, struct char_data *ch, struct char_data *victim,
     to_room = "$n suddenly freezes in place!";
     break;
   case ART_STUNNING_FIST:
-    if (affected_by_spell(victim, SPELL_FREEDOM_OF_MOVEMENT)) {
+    if (affected_by_spell(victim, SPELL_FREEDOM_OF_MOVEMENT)) 
+    {
       act("@MYou resist the movement impairing effect due to your freedom of movement.@n", FALSE, victim, 0, ch, TO_CHAR);
       act("@M$n resists the movement impairing effect due to $s freedom of movement.@n", FALSE, victim, 0, ch, TO_ROOM);
       return;
@@ -2572,7 +2572,8 @@ mob_vnum *monsum_list[9][9] = {
 /*
  * These use act(), don't put the \r\n.
  */
-const char *mag_summon_msgs[] = {
+const char *mag_summon_msgs[] = 
+{
   "\r\n",
   "$n animates a corpse!",
   "$n summons extraplanar assistance!",
@@ -2585,14 +2586,13 @@ const char *mag_summon_msgs[] = {
 #define MOB_AERIALSERVANT	19
 #define MOB_DRAGON_KNIGHT	30019
 
-void mag_summons(int level, struct char_data *ch, struct obj_data *obj,
-		      int spellnum, const char *arg)
+void mag_summons(int level, struct char_data *ch, struct obj_data *obj, int spellnum, const char *arg)
 {
 
   struct char_data *mob = NULL;
   struct obj_data *tobj, *next_obj;
   int msg = 0, num = 1, handle_corpse = false, affs = 0, affvs = 0, assist = 0, i, j, count;
-  char *buf = NULL, buf2[MAX_INPUT_LENGTH];
+  char *buf = NULL, buf2[MAX_INPUT_LENGTH]={'\0'};
   int lev;
   mob_vnum mob_num;
   int corpse_race = 0;
@@ -2915,13 +2915,12 @@ void mag_summons(int level, struct char_data *ch, struct obj_data *obj,
 }
 
 
-void mag_points(int level, struct char_data *ch, struct char_data *victim,
-		     int spellnum)
+void mag_points(int level, struct char_data *ch, struct char_data *victim, int spellnum)
 {
   int healing = 0, move = 0;
   int hndice = 0, hsdice = 0, hmod = 0, mndice = 0, msdice = 0, mmod = 0;
   int tmp;
-  char buf[200];
+  char buf[200]={'\0'};
 
   if (victim == NULL)
     return;
@@ -3141,8 +3140,7 @@ void mag_points(int level, struct char_data *ch, struct char_data *victim,
 }
 
 
-void mag_unaffects(int level, struct char_data *ch, struct char_data *victim,
-		        int spellnum)
+void mag_unaffects(int level, struct char_data *ch, struct char_data *victim, int spellnum)
 {
   int spell = 0, msg_not_affected = true;
   const char *to_vict = NULL, *to_room = NULL;
@@ -3234,8 +3232,7 @@ void mag_unaffects(int level, struct char_data *ch, struct char_data *victim,
 }
 
 
-void mag_alter_objs(int level, struct char_data *ch, struct obj_data *obj,
-		         int spellnum)
+void mag_alter_objs(int level, struct char_data *ch, struct obj_data *obj, int spellnum)
 {
   const char *to_char = NULL, *to_room = NULL;
 
@@ -3412,8 +3409,7 @@ void do_affectv_tickdown(struct char_data *i)
 
 }
 
-void mag_affectsv(int level, struct char_data *ch, struct char_data *victim,
-                      int spellnum)
+void mag_affectsv(int level, struct char_data *ch, struct char_data *victim, int spellnum)
 {
   struct affected_type af[MAX_SPELL_AFFECTS];
   bool accum_affect = false, accum_duration = false;

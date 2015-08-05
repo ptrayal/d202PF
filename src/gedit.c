@@ -81,8 +81,8 @@ ACMD(do_oasis_gedit)
   guild_rnum real_num;
   struct descriptor_data *d;
   char *buf3;
-  char buf1[MAX_INPUT_LENGTH];
-  char buf2[MAX_INPUT_LENGTH];
+  char buf1[MAX_INPUT_LENGTH]={'\0'};
+  char buf2[MAX_INPUT_LENGTH]={'\0'};
   
   /****************************************************************************/
   /** Parse any arguments.                                                   **/
@@ -379,7 +379,7 @@ void gedit_select_wp_menu(struct descriptor_data *d)
 
 void gedit_no_train_menu(struct descriptor_data *d)
 {
-  char bits[MAX_STRING_LENGTH];
+  char bits[MAX_STRING_LENGTH]={'\0'};
   int i, count = 0;
   struct guild_data *guild;
 
@@ -403,7 +403,7 @@ void gedit_no_train_menu(struct descriptor_data *d)
 void gedit_disp_menu(struct descriptor_data *d)
 {
 	struct guild_data *guild;
-	char buf1[MAX_STRING_LENGTH];
+	char buf1[MAX_STRING_LENGTH]={'\0'};
 
 	guild = OLC_GUILD(d);
 

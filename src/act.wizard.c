@@ -1256,14 +1256,19 @@ ACMD(do_stat)
   } else if (is_abbrev(buf1, "zone")) {
     send_to_char(ch, "This command is currently not working.\r\n");
     return;
-    if (!*buf2) {
+    if (!*buf2) 
+    {
       send_to_char(ch, "Stats on which zone?\r\n");
       return;
-    } else {
+    } 
+    else 
+    {
       print_zone(ch, atoi(buf2));
       return;
     }
-  } else {
+  } 
+  else 
+  {
     char *name = buf1;
     int number = get_number(&name);
 

@@ -3652,7 +3652,8 @@ char *cchoice_to_str(char *col)
       case '3':
         col++;
         fg = 1;
-        switch (*col) {
+        switch (*col) 
+        {
         case '0':
           s = bold ? "grey" : "black";
           bold = 0;
@@ -3693,39 +3694,48 @@ char *cchoice_to_str(char *col)
         break;
       case '4':
         col++;
-        switch (*col) {
+        switch (*col) 
+        {
         case '0':
           s = "on black";
           needfg = 1;
           bold = 0;
+          break;
         case '1':
           s = "on red";
           needfg = 1;
           bold = 0;
+          break;
         case '2':
           s = "on green";
           needfg = 1;
           bold = 0;
+          break;
         case '3':
           s = "on yellow";
           needfg = 1;
           bold = 0;
+          break;
         case '4':
           s = "on blue";
           needfg = 1;
           bold = 0;
+          break;
         case '5':
           s = "on magenta";
           needfg = 1;
           bold = 0;
+          break;
         case '6':
           s = "on cyan";
           needfg = 1;
           bold = 0;
+          break;
         case '7':
           s = "on white";
           needfg = 1;
           bold = 0;
+          break;
         default:
           s = "underlined";
           break;

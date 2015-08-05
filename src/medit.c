@@ -57,8 +57,8 @@ ACMD(do_oasis_medit)
   int number = NOBODY, save = 0, real_num;
   struct descriptor_data *d;
   char *buf3;
-  char buf1[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
   
   /****************************************************************************/
   /** Parse any arguments.                                                   **/
@@ -414,7 +414,7 @@ void medit_disp_attack_types(struct descriptor_data *d)
 void medit_disp_mob_flags(struct descriptor_data *d)
 {
   int i, columns = 0;
-  char flags[MAX_STRING_LENGTH];
+  char flags[MAX_STRING_LENGTH]={'\0'};
   
   clear_screen(d);
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
@@ -434,7 +434,7 @@ void medit_disp_mob_flags(struct descriptor_data *d)
 void medit_disp_aff_flags(struct descriptor_data *d)
 {
   int i, columns = 0;
-  char flags[MAX_STRING_LENGTH];
+  char flags[MAX_STRING_LENGTH]={'\0'};
 
   clear_screen(d);
   for (i = 0; i < NUM_AFF_FLAGS; i++) {
@@ -453,8 +453,8 @@ void medit_disp_aff_flags(struct descriptor_data *d)
  */
 void medit_disp_class(struct descriptor_data *d)
 {
-  int i;
-  char buf[MAX_INPUT_LENGTH];
+  int i = 0;
+  char buf[MAX_INPUT_LENGTH]={'\0'};
 
   clear_screen(d);
   for (i = 0; i < NUM_CLASSES; i++) {
@@ -470,7 +470,7 @@ void medit_disp_class(struct descriptor_data *d)
 void medit_disp_race(struct descriptor_data *d)
 {
   int i, columns = 0;
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
 
   clear_screen(d);
   for (i = 0; i < NUM_RACES; i++) {
@@ -490,7 +490,7 @@ void medit_disp_race(struct descriptor_data *d)
 void medit_disp_size(struct descriptor_data *d)
 {
   int i, columns = 0;
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
 
   clear_screen(d);
   for (i = -1; i < NUM_SIZES; i++) {
@@ -503,15 +503,15 @@ void medit_disp_size(struct descriptor_data *d)
 }
 
 void medit_skin_data(struct descriptor_data *d, int i)
- {
-  char buf[MAX_STRING_LENGTH];
+{
+  char buf[MAX_STRING_LENGTH]={'\0'};
  
 sprintf(buf, "Enter a VNUM for object (slot number %i of 4 slots) to be loaded when this mob's\r\n"
           , i);    
  send_to_char(d->character, buf);
  send_to_char(d->character, "corpse is skinned: ");
  return; 
- }    
+}    
 
 /*-------------------------------------------------------------------*/
 
@@ -521,7 +521,7 @@ sprintf(buf, "Enter a VNUM for object (slot number %i of 4 slots) to be loaded w
 void medit_disp_menu(struct descriptor_data *d)
 {
   struct char_data *mob;
-  char flags[MAX_STRING_LENGTH], flag2[MAX_STRING_LENGTH];
+  char flags[MAX_STRING_LENGTH]={'\0'}, flag2[MAX_STRING_LENGTH]={'\0'};
 
   mob = OLC_MOB(d);
   clear_screen(d);
@@ -848,7 +848,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     if (GET_LDESC(OLC_MOB(d)))
       free(GET_LDESC(OLC_MOB(d)));
     if (arg && *arg) {
-      char buf[MAX_INPUT_LENGTH];
+      char buf[MAX_INPUT_LENGTH]={'\0'};
       snprintf(buf, sizeof(buf), "%s\r\n", arg);
       GET_LDESC(OLC_MOB(d)) = strdup(buf);
     } else
