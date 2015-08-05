@@ -44,7 +44,7 @@ void add_poll_option(int pnum, int onum, char *option)
 
   MYSQL_RES *result = NULL;
   MYSQL_ROW row = NULL;
-  char query[300];
+  char query[300]={'\0'};
 
   if (onum < 0 || onum > 9)
     return;

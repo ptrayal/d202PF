@@ -426,33 +426,35 @@ void forget(struct char_data *ch, struct char_data *victim)
  */
 bool aggressive_mob_on_a_leash(struct char_data *slave, struct char_data *master, struct char_data *attack)
 {
-     static int snarl_cmd;
-     int dieroll;
+    static int snarl_cmd;
+    int dieroll = 0;
 
-     if (!master || !AFF_FLAGGED(slave, AFF_CHARM))
-          return (FALSE);
+    if (!master || !AFF_FLAGGED(slave, AFF_CHARM))
+        return (FALSE);
 
-     if (!snarl_cmd)
-          snarl_cmd = find_command("snarl");
+    if (!snarl_cmd)
+        snarl_cmd = find_command("snarl");
 
 /* Sit. Down boy! HEEEEeeeel! */
-     dieroll = rand_number(1, 20);
-     if (dieroll != 1 && (dieroll == 20 || dieroll > 10 - GET_CHA(master) + GET_INT(slave))) {
-          if (snarl_cmd > 0 && attack && !rand_number(0, 3)) {
-               char victbuf[MAX_NAME_LENGTH + 1];
+    dieroll = rand_number(1, 20);
+    if (dieroll != 1 && (dieroll == 20 || dieroll > 10 - GET_CHA(master) + GET_INT(slave))) 
+    {
+        if (snarl_cmd > 0 && attack && !rand_number(0, 3)) 
+        {
+            char victbuf[MAX_NAME_LENGTH + 1]={'\0'};
 
 strncpy(victbuf, GET_NAME(attack), sizeof(victbuf));  /* strncpy: OK */
-               victbuf[sizeof(victbuf) - 1] = '\0';
+            victbuf[sizeof(victbuf) - 1] = '\0';
 
-               do_action(slave, victbuf, snarl_cmd, 0);
-          }
+            do_action(slave, victbuf, snarl_cmd, 0);
+        }
 
 /* Success! But for how long? Hehe. */
-          return (TRUE);
-     }
+        return (TRUE);
+    }
 
 /* So sorry, now you're a player killer... Tsk tsk. */
-     return (FALSE);
+    return (FALSE);
 }
 
 void decide_mobile_special_action(struct char_data *ch) 

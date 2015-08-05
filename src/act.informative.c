@@ -156,7 +156,8 @@ ACMD(do_autocon);
 int *cmd_sort_info;
 
 /* Portal appearance types */
-const char *portal_appearance[] = {
+const char *portal_appearance[] = 
+{
     "All you can see is the glow of the portal.",
     "You see an image of yourself in the room - my, you are looking attractive today.",
     "All you can see is a swirling grey mist.",
@@ -176,8 +177,8 @@ const char *portal_appearance[] = {
 struct help_index_element *find_help(char *keyword)
 {
   extern int top_of_helpt;
-  int i;
-  char new_keyword[MAX_INPUT_LENGTH];
+  int i = 0;
+  char new_keyword[MAX_INPUT_LENGTH]={'\0'};
 
   for (i = 0; i < top_of_helpt; i++)
     if (isname(keyword, help_table[i].keywords))
@@ -279,9 +280,9 @@ void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mode)
     return;
   }
 
-  char amount[200];
-  char buf2[200];
-  char bitbuf[200];
+  char amount[200]={'\0'};
+  char buf2[200]={'\0'};
+  char bitbuf[200]={'\0'};
   int found = FALSE;
   int i = 0;
 
@@ -340,7 +341,7 @@ void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mode)
     switch (GET_OBJ_TYPE(obj)) {
     case ITEM_NOTE:
       if (obj->action_description) {
-        char notebuf[MAX_NOTE_LENGTH + 64];
+        char notebuf[MAX_NOTE_LENGTH + 64]={'\0'};
 
         snprintf(notebuf, sizeof(notebuf), "There is something written on it:\r\n\r\n%s", obj->action_description);
         page_string(ch->desc, notebuf, true);
@@ -545,8 +546,7 @@ void diag_char_to_char(struct char_data *i, struct char_data *ch)
 
 void look_at_char(struct char_data *i, struct char_data *ch)
 {
-
-  char buf[200];
+  char buf[200]={'\0'};
 
   if (IS_NPC(i)) {
     look_at_char_old(i, ch);
@@ -745,11 +745,12 @@ ACMD(do_autocon)
 void list_one_char(struct char_data *i, struct char_data *ch)
 {
   char *color = "@W";
-  char buf[200];
+  char buf[200]={'\0'};
   int lvl_diff = 0;
-	int j;
+	int j = 0;
 	
-  const char *positions[] = {
+  const char *positions[] = 
+  {
     " is lying here, dead.",
     " is lying here, mortally wounded.",
     " is lying here, incapacitated.",
@@ -1193,8 +1194,8 @@ const char *exitlevels[] = {
 
 ACMD(do_autoexit)
 {
-  char arg[MAX_INPUT_LENGTH];
-  int tp;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
+  int tp = 0;
 
   if (IS_NPC(ch))
     return;
@@ -1234,7 +1235,7 @@ void look_at_room(room_rnum target_room, struct char_data *ch, int ignore_brief)
     return;
 
   if (rm->number >= 64000 && rm->number <= 64099) {
-   char sbuf1[2000];
+   char sbuf1[2000]={'\0'};
    if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE) {
     if (ch->travel_type == TRAVEL_TAXI) {
       rm->name = strdup("A Horse-Drawn Carriage");
@@ -1281,8 +1282,8 @@ void look_at_room(room_rnum target_room, struct char_data *ch, int ignore_brief)
     return;
   }
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS)) {
-    char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH]={'\0'};
+    char buf2[MAX_STRING_LENGTH]={'\0'};
 
     sprintbitarray(ROOM_FLAGS(target_room), room_bits, RF_ARRAY_MAX, buf);
     sprinttype(rm->sector_type, sector_types, buf2, sizeof(buf2));
@@ -1292,7 +1293,7 @@ void look_at_room(room_rnum target_room, struct char_data *ch, int ignore_brief)
                      SCRIPT(rm) ? "[TRIG] " : "",
                      world[IN_ROOM(ch)].name, buf, buf2);
   } else {
-    char buf2[MAX_STRING_LENGTH];
+    char buf2[MAX_STRING_LENGTH]={'\0'};
     sprinttype(rm->sector_type, sector_types, buf2, sizeof(buf2));
     send_to_char(ch, "@[1]%s [ %s ]%s@[0]\r\n", world[target_room].name, buf2, ROOM_FLAGGED(target_room, ROOM_HOUSE) ? "@Y[Items Can be Left Here]@n" 
 : "");
@@ -1425,14 +1426,14 @@ void look_in_obj(struct char_data *ch, char *arg)
       else {
         if (GET_OBJ_VAL(obj, VAL_DRINKCON_CAPACITY) < 0)
         {
-          char buf2[MAX_STRING_LENGTH];
+          char buf2[MAX_STRING_LENGTH]={'\0'};
 	  sprinttype(GET_OBJ_VAL(obj, VAL_DRINKCON_LIQUID), color_liquid, buf2, sizeof(buf2));
 	  send_to_char(ch, "It's full of a %s liquid.\r\n", buf2);
         }
        else if (GET_OBJ_VAL(obj,VAL_DRINKCON_HOWFULL)>GET_OBJ_VAL(obj,VAL_DRINKCON_CAPACITY)) {
 	  send_to_char(ch, "Its contents seem somewhat murky.\r\n"); /* BUG */
 	} else {
-          char buf2[MAX_STRING_LENGTH];
+          char buf2[MAX_STRING_LENGTH]={'\0'};
 	  amt = (GET_OBJ_VAL(obj, VAL_DRINKCON_HOWFULL) * 3) / GET_OBJ_VAL(obj, VAL_DRINKCON_CAPACITY);
 	  sprinttype(GET_OBJ_VAL(obj, VAL_DRINKCON_LIQUID), color_liquid, buf2, sizeof(buf2));
 	  send_to_char(ch, "It's %sfull of a %s liquid.\r\n", fullness[amt], buf2);
@@ -1469,7 +1470,7 @@ void look_at_target(struct char_data *ch, char *arg, int read)
   struct char_data *found_char = NULL;
   struct obj_data *obj, *found_obj = NULL;
   char *desc;
-  char number[MAX_STRING_LENGTH];
+  char number[MAX_STRING_LENGTH]={'\0'};
 
   if (!ch->desc)
     return;
@@ -1717,7 +1718,7 @@ ACMD(do_look)
     send_to_char(ch, "It is pitch black...\r\n");
     list_char_to_char(world[IN_ROOM(ch)].people, ch);	/* glowing red eyes */
   } else {
-    char arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
 
     if (subcmd == SCMD_READ) {
       one_argument(argument, arg);
@@ -1787,7 +1788,7 @@ ACMD(do_examine)
 {
   struct char_data *tmp_char;
   struct obj_data *tmp_object;
-  char tempsave[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
+  char tempsave[MAX_INPUT_LENGTH]={'\0'}, arg[MAX_INPUT_LENGTH]={'\0'};
 
   one_argument(argument, arg);
 
@@ -1816,7 +1817,7 @@ ACMD(do_examine)
 
 ACMD(do_gold)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   if (GET_GOLD(ch) == 0)
     send_to_char(ch, "You're broke!\r\n");
@@ -1833,10 +1834,10 @@ ACMD(do_gold)
 char *reduct_desc(struct char_data *victim, struct damreduct_type *reduct)
 {
   static char buf[MAX_INPUT_LENGTH];
-  char buf2[MAX_INPUT_LENGTH];
+  char buf2[MAX_INPUT_LENGTH]={'\0'};
   int len = 0;
   int slash = 0;
-  int i;
+  int i = 0;
   int reduction = 0;
 
   struct obj_data *armor = GET_EQ(victim, WEAR_BODY);
@@ -2033,24 +2034,24 @@ ACMD(do_aod_new_score)
 {
 
   int attack = 0, base_attack = 0, offhand = 0, weaponmod = 0, offhandmod = 0;
-  char attack_text[MAX_STRING_LENGTH];
+  char attack_text[MAX_STRING_LENGTH]={'\0'};
   int i = 0, j = 0;
   struct time_info_data playing_time;
-  char play_time[MAX_STRING_LENGTH];
+  char play_time[MAX_STRING_LENGTH]={'\0'};
   int int_xp = 0;
-  int int_percent;
+  int int_percent = 0;
   float percent = 0.0;
   float xp = 0.0;
-  char exp_percent[MAX_STRING_LENGTH];
+  char exp_percent[MAX_STRING_LENGTH]={'\0'};
   int grace = 0;
-  char hp_text[MAX_STRING_LENGTH], mv_text[MAX_STRING_LENGTH]; 
-  char coin_text[MAX_STRING_LENGTH];
-  char color1[10], color2[10], color3[10], color4[10];
+  char hp_text[MAX_STRING_LENGTH]={'\0'}, mv_text[MAX_STRING_LENGTH]={'\0'};
+  char coin_text[MAX_STRING_LENGTH]={'\0'};
+  char color1[10]={'\0'}, color2[10]={'\0'}, color3[10]={'\0'}, color4[10]={'\0'};
   struct damreduct_type *reduct;
   int showStats = TRUE;
-  char enc_text[100], stat_buf[200], desc_buf[200];
+  char enc_text[100]={'\0'}, stat_buf[200]={'\0'}, desc_buf[200]={'\0'};
   struct char_data *rec = ch, *vict;
-  char arg[200];
+  char arg[200]={'\0'};
 
   one_argument(argument, arg);
 
@@ -2296,7 +2297,7 @@ ACMD(do_old_score)
   int penalty, attack, base_attack, offhand;
 //  char penstr[80];
   int grace = 0;
-  int i, j;
+  int i = 0, j = 0;
   int offhandmod = 0, weaponmod = 0;
 
   if (!GET_ADMLEVEL(ch) && CONFIG_CAMPAIGN != CAMPAIGN_FORGOTTEN_REALMS)
@@ -2626,7 +2627,7 @@ void perform_equipment_full(struct char_data *ch)
 
 ACMD(do_equipment)
 {
-  char arg[100];
+  char arg[100]={'\0'};
   
   one_argument(argument, arg);
 
@@ -2674,7 +2675,7 @@ ACMD(do_equipment)
 ACMD(do_time)
 {
   const char *suf;
-  int weekday, day;
+  int weekday = 0, day = 0;
 
   /* day in [1..30] */
   day = time_info.day + 1;
@@ -2717,7 +2718,8 @@ ACMD(do_time)
 
 ACMD(do_weather)
 {
-  const char *sky_look[] = {
+  const char *sky_look[] = 
+  {
     "cloudless",
     "cloudy",
     "rainy",
@@ -2889,7 +2891,7 @@ ACMD(do_who)
 {
   struct descriptor_data *d;
   struct char_data *tch;
-  char name_search[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH];
+  char name_search[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'};
   char mode;
   int low = 0, high = CONFIG_LEVEL_CAP * 2, localwho = 0, questwho = 0;
   int showclass = 0, short_list = 0, outlaws = 0, num_can_see = 0;
@@ -2902,8 +2904,9 @@ ACMD(do_who)
   strcpy(buf, argument);	/* strcpy: OK (sizeof: argument == buf) */
   name_search[0] = '\0';
 
-  while (*buf) {
-    char arg[MAX_INPUT_LENGTH], buf1[MAX_INPUT_LENGTH];
+  while (*buf) 
+  {
+    char arg[MAX_INPUT_LENGTH]={'\0'}, buf1[MAX_INPUT_LENGTH]={'\0'};
 
     half_chop(buf, arg, buf1);
     if (isdigit(*arg)) {
@@ -3181,20 +3184,20 @@ ACMD(do_who)
 /* BIG OL' FIXME: Rewrite it all. Similar to do_who(). */
 ACMD(do_users)
 {
-    char line[200], line2[220], idletime[10];
+    char line[200]={'\0'}, line2[220]={'\0'}, idletime[10]={'\0'};
     char state[30], *timeptr, mode;
-    char name_search[MAX_INPUT_LENGTH], host_search[MAX_INPUT_LENGTH];
+    char name_search[MAX_INPUT_LENGTH]={'\0'}, host_search[MAX_INPUT_LENGTH]={'\0'};
     struct char_data *tch;
     struct descriptor_data *d;
     int low = 0, high = CONFIG_LEVEL_CAP, num_can_see = 0;
     int showclass = 0, outlaws = 0, playing = 0, deadweight = 0, showrace = 0;
-    char buf[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
+    char buf[MAX_INPUT_LENGTH]={'\0'}, arg[MAX_INPUT_LENGTH]={'\0'};
 
     host_search[0] = name_search[0] = '\0';
 
 strcpy(buf, argument);	/* strcpy: OK (sizeof: argument == buf) */
     while (*buf) {
-        char buf1[MAX_INPUT_LENGTH];
+        char buf1[MAX_INPUT_LENGTH]={'\0'};
 
         half_chop(buf, arg, buf1);
         if (*arg == '-') {
@@ -3314,12 +3317,13 @@ strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
 /* Generic page_string function for displaying text */
 ACMD(do_gen_ps)
 {
-  int patch_num, show_patches;
-  char arg[MAX_INPUT_LENGTH];
+  int patch_num = 0, show_patches = 0;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   const char *version_args[] = {"full", "complete", "\n"}; 
   one_argument(argument, arg);
   
-  switch (subcmd) {
+  switch (subcmd) 
+  {
   case SCMD_CREDITS:
     page_string(ch->desc, credits, 0);
     break;
@@ -3494,7 +3498,7 @@ void perform_immort_where(struct char_data *ch, char *arg)
 
 ACMD(do_where)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   one_argument(argument, arg);
 
@@ -3508,7 +3512,7 @@ ACMD(do_where)
 
 ACMD(do_levels)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   size_t i, len = 0, nlen;
 
   if (IS_NPC(ch)) {
@@ -3535,9 +3539,9 @@ ACMD(do_levels)
 
 ACMD(do_consider)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *victim;
-  int diff;
+  int diff = 0;
 
   one_argument(argument, buf);
 
@@ -3583,7 +3587,7 @@ ACMD(do_consider)
 
 ACMD(do_diagnose)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict;
 
   one_argument(argument, buf);
@@ -3602,8 +3606,9 @@ ACMD(do_diagnose)
 }
 
 
-const char *ctypes[] = {
-  "off", "on", "\n"
+const char *ctypes[] = 
+{
+  "off", "on", "\n", NULL
 };
 
 char *cchoice_to_str(char *col)
@@ -3754,10 +3759,11 @@ char *cchoice_to_str(char *col)
 
 int str_to_cchoice(char *str, char *choice)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   int bold = 0, blink = 0, uline = 0, rev = 0, invis = 0, fg = 0, bg = 0, error = 0;
   int i, len = MAX_INPUT_LENGTH;
-  struct {
+  struct 
+  {
     char *name; 
     int *ptr;
   } attribs[] = {
@@ -3868,11 +3874,11 @@ NULL
 
 ACMD(do_color)
 {
-  char arg[MAX_INPUT_LENGTH];
-  char buf[MAX_STRING_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
+  char buf[MAX_STRING_LENGTH]={'\0'};
   char *p;
   char *col;
-  int tp, len;
+  int tp = 0, len = 0;
 
   if (IS_NPC(ch))
     return;
@@ -3943,7 +3949,7 @@ ACMD(do_color)
 
 ACMD(do_toggle)
 {
-  char buf2[4];
+  char buf2[4]={'\0'};
 
   if (IS_NPC(ch))
     return;
@@ -4106,7 +4112,7 @@ ACMD(do_commands)
     int no = 0, i = 0, cmd_num = 0;
     int wizhelp = 0, socials = 0;
     struct char_data *vict;
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
 
     one_argument(argument, arg);
 
@@ -4238,10 +4244,10 @@ void search_in_direction(struct char_data * ch, int dir)
     send_to_char(ch, "There is no exit there.\r\n");
 }
 
-ACMD(do_affstats) {
-
+ACMD(do_affstats) 
+{
   struct char_data *k = ch;
-  char duration[100], modifier[100], bitvector[100];
+  char duration[100]={'\0'}, modifier[100]={'\0'}, bitvector[100]={'\0'};
   struct affected_type *aff;
 
   send_to_char(k, "@y%-25s %-5s %-10s %-25s %-17s\r\n------------------------- ----- ---------- ------------------------- -----------------\r\n@n",
@@ -4270,9 +4276,9 @@ ACMD(do_affstats) {
 
 }
 
-ACMD(do_affect) {
-	
-	char buf[MAX_STRING_LENGTH];
+ACMD(do_affect) 
+{
+	char buf[MAX_STRING_LENGTH]={'\0'};
 	struct damreduct_type *reduct;
 	int isAffected = FALSE, len;
 	
@@ -5004,7 +5010,7 @@ char *get_pc_alignment(struct char_data *ch, char *alignment)
 void FormatNumberOutput(char * String)
 {
 	int	x,c,d,i;
-	char	Work[20];
+	char Work[20]={'\0'};
 
 	x = strlen(String)-1;
 
@@ -5025,7 +5031,7 @@ void FormatNumberOutput(char * String)
 
 ACMD(do_screenwidth)
 {
-  char arg2[100];
+  char arg2[100]={'\0'};
 
   one_argument(argument, arg2);
 
@@ -5041,8 +5047,7 @@ ACMD(do_screenwidth)
 
 ACMD(do_automap)
 {
-
-  char arg[100];
+  char arg[100]={'\0'};
 
   one_argument(argument, arg);
 
@@ -5296,12 +5301,13 @@ ACMD(do_gatherinfo)
 
 }
 
-ACMD(do_eqstats) {
+ACMD(do_eqstats) 
+{
 
   int i, j, k, exception = FALSE;
   int found = FALSE;
   struct obj_data *obj = NULL;
-  char buf2[200], bitbuf[200];
+  char buf2[200]={'\0'}, bitbuf[200]={'\0'};
 
   send_to_char(ch, "You are using:\r\n");
   for (i = 0; i < NUM_WEARS - 1; i++) {
@@ -5354,8 +5360,9 @@ ACMD(do_eqstats) {
 
 }
 
-ACMD(do_output) {
-  char one[50], two[50];
+ACMD(do_output) 
+{
+  char one[50]={'\0'}, two[50]={'\0'};
   two_arguments(argument, one, two);
   if (!*one) {
     send_to_char(ch, "Current output options are:\r\n"
@@ -5405,7 +5412,7 @@ ACMD(do_output) {
 }
 char *get_weapon_dam(struct char_data *ch)
 {
-  char main_dam_text[200], off_dam_text[200];
+  char main_dam_text[200]={'\0'}, off_dam_text[200]={'\0'};
 
   sprintf(main_dam_text, "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 2),
           (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)));
@@ -5416,7 +5423,7 @@ char *get_weapon_dam(struct char_data *ch)
     sprintf(off_dam_text, "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD2), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD2), 2),
           (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD2)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD2)));
 
-  char dam_text[400];
+  char dam_text[400]={'\0'};
 
   sprintf(dam_text, "%s%s%s", main_dam_text, ((GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE)) ||
                               GET_EQ(ch, WEAR_WIELD2)) ? "/" : "", ((GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE)) ||
@@ -5430,7 +5437,7 @@ char *get_attack_text(struct char_data *ch)
 
   int attack = 0, base_attack = 0, offhand = 0, weaponmod = 0, offhandmod = 0;
   int i = 0, j = 0;
-  char attack_text[200];
+  char attack_text[200]={'\0'};
 
   // Determine number of attacks and their attack values
     for (j = 0; j < MAX_OBJ_AFFECT; j++) {

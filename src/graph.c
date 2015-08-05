@@ -36,7 +36,8 @@ int find_first_step(room_rnum src, room_rnum target);
 ACMD(do_track);
 void hunt_victim(struct char_data *ch);
 
-struct bfs_queue_struct {
+struct bfs_queue_struct 
+{
   room_rnum room;
   char dir;
   struct bfs_queue_struct *next;
@@ -177,9 +178,9 @@ int num_rooms_between(room_rnum src, room_rnum target) {
 
 ACMD(do_track)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict;
-  int dir;
+  int dir = 0;
   int bonus = 0;
   int roll = 0;
 
@@ -244,7 +245,7 @@ ACMD(do_track)
 
 void hunt_victim(struct char_data *ch)
 {
-  int dir;
+  int dir = 0;
   byte found;
   struct char_data *tmp;
 
@@ -263,13 +264,16 @@ void hunt_victim(struct char_data *ch)
     HUNTING(ch) = NULL;
     return;
   }
-  if ((dir = find_first_step(IN_ROOM(ch), IN_ROOM(HUNTING(ch)))) < 0) {
-    char buf[MAX_INPUT_LENGTH];
+  if ((dir = find_first_step(IN_ROOM(ch), IN_ROOM(HUNTING(ch)))) < 0) 
+  {
+    char buf[MAX_INPUT_LENGTH]={'\0'};
 
     snprintf(buf, sizeof(buf), "Damn!  I lost %s!", HMHR(HUNTING(ch)));
     do_say(ch, buf, 0, 0);
     HUNTING(ch) = NULL;
-  } else {
+  } 
+  else 
+  {
     perform_move(ch, dir, 1);
     if (IN_ROOM(ch) == IN_ROOM(HUNTING(ch)))
       hit(ch, HUNTING(ch), TYPE_UNDEFINED);

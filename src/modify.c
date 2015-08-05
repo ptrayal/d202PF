@@ -55,6 +55,7 @@ void note_write_string_cleanup(struct descriptor_data *d, int action);
 void trigedit_string_cleanup(struct descriptor_data *d, int terminator);
 void ldesc_string_cleanup(struct descriptor_data *d, int action);
 void new_mail_string_cleanup(struct descriptor_data *d, int action);
+
 const char *string_fields[] =
 {
   "name",
@@ -366,8 +367,8 @@ void note_write_string_cleanup(struct descriptor_data *d, int action)
       log("Cannot connect to mysql database in note write.");
     }
 
-    char query[21000];
-    char buf[1000];
+    char query[21000]={'\0'};
+    char buf[1000]={'\0'};
     char *end;
 
     end = stpcpy(query,"INSERT INTO player_note_messages (cat_name,subject,message,poster_name,poster_admin_level,poster_clan) VALUES(");
@@ -461,7 +462,7 @@ void new_mail_string_cleanup(struct descriptor_data *d, int action)
     MYSQL_ROW row = NULL;
 
 
-    char query[MAX_STRING_LENGTH];
+    char query[MAX_STRING_LENGTH]={'\0'};
 
     struct char_data *ch = d->character;
 
@@ -526,7 +527,7 @@ void new_mail_string_cleanup(struct descriptor_data *d, int action)
 
     } else {
 
-    char query[MAX_STRING_LENGTH];
+    char query[MAX_STRING_LENGTH]={'\0'};
 
     struct char_data *ch = d->character;
 
@@ -616,8 +617,8 @@ void ldesc_string_cleanup(struct descriptor_data *d, int action)
 ACMD(do_skillset)
 {
   struct char_data *vict;
-  char name[MAX_INPUT_LENGTH];
-  char buf[MAX_INPUT_LENGTH], help[MAX_STRING_LENGTH];
+  char name[MAX_INPUT_LENGTH]={'\0'};
+  char buf[MAX_INPUT_LENGTH]={'\0'}, help[MAX_STRING_LENGTH]={'\0'};
   int skill = 0, value = 0, i=0, qend = 0;
 
   argument = one_argument(argument, name);
@@ -711,7 +712,7 @@ ACMD(do_skillset)
 ACMD(do_featset)
 {
 
-  char arg1[100], arg2[100], arg3[100];
+  char arg1[100]={'\0'}, arg2[100]={'\0'}, arg3[100]={'\0'};
   int i=0, j=0;
   int val = 0;
   struct char_data *vict = NULL;
@@ -829,7 +830,7 @@ char *next_page(char *str, struct char_data *ch)
 /* Function that returns the number of pages in the string. */
 int count_pages(char *str, struct char_data *ch)
 {
-  int pages;
+  int pages = 0;
 
   for (pages = 1; (str = next_page(str, ch)); pages++);
   return (pages);
@@ -842,7 +843,7 @@ int count_pages(char *str, struct char_data *ch)
  */
 void paginate_string(char *str, struct descriptor_data *d)
 {
-  int i;
+  int i = 0;
 
   if (d->showstr_count)
     *(d->showstr_vector) = str;
@@ -883,8 +884,8 @@ void page_string(struct descriptor_data *d, char *str, int keep_internal)
 /* The call that displays the next page. */
 void show_string(struct descriptor_data *d, char *input)
 {
-  char buffer[MAX_STRING_LENGTH], buf[MAX_INPUT_LENGTH];
-  int diff;
+  char buffer[MAX_STRING_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'};
+  int diff = 0;
 
   any_one_arg(input, buf);
 

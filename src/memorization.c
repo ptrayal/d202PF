@@ -78,7 +78,7 @@ void do_mem_display(struct char_data *ch)
   int spellmem = 0;
   int speedfx, count, i, sortpos, len;
   struct memorize_node *mem = NULL;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   switch (GET_MEM_TYPE(ch)) {
   case MEM_TYPE_MAGE:
@@ -1106,7 +1106,7 @@ int find_freeslot(struct char_data *ch, int spelllvl)
 
 ACMD(do_memorize)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   const char *classname;
 
   if(IS_NPC(ch))
@@ -1835,8 +1835,8 @@ int findslotnum(struct char_data *ch, int spelllvl)
 
 void displayslotnum(struct char_data *ch, int class)
 {
-  char buf[MAX_INPUT_LENGTH];
-  char slot_buf[MAX_STRING_LENGTH * 10];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
+  char slot_buf[MAX_STRING_LENGTH * 10]={'\0'};
   int i, j, tmp;
 
   snprintf(slot_buf, sizeof(slot_buf), "test\r\n");
@@ -1867,8 +1867,8 @@ void displayslotnum(struct char_data *ch, int class)
 
 ACMD(do_scribe)
 {
-  char arg1[MAX_INPUT_LENGTH];
-  char arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'};
+  char arg2[MAX_INPUT_LENGTH]={'\0'};
   char *s, buf[READ_SIZE];
   int i, spellnum;
   struct obj_data *obj;

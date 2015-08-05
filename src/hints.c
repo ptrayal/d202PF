@@ -12,15 +12,14 @@
 #include "handler.h"
 #include "interpreter.h"
 
-#define NUM_HINTS 14
+#define NUM_HINTS 15
 
 
 char *hints[];
 
 void show_hints(void)
 {
-
-  int roll;
+  int roll = 0;
   struct char_data *ch, *next_char;
 
   roll = dice(1, NUM_HINTS) - 1;
@@ -45,7 +44,8 @@ void show_hints(void)
 
 }
 
-char *hints[NUM_HINTS] = {
+char *hints[NUM_HINTS] = 
+{
 
   "@R[HINT]: @yDifferent spellcasting classes use different commands to cast their spells.\r\n"
   "See HELP CAST for more information.  Also, some classes require that you memorize your\r\n"
@@ -100,6 +100,8 @@ char *hints[NUM_HINTS] = {
 
   "\r\n",
 
-  "\r\n"
+  "\r\n",
+
+  NULL
 
 };

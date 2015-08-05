@@ -415,7 +415,7 @@ void run_autowiz(void)
 #if defined(CIRCLE_UNIX) || defined(CIRCLE_WINDOWS)
   if (CONFIG_USE_AUTOWIZ) {
     size_t res;
-    char buf[256];
+    char buf[256]={'\0'};
     int i;
 
 #if defined(CIRCLE_UNIX)
@@ -943,26 +943,26 @@ void point_update(void)
 {
 
   num_online = 0;
-  char query[500];	
+  char query[500]={'\0'};
+  char dammes[MAX_STRING_LENGTH]={'\0'};
+  char buf[200]={'\0'};
+  char *account_name;
+  char align[100]={'\0'};
+  char *title;
+  char fbuf[100]={'\0'};
   struct obj_data *j, *next_thing, *jj, *next_thing2;
-  int n;
   struct affected_type *af, af2[2], af3[2], af4[2];
-  int poisonmod = 0;
-  int dam;
-  char dammes[MAX_STRING_LENGTH];
   struct char_data *vict;
-  int fighting = FALSE;  
   struct damreduct_type *reduct, *temp;
   struct char_data *i, *next_char;
-  char buf[200];
-  char *title;
+  int n;
+  int poisonmod = 0;
+  int dam;
+  int fighting = FALSE;  
   int adm = 0;
-  char *account_name;
-  char align[100];
   int save = 0, dc = 0;
   int fight_found = FALSE;
-  char fbuf[100];
-
+  
   // Open mysql connection
   conn = mysql_init(NULL);
   MYSQL_RES *res = NULL;

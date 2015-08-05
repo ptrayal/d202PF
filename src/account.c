@@ -28,8 +28,8 @@ int load_account(char *name, struct account_data *account)
 {
   int i = 0;
   FILE *fl;
-  char fname[READ_SIZE];
-  char buf[128], line[MAX_INPUT_LENGTH + 1], tag[6];
+  char fname[READ_SIZE]={'\0'};
+  char buf[128]={'\0'}, line[MAX_INPUT_LENGTH + 1]={'\0'}, tag[6]={'\0'};
   int num = 0, num2 = 0, num3 = 0;
 
   if (!account)
@@ -137,7 +137,7 @@ int load_account(char *name, struct account_data *account)
 }
 void save_account(struct account_data *account)
 {
-  char fname[100];
+  char fname[100]={'\0'};
   FILE *fl;
   int i = 0;
 
@@ -148,7 +148,7 @@ void save_account(struct account_data *account)
     return;
   if (!(fl = fopen(fname, "w"))) {
     mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open account file %s for write", fname);
-    char newdir[100];
+    char newdir[100]={'\0'};
     if (CONFIG_DFLT_PORT == 9080)
       sprintf(newdir, "/home/aod/d20PlayPort/lib");
     else
@@ -156,7 +156,7 @@ void save_account(struct account_data *account)
 
     if (!chdir(newdir)) {
       mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Could not change directory to %s to salvage shutdown necessity.", newdir);
-      char curdir[500];
+      char curdir[500]={'\0'};
       getcwd(curdir, sizeof(curdir));
       mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Current working directory is %s.", curdir); 
     }
@@ -256,7 +256,7 @@ void show_account_menu(struct descriptor_data *d)
     MYSQL_RES *res = NULL;
     MYSQL_ROW row = NULL;
 
-    char query[MAX_INPUT_LENGTH];
+    char query[MAX_INPUT_LENGTH]={'\0'};
 
     if (d->account) 
     {
@@ -310,29 +310,29 @@ void combine_accounts(void)
 
 char *escape_colorcode(char *query)
 {
+  char escape[MAX_STRING_LENGTH]={'\0'};
 
-    if (!*query)
-        return NULL;
+  
+  if (!*query)
+    return NULL;
 
-    if (strlen(query) >= MAX_STRING_LENGTH)
-        return NULL;
+  if (strlen(query) >= MAX_STRING_LENGTH)
+    return NULL;
 
-    char escape[MAX_STRING_LENGTH];
+  int i = 0, j = 0;
 
-    int i = 0, j = 0;
-
-    for (i = 0; i < strlen(query); i++) {
-        if (query[i] == '@') {
-            escape[i+j] = '@';
-            escape[i + (++j)] = query[i];
-        } else {
-            escape[i+j] = query[i];
-        }
+  for (i = 0; i < strlen(query); i++) {
+    if (query[i] == '@') {
+      escape[i+j] = '@';
+      escape[i + (++j)] = query[i];
+    } else {
+      escape[i+j] = query[i];
     }
+  }
 
-    escape[i+j] = '\0';
+  escape[i+j] = '\0';
 
-    return strdup(escape);
+  return strdup(escape);
 
 }
 

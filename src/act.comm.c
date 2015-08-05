@@ -72,7 +72,8 @@ char const *languages_dl_aol[] =
   "nordmaarian",
   "icespeak",
   "barbarian",
-  "\n"
+  "\n",
+  NULL
 };
 
 char const *languages_fr[] =
@@ -111,12 +112,13 @@ char const *languages_fr[] =
   "protean",
   "treant",
   "undercommon",
-  "\n"
+  "\n",
+  NULL
 };
 
 void list_languages(struct char_data *ch)
 {
-    int a = 0, i;
+    int a = 0, i = 0;
 
     send_to_char(ch, "Languages Known (red means currently speaking):\r\n[");
         for (i = MIN_LANGUAGES ; i <= CampaignMaxLanguages() ; i++)
@@ -131,8 +133,8 @@ void list_languages(struct char_data *ch)
 
 ACMD(do_languages)
 {
-    int i, found = false;
-    char arg[MAX_STRING_LENGTH];
+    int i = 0, found = false;
+    char arg[MAX_STRING_LENGTH]={'\0'};
 
     if (CONFIG_ENABLE_LANGUAGES) 
     {
@@ -170,7 +172,7 @@ ACMD(do_languages)
 void garble_text(char *string, int known, int lang)
 {
   char letters[50] = "";
-  int i;
+  int i = 0;
 
   switch (lang) {
   case SKILL_LANG_DWARVEN:
@@ -215,19 +217,22 @@ ACMD(do_say)
 
 ACMD(do_say_languages)
 {
-  char nametext[100];
-  char logmsg[MAX_STRING_LENGTH];
+  char nametext[100]={'\0'};
+  char logmsg[MAX_STRING_LENGTH]={'\0'};
 
   skip_spaces(&argument);
 
-  if(!*argument) {
+  if(!*argument) 
+  {
     send_to_char(ch, "Yes, but WHAT do you want to say?\r\n");
     return;
-  } else {
-    char ibuf[MAX_INPUT_LENGTH];
-    char obuf[MAX_INPUT_LENGTH];
-    char nbuf[MAX_INPUT_LENGTH];
-    char verb[10];
+  } 
+  else 
+  {
+    char ibuf[MAX_INPUT_LENGTH]={'\0'};
+    char obuf[MAX_INPUT_LENGTH]={'\0'};
+    char nbuf[MAX_INPUT_LENGTH]={'\0'};
+    char verb[10]={'\0'};
     struct char_data *tch;
 
     strcpy(nbuf, argument);     /* for intro purposes */
@@ -306,8 +311,8 @@ ACMD(do_osay)
   if (!*argument)
     send_to_char(ch, "Yes, but WHAT do you want to say out of character?\r\n");
   else {
-    char buf[MAX_INPUT_LENGTH + 12];
-    char verb[10];
+    char buf[MAX_INPUT_LENGTH + 12]={'\0'};
+    char verb[10]={'\0'};
 
     if (argument[strlen(argument)-1] == '!')
       strcpy(verb, "exclaim");
@@ -356,7 +361,7 @@ ACMD(do_gsay)
   if (!*argument)
     send_to_char(ch, "Yes, but WHAT do you want to group-say?\r\n");
   else {
-    char buf[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH]={'\0'};
 
     if (ch->master)
       k = ch->master;
@@ -391,7 +396,7 @@ ACMD(do_gsay)
 
 void perform_tell(struct char_data *ch, struct char_data *vict, char *arg)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   snprintf(buf, sizeof(buf), "@M$n tells you, '%s@M'@n", arg);
   act(buf, false, ch, 0, vict, TO_VICT | TO_SLEEP);
@@ -447,7 +452,7 @@ int is_tell_ok(struct char_data *ch, struct char_data *vict)
 ACMD(do_tell)
 {
   struct char_data *vict = NULL;
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
 
   if (PLR_FLAGGED(ch, PLR_NOSHOUT)) {
     send_to_char(ch, "You move your mouth but no sound comes out.\r\n");
@@ -519,7 +524,7 @@ ACMD(do_reply)
 
 ACMD(do_spec_comm)
 {
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *vict;
   const char *action_sing, *action_plur, *action_others;
 
@@ -567,7 +572,7 @@ ACMD(do_spec_comm)
   else if (vict == ch)
     send_to_char(ch, "You can't get your mouth close enough to your ear...\r\n");
   else {
-    char buf1[MAX_STRING_LENGTH];
+    char buf1[MAX_STRING_LENGTH]={'\0'};
 
     snprintf(buf1, sizeof(buf1), "$n %s you, '%s'", action_plur, buf2);
     act(buf1, false, ch, 0, vict, TO_VICT);
@@ -592,7 +597,7 @@ ACMD(do_write)
   extern struct index_data *obj_index;
   struct obj_data *paper, *pen = NULL, *obj;
   char *papername, *penname;
-  char buf1[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
 
   /* before we do anything, lets see if there's a board involved. */
   for (obj = ch->carrying; obj;obj=obj->next_content) {
@@ -693,7 +698,7 @@ ACMD(do_page)
 {
   struct descriptor_data *d;
   struct char_data *vict;
-  char buf2[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
+  char buf2[MAX_INPUT_LENGTH]={'\0'}, arg[MAX_INPUT_LENGTH]={'\0'};
 
 
   if (has_curse_word(ch, argument)) {
@@ -707,7 +712,7 @@ ACMD(do_page)
   else if (!*arg)
     send_to_char(ch, "Whom do you wish to page?\r\n");
   else {
-    char buf[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH]={'\0'};
 
     snprintf(buf, sizeof(buf), "\007\007*$n* %s", buf2);
     if (!str_cmp(arg, "all")) {
@@ -738,8 +743,8 @@ ACMD(do_page)
 ACMD(do_gen_comm)
 {
   struct descriptor_data *i;
-  char color_on[24];
-  char buf1[MAX_INPUT_LENGTH];
+  char color_on[24]={'\0'};
+  char buf1[MAX_INPUT_LENGTH]={'\0'};
 
   if (subcmd == SCMD_SHOUT && AFF_FLAGGED(ch, AFF_WILD_SHAPE) &&
       (race_list[GET_RACE(ch)].family == RACE_TYPE_ANIMAL ||
@@ -764,7 +769,8 @@ ACMD(do_gen_comm)
    *           [2] message if you're not on the channel
    *           [3] a color string.
    */
-  const char *com_msgs[][4] = {
+  const char *com_msgs[][4] = 
+  {
     {"You cannot holler!!\r\n",
       "holler",
       "",
@@ -885,7 +891,7 @@ ACMD(do_gen_comm)
       act(buf1, false, ch, 0, i->character, TO_VICT | TO_SLEEP);
     }
   }
-  char logmsg[MAX_STRING_LENGTH];
+  char logmsg[MAX_STRING_LENGTH]={'\0'};
 
   for (i = descriptor_list; i; i = i->next) {
     if (IS_PLAYING(i) && i != ch->desc && i->character &&
@@ -926,7 +932,7 @@ ACMD(do_qcomm)
   if (!*argument)
     send_to_char(ch, "%c%s?  Yes, fine, %s we must, but WHAT??\r\n", UPPER(*CMD_NAME), CMD_NAME + 1, CMD_NAME);
   else {
-    char buf[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH]={'\0'};
     struct descriptor_data *i;
 
     if (PRF_FLAGGED(ch, PRF_NOREPEAT))
@@ -951,7 +957,7 @@ ACMD(do_qcomm)
 ACMD(do_respond) {
   int found=0,mnum=0;
   struct obj_data *obj;
-  char number[MAX_STRING_LENGTH];
+  char number[MAX_STRING_LENGTH]={'\0'};
   
   if(IS_NPC(ch)) {
     send_to_char(ch,"As a mob, you never bothered to learn to read or write.\r\n");

@@ -94,8 +94,8 @@ void House_restore_weight(struct obj_data *obj)
 void House_crashsave(room_vnum vnum)
 {
 
-  int rnum;
-  char buf[MAX_STRING_LENGTH];
+  int rnum = 0;
+  char buf[MAX_STRING_LENGTH]={'\0'};
   FILE *fp;
 
   if ((rnum = real_room(vnum)) == NOWHERE)
@@ -121,7 +121,7 @@ void House_delete_file(room_vnum vnum)
 {
   return;
 
-  char filename[MAX_INPUT_LENGTH];
+  char filename[MAX_INPUT_LENGTH]={'\0'};
   FILE *fl;
 
   if (!House_get_filename(vnum, filename, sizeof(filename)))
@@ -244,9 +244,9 @@ const char *HCONTROL_FORMAT =
 
 void hcontrol_list_houses(struct char_data *ch)
 {
-  int i;
+  int i = 0;
   char *timestr, *temp;
-  char built_on[128], last_pay[128], own_name[MAX_NAME_LENGTH + 1];
+  char built_on[128]={'\0'}, last_pay[128]={'\0'}, own_name[MAX_NAME_LENGTH + 1]={'\0'};
 
   if (!num_of_houses) {
     send_to_char(ch, "No houses have been defined.\r\n");
@@ -289,7 +289,7 @@ void hcontrol_list_houses(struct char_data *ch)
 
 void hcontrol_build_house(struct char_data *ch, char *arg)
 {
-  char arg1[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'};
   struct house_control_rec temp_house;
   room_vnum virt_house, virt_atrium;
   room_rnum real_house, real_atrium;
@@ -377,7 +377,7 @@ void hcontrol_build_house(struct char_data *ch, char *arg)
 void hcontrol_destroy_house(struct char_data *ch, char *arg)
 {
 
-  int i, j;
+  int i = 0, j = 0;
   room_rnum real_atrium, real_house;
 
   if (!*arg) {
@@ -424,7 +424,7 @@ void hcontrol_destroy_house(struct char_data *ch, char *arg)
 
 void hcontrol_pay_house(struct char_data *ch, char *arg)
 {
-  int i;
+  int i = 0;
 
   if (!*arg)
     send_to_char(ch, "%s", HCONTROL_FORMAT);
@@ -443,7 +443,7 @@ void hcontrol_pay_house(struct char_data *ch, char *arg)
 /* The hcontrol command itself, used by imms to create/destroy houses */
 ACMD(do_hcontrol)
 {
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
 
   half_chop(argument, arg1, arg2);
 
@@ -463,8 +463,8 @@ ACMD(do_hcontrol)
 /* The house command, used by mortal house owners to assign guests */
 ACMD(do_house)
 {
-  char arg[MAX_INPUT_LENGTH];
-  int i, j, id;
+  char arg[MAX_INPUT_LENGTH]={'\0'};
+  int i = 0, j = 0, id = 0;
 
   one_argument(argument, arg);
 
@@ -541,7 +541,7 @@ int House_can_enter(struct char_data *ch, room_vnum house)
 
 void House_list_guests(struct char_data *ch, int i, int quiet)
 {
-  int j, num_printed;
+  int j = 0, num_printed = 0;
   char *temp;
 
   if (house_control[i].num_of_guests == 0) {
@@ -823,12 +823,14 @@ int House_load(room_vnum rvnum)
 }
 
 
-int is_house_yours(struct char_data *ch, int vnum) {
-  int i;
+int is_house_yours(struct char_data *ch, int vnum) 
+{
+  int i = 0;
   char *temp;
-  char own_name[MAX_NAME_LENGTH + 1];
+  char own_name[MAX_NAME_LENGTH + 1]={'\0'};
 
-  if (!num_of_houses) {
+  if (!num_of_houses) 
+  {
     return FALSE;
   }
 
@@ -847,12 +849,14 @@ int is_house_yours(struct char_data *ch, int vnum) {
   return FALSE;
 }
 
-void list_your_houses(struct char_data *ch) {
-  int i;
+void list_your_houses(struct char_data *ch) 
+{
+  int i = 0;
   char *timestr, *temp;
-  char built_on[128], last_pay[128], own_name[MAX_NAME_LENGTH + 1];
+  char built_on[128]={'\0'}, last_pay[128]={'\0'}, own_name[MAX_NAME_LENGTH + 1]={'\0'};
 
-  if (!num_of_houses) {
+  if (!num_of_houses) 
+  {
     send_to_char(ch, "No houses have been defined.\r\n");
     return;
   }
@@ -893,8 +897,7 @@ void list_your_houses(struct char_data *ch) {
 
 ACMD(do_hpay)
 {
-
-  char arg[200];
+  char arg[200]={'\0'};
 
   one_argument(argument, arg);
 

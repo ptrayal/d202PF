@@ -154,7 +154,7 @@ ASPELL(spell_dispel_magic)
 
   struct affected_type *af = NULL;
   int violent = TRUE;
-  char buf[100];
+  char buf[100]={'\0'};
   int found = FALSE;
 
   if (is_player_grouped(ch, victim))
@@ -381,7 +381,7 @@ ASPELL(spell_summon)
 ASPELL(spell_locate_object)
 {
   struct obj_data *i;
-  char name[MAX_INPUT_LENGTH];
+  char name[MAX_INPUT_LENGTH]={'\0'};
   int j;
 
   /*
@@ -534,12 +534,13 @@ ASPELL(spell_identify)
 {
   int i, found, spellnum = 0;
   size_t len;
-  char buf[200];
-  char keyw[100];
+  char buf[200]={'\0'};
+  char keyw[100]={'\0'};
 
-  if (obj) {
-    char bitbuf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
+  if (obj) 
+  {
+    char bitbuf[MAX_STRING_LENGTH]={'\0'};
+    char buf2[MAX_STRING_LENGTH]={'\0'};
 
     SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_IDENTIFIED);
 	
@@ -882,7 +883,7 @@ ASPELL(art_abundant_step)
 {
   int steps, i=0, rep, max;
   room_rnum r, nextroom;
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   const char *p;
 
   steps = 0;
@@ -1011,7 +1012,7 @@ ASPELL(spell_wish)
   gain_exp(ch, -500000);
   GET_WISHES(victim)++;
 
-  char buf[200];
+  char buf[200]={'\0'};
 
   if (ch != victim) {
     sprintf(buf, "You grant $N a wish for a cost of 100,000 gold coins and 500,000 experience points.");
@@ -1031,7 +1032,7 @@ ASPELL(spell_wish_ring)
 
   GET_WISHES(victim)++;
 
-  char buf[200];
+  char buf[200]={'\0'};
 
   if (ch != victim) {
     sprintf(buf, "You grant $N a wish for a cost of 100,000 gold coins and 500,000 experience points.");
@@ -1050,7 +1051,7 @@ ACMD(do_wish)
     return;
   }
 
-  char result[100];
+  char result[100]={'\0'};
   struct char_data *victim = ch;
 
   one_argument(argument, result);

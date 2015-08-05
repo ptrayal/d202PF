@@ -68,8 +68,8 @@ ACMD(do_oasis_sedit)
   shop_rnum real_num;
   struct descriptor_data *d;
   char *buf3;
-  char buf1[MAX_INPUT_LENGTH];
-  char buf2[MAX_INPUT_LENGTH];
+  char buf1[MAX_INPUT_LENGTH]={'\0'};
+  char buf2[MAX_INPUT_LENGTH]={'\0'};
   
   /****************************************************************************/
   /** Parse any arguments.                                                   **/
@@ -365,8 +365,8 @@ void sedit_namelist_menu(struct descriptor_data *d)
 
 void sedit_shop_flags_menu(struct descriptor_data *d)
 {
-  char bits[MAX_STRING_LENGTH];
-  int i, count = 0;
+  char bits[MAX_STRING_LENGTH]={'\0'};
+  int i = 0, count = 0;
 
   clear_screen(d);
   for (i = 0; i < NUM_SHOP_FLAGS; i++) {
@@ -382,8 +382,8 @@ void sedit_shop_flags_menu(struct descriptor_data *d)
 
 void sedit_no_trade_menu(struct descriptor_data *d)
 {
-  char bits[MAX_STRING_LENGTH];
-  int i, count = 0;
+  char bits[MAX_STRING_LENGTH]={'\0'};
+  int i = 0, count = 0;
 
   clear_screen(d);
   for (i = 0; i < NUM_TRADERS; i++) {
@@ -421,8 +421,8 @@ void sedit_types_menu(struct descriptor_data *d)
  */
 void sedit_disp_menu(struct descriptor_data *d)
 {
-  char buf1[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
   struct shop_data *shop;
 
   shop = OLC_SHOP(d);
@@ -480,7 +480,7 @@ void sedit_disp_menu(struct descriptor_data *d)
 
 void sedit_parse(struct descriptor_data *d, char *arg)
 {
-  int i;
+  int i = 0;
 
   if (OLC_MODE(d) > SEDIT_NUMERICAL_RESPONSE) {
     if (!isdigit(arg[0]) && ((*arg == '-') && (!isdigit(arg[1])))) {

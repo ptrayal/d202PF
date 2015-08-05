@@ -170,8 +170,7 @@ ACMD(do_showguild)
 
 ACMD(do_setfalseethos)
 {
-
-  char arg[100];
+  char arg[100]={'\0'};
   int ethos = 0;
   int prev = 0;
 
@@ -212,8 +211,7 @@ ACMD(do_setfalseethos)
 
 ACMD(do_setfalsealign)
 {
-
-  char arg[100];
+  char arg[100]={'\0'};
   int align = 0;
   int prev = 0;
 
@@ -470,8 +468,7 @@ ACMD(do_guildscore)
 
 ACMD(do_guildexp)
 {
-
-  char arg[200], arg2[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'};
 
   two_arguments(argument, arg, arg2);
 
@@ -575,7 +572,8 @@ ACMD(do_guildexp)
   }
 }
 
-char *guild_bonuses[NUM_PLAYER_GUILDS][4] = {
+char *guild_bonuses[NUM_PLAYER_GUILDS][4] = 
+{
   {
     // Fighter's Guild
     "20% base +8% per rank chance for 0.5 bonus per rank to melee weapon attack rolls",

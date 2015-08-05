@@ -89,8 +89,8 @@ void determine_treasure(struct char_data *ch, struct char_data *mob)
   int factor = 30;
   int gold = 0;
   int level = GET_LEVEL(mob);
-  char gold_buf[MAX_STRING_LENGTH];
-  char buf[MAX_STRING_LENGTH];
+  char gold_buf[MAX_STRING_LENGTH]={'\0'};
+  char buf[MAX_STRING_LENGTH]={'\0'};
   int grade = GRADE_MUNDANE;
 
   if (IS_NPC(ch) && AFF_FLAGGED(ch, AFF_CHARM) && ch->master)
@@ -227,7 +227,7 @@ void award_masterwork_item(struct char_data *ch, int vnum)
 {
 
   struct obj_data *obj = NULL;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   int sizeIncrease = 0;
 
   obj = read_object(vnum, VIRTUAL);
@@ -273,8 +273,8 @@ void award_masterwork_item(struct char_data *ch, int vnum)
 ACMD(do_loadmagic)
 {
 
-  char arg1[MAX_STRING_LENGTH];
-  char arg2[MAX_STRING_LENGTH];
+  char arg1[MAX_STRING_LENGTH]={'\0'};
+  char arg2[MAX_STRING_LENGTH]={'\0'};
 
   int number = 1;
   int grade = 0;
@@ -332,7 +332,7 @@ void award_expendable_item(struct char_data *ch, int grade, int type)
   int staff = FALSE;
   int potion = FALSE;
   int count = 0;
-  char keywords[100];
+  char keywords[100]={'\0'};
 
   if (type == TYPE_STAFF)
     staff = TRUE;
@@ -344,7 +344,7 @@ void award_expendable_item(struct char_data *ch, int grade, int type)
     potion = TRUE;
 
 
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   roll = dice(1, 100);
 
@@ -702,13 +702,13 @@ void award_magic_armor(struct char_data *ch, int grade, int moblevel) {
   int robes = FALSE;
   int material = MATERIAL_STEEL;
   int desc1 = 0, desc2 = 0, desc3 = 0;
-  char desc[MAX_STRING_LENGTH];
-  char newDesc[MAX_STRING_LENGTH];
-  char keywords[MAX_STRING_LENGTH];
+  char desc[MAX_STRING_LENGTH]={'\0'};
+  char newDesc[MAX_STRING_LENGTH]={'\0'};
+  char keywords[MAX_STRING_LENGTH]={'\0'};
   int crest = 0, color1 = 0, color2 = 0, armor_special_desc_roll = 0;
   int size = 0;
   struct obj_data *obj;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   int ac_bonus = 0;
 
@@ -1094,13 +1094,13 @@ void award_magic_weapon(struct char_data *ch, int grade, int moblevel) {
   int hit_bonus = 0;
   int dmg_bonus = 0;
   struct obj_data *obj;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   int special_roll = 0;
   int head_color_roll = 0;
   int hilt_color_roll = 0;
-  char special[100];
-  char head_color[100];
-  char hilt_color[100];
+  char special[100]={'\0'};
+  char head_color[100]={'\0'};
+  char hilt_color[100]={'\0'};
 
   if (grade == GRADE_MUNDANE) {
     hit_bonus = 1;
@@ -1271,7 +1271,7 @@ void award_magic_weapon(struct char_data *ch, int grade, int moblevel) {
     raregrade = 1;
   }
 
-  char desc[50];
+  char desc[50]={'\0'};
   if (raregrade == 0)
     sprintf(desc, "@n");
   else if (raregrade == 1)
@@ -1558,7 +1558,7 @@ void award_misc_magic_item(struct char_data *ch, int grade, int moblevel) {
   struct obj_data *obj;
   int i = 0;
   int size = 0;
-  char desc[200];
+  char desc[200]={'\0'};
   
   // Figure out which item grade power it is and then find out the bonus of the effect on the item
   
@@ -1736,7 +1736,7 @@ void award_misc_magic_item(struct char_data *ch, int grade, int moblevel) {
     raregrade = 1;
   }
 
-  char rdesc[50];
+  char rdesc[50]={'\0'};
   if (raregrade == 0)
     sprintf(rdesc, "@n");
   else if (raregrade == 1)
@@ -2020,7 +2020,8 @@ int choose_cloth_material(void) {
     return MATERIAL_HEMP;
 }
 
-char *gemstones[] = {
+char *gemstones[] = 
+{
   "onyx",
   "obsidian",
   "amber",
@@ -2050,13 +2051,15 @@ char *gemstones[] = {
   "turquoise"
 };
 
-char *ring_descs[] = {
+char *ring_descs[] = 
+{
   "ring",
   "ring",
   "band"
 };
 
-char *wrist_descs[] = {
+char *wrist_descs[] = 
+{
   "bracer",
   "bracer",
   "bracer",
@@ -2069,7 +2072,8 @@ char *wrist_descs[] = {
   "charm"
 };
 
-char *neck_descs[] = {
+char *neck_descs[] = 
+{
   "necklace",
   "necklace",
   "necklace",
@@ -2086,7 +2090,8 @@ char *neck_descs[] = {
   "locket"
 };
 
-char *head_descs[] = {
+char *head_descs[] = 
+{
   "helmet",
   "helmet",
   "helm",
@@ -2106,14 +2111,16 @@ char *head_descs[] = {
   "headband"
 };
 
-char *hands_descs[] = {
+char *hands_descs[] = 
+{
   "gauntlets",
   "gloves",
   "gauntlets",
   "gloves"
 };
 
-char *cloak_descs[] = {
+char *cloak_descs[] = 
+{
   "cloak",
   "cloak",
   "cloak",
@@ -2121,7 +2128,8 @@ char *cloak_descs[] = {
   "cape"
 };
 
-char *waist_descs[] = {
+char *waist_descs[] = 
+{
   "belt",
   "belt",
   "belt",
@@ -2130,7 +2138,8 @@ char *waist_descs[] = {
   "sash"
 };
 
-char *boot_descs[] = {
+char *boot_descs[] = 
+{
   "boots",
   "boots",
   "boots",
@@ -2144,7 +2153,8 @@ char *boot_descs[] = {
   "slippers"
 };
 
-char *blade_descs[] = {
+char *blade_descs[] = 
+{
   "serrated",
   "barbed",
   "sharp",
@@ -2179,7 +2189,8 @@ char *blade_descs[] = {
   "brutal"
 };
 
-char *piercing_descs[] = {
+char *piercing_descs[] = 
+{
   "barbed",
   "sharp",
   "needle-sharp",
@@ -2211,7 +2222,8 @@ char *piercing_descs[] = {
   "brutal"
 };
 
-char *blunt_descs[] = {
+char *blunt_descs[] = 
+{
   "gem-encrusted",
   "jewel-encrusted",
   "finely-forged",
@@ -2244,7 +2256,8 @@ char *blunt_descs[] = {
   "anointed"
 };
 
-char *colors[] = {
+char *colors[] = 
+{
   "amber",
   "amethyst",
   "azure",
@@ -2292,7 +2305,8 @@ char *colors[] = {
   "yellow"
 };
 
-char *crystal_descs[] = {
+char *crystal_descs[] = 
+{
   "sparkling",
   "shimmering",
   "iridescent",
@@ -2313,7 +2327,8 @@ char *crystal_descs[] = {
   "tenebrous"
 };
 
-char *potion_descs[] = {
+char *potion_descs[] = 
+{
 
   "sparkling",
   "shimmering",
@@ -2347,7 +2362,8 @@ char *potion_descs[] = {
   "tenebrous"
 };
 
-char *armor_special_descs[] = {
+char *armor_special_descs[] = 
+{
   "spiked",
   "engraved",
   "ridged",
@@ -2376,7 +2392,8 @@ char *armor_special_descs[] = {
   "platinum-laced"
 };
 
-char *armor_crests[] = {
+char *armor_crests[] = 
+{
   "falcon",
   "dragon",
   "rose",
@@ -2863,7 +2880,7 @@ void get_random_crystal(struct char_data *ch, int level) {
 
   i = 0;
   int size = 0;
-  char buf[200];
+  char buf[200]={'\0'};
   while (*(colors + i++)) { /* counting array */ }
   size = i;
   color_1 = MAX(1, dice(1, (int) size) - 1);
@@ -3082,7 +3099,7 @@ void assign_qp_value(struct obj_data *obj) {
 void award_special_magic_item(struct char_data *ch)
 {
   struct obj_data *obj = NULL;
-  char buf[200];
+  char buf[200]={'\0'};
 
   // Ring of Three Wishes  
   obj = read_object(30188, VIRTUAL);

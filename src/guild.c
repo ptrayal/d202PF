@@ -98,7 +98,8 @@ const char *how_good(int percent)
   return "(@rinate@n)";
 }
 
-const char *prac_types[] = {
+const char *prac_types[] = 
+{
   "spell",
   "skill"
 };
@@ -258,13 +259,14 @@ spell_info[spell_sort_info[i]].name, GET_SKILL(ch,
 
 }
 
-ACMD(do_artisan) {
-
-  char arg[200];
+ACMD(do_artisan) 
+{
+  char arg[200]={'\0'};
 
   one_argument(argument, arg);
 
-  if (GET_ARTISAN_TYPE(ch) == 0) {
+  if (GET_ARTISAN_TYPE(ch) == 0) 
+  {
     if (!*arg) {
       send_to_char(ch, "You must select an artisan type from the following list:\r\n"
                        "smith (blacksmithing, goldsmithing & mining)\r\n"
@@ -337,8 +339,8 @@ ACMD(do_artisan) {
 int print_skills_by_type(struct char_data *ch, char *buf, int maxsz, int sktype)
 {
   size_t len = 0;
-  int i, t, known, nlen;
-  char buf2[READ_SIZE];
+  int i = 0, t = 0, known = 0, nlen = 0;
+  char buf2[READ_SIZE]={'\0'};
 
   for (i = 1; i <= SKILL_TABLE_SIZE; i++) { 
     t = spell_info[i].skilltype;
@@ -392,7 +394,7 @@ void list_skills(struct char_data *ch)
 
   const char *overflow = "\r\n**OVERFLOW**\r\n";
   size_t len = 0;
-  char buf2[MAX_STRING_LENGTH];
+  char buf2[MAX_STRING_LENGTH]={'\0'};
 
   len = snprintf(buf2, sizeof(buf2), "You have %d practice session%s remaining.\r\n", GET_PRACTICES(ch, GET_CLASS(ch)), GET_PRACTICES(ch, GET_CLASS(ch)) == 1 ? "" : "s");
 
@@ -417,7 +419,7 @@ void list_skills(struct char_data *ch)
 
 int is_guild_open(struct char_data *keeper, int guild_nr, int msg)
 {
-  char buf[200];
+  char buf[200]={'\0'};
   *buf = 0;
 
   if (GM_OPEN(guild_nr) > time_info.hours &&
@@ -435,7 +437,7 @@ int is_guild_open(struct char_data *keeper, int guild_nr, int msg)
 
 int is_guild_ok_char(struct char_data * keeper, struct char_data * ch, int guild_nr)
 {
-	char buf[200];
+	char buf[200]={'\0'};
 
 	if (!(CAN_SEE(keeper, ch))) {
 		do_say(keeper, MSG_TRAINER_NO_SEE_CH, cmd_say, 0);
@@ -542,7 +544,7 @@ void sort_skills(void)
   return;
 
   int i=0, j=0, k=0, temp=0;
-  char wordA[100], wordB[100];
+  char wordA[100]={'\0'}, wordB[100]={'\0'};
 
   for (i = SKILL_LOW_SKILL; i <= SKILL_HIGH_SKILL; i++)
     sorted_skill_list[i-SKILL_LOW_SKILL] = i;
@@ -573,7 +575,7 @@ void sort_languages(void)
 {
 
   int i=0, j=0, k=0, temp=0;
-  char wordA[100], wordB[100];
+  char wordA[100]={'\0'}, wordB[100]={'\0'};
 
   for (i = SKILL_LANG_LOW; i <= SKILL_LANG_HIGH; i++)
     sorted_skill_list[i-SKILL_LANG_LOW] = i;
@@ -995,7 +997,7 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
 {
   struct damreduct_type *dptr, *reduct, *temp;
   int feat_num, subval, sftype, subfeat, q=0;
-  char *ptr, buf[MAX_STRING_LENGTH];
+  char *ptr, buf[MAX_STRING_LENGTH]={'\0'};
   int feat_type = FEAT_TYPE_NORMAL;
   int feat_points, epic_feat_points, class_feat_points, epic_class_feat_points;
 
@@ -1398,8 +1400,9 @@ ACMD(do_practice_skills)
 SPECIAL(guild)
 {
 //  char arg[MAX_INPUT_LENGTH];
-  int i;
-  struct {
+  int i = 0;
+  struct 
+  {
     const char *cmd;
     void (*func)(struct char_data *, int, struct char_data *, char *);
   } guild_cmd_tab[] = {
@@ -1437,7 +1440,7 @@ void clear_skills(int index)
 
 void read_guild_line(FILE * gm_f, char *string, void *data, char *type)
 {
-	char buf[MAX_STRING_LENGTH];
+	char buf[MAX_STRING_LENGTH]={'\0'};
 	
 	if (!get_line(gm_f, buf) || !sscanf(buf, string, data)) {
 		fprintf(stderr, "Error in guild #%d, Could not get %s\n", GM_NUM(top_guild), type);
@@ -1448,7 +1451,7 @@ void read_guild_line(FILE * gm_f, char *string, void *data, char *type)
 
 void boot_the_guilds(FILE * gm_f, char *filename, int rec_count)
 {
-  char *buf, buf2[256], *p;
+  char *buf, buf2[256]={'\0'}, *p;
   int temp, val;
   int done = FALSE;
 
@@ -1575,7 +1578,7 @@ void list_all_guilds(struct char_data *ch)
   "-------------------------------------------------------------\r\n";
   int gm_nr, headerlen = strlen(list_all_guilds_header);
   size_t len = 0;
-  char buf[MAX_STRING_LENGTH], buf1[16];
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf1[16]={'\0'};
 
   *buf = '\0';
   for (gm_nr = 0; gm_nr <= top_guild && len < sizeof(buf); gm_nr++) {
@@ -1607,8 +1610,8 @@ void list_all_guilds(struct char_data *ch)
 void list_detailed_guild(struct char_data * ch, int gm_nr)
 {
   int i;
-  char buf[MAX_STRING_LENGTH];
-  char buf1[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  char buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
 
   if (GM_TRAINER(gm_nr) < 0)
     strcpy(buf1, "<NONE>");
@@ -1739,7 +1742,7 @@ void destroy_guilds(void)
 
 int count_guilds(guild_vnum low, guild_vnum high)
 {
-  int i, j;
+  int i = 0, j = 0;
   
   for (i = j = 0; GM_NUM(i) <= high; i++)
     if (GM_NUM(i) >= low)

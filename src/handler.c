@@ -113,7 +113,7 @@ int isname(const char *str, const char *namelist)
   char *newlist;
   char *strlist;
   char *curtok;
-  char temp[200];
+  char temp[200]={'\0'};
   char *toks[10];
   int i = 0, j = 0, k = 0;
   int found[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
@@ -1111,9 +1111,9 @@ struct obj_data *unequip_char(struct char_data *ch, int pos)
 
 int get_number(char **name)
 {
-  int i;
+  int i = 0;
   char *ppos;
-  char number[MAX_INPUT_LENGTH];
+  char number[MAX_INPUT_LENGTH]={'\0'};
 
   *number = '\0';
 
@@ -1995,7 +1995,7 @@ struct obj_data *create_money(int amount)
 {
   struct obj_data *obj;
   struct extra_descr_data *new_descr;
-  char buf[200];
+  char buf[200]={'\0'};
   int y;
 
   if (amount <= 0) {
@@ -2066,11 +2066,10 @@ struct obj_data *create_money(int amount)
  * like the one_argument routine), but now it returns an integer that
  * describes what it filled in.
  */
-int generic_find(char *arg, bitvector_t bitvector, struct char_data *ch,
-		     struct char_data **tar_ch, struct obj_data **tar_obj)
+int generic_find(char *arg, bitvector_t bitvector, struct char_data *ch, struct char_data **tar_ch, struct obj_data **tar_obj)
 {
   int i, found, number;
-  char name_val[MAX_INPUT_LENGTH];
+  char name_val[MAX_INPUT_LENGTH]={'\0'};
   char *name = name_val;
 
   *tar_ch = NULL;
@@ -2838,7 +2837,8 @@ return FALSE;
 
 }
 
-const char *last_array[11] = {
+const char *last_array[11] = 
+{
   "Connect",
   "Enter Game",
   "Reconnect",
@@ -2993,10 +2993,12 @@ void add_llog_entry(struct char_data *ch, int type) {
 }
 
 /* debugging stuff, if you wanna see the whole file */
-char *list_llog_entry() {
+char *list_llog_entry() 
+{
   FILE *fp;
   struct last_entry llast;
-  char buffer[12800];
+  char buffer[12800]={'\0'};
+  char storage_buffer[12800]={'\0'};
   extern const char *last_array[];
 
   if(!(fp=fopen(LAST_FILE,"r"))) {
@@ -3009,12 +3011,12 @@ char *list_llog_entry() {
   fread(&llast,sizeof(struct last_entry),1,fp);
 
   while(!feof(fp)) {
-    sprintf(buffer,"%s%10s\t%s\t%d\t%s",
+    snprintf(storage_buffer, sizeof(storage_buffer),"%s%10s\t%s\t%d\t%s",
         buffer,llast.username,last_array[llast.close_type],
         llast.punique,ctime(&llast.time));
     fread(&llast,sizeof(struct last_entry),1,fp);
   }
-  return strdup(buffer);
+  return strdup(storage_buffer);
 }
 
 void extract_linkless_characters(void)

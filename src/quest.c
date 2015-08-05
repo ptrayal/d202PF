@@ -29,7 +29,9 @@ extern struct room_data *world;
 extern long asciiflag_conv(char *flag);
 /* Local Variables */
 int cmd_tell;
-const char *quest_types[] = {
+
+const char *quest_types[] = 
+{
   "Object",
   "Room",
   "Find mob",
@@ -39,14 +41,21 @@ const char *quest_types[] = {
   "Clear room",
   "\n"
 };
-const char *aq_flags[] = {
+
+const char *aq_flags[] = 
+{
   "REPEATABLE",
   "\n"
 };
-const char *quest_cmd[] = {
-  "list", "history", "join", "leave", "progress", "status", "\n"};
+
+const char *quest_cmd[] = 
+{
+  "list", "history", "join", "leave", "progress", "status", "\n"
+};
+
 const char *quest_mort_usage =
   "Usage: quest list | history | progress | join <nn> | leave";
+
 const char *quest_imm_usage =
   "Usage: quest list | history | progress | join <nn> | leave | status <vnum>";
 
@@ -120,10 +129,10 @@ int count_quests(qst_vnum low, qst_vnum high)
 
 void parse_quest(FILE *quest_f, int nr)
 {
-  static char line[256];
+  static char line[256]={'\0'};
   static int i = 0, j;
   int retval = 0, t[7];
-  char f1[128], buf2[MAX_STRING_LENGTH];
+  char f1[128]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   aquest_table[i].vnum = nr;
   aquest_table[i].qm = NOBODY;
   aquest_table[i].name = NULL;
@@ -526,7 +535,7 @@ void quest_join(struct char_data *ch, struct char_data *qm, char argument[MAX_IN
 {
   qst_vnum vnum;
   qst_rnum rnum;
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
 
   if (!*argument)
     snprintf(buf, sizeof(buf),
@@ -676,8 +685,8 @@ void quest_show(struct char_data *ch, mob_rnum qm)
 void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
 {
   qst_rnum rnum;
-  char buf[MAX_STRING_LENGTH];
-  char targetname[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  char targetname[MAX_STRING_LENGTH]={'\0'};
 
   if (GET_LEVEL(ch) < ADMLVL_IMMORT)
     send_to_char(ch, "Huh!?!\r\n");
@@ -777,7 +786,7 @@ void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
 
 ACMD(do_quest)
 {
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_STRING_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_STRING_LENGTH]={'\0'};
   int  tp = 0;
 
   two_arguments(argument, arg1, arg2);
@@ -823,7 +832,7 @@ SPECIAL(questmaster)
     return 0;
 
   qst_rnum rnum;
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
   int  tp;
   struct char_data *qm = (struct char_data *)me;
 

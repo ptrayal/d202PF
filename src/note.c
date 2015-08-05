@@ -28,7 +28,8 @@ void note_list_all_cats(struct char_data *ch) {
 
   int num_cats = 0;
   int unread = 0, total = 0;
-  char buf[400];
+  char buf[400]={'\0'};
+  char storage_buffer[MSL]={'\0'};
 
   // Open mysql connection
   conn2 = mysql_init(NULL);
@@ -112,20 +113,19 @@ void note_list_all_cats(struct char_data *ch) {
     cat_text_fin[i] = strdup(buf);
   }
 
-  char name_buf[500];
+  char name_buf[500]={'\0'};
 
   sprintf(name_buf, " WHERE ");
 
   if (ch->desc->account) {
     for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
       if (ch->desc->account->character_names[i] != NULL) {
-        sprintf(name_buf, "%s %splayer_name = '%s' ", name_buf, (i > 0) ? " OR " : "", ch->desc->account->character_names[i]);
+        snprintf(storage_buffer, sizeof(storage_buffer), "%s %splayer_name = '%s' ", name_buf, (i > 0) ? " OR " : "", ch->desc->account->character_names[i]);
       }
     }
   }
 
-  sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_read %s GROUP BY cat_name ORDER BY cat_name ASC",
-          name_buf);
+  sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_read %s GROUP BY cat_name ORDER BY cat_name ASC", name_buf);
 
   mysql_query(conn2, query);
   res = mysql_use_result(conn2);
@@ -152,10 +152,12 @@ void note_list_all_cats(struct char_data *ch) {
   mysql_close(conn2);
 }
 
-void note_display_unread(struct char_data *ch) {
+void note_display_unread(struct char_data *ch) 
+{
   int num_cats = 0;
   int unread = 0, total = 0;
-  char buf[400];
+  char buf[400]={'\0'};
+  char storage_buffer[MSL]={'\0'};
 
   // Open mysql connection
   conn2 = mysql_init(NULL);
@@ -169,7 +171,7 @@ void note_display_unread(struct char_data *ch) {
   MYSQL_ROW row = NULL;
   int new_msgs = FALSE;
 
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
 
   sprintf(query, "SELECT COUNT(*) FROM player_note_categories WHERE adm_level <= '%d'", GET_ADMLEVEL(ch));
   mysql_query(conn2, query);
@@ -222,20 +224,19 @@ void note_display_unread(struct char_data *ch) {
   }
   mysql_free_result(res);
 
-  char name_buf[500];
+  char name_buf[500]={'\0'};
 
   sprintf(name_buf, " WHERE ");
 
   if (ch->desc->account) {
     for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
       if (ch->desc->account->character_names[i] != NULL) {
-        sprintf(name_buf, "%s %splayer_name = '%s' ", name_buf, (i > 0) ? " OR " : "", ch->desc->account->character_names[i]);
+        snprintf(storage_buffer, sizeof(storage_buffer),"%s %splayer_name = '%s' ", name_buf, (i > 0) ? " OR " : "", ch->desc->account->character_names[i]);
       }
     }
   }
 
-  sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_read %s GROUP BY cat_name ORDER BY cat_name ASC", 
-          name_buf);
+  sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_read %s GROUP BY cat_name ORDER BY cat_name ASC", storage_buffer);
   mysql_query(conn2, query);
   res = mysql_use_result(conn2);
   if (res != NULL) {
@@ -261,7 +262,7 @@ void note_display_unread(struct char_data *ch) {
 
 void note_list_single_cat(struct char_data *ch, char *arg, char *buf2) {
 
-  char arg2[200];
+  char arg2[200]={'\0'};
 
   one_argument(buf2, arg2);
 

@@ -573,7 +573,8 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
 
   one_argument(arg, buf);
 
-  if (!*buf) {			/* you'll get no argument from me! */
+  if (!*buf) 
+  {			/* you'll get no argument from me! */
     act("You need to specify an addressee!",
 	FALSE, mailman, 0, ch, TO_VICT);
     return;
@@ -581,7 +582,8 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
 
   CREATE(mailwrite, char *, 1);
 
-  if (!strcmp(buf, "all") && GET_ADMLEVEL(ch) == ADMLVL_IMPL) {
+  if (!strcmp(buf, "all") && GET_ADMLEVEL(ch) == ADMLVL_IMPL) 
+  {
     act("$n starts to write some mail.", TRUE, ch, 0, 0, TO_ROOM);
     SET_BIT_AR(PLR_FLAGS(ch), PLR_MAILING);	/* string_write() sets writing. */
 
@@ -589,7 +591,8 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
     RECREATE(mailwrite, char *, 1);
     string_write(ch->desc, mailwrite, MAX_MAIL_SIZE, -999, NULL);
   }
-  else if (!strcmp(buf, "staff") && GET_ADMLEVEL(ch) > 0) {
+  else if (!strcmp(buf, "staff") && GET_ADMLEVEL(ch) > 0) 
+  {
     act("$n starts to write some mail.", TRUE, ch, 0, 0, TO_ROOM);
     SET_BIT_AR(PLR_FLAGS(ch), PLR_MAILING);	/* string_write() sets writing. */
 
@@ -597,10 +600,12 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
     RECREATE(mailwrite, char *, 1);
     string_write(ch->desc, mailwrite, MAX_MAIL_SIZE, -899, NULL);
   }
-  else {
-    if ((recipient = get_id_by_name(buf)) < 0 || !mail_recip_ok(buf)) {
+  else 
+  {
+    if ((recipient = get_id_by_name(buf)) < 0 || !mail_recip_ok(buf)) 
+    {
       act("No one by that name is registered here!", FALSE, mailman, 0, ch, TO_VICT);
-      return;
+      return;  /* MEMORY LEAK HERE */
     }
     act("$n starts to write some mail.", TRUE, ch, 0, 0, TO_ROOM);
     SET_BIT_AR(PLR_FLAGS(ch), PLR_MAILING);	/* string_write() sets writing. */

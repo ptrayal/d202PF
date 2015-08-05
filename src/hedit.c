@@ -34,9 +34,9 @@ void hedit_disp_menu(struct descriptor_data *d);
 
 ACMD(do_oasis_hedit)
 {
-  int counter;
+  int counter = 0;
 
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct descriptor_data *d;
   
   if (GET_OLC_ZONE(ch) != HEDIT_PERMISSION && GET_LEVEL(ch) < ADMLVL_GRGOD) {
@@ -182,10 +182,10 @@ void hedit_save_internally(struct descriptor_data *d)
 
 void hedit_save_to_disk(struct descriptor_data *d)
 {
-  int i;
+  int i = 0;
   FILE *fp;
   struct help_index_element *help;
-  char buf[MAX_STRING_LENGTH], buf1[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
 
   sprintf(buf, "%s/%s.new", HLP_PREFIX, HELP_FILE);
   if (!(fp = fopen(buf, "w+"))) {
@@ -280,8 +280,8 @@ void hedit_disp_menu(struct descriptor_data *d)
 
 void hedit_parse(struct descriptor_data *d, char *arg)
 {
-  char buf[MAX_STRING_LENGTH];
-  int number;
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  int number = 0;
 
   switch (OLC_MODE(d)) {
   case HEDIT_CONFIRM_SAVESTRING:
