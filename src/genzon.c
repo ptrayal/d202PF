@@ -667,29 +667,22 @@ void remove_cmd_from_list(struct reset_com **list, int pos)
 
 /*-------------------------------------------------------------------*/
 
-/*
- * Error check user input and then add new (blank) command  
- */
+/* Error check user input and then add new (blank) command. */
 int new_command(struct zone_data *zone, int pos)
 {
   int subcmd = 0;
-  struct reset_com *new_com;
+  struct reset_com new_com;
 
-  /*
-   * Error check to ensure users hasn't given too large an index  
-   */
+  /* Error check to ensure users hasn't given too large an index. */
   while (zone->cmd[subcmd].command != 'S')
     subcmd++;
 
   if (pos < 0 || pos > subcmd)
     return 0;
 
-  /*
-   * Ok, let's add a new (blank) command 
-   */
-  CREATE(new_com, struct reset_com, 1);
-  new_com->command = 'N';
-  add_cmd_to_list(&zone->cmd, new_com, pos);
+  /* Ok, let's add a new (blank) command. */
+  new_com.command = 'N';
+  add_cmd_to_list(&zone->cmd, &new_com, pos);
   return 1;
 }
 
