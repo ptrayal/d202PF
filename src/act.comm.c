@@ -954,45 +954,55 @@ ACMD(do_qcomm)
   }
 }
 
-ACMD(do_respond) {
+ACMD(do_respond) 
+{
   int found=0,mnum=0;
   struct obj_data *obj;
   char number[MAX_STRING_LENGTH]={'\0'};
-  
-  if(IS_NPC(ch)) {
+
+  if(IS_NPC(ch)) 
+  {
     send_to_char(ch,"As a mob, you never bothered to learn to read or write.\r\n");
     return;
   }
-  
-  for (obj = ch->carrying; obj;obj=obj->next_content) {
-    if(GET_OBJ_TYPE(obj) == ITEM_BOARD) {
+
+  for (obj = ch->carrying; obj;obj=obj->next_content) 
+  {
+    if(GET_OBJ_TYPE(obj) == ITEM_BOARD) 
+    {
       found=1;
       break;
     }
   }
-  if(!obj) {
-    for (obj = world[IN_ROOM(ch)].contents; obj;obj=obj->next_content) {
+  if(!obj) 
+  {
+    for (obj = world[IN_ROOM(ch)].contents; obj;obj=obj->next_content) 
+    {
       if(GET_OBJ_TYPE(obj) == ITEM_BOARD) {
-	found=1;
-	break;
+        found=1;
+        break;
       }
     }
   }
-  if (obj) {
+  if (obj) 
+  {
     argument = one_argument(argument, number);
-    if (!*number) {
+    if (!*number) 
+    {
       send_to_char(ch,"Respond to what?\r\n");
       return;
     }
-    if (!isdigit(*number) || (!(mnum = atoi(number)))) {
+    if (!isdigit(*number) || (!(mnum = atoi(number)))) 
+    {
       send_to_char(ch,"You must type the number of the message you wish to reply to.\r\n");
       return;
     }
     board_respond(GET_OBJ_VNUM(obj), ch, mnum);
   }
-  
-  /* No board in the room? Send generic message -spl */
-  if (found == 0) {
+
+/* No board in the room? Send generic message -spl */
+  if (found == 0) 
+  {
     send_to_char(ch,"Sorry, you may only reply to messages posted on a board.\r\n");
   }
 }

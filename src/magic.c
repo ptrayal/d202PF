@@ -2785,8 +2785,7 @@ void mag_summons(int level, struct char_data *ch, struct obj_data *obj, int spel
   case SPELL_SUMMON_MONSTER_VII:
   case SPELL_SUMMON_MONSTER_VIII:
   case SPELL_SUMMON_MONSTER_IX:
-    affvs = TRUE;
-
+    
     mob_num = NOBODY;
     affvs = 1;
     assist = 1;

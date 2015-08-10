@@ -474,8 +474,8 @@ void redit_disp_sector_menu(struct descriptor_data *d)
  */
 void redit_disp_menu(struct descriptor_data *d)
 {
-  char buf1[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
   struct room_data *room;
 
   room_rnum rnum = NOWHERE;
