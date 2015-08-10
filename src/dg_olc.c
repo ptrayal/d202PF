@@ -141,7 +141,7 @@ void script_save_to_disk(FILE *fp, void *item, int type)
 
   while (t)
   {
-    fprintf(fp,"T %d\n", t->vnum);
+    fprintf(fp,"T %X\n", t->vnum);
     t = t->next;
   }
 }
@@ -684,6 +684,7 @@ void trigedit_create_index(int znum, char *type)
   else if (!(newfile = fopen(new_name, "w"))) 
   {
     mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", new_name);
+    fclose(oldfile);
     return;
   }
 

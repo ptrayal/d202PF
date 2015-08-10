@@ -1697,28 +1697,38 @@ ACMD(do_copyover)
 	
   fp = fopen (COPYOVER_FILE, "w");
 	
-  if (!fp) {
+  if (!fp) 
+  {
     send_to_char (ch, "Copyover file not writeable, aborted.\n\r");
     return;
   }
 
   circle_copyover = 1;
 
-  for (d = descriptor_list; d; d = d->next) {
-    if (STATE(d) >= CON_LEVELUP_START && STATE(d) <= CON_LEVELUP_END) {
+  for (d = descriptor_list; d; d = d->next) 
+  {
+    if (STATE(d) >= CON_LEVELUP_START && STATE(d) <= CON_LEVELUP_END) 
+    {
       send_to_char(ch, "There are people levelling up right now.  Please wait for the copyover.\r\n");
+      fclose (fp);
       return;
     }
-    if (STATE(d) >= CON_GEN_DESCS_INTRO && STATE(d) <= CON_GEN_DESCS_MENU_PARSE) {
+    if (STATE(d) >= CON_GEN_DESCS_INTRO && STATE(d) <= CON_GEN_DESCS_MENU_PARSE) 
+    {
       send_to_char(ch, "There are people setting their descriptions right now.  Please wait for the copyover.\r\n");
+      fclose (fp);
       return;
     }
-    if (d->character && GET_CRAFTING_OBJ(d->character)) {
+    if (d->character && GET_CRAFTING_OBJ(d->character)) 
+    {
       send_to_char(ch, "There are people crafting right now.  Please wait for the copyover.\r\n");
+      fclose (fp);
       return;
     }
-    if (d->character && FIGHTING(d->character)) {
+    if (d->character && FIGHTING(d->character)) 
+    {
       send_to_char(ch, "There are people fighting right now.  Please wait for the copyover.\r\n");
+      fclose (fp);
       return;
     }
   }  
@@ -1735,10 +1745,12 @@ ACMD(do_copyover)
 GET_NAME(ch));
   /* For each playing descriptor, save its state */
   circle_copyover = 1;
-  for (d = descriptor_list; d ; d = d_next) {
+  for (d = descriptor_list; d ; d = d_next) 
+  {
     struct char_data * och = d->character;
     d_next = d->next; /* We delete from the list , so need to save this */
-	    if (d->character && d->connected > CON_PLAYING) {
+	    if (d->character && d->connected > CON_PLAYING) 
+      {
       STATE(d) = CON_PLAYING;
     } else if (!d->character || d->connected > CON_PLAYING) {
       write_to_descriptor(d->descriptor, "\n\rSorry, we are rebooting. Come back in a few seconds.\n\r", d->comp);
