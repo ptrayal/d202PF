@@ -165,6 +165,7 @@ void House_save_control(void)
   if (!(fl = fopen(HCONTROL_FILE, "wb"))) 
   {
     log("SYSERR: Unable to open house control file.: %s", strerror(errno));
+    fclose(fl);
     return;
   }
   
@@ -176,6 +177,7 @@ void House_save_control(void)
     return;   
   }
 
+  fclose(fl);
 }
 
 

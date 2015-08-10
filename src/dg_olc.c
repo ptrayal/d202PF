@@ -678,6 +678,7 @@ void trigedit_create_index(int znum, char *type)
   if (!(oldfile = fopen(old_name, "r"))) 
   {
     mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", old_name);
+    fclose(oldfile);
     return;
   } 
   else if (!(newfile = fopen(new_name, "w"))) 
@@ -691,15 +692,20 @@ void trigedit_create_index(int znum, char *type)
    * right place, insert the new file, then copy the rest over.
    */
   snprintf(buf1, sizeof(buf1), "%d.%s", znum, type);
-  while (get_line(oldfile, buf)) {
-    if (*buf == '$') {
+  while (get_line(oldfile, buf)) 
+  {
+    if (*buf == '$') 
+    {
       fprintf(newfile, "%s\n$\n", (!found ? buf1 : ""));
       break;
-    } else if (!found) {
+    } 
+    else if (!found) 
+    {
       sscanf(buf, "%d", &num);
       if (num == znum)
         found = TRUE;
-      else if (num > znum) {
+      else if (num > znum) 
+      {
         found = TRUE;
         fprintf(newfile, "%s\n", buf1);
       }

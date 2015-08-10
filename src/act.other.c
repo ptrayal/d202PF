@@ -1691,7 +1691,8 @@ ACMD(do_file)
 
    skip_spaces(&argument);
 
-   if (!*argument && subcmd != SCMD_NEWS) {
+   if (!*argument && subcmd != SCMD_NEWS) 
+   {
      strcpy(buf, "USAGE: file <option> <num lines>\r\n\r\nFile options:\r\n");
      for (j = 0, i = 1; fields[i].level; i++)
        if (fields[i].level <= GET_LEVEL(ch))
@@ -1700,7 +1701,8 @@ ACMD(do_file)
      return;
    }
 
-  if (subcmd != SCMD_NEWS) {
+  if (subcmd != SCMD_NEWS) 
+  {
 
      two_arguments(argument, field, value);
 
@@ -1708,12 +1710,14 @@ ACMD(do_file)
        if (!strncmp(field, fields[l].cmd, strlen(field)))
      break;
 
-     if(*(fields[l].cmd) == '\n') {
+     if(*(fields[l].cmd) == '\n') 
+     {
        send_to_char(ch, "That is not a valid option!\r\n");
        return;
      }
 
-     if (GET_ADMLEVEL(ch) < fields[l].level) {
+     if (GET_ADMLEVEL(ch) < fields[l].level) 
+     {
        send_to_char(ch, "You are not godly enough to view that file!\r\n");
        return;
      }
@@ -1724,7 +1728,8 @@ ACMD(do_file)
        req_lines = atoi(value);
    
   }
-  else {
+  else 
+  {
     one_argument(argument, value);
 
      l = 3;
@@ -1737,21 +1742,22 @@ ACMD(do_file)
        req_lines = atoi(value);
   }
 
-   if (!(req_file=fopen(fields[l].file,"r")) && subcmd != SCMD_NEWS) {
-     mudlog(BRF, ADMLVL_IMPL, true,
-            "SYSERR: Error opening file %s using 'file' command.",
-            fields[l].file);
+   if (!(req_file=fopen(fields[l].file,"r")) && subcmd != SCMD_NEWS) 
+   {
+     mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
+     fclose(req_file);
      return;
    }
-   else if (!(req_file=fopen("../lib/misc/news", "r"))) {
-     mudlog(BRF, ADMLVL_IMPL, true,
-            "SYSERR: Error opening file %s using 'file' command.",
-            fields[l].file);
+   else if (!(req_file=fopen("../lib/misc/news", "r"))) 
+   {
+     mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
+     fclose(req_file);
      return;
    }
 
    get_line(req_file,line);
-   while (!feof(req_file)) {
+   while (!feof(req_file)) 
+   {
      num_lines++;
      get_line(req_file,line);
    }
@@ -1762,7 +1768,8 @@ ACMD(do_file)
    buf[0] = '\0';
 
    get_line(req_file,line);
-   while (!feof(req_file)) {
+   while (!feof(req_file)) 
+   {
      cur_line++;
      if(cur_line > (num_lines - req_lines)) 
        sprintf(buf+strlen(buf),"%s\r\n", line);

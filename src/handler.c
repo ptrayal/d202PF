@@ -3003,7 +3003,8 @@ char *list_llog_entry()
   char storage_buffer[12800]={'\0'};
   extern const char *last_array[];
 
-  if(!(fp=fopen(LAST_FILE,"r"))) {
+  if(!(fp=fopen(LAST_FILE,"r"))) 
+  {
     log("bad things.");
     return strdup("Error.");
   }
@@ -3012,12 +3013,14 @@ char *list_llog_entry()
 
   fread(&llast,sizeof(struct last_entry),1,fp);
 
-  while(!feof(fp)) {
+  while(!feof(fp)) 
+  {
     snprintf(storage_buffer, sizeof(storage_buffer),"%s%10s\t%s\t%d\t%s",
         buffer,llast.username,last_array[llast.close_type],
         llast.punique,ctime(&llast.time));
     fread(&llast,sizeof(struct last_entry),1,fp);
   }
+  fclose(fp);
   return strdup(storage_buffer);
 }
 
