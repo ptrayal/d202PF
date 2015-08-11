@@ -31,7 +31,7 @@ void send_editor_help(struct descriptor_data *d);
 ACMD(do_new_mail)
 {
 
-  char arg3[200], arg4[200];
+  char arg3[200]={'\0'}, arg4[200]={'\0'};
 
   skip_spaces(&argument);
 
@@ -99,7 +99,7 @@ ACMD(do_new_mail)
         send_to_char(ch, "A copyover is scheduled.  Please wait until after to write your mail.\r\n");
         return;
       }
-      char arg5[200], arg6[200];
+      char arg5[200]={'\0'}, arg6[200]={'\0'};
       half_chop(arg4, arg5, arg6);
       if (!*arg5) {
         send_to_char(ch, "You must specify a mail recipient.\r\n");
@@ -122,9 +122,9 @@ ACMD(do_new_mail)
         log("Cannot connect to mysql database in mail send.");
       }
 
-      sprintf(arg5, "%s", CAP(arg5));
+      snprintf(arg5, sizeof(arg5), "%s", CAP(arg5));
 
-      char query[MAX_INPUT_LENGTH];
+      char query[MAX_INPUT_LENGTH]={'\0'};
       char *end;
       end = stpcpy(query, "SELECT name FROM player_data WHERE name=");
       *end++ = '\'';
@@ -227,7 +227,7 @@ void perform_mail_list(struct char_data *ch, int type) {
 
       send_to_char(ch, "    %-7s %-20s %s\r\n", "MAIL ID", type != 1 ? "RECIPIENT" : "SENDER", "SUBJECT");
       send_to_char(ch, "    %-7s %-20s %s\r\n", "-------", "--------------------", "-----------------------------------");
-      char query[MAX_INPUT_LENGTH];
+      char query[MAX_INPUT_LENGTH]={'\0'};
       sprintf(query, "SELECT mail_id,sender,receiver,subject FROM player_mail WHERE %s='%s' OR %s='All' ORDER BY mail_id DESC", type == 1 ? "receiver" : "sender", GET_NAME(ch), type == 1 ? "receiver" : "sender");
       mysql_query(conn, query);
       res = mysql_use_result(conn);
@@ -293,13 +293,13 @@ void perform_mail_read(struct char_data *ch, int mnum) {
         log("Cannot connect to mysql database in mail send.");
       }
 
-      char mnums[20];
+      char mnums[20]={'\0'};
 
       sprintf(mnums, "%d", mnum);
 
       sbyte found = FALSE;
 
-      char query[MAX_INPUT_LENGTH];
+      char query[MAX_INPUT_LENGTH]={'\0'};
       sprintf(query, "SELECT mail_id,sender,receiver,subject FROM player_mail WHERE sender='%s' OR receiver='%s' OR receiver='All'", GET_NAME(ch), GET_NAME(ch));
       mysql_query(conn, query);
       res = mysql_use_result(conn);
@@ -317,7 +317,7 @@ void perform_mail_read(struct char_data *ch, int mnum) {
       found = FALSE;
 
       char *end;
-      char buf[200];
+      char buf[200]={'\0'};
 
       end = stpcpy(query, "SELECT mail_id,sender,receiver,subject,message FROM player_mail WHERE mail_id=");
       *end++ = '\'';
@@ -379,13 +379,13 @@ void perform_mail_delete(struct char_data *ch, int mnum) {
         log("Cannot connect to mysql database in mail send.");
       }
 
-      char mnums[20];
+      char mnums[20]={'\0'};
 
       sprintf(mnums, "%d", mnum);
 
       sbyte found = FALSE;
 
-      char query[MAX_INPUT_LENGTH];
+      char query[MAX_INPUT_LENGTH]={'\0'};
       sprintf(query, "SELECT mail_id,sender,receiver,subject FROM player_mail WHERE sender='%s' OR receiver='%s' OR (receiver='All')", GET_NAME(ch), GET_NAME(ch));
       mysql_query(conn, query);
       res = mysql_use_result(conn);
@@ -403,7 +403,7 @@ void perform_mail_delete(struct char_data *ch, int mnum) {
       found = FALSE;
 
       char *end;
-      char buf[200];
+      char buf[200]={'\0'};
       sprintf(buf, "DELETE FROM player_mail_read WHERE player_name='%s' AND mail_id=", GET_NAME(ch));
       end = stpcpy(query, buf);
       *end++ = '\'';
@@ -472,7 +472,7 @@ void new_mail_alert(struct char_data *ch)
       sbyte unread = TRUE, deleted = FALSE;
       int num_unread = 0, num_mails = 0, num_read = 0, num_deleted = 0;;
       
-      char query[MAX_INPUT_LENGTH];
+      char query[MAX_INPUT_LENGTH]={'\0'};
       sprintf(query, "SELECT mail_id,sender,receiver,subject FROM player_mail WHERE receiver='%s' OR %s='All' ORDER BY mail_id DESC", GET_NAME(ch), "receiver");
       mysql_query(conn, query);
       res = mysql_use_result(conn);

@@ -1085,7 +1085,7 @@ void index_boot(int mode)
   const char *index_filename, *prefix = NULL;	/* NULL or egcs 1.1 complains */
   FILE *db_index, *db_file;
   int rec_count = 0, size[2];
-  char buf2[PATH_MAX], buf1[MAX_STRING_LENGTH];
+  char buf2[PATH_MAX]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'};
 
   switch (mode) {
   case DB_BOOT_WLD:
@@ -1251,7 +1251,7 @@ void index_boot(int mode)
 void discrete_load(FILE *fl, int mode, char *filename)
 {
   int nr = -1, last;
-  char line[READ_SIZE];
+  char line[READ_SIZE]={'\0'};
 
   const char *modes[] = {"world", "mob", "obj", "ZON", "SHP", "HLP", "trg", "qst"};
   /* modes positions correspond to DB_BOOT_xxx in db.h */
@@ -1394,8 +1394,8 @@ void parse_room(FILE *fl, int virtual_nr)
 {
   static int room_nr = 0, zone = 0;
   int t[10], i, retval;
-  char line[READ_SIZE], flags[128], flags2[128], flags3[128];
-  char flags4[128], buf2[MAX_STRING_LENGTH], buf[128];
+  char line[READ_SIZE]={'\0'}, flags[128]={'\0'}, flags2[128]={'\0'}, flags3[128]={'\0'};
+  char flags4[128]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'}, buf[128]={'\0'};
   struct extra_descr_data *new_descr;
   char letter;
 
@@ -2057,9 +2057,9 @@ void parse_espec(char *buf, struct char_data *ch, int nr)
 int parse_mobile_from_file(FILE *mob_f, struct char_data *ch)
 {
   int i, j, retval;
-  char line[READ_SIZE], *tmpptr, letter;
-  char f1[128], f2[128], f3[128], f4[128], f5[128], f6[128], f7[128], f8[128], f9[128];
-  char buf2[128];
+  char line[READ_SIZE]={'\0'}, *tmpptr, letter;
+  char f1[128]={'\0'}, f2[128]={'\0'}, f3[128]={'\0'}, f4[128]={'\0'}, f5[128]={'\0'}, f6[128]={'\0'}, f7[128]={'\0'}, f8[128]={'\0'}, f9[128]={'\0'};
+  char buf2[128]={'\0'};
   mob_vnum nr = mob_index[ch->nr].vnum;
  
   /*
@@ -2269,9 +2269,9 @@ char *parse_object(FILE *obj_f, int nr)
   int t[(NUM_OBJ_VAL_POSITIONS * 2) + 2], j, retval;
   long int date = 0;
   char *tmpptr, buf2[128];
-  char f1[READ_SIZE], f2[READ_SIZE], f3[READ_SIZE], f4[READ_SIZE];
-  char f5[READ_SIZE], f6[READ_SIZE], f7[READ_SIZE], f8[READ_SIZE];
-  char f9[READ_SIZE], f10[READ_SIZE], f11[READ_SIZE], f12[READ_SIZE];
+  char f1[READ_SIZE]={'\0'}, f2[READ_SIZE]={'\0'}, f3[READ_SIZE]={'\0'}, f4[READ_SIZE]={'\0'};
+  char f5[READ_SIZE]={'\0'}, f6[READ_SIZE]={'\0'}, f7[READ_SIZE]={'\0'}, f8[READ_SIZE]={'\0'};
+  char f9[READ_SIZE]={'\0'}, f10[READ_SIZE]={'\0'}, f11[READ_SIZE]={'\0'}, f12[READ_SIZE]={'\0'};
   struct extra_descr_data *new_descr;
 
   obj_index[i].vnum = nr;
@@ -2595,9 +2595,9 @@ void load_zones(FILE *fl, char *zonename)
 {
   static zone_rnum zone = 0;
   int cmd_no, num_of_cmds = 0, line_num = 0, tmp, error, arg_num;
-  char *ptr, buf[READ_SIZE], zname[READ_SIZE], buf2[MAX_STRING_LENGTH];
+  char *ptr, buf[READ_SIZE]={'\0'}, zname[READ_SIZE]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   int zone_fix = false;
-  char t1[80], t2[80];
+  char t1[80]={'\0'}, t2[80]={'\0'};
 
   strlcpy(zname, zonename, sizeof(zname));
 
@@ -2784,8 +2784,8 @@ void free_help_table(void)
 
 void load_help(FILE *fl)
  {
-   char key[READ_SIZE+1], entry[32384];
-   char line[READ_SIZE+1];
+   char key[READ_SIZE+1]={'\0'}, entry[32384]={'\0'};
+   char line[READ_SIZE+1]={'\0'};
   struct help_index_element el;
 
   /* get the keyword line */
@@ -3530,7 +3530,7 @@ int is_empty(zone_rnum zone_nr)
 /* read and allocate space for a '~'-terminated string from a given file */
 char *fread_string(FILE *fl, const char *error)
 {
-  char buf[MAX_STRING_LENGTH], tmp[513];
+  char buf[MAX_STRING_LENGTH]={'\0'}, tmp[513]={'\0'};
   char *point = NULL;
   int done = 0, length = 0, templength;
 
@@ -3770,7 +3770,7 @@ void free_obj(struct obj_data *obj)
 int file_to_string_alloc(const char *name, char **buf)
 {
   int temppage;
-  char temp[MAX_STRING_LENGTH];
+  char temp[MAX_STRING_LENGTH]={'\0'};
   struct descriptor_data *in_use;
 
   for (in_use = descriptor_list; in_use; in_use = in_use->next)
@@ -3803,7 +3803,7 @@ int file_to_string_alloc(const char *name, char **buf)
 int file_to_string(const char *name, char *buf)
 {
   FILE *fl;
-  char tmp[READ_SIZE + 3];
+  char tmp[READ_SIZE + 3]={'\0'};
   int len;
 
   *buf = '\0';
@@ -4184,7 +4184,7 @@ zone_rnum real_zone(zone_vnum vnum)
  */
 int check_object(struct obj_data *obj)
 {
-  char objname[MAX_INPUT_LENGTH + 32];
+  char objname[MAX_INPUT_LENGTH + 32]={'\0'};
   int error = false, y;
 
   /* Both weight and cost_per_day are of type ush_int
@@ -4327,7 +4327,7 @@ int my_obj_save_to_disk(FILE *fp, struct obj_data *obj, int locate)
 {
   int counter2, i;
   struct extra_descr_data *ex_desc;
-  char buf1[MAX_STRING_LENGTH +1];
+  char buf1[MAX_STRING_LENGTH +1]={'\0'};
 
   if (obj->action_description) {
     strcpy(buf1, obj->action_description);
@@ -4636,11 +4636,11 @@ void load_default_config( void )
 void load_config( void )
 {
   FILE *fl;
-  char line[MAX_STRING_LENGTH];
-  char tag[MAX_INPUT_LENGTH];
-  int  num;
+  char line[MAX_STRING_LENGTH]={'\0'};
+  char tag[MAX_INPUT_LENGTH]={'\0'};
+  int  num = 0;
   float  fum;
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
 
   load_default_config();
   
@@ -4830,13 +4830,13 @@ void load_config( void )
         if (!str_cmp(tag, "nameserver_is_slow"))
           CONFIG_NS_IS_SLOW = num;
         else if (!str_cmp(tag, "noperson")) {
-          char tmp[READ_SIZE];
+          char tmp[READ_SIZE]={'\0'};
           if (CONFIG_NOPERSON)
             free(CONFIG_NOPERSON);
           snprintf(tmp, sizeof(tmp), "%s\r\n", line);
           CONFIG_NOPERSON = strdup(tmp);
         } else if (!str_cmp(tag, "noeffect")) {
-          char tmp[READ_SIZE];
+          char tmp[READ_SIZE]={'\0'};
           if (CONFIG_NOEFFECT)
             free(CONFIG_NOEFFECT);
           snprintf(tmp, sizeof(tmp), "%s\r\n", line);
@@ -4846,7 +4846,7 @@ void load_config( void )
       
       case 'o':
         if (!str_cmp(tag, "ok")) {
-          char tmp[READ_SIZE];
+          char tmp[READ_SIZE]={'\0'};
           if (CONFIG_OK)
             free(CONFIG_OK);
           snprintf(tmp, sizeof(tmp), "%s\r\n", line);
@@ -4935,7 +4935,7 @@ void load_config( void )
 
 void read_level_data(struct char_data *ch, FILE *fl)
 {
-  char buf[READ_SIZE], *p;
+  char buf[READ_SIZE]={'\0'}, *p;
   int i = 1;
   int t[16];
   struct levelup_data *curr = NULL;

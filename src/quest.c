@@ -130,7 +130,7 @@ int count_quests(qst_vnum low, qst_vnum high)
 void parse_quest(FILE *quest_f, int nr)
 {
   static char line[256]={'\0'};
-  static int i = 0, j;
+  static int i = 0, j = 0;
   int retval = 0, t[7];
   char f1[128]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   aquest_table[i].vnum = nr;
