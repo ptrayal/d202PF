@@ -2783,19 +2783,19 @@ void free_help_table(void)
 
 
 void load_help(FILE *fl)
- {
-   char key[READ_SIZE+1]={'\0'}, entry[32384]={'\0'};
-   char line[READ_SIZE+1]={'\0'};
+{
+  char key[READ_SIZE+1]={'\0'}, entry[32384]={'\0'};
+  char line[READ_SIZE+1]={'\0'};
   struct help_index_element el;
 
-  /* get the keyword line */
+/* get the keyword line */
   get_one_line(fl, key);
   while (*key != '$') {
     get_one_line(fl, line);
     *entry = '\0';
     while (*line != '#') {
       strcat(entry, strcat(line, "\r\n"));    
-      get_one_line(fl, line);
+        get_one_line(fl, line);
     }
 
     el.min_level = 0;
@@ -2804,16 +2804,16 @@ void load_help(FILE *fl)
 
     el.min_level = MAX(0, MIN(el.min_level, ADMLVL_IMPL));
 
-    /* now, add the entry to the index with each keyword on the keyword line */
+/* now, add the entry to the index with each keyword on the keyword line */
     el.entry = strdup(entry);
-     el.keywords = strdup(key);
- 
-     help_table[top_of_helpt] = el;
-     top_of_helpt++;
+    el.keywords = strdup(key);
 
-    /* get next keyword line (or $) */
+    help_table[top_of_helpt] = el;
+    top_of_helpt++;
+
+/* get next keyword line (or $) */
     get_one_line(fl, key);
-  
+
   }
 }
 
