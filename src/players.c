@@ -2363,6 +2363,12 @@ void remove_player(int pfilepos)
 {
   char fname[40]={'\0'};
   int i = 0;
+  struct tm *info;
+  char buffer[80];
+
+  time(&player_table[pfilepos].last);
+  info = localtime(&player_table[pfilepos].last);
+  strftime(buffer, 80, "%b-%d-%Y", info);
 
   if (!*player_table[pfilepos].name)
     return;
@@ -2373,9 +2379,8 @@ void remove_player(int pfilepos)
       unlink(fname);
   }
 
-  log("PCLEAN: %s Lev: %d Last: %s",
-	player_table[pfilepos].name, player_table[pfilepos].level,
-	asctime(localtime(&player_table[pfilepos].last)));
+  // log("PCLEAN: %s Lev: %d Last: %s", player_table[pfilepos].name, player_table[pfilepos].level, asctime(localtime(&player_table[pfilepos].last)));
+  log("PCLEAN: %s Lev: %d Last: %s", player_table[pfilepos].name, player_table[pfilepos].level, buffer);
   player_table[pfilepos].name[0] = '\0';
   save_player_index();
 }
