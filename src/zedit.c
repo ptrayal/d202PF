@@ -54,8 +54,8 @@ ACMD(do_oasis_zedit)
   int number = NOWHERE, save = 0, real_num;
   struct descriptor_data *d;
   char *buf3;
-  char buf1[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
   
   /****************************************************************************/
   /** Parse any arguments.                                                   **/
@@ -91,7 +91,7 @@ ACMD(do_oasis_zedit)
         send_to_char(ch, "Format: zedit new <zone number> <bottom-room> "
            "<upper-room>\r\n");
       else {
-        char sbot[MAX_INPUT_LENGTH], stop[MAX_INPUT_LENGTH];
+        char sbot[MAX_INPUT_LENGTH]={'\0'}, stop[MAX_INPUT_LENGTH]={'\0'};
         room_vnum bottom, top;
         
         skip_spaces(&buf3);
@@ -450,7 +450,7 @@ void zedit_disp_menu(struct descriptor_data *d)
 {
   int subcmd = 0, counter = 0;
 	int j = 0;
-	char levelRanges[MAX_STRING_LENGTH];
+	char levelRanges[MAX_STRING_LENGTH]={'\0'};
 
   clear_screen(d);
 	
@@ -1436,7 +1436,7 @@ char * parse_level_ranges(int zone_num) {
   int found = FALSE;
   int i = 0;
   char *string = NULL;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   for (i = 0; i < NUM_LEVEL_RANGES; i++) {
     if (HAS_LEVEL_RANGE(zone_num, (1 << i))) {

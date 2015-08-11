@@ -250,7 +250,7 @@ extern int auto_pwipe;
 
 int suntzu_armor_convert(struct obj_data *obj)
 {
-  int i;
+  int i = 0;
   int conv = 0;
   int conv_table[][3] = {
     { 100, 0, 0 },
@@ -407,7 +407,7 @@ void free_text_files(void)
  */
 ACMD(do_reboot)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   one_argument(argument, arg);
 
@@ -1027,8 +1027,8 @@ void save_mud_time(struct time_info_data *when)
  */
 int count_alias_records(FILE *fl)
 {
-  char key[READ_SIZE], next_key[READ_SIZE];
-  char line[READ_SIZE], *scan;
+  char key[READ_SIZE]={'\0'}, next_key[READ_SIZE]={'\0'};
+  char line[READ_SIZE]={'\0'}, *scan;
   int total_keywords = 0;
 
   /* get the first keyword line */
@@ -1068,11 +1068,11 @@ ackeof:
 /* function to count how many hash-mark delimited records exist in a file */
 int count_hash_records(FILE *fl)
 {
-  char buf[128];
+  char buffer[128]={'\0'};
   int count = 0;
 
-  while (fgets(buf, 128, fl))
-    if (*buf == '#')
+  while (fgets(buffer, 128, fl))
+    if (*buffer == '#')
       count++;
 
   return (count);
@@ -1545,7 +1545,7 @@ void parse_room(FILE *fl, int virtual_nr)
 void setup_dir(FILE *fl, int room, int dir)
 {
   int t[11], retval;
-  char line[READ_SIZE], buf2[128];
+  char line[READ_SIZE]={'\0'}, buf2[128]={'\0'};
 
   snprintf(buf2, sizeof(buf2), "room #%d, direction D%d", GET_ROOM_VNUM(room)+1, dir);
 
@@ -1682,7 +1682,7 @@ void renum_zone_table(void)
   int cmd_no;
   room_rnum a, b, c, olda, oldb, oldc;
   zone_rnum zone;
-  char buf[128];
+  char buf[128]={'\0'};
 
   for (zone = 0; zone <= top_of_zone_table; zone++)
     for (cmd_no = 0; ZCMD.command != 'S'; cmd_no++) {
@@ -1741,7 +1741,7 @@ void renum_zone_table(void)
 int parse_simple_mob(FILE *mob_f, struct char_data *ch, int nr)
 {
   int j, t[10];
-  char line[READ_SIZE];
+  char line[READ_SIZE]={'\0'};
  
   ch->real_abils.str = 0;
   ch->real_abils.intel = 0;

@@ -115,7 +115,7 @@ struct obj_data *find_control(struct char_data *ch)
 void drive_outof_vehicle(struct char_data *ch, struct obj_data *vehicle)
 {
   struct obj_data *hatch, *vehicle_in_out;
-  char   buf[MAX_INPUT_LENGTH];
+  char   buf[MAX_INPUT_LENGTH]={'\0'};
 
   if ( !(hatch = get_obj_in_list_type(ITEM_HATCH,world[IN_ROOM(vehicle)].contents)) ) {
     send_to_char(ch, "Nowhere to drive out of.\r\n");
@@ -141,7 +141,7 @@ void drive_outof_vehicle(struct char_data *ch, struct obj_data *vehicle)
 /* Drive out vehicle in a certain direction */
 void drive_in_direction(struct char_data *ch, struct obj_data *vehicle, int dir)
 {
-  char   buf[MAX_INPUT_LENGTH];
+  char   buf[MAX_INPUT_LENGTH]={'\0'};
 
   if (!EXIT(vehicle, dir) || EXIT(vehicle, dir)->to_room == NOWHERE) {
         /* But there is no exit that way */
@@ -198,7 +198,7 @@ ACMD(do_drive)
   } else if (!(vehicle = find_vehicle_by_vnum(GET_OBJ_VAL(controls, 0))) ) {
     send_to_char(ch, "You can't find anything to drive.\r\n");
   } else {
-    char   arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char   arg[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
 
     argument = any_one_arg(argument, arg);
     one_argument(argument, arg2); 

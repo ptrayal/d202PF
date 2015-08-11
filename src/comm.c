@@ -3623,7 +3623,7 @@ void circle_sleep(struct timeval *timeout)
 void show_help(struct descriptor_data *t, const char *entry)
 {
   int chk, bot, top, mid, minlen, i;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   char newentry[strlen(entry)];
 
   if (!help_table) return;

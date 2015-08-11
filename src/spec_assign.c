@@ -155,11 +155,11 @@ void assign_objects(void)
     ASSIGNOBJ(199, harvest);
     ASSIGNOBJ(64013, crafting_station);
     ASSIGNOBJ(30195, crafting_station);
-    ASSIGNOBJ(2237, bounty_contractor);
     ASSIGNOBJ(30188, ring_of_wishes);
-    ASSIGNOBJ(7024, identify_kit);
     ASSIGNOBJ(64098, orphan);
     ASSIGNOBJ(64097, lockbox);
+    // ASSIGNOBJ(2237, bounty_contractor);
+    // ASSIGNOBJ(7024, identify_kit);
 
 }
 

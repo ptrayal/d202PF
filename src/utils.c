@@ -428,7 +428,7 @@ void basic_mud_vlog(const char *format, va_list args)
   // char *time_s = asctime(localtime(&ct));
   time_t rawtime;
   struct tm *info;
-  char buffer[80];
+  char buffer[80]={'\0'};
 
   time(&rawtime);
 
@@ -485,7 +485,7 @@ int touch(const char *path)
  */
 void mudlog(int type, int level, int file, const char *str, ...)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   struct descriptor_data *i;
   va_list args;
 
@@ -3086,7 +3086,7 @@ int has_curse_word(struct char_data *ch, char *arg_orig)
   char *arg = strdup(arg_orig);
 
   int j = 0, k = 0;
-  char word[100];
+  char word[100]={'\0'};
 
   for (j = 0; j < NUM_CURSE_WORDS; j++) {
     sprintf(word, "%s", curse_words[j]);
@@ -3581,7 +3581,7 @@ int get_feat_value(struct char_data *ch, int featnum)
 
 char *alignment_string(struct char_data *ch)
 {
-  char align[100];
+  char align[100]={'\0'};
 
   if (GET_ALIGNMENT(ch) == 0 && GET_ETHIC_ALIGNMENT(ch) == 0)
     sprintf(align, "True Neutral");
@@ -3675,7 +3675,7 @@ Extra codes:      @l - blink          @o - bold
 */
 
   int i = 0, j = 0;
-  char newstring[MAX_STRING_LENGTH];
+  char newstring[MAX_STRING_LENGTH]={'\0'};
 
   for (i = 0; i < strlen(string); i++) {
     if (string[i] == '@') {
@@ -4033,7 +4033,7 @@ char * get_bonus_type(char *arg)
 char * list_bonus_types(void)
 {
 
-  char buf[1000];
+  char buf[1000]={'\0'};
 
   sprintf(buf, 
     "%-19s %-19s %-19s %-19s\r\n" 
@@ -4148,10 +4148,10 @@ void sendMSDP(struct descriptor_data *d) {
   if (!d->character)
     return;
   struct char_data *ch = d->character;
-  char val[200];
+  char val[200]={'\0'};
   struct char_data *tch = NULL;
   int gcnt = 0;
-  char var[200], var2[200], var3[200], var4[200], var5[200], var6[200];
+  char var[200]={'\0'}, var2[200]={'\0'}, var3[200]={'\0'}, var4[200]={'\0'}, var5[200]={'\0'}, var6[200]={'\0'};
   float xp = 0;
   float percent = 0;
   int int_xp = 0; // Groups

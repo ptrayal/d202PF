@@ -173,10 +173,9 @@ void mag_nextstrike(int level, struct char_data *caster, int spellnum)
 }
 
 
-void say_spell(struct char_data *ch, int spellnum, struct char_data *tch,
-	            struct obj_data *tobj)
+void say_spell(struct char_data *ch, int spellnum, struct char_data *tch, struct obj_data *tobj)
 {
-  char lbuf[256], buf[256], buf1[256], buf2[256];	/* FIXME */
+  char lbuf[256]={'\0'}, buf[256]={'\0'}, buf1[256]={'\0'}, buf2[256]={'\0'};	/* FIXME */
   const char *format = "";
 
   struct char_data *i;
@@ -253,7 +252,7 @@ int find_skill_num(char *name, int sktype)
 {
   int skindex, ok;
   char *temp, *temp2;
-  char first[256], first2[256], tempbuf[256];
+  char first[256]={'\0'}, first2[256]={'\0'}, tempbuf[256]={'\0'};
 
   for (skindex = 1; skindex < SKILL_TABLE_SIZE; skindex++) {
     if (is_abbrev(name, spell_info[skindex].name) && (spell_info[skindex].skilltype & sktype)) {
@@ -287,8 +286,7 @@ int find_skill_num(char *name, int sktype)
  * this is also the entry point for non-spoken or unrestricted spells.
  * Spellnum 0 is legal but silently ignored here, to make callers simpler.
  */
-int call_magic(struct char_data *caster, struct char_data *cvict,
-	     struct obj_data *ovict, int spellnum, int level, int casttype, const char *arg)
+int call_magic(struct char_data *caster, struct char_data *cvict, struct obj_data *ovict, int spellnum, int level, int casttype, const char *arg)
 {
 
   if (casttype != CAST_POTION && casttype != CAST_SCROLL && casttype != CAST_WAND && casttype != CAST_STAFF) {
@@ -421,10 +419,9 @@ int call_magic(struct char_data *caster, struct char_data *cvict,
  * the DikuMUD format did not specify staff and wand levels in the world
  * files (this is a CircleMUD enhancement).
  */
-void mag_objectmagic(struct char_data *ch, struct obj_data *obj,
-		          char *argument)
+void mag_objectmagic(struct char_data *ch, struct obj_data *obj, char *argument)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   int i, k;
   struct char_data *tch = NULL, *next_tch;
   struct obj_data *tobj = NULL;
@@ -610,8 +607,7 @@ void mag_objectmagic(struct char_data *ch, struct obj_data *obj,
  * Entry point for NPC casts.  Recommended entry point for spells cast
  * by NPCs via specprocs.
  */
-int cast_spell(struct char_data *ch, struct char_data *tch,
-	           struct obj_data *tobj, int spellnum, const char *arg)
+int cast_spell(struct char_data *ch, struct char_data *tch, struct obj_data *tobj, int spellnum, const char *arg)
 {
   int lvl = GET_LEVEL(ch);
   int concentration = 0;
@@ -741,15 +737,15 @@ ACMD(do_cast)
   struct char_data *tch = NULL;
   struct obj_data *tobj = NULL;
   struct follow_type *f;
-  char *s, *t, buffer[25];
+  char *s, *t, buffer[25]={'\0'};
   /* char export[256];
   int mana, percent; */
   int ki = 0, lvl = 0;
   sh_int n = 0;
   byte spellKnown = FALSE;
   int spellnum, spellnum_bak, i, target = 0, innate = false;
-  char argument2[MAX_STRING_LENGTH];
-  char arg[100], dBuf[MAX_STRING_LENGTH];
+  char argument2[MAX_STRING_LENGTH]={'\0'};
+  char arg[100]={'\0'}, dBuf[MAX_STRING_LENGTH]={'\0'};
   int classnum = CLASS_WIZARD;
   int attrib = GET_WIS(ch);
   int count = 0;
@@ -910,7 +906,7 @@ ACMD(do_cast)
 	  int b_vnum = 4506;
 	  struct follow_type *f;
 	  struct char_data *mob;
-	  char buf[MSL];
+	  char buf[MSL]={'\0'};
 
 	  if (!HAS_FEAT(ch, FEAT_ANIMAL_COMPANION))
 	  {
@@ -1590,8 +1586,9 @@ ACMD(do_cast)
   }
 
   /* Find the target */
-  if (t != NULL) {
-    char arg[MAX_INPUT_LENGTH];
+  if (t != NULL) 
+  {
+    char arg[MAX_INPUT_LENGTH]={'\0'};
 
     strlcpy(arg, t, sizeof(arg));
     one_argument(arg, t);
@@ -3980,8 +3977,8 @@ ACMD(do_spells)
 {
   int i = 0, j, k = 0, n = 0;
   sbyte spellKnown = FALSE, spellInRepetoire = FALSE;
-  char arg[MAX_STRING_LENGTH];
-  char arg2[MAX_STRING_LENGTH];
+  char arg[MAX_STRING_LENGTH]={'\0'};
+  char arg2[MAX_STRING_LENGTH]={'\0'};
   int count = 0;
   int spellLevel = -1;
   int tempClass = GET_CLASS(ch);

@@ -157,8 +157,8 @@ SPECIAL(buy_items)
 {
   int i;
   struct obj_data *obj;
-  char buf[100];
-  char arg2[100];
+  char buf[100]={'\0'};
+  char arg2[100]={'\0'};
   int is_weapon = FALSE;
   int is_armor = FALSE;
 
@@ -800,7 +800,7 @@ SPECIAL(identify_mob)
 {
 
     struct obj_data *obj;
-    char arg[MAX_STRING_LENGTH];
+    char arg[MAX_STRING_LENGTH]={'\0'};
 
     if (!CMD_IS("identify"))
         return FALSE;
@@ -849,7 +849,7 @@ SPECIAL(identify_kit)
 {
 
 struct obj_data *obj;
-char arg[MAX_STRING_LENGTH];
+char arg[MAX_STRING_LENGTH]={'\0'};
 
 if (!CMD_IS("identify") && !CMD_IS("idcost"))
   return FALSE;
@@ -917,7 +917,7 @@ SPECIAL(research)
 
   if (CMD_IS("identify")) {
     struct obj_data *obj;
-    char arg[MAX_STRING_LENGTH];
+    char arg[MAX_STRING_LENGTH]={'\0'};
 
     one_argument(argument, arg);
 
@@ -1445,7 +1445,7 @@ return FALSE;
 
 SPECIAL(mayor)
 {
-char actbuf[MAX_INPUT_LENGTH];
+char actbuf[MAX_INPUT_LENGTH]={'\0'};
 
 const char open_path[] =
 	"W3a3003b33000c111d0d111Oe333333Oe22c222112212111a1S.";
@@ -1712,7 +1712,7 @@ return (FALSE);
 
 SPECIAL(puff)
 {
-char actbuf[MAX_INPUT_LENGTH];
+char actbuf[MAX_INPUT_LENGTH]={'\0'};
 
 if (cmd)
 return (FALSE);
@@ -1838,7 +1838,7 @@ if (!spit_social)
 spit_social = find_command("spit");
 
 if (spit_social > 0) {
-char spitbuf[MAX_NAME_LENGTH + 1];
+char spitbuf[MAX_NAME_LENGTH + 1]={'\0'};
 
 strncpy(spitbuf, GET_NAME(spittle), sizeof(spitbuf));	/* strncpy: OK */
 spitbuf[sizeof(spitbuf) - 1] = '\0';
@@ -1856,7 +1856,7 @@ return (FALSE);
 
 SPECIAL(pet_shops)
 {
-char buf[MAX_STRING_LENGTH], pet_name[256];
+char buf[MAX_STRING_LENGTH]={'\0'}, pet_name[256]={'\0'};
 room_rnum pet_room;
 struct char_data *pet;
 
@@ -3007,7 +3007,7 @@ int fighter_perform_action(struct char_data *ch, struct char_data *vict)
 {
 
 int act_used = 0, act = 0, num = 0;
-char buf[MAX_STRING_LENGTH];
+char buf[MAX_STRING_LENGTH]={'\0'};
 
 act_used = 2;
 
@@ -3091,9 +3091,9 @@ return false;
 SPECIAL(enchant_mob)
 {
 
-  char arg[100];
-  char arg2[100];
-  char arg3[100];
+  char arg[100]={'\0'};
+  char arg2[100]={'\0'};
+  char arg3[100]={'\0'};
   int i = 0, j = 0, cost = 0, mod = 0;
   struct obj_data *obj = NULL;
 
@@ -3217,7 +3217,7 @@ SPECIAL(buff_mob)
 {
 
   int i = 0, cost = 0;
-  char buf[100];
+  char buf[100]={'\0'};
 
   if (!CMD_IS("buff"))
     return 0;
@@ -3312,7 +3312,7 @@ SPECIAL(crafting_station)
   struct obj_data *created = NULL;
   int bonus = 0;
   int station_obj_vnum = GET_OBJ_VNUM(station);
-  char buf[200];
+  char buf[200]={'\0'};
   int skill = 0;
   int craft_type = SCMD_CRAFT;
   struct obj_data *orig = NULL, *crystal = NULL;
@@ -4312,7 +4312,7 @@ SPECIAL(buy_potion)
 
   struct obj_data *obj = NULL;
   int i = 0, j = 0, spelllevel = 0, cost = 0;
-  char buf[100], keywords[100];
+  char buf[100]={'\0'}, keywords[100]={'\0'};
 
   if (!CMD_IS("buy")) {
     return 0;
@@ -4428,14 +4428,15 @@ SPECIAL(use_credit) {
 };
 */
 
-SPECIAL(bounty_contractor) {
+SPECIAL(bounty_contractor) 
+{
 
   if (!CMD_IS("bounty")) {
     return 0;
   }
 
-  char arg[200];
-  char arg2[200];
+  char arg[200]={'\0'};
+  char arg2[200]={'\0'};
 
   two_arguments(argument, arg, arg2);
 
@@ -4947,7 +4948,7 @@ SPECIAL(mount_shop)
 //    send_to_char(ch, "\r\nType companion <#> to get an animal companion.\r\n(You must have more druid and ranger(-4) ranks than the companion level to take). \r\n");
   }
   else if (CMD_IS("buy") || CMD_IS("companion")) {
-    char arg[200];
+    char arg[200]={'\0'};
     one_argument(argument, arg);
 
     int mob_num = 0;
@@ -5001,7 +5002,7 @@ SPECIAL(mount_shop)
     }
   } else {
     struct obj_data * obj;
-    char arg[200];
+    char arg[200]={'\0'};
     one_argument(argument, arg);
     
     if (!*arg) {
@@ -5036,7 +5037,7 @@ SPECIAL(mount_shop)
   }
   return 1;
 }
-char highscorename[200];
+char highscorename[200]={'\0'};
 int highscore = 0;
 
 #define SKILL_DARTS SKILL_ACROBATICS
@@ -5045,7 +5046,7 @@ SPECIAL(dartboard)
 {
   struct char_data *to;
   int dart1 = 0, dart2 = 0, dart3 = 0, score = 0;
-  char buf[400];
+  char buf[400]={'\0'};
   if (!*highscorename) strcpy(highscorename, "Nobody");
 
   if (CMD_IS("playdarts")) {
@@ -5129,8 +5130,8 @@ SPECIAL(crafting_quest) {
     return 0;
   }
 
-  char arg[200];
-  char arg2[200];
+  char arg[200]={'\0'};
+  char arg2[200]={'\0'};
 
   two_arguments(argument, arg, arg2);
 
@@ -5165,7 +5166,7 @@ SPECIAL(crafting_quest) {
 
   int atype = GET_ARTISAN_TYPE(ch);
   int itype = -1;
-  char desc[500];
+  char desc[500]={'\0'};
   int roll = 0;
 
   switch (atype) {
@@ -5299,7 +5300,7 @@ SPECIAL(item_seller)
   if (!CMD_IS("item"))
     return 0;
 
-  char arg[200], arg2[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'};
 
   two_arguments(argument, arg, arg2);
 
@@ -5400,7 +5401,7 @@ SPECIAL(mold_seller)
   if (!CMD_IS("item"))
     return 0;
 
-  char arg[200], arg2[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'};
 
   two_arguments(argument, arg, arg2);
 
@@ -5504,7 +5505,7 @@ SPECIAL(player_shop)
     return 0;
   }
 
-  char arg[200], arg2[200], arg3[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'};
   struct obj_data *obj = NULL;
   int cost = 0;
 
@@ -5698,7 +5699,7 @@ SPECIAL(emporium)
   if (!CMD_IS("emporium"))
     return 0;
 
-  char arg[200], arg2[200], arg3[200], arg4[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'}, arg4[200]={'\0'};
   int bt = 0, bonus = 0;
 
   one_argument(one_argument(one_argument(one_argument(argument, arg), arg2), arg3), arg4);
@@ -5820,7 +5821,7 @@ SPECIAL(emporium)
     GET_QUESTPOINTS(ch) -= cost;
 
     SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
-    char buf[200];
+    char buf[200]={'\0'};
     sprintf(buf, "%s +%d %s", obj->short_description, bonus, get_bonus_type(arg3));
     obj->short_description = strdup(buf);
     obj->name = strdup(buf);
@@ -5879,7 +5880,7 @@ SPECIAL(emporium)
       return 1;
     }
 
-    char buf[100];
+    char buf[100]={'\0'};
     int cost = 0;
 
     struct obj_data *obj = NULL;
@@ -6013,7 +6014,7 @@ SPECIAL(lockbox)
     if (!lb)
         return 0;
 
-    char buf[200];
+    char buf[200]={'\0'};
 
     if (roll < 15) 
     {
@@ -6048,7 +6049,7 @@ SPECIAL(orphan)
 
   struct obj_data *lb = (struct obj_data *) me;
   struct obj_data *obj = NULL;
-  char arg[200], arg2[200];
+  char arg[200]={'\0'}, arg2[200]={'\0'};
 
   if (!lb)
     return 0;
@@ -6079,7 +6080,7 @@ SPECIAL(orphan)
     return 1;
   }
 
-  char buf[200];
+  char buf[200]={'\0'};
 
   if (is_abbrev(arg2, "foster-home")) 
   {
