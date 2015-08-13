@@ -212,7 +212,7 @@ void trigedit_disp_menu(struct descriptor_data *d)
 {
   struct trig_data *trig = OLC_TRIG(d);
   char *attach_type;
-  char trgtypes[256];
+  char trgtypes[256]={'\0'};
 
   if (trig->attach_type==OBJ_TRIGGER) {
     attach_type = "Objects";
@@ -253,7 +253,7 @@ void trigedit_disp_types(struct descriptor_data *d)
 {
   int i, columns = 0;
   const char **types;
-  char bitbuf[MAX_STRING_LENGTH];
+  char bitbuf[MAX_STRING_LENGTH]={'\0'};
   
   switch(OLC_TRIG(d)->attach_type)
   {
@@ -416,9 +416,9 @@ void trigedit_save(struct descriptor_data *d)
   struct descriptor_data *dsc;
   FILE *trig_file;
   int zone, top;
-  char buf[MAX_CMD_LENGTH];
-  char bitBuf[MAX_INPUT_LENGTH];
-  char fname[MAX_INPUT_LENGTH];
+  char buf[MAX_CMD_LENGTH]={'\0'};
+  char bitBuf[MAX_INPUT_LENGTH]={'\0'};
+  char fname[MAX_INPUT_LENGTH]={'\0'};
   
   if ((rnum = real_trigger(OLC_NUM(d))) != NOTHING) {
     proto = trig_index[rnum]->proto;
@@ -927,7 +927,7 @@ int strncasecmp (const char *s1, const char *s2, int n)
 #endif
 int format_script(struct descriptor_data *d)
 {
-  char nsc[MAX_CMD_LENGTH], *t, line[READ_SIZE];
+  char nsc[MAX_CMD_LENGTH]={'\0'}, *t, line[READ_SIZE]={'\0'};
   char *sc;
   size_t len = 0, nlen = 0, llen = 0;
   int indent = 0, indent_next = FALSE, found_case = FALSE, i, line_num = 0;

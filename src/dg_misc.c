@@ -35,8 +35,7 @@ extern struct spell_info_type spell_info[];
 /* LIMITATION: a target MUST exist for the spell unless the spell is   */
 /* set to TAR_IGNORE. Also, group spells are not permitted             */
 /* code borrowed from do_cast() */
-void do_dg_cast(void *go, struct script_data *sc, trig_data *trig,
-		 int type, char *cmd)
+void do_dg_cast(void *go, struct script_data *sc, trig_data *trig, int type, char *cmd)
 {
   struct char_data *caster = NULL;
   struct char_data *tch = NULL;
@@ -44,7 +43,7 @@ void do_dg_cast(void *go, struct script_data *sc, trig_data *trig,
   struct room_data *caster_room = NULL;
   char *s, *t;
   int spellnum, target = 0;
-  char buf2[MAX_STRING_LENGTH], orig_cmd[MAX_INPUT_LENGTH];
+  char buf2[MAX_STRING_LENGTH]={'\0'}, orig_cmd[MAX_INPUT_LENGTH]={'\0'};
 
   /* need to get the caster or the room of the temporary caster */
   switch (type) {
@@ -156,14 +155,13 @@ void do_dg_cast(void *go, struct script_data *sc, trig_data *trig,
 /* usage:  apply <target> <property> <value> <duration>               */
 #define APPLY_TYPE	1
 #define AFFECT_TYPE	2
-void do_dg_affect(void *go, struct script_data *sc, trig_data *trig,
-		  int script_type, char *cmd)
+void do_dg_affect(void *go, struct script_data *sc, trig_data *trig, int script_type, char *cmd)
 {
   struct char_data *ch = NULL;
   int value=0, duration=0;
-  char junk[MAX_INPUT_LENGTH]; /* will be set to "dg_affect" */
-  char charname[MAX_INPUT_LENGTH], property[MAX_INPUT_LENGTH];
-  char value_s[MAX_INPUT_LENGTH], duration_s[MAX_INPUT_LENGTH];
+  char junk[MAX_INPUT_LENGTH]={'\0'}; /* will be set to "dg_affect" */
+  char charname[MAX_INPUT_LENGTH]={'\0'}, property[MAX_INPUT_LENGTH]={'\0'};
+  char value_s[MAX_INPUT_LENGTH]={'\0'}, duration_s[MAX_INPUT_LENGTH]={'\0'};
   int i=0, type=0;
   struct affected_type af;
 

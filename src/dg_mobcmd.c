@@ -87,10 +87,9 @@ ACMD(do_mrecho);
 void mob_log(char_data *mob, const char *format, ...)
 {
   va_list args;
-  char output[MAX_STRING_LENGTH];
+  char output[MAX_STRING_LENGTH]={'\0'};
     
-  snprintf(output, sizeof(output), "Mob (%s, VNum %d):: %s", 
-                   GET_SHORT(mob), GET_MOB_VNUM(mob), format);
+  snprintf(output, sizeof(output), "Mob (%s, VNum %d):: %s", GET_SHORT(mob), GET_MOB_VNUM(mob), format);
 
   va_start(args, format);
   script_vlog(output, args);
@@ -148,7 +147,7 @@ ACMD(do_masound)
 /* lets the mobile kill any player or mobile without murder*/
 ACMD(do_mkill)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     char_data *victim;
   
     if (!MOB_OR_IMPL(ch)) {
@@ -203,7 +202,7 @@ ACMD(do_mkill)
  */
 ACMD(do_mjunk)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     int pos, junk_all = 0;
     obj_data *obj;
     obj_data *obj_next;
@@ -252,7 +251,7 @@ ACMD(do_mjunk)
 /* prints the message to everyone in the room other than the mob and victim */
 ACMD(do_mechoaround)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     char_data *victim;
     char *p;
 
@@ -289,7 +288,7 @@ ACMD(do_mechoaround)
 /* sends the message to only the victim */
 ACMD(do_msend)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     char_data *victim;
     char *p;
 
@@ -349,7 +348,7 @@ ACMD(do_mecho)
 ACMD(do_mzoneecho)
 {
     int zone;
-    char room_number[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
+    char room_number[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'}, *msg;
   
     msg = any_one_arg(argument, room_number);
     skip_spaces(&msg);
@@ -372,7 +371,7 @@ ACMD(do_mzoneecho)
  */
 ACMD(do_mload)
 {
-    char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
     int number = 0;
     char_data *mob;
     obj_data *object;
@@ -417,7 +416,7 @@ ACMD(do_mload)
         }
       char_to_room(mob, rnum);
       if (SCRIPT(ch)) { // it _should_ have, but it might be detached.
-        char buf[MAX_INPUT_LENGTH];
+        char buf[MAX_INPUT_LENGTH]={'\0'};
         sprintf(buf, "%c%ld", UID_CHAR, GET_ID(mob));
         add_var(&(SCRIPT(ch)->global_vars), "lastloaded", buf, 0);
       }
@@ -430,7 +429,7 @@ ACMD(do_mload)
             return;
         }
       if (SCRIPT(ch)) { // it _should_ have, but it might be detached.
-        char buf[MAX_INPUT_LENGTH];
+        char buf[MAX_INPUT_LENGTH]={'\0'};
         sprintf(buf, "%c%ld", UID_CHAR, GET_ID(object));
         add_var(&(SCRIPT(ch)->global_vars), "lastloaded", buf, 0);
       }
@@ -485,7 +484,7 @@ ACMD(do_mload)
  */
 ACMD(do_mpurge)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   char_data *victim;
   obj_data  *obj;
  
@@ -554,7 +553,7 @@ ACMD(do_mpurge)
 /* lets the mobile goto any location it wishes that is not private */
 ACMD(do_mgoto)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     room_rnum location;
   
     if (!MOB_OR_IMPL(ch)) {
@@ -589,7 +588,7 @@ ACMD(do_mgoto)
 /* lets the mobile do a command at another location. Very useful */
 ACMD(do_mat)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     room_rnum location, original;
   
     if (!MOB_OR_IMPL(ch)) {
@@ -634,7 +633,7 @@ ACMD(do_mat)
  */
 ACMD(do_mteleport)
 {
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
   room_rnum target;
   char_data *vict, *next_ch;
 
@@ -696,7 +695,7 @@ ACMD(do_mteleport)
 
 
 ACMD(do_mdamage) {
-  char name[MAX_INPUT_LENGTH], amount[MAX_INPUT_LENGTH];
+  char name[MAX_INPUT_LENGTH]={'\0'}, amount[MAX_INPUT_LENGTH]={'\0'};
   int dam = 0;
   char_data *vict;
 
@@ -735,7 +734,7 @@ ACMD(do_mdamage) {
  */
 ACMD(do_mforce)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
 
     if (!MOB_OR_IMPL(ch)) {
         send_to_char(ch, "Huh?!?\r\n");
@@ -796,7 +795,7 @@ ACMD(do_mforce)
 ACMD(do_mhunt)
 {
     char_data *victim;
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
 
     if (!MOB_OR_IMPL(ch)) {
         send_to_char(ch, "Huh?!?\r\n");
@@ -839,7 +838,7 @@ ACMD(do_mremember)
 {
     char_data *victim;
     struct script_memory *mem;
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
 
     if (!MOB_OR_IMPL(ch)) {
         send_to_char(ch, "Huh?!?\r\n");
@@ -891,7 +890,7 @@ ACMD(do_mforget)
 {
     char_data *victim;
     struct script_memory *mem, *prev;
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
 
     if (!MOB_OR_IMPL(ch)) {
         send_to_char(ch, "Huh?!?\r\n");
@@ -946,7 +945,7 @@ ACMD(do_mforget)
 /* transform into a different mobile */
 ACMD(do_mtransform)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   char_data *m, tmpmob;
   obj_data *obj[NUM_WEARS];
   mob_rnum this_rnum = GET_MOB_RNUM(ch);
@@ -1051,13 +1050,14 @@ ACMD(do_mtransform)
 
 ACMD(do_mdoor)
 {
-    char target[MAX_INPUT_LENGTH], direction[MAX_INPUT_LENGTH];
-    char field[MAX_INPUT_LENGTH], *value;
+    char target[MAX_INPUT_LENGTH]={'\0'}, direction[MAX_INPUT_LENGTH]={'\0'};
+    char field[MAX_INPUT_LENGTH]={'\0'}, *value;
     room_data *rm;
     struct room_direction_data *newexit;
     int dir, fd, to_room;
 
-    const char *door_field[] = {
+    const char *door_field[] = 
+    {
         "purge",
         "description",
         "flags",
@@ -1152,7 +1152,7 @@ ACMD(do_mdoor)
 
 ACMD(do_mfollow)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *leader;
   struct follow_type *j, *k;
 
@@ -1225,7 +1225,7 @@ ACMD(do_mfollow)
 /* Thx to Jamie Nelson of 4D for this contribution */
 ACMD(do_mrecho)
 {
-    char start[MAX_INPUT_LENGTH], finish[MAX_INPUT_LENGTH], *msg;
+    char start[MAX_INPUT_LENGTH]={'\0'}, finish[MAX_INPUT_LENGTH]={'\0'}, *msg;
 
     if (!MOB_OR_IMPL(ch)) {
       send_to_char(ch, "Huh?!?\r\n");

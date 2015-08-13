@@ -33,7 +33,7 @@ void trig_data_init(trig_data *this_data);
 void parse_trigger(FILE *trig_f, int nr)
 {
     int t[2], k, attach_type;
-    char line[256], *cmds, *s, flags[256], errors[MAX_INPUT_LENGTH];
+    char line[256]={'\0'}, *cmds, *s, flags[256]={'\0'}, errors[MAX_INPUT_LENGTH]={'\0'};
     struct cmdlist_element *cle;
     struct index_data *t_index;
     struct trig_data *trig;
@@ -141,8 +141,8 @@ void trig_data_copy(trig_data *this_data, const trig_data *trg)
 /* for mobs and rooms: */
 void dg_read_trigger(FILE *fp, void *proto, int type)
 {
-  char line[READ_SIZE];
-  char junk[8];
+  char line[READ_SIZE]={'\0'};
+  char junk[8]={'\0'};
   int vnum, rnum, count;
   char_data *mob;
   room_data *room;
@@ -226,7 +226,7 @@ void dg_read_trigger(FILE *fp, void *proto, int type)
 
 void dg_obj_trigger(char *line, struct obj_data *obj)
 {
-  char junk[8];
+  char junk[8]={'\0'};
   int vnum, rnum, count;
   struct trig_proto_list *trg_proto, *new_trg;
 

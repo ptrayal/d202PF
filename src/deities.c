@@ -35,7 +35,8 @@ void init_deities(void)
 }
 
 void add_deity(int deity, char *name, int ethos, int alignment, int d1, int d2, int d3, int d4, int d5, int d6, int weapon, int pantheon,
-               char *portfolio, char *description) {
+               char *portfolio, char *description) 
+{
 
   deity_list[deity].name = name;
   deity_list[deity].ethos = ethos;
@@ -53,7 +54,8 @@ void add_deity(int deity, char *name, int ethos, int alignment, int d1, int d2, 
 
 }
 
-void assign_deities(void) {
+void assign_deities(void) 
+{
 
   init_deities();
 

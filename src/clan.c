@@ -1131,7 +1131,7 @@ char *get_rank_name(int clan, int rank)
 /* procedure to show clan info to morts */
 ACMD(do_show_clan)
 {
-  char buf[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   struct clan_type *cptr;
   int count = 0;
   size_t len = 0;

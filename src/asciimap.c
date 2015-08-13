@@ -431,7 +431,7 @@ void perform_map( struct char_data *ch, char *argument, bool worldmap )
 {
   int size = DEFAULT_MAP_SIZE;
   int centre, x, y, min, max;
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH], buf[MAX_STRING_LENGTH], buf1[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   int count = 0;
   int ew_size=0, ns_size=0;
   int mapshape = MAP_CIRCLE;
@@ -525,7 +525,8 @@ void perform_map( struct char_data *ch, char *argument, bool worldmap )
 }
 
 /* Display a string with the map beside it */
-void str_and_map(char *str, struct char_data *ch ) {
+void str_and_map(char *str, struct char_data *ch ) 
+{
   int size, centre, x, y, min, max, char_size;
   int ew_size=0, ns_size=0;
   bool worldmap;

@@ -49,8 +49,8 @@ long lRnum = 0;
 ACMD (do_assedit)
 {
   struct descriptor_data *d = ch->desc;
-  char buf[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
 
  *buf = '\0';  /* If I run into problems then take this sucker out */
  *buf2 = '\0';

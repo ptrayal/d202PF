@@ -52,7 +52,8 @@ WCMD(do_wat);
 void wld_command_interpreter(room_data *room, char *argument);
 
 
-struct wld_command_info {
+struct wld_command_info 
+{
     char *command;
     void (*command_pointer)
            (room_data *room, char *argument, int cmd, int subcmd);
@@ -70,7 +71,7 @@ struct wld_command_info {
 void wld_log(room_data *room, const char *format, ...)
 {
   va_list args;
-  char output[MAX_STRING_LENGTH];
+  char output[MAX_STRING_LENGTH]={'\0'};
     
   snprintf(output, sizeof(output), "Room %d :: %s", room->number, format);
 
@@ -135,7 +136,7 @@ WCMD(do_wecho)
 
 WCMD(do_wsend)
 {
-    char buf[MAX_INPUT_LENGTH], *msg;
+    char buf[MAX_INPUT_LENGTH]={'\0'}, *msg;
     char_data *ch;
   
     msg = any_one_arg(argument, buf);
@@ -169,7 +170,7 @@ WCMD(do_wsend)
 WCMD(do_wzoneecho)
 {
     zone_rnum zone;
-    char room_num[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
+    char room_num[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'}, *msg;
   
     msg = any_one_arg(argument, room_num);
     skip_spaces(&msg);
@@ -190,7 +191,7 @@ WCMD(do_wzoneecho)
 /* Thx to Jamie Nelson of 4D for this contribution */
 WCMD(do_wrecho)
 {
-    char start[MAX_INPUT_LENGTH], finish[MAX_INPUT_LENGTH], *msg;
+    char start[MAX_INPUT_LENGTH]={'\0'}, finish[MAX_INPUT_LENGTH]={'\0'}, *msg;
 
     msg = two_arguments(argument, start, finish);
 
@@ -205,13 +206,14 @@ WCMD(do_wrecho)
 
 WCMD(do_wdoor)
 {
-    char target[MAX_INPUT_LENGTH], direction[MAX_INPUT_LENGTH];
-    char field[MAX_INPUT_LENGTH], *value;
+    char target[MAX_INPUT_LENGTH]={'\0'}, direction[MAX_INPUT_LENGTH]={'\0'};
+    char field[MAX_INPUT_LENGTH]={'\0'}, *value;
     room_data *rm;
     struct room_direction_data *newexit;
     int dir, fd, to_room;
 
-    const char *door_field[] = {
+    const char *door_field[] = 
+    {
         "purge",
         "description",
         "flags",
@@ -301,7 +303,7 @@ WCMD(do_wteleport)
 {
     char_data *ch, *next_ch;
     room_rnum target, nr;
-    char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
 
     two_arguments(argument, arg1, arg2);
   
@@ -352,7 +354,7 @@ WCMD(do_wteleport)
 WCMD(do_wforce)
 {
     char_data *ch, *next_ch;
-    char arg1[MAX_INPUT_LENGTH], *line;
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, *line;
 
     line = one_argument(argument, arg1);
   
@@ -393,7 +395,7 @@ WCMD(do_wforce)
 /* purge all objects an npcs in room, or specified object or mob */
 WCMD(do_wpurge)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     char_data *ch, *next_ch;
     obj_data *obj, *next_obj;
 
@@ -446,7 +448,7 @@ WCMD(do_wpurge)
 /* loads a mobile or object into the room */
 WCMD(do_wload)
 {
-    char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
     int number = 0;
     char_data *mob;
     obj_data *object;
@@ -479,7 +481,7 @@ WCMD(do_wload)
         }
       char_to_room(mob, rnum);
       if (SCRIPT(room)) { // it _should_ have, but it might be detached.
-        char buf[MAX_INPUT_LENGTH];
+        char buf[MAX_INPUT_LENGTH]={'\0'};
         sprintf(buf, "%c%ld", UID_CHAR, GET_ID(mob));
         add_var(&(SCRIPT(room)->global_vars), "lastloaded", buf, 0);
       }
@@ -495,7 +497,7 @@ WCMD(do_wload)
       if (!target || !*target) {
         obj_to_room(object, real_room(room->number)); 
         if (SCRIPT(room)) { // it _should_ have, but it might be detached.
-          char buf[MAX_INPUT_LENGTH];
+          char buf[MAX_INPUT_LENGTH]={'\0'};
           sprintf(buf, "%c%ld", UID_CHAR, GET_ID(object));
           add_var(&(SCRIPT(room)->global_vars), "lastloaded", buf, 0);
         }
@@ -535,7 +537,7 @@ WCMD(do_wload)
 }
 
 WCMD(do_wdamage) {
-  char name[MAX_INPUT_LENGTH], amount[MAX_INPUT_LENGTH];
+  char name[MAX_INPUT_LENGTH]={'\0'}, amount[MAX_INPUT_LENGTH]={'\0'};
   int dam = 0;
   char_data *ch;
 
@@ -560,7 +562,7 @@ WCMD(do_wdamage) {
 
 
 WCMD(do_wat) {
-    char location[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char location[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
     int vnum = 0;    
     room_data *r2;
  
@@ -606,7 +608,7 @@ const struct wld_command_info wld_cmd_info[] = {
 void wld_command_interpreter(room_data *room, char *argument)
 {
     int cmd, length;
-    char *line, arg[MAX_INPUT_LENGTH];
+    char *line, arg[MAX_INPUT_LENGTH]={'\0'};
   
     skip_spaces(&argument);
   

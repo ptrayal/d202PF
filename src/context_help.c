@@ -263,10 +263,11 @@ int context_help(struct descriptor_data *d, char *arg)
   return TRUE;
 }
 
-void boot_context_help(void) {
+void boot_context_help(void) 
+{
   int i, num;
   FILE *fl;
-  char line[READ_SIZE];
+  char line[READ_SIZE]={'\0'};
 
   fl = fopen(CONTEXT_HELP_FILE, "r");
 

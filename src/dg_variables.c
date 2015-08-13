@@ -79,7 +79,7 @@ void add_var(struct trig_var_data **var_list, char *name, char *value, long id)
 char *skill_percent(struct char_data *ch, char *skill, int return_type)
 {
   static char retval[16];
-  int skillnum;
+  int skillnum = 0;
 
   skillnum = find_skill_num(skill, SKTYPE_SKILL);
   if (skillnum<=0) return("unknown skill");
@@ -166,7 +166,7 @@ int char_has_item(char *item, struct char_data *ch)
 int text_processed(char *field, char *subfield, struct trig_var_data *vd, char *str, size_t slen)
 {
   char *p, *p2;
-  char tmpvar[MAX_STRING_LENGTH];
+  char tmpvar[MAX_STRING_LENGTH]={'\0'};
 
   if (!str_cmp(field, "strlen")) {                     /* strlen    */
     snprintf(str, slen, "%d", (int)strlen(vd->value));
@@ -965,7 +965,7 @@ in the vault (vnum: 453) now and then. you can just use
             snprintf(str, slen, "%s", skill_percent(c, subfield, 2));
           else if (!str_cmp(field, "skillset")) {
             if (!IS_NPC(c) && subfield && *subfield) {
-              char skillname[MAX_INPUT_LENGTH], *amount;
+              char skillname[MAX_INPUT_LENGTH]={'\0'}, *amount;
               amount = one_word(subfield, skillname);
               skip_spaces(&amount);
               if (amount && *amount && is_number(amount)) {
@@ -1466,10 +1466,10 @@ o->contains) ? "1" : "0"));
 void var_subst(void *go, struct script_data *sc, trig_data *trig,
                int type, char *line, char *buf)
 {
-  char tmp[MAX_INPUT_LENGTH], repl_str[MAX_INPUT_LENGTH];
+  char tmp[MAX_INPUT_LENGTH]={'\0'}, repl_str[MAX_INPUT_LENGTH]={'\0'};
   char *var = NULL, *field = NULL, *p = NULL;
-  char tmp2[MAX_INPUT_LENGTH];
-  char *subfield_p, subfield[MAX_INPUT_LENGTH];
+  char tmp2[MAX_INPUT_LENGTH]={'\0'};
+  char *subfield_p, subfield[MAX_INPUT_LENGTH]={'\0'};
   int left, len;
   int paren_count = 0;
   int dots = 0;

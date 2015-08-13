@@ -55,8 +55,7 @@ sh_int find_target_room(struct char_data * ch, char *rawroomstr);
 trig_data *read_trigger(int nr);
 struct obj_data *get_object_in_equip(struct char_data * ch, char *name);
 void extract_trigger(struct trig_data *trig);
-int eval_lhs_op_rhs(char *expr, char *result, void *go, struct script_data *sc,
-                    trig_data *trig, int type);
+int eval_lhs_op_rhs(char *expr, char *result, void *go, struct script_data *sc, trig_data *trig, int type);
 char *skill_percent_roll(struct char_data *ch, char *skill);
 extern void gain_exp(struct char_data *ch, int gain);
 int can_edit_zone(struct char_data *ch, zone_rnum zone);
@@ -141,7 +140,7 @@ obj_data *get_object_in_equip(char_data * ch, char *name)
 {
   int j, n = 0, number;
   obj_data *obj;
-  char tmpname[MAX_INPUT_LENGTH];
+  char tmpname[MAX_INPUT_LENGTH]={'\0'};
   char *tmp = tmpname; 
   long id;
 
@@ -178,7 +177,8 @@ obj_data *get_object_in_equip(char_data * ch, char *name)
 int find_eq_pos_script(char *arg)
 {
   int i;
-  struct eq_pos_list {
+  struct eq_pos_list 
+  {
     const char *pos;
     int where;
   } eq_pos[] = {
@@ -709,7 +709,7 @@ EVENTFUNC(trig_wait_event)
 void do_stat_trigger(struct char_data *ch, trig_data *trig)
 {
     struct cmdlist_element *cmd_list;
-    char sb[MAX_STRING_LENGTH], buf[MAX_STRING_LENGTH];
+    char sb[MAX_STRING_LENGTH]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
     int len = 0;
     
     if (!trig)
@@ -775,9 +775,9 @@ void script_stat (char_data *ch, struct script_data *sc)
 {
   struct trig_var_data *tv;
   trig_data *t;
-  char name[MAX_INPUT_LENGTH];
-  char namebuf[512];
-  char buf1[MAX_STRING_LENGTH];
+  char name[MAX_INPUT_LENGTH]={'\0'};
+  char namebuf[512]={'\0'};
+  char buf1[MAX_STRING_LENGTH]={'\0'};
 
   send_to_char(ch, "Global Variables: %s\r\n", sc->global_vars ? "" : "None");
   send_to_char(ch, "Global context: %ld\r\n", sc->context);
@@ -901,8 +901,8 @@ ACMD(do_attach)
   obj_data *object;
   room_data *room;
   trig_data *trig;
-  char targ_name[MAX_INPUT_LENGTH], trig_name[MAX_INPUT_LENGTH];
-  char loc_name[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
+  char targ_name[MAX_INPUT_LENGTH]={'\0'}, trig_name[MAX_INPUT_LENGTH]={'\0'};
+  char loc_name[MAX_INPUT_LENGTH]={'\0'}, arg[MAX_INPUT_LENGTH]={'\0'};
   int loc, tn, rn, num_arg;
   room_rnum rnum;
 
@@ -1104,7 +1104,7 @@ ACMD(do_detach)
   char_data *victim = NULL;
   obj_data *object = NULL;
   struct room_data *room;
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH], arg3[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'}, arg3[MAX_INPUT_LENGTH]={'\0'};
   char *trigger = 0;   
   int num_arg;
   
@@ -1256,7 +1256,7 @@ ACMD(do_detach)
  */
 void script_vlog(const char *format, va_list args) 
 {
-  char output[MAX_STRING_LENGTH];
+  char output[MAX_STRING_LENGTH]={'\0'};
   struct descriptor_data *i;
   
   snprintf(output, sizeof(output), "SCRIPT ERR: %s", format);
@@ -1307,8 +1307,7 @@ int is_num(char *num)
 
 
 /* evaluates 'lhs op rhs', and copies to result */
-void eval_op(char *op, char *lhs, char *rhs, char *result, void *go,
-             struct script_data *sc, trig_data *trig)
+void eval_op(char *op, char *lhs, char *rhs, char *result, void *go, struct script_data *sc, trig_data *trig)
 {
   unsigned char *p;
   int n;
@@ -1445,10 +1444,9 @@ char *matching_paren(char *p)
 
 
 /* evaluates line, and returns answer in result */
-void eval_expr(char *line, char *result, void *go, struct script_data *sc,
-               trig_data *trig, int type)
+void eval_expr(char *line, char *result, void *go, struct script_data *sc, trig_data *trig, int type)
 {
-  char expr[MAX_INPUT_LENGTH], *p;
+  char expr[MAX_INPUT_LENGTH]={'\0'}, *p;
 
   while (*line && isspace(*line))
     line++;
@@ -1471,18 +1469,18 @@ void eval_expr(char *line, char *result, void *go, struct script_data *sc,
  * evaluates expr if it is in the form lhs op rhs, and copies
  * answer in result.  returns 1 if expr is evaluated, else 0
  */
-int eval_lhs_op_rhs(char *expr, char *result, void *go, struct script_data *sc,
-                    trig_data *trig, int type)
+int eval_lhs_op_rhs(char *expr, char *result, void *go, struct script_data *sc, trig_data *trig, int type)
 {
-  char *p, *tokens[MAX_INPUT_LENGTH];
-  char line[MAX_INPUT_LENGTH], lhr[MAX_INPUT_LENGTH], rhr[MAX_INPUT_LENGTH];
+  char *p, *tokens[MAX_INPUT_LENGTH]={'\0'};
+  char line[MAX_INPUT_LENGTH]={'\0'}, lhr[MAX_INPUT_LENGTH]={'\0'}, rhr[MAX_INPUT_LENGTH]={'\0'};
   int i, j;
   
   /*
    * valid operands, in order of priority
    * each must also be defined in eval_op()
    */
-  static char *ops[] = {
+  static char *ops[] = 
+  {
     "||",
     "&&",
     "==",
@@ -1538,10 +1536,9 @@ int eval_lhs_op_rhs(char *expr, char *result, void *go, struct script_data *sc,
 
 
 /* returns 1 if cond is true, else 0 */
-int process_if(char *cond, void *go, struct script_data *sc,
-               trig_data *trig, int type)
+int process_if(char *cond, void *go, struct script_data *sc, trig_data *trig, int type)
 {
-  char result[MAX_INPUT_LENGTH], *p;
+  char result[MAX_INPUT_LENGTH]={'\0'}, *p;
 
   eval_expr(cond, result, go, sc, trig, type);
   
@@ -1642,10 +1639,9 @@ struct cmdlist_element *find_else_end(trig_data *trig,
 
 
 /* processes any 'wait' commands in a trigger */
-void process_wait(void *go, trig_data *trig, int type, char *cmd,
-                  struct cmdlist_element *cl)
+void process_wait(void *go, trig_data *trig, int type, char *cmd, struct cmdlist_element *cl)
 {
-  char buf[MAX_INPUT_LENGTH], *arg;
+  char buf[MAX_INPUT_LENGTH]={'\0'}, *arg;
   struct wait_event_data *wait_event_obj;
   long when, hr, min, ntime;
   char c;
@@ -1702,7 +1698,7 @@ void process_wait(void *go, trig_data *trig, int type, char *cmd,
 /* processes a script set command */
 void process_set(struct script_data *sc, trig_data *trig, char *cmd)
 {
-  char arg[MAX_INPUT_LENGTH], name[MAX_INPUT_LENGTH], *value;
+  char arg[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'}, *value;
   
   value = two_arguments(cmd, arg, name);
 
@@ -1719,11 +1715,10 @@ void process_set(struct script_data *sc, trig_data *trig, char *cmd)
 }
 
 /* processes a script eval command */
-void process_eval(void *go, struct script_data *sc, trig_data *trig,
-                 int type, char *cmd)
+void process_eval(void *go, struct script_data *sc, trig_data *trig, int type, char *cmd)
 {
-  char arg[MAX_INPUT_LENGTH], name[MAX_INPUT_LENGTH];
-  char result[MAX_INPUT_LENGTH], *expr;
+  char arg[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'};
+  char result[MAX_INPUT_LENGTH]={'\0'}, *expr;
   
   expr = one_argument(cmd, arg); /* cut off 'eval' */
   expr = one_argument(expr, name); /* cut off name */
@@ -1742,11 +1737,10 @@ void process_eval(void *go, struct script_data *sc, trig_data *trig,
 
 
 /* script attaching a trigger to something */
-void process_attach(void *go, struct script_data *sc, trig_data *trig,
-                    int type, char *cmd)
+void process_attach(void *go, struct script_data *sc, trig_data *trig, int type, char *cmd)
 {
-  char arg[MAX_INPUT_LENGTH], trignum_s[MAX_INPUT_LENGTH];
-  char result[MAX_INPUT_LENGTH], *id_p;
+  char arg[MAX_INPUT_LENGTH]={'\0'}, trignum_s[MAX_INPUT_LENGTH]={'\0'};
+  char result[MAX_INPUT_LENGTH]={'\0'}, *id_p;
   trig_data *newtrig;
   char_data *c=NULL;
   obj_data *o=NULL;
@@ -1826,11 +1820,10 @@ void process_attach(void *go, struct script_data *sc, trig_data *trig,
 
 
 /* script detaching a trigger from something */
-void process_detach(void *go, struct script_data *sc, trig_data *trig,
-                    int type, char *cmd)
+void process_detach(void *go, struct script_data *sc, trig_data *trig, int type, char *cmd)
 {
-  char arg[MAX_INPUT_LENGTH], trignum_s[MAX_INPUT_LENGTH];
-  char result[MAX_INPUT_LENGTH], *id_p;
+  char arg[MAX_INPUT_LENGTH]={'\0'}, trignum_s[MAX_INPUT_LENGTH]={'\0'};
+  char result[MAX_INPUT_LENGTH]={'\0'}, *id_p;
   char_data *c=NULL;
   obj_data *o=NULL;
   room_data *r=NULL;
@@ -1924,12 +1917,11 @@ struct room_data *dg_room_of_obj(struct obj_data *obj)
 
 
 /* create a UID variable from the id number */
-void makeuid_var(void *go, struct script_data *sc, trig_data *trig,
-                 int type, char *cmd)
+void makeuid_var(void *go, struct script_data *sc, trig_data *trig, int type, char *cmd)
 {
-  char junk[MAX_INPUT_LENGTH], varname[MAX_INPUT_LENGTH];
-  char arg[MAX_INPUT_LENGTH], name[MAX_INPUT_LENGTH];
-  char uid[MAX_INPUT_LENGTH];
+  char junk[MAX_INPUT_LENGTH]={'\0'}, varname[MAX_INPUT_LENGTH]={'\0'};
+  char arg[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'};
+  char uid[MAX_INPUT_LENGTH]={'\0'};
   
   *uid = '\0';
   half_chop(cmd, junk, cmd);    /* makeuid */
@@ -1951,7 +1943,7 @@ void makeuid_var(void *go, struct script_data *sc, trig_data *trig,
   }
 
   if (atoi(arg)!=0) { /* easy, if you pass an id number */
-    char result[MAX_INPUT_LENGTH];
+    char result[MAX_INPUT_LENGTH]={'\0'};
 
     eval_expr(arg, result, go, sc, trig, type);
     snprintf(uid, sizeof(uid), "%c%s", UID_CHAR, result);
@@ -2027,7 +2019,7 @@ void makeuid_var(void *go, struct script_data *sc, trig_data *trig,
  */
 int process_return(trig_data *trig, char *cmd)
 {
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
   
   two_arguments(cmd, arg1, arg2);
   
@@ -2048,7 +2040,7 @@ int process_return(trig_data *trig, char *cmd)
  */
 void process_unset(struct script_data *sc, trig_data *trig, char *cmd)
 {
-  char arg[MAX_INPUT_LENGTH], *var;
+  char arg[MAX_INPUT_LENGTH]={'\0'}, *var;
 
   var = any_one_arg(cmd, arg);
 
@@ -2074,7 +2066,7 @@ void process_remote(struct script_data *sc, trig_data *trig, char *cmd)
   struct trig_var_data *vd;
   struct script_data *sc_remote=NULL;
   char *line, *var, *uid_p;
-  char arg[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
   long uid, context;
   room_data *room;
   char_data *mob;
@@ -2151,7 +2143,7 @@ ACMD(do_vdelete)
   struct trig_var_data *vd, *vd_prev=NULL;
   struct script_data *sc_remote=NULL;
   char *var, *uid_p;
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
   long uid, context;
   room_data *room;
   char_data *mob;
@@ -2241,7 +2233,7 @@ ACMD(do_vdelete)
  */
 int perform_set_dg_var(struct char_data *ch, struct char_data *vict, char *val_arg)
 {
-	char var_name[MAX_INPUT_LENGTH], *var_value;
+	char var_name[MAX_INPUT_LENGTH]={'\0'}, *var_value;
 
 	var_value = any_one_arg(val_arg, var_name);
 
@@ -2265,7 +2257,7 @@ void process_rdelete(struct script_data *sc, trig_data *trig, char *cmd)
   struct trig_var_data *vd, *vd_prev=NULL;
   struct script_data *sc_remote=NULL;
   char *line, *var, *uid_p;
-  char arg[MAX_INPUT_LENGTH], buf[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   long uid, context;
   room_data *room;
   char_data *mob;
@@ -2336,7 +2328,7 @@ void process_rdelete(struct script_data *sc, trig_data *trig, char *cmd)
 void process_global(struct script_data *sc, trig_data *trig, char *cmd, long id)
 {
   struct trig_var_data *vd;
-  char arg[MAX_INPUT_LENGTH], *var;
+  char arg[MAX_INPUT_LENGTH]={'\0'}, *var;
 
   var = any_one_arg(cmd, arg);
 
@@ -2366,7 +2358,7 @@ void process_global(struct script_data *sc, trig_data *trig, char *cmd, long id)
 /* set the current context for a script */
 void process_context(struct script_data *sc, trig_data *trig, char *cmd)
 {
-  char arg[MAX_INPUT_LENGTH], *var;
+  char arg[MAX_INPUT_LENGTH]={'\0'}, *var;
   
   var = any_one_arg(cmd, arg);
 
@@ -2383,9 +2375,9 @@ void process_context(struct script_data *sc, trig_data *trig, char *cmd)
 
 void extract_value(struct script_data *sc, trig_data *trig, char *cmd)
 {
-  char buf[MAX_INPUT_LENGTH], buf2[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
   char *buf3;
-  char to[128];
+  char to[128]={'\0'};
   int num;
 
   buf3 = any_one_arg(cmd, buf);
@@ -2428,11 +2420,11 @@ void extract_value(struct script_data *sc, trig_data *trig, char *cmd)
 void dg_letter_value(struct script_data *sc, trig_data *trig, char *cmd)
 {
   //set the letter/number at position 'num' as the variable.
-  char junk[MAX_INPUT_LENGTH];
-  char varname[MAX_INPUT_LENGTH];
-  char num_s[MAX_INPUT_LENGTH];
-  char string[MAX_INPUT_LENGTH];
-  int num;
+  char junk[MAX_INPUT_LENGTH]={'\0'};
+  char varname[MAX_INPUT_LENGTH]={'\0'};
+  char num_s[MAX_INPUT_LENGTH]={'\0'};
+  char string[MAX_INPUT_LENGTH]={'\0'};
+  int num = 0;
 
   half_chop(cmd, junk, cmd);   /* "dg_letter" */
   half_chop(cmd, varname, cmd);
@@ -2481,7 +2473,7 @@ int script_driver(void *go_adress, trig_data *trig, int type, int mode)
   static int depth = 0;
   int ret_val = 1;
   struct cmdlist_element *cl;
-  char cmd[MAX_INPUT_LENGTH], *p;
+  char cmd[MAX_INPUT_LENGTH]={'\0'}, *p;
   struct script_data *sc = 0;
   struct cmdlist_element *temp;
   unsigned long loops = 0;
@@ -2757,7 +2749,7 @@ trig_rnum real_trigger(trig_vnum vnum)
 ACMD(do_tstat)
 {
   int rnum;
-  char str[MAX_INPUT_LENGTH];
+  char str[MAX_INPUT_LENGTH]={'\0'};
 
   half_chop(argument, str, argument);
   if (*str) {
@@ -2778,10 +2770,9 @@ ACMD(do_tstat)
 * line of the trigger if not found.
 */
 struct cmdlist_element *
-find_case(struct trig_data *trig, struct cmdlist_element *cl,
-          void *go, struct script_data *sc, int type, char *cond)
+find_case(struct trig_data *trig, struct cmdlist_element *cl, void *go, struct script_data *sc, int type, char *cond)
 {
-  char result[MAX_INPUT_LENGTH];
+  char result[MAX_INPUT_LENGTH]={'\0'};
   struct cmdlist_element *c;
   char *p, *buf;
 
@@ -2862,10 +2853,10 @@ void read_saved_vars(struct char_data *ch)
 {
   FILE *file;
   long context;
-  char fn[127];
-  char input_line[1024], *temp, *p;
-  char varname[32];
-  char context_str[16];
+  char fn[127]={'\0'};
+  char input_line[1024]={'\0'}, *temp, *p;
+  char varname[32]={'\0'};
+  char context_str[16]={'\0'};
 
   /*
    * If getting to the menu from inside the game, the vars aren't removed.
@@ -2910,7 +2901,7 @@ void read_saved_vars(struct char_data *ch)
 void save_char_vars(struct char_data *ch)
 {
   FILE *file;
-  char fn[127];
+  char fn[127]={'\0'};
   struct trig_var_data *vars;
 
   /* immediate return if no script (and therefore no variables) structure */
@@ -2949,10 +2940,10 @@ void save_char_vars(struct char_data *ch)
 void read_saved_vars_ascii(FILE *file, struct char_data *ch, int count)
 {
   long context;
-  char input_line[1024], *temp, *p;
-  char varname[READ_SIZE];
-  char context_str[READ_SIZE];
-	int i;
+  char input_line[1024]={'\0'}, *temp, *p;
+  char varname[READ_SIZE]={'\0'};
+  char context_str[READ_SIZE]={'\0'};
+	int i = 0;
 
   /*
    * If getting to the menu from inside the game, the vars aren't removed.

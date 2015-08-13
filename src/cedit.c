@@ -49,7 +49,7 @@ void reassign_rooms(void);
 ACMD(do_oasis_cedit)
 {
   struct descriptor_data *d;
-  char buf1[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
   
   /****************************************************************************/
   /** Parse any arguments.                                                   **/
@@ -421,7 +421,7 @@ void cedit_save_to_disk( void )
 int save_config( IDXTYPE nowhere )
 {
   FILE *fl;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   
   if (!(fl = fopen(CONFIG_CONFFILE, "w"))) {
     log("SYSERR: save_config: %s", strerror(errno));

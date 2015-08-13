@@ -72,7 +72,8 @@ const char *patch_list[] =
 
 /* Alignments */
 /* Taken from the SRD under OGL, see ../doc/srd.txt for information */
-const char *alignments[] = {
+const char *alignments[] = 
+{
   "Lawful Good",
   "Neutral Good",
   "Chaotic Good",
@@ -87,7 +88,8 @@ const char *alignments[] = {
 };
 
 /* Armor Types */
-const char *armor_type[] = {
+const char *armor_type[] = 
+{
   "Undefined",
   "Light",
   "Medium",
@@ -145,7 +147,8 @@ const char *abbr_dirs[] =
 };
 
 /* ROOM_x */
-const char *room_bits[] = {
+const char *room_bits[] = 
+{
   "DARK",
   "DEATH",
   "NO_MOB",
@@ -197,7 +200,8 @@ const char *room_bits[] = {
 
 
 /* EX_x */
-const char *exit_bits[] = {
+const char *exit_bits[] = 
+{
   "DOOR",
   "CLOSED",
   "LOCKED",
@@ -209,7 +213,8 @@ const char *exit_bits[] = {
 
 
 /* SECT_ */
-const char *sector_types[] = {
+const char *sector_types[] = 
+{
   "Inside",
   "City",
   "Field",
@@ -242,7 +247,8 @@ const char *genders[] =
 
 
 /* POS_x */
-const char *position_types[] = {
+const char *position_types[] = 
+{
   "Dead",
   "Mortally wounded",
   "Incapacitated",
@@ -261,7 +267,8 @@ const char *position_types[] = {
 
 
 /* PLR_x */
-const char *player_bits[] = {
+const char *player_bits[] = 
+{
   "KILLER",
   "THIEF",
   "FROZEN",
@@ -313,7 +320,8 @@ const char *player_bits[] = {
 
 
 /* MOB_x */
-const char *action_bits[] = {
+const char *action_bits[] = 
+{
   "SPEC",
   "SENTINEL",
   "SCAVENGER",
@@ -373,7 +381,8 @@ const char *action_bits[] = {
 
 
 /* PRF_x */
-const char *preference_bits[] = {
+const char *preference_bits[] = 
+{
   "BRIEF",
   "COMPACT",
   "DEAF",
@@ -559,7 +568,8 @@ const char *affected_bits[] =
 
 
 /* CON_x */
-const char *connected_types[] = {
+const char *connected_types[] = 
+{
   "Playing",
   "Disconnecting",
   "Get name",
@@ -653,7 +663,8 @@ const char *connected_types[] = {
  * WEAR_x - for eq list
  * Not use in sprinttype() so no \n.
  */
-const char *wear_where[] = {
+const char *wear_where[] = 
+{
   "<Used as light>",
   "<Worn on right finger>",
   "<Worn on left finger>",
@@ -706,7 +717,8 @@ const char *wear_where[] = {
 
 
 /* WEAR_x - for stat */
-const char *equipment_types[] = {
+const char *equipment_types[] = 
+{
   "Used as light",
   "Worn on right finger",
   "Worn on left finger",
@@ -757,7 +769,8 @@ const char *equipment_types[] = {
 
 
 /* ITEM_x (ordinal object types) */
-const char *item_types[] = {
+const char *item_types[] = 
+{
   "UNDEFINED",
   "LIGHT",
   "SCROLL",
@@ -809,7 +822,8 @@ const char *item_types[] = {
 
 
 /* ITEM_WEAR_ (wear bitvector) */
-const char *wear_bits[] = {
+const char *wear_bits[] = 
+{
 "TAKE",
 "FINGER",
 "NECK",
@@ -846,7 +860,8 @@ const char *wear_bits[] = {
 
 
 /* ITEM_x (extra bits) */
-const char *extra_bits[] = {
+const char *extra_bits[] = 
+{
   "GLOW",
   "HIDDEN",
   "NO_RENT",
@@ -885,7 +900,8 @@ const char *extra_bits[] = {
 
 
 /* APPLY_x */
-const char *apply_types[] = {
+const char *apply_types[] = 
+{
   "NONE",
   "STR",
   "DEX",
@@ -941,7 +957,8 @@ const char *apply_types[] = {
   "\n"
 };
 
-char *apply_text[NUM_APPLIES+1] = {
+char *apply_text[NUM_APPLIES+1] = 
+{
   "Nothing",
   "Strength",
   "Dexterity",
@@ -1052,7 +1069,8 @@ int apply_gold_cost[NUM_APPLIES+1] = {
 
 
 /* CONT_x */
-const char *container_bits[] = {
+const char *container_bits[] = 
+{
   "CLOSEABLE",
   "PICKPROOF",
   "CLOSED",
@@ -1084,7 +1102,8 @@ const char *drinks[] =
 };
 
 /* MATERIAL_ */
-const char *material_names[] = {
+const char *material_names[] = 
+{
    "undefined",
    "cotton",
    "leather",
@@ -1136,7 +1155,8 @@ const char *material_names[] = {
 
 
 /* Taken the SRD under OGL, see ../doc/srd.txt for information */
-const char *domains[] = {
+const char *domains[] = 
+{
   "",
   "Air",
   "Animal",
@@ -1214,7 +1234,8 @@ const char *domains[] = {
 };
 
 /* Taken the SRD under OGL, see ../doc/srd.txt for information */
-const char *schools[] = {
+const char *schools[] = 
+{
   "Undefined",
   "Abjuration",
   "Conjuration",
@@ -1313,7 +1334,8 @@ const char *fullness[] =
 
 
 /* mob trigger types */
-const char *trig_types[] = {
+const char *trig_types[] = 
+{
   "Global",
   "Random",
   "Command",
@@ -1339,7 +1361,8 @@ const char *trig_types[] = {
 
 
 /* obj trigger types */
-const char *otrig_types[] = {
+const char *otrig_types[] = 
+{
   "Global",
   "Random",
   "Command",
@@ -1365,7 +1388,8 @@ const char *otrig_types[] = {
 
 
 /* wld trigger types */
-const char *wtrig_types[] = {
+const char *wtrig_types[] = 
+{
   "Global",
   "Random",
   "Command",
@@ -1391,7 +1415,8 @@ const char *wtrig_types[] = {
 
 
 /* Taken the SRD under OGL, see ../doc/srd.txt for information */
-const char *size_names[] = {
+const char *size_names[] = 
+{
   "fine",
   "diminutive",
   "tiny",
@@ -1437,7 +1462,8 @@ int movement_loss[] =
 };
 
 /* Not used in sprinttype(). */
-const char *weekdays[] = {
+const char *weekdays[] = 
+{
   "the Day of the Moon",
   "the Day of the Deception",
   "the Day of Thunder",
@@ -1448,7 +1474,8 @@ const char *weekdays[] = {
 
 
 /* Not used in sprinttype(). */
-const char *month_name[] = {
+const char *month_name[] = 
+{
   "Month of Winter",		/* 0 */
   "Month of the Winter Wolf",
   "Month of the Old Forces",
@@ -1465,7 +1492,8 @@ const char *month_name[] = {
 
 
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-const char *wield_names[] = {
+const char *wield_names[] = 
+{
   "if you were bigger",
   "with ease",
   "one-handed",
@@ -1528,7 +1556,8 @@ int race_ages[NUM_RACE_TYPES+1] =
 
 
 /* Administrative flags */
-const char *admin_flag_names[] = {
+const char *admin_flag_names[] = 
+{
   "TellAll",
   "SeeInventory",
   "SeeSecret",
@@ -1552,7 +1581,8 @@ const char *admin_flag_names[] = {
 };
 
 
-const char *spell_schools[] = {
+const char *spell_schools[] = 
+{
   "abjuration",
   "conjuration",
   "divination",
@@ -1566,7 +1596,8 @@ const char *spell_schools[] = {
 };
 
 
-const char *cchoice_names[NUM_COLOR + 1] = {
+const char *cchoice_names[NUM_COLOR + 1] = 
+{
   "normal",
   "room names",
   "room objects",
@@ -1584,7 +1615,8 @@ const char *cchoice_names[NUM_COLOR + 1] = {
 };
 
 
-const char *dr_style_names[NUM_DR_STYLES + 1] = {
+const char *dr_style_names[NUM_DR_STYLES + 1] = 
+{
   "NONE",
   "admin",
   "weapon material",
@@ -1708,84 +1740,85 @@ const char *deity_names_dl_aol[] = {
 
 const char *domain_names[] =
 {
-	"",
-	"Air",
-	"Animal",
-	"Chaos",
-	"Death",
-	"Destruction",
-	"Earth",
-	"Evil",
-	"Fire",
-	"Good",
-	"Healing",
-	"Knowledge",
-	"Law",
-	"Luck",
-	"Magic",
-	"Plant",
-	"Protection",
-	"Strength",
-	"Sun",
-	"Travel",
-	"Trickery",
-	"Universal",
-	"War",
-	"Water",
-	"Artifice",
-	"Charm",
-	"Community",
-	"Creation",
-	"Darkness",
-	"Glory",
-	"Liberation",
-	"Madness",
-	"Nobility",
-	"Repose",
-	"Rune",
-	"Scalykind",
-	"Weather",
-	"Meditation",
-	"Forge",
-	"Passion",
-	"Insight",
-	"Treachery",
-	"Storm",
-	"Pestilence",
-	"Suffering",
-	"Retribution",
-	"Planning",
-	"Craft",
-	"Dwarf",
-    "Time",
-    "Family",
-    "Moon",
-    "Drow",
-    "Elf",
-    "Cavern",
-    "Illusion",
-    "Spell",
-        "Hatred",
-        "Tyranny",
-        "Fate",
-        "Renewal",
-        "Metal",
-        "Ocean",
-        "Mobility",
-        "Portal",
-        "Trade",
-        "Undeath",
-        "Mentalism",
-        "Gnome",
-        "Halfling",
-        "Orc",
-        "Spider",
-        "Slime",
-    "Mediation",
-    "\n"
+  "",
+  "Air",
+  "Animal",
+  "Chaos",
+  "Death",
+  "Destruction",
+  "Earth",
+  "Evil",
+  "Fire",
+  "Good",
+  "Healing",
+  "Knowledge",
+  "Law",
+  "Luck",
+  "Magic",
+  "Plant",
+  "Protection",
+  "Strength",
+  "Sun",
+  "Travel",
+  "Trickery",
+  "Universal",
+  "War",
+  "Water",
+  "Artifice",
+  "Charm",
+  "Community",
+  "Creation",
+  "Darkness",
+  "Glory",
+  "Liberation",
+  "Madness",
+  "Nobility",
+  "Repose",
+  "Rune",
+  "Scalykind",
+  "Weather",
+  "Meditation",
+  "Forge",
+  "Passion",
+  "Insight",
+  "Treachery",
+  "Storm",
+  "Pestilence",
+  "Suffering",
+  "Retribution",
+  "Planning",
+  "Craft",
+  "Dwarf",
+  "Time",
+  "Family",
+  "Moon",
+  "Drow",
+  "Elf",
+  "Cavern",
+  "Illusion",
+  "Spell",
+  "Hatred",
+  "Tyranny",
+  "Fate",
+  "Renewal",
+  "Metal",
+  "Ocean",
+  "Mobility",
+  "Portal",
+  "Trade",
+  "Undeath",
+  "Mentalism",
+  "Gnome",
+  "Halfling",
+  "Orc",
+  "Spider",
+  "Slime",
+  "Mediation",
+  "\n"
 };
 
-char * level_ranges[] = {
+char * level_ranges[] = 
+{
 
   "Any",
   "1-2",
@@ -1821,7 +1854,8 @@ char * level_ranges[] = {
   "\n"
 };
 
-char * zone_states[] = {
+char * zone_states[] = 
+{
   "Closed",
   "Working",
   "Open",
@@ -1829,7 +1863,8 @@ char * zone_states[] = {
   "\n"
 };
 
-char *handle_types[] = {
+char *handle_types[] = 
+{
   "handle",
   "shaft",
   "hilt",
@@ -1840,7 +1875,8 @@ char *handle_types[] = {
   "glove"
 };
 
-char *head_types[] = {
+char *head_types[] = 
+{
   "headed",
   "bladed",
   "headed",
@@ -1874,7 +1910,8 @@ ITEM_WEAR_SHEATHED_H
 };
 
 /* Constants for Assemblies    *****************************************/
-const char *AssemblyTypes[MAX_ASSM+1] = {
+const char *AssemblyTypes[MAX_ASSM+1] = 
+{
   "tan",
   "bake",
   "brew",
@@ -1895,7 +1932,8 @@ const char *AssemblyTypes[MAX_ASSM+1] = {
   "\n"
 };
 
-const char *craft_names[NUM_CRAFTS] = {
+const char *craft_names[NUM_CRAFTS] = 
+{
   "bracer",
   "bracelet",
   "armband",
@@ -1995,7 +2033,8 @@ int craft_skills[NUM_CRAFTS] = {
 
 #define NUM_COMPANION_TYPES             16
 
-const char *companion_types[] = {
+const char *companion_types[] = 
+{
   "none",
   "bear",
   "wolf",
@@ -2113,7 +2152,8 @@ int craft_pattern_vnums_real[NUM_CRAFT_TYPES] = {
 -1
 };
 
-const char *craft_pattern_descs[] = {
+const char *craft_pattern_descs[] = 
+{
 "padded armor",
 "leather armor",
 "studded leather armor",

@@ -50,10 +50,9 @@ char *any_one_name(char *argument, char *first_arg)
 }
 
 
-void sub_write_to_char(char_data *ch, char *tokens[],
-		       void *otokens[], char type[])
+void sub_write_to_char(char_data *ch, char *tokens[], void *otokens[], char type[])
 {
-    char sb[MAX_STRING_LENGTH];
+    char sb[MAX_STRING_LENGTH]={'\0'};
     int i;
 
     strcpy(sb,"");
@@ -130,8 +129,8 @@ void sub_write_to_char(char_data *ch, char *tokens[],
 
 void sub_write(char *arg, char_data *ch, byte find_invis, int targets)
 {
-    char str[MAX_INPUT_LENGTH * 2];
-    char type[MAX_INPUT_LENGTH], name[MAX_INPUT_LENGTH];
+    char str[MAX_INPUT_LENGTH * 2]={'\0'};
+    char type[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'};
     char *tokens[MAX_INPUT_LENGTH], *s, *p;
     void *otokens[MAX_INPUT_LENGTH];
     char_data *to;

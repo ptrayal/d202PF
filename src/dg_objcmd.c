@@ -51,7 +51,8 @@ OCMD(do_oat);
 void obj_command_interpreter(obj_data *obj, char *argument);
 
 
-struct obj_command_info {
+struct obj_command_info 
+{
    char *command;
    void        (*command_pointer)(obj_data *obj, char *argument, int cmd, int subcmd);
    int        subcmd;
@@ -68,7 +69,7 @@ struct obj_command_info {
 void obj_log(obj_data *obj, const char *format, ...)
 {
   va_list args;
-  char output[MAX_STRING_LENGTH];
+  char output[MAX_STRING_LENGTH]={'\0'};
     
   snprintf(output, sizeof(output), "Obj (%s, VNum %d):: %s", obj->short_description, GET_OBJ_VNUM(obj), format);
 
@@ -100,7 +101,7 @@ room_rnum find_obj_target_room(obj_data *obj, char *rawroomstr)
     room_rnum location;
     char_data *target_mob;
     obj_data *target_obj;
-    char roomstr[MAX_INPUT_LENGTH];
+    char roomstr[MAX_INPUT_LENGTH]={'\0'};
 
     one_argument(rawroomstr, roomstr);
 
@@ -168,8 +169,8 @@ OCMD(do_oecho)
 OCMD(do_oforce)
 {
     char_data *ch, *next_ch;
-    int room;
-    char arg1[MAX_INPUT_LENGTH], *line;
+    int room = 0;
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, *line;
 
     line = one_argument(argument, arg1);
   
@@ -214,7 +215,7 @@ OCMD(do_oforce)
 OCMD(do_ozoneecho)
 {
     int zone;
-    char room_number[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
+    char room_number[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_INPUT_LENGTH]={'\0'}, *msg;
   
     msg = any_one_arg(argument, room_number);
     skip_spaces(&msg);
@@ -233,7 +234,7 @@ OCMD(do_ozoneecho)
 
 OCMD(do_osend)
 {
-    char buf[MAX_INPUT_LENGTH], *msg;
+    char buf[MAX_INPUT_LENGTH]={'\0'}, *msg;
     char_data *ch;
   
     msg = any_one_arg(argument, buf);
@@ -268,7 +269,7 @@ OCMD(do_osend)
 /* Thx to Jamie Nelson of 4D for this contribution */
 OCMD(do_orecho)
 {
-    char start[MAX_INPUT_LENGTH], finish[MAX_INPUT_LENGTH], *msg;
+    char start[MAX_INPUT_LENGTH]={'\0'}, finish[MAX_INPUT_LENGTH]={'\0'}, *msg;
 
     msg = two_arguments(argument, start, finish);
 
@@ -285,7 +286,7 @@ OCMD(do_orecho)
 /* set the object's timer value */
 OCMD(do_otimer)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   one_argument(argument, arg);
 
@@ -303,7 +304,7 @@ OCMD(do_otimer)
 /* are containers! */
 OCMD(do_otransform)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   obj_data *o, tmpobj;
   struct char_data *wearer=NULL;
   int pos = 0;
@@ -354,7 +355,7 @@ OCMD(do_otransform)
 /* purge all objects an npcs in room, or specified object or mob */
 OCMD(do_opurge)
 {
-    char arg[MAX_INPUT_LENGTH];
+    char arg[MAX_INPUT_LENGTH]={'\0'};
     char_data *ch, *next_ch;
     obj_data *o, *next_obj;
     int rm;
@@ -406,7 +407,7 @@ OCMD(do_oteleport)
 {
     char_data *ch, *next_ch;
     room_rnum target, rm;
-    char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
 
     two_arguments(argument, arg1, arg2);
   
@@ -456,7 +457,7 @@ OCMD(do_oteleport)
 
 OCMD(do_dgoload)
 {
-    char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
     int number = 0, room;
     char_data *mob;
     obj_data *object;
@@ -498,7 +499,7 @@ OCMD(do_dgoload)
       char_to_room(mob, rnum);
 
       if (SCRIPT(obj)) { // it _should_ have, but it might be detached.
-        char buf[MAX_INPUT_LENGTH];
+        char buf[MAX_INPUT_LENGTH]={'\0'};
         sprintf(buf, "%c%ld", UID_CHAR, GET_ID(mob));
         add_var(&(SCRIPT(obj)->global_vars), "lastloaded", buf, 0);
       }
@@ -513,7 +514,7 @@ OCMD(do_dgoload)
         }
 
       if (SCRIPT(obj)) { // it _should_ have, but it might be detached.
-        char buf[MAX_INPUT_LENGTH];
+        char buf[MAX_INPUT_LENGTH]={'\0'};
         sprintf(buf, "%c%ld", UID_CHAR, GET_ID(object));
         add_var(&(SCRIPT(obj)->global_vars), "lastloaded", buf, 0);
       }
@@ -558,8 +559,9 @@ OCMD(do_dgoload)
 
 }
 
-OCMD(do_odamage) {
-  char name[MAX_INPUT_LENGTH], amount[MAX_INPUT_LENGTH];
+OCMD(do_odamage) 
+{
+  char name[MAX_INPUT_LENGTH]={'\0'}, amount[MAX_INPUT_LENGTH]={'\0'};
   int dam = 0;
   char_data *ch;
 
@@ -611,13 +613,14 @@ OCMD(do_oasound)
 
 OCMD(do_odoor)
 {
-    char target[MAX_INPUT_LENGTH], direction[MAX_INPUT_LENGTH];
-    char field[MAX_INPUT_LENGTH], *value;
+    char target[MAX_INPUT_LENGTH]={'\0'}, direction[MAX_INPUT_LENGTH]={'\0'};
+    char field[MAX_INPUT_LENGTH]={'\0'}, *value;
     room_data *rm;
     struct room_direction_data *newexit;
     int dir, fd, to_room;
 
-    const char *door_field[] = {
+    const char *door_field[] = 
+    {
         "purge",
         "description",
         "flags",
@@ -705,7 +708,7 @@ OCMD(do_odoor)
 
 OCMD(do_osetval)
 {
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
   int position, new_value;
 
   two_arguments(argument, arg1, arg2);
@@ -726,7 +729,7 @@ OCMD(do_osetval)
 /* submitted by PurpleOnyx - tkhasi@shadowglen.com*/
 OCMD(do_oat) 
 {
-  char location[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  char location[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
   int vnum = 0, rnum = 0;
   obj_data *object;
 
@@ -788,7 +791,7 @@ const struct obj_command_info obj_cmd_info[] = {
 void obj_command_interpreter(obj_data *obj, char *argument)
 {
     int cmd, length;
-    char *line, arg[MAX_INPUT_LENGTH];
+    char *line, arg[MAX_INPUT_LENGTH]={'\0'};
   
     skip_spaces(&argument);
   

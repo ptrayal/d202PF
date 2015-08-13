@@ -47,7 +47,7 @@ void clanedit_save_to_disk();
 ACMD(do_oasis_clanedit)
 {
   struct descriptor_data *d;
-  char buf1[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
   struct clan_type *cptr = NULL;
   int number;
 
