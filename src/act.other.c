@@ -2518,7 +2518,8 @@ int spell_in_domain(struct char_data *ch, int spellnum)
 {
   int i = 0;
 		
-  if (DOMAIN_FLAGGED(spellnum, DOMAIN_UNDEFINED)) {
+  if (DOMAIN_FLAGGED(spellnum, DOMAIN_UNDEFINED)) 
+  {
     return false;
   }
   
