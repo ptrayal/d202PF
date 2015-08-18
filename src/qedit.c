@@ -63,8 +63,8 @@ ACMD(do_oasis_qedit)
   qst_vnum number = NOWHERE;
   struct descriptor_data *d;
   char *buf3;
-  char buf1[MAX_INPUT_LENGTH];
-  char buf2[MAX_INPUT_LENGTH];
+  char buf1[MAX_INPUT_LENGTH]={'\0'};
+  char buf2[MAX_INPUT_LENGTH]={'\0'};
 
   /****************************************************************************/
   /** Parse any arguments.                                                   **/
@@ -254,8 +254,8 @@ void qedit_setup_existing(struct descriptor_data *d, qst_rnum r_num)
 void qedit_disp_menu(struct descriptor_data *d)
 {
   struct aq_data *quest;
-  char quest_flags[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
-  char targetname[MAX_STRING_LENGTH];
+  char quest_flags[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
+  char targetname[MAX_STRING_LENGTH]={'\0'};
   mob_vnum return_mob;
 
   quest = OLC_QUEST(d);
@@ -370,7 +370,7 @@ void qedit_disp_type_menu(struct descriptor_data *d)
 /* For quest flags.  */
 void qedit_disp_flag_menu(struct descriptor_data *d)
 {
-  char bits[MAX_STRING_LENGTH];
+  char bits[MAX_STRING_LENGTH]={'\0'};
   int counter, columns = 0;
 
   clear_screen(d);

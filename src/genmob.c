@@ -300,7 +300,7 @@ int save_mobiles(zone_rnum rznum)
   room_vnum i;
   mob_rnum rmob;
   int written;
-  char mobfname[64], usedfname[64];
+  char mobfname[64]={'\0'}, usedfname[64]={'\0'};
 
 #if CIRCLE_UNSIGNED_INDEX
   if (rznum == NOWHERE || rznum > top_of_zone_table) {
@@ -342,7 +342,7 @@ int save_mobiles(zone_rnum rznum)
 #if CONFIG_GENOLC_MOBPROG
 int write_mobile_mobprog(mob_vnum mvnum, struct char_data *mob, FILE *fd)
 {
-  char wmmarg[MAX_STRING_LENGTH], wmmcom[MAX_STRING_LENGTH];
+  char wmmarg[MAX_STRING_LENGTH]={'\0'}, wmmcom[MAX_STRING_LENGTH]={'\0'};
   MPROG_DATA *mob_prog;
 
   for (mob_prog = GET_MPROG(mob); mob_prog; mob_prog = mob_prog->next) {
@@ -426,11 +426,11 @@ int write_mobile_espec(mob_vnum mvnum, struct char_data *mob, FILE *fd)
 int write_mobile_record(mob_vnum mvnum, struct char_data *mob, FILE *fd)
 {
 
-  char ldesc[MAX_STRING_LENGTH], ddesc[MAX_STRING_LENGTH];
-  char fbuf1[MAX_STRING_LENGTH], fbuf2[MAX_STRING_LENGTH];
-  char fbuf3[MAX_STRING_LENGTH], fbuf4[MAX_STRING_LENGTH];
-  char abuf1[MAX_STRING_LENGTH], abuf2[MAX_STRING_LENGTH];
-  char abuf3[MAX_STRING_LENGTH], abuf4[MAX_STRING_LENGTH];
+  char ldesc[MAX_STRING_LENGTH]={'\0'}, ddesc[MAX_STRING_LENGTH]={'\0'};
+  char fbuf1[MAX_STRING_LENGTH]={'\0'}, fbuf2[MAX_STRING_LENGTH]={'\0'};
+  char fbuf3[MAX_STRING_LENGTH]={'\0'}, fbuf4[MAX_STRING_LENGTH]={'\0'};
+  char abuf1[MAX_STRING_LENGTH]={'\0'}, abuf2[MAX_STRING_LENGTH]={'\0'};
+  char abuf3[MAX_STRING_LENGTH]={'\0'}, abuf4[MAX_STRING_LENGTH]={'\0'};
 
   ldesc[MAX_STRING_LENGTH - 1] = '\0';
   ddesc[MAX_STRING_LENGTH - 1] = '\0';
@@ -500,7 +500,7 @@ void check_mobile_strings(struct char_data *mob)
 void check_mobile_string(mob_vnum i, char **string, const char *dscr)
 {
   if (*string == NULL || **string == '\0') {
-    char smbuf[128];
+    char smbuf[128]={'\0'};
     sprintf(smbuf, "GenOLC: Mob #%d has an invalid %s.", i, dscr);
     mudlog(BRF, ADMLVL_GOD, TRUE, "%s", smbuf);
     if (*string)

@@ -23,7 +23,7 @@
 #define NUM_ROOM_FLAGS 		45
 #define NUM_ROOM_SECTORS	11
 
-#define NUM_MOB_FLAGS		54
+#define NUM_MOB_FLAGS		60
 #define NUM_AFF_FLAGS		77
 #define NUM_ATTACK_TYPES	17
 

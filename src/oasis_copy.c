@@ -40,7 +40,7 @@ void room_copy_existing(int source_num, int real_num);
 /******************************************************************************/
 ACMD(do_dig)
 {
-  char sdir[MAX_INPUT_LENGTH], sroom[MAX_INPUT_LENGTH], *new_room_name;
+  char sdir[MAX_INPUT_LENGTH]={'\0'}, sroom[MAX_INPUT_LENGTH]={'\0'}, *new_room_name;
   room_vnum rvnum = NOWHERE;
   room_rnum rrnum = NOWHERE;
   zone_rnum zone;
@@ -201,7 +201,7 @@ ACMD(do_room_copy)
    struct room_data *room_src, *room_dst;
    int room_num, buf_num;
    zone_rnum dst_zone;
-   char buf[MAX_INPUT_LENGTH];
+   char buf[MAX_INPUT_LENGTH]={'\0'};
      
    one_argument(argument, buf);
    
@@ -279,7 +279,7 @@ room_vnum redit_find_new_vnum(zone_rnum zone)
 
 int buildwalk(struct char_data *ch, int dir)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   room_vnum vnum;
   room_rnum rnum;
 

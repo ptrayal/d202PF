@@ -24,7 +24,7 @@ void delete_aliases(const char *charname);
 void write_aliases(struct char_data *ch)
 {
   FILE *file;
-  char fn[MAX_STRING_LENGTH];
+  char fn[MAX_STRING_LENGTH]={'\0'};
   struct alias_data *temp;
 
   get_filename(fn, sizeof(fn), ALIAS_FILE, GET_NAME(ch));
@@ -61,9 +61,9 @@ void write_aliases(struct char_data *ch)
 void read_aliases(struct char_data *ch)
 {   
   FILE *file;
-  char xbuf[MAX_STRING_LENGTH];
+  char xbuf[MAX_STRING_LENGTH]={'\0'};
   struct alias_data *t2, *prev = NULL;
-  int length;
+  int length = 0;
 
   get_filename(xbuf, sizeof(xbuf), ALIAS_FILE, GET_NAME(ch));
 
@@ -129,7 +129,7 @@ read_alias_error:
 
 void delete_aliases(const char *charname)
 {
-  char filename[PATH_MAX];
+  char filename[PATH_MAX]={'\0'};
 
   if (!get_filename(filename, sizeof(filename), ALIAS_FILE, charname))
     return;

@@ -187,7 +187,7 @@ void auto_equip(struct char_data *ch, struct obj_data *obj, int location)
 
 int Crash_delete_file(char *name)
 {
-  char filename[50];
+  char filename[50]={'\0'};
   FILE *fl;
 
    //if (!xap_objs) {
@@ -215,10 +215,10 @@ int Crash_delete_file(char *name)
 
 int Crash_delete_crashfile(struct char_data *ch)
 {
-  char filename[MAX_INPUT_LENGTH];
+  char filename[MAX_INPUT_LENGTH]={'\0'};
   FILE *fl;
   int rentcode, timed, netcost, gold, account, nitems;
-  char line[MAX_INPUT_LENGTH];
+  char line[MAX_INPUT_LENGTH]={'\0'};
 
   if(!get_filename(filename, sizeof(filename), OLD_OBJ_FILES, GET_NAME(ch)))
     return (0);
@@ -243,10 +243,10 @@ int Crash_delete_crashfile(struct char_data *ch)
 
 int Crash_clean_file(char *name)
 {
-  char filename[MAX_STRING_LENGTH];
+  char filename[MAX_STRING_LENGTH]={'\0'};
   FILE *fl;
   int rentcode, timed, netcost, gold, account, nitems;
-  char line[MAX_STRING_LENGTH];
+  char line[MAX_STRING_LENGTH]={'\0'};
 
   if (!get_filename(filename, sizeof(filename), OLD_OBJ_FILES, name))
     return (0);
@@ -311,12 +311,12 @@ void update_obj_file(void)
 void Crash_listrent(struct char_data *ch, char *name)
 {
   FILE *fl=NULL;
-  char filename[MAX_STRING_LENGTH];
-  char buf[MAX_STRING_LENGTH];
+  char filename[MAX_STRING_LENGTH]={'\0'};
+  char buf[MAX_STRING_LENGTH]={'\0'};
   struct obj_data *obj;
   int rentcode, timed, netcost, gold, account, nitems, len;
   int t[10],nr;
-  char line[MAX_STRING_LENGTH];
+  char line[MAX_STRING_LENGTH]={'\0'};
   char *sdesc;
 
   if (get_filename(filename, sizeof(filename), NEW_OBJ_FILES, name))
@@ -526,7 +526,7 @@ void Crash_calculate_rent(struct obj_data *obj, int *cost)
 
 void Crash_crashsave(struct char_data *ch, int backup)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   int j;
   FILE *fp;
 
@@ -571,7 +571,7 @@ void Crash_crashsave(struct char_data *ch, int backup)
 
 void Crash_idlesave(struct char_data *ch)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   int j;
   int cost, cost_eq;
   FILE *fp;
@@ -645,7 +645,7 @@ void Crash_idlesave(struct char_data *ch)
 
 void Crash_rentsave(struct char_data *ch, int cost)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   int j;
   FILE *fp;
 
@@ -685,7 +685,7 @@ void Crash_rentsave(struct char_data *ch, int cost)
 
 void Crash_cryosave(struct char_data *ch, int cost)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   int j;
   FILE *fp;
 
@@ -732,7 +732,7 @@ void Crash_cryosave(struct char_data *ch, int cost)
 void Crash_rent_deadline(struct char_data *ch, struct char_data *recep,
 			      long cost)
 {
-  char buf[256];
+  char buf[256]={'\0'};
   long rent_deadline;
 
   if (!cost)
@@ -751,7 +751,7 @@ int Crash_report_unrentables(struct char_data *ch, struct char_data *recep,
 
   if (obj) {
     if (Crash_is_unrentable(obj)) {
-      char buf[128];
+      char buf[128]={'\0'};
 
       has_norents = 1;
       snprintf(buf, sizeof(buf), "$n tells you, 'You cannot store %s.'", OBJS(obj, ch));
@@ -773,7 +773,7 @@ void Crash_report_rent(struct char_data *ch, struct char_data *recep,
       (*nitems)++;
       *cost += MAX(0, (GET_OBJ_RENT(obj) * factor));
       if (display) {
-        char buf[256];
+        char buf[256]={'\0'};
 
 	snprintf(buf, sizeof(buf), "$n tells you, '%5d coins for %s..'", GET_OBJ_RENT(obj) * factor, OBJS(obj, ch));
 	act(buf, FALSE, recep, 0, ch, TO_VICT);
@@ -812,14 +812,14 @@ int Crash_offer_rent(struct char_data *ch, struct char_data *recep,
     return (0);
   }
   if (numitems > CONFIG_MAX_OBJ_SAVE) {
-    char buf[256];
+    char buf[256]={'\0'};
 
     snprintf(buf, sizeof(buf), "$n tells you, 'Sorry, but I cannot store more than %d items.'", CONFIG_MAX_OBJ_SAVE);
     act(buf, FALSE, recep, 0, ch, TO_VICT);
     return (0);
   }
   if (display) {
-    char buf[256];
+    char buf[256]={'\0'};
 
     snprintf(buf, sizeof(buf), "$n tells you, 'Plus, my %d coin fee..'", CONFIG_MIN_RENT_COST * factor);
     act(buf, FALSE, recep, 0, ch, TO_VICT);
@@ -873,7 +873,7 @@ int gen_receptionist(struct char_data *ch, struct char_data *recep,
   }
 
   if (CMD_IS("rent")) {
-    char buf[128];
+    char buf[128]={'\0'};
 
     if (!(cost = Crash_offer_rent(ch, recep, FALSE, mode)))
       return (TRUE);
@@ -956,9 +956,9 @@ void Crash_save_all(void)
 int Crash_load(struct char_data *ch, int backup) 
 {
   FILE *fl;
-  char fname[MAX_STRING_LENGTH];
-  char buf1[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
-  char line[256];
+  char fname[MAX_STRING_LENGTH]={'\0'};
+  char buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
+  char line[256]={'\0'};
   int t[21],danger,zwei=0,num_of_days;
   int orig_rent_code;
   struct obj_data *temp;

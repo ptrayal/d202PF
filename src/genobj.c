@@ -207,13 +207,13 @@ obj_rnum index_object(struct obj_data *obj, obj_vnum ovnum, obj_rnum ornum)
 
 int save_objects(zone_rnum zone_num)
 {
-  char fname[128], buf[MAX_STRING_LENGTH];
-  char ebuf1[MAX_STRING_LENGTH], ebuf2[MAX_STRING_LENGTH];
-  char ebuf3[MAX_STRING_LENGTH], ebuf4[MAX_STRING_LENGTH];
-  char wbuf1[MAX_STRING_LENGTH], wbuf2[MAX_STRING_LENGTH];
-  char wbuf3[MAX_STRING_LENGTH], wbuf4[MAX_STRING_LENGTH];
-  char pbuf1[MAX_STRING_LENGTH], pbuf2[MAX_STRING_LENGTH];
-  char pbuf3[MAX_STRING_LENGTH], pbuf4[MAX_STRING_LENGTH];
+  char fname[128]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
+  char ebuf1[MAX_STRING_LENGTH]={'\0'}, ebuf2[MAX_STRING_LENGTH]={'\0'};
+  char ebuf3[MAX_STRING_LENGTH]={'\0'}, ebuf4[MAX_STRING_LENGTH]={'\0'};
+  char wbuf1[MAX_STRING_LENGTH]={'\0'}, wbuf2[MAX_STRING_LENGTH]={'\0'};
+  char wbuf3[MAX_STRING_LENGTH]={'\0'}, wbuf4[MAX_STRING_LENGTH]={'\0'};
+  char pbuf1[MAX_STRING_LENGTH]={'\0'}, pbuf2[MAX_STRING_LENGTH]={'\0'};
+  char pbuf3[MAX_STRING_LENGTH]={'\0'}, pbuf4[MAX_STRING_LENGTH]={'\0'};
   int counter, counter2, realcounter;
   FILE *fp;
   struct obj_data *obj;

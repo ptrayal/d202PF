@@ -74,8 +74,8 @@ ACMD(do_oasis_oedit)
   int number = NOWHERE, save = 0, real_num;
   struct descriptor_data *d;
   char *buf3;
-  char buf1[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
 
   /****************************************************************************/
   /** Parse any arguments.                                                   **/
@@ -618,8 +618,7 @@ void oedit_disp_container_flags_menu(struct descriptor_data *d)
 
 {
 
-  char bits[MAX_STRING_LENGTH];
-
+  char bits[MAX_STRING_LENGTH]={'\0'};
   clear_screen(d);
 
 
@@ -700,7 +699,7 @@ void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
 
 {
 
-  char apply_buf[MAX_STRING_LENGTH];
+  char apply_buf[MAX_STRING_LENGTH]={'\0'};
 
   int counter;
 
@@ -1691,7 +1690,7 @@ void oedit_disp_extra_menu(struct descriptor_data *d)
 
 {
 
-  char bits[MAX_STRING_LENGTH];
+  char bits[MAX_STRING_LENGTH]={'\0'};
 
   int counter, columns = 0;
 
@@ -1731,7 +1730,7 @@ void oedit_disp_perm_menu(struct descriptor_data *d)
 
 {
 
-  char bitbuf[MAX_STRING_LENGTH];
+  char bitbuf[MAX_STRING_LENGTH]={'\0'};
 
   int counter, columns = 0;
 
@@ -1807,7 +1806,7 @@ void oedit_disp_wear_menu(struct descriptor_data *d)
 
 {
 
-  char bits[MAX_STRING_LENGTH];
+  char bits[MAX_STRING_LENGTH]={'\0'};
 
   int counter, columns = 0;
 
@@ -1845,16 +1844,11 @@ void oedit_disp_menu(struct descriptor_data *d)
 
 {
 
-  char tbitbuf[MAX_INPUT_LENGTH], ebitbuf[MAX_INPUT_LENGTH];
-
+  char tbitbuf[MAX_INPUT_LENGTH]={'\0'}, ebitbuf[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj;
-
   int i;
-
   int level_total = 0, type_total = 0;
-
   int num_level = 0, num_type = 0;
-
   int rec_level;
   int rec_cost;
   int sample_cost;
@@ -3753,21 +3747,14 @@ void iedit_setup_existing(struct descriptor_data *d, struct obj_data *real_num)
 
 
 
-ACMD(do_iedit) {
-
+ACMD(do_iedit) 
+{
   struct obj_data *k;
-
   int found=0;
-
   extern struct room_data *world;
-
-  char arg[MAX_INPUT_LENGTH];
-
-
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   one_argument(argument, arg);
-
-
 
   if(!*arg || !*argument) {
 

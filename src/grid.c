@@ -161,7 +161,7 @@ void row_remove_cell( GRID_CELL *cell)
 //IF You alaready have a cell use this to set the contents. If it has contents already, they are overwritten.
 void cell_set_contents (GRID_CELL *cell, char *fmt, ...)
 {
-    char buf[MSL];
+    char buf[MSL]={'\0'};
     va_list args;
     va_start (args, fmt);
     vsprintf (buf, fmt, args);
@@ -172,7 +172,7 @@ void cell_set_contents (GRID_CELL *cell, char *fmt, ...)
 //If you already have a cell use this to append to the cells content.
 void cell_append_contents (GRID_CELL *cell, char *fmt, ...)
 {
-    char buf[MSL];
+    char buf[MSL]={'\0'};
     va_list args;
     va_start (args, fmt);
     vsprintf (buf, fmt, args);
@@ -183,7 +183,7 @@ void cell_append_contents (GRID_CELL *cell, char *fmt, ...)
 //IF you don't already have a cell, but you have a row, use this to create a cell with the contents of fmt.
 GRID_CELL * row_append_cell (GRID_ROW *row, int width, char *fmt, ...)
 {
-    char buf[MSL];
+    char buf[MSL]={'\0'};
     GRID_CELL *cell;
  
     va_list args;
@@ -234,7 +234,7 @@ void row_to_char( GRID_ROW *row, struct char_data *ch )
 {   GRID_CELL *cell;
     char *** ptrs;
     char *tok;
-    char buf[MSL], pad_buf[MSL];
+    char buf[MSL]={'\0'}, pad_buf[MSL]={'\0'};
     int i = 0, n = 0;
     int filler = UMIN(0, row->grid->width - row->curr_width - 1 );
     int actual_height = row->max_height + ( row->padding_top + row->padding_bottom );

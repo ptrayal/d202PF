@@ -69,7 +69,7 @@ const char *olc_commands[] = {
 ACMD(do_olc)
 {
   void *olc_targ = NULL;
-  char mode_arg[MAX_INPUT_LENGTH], arg[MAX_INPUT_LENGTH];
+  char mode_arg[MAX_INPUT_LENGTH]={'\0'}, arg[MAX_INPUT_LENGTH]={'\0'};
   room_rnum rnum;
   room_vnum vnum = NOWHERE;
   int olc_mode;
@@ -173,7 +173,7 @@ ACMD(do_olc)
 void olc_interpreter(void *targ, int mode, char *arg)
 {
   int error = 0, command;
-  char command_string[MAX_INPUT_LENGTH];
+  char command_string[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *olc_mob = NULL;
   struct room_data *olc_room = NULL;
   struct obj_data *olc_obj = NULL;
@@ -298,7 +298,7 @@ void olc_bitvector(int *bv, const char **names, char *arg)
 {
   int newbv, flagnum, doremove = 0;
   char *this_name;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   skip_spaces(&arg);
 

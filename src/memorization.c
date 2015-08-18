@@ -1869,7 +1869,7 @@ ACMD(do_scribe)
 {
   char arg1[MAX_INPUT_LENGTH]={'\0'};
   char arg2[MAX_INPUT_LENGTH]={'\0'};
-  char *s, buf[READ_SIZE];
+  char *s, buf[READ_SIZE]={'\0'};
   int i, spellnum;
   struct obj_data *obj;
   int class = CLASS_WIZARD;

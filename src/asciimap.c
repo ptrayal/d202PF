@@ -570,7 +570,8 @@ void str_and_map(char *str, struct char_data *ch )
 
 }
 
-ACMD(do_map) {
+ACMD(do_map) 
+{
   if (!can_see_map(ch)) {
     send_to_char(ch, "Sorry, the map is disabled!\r\n");
     return;

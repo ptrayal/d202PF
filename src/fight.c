@@ -705,7 +705,7 @@ void load_messages(void)
   FILE *fl;
   int i, type;
   struct message_type *messages;
-  char chk[128];
+  char chk[128]={'\0'};
   char * trash = NULL;
 
   if (!(fl = fopen(MESS_FILE, "r"))) {
@@ -875,7 +875,7 @@ void make_corpse(struct char_data *ch)
   if (!ch) 
     return;
 
-  char buf2[MAX_NAME_LENGTH + 64];
+  char buf2[MAX_NAME_LENGTH + 64]={'\0'};
   struct obj_data *corpse = NULL, *o;
   struct obj_data *money;
   int i, x, y;
@@ -992,7 +992,7 @@ void raw_kill(struct char_data * ch, struct char_data * killer)
   struct char_data *k, *temp;
   struct follow_type *f;
   long local_gold = 0;
-  char local_buf[256];
+  char local_buf[256]={'\0'};
   struct char_data *tmp_char;
   struct obj_data *corpse_obj;
 
@@ -1510,7 +1510,7 @@ char *replace_weap_string(const char *str, const char *weapon_singular, const ch
 void dam_message(int dam, struct char_data *ch, struct char_data *victim,
 		      int w_type, int is_crit, int is_reduc)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   int msgnum;
   int is_sneak = FALSE, is_precise = FALSE;
   
@@ -1526,7 +1526,8 @@ void dam_message(int dam, struct char_data *ch, struct char_data *victim,
   	
 
 
-  static struct dam_weapon_type {
+  static struct dam_weapon_type 
+  {
     const char *to_room;
     const char *to_char;
     const char *to_victim;
@@ -1761,7 +1762,7 @@ int skill_message(int dam, struct char_data *ch, struct char_data *vict,
 {
   int i, j, nr;
   struct message_type *msg;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   struct obj_data *weap = GET_EQ(ch, WEAR_WIELD1);
 
@@ -3054,7 +3055,7 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
   struct affected_type af2;
   struct affected_type *fsaf = NULL;
   int fsdam = 0;
-  char fsbuf[100];
+  char fsbuf[100]={'\0'};
   struct obj_data *armor;
   int sneakdam = 0, precisedam = 0, dexCap = 9999;
   int weaponDamMod = 0;
@@ -3825,14 +3826,14 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
   int w_type, calc_base_hit, weap, lastweap, notfirst, cleave, hitbonus, i;
   int status, attacks, fullextra = 0;
   room_rnum loc;
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   int tot_attacks = 0;
   int weapon_flurry = 0;
   int hitmod = 0;
-  char critbuf[100], sneakbuf[100], precisebuf[100], reductbuf[100], fbuf[200], bleedbuf[200];
-  char parrybuf[100];
+  char critbuf[100]={'\0'}, sneakbuf[100]={'\0'}, precisebuf[100]={'\0'}, reductbuf[100]={'\0'}, fbuf[200]={'\0'}, bleedbuf[200]={'\0'};
+  char parrybuf[100]={'\0'};
   long local_gold = 0;
-  char local_buf[256];
+  char local_buf[256]={'\0'};
 
 
   if (!ch || !victim)
@@ -4201,7 +4202,7 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
       fight_output(fbuf, ch, victim, TO_NOTVICT);
 
     if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->summon_num > 0 && FIGHTING(ch)->player_specials->summon_cur_hit <= 0) {
-      char sbuf[200];
+      char sbuf[200]={'\0'};
       sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->summon_desc);
       act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
       fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -4209,7 +4210,7 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
     }
 
     if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->companion_num > 0 && FIGHTING(ch)->player_specials->companion_cur_hit <= 0) {
-      char sbuf[200];
+      char sbuf[200]={'\0'};
       sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->companion_desc);
       act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
       fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -4218,7 +4219,7 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
 
     if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->mount_num > 0 && 
         FIGHTING(ch)->player_specials->mount_cur_hit <= 0) {
-      char sbuf[200];
+      char sbuf[200]={'\0'};
       sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->mount_desc);
       act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
       fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -4471,9 +4472,9 @@ void fight_action(struct char_data *ch)
 
   struct affected_type *af;
   struct affected_type af2[2];
-  int n;
-  int dam;
-  char dammes[MAX_STRING_LENGTH];  
+  int n = 0;
+  int dam = 0;
+  char dammes[MAX_STRING_LENGTH]={'\0'};
   int can_hit = TRUE;
 
   if (ch == NULL)
@@ -5116,8 +5117,8 @@ void do_attack_of_opportunity(struct char_data *ch, struct char_data *victim, ch
     one_hit(ch, victim, vict_wield, w_type, compute_base_hit(ch, vict_hitmod), NULL, NULL, vict_hitmod);
     ch->sneak_opp = FALSE;
 
-    char critbuf[100], sneakbuf[100], precisebuf[100], reductbuf[100], fbuf[200], bleedbuf[100];	
-    char parrybuf[100];
+    char critbuf[100]={'\0'}, sneakbuf[100]={'\0'}, precisebuf[100]={'\0'}, reductbuf[100]={'\0'}, fbuf[200]={'\0'}, bleedbuf[100]={'\0'};
+    char parrybuf[100]={'\0'};
 
     if (GET_FIGHT_NUMBER_OF_ATTACKS(ch) > 0) {
       sprintf(critbuf, " @M(Critical Hit @Wx%d@M)@n", GET_FIGHT_CRITICAL_HIT(ch));
@@ -5182,7 +5183,7 @@ void do_attack_of_opportunity(struct char_data *ch, struct char_data *victim, ch
       fight_output(fbuf, ch, victim, TO_NOTVICT);
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->summon_num > 0 && FIGHTING(ch)->player_specials->summon_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->summon_desc);
         act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5190,7 +5191,7 @@ void do_attack_of_opportunity(struct char_data *ch, struct char_data *victim, ch
       }
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->companion_num > 0 && FIGHTING(ch)->player_specials->companion_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->companion_desc);
         act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5198,7 +5199,7 @@ void do_attack_of_opportunity(struct char_data *ch, struct char_data *victim, ch
      }
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->mount_num > 0 && FIGHTING(ch)->player_specials->mount_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->mount_desc);
         act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5208,7 +5209,7 @@ void do_attack_of_opportunity(struct char_data *ch, struct char_data *victim, ch
     }
 
   int local_gold = 0;
-  char local_buf[200];
+  char local_buf[200]={'\0'};
 
 
   if (victim && victim->dead)
@@ -5363,7 +5364,7 @@ void do_mob_special_attacks(struct char_data *ch, int type)
 {
   struct char_data *victim = FIGHTING(ch);
   struct affected_type af;
-  char buf[400];
+  char buf[400]={'\0'};
 
     if (victim && ((GET_RACE(ch) == RACE_GHOUL || GET_RACE(ch) == RACE_GHAST || GET_RACE(ch) == RACE_MUMMY || GET_RACE(ch) == RACE_MOHRG) || 
         (type == MOB_TYPE_SUMMON && (ch->player_specials->summon_num == PET_GHOUL || ch->player_specials->summon_num == PET_MOHRG ||
@@ -5498,8 +5499,8 @@ void do_swarm_of_arrows(struct char_data *ch, struct char_data *victim)
 
     one_hit(ch, victim, vict_wield, w_type, compute_base_hit(ch, vict_hitmod), NULL, NULL, vict_hitmod);
 
-    char critbuf[100], sneakbuf[100], precisebuf[100], reductbuf[100], fbuf[200], bleedbuf[100];	
-    char parrybuf[100];
+    char critbuf[100]={'\0'}, sneakbuf[100]={'\0'}, precisebuf[100]={'\0'}, reductbuf[100]={'\0'}, fbuf[200]={'\0'}, bleedbuf[100]={'\0'};
+    char parrybuf[100]={'\0'};
 
     if (GET_FIGHT_NUMBER_OF_ATTACKS(ch) > 0) {
       sprintf(critbuf, " @M(Critical Hit @Wx%d@M)@n", GET_FIGHT_CRITICAL_HIT(ch));
@@ -5564,7 +5565,7 @@ void do_swarm_of_arrows(struct char_data *ch, struct char_data *victim)
       fight_output(fbuf, ch, victim, TO_NOTVICT);
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->summon_num > 0 && FIGHTING(ch)->player_specials->summon_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->summon_desc);
          act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5572,7 +5573,7 @@ void do_swarm_of_arrows(struct char_data *ch, struct char_data *victim)
       }
 
      if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->companion_num > 0 && FIGHTING(ch)->player_specials->companion_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->companion_desc);
          act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5580,7 +5581,7 @@ void do_swarm_of_arrows(struct char_data *ch, struct char_data *victim)
       }
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->mount_num > 0 && FIGHTING(ch)->player_specials->mount_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->mount_desc);
          act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5590,7 +5591,7 @@ void do_swarm_of_arrows(struct char_data *ch, struct char_data *victim)
     }
 
   int local_gold = 0;
-  char local_buf[200];
+  char local_buf[200]={'\0'};
 
 
   /* Uh oh.  Victim died. */
@@ -5704,8 +5705,8 @@ void do_whirlwind_attack(struct char_data *ch, struct char_data *victim)
 
     one_hit(ch, victim, vict_wield, w_type, compute_base_hit(ch, vict_hitmod), NULL, NULL, vict_hitmod);
 
-    char critbuf[100], sneakbuf[100], precisebuf[100], reductbuf[100], fbuf[200], bleedbuf[100];	
-    char parrybuf[100];
+    char critbuf[100]={'\0'}, sneakbuf[100]={'\0'}, precisebuf[100]={'\0'}, reductbuf[100]={'\0'}, fbuf[200]={'\0'}, bleedbuf[100]={'\0'};
+    char parrybuf[100]={'\0'};
 
     if (GET_FIGHT_NUMBER_OF_ATTACKS(ch) > 0) {
       sprintf(critbuf, " @M(Critical Hit @Wx%d@M)@n", GET_FIGHT_CRITICAL_HIT(ch));
@@ -5770,7 +5771,7 @@ void do_whirlwind_attack(struct char_data *ch, struct char_data *victim)
       fight_output(fbuf, ch, victim, TO_NOTVICT);
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->summon_num > 0 && FIGHTING(ch)->player_specials->summon_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->summon_desc);
          act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5778,7 +5779,7 @@ void do_whirlwind_attack(struct char_data *ch, struct char_data *victim)
       }
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->companion_num > 0 && FIGHTING(ch)->player_specials->companion_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->companion_desc);
          act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5786,7 +5787,7 @@ void do_whirlwind_attack(struct char_data *ch, struct char_data *victim)
       }
 
       if (FIGHTING(ch) && !IS_NPC(FIGHTING(ch)) && FIGHTING(ch)->player_specials->mount_num > 0 && FIGHTING(ch)->player_specials->mount_cur_hit <= 0) {
-        char sbuf[200];
+        char sbuf[200]={'\0'};
         sprintf(sbuf, "%s suffers a lethal blow and falls dead!", FIGHTING(ch)->player_specials->mount_desc);
          act(sbuf, true, FIGHTING(ch), 0, 0, TO_CHAR);
         fight_output(sbuf, FIGHTING(ch), 0, TO_ROOM);
@@ -5796,7 +5797,7 @@ void do_whirlwind_attack(struct char_data *ch, struct char_data *victim)
     }
 
   int local_gold = 0;
-  char local_buf[200];
+  char local_buf[200]={'\0'};
 
   /* Uh oh.  Victim died. */
   if ((GET_POS(victim) == POS_DEAD || GET_HIT(victim) < -10)) {
@@ -5865,8 +5866,8 @@ void do_whirlwind_attack(struct char_data *ch, struct char_data *victim)
 void do_summon_attack(struct char_data *ch)
 {
 
-  char critbuf[100], sneakbuf[100], precisebuf[100], reductbuf[100], fbuf[200];
-  char parrybuf[100];
+  char critbuf[100]={'\0'}, sneakbuf[100]={'\0'}, precisebuf[100]={'\0'}, reductbuf[100]={'\0'}, fbuf[200]={'\0'};
+  char parrybuf[100]={'\0'};
 
   int rnum = 0;
 
@@ -5991,7 +5992,7 @@ void do_summon_attack(struct char_data *ch)
     
   }  
   int local_gold = 0;
-  char local_buf[200];
+  char local_buf[200]={'\0'};
 
 
   /* Uh oh.  Victim died. */
@@ -6059,7 +6060,7 @@ void do_summon_attack(struct char_data *ch)
 
   ch->player_specials->summon_timer--;
   if (ch->player_specials->summon_num > 0 && ch->player_specials->summon_timer <= 0 && ch) {
-    char sbuf[200];
+    char sbuf[200]={'\0'};
     sprintf(sbuf, "Your pet, %s disappears in a flash of light as the conjuration spell expires!", ch->player_specials->summon_desc);
     act(sbuf, true, ch, 0, 0, TO_CHAR);
     sprintf(sbuf, "$n's pet, %s disappears in a flash of light as the conjuration spell expires!",ch->player_specials->summon_desc);
@@ -6070,8 +6071,8 @@ void do_summon_attack(struct char_data *ch)
 
 void do_mount_attack(struct char_data *ch)
 {
-  char critbuf[100], sneakbuf[100], precisebuf[100], reductbuf[100], fbuf[200];
-  char parrybuf[100];
+  char critbuf[100]={'\0'}, sneakbuf[100]={'\0'}, precisebuf[100]={'\0'}, reductbuf[100]={'\0'}, fbuf[200]={'\0'};
+  char parrybuf[100]={'\0'};
 
   int rnum = 0;
 
@@ -6200,7 +6201,7 @@ void do_mount_attack(struct char_data *ch)
     
   }  
   int local_gold = 0;
-  char local_buf[200];
+  char local_buf[200]={'\0'};
 
 
   /* Uh oh.  Victim died. */
@@ -6271,8 +6272,8 @@ void do_mount_attack(struct char_data *ch)
 void do_companion_attack(struct char_data *ch)
 {
 
-  char critbuf[100], sneakbuf[100], precisebuf[100], reductbuf[100], fbuf[200];
-  char parrybuf[100];
+  char critbuf[100]={'\0'}, sneakbuf[100]={'\0'}, precisebuf[100]={'\0'}, reductbuf[100]={'\0'}, fbuf[200]={'\0'};
+  char parrybuf[100]={'\0'};
 
   int rnum = 0;
 
@@ -6396,7 +6397,7 @@ void do_companion_attack(struct char_data *ch)
     
   }  
   int local_gold = 0;
-  char local_buf[200];
+  char local_buf[200]={'\0'};
 
 
   /* Uh oh.  Victim died. */

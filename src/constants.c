@@ -376,6 +376,13 @@ const char *action_bits[] =
   "BLOCK_LEVEL",
   "BLOCK_ALIGN",
   "BLOCK_RACE_FAM",
+  "RANGED_ATTK",
+  "RANDOM_RACE",
+  "RANDOM_GENDER",
+  "MOLD_SELLER",
+  "BLOCK_ALLIANCE_G",
+  "BLOCK_ALLIANCE_N",
+  "BLOCK_ALLIANCE_E",
   "\n"
 };
 

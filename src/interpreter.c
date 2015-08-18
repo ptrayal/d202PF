@@ -2483,17 +2483,17 @@ MXPSendTag( d, "<VERSION>" );
 void nanny(struct descriptor_data *d, char *arg)
 {
   struct help_index_element *this_help;
+  struct char_data *ch = d->character;
   char arg1[50]={'\0'}, arg2[50]={'\0'}, buf[100]={'\0'};
   char argument[MAX_INPUT_LENGTH]={'\0'};
-  sh_int count = 0;
+  char query[MAX_INPUT_LENGTH]={'\0'};
+  char *tmpdesc;
   int i = 0, j = 0;
-  int load_result = 0;	/* Overloaded variable */
+  int load_result = 0;  /* Overloaded variable */
   int player_i = 0, total = 0;
-	char *tmpdesc;
+  sh_int count = 0;
   byte class = 0;
   byte found = FALSE;
-  struct char_data *ch = d->character;
-  char query[MAX_INPUT_LENGTH]={'\0'};
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
 

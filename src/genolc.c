@@ -286,7 +286,7 @@ ACMD(do_edit);
 ACMD(do_edit)
 {
   int idx, num, mun;
-  char a[MAX_INPUT_LENGTH], b[MAX_INPUT_LENGTH];
+  char a[MAX_INPUT_LENGTH]={'\0'}, b[MAX_INPUT_LENGTH]={'\0'};
 
   two_arguments(argument, a, b);
   num = atoi(a + 1);

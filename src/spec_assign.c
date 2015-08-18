@@ -137,13 +137,14 @@ void UNASSIGNROOM(room_vnum room)
 /* assign special procedures to mobiles */
 void assign_mobiles(void)
 {
-  if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE) 
-  {
-    ASSIGNMOB(2427, crafting_quest);
-    ASSIGNMOB(2428, mold_seller);
-    ASSIGNMOB(16800, repair_mob);
-  }
   ASSIGNMOB(3044, mold_seller);
+
+  // if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE) 
+  // {
+  //   ASSIGNMOB(2427, crafting_quest);
+  //   ASSIGNMOB(2428, mold_seller);
+  //   ASSIGNMOB(16800, repair_mob);
+  // }
 }
 
 

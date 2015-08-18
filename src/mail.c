@@ -630,13 +630,13 @@ void postmaster_check_mail(struct char_data *ch, struct char_data *mailman, int 
 
 void postmaster_receive_mail(struct char_data *ch, struct char_data *mailman, int cmd, char *arg)
 {
-  char buf[256]={'\0'};
+  char buffer[256]={'\0'};
   struct obj_data *obj;
   int y = 0;
 
   if (!has_mail(GET_IDNUM(ch))) {
-    snprintf(buf, sizeof(buf), "Sorry, you don't have any mail waiting.");
-    act(buf, FALSE, mailman, 0, ch, TO_VICT);
+    snprintf(buffer, sizeof(buffer), "Sorry, you don't have any mail waiting.");
+    act(buffer, FALSE, mailman, 0, ch, TO_VICT);
     return;
   }
   while (has_mail(GET_IDNUM(ch))) {

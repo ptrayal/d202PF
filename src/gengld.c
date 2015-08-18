@@ -122,7 +122,7 @@ guild_rnum real_guild(guild_vnum vnum)
 void gedit_modify_string(char **str, char *new_g)
 {
 	char *pointer;
-	char buf[MAX_STRING_LENGTH];
+	char buf[MAX_STRING_LENGTH]={'\0'};
 
 	/*. Check the '%s' is present, if not, add it . */
 	if (*new_g != '%') {
@@ -190,7 +190,7 @@ int save_guilds(zone_rnum zone_num)
 {
   int i, j, rguild;
   FILE *guild_file;
-  char fname[64];
+  char fname[64]={'\0'};
   struct guild_data *guild;
 
 #if CIRCLE_UNSIGNED_INDEX

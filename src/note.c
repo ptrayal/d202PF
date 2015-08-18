@@ -24,7 +24,8 @@ MYSQL *conn2;
 
 char *get_blank_clan_name(int clan);
 
-void note_list_all_cats(struct char_data *ch) {
+void note_list_all_cats(struct char_data *ch) 
+{
 
   int num_cats = 0;
   int unread = 0, total = 0;
@@ -42,7 +43,7 @@ void note_list_all_cats(struct char_data *ch) {
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
 
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
 
   send_to_char(ch, "%-20s %-25s\r\n", "Category Keyword", "Category Name");
   send_to_char(ch, "%-20s %-25s\r\n", "--------------------", "-------------------------");
@@ -260,7 +261,8 @@ void note_display_unread(struct char_data *ch)
   mysql_close(conn2);
 }
 
-void note_list_single_cat(struct char_data *ch, char *arg, char *buf2) {
+void note_list_single_cat(struct char_data *ch, char *arg, char *buf2) 
+{
 
   char arg2[200]={'\0'};
 
@@ -270,7 +272,7 @@ void note_list_single_cat(struct char_data *ch, char *arg, char *buf2) {
 
   // Open mysql connection
   conn2 = mysql_init(NULL);
-  char buf[10000];
+  char buf[10000]={'\0'};
 
   send_to_char(ch, "Messages in Category '%s'\r\n\r\n"
                "MSG_ID AUTHOR               TIME                SUBJECT\r\n"
@@ -284,9 +286,9 @@ void note_list_single_cat(struct char_data *ch, char *arg, char *buf2) {
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
 
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
 
-  char clansql[100];
+  char clansql[100]={'\0'};
 
   sprintf(clansql, " AND poster_clan='%s'", get_blank_clan_name(GET_CLAN(ch)));
 
@@ -319,7 +321,8 @@ void note_list_single_cat(struct char_data *ch, char *arg, char *buf2) {
   mysql_close(conn2);
 }
 
-void note_read(struct char_data *ch, char *arg) {
+void note_read(struct char_data *ch, char *arg) 
+{
   // Open mysql connection
   conn2 = mysql_init(NULL);
 
@@ -331,10 +334,10 @@ void note_read(struct char_data *ch, char *arg) {
   MYSQL_RES *res = NULL;
   MYSQL_ROW row = NULL;
 
-  char query[MAX_INPUT_LENGTH];
+  char query[MAX_INPUT_LENGTH]={'\0'};
 
   int found = TRUE;
-  char cat[255];
+  char cat[255]={'\0'};
 
   sprintf(query, "SELECT a.adm_level, a.name, b.poster_clan FROM player_note_categories a LEFT JOIN player_note_messages b ON a.name=b.cat_name WHERE b.id_msg='%s'", arg);
   mysql_query(conn2, query);
@@ -381,9 +384,9 @@ void note_read(struct char_data *ch, char *arg) {
 ACMD(do_note)
 {
 
-  char arg[200], arg2[200];
-  char buf[MAX_INPUT_LENGTH];
-  char buf2[MAX_INPUT_LENGTH];
+  char arg[200]={'\0'}, arg2[200]={'\0'};
+  char buf[MAX_INPUT_LENGTH]={'\0'};
+  char buf2[MAX_INPUT_LENGTH]={'\0'};
 
   half_chop(argument, arg, buf);
   half_chop(buf, arg2, buf2);
@@ -416,7 +419,7 @@ ACMD(do_note)
     MYSQL_RES *res = NULL;
     MYSQL_ROW row = NULL;
 
-    char query[MAX_INPUT_LENGTH];
+    char query[MAX_INPUT_LENGTH]={'\0'};
     int found = FALSE;
 
     sprintf(query, "SELECT name FROM player_note_categories LIMIT 1");

@@ -1859,9 +1859,10 @@ struct char_data *get_char_notvis(struct char_data *ch, char *name, int *number,
 struct obj_data *get_obj_in_list_vis(struct char_data *ch, char *name, int *number, struct obj_data *list)
 {
   struct obj_data *i;
-  int num;
+  int num = 0;
 
-  if (!number) {
+  if (!number) 
+  {
     number = &num;
     num = get_number(&name);
   }

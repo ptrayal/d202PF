@@ -2364,7 +2364,7 @@ void remove_player(int pfilepos)
   char fname[40]={'\0'};
   int i = 0;
   struct tm *info;
-  char buffer[80];
+  char buffer[80]={'\0'};
 
   time(&player_table[pfilepos].last);
   info = localtime(&player_table[pfilepos].last);

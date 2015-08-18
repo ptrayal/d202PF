@@ -111,7 +111,7 @@ ACMD(do_oasis_links)
   zone_vnum zvnum;
   room_rnum nr, to_room;
   int first, last, j;
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
 
   skip_spaces(&argument);
   one_argument(argument, arg);
@@ -427,7 +427,7 @@ void print_zone(struct char_data *ch, zone_vnum vnum)
 void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, trig_vnum vmax)
 {
   int i, bottom, top, counter = 0;
-  char trgtypes[256];
+  char trgtypes[256]={'\0'};
 
   /** Expect a minimum / maximum number if the rnum for the zone is NOWHERE. **/
   if (rnum != NOWHERE) {

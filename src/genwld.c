@@ -293,10 +293,10 @@ int save_rooms(zone_rnum rzone)
   int i;
   struct room_data *room;
   FILE *sf;
-  char filename[128];
-  char buf[MAX_STRING_LENGTH], buf1[MAX_STRING_LENGTH];
-  char rbuf1[MAX_STRING_LENGTH], rbuf2[MAX_STRING_LENGTH];
-  char rbuf3[MAX_STRING_LENGTH], rbuf4[MAX_STRING_LENGTH];
+  char filename[128]={'\0'};
+  char buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'};
+  char rbuf1[MAX_STRING_LENGTH]={'\0'}, rbuf2[MAX_STRING_LENGTH]={'\0'};
+  char rbuf3[MAX_STRING_LENGTH]={'\0'}, rbuf4[MAX_STRING_LENGTH]={'\0'};
 
 #if CIRCLE_UNSIGNED_INDEX
   if (rzone == NOWHERE || rzone > top_of_zone_table) {

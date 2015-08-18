@@ -28,19 +28,16 @@ void add_poll(int pnum, char *question, sbyte active, sbyte revote)
 
 void add_poll_option(int pnum, int onum, char *option)
 {
-
-
-
   extern MYSQL *conn;
 
   // Open mysql connection
   conn = mysql_init(NULL);
 
   /* Connect to database */
-  if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) {
+  if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) 
+  {
     log("Cannot connect to mysql database in add poll option.");
   }
-
 
   MYSQL_RES *result = NULL;
   MYSQL_ROW row = NULL;
@@ -51,19 +48,23 @@ void add_poll_option(int pnum, int onum, char *option)
 
   poll_list[pnum].options[onum] = strdup(option);
 
-  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) {
+  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) 
+  {
     sprintf(query, "SELECT name FROM  `poll_data` WHERE  `poll_num` = '%d' AND  `option` = '%d'", pnum, onum);
 
     mysql_query(conn, query);
     result = mysql_use_result(conn);
 
-    if (result == NULL) {
+    if (result == NULL) 
+    {
       poll_list[pnum].votes[onum] = 0;
       log("NO RESULT FOUND FOR POLL NUMBER %d OPTION %d", pnum, onum);
       log(query);
     }
-    else {
-      while ((row = mysql_fetch_row(result))) {
+    else 
+    {
+      while ((row = mysql_fetch_row(result))) 
+      {
           poll_list[pnum].votes[onum]++;
           log("RESULT FOR FOR POLL NUMBER %d OPTION %d is %d", pnum, onum, atoi(row[0]));          
           log(query);

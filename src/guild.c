@@ -988,7 +988,8 @@ void handle_gain(struct char_data *keeper, int guild_nr, struct char_data *ch, c
 #define FEAT_TYPE_EPIC			3
 #define FEAT_TYPE_EPIC_CLASS		4
 
-void handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch, char *argument) {
+void handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch, char *argument) 
+{
 	int x = 0;
 	x = do_handle_learn(keeper, guild_nr, ch, argument, TRUE);
 }

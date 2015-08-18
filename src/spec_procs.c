@@ -155,20 +155,22 @@ SPECIAL(enforce_chargen)
 
 SPECIAL(buy_items)
 {
-  int i;
   struct obj_data *obj;
   char buf[100]={'\0'};
   char arg2[100]={'\0'};
   int is_weapon = FALSE;
   int is_armor = FALSE;
-
+  int i = 0;
+  
   if (IS_NPC(ch) || (!CMD_IS("buy") && !CMD_IS("list") && !CMD_IS("sell"))) 
     return 0;
 
-  if (CMD_IS("buy")) {
+  if (CMD_IS("buy")) 
+  {
     skip_spaces(&argument);
 
-    if (!*argument) {
+    if (!*argument) 
+    {
       send_to_char(ch, "Type list to see what is available or specify what you would like to buy.\r\n");
       return 1;
     }
@@ -848,65 +850,73 @@ SPECIAL(identify_mob)
 SPECIAL(identify_kit)
 {
 
-struct obj_data *obj;
-char arg[MAX_STRING_LENGTH]={'\0'};
+  struct obj_data *obj;
+  char arg[MAX_STRING_LENGTH]={'\0'};
 
-if (!CMD_IS("identify") && !CMD_IS("idcost"))
-  return FALSE;
-	
-one_argument(argument, arg);
+  if (!CMD_IS("identify") && !CMD_IS("idcost"))
+    return FALSE;
 
-if (!*arg) {
-send_to_char(ch, "What would you like to have identified?\r\n");
-	return TRUE;
-}
-	
-if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
-  send_to_char(ch, "You don't seem to have a %s in your inventory.\r\n", argument);
-  return TRUE;
-}  
+  one_argument(argument, arg);
+
+  if (!*arg) 
+  {
+    send_to_char(ch, "What would you like to have identified?\r\n");
+    return TRUE;
+  }
+
+  if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) 
+  {
+    send_to_char(ch, "You don't seem to have a %s in your inventory.\r\n", argument);
+    return TRUE;
+  }  
 
   int cost = 0;
 
-  switch(GET_OBJ_TYPE(obj)) {
+  switch(GET_OBJ_TYPE(obj)) 
+  {
     case ITEM_POTION:
     case ITEM_SCROLL:
     case ITEM_WAND:
     case ITEM_STAFF:
-      cost = 10 * GET_OBJ_LEVEL(obj);
-      break;
+    cost = 10 * GET_OBJ_LEVEL(obj);
+    break;
     default:
-      cost = 50 * GET_OBJ_LEVEL(obj);
-      break;
+    cost = 50 * GET_OBJ_LEVEL(obj);
+    break;
   }
 
-  if (CMD_IS("idcost")) {
+  if (CMD_IS("idcost")) 
+  {
     send_to_char(ch, "It would cost %d %s to identify that item.\r\n", cost, MONEY_STRING);
     return TRUE;
   }
 
   int bank = 0;
 
-if (GET_GOLD(ch) < cost) {
-  if ((GET_GOLD(ch) + GET_BANK_GOLD(ch)) < cost) {
-    send_to_char(ch, "You do not have enough money on hand and in the bank to identify that item.\r\n");
-    return TRUE;
+  if (GET_GOLD(ch) < cost) 
+  {
+    if ((GET_GOLD(ch) + GET_BANK_GOLD(ch)) < cost) 
+    {
+      send_to_char(ch, "You do not have enough money on hand and in the bank to identify that item.\r\n");
+      return TRUE;
+    }
+    bank = cost - GET_GOLD(ch);
+    GET_GOLD(ch) = 0;
+    GET_BANK_GOLD(ch) -= bank;
+    send_to_char(ch, "You empty your coin purse into the gnomish machine.  The remainder was withdrawn from your bank for a total cost of %d.\r\n", cost);
+  } 
+  else 
+  {
+    GET_GOLD(ch) -= cost;
+    send_to_char(ch, "You dump %d %s into the gnomish machine.\r\n", cost, MONEY_STRING);
   }
-  bank = cost - GET_GOLD(ch);
-  GET_GOLD(ch) = 0;
-  GET_BANK_GOLD(ch) -= bank;
-  send_to_char(ch, "You empty your coin purse into the gnomish machine.  The remainder was withdrawn from your bank for a total cost of %d.\r\n", cost);
-} else {
-  GET_GOLD(ch) -= cost;
-  send_to_char(ch, "You dump %d %s into the gnomish machine.\r\n", cost, MONEY_STRING);
-}
 
-send_to_char(ch, "\r\nThe gnomish machine begins to hum and whir, and finally begins to shake violently before a huge puff of black smoke emerges.\r\n\r\n");
-send_to_char(ch, "Your item has been identified!\r\n");
+  send_to_char(ch, "\r\nThe gnomish machine begins to hum and whir, and finally begins to shake violently before a huge puff of black smoke emerges.\r\n\r\n");
+  send_to_char(ch, "Your item has been identified!\r\n");
 
-spell_identify(20, ch, ch, obj, arg);
+  spell_identify(20, ch, ch, obj, arg);
 
-return TRUE;
+  return TRUE;
 }
 
 SPECIAL(research) 
@@ -1065,106 +1075,129 @@ SPECIAL(research)
 
 SPECIAL(library_small)
 {
-struct obj_data *obj;
-int i, j, cost =10;
-int spellBookFull = TRUE;
-int researchCheck = FALSE;
-int spellFound = FALSE;
-bool found = FALSE;  
+  struct obj_data *obj;
+  int i, j, cost =10;
+  int spellBookFull = TRUE;
+  int researchCheck = FALSE;
+  int spellFound = FALSE;
+  bool found = FALSE;  
 
 
-if (!CMD_IS("research"))
-return (FALSE);
-	
-skip_spaces(&argument);
-	
-for (i = 0; i < MAX_SPELLS; i++) {	
-	if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name)) {		
-	if (spell_info[i].school != SCHOOL_UNDEFINED) {
-                GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-		if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1) {
-			if (spell_info[i].spell_level <= 2) {
-			spellFound = TRUE;
-			for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
-				cost *= 3 ;
-			if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0) {
-				for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
-					if (GET_OBJ_TYPE(obj) == ITEM_SPELLBOOK) {
-						found = TRUE;
-						if (spell_in_book(obj, i)) {
-							send_to_char(ch, "You already have the spell '%s' in this spellbook.\r\n", spell_info[i].name);
-							return TRUE;
-						}
-						if (!obj->sbinfo) {
-							CREATE(obj->sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
-							memset((char *) obj->sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
-						}
-						for (j=0; j < SPELLBOOK_SIZE; j++) {
-							if (obj->sbinfo[j].spellname == 0) {
-								spellBookFull = FALSE;
-								break;
-							} else {
-								continue;
-							}
-						}
-						researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch))) > (dice(1, 20) + spell_info[i].spell_level));
-						if (!spellBookFull && ((researchCheck) || (GET_RESEARCH_TOKENS(ch) > 0))) {
-							obj->sbinfo[j].spellname = i;
-							obj->sbinfo[j].pages = MAX(1, spell_info[i].class_level[CLASS_WIZARD] * 2);
-							send_to_char(ch, "Your research is successful and you scribe the spell '%s' into your spellbook, which takes up %d pages.\r\n", spell_info[i].name, obj->sbinfo[j].pages);
-							if (!OBJ_FLAGGED(obj, ITEM_UNIQUE_SAVE))
-								SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
-							if (GET_RESEARCH_TOKENS(ch) < 1) {
-								GET_GOLD(ch) -= cost / 100;
-								send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
-							}
-							else {
-								GET_RESEARCH_TOKENS(ch) -= 1;
-								send_to_char(ch, "You used one of your research sessions to learn this spell leaving you with %d.\r\n", GET_RESEARCH_TOKENS(ch));
-							}
-							return TRUE;
-						} 
-						else if (spellBookFull) {
-							send_to_char(ch, "Your spellbooks are full, you must buy a new one if you wish to research a new spell.\r\n");
-							return TRUE;
-						}
-						else {
-							GET_GOLD(ch) -= cost / 500;
-							send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
-							return TRUE;
-						}
-					}  
-				}
-				if (!found) {
-				  send_to_char(ch, "You do not have a spellbook to record your spell in.\r\n");
-				  return TRUE;
-				}
-			}
-			else {
-				send_to_char(ch, "You need to have at least %s %s to do the research for that spell.\r\n", change_coins(cost), MONEY_STRING);
-				return TRUE;
-			}
-		}
-		else {
-			send_to_char(ch, "This library does not have the resources to research that spell.\r\n");
-			return TRUE;
-		}
-	}
-	else {
-		send_to_char(ch, "The references for that spell are far beyond your understanding.\r\n");
-		return TRUE; 
-	}
-		GET_MEM_TYPE(ch) = 0;
-}
-else {
-	send_to_char(ch, "The library has no references whatsoever for that spell.\r\n");
-	return TRUE;
-}
-}   
-}
+  if (!CMD_IS("research"))
+    return (FALSE);
 
-send_to_char(ch, "The library has no references for that spell.\r\n");
-return TRUE;
+  skip_spaces(&argument);
+
+  for (i = 0; i < MAX_SPELLS; i++) {	
+    if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name)) 
+    {		
+      if (spell_info[i].school != SCHOOL_UNDEFINED) 
+      {
+        GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+        if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1) 
+        {
+          if (spell_info[i].spell_level <= 2) 
+          {
+            spellFound = TRUE;
+            for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
+              cost *= 3 ;
+            if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0) 
+            {
+              for (obj = ch->carrying; obj && !found; obj = obj->next_content) 
+              {
+                if (GET_OBJ_TYPE(obj) == ITEM_SPELLBOOK) 
+                {
+                  found = TRUE;
+                  if (spell_in_book(obj, i)) 
+                  {
+                    send_to_char(ch, "You already have the spell '%s' in this spellbook.\r\n", spell_info[i].name);
+                    return TRUE;
+                  }
+                  if (!obj->sbinfo) 
+                  {
+                    CREATE(obj->sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
+                    memset((char *) obj->sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
+                  }
+                  for (j=0; j < SPELLBOOK_SIZE; j++) 
+                  {
+                    if (obj->sbinfo[j].spellname == 0) 
+                    {
+                      spellBookFull = FALSE;
+                      break;
+                    } 
+                    else 
+                    {
+                      continue;
+                    }
+                  }
+                  researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch))) > (dice(1, 20) + spell_info[i].spell_level));
+                  if (!spellBookFull && ((researchCheck) || (GET_RESEARCH_TOKENS(ch) > 0))) 
+                  {
+                    obj->sbinfo[j].spellname = i;
+                    obj->sbinfo[j].pages = MAX(1, spell_info[i].class_level[CLASS_WIZARD] * 2);
+                    send_to_char(ch, "Your research is successful and you scribe the spell '%s' into your spellbook, which takes up %d pages.\r\n", spell_info[i].name, obj->sbinfo[j].pages);
+                    if (!OBJ_FLAGGED(obj, ITEM_UNIQUE_SAVE))
+                      SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
+                    if (GET_RESEARCH_TOKENS(ch) < 1) 
+                    {
+                      GET_GOLD(ch) -= cost / 100;
+                      send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
+                    }
+                    else 
+                    {
+                      GET_RESEARCH_TOKENS(ch) -= 1;
+                      send_to_char(ch, "You used one of your research sessions to learn this spell leaving you with %d.\r\n", GET_RESEARCH_TOKENS(ch));
+                    }
+                    return TRUE;
+                  } 
+                  else if (spellBookFull) 
+                  {
+                    send_to_char(ch, "Your spellbooks are full, you must buy a new one if you wish to research a new spell.\r\n");
+                    return TRUE;
+                  }
+                  else 
+                  {
+                    GET_GOLD(ch) -= cost / 500;
+                    send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
+                    return TRUE;
+                  }
+                }  
+              }
+              if (!found) 
+              {
+                send_to_char(ch, "You do not have a spellbook to record your spell in.\r\n");
+                return TRUE;
+              }
+            }
+            else 
+            {
+              send_to_char(ch, "You need to have at least %s %s to do the research for that spell.\r\n", change_coins(cost), MONEY_STRING);
+              return TRUE;
+            }
+          }
+          else 
+          {
+            send_to_char(ch, "This library does not have the resources to research that spell.\r\n");
+            return TRUE;
+          }
+        }
+        else 
+        {
+          send_to_char(ch, "The references for that spell are far beyond your understanding.\r\n");
+          return TRUE; 
+        }
+        GET_MEM_TYPE(ch) = 0;
+      }
+      else 
+      {
+        send_to_char(ch, "The library has no references whatsoever for that spell.\r\n");
+        return TRUE;
+      }
+    }   
+  }
+
+  send_to_char(ch, "The library has no references for that spell.\r\n");
+  return TRUE;
 
 }
 
@@ -5410,22 +5443,26 @@ SPECIAL(mold_seller)
     return 1;
   }
 
-  if (is_abbrev(arg, "buy")) {
-    if (!*arg2) {
+  if (is_abbrev(arg, "buy")) 
+  {
+    if (!*arg2) 
+    {
       send_to_char(ch, "Please specify the vnum of the item you wish to buy.  You may obtain the vnum from the 'item list' command.\r\n");
       return 1;
     }
 
     int vnum = atoi(arg2);
 
-    if (vnum < 30000 || vnum > 300099) {
+    if (vnum < 30000 || vnum > 300099) 
+    {
       send_to_char(ch, "That is not a valid vnum.  Please select again.\r\n");
       return 1;
     }
 
     struct obj_data *obj = read_object(vnum, VIRTUAL);
 
-    if (!obj) {
+    if (!obj) 
+    {
       send_to_char(ch, "There was an error buying your item.  Please inform a staff member with error code ITM_BUY_001.\r\n");
       return 1;
     }
@@ -5437,7 +5474,8 @@ SPECIAL(mold_seller)
 
     int cost = GET_OBJ_COST(obj);
 
-    if (GET_GOLD(ch) < cost) {
+    if (GET_GOLD(ch) < cost) 
+    {
       send_to_char(ch, "That item costs %d %s and you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
       return 1;
     }    
@@ -5451,9 +5489,11 @@ SPECIAL(mold_seller)
     send_to_char(ch, "You purchase %s for %d %s.\r\n", obj->short_description, cost, MONEY_STRING);
     return 1;
   }
-  else if (is_abbrev(arg, "list")) {
+  else if (is_abbrev(arg, "list")) 
+  {
 
-    if (!*arg2) {
+    if (!*arg2) 
+    {
       send_to_char(ch, "Please specify either armor, weapon or other.\r\n");
       return 1;
     }
@@ -5476,7 +5516,8 @@ SPECIAL(mold_seller)
 
     send_to_char(ch, "%-5s %-6s %-25s\r\n----- ------ -------------------------\r\n", "VNUM", "COST", "ITEM");
 
-    for (i = 30000; i < 30100; i++) {
+    for (i = 30000; i < 30100; i++) 
+    {
       if (obj)
         extract_obj(obj);
       obj = read_object(i, VIRTUAL);
@@ -5489,7 +5530,8 @@ SPECIAL(mold_seller)
     send_to_char(ch, "\r\n");
     return 1;
   }
-  else {
+  else 
+  {
     send_to_char(ch, "The syntax for this command is: 'item buy <vnum>' or 'item list <weapons|armor|other>'.\r\n");
     return 1;
   }
@@ -5984,76 +6026,75 @@ SPECIAL(bacta_merchant) {
 
 SPECIAL(lockbox)
 {
+  struct obj_data *lb = (struct obj_data *) me;
+  struct obj_data *obj = NULL;
+  char buffer[200]={'\0'};
+  int roll = skill_roll(ch, SKILL_DISABLE_DEVICE);
+  int level = MAX(1, roll - 14);
 
-    if (!CMD_IS("slice") && !CMD_IS("open") && !CMD_IS("pick") && !CMD_IS("unlock")) 
-    {
-        return 0;
-    }
+  if (!CMD_IS("slice") && !CMD_IS("open") && !CMD_IS("pick") && !CMD_IS("unlock")) 
+  {
+    return 0;
+  }
 
-    skip_spaces(&argument);
+  skip_spaces(&argument);
 
-    if (!*argument)
-        return 0;
+  if (!*argument)
+    return 0;
 
-    if ((CMD_IS("open") || CMD_IS("pick") || CMD_IS("unlock")) && !is_abbrev(argument, "chest")) 
-    {
-        return 0;
-    }
+  if ((CMD_IS("open") || CMD_IS("pick") || CMD_IS("unlock")) && !is_abbrev(argument, "chest")) 
+  {
+    return 0;
+  }
 
-    int roll = skill_roll(ch, SKILL_DISABLE_DEVICE);
-    struct obj_data *lb = (struct obj_data *) me;
-    struct obj_data *obj = NULL;
+  if (lb != (obj = get_obj_in_list_vis(ch, argument, NULL, world[IN_ROOM(ch)].contents))) 
+  {
+    send_to_char(ch, "That is not a treasure chest and cannot be opened.\r\n");
+    return 1;
+  }
 
-    if (lb != (obj = get_obj_in_list_vis(ch, argument, NULL, world[IN_ROOM(ch)].contents))) 
-    {
-        send_to_char(ch, "That is not a treasure chest and cannot be opened.\r\n");
-        return 1;
-    }
+  if (!lb)
+    return 0;
 
-
-    if (!lb)
-        return 0;
-
-    char buf[200]={'\0'};
-
-    if (roll < 15) 
-    {
-        sprintf(buf, "As you try to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
-        act(buf, FALSE, ch, 0, 0, TO_CHAR);
-        sprintf(buf, "As $n tries to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
-        act(buf, FALSE, ch, 0, 0, TO_ROOM);
-        obj_from_room(lb);
-        extract_obj(lb);
-        lb = obj = NULL;
-        lockboxes--;
-        return 1;
-    }
-
-    int level = MAX(1, roll - 14);
-    level = MIN(level, 30);
-    award_lockbox_treasure(ch, level);
+  if (roll < 15) 
+  {
+    sprintf(buffer, "As you try to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
+    act(buffer, FALSE, ch, 0, 0, TO_CHAR);
+    sprintf(buffer, "As $n tries to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
+    act(buffer, FALSE, ch, 0, 0, TO_ROOM);
     obj_from_room(lb);
     extract_obj(lb);
     lb = obj = NULL;
-    lockboxes--;    
+    lockboxes--;
     return 1;
+  }
+
+  level = MIN(level, 30);
+  award_lockbox_treasure(ch, level);
+  obj_from_room(lb);
+  extract_obj(lb);
+  lb = obj = NULL;
+  lockboxes--;    
+  return 1;
 }
 
 SPECIAL(orphan)
 {
+
+  struct obj_data *lb = (struct obj_data *) me;
+  struct obj_data *obj = NULL;
+  char arg[200]={'\0'}, arg2[200]={'\0'};
+  char buf[200]={'\0'};
+  int roll = skill_roll(ch, SKILL_DIPLOMACY);
+  int reward = 0;
 
   if (!CMD_IS("send")) 
   {
     return 0;
   }
 
-  struct obj_data *lb = (struct obj_data *) me;
-  struct obj_data *obj = NULL;
-  char arg[200]={'\0'}, arg2[200]={'\0'};
-
   if (!lb)
     return 0;
-
 
   two_arguments(argument, arg, arg2);
 
@@ -6063,6 +6104,8 @@ SPECIAL(orphan)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
     if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | zhentarim)\r\n");
+    if (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION)
+    send_to_char(ch, "Who are you looking to send, and where to? (foster-home | redmantis)\r\n");
     return 1;
   }
   if (!*arg2) 
@@ -6071,6 +6114,8 @@ SPECIAL(orphan)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
     if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | zhentarim)\r\n");
+    if (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION)
+    send_to_char(ch, "Who are you looking to send, and where to? (foster-home | redmantis)\r\n");
     return 1;
   }
 
@@ -6079,8 +6124,6 @@ SPECIAL(orphan)
     send_to_char(ch, "That is not an orphan and cannot be assisted.\r\n");
     return 1;
   }
-
-  char buf[200]={'\0'};
 
   if (is_abbrev(arg2, "foster-home")) 
   {
@@ -6092,9 +6135,10 @@ SPECIAL(orphan)
     extract_obj(lb);
     lb = obj = NULL;
     orphans--;
-  } else if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE && is_abbrev(arg2, "dragonarmies")) 
+  } 
+  else if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE && is_abbrev(arg2, "dragonarmies")) 
   {
-    sprintf(buf, "You send $p off to to the Dragonarmy Academy.");
+    sprintf(buf, "You send $p off to the Dragonarmy Academy.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
     sprintf(buf, "$n sends $p off to the Dragonarmy Academy.");
     act(buf, FALSE, ch, lb, 0, TO_ROOM);
@@ -6102,11 +6146,24 @@ SPECIAL(orphan)
     extract_obj(lb);
     lb = obj = NULL;
     orphans--;
-  } else if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS && is_abbrev(arg2, "zhentarim")) 
+  } 
+  else if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS && is_abbrev(arg2, "zhentarim")) 
   {
-    sprintf(buf, "You send $p off to to the Zhentarim Academy.");
+    sprintf(buf, "You send $p off to the Zhentarim Academy.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
     sprintf(buf, "$n sends $p off to the Zhentarim Academy.");
+    act(buf, FALSE, ch, lb, 0, TO_ROOM);
+    obj_from_room(lb);
+    extract_obj(lb);
+    lb = obj = NULL;
+    orphans--;
+
+  } 
+  else if (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION && is_abbrev(arg2, "redmantis")) 
+  {
+    sprintf(buf, "You send $p off to to join the Red Mantis.");
+    act(buf, FALSE, ch, lb, 0, TO_CHAR);
+    sprintf(buf, "$n sends $p off to join the Red Mantis.");
     act(buf, FALSE, ch, lb, 0, TO_ROOM);
     obj_from_room(lb);
     extract_obj(lb);
@@ -6120,35 +6177,41 @@ SPECIAL(orphan)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
     if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | zhentarim)\r\n");
+    if (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION)
+    send_to_char(ch, "Who are you looking to send, and where to? (foster-home | redmantis)\r\n");
     return 1;
   }
-
-  int roll = skill_roll(ch, SKILL_DIPLOMACY);
-  int reward = 0;
 
   if (roll > 70) 
   {
     reward = 1500;
   } 
-  else if (roll > 60) {
+  else if (roll > 60) 
+  {
     reward = 1000;
   } 
-  else if (roll > 50) {
+  else if (roll > 50) 
+  {
     reward = 750;
   } 
-  else if (roll > 40) {
+  else if (roll > 40) 
+  {
     reward = 500;
   } 
-  else if (roll > 30) {
+  else if (roll > 30) 
+  {
     reward = 300;
   } 
-  else if (roll > 25) {
+  else if (roll > 25) 
+  {
     reward = 200;
   } 
-  else if (roll > 20) {
+  else if (roll > 20) 
+  {
     reward = 100;
   } 
-  else if (roll > 15) {
+  else if (roll > 15) 
+  {
     reward = 50;
   } 
   else {
@@ -6165,7 +6228,6 @@ SPECIAL(orphan)
 
   GET_QUESTPOINTS(ch) += GET_LEVEL(ch);
   GET_REPUTATION(ch) += GET_LEVEL(ch);
-
 
   return 1;
 }

@@ -53,8 +53,8 @@ void UNASSIGNROOM(room_vnum room);
 ACMD(do_oasis_redit)
 {
   char *buf3;
-  char buf1[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf1[MAX_STRING_LENGTH]={'\0'};
+  char buf2[MAX_STRING_LENGTH]={'\0'};
   int number = NOWHERE, save = 0, real_num;
   struct descriptor_data *d;
   
@@ -371,7 +371,7 @@ void redit_disp_extradesc_menu(struct descriptor_data *d)
  */
 void redit_disp_exit_menu(struct descriptor_data *d)
 {
-  char door_buf[40];
+  char door_buf[40]={'\0'};
   /*
    * if exit doesn't exist, alloc/create it 
    */
@@ -417,7 +417,7 @@ void redit_disp_exit_menu(struct descriptor_data *d)
  */
 void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
-  char bits[MAX_INPUT_LENGTH];
+  char bits[MAX_INPUT_LENGTH]={'\0'};
   int counter, columns = 0;
 
   clear_screen(d);
@@ -439,7 +439,7 @@ void redit_disp_exit_flag_menu(struct descriptor_data *d)
  */
 void redit_disp_flag_menu(struct descriptor_data *d)
 {
-  char bits[MAX_STRING_LENGTH];
+  char bits[MAX_STRING_LENGTH]={'\0'};
   int counter, columns = 0;
 
   clear_screen(d);

@@ -364,7 +364,7 @@ shop_rnum real_shop(shop_vnum vnum)
 void modify_string(char **str, char *new_s)
 {
 
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   char *pointer;
 
   /*
@@ -443,7 +443,7 @@ int save_shops(zone_rnum zone_num)
 {
   int i, j, rshop;
   FILE *shop_file;
-  char fname[128], oldname[128];
+  char fname[128]={'\0'}, oldname[128]={'\0'};
   struct shop_data *shop;
 
 #if CIRCLE_UNSIGNED_INDEX
