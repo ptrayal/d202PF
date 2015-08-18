@@ -1615,7 +1615,6 @@ extern struct config_data config_info;
 #define MATERIAL_ETHER          11
 #define MATERIAL_ADAMANTINE     12
 #define MATERIAL_MITHRIL        13
-#define MATERIAL_FIBROUS_PLASTEEL 13
 #define MATERIAL_IRON           14
 #define MATERIAL_CURRENCY       15
 #define MATERIAL_COPPER         16
@@ -1644,12 +1643,10 @@ extern struct config_data config_info;
 #define MATERIAL_DIAMOND        39
 #define MATERIAL_EARTH          40
 #define MATERIAL_SILVER         41
-#define MATERIAL_ALCHEMAL_SILVER 42
+#define MATERIAL_ALCHEMICAL_SILVER 42
 #define MATERIAL_COLD_IRON      43
-#define MATERIAL_REFINED_PLASTEEL 43
 #define MATERIAL_DARKWOOD       44
 #define MATERIAL_DRAGONHIDE     45
-#define MATERIAL_FIBROUS_KEVLAR 45
 
 #define NUM_MATERIALS           45
 

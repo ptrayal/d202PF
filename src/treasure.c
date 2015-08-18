@@ -1240,7 +1240,7 @@ void award_magic_weapon(struct char_data *ch, int grade, int moblevel) {
       GET_OBJ_MATERIAL(obj) = MATERIAL_MITHRIL;
     }
     else if (roll >= 81) {
-      GET_OBJ_MATERIAL(obj) = MATERIAL_ALCHEMAL_SILVER;
+      GET_OBJ_MATERIAL(obj) = MATERIAL_ALCHEMICAL_SILVER;
     }
     else if (roll >= 71) {
       GET_OBJ_MATERIAL(obj) = MATERIAL_COLD_IRON;

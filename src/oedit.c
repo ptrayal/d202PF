@@ -1984,7 +1984,7 @@ void oedit_disp_menu(struct descriptor_data *d)
 
 	  "@gE@n) Extra descriptions menu@n\r\n"
 
-          "@gM@n) Min Level   : @c%3d@n  Reccommended: @cCrafted Item: %d, Reg. Mob Drop: %d Lieut. Mob Drop: %d\r\n"
+          "@gM@n) Min Level   : @c%3d@n  Recommended: @cCrafted Item: %d, Reg. Mob Drop: %d Lieut. Mob Drop: %d\r\n"
           "@g @n                @c   @n                @cCapt. Mob Drop: %d, Boss Mob Drop: %d, Final Boss Mob Drop: %d@n\r\n"
           "@gN@n) Material    : @c%s@n\r\n"
 

@@ -1702,7 +1702,7 @@ byte object_saving_throws(int material_type, int type)
       return 85;
     case MATERIAL_MITHRIL:
     case MATERIAL_STONE:
-    case MATERIAL_ALCHEMAL_SILVER:
+    case MATERIAL_ALCHEMICAL_SILVER:
     case MATERIAL_DRAGONHIDE:
       return 90;
     case MATERIAL_DIAMOND:

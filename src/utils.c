@@ -1921,7 +1921,7 @@ int matching_craft_materials(int mat_used, int mat_craft)
         case MATERIAL_COPPER:
         case MATERIAL_BRONZE:
         case MATERIAL_BRASS:
-        case MATERIAL_ALCHEMAL_SILVER:
+        case MATERIAL_ALCHEMICAL_SILVER:
         case MATERIAL_COLD_IRON:
         case MATERIAL_DRAGONHIDE:
         case MATERIAL_BONE:
@@ -1944,7 +1944,7 @@ int matching_craft_materials(int mat_used, int mat_craft)
         case MATERIAL_BRASS:
         case MATERIAL_BRONZE:
         case MATERIAL_SILVER:
-        case MATERIAL_ALCHEMAL_SILVER:
+        case MATERIAL_ALCHEMICAL_SILVER:
         case MATERIAL_COLD_IRON:
           return TRUE;
       }
@@ -2507,7 +2507,7 @@ int is_metal_item(struct obj_data *obj)
     case MATERIAL_BRASS:
     case MATERIAL_BRONZE:
     case MATERIAL_SILVER:
-    case MATERIAL_ALCHEMAL_SILVER:
+    case MATERIAL_ALCHEMICAL_SILVER:
     case MATERIAL_COLD_IRON:
       return TRUE;
   }

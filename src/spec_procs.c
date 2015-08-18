@@ -134,7 +134,7 @@ SPECIAL(read_rules)
         send_to_char(ch, "You must read all of the rules before you are able to move on.  Type @Yhelp rules@n to begin.\r\n");
         return 1;
       }
-    }      
+    }
   }
   if (ch->desc && ch->desc->account)
     ch->desc->account->read_rules = 1;
@@ -161,15 +161,15 @@ SPECIAL(buy_items)
   int is_weapon = FALSE;
   int is_armor = FALSE;
   int i = 0;
-  
-  if (IS_NPC(ch) || (!CMD_IS("buy") && !CMD_IS("list") && !CMD_IS("sell"))) 
+
+  if (IS_NPC(ch) || (!CMD_IS("buy") && !CMD_IS("list") && !CMD_IS("sell")))
     return 0;
 
-  if (CMD_IS("buy")) 
+  if (CMD_IS("buy"))
   {
     skip_spaces(&argument);
 
-    if (!*argument) 
+    if (!*argument)
     {
       send_to_char(ch, "Type list to see what is available or specify what you would like to buy.\r\n");
       return 1;
@@ -236,7 +236,7 @@ SPECIAL(buy_items)
       else {
 
         obj = read_object(30000, VIRTUAL);
-        SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE); 
+        SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
 
         SET_BIT_AR(GET_OBJ_WEAR(obj), ITEM_WEAR_TAKE);
         SET_BIT_AR(GET_OBJ_WEAR(obj), ITEM_WEAR_BODY);
@@ -285,7 +285,7 @@ SPECIAL(buy_items)
     send_to_char(ch, "You are reimbursed %d %s for selling %s.\r\n", GET_OBJ_COST(obj) / 4, MONEY_STRING, obj->short_description);
     obj_from_char(obj);
     extract_obj(obj);
-    return 1;    
+    return 1;
   }
   else {
     two_arguments(argument, buf, arg2);
@@ -382,7 +382,7 @@ SPECIAL(set_descs)
 {
   struct descriptor_data *d = ch->desc;
 
-  if (IS_NPC(ch) || (!CMD_IS("setdescs") && !CMD_IS("north"))) 
+  if (IS_NPC(ch) || (!CMD_IS("setdescs") && !CMD_IS("north")))
     return 0;
 
   if (GET_CLASS_LEVEL(ch) > 0 && GET_ADMLEVEL(ch) == 0)
@@ -401,7 +401,7 @@ SPECIAL(set_descs)
     else {
       char_from_room(ch);
       char_to_room(ch, real_room(30019));
-      look_at_room(IN_ROOM(ch), ch, 0);    
+      look_at_room(IN_ROOM(ch), ch, 0);
     }
     return 1;
   }
@@ -438,10 +438,10 @@ SPECIAL(set_descs)
 SPECIAL(set_stats)
 {
 
-  if (IS_NPC(ch) || (!CMD_IS("setstats") && !CMD_IS("north"))) 
+  if (IS_NPC(ch) || (!CMD_IS("setstats") && !CMD_IS("north")))
     return 0;
 
-  if (CMD_IS("setstats") && GET_ROOM_VNUM(IN_ROOM(ch)) == 30003) 
+  if (CMD_IS("setstats") && GET_ROOM_VNUM(IN_ROOM(ch)) == 30003)
   {
     do_set_stats(ch, argument, 0, 0);
     return 1;
@@ -450,20 +450,20 @@ SPECIAL(set_stats)
   if (GET_CLASS_LEVEL(ch) > 0)
     return 0;
 
-  if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE) 
+  if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE)
   {
     GET_STAT_POINTS(ch) = 20;
     ch->stat_points_given = TRUE;
   }
 
-  if (CMD_IS("north")) 
+  if (CMD_IS("north"))
   {
     if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60)
       send_to_char(ch, "You must set your ability scores before you can proceed.\r\n");
     else {
       char_from_room(ch);
       char_to_room(ch, real_room(30004));
-      look_at_room(IN_ROOM(ch), ch, 0);    
+      look_at_room(IN_ROOM(ch), ch, 0);
     }
     return 1;
   }
@@ -473,18 +473,18 @@ SPECIAL(set_stats)
 
   two_arguments(argument, arg1, arg2);
 
-  if (!*arg1) 
+  if (!*arg1)
   {
     send_to_char(ch, "Which stat do you want to adjust?\r\n");
     return 1;
   }
-  if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1)) 
+  if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1))
   {
     send_to_char(ch, "What do you wish to change the stat to?\r\n");
     return 1;
   }
 
-  if (is_abbrev(arg1, "reset")) 
+  if (is_abbrev(arg1, "reset"))
   {
     send_to_char(ch, "You reset your stats back to the default values.\r\n");
     GET_STAT_POINTS(ch) = 20;
@@ -496,7 +496,7 @@ SPECIAL(set_stats)
     ch->real_abils.cha = 10;
     return 1;
   }
-  else if (is_abbrev(arg1, "show")) 
+  else if (is_abbrev(arg1, "show"))
   {
     send_to_char(ch, "Here are your current stats:\r\n");
     send_to_char(ch, "Strength     : %d\r\n", ch->real_abils.str);
@@ -508,36 +508,36 @@ SPECIAL(set_stats)
     send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
     return 1;
   }
-  if (GET_STAT_POINTS(ch) == 0) 
+  if (GET_STAT_POINTS(ch) == 0)
   {
     send_to_char(ch, "You need to type @Ysetstats reset@n if you want to change your stats after using all of your points.\r\n");
     return 1;
   }
-  if (is_abbrev(arg1, "strength")) 
+  if (is_abbrev(arg1, "strength"))
   {
     ch->real_abils.str = stat_assign_stat(ch->real_abils.str, arg2, ch);
   }
-  else if (is_abbrev(arg1, "dexterity")) 
+  else if (is_abbrev(arg1, "dexterity"))
   {
     ch->real_abils.dex = stat_assign_stat(ch->real_abils.dex, arg2, ch);
   }
-  else if (is_abbrev(arg1, "constitution")) 
+  else if (is_abbrev(arg1, "constitution"))
   {
     ch->real_abils.con = stat_assign_stat(ch->real_abils.con, arg2, ch);
   }
-  else if (is_abbrev(arg1, "intelligence")) 
+  else if (is_abbrev(arg1, "intelligence"))
   {
     ch->real_abils.intel = stat_assign_stat(ch->real_abils.intel, arg2, ch);
   }
-  else if (is_abbrev(arg1, "wisdom")) 
+  else if (is_abbrev(arg1, "wisdom"))
   {
     ch->real_abils.wis = stat_assign_stat(ch->real_abils.wis, arg2, ch);
   }
-  else if (is_abbrev(arg1, "charisma")) 
+  else if (is_abbrev(arg1, "charisma"))
   {
     ch->real_abils.cha = stat_assign_stat(ch->real_abils.cha, arg2, ch);
   }
-  else 
+  else
   {
     send_to_char(ch, "That is not a valid ability score.\r\n");
   }
@@ -562,59 +562,59 @@ SPECIAL(select_race)
   GRID_DATA *grid;
   GRID_ROW *row;
 
-  if (IS_NPC(ch) || (!CMD_IS("setrace") && !CMD_IS("listraces") && !CMD_IS("north"))) 
+  if (IS_NPC(ch) || (!CMD_IS("setrace") && !CMD_IS("listraces") && !CMD_IS("north")))
     return 0;
 
   if (GET_CLASS_LEVEL(ch) > 0 && GET_RACE(ch) != RACE_SPIRIT && GET_ADMLEVEL(ch) == 0)
     return 0;
 
-  if (CMD_IS("north")) 
+  if (CMD_IS("north"))
   {
     if (GET_RACE(ch) == RACE_SPIRIT)
       send_to_char(ch, "You must choose a race before you can proceed.\r\n");
-    else 
+    else
     {
       char_from_room(ch);
       char_to_room(ch, real_room(30002));
-      look_at_room(IN_ROOM(ch), ch, 0);    
+      look_at_room(IN_ROOM(ch), ch, 0);
     }
     return 1;
   }
 
-  if (CMD_IS("setrace")) 
+  if (CMD_IS("setrace"))
   {
 
     skip_spaces(&argument);
 
-    if (!*argument) 
+    if (!*argument)
     {
       send_to_char(ch, "Which race would you like to become? Type listraces for a list of available races.\r\n");
       return 1;
     }
 
-    for (i = 0; i < NUM_RACES; i++) 
+    for (i = 0; i < NUM_RACES; i++)
     {
-      if (is_abbrev(argument, "undefined")) 
+      if (is_abbrev(argument, "undefined"))
       {
         send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
-        return 1;    
+        return 1;
       }
-      else if (race_list[i].name && is_abbrev(argument, race_list[i].name) && race_list[i].is_pc) 
+      else if (race_list[i].name && is_abbrev(argument, race_list[i].name) && race_list[i].is_pc)
       {
 
 
-        if (race_list[i].is_pc && race_list[i].level_adjustment > 0) 
+        if (race_list[i].is_pc && race_list[i].level_adjustment > 0)
         {
-          if (ch->desc && ch->desc->account) 
+          if (ch->desc && ch->desc->account)
           {
-            if (has_unlocked_race(ch, i)) 
+            if (has_unlocked_race(ch, i))
             {
               send_to_char(ch, "You have changed your race to %s.  For more information type help race %s\r\n", race_list[i].name, race_list[i].name);
               GET_REAL_RACE(ch) = i;
               return 1;
 
             }
-            else 
+            else
             {
               send_to_char(ch, "You have not unlocked that race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
               return 1;
@@ -623,7 +623,7 @@ SPECIAL(select_race)
           else
             return 1;
         }
-       
+
         send_to_char(ch, "You have changed your race to %s.  For more information type help race %s\r\n", race_list[i].name, race_list[i].name);
         GET_REAL_RACE(ch) = i;
         return 1;
@@ -633,9 +633,9 @@ SPECIAL(select_race)
     send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
     return 1;
   }
-  else 
+  else
   {
-    // send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name", 
+    // send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name",
     //              "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
     grid = create_grid(75);
     row = create_row(grid);
@@ -648,9 +648,9 @@ SPECIAL(select_race)
     row_append_cell(row, 6, "CHA");
     row_append_cell(row, 19, "Account Cost");
 
-    for (i = 0; i < NUM_RACES; i++) 
+    for (i = 0; i < NUM_RACES; i++)
     {
-      if (race_list[i].is_pc) 
+      if (race_list[i].is_pc)
       {
         row = create_row(grid);
         row_append_cell(row, 20, "%s", race_list[i].type);
@@ -661,9 +661,9 @@ SPECIAL(select_race)
         row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[3]);
         row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[5]);
         row_append_cell(row, 19, "%-16d", level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
-        // send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type, 
-        //              race_list[i].ability_mods[0], 
-        //              race_list[i].ability_mods[1], 
+        // send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type,
+        //              race_list[i].ability_mods[0],
+        //              race_list[i].ability_mods[1],
         //              race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
         //              race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
       }
@@ -676,33 +676,33 @@ SPECIAL(select_race)
 
 SPECIAL(select_align)
 {
-  if (IS_NPC(ch) || (!CMD_IS("setalign") && !CMD_IS("setethos"))) 
+  if (IS_NPC(ch) || (!CMD_IS("setalign") && !CMD_IS("setethos")))
     return 0;
 
   if (GET_CLASS_LEVEL(ch) > 0 && GET_ADMLEVEL(ch) == 0)
     return 0;
 
-  if (CMD_IS("setalign")) 
+  if (CMD_IS("setalign"))
   {
 
     skip_spaces(&argument);
 
-    if (!*argument) 
+    if (!*argument)
     {
       send_to_char(ch, "Which alignment would you like to become? Choose between good, neutral and evil.\r\n");
       return 1;
     }
 
-    if (!strcmp(argument, "good")) 
+    if (!strcmp(argument, "good"))
     {
       send_to_char(ch, "You have set your alignment to good.\r\n");
       GET_ALIGNMENT(ch) = 500;
       return 1;
     }
-    if (!strcmp(argument, "evil")) 
+    if (!strcmp(argument, "evil"))
     {
 /* Uncomment the following if you wish to make evil a disallowed alignment
-      send_to_char(ch, 
+      send_to_char(ch,
       "For the time being, evil is not allowed as an alignment.  We are working on\r\n"
       "a new system, as well as supporting zones, to allow players to play characters\r\n"
       "on the side of the necro kings.  We will be having separate chat channels\r\n"
@@ -750,25 +750,25 @@ SPECIAL(select_align)
       GET_ALIGNMENT(ch) = -500;
       return 1;
     }
-    if (!strcmp(argument, "neutral")) 
+    if (!strcmp(argument, "neutral"))
     {
       send_to_char(ch, "You have set your alignment to neutral.\r\n");
       GET_ALIGNMENT(ch) = 0;
       return 1;
     }
-    else 
+    else
     {
       send_to_char(ch, "That is not a valid alignment.  Choose either good, neutral or evil.\r\n");
       return 1;
     }
   }
 
-  if (CMD_IS("setethos")) 
+  if (CMD_IS("setethos"))
   {
 
     skip_spaces(&argument);
 
-    if (!*argument) 
+    if (!*argument)
     {
       send_to_char(ch, "Which ethos would you like to become? Choose between lawful, neutral and chaotic.\r\n");
       return 1;
@@ -809,31 +809,31 @@ SPECIAL(identify_mob)
 
     one_argument(argument, arg);
 
-    if (!*arg) 
+    if (!*arg)
     {
         send_to_char(ch, "What would you like to have identified?\r\n");
         return TRUE;
     }
 
-    if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) 
+    if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
     {
         send_to_char(ch, "You don't seem to have a %s in your inventory.\r\n", argument);
         return TRUE;
-    }  
+    }
 
     int cost = GET_OBJ_TYPE(obj) == ITEM_POTION ? GET_OBJ_LEVEL(obj) * 3 : GET_OBJ_LEVEL(obj) * 10;
 
-    if (GET_GOLD(ch) < cost) 
+    if (GET_GOLD(ch) < cost)
     {
-        if (GET_BANK_GOLD(ch) < cost) 
+        if (GET_BANK_GOLD(ch) < cost)
         {
 
             send_to_char(ch, "You must have %d %s on hand or in the bank to identify an item.\r\n", cost, MONEY_STRING);
             return TRUE;
         }
         GET_BANK_GOLD(ch) -= cost;
-    } 
-    else 
+    }
+    else
     {
         GET_GOLD(ch) -= cost;
     }
@@ -858,21 +858,21 @@ SPECIAL(identify_kit)
 
   one_argument(argument, arg);
 
-  if (!*arg) 
+  if (!*arg)
   {
     send_to_char(ch, "What would you like to have identified?\r\n");
     return TRUE;
   }
 
-  if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) 
+  if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
   {
     send_to_char(ch, "You don't seem to have a %s in your inventory.\r\n", argument);
     return TRUE;
-  }  
+  }
 
   int cost = 0;
 
-  switch(GET_OBJ_TYPE(obj)) 
+  switch(GET_OBJ_TYPE(obj))
   {
     case ITEM_POTION:
     case ITEM_SCROLL:
@@ -885,7 +885,7 @@ SPECIAL(identify_kit)
     break;
   }
 
-  if (CMD_IS("idcost")) 
+  if (CMD_IS("idcost"))
   {
     send_to_char(ch, "It would cost %d %s to identify that item.\r\n", cost, MONEY_STRING);
     return TRUE;
@@ -893,9 +893,9 @@ SPECIAL(identify_kit)
 
   int bank = 0;
 
-  if (GET_GOLD(ch) < cost) 
+  if (GET_GOLD(ch) < cost)
   {
-    if ((GET_GOLD(ch) + GET_BANK_GOLD(ch)) < cost) 
+    if ((GET_GOLD(ch) + GET_BANK_GOLD(ch)) < cost)
     {
       send_to_char(ch, "You do not have enough money on hand and in the bank to identify that item.\r\n");
       return TRUE;
@@ -904,8 +904,8 @@ SPECIAL(identify_kit)
     GET_GOLD(ch) = 0;
     GET_BANK_GOLD(ch) -= bank;
     send_to_char(ch, "You empty your coin purse into the gnomish machine.  The remainder was withdrawn from your bank for a total cost of %d.\r\n", cost);
-  } 
-  else 
+  }
+  else
   {
     GET_GOLD(ch) -= cost;
     send_to_char(ch, "You dump %d %s into the gnomish machine.\r\n", cost, MONEY_STRING);
@@ -919,7 +919,7 @@ SPECIAL(identify_kit)
   return TRUE;
 }
 
-SPECIAL(research) 
+SPECIAL(research)
 {
 
   if (!CMD_IS("research") && !CMD_IS("study") && !CMD_IS("theorize") && !CMD_IS("identify"))
@@ -935,11 +935,11 @@ SPECIAL(research)
       send_to_char(ch, "What would you like to have identified?\r\n");
       return TRUE;
     }
-	
+
     if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
       send_to_char(ch, "You don't seem to have a %s in your inventory.\r\n", argument);
        return TRUE;
-    }  
+    }
 
     int cost = GET_OBJ_TYPE(obj) == ITEM_POTION ? GET_OBJ_LEVEL(obj) * 3 : GET_OBJ_LEVEL(obj) * 10;
 
@@ -960,7 +960,7 @@ SPECIAL(research)
     convert_coins(ch);
 
     spell_identify(20, ch, ch, obj, arg);
- 
+
     return TRUE;
   }
   if (CMD_IS("study")) {
@@ -1044,7 +1044,7 @@ SPECIAL(research)
   }
 
   int j;
-  
+
 //  int num_toks = HAS_REAL_FEAT(ch, FEAT_FORCE_TRAINING) * MAX(1, 1 + ability_mod_value(ch->real_abils.wis));
   int num_toks = 0;
 
@@ -1067,7 +1067,7 @@ SPECIAL(research)
       break;
 
   ch->player_specials->spells_known[j] = i;
-  
+
   send_to_char(ch, "You have learned the force power: '%s'.  You have %d force tokens left.\r\n", spell_info[i].name, num_toks-1);
 
   return 1;
@@ -1080,7 +1080,7 @@ SPECIAL(library_small)
   int spellBookFull = TRUE;
   int researchCheck = FALSE;
   int spellFound = FALSE;
-  bool found = FALSE;  
+  bool found = FALSE;
 
 
   if (!CMD_IS("research"))
@@ -1088,112 +1088,112 @@ SPECIAL(library_small)
 
   skip_spaces(&argument);
 
-  for (i = 0; i < MAX_SPELLS; i++) {	
-    if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name)) 
-    {		
-      if (spell_info[i].school != SCHOOL_UNDEFINED) 
+  for (i = 0; i < MAX_SPELLS; i++) {
+    if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name))
+    {
+      if (spell_info[i].school != SCHOOL_UNDEFINED)
       {
         GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-        if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1) 
+        if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1)
         {
-          if (spell_info[i].spell_level <= 2) 
+          if (spell_info[i].spell_level <= 2)
           {
             spellFound = TRUE;
             for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
               cost *= 3 ;
-            if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0) 
+            if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0)
             {
-              for (obj = ch->carrying; obj && !found; obj = obj->next_content) 
+              for (obj = ch->carrying; obj && !found; obj = obj->next_content)
               {
-                if (GET_OBJ_TYPE(obj) == ITEM_SPELLBOOK) 
+                if (GET_OBJ_TYPE(obj) == ITEM_SPELLBOOK)
                 {
                   found = TRUE;
-                  if (spell_in_book(obj, i)) 
+                  if (spell_in_book(obj, i))
                   {
                     send_to_char(ch, "You already have the spell '%s' in this spellbook.\r\n", spell_info[i].name);
                     return TRUE;
                   }
-                  if (!obj->sbinfo) 
+                  if (!obj->sbinfo)
                   {
                     CREATE(obj->sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
                     memset((char *) obj->sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
                   }
-                  for (j=0; j < SPELLBOOK_SIZE; j++) 
+                  for (j=0; j < SPELLBOOK_SIZE; j++)
                   {
-                    if (obj->sbinfo[j].spellname == 0) 
+                    if (obj->sbinfo[j].spellname == 0)
                     {
                       spellBookFull = FALSE;
                       break;
-                    } 
-                    else 
+                    }
+                    else
                     {
                       continue;
                     }
                   }
                   researchCheck = ((dice(1, 20) + ability_mod_value(GET_INT(ch))) > (dice(1, 20) + spell_info[i].spell_level));
-                  if (!spellBookFull && ((researchCheck) || (GET_RESEARCH_TOKENS(ch) > 0))) 
+                  if (!spellBookFull && ((researchCheck) || (GET_RESEARCH_TOKENS(ch) > 0)))
                   {
                     obj->sbinfo[j].spellname = i;
                     obj->sbinfo[j].pages = MAX(1, spell_info[i].class_level[CLASS_WIZARD] * 2);
                     send_to_char(ch, "Your research is successful and you scribe the spell '%s' into your spellbook, which takes up %d pages.\r\n", spell_info[i].name, obj->sbinfo[j].pages);
                     if (!OBJ_FLAGGED(obj, ITEM_UNIQUE_SAVE))
                       SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
-                    if (GET_RESEARCH_TOKENS(ch) < 1) 
+                    if (GET_RESEARCH_TOKENS(ch) < 1)
                     {
                       GET_GOLD(ch) -= cost / 100;
                       send_to_char(ch, "You were charged %s %s for this research session.\r\n", change_coins(cost), MONEY_STRING);
                     }
-                    else 
+                    else
                     {
                       GET_RESEARCH_TOKENS(ch) -= 1;
                       send_to_char(ch, "You used one of your research sessions to learn this spell leaving you with %d.\r\n", GET_RESEARCH_TOKENS(ch));
                     }
                     return TRUE;
-                  } 
-                  else if (spellBookFull) 
+                  }
+                  else if (spellBookFull)
                   {
                     send_to_char(ch, "Your spellbooks are full, you must buy a new one if you wish to research a new spell.\r\n");
                     return TRUE;
                   }
-                  else 
+                  else
                   {
                     GET_GOLD(ch) -= cost / 500;
                     send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
                     return TRUE;
                   }
-                }  
+                }
               }
-              if (!found) 
+              if (!found)
               {
                 send_to_char(ch, "You do not have a spellbook to record your spell in.\r\n");
                 return TRUE;
               }
             }
-            else 
+            else
             {
               send_to_char(ch, "You need to have at least %s %s to do the research for that spell.\r\n", change_coins(cost), MONEY_STRING);
               return TRUE;
             }
           }
-          else 
+          else
           {
             send_to_char(ch, "This library does not have the resources to research that spell.\r\n");
             return TRUE;
           }
         }
-        else 
+        else
         {
           send_to_char(ch, "The references for that spell are far beyond your understanding.\r\n");
-          return TRUE; 
+          return TRUE;
         }
         GET_MEM_TYPE(ch) = 0;
       }
-      else 
+      else
       {
         send_to_char(ch, "The library has no references whatsoever for that spell.\r\n");
         return TRUE;
       }
-    }   
+    }
   }
 
   send_to_char(ch, "The library has no references for that spell.\r\n");
@@ -1208,16 +1208,16 @@ int i, j, cost =10;
 int spellBookFull = TRUE;
 int researchCheck = FALSE;
 int spellFound = FALSE;
-bool found = FALSE;  
+bool found = FALSE;
 
 
 if (!CMD_IS("research"))
 return (FALSE);
-	
+
 skip_spaces(&argument);
-	
-for (i = 0; i < MAX_SPELLS; i++) {	
-	if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name)) {		
+
+for (i = 0; i < MAX_SPELLS; i++) {
+	if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name)) {
 	if (spell_info[i].school != SCHOOL_UNDEFINED) {
                 GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
 		if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1) {
@@ -1261,7 +1261,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 								send_to_char(ch, "You used one of your research sessions to learn this spell leaving you with %d.\r\n", GET_RESEARCH_TOKENS(ch));
 							}
 							return TRUE;
-						} 
+						}
 						else if (spellBookFull) {
 							send_to_char(ch, "Your spellbooks are full, you must buy a new one if you wish to research a new spell.\r\n");
 							return TRUE;
@@ -1271,7 +1271,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 							send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
 							return TRUE;
 						}
-					}  
+					}
 				}
 				if (!found) {
 				  send_to_char(ch, "You do not have a spellbook to record your spell in.\r\n");
@@ -1290,7 +1290,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 	}
 	else {
 		send_to_char(ch, "The references for that spell are far beyond your understanding.\r\n");
-		return TRUE; 
+		return TRUE;
 	}
 		GET_MEM_TYPE(ch) = 0;
 }
@@ -1298,7 +1298,7 @@ else {
 	send_to_char(ch, "The library has no references whatsoever for that spell.\r\n");
 	return TRUE;
 }
-}   
+}
 }
 
 send_to_char(ch, "The library has no references for that spell.\r\n");
@@ -1313,16 +1313,16 @@ int i, j, cost =10;
 int spellBookFull = TRUE;
 int researchCheck = FALSE;
 int spellFound = FALSE;
-bool found = FALSE;  
+bool found = FALSE;
 
 
 if (!CMD_IS("research"))
 return (FALSE);
-	
+
 skip_spaces(&argument);
-	
-for (i = 0; i < MAX_SPELLS; i++) {	
-	if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name)) {		
+
+for (i = 0; i < MAX_SPELLS; i++) {
+	if (spell_info[i].name != NULL && is_abbrev(argument, spell_info[i].name)) {
 	if (spell_info[i].school != SCHOOL_UNDEFINED) {
                 GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
 		if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1) {
@@ -1366,7 +1366,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 								send_to_char(ch, "You used one of your research sessions to learn this spell leaving you with %d.\r\n", GET_RESEARCH_TOKENS(ch));
 							}
 							return TRUE;
-						} 
+						}
 						else if (spellBookFull) {
 							send_to_char(ch, "Your spellbooks are full, you must buy a new one if you wish to research a new spell.\r\n");
 							return TRUE;
@@ -1376,7 +1376,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 							send_to_char(ch, "Your research failed, and the cost in materials was %s %s.\r\n", change_coins(cost / 5), MONEY_STRING);
 							return TRUE;
 						}
-					}  
+					}
 				}
 				if (!found) {
 				  send_to_char(ch, "You do not have a spellbook to record your spell in.\r\n");
@@ -1395,7 +1395,7 @@ for (i = 0; i < MAX_SPELLS; i++) {
 	}
 	else {
 		send_to_char(ch, "The references for that spell are far beyond your understanding.\r\n");
-		return TRUE; 
+		return TRUE;
 	}
 		GET_MEM_TYPE(ch) = 0;
 }
@@ -1403,7 +1403,7 @@ else {
 	send_to_char(ch, "The library has no references whatsoever for that spell.\r\n");
 	return TRUE;
 }
-}   
+}
 }
 
 send_to_char(ch, "The library has no references for that spell.\r\n");
@@ -1456,14 +1456,14 @@ return FALSE;
 
 if(!CMD_IS("respec"))
 return FALSE;
-	
+
 two_arguments(argument, className, startFresh);
 
 if (!*className) {
 send_to_char(ch, "Please enter the name of the class you wish to respec to.  If you wish to begin at level 1 follow the class name with the word 'new'\r\n"
 			"The following classes are available:\r\n");
 	for (i = 0; i < NUM_CLASSES; i++) {
-	
+
 	}
 }
 
@@ -1945,7 +1945,7 @@ char_to_room(pet, IN_ROOM(ch));
 add_follower(pet, ch);
 	SET_BIT_AR(AFF_FLAGS(pet), AFF_CHARM);
 pet->master_id = GET_IDNUM(ch);
-	
+
 	if (MOB_FLAGGED(pet, MOB_MOUNTABLE))
 	GET_MOUNT_VNUM(ch) = GET_MOB_VNUM(pet);
 	else
@@ -1968,7 +1968,7 @@ return (FALSE);
 SPECIAL(stable)
 {
 
-int horses[] = {1636, 3910, 4564, 4565, 6034, 6036, 8518, 12119, 12187, 12382, 19023}; 
+int horses[] = {1636, 3910, 4564, 4565, 6034, 6036, 8518, 12119, 12187, 12382, 19023};
 
 if (CMD_IS("buy")) {
 
@@ -2052,26 +2052,26 @@ SPECIAL(bank)
 {
     int amount;
 
-    if (CMD_IS("balance")) 
+    if (CMD_IS("balance"))
     {
         if (GET_BANK_GOLD(ch) > 0)
             send_to_char(ch, "Your current balance is %d %s.\r\n", GET_BANK_GOLD(ch), MONEY_STRING);
         else
             send_to_char(ch, "You currently have no money deposited.\r\n");
         return (TRUE);
-    } else if (CMD_IS("deposit")) 
+    } else if (CMD_IS("deposit"))
     {
-        if ((amount = atoi(argument)) <= 0) 
+        if ((amount = atoi(argument)) <= 0)
         {
             send_to_char(ch, "How much do you want to deposit?\r\n");
             return (TRUE);
         }
-        if (GET_GOLD(ch) < amount) 
+        if (GET_GOLD(ch) < amount)
         {
             send_to_char(ch, "You don't have that many %s!\r\n", MONEY_STRING);
             return (TRUE);
         }
-        if (AFF_FLAGGED(ch, AFF_SPIRIT)) 
+        if (AFF_FLAGGED(ch, AFF_SPIRIT))
         {
             send_to_char(ch, "You can't use the bank when you're dead!\r\n");
             return 1;
@@ -2083,24 +2083,24 @@ SPECIAL(bank)
         send_to_char(ch, "%d %s were taken by the bank for taxes and service fees.\r\n", amount / 20, MONEY_STRING);
         act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
         return (TRUE);
-    } else if (CMD_IS("invest")) 
+    } else if (CMD_IS("invest"))
     {
-        if (!HAS_FEAT(ch, FEAT_FINANCIAL_EXPERT)) 
+        if (!HAS_FEAT(ch, FEAT_FINANCIAL_EXPERT))
         {
             send_to_char(ch, "Only characters with the financial expert feat can invest %s at the bank.\r\n", MONEY_STRING);
             return 1;
         }
-        if (!is_innate_ready(ch, SPELL_FINANCIAL_EXPERT)) 
+        if (!is_innate_ready(ch, SPELL_FINANCIAL_EXPERT))
         {
             send_to_char(ch, "Your cooldown on this ability has not yet expired.  See @Ytimers@n command.\r\n");
             return 1;
         }
-        if (AFF_FLAGGED(ch, AFF_SPIRIT)) 
+        if (AFF_FLAGGED(ch, AFF_SPIRIT))
         {
             send_to_char(ch, "You can't use the bank when you're dead!\r\n");
             return 1;
         }
-        if (GET_BANK_GOLD(ch) == 0) 
+        if (GET_BANK_GOLD(ch) == 0)
         {
             send_to_char(ch, "You do not have any money in your bank to invest.\r\n");
             return 1;
@@ -2122,14 +2122,14 @@ SPECIAL(bank)
             amount, MONEY_STRING, GET_BANK_GOLD(ch));
         act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
         return (TRUE);
-    } else if (CMD_IS("withdraw")) 
+    } else if (CMD_IS("withdraw"))
     {
-        if ((amount = atoi(argument)) <= 0) 
+        if ((amount = atoi(argument)) <= 0)
         {
             send_to_char(ch, "How much do you want to withdraw?\r\n");
             return (TRUE);
         }
-        if (GET_BANK_GOLD(ch) < amount) 
+        if (GET_BANK_GOLD(ch) < amount)
         {
             send_to_char(ch, "You don't have that many %s deposited!\r\n", MONEY_STRING);
             return (TRUE);
@@ -2520,7 +2520,7 @@ int num_buffs = 0, buffnum = 0;
 
 num_buffs = 4;
 
-buffnum = dice(1, num_buffs * 2);  
+buffnum = dice(1, num_buffs * 2);
 
 if (buffnum == 1 && IS_NPC(ch) && GET_POS(ch) > POS_SITTING && GET_CLASS(ch) == CLASS_WIZARD) {
 if (GET_LEVEL(ch) >= 1) {
@@ -2580,12 +2580,12 @@ return false;
 
 int cleric_cast_buff(struct char_data *ch)
 {
-	struct char_data *vict = ch;	
+	struct char_data *vict = ch;
 int num_buffs = 0, buffnum = 0;
 
 num_buffs = 9;
 
-buffnum = dice(1, num_buffs * 2);  
+buffnum = dice(1, num_buffs * 2);
 
 if (buffnum == 1 && IS_NPC(ch) && GET_POS(ch) > POS_SITTING && GET_CLASS(ch) == CLASS_CLERIC) {
 if (GET_LEVEL(ch) >= 1) {
@@ -2612,7 +2612,7 @@ if (GET_LEVEL(ch) >= 1) {
 	else
 	return false;
 }
-}    
+}
 else if (buffnum == 3 && IS_NPC(ch) && GET_POS(ch) > POS_SITTING && GET_CLASS(ch) == CLASS_CLERIC) {
 if (GET_LEVEL(ch) >= 3) {
 	if (!affected_by_spell(ch, SPELL_SEE_INVIS)) {
@@ -2703,7 +2703,7 @@ if (GET_LEVEL(ch) >= 7) {
 	else
 	return false;
 }
-}            
+}
 
 return false;
 }
@@ -2716,48 +2716,48 @@ int tmp = dice(1, (num_cures * 3));
 
 if (tmp >= (num_cures * 2))
 	return FALSE;
-	
+
 switch ((tmp + 1) / 2) {
 
 case 1:
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_CURE_LIGHT].spell_level)) {
-cast_spell(ch, ch, NULL, SPELL_CURE_LIGHT, NULL);  	
+cast_spell(ch, ch, NULL, SPELL_CURE_LIGHT, NULL);
 return TRUE;
 }
-cleric_cast_cure(ch);      
+cleric_cast_cure(ch);
 break;
 
 case 2:
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_CURE_MODERATE].spell_level)) {
-cast_spell(ch, ch, NULL, SPELL_CURE_MODERATE, NULL);  	
+cast_spell(ch, ch, NULL, SPELL_CURE_MODERATE, NULL);
 return TRUE;
 }
-cleric_cast_cure(ch);      	
+cleric_cast_cure(ch);
 break;
 
 case 3:
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_CURE_SERIOUS].spell_level)) {
-cast_spell(ch, ch, NULL, SPELL_CURE_SERIOUS, NULL);  	
+cast_spell(ch, ch, NULL, SPELL_CURE_SERIOUS, NULL);
 return TRUE;
 }
-cleric_cast_cure(ch);     	
+cleric_cast_cure(ch);
 break;
 
 case 4:
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_CURE_CRITIC].spell_level)) {
-cast_spell(ch, ch, NULL, SPELL_CURE_CRITIC, NULL);  	
+cast_spell(ch, ch, NULL, SPELL_CURE_CRITIC, NULL);
 return TRUE;
 }
-cleric_cast_cure(ch);     	
+cleric_cast_cure(ch);
 break;
 
 case 5:
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_HEAL].spell_level)) {
-cast_spell(ch, ch, NULL, SPELL_HEAL, NULL);  	
+cast_spell(ch, ch, NULL, SPELL_HEAL, NULL);
 return TRUE;
 }
-cleric_cast_cure(ch);     	
-break; 
+cleric_cast_cure(ch);
+break;
 }
 
 return FALSE;;
@@ -2855,7 +2855,7 @@ else if (tmp == 8) {
 	cast_spell(ch, vict, NULL, SPELL_ACID_ARROW, NULL);
 	return true;
 }
-wizard_cast_spell(ch, vict);  		
+wizard_cast_spell(ch, vict);
 	}
 	else
 		return FALSE;
@@ -2881,7 +2881,7 @@ if (GET_LEVEL(ch) >= 1) {
 	cast_spell(ch, vict, NULL, SPELL_INFLICT_LIGHT, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
@@ -2892,7 +2892,7 @@ if (GET_LEVEL(ch) >= 3) {
 	cast_spell(ch, vict, NULL, SPELL_BLINDNESS, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
@@ -2903,7 +2903,7 @@ if (GET_LEVEL(ch) >= 7) {
 	cast_spell(ch, vict, NULL, SPELL_POISON, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
@@ -2914,7 +2914,7 @@ if (GET_LEVEL(ch) >= 7) {
 	cast_spell(ch, vict, NULL, SPELL_INFLICT_CRITIC, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
@@ -2925,18 +2925,18 @@ if (GET_LEVEL(ch) >= 3) {
 	cast_spell(ch, vict, NULL, SPELL_INFLICT_MODERATE, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
-}  
+}
 else if ((tmp == 6)) {
 if (GET_LEVEL(ch) >= 9 && !IS_EVIL(ch) && !IS_GOOD(FIGHTING(ch))) {
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_DISPEL_EVIL].spell_level)) {
 	cast_spell(ch, vict, NULL, SPELL_DISPEL_EVIL, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
@@ -2947,7 +2947,7 @@ if (GET_LEVEL(ch) >= 9 && !IS_GOOD(ch) && !IS_EVIL(FIGHTING(ch))) {
 	cast_spell(ch, vict, NULL, SPELL_DISPEL_GOOD, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
@@ -2958,7 +2958,7 @@ if (GET_LEVEL(ch) >= 15) {
 	cast_spell(ch, vict, NULL, SPELL_BESTOW_CURSE, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
@@ -2969,44 +2969,44 @@ if (GET_LEVEL(ch) >= 11) {
 	cast_spell(ch, vict, NULL, SPELL_HARM, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
-}  
+}
 else if ((tmp == 10)) {
 if (GET_LEVEL(ch) >= 13) {
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_MASS_HARM].spell_level)) {
 	cast_spell(ch, vict, NULL, SPELL_MASS_HARM, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
-}  
+}
 else if ((tmp == 11)) {
 if (GET_LEVEL(ch) >= 1) {
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_INFLICT_MINOR].spell_level)) {
 	cast_spell(ch, vict, NULL, SPELL_INFLICT_MINOR, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
-}  
+}
 else if ((tmp == 12)) {
 if (GET_LEVEL(ch) >= 7) {
 	if (GET_SPELL_SLOT(ch, spell_info[SPELL_INFLICT_SERIOUS].spell_level)) {
 	cast_spell(ch, vict, NULL, SPELL_INFLICT_SERIOUS, NULL);
 	return true;
 }
-cleric_cast_spell(ch, vict);  
+cleric_cast_spell(ch, vict);
 }
 else
 return false;
-}  
+}
 
 
 return false;
@@ -3034,7 +3034,7 @@ vict = FIGHTING(ch);
 return fighter_perform_action(ch, vict);
 
 return FALSE;
-}	
+}
 
 int fighter_perform_action(struct char_data *ch, struct char_data *vict)
 {
@@ -3088,7 +3088,7 @@ vict = FIGHTING(ch);
 return rogue_perform_action(ch, vict);
 
 return FALSE;
-}	
+}
 
 int rogue_perform_action(struct char_data *ch, struct char_data *vict)
 {
@@ -3159,7 +3159,7 @@ SPECIAL(enchant_mob)
     send_to_char(ch, "You don't seem to have that item.\r\n");
     return 1;
   }
-  
+
   for (i = 0; i < NUM_APPLIES; i++) {
     if (is_abbrev(arg2, apply_text[i]))
       break;
@@ -3188,8 +3188,8 @@ SPECIAL(enchant_mob)
   if (CMD_IS("value")) {
     send_to_char(ch, "That enchantment would cost %d %s.\r\n", cost, MONEY_STRING);
     return 1;
-  }  
- 
+  }
+
   if (GET_GOLD(ch) < cost) {
     send_to_char(ch, "It would cost %d for that enchantment.  You only have %d\r\n",
                  cost, GET_GOLD(ch));
@@ -3197,23 +3197,23 @@ SPECIAL(enchant_mob)
   }
 
 
- 
+
   for (j = 0; j < MAX_OBJ_AFFECT; j++) {
     if (obj->affected[j].location == i)
       break;
-  } 
+  }
 
   if (j == MAX_OBJ_AFFECT) {
     for (j = 0; j < MAX_OBJ_AFFECT; j++) {
       if (obj->affected[j].location == APPLY_NONE)
         break;
-    } 
+    }
   }
-    
+
   if (j == MAX_OBJ_AFFECT) {
     send_to_char(ch, "That item cannot be enchanted any furhter.\r\n");
 	return 1;
-  }  
+  }
 
   if (i == APPLY_DAMROLL || i == APPLY_AC_ARMOR || i == APPLY_AC_SHIELD) {
     send_to_char(ch, "This type of enchantment is not allowed.\r\n");
@@ -3224,17 +3224,17 @@ SPECIAL(enchant_mob)
     if  ((i == APPLY_DAMROLL)) {
       send_to_char(ch, "You can only enchant weapons with that enchantment.\r\n");
       return 1;
-    } 
+    }
   }
-  
+
 
   GET_GOLD(ch) -= cost;
   obj->affected[j].location = i;
   obj->affected[j].modifier = mod;
-  obj->affected[j].specific = 0;  
+  obj->affected[j].specific = 0;
 
   GET_OBJ_LEVEL(obj) = MAX(1, set_object_level(obj));
-  
+
   GET_OBJ_COST(obj) = 250 + GET_OBJ_LEVEL(obj) * 50 * MAX(1, GET_OBJ_LEVEL(obj) - 1);
 
   SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
@@ -3311,7 +3311,7 @@ SPECIAL(buff_mob)
 SPECIAL(crafting_station)
 {
 
-  if (!CMD_IS("resize") && !CMD_IS("create") && !CMD_IS("checkcraft") && !CMD_IS("restring") && !CMD_IS("augment") && 
+  if (!CMD_IS("resize") && !CMD_IS("create") && !CMD_IS("checkcraft") && !CMD_IS("restring") && !CMD_IS("augment") &&
       !CMD_IS("convert") && !CMD_IS("supplyorder"))
     return 0;
 
@@ -3361,7 +3361,7 @@ SPECIAL(crafting_station)
 
   skip_spaces(&argument);
 
-  
+
   if (!*argument && !CMD_IS("checkcraft") && !CMD_IS("augment") && !CMD_IS("supplyorder")) {
     if (CMD_IS("create") || CMD_IS("restring"))
       send_to_char(ch, "Please provide an item description containing the material and item name in the string.\r\n");
@@ -3389,19 +3389,19 @@ SPECIAL(crafting_station)
       send_to_char(ch, "You must place a an item to use as the mold pattern, a %s and your crafting resource materials\r\nin the station and then type 'checkcraft'\r\n", "crystal");
     return 1;
   }
-  
+
   for (o = station->contains; o != NULL; o = o->next_content) {
     for (i = 0; i < NUM_CRAFT_TYPES; i++) {
       if (o && (GET_OBJ_VNUM(o) == craft_pattern_vnums(i) || (GET_OBJ_VNUM(o) >= 30200 && GET_OBJ_VNUM(o) <= 30299))) {
         orig = o;
         pattern_vnum = GET_OBJ_VNUM(o);
       }
-    }    
+    }
     if (o && GET_OBJ_TYPE(o) == ITEM_CRYSTAL) {
-      orig = crystal = o; 
+      orig = crystal = o;
       val = GET_OBJ_VAL(o, 0);
       crystal_level = crystal_bonus = bonus = GET_OBJ_LEVEL(o);
-      
+
     }
     else if (o && GET_OBJ_TYPE(o) == ITEM_MATERIAL  && !IS_ESSENCE(o)) {
       if (GET_OBJ_VAL(o, 0) >= 2) {
@@ -3482,7 +3482,7 @@ SPECIAL(crafting_station)
       send_to_char(ch, "You must place 2 units of %s or a similar type of material (all the same type) into the station to continue.\r\n", material_names[GET_AUTOCQUEST_MATERIAL(ch)]);
       return 1;
     }
-    
+
     int obj_level = 0;
 
     craft_type = SCMD_CRAFT;
@@ -3566,7 +3566,7 @@ SPECIAL(crafting_station)
 
   int mats_needed = MAX(5, GET_OBJ_WEIGHT(created) / 50);
   if ((HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? material_amount * 2 : material_amount) < mats_needed) {
-    send_to_char(ch, "You do not have enough materials to make that item.  You need %d more units of the same type.\r\n",  
+    send_to_char(ch, "You do not have enough materials to make that item.  You need %d more units of the same type.\r\n",
                  mats_needed - (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? material_amount * 2 : material_amount));
     return 1;
   }
@@ -3617,7 +3617,7 @@ SPECIAL(crafting_station)
       }
         mn++;
     }
-   
+
 
     if (mn > 5) {
       send_to_char(ch, "You cannot add additional properties to this object.\r\n");
@@ -3660,7 +3660,7 @@ SPECIAL(crafting_station)
       send_to_char(ch, "You cannot imbue armor with shield bonuses.\r\n");
       return 1;
     }
-    
+
 
     if (IS_HARD_METAL(material))
       skill = SKILL_ARMORTECH;
@@ -3774,7 +3774,7 @@ SPECIAL(crafting_station)
 
     }
   }
-  
+
   if (get_skill_value(ch, skill) < GET_OBJ_LEVEL(created)) {
     send_to_char(ch, "Your skill in %s is too low to create that item.\r\n", spell_info[skill].name);
     return 1;
@@ -3817,7 +3817,7 @@ SPECIAL(crafting_station)
     minbonus = 100;
 
   }
-  
+
       mn = 0;
 
       while (created->affected[mn].modifier != 0 && mn < 6) {
@@ -3845,7 +3845,7 @@ SPECIAL(crafting_station)
     created->affected[mn].location = val;
     created->affected[mn].modifier = bonus;
     if (val == APPLY_FEAT || val == APPLY_SKILL) {
-      created->affected[mn].specific = GET_OBJ_VAL(crystal, 1);;  
+      created->affected[mn].specific = GET_OBJ_VAL(crystal, 1);;
     }
 
     if (val == APPLY_ACCURACY) {
@@ -3853,7 +3853,7 @@ SPECIAL(crafting_station)
         created->affected[mn+1].modifier = bonus;
         if ((crystal_level % 5) >= 2)
           created->affected[mn].modifier++;
-        
+
     }
     else if (val == APPLY_DAMAGE) {
         created->affected[mn+1].location = APPLY_ACCURACY;
@@ -3883,7 +3883,7 @@ SPECIAL(crafting_station)
     else
       created->affected[mn].modifier -= 1;
     GET_OBJ_LEVEL(created) = set_object_level(created);
-    GET_OBJ_COST(created) = 100 + GET_OBJ_LEVEL(created) * 50 * MAX(1, GET_OBJ_LEVEL(created) - 1) + GET_OBJ_COST(created);    
+    GET_OBJ_COST(created) = 100 + GET_OBJ_LEVEL(created) * 50 * MAX(1, GET_OBJ_LEVEL(created) - 1) + GET_OBJ_COST(created);
   }
 
   while (val && GET_OBJ_LEVEL(created) >= CONFIG_LEVEL_CAP) {
@@ -3902,7 +3902,7 @@ SPECIAL(crafting_station)
     else
       created->affected[mn].modifier -= 1;
     GET_OBJ_LEVEL(created) = set_object_level(created);
-    GET_OBJ_COST(created) = 100 + GET_OBJ_LEVEL(created) * 50 * MAX(1, GET_OBJ_LEVEL(created) - 1) + GET_OBJ_COST(created);    
+    GET_OBJ_COST(created) = 100 + GET_OBJ_LEVEL(created) * 50 * MAX(1, GET_OBJ_LEVEL(created) - 1) + GET_OBJ_COST(created);
   }
 
   if ((CMD_IS("create") || CMD_IS("checkcraft")) && ch->crafting_level > 0 && ch->crafting_level <= get_skill_value(ch, skill)) {
@@ -3926,7 +3926,7 @@ SPECIAL(crafting_station)
       else
         created->affected[mn].modifier -= 1;
       GET_OBJ_LEVEL(created) = set_object_level(created);
-      GET_OBJ_COST(created) = 100 + GET_OBJ_LEVEL(created) * 50 * MAX(1, GET_OBJ_LEVEL(created) - 1) + GET_OBJ_COST(created);    
+      GET_OBJ_COST(created) = 100 + GET_OBJ_LEVEL(created) * 50 * MAX(1, GET_OBJ_LEVEL(created) - 1) + GET_OBJ_COST(created);
     }
     if (CMD_IS("create")) {
       send_to_char(ch, "Your crafting level has been turned off.  Type clevel (level) to re-set it.\r\n");
@@ -3938,7 +3938,7 @@ SPECIAL(crafting_station)
 
   craft_type = SCMD_CRAFT;
 
-  if (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING)) 
+  if (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING))
   {
     GET_OBJ_WEIGHT(created) /= 2;
   }
@@ -4199,7 +4199,7 @@ SPECIAL(crafting_station)
 
   int cost = GET_OBJ_LEVEL(created) * GET_OBJ_LEVEL(created) * 100 / 3;
 
-  if (CMD_IS("create") || CMD_IS("restring")) 
+  if (CMD_IS("create") || CMD_IS("restring"))
   {
     created->name = strdup(argument);
     created->short_description = strdup(argument);
@@ -4254,7 +4254,7 @@ SPECIAL(crafting_station)
         return 1;
       }
     }
-  
+
 
     int skilltype = SKILL_TINKERING;
 
@@ -4281,7 +4281,7 @@ SPECIAL(crafting_station)
       if (GET_GOLD(ch) < cost && !CMD_IS("supplyorder")) {
       send_to_char(ch, "You need %d %s on hand for supplies to make this item.\r\n", cost, MONEY_STRING);
       return 1;
-      } 
+      }
       send_to_char(ch, "It cost you %d %s in supplies to create this item.\r\n", cost, MONEY_STRING);
       GET_GOLD(ch) -= cost;
     }
@@ -4328,7 +4328,7 @@ SPECIAL(crafting_station)
 
   station_obj_vnum = GET_OBJ_VNUM(station);
 
-  obj_from_room(station);  
+  obj_from_room(station);
 
   extract_obj(station);
 
@@ -4357,7 +4357,7 @@ SPECIAL(buy_potion)
     if (!strcmp(spell_info[i].name, argument)) {
       break;
     }
-  }  
+  }
   if (i > TOP_SPELL) {
     send_to_char(ch, "That isn't a valid spell.\r\n");
     return 1;
@@ -4422,14 +4422,14 @@ SPECIAL(buy_potion)
   obj->short_description = strdup(buf);
   sprintf(buf, "A potion of %s lies here.", spell_info[i].name);
   obj->description = strdup(buf);
-  
+
   obj_to_char(obj, ch);
 
   GET_GOLD(ch) -= cost;
 
   send_to_char(ch, "You purchase %s for %d gold.\r\n", obj->short_description, cost);
 
-  return 1;  
+  return 1;
 }
 
 /*
@@ -4461,7 +4461,7 @@ SPECIAL(use_credit) {
 };
 */
 
-SPECIAL(bounty_contractor) 
+SPECIAL(bounty_contractor)
 {
 
   if (!CMD_IS("bounty")) {
@@ -4481,10 +4481,10 @@ SPECIAL(bounty_contractor)
                        "Once completed you will receive the following:\r\n"
                        "You will receive %d reputation.\r\n"
                        "%d credits will be deposited into your bank account.\r\n"
-                       "You will receive %d experience points.\r\n", 
+                       "You will receive %d experience points.\r\n",
                        GET_AUTOQUEST_DESC(ch), GET_AUTOQUEST_KILLNUM(ch), GET_AUTOQUEST_QP(ch), GET_AUTOQUEST_GOLD(ch), GET_AUTOQUEST_EXP(ch));
     }
-    return 1;    
+    return 1;
   }
 
   if (!strcmp(arg, "new")) {
@@ -4533,7 +4533,7 @@ SPECIAL(bounty_contractor)
   for (i = character_list; i; i = next_char) {
     next_char = i->next;
 
-    if (!IS_NPC(i) || MOB_FLAGGED(i, MOB_NOKILL) || AFF_FLAGGED(i, AFF_CHARM) || i->master || MOB_FLAGGED(i, MOB_INNOCENT) || 
+    if (!IS_NPC(i) || MOB_FLAGGED(i, MOB_NOKILL) || AFF_FLAGGED(i, AFF_CHARM) || i->master || MOB_FLAGGED(i, MOB_INNOCENT) ||
         GET_LEVEL(i) > (level + 3) || GET_LEVEL(i) < (level - 3) ||
         zone_table[world[IN_ROOM(i)].zone].zone_status < 2)
         continue;
@@ -4631,7 +4631,7 @@ SPECIAL(bounty_contractor)
                        "Once completed you will receive the following:\r\n"
                        "You will receive %d reputation points.\r\n"
                        "%d credits will be deposited into your bank account.\r\n"
-                       "You will receive %d experience points.\r\n", 
+                       "You will receive %d experience points.\r\n",
 
                    tmpdesc, GET_AUTOQUEST_KILLNUM(ch), GET_AUTOQUEST_QP(ch), GET_AUTOQUEST_GOLD(ch), GET_AUTOQUEST_EXP(ch));
 	free(tmpdesc);
@@ -4641,7 +4641,7 @@ SPECIAL(bounty_contractor)
       send_to_char(ch, "You will be able to use your bounty gem again in 5 minutes.\r\n");
     }
   } // end bounty new
-  
+
   else if (!strcmp(arg, "complete")) {
 
     if (GET_AUTOQUEST_VNUM(ch) > 0 && GET_AUTOQUEST_KILLNUM(ch) < 1) {
@@ -4649,7 +4649,7 @@ SPECIAL(bounty_contractor)
       send_to_char(ch, "You have completed your bounty contract against %s.\r\n"
                        "You receive %d reputation points.\r\n"
                        "%d credits have been deposited into your bank account.\r\n"
-                       "You receive %d experience points.\r\n", 
+                       "You receive %d experience points.\r\n",
                        GET_AUTOQUEST_DESC(ch), GET_AUTOQUEST_QP(ch), GET_AUTOQUEST_GOLD(ch), GET_AUTOQUEST_EXP(ch) / 3);
 
       GET_QUESTPOINTS(ch) += GET_AUTOQUEST_QP(ch);
@@ -4672,7 +4672,7 @@ SPECIAL(bounty_contractor)
                        "Once completed you will receive the following:\r\n"
                        "You will receive %d reputation points.\r\n"
                        "%d credits will be deposited into your bank account.\r\n"
-                       "You will receive %d experience points.\r\n", 
+                       "You will receive %d experience points.\r\n",
                        GET_AUTOQUEST_DESC(ch), GET_AUTOQUEST_KILLNUM(ch), GET_AUTOQUEST_QP(ch), GET_AUTOQUEST_GOLD(ch), GET_AUTOQUEST_EXP(ch));
     }
   }  // end bounty complete
@@ -4732,7 +4732,7 @@ SPECIAL(harvest)
     if (race_list[race].family != RACE_TYPE_ANIMAL && race_list[race].family != RACE_TYPE_MAGICAL_BEAST &&
         race_list[race].family != RACE_TYPE_DRAGON) {
       if (IS_HUMANOID_RACE(race)) {
-        obj_vnum = 64026;      
+        obj_vnum = 64026;
       }
       else {
         send_to_char(ch, "There's nothing harvestable from that.\r\n");
@@ -4740,10 +4740,10 @@ SPECIAL(harvest)
       }
     }
     else if (race_list[race].family != RACE_TYPE_DRAGON) {
-      obj_vnum = 64014;      
+      obj_vnum = 64014;
     }
     else {
-      obj_vnum = 64025;      
+      obj_vnum = 64025;
     }
   }
   else if (GET_OBJ_VNUM(node) != 64099) {
@@ -4762,7 +4762,7 @@ SPECIAL(harvest)
         break;
       case MATERIAL_COLD_IRON:
         obj_vnum = 64002;
-        scmd = SCMD_MINE;    
+        scmd = SCMD_MINE;
         break;
       case MATERIAL_MITHRIL:
         obj_vnum = 64007;
@@ -4799,7 +4799,7 @@ SPECIAL(harvest)
         obj_vnum = 64016;
         scmd = SCMD_FOREST;
         break;
- 
+
       case MATERIAL_HEMP:
         obj_vnum = 64020;
         scmd = SCMD_FARM;
@@ -4870,7 +4870,7 @@ SPECIAL(harvest)
     act("The corpse is too damaged to harvest.", true, ch, obj, 0, TO_CHAR);
   }
 
-  if (!race) 
+  if (!race)
     GET_OBJ_VAL(node, 0)--;
 
   if (GET_OBJ_VAL(node, 0) <= 0 || IS_CORPSE(node)) {
@@ -4912,7 +4912,7 @@ SPECIAL(start_room)
 
   if (GET_CLASS_LEVEL(ch) > 0) {
       char_to_room(ch, real_room(29519));
-      look_at_room(IN_ROOM(ch), ch, 0);    
+      look_at_room(IN_ROOM(ch), ch, 0);
       return 1;
   }
 
@@ -4949,11 +4949,11 @@ SPECIAL(mount_shop)
   int avg_dam = 0;
   int num_hit = 0;
   float dam = 0.0;
-  
+
   if (CMD_IS("list")) {
     send_to_char(ch, "The following mounts are for sale:\r\n\r\n");
     send_to_char(ch, "#   %-25.25s %-3s %-3s %-6s %-2s %-3s %-3s %-5s %-s7\r\n"
-                 "--- ------------------------- --- --- ------ -- --- --- ----- -------\r\n", 
+                 "--- ------------------------- --- --- ------ -- --- --- ----- -------\r\n",
                  "Name", "Lvl", "HP", "DamScr", "AC", "Spd", "Fly", "Skill", "Cost");
 
     for (i = 1; i < NUM_PETS; i++) {
@@ -5002,7 +5002,7 @@ SPECIAL(mount_shop)
       if (GET_GOLD(ch) < pet_list[mob_num].cost) {
         send_to_char(ch, "You do not have enough gold to purchase that mount.\r\n");
         return 1;
-      }  
+      }
 
       if (get_skill_value(ch, SKILL_HANDLE_ANIMAL) < pet_list[mob_num].skill) {
         send_to_char(ch, "You do not have a high enough handle animal skill to get that mount.\r\n");
@@ -5037,7 +5037,7 @@ SPECIAL(mount_shop)
     struct obj_data * obj;
     char arg[200]={'\0'};
     one_argument(argument, arg);
-    
+
     if (!*arg) {
       send_to_char(ch, "Which item in your inventory do you want to make into barding?\r\n");
       return 1;
@@ -5144,7 +5144,7 @@ SPECIAL(dartboard)
           sprintf(buf,"The highest score is held by %s at %d.\r\n", highscorename, highscore);
           send_to_char(to, buf);
         }
-      }      
+      }
 
 
       if (dice(1, 100) <= 1) {
@@ -5177,10 +5177,10 @@ SPECIAL(crafting_quest) {
                        "Once completed you will receive the following:\r\n"
                        "You will receive %d reputation points.\r\n"
                        "%d credits will be deposited into your bank account.\r\n"
-                       "You will receive %d artisan experience points.\r\n", 
+                       "You will receive %d artisan experience points.\r\n",
                        GET_AUTOCQUEST_DESC(ch), GET_AUTOCQUEST_MAKENUM(ch), GET_AUTOCQUEST_QP(ch), GET_AUTOCQUEST_GOLD(ch), GET_AUTOCQUEST_EXP(ch));
     }
-    return 1;    
+    return 1;
   }
 
   if (!strcmp(arg, "new")) {
@@ -5195,7 +5195,7 @@ SPECIAL(crafting_quest) {
   GET_AUTOCQUEST_QP(ch) = 0;
   GET_AUTOCQUEST_EXP(ch) = 0;
   GET_AUTOCQUEST_GOLD(ch) = 0;
-  GET_AUTOCQUEST_DESC(ch) = strdup("nothing");  
+  GET_AUTOCQUEST_DESC(ch) = strdup("nothing");
 
   int atype = GET_ARTISAN_TYPE(ch);
   int itype = -1;
@@ -5205,44 +5205,44 @@ SPECIAL(crafting_quest) {
   switch (atype) {
     case ARTISAN_TYPE_ARMORTECH:
         itype = dice(1, NUM_SPEC_ARMOR_TYPES)-1;
-        sprintf(desc, "%s", armor_list[itype].name); 
+        sprintf(desc, "%s", armor_list[itype].name);
         GET_AUTOCQUEST_MATERIAL(ch) = armor_list[itype].material;
       break;
     case ARTISAN_TYPE_WEAPONTECH:
         itype = dice(1, NUM_WEAPON_TYPES)-1;
-        sprintf(desc, "%s", weapon_list[itype].name); 
+        sprintf(desc, "%s", weapon_list[itype].name);
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_STEEL;
       break;
     case ARTISAN_TYPE_TINKERING:
       if ((roll = dice(1, 7)) == 1) {
-        sprintf(desc, "a necklace"); 
+        sprintf(desc, "a necklace");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_COPPER;
       } else if (roll == 2) {
-        sprintf(desc, "a bracer"); 
+        sprintf(desc, "a bracer");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_STEEL;
       } else if (roll == 3) {
-        sprintf(desc, "a stim injection");  
+        sprintf(desc, "a stim injection");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_STEEL;
       } else if (roll == 4) {
-        sprintf(desc, "a cape");  
+        sprintf(desc, "a cape");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_HEMP;
       } else if (roll == 5) {
-        sprintf(desc, "a belt");  
+        sprintf(desc, "a belt");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_LEATHER;
       } else if (roll == 6) {
-        sprintf(desc, "a pair of gloves");  
+        sprintf(desc, "a pair of gloves");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_HEMP;
       } else {
-        sprintf(desc, "a pair of boots");  
+        sprintf(desc, "a pair of boots");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_LEATHER;
       }
       break;
     case ARTISAN_TYPE_ROBOTICS:
       if ((roll = dice(1, 2)) == 1) {
-        sprintf(desc, "a hover droid"); 
+        sprintf(desc, "a hover droid");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_STEEL;
       } else {
-        sprintf(desc, "an implant");  
+        sprintf(desc, "an implant");
         GET_AUTOCQUEST_MATERIAL(ch) = MATERIAL_STEEL;
       }
       break;
@@ -5266,12 +5266,12 @@ SPECIAL(crafting_quest) {
                        "Once completed you will receive the following:\r\n"
                        "You will receive %d reputation points.\r\n"
                        "%d credits will be deposited into your bank account.\r\n"
-                       "You will receive %d artisan experience points.\r\n", 
+                       "You will receive %d artisan experience points.\r\n",
 
                    desc, GET_AUTOCQUEST_MAKENUM(ch), GET_AUTOCQUEST_QP(ch), GET_AUTOCQUEST_GOLD(ch), GET_AUTOCQUEST_EXP(ch));
 
   } // end bounty new
-  
+
   else if (!strcmp(arg, "complete")) {
 
     if (GET_AUTOCQUEST_VNUM(ch) > 0 && GET_AUTOCQUEST_MAKENUM(ch) < 1) {
@@ -5279,7 +5279,7 @@ SPECIAL(crafting_quest) {
       send_to_char(ch, "You have completed your supply order contract for %s.\r\n"
                        "You receive %d reputation points.\r\n"
                        "%d credits have been deposited into your bank account.\r\n"
-                       "You receive %d experience points.\r\n", 
+                       "You receive %d experience points.\r\n",
                        GET_AUTOCQUEST_DESC(ch), GET_AUTOCQUEST_QP(ch), GET_AUTOCQUEST_GOLD(ch), GET_AUTOCQUEST_EXP(ch));
 
       GET_QUESTPOINTS(ch) += GET_AUTOCQUEST_QP(ch);
@@ -5301,7 +5301,7 @@ SPECIAL(crafting_quest) {
                        "Once completed you will receive the following:\r\n"
                        "You will receive %d reputation points.\r\n"
                        "%d credits will be deposited into your bank account.\r\n"
-                       "You will receive %d experience points.\r\n", 
+                       "You will receive %d experience points.\r\n",
                        GET_AUTOCQUEST_DESC(ch), GET_AUTOCQUEST_MAKENUM(ch), GET_AUTOCQUEST_QP(ch), GET_AUTOCQUEST_GOLD(ch), GET_AUTOCQUEST_EXP(ch));
     }
   }  // end supplyorder complete
@@ -5372,7 +5372,7 @@ SPECIAL(item_seller)
     if (GET_GOLD(ch) < cost) {
       send_to_char(ch, "That item costs %d %s and you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
       return 1;
-    }    
+    }
 
     GET_GOLD(ch) -= cost;
 
@@ -5443,9 +5443,9 @@ SPECIAL(mold_seller)
     return 1;
   }
 
-  if (is_abbrev(arg, "buy")) 
+  if (is_abbrev(arg, "buy"))
   {
-    if (!*arg2) 
+    if (!*arg2)
     {
       send_to_char(ch, "Please specify the vnum of the item you wish to buy.  You may obtain the vnum from the 'item list' command.\r\n");
       return 1;
@@ -5453,7 +5453,7 @@ SPECIAL(mold_seller)
 
     int vnum = atoi(arg2);
 
-    if (vnum < 30000 || vnum > 300099) 
+    if (vnum < 30000 || vnum > 300099)
     {
       send_to_char(ch, "That is not a valid vnum.  Please select again.\r\n");
       return 1;
@@ -5461,7 +5461,7 @@ SPECIAL(mold_seller)
 
     struct obj_data *obj = read_object(vnum, VIRTUAL);
 
-    if (!obj) 
+    if (!obj)
     {
       send_to_char(ch, "There was an error buying your item.  Please inform a staff member with error code ITM_BUY_001.\r\n");
       return 1;
@@ -5474,11 +5474,11 @@ SPECIAL(mold_seller)
 
     int cost = GET_OBJ_COST(obj);
 
-    if (GET_GOLD(ch) < cost) 
+    if (GET_GOLD(ch) < cost)
     {
       send_to_char(ch, "That item costs %d %s and you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
       return 1;
-    }    
+    }
 
     SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_MOLD);
 
@@ -5489,10 +5489,10 @@ SPECIAL(mold_seller)
     send_to_char(ch, "You purchase %s for %d %s.\r\n", obj->short_description, cost, MONEY_STRING);
     return 1;
   }
-  else if (is_abbrev(arg, "list")) 
+  else if (is_abbrev(arg, "list"))
   {
 
-    if (!*arg2) 
+    if (!*arg2)
     {
       send_to_char(ch, "Please specify either armor, weapon or other.\r\n");
       return 1;
@@ -5516,7 +5516,7 @@ SPECIAL(mold_seller)
 
     send_to_char(ch, "%-5s %-6s %-25s\r\n----- ------ -------------------------\r\n", "VNUM", "COST", "ITEM");
 
-    for (i = 30000; i < 30100; i++) 
+    for (i = 30000; i < 30100; i++)
     {
       if (obj)
         extract_obj(obj);
@@ -5530,7 +5530,7 @@ SPECIAL(mold_seller)
     send_to_char(ch, "\r\n");
     return 1;
   }
-  else 
+  else
   {
     send_to_char(ch, "The syntax for this command is: 'item buy <vnum>' or 'item list <weapons|armor|other>'.\r\n");
     return 1;
@@ -5626,7 +5626,7 @@ SPECIAL(player_shop)
     sbyte found = 0;
     struct obj_data *next_obj = NULL;
 
-    if (obj_dotmode == FIND_INDIV) { 
+    if (obj_dotmode == FIND_INDIV) {
       if (!(obj = get_obj_in_list_vis(ch, arg2, NULL, ch->carrying))) {
         send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg2), arg2);
         return 1;
@@ -5652,7 +5652,7 @@ SPECIAL(player_shop)
       else
         send_to_char(ch, "You don't seem to have any %ss.\r\n", arg2);
       return 1;
-    } 
+    }
     send_to_char(ch, "You set %s to a cost of %d.\r\n", arg2, cost);
   }
   else if (is_abbrev(arg, "try")) {
@@ -5723,7 +5723,7 @@ void list_spec_procs(struct char_data *ch)
 {
     int i=0;
 
-    for(; spec_names[i].func; i++) 
+    for(; spec_names[i].func; i++)
     {
         send_to_char(ch, "%s", spec_names[i].name);
         if (i%4==3)
@@ -5858,7 +5858,7 @@ SPECIAL(emporium)
       send_to_char(ch, "That item costs %d reputation points and you only have %d.\r\n", cost, GET_QUESTPOINTS(ch));
     send_to_char(ch, "@YPlease note that bonuses of the same type @RDO NOT@Y stack in d20 rules.\r\n");
       return 1;
-    }    
+    }
 
     GET_QUESTPOINTS(ch) -= cost;
 
@@ -6032,7 +6032,7 @@ SPECIAL(lockbox)
   int roll = skill_roll(ch, SKILL_DISABLE_DEVICE);
   int level = MAX(1, roll - 14);
 
-  if (!CMD_IS("slice") && !CMD_IS("open") && !CMD_IS("pick") && !CMD_IS("unlock")) 
+  if (!CMD_IS("slice") && !CMD_IS("open") && !CMD_IS("pick") && !CMD_IS("unlock"))
   {
     return 0;
   }
@@ -6042,12 +6042,12 @@ SPECIAL(lockbox)
   if (!*argument)
     return 0;
 
-  if ((CMD_IS("open") || CMD_IS("pick") || CMD_IS("unlock")) && !is_abbrev(argument, "chest")) 
+  if ((CMD_IS("open") || CMD_IS("pick") || CMD_IS("unlock")) && !is_abbrev(argument, "chest"))
   {
     return 0;
   }
 
-  if (lb != (obj = get_obj_in_list_vis(ch, argument, NULL, world[IN_ROOM(ch)].contents))) 
+  if (lb != (obj = get_obj_in_list_vis(ch, argument, NULL, world[IN_ROOM(ch)].contents)))
   {
     send_to_char(ch, "That is not a treasure chest and cannot be opened.\r\n");
     return 1;
@@ -6056,7 +6056,7 @@ SPECIAL(lockbox)
   if (!lb)
     return 0;
 
-  if (roll < 15) 
+  if (roll < 15)
   {
     sprintf(buffer, "As you try to open the treasure chest, the trap activates and an explosion is heard, with black smoke escaping the seams of the chest.");
     act(buffer, FALSE, ch, 0, 0, TO_CHAR);
@@ -6074,7 +6074,7 @@ SPECIAL(lockbox)
   obj_from_room(lb);
   extract_obj(lb);
   lb = obj = NULL;
-  lockboxes--;    
+  lockboxes--;
   return 1;
 }
 
@@ -6088,7 +6088,7 @@ SPECIAL(orphan)
   int roll = skill_roll(ch, SKILL_DIPLOMACY);
   int reward = 0;
 
-  if (!CMD_IS("send")) 
+  if (!CMD_IS("send"))
   {
     return 0;
   }
@@ -6098,7 +6098,7 @@ SPECIAL(orphan)
 
   two_arguments(argument, arg, arg2);
 
-  if (!*arg) 
+  if (!*arg)
   {
     if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
@@ -6108,7 +6108,7 @@ SPECIAL(orphan)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | redmantis)\r\n");
     return 1;
   }
-  if (!*arg2) 
+  if (!*arg2)
   {
     if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
@@ -6119,13 +6119,13 @@ SPECIAL(orphan)
     return 1;
   }
 
-  if (lb != (obj = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents))) 
+  if (lb != (obj = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents)))
   {
     send_to_char(ch, "That is not an orphan and cannot be assisted.\r\n");
     return 1;
   }
 
-  if (is_abbrev(arg2, "foster-home")) 
+  if (is_abbrev(arg2, "foster-home"))
   {
     sprintf(buf, "You send $p off to a loving foster home.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
@@ -6135,8 +6135,8 @@ SPECIAL(orphan)
     extract_obj(lb);
     lb = obj = NULL;
     orphans--;
-  } 
-  else if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE && is_abbrev(arg2, "dragonarmies")) 
+  }
+  else if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE && is_abbrev(arg2, "dragonarmies"))
   {
     sprintf(buf, "You send $p off to the Dragonarmy Academy.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
@@ -6146,8 +6146,8 @@ SPECIAL(orphan)
     extract_obj(lb);
     lb = obj = NULL;
     orphans--;
-  } 
-  else if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS && is_abbrev(arg2, "zhentarim")) 
+  }
+  else if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS && is_abbrev(arg2, "zhentarim"))
   {
     sprintf(buf, "You send $p off to the Zhentarim Academy.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
@@ -6158,8 +6158,8 @@ SPECIAL(orphan)
     lb = obj = NULL;
     orphans--;
 
-  } 
-  else if (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION && is_abbrev(arg2, "redmantis")) 
+  }
+  else if (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION && is_abbrev(arg2, "redmantis"))
   {
     sprintf(buf, "You send $p off to to join the Red Mantis.");
     act(buf, FALSE, ch, lb, 0, TO_CHAR);
@@ -6170,8 +6170,8 @@ SPECIAL(orphan)
     lb = obj = NULL;
     orphans--;
 
-  } 
-  else 
+  }
+  else
   {
     if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
     send_to_char(ch, "Who are you looking to send, and where to? (foster-home | dragonarmies)\r\n");
@@ -6182,38 +6182,38 @@ SPECIAL(orphan)
     return 1;
   }
 
-  if (roll > 70) 
+  if (roll > 70)
   {
     reward = 1500;
-  } 
-  else if (roll > 60) 
+  }
+  else if (roll > 60)
   {
     reward = 1000;
-  } 
-  else if (roll > 50) 
+  }
+  else if (roll > 50)
   {
     reward = 750;
-  } 
-  else if (roll > 40) 
+  }
+  else if (roll > 40)
   {
     reward = 500;
-  } 
-  else if (roll > 30) 
+  }
+  else if (roll > 30)
   {
     reward = 300;
-  } 
-  else if (roll > 25) 
+  }
+  else if (roll > 25)
   {
     reward = 200;
-  } 
-  else if (roll > 20) 
+  }
+  else if (roll > 20)
   {
     reward = 100;
-  } 
-  else if (roll > 15) 
+  }
+  else if (roll > 15)
   {
     reward = 50;
-  } 
+  }
   else {
     reward = 0;
   }
@@ -6235,7 +6235,7 @@ SPECIAL(orphan)
 SPECIAL(repair_mob)
 {
 
-  if (!CMD_IS("repair")) 
+  if (!CMD_IS("repair"))
   {
     return 0;
   }
@@ -6285,7 +6285,7 @@ SPECIAL(repair_mob)
       obj_to_char(obj, ch);
       equip_char(ch, obj, i);
 
-      send_to_char(ch, "It cost you %d %s to have %s repaired.\r\n", cost, MONEY_STRING, obj->short_description);    
+      send_to_char(ch, "It cost you %d %s to have %s repaired.\r\n", cost, MONEY_STRING, obj->short_description);
     }
   } else {
 
@@ -6298,7 +6298,7 @@ SPECIAL(repair_mob)
     send_to_char(ch, "There is nothing in your inventory by the name of %s.\r\n", argument);
     return 1;
   }
-  
+
     if (GET_OBJ_VAL(obj, 4) >= 100) {
       send_to_char(ch, "That item is not in need of repair.\r\n");
       return 1;

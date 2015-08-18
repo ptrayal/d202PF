@@ -1153,7 +1153,7 @@ const char *material_names[] =
    "diamond",
    "earth",
    "silver",
-   "alchemal silver",
+   "alchemical silver",
    "cold iron",
    "darkwood",
    "dragonhide",
