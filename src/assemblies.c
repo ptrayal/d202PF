@@ -668,7 +668,8 @@ void crafting_update(void)
 
       if (TRUE || GET_CRAFTING_TYPE(ch) == SCMD_DIVIDE || GET_CRAFTING_TYPE(ch) == SCMD_FOREST || GET_CRAFTING_TYPE(ch) == SCMD_FARM ||
           GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT || GET_CRAFTING_TYPE(ch) == SCMD_RESIZE ||
-          ((roll = skill_roll(ch, assembly_skills[GET_CRAFTING_TYPE(ch)])) >= (dc = 10 + GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch))))) {
+          ((roll = skill_roll(ch, assembly_skills[GET_CRAFTING_TYPE(ch)])) >= (dc = 10 + GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch))))) 
+      {
         if (!GET_CRAFTING_OBJ(ch) || GET_OBJ_VNUM(GET_CRAFTING_OBJ(ch)) == 64012) {
           sprintf(buf, "Your attempt to %s has provided no results.",  AssemblyTypes[GET_CRAFTING_TYPE(ch)]);
           act(buf, FALSE, ch, 0, 0, TO_CHAR);

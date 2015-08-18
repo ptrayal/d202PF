@@ -1085,12 +1085,12 @@ ACMD(do_assemble)
 ACMD(do_assemble)
 {
 
-  long         lVnum = NOTHING;
+  long lVnum = NOTHING;
   struct obj_data *pObject = NULL;
   char buf[MAX_STRING_LENGTH];
   long i = 0;
   long j = 0;
-  long         lRnum = NOTHING;
+  long lRnum = NOTHING;
   
 
   skip_spaces(&argument);
@@ -1240,8 +1240,7 @@ void advance_crafting_progress(struct char_data *ch, int cmd) {
 
 }
 
-void perform_put(struct char_data *ch, struct obj_data *obj,
-		      struct obj_data *cont)
+void perform_put(struct char_data *ch, struct obj_data *obj, struct obj_data *cont)
 {
 
   if (!drop_otrigger(obj, ch))
