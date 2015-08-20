@@ -48,7 +48,7 @@ void add_poll_option(int pnum, int onum, char *option)
 
   poll_list[pnum].options[onum] = strdup(option);
 
-  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) 
+  if (CONFIG_DFLT_PORT == 9080) 
   {
     sprintf(query, "SELECT name FROM  `poll_data` WHERE  `poll_num` = '%d' AND  `option` = '%d'", pnum, onum);
 
@@ -106,4 +106,10 @@ void build_poll_list(void)
   add_poll_option(6, 3, "Weakness system with small penalty to future exp gains for 10 minutes");
   add_poll_option(6, 4, "Other System (please post it on the forums at d20mud.com)");
 
+}
+
+void free_poll(int pnum)
+{
+  free(poll_list[pnum].title);
+  free(poll_list[pnum].options[0]);
 }

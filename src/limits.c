@@ -975,7 +975,7 @@ void point_update(void)
     log("Cannot connect to mysql database in point update.");
   }
 
-  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) {
+  if (CONFIG_DFLT_PORT == 9080) {
     sprintf(query, "UPDATE player_data SET online = '0'");
     if (mysql_query(conn, query)) {
        log("Cannot set online status to 0");   

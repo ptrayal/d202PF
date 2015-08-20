@@ -1317,10 +1317,13 @@ void look_at_room(room_rnum target_room, struct char_data *ch, int ignore_brief)
     do_auto_exits(target_room, ch, EXIT_LEV(ch));
 
   /* now list characters & objects */
+  send_to_char(ch, "@Y--- Objects ---- @n\r\n");
   if (ROOM_FLAGGED(target_room, ROOM_PLAYER_SHOP))
     list_obj_to_char(world[target_room].contents, ch, SHOW_OBJ_SHORT, false);
   else
     list_obj_to_char(world[target_room].contents, ch, SHOW_OBJ_LONG, false);
+  
+  send_to_char(ch, "@Y--- Creatures/People ---- @n\r\n");
   list_char_to_char(world[target_room].people, ch);
 }
 

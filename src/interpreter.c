@@ -2421,7 +2421,8 @@ int enter_player_game (struct descriptor_data *d)
     //combine_accounts();
 
 
-  if (CONFIG_DFLT_PORT == 9080 || CONFIG_DFLT_PORT == 6070) {
+  if (CONFIG_DFLT_PORT == 9080) 
+  {
 
     char query[200]={'\0'};
 
