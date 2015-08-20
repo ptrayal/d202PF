@@ -4335,12 +4335,14 @@ ACMD(do_test)
     grid = create_grid(75);
     row = create_row(grid);
     row_append_cell(row, 15, "Class Abbrev");
-    row_append_cell(row, 60, "Class Abbrev");
+    row_append_cell(row, 30, "Class Name");
+    row_append_cell(row, 30, "Class Type");
     for (cls = 0; cls < NUM_CLASSES; cls++)
     {
       row = create_row(grid);
       row_append_cell(row, 15, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol : class_abbrevs_core)[cls]);
-      row_append_cell(row, 60, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
+      row_append_cell(row, 30, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
+      row_append_cell(row, 30, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[cls]);
     }
     grid_to_char(grid, ch, TRUE);
 
