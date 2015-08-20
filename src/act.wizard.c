@@ -4316,6 +4316,8 @@ ACMD(do_loadcrystal)
 ACMD(do_test)
 {
     char *buf1, *buf2, *buf3, *buf4;
+    int cls = 0;
+
     buf1 = pet_table[0].name;
     buf2 = do_lower(buf1);
     buf3 = do_upper(buf2, FALSE);
@@ -4326,19 +4328,21 @@ ACMD(do_test)
 
     grid = create_grid(75);
     row = create_row(grid);
-    row_append_cell(row, 35, "Base Text[pet_table[0].name]");
-    row_append_cell(row, 40, "%s", buf1);
+    // row_append_cell(row, 35, "Base Text[pet_table[0].name]");
+    // row_append_cell(row, 40, "%s", buf1);
+    // grid_to_char(grid, ch, TRUE);
+
+    grid = create_grid(75);
+    row = create_row(grid);
+    row_append_cell(row, 15, "Class Abbrev");
+    row_append_cell(row, 60, "Class Abbrev");
+    for (cls = 0; cls < NUM_CLASSES; cls++)
+    {
+      row = create_row(grid);
+      row_append_cell(row, 15, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol : class_abbrevs_core)[cls]);
+      row_append_cell(row, 60, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
+    }
     grid_to_char(grid, ch, TRUE);
-
-    // send_to_char(ch, "----------\r\n");
-    // send_to_char(ch, "Base Text[pet_table[0].name] - |%s|\r\n", buf1);
-    // send_to_char(ch, "do_lower result - |%s|\r\n", buf2);
-    // send_to_char(ch, "do_upper FALSE [Base Text = do_lower result] - |%s|\r\n", buf3);
-    // send_to_char(ch, "do_upper TRUE [Base Text = do_lower result] - |%s|\r\n", buf4);
-    // send_to_char(ch, "----------\r\n");
-    // send_to_char(ch, "@RNote: || are added on the text results to show any applicable white spacing@n\r\n");
-    // send_to_char(ch, "----------\r\n");
-
 
 }
 
