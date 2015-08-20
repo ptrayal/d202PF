@@ -4334,15 +4334,17 @@ ACMD(do_test)
 
     grid = create_grid(75);
     row = create_row(grid);
-    row_append_cell(row, 15, "Class Abbrev");
-    row_append_cell(row, 30, "Class Name");
-    row_append_cell(row, 30, "Class Type");
+    row_append_cell(row, 8, "Abbrev");
+    row_append_cell(row, 20, "Name");
+    row_append_cell(row, 20, "Type");
+    // row_append_cell(row, 27, "Prestige");
     for (cls = 0; cls < NUM_CLASSES; cls++)
     {
       row = create_row(grid);
-      row_append_cell(row, 15, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol : class_abbrevs_core)[cls]);
-      row_append_cell(row, 30, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
-      row_append_cell(row, 30, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[cls]);
+      row_append_cell(row, 8, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol : class_abbrevs_core)[cls]);
+      row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
+      row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[cls]);
+      // row_append_cell(row, 27, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? prestige_classes_dl_aol : prestige_classes_core)[cls]);
     }
     grid_to_char(grid, ch, TRUE);
 

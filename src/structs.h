@@ -326,6 +326,7 @@ extern struct config_data config_info;
 #define CLASS_BARD                     7
 #define CLASS_RANGER                   8
 #define CLASS_DRUID                    9
+
 #define CLASS_PURPLE_DRAGON_KNIGHT     10 /* NOW AN EXPANSION*/
 #define CLASS_KNIGHT                   10 /* NOW AN EXPANSION*/
 #define CLASS_KNIGHT_OF_THE_CROWN      10 /* NOW AN EXPANSION*/
@@ -333,7 +334,6 @@ extern struct config_data config_info;
 #define CLASS_TEMPLAR                  11
 #define CLASS_KNIGHT_OF_THE_SWORD      11
 #define CLASS_PURPLE_DRAGON_LORD       12
-#define CLASS_LORD                     12
 #define CLASS_CHAMPION                 12
 #define CLASS_KNIGHT_OF_THE_ROSE       12
 #define CLASS_ZHENTARIM_KNIGHT         13
@@ -345,6 +345,7 @@ extern struct config_data config_info;
 #define CLASS_KNIGHT_OF_THE_THORN      15
 #define CLASS_EXPANSION_ONE_A          16
 #define CLASS_WIZARD_OF_HIGH_SORCERY   16
+
 #define CLASS_DUELIST                  17
 #define CLASS_GLADIATOR                18
 #define CLASS_MYSTIC_THEURGE           19
