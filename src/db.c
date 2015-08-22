@@ -227,6 +227,7 @@ void load_weapons(void);
 void load_armor(void);
 void init_pets(void);
 void load_pets(void);
+void free_poll(int pnum);
 
 /* external vars */
 extern struct descriptor_data *descriptor_list;
@@ -788,6 +789,10 @@ void destroy_db(void)
 
   log("Freeing Assemblies.");
   free_assemblies();
+
+  // free_poll();
+
+
 }
 
 

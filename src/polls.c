@@ -17,6 +17,7 @@
 #include "polls.h"
 
 struct poll_data poll_list[NUM_POLLS];
+void free_poll(int pnum);
 
 void add_poll(int pnum, char *question, sbyte active, sbyte revote)
 {
