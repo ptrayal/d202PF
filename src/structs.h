@@ -330,65 +330,65 @@ extern struct config_data config_info;
 #define CLASS_PURPLE_DRAGON_KNIGHT     10 /* NOW AN EXPANSION*/
 #define CLASS_KNIGHT                   10 /* NOW AN EXPANSION*/
 #define CLASS_KNIGHT_OF_THE_CROWN      10 /* NOW AN EXPANSION*/
-#define CLASS_PURPLE_DRAGON_TEMPLAR    11
-#define CLASS_TEMPLAR                  11
-#define CLASS_KNIGHT_OF_THE_SWORD      11
-#define CLASS_PURPLE_DRAGON_LORD       12
-#define CLASS_CHAMPION                 12
-#define CLASS_KNIGHT_OF_THE_ROSE       12
-#define CLASS_ZHENTARIM_KNIGHT         13
-#define CLASS_KNIGHT_OF_THE_LILY       13
-#define CLASS_ZHENTARIM_PRIEST         14
-#define CLASS_KNIGHT_OF_THE_SKULL      14
-#define CLASS_DRAGON_PRIEST            14
-#define CLASS_ZHENTARIM_WIZARD         15
-#define CLASS_KNIGHT_OF_THE_THORN      15
-#define CLASS_EXPANSION_ONE_A          16
-#define CLASS_WIZARD_OF_HIGH_SORCERY   16
+#define CLASS_PURPLE_DRAGON_TEMPLAR    11 /* NOW AN EXPANSION*/
+#define CLASS_TEMPLAR                  11 /* NOW AN EXPANSION*/
+#define CLASS_KNIGHT_OF_THE_SWORD      11 /* NOW AN EXPANSION*/
+#define CLASS_PURPLE_DRAGON_LORD       12 /* NOW AN EXPANSION*/
+#define CLASS_CHAMPION                 12 /* NOW AN EXPANSION*/
+#define CLASS_KNIGHT_OF_THE_ROSE       12 /* NOW AN EXPANSION*/
+#define CLASS_ZHENTARIM_KNIGHT         13 /* NOW AN EXPANSION*/
+#define CLASS_KNIGHT_OF_THE_LILY       13 /* NOW AN EXPANSION*/
+#define CLASS_ZHENTARIM_PRIEST         14 /* NOW AN EXPANSION*/
+#define CLASS_KNIGHT_OF_THE_SKULL      14 /* NOW AN EXPANSION*/
+#define CLASS_DRAGON_PRIEST            14 /* NOW AN EXPANSION*/
+#define CLASS_ZHENTARIM_WIZARD         15 /* NOW AN EXPANSION*/
+#define CLASS_KNIGHT_OF_THE_THORN      15 /* NOW AN EXPANSION*/
+#define CLASS_EXPANSION_ONE_A          16 /* NOW AN EXPANSION*/
+#define CLASS_WIZARD_OF_HIGH_SORCERY   16 /* NOW AN EXPANSION*/
 
 #define CLASS_DUELIST                  17
-#define CLASS_GLADIATOR                18
+#define CLASS_GLADIATOR                18 /* NOW AN EXPANSION*/
 #define CLASS_MYSTIC_THEURGE           19
 #define CLASS_SORCERER                 20
 #define CLASS_CLASSLESS                21
-#define CLASS_DWARVEN_DEFENDER         22
-#define CLASS_WEAPON_MASTER            23
+#define CLASS_DWARVEN_DEFENDER         22 /* NOW AN EXPANSION*/
+#define CLASS_WEAPON_MASTER            23 /* NOW AN EXPANSION*/
 #define CLASS_DRAGON_DISCIPLE          24
 #define CLASS_ARCANE_ARCHER            25
-#define CLASS_INVISIBLE_BLADE          26
+#define CLASS_INVISIBLE_BLADE          26 /* NOW AN EXPANSION*/
 #define CLASS_NPC_EXPERT               27
 #define CLASS_NPC_ADEPT                27
 #define CLASS_NPC_COMMONER             27
 #define CLASS_NPC_ARISTOCRAT           27
 #define CLASS_NPC_WARRIOR              27
 #define CLASS_ASSASSIN                 28
-#define CLASS_BLACKGUARD               29
+#define CLASS_BLACKGUARD               29 /* NOW AN EXPANSION*/
 #define CLASS_ARTISAN                  30
 #define CLASS_ARCANE_TRICKSTER         31
-#define CLASS_FAVORED_SOUL             32
+#define CLASS_FAVORED_SOUL             32 /* NOW AN EXPANSION*/
 #define CLASS_ELDRITCH_KNIGHT          33
-#define CLASS_DEATH_MASTER             34
-#define CLASS_SACRED_FIST              35
-#define CLASS_DRAGON_RIDER             36
-#define CLASS_EXTRA_J                  37
-#define CLASS_EXTRA_K                  38
-#define CLASS_EXTRA_L                  39
-#define CLASS_EXTRA_M                  40
-#define CLASS_EXTRA_N                  41
-#define CLASS_EXTRA_O                  42
-#define CLASS_EXTRA_P                  43
-#define CLASS_EXTRA_Q                  44
-#define CLASS_EXTRA_R                  45
-#define CLASS_EXTRA_S                  46
-#define CLASS_EXTRA_T                  47
-#define CLASS_EXTRA_U                  48
-#define CLASS_EXTRA_V                  49
-#define CLASS_EXTRA_W                  50
-#define CLASS_EXTRA_X                  51
-#define CLASS_EXTRA_Y                  52
-#define CLASS_EXTRA_Z                  53
-#define CLASS_EXTRA_AA                 54
-#define CLASS_EXTRA_BB                 55
+#define CLASS_DEATH_MASTER             34 /* NOW AN EXPANSION*/
+#define CLASS_SACRED_FIST              35 /* NOW AN EXPANSION*/
+#define CLASS_DRAGON_RIDER             36 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_J                  37 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_K                  38 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_L                  39 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_M                  40 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_N                  41 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_O                  42 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_P                  43 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_Q                  44 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_R                  45 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_S                  46 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_T                  47 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_U                  48 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_V                  49 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_W                  50 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_X                  51 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_Y                  52 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_Z                  53 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_AA                 54 /* NOW AN EXPANSION*/
+#define CLASS_EXTRA_BB                 55 /* NOW AN EXPANSION*/
 
 #define NUM_CLASSES                 58  /* This must be the number of classes!! */
 #define TOP_PC_CLASS                (CLASS_DRAGON_RIDER + 1)

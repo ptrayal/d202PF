@@ -259,8 +259,6 @@ feato(FEAT_IMPROVED_FAMILIAR, "Improved Familiar", FALSE, FALSE, FALSE, "ask sta
 feato(FEAT_IMPROVED_FEINT, "Improved Feint", TRUE, TRUE, FALSE, "Int 13, combat expertise", "can feint and make one attack per round (or sneak attack if they have it)");
 feato(FEAT_IMPROVED_GRAPPLE, "Improved Grapple", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_INITIATIVE, "Improved Initiative", TRUE, TRUE, FALSE, "-", "+4 bonus on initiative checks");
-feato(FEAT_IMPROVED_INSTIGATION, "Improved Instigation", TRUE, TRUE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_INTIMIDATION, "Improved Intimidation", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_NATURAL_WEAPON, "Improved Natural Weapons", TRUE, TRUE, FALSE, "natural weapon or improved unarmed strike", "increase damage dice by one category for natural weapons");
 feato(FEAT_IMPROVED_OVERRUN, "Improved Overrun", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_PRECISE_SHOT, "Improved Precise Shot", TRUE, FALSE, FALSE, "ranger level 11", "+1 to hit on all ranged attacks");
@@ -268,7 +266,6 @@ feato(FEAT_IMPROVED_REACTION, "Improved Reaction", TRUE, FALSE, FALSE, "-", "+2 
 feato(FEAT_IMPROVED_SHIELD_BASH, "Improved Shield Bash", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_SNEAK_ATTACK, "Improved Sneak Attack", TRUE, TRUE, TRUE, "sneak attack 1d6 or more", "each rank gives +5% chance per attack, per rank to be a sneak attack.");
 feato(FEAT_IMPROVED_SUNDER, "Improved Sunder", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_IMPROVED_TAUNTING, "Improved Taunting", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_TRIP, "Improved Trip", TRUE, TRUE, FALSE, "Combat Expertise", "no attack of opportunity when tripping, +4 to trip check");
 feato(FEAT_IMPROVED_TURNING, "Improved Turning", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_IMPROVED_TWO_WEAPON_FIGHTING, "Improved Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 17, two weapon fighting, base attack bonus of +6 or more", "extra attack with offhand weapon at -5 penalty");
@@ -791,22 +788,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     if (has_feat(ch, FEAT_IMPROVED_UNARMED_STRIKE))
       return TRUE;
     return FALSE;
-
-
-  case FEAT_IMPROVED_INTIMIDATION:
-  	if (GET_SKILL(ch, SKILL_INTIMIDATE) < 10)
-  		return FALSE;
-  	return TRUE;
-  	
-  case FEAT_IMPROVED_INSTIGATION:
-  	if (GET_SKILL(ch, SKILL_DIPLOMACY) < 10)
-  		return FALSE;
-  	return TRUE;
-  	
-  case FEAT_IMPROVED_TAUNTING:
-  	if (GET_SKILL(ch, SKILL_BLUFF) < 10)
-  		return FALSE;
-  	return TRUE;  	  	
 
   case FEAT_TWO_WEAPON_DEFENSE:
   	if (!has_feat(ch, FEAT_TWO_WEAPON_FIGHTING))
