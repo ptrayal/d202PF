@@ -140,7 +140,7 @@ feato(FEAT_BLEEDING_ATTACK, "Bleeding Attack", TRUE, TRUE, FALSE, "Rogue Talent"
 feato(FEAT_BLIND_FIGHT, "Blind-Fight", TRUE, TRUE, FALSE, "-", "reduced penalties when fighting blind oragainst invisible opponents"); 
 feato(FEAT_BLINDSENSE, "Blindsense", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_BLOODLINE_ARCANE, "Bloodline (Arcane)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
-feato(FEAT_BLOODLINE_ABYSSAL, "Bloodline (Abyssal)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
+feato(FEAT_BLOODLINE_ABYSSAL, "Bloodline (Abyssal)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "You can grow claws as a free action.");
 feato(FEAT_BLOODLINE_FEY, "Bloodline (Fey)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
 feato(FEAT_BONE_ARMOR, "Bone Armor", TRUE, FALSE, FALSE, "Death Master 1st", "allows creation of bone armor and 10% arcane spell failure reduction in bone armor per rank.");
 feato(FEAT_BRANDING, "Branding", TRUE, FALSE, FALSE, "Artisan level 3rd", "All items made carry the artisan's\n brand");
