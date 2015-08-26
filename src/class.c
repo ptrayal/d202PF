@@ -5106,9 +5106,10 @@ const int class_feats_dragon_disciple[] = {
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
-const int class_feats_sorcerer[] = {
+const int class_feats_sorcerer[] = 
+{
   FEAT_BLOODLINE_ARCANE,
-  FEAT_BLOODLINE_DRACONIC,
+  FEAT_BLOODLINE_ABYSSAL,
   FEAT_BLOODLINE_FEY,
   FEAT_UNDEFINED
 };
