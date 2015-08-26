@@ -235,22 +235,26 @@ struct help_index_element *find_help(char *keyword)
 
 void display_spells(struct char_data *ch, struct obj_data *obj)
 {
-  int i, j;
+  int i = 0, j = 0;
   int titleDone = FALSE;
 
   send_to_char(ch, "The spellbook contains the following spells:\r\n");
   send_to_char(ch, "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\r\n");
   if (!obj->sbinfo)
     return;
-  for (j = 0; j <= 9; j++) {
+  for (j = 0; j <= 9; j++) 
+  {
     titleDone = FALSE;
-    for (i=0; i < SPELLBOOK_SIZE; i++) {
-      if (obj->sbinfo[i].spellname != 0 && spell_info[obj->sbinfo[i].spellname].class_level[CLASS_WIZARD] == j) {
-        if (!titleDone) {
+    for (i=0; i < SPELLBOOK_SIZE; i++) 
+    {
+      if (obj->sbinfo[i].spellname != 0 && spell_info[obj->sbinfo[i].spellname].class_level[CLASS_WIZARD] == j) 
+      {
+        if (!titleDone) 
+        {
         send_to_char(ch, "\r\n@WSpell Level %d:@n\r\n", j);
         titleDone = TRUE;
         }
-        send_to_char(ch, "%-20s		[%2d]\r\n", 
+        send_to_char(ch, "\t[U10132/*]%-20s		[%2d]\r\n", 
 obj->sbinfo[i].spellname <= MAX_SPELLS ? spell_info[obj->sbinfo[i].spellname].name : "Error: Contact Admin"  ,
 obj->sbinfo[i].pages ? obj->sbinfo[i].pages : 0);
       }

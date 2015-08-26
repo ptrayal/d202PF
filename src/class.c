@@ -5106,6 +5106,14 @@ const int class_feats_dragon_disciple[] = {
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
+const int class_feats_sorcerer[] = {
+  FEAT_BLOODLINE_ARCANE,
+  FEAT_BLOODLINE_DRACONIC,
+  FEAT_BLOODLINE_FEY,
+  FEAT_UNDEFINED
+};
+
+
 const int no_class_feats[] = {
   FEAT_UNDEFINED
 };
@@ -5130,7 +5138,7 @@ const int *class_bonus_feats[NUM_CLASSES] = {
 /* DUELIST		*/ no_class_feats,
 /* EXPANSION 8 */ no_class_feats,
 /* MYSTIC THEURGE	*/ no_class_feats,
-/* SORCERER		*/ no_class_feats,
+/* SORCERER		*/ class_feats_sorcerer,
 /* CLASSLESS		*/ no_class_feats,
 /* EXPANSION 9 */ no_class_feats,
 /* EXPANSION 10 */ no_class_feats,
@@ -5639,7 +5647,11 @@ int num_levelup_class_feats(struct char_data *ch, int whichclass, int ranks) {
 	      if (!(ranks % 5))
 	        add_class_feats++;
 	      break;
-	    default:
+	    case CLASS_SORCERER:
+        if (ranks == 1)
+          add_class_feats++;
+        break;
+      default:
 	      break;
 	    }
 	  }

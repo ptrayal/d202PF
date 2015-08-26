@@ -168,8 +168,7 @@ void do_mem_display(struct char_data *ch)
       if ((spellmem != 0) && (spell_info[spellmem].class_level[class] == i))
       {
         count++;
-	     len += sprintf(buf+len, "@y%-22.22s@n", 
-                spell_info[spellmem].name);         
+	     len += sprintf(buf+len, "@y%-22.22s@n", spell_info[spellmem].name);         
 	     if(count%3 == 0) {
 	       strcat(buf, "\r\n");
           len += 2;

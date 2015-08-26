@@ -167,9 +167,9 @@ extern struct feat_info feat_list[];
 #define FEAT_WEAPON_TOUCH 155
 #define FEAT_READ_PORTENTS 156
 #define FEAT_COSMIC_UNDERSTANDING 157
-#define FEAT_IMPROVED_TAUNTING 158 /* Not Used */
-#define FEAT_IMPROVED_INSTIGATION 159 /* Not Used */
-#define FEAT_IMPROVED_INTIMIDATION 160 /* Not Used */
+#define FEAT_BLOODLINE_ARCANE 158 /* Not Used */
+#define FEAT_BLOODLINE_DRACONIC 159 /* Not Used */
+#define FEAT_BLOODLINE_FEY 160 /* Not Used */
 #define FEAT_FAVORED_ENEMY 161
 #define FEAT_WILD_EMPATHY 162
 #define FEAT_COMBAT_STYLE 163

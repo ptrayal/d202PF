@@ -139,6 +139,9 @@ feato(FEAT_BARDIC_MUSIC, "Bardic Music", TRUE, FALSE, FALSE, "ask staff", "ask s
 feato(FEAT_BLEEDING_ATTACK, "Bleeding Attack", TRUE, TRUE, FALSE, "Rogue Talent", "causes bleed damage on living targets who are hit by sneak attack.");
 feato(FEAT_BLIND_FIGHT, "Blind-Fight", TRUE, TRUE, FALSE, "-", "reduced penalties when fighting blind oragainst invisible opponents"); 
 feato(FEAT_BLINDSENSE, "Blindsense", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_BLOODLINE_ARCANE, "Bloodline (Arcane)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
+feato(FEAT_BLOODLINE_DRACONIC, "Bloodline (Draconic)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
+feato(FEAT_BLOODLINE_FEY, "Bloodline (Fey)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
 feato(FEAT_BONE_ARMOR, "Bone Armor", TRUE, FALSE, FALSE, "Death Master 1st", "allows creation of bone armor and 10% arcane spell failure reduction in bone armor per rank.");
 feato(FEAT_BRANDING, "Branding", TRUE, FALSE, FALSE, "Artisan level 3rd", "All items made carry the artisan's\n brand");
 feato(FEAT_BREATH_WEAPON, "Breath Weapon", TRUE, FALSE, FALSE, "ask staff", "ask staff");
@@ -756,7 +759,34 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
   case FEAT_LAST_FEAT:
     return FALSE;
 
-  case FEAT_SLIPPERY_MIND:
+  case FEAT_BLOODLINE_ARCANE:
+    if (has_feat(ch, FEAT_BLOODLINE_FEY))
+      return FALSE;
+    if (has_feat(ch, FEAT_BLOODLINE_DRACONIC))
+      return FALSE;
+    if (GET_CLASS_RANKS(ch, CLASS_SORCERER) < 2)
+      return TRUE;
+    return FALSE;
+
+  case FEAT_BLOODLINE_DRACONIC:
+    if (has_feat(ch, FEAT_BLOODLINE_FEY))
+      return FALSE;
+    if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
+      return FALSE;
+    if (GET_CLASS_RANKS(ch, CLASS_SORCERER) < 2)
+      return TRUE;
+    return FALSE;
+
+   case FEAT_BLOODLINE_FEY:
+    if (has_feat(ch, FEAT_BLOODLINE_DRACONIC))
+      return FALSE;
+    if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
+      return FALSE;
+    if (GET_CLASS_RANKS(ch, CLASS_SORCERER) < 2)
+      return TRUE;
+    return FALSE;
+
+ case FEAT_SLIPPERY_MIND:
     if (GET_CLASS_RANKS(ch, CLASS_ROGUE) >= 11)
       return TRUE;
     return FALSE;
