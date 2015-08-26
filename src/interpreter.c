@@ -1,5 +1,5 @@
 /*
-* 
+*
 ************************************************************************
 *   File: interpreter.c                                 Part of CircleMUD *
 *  Usage: parse user commands, search for specials, call ACMD functions   *
@@ -81,7 +81,7 @@ int pref_temp=0;
 
 /* external functions */
 int damage(struct char_data *ch, struct char_data *victim, int dam, int attacktype, int is_crit, int material, int bonus, int spell, int magic);
-int get_saving_throw_value(struct 
+int get_saving_throw_value(struct
 char_data *victim, int savetype);
 int get_speed(struct char_data *ch);
 void display_combat_menu(struct descriptor_data *d);
@@ -581,7 +581,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "barding"  , "barding"      , POS_DEAD    , do_not_here , 0, ADMLVL_NONE    , 0 },
   { "bid"      , "bid"          , POS_RESTING , do_bid      , 0, ADMLVL_NONE    , 0 },
   { "binditem" , "bindi"        , POS_RESTING , do_binditem , 0, ADMLVL_NONE    , 0 },
-  { "bleedingattack" , "bleed"  , POS_DEAD    , do_gen_tog  , 0, ADMLVL_NONE    , SCMD_BLEEDING_ATTACK }, 
+  { "bleedingattack" , "bleed"  , POS_DEAD    , do_gen_tog  , 0, ADMLVL_NONE    , SCMD_BLEEDING_ATTACK },
   { "buildwalk", "buildwalk"	, POS_STANDING, do_gen_tog, 1, ADMLVL_BUILDER	, SCMD_BUILDWALK },
   { "bonuslevels", "bonusl"     , POS_DEAD    , do_bonuslevels, 0, ADMLVL_NONE  , 0 },
   { "bounty"   , "bount"        , POS_RESTING , do_bounty   , 0, ADMLVL_NONE    , 0 },
@@ -798,7 +798,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "lfg"      , "lfg"		, POS_DEAD    , do_lfg      , 0, ADMLVL_NONE	, 0 },
   { "list"     , "lis"		, POS_STANDING, do_not_here , 0, ADMLVL_NONE	, 0 },
   { "listclasses","listclasses" , POS_DEAD    , do_not_here , 0, ADMLVL_NONE    , 0 },
-  { "listcomponents", "listcomp", POS_DEAD    , do_assemble , 0, ADMLVL_NONE    , SCMD_LIST_COMPONENTS }, 
+  { "listcomponents", "listcomp", POS_DEAD    , do_assemble , 0, ADMLVL_NONE    , SCMD_LIST_COMPONENTS },
   { "listguilds", "listguilds"  , POS_DEAD    , do_listguilds, 0, ADMLVL_NONE   , 0 },
   { "listraces", "listraces"    , POS_DEAD    , do_not_here , 0, ADMLVL_NONE    , 0 },
   { "links"    , "lin"		, POS_DEAD    , do_oasis    , 1, ADMLVL_BUILDER	, SCMD_OASIS_LINKS },
@@ -969,7 +969,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "skills"  , "skill"        , POS_RESTING , do_show_sorted_lists, 0, ADMLVL_NONE , 0 },
   { "skillcheck", "skillcheck"  , POS_RESTING , do_skillcheck, 0, ADMLVL_NONE   , 0 },
   { "skillset" , "skillset"	, POS_SLEEPING, do_skillset , 1, ADMLVL_GRGOD	, 0 },
-  
+
   { "sleep"    , "sl"		, POS_SLEEPING, do_sleep    , 0, ADMLVL_NONE	, 0 },
   { "slist"    , "slist"	, POS_SLEEPING, do_oasis    , 1, ADMLVL_BUILDER	, SCMD_OASIS_SLIST },
   { "slowns"   , "slowns"	, POS_DEAD    , do_gen_tog  , 1, ADMLVL_IMPL	, SCMD_SLOWNS },
@@ -1011,7 +1011,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "taste"    , "tas"		, POS_RESTING , do_eat      , 0, ADMLVL_NONE	, SCMD_TASTE },
   { "taunt"    , "tau"    , POS_FIGHTING , do_taunt    , 0, ADMLVL_NONE  , SCMD_TAUNT },
   { "teleport" , "tele"		, POS_DEAD    , do_teleport , 1, ADMLVL_GOD	, 0 },
-  { "tedit"    , "tedit"	, POS_DEAD    , do_tedit    , 1, ADMLVL_GRGOD	, 0 },  
+  { "tedit"    , "tedit"	, POS_DEAD    , do_tedit    , 1, ADMLVL_GRGOD	, 0 },
   { "test"	   , "test"	    , POS_DEAD    , do_test     , 0, ADMLVL_IMPL    , 0 },
   { "thatch"   , "thatch"	, POS_SITTING , do_assemble , 0, ADMLVL_NONE	, SCMD_THATCH },
   { "thaw"     , "thaw"		, POS_DEAD    , do_wizutil  , 1, ADMLVL_FREEZE	, SCMD_THAW },
@@ -1031,7 +1031,7 @@ cpp_extern const struct command_info cmd_info[] = {
 
   { "unlock"   , "unlock"	, POS_SITTING , do_gen_door , 0, ADMLVL_NONE	, SCMD_UNLOCK },
   { "ungroup"  , "ungroup"	, POS_DEAD    , do_ungroup  , 0, ADMLVL_NONE	, 0 },
-  { "undeathtouch", "undeathtouch", POS_FIGHTING, do_undeathtouch, 0, ADMLVL_NONE, 0 }, 
+  { "undeathtouch", "undeathtouch", POS_FIGHTING, do_undeathtouch, 0, ADMLVL_NONE, 0 },
   { "unban"    , "unban"	, POS_DEAD    , do_unban    , 1, ADMLVL_GRGOD	, 0 },
   { "unaffect" , "unaffect"	, POS_DEAD    , do_wizutil  , 1, ADMLVL_GOD	, SCMD_UNAFFECT },
   { "uptime"   , "uptime"	, POS_DEAD    , do_date     , 1, ADMLVL_IMMORT	, SCMD_UPTIME },
@@ -1169,7 +1169,7 @@ void command_interpreter(struct char_data *ch, char *argument)
     line = any_one_arg(argument, arg);
 
   /* Since all command triggers check for valid_dg_target before acting, the levelcheck
-   * here has been removed. 
+   * here has been removed.
    */
 
   /* otherwise, find the command */
@@ -1198,7 +1198,7 @@ void command_interpreter(struct char_data *ch, char *argument)
   else if (!IS_NPC(ch) && PLR_FLAGGED(ch, PLR_FROZEN) && GET_LEVEL(ch) < ADMLVL_IMPL)
     send_to_char(ch, "You try, but the mind-numbing cold prevents you...\r\n");
   else if (complete_cmd_info[cmd].command_pointer == NULL)
-    send_to_char(ch, "Sorry, that command hasn't been implemented yet.\r\n"); 
+    send_to_char(ch, "Sorry, that command hasn't been implemented yet.\r\n");
 
   else if (IS_NPC(ch) && complete_cmd_info[cmd].minimum_admlevel >= ADMLVL_IMMORT)
     send_to_char(ch, "You can't use immortal commands while switched.\r\n");
@@ -1235,7 +1235,7 @@ void command_interpreter(struct char_data *ch, char *argument)
       }
       break;
     }
-      
+
     switch (GET_POS(ch)) {
     case POS_DEAD:
       send_to_char(ch, "Lie still; you are DEAD!!! :-(\r\n");
@@ -1260,7 +1260,7 @@ void command_interpreter(struct char_data *ch, char *argument)
       for (k = world[IN_ROOM(ch)].people; k; k = temp) {
         temp = k->next_in_room;
         if (FIGHTING(k) == ch) {
-          found = TRUE;          
+          found = TRUE;
         }
       }
       if (!found) {
@@ -1272,7 +1272,7 @@ void command_interpreter(struct char_data *ch, char *argument)
           for (k = world[IN_ROOM(f->follower)].people; k; k = temp) {
             temp = k->next_in_room;
             if (FIGHTING(k) == f->follower) {
-              found = TRUE;          
+              found = TRUE;
             }
           }
           if (!found) {
@@ -1777,7 +1777,7 @@ void display_race_confirm(struct descriptor_data *d)
 
 void display_races(struct descriptor_data *d)
 {
-write_to_output(d, 
+write_to_output(d,
 "Please select your race from the list below.  You may be brought to\r\n"
 "an extended race menu filled with subraces depending on the race you\r\n"
 "choose.  Once you choose a race you will be presented with a description\r\n"
@@ -1797,7 +1797,7 @@ write_to_output(d,
 
 void display_human_races(struct descriptor_data *d)
 {
-write_to_output(d, 
+write_to_output(d,
 "Humans are the most plentiful of all races on the face of Ansalon.  Their short lifespans\r\n"
 "are overcome with a zeal for life and ambition unequalled by perhaps any other race.\r\n"
 "They come in all shapes and sizes, skin tones, hair and eye colors.  They live to be\r\n"
@@ -1822,7 +1822,7 @@ write_to_output(d,
 
 void display_elf_races(struct descriptor_data *d)
 {
-write_to_output(d, 
+write_to_output(d,
 "Elves are one of the first races to set foot on Krynn.  Championed by the Gods of Light,\r\n"
 "they have ever been guardians of what is right and true.  However, their isolationist\r\n"
 "ways often prevent them from making a great impact on the worlds outside their own.\r\n"
@@ -1839,7 +1839,7 @@ write_to_output(d,
 
 void display_dwarf_races(struct descriptor_data *d)
 {
-write_to_output(d, 
+write_to_output(d,
 "Dwarves are the chosen race of Reorx, God of Craftsmanship and Creation.  They are a\r\n"
 "short, bearded people with gruff and stubborn mannerisms.  Even the females are known\r\n"
 "to sport beards and indeed the beard is a dwarf's most prized possession.  Dwarves\r\n"
@@ -1916,7 +1916,7 @@ void display_classes_help(struct descriptor_data *d)
  * (now works symmetrically -- JE 7/25/94)
  *
  * that was dumb.  it shouldn't be symmetrical.  JE 5/1/95
- * 
+ *
  * returns 1 if arg1 is an abbreviation of arg2
  */
 int is_abbrev(const char *arg1, const char *arg2)
@@ -2128,14 +2128,14 @@ int perform_dupe_check(struct descriptor_data *d)
   /* no target for switching into was found - allow login to continue */
   /* stupid-case rule for setting hostname on char:
 	any time you set the char's pref .. */
-  
+
 
   if (!target)
     return 0;
 
 /*
   if (!target) {
-    GET_HOST(d->character) = strdup(d->host); 
+    GET_HOST(d->character) = strdup(d->host);
     GET_PREF(d->character)=  get_new_pref();
     return 0;
   } else {
@@ -2251,7 +2251,7 @@ int enter_player_game (struct descriptor_data *d)
     GET_SKILL_BASE(ch, 828) = 0;
   }
 
-  if (ch->player_specials->mount > 0 && ch->player_specials->mount_num > 0 && 
+  if (ch->player_specials->mount > 0 && ch->player_specials->mount_num > 0 &&
       (get_skill_value(ch, SKILL_RIDE) < pet_list[ch->player_specials->mount_num].level ||
        get_skill_value(ch, SKILL_HANDLE_ANIMAL) < pet_list[ch->player_specials->mount_num].level)) {
     ch->player_specials->mount = 0;
@@ -2282,7 +2282,7 @@ int enter_player_game (struct descriptor_data *d)
      sprintf(query, "INSERT INTO player_logins (player_name, last_login, account_name) VALUES('%s',NOW(), '%s')", GET_NAME(ch), ch->desc ? (ch->desc->account ? ch->desc->account->name : "") : "");
     if (mysql_query(conn, query)) {
        log("Cannot set last_login for %s in player_logins", GET_NAME(ch));
-    }  
+    }
   }
 
   MYSQL_RES *res = NULL;
@@ -2307,13 +2307,13 @@ int enter_player_game (struct descriptor_data *d)
         }
       }
     }
-    mysql_free_result(res);    
+    mysql_free_result(res);
 
     sprintf(query, "UPDATE player_forum_data SET forum_exp=0 WHERE account='%s'", UNCAP(account_name));
     if (mysql_query(conn, query)) {
        log("Cannot set forum_exp to 0 for %s from player_extra_data table", account_name);
     }
-   
+
     sprintf(query, "DELETE FROM player_data WHERE name = '%s'", GET_NAME(i));
     if (mysql_query(conn, query)) {
        log("Cannot set delete %s from player_data table", GET_NAME(i));
@@ -2336,13 +2336,13 @@ int enter_player_game (struct descriptor_data *d)
           GET_EXTRA_ACC_EXP(i) = atoi(row[0]);
         }
       }
-    }      
+    }
     mysql_free_result(res);
 
   }
 
       convert_coins(d->character);
-    
+
       reset_char(d->character);
       read_aliases(d->character);
 
@@ -2359,12 +2359,12 @@ int enter_player_game (struct descriptor_data *d)
             GET_CLAN(d->character) = cptr->number;
         }
       }
-                                                                                                         
+
       /* can't do an 'else' here, cuz they might have a clan now. */
       if (GET_CLAN(d->character) != PFDEF_CLAN) {
         /* Now check to see if person's clan still exists */
         for (cptr = clan_info; cptr && cptr->number != GET_CLAN(d->character); cptr = cptr->next);
-                                                                                                         
+
         if (cptr == NULL) {  /* Clan no longer exists */
           GET_CLAN(d->character) = PFDEF_CLAN;
           GET_CLAN_RANK(d->character) = PFDEF_CLANRANK;
@@ -2421,7 +2421,7 @@ int enter_player_game (struct descriptor_data *d)
     //combine_accounts();
 
 
-  if (CONFIG_DFLT_PORT == 9080) 
+  if (CONFIG_DFLT_PORT == 9080)
   {
 
     char query[200]={'\0'};
@@ -2475,7 +2475,7 @@ int enter_player_game (struct descriptor_data *d)
 
   note_display_unread(d->character);
 
-MXPSendTag( d, "<VERSION>" ); 
+MXPSendTag( d, "<VERSION>" );
 
   return load_result;
 }
@@ -2499,7 +2499,7 @@ void nanny(struct descriptor_data *d, char *arg)
   MYSQL_ROW row = NULL;
 
   /* OasisOLC states */
-  struct 
+  struct
   {
     int state;
     void (*func)(struct descriptor_data *, char*);
@@ -2680,9 +2680,9 @@ void nanny(struct descriptor_data *d, char *arg)
           else
             write_to_output(d, "%s", motd);
 
-          if (GET_INVIS_LEV(d->character)) 
-            mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(d->character)), true, 
-            "%s [%s] has connected. (invis %d)", GET_NAME(d->character), d->host, 
+          if (GET_INVIS_LEV(d->character))
+            mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(d->character)), true,
+            "%s [%s] has connected. (invis %d)", GET_NAME(d->character), d->host,
             GET_INVIS_LEV(d->character));
           else {
             if (!PRF_FLAGGED(d->character, PRF_ANONYMOUS))
@@ -2930,7 +2930,7 @@ void nanny(struct descriptor_data *d, char *arg)
     display_races(d);
     STATE(d) = CON_QRACE;
     break;
-      
+
   case CON_ALIGNMENT_HELP:
     if (*arg == 't' || *arg == 'T') {
       display_alignments(d);
@@ -2956,7 +2956,7 @@ void nanny(struct descriptor_data *d, char *arg)
       case 'y':
       case 'Y':
         display_classes(d);
-        STATE(d) = CON_QCLASS;   
+        STATE(d) = CON_QCLASS;
         return;
 
       case 'n':
@@ -2995,7 +2995,7 @@ void nanny(struct descriptor_data *d, char *arg)
     }
     STATE(d) = CON_RACE_HELP;
     break;
-  
+
   case CON_CLASS_HELP:
     display_classes(d);
     STATE(d) = CON_QCLASS;
@@ -3060,7 +3060,7 @@ void nanny(struct descriptor_data *d, char *arg)
         write_to_output(d, "\r\n@W%s@n\r\n%s\r\n", this_help->keywords, this_help->entry);
         write_to_output(d, "\r\n*** PRESS RETURN: ");
         STATE(d) = CON_CLASS_HELP;
-        return;                    
+        return;
       }
       else {
         send_to_char(d->character, "\r\nThat is not a valid class to seek help on.\r\n");
@@ -3074,10 +3074,10 @@ void nanny(struct descriptor_data *d, char *arg)
         return;
       }
     }
-			
+
     write_to_output(d, "\r\n*** PRESS RETURN: ");
-    STATE(d) = CON_QROLLSTATS;	
- 	
+    STATE(d) = CON_QROLLSTATS;
+
     break;
 
   case CON_SDESC:
@@ -3091,14 +3091,14 @@ void nanny(struct descriptor_data *d, char *arg)
     GET_PC_SDESC(d->character) = strdup(arg);
 
     write_to_output(d, "Your short desc is: %s\r\n", GET_SDESC(d->character));
-		
+
     SEND_TO_Q("\r\nPlease enter your 'alias list' -- words people can use\r\n", d);
     SEND_TO_Q("to identify you by.  This should include all attributes in\r\n", d);
     SEND_TO_Q("your short description.  For example, if your short description was:\r\n", d);
     SEND_TO_Q("   a fat, balding man with shifty eyes.\r\n", d);
     SEND_TO_Q("Your alias list would be: fat balding shifty\r\n--> ", d);
     STATE(d) = CON_ALIAS;
-    
+
     break;
 
   case CON_ALIAS:
@@ -3115,22 +3115,22 @@ void nanny(struct descriptor_data *d, char *arg)
       }
       aliasSize += 3 + strlen(pc_race_types[GET_RACE(d->character)]);
       aliasSize += strlen(arg);
- 
+
       if (aliasSize > (MAX_NAME_LENGTH * 4)) {
         SEND_TO_Q("Your alias list was too long, please re-enter:\r\n", d);
-        break; 
+        break;
       }
-    }		
-		
+    }
+
     d->character->player_specials->keywords = strdup(arg);
-		
+
     write_to_output(d, "\r\nYou finish setting your custom descs, press return to re-enter the game. ");
-	
+
     STATE(d) = CON_PLAYING;
     break;
 
   case CON_QROLLSTATS:
-    if (CONFIG_REROLL_PLAYER_CREATION && 
+    if (CONFIG_REROLL_PLAYER_CREATION &&
        (CONFIG_CREATION_METHOD == CEDIT_CREATION_METHOD_1)) {
       switch (*arg) {
       case 'y':
@@ -3143,15 +3143,15 @@ void nanny(struct descriptor_data *d, char *arg)
         write_to_output(d, "\r\n@rStr@w: [@m%2d@w] @rDex@w: [@m%2d@w]\r\n"
                               "@rCon@w: [@m%2d@w] @rInt@w: [@m%2d@w]\r\n"
                               "@rWis@w: [@m%2d@w] @rCha@w: [@m%2d@w]@n",
-           GET_STR(d->character), GET_DEX(d->character), 
-           GET_CON(d->character), GET_INT(d->character), 
+           GET_STR(d->character), GET_DEX(d->character),
+           GET_CON(d->character), GET_INT(d->character),
            GET_WIS(d->character), GET_CHA(d->character));
         write_to_output(d, "\r\n\r\nKeep these stats? (y/N)");
         return;
       }
     } else if (CONFIG_CREATION_METHOD == CEDIT_CREATION_METHOD_2 ||
         CONFIG_CREATION_METHOD == CEDIT_CREATION_METHOD_3) {
-        if (CONFIG_REROLL_PLAYER_CREATION && 
+        if (CONFIG_REROLL_PLAYER_CREATION &&
            (CONFIG_CREATION_METHOD == CEDIT_CREATION_METHOD_2)) {
           switch (*arg) {
             case 'y':
@@ -3198,18 +3198,18 @@ void nanny(struct descriptor_data *d, char *arg)
     save_player_index();
     write_to_output(d, "%s\r\n*** PRESS RETURN: ", motd);
     STATE(d) = CON_RMOTD;
-    total = GET_STR(d->character) / 2 + GET_CON(d->character) / 2 + 
-            GET_WIS(d->character) / 2 + GET_INT(d->character) / 2 + 
+    total = GET_STR(d->character) / 2 + GET_CON(d->character) / 2 +
+            GET_WIS(d->character) / 2 + GET_INT(d->character) / 2 +
             GET_DEX(d->character) / 2 + GET_CHA(d->character) / 2;
     total -= 30;
     if (!PRF_FLAGGED(d->character, PRF_ANONYMOUS))
-      mudlog(CMP, ADMLVL_NONE, true, "New player: %s [%s %s]", 
-             GET_NAME(d->character), pc_race_types[GET_RACE(d->character)], 
+      mudlog(CMP, ADMLVL_NONE, true, "New player: %s [%s %s]",
+             GET_NAME(d->character), pc_race_types[GET_RACE(d->character)],
              (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[GET_CLASS(d->character)]);
-    mudlog(CMP, ADMLVL_IMMORT, true, "New player: %s [%s %s]", 
-             GET_NAME(d->character), pc_race_types[GET_RACE(d->character)], 
+    mudlog(CMP, ADMLVL_IMMORT, true, "New player: %s [%s %s]",
+             GET_NAME(d->character), pc_race_types[GET_RACE(d->character)],
              (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[GET_CLASS(d->character)]);
-  
+
     break;
 
   /* --relistan 2/22/99 for configurable stats */
@@ -3246,8 +3246,8 @@ void nanny(struct descriptor_data *d, char *arg)
 
       STATE(d) = CON_GEN_DESCS_INTRO;
 
-      break;	
-    } 
+      break;
+    }
     break;
 
   case CON_GEN_DESCS_INTRO:
@@ -3273,11 +3273,11 @@ void nanny(struct descriptor_data *d, char *arg)
 
       GET_PC_DESCRIPTOR_1(d->character) = atoi(arg);
       short_desc_adjectives_menu(d->character, GET_PC_DESCRIPTOR_1(d->character));
-      
+
       STATE(d) = CON_GEN_DESCS_ADJECTIVES_1;
 
       return;
-	
+
     case CON_GEN_DESCS_ADJECTIVES_1:
 
       count = count_adjective_types(GET_PC_DESCRIPTOR_1(d->character));
@@ -3305,7 +3305,7 @@ void nanny(struct descriptor_data *d, char *arg)
       GET_PC_DESCRIPTOR_2(d->character) = atoi(arg);
 
       short_desc_adjectives_menu(d->character, GET_PC_DESCRIPTOR_2(d->character));
-      
+
       STATE(d) = CON_GEN_DESCS_ADJECTIVES_2;
 
       return;
@@ -3341,7 +3341,7 @@ void nanny(struct descriptor_data *d, char *arg)
       if (GET_PC_DESCRIPTOR_2(d->character) == 0)
         SEND_TO_Q("4) I'm not happy with it because I want to add a second descriptor.\r\n", d);
       SEND_TO_Q("\r\n", d);
-      SEND_TO_Q("What would you like to do? (1-4): ", d);      
+      SEND_TO_Q("What would you like to do? (1-4): ", d);
 
       STATE(d) = CON_GEN_DESCS_MENU_PARSE;
 
@@ -3400,8 +3400,8 @@ void nanny(struct descriptor_data *d, char *arg)
 
       }
 
-      return;		
-	
+      return;
+
     case CON_AFTER_DESC:
     if (d->olc) {
       free(d->olc);
@@ -3418,7 +3418,7 @@ void nanny(struct descriptor_data *d, char *arg)
     mudlog(CMP, ADMLVL_IMMORT, true, "New player: %s", GET_NAME(d->character));
     STATE(d) = CON_RMOTD;
     return;
-	
+
   case CON_RMOTD:		/* read CR after printing motd   */
     add_llog_entry(d->character,LAST_CONNECT);
 #ifdef HAVE_ZLIB_H
@@ -3451,7 +3451,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	  break;
 
   case CON_LEVELUP_CLASSES:
-          
+
 	  class = (ubyte) atoi(arg);
 
 	  half_chop(arg, arg1, argument);
@@ -3508,11 +3508,12 @@ void nanny(struct descriptor_data *d, char *arg)
 	  write_to_output(d, "\r\nYou have chosen the %s class.\r\n\r\n", pc_class_types_core[class - 1]);
 	  if (d->character->levelup != NULL)
 		init_levelup(d->character);
-          if (d->character->levelup->class == CLASS_FAVORED_SOUL || d->character->levelup->class == CLASS_SORCERER) {
+          if (d->character->levelup->class == CLASS_FAVORED_SOUL || d->character->levelup->class == CLASS_SORCERER)
+          {
             STATE(d) = CON_LEVELUP_SPELLS;
-            write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+            write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
           }
-          else 
+          else
           {
             STATE(d) = CON_LEVELUP_SKILLS;
             display_levelup_skills(d->character, TRUE);
@@ -3521,8 +3522,9 @@ void nanny(struct descriptor_data *d, char *arg)
 
   case CON_LEVELUP_SPELLS:
 
-    if (!*arg) {
-      write_to_output(d, "Please type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");
+    if (!*arg)
+    {
+      write_to_output(d, "Please type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
       return;
     }
 
@@ -3542,7 +3544,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
       if (i < 0 || i > TOP_SPELL) {
         write_to_output(d, "That is not a valid spell.\r\n");
-        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");
       }
       else {
         for (j = 0; j < MAX_NUM_KNOWN_SPELLS; j++) {
@@ -3551,7 +3553,7 @@ void nanny(struct descriptor_data *d, char *arg)
             d->character->levelup->spells_known[j] = 0;
             d->character->levelup->spell_slots[spell_info[i].class_level[d->character->levelup->class]]++;
             write_to_output(d, "Spell '%s' removed from list of spells known.\r\n", spell_info[i].name);
-            write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+            write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
           }
         }
         if (!found) {
@@ -3560,17 +3562,17 @@ void nanny(struct descriptor_data *d, char *arg)
               found = TRUE;
               if (d->character->levelup->spell_slots[spell_info[i].class_level[d->character->levelup->class]] > 0) {
                 write_to_output(d, "Spell '%s' added to list of spells known.\r\n", spell_info[i].name);
-                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
                 d->character->levelup->spells_known[j] = i;
                 d->character->levelup->spell_slots[spell_info[i].class_level[d->character->levelup->class]]--;
                 return;
               }
               else {
                 send_to_char(d->character, "You can't learn any new spells of that level.\r\n");
-                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
                 break;
               }
-            }    
+            }
           }
         }
       }
@@ -3582,7 +3584,7 @@ void nanny(struct descriptor_data *d, char *arg)
         write_to_output(d, "\r\n\r\n");
         // character has a filled spells_known list >= MAX_NUM_KNOWN_SPELLS
         send_to_char(d->character, "You can't learn any more spells.  Please speak to an administrator.\r\n");
-        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+        write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
       }
     }
     else if (atoi(arg) >= 0 && atoi(arg) <= 9) {
@@ -3592,7 +3594,7 @@ void nanny(struct descriptor_data *d, char *arg)
       GET_CLASS_NONEPIC(d->character, d->character->levelup->class)++;
       do_spells(d->character, buf, 0, 0);
       GET_CLASS_NONEPIC(d->character, d->character->levelup->class)--;
-      write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+      write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
     }
     else {
       write_to_output(d, "That is not a valid spell level.\r\n");
@@ -3604,21 +3606,21 @@ void nanny(struct descriptor_data *d, char *arg)
 	  i = atoi(arg);
 
 	  half_chop(arg, arg1, argument);
-          if (is_abbrev(arg1, "help")) 
+          if (is_abbrev(arg1, "help"))
           {
             do_help(ch, argument, 0, 0);
             return;
           }
-          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) 
+          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display"))
           {
             display_levelup_feats(d->character);
             return;
           }
 
-	  if (i < 0) 
+	  if (i < 0)
     {
 
-		  if (d->character->levelup->feat_points > 0 || d->character->levelup->epic_feat_points > 0 || d->character->levelup->num_class_feats > 0 || d->character->levelup->num_epic_class_feats > 0) 
+		  if (d->character->levelup->feat_points > 0 || d->character->levelup->epic_feat_points > 0 || d->character->levelup->num_class_feats > 0 || d->character->levelup->num_epic_class_feats > 0)
       {
  			  write_to_output(d, "You still have feats left to spend.  If you do not use them you will lose them.  Continue and lose them? ");
 			  STATE(d) = CON_LEVELUP_FEATS_CONFIRM;
@@ -3631,18 +3633,18 @@ void nanny(struct descriptor_data *d, char *arg)
 
 	  }
 
-	  if (feat_is_available(d->character, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn) 
+	  if (feat_is_available(d->character, i, 0, NULL) && feat_list[i].in_game && feat_list[i].can_learn)
     {
   		write_to_output(d, "Feat Description: %s\r\n\r\nDo you wish to take this feat?\r\n", feat_list[i].description);
   		d->character->levelup->tempFeat = i;
   		STATE(d) = CON_LEVELUP_FEATS_PROCESS;
   		return;
   	}
-	  else 
+	  else
     {
 		  display_levelup_feats(d->character);
 		  write_to_output(d, "Either the feat does not exist, you do not qualify for that feat, or you already have it.\r\nPlease select again.\r\n");
-		  return;		
+		  return;
 	  }
 	break;
 
@@ -3656,9 +3658,9 @@ void nanny(struct descriptor_data *d, char *arg)
 
 	i = d->character->levelup->tempFeat;
 
-	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg)) 
+	if (is_abbrev("yes", arg) || is_abbrev("YES", arg) || is_abbrev("Yes", arg))
   {
-		  switch (i) 
+		  switch (i)
       {
 
 		  case FEAT_IMPROVED_CRITICAL:
@@ -3674,7 +3676,7 @@ void nanny(struct descriptor_data *d, char *arg)
 		  case FEAT_WEAPON_MASTERY:
 		  case FEAT_WEAPON_FLURRY:
 		  case FEAT_WEAPON_SUPREMACY:
-		
+
 			  display_levelup_weapons(d->character);
 			  d->character->levelup->tempFeat = i;
 			  STATE(d) = CON_LEVELUP_FEATS_WEAPONS;
@@ -3688,7 +3690,7 @@ void nanny(struct descriptor_data *d, char *arg)
 			  return;
 
 		  default:
-			  if (handle_levelup_feat_points(d->character, i, 0)) 
+			  if (handle_levelup_feat_points(d->character, i, 0))
         {
 				  display_levelup_feats(d->character);
 				  write_to_output(d, "\r\nYou have learned the %s feat!\r\nPress enter to continue.\r\n", feat_list[i].name);
@@ -3696,14 +3698,14 @@ void nanny(struct descriptor_data *d, char *arg)
 				  return;
 
 			  }
-			  else 
+			  else
         {
 				  return;
 			  }
 			  break;
 		  }
 	  }
-	  else 
+	  else
     {
   		display_levelup_feats(d->character);
   		write_to_output(d, "Please select again: ");
@@ -3718,37 +3720,37 @@ void nanny(struct descriptor_data *d, char *arg)
 	  i = atoi(arg);
 
 	  half_chop(arg, arg1, argument);
-          if (is_abbrev(arg1, "help")) 
+          if (is_abbrev(arg1, "help"))
           {
             do_help(ch, argument, 0, 0);
             return;
-          } 
-          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) 
+          }
+          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display"))
           {
             display_levelup_weapons(d->character);
             return;
           }
 
-	  if (i < 0) 
+	  if (i < 0)
     {
   		display_levelup_feats(d->character);
   		STATE(d) = CON_LEVELUP_FEATS;
   		return;
 	  }
 
-	  if (i < MIN_WEAPON_DAMAGE_TYPES || i > MAX_WEAPON_DAMAGE_TYPES) 
+	  if (i < MIN_WEAPON_DAMAGE_TYPES || i > MAX_WEAPON_DAMAGE_TYPES)
     {
 		  write_to_output(d, "That is not a valid weapon damage type.\r\nPlease select the number beside the weapon damage type you want.\r\n");
 		  return;
 	  }
 
-	  if (has_combat_feat(d->character, feat_to_subfeat(d->character->levelup->tempFeat), i) || d->character->levelup->feat_weapons[d->character->levelup->tempFeat] == i) 
+	  if (has_combat_feat(d->character, feat_to_subfeat(d->character->levelup->tempFeat), i) || d->character->levelup->feat_weapons[d->character->levelup->tempFeat] == i)
     {
 		  write_to_output(d, "\r\nYou already have that feat.\r\n");
  		 return;
   	}
 
-	  if (handle_levelup_feat_points(d->character, d->character->levelup->tempFeat, 0)) 
+	  if (handle_levelup_feat_points(d->character, d->character->levelup->tempFeat, 0))
     {
 		  display_levelup_feats(d->character);
 		  write_to_output(d, "\r\nYou have learned the %s: %s feat!\r\nPress enter to continue.\r\n", feat_list[d->character->levelup->tempFeat].name, weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES]);
@@ -3758,7 +3760,7 @@ void nanny(struct descriptor_data *d, char *arg)
 		  STATE(d) = CON_LEVELUP_FEATS;
 		  return;
 	  }
-	  else 
+	  else
     {
 		  write_to_output(d, "Make another choice or type -1 to exit this menu and continue.\r\n");
 		  return;
@@ -3855,7 +3857,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	}
 	else {
 		write_to_output(d, "Returning to spells menu.\r\n\r\n");
-                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name to add to/remove from your repetoire, or -1 to continue\r\n");      
+                write_to_output(d, "\r\nPlease type in either a spell level number to list spells of, a spell name\r\n to add to/remove from your repetoire, or -1 to continue\r\n");
 		STATE(d) = CON_LEVELUP_SPELLS;
 		return;
 	}
@@ -4059,7 +4061,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	  d->character->levelup->skills[i]++;
 	  d->character->levelup->practices--;;
  	  display_levelup_skills(d->character, TRUE);
-	  
+
 	  break;
 
 
@@ -4073,10 +4075,10 @@ void nanny(struct descriptor_data *d, char *arg)
 	fight_action(d->character->next_fighting, d->character->top_of_initiative);
 	break;
       case '1':
-        if (GET_EQ(d->character, WEAR_WIELD) && 
-            ((FIGHTING(d->character)->combat_pos - d->character->combat_pos) <= 
+        if (GET_EQ(d->character, WEAR_WIELD) &&
+            ((FIGHTING(d->character)->combat_pos - d->character->combat_pos) <=
              (weapon_list[GET_OBJ_VAL(GET_EQ(d->character, WEAR_WIELD), 0)].range * 3))) {
-          if (d->character->standard_action_spent == 0) {  
+          if (d->character->standard_action_spent == 0) {
             d->character->standard_action_spent = 1;
 	    hit(d->character, FIGHTING(d->character), TYPE_UNDEFINED);
           } else {
@@ -4095,7 +4097,7 @@ void nanny(struct descriptor_data *d, char *arg)
           if (AFF_FLAGGED(d->character, AFF_NEXTNOACTION)) {
             if (d->character->move_action_spent == 0) {
               write_to_output(d, "You take a 5-foot step away from your opponent.\r\n");
-              d->character->combat_pos -= 5;  
+              d->character->combat_pos -= 5;
               d->character->move_action_spent = 1;
             } else {
               write_to_output(d, "You cannot take a 5-foot step as you already moved this turn.\r\n");
@@ -4133,7 +4135,7 @@ void nanny(struct descriptor_data *d, char *arg)
           if (AFF_FLAGGED(d->character, AFF_NEXTNOACTION)) {
             if (d->character->move_action_spent == 0) {
               write_to_output(d, "You take a 5-foot step away from your opponent.\r\n");
-              d->character->combat_pos -= 5;  
+              d->character->combat_pos -= 5;
               d->character->move_action_spent = 1;
             } else {
               write_to_output(d, "You cannot take a 5-foot step as you already moved this turn.\r\n");
@@ -4168,8 +4170,8 @@ void nanny(struct descriptor_data *d, char *arg)
 
       default:
         write_to_output(d, "That is not a valid selection.  Please choose again.\r\n");
-        break;	
-	
+        break;
+
     }
     break;
 
@@ -4184,7 +4186,7 @@ void nanny(struct descriptor_data *d, char *arg)
     if (!*arg) {
         send_to_char(d->character, "Please enter a valid email for your account.  You only have to do this once.\r\nEmail Address: ");
         STATE(d) = CON_EMAIL;
-        return;      
+        return;
     }
     if (!strstr(arg, "@") || !strstr(arg, ".")) {
         send_to_char(d->character, "Please enter a valid email for your account.  You only have to do this once.\r\nEmail Address: ");
@@ -4257,7 +4259,7 @@ void nanny(struct descriptor_data *d, char *arg)
       greet_mtrigger(d->character, -1);
       greet_memory_mtrigger(d->character);
 
-      STATE(d) = CON_PLAYING;      
+      STATE(d) = CON_PLAYING;
 
       if (GET_LEVEL(d->character) == 0) {
 //	do_start(d->character);
@@ -4281,7 +4283,7 @@ void nanny(struct descriptor_data *d, char *arg)
           break;
         }
       }
-        
+
       break;
 
     case '2':
@@ -4308,7 +4310,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
       d->str = &d->character->player_specials->description;
       d->max_str = EXDSCR_LENGTH;
-      STATE(d) = CON_LDESC;	
+      STATE(d) = CON_LDESC;
       break;
 
       if (d->character->description) {
@@ -4444,7 +4446,7 @@ void nanny(struct descriptor_data *d, char *arg)
  * Syntax is:
  *   disable - shows disabled commands
  *   disable <command> - toggles disable status of command
- * 
+ *
  */
 
 ACMD(do_disable)
@@ -4477,7 +4479,7 @@ ACMD(do_disable)
   for (length = strlen(argument), p = disabled_first; p ;  p = p->next)
     if (!strncmp(argument, p->command->command, length))
     break;
-        
+
   if (p) { /* this command is disabled */
 
     /* Was it disabled by a higher level imm? */
@@ -4502,7 +4504,7 @@ ACMD(do_disable)
             GET_ADMLEVEL(ch) >= cmd_info[i].minimum_admlevel)
           break;
 
-    /*  Found?     */            
+    /*  Found?     */
     if (*cmd_info[i].command == '\n') {
       send_to_char(ch, "You don't know of any such command.\r\n");
       return;
@@ -4517,8 +4519,8 @@ ACMD(do_disable)
     CREATE(p, struct disabled_data, 1);
     p->command = &cmd_info[i];
     p->disabled_by = strdup(GET_NAME(ch)); /* save name of disabler  */
-    p->level = GET_LEVEL(ch);           /* save level of disabler */    
-    p->subcmd = cmd_info[i].subcmd;       /* the subcommand if any  */    
+    p->level = GET_LEVEL(ch);           /* save level of disabler */
+    p->subcmd = cmd_info[i].subcmd;       /* the subcommand if any  */
     p->next = disabled_first;
     disabled_first = p; /* add before the current first element */
     send_to_char(ch, "Command '%s' disabled.\r\n", p->command->command);
@@ -4528,7 +4530,7 @@ ACMD(do_disable)
   }
 }
 
-/* check if a command is disabled */   
+/* check if a command is disabled */
 int check_disabled(const struct command_info *command)
 {
   DISABLED_DATA *p;
@@ -4555,7 +4557,7 @@ void load_disabled()
   if ((fp = fopen(DISABLED_FILE, "r")) == NULL)
     return; /* No disabled file.. no disabled commands. */
 
-  while (get_line(fp, line)) { 
+  while (get_line(fp, line)) {
     if (!str_cmp(line, END_MARKER))
       break; /* break loop if we encounter the END_MARKER */
     CREATE(p, struct disabled_data, 1);
@@ -4599,7 +4601,7 @@ void save_disabled()
   fprintf(fp, "%s\n", END_MARKER);
   fclose(fp);
 }
-  
+
 /* free all disabled commands from memory */
 void free_disabled()
 {
@@ -4640,7 +4642,7 @@ int parse_sdesc(char *arg, struct char_data *ch)
   if (strlen(arg) > 60 || strlen(arg) < 15)
     return 0;
 
-  return 1;  
+  return 1;
 
 }
 
@@ -4664,12 +4666,12 @@ char *one_arg_dots(char *argument, char *first_arg)
   return argument;
 }
 
-void display_levelup_classes(struct descriptor_data *d) 
+void display_levelup_classes(struct descriptor_data *d)
 {
 	int i = 0;
 	int count = 0;
 
-	for (i = 0; i < TOP_PC_CLASS; i++) 
+	for (i = 0; i < TOP_PC_CLASS; i++)
   {
 		if (i == CLASS_NPC_EXPERT || i == CLASS_CLASSLESS || i == CLASS_ARTISAN || class_in_game_dl_aol[i] == FALSE)
 			continue;
@@ -4685,7 +4687,7 @@ void display_levelup_classes(struct descriptor_data *d)
 	write_to_output(d, "Please select a class from the list (@yyellow@n signifies you qualify for the class requirements, @rred@n signifies you do not)\r\nYour selection: ");
 }
 
-void init_levelup(struct char_data *ch) 
+void init_levelup(struct char_data *ch)
 {
   struct level_data *l = ch->levelup;
   int i = 0;
@@ -4695,12 +4697,12 @@ void init_levelup(struct char_data *ch)
   l->level = GET_CLASS_LEVEL(ch) + 1;
   if ((l->level + 1) >= epiclevel)
     isepic = TRUE;
-  for (i = 0; i <= 9; i++) 
+  for (i = 0; i <= 9; i++)
   {
-    l->spell_slots[i] = MAX(0, sorcerer_spells_known[MIN(21, GET_CLASS_RANKS(ch, l->class) + 1)][i]); 
+    l->spell_slots[i] = MAX(0, sorcerer_spells_known[MIN(21, GET_CLASS_RANKS(ch, l->class) + 1)][i]);
   }
 
-  for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++) 
+  for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++)
   {
     l->spells_known[i] = ch->player_specials->spells_known[i];
     if (l->spells_known[i] >= 0 && l->spells_known[i] <= TOP_SPELL && spell_info[l->spells_known[i]].class_level[l->class] <= 9)
@@ -4710,12 +4712,12 @@ void init_levelup(struct char_data *ch)
 
   l->feat_points = GET_FEAT_POINTS(ch) + (isepic ? 0 : (l->level % 2 == 1 ? 1 : 0));
   l->practices = 0;
-  if (l->level == 1) 
+  if (l->level == 1)
   {
     l->feat_points++;
   }
   l->epic_feat_points = GET_EPIC_FEAT_POINTS(ch) + (isepic ? (l->level % 3 == 0 ? 1 : 0) : 0);
-  for (i = 0; i < NUM_FEATS_DEFINED; i++) 
+  for (i = 0; i < NUM_FEATS_DEFINED; i++)
   {
     l->feats[i] = 0;
     l->feat_skills[i] = 0;
@@ -4723,7 +4725,7 @@ void init_levelup(struct char_data *ch)
   }
   l->num_trains = GET_TRAINS(ch) + (l->level % 4 == 0 ? 1 : 0);
   l->practices += GET_PRACTICES(ch, l->class) + num_levelup_practices(ch, l->class);
-  for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
+  for (i = 0; i < SKILL_TABLE_SIZE + 1; i++)
   {
     l->skills[i] = 0;
   }
@@ -4734,30 +4736,30 @@ void init_levelup(struct char_data *ch)
   l->num_epic_class_feats = GET_EPIC_CLASS_FEATS(ch, l->class) + (isepic ? num_levelup_class_feats(ch, l->class, l->level) : 0);
 }
 
-ACMD(do_levelup) 
+ACMD(do_levelup)
 {
 
-  if (!has_unlocked_race(ch, GET_RACE(ch))) 
+  if (!has_unlocked_race(ch, GET_RACE(ch)))
   {
     send_to_char(ch, "You cannot gain more levels on this character until you've unlocked your current race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
     return;
   }
 
   if (STATE(ch->desc) == CON_PLAYING &&
-      (GET_CLASS_LEVEL(ch) == 0 || (GET_LEVEL(ch) < (CONFIG_LEVEL_CAP - 1) && GET_EXP(ch) >= 
-      level_exp(GET_CLASS_LEVEL(ch) + 1, GET_REAL_RACE(ch))))) 
+      (GET_CLASS_LEVEL(ch) == 0 || (GET_LEVEL(ch) < (CONFIG_LEVEL_CAP - 1) && GET_EXP(ch) >=
+      level_exp(GET_CLASS_LEVEL(ch) + 1, GET_REAL_RACE(ch)))))
   {
 	send_to_char(ch, "Proceeding to level-up screen. Press enter to continue.\r\n\r\n");
 	STATE(ch->desc) = CON_LEVELUP_START;
-  } 
-  else 
+  }
+  else
   {
     send_to_char(ch, "You are not yet ready for further advancement.\r\n");
   }
 
 }
 
-void display_levelup_trains(struct char_data *ch) 
+void display_levelup_trains(struct char_data *ch)
 {
 
 	send_to_char(ch,
