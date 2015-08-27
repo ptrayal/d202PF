@@ -4128,7 +4128,8 @@ ACMD(do_spells)
   return;
 }
 
-int get_skill_mod(struct char_data *ch, int snum) {
+int get_skill_mod(struct char_data *ch, int snum) 
+{
 
 	int roll = 0;
 

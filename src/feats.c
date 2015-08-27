@@ -765,7 +765,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     if (has_feat(ch, FEAT_BLOODLINE_ABYSSAL))
       return FALSE;
-    if (GET_CLASS_RANKS(ch, CLASS_SORCERER) < 2)
+    if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
       return TRUE;
     return FALSE;
 
@@ -774,7 +774,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
       return FALSE;
-    if (GET_CLASS_RANKS(ch, CLASS_SORCERER) < 2)
+    if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
       return TRUE;
     return FALSE;
 
@@ -783,7 +783,7 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
       return FALSE;
-    if (GET_CLASS_RANKS(ch, CLASS_SORCERER) < 2)
+    if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
       return TRUE;
     return FALSE;
 
@@ -836,7 +836,11 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
   	if (!has_feat(ch, FEAT_COMBAT_EXPERTISE))
   		return false;
   	return true;
-    	
+
+  case FEAT_BRAVERY:
+    if (GET_CLASS_RANKS(ch, CLASS_FIGHTER))
+      return true;
+    return false;
 
   case FEAT_AURA_OF_GOOD:
     if (GET_CLASS_RANKS(ch, CLASS_PALADIN))
