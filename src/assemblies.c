@@ -627,8 +627,8 @@ int assembly_skills[MAX_ASSM] = {
 void crafting_update(void)
 {
   struct char_data *ch, *next_char;
-  char buf[100];
-  char buf2[100];
+  char buf[100]={'\0'};
+  char buf2[100]={'\0'};
   int exp = 0, bonus = 0;
   int buff = 0;
   int roll = 0;

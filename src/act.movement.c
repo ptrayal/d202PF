@@ -69,7 +69,7 @@ extern struct house_control_rec house_control[MAX_HOUSES];
 void current_update(void)
 {
   struct char_data *i, *next_char;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   int door =0;
  
   /* characters */
@@ -149,7 +149,7 @@ int has_flight(struct char_data *ch)
 int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 {
   char throwaway[MAX_INPUT_LENGTH] = ""; /* Functions assume writable. */
-  char buf2[MAX_STRING_LENGTH];
+  char buf2[MAX_STRING_LENGTH]={'\0'};
   room_rnum was_in = IN_ROOM(ch);
   int need_movement;
   int riding = 0, ridden_by = 0, same_room = 0;
@@ -695,7 +695,7 @@ const int flags_door[] =
 
 void do_doorcmd(struct char_data *ch, struct obj_data *obj, int door, int scmd)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   size_t len;
   room_rnum other_room = NOWHERE;
   struct room_direction_data *back = NULL;
@@ -1032,7 +1032,7 @@ int perform_enter_obj(struct char_data *ch, struct obj_data *obj, int need_speci
 ACMD(do_enter)
 {
   struct obj_data *obj = NULL;
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   int door, move_dir = -1;
 
   one_argument(argument, buf);
@@ -1437,7 +1437,7 @@ ACMD(do_wake)
 
 ACMD(do_follow)
 {
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
   struct char_data *leader;
 
   one_argument(argument, buf);
@@ -1485,7 +1485,7 @@ ACMD(do_mount) {
   struct char_data *vict;
   int chance;
   one_argument(argument, arg);
-  char buf[400];  
+  char buf[400]={'\0'};
 
   if (!*arg) {
     if (ch->player_specials->mount_num == 0) {
@@ -1613,9 +1613,9 @@ ACMD(do_mount) {
 }
 
 
-ACMD(do_dismount) {
-
-  char buf[400];
+ACMD(do_dismount) 
+{
+  char buf[400]={'\0'};
 
   if (ch->player_specials->mounted == MOUNT_NONE) {
     send_to_char(ch, "You are not mounted.\r\n");
@@ -1923,8 +1923,8 @@ ACMD(do_mreport)
   struct follow_type *k;
   struct char_data *l;
 	struct follow_type *f;	
-	char arg[MAX_STRING_LENGTH];
-	char buf[MAX_STRING_LENGTH];
+	char arg[MAX_STRING_LENGTH]={'\0'};
+	char buf[MAX_STRING_LENGTH]={'\0'};
 
   one_argument(argument, arg);
 

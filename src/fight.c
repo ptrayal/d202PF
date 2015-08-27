@@ -2889,6 +2889,7 @@ void scaledown_dam(int *num, int *size)
 int bare_hand_damage(struct char_data *ch, int code)
 {
   int num, size, lvl, sz;
+  int claw_level;
   int scale = 1;
 
   lvl = GET_CLASS_RANKS(ch, CLASS_MONK) + GET_CLASS_RANKS(ch, CLASS_SACRED_FIST);    
@@ -2947,6 +2948,18 @@ int bare_hand_damage(struct char_data *ch, int code)
   }
 
 if (!lvl && HAS_FEAT(ch, FEAT_CLAWS_AND_BITE))
+{
+  num = 1;
+  size = 6;
+}
+
+if (!lvl && HAS_FEAT(ch, FEAT_BLOODLINE_ABYSSAL) && (GET_CLASS_RANKS(ch, CLASS_SORCERER) < 7))
+{
+  num = 1;
+  size = 4;
+}
+
+if (!lvl && HAS_FEAT(ch, FEAT_BLOODLINE_ABYSSAL) && (GET_CLASS_RANKS(ch, CLASS_SORCERER) > 6))
 {
   num = 1;
   size = 6;

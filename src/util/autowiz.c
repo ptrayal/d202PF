@@ -166,7 +166,7 @@ void sort_names(void)
 
 void write_wizlist(FILE * out, int minlev, int maxlev)
 {
-  char buf[100];
+  char buf[100]={'\0'};
   struct level_rec *curr_level;
   struct name_rec *curr_name;
   int i, j;

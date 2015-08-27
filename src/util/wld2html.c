@@ -181,7 +181,7 @@ void write_output(void)
 {
   int i;
   FILE *fl;
-  char buf[128];
+  char buf[128]={'\0'};
   register int door, found;
 
   for (i = 0; i <= top_of_world; i++) {
@@ -219,7 +219,7 @@ void write_output(void)
 /* function to count how many hash-mark delimited records exist in a file */
 int count_hash_records(FILE * fl)
 {
-  char buf[128];
+  char buf[128]={'\0'};
   int count = 0;
 
   while (fgets(buf, 128, fl))
@@ -417,7 +417,7 @@ void renum_world(void)
 /* read and allocate space for a '~'-terminated string from a given file */
 char *fread_string(FILE * fl, char *error)
 {
-  char buf[MAX_STRING_LENGTH], tmp[512], *rslt;
+  char buf[MAX_STRING_LENGTH]={'\0'}, tmp[512]={'\0'}, *rslt;
   register char *point;
   int done = 0, length = 0, templength = 0;
 

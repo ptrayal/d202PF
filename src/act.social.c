@@ -373,7 +373,7 @@ void free_command_list(void)
 
 char *fread_action(FILE *fl, int nr)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   char *trash = NULL;
 
   trash = fgets(buf, MAX_STRING_LENGTH, fl);

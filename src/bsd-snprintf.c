@@ -704,8 +704,8 @@ int
 main(void)
 {
 #define LONG_STRING 1024
-	char buf1[LONG_STRING];
-	char buf2[LONG_STRING];
+	char buf1[LONG_STRING]={'\0'};
+	char buf2[LONG_STRING]={'\0'};
 	char *fp_fmt[] = {
 		"%-1.5f",
 		"%1.5f",

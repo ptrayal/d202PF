@@ -27,7 +27,7 @@ int main(int argc, char **argv)
 void Crash_listrent(char *fname)
 {
   FILE *fl;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   struct obj_file_elem object;
   struct rent_info rent;
 

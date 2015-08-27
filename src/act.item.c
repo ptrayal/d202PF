@@ -218,7 +218,7 @@ ACMD(do_divide)
   GET_CRAFTING_TYPE(ch) = SCMD_DIVIDE;
   GET_CRAFTING_TICKS(ch) = 1;
 
-  char buf[200];
+  char buf[200]={'\0'};
 
   sprintf(buf, "You begin to create %s (x%d) from %s.\r\n", GET_CRAFTING_OBJ(ch)->short_description, GET_CRAFTING_REPEAT(ch), obj->short_description);
   send_to_char(ch, "%s", buf);
@@ -601,7 +601,7 @@ ACMD(do_harvest_new)
   ch->player_specials->crafting_exp_mult = get_skill_value(ch, skillnum) / 2;
 
   // Tell the character they made something. 
-  char buf[200];
+  char buf[200]={'\0'};
   sprintf(buf, "You begin to %s.", CMD_NAME);
   act(buf, FALSE, ch, 0, NULL, TO_CHAR);
 
@@ -654,7 +654,7 @@ ACMD(do_harvest)
   int mine = FALSE, forest = FALSE, farm = FALSE;
   struct obj_data * obj = NULL;
   int roll = 0, rollmod = 0, modamt[4], modsum = 0;
-  char buf[100];
+  char buf[100]={'\0'};
   int skillnum = SKILL_MINING; 
 
   modamt[0] = 0;
@@ -933,8 +933,8 @@ ACMD(do_assemble)
 
   int i;
   struct obj_data *obj;
-  char buf[100];
-  char arg2[100];
+  char buf[100]={'\0'};
+  char arg2[100]={'\0'};
   int is_weapon = FALSE;
   int is_armor = FALSE;
   int is_misc = FALSE;
@@ -1087,7 +1087,7 @@ ACMD(do_assemble)
 
   long lVnum = NOTHING;
   struct obj_data *pObject = NULL;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
   long i = 0;
   long j = 0;
   long lRnum = NOTHING;
@@ -1453,7 +1453,7 @@ void get_from_container(struct char_data *ch, struct obj_data *cont,
     act("$p is closed.", FALSE, ch, cont, 0, TO_CHAR);
   else if (obj_dotmode == FIND_INDIV) {
     if (!(obj = get_obj_in_list_vis(ch, arg, NULL, cont->contains))) {
-      char buf[MAX_STRING_LENGTH];
+      char buf[MAX_STRING_LENGTH]={'\0'};
 
       snprintf(buf, sizeof(buf), "There doesn't seem to be %s %s in $p.", AN(arg), arg);
       act(buf, FALSE, ch, cont, 0, TO_CHAR);
@@ -1482,7 +1482,7 @@ void get_from_container(struct char_data *ch, struct obj_data *cont,
       if (obj_dotmode == FIND_ALL)
 	act("$p seems to be empty.", FALSE, ch, cont, 0, TO_CHAR);
       else {
-        char buf[MAX_STRING_LENGTH];
+        char buf[MAX_STRING_LENGTH]={'\0'};
 
 	snprintf(buf, sizeof(buf), "You can't seem to find any %ss in $p.", arg);
 	act(buf, FALSE, ch, cont, 0, TO_CHAR);
@@ -1670,7 +1670,7 @@ void perform_drop_gold(struct char_data *ch, int amount,
 	obj_to_room(obj, RDR);
 	act("$p suddenly appears in a puff of orange smoke!", 0, 0, obj, 0, TO_ROOM);
       } else {
-        char buf[MAX_STRING_LENGTH];
+        char buf[MAX_STRING_LENGTH]={'\0'};
 
         if (!drop_wtrigger(obj, ch)) {
           extract_obj(obj);
@@ -1689,7 +1689,7 @@ void perform_drop_gold(struct char_data *ch, int amount,
 	obj_to_room(obj, IN_ROOM(ch));
       }
     } else {
-      char buf[MAX_STRING_LENGTH];
+      char buf[MAX_STRING_LENGTH]={'\0'};
 
       snprintf(buf, sizeof(buf), "$n drops %s which disappears in a puff of smoke!", money_desc(amount));
       act(buf, FALSE, ch, 0, 0, TO_ROOM);
@@ -1708,8 +1708,8 @@ void perform_drop_gold(struct char_data *ch, int amount,
 int perform_drop(struct char_data *ch, struct obj_data *obj,
 		     byte mode, const char *sname, room_rnum RDR)
 {
-  char buf[MAX_STRING_LENGTH];
-  int value;
+  char buf[MAX_STRING_LENGTH]={'\0'};
+  int value = 0;
 
   if (!drop_otrigger(obj, ch))
     return 0;
@@ -1928,10 +1928,9 @@ struct char_data *give_find_vict(struct char_data *ch, char *arg)
 }
 /* utility function for give */
 
-void perform_give_gold(struct char_data *ch, struct char_data *vict,
-		            int amount)
+void perform_give_gold(struct char_data *ch, struct char_data *vict, int amount)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   if (amount <= 0) {
     send_to_char(ch, "Heh heh heh ... we are jolly funny today, eh?\r\n");
@@ -1989,7 +1988,7 @@ ACMD(do_give)
       }
     }
   } else {
-    char buf1[MAX_INPUT_LENGTH];
+    char buf1[MAX_INPUT_LENGTH]={'\0'};
 
     one_argument(argument, buf1);
     if (!(vict = give_find_vict(ch, buf1)))
@@ -2164,7 +2163,7 @@ ACMD(do_drink)
     return;
     
   if (subcmd == SCMD_DRINK) {
-    char buf[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH]={'\0'};
 
     snprintf(buf, sizeof(buf), "$n drinks %s from $p.", drinks[GET_OBJ_VAL(temp, VAL_DRINKCON_LIQUID)]);
     act(buf, TRUE, ch, temp, 0, TO_ROOM);
@@ -3529,7 +3528,7 @@ void auc_stat(struct char_data * ch, struct obj_data *obj);
 void stop_auction(int type, struct char_data * ch);
 void check_auction(void);
 void auc_send_to_all(char *messg, bool buyer);
-char buf[MAX_STRING_LENGTH];
+char buf[MAX_STRING_LENGTH]={'\0'};
 ACMD(do_auction);
 ACMD(do_bid);
 

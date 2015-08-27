@@ -374,7 +374,7 @@ ACMD(do_order)
       return;
     }
     if (vict) {
-      char buf[MAX_STRING_LENGTH];
+      char buf[MAX_STRING_LENGTH]={'\0'};
 
       snprintf(buf, sizeof(buf), "$N orders you to '%s'", message);
       act(buf, FALSE, vict, 0, ch, TO_CHAR);
@@ -387,7 +387,7 @@ ACMD(do_order)
 	command_interpreter(vict, message);
       }
     } else {			/* This is order "followers" */
-      char buf[MAX_STRING_LENGTH];
+      char buf[MAX_STRING_LENGTH]={'\0'};
 
       snprintf(buf, sizeof(buf), "$n issues the order '%s'.", message);
       act(buf, FALSE, ch, 0, 0, TO_ROOM);
@@ -595,7 +595,7 @@ ACMD(do_turn)
   int turn_level, percent;
   int turn_difference=0, turn_result=0, turn_roll=0;
   int i;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH]={'\0'};
 
   one_argument(argument,buf);
 
@@ -768,7 +768,7 @@ ACMD(do_lay_hands)
   if (PRF_FLAGGED(vict, PRF_PVP))
   healing = MAX(1, healing / 5);
 
-  char buf[200];
+  char buf[200]={'\0'};
   if (vict == ch) {
     sprintf(buf, "@WYou lay hands on yourself for @Y%d@W hit points healed.@n", healing);
     act(buf, FALSE, ch, 0, ch, TO_CHAR);
@@ -2127,8 +2127,8 @@ ACMD(do_kick)
 {
   struct char_data *vict;
   int percent, prob;
-  char buf[100];  
-  char arg[100];
+  char buf[100]={'\0'};
+  char arg[100]={'\0'};
 
   one_argument(argument, arg);
 
@@ -2790,7 +2790,7 @@ void perform_mob_combat_turn(struct char_data *ch)
   if (GET_POS(ch) < POS_RESTING)
     return;
 
-  char buf[MAX_INPUT_LENGTH];
+  char buf[MAX_INPUT_LENGTH]={'\0'};
 
   if (!IS_NPC(ch))
     return;
@@ -3019,7 +3019,7 @@ void display_your_turn(struct char_data *ch)
     }
   }
 
-  char buf[200];
+  char buf[200]={'\0'};
 
   ch->total_defense = 0;
   ch->weapon_supremacy_miss = 0;
