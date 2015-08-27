@@ -264,7 +264,7 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
     total += 2;
 
   if ((spellnum == SPELL_AFF_TAUNTED || spellnum == SPELL_AFF_TAUNTED || spellnum == SPELL_AFF_TAUNTED) &&
-     HAS_FEAT(ch, FEAT_HONORBOUND))
+     HAS_FEAT(victim, FEAT_HONORBOUND))
     total += 2;
 
   if (spellnum == SPELL_POISON && IS_DWARF(victim))
@@ -274,6 +274,9 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
   {
     if (IS_HALFLING(victim))
       total +=2;
+
+    if (HAS_FEAT(victim, FEAT_BRAVERY))
+      total += (HAS_FEAT(victim, FEAT_BRAVERY));
 
     struct char_data *tch;
     for (tch = world[IN_ROOM(victim)].people; tch; tch = tch->next_in_room) 

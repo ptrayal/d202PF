@@ -3006,8 +3006,11 @@ int level_feats[][6] = {
   {CLASS_DRUID,     RACE_UNDEFINED,      FALSE,  16, FEAT_WILD_SHAPE, TRUE},  
   {CLASS_DRUID,     RACE_UNDEFINED,      FALSE,  18, FEAT_WILD_SHAPE, TRUE},  
   
-	// Left as a placeholder for fighter.
-  // {CLASS_FIGHTER,   RACE_UNDEFINED,      FALSE,  1, FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD, TRUE},	
+  {CLASS_FIGHTER,   RACE_UNDEFINED,      FALSE,   2,  FEAT_BRAVERY, TRUE},
+  {CLASS_FIGHTER,   RACE_UNDEFINED,      FALSE,   6,  FEAT_BRAVERY, TRUE},
+  {CLASS_FIGHTER,   RACE_UNDEFINED,      FALSE,   10, FEAT_BRAVERY, TRUE},
+  {CLASS_FIGHTER,   RACE_UNDEFINED,      FALSE,   14, FEAT_BRAVERY, TRUE},
+  {CLASS_FIGHTER,   RACE_UNDEFINED,      FALSE,   18, FEAT_BRAVERY, TRUE},
 
   {CLASS_MONK,      RACE_UNDEFINED,      FALSE,  2, FEAT_EVASION, TRUE},    
   {CLASS_MONK,      RACE_UNDEFINED,      FALSE,  3, FEAT_STILL_MIND, TRUE},   
@@ -4828,7 +4831,8 @@ const int class_feats_wizard[] =
  * feats. Most classes can ONLY take from these lists for their class
  * feats.
  */
-const int class_feats_rogue[] = {
+const int class_feats_rogue[] = 
+{
   FEAT_SELF_CONCEALMENT,
   FEAT_SNEAK_ATTACK_OF_OPPORTUNITY,
   FEAT_BLIND_FIGHT,
@@ -4894,7 +4898,8 @@ const int class_feats_rogue[] = {
   FEAT_SNEAK_ATTACK_OF_OPPORTUNITY,
   FEAT_UNDEFINED
 };
-const int class_feats_fighter[] = {
+const int class_feats_fighter[] = 
+{
   FEAT_EPIC_PROWESS,
   FEAT_SWARM_OF_ARROWS,
   FEAT_BLIND_FIGHT,
@@ -4961,21 +4966,24 @@ const int class_feats_fighter[] = {
   FEAT_UNDEFINED
 };
 
-const int class_feats_arcane_archer[] = {
+const int class_feats_arcane_archer[] = 
+{
   FEAT_EPIC_PROWESS,
   FEAT_EPIC_TOUGHNESS,
   FEAT_SWARM_OF_ARROWS,  
   FEAT_UNDEFINED,
 };
 
-const int class_feats_arcane_trickster[] = {
+const int class_feats_arcane_trickster[] = 
+{
   FEAT_SNEAK_ATTACK,
   FEAT_SNEAK_ATTACK_OF_OPPORTUNITY,
   FEAT_SELF_CONCEALMENT,
   FEAT_UNDEFINED
 };
 
-const int class_feats_eldritch_knight[] = {
+const int class_feats_eldritch_knight[] = 
+{
   FEAT_EPIC_PROWESS,
   FEAT_SWARM_OF_ARROWS,
   FEAT_BLIND_FIGHT,
@@ -5035,7 +5043,8 @@ const int class_feats_eldritch_knight[] = {
   FEAT_UNDEFINED
 };
 
-const int class_feats_favored_soul[] = {
+const int class_feats_favored_soul[] = 
+{
   FEAT_ARMOR_SKIN,
   FEAT_EPIC_SPELLCASTING,
   FEAT_UNDEFINED
@@ -5045,7 +5054,8 @@ const int class_feats_assassin[] = {
   FEAT_SNEAK_ATTACK_OF_OPPORTUNITY,
   FEAT_UNDEFINED
 };
-const int class_feats_paladin[] = {
+const int class_feats_paladin[] = 
+{
   FEAT_DAMAGE_REDUCTION,
   FEAT_EPIC_PROWESS,
   FEAT_ARMOR_SKIN,
@@ -5053,7 +5063,8 @@ const int class_feats_paladin[] = {
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
-const int class_feats_monk[] = {
+const int class_feats_monk[] = 
+{
   FEAT_STUNNING_FIST,
   FEAT_EPIC_PROWESS,
   FEAT_SELF_CONCEALMENT,
@@ -5065,11 +5076,13 @@ const int class_feats_monk[] = {
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
-const int class_feats_druid[] = {
+const int class_feats_druid[] = 
+{
   FEAT_FAST_HEALING,
   FEAT_UNDEFINED
 };
-const int class_feats_barbarian[] = {
+const int class_feats_barbarian[] = 
+{
   FEAT_FAST_HEALING,
   FEAT_EPIC_PROWESS,
   FEAT_DAMAGE_REDUCTION,
@@ -5077,13 +5090,15 @@ const int class_feats_barbarian[] = {
   FEAT_UNDEFINED
 };
 const int class_feats_ranger[] = {
+
   FEAT_FAST_HEALING,
   FEAT_EPIC_PROWESS,
   FEAT_SWARM_OF_ARROWS,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
-const int class_feats_defender[] = {
+const int class_feats_defender[] = 
+{
   FEAT_FAST_HEALING,
   FEAT_EPIC_PROWESS,
   FEAT_DAMAGE_REDUCTION,
@@ -5091,7 +5106,8 @@ const int class_feats_defender[] = {
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
-const int class_feats_champion[] = {
+const int class_feats_champion[] = 
+{
   FEAT_DAMAGE_REDUCTION,
   FEAT_ARMOR_SKIN,
   FEAT_EPIC_PROWESS,
@@ -5099,7 +5115,8 @@ const int class_feats_champion[] = {
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
-const int class_feats_dragon_disciple[] = {
+const int class_feats_dragon_disciple[] = 
+{
   FEAT_ARMOR_SKIN,
   FEAT_EPIC_PROWESS,
   FEAT_DAMAGE_REDUCTION,
@@ -5118,7 +5135,8 @@ const int class_feats_sorcerer[] =
 const int no_class_feats[] = {
   FEAT_UNDEFINED
 };
-const int *class_bonus_feats[NUM_CLASSES] = {
+const int *class_bonus_feats[NUM_CLASSES] = 
+{
 /* WIZARD		*/ class_feats_wizard,
 /* CLERIC		*/ no_class_feats,
 /* ROGUE		*/ class_feats_rogue,

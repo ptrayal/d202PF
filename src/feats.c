@@ -140,10 +140,11 @@ feato(FEAT_BLEEDING_ATTACK, "Bleeding Attack", TRUE, TRUE, FALSE, "Rogue Talent"
 feato(FEAT_BLIND_FIGHT, "Blind-Fight", TRUE, TRUE, FALSE, "-", "reduced penalties when fighting blind oragainst invisible opponents"); 
 feato(FEAT_BLINDSENSE, "Blindsense", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_BLOODLINE_ARCANE, "Bloodline (Arcane)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
-feato(FEAT_BLOODLINE_ABYSSAL, "Bloodline (Abyssal)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "You gain claws which become more\r powerful as you grow in power.");
+feato(FEAT_BLOODLINE_ABYSSAL, "Bloodline (Abyssal)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "You gain claws which become more\n powerful as you grow in power.");
 feato(FEAT_BLOODLINE_FEY, "Bloodline (Fey)", TRUE, TRUE, FALSE, "Sorcerer Level 1", "ask staff");
 feato(FEAT_BONE_ARMOR, "Bone Armor", TRUE, FALSE, FALSE, "Death Master 1st", "allows creation of bone armor and 10% arcane spell failure reduction in bone armor per rank.");
 feato(FEAT_BRANDING, "Branding", TRUE, FALSE, FALSE, "Artisan level 3rd", "All items made carry the artisan's\n brand");
+feato(FEAT_BRAVERY, "Bravery", TRUE, TRUE, TRUE, "Fighter Level 2", "A fighter gains a +1 bonus on Will\n saves against fear. This bonus\n increases by +1 for every four levels\n beyond 2nd");
 feato(FEAT_BREATH_WEAPON, "Breath Weapon", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_BREW_POTION, "Brew Potion", FALSE, FALSE, FALSE, "Caster level 3rd", "Create magic potions."); 
 feato(FEAT_CALL_MOUNT, "Call Mount", TRUE, FALSE, FALSE, "Paladin 5th", "Allows you to call a paladin mount");

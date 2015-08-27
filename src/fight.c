@@ -5434,10 +5434,11 @@ void do_mob_special_attacks(struct char_data *ch, int type)
       }
     }
 
-    if (victim && (GET_RACE(ch) == RACE_MUMMY || (type == MOB_TYPE_SUMMON && (ch->player_specials->summon_num == PET_MUMMY)))) {
-      if (!mag_newsaves(SAVING_FORTITUDE, ch, victim, SPELL_FEAR, 12) &&
-          !affected_by_spell(victim, SPELL_RESIST_FEAR)) {      
-	af.type = SPELL_FEAR;
+    if (victim && (GET_RACE(ch) == RACE_MUMMY || (type == MOB_TYPE_SUMMON && (ch->player_specials->summon_num == PET_MUMMY)))) 
+    {
+      if (!mag_newsaves(SAVING_FORTITUDE, ch, victim, SPELL_FEAR, 12) && !affected_by_spell(victim, SPELL_RESIST_FEAR)) 
+      {
+        af.type = SPELL_FEAR;
         af.location = APPLY_FEAT;
         af.modifier = 1;
         af.duration = dice(1, 4);
@@ -5452,8 +5453,9 @@ void do_mob_special_attacks(struct char_data *ch, int type)
             ch->player_specials->summon_desc : (has_intro(victim, ch) ? GET_NAME(ch) : which_desc(ch)));
         act(buf, FALSE, victim, 0, ch, TO_ROOM);
       }
-      else if (!affected_by_spell(victim, SPELL_RESIST_FEAR)) {
-	af.type = SPELL_RESIST_FEAR;
+      else if (!affected_by_spell(victim, SPELL_RESIST_FEAR)) 
+      {
+        af.type = SPELL_RESIST_FEAR;
         af.location = APPLY_FEAT;
         af.modifier = 1;
         af.duration = dice(1, 4);
