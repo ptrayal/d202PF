@@ -440,6 +440,7 @@ ACMD(do_taunt);
 ACMD(do_teleport);
 ACMD(do_tell);
 ACMD(do_test);
+ACMD(do_test_dump);
 ACMD(do_time);
 ACMD(do_timers);
 ACMD(do_title);
@@ -1013,6 +1014,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "teleport" , "tele"		, POS_DEAD    , do_teleport , 1, ADMLVL_GOD	, 0 },
   { "tedit"    , "tedit"	, POS_DEAD    , do_tedit    , 1, ADMLVL_GRGOD	, 0 },
   { "test"	   , "test"	    , POS_DEAD    , do_test     , 0, ADMLVL_IMPL    , 0 },
+  { "testdump"     , "testdump"     , POS_DEAD    , do_test_dump     , 0, ADMLVL_IMPL    , 0 },
   { "thatch"   , "thatch"	, POS_SITTING , do_assemble , 0, ADMLVL_NONE	, SCMD_THATCH },
   { "thaw"     , "thaw"		, POS_DEAD    , do_wizutil  , 1, ADMLVL_FREEZE	, SCMD_THAW },
   { "title"    , "title"	, POS_DEAD    , do_title    , 0, ADMLVL_NONE	, 0 },

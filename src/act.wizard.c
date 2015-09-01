@@ -67,6 +67,7 @@ extern int level_vernum;
 extern const char *weapon_type[];
 extern const char *armor_type[];
 extern const char *crit_type[];
+extern int feat_sort_info[MAX_FEATS + 1];
 //extern room_vnum freeres[];
 
 /* extern functions */
@@ -96,6 +97,7 @@ int compute_armor_class(struct char_data *ch, struct char_data *att);
 char *reduct_desc(struct char_data *victim, struct damreduct_type *reduct);
 ACMD(do_aod_new_score);
 char *  class_desc_str(struct char_data *ch, int howlong, int wantthe);
+
 
 /* local functions */
 int perform_set(struct char_data *ch, struct char_data *vict, int mode, char *val_arg);
@@ -4350,6 +4352,27 @@ ACMD(do_test)
     }
     grid_to_char(grid, ch, TRUE);
 
+}
+
+ACMD(do_test_dump)
+{
+    FILE *fp;
+    int sortpos = 0;
+    
+    fp=fopen("../feats.txt", "w");
+    if (fp == NULL)
+      exit(-1);
+
+    fprintf(fp, "Feat Name|Prerequisite|Description\n");
+
+    for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
+    {
+      int i = feat_sort_info[sortpos];
+
+      fprintf(fp, "%s|%s|%s\n", feat_list[i].name, feat_list[i].prerequisites, feat_list[i].description);
+    }
+
+    fclose(fp);
 }
 
 
