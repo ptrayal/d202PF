@@ -144,7 +144,7 @@ feato(FEAT_BLOODLINE_ABYSSAL, "Bloodline (Abyssal)", TRUE, TRUE, FALSE, "1st-lev
 feato(FEAT_BLOODLINE_FEY, "Bloodline (Fey)", TRUE, TRUE, FALSE, "1st-level Sorcerer", "ask staff");
 feato(FEAT_BONE_ARMOR, "Bone Armor", TRUE, FALSE, FALSE, "1st-level Death Master", "allows creation of bone armor and 10%% arcane spell failure reduction in bone armor per rank.");
 feato(FEAT_BRANDING, "Branding", TRUE, FALSE, FALSE, "3rd-level Artisan", "All items made carry the artisan's brand");
-feato(FEAT_BRAVERY, "Bravery", TRUE, TRUE, TRUE, "2nd-level Fighter", "A fighter gains a +1 bonus on Will\n saves against fear. This bonus increases by +1 for every four levels beyond 2nd");
+feato(FEAT_BRAVERY, "Bravery", TRUE, FALSE, FALSE, "2nd-level Fighter", "A fighter gains a +1 bonus on Will saves against fear. This bonus increases by +1 for every four levels beyond 2nd");
 feato(FEAT_BREATH_WEAPON, "Breath Weapon", TRUE, FALSE, FALSE, "3rd-level Dragon Disciple", "ask staff");
 feato(FEAT_BREW_POTION, "Brew Potion", FALSE, FALSE, FALSE, "Caster level 3rd", "Create magic potions."); 
 feato(FEAT_CALL_MOUNT, "Call Mount", TRUE, FALSE, FALSE, "5th-level Paladin", "Allows you to call a paladin mount");
@@ -179,7 +179,7 @@ feato(FEAT_DEFLECT_ARROWS, "Deflect Arrows", TRUE, TRUE, FALSE, "Dex 13, Improve
 feato(FEAT_DEFT_HANDS, "Deft Hands", TRUE, TRUE, FALSE, "-", "+2 bonus on Disable Device and Sleight of Hand checks");
 feato(FEAT_DETECT_EVIL, "Detect Evil", TRUE, TRUE, FALSE, "1st-level Paladin", "able to detect evil alignments");
 feato(FEAT_DETECT_GOOD, "Detect Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_DIAMOND_BODY, "Diamond Body", TRUE, FALSE, FALSE, "11th-level Monk", "immune to disease");
+feato(FEAT_DIAMOND_BODY, "Diamond Body", TRUE, FALSE, FALSE, "11th-level Monk", "A monk gains immunity to poisons of all kinds");
 feato(FEAT_DIAMOND_SOUL, "Diamond Soul", TRUE, FALSE, FALSE, "13th-level Monk", "spell resistance equal to class level + 10");
 feato(FEAT_DIEHARD, "Diehard", TRUE, TRUE, FALSE, "Endurance", "will stay alive and conscious until -10 hp or lower");
 feato(FEAT_DIVINE_BOND, "Divine Bond", TRUE, FALSE, FALSE, "5th-level Paladin", "bonuses to attack and damage rolls when active");
@@ -323,7 +323,7 @@ feato(FEAT_PRECISE_SHOT, "Precise Shot", TRUE, TRUE, FALSE, "Point-Blank Shot", 
 feato(FEAT_PRECISE_STRIKE, "Precise Strike", TRUE, FALSE, FALSE, "-", "+1d6 damage when using only one weapon and no shield");
 feato(FEAT_PROFICIENT_CRAFTER, "Proficient Crafter", TRUE, FALSE, FALSE, "2nd-level Artisan", "Increases all crafting skills");
 feato(FEAT_PROFICIENT_HARVESTER, "Proficient Harvester", TRUE, FALSE, FALSE, "4th-level Artisan", "Increases all harvesting skills");
-feato(FEAT_PURITY_OF_BODY, "Purity of Body", TRUE, FALSE, FALSE, "5th-level Monk", "immune to poison");
+feato(FEAT_PURITY_OF_BODY, "Purity of Body", TRUE, FALSE, FALSE, "5th-level Monk", "A monk gains immunity to all diseases, including supernatural and magical diseases.");
 feato(FEAT_QUICK_DRAW, "Quick Draw", FALSE, FALSE, FALSE, "Base attack bonus +1", "ask staff");
 feato(FEAT_QUICKEN_SPELL, "Quicken Spell", TRUE, TRUE, FALSE, "Caster level 1st", "allows you to cast spell as a move action instead of standard action");
 feato(FEAT_QUIVERING_PALM, "Quivering Palm", TRUE, FALSE, FALSE, "15th-level Monk", "chance to kill on strike with unarmed attack");
@@ -359,7 +359,7 @@ feato(FEAT_SPIRITED_CHARGE, "Spirited Charge", FALSE, FALSE, FALSE, "ask staff",
 feato(FEAT_SPRING_ATTACK, "Spring Attack", TRUE, TRUE, FALSE, "Mobility, base attack bonus +4", "free attack of opportunity against combat abilities (ie. kick, trip)");
 feato(FEAT_STEADFAST_DETERMINATION, "Steadfast Determination", TRUE, TRUE, FALSE, "Endurance", "allows you to use your con bonus instead of your wis bonus for will saves");
 feato(FEAT_STEALTHY, "Stealthy", TRUE, TRUE, FALSE, "-", "+2 bonus on Escape Artist and Stealth checks");
-feato(FEAT_STILL_MIND, "Still Mind", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_STILL_MIND, "Still Mind", TRUE, FALSE, FALSE, "3rd-level Monk", "A Monk gains a +2 bonus vs. enchantment spells and effects");
 feato(FEAT_STILL_SPELL, "Still Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STRENGTH_BOOST, "Strength Boost", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_STUNNING_FIST, "Stunning Fist", TRUE, TRUE, FALSE, "Dex 13, Wis 13, Improved Unarmed Strike, base attack bonus +8", "Stun opponent with an unarmed strike");
@@ -388,7 +388,7 @@ feato(FEAT_TWO_WEAPON_FIGHTING, "Two-Weapon Fighting", TRUE, TRUE, FALSE, "Dex 1
 feato(FEAT_UNARMED_STRIKE, "Unarmed Strike", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "-", "retains dex bonus when flat footed or against invis opponents");
 feato(FEAT_UNDEAD_FAMILIAR, "Undead Familiar", TRUE, FALSE, FALSE, "3rd-level Death Master", "allows for undead familiars");
-feato(FEAT_VENOM_IMMUNITY, "Venom Immunity", TRUE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_VENOM_IMMUNITY, "Venom Immunity", TRUE, FALSE, FALSE, "9th-level Druid", "A druid gains immunity to all poisons.");
 feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "Use Dex instead of Str on attack rolls with light weapons");
 feato(FEAT_WEAPON_FLURRY, "Weapon Flurry", TRUE, TRUE, TRUE, "Weapon Mastery, base attack bonus +14", "2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action");
 feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +1", "+1 to hit rolls for selected weapon");

@@ -260,6 +260,9 @@ int mag_newsaves(int savetype, struct char_data *ch, struct char_data *victim, i
   if (spell_info[spellnum].school == SCHOOL_ENCHANTMENT && HAS_FEAT(victim, FEAT_INDOMITABLE_WILL))
     total += 4;
 
+  if (spell_info[spellnum].school == SCHOOL_ENCHANTMENT && HAS_FEAT(victim, FEAT_STILL_MIND))
+    total += 2;
+
   if (spell_info[spellnum].school == SCHOOL_ILLUSION && IS_GNOME(victim))
     total += 2;
 
@@ -1821,7 +1824,8 @@ void mag_affects(int level, struct char_data *ch, struct char_data *victim,
 
   case SPELL_POISON:
 
-  	if (affected_by_spell(victim, SPELL_DELAY_POISON) || HAS_FEAT(ch, FEAT_ESSENCE_OF_UNDEATH) || HAS_FEAT(ch, FEAT_DIAMOND_BODY)) {
+  	if (affected_by_spell(victim, SPELL_DELAY_POISON) || HAS_FEAT(ch, FEAT_ESSENCE_OF_UNDEATH) || HAS_FEAT(ch, FEAT_DIAMOND_BODY) || HAS_FEAT(ch, FEAT_VENOM_IMMUNITY)) 
+    {
   		to_vict = "You feel slightly ill for a moment but the feeling quickly passes.";
   		break;
   	}
