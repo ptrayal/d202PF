@@ -4221,7 +4221,8 @@ int get_spell_resistance(struct char_data *ch)
   if (!ch || ch == NULL)
     return 0;
 
-  if (HAS_FEAT(ch, FEAT_DIAMOND_SOUL)) {
+  if (HAS_FEAT(ch, FEAT_DIAMOND_SOUL)) 
+  {
     sr = MAX(sr, 10 + GET_CLASS_RANKS(ch, CLASS_MONK));
   }
 

@@ -337,7 +337,7 @@ feato(FEAT_RIPOSTE, "Riposte", TRUE, FALSE, FALSE, "5th-level Duelist", "allows 
 feato(FEAT_ROBILARS_GAMBIT, "Robilars Gambit", TRUE, TRUE, FALSE, "combat reflexes, base attack bonus +12", "when active enemies gain +4 to hit and damage against you, but all melee attacks invoke an attack of opportunity from you.");
 feato(FEAT_RUN, "Run", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SACRED_FLAMES, "Sacred Flames", TRUE, FALSE, FALSE, "sacred fist level 5", "allows you to use \"innate 'flame weapon'\" 3 times per 10 minutes");
-feato(FEAT_SCAVENGE, "Scavenge", TRUE, FALSE, FALSE, "Artisan level 5", "Can find materials on corpses");
+feato(FEAT_SCAVENGE, "Scavenge", TRUE, FALSE, FALSE, "5th-level Artisan", "Can find materials on corpses");
 feato(FEAT_SCRIBE_SCROLL, "Scribe Scroll", FALSE, FALSE, FALSE, "Caster level 1st", "Create magic scrolls");
 feato(FEAT_SELF_CONCEALMENT, "Self Concealment", TRUE, TRUE, TRUE, "stealth 30 ranks, dex 30, tumble 30 ranks", "10%% miss chance for attacks against you per rank");
 feato(FEAT_SELF_SUFFICIENT, "Self Sufficient", TRUE, TRUE, FALSE, "-", "You get a +2 bonus on all Heal checks and Survival checks.");
@@ -510,6 +510,15 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return TRUE;
     return FALSE;
 
+  case FEAT_EPIC_SPELLCASTING:
+    if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 24)
+      return FALSE;
+    if (GET_SKILL_RANKS(ch, SKILL_KNOWLEDGE) < 24)
+      return FALSE;
+    if (GET_LEVEL(ch) < 21)
+      return FALSE;
+    return TRUE;
+
   case FEAT_DIEHARD:
     if (!HAS_REAL_FEAT(ch, FEAT_ENDURANCE))
       return FALSE;
@@ -639,11 +648,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_COMBAT_CHALLENGE))
       return false;
     return true;
-
-  case FEAT_EPIC_PROWESS:
-    if (HAS_REAL_FEAT(ch, FEAT_EPIC_PROWESS) >= 5)
-      return FALSE;
-    return TRUE;
 
   case FEAT_EPIC_COMBAT_CHALLENGE:
     if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 20 &&
@@ -961,6 +965,32 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     return TRUE;
 
+  case FEAT_ENHANCE_SPELL:
+    if (GET_LEVEL(ch) < 21)
+      return FALSE;
+    return TRUE;
+
+  case FEAT_EPIC_TOUGHNESS:
+    if (GET_LEVEL(ch) < 21)
+      return FALSE;
+    return TRUE;
+
+  case FEAT_EPIC_PROWESS:
+    if (HAS_REAL_FEAT(ch, FEAT_EPIC_PROWESS) >= 5)
+      return FALSE;
+    if (GET_LEVEL(ch) < 21)
+      return FALSE;
+    return TRUE;
+
+  case FEAT_EPIC_SKILL_FOCUS:
+    if (!iarg)
+      return TRUE;
+    if (GET_SKILL(ch, iarg) >= 20)
+      return TRUE;
+    if (GET_LEVEL(ch) >= 21)
+      return TRUE;
+    return FALSE;
+
   case FEAT_IMPROVED_TWO_WEAPON_FIGHTING:
     if (ch->real_abils.dex >= 17 && has_feat(ch, FEAT_TWO_WEAPON_FIGHTING) && GET_BAB(ch) >= 6)
       return TRUE;
@@ -1093,13 +1123,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return TRUE;
     return FALSE;
     
-  case FEAT_EPIC_SKILL_FOCUS:
-    if (!iarg)
-      return TRUE;
-    if (GET_SKILL(ch, iarg) >= 20)
-      return TRUE;
-    return FALSE;
-
   case  FEAT_IMPROVED_WEAPON_FINESSE:
   	if (!has_feat(ch, FEAT_WEAPON_FINESSE))
   	  return FALSE;
