@@ -1,3 +1,6 @@
+9/3/2015:
+        This file is here for archival purposes.  This is not used for any other purpose.
+
 changelog:
 	1/31/06 (release)
 	- Happy 3rd Birthday to the CWG Project! Thanks to everyone for their
