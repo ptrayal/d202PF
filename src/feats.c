@@ -827,35 +827,19 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     return false;
 
   case FEAT_AURA_OF_GOOD:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN))
-      return true;
-    return false;
-
   case FEAT_DETECT_EVIL:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN))
-      return true;
-    return false;
-
   case FEAT_SMITE_EVIL:
     if (GET_CLASS_RANKS(ch, CLASS_PALADIN))
       return true;
     return false;
 
   case FEAT_DIVINE_GRACE:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 1)
-      return true;
-    return false;
-
   case FEAT_LAYHANDS:
     if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 1)
       return true;
     return false;
 
   case FEAT_AURA_OF_COURAGE:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 2)
-      return true;
-    return false;
-
   case FEAT_DIVINE_HEALTH:
     if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 2)
       return true;
@@ -941,10 +925,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     return FALSE;
 
   case FEAT_CLEAVE:
-    if (has_feat(ch, FEAT_POWER_ATTACK))
-      return TRUE;
-    return FALSE;
-
   case FEAT_SUNDER:
     if (has_feat(ch, FEAT_POWER_ATTACK))
       return TRUE;
@@ -966,10 +946,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     return TRUE;
 
   case FEAT_ENHANCE_SPELL:
-    if (GET_LEVEL(ch) < 21)
-      return FALSE;
-    return TRUE;
-
   case FEAT_EPIC_TOUGHNESS:
     if (GET_LEVEL(ch) < 21)
       return FALSE;
