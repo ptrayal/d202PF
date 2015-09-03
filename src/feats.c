@@ -611,6 +611,8 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
   case FEAT_ARMOR_SKIN:
     if (ch->armor_skin_feats >= 5)
       return FALSE;
+    if (GET_LEVEL(ch) < 21)
+      return FALSE;
     return TRUE;
 
   case FEAT_MOUNTED_COMBAT:
