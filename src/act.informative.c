@@ -2128,8 +2128,7 @@ ACMD(do_aod_new_score)
 
   // Determine play time
     
-  playing_time = *real_time_passed((time(0) - ch->time.logon) +
-          ch->time.played, 0);
+  playing_time = *real_time_passed((time(0) - ch->time.logon) + ch->time.played, 0);
   sprintf(play_time, "%d day%s and %d hour%s.",
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");    
