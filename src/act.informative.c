@@ -2283,8 +2283,11 @@ if (GET_MAX_KI(rec) > 0 && GET_CLASS_RANKS(ch, CLASS_MONK) > 0)
   send_to_char(rec, "You are @Y%d@n years and @Y%d@n months old.\r\n", age(ch)->year, age(ch)->month);
   send_to_char(rec, "You have played for @Y%d@n days, @Y%d@n hours and @Y%d@n minutes.\r\n", (int) rec->time.played / 3600 / 24, 
 ((int)rec->time.played / 3600) % 24 , (int)((rec->time.played % 3600) / 60));
-  if (!IS_NPC(rec)) {
-    send_to_char(rec, "Your character was created on @Y%s@n", asctime(localtime(&(rec->time.created))));
+  if (!IS_NPC(rec)) 
+  {
+    char buf1[64]={'\0'};
+    strftime(buf1, sizeof(buf1), "%B %d %Y (%T)", localtime(&(rec->time.created)));
+    send_to_char(rec, "Your character was created on @Y%s@n.\r\n", buf1);
   }
   send_to_char(rec, "You have @Y%d@n gold coins and @Y%d@n more in the bank.\r\n", GET_GOLD(ch), GET_BANK_GOLD(ch));
   send_to_char(rec, "You have @Y%d@n experience, which is @Y%d.%d%%@n of what you need for level @Y%d@n.\r\n", GET_EXP(ch), int_xp, int_percent, GET_CLASS_LEVEL(ch) + 1);
