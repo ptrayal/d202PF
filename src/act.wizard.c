@@ -752,6 +752,7 @@ void do_stat_object(struct char_data *ch, struct obj_data *j)
   struct obj_data *j2;
   struct extra_descr_data *desc;
   char buf[MAX_STRING_LENGTH]={'\0'};
+  char timestr[25];
 
   vnum = GET_OBJ_VNUM(j);
   send_to_char(ch, "Name: '%s', Aliases: %s, Size: %s\r\n",
@@ -762,8 +763,10 @@ void do_stat_object(struct char_data *ch, struct obj_data *j)
   send_to_char(ch, "VNum: [@g%5d@n], RNum: [%5d], Idnum: [%5ld], Type: %s, SpecProc: %s\r\n",
 	vnum, GET_OBJ_RNUM(j), GET_ID(j), buf, GET_OBJ_SPEC(j) ? "Exists" : "None");
 
+  strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&j->generation));
+
   send_to_char(ch, "Generation time: @g%s@nUnique ID: @g%lld@n\r\n",
-    ctime(&j->generation), j->unique_id);
+    timestr, j->unique_id);
 
   send_to_char(ch, "Object Hit Points: [ @g%3d@n/@g%3d@n]\r\n",
    GET_OBJ_VAL(j, VAL_ALL_HEALTH), GET_OBJ_VAL(j, VAL_ALL_MAXHEALTH));
@@ -2192,6 +2195,7 @@ ACMD(do_last)
   char offend[30]={'\0'};
   char buf[500]={'\0'};
   char arg2[200]={'\0'};
+  char timestr[25];
 
   one_argument(argument, arg);
   if(*argument) {
@@ -2213,6 +2217,8 @@ ACMD(do_last)
     clear_char(vict);
     CREATE(vict->player_specials, struct player_special_data, 1);
 
+    strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&vict->time.logon));
+
     if(name && num_to_list == -1) {
       if (load_char(offend, vict) < 0) {
         send_to_char(ch, "There is no such player.\r\n");
@@ -2226,7 +2232,7 @@ ACMD(do_last)
         class_abbrevs_core[(int) GET_CLASS(vict)],
         GET_NAME(vict), vict->player_specials->host && *vict->player_specials->host
         ? vict->player_specials->host : "(NOHOST)",
-        ctime(&vict->time.logon));
+        timestr);
       free_char(vict);
       return;
     } 
@@ -2792,7 +2798,6 @@ ACMD(do_show)
     if (CONFIG_ALLOW_MULTICLASS)
       send_to_char(ch, "Class ranks: %s\r\n", class_desc_str(vict, 1, 0));
 
-    /* ctime() uses static buffer: do not combine. */
     send_to_char(ch, "Started:%-25.25s  ", buf1);
     send_to_char(ch, "Last: %-25.25s  Played: %3dh %2dm\r\n",
       buf2,
@@ -4384,7 +4389,7 @@ ACMD(do_test_dump)
 
 void check_auto_shutdown(void)
 {
-  char *tmstr;
+  char timestr[25];
   time_t mytime;
   int d, h, m;
 
@@ -4480,9 +4485,8 @@ void check_auto_shutdown(void)
       "**************************************************************\r\n"
       "**************************************************************\r\n"
       "@n");
-    tmstr = (char *) asctime(localtime(&mytime));
-    *(tmstr + strlen(tmstr) - 1) = '\0';
-    log("Automated Shutdown on %s.", tmstr);
+    strftime(timestr, sizeof(timestr), "%c", localtime(&mytime));
+    log("Automated Shutdown on %s.", timestr);
     send_to_all("Shutting down.\r\n");
     circle_shutdown = 1;
   }
