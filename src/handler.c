@@ -3003,6 +3003,7 @@ char *list_llog_entry()
   char buffer[12800]={'\0'};
   char storage_buffer[12800]={'\0'};
   extern const char *last_array[];
+  char timestr[25];
 
   if(!(fp=fopen(LAST_FILE,"r"))) 
   {
@@ -3014,11 +3015,13 @@ char *list_llog_entry()
 
   fread(&llast,sizeof(struct last_entry),1,fp);
 
+  strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&llast.time));
+
   while(!feof(fp)) 
   {
-    snprintf(storage_buffer, sizeof(storage_buffer),"%s%10s\t%s\t%d\t%s",
+    snprintf(storage_buffer, sizeof(storage_buffer),"%s%10s\t%s\t%d\t%s\r\n",
         buffer,llast.username,last_array[llast.close_type],
-        llast.punique,ctime(&llast.time));
+        llast.punique,timestr);
     fread(&llast,sizeof(struct last_entry),1,fp);
   }
   fclose(fp);

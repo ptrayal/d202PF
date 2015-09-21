@@ -2379,7 +2379,6 @@ void remove_player(int pfilepos)
       unlink(fname);
   }
 
-  // log("PCLEAN: %s Lev: %d Last: %s", player_table[pfilepos].name, player_table[pfilepos].level, asctime(localtime(&player_table[pfilepos].last)));
   log("PCLEAN: %s Lev: %d Last: %s", player_table[pfilepos].name, player_table[pfilepos].level, buffer);
   player_table[pfilepos].name[0] = '\0';
   save_player_index();
