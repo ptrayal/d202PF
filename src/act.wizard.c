@@ -968,13 +968,13 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
   {
     char buf1[64]={'\0'}, buf2[64]={'\0'};
 
-    strlcpy(buf1, asctime(localtime(&(k->time.created))), sizeof(buf1));
-    strlcpy(buf2, asctime(localtime(&(k->time.logon))), sizeof(buf2));
-    buf1[10] = buf2[10] = '\0';
+    strftime(buf1, sizeof(buf1), "%a %b %d %Y", localtime(&(k->time.created)));
+    strftime(buf2, sizeof(buf2), "%a %b %d %Y", localtime(&(k->time.logon)));
 
-    send_to_char(ch, "Created: [%s], Last Logon: [%s], Played [%dh %dm], Age [%d]\r\n",
-	    buf1, buf2, (int)k->time.played / 3600,
-	    (int)((k->time.played % 3600) / 60), age(k)->year);
+    // send_to_char(ch, "Created: [%s], Last Logon: [%s], Played [%dh %dm], Age [%d]\r\n",
+	   //  buf1, buf2, k->time.played / 3600, (k->time.played % 3600) / 60, age(k)->year);
+
+    send_to_char(ch, "Created: [%s], Last Logon: [%s]\r\n", buf1, buf2);
 
     send_to_char(ch, "Hometown: [%d], Align: [%4d], Ethic: [%4d]", GET_HOME(k),
                  GET_ALIGNMENT(k), GET_ETHIC_ALIGNMENT(k));
@@ -2138,7 +2138,7 @@ ACMD(do_wizlock)
 
 ACMD(do_date)
 {
-  char *tmstr;
+  char timestr[25];
   time_t mytime;
   int d = 0, h = 0 , m = 0;
 
@@ -2147,18 +2147,17 @@ ACMD(do_date)
   else
     mytime = boot_time;
 
-  tmstr = (char *) asctime(localtime(&mytime));
-  *(tmstr + strlen(tmstr) - 1) = '\0';
+  strftime(timestr, sizeof(timestr), "%c", localtime(&mytime));
 
   if (subcmd == SCMD_DATE)
-    send_to_char(ch, "Current machine time: %s\r\n", tmstr);
+    send_to_char(ch, "Current machine time: %s\r\n", timestr);
   else {
     mytime = time(0) - boot_time;
     d = mytime / 86400;
     h = (mytime / 3600) % 24;
     m = (mytime / 60) % 60;
 
-    send_to_char(ch, "Up since %s: %d day%s, %d:%02d\r\n", tmstr, d, d == 1 ? "" : "s", h, m);
+    send_to_char(ch, "Up since %s: %d day%s, %d:%02d\r\n", timestr, d, d == 1 ? "" : "s", h, m);
   }
 }
 
@@ -2763,6 +2762,8 @@ ACMD(do_show)
 
   /* show player */
   case 2:
+  {
+    char buf1[64], buf2[64];
     if (!*value) {
       send_to_char(ch, "A name would help.\r\n");
       return;
@@ -2776,6 +2777,10 @@ ACMD(do_show)
       free_char(vict);
       return;
     }
+
+    strftime(buf1, sizeof(buf1), "%a %b %d %H:%M:%S %Y", localtime(&(vict->time.created)));
+    strftime(buf2, sizeof(buf2), "%a %b %d %H:%H:%S %Y", localtime(&(vict->time.logon)));
+
     send_to_char(ch, "Player: %-12s (%s) [%2d %s %s]\r\n", GET_NAME(vict),
       genders[(int) GET_SEX(vict)], GET_LEVEL(vict), 
       CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol[(int) GET_CLASS(vict)] :
@@ -2788,15 +2793,16 @@ ACMD(do_show)
       send_to_char(ch, "Class ranks: %s\r\n", class_desc_str(vict, 1, 0));
 
     /* ctime() uses static buffer: do not combine. */
-    send_to_char(ch, "Started: %-20.16s  ", ctime(&vict->time.created));
-    send_to_char(ch, "Last: %-20.16s  Played: %3dh %2dm\r\n",
-      ctime(&vict->time.logon),
+    send_to_char(ch, "Started:%-25.25s  ", buf1);
+    send_to_char(ch, "Last: %-25.25s  Played: %3dh %2dm\r\n",
+      buf2,
       (int) (vict->time.played / 3600),
       (int) (vict->time.played / 60 % 60));
     free_char(vict);
     break;
 
   /* show rent */
+  }
   case 3:
     if (!*value) {
       send_to_char(ch, "A name would help.\r\n");

@@ -961,11 +961,11 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     return TRUE;
 
   case FEAT_EPIC_SKILL_FOCUS:
+    if (GET_LEVEL(ch) < 21)
+      return FALSE;
     if (!iarg)
       return TRUE;
     if (GET_SKILL(ch, iarg) >= 20)
-      return TRUE;
-    if (GET_LEVEL(ch) >= 21)
       return TRUE;
     return FALSE;
 

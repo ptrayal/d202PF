@@ -424,8 +424,6 @@ void log_death_trap(struct char_data *ch)
  */
 void basic_mud_vlog(const char *format, va_list args)
 {
-  // time_t ct = time(0);
-  // char *time_s = asctime(localtime(&ct));
   time_t rawtime;
   struct tm *info;
   char buffer[80]={'\0'};
@@ -443,8 +441,6 @@ void basic_mud_vlog(const char *format, va_list args)
 
   if (format == NULL)
     format = "SYSERR: log() received a NULL format.";
-
-  // time_s[strlen(time_s) - 1] = '\0';
 
   fprintf(logfile, "%-15.15s :: ", buffer + 4);
   vfprintf(logfile, format, args);

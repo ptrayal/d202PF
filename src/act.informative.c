@@ -3192,7 +3192,7 @@ ACMD(do_who)
 ACMD(do_users)
 {
     char line[200]={'\0'}, line2[220]={'\0'}, idletime[10]={'\0'};
-    char state[30], *timeptr, mode;
+    char state[30], timestr[9], mode;
     char name_search[MAX_INPUT_LENGTH]={'\0'}, host_search[MAX_INPUT_LENGTH]={'\0'};
     struct char_data *tch;
     struct descriptor_data *d;
@@ -3280,9 +3280,7 @@ strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
                         continue;
                 }
 
-                timeptr = asctime(localtime(&d->login_time));
-                timeptr += 11;
-                *(timeptr + 8) = '\0';
+                strftime(timestr, sizeof(timestr), "%H:%M:%S", localtime(&(d->login_time)));
 
                 if (STATE(d) == CON_PLAYING && d->original)
                     strcpy(state, "Switched");
@@ -3297,7 +3295,7 @@ strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
                     strcpy(idletime, "");
 
                 sprintf(line, "%-12s %-14s %-3s %-8s %1s ", d->original && d->original->name ? d->original->name : d->character && d->character->name ? d->character->name : "UNDEFINED",
-                    state, idletime, timeptr, d->comp->state ? d->comp->state == 1 ? "?" : "Y" : "N");
+                    state, idletime, timestr, d->comp->state ? d->comp->state == 1 ? "?" : "Y" : "N");
 
                 if (d->host && *d->host)
                     sprintf(line + strlen(line), "[%s]", d->host);
