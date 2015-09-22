@@ -3036,8 +3036,10 @@ ACMD(do_show)
     k = MAX_STRING_LENGTH;
     CREATE(strp, char, k);
     strp[0] = j = 0;
-    if (!vict) {
+    if (!vict) 
+    {
       send_to_char(ch, "None.\r\n");
+      free(strp);
       return;
     }
     do {
@@ -3073,7 +3075,6 @@ ACMD(do_show)
         vict = vict->next_affectv;
     } while (low && vict);
     page_string(ch->desc, strp, TRUE);
-    free(strp);
     break;
 
   /* show what? */

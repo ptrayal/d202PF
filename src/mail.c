@@ -604,6 +604,7 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
     if ((recipient = get_id_by_name(buf)) < 0 || !mail_recip_ok(buf)) 
     {
       act("No one by that name is registered here!", FALSE, mailman, 0, ch, TO_VICT);
+      free(mailwrite);
       return;  /* MEMORY LEAK HERE */
     }
     act("$n starts to write some mail.", TRUE, ch, 0, 0, TO_ROOM);
@@ -613,7 +614,6 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
     RECREATE(mailwrite, char *, 1);
     string_write(ch->desc, mailwrite, MAX_MAIL_SIZE, recipient, NULL);
   }
-  free(mailwrite);
 
 }
 

@@ -2969,7 +2969,8 @@ void add_llog_entry(struct char_data *ch, int type)
      that we're counting, which is last to first) */
   llast = find_llog_entry(GET_PREF(ch), GET_IDNUM(ch),0);
 
-  if(llast == NULL) {  /* no entry found, add ..error if close! */
+  if(llast == NULL) 
+  {  /* no entry found, add ..error if close! */
     CREATE(llast,struct last_entry,1);
     strncpy(llast->username,GET_NAME(ch),16);
     strncpy(llast->hostname,GET_HOST(ch),128);
@@ -2987,11 +2988,13 @@ void add_llog_entry(struct char_data *ch, int type)
     }
     fwrite(llast,sizeof(struct last_entry),1,fp);
     fclose(fp);
+    free(llast);
     return;
-  } else {
+  } 
+  else 
+  {
     /* we're modifying a found entry */
     mod_llog_entry(llast,type);
-    free(llast);
   }
 }
 

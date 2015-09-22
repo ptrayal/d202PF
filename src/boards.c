@@ -686,9 +686,11 @@ int mesglookup(struct board_msg *message,struct char_data *ch, struct board_info
      if they're not true, we go to the linked next slot, and repeat */
 
   mboard_type=BOARD_MEMORY(board,mem);
-  while(mboard_type && BOARD_VERSION(board) != CURRENT_BOARD_VER) {
+  while(mboard_type && BOARD_VERSION(board) != CURRENT_BOARD_VER) 
+  {
     if(MEMORY_READER(mboard_type)==GET_IDNUM(ch) &&
-       MEMORY_TIMESTAMP(mboard_type)==MESG_TIMESTAMP(message)) {
+       MEMORY_TIMESTAMP(mboard_type)==MESG_TIMESTAMP(message)) 
+    {
       return 1;
     } else {
       mboard_type=MEMORY_NEXT(mboard_type);
@@ -696,16 +698,20 @@ int mesglookup(struct board_msg *message,struct char_data *ch, struct board_info
   }
 
   tempname = strdup(GET_NAME(ch));
-  while(mboard_type && BOARD_VERSION(board) == CURRENT_BOARD_VER) {
+  while(mboard_type && BOARD_VERSION(board) == CURRENT_BOARD_VER) 
+  {
     if (!strcmp(MEMORY_READER_NAME(mboard_type), tempname) &&  
-        MEMORY_TIMESTAMP(mboard_type) == MESG_TIMESTAMP(message)) {
+        MEMORY_TIMESTAMP(mboard_type) == MESG_TIMESTAMP(message)) 
+    {
+      free(tempname);
       return 1;
-    } else {
+    } 
+    else 
+    {
       mboard_type=MEMORY_NEXT(mboard_type);
     }
   }
   
-  free(tempname);
   return 0;
 }
 

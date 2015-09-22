@@ -5551,6 +5551,7 @@ struct wild_shape_mods *set_wild_shape_mods(int race)
       break;
   }
   return abil_mods;
+  free(abil_mods);
 }
 
 
