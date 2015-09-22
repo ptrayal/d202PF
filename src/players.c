@@ -1889,7 +1889,7 @@ void save_char(struct char_data * ch)
 
   // Save Innate Abils
   fprintf(fl, "InAb:\n");
-  for (i = 0; i <= (MAX_SPELLS+100); i++) {
+  for (i = 0; i <= MAX_SPELLS; i++) {
     if (GET_INNATE(ch, i) > 0) {
       fprintf(fl, "%d %d\n", i, GET_INNATE(ch, i));
     }

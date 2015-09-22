@@ -712,6 +712,7 @@ int mesglookup(struct board_msg *message,struct char_data *ch, struct board_info
     }
   }
   
+  free(tempname);
   return 0;
 }
 

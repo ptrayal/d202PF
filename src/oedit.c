@@ -2187,7 +2187,7 @@ void petset_parse(struct descriptor_data *d, char *arg)
           send_to_char(ch, "%s", fHeader);
 					send_to_char(ch, "|@W%-25s %-5s %-4s %-3s %-3s %-3s %-3s@n|\r\n", "Name", "Level", "Type", "Str", "Dex", "Con", "Hit");
           send_to_char(ch, "%s", fHeader);
-					for(i = 0; i < 100; i++)
+					for(i = 0; i < 8; i++)
 					{
 						if((pet_table[i].name = NULL))
               break;
@@ -2206,7 +2206,7 @@ void petset_parse(struct descriptor_data *d, char *arg)
 			}
 			if( !(tSet = atoi(arg2)))
 			{                            
-                            for(i = 0; i < 100; i++)
+                            for(i = 0; i < 8; i++)
                             {
                                 buf = pet_table[i].name;
                                 if(buf[0] == '\0' || strcmp(buf, "null") == 0) break;

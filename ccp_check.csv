@@ -1,7 +1,3 @@
-src\act.offensive.c,576,warning,Comparison of a boolean expression with an integer other than 0 or 1.
-src\act.offensive.c,163,warning,Possible null pointer dereference: opponent - otherwise it is redundant to check it against null.
-src\act.offensive.c,163,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\act.offensive.c,396,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
 src\act.other.c,2344,error,Possible null pointer dereference: inn
 src\act.other.c,2348,error,Possible null pointer dereference: inn
 src\act.other.c,2352,error,Possible null pointer dereference: inn
@@ -19,11 +15,9 @@ src\act.other.c,2406,error,Possible null pointer dereference: inn
 src\act.other.c,2411,error,Possible null pointer dereference: inn
 src\act.other.c,2416,error,Possible null pointer dereference: inn
 src\act.other.c,2421,error,Possible null pointer dereference: inn
-src\act.other.c,3300,performance,Buffer 'buf2' is being written before its old content has been used.
-src\act.other.c,3349,performance,Buffer 'buf2' is being written before its old content has been used.
 src\act.other.c,4805,error,Array 'race_list[158]' accessed at index 158, which is out of bounds.
 src\act.other.c,1751,error,Resource leak: req_file
-src\act.other.c,5658,error,Memory leak: abil_mods
+src\act.other.c,5659,error,Memory leak: abil_mods
 src\act.other.c,3305,error,Undefined behavior: Variable 'buf2' is used as parameter and destination in s[n]printf().
 src\act.other.c,3306,error,Undefined behavior: Variable 'buf2' is used as parameter and destination in s[n]printf().
 src\act.other.c,3353,error,Undefined behavior: Variable 'buf2' is used as parameter and destination in s[n]printf().
@@ -46,12 +40,6 @@ src\act.other.c,5209,error,Undefined behavior: Variable 'buf' is used as paramet
 src\act.other.c,5241,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\act.other.c,5273,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\act.other.c,5305,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\asciimap.c,542,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\assedit.c,295,warning,Logical disjunction always evaluates to true: pos >= 0 || pos < 20.
-src\ban.c,64,warning,scanf without field width limits can crash with huge input data.
-src\cedit.c,455,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\cedit.c,457,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\cedit.c,617,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
 src\char_descs.c,358,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
 src\char_descs.c,361,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
 src\char_descs.c,364,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
@@ -77,12 +65,8 @@ src\char_descs.c,502,error,Undefined behavior: Variable 'buf' is used as paramet
 src\char_descs.c,512,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\char_descs.c,522,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\char_descs.c,532,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\class.c,3880,warning,Redundant assignment of 'add_prac' to itself.
-src\class.c,3901,warning,Redundant assignment of 'add_gen_feats' to itself.
-src\class.c,3902,warning,Redundant assignment of 'add_class_feats' to itself.
 src\class.c,5785,error,Array 'prestige_classes_dl_aol[58]' accessed at index 58, which is out of bounds.
 src\class.c,4549,error,Array 'save_classes[2][58]' index save_classes[2][57] out of bounds.
-src\class.c,4483,warning,scanf without field width limits can crash with huge input data.
 src\class.c,3513,error,Undefined behavior: Variable 'featbuf' is used as parameter and destination in s[n]printf().
 src\class.c,3517,error,Undefined behavior: Variable 'featbuf' is used as parameter and destination in s[n]printf().
 src\class.c,3522,error,Undefined behavior: Variable 'featbuf' is used as parameter and destination in s[n]printf().
@@ -101,183 +85,17 @@ src\class.c,3596,error,Undefined behavior: Variable 'featbuf' is used as paramet
 src\class.c,3601,error,Undefined behavior: Variable 'featbuf' is used as parameter and destination in s[n]printf().
 src\class.c,3603,error,Undefined behavior: Variable 'featbuf' is used as parameter and destination in s[n]printf().
 src\class.c,3717,error,Undefined behavior: Variable 'featbuf' is used as parameter and destination in s[n]printf().
-src\dg_db_scripts.c,55,warning,scanf without field width limits can crash with huge input data.
-src\dg_db_scripts.c,233,warning,scanf without field width limits can crash with huge input data.
-src\dg_olc.c,369,warning,Logical disjunction always evaluates to true: EXPR >= 0 || EXPR <= 2.
-src\dg_scripts.c,1233,warning,Possible null pointer dereference: name - otherwise it is redundant to check it against null.
-src\dg_scripts.c,1458,performance,Variable 'p' is reassigned a value before the old one has been used.
-src\dg_triggers.c,334,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\dg_variables.c,1257,warning,Possible null pointer dereference: subfield - otherwise it is redundant to check it against null.
-src\fight.c,1014,warning,Possible null pointer dereference: killer - otherwise it is redundant to check it against null.
-src\fight.c,1162,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,1188,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,1188,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,1188,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,1202,warning,Possible null pointer dereference: killer - otherwise it is redundant to check it against null.
-src\fight.c,1214,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1214,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1214,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1214,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1214,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,1421,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,3294,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,3294,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,3294,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,3594,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,3594,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,3666,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,3594,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,3594,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,5228,warning,Possible null pointer dereference: victim - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,6077,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\fight.c,1609,performance,Buffer 'buf' is being written before its old content has been used.
-src\fight.c,394,warning,Redundant assignment of 'armorclass' to itself.
-src\fight.c,536,warning,Redundant assignment of 'armorclass' to itself.
-src\fight.c,595,warning,Redundant assignment of 'armorclass' to itself.
-src\fight.c,653,warning,Redundant assignment of 'armorclass' to itself.
-src\fight.c,2559,warning,Redundant assignment of 'calc_bonus' to itself.
-src\fight.c,2630,warning,Redundant assignment of 'calc_bonus' to itself.
-src\fight.c,2688,warning,Redundant assignment of 'calc_bonus' to itself.
-src\fight.c,2746,warning,Redundant assignment of 'calc_bonus' to itself.
-src\fight.c,278,error,Array 'armor.affected[6]' accessed at index 6, which is out of bounds.
-src\fight.c,312,error,Array 'shield.affected[6]' accessed at index 6, which is out of bounds.
-src\fight.c,1609,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1611,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1613,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1615,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1617,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1619,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1621,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1624,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1627,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1629,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1631,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1633,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1635,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1643,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1645,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1647,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1651,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1653,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1655,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1657,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1659,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1661,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1663,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1665,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1669,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1672,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1674,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1676,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1678,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1680,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1690,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1692,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1694,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1698,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1700,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1702,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1704,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1706,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1708,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1710,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1712,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1715,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1718,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1720,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1722,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1724,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,1726,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\fight.c,3714,error,Undefined behavior: Variable 'damstr' is used as parameter and destination in s[n]printf().
-src\fight.c,3716,error,Undefined behavior: Variable 'damstr' is used as parameter and destination in s[n]printf().
-src\fight.c,4355,error,Uninitialized variable: ch
-src\guild.c,1623,performance,Buffer 'buf' is being written before its old content has been used.
-src\guild.c,1563,warning,Array 'buf[64000]' accessed at index 64000, which is out of bounds. Otherwise condition 'len>=64000' is redundant.
 src\guild.c,1623,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\guild.c,1625,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\guild.c,1626,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\guild.c,1630,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\guild.c,1635,error,Undefined behavior: Variable 'buf2' is used as parameter and destination in s[n]printf().
-src\handler.c,82,warning,Possible null pointer dereference: str - otherwise it is redundant to check it against null.
-src\handler.c,82,warning,Possible null pointer dereference: namelist - otherwise it is redundant to check it against null.
-src\handler.c,750,warning,Possible null pointer dereference: hjp - otherwise it is redundant to check it against null.
 src\handler.c,2481,error,Array 'num_skill[1000]' accessed at index 1000, which is out of bounds.
 src\handler.c,2489,error,Array 'num_feat[368]' accessed at index 368, which is out of bounds.
 src\handler.c,2665,error,Array 'num_skill[1000]' accessed at index 1000, which is out of bounds.
 src\handler.c,2673,error,Array 'num_feat[368]' accessed at index 368, which is out of bounds.
-src\handler.c,2990,error,Memory leak: llast
-src\hedit.c,73,warning,Possible null pointer dereference: d - otherwise it is redundant to check it against null.
-src\hedit.c,73,warning,Possible null pointer dereference: d - otherwise it is redundant to check it against null.
-src\house.c,728,warning,%lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
-src\improved-edit.c,385,warning,Possible null pointer dereference: s - otherwise it is redundant to check it against null.
-src\improved-edit.c,638,error,Memory leak: replace_buffer
 src\improved-edit.c,333,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
-src\interpreter.c,4566,warning,scanf without field width limits can crash with huge input data.
-src\limits.c,788,performance,Variable 'total_bonus' is reassigned a value before the old one has been used.
-src\limits.c,114,warning,Redundant assignment of 'gain' to itself.
-src\limits.c,290,warning,Redundant assignment of 'gain' to itself.
-src\magic.c,221,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\magic.c,2881,warning,Possible null pointer dereference: mob - otherwise it is redundant to check it against null.
-src\magic.c,2881,warning,Possible null pointer dereference: mob - otherwise it is redundant to check it against null.
-src\mail.c,607,error,Memory leak: mailwrite
-src\memorization.c,221,warning,Redundant assignment of 'mem' to itself.
-src\mobact.c,74,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\mobact.c,77,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\mobact.c,130,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\mobact.c,471,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
-src\objsave.c,1193,warning,%lld in format string (no. 1) requires 'long long *' but the argument type is 'unsigned long long *'.
-src\oedit.c,2192,error,Array 'pet_table[8]' accessed at index 99, which is out of bounds.
-src\oedit.c,2211,error,Array 'pet_table[8]' accessed at index 99, which is out of bounds.
-src\players.c,1636,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1637,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1638,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1658,warning,%ld in format string (no. 1) requires 'long' but the argument type is 'unsigned long'.
-src\players.c,1819,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1828,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1831,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1832,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1834,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1837,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1838,warning,%d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
-src\players.c,1893,error,Array 'ch.player_specials.innate_abilities[700]' accessed at index 700, which is out of bounds.
-src\players.c,122,warning,scanf without field width limits can crash with huge input data.
-src\players.c,681,warning,scanf without field width limits can crash with huge input data.
-src\players.c,690,warning,scanf without field width limits can crash with huge input data.
-src\players.c,699,warning,scanf without field width limits can crash with huge input data.
-src\players.c,800,warning,scanf without field width limits can crash with huge input data.
-src\players.c,833,warning,scanf without field width limits can crash with huge input data.
-src\players.c,1116,warning,scanf without field width limits can crash with huge input data.
-src\players.c,1217,warning,scanf without field width limits can crash with huge input data.
-src\protocol.c,1058,warning,Possible null pointer dereference: apLength - otherwise it is redundant to check it against null.
-src\quest.c,164,warning,scanf without field width limits can crash with huge input data.
-src\redit.c,483,performance,Variable 'rnum' is reassigned a value before the old one has been used.
 src\shop.c,449,error,Possible null pointer dereference: name
-src\shop.c,1466,warning,Array 'buf[256]' accessed at index 256, which is out of bounds. Otherwise condition 'len>=256' is redundant.
-src\spell_parser.c,548,warning,Possible null pointer dereference: obj - otherwise it is redundant to check it against null.
-src\spells.c,540,warning,Possible null pointer dereference: obj - otherwise it is redundant to check it against null.
-src\spells.c,826,warning,Possible null pointer dereference: ch - otherwise it is redundant to check it against null.
 src\treasure.c,917,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
 src\treasure.c,931,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
 src\treasure.c,942,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
@@ -287,15 +105,9 @@ src\treasure.c,956,error,Undefined behavior: Variable 'desc' is used as paramete
 src\treasure.c,970,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
 src\treasure.c,980,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
 src\treasure.c,1047,error,Undefined behavior: Variable 'desc' is used as parameter and destination in s[n]printf().
-src\utils.c,3097,warning,Possible null pointer dereference: arg - otherwise it is redundant to check it against null.
-src\utils.c,1735,performance,Variable 'lp' is reassigned a value before the old one has been used.
-src\utils.c,1769,performance,Variable 'lp' is reassigned a value before the old one has been used.
-src\utils.c,1408,warning,Redundant assignment of 'amount' to itself.
 src\utils.c,3492,error,Pointer to local array variable returned.
 src\utils.c,3522,error,Pointer to local array variable returned.
 src\zedit.c,461,error,Undefined behavior: Variable 'levelRanges' is used as parameter and destination in s[n]printf().
 src\zedit.c,466,error,Undefined behavior: Variable 'levelRanges' is used as parameter and destination in s[n]printf().
-src\util\autowiz.c,108,warning,scanf without field width limits can crash with huge input data.
 src\util\listrent.c,67,error,Undefined behavior: Variable 'buf' is used as parameter and destination in s[n]printf().
 src\util\sign.c,110,error,Resource leak: fl
-src\util\wld2html.c,318,warning,scanf without field width limits can crash with huge input data.
