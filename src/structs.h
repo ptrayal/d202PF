@@ -35,10 +35,10 @@
 #define CWG_VERSION "CWG Rasputin - 1.2.28b"
 
 /* Only one campaign should ever be defined at any given time.  Having more than one of
-*    these set will prevent your mud from operating correctly.
-*/
+ *    these set will prevent your mud from operating correctly.
+ */
 
-#define CAMPAIGN_NONE             0  // Do not use.  Mostly for record keeping
+#define CAMPAIGN_NONE             0  /* Do not use.  Mostly for record keeping. */
 #define CAMPAIGN_FORGOTTEN_REALMS 1
 #define CAMPAIGN_DRAGONLANCE      2
 #define CAMPAIGN_GOLARION         3

@@ -135,75 +135,75 @@ typedef enum
    eMSDP_SNIPPET_VERSION, 
 
    /* Character */
-   eMSDP_AFFECTS, 		// 5
+   eMSDP_AFFECTS, 		/* 5 */
    eMSDP_ALIGNMENT, 
    eMSDP_EXPERIENCE, 
    eMSDP_EXPERIENCE_MAX, 
    eMSDP_EXPERIENCE_TNL, 
-   eMSDP_HEALTH, 		// 10
+   eMSDP_HEALTH, 		/* 10 */
    eMSDP_HEALTH_MAX, 
    eMSDP_LEVEL, 
    eMSDP_RACE, 
    eMSDP_CLASS, 
-   eMSDP_MANA, 			// 15
+   eMSDP_MANA, 			/* 15 */
    eMSDP_MANA_MAX, 
    eMSDP_WIMPY, 
    eMSDP_PRACTICE, 
    eMSDP_MONEY, 
-   eMSDP_BANK, 			// 20
+   eMSDP_BANK, 			/* 20 */
    eMSDP_MOVEMENT, 
    eMSDP_MOVEMENT_MAX, 
    eMSDP_HITROLL, 
    eMSDP_DAMROLL, 
-   eMSDP_AC, 			// 25
+   eMSDP_AC, 			/* 25 */
    eMSDP_FORT,
    eMSDP_WILL,
    eMSDP_STR, 
    eMSDP_INT, 
-   eMSDP_WIS, 			// 30
+   eMSDP_WIS, 			/* 30 */
    eMSDP_DEX, 
    eMSDP_CON, 
    eMSDP_CHA,
    eMSDP_STR_PERM, 
-   eMSDP_INT_PERM, 		// 35
+   eMSDP_INT_PERM, 		/* 35 */
    eMSDP_WIS_PERM, 
    eMSDP_DEX_PERM, 
    eMSDP_CON_PERM, 
    eMSDP_CHA_PERM,
 		
    /* Combat */
-   eMSDP_OPPONENT_HEALTH, 	// 40
+   eMSDP_OPPONENT_HEALTH, 	/* 40 */
    eMSDP_OPPONENT_HEALTH_MAX, 
    eMSDP_OPPONENT_LEVEL, 
    eMSDP_OPPONENT_NAME, 
 
    /* World */
    eMSDP_AREA_NAME, 
-   eMSDP_ROOM_EXITS, 		// 45
+   eMSDP_ROOM_EXITS, 		/* 45 */
    eMSDP_ROOM_NAME, 
    eMSDP_ROOM_VNUM, 
    eMSDP_WORLD_TIME, 
    eMSDP_ROOM_MAP,
 
    /* Configuration */
-   eMSDP_CLIENT_ID, 		// 50
+   eMSDP_CLIENT_ID, 		/* 50 */
    eMSDP_CLIENT_VERSION, 
    eMSDP_PLUGIN_ID, 
    eMSDP_ANSI_COLORS, 
    eMSDP_XTERM_256_COLORS, 
-   eMSDP_UTF_8, 		// 55
+   eMSDP_UTF_8, 		/* 55 */
    eMSDP_SOUND, 
    eMSDP_MXP, 
 
    /* GUI variables */
    eMSDP_BUTTON_1, 
    eMSDP_BUTTON_2, 
-   eMSDP_BUTTON_3, 		// 60
+   eMSDP_BUTTON_3, 		/* 60 */
    eMSDP_BUTTON_4, 
    eMSDP_BUTTON_5, 
    eMSDP_GAUGE_1, 
    eMSDP_GAUGE_2, 
-   eMSDP_GAUGE_3, 		// 65
+   eMSDP_GAUGE_3, 		/* 65 */
    eMSDP_GAUGE_4, 
    eMSDP_GAUGE_5, 
 
@@ -212,37 +212,37 @@ typedef enum
   eMSDP_NOCAMP,
 
   // Group Variables
-  eMSDP_GROUP1_NAME,		// 70
+  eMSDP_GROUP1_NAME,		/* 70 */
   eMSDP_GROUP1_CUR_HP,
   eMSDP_GROUP1_MAX_HP,
   eMSDP_GROUP1_CUR_MV,
   eMSDP_GROUP1_MAX_MV,
-  eMSDP_GROUP1_TNL,		// 75
+  eMSDP_GROUP1_TNL,		/* 75 */
   eMSDP_GROUP2_NAME,
   eMSDP_GROUP2_CUR_HP,
   eMSDP_GROUP2_MAX_HP,
   eMSDP_GROUP2_CUR_MV,
-  eMSDP_GROUP2_MAX_MV,		// 80
+  eMSDP_GROUP2_MAX_MV,		/* 80 */
   eMSDP_GROUP2_TNL,
   eMSDP_GROUP3_NAME,
   eMSDP_GROUP3_CUR_HP,
   eMSDP_GROUP3_MAX_HP,
-  eMSDP_GROUP3_CUR_MV,		// 85
+  eMSDP_GROUP3_CUR_MV,		/* 85 */
   eMSDP_GROUP3_MAX_MV,
   eMSDP_GROUP3_TNL,
   eMSDP_GROUP4_NAME,
   eMSDP_GROUP4_CUR_HP,
-  eMSDP_GROUP4_MAX_HP,		// 90
+  eMSDP_GROUP4_MAX_HP,		/* 90 */
   eMSDP_GROUP4_CUR_MV,
   eMSDP_GROUP4_MAX_MV,
   eMSDP_GROUP4_TNL,
   eMSDP_GROUP5_NAME,
-  eMSDP_GROUP5_CUR_HP,		// 95
+  eMSDP_GROUP5_CUR_HP,		/* 95 */
   eMSDP_GROUP5_MAX_HP,
   eMSDP_GROUP5_CUR_MV,
   eMSDP_GROUP5_MAX_MV,
   eMSDP_GROUP5_TNL,
-  eMSDP_CAMPAIGN,		// 100
+  eMSDP_CAMPAIGN,		/* 100 */
 
    eMSDP_MAX                   /* This must always be last */
 } variable_t;

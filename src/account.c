@@ -18,7 +18,7 @@
 #include "screen.h"
 #include "grid.h"
 
-//Last editted by Jeremy
+/* Last editted by Jeremy */
 
 extern MYSQL *conn;
 extern int circle_shutdown, circle_reboot;
@@ -53,7 +53,7 @@ int load_account(char *name, struct account_data *account)
   if (!get_filename(fname, sizeof(fname), ACT_FILE, name))
     return (-1);
   if (!(fl = fopen(fname, "r"))) {
-//    mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open account file %s", fname);
+/*    mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open account file %s", fname); */
     return (-1);
   }
   while (get_line(fl, line)) {
@@ -195,7 +195,7 @@ void save_account(struct account_data *account)
       fprintf(fl, "%s\n", account->character_names[i]);
   fprintf(fl, "-1\n");
 
-  // Save Poll Data
+/*   Save Poll Data */
   fprintf(fl, "Poll:\n");
   for (i = 0; i <= NUM_POLLS; i++) {
     if (account->polls[i] > 0)
@@ -203,14 +203,14 @@ void save_account(struct account_data *account)
   }
   fprintf(fl, "-1 -1\n");
 
-  // Save Unlocked Races
+/*   Save Unlocked Races */
   fprintf(fl, "Race:\n");
   for (i = 0; i < MAX_UNLOCKED_RACES; i++) {
     fprintf(fl, "%d\n", account->races[i]);
   }
   fprintf(fl, "-1\n");
 
-  // Save Unlocked Classes
+/*  Save Unlocked Classes */
   fprintf(fl, "Clas:\n");
   for (i = 0; i < MAX_UNLOCKED_CLASSES; i++) {
     fprintf(fl, "%d\n", account->classes[i]);
@@ -243,7 +243,7 @@ void show_account_menu(struct descriptor_data *d)
     write_to_output(d, "Characters:\r\n");
     write_to_output(d, "-----------\r\n");
 
-// Open mysql connection
+/* Open mysql connection*/
     conn = mysql_init(NULL);
 
 /* Connect to database */
@@ -363,10 +363,10 @@ ACMD(do_account)
   row = create_row(grid);
   row_append_cell(row, 20, "Gift Experience");
   row_append_cell(row, 55, "%d", acc->gift_experience);
-  // Not currently using this code.
-  // row = create_row(grid);
-  // row_append_cell(row, 20, "Web Password");
-  // row_append_cell(row, 55, "%s", acc->web_password);
+  /* Not currently using this code.
+   row = create_row(grid);
+   row_append_cell(row, 20, "Web Password");
+   row_append_cell(row, 55, "%s", acc->web_password); */
   row = create_row(grid);
   row_append_cell(row, 75, "@GCharacters@n");
   row = create_row(grid);

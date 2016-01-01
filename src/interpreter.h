@@ -91,7 +91,7 @@ struct alias_data {
  *   subcommands are independent from function to function.
  */
 
-// Score
+/* Score */
 #define SCMD_SCORE_TEXT       1
 #define SCMD_SCORE_NUMBERS    2
 

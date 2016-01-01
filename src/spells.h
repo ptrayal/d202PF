@@ -474,7 +474,7 @@
 #define SKILL_LANG_AURAN        615
 #define SKILL_LANG_GNOLL        616
 #define SKILL_LANG_GIANT        617
-#define SKILL_LANG_KOBOLD       618  // Use Draconic and/or replace
+#define SKILL_LANG_KOBOLD       618  /* Use Draconic and/or replace */
 #define SKILL_LANG_IGNAN        619
 #define SKILL_LANG_INFERNAL     620
 #define SKILL_LANG_SYLVAN       621

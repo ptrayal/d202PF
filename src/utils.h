@@ -78,7 +78,7 @@ int get_feat_value(struct char_data *ch, int featnum);
 void fight_output(const char *str, struct char_data *ch, struct char_data *vict, int type);
 int can_enter_dungeon(struct char_data *ch, int room);
 void send_to_world(char *message);
-int is_class_feat(int featnum, int class); // feats.c
+int is_class_feat(int featnum, int class); /* feats.c */
 void award_rp_points(struct char_data *ch, int points, int add);
 double get_artisan_exp(struct char_data *ch);
 char *get_attack_text(struct char_data *ch);
@@ -724,7 +724,7 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
 
 #define CAN_CARRY_W(ch) (max_carry_weight(ch))
 #define CAN_CARRY_N(ch) (GET_DEX(ch) * 10 + GET_LEVEL(ch) * 10)
-//#define CAN_CARRY_N(ch) (5 + (GET_DEX(ch) >> 1) + (GET_LEVEL(ch) >> 1))
+/*#define CAN_CARRY_N(ch) (5 + (GET_DEX(ch) >> 1) + (GET_LEVEL(ch) >> 1))*/
 #define AWAKE(ch) (GET_POS(ch) > POS_SLEEPING)
 #define CAN_SEE_IN_DARK(ch) \
    ((!affected_by_spell((struct char_data *) ch, SPELL_BLINDNESS) || HAS_FEAT(ch, FEAT_BLINDSENSE)) \
@@ -732,7 +732,7 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
    (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)) || has_daylight((struct char_data *) ch) || \
    has_light((struct char_data *) ch) || (!ROOM_FLAGGED(IN_ROOM(ch), ROOM_DARK) && SECT(IN_ROOM(ch)) != SECT_FOREST \
     && SECT(IN_ROOM(ch)) != SECT_UNDERWATER)))
-   // feat 139 is low light vision
+/*    feat 139 is low light vision*/
 
 #define IS_GOOD(ch)    (GET_ALIGNMENT(ch) >= 250)
 #define IS_EVIL(ch)    (GET_ALIGNMENT(ch) <= -250)
@@ -1186,27 +1186,27 @@ void get_pers_II(struct char_data* ch, const struct char_data* vi, char** chname
 #define GET_FAVORED_SOUL_SPELLS(ch, i) (ch->player_specials->favored_soul_spells[i])
 #define GET_ASSASSIN_SPELLS(ch, i) (ch->player_specials->assassin_spells[i])
 
-// Wizard Memorization
+/* Wizard Memorization*/
 #define GET_SPELLMEM(ch, i)	((ch->player_specials->spellmem[i]))
 #define GET_MEMCURSOR(ch)	((ch->player_specials->memcursor))
 
-// Cleric Memorization
+/* Cleric Memorization*/
 #define GET_SPELLMEM_C(ch, i)	((ch->player_specials->spellmem_c[i]))
 #define GET_MEMCURSOR_C(ch)	((ch->player_specials->memcursor_c))
 
-// Paladin Memorization
+/* Paladin Memorization*/
 #define GET_SPELLMEM_P(ch, i)	((ch->player_specials->spellmem_p[i]))
 #define GET_MEMCURSOR_P(ch)	((ch->player_specials->memcursor_p))
 
-// Druid Memorization
+/* Druid Memorization*/
 #define GET_SPELLMEM_D(ch, i)	((ch->player_specials->spellmem_d[i]))
 #define GET_MEMCURSOR_D(ch)	((ch->player_specials->memcursor_d))
 
-// Ranger Memorization
+/* Ranger Memorization*/
 #define GET_SPELLMEM_R(ch, i)	((ch->player_specials->spellmem_r[i]))
 #define GET_MEMCURSOR_R(ch)	((ch->player_specials->memcursor_r))
 
-// Bard Memorization
+/* Bard Memorization*/
 #define GET_SPELLMEM_B(ch, i)	((ch->player_specials->spellmem_b[i]))
 #define GET_MEMCURSOR_B(ch)	((ch->player_specials->memcursor_b))
 

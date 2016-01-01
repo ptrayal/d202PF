@@ -6,7 +6,7 @@
 	#define MSL MAX_STRING_LENGTH
 #endif
  
-#define DEFAULT_GRID_SIZE = 120 //characters
+#define DEFAULT_GRID_SIZE = 120		/* characters */
  
  
 typedef struct grid_data GRID_DATA;

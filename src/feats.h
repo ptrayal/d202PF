@@ -219,15 +219,15 @@ extern struct feat_info feat_list[];
 #define FEAT_EVASION        205
 #define FEAT_IMPROVED_EVASION     206
 #define FEAT_ACROBATIC        207
-// #define FEAT_AGILE                208
+/* #define FEAT_AGILE                208 */
 #define FEAT_ANIMAL_AFFINITY      209
-// #define FEAT_ATHLETIC       210
+/* #define FEAT_ATHLETIC       210 */
 #define FEAT_AUGMENT_SUMMONING      211
 #define FEAT_COMBAT_EXPERTISE     212
 #define FEAT_DECEITFUL        213
 #define FEAT_DEFT_HANDS       214
 #define FEAT_DIEHARD        215
-// #define FEAT_DILIGENT       216
+/* #define FEAT_DILIGENT       216 */
 #define FEAT_ESCHEW_MATERIALS     217
 #define FEAT_WEAPON_PROFICIENCY_EXOTIC    218
 #define FEAT_GREATER_SPELL_FOCUS    219
@@ -244,12 +244,12 @@ extern struct feat_info feat_list[];
 #define FEAT_IMPROVED_SHIELD_BASH   230
 #define FEAT_IMPROVED_SUNDER      231
 #define FEAT_IMPROVED_TURNING     232
-// #define FEAT_INVESTIGATOR     233
+/* #define FEAT_INVESTIGATOR     233 */
 #define FEAT_MAGICAL_APTITUDE     234
 #define FEAT_MANYSHOT       235
 #define FEAT_NATURAL_SPELL      236
-// #define FEAT_NEGOTIATOR       237
-// #define FEAT_NIMBLE_FINGERS     238
+/* #define FEAT_NEGOTIATOR       237 */
+/* #define FEAT_NIMBLE_FINGERS     238 */
 #define FEAT_PERSUASIVE       239
 #define FEAT_RAPID_RELOAD     240
 #define FEAT_SELF_SUFFICIENT      241

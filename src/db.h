@@ -125,7 +125,7 @@
 #define TIME_FILE	LIB_ETC"time"	   /* for calendar system	*/
 #define ASSEMBLIES_FILE LIB_ETC"assemblies" /* Assemblies engine 	*/
 #define LEVEL_CONFIG	LIB_ETC"levels"	   /* set various level values  */
-#define AUCTION_FILE    LIB_ETC"auction"   // for the auction house
+#define AUCTION_FILE    LIB_ETC"auction"   /* for the auction house */
 
 #define PREF_FILE	LIB_ETC"pref"	  /* next pref number		*/
 #define LAST_FILE	LIB_ETC"last"

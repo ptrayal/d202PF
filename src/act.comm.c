@@ -877,13 +877,13 @@ ACMD(do_gen_comm)
   else
     send_to_char(ch, "%sYou %s, '%s%s'@n\r\n", color_on, com_msgs[subcmd][1], argument, color_on);
 
-//  snprintf(buf1, sizeof(buf1), "%s%s %ss, '%s%s'@n", color_on, GET_NAME(ch), com_msgs[subcmd][1], argument, color_on);
+/*  snprintf(buf1, sizeof(buf1), "%s%s %ss, '%s%s'@n", color_on, GET_NAME(ch), com_msgs[subcmd][1], argument, color_on);*/
 
   /* now send all the strings out */
   for (i = descriptor_list; i; i = i->next) {
     if (IS_PLAYING(i) && i != ch->desc && i->character &&
        (IS_NPC(i->character) || !PRF_FLAGGED(i->character, channels[subcmd])) &&
-//       (IS_NPC(i->character) || !PLR_FLAGGED(i->character, PLR_WRITING)) &&
+/*       (IS_NPC(i->character) || !PLR_FLAGGED(i->character, PLR_WRITING)) &&*/
 	!(ROOM_FLAGGED(IN_ROOM(i->character), ROOM_SOUNDPROOF) && GET_ADMLEVEL(i->character) == 0) ) {
 
       snprintf(buf1, sizeof(buf1), "%s%s %ss, '%s%s'@n", color_on, CAN_SEE(i->character, ch) ? GET_NAME(ch) : "Someone", com_msgs[subcmd][1], 

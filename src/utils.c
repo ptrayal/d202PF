@@ -30,7 +30,7 @@
 
 #define isspace_ignoretabs(c) ((c)!='\t' && isspace(c))
 
-// local globals
+/* local globals*/
 
 long times_harvested[1000000];
 
@@ -424,8 +424,8 @@ void log_death_trap(struct char_data *ch)
  */
 void basic_mud_vlog(const char *format, va_list args)
 {
-  // time_t ct = time(0);
-  // char *time_s = asctime(localtime(&ct));
+  /* time_t ct = time(0);*/
+  /* char *time_s = asctime(localtime(&ct));*/
   time_t rawtime;
   struct tm *info;
   char buffer[80]={'\0'};
@@ -444,7 +444,7 @@ void basic_mud_vlog(const char *format, va_list args)
   if (format == NULL)
     format = "SYSERR: log() received a NULL format.";
 
-  // time_s[strlen(time_s) - 1] = '\0';
+  /* time_s[strlen(time_s) - 1] = '\0';*/
 
   fprintf(logfile, "%-15.15s :: ", buffer + 4);
   vfprintf(logfile, format, args);
@@ -980,7 +980,7 @@ int room_is_dark(room_rnum room)
 
 int count_metamagic_feats(struct char_data *ch)
 {
-  int count = 0;                // Number of Metamagic Feats Known
+  int count = 0;                /* Number of Metamagic Feats Known*/
 
   if (HAS_FEAT(ch, FEAT_STILL_SPELL))
     count++;
@@ -1130,7 +1130,7 @@ int insure_directory(char *path, int isfile)
 
   extern int errno;
 
-  // if it's a file, remove that, we're only checking dirs;
+  /* if it's a file, remove that, we're only checking dirs;*/
   if(isfile) {
     if(!(p=strrchr(path,'/'))) {
       free(chopsuey);
@@ -1139,13 +1139,13 @@ int insure_directory(char *path, int isfile)
     *p = '\0';
   }
 
-  // remove any trailing /'s
+  /* remove any trailing /'s*/
 
   while(chopsuey[strlen(chopsuey)-1] == '/') {
     chopsuey[strlen(chopsuey) -1 ] = '\0';
   }
 
-  // check and see if it's already a dir
+  /*check and see if it's already a dir*/
 
   #ifndef S_ISDIR
   #define S_ISDIR(mode) (((mode) & S_IFMT) == S_IFDIR)
@@ -1307,8 +1307,10 @@ int has_intro(struct char_data *ch, struct char_data *target)
     if (IS_NPC(target) || IS_NPC(ch))
       return true;
     
-    //if (!(&GET_SDESC(target)))
-      //return true;
+/*
+    if (!(&GET_SDESC(target)))
+      return true;
+*/
 
     if (AFF_FLAGGED(target, AFF_DISGUISED) && skill_roll(ch, SKILL_PERCEPTION) < skill_roll(target, SKILL_DISGUISE) &&
         !AFF_FLAGGED(ch, AFF_TRUE_SIGHT) && !is_player_grouped(ch, target))
@@ -1981,7 +1983,7 @@ int matching_craft_materials(int mat_used, int mat_craft)
   return FALSE;
 }
 
-// Harvesting Node Placement Functions & global vars
+/* Harvesting Node Placement Functions & global vars*/
 
 int mining_nodes = 0;
 int farming_nodes = 0;
@@ -2108,7 +2110,7 @@ int random_node_material(int allowed) {
 
   if (rand <= 34) {
 
-    // mining
+    /* mining*/
 
     if (mining_nodes >= (allowed * 2))
       return random_node_material(allowed);
@@ -2117,7 +2119,7 @@ int random_node_material(int allowed) {
 
     if (rand <= 80) {
 
-      // blacksmithing
+      /* blacksmithing*/
 
       rand = dice(1, 1000);
 
@@ -2133,7 +2135,7 @@ int random_node_material(int allowed) {
     }
     else {
 
-      // goldsmithing
+      /* goldsmithing*/
 
       rand = dice(1, 100);
 
@@ -2148,7 +2150,7 @@ int random_node_material(int allowed) {
   else if (rand <= 67) {
     rand = dice(1, 100);
 
-    // farming
+    /* farming*/
 
     if (farming_nodes >= allowed)
       return random_node_material(allowed);
@@ -2166,7 +2168,7 @@ int random_node_material(int allowed) {
 
   }
   else {
-    // foresting
+    /* foresting*/
 
     if (foresting_nodes >= allowed)
       return random_node_material(allowed);
@@ -2521,10 +2523,10 @@ char *replace_string(char *str, char *orig, char *rep)
   static char buffer[4096];
   char *p;
 
-  if(!(p = strstr(str, orig)))  // Is 'orig' even in 'str'?
+  if(!(p = strstr(str, orig)))  /* Is 'orig' even in 'str'?*/
     return str;
 
-  strncpy(buffer, str, p-str); // Copy characters from 'str' start to 'orig' st$
+  strncpy(buffer, str, p-str); /* Copy characters from 'str' start to 'orig' st$*/
   buffer[p-str] = '\0';
 
   sprintf(buffer+(p-str), "%s%s", rep, p+strlen(orig));
@@ -2546,7 +2548,7 @@ int num_charmies(struct char_data *ch)
         GET_MOB_VNUM(f->follower) == GET_FAMILIAR_VNUM(ch) ||
         GET_MOB_VNUM(f->follower) == GET_PET_VNUM(ch) ||
         GET_MOB_VNUM(f->follower) == GET_MOUNT_VNUM(ch) ||
-        GET_MOB_VNUM(f->follower) == 199) // Paladin Mount
+        GET_MOB_VNUM(f->follower) == 199) /* Paladin Mount*/
       continue;
 
     for (i = 8; i >= 0; i--) { 
@@ -3515,9 +3517,9 @@ char *do_upper(char *buf, bool do_all)
         rLength = strlen(buf);
         for(i = 0; i <= rLength; i++)
         {
-            if( i == 0) // First word is always Upper Case
+            if( i == 0) /* First word is always Upper Case*/
                 rVal[i] = toupper(buf[i]);
-            else if( isspace(buf[i - 1])) // Checks to see if the last character was a whitespace character. If so it will make the current one caps.
+            else if( isspace(buf[i - 1])) /* Checks to see if the last character was a whitespace character. If so it will make the current one caps.*/
                 rVal[i] = toupper(buf[i]);
             else
                 rVal[i] = buf[i];
@@ -3626,7 +3628,7 @@ int get_combat_defense(struct char_data *ch) {
   else if ((SIZE_MEDIUM - get_size(ch)) > 0)
     defense -= pow(2, SIZE_MEDIUM - get_size(ch)) * 10;
 
-  // already calculated in get_touch_ac and we need to use the special size modifier above instead
+  /* already calculated in get_touch_ac and we need to use the special size modifier above instead*/
   defense -= (SIZE_MEDIUM - get_size(ch)) * 10;
 
   defense += get_skill_value(ch, SKILL_COMBAT_TACTICS);
@@ -4154,7 +4156,7 @@ void sendMSDP(struct descriptor_data *d) {
   char var[200]={'\0'}, var2[200]={'\0'}, var3[200]={'\0'}, var4[200]={'\0'}, var5[200]={'\0'}, var6[200]={'\0'};
   float xp = 0;
   float percent = 0;
-  int int_xp = 0; // Groups
+  int int_xp = 0; /* Groups*/
   sprintf(val, "%d", GET_HIT(ch));
   MSDPSendPair( d, "HEALTH", val);
   sprintf(val, "%d", GET_MAX_HIT(ch));
