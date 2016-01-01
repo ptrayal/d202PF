@@ -2128,8 +2128,7 @@ ACMD(do_aod_new_score)
 
   // Determine play time
     
-  playing_time = *real_time_passed((time(0) - ch->time.logon) +
-          ch->time.played, 0);
+  playing_time = *real_time_passed((time(0) - ch->time.logon) + ch->time.played, 0);
   sprintf(play_time, "%d day%s and %d hour%s.",
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");    
@@ -2284,8 +2283,11 @@ if (GET_MAX_KI(rec) > 0 && GET_CLASS_RANKS(ch, CLASS_MONK) > 0)
   send_to_char(rec, "You are @Y%d@n years and @Y%d@n months old.\r\n", age(ch)->year, age(ch)->month);
   send_to_char(rec, "You have played for @Y%d@n days, @Y%d@n hours and @Y%d@n minutes.\r\n", (int) rec->time.played / 3600 / 24, 
 ((int)rec->time.played / 3600) % 24 , (int)((rec->time.played % 3600) / 60));
-  if (!IS_NPC(rec)) {
-    send_to_char(rec, "Your character was created on @Y%s@n", asctime(localtime(&(rec->time.created))));
+  if (!IS_NPC(rec)) 
+  {
+    char buf1[64]={'\0'};
+    strftime(buf1, sizeof(buf1), "%B %d %Y (%T)", localtime(&(rec->time.created)));
+    send_to_char(rec, "Your character was created on @Y%s@n.\r\n", buf1);
   }
   send_to_char(rec, "You have @Y%d@n gold coins and @Y%d@n more in the bank.\r\n", GET_GOLD(ch), GET_BANK_GOLD(ch));
   send_to_char(rec, "You have @Y%d@n experience, which is @Y%d.%d%%@n of what you need for level @Y%d@n.\r\n", GET_EXP(ch), int_xp, int_percent, GET_CLASS_LEVEL(ch) + 1);
@@ -3192,7 +3194,7 @@ ACMD(do_who)
 ACMD(do_users)
 {
     char line[200]={'\0'}, line2[220]={'\0'}, idletime[10]={'\0'};
-    char state[30], *timeptr, mode;
+    char state[30], timestr[9], mode;
     char name_search[MAX_INPUT_LENGTH]={'\0'}, host_search[MAX_INPUT_LENGTH]={'\0'};
     struct char_data *tch;
     struct descriptor_data *d;
@@ -3280,9 +3282,7 @@ strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
                         continue;
                 }
 
-                timeptr = asctime(localtime(&d->login_time));
-                timeptr += 11;
-                *(timeptr + 8) = '\0';
+                strftime(timestr, sizeof(timestr), "%H:%M:%S", localtime(&(d->login_time)));
 
                 if (STATE(d) == CON_PLAYING && d->original)
                     strcpy(state, "Switched");
@@ -3297,7 +3297,7 @@ strcpy(buf, buf1);	/* strcpy: OK (sizeof: buf1 == buf) */
                     strcpy(idletime, "");
 
                 sprintf(line, "%-12s %-14s %-3s %-8s %1s ", d->original && d->original->name ? d->original->name : d->character && d->character->name ? d->character->name : "UNDEFINED",
-                    state, idletime, timeptr, d->comp->state ? d->comp->state == 1 ? "?" : "Y" : "N");
+                    state, idletime, timestr, d->comp->state ? d->comp->state == 1 ? "?" : "Y" : "N");
 
                 if (d->host && *d->host)
                     sprintf(line + strlen(line), "[%s]", d->host);

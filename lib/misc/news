@@ -1,150 +1,6 @@
-          AGE OF DRAGONS NEWS
+          PF MUD NEWS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-@WTristero@n @Y(Aug  3)@n added help camp
-@WGicker  @n @Y(Aug  3)@n lowered the max level to 40 until we can create content for higher levels
-@WTristero@n @Y(Aug  3)@n Added help pilfer
-@WGicker  @n @Y(Aug  3)@n torches will no longer be removed in combat and eq worn on body will no longer be removed when shield breaks
-@WGicker  @n @Y(Aug  4)@n added 3 new quests to the main storyline series, picking up where the final quest left off at Fairwing in palanthas centre square
-@WGicker  @n @Y(Aug  4)@n Added the ability to bind items to your character.  See @YHELP BINDING ITEMS@n
-@WGicker  @n @Y(Aug  4)@n Made improvements to the player shop item display list so as to expidate the process of shoppers finding something useful.  Visit a player shop on the east side of Palanthas to see for yourself
-@WGicker  @n @Y(Aug  5)@n cure spells cast on undead will now do the appropriately related inflict/harm spell instead
-@WGicker  @n @Y(Aug  5)@n added a poll to see player timezones.  Please vote using the @Ypoll@n command at your earliest convenience
-@WTristero@n @Y(Aug  8)@n Added help for feint and taunt
-@WTristero@n @Y(Aug  8)@n Added help intimidate
-@WTristero@n @Y(Aug  8)@n Added help sleight of hand
-@WGicker  @n @Y(Aug  8)@n We now have a facebook app! http://apps.facebook.com/ageofdragonsmud/
-@WGicker  @n @Y(Aug  9)@n Added the mentor command.  See note 98
-@WTristero@n @Y(Aug  9)@n Added help mentor
-@WTristero@n @Y(Aug 10)@n Added help tumble
-@WTristero@n @Y(Aug 10)@n Added help skill search
-@WTristero@n @Y(Aug 10)@n Added help skill stealth
-@WTristero@n @Y(Aug 10)@n Added help skill perception
-@WGicker  @n @Y(Aug 10)@n fireside tavern and the forest spectre have been finished.  See note 99.
-@WTristero@n @Y(Aug 11)@n Added help skill ride
-@WTristero@n @Y(Aug 11)@n Added help skill handle animal
-@WTristero@n @Y(Aug 11)@n Added help mount
-@WGicker  @n @Y(Aug 11)@n fixed the last command for imms to see who has logged on recently.  Syntax is the same as before
-@WGicker  @n @Y(Aug 11)@n added an emporium west of the palanthas bank where you can spend quest points for custom gear
-@WGicker  @n @Y(Aug 12)@n fixed lay hands messages
-@WGicker  @n @Y(Aug 12)@n You will now gain account experience when mentoring
-@WGicker  @n @Y(Aug 12)@n instant death affects now set to do large damage instant of instant kill to discourage mega-power-levelling :)
-@WGicker  @n @Y(Aug 12)@n quest points required for emporium purchases have gone up exponentially with level
-@WGicker  @n @Y(Aug 12)@n You can now convert body armor into barding for your mount at the mount shop, and then wear it to increase mount ac.
-@WGicker  @n @Y(Aug 12)@n fixed mounted combat, it should now have a much higher success rate
-@WGicker  @n @Y(Aug 13)@n added animal companions and respec command.  See note 107
-@WGicker  @n @Y(Aug 14)@n added healer mob (for gold) in NW palanthas.  Can also cast buffs, raise dead, etc
-@WGicker  @n @Y(Aug 14)@n command for last update is buff <spell name>
-@WGicker  @n @Y(Aug 15)@n Added code to put delays in combat when you are paralyzed to prevent massive spam instant death when soloing :)
-@WGicker  @n @Y(Aug 15)@n fixed code so that 95% of the time if there's a crash for some reason, you will re-enter the game in the room where you last saved / were autosaved
-@WTristero@n @Y(Aug 16)@n Added help sense motive, help spellcraft, help survival, and help perform
-@WTristero@n @Y(Aug 16)@n 10
-@WGicker  @n @Y(Aug 18)@n maximum level on randomly determined gear can not exceed the level cap now
-@WGicker  @n @Y(Aug 18)@n low level mobs levels 3 and under have had their ac reduced
-@WGicker  @n @Y(Aug 18)@n neither mobs nor players will regain hp in battle unless they have the fast healing epic feat
-@WGicker  @n @Y(Aug 18)@n increased the number of quest mobs in the garden of the blue phoenix
-@WGicker  @n @Y(Aug 18)@n Added duelist to the class list in levelup (was there previously as an option, just not displaying)
-@WGicker  @n @Y(Aug 18)@n Added more dockworkers to the docks of Palanthas
-@WGicker  @n @Y(Aug 18)@n Added role play happy hour, for 2 hours 3 times per day.  11am-1pm server time (type date), 7pm-9pm server time, 3am-5am server time
-@WGicker  @n @Y(Aug 18)@n double exp rewards during rp happy hour for role playing
-@WGicker  @n @Y(Aug 18)@n adjusted rp hour to coincide with server time zone
-@WGicker  @n @Y(Aug 18)@n made armorclass of incapacitated/mortally wounded people 0
-@WGicker  @n @Y(Aug 18)@n Added HELP NEWBIE-GUIDE and HELP D20-SYSTEM
-@WGicker  @n @Y(Aug 18)@n fixed trip and kick :)
-@WTristero@n @Y(Aug 18)@n Added help skill gather information
-@WTristero@n @Y(Aug 18)@n Added help skill athletics
-@WGicker  @n @Y(Aug 18)@n heal skill now heals hp both instantaneously and over time (double healing effect)
-@WGicker  @n @Y(Aug 18)@n average weapon damage added to score
-@WGicker  @n @Y(Aug 19)@n fixed a bug where unconscious players would not die.  Tied to d20 rules, fort save to stablize or worsen in condition.  Not completely fixed as mobs still don't do a death blow
-@WGicker  @n @Y(Aug 19)@n added missing duelist feats.  Coded parry and riposte.  see parry command
-@WGicker  @n @Y(Aug 19)@n When you exit combat, the mob will also exit combat the following tick.  If you re-enter the room, the mob will re-attack
-@WTristero@n @Y(Aug 19)@n Added help skill crafting theory and help skill tanning
-@WGicker  @n @Y(Aug 20)@n added dragon rider and sacred fist prestige classes
-@WGicker  @n @Y(Aug 20)@n adjusted prices, skill requirements and stats on mounts
-@WGicker  @n @Y(Aug 20)@n added red and silver dragons for epic level mounts
-@WGicker  @n @Y(Aug 20)@n added help dragon rider, table dragon rider, dragon mount boost, dragon mount breath
-@WGicker  @n @Y(Aug 20)@n added help sacred fist, table sacred fist, sacred flames
-@WGicker  @n @Y(Aug 22)@n fixed a bug determining ranger/druid levels for animal companions
-@WGicker  @n @Y(Aug 22)@n pvp system now in effect.  use murder command to start pvp combat.  both combatants must have pvp flagged turned on @Ypvp@n command.  damage and healing in pvp is 1/10th normal
-@WGicker  @n @Y(Aug 22)@n no exp loss or gain in pvp.  All pvp combantants are unable to turn off pvp for 30 minutes after the fight begins.
-@WGicker  @n @Y(Aug 22)@n pvp damage and healing changed from 1/10 to 1/5 (high level fights would take too long otherwise)
-@WGicker  @n @Y(Aug 22)@n added level cap for pvp as well as displaying pvp flag to other players
-@WTristero@n @Y(Aug 22)@n Added help pvp
-@WGicker  @n @Y(Aug 23)@n houses and player shops now require rent to upkeep them of 5000 coins per real month.  If this rent is not paid no one can enter the house/shop until an imm or the owner pays the rent.  command to pay house/shop rent is hpay
-@WGicker  @n @Y(Aug 24)@n fixed crash bugs with medit and help command
-@WGicker  @n @Y(Aug 24)@n adjusted mob levels and stats again
-@WGicker  @n @Y(Aug 24)@n sorry adjusted mount levels and stats again
-@WGicker  @n @Y(Aug 24)@n dragon mounts now only available through the dragon knight epic spell and dragon rider class
-@WGicker  @n @Y(Aug 24)@n mounts, summons and animal companions now have acs more appropriate for their levels
-@WGicker  @n @Y(Aug 24)@n you now need a minimum ride skill to take a mount in addition to a minimum handle animal skill
-@WGicker  @n @Y(Aug 24)@n adjusted low level charmie mob (mount,summon,companion) acs
-@WGicker  @n @Y(Aug 24)@n ac of summons now capped by character level
-@WGicker  @n @Y(Aug 24)@n all characters with mounts more powerful than their skills given the new changes will have their mounts reset to nothing
-@WGicker  @n @Y(Aug 24)@n added religion exp bonus for party members who share the same deity when grouped
-@WGicker  @n @Y(Aug 24)@n made minimum account experience reward for mentoring to be 1
-@WGicker  @n @Y(Aug 24)@n added set deity <deity name> for imms and prevented players from being able to change their deity themselves after selecting one
-@WGicker  @n @Y(Aug 24)@n Reverted harvesting system back to node based system and reinstated artisan exp gain from harvesting nodes
-@WGicker  @n @Y(Aug 24)@n new harvesting nodes harvested using the harvest command
-@WGicker  @n @Y(Aug 24)@n potions of recall now sold at vidgeous in palanthas wizard academy
-@WGicker  @n @Y(Aug 24)@n removed staves as being double weapons
-@WGicker  @n @Y(Aug 24)@n relevelled goblin camp by solace to a level 14 one
-@WGicker  @n @Y(Aug 24)@n re-levelled seeker encampment to level 16 and que shu to level 18
-@WGicker  @n @Y(Aug 24)@n re-levelled xak tsaroth to a level 30 one
-@WGicker  @n @Y(Aug 24)@n re-levelled crystalmir lake and chislev's grove to level 18
-@WGicker  @n @Y(Aug 24)@n re-levelled ettin cave near pax tharkas to level 25 one
-@WGicker  @n @Y(Aug 24)@n re-levelled ice wall castle to level 35
-@WGicker  @n @Y(Aug 24)@n made city of morning dew a level 40 zone
-@WGicker  @n @Y(Aug 24)@n created the defender longsword and level 40 final boss storm giant in city of morning dew
-@WGicker  @n @Y(Aug 25)@n goblin camp by solace has had it's equipment redone to d20 standards as well as 2 boss mobs set
-@WGicker  @n @Y(Aug 25)@n seeker camp near solace has had it's objects re-statted to d20 standards and boss mobs set
-@WGicker  @n @Y(Aug 25)@n updated help areas
-@WTristero@n @Y(Aug 25)@n Added help hpay
-@WTristero@n @Y(Aug 25)@n Added help arcane archer and help table arcane archer
-@WGicker  @n @Y(Aug 26)@n added eqstats command
-@WGicker  @n @Y(Aug 27)@n added a new poll (type poll)
-@WGicker  @n @Y(Aug 27)@n added great bow as a new weapon type
-@WGicker  @n @Y(Aug 27)@n fixed lore command (not everyone can do it without ranks now) and added an identify kit (command identify or idcost) at the palanthas wizard academy shop
-@WTristero@n @Y(Aug 29)@n Added help spelllist bard
-@WTristero@n @Y(Aug 30)@n Added help spelllist druid
-@WGicker  @n @Y(Aug 31)@n To prevent powerlevelling through poor area design and the bounty system, there is now a cap of 10 kills per bounty
-@WGicker  @n @Y(Sep  1)@n added a hack that should resolve issues where people's weight goes unreasonably high for no reason.  Root of the bug still unresolved.
-@WGicker  @n @Y(Sep  1)@n Added a fightspam command to toggle full fight messages or abbreviated versions.  Note that abbreviated version is not recommended for tough fights
-@WGicker  @n @Y(Sep 15)@n Added a level 9 series of quests to the main quest storyline.  The quests start at captain orluf and require that you've done all quests in that series up to that point
-@WGicker  @n @Y(Sep 16)@n Adjusted the syntax of the wish spell and added the wish command.  Miracle spell is now an exact copy of wish and grants wishes.  Removed wishes for spells, as this seemed to never be used.  Wishes for advanced treasure coming soon
-@WGicker  @n @Y(Dec 29)@n 50% exp bonus for holidays until january 15th 
-@WGicker  @n @Y(Jan 24)@n Exp bonus promotion ends
-@WGicker  @n @Y(Jan 30)@n added command 'output' (inc. help file).  Main use is to alter your combat message output for now.
-@WGicker  @n @Y(Jan 30)@n fixed the harvesting node placement system so node locations make sense (no ore veins in cities for example)
-@WGicker  @n @Y(Feb  1)@n fixed a bug that was causing crashes when looking at a character wearing something on their waist
-@WGicker  @n @Y(Feb 13)@n reverted fight system to pulse based only
-@WGicker  @n @Y(Feb 23)@n @R@lPLEASE SEE THE MOTD BY TYPING @Y@lMOTD@R@l FOR IMPORTANT NEWS@n
-@WGicker  @n @Y(Feb 23)@n Gold on shop mobs has been increased across the board.  Max shop buy price is 50,000 gold
-@WGicker  @n @Y(Apr  9)@n fixed parry for duelists
-@WGicker  @n @Y(Apr  9)@n fixed spellcasting for all classes (still isues with spellbooks, I advise choosing sorcerer over mage for the time being)
-@WGicker  @n @Y(Apr  9)@n fixed memorization updates
-@WGicker  @n @Y(Apr  9)@n added d20who command and d20chat command
-@WGicker  @n @Y(Apr  9)@n fixed the gate on vingaard keep
-@WGicker  @n @Y(Apr 19)@n fixed references to implants in eq listy
-@WGicker  @n @Y(Apr 19)@n fixed shield drops and sales from hereon out.  If you have a bugged shield (lore or id it) have God or Gicker use the iedit command to fix it.
-@WGicker  @n @Y(Apr 19)@n fixed the lore/id display for armor items
-@WGicker  @n @Y(Apr 19)@n stage 1 of fixing saving throws done.  stage 2 to come tomorrow
-@WGod     @n @Y(Apr 22)@n news
-@WGod     @n @Y(Apr 22)@n Thankx for playing ask about recieveing exp for joining
-@WGicker  @n @Y(May 28)@n gholus in palanthas now sells crafting materials and will buy materials and crystals
-@WGicker  @n @Y(May 28)@n added a mold seller for crafting items in the palanthas crafting area
-@WGicker  @n @Y(May 28)@n added a supply order mob at the palanthas crafting area
-@WGicker  @n @Y(May 29)@n Added quick travel options throughout the world using carriages and airships.  See @Ycarriage@n and @Yairship@n commands
-@WGicker  @n @Y(May 29)@n added a shop that will bind items to your character so they can be equipped, west of palanthas square.  See help binding
-@WGicker  @n @Y(May 29)@n added a repair mob just west of Palanthas Centre Square
-@WGicker  @n @Y(May 29)@n fixed the mounts to be proper fantasy mounts again
-@WGicker  @n @Y(Jun  8)@n adjusted combat numbers to reduce the unbalanced difficulty against mobs your own level
-@WGicker  @n @Y(Jun  8)@n you should be able to open/unlock randomly spawned chests now (uses manipulate device skill)
-@WGicker  @n @Y(Jun  9)@n fixed the emporium shop in palanthas
-@WGicker  @n @Y(Jun  9)@n fixed the two weapon fighting penalties (note you do need two weapon fighting and ambidexterity)
-@WGicker  @n @Y(Jun  9)@n fixed randomly spawning chests.,  You can now open/pick/unlock them
-@WGicker  @n @Y(Jun  9)@n Fixed the orphans here on dragonlance port. command is "send"
-@WRayal   @n @Y(Mar 17)@n Test
-@WRayal   @n @Y( Mar-17-2015)@n More testing.
 @WRayal   @n @Y(Mar-31-2015)@n Removed the following Feats: Agile, Diligent, Investigator, Negotiator, Nimble Fingers
 @WRayal   @n @Y(Mar-31-2015)@n Updated the code for keeping track of difference versions.
 @WRayal   @n @Y(Mar-31-2015)@n Updated to the latest KaVir protocol code.
@@ -208,3 +64,31 @@
 @WRayal   @n @Y(Jun-29-2015)@n Fixed a bunch of backend warnings.
 @WRayal   @n @Y(Jul-02-2015)@n Fixed new players with improper quest settings.
 @WRayal   @n @Y(Jul-02-2015)@n added toupper to dg scripts.
+@WRayal   @n @Y(Jul-24-2015)@n Lots of work done on feats.  Better descriptions among others.
+@WRayal   @n @Y(Jul-27-2015)@n Lots of work on feats.
+@WRayal   @n @Y(Jul-27-2015)@n Deflect Arrows now has the requirements coded.
+@WRayal   @n @Y(Jul-27-2015)@n Preq's for Power Attack, Precise shot, and Mounted Combat in.
+@WRayal   @n @Y(Jul-27-2015)@n Prereq's for Diehard, Tower shield, rapid shot, and spring attack implemented.
+@WRayal   @n @Y(Jul-28-2015)@n Fixed metamagic feat requirements.
+@WRayal   @n @Y(Jul-28-2015)@n Fixed Improved Disarm and Improved Trip requirements
+@WRayal   @n @Y(Jul-28-2015)@n Cleaned up code concerning starting feats for classes.
+@WRayal   @n @Y(Jul-29-2015)@n Changed format of account command.
+@WRayal   @n @Y(Jul-30-2015)@n Setup DL feats so they only are shown if in DL campaign.
+@WRayal   @n @Y(Jul-30-2015)@n Requirements for Leadership feat now in.
+@WRayal   @n @Y(Jul-30-2015)@n Removed some non-PF epic feats.
+@WRayal   @n @Y(Aug-03-2015)@n Fixed some backend issues.  Improving stability.
+@WRayal   @n @Y(Aug-10-2015)@n Numerous leaks fixed.  Code coming along.
+@WRayal   @n @Y(Aug-18-2015)@n Got orphans working correctly for the PF campaign.
+@WRayal   @n @Y(Aug-18-2015)@n Fixed spelling mistake to alchemical silver.
+@WRayal   @n @Y(Aug-18-2015)@n Added new words to spell parser.
+@WRayal   @n @Y(Aug-20-2015)@n Made it more obvious when objects and creatures are in the room.
+@WRayal   @n @Y(Aug-22-2015)@n Removed some non-PF feats.
+@WRayal   @n @Y(Aug-26-2015)@n Began coding in stuff for Sorcerers.
+@WRayal   @n @Y(Aug-27-2015)@n Fighters now get Bravery.
+@WRayal   @n @Y(Sep-01-2015)@n More work on Sorcerer feats.
+@WRayal   @n @Y(Sep-01-2015)@n Standardized a lot of feat wording.
+@WRayal   @n @Y(Sep-01-2015)@n Added Immortal command to dump feats to a text file.
+@WRayal   @n @Y(Sep-02-2015)@n Indomitable Will for barbarians implemented.
+@WRayal   @n @Y(Sep-02-2015)@n Implemented Still Mind for Monks.
+@WRayal   @n @Y(Sep-02-2015)@n Implemented Venom Immunity for Druids.
+@WRayal   @n @Y(Sep-03-2015)@n Added requirements for most epic feats.

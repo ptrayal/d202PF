@@ -1889,7 +1889,7 @@ void save_char(struct char_data * ch)
 
   // Save Innate Abils
   fprintf(fl, "InAb:\n");
-  for (i = 0; i <= (MAX_SPELLS+100); i++) {
+  for (i = 0; i <= MAX_SPELLS; i++) {
     if (GET_INNATE(ch, i) > 0) {
       fprintf(fl, "%d %d\n", i, GET_INNATE(ch, i));
     }
@@ -2379,7 +2379,6 @@ void remove_player(int pfilepos)
       unlink(fname);
   }
 
-  // log("PCLEAN: %s Lev: %d Last: %s", player_table[pfilepos].name, player_table[pfilepos].level, asctime(localtime(&player_table[pfilepos].last)));
   log("PCLEAN: %s Lev: %d Last: %s", player_table[pfilepos].name, player_table[pfilepos].level, buffer);
   player_table[pfilepos].name[0] = '\0';
   save_player_index();

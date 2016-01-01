@@ -2969,7 +2969,8 @@ void add_llog_entry(struct char_data *ch, int type)
      that we're counting, which is last to first) */
   llast = find_llog_entry(GET_PREF(ch), GET_IDNUM(ch),0);
 
-  if(llast == NULL) {  /* no entry found, add ..error if close! */
+  if(llast == NULL) 
+  {  /* no entry found, add ..error if close! */
     CREATE(llast,struct last_entry,1);
     strncpy(llast->username,GET_NAME(ch),16);
     strncpy(llast->hostname,GET_HOST(ch),128);
@@ -2987,11 +2988,13 @@ void add_llog_entry(struct char_data *ch, int type)
     }
     fwrite(llast,sizeof(struct last_entry),1,fp);
     fclose(fp);
+    free(llast);
     return;
-  } else {
+  } 
+  else 
+  {
     /* we're modifying a found entry */
     mod_llog_entry(llast,type);
-    free(llast);
   }
 }
 
@@ -3003,6 +3006,7 @@ char *list_llog_entry()
   char buffer[12800]={'\0'};
   char storage_buffer[12800]={'\0'};
   extern const char *last_array[];
+  char timestr[25];
 
   if(!(fp=fopen(LAST_FILE,"r"))) 
   {
@@ -3014,11 +3018,13 @@ char *list_llog_entry()
 
   fread(&llast,sizeof(struct last_entry),1,fp);
 
+  strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&llast.time));
+
   while(!feof(fp)) 
   {
-    snprintf(storage_buffer, sizeof(storage_buffer),"%s%10s\t%s\t%d\t%s",
+    snprintf(storage_buffer, sizeof(storage_buffer),"%s%10s\t%s\t%d\t%s\r\n",
         buffer,llast.username,last_array[llast.close_type],
-        llast.punique,ctime(&llast.time));
+        llast.punique,timestr);
     fread(&llast,sizeof(struct last_entry),1,fp);
   }
   fclose(fp);

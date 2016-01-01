@@ -458,76 +458,86 @@ void clear_one_board(struct board_info *tmp) {
   tmp=NULL;
 }
 
-void show_board(obj_vnum board_vnum, struct char_data *ch) {
+void show_board(obj_vnum board_vnum, struct char_data *ch) 
+{
   struct board_info *thisboard;
   struct board_msg *message;
-  char *tmstr;
+  char timestr[25];
   int msgcount=0,yesno=0;
   char buf[MAX_STRING_LENGTH]={'\0'};
   char name[127]={'\0'};
 
   *buf = '\0';
   *name = '\0';
-  
-  /* board locate */
-  if(IS_NPC(ch)) {
+
+/* board locate */
+  if(IS_NPC(ch)) 
+  {
     send_to_char(ch,"Gosh.. now .. if only mobs could read.. you'd be doing good.\r\n");
     return;
   }
   thisboard = locate_board(board_vnum);
-  if (!thisboard) {
+  if (!thisboard) 
+  {
     log("Creating new board - board #%d", board_vnum);
     thisboard=create_new_board(board_vnum);
     thisboard->next = bboards;
     bboards = thisboard;
   }
-  if (GET_LEVEL(ch) < READ_LVL(thisboard)) {
+  if (GET_LEVEL(ch) < READ_LVL(thisboard)) 
+  {
     send_to_char(ch,"You try but fail to understand the holy words.\r\n");
     return;
   }
-  
-  /* send the standard board boilerplate */
+
+/* send the standard board boilerplate */
 
   sprintf(buf,"This is a bulletin board.\r\n"
-        "Usage:READ/REMOVE <messg #>, RESPOND <messg #>, WRITE <header>.\r\n");
+    "Usage:READ/REMOVE <messg #>, RESPOND <messg #>, WRITE <header>.\r\n");
 
-  if (!BOARD_MNUM(thisboard) || !BOARD_MESSAGES(thisboard)) {
+  if (!BOARD_MNUM(thisboard) || !BOARD_MESSAGES(thisboard)) 
+  {
     strcat(buf, "The board is empty.\r\n");
     send_to_char(ch, "%s", buf);
     return;
-  } else {
+  } 
+  else 
+  {
     sprintf(buf, "%sThere %s %d %s on the board.\r\n",
-	    buf, (BOARD_MNUM(thisboard) == 1) ? "is" : "are",
-	    BOARD_MNUM(thisboard),(BOARD_MNUM(thisboard) == 1) ? "message" :
-	    "messages");
+      buf, (BOARD_MNUM(thisboard) == 1) ? "is" : "are",
+      BOARD_MNUM(thisboard),(BOARD_MNUM(thisboard) == 1) ? "message" :
+      "messages");
 
   }
   message=BOARD_MESSAGES(thisboard);
   if(PRF_FLAGGED(ch,PRF_VIEWORDER)) 
   {
     while(MESG_NEXT(message)) 
-	{
+    {
       message = MESG_NEXT(message);
     }
   }
-  while (message) {
-    tmstr = (char *) asctime(localtime( &MESG_TIMESTAMP(message)));
-    *(tmstr + strlen(tmstr) - 1) = '\0';
+  while (message) 
+  {
+    strftime(timestr, sizeof(timestr), "%c", localtime(&MESG_TIMESTAMP(message)));
     yesno=mesglookup(message,ch,thisboard);
     if (BOARD_VERSION(thisboard) != CURRENT_BOARD_VER)
       snprintf(name, sizeof(name),"%s",get_name_by_id(MESG_POSTER(message)));
     else
       snprintf(name, sizeof(name), "%s", MESG_POSTER_NAME(message));     
     sprintf(buf+strlen(buf),"[%s] (%2d) : %6.10s (%-10s) :: %s \r\n",
-	    yesno ? "x" : " ",
-	    ++msgcount,
-	    tmstr,
-	    CAP(name),
-	    MESG_SUBJECT(message) ? MESG_SUBJECT(message) : "No Subject");
-    
-    if(PRF_FLAGGED(ch,PRF_VIEWORDER)) {
+      yesno ? "x" : " ",
+      ++msgcount,
+      timestr,
+      CAP(name),
+      MESG_SUBJECT(message) ? MESG_SUBJECT(message) : "No Subject");
+
+    if(PRF_FLAGGED(ch,PRF_VIEWORDER)) 
+    {
       message=MESG_PREV(message);
-    } else {
+    } 
+    else 
+    {
       message=MESG_NEXT(message);
     }
   }
@@ -539,7 +549,7 @@ void show_board(obj_vnum board_vnum, struct char_data *ch) {
 void board_display_msg(obj_vnum board_vnum, struct char_data * ch, int arg) {
   struct board_info *thisboard=bboards;
   struct board_msg *message;
-  char *tmstr;
+  char timestr[25];
   int msgcount,mem,sflag;
   char name[127]={'\0'};
   struct board_memory *mboard_type, *list;
@@ -638,15 +648,14 @@ void board_display_msg(obj_vnum board_vnum, struct char_data * ch, int arg) {
   
   /* before we print out the message, we may as well restore a human
      readable timestamp. */
-  tmstr = (char *) asctime(localtime(&MESG_TIMESTAMP(message)));
-  *(tmstr + strlen(tmstr) - 1) = '\0';
+  strftime(timestr, sizeof(timestr), "%c", localtime(&MESG_TIMESTAMP(message)));
   if (BOARD_VERSION(thisboard) != CURRENT_BOARD_VER)
     snprintf(name, sizeof(name), "%s",get_name_by_id(MESG_POSTER(message)));
   else
     snprintf(name, sizeof(name), "%s", MESG_POSTER_NAME(message));
   sprintf(buf,"Message %d : %6.10s (%s) :: %s\r\n\r\n%s\r\n",
 	  arg,
-	  tmstr,
+	  timestr,
 	  CAP(name),
 	  MESG_SUBJECT(message) ? MESG_SUBJECT(message) : "No Subject",
 	  MESG_DATA(message) ? MESG_DATA(message) : "Looks like this message is empty.");
@@ -677,9 +686,11 @@ int mesglookup(struct board_msg *message,struct char_data *ch, struct board_info
      if they're not true, we go to the linked next slot, and repeat */
 
   mboard_type=BOARD_MEMORY(board,mem);
-  while(mboard_type && BOARD_VERSION(board) != CURRENT_BOARD_VER) {
+  while(mboard_type && BOARD_VERSION(board) != CURRENT_BOARD_VER) 
+  {
     if(MEMORY_READER(mboard_type)==GET_IDNUM(ch) &&
-       MEMORY_TIMESTAMP(mboard_type)==MESG_TIMESTAMP(message)) {
+       MEMORY_TIMESTAMP(mboard_type)==MESG_TIMESTAMP(message)) 
+    {
       return 1;
     } else {
       mboard_type=MEMORY_NEXT(mboard_type);
@@ -687,11 +698,16 @@ int mesglookup(struct board_msg *message,struct char_data *ch, struct board_info
   }
 
   tempname = strdup(GET_NAME(ch));
-  while(mboard_type && BOARD_VERSION(board) == CURRENT_BOARD_VER) {
+  while(mboard_type && BOARD_VERSION(board) == CURRENT_BOARD_VER) 
+  {
     if (!strcmp(MEMORY_READER_NAME(mboard_type), tempname) &&  
-        MEMORY_TIMESTAMP(mboard_type) == MESG_TIMESTAMP(message)) {
+        MEMORY_TIMESTAMP(mboard_type) == MESG_TIMESTAMP(message)) 
+    {
+      free(tempname);
       return 1;
-    } else {
+    } 
+    else 
+    {
       mboard_type=MEMORY_NEXT(mboard_type);
     }
   }

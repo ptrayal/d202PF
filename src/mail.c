@@ -417,7 +417,7 @@ char *read_delete(long recipient)
   mail_index_type *mail_pointer, *prev_mail;
   position_list_type *position_pointer;
   long mail_address, following_block;
-  char *tmstr, buf[MAX_MAIL_SIZE + 256]={'\0'};	/* + header */
+  char timestr[25], buf[MAX_MAIL_SIZE + 256]={'\0'};	/* + header */
   char *from, *to;
 
   if (recipient < 0) {
@@ -466,8 +466,7 @@ char *read_delete(long recipient)
     log("SYSERR: Mail system disabled!  -- Error #9. (Invalid header block.)");
     return (NULL);
   }
-  tmstr = asctime(localtime(&header.header_data.mail_time));
-  *(tmstr + strlen(tmstr) - 1) = '\0';
+  strftime(timestr, sizeof(timestr), "%c", localtime(&(header.header_data.mail_time)));
 
   from = get_name_by_id(header.header_data.from);
   to = get_name_by_id(recipient);
@@ -480,7 +479,7 @@ char *read_delete(long recipient)
 	"\r\n"
 	"%s",
 
-	tmstr,
+	timestr,
 	to ? to : "Unknown",
 	from ? from : "Unknown",
 	header.txt
@@ -605,6 +604,7 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
     if ((recipient = get_id_by_name(buf)) < 0 || !mail_recip_ok(buf)) 
     {
       act("No one by that name is registered here!", FALSE, mailman, 0, ch, TO_VICT);
+      free(mailwrite);
       return;  /* MEMORY LEAK HERE */
     }
     act("$n starts to write some mail.", TRUE, ch, 0, 0, TO_ROOM);
@@ -614,7 +614,6 @@ void postmaster_send_mail(struct char_data *ch, struct char_data *mailman, int c
     RECREATE(mailwrite, char *, 1);
     string_write(ch->desc, mailwrite, MAX_MAIL_SIZE, recipient, NULL);
   }
-  free(mailwrite);
 
 }
 
