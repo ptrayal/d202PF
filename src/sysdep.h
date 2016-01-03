@@ -356,6 +356,10 @@ struct in_addr {
 # define vsnprintf _vsnprintf
 # define PATH_MAX MAX_PATH
 
+#ifndef PATH_MAX
+#define PATH_MAX 4096
+#endif
+
 # if !defined(__BORLANDC__) && !defined(LCC_WIN32)	/* MSVC */
 #  define chdir _chdir
 #  pragma warning(disable:4761)		/* Integral size mismatch. */
