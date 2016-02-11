@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bin">
+      </df>
+      <df name="cnf">
+        <df name="autom4te.cache">
+        </df>
+        <df name="src">
+          <df name="util">
+          </df>
+          <in>conf.h</in>
+        </df>
+        <in>acconfig.h</in>
+      </df>
+      <df name="doc">
+        <df name="cwg">
+        </df>
+        <df name="OLD-DOCS">
+        </df>
+        <df name="README">
+        </df>
+        <df name="sources">
+        </df>
+      </df>
+      <df name="lib">
+        <df name="actfiles">
+          <df name="A-E">
+          </df>
+          <df name="F-J">
+          </df>
+          <df name="K-O">
+          </df>
+          <df name="P-T">
+          </df>
+          <df name="U-Z">
+          </df>
+          <df name="ZZZ">
+          </df>
+        </df>
+        <df name="dragonlance-world">
+          <df name="gld">
+          </df>
+          <df name="mob">
+          </df>
+          <df name="obj">
+          </df>
+          <df name="qst">
+          </df>
+          <df name="shp">
+          </df>
+          <df name="trg">
+          </df>
+          <df name="wld">
+          </df>
+          <df name="zon">
+          </df>
+        </df>
+        <df name="etc">
+          <df name="boards">
+          </df>
+        </df>
+        <df name="misc">
+          <in>guild.c</in>
+        </df>
+        <df name="plralias">
+          <df name="A-E">
+          </df>
+          <df name="F-J">
+          </df>
+          <df name="K-O">
+          </df>
+          <df name="P-T">
+          </df>
+          <df name="U-Z">
+          </df>
+          <df name="ZZZ">
+          </df>
+        </df>
+        <df name="plrfiles">
+          <df name="A-E">
+          </df>
+          <df name="F-J">
+          </df>
+          <df name="K-O">
+          </df>
+          <df name="P-T">
+          </df>
+          <df name="U-Z">
+          </df>
+          <df name="ZZZ">
+          </df>
+        </df>
+        <df name="plrobjs">
+          <df name="A-E">
+          </df>
+          <df name="F-J">
+          </df>
+          <df name="K-O">
+          </df>
+          <df name="P-T">
+          </df>
+          <df name="U-Z">
+          </df>
+          <df name="ZZZ">
+          </df>
+        </df>
+        <df name="plrvars">
+          <df name="A-E">
+          </df>
+          <df name="F-J">
+          </df>
+          <df name="K-O">
+          </df>
+          <df name="P-T">
+          </df>
+          <df name="U-Z">
+          </df>
+          <df name="ZZZ">
+          </df>
+        </df>
+        <df name="scripts">
+        </df>
+        <df name="text">
+          <df name="help">
+          </df>
+        </df>
+        <df name="world">
+          <df name="gld">
+          </df>
+          <df name="mob">
+          </df>
+          <df name="obj">
+          </df>
+          <df name="qst">
+          </df>
+          <df name="shp">
+          </df>
+          <df name="trg">
+          </df>
+          <df name="wld">
+          </df>
+          <df name="zon">
+          </df>
+        </df>
+      </df>
+      <df name="log">
+      </df>
+      <df name="src">
+        <df name="mysql">
+          <df name="ndb">
+            <df name="mgmapi">
+              <in>mgmapi.h</in>
+              <in>mgmapi_config_parameters.h</in>
+              <in>mgmapi_config_parameters_debug.h</in>
+              <in>mgmapi_debug.h</in>
+              <in>ndb_logevent.h</in>
+              <in>ndbd_exit_codes.h</in>
+            </df>
+            <df name="ndbapi">
+              <in>Ndb.hpp</in>
+              <in>NdbApi.hpp</in>
+              <in>NdbBlob.hpp</in>
+              <in>NdbDictionary.hpp</in>
+              <in>NdbError.hpp</in>
+              <in>NdbIndexOperation.hpp</in>
+              <in>NdbIndexScanOperation.hpp</in>
+              <in>NdbOperation.hpp</in>
+              <in>NdbPool.hpp</in>
+              <in>NdbRecAttr.hpp</in>
+              <in>NdbReceiver.hpp</in>
+              <in>NdbScanFilter.hpp</in>
+              <in>NdbScanOperation.hpp</in>
+              <in>NdbTransaction.hpp</in>
+              <in>ndb_cluster_connection.hpp</in>
+              <in>ndb_opt_defaults.h</in>
+              <in>ndbapi_limits.h</in>
+              <in>ndberror.h</in>
+            </df>
+            <in>ndb_constants.h</in>
+            <in>ndb_init.h</in>
+            <in>ndb_types.h</in>
+            <in>ndb_version.h</in>
+          </df>
+          <in>decimal.h</in>
+          <in>errmsg.h</in>
+          <in>keycache.h</in>
+          <in>m_ctype.h</in>
+          <in>m_string.h</in>
+          <in>my_alloc.h</in>
+          <in>my_attribute.h</in>
+          <in>my_config.h</in>
+          <in>my_dbug.h</in>
+          <in>my_dir.h</in>
+          <in>my_getopt.h</in>
+          <in>my_global.h</in>
+          <in>my_list.h</in>
+          <in>my_net.h</in>
+          <in>my_no_pthread.h</in>
+          <in>my_pthread.h</in>
+          <in>my_sys.h</in>
+          <in>my_xml.h</in>
+          <in>mysql.h</in>
+          <in>mysql_com.h</in>
+          <in>mysql_embed.h</in>
+          <in>mysql_time.h</in>
+          <in>mysql_version.h</in>
+          <in>mysqld_ername.h</in>
+          <in>mysqld_error.h</in>
+          <in>raid.h</in>
+          <in>sql_common.h</in>
+          <in>sql_state.h</in>
+          <in>sslopt-case.h</in>
+          <in>sslopt-longopts.h</in>
+          <in>sslopt-vars.h</in>
+          <in>typelib.h</in>
+        </df>
+        <df name="scripts">
+          <df name="world">
+            <df name="gld">
+            </df>
+            <df name="mob">
+            </df>
+            <df name="obj">
+            </df>
+            <df name="qst">
+            </df>
+            <df name="shp">
+            </df>
+            <df name="trg">
+            </df>
+            <df name="wld">
+            </df>
+            <df name="zon">
+            </df>
+          </df>
+        </df>
+        <df name="util">
+          <in>asciipasswd.c</in>
+          <in>autowiz.c</in>
+          <in>delobjs.c</in>
+          <in>listrent.c</in>
+          <in>mudpasswd.c</in>
+          <in>play2to3.c</in>
+          <in>plrtoascii.c</in>
+          <in>shopconv.c</in>
+          <in>showplay.c</in>
+          <in>sign.c</in>
+          <in>split.c</in>
+          <in>wld2html.c</in>
+        </df>
+        <in>account.c</in>
+        <in>act.comm.c</in>
+        <in>act.informative.c</in>
+        <in>act.item.c</in>
+        <in>act.movement.c</in>
+        <in>act.offensive.c</in>
+        <in>act.other.c</in>
+        <in>act.social.c</in>
+        <in>act.wizard.c</in>
+        <in>aedit.c</in>
+        <in>alias.c</in>
+        <in>asciimap.c</in>
+        <in>assedit.c</in>
+        <in>assemblies.c</in>
+        <in>assemblies.h</in>
+        <in>auction.c</in>
+        <in>auction.h</in>
+        <in>auction_house.c</in>
+        <in>auction_house.h</in>
+        <in>ban.c</in>
+        <in>boards.c</in>
+        <in>boards.h</in>
+        <in>bsd-snprintf.c</in>
+        <in>bsd-snprintf.h</in>
+        <in>cedit.c</in>
+        <in>char_descs.c</in>
+        <in>char_descs.h</in>
+        <in>clan.c</in>
+        <in>clan.h</in>
+        <in>clanedit.c</in>
+        <in>class.c</in>
+        <in>comm.c</in>
+        <in>comm.h</in>
+        <in>conf.h</in>
+        <in>config.c</in>
+        <in>constants.c</in>
+        <in>constants.h</in>
+        <in>context_help.c</in>
+        <in>db.c</in>
+        <in>db.h</in>
+        <in>deities.c</in>
+        <in>deities.h</in>
+        <in>dg_comm.c</in>
+        <in>dg_db_scripts.c</in>
+        <in>dg_event.c</in>
+        <in>dg_event.h</in>
+        <in>dg_handler.c</in>
+        <in>dg_misc.c</in>
+        <in>dg_mobcmd.c</in>
+        <in>dg_objcmd.c</in>
+        <in>dg_olc.c</in>
+        <in>dg_olc.h</in>
+        <in>dg_scripts.c</in>
+        <in>dg_scripts.h</in>
+        <in>dg_triggers.c</in>
+        <in>dg_variables.c</in>
+        <in>dg_wldcmd.c</in>
+        <in>feats.c</in>
+        <in>feats.h</in>
+        <in>fight.c</in>
+        <in>gedit.c</in>
+        <in>gengld.c</in>
+        <in>gengld.h</in>
+        <in>genmob.c</in>
+        <in>genmob.h</in>
+        <in>genobj.c</in>
+        <in>genobj.h</in>
+        <in>genolc.c</in>
+        <in>genolc.h</in>
+        <in>genqst.c</in>
+        <in>genshp.c</in>
+        <in>genshp.h</in>
+        <in>genwld.c</in>
+        <in>genwld.h</in>
+        <in>genzon.c</in>
+        <in>genzon.h</in>
+        <in>graph.c</in>
+        <in>grid.c</in>
+        <in>grid.h</in>
+        <in>guild.c</in>
+        <in>guild.h</in>
+        <in>handler.c</in>
+        <in>handler.h</in>
+        <in>hedit.c</in>
+        <in>hints.c</in>
+        <in>house.c</in>
+        <in>house.h</in>
+        <in>htree.c</in>
+        <in>htree.h</in>
+        <in>improved-edit.c</in>
+        <in>improved-edit.h</in>
+        <in>interpreter.c</in>
+        <in>interpreter.h</in>
+        <in>limits.c</in>
+        <in>magic.c</in>
+        <in>mail.c</in>
+        <in>mail.h</in>
+        <in>medit.c</in>
+        <in>memorization.c</in>
+        <in>mobact.c</in>
+        <in>modify.c</in>
+        <in>modules.c</in>
+        <in>modules.h</in>
+        <in>new_mail.c</in>
+        <in>note.c</in>
+        <in>notes.c</in>
+        <in>oasis.c</in>
+        <in>oasis.h</in>
+        <in>oasis_copy.c</in>
+        <in>oasis_delete.c</in>
+        <in>oasis_delete.h</in>
+        <in>oasis_list.c</in>
+        <in>objsave.c</in>
+        <in>oedit.c</in>
+        <in>olc.c</in>
+        <in>olc.h</in>
+        <in>pets.c</in>
+        <in>pets.h</in>
+        <in>pfdefaults.h</in>
+        <in>player_guilds.c</in>
+        <in>player_guilds.h</in>
+        <in>players.c</in>
+        <in>polls.c</in>
+        <in>polls.h</in>
+        <in>protocol.c</in>
+        <in>protocol.h</in>
+        <in>qedit.c</in>
+        <in>quest.c</in>
+        <in>quest.h</in>
+        <in>races.c</in>
+        <in>random.c</in>
+        <in>redit.c</in>
+        <in>screen.h</in>
+        <in>sedit.c</in>
+        <in>shop.c</in>
+        <in>shop.h</in>
+        <in>spec_assign.c</in>
+        <in>spec_procs.c</in>
+        <in>spec_procs.h</in>
+        <in>spell_parser.c</in>
+        <in>spells.c</in>
+        <in>spells.h</in>
+        <in>sqlcommon.h</in>
+        <in>statedit.c</in>
+        <in>structs.h</in>
+        <in>sysdep.h</in>
+        <in>tedit.c</in>
+        <in>tedit.h</in>
+        <in>telnet.h</in>
+        <in>transport.c</in>
+        <in>treasure.c</in>
+        <in>utils.c</in>
+        <in>utils.h</in>
+        <in>vehicles.c</in>
+        <in>version.h</in>
+        <in>weather.c</in>
+        <in>zedit.c</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
