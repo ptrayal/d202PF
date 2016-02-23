@@ -47,8 +47,6 @@ extern const char *class_abbrevs_dl_aol[];
 extern const char *deity_names_fr[];
 extern const char *deity_names_dl_aol[];
 extern const char *domain_names[];
-extern int deity_domains[][4];
-extern int deity_alignments[][9];
 extern char *mag_summon_msgs[];
 extern void set_height_and_weight_by_race(struct char_data *ch);
 extern struct char_data *ch_selling;
