@@ -369,8 +369,6 @@ Z
 D
 0
 A
-20 1 0
-A
 47 1 195
 A
 44 2 0
@@ -398,7 +396,6 @@ golden leggings~
 11 A 0 0 0 af 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 1 1500 0 1
-T 4024
 V
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
@@ -413,7 +410,6 @@ mace of atonement~
 5 A 0 0 0 an 0 0 0 0 u 0 0
 52 1 10 3 100 100 1 12 0 4 0 8 0 0 0 0
 1 30 0 0
-T 4038
 V
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
@@ -497,12 +493,12 @@ Golden Hourglass~
 Golden Hourglass - A Golden Hourglass magicly sparkles as the sands of Time slide through from the top to the bottom over and over again~
 ~
 9 0 0 0 0 ajn 0 0 0 0 0 0 0
-0 4 100 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 1
+30 1 5 -1 100 100 15 2 30 3 20 0 0 0 0 0
+200 25 0 1
 V
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
-0
+4
 D
 0
 #4033

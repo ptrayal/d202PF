@@ -12221,7 +12221,7 @@ None
 
 Benefit
 
-You get a +2 bonus on all Hide checks and Move Silently checks. 
+You get a +2 bonus on all Escape Artist and Stealth checks. 
 
 #0
 FEAT-TOUGHNESS
@@ -14665,24 +14665,8 @@ There are also half elf and half human breeds, including:
 Half Elf
 #0
 RACE-DWARF RACE-DWARVES
-Dwarves are short, stocky creatures, who are the descendents of Gnomes altered 
-by the passing of the Graygem. They are a hard-working and tough people, who are 
-often famed for their craftsmanship. Whilst dwarves are split into numerous 
-different clans, they are known for their solidarity and willingness to unite 
-the clans against a common enemy. However one undermining features of the dwarves
-ofAnsalonis the clan in-fighting whilst not facing an enemy. The threat of 
-civil war has often been hanging over the heads of the clans, and even broken 
-out on several occasions.
-The Dwarvish Clans on Krynn are:
-Hylar Dwarf
-Neidar Dwarf
-Daewar Dwarf
-Klar Dwarf
-Daergar Dwarf
-Theiwar Dwarf
-Dewar Dwarf
-Gully (Aghar) Dwarf
-Zhakar Dwarf
+----------------[ DWARF ]----------------
+Dwarves are a stoic but stern race, ensconced in cities carved from the hearts of mountains and fiercely determined to repel the depredations of savage races like orcs and goblins. More than any other race, dwarves have acquired a reputation as dour and humorless artisans of the earth. It could be said that their history shapes the dark disposition of many dwarves, for they reside in high mountains and dangerous realms below the earth, constantly at war with giants, goblins, and other such horrors.
 #0
 GNOME
 
@@ -36475,6 +36459,12 @@ combat
  
 Example usage: output combat full
  (Will set your combat output to full)
+#0
+UNDEFINED
+Empty
+#0
+UNDEFINED
+Empty
 #0
 UNDEFINED
 Empty

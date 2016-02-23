@@ -71,7 +71,7 @@ mob_fighting = 0
 disp_closed_doors = 1
 
 * What campaign setting is running on the mud?
-campaign_setting = 1
+campaign_setting = 3
 
 * Who can use the map functions? 0=off, 1=on, 2=imm_only
 map_option = 1
@@ -166,7 +166,7 @@ donation_room_3 = 1
 * 'autorun' script, the port number there will override this setting.
 * Change the PORT= line in autorun instead of (or in addition to)
 * changing this.
-DFLT_PORT = 4000
+DFLT_PORT = 9080
 
 * default directory to use as data directory.
 DFLT_DIR = lib
@@ -175,7 +175,7 @@ DFLT_DIR = lib
 LOGNAME = syslog
 
 * Maximum number of players allowed before game starts to turn people away.
-max_playing = 65535
+max_playing = 50
 
 * Maximum size of bug, typo, and idea files in bytes (to prevent bombing).
 max_filesize = 2147483647
@@ -199,9 +199,9 @@ auto_save_olc = 1
 * The entrance/exit menu.
 MENU = 
 
-@GWelcome to @YAge of Dragons: d20 Version@G!@n
+@GWelcome to @YPF-MUD: d20 Version@G!@n
 
-@W0@B) @CExit from @YAge of Dragons: d20 Version@n
+@W0@B) @CExit from @YPF-MUD: d20 Version@n
 
 @W1@B) @CEnter the Game!@n
 
@@ -219,7 +219,7 @@ Make Your Choice:
 * The welcome message.
 WELC_MESSG = 
 
-Welcome to d20MUD: Age of Dragons!
+Welcome to PF-MUD!
 
 Please be sure to check new notes each time you login using the @YNOTE@n command.
 You may also view and post notes at http://www.d20mud.com/d20/forums/
@@ -233,7 +233,7 @@ Enjoy the game!
 * NEWBIE start message.
 START_MESSG = 
 
-Welcome to d20MUD: Age of Dragons.
+Welcome to PF-MUD.
 
 You are about to enter a game that is unique to the MUDding world in many ways.
 Please know that this game has a steep learning curve and that it will require
@@ -254,10 +254,10 @@ among your MUDs of choice, of that we feel confident.
 * [ Autowiz Options ]
 * Should the game automatically create a new wizlist/immlist every time
 * someone immorts, or is promoted to a higher (or lower) god level?
-use_autowiz = 0
+use_autowiz = 1
 
 * If yes, what is the lowest level which should be on the wizlist?
-min_wizlist_lev = 1
+min_wizlist_lev = 2
 
 
 

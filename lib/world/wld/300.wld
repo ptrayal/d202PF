@@ -798,7 +798,7 @@ S
 #30034
 Choose Your Equipment~
    Now you must choose your equipment.  Here you may buy any non magical item of
-any type.  Simply type @Yitem buy <vnum>@n to buy an item and @Yitem list
+any type.  Simply type @Ybuy <vnum>@n to buy an item and @Ylist
 <armor|weapon|other>@n to see what is available along with the vnum of the item
 for buying, and its cost.  The amount of money you get is dependant on the class
 you chose earlier in character generation.  Once you have purchased all of your

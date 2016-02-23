@@ -1,0 +1,203 @@
+changelog:
+	1/31/06 (release)
+	- Happy 3rd Birthday to the CWG Project! Thanks to everyone for their
+	  help and hard work!
+	  --Ziz
+	1/29/06
+	- (C) Updates to parse_object, oedit_disp_perm_menu and oedit_parse to
+	  remove the ability of setting AFF_CHARM as on object perm affect.
+	  Setting this on a player (without having a clearly defined MASTER)
+	  is dangerous and can cause crashes.
+	  Thanks to Rumble!
+	1/20/06
+	- (C) Added social gossip bug fix in do_gen_comm.
+	  Thanks to Welcor!
+	- (C) Added missing if check in dstroy_db.
+	- (C) Change in setup_dir that was causing boot crashes. I think
+	  it was due to some gcc updates??
+	1/13/06
+	- (C) Added House_save_all call to do_saveall IMM command.
+	1/09/06
+	- (C) Removed typo in index_boot.
+	  Thanks to Ken!
+	- (C) Removed typo in redit_parse.
+	  Thanks to Ken!
+	- (C) Change of order in save_types, as it appears that SL_ACTION
+	  should be the last real element of the array.
+	  Thanks to Ken!
+	- (C) Update to boot_world to include guilds in the no_specials check.
+	  Thanks to Ken!
+	1/08/06
+	- (C) Update to postmaster_receive_mail so that mail objects
+	  were being created correctly.
+	- (C) Update to Crash_is_unrentable so that mail objects would
+	  be correctly saved.
+	- (C) Update to do_dg_affect, as it was no longer 128 bit compatable.
+	  Thanks to Kriss (psenne@gmail.com)
+	1/06/06
+	- (C) Update to say_spell so that LVL_IMMORT and up automatically
+	  understand spoken magic.
+	  Thanks to Ken
+	10/31/05 (release)
+	10/28/05
+	- (C) Update to has_flight function so non-wearable flying items
+	  in inventory will also work.
+	  Thanks to Ken!
+	- (C) Update to OBJAFF_FLAGGED macro so it check 128 bit flags.
+	  Thanks to Ken!
+	- (C) Added in a patch to help with 128 bit conversion of mobs
+	  and unsigned int code.
+	  Thanks to Ken!
+	- (C) Added free_assemblies to clear out memory used by assembly
+	  code on shutdown. 
+	  Thanks to Jamie (mordacai@xtra.co.nz)
+	10/08/05
+	- (R) Minor update in save_char for class feats and epic class feats.
+	10/04/05
+	- (C) Removed some unused code from cedit_creation.
+	  Thanks to Ken!
+	9/30/05 (release)
+	9/29/05 
+	- (R) Added assembly type of FORGE. It was already in Buddha and
+	  SunTzu. Ultimately these may all come out of Rasputin, but for now
+	  we'll keep everything in tune. 
+	9/25/05 
+	- (S, R) Update to look_at_target to reduce spammy output.
+	  Thanks to Ken!
+	9/24/05 
+	- (C) Update to do_gen_comm to make gemote and gossip behave
+	  the same for socials. 
+	  Thanks to Ken!
+	- (C) Update to do_gen_comm to remove some SYSERRs generated
+	  while switched into mobs.
+	  Thanks to Ken!
+	- (C) Update to make_prompt to capitalize mob strings while
+	  switched into them.
+	  Thanks to Ken!
+	- (C) Update to SPECIAL(shop_keeper) so that MSG_NO_STEAL_HERE
+	  is sent TO_ROOM as well as TO_CHAR.
+	  Thanks to Ken!
+	- (S, R) Updated mob stealing behavior, as well as working in a new
+	  flag for shopkeepers weather they allow stealing or not.
+	  Thanks to Ken!
+	9/11/05
+	- (C) Updates to SCMD_XXXX and ASSM_XXXX defines so they will
+	  batch with the SKILL_XXXX defines for all the assembly skills.
+	  Thanks to Arnold!
+	9/07/05 
+	- (C) Update to zedit_parse per Welcor.
+	  Thanks to Welcor!
+	9/06/05 
+	- (C) Updated load_zones to fix reported bug with behavior of the
+	  'Set a global variable' zedit command.
+	  Thanks to Melzaren (melzaren@hotmail.com) and Welcor!
+	9/05/05 
+	- (C) Replaced lots of calls for ch|vict|obj->in_room to 
+	  IN_ROOM(ch|vict|obj). Use of the macro is better :)
+	9/03/05 
+	- (C) Update to get_filename and SUF_OBJS so that cryorent and
+	  regular rent work the same for objects.
+	- (C) Update to save_config as the value of min_rent_cost was
+	  not being written to lib/etc/config when changed.
+	- (C) Added new cedit creation code which allows you to choose 1 of 5
+	  methods. Check the help system for more information.
+	- (R) Update to look_at_target to correct problem with any object 
+	  having an extra description being treated like a spellbook and 
+	  scroll.
+	- (R) Update to do_stat_object to add an extra line after displaying
+	  extra discription keywords.
+	8/31/05 (release)
+	8/18/05 
+	- (C) Update to init_boards so it would stop logging an error
+	  trying to open a randomly none existent board.
+	8/15/05 
+	- (R, S) Changed RACE_MINDFLAYER to RACE_LIZARDFOLK.
+	- (C) Change to LIMIT cap in zedit_parse from 32000 to 65000.
+	  Thanks to Gilean42!
+	- (R, S) Updated Kortaal gate guard trigger.
+	  Thanks to Welcor!
+	- (C) Added changes to real_guild and real_shop to avoid crashing.
+	  Thanks to Gnomaana (gnomaana@adelphia.net) and 
+	    Gilean42 (gilean@krynnmud.com)!
+	- (C) Changed SYSERR messages in check_start_rooms to be more helpful.
+	8/13/05 
+	- (R) Changes to find_skill_num to correct problems identified with
+	  conflicting skill names of different types.
+	  Thanks to Arnold and Fnord!
+	7/31/05 (release)
+	7/30/05  
+	- (R) Update to oedit_parse for OEDIT_EXTRAS not toggling the
+	  correct flag.
+	  Thanks to Arnold (arnold_p_ziffel@hotmail.com)
+	7/29/05  
+	- (R) Updated typo in skill for intimidate.
+	  Thanks to Dastuun!
+	- (R) Updated art_abundant_step to initilize variable 'i'.
+	7/23/05  
+	- (C) Added new IMM command, chown. This allows you to get inventory
+	  or equipment from a mortal without having to use the force command.
+	  Donated by Random!
+	  Originally created by Crimson Wizard (cwizard@GIBLETS.COM)!
+	- (C) Added new color code, (@x) which randomly inserts a color.
+	  Donated by Random! 
+	7/11/05  
+	- (R) Removed duplicate entry in list_one_char.
+	  Thanks to Random (real.random@gmail.com)!
+	- (R) Removed leftover cedit check for REROLL in nanny.
+	- (S, R) Updated header in race_ok_gender, because they were out of 
+	  order.
+	7/03/05  
+	- (C) Some changes as part of character creation. Reordered display 
+	  values and added some color.
+	7/01/05  
+	- (B, R, S) I have changed all defalut port binding sockets. This is
+	  mainly to allow me to run the pre-release versions on my cwg server
+	  all at once.
+	  CWG-Rasputin default port binding is 5001.
+	  CWG-SunTzu default port binding is 5002.
+	  CWG-Buddha default port binding is 5003.
+	  I will exclude these changes from the next release patch, so no one
+	  is accidently impacted. However, all new full downloads will behave
+	  this way.
+	6/30/05  (release)
+	- (C) Initialized unique object pools as part of boot_db.
+	  Thanks to Fnord!
+	6/23/05 
+	- (R) Update to find_eq_pos. If a mob was trying to wear something 
+	  that was flagged WEAR_HOLD, the game would crash. 
+	- (C) Updates to free_room_strings, free_room, and free_srings.
+	  Thanks to Welcor!
+	6/14/05 
+	- (R) Update to roll_real_abils.
+	  Thanks to Welcor (welcor@builderacademy.net)!
+	6/09/05 
+	- (R) Changed byte to sbyte for ability_mod_value and dex_mod_capped.
+	  Thanks to Fnord (fnord@cosanostra.net)!
+	6/08/05 
+	- (R) Removed various log() statements left over from DEBUG.
+	- (C) Applied board update patch
+	  Thanks to Cunning (scmeis1@hotmail.com)! 
+	- (R) Removed redundant NUM_SEX define in structs.h
+	  Thanks to Fantebsb (fantebsb@gmail.com)!
+	- (R) Updated external call to spell_sort_info in feats.c.
+	  Thanks to Dastuun (theeds@mac.com)!
+	6/03/05 
+	- (C) Added pagelength patch provided by Ken!
+	6/02/05 
+	- There is some confusion about the changes made to item_in_list. So
+	  the changes were rolled out.
+	  Thanks Ken!
+	6/01/05 
+	- (R) Fixed scroll objects for memorization code. Scrolls are now 
+	  limited to only 1 spell per scroll.
+	- (R) Also fixed small bug where spellbook and scroll objects wouldn't
+	  show you what spells were scribed in them if the object had an extra
+	  description.
+	- (R) Update class_names from warrior to fighter to keep consistancy.
+	  Thanks to snob99 (prattgary@hotmail.com)
+	- (C) Fixed typo and bad logic related to EXP_MULTIPLIER cedit addition.
+	  Thanks to Maclir (kenr86@hotmail.com)
+	5/31/05 (release)
+	5/29/05
+	- Start of the ChangeLog.rasputin file.
+	- Happy Birthday to Fnord! :P

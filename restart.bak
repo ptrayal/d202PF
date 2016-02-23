@@ -1,0 +1,54 @@
+#!/bin/sh
+#
+# CircleMUD 3.0 cron job script
+# by Puff 
+# This script is released under the circle mud license
+# 
+#
+#############################################################################
+#
+#  This script is meant to be called by cron, to restart the autorun script
+#  should it ever die (machine reboot or crash, etc.) it requires a crontab
+#  entry (and thus access to cron from the account that the mud is running on)
+#
+#
+#  Make sure you edit $CIRCLEHOME point to the top level circle directory
+#  or you will get spammed by mail saying "autorun  command not found"
+#
+#
+#  the crontab entry should look like :
+#
+#  0,15,30,45 * * * * $CIRCLEHOME/restart
+#
+# if you want restart to check every 15 minutes. 
+#
+# or use cron-manage script to install the crontab entry.
+#
+# NOTE: you will get mail everytime autorun is restarted, plan accordingly.
+#
+#
+#############################################################################
+#
+# The standard system path, edit as needed.
+#
+PATH=$HOME:$HOME/circle30bpl10:/usr/local/bin:/usr/ucb:/bin:/usr/bin:/sbin 
+#
+# The path to the circle root directory
+#
+CIRCLEHOME=/home/aol/code/aolcode
+#
+#############################################################################
+
+cd $CIRCLEHOME
+
+if ps -x|grep -v grep |grep autorun
+then 
+  exit 
+else
+  if [ ! -e .killcron ];then
+    if [ ! -e .killscript ];then
+      echo "autorun restarted at `date` " >> $CIRCLEHOME/log/restarts 
+      exec autorun_cron 
+    fi
+  fi
+fi

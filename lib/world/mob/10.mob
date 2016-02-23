@@ -1,0 +1,27 @@
+#1000
+mob unfinished~
+Gustav Oleton~
+Gustav stands here, looking stern.
+~
+   Gustav is a middle-aged man with a no-nonsense attitude.  His hair is white
+and grey with a little black left in it.  His skin is weathered and his hands
+rough looking.  
+~
+bcdg 0 0 0 0 0 0 0 250
+2 19 8 24d100+100 1d1+1
+0 0 6 3
+8 8 1
+E
+Str: 10
+E
+Dex: 16
+E
+Int: 16
+E
+Wis: 10
+E
+Con: 10
+E
+Cha: 10
+S
+$

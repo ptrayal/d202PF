@@ -92,3 +92,7 @@
 @WRayal   @n @Y(Sep-02-2015)@n Implemented Still Mind for Monks.
 @WRayal   @n @Y(Sep-02-2015)@n Implemented Venom Immunity for Druids.
 @WRayal   @n @Y(Sep-03-2015)@n Added requirements for most epic feats.
+@WRayal   @n @Y(Sep-21-2015)@n Code changes to remove obsolete functions.
+@WRayal   @n @Y(Sep-22-2015)@n Fixed a memory leak in handler.c (I think)
+@WRayal   @n @Y(Sep-22-2015)@n Fixed three other small memory leaks.
+@WRayal   @n @Y(Feb-23-2016)@n Fixed a duplicate feat problem for fighters.

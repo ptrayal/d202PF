@@ -1,0 +1,162 @@
+#1000
+Market Yard~
+   This is an open area where merchants who come through the trading post do
+their trading.  The ground is well-worn from foot traffic.  
+~
+10 0 0 0 0 2
+D0
+~
+~
+0 0 1003 0 0 0 0 0 0 0 0
+D1
+Market Yard
+~
+~
+0 0 1001 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1002 0 0 0 0 0 0 0 0
+S
+#1001
+Market Yard~
+   This is an open area where merchants who come through the trading post do
+their trading.  The ground is well-worn from foot traffic.  
+~
+10 0 0 0 0 2
+D0
+~
+door~
+1 0 1005 21 21 0 0 0 0 0 0
+D2
+~
+door~
+1 0 1004 0 0 0 0 0 0 0 0
+D3
+Market Yard
+~
+~
+0 0 1000 0 0 0 0 0 0 0 0
+S
+#1002
+Stables~
+   This is the stables for the trading post.  Straw, dirt, and animal droppings
+cover the dirt floor.  The entire building is made from rough-hewn wood, but
+gives animals kept here sufficient cover from the elements.  
+~
+10 0 0 0 0 0
+D1
+~
+~
+0 0 1000 0 0 0 0 0 0 0 0
+S
+#1003
+Storage Pen~
+   This is a mostly fenced in area with a wooden roof over it to keep most of
+the rain and snow off whatever is stored here.  The dirt is packed in this area.
+
+~
+10 0 0 0 0 0
+D2
+~
+~
+0 0 1000 0 0 0 0 0 0 0 0
+S
+#1004
+Guesthouse~
+   This is the guesthouse that is sometimes used at the trading post.  The
+entire room is very rustic and made from rough-hewn wood.  
+~
+10 0 0 0 0 0
+D0
+~
+door~
+1 0 1001 21 21 0 0 0 0 0 0
+S
+#1005
+Main Hall~
+   This room is the main hall of the trading post.  The entire trading post is a
+squat but solid wooden building.  The main hall is lit from the fireplace
+located in the middle of the main hall.  
+~
+10 d 0 0 0 0
+D0
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+D1
+~
+~
+0 0 1007 0 0 0 0 0 0 0 0
+D2
+~
+door~
+1 0 1001 21 21 0 0 0 0 0 0
+D3
+~
+~
+0 0 1006 0 0 0 0 0 0 0 0
+S
+#1006
+Dining Room~
+   This room serves as the dining room for the trading post.  Several torches
+are hung from the ceiling to give the room light.  The wooden floor looks like
+it is well kept and swept regularly.  
+~
+10 d 0 0 0 0
+D1
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+S
+#1007
+Trading Post Office~
+This unfinished room was created by Rayal.
+~
+10 d 0 0 0 0
+D3
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+S
+#1008
+Secondary Hall~
+   This is a smaller version of the trading posts main hall.  The wooden floor
+has clearly seen less use and it is a bit chillier than the main hall.  
+~
+10 d 0 0 0 0
+D1
+~
+door~
+1 1000 1010 25 0 0 0 0 0 0 0
+D2
+~
+~
+0 0 1005 0 0 0 0 0 0 0 0
+D3
+~
+~
+0 0 1009 0 0 0 0 0 0 0 0
+S
+#1009
+Bedroom~
+This unfinished room was created by Rayal.
+~
+10 0 0 0 0 0
+D1
+~
+~
+0 0 1008 0 0 0 0 0 0 0 0
+S
+#1010
+Trading Post Storeroom~
+   This is the trading post storeroom.  It appears to be where they keep their
+stock.  
+~
+10 0 0 0 0 0
+D3
+~
+door~
+1 1000 1008 25 0 0 0 0 0 0 0
+S
+$~

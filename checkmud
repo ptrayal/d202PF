@@ -1,7 +1,7 @@
 #!/bin/sh
-muddir="/home/d20mud/generic/d20mud-v-0.90"
+muddir="/home/uriel/d20/d20mud-public/d20mud-v-0.90/"
 binname="circle"
-port="8000"
+port="9080"
 cd $muddir
 process=`ps auxwww | grep circle | grep $port | grep -v grep | awk '{print $11}'`
 if [ -z "$process" ]; then

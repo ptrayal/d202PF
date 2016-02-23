@@ -1,14 +1,18 @@
 #2800
 dragonhide sleeves~
 @ga pair of green dragonhide sleeves@n~
-@ga pair of green dragonhide sleeves@n is laying here.~
+@gA pair of green dragonhide sleeves@n is laying here.~
 The sleeves are made of small dragon scales. The look very sturdy.
 ~
 11 D 0 0 0 ai 0 0 0 e 0 0 0
 0 0 0 0 100 100 0 45 0 0 0 0 0 0 0 0
 10 10000 0 5
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
 4
+D
+0
 #2899
 key two twisting entwined silver bands~
 a key made of two entwined, twisting &Wsilver&n bands~
@@ -17,7 +21,11 @@ A key made of two entwined, twisting silver bands is lying here. It seems to cal
 18 aq 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0 100 100 0 43 0 0 0 0 0 0 0 0
 0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
+0
+D
 0
 E
 key two twisting entwined silver bands~
@@ -31,7 +39,11 @@ A Skull shaped key made of bone is lying here.~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0 100 100 0 9 0 0 0 0 0 0 0 0
 0 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
+0
+D
 0
 #2948
 @ya sharp mithril longsword with encrusted @Ge@gmeral@Gds@y on it's hilt @n~
@@ -42,8 +54,12 @@ Z
 5 AC 0 0 0 an 0 0 0 0 0 0 0
 26 1 8 3 100 100 0 7 1 2 0 11 0 0 0 0
 40 20000 0 24
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
 4
+D
+0
 A
 29 8 0
 A
@@ -57,17 +73,25 @@ a plain steel longsword
 5 0 0 0 0 an 0 0 0 0 0 0 0
 26 1 8 3 100 100 0 7 1 2 0 11 0 0 0 0
 40 15 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
 4
+D
+0
 #2966
-epiales bottomless stein red black white~
+epiales bottomless stein red black white ale~
 &WE&Dpiales'&rs &WB&Dottomles&rs &WS&Dtei&rn&n~
 A tall red, black and white stein sits here, waiting to be picked up.~
 ~
 17 q 0 0 0 aoy 0 0 0 0 0 0 0
-99000 99000 3 0 100 100 0 9 0 0 0 0 0 0 0 0
-99005 0 0 0
+10 10 3 0 100 100 0 9 0 0 0 0 0 0 0 0
+33469 0 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
+0
+D
 0
 E
 kelemvors bottomless stein~
@@ -83,7 +107,11 @@ A small piece of polished jet lay here~
 8 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0 100 100 0 34 0 0 0 0 0 0 0 0
 0 10000 0 0
+V
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Z
+0
+D
 0
 E
 polished coin jet~

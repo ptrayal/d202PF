@@ -93,7 +93,7 @@ while ( : ) do
   fi
 
   if [ ! -r .fastboot ]; then
-    sleep 30
+    sleep 15
   else
     rm .fastboot
     sleep 5

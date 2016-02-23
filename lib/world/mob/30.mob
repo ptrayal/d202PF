@@ -413,12 +413,12 @@ man commoner ~
 a disheveled commoner~
 A disheveled man is here going about his daily routine.
 ~
-This man is a member of the lowest class of Luskan.  His clothes are tattered
+   This man is a member of the lowest class of Luskan.  His clothes are tattered
 and worn, his hair is unkempt.  He is very slim, evidence of his poor diet.  
 ~
 adg b 0 0 k 0 0 0 -500
 1 20 9 4d100+151 1d8+0
-5 0 42 27
+5 0 6 27
 8 8 1
 E
 Str: 10
@@ -1173,9 +1173,9 @@ are quite thick and his hair long and stringy, though neatly brushed.  His eyes
 are filled with laughter, though his eyebrows curve down in such a way that the
 laughter seems cynical, instead of joyous.  
 ~
-bdnopqrA bd 0 0 k 0 0 0 -500
+abdnopqrA bdz 0 0 k 0 0 0 -500
 20 20 -10 252d100+151 1d8+0
-1000000 0 42 3
+1000000 0 6 3
 8 8 1
 E
 BareHandAttack: 13

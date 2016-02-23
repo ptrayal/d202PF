@@ -145,16 +145,16 @@ S
 #1205
 convert earth cultist recent~
 a earth cultist convert~
-A recent convert of the earth cultist religion is here roaming about the complex.
+A recent convert of the earth cultist religion is here roaming the complex.
 ~
-   This young woman is clothed in robes and attire similar to that of the earth cultist
-priests, but by her excited looks and quivery voice you can tell that she is
-fairly new to the religion.  She seems willing to initiate conversation with
-anyone that nears her.  
+   This young woman is clothed in robes and attire similar to that of the earth
+cultist priests, but by her excited looks and quivery voice you can tell that
+she is fairly new to the religion.  She seems willing to initiate conversation
+with anyone that nears her.  
 ~
-ad 0 0 0 k 0 0 0 0
+d 0 0 0 k 0 0 0 0
 5 20 5 54d50+151 1d8+0
-50 0 42 1
+50 0 7 1
 8 8 2
 E
 BareHandAttack: 13
@@ -174,16 +174,16 @@ S
 #1206
 skeptic earth cultist male man~
 a earth cultist skeptic~
-A skeptic of the earth cultist religion is here studying the complex in disbelief.
+A skeptic of the earth cultist religion is here studying the complex.
 ~
-   This young man is somewhat skeptical of the earth cultist religion, as any sensible
-person probably should be.  He keeps walking about the complex speaking with
-anyone who seems interested in doing so, and seems to be paying very close
+   This young man is somewhat skeptical of the earth cultist religion, as any
+sensible person probably should be.  He keeps walking about the complex speaking
+with anyone who seems interested in doing so, and seems to be paying very close
 attention.  
 ~
 ad 0 0 0 k 0 0 0 0
 7 20 3 72d70+151 1d8+0
-105 0 42 1
+105 0 2 1
 8 8 1
 E
 BareHandAttack: 13
@@ -203,7 +203,7 @@ S
 #1207
 skeptic earth cultist female woman~
 a earth cultist skeptic~
-A skeptic of the earth cultist religion is here studying the complex in disbelief.
+A skeptic of the earth cultist religion is here studying the complex.
 ~
    This young woman is somewhat skeptical of the earth cultist religion, as any
 sensible person probably should be.  She keeps walking about the complex
@@ -212,7 +212,7 @@ very close attention.
 ~
 ad 0 0 0 k 0 0 0 0
 7 20 3 72d70+151 1d8+0
-105 0 42 1
+105 0 5 1
 8 8 2
 E
 BareHandAttack: 13
@@ -234,14 +234,14 @@ acolyte man male earth cultist~
 a earth cultist acolyte~
 An acolyte of the earth cultist religion walks about in contemplation.
 ~
-   This young man is clothed in robes and attire similar to that of the earth cultist
-priests, but by his excited looks and quivery voice you can tell that he is
-fairly new to the religion.  He seems willing to initiate conversation with
+   This young man is clothed in robes and attire similar to that of the earth
+cultist priests, but by his excited looks and quivery voice you can tell that he
+is fairly new to the religion.  He seems willing to initiate conversation with
 anyone that nears him.  
 ~
 ad 0 0 0 k 0 0 0 0
 7 20 3 72d70+152 1d8+0
-105 0 42 1
+105 0 6 1
 8 8 1
 E
 BareHandAttack: 13
