@@ -288,7 +288,6 @@ feato(FEAT_SELF_SUFFICIENT, "Self Sufficient", TRUE, TRUE, FALSE, "-", "You get 
 feato(FEAT_SHOT_ON_THE_RUN, "Shot on the Run", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SILENT_SPELL, "Silent Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SKILL_FOCUS, "Skill Focus", TRUE, TRUE, TRUE, "-", "+3 bonus on one skill");
-feato(FEAT_SLOW_FALL, "Slow Fall", TRUE, FALSE, FALSE, "-", "no damage for falling 10 ft/feat rank");
 feato(FEAT_SMITE_GOOD, "Smite Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SNEAK_ATTACK, "Sneak Attack", TRUE, TRUE, TRUE, "as epic feat: sneak attack +8d6", "+1d6 to damage when flanking");
 feato(FEAT_SNEAK_ATTACK_OF_OPPORTUNITY, "Sneak Attack of Opportunity", TRUE, TRUE, FALSE, "sneak attack +8d6, opportunist feat", "makes all opportunity attacks sneak attacks");
@@ -311,7 +310,6 @@ feato(FEAT_TRAMPLE, "Trample", FALSE, FALSE, FALSE, "Mounted Combat", "ask staff
 feato(FEAT_TWO_WEAPON_DEFENSE, "Two Weapon Defense", TRUE, TRUE, FALSE, "Two-Weapon Fighting", "Gain +1 shield bonus when fighting with two weapons");
 feato(FEAT_TWO_WEAPON_FIGHTING, "Two-Weapon Fighting", TRUE, TRUE, FALSE, "Dex 15", "Reduce two-weapon fighting penalties");
 feato(FEAT_UNARMED_STRIKE, "Unarmed Strike", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "-", "retains dex bonus when flat footed or against invis opponents");
 feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "Use Dex instead of Str on attack rolls with light weapons");
 feato(FEAT_WEAPON_FLURRY, "Weapon Flurry", TRUE, TRUE, TRUE, "Weapon Mastery, base attack bonus +14", "2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action");
 feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +1", "+1 to hit rolls for selected weapon");
@@ -324,6 +322,9 @@ feato(FEAT_WEAPON_PROFICIENCY_SIMPLE, "Weapon Proficiency (Simple)", TRUE, TRUE,
 feato(FEAT_WEAPON_SUPREMACY, "Weapon Supremacy", TRUE, TRUE, TRUE, "Weapon Mastery, greater weapon focus, greater weapon specialization, fighter level 18", "+4 to resist disarm, ignore grapples, add +5 to hit roll when miss by 5 or less, can take 10 on attack rolls, +1 bonus to AC when wielding weapon");
 feato(FEAT_WHIRLWIND_ATTACK, "Whirlwind Attack", TRUE, TRUE, FALSE, "Dex 13, Combat Expertise, Spring Attack, base attack bonus +4", "allows you to attack everyone in the room or everyone you are fighting (with contain) as a standard action");
 feato(FEAT_WIDEN_SPELL, "Widen Spell", FALSE, FALSE, FALSE, "Caster level 1st", "ask staff");
+
+feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "-", "retains dex bonus when flat footed or against invis opponents");
+
 
 /* Artisan Class feats */
 feato(FEAT_SCAVENGE, "Scavenge", TRUE, FALSE, FALSE, "5th-level Artisan", "Can find materials on corpses");
@@ -400,6 +401,7 @@ feato(FEAT_DIAMOND_SOUL, "Diamond Soul", TRUE, FALSE, FALSE, "13th-level Monk", 
 feato(FEAT_KI_STRIKE, "Ki Strike", TRUE, FALSE, FALSE, "4th-level Monk", "unarmed attack considered a magical weapon");
 feato(FEAT_EMPTY_BODY, "Empty Body", TRUE, FALSE, FALSE, "19th-level Monk", "50%% concealment for several rounds");
 feato(FEAT_GREATER_FLURRY, "Greater Flurry", TRUE, FALSE, FALSE, "11th-level Monk", "extra unarmed attack when using flurry of blows at -5 penalty");
+feato(FEAT_SLOW_FALL, "Slow Fall", TRUE, FALSE, FALSE, "-", "no damage for falling 10 ft/feat rank");
 
 /* Paladin Class feats */
 feato(FEAT_DETECT_EVIL, "Detect Evil", TRUE, TRUE, FALSE, "1st-level Paladin", "able to detect evil alignments");
