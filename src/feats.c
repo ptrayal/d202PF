@@ -189,6 +189,7 @@ feato(FEAT_CRAFT_STAFF, "Craft Staff", FALSE, FALSE, FALSE, "Caster level 11th",
 feato(FEAT_CRAFT_WAND, "Craft Wand", FALSE, FALSE, FALSE, "Caster level 5th", "Create magic wands"); 
 feato(FEAT_CRAFT_WONDEROUS_ITEM, "Craft Wonderous Item", FALSE, FALSE, FALSE, "Caster level 3rd", "Create magic wondrous items"); 
 feato(FEAT_CRITICAL_FOCUS, "Critical Focus", TRUE, TRUE, TRUE, "Base attack bonus +9", "+4 bonus on attack rolls made to confirm critical hits");
+feato(FEAT_DARKVISION, "Darkvision", TRUE, FALSE, FALSE, "-", "Darkvision is the extraordinary ability to see with no light source at all");
 feato(FEAT_DECEITFUL, "Deceitful", TRUE, TRUE, FALSE, "-", "+2 bonus on Bluff and Disguise checks");
 feato(FEAT_DEFLECT_ARROWS, "Deflect Arrows", TRUE, TRUE, FALSE, "Dex 13, Improved Unarmed Strike", "Avoid one ranged attack per round"); 
 feato(FEAT_DEFT_HANDS, "Deft Hands", TRUE, TRUE, FALSE, "-", "+2 bonus on Disable Device and Sleight of Hand checks");
@@ -475,7 +476,6 @@ feato(FEAT_BREATH_WEAPON, "Breath Weapon", TRUE, FALSE, FALSE, "3rd-level Dragon
 feato(FEAT_CHARISMA_BOOST, "Charisma Boost", TRUE, FALSE, FALSE, "10th-level Dragon Disciple", "ask staff");
 feato(FEAT_CLAWS_AND_BITE, "Claws and Bite", TRUE, FALSE, FALSE, "2nd-level Dragon Disciple", "ask staff");
 feato(FEAT_CONSTITUTION_BOOST, "Constitution Boost", TRUE, FALSE, FALSE, "6th-level Dragon Disciple", "ask staff");
-feato(FEAT_DARKVISION, "Darkvision", TRUE, FALSE, FALSE, "10th-level Dragon Disciple", "ask staff");
 feato(FEAT_DRAGON_APOTHEOSIS, "Dragon Apotheosis", TRUE, FALSE, FALSE, "10th-level Dragon Disciple", "ask staff");
 feato(FEAT_ELEMENTAL_IMMUNITY, "Elemental Immunity", TRUE, FALSE, FALSE, "10th-level Dragon Disciple", "ask staff");
 feato(FEAT_INTELLIGENCE_BOOST, "Intelligence Boost", TRUE, FALSE, FALSE, "8th-level Dragon Disciple", "ask staff");
