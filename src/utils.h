@@ -1351,10 +1351,13 @@ void admin_set(struct char_data *ch, int value);
 
 #define IS_GEMSTONE(mobj)  (GET_OBJ_VNUM(obj) == 64001 || GET_OBJ_VNUM(obj) == 64003 || GET_OBJ_VNUM(obj) == 64006 || \
                             GET_OBJ_VNUM(obj) == 64008 || GET_OBJ_VNUM(obj) == 64009 || GET_OBJ_VNUM(obj) == 64011)
+
 #define IS_PETRIFIED_WOOD(mobj)  (GET_OBJ_VNUM(obj) == 64033 || GET_OBJ_VNUM(obj) == 64034 || GET_OBJ_VNUM(obj) == 64035 || \
                             GET_OBJ_VNUM(obj) == 64036)
+
 #define IS_FOSSIL(mobj)  (GET_OBJ_VNUM(obj) == 64037 || GET_OBJ_VNUM(obj) == 64038 || GET_OBJ_VNUM(obj) == 64039 || \
                             GET_OBJ_VNUM(obj) == 64040)
+
 #define GET_DEATH_ATTACK(ch) (ch->player_specials->death_attack)
 #define GET_MARK_ROUNDS(ch)  (ch->player_specials->mark_rounds)
 #define GET_MARK(ch)         (ch->player_specials->mark_target)
@@ -1457,8 +1460,8 @@ void admin_set(struct char_data *ch, int value);
 
 #define craft_pattern_vnums(i)		(craft_pattern_vnums_real[i] - 200 + 30000)
 
-#define HAS_LOW_LIGHT_VIS(ch)		(HAS_FEAT(ch, FEAT_LOW_LIGHT_VISION) || IS_ELF(ch) || IS_HALF_ELF(ch) || IS_GNOME(ch))
-#define HAS_DARKVISION(ch)		(HAS_FEAT(ch, FEAT_DARKVISION) || IS_DWARF(ch) || IS_HALF_ORC(ch))
+#define HAS_LOW_LIGHT_VIS(ch)		(HAS_FEAT(ch, FEAT_LOW_LIGHT_VISION))
+#define HAS_DARKVISION(ch)		(HAS_FEAT(ch, FEAT_DARKVISION))
 
 #define GET_LAY_HANDS(ch)		(ch->player_specials->lay_hands)
 
