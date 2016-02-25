@@ -4375,13 +4375,13 @@ ACMD(do_test_dump)
     if (fp == NULL)
       exit(-1);
 
-    fprintf(fp, "Feat Name|Prerequisite|Description\n");
+    fprintf(fp, "Feat Name|In-Game|Prerequisite|Description\n");
 
     for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
     {
       int i = feat_sort_info[sortpos];
 
-      fprintf(fp, "%s|%s|%s\n", feat_list[i].name, feat_list[i].prerequisites, feat_list[i].description);
+      fprintf(fp, "%s|%d|%s|%s\n", feat_list[i].name, feat_list[i].in_game, feat_list[i].prerequisites, feat_list[i].description);
     }
 
     fclose(fp);

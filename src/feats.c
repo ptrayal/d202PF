@@ -289,13 +289,11 @@ feato(FEAT_UNARMED_STRIKE, "Unarmed Strike", TRUE, FALSE, FALSE, "ask staff", "a
 feato(FEAT_WEAPON_FINESSE, "Weapon Finesse", TRUE, TRUE, FALSE, "-", "Use Dex instead of Str on attack rolls with light weapons");
 feato(FEAT_WEAPON_FLURRY, "Weapon Flurry", TRUE, TRUE, TRUE, "Weapon Mastery, base attack bonus +14", "2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action");
 feato(FEAT_WEAPON_FOCUS, "Weapon Focus", TRUE, TRUE, TRUE, "Proficiency with weapon, base attack bonus +1", "+1 to hit rolls for selected weapon");
-feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", TRUE, TRUE, TRUE, "Weapon Specialization, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
 feato(FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD, "Weapon Proficiency (Bastard Sword)", FALSE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_ELF, "Weapon Proficiency (Elf)", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_WEAPON_PROFICIENCY_EXOTIC, "Weapon Proficiency (Exotic)", TRUE, TRUE, TRUE, "Base attack bonus +1", "You understand how to use that type of exotic weapon in combat.");
 feato(FEAT_WEAPON_PROFICIENCY_MARTIAL, "Weapon Proficiency (Martial)", TRUE, TRUE, FALSE, "-", "You understand how to use martial weapons in combat.");
 feato(FEAT_WEAPON_PROFICIENCY_SIMPLE, "Weapon Proficiency (Simple)", TRUE, TRUE, FALSE, "-", "You are trained in the use of basic weapons.");
-feato(FEAT_WEAPON_SUPREMACY, "Weapon Supremacy", TRUE, TRUE, TRUE, "Weapon Mastery, greater weapon focus, greater weapon specialization, fighter level 18", "+4 to resist disarm, ignore grapples, add +5 to hit roll when miss by 5 or less, can take 10 on attack rolls, +1 bonus to AC when wielding weapon");
 feato(FEAT_WHIRLWIND_ATTACK, "Whirlwind Attack", TRUE, TRUE, FALSE, "Dex 13, Combat Expertise, Spring Attack, base attack bonus +4", "allows you to attack everyone in the room or everyone you are fighting (with contain) as a standard action");
 feato(FEAT_WIDEN_SPELL, "Widen Spell", FALSE, FALSE, FALSE, "Caster level 1st", "ask staff");
 
@@ -496,33 +494,35 @@ feato(FEAT_SACRED_FLAMES, "Sacred Flames", TRUE, FALSE, FALSE, "sacred fist leve
 
 /* UNUSED FEATS */
 /* These are EPIC feats which are not used.*/
-feato(FEAT_ARMOR_SKIN, "Armor Skin", TRUE, TRUE, TRUE, "Epic level", "Increases natural armor by 1");
-feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", TRUE, TRUE, FALSE, "Epic level, empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
-feato(FEAT_AUTOMATIC_QUICKEN_SPELL, "Automatic Quicken Spell", TRUE, TRUE, TRUE, "Epic level, spellcraft 30 ranks, ability to cast level 9 arcane or divine spells", "You can cast level 0, 1, 2 & 3 spells automatically as if quickened.  Every addition rank increases the max spell level by 3.");
-feato(FEAT_FAST_HEALING, "Fast Healing", TRUE, TRUE, TRUE, "Epic Level", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
-feato(FEAT_GREAT_SMITING, "Great Smiting", TRUE, TRUE, TRUE, "Epic Level", "For each rank in this feat you add your level in damage to all smite attacks");
-feato(FEAT_ENHANCE_SPELL, "Increase Spell Damage (Enhance Spell)", TRUE, TRUE, FALSE, "Epic Level", "increase max number of damage dice for certain damage based spell by 5");
-feato(FEAT_EPIC_COMBAT_CHALLENGE, "Epic Combat Challenge", TRUE, TRUE, FALSE, "Epic level, 20 ranks in diplomacy, intimidate or bluff, greater combat challenge", "as improved combat challenge, but both regular challenges and challenge all are minor actions");
-feato(FEAT_EPIC_DODGE, "Epic Dodge", TRUE, TRUE, FALSE, "Epic level, dex 25, dodge, tumble 30, improved evasion, defensive roll", "automatically dodge first attack against you each round");
-feato(FEAT_EPIC_PROWESS, "Epic Prowess", TRUE, TRUE, TRUE, "Epic level", "+1 to all attacks per rank");
-feato(FEAT_EPIC_SKILL_FOCUS, "Epic Skill focus", TRUE, TRUE, TRUE, "Epic level, 20 ranks in the skill", "+10 in chosen skill");
-feato(FEAT_EPIC_SPELLCASTING, "Epic Spellcasting", TRUE, TRUE, FALSE, "Epic level, lore 24, spellcraft 24", "allows you to cast epic spells");
-feato(FEAT_EPIC_TOUGHNESS, "Epic Toughness", TRUE, TRUE, TRUE, "Epic level", "You gain +30 max hp.");
-feato(FEAT_MIGHTY_RAGE, "Mighty Rage", TRUE, FALSE, FALSE, "Epic level, str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
-feato(FEAT_PERFECT_TWO_WEAPON_FIGHTING, "Perfect Two Weapon Fighting", TRUE, TRUE, FALSE, "Epic level, dex 25, greater two weapon fighting", "Extra attack with offhand weapon");
-feato(FEAT_SELF_CONCEALMENT, "Self Concealment", TRUE, TRUE, TRUE, "Epic level, stealth 30 ranks, dex 30, tumble 30 ranks", "10%% miss chance for attacks against you per rank");
-feato(FEAT_SWARM_OF_ARROWS, "Swarm of Arrows", TRUE, TRUE, FALSE, "Epic level, dex 23, point blank shot, rapid shot, weapon focus", "allows you to make a single ranged attack against everyone in range.");
+feato(FEAT_ARMOR_SKIN, "Armor Skin", FALSE, TRUE, TRUE, "Epic level", "Increases natural armor by 1");
+feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", FALSE, TRUE, FALSE, "Epic level, empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
+feato(FEAT_AUTOMATIC_QUICKEN_SPELL, "Automatic Quicken Spell", FALSE, TRUE, TRUE, "Epic level, spellcraft 30 ranks, ability to cast level 9 arcane or divine spells", "You can cast level 0, 1, 2 & 3 spells automatically as if quickened.  Every addition rank increases the max spell level by 3.");
+feato(FEAT_FAST_HEALING, "Fast Healing", FALSE, TRUE, TRUE, "Epic Level", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
+feato(FEAT_GREAT_SMITING, "Great Smiting", FALSE, TRUE, TRUE, "Epic Level", "For each rank in this feat you add your level in damage to all smite attacks");
+feato(FEAT_ENHANCE_SPELL, "Increase Spell Damage (Enhance Spell)", FALSE, TRUE, FALSE, "Epic Level", "increase max number of damage dice for certain damage based spell by 5");
+feato(FEAT_EPIC_COMBAT_CHALLENGE, "Epic Combat Challenge", FALSE, TRUE, FALSE, "Epic level, 20 ranks in diplomacy, intimidate or bluff, greater combat challenge", "as improved combat challenge, but both regular challenges and challenge all are minor actions");
+feato(FEAT_EPIC_DODGE, "Epic Dodge", FALSE, TRUE, FALSE, "Epic level, dex 25, dodge, tumble 30, improved evasion, defensive roll", "automatically dodge first attack against you each round");
+feato(FEAT_EPIC_PROWESS, "Epic Prowess", FALSE, TRUE, TRUE, "Epic level", "+1 to all attacks per rank");
+feato(FEAT_EPIC_SKILL_FOCUS, "Epic Skill focus", FALSE, TRUE, TRUE, "Epic level, 20 ranks in the skill", "+10 in chosen skill");
+feato(FEAT_EPIC_SPELLCASTING, "Epic Spellcasting", FALSE, TRUE, FALSE, "Epic level, lore 24, spellcraft 24", "allows you to cast epic spells");
+feato(FEAT_EPIC_TOUGHNESS, "Epic Toughness", FALSE, TRUE, TRUE, "Epic level", "You gain +30 max hp.");
+feato(FEAT_MIGHTY_RAGE, "Mighty Rage", FALSE, FALSE, FALSE, "Epic level, str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
+feato(FEAT_PERFECT_TWO_WEAPON_FIGHTING, "Perfect Two Weapon Fighting", FALSE, TRUE, FALSE, "Epic level, dex 25, greater two weapon fighting", "Extra attack with offhand weapon");
+feato(FEAT_SELF_CONCEALMENT, "Self Concealment", FALSE, TRUE, TRUE, "Epic level, stealth 30 ranks, dex 30, tumble 30 ranks", "10%% miss chance for attacks against you per rank");
+feato(FEAT_SWARM_OF_ARROWS, "Swarm of Arrows", FALSE, TRUE, FALSE, "Epic level, dex 23, point blank shot, rapid shot, weapon focus", "allows you to make a single ranged attack against everyone in range.");
 
 /* Unused non-Epic Feats*/
-feato(FEAT_ARMOR_SPECIALIZATION_HEAVY, "Armor Specialization (heavy)", TRUE, TRUE, FALSE, "Armor Proficiency (Heavy), Base attack bonus +12", "DR 2/- when wearing heavy armor");
-feato(FEAT_ARMOR_SPECIALIZATION_LIGHT, "Armor Specialization (light)", TRUE, TRUE, FALSE, "Armor Proficiency (Light), Base attack bonus +12", "DR 2/- when wearing light armor");
-feato(FEAT_ARMOR_SPECIALIZATION_MEDIUM, "Armor Specialization (medium)", TRUE, TRUE, FALSE, "Armor Proficiency (Medium), Base attack bonus +12", "DR 2/- when wearing medium armor");
+feato(FEAT_ARMOR_SPECIALIZATION_HEAVY, "Armor Specialization (heavy)", FALSE, TRUE, FALSE, "Armor Proficiency (Heavy), Base attack bonus +12", "DR 2/- when wearing heavy armor");
+feato(FEAT_ARMOR_SPECIALIZATION_LIGHT, "Armor Specialization (light)", FALSE, TRUE, FALSE, "Armor Proficiency (Light), Base attack bonus +12", "DR 2/- when wearing light armor");
+feato(FEAT_ARMOR_SPECIALIZATION_MEDIUM, "Armor Specialization (medium)", FALSE, TRUE, FALSE, "Armor Proficiency (Medium), Base attack bonus +12", "DR 2/- when wearing medium armor");
 feato(FEAT_ROBILARS_GAMBIT, "Robilars Gambit", FALSE, FALSE, FALSE, "combat reflexes, base attack bonus +12", "when active enemies gain +4 to hit and damage against you, but all melee attacks invoke an attack of opportunity from you.");
-feato(FEAT_COMBAT_CHALLENGE, "Combat Challenge", TRUE, TRUE, FALSE, "Diplomacy, Intimidate or Bluff 5 ranks", "allows you to make a mob focus their attention on you");
-feato(FEAT_DETECT_GOOD, "Detect Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SMITE_GOOD, "Smite Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_GREATER_COMBAT_CHALLENGE, "Greater Combat Challenge", TRUE, TRUE, FALSE, "15 ranks in diplomacy, intimidate or bluff, improved combat challenge", "as improved combat challenge, but regular challenge is a minor action & challenge all is a move action ");
-feato(FEAT_HASTE, "Haste", TRUE, FALSE, FALSE, "favored soul level 17", "can cast haste 3x per day");
+feato(FEAT_COMBAT_CHALLENGE, "Combat Challenge", FALSE, TRUE, FALSE, "Diplomacy, Intimidate or Bluff 5 ranks", "allows you to make a mob focus their attention on you");
+feato(FEAT_DETECT_GOOD, "Detect Good", FALSE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_SMITE_GOOD, "Smite Good", FALSE, FALSE, FALSE, "ask staff", "ask staff");
+feato(FEAT_GREATER_COMBAT_CHALLENGE, "Greater Combat Challenge", FALSE, TRUE, FALSE, "15 ranks in diplomacy, intimidate or bluff, improved combat challenge", "as improved combat challenge, but regular challenge is a minor action & challenge all is a move action ");
+feato(FEAT_HASTE, "Haste", FALSE, FALSE, FALSE, "favored soul level 17", "can cast haste 3x per day");
+feato(FEAT_WEAPON_SUPREMACY, "Weapon Supremacy", FALSE, TRUE, TRUE, "Weapon Mastery, greater weapon focus, greater weapon specialization, fighter level 18", "+4 to resist disarm, ignore grapples, add +5 to hit roll when miss by 5 or less, can take 10 on attack rolls, +1 bonus to AC when wielding weapon");
+feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", FALSE, TRUE, TRUE, "Weapon Specialization, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
 
 /* Dragonlance specific feats or class abilities. */
 if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
