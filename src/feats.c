@@ -140,7 +140,7 @@ void free_feats(void)
 void assign_feats(void)
 {
 
-  int i;
+  int i = 0;
 
   // Initialize the list of feats.
 
@@ -167,12 +167,10 @@ feato(FEAT_ARMOR_PROFICIENCY_LIGHT, "Armor Proficiency (Light)", TRUE, TRUE, FAL
 feato(FEAT_ARMOR_PROFICIENCY_MEDIUM, "Armor Proficiency (Medium)", TRUE, TRUE, FALSE, "Armor Proficiency (Light)", "No penalties on attack rolls while wearing medium armor"); 
 feato(FEAT_ARMOR_PROFICIENCY_SHIELD, "Armor Proficiency (Shield)", TRUE, FALSE, FALSE, "-", "No penalties on attack rolls when using a shield"); 
 feato(FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD, "Armor Proficiency (Tower Shield)", TRUE, TRUE, FALSE, "Armor Proficiency (Shield)", "No penalties on attack rolls when using a tower shield");
-feato(FEAT_ARMOR_SKIN, "Armor Skin", TRUE, TRUE, TRUE, "Epic level", "Increases natural armor by 1");
 feato(FEAT_ARMOR_SPECIALIZATION_HEAVY, "Armor Specialization (heavy)", TRUE, TRUE, FALSE, "Armor Proficiency (Heavy), Base attack bonus +12", "DR 2/- when wearing heavy armor");
 feato(FEAT_ARMOR_SPECIALIZATION_LIGHT, "Armor Specialization (light)", TRUE, TRUE, FALSE, "Armor Proficiency (Light), Base attack bonus +12", "DR 2/- when wearing light armor");
 feato(FEAT_ARMOR_SPECIALIZATION_MEDIUM, "Armor Specialization (medium)", TRUE, TRUE, FALSE, "Armor Proficiency (Medium), Base attack bonus +12", "DR 2/- when wearing medium armor");
 feato(FEAT_AUGMENT_SUMMONING, "Augment Summoning", TRUE, TRUE, FALSE, "Spell Focus (conjuration)", "Summoned creatures gain +4 Str and Con.");
-feato(FEAT_AUTOMATIC_QUICKEN_SPELL, "Automatic Quicken Spell", TRUE, TRUE, TRUE, "epic level, spellcraft 30 ranks, ability to cast level 9 arcane or divine spells", "You can cast level 0, 1, 2 & 3 spells automatically as if quickened.  Every addition rank increases the max spell level by 3.");
 feato(FEAT_BLEEDING_ATTACK, "Bleeding Attack", TRUE, TRUE, FALSE, "Rogue Talent", "causes bleed damage on living targets who are hit by sneak attack.");
 feato(FEAT_BLIND_FIGHT, "Blind-Fight", TRUE, TRUE, FALSE, "-", "reduced penalties when fighting blind oragainst invisible opponents"); 
 feato(FEAT_BREW_POTION, "Brew Potion", FALSE, FALSE, FALSE, "Caster level 3rd", "Create magic potions."); 
@@ -203,15 +201,8 @@ feato(FEAT_EMPOWER_SPELL, "Empower Spell", TRUE, TRUE, FALSE, "Caster level 1st"
 feato(FEAT_EMPOWERED_MAGIC, "Empowered Magic", TRUE, TRUE, FALSE, "Caster level 1st", "+1 to all spell dcs");
 feato(FEAT_ENDURANCE, "Endurance", TRUE, TRUE, FALSE, "-", "+4 to con and skill checks made to resist fatigue and 1 extra move point per level"); 
 feato(FEAT_ENERGY_RESISTANCE, "Energy Resistance", TRUE, TRUE, TRUE, "-", "reduces all energy related damage by 3 per rank");
-feato(FEAT_ENHANCE_SPELL, "Increase Spell Damage (Enhance Spell)", TRUE, TRUE, FALSE, "Epic Level", "increase max number of damage dice for certain damage based spell by 5");
 feato(FEAT_ENHANCED_SPELL_DAMAGE, "Enhanced Spell Damage", TRUE, TRUE, FALSE, "Caster level 1st", "+1 spell damage per die rolled");
 feato(FEAT_ENLARGE_SPELL, "Enlarge Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff"); 
-feato(FEAT_EPIC_COMBAT_CHALLENGE, "Epic Combat Challenge", TRUE, TRUE, FALSE, "20 ranks in diplomacy, intimidate or bluff, greater combat challenge", "as improved combat challenge, but both regular challenges and challenge all are minor actions");
-feato(FEAT_EPIC_DODGE, "Epic Dodge", TRUE, TRUE, FALSE, "dex 25, dodge, tumble 30, improved evasion, defensive roll", "automatically dodge first attack against you each round");
-feato(FEAT_EPIC_PROWESS, "Epic Prowess", TRUE, TRUE, TRUE, "epic level", "+1 to all attacks per rank");
-feato(FEAT_EPIC_SKILL_FOCUS, "Epic Skill focus", TRUE, TRUE, TRUE, "20 ranks in the skill", "+10 in chosen skill");
-feato(FEAT_EPIC_SPELLCASTING, "Epic Spellcasting", TRUE, TRUE, FALSE, "lore 24, spellcraft 24", "allows you to cast epic spells");
-feato(FEAT_EPIC_TOUGHNESS, "Epic Toughness", TRUE, TRUE, TRUE, "epic level", "You gain +30 max hp.");
 feato(FEAT_ESCHEW_MATERIALS, "Eschew Materials", FALSE, FALSE, FALSE, "ask staff", "Cast spells without material components");
 feato(FEAT_EXCEPTIONAL_TURNING, "Exceptional Turning", TRUE, FALSE, FALSE, "sun cleric domain", "+1d10 hit dice of undead turned");
 feato(FEAT_EXTEND_RAGE, "Extend Rage", TRUE, TRUE, FALSE, "ask staff", "ask staff");
@@ -220,12 +211,10 @@ feato(FEAT_EXTRA_RAGE, "Extra Rage", TRUE, TRUE, FALSE, "Rage class feature", "a
 feato(FEAT_EXTRA_TURNING, "Extra Turning", TRUE, TRUE, FALSE, "1st-level Cleric or Paladin", "2 extra turn attempts per day");
 feato(FEAT_FAR_SHOT, "Far Shot", FALSE, FALSE, FALSE, "Point-Blank Shot", "Decrease ranged penalties by half");
 feato(FEAT_FAST_HEALER, "Fast Healer", TRUE, TRUE, FALSE, "Con 13, Diehard", "+2 hp healed per round");
-feato(FEAT_FAST_HEALING, "Fast Healing", TRUE, TRUE, TRUE, "Epic Level", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
 feato(FEAT_FASTER_MEMORIZATION, "Faster Memorization", TRUE, TRUE, FALSE, "memorization based Caster level 1", "decreases spell memorization time");
 feato(FEAT_FORGE_RING, "Forge Ring", FALSE, FALSE, FALSE, "Caster level 7th", "Create magic rings"); 
 feato(FEAT_GREAT_CLEAVE, "Great Cleave", FALSE, FALSE, FALSE, "Cleave, base attack bonus +4", "ask staff");
 feato(FEAT_GREAT_FORTITUDE, "Great Fortitude", TRUE, TRUE, FALSE, "-", "+2 on Fortitude saves");
-feato(FEAT_GREAT_SMITING, "Great Smiting", TRUE, TRUE, TRUE, "Epic Level", "For each rank in this feat you add your level in damage to all smite attacks");
 feato(FEAT_GREATER_COMBAT_CHALLENGE, "Greater Combat Challenge", TRUE, TRUE, FALSE, "15 ranks in diplomacy, intimidate or bluff, improved combat challenge", "as improved combat challenge, but regular challenge is a minor action & challenge all is a move action ");
 feato(FEAT_GREATER_SPELL_FOCUS, "Greater Spell Focus", FALSE, FALSE, TRUE, "Spell Focus", "ask staff");
 feato(FEAT_GREATER_SPELL_PENETRATION, "Greater Spell Penetration", FALSE, FALSE, FALSE, "Spell Penetration", "ask staff");
@@ -255,7 +244,6 @@ feato(FEAT_IMPROVED_TWO_WEAPON_FIGHTING, "Improved Two Weapon Fighting", TRUE, T
 feato(FEAT_IMPROVED_UNARMED_STRIKE, "Improved Unarmed Strike", TRUE, TRUE, FALSE, "-", "Always considered armed");
 feato(FEAT_IMPROVED_UNCANNY_DODGE, "Improved Uncanny Dodge", TRUE, FALSE, FALSE, "-", "cannot be flanked (or sneak attacked");
 feato(FEAT_IMPROVED_WEAPON_FINESSE, "Improved Weapon Finesse", TRUE, TRUE, TRUE, "weapon finesse, weapon focus, base attack bonus of 4+", "add dex bonus to damage instead of str for light weapons");
-feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", TRUE, TRUE, FALSE, "empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
 feato(FEAT_IRON_WILL, "Iron Will", TRUE, TRUE, FALSE, "-", "+2 bonus on Will saves");
 feato(FEAT_KNOCKDOWN, "Knockdown", TRUE, TRUE, FALSE, "improved trip", "when active, any melee attack that deals 10 damage or more invokes a free automatic trip attempt against your target");
 feato(FEAT_LEADERSHIP, "Leadership", TRUE, TRUE, FALSE, "Character level 7th", "can have more and higher level followers, group members get extra exp on kills and hit/ac bonuses");
@@ -270,7 +258,6 @@ feato(FEAT_MOUNTED_ARCHERY, "Mounted Archery", FALSE, FALSE, FALSE, "ask staff",
 feato(FEAT_MOUNTED_COMBAT, "Mounted Combat", TRUE, TRUE, FALSE, "Ride 1 rank", "once per round rider may negate a hit against him with a successful ride vs attack roll check");
 feato(FEAT_NATURAL_ARMOR_INCREASE, "Natural Armor Increase", TRUE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_NATURAL_SPELL, "Natural Spell", TRUE, TRUE, FALSE, "Wis 13, wild shape class feature.", "Cast spells while using wild shape");
-feato(FEAT_PERFECT_TWO_WEAPON_FIGHTING, "Perfect Two Weapon Fighting", TRUE, TRUE, FALSE, "dex 25, greater two weapon fighting", "Extra attack with offhand weapon");
 feato(FEAT_PERSUASIVE, "Persuasive", TRUE, TRUE, FALSE, "-", "+2 bonus on Diplomacy and Intimidate checks");
 feato(FEAT_POINT_BLANK_SHOT, "Point Blank Shot", TRUE, TRUE, FALSE, "-", "+1 to hit and dam rolls with ranged weapons in the same room");
 feato(FEAT_POWER_ATTACK, "Power Attack", TRUE, TRUE, FALSE, "Str 13, base attack bonus +1", "subtract a number from hit and add to dam.  If 2H weapon add 2x dam instead");
@@ -284,13 +271,12 @@ feato(FEAT_RAPID_SHOT, "Rapid Shot", TRUE, TRUE, FALSE, "Dex 13, Point-Blank Sho
 feato(FEAT_RIDE_BY_ATTACK, "Ride-By Attack", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_RUN, "Run", TRUE, TRUE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SCRIBE_SCROLL, "Scribe Scroll", FALSE, FALSE, FALSE, "Caster level 1st", "Create magic scrolls");
-feato(FEAT_SELF_CONCEALMENT, "Self Concealment", TRUE, TRUE, TRUE, "stealth 30 ranks, dex 30, tumble 30 ranks", "10%% miss chance for attacks against you per rank");
 feato(FEAT_SELF_SUFFICIENT, "Self Sufficient", TRUE, TRUE, FALSE, "-", "You get a +2 bonus on all Heal checks and Survival checks.");
 feato(FEAT_SHOT_ON_THE_RUN, "Shot on the Run", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SILENT_SPELL, "Silent Spell", FALSE, FALSE, FALSE, "ask staff", "ask staff");
 feato(FEAT_SKILL_FOCUS, "Skill Focus", TRUE, TRUE, TRUE, "-", "+3 bonus on one skill");
 feato(FEAT_SMITE_GOOD, "Smite Good", TRUE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SNEAK_ATTACK, "Sneak Attack", TRUE, TRUE, TRUE, "as epic feat: sneak attack +8d6", "+1d6 to damage when flanking");
+feato(FEAT_SNEAK_ATTACK, "Sneak Attack", TRUE, TRUE, TRUE, "-", "+1d6 to damage when flanking");
 feato(FEAT_SNEAK_ATTACK_OF_OPPORTUNITY, "Sneak Attack of Opportunity", TRUE, TRUE, FALSE, "sneak attack +8d6, opportunist feat", "makes all opportunity attacks sneak attacks");
 feato(FEAT_SPELL_FOCUS, "Spell Focus", FALSE, FALSE, FALSE, "Caster level 1st", "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.");
 feato(FEAT_SPELL_MASTERY, "Spell Mastery", FALSE, FALSE, FALSE, "ask staff", "ask staff");
@@ -304,7 +290,6 @@ feato(FEAT_STRENGTH_BOOST, "Strength Boost", TRUE, FALSE, FALSE, "ask staff", "a
 feato(FEAT_STUNNING_FIST, "Stunning Fist", TRUE, TRUE, FALSE, "Dex 13, Wis 13, Improved Unarmed Strike, base attack bonus +8", "Stun opponent with an unarmed strike");
 feato(FEAT_SUMMON_FAMILIAR, "Summon Familiar", TRUE, FALSE, FALSE, "-", "summon a magical pet");
 feato(FEAT_SUNDER, "Sunder", FALSE, FALSE, FALSE, "ask staff", "ask staff");
-feato(FEAT_SWARM_OF_ARROWS, "Swarm of Arrows", TRUE, TRUE, FALSE, "dex 23, point blank shot, rapid shot, weapon focus", "allows you to make a single ranged attack against everyone in range.");
 feato(FEAT_TOUGHNESS, "Toughness", TRUE, TRUE, FALSE, "-", "+3 hit points, +1 per Hit Die beyond 3");
 feato(FEAT_TRACK, "Track", FALSE, FALSE, FALSE, "-", "use survival skill to track others");
 feato(FEAT_TRAMPLE, "Trample", FALSE, FALSE, FALSE, "Mounted Combat", "ask staff");
@@ -343,7 +328,6 @@ feato(FEAT_MASTERWORK_CRAFTING, "Masterwork Crafting", TRUE, FALSE, FALSE, "6th-
 feato(FEAT_FAST_MOVEMENT, "Fast Movement", TRUE, FALSE, TRUE, "1st-level Barbarian", "10ft bonus to speed in light or medium armor");
 feato(FEAT_RAGE, "Rage", TRUE, FALSE, TRUE, "1st-level Barbarian", "+4 bonus to con and str for several rounds");
 feato(FEAT_TIRELESS_RAGE, "Tireless Rage", TRUE, FALSE, FALSE, "17th-level Barbarian", "no fatigue after raging");
-feato(FEAT_MIGHTY_RAGE, "Mighty Rage", TRUE, FALSE, FALSE, "str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
 feato(FEAT_INDOMITABLE_WILL, "Indomitable Will", TRUE, FALSE, FALSE, "14th-level Barbarian", "ask staff");
 feato(FEAT_GREATER_RAGE, "Greater Rage", TRUE, FALSE, FALSE, "11th-level Barbarian", "+6 to str and con when raging");
 feato(FEAT_DAMAGE_REDUCTION, "Damage Reduction", TRUE, TRUE, TRUE, "7th-level Barbarian", "1/- damage reduction per rank of feat, 3/- for epic");
@@ -516,8 +500,25 @@ feato(FEAT_INCREASED_MULTIPLIER, "Increased Multiplier", TRUE, FALSE, FALSE, "3r
 /* Sacred Fist Class feats */
 feato(FEAT_SACRED_FLAMES, "Sacred Flames", TRUE, FALSE, FALSE, "sacred fist level 5", "allows you to use \"innate 'flame weapon'\" 3 times per 10 minutes");
 
-
 /* UNUSED FEATS */
+/* These are EPIC feats which are not used.*/
+feato(FEAT_ARMOR_SKIN, "Armor Skin", TRUE, TRUE, TRUE, "Epic level", "Increases natural armor by 1");
+feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", TRUE, TRUE, FALSE, "Epic level, empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
+feato(FEAT_AUTOMATIC_QUICKEN_SPELL, "Automatic Quicken Spell", TRUE, TRUE, TRUE, "Epic level, spellcraft 30 ranks, ability to cast level 9 arcane or divine spells", "You can cast level 0, 1, 2 & 3 spells automatically as if quickened.  Every addition rank increases the max spell level by 3.");
+feato(FEAT_FAST_HEALING, "Fast Healing", TRUE, TRUE, TRUE, "Epic Level", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
+feato(FEAT_GREAT_SMITING, "Great Smiting", TRUE, TRUE, TRUE, "Epic Level", "For each rank in this feat you add your level in damage to all smite attacks");
+feato(FEAT_ENHANCE_SPELL, "Increase Spell Damage (Enhance Spell)", TRUE, TRUE, FALSE, "Epic Level", "increase max number of damage dice for certain damage based spell by 5");
+feato(FEAT_EPIC_COMBAT_CHALLENGE, "Epic Combat Challenge", TRUE, TRUE, FALSE, "Epic level, 20 ranks in diplomacy, intimidate or bluff, greater combat challenge", "as improved combat challenge, but both regular challenges and challenge all are minor actions");
+feato(FEAT_EPIC_DODGE, "Epic Dodge", TRUE, TRUE, FALSE, "Epic level, dex 25, dodge, tumble 30, improved evasion, defensive roll", "automatically dodge first attack against you each round");
+feato(FEAT_EPIC_PROWESS, "Epic Prowess", TRUE, TRUE, TRUE, "Epic level", "+1 to all attacks per rank");
+feato(FEAT_EPIC_SKILL_FOCUS, "Epic Skill focus", TRUE, TRUE, TRUE, "Epic level, 20 ranks in the skill", "+10 in chosen skill");
+feato(FEAT_EPIC_SPELLCASTING, "Epic Spellcasting", TRUE, TRUE, FALSE, "Epic level, lore 24, spellcraft 24", "allows you to cast epic spells");
+feato(FEAT_EPIC_TOUGHNESS, "Epic Toughness", TRUE, TRUE, TRUE, "Epic level", "You gain +30 max hp.");
+feato(FEAT_MIGHTY_RAGE, "Mighty Rage", TRUE, FALSE, FALSE, "Epic level, str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
+feato(FEAT_PERFECT_TWO_WEAPON_FIGHTING, "Perfect Two Weapon Fighting", TRUE, TRUE, FALSE, "Epic level, dex 25, greater two weapon fighting", "Extra attack with offhand weapon");
+feato(FEAT_SELF_CONCEALMENT, "Self Concealment", TRUE, TRUE, TRUE, "Epic level, stealth 30 ranks, dex 30, tumble 30 ranks", "10%% miss chance for attacks against you per rank");
+feato(FEAT_SWARM_OF_ARROWS, "Swarm of Arrows", TRUE, TRUE, FALSE, "Epic level, dex 23, point blank shot, rapid shot, weapon focus", "allows you to make a single ranged attack against everyone in range.");
+
 feato(FEAT_ROBILARS_GAMBIT, "Robilars Gambit", FALSE, FALSE, FALSE, "combat reflexes, base attack bonus +12", "when active enemies gain +4 to hit and damage against you, but all melee attacks invoke an attack of opportunity from you.");
 
 /* Dragonlance specific feats or class abilities. */
