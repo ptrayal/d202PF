@@ -4366,7 +4366,7 @@ ACMD(do_test)
 
 }
 
-ACMD(do_test_dump)
+ACMD(do_feat_dump)
 {
     FILE *fp;
     int sortpos = 0;

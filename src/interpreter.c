@@ -440,7 +440,7 @@ ACMD(do_taunt);
 ACMD(do_teleport);
 ACMD(do_tell);
 ACMD(do_test);
-ACMD(do_test_dump);
+ACMD(do_feat_dump);
 ACMD(do_time);
 ACMD(do_timers);
 ACMD(do_title);
@@ -703,6 +703,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "favoredenemy", "favoreden" , POS_DEAD    , do_favoredenemy, 0, ADMLVL_NONE , 0 },
   { "feats"    , "fea"		, POS_DEAD    , do_feats    , 0, ADMLVL_NONE	, 0 },
   { "featset"  , "featset"      , POS_DEAD    , do_featset  , 1, ADMLVL_GRGOD	, 0 },
+  { "feat_dump"     , "testdump"     , POS_DEAD    , do_feat_dump     , 0, ADMLVL_IMPL    , 0 },
   { "feint"    , "fei"    , POS_FIGHTING, do_feint    , 0, ADMLVL_NONE,  0 },
   { "fightspam", "fightspam"    , POS_DEAD    , do_gen_tog  , 0, ADMLVL_NONE    , SCMD_FIGHT_SPAM },
   { "fill"     , "fil"		, POS_STANDING, do_pour     , 0, ADMLVL_NONE	, SCMD_FILL },
@@ -1014,7 +1015,6 @@ cpp_extern const struct command_info cmd_info[] = {
   { "teleport" , "tele"		, POS_DEAD    , do_teleport , 1, ADMLVL_GOD	, 0 },
   { "tedit"    , "tedit"	, POS_DEAD    , do_tedit    , 1, ADMLVL_GRGOD	, 0 },
   { "test"	   , "test"	    , POS_DEAD    , do_test     , 0, ADMLVL_IMPL    , 0 },
-  { "testdump"     , "testdump"     , POS_DEAD    , do_test_dump     , 0, ADMLVL_IMPL    , 0 },
   { "thatch"   , "thatch"	, POS_SITTING , do_assemble , 0, ADMLVL_NONE	, SCMD_THATCH },
   { "thaw"     , "thaw"		, POS_DEAD    , do_wizutil  , 1, ADMLVL_FREEZE	, SCMD_THAW },
   { "title"    , "title"	, POS_DEAD    , do_title    , 0, ADMLVL_NONE	, 0 },
