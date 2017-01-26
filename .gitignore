@@ -1,5 +1,8 @@
 #actual files that we do not want backed up
 src/*.o
+log/
+lib/plrfiles/
+lib/plrobjs/
 
 # Windows image file caches
 Thumbs.db
