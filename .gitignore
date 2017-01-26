@@ -4,6 +4,7 @@ log/
 lib/plrfiles/
 lib/plrobjs/
 lib/actfiles/
+lib/plrfiles/
 
 # Windows image file caches
 Thumbs.db
