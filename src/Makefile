@@ -9,7 +9,7 @@ CC = gcc
 CXREF = cxref
 
 # Any special flags you want to pass to the compiler
-MYFLAGS = -Wall -std=c99
+MYFLAGS = -Wall
 
 #flags for profiling (see hacker.doc for more information)
 PROFILE = 
