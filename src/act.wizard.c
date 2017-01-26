@@ -4371,7 +4371,7 @@ ACMD(do_feat_dump)
     FILE *fp;
     int sortpos = 0;
     
-    fp=fopen("../feats.txt", "w");
+    fp=fopen("../data/dump_feats.txt", "w");
     if (fp == NULL)
       exit(-1);
 
