@@ -1,5 +1,5 @@
 #!/bin/sh
-muddir="/home/uriel/d20/d20mud-public/d20mud-v-0.90/"
+muddir="/home/uriel/d202PF/"
 binname="circle"
 port="9080"
 cd $muddir
