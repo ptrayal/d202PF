@@ -1,3 +1,6 @@
+#actual files that we do not want backed up
+src/*.o
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
