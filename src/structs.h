@@ -50,9 +50,9 @@
 // MySQL Stuff
 #define MYSQL_SERVER      "mud.themudhost.net"
 // #define MYSQL_SERVER      "localhost"
-#define MYSQL_DB          "database_name"
-#define MYSQL_PASSWD      "password"
-#define MYSQL_USER        "username"
+#define MYSQL_DB          "uriel_sql"
+#define MYSQL_PASSWD      "temp123"
+#define MYSQL_USER        "uriel"
 
 typedef int ch_ret;
 typedef int obj_ret;
