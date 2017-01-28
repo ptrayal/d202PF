@@ -2,10 +2,10 @@
 # for the 'util' directory
 
 # C compiler to use
-CC = C:/cygwin64/bin/gcc.exe
+CC = gcc
 
 # Any special flags you want to pass to the compiler
-MYFLAGS = -Wall -Wno-char-subscripts -DCIRCLE_UTIL
+MYFLAGS = -Wall -DCIRCLE_UTIL
 
 #flags for profiling (see hacker.doc for more information)
 PROFILE = 
@@ -19,7 +19,7 @@ BINDIR = ../../bin
 # location of Circle include files
 INCDIR = ..
 
-CFLAGS = -g3 -gdwarf-2 $(MYFLAGS) $(PROFILE) -I$(INCDIR)
+CFLAGS = -g -O2 $(MYFLAGS) $(PROFILE) -I$(INCDIR)
 LIBS = -lcrypt
 
 default: all
