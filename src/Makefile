@@ -17,6 +17,7 @@ PROFILE =
 ##############################################################################
 # Do Not Modify Anything Below This Line (unless you know what you're doing) #
 ##############################################################################
+# Modifications by Brandon Morrison
 
 BINDIR = ../bin
 
@@ -58,7 +59,7 @@ clean:
 	rm -f *.o
 
 
-# Dependencies for the object files (automagically generated with
+# Dependencies for the object files (automagically generated with 
 # gcc -MM)
 
 depend:
