@@ -218,6 +218,8 @@ void assign_races(void)
 
 
 // HUMANOIDS
+    add_race(RACE_GOBLIN, "goblin", "Goblin", "Goblin", RACE_TYPE_GOBLINOID, N, Y, Y, -2, 2, 0, 0, 2, -2, 150, 
+        150, 150, 45, 45, 40, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
     add_race(RACE_ORC, "orc", "Orc", "Orc", RACE_TYPE_ORC, N, Y, Y, 2, 2, -2, -2, 0, -2, 210, 210, 200, 85, 85, 80,
     Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
 
@@ -314,8 +316,6 @@ void assign_races(void)
 
     add_race(RACE_MONSTROUS_HUMANOID, "monstrous humanoid", "MnsHmnd", "Monstrous Humanoid", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 
         180, 180, 65, 65, 55, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_GOBLIN, "goblin", "Goblin", "Goblin", RACE_TYPE_GOBLINOID, N, Y, Y, -2, 2, 0, 0, 2, -2, 150, 
-        150, 150, 45, 45, 40, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
     add_race(RACE_TROLL, "troll", "Troll", "Troll", RACE_TYPE_GIANT, N, Y, Y, 2, 4, 0, 0, 0, -2, 220, 
         220, 220, 75, 75, 70, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_GOBLIN, 0);
     add_race(RACE_MINOTAUR, "minotaur", "Mnotaur", "Minotaur", RACE_TYPE_MONSTROUS_HUMANOID, N, Y, Y, 6, 4, -2, 0, 0, -2, 250, 260, 240, 120, 120, 110,

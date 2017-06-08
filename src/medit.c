@@ -914,23 +914,23 @@ void medit_parse(struct descriptor_data *d, char *arg)
     break;
 
   case MEDIT_CONSTITUTION:
-    GET_STR(OLC_MOB(d)) = LIMIT(i, 3, 99);
+    GET_CON(OLC_MOB(d)) = LIMIT(i, 3, 99);
     break;
 
   case MEDIT_DEXTERITY:
-    GET_STR(OLC_MOB(d)) = LIMIT(i, 3, 99);
+    GET_DEX(OLC_MOB(d)) = LIMIT(i, 3, 99);
     break;
 
   case MEDIT_INTELLIGENCE:
-    GET_STR(OLC_MOB(d)) = LIMIT(i, 3, 99);
+    GET_INT(OLC_MOB(d)) = LIMIT(i, 3, 99);
     break;
 
   case MEDIT_WISDOM:
-    GET_STR(OLC_MOB(d)) = LIMIT(i, 3, 99);
+    GET_WIS(OLC_MOB(d)) = LIMIT(i, 3, 99);
     break;
 
   case MEDIT_CHARISMA:
-    GET_STR(OLC_MOB(d)) = LIMIT(i, 3, 99);
+    GET_CHA(OLC_MOB(d)) = LIMIT(i, 3, 99);
     break;
 
   case MEDIT_NUM_HP_DICE:
