@@ -258,58 +258,86 @@ void assign_races(void)
 // ANIMALS
     add_race(RACE_ANIMAL, "animal", "Animal", "Animal", RACE_TYPE_ANIMAL, N, Y, Y, 0, 0, 0, 0, 2, 0, 50, 50, 50, 25, 25, 25,
         N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_EAGLE, "eagle", "Eagle", "Eagle", RACE_TYPE_ANIMAL, N, Y, Y, 0, 2, 0, 0, 5, 0, 10, 10, 10, 10, 10, 10,
-        N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_RAT, "rat", "Rat", "Rat", RACE_TYPE_ANIMAL, N, Y, Y, -8, 0, -2, 0, 4, -2, 50, 50, 50, 25, 25, 25,
-        N, N, N, N, Y, N, N, N, N, SIZE_TINY, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_WOLF, "wolf", "Wolf", "Wolf", RACE_TYPE_ANIMAL, N, Y, Y, 2, 4, 0, 0, 4, 0, 65, 65, 65, 45, 45, 40,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_GREAT_CAT, "great cat", "Grt Cat", "Great Cat", RACE_TYPE_ANIMAL, N, Y, Y, 4, 2, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_HORSE, "horse", "Horse", "Horse", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 2, 0, 200, 200, 200, 150, 150, 150,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_DINOSAUR, "dinosaur", "Dino", "Dinosaur", RACE_TYPE_ANIMAL, N, Y, Y, 10, 0, 0, 0, 0, 0, 600, 600, 600, 350, 350, 350,
-        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_LION, "lion", "Lion", "Lion", RACE_TYPE_ANIMAL, N, Y, Y, 10, 4, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_BLACK_BEAR, "black bear", "BlkBear", "Black Bear", RACE_TYPE_ANIMAL, N, Y, Y, 8, 4, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_BROWN_BEAR, "brown bear", "BrnBear", "Brown Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_POLAR_BEAR, "polar bear", "PlrBear", "Polar Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_TIGER, "tiger", "Tiger", "Tiger", RACE_TYPE_ANIMAL, N, Y, Y, 12, 6, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_CONSTRICTOR_SNAKE, "constrictor snake", "CnsSnak", "Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_GIANT_CONSTRICTOR_SNAKE, "giant constrictor snake", "GCnSnak", "Giant Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 14, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_MEDIUM_VIPER, "medium viper", "MdViper", "Medium Viper", RACE_TYPE_ANIMAL, N, Y, Y, -2, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_LARGE_VIPER, "large viper", "LgViper", "Large Viper", RACE_TYPE_ANIMAL, N, Y, Y, 0, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_HUGE_VIPER, "huge viper", "HgViper", "Huge Viper", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_WOLVERINE, "wolverine", "Wlvrine", "Wolverine", RACE_TYPE_ANIMAL, N, Y, Y, 4, 8, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_RHINOCEROS, "rhinoceros", "Rhino", "Rhinoceros", RACE_TYPE_ANIMAL, N, Y, Y, 16, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_LEOPARD, "leopard", "Leopard", "Leopard", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_HYENA, "hyena", "Hyena", "Hyena", RACE_TYPE_ANIMAL, N, Y, Y, 4, 4, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_CROCODILE, "crocodile", "Crocodl", "Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 8, 6, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_GIANT_CROCODILE, "giant crocodile", "GCrocdl", "Giant Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_CHEETAH, "cheetah", "Cheetah", "Cheetah", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
-    add_race(RACE_BOAR, "boar", "Boar", "Boar", RACE_TYPE_ANIMAL, N, Y, Y, 4, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
-        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
     add_race(RACE_APE, "ape", "Ape", "Ape", RACE_TYPE_ANIMAL, N, Y, Y, 10, 6, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
         N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+    
+    add_race(RACE_BLACK_BEAR, "black bear", "BlkBear", "Black Bear", RACE_TYPE_ANIMAL, N, Y, Y, 8, 4, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_BOAR, "boar", "Boar", "Boar", RACE_TYPE_ANIMAL, N, Y, Y, 4, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_BROWN_BEAR, "brown bear", "BrnBear", "Brown Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_CHEETAH, "cheetah", "Cheetah", "Cheetah", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_CONSTRICTOR_SNAKE, "constrictor snake", "CnsSnak", "Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_CROCODILE, "crocodile", "Crocodl", "Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 8, 6, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_DINOSAUR, "dinosaur", "Dino", "Dinosaur", RACE_TYPE_ANIMAL, N, Y, Y, 10, 0, 0, 0, 0, 0, 600, 600, 600, 350, 350, 350,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_EAGLE, "eagle", "Eagle", "Eagle", RACE_TYPE_ANIMAL, N, Y, Y, 0, 2, 0, 0, 5, 0, 10, 10, 10, 10, 10, 10,
+        N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
     add_race(RACE_ELEPHANT, "elephant", "Elephnt", "Elephant", RACE_TYPE_ANIMAL, N, Y, Y, 20,10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
         N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_GIANT_CONSTRICTOR_SNAKE, "giant constrictor snake", "GCnSnak", "Giant Constrictor Snake", RACE_TYPE_ANIMAL, N, Y, Y, 14, 2, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_GIANT_CROCODILE, "giant crocodile", "GCrocdl", "Giant Crocodile", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_GREAT_CAT, "great cat", "Grt Cat", "Great Cat", RACE_TYPE_ANIMAL, N, Y, Y, 4, 2, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_HORSE, "horse", "Horse", "Horse", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 2, 0, 200, 200, 200, 150, 150, 150,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_HUGE_VIPER, "huge viper", "HgViper", "Huge Viper", RACE_TYPE_ANIMAL, N, Y, Y, 6, 2, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_HUGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_HYENA, "hyena", "Hyena", "Hyena", RACE_TYPE_ANIMAL, N, Y, Y, 4, 4, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_LARGE_VIPER, "large viper", "LgViper", "Large Viper", RACE_TYPE_ANIMAL, N, Y, Y, 0, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_LEOPARD, "leopard", "Leopard", "Leopard", RACE_TYPE_ANIMAL, N, Y, Y, 6, 4, 0, 0, 8, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_LION, "lion", "Lion", "Lion", RACE_TYPE_ANIMAL, N, Y, Y, 10, 4, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_MEDIUM_VIPER, "medium viper", "MdViper", "Medium Viper", RACE_TYPE_ANIMAL, N, Y, Y, -2, 0, 0, 0, 6, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_POLAR_BEAR, "polar bear", "PlrBear", "Polar Bear", RACE_TYPE_ANIMAL, N, Y, Y, 16, 8, 0, 0, 2, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_RAT, "rat", "Rat", "Rat", RACE_TYPE_ANIMAL, N, Y, Y, -8, 0, -2, 0, 4, -2, 50, 50, 50, 25, 25, 25,
+        N, N, N, N, Y, N, N, N, N, SIZE_SMALL, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_RHINOCEROS, "rhinoceros", "Rhino", "Rhinoceros", RACE_TYPE_ANIMAL, N, Y, Y, 16, 10, 0, 0, 0, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_TIGER, "tiger", "Tiger", "Tiger", RACE_TYPE_ANIMAL, N, Y, Y, 12, 6, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_LARGE, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_WOLF, "wolf", "Wolf", "Wolf", RACE_TYPE_ANIMAL, N, Y, Y, 2, 4, 0, 0, 4, 0, 65, 65, 65, 45, 45, 40,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+    add_race(RACE_WOLVERINE, "wolverine", "Wlvrine", "Wolverine", RACE_TYPE_ANIMAL, N, Y, Y, 4, 8, 0, 0, 4, 0, 85, 85, 80, 60, 60, 55,
+        N, N, N, N, Y, N, N, N, N, SIZE_MEDIUM, FALSE, CLASS_FIGHTER, SKILL_LANG_COMMON, 0);
+
+
 
 
 // Monstrous Humanoids
