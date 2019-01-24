@@ -1087,19 +1087,19 @@ void redit_string_cleanup(struct descriptor_data *d, int terminator)
 
 void redit_disp_spec_proc(struct descriptor_data *d)
 {
-  int i = 0;
+    int i = 0;
 
-  write_to_output(d, "\r\n");
+    write_to_output(d, "\r\n");
 
-  for(; spec_names[i].func; i++) {
-    write_to_output(d, "%d) %-25s", i, spec_names[i].name);
-    if (i%3==2)
-      write_to_output(d, "\r\n");
-    else
-      write_to_output(d, "\t\t");
-  }
-  write_to_output(d, "Please select a spec proc to apply to this room (room_ spec procs only please) : ");
+    for(; spec_names[i].func; i++) 
+    {
+        write_to_output(d, "%d) %-25s", i, spec_names[i].name);
+        if (i%3==2)
+            write_to_output(d, "\r\n");
+        else
+            write_to_output(d, "\t\t");
+    }
+    write_to_output(d, "Please select a spec proc to apply to this room (room_ spec procs only please) : ");
 
-  return;
+    return;
 }
-

@@ -75,10 +75,9 @@ void circle_srandom(unsigned long initial_seed)
     seed = initial_seed; 
 }
 
-
 unsigned long circle_random(void)
 {
-   int lo, hi, test;
+    int lo, hi, test;
 
     hi   = seed/q;
     lo   = seed%q;
@@ -86,9 +85,9 @@ unsigned long circle_random(void)
     test = a*lo - r*hi;
 
     if (test > 0)
-	seed = test;
+        seed = test;
     else
-	seed = test+ m;
+        seed = test+ m;
 
     return (seed);
 }

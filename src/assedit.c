@@ -450,10 +450,8 @@ void assedit_edit_inroom(struct descriptor_data *d)
 
 void nodigit(struct descriptor_data *d)
 {
-  send_to_char(d->character, "Usage: assedit <vnum>\r\n");
-  send_to_char(d->character, "     : assedit new <vnum>\r\n");
-  send_to_char(d->character, "     : assedit delete <vnum>\r\n");
-  return;
+    send_to_char(d->character, "Usage: assedit <vnum>\r\n");
+    send_to_char(d->character, "     : assedit new <vnum>\r\n");
+    send_to_char(d->character, "     : assedit delete <vnum>\r\n");
+    return;
 }
-
-

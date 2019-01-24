@@ -865,98 +865,110 @@ void sort_keeper_objs(struct char_data *keeper, int shop_nr)
 
 void shopping_sell(char *arg, struct char_data *ch, struct char_data *keeper, int shop_nr)
 {
-  char tempstr[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'}, tempbuf[MAX_INPUT_LENGTH]={'\0'};
-  struct obj_data *obj;
-  int sellnum, sold = 0, goldamt = 0;
+    char tempstr[MAX_INPUT_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'}, tempbuf[MAX_INPUT_LENGTH]={'\0'};
+    struct obj_data *obj;
+    int sellnum, sold = 0, goldamt = 0;
 
-  if (!(is_ok(keeper, ch, shop_nr)))
-    return;
+    if (!(is_ok(keeper, ch, shop_nr)))
+        return;
 
-  if ((sellnum = transaction_amt(arg)) < 0) {
-    char buf[MAX_INPUT_LENGTH]={'\0'};
+    if ((sellnum = transaction_amt(arg)) < 0) 
+    {
+        char buf[MAX_INPUT_LENGTH]={'\0'};
 
-    snprintf(buf, sizeof(buf), "%s A negative amount?  Try buying something.", GET_NAME(ch));
-    do_tell(keeper, buf, cmd_tell, 0);
-    return;
-  }
-  if (!*arg || !sellnum) {
-    char buf[MAX_INPUT_LENGTH]={'\0'};
+        snprintf(buf, sizeof(buf), "%s A negative amount?  Try buying something.", GET_NAME(ch));
+        do_tell(keeper, buf, cmd_tell, 0);
+        return;
+    }
+    if (!*arg || !sellnum) 
+    {
+        char buf[MAX_INPUT_LENGTH]={'\0'};
 
-    snprintf(buf, sizeof(buf), "%s What do you want to sell??", GET_NAME(ch));
-    do_tell(keeper, buf, cmd_tell, 0);
-    return;
-  }
-  one_argument(arg, name);
-  if (!(obj = get_selling_obj(ch, name, keeper, shop_nr, TRUE)))
-    return;
+        snprintf(buf, sizeof(buf), "%s What do you want to sell??", GET_NAME(ch));
+        do_tell(keeper, buf, cmd_tell, 0);
+        return;
+    }
+    one_argument(arg, name);
+    if (!(obj = get_selling_obj(ch, name, keeper, shop_nr, TRUE)))
+        return;
 
-  if (OBJ_FLAGGED(obj, ITEM_BLACKMARKET) && !SHOP_BLACKMARKET(shop_nr)) {
-    char buf[MAX_INPUT_LENGTH]={'\0'};
-    snprintf(buf, sizeof(buf), "%s If I buy that the authorities will shut me down.  You'll have to find another buyer friend.", GET_NAME(ch));
-    do_tell(keeper, buf, cmd_tell, 0);
-    return;
-  }
+    if (OBJ_FLAGGED(obj, ITEM_BLACKMARKET) && !SHOP_BLACKMARKET(shop_nr)) 
+    {
+        char buf[MAX_INPUT_LENGTH]={'\0'};
+        snprintf(buf, sizeof(buf), "%s If I buy that the authorities will shut me down.  You'll have to find another buyer friend.", GET_NAME(ch));
+        do_tell(keeper, buf, cmd_tell, 0);
+        return;
+    }
 
-  GET_GOLD(keeper) = 50000;
+    GET_GOLD(keeper) = 50000;
 
-  int charged = sell_price(obj, shop_nr, keeper, ch);
+    int charged = sell_price(obj, shop_nr, keeper, ch);
 
-  if (PRF_FLAGGED(ch, PRF_HAGGLE))
-    charged = MAX(1, haggle_amount(keeper, ch, charged));
+    if (PRF_FLAGGED(ch, PRF_HAGGLE))
+    {
+        charged = MAX(1, haggle_amount(keeper, ch, charged));
+    }
 
     goldamt += charged;
 
     goldamt /= 5;
     goldamt = MAX(1, goldamt);
 
-    if (GET_GOLD(keeper) + SHOP_BANK(shop_nr) < goldamt) {
-      char buf[MAX_INPUT_LENGTH]={'\0'};
+    if (GET_GOLD(keeper) + SHOP_BANK(shop_nr) < goldamt) 
+    {
+        char buf[MAX_INPUT_LENGTH]={'\0'};
 
-      snprintf(buf, sizeof(buf), shop_index[shop_nr].missing_cash1, GET_NAME(ch));
-      do_tell(keeper, buf, cmd_tell, 0);
-      return;
+        snprintf(buf, sizeof(buf), shop_index[shop_nr].missing_cash1, GET_NAME(ch));
+        do_tell(keeper, buf, cmd_tell, 0);
+        return;
     }
-  while (obj && GET_GOLD(keeper) + SHOP_BANK(shop_nr) >= goldamt && sold < sellnum) {
+    while (obj && GET_GOLD(keeper) + SHOP_BANK(shop_nr) >= goldamt && sold < sellnum) 
+    {
 
-    GET_GOLD(keeper) -= charged;
+        GET_GOLD(keeper) -= charged;
 
-    sold++;
-    obj_from_char(obj);
-    slide_obj(obj, keeper, shop_nr);	/* Seems we don't use return value. */
-    obj = get_selling_obj(ch, name, keeper, shop_nr, FALSE);
-  }
+        sold++;
+        obj_from_char(obj);
+        slide_obj(obj, keeper, shop_nr);	
+        /* Seems we don't use return value. */
+        obj = get_selling_obj(ch, name, keeper, shop_nr, FALSE);
+    }
 
-  if (sold < sellnum) {
-    char buf[MAX_INPUT_LENGTH]={'\0'};
+    if (sold < sellnum) 
+    {
+        char buf[MAX_INPUT_LENGTH]={'\0'};
 
-    if (!obj)
-      snprintf(buf, sizeof(buf), "%s You only have %d of those.", GET_NAME(ch), sold);
-    else if (GET_GOLD(keeper) + SHOP_BANK(shop_nr) < sell_price(obj, shop_nr, keeper, ch))
-      snprintf(buf, sizeof(buf), "%s I can only afford to buy %d of those.", GET_NAME(ch), sold);
-    else
-      snprintf(buf, sizeof(buf), "%s Something really screwy made me buy %d.", GET_NAME(ch), sold);
+        if (!obj)
+            snprintf(buf, sizeof(buf), "%s You only have %d of those.", GET_NAME(ch), sold);
+        else if (GET_GOLD(keeper) + SHOP_BANK(shop_nr) < sell_price(obj, shop_nr, keeper, ch))
+            snprintf(buf, sizeof(buf), "%s I can only afford to buy %d of those.", GET_NAME(ch), sold);
+        else
+            snprintf(buf, sizeof(buf), "%s Something really screwy made me buy %d.", GET_NAME(ch), sold);
 
-    do_tell(keeper, buf, cmd_tell, 0);
-  }
-  GET_GOLD(ch) += goldamt * sold;
-  convert_coins(ch);
+        do_tell(keeper, buf, cmd_tell, 0);
+    }
+    GET_GOLD(ch) += goldamt * sold;
+    convert_coins(ch);
 
-  strlcpy(tempstr, times_message(0, name, sold), sizeof(tempstr));
-  snprintf(tempbuf, sizeof(tempbuf), "$n sells %s.", tempstr);
-  act(tempbuf, FALSE, ch, obj, 0, TO_ROOM);
+    strlcpy(tempstr, times_message(0, name, sold), sizeof(tempstr));
+    snprintf(tempbuf, sizeof(tempbuf), "$n sells %s.", tempstr);
+    act(tempbuf, FALSE, ch, obj, 0, TO_ROOM);
 
-  if (PRF_FLAGGED(ch, PRF_HAGGLE))
-    send_to_char(ch, "Your haggle attempt has altered the normal sale price.\r\n");
-  snprintf(tempbuf, sizeof(tempbuf), shop_index[shop_nr].message_sell, GET_NAME(ch), change_coins(goldamt));
-  do_tell(keeper, tempbuf, cmd_tell, 0);
+    if (PRF_FLAGGED(ch, PRF_HAGGLE))
+    {
+        send_to_char(ch, "Your haggle attempt has altered the normal sale price.\r\n");
+    }
+    snprintf(tempbuf, sizeof(tempbuf), shop_index[shop_nr].message_sell, GET_NAME(ch), change_coins(goldamt));
+    do_tell(keeper, tempbuf, cmd_tell, 0);
 
-  send_to_char(ch, "The shopkeeper now has %s.\r\n", tempstr);
+    send_to_char(ch, "The shopkeeper now has %s.\r\n", tempstr);
 
-  if (GET_GOLD(keeper) < MIN_OUTSIDE_BANK) {
-    goldamt = MIN(MAX_OUTSIDE_BANK - GET_GOLD(keeper), SHOP_BANK(shop_nr));
-    SHOP_BANK(shop_nr) -= goldamt;
-    GET_GOLD(keeper) += goldamt;
-  }
+    if (GET_GOLD(keeper) < MIN_OUTSIDE_BANK) 
+    {
+        goldamt = MIN(MAX_OUTSIDE_BANK - GET_GOLD(keeper), SHOP_BANK(shop_nr));
+        SHOP_BANK(shop_nr) -= goldamt;
+        GET_GOLD(keeper) += goldamt;
+    }
 }
 
 
@@ -1774,63 +1786,62 @@ int haggle_amount(struct char_data *buyer, struct char_data *seller, int amount)
 
 void shopping_try(char *arg, struct char_data * ch, struct char_data * keeper, int shop_nr)
 {
-  struct obj_data *obj;
+    struct obj_data *obj;
 
-  if (!(is_ok(keeper, ch, shop_nr)))
+    if (!(is_ok(keeper, ch, shop_nr)))
+        return;
+
+    if (!(obj = get_purchase_obj(ch, arg, keeper, shop_nr, TRUE)))
+        return;
+
+    if (SHOP_BLACKMARKET(shop_nr) && SPEAKING(ch) != SKILL_LANG_THIEVES_CANT)
+        return;
+
+    if(!(IS_AFFECTED(ch, AFF_CONCEAL_ALIGN)) && (IS_OBJ_STAT(obj, ITEM_ANTI_EVIL)) && (IS_EVIL(ch)))
+    {
+        act("You are too evil to use $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
+    }
+    else if(!(IS_AFFECTED(ch, AFF_CONCEAL_ALIGN)) && (IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL)) && (IS_NEUTRAL(ch)))
+    {
+        act("You are too neutral to use $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
+    }
+    else if(!(IS_AFFECTED(ch, AFF_CONCEAL_ALIGN)) && (IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)) && (IS_GOOD(ch)))
+    {
+        act("You are too good to use $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
+    }
+    else if(GET_OBJ_LEVEL(obj) > (GET_LEVEL(ch)))
+    {
+        act("You are not skilled enough to use $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
+    }
+    else if(invalid_class(ch, obj))
+    {
+        act("Those of your skills cannot use  $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
+    }
+    else if(invalid_race(ch, obj))
+    {
+        act("Those of your race cannot use $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
+    }
+    else if (GET_OBJ_TYPE(obj) == ITEM_WEAPON && !is_proficient_with_weapon(ch, GET_OBJ_VAL(obj, 0))) {
+        act("You are not skilled in the use of $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);   
+    }
+    else if ((GET_OBJ_TYPE(obj) == ITEM_ARMOR || GET_OBJ_TYPE(obj) == ITEM_ARMOR_SUIT) && !is_proficient_with_armor(ch, GET_OBJ_VAL(obj, 1))) {
+        act("You are not skilled in the use of $p.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);      
+    }   
+    else
+    {
+        act("You try out $p.  It seems quite useable.", FALSE, ch, obj, 0, TO_CHAR);
+        act("$n tries $p, it seems to suit $m well.", FALSE, ch, obj, 0, TO_ROOM);
+    }
+
+    spell_identify(100, ch, ch, obj, NULL);
+
     return;
-
-  if (!(obj = get_purchase_obj(ch, arg, keeper, shop_nr, TRUE)))
-    return;
-
-  if (SHOP_BLACKMARKET(shop_nr) && SPEAKING(ch) != SKILL_LANG_THIEVES_CANT)
-    return;
-
-   if(!(IS_AFFECTED(ch, AFF_CONCEAL_ALIGN)) && (IS_OBJ_STAT(obj, ITEM_ANTI_EVIL)) && (IS_EVIL(ch)))
-   {
-      act("You are too evil to use $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
-   }
-   else if(!(IS_AFFECTED(ch, AFF_CONCEAL_ALIGN)) && (IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL)) && (IS_NEUTRAL(ch)))
-   {
-      act("You are too neutral to use $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
-   }
-   else if(!(IS_AFFECTED(ch, AFF_CONCEAL_ALIGN)) && (IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)) && (IS_GOOD(ch)))
-   {
-      act("You are too good to use $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
-   }
-   else if(GET_OBJ_LEVEL(obj) > (GET_LEVEL(ch)))
-   {
-      act("You are not skilled enough to use $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
-   }
-   else if(invalid_class(ch, obj))
-   {
-      act("Those of your skills cannot use  $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
-   }
-   else if(invalid_race(ch, obj))
-   {
-      act("Those of your race cannot use $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);
-   }
-   else if (GET_OBJ_TYPE(obj) == ITEM_WEAPON && !is_proficient_with_weapon(ch, GET_OBJ_VAL(obj, 0))) {
-      act("You are not skilled in the use of $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);   
-   }
-   else if ((GET_OBJ_TYPE(obj) == ITEM_ARMOR || GET_OBJ_TYPE(obj) == ITEM_ARMOR_SUIT) && !is_proficient_with_armor(ch, GET_OBJ_VAL(obj, 1))) {
-      act("You are not skilled in the use of $p.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n fumbles around with $p.", FALSE, ch, obj, 0, TO_ROOM);      
-   }   
-   else
-   {
-      act("You try out $p.  It seems quite useable.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n tries $p, it seems to suit $m well.", FALSE, ch, obj, 0, TO_ROOM);
-   }
-
-   spell_identify(100, ch, ch, obj, NULL);
-    
-    
-   return;
 }

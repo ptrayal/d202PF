@@ -337,40 +337,39 @@ int auction_load(room_vnum rvnum)
 SPECIAL(auction_house) 
 {
 
-  if (!CMD_IS("buy") && !CMD_IS("sell") && !CMD_IS("list") && !CMD_IS("try"))
-    return 0;
+    if (!CMD_IS("buy") && !CMD_IS("sell") && !CMD_IS("list") && !CMD_IS("try"))
+        return 0;
 
-  char arg1[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'}, arg4[200]={'\0'}, arg5[200]={'\0'};
-  struct obj_data *obj;
+    char arg1[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'}, arg4[200]={'\0'}, arg5[200]={'\0'};
+    struct obj_data *obj;
 
+    one_argument(one_argument(one_argument(one_argument(one_argument(argument, arg1), arg2), arg3), arg4), arg5);
 
-  one_argument(one_argument(one_argument(one_argument(one_argument(argument, arg1), arg2), arg3), arg4), arg5);
+    if (CMD_IS("sell")) 
+    {
 
-  if (CMD_IS("sell")) {
+        if (!*arg1) {
+            send_to_char(ch, "What item would you like to sell?\r\n");
+            return 1;
+        }    
 
-    if (!*arg1) {
-      send_to_char(ch, "What item would you like to sell?\r\n");
-      return 1;
-    }    
+        if (!*arg2) {
+            send_to_char(ch, "How much would you like to sell it for?\r\n");
+            return 1;
+        }
 
-    if (!*arg2) {
-      send_to_char(ch, "How much would you like to sell it for?\r\n");
-      return 1;
-    }
+        if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying))) {
+            send_to_char(ch, "You do not have any item by that description.\r\n");
+            return 1;
+        }
 
-   if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying))) {
-     send_to_char(ch, "You do not have any item by that description.\r\n");
-     return 1;
-   }
+    } 
+    else if CMD_IS("buy") 
+    {
 
-  
+} else { // list
 
-  } else if CMD_IS("buy") {
+}
 
-  } else { // list
-
-  }
-
-  return 1;
-
+return 1;
 }

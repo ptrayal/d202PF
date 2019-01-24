@@ -96,3 +96,10 @@
 @WRayal   @n @Y(Sep-22-2015)@n Fixed a memory leak in handler.c (I think)
 @WRayal   @n @Y(Sep-22-2015)@n Fixed three other small memory leaks.
 @WRayal   @n @Y(Feb-23-2016)@n Fixed a duplicate feat problem for fighters.
+@WRayal   @n @Y(Jan-10-2019)@n Removed Armor Skin as part of removing all Epic feats.
+@WRayal   @n @Y(Jan-10-2019)@n Fixed feat_dump command to dump properly into dump folder and added error checking for it.
+@WRayal   @n @Y(Jan-10-2019)@n Removed Automatic Quicken Spell (another Epic feat).
+@WRayal   @n @Y(Jan-10-2019)@n Removed Epic Combat Challenge feat (removal of another Epic feat).
+@WRayal   @n @Y(Jan-10-2019)@n Fixed some compiling errors with new version of gccb
+@WRayal   @n @Y(Jan-11-2019)@n Removed Self Concealment feat (epic feat).
+@WRayal   @n @Y(Jan-11-2019)@n Removed both Epic Dodge and Epic Prowess feats (epic feat removal).

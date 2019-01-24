@@ -125,7 +125,9 @@ int dg_act_check;               /* toggle for act_trigger */
 unsigned long pulse = 0;        /* number of pulses since game start */
 static bool fCopyOver;          /* Are we booting in copyover mode? */
 ush_int port;
-socket_t mother_desc = 0;
+
+// If having problems getting the mud to startup, change this variable.
+socket_t mother_desc = 1;
 
 /* functions in this file */
 static void msdp_update(void); 
@@ -486,8 +488,8 @@ void copyover_recover()
   }
 
   unlink (COPYOVER_FILE); /* In case it crashes - doesn't prevent reading */ 
-  int itrash = 0;
   for (;;) {
+    int itrash = 0;
     fOld = true;
     itrash = fscanf (fp, "%d %s %s %d\n", &desc, name, host, &saved_loadroom);
     if (desc == -1)

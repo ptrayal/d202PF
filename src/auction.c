@@ -293,4 +293,3 @@ void auction_add(int price, char *seller, long idnum, long date_sold, int active
   ptr->next = auction_list;
   auction_list = ptr;
 }
-

@@ -818,64 +818,72 @@ ASPELL(spell_detect_poison)
 
 ASPELL(spell_portal)
 {
-  room_rnum to_room;
-  int times_visited = ch->player_specials->rooms_visited[world[IN_ROOM(victim)].number];
-  int chance = 0;
-  struct obj_data *portal, *tportal;
+    room_rnum to_room;
+    int times_visited = ch->player_specials->rooms_visited[world[IN_ROOM(victim)].number];
+    int chance = 0;
+    struct obj_data *portal, *tportal;
 
-  if (ch == NULL || victim == NULL)
-    return;
+    if (ch == NULL || victim == NULL)
+        return;
 
-  do {
-    to_room = rand_number(0, top_of_world);
-  } while (ROOM_FLAGGED(to_room, ROOM_PRIVATE | ROOM_DEATH | ROOM_GODROOM) ||
-           zone_table[world[to_room].zone].zone_status < 2);
+    do 
+    {
+        to_room = rand_number(0, top_of_world);
+    } 
+    while (ROOM_FLAGGED(to_room, ROOM_PRIVATE | ROOM_DEATH | ROOM_GODROOM) ||
+        zone_table[world[to_room].zone].zone_status < 2);
 
-  if (times_visited <= 0)
-      chance = 0;
-  else
-      chance = 1;
+    {
+        if (times_visited <= 0)
+            chance = 0;
+        else
+            chance = 1;
+    }
 
 
-  if (chance)
-    to_room = IN_ROOM(victim);
+    if (chance)
+    {
+        to_room = IN_ROOM(victim);
+    }
 
     if (num_rooms_between(IN_ROOM(ch), IN_ROOM(victim)) <= 0 ||
-      num_rooms_between(IN_ROOM(ch), IN_ROOM(victim)) > (100 * 
-      + get_skill_value(ch, SKILL_SPELLCRAFT))) {
-    send_to_char(ch, "You cannot master the weave well enough to create a portal that distant.\r\n");
-    return;
-  }
+        num_rooms_between(IN_ROOM(ch), IN_ROOM(victim)) > (100 * 
+            + get_skill_value(ch, SKILL_SPELLCRAFT))) 
+    {
+        send_to_char(ch, "You cannot master the weave well enough to create a portal that distant.\r\n");
+        return;
+    }
 
-  if (zone_table[world[to_room].zone].zone_status == 3) {
-    send_to_char(ch, "You cannot portal into dungeons.\r\n");
-    return;
-  }
+    if (zone_table[world[to_room].zone].zone_status == 3) 
+    {
+        send_to_char(ch, "You cannot portal into dungeons.\r\n");
+        return;
+    }
 
-  /* create the portal */
-  portal = read_object(portal_object, virtual);
-  GET_OBJ_VAL(portal, VAL_PORTAL_DEST) = GET_ROOM_VNUM(to_room);
-  GET_OBJ_VAL(portal, VAL_PORTAL_HEALTH) = 100;
-  GET_OBJ_VAL(portal, VAL_PORTAL_MAXHEALTH) = 100;
-  GET_OBJ_TIMER(portal) = 2000;
-  add_unique_id(portal);
-  obj_to_room(portal, IN_ROOM(ch));
-  act("$n opens a portal in thin air.",
-       true, ch, 0, 0, TO_ROOM);
-  act("You open a portal out of thin air.",
-       true, ch, 0, 0, TO_CHAR);
-  /* create the portal at the other end */
-  tportal = read_object(portal_object, virtual);
-  GET_OBJ_VAL(tportal, VAL_PORTAL_DEST) = GET_ROOM_VNUM(IN_ROOM(ch));
-  GET_OBJ_VAL(tportal, VAL_PORTAL_HEALTH) = 100;
-  GET_OBJ_VAL(tportal, VAL_PORTAL_MAXHEALTH) = 100;
-  GET_OBJ_TIMER(tportal) = 2000;
-  add_unique_id(portal);
-  obj_to_room(tportal, to_room);
-  act("A shimmering portal appears out of thin air.",
-       true, victim, 0, 0, TO_ROOM);
-  act("A shimmering portal opens here for you.",
-       true, victim, 0, 0, TO_CHAR);
+        /* create the portal */
+    portal = read_object(portal_object, virtual);
+    GET_OBJ_VAL(portal, VAL_PORTAL_DEST) = GET_ROOM_VNUM(to_room);
+    GET_OBJ_VAL(portal, VAL_PORTAL_HEALTH) = 100;
+    GET_OBJ_VAL(portal, VAL_PORTAL_MAXHEALTH) = 100;
+    GET_OBJ_TIMER(portal) = 2000;
+    add_unique_id(portal);
+    obj_to_room(portal, IN_ROOM(ch));
+    act("$n opens a portal in thin air.",
+        true, ch, 0, 0, TO_ROOM);
+    act("You open a portal out of thin air.",
+        true, ch, 0, 0, TO_CHAR);
+        /* create the portal at the other end */
+    tportal = read_object(portal_object, virtual);
+    GET_OBJ_VAL(tportal, VAL_PORTAL_DEST) = GET_ROOM_VNUM(IN_ROOM(ch));
+    GET_OBJ_VAL(tportal, VAL_PORTAL_HEALTH) = 100;
+    GET_OBJ_VAL(tportal, VAL_PORTAL_MAXHEALTH) = 100;
+    GET_OBJ_TIMER(tportal) = 2000;
+    add_unique_id(portal);
+    obj_to_room(tportal, to_room);
+    act("A shimmering portal appears out of thin air.",
+        true, victim, 0, 0, TO_ROOM);
+    act("A shimmering portal opens here for you.",
+        true, victim, 0, 0, TO_CHAR);
 }
 
 
@@ -1130,5 +1138,3 @@ ACMD(do_wish)
   GET_WISHES(ch)--;
   save_char(ch);
 }
-
-

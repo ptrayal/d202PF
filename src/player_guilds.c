@@ -639,35 +639,37 @@ void check_guild_level(struct char_data *ch)
 
 ACMD(do_guildbonuses)
 {
+    int i = 0;
 
-  int i = 0;
+    skip_spaces(&argument);
 
-  skip_spaces(&argument);
+    if (!*argument) 
+    {
+        send_to_char(ch, "You have to type out the full guild name exactly as shown in 'listguilds'.\r\n");
+        return;
+    }
 
-  if (!*argument) {
-    send_to_char(ch, "You have to type out the full guild name exactly as shown in 'listguilds'.\r\n");
-    return;
-  }
+    for (i = 0; i < NUM_PLAYER_GUILDS+1; i++) 
+    {
+        if (!strcasecmp(argument, guild_names[i]))
+            break;
+    }
 
-  for (i = 0; i < NUM_PLAYER_GUILDS+1; i++) {
-    if (!strcasecmp(argument, guild_names[i]))
-      break;
-  }
+    if (i >= NUM_PLAYER_GUILDS+1) 
+    {
+        send_to_char(ch, "You have to type out the full guild name exactly as shown in 'listguilds'.\r\n");
+        return;
+    }
 
-  if (i >= NUM_PLAYER_GUILDS+1) {
-    send_to_char(ch, "You have to type out the full guild name exactly as shown in 'listguilds'.\r\n");
-    return;
-  }
+    int j = 0;
 
-  int j = 0;
+    send_to_char(ch, "Below are the bonuses by rank for the %s guild.\r\n"
+        "Please note that this list repeats itself after level 4.\r\n", guild_names[i]);
 
-  send_to_char(ch, "Below are the bonuses by rank for the %s guild.\r\n"
-                   "Please note that this list repeats itself after level 4.\r\n", guild_names[i]);
+    for (j = 1; j <= 4; j++) 
+    {
+        send_to_char(ch, "%d) %s\r\n", j, guild_bonuses[i][j%4]);
+    }
 
-  for (j = 1; j <= 4; j++) {
-    send_to_char(ch, "%d) %s\r\n", j, guild_bonuses[i][j%4]);
-  }
-
-  send_to_char(ch, "\r\n");
-
+    send_to_char(ch, "\r\n");
 }

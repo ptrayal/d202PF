@@ -435,7 +435,8 @@ void travel_tickdown(void)
   struct char_data *ch = NULL;
   room_rnum to_room = NOWHERE;
 
-  for (ch = character_list; ch; ch = ch->next) {
+  for (ch = character_list; ch; ch = ch->next) 
+  {
 
     if (IS_NPC(ch) || !ch->desc)
       continue;
@@ -506,38 +507,39 @@ void travel_tickdown(void)
 
 int get_distance(struct char_data *ch, int locale, int here)
 {
-  int xf, xt, yf, yt;
-  xf = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[here][5]);
-  xt = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[locale][5]);
-  yf = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[here][6]);
-  yt = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[locale][6]);
+    int xf, xt, yf, yt;
+    xf = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[here][5]);
+    xt = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[locale][5]);
+    yf = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[here][6]);
+    yt = atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? shuttle_locales_sw : shuttle_locales_dl)[locale][6]);
 
-  int dx, dy;
+    int dx, dy;
 
-  if (xf > xt)
-    dx = xf - xt;
-  else
-    dx = xt - xf;
+    if (xf > xt)
+        dx = xf - xt;
+    else
+        dx = xt - xf;
 
-  if (yf > yt)
-    dy = yf - yt;
-  else
-    dy = yt - yf;
+    if (yf > yt)
+        dy = yf - yt;
+    else
+        dy = yt - yf;
 
-  int distance = dx + dy;
+    int distance = dx + dy;
 
-  return distance;
+    return distance;
 }
 
 int get_travel_time(struct char_data *ch, int speed, int locale, int here)
 {
-  int distance = get_distance(ch, locale, here);
+    int distance = get_distance(ch, locale, here);
 
-  distance *= 10;
+    distance *= 10;
 
-  if (speed == 0) speed = 10;
+    if (speed == 0) speed = 10;
+    {
+        distance /= speed;
+    }
 
-  distance /= speed;
-
-  return distance;
+    return distance;
 }

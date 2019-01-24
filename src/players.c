@@ -1812,8 +1812,11 @@ void save_char(struct char_data * ch)
   if (GET_QUESTPOINTS(ch)  != PFDEF_QUESTPOINTS) fprintf(fl, "Qpnt: %d\n", GET_QUESTPOINTS(ch));
 
   if (GET_INTROS_GIVEN(ch)    != 0)  fprintf(fl, "IGiv: %d\n", GET_INTROS_GIVEN(ch));
-  if (GET_INTROS_RECEIVED(ch) != 0)  fprintf(fl, "IRec: %d\n", GET_INTROS_RECEIVED(ch));
-                                     fprintf(fl, "Bled: %d\n", GET_FIGHT_BLEEDING_DAMAGE(ch));
+  if (GET_INTROS_RECEIVED(ch) != 0)  
+    {
+        fprintf(fl, "IRec: %d\n", GET_INTROS_RECEIVED(ch));
+    }
+  fprintf(fl, "Bled: %d\n", GET_FIGHT_BLEEDING_DAMAGE(ch));
   if (ch->player_specials->bonus_levels_arcane) fprintf(fl, "BLvA: %d\n", ch->player_specials->bonus_levels_arcane);
   if (ch->player_specials->bonus_levels_divine) fprintf(fl, "BLvD: %d\n", ch->player_specials->bonus_levels_divine);
   if (ch->player_specials->num_of_rooms_visited != 0) fprintf(fl, "RVNm: %d\n", ch->player_specials->num_of_rooms_visited);
@@ -2430,15 +2433,17 @@ void clean_pfiles(void)
 
 void load_quests(FILE *fl, struct char_data *ch)
 {
-  int num = NOTHING;
-  char line[MAX_INPUT_LENGTH + 1]={'\0'};
+    int num = NOTHING;
+    char line[MAX_INPUT_LENGTH + 1]={'\0'};
 
-  do {
-    get_line(fl, line);
-    sscanf(line, "%d", &num);
-    if (num != NOTHING)
-      add_completed_quest(ch, num);
- } while (num != NOTHING);
+    do 
+    {
+        get_line(fl, line);
+        sscanf(line, "%d", &num);
+        if (num != NOTHING)
+            add_completed_quest(ch, num);
+    } 
+    while (num != NOTHING);
 }
 
 void init_respec_char(struct char_data *ch)

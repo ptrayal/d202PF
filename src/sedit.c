@@ -826,7 +826,6 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   }
 
 /*-------------------------------------------------------------------*/
-
 /*
  * END OF CASE 
  * If we get here, we have probably changed something, and now want to

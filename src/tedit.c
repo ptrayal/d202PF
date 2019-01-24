@@ -30,38 +30,43 @@ extern const char *policies;
 
 void tedit_string_cleanup(struct descriptor_data *d, int terminator)
 {
-  FILE *fl;
-  char *storage = OLC_STORAGE(d);
+    FILE *fl;
+    char *storage = OLC_STORAGE(d);
 
-  if (!storage)
-    terminator = STRINGADD_ABORT;
+    if (!storage)
+        terminator = STRINGADD_ABORT;
 
-  switch (terminator) {
-  case STRINGADD_SAVE:
-    if (!(fl = fopen(storage, "w")))
-      mudlog(CMP, ADMLVL_IMPL, TRUE, "SYSERR: Can't write file '%s'.", storage);
-    else {
-      if (*d->str) {
-        strip_cr(*d->str);
-        fputs(*d->str, fl);
-      }
-      fclose(fl);
-      mudlog(CMP, ADMLVL_GOD, TRUE, "OLC: %s saves '%s'.", GET_NAME(d->character), storage);
-      write_to_output(d, "Saved.\r\n");
+    switch (terminator) 
+    {
+        case STRINGADD_SAVE:
+        if (!(fl = fopen(storage, "w")))
+        {
+            mudlog(CMP, ADMLVL_IMPL, TRUE, "SYSERR: Can't write file '%s'.", storage);
+        }
+        else 
+        {
+            if (*d->str) 
+            {
+                strip_cr(*d->str);
+                fputs(*d->str, fl);
+            }
+            fclose(fl);
+            mudlog(CMP, ADMLVL_GOD, TRUE, "OLC: %s saves '%s'.", GET_NAME(d->character), storage);
+            write_to_output(d, "Saved.\r\n");
+        }
+        break;
+        case STRINGADD_ABORT:
+        write_to_output(d, "Edit aborted.\r\n");
+        act("$n stops editing some scrolls.", TRUE, d->character, 0, 0, TO_ROOM);
+        break;
+        default:
+        log("SYSERR: tedit_string_cleanup: Unknown terminator status.");
+        break;
     }
-    break;
-  case STRINGADD_ABORT:
-    write_to_output(d, "Edit aborted.\r\n");
-    act("$n stops editing some scrolls.", TRUE, d->character, 0, 0, TO_ROOM);
-    break;
-  default:
-    log("SYSERR: tedit_string_cleanup: Unknown terminator status.");
-    break;
-  }
 
-  /* Common cleanup code. */
-  cleanup_olc(d, CLEANUP_ALL);
-  STATE(d) = CON_PLAYING;
+    /* Common cleanup code. */
+    cleanup_olc(d, CLEANUP_ALL);
+    STATE(d) = CON_PLAYING;
 }
 
 ACMD(do_tedit)

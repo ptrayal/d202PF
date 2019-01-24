@@ -423,5 +423,4 @@ ACMD(do_account)
   }
 
   grid_to_char(grid, ch, TRUE);
-
 }

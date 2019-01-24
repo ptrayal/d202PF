@@ -1431,29 +1431,36 @@ void zedit_parse(struct descriptor_data *d, char *arg)
 /** End of parse_zedit()                                                     **/
 /******************************************************************************/
 
-char * parse_level_ranges(int zone_num) {
+char * parse_level_ranges(int zone_num) 
+{
 
-  int found = FALSE;
-  int i = 0;
-  char *string = NULL;
-  char buf[MAX_STRING_LENGTH]={'\0'};
+    int found = FALSE;
+    int i = 0;
+    char *string = NULL;
+    char buf[MAX_STRING_LENGTH]={'\0'};
 
-  for (i = 0; i < NUM_LEVEL_RANGES; i++) {
-    if (HAS_LEVEL_RANGE(zone_num, (1 << i))) {
-	  if (!found) {
-	    sprintf(buf, "%s", level_ranges[i]);
-	    string = strdup(buf);
-		found = TRUE;
-	  }
-	  else {
-	    sprintf(buf, "%s, %s", string, level_ranges[i]);
-	    string = strdup(buf);
-	  }
-	}
-  }
+    for (i = 0; i < NUM_LEVEL_RANGES; i++) 
+    {
+        if (HAS_LEVEL_RANGE(zone_num, (1 << i))) 
+        {
+            if (!found) 
+            {
+                sprintf(buf, "%s", level_ranges[i]);
+                string = strdup(buf);
+                found = TRUE;
+            }
+            else 
+            {
+                sprintf(buf, "%s, %s", string, level_ranges[i]);
+                string = strdup(buf);
+            }
+        }
+    }
 
-  if (!string)
-    string = strdup("Any");
-  
-  return string; 
+    if (!string)
+    {
+        string = strdup("Any");
+    }
+
+    return string; 
 }

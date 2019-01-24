@@ -25,7 +25,7 @@ ENGINE = circle
 
 CFLAGS = -ggdb -O2 $(MYFLAGS) $(PROFILE)
 
-LIBRARIES =  -lcrypt -lz  -lmysqlclient
+LIBRARIES =  -lcrypt -lz  -lmysqlclient -lm
 
 SRC_FILES = ${wildcard *.c}
 

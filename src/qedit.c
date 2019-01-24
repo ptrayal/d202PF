@@ -737,11 +737,12 @@ void qedit_parse(struct descriptor_data *d, char *arg)
 
 void qedit_string_cleanup(struct descriptor_data *d, int terminator)
 {
-  switch (OLC_MODE(d)) {
-  case QEDIT_INFO:
-  case QEDIT_COMPLETE:
-  case QEDIT_ABANDON:
-    qedit_disp_menu(d);
-    break;
-  }
+    switch (OLC_MODE(d)) 
+    {
+        case QEDIT_INFO:
+        case QEDIT_COMPLETE:
+        case QEDIT_ABANDON:
+        qedit_disp_menu(d);
+        break;
+    }
 }

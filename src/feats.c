@@ -2,6 +2,7 @@
 ** FEATS.C                                                                  **
 ** Source code for the Gates of Krynn Feats System.                         **
 ** Initial code by Paladine (Stephen Squires)                               **
+** Revised Code by Rayal (Brandon Morrison)                                 **
 ** Created Thursday, September 5, 2002                                      **
 **                                                                          **
 *****************************************************************************/
@@ -76,13 +77,15 @@ int compare_feats(const void *x, const void *y)
 /* sort feats called at boot up */
 void sort_feats(void)
 {
-  int a;
+    int a = 0;
 
-  /* initialize array, avoiding reserved. */
-  for (a = 1; a <= NUM_FEATS_DEFINED; a++)
-    feat_sort_info[a] = a;
+    /* initialize array, avoiding reserved. */
+    for (a = 1; a <= NUM_FEATS_DEFINED; a++)
+        {
+            feat_sort_info[a] = a;
+        }
 
-  qsort(&feat_sort_info[1], NUM_FEATS_DEFINED, sizeof(int), compare_feats);
+    qsort(&feat_sort_info[1], NUM_FEATS_DEFINED, sizeof(int), compare_feats);
 }
 
 /* checks if the char has the feat either saved to file or in the process
@@ -494,21 +497,15 @@ feato(FEAT_SACRED_FLAMES, "Sacred Flames", TRUE, FALSE, FALSE, "sacred fist leve
 
 /* UNUSED FEATS */
 /* These are EPIC feats which are not used.*/
-feato(FEAT_ARMOR_SKIN, "Armor Skin", FALSE, TRUE, TRUE, "Epic level", "Increases natural armor by 1");
-feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", FALSE, TRUE, FALSE, "Epic level, empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
-feato(FEAT_AUTOMATIC_QUICKEN_SPELL, "Automatic Quicken Spell", FALSE, TRUE, TRUE, "Epic level, spellcraft 30 ranks, ability to cast level 9 arcane or divine spells", "You can cast level 0, 1, 2 & 3 spells automatically as if quickened.  Every addition rank increases the max spell level by 3.");
-feato(FEAT_FAST_HEALING, "Fast Healing", FALSE, TRUE, TRUE, "Epic Level", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
-feato(FEAT_GREAT_SMITING, "Great Smiting", FALSE, TRUE, TRUE, "Epic Level", "For each rank in this feat you add your level in damage to all smite attacks");
 feato(FEAT_ENHANCE_SPELL, "Increase Spell Damage (Enhance Spell)", FALSE, TRUE, FALSE, "Epic Level", "increase max number of damage dice for certain damage based spell by 5");
-feato(FEAT_EPIC_COMBAT_CHALLENGE, "Epic Combat Challenge", FALSE, TRUE, FALSE, "Epic level, 20 ranks in diplomacy, intimidate or bluff, greater combat challenge", "as improved combat challenge, but both regular challenges and challenge all are minor actions");
-feato(FEAT_EPIC_DODGE, "Epic Dodge", FALSE, TRUE, FALSE, "Epic level, dex 25, dodge, tumble 30, improved evasion, defensive roll", "automatically dodge first attack against you each round");
-feato(FEAT_EPIC_PROWESS, "Epic Prowess", FALSE, TRUE, TRUE, "Epic level", "+1 to all attacks per rank");
 feato(FEAT_EPIC_SKILL_FOCUS, "Epic Skill focus", FALSE, TRUE, TRUE, "Epic level, 20 ranks in the skill", "+10 in chosen skill");
 feato(FEAT_EPIC_SPELLCASTING, "Epic Spellcasting", FALSE, TRUE, FALSE, "Epic level, lore 24, spellcraft 24", "allows you to cast epic spells");
 feato(FEAT_EPIC_TOUGHNESS, "Epic Toughness", FALSE, TRUE, TRUE, "Epic level", "You gain +30 max hp.");
+feato(FEAT_FAST_HEALING, "Fast Healing", FALSE, TRUE, TRUE, "Epic Level", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
+feato(FEAT_GREAT_SMITING, "Great Smiting", FALSE, TRUE, TRUE, "Epic Level", "For each rank in this feat you add your level in damage to all smite attacks");
+feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", FALSE, TRUE, FALSE, "Epic level, empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
 feato(FEAT_MIGHTY_RAGE, "Mighty Rage", FALSE, FALSE, FALSE, "Epic level, str 21, con 21, greater rage, rage 5/day", "+8 str and con and +4 to will saves when raging");
 feato(FEAT_PERFECT_TWO_WEAPON_FIGHTING, "Perfect Two Weapon Fighting", FALSE, TRUE, FALSE, "Epic level, dex 25, greater two weapon fighting", "Extra attack with offhand weapon");
-feato(FEAT_SELF_CONCEALMENT, "Self Concealment", FALSE, TRUE, TRUE, "Epic level, stealth 30 ranks, dex 30, tumble 30 ranks", "10%% miss chance for attacks against you per rank");
 feato(FEAT_SWARM_OF_ARROWS, "Swarm of Arrows", FALSE, TRUE, FALSE, "Epic level, dex 23, point blank shot, rapid shot, weapon focus", "allows you to make a single ranged attack against everyone in range.");
 
 /* Unused non-Epic Feats*/
@@ -527,36 +524,36 @@ feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", FALSE, TRUE, TRUE, "Weapon Speciali
 /* Dragonlance specific feats or class abilities. */
 if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
 {
-  feato(FEAT_ARMORED_MOBILITY, "Armored Mobility", TRUE, FALSE, FALSE, "Knight of the Crown level 6, Knight of the Lily level 6", "heavy armor is treated as medium armor");
-  feato(FEAT_ARMORED_SPELLCASTING, "Armored Spellcasting", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
-  feato(FEAT_AURA_OF_EVIL, "Aura of Evil", TRUE, FALSE, FALSE, "Knight of the Skull", "ask staff");
-  feato(FEAT_AURA_OF_GOOD, "Aura of Good", TRUE, TRUE, FALSE, "Knight of the Rose", "+10 ac to all group members");
-  feato(FEAT_AURA_OF_TERROR, "Aura of Terror", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
-  feato(FEAT_COSMIC_UNDERSTANDING, "Cosmic Understanding", TRUE, FALSE, FALSE, "Knight of the Thorn level 10", "ask staff");
-  feato(FEAT_CROWN_OF_KNIGHTHOOD, "Crown of Knighthood", TRUE, FALSE, FALSE, "Knight of the Crown 10th", "ask staff");
-  feato(FEAT_DARK_BLESSING, "Dark Blessing", TRUE, FALSE, FALSE, "Knight of the Skull level 2", "ask staff");
-  feato(FEAT_DEMORALIZE, "Demoralize", TRUE, FALSE, FALSE, "Knight of the Lily level 2", "ask staff");
-  feato(FEAT_DISCERN_LIES, "Discern Lies", TRUE, FALSE, FALSE, "Knight of the Skull level 3", "ask staff");
-  feato(FEAT_DIVINER, "Diviner", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
-  feato(FEAT_DRAGON_MOUNT_BOOST, "Dragon Mount Boost", TRUE, FALSE, FALSE, "dragon rider prestige class", "gives +18 hp, +10 ac, +1 hit and +1 damage per rank in the feat");
-  feato(FEAT_DRAGON_MOUNT_BREATH, "Dragon Mount Breath", TRUE, FALSE, FALSE, "dragon rider prestige class", "allows you to use your dragon mount's breath weapon once per rank, per 10 minutes.");
-  feato(FEAT_FAVOR_OF_DARKNESS, "Favor of Darkness", TRUE, FALSE, FALSE, "Knight of the Skull level 10", "ask staff");
-  feato(FEAT_FINAL_STAND, "Final Stand", TRUE, FALSE, FALSE, "Knight of the Rose level 9", "ask staff");
-  feato(FEAT_HEROIC_INITIATIVE, "Heroic Initiative", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to initiative checks");
-  feato(FEAT_HONORABLE_WILL, "Honorable Will", TRUE, FALSE, FALSE, "Knight of the Crown 4th", "ask staff");
-  feato(FEAT_HONORBOUND, "Honorbound", TRUE, TRUE, FALSE, "-", "+2 to saving throws against fear or compulsion effects, +2 to sense motive checks");
-  feato(FEAT_KNIGHTHOODS_FLOWER, "Knighthood's Flower", TRUE, FALSE, FALSE, "Knight of the Rose 10th", "ask staff");
-  feato(FEAT_KNIGHTLY_COURAGE, "Knightly Courage", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to fear checks");
-  feato(FEAT_MIGHT_OF_HONOR, "Might of Honor", TRUE, FALSE, FALSE, "Knight of the Crown level 6", "ask staff");
-  feato(FEAT_ONE_THOUGHT, "One Thought", TRUE, FALSE, FALSE, "Knight of the Lily level 10", "ask staff");
-  feato(FEAT_RALLYING_CRY, "Rallying Cry", TRUE, FALSE, FALSE, "Knight of the Rose level 1", "ask staff");
-  feato(FEAT_READ_OMENS, "Read Omens", TRUE, FALSE, FALSE, "Knight of the Thorn level 1", "ask staff");
-  feato(FEAT_READ_PORTENTS, "Read Portents", TRUE, FALSE, FALSE, "Knight of the Thorn level 6", "ask staff");
-  feato(FEAT_SOUL_OF_KNIGHTHOOD, "Soul of Knighthood", TRUE, FALSE, FALSE, "Knight of the Sword level 10", "ask staff");
-  feato(FEAT_STRENGTH_OF_HONOR, "Strength of Honor", TRUE, FALSE, TRUE, "Knight of the Crown level 1", "+4 to strength for several rounds");
-  feato(FEAT_UNBREAKABLE_WILL, "Unbreakable Will", TRUE, FALSE, FALSE, "Knight of the Lily", "ask staff");
-  feato(FEAT_WEAPON_TOUCH, "Weapon Touch", TRUE, FALSE, FALSE, "Knight of the Thorn level 4", "ask staff");
-  feato(FEAT_WISDOM_OF_THE_MEASURE, "Wisdom of the Measure", TRUE, FALSE, FALSE, "Knight of the Rose level 6", "ask staff");
+    feato(FEAT_ARMORED_MOBILITY, "Armored Mobility", TRUE, FALSE, FALSE, "Knight of the Crown level 6, Knight of the Lily level 6", "heavy armor is treated as medium armor");
+    feato(FEAT_ARMORED_SPELLCASTING, "Armored Spellcasting", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
+    feato(FEAT_AURA_OF_EVIL, "Aura of Evil", TRUE, FALSE, FALSE, "Knight of the Skull", "ask staff");
+    feato(FEAT_AURA_OF_GOOD, "Aura of Good", TRUE, TRUE, FALSE, "Knight of the Rose", "+10 ac to all group members");
+    feato(FEAT_AURA_OF_TERROR, "Aura of Terror", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
+    feato(FEAT_COSMIC_UNDERSTANDING, "Cosmic Understanding", TRUE, FALSE, FALSE, "Knight of the Thorn level 10", "ask staff");
+    feato(FEAT_CROWN_OF_KNIGHTHOOD, "Crown of Knighthood", TRUE, FALSE, FALSE, "Knight of the Crown 10th", "ask staff");
+    feato(FEAT_DARK_BLESSING, "Dark Blessing", TRUE, FALSE, FALSE, "Knight of the Skull level 2", "ask staff");
+    feato(FEAT_DEMORALIZE, "Demoralize", TRUE, FALSE, FALSE, "Knight of the Lily level 2", "ask staff");
+    feato(FEAT_DISCERN_LIES, "Discern Lies", TRUE, FALSE, FALSE, "Knight of the Skull level 3", "ask staff");
+    feato(FEAT_DIVINER, "Diviner", TRUE, FALSE, FALSE, "Knight of the Thorn", "ask staff");
+    feato(FEAT_DRAGON_MOUNT_BOOST, "Dragon Mount Boost", TRUE, FALSE, FALSE, "dragon rider prestige class", "gives +18 hp, +10 ac, +1 hit and +1 damage per rank in the feat");
+    feato(FEAT_DRAGON_MOUNT_BREATH, "Dragon Mount Breath", TRUE, FALSE, FALSE, "dragon rider prestige class", "allows you to use your dragon mount's breath weapon once per rank, per 10 minutes.");
+    feato(FEAT_FAVOR_OF_DARKNESS, "Favor of Darkness", TRUE, FALSE, FALSE, "Knight of the Skull level 10", "ask staff");
+    feato(FEAT_FINAL_STAND, "Final Stand", TRUE, FALSE, FALSE, "Knight of the Rose level 9", "ask staff");
+    feato(FEAT_HEROIC_INITIATIVE, "Heroic Initiative", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to initiative checks");
+    feato(FEAT_HONORABLE_WILL, "Honorable Will", TRUE, FALSE, FALSE, "Knight of the Crown 4th", "ask staff");
+    feato(FEAT_HONORBOUND, "Honorbound", TRUE, TRUE, FALSE, "-", "+2 to saving throws against fear or compulsion effects, +2 to sense motive checks");
+    feato(FEAT_KNIGHTHOODS_FLOWER, "Knighthood's Flower", TRUE, FALSE, FALSE, "Knight of the Rose 10th", "ask staff");
+    feato(FEAT_KNIGHTLY_COURAGE, "Knightly Courage", TRUE, FALSE, FALSE, "Knight of the Crown 1st", "bonus to fear checks");
+    feato(FEAT_MIGHT_OF_HONOR, "Might of Honor", TRUE, FALSE, FALSE, "Knight of the Crown level 6", "ask staff");
+    feato(FEAT_ONE_THOUGHT, "One Thought", TRUE, FALSE, FALSE, "Knight of the Lily level 10", "ask staff");
+    feato(FEAT_RALLYING_CRY, "Rallying Cry", TRUE, FALSE, FALSE, "Knight of the Rose level 1", "ask staff");
+    feato(FEAT_READ_OMENS, "Read Omens", TRUE, FALSE, FALSE, "Knight of the Thorn level 1", "ask staff");
+    feato(FEAT_READ_PORTENTS, "Read Portents", TRUE, FALSE, FALSE, "Knight of the Thorn level 6", "ask staff");
+    feato(FEAT_SOUL_OF_KNIGHTHOOD, "Soul of Knighthood", TRUE, FALSE, FALSE, "Knight of the Sword level 10", "ask staff");
+    feato(FEAT_STRENGTH_OF_HONOR, "Strength of Honor", TRUE, FALSE, TRUE, "Knight of the Crown level 1", "+4 to strength for several rounds");
+    feato(FEAT_UNBREAKABLE_WILL, "Unbreakable Will", TRUE, FALSE, FALSE, "Knight of the Lily", "ask staff");
+    feato(FEAT_WEAPON_TOUCH, "Weapon Touch", TRUE, FALSE, FALSE, "Knight of the Thorn level 4", "ask staff");
+    feato(FEAT_WISDOM_OF_THE_MEASURE, "Wisdom of the Measure", TRUE, FALSE, FALSE, "Knight of the Rose level 6", "ask staff");
 }
 
 feato(FEAT_LAST_FEAT, "do not take me", FALSE, FALSE, FALSE, "placeholder feat", "placeholder feat");
@@ -583,36 +580,23 @@ epicfeat(FEAT_LAST_FEAT);
 
 int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
 {
-  if (featnum > NUM_FEATS_DEFINED)
-    return FALSE;
+    if (featnum > NUM_FEATS_DEFINED)
+    {
+        return FALSE;
+    }
 
-  if (feat_list[featnum].epic == TRUE && !IS_EPIC(ch))
-    return FALSE;
+    if (feat_list[featnum].epic == TRUE && !IS_EPIC(ch))
+    {
+        return FALSE;
+    }
 
-  if (has_feat(ch, featnum) && !feat_list[featnum].can_stack)
-    return FALSE;
+    if (has_feat(ch, featnum) && !feat_list[featnum].can_stack)
+    {
+        return FALSE;
+    }
 
-  switch (featnum) {
-
-  case FEAT_AUTOMATIC_QUICKEN_SPELL:
-    if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 30)
-      return FALSE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    return FALSE;
+  switch (featnum) 
+  {
 
   case FEAT_EPIC_SPELLCASTING:
     if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 24)
@@ -696,26 +680,8 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     return TRUE;    
 
-  case FEAT_SELF_CONCEALMENT:
-    if (HAS_REAL_FEAT(ch, FEAT_SELF_CONCEALMENT) >= 5)
-      return FALSE;
-    if (GET_SKILL_RANKS(ch, SKILL_STEALTH) < 30)
-      return FALSE;
-    if (GET_SKILL_RANKS(ch, SKILL_ACROBATICS) < 30)
-      return FALSE;
-    if (ch->real_abils.dex < 30)
-      return FALSE;
-    return TRUE;
-
   case FEAT_TRAMPLE:
     if (!HAS_REAL_FEAT(ch, FEAT_MOUNTED_COMBAT))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_ARMOR_SKIN:
-    if (ch->armor_skin_feats >= 5)
-      return FALSE;
-    if (GET_LEVEL(ch) < 21)
       return FALSE;
     return TRUE;
 
@@ -755,26 +721,12 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return false;
     return true;
 
-  case FEAT_EPIC_COMBAT_CHALLENGE:
-    if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 20 &&
-        GET_SKILL_RANKS(ch, SKILL_INTIMIDATE) < 20 &&
-        GET_SKILL_RANKS(ch, SKILL_BLUFF) < 20)
-      return false;
-    if (!HAS_REAL_FEAT(ch, FEAT_GREATER_COMBAT_CHALLENGE))
-      return false;
-    return true;
-
   case FEAT_NATURAL_SPELL:
       if (ch->real_abils.wis < 13)
           return false;
       if (!has_feat(ch, FEAT_WILD_SHAPE))
           return false;
       return true;
-
-  case FEAT_EPIC_DODGE:
-    if (ch->real_abils.dex >= 25 && has_feat(ch, FEAT_DODGE) && has_feat(ch, FEAT_DEFENSIVE_ROLL) && GET_SKILL(ch, SKILL_ACROBATICS) >= 30)
-      return TRUE;
-    return FALSE;
 
   case FEAT_IMPROVED_SNEAK_ATTACK:
     if (has_feat(ch, FEAT_SNEAK_ATTACK) >= 8)
@@ -1053,13 +1005,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
 
   case FEAT_ENHANCE_SPELL:
   case FEAT_EPIC_TOUGHNESS:
-    if (GET_LEVEL(ch) < 21)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_EPIC_PROWESS:
-    if (HAS_REAL_FEAT(ch, FEAT_EPIC_PROWESS) >= 5)
-      return FALSE;
     if (GET_LEVEL(ch) < 21)
       return FALSE;
     return TRUE;
@@ -1706,20 +1651,6 @@ void list_feats_known(struct char_data *ch, char *arg)
        row_append_cell(row, 40, "@W%s \n(@G%dd8 dmg|x%d/day@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_BREATH_WEAPON)*2, HAS_FEAT(ch, FEAT_BREATH_WEAPON)); 
       }
     }
-    else if (i == FEAT_SELF_CONCEALMENT)
-    {
-      row = create_row(grid);
-      row_append_cell(row, 35, "%s", feat_list[i].name);
-
-      if (mode == 2)
-      {
-        row_append_cell(row, 40, "@W%s \n(@G%d%% miss@W)@n", feat_list[i].prerequisites, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10);
-      }
-      else
-      {
-       row_append_cell(row, 40, "@W%s \n(@G%d%% miss@W)@n", feat_list[i].description, HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) * 10); 
-      }
-    }
     else if (i == FEAT_NATURAL_ARMOR_INCREASE)
     {
       row = create_row(grid);
@@ -1804,21 +1735,6 @@ void list_feats_known(struct char_data *ch, char *arg)
         row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
       } 
     }
-    else if (i == FEAT_ARMOR_SKIN)
-    {
-      row = create_row(grid);
-      row_append_cell(row, 35, "%s\n (+%d Natural AC)", feat_list[i].name, HAS_FEAT(ch, FEAT_ARMOR_SKIN));
-
-      if (mode == 2) 
-      {
-        row_append_cell(row, 40, "@W%s@n", feat_list[i].prerequisites);
-      } 
-      else 
-      {
-        row_append_cell(row, 40, "@W%s@n", feat_list[i].description);
-      } 
-    }
-
     else if (i == FEAT_FAVORED_ENEMY) 
       {
         row = create_row(grid);
@@ -2941,39 +2857,44 @@ int has_weapon_feat_full(struct char_data *ch, int i, int j, int display)
 
 void display_levelup_weapons(struct char_data *ch) 
 {
-	int i=0;
+    int i=0;
 
-	extern char *weapon_damage_types[];
+    extern char *weapon_damage_types[];
 
-  if (weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES] != NULL)
+    if (weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES] != NULL)
 
-	{
-    send_to_char(ch, "Please select a weapon:\r\n\r\n");
-  
-    for (i = MIN_WEAPON_DAMAGE_TYPES; i <= MAX_WEAPON_DAMAGE_TYPES; i++) 
     {
-      send_to_char(ch, "%2d) %-25s   ", i, weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES]);
-      if (i % 2 == 0)
+        send_to_char(ch, "Please select a weapon:\r\n\r\n");
+
+        for (i = MIN_WEAPON_DAMAGE_TYPES; i <= MAX_WEAPON_DAMAGE_TYPES; i++) 
+        {
+            send_to_char(ch, "%2d) %-25s   ", i, weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES]);
+            if (i % 2 == 0)
+                {
+                    send_to_char(ch, "\r\n");
+                }
+        }
+
+        if (i % 2 != 0)
+            {
+                send_to_char(ch, "\r\n");
+            }
         send_to_char(ch, "\r\n");
+
+        send_to_char(ch, "Please select a weapon by typing a number beside it: (-1 to cancel) ");
     }
-  
-    if (i % 2 != 0)
-      send_to_char(ch, "\r\n");
-    send_to_char(ch, "\r\n");
-  
-    send_to_char(ch, "Please select a weapon by typing a number beside it: (-1 to cancel) ");
-  }
 }
 
 void set_feat(struct char_data *ch, int i, int j) 
 {
 
-	if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) {
-		ch->levelup->feats[i] = j;
-		return;
-	}
+    if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) 
+    {
+        ch->levelup->feats[i] = j;
+        return;
+    }
 
-	SET_FEAT(ch, i, j);
+    SET_FEAT(ch, i, j);
 }
 
 #define FEAT_TYPE_NORMAL                1
@@ -2985,112 +2906,114 @@ void set_feat(struct char_data *ch, int i, int j)
 int handle_levelup_feat_points(struct char_data *ch, int feat_num, int return_val) 
 {
 
-  if (HAS_FEAT(ch, feat_num) && !feat_list[feat_num].can_stack) 
-  {
-    send_to_char(ch, "You already have this feat.\r\nPress enter to continue.\r\n");
-    return FALSE;
-  }
-
-
-  int feat_points = ch->levelup->feat_points;
-  int epic_feat_points = ch->levelup->epic_feat_points;
-  int class_feat_points = ch->levelup->num_class_feats;
-  int epic_class_feat_points = ch->levelup->num_epic_class_feats;
-  int feat_type = 0;
-
-  if (feat_list[feat_num].epic == TRUE) 
-  {
-    if (is_class_feat(feat_num, ch->levelup->class))
-      feat_type = FEAT_TYPE_EPIC_CLASS;
-    else
-      feat_type = FEAT_TYPE_EPIC;
-  }
-  else 
-  {
-    if (is_class_feat(feat_num, ch->levelup->class))
-      feat_type = FEAT_TYPE_NORMAL_CLASS;
-    else
-      feat_type = FEAT_TYPE_NORMAL;
-  }
-
-  if (return_val == 0)
-  {
-// if it's an epic feat, make sure they have an epic feat point
-
-    if (feat_type == FEAT_TYPE_EPIC && epic_feat_points < 1) 
+    if (HAS_FEAT(ch, feat_num) && !feat_list[feat_num].can_stack) 
     {
-      send_to_char(ch, "This is an epic feat and you do not have any epic feat points remaining.\r\n");
-      send_to_char(ch, "Please press enter to continue.\r\n");
-      return 0;
+        send_to_char(ch, "You already have this feat.\r\nPress enter to continue.\r\n");
+        return FALSE;
     }
 
-// if it's an epic class feat, make sure they have an epic feat point or an epic class feat point
+    int feat_points = ch->levelup->feat_points;
+    int epic_feat_points = ch->levelup->epic_feat_points;
+    int class_feat_points = ch->levelup->num_class_feats;
+    int epic_class_feat_points = ch->levelup->num_epic_class_feats;
+    int feat_type = 0;
 
-    if (feat_type == FEAT_TYPE_EPIC_CLASS && epic_feat_points < 1 && epic_class_feat_points < 1) 
+    if (feat_list[feat_num].epic == TRUE) 
     {
-      send_to_char(ch, "This is an epic class feat and you do not have any epic feat points or epic class feat points remaining.\r\n");
-      send_to_char(ch, "Please press enter to continue.\r\n");
-      return 0;
+        if (is_class_feat(feat_num, ch->levelup->class))
+            {
+                feat_type = FEAT_TYPE_EPIC_CLASS;
+            }
+        else
+            {
+                feat_type = FEAT_TYPE_EPIC;
+            }
+    }
+    else 
+    {
+        if (is_class_feat(feat_num, ch->levelup->class))
+            {
+                feat_type = FEAT_TYPE_NORMAL_CLASS;
+            }
+        else
+            {
+                feat_type = FEAT_TYPE_NORMAL;
+            }
     }
 
-// if it's a normal feat, make sure they have a normal feat point
-
-    if (feat_type == FEAT_TYPE_NORMAL && feat_points < 1) 
+    if (return_val == 0)
     {
-      send_to_char(ch, "This is a normal feat and you do not have any normal feat points remaining.\r\n");
-      send_to_char(ch, "Please press enter to continue.\r\n");
-      return 0;
+        // if it's an epic feat, make sure they have an epic feat point
+        if (feat_type == FEAT_TYPE_EPIC && epic_feat_points < 1) 
+        {
+            send_to_char(ch, "This is an epic feat and you do not have any epic feat points remaining.\r\n");
+            send_to_char(ch, "Please press enter to continue.\r\n");
+            return 0;
+        }
+
+        // if it's an epic class feat, make sure they have an epic feat point or an epic class feat point
+        if (feat_type == FEAT_TYPE_EPIC_CLASS && epic_feat_points < 1 && epic_class_feat_points < 1) 
+        {
+            send_to_char(ch, "This is an epic class feat and you do not have any epic feat points or epic class feat points remaining.\r\n");
+            send_to_char(ch, "Please press enter to continue.\r\n");
+            return 0;
+        }
+
+        // if it's a normal feat, make sure they have a normal feat point
+        if (feat_type == FEAT_TYPE_NORMAL && feat_points < 1) 
+        {
+            send_to_char(ch, "This is a normal feat and you do not have any normal feat points remaining.\r\n");
+            send_to_char(ch, "Please press enter to continue.\r\n");
+            return 0;
+        }
+
+        // if it's a normal class feat, make sure they have a normal feat point or a normal class feat point
+        if (feat_type == FEAT_TYPE_NORMAL_CLASS && feat_points < 1 && class_feat_points < 1 && epic_class_feat_points < 1) 
+        {
+            send_to_char(ch, "This is a normal class feat and you do not have any normal feat points or normal class feat points remaining.\r\n");
+            send_to_char(ch, "Please press enter to continue.\r\n");
+            return 0;
+        }
+        return 1;
     }
-
-// if it's a normal class feat, make sure they have a normal feat point or a normal class feat point
-
-    if (feat_type == FEAT_TYPE_NORMAL_CLASS && feat_points < 1 && class_feat_points < 1 && epic_class_feat_points < 1) 
+    else 
     {
-      send_to_char(ch, "This is a normal class feat and you do not have any normal feat points or normal class feat points remaining.\r\n");
-      send_to_char(ch, "Please press enter to continue.\r\n");
-      return 0;
+        // reduce the appropriate feat point type based on what the feat type was set as above.  This simulatyes spendinng the feat
+        if (feat_type == FEAT_TYPE_EPIC) 
+        {
+            epic_feat_points--;
+        }
+        else if (feat_type == FEAT_TYPE_EPIC_CLASS) 
+        {
+            if (epic_class_feat_points > 0)
+                epic_class_feat_points--;
+            else
+                epic_feat_points--;
+        }
+        else if (feat_type == FEAT_TYPE_NORMAL) 
+        {
+            feat_points--;
+        }
+        else if (feat_type == FEAT_TYPE_NORMAL_CLASS) 
+        {
+            if (class_feat_points > 0)
+                class_feat_points--;
+            else if (feat_points > 0)
+                feat_points--;
+            if (epic_class_feat_points > 0)
+                epic_class_feat_points--;
+            else
+                epic_feat_points--;
+        }
+
+        ch->levelup->feat_points = feat_points;
+        ch->levelup->epic_feat_points = epic_feat_points;
+        ch->levelup->num_class_feats = class_feat_points;
+        ch->levelup->num_epic_class_feats = epic_class_feat_points;
+
+        ch->levelup->feats[feat_num]++;
+
+        return 1;
     }
     return 1;
-  }
-  else {
-// reduce the appropriate feat point type based on what the feat type was set as above.  This simulatyes spendinng the feat
-
-    if (feat_type == FEAT_TYPE_EPIC) 
-    {
-      epic_feat_points--;
-    }
-    else if (feat_type == FEAT_TYPE_EPIC_CLASS) 
-    {
-      if (epic_class_feat_points > 0)
-        epic_class_feat_points--;
-      else
-        epic_feat_points--;
-    }
-    else if (feat_type == FEAT_TYPE_NORMAL) 
-    {
-      feat_points--;
-    }
-    else if (feat_type == FEAT_TYPE_NORMAL_CLASS) 
-    {
-      if (class_feat_points > 0)
-        class_feat_points--;
-      else if (feat_points > 0)
-        feat_points--;
-      if (epic_class_feat_points > 0)
-        epic_class_feat_points--;
-      else
-        epic_feat_points--;
-    }
-
-    ch->levelup->feat_points = feat_points;
-    ch->levelup->epic_feat_points = epic_feat_points;
-    ch->levelup->num_class_feats = class_feat_points;
-    ch->levelup->num_epic_class_feats = epic_class_feat_points;
-
-    ch->levelup->feats[feat_num]++;
-
-    return 1;
-  }
-
-  return 1;
 }

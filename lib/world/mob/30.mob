@@ -416,7 +416,7 @@ A disheveled man is here going about his daily routine.
    This man is a member of the lowest class of Luskan.  His clothes are tattered
 and worn, his hair is unkempt.  He is very slim, evidence of his poor diet.  
 ~
-adg b 0 0 k 0 0 0 -500
+dg b 0 0 k 0 0 0 -500
 1 20 9 4d100+151 1d8+0
 5 0 6 27
 8 8 1
@@ -1229,7 +1229,7 @@ from the crowd attempt to pass him and reach the dais upon which the judge sits,
 he lifts them over the edge of the narrow walkway and tosses them into the Pits
 below.  
 ~
-abdelnopqwE 0 0 0 hk 0 0 0 -500
+bdelnopqwE 0 0 0 hk 0 0 0 -500
 18 20 -8 76d100+152 1d8+0
 810 0 42 3
 8 8 1
@@ -1255,9 +1255,9 @@ A visiting mage has come to further his studies at the Host Tower.
 ~
 It looks unfinished.
 ~
-adgl b 0 0 kz 0 0 0 -500
+dgl b 0 0 kz 0 0 0 -500
 4 20 6 20d100+151 1d8+0
-40 0 45 0
+40 0 6 0
 8 8 1
 E
 BareHandAttack: 14

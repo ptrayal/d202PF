@@ -19,29 +19,28 @@ char *hints[];
 
 void show_hints(void)
 {
-  int roll = 0;
-  struct char_data *ch, *next_char;
+    int roll = 0;
+    struct char_data *ch, *next_char;
 
-  roll = dice(1, NUM_HINTS) - 1;
-
-  while (roll >= (NUM_HINTS - 2))
     roll = dice(1, NUM_HINTS) - 1;
 
-  roll = MAX(0, roll);
+    while (roll >= (NUM_HINTS - 2))
+        roll = dice(1, NUM_HINTS) - 1;
 
-  for (ch = character_list; ch; ch = next_char) {
-    next_char = ch->next;
+    roll = MAX(0, roll);
 
-    if (IS_NPC(ch) || !ch->desc)
-      continue;
+    for (ch = character_list; ch; ch = next_char) 
+    {
+        next_char = ch->next;
 
-    if (PRF_FLAGGED(ch, PRF_NOHINTS))
-      continue;
+        if (IS_NPC(ch) || !ch->desc)
+            continue;
 
-    send_to_char(ch, hints[roll]);
+        if (PRF_FLAGGED(ch, PRF_NOHINTS))
+            continue;
 
- }
-
+        send_to_char(ch, hints[roll]);
+    }
 }
 
 char *hints[NUM_HINTS] = 
@@ -58,7 +57,7 @@ char *hints[NUM_HINTS] =
   "@R[HINT]: @yTo view information about your character, type SCORE.  To view more detailed\n"
   "information on your character, and to see exact numbers, use STATS.@n\r\n",
 
-  "@R[HINT]: @yWhen you have enough experience to level simply type @Ylevelup@n and follow\r\n"
+  "@R[HINT]: @yWhen you have enough experience to level simply type @Ylevelup@y and follow\r\n"
   "the on-screen prompts.  At the end of the level you can view what you chose and decide\r\n"
   "whether to accept the changes or not.  Once accepted there is no going back short of a\r\n"
   "character respec.\r\n",

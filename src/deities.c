@@ -17,21 +17,23 @@ struct deity_info deity_list[NUM_DEITIES];
 void init_deities(void)
 {
 
-  int i = 0, j = 0;
+    int i = 0, j = 0;
 
-  for (i = 0; i < NUM_DEITIES; i++) {
+    for (i = 0; i < NUM_DEITIES; i++) 
+    {
 
-    deity_list[i].name = "None";
-    deity_list[i].ethos = ETHOS_NEUTRAL;
-    deity_list[i].alignment = ALIGNMENT_NEUTRAL;
-    for (j = 0; j < 6; j++)
-      deity_list[i].domains[j] = DOMAIN_UNDEFINED;
-    deity_list[i].favored_weapon = WEAPON_TYPE_UNARMED;
-    deity_list[i].pantheon = DEITY_PANTHEON_NONE;
-    deity_list[i].portfolio = "Nothing";
-    deity_list[i].description = "You do not worship a deity at all for reasons of your own.";
-  }
-
+        deity_list[i].name = "None";
+        deity_list[i].ethos = ETHOS_NEUTRAL;
+        deity_list[i].alignment = ALIGNMENT_NEUTRAL;
+        for (j = 0; j < 6; j++)
+        {
+            deity_list[i].domains[j] = DOMAIN_UNDEFINED;
+        }
+        deity_list[i].favored_weapon = WEAPON_TYPE_UNARMED;
+        deity_list[i].pantheon = DEITY_PANTHEON_NONE;
+        deity_list[i].portfolio = "Nothing";
+        deity_list[i].description = "You do not worship a deity at all for reasons of your own.";
+    }
 }
 
 void add_deity(int deity, char *name, int ethos, int alignment, int d1, int d2, int d3, int d4, int d5, int d6, int weapon, int pantheon,

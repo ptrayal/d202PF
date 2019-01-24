@@ -1,4 +1,322 @@
-autorun starting game Tue Feb 23 09:56:15 AST 2016
-running bin/circle -q -p 9080
-autorun starting game Thu Jan 26 11:03:09 AST 2017
-running bin/circle -q -p 9080
+Jan 12 09:47:08 :: Using etc/config for configuration.
+Jan 12 09:47:08 :: CircleMUD, version 3.1
+Jan 12 09:47:08 :: OasisOLC 2.0.6
+Jan 12 09:47:08 :: DG Scripts 1.0.14
+Jan 12 09:47:08 :: ASCII Player Files 3.0.1
+Jan 12 09:47:08 :: CWG Rasputin - 1.2.28b
+Jan 12 09:47:08 :: Using lib as data directory.
+Jan 12 09:47:08 :: Running game on port 9080.
+Jan 12 09:47:08 :: Finding player limit.
+Jan 12 09:47:08 ::    Setting player limit to 50 using rlimit.
+Jan 12 09:47:08 :: Opening mother connection.
+Jan 12 09:47:08 :: Binding to all IP interfaces on this host.
+Jan 12 09:47:08 :: Boot db -- BEGIN.
+Jan 12 09:47:08 :: Resetting the game time:
+Jan 12 09:47:08 ::    Current Gametime: 12H 13D 6M 780Y.
+Jan 12 09:47:08 :: Reading news, credits, help, bground, info & motds.
+Jan 12 09:47:08 :: Loading spell definitions.
+Jan 12 09:47:08 :: Loading feats.
+Jan 12 09:47:08 :: Loading level tables.
+Jan 12 09:47:08 :: Base hit for class wizard: low
+Jan 12 09:47:08 :: Base hit for class cleric: medium
+Jan 12 09:47:08 :: Base hit for class rogue: medium
+Jan 12 09:47:08 :: Base hit for class fighter: high
+Jan 12 09:47:08 :: Base hit for class monk: medium
+Jan 12 09:47:08 :: Base hit for class paladin: high
+Jan 12 09:47:08 :: Base hit for class barbarian: high
+Jan 12 09:47:08 :: Base hit for class bard: medium
+Jan 12 09:47:08 :: Base hit for class ranger: high
+Jan 12 09:47:08 :: Base hit for class druid: medium
+Jan 12 09:47:08 :: Base hit for class expansion 1: high
+Jan 12 09:47:08 :: Base hit for class expansion 2: high
+Jan 12 09:47:08 :: Base hit for class expansion 3: high
+Jan 12 09:47:08 :: Base hit for class expansion 4: high
+Jan 12 09:47:08 :: Base hit for class expansion 5: medium
+Jan 12 09:47:08 :: Base hit for class expansion 6: medium
+Jan 12 09:47:08 :: Base hit for class expansion 7: low
+Jan 12 09:47:08 :: Base hit for class duelist: low
+Jan 12 09:47:08 :: Base hit for class expansion 8: low
+Jan 12 09:47:08 :: Base hit for class mystic theurge: low
+Jan 12 09:47:08 :: Base hit for class sorcerer: low
+Jan 12 09:47:08 :: Base hit for class classless: low
+Jan 12 09:47:08 :: Base hit for class expansion 9: low
+Jan 12 09:47:08 :: Base hit for class expansion 10: low
+Jan 12 09:47:08 :: Base hit for class dragon disciple: low
+Jan 12 09:47:08 :: Base hit for class arcane archer: low
+Jan 12 09:47:08 :: Base hit for class expansion 11: low
+Jan 12 09:47:08 :: Base hit for class npc: low
+Jan 12 09:47:08 :: Base hit for class assassin: manual
+Jan 12 09:47:08 :: Base hit for class expansion 12: manual
+Jan 12 09:47:08 :: Base hit for class artisan: manual
+Jan 12 09:47:08 :: Base hit for class arcane trickster: manual
+Jan 12 09:47:08 :: Base hit for class expansion 13: manual
+Jan 12 09:47:08 :: Base hit for class eldritch knight: manual
+Jan 12 09:47:08 :: Base hit for class expansion 14: manual
+Jan 12 09:47:08 :: Base hit for class expansion 15: manual
+Jan 12 09:47:08 :: Base hit for class expansion 16: manual
+Jan 12 09:47:08 :: Base hit for class expansion 17: manual
+Jan 12 09:47:08 :: Base hit for class expansion 18: manual
+Jan 12 09:47:08 :: Base hit for class expansion 19: manual
+Jan 12 09:47:08 :: Base hit for class expansion 20: manual
+Jan 12 09:47:08 :: Base hit for class expansion 21: manual
+Jan 12 09:47:08 :: Base hit for class expansion 22: manual
+Jan 12 09:47:08 :: Base hit for class expansion 23: manual
+Jan 12 09:47:08 :: Base hit for class expansion 24: manual
+Jan 12 09:47:08 :: Base hit for class expansion 25: manual
+Jan 12 09:47:08 :: Base hit for class expansion 26: manual
+Jan 12 09:47:08 :: Base hit for class expansion 27: manual
+Jan 12 09:47:08 :: Base hit for class expansion 28: manual
+Jan 12 09:47:08 :: Base hit for class expansion 29: manual
+Jan 12 09:47:08 :: Base hit for class expansion 30: manual
+Jan 12 09:47:08 :: Base hit for class expansion 31: manual
+Jan 12 09:47:08 :: Base hit for class expansion 32: manual
+Jan 12 09:47:08 :: Base hit for class expansion 33: manual
+Jan 12 09:47:08 :: Base hit for class expansion 34: manual
+Jan 12 09:47:08 :: Base hit for class expansion 35: manual
+Jan 12 09:47:08 :: Base hit for class 
+: manual
+Jan 12 09:47:08 :: Base hit for class (null): manual
+Jan 12 09:47:08 :: Saves for class wizard: fort=low, reflex=low, will=high
+Jan 12 09:47:08 :: Saves for class cleric: fort=high, reflex=low, will=high
+Jan 12 09:47:08 :: Saves for class rogue: fort=low, reflex=high, will=low
+Jan 12 09:47:08 :: Saves for class fighter: fort=high, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class monk: fort=high, reflex=high, will=high
+Jan 12 09:47:08 :: Saves for class paladin: fort=high, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class barbarian: fort=high, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class bard: fort=low, reflex=high, will=low
+Jan 12 09:47:08 :: Saves for class ranger: fort=high, reflex=high, will=low
+Jan 12 09:47:08 :: Saves for class druid: fort=high, reflex=low, will=high
+Jan 12 09:47:08 :: Saves for class expansion 1: fort=high, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class expansion 2: fort=high, reflex=low, will=high
+Jan 12 09:47:08 :: Saves for class expansion 3: fort=high, reflex=low, will=high
+Jan 12 09:47:08 :: Saves for class expansion 4: fort=high, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class expansion 5: fort=high, reflex=low, will=high
+Jan 12 09:47:08 :: Saves for class expansion 6: fort=low, reflex=low, will=high
+Jan 12 09:47:08 :: Saves for class expansion 7: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class duelist: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class expansion 8: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class mystic theurge: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class sorcerer: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class classless: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class expansion 9: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class expansion 10: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class dragon disciple: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class arcane archer: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class expansion 11: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class npc: fort=low, reflex=low, will=low
+Jan 12 09:47:08 :: Saves for class assassin: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 12: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class artisan: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class arcane trickster: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 13: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class eldritch knight: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 14: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 15: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 16: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 17: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 18: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 19: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 20: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 21: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 22: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 23: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 24: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 25: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 26: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 27: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 28: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 29: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 30: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 31: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 32: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 33: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 34: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class expansion 35: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class 
+: fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Saves for class (null): fort=manual, reflex=manual, will=manual
+Jan 12 09:47:08 :: Loading zone table.
+Jan 12 09:47:08 ::    51 zones, 6120 bytes.
+Jan 12 09:47:08 :: Loading triggers and generating index.
+Jan 12 09:47:08 :: Loading rooms.
+Jan 12 09:47:08 ::    4882 rooms, 1015456 bytes.
+Jan 12 09:47:09 :: Renumbering rooms.
+Jan 12 09:47:09 :: Checking start rooms.
+Jan 12 09:47:09 :: Loading mobs and generating index.
+Jan 12 09:47:09 ::    566 mobs, 18112 bytes in index, 2743968 bytes in prototypes.
+Jan 12 09:47:09 :: Loading objs and generating index.
+Jan 12 09:47:09 ::    744 objs, 23808 bytes in index, 339264 bytes in prototypes.
+Jan 12 09:47:09 :: Warning: object #4025 (@WTabbard of the Faithful@n) uses deprecated saving throw applies
+Jan 12 09:47:09 :: Converted armor #4033 [Gown Of Destiny] armor=0 i=0 maxdex=100 acheck=0 sfail=0
+Jan 12 09:47:09 :: Warning: object #4403 (a dragonhide haversack) uses deprecated saving throw applies
+Jan 12 09:47:09 :: Warning: object #4404 (Mask of Darkness) uses deprecated saving throw applies
+Jan 12 09:47:09 :: Warning: object #4411 (Mantle of the Hills) uses deprecated saving throw applies
+Jan 12 09:47:09 :: Warning: object #60002 (a silver bracelet engraved with stylized falcons) uses deprecated saving throw applies
+Jan 12 09:47:09 :: Converted armor #60008 [a set of bright white monks robes embroidered with gold and silver] armor=0 i=0 maxdex=100 acheck=0 sfail=0
+Jan 12 09:47:09 :: Renumbering zone table.
+Jan 12 09:47:09 :: Loading disabled commands list...
+Jan 12 09:47:09 :: Saving converted worldfiles to disk.
+Jan 12 09:47:09 :: OasisOLC: Saving objects 'world/obj/600.obj'
+Jan 12 09:47:09 :: OasisOLC: Saving objects 'world/obj/40.obj'
+Jan 12 09:47:09 :: Loading shops.
+Jan 12 09:47:09 :: Loading quests.
+Jan 12 09:47:09 ::    92 entries, 11776 bytes.
+Jan 12 09:47:09 :: Loading guild masters.
+Jan 12 09:47:09 :: Loading Weapons.
+Jan 12 09:47:09 :: Loading Armor.
+Jan 12 09:47:09 :: Loading Races.
+Jan 12 09:47:09 :: Loading Pets.
+Jan 12 09:47:09 :: Loading Deities.
+Jan 12 09:47:09 :: Setting up fightsort_table
+Jan 12 09:47:09 :: Placing Harvesting Nodes
+Jan 12 09:47:09 :: htree stats (global): 8826 nodes, 1270944 bytes (depth 4/5 used/possible)
+Jan 12 09:47:09 :: Loading help entries.
+Jan 12 09:47:09 ::    3554 entries, 85296 bytes.
+Jan 12 09:47:09 :: Setting up context sensitive help system for OLC
+Jan 12 09:47:09 :: Generating player index.
+Jan 12 09:47:09 :: Loading fight messages.
+Jan 12 09:47:09 :: Loading social messages.
+Jan 12 09:47:09 :: Social table contains 368 socials.
+Jan 12 09:47:09 :: Building command list.
+Jan 12 09:47:09 :: Command info rebuilt, 916 total commands.
+Jan 12 09:47:09 :: Assigning function pointers:
+Jan 12 09:47:09 ::    Mobiles.
+Jan 12 09:47:09 ::    Shopkeepers.
+Jan 12 09:47:09 ::    Objects.
+Jan 12 09:47:09 ::    Rooms.
+Jan 12 09:47:09 ::    Guildmasters.
+Jan 12 09:47:09 ::    Questmasters.
+Jan 12 09:47:09 :: SYSERR: Quest #3500 has no questmaster specified.
+Jan 12 09:47:09 :: SYSERR: Quest #4503 has no questmaster specified.
+Jan 12 09:47:09 :: Init Object Unique Hash
+Jan 12 09:47:09 :: Booting assembled objects.
+Jan 12 09:47:09 :: Assigning skill levels.
+Jan 12 09:47:09 :: Assigning race skill classes.
+Jan 12 09:47:09 :: Sorting command list and spells.
+Jan 12 09:47:09 :: Booting mail system.
+Jan 12 09:47:09 ::    58640000 bytes read.
+Jan 12 09:47:09 ::    Mail file read -- 5291 messages.
+Jan 12 09:47:09 :: Booting boards system.
+Jan 12 09:47:09 :: There are 7 boards located; 0 messages
+Jan 12 09:47:09 :: Reading banned site and invalid-name list.
+Jan 12 09:47:09 :: Booting houses.
+Jan 12 09:47:09 :: Loading clans.
+Jan 12 09:47:09 :: Loading polls.
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 0 OPTION 1
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '0' AND  `option` = '1'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 1
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '1'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 2
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '2'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 3
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '3'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 4
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '4'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 5
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '5'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 6
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '6'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 7
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '7'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 1
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '1'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 2
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '2'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 3
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '3'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 4
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '4'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 5
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '5'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 6
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '6'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 7
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '7'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 8
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '8'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 9
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '9'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 1
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '1'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 2
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '2'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 3
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '3'
+Jan 12 09:47:09 :: Cannot connect to mysql database in add poll option.
+Jan 12 09:47:09 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 4
+Jan 12 09:47:09 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '4'
+Jan 12 09:47:09 :: Resetting #0: Limbo (rooms 0-99).
+Jan 12 09:47:09 :: Resetting #1: CODE RESERVED VNUMS DON'T EDIT (rooms 100-199).
+Jan 12 09:47:09 :: Resetting #2: CODE RESERVED VNUMS DON'T EDIT (rooms 200-299).
+Jan 12 09:47:09 :: Resetting #6: Crypt of Shadow I (rooms 600-699).
+Jan 12 09:47:09 :: Resetting #9: Training Pits (Luskan) (rooms 900-999).
+Jan 12 09:47:09 :: Resetting #10: The Trading Post (rooms 1000-1099).
+Jan 12 09:47:09 :: Resetting #12: Earth Cultists (rooms 1200-1299).
+Jan 12 09:47:09 :: Resetting #14: Orc Camp - Spine of the World (rooms 1400-1499).
+Jan 12 09:47:09 :: Resetting #15: Fireside Tavern and Gnoll Caverns (rooms 1500-1599).
+Jan 12 09:47:09 :: Resetting #22: Flaming Hand Mercenary Camp (rooms 2200-2299).
+Jan 12 09:47:09 :: Resetting #23: Tainted Druids (Solace) (rooms 2300-2399).
+Jan 12 09:47:09 :: Resetting #26: Luskan Buildings (rooms 2600-2699).
+Jan 12 09:47:09 :: Resetting #27: Immortals Rooms (rooms 2700-2799).
+Jan 12 09:47:09 :: Resetting #28: Dragon's Lair (rooms 2800-2999).
+Jan 12 09:47:09 :: Resetting #30: Luksan (rooms 3000-3299).
+Jan 12 09:47:09 :: Resetting #33: Mud School (rooms 3300-3399).
+Jan 12 09:47:09 :: Resetting #34: D20 School (rooms 3400-3499).
+Jan 12 09:47:09 :: Resetting #35: Luskan Sewers (rooms 3500-3599).
+Jan 12 09:47:09 :: Resetting #36: Ruins of Illusk (rooms 3600-3799).
+Jan 12 09:47:09 :: Resetting #38: Cavern of the fire giants (rooms 3800-3899).
+Jan 12 09:47:09 :: Resetting #40: Neverwinter (rooms 4000-4399).
+Jan 12 09:47:09 :: Resetting #44: Talos`s Zone (rooms 4400-4499).
+Jan 12 09:47:09 :: Resetting #45: Hunters Forest (rooms 4500-4599).
+Jan 12 09:47:09 :: Resetting #46: Moorwaine Swamp (rooms 4600-4699).
+Jan 12 09:47:09 :: Resetting #47: lower crypt (rooms 4700-4799).
+Jan 12 09:47:09 :: Resetting #48: Mirabar (rooms 4800-4998).
+Jan 12 09:47:09 :: Resetting #49: Mirabar 2 (rooms 4999-4999).
+Jan 12 09:47:09 :: Resetting #51: Mere of Dead Men (rooms 5100-5199).
+Jan 12 09:47:09 :: Resetting #52: Gauntlgrym (rooms 5200-5399).
+Jan 12 09:47:09 :: Resetting #60: New Zone (rooms 6000-6399).
+Jan 12 09:47:09 :: Resetting #100: Chult (rooms 10000-10199).
+Jan 12 09:47:09 :: Resetting #102: Dwarven Stronghold (rooms 10200-10399).
+Jan 12 09:47:09 :: Resetting #104: Mezro (rooms 10400-10599).
+Jan 12 09:47:09 :: Resetting #106: Ubtao's Temple (rooms 10600-10799).
+Jan 12 09:47:09 :: Resetting #108: Chult (rooms 10800-10999).
+Jan 12 09:47:09 :: Resetting #110: Under the mines of Mirabar (rooms 11000-11099).
+Jan 12 09:47:09 :: Resetting #120: Undermountain Level I (rooms 12000-12199).
+Jan 12 09:47:09 :: Resetting #300: Stock Objects and Mobs I (rooms 30000-30099).
+Jan 12 09:47:09 :: Resetting #301: Stock Objects and Mobs II (rooms 30100-30199).
+Jan 12 09:47:09 :: Resetting #302: Quest Rewards I (rooms 30200-30299).
+Jan 12 09:47:09 :: Resetting #500: Road-Neverwinter/Luskan (rooms 50000-50199).
+Jan 12 09:47:09 :: Resetting #502: Road-Luskan/Mirabar (rooms 50200-50499).
+Jan 12 09:47:09 :: Resetting #505: Road-Neverwinter/Waterdeep (rooms 50500-50849).
+Jan 12 09:47:09 :: Resetting #508: Road-Waterdeep/Triboar (rooms 50850-51049).
+Jan 12 09:47:09 :: Resetting #510: Road-Silverymoon/Triboar (rooms 51050-51449).
+Jan 12 09:47:09 :: Resetting #514: Road-Mirabar/Triboar (rooms 51450-51799).
+Jan 12 09:47:09 :: Resetting #596: Whack-a-Mole (rooms 59600-59699).
+Jan 12 09:47:09 :: Resetting #597: Quests (rooms 59700-59799).
+Jan 12 09:47:09 :: Resetting #598: Vehicles (rooms 59800-59899).
+Jan 12 09:47:09 :: Resetting #599: Player Housing (rooms 59900-59999).
+Jan 12 09:47:09 :: Resetting #600: Crafting Items (rooms 60000-65000).
+Jan 12 09:47:09 :: Boot db -- DONE.
+Jan 12 09:47:09 :: Signal trapping.
+Jan 12 09:47:09 :: Entering game loop.
+Jan 12 09:47:09 :: No connections.  Going to sleep.

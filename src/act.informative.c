@@ -671,79 +671,109 @@ void look_at_char(struct char_data *i, struct char_data *ch)
 
 void look_at_char_old(struct char_data *i, struct char_data *ch)
 {
-  int j, found;
-  struct obj_data *tmp_obj;
+    int j, found;
+    struct obj_data *tmp_obj;
 
-  if (!ch->desc)
-    return;
-
-    if (IS_NPC(i)) {
-      if (i->description)
-        send_to_char(ch, "%s\r\n", i->description);
-      else
-        act("You see nothing special about $m.", false, i, 0, ch, TO_VICT);
-    }
-    else {
-      if (i->player_specials->description)
-        send_to_char(ch, "%s\r\n", i->player_specials->description);
-      else
-         act("You see nothing special about $m.", false, i, 0, ch, TO_VICT);
+    if (!ch->desc)
+    {
+        return;
     }
 
-	char *tmpdesc = NULL;
-	char *tmpstr = has_intro(ch, i) ? GET_NAME(i) + 1 : (tmpdesc = which_desc(i));
-  if (GET_SEX(i) == SEX_NEUTRAL) 
-    send_to_char(ch, "%c%s appears to be %s %s.\r\n", UPPER(*tmpstr),
-								tmpstr + 1, AN(RACE(i)), RACE(i));
-  else
-    send_to_char(ch, "%c%s appears to be %s %s %s.\r\n", UPPER(*tmpstr),
-								tmpstr + 1, AN(MAFE(i)), MAFE(i), RACE(i));
-	free(tmpdesc);
+    if (IS_NPC(i)) 
+    {
+        if (i->description)
+        {
+            send_to_char(ch, "%s\r\n", i->description);
+        }
+        else
+        {
+            act("You see nothing special about $m.", false, i, 0, ch, TO_VICT);
+        }
+    }
+    else 
+    {
+        if (i->player_specials->description)
+        {
+            send_to_char(ch, "%s\r\n", i->player_specials->description);
+        }
+        else
+        {
+            act("You see nothing special about $m.", false, i, 0, ch, TO_VICT);
+        }
+    }
 
-  diag_char_to_char(i, ch);
+    char *tmpdesc = NULL;
+    char *tmpstr = has_intro(ch, i) ? GET_NAME(i) + 1 : (tmpdesc = which_desc(i));
+    if (GET_SEX(i) == SEX_NEUTRAL) 
+    {
+        send_to_char(ch, "%c%s appears to be %s %s.\r\n", UPPER(*tmpstr), tmpstr + 1, AN(RACE(i)), RACE(i));
+    }
+    else
+    {
+        send_to_char(ch, "%c%s appears to be %s %s %s.\r\n", UPPER(*tmpstr), tmpstr + 1, AN(MAFE(i)), MAFE(i), RACE(i));
+    }
+    free(tmpdesc);
 
-  found = false;
-  for (j = 0; !found && j < NUM_WEARS; j++)
-    if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j)))
-      found = true;
+    diag_char_to_char(i, ch);
 
-  if (found) {
-    send_to_char(ch, "\r\n");	/* act() does capitalization. */
-    act("$n is using:", false, i, 0, ch, TO_VICT);
-    for (j = 0; j < NUM_WEARS; j++)
-      if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
-	send_to_char(ch, "%25s ", wear_where[j]);
-	show_obj_to_char(GET_EQ(i, j), ch, SHOW_OBJ_SHORT);
-      }
-  }
-  if (ch != i && (IS_ROGUE(ch) || GET_ADMLEVEL(ch))) {
     found = false;
-    act("\r\nYou attempt to peek at $s inventory:", false, i, 0, ch, TO_VICT);
-    for (tmp_obj = i->carrying; tmp_obj; tmp_obj = tmp_obj->next_content) {
-      if (CAN_SEE_OBJ(ch, tmp_obj) &&
-          (ADM_FLAGGED(ch, ADM_SEEINV) || (rand_number(0, 20) < GET_LEVEL(ch)))) {
-	show_obj_to_char(tmp_obj, ch, SHOW_OBJ_SHORT);
-	found = true;
-      }
+    for (j = 0; !found && j < NUM_WEARS; j++)
+    {
+        if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j)))
+        {
+            found = true;
+        }
     }
 
-    if (!found)
-      send_to_char(ch, "You can't see anything.\r\n");
-  }
+    if (found) 
+    {
+        send_to_char(ch, "\r\n");	
+        /* act() does capitalization. */
+        act("$n is using:", false, i, 0, ch, TO_VICT);
+        for (j = 0; j < NUM_WEARS; j++)
+        {
+            if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) 
+            {
+                send_to_char(ch, "%25s ", wear_where[j]);
+                show_obj_to_char(GET_EQ(i, j), ch, SHOW_OBJ_SHORT);
+            }
+        }
+    }
+    if (ch != i && (IS_ROGUE(ch) || GET_ADMLEVEL(ch))) 
+    {
+        found = false;
+        act("\r\nYou attempt to peek at $s inventory:", false, i, 0, ch, TO_VICT);
+        for (tmp_obj = i->carrying; tmp_obj; tmp_obj = tmp_obj->next_content) 
+        {
+            if (CAN_SEE_OBJ(ch, tmp_obj) &&
+                (ADM_FLAGGED(ch, ADM_SEEINV) || (rand_number(0, 20) < GET_LEVEL(ch)))) 
+            {
+                show_obj_to_char(tmp_obj, ch, SHOW_OBJ_SHORT);
+                found = true;
+            }
+        }
+
+        if (!found)
+        {
+            send_to_char(ch, "You can't see anything.\r\n");
+        }
+    }
 }
 
 ACMD(do_autocon)
 {
-  if (PRF_FLAGGED(ch, PRF_AUTOCON)) {
-	  REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_AUTOCON);
-		send_to_char(ch, "Auto-consider has been turned off.\r\n");
-		return;
-	}
-	else {
-	  SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOCON);
-		send_to_char(ch, "Auto-consider has been turned on.\r\n");
-		return;
-	}
+    if (PRF_FLAGGED(ch, PRF_AUTOCON)) 
+    {
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_AUTOCON);
+        send_to_char(ch, "Auto-consider has been turned off.\r\n");
+        return;
+    }
+    else 
+    {
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOCON);
+        send_to_char(ch, "Auto-consider has been turned on.\r\n");
+        return;
+    }
 }
 
 void list_one_char(struct char_data *i, struct char_data *ch)
@@ -941,14 +971,20 @@ void list_one_char(struct char_data *i, struct char_data *ch)
       send_to_char(ch, " (@bBlue@[3] Aura)");
   }
   if (!IS_NPC(i) && PRF_FLAGGED(i, PRF_PVP))
-    send_to_char(ch, "@n(@GPvP@n) ");
+    {
+      send_to_char(ch, "@n(@GPvP@n) ");
+    }
 
   send_to_char(ch, "@n\r\n");
 
   if (AFF_FLAGGED(i, AFF_SANCTUARY))
-    act("@[3]...$e glows with a bright light!@n", false, i, 0, ch, TO_VICT);
+    {
+      act("@[3]...$e glows with a bright light!@n", false, i, 0, ch, TO_VICT);
+    }
   if (affected_by_spell(i, SPELL_FAERIE_FIRE))
-    act("@[3]..$e is outlined with purple fire!@n", false, i, 0, ch, TO_VICT);
+    {
+      act("@[3]..$e is outlined with purple fire!@n", false, i, 0, ch, TO_VICT);
+    }
 
     if (!IS_NPC(i) && i->player_specials->summon_num > 0) {
       if (i->player_specials->mounted == MOUNT_SUMMON)
@@ -1641,73 +1677,105 @@ void look_at_target(struct char_data *ch, char *arg, int read)
 
 void look_out_window(struct char_data *ch, char *arg)
 {
-  struct obj_data *i, *viewport = NULL, *vehicle = NULL;
-  struct char_data *dummy = NULL;
-  room_rnum target_room = NOWHERE;
-  int bits, door;
+    struct obj_data *i, *viewport = NULL, *vehicle = NULL;
+    struct char_data *dummy = NULL;
+    room_rnum target_room = NOWHERE;
+    int bits, door;
 
-  /* First, lets find something to look out of or through. */
-  if (*arg) {
-    /* Find this object and see if it is a window */
-    if (!(bits = generic_find(arg,
-              FIND_OBJ_ROOM | FIND_OBJ_INV | FIND_OBJ_EQUIP,
-              ch, &dummy, &viewport))) {
-      send_to_char(ch, "You don't see that here.\r\n");
-      return;
-    } else if (GET_OBJ_TYPE(viewport) != ITEM_WINDOW) {
-      send_to_char(ch, "You can't look out that!\r\n");
-    return;
-  }
-  } else if (OUTSIDE(ch)) {
-      /* yeah, sure stupid */
-      send_to_char(ch, "But you are already outside.\r\n");
-    return;
-  } else {
-    /* Look for any old window in the room */
-    for (i = world[IN_ROOM(ch)].contents; i; i = i->next_content)
-      if ((GET_OBJ_TYPE(i) == ITEM_WINDOW) &&
-           isname("window", i->name)) {
-        viewport = i;
-      continue;
-      }
-  }
-  if (!viewport) {
-    /* Nothing suitable to look through */
-    send_to_char(ch, "You don't seem to be able to see outside.\r\n");
-  } else if (OBJVAL_FLAGGED(viewport, CONT_CLOSEABLE) &&
-             OBJVAL_FLAGGED(viewport, CONT_CLOSED)) {
-    /* The window is closed */
-    send_to_char(ch, "It is closed.\r\n");
-  } else {
-    if (GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED1) < 0) {
-      /* We are looking out of the room */
-      if (GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED4) < 0) {
-        /* Look for the default "outside" room */
-        for (door = 0; door < NUM_OF_DIRS; door++)
-          if (EXIT(ch, door))
-            if (EXIT(ch, door)->to_room != NOWHERE)
-              if (!ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_INDOORS)) {
-                target_room = EXIT(ch, door)->to_room;
+    /* First, lets find something to look out of or through. */
+    if (*arg) 
+    {
+        /* Find this object and see if it is a window */
+        if (!(bits = generic_find(arg,
+            FIND_OBJ_ROOM | FIND_OBJ_INV | FIND_OBJ_EQUIP,
+            ch, &dummy, &viewport))) 
+        {
+            send_to_char(ch, "You don't see that here.\r\n");
+            return;
+        } 
+        else if (GET_OBJ_TYPE(viewport) != ITEM_WINDOW) 
+        {
+            send_to_char(ch, "You can't look out that!\r\n");
+            return;
+        }
+    } 
+    else if (OUTSIDE(ch)) 
+    {
+        /* yeah, sure stupid */
+        send_to_char(ch, "But you are already outside.\r\n");
+        return;
+    } 
+    else 
+    {
+        /* Look for any old window in the room */
+        for (i = world[IN_ROOM(ch)].contents; i; i = i->next_content)
+        {
+            if ((GET_OBJ_TYPE(i) == ITEM_WINDOW) &&
+                isname("window", i->name)) 
+            {
+                viewport = i;
                 continue;
-              }
-      } else {
-        target_room = real_room(GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED4));
-      }
-    } else {
-      /* We are looking out of a vehicle */
-      if ( (vehicle = find_vehicle_by_vnum(GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED1))) );
-        target_room = IN_ROOM(vehicle);
+            }
+        }
     }
-    if (target_room == NOWHERE) {
-      send_to_char(ch, "You don't seem to be able to see outside.\r\n");
+    if (!viewport) {
+/* Nothing suitable to look through */
+        send_to_char(ch, "You don't seem to be able to see outside.\r\n");
+    } else if (OBJVAL_FLAGGED(viewport, CONT_CLOSEABLE) &&
+        OBJVAL_FLAGGED(viewport, CONT_CLOSED)) {
+/* The window is closed */
+        send_to_char(ch, "It is closed.\r\n");
     } else {
-      if (viewport->action_description)
-        act(viewport->action_description, true, ch, viewport, 0, TO_CHAR);
-      else
-        send_to_char(ch, "You look outside and see:\r\n");
-      look_at_room(target_room, ch, 0);
+        if (GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED1) < 0) 
+        {
+/* We are looking out of the room */
+            if (GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED4) < 0) 
+            {
+                {
+/* Look for the default "outside" room */
+                    for (door = 0; door < NUM_OF_DIRS; door++)
+                        if (EXIT(ch, door))
+                        {
+                            if (EXIT(ch, door)->to_room != NOWHERE)
+                            {
+                              if (!ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_INDOORS)) 
+                              {
+                                target_room = EXIT(ch, door)->to_room;
+                                continue;
+                            }
+                        }
+                    }
+                }
+            } 
+            else 
+            {
+                target_room = real_room(GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED4));
+            }
+        } 
+        else 
+        {
+            if ( (vehicle = find_vehicle_by_vnum(GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED1))) );
+            {
+                target_room = IN_ROOM(vehicle);
+            }
+        }
+        if (target_room == NOWHERE) 
+        {
+            send_to_char(ch, "You don't seem to be able to see outside.\r\n");
+        } 
+        else 
+        {
+            if (viewport->action_description)
+            {
+                act(viewport->action_description, true, ch, viewport, 0, TO_CHAR);
+            }
+            else
+            {
+                send_to_char(ch, "You look outside and see:\r\n");
+            }
+            look_at_room(target_room, ch, 0);
+        }
     }
-  }
 }
 
 ACMD(do_look)
@@ -2221,7 +2289,8 @@ if (ch->mentor_level > 0) {
   send_to_char(rec, "\r\n");
 }
 }
-else {
+else 
+{
   send_to_char(rec, "\r\n");
   send_to_char(rec, "You are @Y%s@n.\r\n", GET_TITLE(ch));
   send_to_char(rec, "@Y%s@n is a level @Y%d@n %s@n\r\n", GET_NAME(ch), GET_CLASS_LEVEL(ch), class_desc_str(ch, 2, 0));
@@ -2229,9 +2298,13 @@ else {
   send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum health points.\r\n", GET_HIT(ch), GET_MAX_HIT(ch));
   send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum stamina points.\r\n", GET_MOVE(ch), GET_MAX_MOVE(ch));
 if (GET_MAX_MANA(ch) > 0)
-  send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum metamagic points.\r\n", GET_MANA(ch), GET_MAX_MANA(ch));
+  {
+    send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum metamagic points.\r\n", GET_MANA(ch), GET_MAX_MANA(ch));
+  }
 if (GET_MAX_KI(rec) > 0 && GET_CLASS_RANKS(ch, CLASS_MONK) > 0)
-  send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum ki points.\r\n", GET_KI(ch), GET_MAX_KI(ch));
+  {
+    send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum ki points.\r\n", GET_KI(ch), GET_MAX_KI(ch));
+  }
   send_to_char(rec, "Your alignment is @Y%s@n.\r\n", alignments[ALIGN_TYPE(ch)]);
   if (GET_SUBGUILD(ch) == GUILD_OPERATIVES)
     send_to_char(rec, "Your false alignment is @Y%s@n.\r\n", alignments[FALSE_ALIGN_TYPE(ch)]);
@@ -2387,21 +2460,30 @@ ACMD(do_old_score)
   if (GET_RESEARCH_TOKENS(ch))
   	send_to_char(ch, "@rSpell Research Tokens: @y%d@n\r\n", GET_RESEARCH_TOKENS(ch));
 
-  if (ch->hit_breakdown[0] || ch->hit_breakdown[1]) {
+  if (ch->hit_breakdown[0] || ch->hit_breakdown[1]) 
+  {
     send_to_char(ch, "@rBreakdown of your last attack@n:\r\n");
     if (ch->hit_breakdown[0] && ch->hit_breakdown[0][0] && ch->dam_breakdown[0])
-      send_to_char(ch, "@rPrimary attack@n: @y%s.@n", ch->hit_breakdown[0]);
+      {
+        send_to_char(ch, "@rPrimary attack@n: @y%s.@n", ch->hit_breakdown[0]);
+      }
       if (ch->dam_breakdown[0])
-        send_to_char(ch, "@y dam %s %s@n\r\n", ch->dam_breakdown[0],
-                     ch->crit_breakdown[0] ? ch->crit_breakdown[0] : "");
+        {
+          send_to_char(ch, "@y dam %s %s@n\r\n", ch->dam_breakdown[0], ch->crit_breakdown[0] ? ch->crit_breakdown[0] : "");
+        }
       else
-        send_to_char(ch, "\r\n");
+        {
+          send_to_char(ch, "\r\n");
+        }
       send_to_char(ch, "@rOffhand attack@n: @y%s.@n", ch->hit_breakdown[1]);
       if (ch->dam_breakdown[1])
-        send_to_char(ch, "@y dam %s %s@n\r\n", ch->dam_breakdown[1],
-                     ch->crit_breakdown[1] ? ch->crit_breakdown[1] : "");
+        {
+          send_to_char(ch, "@y dam %s %s@n\r\n", ch->dam_breakdown[1], ch->crit_breakdown[1] ? ch->crit_breakdown[1] : "");
+        }
       else
-        send_to_char(ch, "\r\n");
+        {
+          send_to_char(ch, "\r\n");
+        }
   }
   if (IS_ARCANE(ch) && GET_SPELLFAIL(ch))
     send_to_char(ch, "Your armor causes %d%% failure in arcane spells with somatic components.\r\n", GET_SPELLFAIL(ch));
@@ -5582,4 +5664,3 @@ ACMD (do_show_combat)
     send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Reflex", ref_class, ability_mod_value(GET_DEX(ch)), ref_feat_mod, ref_magic, ref_misc, get_saving_throw_value(ch, SAVING_REFLEX) );
     send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Will", will_class, ability_mod_value(GET_WIS(ch)), will_feat_mod, will_magic, will_misc, get_saving_throw_value(ch, SAVING_WILL) );
 }
-

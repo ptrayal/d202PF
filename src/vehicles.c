@@ -114,28 +114,33 @@ struct obj_data *find_control(struct char_data *ch)
 /* Drive our vehicle out of another vehicle */
 void drive_outof_vehicle(struct char_data *ch, struct obj_data *vehicle)
 {
-  struct obj_data *hatch, *vehicle_in_out;
-  char   buf[MAX_INPUT_LENGTH]={'\0'};
+    struct obj_data *hatch, *vehicle_in_out;
+    char   buf[MAX_INPUT_LENGTH]={'\0'};
 
-  if ( !(hatch = get_obj_in_list_type(ITEM_HATCH,world[IN_ROOM(vehicle)].contents)) ) {
-    send_to_char(ch, "Nowhere to drive out of.\r\n");
-  } else if (!(vehicle_in_out = find_vehicle_by_vnum(GET_OBJ_VAL(hatch, 0)))) {
-    send_to_char(ch, "You can't drive out anywhere!\r\n");
-  } else {
-        sprintf(buf, "%s exits %s.\r\n", vehicle->short_description, 
-         vehicle_in_out->short_description);
+    if ( !(hatch = get_obj_in_list_type(ITEM_HATCH,world[IN_ROOM(vehicle)].contents)) ) 
+    {
+        send_to_char(ch, "Nowhere to drive out of.\r\n");
+    } 
+    else if (!(vehicle_in_out = find_vehicle_by_vnum(GET_OBJ_VAL(hatch, 0)))) 
+    {
+        send_to_char(ch, "You can't drive out anywhere!\r\n");
+    } 
+    else 
+    {
+        sprintf(buf, "%s exits %s.\r\n", vehicle->short_description, vehicle_in_out->short_description);
         send_to_room(IN_ROOM(vehicle), buf);
-		
+
         obj_from_room(vehicle);
         obj_to_room(vehicle, IN_ROOM(vehicle_in_out));
-		
+
         if (ch->desc != NULL)
-          look_at_room(IN_ROOM(vehicle), ch, 0);
-		
-        sprintf(buf, "%s drives out of %s.\r\n", vehicle->short_description,
-         vehicle_in_out->short_description);
+        {
+            look_at_room(IN_ROOM(vehicle), ch, 0);
+        }
+
+        sprintf(buf, "%s drives out of %s.\r\n", vehicle->short_description,vehicle_in_out->short_description);
         send_to_room(IN_ROOM(vehicle), buf);
-  }
+    }
 }
 
 /* Drive out vehicle in a certain direction */

@@ -23,8 +23,8 @@ int htree_depth_used = 0;
 
 void htree_shutdown()
 {
-  free(HTREE_NULL);
-  HTREE_NULL = NULL;
+    free(HTREE_NULL);
+    HTREE_NULL = NULL;
 }
 
 struct htree_node *htree_init()

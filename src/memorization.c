@@ -73,172 +73,178 @@ void displayslotnum(struct char_data *ch, int class);
 
 void do_mem_display(struct char_data *ch)
 {
-  int memcursor = 0;
-  int class = 0;
-  int spellmem = 0;
-  int speedfx, count, i, sortpos, len;
-  struct memorize_node *mem = NULL;
-  char buf[MAX_STRING_LENGTH]={'\0'};
+    int memcursor = 0;
+    int class = 0;
+    int spellmem = 0;
+    int speedfx, count, i, sortpos, len;
+    struct memorize_node *mem = NULL;
+    char buf[MAX_STRING_LENGTH]={'\0'};
 
-  switch (GET_MEM_TYPE(ch)) {
-  case MEM_TYPE_MAGE:
-    class = CLASS_WIZARD;
-    memcursor = GET_MEMCURSOR(ch);
-    break;
-  case MEM_TYPE_CLERIC:
-    class = CLASS_CLERIC;
-    memcursor = GET_MEMCURSOR_C(ch);
-    break;
-  case MEM_TYPE_PALADIN:
-    memcursor = GET_MEMCURSOR_P(ch);
-    class = CLASS_PALADIN;
-    break;
-  case MEM_TYPE_DRUID:
-    memcursor = GET_MEMCURSOR_D(ch);
-    class = CLASS_DRUID;
-    break;
-  case MEM_TYPE_RANGER:
-    memcursor = GET_MEMCURSOR_R(ch);
-    class = CLASS_RANGER;
-    break;
-  case MEM_TYPE_BARD:
-    memcursor = GET_MEMCURSOR_B(ch);
-    class = CLASS_BARD;
-    break;
-  case MEM_TYPE_SORCERER:
-    class = CLASS_SORCERER;
-    break;
-  case MEM_TYPE_FAVORED_SOUL:
-    class = CLASS_FAVORED_SOUL;
-    break;
-  case MEM_TYPE_ASSASSIN:
-    class = CLASS_ASSASSIN;
-  }
-
-  if (!findslotnum(ch, 1)) {
-    snprintf(buf, MAX_STRING_LENGTH, "You do not have any spellcasting ability in the %s class.\r\n", 
-             (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[class]);
-    send_to_char(ch, buf);
-    return;
-  }
-
-  len = sprintf(buf, "@cSpells in memory:\r\n@n");
-  /* List the memorized spells
-   * Using sprintf since it will be a cold day in hell before
-   * we overflow the buffer here */
-  for(i = 0; i < 10; i++)
-  {    
-    if((i >= 1) && (findslotnum(ch, i) < 1))
-      break;
-    len += sprintf(buf+len,
-             "@c---@wLevel @R%d @wSpells@c---=============================@c---@w[@R%d @yslots@w]@c---@n\r\n",
-             i, findslotnum(ch, i));
-    count = 0;
-    for(sortpos = 0; sortpos < memcursor; sortpos++)
+    switch (GET_MEM_TYPE(ch)) 
     {
-      if (len >= MAX_STRING_LENGTH - 128) 
-      {
-	    strcat(buf, "**OVERFLOW**\r\n");
-	    break;
-      }
-
-      spellmem = 0;
-
-      switch (GET_MEM_TYPE(ch)) {
         case MEM_TYPE_MAGE:
-          spellmem = GET_SPELLMEM(ch, sortpos);
-          break;   
+        class = CLASS_WIZARD;
+        memcursor = GET_MEMCURSOR(ch);
+        break;
         case MEM_TYPE_CLERIC:
-          spellmem = GET_SPELLMEM_C(ch, sortpos);
-          break;   
+        class = CLASS_CLERIC;
+        memcursor = GET_MEMCURSOR_C(ch);
+        break;
         case MEM_TYPE_PALADIN:
-          spellmem = GET_SPELLMEM_P(ch, sortpos);
-          break;   
+        memcursor = GET_MEMCURSOR_P(ch);
+        class = CLASS_PALADIN;
+        break;
         case MEM_TYPE_DRUID:
-          spellmem = GET_SPELLMEM_D(ch, sortpos);
-          break;   
+        memcursor = GET_MEMCURSOR_D(ch);
+        class = CLASS_DRUID;
+        break;
         case MEM_TYPE_RANGER:
-          spellmem = GET_SPELLMEM_R(ch, sortpos);
-          break;   
+        memcursor = GET_MEMCURSOR_R(ch);
+        class = CLASS_RANGER;
+        break;
         case MEM_TYPE_BARD:
-          spellmem = GET_SPELLMEM_B(ch, sortpos);
-          break;   
-      }
+        memcursor = GET_MEMCURSOR_B(ch);
+        class = CLASS_BARD;
+        break;
+        case MEM_TYPE_SORCERER:
+        class = CLASS_SORCERER;
+        break;
+        case MEM_TYPE_FAVORED_SOUL:
+        class = CLASS_FAVORED_SOUL;
+        break;
+        case MEM_TYPE_ASSASSIN:
+        class = CLASS_ASSASSIN;
+    }
 
-      if ((spellmem != 0) && (spell_info[spellmem].class_level[class] == i))
-      {
-        count++;
-	     len += sprintf(buf+len, "@y%-22.22s@n", spell_info[spellmem].name);         
-	     if(count%3 == 0) {
-	       strcat(buf, "\r\n");
-          len += 2;
+    if (!findslotnum(ch, 1)) 
+    {
+        snprintf(buf, MAX_STRING_LENGTH, "You do not have any spellcasting ability in the %s class.\r\n", 
+            (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[class]);
+        send_to_char(ch, buf);
+        return;
+    }
+
+    len = sprintf(buf, "@cSpells in memory:\r\n@n");
+/* List the memorized spells
+* Using sprintf since it will be a cold day in hell before
+* we overflow the buffer here */
+    for(i = 0; i < 10; i++)
+    {    
+        if((i >= 1) && (findslotnum(ch, i) < 1))
+            break;
+        len += sprintf(buf+len,
+            "@c---@wLevel @R%d @wSpells@c---=============================@c---@w[@R%d @yslots@w]@c---@n\r\n",
+            i, findslotnum(ch, i));
+        count = 0;
+        for(sortpos = 0; sortpos < memcursor; sortpos++)
+        {
+            if (len >= MAX_STRING_LENGTH - 128) 
+            {
+                strcat(buf, "**OVERFLOW**\r\n");
+                break;
+            }
+
+            spellmem = 0;
+
+            switch (GET_MEM_TYPE(ch)) {
+                case MEM_TYPE_MAGE:
+                spellmem = GET_SPELLMEM(ch, sortpos);
+                break;   
+                case MEM_TYPE_CLERIC:
+                spellmem = GET_SPELLMEM_C(ch, sortpos);
+                break;   
+                case MEM_TYPE_PALADIN:
+                spellmem = GET_SPELLMEM_P(ch, sortpos);
+                break;   
+                case MEM_TYPE_DRUID:
+                spellmem = GET_SPELLMEM_D(ch, sortpos);
+                break;   
+                case MEM_TYPE_RANGER:
+                spellmem = GET_SPELLMEM_R(ch, sortpos);
+                break;   
+                case MEM_TYPE_BARD:
+                spellmem = GET_SPELLMEM_B(ch, sortpos);
+                break;   
+            }
+
+            if ((spellmem != 0) && (spell_info[spellmem].class_level[class] == i))
+            {
+                count++;
+                len += sprintf(buf+len, "@y%-22.22s@n", spell_info[spellmem].name);         
+                if(count%3 == 0) {
+                    strcat(buf, "\r\n");
+                    len += 2;
+                }
+            }
         }
-      }
+        if(count%3 != 0) 
+        {
+            strcat(buf, "\r\n");
+            len += 2;
+        }
+        len += sprintf(buf+len, "@w(@r%d@y/@r%d@w)@n\r\n", class == CLASS_BARD ? GET_BARD_SPELLS(ch, i) : 
+            (class == CLASS_SORCERER ? GET_SORCERER_SPELLS(ch, i) : (class == CLASS_ASSASSIN ? GET_ASSASSIN_SPELLS(ch, i) : 
+                (class == CLASS_FAVORED_SOUL ? GET_FAVORED_SOUL_SPELLS(ch, i) : count))), 
+            findslotnum(ch, i));
+    }		
+
+/* here, list of spells being memorized and time till */
+/* memorization complete                              */ 
+    speedfx = find_memspeed(ch, TRUE);
+
+    len += sprintf(buf+len, "@c----------------------------------------------------------------@n\r\n");
+    len += sprintf(buf+len, "@cSpells being memorized:@n\r\n");
+    count = 0;
+
+    switch (GET_MEM_TYPE(ch)) 
+    {
+        case MEM_TYPE_MAGE:
+        mem = ch->memorized;
+        break;
+        case MEM_TYPE_CLERIC:
+        mem = ch->memorized_c;
+        break;
+        case MEM_TYPE_PALADIN:
+        mem = ch->memorized_p;
+        break;
+        case MEM_TYPE_DRUID:
+        mem = ch->player_specials->memorized_d;
+        break;
+        case MEM_TYPE_RANGER:
+        mem = ch->player_specials->memorized_r;
+        break;
+        case MEM_TYPE_BARD:
+        mem = ch->player_specials->memorized_b;
+        break;
+        default:
+        mem = ch->memorized;
+        break;
     }
-    if(count%3 != 0) {
-      strcat(buf, "\r\n");
-      len += 2;
+
+
+    for (mem = mem; mem; mem = mem->next) 
+    {
+        len += sprintf(buf+len, "@y%-20.20s@w(@r%2d rounds@w)@n ",
+            spell_info[mem->spell].name, 
+            (mem->timer/speedfx) + ((mem->timer%speedfx) != 0));
+        count++;
+        if (count%2 == 0) {
+            strcat(buf, "\r\n");
+            len += 2;
+        }
     }
-    len += sprintf(buf+len, "@w(@r%d@y/@r%d@w)@n\r\n", class == CLASS_BARD ? GET_BARD_SPELLS(ch, i) : 
-      (class == CLASS_SORCERER ? GET_SORCERER_SPELLS(ch, i) : (class == CLASS_ASSASSIN ? GET_ASSASSIN_SPELLS(ch, i) : 
-      (class == CLASS_FAVORED_SOUL ? GET_FAVORED_SOUL_SPELLS(ch, i) : count))), 
-      findslotnum(ch, i));
-  }		
-
-  /* here, list of spells being memorized and time till */
-  /* memorization complete                              */ 
-  speedfx = find_memspeed(ch, TRUE);
-
-  len += sprintf(buf+len, "@c----------------------------------------------------------------@n\r\n");
-  len += sprintf(buf+len, "@cSpells being memorized:@n\r\n");
-  count = 0;
-
-  switch (GET_MEM_TYPE(ch)) {
-    case MEM_TYPE_MAGE:
-      mem = ch->memorized;
-      break;
-    case MEM_TYPE_CLERIC:
-      mem = ch->memorized_c;
-      break;
-    case MEM_TYPE_PALADIN:
-      mem = ch->memorized_p;
-      break;
-    case MEM_TYPE_DRUID:
-      mem = ch->player_specials->memorized_d;
-      break;
-    case MEM_TYPE_RANGER:
-      mem = ch->player_specials->memorized_r;
-      break;
-    case MEM_TYPE_BARD:
-      mem = ch->player_specials->memorized_b;
-      break;
-    default:
-      mem = ch->memorized;
-      break;
-  }
-
-  
-  for (mem = mem; mem; mem = mem->next) {
-    len += sprintf(buf+len, "@y%-20.20s@w(@r%2d rounds@w)@n ",
-                   spell_info[mem->spell].name, 
-                   (mem->timer/speedfx) + ((mem->timer%speedfx) != 0));
-    count++;
-	 if (count%2 == 0) {
-      strcat(buf, "\r\n");
-      len += 2;
+    if(count%2 != 0) 
+    {
+        strcat(buf, "\r\n");
+        len += 2;
     }
-  }
-  if(count%2 != 0) {
-    strcat(buf, "\r\n");
-    len += 2;
-  }
-  if(count == 0)
-    len += sprintf(buf + len, "@w(@rNone@w)@n\r\n");
+    if(count == 0)
+        len += sprintf(buf + len, "@w(@rNone@w)@n\r\n");
 
-  if (HAS_FEAT(ch, FEAT_EPIC_SPELLCASTING))
-      sprintf(buf+len, "Epic Spells: [%d/%d]\r\n", GET_EPIC_SPELLS(ch), get_skill_value(ch, SKILL_KNOWLEDGE) / 10);
+    if (HAS_FEAT(ch, FEAT_EPIC_SPELLCASTING))
+        sprintf(buf+len, "Epic Spells: [%d/%d]\r\n", GET_EPIC_SPELLS(ch), get_skill_value(ch, SKILL_KNOWLEDGE) / 10);
 
-  page_string(ch->desc, buf, 1);
+    page_string(ch->desc, buf, 1);
 }
 
 
@@ -262,30 +268,46 @@ void do_mem_display(struct char_data *ch)
 ******************************************************************************/
 int find_memspeed(struct char_data *ch, bool display)
 {
-  int speedfx = 0; 
+    int speedfx = 0; 
 
-  if (GET_POS(ch) < POS_RESTING || GET_POS(ch) == POS_FIGHTING) {
-    if(display)
-      return 1;
-    return speedfx;
-  } else {
-    if ((GET_POS(ch) == POS_RESTING) || (GET_POS(ch) == POS_SITTING))
-      speedfx = 15;
-      speedfx += HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION) * 3;
-    if (GET_POS(ch) == POS_STANDING)
-      speedfx = 2;
-      speedfx += HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION);
-    if (GET_COND(ch, DRUNK) > 10)
-      speedfx = speedfx - 1;
-    if (GET_COND(ch, FULL) == 0)
-      speedfx = speedfx - 1;
-    if (GET_COND(ch, THIRST) == 0)
-      speedfx = speedfx - 1;
-    speedfx = MAX(speedfx, 0);
-    if(display)
-      speedfx = MAX(speedfx, 1);
-    return speedfx;
-  }
+    if (GET_POS(ch) < POS_RESTING || GET_POS(ch) == POS_FIGHTING) {
+        if(display)
+        {
+            return 1;
+        }
+        return speedfx;
+    } 
+    else 
+    {
+        if ((GET_POS(ch) == POS_RESTING) || (GET_POS(ch) == POS_SITTING))
+        {
+            speedfx = 15;
+        }
+        speedfx += HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION) * 3;
+        if (GET_POS(ch) == POS_STANDING)
+        {
+            speedfx = 2;
+        }
+        speedfx += HAS_FEAT(ch, FEAT_FASTER_MEMORIZATION);
+        if (GET_COND(ch, DRUNK) > 10)
+        {
+            speedfx = speedfx - 1;
+        }
+        if (GET_COND(ch, FULL) == 0)
+        {
+            speedfx = speedfx - 1;
+        }
+        if (GET_COND(ch, THIRST) == 0)
+        {
+            speedfx = speedfx - 1;
+        }
+        speedfx = MAX(speedfx, 0);
+        if(display)
+        {
+            speedfx = MAX(speedfx, 1);
+        }
+        return speedfx;
+    }
 }
 
 /********************************************/
@@ -1834,34 +1856,42 @@ int findslotnum(struct char_data *ch, int spelllvl)
 
 void displayslotnum(struct char_data *ch, int class)
 {
-  char buf[MAX_INPUT_LENGTH]={'\0'};
-  char slot_buf[MAX_STRING_LENGTH * 10]={'\0'};
-  int i, j, tmp;
+    char buf[MAX_INPUT_LENGTH]={'\0'};
+    char slot_buf[MAX_STRING_LENGTH * 10]={'\0'};
+    int i, j, tmp = 0;
 
-  snprintf(slot_buf, sizeof(slot_buf), "test\r\n");
+    snprintf(slot_buf, sizeof(slot_buf), "test\r\n");
 
-  for(class = 0; class < NUM_CLASSES; class++) {
-    snprintf(buf, sizeof(buf), "\r\n/* %s */\r\n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[class]);
-    strcat(slot_buf, buf);
-    for(i = 0; i < LVL_EPICSTART; i++) {
-      strcat(slot_buf, "  { ");
-      for(j = 0; j < MAX_SPELL_LEVEL; j++) {
-        tmp = spell_lvlmax(class, i, j);
-        if (tmp > -1)
-          snprintf(buf, sizeof(buf), " %d%s ", tmp, (j==(MAX_SPELL_LEVEL - 1)) ? "" : ",");
-        else
-          snprintf(buf, sizeof(buf), " -%s ", (j==(MAX_SPELL_LEVEL - 1)) ? "" : ",");
+    for(class = 0; class < NUM_CLASSES; class++) 
+    {
+        snprintf(buf, sizeof(buf), "\r\n/* %s */\r\n\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[class]);
         strcat(slot_buf, buf);
-      }
-      strcat(slot_buf, " },");
-      if (!(i % 5)) {
-        snprintf(buf, sizeof(buf), " /* lvl %d */", i);
-        strcat(slot_buf, buf);
-      }
-      strcat(slot_buf, "\r\n");
+        for(i = 0; i < LVL_EPICSTART; i++) 
+        {
+            strcat(slot_buf, "  { ");
+            for(j = 0; j < MAX_SPELL_LEVEL; j++) 
+            {
+                tmp = spell_lvlmax(class, i, j);
+                if (tmp > -1)
+                {
+                    snprintf(buf, sizeof(buf), " %d%s ", tmp, (j==(MAX_SPELL_LEVEL - 1)) ? "" : ",");
+                }
+                else
+                {
+                    snprintf(buf, sizeof(buf), " -%s ", (j==(MAX_SPELL_LEVEL - 1)) ? "" : ",");
+                }
+                strcat(slot_buf, buf);
+            }
+            strcat(slot_buf, " },");
+            if (!(i % 5)) 
+            {
+                snprintf(buf, sizeof(buf), " /* lvl %d */", i);
+                strcat(slot_buf, buf);
+            }
+            strcat(slot_buf, "\r\n");
+        }
     }
-  }
-  page_string(ch->desc, slot_buf, 1);
+    page_string(ch->desc, slot_buf, 1);
 }
 
 ACMD(do_scribe)
@@ -1914,8 +1944,12 @@ ACMD(do_scribe)
       memset((char *) obj->sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
     }
     for (i=0; i < SPELLBOOK_SIZE; i++)
-      if (obj->sbinfo[i].spellname == 0)
-        break;
+      {
+        if (obj->sbinfo[i].spellname == 0)
+              {
+                break;
+              }
+      }
 
 	if (i == SPELLBOOK_SIZE) {
       send_to_char(ch, "Your spellbook is full!\r\n");
@@ -1955,7 +1989,8 @@ ACMD(do_scribe)
   }
 }
 
-int bard_spells_known_table[21][10] = {
+int bard_spells_known_table[21][10] = 
+{
   {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }, /* lvl 0  */
   { 4, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
   { 5,  2, -1, -1, -1, -1, -1, -1, -1, -1 },
@@ -1979,7 +2014,8 @@ int bard_spells_known_table[21][10] = {
   { 6,  5,  5,  5,  5,  5,  4, -1, -1, -1 } // lvl 20
 };
 
-int assassin_spells_known_table[21][10] = {
+int assassin_spells_known_table[21][10] = 
+{
   {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }, /* lvl 0  */
   {-1,  2, -1, -1, -1, -1, -1, -1, -1, -1 },
   {-1,  3, -1, -1, -1, -1, -1, -1, -1, -1 },
@@ -2003,7 +2039,8 @@ int assassin_spells_known_table[21][10] = {
   {-1,  4,  4,  4,  4, -1, -1, -1, -1, -1 } // lvl 20
 };
 
-int assassin_spells_per_day[21][10] = {
+int assassin_spells_per_day[21][10] = 
+{
   {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }, /* lvl 0  */
   {-1,  0, -1, -1, -1, -1, -1, -1, -1, -1 },
   {-1,  1, -1, -1, -1, -1, -1, -1, -1, -1 },
@@ -2028,7 +2065,8 @@ int assassin_spells_per_day[21][10] = {
 };
 
 
-int sorcerer_spells_known[22][10] = {
+int sorcerer_spells_known[22][10] = 
+{
   {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }, /* lvl 0  */
   { 4,  3, -1, -1, -1, -1, -1, -1, -1, -1 },
   { 5,  3, -1, -1, -1, -1, -1, -1, -1, -1 },

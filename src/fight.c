@@ -291,9 +291,6 @@ int compute_armor_class(struct char_data *ch, struct char_data *att) {
   if (FIGHTING(ch) && ch->smiting && FIGHTING(ch) == ch->smiting)
     armorclass += ability_mod_value(GET_CHA(ch)) * 10;
 
-  if (HAS_FEAT(ch, FEAT_ARMOR_SKIN))
-    armorclass += 10 * HAS_FEAT(ch, FEAT_ARMOR_SKIN);
-
   if (shield && affected_by_spell(ch, SPELL_MAGIC_VESTMENT)) {
     for (af = ch->affected; af; af = af->next)
       if (af->type == SPELL_MAGIC_VESTMENT) {
@@ -2421,8 +2418,6 @@ int compute_base_hit(struct char_data *ch, int weaponmod) {
   if (AFF_FLAGGED(ch, AFF_RAPID_SHOT) && wielded && IS_RANGED_WEAPON(wielded))
     calc_bonus -= 2;
 
-  calc_bonus += HAS_FEAT(ch, FEAT_EPIC_PROWESS);
-
   if (wielded && ((offhand && GET_OBJ_TYPE(offhand) == ITEM_WEAPON) || IS_SET(weapon_list[GET_OBJ_VAL(wielded, 0)].weaponFlags, WEAPON_FLAG_DOUBLE))) {
     if (HAS_FEAT(ch, FEAT_TWO_WEAPON_FIGHTING))
       calc_bonus -= 4;
@@ -3077,11 +3072,6 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
   else
     dam = (diceroll + calc_base_hit) >= victim_ac;
 
-  if (dice(1, 10) <= MIN(5, HAS_FEAT(victim, FEAT_SELF_CONCEALMENT))) {
-    dam = false;
-    is_crit = false;
-  }
-
   ch->att_roll = (diceroll + calc_base_hit) / 10;
   if ((ch->att_roll % 10) != 0 && (diceroll + calc_base_hit) > victim_ac) ch->att_roll += 1;
   if (ch->att_roll <= 0) ch->att_roll = 1;
@@ -3205,19 +3195,15 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
     }
   }
 
-  if (!dam && !is_crit) {
+  if (!dam && !is_crit) 
+  {
     /* the attacker missed the victim */
     if (ch->actq) {
       free(ch->actq);
       ch->actq = 0;
     }
     return damage(ch, victim, 0, w_type, 0, -1, 0, 0, 0);
-  } else {
-
-    if (!is_crit && HAS_FEAT(ch, FEAT_EPIC_DODGE) && ch->player_specials->epic_dodge == FALSE) {
-      return damage(ch, victim, 0, w_type, 0, -1, 0, 0, 0);
-    }
-
+  } 
 
     /* okay, we know the guy has been hit.  now calculate damage. */
 
@@ -3452,8 +3438,7 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
             || (FIGHTING(ch) && FIGHTING(FIGHTING(ch)) != ch)
             || AFF_FLAGGED(victim, AFF_FLAT_FOOTED_1)
             || AFF_FLAGGED(victim, AFF_FLAT_FOOTED_2)
-            || dice(1, 5) <= HAS_FEAT(ch, FEAT_SELF_CONCEALMENT)
-            || HAS_FEAT(ch, FEAT_SELF_CONCEALMENT) >= 5)
+            )
       sneak = backstab_dice(ch);
     else
       sneak = 0;
@@ -3677,7 +3662,6 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
     }
 
     return dam;
-  }
 }
 
 void hit(struct char_data *ch, struct char_data *victim, int type) {

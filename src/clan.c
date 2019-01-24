@@ -73,29 +73,41 @@ void free_clan(struct clan_type *c)
 
 struct clan_type *enqueue_clan(void)
 {
-  struct clan_type *cptr;
-  
-  /* This is the first clan loaded if true */
-  if (clan_info == NULL) {
-    if ((clan_info = (struct clan_type *) malloc(sizeof(struct clan_type))) == NULL) {
-      fprintf(stderr, "SYSERR: Out of memory for clans!");
-      exit(1);
-    } else {
-      clan_info->next = NULL;
-      return (clan_info);
+    struct clan_type *cptr;
+
+/* This is the first clan loaded if true */
+    if (clan_info == NULL) 
+    {
+        if ((clan_info = (struct clan_type *) malloc(sizeof(struct clan_type))) == NULL) 
+        {
+            fprintf(stderr, "SYSERR: Out of memory for clans!");
+            exit(1);
+        } 
+        else 
+        {
+            clan_info->next = NULL;
+            return (clan_info);
+        }
+    } 
+    else 
+    { 
+        /* clan_info is not NULL */
+        for (cptr = clan_info; cptr->next != NULL; cptr = cptr->next)
+        /* Loop does the work */;
+        {
+            if ((cptr->next = (struct clan_type *) malloc(sizeof(struct clan_type))) == NULL) 
+            {
+                fprintf(stderr, "SYSERR: Out of memory for clans!");
+                exit(1);
+            } 
+            else 
+            {
+                cptr->next->next = NULL;
+                return (cptr->next);
+            }
+        }
     }
-  } else { /* clan_info is not NULL */
-    for (cptr = clan_info; cptr->next != NULL; cptr = cptr->next)
-      /* Loop does the work */;
-      if ((cptr->next = (struct clan_type *) malloc(sizeof(struct clan_type))) == NULL) {
-        fprintf(stderr, "SYSERR: Out of memory for clans!");
-        exit(1);
-      } else {
-        cptr->next->next = NULL;
-        return (cptr->next);
-      }
-  }
-  return NULL;
+    return NULL;
 }
 
 void dequeue_clan(int clannum)
@@ -1149,6 +1161,7 @@ ACMD(do_show_clan)
   }
   page_string(ch->desc, buf, 1);
 }
+
 
 /* Special for clan guards */
 SPECIAL(clan_guard)

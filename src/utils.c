@@ -1458,11 +1458,15 @@ int get_skill_value(struct char_data *ch, int skillnum)
   if (affected_by_spell(ch, SPELL_SICKENED))
     value -= 2;
 
-  for (i = 0; i < NUM_WEARS; i++) {
-    for (j = 0; j < 6; j++) {
+  for (i = 0; i < NUM_WEARS; i++) 
+  {
+    for (j = 0; j < 6; j++) 
+    {
       if (GET_EQ(ch, i) && GET_EQ(ch, i)->affected[j].location == APPLY_SKILL &&
           GET_EQ(ch, i)->affected[j].specific == skillnum)
-        value += GET_EQ(ch, i)->affected[j].modifier;
+        {
+            value += GET_EQ(ch, i)->affected[j].modifier;
+        }
         break;
     }
     if (GET_EQ(ch, i) && (GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_ARMOR ||
@@ -2343,42 +2347,54 @@ int has_daylight(struct char_data *ch)
 
 int has_light(struct char_data *ch)
 {
-  int i = 0;
-  struct char_data *vict;
+    int i = 0;
+    struct char_data *vict;
 
-  if (ch == NULL)
-    return FALSE;
+    if (ch == NULL)
+        return FALSE;
 
-  if (OUTSIDE(ch) && (weather_info.sunlight ==  SUN_RISE || weather_info.sunlight == SUN_LIGHT))
-    return TRUE;
+    if (OUTSIDE(ch) && (weather_info.sunlight ==  SUN_RISE || weather_info.sunlight == SUN_LIGHT))
+        return TRUE;
 
-  if (affected_by_spell(ch, SPELL_DAYLIGHT))
-    return TRUE;
+    if (affected_by_spell(ch, SPELL_DAYLIGHT))
+        return TRUE;
 
-  if (affected_by_spell(ch, SPELL_LIGHT))
-    return TRUE;
+    if (affected_by_spell(ch, SPELL_LIGHT))
+        return TRUE;
 
-  for (vict = world[IN_ROOM(ch)].people; vict; vict = vict->next_in_room) {
-    if (affected_by_spell(vict, SPELL_DAYLIGHT))
-      return TRUE;
-    if (affected_by_spell(vict, SPELL_LIGHT))
-      return TRUE;
-  }
-
-  if ((GET_EQ(ch, WEAR_WIELD) || (GET_EQ(ch, WEAR_HOLD) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_HOLD)) == ITEM_WEAPON)) &&
-      GET_CLASS_RANKS(ch, CLASS_PALADIN) >= 20)
-    return TRUE;
-
-    /* Is the character using a working light source? */
-    for (i = 0; i < NUM_WEARS; i++) {
-      if (GET_EQ(ch, i))
-        if (GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_LIGHT)
-          if (GET_OBJ_VAL(GET_EQ(ch, i),VAL_LIGHT_HOURS))
+    for (vict = world[IN_ROOM(ch)].people; vict; vict = vict->next_in_room) 
+    {
+        if (affected_by_spell(vict, SPELL_DAYLIGHT))
+        {
             return TRUE;
+        }
+        if (affected_by_spell(vict, SPELL_LIGHT))
+        {
+            return TRUE;
+        }
     }
 
+    if ((GET_EQ(ch, WEAR_WIELD) || (GET_EQ(ch, WEAR_HOLD) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_HOLD)) == ITEM_WEAPON)) &&
+        GET_CLASS_RANKS(ch, CLASS_PALADIN) >= 20)
+    {
+        return TRUE;
+    }
 
-  return FALSE;
+    /* Is the character using a working light source? */
+    for (i = 0; i < NUM_WEARS; i++) 
+    {
+        if (GET_EQ(ch, i))
+        {
+            if (GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_LIGHT)
+            {
+                if (GET_OBJ_VAL(GET_EQ(ch, i),VAL_LIGHT_HOURS))
+                {
+                    return TRUE;
+                }
+            }
+        }
+    }
+    return FALSE;
 }
 
 int get_saving_throw_value(struct char_data *victim, int savetype)
@@ -4281,5 +4297,3 @@ int combat_skill_roll(struct char_data *ch, int skillnum)
     return 0;
   }
 }
-
-

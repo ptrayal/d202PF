@@ -111,30 +111,41 @@ const char *unused_spellname = "!UNUSED!"; /* So we can get &unused_spellname */
 
 int mag_manacost(struct char_data *ch, int spellnum)
 {
-  int whichclass, i, min, tval;
-  if (CONFIG_ALLOW_MULTICLASS) {
-    /* find the cheapest class to cast it */
-    min = MAX(SINFO.mana_max - (SINFO.mana_change *
-	      (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS_RANKS(ch, GET_CLASS(ch))])),
-	     SINFO.mana_min);
-    whichclass = GET_CLASS(ch);
-    for (i = 0; i < NUM_CLASSES; i++) {
-      if (GET_CLASS_RANKS(ch, i) == 0)
-        continue;
-      tval = MAX(SINFO.mana_max - (SINFO.mana_change *
-	         (GET_CLASS_RANKS(ch, i) - SINFO.min_level[i])),
-	         SINFO.mana_min);
-      if (tval < min) {
-        min = tval;
-        whichclass = i;
-      }
+    int whichclass = 0;
+    int i = 0;
+    int min = 0;
+    int tval = 0;
+
+    if (CONFIG_ALLOW_MULTICLASS) 
+    {
+        /* find the cheapest class to cast it */
+        min = MAX(SINFO.mana_max - (SINFO.mana_change *
+            (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS_RANKS(ch, GET_CLASS(ch))])),
+        SINFO.mana_min);
+        whichclass = GET_CLASS(ch);
+        for (i = 0; i < NUM_CLASSES; i++) 
+        {
+            if (GET_CLASS_RANKS(ch, i) == 0)
+            {
+                continue;
+            }
+            tval = MAX(SINFO.mana_max - (SINFO.mana_change *
+                (GET_CLASS_RANKS(ch, i) - SINFO.min_level[i])),
+            SINFO.mana_min);
+            if (tval < min) 
+            {
+                min = tval;
+                whichclass = i;
+            }
+        }
+        return min;
+    } 
+    else 
+    {
+        return MAX(SINFO.mana_max - (SINFO.mana_change *
+            (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS(ch)])),
+        SINFO.mana_min);
     }
-    return min;
-  } else {
-  return MAX(SINFO.mana_max - (SINFO.mana_change *
-		    (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS(ch)])),
-	     SINFO.mana_min);
-  }
 }
 
 
@@ -578,7 +589,9 @@ void mag_objectmagic(struct char_data *ch, struct obj_data *obj, char *argument)
     tch = ch;
 
   if (!consume_otrigger(obj, ch, OCMD_QUAFF))  /* check trigger */
-    return;
+    {
+        return;
+    }
 
     act("You quaff $p.", false, ch, obj, NULL, TO_CHAR);
     if (obj->action_description)
@@ -1674,26 +1687,21 @@ ACMD(do_cast)
   }
   else if (FIGHTING(ch) && ch->active_turn) {
 
-  if (HAS_FEAT(ch, FEAT_AUTOMATIC_QUICKEN_SPELL) || (HAS_FEAT(ch, FEAT_QUICKEN_SPELL) && PRF_FLAGGED(ch, PRF_QUICKEN_SPELL))) {
-    if (spell_info[spellnum].class_level[classnum] <= (HAS_FEAT(ch, FEAT_AUTOMATIC_QUICKEN_SPELL) * 3)) {
-      if (!can_use_available_actions(ch, ACTION_MOVE)) {
-        send_to_char(ch, "You don't have any actions left to cast this spell.\r\n");
-        return;
-      }
-    }
-    else if (IS_SET(SINFO.routines, MAG_ACTION_FULL | MAG_ACTION_FULL) && HAS_FEAT(ch, FEAT_QUICKEN_SPELL) && PRF_FLAGGED(ch, PRF_QUICKEN_SPELL)) {
-      if (!can_use_available_actions(ch, ACTION_MOVE)) {
-        send_to_char(ch, "You don't have any actions left to cast this spell.\r\n");
-        return;
-      }
+  if ((HAS_FEAT(ch, FEAT_QUICKEN_SPELL) && PRF_FLAGGED(ch, PRF_QUICKEN_SPELL))) 
+  {
+    if (IS_SET(SINFO.routines, MAG_ACTION_FULL | MAG_ACTION_FULL) && HAS_FEAT(ch, FEAT_QUICKEN_SPELL) && PRF_FLAGGED(ch, PRF_QUICKEN_SPELL)) {
+        if (!can_use_available_actions(ch, ACTION_MOVE)) {
+            send_to_char(ch, "You don't have any actions left to cast this spell.\r\n");
+            return;
+        }
     }
     else {
-      if (!can_use_available_actions(ch, ACTION_STANDARD)) {
-        send_to_char(ch, "You don't have any actions left to cast this spell.\r\n");
-        return;
-      }
+        if (!can_use_available_actions(ch, ACTION_STANDARD)) {
+            send_to_char(ch, "You don't have any actions left to cast this spell.\r\n");
+            return;
+        }
     }
-  }
+}
   else if (IS_SET(SINFO.routines, MAG_ACTION_FULL | MAG_ACTION_FULL) && PRF_FLAGGED(ch, PRF_QUICKEN_SPELL)) {
       if (!can_use_available_actions(ch, ACTION_MOVE)) {
         send_to_char(ch, "You don't have any actions left to cast this spell.\r\n");
@@ -4233,49 +4241,48 @@ int get_spell_resistance(struct char_data *ch)
 }
 
 
-int sr_check(struct char_data *caster, struct char_data *victim) {
+int sr_check(struct char_data *caster, struct char_data *victim) 
+{
+    int casterLevel = GET_LEVEL(caster);
 
-  int casterLevel = GET_LEVEL(caster);
-
-
-  if (!IS_NPC(caster) && GET_MEM_TYPE(caster)) 
-  {
-    switch (GET_MEM_TYPE(caster)) 
+    if (!IS_NPC(caster) && GET_MEM_TYPE(caster)) 
     {
-      case MEM_TYPE_MAGE:
-        casterLevel = GET_CASTER_LEVEL(caster, CLASS_WIZARD);
-        break;
-      case MEM_TYPE_CLERIC:
-        casterLevel = GET_CASTER_LEVEL(caster, CLASS_CLERIC);
-        break;
-      case MEM_TYPE_PALADIN:
-        casterLevel = GET_CASTER_LEVEL(caster, CLASS_PALADIN);
-        break;
-      case MEM_TYPE_DRUID:
-        casterLevel = GET_CASTER_LEVEL(caster, CLASS_DRUID);
-        break;
-      case MEM_TYPE_RANGER:
-        casterLevel = GET_CASTER_LEVEL(caster, CLASS_RANGER);
-        break;
-      case MEM_TYPE_BARD:
-        casterLevel = GET_CASTER_LEVEL(caster, CLASS_BARD);
-        break;
-      default:
-        casterLevel = GET_LEVEL(caster);
-        break;
+        switch (GET_MEM_TYPE(caster)) 
+        {
+            case MEM_TYPE_MAGE:
+            casterLevel = GET_CASTER_LEVEL(caster, CLASS_WIZARD);
+            break;
+            case MEM_TYPE_CLERIC:
+            casterLevel = GET_CASTER_LEVEL(caster, CLASS_CLERIC);
+            break;
+            case MEM_TYPE_PALADIN:
+            casterLevel = GET_CASTER_LEVEL(caster, CLASS_PALADIN);
+            break;
+            case MEM_TYPE_DRUID:
+            casterLevel = GET_CASTER_LEVEL(caster, CLASS_DRUID);
+            break;
+            case MEM_TYPE_RANGER:
+            casterLevel = GET_CASTER_LEVEL(caster, CLASS_RANGER);
+            break;
+            case MEM_TYPE_BARD:
+            casterLevel = GET_CASTER_LEVEL(caster, CLASS_BARD);
+            break;
+            default:
+            casterLevel = GET_LEVEL(caster);
+            break;
+        }
     }
-  }
-  else 
-  {
-    casterLevel = GET_LEVEL(caster);
-  }
-  if (HAS_FEAT(caster, FEAT_SPELL_PENETRATION))
-    casterLevel += 2;
-  if (IS_ELF(caster))
-    casterLevel += 2;
+    else 
+    {
+        casterLevel = GET_LEVEL(caster);
+    }
+    if (HAS_FEAT(caster, FEAT_SPELL_PENETRATION))
+        casterLevel += 2;
+    if (IS_ELF(caster))
+        casterLevel += 2;
 
-  if ((dice(1, 20) + casterLevel) > get_spell_resistance(victim))
-    return TRUE;
+    if ((dice(1, 20) + casterLevel) > get_spell_resistance(victim))
+        return TRUE;
 
-  return FALSE;
+    return FALSE;
 }

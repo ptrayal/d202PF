@@ -2946,7 +2946,8 @@ void get_random_crystal(struct char_data *ch, int level) {
   }
 }
 
-void assign_qp_value(struct obj_data *obj) {
+void assign_qp_value(struct obj_data *obj) 
+{
 
   int val0 = GET_OBJ_VAL(obj, 0);
   int factor = 0;
@@ -3081,8 +3082,8 @@ void assign_qp_value(struct obj_data *obj) {
     }
     GET_OBJ_COST(obj) = objLevel * factor;
   }
-  else if (IS_ESSENCE(obj)) {
-
+  else if (IS_ESSENCE(obj)) 
+  {
     if (objLevel < 4)
       GET_OBJ_COST(obj) = 20;
     else if (objLevel < 8)
@@ -3098,22 +3099,21 @@ void assign_qp_value(struct obj_data *obj) {
 
 void award_special_magic_item(struct char_data *ch)
 {
-  struct obj_data *obj = NULL;
-  char buf[200]={'\0'};
+    struct obj_data *obj = NULL;
+    char buf[200]={'\0'};
 
-  // Ring of Three Wishes  
-  obj = read_object(30188, VIRTUAL);
+    // Ring of Three Wishes  
+    obj = read_object(30188, VIRTUAL);
 
+    SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
+    SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_MAGIC);
 
-  SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
-  SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_MAGIC);
+    obj_to_char(obj, ch);
 
-  obj_to_char(obj, ch);
-
-  if (!(IS_NPC(ch) && IS_MOB(ch) && GET_MOB_SPEC(ch) == shop_keeper)) {
-    send_to_char(ch, "@YYou have found %s in a nearby lair!@n\r\n", obj->short_description);
-    sprintf(buf, "@Y$n has found %s in a nearby lair!@n", obj->short_description);
-    act(buf, FALSE, ch, 0, ch, TO_NOTVICT);
-  }
-
+    if (!(IS_NPC(ch) && IS_MOB(ch) && GET_MOB_SPEC(ch) == shop_keeper)) 
+    {
+        send_to_char(ch, "@YYou have found %s in a nearby lair!@n\r\n", obj->short_description);
+        sprintf(buf, "@Y$n has found %s in a nearby lair!@n", obj->short_description);
+        act(buf, FALSE, ch, 0, ch, TO_NOTVICT);
+    }
 }

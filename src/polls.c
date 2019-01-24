@@ -111,6 +111,6 @@ void build_poll_list(void)
 
 void free_poll(int pnum)
 {
-  free(poll_list[pnum].title);
-  free(poll_list[pnum].options[0]);
+    free(poll_list[pnum].title);
+    free(poll_list[pnum].options[0]);
 }

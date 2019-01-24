@@ -138,60 +138,59 @@ int parse_stat_menu(struct descriptor_data *d, char *arg)
 
 int stats_assign_stat(int abil, char *arg, struct descriptor_data *d)
 {
-  int temp;
-	int cost = 0;
-	int i;
-	int orig = abil;
+    int temp;
+    int cost = 0;
+    int i;
+    int orig = abil;
 
-	if (abil < 15)
-	 cost = abil;
-	else {
-	  cost = 15;
-		for (i = 0; i < abil - 15; i++)
-		  cost += i + 2;
-	}
-	
-  if (abil > 0) {
-      GET_STAT_POINTS(d->character) = GET_STAT_POINTS(d->character) + cost;
-      abil = 0;
-  }
-	
+    if (abil < 15)
+        cost = abil;
+    else {
+        cost = 15;
+        for (i = 0; i < abil - 15; i++)
+            cost += i + 2;
+    }
 
-  temp = atoi(arg);
-	
-  temp = LIMIT(temp, 3, 18);	
-	
-	if (temp < 15)
-	 cost = temp;
-	else {
-	  cost = 15;
-		for (i = 0; i < temp - 15; i++)
-		  cost += i + 2;
-	}  	
-	
-  if (cost > GET_STAT_POINTS(d->character)) {
-	  write_to_output(d, "You don't have enough points to purchase that ability score rank.\r\n") ;
-		if (orig < 15)
-		 cost = orig;
-		else {
-		  cost = 15;
-			for (i = 0; i < orig - 15; i++)
-			  cost += i + 2;
-		}
-		GET_STAT_POINTS(d->character) -= cost;
-	  return orig;
-  }	
-	
-  /* This should throw an error! */
-  if (GET_STAT_POINTS(d->character) <= 0) {
-    temp = 0;
-    GET_STAT_POINTS(d->character) = 0;
-    mudlog(NRM, ADMLVL_IMMORT, TRUE, "Stat total below 0: possible code error");
-  }
-  abil = temp;
+    if (abil > 0) {
+        GET_STAT_POINTS(d->character) = GET_STAT_POINTS(d->character) + cost;
+        abil = 0;
+    }
 
-  GET_STAT_POINTS(d->character) -= cost;
 
-  return abil;
+    temp = atoi(arg);
+
+    temp = LIMIT(temp, 3, 18);	
+
+    if (temp < 15)
+        cost = temp;
+    else {
+        cost = 15;
+        for (i = 0; i < temp - 15; i++)
+            cost += i + 2;
+    }  	
+
+    if (cost > GET_STAT_POINTS(d->character)) {
+        write_to_output(d, "You don't have enough points to purchase that ability score rank.\r\n") ;
+        if (orig < 15)
+            cost = orig;
+        else {
+            cost = 15;
+            for (i = 0; i < orig - 15; i++)
+                cost += i + 2;
+        }
+        GET_STAT_POINTS(d->character) -= cost;
+        return orig;
+    }	
+
+    /* This should throw an error! */
+    if (GET_STAT_POINTS(d->character) <= 0) {
+        temp = 0;
+        GET_STAT_POINTS(d->character) = 0;
+        mudlog(NRM, ADMLVL_IMMORT, TRUE, "Stat total below 0: possible code error");
+    }
+    abil = temp;
+
+    GET_STAT_POINTS(d->character) -= cost;
+
+    return abil;
 }
-

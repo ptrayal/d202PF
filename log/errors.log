@@ -1,14 +1,262 @@
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
-SYSERR: Illegal port number 0.
+Jan 11 09:06:02 :: SYSERR: Quest #3500 has no questmaster specified.
+Jan 11 09:06:02 :: SYSERR: Quest #4503 has no questmaster specified.
+Jan 11 09:06:09 :: SYSERR: an indifferent bank teller (#3012): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: Shira, the rogue trainer (#3028): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: the troll shaman (#1511): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: the troglodyte cleric (#1507): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a short woman with long red hair (#1519): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: an old sage (#1518): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a shifty looking individual (#1521): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a noxious, green vaporous cloud (#1217): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: High earth cultist Malis (#1213): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: the temple priest (#1210): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: Master Tolbert (#1215): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: the master's apprentice (#920): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: Renthilos (#901): Attempting to call non-existing mob function.
+Jan 11 09:06:09 :: SYSERR: an undead priest of Cyric (#605): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 09:12:08 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:16:13 :: SYSERR: a @YKnight@n @rMarshal@n (#4016): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:18:08 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 09:24:08 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:24:08 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:24:08 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:24:08 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:24:08 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 09:30:08 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 09:30:08 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:30:08 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 09:30:08 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:36:13 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:36:13 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 09:36:13 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:42:08 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:42:08 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:48:08 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 09:48:08 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 09:48:08 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 09:54:08 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 10:00:08 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 10:00:08 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 10:04:25 :: SYSERR: Quest #3500 has no questmaster specified.
+Jan 11 10:04:25 :: SYSERR: Quest #4503 has no questmaster specified.
+Jan 11 10:52:20 :: SYSERR: an indifferent bank teller (#3012): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: Shira, the rogue trainer (#3028): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: the troll shaman (#1511): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: the troglodyte cleric (#1507): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a short woman with long red hair (#1519): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: an old sage (#1518): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a shifty looking individual (#1521): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a noxious, green vaporous cloud (#1217): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: High earth cultist Malis (#1213): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: the temple priest (#1210): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: Master Tolbert (#1215): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: the master's apprentice (#920): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: Renthilos (#901): Attempting to call non-existing mob function.
+Jan 11 10:52:20 :: SYSERR: an undead priest of Cyric (#605): Attempting to call non-existing mob function.
+Jan 12 09:28:36 :: SYSERR: Quest #3500 has no questmaster specified.
+Jan 12 09:28:36 :: SYSERR: Quest #4503 has no questmaster specified.
+Jan 12 09:29:07 :: SYSERR: an indifferent bank teller (#3012): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: Shira, the rogue trainer (#3028): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: the troll shaman (#1511): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: the troglodyte cleric (#1507): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a short woman with long red hair (#1519): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: an old sage (#1518): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a shifty looking individual (#1521): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a noxious, green vaporous cloud (#1217): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: High earth cultist Malis (#1213): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: the temple priest (#1210): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: Master Tolbert (#1215): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: the master's apprentice (#920): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: Renthilos (#901): Attempting to call non-existing mob function.
+Jan 12 09:29:07 :: SYSERR: an undead priest of Cyric (#605): Attempting to call non-existing mob function.
+Jan 12 09:29:25 :: SYSERR: no valid target to act()!
+Jan 12 09:29:29 :: SYSERR: no valid target to act()!
+Jan 12 09:35:06 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Jan 12 09:35:06 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:39:11 :: SYSERR: a @YKnight@n @rMarshal@n (#4016): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Jan 12 09:41:06 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.

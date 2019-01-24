@@ -527,57 +527,61 @@ void perform_map( struct char_data *ch, char *argument, bool worldmap )
 /* Display a string with the map beside it */
 void str_and_map(char *str, struct char_data *ch ) 
 {
-  int size, centre, x, y, min, max, char_size;
-  int ew_size=0, ns_size=0;
-  bool worldmap;
+    int size, centre, x, y, min, max, char_size;
+    int ew_size=0, ns_size=0;
+    bool worldmap;
 
-  /* Check MUDs map config options - if disabled, just show room decsription */
-  if (!can_see_map(ch)) {
-    send_to_char(ch, "%s", strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch)), 1, FALSE, FALSE, FALSE));
-    return;
-  }
+    /* Check MUDs map config options - if disabled, just show room decsription */
+    if (!can_see_map(ch)) 
+    {
+        send_to_char(ch, "%s", strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch)), 1, FALSE, FALSE, FALSE));
+        return;
+    }
 
-  worldmap = ROOM_FLAGGED(IN_ROOM(ch), ROOM_WORLDMAP) ? TRUE : FALSE ;
+    worldmap = ROOM_FLAGGED(IN_ROOM(ch), ROOM_WORLDMAP) ? TRUE : FALSE ;
 
-  if(ch && ch != NULL && !PRF_FLAGGED(ch, PRF_AUTOMAP)) {
-    send_to_char(ch, "%s", strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch)), 1, FALSE, FALSE, FALSE));
-    return;
-  }
+    if(ch && ch != NULL && !PRF_FLAGGED(ch, PRF_AUTOMAP)) 
+    {
+        send_to_char(ch, "%s", strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch)), 1, FALSE, FALSE, FALSE));
+        return;
+    }
 
-  size = CONFIG_MINIMAP_SIZE;
-  centre = MAX_MAP/2;
-  min = centre - 2*size;
-  max = centre + 2*size;
+    size = CONFIG_MINIMAP_SIZE;
+    centre = MAX_MAP/2;
+    min = centre - 2*size;
+    max = centre + 2*size;
 
-  for (x = 0; x < MAX_MAP; ++x)
-    for (y = 0; y < MAX_MAP; ++y)
-      map[x][y]= (!(y%2) && !worldmap) ? DOOR_NONE : SECT_EMPTY;
+    for (x = 0; x < MAX_MAP; ++x)
+    {
+        for (y = 0; y < MAX_MAP; ++y)
+        {
+            map[x][y]= (!(y%2) && !worldmap) ? DOOR_NONE : SECT_EMPTY;
+        }
+    }
 
-  /* starts the mapping with the center room */
-  MapArea(IN_ROOM(ch), ch, centre, centre, min, max, ns_size/2, ew_size/2, worldmap );
-  map[centre][centre] = SECT_HERE;
+    /* starts the mapping with the center room */
+    MapArea(IN_ROOM(ch), ch, centre, centre, min, max, ns_size/2, ew_size/2, worldmap );
+    map[centre][centre] = SECT_HERE;
 
-  /* char_size = rooms + doors + padding */
-  if(worldmap)
-    char_size = size * 4 + 5;
-  else
-    char_size = 3*(size+1) + (size) + 4;
+    /* char_size = rooms + doors + padding */
+    if(worldmap)
+        char_size = size * 4 + 5;
+    else
+        char_size = 3*(size+1) + (size) + 4;
 
-  if(worldmap)
-    send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size*2 + 1, FALSE, TRUE, TRUE), WorldMap(centre, size, MAP_CIRCLE, MAP_COMPACT), "   "));
-  else
-    send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size*2 + 1, FALSE, TRUE, TRUE), CompactStringMap(centre, size), "   "));
+    if(worldmap)
+        send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size*2 + 1, FALSE, TRUE, TRUE), WorldMap(centre, size, MAP_CIRCLE, MAP_COMPACT), "   "));
+    else
+        send_to_char(ch, "%s", strpaste(strfrmt(str, LIMIT(40, 120, GET_SCREEN_WIDTH(ch) - char_size), size*2 + 1, FALSE, TRUE, TRUE), CompactStringMap(centre, size), "   "));
 
 }
 
 ACMD(do_map) 
 {
-  if (!can_see_map(ch)) {
-    send_to_char(ch, "Sorry, the map is disabled!\r\n");
-    return;
-  }
-  perform_map(ch, argument, ROOM_FLAGGED(IN_ROOM(ch), ROOM_WORLDMAP) ? 1 : 0 );
+    if (!can_see_map(ch)) 
+    {
+        send_to_char(ch, "Sorry, the map is disabled!\r\n");
+        return;
+    }
+    perform_map(ch, argument, ROOM_FLAGGED(IN_ROOM(ch), ROOM_WORLDMAP) ? 1 : 0 );
 }
-
-
-

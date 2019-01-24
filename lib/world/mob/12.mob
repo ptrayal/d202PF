@@ -522,7 +522,7 @@ A devout worshiper is here listening intently to everything said.
 priests, but he doesn't seem quite as confident or arrogant as them.  He listens
 intently as the temple priest preaches his sermon.  
 ~
-abd 0 0 0 k 0 0 0 0
+bd 0 0 0 k 0 0 0 0
 6 20 4 63d60+151 1d8+0
 90 4000 42 1
 8 8 1
@@ -550,7 +550,7 @@ A devout worshiper is here listening intently to everything said.
 priests, but she doesn't seem quite as confident or arrogant as them.  She
 listens intently as the temple priest preaches his sermon.  
 ~
-abd 0 0 0 k 0 0 0 0
+bd 0 0 0 k 0 0 0 0
 6 20 4 63d60+151 1d8+0
 90 0 42 1
 8 8 2
@@ -664,7 +664,7 @@ long.  He is mumbling something about the earth cultist religion - about how it 
 fraud, and must be stopped.  He looks as if he may have actually ripped some of
 his hair out by the roots.  
 ~
-abcd 0 0 0 k 0 0 0 0
+bcd 0 0 0 k 0 0 0 0
 7 20 3 85d70+151 1d8+0
 105 0 42 3
 8 8 1

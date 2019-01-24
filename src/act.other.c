@@ -3300,7 +3300,9 @@ ACMD(do_devote)
                 if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
                 {
                   if (j > 0)
-                    sprintf(buf2, "%s, ", buf2);
+                    {
+                        sprintf(buf2, "%s, ", buf2);
+                    }
                     sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                 }
               }
@@ -3346,9 +3348,12 @@ ACMD(do_devote)
               sprintf(buf2, "@n");
               sprintf(buf2, "Domains: ");
               for (j = 0; j < 6; j++) {
-                if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) {
+                if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
+                {
                   if (j > 0)
-                    sprintf(buf2, "%s, ", buf2);
+                    {
+                        sprintf(buf2, "%s, ", buf2);
+                    }
                     sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                 }
               }
@@ -3628,168 +3633,184 @@ ACMD(do_petset)
 ACMD(do_call)
 {
 
-  send_to_char(ch, "The call command is currently disabled as it and mob summoning is causing\r\n"
-                   "an inordiante number of crashes.  We are going to reimplement the summon/pet\r\n"
-                   "system, but until then, summoning mobs and pets will be disabled.\r\n");
-  return;
-
-
-  struct char_data *mob;
-  char arg1[MAX_STRING_LENGTH]={'\0'};
-  int mob_vnum = 0;
-  int call_type = 0;
-  struct follow_type *f;
-  int j = 0; 
- 
-  one_argument(argument, arg1);
-  
-  if (!*arg1) {
-    send_to_char(ch, "You can only call a 'mount', 'paladin-mount', 'companion', 'familiar' or 'pet'.\r\n");
-	return;
-  }
-
-  if (num_charmies(ch) > 0) {
-    send_to_char(ch, "You can only control one creature at a time.\r\n");
+    send_to_char(ch, "The call command is currently disabled as it and mob summoning is causing\r\n"
+        "an inordiante number of crashes.  We are going to reimplement the summon/pet\r\n"
+        "system, but until then, summoning mobs and pets will be disabled.\r\n");
     return;
-  }
 
-  
-  if (is_abbrev(arg1, "mount")) {
-	if (GET_MOUNT_VNUM(ch)) {
-	  mob_vnum = GET_MOUNT_VNUM(ch);
-	  call_type = CALL_TYPE_PURCHASED_MOUNT;
-	}
-	else {
-	  send_to_char(ch, "You have no mount to call.\r\n");
-	  return;
-	}
-  }
-  else if (is_abbrev(arg1, "paladin-mount")) {
-    if (HAS_FEAT(ch, FEAT_CALL_MOUNT)) {
-	  mob_vnum = 199;
-	  call_type = CALL_TYPE_PALADIN_MOUNT;
-	}
-	else {
-	  send_to_char(ch, "You have no paladin mount to call.\r\n");
-	  return;
-	}  
-  }
-  else if (is_abbrev(arg1, "familiar")) {
-    if (!HAS_FEAT(ch, FEAT_SUMMON_FAMILIAR)) {
-	  send_to_char(ch, "You have no familiar to call.\r\n");
-	  return;
-	}
-	mob_vnum = GET_FAMILIAR_VNUM(ch);
-	if (mob_vnum == 0) {
-	  send_to_char(ch, "You have still not chosen a familiar.  Please see help class-ability-summon-familiar.\r\n");
-	  return;
-	}	
-	call_type = CALL_TYPE_FAMILIAR;
-  }
-  else if (is_abbrev(arg1, "companion")) {
-/*
-    send_to_char(ch, "Please use the command 'pray for companion' to call your animal companion.\r\n");
-    return;
-*/
-    if (!HAS_FEAT(ch, FEAT_ANIMAL_COMPANION)) {
-	  send_to_char(ch, "You have no animal companion to call.\r\n");
-	  return;
-	}
-	mob_vnum = GET_COMPANION_VNUM(ch);
-	if (mob_vnum == 0) {
-	  send_to_char(ch, "You have still not chosen an animal companion.  Please see help class-ability-animal-companion.\r\n");
-	  return;
-	}
-	call_type = CALL_TYPE_ANIMAL_COMPANION;
-  }
-  else if (is_abbrev(arg1, "pet")) {
-    if (!GET_PET_VNUM(ch)) {
-	  send_to_char(ch, "You have no pet to call.");
-	  return;
-	}
-	mob_vnum = GET_PET_VNUM(ch);
-	call_type = CALL_TYPE_PET;
-  }
-  else {
-    send_to_char(ch, "You can only call a 'mount', 'paladin-mount', 'companion', 'familiar' or 'pet'.\r\n");
-	return;
-  }
-  
-  if (mob_vnum) {
-  
-    for (f = ch->followers; f; f = f->next) {
-      if (IS_NPC(f->follower) && AFF_FLAGGED(f->follower, AFF_CHARM)) {
-        if (GET_MOB_VNUM(f->follower) == 199 && call_type == CALL_TYPE_PALADIN_MOUNT) {
-	      send_to_char(ch, "You have already called your paladin mount.\r\n");
-  		  return;
-	    }
-	    else if (GET_MOB_VNUM(f->follower) == GET_MOUNT_VNUM(ch) && call_type == CALL_TYPE_PURCHASED_MOUNT) {
-	      send_to_char(ch, "You have already called your mount.\r\n");
-		  return;
-	    }
-	    else if (GET_MOB_VNUM(f->follower) == GET_FAMILIAR_VNUM(ch) && call_type == CALL_TYPE_FAMILIAR) {
-	      send_to_char(ch, "You have already called your familiar.\r\n");
-		  return;
-	    }
-	    else if (GET_MOB_VNUM(f->follower) == GET_COMPANION_VNUM(ch) && call_type == CALL_TYPE_ANIMAL_COMPANION)  {
-	      send_to_char(ch, "You have already called your animal companion.\r\n");
-		  return;
-	    }
-	    else if (GET_MOB_VNUM(f->follower) == GET_PET_VNUM(ch) && call_type == CALL_TYPE_PET) {
-	      send_to_char(ch, "You have already called your pet.\r\n");
-		  return;
-	    }
-      }    
+
+    struct char_data *mob;
+    char arg1[MAX_STRING_LENGTH]={'\0'};
+    int mob_vnum = 0;
+    int call_type = 0;
+    struct follow_type *f;
+    int j = 0; 
+
+    one_argument(argument, arg1);
+
+    if (!*arg1) 
+    {
+        send_to_char(ch, "You can only call a 'mount', 'paladin-mount', 'companion', 'familiar' or 'pet'.\r\n");
+        return;
     }
-  
-    mob = read_mobile(mob_vnum, virtual);
-	
-	if (mob) {
 
-          GET_CLASS(mob) = CLASS_FIGHTER;
+    if (num_charmies(ch) > 0) 
+    {
+        send_to_char(ch, "You can only control one creature at a time.\r\n");
+        return;
+    }
 
-          if (call_type == CALL_TYPE_ANIMAL_COMPANION || call_type == CALL_TYPE_FAMILIAR || call_type == CALL_TYPE_PALADIN_MOUNT)
-            for (j = 0; j <= (GET_LEVEL(ch) - GET_HITDICE(mob)); j++) {
-              advance_mob_level(mob, GET_CLASS(mob));
-              GET_HITDICE(mob)++;
+
+    if (is_abbrev(arg1, "mount")) 
+    {
+        if (GET_MOUNT_VNUM(ch)) 
+        {
+            mob_vnum = GET_MOUNT_VNUM(ch);
+            call_type = CALL_TYPE_PURCHASED_MOUNT;
+        }
+        else 
+        {
+            send_to_char(ch, "You have no mount to call.\r\n");
+            return;
+        }
+    }
+    else if (is_abbrev(arg1, "paladin-mount")) 
+    {
+        if (HAS_FEAT(ch, FEAT_CALL_MOUNT)) 
+        {
+            mob_vnum = 199;
+            call_type = CALL_TYPE_PALADIN_MOUNT;
+        }
+        else 
+        {
+            send_to_char(ch, "You have no paladin mount to call.\r\n");
+            return;
+        }  
+    }
+    else if (is_abbrev(arg1, "familiar")) 
+    {
+        if (!HAS_FEAT(ch, FEAT_SUMMON_FAMILIAR)) 
+        {
+            send_to_char(ch, "You have no familiar to call.\r\n");
+            return;
+        }
+        mob_vnum = GET_FAMILIAR_VNUM(ch);
+        if (mob_vnum == 0) 
+        {
+            send_to_char(ch, "You have still not chosen a familiar.  Please see help class-ability-summon-familiar.\r\n");
+            return;
+        }	
+        call_type = CALL_TYPE_FAMILIAR;
+    }
+    else if (is_abbrev(arg1, "companion")) 
+    {
+/*
+send_to_char(ch, "Please use the command 'pray for companion' to call your animal companion.\r\n");
+return;
+*/
+        if (!HAS_FEAT(ch, FEAT_ANIMAL_COMPANION)) {
+            send_to_char(ch, "You have no animal companion to call.\r\n");
+            return;
+        }
+        mob_vnum = GET_COMPANION_VNUM(ch);
+        if (mob_vnum == 0) {
+            send_to_char(ch, "You have still not chosen an animal companion.  Please see help class-ability-animal-companion.\r\n");
+            return;
+        }
+        call_type = CALL_TYPE_ANIMAL_COMPANION;
+    }
+    else if (is_abbrev(arg1, "pet")) {
+        if (!GET_PET_VNUM(ch)) {
+            send_to_char(ch, "You have no pet to call.");
+            return;
+        }
+        mob_vnum = GET_PET_VNUM(ch);
+        call_type = CALL_TYPE_PET;
+    }
+    else {
+        send_to_char(ch, "You can only call a 'mount', 'paladin-mount', 'companion', 'familiar' or 'pet'.\r\n");
+        return;
+    }
+
+    if (mob_vnum) {
+
+        for (f = ch->followers; f; f = f->next) {
+            if (IS_NPC(f->follower) && AFF_FLAGGED(f->follower, AFF_CHARM)) {
+                if (GET_MOB_VNUM(f->follower) == 199 && call_type == CALL_TYPE_PALADIN_MOUNT) {
+                    send_to_char(ch, "You have already called your paladin mount.\r\n");
+                    return;
+                }
+                else if (GET_MOB_VNUM(f->follower) == GET_MOUNT_VNUM(ch) && call_type == CALL_TYPE_PURCHASED_MOUNT) {
+                    send_to_char(ch, "You have already called your mount.\r\n");
+                    return;
+                }
+                else if (GET_MOB_VNUM(f->follower) == GET_FAMILIAR_VNUM(ch) && call_type == CALL_TYPE_FAMILIAR) {
+                    send_to_char(ch, "You have already called your familiar.\r\n");
+                    return;
+                }
+                else if (GET_MOB_VNUM(f->follower) == GET_COMPANION_VNUM(ch) && call_type == CALL_TYPE_ANIMAL_COMPANION)  {
+                    send_to_char(ch, "You have already called your animal companion.\r\n");
+                    return;
+                }
+                else if (GET_MOB_VNUM(f->follower) == GET_PET_VNUM(ch) && call_type == CALL_TYPE_PET) {
+                    send_to_char(ch, "You have already called your pet.\r\n");
+                    return;
+                }
+            }    
+        }
+
+        mob = read_mobile(mob_vnum, virtual);
+
+        if (mob) 
+        {
+
+            GET_CLASS(mob) = CLASS_FIGHTER;
+
+            if (call_type == CALL_TYPE_ANIMAL_COMPANION || call_type == CALL_TYPE_FAMILIAR || call_type == CALL_TYPE_PALADIN_MOUNT)
+            {
+                for (j = 0; j <= (GET_LEVEL(ch) - GET_HITDICE(mob)); j++) 
+                {
+                    advance_mob_level(mob, GET_CLASS(mob));
+                    GET_HITDICE(mob)++;
+                }
             }
             set_auto_mob_stats(mob);
-	  
 
-          if (GET_MAX_HIT(mob) >= (3 * GET_HITDICE(mob) * (class_hit_die_size_fr[GET_CLASS(mob)] + ability_mod_value(GET_CON(mob)) ) ) ) {
-            GET_MAX_HIT(mob) = (2 * GET_HITDICE(mob) * (class_hit_die_size_fr[GET_CLASS(mob)] + ability_mod_value(GET_CON(mob)) ) );
-            GET_HIT(mob) = GET_MAX_HIT(mob);
-          }
 
-          char_to_room(mob, IN_ROOM(ch));
-          IS_CARRYING_W(mob) = 0;
-          IS_CARRYING_N(mob) = 0;
-          SET_BIT_AR(AFF_FLAGS(mob), AFF_CHARM);
-          load_mtrigger(mob);
-          add_follower(mob, ch);
-          if (FIGHTING(ch)) {
-            set_fighting(mob, FIGHTING(ch));
-          }
-          mob->master_id = GET_IDNUM(ch);	
+            if (GET_MAX_HIT(mob) >= (3 * GET_HITDICE(mob) * (class_hit_die_size_fr[GET_CLASS(mob)] + ability_mod_value(GET_CON(mob)) ) ) ) {
+                GET_MAX_HIT(mob) = (2 * GET_HITDICE(mob) * (class_hit_die_size_fr[GET_CLASS(mob)] + ability_mod_value(GET_CON(mob)) ) );
+                GET_HIT(mob) = GET_MAX_HIT(mob);
+            }
 
-     //      if (call_type == CALL_TYPE_FAMILIAR) {
-    //	    set_familiar_bonus(ch);
-    //	  }
-	  
-	  act("$N comes forth, answering $n's call.", TRUE, ch, 0, mob, TO_ROOM);
-	  act("$N comes forth, answering your call.", TRUE, ch, 0, mob, TO_CHAR);
-	 
-	}
-	else {
-	  send_to_char(ch, "There was an error loading the mobile.  Error code 2.  Please contact an immortal.\r\n");
-	  return;
-	}
-  
-  }
-  else {
-    send_to_char(ch, "There was an error loading the mobile.  Error code 1.  Please contact an immortal.\r\n");
-	return;
-  }
+            char_to_room(mob, IN_ROOM(ch));
+            IS_CARRYING_W(mob) = 0;
+            IS_CARRYING_N(mob) = 0;
+            SET_BIT_AR(AFF_FLAGS(mob), AFF_CHARM);
+            load_mtrigger(mob);
+            add_follower(mob, ch);
+            if (FIGHTING(ch)) {
+                set_fighting(mob, FIGHTING(ch));
+            }
+            mob->master_id = GET_IDNUM(ch);	
+
+//      if (call_type == CALL_TYPE_FAMILIAR) {
+//	    set_familiar_bonus(ch);
+//	  }
+
+            act("$N comes forth, answering $n's call.", TRUE, ch, 0, mob, TO_ROOM);
+            act("$N comes forth, answering your call.", TRUE, ch, 0, mob, TO_CHAR);
+
+        }
+        else {
+            send_to_char(ch, "There was an error loading the mobile.  Error code 2.  Please contact an immortal.\r\n");
+            return;
+        }
+
+    }
+    else {
+        send_to_char(ch, "There was an error loading the mobile.  Error code 1.  Please contact an immortal.\r\n");
+        return;
+    }
 
 }
 
@@ -6601,7 +6622,5 @@ ACMD(do_set_stats)
   send_to_char(ch, "Charisma     : %d\r\n", ch->real_abils.cha);
   send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
 
-
   return;
-
 }

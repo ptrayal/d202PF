@@ -88,44 +88,48 @@ int num_online = 0;
 /* manapoint gain pr. game hour */
 int mana_gain(struct char_data *ch)
 {
-  return 1;
+    return 1;
 
-  int gain;
+    int gain = 0;
 
-  if (IS_NPC(ch)) {
-    /* Neat and fast */
-    gain = MAX(1, ability_mod_value(GET_WIS(ch)));
-  } else {
-    gain = MAX(1, ability_mod_value(GET_WIS(ch)));
+    if (IS_NPC(ch)) 
+    {
+        /* Neat and fast */
+        gain = MAX(1, ability_mod_value(GET_WIS(ch)));
+    } 
+    else 
+    {
+        gain = MAX(1, ability_mod_value(GET_WIS(ch)));
 
-    /* Class calculations */
+        /* Class calculations */
 
-    /* Skill/Spell calculations */
+        /* Skill/Spell calculations */
 
-    /* Position calculations    */
-    switch (GET_POS(ch)) {
-    case POS_SLEEPING:
-      gain = gain * 15 / 10;
-      break;
-    case POS_RESTING:
-      gain += (gain / 4);
-      break;
-    case POS_SITTING:
-      gain = gain;
-      break;
-    case POS_STANDING:
-      gain = 25 * gain / 100;
-      break;
-    case POS_FIGHTING:
-      gain = gain * 20 / 100;
-      break;
-    default:
-      gain = 0;
-      break;      
+        /* Position calculations    */
+        switch (GET_POS(ch)) 
+        {
+            case POS_SLEEPING:
+            gain = gain * 15 / 10;
+            break;
+            case POS_RESTING:
+            gain += (gain / 4);
+            break;
+            case POS_SITTING:
+            gain = gain;
+            break;
+            case POS_STANDING:
+            gain = 25 * gain / 100;
+            break;
+            case POS_FIGHTING:
+            gain = gain * 20 / 100;
+            break;
+            default:
+            gain = 0;
+            break;      
+        }
     }
-  }
 
-  return (gain);
+    return (gain);
 }
 
 
@@ -942,45 +946,48 @@ void do_auto_combat(struct char_data *ch)
 void point_update(void)
 {
 
-  num_online = 0;
-  char query[500]={'\0'};
-  char dammes[MAX_STRING_LENGTH]={'\0'};
-  char buf[200]={'\0'};
-  char *account_name;
-  char align[100]={'\0'};
-  char *title;
-  char fbuf[100]={'\0'};
-  struct obj_data *j, *next_thing, *jj, *next_thing2;
-  struct affected_type *af, af2[2], af3[2], af4[2];
-  struct char_data *vict;
-  struct damreduct_type *reduct, *temp;
-  struct char_data *i, *next_char;
-  int n;
-  int poisonmod = 0;
-  int dam;
-  int fighting = FALSE;  
-  int adm = 0;
-  int save = 0, dc = 0;
-  int fight_found = FALSE;
-  
-  // Open mysql connection
-  conn = mysql_init(NULL);
-  MYSQL_RES *res = NULL;
-  MYSQL_ROW row = NULL;
-  sbyte fa_found = FALSE;
+    num_online = 0;
+    char query[500]={'\0'};
+    char dammes[MAX_STRING_LENGTH]={'\0'};
+    char buf[200]={'\0'};
+    char *account_name;
+    char align[100]={'\0'};
+    char *title;
+    char fbuf[100]={'\0'};
+    struct obj_data *j, *next_thing, *jj, *next_thing2;
+    struct affected_type *af, af2[2], af3[2], af4[2];
+    struct char_data *vict;
+    struct damreduct_type *reduct, *temp;
+    struct char_data *i, *next_char;
+    int n;
+    int poisonmod = 0;
+    int dam;
+    int fighting = FALSE;  
+    int adm = 0;
+    int save = 0, dc = 0;
+    int fight_found = FALSE;
+
+    // Open mysql connection
+    conn = mysql_init(NULL);
+    MYSQL_RES *res = NULL;
+    MYSQL_ROW row = NULL;
+    sbyte fa_found = FALSE;
 
 
-  /* Connect to database */
-  if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) {
-    log("Cannot connect to mysql database in point update.");
-  }
-
-  if (CONFIG_DFLT_PORT == 9080) {
-    sprintf(query, "UPDATE player_data SET online = '0'");
-    if (mysql_query(conn, query)) {
-       log("Cannot set online status to 0");   
+    /* Connect to database */
+    if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) 
+    {
+        log("Cannot connect to mysql database in point update.");
     }
-  }
+
+  if (CONFIG_DFLT_PORT == 9080) 
+    {
+        sprintf(query, "UPDATE player_data SET online = '0'");
+        if (mysql_query(conn, query)) 
+        {
+            log("Cannot set online status to 0");   
+        }
+    }
 
   mysql_close(conn);
 
@@ -1004,19 +1011,29 @@ void point_update(void)
 */
 
     if (!IS_NPC(i) && (!i->desc || STATE(i->desc) != CON_PLAYING))
-      continue;
+      {
+        continue;
+    }
 
     if (i->bounty_gem > 0)
-      i->bounty_gem--;
+      {
+        i->bounty_gem--;
+    }
 
     if (GET_PETITION(i) > 0 && GET_PETITION(i) < 50)
-      GET_PETITION(i)++;
+      {
+        GET_PETITION(i)++;
+    }
 
     if (GET_GATHER_INFO(i) > 0)
-      GET_GATHER_INFO(i)--;
+      {
+        GET_GATHER_INFO(i)--;
+    }
 
     if (!IS_NPC(i) && i->desc)
-      num_online++;
+      {
+        num_online++;
+    }
 
       if (GET_STR(i) > 0 && GET_DEX(i) > 0 && GET_INT(i) > 0 &&
           GET_WIS(i) > 0 && GET_CHA(i) > 0 && !affected_by_spell(i, SPELL_HOLD_PERSON) &&
@@ -1778,5 +1795,4 @@ int get_rp_bonus(struct char_data *ch, int type)
   }
 
   return 0;
-
 }

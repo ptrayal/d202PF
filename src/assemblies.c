@@ -877,5 +877,3 @@ void crafting_update(void)
   }
 
 }
-
-

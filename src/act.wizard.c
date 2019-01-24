@@ -1085,12 +1085,14 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "Questpoints: [%d]    Screen [%dx%d]\r\n", GET_QUESTPOINTS(k), GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
   send_to_char(ch, "RP Points: [%ld]      Artisan Exp: [%10.0f]\r\n", GET_RP_POINTS(k), get_artisan_exp(k));
 
-  if (k->hit_breakdown[0] || k->hit_breakdown[1]) {
+  if (k->hit_breakdown[0] || k->hit_breakdown[1]) 
+  {
     if (k->hit_breakdown[0] && k->hit_breakdown[0][0] && k->dam_breakdown[0])
-      send_to_char(ch, "Primary attack: @y%s.@n", k->hit_breakdown[0]);
+      {
+        send_to_char(ch, "Primary attack: @y%s.@n", k->hit_breakdown[0]);
+    }
       if (k->dam_breakdown[0])
-        send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[0],
-                     k->crit_breakdown[0] ? k->crit_breakdown[0] : "");
+        send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[0], k->crit_breakdown[0] ? k->crit_breakdown[0] : "");
       else
         send_to_char(ch, "\r\n");
       send_to_char(ch, "Offhand attack: @y%s.@n", k->hit_breakdown[1]);
@@ -2470,113 +2472,116 @@ ACMD(do_zreset)
  */
 ACMD(do_wizutil)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  struct char_data *vict;
-  int taeller = 0;
-  long result;
+    char arg[MAX_INPUT_LENGTH]={'\0'};
+    struct char_data *vict;
+    int taeller = 0;
+    long result;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg)
-    send_to_char(ch, "Yes, but for whom?!?\r\n");
-  else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)))
-    send_to_char(ch, "There is no such player.\r\n");
-  else if (IS_NPC(vict))
-    send_to_char(ch, "You can't do that to a mob!\r\n");
-  else if (GET_ADMLEVEL(vict) > GET_ADMLEVEL(ch))
-    send_to_char(ch, "Hmmm...you'd better not.\r\n");
-  else {
-    switch (subcmd) {
-    case SCMD_REROLL:
-      send_to_char(ch, "Rerolled...\r\n");
-      roll_real_abils(vict);
-      log("(GC) %s has rerolled %s.", GET_NAME(ch), GET_NAME(vict));
-      send_to_char(ch, "New stats: Str %d, Int %d, Wis %d, Dex %d, Con %d, Cha %d\r\n",
-	      GET_STR(vict), GET_INT(vict), GET_WIS(vict),
-	      GET_DEX(vict), GET_CON(vict), GET_CHA(vict));
-      break;
-    case SCMD_PARDON:
-      if (!PLR_FLAGGED(vict, PLR_THIEF) &&  !PLR_FLAGGED(vict, PLR_KILLER)) {
-	send_to_char(ch, "Your victim is not flagged.\r\n");
-	return;
-      }
-      REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_THIEF);
-      REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_KILLER);
-      send_to_char(ch, "Pardoned.\r\n");
-      send_to_char(vict, "You have been pardoned by the Gods!\r\n");
-      mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s pardoned by %s", GET_NAME(vict), GET_NAME(ch));
-      break;
-    case SCMD_NOTITLE:
-      result = PLR_TOG_CHK(vict, PLR_NOTITLE);
-      mudlog(NRM, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) Notitle %s for %s by %s.",
-		ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-      send_to_char(ch, "(GC) Notitle %s for %s by %s.\r\n", ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-      break;
-    case SCMD_SQUELCH:
-      result = PLR_TOG_CHK(vict, PLR_NOSHOUT);
-      mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) Squelch %s for %s by %s.",
-		ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-      send_to_char(ch, "(GC) Squelch %s for %s by %s.\r\n", ONOFF(result), GET_NAME(vict), GET_NAME(ch));
-      break;
-    case SCMD_FREEZE:
-      if (ch == vict) {
-	send_to_char(ch, "Oh, yeah, THAT'S real smart...\r\n");
-	return;
-      }
-      if (PLR_FLAGGED(vict, PLR_FROZEN)) {
-	send_to_char(ch, "Your victim is already pretty cold.\r\n");
-	return;
-      }
-      SET_BIT_AR(PLR_FLAGS(vict), PLR_FROZEN);
-      GET_FREEZE_LEV(vict) = GET_ADMLEVEL(ch);
-      send_to_char(vict, "A bitter wind suddenly rises and drains every erg of heat from your body!\r\nYou feel frozen!\r\n");
-      send_to_char(ch, "Frozen.\r\n");
-      act("A sudden cold wind conjured from nowhere freezes $n!", FALSE, vict, 0, 0, TO_ROOM);
-      mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s frozen by %s.", GET_NAME(vict), GET_NAME(ch));
-      break;
-    case SCMD_THAW:
-      if (!PLR_FLAGGED(vict, PLR_FROZEN)) {
-	send_to_char(ch, "Sorry, your victim is not morbidly encased in ice at the moment.\r\n");
-	return;
-      }
-      if (GET_FREEZE_LEV(vict) > GET_ADMLEVEL(ch)) {
-	send_to_char(ch, "Sorry, a level %d God froze %s... you can't unfreeze %s.\r\n",
-		GET_FREEZE_LEV(vict), GET_NAME(vict), HMHR(vict));
-	return;
-      }
-      mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s un-frozen by %s.", GET_NAME(vict), GET_NAME(ch));
-      REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_FROZEN);
-      send_to_char(vict, "A fireball suddenly explodes in front of you, melting the ice!\r\nYou feel thawed.\r\n");
-      send_to_char(ch, "Thawed.\r\n");
-      act("A sudden fireball conjured from nowhere thaws $n!", FALSE, vict, 0, 0, TO_ROOM);
-      break;
-    case SCMD_UNAFFECT:
-      if (vict->affected || AFF_FLAGS(vict) || vict->affectedv) {
-        while (vict->affected)
-          affect_remove(vict, vict->affected);
-          for(taeller=0; taeller < AF_ARRAY_MAX; taeller++)
-          AFF_FLAGS(ch)[taeller] = 0;
-        while (vict->affectedv)
-          affectv_remove(vict, vict->affectedv);
-          for(taeller=0; taeller < AF_ARRAY_MAX; taeller++)
-          AFF_FLAGS(ch)[taeller] = 0;
-	send_to_char(vict, "There is a brief flash of light!\r\nYou feel slightly different.\r\n");
-	send_to_char(ch, "All spells removed.\r\n");
-      } else {
-	send_to_char(ch, "Your victim does not have any affections!\r\n");
-	return;
-      }
-      break;
-    default:
-      log("SYSERR: Unknown subcmd %d passed to do_wizutil (%s)", subcmd, __FILE__);
-      /*  SYSERR_DESC:
-       *  This is the same as the unhandled case in do_gen_ps(), but this
-       *  function handles 'reroll', 'pardon', 'freeze', etc.
-       */
-      break;
+    if (!*arg)
+        send_to_char(ch, "Yes, but for whom?!?\r\n");
+    else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)))
+        send_to_char(ch, "There is no such player.\r\n");
+    else if (IS_NPC(vict))
+        send_to_char(ch, "You can't do that to a mob!\r\n");
+    else if (GET_ADMLEVEL(vict) > GET_ADMLEVEL(ch))
+        send_to_char(ch, "Hmmm...you'd better not.\r\n");
+    else {
+        switch (subcmd) {
+            case SCMD_REROLL:
+            send_to_char(ch, "Rerolled...\r\n");
+            roll_real_abils(vict);
+            log("(GC) %s has rerolled %s.", GET_NAME(ch), GET_NAME(vict));
+            send_to_char(ch, "New stats: Str %d, Int %d, Wis %d, Dex %d, Con %d, Cha %d\r\n",
+                GET_STR(vict), GET_INT(vict), GET_WIS(vict),
+                GET_DEX(vict), GET_CON(vict), GET_CHA(vict));
+            break;
+            case SCMD_PARDON:
+            if (!PLR_FLAGGED(vict, PLR_THIEF) &&  !PLR_FLAGGED(vict, PLR_KILLER)) {
+                send_to_char(ch, "Your victim is not flagged.\r\n");
+                return;
+            }
+            REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_THIEF);
+            REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_KILLER);
+            send_to_char(ch, "Pardoned.\r\n");
+            send_to_char(vict, "You have been pardoned by the Gods!\r\n");
+            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s pardoned by %s", GET_NAME(vict), GET_NAME(ch));
+            break;
+            case SCMD_NOTITLE:
+            result = PLR_TOG_CHK(vict, PLR_NOTITLE);
+            mudlog(NRM, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) Notitle %s for %s by %s.",
+                ONOFF(result), GET_NAME(vict), GET_NAME(ch));
+            send_to_char(ch, "(GC) Notitle %s for %s by %s.\r\n", ONOFF(result), GET_NAME(vict), GET_NAME(ch));
+            break;
+            case SCMD_SQUELCH:
+            result = PLR_TOG_CHK(vict, PLR_NOSHOUT);
+            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) Squelch %s for %s by %s.",
+                ONOFF(result), GET_NAME(vict), GET_NAME(ch));
+            send_to_char(ch, "(GC) Squelch %s for %s by %s.\r\n", ONOFF(result), GET_NAME(vict), GET_NAME(ch));
+            break;
+            case SCMD_FREEZE:
+            if (ch == vict) {
+                send_to_char(ch, "Oh, yeah, THAT'S real smart...\r\n");
+                return;
+            }
+            if (PLR_FLAGGED(vict, PLR_FROZEN)) {
+                send_to_char(ch, "Your victim is already pretty cold.\r\n");
+                return;
+            }
+            SET_BIT_AR(PLR_FLAGS(vict), PLR_FROZEN);
+            GET_FREEZE_LEV(vict) = GET_ADMLEVEL(ch);
+            send_to_char(vict, "A bitter wind suddenly rises and drains every erg of heat from your body!\r\nYou feel frozen!\r\n");
+            send_to_char(ch, "Frozen.\r\n");
+            act("A sudden cold wind conjured from nowhere freezes $n!", FALSE, vict, 0, 0, TO_ROOM);
+            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s frozen by %s.", GET_NAME(vict), GET_NAME(ch));
+            break;
+            case SCMD_THAW:
+            if (!PLR_FLAGGED(vict, PLR_FROZEN)) {
+                send_to_char(ch, "Sorry, your victim is not morbidly encased in ice at the moment.\r\n");
+                return;
+            }
+            if (GET_FREEZE_LEV(vict) > GET_ADMLEVEL(ch)) {
+                send_to_char(ch, "Sorry, a level %d God froze %s... you can't unfreeze %s.\r\n",
+                    GET_FREEZE_LEV(vict), GET_NAME(vict), HMHR(vict));
+                return;
+            }
+            mudlog(BRF, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "(GC) %s un-frozen by %s.", GET_NAME(vict), GET_NAME(ch));
+            REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_FROZEN);
+            send_to_char(vict, "A fireball suddenly explodes in front of you, melting the ice!\r\nYou feel thawed.\r\n");
+            send_to_char(ch, "Thawed.\r\n");
+            act("A sudden fireball conjured from nowhere thaws $n!", FALSE, vict, 0, 0, TO_ROOM);
+            break;
+            case SCMD_UNAFFECT:
+            if (vict->affected || AFF_FLAGS(vict) || vict->affectedv) 
+            {
+                while (vict->affected)
+                    affect_remove(vict, vict->affected);
+                for(taeller=0; taeller < AF_ARRAY_MAX; taeller++)
+                    AFF_FLAGS(ch)[taeller] = 0;
+                while (vict->affectedv)
+                    affectv_remove(vict, vict->affectedv);
+                for(taeller=0; taeller < AF_ARRAY_MAX; taeller++)
+                    AFF_FLAGS(ch)[taeller] = 0;
+                send_to_char(vict, "There is a brief flash of light!\r\nYou feel slightly different.\r\n");
+                send_to_char(ch, "All spells removed.\r\n");
+            } 
+            else 
+            {
+                send_to_char(ch, "Your victim does not have any affections!\r\n");
+                return;
+            }
+            break;
+            default:
+            log("SYSERR: Unknown subcmd %d passed to do_wizutil (%s)", subcmd, __FILE__);
+/*  SYSERR_DESC:
+*  This is the same as the unhandled case in do_gen_ps(), but this
+*  function handles 'reroll', 'pardon', 'freeze', etc.
+*/
+            break;
+        }
+        save_char(vict);
     }
-    save_char(vict);
-  }
 }
 
 
@@ -4369,19 +4374,28 @@ ACMD(do_test)
 ACMD(do_feat_dump)
 {
     FILE *fp;
+    char error_buffer[MAX_STRING_LENGTH] = {'\0'};
     int sortpos = 0;
-    
-    fp=fopen("../data/dump_feats.txt", "w");
+
+    if ( !(fp = fopen("../dumps/dump_feats.txt", "w") ) )
+    {
+        snprintf(error_buffer, sizeof(error_buffer), "There was an error accessing dump_feats.txt.");
+        send_to_char(error_buffer, ch);
+        perror("../dumps/dump_feats.txt");
+    }
+
+
+    fp=fopen("../dumps/dump_feats.txt", "w");
     if (fp == NULL)
-      exit(-1);
+        exit(-1);
 
     fprintf(fp, "Feat Name|In-Game|Prerequisite|Description\n");
 
     for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
     {
-      int i = feat_sort_info[sortpos];
+        int i = feat_sort_info[sortpos];
 
-      fprintf(fp, "%s|%d|%s|%s\n", feat_list[i].name, feat_list[i].in_game, feat_list[i].prerequisites, feat_list[i].description);
+        fprintf(fp, "%s|%d|%s|%s\n", feat_list[i].name, feat_list[i].in_game, feat_list[i].prerequisites, feat_list[i].description);
     }
 
     fclose(fp);
@@ -4607,7 +4621,5 @@ ACMD(do_rebind)
     }
   }
 
-
   send_to_char(ch, "All bound items carried by %s have now been rebound to them.  (Items inside containers were skipped)\r\n", GET_NAME(vict));
-
 }

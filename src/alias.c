@@ -60,85 +60,88 @@ void write_aliases(struct char_data *ch)
 
 void read_aliases(struct char_data *ch)
 {   
-  FILE *file;
-  char xbuf[MAX_STRING_LENGTH]={'\0'};
-  struct alias_data *t2, *prev = NULL;
-  int length = 0;
+    FILE *file;
+    char xbuf[MAX_STRING_LENGTH]={'\0'};
+    struct alias_data *t2, *prev = NULL;
+    int length = 0;
 
-  get_filename(xbuf, sizeof(xbuf), ALIAS_FILE, GET_NAME(ch));
+    get_filename(xbuf, sizeof(xbuf), ALIAS_FILE, GET_NAME(ch));
 
-  if ((file = fopen(xbuf, "r")) == NULL) {
-    if (errno != ENOENT) {
-      log("SYSERR: Couldn't open alias file '%s' for %s: %s", xbuf, GET_NAME(ch), strerror(errno));
-      /*  SYSERR_DESC:
-       *  This error occurs when the server fails to open the relevant alias
-       *  file for reading.  The text at the end version should give a valid
-       *  reason why.
-       */
+    if ((file = fopen(xbuf, "r")) == NULL) {
+        if (errno != ENOENT) {
+            log("SYSERR: Couldn't open alias file '%s' for %s: %s", xbuf, GET_NAME(ch), strerror(errno));
+/*  SYSERR_DESC:
+*  This error occurs when the server fails to open the relevant alias
+*  file for reading.  The text at the end version should give a valid
+*  reason why.
+*/
+        }
+        return;
     }
+
+    CREATE(GET_ALIASES(ch), struct alias_data, 1);
+    t2 = GET_ALIASES(ch); 
+
+    char *trash = NULL;
+
+    for (;;) {
+/* Read the aliased command. */
+        if (fscanf(file, "%d\n", &length) != 1)
+            goto read_alias_error;
+
+        trash = fgets(xbuf, length + 1, file);
+        t2->alias = strdup(xbuf);
+
+/* Build the replacement. */
+        if (fscanf(file, "%d\n", &length) != 1)
+            goto read_alias_error;
+
+*xbuf = ' ';		/* Doesn't need terminated, fgets() will. */
+        trash = fgets(xbuf + 1, length + 1, file);
+
+        t2->replacement = strdup(xbuf); 
+
+/* Figure out the alias type. */
+        if (fscanf(file, "%d\n", &length) != 1)
+            goto read_alias_error;
+
+        t2->type = length; 
+
+        if (feof(file))
+            break;
+
+        CREATE(t2->next, struct alias_data, 1);
+        prev = t2;
+        t2 = t2->next;
+    }; 
+
+    fclose(file);
     return;
-  }
- 
-  CREATE(GET_ALIASES(ch), struct alias_data, 1);
-  t2 = GET_ALIASES(ch); 
 
-  char *trash = NULL;
-
-  for (;;) {
-    /* Read the aliased command. */
-    if (fscanf(file, "%d\n", &length) != 1)
-      goto read_alias_error;
-
-    trash = fgets(xbuf, length + 1, file);
-    t2->alias = strdup(xbuf);
-
-    /* Build the replacement. */
-    if (fscanf(file, "%d\n", &length) != 1)
-       goto read_alias_error;
-
-    *xbuf = ' ';		/* Doesn't need terminated, fgets() will. */
-    trash = fgets(xbuf + 1, length + 1, file);
-
-    t2->replacement = strdup(xbuf); 
-
-    /* Figure out the alias type. */
-    if (fscanf(file, "%d\n", &length) != 1)
-      goto read_alias_error;
-
-    t2->type = length; 
-
-    if (feof(file))
-      break;
-
-    CREATE(t2->next, struct alias_data, 1);
-    prev = t2;
-    t2 = t2->next;
-  }; 
-  
-  fclose(file);
-  return;
-
-read_alias_error:
-  if (t2->alias)
-    free(t2->alias);
-  free(t2);
-  if (prev)
-    prev->next = NULL;
-  fclose(file);
+    read_alias_error:
+    if (t2->alias)
+        free(t2->alias);
+    free(t2);
+    if (prev)
+        prev->next = NULL;
+    fclose(file);
 } 
 
 void delete_aliases(const char *charname)
 {
-  char filename[PATH_MAX]={'\0'};
+    char filename[PATH_MAX]={'\0'};
 
-  if (!get_filename(filename, sizeof(filename), ALIAS_FILE, charname))
-    return;
+    if (!get_filename(filename, sizeof(filename), ALIAS_FILE, charname))
+        {
+            return;
+        }
 
-  if (remove(filename) < 0 && errno != ENOENT)
-    log("SYSERR: deleting alias file %s: %s", filename, strerror(errno));
-    /*  SYSERR_DESC:
-     *  When an alias file cannot be removed, this error will occur,
-     *  and the reason why will be the tail end of the error.
-     */
+    if (remove(filename) < 0 && errno != ENOENT)
+        {
+            log("SYSERR: deleting alias file %s: %s", filename, strerror(errno));
+        }
+/*  SYSERR_DESC:
+*  When an alias file cannot be removed, this error will occur,
+*  and the reason why will be the tail end of the error.
+*/
 }
-

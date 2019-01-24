@@ -2190,7 +2190,8 @@ int class_template[NUM_CLASSES][6] = {
    total 80 before racial modifiers. Non defaults add up to 60. */
 void cedit_creation(struct char_data *ch)
 {
-  switch (CONFIG_CREATION_METHOD) {
+  switch (CONFIG_CREATION_METHOD) 
+  {
     case CEDIT_CREATION_METHOD_3: /* Points Pool */
       ch->real_abils.str = 10;
       ch->real_abils.dex = 10;
@@ -2222,6 +2223,7 @@ void cedit_creation(struct char_data *ch)
       break;
   }
 }
+
 /*
  * Roll the 6 stats for a character... each stat is made of some combination
  * of 6-sided dice with various rolls discarded.  Each class then decides
@@ -4340,7 +4342,9 @@ char *class_desc_str(struct char_data *ch, int howlong, int wantthe)
     char *buf, *buf2, *buf3;
 
     if (wantthe)
+    {
         ptr += sprintf(str, "the ");
+    }
 
     if (howlong) 
     {
@@ -4356,14 +4360,17 @@ char *class_desc_str(struct char_data *ch, int howlong, int wantthe)
             cabbr_ranktable[i] = GET_CLASS_RANKS(ch, i);
             rankorder[i] = i;
         }
-rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
+        rankorder[0] = GET_CLASS(ch); 
+        /* we always want primary class first */
         rankorder[GET_CLASS(ch)] = 0;
         qsort((void *)rankorder, NUM_CLASSES, sizeof(int), comp_rank);
         for (i = 0; i < NUM_CLASSES; i++) 
         {
             rank = rankorder[i];
             if (cabbr_ranktable[rank] == 0)
+            {
                 continue;
+            }
             ptr += snprintf(ptr, sizeof(str) - (ptr - str), "%s%s%s%s%s%d", buf, buf2, buf,
                 CONFIG_CAMPAIGN == CAMPAIGN_GOLARION ? 
                 (howlong == 2 ? (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core) : class_abbrevs_core)[rank] : 
@@ -4371,7 +4378,9 @@ rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
                 buf3, cabbr_ranktable[rank]);
             buf2 = "/";
             if (howlong == 2)
+            {
                 buf = " ";
+            }
         }
         return str;
     } 
@@ -4380,15 +4389,17 @@ rankorder[0] = GET_CLASS(ch); /* we always want primary class first */
         rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
         j = GET_CLASS(ch);
         for (i = 0; i < NUM_CLASSES; i++)
+        {
             if (GET_CLASS_RANKS(ch, i) > rank) 
             {
                 j = i;
                 rank = GET_CLASS_RANKS(ch, j);
             }
-            rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
-            snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[GET_CLASS(ch)],
-                rank, GET_LEVEL(ch) == rank ? "" : "+");
-            return str;
+        }
+        rank = GET_CLASS_RANKS(ch, GET_CLASS(ch));
+        snprintf(ptr, sizeof(str) - (ptr - str), "%s%d%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[GET_CLASS(ch)],
+            rank, GET_LEVEL(ch) == rank ? "" : "+");
+        return str;
     }
 }
 
@@ -4402,102 +4413,159 @@ int total_skill_levels(struct char_data *ch, int skill)
   }
   return total;
 }
+
 int load_levels()
 {
-  FILE *fp;
-  char line[READ_SIZE]={'\0'}, sect_name[READ_SIZE] = { '\0' }, *ptr;
-  int  linenum = 0, tp, cls, sect_type = -1;
-  if (!(fp = fopen(LEVEL_CONFIG, "r"))) 
-  {
-    log("SYSERR: Could not open level configuration file, error: %s!", 
-         strerror(errno));
-    return -1;
-  }
-  for (tp = 0; tp < NUM_CLASSES; tp++) {
-    for (cls = 0; cls <= SAVING_WILL; cls++) {
-      save_classes[cls][tp] = 0;
-    }
-    basehit_classes[tp] = 0;
-  }
-  for (;;) {
-    linenum++;
-    if (!fgets(line, READ_SIZE, fp)) {  /* eof check */
-      log("SYSERR: Unexpected EOF in file %s.", LEVEL_CONFIG);
-      return -1;
-    } else if (*line == '$') { /* end of file */
-      break;
-    } else if (*line == '*') { /* comment line */
-      continue;
-    } else if (*line == '#') { /* start of a section */
-      if ((tp = sscanf(line, "#%s", sect_name)) != 1) {
-        log("SYSERR: Format error in file %s, line number %d - text: %s.", 
-             LEVEL_CONFIG, linenum, line);
+    FILE *fp;
+    char line[READ_SIZE]={'\0'}, sect_name[READ_SIZE] = { '\0' }, *ptr;
+    int  linenum = 0, tp, cls, sect_type = -1;
+    if (!(fp = fopen(LEVEL_CONFIG, "r"))) 
+    {
+        log("SYSERR: Could not open level configuration file, error: %s!", strerror(errno));
         return -1;
-      } else if ((sect_type = search_block(sect_name, config_sect, false)) == -1) {
-          log("SYSERR: Invalid section in file %s, line number %d: %s.", 
-              LEVEL_CONFIG, linenum, sect_name);
-          return -1;
-      }
-    } else {
-      if (sect_type == CONFIG_LEVEL_VERSION) {
-        if (!strncmp(line, "Suntzu", 6)) {
-          log("SYSERR: Suntzu %s config files are not compatible with rasputin", LEVEL_CONFIG);
-          return -1;
-        } else
-          strcpy(level_version, line); /* OK - both are READ_SIZE] */
-      } else if (sect_type == CONFIG_LEVEL_VERNUM) {
-	level_vernum = atoi(line);
-      } else if (sect_type == CONFIG_LEVEL_EXPERIENCE) {
-        tp = atoi(line);
-        exp_multiplier = tp;
-      } else if ((sect_type >= CONFIG_LEVEL_FORTITUDE && sect_type <= CONFIG_LEVEL_WILL) ||
-                 sect_type == CONFIG_LEVEL_BASEHIT) {
-        for (ptr = line; ptr && *ptr && !isdigit(*ptr); ptr++);
-        if (!ptr || !*ptr || !isdigit(*ptr)) {
-          log("SYSERR: Cannot find class number in file %s, line number %d, section %s.", 
-              LEVEL_CONFIG, linenum, sect_name);
-          return -1;
-        }
-        cls = atoi(ptr);
-        for (; ptr && *ptr && isdigit(*ptr); ptr++);
-        for (; ptr && *ptr && !isdigit(*ptr); ptr++);
-        if (ptr && *ptr && !isdigit(*ptr)) {
-          log("SYSERR: Non-numeric entry in file %s, line number %d, section %s.", 
-              LEVEL_CONFIG, linenum, sect_name);
-          return -1;
-        }
-        if (ptr && *ptr) /* There's a value */
-          tp = atoi(ptr);
-        else {
-          log("SYSERR: Need 1 value in %s, line number %d, section %s.", 
-              LEVEL_CONFIG, linenum, sect_name);
-          return -1;
-        }
-        if (cls < 0 || cls >= NUM_CLASSES) {
-          log("SYSERR: Invalid class number %d in file %s, line number %d.", 
-              cls, LEVEL_CONFIG, linenum);
-          return -1;
-        } else {
-          if (sect_type == CONFIG_LEVEL_BASEHIT)
-            basehit_classes[cls] = tp;
-          else
-            save_classes[SAVING_FORTITUDE + sect_type - CONFIG_LEVEL_FORTITUDE][cls] = tp;
-        }
-      } else {
-        log("Unsupported level config option");
-      }
     }
-  }
-  fclose(fp);
-  for (cls = 0; cls < NUM_CLASSES; cls++)
-    log("Base hit for class %s: %s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls], basehit_type_names[basehit_classes[cls]]);
-  for (cls = 0; cls < NUM_CLASSES; cls++)
-    log("Saves for class %s: fort=%s, reflex=%s, will=%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls],
-        save_type_names[save_classes[SAVING_FORTITUDE][cls]],
-        save_type_names[save_classes[SAVING_REFLEX][cls]],
-        save_type_names[save_classes[SAVING_WILL][cls]]);
-  return 0;
+    for (tp = 0; tp < NUM_CLASSES; tp++) 
+    {
+        for (cls = 0; cls <= SAVING_WILL; cls++) 
+        {
+            save_classes[cls][tp] = 0;
+        }
+        basehit_classes[tp] = 0;
+    }
+    for (;;) 
+    {
+        linenum++;
+        if (!fgets(line, READ_SIZE, fp)) 
+        {  
+            /* eof check */
+            log("SYSERR: Unexpected EOF in file %s.", LEVEL_CONFIG);
+            return -1;
+        } 
+        else if (*line == '$') 
+        { 
+            /* end of file */
+            break;
+        } 
+        else if (*line == '*') 
+        { 
+            /* comment line */
+            continue;
+        } 
+        else if (*line == '#') 
+        { 
+            /* start of a section */
+            if ((tp = sscanf(line, "#%s", sect_name)) != 1) 
+            {
+                log("SYSERR: Format error in file %s, line number %d - text: %s.", LEVEL_CONFIG, linenum, line);
+                return -1;
+            } 
+            else if ((sect_type = search_block(sect_name, config_sect, false)) == -1) 
+            {
+                log("SYSERR: Invalid section in file %s, line number %d: %s.", LEVEL_CONFIG, linenum, sect_name);
+                return -1;
+            }
+        } 
+        else 
+        {
+            if (sect_type == CONFIG_LEVEL_VERSION) 
+            {
+                if (!strncmp(line, "Suntzu", 6)) 
+                {
+                    log("SYSERR: Suntzu %s config files are not compatible with rasputin", LEVEL_CONFIG);
+                    return -1;
+                } 
+                else
+                {
+                    strcpy(level_version, line); 
+                }
+
+            } 
+            else if (sect_type == CONFIG_LEVEL_VERNUM) 
+            {
+                level_vernum = atoi(line);
+            } 
+            else if (sect_type == CONFIG_LEVEL_EXPERIENCE) 
+            {
+                tp = atoi(line);
+                exp_multiplier = tp;
+            } 
+            else if ((sect_type >= CONFIG_LEVEL_FORTITUDE && sect_type <= CONFIG_LEVEL_WILL) || sect_type == CONFIG_LEVEL_BASEHIT) 
+            {
+                for (ptr = line; ptr && *ptr && !isdigit(*ptr); ptr++);
+                {
+                    if (!ptr || !*ptr || !isdigit(*ptr)) 
+                    {
+                        log("SYSERR: Cannot find class number in file %s, line number %d, section %s.", 
+                            LEVEL_CONFIG, linenum, sect_name);
+                        return -1;
+                    }
+                }
+
+                cls = atoi(ptr);
+
+                for (; ptr && *ptr && isdigit(*ptr); ptr++);
+                {
+                    for (; ptr && *ptr && !isdigit(*ptr); ptr++);
+                    {
+                        if (ptr && *ptr && !isdigit(*ptr)) 
+                        {
+                            log("SYSERR: Non-numeric entry in file %s, line number %d, section %s.", 
+                                LEVEL_CONFIG, linenum, sect_name);
+                            return -1;
+                        }
+                    }
+                }
+
+                if (ptr && *ptr) 
+                {
+                                /* There's a value */
+                    tp = atoi(ptr);
+                }
+                else 
+                {
+                    log("SYSERR: Need 1 value in %s, line number %d, section %s.", 
+                        LEVEL_CONFIG, linenum, sect_name);
+                    return -1;
+                }
+                if (cls < 0 || cls >= NUM_CLASSES) 
+                {
+                    log("SYSERR: Invalid class number %d in file %s, line number %d.", 
+                        cls, LEVEL_CONFIG, linenum);
+                    return -1;
+                } 
+                else 
+                {
+                    if (sect_type == CONFIG_LEVEL_BASEHIT)
+                    {
+                        basehit_classes[cls] = tp;
+                    }
+                    else
+                    {
+                        save_classes[SAVING_FORTITUDE + sect_type - CONFIG_LEVEL_FORTITUDE][cls] = tp;
+                    }
+                }
+            } 
+            else 
+            {
+                log("Unsupported level config option");
+            }
+        }
+    }
+    fclose(fp);
+    for (cls = 0; cls < NUM_CLASSES; cls++)
+    {
+        log("Base hit for class %s: %s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls], basehit_type_names[basehit_classes[cls]]);
+    }
+    for (cls = 0; cls < NUM_CLASSES; cls++)
+    {
+        log("Saves for class %s: fort=%s, reflex=%s, will=%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls],
+            save_type_names[save_classes[SAVING_FORTITUDE][cls]],
+            save_type_names[save_classes[SAVING_REFLEX][cls]],
+            save_type_names[save_classes[SAVING_WILL][cls]]);
+    }
+    return 0;
 }
+
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 int highest_skill_value(int level, int type)
 {
@@ -4782,7 +4850,6 @@ const int class_feats_wizard[] =
  */
 const int class_feats_rogue[] = 
 {
-  FEAT_SELF_CONCEALMENT,
   FEAT_SNEAK_ATTACK_OF_OPPORTUNITY,
   FEAT_BLIND_FIGHT,
   FEAT_CLEAVE,
@@ -4849,7 +4916,6 @@ const int class_feats_rogue[] =
 };
 const int class_feats_fighter[] = 
 {
-  FEAT_EPIC_PROWESS,
   FEAT_SWARM_OF_ARROWS,
   FEAT_BLIND_FIGHT,
   FEAT_CLEAVE,
@@ -4902,7 +4968,6 @@ const int class_feats_fighter[] =
   FEAT_WHIRLWIND_ATTACK,
   FEAT_DAMAGE_REDUCTION,
   FEAT_FAST_HEALING,
-  FEAT_ARMOR_SKIN,
   FEAT_ARMOR_SPECIALIZATION_LIGHT,
   FEAT_ARMOR_SPECIALIZATION_MEDIUM,
   FEAT_ARMOR_SPECIALIZATION_HEAVY,
@@ -4917,7 +4982,6 @@ const int class_feats_fighter[] =
 
 const int class_feats_arcane_archer[] = 
 {
-  FEAT_EPIC_PROWESS,
   FEAT_EPIC_TOUGHNESS,
   FEAT_SWARM_OF_ARROWS,  
   FEAT_UNDEFINED,
@@ -4927,13 +4991,11 @@ const int class_feats_arcane_trickster[] =
 {
   FEAT_SNEAK_ATTACK,
   FEAT_SNEAK_ATTACK_OF_OPPORTUNITY,
-  FEAT_SELF_CONCEALMENT,
   FEAT_UNDEFINED
 };
 
 const int class_feats_eldritch_knight[] = 
 {
-  FEAT_EPIC_PROWESS,
   FEAT_SWARM_OF_ARROWS,
   FEAT_BLIND_FIGHT,
   FEAT_CLEAVE,
@@ -4985,7 +5047,6 @@ const int class_feats_eldritch_knight[] =
   FEAT_WEAPON_SPECIALIZATION,
   FEAT_WHIRLWIND_ATTACK,
   FEAT_DAMAGE_REDUCTION,
-  FEAT_ARMOR_SKIN,
   FEAT_EPIC_SPELLCASTING,
   FEAT_PERFECT_TWO_WEAPON_FIGHTING,
   FEAT_EPIC_TOUGHNESS,
@@ -4994,7 +5055,6 @@ const int class_feats_eldritch_knight[] =
 
 const int class_feats_favored_soul[] = 
 {
-  FEAT_ARMOR_SKIN,
   FEAT_EPIC_SPELLCASTING,
   FEAT_UNDEFINED
 };
@@ -5006,8 +5066,6 @@ const int class_feats_assassin[] = {
 const int class_feats_paladin[] = 
 {
   FEAT_DAMAGE_REDUCTION,
-  FEAT_EPIC_PROWESS,
-  FEAT_ARMOR_SKIN,
   FEAT_GREAT_SMITING,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
@@ -5015,8 +5073,6 @@ const int class_feats_paladin[] =
 const int class_feats_monk[] = 
 {
   FEAT_STUNNING_FIST,
-  FEAT_EPIC_PROWESS,
-  FEAT_SELF_CONCEALMENT,
   FEAT_IMPROVED_TRIP,
   FEAT_DEFLECT_ARROWS,
   FEAT_COMBAT_REFLEXES,
@@ -5033,7 +5089,6 @@ const int class_feats_druid[] =
 const int class_feats_barbarian[] = 
 {
   FEAT_FAST_HEALING,
-  FEAT_EPIC_PROWESS,
   FEAT_DAMAGE_REDUCTION,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
@@ -5041,7 +5096,6 @@ const int class_feats_barbarian[] =
 const int class_feats_ranger[] = {
 
   FEAT_FAST_HEALING,
-  FEAT_EPIC_PROWESS,
   FEAT_SWARM_OF_ARROWS,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
@@ -5049,25 +5103,19 @@ const int class_feats_ranger[] = {
 const int class_feats_defender[] = 
 {
   FEAT_FAST_HEALING,
-  FEAT_EPIC_PROWESS,
   FEAT_DAMAGE_REDUCTION,
-  FEAT_ARMOR_SKIN,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_champion[] = 
 {
   FEAT_DAMAGE_REDUCTION,
-  FEAT_ARMOR_SKIN,
-  FEAT_EPIC_PROWESS,
   FEAT_GREAT_SMITING,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_dragon_disciple[] = 
 {
-  FEAT_ARMOR_SKIN,
-  FEAT_EPIC_PROWESS,
   FEAT_DAMAGE_REDUCTION,
   FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
@@ -5767,5 +5815,4 @@ ACMD(do_classabilities)
       send_to_char(ch, "%2d) no ability gain this level\r\n", j);
     }
   }
-
 }

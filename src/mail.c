@@ -677,14 +677,14 @@ void postmaster_receive_mail(struct char_data *ch, struct char_data *mailman, in
 
 void notify_if_playing(struct char_data *from, int recipient_id)
 {
-  struct descriptor_data *d;
+    struct descriptor_data *d;
 
-  for (d = descriptor_list; d; d = d->next)
-  {
-    if ((IS_PLAYING(d)) && (GET_IDNUM(d->character) == recipient_id) && (has_mail(GET_IDNUM(d->character))))
+    for (d = descriptor_list; d; d = d->next)
     {
-      send_to_char(d->character, "\r\n\007\007\007@G@lYou have new mudmail from %s.@n\r\n", GET_NAME(from));
+        if ((IS_PLAYING(d)) && (GET_IDNUM(d->character) == recipient_id) && (has_mail(GET_IDNUM(d->character))))
+        {
+            send_to_char(d->character, "\r\n\007\007\007@G@lYou have new mudmail from %s.@n\r\n", GET_NAME(from));
+        }
     }
-  }
 } 
 

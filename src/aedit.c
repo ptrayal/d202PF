@@ -45,85 +45,91 @@ int aedit_find_command(const char *txt);
 
 ACMD(do_oasis_aedit)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  struct descriptor_data *d;
-  
-  if (CONFIG_NEW_SOCIALS == 0) 
-  {
-    send_to_char(ch, "Socials cannot be edited at the moment.\r\n");
-    return;
-  }
+    char arg[MAX_INPUT_LENGTH]={'\0'};
+    struct descriptor_data *d;
 
-  if (GET_OLC_ZONE(ch) != AEDIT_PERMISSION && GET_ADMLEVEL(ch) < ADMLVL_IMPL) 
-  {
-    send_to_char(ch, "You don't have access to editing socials.\r\n");
-    return;
-  }
-
-  for (d = descriptor_list; d; d = d->next)
-    if (STATE(d) == CON_AEDIT) 
+    if (CONFIG_NEW_SOCIALS == 0) 
     {
-      send_to_char(ch, "Sorry, only one can edit socials at a time.\r\n");
-      return;
+        send_to_char(ch, "Socials cannot be edited at the moment.\r\n");
+        return;
     }
 
-  one_argument(argument, arg);
-    
-  if (!*arg) 
-  {
-    send_to_char(ch, "Please specify a social to edit.\r\n");
-    return;
-  }
-
-  d = ch->desc;
-
-  if (!str_cmp("save", arg)) 
-  {
-    mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves socials.", GET_NAME(ch));
-    send_to_char(ch, "Writing social file..\r\n");
-    aedit_save_to_disk(d);
-    send_to_char(ch, "Done.\r\n");
-    return;
-  }
-  
-  /*
-   * Give descriptor an OLC structure.
-   */
-  if (d->olc) 
-  {
-    mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_oasis: Player already had olc structure.");
-    free(d->olc);
-  }
-  CREATE(d->olc, struct oasis_olc_data, 1);
-
-  OLC_NUM(d) = 0;
-  OLC_STORAGE(d) = strdup(arg);
-  
-  for (OLC_ZNUM(d) = 0; (OLC_ZNUM(d) <= top_of_socialt); OLC_ZNUM(d)++)  
-    if (is_abbrev(OLC_STORAGE(d), soc_mess_list[OLC_ZNUM(d)].command))
-      break;
-
-  if (OLC_ZNUM(d) > top_of_socialt)  
-  {
-    int i = 0;
-    if ((i = aedit_find_command(OLC_STORAGE(d))) != -1)  
+    if (GET_OLC_ZONE(ch) != AEDIT_PERMISSION && GET_ADMLEVEL(ch) < ADMLVL_IMPL) 
     {
-      send_to_char(ch, "The '%s' command already exists (%s).\r\n", OLC_STORAGE(d), complete_cmd_info[i].command);
-      cleanup_olc(d, CLEANUP_ALL);
-      return;
+        send_to_char(ch, "You don't have access to editing socials.\r\n");
+        return;
     }
-    send_to_char(ch, "Do you wish to add the '%s' action? ", OLC_STORAGE(d));
-    OLC_MODE(d) = AEDIT_CONFIRM_ADD;
-  } 
-  else 
-  {
-    send_to_char(ch, "Do you wish to edit the '%s' action? ", soc_mess_list[OLC_ZNUM(d)].command);
-    OLC_MODE(d) = AEDIT_CONFIRM_EDIT;
-  }
-  STATE(d) = CON_AEDIT;
-  act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
-  SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-  mudlog(CMP, ADMLVL_IMMORT, TRUE, "OLC: %s starts editing actions.", GET_NAME(ch));
+
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if (STATE(d) == CON_AEDIT) 
+        {
+            send_to_char(ch, "Sorry, only one can edit socials at a time.\r\n");
+            return;
+        }
+    }
+
+    one_argument(argument, arg);
+
+    if (!*arg) 
+    {
+        send_to_char(ch, "Please specify a social to edit.\r\n");
+        return;
+    }
+
+    d = ch->desc;
+
+    if (!str_cmp("save", arg)) 
+    {
+        mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves socials.", GET_NAME(ch));
+        send_to_char(ch, "Writing social file..\r\n");
+        aedit_save_to_disk(d);
+        send_to_char(ch, "Done.\r\n");
+        return;
+    }
+
+/*
+* Give descriptor an OLC structure.
+*/
+    if (d->olc) 
+    {
+        mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_oasis: Player already had olc structure.");
+        free(d->olc);
+    }
+    CREATE(d->olc, struct oasis_olc_data, 1);
+
+    OLC_NUM(d) = 0;
+    OLC_STORAGE(d) = strdup(arg);
+
+    for (OLC_ZNUM(d) = 0; (OLC_ZNUM(d) <= top_of_socialt); OLC_ZNUM(d)++)  
+    {
+        if (is_abbrev(OLC_STORAGE(d), soc_mess_list[OLC_ZNUM(d)].command))
+        {
+            break;
+        }
+    }
+
+    if (OLC_ZNUM(d) > top_of_socialt)  
+    {
+        int i = 0;
+        if ((i = aedit_find_command(OLC_STORAGE(d))) != -1)  
+        {
+            send_to_char(ch, "The '%s' command already exists (%s).\r\n", OLC_STORAGE(d), complete_cmd_info[i].command);
+            cleanup_olc(d, CLEANUP_ALL);
+            return;
+        }
+        send_to_char(ch, "Do you wish to add the '%s' action? ", OLC_STORAGE(d));
+        OLC_MODE(d) = AEDIT_CONFIRM_ADD;
+    } 
+    else 
+    {
+        send_to_char(ch, "Do you wish to edit the '%s' action? ", soc_mess_list[OLC_ZNUM(d)].command);
+        OLC_MODE(d) = AEDIT_CONFIRM_EDIT;
+    }
+    STATE(d) = CON_AEDIT;
+    act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
+    SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+    mudlog(CMP, ADMLVL_IMMORT, TRUE, "OLC: %s starts editing actions.", GET_NAME(ch));
 }
 
 
@@ -825,12 +831,15 @@ ACMD(do_astat)
 
 int aedit_find_command(const char *txt)
 {
-  int cmd;
+    int cmd = 0;
 
-  for (cmd = 1; *complete_cmd_info[cmd].command != '\n'; cmd++)
-    if (!strncmp(complete_cmd_info[cmd].sort_as, txt, strlen(txt)) ||
-        !strcmp(complete_cmd_info[cmd].command, txt))
-      return (cmd);
-  return (-1);
+    for (cmd = 1; *complete_cmd_info[cmd].command != '\n'; cmd++)
+    {
+        if (!strncmp(complete_cmd_info[cmd].sort_as, txt, strlen(txt)) ||
+            !strcmp(complete_cmd_info[cmd].command, txt))
+        {
+            return (cmd);
+        }
+    }
+    return (-1);
 }
-

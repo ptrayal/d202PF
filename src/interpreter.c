@@ -1889,28 +1889,36 @@ void display_classes(struct descriptor_data *d)
 
 void display_races_help(struct descriptor_data *d)
 {
-  int x;
+    int x = 0;
 
-  send_to_char(d->character, "\r\n@YRace HELP menu:\r\n@G---------------------------\r\n@n");
-  for (x = 0; x < NUM_RACES; x++)
-    if (race_ok_gender[(int)GET_SEX(d->character)][x])
-      send_to_char(d->character, "%2d) %s\r\n", x+1, pc_race_types[x]);
+    send_to_char(d->character, "\r\n@YRace HELP menu:\r\n@G---------------------------\r\n@n");
+    for (x = 0; x < NUM_RACES; x++)
+    {
+        if (race_ok_gender[(int)GET_SEX(d->character)][x])
+        {
+            send_to_char(d->character, "%2d) %s\r\n", x+1, pc_race_types[x]);
+        }
+    }
 
-      send_to_char(d->character, "\n@BT@W) @CToggle between SELECTION/HELP Menu\r\n@n");
-      send_to_char(d->character, "\n@WHelp on Race #: @n");
+    send_to_char(d->character, "\n@BT@W) @CToggle between SELECTION/HELP Menu\r\n@n");
+    send_to_char(d->character, "\n@WHelp on Race #: @n");
 }
 
 void display_classes_help(struct descriptor_data *d)
 {
-  int x;
+    int x = 0;
 
-  send_to_char(d->character, "\r\n@YClass HELP menu:\r\n@G--------------------------\r\n@n");
-  for (x = 0; x < NUM_CLASSES; x++)
-    if (class_ok_general(d->character, x))
-      send_to_char(d->character, "%2d) %s\r\n", x+1, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[x]);
+    send_to_char(d->character, "\r\n@YClass HELP menu:\r\n@G--------------------------\r\n@n");
+    for (x = 0; x < NUM_CLASSES; x++)
+    {
+        if (class_ok_general(d->character, x))
+        {
+            send_to_char(d->character, "%2d) %s\r\n", x+1, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[x]);
+        }
+    }
 
-      send_to_char(d->character, "\n@BT@W) @CToggle between SELECTION/HELP Menu\r\n@n");
-      send_to_char(d->character, "\n@WHelp on Class #: @n");
+    send_to_char(d->character, "\n@BT@W) @CToggle between SELECTION/HELP Menu\r\n@n");
+    send_to_char(d->character, "\n@WHelp on Class #: @n");
 }
 
 /*
@@ -2324,12 +2332,17 @@ int enter_player_game (struct descriptor_data *d)
     sprintf(query, "SELECT extra_account_exp FROM player_extra_data WHERE name='%s'", GET_NAME(i));
     mysql_query(conn, query);
     res = mysql_use_result(conn);
-    if (res != NULL) {
-      if ((row = mysql_fetch_row(res)) != NULL) {
-        if (atoi(row[0]) > GET_EXTRA_ACC_EXP(i)) {
+    if (res != NULL) 
+    {
+      if ((row = mysql_fetch_row(res)) != NULL) 
+      {
+        if (atoi(row[0]) > GET_EXTRA_ACC_EXP(i)) 
+        {
         int acc_exp = atoi(row[0]) - GET_EXTRA_ACC_EXP(i);
         if (i->desc && i->desc->account)
-          i->desc->account->experience += acc_exp * 3;
+          {
+            i->desc->account->experience += acc_exp * 3;
+        }
           send_to_char(i, "You have gained %d account experience for modifying your character background and personality online!\r\n", acc_exp);
           int k = 0;
           for (k = 0; k < ((acc_exp) / 500); k++)
@@ -3457,10 +3470,13 @@ void nanny(struct descriptor_data *d, char *arg)
 	  class = (ubyte) atoi(arg);
 
 	  half_chop(arg, arg1, argument);
-          if (is_abbrev(arg1, "help")) {
+          if (is_abbrev(arg1, "help")) 
+          {
             do_help(ch, argument, 0, 0);
             return;
-          } else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) {
+          } 
+          else if (is_abbrev(arg1, "show") || is_abbrev(arg1, "list") || is_abbrev(arg1, "display")) 
+          {
             display_levelup_classes(d);
             return;
           }
@@ -4670,23 +4686,30 @@ char *one_arg_dots(char *argument, char *first_arg)
 
 void display_levelup_classes(struct descriptor_data *d)
 {
-	int i = 0;
-	int count = 0;
+    int i = 0;
+    int count = 0;
 
-	for (i = 0; i < TOP_PC_CLASS; i++)
-  {
-		if (i == CLASS_NPC_EXPERT || i == CLASS_CLASSLESS || i == CLASS_ARTISAN || class_in_game_dl_aol[i] == FALSE)
-			continue;
-		write_to_output(d, "%s%2d) %-30s   @n", do_class_ok_general(d->character, i, FALSE) > 0 ? "@y" : "@r", i + 1, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[i]);
-		if (count % 2 == 1)
-			write_to_output(d, "\r\n");
-		count++;
-	}
-	if (count % 2 == 0)
-		write_to_output(d, "\r\n");
-	write_to_output(d, "\r\n");
+    for (i = 0; i < TOP_PC_CLASS; i++)
+    {
+        if (i == CLASS_NPC_EXPERT || i == CLASS_CLASSLESS || i == CLASS_ARTISAN || class_in_game_dl_aol[i] == FALSE)
+        {
+            continue;
+        }
+        write_to_output(d, "%s%2d) %-30s   @n", do_class_ok_general(d->character, i, FALSE) > 0 ? "@y" : "@r", i + 1, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[i]);
+        if (count % 2 == 1)
+        {
+            write_to_output(d, "\r\n");
+        }
+        count++;
+    }
+    if (count % 2 == 0)
+    {
+        write_to_output(d, "\r\n");
+    }
+    write_to_output(d, "\r\n");
 
-	write_to_output(d, "Please select a class from the list (@yyellow@n signifies you qualify for the class requirements, @rred@n signifies you do not)\r\nYour selection: ");
+    write_to_output(d, "Please select a class from the list (@yyellow@n signifies you qualify for the class requirements, @rred@n signifies you do not)\r\n");
+    write_to_output(d, "Your selection: ");
 }
 
 void init_levelup(struct char_data *ch)
@@ -5106,15 +5129,6 @@ void process_add_feat(struct char_data *ch, int feat_num)
       return;
     }
     ch->imp_sneak_attack_feats++;
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    break;
-  case FEAT_ARMOR_SKIN:
-    if (ch->armor_skin_feats == 5) {
-      send_to_char(ch, "You can only take the armor skin feat 5 times.\r\n");
-      return;
-    }
-    ch->armor_skin_feats++;
     subval = HAS_FEAT(ch, feat_num) + 1;
     SET_FEAT(ch, feat_num, subval);
     break;

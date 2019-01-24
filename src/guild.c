@@ -203,59 +203,74 @@ void show_skills(struct char_data *ch)
 void display_levelup_skills(struct char_data *ch, int langs)
 {
 
-  int i = 0;
-  int count = 0;
+    int i = 0;
+    int count = 0;
 
-    send_to_char(ch, "\r\n@WSkill Points: @Y%d@n\r\n\r\n", ch->levelup->practices);
+    send_to_char(ch, "\r\n@WSkill Points: @Y%d@n\r\n", ch->levelup->practices);
     send_to_char(ch, "\r\n@WSkills:@n\r\n\r\n");
 
-    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) {
-      if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <=
-          SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CLASS || spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CROSSCLASS) &&
-          !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) {
-        send_to_char(ch, "%s%2d) %-20s: %2d [%2d] @n", spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CLASS ? "@y" : "@r", 
-spell_sort_info[i], spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
-        		GET_SKILL(ch, spell_sort_info[i]) + ch->levelup->skills[spell_sort_info[i]]);
-      }
-      else
-        continue;
-      if (count % 2 == 1 )
-        send_to_char(ch, "\r\n");
-      count++;
+    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
+    {
+        if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <=
+            SKILL_HIGH_SKILL) && (spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CLASS || spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CROSSCLASS) &&
+            !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
+        {
+            send_to_char(ch, "%s%2d) %-20s: %2d [%2d] @n", 
+                spell_info[spell_sort_info[i]].can_learn_skill[ch->levelup->class] == SKLEARN_CLASS ? "@y" : "@r", 
+                spell_sort_info[i], spell_info[spell_sort_info[i]].name, 
+                GET_SKILL(ch, spell_sort_info[i]),
+                GET_SKILL(ch, spell_sort_info[i]) + ch->levelup->skills[spell_sort_info[i]]);
+        }
+        else
+        {
+            continue;
+        }
+        if (count % 2 == 1 )
+        {
+            send_to_char(ch, "\r\n");
+        }
+        count++;
     }
 
     if (count % 2 == 1 )
-      send_to_char(ch, "\r\n");
-    send_to_char(ch, "\r\n");
-
-    if (langs) {
-
-    send_to_char(ch, "@WLanguages:@n\r\n\r\n");
-
-    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) {
-      if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) && spell_sort_info[i] >= SKILL_LANG_LOW && spell_sort_info[i] <=
-          SKILL_LANG_HIGH)) {
-        send_to_char(ch, "%s%2d) %-20s%s @n",  (GET_SKILL(ch, spell_sort_info[i]) + ch->levelup->skills[spell_sort_info[i]]) ? "@y" : "@r", spell_sort_info[i], 
-spell_info[spell_sort_info[i]].name, GET_SKILL(ch,
-                     spell_sort_info[i]) ? "@n" : "");
-      }
-      else
-        continue;
-      if (count % 2 == 1 )
+    {
         send_to_char(ch, "\r\n");
-      count++;
     }
-
-    if (count % 2 == 1 )
-      send_to_char(ch, "\r\n");
     send_to_char(ch, "\r\n");
 
+    if (langs) 
+    {
+
+        send_to_char(ch, "@WLanguages:@n\r\n\r\n");
+
+        for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
+        {
+            if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) && spell_sort_info[i] >= SKILL_LANG_LOW && spell_sort_info[i] <=
+                SKILL_LANG_HIGH)) 
+            {
+                send_to_char(ch, "%s%2d) %-20s%s @n",  (GET_SKILL(ch, spell_sort_info[i]) + ch->levelup->skills[spell_sort_info[i]]) ? "@y" : "@r", spell_sort_info[i], 
+                    spell_info[spell_sort_info[i]].name, GET_SKILL(ch,
+                        spell_sort_info[i]) ? "@n" : "");
+            }
+            else
+                continue;
+            if (count % 2 == 1 )
+                send_to_char(ch, "\r\n");
+            count++;
+        }
+
+        if (count % 2 == 1 )
+            send_to_char(ch, "\r\n");
+        send_to_char(ch, "\r\n");
+
     }
 
-  send_to_char(ch, "Format is <skill name> <base skill ranks> [<with levelup skill ranks>].\r\nClass Skill in @yyellow@n, Cross-Class in @rred@n.");
-  if (langs)
-	  send_to_char(ch, "Language known in @yyellow@n, unknown in @rred@n.");
-  send_to_char(ch, "\r\nWhat skill would you like to raise? (-1 to end)");
+    send_to_char(ch, "Format is <skill name> <base skill ranks> [<with levelup skill ranks>].\r\nClass Skill in @yyellow@n, Cross-Class in @rred@n.");
+    if (langs)
+    {
+        send_to_char(ch, "Language known in @yyellow@n, unknown in @rred@n.");
+    }
+    send_to_char(ch, "\r\nWhat skill would you like to raise? (-1 to end)");
 
 }
 
@@ -1328,15 +1343,6 @@ int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch
       return 0;
     }
     ch->fast_healing_feats++;
-    break;
-  case FEAT_ARMOR_SKIN:
-    if (ch->armor_skin_feats == 5) {
-      if (manual) send_to_char(ch, "You can only take the armor skin feat 5 times.\r\n");
-      return 0;
-    }
-    ch->armor_skin_feats++;
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
     break;
   default:
     SET_FEAT(ch, feat_num, HAS_FEAT(ch, feat_num) + 1);

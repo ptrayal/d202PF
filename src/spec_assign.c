@@ -90,43 +90,58 @@ void ASSIGNOBJ(obj_vnum obj, SPECIAL(fname));
 
 void ASSIGNMOB(mob_vnum mob, SPECIAL(fname))
 {
-  mob_rnum rnum;
+    mob_rnum rnum;
 
-  if ((rnum = real_mobile(mob)) != NOBODY) {
-    mob_index[rnum].func = fname;
-  }
-  else if (!mini_mud)
-    log("SYSERR: Attempt to assign spec to non-existant mob #%d", mob);
+    if ((rnum = real_mobile(mob)) != NOBODY) 
+    {
+        mob_index[rnum].func = fname;
+    }
+    else if (!mini_mud)
+    {
+        log("SYSERR: Attempt to assign spec to non-existant mob #%d", mob);
+    }
 }
 
 void ASSIGNOBJ(obj_vnum obj, SPECIAL(fname))
 {
-  obj_rnum rnum;
+    obj_rnum rnum;
 
-  if ((rnum = real_object(obj)) != NOTHING)
-    obj_index[rnum].func = fname;
-  else if (!mini_mud)
-    log("SYSERR: Attempt to assign spec to non-existant obj #%d", obj);
+    if ((rnum = real_object(obj)) != NOTHING)
+    {
+        obj_index[rnum].func = fname;
+    }
+    else if (!mini_mud)
+    {
+        log("SYSERR: Attempt to assign spec to non-existant obj #%d", obj);
+    }
 }
 
 void ASSIGNROOM(room_vnum room, SPECIAL(fname))
 {
-  room_rnum rnum;
+    room_rnum rnum;
 
-  if ((rnum = real_room(room)) != NOWHERE)
-    world[rnum].func = fname;
-  else if (!mini_mud)
-    log("SYSERR: Attempt to assign spec to non-existant room #%d", room);
+    if ((rnum = real_room(room)) != NOWHERE)
+    {
+        world[rnum].func = fname;
+    }
+    else if (!mini_mud)
+    {
+        log("SYSERR: Attempt to assign spec to non-existant room #%d", room);
+    }
 }
 
 void UNASSIGNROOM(room_vnum room)
 {
-  room_rnum rnum;
+    room_rnum rnum;
 
-  if ((rnum = real_room(room)) != NOWHERE)
-    world[rnum].func = NULL;
-  else if (!mini_mud)
-    log("SYSERR: Attempt to assign spec to non-existant room #%d", room);
+    if ((rnum = real_room(room)) != NOWHERE)
+    {
+        world[rnum].func = NULL;
+    }
+    else if (!mini_mud)
+    {
+        log("SYSERR: Attempt to assign spec to non-existant room #%d", room);
+    }
 }
 
 
@@ -163,7 +178,6 @@ void assign_objects(void)
     // ASSIGNOBJ(7024, identify_kit);
 
 }
-
 
 
 /* assign special procedures to rooms */
@@ -238,7 +252,7 @@ void assign_rooms(void)
 
         break;
         }
-// Player Shops
+        // Player Shops
 
 if (CONFIG_DTS_ARE_DUMPS)
     for (i = 0; i <= top_of_world; i++)

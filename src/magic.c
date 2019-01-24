@@ -52,29 +52,34 @@ void do_affect_tickdown(struct char_data *i);
 
 int obj_savingthrow(int material, int type)
 {
-  int save, rnum;
+    int save = 0;
+    int rnum = 0;
 
-  save = object_saving_throws(material, type);
+    save = object_saving_throws(material, type);
 
-  rnum = rand_number(1,100);
+    rnum = rand_number(1,100);
 
-  if (rnum < save) {
-    return (true);
-  }
+    if (rnum < save) 
+    {
+        return (true);
+    }
 
-  return (false);
+    return (false);
 }
 
 /* affect_update: called from comm.c (causes spells to wear off) */
 void affect_update(void)
 {
-  struct char_data *i;
+    struct char_data *i;
 
-  for (i = affect_list; i; i = i->next_affect) {
-    if (FIGHTING(i))
-      continue;
-    do_affect_tickdown(i);
-  }
+    for (i = affect_list; i; i = i->next_affect) 
+    {
+        if (FIGHTING(i))
+        {
+            continue;
+        }
+        do_affect_tickdown(i);
+    }
 }
 
 void do_affect_tickdown(struct char_data *i)
@@ -2742,7 +2747,8 @@ void mag_summons(int level, struct char_data *ch, struct obj_data *obj, int spel
   return;
 
 
-  if (FIGHTING(ch)) {
+  if (FIGHTING(ch)) 
+  {
     send_to_char(ch, "Using summon spells in battle is currently disabled.  We will fix this asap.  Thanks for your patience.\r\n");
     return;
   }
@@ -3326,186 +3332,239 @@ void mag_alter_objs(int level, struct char_data *ch, struct obj_data *obj, int s
 }
 
 
-
 void mag_creations(int level, struct char_data *ch, int spellnum)
 {
-  struct obj_data *tobj;
-  obj_vnum z;
+    struct obj_data *tobj;
+    obj_vnum z;
 
-  if (ch == NULL)
-    return;
+    if (ch == NULL)
+        return;
 
-  switch (spellnum) {
-  case SPELL_CREATE_FOOD:
-    z = 10;
-    break;
-  default:
-    send_to_char(ch, "Spell unimplemented, it would seem.\r\n");
-    return;
-  }
+    switch (spellnum) 
+    {
+        case SPELL_CREATE_FOOD:
+        z = 10;
+        break;
+        default:
+        send_to_char(ch, "Spell unimplemented, it would seem.\r\n");
+        return;
+    }
 
-  if (!(tobj = read_object(z, virtual))) {
-    send_to_char(ch, "I seem to have goofed.\r\n");
-    log("SYSERR: spell_creations, spell %d, obj %d: obj not found",
-	    spellnum, z);
-    return;
-  }
-  add_unique_id(tobj);
-  obj_to_char(tobj, ch);
-  act("$n creates $p.", false, ch, tobj, 0, TO_ROOM);
-  act("You create $p.", false, ch, tobj, 0, TO_CHAR);
-  load_otrigger(tobj);
+    if (!(tobj = read_object(z, virtual))) 
+    {
+        send_to_char(ch, "I seem to have goofed.\r\n");
+        log("SYSERR: spell_creations, spell %d, obj %d: obj not found", spellnum, z);
+        return;
+    }
+    add_unique_id(tobj);
+    obj_to_char(tobj, ch);
+    act("$n creates $p.", false, ch, tobj, 0, TO_ROOM);
+    act("You create $p.", false, ch, tobj, 0, TO_CHAR);
+    load_otrigger(tobj);
 }
 
 /* affect_update_violence: called from fight.c (causes spells to wear off) */
 void affect_update_violence(void)
 {
-  struct char_data *i;
+    struct char_data *i;
 
-  for (i = affectv_list; i; i = i->next_affectv) {
-    if (FIGHTING(i))
-      continue;
-    do_affectv_tickdown(i);
-  }
+    for (i = affectv_list; i; i = i->next_affectv) {
+        {
+            if (FIGHTING(i))
+            {
+                continue;
+            }
+        }
+        do_affectv_tickdown(i);
+    }
 }
 
 void do_affectv_tickdown(struct char_data *i)
 {
-  if (IS_NPC(i))
-    return;
+    if (IS_NPC(i))
+    {
+        return;
+    }
 
-  struct affected_type *af, *next;
-  int dam;
-  int maxdam;
+    struct affected_type *af, *next;
+    int dam = 0;
+    int maxdam = 0;
 
-    for (af = i->affectedv; af; af = next) {
-      next = af->next;
-      if (af->duration >= 1) {
-        af->duration--;
-        switch (af->type) {
-        case ART_EMPTY_BODY:
-          if (GET_KI(i) >= 10) {
-            GET_KI(i) -= 10;
-          } else {
-            af->duration = 0; /* Wear it off immediately! No more ki */
-          }
+    for (af = i->affectedv; af; af = next) 
+    {
+        next = af->next;
+        if (af->duration >= 1) 
+        {
+            af->duration--;
+            switch (af->type) 
+            {
+                case ART_EMPTY_BODY:
+                if (GET_KI(i) >= 10) 
+                {
+                    GET_KI(i) -= 10;
+                } 
+                else 
+                {
+                    af->duration = 0; 
+                    /* Wear it off immediately! No more ki */
+                }
+            }
+        } 
+        else if (af->duration == -1) 
+        {     
+            /* No action */
+            continue;
         }
-      } else if (af->duration == -1) {     /* No action */
-        continue;
-      }
-      if (!af->duration) {
-        if ((af->type > 0) && (af->type < SKILL_TABLE_SIZE))
-          if (!af->next || (af->next->type != af->type) ||
-              (af->next->duration > 0))
-            if (spell_info[af->type].wear_off_msg)
-              send_to_char(i, "%s\r\n", spell_info[af->type].wear_off_msg);
-          if (af->bitvector == AFF_SUMMONED) {
-            stop_follower(i);
-            if (!DEAD(i))
-              extract_char(i);
-          }
-          if (af->type == ART_QUIVERING_PALM) {
-            maxdam = GET_HIT(i) + 8;
-            dam = GET_MAX_HIT(i) * 3 / 4;
-            dam = MIN(dam, maxdam);
-            dam = MAX(25, dam);
-            log("Creeping death strike doing %d dam", dam);
-            damage(i, i, dam, af->type, 0, -1, 0, 0, 1);
-          }
-        affectv_remove(i, af);
-      }
+        if (!af->duration) 
+        {
+            if ((af->type > 0) && (af->type < SKILL_TABLE_SIZE))
+            {
+                if (!af->next || (af->next->type != af->type) || (af->next->duration > 0))
+                {
+                    if (spell_info[af->type].wear_off_msg)
+                    {
+                        send_to_char(i, "%s\r\n", spell_info[af->type].wear_off_msg);
+                    }
+                }
+            }
+            if (af->bitvector == AFF_SUMMONED) 
+            {
+                stop_follower(i);
+                if (!DEAD(i))
+                {
+                    extract_char(i);
+                }
+            }
+            if (af->type == ART_QUIVERING_PALM) 
+            {
+                maxdam = GET_HIT(i) + 8;
+                dam = GET_MAX_HIT(i) * 3 / 4;
+                dam = MIN(dam, maxdam);
+                dam = MAX(25, dam);
+                log("Creeping death strike doing %d dam", dam);
+                damage(i, i, dam, af->type, 0, -1, 0, 0, 1);
+            }
+            affectv_remove(i, af);
+        }
     }
 
 }
 
 void mag_affectsv(int level, struct char_data *ch, struct char_data *victim, int spellnum)
 {
-  struct affected_type af[MAX_SPELL_AFFECTS];
-  bool accum_affect = false, accum_duration = false;
-  const char *to_vict = NULL, *to_room = NULL;
-  int i;
+    struct affected_type af[MAX_SPELL_AFFECTS];
+    bool accum_affect = false, accum_duration = false;
+    const char *to_vict = NULL, *to_room = NULL;
+    int i = 0;
 
 
-  if (victim == NULL || ch == NULL)
-    return;
-
-  for (i = 0; i < MAX_SPELL_AFFECTS; i++) {
-    af[i].type = spellnum;
-    af[i].bitvector = 0;
-    af[i].modifier = 0;
-    af[i].location = APPLY_NONE;
-    af[i].level = level;
-  }
-
-  if (mag_newsaves(find_savetype(spellnum), ch, victim, spellnum, calc_spell_dc(ch, spellnum))) {
-    if (IS_SET(spell_info[spellnum].save_flags, MAGSAVE_PARTIAL | MAGSAVE_NONE)) {
-      send_to_char(victim, "@g*save*@y You avoid any lasting affects.@n\r\n");
-      return;
-    }
-  }
-
-  while (affected_by_spell(victim, spellnum))
-    affect_from_char(victim, spellnum);
-
-
-  switch (spellnum) {
-  case SPELL_DRAGON_KNIGHT:
-  case SPELL_ANIMATE_DEAD:
-  case SPELL_SUMMON_MONSTER_I:
-  case SPELL_SUMMON_MONSTER_II:
-  case SPELL_SUMMON_MONSTER_III:
-  case SPELL_SUMMON_MONSTER_IV:
-  case SPELL_SUMMON_MONSTER_V:
-  case SPELL_SUMMON_MONSTER_VI:
-  case SPELL_SUMMON_MONSTER_VII:
-  case SPELL_SUMMON_MONSTER_VIII:
-  case SPELL_SUMMON_MONSTER_IX:
-    af[0].duration = MAX(10, level + 1) * 10;
-    af[0].bitvector = AFF_SUMMONED;
-    accum_duration = false;
-    to_vict = "You are summoned to assist $N!";
-    to_room = "$n appears, ready for action.";
-    break;
-  }
-
-  /*
-   * if this is a mob that has this affect set in its mob file, do not
-   * perform the affect.  this prevents people from un-sancting mobs
-   * by sancting them and waiting for it to fade, for example.
-   */
-  if (PRF_FLAGGED(ch, PRF_EXTEND_SPELL)) {
-    for (i = 0; i < MAX_SPELL_AFFECTS; i++) {
-      if (af[i].duration > 0) {
-        af[i].duration *= 15;
-        af[i].duration /= 10;
-      }
-    }
-  }
-
-  if (IS_NPC(victim) && !affected_by_spell(victim, spellnum))
-    for (i = 0; i < MAX_SPELL_AFFECTS; i++)
-      if (AFF_FLAGGED(victim, af[i].bitvector)) {
-        send_to_char(ch, "%s", CONFIG_NOEFFECT);
+    if (victim == NULL || ch == NULL)
+    {
         return;
-      }
-  /*
-   * if the victim is already affected by this spell, and the spell does
-   * not have an accumulative effect, then fail the spell.
-   */
-  if (affected_by_spell(victim,spellnum) && !(accum_duration||accum_affect)) {
+    }
+
+    for (i = 0; i < MAX_SPELL_AFFECTS; i++) 
+    {
+        af[i].type = spellnum;
+        af[i].bitvector = 0;
+        af[i].modifier = 0;
+        af[i].location = APPLY_NONE;
+        af[i].level = level;
+    }
+
+    if (mag_newsaves(find_savetype(spellnum), ch, victim, spellnum, calc_spell_dc(ch, spellnum))) 
+    {
+        if (IS_SET(spell_info[spellnum].save_flags, MAGSAVE_PARTIAL | MAGSAVE_NONE)) 
+        {
+            send_to_char(victim, "@g*save*@y You avoid any lasting affects.@n\r\n");
+            return;
+        }
+    }
+
     while (affected_by_spell(victim, spellnum))
-      affect_from_char(victim, spellnum);
-    affect_join(victim, af+i, accum_duration, false, accum_affect, false);
-    return;
-  }
+    {
+        affect_from_char(victim, spellnum);
+    }
 
-  for (i = 0; i < MAX_SPELL_AFFECTS; i++)
-    if (af[i].bitvector || (af[i].location != APPLY_NONE))
-      affect_join(victim, af+i, accum_duration, false, accum_affect, false);
 
-  if (to_vict != NULL)
-    act(to_vict, false, victim, 0, ch, TO_CHAR);
-  if (to_room != NULL)
-    act(to_room, true, victim, 0, ch, TO_ROOM);
+    switch (spellnum) 
+    {
+        case SPELL_DRAGON_KNIGHT:
+        case SPELL_ANIMATE_DEAD:
+        case SPELL_SUMMON_MONSTER_I:
+        case SPELL_SUMMON_MONSTER_II:
+        case SPELL_SUMMON_MONSTER_III:
+        case SPELL_SUMMON_MONSTER_IV:
+        case SPELL_SUMMON_MONSTER_V:
+        case SPELL_SUMMON_MONSTER_VI:
+        case SPELL_SUMMON_MONSTER_VII:
+        case SPELL_SUMMON_MONSTER_VIII:
+        case SPELL_SUMMON_MONSTER_IX:
+        af[0].duration = MAX(10, level + 1) * 10;
+        af[0].bitvector = AFF_SUMMONED;
+        accum_duration = false;
+        to_vict = "You are summoned to assist $N!";
+        to_room = "$n appears, ready for action.";
+        break;
+    }
+
+/*
+* if this is a mob that has this affect set in its mob file, do not
+* perform the affect.  this prevents people from un-sancting mobs
+* by sancting them and waiting for it to fade, for example.
+*/
+    if (PRF_FLAGGED(ch, PRF_EXTEND_SPELL)) 
+    {
+        for (i = 0; i < MAX_SPELL_AFFECTS; i++) 
+        {
+            if (af[i].duration > 0) 
+            {
+                af[i].duration *= 15;
+                af[i].duration /= 10;
+            }
+        }
+    }
+
+    if (IS_NPC(victim) && !affected_by_spell(victim, spellnum))
+    {
+        for (i = 0; i < MAX_SPELL_AFFECTS; i++)
+        {
+            if (AFF_FLAGGED(victim, af[i].bitvector)) 
+            {
+                send_to_char(ch, "%s", CONFIG_NOEFFECT);
+                return;
+            }
+        }
+    }
+/*
+* if the victim is already affected by this spell, and the spell does
+* not have an accumulative effect, then fail the spell.
+*/
+
+    if (affected_by_spell(victim,spellnum) && !(accum_duration||accum_affect)) {
+        while (affected_by_spell(victim, spellnum))
+        {
+            affect_from_char(victim, spellnum);
+        }
+        affect_join(victim, af+i, accum_duration, false, accum_affect, false);
+        return;
+    }
+
+    for (i = 0; i < MAX_SPELL_AFFECTS; i++)
+    {
+        if (af[i].bitvector || (af[i].location != APPLY_NONE))
+        {
+            affect_join(victim, af+i, accum_duration, false, accum_affect, false);
+        }
+    }
+
+    if (to_vict != NULL)
+    {
+        act(to_vict, false, victim, 0, ch, TO_CHAR);
+    }
+    if (to_room != NULL)
+    {
+        act(to_room, true, victim, 0, ch, TO_ROOM);
+    }
 }
 

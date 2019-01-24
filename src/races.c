@@ -12,7 +12,8 @@ struct race_data race_list[NUM_RACES];
 char *race_names[NUM_RACES];
 char *pc_race_types[NUM_RACES];
 
-void set_race_genders(int race, int neuter, int male, int female) {
+void set_race_genders(int race, int neuter, int male, int female) 
+{
     race_list[race].genders[0] = neuter;
     race_list[race].genders[1] = male;
     race_list[race].genders[2] = female;
@@ -508,14 +509,18 @@ int invalid_race(struct char_data *ch, struct obj_data *obj)
 
 int get_size(struct char_data *ch)
 {
-  int racenum= 0;
+    int racenum= 0;
 
-  if (ch == NULL)
-    return SIZE_MEDIUM;
+    if (ch == NULL)
+    {
+        return SIZE_MEDIUM;
+    }
 
     racenum = GET_RACE(ch);
     if (racenum < 0 || racenum >= NUM_RACES)
-      return SIZE_MEDIUM;
+    {
+        return SIZE_MEDIUM;
+    }
     return (ch->size = ((affected_by_spell(ch, SPELL_ENLARGE_PERSON) ? 1 : 0) + race_list[racenum].size));
 }
 
@@ -560,24 +565,24 @@ int wield_type(int chsize, const struct obj_data *weap)
   }
 }
 
-int parse_race(struct char_data *ch, char *arg) {
+int parse_race(struct char_data *ch, char *arg) 
+{
 
-  if (!*arg)
-    return RACE_UNDEFINED;
+    if (!*arg)
+        return RACE_UNDEFINED;
 
-  int i = atoi(arg);
+    int i = atoi(arg);
 
-  i--;
+    i--;
 
-  if (i > NUM_RACES || i < RACE_HUMAN)
-    return RACE_UNDEFINED;
+    if (i > NUM_RACES || i < RACE_HUMAN)
+        return RACE_UNDEFINED;
 
-  if (race_list[i].is_pc == FALSE)
-    return RACE_UNDEFINED;
+    if (race_list[i].is_pc == FALSE)
+        return RACE_UNDEFINED;
 
-  if (race_list[i].level_adjustment > 0)
-    return RACE_UNDEFINED;
+    if (race_list[i].level_adjustment > 0)
+        return RACE_UNDEFINED;
 
-  return i;
-
+    return i;
 }

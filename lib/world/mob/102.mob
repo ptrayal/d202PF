@@ -38,7 +38,7 @@ Feat: 86 3
 E
 Feat: 203 3
 S
-T 10200
+T 27D8
 #10201
 Yuan-ti Commander snake snake-man rider~
 @GYuan-ti @DCommander@n~
@@ -65,7 +65,7 @@ Con: 24
 E
 Cha: 10
 S
-T 10201
+T 27D9
 #10202
 Ankylosaurus mount~
 @DAnkylosaurus@n mount with a large @GYuan-ti@n~
@@ -92,7 +92,7 @@ Con: 23
 E
 Cha: 10
 S
-T 10202
+T 27DA
 #10203
 Yuan-ti swordsman yuanti~
 @GYuan-ti@c swordsman@n~
@@ -133,7 +133,7 @@ Feat: 203 3
 E
 Feat: 243 3
 S
-T 10203
+T 27DB
 #10204
 Triceratops mount~
 @gTric@re@grat@ro@gps@n mount with a barbaric looking @GYuan-ti@n~
@@ -174,7 +174,7 @@ Feat: 86 3
 E
 Feat: 203 3
 S
-T 10204
+T 27DC
 #10205
 Yuan-ti barbarian yuanti~
 @GYuan-ti@r barbarian@n~
@@ -215,7 +215,7 @@ Feat: 86 3
 E
 Feat: 203 3
 S
-T 10205
+T 27DD
 #10206
 Seismosaurus carrier~
 @DSei@cs@Dmos@ca@Durus@n carrier~
@@ -243,7 +243,7 @@ Con: 25
 E
 Cha: 10
 S
-T 10206
+T 27DE
 #10207
 Yuan-ti archer yuanti~
 @GYuan-ti@m archer@n~
@@ -323,7 +323,7 @@ A gargoyle is here, looking ready for a fight.
    Seemingly carved from a dark gray stone, this sinister crouching humanoid
 resembles a horned, winged demon.  
 ~
-abcdf e 0 0 kq 0 0 0 0
+bcdf e 0 0 kq 0 0 0 0
 5 15 4 20d100+100 1d8+2
 5 0 12 21
 8 8 0
@@ -358,8 +358,8 @@ A carpet of fungi and mushrooms stirs to life!
    What at first seemed to be a carpet of fungi and mushrooms suddenly stirs to
 life, surging forward with a reek of decay.  
 ~
-bcdf e 0 0 f 0 0 0 0
-3 17 7 12d100+100 1d6+4
+bcdf e 0 0 fk 0 0 0 0
+3 17 7 12d100+100 1d8+4
 3 0 15 21
 8 8 0
 E
@@ -393,8 +393,8 @@ A cube of slime with bits of refuse in it is here.
    Bits of broken weapons, coins, and a partially digested skeleton are visible
 inside this quivering cube of slime.  
 ~
-cdfg e 0 0 fst 0 0 0 0
-4 16 5 16d100+1000 2d6+2
+cdfg e 0 0 fkst 0 0 0 0
+4 16 5 16d100+1000 2d8+2
 4 0 15 21
 8 8 0
 E

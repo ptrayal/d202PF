@@ -1084,120 +1084,135 @@ ACMD(do_assemble)
 */
 ACMD(do_assemble)
 {
+    long lVnum = NOTHING;
+    struct obj_data *pObject = NULL;
+    char buf[MAX_STRING_LENGTH]={'\0'};
+    long i = 0;
+    long j = 0;
+    long lRnum = NOTHING;
 
-  long lVnum = NOTHING;
-  struct obj_data *pObject = NULL;
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  long i = 0;
-  long j = 0;
-  long lRnum = NOTHING;
-  
+    skip_spaces(&argument);
 
-  skip_spaces(&argument);
-
-  if (*argument == '\0') {
-    send_to_char(ch, "What would you like to %s?  Type %s list for a list of what you can make.\r\n", CMD_NAME, CMD_NAME);
-    return;
-  }
-  else if (isdigit(argument[0])) {
-    send_to_char(ch, "When using vnums as your keyword precede the vnum with the word obj.  ie. obj60000.\r\n");
-    return;
-  } else if (!strcmp(argument, "list")) {
-
-     if( g_pAssemblyTable == NULL )
-       return;
-
-    send_to_char(ch, "%-40s\r\n----------------------------------------\r\n", "Object Name (copy and paste for best results)");
-    
-    for( i = 0; i < g_lNumAssemblies; i++ )
+    if (*argument == '\0') 
     {
-      if( (lRnum = real_object( g_pAssemblyTable[ i ].lVnum )) < 0 )
-        log( "SYSERR: assemblyFindAssembly(): Invalid vnum #%ld in assembly table.", g_pAssemblyTable[i].lVnum );
-      else if(g_pAssemblyTable[i].uchAssemblyType == (unsigned char) subcmd && 
-              obj_proto[lRnum].level <= get_skill_value(ch, assembly_skills[subcmd]))
-        send_to_char(ch, "%-40s\r\n", obj_proto[lRnum].short_description);
+        send_to_char(ch, "What would you like to %s?  Type %s list for a list of what you can make.\r\n", CMD_NAME, CMD_NAME);
+        return;
     }
-    return;
-  } else if ((lVnum = assemblyFindAssembly(argument)) < 0) {
-    if (subcmd == SCMD_LIST_COMPONENTS)
-      send_to_char(ch, "There is no such craft for that item.\r\n");
-    else
-      send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
-    return;
-  }
-  else if (subcmd == SCMD_LIST_COMPONENTS) {
-
-  for( i = 0; i < g_lNumAssemblies; i++ )
-  {
-    if( (lRnum = real_object( g_pAssemblyTable[ i ].lVnum )) < 0 )
+    else if (isdigit(argument[0])) 
     {
-      send_to_char(ch, "[-----] ***RESERVED***\r\n");
-      log( "SYSERR: assemblyListToChar(): Invalid vnum #%ld in assembly table.", g_pAssemblyTable[i].lVnum);
-    }
-    else if (g_pAssemblyTable[ i ].lVnum == lVnum)
+        send_to_char(ch, "When using vnums as your keyword precede the vnum with the word obj.  ie. obj60000.\r\n");
+        return;
+    } 
+    else if (!strcmp(argument, "list")) 
     {
-      send_to_char(ch, "The components needed to craft %s are:\r\n", obj_proto[ lRnum ].short_description);
-      for( j = 0; j < g_pAssemblyTable[ i ].lNumComponents; j++ )
-      {
-       if( (lRnum = real_object( g_pAssemblyTable[ i ].pComponents[ j ].lVnum )) < 0 )
-       {
-         send_to_char(ch, " -----: ***RESERVED***\r\n");
-         log( "SYSERR: assemblyListToChar(): Invalid component vnum #%ld in assembly for vnum #%ld.",
-           g_pAssemblyTable[ i ].pComponents[ j ].lVnum, g_pAssemblyTable[ i ].lVnum );
-       }
-       else
-       {
-         sprintf( buf, "   %-40.40s Extract=%-3.3s InRoom=%-3.3s\r\n",
-           obj_proto[ lRnum ].short_description,
-           (g_pAssemblyTable[ i ].pComponents[ j ].bExtract ? "Yes" : "No"),
-           (g_pAssemblyTable[ i ].pComponents[ j ].bInRoom  ? "Yes" : "No") );
-         send_to_char(ch, "%s", buf);
-       }
-      }
-      send_to_char(ch, "\r\n");
-      if ((pObject = read_object(lVnum, VIRTUAL)) != NULL ) {
-        spell_identify(GET_LEVEL(ch), ch, ch, pObject, NULL);
-      }
-      break;
+
+        if( g_pAssemblyTable == NULL )
+        {
+            return;
+        }
+
+        send_to_char(ch, "%-40s\r\n----------------------------------------\r\n", "Object Name (copy and paste for best results)");
+
+        for( i = 0; i < g_lNumAssemblies; i++ )
+        {
+            if( (lRnum = real_object( g_pAssemblyTable[ i ].lVnum )) < 0 )
+            {
+                log( "SYSERR: assemblyFindAssembly(): Invalid vnum #%ld in assembly table.", g_pAssemblyTable[i].lVnum );
+            }
+            else if(g_pAssemblyTable[i].uchAssemblyType == (unsigned char) subcmd && 
+                obj_proto[lRnum].level <= get_skill_value(ch, assembly_skills[subcmd]))
+            {
+                send_to_char(ch, "%-40s\r\n", obj_proto[lRnum].short_description);
+            }
+        }
+        return;
+    } 
+    else if ((lVnum = assemblyFindAssembly(argument)) < 0) 
+    {
+        if (subcmd == SCMD_LIST_COMPONENTS)
+        {
+            send_to_char(ch, "There is no such craft for that item.\r\n");
+        }
+        else
+        {
+            send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
+        }
+        return;
     }
-  }
+    else if (subcmd == SCMD_LIST_COMPONENTS) 
+    {
+
+        for( i = 0; i < g_lNumAssemblies; i++ )
+        {
+            if( (lRnum = real_object( g_pAssemblyTable[ i ].lVnum )) < 0 )
+            {
+                send_to_char(ch, "[-----] ***RESERVED***\r\n");
+                log( "SYSERR: assemblyListToChar(): Invalid vnum #%ld in assembly table.", g_pAssemblyTable[i].lVnum);
+            }
+            else if (g_pAssemblyTable[ i ].lVnum == lVnum)
+            {
+                send_to_char(ch, "The components needed to craft %s are:\r\n", obj_proto[ lRnum ].short_description);
+                for( j = 0; j < g_pAssemblyTable[ i ].lNumComponents; j++ )
+                {
+                    if( (lRnum = real_object( g_pAssemblyTable[ i ].pComponents[ j ].lVnum )) < 0 )
+                    {
+                        send_to_char(ch, " -----: ***RESERVED***\r\n");
+                        log( "SYSERR: assemblyListToChar(): Invalid component vnum #%ld in assembly for vnum #%ld.",
+                         g_pAssemblyTable[ i ].pComponents[ j ].lVnum, g_pAssemblyTable[ i ].lVnum );
+                    }
+                    else
+                    {
+                        sprintf( buf, "   %-40.40s Extract=%-3.3s InRoom=%-3.3s\r\n",
+                         obj_proto[ lRnum ].short_description,
+                         (g_pAssemblyTable[ i ].pComponents[ j ].bExtract ? "Yes" : "No"),
+                         (g_pAssemblyTable[ i ].pComponents[ j ].bInRoom  ? "Yes" : "No") );
+                        send_to_char(ch, "%s", buf);
+                    }
+                }
+                send_to_char(ch, "\r\n");
+                if ((pObject = read_object(lVnum, VIRTUAL)) != NULL ) {
+                    spell_identify(GET_LEVEL(ch), ch, ch, pObject, NULL);
+                }
+                break;
+            }
+        }
 
 
-    return;
-  }
+        return;
+    }
 
 
-  /* Create the assembled object. */
-  if ((pObject = read_object(lVnum, VIRTUAL)) == NULL ) {
-    send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
-    return;
-  }
-  add_unique_id(pObject);
+/* Create the assembled object. */
+    if ((pObject = read_object(lVnum, VIRTUAL)) == NULL ) {
+        send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
+        return;
+    }
+    add_unique_id(pObject);
 
-  if (assemblyGetType(lVnum) != subcmd) {
-    send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
-    return;
-  } else if (!assemblyCheckComponents(lVnum, ch)) {
-    send_to_char(ch, "You haven't got all the things you need.\r\n");
-    return;
-  }
+    if (assemblyGetType(lVnum) != subcmd) {
+        send_to_char(ch, "You can't %s %s %s.\r\n", CMD_NAME, AN(argument), argument);
+        return;
+    } else if (!assemblyCheckComponents(lVnum, ch)) {
+        send_to_char(ch, "You haven't got all the things you need.\r\n");
+        return;
+    }
 
-  if (!GET_SKILL(ch, assembly_skills[subcmd])) {
-    send_to_char(ch, "You don't know how to %s.\r\n", CMD_NAME);
-    return;
-  }
+    if (!GET_SKILL(ch, assembly_skills[subcmd])) {
+        send_to_char(ch, "You don't know how to %s.\r\n", CMD_NAME);
+        return;
+    }
 
-  GET_CRAFTING_TYPE(ch) = subcmd;
-  GET_CRAFTING_TICKS(ch) = 6 + GET_OBJ_LEVEL(pObject) - HAS_FEAT(ch, FEAT_FAST_CRAFTER);
-  GET_CRAFTING_OBJ(ch) = pObject;
+    GET_CRAFTING_TYPE(ch) = subcmd;
+    GET_CRAFTING_TICKS(ch) = 6 + GET_OBJ_LEVEL(pObject) - HAS_FEAT(ch, FEAT_FAST_CRAFTER);
+    GET_CRAFTING_OBJ(ch) = pObject;
 
-  /* Tell the character they made something. */
-  sprintf(buf, "You begin to %s $p.", CMD_NAME);
-  act(buf, FALSE, ch, pObject, NULL, TO_CHAR);
+/* Tell the character they made something. */
+    sprintf(buf, "You begin to %s $p.", CMD_NAME);
+    act(buf, FALSE, ch, pObject, NULL, TO_CHAR);
 
-  /* Tell the room the character made something. */
-  sprintf(buf, "$n begins to %s $p.", CMD_NAME);
-  act(buf, FALSE, ch, pObject, NULL, TO_ROOM);
+/* Tell the room the character made something. */
+    sprintf(buf, "$n begins to %s $p.", CMD_NAME);
+    act(buf, FALSE, ch, pObject, NULL, TO_ROOM);
 }
 
 void advance_crafting_progress(struct char_data *ch, int cmd) {
@@ -3892,10 +3907,9 @@ void auc_send_to_all(char *messg, bool buyer)
   }
 }
 
-ACMD(do_binditem) {
-
+ACMD(do_binditem) 
+{
   char arg[200];
-
   struct obj_data *obj;
 
   one_argument(argument, arg);
@@ -3958,6 +3972,4 @@ ACMD(do_binditem) {
   GET_OBJ_VAL(obj, 13) = GET_IDNUM(ch);
 
   send_to_char(ch, "%s has been successfully bound to you for %d %s.\r\n", (obj->short_description), cost, MONEY_STRING);
-  
-
-}
+  }

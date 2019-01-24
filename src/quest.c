@@ -828,46 +828,59 @@ ACMD(do_quest)
 
 SPECIAL(questmaster)
 {
-  if (!CMD_IS("quest"))
-    return 0;
-
-  qst_rnum rnum;
-  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
-  int  tp;
-  struct char_data *qm = (struct char_data *)me;
-
-  /* check that qm mob has quests assigned */
-  for (rnum = 0; (rnum < total_quests &&
-                  QST_MASTER(rnum) != GET_MOB_RNUM(qm)) ; rnum ++);
-  if (rnum >= total_quests)
-    return FALSE; /* No quests for this mob */
-  else if (QST_FUNC(rnum) && (QST_FUNC(rnum) (ch, me, cmd, argument)))
-    return TRUE;  /* The secondary spec proc handled this command */
-  else if (CMD_IS("quest")) {
-    two_arguments(argument, arg1, arg2);
-    if (!*arg1)
-      return FALSE;
-    else if (((tp = search_block(arg1, quest_cmd, FALSE)) == -1))
-      return FALSE;
-    else {
-      switch (tp) {
-      case SCMD_QUEST_LIST:
-        if (!*arg2)
-          quest_show(ch, GET_MOB_RNUM(qm));
-        else
-	  quest_list(ch, qm, arg2);
-        break;
-      case SCMD_QUEST_JOIN:
-        quest_join(ch, qm, arg2);
-        break;
-      default:
-	return FALSE; /* fall through to the do_quest command processor */
-      } /* switch on subcmd number */
-      return TRUE;
+    if (!CMD_IS("quest"))
+    {
+        return 0;
     }
-  } else {
-    return FALSE; /* not a questmaster command */
-  }
+
+    qst_rnum rnum;
+    char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
+    int  tp;
+    struct char_data *qm = (struct char_data *)me;
+
+    /* check that qm mob has quests assigned */
+    for (rnum = 0; (rnum < total_quests && QST_MASTER(rnum) != GET_MOB_RNUM(qm)) ; rnum ++);
+    {
+        if (rnum >= total_quests)
+        {
+            return FALSE;
+                    /* No quests for this mob */
+        }
+        else if (QST_FUNC(rnum) && (QST_FUNC(rnum) (ch, me, cmd, argument)))
+        {
+            return TRUE;  
+                    /* The secondary spec proc handled this command */
+        }
+        else if (CMD_IS("quest")) 
+        {
+            two_arguments(argument, arg1, arg2);
+            if (!*arg1)
+                return FALSE;
+            else if (((tp = search_block(arg1, quest_cmd, FALSE)) == -1))
+                return FALSE;
+            else {
+                switch (tp) {
+                    case SCMD_QUEST_LIST:
+                    if (!*arg2)
+                        quest_show(ch, GET_MOB_RNUM(qm));
+                    else
+                        quest_list(ch, qm, arg2);
+                    break;
+                    case SCMD_QUEST_JOIN:
+                    quest_join(ch, qm, arg2);
+                    break;
+                    default:
+                    return FALSE; 
+                            /* fall through to the do_quest command processor */
+                } 
+                        /* switch on subcmd number */
+                return TRUE;
+            }
+        } 
+        else 
+        {
+            return FALSE; 
+                    /* not a questmaster command */
+        }
+    }
 }
-
-

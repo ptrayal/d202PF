@@ -453,52 +453,67 @@ int find_action(int cmd)
 }
 
 ACMD(do_gmote) 
-{ 
-  int act_nr, length; 
-  char arg[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH]; 
-  struct social_messg *action; 
-  struct char_data *vict = NULL; 
+{
+    int act_nr, length; 
+    char arg[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH]; 
+    struct social_messg *action; 
+    struct char_data *vict = NULL; 
 
-  half_chop(argument, buf, arg); 
+    half_chop(argument, buf, arg); 
 
-  if(subcmd) 
-    for (length = strlen(buf), cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++) 
-      if (!strncmp(complete_cmd_info[cmd].command, buf, length)) 
-        break; 
+    if(subcmd) 
+    {
+        for (length = strlen(buf), cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++) 
+        {
+            if (!strncmp(complete_cmd_info[cmd].command, buf, length)) 
+                break; 
+        }
+    }
 
-  if ((act_nr = find_action(cmd)) < 0) { 
-    send_to_char(ch, "That's not a social!\r\n"); 
-    return; 
-  } 
-
-  action = &soc_mess_list[act_nr]; 
-
-  if (!action->char_found) 
-    *arg = '\0'; 
-
-  if (!*arg) { 
-    if(!action->others_no_arg || !*action->others_no_arg) { 
-      send_to_char(ch, "Who are you going to do that to?\r\n"); 
-      return; 
+    if ((act_nr = find_action(cmd)) < 0) 
+    { 
+        send_to_char(ch, "That's not a social!\r\n"); 
+        return; 
     } 
-    snprintf(buf, sizeof(buf), "Gossip: %s", action->others_no_arg); 
-  } else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) { 
-    send_to_char(ch, "%s\r\n", action->not_found); 
-    return; 
-  } else if (vict == ch) { 
-    if(!action->others_auto || !*action->others_auto) { 
-      send_to_char(ch, "%s\r\n", action->char_auto); 
-      return; 
+
+    action = &soc_mess_list[act_nr]; 
+
+    if (!action->char_found) 
+    {
+        *arg = '\0'; 
+    }
+
+    if (!*arg) 
+    { 
+        if(!action->others_no_arg || !*action->others_no_arg) 
+        {
+            send_to_char(ch, "Who are you going to do that to?\r\n"); 
+            return; 
+        } 
+        snprintf(buf, sizeof(buf), "Gossip: %s", action->others_no_arg); 
     } 
-    snprintf(buf, sizeof(buf), "Gossip: %s", action->others_auto); 
-  } else { 
-    if (GET_POS(vict) < action->min_victim_position) { 
-      act("$N is not in a proper position for that.", 
-           false, ch, 0, vict, TO_CHAR | TO_SLEEP); 
-      return; 
+    else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) 
+    { 
+        send_to_char(ch, "%s\r\n", action->not_found); 
+        return; 
     } 
-    snprintf(buf, sizeof(buf), "Gossip: %s", action->others_found); 
-  } 
-  act(buf, false, ch, 0, vict, TO_GMOTE); 
+    else if (vict == ch) 
+    { 
+        if(!action->others_auto || !*action->others_auto) 
+        { 
+            send_to_char(ch, "%s\r\n", action->char_auto); 
+            return; 
+        } 
+        snprintf(buf, sizeof(buf), "Gossip: %s", action->others_auto); 
+    } 
+    else 
+    { 
+        if (GET_POS(vict) < action->min_victim_position) 
+        { 
+            act("$N is not in a proper position for that.", false, ch, 0, vict, TO_CHAR | TO_SLEEP); 
+            return; 
+        } 
+        snprintf(buf, sizeof(buf), "Gossip: %s", action->others_found); 
+    } 
+    act(buf, false, ch, 0, vict, TO_GMOTE); 
 } 
-

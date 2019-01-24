@@ -1,0 +1,307 @@
+Feat Name|In-Game|Prerequisite|Description
+A Thousand Faces|"Yes"|13th-level Druid|ask staff
+Able Learner|"Yes"|-|+1 bonus to all skills
+Abundant Step|"Yes"|12th-level Monk|ask staff
+Acrobatic|"Yes"|-|+2 bonus on Acrobatics and Fly checks. Fly is not implemented yet.
+Acrobatic Charge|"Yes"|6th-level Duelists|can charge in situations when others cannot
+Alertness|"Yes"|-|+2 bonus on Perception and Sense Motive checks.
+Animal Affinity|"Yes"|-|+2 bonus on Handle Animal and Ride checks.
+Animal Companion|"Yes"|4th-level Ranger|ask staff
+Animate Dead|"Yes"|2nd-level Death Master|allows innate use of animate dead spell 3x per day.
+Armor Proficiency (Heavy)|"Yes"|Armor Proficiency  (Medium)|No penalties on attack rolls while wearing heavy armor
+Armor Proficiency (Light)|"Yes"|-|No penalties on attack rolls while wearing light armor
+Armor Proficiency (Medium)|"Yes"|Armor Proficiency (Light)|No penalties on attack rolls while wearing medium armor
+Armor Proficiency (Shield)|"Yes"|-|No penalties on attack rolls when using a shield
+Armor Proficiency (Tower Shield)|"Yes"|Armor Proficiency (Shield)|No penalties on attack rolls when using a tower shield
+Armor Skin|"No"|Epic level|Increases natural armor by 1
+Armor Specialization (heavy)|"No"|Armor Proficiency (Heavy), Base attack bonus +12|DR 2/- when wearing heavy armor
+Armor Specialization (light)|"No"|Armor Proficiency (Light), Base attack bonus +12|DR 2/- when wearing light armor
+Armor Specialization (medium)|"No"|Armor Proficiency (Medium), Base attack bonus +12|DR 2/- when wearing medium armor
+Augment Summoning|"Yes"|Spell Focus (conjuration)|Summoned creatures gain +4 Str and Con.
+Aura of Courage|"Yes"|3rd-level Paladin|+2 bonus to fear saves for group members
+Automatic Quicken Spell|"No"|Epic level, spellcraft 30 ranks, ability to cast level 9 arcane or divine spells|You can cast level 0, 1, 2 & 3 spells automatically as if quickened.  Every addition rank increases the max spell level by 3.
+Available Favored Enemy Choice(s)|"Yes"|1st-level Ranger|ask staff
+Bardic Knowledge|"Yes"|1st-level Bard|ask staff
+Bardic Music|"Yes"|1st-level Bard|ask staff
+Bleeding Attack|"Yes"|Rogue Talent|causes bleed damage on living targets who are hit by sneak attack.
+Blind-Fight|"Yes"|-|reduced penalties when fighting blind oragainst invisible opponents
+Blindsense|"Yes"|5th-level Dragon Disciple|ask staff
+Bloodline (Abyssal)|"Yes"|1st-level Sorcerer|You gain claws which become more powerful as you grow in power.
+Bloodline (Arcane)|"Yes"|1st-level Sorcerer|ask staff
+Bloodline (Celestial)|"Yes"|1st-level Sorcerer|You can unleash heavenly fire.
+Bone Armor|"Yes"|1st-level Death Master|allows creation of bone armor and 10%% arcane spell failure reduction in bone armor per rank.
+Branding|"Yes"|3rd-level Artisan|All items made carry the artisan's brand
+Bravery|"Yes"|2nd-level Fighter|A fighter gains a +1 bonus on Will saves against fear. This bonus increases by +1 for every four levels beyond 2nd
+Breath Weapon|"Yes"|3rd-level Dragon Disciple|ask staff
+Brew Potion|"No"|Caster level 3rd|Create magic potions.
+Call Mount|"Yes"|5th-level Paladin|Allows you to call a paladin mount
+Camouflage|"Yes"|13th-level Ranger|ask staff
+Canny Defense|"Yes"|1st-level Duelist|add int bonus (max class level) to ac when useing one light weapon and no shield
+Charisma Boost|"Yes"|10th-level Dragon Disciple|ask staff
+Claws and Bite|"Yes"|2nd-level Dragon Disciple|ask staff
+Cleave|"Yes"|Power Attack|Make an additional attack if the first one hits.
+Combat Casting|"Yes"|-|+4 bonus on concentration checks for defensive casting
+Combat Challenge|"No"|Diplomacy, Intimidate or Bluff 5 ranks|allows you to make a mob focus their attention on you
+Combat Expertise|"Yes"|Int 13|Trade attack bonus for AC bonus
+Combat Reflexes|"Yes"|-|Make additional attacks of opportunity
+Combat Style|"Yes"|ask staff|ask staff
+Combat Style Master|"Yes"|ask staff|ask staff
+Constitution Boost|"Yes"|6th-level Dragon Disciple|ask staff
+Countersong|"Yes"|1st-level Bard|ask staff
+Craft Magical Arms and Armor|"No"|Caster level 5th|Create magic armors, shields, and weapons.
+Craft Rod|"No"|Caster level 9th|Create magic rods
+Craft Staff|"No"|Caster level 11th|Create magic staves
+Craft Wand|"No"|Caster level 5th|Create magic wands
+Craft Wonderous Item|"No"|Caster level 3rd|Create magic wondrous items
+Crippling Critical|"Yes"|10th-level Duelist|allows your criticals to have random additional effects
+Crippling Strike|"Yes"|10th-level Rogue|Chance to do 2 strength damage with a sneak attack.
+Critical Focus|"Yes"|Base attack bonus +9|+4 bonus on attack rolls made to confirm critical hits
+Damage Reduction|"Yes"|7th-level Barbarian|1/- damage reduction per rank of feat, 3/- for epic
+Darkvision|"Yes"|-|Darkvision is the extraordinary ability to see with no light source at all
+Death Attack|"Yes"|1st-level Assassin|Chance to kill a target with sneak attack or Paralysis after 3 rounds of hidden study.
+Deceitful|"Yes"|-|+2 bonus on Bluff and Disguise checks
+Defensive Roll|"Yes"|10th-level Rogue|can roll reflex save vs damage dealt when hp is to be reduced below 0 to take half damage instead
+Defensive Stance|"Yes"|1st-level Dwarven Defender|Allows you to fight defensively with bonuses to ac and stats.
+Deflect Arrows|"Yes"|Dex 13, Improved Unarmed Strike|Avoid one ranged attack per round
+Deft Hands|"Yes"|-|+2 bonus on Disable Device and Sleight of Hand checks
+Detect Evil|"Yes"|1st-level Paladin|able to detect evil alignments
+Detect Good|"No"|ask staff|ask staff
+Diamond Body|"Yes"|11th-level Monk|A monk gains immunity to poisons of all kinds
+Diamond Soul|"Yes"|13th-level Monk|spell resistance equal to class level + 10
+Diehard|"Yes"|Endurance|will stay alive and conscious until -10 hp or lower
+Divine Bond|"Yes"|5th-level Paladin|bonuses to attack and damage rolls when active
+Divine Grace|"Yes"|2nd-level Paladin|charisma bonus added to all saving throw checks
+Divine Health|"Yes"|3rd-level Paladin|immune to disease
+Divine Might|"Yes"|turn undead, power attack, cha 13, str 13|Add cha bonus to damage for number of rounds equal to cha bonus
+Divine Shield|"Yes"|turn undead, power attack, cha 13, str 13|Add cha bonus to armor class for number of rounds equal to cha bonus
+Divine Vengeance|"Yes"|turn undead, extra turning|Add 2d6 damage against undead for number of rounds equal to cha bonus
+Dodge|"Yes"|Dex 13|+1 dodge bonus to AC.
+Draconic Crafting|"Yes"|20th-level Artisan|All magical items created gain higher bonuses w/o increasing level
+Dragon Apotheosis|"Yes"|10th-level Dragon Disciple|ask staff
+Dwarven Crafting|"Yes"|15th-level Artisan|All weapons and armor made have higher bonuses
+Elaborate Parry|"Yes"|7th-level Duelist|when fighting defensively or total defense, gains +1 dodge ac per class level
+Elemental Immunity|"Yes"|10th-level Dragon Disciple|ask staff
+Elven Crafting|"Yes"|11th-level Artisan|All equipment made is 50%% weight and uses 50%% materials
+Empower Spell|"Yes"|Caster level 1st|all variable numerical effects of a spell are increased by 50%%
+Empowered Magic|"Yes"|Caster level 1st|+1 to all spell dcs
+Empty Body|"Yes"|19th-level Monk|50%% concealment for several rounds
+Endurance|"Yes"|-|+4 to con and skill checks made to resist fatigue and 1 extra move point per level
+Energy Resistance|"Yes"|-|reduces all energy related damage by 3 per rank
+Enhance Arrow (Aligned)|"Yes"|10th-level Arcane Archer|+1d6 holy/unholy damage with bows against different aligned creatures.
+Enhance Arrow (Distance)|"Yes"|6th-level Arcane Archer|doubles range increment on weapon.
+Enhance Arrow (Elemental Burst)|"Yes"|8th-level Arcane Archer|+2d10 on critical hits with bows
+Enhance Arrow (Elemental)|"Yes"|4th-level Arcane Archer|+1d6 elemental damage with bows
+Enhance Arrow (Magic)|"Yes"|1st-level Arcane Archer|+1 to hit and damage with bows per rank
+Enhanced Mobility|"Yes"|3rd-level Duelist|ask staff
+Enhanced Spell Damage|"Yes"|Caster level 1st|+1 spell damage per die rolled
+Enlarge Spell|"No"|ask staff|ask staff
+Epic Combat Challenge|"No"|Epic level, 20 ranks in diplomacy, intimidate or bluff, greater combat challenge|as improved combat challenge, but both regular challenges and challenge all are minor actions
+Epic Dodge|"No"|Epic level, dex 25, dodge, tumble 30, improved evasion, defensive roll|automatically dodge first attack against you each round
+Epic Prowess|"No"|Epic level|+1 to all attacks per rank
+Epic Skill focus|"No"|Epic level, 20 ranks in the skill|+10 in chosen skill
+Epic Spellcasting|"No"|Epic level, lore 24, spellcraft 24|allows you to cast epic spells
+Epic Toughness|"No"|Epic level|You gain +30 max hp.
+Eschew Materials|"No"|ask staff|Cast spells without material components
+Essence of Undeath|"Yes"|10th-level Death Master|gives immunity to poison, disease, sneak attack and critical hits
+Evasion|"Yes"|2nd-level Monk, 2nd-level Rogue|on successful reflex save no damage from spells and effects
+Exceptional Turning|"Yes"|sun cleric domain|+1d10 hit dice of undead turned
+Extend Rage|"Yes"|ask staff|ask staff
+Extend Spell|"Yes"|Caster level 1st|durations of spells are 50%% longer when enabled
+Extra Music|"Yes"|1st-level Bard|4 extra bard music uses per day
+Extra Rage|"Yes"|Rage class feature|ask staff
+Extra Turning|"Yes"|1st-level Cleric or Paladin|2 extra turn attempts per day
+Far Shot|"No"|Point-Blank Shot|Decrease ranged penalties by half
+Fascinate|"Yes"|1st-level Bard|ask staff
+Fast Crafter|"Yes"|1st-level Artisan|Reduces crafting time
+Fast Healer|"Yes"|Con 13, Diehard|+2 hp healed per round
+Fast Healing|"No"|Epic Level|Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds
+Fast Movement|"Yes"|1st-level Barbarian|10ft bonus to speed in light or medium armor
+Faster Memorization|"Yes"|memorization based Caster level 1|decreases spell memorization time
+Favored Enemy|"Yes"|1st-level Ranger|ask staff
+Flurry of Blows|"Yes"|1st-level Monk|extra attack when fighting unarmed at -2 to all attacks
+Forge Ring|"No"|Caster level 7th|Create magic rings
+Grace|"Yes"|4th-level Duelist|ask staff
+Great Cleave|"No"|Cleave, base attack bonus +4|ask staff
+Great Fortitude|"Yes"|-|+2 on Fortitude saves
+Great Smiting|"No"|Epic Level|For each rank in this feat you add your level in damage to all smite attacks
+Greater Combat Challenge|"No"|15 ranks in diplomacy, intimidate or bluff, improved combat challenge|as improved combat challenge, but regular challenge is a minor action & challenge all is a move action 
+Greater Flurry|"Yes"|11th-level Monk|extra unarmed attack when using flurry of blows at -5 penalty
+Greater Rage|"Yes"|11th-level Barbarian|+6 to str and con when raging
+Greater Spell Focus|"No"|Spell Focus|ask staff
+Greater Spell Penetration|"No"|Spell Penetration|ask staff
+Greater Two Weapon Fighting|"Yes"|DEX 19, Base attack bonus +11, Improved Two-Weapon Fighting|gives an additional offhand weapon attack
+Greater Weapon Focus|"Yes"|Weapon Focus, 8th-level fighter|additional +1 to hit rolls with weapon (stacks)
+Greater Weapon Specialization|"Yes"|Weapon Specialization, 12th-level fighter|+2 bonus on damage rolls with one weapon
+Haste|"No"|favored soul level 17|can cast haste 3x per day
+Heighten Spell|"No"|ask staff|ask staff
+Hide in Plain Sight|"Yes"|17th-level Ranger, 8th-level Assassin|ask staff
+Improved Bull Rush|"No"|Power Attack|ask staff
+Improved Combat Challenge|"Yes"|10 ranks in diplomacy, intimidate or bluff, combat challenge|allows you to make all mobs focus their attention on you
+Improved Combat Style|"Yes"|ask staff|ask staff
+Improved Counterspell|"No"|ask staff|ask staff
+Improved Critical|"Yes"|Proficient with weapon, Base attack bonus +8|Double the threat range of one weapon
+Improved Disarm|"No"|Combat Expertise|ask staff
+Improved Evasion|"Yes"|11th-level Rogue|as evasion but half damage of failed save
+Improved Familiar|"No"|ask staff|ask staff
+Improved Feint|"Yes"|Combat Expertise|can feint and make one attack per round (or sneak attack if they have it)
+Improved Grapple|"No"|Dex 13, Improved Unarmed Strike|ask staff
+Improved Initiative|"Yes"|-|+4 bonus on initiative checks
+Improved Leadership|"Yes"|ask staff|ask staff
+Improved Natural Weapons|"Yes"|Natural Weapon, Base attack bonus +4|increase damage dice by one category for natural weapons
+Improved Overrun|"No"|Power Attack|ask staff
+Improved Precise Shot|"Yes"|11th-level Ranger|+1 to hit on all ranged attacks
+Improved Reaction|"Yes"|2nd-level Duelist|+2 bonus to initiative checks (+4 at 8th class level)
+Improved Shield Bash|"No"|Shield Proficiency|ask staff
+Improved Sneak Attack|"Yes"|sneak attack 1d6 or more|each rank gives +5%% chance per attack, per rank to be a sneak attack.
+Improved Sunder|"No"|Power Attack|ask staff
+Improved Trip|"Yes"|Combat Expertise|no attack of opportunity when tripping, +4 to trip check
+Improved Turning|"No"|ask staff|ask staff
+Improved Two Weapon Fighting|"Yes"|dex 17, two weapon fighting, base attack bonus of +6 or more|extra attack with offhand weapon at -5 penalty
+Improved Unarmed Strike|"Yes"|-|Always considered armed
+Improved Uncanny Dodge|"Yes"|-|cannot be flanked (or sneak attacked
+Improved Weapon Finesse|"Yes"|weapon finesse, weapon focus, base attack bonus of 4+|add dex bonus to damage instead of str for light weapons
+Increase Spell Damage (Enhance Spell)|"No"|Epic Level|increase max number of damage dice for certain damage based spell by 5
+Increased Multiplier|"Yes"|3rd-level Weapon Master|Weapons of choice have +1 to their critical multiplier
+Indomitable Will|"Yes"|14th-level Barbarian|ask staff
+Inspire Competence|"Yes"|3rd-level Bard|ask staff
+Inspire Courage|"Yes"|1st-level Bard|ask staff
+Inspire Greatness|"Yes"|9th-level Bard|ask staff
+Inspire Heroics|"Yes"|15th-level Bard|ask staff
+Intelligence Boost|"Yes"|8th-level Dragon Disciple|ask staff
+Intensify Spell|"No"|Epic level, empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells|maximizes damage/healing and then doubles it.
+Iron Will|"Yes"|-|+2 bonus on Will saves
+Ki Critical|"Yes"|7th-level Weapon Master|Weapons of choice have +1 to threat range per rank
+Ki Damage|"Yes"|1st-level Weapon Master|Weapons of Choice have 5 percent chance to deal max damage
+Ki Strike|"Yes"|4th-level Monk|unarmed attack considered a magical weapon
+Knockdown|"Yes"|improved trip|when active, any melee attack that deals 10 damage or more invokes a free automatic trip attempt against your target
+Lay on Hands|"Yes"|2nd-level Paladin|heals (class level) * (charisma bonus) hit points once per day
+Leadership|"Yes"|Character level 7th|can have more and higher level followers, group members get extra exp on kills and hit/ac bonuses
+Learned Crafter|"Yes"|1st-level Artisan|Artisan gains exp for crafting items and harvesting
+Lightning Reflexes|"Yes"|-|+2 bonus on Reflex saves
+Lingering Song|"Yes"|1st-level Bard|5 extra rounds for bard songs
+Low Light Vision|"Yes"|-|can see in the dark outside only
+Magical Aptitude|"Yes"|-|+2 bonus on Spellcraft and Use Magic Device checks
+Manyshot|"Yes"|6th-level Ranger|extra ranged attack when rapid shot turned on
+Mass Suggestion|"Yes"|18th-level Bard|ask staff
+Masterwork Crafting|"Yes"|6th-level Artisan|All equipment made is masterwork
+Maximize Spell|"Yes"|Caster level 1st|all spells cast while maximised enabled do maximum effect.
+Mighty Rage|"No"|Epic level, str 21, con 21, greater rage, rage 5/day|+8 str and con and +4 to will saves when raging
+Mobile Defense|"Yes"|8th-level Dwarven Defender|Allows one to move while in defensive stance
+Mobility|"Yes"|Dodge|+4 AC against attacks of opportunity from movement
+Monkey Grip|"No"|-|can wield weapons one size larger than wielder in one hand with -2 to attacks.
+Mounted Archery|"No"|ask staff|ask staff
+Mounted Combat|"Yes"|Ride 1 rank|once per round rider may negate a hit against him with a successful ride vs attack roll check
+Natural Armor Increase|"Yes"|ask staff|ask staff
+Natural Spell|"Yes"|Wis 13, wild shape class feature.|Cast spells while using wild shape
+Nature Sense|"Yes"|1st-level Druid|A druid gains a +2 bonus on Knowledge and Survival checks
+No Retreat|"Yes"|9th-level Duelist|allows you to gain an attack of opportunity against retreating opponents
+Opportunist|"Yes"|10th-level Rogue|once per round the rogue may make an attack of opportunity against a foe an ally just struck
+Parry|"Yes"|2nd-level Duelist|allows you to parry incoming attacks
+Perfect Self|"Yes"|20th-level Monk|10/magic damage reduction
+Perfect Two Weapon Fighting|"No"|Epic level, dex 25, greater two weapon fighting|Extra attack with offhand weapon
+Persuasive|"Yes"|-|+2 bonus on Diplomacy and Intimidate checks
+Point Blank Shot|"Yes"|-|+1 to hit and dam rolls with ranged weapons in the same room
+Poison Save Bonus|"Yes"|2nd-level Assassin|Bonus to all saves against poison.
+Poison Use|"Yes"|1st-level Assassin|Trained use in poisons without risk of poisoning self.
+Power Attack|"Yes"|Str 13, base attack bonus +1|subtract a number from hit and add to dam.  If 2H weapon add 2x dam instead
+Powerful Sneak|"Yes"|Rogue Talent|opt to take -2 to attacks and treat all sneak attack dice rolls of 1 as a 2
+Precise Shot|"Yes"|Point-Blank Shot|You may shoot in melee without the standard -4 to hit penalty
+Precise Strike|"Yes"|-|+1d6 damage when using only one weapon and no shield
+Proficient Crafter|"Yes"|2nd-level Artisan|Increases all crafting skills
+Proficient Harvester|"Yes"|4th-level Artisan|Increases all harvesting skills
+Purity of Body|"Yes"|5th-level Monk|A monk gains immunity to all diseases, including supernatural and magical diseases.
+Quick Draw|"No"|Base attack bonus +1|ask staff
+Quicken Spell|"Yes"|Caster level 1st|allows you to cast spell as a move action instead of standard action
+Quivering Palm|"Yes"|15th-level Monk|chance to kill on strike with unarmed attack
+Rage|"Yes"|1st-level Barbarian|+4 bonus to con and str for several rounds
+Rapid Reload|"No"|ask staff|ask staff
+Rapid Shot|"Yes"|Dex 13, Point-Blank Shot|can make extra attack per round with ranged weapon at -2 to all attacks
+Remove Disease|"Yes"|6th-level Paladin|can cure diseases
+Resist Nature's Lure|"Yes"|4th-level Druid|+4 to spells and spell like abilities from fey creatures
+Ride-By Attack|"No"|ask staff|ask staff
+Riposte|"Yes"|5th-level Duelist|allows you to gain an attack of opportunity after a successful parry
+Robilars Gambit|"No"|combat reflexes, base attack bonus +12|when active enemies gain +4 to hit and damage against you, but all melee attacks invoke an attack of opportunity from you.
+Run|"Yes"|ask staff|ask staff
+Sacred Flames|"Yes"|sacred fist level 5|allows you to use "innate 'flame weapon'" 3 times per 10 minutes
+Scavenge|"Yes"|5th-level Artisan|Can find materials on corpses
+Scribe Scroll|"No"|Caster level 1st|Create magic scrolls
+Self Concealment|"No"|Epic level, stealth 30 ranks, dex 30, tumble 30 ranks|10%% miss chance for attacks against you per rank
+Self Sufficient|"Yes"|-|You get a +2 bonus on all Heal checks and Survival checks.
+Shot on the Run|"No"|ask staff|ask staff
+Silent Spell|"No"|ask staff|ask staff
+Skill Focus|"Yes"|-|+3 bonus on one skill
+Sleep & Paralysis Immunity|"Yes"|10th-level Dragon Disciple|ask staff
+Slippery Mind|"Yes"|11th-level Rogue|extra chance for will saves
+Slow Fall|"Yes"|-|no damage for falling 10 ft/feat rank
+Smite Evil|"Yes"|5th-level Paladin|add level to hit roll and charisma bonus to damage
+Smite Good|"No"|ask staff|ask staff
+Sneak Attack|"Yes"|-|+1d6 to damage when flanking
+Sneak Attack of Opportunity|"Yes"|sneak attack +8d6, opportunist feat|makes all opportunity attacks sneak attacks
+Song of Freedom|"Yes"|12t-level Bard|ask staff
+Spell Focus|"No"|Caster level 1st|Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.
+Spell Mastery|"No"|ask staff|ask staff
+Spell Penetration|"No"|-|+2 bonus on level checks to beat spell resistance
+Spirited Charge|"No"|ask staff|ask staff
+Spring Attack|"Yes"|Mobility, base attack bonus +4|free attack of opportunity against combat abilities (ie. kick, trip)
+Steadfast Determination|"Yes"|Endurance|allows you to use your con bonus instead of your wis bonus for will saves
+Stealthy|"Yes"|-|+2 bonus on Escape Artist and Stealth checks
+Still Mind|"Yes"|3rd-level Monk|A Monk gains a +2 bonus vs. enchantment spells and effects
+Still Spell|"No"|ask staff|ask staff
+Strength Boost|"Yes"|ask staff|ask staff
+Stunning Fist|"Yes"|Dex 13, Wis 13, Improved Unarmed Strike, base attack bonus +8|Stun opponent with an unarmed strike
+Suggestion|"Yes"|6th-level Bard|ask staff
+Summon Familiar|"Yes"|-|summon a magical pet
+Summon Greater Undead|"Yes"|8th-level Death Master|allows innate use of summon greater undead spell 3x per day
+Summon Undead|"Yes"|4th-level Death Master|allows innate use of summon undead spell 3x per day
+Sunder|"No"|ask staff|ask staff
+Superior Weapon Focus|"Yes"|5th-level Weapon Master|Weapons of choice have +1 to hit
+Swarm of Arrows|"No"|Epic level, dex 23, point blank shot, rapid shot, weapon focus|allows you to make a single ranged attack against everyone in range.
+Swift Tracker|"Yes"|8th-level Ranger|ask staff
+Timeless Body|"Yes"|15th-level Druid, 16th-level Monk|immune to negative agining effects
+Tireless Rage|"Yes"|17th-level Barbarian|no fatigue after raging
+Tongue of the Sun and Moon|"Yes"|17th-level Monk|A monk of 17th level or higher can speak with any living creature
+Touch of Undeath|"Yes"|9th-level Death Master|allows for paralytic or instant death touch
+Toughness|"Yes"|-|+3 hit points, +1 per Hit Die beyond 3
+Track|"No"|-|use survival skill to track others
+Trackless Step|"Yes"|3rd-level Druid|cannot be tracked
+Trample|"No"|Mounted Combat|ask staff
+Trap Sense|"Yes"|ask staff|ask staff
+Trapfinding|"Yes"|1st-level Rogue|A rogue adds 1/2 her level to Disable Device skill checks (minimum +1).
+Turn Undead|"Yes"|-|Channel energy can be used to make undead flee
+Two Weapon Defense|"Yes"|Two-Weapon Fighting|Gain +1 shield bonus when fighting with two weapons
+Two-Weapon Fighting|"Yes"|Dex 15|Reduce two-weapon fighting penalties
+Unarmed Strike|"Yes"|ask staff|ask staff
+Uncanny Dodge|"Yes"|-|retains dex bonus when flat footed or against invis opponents
+Undead Familiar|"Yes"|3rd-level Death Master|allows for undead familiars
+Venom Immunity|"Yes"|9th-level Druid|A druid gains immunity to all poisons.
+Weapon Finesse|"Yes"|-|Use Dex instead of Str on attack rolls with light weapons
+Weapon Flurry|"Yes"|Weapon Mastery, base attack bonus +14|2nd attack at -5 to hit with standard action or extra attack at full bonus with full round action
+Weapon Focus|"Yes"|Proficiency with weapon, base attack bonus +1|+1 to hit rolls for selected weapon
+Weapon Mastery|"No"|Weapon Specialization, Base Attack Bonus +8|+2 to hit and damage with that weapon
+Weapon Proficiency (Bastard Sword)|"No"|ask staff|ask staff
+Weapon Proficiency (Deity)|"Yes"|1st-level Cleric|Clerics are proficient with the favored weapon of their deity
+Weapon Proficiency (Druid)|"No"|ask staff|ask staff
+Weapon Proficiency (Elf)|"No"|ask staff|ask staff
+Weapon Proficiency (Exotic)|"Yes"|Base attack bonus +1|You understand how to use that type of exotic weapon in combat.
+Weapon Proficiency (Martial)|"Yes"|-|You understand how to use martial weapons in combat.
+Weapon Proficiency (Monk)|"No"|ask staff|ask staff
+Weapon Proficiency (Rogue)|"No"|ask staff|ask staff
+Weapon Proficiency (Simple)|"Yes"|-|You are trained in the use of basic weapons.
+Weapon Proficiency (Wizard)|"No"|1st-level Wizard|ask staff
+Weapon Specialization|"Yes"|Weapon Focus, 4th-level fighter|+2 bonus on damage rolls with one weapon
+Weapon Supremacy|"No"|Weapon Mastery, greater weapon focus, greater weapon specialization, fighter level 18|+4 to resist disarm, ignore grapples, add +5 to hit roll when miss by 5 or less, can take 10 on attack rolls, +1 bonus to AC when wielding weapon
+Weapons of Choice|"Yes"|1st-level Weapon Master|All weapons with weapon focus gain special abilities
+Whirlwind Attack|"Yes"|Dex 13, Combat Expertise, Spring Attack, base attack bonus +4|allows you to attack everyone in the room or everyone you are fighting (with contain) as a standard action
+Wholeness of Body|"Yes"|7th-level Monk|can heal class level *2 hp to self
+Widen Spell|"No"|Caster level 1st|ask staff
+Wild Empathy|"Yes"|2nd-level Ranger|ask staff
+Wild Shape|"Yes"|4th-level Druid|ask staff
+Wild Shape (Elemental)|"Yes"|ask staff|ask staff
+Wild Shape (Huge Elemental)|"Yes"|ask staff|ask staff
+Wild Shape (Huge)|"Yes"|ask staff|ask staff
+Wild Shape (Large)|"Yes"|ask staff|ask staff
+Wild Shape (Plant)|"Yes"|ask staff|ask staff
+Wild Shape (Tiny)|"Yes"|ask staff|ask staff
+Wings|"Yes"|9th-level Dragon Disciple|ask staff
+Woodland Stride|"Yes"|2nd-level Druid, 7th-level Ranger|A druid or ranger may move through any sort of undergrowth at her normal speed and without taking damage or suffering any other impairment.
+do not take me|"No"|placeholder feat|placeholder feat

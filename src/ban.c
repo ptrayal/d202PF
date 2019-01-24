@@ -130,83 +130,95 @@ void write_ban_list(void)
 #define BAN_LIST_FORMAT "%-25.25s  %-8.8s  %-15.15s  %-16.16s\r\n"
 ACMD(do_ban)
 {
-  char flag[MAX_INPUT_LENGTH]={'\0'}, site[MAX_INPUT_LENGTH]={'\0'}, *nextchar;
-  char timestr[16]={'\0'};
-  int i = 0;
-  struct ban_list_element *ban_node;
+    char flag[MAX_INPUT_LENGTH]={'\0'}, site[MAX_INPUT_LENGTH]={'\0'}, *nextchar;
+    char timestr[16]={'\0'};
+    int i = 0;
+    struct ban_list_element *ban_node;
 
-  if (!*argument) 
-  {
-    if (!ban_list) 
+    if (!*argument) 
     {
-      send_to_char(ch, "No sites are banned.\r\n");
-      return;
-    }
-    send_to_char(ch, BAN_LIST_FORMAT,
-      "Banned Site Name",
-      "Ban Type",
-      "Banned On",
-      "Banned By");
-    send_to_char(ch, BAN_LIST_FORMAT,
-      "---------------------------------",
-      "---------------------------------",
-      "---------------------------------",
-      "---------------------------------");
+        if (!ban_list) 
+        {
+            send_to_char(ch, "No sites are banned.\r\n");
+            return;
+        }
+        send_to_char(ch, BAN_LIST_FORMAT,
+            "Banned Site Name",
+            "Ban Type",
+            "Banned On",
+            "Banned By");
+        send_to_char(ch, BAN_LIST_FORMAT,
+            "---------------------------------",
+            "---------------------------------",
+            "---------------------------------",
+            "---------------------------------");
 
+        for (ban_node = ban_list; ban_node; ban_node = ban_node->next) 
+        {
+            if (ban_node->date) 
+            {
+                strftime(timestr, sizeof(timestr), "%a %b %d %Y", localtime(&(ban_node->date)));
+            } 
+            else
+            {
+                strcpy(timestr, "Unknown");
+                /* strcpy: OK (strlen("Unknown") < 16) */
+            }
+
+            send_to_char(ch, BAN_LIST_FORMAT, ban_node->site, ban_types[ban_node->type], timestr, ban_node->name);
+        }
+        return;
+    }
+
+    two_arguments(argument, flag, site);
+    if (!*site || !*flag) 
+    {
+        send_to_char(ch, "Usage: ban {all | select | new} site_name\r\n");
+        return;
+    }
+    if (!(!str_cmp(flag, "select") || !str_cmp(flag, "all") || !str_cmp(flag, "new"))) 
+    {
+        send_to_char(ch, "Flag must be ALL, SELECT, or NEW.\r\n");
+        return;
+    }
     for (ban_node = ban_list; ban_node; ban_node = ban_node->next) 
     {
-      if (ban_node->date) 
-      {
-        strftime(timestr, sizeof(timestr), "%a %b %d %Y", localtime(&(ban_node->date)));
-      } 
-      else
-        strcpy(timestr, "Unknown");	/* strcpy: OK (strlen("Unknown") < 16) */
-
-      send_to_char(ch, BAN_LIST_FORMAT, ban_node->site, ban_types[ban_node->type], timestr, ban_node->name);
+        if (!str_cmp(ban_node->site, site)) 
+        {
+            send_to_char(ch, "That site has already been banned -- unban it to change the ban type.\r\n");
+            return;
+        }
     }
-    return;
-  }
 
-  two_arguments(argument, flag, site);
-  if (!*site || !*flag) 
-  {
-    send_to_char(ch, "Usage: ban {all | select | new} site_name\r\n");
-    return;
-  }
-  if (!(!str_cmp(flag, "select") || !str_cmp(flag, "all") || !str_cmp(flag, "new"))) 
-  {
-    send_to_char(ch, "Flag must be ALL, SELECT, or NEW.\r\n");
-    return;
-  }
-  for (ban_node = ban_list; ban_node; ban_node = ban_node->next) 
-  {
-    if (!str_cmp(ban_node->site, site)) {
-      send_to_char(ch, "That site has already been banned -- unban it to change the ban type.\r\n");
-      return;
+    CREATE(ban_node, struct ban_list_element, 1);
+    strncpy(ban_node->site, site, BANNED_SITE_LENGTH);	
+    /* strncpy: OK (b_n->site:BANNED_SITE_LENGTH+1) */
+    for (nextchar = ban_node->site; *nextchar; nextchar++)
+    {
+        *nextchar = LOWER(*nextchar);
     }
-  }
+    ban_node->site[BANNED_SITE_LENGTH] = '\0';
+    strncpy(ban_node->name, GET_NAME(ch), MAX_NAME_LENGTH);	
+    /* strncpy: OK (b_n->size:MAX_NAME_LENGTH+1) */
+    ban_node->name[MAX_NAME_LENGTH] = '\0';
+    ban_node->date = time(0);
 
-  CREATE(ban_node, struct ban_list_element, 1);
-strncpy(ban_node->site, site, BANNED_SITE_LENGTH);	/* strncpy: OK (b_n->site:BANNED_SITE_LENGTH+1) */
-  for (nextchar = ban_node->site; *nextchar; nextchar++)
-    *nextchar = LOWER(*nextchar);
-  ban_node->site[BANNED_SITE_LENGTH] = '\0';
-strncpy(ban_node->name, GET_NAME(ch), MAX_NAME_LENGTH);	/* strncpy: OK (b_n->size:MAX_NAME_LENGTH+1) */
-  ban_node->name[MAX_NAME_LENGTH] = '\0';
-  ban_node->date = time(0);
-
-  for (i = BAN_NEW; i <= BAN_ALL; i++)
-    if (!str_cmp(flag, ban_types[i]))
-      ban_node->type = i;
+    for (i = BAN_NEW; i <= BAN_ALL; i++)
+    {
+        if (!str_cmp(flag, ban_types[i]))
+        {
+            ban_node->type = i;
+        }
+    }
 
     ban_node->next = ban_list;
     ban_list = ban_node;
 
     mudlog(NRM, MAX(ADMLVL_GOD, GET_INVIS_LEV(ch)), TRUE, "%s has banned %s for %s players.",
-      GET_NAME(ch), site, ban_types[ban_node->type]);
+        GET_NAME(ch), site, ban_types[ban_node->type]);
     send_to_char(ch, "Site banned.\r\n");
     write_ban_list();
-  }
+}
 
 #undef BAN_LIST_FORMAT
 
@@ -319,24 +331,24 @@ void Free_Invalid_List(void)
 
 void Read_Invalid_List(void)
 {
-  FILE *fp;
-  char temp[256]={'\0'};
+    FILE *fp;
+    char temp[256]={'\0'};
 
-  if (!(fp = fopen(XNAME_FILE, "r"))) 
-  {
-    log("SYSERR: Unable to open '" XNAME_FILE "' for reading: %s", strerror(errno));
-    return;
-  }
+    if (!(fp = fopen(XNAME_FILE, "r"))) 
+    {
+        log("SYSERR: Unable to open '" XNAME_FILE "' for reading: %s", strerror(errno));
+        return;
+    }
 
-  num_invalid = 0;
-  while (get_line(fp, temp) && num_invalid < MAX_INVALID_NAMES)
-    invalid_list[num_invalid++] = strdup(temp);
+    num_invalid = 0;
+    while (get_line(fp, temp) && num_invalid < MAX_INVALID_NAMES)
+        invalid_list[num_invalid++] = strdup(temp);
 
-  if (num_invalid >= MAX_INVALID_NAMES) 
-  {
-    log("SYSERR: Too many invalid names; change MAX_INVALID_NAMES in ban.c");
-    exit(1);
-  }
+    if (num_invalid >= MAX_INVALID_NAMES) 
+    {
+        log("SYSERR: Too many invalid names; change MAX_INVALID_NAMES in ban.c");
+        exit(1);
+    }
 
-  fclose(fp);
+    fclose(fp);
 }

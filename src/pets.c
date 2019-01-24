@@ -306,24 +306,26 @@ void free_mount(struct char_data *ch)
 void free_companion(struct char_data *ch)
 {
 
-  if (ch->player_specials->mounted == MOUNT_COMPANION)
-    do_dismount(ch, 0, 0, 0);
+    if (ch->player_specials->mounted == MOUNT_COMPANION)
+    {
+        do_dismount(ch, 0, 0, 0);
+    }
 
-  byte i = 0;
+    byte i = 0;
 
-  ch->player_specials->companion_num = 0;
-//  if (ch->player_specials->companion_desc != NULL)
-//    free(ch->player_specials->companion_desc);
-  ch->player_specials->companion_max_hit = 0;
-  ch->player_specials->companion_cur_hit = 0;
-  ch->player_specials->companion_ac = 0;
-  ch->player_specials->companion_dr = 0;
+    ch->player_specials->companion_num = 0;
+    //  if (ch->player_specials->companion_desc != NULL)
+    //    free(ch->player_specials->companion_desc);
+    ch->player_specials->companion_max_hit = 0;
+    ch->player_specials->companion_cur_hit = 0;
+    ch->player_specials->companion_ac = 0;
+    ch->player_specials->companion_dr = 0;
 
-  for (i = 0; i < 5; i++) {
-    ch->player_specials->companion_attack_to_hit[i] = 0;
-    ch->player_specials->companion_attack_ndice[i] = 0;
-    ch->player_specials->companion_attack_sdice[i] = 0;
-    ch->player_specials->companion_attack_dammod[i] = 0;
-  }
-
+    for (i = 0; i < 5; i++) 
+    {
+        ch->player_specials->companion_attack_to_hit[i] = 0;
+        ch->player_specials->companion_attack_ndice[i] = 0;
+        ch->player_specials->companion_attack_sdice[i] = 0;
+        ch->player_specials->companion_attack_dammod[i] = 0;
+    }
 }

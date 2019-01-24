@@ -125,21 +125,24 @@ SPECIAL(read_rules);
 
 SPECIAL(read_rules)
 {
+    int i = 0;
 
-  int i = 0;
-
-  if (CMD_IS("north") && GET_CLASS_LEVEL(ch) == 0 && ch->desc && ch->desc->account && ch->desc->account->read_rules == 0) {
-    for (i = 0; i < NUM_RULES; i++) {
-      if (ch->player_specials->rules_read[i] == FALSE) {
-        send_to_char(ch, "You must read all of the rules before you are able to move on.  Type @Yhelp rules@n to begin.\r\n");
-        return 1;
-      }
+    if (CMD_IS("north") && GET_CLASS_LEVEL(ch) == 0 && ch->desc && ch->desc->account && ch->desc->account->read_rules == 0) {
+        for (i = 0; i < NUM_RULES; i++) 
+        {
+            if (ch->player_specials->rules_read[i] == FALSE) 
+            {
+                send_to_char(ch, "You must read all of the rules before you are able to move on.  Type @Yhelp rules@n to begin.\r\n");
+                return 1;
+            }
+        }
     }
-  }
-  if (ch->desc && ch->desc->account)
-    ch->desc->account->read_rules = 1;
+    if (ch->desc && ch->desc->account)
+    {
+        ch->desc->account->read_rules = 1;
+    }
 
-  return 0;
+    return 0;
 }
 
 SPECIAL(enforce_chargen)
@@ -2486,31 +2489,47 @@ return FALSE;
 
 SPECIAL(cleric)
 {
-struct char_data *vict;
+    struct char_data *vict;
 
-if (!FIGHTING(ch))
-if (GET_MAX_HIT(ch) != GET_HIT(ch))
-	return (cleric_cast_cure(ch));
-	return (cleric_cast_buff(ch));
+    if (!FIGHTING(ch))
+    {
+        if (GET_MAX_HIT(ch) != GET_HIT(ch))
+        {
+            return (cleric_cast_cure(ch));
+        }
+    }
+    return (cleric_cast_buff(ch));
 
-if (cmd || GET_POS(ch) != POS_FIGHTING)
-return FALSE;
+    if (cmd || GET_POS(ch) != POS_FIGHTING)
+    {
+        return FALSE;
+    }
 
 /* pseudo-randomly choose someone in the room who is fighting me */
-for (vict = world[IN_ROOM(ch)].people; vict; vict = vict->next_in_room)
-if (FIGHTING(vict) == ch && !rand_number(0, 4))
-break;
+    for (vict = world[IN_ROOM(ch)].people; vict; vict = vict->next_in_room)
+    {
+        if (FIGHTING(vict) == ch && !rand_number(0, 4))
+        {
+            break;
+        }
+    }
 
 /* if I didn't pick any of those, then just slam the guy I'm fighting */
-if (vict == NULL)
-vict = FIGHTING(ch);
+    if (vict == NULL)
+    {
+        vict = FIGHTING(ch);
+    }
 
-if (dice(1, 100) < 51 && (GET_MAX_HIT(ch) != GET_HIT(ch)))
-	return (cleric_cast_cure(ch));
-else
-return (cleric_cast_spell(ch, vict));
+    if (dice(1, 100) < 51 && (GET_MAX_HIT(ch) != GET_HIT(ch)))
+    {
+        return (cleric_cast_cure(ch));
+    }
+    else
+    {
+        return (cleric_cast_spell(ch, vict));
+    }
 
-return FALSE;
+    return FALSE;
 }
 
 int wizard_cast_buff(struct char_data *ch)
@@ -5696,12 +5715,14 @@ struct spec_list spec_names[] = {
 /* Get the name of a special proc. */
 char *get_spec_name(SPECIAL(func))
 {
-  int i=0;
+    int i=0;
 
-  if (!func)
-    return "None";
+    if (!func)
+    {
+        return "None";
+    }
 
-  for (; spec_names[i].func && spec_names[i].func!=func; i++);
+    for (; spec_names[i].func && spec_names[i].func!=func; i++);
 
     return spec_names[i].name;
 }
@@ -5713,7 +5734,7 @@ proctype get_spec_proc(char *name)
 
     for (; spec_names[i].func && str_cmp(name, spec_names[i].name); i++);
 
-        return spec_names[i].func;
+    return spec_names[i].func;
 }
 
 /* Show all specprocs */
@@ -5727,11 +5748,15 @@ void list_spec_procs(struct char_data *ch)
     {
         send_to_char(ch, "%s", spec_names[i].name);
         if (i%4==3)
-            send_to_char(ch, "\r\n");
-        else
-            send_to_char(ch, "\t\t");
-    }
-    send_to_char(ch, "\r\n");
+        {
+          send_to_char(ch, "\r\n");
+      }
+      else
+      {
+          send_to_char(ch, "\t\t");
+      }
+  }
+  send_to_char(ch, "\r\n");
 }
 
 
@@ -5947,7 +5972,9 @@ SPECIAL(emporium)
       obj->affected[0].modifier = atoi(arg4);
 
     if ((bt == APPLY_AC_SHIELD || bt == APPLY_AC_DEFLECTION || bt == APPLY_AC_NATURAL || bt == APPLY_AC_ARMOR))
-      obj->affected[0].modifier *= 10;
+      {
+        obj->affected[0].modifier *= 10;
+      }
 
       if (bt == APPLY_ACCURACY) {
         obj->affected[1].location = APPLY_DAMAGE;

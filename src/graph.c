@@ -38,9 +38,9 @@ void hunt_victim(struct char_data *ch);
 
 struct bfs_queue_struct 
 {
-  room_rnum room;
-  char dir;
-  struct bfs_queue_struct *next;
+    room_rnum room;
+    char dir;
+    struct bfs_queue_struct *next;
 };
 
 static struct bfs_queue_struct *queue_head = 0, *queue_tail = 0;

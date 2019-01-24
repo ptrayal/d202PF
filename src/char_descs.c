@@ -586,5 +586,4 @@ int count_adjective_types(int which_desc)
   }
 
   return i;
-
 }

@@ -121,14 +121,18 @@ void list_languages(struct char_data *ch)
     int a = 0, i = 0;
 
     send_to_char(ch, "Languages Known (red means currently speaking):\r\n[");
-        for (i = MIN_LANGUAGES ; i <= CampaignMaxLanguages() ; i++)
-            if (GET_SKILL(ch, i) || affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON))
-                send_to_char(ch, "%s %s%s%s",
-                    a++ != 0 ? "," : "",
-                    SPEAKING(ch) == i ? "@r": "@n",
-                    (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[i-MIN_LANGUAGES], "@n");
-            send_to_char(ch, "%s ]\r\n", a== 0 ? " None!" : "");
+    for (i = MIN_LANGUAGES ; i <= CampaignMaxLanguages() ; i++)
+    {
+        if (GET_SKILL(ch, i) || affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON))
+        {
+            send_to_char(ch, "%s %s%s%s",
+                a++ != 0 ? "," : "",
+                SPEAKING(ch) == i ? "@r": "@n",
+                (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[i-MIN_LANGUAGES], "@n");
         }
+    }
+    send_to_char(ch, "%s ]\r\n", a== 0 ? " None!" : "");
+}
 
 
 ACMD(do_languages)
@@ -1061,5 +1065,4 @@ ACMD(do_petition)
                      "Please try again in 10 or 20 minutes if you still require assistance then.\r\n"
                      "\r\n"); 
   }
-
 }

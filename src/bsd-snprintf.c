@@ -700,8 +700,8 @@ snprintf(char *str,size_t count,const char *fmt,...)
 }
 
 #ifdef TEST_SNPRINTF
-int 
-main(void)
+
+int main(void)
 {
 #define LONG_STRING 1024
 	char buf1[LONG_STRING]={'\0'};

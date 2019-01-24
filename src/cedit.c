@@ -2324,11 +2324,12 @@ void reassign_rooms(void)
 
 void cedit_string_cleanup(struct descriptor_data *d, int terminator)
 {
-  switch (OLC_MODE(d)) {
-  case CEDIT_MENU:
-  case CEDIT_WELC_MESSG:
-  case CEDIT_START_MESSG:
-    cedit_disp_operation_options(d);
-    break;
-  }
+    switch (OLC_MODE(d)) 
+    {
+        case CEDIT_MENU:
+        case CEDIT_WELC_MESSG:
+        case CEDIT_START_MESSG:
+        cedit_disp_operation_options(d);
+        break;
+    }
 }

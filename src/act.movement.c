@@ -494,7 +494,9 @@ if (riding) {
   }
   ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number]++;
   if (ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] > 50)
-    ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] = 50;
+    {
+      ch->player_specials->rooms_visited[world[IN_ROOM(ch)].number] = 50;
+    }
 
     snprintf(buf2, sizeof(buf2), "%s%s",
             ((dir == UP) || (dir == DOWN) ? "" : "the "),
@@ -2433,6 +2435,4 @@ ACMD(do_jog)
   else {
     send_to_char(ch, "You cannot jog because you are fatigued.\r\n");
   }
-
 }
-

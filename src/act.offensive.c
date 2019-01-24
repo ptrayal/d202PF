@@ -126,142 +126,199 @@ ACMD(do_guard)
 
 ACMD(do_assist)
 {
-  char arg[MAX_INPUT_LENGTH];
-  struct char_data *helpee, *opponent;
+    char arg[MAX_INPUT_LENGTH];
+    struct char_data *helpee, *opponent;
 
-  if (FIGHTING(ch)) {
-    send_to_char(ch, "You're already fighting!  How can you assist someone else?\r\n");
-    return;
-  }
-  one_argument(argument, arg);
-
-  if (!*arg)
-    send_to_char(ch, "Whom do you wish to assist?\r\n");
-  else if (!(helpee = get_char_notvis(ch, arg, NULL, FIND_CHAR_ROOM)))
-    send_to_char(ch, "%s", CONFIG_NOPERSON);
-  else if (helpee == ch)
-    send_to_char(ch, "You can't help yourself any more than this!\r\n");
-  else {
-  struct char_data *tch;
-  for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
-    if (is_player_grouped(ch, tch) && !IS_NPC(tch))
-      tch->exp_chain = 0;
-    /*
-     * Hit the same enemy the person you're helping is.
-     */
-    if (FIGHTING(helpee))
-      opponent = FIGHTING(helpee);
-    else
-      for (opponent = world[IN_ROOM(ch)].people;
-	   opponent && (FIGHTING(opponent) != helpee);
-	   opponent = opponent->next_in_room)
-		;
-    if (opponent == helpee)
-      return;
-    if (!opponent)
-      act("But nobody is fighting $M!", FALSE, ch, 0, helpee, TO_CHAR);
-    else if (ch && opponent && !CAN_SEE(ch, opponent))
-      act("You can't see who is fighting $M!", FALSE, ch, 0, helpee, TO_CHAR);
-         /* prevent accidental pkill */
-    else if (!CONFIG_PK_ALLOWED && !IS_NPC(opponent) && !IS_NPC(ch))	
-      act("Use 'murder' if you really want to attack $N.", FALSE,
-	  ch, 0, opponent, TO_CHAR);
-    else {
-      if (!ch)
+    if (FIGHTING(ch)) 
+    {
+        send_to_char(ch, "You're already fighting!  How can you assist someone else?\r\n");
         return;
-      send_to_char(ch, "You join the fight!\r\n");
-      act("$N assists you!", 0, helpee, 0, ch, TO_CHAR);
-      act("$n assists $N.", FALSE, ch, 0, helpee, TO_NOTVICT);
-      set_fighting(ch, opponent);
     }
-  }
+
+    one_argument(argument, arg);
+
+    if (!*arg)
+    {
+        send_to_char(ch, "Whom do you wish to assist?\r\n");
+    }
+    else if (!(helpee = get_char_notvis(ch, arg, NULL, FIND_CHAR_ROOM)))
+    {
+        send_to_char(ch, "%s", CONFIG_NOPERSON);
+    }
+    else if (helpee == ch)
+    {
+        send_to_char(ch, "You can't help yourself any more than this!\r\n");
+    }
+    else 
+    {
+        struct char_data *tch;
+        for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
+        {
+            if (is_player_grouped(ch, tch) && !IS_NPC(tch))
+            {
+                tch->exp_chain = 0;
+            }
+        }
+/*
+* Hit the same enemy the person you're helping is.
+*/
+        if (FIGHTING(helpee))
+        {
+            opponent = FIGHTING(helpee);
+        }
+        else
+        {
+            for (opponent = world[IN_ROOM(ch)].people;
+                opponent && (FIGHTING(opponent) != helpee);
+                opponent = opponent->next_in_room)
+            {
+                ;
+            }
+        }
+        if (opponent == helpee)
+            return;
+        if (!opponent)
+            act("But nobody is fighting $M!", FALSE, ch, 0, helpee, TO_CHAR);
+        else if (ch && opponent && !CAN_SEE(ch, opponent))
+            act("You can't see who is fighting $M!", FALSE, ch, 0, helpee, TO_CHAR);
+/* prevent accidental pkill */
+        else if (!CONFIG_PK_ALLOWED && !IS_NPC(opponent) && !IS_NPC(ch))	
+            act("Use 'murder' if you really want to attack $N.", FALSE,
+                ch, 0, opponent, TO_CHAR);
+        else {
+            if (!ch)
+                return;
+            send_to_char(ch, "You join the fight!\r\n");
+            act("$N assists you!", 0, helpee, 0, ch, TO_CHAR);
+            act("$n assists $N.", FALSE, ch, 0, helpee, TO_NOTVICT);
+            set_fighting(ch, opponent);
+        }
+    }
 }
 
 
 ACMD(do_hit)
 {
-  char arg[MAX_INPUT_LENGTH];
-  struct char_data *vict;
-  struct follow_type *k;
+    char arg[MAX_INPUT_LENGTH];
+    struct char_data *vict;
+    struct follow_type *k;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (ch->paralyzed) {
-    send_to_char(ch, "You are paralyzed and cannot act!\r\n");
-    return;
-  }
-
-  if (!*arg)
-    send_to_char(ch, "Hit who?\r\n");
-  else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)))
-    send_to_char(ch, "That player is not here.\r\n");
-  else if (subcmd != SCMD_MURDER && !IS_NPC(ch) && (!IS_NPC(vict) || (IS_NPC(vict) && MOB_FLAGGED(vict, MOB_INNOCENT)))) {
-    send_to_char(ch, "You must use the murder command to attack that opponent.\r\nOtherwise witnesses could turn you over for justice for killing an innocent.\r\n");
-    return;
-  }
-  else if (subcmd == SCMD_MURDER) {
-    if (PRF_FLAGGED(ch, PRF_PVP) && PRF_FLAGGED(vict, PRF_PVP)) {
-      if (get_highest_group_level(ch) > get_highest_group_level(vict)) {
-        send_to_char(ch, "Your highest group level is %d, while your opponent's highest group level is %d.  You must mentor down to that level to fight.\r\n",
-                     get_highest_group_level(ch), get_highest_group_level(vict));
+    if (ch->paralyzed) 
+    {
+        send_to_char(ch, "You are paralyzed and cannot act!\r\n");
         return;
-      }
-      send_to_char(ch, "Your pvp timer has been set to 30 minutes.\r\n");
-      ch->pvp_timer = 30;
-      send_to_char(vict, "Your pvp timer has been set to 30 minutes.\r\n");
-      vict->pvp_timer = 30;
-    } else if (!PRF_FLAGGED(ch, PRF_PVP)) {
-      send_to_char(ch, "You do not have your pvp flag enabled. (type pvp to enable it).\r\n");
-      return;
-    } else {
-      send_to_char(ch, "That person does not have their pvp flag enabled.\r\n");
-      return;
     }
-  }
-  else if (vict == ch) {
-    send_to_char(ch, "You hit yourself...OUCH!.\r\n");
-    act("$n hits $mself, and says OUCH!", FALSE, ch, 0, vict, TO_ROOM);
-  } else if (AFF_FLAGGED(ch, AFF_CHARM) && (ch->master == vict))
-    act("$N is just such a good friend, you simply can't hit $M.", FALSE, ch, 0, vict, TO_CHAR);
-  else {
-  struct char_data *tch;
-  for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
-    if (is_player_grouped(ch, tch) && !IS_NPC(tch))
-      tch->exp_chain = 0;
-    if (!CONFIG_PK_ALLOWED) {
-      if (!IS_NPC(vict) && !IS_NPC(ch)) {
-	if (subcmd != SCMD_MURDER) {
-	  send_to_char(ch, "Use 'murder' to hit another player.\r\n");
-	  return;
-	} else {
-	  check_killer(ch, vict);
-	}
-      }
-      if (AFF_FLAGGED(ch, AFF_CHARM) && ch->master && !IS_NPC(ch->master) && !IS_NPC(vict))
-	return;			/* you can't order a charmed pet to attack a
-				 * player */
-    }
-    if (((GET_POS(ch) == POS_STANDING) || GET_POS(ch) == POS_RIDING) && (vict != FIGHTING(ch))) {
-      /* normal attack :( */
-      hit(ch, vict, TYPE_UNDEFINED);
-    } else
-      send_to_char(ch, "You do the best you can!\r\n");
-  }
-  for (k = ch->followers; k; k=k->next) {
-    /* should followers auto-assist master? */
-    if ((IS_NPC(k->follower) && AFF_FLAGGED(k->follower, AFF_CHARM) && !FIGHTING(k->follower) && IN_ROOM(k->follower) == IN_ROOM(ch) &&
-       AFF_FLAGGED(k->follower, AFF_GROUP)) ||
-       (!IS_NPC(k->follower) && !FIGHTING(k->follower) &&
-      (!IS_NPC(k->follower) && PRF_FLAGGED(k->follower, PRF_AUTOASSIST)) &&
-      (IN_ROOM(k->follower) == IN_ROOM(ch))))
-      do_assist(k->follower, GET_NAME(ch), 0, 0);
-  }
 
-  /* should master auto-assist followers?  */
-  if (ch->master && PRF_FLAGGED(ch->master, PRF_AUTOASSIST) &&
-    FIGHTING(ch) && (!IS_NPC(ch) || (IS_NPC(ch) && AFF_FLAGGED(ch, AFF_CHARM))) && !FIGHTING(ch->master) &&
-    (IN_ROOM(ch->master) == IN_ROOM(ch)))
-    do_assist(ch->master, GET_NAME(ch), 0, 0);
+    if (!*arg)
+    {
+        send_to_char(ch, "Hit who?\r\n");
+    }
+    else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)))
+    {
+        send_to_char(ch, "That player is not here.\r\n");
+    }
+    else if (subcmd != SCMD_MURDER && !IS_NPC(ch) && (!IS_NPC(vict) || (IS_NPC(vict) && MOB_FLAGGED(vict, MOB_INNOCENT)))) 
+    {
+        send_to_char(ch, "You must use the murder command to attack that opponent.\r\nOtherwise witnesses could turn you over for justice for killing an innocent.\r\n");
+        return;
+    }
+    else if (subcmd == SCMD_MURDER) 
+    {
+        if (PRF_FLAGGED(ch, PRF_PVP) && PRF_FLAGGED(vict, PRF_PVP)) 
+        {
+            if (get_highest_group_level(ch) > get_highest_group_level(vict)) 
+            {
+                send_to_char(ch, "Your highest group level is %d, while your opponent's highest group level is %d.  You must mentor down to that level to fight.\r\n",
+                    get_highest_group_level(ch), get_highest_group_level(vict));
+                return;
+            }
+            send_to_char(ch, "Your pvp timer has been set to 30 minutes.\r\n");
+            ch->pvp_timer = 30;
+            send_to_char(vict, "Your pvp timer has been set to 30 minutes.\r\n");
+            vict->pvp_timer = 30;
+        } 
+        else if (!PRF_FLAGGED(ch, PRF_PVP)) 
+        {
+            send_to_char(ch, "You do not have your pvp flag enabled. (type pvp to enable it).\r\n");
+            return;
+        } 
+        else 
+        {
+            send_to_char(ch, "That person does not have their pvp flag enabled.\r\n");
+            return;
+        }
+    }
+    else if (vict == ch) 
+    {
+        send_to_char(ch, "You hit yourself...OUCH!.\r\n");
+        act("$n hits $mself, and says OUCH!", FALSE, ch, 0, vict, TO_ROOM);
+    } 
+    else if (AFF_FLAGGED(ch, AFF_CHARM) && (ch->master == vict))
+    {
+        act("$N is just such a good friend, you simply can't hit $M.", FALSE, ch, 0, vict, TO_CHAR);
+    }
+    else 
+    {
+        struct char_data *tch;
+        for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
+        {
+            if (is_player_grouped(ch, tch) && !IS_NPC(tch))
+            {
+                tch->exp_chain = 0;
+            }
+        }
+        if (!CONFIG_PK_ALLOWED) 
+        {
+            if (!IS_NPC(vict) && !IS_NPC(ch)) 
+            {
+                if (subcmd != SCMD_MURDER) 
+                {
+                    send_to_char(ch, "Use 'murder' to hit another player.\r\n");
+                    return;
+                } 
+                else 
+                {
+                    check_killer(ch, vict);
+                }
+            }
+            if (AFF_FLAGGED(ch, AFF_CHARM) && ch->master && !IS_NPC(ch->master) && !IS_NPC(vict))
+            {
+                return;
+                    /* you can't order a charmed pet to attack a player */
+            }
+        }
+        if (((GET_POS(ch) == POS_STANDING) || GET_POS(ch) == POS_RIDING) && (vict != FIGHTING(ch))) 
+        {
+            /* normal attack :( */
+            hit(ch, vict, TYPE_UNDEFINED);
+        } 
+        else
+        {
+            send_to_char(ch, "You do the best you can!\r\n");
+        }
+    }
+    for (k = ch->followers; k; k=k->next) 
+    {
+        /* should followers auto-assist master? */
+        if ((IS_NPC(k->follower) && AFF_FLAGGED(k->follower, AFF_CHARM) && !FIGHTING(k->follower) && IN_ROOM(k->follower) == IN_ROOM(ch) &&
+            AFF_FLAGGED(k->follower, AFF_GROUP)) ||
+            (!IS_NPC(k->follower) && !FIGHTING(k->follower) &&
+                (!IS_NPC(k->follower) && PRF_FLAGGED(k->follower, PRF_AUTOASSIST)) &&
+                (IN_ROOM(k->follower) == IN_ROOM(ch))))
+        {
+            do_assist(k->follower, GET_NAME(ch), 0, 0);
+        }
+    }
+
+    /* should master auto-assist followers?  */
+    if (ch->master && PRF_FLAGGED(ch->master, PRF_AUTOASSIST) &&
+        FIGHTING(ch) && (!IS_NPC(ch) || (IS_NPC(ch) && AFF_FLAGGED(ch, AFF_CHARM))) && !FIGHTING(ch->master) &&
+        (IN_ROOM(ch->master) == IN_ROOM(ch)))
+    {
+        do_assist(ch->master, GET_NAME(ch), 0, 0);
+    }
 
 }
 
@@ -411,47 +468,63 @@ ACMD(do_order)
 
 ACMD(do_flee)
 {
-  int i, attempt;
-  struct char_data *was_fighting;
+    int i, attempt;
+    struct char_data *was_fighting;
 
-  if (GET_POS(ch) < POS_FIGHTING) {
-    send_to_char(ch, "You are in pretty bad shape, unable to flee!\r\n");
-    return;
-  }
-
-  if (!FIGHTING(ch) || IN_ROOM(ch) != IN_ROOM(FIGHTING(ch)))
-    return;
-
-  for (i = 0; i < 6; i++) {
-    attempt = rand_number(0, NUM_OF_DIRS - 1);	/* Select a random direction */
-    if (CAN_GO(ch, attempt) &&
-	!ROOM_FLAGGED(EXIT(ch, attempt)->to_room, ROOM_DEATH)) {
-  struct char_data *tch;
-  for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
-    if (is_player_grouped(ch, tch) && !IS_NPC(tch))
-      tch->exp_chain  = 0;
-      act("$n panics, and attempts to flee!", TRUE, ch, 0, 0, TO_ROOM);
-      was_fighting = FIGHTING(ch);
-      if (do_simple_move(ch, attempt, TRUE)) {
-	send_to_char(ch, "You flee head over heels.\r\n");
-        struct char_data *tch = NULL;
-        sbyte found = FALSE;
-        for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room) {
-          if (FIGHTING(tch) == FIGHTING(ch) && tch != ch) {
-            found = TRUE;
-            break;
-          }
-        }
-        if (!found)
-          stop_fighting(FIGHTING(ch));
-        stop_fighting(ch);
-      } else {
-	act("$n tries to flee, but can't!", TRUE, ch, 0, 0, TO_ROOM);
-      }
-      return;
+    if (GET_POS(ch) < POS_FIGHTING) 
+    {
+        send_to_char(ch, "You are in pretty bad shape, unable to flee!\r\n");
+        return;
     }
-  }
-  send_to_char(ch, "PANIC!  You couldn't escape!\r\n");
+
+    if (!FIGHTING(ch) || IN_ROOM(ch) != IN_ROOM(FIGHTING(ch)))
+    {
+        return;
+    }
+
+    for (i = 0; i < 6; i++) 
+    {
+        attempt = rand_number(0, NUM_OF_DIRS - 1);	
+        /* Select a random direction */
+        if (CAN_GO(ch, attempt) && !ROOM_FLAGGED(EXIT(ch, attempt)->to_room, ROOM_DEATH)) 
+        {
+            struct char_data *tch;
+            for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
+            {
+                if (is_player_grouped(ch, tch) && !IS_NPC(tch))
+                {
+                    tch->exp_chain  = 0;
+                }
+            }
+            act("$n panics, and attempts to flee!", TRUE, ch, 0, 0, TO_ROOM);
+            was_fighting = FIGHTING(ch);
+            if (do_simple_move(ch, attempt, TRUE)) 
+            {
+                send_to_char(ch, "You flee head over heels.\r\n");
+                struct char_data *tch = NULL;
+                sbyte found = FALSE;
+                for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room) 
+                {
+                    if (FIGHTING(tch) == FIGHTING(ch) && tch != ch) 
+                    {
+                        found = TRUE;
+                        break;
+                    }
+                }
+                if (!found)
+                {
+                    stop_fighting(FIGHTING(ch));
+                }
+                stop_fighting(ch);
+            } 
+            else 
+            {
+                act("$n tries to flee, but can't!", TRUE, ch, 0, 0, TO_ROOM);
+            }
+            return;
+        }
+    }
+    send_to_char(ch, "PANIC!  You couldn't escape!\r\n");
 }
 
 void perform_disarm(struct char_data *ch, struct char_data *vict, int skillnum) {
@@ -1074,7 +1147,8 @@ ACMD(do_challenge)
   
   if (strcmp("all", arg)) {
 
-    if ((HAS_FEAT(ch, FEAT_GREATER_COMBAT_CHALLENGE) || HAS_FEAT(ch, FEAT_EPIC_COMBAT_CHALLENGE)) && !can_use_available_actions(ch, ACTION_MINOR)) {
+    if (HAS_FEAT(ch, FEAT_GREATER_COMBAT_CHALLENGE) )
+    {
       return;
     }
     else if (HAS_FEAT(ch, FEAT_IMPROVED_COMBAT_CHALLENGE) && !can_use_available_actions(ch, ACTION_MOVE)) {
@@ -1118,10 +1192,7 @@ ACMD(do_challenge)
   else if (HAS_FEAT(ch, FEAT_IMPROVED_COMBAT_CHALLENGE)) 
   {
 
-    if (HAS_FEAT(ch, FEAT_EPIC_COMBAT_CHALLENGE) && !can_use_available_actions(ch, ACTION_MINOR)) {
-      return;
-    }
-    else if (HAS_FEAT(ch, FEAT_GREATER_COMBAT_CHALLENGE) && !can_use_available_actions(ch, ACTION_MOVE)) {
+    if (HAS_FEAT(ch, FEAT_GREATER_COMBAT_CHALLENGE) && !can_use_available_actions(ch, ACTION_MOVE)) {
       return;
     }
     else if (!can_use_available_actions(ch, ACTION_STANDARD)) {
@@ -1425,91 +1496,104 @@ if (roll >= dc) {
 	
 }
 
-ACMD(do_rage) {
+ACMD(do_rage) 
+{
+    struct affected_type af[5];
+    int abil_mod=0, will=0, ac_mod=0, i;
 
-  struct affected_type af[5];
-  int abil_mod=0, will=0, ac_mod=0, i;
+    if (!HAS_FEAT(ch, FEAT_RAGE)) 
+    {
+        send_to_char(ch, "You do not know how to rage.\r\n");
+        return;
+    }
 
-  if (!HAS_FEAT(ch, FEAT_RAGE)) {
-      send_to_char(ch, "You do not know how to rage.\r\n");
-      return;
-  }
-
-  if (GET_RAGE(ch) < 1) {
+    if (GET_RAGE(ch) < 1) 
+    {
         if (is_innate_ready(ch, SPELL_AFF_RAGE))
-          GET_RAGE(ch) = HAS_FEAT(ch, FEAT_RAGE);
-        else {
-  	send_to_char(ch, "You have already used up all of your rage opportunities today.\r\n");
-  	return;
+        {
+            GET_RAGE(ch) = HAS_FEAT(ch, FEAT_RAGE);
         }
-  }
-  
-  
-  if (HAS_FEAT(ch, FEAT_RAGE)) {
-  	abil_mod = 4;
-  	will = 2;
-  	ac_mod = -20;
-  }
-  
-  if (HAS_FEAT(ch, FEAT_GREATER_RAGE)) {
-  	abil_mod = 6;
-  	will = 3;
-  	ac_mod = -20;  	
-  }
-  if (HAS_FEAT(ch, FEAT_MIGHTY_RAGE)) {
-  	abil_mod = 8;
-  	will = 4;
-  	ac_mod = -20;  	
-  }  
-  
-  af[0].location = APPLY_STR;
-  af[0].type = SPELL_AFF_RAGE;
-  af[0].duration =  3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
-  af[0].bitvector = AFF_RAGE;
-  af[0].modifier = abil_mod;
-  
-  af[1].location = APPLY_CON;
-  af[1].type = SPELL_AFF_RAGE;
-  af[1].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
-  af[1].bitvector = AFF_RAGE;
-  af[1].modifier = abil_mod;  
+        else 
+        {
+            send_to_char(ch, "You have already used up all of your rage opportunities today.\r\n");
+            return;
+        }
+    }
 
-  af[2].location = APPLY_AC;
-  af[2].type = SPELL_AFF_RAGE;
-  af[2].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
-  af[2].bitvector = AFF_RAGE;
-  af[2].modifier = ac_mod;
-  
-  af[3].location = APPLY_HIT;
-  af[3].type = SPELL_AFF_RAGE;
-  af[3].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
-  af[3].bitvector = AFF_RAGE;
-  af[3].modifier = GET_LEVEL(ch) * (abil_mod / 2);
-  
-  af[4].location = APPLY_WILL;
-  af[4].type = SPELL_AFF_RAGE;
-  af[4].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
-  af[4].bitvector = AFF_RAGE;
-  af[4].modifier = will;  
 
-  for (i = 0; i < 5; i++) {
-    if (HAS_FEAT(ch, FEAT_EXTEND_RAGE))
-      af[i].duration += 5;
-      af[i].duration *= 5;
-    affect_join(ch, af+i, false, false, false, false);
-  }
+    if (HAS_FEAT(ch, FEAT_RAGE)) 
+    {
+        abil_mod = 4;
+        will = 2;
+        ac_mod = -20;
+    }
 
-  GET_RAGE(ch) -= 1;
-  GET_HIT(ch) += GET_LEVEL(ch) * (abil_mod / 2);
+    if (HAS_FEAT(ch, FEAT_GREATER_RAGE)) 
+    {
+        abil_mod = 6;
+        will = 3;
+        ac_mod = -20;  	
+    }
+    if (HAS_FEAT(ch, FEAT_MIGHTY_RAGE)) 
+    {
+        abil_mod = 8;
+        will = 4;
+        ac_mod = -20;  	
+    }  
 
-  if (is_innate_ready(ch, SPELL_AFF_RAGE) && GET_RAGE(ch) == 0) {
-    add_innate_timer(ch, SPELL_AFF_RAGE);
-  }
-  
-  send_to_char(ch, "You fly into a rage of fury and force, heightening your ability to deal and withstand damage.\r\n");
-  act("$n flies into a barbaric rage of fury and force!", false, ch, 0, 0, TO_NOTVICT);
-  
-  return;
+    af[0].location = APPLY_STR;
+    af[0].type = SPELL_AFF_RAGE;
+    af[0].duration =  3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
+    af[0].bitvector = AFF_RAGE;
+    af[0].modifier = abil_mod;
+
+    af[1].location = APPLY_CON;
+    af[1].type = SPELL_AFF_RAGE;
+    af[1].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
+    af[1].bitvector = AFF_RAGE;
+    af[1].modifier = abil_mod;  
+
+    af[2].location = APPLY_AC;
+    af[2].type = SPELL_AFF_RAGE;
+    af[2].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
+    af[2].bitvector = AFF_RAGE;
+    af[2].modifier = ac_mod;
+
+    af[3].location = APPLY_HIT;
+    af[3].type = SPELL_AFF_RAGE;
+    af[3].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
+    af[3].bitvector = AFF_RAGE;
+    af[3].modifier = GET_LEVEL(ch) * (abil_mod / 2);
+
+    af[4].location = APPLY_WILL;
+    af[4].type = SPELL_AFF_RAGE;
+    af[4].duration = 3 + ability_mod_value(GET_CON(ch)) + (abil_mod / 2);
+    af[4].bitvector = AFF_RAGE;
+    af[4].modifier = will;  
+
+    for (i = 0; i < 5; i++) 
+    {
+        if (HAS_FEAT(ch, FEAT_EXTEND_RAGE))
+        {
+            af[i].duration += 5;
+        }
+
+        af[i].duration *= 5;
+        affect_join(ch, af+i, false, false, false, false);
+    }
+
+    GET_RAGE(ch) -= 1;
+    GET_HIT(ch) += GET_LEVEL(ch) * (abil_mod / 2);
+
+    if (is_innate_ready(ch, SPELL_AFF_RAGE) && GET_RAGE(ch) == 0) 
+    {
+        add_innate_timer(ch, SPELL_AFF_RAGE);
+    }
+
+    send_to_char(ch, "You fly into a rage of fury and force, heightening your ability to deal and withstand damage.\r\n");
+    act("$n flies into a barbaric rage of fury and force!", false, ch, 0, 0, TO_NOTVICT);
+
+    return;
 }
 
 ACMD(do_strength_of_honor) {
@@ -3043,20 +3127,31 @@ void display_your_turn(struct char_data *ch)
   }
 
   if (!PRF_FLAGGED(ch, PRF_AUTOATTACK))
-    if (!IS_NPC(ch))
-      send_to_char(ch, "@YIt is now your turn in combat.  Common combat commands include: attack, approach, retreat, cast and endturn.@n\r\n");
+    {
+        if (!IS_NPC(ch))
+          {
+            send_to_char(ch, "@YIt is now your turn in combat.  Common combat commands include: attack, approach, retreat, cast and endturn.@n\r\n");
+        }
+    }
 
-    for (tch = world[IN_ROOM(ch)].people; tch; tch = next_tch) {
+    for (tch = world[IN_ROOM(ch)].people; tch; tch = next_tch) 
+    {
       next_tch = tch->next_in_room;
 
       if (tch == ch)
-        continue;
+        {
+            continue;
+        }
 
       if (PRF_FLAGGED(tch, PRF_AUTOATTACK))
-        continue;
+        {
+            continue;
+        }
 
       if ((is_player_grouped(ch, tch) || is_player_grouped(FIGHTING(tch), ch) || FIGHTING(ch) == tch) && !PRF_FLAGGED(tch, PRF_FIGHT_SPAM)) {
-        act("@MIt is now $n's turn in combat.@n", true, ch, 0, tch, TO_VICT);
+        {
+            act("@MIt is now $n's turn in combat.@n", true, ch, 0, tch, TO_VICT);
+        }
       }
     }
 
@@ -3190,7 +3285,6 @@ ACMD(do_whirlwind)
 
 ACMD(do_swarmofarrows)
 {
-
   struct char_data *vict;
 
   if (!HAS_FEAT(ch, FEAT_SWARM_OF_ARROWS)) {
@@ -3220,71 +3314,70 @@ ACMD(do_swarmofarrows)
   }
 }
 
-
 void award_lockbox_treasure(struct char_data *ch, int level)
 {
-  int roll = 0, roll2 = 0;
+    int roll = 0, roll2 = 0;
 
-  roll = dice(1, 100);
-  int grade = GRADE_MUNDANE;
+    roll = dice(1, 100);
+    int grade = GRADE_MUNDANE;
 
-  if (level >= 20) {
-    grade = GRADE_MAJOR;
-  }
-  else if (level >= 16) {
-    if (roll >= 61)
-      grade = GRADE_MAJOR;
-    else
-      grade = GRADE_MEDIUM;
-  }
-  else if (level >= 12) {
-    if (roll >= 81)
-      grade = GRADE_MAJOR;
-    else if (roll >= 11)
-      grade = GRADE_MEDIUM;
-    else
-      grade = GRADE_MINOR;
-  }
-  else if (level >= 8) {
-    if (roll >= 96)
-      grade = GRADE_MAJOR;
-    else if (roll >= 31)
-      grade = GRADE_MEDIUM;
-    else
-      grade = GRADE_MINOR;
-  }
-  else if (level >= 4) {
-    if (roll >= 76)
-      grade = GRADE_MEDIUM;
-    else if (roll >= 16)
-      grade = GRADE_MINOR;
-    else
-      grade = GRADE_MUNDANE;
-  }
-  else {
-    if (roll >= 96)
-      grade = GRADE_MEDIUM;
-    else if (roll >= 41)
-      grade = GRADE_MINOR;
-    else
-      grade = GRADE_MUNDANE;
-  }
+    if (level >= 20) {
+        grade = GRADE_MAJOR;
+    }
+    else if (level >= 16) {
+        if (roll >= 61)
+            grade = GRADE_MAJOR;
+        else
+            grade = GRADE_MEDIUM;
+    }
+    else if (level >= 12) {
+        if (roll >= 81)
+            grade = GRADE_MAJOR;
+        else if (roll >= 11)
+            grade = GRADE_MEDIUM;
+        else
+            grade = GRADE_MINOR;
+    }
+    else if (level >= 8) {
+        if (roll >= 96)
+            grade = GRADE_MAJOR;
+        else if (roll >= 31)
+            grade = GRADE_MEDIUM;
+        else
+            grade = GRADE_MINOR;
+    }
+    else if (level >= 4) {
+        if (roll >= 76)
+            grade = GRADE_MEDIUM;
+        else if (roll >= 16)
+            grade = GRADE_MINOR;
+        else
+            grade = GRADE_MUNDANE;
+    }
+    else {
+        if (roll >= 96)
+            grade = GRADE_MEDIUM;
+        else if (roll >= 41)
+            grade = GRADE_MINOR;
+        else
+            grade = GRADE_MUNDANE;
+    }
 
     roll2 = dice(1, 1000);
 
     if (roll2 == 1)
-      award_special_magic_item(ch);
+        award_special_magic_item(ch);
     else if (roll2 <= 500) {
-      int gold = level * MAX(1, (level / 5)) * MAX(1, (level / 10)) * 100;
-      send_to_char(ch, "You have found %d %s!\r\n", gold, MONEY_STRING);
-      GET_GOLD(ch) += gold;
+        int gold = level * MAX(1, (level / 5)) * MAX(1, (level / 10)) * 100;
+        send_to_char(ch, "You have found %d %s!\r\n", gold, MONEY_STRING);
+        GET_GOLD(ch) += gold;
     }
     else if (roll2 <= 700)
-      award_expendable_item(ch, grade, TYPE_SCROLL);
+        award_expendable_item(ch, grade, TYPE_SCROLL);
     else if (roll2 <= 800)
-      award_magic_weapon(ch, grade, level);
+        award_magic_weapon(ch, grade, level);
     else if (roll2 <= 900)
-      award_misc_magic_item(ch, grade, level);
+        award_misc_magic_item(ch, grade, level);
     else 
-      award_magic_armor(ch, grade, level);
+        award_magic_armor(ch, grade, level);
 }

@@ -1,4 +1,30 @@
-autorun starting game Wed Feb 10 09:07:29 AST 2016
-running bin/circle -q -p 9080
+Jan 12 09:46:36 :: Cannot connect to mysql database in point update.
+Jan 12 09:46:36 :: Cannot set delete Rayal from player_data table
+Jan 12 09:46:36 :: Cannot insert data for Rayal into player_data table
+Jan 12 09:46:36 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('2','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Wizard 2 / Artisan 1', 'elf', '0', 'Ansalon Adventurers Guild', 'Wanna Be', '(null)', 'Lawful Neutral', '0', 'uriel', '4', '0')
+Jan 12 09:46:36 :: Cannot insert data for uriel into player_forum_data table
+Jan 12 09:46:42 :: Cannot connect to mysql database in point update.
+Jan 12 09:46:42 :: Cannot set online status to 0
+Jan 12 09:46:42 :: Cannot connect to mysql database in point update.
+Jan 12 09:46:42 :: Cannot set delete Rayal from player_data table
+Jan 12 09:46:42 :: Cannot insert data for Rayal into player_data table
+Jan 12 09:46:42 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('2','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Wizard 2 / Artisan 1', 'elf', '0', 'Ansalon Adventurers Guild', 'Wanna Be', '(null)', 'Lawful Neutral', '0', 'uriel', '4', '0')
+Jan 12 09:46:42 :: Cannot insert data for uriel into player_forum_data table
+Jan 12 09:46:48 :: Cannot connect to mysql database in point update.
+Jan 12 09:46:48 :: Cannot set online status to 0
+Jan 12 09:46:48 :: Cannot connect to mysql database in point update.
+Jan 12 09:46:48 :: Cannot set delete Rayal from player_data table
+Jan 12 09:46:48 :: Cannot insert data for Rayal into player_data table
+Jan 12 09:46:48 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('2','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Wizard 2 / Artisan 1', 'elf', '0', 'Ansalon Adventurers Guild', 'Wanna Be', '(null)', 'Lawful Neutral', '0', 'uriel', '4', '0')
+Jan 12 09:46:48 :: Cannot insert data for uriel into player_forum_data table
+Jan 12 09:46:53 :: (GC) Shutdown by Rayal.
+Jan 12 09:46:53 :: Closing all sockets.
+Jan 12 09:46:53 :: Closing link to: Rayal.
+Jan 12 09:46:53 :: Saving current MUD time.
+Jan 12 09:46:53 :: Normal termination of game.
+Jan 12 09:46:53 :: Clearing game world.
+Jan 12 09:46:53 :: Freeing Assemblies.
+Jan 12 09:46:53 :: Clearing other memory.
+Jan 12 09:46:53 :: Done.
 Quick boot mode -- rent check supressed.
-Using log file 'syslog' with redirection.
+Using log file 'log/syslog' with redirection.

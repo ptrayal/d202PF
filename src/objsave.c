@@ -64,8 +64,8 @@ void name_to_drinkcon(struct obj_data *obj, int type);
 
 int Obj_to_store(struct obj_data *obj, FILE *fl, int location)
 {
-  my_obj_save_to_disk(fl, obj, location);
-  return (1);
+    my_obj_save_to_disk(fl, obj, location);
+    return (1);
 }
 
 /*
