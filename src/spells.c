@@ -321,58 +321,65 @@ ASPELL(spell_teleport)
 
 ASPELL(spell_summon)
 {
-  if (ch == NULL || victim == NULL)
-    return;
+    if (ch == NULL || victim == NULL)
+    {
+        return;
+    }
 
     if (num_rooms_between(IN_ROOM(ch), IN_ROOM(victim)) <= 0 ||
-      num_rooms_between(IN_ROOM(ch), IN_ROOM(victim)) > (100 * 
-      get_skill_value(ch, SKILL_SPELLCRAFT))) {
-    send_to_char(ch, "You cannot master the weave well enough to summon someone that distant.\r\n");
-    return;
-  }
-
-  if (!CONFIG_PK_ALLOWED) {
-    if (MOB_FLAGGED(victim, MOB_AGGRESSIVE)) {
-      act("As the words escape your lips and $N travels\r\n"
-	  "through time and space towards you, you realize that $E is\r\n"
-	  "aggressive and might harm you, so you wisely send $M back.",
-	  false, ch, 0, victim, TO_CHAR);
-      return;
+        num_rooms_between(IN_ROOM(ch), IN_ROOM(victim)) > (100 * 
+            get_skill_value(ch, SKILL_SPELLCRAFT))) 
+    {
+        send_to_char(ch, "You cannot master the weave well enough to summon someone that distant.\r\n");
+        return;
     }
-    if (!IS_NPC(victim) && !PRF_FLAGGED(victim, PRF_SUMMONABLE) &&
-	!PLR_FLAGGED(victim, PLR_KILLER)) {
-			char *tmpdesc = NULL;
-      send_to_char(victim, "%s just tried to summon you to: %s.\r\n"
-	      "This failed because you have summon protection on.\r\n"
-	      "Type NOSUMMON to allow other players to summon you.\r\n",
-	      has_intro(victim, ch) ? GET_NAME(ch) : (tmpdesc = which_desc(ch)), world[IN_ROOM(ch)].name);
-			free(tmpdesc);
-			tmpdesc = NULL;
 
-      send_to_char(ch, "You failed because %s has summon protection on.\r\n", has_intro(ch, victim) ? GET_NAME(victim) : (tmpdesc = which_desc(victim)));
-			free(tmpdesc);
-      mudlog(BRF, ADMLVL_IMMORT, true, "%s failed summoning %s to %s.", GET_NAME(ch), GET_NAME(victim), world[IN_ROOM(ch)].name);
-      return;
+    if (!CONFIG_PK_ALLOWED) 
+    {
+        if (MOB_FLAGGED(victim, MOB_AGGRESSIVE)) 
+        {
+            act("As the words escape your lips and $N travels\r\n"
+                "through time and space towards you, you realize that $E is\r\n"
+                "aggressive and might harm you, so you wisely send $M back.",
+                false, ch, 0, victim, TO_CHAR);
+            return;
+        }
+        if (!IS_NPC(victim) && !PRF_FLAGGED(victim, PRF_SUMMONABLE) &&
+            !PLR_FLAGGED(victim, PLR_KILLER)) 
+        {
+            char *tmpdesc = NULL;
+            send_to_char(victim, "%s just tried to summon you to: %s.\r\n"
+                "This failed because you have summon protection on.\r\n"
+                "Type NOSUMMON to allow other players to summon you.\r\n",
+                has_intro(victim, ch) ? GET_NAME(ch) : (tmpdesc = which_desc(ch)), world[IN_ROOM(ch)].name);
+            free(tmpdesc);
+            tmpdesc = NULL;
+
+            send_to_char(ch, "You failed because %s has summon protection on.\r\n", has_intro(ch, victim) ? GET_NAME(victim) : (tmpdesc = which_desc(victim)));
+            free(tmpdesc);
+            mudlog(BRF, ADMLVL_IMMORT, true, "%s failed summoning %s to %s.", GET_NAME(ch), GET_NAME(victim), world[IN_ROOM(ch)].name);
+            return;
+        }
     }
-  }
 
-  if (MOB_FLAGGED(victim, MOB_NOSUMMON) ||
-      (IS_NPC(victim) && mag_newsaves(find_savetype(SPELL_SUMMON), ch, victim, SPELL_SUMMON, calc_spell_dc(ch, SPELL_SUMMON)))) {
-    send_to_char(ch, "%s", SUMMON_FAIL);
-    return;
-  }
+    if (MOB_FLAGGED(victim, MOB_NOSUMMON) ||
+        (IS_NPC(victim) && mag_newsaves(find_savetype(SPELL_SUMMON), ch, victim, SPELL_SUMMON, calc_spell_dc(ch, SPELL_SUMMON)))) 
+    {
+        send_to_char(ch, "%s", SUMMON_FAIL);
+        return;
+    }
 
-  act("$n disappears suddenly.", true, victim, 0, 0, TO_ROOM);
+    act("$n disappears suddenly.", true, victim, 0, 0, TO_ROOM);
 
-  char_from_room(victim);
-  char_to_room(victim, IN_ROOM(ch));
+    char_from_room(victim);
+    char_to_room(victim, IN_ROOM(ch));
 
-  act("$n arrives suddenly.", true, victim, 0, 0, TO_ROOM);
-  act("$n has summoned you!", false, ch, 0, victim, TO_VICT);
-  look_at_room(IN_ROOM(victim), victim, 0);
-  entry_memory_mtrigger(victim);
-  greet_mtrigger(victim, -1);
-  greet_memory_mtrigger(victim);
+    act("$n arrives suddenly.", true, victim, 0, 0, TO_ROOM);
+    act("$n has summoned you!", false, ch, 0, victim, TO_VICT);
+    look_at_room(IN_ROOM(victim), victim, 0);
+    entry_memory_mtrigger(victim);
+    greet_mtrigger(victim, -1);
+    greet_memory_mtrigger(victim);
 
 }
 

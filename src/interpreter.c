@@ -1143,13 +1143,13 @@ const char *reserved[] =
  */
 void command_interpreter(struct char_data *ch, char *argument)
 {
-  int cmd = 0, length = 0;
+  struct char_data *k = NULL, *temp = NULL;
+  struct follow_type *f = NULL;
   char *line;
   char arg[MAX_INPUT_LENGTH]={'\0'};
-  struct char_data *k = NULL, *temp = NULL;
-  ubyte found = FALSE;
-  struct follow_type *f = NULL;
+  int cmd = 0, length = 0;
   int save = 0, dc = 0;
+  ubyte found = FALSE;
 
   /* REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_HIDE); */
 
@@ -1713,7 +1713,8 @@ char *two_arguments(char *argument, char *first_arg, char *second_arg)
   return (one_argument(one_argument(argument, first_arg), second_arg)); /* :-) */
 }
 
-void display_name_policy(struct descriptor_data *d) {
+void display_name_policy(struct descriptor_data *d) 
+{
 
 write_to_output(d,
 "\r\n"
@@ -1759,19 +1760,24 @@ write_to_output(d,
 
 void display_race_confirm(struct descriptor_data *d)
 {
-  struct help_index_element *this_help;
-  int x;
-  char help_string[100]={'\0'};
+    struct help_index_element *this_help;
+    char help_string[100]={'\0'};
+    int x;
 
     sprintf(help_string, "%s", race_list[GET_RACE(d->character)].name);
     for (x = 0; x < strlen(help_string); x++)
-      if (help_string[x] == ' ')
-        help_string[x] = '-';
+    {
+        if (help_string[x] == ' ')
+        {
+            help_string[x] = '-';
+        }
+    }
     this_help = find_help(help_string);
 
     if (this_help)
-      write_to_output(d, "\r\n@W%s@n\r\n%s\r\n", this_help->keywords, this_help->entry);
-
+    {
+        write_to_output(d, "\r\n@W%s@n\r\n%s\r\n", this_help->keywords, this_help->entry);
+    }
 
     write_to_output(d, "\r\n\r\nWould you like to keep this race as your own and continue? ( Y | N ) ");
 
@@ -1960,17 +1966,20 @@ void half_chop(char *string, char *arg1, char *arg2)
 }
 
 
-
 /* Used in specprocs, mostly.  (Exactly) matches "command" to cmd number */
 int find_command(const char *command)
 {
-  int cmd;
+    int cmd = 0;
 
-  for (cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++)
-    if (!strcmp(complete_cmd_info[cmd].command, command))
-      return (cmd);
+    for (cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++)
+    {
+        if (!strcmp(complete_cmd_info[cmd].command, command))
+        {
+            return (cmd);
+        }
+    }
 
-  return (-1);
+    return (-1);
 }
 
 

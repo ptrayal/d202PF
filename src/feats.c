@@ -302,7 +302,7 @@ feato(FEAT_WIDEN_SPELL, "Widen Spell", FALSE, FALSE, FALSE, "Caster level 1st", 
 
 feato(FEAT_UNCANNY_DODGE, "Uncanny Dodge", TRUE, FALSE, FALSE, "-", "retains dex bonus when flat footed or against invis opponents");
 
-
+/* >>>>>>>>>>>>>>> CLASS FEATS <<<<<<<<<<<<<<< */
 /* Artisan Class feats */
 feato(FEAT_BRANDING, "Branding", TRUE, FALSE, FALSE, "3rd-level Artisan", "All items made carry the artisan's brand");
 feato(FEAT_DRACONIC_CRAFTING, "Draconic Crafting", TRUE, FALSE, FALSE, "20th-level Artisan", "All magical items created gain higher bonuses w/o increasing level");
@@ -434,20 +434,20 @@ feato(FEAT_EVASION, "Evasion", TRUE, FALSE, FALSE, "2nd-level Monk, 2nd-level Ro
 feato(FEAT_HIDE_IN_PLAIN_SIGHT, "Hide in Plain Sight", TRUE, FALSE, FALSE, "17th-level Ranger, 8th-level Assassin", "ask staff");
 
 
-/* PRESTIGE CLASSES */
-/* Arcane Archer Class feats */
+/* >>>>>>>>>>>>>>> PRESTIGE CLASS FEATS <<<<<<<<<<<<<<< */
+/* --------------- ARCANE ARCHER CLASS FEATS --------------- */
 feato(FEAT_ENHANCE_ARROW_ALIGNED, "Enhance Arrow (Aligned)", TRUE, FALSE, FALSE, "10th-level Arcane Archer", "+1d6 holy/unholy damage with bows against different aligned creatures.");
 feato(FEAT_ENHANCE_ARROW_DISTANCE, "Enhance Arrow (Distance)", TRUE, FALSE, FALSE, "6th-level Arcane Archer", "doubles range increment on weapon.");
 feato(FEAT_ENHANCE_ARROW_ELEMENTAL, "Enhance Arrow (Elemental)", TRUE, FALSE, FALSE, "4th-level Arcane Archer", "+1d6 elemental damage with bows");
 feato(FEAT_ENHANCE_ARROW_ELEMENTAL_BURST, "Enhance Arrow (Elemental Burst)", TRUE, FALSE, FALSE, "8th-level Arcane Archer", "+2d10 on critical hits with bows");
 feato(FEAT_ENHANCE_ARROW_MAGIC, "Enhance Arrow (Magic)", TRUE, FALSE, FALSE, "1st-level Arcane Archer", "+1 to hit and damage with bows per rank");
 
-/* Assassin Class feats */
+/* --------------- ASSASSIN CLASS FEATS --------------- */
 feato(FEAT_DEATH_ATTACK, "Death Attack", TRUE, FALSE, FALSE, "1st-level Assassin", "Chance to kill a target with sneak attack or Paralysis after 3 rounds of hidden study.");
 feato(FEAT_POISON_SAVE_BONUS,  "Poison Save Bonus", TRUE, FALSE, FALSE, "2nd-level Assassin", "Bonus to all saves against poison.");
 feato(FEAT_POISON_USE, "Poison Use", TRUE, FALSE, FALSE, "1st-level Assassin", "Trained use in poisons without risk of poisoning self.");
 
-/* Dragon Disciple Class feats */
+/* --------------- DRAGON DISCIPLE CLASS FEATS --------------- */
 feato(FEAT_SLEEP_PARALYSIS_IMMUNITY, "Sleep & Paralysis Immunity", TRUE, FALSE, FALSE, "10th-level Dragon Disciple", "ask staff");
 feato(FEAT_WINGS, "Wings", TRUE, FALSE, FALSE, "9th-level Dragon Disciple", "ask staff");
 feato(FEAT_BLINDSENSE, "Blindsense", TRUE, FALSE, FALSE, "5th-level Dragon Disciple", "ask staff");
@@ -459,7 +459,7 @@ feato(FEAT_DRAGON_APOTHEOSIS, "Dragon Apotheosis", TRUE, FALSE, FALSE, "10th-lev
 feato(FEAT_ELEMENTAL_IMMUNITY, "Elemental Immunity", TRUE, FALSE, FALSE, "10th-level Dragon Disciple", "ask staff");
 feato(FEAT_INTELLIGENCE_BOOST, "Intelligence Boost", TRUE, FALSE, FALSE, "8th-level Dragon Disciple", "ask staff");
 
-/* Death Master Class feats */
+/* --------------- DEATH MASTER CLASS FEATS --------------- */
 feato(FEAT_SUMMON_GREATER_UNDEAD, "Summon Greater Undead", TRUE, FALSE, FALSE, "8th-level Death Master", "allows innate use of summon greater undead spell 3x per day");
 feato(FEAT_SUMMON_UNDEAD, "Summon Undead", TRUE, FALSE, FALSE, "4th-level Death Master", "allows innate use of summon undead spell 3x per day");
 feato(FEAT_TOUCH_OF_UNDEATH, "Touch of Undeath", TRUE, FALSE, FALSE, "9th-level Death Master", "allows for paralytic or instant death touch");
@@ -468,7 +468,7 @@ feato(FEAT_ESSENCE_OF_UNDEATH, "Essence of Undeath", TRUE, FALSE, FALSE, "10th-l
 feato(FEAT_ANIMATE_DEAD, "Animate Dead", TRUE, FALSE, FALSE, "2nd-level Death Master", "allows innate use of animate dead spell 3x per day.");
 feato(FEAT_BONE_ARMOR, "Bone Armor", TRUE, FALSE, FALSE, "1st-level Death Master", "allows creation of bone armor and 10%% arcane spell failure reduction in bone armor per rank.");
 
-/* Duelist Class feats */
+/* --------------- DUELIST CLASS FEATS --------------- */
 feato(FEAT_RIPOSTE, "Riposte", TRUE, FALSE, FALSE, "5th-level Duelist", "allows you to gain an attack of opportunity after a successful parry");
 feato(FEAT_PARRY, "Parry", TRUE, FALSE, FALSE, "2nd-level Duelist", "allows you to parry incoming attacks");
 feato(FEAT_NO_RETREAT, "No Retreat", TRUE, FALSE, FALSE, "9th-level Duelist", "allows you to gain an attack of opportunity against retreating opponents");
@@ -480,23 +480,22 @@ feato(FEAT_ENHANCED_MOBILITY, "Enhanced Mobility", TRUE, FALSE, FALSE, "3rd-leve
 feato(FEAT_GRACE, "Grace", TRUE, FALSE, FALSE, "4th-level Duelist", "ask staff");
 feato(FEAT_IMPROVED_REACTION, "Improved Reaction", TRUE, FALSE, FALSE, "2nd-level Duelist", "+2 bonus to initiative checks (+4 at 8th class level)");
 
-/* Dwarven Defender Class feats */
+/* --------------- DWARVEN DEFENDER CLASS FEATS --------------- */
 feato(FEAT_DEFENSIVE_STANCE, "Defensive Stance", TRUE, FALSE, FALSE, "1st-level Dwarven Defender", "Allows you to fight defensively with bonuses to ac and stats.");
 feato(FEAT_MOBILE_DEFENSE, "Mobile Defense", TRUE, FALSE, FALSE, "8th-level Dwarven Defender", "Allows one to move while in defensive stance");
 
-
-/* Weapon Master Class feats */
+/* --------------- WEAPON MASTER CLASS FEATS --------------- */
 feato(FEAT_KI_CRITICAL, "Ki Critical", TRUE, FALSE, FALSE, "7th-level Weapon Master", "Weapons of choice have +1 to threat range per rank");
 feato(FEAT_KI_DAMAGE, "Ki Damage", TRUE, FALSE, FALSE, "1st-level Weapon Master", "Weapons of Choice have 5 percent chance to deal max damage");
 feato(FEAT_SUPERIOR_WEAPON_FOCUS, "Superior Weapon Focus", TRUE, FALSE, FALSE, "5th-level Weapon Master", "Weapons of choice have +1 to hit");
 feato(FEAT_WEAPON_OF_CHOICE, "Weapons of Choice", TRUE, FALSE, FALSE, "1st-level Weapon Master", "All weapons with weapon focus gain special abilities");
 feato(FEAT_INCREASED_MULTIPLIER, "Increased Multiplier", TRUE, FALSE, FALSE, "3rd-level Weapon Master", "Weapons of choice have +1 to their critical multiplier");
 
-/* Sacred Fist Class feats */
+/* --------------- SACRED FISTS CLASS FEATS --------------- */
 feato(FEAT_SACRED_FLAMES, "Sacred Flames", TRUE, FALSE, FALSE, "sacred fist level 5", "allows you to use \"innate 'flame weapon'\" 3 times per 10 minutes");
 
-/* UNUSED FEATS */
-/* These are EPIC feats which are not used.*/
+/* >>>>>>>>>>>>>>> UNUSED FEATS <<<<<<<<<<<<<<< */
+/* --------------- UNUSED EPIC FEATS --------------- */
 feato(FEAT_ENHANCE_SPELL, "Increase Spell Damage (Enhance Spell)", FALSE, TRUE, FALSE, "Epic Level", "increase max number of damage dice for certain damage based spell by 5");
 feato(FEAT_EPIC_SKILL_FOCUS, "Epic Skill focus", FALSE, TRUE, TRUE, "Epic level, 20 ranks in the skill", "+10 in chosen skill");
 feato(FEAT_EPIC_SPELLCASTING, "Epic Spellcasting", FALSE, TRUE, FALSE, "Epic level, lore 24, spellcraft 24", "allows you to cast epic spells");
@@ -508,7 +507,7 @@ feato(FEAT_MIGHTY_RAGE, "Mighty Rage", FALSE, FALSE, FALSE, "Epic level, str 21,
 feato(FEAT_PERFECT_TWO_WEAPON_FIGHTING, "Perfect Two Weapon Fighting", FALSE, TRUE, FALSE, "Epic level, dex 25, greater two weapon fighting", "Extra attack with offhand weapon");
 feato(FEAT_SWARM_OF_ARROWS, "Swarm of Arrows", FALSE, TRUE, FALSE, "Epic level, dex 23, point blank shot, rapid shot, weapon focus", "allows you to make a single ranged attack against everyone in range.");
 
-/* Unused non-Epic Feats*/
+/* --------------- UNUSED NON-EPIC FEATS --------------- */
 feato(FEAT_ARMOR_SPECIALIZATION_HEAVY, "Armor Specialization (heavy)", FALSE, TRUE, FALSE, "Armor Proficiency (Heavy), Base attack bonus +12", "DR 2/- when wearing heavy armor");
 feato(FEAT_ARMOR_SPECIALIZATION_LIGHT, "Armor Specialization (light)", FALSE, TRUE, FALSE, "Armor Proficiency (Light), Base attack bonus +12", "DR 2/- when wearing light armor");
 feato(FEAT_ARMOR_SPECIALIZATION_MEDIUM, "Armor Specialization (medium)", FALSE, TRUE, FALSE, "Armor Proficiency (Medium), Base attack bonus +12", "DR 2/- when wearing medium armor");
@@ -521,7 +520,7 @@ feato(FEAT_HASTE, "Haste", FALSE, FALSE, FALSE, "favored soul level 17", "can ca
 feato(FEAT_WEAPON_SUPREMACY, "Weapon Supremacy", FALSE, TRUE, TRUE, "Weapon Mastery, greater weapon focus, greater weapon specialization, fighter level 18", "+4 to resist disarm, ignore grapples, add +5 to hit roll when miss by 5 or less, can take 10 on attack rolls, +1 bonus to AC when wielding weapon");
 feato(FEAT_WEAPON_MASTERY, "Weapon Mastery", FALSE, TRUE, TRUE, "Weapon Specialization, Base Attack Bonus +8", "+2 to hit and damage with that weapon");
 
-/* Dragonlance specific feats or class abilities. */
+/* >>>>>>>>>>>>>>> DRAGONLANCE SPECIFIC FEATS OR CLASS ABILITIES <<<<<<<<<<<<<<< */
 if (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
 {
     feato(FEAT_ARMORED_MOBILITY, "Armored Mobility", TRUE, FALSE, FALSE, "Knight of the Crown level 6, Knight of the Lily level 6", "heavy armor is treated as medium armor");
@@ -577,7 +576,6 @@ epicfeat(FEAT_LAST_FEAT);
 
 // The follwing function is used to check if the character satisfies the various prerequisite(s) (if any)
 // of a feat in order to learn it.
-
 int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
 {
     if (featnum > NUM_FEATS_DEFINED)
@@ -598,7 +596,13 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
   switch (featnum) 
   {
 
-  case FEAT_EPIC_SPELLCASTING:
+/* --------------- EPIC SPELLCASTING FEAT --------------- */
+/********************************************************
+*Requirements: Spellcraft 24 ranks                      *
+*              Knowledge 24 ranks                       *
+*              Level 21                                 *
+*********************************************************/  
+    case FEAT_EPIC_SPELLCASTING:
     if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 24)
       return FALSE;
     if (GET_SKILL_RANKS(ch, SKILL_KNOWLEDGE) < 24)
@@ -607,11 +611,20 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
       return FALSE;
     return TRUE;
 
+/* --------------- DIEHARD FEAT --------------- */
+/********************************************************
+*Requirements: Endurance Feat                           *
+*********************************************************/  
   case FEAT_DIEHARD:
     if (!HAS_REAL_FEAT(ch, FEAT_ENDURANCE))
       return FALSE;
     return TRUE;
 
+/* --------------- FAST HEALER FEAT --------------- */
+/********************************************************
+*Requirements: Diehard Feat                             *
+*              Consitution: 13+                         *
+*********************************************************/  
   case FEAT_FAST_HEALER:
     if (!HAS_REAL_FEAT(ch, FEAT_DIEHARD))
       return FALSE;
@@ -1276,7 +1289,8 @@ int is_proficient_with_armor(const struct char_data *ch, int armor_type)
        !has_feat((char_data *) ch, FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD))
     return FALSE;
 
-  switch (general_type) {
+  switch (general_type) 
+  {
     case ARMOR_TYPE_LIGHT:
       if (has_feat((char_data *) ch, FEAT_ARMOR_PROFICIENCY_LIGHT))
         return TRUE;
@@ -1334,13 +1348,14 @@ int is_proficient_with_weapon(const struct char_data *ch, int weapon_type)
     return TRUE;
   }
 
-
   if (GET_CLASS_RANKS(ch, CLASS_MONK) && 
       weapon_list[weapon_type].weaponFamily == WEAPON_FAMILY_MONK)
     return TRUE;
 
-  if (has_feat((char_data *) ch, FEAT_WEAPON_PROFICIENCY_DRUID) || GET_CLASS_RANKS(ch, CLASS_DRUID) > 0) {
-    switch (weapon_type) {
+  if (has_feat((char_data *) ch, FEAT_WEAPON_PROFICIENCY_DRUID) || GET_CLASS_RANKS(ch, CLASS_DRUID) > 0) 
+  {
+    switch (weapon_type) 
+    {
       case WEAPON_TYPE_CLUB:
       case WEAPON_TYPE_DAGGER:
       case WEAPON_TYPE_QUARTERSTAFF:
@@ -1354,8 +1369,10 @@ int is_proficient_with_weapon(const struct char_data *ch, int weapon_type)
     }
   }
 
-  if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0) {
-    switch (weapon_type) {
+  if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0) 
+  {
+    switch (weapon_type) 
+    {
       case WEAPON_TYPE_LONG_SWORD:
       case WEAPON_TYPE_RAPIER:
       case WEAPON_TYPE_SAP:
@@ -2688,7 +2705,6 @@ void load_armor(void)
 
 void display_levelup_feats(struct char_data *ch) 
 {
-
   int sortpos=0, count=0;
   int featMarker = 1, featCounter = 0;
 
@@ -2701,9 +2717,10 @@ void display_levelup_feats(struct char_data *ch)
   if (ch->levelup->num_epic_class_feats > 5)
     ch->levelup->num_epic_class_feats = 0;
 
-  send_to_char(ch, "Available Feats to Learn:\r\n"
-    "Number Available: Normal (%d) Class (%d) Epic (%d) Epic CLass (%d)\r\n\r\n",
+  send_to_char(ch, "Available Feats to Learn:\r\n");
+  send_to_char(ch, "Number Available: Normal (%d) Class (%d) Epic (%d) Epic CLass (%d)\r\n\r\n",
     ch->levelup->feat_points, ch->levelup->num_class_feats, ch->levelup->epic_feat_points, ch->levelup->num_epic_class_feats);
+
 
   for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
   {
@@ -2857,9 +2874,8 @@ int has_weapon_feat_full(struct char_data *ch, int i, int j, int display)
 
 void display_levelup_weapons(struct char_data *ch) 
 {
-    int i=0;
-
     extern char *weapon_damage_types[];
+    int i=0;
 
     if (weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES] != NULL)
 
@@ -2887,7 +2903,6 @@ void display_levelup_weapons(struct char_data *ch)
 
 void set_feat(struct char_data *ch, int i, int j) 
 {
-
     if (ch->desc && ch->levelup && STATE(ch->desc) >= CON_LEVELUP_START && STATE(ch->desc) <= CON_LEVELUP_END) 
     {
         ch->levelup->feats[i] = j;
@@ -2908,7 +2923,8 @@ int handle_levelup_feat_points(struct char_data *ch, int feat_num, int return_va
 
     if (HAS_FEAT(ch, feat_num) && !feat_list[feat_num].can_stack) 
     {
-        send_to_char(ch, "You already have this feat.\r\nPress enter to continue.\r\n");
+        send_to_char(ch, "You already have this feat.\r\n");
+        send_to_char(ch, "Press enter to continue.\r\n");
         return FALSE;
     }
 

@@ -26,10 +26,10 @@ void tag_argument(char *argument, char *tag);
 
 int load_account(char *name, struct account_data *account)
 {
-  int i = 0;
   FILE *fl;
   char fname[READ_SIZE]={'\0'};
   char buf[128]={'\0'}, line[MAX_INPUT_LENGTH + 1]={'\0'}, tag[6]={'\0'};
+  int i = 0;
   int num = 0, num2 = 0, num3 = 0;
 
   if (!account)
@@ -308,29 +308,32 @@ void combine_accounts(void)
 
 char *escape_colorcode(char *query)
 {
-  char escape[MAX_STRING_LENGTH]={'\0'};
+    char escape[MAX_STRING_LENGTH]={'\0'};
+    int i = 0, j = 0;
 
-  
-  if (!*query)
-    return NULL;
+    if (!*query)
+        return NULL;
 
-  if (strlen(query) >= MAX_STRING_LENGTH)
-    return NULL;
+    if (strlen(query) >= MAX_STRING_LENGTH)
+        return NULL;
 
-  int i = 0, j = 0;
 
-  for (i = 0; i < strlen(query); i++) {
-    if (query[i] == '@') {
-      escape[i+j] = '@';
-      escape[i + (++j)] = query[i];
-    } else {
-      escape[i+j] = query[i];
+    for (i = 0; i < strlen(query); i++) 
+    {
+        if (query[i] == '@') 
+        {
+            escape[i+j] = '@';
+            escape[i + (++j)] = query[i];
+        } 
+        else 
+        {
+            escape[i+j] = query[i];
+        }
     }
-  }
 
-  escape[i+j] = '\0';
+    escape[i+j] = '\0';
 
-  return strdup(escape);
+    return strdup(escape);
 
 }
 
@@ -344,6 +347,7 @@ ACMD(do_account)
   }
 
   struct account_data *acc = ch->desc->account;
+  int i = 0;
 
   GRID_DATA *grid;
   GRID_ROW *row;
@@ -373,7 +377,6 @@ ACMD(do_account)
   row_append_cell(row, 25, "@CCharacter Name@n");
   row_append_cell(row, 50, "@CSomething Else@n");
 
-  int i = 0;
   for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) 
   {
     if (acc->character_names[i] != NULL)

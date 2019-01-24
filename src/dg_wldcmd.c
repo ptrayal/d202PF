@@ -400,47 +400,62 @@ WCMD(do_wpurge)
     obj_data *obj, *next_obj;
 
     one_argument(argument, arg);
-  
-    if (!*arg) {
-      /* purge all */
-      for (ch = room->people; ch; ch = next_ch ) {
-        next_ch = ch->next_in_room;
-        if (IS_NPC(ch))
-          extract_char(ch);
-      }
-        
-      for (obj = room->contents; obj; obj = next_obj ) {
-        next_obj = obj->next_content;
-        extract_obj(obj);
-      }
-    
-      return;
-    }
-  
-  if (*arg == UID_CHAR)
-    ch = get_char(arg);
-  else 
-    ch = get_char_in_room(room, arg);
 
-    if (!ch) {
+    if (!*arg) 
+    {
+        /* purge all */
+        for (ch = room->people; ch; ch = next_ch ) 
+        {
+            next_ch = ch->next_in_room;
+            if (IS_NPC(ch))
+            {
+                extract_char(ch);
+            }
+        }
+
+        for (obj = room->contents; obj; obj = next_obj ) 
+        {
+            next_obj = obj->next_content;
+            extract_obj(obj);
+        }
+
+        return;
+    }
+
     if (*arg == UID_CHAR)
-      obj = get_obj(arg);
+    {
+        ch = get_char(arg);
+    }
     else 
-      obj = get_obj_in_room(room, arg);
-    
-      if (obj) {
-        extract_obj(obj);
-      } else 
-        wld_log(room, "wpurge: bad argument");
-    
-      return;
+    {
+        ch = get_char_in_room(room, arg);
     }
-  
-    if (!IS_NPC(ch)) {
-      wld_log(room, "wpurge: purging a PC");
-      return;
+
+    if (!ch) 
+    {
+        if (*arg == UID_CHAR)
+            obj = get_obj(arg);
+        else 
+            obj = get_obj_in_room(room, arg);
+
+        if (obj) 
+        {
+            extract_obj(obj);
+        } 
+        else 
+        {
+            wld_log(room, "wpurge: bad argument");
+        }
+
+        return;
     }
-    
+
+    if (!IS_NPC(ch)) 
+    {
+        wld_log(room, "wpurge: purging a PC");
+        return;
+    }
+
     extract_char(ch);
 }
 

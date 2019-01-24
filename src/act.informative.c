@@ -5231,7 +5231,8 @@ ACMD(do_rpsheet)
 
 }
 
-ACMD(do_laston) {
+ACMD(do_laston) 
+{
 
 }
 
@@ -5402,7 +5403,6 @@ ACMD(do_gatherinfo)
 
 ACMD(do_eqstats) 
 {
-
   int i, j, k, exception = FALSE;
   int found = FALSE;
   struct obj_data *obj = NULL;
@@ -5454,8 +5454,6 @@ ACMD(do_eqstats)
       }
     }
   }
-
-
 
 }
 
