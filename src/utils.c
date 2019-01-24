@@ -3541,12 +3541,15 @@ char *do_upper(char *buf, bool do_all)
 
 void send_to_world(char *message)
 {
-  struct char_data *tch = NULL;
+    struct char_data *tch = NULL;
 
-  for (tch = character_list; tch; tch = tch->next) {
-    if (!IS_NPC(tch))
-      send_to_char(tch, message);
-  }
+    for (tch = character_list; tch; tch = tch->next) 
+    {
+        if (!IS_NPC(tch))
+        {
+            send_to_char(tch, "%s", message);
+        }
+    }
 }
 
 int get_feat_value(struct char_data *ch, int featnum)

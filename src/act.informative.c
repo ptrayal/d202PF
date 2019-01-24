@@ -1754,7 +1754,7 @@ void look_out_window(struct char_data *ch, char *arg)
         } 
         else 
         {
-            if ( (vehicle = find_vehicle_by_vnum(GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED1))) );
+            if ( (vehicle = find_vehicle_by_vnum(GET_OBJ_VAL(viewport, VAL_WINDOW_UNUSED1))) )
             {
                 target_room = IN_ROOM(vehicle);
             }
@@ -2838,7 +2838,6 @@ ACMD(do_help)
 {
   struct help_index_element *this_help;
   char entry[MAX_STRING_LENGTH]={'\0'};    
-  int chk = 0, bot = 0, mid = 0;
 
   if (!ch->desc)
     return;
@@ -2862,11 +2861,7 @@ ACMD(do_help)
     send_to_char(ch, "There is no help on that word.\r\n");
     return;
   } 
-  else 
-  {
-    if (chk > 0)
-      bot = mid + 1;
-  }
+
   if (this_help->min_level > GET_LEVEL(ch)) 
   {
     send_to_char(ch, "There is no help on that word.\r\n");
@@ -2899,7 +2894,6 @@ ACMD(do_help)
     ch->player_specials->rules_read[9] = TRUE;
   else if (!strcmp(this_help->keywords, "RULES-DISCLAIMER"))
     ch->player_specials->rules_read[10] = TRUE;
-
     
 }
 

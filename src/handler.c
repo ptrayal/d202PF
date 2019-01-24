@@ -77,33 +77,42 @@ char *fname(const char *namelist)
  * isname().  Used for OasisOLC.                                */
 int is_name(const char *str, const char *namelist)
 {
-  const char *curname, *curstr;
+    const char *curname, *curstr;
 
-  if (!*str || !*namelist || !str || !namelist)
-    return (0);
-
-  curname = namelist;
-  for (;;) {
-    for (curstr = str;; curstr++, curname++) {
-      if (!*curstr && !isalpha(*curname))
-        return (1);
-
-      if (!*curname)
+    if (!*str || !*namelist || !str || !namelist)
+    {
         return (0);
-
-      if (!*curstr || *curname == ' ')
-        break;
-
-      if (LOWER(*curstr) != LOWER(*curname))
-        break;
     }
 
-    /* skip to next name */
-   for (; isalpha(*curname); curname++);
-     if (!*curname)
-       return (0);
-    curname++;                  /* first char of new name */
-  }
+    curname = namelist;
+    for (;;) 
+    {
+        for (curstr = str;; curstr++, curname++) 
+        {
+            if (!*curstr && !isalpha(*curname))
+                return (1);
+
+            if (!*curname)
+                return (0);
+
+            if (!*curstr || *curname == ' ')
+                break;
+
+            if (LOWER(*curstr) != LOWER(*curname))
+                break;
+        }
+
+        /* skip to next name */
+        for (; isalpha(*curname); curname++);
+        {
+            if (!*curname)
+            {
+                return (0);
+            }
+        }
+        /* first char of new name */
+        curname++;                  
+    }
 }
 
 /* allow abbreviations */

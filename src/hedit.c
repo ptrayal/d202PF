@@ -182,48 +182,52 @@ void hedit_save_internally(struct descriptor_data *d)
 
 void hedit_save_to_disk(struct descriptor_data *d)
 {
-  int i = 0;
-  FILE *fp;
-  struct help_index_element *help;
-  char buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
+    char buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
+    FILE *fp;
+    struct help_index_element *help;
+    int i = 0;
 
-  sprintf(buf, "%s/%s.new", HLP_PREFIX, HELP_FILE);
-  if (!(fp = fopen(buf, "w+"))) {
-    mudlog(BRF, ADMLVL_BUILDER, true, "SYSERR: OLC: Cannot open help file!");
-    return;
-  }
-  for (i = 0; i <= top_of_helpt; i++) {
-    help = (help_table + i);
+    sprintf(buf, "%s/%s.new", HLP_PREFIX, HELP_FILE);
+    if (!(fp = fopen(buf, "w+"))) 
+    {
+        mudlog(BRF, ADMLVL_BUILDER, true, "SYSERR: OLC: Cannot open help file!");
+        return;
+    }
 
-  if (HEDIT_LIST){
-    sprintf(buf1, "OLC: Saving help entry %d.", i);
-    log(buf1);
-  }
+    for (i = 0; i <= top_of_helpt; i++) 
+    {
+        help = (help_table + i);
+
+        if (HEDIT_LIST)
+        {
+            sprintf(buf1, "OLC: Saving help entry %d.", i);
+            log("%s", buf1);
+        }
+
+        /*
+        * Remove the '\r\n' sequences from description.
+        */
+        strcpy(buf1, help->entry ? help->entry : "Empty");
+        strip_cr(buf1);
+
+        /*
+        * Forget making a buffer, lets just write the thing now.
+        */
+        fprintf(fp, "%s\n%s%s#%d\n",
+            help->keywords ? help->keywords : "UNDEFINED", buf1, help->entry ? "" : "\n",
+            help->min_level);
+    }
 
     /*
-     * Remove the '\r\n' sequences from description.
-     */
-    strcpy(buf1, help->entry ? help->entry : "Empty");
-    strip_cr(buf1);
-
+    * Write final line and close.
+    */
+    fprintf(fp, "$~\n");
+    fclose(fp);
+    sprintf(buf2, "%s/%s", HLP_PREFIX, HELP_FILE);
     /*
-     * Forget making a buffer, lets just write the thing now.
-     */
-    fprintf(fp, "%s\n%s%s#%d\n",
-      help->keywords ? help->keywords : "UNDEFINED", buf1, help->entry ? "" : "\n",
-      help->min_level);
-  }
-
-  /*
-   * Write final line and close.
-   */
-  fprintf(fp, "$~\n");
-  fclose(fp);
-  sprintf(buf2, "%s/%s", HLP_PREFIX, HELP_FILE);
-  /*
-   * We're fubar'd if we crash between the two lines below.
-   */
-  rename(buf, buf2);
+    * We're fubar'd if we crash between the two lines below.
+    */
+    rename(buf, buf2);
 //  remove(buf);
 }
 

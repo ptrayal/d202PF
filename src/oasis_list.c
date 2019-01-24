@@ -54,55 +54,68 @@ void list_guilds(struct char_data *ch  , zone_rnum rnum, guild_vnum vmin, guild_
 /******************************************************************************/
 ACMD(do_oasis_list) 
 {
-  zone_rnum rzone = NOWHERE;
-  room_rnum vmin = NOWHERE;
-  room_rnum vmax = NOWHERE;
-  char smin[MAX_INPUT_LENGTH] = "";
-  char smax[MAX_INPUT_LENGTH] = "";
-  
+    zone_rnum rzone = NOWHERE;
+    room_rnum vmin = NOWHERE;
+    room_rnum vmax = NOWHERE;
+    char smin[MAX_INPUT_LENGTH] = "";
+    char smax[MAX_INPUT_LENGTH] = "";
+
 //  two_arguments(argument, smin, smax);
-  
-  if (subcmd == SCMD_OASIS_ZLIST) { /* special case */
-    if (*smin && is_number(smin)) 
-      print_zone(ch, atoi(smin));
-    else
-      list_zones(ch);  
-      return;
+
+    if (subcmd == SCMD_OASIS_ZLIST) 
+    { 
+/* special case */
+        if (*smin && is_number(smin)) 
+        {
+            print_zone(ch, atoi(smin));
+        }
+        else
+        {
+            list_zones(ch);  
+        }
+        return;
     }
-    
-  if (!*smin || *smin == '.') {
-    rzone = world[IN_ROOM(ch)].zone;
-  } else if (!*smax) {
-    rzone = real_zone(atoi(smin));
-    
-    if (rzone == NOWHERE) {
-      send_to_char(ch, "Sorry, there's no zone with that number\r\n");
-      return;
+
+    if (!*smin || *smin == '.') 
+    {
+        rzone = world[IN_ROOM(ch)].zone;
+    } 
+    else if (!*smax) 
+    {
+        rzone = real_zone(atoi(smin));
+
+        if (rzone == NOWHERE) 
+        {
+            send_to_char(ch, "Sorry, there's no zone with that number\r\n");
+            return;
+        }
+    } 
+    else 
+    {
+        /** Listing by min vnum / max vnum.  Retrieve the numeric values.          **/
+        vmin = atoi(smin);
+        vmax = atoi(smax);
+
+        if (vmin > vmax) 
+        {
+            send_to_char(ch, "List from %d to %d - Aren't we funny today!\r\n", vmin, vmax);
+            return;
+        }
     }
-  } else {
-    /** Listing by min vnum / max vnum.  Retrieve the numeric values.          **/
-    vmin = atoi(smin);
-    vmax = atoi(smax);
-    
-    if (vmin > vmax) {
-      send_to_char(ch, "List from %d to %d - Aren't we funny today!\r\n", vmin, vmax);
-      return;
+
+    switch (subcmd) 
+    {
+        case SCMD_OASIS_RLIST: list_rooms(ch, rzone, vmin, vmax); break;
+        case SCMD_OASIS_OLIST: list_objects(ch, rzone, vmin, vmax); break;
+        case SCMD_OASIS_MLIST: list_mobiles(ch, rzone, vmin, vmax); break;
+        case SCMD_OASIS_TLIST: list_triggers(ch, rzone, vmin, vmax); break;
+        case SCMD_OASIS_SLIST: list_shops(ch, rzone, vmin, vmax); break;
+        case SCMD_OASIS_GLIST: list_guilds(ch, rzone, vmin, vmax); break;
+        case SCMD_OASIS_QLIST: list_quests(ch, rzone, vmin, vmax); break;
+        default: 
+        send_to_char(ch, "You can't list that!\r\n");
+        mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_oasis_list: Unknown list option: %d", subcmd);
     }
-    }
-    
-  switch (subcmd) {
-    case SCMD_OASIS_RLIST: list_rooms(ch, rzone, vmin, vmax); break;
-    case SCMD_OASIS_OLIST: list_objects(ch, rzone, vmin, vmax); break;
-    case SCMD_OASIS_MLIST: list_mobiles(ch, rzone, vmin, vmax); break;
-    case SCMD_OASIS_TLIST: list_triggers(ch, rzone, vmin, vmax); break;
-    case SCMD_OASIS_SLIST: list_shops(ch, rzone, vmin, vmax); break;
-    case SCMD_OASIS_GLIST: list_guilds(ch, rzone, vmin, vmax); break;
-    case SCMD_OASIS_QLIST: list_quests(ch, rzone, vmin, vmax); break;
-    default: 
-      send_to_char(ch, "You can't list that!\r\n");
-      mudlog(BRF, ADMLVL_IMMORT, TRUE, 
-        "SYSERR: do_oasis_list: Unknown list option: %d", subcmd);
-  }
 }
 
 ACMD(do_oasis_links)

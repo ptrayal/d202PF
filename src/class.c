@@ -4405,13 +4405,16 @@ char *class_desc_str(struct char_data *ch, int howlong, int wantthe)
 
 int total_skill_levels(struct char_data *ch, int skill)
 {
-  int i = 0, j, total = 0;
-  for (i = 0; i < NUM_CLASSES; i++) {
-    j = 1 + GET_CLASS_RANKS(ch, i) - spell_info[skill].min_level[i];
-    if (j > 0)
-     total += j;
-  }
-  return total;
+    int i = 0, j = 0, total = 0;
+    for (i = 0; i < NUM_CLASSES; i++) 
+    {
+        j = 1 + GET_CLASS_RANKS(ch, i) - spell_info[skill].min_level[i];
+        if (j > 0)
+        {
+            total += j;
+        }
+    }
+    return total;
 }
 
 int load_levels()

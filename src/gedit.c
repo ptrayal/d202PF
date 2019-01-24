@@ -466,11 +466,15 @@ void gedit_parse(struct descriptor_data *d, char *arg)
 					gedit_save_internally(d);
 					mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
 						  "OLC: %s edits guild %d", GET_NAME(d->character), OLC_NUM(d));
-					if (CONFIG_OLC_SAVE) {
+					if (CONFIG_OLC_SAVE) 
+          {
 						gedit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
 						write_to_output(d, "Guild %d saved to disk.\r\n", OLC_NUM(d));
-					} else
-						write_to_output(d, "Guild %d saved to memory.\r\n", OLC_NUM(d));
+					} 
+          else
+						{
+              write_to_output(d, "Guild %d saved to memory.\r\n", OLC_NUM(d));
+            }
 						cleanup_olc(d, CLEANUP_STRUCTS);
 			        return;
 				case 'n':

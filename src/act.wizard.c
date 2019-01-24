@@ -4380,7 +4380,7 @@ ACMD(do_feat_dump)
     if ( !(fp = fopen("../dumps/dump_feats.txt", "w") ) )
     {
         snprintf(error_buffer, sizeof(error_buffer), "There was an error accessing dump_feats.txt.");
-        send_to_char(error_buffer, ch);
+        send_to_char(ch, "%s", error_buffer);
         perror("../dumps/dump_feats.txt");
     }
 
