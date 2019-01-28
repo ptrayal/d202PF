@@ -1254,50 +1254,70 @@ int read_list(FILE *shop_f, struct shop_buy_data *list, int new_format,
 
 
 /* END_OF inefficient. */
-int read_type_list(FILE *shop_f, struct shop_buy_data *list,
-		       int new_format, int max)
+int read_type_list(FILE *shop_f, struct shop_buy_data *list, int new_format, int max)
 {
-  int tindex, num, len = 0, error = 0;
-  char *ptr;
-  char buf[MAX_STRING_LENGTH]={'\0'};
+    int tindex, num, len = 0, error = 0;
+    char *ptr;
+    char buf[MAX_STRING_LENGTH]={'\0'};
 
-  if (!new_format)
-    return (read_list(shop_f, list, 0, max, LIST_TRADE));
+    if (!new_format)
+        return (read_list(shop_f, list, 0, max, LIST_TRADE));
 
-  do {
-    fgets(buf, sizeof(buf), shop_f);
-    if ((ptr = strchr(buf, ';')) != NULL)
-      *ptr = '\0';
-    else
-      *(END_OF(buf) - 1) = '\0';
-
-    num = -1;
-
-    if (strncmp(buf, "-1", 2) != 0)
-      for (tindex = 0; *item_types[tindex] != '\n'; tindex++)
-        if (!strn_cmp(item_types[tindex], buf, strlen(item_types[tindex]))) {
-          num = tindex;
-          strcpy(buf, buf + strlen(item_types[tindex]));	/* strcpy: OK (always smaller) */
-          break;
+    do 
+    {
+        if (fgets(buf, sizeof(buf), shop_f) == NULL) 
+        {
+            if (feof(shop_f))
+                log("SYSERR: unexpected end of file reading shop file type list.");
+            else if (ferror(shop_f))
+                log("SYSERR: error reading reading shop file type list: %s", strerror(errno));
+            else
+                log("SYSERR: error reading reading shop file type list.");
         }
 
-    ptr = buf;
-    if (num == -1) {
-      sscanf(buf, "%d", &num);
-      while (!isdigit(*ptr))
-	ptr++;
-      while (isdigit(*ptr))
-	ptr++;
-    }
-    while (isspace(*ptr))
-      ptr++;
-    while (isspace(*(END_OF(ptr) - 1)))
-      *(END_OF(ptr) - 1) = '\0';
-    error += add_to_list(list, LIST_TRADE, &len, &num);
-    if (*ptr)
-      BUY_WORD(list[len - 1]) = strdup(ptr);
-  } while (num >= 0);
-  return (end_read_list(list, len, error));
+        if ((ptr = strchr(buf, ';')) != NULL)
+        {
+            *ptr = '\0';
+        }
+        else
+        {
+            *(END_OF(buf) - 1) = '\0';
+        }
+
+        num = -1;
+
+        if (strncmp(buf, "-1", 2) != 0)
+        {
+            for (tindex = 0; *item_types[tindex] != '\n'; tindex++)
+            {
+                if (!strn_cmp(item_types[tindex], buf, strlen(item_types[tindex]))) 
+                {
+                    num = tindex;
+                                                /* strcpy: OK (always smaller) */
+                    strcpy(buf, buf + strlen(item_types[tindex]));    
+                    break;
+                }
+            }
+        }
+
+        ptr = buf;
+        if (num == -1) 
+        {
+            sscanf(buf, "%d", &num);
+            while (!isdigit(*ptr))
+                ptr++;
+            while (isdigit(*ptr))
+                ptr++;
+        }
+        while (isspace(*ptr))
+            ptr++;
+        while (isspace(*(END_OF(ptr) - 1)))
+            *(END_OF(ptr) - 1) = '\0';
+        error += add_to_list(list, LIST_TRADE, &len, &num);
+        if (*ptr)
+            BUY_WORD(list[len - 1]) = strdup(ptr);
+    } while (num >= 0);
+    return (end_read_list(list, len, error));
 }
 
 

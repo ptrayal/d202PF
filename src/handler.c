@@ -2895,7 +2895,9 @@ struct last_entry *find_llog_entry(int punique, int idnum,int close) {
         we can do (like searching for the last shutdown/etc..) */
   for(tmp=recs-1; tmp > 0; tmp--) {
     fseek(fp,-1*(sizeof(struct last_entry)),SEEK_CUR);
-    fread(&mlast,sizeof(struct last_entry),1,fp);
+    if (fread(&mlast,sizeof(struct last_entry),1,fp) != 1)
+      return NULL;
+    // fread(&mlast,sizeof(struct last_entry),1,fp);
         /*another one to keep that stepback */
     fseek(fp,-1*(sizeof(struct last_entry)),SEEK_CUR);
 

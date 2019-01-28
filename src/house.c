@@ -198,8 +198,11 @@ void House_boot(void)
       log("SYSERR: " HCONTROL_FILE ": %s", strerror(errno));
     return;
   }
-  while (!feof(fl) && num_of_houses < MAX_HOUSES) {
-    fread(&temp_house, sizeof(struct house_control_rec), 1, fl);
+  while (!feof(fl) && num_of_houses < MAX_HOUSES) 
+  {
+    if(fread(&temp_house, sizeof(struct house_control_rec), 1, fl) != 1)
+      break;
+    // fread(&temp_house, sizeof(struct house_control_rec), 1, fl);
 
     if (feof(fl))
       break;
