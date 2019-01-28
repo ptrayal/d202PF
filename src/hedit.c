@@ -294,7 +294,7 @@ void hedit_parse(struct descriptor_data *d, char *arg)
     case 'Y':
       hedit_save_internally(d);
       snprintf(buf, sizeof(buf), "OLC: %s edits help for %s.", GET_NAME(d->character), OLC_HELP(d)->keywords);
-      mudlog(true, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(d->character)), CMP, buf);
+      mudlog(true, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(d->character)), CMP, "%s", buf);
       write_to_output(d, "Help files saved to disk.\r\n");
      
       /*

@@ -56,12 +56,12 @@ static void Write( descriptor_t *apDescriptor, const char *apData )
       }
    }
 
-   write_to_output( apDescriptor, apData );
+   write_to_output( apDescriptor, "%s", apData );
 }
 
 static void ReportBug( const char *apText )
 {
-   log( apText );
+   log( "%s", apText );
 }
 
 static void InfoMessage( descriptor_t *apDescriptor, const char *apData )
@@ -1939,7 +1939,9 @@ if ( aCmd == (char)WILL || aCmd == (char)DO )
      if ( aCmd == (char)WILL )
           ConfirmNegotiation(apDescriptor, eNEGOTIATED_MXP, true, true);
 else /* aCmd == (char)DO */
-     ConfirmNegotiation(apDescriptor, eNEGOTIATED_MXP2, true, true);
+     {
+      ConfirmNegotiation(apDescriptor, eNEGOTIATED_MXP2, true, true);
+   }
      
      if ( !pProtocol->bMXP )
      {

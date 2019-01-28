@@ -207,12 +207,14 @@ void read_from_file(void *buf, int size, long filepos)
 {
   FILE *mail_file;
 
-  if (filepos % BLOCK_SIZE) {
+  if (filepos % BLOCK_SIZE) 
+  {
     log("SYSERR: Mail system -- fatal error #3!!! (invalid filepos read %ld)", filepos);
     no_mail = TRUE;
     return;
   }
-  if (!(mail_file = fopen(MAIL_FILE, "r+b"))) {
+  if (!(mail_file = fopen(MAIL_FILE, "r+b"))) 
+  {
     log("SYSERR: Unable to open mail file '%s'.", MAIL_FILE);
     no_mail = TRUE;
     return;
