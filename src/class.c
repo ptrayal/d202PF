@@ -4979,13 +4979,11 @@ const int class_feats_fighter[] =
   FEAT_WEAPON_SUPREMACY,
   FEAT_ROBILARS_GAMBIT,
   FEAT_KNOCKDOWN,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 
 const int class_feats_arcane_archer[] = 
 {
-  FEAT_EPIC_TOUGHNESS,
   FEAT_SWARM_OF_ARROWS,  
   FEAT_UNDEFINED,
 };
@@ -5052,7 +5050,6 @@ const int class_feats_eldritch_knight[] =
   FEAT_DAMAGE_REDUCTION,
   FEAT_EPIC_SPELLCASTING,
   FEAT_PERFECT_TWO_WEAPON_FIGHTING,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 
@@ -5070,7 +5067,6 @@ const int class_feats_paladin[] =
 {
   FEAT_DAMAGE_REDUCTION,
   FEAT_GREAT_SMITING,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_monk[] = 
@@ -5081,7 +5077,6 @@ const int class_feats_monk[] =
   FEAT_COMBAT_REFLEXES,
   FEAT_FAST_HEALING,
   FEAT_DAMAGE_REDUCTION,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_druid[] = 
@@ -5093,34 +5088,29 @@ const int class_feats_barbarian[] =
 {
   FEAT_FAST_HEALING,
   FEAT_DAMAGE_REDUCTION,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_ranger[] = {
 
   FEAT_FAST_HEALING,
   FEAT_SWARM_OF_ARROWS,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_defender[] = 
 {
   FEAT_FAST_HEALING,
   FEAT_DAMAGE_REDUCTION,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_champion[] = 
 {
   FEAT_DAMAGE_REDUCTION,
   FEAT_GREAT_SMITING,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_dragon_disciple[] = 
 {
   FEAT_DAMAGE_REDUCTION,
-  FEAT_EPIC_TOUGHNESS,
   FEAT_UNDEFINED
 };
 const int class_feats_sorcerer[] = 

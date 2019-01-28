@@ -3081,8 +3081,6 @@ int calculate_max_hit(struct char_data *ch) {
 
   hp += hitmod;
 
-  hp += HAS_FEAT(ch, FEAT_EPIC_TOUGHNESS) * 30;
-
   if (ch->mentor_level > 0)
     hp = hp * ch->mentor_level / GET_CLASS_LEVEL(ch);
 

@@ -873,33 +873,33 @@ void handle_train(struct char_data *keeper, int guild_nr, struct char_data *ch, 
   else if (!GET_TRAINS(ch))
     send_to_char(ch, "You have no ability training sessions.\r\n");
   else if (!strncasecmp("strength", argument, strlen(argument))) {
-    send_to_char(ch, CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
     ch->real_abils.str += 1;
     GET_TRAINS(ch) -= 1;
   } else if (!strncasecmp("constitution", argument, strlen(argument))) {
-    send_to_char(ch, CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
     ch->real_abils.con += 1;
     /* Give them retroactive hit points for constitution */
     if (! (ch->real_abils.con % 2))
       GET_MAX_HIT(ch) += GET_LEVEL(ch);
     GET_TRAINS(ch) -= 1;
   } else if (!strncasecmp("dexterity", argument, strlen(argument))) {
-    send_to_char(ch, CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
     ch->real_abils.dex += 1;
     GET_TRAINS(ch) -= 1;
   } else if (!strncasecmp("intelligence", argument, strlen(argument))) {
-    send_to_char(ch, CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
     ch->real_abils.intel += 1;
     /* Give extra skill practice, but only for this level */
     if (! (ch->real_abils.intel % 2))
       GET_PRACTICES(ch, GET_CLASS(ch)) += 1;
     GET_TRAINS(ch) -= 1;
   } else if (!strncasecmp("wisdom", argument, strlen(argument))) {
-    send_to_char(ch, CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
     ch->real_abils.wis += 1;
     GET_TRAINS(ch) -= 1;
   } else if (!strncasecmp("charisma", argument, strlen(argument))) {
-    send_to_char(ch, CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
     ch->real_abils.cha += 1;
     GET_TRAINS(ch) -= 1;
   } else

@@ -499,7 +499,6 @@ feato(FEAT_SACRED_FLAMES, "Sacred Flames", TRUE, FALSE, FALSE, "sacred fist leve
 feato(FEAT_ENHANCE_SPELL, "Increase Spell Damage (Enhance Spell)", FALSE, TRUE, FALSE, "Epic Level", "increase max number of damage dice for certain damage based spell by 5");
 feato(FEAT_EPIC_SKILL_FOCUS, "Epic Skill focus", FALSE, TRUE, TRUE, "Epic level, 20 ranks in the skill", "+10 in chosen skill");
 feato(FEAT_EPIC_SPELLCASTING, "Epic Spellcasting", FALSE, TRUE, FALSE, "Epic level, lore 24, spellcraft 24", "allows you to cast epic spells");
-feato(FEAT_EPIC_TOUGHNESS, "Epic Toughness", FALSE, TRUE, TRUE, "Epic level", "You gain +30 max hp.");
 feato(FEAT_FAST_HEALING, "Fast Healing", FALSE, TRUE, TRUE, "Epic Level", "Heals 3 hp per rank each combat round if fighting otherwise every 6 seconds");
 feato(FEAT_GREAT_SMITING, "Great Smiting", FALSE, TRUE, TRUE, "Epic Level", "For each rank in this feat you add your level in damage to all smite attacks");
 feato(FEAT_INTENSIFY_SPELL, "Intensify Spell", FALSE, TRUE, FALSE, "Epic level, empower spell, maximize spell, spellcraft 30 ranks, ability ro cast lvl 9 arcane or divine spells", "maximizes damage/healing and then doubles it.");
@@ -1017,7 +1016,6 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
     return TRUE;
 
   case FEAT_ENHANCE_SPELL:
-  case FEAT_EPIC_TOUGHNESS:
     if (GET_LEVEL(ch) < 21)
       return FALSE;
     return TRUE;
