@@ -39,7 +39,7 @@ void show_hints(void)
         if (PRF_FLAGGED(ch, PRF_NOHINTS))
             continue;
 
-        send_to_char(ch, hints[roll]);
+        send_to_char(ch, "%s", hints[roll]);
     }
 }
 

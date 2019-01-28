@@ -77,42 +77,43 @@ char *fname(const char *namelist)
  * isname().  Used for OasisOLC.                                */
 int is_name(const char *str, const char *namelist)
 {
-    const char *curname, *curstr;
+  const char *curname, *curstr;
 
-    if (!*str || !*namelist || !str || !namelist)
+  if (!*str || !*namelist || !str || !namelist)
+  {
+    return (0);
+  }
+
+  curname = namelist;
+  for (;;) 
+  {
+    for (curstr = str;; curstr++, curname++)
     {
+      if (!*curstr && !isalpha(*curname))
+        return (1);
+
+      if (!*curname)
         return (0);
+
+      if (!*curstr || *curname == ' ')
+        break;
+
+      if (LOWER(*curstr) != LOWER(*curname))
+        break;
     }
-
-    curname = namelist;
-    for (;;) 
-    {
-        for (curstr = str;; curstr++, curname++) 
-        {
-            if (!*curstr && !isalpha(*curname))
-                return (1);
-
-            if (!*curname)
-                return (0);
-
-            if (!*curstr || *curname == ' ')
-                break;
-
-            if (LOWER(*curstr) != LOWER(*curname))
-                break;
-        }
 
         /* skip to next name */
-        for (; isalpha(*curname); curname++);
-        {
-            if (!*curname)
-            {
-                return (0);
-            }
-        }
-        /* first char of new name */
-        curname++;                  
+    for (; isalpha(*curname); curname++)
+      ;
+
+    if (!*curname)
+    {
+      return (0);
     }
+
+        /* first char of new name */
+    curname++;                  
+  }
 }
 
 /* allow abbreviations */
@@ -520,51 +521,60 @@ int calculate_best_mod(struct char_data *ch, int location, int specific, int exc
 
 int calculate_second_best_mod(struct char_data *ch, int location, int specific, int except_eq, int except_spell)
 {
-  struct affected_type *af;
-  int noeffect = FALSE;
-  int i, k, j;
-  int best = 0;
-  int secondbest = 0;
-  int modifier = 0;
+    struct affected_type *af;
+    int noeffect = FALSE;
+    int i, k, j;
+    int best = 0;
+    int secondbest = 0;
+    int modifier = 0;
 
-  if (location == APPLY_AC_DODGE || location == APPLY_NONE)
-    return 0;
-  
-  for (af = ch->affected; af; af = af->next) {
-    if (stacked_effect(af->type))
-      continue;
+    if (location == APPLY_AC_DODGE || location == APPLY_NONE)
+        return 0;
 
-    modifier = af->modifier;
+    for (af = ch->affected; af; af = af->next) 
+    {
+        if (stacked_effect(af->type))
+            continue;
 
-    if (af->type == except_spell)
-      continue;
-    if (af->location == location && modifier > best && af->specific == specific) {
-      secondbest = best;
-      best = modifier;
+        modifier = af->modifier;
+
+        if (af->type == except_spell)
+            continue;
+        if (af->location == location && modifier > best && af->specific == specific) 
+        {
+            secondbest = best;
+            best = modifier;
+        }
     }
-  }
 
-  for (i = 0; i < NUM_WEARS; i++) {
-    if (GET_EQ(ch, i)) {
-      noeffect = FALSE;
-      for (k = 0; k < NUM_NO_AFFECT_EQ; k++) 
-        if (OBJWEAR_FLAGGED(GET_EQ(ch, i), no_affect_eq[k]))
-          noeffect = TRUE;
-      if (noeffect)
-        continue;
-      if (i == except_eq)
-        continue; 
-      for (j = 0; j < MAX_OBJ_AFFECT; j++) {
-        modifier = GET_EQ(ch, i)->affected[j].modifier;
-        if (GET_EQ(ch, i)->affected[j].location == location && modifier > best &&
-            GET_EQ(ch, i)->affected[j].specific == specific)
-          secondbest = best;
-          best = modifier;
-      }  
+    for (i = 0; i < NUM_WEARS; i++) 
+    {
+        if (GET_EQ(ch, i)) 
+        {
+            noeffect = FALSE;
+            for (k = 0; k < NUM_NO_AFFECT_EQ; k++) 
+            {
+                if (OBJWEAR_FLAGGED(GET_EQ(ch, i), no_affect_eq[k]))
+                    noeffect = TRUE;
+            }
+            if (noeffect)
+                continue;
+            if (i == except_eq)
+                continue; 
+            for (j = 0; j < MAX_OBJ_AFFECT; j++) 
+            {
+                modifier = GET_EQ(ch, i)->affected[j].modifier;
+                if (GET_EQ(ch, i)->affected[j].location == location && modifier > best &&
+                    GET_EQ(ch, i)->affected[j].specific == specific)
+                {
+                    secondbest = best;
+                }
+                best = modifier;
+            }  
+        }
     }
-  }
 
-  return secondbest;
+    return secondbest;
 }
 
 
@@ -953,16 +963,18 @@ void obj_from_char(struct obj_data *object)
 /* Return the effect of a piece of armor in position eq_pos */
 int apply_ac(struct char_data *ch, int eq_pos)
 {
-  int factor;
+  int factor = 0;
 
-  if (GET_EQ(ch, eq_pos) == NULL) {
+  if (GET_EQ(ch, eq_pos) == NULL) 
+  {
     core_dump();
     return (0);
   }
 
   if ((GET_OBJ_TYPE(GET_EQ(ch, eq_pos)) == ITEM_ARMOR_SUIT))
     factor = 100;
-  else if ((GET_OBJ_TYPE(GET_EQ(ch, eq_pos)) == ITEM_ARMOR)) {
+  else if ((GET_OBJ_TYPE(GET_EQ(ch, eq_pos)) == ITEM_ARMOR)) 
+  {
     factor = 100;
   }
   else

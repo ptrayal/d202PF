@@ -337,7 +337,7 @@ void hedit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "Enter help entry: (/s saves /h for help)\r\n");
       d->backstr = NULL;
       if (OLC_HELP(d)->entry) {
-	write_to_output(d, OLC_HELP(d)->entry);
+	write_to_output(d, "%s", OLC_HELP(d)->entry);
 	d->backstr = strdup(OLC_HELP(d)->entry);
       }
       d->str = &OLC_HELP(d)->entry;
