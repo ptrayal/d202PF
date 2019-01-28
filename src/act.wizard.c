@@ -4334,13 +4334,7 @@ ACMD(do_loadcrystal)
 
 ACMD(do_test)
 {
-    char *buf1, *buf2, *buf3, *buf4;
     int cls = 0;
-
-    buf1 = pet_table[0].name;
-    buf2 = do_lower(buf1);
-    buf3 = do_upper(buf2, FALSE);
-    buf4 = do_upper(buf2, TRUE);
 
     GRID_DATA *grid;
     GRID_ROW *row;

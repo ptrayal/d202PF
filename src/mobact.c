@@ -66,7 +66,8 @@ void mobile_activity(void)
   struct affected_type *af = NULL;
   int spell_cast = FALSE;
 
-  for (ch = character_list; ch; ch = next_ch) {
+  for (ch = character_list; ch; ch = next_ch) 
+  {
     next_ch = ch->next;
 
     spell_cast = FALSE;
