@@ -70,898 +70,542 @@ int Valid_Name(char *newname);
 ACMD(do_oasis_oedit)
 
 {
+    int number = NOWHERE, save = 0, real_num;
+    struct descriptor_data *d;
+    char *buf3;
+    char buf1[MAX_STRING_LENGTH]={'\0'};
+    char buf2[MAX_STRING_LENGTH]={'\0'};
 
-  int number = NOWHERE, save = 0, real_num;
-  struct descriptor_data *d;
-  char *buf3;
-  char buf1[MAX_STRING_LENGTH]={'\0'};
-  char buf2[MAX_STRING_LENGTH]={'\0'};
+/****************************************************************************/
+/** Parse any arguments.                                                   **/
+/****************************************************************************/
+    buf3 = two_arguments(argument, buf1, buf2);
 
-  /****************************************************************************/
-  /** Parse any arguments.                                                   **/
-  /****************************************************************************/
-
-  buf3 = two_arguments(argument, buf1, buf2);
-
-  /****************************************************************************/
-  /** If there aren't any arguments...well...they can't modify nothing now   **/
-  /** can they?                                                              **/
-  /****************************************************************************/
-
-  if (!*buf1) {
-    send_to_char(ch, "Specify an object VNUM to edit.\r\n");
-    return;
-  } else if (!isdigit(*buf1)) {
-    if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
-      return;
-    }
-
-    save = TRUE;
-
-    if (is_number(buf2))
-      number = atoi(buf2);
-    else if (GET_OLC_ZONE(ch) > 0) {
-      zone_rnum zlok;
-
-      if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
-        number = NOWHERE;
-      else
-        number = genolc_zone_bottom(zlok);
-    }
-
-    if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
-      return;
-    }
-  }
-
-
-
-  /****************************************************************************/
-
-  /** If a numeric argument was given, get it.                               **/
-
-  /****************************************************************************/
-
-  if (number == NOWHERE)
-
-    number = atoi(buf1);
-
-
-
-  /****************************************************************************/
-
-  /** Check that whatever it is isn't already being edited.                  **/
-
-  /****************************************************************************/
-
-  for (d = descriptor_list; d; d = d->next) {
-
-    if (STATE(d) == CON_OEDIT) {
-
-      if (d->olc && OLC_NUM(d) == number) {
-
-        send_to_char(ch, "That object is currently being edited by %s.\r\n",
-
-          PERS(d->character, ch));
-
+/****************************************************************************/
+/** If there aren't any arguments...well...they can't modify nothing now   **/
+/** can they?                                                              **/
+/****************************************************************************/
+    if (!*buf1) 
+    {
+        send_to_char(ch, "Specify an object VNUM to edit.\r\n");
         return;
-
-      }
-
-    }
-
-  }
-
-
-
-  /****************************************************************************/
-
-  /** Point d to the builder's descriptor (for easier typing later).         **/
-
-  /****************************************************************************/
-
-  d = ch->desc;
-
-
-
-  /****************************************************************************/
-
-  /** Give the descriptor an OLC structure.                                  **/
-
-  /****************************************************************************/
-
-  if (d->olc) {
-
-    mudlog(BRF, ADMLVL_IMMORT, TRUE,
-
-      "SYSERR: do_oasis: Player already had olc structure.");
-
-    free(d->olc);
-
-  }
-
-
-
-  CREATE(d->olc, struct oasis_olc_data, 1);
-
-
-
-  /****************************************************************************/
-
-  /** Find the zone.                                                         **/
-
-  /****************************************************************************/
-
-  OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
-
-  if (OLC_ZNUM(d) == NOWHERE) {
-
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
-
-
-
-    /**************************************************************************/
-
-    /** Free the descriptor's OLC structure.                                 **/
-
-    /**************************************************************************/
-
-    free(d->olc);
-
-    d->olc = NULL;
-
-    return;
-
-  }
-
-
-
-  /****************************************************************************/
-
-  /** Everyone but IMPLs can only edit zones they have been assigned.        **/
-
-  /****************************************************************************/
-
-  if (!can_edit_zone(ch, OLC_ZNUM(d))) {
-
-    send_to_char(ch, "You do not have permission to edit this zone.\r\n");
-
-    mudlog(CMP, ADMLVL_IMPL, TRUE, "OLC: %s tried to edit zone %d allowed zone %d",
-
-      GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
-
-
-
-    /**************************************************************************/
-
-    /** Free the descriptor's OLC structure.                                 **/
-
-    /**************************************************************************/
-
-    free(d->olc);
-
-    d->olc = NULL;
-
-    return;
-
-  }
-
-
-
-  /****************************************************************************/
-
-  /** If we need to save, save the objects.                                  **/
-
-  /****************************************************************************/
-
-  if (save) {
-
-    send_to_char(ch, "Saving all objects in zone %d.\r\n",
-
-      zone_table[OLC_ZNUM(d)].number);
-
-    mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
-
-      "OLC: %s saves object info for zone %d.", GET_NAME(ch),
-
-      zone_table[OLC_ZNUM(d)].number);
-
-
-
-    /**************************************************************************/
-
-    /** Save the objects in this zone.                                       **/
-
-    /**************************************************************************/
-
-    save_objects(OLC_ZNUM(d));
-
-
-
-    /**************************************************************************/
-
-    /** Free the descriptor's OLC structure.                                 **/
-
-    /**************************************************************************/
-
-    free(d->olc);
-
-    d->olc = NULL;
-
-    return;
-
-  }
-
-
-
-  OLC_NUM(d) = number;
-
-
-
-  /****************************************************************************/
-
-  /** If this is a new object, setup a new object, otherwise setup the       **/
-
-  /** existing object.                                                       **/
-
-  /****************************************************************************/
-
-  if ((real_num = real_object(number)) != NOTHING)
-
-    oedit_setup_existing(d, real_num);
-
-  else
-
-    oedit_setup_new(d);
-
-
-
-  STATE(d) = CON_OEDIT;
-
-
-
-  /****************************************************************************/
-
-  /** Send the OLC message to the players in the same room as the builder.   **/
-
-  /****************************************************************************/
-
-  act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
-
-  SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-
-
-
-  /****************************************************************************/
-
-  /** Log the OLC message.                                                   **/
-
-  /****************************************************************************/
-
-  mudlog(CMP, ADMLVL_IMMORT, TRUE, "OLC: %s starts editing zone %d allowed zone %d",
-
-    GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
-
-}
-
-
-
-void oedit_setup_new(struct descriptor_data *d)
-
-{
-
-  CREATE(OLC_OBJ(d), struct obj_data, 1);
-
-
-
-  clear_object(OLC_OBJ(d));
-
-  OLC_OBJ(d)->name = strdup("unfinished object");
-
-  OLC_OBJ(d)->description = strdup("An unfinished object is lying here.");
-
-  OLC_OBJ(d)->short_description = strdup("an unfinished object");
-
-  SET_BIT_AR(GET_OBJ_WEAR(OLC_OBJ(d)), ITEM_WEAR_TAKE);
-
-  OLC_VAL(d) = 0;
-
-  OLC_ITEM_TYPE(d) = OBJ_TRIGGER;
-
-
-
-  SCRIPT(OLC_OBJ(d)) = NULL;
-
-  OLC_OBJ(d)->proto_script = OLC_SCRIPT(d) = NULL;
-
-
-
-  oedit_disp_menu(d);
-
-}
-
-
-
-/*------------------------------------------------------------------------*/
-
-
-
-void oedit_setup_existing(struct descriptor_data *d, int real_num)
-
-{
-
-  struct obj_data *obj;
-
-
-
-  /*
-
-   * Allocate object in memory.
-
-   */
-
-  CREATE(obj, struct obj_data, 1);
-
-  copy_object(obj, &obj_proto[real_num]);
-
-
-
-  /*
-
-   * Attach new object to player's descriptor.
-
-   */
-
-  OLC_OBJ(d) = obj;
-
-  OLC_VAL(d) = 0;
-
-  OLC_ITEM_TYPE(d) = OBJ_TRIGGER;
-
-  dg_olc_script_copy(d);
-
-  /*
-
-   * The edited obj must not have a script.
-
-   * It will be assigned to the updated obj later, after editing.
-
-   */
-
-  SCRIPT(obj) = NULL;
-
-  OLC_OBJ(d)->proto_script = NULL;
-
-
-
-  oedit_disp_menu(d);
-
-}
-
-
-
-/*------------------------------------------------------------------------*/
-
-
-
-void oedit_save_internally(struct descriptor_data *d)
-
-{
-
-  int i;
-
-  obj_rnum robj_num;
-
-  struct descriptor_data *dsc;
-
-  struct obj_data *obj;
-
-
-
-  i = (real_object(OLC_NUM(d)) == NOTHING);
-
-
-
-  if ((robj_num = add_object(OLC_OBJ(d), OLC_NUM(d))) == NOTHING) {
-
-    log("oedit_save_internally: add_object failed.");
-
-    return;
-
-  }
-
-
-
-  /* Update triggers : */
-
-  /* Free old proto list  */
-
-  if (obj_proto[robj_num].proto_script &&
-
-      obj_proto[robj_num].proto_script != OLC_SCRIPT(d))
-
-    free_proto_script(&obj_proto[robj_num], OBJ_TRIGGER);
-
-  /* this will handle new instances of the object: */
-
-  obj_proto[robj_num].proto_script = OLC_SCRIPT(d);
-
-
-
-  /* this takes care of the objects currently in-game */
-
-  for (obj = object_list; obj; obj = obj->next) {
-
-    if (obj->item_number != robj_num)
-
-      continue;
-
-    /* remove any old scripts */
-
-    if (SCRIPT(obj))
-
-      extract_script(obj, OBJ_TRIGGER);
-
-
-
-    free_proto_script(obj, OBJ_TRIGGER);
-
-    copy_proto_script(&obj_proto[robj_num], obj, OBJ_TRIGGER);
-
-    assign_triggers(obj, OBJ_TRIGGER);
-
-  }
-
-  /* end trigger update */
-
-
-
-  if (!i)	/* If it's not a new object, don't renumber. */
-
-    return;
-
-
-
-  /*
-
-   * Renumber produce in shops being edited.
-
-   */
-
-  for (dsc = descriptor_list; dsc; dsc = dsc->next)
-
-    if (STATE(dsc) == CON_SEDIT)
-
-      for (i = 0; S_PRODUCT(OLC_SHOP(dsc), i) != NOTHING; i++)
-
-	if (S_PRODUCT(OLC_SHOP(dsc), i) >= robj_num)
-
-	  S_PRODUCT(OLC_SHOP(dsc), i)++;
-
-
-
-
-
-  /* Update other people in zedit too. From: C.Raehl 4/27/99 */
-
-  for (dsc = descriptor_list; dsc; dsc = dsc->next)
-
-    if (STATE(dsc) == CON_ZEDIT)
-
-      for (i = 0; OLC_ZONE(dsc)->cmd[i].command != 'S'; i++)
-
-        switch (OLC_ZONE(dsc)->cmd[i].command) {
-
-          case 'P':
-
-            OLC_ZONE(dsc)->cmd[i].arg3 += (OLC_ZONE(dsc)->cmd[i].arg3 >= robj_num);
-
-            /* Fall through. */
-
-          case 'E':
-
-          case 'G':
-
-          case 'O':
-
-            OLC_ZONE(dsc)->cmd[i].arg1 += (OLC_ZONE(dsc)->cmd[i].arg1 >= robj_num);
-
-            break;
-
-          case 'R':
-
-            OLC_ZONE(dsc)->cmd[i].arg2 += (OLC_ZONE(dsc)->cmd[i].arg2 >= robj_num);
-
-            break;
-
-          default:
-
-          break;
-
+    } 
+    else if (!isdigit(*buf1)) 
+    {
+        if (str_cmp("save", buf1) != 0) 
+        {
+            send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+            return;
         }
 
+        save = TRUE;
+
+        if (is_number(buf2))
+            number = atoi(buf2);
+        else if (GET_OLC_ZONE(ch) > 0) 
+        {
+            zone_rnum zlok;
+
+            if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
+                number = NOWHERE;
+            else
+                number = genolc_zone_bottom(zlok);
+        }
+
+        if (number == NOWHERE) 
+        {
+            send_to_char(ch, "Save which zone?\r\n");
+            return;
+        }
+    }
+
+/****************************************************************************/
+/** If a numeric argument was given, get it.                               **/
+/****************************************************************************/
+    if (number == NOWHERE)
+        number = atoi(buf1);
+
+/****************************************************************************/
+/** Check that whatever it is isn't already being edited.                  **/
+/****************************************************************************/
+
+    for (d = descriptor_list; d; d = d->next) 
+    {
+        if (STATE(d) == CON_OEDIT) 
+        {
+            if (d->olc && OLC_NUM(d) == number) 
+            {
+                send_to_char(ch, "That object is currently being edited by %s.\r\n",
+                    PERS(d->character, ch));
+                return;
+            }
+        }
+    }
+
+/****************************************************************************/
+/** Point d to the builder's descriptor (for easier typing later).         **/
+/****************************************************************************/
+    d = ch->desc;
+
+/****************************************************************************/
+/** Give the descriptor an OLC structure.                                  **/
+/****************************************************************************/
+    if (d->olc) 
+    {
+        mudlog(BRF, ADMLVL_IMMORT, TRUE,
+            "SYSERR: do_oasis: Player already had olc structure.");
+        free(d->olc);
+    }
+
+    CREATE(d->olc, struct oasis_olc_data, 1);
+
+/****************************************************************************/
+/** Find the zone.                                                         **/
+/****************************************************************************/
+    OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
+
+    if (OLC_ZNUM(d) == NOWHERE) 
+    {
+        send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+
+/**************************************************************************/
+/** Free the descriptor's OLC structure.                                 **/
+/**************************************************************************/
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+/****************************************************************************/
+/** Everyone but IMPLs can only edit zones they have been assigned.        **/
+/****************************************************************************/
+
+    if (!can_edit_zone(ch, OLC_ZNUM(d))) 
+    {
+        send_to_char(ch, "You do not have permission to edit this zone.\r\n");
+        mudlog(CMP, ADMLVL_IMPL, TRUE, "OLC: %s tried to edit zone %d allowed zone %d",
+            GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
+
+/**************************************************************************/
+/** Free the descriptor's OLC structure.                                 **/
+/**************************************************************************/
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+/****************************************************************************/
+/** If we need to save, save the objects.                                  **/
+/****************************************************************************/
+    if (save) 
+    {
+        send_to_char(ch, "Saving all objects in zone %d.\r\n",
+            zone_table[OLC_ZNUM(d)].number);
+        mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
+            "OLC: %s saves object info for zone %d.", GET_NAME(ch),
+            zone_table[OLC_ZNUM(d)].number);
+
+/**************************************************************************/
+/** Save the objects in this zone.                                       **/
+/**************************************************************************/
+        save_objects(OLC_ZNUM(d));
+
+/**************************************************************************/
+/** Free the descriptor's OLC structure.                                 **/
+/**************************************************************************/
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+    OLC_NUM(d) = number;
+
+/****************************************************************************/
+/** If this is a new object, setup a new object, otherwise setup the       **/
+/** existing object.                                                       **/
+/****************************************************************************/
+
+    if ((real_num = real_object(number)) != NOTHING)
+        oedit_setup_existing(d, real_num);
+    else
+        oedit_setup_new(d);
+
+    STATE(d) = CON_OEDIT;
+
+/****************************************************************************/
+/** Send the OLC message to the players in the same room as the builder.   **/
+/****************************************************************************/
+    act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
+    SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+
+/****************************************************************************/
+/** Log the OLC message.                                                   **/
+/****************************************************************************/
+    mudlog(CMP, ADMLVL_IMMORT, TRUE, "OLC: %s starts editing zone %d allowed zone %d",
+        GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
 }
 
+void oedit_setup_new(struct descriptor_data *d)
+{
 
+    CREATE(OLC_OBJ(d), struct obj_data, 1);
+
+    clear_object(OLC_OBJ(d));
+    OLC_OBJ(d)->name = strdup("unfinished object");
+    OLC_OBJ(d)->description = strdup("An unfinished object is lying here.");
+    OLC_OBJ(d)->short_description = strdup("an unfinished object");
+    SET_BIT_AR(GET_OBJ_WEAR(OLC_OBJ(d)), ITEM_WEAR_TAKE);
+    OLC_VAL(d) = 0;
+    OLC_ITEM_TYPE(d) = OBJ_TRIGGER;
+
+    SCRIPT(OLC_OBJ(d)) = NULL;
+    OLC_OBJ(d)->proto_script = OLC_SCRIPT(d) = NULL;
+
+    oedit_disp_menu(d);
+}
 
 /*------------------------------------------------------------------------*/
-
-
-
-void oedit_save_to_disk(int zone_num)
-
+void oedit_setup_existing(struct descriptor_data *d, int real_num)
 {
+    struct obj_data *obj;
 
-  save_objects(zone_num);
+    /*
+    * Allocate object in memory.
+    */
+    CREATE(obj, struct obj_data, 1);
+    copy_object(obj, &obj_proto[real_num]);
 
+    /*
+    * Attach new object to player's descriptor.
+    */
+    OLC_OBJ(d) = obj;
+    OLC_VAL(d) = 0;
+    OLC_ITEM_TYPE(d) = OBJ_TRIGGER;
+    dg_olc_script_copy(d);
+
+    /*
+    * The edited obj must not have a script.
+    * It will be assigned to the updated obj later, after editing.
+    */
+    SCRIPT(obj) = NULL;
+    OLC_OBJ(d)->proto_script = NULL;
+    oedit_disp_menu(d);
 }
 
+/*------------------------------------------------------------------------*/
+void oedit_save_internally(struct descriptor_data *d)
+{
+    int i = 0;
+    obj_rnum robj_num;
+    struct descriptor_data *dsc;
+    struct obj_data *obj;
 
+    i = (real_object(OLC_NUM(d)) == NOTHING);
 
-/**************************************************************************
+    if ((robj_num = add_object(OLC_OBJ(d), OLC_NUM(d))) == NOTHING) 
+    {
+        log("oedit_save_internally: add_object failed.");
+        return;
+    }
 
- Menu functions
+    /* Update triggers : */
+    /* Free old proto list  */
+    if (obj_proto[robj_num].proto_script &&
+        obj_proto[robj_num].proto_script != OLC_SCRIPT(d))
+    {
+        free_proto_script(&obj_proto[robj_num], OBJ_TRIGGER);
+    }
 
- **************************************************************************/
+    /* this will handle new instances of the object: */
+    obj_proto[robj_num].proto_script = OLC_SCRIPT(d);
 
+    /* this takes care of the objects currently in-game */
+    for (obj = object_list; obj; obj = obj->next) 
+    {
+        if (obj->item_number != robj_num)
+        {
+            continue;
+        }
 
+        /* remove any old scripts */
+        if (SCRIPT(obj))
+        {
+            extract_script(obj, OBJ_TRIGGER);
+        }
+
+        free_proto_script(obj, OBJ_TRIGGER);
+        copy_proto_script(&obj_proto[robj_num], obj, OBJ_TRIGGER);
+        assign_triggers(obj, OBJ_TRIGGER);
+    }
+
+/* end trigger update */
+if (!i)	/* If it's not a new object, don't renumber. */
+    {
+        return;
+    }
 
 /*
+* Renumber produce in shops being edited.
+*/
+    for (dsc = descriptor_list; dsc; dsc = dsc->next)
+    {
+        if (STATE(dsc) == CON_SEDIT)
+        {
+            for (i = 0; S_PRODUCT(OLC_SHOP(dsc), i) != NOTHING; i++)
+            {
+                if (S_PRODUCT(OLC_SHOP(dsc), i) >= robj_num)
+                {
+                    S_PRODUCT(OLC_SHOP(dsc), i)++;
+                }
+            }
+        }
+    }
 
- * For container flags.
+        /* Update other people in zedit too. From: C.Raehl 4/27/99 */
+    for (dsc = descriptor_list; dsc; dsc = dsc->next)
+    {
+        if (STATE(dsc) == CON_ZEDIT)
+        {
+            for (i = 0; OLC_ZONE(dsc)->cmd[i].command != 'S'; i++)
+            {
+                switch (OLC_ZONE(dsc)->cmd[i].command) 
+                {
+                    case 'P':
+                    OLC_ZONE(dsc)->cmd[i].arg3 += (OLC_ZONE(dsc)->cmd[i].arg3 >= robj_num);
+                                                                        /* Fall through. */
+                    case 'E':
+                    case 'G':
+                    case 'O':
+                    OLC_ZONE(dsc)->cmd[i].arg1 += (OLC_ZONE(dsc)->cmd[i].arg1 >= robj_num);
+                    break;
+                    case 'R':
+                    OLC_ZONE(dsc)->cmd[i].arg2 += (OLC_ZONE(dsc)->cmd[i].arg2 >= robj_num);
+                    break;
+                    default:
+                    break;
+                }
+            }
+        }
+    }
+}
 
- */
-
-void oedit_disp_container_flags_menu(struct descriptor_data *d)
-
+/*------------------------------------------------------------------------*/
+void oedit_save_to_disk(int zone_num)
 {
+  save_objects(zone_num);
+}
 
+/**************************************************************************
+ Menu functions
+ **************************************************************************/
+/*
+ * For container flags.
+ */
+void oedit_disp_container_flags_menu(struct descriptor_data *d)
+{
   char bits[MAX_STRING_LENGTH]={'\0'};
   clear_screen(d);
 
-
-
   sprintbit(GET_OBJ_VAL(OLC_OBJ(d), 1), container_bits, bits, sizeof(bits));
-
   write_to_output(d,
-
 	  "@g1@n) CLOSEABLE\r\n"
-
 	  "@g2@n) PICKPROOF\r\n"
-
 	  "@g3@n) CLOSED\r\n"
-
 	  "@g4@n) LOCKED\r\n"
-
 	  "Container flags: @c%s@n\r\n"
-
 	  "Enter flag, 0 to quit : ",
-
 	  bits);
-
 }
 
-
-
 /*
-
  * For extra descriptions.
-
  */
-
 void oedit_disp_extradesc_menu(struct descriptor_data *d)
-
 {
+    struct extra_descr_data *extra_desc = OLC_DESC(d);
 
-  struct extra_descr_data *extra_desc = OLC_DESC(d);
+    clear_screen(d);
+    write_to_output(d,
+        "Extra desc menu\r\n"
+        "@g1@n) Keyword: @y%s@n\r\n"
+        "@g2@n) Description:\r\n@y%s@n\r\n"
+        "@g3@n) Goto next description: %s\r\n"
+        "@g0@n) Quit\r\n"
+        "Enter choice : ",
+        (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
+        (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
+        !extra_desc->next ? "<Not set>\r\n" : "Set.");
 
-
-
-  clear_screen(d);
-
-  write_to_output(d,
-
-	  "Extra desc menu\r\n"
-
-	  "@g1@n) Keyword: @y%s@n\r\n"
-
-	  "@g2@n) Description:\r\n@y%s@n\r\n"
-
-	  "@g3@n) Goto next description: %s\r\n"
-
-	  "@g0@n) Quit\r\n"
-
-	  "Enter choice : ",
-
-
-
-     	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
-
-	  (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
-
-	  !extra_desc->next ? "<Not set>\r\n" : "Set.");
-
-  OLC_MODE(d) = OEDIT_EXTRADESC_MENU;
-
+    OLC_MODE(d) = OEDIT_EXTRADESC_MENU;
 }
 
-
-
 /*
-
  * Ask for *which* apply to edit.
-
  */
-
 void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
-
 {
+    char apply_buf[MAX_STRING_LENGTH]={'\0'};
+    int counter = 0;
+    int rec_level = 0;
 
-  char apply_buf[MAX_STRING_LENGTH]={'\0'};
+    clear_screen(d);
 
-  int counter;
+    rec_level =  set_object_level(OLC_OBJ(d));
 
-  int rec_level;
+    write_to_output(d, "\r\nRecommended Item level: Crafted Item: %d, Reg. Mob Drop: %d, Lieut. Mob Drop: %d, Capt. Mob Drop: %d, Boss Mob Drop: %d, Final Boss Mob Drop: %d\r\n\r\n", 
+        rec_level, rec_level + 1, rec_level - 1, rec_level - 2, rec_level - 4, rec_level - 6);
 
+    for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) 
+    {
+        if (OLC_OBJ(d)->affected[counter].modifier) 
+        {
+            sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, apply_buf, sizeof(apply_buf));
+            write_to_output(d, " @g%d@n) %+d to @b%s@n", counter + 1,
+                OLC_OBJ(d)->affected[counter].modifier, apply_buf);
+            switch (OLC_OBJ(d)->affected[counter].location) 
+            {
+                case APPLY_FEAT:
+                write_to_output(d, " (%s)", feat_list[OLC_OBJ(d)->affected[counter].specific].name);
+                break;
+                case APPLY_SKILL:
+                write_to_output(d, " (%s)", spell_info[OLC_OBJ(d)->affected[counter].specific].name);
+                break;
+            }
 
-
-  clear_screen(d);
-
-
-
-  rec_level =  set_object_level(OLC_OBJ(d));
-
-
-
-  write_to_output(d, "\r\nRecommended Item level: Crafted Item: %d, Reg. Mob Drop: %d, Lieut. Mob Drop: %d, Capt. Mob Drop: %d, Boss Mob Drop: %d, Final Boss Mob Drop: %d\r\n\r\n", 
-                          rec_level, rec_level + 1, rec_level - 1, rec_level - 2, rec_level - 4, rec_level - 6);
-
-
-
-  for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
-
-    if (OLC_OBJ(d)->affected[counter].modifier) {
-
-      sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, apply_buf, sizeof(apply_buf));
-
-      write_to_output(d, " @g%d@n) %+d to @b%s@n", counter + 1,
-
-                      OLC_OBJ(d)->affected[counter].modifier, apply_buf);
-
-      switch (OLC_OBJ(d)->affected[counter].location) {
-
-      case APPLY_FEAT:
-
-        write_to_output(d, " (%s)", feat_list[OLC_OBJ(d)->affected[counter].specific].name);
-
-        break;
-
-      case APPLY_SKILL:
-
-        write_to_output(d, " (%s)", spell_info[OLC_OBJ(d)->affected[counter].specific].name);
-
-        break;
-
-      }
-
-      write_to_output(d, "\r\n");
-
-    } else {
-
-      write_to_output(d, " @g%d@n) None.\r\n", counter + 1);
-
+            write_to_output(d, "\r\n");
+        } 
+        else 
+        {
+            write_to_output(d, " @g%d@n) None.\r\n", counter + 1);
+        }
     }
 
-  }
-
-  write_to_output(d, "\r\nEnter affection to modify (0 to quit) : ");
-
-  OLC_MODE(d) = OEDIT_PROMPT_APPLY;
-
+    write_to_output(d, "\r\nEnter affection to modify (0 to quit) : ");
+    OLC_MODE(d) = OEDIT_PROMPT_APPLY;
 }
-
-
 
 void oedit_disp_prompt_spellbook_menu(struct descriptor_data *d)
-
 {
+    int counter, columns = 0;
 
-  int counter, columns = 0;
+    clear_screen(d);
 
-
-
-  clear_screen(d);
-
-
-
-  for (counter = 0; counter < SPELLBOOK_SIZE; counter++) {
-
-    if (OLC_OBJ(d)->sbinfo && OLC_OBJ(d)->sbinfo[counter].spellname != 0 ) {
-
-      write_to_output(d, " @g%3d@n) %-20.20s %s", counter + 1,
-
-             spell_info[OLC_OBJ(d)->sbinfo[counter].spellname].name, !(++columns % 3) ? "\r\n" : "");
-
-    } else {
-
-      write_to_output(d, " @g%3d@n) None.%s", counter + 1, !(++columns % 3) ? "\r\n" : "");
-
+    for (counter = 0; counter < SPELLBOOK_SIZE; counter++) 
+    {
+        if (OLC_OBJ(d)->sbinfo && OLC_OBJ(d)->sbinfo[counter].spellname != 0 ) 
+        {
+            write_to_output(d, " @g%3d@n) %-20.20s %s", counter + 1,
+                spell_info[OLC_OBJ(d)->sbinfo[counter].spellname].name, !(++columns % 3) ? "\r\n" : "");
+        } 
+        else 
+        {
+            write_to_output(d, " @g%3d@n) None.%s", counter + 1, !(++columns % 3) ? "\r\n" : "");
+        }
     }
 
-  }
-
-  write_to_output(d, "\r\nEnter spell to modify (0 to quit) : ");
-
-  OLC_MODE(d) = OEDIT_PROMPT_SPELLBOOK;
+    write_to_output(d, "\r\nEnter spell to modify (0 to quit) : ");
+    OLC_MODE(d) = OEDIT_PROMPT_SPELLBOOK;
 
 }
-
-
 
 void oedit_disp_spellbook_menu(struct descriptor_data *d)
-
 {
+    int counter, columns = 0;
 
-  int counter, columns = 0;
+    clear_screen(d);
 
-
-
-  clear_screen(d);
-
-
-
-  for (counter = 0; counter < SKILL_TABLE_SIZE; counter++) {
-
-    if (spell_info[counter].skilltype == SKTYPE_SPELL)
-
-      write_to_output(d, "@g%3d@n) @y%-20.20s@n%s", counter,
-
-               spell_info[counter].name, !(++columns % 3) ? "\r\n" : "");
-
-  }
-
-  write_to_output(d, "@n\r\nEnter spell number (0 is no spell) : ");
-
-  OLC_MODE(d) = OEDIT_SPELLBOOK;
-
-}
-
-
-
-
-
-/*
-
- * Some applies require parameters (skills, feats)
-
- */
-
-void oedit_disp_apply_spec_menu(struct descriptor_data *d)
-
-{
-
-  char *buf;
-  int i, count = 0;
-
-
-  switch (OLC_OBJ(d)->affected[OLC_VAL(d)].location) {
-
-  case APPLY_FEAT:
-
-    for (i = 0; i < NUM_FEATS_DEFINED; i++) {
-      if (feat_list[i].in_game) {
-        count++;
-        write_to_output(d, "%d) %-14.14s ", i, feat_list[i].name);
-        if (count % 4 == 3)
-          write_to_output(d, "\r\n");
-      }
+    for (counter = 0; counter < SKILL_TABLE_SIZE; counter++) 
+    {
+        if (spell_info[counter].skilltype == SKTYPE_SPELL)
+            write_to_output(d, "@g%3d@n) @y%-20.20s@n%s", counter,
+                spell_info[counter].name, !(++columns % 3) ? "\r\n" : "");
     }
-    
-    buf = "\r\n\r\nWhat feat should be modified : ";
 
-    break;
-
-  case APPLY_SKILL:
-
-    buf = "What skill should be modified : ";
-
-    break;
-
-  default:
-
-    oedit_disp_prompt_apply_menu(d);
-
-    return;
-
-  }
-
-
-
-  write_to_output(d, "\r\n%s", buf);
-
-  OLC_MODE(d) = OEDIT_APPLYSPEC;
+    write_to_output(d, "@n\r\nEnter spell number (0 is no spell) : ");
+    OLC_MODE(d) = OEDIT_SPELLBOOK;
 
 }
 
+/*
+ * Some applies require parameters (skills, feats)
+ */
+void oedit_disp_apply_spec_menu(struct descriptor_data *d)
+{
+    char *buf;
+    int i, count = 0;
 
+    switch (OLC_OBJ(d)->affected[OLC_VAL(d)].location) 
+    {
+        case APPLY_FEAT:
+        for (i = 0; i < NUM_FEATS_DEFINED; i++) 
+        {
+            if (feat_list[i].in_game) 
+            {
+                count++;
+                write_to_output(d, "%d) %-14.14s ", i, feat_list[i].name);
+                if (count % 4 == 3)
+                {
+                    write_to_output(d, "\r\n");
+                }
+            }
+        }
+        buf = "\r\n\r\nWhat feat should be modified : ";
+        break;
+        case APPLY_SKILL:
+        buf = "What skill should be modified : ";
+        break;
+        default:
+        oedit_disp_prompt_apply_menu(d);
+        return;
+    }
+
+    write_to_output(d, "\r\n%s", buf);
+    OLC_MODE(d) = OEDIT_APPLYSPEC;
+}
 
 /*
-
  * Ask for liquid type.
-
  */
-
 void oedit_liquid_type(struct descriptor_data *d)
-
 {
+    int counter, columns = 0;
 
-  int counter, columns = 0;
+    clear_screen(d);
 
+    for (counter = 0; counter < NUM_LIQ_TYPES; counter++) 
+    {
+        write_to_output(d, " @g%2d@n) @y%-20.20s@n%s", counter,
+            drinks[counter], !(++columns % 2) ? "\r\n" : "");
+    }
 
-
-  clear_screen(d);
-
-
-
-  for (counter = 0; counter < NUM_LIQ_TYPES; counter++) {
-
-    write_to_output(d, " @g%2d@n) @y%-20.20s@n%s", counter,
-
-	    drinks[counter], !(++columns % 2) ? "\r\n" : "");
-
-  }
-
-  write_to_output(d, "\r\n@nEnter drink type : ");
-
-  OLC_MODE(d) = OEDIT_VALUE_3;
-
+    write_to_output(d, "\r\n@nEnter drink type : ");
+    OLC_MODE(d) = OEDIT_VALUE_3;
 }
 
-
-
 /*
-
  * The actual apply to set.
-
  */
-
 void oedit_disp_apply_menu(struct descriptor_data *d)
-
 {
 
-  int counter, columns = 0;
+    int counter, columns = 0;
+    int rec_level = 0;
 
-  int rec_level;
+    clear_screen(d);
 
+    rec_level =  set_object_level(OLC_OBJ(d));
 
+    write_to_output(d, "\r\nRecommended Item level: Crafted Item: %d, Reg. Mob Drop: %d, Lieut. Mob Drop: %d, Capt. Mob Drop: %d, Boss Mob Drop: %d, Final Boss Mob Drop: %d\r\n\r\n", 
+        rec_level, rec_level + 1, rec_level - 1, rec_level - 2, rec_level - 4, rec_level - 6);
 
-  clear_screen(d);
+    for (counter = 0; counter < NUM_APPLIES; counter++) 
+    {
+        write_to_output(d, "@g%2d@n) %-20.20s %s", counter,
+            apply_types[counter], !(++columns % 2) ? "\r\n" : "");
+    }
 
-
-
-  rec_level =  set_object_level(OLC_OBJ(d));
-
-
-
-  write_to_output(d, "\r\nRecommended Item level: Crafted Item: %d, Reg. Mob Drop: %d, Lieut. Mob Drop: %d, Capt. Mob Drop: %d, Boss Mob Drop: %d, Final Boss Mob Drop: %d\r\n\r\n", 
-                          rec_level, rec_level + 1, rec_level - 1, rec_level - 2, rec_level - 4, rec_level - 6);
-
-
-
-  for (counter = 0; counter < NUM_APPLIES; counter++) {
-
-    write_to_output(d, "@g%2d@n) %-20.20s %s", counter,
-
-		apply_types[counter], !(++columns % 2) ? "\r\n" : "");
-
-  }
-
-  write_to_output(d, "\r\nEnter apply type (0 is no apply) : ");
-
-  OLC_MODE(d) = OEDIT_APPLY;
-
+    write_to_output(d, "\r\nEnter apply type (0 is no apply) : ");
+    OLC_MODE(d) = OEDIT_APPLY;
 }
 
 
@@ -3913,30 +3557,16 @@ void set_weapon_values(struct obj_data *obj, int type)
 }
 
 int set_object_level(struct obj_data *obj)
-
 {
-
   int leveladd = 0;
-
   int levelminus = 0;
-
   int applymod = 0;
-
-
   int mod = 0;
-
   int level = 0;
-
   int i = 0;
 
-
-
   switch(GET_OBJ_TYPE(obj))
-
 	{
-
-
-
 	  case ITEM_SCROLL:
 
             leveladd += MAX(1, ((spell_info[GET_OBJ_VAL(obj, VAL_SCROLL_SPELL1)].spell_level - 1) * 2) + 1) * 100;
