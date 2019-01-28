@@ -60,7 +60,7 @@ void add_poll_option(int pnum, int onum, char *option)
     {
       poll_list[pnum].votes[onum] = 0;
       log("NO RESULT FOUND FOR POLL NUMBER %d OPTION %d", pnum, onum);
-      log(query);
+      log("%s", query);
     }
     else 
     {
@@ -68,7 +68,7 @@ void add_poll_option(int pnum, int onum, char *option)
       {
           poll_list[pnum].votes[onum]++;
           log("RESULT FOR FOR POLL NUMBER %d OPTION %d is %d", pnum, onum, atoi(row[0]));          
-          log(query);
+          log("%s", query);
       }
     }
   }

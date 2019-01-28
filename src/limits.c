@@ -1113,7 +1113,7 @@ void point_update(void)
     free(title);
     if (mysql_query(conn, query)) {
        log("Cannot insert data for %s into player_data table", GET_NAME(i));
-       log(query);
+       log("%s", query);
 
       sprintf(query, "SELECT account FROM player_forum_data WHERE account='%s'", UNCAP(account_name));
       mysql_query(conn, query);

@@ -348,7 +348,7 @@ void exdesc_string_cleanup(struct descriptor_data *d, int action)
   if (action == STRINGADD_ABORT)
     write_to_output(d, "Description aborted.\r\n");
   
-  write_to_output(d, CONFIG_MENU);
+  write_to_output(d, "%s", CONFIG_MENU);
   STATE(d) = CON_MENU;
 }
 

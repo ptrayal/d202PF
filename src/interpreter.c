@@ -4255,7 +4255,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
     send_to_char(d->character, "Thank you.  You may now continue as you were and enter the game if you wish.\r\n");
 
-    write_to_output(d, CONFIG_MENU);
+    write_to_output(d, "%s", CONFIG_MENU);
     STATE(d) = CON_MENU;
     break;
 

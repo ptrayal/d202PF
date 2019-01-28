@@ -98,7 +98,7 @@ struct obj_data *find_control(struct char_data *ch)
     } else {
       sprintf(buf, "%s enters %s.\n\r", vehicle->short_description, 
         vehicle_in_out->short_description);
-      send_to_room(IN_ROOM(vehicle), buf);
+      send_to_room(IN_ROOM(vehicle), "%s", buf);
 
       obj_from_room(vehicle);
       obj_to_room(vehicle, is_going_to);
@@ -106,7 +106,7 @@ struct obj_data *find_control(struct char_data *ch)
       if (ch->desc != NULL)
         look_at_room(is_in, ch, 0);
       sprintf(buf, "%s enters.\r\n", vehicle->short_description);
-      send_to_room(is_in, buf);
+      send_to_room(is_in, "%s", buf);
     }
   }
 }
@@ -128,7 +128,7 @@ void drive_outof_vehicle(struct char_data *ch, struct obj_data *vehicle)
     else 
     {
         sprintf(buf, "%s exits %s.\r\n", vehicle->short_description, vehicle_in_out->short_description);
-        send_to_room(IN_ROOM(vehicle), buf);
+        send_to_room(IN_ROOM(vehicle), "%s", buf);
 
         obj_from_room(vehicle);
         obj_to_room(vehicle, IN_ROOM(vehicle_in_out));
@@ -139,7 +139,7 @@ void drive_outof_vehicle(struct char_data *ch, struct obj_data *vehicle)
         }
 
         sprintf(buf, "%s drives out of %s.\r\n", vehicle->short_description,vehicle_in_out->short_description);
-        send_to_room(IN_ROOM(vehicle), buf);
+        send_to_room(IN_ROOM(vehicle), "%s", buf);
     }
 }
 
@@ -166,7 +166,7 @@ void drive_in_direction(struct char_data *ch, struct obj_data *vehicle, int dir)
           int was_in, is_in;
 
           sprintf(buf, "%s leaves %s.\n\r", vehicle->short_description, dirs[dir]);
-          send_to_room(IN_ROOM(vehicle), buf);
+          send_to_room(IN_ROOM(vehicle), "%s", buf);
 
           was_in = IN_ROOM(vehicle);
           obj_from_room(vehicle);
@@ -178,7 +178,7 @@ void drive_in_direction(struct char_data *ch, struct obj_data *vehicle, int dir)
       look_at_room(is_in, ch, 0);
           sprintf(buf, "%s enters from the %s.\r\n",
                   vehicle->short_description, dirs[rev_dir[dir]]);
-          send_to_room(is_in, buf);
+          send_to_room(is_in, "%s", buf);
       }
 }
 

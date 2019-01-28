@@ -459,7 +459,7 @@ void medit_disp_class(struct descriptor_data *d)
   clear_screen(d);
   for (i = 0; i < NUM_CLASSES; i++) {
     sprintf(buf, "@g%2d@n) %s\r\n", i, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[i]);
-    write_to_output(d, buf);
+    write_to_output(d, "%s", buf);
   }
   write_to_output(d, "Enter class number : ");
 }
@@ -478,7 +478,7 @@ void medit_disp_race(struct descriptor_data *d)
 	      continue;
     sprintf(buf, "@g%2d@n) %-20.20s  %s", i , pc_race_types[i],
                         !(++columns % 2) ? "\r\n" : "");
-    write_to_output(d, buf);
+    write_to_output(d, "%s", buf);
   }
   write_to_output(d, "Enter race number : ");
 }
@@ -497,7 +497,7 @@ void medit_disp_size(struct descriptor_data *d)
     sprintf(buf, "@g%2d@n) %-20.20s  %s", i ,
             (i == SIZE_UNDEFINED) ? "DEFAULT" : size_names[i],
                         !(++columns % 2) ? "\r\n" : "");
-    write_to_output(d, buf);
+    write_to_output(d, "%s", buf);
   }
   write_to_output(d, "Enter size number (-1 for default): ");
 }
@@ -506,9 +506,8 @@ void medit_skin_data(struct descriptor_data *d, int i)
 {
   char buf[MAX_STRING_LENGTH]={'\0'};
  
-sprintf(buf, "Enter a VNUM for object (slot number %i of 4 slots) to be loaded when this mob's\r\n"
-          , i);    
- send_to_char(d->character, buf);
+sprintf(buf, "Enter a VNUM for object (slot number %i of 4 slots) to be loaded when this mob's\r\n", i);    
+ send_to_char(d->character, "%s", buf);
  send_to_char(d->character, "corpse is skinned: ");
  return; 
 }    

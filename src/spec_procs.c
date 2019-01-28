@@ -5116,52 +5116,52 @@ SPECIAL(dartboard)
         strcpy(highscorename, GET_NAME(ch));
       }
       sprintf(buf, "You throw a dart and score %d!\r\n", dart1);
-      send_to_char(ch, buf);
+      send_to_char(ch, "%s", buf);
       to = world[IN_ROOM(ch)].people;
       for (; to; to = to->next_in_room) {
         if (to != ch) {
           sprintf(buf, "%s throws a dart and scores a %d!\r\n", PERS(ch, to), dart1);
-          send_to_char(to, buf);
+          send_to_char(to, "%s", buf);
         }
       }
 
       sprintf(buf, "You throw a dart and score %d!\r\n", dart2);
-      send_to_char(ch, buf);
+      send_to_char(ch, "%s", buf);
       to = world[ch->in_room].people;
       for (; to; to = to->next_in_room) {
         if (to != ch) {
           sprintf(buf,"%s throws a dart and scores a %d!\r\n", PERS(ch, to), dart2);
-          send_to_char(to, buf);
+          send_to_char(to, "%s", buf);
         }
       }
 
       sprintf(buf, "You throw a dart and score %d!\r\n", dart3);
-      send_to_char(ch, buf);
+      send_to_char(ch, "%s", buf);
       to = world[ch->in_room].people;
       for (; to; to = to->next_in_room) {
         if (to != ch) {
           sprintf(buf,"%s throws a dart and scores a %d!\r\n", PERS(ch, to), dart3);
-          send_to_char(to, buf);
+          send_to_char(to, "%s", buf);
         }
       }
 
       sprintf(buf, "Your total score for this game is %d.\r\n\r\n", score);
-      send_to_char(ch, buf);
+      send_to_char(ch, "%s", buf);
       to = world[ch->in_room].people;
       for (; to; to = to->next_in_room) {
         if (to != ch) {
           sprintf(buf,"The total score for %s this game is %d!\r\n", PERS(ch, to), score);
-          send_to_char(to, buf);
+          send_to_char(to, "%s", buf);
         }
       }
 
       sprintf(buf, "The highest score is %d held by %s.\r\n\r\n", highscore, highscorename);
-      send_to_char(ch, buf);
+      send_to_char(ch, "%s", buf);
       to = world[ch->in_room].people;
       for (; to; to = to->next_in_room) {
         if (to != ch) {
           sprintf(buf,"The highest score is held by %s at %d.\r\n", highscorename, highscore);
-          send_to_char(to, buf);
+          send_to_char(to, "%s", buf);
         }
       }
 
@@ -5805,14 +5805,14 @@ SPECIAL(emporium)
     }
 
     if (!*arg3) {
-      send_to_char(ch, list_bonus_types());
+      send_to_char(ch, "%s", list_bonus_types());
     send_to_char(ch, "@YPlease note that bonuses of the same type @RDO NOT@Y stack in d20 rules.\r\n");
       return 1;
     }
 
     if ((bt = get_bonus_type_int(arg3)) == 0) {
       send_to_char(ch, "That's an invalid bonus type.\r\n\r\n");
-      send_to_char(ch, list_bonus_types());
+      send_to_char(ch, "%s", list_bonus_types());
     send_to_char(ch, "@YPlease note that bonuses of the same type @RDO NOT@Y stack in d20 rules.\r\n");
       return 1;
     }
@@ -5923,14 +5923,14 @@ SPECIAL(emporium)
     }
 
     if (!*arg3) {
-      send_to_char(ch, list_bonus_types());
+      send_to_char(ch, "%s", list_bonus_types());
     send_to_char(ch, "@YPlease note that bonuses of the same type @RDO NOT@Y stack in d20 rules.\r\n");
       return 1;
     }
 
     if ((bt = get_bonus_type_int(arg3)) == 0) {
       send_to_char(ch, "That's an invalid bonus type.\r\n\r\n");
-      send_to_char(ch, list_bonus_types());
+      send_to_char(ch, "%s", list_bonus_types());
     send_to_char(ch, "@YPlease note that bonuses of the same type @RDO NOT@Y stack in d20 rules.\r\n");
       return 1;
     }
