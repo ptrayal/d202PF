@@ -379,7 +379,8 @@ char *fread_action(FILE *fl, int nr)
   trash = fgets(buf, MAX_STRING_LENGTH, fl);
 
 
-  if (feof(fl)) {
+  if (feof(fl)) 
+  {
     log("SYSERR: fread_action: unexpected EOF near action #%d", nr);
     /*  SYSERR_DESC:
      *  fread_action() will fail if it discovers an end of file marker
@@ -388,6 +389,7 @@ char *fread_action(FILE *fl, int nr)
      */
     exit(1);
   }
+  
   if (*buf == '#')
     return (NULL);
 

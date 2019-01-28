@@ -1692,16 +1692,14 @@ ACMD(do_syslog)
 /* (c) 1996-97 Erwin S. Andreasen <erwin@pip.dknet.dk> */
 ACMD(do_copyover)
 {
-  int itrash = 0;
   extern int circle_copyover;
-
-#ifdef CIRCLE_WINDOWS
-  send_to_char(ch, "Copyover is not available for Windows.\r\n");
-#else
   FILE *fp;
   struct descriptor_data *d, *d_next;
   char buf [500]={'\0'}, buf2[100]={'\0'};
-	
+  
+#ifdef CIRCLE_WINDOWS
+  send_to_char(ch, "Copyover is not available for Windows.\r\n");
+#else
   fp = fopen (COPYOVER_FILE, "w");
 	
   if (!fp) 
@@ -1803,7 +1801,6 @@ GET_NAME(ch));
 	
   sprintf (buf, "%d", port);
   sprintf (buf2, "-C%d", mother_desc);
-  itrash = chdir ("..");
   execl (EXE_FILE, "circle", buf2, buf, (char *) NULL);
   /* Failed - sucessful exec will not return */
 	

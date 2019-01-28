@@ -1976,7 +1976,8 @@ void award_misc_magic_item(struct char_data *ch, int grade, int moblevel) {
   
 }
 
-int choose_metal_material(void) {
+int choose_metal_material(void) 
+{
 
   int roll = dice(1, 9);
 

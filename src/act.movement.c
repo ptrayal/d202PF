@@ -152,7 +152,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   char buf2[MAX_STRING_LENGTH]={'\0'};
   room_rnum was_in = IN_ROOM(ch);
   int need_movement;
-  int riding = 0, ridden_by = 0, same_room = 0;
+  int riding = 0, ridden_by = 0;
   int speed = 30;
   int explore_bonus = FALSE;
   int athletics = 0;
@@ -168,12 +168,6 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
     ridden_by = 1;
 
  
-  /* if they're mounted, are they in the same room w/ their mount(ee)? */
-  if (riding && RIDING(ch)->in_room == ch->in_room)
-    same_room = 1;
-  else if (ridden_by && RIDDEN_BY(ch)->in_room == ch->in_room)
-    same_room = 1;  
-  
   /*
    * Check for special routines (North is 1 in command list, but 0 here) Note
    * -- only check if following; this avoids 'double spec-proc' bug
@@ -1706,145 +1700,144 @@ ACMD(do_buck) {
    */
 }
 
-ACMD(do_tame) {
-  char arg[MAX_INPUT_LENGTH];
-  char arg2[MAX_STRING_LENGTH];
-  struct affected_type af;
-  struct char_data *vict;
-  int percent, chance;
-  struct follow_type *f;
-  int j = 0;
+ACMD(do_tame) 
+{
+    char arg[MAX_INPUT_LENGTH];
+    char arg2[MAX_STRING_LENGTH];
+    struct affected_type af;
+    struct char_data *vict;
+    int chance = 0;
+    struct follow_type *f;
+    int j = 0;
 
-  percent = dice(1, 101) - GET_CHA(ch) ;
+    two_arguments(argument, arg, arg2);
 
-  two_arguments(argument, arg, arg2);
+    if (!*arg) {
+        OUTPUT_TO_CHAR("Tame who?\r\n", ch);
+        return;
+    } else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
+        OUTPUT_TO_CHAR("They're not here.\r\n", ch);
+        return;
+    } else if (!IS_NPC(vict)) {
+        send_to_char(ch, "You can only tame mobs.\r\n");
+        return;
+    } else if (*arg2) {
+        if (race_list[GET_RACE(vict)].family != RACE_TYPE_ANIMAL)  {
+            send_to_char(ch, "Only animals can be tamed to be familiars or animal companions.\r\n");
+            return;
+        }
+        if (is_abbrev(arg2, "companion")) {
+            if (!HAS_FEAT(ch, FEAT_ANIMAL_COMPANION)) {
+                send_to_char(ch, "You can't choose an animal companion.\r\n");
+                return;
+            }
+            for (f = ch->followers; f; f = f->next) {
+                if (IS_NPC(f->follower) && AFF_FLAGGED(f->follower, AFF_CHARM)) {
+                    if (GET_MOB_VNUM(f->follower) == GET_COMPANION_VNUM(ch))  {
+                        send_to_char(ch, "You have already called your animal companion.\r\n");
+                        return;
+                    }
+                }    
+            }	  
+            GET_COMPANION_VNUM(ch) = GET_MOB_VNUM(vict);
+            SET_BIT_AR(AFF_FLAGS(vict), AFF_CHARM);
+            GET_HITDICE(vict) = 1;
+            GET_MAX_HIT(vict) = 0;
+            for (j = 0; j <= GET_HITDICE(vict); j++)
+                advance_mob_level(vict, GET_CLASS(vict));	  
+            set_auto_mob_stats(vict);
+        }
+        else if (is_abbrev(arg2, "familiar")) {
+            if (!HAS_FEAT(ch, FEAT_SUMMON_FAMILIAR)) {
+                send_to_char(ch, "You can't choose a familar.\r\n");
+                return;
+            }
+            for (f = ch->followers; f; f = f->next) {
+                if (IS_NPC(f->follower) && AFF_FLAGGED(f->follower, AFF_CHARM)) {
+                    if (GET_MOB_VNUM(f->follower) == GET_FAMILIAR_VNUM(ch))  {
+                        send_to_char(ch, "You have already called your familiar.\r\n");
+                        return;
+                    }
+                }    
+            }	  
+            GET_FAMILIAR_VNUM(ch) = GET_MOB_VNUM(vict);
+            SET_BIT_AR(AFF_FLAGS(vict), AFF_CHARM);
+            GET_HITDICE(vict) = 1;
+            GET_MAX_HIT(vict) = 0;
+            for (j = 0; j <= GET_HITDICE(vict); j++)
+                advance_mob_level(vict, GET_CLASS(vict));	  
+            set_auto_mob_stats(vict);
+            set_familiar_stats(vict);
+        }	
+    } else if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT && IS_NPC(vict) && !MOB_FLAGGED(vict, MOB_MOUNTABLE)) {
+        OUTPUT_TO_CHAR("You can't do that to them.\r\n", ch);
+        return;
+    } else if (!GET_SKILL(ch, SKILL_HANDLE_ANIMAL)) {
+        OUTPUT_TO_CHAR("You don't even know how to tame something.\r\n", ch);
+        return;
+    } else if (!IS_NPC(vict) && GET_ADMLEVEL(ch) < ADMLVL_IMMORT) {
+        OUTPUT_TO_CHAR("You can't do that.\r\n", ch);
+        return;
+    } else if (RIDING(vict) || RIDDEN_BY(vict)) {
+        OUTPUT_TO_CHAR("But they are mounted by someone!\r\n", ch);
+        return;
+    } else if (IS_AFFECTED(vict, AFF_CHARM) && vict->master != ch ){
+        OUTPUT_TO_CHAR("They have already a master.\r\n", ch);
+        return;
+    }
+    else if (IS_AFFECTED(vict, AFF_TAMED) && vict->master != ch){
+        OUTPUT_TO_CHAR("They have already a master.\r\n", ch);
+        return;
+    }
+    else if ((IS_AFFECTED(vict, AFF_CHARM) || IS_AFFECTED(vict, AFF_TAMED)) && vict->master == ch ){
+        OUTPUT_TO_CHAR("You've already tamed them!\r\n", ch);
+        return;
+    } else if (IS_AFFECTED(ch, AFF_CHARM)){
+        OUTPUT_TO_CHAR("Your master might not approve of that!.\r\n", ch);
+        return;
+    } else if (skill_roll(ch, SKILL_HANDLE_ANIMAL) < 15)  {
+        OUTPUT_TO_CHAR("You fail to tame it.\r\n", ch);
 
-  if (!*arg) {
-    OUTPUT_TO_CHAR("Tame who?\r\n", ch);
-    return;
-  } else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
-    OUTPUT_TO_CHAR("They're not here.\r\n", ch);
-    return;
-  } else if (!IS_NPC(vict)) {
-    send_to_char(ch, "You can only tame mobs.\r\n");
-	return;
-  } else if (*arg2) {
-    if (race_list[GET_RACE(vict)].family != RACE_TYPE_ANIMAL)  {
-	  send_to_char(ch, "Only animals can be tamed to be familiars or animal companions.\r\n");
-	  return;
-	}
-    if (is_abbrev(arg2, "companion")) {
-	  if (!HAS_FEAT(ch, FEAT_ANIMAL_COMPANION)) {
-	    send_to_char(ch, "You can't choose an animal companion.\r\n");
-		return;
-	  }
-      for (f = ch->followers; f; f = f->next) {
-        if (IS_NPC(f->follower) && AFF_FLAGGED(f->follower, AFF_CHARM)) {
-	      if (GET_MOB_VNUM(f->follower) == GET_COMPANION_VNUM(ch))  {
-	        send_to_char(ch, "You have already called your animal companion.\r\n");
-		    return;
-	      }
-        }    
-      }	  
-	  GET_COMPANION_VNUM(ch) = GET_MOB_VNUM(vict);
-	  SET_BIT_AR(AFF_FLAGS(vict), AFF_CHARM);
-      GET_HITDICE(vict) = 1;
-      GET_MAX_HIT(vict) = 0;
-      for (j = 0; j <= GET_HITDICE(vict); j++)
-        advance_mob_level(vict, GET_CLASS(vict));	  
-      set_auto_mob_stats(vict);
-	}
-    else if (is_abbrev(arg2, "familiar")) {
-	  if (!HAS_FEAT(ch, FEAT_SUMMON_FAMILIAR)) {
-	    send_to_char(ch, "You can't choose a familar.\r\n");
-		return;
-	  }
-      for (f = ch->followers; f; f = f->next) {
-        if (IS_NPC(f->follower) && AFF_FLAGGED(f->follower, AFF_CHARM)) {
-	      if (GET_MOB_VNUM(f->follower) == GET_FAMILIAR_VNUM(ch))  {
-	        send_to_char(ch, "You have already called your familiar.\r\n");
-		    return;
-	      }
-        }    
-      }	  
-	  GET_FAMILIAR_VNUM(ch) = GET_MOB_VNUM(vict);
-	  SET_BIT_AR(AFF_FLAGS(vict), AFF_CHARM);
-      GET_HITDICE(vict) = 1;
-      GET_MAX_HIT(vict) = 0;
-      for (j = 0; j <= GET_HITDICE(vict); j++)
-        advance_mob_level(vict, GET_CLASS(vict));	  
-      set_auto_mob_stats(vict);
-	  set_familiar_stats(vict);
-	}	
-  } else if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT && IS_NPC(vict) && !MOB_FLAGGED(vict, MOB_MOUNTABLE)) {
-    OUTPUT_TO_CHAR("You can't do that to them.\r\n", ch);
-    return;
-  } else if (!GET_SKILL(ch, SKILL_HANDLE_ANIMAL)) {
-    OUTPUT_TO_CHAR("You don't even know how to tame something.\r\n", ch);
-    return;
-  } else if (!IS_NPC(vict) && GET_ADMLEVEL(ch) < ADMLVL_IMMORT) {
-    OUTPUT_TO_CHAR("You can't do that.\r\n", ch);
-    return;
-  } else if (RIDING(vict) || RIDDEN_BY(vict)) {
-    OUTPUT_TO_CHAR("But they are mounted by someone!\r\n", ch);
-    return;
-  } else if (IS_AFFECTED(vict, AFF_CHARM) && vict->master != ch ){
-    OUTPUT_TO_CHAR("They have already a master.\r\n", ch);
-    return;
-  }
-  else if (IS_AFFECTED(vict, AFF_TAMED) && vict->master != ch){
-    OUTPUT_TO_CHAR("They have already a master.\r\n", ch);
-    return;
-  }
-  else if ((IS_AFFECTED(vict, AFF_CHARM) || IS_AFFECTED(vict, AFF_TAMED)) && vict->master == ch ){
-    OUTPUT_TO_CHAR("You've already tamed them!\r\n", ch);
-    return;
-  } else if (IS_AFFECTED(ch, AFF_CHARM)){
-    OUTPUT_TO_CHAR("Your master might not approve of that!.\r\n", ch);
-    return;
-  } else if (skill_roll(ch, SKILL_HANDLE_ANIMAL) < 15)  {
-    OUTPUT_TO_CHAR("You fail to tame it.\r\n", ch);
+        chance = dice(1, 10);
 
-    chance = dice(1, 10);
+        if (chance <= 3) {
+            send_to_char(ch, "The animal becomes angry from your actions and attacks!\r\n");
+            hit(vict, ch, TYPE_UNDEFINED);
+        }
 
-    if (chance <= 3) {
-      send_to_char(ch, "The animal becomes angry from your actions and attacks!\r\n");
-      hit(vict, ch, TYPE_UNDEFINED);
+        return;
     }
 
-    return;
-  }
-
- else {
+    else {
 /*
-    if (!allowNewFollower(ch, 3))
-    {
-      return;
-    }
+if (!allowNewFollower(ch, 3))
+{
+return;
+}
 */
-    if (vict->master)
-      stop_follower(vict);
+        if (vict->master)
+            stop_follower(vict);
 
-    add_follower(vict, ch);
+        add_follower(vict, ch);
 
-    af.type      = SPELL_CHARM;
-    af.duration  = -1;
-    af.modifier  = 0;
-    af.location  = APPLY_NONE;
-    af.bitvector = AFF_TAMED;
+        af.type      = SPELL_CHARM;
+        af.duration  = -1;
+        af.modifier  = 0;
+        af.location  = APPLY_NONE;
+        af.bitvector = AFF_TAMED;
 
- affect_join(vict, &af, FALSE, FALSE, FALSE, FALSE);
+        affect_join(vict, &af, FALSE, FALSE, FALSE, FALSE);
 
-    act("You tame $N.", FALSE, ch, 0, vict, TO_CHAR);
-    act("$n tames you.", FALSE, ch, 0, vict, TO_VICT);
-    act("$n tames $N.", FALSE, ch, 0, vict, TO_NOTVICT);
+        act("You tame $N.", FALSE, ch, 0, vict, TO_CHAR);
+        act("$n tames you.", FALSE, ch, 0, vict, TO_VICT);
+        act("$n tames $N.", FALSE, ch, 0, vict, TO_NOTVICT);
 
 
-    if (IS_NPC(vict)) {
-      REMOVE_BIT_AR(MOB_FLAGS(vict), MOB_AGGRESSIVE);
-      REMOVE_BIT_AR(MOB_FLAGS(vict), MOB_SPEC);
-}
-}
+        if (IS_NPC(vict)) {
+            REMOVE_BIT_AR(MOB_FLAGS(vict), MOB_AGGRESSIVE);
+            REMOVE_BIT_AR(MOB_FLAGS(vict), MOB_SPEC);
+        }
+    }
 
 }
 

@@ -1586,13 +1586,11 @@ void get_from_room(struct char_data *ch, char *arg, int howmany)
   }
 }
 
-
-
 ACMD(do_get)
 {
-  char arg1[MAX_INPUT_LENGTH];
-  char arg2[MAX_INPUT_LENGTH];
-  char arg3[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'};
+  char arg2[MAX_INPUT_LENGTH]={'\0'};
+  char arg3[MAX_INPUT_LENGTH]={'\0'};
 
   int cont_dotmode, found = 0, mode;
   struct obj_data *cont;
@@ -1665,8 +1663,7 @@ ACMD(do_get)
 }
 
 
-void perform_drop_gold(struct char_data *ch, int amount,
-		            byte mode, room_rnum RDR)
+void perform_drop_gold(struct char_data *ch, int amount, byte mode, room_rnum RDR)
 {
   struct obj_data *obj;
 
@@ -1720,8 +1717,7 @@ void perform_drop_gold(struct char_data *ch, int amount,
 #define VANISH(mode) ((mode == SCMD_DONATE || mode == SCMD_JUNK) ? \
 		      "  It vanishes in a puff of smoke!" : "")
 
-int perform_drop(struct char_data *ch, struct obj_data *obj,
-		     byte mode, const char *sname, room_rnum RDR)
+int perform_drop(struct char_data *ch, struct obj_data *obj, byte mode, const char *sname, room_rnum RDR)
 {
   char buf[MAX_STRING_LENGTH]={'\0'};
   int value = 0;
@@ -1774,10 +1770,9 @@ int perform_drop(struct char_data *ch, struct obj_data *obj,
 }
 
 
-
 ACMD(do_drop)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj, *next_obj;
   room_rnum RDR = 0;
   byte mode = SCMD_DROP;
@@ -1972,7 +1967,7 @@ void perform_give_gold(struct char_data *ch, struct char_data *vict, int amount)
 
 ACMD(do_give)
 {
-  char arg[MAX_STRING_LENGTH];
+  char arg[MAX_STRING_LENGTH]={'\0'};
   int amount, dotmode;
   struct char_data *vict;
   struct obj_data *obj, *next_obj;
@@ -2128,7 +2123,7 @@ void name_to_drinkcon(struct obj_data *obj, int type)
 
 ACMD(do_drink)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *temp;
   struct affected_type af;
   int amount, weight;
@@ -2251,10 +2246,10 @@ ACMD(do_drink)
 
 ACMD(do_eat)
 {
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *food;
   struct affected_type af;
-  int amount;
+  int amount = 0;
 
   one_argument(argument, arg);
 
@@ -2328,7 +2323,8 @@ ACMD(do_eat)
 
 ACMD(do_pour)
 {
-  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'};
+  char arg2[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *from_obj = NULL, *to_obj = NULL;
   int amount = 0;
 
@@ -2632,7 +2628,7 @@ void wear_message(struct char_data *ch, struct obj_data *obj, int where)
 
 int hands(struct char_data * ch)
 {
-  int x;
+  int x = 0;
 
   if (GET_EQ(ch, WEAR_WIELD1)) {
     if ((GET_EQ(ch, WEAR_WIELD) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD), 0)].weaponFlags, WEAPON_FLAG_DOUBLE)) ||
@@ -2893,8 +2889,8 @@ int find_eq_pos(struct char_data *ch, struct obj_data *obj, char *arg)
 
 ACMD(do_wear)
 {
-  char arg1[MAX_INPUT_LENGTH];
-  char arg2[MAX_INPUT_LENGTH];
+  char arg1[MAX_INPUT_LENGTH]={'\0'};
+  char arg2[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj, *next_obj;
   int where, dotmode, items_worn = 0;
 
@@ -3013,7 +3009,7 @@ ACMD(do_wield)
       return;
   }
 
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj;
 
   one_argument(argument, arg);
@@ -3049,7 +3045,7 @@ ACMD(do_grab)
       return;
   }
 
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   struct obj_data *obj;
 
   one_argument(argument, arg);
@@ -3106,13 +3102,14 @@ void perform_remove(struct char_data *ch, int pos)
 ACMD(do_remove)
 {
 
-  if (AFF_FLAGGED(ch, AFF_WILD_SHAPE)) {
+  if (AFF_FLAGGED(ch, AFF_WILD_SHAPE)) 
+  {
       send_to_char(ch, "You cannot do this while wild shaped.\r\n");
       return;
   }
 
   struct obj_data *obj;
-  char arg[MAX_INPUT_LENGTH];
+  char arg[MAX_INPUT_LENGTH]={'\0'};
   int i, dotmode, found = 0, msg;
 
   one_argument(argument, arg);
@@ -3188,7 +3185,7 @@ ACMD(do_remove)
 
 ACMD(do_sac) 
 { 
-   char arg[MAX_INPUT_LENGTH]; 
+   char arg[MAX_INPUT_LENGTH]={'\0'};
    struct obj_data *j, *jj, *next_thing2; 
 
   one_argument(argument, arg); 
@@ -3498,10 +3495,9 @@ int calculate_container_weight(struct obj_data *obj2) {
 
 ACMD(do_lore)
 {
-
+  char arg[MAX_STRING_LENGTH]={'\0'};
   struct obj_data *obj;
   int roll = 0, dc = 0;
-  char arg[MAX_STRING_LENGTH];
   int skill = 0;
 
   one_argument(argument, arg);
@@ -3658,81 +3654,81 @@ void check_auction(void)
 
 ACMD(do_auction)
 {
-	char arg1[MAX_INPUT_LENGTH];
-  char arg2[MAX_INPUT_LENGTH];
-	struct obj_data *obj;
-	int bid = 0;
-	
-	two_arguments(argument, arg1, arg2);
-	
-	if (!*arg1) {
-		send_to_char(ch, "Auction what?\r\n");
-		return;
-	}
-	else if (is_abbrev(arg1, "cancel") || is_abbrev(arg1, "stop"))
-	{
-		if ((ch != ch_selling && GET_ADMLEVEL(ch) < ADMLVL_GRGOD) || aucstat == AUC_NULL_STATE)
-		{
-			send_to_char(ch, "You're not even selling anything!\r\n");
-			return;
-		}
-		else if (ch == ch_selling)
-		{
-			stop_auction(AUC_NORMAL_CANCEL, NULL);
-			return;
-		}
-		else
-		{
-			stop_auction(AUC_WIZ_CANCEL, ch);
-		}
-	}
-	else if (is_abbrev(arg1, "stats") || is_abbrev(arg1, "identify"))
-	{
-		auc_stat(ch, obj_selling);
-		return;
-	}
-	else if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying))) {
-		sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg1), arg1);
-		send_to_char(ch, "%s", buf);
-		return;
-	}
-	else if (!OBJ_FLAGGED(obj, ITEM_IDENTIFIED)) {
-           send_to_char(ch, "You can only auction off an item that has been identified.\r\n");
-           return;
+    char arg1[MAX_INPUT_LENGTH]={'\0'};
+    char arg2[MAX_INPUT_LENGTH]={'\0'};
+    struct obj_data *obj;
+    int bid = 0;
+
+    two_arguments(argument, arg1, arg2);
+
+    if (!*arg1) {
+        send_to_char(ch, "Auction what?\r\n");
+        return;
+    }
+    else if (is_abbrev(arg1, "cancel") || is_abbrev(arg1, "stop"))
+    {
+        if ((ch != ch_selling && GET_ADMLEVEL(ch) < ADMLVL_GRGOD) || aucstat == AUC_NULL_STATE)
+        {
+            send_to_char(ch, "You're not even selling anything!\r\n");
+            return;
         }
-	else if (!*arg2 && (bid = GET_OBJ_COST(obj)) <= 0) {
-		sprintf(buf, "What should be the minimum bid?\r\n");
-		send_to_char(ch, "%s", buf);
-		return;
-	}
-	else if (*arg2 && (bid = atoi(arg2)) <= 0)
-	{
-		send_to_char(ch, "Come on? One coin at least?\r\n");
-		return;
-	}
-	else if (aucstat != AUC_NULL_STATE) {
-		sprintf(buf, "Sorry, but %s is already auctioning %s at %d coins!\r\n", GET_NAME(ch_selling),
-				obj_selling->short_description, bid);
-		send_to_char(ch, "%s", buf);
-		return;
-	}
-	else if (OBJ_FLAGGED(obj, ITEM_NOSELL))
-	{
-		send_to_char(ch, "Sorry but you can't sell that!\r\n");
-		return;
-	}
-	else 
-	{
-		send_to_char(ch, "%s", CONFIG_OK);
-		start_auction(ch, obj, bid);
-		return;
-	}
+        else if (ch == ch_selling)
+        {
+            stop_auction(AUC_NORMAL_CANCEL, NULL);
+            return;
+        }
+        else
+        {
+            stop_auction(AUC_WIZ_CANCEL, ch);
+        }
+    }
+    else if (is_abbrev(arg1, "stats") || is_abbrev(arg1, "identify"))
+    {
+        auc_stat(ch, obj_selling);
+        return;
+    }
+    else if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying))) {
+        sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg1), arg1);
+        send_to_char(ch, "%s", buf);
+        return;
+    }
+    else if (!OBJ_FLAGGED(obj, ITEM_IDENTIFIED)) {
+        send_to_char(ch, "You can only auction off an item that has been identified.\r\n");
+        return;
+    }
+    else if (!*arg2 && (bid = GET_OBJ_COST(obj)) <= 0) {
+        sprintf(buf, "What should be the minimum bid?\r\n");
+        send_to_char(ch, "%s", buf);
+        return;
+    }
+    else if (*arg2 && (bid = atoi(arg2)) <= 0)
+    {
+        send_to_char(ch, "Come on? One coin at least?\r\n");
+        return;
+    }
+    else if (aucstat != AUC_NULL_STATE) {
+        sprintf(buf, "Sorry, but %s is already auctioning %s at %d coins!\r\n", GET_NAME(ch_selling),
+            obj_selling->short_description, bid);
+        send_to_char(ch, "%s", buf);
+        return;
+    }
+    else if (OBJ_FLAGGED(obj, ITEM_NOSELL))
+    {
+        send_to_char(ch, "Sorry but you can't sell that!\r\n");
+        return;
+    }
+    else 
+    {
+        send_to_char(ch, "%s", CONFIG_OK);
+        start_auction(ch, obj, bid);
+        return;
+    }
 }
 
 ACMD(do_bid)
 {
-	char arg[MAX_INPUT_LENGTH];
-	int bid;
+	char arg[MAX_INPUT_LENGTH]={'\0'};
+	int bid = 0;
 
 	if(IS_NPC(ch))
 		return;
@@ -3909,67 +3905,69 @@ void auc_send_to_all(char *messg, bool buyer)
 
 ACMD(do_binditem) 
 {
-  char arg[200];
-  struct obj_data *obj;
+    char arg[200]={'\0'};
+    struct obj_data *obj;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg) {
-    send_to_char(ch, "What item from your inventory would you like to bind?\r\n");
-    return;
-  }
-
-  if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
-    send_to_char(ch, "You don't seem to have an item by that description in your inventory.  Have you removed it yet?\r\n");
-    return;
-  }
-
-  int cost = GET_OBJ_LEVEL(obj) * 100;
-
-  if (GET_OBJ_VAL(obj, 13) == GET_IDNUM(ch)) {
-    send_to_char(ch, "You have already bound this item to yourself.\r\n");
-    return;
-  } else if (GET_OBJ_VAL(obj, 13) != 0) {
-    send_to_char(ch, "This item has been bound to someone else and will forever be unusable to others.\r\n");
-    return;
-  }
-
-  if (GET_GOLD(ch) < cost) {
-    send_to_char(ch, "You need %d %s to bind this item, but you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
-    return;
-  }
-
-  gain_gold(ch, -cost, GOLD_ONHAND);
-
-  if (GET_OBJ_VAL(obj, 13) == 0) {
-
-    int val = 0;
-    int mult = 1;
-    int i = 0;
-
-    for (i = 0; i < MAX_OBJ_AFFECT; i++) {
-      if ((obj->affected[i].location != APPLY_NONE) &&
-          (obj->affected[i].modifier != 0)) {
-
-        mult = 1;
-        val = obj->affected[i].location;
-
-        if (val == APPLY_AC_DEFLECTION || val == APPLY_AC_SHIELD || val == APPLY_AC_NATURAL || val == APPLY_AC_DEFLECTION || val == APPLY_AC_DODGE || val == APPLY_AC_ARMOR)
-          mult = 10;
-        if (val == APPLY_HIT)
-          mult = 5;
-        if (val == APPLY_KI)
-          mult = 5;
-        if (val == APPLY_MOVE)
-          mult = 100;
-
-        obj->affected[i].modifier += mult;
-        
-      }
+    if (!*arg) {
+        send_to_char(ch, "What item from your inventory would you like to bind?\r\n");
+        return;
     }
-  }
 
-  GET_OBJ_VAL(obj, 13) = GET_IDNUM(ch);
+    if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
+        send_to_char(ch, "You don't seem to have an item by that description in your inventory.  Have you removed it yet?\r\n");
+        return;
+    }
 
-  send_to_char(ch, "%s has been successfully bound to you for %d %s.\r\n", (obj->short_description), cost, MONEY_STRING);
-  }
+    int cost = GET_OBJ_LEVEL(obj) * 100;
+
+    if (GET_OBJ_VAL(obj, 13) == GET_IDNUM(ch)) {
+        send_to_char(ch, "You have already bound this item to yourself.\r\n");
+        return;
+    } else if (GET_OBJ_VAL(obj, 13) != 0) {
+        send_to_char(ch, "This item has been bound to someone else and will forever be unusable to others.\r\n");
+        return;
+    }
+
+    if (GET_GOLD(ch) < cost) {
+        send_to_char(ch, "You need %d %s to bind this item, but you only have %d on hand.\r\n", cost, MONEY_STRING, GET_GOLD(ch));
+        return;
+    }
+
+    gain_gold(ch, -cost, GOLD_ONHAND);
+
+    if (GET_OBJ_VAL(obj, 13) == 0) {
+
+        int val = 0;
+        int mult = 1;
+        int i = 0;
+
+        for (i = 0; i < MAX_OBJ_AFFECT; i++) 
+        {
+            if ((obj->affected[i].location != APPLY_NONE) &&
+                (obj->affected[i].modifier != 0)) 
+            {
+
+                mult = 1;
+                val = obj->affected[i].location;
+
+                if (val == APPLY_AC_DEFLECTION || val == APPLY_AC_SHIELD || val == APPLY_AC_NATURAL || val == APPLY_AC_DEFLECTION || val == APPLY_AC_DODGE || val == APPLY_AC_ARMOR)
+                    mult = 10;
+                if (val == APPLY_HIT)
+                    mult = 5;
+                if (val == APPLY_KI)
+                    mult = 5;
+                if (val == APPLY_MOVE)
+                    mult = 100;
+
+                obj->affected[i].modifier += mult;
+
+            }
+        }
+    }
+
+    GET_OBJ_VAL(obj, 13) = GET_IDNUM(ch);
+
+    send_to_char(ch, "%s has been successfully bound to you for %d %s.\r\n", (obj->short_description), cost, MONEY_STRING);
+}

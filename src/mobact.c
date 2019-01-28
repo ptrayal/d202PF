@@ -58,294 +58,336 @@ bool aggressive_mob_on_a_leash(struct char_data *slave, struct char_data *master
 
 void mobile_activity(void)
 {
-  struct char_data *ch, *next_ch, *vict;
-  struct obj_data *obj, *best_obj;
-  int door, found = FALSE, max;
-  memory_rec *names;
-  int spell_mod = 0, max_hit_dice = 0;
-  struct affected_type *af = NULL;
-  int spell_cast = FALSE;
+    struct char_data *ch, *next_ch, *vict;
+    struct obj_data *obj, *best_obj;
+    int door, found = FALSE, max;
+    memory_rec *names;
+    int spell_mod = 0, max_hit_dice = 0;
+    struct affected_type *af = NULL;
 
-  for (ch = character_list; ch; ch = next_ch) 
-  {
-    next_ch = ch->next;
+    for (ch = character_list; ch; ch = next_ch) 
+    {
+        next_ch = ch->next;
 
-    spell_cast = FALSE;
-
-    if (!ch)
-      continue;
-
- if (ch && !IS_MOB(ch))
-      continue;
-
-    /* Examine call for special procedure */
- if (MOB_FLAGGED(ch, MOB_SPEC) && !no_specials) {
-      if (mob_index[GET_MOB_RNUM(ch)].func == NULL) 
-      {
-          log("SYSERR: %s (#%d): Attempting to call non-existing mob function.",
-               GET_NAME(ch), GET_MOB_VNUM(ch));
-          REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_SPEC);
-     } 
-     else 
-     {
-        char actbuf[MAX_INPUT_LENGTH] = "";
-        if ((mob_index[GET_MOB_RNUM(ch)].func) (ch, ch, 0, actbuf))
-       continue;         /* go to next char */
-   }
-}
-
-    /* If the mob has no specproc, do the default actions */
-
-if (!AWAKE(ch))
-    continue;
-
-if (IN_ROOM(ch) == NOWHERE)
-    continue;
-
-if (FIGHTING(ch))
-    continue;
-
-decide_mobile_special_action(ch);
-
-
-    /* hunt a victim, if applicable */
-hunt_victim(ch);
-
-    /* Scavenger (picking up objects) */
-if (IS_HUMANOID(ch) && !FIGHTING(ch) && AWAKE(ch) && MOB_FLAGGED(ch, MOB_SCAVENGER))
- if (world[IN_ROOM(ch)].contents && !rand_number(0, 10)) {
-     max = 1;
-     best_obj = NULL;
-     for (obj = world[IN_ROOM(ch)].contents; obj; obj = obj->next_content)
-       if (CAN_GET_OBJ(ch, obj) && GET_OBJ_COST(obj) > max) {
-         best_obj = obj;
-         max = GET_OBJ_COST(obj);
-    }
-    if (best_obj != NULL) {
-       perform_get_from_room(ch, best_obj);
-  }
-}
-
-    /* Mob Movement */
-if (!FIGHTING(ch) && !MOB_FLAGGED(ch, MOB_SENTINEL) && (GET_POS(ch) == POS_STANDING) &&
-     ((door = (dice(1, 100) - 1)) < NUM_OF_DIRS) && CAN_GO(ch, door) &&
-     !ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_NOMOB) &&
-     !ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_DEATH) &&
-     (!MOB_FLAGGED(ch, MOB_STAY_ZONE) ||
-      (world[EXIT(ch, door)->to_room].zone == world[IN_ROOM(ch)].zone))) {
- if (dice(1, 10) == 1)
-   perform_move(ch, door, 1);
-}
-
-    /* Aggressive Mobs */
-if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) || MOB_FLAGGED(ch, MOB_AGGR_TO_ALIGN)) {
- found = FALSE;
- for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) {
-     if (!CAN_SEE(ch, vict) || (!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
-       continue;
-
-  if (!CONFIG_MOB_FIGHTING && IS_NPC(vict))
-     continue;
-if (vict == ch)
-  continue;
-if (GET_MOB_VNUM(ch) == GET_MOB_VNUM(vict))
-  continue;
-if (GET_RACE(ch) == GET_RACE(vict))
-  continue;
-if (!ok_damage_shopkeeper(ch, vict))
-     continue;
-if ((GET_LEVEL(vict) - GET_LEVEL(ch)) > 3 && IS_NPC(vict))
-  continue;
-if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
-  continue;
-
-if (GET_FORM_POS(vict) > FORM_POS_FRONT)
-     continue;
-
-if (MOB_FLAGGED(ch, MOB_AGGRESSIVE  ) ||
-   (MOB_FLAGGED(ch, MOB_AGGR_EVIL   ) && IS_EVIL(vict)) ||
-   (MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL) && IS_NEUTRAL(vict)) ||
-   (MOB_FLAGGED(ch, MOB_AGGR_GOOD   ) && IS_GOOD(vict))) {
-
-          /* Can a master successfully control the charmed monster? */
-     if (aggressive_mob_on_a_leash(ch, ch->master, vict))
-       continue;
-
-  if (affected_by_spell(vict, SPELL_CALM_ANIMAL)) {
-       if (race_list[GET_RACE(ch)].family == RACE_TYPE_ANIMAL) {
-         if (!ch->affected)
-           continue;
-      for (af = ch->affected; af; af = af->next) {
-           if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_ABILITY)
-             spell_mod = af->modifier;
-        if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_LEVEL)
-             max_hit_dice = af->modifier;
-   }
-   if (GET_LEVEL(ch) <= max_hit_dice && (GET_LEVEL(ch) < 10 || mag_newsaves(SAVING_WILL, vict, ch, SPELL_CALM_ANIMAL, 11 + spell_mod)))
-      continue;
-}
-}
-
-hit(ch, vict, TYPE_UNDEFINED);
-found = TRUE;
-}
-}
-}
-
-if (!found) {
-    /* Aggressive Mobs */
-    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) || MOB_FLAGGED(ch, MOB_AGGR_TO_ALIGN)) {
-      found = FALSE;
-      for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) {
-          if (!CAN_SEE(ch, vict) || (!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
+        if (!ch)
             continue;
 
-       if (!CONFIG_MOB_FIGHTING && IS_NPC(vict))
-          continue;
-     if (vict == ch)
-       continue;
-  if (GET_MOB_VNUM(ch) == GET_MOB_VNUM(vict))
-       continue;
-  if (GET_RACE(ch) == GET_RACE(vict))
-       continue;
-  if (!ok_damage_shopkeeper(ch, vict))
-     continue;
-if ((GET_LEVEL(vict) - GET_LEVEL(ch)) > 3 && IS_NPC(vict))
-  continue;
-if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
-  continue;
-
-if (MOB_FLAGGED(ch, MOB_AGGRESSIVE  ) ||
-   (MOB_FLAGGED(ch, MOB_AGGR_EVIL   ) && IS_EVIL(vict)) ||
-   (MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL) && IS_NEUTRAL(vict)) ||
-   (MOB_FLAGGED(ch, MOB_AGGR_GOOD   ) && IS_GOOD(vict))) {
-
-          /* Can a master successfully control the charmed monster? */
-     if (aggressive_mob_on_a_leash(ch, ch->master, vict))
-       continue;
-
-  if (affected_by_spell(vict, SPELL_CALM_ANIMAL)) {
-       if (race_list[GET_RACE(ch)].family == RACE_TYPE_ANIMAL) {
-         if (!ch->affected)
-           continue;
-      for (af = ch->affected; af; af = af->next) {
-           if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_ABILITY)
-             spell_mod = af->modifier;
-        if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_LEVEL)
-             max_hit_dice = af->modifier;
-   }
-   if (GET_LEVEL(ch) <= max_hit_dice && (GET_LEVEL(ch) < 10 || mag_newsaves(SAVING_WILL, vict, ch, SPELL_CALM_ANIMAL, 11 + spell_mod)))
-      continue;
-}
-}
-
-hit(ch, vict, TYPE_UNDEFINED);
-found = TRUE;
-}
-}
-}
-}
-
-    /* Mob Memory */
-if (!FIGHTING(ch) && MOB_FLAGGED(ch, MOB_MEMORY) && MEMORY(ch) && !FIGHTING(ch)) {
- found = FALSE;
- for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) {
-     if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
-       continue;
-
-  for (names = MEMORY(ch); names && !found; names = names->next) {
-       if (names->id != GET_IDNUM(vict))
+        if (ch && !IS_MOB(ch))
             continue;
 
-          /* Can a master successfully control the charmed monster? */
-       if (aggressive_mob_on_a_leash(ch, ch->master, vict))
+        /* Examine call for special procedure */
+        if (MOB_FLAGGED(ch, MOB_SPEC) && !no_specials) 
+        {
+            if (mob_index[GET_MOB_RNUM(ch)].func == NULL) 
+            {
+                log("SYSERR: %s (#%d): Attempting to call non-existing mob function.",
+                    GET_NAME(ch), GET_MOB_VNUM(ch));
+                REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_SPEC);
+            } 
+            else 
+            {
+                char actbuf[MAX_INPUT_LENGTH] = "";
+                if ((mob_index[GET_MOB_RNUM(ch)].func) (ch, ch, 0, actbuf))
+                {
+                    /* go to next char */
+                    continue;
+                }
+
+            }
+        }
+
+        /* If the mob has no specproc, do the default actions */
+        if (!AWAKE(ch))
             continue;
 
-       found = TRUE;
-       act("'Hey!  You're the fiend that attacked me!!!', exclaims $n.", FALSE, ch, 0, 0, TO_ROOM);
-       hit(ch, vict, TYPE_UNDEFINED);
-  }
-}
-}
+        if (IN_ROOM(ch) == NOWHERE)
+            continue;
 
-    /*
-     * Charmed Mob Rebellion
-     *
-     * In order to rebel, there need to be more charmed monsters
-     * than the person can feasibly control at a time.  Then the
-     * mobiles have a chance based on the charisma of their leader.
-     *
-     * 1-4 = 0, 5-7 = 1, 8-10 = 2, 11-13 = 3, 14-16 = 4, 17-19 = 5, etc.
-     */
-     if (!FIGHTING(ch) && 
-        AFF_FLAGGED(ch, AFF_CHARM) && ch->master && num_followers_charmed(ch->master) > (GET_CHA(ch->master) - 2) / 3) {
-      if (!aggressive_mob_on_a_leash(ch, ch->master, ch->master)) {
-        if (CAN_SEE(ch, ch->master) && !PRF_FLAGGED(ch->master, PRF_NOHASSLE))
-          hit(ch, ch->master, TYPE_UNDEFINED);
-     stop_follower(ch);
-}
-}
+        if (FIGHTING(ch))
+            continue;
 
-    /* Helper Mobs */
-if (!FIGHTING(ch) && MOB_FLAGGED(ch, MOB_HELPER) && 
-   !AFF_FLAGGED(ch, AFF_BLIND) &&
-   !AFF_FLAGGED(ch, AFF_CHARM)) {
- found = FALSE;
-for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) {
-     if (ch == vict || !IS_NPC(vict) || !FIGHTING(vict))
-       continue;
-  if (IS_NPC(FIGHTING(vict)) || ch == FIGHTING(vict))
-       continue;
+        decide_mobile_special_action(ch);
 
-  act("$n jumps to the aid of $N!", FALSE, ch, 0, vict, TO_ROOM);
-  hit(ch, FIGHTING(vict), TYPE_UNDEFINED);
-  found = TRUE;
-}
-}
+        /* hunt a victim, if applicable */
+        hunt_victim(ch);
 
-    /* Add new mobile actions here */
+        /* Scavenger (picking up objects) */
+        if (IS_HUMANOID(ch) && !FIGHTING(ch) && AWAKE(ch) && MOB_FLAGGED(ch, MOB_SCAVENGER))
+        {
+            if (world[IN_ROOM(ch)].contents && !rand_number(0, 10)) 
+            {
+                max = 1;
+                best_obj = NULL;
+                for (obj = world[IN_ROOM(ch)].contents; obj; obj = obj->next_content)
+                {
+                    if (CAN_GET_OBJ(ch, obj) && GET_OBJ_COST(obj) > max) 
+                    {
+                        best_obj = obj;
+                        max = GET_OBJ_COST(obj);
+                    }
+                }
+                if (best_obj != NULL) 
+                {
+                    perform_get_from_room(ch, best_obj);
+                }
+            }
+        }
 
-if (IS_ROGUE(ch)) {
- int shop_nr;
- found = FALSE;
-      /* Is there a shopkeeper around? */
- for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) {
-   if (GET_MOB_SPEC(vict) == shop_keeper) {
-          /* Ok, vict is a shop keeper.  Which shop is his? */
-     for (shop_nr = 0; shop_nr <= top_shop; shop_nr++)
-       if (SHOP_KEEPER(shop_nr) == vict->nr)
-         break;
-    if (shop_nr <= top_shop)
-            /* Is the shopkeeper in his shop? */
-       if (ok_shop_room(shop_nr, IN_ROOM(vict)))
-              /* Does the shopkeeper prevent stealing? */
-         if (!SHOP_ALLOW_STEAL(shop_nr))
-           found = TRUE;
- }
-      /* Note: found will be true if there the character is in a shop where
-       * the shopkeeper present who doesn't allow stealing.  Don't bother 
-       * running the next loop, since we can't steal from anyone anyway. 
-       */
-  }
-  for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) {
-   if (vict == ch)
-     continue;
-if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
-     continue;
-if (!IS_HUMANOID(vict))
-     continue;
-if (IS_NPC(vict) && MOB_FLAGGED(vict, MOB_NOKILL))
-     continue;
-if (GET_MOB_VNUM(ch) == GET_MOB_VNUM(vict))
-     continue;
-if (skill_roll(ch, SKILL_SLEIGHT_OF_HAND) > skill_roll(vict, SKILL_PERCEPTION) && dice(1, 10) == 1 && GET_MOB_SPEC(ch) == NULL) {
-     npc_steal(ch, vict);
-     found = TRUE;
-}
-}
-}
+        /* Mob Movement */
+        if (!FIGHTING(ch) && !MOB_FLAGGED(ch, MOB_SENTINEL) && (GET_POS(ch) == POS_STANDING) &&
+            ((door = (dice(1, 100) - 1)) < NUM_OF_DIRS) && CAN_GO(ch, door) &&
+            !ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_NOMOB) &&
+            !ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_DEATH) &&
+            (!MOB_FLAGGED(ch, MOB_STAY_ZONE) ||
+                (world[EXIT(ch, door)->to_room].zone == world[IN_ROOM(ch)].zone))) 
+        {
+            if (dice(1, 10) == 1)
+                perform_move(ch, door, 1);
+        }
 
-  }                 /* end for() */
+        /* Aggressive Mobs */
+        if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) || MOB_FLAGGED(ch, MOB_AGGR_TO_ALIGN)) 
+        {
+            found = FALSE;
+            for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) 
+            {
+                if (!CAN_SEE(ch, vict) || (!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
+                    continue;
+
+                if (!CONFIG_MOB_FIGHTING && IS_NPC(vict))
+                    continue;
+                if (vict == ch)
+                    continue;
+                if (GET_MOB_VNUM(ch) == GET_MOB_VNUM(vict))
+                    continue;
+                if (GET_RACE(ch) == GET_RACE(vict))
+                    continue;
+                if (!ok_damage_shopkeeper(ch, vict))
+                    continue;
+                if ((GET_LEVEL(vict) - GET_LEVEL(ch)) > 3 && IS_NPC(vict))
+                    continue;
+                if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
+                    continue;
+
+                if (GET_FORM_POS(vict) > FORM_POS_FRONT)
+                    continue;
+
+                if (MOB_FLAGGED(ch, MOB_AGGRESSIVE  ) ||
+                    (MOB_FLAGGED(ch, MOB_AGGR_EVIL   ) && IS_EVIL(vict)) ||
+                    (MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL) && IS_NEUTRAL(vict)) ||
+                    (MOB_FLAGGED(ch, MOB_AGGR_GOOD   ) && IS_GOOD(vict))) {
+
+                    /* Can a master successfully control the charmed monster? */
+                    if (aggressive_mob_on_a_leash(ch, ch->master, vict))
+                        continue;
+
+                    if (affected_by_spell(vict, SPELL_CALM_ANIMAL)) 
+                    {
+                        if (race_list[GET_RACE(ch)].family == RACE_TYPE_ANIMAL) 
+                        {
+                            if (!ch->affected)
+                                continue;
+                            for (af = ch->affected; af; af = af->next) 
+                            {
+                                if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_ABILITY)
+                                    spell_mod = af->modifier;
+                                if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_LEVEL)
+                                    max_hit_dice = af->modifier;
+                            }
+                            if (GET_LEVEL(ch) <= max_hit_dice && (GET_LEVEL(ch) < 10 || mag_newsaves(SAVING_WILL, vict, ch, SPELL_CALM_ANIMAL, 11 + spell_mod)))
+                                continue;
+                        }
+                    }
+
+                    hit(ch, vict, TYPE_UNDEFINED);
+                    found = TRUE;
+                }
+            }
+        }
+
+        if (!found) 
+        {
+            /* Aggressive Mobs */
+            if (MOB_FLAGGED(ch, MOB_AGGRESSIVE) || MOB_FLAGGED(ch, MOB_AGGR_TO_ALIGN)) 
+            {
+                found = FALSE;
+                for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) 
+                {
+                    if (!CAN_SEE(ch, vict) || (!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
+                        continue;
+
+                    if (!CONFIG_MOB_FIGHTING && IS_NPC(vict))
+                        continue;
+                    if (vict == ch)
+                        continue;
+                    if (GET_MOB_VNUM(ch) == GET_MOB_VNUM(vict))
+                        continue;
+                    if (GET_RACE(ch) == GET_RACE(vict))
+                        continue;
+                    if (!ok_damage_shopkeeper(ch, vict))
+                        continue;
+                    if ((GET_LEVEL(vict) - GET_LEVEL(ch)) > 3 && IS_NPC(vict))
+                        continue;
+                    if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
+                        continue;
+
+                    if (MOB_FLAGGED(ch, MOB_AGGRESSIVE  ) ||
+                        (MOB_FLAGGED(ch, MOB_AGGR_EVIL   ) && IS_EVIL(vict)) ||
+                        (MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL) && IS_NEUTRAL(vict)) ||
+                        (MOB_FLAGGED(ch, MOB_AGGR_GOOD   ) && IS_GOOD(vict))) 
+                    {
+
+                        /* Can a master successfully control the charmed monster? */
+                        if (aggressive_mob_on_a_leash(ch, ch->master, vict))
+                            continue;
+
+                        if (affected_by_spell(vict, SPELL_CALM_ANIMAL)) 
+                        {
+                            if (race_list[GET_RACE(ch)].family == RACE_TYPE_ANIMAL) 
+                            {
+                                if (!ch->affected)
+                                    continue;
+                                for (af = ch->affected; af; af = af->next) 
+                                {
+                                    if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_ABILITY)
+                                        spell_mod = af->modifier;
+                                    if (af->type == SPELL_CALM_ANIMAL && af->location == APPLY_LEVEL)
+                                        max_hit_dice = af->modifier;
+                                }
+                                if (GET_LEVEL(ch) <= max_hit_dice && (GET_LEVEL(ch) < 10 || mag_newsaves(SAVING_WILL, vict, ch, SPELL_CALM_ANIMAL, 11 + spell_mod)))
+                                    continue;
+                            }
+                        }
+
+                        hit(ch, vict, TYPE_UNDEFINED);
+                        found = TRUE;
+                    }
+                }
+            }
+        }
+
+        /* Mob Memory */
+        if (!FIGHTING(ch) && MOB_FLAGGED(ch, MOB_MEMORY) && MEMORY(ch) && !FIGHTING(ch)) 
+        {
+            found = FALSE;
+            for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) 
+            {
+                if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
+                    continue;
+
+                for (names = MEMORY(ch); names && !found; names = names->next) 
+                {
+                    if (names->id != GET_IDNUM(vict))
+                    {
+                        continue;
+                    }
+
+                    /* Can a master successfully control the charmed monster? */
+                    if (aggressive_mob_on_a_leash(ch, ch->master, vict))
+                        continue;
+
+                    found = TRUE;
+                    act("'Hey!  You're the fiend that attacked me!!!', exclaims $n.", FALSE, ch, 0, 0, TO_ROOM);
+                    hit(ch, vict, TYPE_UNDEFINED);
+                }
+            }
+        }
+
+        /*
+        * Charmed Mob Rebellion
+        *
+        * In order to rebel, there need to be more charmed monsters
+        * than the person can feasibly control at a time.  Then the
+        * mobiles have a chance based on the charisma of their leader.
+        *
+        * 1-4 = 0, 5-7 = 1, 8-10 = 2, 11-13 = 3, 14-16 = 4, 17-19 = 5, etc.
+        */
+        if (!FIGHTING(ch) && 
+            AFF_FLAGGED(ch, AFF_CHARM) && ch->master && num_followers_charmed(ch->master) > (GET_CHA(ch->master) - 2) / 3) 
+        {
+            if (!aggressive_mob_on_a_leash(ch, ch->master, ch->master)) 
+            {
+                if (CAN_SEE(ch, ch->master) && !PRF_FLAGGED(ch->master, PRF_NOHASSLE))
+                    hit(ch, ch->master, TYPE_UNDEFINED);
+                stop_follower(ch);
+            }
+        }
+
+        /* Helper Mobs */
+        if (!FIGHTING(ch) && MOB_FLAGGED(ch, MOB_HELPER) && 
+            !AFF_FLAGGED(ch, AFF_BLIND) && !AFF_FLAGGED(ch, AFF_CHARM)) 
+        {
+            found = FALSE;
+            for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) 
+            {
+                if (ch == vict || !IS_NPC(vict) || !FIGHTING(vict))
+                    continue;
+                if (IS_NPC(FIGHTING(vict)) || ch == FIGHTING(vict))
+                    continue;
+
+                act("$n jumps to the aid of $N!", FALSE, ch, 0, vict, TO_ROOM);
+                hit(ch, FIGHTING(vict), TYPE_UNDEFINED);
+                found = TRUE;
+            }
+        }
+
+        /* Add new mobile actions here */
+        if (IS_ROGUE(ch)) 
+        {
+            int shop_nr = 0;
+            found = FALSE;
+            /* Is there a shopkeeper around? */
+            for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) 
+            {
+                if (GET_MOB_SPEC(vict) == shop_keeper) 
+                {
+                    /* Ok, vict is a shop keeper.  Which shop is his? */
+                    for (shop_nr = 0; shop_nr <= top_shop; shop_nr++)
+                    {
+                        if (SHOP_KEEPER(shop_nr) == vict->nr)
+                        {
+                            break;
+                        }
+                    }
+                    if (shop_nr <= top_shop)
+                    {
+                        /* Is the shopkeeper in his shop? */
+                        if (ok_shop_room(shop_nr, IN_ROOM(vict)))
+                        {
+                            /* Does the shopkeeper prevent stealing? */
+                            if (!SHOP_ALLOW_STEAL(shop_nr))
+                            {
+                                found = TRUE;
+                            }
+                        }
+                    }
+                }
+            /* Note: found will be true if there the character is in a shop where
+            * the shopkeeper present who doesn't allow stealing.  Don't bother 
+            * running the next loop, since we can't steal from anyone anyway. 
+            */
+            }
+            for (vict = world[IN_ROOM(ch)].people; vict && !found; vict = vict->next_in_room) 
+            {
+                if (vict == ch)
+                    continue;
+                if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
+                    continue;
+                if (!IS_HUMANOID(vict))
+                    continue;
+                if (IS_NPC(vict) && MOB_FLAGGED(vict, MOB_NOKILL))
+                    continue;
+                if (GET_MOB_VNUM(ch) == GET_MOB_VNUM(vict))
+                    continue;
+                if (skill_roll(ch, SKILL_SLEIGHT_OF_HAND) > skill_roll(vict, SKILL_PERCEPTION) && dice(1, 10) == 1 && GET_MOB_SPEC(ch) == NULL) {
+                    npc_steal(ch, vict);
+                    found = TRUE;
+                }
+            }
+        }
+
+    }                 
+/* end for() */
 }
 
 

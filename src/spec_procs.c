@@ -1082,9 +1082,7 @@ SPECIAL(library_small)
   int i, j, cost =10;
   int spellBookFull = TRUE;
   int researchCheck = FALSE;
-  int spellFound = FALSE;
   bool found = FALSE;
-
 
   if (!CMD_IS("research"))
     return (FALSE);
@@ -1101,7 +1099,6 @@ SPECIAL(library_small)
         {
           if (spell_info[i].spell_level <= 2)
           {
-            spellFound = TRUE;
             for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
               cost *= 3 ;
             if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0)
@@ -1210,9 +1207,7 @@ struct obj_data *obj;
 int i, j, cost =10;
 int spellBookFull = TRUE;
 int researchCheck = FALSE;
-int spellFound = FALSE;
 bool found = FALSE;
-
 
 if (!CMD_IS("research"))
 return (FALSE);
@@ -1225,7 +1220,6 @@ for (i = 0; i < MAX_SPELLS; i++) {
                 GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
 		if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1) {
 			if (spell_info[i].spell_level <= 6) {
-			spellFound = TRUE;
 			for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
 				cost *= 3 ;
 			if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0) {
@@ -1315,9 +1309,7 @@ struct obj_data *obj;
 int i, j, cost =10;
 int spellBookFull = TRUE;
 int researchCheck = FALSE;
-int spellFound = FALSE;
 bool found = FALSE;
-
 
 if (!CMD_IS("research"))
 return (FALSE);
@@ -1330,7 +1322,6 @@ for (i = 0; i < MAX_SPELLS; i++) {
                 GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
 		if (findslotnum(ch, spell_info[i].class_level[CLASS_WIZARD]) != -1) {
 			if (spell_info[i].spell_level <= 9) {
-			spellFound = TRUE;
 			for (j = 1; j < spell_info[i].class_level[CLASS_WIZARD]; j++)
 				cost *= 3 ;
 			if (GET_GOLD(ch) >= cost || GET_RESEARCH_TOKENS(ch) > 0) {

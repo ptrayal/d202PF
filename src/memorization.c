@@ -73,12 +73,12 @@ void displayslotnum(struct char_data *ch, int class);
 
 void do_mem_display(struct char_data *ch)
 {
+    char buf[MAX_STRING_LENGTH]={'\0'};
     int memcursor = 0;
     int class = 0;
     int spellmem = 0;
     int speedfx, count, i, sortpos, len;
     struct memorize_node *mem = NULL;
-    char buf[MAX_STRING_LENGTH]={'\0'};
 
     switch (GET_MEM_TYPE(ch)) 
     {
