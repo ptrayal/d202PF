@@ -137,97 +137,114 @@ int load_account(char *name, struct account_data *account)
 }
 void save_account(struct account_data *account)
 {
-  char fname[100]={'\0'};
-  FILE *fl;
-  int i = 0;
+    char fname[100]={'\0'};
+    FILE *fl;
+    int i = 0;
 
-  if (!account)
-    return;
+    if (!account)
+        return;
 
-  if (account == NULL || !get_filename(fname, sizeof(fname), ACT_FILE, account->name))
-    return;
-  if (!(fl = fopen(fname, "w"))) {
-    mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open account file %s for write", fname);
-    char newdir[100]={'\0'};
-    if (CONFIG_DFLT_PORT == 9080)
-      sprintf(newdir, "/home/aod/d20PlayPort/lib");
-    else
-      sprintf(newdir, "/home/aod/d20CodePort/lib");
+    if (account == NULL || !get_filename(fname, sizeof(fname), ACT_FILE, account->name))
+        return;
 
-    if (!chdir(newdir)) {
-      mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Could not change directory to %s to salvage shutdown necessity.", newdir);
-      char curdir[500]={'\0'};
-      getcwd(curdir, sizeof(curdir));
-      mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Current working directory is %s.", curdir); 
+    if (!(fl = fopen(fname, "w"))) 
+    {
+        mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open account file %s for write", fname);
+        char newdir[100]={'\0'};
+        if (CONFIG_DFLT_PORT == 9080)
+            sprintf(newdir, "/home/aod/d20PlayPort/lib");
+        else
+            sprintf(newdir, "/home/aod/d20CodePort/lib");
+
+        if (!chdir(newdir)) 
+        {
+            mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Could not change directory to %s to salvage shutdown necessity.", newdir);
+            char curdir[500]={'\0'};
+            if (getcwd(curdir, sizeof(curdir)) == NULL)
+            {
+                mudlog(NRM, ADMLVL_GOD, TRUE, "getcwd() error.");     
+            }
+            // getcwd(curdir, sizeof(curdir));
+            mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Current working directory is %s.", curdir); 
+        }
+
+        system("touch crashfilehere");
+
+        if (!(fl = fopen(fname, "w"))) 
+        {
+            struct char_data *ch = NULL;
+            for (ch = character_list; ch; ch = ch->next) 
+            {
+                if (IS_NPC(ch) || !ch->desc)
+                    continue;
+
+                send_to_char(ch, 
+                    "@l@RThe filesystem has become corrupted and the mud must shut down to avoid lost data.  Please remember\r\n"
+                    "to save often to avoid lost data until this bug is fixed.  Thank you for your patience and understanding.@n\r\n");
+            }     
+            circle_shutdown = 1;
+            return;
+        }
     }
 
-    system("touch crashfilehere");
+    fprintf(fl, "Name: %s\n", account->name);
+    if (account->email)
+        fprintf(fl, "Mail: %s\n", account->email);
+    fprintf(fl, "Pswd: %s\n", account->password);
+    fprintf(fl, "Rule: %d\n", account->read_rules);
+    fprintf(fl, "Exp : %d\n", account->experience);
+    fprintf(fl, "Gift: %d\n", account->gift_experience);
+    fprintf(fl, "Levl: %d\n", account->level);
+    fprintf(fl, "WPas: %s\n", account->web_password);
 
-    if (!(fl = fopen(fname, "w"))) {
-      struct char_data *ch = NULL;
-      for (ch = character_list; ch; ch = ch->next) {
-        if (IS_NPC(ch) || !ch->desc)
-          continue;
-
-        send_to_char(ch, 
-                   "@l@RThe filesystem has become corrupted and the mud must shut down to avoid lost data.  Please remember\r\n"
-                   "to save often to avoid lost data until this bug is fixed.  Thank you for your patience and understanding.@n\r\n");
-      }     
-      circle_shutdown = 1;
-      return;
+    fprintf(fl, "Char:\n");
+    for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
+    {
+        if (account->character_names[i] != NULL)
+        {
+            fprintf(fl, "%s\n", account->character_names[i]);
+        }
     }
-  }
+    fprintf(fl, "-1\n");
 
-  fprintf(fl, "Name: %s\n", account->name);
-  if (account->email)
-  fprintf(fl, "Mail: %s\n", account->email);
-  fprintf(fl, "Pswd: %s\n", account->password);
-  fprintf(fl, "Rule: %d\n", account->read_rules);
-  fprintf(fl, "Exp : %d\n", account->experience);
-  fprintf(fl, "Gift: %d\n", account->gift_experience);
-  fprintf(fl, "Levl: %d\n", account->level);
-  fprintf(fl, "WPas: %s\n", account->web_password);
+    /*   Save Poll Data */
+    fprintf(fl, "Poll:\n");
+    for (i = 0; i <= NUM_POLLS; i++) 
+    {
+        if (account->polls[i] > 0)
+        {
+            fprintf(fl, "%d %d\n", i, account->polls[i]);
+        }
+    }
+    fprintf(fl, "-1 -1\n");
 
-  i = 0;
-  fprintf(fl, "Char:\n");
-  for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
-    if (account->character_names[i] != NULL)
-      fprintf(fl, "%s\n", account->character_names[i]);
-  fprintf(fl, "-1\n");
+    /*   Save Unlocked Races */
+    fprintf(fl, "Race:\n");
+    for (i = 0; i < MAX_UNLOCKED_RACES; i++) 
+    {
+        fprintf(fl, "%d\n", account->races[i]);
+    }
+    fprintf(fl, "-1\n");
 
-/*   Save Poll Data */
-  fprintf(fl, "Poll:\n");
-  for (i = 0; i <= NUM_POLLS; i++) {
-    if (account->polls[i] > 0)
-      fprintf(fl, "%d %d\n", i, account->polls[i]);
-  }
-  fprintf(fl, "-1 -1\n");
-
-/*   Save Unlocked Races */
-  fprintf(fl, "Race:\n");
-  for (i = 0; i < MAX_UNLOCKED_RACES; i++) {
-    fprintf(fl, "%d\n", account->races[i]);
-  }
-  fprintf(fl, "-1\n");
-
-/*  Save Unlocked Classes */
-  fprintf(fl, "Clas:\n");
-  for (i = 0; i < MAX_UNLOCKED_CLASSES; i++) {
-    fprintf(fl, "%d\n", account->classes[i]);
-  }
-  fprintf(fl, "-1\n");
+    /*  Save Unlocked Classes */
+    fprintf(fl, "Clas:\n");
+    for (i = 0; i < MAX_UNLOCKED_CLASSES; i++) 
+    {
+        fprintf(fl, "%d\n", account->classes[i]);
+    }
+    fprintf(fl, "-1\n");
 
 
-  fclose(fl);
+    fclose(fl);
 
-  struct descriptor_data *d;
+    struct descriptor_data *d;
 
-  /* characters */
-  for (d = descriptor_list; d; d = d->next) {
-    if (d && d->character && d->account && d->account->name && account->name && !strcmp(d->account->name, account->name))
-      load_account(account->name, d->account);
-  }
-
+    /* characters */
+    for (d = descriptor_list; d; d = d->next) 
+    {
+        if (d && d->character && d->account && d->account->name && account->name && !strcmp(d->account->name, account->name))
+            load_account(account->name, d->account);
+    }
 
 }
 
