@@ -1541,13 +1541,12 @@ void award_magic_weapon(struct char_data *ch, int grade, int moblevel) {
   }
 }
 
-void award_misc_magic_item(struct char_data *ch, int grade, int moblevel) {
-
+void award_misc_magic_item(struct char_data *ch, int grade, int moblevel) 
+{
   byte bonus = 0;
   byte roll = 0;
   byte roll2 = 0;
   int type = 0;
-  sbyte jewelry = FALSE;
   int affect = 0;
   int subval = 0;
   byte misc_desc_roll_1 = 0;
@@ -1635,18 +1634,6 @@ void award_misc_magic_item(struct char_data *ch, int grade, int moblevel) {
   else {
 	type = ITEM_WEAR_ABOVE;
     obj = read_object(30104, VIRTUAL);
-  }
-
-	
-  // Decide whether the item is of type jewelry or not
-	
-  switch (type) {
-  case ITEM_WEAR_FINGER:
-  case ITEM_WEAR_WRIST:
-  case ITEM_WEAR_NECK:
-  case ITEM_WEAR_ABOVE:
-    jewelry = TRUE;
-	break;
   }
 
   roll = dice(1, 100);
