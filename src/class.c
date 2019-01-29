@@ -4506,8 +4506,8 @@ int load_levels()
 
                 cls = atoi(ptr);
 
-                for (; ptr && *ptr && isdigit(*ptr); ptr++);
-                {
+                for (; ptr && *ptr && isdigit(*ptr); ptr++)
+                  ;
                     for (; ptr && *ptr && !isdigit(*ptr); ptr++);
                     {
                         if (ptr && *ptr && !isdigit(*ptr)) 
@@ -4517,7 +4517,6 @@ int load_levels()
                             return -1;
                         }
                     }
-                }
 
                 if (ptr && *ptr) 
                 {

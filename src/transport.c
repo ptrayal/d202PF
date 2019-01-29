@@ -319,14 +319,14 @@ int valid_shuttle_travel(int here, int i)
 
 void enter_taxi(struct char_data *ch, int locale, int type, int here)
 {
-  int cnt = 0, found = FALSE;
+  int cnt = 0;
 
   for (cnt = 0; cnt <= top_of_world; cnt++) {
     if (world[cnt].number < 64000 || world[cnt].number > 64099)
       continue;
     if (world[cnt].people)
       continue;
-    found = FALSE;
+
     break;
   }
 

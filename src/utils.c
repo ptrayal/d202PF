@@ -1374,28 +1374,32 @@ char *which_desc(struct char_data *ch)
 void convert_coins(struct char_data *ch)
 {
 
-  int adamantine = 0,
-      mithril = 0,
-      steel = 0,
-      bronze = 0,
-      copper = 0,
-      coins = GET_GOLD(ch);
+    if(CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE)
+    {
+        int adamantine = 0,
+        mithril = 0,
+        steel = 0,
+        bronze = 0,
+        copper = 0,
+        coins = GET_GOLD(ch);
 
-  adamantine = coins / 250000;
-  coins %= 250000;
+        adamantine = coins / 250000;
+        coins %= 250000;
 
-  mithril = coins / 10000;
-  coins %= 10000;
+        mithril = coins / 10000;
+        coins %= 10000;
 
-  steel = coins / 100;
-  coins %= 100;
+        steel = coins / 100;
+        coins %= 100;
 
-  bronze = coins / 10;
-  coins %= 10;
+        bronze = coins / 10;
+        coins %= 10;
 
-  copper = coins;
-  
-  return;
+        copper = coins;
+
+    }
+
+    return;
 }
 
 void modify_coins(struct char_data *ch, int type, int operand, int amount) 

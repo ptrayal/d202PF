@@ -3157,93 +3157,92 @@ void mag_points(int level, struct char_data *ch, struct char_data *victim, int s
 
 void mag_unaffects(int level, struct char_data *ch, struct char_data *victim, int spellnum)
 {
-  int spell = 0, msg_not_affected = true;
-  const char *to_vict = NULL, *to_room = NULL;
-  int spell2 = 0;
-  int spell3 = 0;
-  int spell4 = 0;
-  int found = FALSE;
+    int spell = 0, msg_not_affected = true;
+    const char *to_vict = NULL, *to_room = NULL;
+    int spell2 = 0;
+    int spell3 = 0;
+    int spell4 = 0;
+    int found = FALSE;
 
-  if (victim == NULL)
-    return;
+    if (victim == NULL)
+        return;
 
-  switch (spellnum) {
-  case SPELL_HEAL_MOUNT:
-    if (!(IS_NPC(victim) && GET_MOB_VNUM(victim) == 199 && victim->master == ch))
-      break;
-  case SPELL_HEAL:
-    /*
-     * Heal also restores health, so don't give the "no effect" message
-     * if the target isn't afflicted by the 'blindness' spell.
-     */
-    msg_not_affected = false;
-    /* fall-through */
-    spell = SPELL_BLINDNESS;
-    spell2 = SPELL_POISON;
-    to_room = "$n is suddenly healed of all ailments.";
-    to_vict = "You are suddenly healed of all ailments.";
-    break;
-  case SPELL_FAERIE_FIRE:
-    spell = SPELL_INVISIBLE;
-    spell2 = SPELL_BLUR;
-    REMOVE_BIT_AR(AFF_FLAGS(victim), AFF_HIDE);
-    REMOVE_BIT_AR(AFF_FLAGS(victim), AFF_SNEAK);
-    msg_not_affected = false;
-    to_vict = "All concealments upon you are nullified.";
-    break;
-  case SPELL_REMOVE_PARALYSIS:
-    spell = SPELL_HOLD_PERSON;
-    spell2 = SPELL_HOLD_MONSTER;
-    spell3 = SPELL_SLOW;
-    msg_not_affected = false;
-    to_vict = "Your regain your movement functions!";
-    to_room = "$n regains $s movement functions.";
-    break;
-  case SPELL_REMOVE_BLINDNESS:
-    spell = SPELL_BLINDNESS;
-    to_vict = "Your vision returns!";
-    to_room = "There's a momentary gleam in $n's eyes.";
-    break;
-  case SPELL_NEUTRALIZE_POISON:
-    spell = SPELL_POISON;
-    to_vict = "A warm feeling runs through your body!";
-    to_room = "$n looks better.";
-    break;
-  case SPELL_REMOVE_CURSE:
-    spell = SPELL_BESTOW_CURSE;
-    to_vict = "You don't feel so unlucky.";
-    break;
-  default:
-    log("SYSERR: unknown spellnum %d passed to mag_unaffects.", spellnum);
-    return;
-  }
+    switch (spellnum) {
+        case SPELL_HEAL_MOUNT:
+        if (!(IS_NPC(victim) && GET_MOB_VNUM(victim) == 199 && victim->master == ch))
+            break;
+        case SPELL_HEAL:
+/*
+* Heal also restores health, so don't give the "no effect" message
+* if the target isn't afflicted by the 'blindness' spell.
+*/
+        msg_not_affected = false;
+/* fall-through */
+        spell = SPELL_BLINDNESS;
+        spell2 = SPELL_POISON;
+        to_room = "$n is suddenly healed of all ailments.";
+        to_vict = "You are suddenly healed of all ailments.";
+        break;
+        case SPELL_FAERIE_FIRE:
+        spell = SPELL_INVISIBLE;
+        spell2 = SPELL_BLUR;
+        REMOVE_BIT_AR(AFF_FLAGS(victim), AFF_HIDE);
+        REMOVE_BIT_AR(AFF_FLAGS(victim), AFF_SNEAK);
+        msg_not_affected = false;
+        to_vict = "All concealments upon you are nullified.";
+        break;
+        case SPELL_REMOVE_PARALYSIS:
+        spell = SPELL_HOLD_PERSON;
+        spell2 = SPELL_HOLD_MONSTER;
+        spell3 = SPELL_SLOW;
+        msg_not_affected = false;
+        to_vict = "Your regain your movement functions!";
+        to_room = "$n regains $s movement functions.";
+        break;
+        case SPELL_REMOVE_BLINDNESS:
+        spell = SPELL_BLINDNESS;
+        to_vict = "Your vision returns!";
+        to_room = "There's a momentary gleam in $n's eyes.";
+        break;
+        case SPELL_NEUTRALIZE_POISON:
+        spell = SPELL_POISON;
+        to_vict = "A warm feeling runs through your body!";
+        to_room = "$n looks better.";
+        break;
+        case SPELL_REMOVE_CURSE:
+        spell = SPELL_BESTOW_CURSE;
+        to_vict = "You don't feel so unlucky.";
+        break;
+        default:
+        log("SYSERR: unknown spellnum %d passed to mag_unaffects.", spellnum);
+        return;
+    }
 
-  if (affected_by_spell(victim, spell))
-    found = TRUE;
-  if (affected_by_spell(victim, spell2))
-    found = TRUE;
-  if (affected_by_spell(victim, spell3))
-    found = TRUE;
-  if (affected_by_spell(victim, spell4))
-    found = TRUE;
+    if (affected_by_spell(victim, spell))
+        found = TRUE;
+    if (affected_by_spell(victim, spell2))
+        found = TRUE;
+    if (affected_by_spell(victim, spell3))
+        found = TRUE;
+    if (affected_by_spell(victim, spell4))
+        found = TRUE;
 
-  affect_from_char(victim, spell);
+    affect_from_char(victim, spell);
+    affect_from_char(victim, spell2);
+    affect_from_char(victim, spell3);
+    affect_from_char(victim, spell4);
 
-  affect_from_char(victim, spell2);
-
-  affect_from_char(victim, spell3);
-
-  affect_from_char(victim, spell4);
-
-  if (found) {
-    if (to_vict != NULL)
-      act(to_vict, false, victim, 0, ch, TO_CHAR);
-    if (to_room != NULL)
-      act(to_room, true, victim, 0, ch, TO_ROOM);
-  }
-  else {
-    send_to_char(ch, "%s", CONFIG_NOEFFECT);
-  }
+    if (found) 
+    {
+        if (to_vict != NULL)
+            act(to_vict, false, victim, 0, ch, TO_CHAR);
+        if (to_room != NULL)
+            act(to_room, true, victim, 0, ch, TO_ROOM);
+    }
+    else 
+    {
+        send_to_char(ch, "%s", CONFIG_NOEFFECT);
+    }
 }
 
 
