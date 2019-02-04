@@ -1780,84 +1780,94 @@ void look_out_window(struct char_data *ch, char *arg)
 
 ACMD(do_look)
 {
-  int look_type;
+    int look_type = 0;
 
-  if (!ch->desc)
-    return;
+    if (!ch->desc)
+        return;
 
-  if (GET_POS(ch) < POS_SLEEPING)
-    send_to_char(ch, "You can't see anything but stars!\r\n");
-  else if (AFF_FLAGGED(ch, AFF_BLIND))
-    send_to_char(ch, "You can't see anything, you're blind!\r\n");
-  else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "It is pitch black...\r\n");
-    list_char_to_char(world[IN_ROOM(ch)].people, ch);	/* glowing red eyes */
-  } else {
-    char arg[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'};
+    if (GET_POS(ch) < POS_SLEEPING)
+        send_to_char(ch, "You can't see anything but stars!\r\n");
+    else if (AFF_FLAGGED(ch, AFF_BLIND))
+        send_to_char(ch, "You can't see anything, you're blind!\r\n");
+    else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) 
+    {
+        send_to_char(ch, "It is pitch black...\r\n");
+        /* glowing red eyes */
+        list_char_to_char(world[IN_ROOM(ch)].people, ch);   
+    } 
+    else 
+    {
+        char arg[MAX_INPUT_LENGTH]={'\0'};
+        char arg2[MAX_INPUT_LENGTH]={'\0'};
 
-    if (subcmd == SCMD_READ) {
-      one_argument(argument, arg);
-      if (!*arg)
-	send_to_char(ch, "Read what?\r\n");
-      else
-	look_at_target(ch, arg, 1);
-      return;
+        if (subcmd == SCMD_READ) 
+        {
+            one_argument(argument, arg);
+            if (!*arg)
+                send_to_char(ch, "Read what?\r\n");
+            else
+                look_at_target(ch, arg, 1);
+            return;
+        }
+        argument = any_one_arg(argument, arg);
+        one_argument(argument, arg2);
+        if (!*arg) 
+        {
+            if (subcmd == SCMD_SEARCH)
+                send_to_char(ch, "You need to search in a particular direction.\r\n");
+            else
+                look_at_room(IN_ROOM(ch), ch, 1);
+        } 
+        else if (is_abbrev(arg, "inside") && EXIT(ch, INDIR) && !*arg2) 
+        {
+            if (subcmd == SCMD_SEARCH)
+                search_in_direction(ch, INDIR);
+            else
+                look_in_direction(ch, INDIR);
+        } 
+        else if (is_abbrev(arg, "inside") && (subcmd == SCMD_SEARCH) && !*arg2) 
+        {
+            search_in_direction(ch, INDIR);
+        } 
+        else if (is_abbrev(arg, "inside") || is_abbrev(arg, "into") )  
+        { 
+            look_in_obj(ch, arg2);
+        } else if ((is_abbrev(arg, "outside") || 
+          is_abbrev(arg, "through") ||
+          is_abbrev(arg, "thru")      ) && 
+        (subcmd == SCMD_LOOK) && *arg2) {
+            look_out_window(ch, arg2);
+        } else if (is_abbrev(arg, "outside") && 
+           (subcmd == SCMD_LOOK) && !EXIT(ch, OUTDIR)) {
+            look_out_window(ch, arg2);
+        } else if ((look_type = search_block(arg, dirs, false)) >= 0 ||
+           (look_type = search_block(arg, abbr_dirs, false)) >= 0) {
+            if (subcmd == SCMD_SEARCH)
+                search_in_direction(ch, look_type);
+            else
+                look_in_direction(ch, look_type);
+        } else if ((is_abbrev(arg, "towards")) &&
+           ((look_type = search_block(arg2, dirs, false)) >= 0 ||
+              (look_type = search_block(arg2, abbr_dirs, false)) >= 0 )) {
+            if (subcmd == SCMD_SEARCH)
+                search_in_direction(ch, look_type);
+            else
+                look_in_direction(ch, look_type);
+        } else if (is_abbrev(arg, "at")) {
+            if (subcmd == SCMD_SEARCH)
+                send_to_char(ch, "That is not a direction!\r\n");
+            else
+                look_at_target(ch, arg2, 0);
+        } else if (find_exdesc(arg, world[IN_ROOM(ch)].ex_description) != NULL) {
+            look_at_target(ch, arg, 0);
+        } else {
+            if (subcmd == SCMD_SEARCH)
+                send_to_char(ch, "That is not a direction!\r\n");
+            else
+                look_at_target(ch, arg, 0);
+        }
     }
-    argument = any_one_arg(argument, arg);
-    one_argument(argument, arg2);
-    if (!*arg) {
-      if (subcmd == SCMD_SEARCH)
-        send_to_char(ch, "You need to search in a particular direction.\r\n");
-      else
-      look_at_room(IN_ROOM(ch), ch, 1);
-    } else if (is_abbrev(arg, "inside")   && EXIT(ch, INDIR) && !*arg2) {
-      if (subcmd == SCMD_SEARCH)
-        search_in_direction(ch, INDIR);
-      else
-        look_in_direction(ch, INDIR);
-    } else if (is_abbrev(arg, "inside") && (subcmd == SCMD_SEARCH) && !*arg2) {
-      search_in_direction(ch, INDIR);
-    } else if (is_abbrev(arg, "inside")   ||
-               is_abbrev(arg, "into")       )  { 
-      look_in_obj(ch, arg2);
-    } else if ((is_abbrev(arg, "outside") || 
-                is_abbrev(arg, "through") ||
-	        is_abbrev(arg, "thru")      ) && 
-               (subcmd == SCMD_LOOK) && *arg2) {
-      look_out_window(ch, arg2);
-    } else if (is_abbrev(arg, "outside") && 
-               (subcmd == SCMD_LOOK) && !EXIT(ch, OUTDIR)) {
-      look_out_window(ch, arg2);
-    } else if ((look_type = search_block(arg, dirs, false)) >= 0 ||
-               (look_type = search_block(arg, abbr_dirs, false)) >= 0) {
-      if (subcmd == SCMD_SEARCH)
-        search_in_direction(ch, look_type);
-      else
-        look_in_direction(ch, look_type);
-    } else if ((is_abbrev(arg, "towards")) &&
-               ((look_type = search_block(arg2, dirs, false)) >= 0 ||
-                (look_type = search_block(arg2, abbr_dirs, false)) >= 0 )) {
-      if (subcmd == SCMD_SEARCH)
-        search_in_direction(ch, look_type);
-      else
-      look_in_direction(ch, look_type);
-    } else if (is_abbrev(arg, "at")) {
-      if (subcmd == SCMD_SEARCH)
-        send_to_char(ch, "That is not a direction!\r\n");
-      else
-      look_at_target(ch, arg2, 0);
-    } else if (find_exdesc(arg, world[IN_ROOM(ch)].ex_description) != NULL) {
-      look_at_target(ch, arg, 0);
-    } else {
-      if (subcmd == SCMD_SEARCH)
-        send_to_char(ch, "That is not a direction!\r\n");
-    else
-      look_at_target(ch, arg, 0);
-  }
-  }
 }
-
-
 
 ACMD(do_examine)
 {

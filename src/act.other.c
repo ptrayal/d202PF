@@ -3164,103 +3164,118 @@ ACMD(do_random) {
 
 ACMD(do_skillcheck) 
 {
-	char arg[MAX_STRING_LENGTH]={'\0'}, arg2[MAX_STRING_LENGTH]={'\0'};
-	int skillnum = 0;
-	char *s, *t;
-	struct char_data *vict;
-	int result = 0;
-	char buf[MAX_STRING_LENGTH]={'\0'};
-	
-	two_arguments(argument, arg, arg2);
-	
-	if (!*arg) {
-	  send_to_char(ch, "You must specify which skill you want to check.\r\n");
-		return;
-	}
-	
-	
-	if (!*arg2 && GET_ADMLEVEL(ch) > 0) {
-	  send_to_char(ch, "You must provide the name of the character you wish to check the skill of.\r\n");
-		return;
-	}
-	
-	if (GET_ADMLEVEL(ch) > 0) {
-    if (!(vict = get_char_vis(ch, arg2, NULL, FIND_CHAR_ROOM))) {
-		  send_to_char(ch, "That character is not in this room.\r\n");
-			return;
-		}
-	}
-	else {
-	  vict = ch;
-	}
-	
-  s = strtok(argument, "'");	
+    char arg[MAX_STRING_LENGTH]={'\0'};
+    char arg2[MAX_STRING_LENGTH]={'\0'};
+    char buf[MAX_STRING_LENGTH]={'\0'};
+    char *s; 
+    struct char_data *vict;
+    int skillnum = 0;
+    int result = 0;
 
-  if (s == NULL) {
-    send_to_char(ch, "You must specify a skill.\r\n");
-    return;
-  }
-	
-  s = strtok(NULL, "'");
-  if (s == NULL) {
-    send_to_char(ch, "Please enclose the skill name in single quotes: ' \r\n");
-    return;
-  }
-  t = strtok(NULL, "\0");
-	
-  skillnum = find_skill_num(s, SKTYPE_SKILL);
+    two_arguments(argument, arg, arg2);
 
-	if (skillnum <= MAX_SPELLS) {
-	  send_to_char(ch, "That is not a valid skill.\r\n");
-		return;
-	}
-	
-	result = skill_roll(vict, skillnum);
-	
-	sprintf(buf, "(OOC) $n makes a skill check for %s with a result of %d.", spell_info[skillnum].name, result);
-	
-	if (vict != ch) {
-	  act(buf, TRUE, vict, 0, ch, TO_VICT);
-	}
-	else {
-	  act(buf, TRUE, ch, 0, vict, TO_CHAR);
-	  act(buf, TRUE, ch, 0, vict, TO_ROOM);
-	}
-	return;
+    if (!*arg) 
+    {
+        send_to_char(ch, "You must specify which skill you want to check.\r\n");
+        return;
+    }
+
+    if (!*arg2 && GET_ADMLEVEL(ch) > 0) 
+    {
+        send_to_char(ch, "You must provide the name of the character you wish to check the skill of.\r\n");
+        return;
+    }
+
+    if (GET_ADMLEVEL(ch) > 0) 
+    {
+        if (!(vict = get_char_vis(ch, arg2, NULL, FIND_CHAR_ROOM))) 
+        {
+            send_to_char(ch, "That character is not in this room.\r\n");
+            return;
+        }
+    }
+    else 
+    {
+        vict = ch;
+    }
+
+    s = strtok(argument, "'");	
+
+    if (s == NULL) 
+    {
+        send_to_char(ch, "You must specify a skill.\r\n");
+        return;
+    }
+
+    s = strtok(NULL, "'");
+    if (s == NULL) 
+    {
+        send_to_char(ch, "Please enclose the skill name in single quotes: ' \r\n");
+        return;
+    }
+
+    skillnum = find_skill_num(s, SKTYPE_SKILL);
+
+    if (skillnum <= MAX_SPELLS) 
+    {
+        send_to_char(ch, "That is not a valid skill.\r\n");
+        return;
+    }
+
+    result = skill_roll(vict, skillnum);
+
+    sprintf(buf, "(OOC) $n makes a skill check for %s with a result of %d.", spell_info[skillnum].name, result);
+
+    if (vict != ch) 
+    {
+        act(buf, TRUE, vict, 0, ch, TO_VICT);
+    }
+    else 
+    {
+        act(buf, TRUE, ch, 0, vict, TO_CHAR);
+        act(buf, TRUE, ch, 0, vict, TO_ROOM);
+    }
+    return;
 }
 
 ACMD(do_devote)
 {
+    char arg[200]={'\0'};
+    char arg2[200]={'\0'};
+    char arg3[200]={'\0'};
+    char buf2[200]={'\0'};
+    int i=0, j=0;
 
-  char arg[200]={'\0'}, arg2[200]={'\0'}, arg3[200]={'\0'}, buf2[200]={'\0'};
-	int i=0, j=0;
+    one_argument(two_arguments(argument, arg, arg2), arg3);
 
-	one_argument(two_arguments(argument, arg, arg2), arg3);
-	
-	if (!*arg) {
-		send_to_char(ch, "What deity do you wish to devote yourself to?\r\n"
-                                 "  ('devote info <deity>' for details, 'devote list' for a list, \r\n"
-                                 "   'devote search' to search or 'devote none' for none, case sensative)\r\n");
-		return;
-	}
-	
+    if (!*arg) 
+    {
+        send_to_char(ch, "What deity do you wish to devote yourself to?\r\n");
+        send_to_char(ch, "   ('devote info <deity>' for details, 'devote list' for a list, \r\n");
+        send_to_char(ch, "   'devote search' to search or 'devote none' for none, case sensative)\r\n");
+        return;
+    }
 
-        for (i = 0; i < NUM_DEITIES; i++) {
-          skip_spaces(&argument);
-          if (is_abbrev(argument, deity_list[i].name) && deity_list[i].pantheon != DEITY_PANTHEON_NONE) {
-            if (GET_DEITY(ch) == i) {
-              send_to_char(ch, "You are already devoted to that deity.\r\n");
-              return;
+    for (i = 0; i < NUM_DEITIES; i++) 
+    {
+        skip_spaces(&argument);
+        if (is_abbrev(argument, deity_list[i].name) && deity_list[i].pantheon != DEITY_PANTHEON_NONE) 
+        {
+            if (GET_DEITY(ch) == i) 
+            {
+                send_to_char(ch, "You are already devoted to that deity.\r\n");
+                return;
             }
             if (deity_list[i].pantheon != DetermineCampaign())
             {
-              send_to_char(ch, "That is not a valid deity.\r\n");
-              return;
+                send_to_char(ch, "That is not a valid deity.\r\n");
+                return;
             }
-            if (GET_DEITY(ch) != 0) {
-              send_to_char(ch, "You have already selected the deity %s.  If you would like to change this you will need staff assistance.  See HELP PETITION.\r\n",
-                           deity_list[GET_DEITY(ch)].name);
-              return;
+            if (GET_DEITY(ch) != 0) 
+            {
+                send_to_char(ch, "You have already selected the deity %s.  If you would like to change this you will need staff assistance.  See HELP PETITION.\r\n",
+                    deity_list[GET_DEITY(ch)].name);
+                return;
             }
 
             num_religion_members[GET_DEITY(ch)]--;
@@ -3269,128 +3284,137 @@ ACMD(do_devote)
             GET_DEITY(ch) = i;
             send_to_char(ch, "You have devoted yourself to the church of %s.\r\n", deity_list[i].name);
             return;
-          }
         }
+    }
 
-
-        if (!strcmp(arg, "list")) {
-
-          if (!*arg2) {
+    if (!strcmp(arg, "list")) 
+    {
+        if (!*arg2) 
+        {
             send_to_char(ch, "Which pantheon would you like to list? (good|neutral|evil|lawful|chaotic|all)\r\n");
             return;
-          }
+        }
 
-          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
+        send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
 
-          for (i = 0; i < NUM_DEITIES; i++) {
+        for (i = 0; i < NUM_DEITIES; i++) 
+        {
             if ((!strcmp(arg2, "good") && deity_list[i].alignment < 500) || 
                 (!strcmp(arg2, "neutral") && (deity_list[i].alignment != 0 && deity_list[i].ethos != 0)) ||
                 (!strcmp(arg2, "evil") && deity_list[i].alignment  > -500) ||
                 (!strcmp(arg2, "lawful") && deity_list[i].ethos < 500) ||
                 (!strcmp(arg2, "chaotic") && deity_list[i].ethos > -500))
-              continue;
+                continue;
 
             if (deity_list[i].pantheon == DetermineCampaign()) 
             {
-              send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
-                           weapon_list[deity_list[i].favored_weapon].name);
-              sprintf(buf2, "@n");
-              sprintf(buf2, "Domains: ");
-              for (j = 0; j < 6; j++) {
-                if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
+                send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
+                    weapon_list[deity_list[i].favored_weapon].name);
+                sprintf(buf2, "@n");
+                sprintf(buf2, "Domains: ");
+                for (j = 0; j < 6; j++) 
                 {
-                  if (j > 0)
+                    if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
                     {
-                        sprintf(buf2, "%s, ", buf2);
+                        if (j > 0)
+                        {
+                            sprintf(buf2, "%s, ", buf2);
+                        }
+                        sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                     }
-                    sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                 }
-              }
-              send_to_char(ch, "%-50s", buf2);
-              send_to_char(ch, "\r\nPortfolio: %s\r\n", deity_list[i].portfolio);
-              send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
+                send_to_char(ch, "%-50s", buf2);
+                send_to_char(ch, "\r\nPortfolio: %s\r\n", deity_list[i].portfolio);
+                send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
             }
-          }
-//          send_to_char(ch, "%s", buf);
-          return;
         }
+        return;
+    }
 
-        if (!strcmp(arg, "search")) {
-
-          if (!*arg2) {
+    if (!strcmp(arg, "search")) 
+    {
+        if (!*arg2) 
+        {
             send_to_char(ch, "What is the search type you wish to use?\r\n");
             send_to_char(ch, "Syntax is @Ydevote search <name|alignment|weapon|domain|portfolio> <keyword>@n.\r\n");
             return;
-          }
+        }
 
-          if (!*arg3) {
+        if (!*arg3) 
+        {
             send_to_char(ch, "What is the search keyword you wish to use?\r\n");
             send_to_char(ch, "Syntax is @Ydevote search <name|alignment|weapon|domain|portfolio> <keyword>@n.\r\n");
             return;
-          }
-
-          send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
-
-          for (i = 0; i < NUM_DEITIES; i++) {
-              if ((!strcmp(arg2, "name") && !strstr(deity_list[i].name, CAP(arg3))) ||
-                  (!strcmp(arg2, "alignment") && !strstr(GET_ALIGN_STRING(deity_list[i].ethos, deity_list[i].alignment), CAP(arg3))) ||
-                  (!strcmp(arg2, "weapon") && !strstr(weapon_list[deity_list[i].favored_weapon].name, arg3)) ||
-                  (!strcmp(arg2, "domain") && !strstr(domain_names[deity_list[i].domains[0]], CAP(arg3)) && 
-                  !strstr(domain_names[deity_list[i].domains[1]], CAP(arg3)) && !strstr(domain_names[deity_list[i].domains[2]], CAP(arg3)) && 
-                  !strstr(domain_names[deity_list[i].domains[3]], CAP(arg3)) && !strstr(domain_names[deity_list[i].domains[4]], CAP(arg3)) && 
-                  !strstr(domain_names[deity_list[i].domains[5]], CAP(arg3))) ||
-                  (!strcmp(arg2, "portfolio") && !strstr(deity_list[i].portfolio, CAP(arg3)) && !strstr(deity_list[i].portfolio, arg3)))
-              continue;
-
-            if (deity_list[i].pantheon == DetermineCampaign()) {
-              send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
-                           weapon_list[deity_list[i].favored_weapon].name);
-              sprintf(buf2, "@n");
-              sprintf(buf2, "Domains: ");
-              for (j = 0; j < 6; j++) {
-                if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
-                {
-                  if (j > 0)
-                    {
-                        sprintf(buf2, "%s, ", buf2);
-                    }
-                    sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
-                }
-              }
-              send_to_char(ch, "%-50s", buf2);
-              send_to_char(ch, "\r\nPortfolio: %s\r\n", deity_list[i].portfolio);
-              send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
-            }
-          }
-          return;
         }
 
-        if (!strcmp(arg, "info")) {
- 
-          if (!*arg2) {
+        send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
+
+        for (i = 0; i < NUM_DEITIES; i++) 
+        {
+            if ((!strcmp(arg2, "name") && !strstr(deity_list[i].name, CAP(arg3))) ||
+                (!strcmp(arg2, "alignment") && !strstr(GET_ALIGN_STRING(deity_list[i].ethos, deity_list[i].alignment), CAP(arg3))) ||
+                (!strcmp(arg2, "weapon") && !strstr(weapon_list[deity_list[i].favored_weapon].name, arg3)) ||
+                (!strcmp(arg2, "domain") && !strstr(domain_names[deity_list[i].domains[0]], CAP(arg3)) && 
+                    !strstr(domain_names[deity_list[i].domains[1]], CAP(arg3)) && !strstr(domain_names[deity_list[i].domains[2]], CAP(arg3)) && 
+                    !strstr(domain_names[deity_list[i].domains[3]], CAP(arg3)) && !strstr(domain_names[deity_list[i].domains[4]], CAP(arg3)) && 
+                    !strstr(domain_names[deity_list[i].domains[5]], CAP(arg3))) ||
+                (!strcmp(arg2, "portfolio") && !strstr(deity_list[i].portfolio, CAP(arg3)) && !strstr(deity_list[i].portfolio, arg3)))
+                continue;
+
+            if (deity_list[i].pantheon == DetermineCampaign()) 
+            {
+                send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
+                    weapon_list[deity_list[i].favored_weapon].name);
+                sprintf(buf2, "@n");
+                sprintf(buf2, "Domains: ");
+                for (j = 0; j < 6; j++) 
+                {
+                    if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
+                    {
+                        if (j > 0)
+                        {
+                            sprintf(buf2, "%s, ", buf2);
+                        }
+                        sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
+                    }
+                }
+                send_to_char(ch, "%-50s", buf2);
+                send_to_char(ch, "\r\nPortfolio: %s\r\n", deity_list[i].portfolio);
+                send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
+            }
+        }
+        return;
+    }
+
+    if (!strcmp(arg, "info")) 
+    {
+        if (!*arg2) 
+        {
             send_to_char(ch, "Which deity would you like to know more about?  Please capitalize the name for proper results.\r\n");
             return;
-          }
-
-          for (i = 0; i < NUM_DEITIES; i++) {
-            if (!strcmp(CAP(arg2), deity_list[i].name)) {
-              send_to_char(ch, "\r\n%s\r\n", deity_list[i].description);
-              return;
-            }
-          }
         }
 
-        send_to_char(ch, "That deity does not exist in this world. (or is not yet implemented)\r\n");
-        return;
+        for (i = 0; i < NUM_DEITIES; i++) 
+        {
+            if (!strcmp(CAP(arg2), deity_list[i].name)) 
+            {
+                send_to_char(ch, "\r\n%s\r\n", deity_list[i].description);
+                return;
+            }
+        }
+    }
+
+    send_to_char(ch, "That deity does not exist in this world. (or is not yet implemented)\r\n");
+    return;
 
 }
 
 ACMD(do_domain)
 {
-
   int j = 0;
 
-  if (!(GET_DEITY(ch) + 1)) {
+  if (!(GET_DEITY(ch) + 1)) 
+  {
     send_to_char(ch, "You must worship a deity to choose your domains.\r\n");
     return;
   }
@@ -6400,12 +6424,10 @@ ACMD(do_accexp)
 
 ACMD(do_rerollheightandweight)
 {
-
   set_height_and_weight_by_race(ch);
 
   send_to_char(ch, "Your new height is %d'%d\" and your new weight is %dlbs.\r\n",
                GET_HEIGHT(ch) / 30 , (GET_HEIGHT(ch) % 30) / 5 * 2, GET_WEIGHT(ch) * 22 / 10);
-
 }
 
 ACMD(do_setheight)
@@ -6439,21 +6461,22 @@ ACMD(do_setheight)
 
 ACMD(do_setweight)
 {
-
   char arg[200]={'\0'};
+  int weight = atoi(arg);
 
   one_argument(argument, arg);
 
-  if (!*arg) {
+  if (!*arg) 
+  {
     send_to_char(ch, "Please type setweight <new weight in kg>. There are 2.2 lbs in each kg.\r\n");
     send_to_char(ch, "Weight for your race must be between %d and %d kg.\r\n",
                  (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 7 / 10), (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 13 / 10));
     return;
   }
 
-  int weight = atoi(arg);
 
-  if (weight < (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 7 / 10) || weight > (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 13 / 10)) {
+  if (weight < (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 7 / 10) || weight > (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 13 / 10)) 
+  {
     send_to_char(ch, "Weight for your race must be between %d and %d kg.  You entered %d kg which is %d lbs.\r\n", 
                  (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 7 / 10), (race_list[GET_RACE(ch)].weight[GET_SEX(ch)] * 13 / 10),
                  weight, weight * 22 / 10);
@@ -6461,9 +6484,7 @@ ACMD(do_setweight)
   }
 
   GET_WEIGHT(ch) = weight;
-
   send_to_char(ch, "Your new weight is %d kg or %dlbs.\r\n", GET_WEIGHT(ch), GET_WEIGHT(ch) * 22 / 10);
-
 }
 
 ACMD(do_mentor)
@@ -6482,7 +6503,8 @@ ACMD(do_mentor)
     return;
   }
 
-  if (zone_table[world[IN_ROOM(ch)].zone].zone_status == 3) {
+  if (zone_table[world[IN_ROOM(ch)].zone].zone_status == 3) 
+  {
     int min_j = 60;
     int max_j = 0;
     int j = 0;
@@ -6532,7 +6554,8 @@ int get_innate_timer(struct char_data *ch, int spellnum)
 {
   struct innate_node *inn, *next_inn;
 
-  for(inn = ch->innate; inn; inn = next_inn) {
+  for(inn = ch->innate; inn; inn = next_inn) 
+  {
     next_inn = inn->next;
     if(inn->spellnum == spellnum)
       return inn->timer;
@@ -6542,14 +6565,14 @@ int get_innate_timer(struct char_data *ch, int spellnum)
 
 ACMD(do_set_stats)
 {
+  char arg1[100]={'\0'};
+  char arg2[100]={'\0'};
 
-  if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE) {
+  if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE) 
+  {
     GET_STAT_POINTS(ch) = 20;
     ch->stat_points_given = TRUE;
   }
-
-  char arg1[100]={'\0'};
-  char arg2[100]={'\0'};
 
   two_arguments(argument, arg1, arg2);
 

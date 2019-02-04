@@ -429,9 +429,13 @@ char *CompactStringMap(int centre, int size)
 /* Display a nicely formatted map with a legend */
 void perform_map( struct char_data *ch, char *argument, bool worldmap )
 {
+  char arg1[MIL]={'\0'};
+  char arg2[MIL]={'\0'};
+  char buf[MSL]={'\0'};
+  char buf1[MSL]={'\0'};
+  char buf2[MSL]={'\0'};
   int size = DEFAULT_MAP_SIZE;
   int centre, x, y, min, max;
-  char arg1[MAX_INPUT_LENGTH]={'\0'}, arg2[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   int count = 0;
   int ew_size=0, ns_size=0;
   int mapshape = MAP_CIRCLE;

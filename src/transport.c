@@ -92,21 +92,21 @@ char *shuttle_locales_sw[][7] = {
   {"always the last item",           "0",     "0",     "Nowhere", "nothing", "0", "0"}
 };
 
-ACMD(do_speeder) {
-
-
-  if (subcmd == SCMD_SPEEDER) {
+ACMD(do_speeder) 
+{
+  if (subcmd == SCMD_SPEEDER) 
+  {
     send_to_char(ch, "%s aren't implemented yet.  You'll have to use the %s command for now.\r\n", "Caravans", "carriage");
     return;
   }
 
   // taxi command
-
   skip_spaces(&argument);
 
   int i = 0;
   sbyte found = FALSE;
-  while (atoi((speeder_locales_dl)[i][1]) != 0) {
+  while (atoi((speeder_locales_dl)[i][1]) != 0) 
+  {
     if (GET_ROOM_VNUM(IN_ROOM(ch)) == atoi(((CONFIG_CAMPAIGN == CAMPAIGN_STAR_WARS) ? speeder_locales_sw : speeder_locales_dl)[i][1])) {
       found = TRUE;
       break; 

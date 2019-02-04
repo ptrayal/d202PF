@@ -1958,6 +1958,7 @@ extern struct config_data config_info;
 #define MAX_STRING_LENGTH 64000
 #define MSL MAX_STRING_LENGTH
 #define MAX_INPUT_LENGTH  1024 /* Max length per *line* of input */
+#define MIL MAX_INPUT_LENGTH
 #define MAX_RAW_INPUT_LENGTH  1024 /* Max size of *raw* input */
 #define MAX_MESSAGES    60
 #define MAX_NAME_LENGTH   20
