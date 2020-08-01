@@ -70,7 +70,7 @@ int Valid_Name(char *newname);
 ACMD(do_oasis_oedit)
 
 {
-    int number = NOWHERE, save = 0, real_num;
+    int number = NOWHERE, save = 0, real_num = 0;
     struct descriptor_data *d;
     char *buf3;
     char buf1[MAX_STRING_LENGTH]={'\0'};

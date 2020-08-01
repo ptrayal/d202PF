@@ -4751,13 +4751,16 @@ void assign_auto_stats(struct char_data *ch)
   ch->aff_abils = ch->real_abils;
   return;
 }
+
 /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 time_t birth_age(struct char_data *ch)
 {
-  int cltype;
-  int race;
-  int tmp;
-  switch (GET_CLASS(ch)) {
+  int cltype = 0;
+  int race = 0;
+  int tmp = 0;
+ 
+  switch (GET_CLASS(ch)) 
+  {
   case CLASS_WIZARD:
   case CLASS_CLERIC:
   case CLASS_MONK:
@@ -4779,6 +4782,7 @@ time_t birth_age(struct char_data *ch)
   tmp += rand_number(0, SECS_PER_MUD_YEAR);
   return tmp;
 }
+
 time_t max_age(struct char_data *ch)
 {
   int race;

@@ -2330,101 +2330,119 @@ ACMD(do_force)
 
 ACMD(do_wiznet)
 {
-  char buf1[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32]={'\0'},
-	buf2[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32]={'\0'};
-  struct descriptor_data *d;
-  char emote = FALSE;
-  char any = FALSE;
-  int level = ADMLVL_IMMORT;
+    char buf1[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32] = {'\0'},
+    buf2[MAX_INPUT_LENGTH + MAX_NAME_LENGTH + 32] = {'\0'};
+    struct descriptor_data *d;
+    char emote = FALSE;
+    int any = 0;
+    int level = ADMLVL_IMMORT;
 
-  if (has_curse_word(ch, argument)) {
-    return;
-  }
-  skip_spaces(&argument);
-  delete_doubledollar(argument);
-
-  if (GET_ACT_LEVEL(ch) < 1 && GET_ADMLEVEL(ch) < 1 && !PLR_FLAGGED(ch, PLR_IMMCHAR)) {
-    send_to_char(ch, "Only immortals and their characters can use this channel.\r\n");
-    return;
-  }
-
-  if (!*argument) {
-    send_to_char(ch, "Usage: wiznet <text> | #<level> <text> | *<emotetext> |\r\n        wiznet @<level> *<emotetext> | wiz @\r\n");
-    return;
-  }
-
-
-  switch (*argument) {
-  case '*':
-    emote = TRUE;
-  case '#':
-    one_argument(argument + 1, buf1);
-    if (is_number(buf1)) {
-      half_chop(argument+1, buf1, argument);
-      level = MAX(atoi(buf1), ADMLVL_IMMORT);
-      if (level > GET_ADMLEVEL(ch) && level > GET_ACT_LEVEL(ch)) {
-	send_to_char(ch, "You can't wizline above your own level.\r\n");
-	return;
-      }
-    } else if (emote)
-      argument++;
-    break;
-
-  case '@':
-    send_to_char(ch, "God channel status:\r\n");
-    for (any = 0, d = descriptor_list; d; d = d->next) {
-      if ((IS_PLAYING(d)) || GET_ADMLEVEL(d->character) < ADMLVL_IMMORT)
-        continue;
-      if (!CAN_SEE(ch, d->character))
-        continue;
-
-      send_to_char(ch, "  %-*s%s%s%s\r\n", MAX_NAME_LENGTH, GET_NAME(d->character),
-		PLR_FLAGGED(d->character, PLR_WRITING) ? " (Writing)" : "",
-		PLR_FLAGGED(d->character, PLR_MAILING) ? " (Writing mail)" : "",
-		PRF_FLAGGED(d->character, PRF_NOWIZ) ? " (Offline)" : "");
+    if (has_curse_word(ch, argument))
+    {
+        return;
     }
-    return;
+    skip_spaces(&argument);
+    delete_doubledollar(argument);
 
-  case '\\':
-    ++argument;
-    break;
-  default:
-    break;
-  }
-  if (PRF_FLAGGED(ch, PRF_NOWIZ)) {
-    send_to_char(ch, "You are offline!\r\n");
-    return;
-  }
-  skip_spaces(&argument);
-
-  if (!*argument) {
-    send_to_char(ch, "Don't bother the gods like that!\r\n");
-    return;
-  }
-  if (level > ADMLVL_IMMORT) {
-    snprintf(buf1, sizeof(buf1), "@c%s@c: <%d> %s%s@n\r\n", GET_NAME(ch), level, emote ? "<--- " : "", argument);
-    snprintf(buf2, sizeof(buf1), "@cSomeone: <%d> %s%s@n\r\n", level, emote ? "<--- " : "", argument);
-  } else {
-    snprintf(buf1, sizeof(buf1), "@c%s@c: %s%s@n\r\n", GET_NAME(ch), emote ? "<--- " : "", argument);
-    snprintf(buf2, sizeof(buf1), "@cSomeone: %s%s@n\r\n", emote ? "<--- " : "", argument);
-  }
-
-  for (d = descriptor_list; d; d = d->next) {
-    if ((IS_PLAYING(d) || IN_OLC(d->character)) && 
-       (GET_ADMLEVEL(d->character) >= level || PLR_FLAGGED(ch, PLR_IMMCHAR) || 
-       (GET_ACT_LEVEL(d->character) >= level && GET_ACT_LEVEL(d->character) <= 5)) &&
-	(!PRF_FLAGGED(d->character, PRF_NOWIZ)) &&
-	(!PLR_FLAGGED(d->character, PLR_WRITING | PLR_MAILING))
-	&& (d != ch->desc || !(PRF_FLAGGED(d->character, PRF_NOREPEAT)))) {
-      if (CAN_SEE(d->character, ch))
-	send_to_char(d->character, "%s", buf1);
-      else
-	send_to_char(d->character, "%s", buf2);
+    if (GET_ACT_LEVEL(ch) < 1 && GET_ADMLEVEL(ch) < 1 && !PLR_FLAGGED(ch, PLR_IMMCHAR))
+    {
+        send_to_char(ch, "Only immortals and their characters can use this channel.\r\n");
+        return;
     }
-  }
 
-  if (PRF_FLAGGED(ch, PRF_NOREPEAT))
-    send_to_char(ch, "%s", CONFIG_OK);
+    if (!*argument)
+    {
+        send_to_char(ch, "Usage: wiznet <text> | #<level> <text> | *<emotetext> |\r\n");
+        send_to_char(ch, "       wiznet @<level> *<emotetext> | wiz @\r\n");
+        return;
+    }
+
+
+    switch (*argument)
+    {
+    case '*':
+        emote = TRUE;
+    case '#':
+        one_argument(argument + 1, buf1);
+        if (is_number(buf1))
+        {
+            half_chop(argument + 1, buf1, argument);
+            level = MAX(atoi(buf1), ADMLVL_IMMORT);
+            if (level > GET_ADMLEVEL(ch) && level > GET_ACT_LEVEL(ch))
+            {
+                send_to_char(ch, "You can't wizline above your own level.\r\n");
+                return;
+            }
+        }
+        else if (emote)
+            argument++;
+        break;
+
+    case '@':
+        send_to_char(ch, "God channel status:\r\n");
+        for (any = 0, d = descriptor_list; d; d = d->next)
+        {
+            if ((IS_PLAYING(d)) || GET_ADMLEVEL(d->character) < ADMLVL_IMMORT)
+                continue;
+            if (!CAN_SEE(ch, d->character))
+                continue;
+
+            send_to_char(ch, "  %-*s%s%s%s\r\n", MAX_NAME_LENGTH, GET_NAME(d->character),
+                         PLR_FLAGGED(d->character, PLR_WRITING) ? " (Writing)" : "",
+                         PLR_FLAGGED(d->character, PLR_MAILING) ? " (Writing mail)" : "",
+                         PRF_FLAGGED(d->character, PRF_NOWIZ) ? " (Offline)" : "");
+        }
+        return;
+
+    case '\\':
+        ++argument;
+        break;
+    default:
+        break;
+    }
+    if (PRF_FLAGGED(ch, PRF_NOWIZ))
+    {
+        send_to_char(ch, "You are offline!\r\n");
+        return;
+    }
+    skip_spaces(&argument);
+
+    if (!*argument)
+    {
+        send_to_char(ch, "Don't bother the gods like that!\r\n");
+        return;
+    }
+    if (level > ADMLVL_IMMORT)
+    {
+        snprintf(buf1, sizeof(buf1), "@c%s@c: <%d> %s%s@n\r\n", GET_NAME(ch), level, emote ? "<--- " : "", argument);
+        snprintf(buf2, sizeof(buf1), "@cSomeone: <%d> %s%s@n\r\n", level, emote ? "<--- " : "", argument);
+    }
+    else
+    {
+        snprintf(buf1, sizeof(buf1), "@c%s@c: %s%s@n\r\n", GET_NAME(ch), emote ? "<--- " : "", argument);
+        snprintf(buf2, sizeof(buf1), "@cSomeone: %s%s@n\r\n", emote ? "<--- " : "", argument);
+    }
+
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if ((IS_PLAYING(d) || IN_OLC(d->character)) &&
+                (GET_ADMLEVEL(d->character) >= level || PLR_FLAGGED(ch, PLR_IMMCHAR) ||
+                 (GET_ACT_LEVEL(d->character) >= level && GET_ACT_LEVEL(d->character) <= 5)) &&
+                (!PRF_FLAGGED(d->character, PRF_NOWIZ)) &&
+                (!PLR_FLAGGED(d->character, PLR_WRITING | PLR_MAILING))
+                && (d != ch->desc || !(PRF_FLAGGED(d->character, PRF_NOREPEAT))))
+        {
+            if (CAN_SEE(d->character, ch))
+                send_to_char(d->character, "%s", buf1);
+            else
+                send_to_char(d->character, "%s", buf2);
+        }
+    }
+
+    if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+    {
+        send_to_char(ch, "%s", CONFIG_OK);
+    }
 }
 
 
@@ -3868,72 +3886,77 @@ ACMD(do_saveall)
 ACMD(do_players)
 {
 
-  struct descriptor_data *d;
-  char buf[200]={'\0'};
+    struct descriptor_data *d;
+    char buf[200] = {'\0'};
 
-  sprintf(buf, "@Y%-15s %-15s %-6s %-5s %-5s %-7s %-7s %-7s %-20s %-20s %-3s\r\n", "Name", "Account", "AdmLvl", "Level", 
-		"Align", "Room", "ImmChar", "Race", "Deity", "Class", "RP");
-  send_to_char(ch, "%s", buf);
+    sprintf(buf, "@Y%-15s %-15s %-6s %-5s %-5s %-7s %-7s %-7s %-20s %-20s %-3s\r\n", "Name", "Account", "AdmLvl", "Level",
+            "Align", "Room", "ImmChar", "Race", "Deity", "Class", "RP");
+    send_to_char(ch, "%s", buf);
 
-  sprintf(buf, "----------------------------------------------------------------------------------------------------@n\r\n");
-  send_to_char(ch, "%s", buf);
+    sprintf(buf, "----------------------------------------------------------------------------------------------------@n\r\n");
+    send_to_char(ch, "%s", buf);
 
-  for (d = descriptor_list; d; d = d->next) {
-    if (STATE(d) == CON_PLAYING) {
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if (STATE(d) == CON_PLAYING)
+        {
 
-      sprintf(buf, "@w%-15s %-15s %-6d %-5d %-5s %-7d %-7s %-7s %-20s %-20s %-3s@n\r\n",
-        GET_NAME(d->character),
-        (d && d->account && d->account->name) ? d->account->name : "None",
-        GET_ADMLEVEL(d->character),
-        GET_LEVEL(d->character),
-        GET_ALIGN_ABBREV(GET_ETHOS(d->character), GET_ALIGN(d->character)),
-        GET_ROOM_VNUM(IN_ROOM(d->character)),
-        (PLR_FLAGGED(d->character, PLR_IMMCHAR) || GET_ADMLEVEL(d->character) >= ADMLVL_IMMORT) ? "Yes" : "",
-        race_list[GET_RACE(d->character)].abbrev,
-	deity_list[GET_DEITY(d->character)].name,
-        class_desc_str(d->character, 1, 0),
-        (GET_RP_EXP(d->character) > 0 ? "Yes" : "No")
-      );
-      send_to_char(ch, "%s", buf);
+            sprintf(buf, "@w%-15s %-15s %-6d %-5d %-5s %-7d %-7s %-7s %-20s %-20s %-3s@n\r\n",
+                    GET_NAME(d->character),
+                    (d && d->account && d->account->name) ? d->account->name : "None",
+                    GET_ADMLEVEL(d->character),
+                    GET_LEVEL(d->character),
+                    GET_ALIGN_ABBREV(GET_ETHOS(d->character), GET_ALIGN(d->character)),
+                    GET_ROOM_VNUM(IN_ROOM(d->character)),
+                    (PLR_FLAGGED(d->character, PLR_IMMCHAR) || GET_ADMLEVEL(d->character) >= ADMLVL_IMMORT) ? "Yes" : "",
+                    race_list[GET_RACE(d->character)].abbrev,
+                    deity_list[GET_DEITY(d->character)].name,
+                    class_desc_str(d->character, 1, 0),
+                    (GET_RP_EXP(d->character) > 0 ? "Yes" : "No")
+                   );
+            send_to_char(ch, "%s", buf);
+        }
+
+
+        else
+        {
+            sprintf(buf, "@w%-15s %-15s %-6d %-5d %-5s %-7s %-7s %-7s %-20s %-20s@n\r\n",
+                    GET_NAME(d->character),
+                    "Offline",
+                    GET_ADMLEVEL(d->character),
+                    GET_LEVEL(d->character),
+                    GET_ALIGN_ABBREV(GET_ETHOS(d->character), GET_ALIGN(d->character)),
+                    "Offline",
+                    (PLR_FLAGGED(d->character, PLR_IMMCHAR) || GET_ADMLEVEL(d->character) >= ADMLVL_IMMORT) ? "Yes" : "",
+                    race_list[GET_RACE(d->character)].abbrev,
+                    deity_list[GET_DEITY(d->character)].name,
+                    class_desc_str(d->character, 1, 0)
+                   );
+            send_to_char(ch, "%s", buf);
+        }
     }
 
+    return;
 
-    else {
-      sprintf(buf, "@w%-15s %-15s %-6d %-5d %-5s %-7s %-7s %-7s %-20s %-20s@n\r\n",
-        GET_NAME(d->character),
-        "Offline",
-        GET_ADMLEVEL(d->character),
-        GET_LEVEL(d->character),
-        GET_ALIGN_ABBREV(GET_ETHOS(d->character), GET_ALIGN(d->character)),
-        "Offline",
-        (PLR_FLAGGED(d->character, PLR_IMMCHAR) || GET_ADMLEVEL(d->character) >= ADMLVL_IMMORT) ? "Yes" : "",
-        race_list[GET_RACE(d->character)].abbrev,
-	deity_list[GET_DEITY(d->character)].name,
-        class_desc_str(d->character, 1, 0)
-      );
-      send_to_char(ch, "%s", buf);
+    // Old do_players below
+
+    int i, count = 0;
+    //  char buf[MAX_STRING_LENGTH];
+    *buf = 0;
+
+    send_to_char(ch, "Player List-------------------------------------------------\r\n");
+
+    for (i = 0; i <= top_of_p_table; i++)
+    {
+        sprintf(buf, "%s  %-20.20s", buf, (player_table + i)->name);
+        count++;
+        if (count == 3)
+        {
+            count = 0;
+            strcat(buf, "\r\n");
+        }
     }
-  }
-
-  return;
-
-  // Old do_players below
-
-  int i, count = 0;
-//  char buf[MAX_STRING_LENGTH];
-  *buf = 0; 
-
-  send_to_char(ch, "Player List-------------------------------------------------\r\n");
-
-  for (i = 0; i <= top_of_p_table; i++) {
-    sprintf(buf, "%s  %-20.20s", buf, (player_table + i)->name);
-    count++;
-    if (count == 3) {
-      count = 0;
-      strcat(buf, "\r\n");
-    }
-  }
-  page_string(ch->desc, buf, TRUE);
+    page_string(ch->desc, buf, TRUE);
 }
 
 ACMD(do_peace)
@@ -4004,51 +4027,56 @@ ACMD(do_raise)
 
 ACMD(do_chown)
 {
- struct char_data *victim;
- struct obj_data *obj;
- char buf[80]={'\0'};
- char buf2[80]={'\0'};
- char buf3[80]={'\0'};
- int i = 0, k = 0;
+    struct char_data *victim;
+    struct obj_data *obj;
+    char buf[80] = {'\0'};
+    char buf2[80] = {'\0'};
+    char buf3[80] = {'\0'};
+    int i = 0, k = 0;
 
- two_arguments(argument, buf2, buf3);
+    two_arguments(argument, buf2, buf3);
 
- if (!*buf2)
-   send_to_char(ch, "Syntax: chown <object> <character>.\r\n");
- else if (!(victim = get_char_vis(ch, buf3, NULL, FIND_CHAR_WORLD)))
-   send_to_char(ch, "No one by that name here.\r\n");
- else if (victim == ch)
-   send_to_char(ch, "Are you sure you're feeling ok?\r\n");
- else if (GET_LEVEL(victim) >= GET_LEVEL(ch))
-   send_to_char(ch, "That's really not such a good idea.\r\n");
- else if (!*buf3)
-   send_to_char(ch, "Syntax: chown <object> <character>.\r\n");
- else {
-   for (i = 0; i < NUM_WEARS; i++) {
-     if (GET_EQ(victim, i) && CAN_SEE_OBJ(ch, GET_EQ(victim, i)) &&
-        isname(buf2, GET_EQ(victim, i)->name)) {
-       obj_to_char(unequip_char(victim, i), victim);
-       k = 1;
-     }
-   }
+    if (!*buf2)
+        send_to_char(ch, "Syntax: chown <object> <character>.\r\n");
+    else if (!(victim = get_char_vis(ch, buf3, NULL, FIND_CHAR_WORLD)))
+        send_to_char(ch, "No one by that name here.\r\n");
+    else if (victim == ch)
+        send_to_char(ch, "Are you sure you're feeling ok?\r\n");
+    else if (GET_LEVEL(victim) >= GET_LEVEL(ch))
+        send_to_char(ch, "That's really not such a good idea.\r\n");
+    else if (!*buf3)
+        send_to_char(ch, "Syntax: chown <object> <character>.\r\n");
+    else
+    {
+        for (i = 0; i < NUM_WEARS; i++)
+        {
+            if (GET_EQ(victim, i) && CAN_SEE_OBJ(ch, GET_EQ(victim, i)) &&
+                    isname(buf2, GET_EQ(victim, i)->name))
+            {
+                obj_to_char(unequip_char(victim, i), victim);
+                k = 1;
+            }
+        }
 
- if (!(obj = get_obj_in_list_vis(victim, buf2, NULL, victim->carrying))) {
-   if (!k && !(obj = get_obj_in_list_vis(victim, buf2, NULL, victim->carrying))) {
-     sprintf(buf, "%s does not appear to have the %s.\r\n", GET_NAME(victim), buf2);
-     send_to_char(ch, "%s", buf);
-     return;
-   }
- }
+        if (!(obj = get_obj_in_list_vis(victim, buf2, NULL, victim->carrying)))
+        {
+            if (!k && !(obj = get_obj_in_list_vis(victim, buf2, NULL, victim->carrying)))
+            {
+                snprintf(buf, sizeof(buf), "%s does not appear to have the %s.\r\n", GET_NAME(victim), buf2);
+                send_to_char(ch, "%s", buf);
+                return;
+            }
+        }
 
- act("@n$n makes a magical gesture and $p@n flies from $N to $m.", FALSE, ch, obj, victim, TO_NOTVICT);
- act("@n$n makes a magical gesture and $p@n flies away from you to $m.", FALSE, ch, obj, victim, TO_VICT);
- act("@nYou make a magical gesture and $p@n flies away from $N to you.", FALSE, ch, obj, victim, TO_CHAR);
+        act("@n$n makes a magical gesture and $p@n flies from $N to $m.", FALSE, ch, obj, victim, TO_NOTVICT);
+        act("@n$n makes a magical gesture and $p@n flies away from you to $m.", FALSE, ch, obj, victim, TO_VICT);
+        act("@nYou make a magical gesture and $p@n flies away from $N to you.", FALSE, ch, obj, victim, TO_CHAR);
 
- obj_from_char(obj);
- obj_to_char(obj, ch);
- save_char(ch);
- save_char(victim);
- }
+        obj_from_char(obj);
+        obj_to_char(obj, ch);
+        save_char(ch);
+        save_char(victim);
+    }
 }
 
 ACMD(do_approve)
@@ -4397,11 +4425,11 @@ void check_auto_shutdown(void)
 {
   char timestr[25];
   time_t mytime;
-  int d, h, m;
+  int h = 0;
+  int m = 0;
 
   mytime = time(0);
 
-  d = mytime / 86400;
   h = (mytime / 3600) % 24;
   m = (mytime / 60) % 60;
 

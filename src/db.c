@@ -5405,180 +5405,184 @@ void load_deities(void)
 
 void set_auto_mob_stats(struct char_data *mob)
 {
-  int hdsize = 0;
-  int ranks = 0;
+    int hdsize = 0;
+    int ranks = 0;
 
-  /* Mobs with 0 stats get auto-assigned stats */
-  if (!mob->real_abils.con) {
-    assign_auto_stats(mob);
-  }
-
-  if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-    ranks = GET_HITDICE(mob);
-
-    switch (GET_CLASS(mob)) {
-    case CLASS_WIZARD:
-      set_attributes(mob, 10, 10, 16, 16 + (ranks / 4), 10, 10);
-      break;
-    case CLASS_CLERIC:
-      set_attributes(mob, 12, 12, 12, 10, 16 + (ranks / 4), 10);
-      break;
-    case CLASS_ROGUE:
-      set_attributes(mob, 14, 10, 16 + (ranks / 4), 12, 10, 10);
-      break;
-    case CLASS_FIGHTER:
-      set_attributes(mob, 16 + (ranks / 4), 14, 12, 10, 10, 10);
-      break;
-    case CLASS_MONK:
-      set_attributes(mob, 12, 12, 14, 10, 16 + (ranks / 4), 10);
-      break;
-    case CLASS_PALADIN:
-      set_attributes(mob, 12, 12, 12, 10, 10, 16 + (ranks / 4));
-      break;
-    default:
-      set_attributes(mob, 12, 16 + (ranks / 4), 12, 10, 12, 10);
-      break;
-    }
-
-    set_attributes(mob, GET_STR(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[0],
-                   GET_CON(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[1],
-                   GET_DEX(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[4],
-                   GET_INT(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[2],
-                   GET_WIS(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[3],
-                   GET_CHA(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[5]);
-  
-    if (IS_HUMANOID(mob) && !MOB_FLAGGED(mob, MOB_NO_AUTOGOLD))
-      GET_GOLD(mob) = mob_gold_by_level(GET_HITDICE(mob));
-
-    switch (GET_CLASS(mob)) {
-      case CLASS_WIZARD:
-      case CLASS_SORCERER:
-        GET_ARMOR(mob) = (GET_HITDICE(mob) * 10);
-        break;
-      case CLASS_ROGUE:
-      case CLASS_BARD:
-      case CLASS_MONK:
-        GET_ARMOR(mob) = (GET_HITDICE(mob) * 11);
-        break;
-
-      case CLASS_RANGER:
-      case CLASS_BARBARIAN:
-      case CLASS_DRUID:
-      case CLASS_CLERIC:
-        GET_ARMOR(mob) = (GET_HITDICE(mob) * 12);
-        break;
-
-      case CLASS_FIGHTER:
-      case CLASS_PALADIN:
-        GET_ARMOR(mob) = (GET_HITDICE(mob) * 13);
-        break;
-
-      default:
-        GET_ARMOR(mob) = (GET_HITDICE(mob) * 12);
-        break;
-    }
-
-  }
-
-  struct char_data *ch = mob;
-
-  if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
-    GET_ARMOR(ch) += (GET_HITDICE(ch));
-  else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
-    GET_ARMOR(ch) += (GET_HITDICE(ch)* 15 / 10);
-  else if (MOB_FLAGGED(ch, MOB_BOSS))
-    GET_ARMOR(ch) += (GET_HITDICE(ch) * 2);
-  else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
-    GET_ARMOR(ch) += (GET_HITDICE(ch) * 25 / 10);
-
-  GET_MANA(mob) = GET_MAX_MANA (mob);
-  GET_MOVE(mob) = GET_MAX_MOVE(mob);
-
-  hdsize = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[GET_CLASS(mob)];
-  if (race_list[GET_RACE(mob)].family == RACE_TYPE_UNDEAD)
-    hdsize = 12;
-  if (!hdsize)
-    hdsize = 10;
-
-  if (MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-    GET_HIT(mob) = GET_MAX_HIT(mob);
-  }
-  else {
-
-    GET_MAX_HIT(mob) = GET_HITDICE(mob) * (hdsize + ((race_list[GET_RACE(mob)].family == RACE_TYPE_UNDEAD) ? 0 : ability_mod_value(GET_CON(mob))));
-    GET_HIT(mob) = GET_MAX_HIT(mob);
-    GET_MAX_MOVE(mob) = 1000;
-    if (MOB_FLAGGED(mob, MOB_MOUNTABLE))
-      GET_MAX_MOVE(mob) *= 5;
-
-    if (MOB_FLAGGED(mob, MOB_LIEUTENANT)) 
+    /* Mobs with 0 stats get auto-assigned stats */
+    if (!mob->real_abils.con) 
     {
-      GET_HIT(mob) *= 5;
-      GET_MAX_HIT(mob) *= 5;
+        assign_auto_stats(mob);
     }
-    else if (MOB_FLAGGED(mob, MOB_CAPTAIN))
+
+    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) 
     {
-      GET_HIT(mob) *= 10;
-      GET_MAX_HIT(mob) *= 10;
-    }
-    else if (MOB_FLAGGED(mob, MOB_BOSS))
-    {
-      GET_HIT(mob) *= 20;
-      GET_MAX_HIT(mob) *= 20;
-    }
-    else if (MOB_FLAGGED(mob, MOB_FINAL_BOSS))
-    {
-      GET_HIT(mob) *= 50;
-      GET_MAX_HIT(mob) *= 50;
-    }
-  }
+        ranks = GET_HITDICE(mob);
 
-  if (GET_REAL_RACE(mob) > NUM_RACES)
-    GET_REAL_RACE(mob) = RACE_SPIRIT;
+        switch (GET_CLASS(mob)) 
+        {
+            case CLASS_WIZARD:
+            set_attributes(mob, 10, 10, 16, 16 + (ranks / 4), 10, 10);
+            break;
+            case CLASS_CLERIC:
+            set_attributes(mob, 12, 12, 12, 10, 16 + (ranks / 4), 10);
+            break;
+            case CLASS_ROGUE:
+            set_attributes(mob, 14, 10, 16 + (ranks / 4), 12, 10, 10);
+            break;
+            case CLASS_FIGHTER:
+            set_attributes(mob, 16 + (ranks / 4), 14, 12, 10, 10, 10);
+            break;
+            case CLASS_MONK:
+            set_attributes(mob, 12, 12, 14, 10, 16 + (ranks / 4), 10);
+            break;
+            case CLASS_PALADIN:
+            set_attributes(mob, 12, 12, 12, 10, 10, 16 + (ranks / 4));
+            break;
+            default:
+            set_attributes(mob, 12, 16 + (ranks / 4), 12, 10, 12, 10);
+            break;
+        }
 
-  if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-    GET_DAMAGE_MOD(mob) = MAX(1, GET_LEVEL(mob) / 2);
-    GET_ACCURACY_MOD(mob) = GET_LEVEL(mob) / 2;
-  }
+        set_attributes(mob, GET_STR(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[0],
+         GET_CON(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[1],
+         GET_DEX(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[4],
+         GET_INT(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[2],
+         GET_WIS(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[3],
+         GET_CHA(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[5]);
 
-  if (MOB_FLAGGED(ch, MOB_LIEUTENANT)) {
-    GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 8);
-    GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 8;
+        if (IS_HUMANOID(mob) && !MOB_FLAGGED(mob, MOB_NO_AUTOGOLD))
+            GET_GOLD(mob) = mob_gold_by_level(GET_HITDICE(mob));
+
+        switch (GET_CLASS(mob)) 
+        {
+            case CLASS_WIZARD:
+            case CLASS_SORCERER:
+            GET_ARMOR(mob) = (GET_HITDICE(mob) * 10);
+            break;
+            case CLASS_ROGUE:
+            case CLASS_BARD:
+            case CLASS_MONK:
+            GET_ARMOR(mob) = (GET_HITDICE(mob) * 11);
+            break;
+
+            case CLASS_RANGER:
+            case CLASS_BARBARIAN:
+            case CLASS_DRUID:
+            case CLASS_CLERIC:
+            GET_ARMOR(mob) = (GET_HITDICE(mob) * 12);
+            break;
+
+            case CLASS_FIGHTER:
+            case CLASS_PALADIN:
+            GET_ARMOR(mob) = (GET_HITDICE(mob) * 13);
+            break;
+
+            default:
+            GET_ARMOR(mob) = (GET_HITDICE(mob) * 12);
+            break;
+        }
+
+    }
+
+    struct char_data *ch = mob;
+
+    if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
+        GET_ARMOR(ch) += (GET_HITDICE(ch));
+    else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
+        GET_ARMOR(ch) += (GET_HITDICE(ch)* 15 / 10);
+    else if (MOB_FLAGGED(ch, MOB_BOSS))
+        GET_ARMOR(ch) += (GET_HITDICE(ch) * 2);
+    else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
+        GET_ARMOR(ch) += (GET_HITDICE(ch) * 25 / 10);
+
+    GET_MANA(mob) = GET_MAX_MANA (mob);
+    GET_MOVE(mob) = GET_MAX_MOVE(mob);
+
+    hdsize = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[GET_CLASS(mob)];
+    if (race_list[GET_RACE(mob)].family == RACE_TYPE_UNDEAD)
+        hdsize = 12;
+    if (!hdsize)
+        hdsize = 10;
+
+    if (MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+        GET_HIT(mob) = GET_MAX_HIT(mob);
+    }
+    else {
+
+        GET_MAX_HIT(mob) = GET_HITDICE(mob) * (hdsize + ((race_list[GET_RACE(mob)].family == RACE_TYPE_UNDEAD) ? 0 : ability_mod_value(GET_CON(mob))));
+        GET_HIT(mob) = GET_MAX_HIT(mob);
+        GET_MAX_MOVE(mob) = 1000;
+        if (MOB_FLAGGED(mob, MOB_MOUNTABLE))
+            GET_MAX_MOVE(mob) *= 5;
+
+        if (MOB_FLAGGED(mob, MOB_LIEUTENANT)) 
+        {
+            GET_HIT(mob) *= 5;
+            GET_MAX_HIT(mob) *= 5;
+        }
+        else if (MOB_FLAGGED(mob, MOB_CAPTAIN))
+        {
+            GET_HIT(mob) *= 10;
+            GET_MAX_HIT(mob) *= 10;
+        }
+        else if (MOB_FLAGGED(mob, MOB_BOSS))
+        {
+            GET_HIT(mob) *= 20;
+            GET_MAX_HIT(mob) *= 20;
+        }
+        else if (MOB_FLAGGED(mob, MOB_FINAL_BOSS))
+        {
+            GET_HIT(mob) *= 50;
+            GET_MAX_HIT(mob) *= 50;
+        }
+    }
+
+    if (GET_REAL_RACE(mob) > NUM_RACES)
+        GET_REAL_RACE(mob) = RACE_SPIRIT;
+
     if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-      GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
-      GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        GET_DAMAGE_MOD(mob) = MAX(1, GET_LEVEL(mob) / 2);
+        GET_ACCURACY_MOD(mob) = GET_LEVEL(mob) / 2;
     }
-  } else if (MOB_FLAGGED(ch, MOB_CAPTAIN)) {
-    GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 6);
-    GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 6;
-    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-      GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
-      GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+
+    if (MOB_FLAGGED(ch, MOB_LIEUTENANT)) {
+        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 8);
+        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 8;
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
+            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        }
+    } else if (MOB_FLAGGED(ch, MOB_CAPTAIN)) {
+        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 6);
+        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 6;
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
+            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        }
+    } else if (MOB_FLAGGED(ch, MOB_BOSS)) {
+        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 5);
+        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 5;
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
+            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        }
+    } else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS)) {
+        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 4);
+        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 4;
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
+            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        }
     }
-  } else if (MOB_FLAGGED(ch, MOB_BOSS)) {
-    GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 5);
-    GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 5;
-    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-      GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
-      GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
-    }
-  } else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS)) {
-    GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 4);
-    GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 4;
-    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-      GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
-      GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
-    }
-  }
 
 
-  
 
-  mob->time.birth = time(0) - birth_age(mob);
-  mob->time.created = mob->time.logon = time(0); /* why not */
-  mob->time.maxage = mob->time.birth + max_age(mob);
-  mob->time.played = 0;
-  mob->time.logon = time(0);
+
+    mob->time.birth = time(0) - birth_age(mob);
+    mob->time.created = mob->time.logon = time(0); /* why not */
+    mob->time.maxage = mob->time.birth + max_age(mob);
+    mob->time.played = 0;
+    mob->time.logon = time(0);
 
 }
 

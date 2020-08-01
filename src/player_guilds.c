@@ -170,83 +170,95 @@ ACMD(do_showguild)
 
 ACMD(do_setfalseethos)
 {
-  char arg[100]={'\0'};
-  int ethos = 0;
-  int prev = 0;
+    char arg[100] = {'\0'};
+    int ethos = 0;
+    // int prev = 0;
 
-  if (GET_SUBGUILD(ch) != GUILD_OPERATIVES) {
-    send_to_char(ch, "Huh?!?\r\n");
-    return;
-  }
+    if (GET_SUBGUILD(ch) != GUILD_OPERATIVES)
+    {
+        send_to_char(ch, "Huh?!?\r\n");
+        return;
+    }
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg) {
-    send_to_char(ch, "Please select either lawful, neutral or chaotic.\r\n");
-    return;
-  }
+    if (!*arg)
+    {
+        send_to_char(ch, "Please select either lawful, neutral or chaotic.\r\n");
+        return;
+    }
 
-  if (!strcmp(arg, "lawful")) {
-    send_to_char(ch, "You have set your false ethos to lawful.\r\n");
-    ethos = 500;
-  }
-  if (!strcmp(arg, "neutral")) {
-    send_to_char(ch, "You have set your false ethos to neutral.\r\n");
-    ethos = 0;
-  }
-  if (!strcmp(arg, "chaotic")) {
-    send_to_char(ch, "You have set your false ethos to chaotic.\r\n");
-    ethos = -500;
-  }
+    if (!strcmp(arg, "lawful"))
+    {
+        send_to_char(ch, "You have set your false ethos to lawful.\r\n");
+        ethos = 500;
+    }
+    if (!strcmp(arg, "neutral"))
+    {
+        send_to_char(ch, "You have set your false ethos to neutral.\r\n");
+        ethos = 0;
+    }
+    if (!strcmp(arg, "chaotic"))
+    {
+        send_to_char(ch, "You have set your false ethos to chaotic.\r\n");
+        ethos = -500;
+    }
 
-  if (GET_GUILD(ch) < 0) {
+    if (GET_GUILD(ch) < 0)
+    {
+        GET_FALSE_ETHOS(ch) = ethos;
+        return;
+    }
+
+    // prev = GET_ETHOS(ch);
     GET_FALSE_ETHOS(ch) = ethos;
-    return;
-  }
-
-  prev = GET_ETHOS(ch);
-  GET_FALSE_ETHOS(ch) = ethos;
 
 }
 
 ACMD(do_setfalsealign)
 {
-  char arg[100]={'\0'};
-  int align = 0;
-  int prev = 0;
+    char arg[100] = {'\0'};
+    int align = 0;
+    // int prev = 0;
 
-  if (GET_SUBGUILD(ch) != GUILD_OPERATIVES) {
-    send_to_char(ch, "Huh?!?\r\n");
-    return;
-  }
+    if (GET_SUBGUILD(ch) != GUILD_OPERATIVES)
+    {
+        send_to_char(ch, "Huh?!?\r\n");
+        return;
+    }
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg) {
-    send_to_char(ch, "Please select either good, neutral or evil.\r\n");
-    return;
-  }
+    if (!*arg)
+    {
+        send_to_char(ch, "Please select either good, neutral or evil.\r\n");
+        return;
+    }
 
-  if (!strcmp(arg, "good")) {
-    send_to_char(ch, "You have set your false alignment to good.\r\n");
-    align = 500;
-  }
-  if (!strcmp(arg, "neutral")) {
-    send_to_char(ch, "You have set your false alignment to neutral.\r\n");
-    align = 0;
-  }
-  if (!strcmp(arg, "evil")) {
-    send_to_char(ch, "You have set your false alignment to evil.\r\n");
-    align = -500;
-  }
+    if (!strcmp(arg, "good"))
+    {
+        send_to_char(ch, "You have set your false alignment to good.\r\n");
+        align = 500;
+    }
+    if (!strcmp(arg, "neutral"))
+    {
+        send_to_char(ch, "You have set your false alignment to neutral.\r\n");
+        align = 0;
+    }
+    if (!strcmp(arg, "evil"))
+    {
+        send_to_char(ch, "You have set your false alignment to evil.\r\n");
+        align = -500;
+    }
 
-  if (GET_GUILD(ch) < 0) {
+    if (GET_GUILD(ch) < 0)
+    {
+        GET_FALSE_ALIGNMENT(ch) = align;
+        return;
+    }
+
+    // prev = GET_ALIGNMENT(ch);
     GET_FALSE_ALIGNMENT(ch) = align;
-    return;
-  }
-
-  prev = GET_ALIGNMENT(ch);
-  GET_FALSE_ALIGNMENT(ch) = align;
 
 }
 

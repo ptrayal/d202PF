@@ -1,30 +1,30 @@
-Jan 31 12:10:59 :: Resetting #52: Gauntlgrym (rooms 5200-5399).
-Jan 31 12:10:59 :: Resetting #60: New Zone (rooms 6000-6399).
-Jan 31 12:10:59 :: Resetting #100: Chult (rooms 10000-10199).
-Jan 31 12:10:59 :: Resetting #102: Dwarven Stronghold (rooms 10200-10399).
-Jan 31 12:10:59 :: Resetting #104: Mezro (rooms 10400-10599).
-Jan 31 12:10:59 :: Resetting #106: Ubtao's Temple (rooms 10600-10799).
-Jan 31 12:10:59 :: Resetting #108: Chult (rooms 10800-10999).
-Jan 31 12:10:59 :: Resetting #110: Under the mines of Mirabar (rooms 11000-11099).
-Jan 31 12:10:59 :: Resetting #120: Undermountain Level I (rooms 12000-12199).
-Jan 31 12:10:59 :: Resetting #300: Stock Objects and Mobs I (rooms 30000-30099).
-Jan 31 12:10:59 :: Resetting #301: Stock Objects and Mobs II (rooms 30100-30199).
-Jan 31 12:10:59 :: Resetting #302: Quest Rewards I (rooms 30200-30299).
-Jan 31 12:10:59 :: Resetting #500: Road-Neverwinter/Luskan (rooms 50000-50199).
-Jan 31 12:10:59 :: Resetting #502: Road-Luskan/Mirabar (rooms 50200-50499).
-Jan 31 12:10:59 :: Resetting #505: Road-Neverwinter/Waterdeep (rooms 50500-50849).
-Jan 31 12:10:59 :: Resetting #508: Road-Waterdeep/Triboar (rooms 50850-51049).
-Jan 31 12:10:59 :: Resetting #510: Road-Silverymoon/Triboar (rooms 51050-51449).
-Jan 31 12:10:59 :: Resetting #514: Road-Mirabar/Triboar (rooms 51450-51799).
-Jan 31 12:10:59 :: Resetting #596: Whack-a-Mole (rooms 59600-59699).
-Jan 31 12:10:59 :: Resetting #597: Quests (rooms 59700-59799).
-Jan 31 12:10:59 :: Resetting #598: Vehicles (rooms 59800-59899).
-Jan 31 12:10:59 :: Resetting #599: Player Housing (rooms 59900-59999).
-Jan 31 12:10:59 :: Resetting #600: Crafting Items (rooms 60000-65000).
-Jan 31 12:10:59 :: Boot db -- DONE.
-Jan 31 12:10:59 :: Signal trapping.
-Jan 31 12:10:59 :: Entering game loop.
-Jan 31 12:10:59 :: No connections.  Going to sleep.
-Jan 31 20:03:16 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
-Quick boot mode -- rent check supressed.
-Using log file 'log/syslog' with redirection.
+Jul  5 20:07:15 :: Uriel has connected.
+Jul  5 20:07:15 :: Uriel [127.0.0.1] has connected.
+Jul  5 20:07:16 :: Cannot connect to mysql database in enter player game.
+Jul  5 20:07:16 :: Cannot set last_login for Uriel in player_logins
+Jul  5 20:07:16 :: Uriel un-renting and entering game.
+Jul  5 20:07:16 :: Uriel (level 1) has 0 objects (max 1000).
+Jul  5 20:07:16 :: Uriel had no variable file
+Jul  5 20:07:16 :: Cannot connect to mysql database in note_list_all_cats.
+Jul  5 20:07:17 :: Cannot connect to mysql database in point update.
+Jul  5 20:07:17 :: Cannot set online status to 0
+Jul  5 20:07:17 :: Cannot connect to mysql database in point update.
+Jul  5 20:07:17 :: Cannot set delete Uriel from player_data table
+Jul  5 20:07:17 :: Cannot insert data for Uriel into player_data table
+Jul  5 20:07:17 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('3','1','Uriel','Uriel','Uriel', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '5', '0')
+Jul  5 20:07:17 :: Cannot insert data for rayal into player_forum_data table
+Jul  5 20:07:23 :: Cannot connect to mysql database in point update.
+Jul  5 20:07:23 :: Cannot set online status to 0
+Jul  5 20:07:23 :: Cannot connect to mysql database in point update.
+Jul  5 20:07:23 :: Cannot set delete Uriel from player_data table
+Jul  5 20:07:23 :: Cannot insert data for Uriel into player_data table
+Jul  5 20:07:23 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('3','1','Uriel','Uriel','Uriel', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '5', '0')
+Jul  5 20:07:23 :: Cannot insert data for rayal into player_forum_data table
+Jul  5 20:07:29 :: Cannot connect to mysql database in point update.
+Jul  5 20:07:29 :: Cannot set online status to 0
+Jul  5 20:07:29 :: Cannot connect to mysql database in point update.
+Jul  5 20:07:29 :: Cannot set delete Uriel from player_data table
+Jul  5 20:07:29 :: Cannot insert data for Uriel into player_data table
+Jul  5 20:07:29 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('3','1','Uriel','Uriel','Uriel', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '5', '0')
+Jul  5 20:07:29 :: Cannot insert data for rayal into player_forum_data table
+Segmentation fault (core dumped)
