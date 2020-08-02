@@ -28,30 +28,48 @@ int load_account(char *name, struct account_data *account)
 {
     FILE *fl;
     char fname[READ_SIZE] = {'\0'};
-    char buf[128] = {'\0'}, line[MAX_INPUT_LENGTH + 1] = {'\0'}, tag[6] = {'\0'};
+    char buf[128] = {'\0'};
+    char line[MAX_INPUT_LENGTH + 1] = {'\0'}, tag[6] = {'\0'};
     int i = 0;
     int num = 0, num2 = 0, num3 = 0;
 
     if (!account)
+    {
         return -1;
+    }
 
     for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
+    {
         account->character_names[i] = NULL;
+    }
+
     account->experience = 0;
     account->gift_experience = 0;
     account->level = 0;
     account->read_rules = 0;
     account->websiteAccount = NULL;
+
     for (i = 0; i < NUM_POLLS; i++)
+    {
         account->polls[i] = 0;
+    }
+
     for (i = 0; i < MAX_UNLOCKED_RACES; i++)
+    {
         account->races[i] = 0;
+    }
+
     for (i = 0; i < MAX_UNLOCKED_CLASSES; i++)
+    {
         account->classes[i] = 999;
+    }
+
     account->email = strdup("Not Set Yet");
 
     if (!get_filename(fname, sizeof(fname), ACT_FILE, name))
+    {
         return (-1);
+    }
     if (!(fl = fopen(fname, "r")))
     {
         /*    mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open account file %s", fname); */
@@ -72,7 +90,9 @@ int load_account(char *name, struct account_data *account)
                     get_line(fl, line);
                     sscanf(line, "%s", buf);
                     if (strcmp(buf, "-1"))
+                    {
                         account->character_names[i] = strdup(buf);
+                    }
                     i++;
                 }
                 while (strcmp(buf, "-1"));
@@ -85,29 +105,49 @@ int load_account(char *name, struct account_data *account)
                     get_line(fl, line);
                     sscanf(line, "%d", &num2);
                     if (num2 != -1)
+                    {
                         account->classes[i] = num2;
+                    }
                     i++;
                 }
                 while (num2 != -1);
             }
             break;
         case 'E':
-            if (!strcmp(tag, "Exp "))  account->experience = atoi(line);
+            if (!strcmp(tag, "Exp "))
+            {
+                account->experience = atoi(line);
+            }
             break;
         case 'G':
-            if (!strcmp(tag, "Gift"))  account->gift_experience = atoi(line);
+            if (!strcmp(tag, "Gift"))
+            {
+                account->gift_experience = atoi(line);
+            }
             break;
         case 'L':
-            if (!strcmp(tag, "Levl"))  account->level = atoi(line);
+            if (!strcmp(tag, "Levl"))
+            {
+                account->level = atoi(line);
+            }
             break;
         case 'M':
-            if (!strcmp(tag, "Mail"))  account->email = strdup(line);
+            if (!strcmp(tag, "Mail"))
+            {
+                account->email = strdup(line);
+            }
             break;
         case 'N':
-            if (!strcmp(tag, "Name"))  account->name = strdup(line);
+            if (!strcmp(tag, "Name"))
+            {
+                account->name = strdup(line);
+            }
             break;
         case 'P':
-            if (!strcmp(tag, "Pswd"))  strcpy(account->password, line);
+            if (!strcmp(tag, "Pswd"))
+            {
+                strcpy(account->password, line);
+            }
             else if (!strcmp(tag, "Poll"))
             {
                 num = 0;
@@ -116,7 +156,9 @@ int load_account(char *name, struct account_data *account)
                     get_line(fl, line);
                     sscanf(line, "%d %d", &num2, &num3);
                     if(num2 != -1)
+                    {
                         account->polls[num2] = num3;
+                    }
                     num++;
                 }
                 while (num2 != -1);
@@ -131,25 +173,35 @@ int load_account(char *name, struct account_data *account)
                     get_line(fl, line);
                     sscanf(line, "%d", &num2);
                     if (num2 != -1)
+                    {
                         account->races[i] = num2;
+                    }
                     i++;
                 }
                 while (num2 != -1);
             }
-            else if (!strcmp(tag, "Rule"))  account->read_rules = atoi(line);
+            else if (!strcmp(tag, "Rule"))
+            {
+                account->read_rules = atoi(line);
+            }
             break;
         case 'W':
-            if (!strcmp(tag, "WPas"))  account->web_password = strdup(line);
+            if (!strcmp(tag, "WPas"))
+            {
+                account->web_password = strdup(line);
+            }
             break;
         }
     }
 
     if (fl)
+    {
         fclose(fl);
+    }
 
     return 0;
-
 }
+
 void save_account(struct account_data *account)
 {
     char fname[100] = {'\0'};
@@ -157,10 +209,14 @@ void save_account(struct account_data *account)
     int i = 0;
 
     if (!account)
+    {
         return;
+    }
 
     if (account == NULL || !get_filename(fname, sizeof(fname), ACT_FILE, account->name))
+    {
         return;
+    }
 
     if (!(fl = fopen(fname, "w")))
     {
@@ -168,10 +224,12 @@ void save_account(struct account_data *account)
         char newdir[100] = {'\0'};
         if (CONFIG_DFLT_PORT == 9080)
         {
-            sprintf(newdir, "/home/aod/d20PlayPort/lib");
+            // This would be the path for the production directory
+            sprintf(newdir, "../lib");
         }
         else
         {
+            // This would be the path for the test directory
             sprintf(newdir, "/home/aod/d20CodePort/lib");
         }
 
@@ -195,7 +253,9 @@ void save_account(struct account_data *account)
             for (ch = character_list; ch; ch = ch->next)
             {
                 if (IS_NPC(ch) || !ch->desc)
+                {
                     continue;
+                }
 
                 send_to_char(ch,
                              "@l@RThe filesystem has become corrupted and the mud must shut down to avoid lost data.  Please remember\r\n"
@@ -208,7 +268,9 @@ void save_account(struct account_data *account)
 
     fprintf(fl, "Name: %s\n", account->name);
     if (account->email)
+    {
         fprintf(fl, "Mail: %s\n", account->email);
+    }
     fprintf(fl, "Pswd: %s\n", account->password);
     fprintf(fl, "Rule: %d\n", account->read_rules);
     fprintf(fl, "Exp : %d\n", account->experience);
@@ -253,7 +315,6 @@ void save_account(struct account_data *account)
     }
     fprintf(fl, "-1\n");
 
-
     fclose(fl);
 
     struct descriptor_data *d;
@@ -262,9 +323,10 @@ void save_account(struct account_data *account)
     for (d = descriptor_list; d; d = d->next)
     {
         if (d && d->character && d->account && d->account->name && account->name && !strcmp(d->account->name, account->name))
+        {
             load_account(account->name, d->account);
+        }
     }
-
 }
 
 void show_account_menu(struct descriptor_data *d)
@@ -279,32 +341,32 @@ void show_account_menu(struct descriptor_data *d)
     write_to_output(d, "Characters:\r\n");
     write_to_output(d, "-----------\r\n");
 
-/* Open mysql connection*/
+    /* Open mysql connection*/
     conn = mysql_init(NULL);
 
-/* Connect to database */
-    if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) 
+    /* Connect to database */
+    if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0))
     {
         log("Cannot connect to mysql database in enter player game.");
     }
 
-    if (d->account) 
+    if (d->account)
     {
         int i = 0;
-        for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) 
+        for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
         {
-            if (d->account->character_names[i] != NULL) 
+            if (d->account->character_names[i] != NULL)
             {
                 MYSQL_RES *res = NULL;
-                char query[MAX_INPUT_LENGTH]={'\0'};
+                char query[MAX_INPUT_LENGTH] = {'\0'};
                 write_to_output(d, "%d) %-20s", i + 1, d->account->character_names[i]);
                 sprintf(query, "SELECT alignment, race, classes, level FROM player_data WHERE name='%s'", d->account->character_names[i]);
                 mysql_query(conn, query);
                 res = mysql_use_result(conn);
-                if (res != NULL) 
+                if (res != NULL)
                 {
                     MYSQL_ROW row = NULL;
-                    if ((row = mysql_fetch_row(res)) != NULL) 
+                    if ((row = mysql_fetch_row(res)) != NULL)
                     {
                         write_to_output(d, "     Level %s %s %s %s", row[3], row[0], row[1], row[2]);
                     }
@@ -316,8 +378,6 @@ void show_account_menu(struct descriptor_data *d)
     }
     mysql_close(conn);
 
-
-
     write_to_output(d, "\r\n");
     write_to_output(d, "Your choice: ");
 }
@@ -325,65 +385,70 @@ void show_account_menu(struct descriptor_data *d)
 void combine_accounts(void) 
 {
 
-     struct descriptor_data *d;
-     struct descriptor_data *k;
+    struct descriptor_data *d;
+    struct descriptor_data *k;
 
-/* characters */
-     for (d = descriptor_list; d; d = d->next) {
-          for (k = descriptor_list; k; k = k->next) {
-               if (d && k && d->account && k->account && d->account != k->account && 
+    /* characters */
+    for (d = descriptor_list; d; d = d->next)
+    {
+        for (k = descriptor_list; k; k = k->next)
+        {
+            if (d && k && d->account && k->account && d->account != k->account &&
                     d->character && k->character && d->character->account_name && k->character->account_name &&
-                    !strcmp(d->character->account_name, k->character->account_name)) {
-                    d->account = k->account;
-               return;
-          }
-     }
-}
+                    !strcmp(d->character->account_name, k->character->account_name))
+            {
+                d->account = k->account;
+                return;
+            }
+        }
+    }
 
 }
 
 char *escape_colorcode(char *query)
 {
-    char escape[MAX_STRING_LENGTH]={'\0'};
-    int i = 0, j = 0;
+    char escape[MAX_STRING_LENGTH] = {'\0'};
+    int i = 0;
+    int j = 0;
 
     if (!*query)
+    {
         return NULL;
+    }
 
     if (strlen(query) >= MAX_STRING_LENGTH)
-        return NULL;
-
-
-    for (i = 0; i < strlen(query); i++) 
     {
-        if (query[i] == '@') 
+        return NULL;
+    }
+
+    for (i = 0; i < strlen(query); i++)
+    {
+        if (query[i] == '@')
         {
-            escape[i+j] = '@';
+            escape[i + j] = '@';
             escape[i + (++j)] = query[i];
-        } 
-        else 
+        }
+        else
         {
-            escape[i+j] = query[i];
+            escape[i + j] = query[i];
         }
     }
 
-    escape[i+j] = '\0';
+    escape[i + j] = '\0';
 
     return strdup(escape);
-
 }
 
 ACMD(do_account)
 {
+    struct account_data *acc = ch->desc->account;
+    int i = 0;
 
     if (IS_NPC(ch) || !ch->desc || !ch->desc->account)
     {
         send_to_char(ch, "The account command can only be used by player characters with a valid account.\r\n");
         return;
     }
-
-    struct account_data *acc = ch->desc->account;
-    int i = 0;
 
     GRID_DATA *grid;
     GRID_ROW *row;
@@ -436,11 +501,13 @@ ACMD(do_account)
             found = TRUE;
         }
     }
+
     if (!found)
     {
         row = create_row(grid);
         row_append_cell(row, 75, "  @RNone@n.  Unlock them with the @Yaccexp@n command.");
     }
+
     found = FALSE;
 
     row = create_row(grid);

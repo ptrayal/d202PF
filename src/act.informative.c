@@ -9,7 +9,6 @@
 ************************************************************************ */
 
 #include "mysql/mysql.h"
-
 #include "conf.h"
 #include "sysdep.h"
 
@@ -176,91 +175,132 @@ const char *portal_appearance[] =
 
 struct help_index_element *find_help(char *keyword)
 {
-  extern int top_of_helpt;
-  int i = 0;
-  char new_keyword[MAX_INPUT_LENGTH]={'\0'};
+    extern int top_of_helpt;
+    int i = 0;
+    char new_keyword[MAX_INPUT_LENGTH] = {'\0'};
 
-  for (i = 0; i < top_of_helpt; i++)
-    if (isname(keyword, help_table[i].keywords))
-      return (help_table + i);
-  
-  for (i = 0; i < strlen(keyword); i++) {
-    keyword[i] = toupper(keyword[i]);
-    if (i != 0 && keyword[i] == ' ')
-      keyword[i] = '-';
-  }
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (isname(keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(keyword, help_table[i].keywords))
-      return (help_table + i);
+    for (i = 0; i < strlen(keyword); i++)
+    {
+        keyword[i] = toupper(keyword[i]);
+        if (i != 0 && keyword[i] == ' ')
+        {
+            keyword[i] = '-';
+        }
+    }
 
-  sprintf(new_keyword, "class-%s", keyword);
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(new_keyword, help_table[i].keywords))
-      return (help_table + i);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  sprintf(new_keyword, "race-%s", keyword);
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(new_keyword, help_table[i].keywords))
-      return (help_table + i);
+    sprintf(new_keyword, "class-%s", keyword);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(new_keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  sprintf(new_keyword, "feat-%s", keyword);
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(new_keyword, help_table[i].keywords))
-      return (help_table + i);
+    sprintf(new_keyword, "race-%s", keyword);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(new_keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  sprintf(new_keyword, "class-ability-%s", keyword);
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(new_keyword, help_table[i].keywords))
-      return (help_table + i);
+    sprintf(new_keyword, "feat-%s", keyword);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(new_keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  sprintf(new_keyword, "class-abilities-%s", keyword);
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(new_keyword, help_table[i].keywords))
-      return (help_table + i);
+    sprintf(new_keyword, "class-ability-%s", keyword);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(new_keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  sprintf(new_keyword, "skill-%s", keyword);
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(new_keyword, help_table[i].keywords))
-      return (help_table + i);
+    sprintf(new_keyword, "class-abilities-%s", keyword);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(new_keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  sprintf(new_keyword, "spell-%s", keyword);
-  for (i = 0; i < top_of_helpt; i++)
-    if (is_abbrev(new_keyword, help_table[i].keywords))
-      return (help_table + i);
+    sprintf(new_keyword, "skill-%s", keyword);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(new_keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
 
-  return NULL;
+    sprintf(new_keyword, "spell-%s", keyword);
+    for (i = 0; i < top_of_helpt; i++)
+    {
+        if (is_abbrev(new_keyword, help_table[i].keywords))
+        {
+            return (help_table + i);
+        }
+    }
+
+    return NULL;
 }
 
 
 void display_spells(struct char_data *ch, struct obj_data *obj)
 {
-  int i = 0, j = 0;
-  int titleDone = FALSE;
+    int i = 0, j = 0;
+    int titleDone = FALSE;
 
-  send_to_char(ch, "The spellbook contains the following spells:\r\n");
-  send_to_char(ch, "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\r\n");
-  if (!obj->sbinfo)
-    return;
-  for (j = 0; j <= 9; j++) 
-  {
-    titleDone = FALSE;
-    for (i=0; i < SPELLBOOK_SIZE; i++) 
+    send_to_char(ch, "The spellbook contains the following spells:\r\n");
+    send_to_char(ch, "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\r\n");
+    if (!obj->sbinfo)
     {
-      if (obj->sbinfo[i].spellname != 0 && spell_info[obj->sbinfo[i].spellname].class_level[CLASS_WIZARD] == j) 
-      {
-        if (!titleDone) 
-        {
-        send_to_char(ch, "\r\n@WSpell Level %d:@n\r\n", j);
-        titleDone = TRUE;
-        }
-        send_to_char(ch, "\t[U10132/*]%-20s		[%2d]\r\n", 
-obj->sbinfo[i].spellname <= MAX_SPELLS ? spell_info[obj->sbinfo[i].spellname].name : "Error: Contact Admin"  ,
-obj->sbinfo[i].pages ? obj->sbinfo[i].pages : 0);
-      }
+        return;
     }
-  }
-  return;
+    for (j = 0; j <= 9; j++)
+    {
+        titleDone = FALSE;
+        for (i = 0; i < SPELLBOOK_SIZE; i++)
+        {
+            if (obj->sbinfo[i].spellname != 0 && spell_info[obj->sbinfo[i].spellname].class_level[CLASS_WIZARD] == j)
+            {
+                if (!titleDone)
+                {
+                    send_to_char(ch, "\r\n@WSpell Level %d:@n\r\n", j);
+                    titleDone = TRUE;
+                }
+                send_to_char(ch, "\t[U10132/*]%-20s   [%2d]\r\n",
+                             obj->sbinfo[i].spellname <= MAX_SPELLS ? spell_info[obj->sbinfo[i].spellname].name : "Error: Contact Admin",
+                             obj->sbinfo[i].pages ? obj->sbinfo[i].pages : 0);
+            }
+        }
+    }
+    return;
 }
 
 void display_scroll(struct char_data *ch, struct obj_data *obj)
@@ -273,6 +313,12 @@ void display_scroll(struct char_data *ch, struct obj_data *obj)
 
 void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mode)
 {
+  char amount[200]={'\0'};
+  char buf2[200]={'\0'};
+  char bitbuf[200]={'\0'};
+  int found = FALSE;
+  int i = 0;
+
   if (!obj || !ch) {
     log("SYSERR: NULL pointer in show_obj_to_char(): obj=%p ch=%p", obj, ch);
     /*  SYSERR_DESC:
@@ -283,12 +329,6 @@ void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mode)
      */
     return;
   }
-
-  char amount[200]={'\0'};
-  char buf2[200]={'\0'};
-  char bitbuf[200]={'\0'};
-  int found = FALSE;
-  int i = 0;
 
   switch (mode) {
   case SHOW_OBJ_LONG:
@@ -5463,124 +5503,163 @@ ACMD(do_eqstats)
 
 ACMD(do_output) 
 {
-  char one[50]={'\0'}, two[50]={'\0'};
-  two_arguments(argument, one, two);
-  if (!*one) {
-    send_to_char(ch, "Current output options are:\r\n"
+    char one[50] = {'\0'};
+    char two[50] = {'\0'};
+
+    two_arguments(argument, one, two);
+
+    if (!*one)
+    {
+        send_to_char(ch, "Current output options are:\r\n"
                      "-- combat (full | normal | sparse)\r\n"
-                );
-    return;
-  }
-  if (strlen(one) > 50) {
-    send_to_char(ch, "The command parameters cannot exceed 50 characters.\r\n");
-    return;
-  }
-  if (!*two) {
-    send_to_char(ch, "Current output options are:\r\n"
-                     "-- combat (full | normal | sparse)\r\n"
-                );
-    return;
-  }
-  if (strlen(two) > 50) {
-    send_to_char(ch, "The command parameters cannot exceed 50 characters.\r\n");
-    return;
-  }
-  if (is_abbrev(one, "combat")) {
-    if (is_abbrev(two, "full")) {
-      ch->combat_output = OUTPUT_FULL;
-      send_to_char(ch, "Combat output set to 'full'.\r\n");
-      return;
-    } else if (is_abbrev(two, "normal")) {
-      ch->combat_output = OUTPUT_NORMAL;
-      send_to_char(ch, "Combat output set to 'normal'.\r\n");
-      return;
-    } else if (is_abbrev(two, "sparse") || FALSE) {
-      ch->combat_output = OUTPUT_SPARSE;
-      send_to_char(ch, "Combat output set to 'sparse'.\r\n");
-      return;
-    } else {
-      send_to_char(ch, "Current output options are:\r\n"
-                       "-- combat (full | normal | sparse)\r\n"
-                  );
-      return;
+                    );
+        return;
     }
-  } else {
-    send_to_char(ch, "Current output options are:\r\n"
+    if (strlen(one) > 50)
+    {
+        send_to_char(ch, "The command parameters cannot exceed 50 characters.\r\n");
+        return;
+    }
+    if (!*two)
+    {
+        send_to_char(ch, "Current output options are:\r\n"
                      "-- combat (full | normal | sparse)\r\n"
-                );
-    return;
-  }
+                    );
+        return;
+    }
+    if (strlen(two) > 50)
+    {
+        send_to_char(ch, "The command parameters cannot exceed 50 characters.\r\n");
+        return;
+    }
+    if (is_abbrev(one, "combat"))
+    {
+        if (is_abbrev(two, "full"))
+        {
+            ch->combat_output = OUTPUT_FULL;
+            send_to_char(ch, "Combat output set to 'full'.\r\n");
+            return;
+        }
+        else if (is_abbrev(two, "normal"))
+        {
+            ch->combat_output = OUTPUT_NORMAL;
+            send_to_char(ch, "Combat output set to 'normal'.\r\n");
+            return;
+        }
+        else if (is_abbrev(two, "sparse") || FALSE)
+        {
+            ch->combat_output = OUTPUT_SPARSE;
+            send_to_char(ch, "Combat output set to 'sparse'.\r\n");
+            return;
+        }
+        else
+        {
+            send_to_char(ch, "Current output options are:\r\n"
+                         "-- combat (full | normal | sparse)\r\n"
+                        );
+            return;
+        }
+    }
+    else
+    {
+        send_to_char(ch, "Current output options are:\r\n"
+                     "-- combat (full | normal | sparse)\r\n"
+                    );
+        return;
+    }
 }
 char *get_weapon_dam(struct char_data *ch)
 {
-  char main_dam_text[200]={'\0'}, off_dam_text[200]={'\0'};
+    char main_dam_text[200] = {'\0'};
+    char off_dam_text[200] = {'\0'};
+    char dam_text[400] = {'\0'};
 
-  sprintf(main_dam_text, "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 2),
-          (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)));
-  if (GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE))
-    sprintf(off_dam_text, "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 2),
-          (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)));
-  else
-    sprintf(off_dam_text, "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD2), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD2), 2),
-          (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD2)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD2)));
+    snprintf(main_dam_text, sizeof(main_dam_text), "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 2),
+             (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)));
 
-  char dam_text[400]={'\0'};
+    if (GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE))
+    {
+        sprintf(off_dam_text, "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD1), 2),
+                (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD1)));
+    }
+    else
+    {
+        sprintf(off_dam_text, "%dd%d%s%d", get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD2), 1), get_dam_dice_size(ch, GET_EQ(ch, WEAR_WIELD2), 2),
+                (get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD2)) >= 0) ? "+" : "-", get_damage_mod(ch, GET_EQ(ch, WEAR_WIELD2)));
+    }
 
-  sprintf(dam_text, "%s%s%s", main_dam_text, ((GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE)) ||
-                              GET_EQ(ch, WEAR_WIELD2)) ? "/" : "", ((GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE)) ||
-                              GET_EQ(ch, WEAR_WIELD2)) ? off_dam_text : "");
+    sprintf(dam_text, "%s%s%s", main_dam_text, ((GET_EQ(ch, WEAR_WIELD1) &&IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE)) ||
+            GET_EQ(ch, WEAR_WIELD2)) ? "/" : "", ((GET_EQ(ch, WEAR_WIELD1) &&IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE)) ||
+                    GET_EQ(ch, WEAR_WIELD2)) ? off_dam_text : "");
 
-  return strdup(dam_text);
+    return strdup(dam_text);
 }
 
 char *get_attack_text(struct char_data *ch)
 {
+    char attack_text[200] = {'\0'};
+    int attack = 0;
+    int base_attack = 0;
+    int offhand = 0;
+    int weaponmod = 0;
+    int offhandmod = 0;
+    int i = 0;
+    int j = 0;
 
-  int attack = 0, base_attack = 0, offhand = 0, weaponmod = 0, offhandmod = 0;
-  int i = 0, j = 0;
-  char attack_text[200]={'\0'};
-
-  // Determine number of attacks and their attack values
-    for (j = 0; j < MAX_OBJ_AFFECT; j++) {
-      if (GET_EQ(ch, WEAR_WIELD1) && (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
-        weaponmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
+    // Determine number of attacks and their attack values
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
+    {
+        if (GET_EQ(ch, WEAR_WIELD1) && (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
+        {
+            weaponmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
+        }
     }
-    for (j = 0; j < MAX_OBJ_AFFECT; j++) {
-      if (GET_EQ(ch, WEAR_WIELD2) && (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
-        offhandmod = GET_EQ(ch, WEAR_WIELD2)->affected[j].modifier;
-      else if (GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE) && 
-              GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
-        offhandmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
-    }  
-  
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
+    {
+        if (GET_EQ(ch, WEAR_WIELD2) && (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
+        {
+            offhandmod = GET_EQ(ch, WEAR_WIELD2)->affected[j].modifier;
+        }
+        else if (GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE) &&
+                 GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
+        {
+            offhandmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
+        }
+    }
 
     sprintf(attack_text, "(");
     attack = compute_base_hit(ch, weaponmod);
     base_attack = GET_ACCURACY_BASE(ch);
     offhand = compute_base_hit(ch, offhandmod);
-    for (i = 0; i < 4; i++) {
-
-      if (i != 0 && base_attack > 0)
-        sprintf(attack_text, "%s/", attack_text);
-      if (base_attack > 0) {
-        sprintf(attack_text, "%s%s%d", attack_text, (attack > 0) ? "+" : "", attack);
-        if (i == 0 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON) {
-          sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+    for (i = 0; i < 4; i++)
+    {
+        if (i != 0 && base_attack > 0)
+        {
+            snprintf(attack_text, 200, "%s/", attack_text);
         }
-        if (i == 1 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON && HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING)) {
-          offhand = compute_base_hit(ch, offhandmod) - 5;
-          sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+        if (base_attack > 0)
+        {
+            snprintf(attack_text, 200, "%s%s%d", attack_text, (attack > 0) ? "+" : "", attack);
+            if (i == 0 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
+            {
+                snprintf(attack_text, 200, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+            }
+            if (i == 1 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON && HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING))
+            {
+                offhand = compute_base_hit(ch, offhandmod) - 5;
+                snprintf(attack_text, 200, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+            }
+            if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) && GET_CLASS_RANKS(ch, CLASS_MONK) && !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2)))
+            {
+                snprintf(attack_text, 200, "%s/%s%d", attack_text, (attack > 0) ? "+" : "", attack);
+            }
         }
-        if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) && GET_CLASS_RANKS(ch, CLASS_MONK) && !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2))) {
-          sprintf(attack_text, "%s/%s%d", attack_text, (attack > 0) ? "+" : "", attack);
-        }
-      }
-      attack -= 5;
-      base_attack -= 5;
+        attack -= 5;
+        base_attack -= 5;
     }
-    sprintf(attack_text, "%s)", attack_text);
+    snprintf(attack_text, 200, "%s)", attack_text);
 
-  return strdup(attack_text);
+    return strdup(attack_text);
 }
 
 ACMD (do_show_combat)
@@ -5590,12 +5669,14 @@ ACMD (do_show_combat)
     int race_mod = 0;
     int misc_mod = 0;
     int initiative_total = 0;
-    
+
     if (HAS_FEAT(ch, FEAT_IMPROVED_INITIATIVE))
+    {
         feat += 4;
-    
+    }
+
     initiative_total = dex_mod_capped(ch) + feat + race_mod + misc_mod;
-    
+
     send_to_char(ch, "\t[B321]\tBInitiative\tn\r\n");
     send_to_char(ch, "\t[B202]\tW[%4s] + [%4s] + [%4s] + [%4s]    %s\tn\r\n", "Dex", "Feat", "Race", "Misc", "Total");
     send_to_char(ch, "[ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", dex_mod_capped(ch), feat, race_mod, misc_mod, initiative_total);
@@ -5634,17 +5715,17 @@ ACMD (do_show_combat)
 
     // Calculate magic bonus.
     if (affected_by_spell(ch, SPELL_PRAYER))
-        {
-            fort_magic += 1;
-            ref_magic += 1;
-            will_magic += 1;
-        }
+    {
+        fort_magic += 1;
+        ref_magic += 1;
+        will_magic += 1;
+    }
     if (affected_by_spell(ch, SPELL_BESTOW_CURSE_PENALTIES))
-        {
-            fort_magic -= 4;
-            ref_magic -= 4;
-            will_magic -= 4;
-        }
+    {
+        fort_magic -= 4;
+        ref_magic -= 4;
+        will_magic -= 4;
+    }
 
     // Calculate misc bonus.
     if (IS_HALFLING(ch))
@@ -5654,7 +5735,7 @@ ACMD (do_show_combat)
         will_misc += 1;
     }
     if (HAS_FEAT(ch, FEAT_DIVINE_GRACE) || HAS_FEAT(ch, FEAT_DARK_BLESSING))
-    {    
+    {
         fort_misc += ability_mod_value(GET_CHA(ch));
         ref_misc += ability_mod_value(GET_CHA(ch));
         will_misc += ability_mod_value(GET_CHA(ch));

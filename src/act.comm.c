@@ -137,35 +137,36 @@ void list_languages(struct char_data *ch)
 
 ACMD(do_languages)
 {
+    char arg[MAX_STRING_LENGTH] = {'\0'};
     int i = 0, found = false;
-    char arg[MAX_STRING_LENGTH]={'\0'};
 
-    if (CONFIG_ENABLE_LANGUAGES) 
+    if (CONFIG_ENABLE_LANGUAGES)
     {
         one_argument(argument, arg);
 
         if (!*arg)
             list_languages(ch);
-        else 
+        else
         {
-            for (i = MIN_LANGUAGES; i <= CampaignMaxLanguages(); i++) {
-                if (((search_block(arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr), false) == i-MIN_LANGUAGES) && (GET_SKILL(ch, i) ||
-                    affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON)))) 
+            for (i = MIN_LANGUAGES; i <= CampaignMaxLanguages(); i++)
+            {
+                if (((search_block(arg, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr), false) == i - MIN_LANGUAGES) && (GET_SKILL(ch, i) ||
+                        affected_by_spell(ch, SPELL_TONGUES) || HAS_FEAT(ch, FEAT_TONGUE_OF_THE_SUN_AND_MOON))))
                 {
                     SPEAKING(ch) = i;
-                    send_to_char(ch, "You now speak %s.\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[i-MIN_LANGUAGES]);
+                    send_to_char(ch, "You now speak %s.\r\n", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? languages_dl_aol : languages_fr)[i - MIN_LANGUAGES]);
                     found = true;
                     break;
                 }
             }
-            if (!found) 
+            if (!found)
             {
                 send_to_char(ch, "You do not know of any such language.\r\n");
                 return;
             }
         }
-    } 
-    else 
+    }
+    else
     {
         send_to_char(ch, "But everyone already understands everyone else!\r\n");
         return;
@@ -960,86 +961,91 @@ ACMD(do_qcomm)
 
 ACMD(do_respond) 
 {
-  int found=0,mnum=0;
-  struct obj_data *obj;
-  char number[MAX_STRING_LENGTH]={'\0'};
+    struct obj_data *obj;
+    char number[MAX_STRING_LENGTH] = {'\0'};
+    int found = 0;
+    int mnum = 0;
 
-  if(IS_NPC(ch)) 
-  {
-    send_to_char(ch,"As a mob, you never bothered to learn to read or write.\r\n");
-    return;
-  }
+    if(IS_NPC(ch))
+    {
+        send_to_char(ch, "As a mob, you never bothered to learn to read or write.\r\n");
+        return;
+    }
 
-  for (obj = ch->carrying; obj;obj=obj->next_content) 
-  {
-    if(GET_OBJ_TYPE(obj) == ITEM_BOARD) 
+    for (obj = ch->carrying; obj; obj = obj->next_content)
     {
-      found=1;
-      break;
+        if(GET_OBJ_TYPE(obj) == ITEM_BOARD)
+        {
+            found = 1;
+            break;
+        }
     }
-  }
-  if(!obj) 
-  {
-    for (obj = world[IN_ROOM(ch)].contents; obj;obj=obj->next_content) 
+    if(!obj)
     {
-      if(GET_OBJ_TYPE(obj) == ITEM_BOARD) {
-        found=1;
-        break;
-      }
+        for (obj = world[IN_ROOM(ch)].contents; obj; obj = obj->next_content)
+        {
+            if(GET_OBJ_TYPE(obj) == ITEM_BOARD)
+            {
+                found = 1;
+                break;
+            }
+        }
     }
-  }
-  if (obj) 
-  {
-    argument = one_argument(argument, number);
-    if (!*number) 
+    if (obj)
     {
-      send_to_char(ch,"Respond to what?\r\n");
-      return;
+        argument = one_argument(argument, number);
+        if (!*number)
+        {
+            send_to_char(ch, "Respond to what?\r\n");
+            return;
+        }
+        if (!isdigit(*number) || (!(mnum = atoi(number))))
+        {
+            send_to_char(ch, "You must type the number of the message you wish to reply to.\r\n");
+            return;
+        }
+        board_respond(GET_OBJ_VNUM(obj), ch, mnum);
     }
-    if (!isdigit(*number) || (!(mnum = atoi(number)))) 
-    {
-      send_to_char(ch,"You must type the number of the message you wish to reply to.\r\n");
-      return;
-    }
-    board_respond(GET_OBJ_VNUM(obj), ch, mnum);
-  }
 
-/* No board in the room? Send generic message -spl */
-  if (found == 0) 
-  {
-    send_to_char(ch,"Sorry, you may only reply to messages posted on a board.\r\n");
-  }
+    /* No board in the room? Send generic message -spl */
+    if (found == 0)
+    {
+        send_to_char(ch, "Sorry, you may only reply to messages posted on a board.\r\n");
+    }
 }
 
 ACMD(do_petition)
 {
-  byte found = FALSE;
-  struct char_data *tch = NULL;
-  struct descriptor_data *d = NULL;
+    byte found = FALSE;
+    struct char_data *tch = NULL;
+    struct descriptor_data *d = NULL;
 
-  skip_spaces(&argument);
+    skip_spaces(&argument);
 
-  if (GET_PETITION(ch) > 0 && GET_PETITION(ch) < 50) {
-    send_to_char(ch, "You may only petition for help once every five minutes.\r\n");
-    return;
-  }  
- 
-  GET_PETITION(ch) = 1;
+    if (GET_PETITION(ch) > 0 && GET_PETITION(ch) < 50)
+    {
+        send_to_char(ch, "You may only petition for help once every five minutes.\r\n");
+        return;
+    }
 
-  for (d = descriptor_list; d; d = d->next) {
-    tch = d->character;
-    if (IS_NPC(ch))
-      continue;
-    if (GET_ADMLEVEL(tch) == 0)
-      continue;
-    if (GET_INVIS_LEV(tch) > 0)
-      continue;
-    found = TRUE;
-    send_to_char(tch, "@l@Y[PETITION FOR HELP FROM %s]@n : %s\r\n", GET_NAME(ch), *argument ? argument : "");
-  }
+    GET_PETITION(ch) = 1;
 
-  if (found) {
-    send_to_char(ch, "\r\nYour petition has been received.  Please be patient.  If you have not been contacted by\r\n"
+    for (d = descriptor_list; d; d = d->next)
+    {
+        tch = d->character;
+        if (IS_NPC(ch))
+            continue;
+        if (GET_ADMLEVEL(tch) == 0)
+            continue;
+        if (GET_INVIS_LEV(tch) > 0)
+            continue;
+        found = TRUE;
+        send_to_char(tch, "@l@Y[PETITION FOR HELP FROM %s]@n : %s\r\n", GET_NAME(ch), *argument ? argument : "");
+    }
+
+    if (found)
+    {
+        send_to_char(ch, "\r\nYour petition has been received.  Please be patient.  If you have not been contacted by\r\n"
                      "a staff member on the matter within five minutes, you may submit another petition.  The\r\n"
                      "fact that you receive this message means that an eligible staff member is online and\r\n"
                      "flagged as willing to help, however they may be afk, and thus take some time to\r\n"
@@ -1049,10 +1055,11 @@ ACMD(do_petition)
                      "Please do not partake in any actions that you are not willing to drop within a couple\r\n"
                      "of minutes of receiving a tell from a staff member.  Thank you for your patience.\r\n"
                      "\r\n");
-  }
-  else {
-    GET_PETITION(ch) = 0;
-    send_to_char(ch, "There are currently no eligible staff members available to assist you.  If the matter\r\n"
+    }
+    else
+    {
+        GET_PETITION(ch) = 0;
+        send_to_char(ch, "There are currently no eligible staff members available to assist you.  If the matter\r\n"
                      "is urgent, we ask that you try asking other players by using the newbie or chat\r\n"
                      "commands.  Otherwise you may send a mail to the staff member in charge of your\r\n"
                      "question or concern.\r\n"
@@ -1063,6 +1070,6 @@ ACMD(do_petition)
                      "\r\n"
                      "The command to send a mail is @Ymail <person's name>@n.  Thank you for your patience.\r\n"
                      "Please try again in 10 or 20 minutes if you still require assistance then.\r\n"
-                     "\r\n"); 
-  }
+                     "\r\n");
+    }
 }

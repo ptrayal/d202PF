@@ -692,398 +692,437 @@ void award_expendable_item(struct char_data *ch, int grade, int type)
   }
 }
 
-void award_magic_armor(struct char_data *ch, int grade, int moblevel) {
+void award_magic_armor(struct char_data *ch, int grade, int moblevel) 
+{
+    char desc[MAX_STRING_LENGTH] = {'\0'};
+    char desc_buffer[MAX_STRING_LENGTH] = {'\0'};
+    char newDesc[MAX_STRING_LENGTH] = {'\0'};
+    char keywords[MAX_STRING_LENGTH] = {'\0'};
+    char buf[MAX_STRING_LENGTH] = {'\0'};
+    int i = 0;
+    int roll = 0;
+    int type = 100;
+    int rand = 0;
+    int shield = FALSE;
+    int robes = FALSE;
+    int material = MATERIAL_STEEL;
+    int desc1 = 0, desc2 = 0, desc3 = 0;
+    int crest = 0, color1 = 0, color2 = 0, armor_special_desc_roll = 0;
+    int size = 0;
+    int ac_bonus = 0;
+    struct obj_data *obj;
 
-  char desc[MAX_STRING_LENGTH]={'\0'};
-  char desc_buffer[MAX_STRING_LENGTH]={'\0'};
-  char newDesc[MAX_STRING_LENGTH]={'\0'};
-  char keywords[MAX_STRING_LENGTH]={'\0'};
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  int i = 0;
-  int roll = 0;
-  int type = 100;
-  int rand = 0;
-  int shield = FALSE;
-  int robes = FALSE;
-  int material = MATERIAL_STEEL;
-  int desc1 = 0, desc2 = 0, desc3 = 0;
-  int crest = 0, color1 = 0, color2 = 0, armor_special_desc_roll = 0;
-  int size = 0;
-  struct obj_data *obj;
+    // Check power of magic item and assign an ac bonus value to the variable.
+    if (grade == GRADE_MUNDANE)
+    {
+        ac_bonus = 0;
+    }
+    else if (grade == GRADE_MINOR)
+    {
+        ac_bonus = dice(1, 5) * 5;
+    }
+    else if (grade == GRADE_MEDIUM)
+    {
+        ac_bonus = (4 + dice(1, 4)) * 5;
+    }
+    else if (grade == GRADE_MAJOR)
+    {
+        ac_bonus = (6 + dice(1, 6)) * 5;
+        moblevel -= 20;
+        if (moblevel > 0)
+            ac_bonus += 3 * moblevel;
+    }
 
-  int ac_bonus = 0;
+    // Find out if it's a shield or armor
+    roll = dice(1, 100);
 
-  // Check power of magic item and assign an ac bonus value to the variable.
-
-  if (grade == GRADE_MUNDANE) {
-    ac_bonus = 0;
-  }
-  else if (grade == GRADE_MINOR) {
-    ac_bonus = dice(1, 5) * 5;
-  }
-  else if (grade == GRADE_MEDIUM) {
-    ac_bonus = (4 + dice(1, 4)) * 5;
-  }
-  else if (grade == GRADE_MAJOR) {
-    ac_bonus = (6 + dice(1, 6)) * 5;
-    moblevel -= 20;
-    if (moblevel > 0)
-      ac_bonus += 3 * moblevel;
-  }
-
-  // Find out if it's a shield or armor
-
-  roll = dice(1, 100);
-
-  if (roll <= 50) {
-	  for (i = 0; i < 10; i++)
-		  if (ch->player_specials->wishlist[i][0] == 2)
-			  roll = 0;
-	  if (roll == 0) {
+    if (roll <= 50)
+    {
+        for (i = 0; i < 10; i++)
+            if (ch->player_specials->wishlist[i][0] == 2)
+                roll = 0;
+        if (roll == 0)
+        {
+            roll = dice(1, 10) - 1;
+            while (ch->player_specials->wishlist[roll][0] != 2)
+            {
                 roll = dice(1, 10) - 1;
-		while (ch->player_specials->wishlist[roll][0] != 2) {
-			roll = dice(1, 10) - 1;
-   		}
-		type = ch->player_specials->wishlist[roll][1];
-		if (type >= 13)
-			  shield = TRUE;
-	  }
-  }
-  else {
-	  roll = dice(1, 80);
-
-	  if (roll <= 33)
-		  shield = TRUE;
-  }
-
-  // If it's armor find out what type it is
-
-  if (!shield) {
-    roll = dice(1, 100);
-
-    if ((type == 100 && roll <= 10) || type == SPEC_ARMOR_TYPE_CLOTHING) {
-      type = SPEC_ARMOR_TYPE_CLOTHING;
-      roll = dice(1, 100);
-      if (roll <= 25)
-        material = MATERIAL_VELVET;
-      else if (roll <= 25)
-        material = MATERIAL_WOOL;
-      else
-        material = MATERIAL_COTTON;
-
+            }
+            type = ch->player_specials->wishlist[roll][1];
+            if (type >= 13)
+                shield = TRUE;
+        }
     }
-    else {
-      roll = dice(1, 100);
-
-      if ((type == 100 && roll <= 8) || type == SPEC_ARMOR_TYPE_PADDED) {
-        type = SPEC_ARMOR_TYPE_PADDED;
-        material = MATERIAL_COTTON;
-      }
-      if ((type == 100 && roll <= 16) || type == SPEC_ARMOR_TYPE_LEATHER) {
-        type = SPEC_ARMOR_TYPE_LEATHER;
-        material = MATERIAL_LEATHER;
-      }
-      if ((type == 100 && roll <= 24) || type == SPEC_ARMOR_TYPE_HIDE) {
-        type = SPEC_ARMOR_TYPE_HIDE;
-        material = MATERIAL_LEATHER;
-      }
-      if ((type == 100 && roll <= 32) || type == SPEC_ARMOR_TYPE_STUDDED_LEATHER) {
-        type = SPEC_ARMOR_TYPE_STUDDED_LEATHER;
-        material = MATERIAL_LEATHER;
-      }
-      if ((type == 100 && roll <= 40) || type == SPEC_ARMOR_TYPE_LIGHT_CHAIN)
-    	  type = SPEC_ARMOR_TYPE_LIGHT_CHAIN;
-      else if ((type == 100 && roll <= 48) || type == SPEC_ARMOR_TYPE_SCALE)
-        	type = SPEC_ARMOR_TYPE_SCALE;
-      else if ((type == 100 && roll <= 56) || type == SPEC_ARMOR_TYPE_CHAINMAIL)
-        	type = SPEC_ARMOR_TYPE_CHAINMAIL;
-      else if ((type == 100 && roll <= 64) || type == SPEC_ARMOR_TYPE_PIECEMEAL)
-        	type = SPEC_ARMOR_TYPE_PIECEMEAL;
-      else if ((type == 100 && roll <= 72) || type == SPEC_ARMOR_TYPE_SPLINT)
-        	type = SPEC_ARMOR_TYPE_SPLINT;
-      else if ((type == 100 && roll <= 80) || type == SPEC_ARMOR_TYPE_BANDED)
-        	type = SPEC_ARMOR_TYPE_BANDED;
-      else if ((type == 100 && roll <= 88) || type == SPEC_ARMOR_TYPE_HALF_PLATE)
-        	type = SPEC_ARMOR_TYPE_HALF_PLATE;
-      else if ((type == 100 && roll > 88) || type == SPEC_ARMOR_TYPE_FULL_PLATE)
-        	type = SPEC_ARMOR_TYPE_FULL_PLATE;
-    }
-  }
-  // Otherwise it's a shield so find out what type of shield
-
-  else {
-    roll = dice(1, 100);
-
-    if ((type == 100 && roll <= 10) || type == SPEC_ARMOR_TYPE_BUCKLER)
-      type = SPEC_ARMOR_TYPE_BUCKLER;
-    else if ((type == 100 && roll <= 20) || type == SPEC_ARMOR_TYPE_SMALL_SHIELD) {
-      type = SPEC_ARMOR_TYPE_SMALL_SHIELD;
-      material = MATERIAL_WOOD;
-    }
-    else if ((type == 100 && roll <= 30) || type == SPEC_ARMOR_TYPE_SMALL_SHIELD)
-      type = SPEC_ARMOR_TYPE_SMALL_SHIELD;
-    else if ((type == 100 && roll <= 50) || type == SPEC_ARMOR_TYPE_LARGE_SHIELD) {
-      type = SPEC_ARMOR_TYPE_LARGE_SHIELD;
-      material = MATERIAL_WOOD;
-    }
-    else if ((type == 100 && roll <= 80) || type == SPEC_ARMOR_TYPE_LARGE_SHIELD)
-      type = SPEC_ARMOR_TYPE_LARGE_SHIELD;
-    else if ((type == 100 && roll > 80) || type == SPEC_ARMOR_TYPE_TOWER_SHIELD)
-      type = SPEC_ARMOR_TYPE_TOWER_SHIELD;
-  }
-
-  // If it's made of metal find out what kind of metal
-
-  if (material == MATERIAL_STEEL) {
-    roll = dice(1, 100);
-
-    if (roll >= 97) {
-     material = MATERIAL_ADAMANTINE;
-    }
-    else if (roll >= 90) {
-      material = MATERIAL_MITHRIL;
-    }
-    if (roll >= 87) {
-     material = MATERIAL_DRAGONHIDE;
-    }
-  }
-  else if (material == MATERIAL_LEATHER) {
-    roll = dice(1, 100);
-
-    if (roll >= 97) {
-     material = MATERIAL_DRAGONHIDE;
-    }
-    else if (roll >= 90) {
-      material = MATERIAL_LEATHER;
-    }
-  }
-
-  if (shield) {
-    if (material == MATERIAL_STEEL && dice(1, 10) <= 4)
-      material = MATERIAL_WOOD;
-    else if (material == MATERIAL_STEEL && dice (1, 5) == 1)
-      material = MATERIAL_DARKWOOD;
-    else if (material == MATERIAL_STEEL && dice(1, 5) == 1)
-      material = MATERIAL_DRAGONHIDE;
-  }
-  // Set the base description
-
-  // If it's a shield we need to check the first letter of the desc later to see whether
-  // we need to start with "a" or "an".  Otherwise it's armor which has a static desc start
-
-  int rare = dice(1, 100);
-  int raregrade = 0;
-
-  if (rare == 1) {
-    raregrade = 3;
-  } else if (rare <= 6) {
-    raregrade = 2;
-  } else if (rare <= 16) {
-    raregrade = 1;
-  }
-
-  if (shield)  {
-    if (raregrade == 0)
-      sprintf(desc, "a");
-    else if (raregrade == 1)
-      sprintf(desc, "@G[Rare]@n a");
-    else if (raregrade == 2)
-      sprintf(desc, "@Y[Legendary]@n a");
-    else if (raregrade == 3)
-      sprintf(desc, "@M[Mythical]@n a");
-  }
-  else {
-    if (raregrade == 0)
-      sprintf(desc, "a suit of");
-    else if (raregrade == 1)
-      sprintf(desc, "@G[Rare]@n a suit of");
-    else if (raregrade == 2)
-      sprintf(desc, "@Y[Legendary]@n a suit of");
-    else if (raregrade == 3)
-      sprintf(desc, "@M[Mythical]@n a suit of");
-  }
-
-
-  // Find out if there's an armor special adjective in the desc
-
-  desc1 = dice(1, 3);
-
-  // There's an armor special adjective in the desc so find out which one
-
-  if (desc1 == 3) {
-    i = 0;
-    while (*(armor_special_descs + i++)) { /* counting array */ }
-    size = i;
-    armor_special_desc_roll = MAX(0, dice(1, (int) size) - 2);
-    sprintf(desc, "%s %s", desc, armor_special_descs[armor_special_desc_roll]);
-  }
-
-  // Find out if there's a color describer in the desc
-
-  desc2 = dice(1, 5);
-
-  // There's one color describer in the desc so find out which one
-
-  if (desc2 == 3 || desc2 == 4) {
-    i = 0;
-    while (*(colors + i++)) { /* counting array */ }
-    size = i;
-    color1 = MAX(0, dice(1, (int) size) - 2);
-    sprintf(desc, "%s%s %s", desc, desc1 == 3 ? "," : "", colors[color1]);
-  }
-
-  // There's two colors describer in the desc so find out which one
-
-  if (desc2 == 5) {
-    i = 0;
-    while (*(colors + i++)) { /* counting array */ }
-    size = i;
-    color1 = MAX(0, dice(1, (int) size) - 2);
-    color2 = MAX(0, dice(1, (int) size) - 2);
-    sprintf(desc, "%s%s %s and %s", desc, desc1 == 3 ? "," : "", colors[color1], colors[color2]);
-  }
-
-  // Insert the material type
-
-  sprintf(desc, "%s %s", desc, material_names[material]);
-
-  // Insert the armor type
-
-  if (type == SPEC_ARMOR_TYPE_CLOTHING && dice(1,2) == 1) {
-    sprintf(desc, "%s robes", desc);
-    robes = TRUE;
-  }
-  else 
-    sprintf(desc, "%s %s", desc, armor_list[type].name);
-
-
-  // Find out if the armor has any crests or symbols
-
-  desc3 = dice(1, 8);
-
-  // It has a crest so find out which and set the desc
-
-  if (desc3 >= 7) {
-    i = 0;
-    while (*(armor_crests + i++)) { /* counting array */ }
-    size = i;
-    crest = MAX(0, dice(1, (int) size) - 2);
-    sprintf(desc, "%s with %s %s crest", desc, AN(armor_crests[crest]), armor_crests[crest]);
-  }
-
-  // It has a symbol so find out which and set the desc
-
-  else if (desc3 >= 5) {
-    i = 0;
-    while (*(armor_crests + i++)) { /* counting array */ }
-    size = i;
-    crest = MAX(0, dice(1, (int) size) - 2);
-    sprintf(desc, "%s covered in symbols of %s %s", desc, AN(armor_crests[crest]), armor_crests[crest]);
-  }
-
-
-  // If it's a shield set the first word as a or an depending on a starting vowel of the following
-  // Then read a default shield item from the mud to use for base stats
-  // Otherwise read a default armor suit item from the mud to use for base stats
-
-  if (shield) {
-    sprintf(newDesc, "Null");
-    for (i = 2; desc[i]; i++) {
-      newDesc[i-2] = desc[i];      
-    }
-    newDesc[i - 2] = '\0';
-    sprintf(desc, "%s %s", AN(newDesc), newDesc);
-
-  }
-
-  if (shield) {
-    obj = read_object(30012, VIRTUAL);
-  }
-  else
-    obj = read_object(30000, VIRTUAL);
-
-  // if the object is null end the armor award
-
-  if (!obj) 
-    return;
-
-  // Set the default armor values by the type
-
-  set_armor_values(obj, type);
-
-  if (type == SPEC_ARMOR_TYPE_CLOTHING)
-    GET_OBJ_TYPE(obj) = ITEM_WORN;
-
-  // Set the armor material
-
-  GET_OBJ_MATERIAL(obj) = material;  
-
-
-  // Set the item as unique so it will save all unique stats and not as the base vnum obj
-
-  SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
-
-  // If there's an ac bonus set the applies for it
-
-  if (ac_bonus) {
-    if (!shield)
-      obj->affected[0].location = APPLY_AC_ARMOR;
     else
-      obj->affected[0].location = APPLY_AC_SHIELD;
-    obj->affected[0].modifier = ac_bonus;
-  }
+    {
+        roll = dice(1, 80);
 
-  // Set descriptions
+        if (roll <= 33)
+            shield = TRUE;
+    }
 
-  sprintf(keywords, "%s %s %s %s %s %s", material_names[material], color1 ? colors[color1] : "", color2 ? 
-                     colors[color2] : "", robes ? "robes" : armor_list[type].name, shield ? "shield" : "suit", crest ?
-                     armor_crests[crest] : "");
+    // If it's armor find out what type it is
 
-  obj->name = strdup(keywords);
+    if (!shield)
+    {
+        roll = dice(1, 100);
 
-  obj->short_description = strdup(desc);
+        if ((type == 100 && roll <= 10) || type == SPEC_ARMOR_TYPE_CLOTHING)
+        {
+            type = SPEC_ARMOR_TYPE_CLOTHING;
+            roll = dice(1, 100);
+            if (roll <= 25)
+                material = MATERIAL_VELVET;
+            else if (roll <= 25)
+                material = MATERIAL_WOOL;
+            else
+                material = MATERIAL_COTTON;
+        }
+        else
+        {
+            roll = dice(1, 100);
 
-  desc[0] = toupper(desc[0]);
+            if ((type == 100 && roll <= 8) || type == SPEC_ARMOR_TYPE_PADDED)
+            {
+                type = SPEC_ARMOR_TYPE_PADDED;
+                material = MATERIAL_COTTON;
+            }
+            if ((type == 100 && roll <= 16) || type == SPEC_ARMOR_TYPE_LEATHER)
+            {
+                type = SPEC_ARMOR_TYPE_LEATHER;
+                material = MATERIAL_LEATHER;
+            }
+            if ((type == 100 && roll <= 24) || type == SPEC_ARMOR_TYPE_HIDE)
+            {
+                type = SPEC_ARMOR_TYPE_HIDE;
+                material = MATERIAL_LEATHER;
+            }
+            if ((type == 100 && roll <= 32) || type == SPEC_ARMOR_TYPE_STUDDED_LEATHER)
+            {
+                type = SPEC_ARMOR_TYPE_STUDDED_LEATHER;
+                material = MATERIAL_LEATHER;
+            }
+            if ((type == 100 && roll <= 40) || type == SPEC_ARMOR_TYPE_LIGHT_CHAIN)
+                type = SPEC_ARMOR_TYPE_LIGHT_CHAIN;
+            else if ((type == 100 && roll <= 48) || type == SPEC_ARMOR_TYPE_SCALE)
+                type = SPEC_ARMOR_TYPE_SCALE;
+            else if ((type == 100 && roll <= 56) || type == SPEC_ARMOR_TYPE_CHAINMAIL)
+                type = SPEC_ARMOR_TYPE_CHAINMAIL;
+            else if ((type == 100 && roll <= 64) || type == SPEC_ARMOR_TYPE_PIECEMEAL)
+                type = SPEC_ARMOR_TYPE_PIECEMEAL;
+            else if ((type == 100 && roll <= 72) || type == SPEC_ARMOR_TYPE_SPLINT)
+                type = SPEC_ARMOR_TYPE_SPLINT;
+            else if ((type == 100 && roll <= 80) || type == SPEC_ARMOR_TYPE_BANDED)
+                type = SPEC_ARMOR_TYPE_BANDED;
+            else if ((type == 100 && roll <= 88) || type == SPEC_ARMOR_TYPE_HALF_PLATE)
+                type = SPEC_ARMOR_TYPE_HALF_PLATE;
+            else if ((type == 100 && roll > 88) || type == SPEC_ARMOR_TYPE_FULL_PLATE)
+                type = SPEC_ARMOR_TYPE_FULL_PLATE;
+        }
+    }
+    // Otherwise it's a shield so find out what type of shield
 
-  sprintf(desc, "%s is lying here.", desc);
+    else
+    {
+        roll = dice(1, 100);
 
-  obj->description = strdup(desc);
+        if ((type == 100 && roll <= 10) || type == SPEC_ARMOR_TYPE_BUCKLER)
+            type = SPEC_ARMOR_TYPE_BUCKLER;
+        else if ((type == 100 && roll <= 20) || type == SPEC_ARMOR_TYPE_SMALL_SHIELD)
+        {
+            type = SPEC_ARMOR_TYPE_SMALL_SHIELD;
+            material = MATERIAL_WOOD;
+        }
+        else if ((type == 100 && roll <= 30) || type == SPEC_ARMOR_TYPE_SMALL_SHIELD)
+            type = SPEC_ARMOR_TYPE_SMALL_SHIELD;
+        else if ((type == 100 && roll <= 50) || type == SPEC_ARMOR_TYPE_LARGE_SHIELD)
+        {
+            type = SPEC_ARMOR_TYPE_LARGE_SHIELD;
+            material = MATERIAL_WOOD;
+        }
+        else if ((type == 100 && roll <= 80) || type == SPEC_ARMOR_TYPE_LARGE_SHIELD)
+            type = SPEC_ARMOR_TYPE_LARGE_SHIELD;
+        else if ((type == 100 && roll > 80) || type == SPEC_ARMOR_TYPE_TOWER_SHIELD)
+            type = SPEC_ARMOR_TYPE_TOWER_SHIELD;
+    }
+
+    // If it's made of metal find out what kind of metal
+
+    if (material == MATERIAL_STEEL)
+    {
+        roll = dice(1, 100);
+
+        if (roll >= 97)
+        {
+            material = MATERIAL_ADAMANTINE;
+        }
+        else if (roll >= 90)
+        {
+            material = MATERIAL_MITHRIL;
+        }
+        if (roll >= 87)
+        {
+            material = MATERIAL_DRAGONHIDE;
+        }
+    }
+    else if (material == MATERIAL_LEATHER)
+    {
+        roll = dice(1, 100);
+
+        if (roll >= 97)
+        {
+            material = MATERIAL_DRAGONHIDE;
+        }
+        else if (roll >= 90)
+        {
+            material = MATERIAL_LEATHER;
+        }
+    }
+
+    if (shield)
+    {
+        if (material == MATERIAL_STEEL && dice(1, 10) <= 4)
+            material = MATERIAL_WOOD;
+        else if (material == MATERIAL_STEEL && dice (1, 5) == 1)
+            material = MATERIAL_DARKWOOD;
+        else if (material == MATERIAL_STEEL && dice(1, 5) == 1)
+            material = MATERIAL_DRAGONHIDE;
+    }
+    // Set the base description
+
+    // If it's a shield we need to check the first letter of the desc later to see whether
+    // we need to start with "a" or "an".  Otherwise it's armor which has a static desc start
+
+    int rare = dice(1, 100);
+    int raregrade = 0;
+
+    if (rare == 1)
+    {
+        raregrade = 3;
+    }
+    else if (rare <= 6)
+    {
+        raregrade = 2;
+    }
+    else if (rare <= 16)
+    {
+        raregrade = 1;
+    }
+
+    if (shield)
+    {
+        if (raregrade == 0)
+            sprintf(desc, "a");
+        else if (raregrade == 1)
+            sprintf(desc, "@G[Rare]@n a");
+        else if (raregrade == 2)
+            sprintf(desc, "@Y[Legendary]@n a");
+        else if (raregrade == 3)
+            sprintf(desc, "@M[Mythical]@n a");
+    }
+    else
+    {
+        if (raregrade == 0)
+            sprintf(desc, "a suit of");
+        else if (raregrade == 1)
+            sprintf(desc, "@G[Rare]@n a suit of");
+        else if (raregrade == 2)
+            sprintf(desc, "@Y[Legendary]@n a suit of");
+        else if (raregrade == 3)
+            sprintf(desc, "@M[Mythical]@n a suit of");
+    }
 
 
-  GET_OBJ_VAL(obj, 9) = type;
+    // Find out if there's an armor special adjective in the desc
 
-  GET_OBJ_LEVEL(obj) = MAX(1, set_object_level(obj));
+    desc1 = dice(1, 3);
 
-  if (GET_OBJ_LEVEL(obj) >= CONFIG_LEVEL_CAP) {
-    award_magic_armor(ch, grade, moblevel);
-    return;
-  }
+    // There's an armor special adjective in the desc so find out which one
 
-  obj->affected[0].modifier += (raregrade * 10);
+    if (desc1 == 3)
+    {
+        i = 0;
+        while (*(armor_special_descs + i++)) { /* counting array */ }
+        size = i;
+        armor_special_desc_roll = MAX(0, dice(1, (int) size) - 2);
+        sprintf(desc, "%s %s", desc, armor_special_descs[armor_special_desc_roll]);
+    }
 
-  GET_OBJ_COST(obj) = 100 + GET_OBJ_LEVEL(obj) * 50 * MAX(1, GET_OBJ_LEVEL(obj) - 1) + armor_list[type].cost;
+    // Find out if there's a color describer in the desc
 
-  GET_OBJ_COST(obj) = GET_OBJ_COST(obj) * (3 + (raregrade*2)) / 3;
+    desc2 = dice(1, 5);
 
-  GET_OBJ_RENT(obj) = GET_OBJ_COST(obj) / 25;
+    // There's one color describer in the desc so find out which one
 
-  if (grade > GRADE_MUNDANE)
-    SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_MAGIC);
+    if (desc2 == 3 || desc2 == 4)
+    {
+        i = 0;
+        while (*(colors + i++)) { /* counting array */ }
+        size = i;
+        color1 = MAX(0, dice(1, (int) size) - 2);
+        sprintf(desc, "%s%s %s", desc, desc1 == 3 ? "," : "", colors[color1]);
+    }
 
-  rand = dice(1, 100);
-  while (rand == 100) {
+    // There's two colors describer in the desc so find out which one
+
+    if (desc2 == 5)
+    {
+        i = 0;
+        while (*(colors + i++)) { /* counting array */ }
+        size = i;
+        color1 = MAX(0, dice(1, (int) size) - 2);
+        color2 = MAX(0, dice(1, (int) size) - 2);
+        sprintf(desc, "%s%s %s and %s", desc, desc1 == 3 ? "," : "", colors[color1], colors[color2]);
+    }
+
+    // Insert the material type
+
+    sprintf(desc, "%s %s", desc, material_names[material]);
+
+    // Insert the armor type
+
+    if (type == SPEC_ARMOR_TYPE_CLOTHING && dice(1, 2) == 1)
+    {
+        sprintf(desc, "%s robes", desc);
+        robes = TRUE;
+    }
+    else
+        sprintf(desc, "%s %s", desc, armor_list[type].name);
+
+
+    // Find out if the armor has any crests or symbols
+
+    desc3 = dice(1, 8);
+
+    // It has a crest so find out which and set the desc
+
+    if (desc3 >= 7)
+    {
+        i = 0;
+        while (*(armor_crests + i++)) { /* counting array */ }
+        size = i;
+        crest = MAX(0, dice(1, (int) size) - 2);
+        sprintf(desc, "%s with %s %s crest", desc, AN(armor_crests[crest]), armor_crests[crest]);
+    }
+
+    // It has a symbol so find out which and set the desc
+
+    else if (desc3 >= 5)
+    {
+        i = 0;
+        while (*(armor_crests + i++)) { /* counting array */ }
+        size = i;
+        crest = MAX(0, dice(1, (int) size) - 2);
+        sprintf(desc, "%s covered in symbols of %s %s", desc, AN(armor_crests[crest]), armor_crests[crest]);
+    }
+
+
+    // If it's a shield set the first word as a or an depending on a starting vowel of the following
+    // Then read a default shield item from the mud to use for base stats
+    // Otherwise read a default armor suit item from the mud to use for base stats
+
+    if (shield)
+    {
+        sprintf(newDesc, "Null");
+        for (i = 2; desc[i]; i++)
+        {
+            newDesc[i - 2] = desc[i];
+        }
+        newDesc[i - 2] = '\0';
+        sprintf(desc, "%s %s", AN(newDesc), newDesc);
+
+    }
+
+    if (shield)
+    {
+        obj = read_object(30012, VIRTUAL);
+    }
+    else
+        obj = read_object(30000, VIRTUAL);
+
+    // if the object is null end the armor award
+
+    if (!obj)
+        return;
+
+    // Set the default armor values by the type
+
+    set_armor_values(obj, type);
+
+    if (type == SPEC_ARMOR_TYPE_CLOTHING)
+        GET_OBJ_TYPE(obj) = ITEM_WORN;
+
+    // Set the armor material
+
+    GET_OBJ_MATERIAL(obj) = material;
+
+
+    // Set the item as unique so it will save all unique stats and not as the base vnum obj
+
+    SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
+
+    // If there's an ac bonus set the applies for it
+
+    if (ac_bonus)
+    {
+        if (!shield)
+            obj->affected[0].location = APPLY_AC_ARMOR;
+        else
+            obj->affected[0].location = APPLY_AC_SHIELD;
+        obj->affected[0].modifier = ac_bonus;
+    }
+
+    // Set descriptions
+
+    sprintf(keywords, "%s %s %s %s %s %s", material_names[material], color1 ? colors[color1] : "", color2 ?
+            colors[color2] : "", robes ? "robes" : armor_list[type].name, shield ? "shield" : "suit", crest ?
+            armor_crests[crest] : "");
+
+    obj->name = strdup(keywords);
+    obj->short_description = strdup(desc);
+    desc[0] = toupper(desc[0]);
+
+    snprintf(desc, sizeof(desc), "%s is lying here.", desc);
+
+    obj->description = strdup(desc);
+
+    GET_OBJ_VAL(obj, 9) = type;
+
+    GET_OBJ_LEVEL(obj) = MAX(1, set_object_level(obj));
+
+    if (GET_OBJ_LEVEL(obj) >= CONFIG_LEVEL_CAP)
+    {
+        award_magic_armor(ch, grade, moblevel);
+        return;
+    }
+
+    obj->affected[0].modifier += (raregrade * 10);
+
+    GET_OBJ_COST(obj) = 100 + GET_OBJ_LEVEL(obj) * 50 * MAX(1, GET_OBJ_LEVEL(obj) - 1) + armor_list[type].cost;
+
+    GET_OBJ_COST(obj) = GET_OBJ_COST(obj) * (3 + (raregrade * 2)) / 3;
+
+    GET_OBJ_RENT(obj) = GET_OBJ_COST(obj) / 25;
+
+    if (grade > GRADE_MUNDANE)
+        SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_MAGIC);
+
     rand = dice(1, 100);
-    obj->affected[0].modifier += 10;
-  }
-  
-  obj_to_char(obj, ch);
+    while (rand == 100)
+    {
+        rand = dice(1, 100);
+        obj->affected[0].modifier += 10;
+    }
 
-  if (!(IS_NPC(ch) && IS_MOB(ch) && GET_MOB_SPEC(ch) == shop_keeper)) {
-    send_to_char(ch, "@YYou have found %s in a nearby lair!@n\r\n", obj->short_description);
-  
-    sprintf(buf, "@Y$n has found %s in a nearby lair!@n", obj->short_description);
-    act(buf, FALSE, ch, 0, ch, TO_NOTVICT);
-  }
+    obj_to_char(obj, ch);
+
+    if (!(IS_NPC(ch) && IS_MOB(ch) && GET_MOB_SPEC(ch) == shop_keeper))
+    {
+        send_to_char(ch, "@YYou have found %s in a nearby lair!@n\r\n", obj->short_description);
+
+        sprintf(buf, "@Y$n has found %s in a nearby lair!@n", obj->short_description);
+        act(buf, FALSE, ch, 0, ch, TO_NOTVICT);
+    }
 
 }
 
@@ -3089,9 +3128,9 @@ void assign_qp_value(struct obj_data *obj)
 void award_special_magic_item(struct char_data *ch)
 {
     struct obj_data *obj = NULL;
-    char buf[200]={'\0'};
+    char buf[200] = {'\0'};
 
-    // Ring of Three Wishes  
+    // Ring of Three Wishes
     obj = read_object(30188, VIRTUAL);
 
     SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
@@ -3099,7 +3138,7 @@ void award_special_magic_item(struct char_data *ch)
 
     obj_to_char(obj, ch);
 
-    if (!(IS_NPC(ch) && IS_MOB(ch) && GET_MOB_SPEC(ch) == shop_keeper)) 
+    if (!(IS_NPC(ch) && IS_MOB(ch) && GET_MOB_SPEC(ch) == shop_keeper))
     {
         send_to_char(ch, "@YYou have found %s in a nearby lair!@n\r\n", obj->short_description);
         sprintf(buf, "@Y$n has found %s in a nearby lair!@n", obj->short_description);

@@ -381,3 +381,5 @@ struct disabled_data {
 };
 
 int get_new_pref();
+
+

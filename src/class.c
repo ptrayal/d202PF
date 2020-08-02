@@ -3392,547 +3392,615 @@ void advance_level(struct char_data *ch, int whichclass) {
 
 void do_advance_level(struct char_data *ch, int whichclass, int manual)
 {
-  struct levelup_data *llog;
-  int add_hp =0, add_move = 0, add_mana = 0, add_prac = 1, add_ki = 0, add_train, i, q=0, j = 0, n = 0, m = 0, ranks;
-  int add_acc = 0, add_fort = 0, add_reflex = 0, add_will = 0;
-  int add_gen_feats = 0, add_class_feats = 0;
-  int evasion = false, impEvasion = false, impDisarm = false, combatReflexes = false, sneakAttack = false;
-  int layhands = false;
-  int bardLevel = 0;
-  int addSpells = 0;
-  int level = 0;
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  char featbuf[MAX_STRING_LENGTH]={'\0'};
-  int research_sessions = 0;
-  struct damreduct_type *ptr, *reduct, *temp;
-  int arcane_bonus = 0, divine_bonus = 0;
-  int epiclevel = 21;
+    char featbuf[MAX_STRING_LENGTH] = {'\0'};
+    char buf[MAX_STRING_LENGTH] = {'\0'};
+    struct levelup_data *llog;
+    struct damreduct_type * ptr, *reduct, *temp;
+    int add_hp = 0, add_move = 0, add_mana = 0, add_prac = 1, add_ki = 0, add_train, i = 0, q = 0, j = 0, n = 0, m = 0, ranks;
+    int add_acc = 0, add_fort = 0, add_reflex = 0, add_will = 0;
+    int add_gen_feats = 0, add_class_feats = 0;
+    int evasion = false, impEvasion = false, impDisarm = false, combatReflexes = false, sneakAttack = false;
+    int layhands = false;
+    int bardLevel = 0;
+    int addSpells = 0;
+    int level = 0;
+    int research_sessions = 0;
+    int arcane_bonus = 0, divine_bonus = 0;
+    int epiclevel = 21;
 
-  if (whichclass < 0 || whichclass >= NUM_CLASSES) 
-  {
-    log("Invalid class %d passed to advance_level, resetting.", whichclass);
-    whichclass = 0;
-  }
-
-  if (!CONFIG_ALLOW_MULTICLASS && whichclass != GET_CLASS(ch)) 
-  {
-    log("Attempt to gain a second class without multiclass enabled for %s", GET_NAME(ch));
-    whichclass = GET_CLASS(ch);
-  }
-
-  GET_CLASS(ch) = whichclass;
-
-  if (whichclass == CLASS_ROGUE)
-      SET_SKILL(ch, SKILL_LANG_THIEVES_CANT, 1);
-  if (whichclass == CLASS_DRUID)
-      SET_SKILL(ch, SKILL_LANG_DRUIDIC, 1);
-
-  if (GET_CLASS_LEVEL(ch) == 0) {
-    do_start(ch);
-  } 
-
-  if ((CAMPAIGN_FORGOTTEN_REALMS == CONFIG_CAMPAIGN ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass]) ? 
-       GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 10 : GET_CLASS_LEVEL(ch) >= LVL_EPICSTART-1) { /* Epic character */
-    GET_CLASS_EPIC(ch, whichclass)++;
-  } else {
-    GET_CLASS_NONEPIC(ch, whichclass)++;
-  }
-
-  if (GET_CLASS_RANKS(ch, whichclass) > 0) {
-    for (m = 0; (n = free_start_feats[GET_CLASS(ch)][m]); m++) {
-      if (!HAS_REAL_FEAT(ch, n)) {
-        send_to_char(ch, "@YYou have gained the %s feat!\r\n", feat_list[n].name);
-        SET_FEAT(ch, n, 1);
-      }
-    }
-  }
-
-
-  i = 0;
-  sprintf(featbuf, "@n");
-  while (level_feats[i][4] != FEAT_UNDEFINED) {
-    if (GET_CLASS(ch) == level_feats[i][0] && level_feats[i][1] == RACE_UNDEFINED && GET_CLASS_RANKS(ch, level_feats[i][0]) >= level_feats[i][3]) {
-
-      if (!((!HAS_REAL_FEAT(ch, level_feats[i][4]) && GET_CLASS_RANKS(ch, level_feats[i][0]) > level_feats[i][3] &&
-              GET_CLASS_RANKS(ch, level_feats[i][0]) > 0) ||
-          GET_CLASS_RANKS(ch, level_feats[i][0]) == level_feats[i][3])) {
-        i++;
-        continue;
-      }
-
-      if (level_feats[i][4] == FEAT_SNEAK_ATTACK)
-        sprintf(featbuf, "%s@YYour sneak attack has increased to +%dd6!@n\r\n", featbuf, HAS_FEAT(ch, FEAT_SNEAK_ATTACK) + 1);    	
-      else if (level_feats[i][4] == FEAT_WEAPON_FOCUS) {
-        if (whichclass == CLASS_FAVORED_SOUL) {
-          SET_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, deity_list[GET_DEITY(ch)].favored_weapon);
-          sprintf(featbuf, "%s@YYou have gained weapon focus in your deity's favored weapon: %s.@n\r\n", featbuf, 
-                  weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
-        }
-        else if (whichclass == CLASS_DEATH_MASTER) {
-          SET_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_SCYTHE);
-          sprintf(featbuf, "%s@YYou have gained weapon focus in the scythe.@n\r\n", featbuf);
-        }
-      }
-      else if (level_feats[i][4] == FEAT_WEAPON_SPECIALIZATION) {
-        if (whichclass == CLASS_FAVORED_SOUL) {
-          SET_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, deity_list[GET_DEITY(ch)].favored_weapon);
-          sprintf(featbuf, "%s@YYou have gained weapon specialization in your deity's favored weapon: %s.@n\r\n", featbuf, 
-                  weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
-        }
-        else if (whichclass == CLASS_DEATH_MASTER) {
-          SET_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, WEAPON_TYPE_SCYTHE);
-          sprintf(featbuf, "%s@YYou have gained weapon specialization in the scythe.@n\r\n", featbuf);
-        }
-      }
-      else if (level_feats[i][4] == FEAT_DAMAGE_REDUCTION) {
-        for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
-          if (reduct->feat == FEAT_DAMAGE_REDUCTION) {
-            REMOVE_FROM_LIST(reduct, ch->damreduct, next);
-          }
-        }
-        CREATE(ptr, struct damreduct_type, 1);
-        ptr->next = ch->damreduct;
-        ch->damreduct = ptr;
-        ptr->spell = 0;
-        ptr->feat = FEAT_DAMAGE_REDUCTION;
-        ptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION) + 1;
-        ptr->duration = -1;
-        ptr->max_damage = -1;
-        for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
-          ptr->damstyle[q] = ptr->damstyleval[q] = 0;
-        ptr->damstyle[0] = DR_NONE;
-      }
-      else if (level_feats[i][4] == FEAT_STRENGTH_BOOST) {
-        ch->real_abils.str += 2;
-        sprintf(featbuf, "%s@YYour natural strength has increased by +2!\r\n", featbuf);
-      }
-      else if (level_feats[i][4] == FEAT_CHARISMA_BOOST) {
-        ch->real_abils.cha += 2;
-        sprintf(featbuf, "%s@YYour natural charisma has increased by +2!\r\n", featbuf);
-      }
-      else if (level_feats[i][4] == FEAT_CONSTITUTION_BOOST) {
-        ch->real_abils.con += 2;
-        sprintf(featbuf, "%s@YYour natural constitution has increased by +2!\r\n", featbuf);
-      }
-      else if (level_feats[i][4] == FEAT_INTELLIGENCE_BOOST) {
-        ch->real_abils.intel += 2;
-        sprintf(featbuf, "%s@YYour natural intelligence has increased by +2!\r\n", featbuf);
-      }
-      else if (level_feats[i][4] == FEAT_WINGS) {
-        SET_FEAT(ch, FEAT_WINGS, HAS_REAL_FEAT(ch, FEAT_WINGS) + 1);
-        sprintf(featbuf, "%s@YYou have grown a set of %s wings!\r\n", featbuf,
-                GET_CLASS_RANKS(ch, CLASS_DRAGON_DISCIPLE) ? "draconic" :
-                  (IS_GOOD(ch) ? "feathered" : "batlike"));
-      }
-      else if (level_feats[i][4] == FEAT_DRAGON_APOTHEOSIS) {
-        sprintf(featbuf, "%s@YYour old race has been converted into a half dragon!\r\n", featbuf);
-      }
-      else {
-        if (HAS_FEAT(ch, level_feats[i][4]))
-          sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);    	
-        else 
-          sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);    	
-      }
-      SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
-    }
-    else if (level_feats[i][0] == CLASS_UNDEFINED && level_feats[i][1] == GET_RACE(ch) && !HAS_FEAT(ch, level_feats[i][4])) {
-      if (level_feats[i][2] == TRUE) {
-        if (i == FEAT_TWO_WEAPON_FIGHTING && GET_CLASS(ch) == CLASS_RANGER)
- 	  //if (!HAS_FEAT(ch, FEAT_RANGER_TWO_WEAPON_STYLE))
-          continue;
-      }
-      if (HAS_FEAT(ch, level_feats[i][4]))
-        sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);    	
-      else 
-        sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);    	
-      SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);    	
-    }
-    else if (GET_CLASS(ch) == level_feats[i][0] && level_feats[i][1] == GET_RACE(ch) && GET_CLASS_RANKS(ch, level_feats[i][0]) == level_feats[i][3]) {
-      if (HAS_FEAT(ch, level_feats[i][4]))
-        sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);    	
-      else 
-        sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);    	
-      SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);    	
+    if (whichclass < 0 || whichclass >= NUM_CLASSES)
+    {
+        log("Invalid class %d passed to advance_level, resetting.", whichclass);
+        whichclass = 0;
     }
 
-    i++;
-  }
-
-
-  if (whichclass == CLASS_ARTISAN) {
-    send_to_char(ch, "%s", featbuf);
-//    GET_CLASS_NONEPIC(ch, CLASS_ARTISAN)++;
-    return;
-  }
-
- 
-  if (whichclass == CLASS_BARD) {
-
-    bardLevel = GET_CLASS_RANKS(ch, CLASS_BARD);
-
-    for (i = 0; i < 7; i++) {
-      addSpells = MAX(0, bard_spells_known_table[bardLevel][i]) - MAX(0, bard_spells_known_table[bardLevel-1][i]);
-      ch->player_specials->bard_spells_to_learn[i] += addSpells;
-      if (addSpells > 0)
-        send_to_char(ch, "You have gained the ability to learn %d new level %d bard spells.  See help learnbardspells.\r\n", addSpells, i);
+    if (!CONFIG_ALLOW_MULTICLASS && whichclass != GET_CLASS(ch))
+    {
+        log("Attempt to gain a second class without multiclass enabled for %s", GET_NAME(ch));
+        whichclass = GET_CLASS(ch);
     }
 
-  }
-  
-  level = GET_CLASS_LEVEL(ch) + 1;
-  ranks = GET_CLASS_RANKS(ch, whichclass) + 1;
-  CREATE(llog, struct levelup_data, 1);
-  llog->next = ch->level_info;
-  llog->prev = NULL;
-  if (llog->next)
-    llog->next->prev = llog;
-  ch->level_info = llog;
-  llog->skills = llog->feats = NULL;
-  llog->type = LEVELTYPE_CLASS;
-  llog->spec = whichclass;
-  llog->level = GET_CLASS_LEVEL(ch);
+    GET_CLASS(ch) = whichclass;
 
-  if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
-    epiclevel = 11;
+    if (whichclass == CLASS_ROGUE)
+        SET_SKILL(ch, SKILL_LANG_THIEVES_CANT, 1);
+    if (whichclass == CLASS_DRUID)
+        SET_SKILL(ch, SKILL_LANG_DRUIDIC, 1);
 
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  switch (ranks) {
-  case 1:
-    for (i = 0; (j = free_start_feats[whichclass][i]); i++) {
-      SET_FEAT(ch, j, 1);
+    if (GET_CLASS_LEVEL(ch) == 0)
+    {
+        do_start(ch);
     }
-    break;
-  default:
-  	break;
-  }
-  
-  if (whichclass == CLASS_WIZARD || whichclass == CLASS_KNIGHT_OF_THE_THORN || whichclass == CLASS_WIZARD_OF_HIGH_SORCERY)
-  	research_sessions = GET_RESEARCH_TOKENS(ch) += 2;
-  
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  if (GET_CLASS_LEVEL(ch) >= (LVL_EPICSTART - 1)) { /* Epic character */
-    if ((level + 1) % 2) {
-      add_acc = 1;
-    } else {
-      add_fort = 1;
-      add_reflex = 1;
-      add_will = 1;
-    }
-  } else if (ranks == 1) { /* First level of a given class */
-    add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, 1);
-    add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, 1);
-    add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, 1);
-    add_acc = base_hit(0, whichclass, 1);
-  } else { /* Normal level of a non-epic class */
-    add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks) -
-               saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks - 1);
-    add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks) -
-                 saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks - 1);
-    add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, ranks) -
-               saving_throw_lookup(0, whichclass, SAVING_WILL, ranks - 1);
-    add_acc = base_hit(0, whichclass, ranks) - base_hit(0, whichclass, ranks-1);
-  }
 
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  if (ranks >= (epiclevel)) { /* Epic class */
-    if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
-      j = ranks - 10;
+    if ((CAMPAIGN_FORGOTTEN_REALMS == CONFIG_CAMPAIGN ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass]) ?
+            GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 10 : GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 1) /* Epic character */
+    {
+        GET_CLASS_EPIC(ch, whichclass)++;
+    }
     else
-      j = ranks - 20;
-
-    n = 0;
-    while (epic_level_feats[n][0] != CLASS_UNDEFINED) {
-      if (whichclass == epic_level_feats[n][0]) {
-        if ((((j + epic_level_feats[n][1]) % epic_level_feats[n][2]) == epic_level_feats[n][3]) == epic_level_feats[n][4]) {
-          if (epic_level_feats[n][5] == FEAT_DAMAGE_REDUCTION) {
-            SET_FEAT(ch, FEAT_DAMAGE_REDUCTION, HAS_REAL_FEAT(ch, FEAT_DAMAGE_REDUCTION) + epic_level_feats[n][6]);
-            for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
-              if (reduct->feat == FEAT_DAMAGE_REDUCTION) {
-                REMOVE_FROM_LIST(reduct, ch->damreduct, next);
-              }
-            }
-            CREATE(ptr, struct damreduct_type, 1);
-            ptr->next = ch->damreduct;
-            ch->damreduct = ptr;
-            ptr->spell = 0;
-            ptr->feat = FEAT_DAMAGE_REDUCTION;
-            ptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION);
-            ptr->duration = -1;
-            ptr->max_damage = -1;
-            for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
-              ptr->damstyle[q] = ptr->damstyleval[q] = 0;
-            ptr->damstyle[0] = DR_NONE;
-          } else {
-            SET_FEAT(ch, epic_level_feats[n][5], HAS_REAL_FEAT(ch, epic_level_feats[n][5]) + epic_level_feats[n][6]);
-          }
-          sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[epic_level_feats[n][5]].name);
-        }
-      }
-      n++;
+    {
+        GET_CLASS_NONEPIC(ch, whichclass)++;
     }
-  }
 
-  if (manual)
-	  add_class_feats = num_levelup_class_feats(ch, whichclass, ranks);
-  else
-	  add_class_feats = ch->levelup->num_class_feats;
+    if (GET_CLASS_RANKS(ch, whichclass) > 0)
+    {
+        for (m = 0; (n = free_start_feats[GET_CLASS(ch)][m]); m++)
+        {
+            if (!HAS_REAL_FEAT(ch, n))
+            {
+                send_to_char(ch, "@YYou have gained the %s feat!\r\n", feat_list[n].name);
+                SET_FEAT(ch, n, 1);
+            }
+        }
+    }
 
-  switch (whichclass) {
+    sprintf(featbuf, "@n");
+    while (level_feats[i][4] != FEAT_UNDEFINED)
+    {
+        if (GET_CLASS(ch) == level_feats[i][0] && level_feats[i][1] == RACE_UNDEFINED && GET_CLASS_RANKS(ch, level_feats[i][0]) >= level_feats[i][3])
+        {
+
+            if (!((!HAS_REAL_FEAT(ch, level_feats[i][4]) && GET_CLASS_RANKS(ch, level_feats[i][0]) > level_feats[i][3] &&
+                    GET_CLASS_RANKS(ch, level_feats[i][0]) > 0) ||
+                    GET_CLASS_RANKS(ch, level_feats[i][0]) == level_feats[i][3]))
+            {
+                i++;
+                continue;
+            }
+
+            if (level_feats[i][4] == FEAT_SNEAK_ATTACK)
+            {
+                sprintf(featbuf, "%s@YYour sneak attack has increased to +%dd6!@n\r\n", featbuf, HAS_FEAT(ch, FEAT_SNEAK_ATTACK) + 1);
+            }
+            else if (level_feats[i][4] == FEAT_WEAPON_FOCUS)
+            {
+                if (whichclass == CLASS_FAVORED_SOUL)
+                {
+                    SET_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, deity_list[GET_DEITY(ch)].favored_weapon);
+                    sprintf(featbuf, "%s@YYou have gained weapon focus in your deity's favored weapon: %s.@n\r\n", featbuf,
+                            weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+                }
+                else if (whichclass == CLASS_DEATH_MASTER)
+                {
+                    SET_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_SCYTHE);
+                    sprintf(featbuf, "%s@YYou have gained weapon focus in the scythe.@n\r\n", featbuf);
+                }
+            }
+            else if (level_feats[i][4] == FEAT_WEAPON_SPECIALIZATION)
+            {
+                if (whichclass == CLASS_FAVORED_SOUL)
+                {
+                    SET_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, deity_list[GET_DEITY(ch)].favored_weapon);
+                    sprintf(featbuf, "%s@YYou have gained weapon specialization in your deity's favored weapon: %s.@n\r\n", featbuf,
+                            weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+                }
+                else if (whichclass == CLASS_DEATH_MASTER)
+                {
+                    SET_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, WEAPON_TYPE_SCYTHE);
+                    sprintf(featbuf, "%s@YYou have gained weapon specialization in the scythe.@n\r\n", featbuf);
+                }
+            }
+            else if (level_feats[i][4] == FEAT_DAMAGE_REDUCTION)
+            {
+                for (reduct = ch->damreduct; reduct; reduct = reduct->next)
+                {
+                    if (reduct->feat == FEAT_DAMAGE_REDUCTION)
+                    {
+                        REMOVE_FROM_LIST(reduct, ch->damreduct, next);
+                    }
+                }
+                CREATE(ptr, struct damreduct_type, 1);
+                ptr->next = ch->damreduct;
+                ch->damreduct = ptr;
+                ptr->spell = 0;
+                ptr->feat = FEAT_DAMAGE_REDUCTION;
+                ptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION) + 1;
+                ptr->duration = -1;
+                ptr->max_damage = -1;
+                for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
+                    ptr->damstyle[q] = ptr->damstyleval[q] = 0;
+                ptr->damstyle[0] = DR_NONE;
+            }
+            else if (level_feats[i][4] == FEAT_STRENGTH_BOOST)
+            {
+                ch->real_abils.str += 2;
+                snprintf(featbuf, sizeof(featbuf), "%s@YYour natural strength has increased by +2!\r\n", featbuf);
+            }
+            else if (level_feats[i][4] == FEAT_CHARISMA_BOOST)
+            {
+                ch->real_abils.cha += 2;
+                snprintf(featbuf, sizeof(featbuf), "%s@YYour natural charisma has increased by +2!\r\n", featbuf);
+            }
+            else if (level_feats[i][4] == FEAT_CONSTITUTION_BOOST)
+            {
+                ch->real_abils.con += 2;
+                sprintf(featbuf, "%s@YYour natural constitution has increased by +2!\r\n", featbuf);
+            }
+            else if (level_feats[i][4] == FEAT_INTELLIGENCE_BOOST)
+            {
+                ch->real_abils.intel += 2;
+                sprintf(featbuf, "%s@YYour natural intelligence has increased by +2!\r\n", featbuf);
+            }
+            else if (level_feats[i][4] == FEAT_WINGS)
+            {
+                SET_FEAT(ch, FEAT_WINGS, HAS_REAL_FEAT(ch, FEAT_WINGS) + 1);
+                sprintf(featbuf, "%s@YYou have grown a set of %s wings!\r\n", featbuf,
+                        GET_CLASS_RANKS(ch, CLASS_DRAGON_DISCIPLE) ? "draconic" :
+                        (IS_GOOD(ch) ? "feathered" : "batlike"));
+            }
+            else if (level_feats[i][4] == FEAT_DRAGON_APOTHEOSIS)
+            {
+                sprintf(featbuf, "%s@YYour old race has been converted into a half dragon!\r\n", featbuf);
+            }
+            else
+            {
+                if (HAS_FEAT(ch, level_feats[i][4]))
+                    sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
+                else
+                    sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
+            }
+            SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
+        }
+        else if (level_feats[i][0] == CLASS_UNDEFINED && level_feats[i][1] == GET_RACE(ch) && !HAS_FEAT(ch, level_feats[i][4]))
+        {
+            if (level_feats[i][2] == TRUE)
+            {
+                if (i == FEAT_TWO_WEAPON_FIGHTING && GET_CLASS(ch) == CLASS_RANGER)
+                    //if (!HAS_FEAT(ch, FEAT_RANGER_TWO_WEAPON_STYLE))
+                    continue;
+            }
+            if (HAS_FEAT(ch, level_feats[i][4]))
+                sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
+            else
+                sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
+            SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
+        }
+        else if (GET_CLASS(ch) == level_feats[i][0] && level_feats[i][1] == GET_RACE(ch) && GET_CLASS_RANKS(ch, level_feats[i][0]) == level_feats[i][3])
+        {
+            if (HAS_FEAT(ch, level_feats[i][4]))
+                sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
+            else
+                sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
+            SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
+        }
+
+        i++;
+    }
+
+
+    if (whichclass == CLASS_ARTISAN)
+    {
+        send_to_char(ch, "%s", featbuf);
+        //    GET_CLASS_NONEPIC(ch, CLASS_ARTISAN)++;
+        return;
+    }
+
+
+    if (whichclass == CLASS_BARD)
+    {
+
+        bardLevel = GET_CLASS_RANKS(ch, CLASS_BARD);
+
+        for (i = 0; i < 7; i++)
+        {
+            addSpells = MAX(0, bard_spells_known_table[bardLevel][i]) - MAX(0, bard_spells_known_table[bardLevel - 1][i]);
+            ch->player_specials->bard_spells_to_learn[i] += addSpells;
+            if (addSpells > 0)
+                send_to_char(ch, "You have gained the ability to learn %d new level %d bard spells.  See help learnbardspells.\r\n", addSpells, i);
+        }
+
+    }
+
+    level = GET_CLASS_LEVEL(ch) + 1;
+    ranks = GET_CLASS_RANKS(ch, whichclass) + 1;
+    CREATE(llog, struct levelup_data, 1);
+    llog->next = ch->level_info;
+    llog->prev = NULL;
+    if (llog->next)
+        llog->next->prev = llog;
+    ch->level_info = llog;
+    llog->skills = llog->feats = NULL;
+    llog->type = LEVELTYPE_CLASS;
+    llog->spec = whichclass;
+    llog->level = GET_CLASS_LEVEL(ch);
+
+    if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
+        epiclevel = 11;
+
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    switch (ranks)
+    {
+    case 1:
+        for (i = 0; (j = free_start_feats[whichclass][i]); i++)
+        {
+            SET_FEAT(ch, j, 1);
+        }
+        break;
+    default:
+        break;
+    }
+
+    if (whichclass == CLASS_WIZARD || whichclass == CLASS_KNIGHT_OF_THE_THORN || whichclass == CLASS_WIZARD_OF_HIGH_SORCERY)
+        research_sessions = GET_RESEARCH_TOKENS(ch) += 2;
+
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    if (GET_CLASS_LEVEL(ch) >= (LVL_EPICSTART - 1))   /* Epic character */
+    {
+        if ((level + 1) % 2)
+        {
+            add_acc = 1;
+        }
+        else
+        {
+            add_fort = 1;
+            add_reflex = 1;
+            add_will = 1;
+        }
+    }
+    else if (ranks == 1)     /* First level of a given class */
+    {
+        add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, 1);
+        add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, 1);
+        add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, 1);
+        add_acc = base_hit(0, whichclass, 1);
+    }
+    else     /* Normal level of a non-epic class */
+    {
+        add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks) -
+                   saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks - 1);
+        add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks) -
+                     saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks - 1);
+        add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, ranks) -
+                   saving_throw_lookup(0, whichclass, SAVING_WILL, ranks - 1);
+        add_acc = base_hit(0, whichclass, ranks) - base_hit(0, whichclass, ranks - 1);
+    }
+
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    if (ranks >= (epiclevel))   /* Epic class */
+    {
+        if (CAMPAIGN_FORGOTTEN_REALMS ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass])
+            j = ranks - 10;
+        else
+            j = ranks - 20;
+
+        n = 0;
+        while (epic_level_feats[n][0] != CLASS_UNDEFINED)
+        {
+            if (whichclass == epic_level_feats[n][0])
+            {
+                if ((((j + epic_level_feats[n][1]) % epic_level_feats[n][2]) == epic_level_feats[n][3]) == epic_level_feats[n][4])
+                {
+                    if (epic_level_feats[n][5] == FEAT_DAMAGE_REDUCTION)
+                    {
+                        SET_FEAT(ch, FEAT_DAMAGE_REDUCTION, HAS_REAL_FEAT(ch, FEAT_DAMAGE_REDUCTION) + epic_level_feats[n][6]);
+                        for (reduct = ch->damreduct; reduct; reduct = reduct->next)
+                        {
+                            if (reduct->feat == FEAT_DAMAGE_REDUCTION)
+                            {
+                                REMOVE_FROM_LIST(reduct, ch->damreduct, next);
+                            }
+                        }
+                        CREATE(ptr, struct damreduct_type, 1);
+                        ptr->next = ch->damreduct;
+                        ch->damreduct = ptr;
+                        ptr->spell = 0;
+                        ptr->feat = FEAT_DAMAGE_REDUCTION;
+                        ptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION);
+                        ptr->duration = -1;
+                        ptr->max_damage = -1;
+                        for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
+                            ptr->damstyle[q] = ptr->damstyleval[q] = 0;
+                        ptr->damstyle[0] = DR_NONE;
+                    }
+                    else
+                    {
+                        SET_FEAT(ch, epic_level_feats[n][5], HAS_REAL_FEAT(ch, epic_level_feats[n][5]) + epic_level_feats[n][6]);
+                    }
+                    sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[epic_level_feats[n][5]].name);
+                }
+            }
+            n++;
+        }
+    }
+
+    if (manual)
+        add_class_feats = num_levelup_class_feats(ch, whichclass, ranks);
+    else
+        add_class_feats = ch->levelup->num_class_feats;
+
+    switch (whichclass)
+    {
     case CLASS_ARCANE_ARCHER:
-      if (((ranks - 1) % 4) != 0)
-        arcane_bonus++;
-      break;
+        if (((ranks - 1) % 4) != 0)
+            arcane_bonus++;
+        break;
     case CLASS_ELDRITCH_KNIGHT:
-      if (ranks > 1)
-        arcane_bonus++;
-      break;
+        if (ranks > 1)
+            arcane_bonus++;
+        break;
     case CLASS_DEATH_MASTER:
-      if (ranks > 1)
-        arcane_bonus++;
-      break;
+        if (ranks > 1)
+            arcane_bonus++;
+        break;
     case CLASS_MYSTIC_THEURGE:
         arcane_bonus++;
         divine_bonus++;
-      break;
+        break;
     case CLASS_SACRED_FIST:
-      divine_bonus++;
-      break;
+        divine_bonus++;
+        break;
     case CLASS_ARCANE_TRICKSTER:
-      arcane_bonus++;
-      break;
+        arcane_bonus++;
+        break;
     case CLASS_TEMPLAR:
     case CLASS_ZHENTARIM_PRIEST:
-      divine_bonus++;
-      break;
+        divine_bonus++;
+        break;
     case CLASS_ZHENTARIM_WIZARD:
-      arcane_bonus++;
-      break;
-  }
+        arcane_bonus++;
+        break;
+    }
 
-  ch->player_specials->bonus_levels_arcane += arcane_bonus;
-  ch->player_specials->bonus_levels_divine += divine_bonus;
+    ch->player_specials->bonus_levels_arcane += arcane_bonus;
+    ch->player_specials->bonus_levels_divine += divine_bonus;
 
 
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  switch (whichclass) {
-  case CLASS_WIZARD:
-  case CLASS_KNIGHT_OF_THE_THORN:
-  case CLASS_MYSTIC_THEURGE:
-  case CLASS_SORCERER:
-  case CLASS_FAVORED_SOUL:
-  case CLASS_ELDRITCH_KNIGHT:
-  case CLASS_DEATH_MASTER:
-    add_mana = 10;
-    add_move = rand_number(1, 2);
-    break;
-  case CLASS_CLERIC:
-  case CLASS_KNIGHT_OF_THE_SKULL:
-    add_mana = 10;
-    add_move = rand_number(1, 2);
-    break;
-  case CLASS_DRAGON_DISCIPLE:
-    add_mana = 5;
-    add_move = rand_number(1, 2);
-    break;
-  case CLASS_ARCANE_TRICKSTER:
-    add_mana = 10;
-    add_move = rand_number(1, 2);
-    break;
-  case CLASS_ROGUE:
-    add_move = rand_number(1, 3);
-    break;
-  case CLASS_ARTISAN:
-    add_move = rand_number(1, 2);
-    break;
-  case CLASS_FIGHTER:
-  case CLASS_KNIGHT_OF_THE_LILY:
-    add_move = rand_number(1, 3);
-    break;
-  case CLASS_MONK:
-    add_move = rand_number(1, 3);
-    add_ki = 10 + ability_mod_value(ch->real_abils.wis);
-    break;
-  case CLASS_ASSASSIN:
-    add_move = rand_number(1, 3);
-    break;
-  case CLASS_PALADIN:
-    add_mana = 5;
-    add_move = rand_number(1, 3);
-    break;
-  case CLASS_BARBARIAN:
-  	add_move = rand_number(1, 3);
-  	break;
-  case CLASS_DRUID:
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    switch (whichclass)
+    {
+    case CLASS_WIZARD:
+    case CLASS_KNIGHT_OF_THE_THORN:
+    case CLASS_MYSTIC_THEURGE:
+    case CLASS_SORCERER:
+    case CLASS_FAVORED_SOUL:
+    case CLASS_ELDRITCH_KNIGHT:
+    case CLASS_DEATH_MASTER:
         add_mana = 10;
-  	add_move = rand_number(1, 3);
- 	break;
-  case CLASS_RANGER:
+        add_move = rand_number(1, 2);
+        break;
+    case CLASS_CLERIC:
+    case CLASS_KNIGHT_OF_THE_SKULL:
+        add_mana = 10;
+        add_move = rand_number(1, 2);
+        break;
+    case CLASS_DRAGON_DISCIPLE:
         add_mana = 5;
-  	add_move = rand_number(1, 3);
-  	break;
-  case CLASS_BARD:
+        add_move = rand_number(1, 2);
+        break;
+    case CLASS_ARCANE_TRICKSTER:
         add_mana = 10;
-  	add_move = rand_number(1, 3);
-  	break;
-  case CLASS_DUELIST:
-  	add_move = rand_number(1, 3);
-  	break;
-  case CLASS_KNIGHT_OF_THE_CROWN:
-  case CLASS_KNIGHT_OF_THE_ROSE:
-  case CLASS_DWARVEN_DEFENDER:
-  case CLASS_WEAPON_MASTER:
-  case CLASS_KNIGHT_OF_THE_SWORD:  	 
-  	add_move = rand_number(1, 3);
-  	break;  	  	
-  }
-  if (HAS_FEAT(ch, FEAT_ENDURANCE))
-    add_move++;
-  add_move *= 10;
-  add_move = MAX(0, add_move);
+        add_move = rand_number(1, 2);
+        break;
+    case CLASS_ROGUE:
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_ARTISAN:
+        add_move = rand_number(1, 2);
+        break;
+    case CLASS_FIGHTER:
+    case CLASS_KNIGHT_OF_THE_LILY:
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_MONK:
+        add_move = rand_number(1, 3);
+        add_ki = 10 + ability_mod_value(ch->real_abils.wis);
+        break;
+    case CLASS_ASSASSIN:
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_PALADIN:
+        add_mana = 5;
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_BARBARIAN:
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_DRUID:
+        add_mana = 10;
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_RANGER:
+        add_mana = 5;
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_BARD:
+        add_mana = 10;
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_DUELIST:
+        add_move = rand_number(1, 3);
+        break;
+    case CLASS_KNIGHT_OF_THE_CROWN:
+    case CLASS_KNIGHT_OF_THE_ROSE:
+    case CLASS_DWARVEN_DEFENDER:
+    case CLASS_WEAPON_MASTER:
+    case CLASS_KNIGHT_OF_THE_SWORD:
+        add_move = rand_number(1, 3);
+        break;
+    }
+    if (HAS_FEAT(ch, FEAT_ENDURANCE))
+        add_move++;
+    add_move *= 10;
+    add_move = MAX(0, add_move);
 
 
-  if (manual)
-	  add_prac = num_levelup_practices(ch, whichclass);
-  else
-	  add_prac = ch->levelup->practices;
-
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-
-  if (level % 2 == 1) {
     if (manual)
-      add_gen_feats++;
+        add_prac = num_levelup_practices(ch, whichclass);
     else
-      add_gen_feats = ch->levelup->feat_points;
-  }
+        add_prac = ch->levelup->practices;
 
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  i = ability_mod_value(ch->real_abils.con);
-  if (level > 1) {
-    j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
-    add_hp = MAX(1, i + j);
-  }
-  if (HAS_FEAT(ch, FEAT_TOUGHNESS) && (level >3))
-    add_hp += 1;
-  llog->hp_roll = j;
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  add_train = (level % 4) ? 0 : 1;
-  if (add_train) {
-    if (manual)
-      GET_TRAINS(ch) += add_train;
-    else
-      GET_TRAINS(ch) = ch->levelup->num_trains;
-  }
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 
-  llog->mana_roll = add_mana;
-  llog->move_roll = add_move;
-  llog->ki_roll = add_ki;
-  llog->add_skill = add_prac;
-  add_prac = add_prac;
+    if (level % 2 == 1)
+    {
+        if (manual)
+            add_gen_feats++;
+        else
+            add_gen_feats = ch->levelup->feat_points;
+    }
 
-  if (whichclass != CLASS_ARTISAN) {
-  GET_PRACTICES(ch, whichclass) += add_prac;
-  GET_MAX_HIT(ch) += add_hp;
-  GET_MAX_MOVE(ch) += add_move;
-  GET_MAX_MANA(ch) += add_mana;
-  GET_MAX_KI(ch) += add_ki;
-  if (GET_CLASS_LEVEL(ch) > 20) { /* Epic character */
-    GET_EPIC_FEAT_POINTS(ch) += add_gen_feats;
-    GET_EPIC_CLASS_FEATS(ch, whichclass) += add_class_feats;
-  } else {
-    GET_FEAT_POINTS(ch) += add_gen_feats;
-    GET_CLASS_FEATS(ch, whichclass) += add_class_feats;
-  }
-}
-  if (GET_ADMLEVEL(ch) >= ADMLVL_IMMORT) {
-    for (i = 0; i < 3; i++)
-      GET_COND(ch, i) = (char) -1;
-    SET_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-  }
-  add_gen_feats = add_gen_feats;
-  add_class_feats = add_class_feats;
-  send_to_char(ch, "@YYou have gained a level in %s!\r\n@n", pc_class_types_dl_aol[whichclass]);
-  send_to_char(ch, "@Y");
-  display_levelup_changes(ch, TRUE);
-  send_to_char(ch, "@n");
-  send_to_char(ch, "@YYou have gained the following:\r\n@n");
-  send_to_char(ch, "@rAny values below zero signify you spent what you gained plus what you had from before.\r\n");
-  if (add_hp) send_to_char(ch, "@Y  Hit Points:     @W%d\r\n@n", add_hp);
-  if (add_mana) send_to_char(ch, "@Y  Metamagic Points: @W%d\r\n@n", add_mana);
-  if (add_move) send_to_char(ch, "@Y  Stamina Points: @W%d\r\n@n", add_move);
-  if (add_ki) send_to_char(ch, "@Y  Ki Points: @W%d\r\n@n", add_ki);
-  if (add_fort) send_to_char(ch, "@Y  Fortitude Save: @W%d\r\n@n", add_fort);
-  if (add_will) send_to_char(ch, "@Y  Willpower Save: @W%d\r\n@n", add_will);
-  if (add_reflex) send_to_char(ch, "@Y  Reflex Save:    @W%d\r\n@n", add_reflex);
-  if (add_train) send_to_char(ch, "@Y  Ability Trains: @W%d\r\n@n", add_train);
-  if (GET_CLASS_LEVEL(ch) > 20) {
-    if (add_gen_feats) send_to_char(ch, "@Y  Epic Feats:  @W%d\r\n@n", add_gen_feats);
-    if (add_class_feats) send_to_char(ch, "@Y  Epic Class Feats:    @W%d\r\n@n", add_class_feats);
-  }
-  else {
-    if (add_gen_feats) send_to_char(ch, "@Y  General Feats:  @W%d\r\n@n", add_gen_feats);
-    if (add_class_feats) send_to_char(ch, "@Y  Class Feats:    @W%d\r\n@n", add_class_feats);
-  }
-  if (add_acc) send_to_char(ch, "@Y  To-Hit Bonus:   @W%d\r\n@n", add_acc);
-  if (add_prac) send_to_char(ch, "@Y  Skill Points:   @W%d\r\n@n", add_prac);
-  if (research_sessions) send_to_char(ch, "@Y  Spell Research Sessions: @W%d\r\n", research_sessions);
-  if (arcane_bonus) send_to_char(ch, "@Y  You have gained an arcane bonus level to spend.\r\n");
-  if (divine_bonus) send_to_char(ch, "@Y  You have gained a divine bonus level to spend.\r\n");
-  if (evasion) send_to_char(ch, "@YYou have gained the evasion feat!@n\r\n");
-  if (impEvasion) send_to_char(ch, "@YYou have gained the improved evasion feat!@n\r\n");
-  if (impDisarm) send_to_char(ch, "@YYou have gained the improved disarm feat!@n\r\n");
-  if (combatReflexes) send_to_char(ch, "@YYou have gained the combat reflexes feat!@n\r\n");
-  if (layhands) send_to_char(ch, "@YYou have gained the lay hands feat!@n\r\n");
-  if (sneakAttack) send_to_char(ch, "@YYour sneak attack has increased to +%dd6!!@n\r\n", HAS_FEAT(ch, FEAT_SNEAK_ATTACK));
-  send_to_char(ch, "%s", featbuf);
-  if (whichclass == CLASS_MONK) {
-    buf[0] = 0;
-    j = 0;
-    for (i = 0; i < SKILL_TABLE_SIZE; i++)
-      if (IS_SET(spell_info[i].skilltype, SKTYPE_ART))
-        if (ranks >= spell_info[i].min_level[CLASS_MONK] && !GET_SKILL(ch, i)) {
-          if (j)
-            strncat(buf, ", ", sizeof(buf)-1);
-          strncat(buf, spell_info[i].name, sizeof(buf)-1);
-          SET_SKILL(ch, i, 1);
-          j += 1;
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    i = ability_mod_value(ch->real_abils.con);
+    if (level > 1)
+    {
+        j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
+        add_hp = MAX(1, i + j);
+    }
+    if (HAS_FEAT(ch, FEAT_TOUGHNESS) && (level > 3))
+        add_hp += 1;
+    llog->hp_roll = j;
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    add_train = (level % 4) ? 0 : 1;
+    if (add_train)
+    {
+        if (manual)
+            GET_TRAINS(ch) += add_train;
+        else
+            GET_TRAINS(ch) = ch->levelup->num_trains;
+    }
+
+    llog->mana_roll = add_mana;
+    llog->move_roll = add_move;
+    llog->ki_roll = add_ki;
+    llog->add_skill = add_prac;
+    add_prac = add_prac;
+
+    if (whichclass != CLASS_ARTISAN)
+    {
+        GET_PRACTICES(ch, whichclass) += add_prac;
+        GET_MAX_HIT(ch) += add_hp;
+        GET_MAX_MOVE(ch) += add_move;
+        GET_MAX_MANA(ch) += add_mana;
+        GET_MAX_KI(ch) += add_ki;
+        if (GET_CLASS_LEVEL(ch) > 20)   /* Epic character */
+        {
+            GET_EPIC_FEAT_POINTS(ch) += add_gen_feats;
+            GET_EPIC_CLASS_FEATS(ch, whichclass) += add_class_feats;
         }
-    if (j) {
-      send_to_char(ch, "You gain the following abilit%s, usable via the \"art\" command:%s%s\r\n",
-                   j > 1 ? "ies" : "y", j > 1 ? "\r\n" : " ", buf);
+        else
+        {
+            GET_FEAT_POINTS(ch) += add_gen_feats;
+            GET_CLASS_FEATS(ch, whichclass) += add_class_feats;
+        }
     }
-  }
-  llog->accuracy = add_acc;
-  llog->fort = add_fort;
-  llog->reflex = add_reflex;
-  llog->will = add_will;
-  GET_ACCURACY_BASE(ch) += MAX(0, add_acc);
-  GET_SAVE_BASE(ch, SAVING_FORTITUDE) += add_fort;
-  GET_SAVE_BASE(ch, SAVING_REFLEX) += add_reflex;
-  GET_SAVE_BASE(ch, SAVING_WILL) += add_will;
-  GET_MAX_HIT(ch) = calculate_max_hit(ch);
-  GET_FEAT_POINTS(ch) = 0;
-  GET_EPIC_FEAT_POINTS(ch) = 0;
-  GET_CLASS_FEATS(ch, whichclass) = 0;
-  GET_EPIC_CLASS_FEATS(ch, whichclass) = 0;
-  GET_PRACTICES(ch, whichclass) = 0;
-  GET_TRAINS(ch) = 0;
-
-  if (!manual)
-    GET_CLASS_LEVEL(ch) += 1;
-
-  for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++) {
-    if (ch->levelup->spells_known[i] != ch->player_specials->spells_known[i]) {
-      send_to_char(ch, "@YYou have added the %s spell to your repetoire.\r\n@n", spell_info[ch->levelup->spells_known[i]].name);
+    if (GET_ADMLEVEL(ch) >= ADMLVL_IMMORT)
+    {
+        for (i = 0; i < 3; i++)
+            GET_COND(ch, i) = (char) -1;
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_HOLYLIGHT);
     }
-    ch->player_specials->spells_known[i] = ch->levelup->spells_known[i];
-  }
-    
+    add_gen_feats = add_gen_feats;
+    add_class_feats = add_class_feats;
+    send_to_char(ch, "@YYou have gained a level in %s!\r\n@n", pc_class_types_dl_aol[whichclass]);
+    send_to_char(ch, "@Y");
+    display_levelup_changes(ch, TRUE);
+    send_to_char(ch, "@n");
+    send_to_char(ch, "@YYou have gained the following:\r\n@n");
+    send_to_char(ch, "@rAny values below zero signify you spent what you gained plus what you had from before.\r\n");
+    if (add_hp) send_to_char(ch, "@Y  Hit Points:     @W%d\r\n@n", add_hp);
+    if (add_mana) send_to_char(ch, "@Y  Metamagic Points: @W%d\r\n@n", add_mana);
+    if (add_move) send_to_char(ch, "@Y  Stamina Points: @W%d\r\n@n", add_move);
+    if (add_ki) send_to_char(ch, "@Y  Ki Points: @W%d\r\n@n", add_ki);
+    if (add_fort) send_to_char(ch, "@Y  Fortitude Save: @W%d\r\n@n", add_fort);
+    if (add_will) send_to_char(ch, "@Y  Willpower Save: @W%d\r\n@n", add_will);
+    if (add_reflex) send_to_char(ch, "@Y  Reflex Save:    @W%d\r\n@n", add_reflex);
+    if (add_train) send_to_char(ch, "@Y  Ability Trains: @W%d\r\n@n", add_train);
+    if (GET_CLASS_LEVEL(ch) > 20)
+    {
+        if (add_gen_feats) send_to_char(ch, "@Y  Epic Feats:  @W%d\r\n@n", add_gen_feats);
+        if (add_class_feats) send_to_char(ch, "@Y  Epic Class Feats:    @W%d\r\n@n", add_class_feats);
+    }
+    else
+    {
+        if (add_gen_feats) send_to_char(ch, "@Y  General Feats:  @W%d\r\n@n", add_gen_feats);
+        if (add_class_feats) send_to_char(ch, "@Y  Class Feats:    @W%d\r\n@n", add_class_feats);
+    }
+    if (add_acc) send_to_char(ch, "@Y  To-Hit Bonus:   @W%d\r\n@n", add_acc);
+    if (add_prac) send_to_char(ch, "@Y  Skill Points:   @W%d\r\n@n", add_prac);
+    if (research_sessions) send_to_char(ch, "@Y  Spell Research Sessions: @W%d\r\n", research_sessions);
+    if (arcane_bonus) send_to_char(ch, "@Y  You have gained an arcane bonus level to spend.\r\n");
+    if (divine_bonus) send_to_char(ch, "@Y  You have gained a divine bonus level to spend.\r\n");
+    if (evasion) send_to_char(ch, "@YYou have gained the evasion feat!@n\r\n");
+    if (impEvasion) send_to_char(ch, "@YYou have gained the improved evasion feat!@n\r\n");
+    if (impDisarm) send_to_char(ch, "@YYou have gained the improved disarm feat!@n\r\n");
+    if (combatReflexes) send_to_char(ch, "@YYou have gained the combat reflexes feat!@n\r\n");
+    if (layhands) send_to_char(ch, "@YYou have gained the lay hands feat!@n\r\n");
+    if (sneakAttack) send_to_char(ch, "@YYour sneak attack has increased to +%dd6!!@n\r\n", HAS_FEAT(ch, FEAT_SNEAK_ATTACK));
+    send_to_char(ch, "%s", featbuf);
+    if (whichclass == CLASS_MONK)
+    {
+        buf[0] = 0;
+        j = 0;
+        for (i = 0; i < SKILL_TABLE_SIZE; i++)
+            if (IS_SET(spell_info[i].skilltype, SKTYPE_ART))
+                if (ranks >= spell_info[i].min_level[CLASS_MONK] && !GET_SKILL(ch, i))
+                {
+                    if (j)
+                        strncat(buf, ", ", sizeof(buf) - 1);
+                    strncat(buf, spell_info[i].name, sizeof(buf) - 1);
+                    SET_SKILL(ch, i, 1);
+                    j += 1;
+                }
+        if (j)
+        {
+            send_to_char(ch, "You gain the following abilit%s, usable via the \"art\" command:%s%s\r\n",
+                         j > 1 ? "ies" : "y", j > 1 ? "\r\n" : " ", buf);
+        }
+    }
+    llog->accuracy = add_acc;
+    llog->fort = add_fort;
+    llog->reflex = add_reflex;
+    llog->will = add_will;
+    GET_ACCURACY_BASE(ch) += MAX(0, add_acc);
+    GET_SAVE_BASE(ch, SAVING_FORTITUDE) += add_fort;
+    GET_SAVE_BASE(ch, SAVING_REFLEX) += add_reflex;
+    GET_SAVE_BASE(ch, SAVING_WILL) += add_will;
+    GET_MAX_HIT(ch) = calculate_max_hit(ch);
+    GET_FEAT_POINTS(ch) = 0;
+    GET_EPIC_FEAT_POINTS(ch) = 0;
+    GET_CLASS_FEATS(ch, whichclass) = 0;
+    GET_EPIC_CLASS_FEATS(ch, whichclass) = 0;
+    GET_PRACTICES(ch, whichclass) = 0;
+    GET_TRAINS(ch) = 0;
 
-  ch->levelup = NULL;
+    if (!manual)
+        GET_CLASS_LEVEL(ch) += 1;
 
-  snoop_check(ch);
-  save_char(ch);
+    for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++)
+    {
+        if (ch->levelup->spells_known[i] != ch->player_specials->spells_known[i])
+        {
+            send_to_char(ch, "@YYou have added the %s spell to your repetoire.\r\n@n", spell_info[ch->levelup->spells_known[i]].name);
+        }
+        ch->player_specials->spells_known[i] = ch->levelup->spells_known[i];
+    }
+
+
+    ch->levelup = NULL;
+
+    snoop_check(ch);
+    save_char(ch);
 }
 
 /*
@@ -5752,63 +5820,78 @@ int num_levelup_practices(struct char_data *ch, int whichclass)
 ACMD(do_classabilities)
 {
 
-  skip_spaces(&argument);
+    skip_spaces(&argument);
 
-  if (!*argument) {
-    send_to_char(ch, "Please specify a class name to view ability progression on.\r\n");
-    return;
-  }  
-
-
-  int i = 0;
-
-  for (i = 0; i < NUM_CLASSES; i++) {
-    if (is_abbrev(argument, class_names_dl_aol[i])) {
-      break;    
+    if (!*argument)
+    {
+        send_to_char(ch, "Please specify a class name to view ability progression on.\r\n");
+        return;
     }
-  }
 
-  if (i > NUM_CLASSES) {
-    send_to_char(ch, "Please specify a class name to view ability progression on.\r\n");
-    return;    
-  }
 
-  int max_ranks = CONFIG_LEVEL_CAP;
+    int i = 0;
 
-  if (prestige_classes_dl_aol[i]) {
-    max_ranks = 21;
-  }
-
-  int j = 0;
-  int n = 0;
-  int found = FALSE;
-
-  for (j = 1; j < max_ranks; j++) {
-    found = FALSE;    
-    if (j >= ((max_ranks == 21) ? 10 : 20)) {
-      n = 0;
-      while (epic_level_feats[n][0] != CLASS_UNDEFINED) {        
-        if (i == epic_level_feats[n][0]) {
-          if ((((j - ((max_ranks == 21) ? 10 : 20) + epic_level_feats[n][1]) % epic_level_feats[n][2]) == epic_level_feats[n][3]) == epic_level_feats[n][4]) {
-            send_to_char(ch, "%2d) %s increases by %d\r\n", j, feat_list[epic_level_feats[n][5]].name, epic_level_feats[n][6]);
-            found = TRUE;
-          }
+    for (i = 0; i < NUM_CLASSES; i++)
+    {
+        if (is_abbrev(argument, class_names_dl_aol[i]))
+        {
+            break;
         }
-        n++;
-      }
-    } else {
-      n = 0;
-      while (level_feats[n][4] != FEAT_UNDEFINED) {
-        if (i == level_feats[n][0] && level_feats[n][1] == RACE_UNDEFINED && j == level_feats[n][3]) {
-          send_to_char(ch, "%2d) %s increases by %d\r\n", j, feat_list[level_feats[n][4]].name, 
-                       (i == CLASS_DWARVEN_DEFENDER && level_feats[n][4] == FEAT_DAMAGE_REDUCTION) ? 3 : 1);
-            found = TRUE;
+    }
+
+    if (i > NUM_CLASSES)
+    {
+        send_to_char(ch, "Please specify a class name to view ability progression on.\r\n");
+        return;
+    }
+
+    int max_ranks = CONFIG_LEVEL_CAP;
+
+    if (prestige_classes_dl_aol[i])
+    {
+        max_ranks = 21;
+    }
+
+    int j = 0;
+    int n = 0;
+    int found = FALSE;
+
+    for (j = 1; j < max_ranks; j++)
+    {
+        found = FALSE;
+        if (j >= ((max_ranks == 21) ? 10 : 20))
+        {
+            n = 0;
+            while (epic_level_feats[n][0] != CLASS_UNDEFINED)
+            {
+                if (i == epic_level_feats[n][0])
+                {
+                    if ((((j - ((max_ranks == 21) ? 10 : 20) + epic_level_feats[n][1]) % epic_level_feats[n][2]) == epic_level_feats[n][3]) == epic_level_feats[n][4])
+                    {
+                        send_to_char(ch, "%2d) %s increases by %d\r\n", j, feat_list[epic_level_feats[n][5]].name, epic_level_feats[n][6]);
+                        found = TRUE;
+                    }
+                }
+                n++;
+            }
         }
-        n++;
-      }
+        else
+        {
+            n = 0;
+            while (level_feats[n][4] != FEAT_UNDEFINED)
+            {
+                if (i == level_feats[n][0] && level_feats[n][1] == RACE_UNDEFINED && j == level_feats[n][3])
+                {
+                    send_to_char(ch, "%2d) %s increases by %d\r\n", j, feat_list[level_feats[n][4]].name,
+                                 (i == CLASS_DWARVEN_DEFENDER && level_feats[n][4] == FEAT_DAMAGE_REDUCTION) ? 3 : 1);
+                    found = TRUE;
+                }
+                n++;
+            }
+        }
+        if (!found)
+        {
+            send_to_char(ch, "%2d) no ability gain this level\r\n", j);
+        }
     }
-    if (!found) {
-      send_to_char(ch, "%2d) no ability gain this level\r\n", j);
-    }
-  }
 }

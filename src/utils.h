@@ -1507,4 +1507,3 @@ void admin_set(struct char_data *ch, int value);
 #define MONEY_STRING            ((CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? "steel coins" : "gold coins"))
 
 #define GET_REPUTATION(ch)      (ch->reputation)
-

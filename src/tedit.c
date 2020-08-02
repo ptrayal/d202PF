@@ -71,84 +71,105 @@ void tedit_string_cleanup(struct descriptor_data *d, int terminator)
 
 ACMD(do_tedit)
 {
-  int l, i = 0;
-  char field[MAX_INPUT_LENGTH]={'\0'};
-  char *backstr = NULL;
-   
-  struct {
-    char *cmd;
-    char level;
-    const char **buffer;
-    int  size;
-    char *filename;
-  } fields[] = {
-	/* edit the lvls to your own needs */
-	{ "credits",	ADMLVL_IMPL,	&credits,	2400,	CREDITS_FILE},
-	{ "news",	ADMLVL_GRGOD,	&news,		8192,	NEWS_FILE},
-	{ "motd",	ADMLVL_GRGOD,	&motd,		2400,	MOTD_FILE},
-	{ "imotd",	ADMLVL_IMPL,	&imotd,		2400,	IMOTD_FILE},
-	{ "help",       ADMLVL_GRGOD,	&help,		2400,	HELP_PAGE_FILE},
-	{ "info",	ADMLVL_GRGOD,	&info,		8192,	INFO_FILE},
-	{ "background",	ADMLVL_IMPL,	&background,	8192,	BACKGROUND_FILE},
-	{ "handbook",   ADMLVL_IMPL,	&handbook,	8192,   HANDBOOK_FILE},
-	{ "policies",	ADMLVL_IMPL,	&policies,	8192,	POLICIES_FILE},
-	{ "\n",		0,		NULL,		0,	NULL }
-  };
+    char field[MAX_INPUT_LENGTH] = {'\0'};
+    char *backstr = NULL;
+    int l = 0;
+    int i = 0;
 
-  if (ch->desc == NULL)
-    return;
-   
-  one_argument(argument, field);
+    struct
+    {
+        char *cmd;
+        char level;
+        const char **buffer;
+        int  size;
+        char *filename;
+    } fields[] = {
+        /* edit the lvls to your own needs */
+        { "credits",  ADMLVL_IMPL,  &credits, 2400, CREDITS_FILE},
+        { "news", ADMLVL_GRGOD, &news,    8192, NEWS_FILE},
+        { "motd", ADMLVL_GRGOD, &motd,    2400, MOTD_FILE},
+        { "imotd",  ADMLVL_IMPL,  &imotd,   2400, IMOTD_FILE},
+        { "help",       ADMLVL_GRGOD, &help,    2400, HELP_PAGE_FILE},
+        { "info", ADMLVL_GRGOD, &info,    8192, INFO_FILE},
+        { "background", ADMLVL_IMPL,  &background,  8192, BACKGROUND_FILE},
+        { "handbook",   ADMLVL_IMPL,  &handbook,  8192,   HANDBOOK_FILE},
+        { "policies", ADMLVL_IMPL,  &policies,  8192, POLICIES_FILE},
+        { "\n",   0,    NULL,   0,  NULL }
+    };
 
-  if (!*field) {
-    send_to_char(ch, "Files available to be edited:\r\n");
-    for (l = 0; *fields[l].cmd != '\n'; l++) {
-      if (GET_ADMLEVEL(ch) >= fields[l].level) {
-	send_to_char(ch, "%-11.11s ", fields[l].cmd);
-	if (!(++i % 7))
-	  send_to_char(ch, "\r\n");
-      }
+    if (ch->desc == NULL)
+    {
+        return;
     }
-    if (i % 7)
-      send_to_char(ch, "\r\n");
-    if (i == 0)
-      send_to_char(ch, "None.\r\n");
-    return;
-  }
-  for (l = 0; *(fields[l].cmd) != '\n'; l++)
-    if (!strncmp(field, fields[l].cmd, strlen(field)))
-      break;
-   
-  if (*fields[l].cmd == '\n') {
-    send_to_char(ch, "Invalid text editor option.\r\n");
-    return;
-  }
-   
-  if (GET_ADMLEVEL(ch) < fields[l].level) {
-    send_to_char(ch, "You are not godly enough for that!\r\n");
-    return;
-  }
 
-  /* set up editor stats */
-  clear_screen(ch->desc);
-  send_editor_help(ch->desc);
-  send_to_char(ch, "Edit file below:\r\n\r\n");
+    one_argument(argument, field);
 
-  if (ch->desc->olc) {
-    mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_tedit: Player already had olc structure.");
-    free(ch->desc->olc);
-  }
-  CREATE(ch->desc->olc, struct oasis_olc_data, 1);
-  
-  if (*fields[l].buffer) {
-    send_to_char(ch, "%s", *fields[l].buffer);
-    backstr = strdup(*fields[l].buffer);
-  }
+    if (!*field)
+    {
+        send_to_char(ch, "Files available to be edited:\r\n");
+        for (l = 0; *fields[l].cmd != '\n'; l++)
+        {
+            if (GET_ADMLEVEL(ch) >= fields[l].level)
+            {
+                send_to_char(ch, "%-11.11s ", fields[l].cmd);
+                if (!(++i % 7))
+                {
+                    send_to_char(ch, "\r\n");
+                }
+            }
+        }
+        if (i % 7)
+        {
+            send_to_char(ch, "\r\n");
+        }
+        if (i == 0)
+        {
+            send_to_char(ch, "None.\r\n");
+        }
+        return;
+    }
+    for (l = 0; * (fields[l].cmd) != '\n'; l++)
+    {
+        if (!strncmp(field, fields[l].cmd, strlen(field)))
+        {
+            break;
+        }
+    }
 
-  OLC_STORAGE(ch->desc) = strdup(fields[l].filename);
-  string_write(ch->desc, (char **)fields[l].buffer, fields[l].size, 0, backstr);
+    if (*fields[l].cmd == '\n')
+    {
+        send_to_char(ch, "Invalid text editor option.\r\n");
+        return;
+    }
 
-  act("$n begins editing a scroll.", TRUE, ch, 0, 0, TO_ROOM);
-  SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-  STATE(ch->desc) = CON_TEDIT;
+    if (GET_ADMLEVEL(ch) < fields[l].level)
+    {
+        send_to_char(ch, "You are not godly enough for that!\r\n");
+        return;
+    }
+
+    /* set up editor stats */
+    clear_screen(ch->desc);
+    send_editor_help(ch->desc);
+    send_to_char(ch, "Edit file below:\r\n\r\n");
+
+    if (ch->desc->olc)
+    {
+        mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_tedit: Player already had olc structure.");
+        free(ch->desc->olc);
+    }
+    CREATE(ch->desc->olc, struct oasis_olc_data, 1);
+
+    if (*fields[l].buffer)
+    {
+        send_to_char(ch, "%s", *fields[l].buffer);
+        backstr = strdup(*fields[l].buffer);
+    }
+
+    OLC_STORAGE(ch->desc) = strdup(fields[l].filename);
+    string_write(ch->desc, (char **)fields[l].buffer, fields[l].size, 0, backstr);
+
+    act("$n begins editing a scroll.", TRUE, ch, 0, 0, TO_ROOM);
+    SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+    STATE(ch->desc) = CON_TEDIT;
 }

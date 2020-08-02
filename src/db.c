@@ -5585,5 +5585,3 @@ void set_auto_mob_stats(struct char_data *mob)
     mob->time.logon = time(0);
 
 }
-
-

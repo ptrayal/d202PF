@@ -1060,88 +1060,103 @@ ASPELL(spell_wish_ring)
 
 ACMD(do_wish)
 {
+    struct char_data *victim = ch;
+    char result[100] = {'\0'};
 
-  if (GET_WISHES(ch) < 1) {
-    send_to_char(ch, "You do not have any wishes to spend.\r\n");
-    return;
-  }
+    if (GET_WISHES(ch) < 1)
+    {
+        send_to_char(ch, "You do not have any wishes to spend.\r\n");
+        return;
+    }
 
-  char result[100]={'\0'};
-  struct char_data *victim = ch;
+    one_argument(argument, result);
 
-  one_argument(argument, result);
+    if (!*result)
+    {
+        send_to_char(ch, "Please wish for one of the following: strength, intelligence, wisdom, dexterity, constitution, charisma\r\n");
+        send_to_char(ch, "You currrently have %d wishes to spend.\r\n", GET_WISHES(ch));
+        return;
+    }
 
-  if (!*result) {
-    send_to_char(ch, "Please wish for one of the following: strength, intelligence, wisdom, dexterity, constitution, charisma\r\n");
-    send_to_char(ch, "You currrently have %d wishes to spend.\r\n", GET_WISHES(ch));
-    return;
-  }
-  
-  if (!strcmp(result, "strength")) {
-	if (GET_WISH_STR(victim) >= 5) {
-	  send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
-	  return;
-	}
-	victim->real_abils.str++;
-	GET_WISH_STR(victim)++;
-	send_to_char(ch, "Your wish for greater strength was granted.\r\n");
-	send_to_char(victim, "A wish was made for greater strength and feel your muscles permanently surge and grow.\r\n");
-  }
-  else if (!strcmp(result, "dexterity")) {
-	if (GET_WISH_DEX(victim) >= 5) {
-	  send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
-	  return;
-	}
-	victim->real_abils.dex++;
-	GET_WISH_DEX(victim)++;
-	send_to_char(ch, "Your wish for greater dexterity was granted.\r\n");
-	send_to_char(victim, "A wish was made for greater dexterity and feel your reflexes permanently surge and grow.\r\n");
-  }  
-  else if (!strcmp(result, "constitution")) {
-	if (GET_WISH_CON(victim) >= 5) {
-	  send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
-	  return;
-	}
-	victim->real_abils.con++;
-	GET_WISH_CON(victim)++;
-	send_to_char(ch, "Your wish for greater constitution was granted.\r\n");
-	send_to_char(victim, "A wish was made for greater constitution and feel your hardiness permanently surge and grow.\r\n");
-  }
-  else if (!strcmp(result, "intelligence")) {
-	if (GET_WISH_INT(victim) >= 5) {
-	  send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
-	  return;
-	}
-	victim->real_abils.intel++;
-	GET_WISH_INT(victim)++;
-	send_to_char(ch, "Your wish for greater intelligence was granted.\r\n");
-	send_to_char(victim, "A wish was made for greater intelligence and feel your intellect permanently surge and grow.\r\n");
-  }  
-  else if (!strcmp(result, "wisdom")) {
-	if (GET_WISH_WIS(victim) >= 5) {
-	  send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
-	  return;
-	}
-	victim->real_abils.wis++;
-	GET_WISH_WIS(victim)++;
-	send_to_char(ch, "Your wish for greater wisdom was granted.\r\n");
-	send_to_char(victim, "A wish was made for greater wisdom and feel your intuition permanently surge and grow.\r\n");
-  }
-  else if (!strcmp(result, "charisma")) {
-	if (GET_WISH_CHA(victim) >= 5) {
-	  send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
-	  return;
-	}
-	victim->real_abils.cha++;
-	GET_WISH_CHA(victim)++;
-	send_to_char(ch, "Your wish for greater charisma was granted.\r\n");
-	send_to_char(victim, "A wish was made for greater charisma and feel yourself become more personable permanently.\r\n");
-  } else {
-    send_to_char(ch, "Please wish for one of the following: strength, intelligence, wisdom, dexterity, constitution, charisma\r\n");
-    send_to_char(ch, "You currrently have %d wishes to spend.\r\n", GET_WISHES(ch));
-    return;
-  }
-  affect_total(ch);  
-  GET_WISHES(ch)--;
-  save_char(ch);
+    if (!strcmp(result, "strength"))
+    {
+        if (GET_WISH_STR(victim) >= 5)
+        {
+            send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
+            return;
+        }
+        victim->real_abils.str++;
+        GET_WISH_STR(victim)++;
+        send_to_char(ch, "Your wish for greater strength was granted.\r\n");
+        send_to_char(victim, "A wish was made for greater strength and feel your muscles permanently surge and grow.\r\n");
+    }
+    else if (!strcmp(result, "dexterity"))
+    {
+        if (GET_WISH_DEX(victim) >= 5)
+        {
+            send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
+            return;
+        }
+        victim->real_abils.dex++;
+        GET_WISH_DEX(victim)++;
+        send_to_char(ch, "Your wish for greater dexterity was granted.\r\n");
+        send_to_char(victim, "A wish was made for greater dexterity and feel your reflexes permanently surge and grow.\r\n");
+    }
+    else if (!strcmp(result, "constitution"))
+    {
+        if (GET_WISH_CON(victim) >= 5)
+        {
+            send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
+            return;
+        }
+        victim->real_abils.con++;
+        GET_WISH_CON(victim)++;
+        send_to_char(ch, "Your wish for greater constitution was granted.\r\n");
+        send_to_char(victim, "A wish was made for greater constitution and feel your hardiness permanently surge and grow.\r\n");
+    }
+    else if (!strcmp(result, "intelligence"))
+    {
+        if (GET_WISH_INT(victim) >= 5)
+        {
+            send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
+            return;
+        }
+        victim->real_abils.intel++;
+        GET_WISH_INT(victim)++;
+        send_to_char(ch, "Your wish for greater intelligence was granted.\r\n");
+        send_to_char(victim, "A wish was made for greater intelligence and feel your intellect permanently surge and grow.\r\n");
+    }
+    else if (!strcmp(result, "wisdom"))
+    {
+        if (GET_WISH_WIS(victim) >= 5)
+        {
+            send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
+            return;
+        }
+        victim->real_abils.wis++;
+        GET_WISH_WIS(victim)++;
+        send_to_char(ch, "Your wish for greater wisdom was granted.\r\n");
+        send_to_char(victim, "A wish was made for greater wisdom and feel your intuition permanently surge and grow.\r\n");
+    }
+    else if (!strcmp(result, "charisma"))
+    {
+        if (GET_WISH_CHA(victim) >= 5)
+        {
+            send_to_char(ch, "The target has already raised this as much as they can by using wishes.\r\n");
+            return;
+        }
+        victim->real_abils.cha++;
+        GET_WISH_CHA(victim)++;
+        send_to_char(ch, "Your wish for greater charisma was granted.\r\n");
+        send_to_char(victim, "A wish was made for greater charisma and feel yourself become more personable permanently.\r\n");
+    }
+    else
+    {
+        send_to_char(ch, "Please wish for one of the following: strength, intelligence, wisdom, dexterity, constitution, charisma\r\n");
+        send_to_char(ch, "You currrently have %d wishes to spend.\r\n", GET_WISHES(ch));
+        return;
+    }
+    affect_total(ch);
+    GET_WISHES(ch)--;
+    save_char(ch);
 }

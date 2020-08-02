@@ -28,7 +28,7 @@ SPECIAL(bank);
 SPECIAL(bounty_contractor);
 SPECIAL(buff_mob);
 SPECIAL(buy_items);
-SPECIAL(buy_potion);
+// SPECIAL(buy_potion);
 SPECIAL(cityguard);
 SPECIAL(cleric_ao);
 SPECIAL(cleric_marduk);
@@ -185,34 +185,34 @@ void assign_rooms(void)
 {
     room_rnum i;
 
-    switch (CONFIG_CAMPAIGN) 
+    switch (CONFIG_CAMPAIGN)
     {
 
-        case CAMPAIGN_FORGOTTEN_REALMS:
+    case CAMPAIGN_FORGOTTEN_REALMS:
         // Character generation
-        ASSIGNROOM(30000, enforce_chargen);  
-        ASSIGNROOM(30001, select_race);  
-        ASSIGNROOM(30002, select_align);  
-        ASSIGNROOM(30003, set_stats);  
-        ASSIGNROOM(30004, set_descs);  
-        ASSIGNROOM(30015, read_rules);  
-        ASSIGNROOM(30034, buy_items);  
+        ASSIGNROOM(30000, enforce_chargen);
+        ASSIGNROOM(30001, select_race);
+        ASSIGNROOM(30002, select_align);
+        ASSIGNROOM(30003, set_stats);
+        ASSIGNROOM(30004, set_descs);
+        ASSIGNROOM(30015, read_rules);
+        ASSIGNROOM(30034, buy_items);
         ASSIGNROOM(30022, library_small); // Character Generation
         break;
 
-        case CAMPAIGN_GOLARION:
+    case CAMPAIGN_GOLARION:
         // Character generation
-        ASSIGNROOM(30000, enforce_chargen);  
-        ASSIGNROOM(30001, select_race);  
-        ASSIGNROOM(30002, select_align);  
-        ASSIGNROOM(30003, set_stats);  
-        ASSIGNROOM(30004, set_descs);  
-        ASSIGNROOM(30015, read_rules);  
-        ASSIGNROOM(30034, buy_items);  
+        ASSIGNROOM(30000, enforce_chargen);
+        ASSIGNROOM(30001, select_race);
+        ASSIGNROOM(30002, select_align);
+        ASSIGNROOM(30003, set_stats);
+        ASSIGNROOM(30004, set_descs);
+        ASSIGNROOM(30015, read_rules);
+        ASSIGNROOM(30034, buy_items);
         ASSIGNROOM(30022, library_small); // Character Generation
         break;
 
-        case CAMPAIGN_DRAGONLANCE:
+    case CAMPAIGN_DRAGONLANCE:
 
 
         ASSIGNROOM(30000, enforce_chargen);
@@ -230,8 +230,8 @@ void assign_rooms(void)
         ASSIGNROOM(1250, emporium);       // Palanthas
 
         // Palanthas
-        ASSIGNROOM(2340, library_large);  
-        ASSIGNROOM(16800, item_bank);  
+        ASSIGNROOM(2340, library_large);
+        ASSIGNROOM(16800, item_bank);
         ASSIGNROOM(16826, license_mob);
 
         ASSIGNROOM(59089, player_shop); // Unassigned
@@ -251,11 +251,15 @@ void assign_rooms(void)
 
 
         break;
-        }
-        // Player Shops
+    }
+    // Player Shops
 
-if (CONFIG_DTS_ARE_DUMPS)
-    for (i = 0; i <= top_of_world; i++)
-        if (ROOM_FLAGGED(i, ROOM_DEATH))
-            world[i].func = dump;
+    if (CONFIG_DTS_ARE_DUMPS)
+        for (i = 0; i <= top_of_world; i++)
+        {
+            if (ROOM_FLAGGED(i, ROOM_DEATH))
+            {
+                world[i].func = dump;
+            }
+        }
 }

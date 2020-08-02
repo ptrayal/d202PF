@@ -560,121 +560,120 @@ SPECIAL(set_stats)
 
 SPECIAL(select_race)
 {
-  int i = 0;
+    int i = 0;
 
-  GRID_DATA *grid;
-  GRID_ROW *row;
+    GRID_DATA *grid;
+    GRID_ROW *row;
 
-  if (IS_NPC(ch) || (!CMD_IS("setrace") && !CMD_IS("listraces") && !CMD_IS("north")))
-    return 0;
+    if (IS_NPC(ch) || (!CMD_IS("setrace") && !CMD_IS("listraces") && !CMD_IS("north")))
+        return 0;
 
-  if (GET_CLASS_LEVEL(ch) > 0 && GET_RACE(ch) != RACE_SPIRIT && GET_ADMLEVEL(ch) == 0)
-    return 0;
+    if (GET_CLASS_LEVEL(ch) > 0 && GET_RACE(ch) != RACE_SPIRIT && GET_ADMLEVEL(ch) == 0)
+        return 0;
 
-  if (CMD_IS("north"))
-  {
-    if (GET_RACE(ch) == RACE_SPIRIT)
-      send_to_char(ch, "You must choose a race before you can proceed.\r\n");
-    else
+    if (CMD_IS("north"))
     {
-      char_from_room(ch);
-      char_to_room(ch, real_room(30002));
-      look_at_room(IN_ROOM(ch), ch, 0);
-    }
-    return 1;
-  }
-
-  if (CMD_IS("setrace"))
-  {
-
-    skip_spaces(&argument);
-
-    if (!*argument)
-    {
-      send_to_char(ch, "Which race would you like to become? Type listraces for a list of available races.\r\n");
-      return 1;
-    }
-
-    for (i = 0; i < NUM_RACES; i++)
-    {
-      if (is_abbrev(argument, "undefined"))
-      {
-        send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
-        return 1;
-      }
-      else if (race_list[i].name && is_abbrev(argument, race_list[i].name) && race_list[i].is_pc)
-      {
-
-
-        if (race_list[i].is_pc && race_list[i].level_adjustment > 0)
+        if (GET_RACE(ch) == RACE_SPIRIT)
+            send_to_char(ch, "You must choose a race before you can proceed.\r\n");
+        else
         {
-          if (ch->desc && ch->desc->account)
-          {
-            if (has_unlocked_race(ch, i))
-            {
-              send_to_char(ch, "You have changed your race to %s.  For more information type help race %s\r\n", race_list[i].name, race_list[i].name);
-              GET_REAL_RACE(ch) = i;
-              return 1;
+            char_from_room(ch);
+            char_to_room(ch, real_room(30002));
+            look_at_room(IN_ROOM(ch), ch, 0);
+        }
+        return 1;
+    }
 
-            }
-            else
-            {
-              send_to_char(ch, "You have not unlocked that race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
-              return 1;
-            }
-          }
-          else
+    if (CMD_IS("setrace"))
+    {
+
+        skip_spaces(&argument);
+
+        if (!*argument)
+        {
+            send_to_char(ch, "Which race would you like to become? Type listraces for a list of available races.\r\n");
             return 1;
         }
 
-        send_to_char(ch, "You have changed your race to %s.  For more information type help race %s\r\n", race_list[i].name, race_list[i].name);
-        GET_REAL_RACE(ch) = i;
+        for (i = 0; i < NUM_RACES; i++)
+        {
+            if (is_abbrev(argument, "undefined"))
+            {
+                send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
+                return 1;
+            }
+            else if (race_list[i].name && is_abbrev(argument, race_list[i].name) && race_list[i].is_pc)
+            {
+                if (race_list[i].is_pc && race_list[i].level_adjustment > 0)
+                {
+                    if (ch->desc && ch->desc->account)
+                    {
+                        if (has_unlocked_race(ch, i))
+                        {
+                            send_to_char(ch, "You have changed your race to %s.  For more information type help race %s\r\n", race_list[i].name, race_list[i].name);
+                            GET_REAL_RACE(ch) = i;
+                            return 1;
+                        }
+                        else
+                        {
+                            send_to_char(ch, "You have not unlocked that race.  See @YHELP ACCOUNT EXPERIENCE@n.\r\n");
+                            return 1;
+                        }
+                    }
+                    else
+                    {
+                        return 1;
+                    }
+                }
+
+                send_to_char(ch, "You have changed your race to %s.  For more information type help race %s\r\n", race_list[i].name, race_list[i].name);
+                GET_REAL_RACE(ch) = i;
+                return 1;
+            }
+        }
+
+        send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
         return 1;
-      }
     }
-
-    send_to_char(ch, "That is not a valid race.  Type listraces for a list of available races.\r\n");
-    return 1;
-  }
-  else
-  {
-    // send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name",
-    //              "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
-    grid = create_grid(75);
-    row = create_row(grid);
-    row_append_cell(row, 20, "Race Name");
-    row_append_cell(row, 6, "STR");
-    row_append_cell(row, 6, "CON");
-    row_append_cell(row, 6, "DEX");
-    row_append_cell(row, 6, "INT");
-    row_append_cell(row, 6, "WIS");
-    row_append_cell(row, 6, "CHA");
-    row_append_cell(row, 19, "Account Cost");
-
-    for (i = 0; i < NUM_RACES; i++)
+    else
     {
-      if (race_list[i].is_pc)
-      {
+        // send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name",
+        //              "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
+        grid = create_grid(75);
         row = create_row(grid);
-        row_append_cell(row, 20, "%s", race_list[i].type);
-        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[0]);
-        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[1]);
-        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[4]);
-        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[2]);
-        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[3]);
-        row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[5]);
-        row_append_cell(row, 19, "%-16d", level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
-        // send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type,
-        //              race_list[i].ability_mods[0],
-        //              race_list[i].ability_mods[1],
-        //              race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
-        //              race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
-      }
+        row_append_cell(row, 20, "Race Name");
+        row_append_cell(row, 6, "STR");
+        row_append_cell(row, 6, "CON");
+        row_append_cell(row, 6, "DEX");
+        row_append_cell(row, 6, "INT");
+        row_append_cell(row, 6, "WIS");
+        row_append_cell(row, 6, "CHA");
+        row_append_cell(row, 19, "Account Cost");
+
+        for (i = 0; i < NUM_RACES; i++)
+        {
+            if (race_list[i].is_pc)
+            {
+                row = create_row(grid);
+                row_append_cell(row, 20, "%s", race_list[i].type);
+                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[0]);
+                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[1]);
+                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[4]);
+                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[2]);
+                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[3]);
+                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[5]);
+                row_append_cell(row, 19, "%-16d", level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
+                // send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type,
+                //              race_list[i].ability_mods[0],
+                //              race_list[i].ability_mods[1],
+                //              race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
+                //              race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
+            }
+        }
+        grid_to_char(grid, ch, TRUE);
+        // send_to_char(ch, "\r\n");
+        return 1;
     }
-    grid_to_char(grid, ch, TRUE);
-    // send_to_char(ch, "\r\n");
-    return 1;
-  }
 }
 
 SPECIAL(select_align)
@@ -4350,97 +4349,112 @@ SPECIAL(crafting_station)
 
 }
 
-SPECIAL(buy_potion)
-{
+// SPECIAL(buy_potion)
+// {
+//     struct obj_data *obj = NULL;
+//     char buf[100] = {'\0'};
+//     char keywords[100] = {'\0'};
+//     int i = 0, j = 0, spelllevel = 0, cost = 0;
 
-  struct obj_data *obj = NULL;
-  int i = 0, j = 0, spelllevel = 0, cost = 0;
-  char buf[100]={'\0'}, keywords[100]={'\0'};
+//     if (!CMD_IS("buy"))
+//     {
+//         return 0;
+//     }
 
-  if (!CMD_IS("buy")) {
-    return 0;
-  }
+//     skip_spaces(&argument);
 
-  skip_spaces(&argument);
+//     for (i = 0; i <= TOP_SPELL; i++)
+//     {
+//         if (!strcmp(spell_info[i].name, argument))
+//         {
+//             break;
+//         }
+//     }
 
-  for (i = 0; i <= TOP_SPELL; i++) {
-    if (!strcmp(spell_info[i].name, argument)) {
-      break;
-    }
-  }
-  if (i > TOP_SPELL) {
-    send_to_char(ch, "That isn't a valid spell.\r\n");
-    return 1;
-  }
+//     if (i > TOP_SPELL)
+//     {
+//         send_to_char(ch, "That isn't a valid spell.\r\n");
+//         return 1;
+//     }
 
-  if (spell_info[i].violent == TRUE) {
-    send_to_char(ch, "You cannot put that spell in a potion.\r\n");
-    return 1;
-  }
+//     if (spell_info[i].violent == TRUE)
+//     {
+//         send_to_char(ch, "You cannot put that spell in a potion.\r\n");
+//         return 1;
+//     }
 
-  if (!IS_SET(spell_info[i].targets, TAR_CHAR_ROOM)) {
-    send_to_char(ch, "You cannot put that spell in a potion.\r\n");
-    return 1;
-  }
+//     if (!IS_SET(spell_info[i].targets, TAR_CHAR_ROOM))
+//     {
+//         send_to_char(ch, "You cannot put that spell in a potion.\r\n");
+//         return 1;
+//     }
 
+//     spelllevel = spell_info[i].spell_level;
 
-  spelllevel = spell_info[i].spell_level;
+//     if (spelllevel > 9)
+//     {
+//         send_to_char(ch, "You cannot buy a potion for that spell.\r\n");
+//         return 1;
+//     }
 
-  if (spelllevel > 9) {
-    send_to_char(ch, "You cannot buy a potion for that spell.\r\n");
-    return 1;
-  }
+//     cost = MAX(1, spelllevel) * 25 * (MAX(1, spelllevel * MAX(2, spelllevel / 2)));
 
-  cost = MAX(1, spelllevel) * 25 * (MAX(1, spelllevel * MAX(2, spelllevel / 2)));
+//     if (cost > GET_GOLD(ch))
+//     {
+//         send_to_char(ch, "That potion costs %d gold, you only have %d on hand.\r\n", cost, GET_GOLD(ch));
+//         return 1;
+//     }
 
-  if (cost > GET_GOLD(ch)) {
-    send_to_char(ch, "That potion costs %d gold, you only have %d on hand.\r\n", cost, GET_GOLD(ch));
-    return 1;
-  }
+//     obj = read_object(30099, VIRTUAL);
 
-  obj = read_object(30099, VIRTUAL);
+//     if (!obj)
+//     {
+//         return 0;
+//     }
 
-  if (!obj)
-    return 0;
+//     SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
 
+//     GET_OBJ_COST(obj) = cost;
 
-  SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
+//     GET_OBJ_MATERIAL(obj) = MATERIAL_GLASS;
 
-  GET_OBJ_COST(obj) = cost;
+//     SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_MAGIC);
 
-  GET_OBJ_MATERIAL(obj) = MATERIAL_GLASS;
+//     GET_OBJ_COST(obj) = spelllevel * 25 * (MAX(1, spelllevel * MAX(2, spelllevel / 2)));
 
-  SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_MAGIC);
+//     GET_OBJ_VAL(obj, 1) = i;
 
-  GET_OBJ_COST(obj) = spelllevel * 25 * (MAX(1, spelllevel * MAX(2, spelllevel / 2)));
+//     GET_OBJ_RENT(obj) = GET_OBJ_COST(obj) / 25;
 
-  GET_OBJ_VAL(obj, 1) = i;
+//     GET_OBJ_LEVEL(obj) = GET_OBJ_VAL(obj, VAL_POTION_LEVEL);
 
-  GET_OBJ_RENT(obj) = GET_OBJ_COST(obj) / 25;
+//     GET_OBJ_VAL(obj, VAL_POTION_LEVEL) = 20;
 
-  GET_OBJ_LEVEL(obj) = GET_OBJ_VAL(obj, VAL_POTION_LEVEL);
+//     snprintf(keywords, sizeof(keywords), "potion-%s", spell_info[i].name);
 
-  GET_OBJ_VAL(obj, VAL_POTION_LEVEL) = 20;
+//     for (j = 0; j < strlen(keywords); j++)
+//     {
+//         if (keywords[j] == ' ')
+//         {
+//             keywords[j] = '-';
+//         }
+//     }
 
-  sprintf(keywords, "potion-%s", spell_info[i].name);
-  for (j = 0; j < strlen(keywords); j++)
-    if (keywords[j] == ' ')
-      keywords[j] = '-';
-  sprintf(buf, "vial potion %s", keywords);
-  obj->name = strdup(buf);
-  sprintf(buf, "a potion of %s", spell_info[i].name);
-  obj->short_description = strdup(buf);
-  sprintf(buf, "A potion of %s lies here.", spell_info[i].name);
-  obj->description = strdup(buf);
+//     snprintf(buf, sizeof(buf), "vial potion %s", keywords);
+//     obj->name = strdup(buf);
+//     snprintf(buf, sizeof(buf), "a potion of %s", spell_info[i].name);
+//     obj->short_description = strdup(buf);
+//     snprintf(buf, sizeof(buf), "A potion of %s lies here.", spell_info[i].name);
+//     obj->description = strdup(buf);
 
-  obj_to_char(obj, ch);
+//     obj_to_char(obj, ch);
 
-  GET_GOLD(ch) -= cost;
+//     GET_GOLD(ch) -= cost;
 
-  send_to_char(ch, "You purchase %s for %d gold.\r\n", obj->short_description, cost);
+//     send_to_char(ch, "You purchase %s for %d gold.\r\n", obj->short_description, cost);
 
-  return 1;
-}
+//     return 1;
+// }
 
 /*
 SPECIAL(use_credit) {
