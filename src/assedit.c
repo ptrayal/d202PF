@@ -48,69 +48,82 @@ long lRnum = 0;
 
 ACMD (do_assedit)
 {
-  struct descriptor_data *d = ch->desc;
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  char buf2[MAX_STRING_LENGTH]={'\0'};
+    struct descriptor_data *d = ch->desc;
+    char buf[MAX_STRING_LENGTH] = {'\0'};
+    char buf2[MAX_STRING_LENGTH] = {'\0'};
 
- *buf = '\0';  /* If I run into problems then take this sucker out */
- *buf2 = '\0';
+    *buf = '\0';  /* If I run into problems then take this sucker out */
+    *buf2 = '\0';
 
- if (IS_NPC(ch))
-      return;
+    if (IS_NPC(ch))
+        return;
 
- for (d = descriptor_list; d; d = d->next) {
-     if (d->connected == CON_ASSEDIT) {
-     send_to_char(ch, "Assemblies are already being editted by someone.\r\n");
-     return;
-     }
-   }
-
- two_arguments(argument, buf, buf2);
-
- d= ch->desc;
-
- if(!*buf) {
-    nodigit(d);
-    return;
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if (d->connected == CON_ASSEDIT)
+        {
+            send_to_char(ch, "Assemblies are already being editted by someone.\r\n");
+            return;
+        }
     }
 
- if (!isdigit(*buf)) {
-    if (strn_cmp("new", buf, 3) == 0) {
-      if (!isdigit(*buf2)) {
-            nodigit(d);
-      } else if (real_object(atoi(buf2)) == NOTHING) {
-        send_to_char(d->character, "You need to create the assembly object before you can create the new assembly.\r\n");
-        return;
-      } else {
-            assemblyCreate(atoi(buf2), 0);
-            send_to_char(d->character, "Assembly Created.\r\n");
-            assemblySaveAssemblies();
-            return;
-            }
-       }
-    else
-    if (strn_cmp("delete", buf, 6) == 0) {
-         if (!isdigit(*buf2))
-            nodigit(d);
-         else {
-             assemblyDestroy(atoi(buf2));
-             send_to_char(d->character, "Assembly Deleted.\r\n");
-             assemblySaveAssemblies();
-             return;
-             }
-      }
-    else {
-     nodigit(d);
-     return;
-     }
- } else
-   if (isdigit(*buf)) {
-     d = ch->desc;
-     CREATE (d->olc, struct oasis_olc_data, 1);
-     assedit_setup(d, atoi(buf));
+    two_arguments(argument, buf, buf2);
 
-     }
-  return;
+    d = ch->desc;
+
+    if(!*buf)
+    {
+        nodigit(d);
+        return;
+    }
+
+    if (!isdigit(*buf))
+    {
+        if (strn_cmp("new", buf, 3) == 0)
+        {
+            if (!isdigit(*buf2))
+            {
+                nodigit(d);
+            }
+            else if (real_object(atoi(buf2)) == NOTHING)
+            {
+                send_to_char(d->character, "You need to create the assembly object before you can create the new assembly.\r\n");
+                return;
+            }
+            else
+            {
+                assemblyCreate(atoi(buf2), 0);
+                send_to_char(d->character, "Assembly Created.\r\n");
+                assemblySaveAssemblies();
+                return;
+            }
+        }
+        else if (strn_cmp("delete", buf, 6) == 0)
+        {
+            if (!isdigit(*buf2))
+                nodigit(d);
+            else
+            {
+                assemblyDestroy(atoi(buf2));
+                send_to_char(d->character, "Assembly Deleted.\r\n");
+                assemblySaveAssemblies();
+                return;
+            }
+        }
+        else
+        {
+            nodigit(d);
+            return;
+        }
+    }
+    else if (isdigit(*buf))
+    {
+        d = ch->desc;
+        CREATE (d->olc, struct oasis_olc_data, 1);
+        assedit_setup(d, atoi(buf));
+
+    }
+    return;
 }
 
 /*-------------------------------------------------------------------*

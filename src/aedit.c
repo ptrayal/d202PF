@@ -45,16 +45,16 @@ int aedit_find_command(const char *txt);
 
 ACMD(do_oasis_aedit)
 {
-    char arg[MAX_INPUT_LENGTH]={'\0'};
     struct descriptor_data *d;
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
 
-    if (CONFIG_NEW_SOCIALS == 0) 
+    if (CONFIG_NEW_SOCIALS == 0)
     {
         send_to_char(ch, "Socials cannot be edited at the moment.\r\n");
         return;
     }
 
-    if (GET_OLC_ZONE(ch) != AEDIT_PERMISSION && GET_ADMLEVEL(ch) < ADMLVL_IMPL) 
+    if (GET_OLC_ZONE(ch) != AEDIT_PERMISSION && GET_ADMLEVEL(ch) < ADMLVL_IMPL)
     {
         send_to_char(ch, "You don't have access to editing socials.\r\n");
         return;
@@ -62,7 +62,7 @@ ACMD(do_oasis_aedit)
 
     for (d = descriptor_list; d; d = d->next)
     {
-        if (STATE(d) == CON_AEDIT) 
+        if (STATE(d) == CON_AEDIT)
         {
             send_to_char(ch, "Sorry, only one can edit socials at a time.\r\n");
             return;
@@ -71,7 +71,7 @@ ACMD(do_oasis_aedit)
 
     one_argument(argument, arg);
 
-    if (!*arg) 
+    if (!*arg)
     {
         send_to_char(ch, "Please specify a social to edit.\r\n");
         return;
@@ -79,7 +79,7 @@ ACMD(do_oasis_aedit)
 
     d = ch->desc;
 
-    if (!str_cmp("save", arg)) 
+    if (!str_cmp("save", arg))
     {
         mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves socials.", GET_NAME(ch));
         send_to_char(ch, "Writing social file..\r\n");
@@ -88,10 +88,10 @@ ACMD(do_oasis_aedit)
         return;
     }
 
-/*
-* Give descriptor an OLC structure.
-*/
-    if (d->olc) 
+    /*
+    * Give descriptor an OLC structure.
+    */
+    if (d->olc)
     {
         mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_oasis: Player already had olc structure.");
         free(d->olc);
@@ -101,7 +101,7 @@ ACMD(do_oasis_aedit)
     OLC_NUM(d) = 0;
     OLC_STORAGE(d) = strdup(arg);
 
-    for (OLC_ZNUM(d) = 0; (OLC_ZNUM(d) <= top_of_socialt); OLC_ZNUM(d)++)  
+    for (OLC_ZNUM(d) = 0; (OLC_ZNUM(d) <= top_of_socialt); OLC_ZNUM(d)++)
     {
         if (is_abbrev(OLC_STORAGE(d), soc_mess_list[OLC_ZNUM(d)].command))
         {
@@ -109,10 +109,10 @@ ACMD(do_oasis_aedit)
         }
     }
 
-    if (OLC_ZNUM(d) > top_of_socialt)  
+    if (OLC_ZNUM(d) > top_of_socialt)
     {
         int i = 0;
-        if ((i = aedit_find_command(OLC_STORAGE(d))) != -1)  
+        if ((i = aedit_find_command(OLC_STORAGE(d))) != -1)
         {
             send_to_char(ch, "The '%s' command already exists (%s).\r\n", OLC_STORAGE(d), complete_cmd_info[i].command);
             cleanup_olc(d, CLEANUP_ALL);
@@ -120,8 +120,8 @@ ACMD(do_oasis_aedit)
         }
         send_to_char(ch, "Do you wish to add the '%s' action? ", OLC_STORAGE(d));
         OLC_MODE(d) = AEDIT_CONFIRM_ADD;
-    } 
-    else 
+    }
+    else
     {
         send_to_char(ch, "Do you wish to edit the '%s' action? ", soc_mess_list[OLC_ZNUM(d)].command);
         OLC_MODE(d) = AEDIT_CONFIRM_EDIT;
@@ -764,68 +764,72 @@ void aedit_parse(struct descriptor_data * d, char *arg)
 
 ACMD(do_astat)
 {
-  int i = 0, real = FALSE;
-  char arg[MAX_INPUT_LENGTH]={'\0'};
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    int i = 0, real = FALSE;
 
-  if (IS_NPC(ch))
-    return;
+    if (IS_NPC(ch))
+        return;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if(!*arg) {
-    send_to_char(ch, "Astat which social?\r\n");
-    return;
-  }
-
-  for (i = 0; i <= top_of_socialt; i++) {
-    if (is_abbrev(arg, soc_mess_list[i].command)) {
-      real = TRUE;
-      break;
+    if(!*arg)
+    {
+        send_to_char(ch, "Astat which social?\r\n");
+        return;
     }
-  }
 
-  if (!real) {
-    send_to_char(ch, "No such social.\r\n");
-    return;
-  }
+    for (i = 0; i <= top_of_socialt; i++)
+    {
+        if (is_abbrev(arg, soc_mess_list[i].command))
+        {
+            real = TRUE;
+            break;
+        }
+    }
 
-   send_to_char(ch, 
-    "n) Command         : @y%-15.15s@n 1) Sort as Command : @y%-15.15s@n\r\n"
-    "2) Min Position[CH]: @c%-8.8s@n        3) Min Position[VT]: @c%-8.8s@n\r\n"
-    "4) Min Level   [CH]: @c%-3d@n             5) Show if Invis   : @c%s@n\r\n"
-    "a) Char    [NO ARG]: @c%s@n\r\n"
-    "b) Others  [NO ARG]: @c%s@n\r\n"
-    "c) Char [NOT FOUND]: @c%s@n\r\n"
-    "d) Char  [ARG SELF]: @c%s@n\r\n"
-    "e) Others[ARG SELF]: @c%s@n\r\n"
-    "f) Char      [VICT]: @c%s@n\r\n"
-    "g) Others    [VICT]: @c%s@n\r\n"
-    "h) Victim    [VICT]: @c%s@n\r\n"
-    "i) Char  [BODY PRT]: @c%s@n\r\n"
-    "j) Others[BODY PRT]: @c%s@n\r\n"
-    "k) Victim[BODY PRT]: @c%s@n\r\n"
-    "l) Char       [OBJ]: @c%s@n\r\n"
-    "m) Others     [OBJ]: @c%s@n\r\n",
+    if (!real)
+    {
+        send_to_char(ch, "No such social.\r\n");
+        return;
+    }
 
-    soc_mess_list[i].command,
-    soc_mess_list[i].sort_as,
-    position_types[soc_mess_list[i].min_char_position],
-    position_types[soc_mess_list[i].min_victim_position],
-    soc_mess_list[i].min_level_char,
-    (soc_mess_list[i].hide ? "HIDDEN" : "NOT HIDDEN"),
-    soc_mess_list[i].char_no_arg ? soc_mess_list[i].char_no_arg : "",
-    soc_mess_list[i].others_no_arg ? soc_mess_list[i].others_no_arg : "",
-    soc_mess_list[i].not_found ? soc_mess_list[i].not_found : "",
-    soc_mess_list[i].char_auto ? soc_mess_list[i].char_auto : "",
-    soc_mess_list[i].others_auto ? soc_mess_list[i].others_auto : "",
-    soc_mess_list[i].char_found ? soc_mess_list[i].char_found : "",
-    soc_mess_list[i].others_found ? soc_mess_list[i].others_found : "",
-    soc_mess_list[i].vict_found ? soc_mess_list[i].vict_found : "",
-    soc_mess_list[i].char_body_found ? soc_mess_list[i].char_body_found : "",
-    soc_mess_list[i].others_body_found ? soc_mess_list[i].others_body_found : "",
-    soc_mess_list[i].vict_body_found ? soc_mess_list[i].vict_body_found : "",
-    soc_mess_list[i].char_obj_found ? soc_mess_list[i].char_obj_found : "",
-    soc_mess_list[i].others_obj_found ? soc_mess_list[i].others_obj_found : "");
+    send_to_char(ch,
+                 "n) Command         : @y%-15.15s@n 1) Sort as Command : @y%-15.15s@n\r\n"
+                 "2) Min Position[CH]: @c%-8.8s@n        3) Min Position[VT]: @c%-8.8s@n\r\n"
+                 "4) Min Level   [CH]: @c%-3d@n             5) Show if Invis   : @c%s@n\r\n"
+                 "a) Char    [NO ARG]: @c%s@n\r\n"
+                 "b) Others  [NO ARG]: @c%s@n\r\n"
+                 "c) Char [NOT FOUND]: @c%s@n\r\n"
+                 "d) Char  [ARG SELF]: @c%s@n\r\n"
+                 "e) Others[ARG SELF]: @c%s@n\r\n"
+                 "f) Char      [VICT]: @c%s@n\r\n"
+                 "g) Others    [VICT]: @c%s@n\r\n"
+                 "h) Victim    [VICT]: @c%s@n\r\n"
+                 "i) Char  [BODY PRT]: @c%s@n\r\n"
+                 "j) Others[BODY PRT]: @c%s@n\r\n"
+                 "k) Victim[BODY PRT]: @c%s@n\r\n"
+                 "l) Char       [OBJ]: @c%s@n\r\n"
+                 "m) Others     [OBJ]: @c%s@n\r\n",
+
+                 soc_mess_list[i].command,
+                 soc_mess_list[i].sort_as,
+                 position_types[soc_mess_list[i].min_char_position],
+                 position_types[soc_mess_list[i].min_victim_position],
+                 soc_mess_list[i].min_level_char,
+                 (soc_mess_list[i].hide ? "HIDDEN" : "NOT HIDDEN"),
+                 soc_mess_list[i].char_no_arg ? soc_mess_list[i].char_no_arg : "",
+                 soc_mess_list[i].others_no_arg ? soc_mess_list[i].others_no_arg : "",
+                 soc_mess_list[i].not_found ? soc_mess_list[i].not_found : "",
+                 soc_mess_list[i].char_auto ? soc_mess_list[i].char_auto : "",
+                 soc_mess_list[i].others_auto ? soc_mess_list[i].others_auto : "",
+                 soc_mess_list[i].char_found ? soc_mess_list[i].char_found : "",
+                 soc_mess_list[i].others_found ? soc_mess_list[i].others_found : "",
+                 soc_mess_list[i].vict_found ? soc_mess_list[i].vict_found : "",
+                 soc_mess_list[i].char_body_found ? soc_mess_list[i].char_body_found : "",
+                 soc_mess_list[i].others_body_found ? soc_mess_list[i].others_body_found : "",
+                 soc_mess_list[i].vict_body_found ? soc_mess_list[i].vict_body_found : "",
+                 soc_mess_list[i].char_obj_found ? soc_mess_list[i].char_obj_found : "",
+                 soc_mess_list[i].others_obj_found ? soc_mess_list[i].others_obj_found : "");
 
 }
 

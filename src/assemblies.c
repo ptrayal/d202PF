@@ -42,78 +42,78 @@ int mob_exp_by_level(int level);
 
 void assemblyBootAssemblies( void )
 {
-  char         szLine[ MAX_STRING_LENGTH ] = { '\0' };
-  char         szTag[ MAX_STRING_LENGTH ] = { '\0' };
-  char         szType[ MAX_STRING_LENGTH ] = { '\0' };
-  int          iExtract = 0;
-  int          iInRoom = 0;
-  int          iType = 0;
-  long         lLineCount = 0;
-  long         lPartVnum = NOTHING;
-  long         lVnum = NOTHING;
-  FILE         *pFile = NULL;
+    char         szLine[ MAX_STRING_LENGTH ] = { '\0' };
+    char         szTag[ MAX_STRING_LENGTH ] = { '\0' };
+    char         szType[ MAX_STRING_LENGTH ] = { '\0' };
+    int          iExtract = 0;
+    int          iInRoom = 0;
+    int          iType = 0;
+    long         lLineCount = 0;
+    long         lPartVnum = NOTHING;
+    long         lVnum = NOTHING;
+    FILE         *pFile = NULL;
 
-  if( (pFile = fopen( ASSEMBLIES_FILE, "rt" )) == NULL )
-  {
-    log( "SYSERR: assemblyBootAssemblies(): Couldn't open file '%s' for "
-      "reading.", ASSEMBLIES_FILE );
-    return;
-  }
-
-  while( !feof( pFile ) )
-  {
-    lLineCount += get_line( pFile, szLine );
-    half_chop( szLine, szTag, szLine );
-
-    if( *szTag == '\0' )
-      continue;
-
-    if( str_cmp( szTag, "Component" ) == 0 )
+    if( (pFile = fopen( ASSEMBLIES_FILE, "rt" )) == NULL )
     {
-      if( sscanf( szLine, "#%ld %d %d", &lPartVnum, &iExtract, &iInRoom ) != 3
-)
-      {
-       log( "SYSERR: bootAssemblies(): Invalid format in file %s, line %ld: "
-         "szTag=%s, szLine=%s.", ASSEMBLIES_FILE, lLineCount, szTag, szLine );
-      }
-      else if( !assemblyAddComponent( lVnum, lPartVnum, iExtract, iInRoom ) )
-      {
-       log( "SYSERR: bootAssemblies(): Could not add component #%ld to "
-         "assembly #%ld.", lPartVnum, lVnum );
-      }
-    }
-    else if( str_cmp( szTag, "Vnum" ) == 0 )
-    {
-      if( sscanf( szLine, "#%ld %s", &lVnum, szType ) != 2 )
-      {
-       log( "SYSERR: bootAssemblies(): Invalid format in file %s, "
-         "line %ld.", ASSEMBLIES_FILE, lLineCount );
-       lVnum = NOTHING;
-      }
-      else if( (iType = search_block( szType, AssemblyTypes, TRUE )) < 0 )
-      {
-       log( "SYSERR: bootAssemblies(): Invalid type '%s' for assembly "
-         "vnum #%ld at line %ld.", szType, lVnum, lLineCount );
-       lVnum = NOTHING;
-      }
-      else if( !assemblyCreate( lVnum, iType ) )
-      {
-       log( "SYSERR: bootAssemblies(): Could not create assembly for vnum "
-         "#%ld, type %s.", lVnum, szType );
-       lVnum = NOTHING;
-      }
-    }
-    else
-    {
-      log( "SYSERR: Invalid tag '%s' in file %s, line #%ld.", szTag,
-       ASSEMBLIES_FILE, lLineCount );
+        log( "SYSERR: assemblyBootAssemblies(): Couldn't open file '%s' for "
+             "reading.", ASSEMBLIES_FILE );
+        return;
     }
 
-    *szLine = '\0';
-    *szTag = '\0';
-  }
+    while( !feof( pFile ) )
+    {
+        lLineCount += get_line( pFile, szLine );
+        half_chop( szLine, szTag, szLine );
 
-  fclose( pFile );
+        if( *szTag == '\0' )
+            continue;
+
+        if( str_cmp( szTag, "Component" ) == 0 )
+        {
+            if( sscanf( szLine, "#%ld %d %d", &lPartVnum, &iExtract, &iInRoom ) != 3
+              )
+            {
+                log( "SYSERR: bootAssemblies(): Invalid format in file %s, line %ld: "
+                     "szTag=%s, szLine=%s.", ASSEMBLIES_FILE, lLineCount, szTag, szLine );
+            }
+            else if( !assemblyAddComponent( lVnum, lPartVnum, iExtract, iInRoom ) )
+            {
+                log( "SYSERR: bootAssemblies(): Could not add component #%ld to "
+                     "assembly #%ld.", lPartVnum, lVnum );
+            }
+        }
+        else if( str_cmp( szTag, "Vnum" ) == 0 )
+        {
+            if( sscanf( szLine, "#%ld %s", &lVnum, szType ) != 2 )
+            {
+                log( "SYSERR: bootAssemblies(): Invalid format in file %s, "
+                     "line %ld.", ASSEMBLIES_FILE, lLineCount );
+                lVnum = NOTHING;
+            }
+            else if( (iType = search_block( szType, AssemblyTypes, TRUE )) < 0 )
+            {
+                log( "SYSERR: bootAssemblies(): Invalid type '%s' for assembly "
+                     "vnum #%ld at line %ld.", szType, lVnum, lLineCount );
+                lVnum = NOTHING;
+            }
+            else if( !assemblyCreate( lVnum, iType ) )
+            {
+                log( "SYSERR: bootAssemblies(): Could not create assembly for vnum "
+                     "#%ld, type %s.", lVnum, szType );
+                lVnum = NOTHING;
+            }
+        }
+        else
+        {
+            log( "SYSERR: Invalid tag '%s' in file %s, line #%ld.", szTag,
+                 ASSEMBLIES_FILE, lLineCount );
+        }
+
+        *szLine = '\0';
+        *szTag = '\0';
+    }
+
+    fclose( pFile );
 }
 
 void assemblySaveAssemblies( void )
@@ -627,17 +627,17 @@ int assembly_skills[MAX_ASSM] =
 
 void crafting_update(void)
 {
-    struct char_data *ch, *next_char;
-    char buf[100]={'\0'};
-    char buf2[100]={'\0'};
+    struct char_data * ch, *next_char;
+    struct obj_data *obj2 = NULL;
+    char buf[100] = {'\0'};
+    char buf2[100] = {'\0'};
     int exp = 0, bonus = 0;
     int buff = 0;
     int roll = 0;
     int dc = 0;
     int i = 0;
-    struct obj_data *obj2 = NULL;
 
-    for (ch = character_list; ch; ch = next_char) 
+    for (ch = character_list; ch; ch = next_char)
     {
         next_char = ch->next;
 
@@ -668,7 +668,7 @@ void crafting_update(void)
             continue;
         }
 
-        if (GET_CRAFTING_TICKS(ch) == 0) 
+        if (GET_CRAFTING_TICKS(ch) == 0)
         {
             if (GET_CRAFTING_TYPE(ch) == -1)
             {
@@ -676,10 +676,10 @@ void crafting_update(void)
             }
 
             if (TRUE || GET_CRAFTING_TYPE(ch) == SCMD_DIVIDE || GET_CRAFTING_TYPE(ch) == SCMD_FOREST || GET_CRAFTING_TYPE(ch) == SCMD_FARM ||
-                GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT || GET_CRAFTING_TYPE(ch) == SCMD_RESIZE ||
-                ((roll = skill_roll(ch, assembly_skills[GET_CRAFTING_TYPE(ch)])) >= (dc = 10 + GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch))))) 
+                    GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT || GET_CRAFTING_TYPE(ch) == SCMD_RESIZE ||
+                    ((roll = skill_roll(ch, assembly_skills[GET_CRAFTING_TYPE(ch)])) >= (dc = 10 + GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch)))))
             {
-                if (!GET_CRAFTING_OBJ(ch) || GET_OBJ_VNUM(GET_CRAFTING_OBJ(ch)) == 64012) 
+                if (!GET_CRAFTING_OBJ(ch) || GET_OBJ_VNUM(GET_CRAFTING_OBJ(ch)) == 64012)
                 {
                     sprintf(buf, "Your attempt to %s has provided no results.",  AssemblyTypes[GET_CRAFTING_TYPE(ch)]);
                     act(buf, FALSE, ch, 0, 0, TO_CHAR);
@@ -694,64 +694,64 @@ void crafting_update(void)
                 {
                     obj_to_char(GET_CRAFTING_OBJ(ch), ch);
                 }
-                if (GET_CRAFTING_TYPE(ch) == SCMD_DIVIDE) 
+                if (GET_CRAFTING_TYPE(ch) == SCMD_DIVIDE)
                 {
                     sprintf(buf, "You create $p (x%d).  Success!!!", GET_CRAFTING_REPEAT(ch));
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_CHAR);
                     sprintf(buf, "$n creates $p (x%d).", GET_CRAFTING_REPEAT(ch));
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
                     int i = 0;
-                    for (i = 1; i < GET_CRAFTING_REPEAT(ch); i++) 
+                    for (i = 1; i < GET_CRAFTING_REPEAT(ch); i++)
                     {
                         obj2 = read_object(GET_OBJ_VNUM(GET_CRAFTING_OBJ(ch)), VIRTUAL);
                         obj_to_char(obj2, ch);
                     }
                 }
-                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE) 
+                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE)
                 {
                     sprintf(buf, "You mine $p.  Success!!!");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_CHAR);
                     sprintf(buf, "$n mines $p.");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
                     exp = 30 + (get_skill_value(ch, SKILL_MINING) * MAX(1, ch->player_specials->crafting_exp_mult)) *
-                    (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
-                    (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
+                          (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
+                          (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
                     gain_artisan_exp(ch, exp);
                 }
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_HUNT) 
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_HUNT)
                 {
                     sprintf(buf, "You find $p from your hunting.  Success!!!");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_CHAR);
                     sprintf(buf, "$n finds $p from $s hunting.");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
                     exp = 30 + (get_skill_value(ch, SKILL_FORESTING) * MAX(1, ch->player_specials->crafting_exp_mult)) *
-                    (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
-                    (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
+                          (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
+                          (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
                     gain_artisan_exp(ch, exp);
                 }
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_FOREST) 
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_FOREST)
                 {
                     sprintf(buf, "You forest $p.  Success!!!");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_CHAR);
                     sprintf(buf, "$n forests $p.");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
                     exp = 30 + (get_skill_value(ch, SKILL_FORESTING) * MAX(1, ch->player_specials->crafting_exp_mult)) *
-                    (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
-                    (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
+                          (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
+                          (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
                     gain_artisan_exp(ch, exp);
                 }
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_FARM) 
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_FARM)
                 {
                     sprintf(buf, "You farm $p.  Success!!!");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_CHAR);
                     sprintf(buf, "$n farms $p.");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
                     exp = 30 + (get_skill_value(ch, SKILL_FARMING) * MAX(1, ch->player_specials->crafting_exp_mult)) *
-                    (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
-                    (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
+                          (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 10 *
+                          (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
                     gain_artisan_exp(ch, exp);
                 }
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_RESIZE) 
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_RESIZE)
                 {
                     sprintf(buf, "You resize $p.  Success!!!");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_CHAR);
@@ -759,7 +759,7 @@ void crafting_update(void)
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
                     return;
                 }
-                else if (GET_CRAFTING_TYPE(ch) != SCMD_SYNTHESIZE) 
+                else if (GET_CRAFTING_TYPE(ch) != SCMD_SYNTHESIZE)
                 {
                     if (ch->craft_times > 0)
                     {
@@ -769,35 +769,35 @@ void crafting_update(void)
                     {
                         sprintf(buf2, "@n");
                     }
-                    sprintf(buf, "You create $p%s.  Success!!!", buf2);
+                    snprintf(buf, sizeof(buf), "You create $p%s.  Success!!!", buf2);
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_CHAR);
                     sprintf(buf, "$n creates $p%s.", buf2);
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), 0, TO_ROOM);
 
                     exp = 30 + (GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch)) * MAX(1, ch->player_specials->crafting_exp_mult)) *
-                    (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 2 *
-                    (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
+                          (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 2 *
+                          (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
                     bonus = exp * (GET_RP_ART_EXP_BONUS(ch) + (buff * 100));
                     bonus /= 10000;
                     gain_artisan_exp(ch, exp);
 
-                    if (GET_OBJ_VNUM(GET_CRAFTING_OBJ(ch)) == GET_AUTOCQUEST_VNUM(ch)) 
+                    if (GET_OBJ_VNUM(GET_CRAFTING_OBJ(ch)) == GET_AUTOCQUEST_VNUM(ch))
                     {
                         GET_AUTOCQUEST_MAKENUM(ch)--;
-                        if (GET_AUTOCQUEST_MAKENUM(ch) == 0) 
+                        if (GET_AUTOCQUEST_MAKENUM(ch) == 0)
                         {
                             send_to_char(ch, "You have completed your supply order! Go turn it in for more exp, quest points and gold!.\r\n");
-                        } 
-                        else 
+                        }
+                        else
                         {
                             send_to_char(ch, "You have completed another item in your supply order and have %d more to make.\r\n", GET_AUTOCQUEST_MAKENUM(ch));
                         }
                     }
-                    else 
+                    else
                     {
-                        if (ch->craft_vnum > 0) 
+                        if (ch->craft_vnum > 0)
                         {
-                            for (i = 0; i < MAX(0, ch->craft_times); i++) 
+                            for (i = 0; i < MAX(0, ch->craft_times); i++)
                             {
                                 obj2 = read_object(ch->craft_vnum, VIRTUAL);
                                 obj_to_char(obj2, ch);
@@ -805,31 +805,31 @@ void crafting_update(void)
                             ch->craft_vnum = 0;
                             ch->craft_times = 0;
                         }
-                        if (GET_CRAFTING_TYPE(ch) != SCMD_DISENCHANT) 
+                        if (GET_CRAFTING_TYPE(ch) != SCMD_DISENCHANT)
                         {
-                            if (GET_GOLD(ch) < (GET_OBJ_COST(GET_CRAFTING_OBJ(ch)) / 4)) 
+                            if (GET_GOLD(ch) < (GET_OBJ_COST(GET_CRAFTING_OBJ(ch)) / 4))
                             {
                                 GET_BANK_GOLD(ch) -= GET_OBJ_COST(GET_CRAFTING_OBJ(ch)) / 4;
                             }
-                            else 
+                            else
                             {
                                 GET_GOLD(ch) -= GET_OBJ_COST(GET_CRAFTING_OBJ(ch)) / 4;
                             }
                         }
                     }
                 }
-                else 
+                else
                 {
                     get_random_crystal(ch, (get_skill_value(ch, SKILL_CRAFTING_THEORY) + get_synth_bonus(ch)));
                 }
-                if (GET_CRAFTING_TYPE(ch) != SCMD_DIVIDE) 
+                if (GET_CRAFTING_TYPE(ch) != SCMD_DIVIDE)
                 {
-                    if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT || 
-                        GET_CRAFTING_TYPE(ch) == SCMD_FARM || GET_CRAFTING_TYPE(ch) == SCMD_FOREST) 
+                    if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT ||
+                            GET_CRAFTING_TYPE(ch) == SCMD_FARM || GET_CRAFTING_TYPE(ch) == SCMD_FOREST)
                     {
                         roll = dice(1, 100);
 
-                        if (roll <= 3) 
+                        if (roll <= 3)
                         {
                             if (dice(1, 20) <= 15)
                             {
@@ -843,9 +843,9 @@ void crafting_update(void)
                     }
                 }
             }
-            else 
+            else
             {
-                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_DISENCHANT) 
+                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_DISENCHANT)
                 {
                     sprintf(buf, "Your attempt to %s has provided no results.",  AssemblyTypes[GET_CRAFTING_TYPE(ch)]);
                     act(buf, FALSE, ch, 0, 0, TO_CHAR);
@@ -855,7 +855,7 @@ void crafting_update(void)
                     extract_obj(GET_CRAFTING_OBJ(ch));
                     GET_CRAFTING_OBJ(ch) = NULL;
                 }
-                else 
+                else
                 {
                     extract_obj(GET_CRAFTING_OBJ(ch));
                     sprintf(buf, "You finish $p, but mess up the work and lose everything.");
@@ -863,16 +863,16 @@ void crafting_update(void)
                     sprintf(buf, "$n finishes $p, but has failed in the work and has lost everything.");
                     act(buf, false, ch, GET_CRAFTING_OBJ(ch), ch, TO_NOTVICT);
                 }
-                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT || 
-                    GET_CRAFTING_TYPE(ch) == SCMD_FARM || GET_CRAFTING_TYPE(ch) == SCMD_FOREST) 
+                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT ||
+                        GET_CRAFTING_TYPE(ch) == SCMD_FARM || GET_CRAFTING_TYPE(ch) == SCMD_FOREST)
                 {
                     exp = 0;
                 }
-                else 
+                else
                 {
                     exp = 30 + (GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch)) * MAX(1, ch->player_specials->crafting_exp_mult)) *
-                    (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 
-                    (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
+                          (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) *
+                          (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
                     bonus = exp * (GET_RP_ART_EXP_BONUS(ch) + (buff * 100));
                     bonus /= 10000;
                     gain_artisan_exp(ch, exp);
@@ -882,51 +882,51 @@ void crafting_update(void)
             GET_CRAFTING_TYPE(ch) = -1;
             GET_CRAFTING_OBJ(ch) = NULL;
         }
-        else 
+        else
         {
             if (GET_ADMLEVEL(ch) > 0)
             {
                 GET_CRAFTING_TICKS(ch) = 1;
             }
-            if (!PRF_FLAGGED(ch, PRF_CRAFTING_BRIEF)) 
+            if (!PRF_FLAGGED(ch, PRF_CRAFTING_BRIEF))
             {
-                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE)        
+                if (GET_CRAFTING_TYPE(ch) == SCMD_MINE)
                     send_to_char(ch, "You continue to %s for ore.\r\n", AssemblyTypes[GET_CRAFTING_TYPE(ch)]);
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_FARM)        
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_FARM)
                     send_to_char(ch, "You continue to %s for food and cloth.\r\n", AssemblyTypes[GET_CRAFTING_TYPE(ch)]);
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_FOREST)        
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_FOREST)
                     send_to_char(ch, "You continue to %s for wood.\r\n", AssemblyTypes[GET_CRAFTING_TYPE(ch)]);
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_HUNT)        
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_HUNT)
                     send_to_char(ch, "You continue to %s for food and hides.\r\n", AssemblyTypes[GET_CRAFTING_TYPE(ch)]);
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_DISENCHANT)        
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_DISENCHANT)
                     send_to_char(ch, "You continue the disenchanting process.\r\n");
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_SYNTHESIZE)        
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_SYNTHESIZE)
                     send_to_char(ch, "You continue the synthesizing process.\r\n");
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_DIVIDE)        
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_DIVIDE)
                     send_to_char(ch, "You continue the dividing process.\r\n");
-                else if (GET_CRAFTING_TYPE(ch) == SCMD_RESIZE)        
+                else if (GET_CRAFTING_TYPE(ch) == SCMD_RESIZE)
                     send_to_char(ch, "You continue the resizing process.\r\n");
-                else 
+                else
                 {
                     send_to_char(ch, "You continue to %s %s.\r\n", AssemblyTypes[GET_CRAFTING_TYPE(ch)], GET_CRAFTING_OBJ(ch)->short_description);
                 }
                 send_to_char(ch, "You have approximately %d minutes and %d seconds left to go.\r\n", GET_CRAFTING_TICKS(ch) / 6, (GET_CRAFTING_TICKS(ch) % 6) * 10);
             }
             GET_CRAFTING_TICKS(ch) -= 1;
-            if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT || 
-                GET_CRAFTING_TYPE(ch) == SCMD_FARM || GET_CRAFTING_TYPE(ch) == SCMD_FOREST) {
+            if (GET_CRAFTING_TYPE(ch) == SCMD_MINE || GET_CRAFTING_TYPE(ch) == SCMD_HUNT ||
+                    GET_CRAFTING_TYPE(ch) == SCMD_FARM || GET_CRAFTING_TYPE(ch) == SCMD_FOREST)
+            {
                 exp = 0;
-        } 
-        else 
-        {
-            exp = 30 + (GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch)) * MAX(1, ch->player_specials->crafting_exp_mult)) *
-            (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) * 
-            (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
-            bonus = exp * (GET_RP_ART_EXP_BONUS(ch) + (buff * 100));
-            bonus /= 10000;
-            gain_artisan_exp(ch, exp);
+            }
+            else
+            {
+                exp = 30 + (GET_OBJ_LEVEL(GET_CRAFTING_OBJ(ch)) * MAX(1, ch->player_specials->crafting_exp_mult)) *
+                      (HAS_FEAT(ch, FEAT_ELVEN_CRAFTING) ? 2 : 1) *
+                      (GET_OBJ_MATERIAL(GET_CRAFTING_OBJ(ch)) == MATERIAL_MITHRIL ? 2 : 1);
+                bonus = exp * (GET_RP_ART_EXP_BONUS(ch) + (buff * 100));
+                bonus /= 10000;
+                gain_artisan_exp(ch, exp);
+            }
         }
     }
-}
-
 }

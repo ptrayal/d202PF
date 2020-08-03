@@ -3885,15 +3885,14 @@ ACMD(do_saveall)
 
 ACMD(do_players)
 {
-
     struct descriptor_data *d;
-    char buf[200] = {'\0'};
+    char buf[MSL] = {'\0'};
 
-    sprintf(buf, "@Y%-15s %-15s %-6s %-5s %-5s %-7s %-7s %-7s %-20s %-20s %-3s\r\n", "Name", "Account", "AdmLvl", "Level",
+    snprintf(buf, sizeof(buf), "@Y%-15s %-15s %-6s %-5s %-5s %-7s %-7s %-7s %-20s %-20s %-3s\r\n", "Name", "Account", "AdmLvl", "Level",
             "Align", "Room", "ImmChar", "Race", "Deity", "Class", "RP");
     send_to_char(ch, "%s", buf);
 
-    sprintf(buf, "----------------------------------------------------------------------------------------------------@n\r\n");
+    snprintf(buf, sizeof(buf), "----------------------------------------------------------------------------------------------------@n\r\n");
     send_to_char(ch, "%s", buf);
 
     for (d = descriptor_list; d; d = d->next)
@@ -4032,7 +4031,8 @@ ACMD(do_chown)
     char buf[80] = {'\0'};
     char buf2[80] = {'\0'};
     char buf3[80] = {'\0'};
-    int i = 0, k = 0;
+    int i = 0;
+    int k = 0;
 
     two_arguments(argument, buf2, buf3);
 
@@ -4596,49 +4596,56 @@ void do_usage_stats_mysql(void)
 
 ACMD(do_rebind) 
 {
-  struct char_data *vict;
-  char arg[200]={'\0'};
+    struct char_data *vict;
+    struct obj_data *obj;
+    char arg[200] = {'\0'};
+    int i = 0;
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (!*arg) {
-    send_to_char(ch, "For which character would you like to rebind items?\r\n");
-    return;
-  }
-
-  if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
-    send_to_char(ch, "%s", CONFIG_NOPERSON);
-    return;
-  }
-
-  if (IS_NPC(vict)) {
-    send_to_char(ch, "Your target must be a pc, that is an npc.\r\n");
-    return;
-  }
-
-  int i = 0;
-  struct obj_data *obj;
-
-  for (i = 0; i < NUM_WEARS; i++) {
-    if ((obj = GET_EQ(vict, i))) {
-      if (GET_OBJ_VAL(obj, 13) > 0) {
-        send_to_char(vict, "%s has been rebound to you by %s\r\n", (obj->short_description), GET_NAME(ch)); 
-        send_to_char(ch, "%s has been rebound to %s\r\n", (obj->short_description), GET_NAME(vict)); 
-        GET_OBJ_VAL(obj, 13) = GET_IDNUM(vict);
-      }
+    if (!*arg)
+    {
+        send_to_char(ch, "For which character would you like to rebind items?\r\n");
+        return;
     }
-  }
 
-  struct obj_data *next_obj;
-
-  for (obj = vict->carrying; obj; obj = next_obj) {
-    next_obj = obj->next_content;
-    if (GET_OBJ_VAL(obj, 13) > 0) {
-      send_to_char(vict, "%s has been rebound to you by %s\r\n", (obj->short_description), GET_NAME(ch)); 
-      send_to_char(ch, "%s has been rebound to %s\r\n", (obj->short_description), GET_NAME(vict)); 
-      GET_OBJ_VAL(obj, 13) = GET_IDNUM(vict);
+    if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)))
+    {
+        send_to_char(ch, "%s", CONFIG_NOPERSON);
+        return;
     }
-  }
 
-  send_to_char(ch, "All bound items carried by %s have now been rebound to them.  (Items inside containers were skipped)\r\n", GET_NAME(vict));
+    if (IS_NPC(vict))
+    {
+        send_to_char(ch, "Your target must be a pc, that is an npc.\r\n");
+        return;
+    }
+
+    for (i = 0; i < NUM_WEARS; i++)
+    {
+        if ((obj = GET_EQ(vict, i)))
+        {
+            if (GET_OBJ_VAL(obj, 13) > 0)
+            {
+                send_to_char(vict, "%s has been rebound to you by %s\r\n", (obj->short_description), GET_NAME(ch));
+                send_to_char(ch, "%s has been rebound to %s\r\n", (obj->short_description), GET_NAME(vict));
+                GET_OBJ_VAL(obj, 13) = GET_IDNUM(vict);
+            }
+        }
+    }
+
+    struct obj_data *next_obj;
+
+    for (obj = vict->carrying; obj; obj = next_obj)
+    {
+        next_obj = obj->next_content;
+        if (GET_OBJ_VAL(obj, 13) > 0)
+        {
+            send_to_char(vict, "%s has been rebound to you by %s\r\n", (obj->short_description), GET_NAME(ch));
+            send_to_char(ch, "%s has been rebound to %s\r\n", (obj->short_description), GET_NAME(vict));
+            GET_OBJ_VAL(obj, 13) = GET_IDNUM(vict);
+        }
+    }
+
+    send_to_char(ch, "All bound items carried by %s have now been rebound to them.  (Items inside containers were skipped)\r\n", GET_NAME(vict));
 }
