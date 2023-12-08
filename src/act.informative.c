@@ -151,6 +151,9 @@ char * offense_text_desc(int off, char *buf);
 char * saving_throw_text_desc(int save, char *buf);
 ACMD(do_autocon);
 
+#define UNUSED(x) (void)(x)
+
+
 /* local globals */
 int *cmd_sort_info;
 
@@ -2158,269 +2161,289 @@ ACMD(do_score)
 ACMD(do_aod_new_score)
 {
 
-  int attack = 0, base_attack = 0, offhand = 0, weaponmod = 0, offhandmod = 0;
-  char attack_text[MAX_STRING_LENGTH]={'\0'};
-  int i = 0, j = 0;
-  struct time_info_data playing_time;
-  char play_time[MAX_STRING_LENGTH]={'\0'};
-  int int_xp = 0;
-  int int_percent = 0;
-  float percent = 0.0;
-  float xp = 0.0;
-  char exp_percent[MAX_STRING_LENGTH]={'\0'};
-  int grace = 0;
-  char hp_text[MAX_STRING_LENGTH]={'\0'}, mv_text[MAX_STRING_LENGTH]={'\0'};
-  char coin_text[MAX_STRING_LENGTH]={'\0'};
-  char color1[10]={'\0'}, color2[10]={'\0'}, color3[10]={'\0'}, color4[10]={'\0'};
-  struct damreduct_type *reduct;
-  int showStats = TRUE;
-  char enc_text[100]={'\0'}, stat_buf[200]={'\0'}, desc_buf[200]={'\0'};
-  struct char_data *rec = ch, *vict;
-  char arg[200]={'\0'};
+    int attack = 0, base_attack = 0, offhand = 0, weaponmod = 0, offhandmod = 0;
+    char attack_text[MAX_STRING_LENGTH] = {'\0'};
+    int i = 0, j = 0;
+    struct time_info_data playing_time;
+    char play_time[MAX_STRING_LENGTH] = {'\0'};
+    int int_xp = 0;
+    int int_percent = 0;
+    float percent = 0.0;
+    float xp = 0.0;
+    char exp_percent[MAX_STRING_LENGTH] = {'\0'};
+    int grace = 0;
+    char hp_text[MAX_STRING_LENGTH] = {'\0'}, mv_text[MAX_STRING_LENGTH] = {'\0'};
+    char coin_text[MAX_STRING_LENGTH] = {'\0'};
+    char color1[10] = {'\0'}, color2[10] = {'\0'}, color3[10] = {'\0'}, color4[10] = {'\0'};
+    struct damreduct_type *reduct;
+    int showStats = TRUE;
+    char enc_text[100] = {'\0'}, stat_buf[200] = {'\0'}, desc_buf[200] = {'\0'};
+    struct char_data *rec = ch, *vict;
+    char arg[200] = {'\0'};
 
-  one_argument(argument, arg);
+    one_argument(argument, arg);
 
-  if (*arg) {
-    if (GET_ADMLEVEL(ch) > 0) {
-      if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD))) {
-        send_to_char(rec, "That person does not seem to be online.\r\n");
-        return;
-      }
+    if (*arg)
+    {
+        if (GET_ADMLEVEL(ch) > 0)
+        {
+            if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD)))
+            {
+                send_to_char(rec, "That person does not seem to be online.\r\n");
+                return;
+            }
+        }
+        else
+        {
+            if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD)))
+            {
+                send_to_char(rec, "That person does not seem to be here.\r\n");
+                return;
+            }
+            if (!IS_NPC(vict) || vict->master != rec)
+            {
+                send_to_char(rec, "You do not have permission to view that person's score.\r\n");
+                return;
+            }
+        }
+        ch = vict;
     }
-    else {
-      if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD))) {
-        send_to_char(rec, "That person does not seem to be here.\r\n");
-        return;
-      }
-      if (!IS_NPC(vict) || vict->master != rec) {
-        send_to_char(rec, "You do not have permission to view that person's score.\r\n");
-        return;
-      }
-    }
-    ch = vict;
-  }  
-  
 
 
-  // Set colors
-  
-  sprintf(color1, "@W");
-  sprintf(color2, "@w");
-  sprintf(color3, "@c");
-  sprintf(color4, "@y");
-  
-  // Determine number of attacks and their attack values
-    for (j = 0; j < MAX_OBJ_AFFECT; j++) {
-      if (GET_EQ(ch, WEAR_WIELD1) && (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
-        weaponmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
+
+    // Set colors
+
+    sprintf(color1, "@W");
+    sprintf(color2, "@w");
+    sprintf(color3, "@c");
+    sprintf(color4, "@y");
+
+    // Determine number of attacks and their attack values
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
+    {
+        if (GET_EQ(ch, WEAR_WIELD1) && (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
+            weaponmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
     }
-    for (j = 0; j < MAX_OBJ_AFFECT; j++) {
-      if (GET_EQ(ch, WEAR_WIELD2) && (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
-        offhandmod = GET_EQ(ch, WEAR_WIELD2)->affected[j].modifier;
-    }  
-  
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
+    {
+        if (GET_EQ(ch, WEAR_WIELD2) && (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
+            offhandmod = GET_EQ(ch, WEAR_WIELD2)->affected[j].modifier;
+    }
+
     sprintf(attack_text, "%s", subcmd == SCMD_SCORE_NUMBERS ? color4 : "@G");
     attack = compute_base_hit(ch, weaponmod);
     base_attack = GET_ACCURACY_BASE(ch);
-    offhand = compute_base_hit(ch, offhandmod);  
-    for (i = 0; i < 4; i++) {
-      
-      if (i != 0 && base_attack > 0)
-        sprintf(attack_text, "%s/", attack_text);
-      if (base_attack > 0) {
-        sprintf(attack_text, "%s%s%d", attack_text, (attack > 0) ? "+" : "", attack);
-        if (i == 0 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON) {
-          sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+    offhand = compute_base_hit(ch, offhandmod);
+    for (i = 0; i < 4; i++)
+    {
+
+        if (i != 0 && base_attack > 0)
+            sprintf(attack_text, "%s/", attack_text);
+        if (base_attack > 0)
+        {
+            sprintf(attack_text, "%s%s%d", attack_text, (attack > 0) ? "+" : "", attack);
+            if (i == 0 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
+            {
+                sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+            }
+            if (i == 1 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON && HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING))
+            {
+                offhand = compute_base_hit(ch, offhandmod) - 5;
+                sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+            }
+            if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) && GET_CLASS_RANKS(ch, CLASS_MONK) && !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2)))
+            {
+                sprintf(attack_text, "%s/%s%d", attack_text, (attack > 0) ? "+" : "", attack);
+            }
         }
-        if (i == 1 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON && HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING)) {
-          offhand = compute_base_hit(ch, offhandmod) - 5;
-          sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
-        }        
-        if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) && GET_CLASS_RANKS(ch, CLASS_MONK) && !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2))) {
-          sprintf(attack_text, "%s/%s%d", attack_text, (attack > 0) ? "+" : "", attack);
-        }
-      }
-      attack -= 5;
-      base_attack -= 5;
+        attack -= 5;
+        base_attack -= 5;
     }
 
-  // Determine play time
-    
-  playing_time = *real_time_passed((time(0) - ch->time.logon) + ch->time.played, 0);
-  sprintf(play_time, "%d day%s and %d hour%s.",
-     playing_time.day, playing_time.day == 1 ? "" : "s",
-     playing_time.hours, playing_time.hours == 1 ? "" : "s");    
-    
-  // Determine exp percent to next level
-    
-   if (GET_LEVEL(ch) == 1 && race_list[GET_RACE(ch)].level_adjustment) {
-     xp = ((float) GET_EXP(ch)) /
-                ((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)));   
-   }
-   else {
-     xp = (((float) GET_EXP(ch)) - ((float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch)))) /
-                (((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)) -
-                (float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch))));
-  }
+    // Determine play time
 
-  xp *= (float) 1000.0;
-  percent = (int) xp % 10;
-  xp /= (float) 10;
-  int_xp = MAX(0, (int) xp);
-  int_percent = MAX(0, MIN((int) percent, 99));
+    playing_time = *real_time_passed((time(0) - ch->time.logon) + ch->time.played, 0);
+    sprintf(play_time, "%d day%s and %d hour%s.",
+            playing_time.day, playing_time.day == 1 ? "" : "s",
+            playing_time.hours, playing_time.hours == 1 ? "" : "s");
 
-  if (showStats)
-    sprintf(exp_percent, "%d Exp %d.%d%% tnl", GET_EXP(ch), int_xp, int_percent);
-  else
-    sprintf(exp_percent, "%d.%d%% exp to level", int_xp, int_percent);
+    // Determine exp percent to next level
 
-  
-  // Determine divine grace modifier to saving throws
+    if (GET_LEVEL(ch) == 1 && race_list[GET_RACE(ch)].level_adjustment)
+    {
+        xp = ((float) GET_EXP(ch)) /
+             ((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)));
+    }
+    else
+    {
+        xp = (((float) GET_EXP(ch)) - ((float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch)))) /
+             (((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)) -
+               (float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch))));
+    }
 
-  if (HAS_FEAT(ch, FEAT_DIVINE_GRACE))
-    grace = MAX(0, ability_mod_value(GET_CHA(ch)));
+    xp *= (float) 1000.0;
+    percent = (int) xp % 10;
+    xp /= (float) 10;
+    int_xp = MAX(0, (int) xp);
+    int_percent = MAX(0, MIN((int) percent, 99));
 
-  // Determine hit point and mv point sttrings
-  sprintf(hp_text, "%d of %d HP %d%%", GET_HIT(ch), GET_MAX_HIT(ch), GET_HIT(ch) * 100 / GET_MAX_HIT(ch));
-  sprintf(mv_text, "%d of %d MV %d%%", GET_MOVE(ch), GET_MAX_MOVE(ch), GET_MOVE(ch) * 100 / GET_MAX_MOVE(ch));
-    
-  // Determine coins string
-  sprintf(coin_text, "%s", change_coins(GET_GOLD(ch)));
-
-  sprintf(enc_text, "%lld.%d/%ld.%d (%s)",
-          (IS_CARRYING_W(ch)) / 10, (int) (IS_CARRYING_W(ch)) % 10,  CAN_CARRY_W(ch) / 10, (int) CAN_CARRY_W(ch) % 10, 
-          IS_LIGHT_LOAD(ch) ? "light" : (IS_MEDIUM_LOAD(ch) ? "medium" : (IS_HEAVY_LOAD(ch) ? "heavy" : "over")));
+    if (showStats)
+        sprintf(exp_percent, "%d Exp %d.%d%% tnl", GET_EXP(ch), int_xp, int_percent);
+    else
+        sprintf(exp_percent, "%d.%d%% exp to level", int_xp, int_percent);
 
 
+    // Determine divine grace modifier to saving throws
 
-if (subcmd == SCMD_SCORE_NUMBERS) {  
-send_to_char(rec, "\r\n");
-send_to_char(rec, "%s================================================================================@n\r\n", color1);
-send_to_char(rec, "%s== %sName: %s%-20.20s %sGender: %s%-6.6s %sSize: %s%-6.6s %sDeity: %s%-12.12s %s==@n\r\n", color1, color3, color4, GET_NAME(ch), color3, color4, genders[(int)GET_SEX(ch)], color3, color4, size_names[get_size(ch)], color3, color4, deity_list[GET_DEITY(ch)].name, color1);
-send_to_char(rec, "%s== %sTitle: %s%-67.67s %s==@n\r\n", color1, color3, color4, GET_TITLE(ch), color1);
-send_to_char(rec, "%s== %sLevel: %s%2d %sRace: %s%-20.20s %sAccount Exp: %s%-8d %sGift: %s%-8d  %s==@n\r\n", color1, color3, color4, GET_LEVEL(ch), color3, color4, pc_race_types[GET_RACE(ch)], color3, color4, IS_NPC(ch) ? 0 : ch->desc->account->experience, color3, color4, IS_NPC(ch) ? 0 : ch->desc->account->gift_experience, color1);
-send_to_char(rec, "%s== %sClasses: %s%-66.66s%s==@n\r\n", color1, color3, color4, class_desc_str(ch, 1, 0), color1);
-send_to_char(rec, "%s== %sAge: %s%2d%sy %s%2d%sm Height: %s%2d%s\'%s%2d%s\" Weight: %s%3d %slbs. Alignment: %s%-18.18s %s==@n\r\n", color1, color3, 
-color4, age(ch)->year, color3, color4, age(ch)->month, color3, color4, (GET_HEIGHT(ch) / 30), color3, color4, ((GET_HEIGHT(ch) % 30) / 5 * 2), 
-color3, color4, (GET_WEIGHT(ch) * 22 / 10), color3, color4, alignments[ALIGN_TYPE(ch)], color1);
-send_to_char(rec, "%s================================================================================@n\r\n", color1);
-send_to_char(rec, "%s== %sStrength     : %s%-15.15s %s== %sHit Points   : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_STR(ch), desc_buf), color1, color3, color4, hp_text, color1);
-send_to_char(rec, "%s== %sConstitution : %s%-15.15s %s== %sMove Points  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_CON(ch), desc_buf), color1, color3, color4, mv_text, color1);
-send_to_char(rec, "%s== %sDexterity    : %s%-15.15s %s== %sBase Attack  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_DEX(ch), desc_buf), color1, color3, color4, offense_text(GET_BAB(ch), desc_buf + 100), color1);
-send_to_char(rec, "%s== %sIntelligence : %s%-15.15s %s== %sArmor Class  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_INT(ch), desc_buf), color1, color3, color4, defense_text(compute_armor_class(ch, NULL), desc_buf + 100), color1);
-send_to_char(rec, "%s== %sWisdom       : %s%-15.15s %s== %sEncumbrance  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_WIS(ch), desc_buf), color1, color3, color4, enc_text, color1);
-send_to_char(rec, "%s== %sCharisma     : %s%-15.15s %s== %sAttacks      : %s%-27.27s %s==@n\r\n", color1, color3, color4, attribute_text(GET_CHA(ch), desc_buf), color1, color3, color4, attack_text, color1);
-send_to_char(rec, "%s== %sReflex       : %s%-15.15s %s== %sPlay Time    : %s%-25.25s %s==@n\r\n", color1, color3, color4, saving_throw_text(get_saving_throw_value(ch, SAVING_REFLEX), desc_buf), color1, color3, color4, play_time, color1);
-send_to_char(rec, "%s== %sFortitude    : %s%-15.15s %s== %sMoney        : %s%-25.25s %s==@n\r\n", color1, color3, color4, saving_throw_text(get_saving_throw_value(ch, SAVING_FORTITUDE), desc_buf), color1, color3, color4, coin_text, color1);
-send_to_char(rec, "%s== %sWillpower    : %s%-15.15s %s== %sExperience   : %s%-25.25s %s==@n\r\n", color1, color3, color4, saving_throw_text(get_saving_throw_value(ch, SAVING_WILL), desc_buf), color1, color3, color4, exp_percent, color1);
-send_to_char(rec, "%s================================================================================@n\r\n", color1);
-send_to_char(rec, "%s== %sFeats: %s%1d  %s==   %sClass Feats: %s%1d  %s==  %sSkill Points: %s%2d  %s==  %sAbility Trains: %s%1d %s==@n\r\n", color1, color3, color4, GET_FEAT_POINTS(ch), color1, color3, color4, GET_CLASS_FEATS(ch, GET_CLASS(ch)), color1, color3, color4, GET_PRACTICES(ch, GET_CLASS(ch)), color1, color3, color4, GET_TRAINS(ch), color1);
-if (IS_EPIC(ch))
-  send_to_char(rec, "%s== %sEpic Feats %s%1d   %sEpic Class Feats: %s%1d                                         %s==@n\r\n", color1, color3, color4, GET_EPIC_FEAT_POINTS(ch), color3, color4, GET_EPIC_CLASS_FEATS(ch, GET_CLASS(ch)), color1);
-send_to_char(rec, "%s================================================================================@n\r\n", color1);
-send_to_char(rec, "%s== %sQuest Points: %s[%6d] %sCompleted Quests %s[%3d]                              %s==@n\r\n", color1,  color3, color4, GET_QUESTPOINTS(ch), color3, color4, GET_NUM_QUESTS(ch),color1);
-if (GET_MAX_MANA(ch) > 0)
-send_to_char(rec, "%s== %sMetamagic Points: %s%3d\\%3d                                                  %s==@n\r\n", color1,  color3, color4, GET_MANA(ch), GET_MAX_MANA(ch), color1);
-if (GET_RESEARCH_TOKENS(ch))
-send_to_char(rec, "%s== %sResearch Tokens: %s%2d                                                        %s==@n\r\n", color1,  color3, color4, GET_RESEARCH_TOKENS(ch), color1);
-if (get_spell_resistance(ch))
-send_to_char(rec, "%s== %sSpell Resistance: %s%2d                                                       %s==@n\r\n", color1,  color3, color4, 
-get_spell_resistance(ch), color1);
-if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0)
-send_to_char(rec, "%s== %sBard Songs: %s%2d                                                             %s==@n\r\n", color1,  color3, color4, 
-GET_BARD_SONGS(ch), color1);
-  if (ch->damreduct)
-    for (reduct = ch->damreduct; reduct; reduct = reduct->next)
-      send_to_char(ch, "%s== %sDamage Reduction: %s%-30.30s                           %s==@n\r\n", color1, color3, color4, reduct_desc(ch, reduct), color1);
-send_to_char(rec, "%s================================================================================@n\r\n", color1);
-send_to_char(rec, "\r\n");
-if (ch->mentor_level > 0) {
-  send_to_char(rec, "@YYou are mentoring at level %d.\r\n", ch->mentor_level);
-  send_to_char(rec, "\r\n");
-}
-}
-else 
-{
-  send_to_char(rec, "\r\n");
-  send_to_char(rec, "You are @Y%s@n.\r\n", GET_TITLE(ch));
-  send_to_char(rec, "@Y%s@n is a level @Y%d@n %s@n\r\n", GET_NAME(ch), GET_CLASS_LEVEL(ch), class_desc_str(ch, 2, 0));
-  send_to_char(rec, "You are @Y%s@n.\r\n", current_short_desc(rec));
-  send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum health points.\r\n", GET_HIT(ch), GET_MAX_HIT(ch));
-  send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum stamina points.\r\n", GET_MOVE(ch), GET_MAX_MOVE(ch));
-if (GET_MAX_MANA(ch) > 0)
-  {
-    send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum metamagic points.\r\n", GET_MANA(ch), GET_MAX_MANA(ch));
-  }
-if (GET_MAX_KI(rec) > 0 && GET_CLASS_RANKS(ch, CLASS_MONK) > 0)
-  {
-    send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum ki points.\r\n", GET_KI(ch), GET_MAX_KI(ch));
-  }
-  send_to_char(rec, "Your alignment is @Y%s@n.\r\n", alignments[ALIGN_TYPE(ch)]);
-  if (GET_SUBGUILD(ch) == GUILD_OPERATIVES)
-    send_to_char(rec, "Your false alignment is @Y%s@n.\r\n", alignments[FALSE_ALIGN_TYPE(ch)]);
-  if (GET_GUILD(ch) != GUILD_UNDEFINED)
-    send_to_char(rec, "Your guild is @Y%s@n.\r\n", guild_names[GET_GUILD(ch)]);
-  if (GET_SUBGUILD(ch) != GUILD_UNDEFINED)
-    send_to_char(rec, "Your subguild is @Y%s@n.\r\n", guild_names[GET_SUBGUILD(ch)]);
-  if(GET_CLAN(ch) > CLAN_NONE)
-    send_to_char(rec,   "Clan : @Y%s (%s)@n\r\nClan Rank : @Y%s%s@n\r\n",
-     get_blank_clan_name(GET_CLAN(ch)), get_clan_name(GET_CLAN(ch)),
-     get_rank_name(GET_CLAN(ch), GET_CLAN_RANK(ch)), "@n");
-  send_to_char(rec, "%s is a follower of @Y%s@n.\r\n", GET_NAME(ch), deity_list[GET_DEITY(ch)].name);
-  send_to_char(rec, "Your strength is @Y%s @M%s@n.\r\n", attribute_text(GET_STR(ch), stat_buf), attribute_text_desc(GET_STR(ch), desc_buf));
-  send_to_char(rec, "Your dexterity is @Y%s @M%s@n.\r\n", attribute_text(GET_DEX(ch), stat_buf), attribute_text_desc(GET_DEX(ch), desc_buf));
-  send_to_char(rec, "Your constitution is @Y%s @M%s@n.\r\n", attribute_text(GET_CON(ch), stat_buf), attribute_text_desc(GET_CON(ch), desc_buf));
-  send_to_char(rec, "Your intelligence is @Y%s @M%s@n.\r\n", attribute_text(GET_INT(ch), stat_buf), attribute_text_desc(GET_INT(ch), desc_buf));
-  send_to_char(rec, "Your wisdom is @Y%s @M%s@n.\r\n", attribute_text(GET_WIS(ch), stat_buf), attribute_text_desc(GET_WIS(ch), desc_buf));
-  send_to_char(rec, "Your charisma is @Y%s @M%s@n.\r\n", attribute_text(GET_CHA(ch), stat_buf), attribute_text_desc(GET_CHA(ch), desc_buf));
-  send_to_char(rec, "Your fortitude is @Y%s @C%s@n.\r\n", 
-               saving_throw_text(get_saving_throw_value(ch, SAVING_FORTITUDE), stat_buf), 
-               saving_throw_text_desc(get_saving_throw_value(ch, SAVING_FORTITUDE), desc_buf));
-  send_to_char(rec, "Your reflexes are @Y%s @C%s@n.\r\n", 
-               saving_throw_text(get_saving_throw_value(ch, SAVING_REFLEX), stat_buf),
-               saving_throw_text_desc(get_saving_throw_value(ch, SAVING_REFLEX), desc_buf));
-  send_to_char(rec, "Your willpower is @Y%s @C%s@n.\r\n", 
-               saving_throw_text(get_saving_throw_value(ch, SAVING_WILL), stat_buf),
-               saving_throw_text_desc(get_saving_throw_value(ch, SAVING_WILL), desc_buf));
-  send_to_char(rec, "Your current movement speed is @Y%d@n feet per round.\r\n", get_speed(ch));
-  send_to_char(rec, "Your current base attack bonus is @Y%s @G%s@n.\r\n", 
-               offense_text(GET_BAB(ch), stat_buf),
-               offense_text_desc(GET_BAB(ch), desc_buf));
-  send_to_char(rec, "Your current CMB is @Y%s @G%s @n and your CMD is @Y%d.%d @G%s@n.\r\n",
-               offense_text(get_combat_bonus(ch), stat_buf),
-               offense_text_desc(get_combat_bonus(ch), desc_buf),
-               get_combat_defense(ch) / 10,  get_combat_defense(ch) % 10,
-               defense_text_desc(get_combat_defense(ch), desc_buf));
+    if (HAS_FEAT(ch, FEAT_DIVINE_GRACE))
+        grace = MAX(0, ability_mod_value(GET_CHA(ch)));
 
-  send_to_char(rec, "Your attacks with your current weapon are @G%s@n.\r\n", attack_text);
-  send_to_char(rec, "Your average weapon damage (only) per hit is @G%d@n for your main hand and @G%d@n for your offhand.\r\n", 
-               GET_EQ(ch, WEAR_WIELD) ? get_average_damage(ch, GET_EQ(ch, WEAR_WIELD)) : 0,
-               (GET_EQ(ch, WEAR_HOLD) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_HOLD)) == ITEM_WEAPON) ? get_average_damage(ch, GET_EQ(ch, WEAR_HOLD)) : 0);
-  send_to_char(rec, "Your current armor class is @Y%s @G%s@n.\r\n", 
-               defense_text(compute_armor_class(ch, NULL), stat_buf),
-               defense_text_desc(compute_armor_class(ch, NULL), desc_buf));
-  send_to_char(rec, "You have @Y%d@n quest points accumulated.\r\n", GET_QUESTPOINTS(rec));
-  send_to_char(rec, "Awarded Account Experience: @Y%d@n / Gift Account Experience: @Y%d@n\r\n", 
-               IS_NPC(ch) ? 0 : ch->desc->account->experience,
-               IS_NPC(ch) ? 0 : ch->desc->account->gift_experience);
-  send_to_char(rec, "You are @Y%d@n years and @Y%d@n months old.\r\n", age(ch)->year, age(ch)->month);
-  send_to_char(rec, "You have played for @Y%d@n days, @Y%d@n hours and @Y%d@n minutes.\r\n", (int) rec->time.played / 3600 / 24, 
-((int)rec->time.played / 3600) % 24 , (int)((rec->time.played % 3600) / 60));
-  if (!IS_NPC(rec)) 
-  {
-    char buf1[64]={'\0'};
-    strftime(buf1, sizeof(buf1), "%B %d %Y (%T)", localtime(&(rec->time.created)));
-    send_to_char(rec, "Your character was created on @Y%s@n.\r\n", buf1);
-  }
-  send_to_char(rec, "You have @Y%d@n gold coins and @Y%d@n more in the bank.\r\n", GET_GOLD(ch), GET_BANK_GOLD(ch));
-  send_to_char(rec, "You have @Y%d@n experience, which is @Y%d.%d%%@n of what you need for level @Y%d@n.\r\n", GET_EXP(ch), int_xp, int_percent, GET_CLASS_LEVEL(ch) + 1);
-if (ch->mentor_level > 0) {
-  send_to_char(rec, "@YYou are mentoring at level %d.\r\n", ch->mentor_level);
-  send_to_char(rec, "\r\n");
-}
-  send_to_char(rec, "  See @YSTATS@n for more detailed statistics.\r\n");
-  send_to_char(rec, "\r\n");
-}
+    // Determine hit point and mv point sttrings
+    sprintf(hp_text, "%d of %d HP %d%%", GET_HIT(ch), GET_MAX_HIT(ch), GET_HIT(ch) * 100 / GET_MAX_HIT(ch));
+    sprintf(mv_text, "%d of %d MV %d%%", GET_MOVE(ch), GET_MAX_MOVE(ch), GET_MOVE(ch) * 100 / GET_MAX_MOVE(ch));
+
+    // Determine coins string
+    sprintf(coin_text, "%s", change_coins(GET_GOLD(ch)));
+
+    sprintf(enc_text, "%lld.%d/%ld.%d (%s)",
+            (IS_CARRYING_W(ch)) / 10, (int) (IS_CARRYING_W(ch)) % 10,  CAN_CARRY_W(ch) / 10, (int) CAN_CARRY_W(ch) % 10,
+            IS_LIGHT_LOAD(ch) ? "light" : (IS_MEDIUM_LOAD(ch) ? "medium" : (IS_HEAVY_LOAD(ch) ? "heavy" : "over")));
+
+
+
+    if (subcmd == SCMD_SCORE_NUMBERS)
+    {
+        send_to_char(rec, "\r\n");
+        send_to_char(rec, "%s================================================================================@n\r\n", color1);
+        send_to_char(rec, "%s== %sName: %s%-20.20s %sGender: %s%-6.6s %sSize: %s%-6.6s %sDeity: %s%-12.12s %s==@n\r\n", color1, color3, color4, GET_NAME(ch), color3, color4, genders[(int)GET_SEX(ch)], color3, color4, size_names[get_size(ch)], color3, color4, deity_list[GET_DEITY(ch)].name, color1);
+        send_to_char(rec, "%s== %sTitle: %s%-67.67s %s==@n\r\n", color1, color3, color4, GET_TITLE(ch), color1);
+        send_to_char(rec, "%s== %sLevel: %s%2d %sRace: %s%-20.20s %sAccount Exp: %s%-8d %sGift: %s%-8d  %s==@n\r\n", color1, color3, color4, GET_LEVEL(ch), color3, color4, pc_race_types[GET_RACE(ch)], color3, color4, IS_NPC(ch) ? 0 : ch->desc->account->experience, color3, color4, IS_NPC(ch) ? 0 : ch->desc->account->gift_experience, color1);
+        send_to_char(rec, "%s== %sClasses: %s%-66.66s%s==@n\r\n", color1, color3, color4, class_desc_str(ch, 1, 0), color1);
+        send_to_char(rec, "%s== %sAge: %s%2d%sy %s%2d%sm Height: %s%2d%s\'%s%2d%s\" Weight: %s%3d %slbs. Alignment: %s%-18.18s %s==@n\r\n", color1, color3,
+                     color4, age(ch)->year, color3, color4, age(ch)->month, color3, color4, (GET_HEIGHT(ch) / 30), color3, color4, ((GET_HEIGHT(ch) % 30) / 5 * 2),
+                     color3, color4, (GET_WEIGHT(ch) * 22 / 10), color3, color4, alignments[ALIGN_TYPE(ch)], color1);
+        send_to_char(rec, "%s================================================================================@n\r\n", color1);
+        send_to_char(rec, "%s== %sStrength     : %s%-15.15s %s== %sHit Points   : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_STR(ch), desc_buf), color1, color3, color4, hp_text, color1);
+        send_to_char(rec, "%s== %sConstitution : %s%-15.15s %s== %sMove Points  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_CON(ch), desc_buf), color1, color3, color4, mv_text, color1);
+        send_to_char(rec, "%s== %sDexterity    : %s%-15.15s %s== %sBase Attack  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_DEX(ch), desc_buf), color1, color3, color4, offense_text(GET_BAB(ch), desc_buf + 100), color1);
+        send_to_char(rec, "%s== %sIntelligence : %s%-15.15s %s== %sArmor Class  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_INT(ch), desc_buf), color1, color3, color4, defense_text(compute_armor_class(ch, NULL), desc_buf + 100), color1);
+        send_to_char(rec, "%s== %sWisdom       : %s%-15.15s %s== %sEncumbrance  : %s%-25.25s %s==@n\r\n", color1, color3, color4, attribute_text(GET_WIS(ch), desc_buf), color1, color3, color4, enc_text, color1);
+        send_to_char(rec, "%s== %sCharisma     : %s%-15.15s %s== %sAttacks      : %s%-27.27s %s==@n\r\n", color1, color3, color4, attribute_text(GET_CHA(ch), desc_buf), color1, color3, color4, attack_text, color1);
+        send_to_char(rec, "%s== %sReflex       : %s%-15.15s %s== %sPlay Time    : %s%-25.25s %s==@n\r\n", color1, color3, color4, saving_throw_text(get_saving_throw_value(ch, SAVING_REFLEX), desc_buf), color1, color3, color4, play_time, color1);
+        send_to_char(rec, "%s== %sFortitude    : %s%-15.15s %s== %sMoney        : %s%-25.25s %s==@n\r\n", color1, color3, color4, saving_throw_text(get_saving_throw_value(ch, SAVING_FORTITUDE), desc_buf), color1, color3, color4, coin_text, color1);
+        send_to_char(rec, "%s== %sWillpower    : %s%-15.15s %s== %sExperience   : %s%-25.25s %s==@n\r\n", color1, color3, color4, saving_throw_text(get_saving_throw_value(ch, SAVING_WILL), desc_buf), color1, color3, color4, exp_percent, color1);
+        send_to_char(rec, "%s================================================================================@n\r\n", color1);
+        send_to_char(rec, "%s== %sFeats: %s%1d  %s==   %sClass Feats: %s%1d  %s==  %sSkill Points: %s%2d  %s==  %sAbility Trains: %s%1d %s==@n\r\n", color1, color3, color4, GET_FEAT_POINTS(ch), color1, color3, color4, GET_CLASS_FEATS(ch, GET_CLASS(ch)), color1, color3, color4, GET_PRACTICES(ch, GET_CLASS(ch)), color1, color3, color4, GET_TRAINS(ch), color1);
+        if (IS_EPIC(ch))
+            send_to_char(rec, "%s== %sEpic Feats %s%1d   %sEpic Class Feats: %s%1d                                         %s==@n\r\n", color1, color3, color4, GET_EPIC_FEAT_POINTS(ch), color3, color4, GET_EPIC_CLASS_FEATS(ch, GET_CLASS(ch)), color1);
+        send_to_char(rec, "%s================================================================================@n\r\n", color1);
+        send_to_char(rec, "%s== %sQuest Points: %s[%6d] %sCompleted Quests %s[%3d]                              %s==@n\r\n", color1,  color3, color4, GET_QUESTPOINTS(ch), color3, color4, GET_NUM_QUESTS(ch), color1);
+        if (GET_MAX_MANA(ch) > 0)
+            send_to_char(rec, "%s== %sMetamagic Points: %s%3d\\%3d                                                  %s==@n\r\n", color1,  color3, color4, GET_MANA(ch), GET_MAX_MANA(ch), color1);
+        if (GET_RESEARCH_TOKENS(ch))
+            send_to_char(rec, "%s== %sResearch Tokens: %s%2d                                                        %s==@n\r\n", color1,  color3, color4, GET_RESEARCH_TOKENS(ch), color1);
+        if (get_spell_resistance(ch))
+            send_to_char(rec, "%s== %sSpell Resistance: %s%2d                                                       %s==@n\r\n", color1,  color3, color4,
+                         get_spell_resistance(ch), color1);
+        if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0)
+            send_to_char(rec, "%s== %sBard Songs: %s%2d                                                             %s==@n\r\n", color1,  color3, color4,
+                         GET_BARD_SONGS(ch), color1);
+        if (ch->damreduct)
+            for (reduct = ch->damreduct; reduct; reduct = reduct->next)
+                send_to_char(ch, "%s== %sDamage Reduction: %s%-30.30s                           %s==@n\r\n", color1, color3, color4, reduct_desc(ch, reduct), color1);
+        send_to_char(rec, "%s================================================================================@n\r\n", color1);
+        send_to_char(rec, "\r\n");
+        if (ch->mentor_level > 0)
+        {
+            send_to_char(rec, "@YYou are mentoring at level %d.\r\n", ch->mentor_level);
+            send_to_char(rec, "\r\n");
+        }
+    }
+    else
+    {
+        send_to_char(rec, "\r\n");
+        send_to_char(rec, "You are @Y%s@n.\r\n", GET_TITLE(ch));
+        send_to_char(rec, "@Y%s@n is a level @Y%d@n %s@n\r\n", GET_NAME(ch), GET_CLASS_LEVEL(ch), class_desc_str(ch, 2, 0));
+        send_to_char(rec, "You are @Y%s@n.\r\n", current_short_desc(rec));
+        send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum health points.\r\n", GET_HIT(ch), GET_MAX_HIT(ch));
+        send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum stamina points.\r\n", GET_MOVE(ch), GET_MAX_MOVE(ch));
+        if (GET_MAX_MANA(ch) > 0)
+        {
+            send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum metamagic points.\r\n", GET_MANA(ch), GET_MAX_MANA(ch));
+        }
+        if (GET_MAX_KI(rec) > 0 && GET_CLASS_RANKS(ch, CLASS_MONK) > 0)
+        {
+            send_to_char(rec, "You have @Y%d@n of @Y%d@n maximum ki points.\r\n", GET_KI(ch), GET_MAX_KI(ch));
+        }
+        send_to_char(rec, "Your alignment is @Y%s@n.\r\n", alignments[ALIGN_TYPE(ch)]);
+        if (GET_SUBGUILD(ch) == GUILD_OPERATIVES)
+            send_to_char(rec, "Your false alignment is @Y%s@n.\r\n", alignments[FALSE_ALIGN_TYPE(ch)]);
+        if (GET_GUILD(ch) != GUILD_UNDEFINED)
+            send_to_char(rec, "Your guild is @Y%s@n.\r\n", guild_names[GET_GUILD(ch)]);
+        if (GET_SUBGUILD(ch) != GUILD_UNDEFINED)
+            send_to_char(rec, "Your subguild is @Y%s@n.\r\n", guild_names[GET_SUBGUILD(ch)]);
+        if(GET_CLAN(ch) > CLAN_NONE)
+            send_to_char(rec,   "Clan : @Y%s (%s)@n\r\nClan Rank : @Y%s%s@n\r\n",
+                         get_blank_clan_name(GET_CLAN(ch)), get_clan_name(GET_CLAN(ch)),
+                         get_rank_name(GET_CLAN(ch), GET_CLAN_RANK(ch)), "@n");
+        send_to_char(rec, "%s is a follower of @Y%s@n.\r\n", GET_NAME(ch), deity_list[GET_DEITY(ch)].name);
+        send_to_char(rec, "Your strength is @Y%s @M%s@n.\r\n", attribute_text(GET_STR(ch), stat_buf), attribute_text_desc(GET_STR(ch), desc_buf));
+        send_to_char(rec, "Your dexterity is @Y%s @M%s@n.\r\n", attribute_text(GET_DEX(ch), stat_buf), attribute_text_desc(GET_DEX(ch), desc_buf));
+        send_to_char(rec, "Your constitution is @Y%s @M%s@n.\r\n", attribute_text(GET_CON(ch), stat_buf), attribute_text_desc(GET_CON(ch), desc_buf));
+        send_to_char(rec, "Your intelligence is @Y%s @M%s@n.\r\n", attribute_text(GET_INT(ch), stat_buf), attribute_text_desc(GET_INT(ch), desc_buf));
+        send_to_char(rec, "Your wisdom is @Y%s @M%s@n.\r\n", attribute_text(GET_WIS(ch), stat_buf), attribute_text_desc(GET_WIS(ch), desc_buf));
+        send_to_char(rec, "Your charisma is @Y%s @M%s@n.\r\n", attribute_text(GET_CHA(ch), stat_buf), attribute_text_desc(GET_CHA(ch), desc_buf));
+        send_to_char(rec, "Your fortitude is @Y%s @C%s@n.\r\n",
+                     saving_throw_text(get_saving_throw_value(ch, SAVING_FORTITUDE), stat_buf),
+                     saving_throw_text_desc(get_saving_throw_value(ch, SAVING_FORTITUDE), desc_buf));
+        send_to_char(rec, "Your reflexes are @Y%s @C%s@n.\r\n",
+                     saving_throw_text(get_saving_throw_value(ch, SAVING_REFLEX), stat_buf),
+                     saving_throw_text_desc(get_saving_throw_value(ch, SAVING_REFLEX), desc_buf));
+        send_to_char(rec, "Your willpower is @Y%s @C%s@n.\r\n",
+                     saving_throw_text(get_saving_throw_value(ch, SAVING_WILL), stat_buf),
+                     saving_throw_text_desc(get_saving_throw_value(ch, SAVING_WILL), desc_buf));
+        send_to_char(rec, "Your current movement speed is @Y%d@n feet per round.\r\n", get_speed(ch));
+        send_to_char(rec, "Your current base attack bonus is @Y%s @G%s@n.\r\n",
+                     offense_text(GET_BAB(ch), stat_buf),
+                     offense_text_desc(GET_BAB(ch), desc_buf));
+        send_to_char(rec, "Your current CMB is @Y%s @G%s @n and your CMD is @Y%d.%d @G%s@n.\r\n",
+                     offense_text(get_combat_bonus(ch), stat_buf),
+                     offense_text_desc(get_combat_bonus(ch), desc_buf),
+                     get_combat_defense(ch) / 10,  get_combat_defense(ch) % 10,
+                     defense_text_desc(get_combat_defense(ch), desc_buf));
+
+        send_to_char(rec, "Your attacks with your current weapon are @G%s@n.\r\n", attack_text);
+        send_to_char(rec, "Your average weapon damage (only) per hit is @G%d@n for your main hand and @G%d@n for your offhand.\r\n",
+                     GET_EQ(ch, WEAR_WIELD) ? get_average_damage(ch, GET_EQ(ch, WEAR_WIELD)) : 0,
+                     (GET_EQ(ch, WEAR_HOLD) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_HOLD)) == ITEM_WEAPON) ? get_average_damage(ch, GET_EQ(ch, WEAR_HOLD)) : 0);
+        send_to_char(rec, "Your current armor class is @Y%s @G%s@n.\r\n",
+                     defense_text(compute_armor_class(ch, NULL), stat_buf),
+                     defense_text_desc(compute_armor_class(ch, NULL), desc_buf));
+        send_to_char(rec, "You have @Y%d@n quest points accumulated.\r\n", GET_QUESTPOINTS(rec));
+        send_to_char(rec, "Awarded Account Experience: @Y%d@n / Gift Account Experience: @Y%d@n\r\n",
+                     IS_NPC(ch) ? 0 : ch->desc->account->experience,
+                     IS_NPC(ch) ? 0 : ch->desc->account->gift_experience);
+        send_to_char(rec, "You are @Y%d@n years and @Y%d@n months old.\r\n", age(ch)->year, age(ch)->month);
+        send_to_char(rec, "You have played for @Y%d@n days, @Y%d@n hours and @Y%d@n minutes.\r\n", (int) rec->time.played / 3600 / 24,
+                     ((int)rec->time.played / 3600) % 24, (int)((rec->time.played % 3600) / 60));
+        if (!IS_NPC(rec))
+        {
+            char buf1[64] = {'\0'};
+            strftime(buf1, sizeof(buf1), "%B %d %Y (%T)", localtime(&(rec->time.created)));
+            send_to_char(rec, "Your character was created on @Y%s@n.\r\n", buf1);
+        }
+        send_to_char(rec, "You have @Y%d@n gold coins and @Y%d@n more in the bank.\r\n", GET_GOLD(ch), GET_BANK_GOLD(ch));
+        send_to_char(rec, "You have @Y%d@n experience, which is @Y%d.%d%%@n of what you need for level @Y%d@n.\r\n", GET_EXP(ch), int_xp, int_percent, GET_CLASS_LEVEL(ch) + 1);
+        if (ch->mentor_level > 0)
+        {
+            send_to_char(rec, "@YYou are mentoring at level %d.\r\n", ch->mentor_level);
+            send_to_char(rec, "\r\n");
+        }
+        send_to_char(rec, "  See @YSTATS@n for more detailed statistics.\r\n");
+        send_to_char(rec, "\r\n");
+    }
+
+    UNUSED(grace);
 }
 
 ACMD(do_old_score)
