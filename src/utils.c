@@ -33,6 +33,7 @@
 // local globals
 
 long times_harvested[1000000];
+#define UNUSED(x) (void)(x);
 
 /* external globals */
 extern struct time_data time_info;
@@ -1396,6 +1397,13 @@ void convert_coins(struct char_data *ch)
         coins %= 10;
 
         copper = coins;
+
+        UNUSED(adamantine);
+        UNUSED(mithril);
+        UNUSED(steel);
+        UNUSED(bronze);
+        UNUSED(copper);
+
 
     }
 
@@ -3497,49 +3505,42 @@ int calc_summoner_level(struct char_data *ch, int ch_class)
 
 char *do_lower(char *buf)
 {
-    char rVal[MSL] = {'\0'};
-    int i = 0, rLength = 0;
-    if(buf[0] == '\0')
+    if (buf[0] == '\0')
     {
         return NULL;
     }
-    rLength = strlen(buf);
-    for(i = 0; i <= rLength; i++)
-        rVal[i] = tolower(buf[i]);
 
-    return (buf = rVal);
+    size_t length = strlen(buf);
+    
+    for (size_t i = 0; i < length; i++)
+    {
+        buf[i] = tolower((unsigned char)buf[i]);
+    }
+
+    return buf;
 }
+
 
 char *do_upper(char *buf, bool do_all)
 {
-    char rVal[MSL] = {'\0'};
-    int i = 0, rLength = 0;
-    if(buf[0] == '\0')
+    if (buf[0] == '\0')
     {
         return NULL;
     }
-    if(do_all == TRUE)
+
+    size_t length = strlen(buf);
+
+    for (size_t i = 0; i < length; ++i)
     {
-        rLength = strlen(buf);
-        for(i = 0; i <= rLength; i++)
-            rVal[i] = toupper(buf[i]);
-    }
-    else
-    {
-        rLength = strlen(buf);
-        for(i = 0; i <= rLength; i++)
+        if (do_all || i == 0 || isspace(buf[i - 1]))
         {
-            if( i == 0) // First word is always Upper Case
-                rVal[i] = toupper(buf[i]);
-            else if( isspace(buf[i - 1])) // Checks to see if the last character was a whitespace character. If so it will make the current one caps.
-                rVal[i] = toupper(buf[i]);
-            else
-                rVal[i] = buf[i];
+            buf[i] = toupper(buf[i]);
         }
     }
-    return (buf = rVal);
 
+    return buf;
 }
+
 
 void send_to_world(char *message)
 {
@@ -4159,122 +4160,135 @@ void fight_output(const char *str, struct char_data *ch, struct char_data *vict,
   }
 }
 
-void sendMSDP(struct descriptor_data *d) {
-  if (!d)
-    return;
-  if (!d->character)
-    return;
-  struct char_data *ch = d->character;
-  char val[200]={'\0'};
-  struct char_data *tch = NULL;
-  int gcnt = 0;
-  char var[200]={'\0'}, var2[200]={'\0'}, var3[200]={'\0'}, var4[200]={'\0'}, var5[200]={'\0'}, var6[200]={'\0'};
-  float xp = 0;
-  float percent = 0;
-  int int_xp = 0; // Groups
-  sprintf(val, "%d", GET_HIT(ch));
-  MSDPSendPair( d, "HEALTH", val);
-  sprintf(val, "%d", GET_MAX_HIT(ch));
-  MSDPSendPair( d, "MAX_HEALTH", val);
-  sprintf(val, "%d", GET_MANA(ch));
-  MSDPSendPair( d, "MANA", val);
-  sprintf(val, "%d", GET_MAX_MANA(ch));
-  MSDPSendPair( d, "MAX_MANA", val);
-  sprintf(val, "%d", GET_MOVE(ch));
-  MSDPSendPair( d, "MOVEMENT", val);
-  sprintf(val, "%d", GET_MAX_MOVE(ch));
-  MSDPSendPair( d, "MAX_MOVEMENT", val);
-  if (FIGHTING(ch)) {
-    sprintf(val, "%d", GET_HIT(FIGHTING(ch)) * 100 / GET_MAX_HIT(FIGHTING(ch)));
-    MSDPSendPair( d, "OPPONENT_HEALTH", val);
-    if (FIGHTING(FIGHTING(ch))) {
-      sprintf(val, "%d", GET_HIT(FIGHTING(FIGHTING(ch))));
-      MSDPSendPair( d, "TANK_HEALTH", val);
-      sprintf(val, "%d", GET_MAX_HIT(FIGHTING(FIGHTING(ch))));
-      MSDPSendPair( d, "TANK_MAX_HEALTH", val);
+void sendMSDP(struct descriptor_data *d) 
+{
+    if (!d)
+        return;
+    if (!d->character)
+        return;
+    struct char_data *ch = d->character;
+    char val[200] = {'\0'};
+    struct char_data *tch = NULL;
+    int gcnt = 0;
+    char var[200] = {'\0'}, var2[200] = {'\0'}, var3[200] = {'\0'}, var4[200] = {'\0'}, var5[200] = {'\0'}, var6[200] = {'\0'};
+    float xp = 0;
+    float percent = 0;
+    int int_xp = 0; // Groups
+    sprintf(val, "%d", GET_HIT(ch));
+    MSDPSendPair( d, "HEALTH", val);
+    sprintf(val, "%d", GET_MAX_HIT(ch));
+    MSDPSendPair( d, "MAX_HEALTH", val);
+    sprintf(val, "%d", GET_MANA(ch));
+    MSDPSendPair( d, "MANA", val);
+    sprintf(val, "%d", GET_MAX_MANA(ch));
+    MSDPSendPair( d, "MAX_MANA", val);
+    sprintf(val, "%d", GET_MOVE(ch));
+    MSDPSendPair( d, "MOVEMENT", val);
+    sprintf(val, "%d", GET_MAX_MOVE(ch));
+    MSDPSendPair( d, "MAX_MOVEMENT", val);
+    if (FIGHTING(ch))
+    {
+        sprintf(val, "%d", GET_HIT(FIGHTING(ch)) * 100 / GET_MAX_HIT(FIGHTING(ch)));
+        MSDPSendPair( d, "OPPONENT_HEALTH", val);
+        if (FIGHTING(FIGHTING(ch)))
+        {
+            sprintf(val, "%d", GET_HIT(FIGHTING(FIGHTING(ch))));
+            MSDPSendPair( d, "TANK_HEALTH", val);
+            sprintf(val, "%d", GET_MAX_HIT(FIGHTING(FIGHTING(ch))));
+            MSDPSendPair( d, "TANK_MAX_HEALTH", val);
+        }
+        else
+        {
+            sprintf(val, "0");
+            MSDPSendPair( d, "TANK_HEALTH", val);
+            MSDPSendPair( d, "TANK_MAX_HEALTH", val);
+        }
     }
-    else {
-      sprintf(val, "0");
-      MSDPSendPair( d, "TANK_HEALTH", val);
-      MSDPSendPair( d, "TANK_MAX_HEALTH", val);
+    else
+    {
+        sprintf(val, "0");
+        MSDPSendPair( d, "OPPONENT_HEALTH", val);
+        MSDPSendPair( d, "TANK_HEALTH", val);
+        MSDPSendPair( d, "TANK_MAX_HEALTH", val);
     }
-  }
-  else {
-    sprintf(val, "0");
-    MSDPSendPair( d, "OPPONENT_HEALTH", val);
-    MSDPSendPair( d, "TANK_HEALTH", val);
-    MSDPSendPair( d, "TANK_MAX_HEALTH", val);
-  }
-  tch = ch;
-  xp = (((float) GET_EXP(tch)) - ((float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch)))) /
-        (((float) level_exp((GET_CLASS_LEVEL(tch) + 1), GET_REAL_RACE(tch)) -
-        (float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch))));
-  xp *= (float) 1000.0;
-  percent = (int) xp % 10;
-  xp /= (float) 10;
-  int_xp = MAX(0, (int) xp);
-  sprintf(val, "%d", int_xp);
-  MSDPSendPair(d, "XP_TNL", val);
-  for (tch = character_list; tch; tch = tch->next) {
-    if (is_player_grouped(ch, tch)) {
-      gcnt++;
-      xp = (((float) GET_EXP(tch)) - ((float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch)))) /
-            (((float) level_exp((GET_CLASS_LEVEL(tch) + 1), GET_REAL_RACE(tch)) -
-            (float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch))));
-      xp *= (float) 1000.0;
-      percent = (int) xp % 10;
-      xp /= (float) 10;
-      int_xp = MAX(0, (int) xp);
-         
-     sprintf(var, "%s", GET_NAME(tch));
-     sprintf(var2, "%d", GET_HIT(tch));
-     sprintf(var3, "%d", GET_MAX_HIT(tch));
-     sprintf(var4, "%d", GET_MOVE(tch));
-     sprintf(var5, "%d", GET_MAX_MOVE(tch));
-     sprintf(var6, "%d", int_xp);
- 
-     if (gcnt == 1) {
-        MSDPSendPair( d, "GROUP1_NAME", var);
-        MSDPSendPair( d, "GROUP1_CUR_HP", var2);
-        MSDPSendPair( d, "GROUP1_MAX_HP", var3);
-        MSDPSendPair( d, "GROUP1_CUR_MV", var4);
-        MSDPSendPair( d, "GROUP1_MAX_MV", var5);
-        MSDPSendPair( d, "GROUP1_TNL", var6);
-      }
-      if (gcnt == 2) {
-        MSDPSendPair( d, "GROUP2_NAME", var);
-        MSDPSendPair( d, "GROUP2_CUR_HP", var2);
-        MSDPSendPair( d, "GROUP2_MAX_HP", var3);
-        MSDPSendPair( d, "GROUP2_CUR_MV", var4);
-        MSDPSendPair( d, "GROUP2_MAX_MV", var5);
-        MSDPSendPair( d, "GROUP2_TNL", var6);
-      }
-      if (gcnt == 3) {
-        MSDPSendPair( d, "GROUP3_NAME", var);
-        MSDPSendPair( d, "GROUP3_CUR_HP", var2);
-        MSDPSendPair( d, "GROUP3_MAX_HP", var3);
-        MSDPSendPair( d, "GROUP3_CUR_MV", var4);
-        MSDPSendPair( d, "GROUP3_MAX_MV", var5);
-        MSDPSendPair( d, "GROUP3_TNL", var6);
-      }
-      if (gcnt == 4) {
-        MSDPSendPair( d, "GROUP4_NAME", var);
-        MSDPSendPair( d, "GROUP4_CUR_HP", var2);
-        MSDPSendPair( d, "GROUP4_MAX_HP", var3);
-        MSDPSendPair( d, "GROUP4_CUR_MV", var4);
-        MSDPSendPair( d, "GROUP4_MAX_MV", var5);
-        MSDPSendPair( d, "GROUP4_TNL", var6);
-      }
-      if (gcnt == 5) {
-        MSDPSendPair( d, "GROUP5_NAME", var);
-        MSDPSendPair( d, "GROUP5_CUR_HP", var2);
-        MSDPSendPair( d, "GROUP5_MAX_HP", var3);
-        MSDPSendPair( d, "GROUP5_CUR_MV", var4);
-        MSDPSendPair( d, "GROUP5_MAX_MV", var5);
-        MSDPSendPair( d, "GROUP5_TNL", var6);
-      }
+    tch = ch;
+    xp = (((float) GET_EXP(tch)) - ((float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch)))) /
+         (((float) level_exp((GET_CLASS_LEVEL(tch) + 1), GET_REAL_RACE(tch)) -
+           (float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch))));
+    xp *= (float) 1000.0;
+    percent = (int) xp % 10;
+    xp /= (float) 10;
+    int_xp = MAX(0, (int) xp);
+    sprintf(val, "%d", int_xp);
+    MSDPSendPair(d, "XP_TNL", val);
+    for (tch = character_list; tch; tch = tch->next)
+    {
+        if (is_player_grouped(ch, tch))
+        {
+            gcnt++;
+            xp = (((float) GET_EXP(tch)) - ((float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch)))) /
+                 (((float) level_exp((GET_CLASS_LEVEL(tch) + 1), GET_REAL_RACE(tch)) -
+                   (float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch))));
+            xp *= (float) 1000.0;
+            percent = (int) xp % 10;
+            xp /= (float) 10;
+            int_xp = MAX(0, (int) xp);
+
+            sprintf(var, "%s", GET_NAME(tch));
+            sprintf(var2, "%d", GET_HIT(tch));
+            sprintf(var3, "%d", GET_MAX_HIT(tch));
+            sprintf(var4, "%d", GET_MOVE(tch));
+            sprintf(var5, "%d", GET_MAX_MOVE(tch));
+            sprintf(var6, "%d", int_xp);
+
+            if (gcnt == 1)
+            {
+                MSDPSendPair( d, "GROUP1_NAME", var);
+                MSDPSendPair( d, "GROUP1_CUR_HP", var2);
+                MSDPSendPair( d, "GROUP1_MAX_HP", var3);
+                MSDPSendPair( d, "GROUP1_CUR_MV", var4);
+                MSDPSendPair( d, "GROUP1_MAX_MV", var5);
+                MSDPSendPair( d, "GROUP1_TNL", var6);
+            }
+            if (gcnt == 2)
+            {
+                MSDPSendPair( d, "GROUP2_NAME", var);
+                MSDPSendPair( d, "GROUP2_CUR_HP", var2);
+                MSDPSendPair( d, "GROUP2_MAX_HP", var3);
+                MSDPSendPair( d, "GROUP2_CUR_MV", var4);
+                MSDPSendPair( d, "GROUP2_MAX_MV", var5);
+                MSDPSendPair( d, "GROUP2_TNL", var6);
+            }
+            if (gcnt == 3)
+            {
+                MSDPSendPair( d, "GROUP3_NAME", var);
+                MSDPSendPair( d, "GROUP3_CUR_HP", var2);
+                MSDPSendPair( d, "GROUP3_MAX_HP", var3);
+                MSDPSendPair( d, "GROUP3_CUR_MV", var4);
+                MSDPSendPair( d, "GROUP3_MAX_MV", var5);
+                MSDPSendPair( d, "GROUP3_TNL", var6);
+            }
+            if (gcnt == 4)
+            {
+                MSDPSendPair( d, "GROUP4_NAME", var);
+                MSDPSendPair( d, "GROUP4_CUR_HP", var2);
+                MSDPSendPair( d, "GROUP4_MAX_HP", var3);
+                MSDPSendPair( d, "GROUP4_CUR_MV", var4);
+                MSDPSendPair( d, "GROUP4_MAX_MV", var5);
+                MSDPSendPair( d, "GROUP4_TNL", var6);
+            }
+            if (gcnt == 5)
+            {
+                MSDPSendPair( d, "GROUP5_NAME", var);
+                MSDPSendPair( d, "GROUP5_CUR_HP", var2);
+                MSDPSendPair( d, "GROUP5_MAX_HP", var3);
+                MSDPSendPair( d, "GROUP5_CUR_MV", var4);
+                MSDPSendPair( d, "GROUP5_MAX_MV", var5);
+                MSDPSendPair( d, "GROUP5_TNL", var6);
+            }
+        }
     }
-  }
+    UNUSED(percent);
 }
 
 int combat_skill_roll(struct char_data *ch, int skillnum)
