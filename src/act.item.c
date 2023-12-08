@@ -2058,47 +2058,51 @@ void weight_change_object(struct obj_data *obj, int weight)
 
 void name_from_drinkcon(struct obj_data *obj)
 {
-  char *new_name, *cur_name, *next;
-  char *liqname;
-  int liqlen, cpylen;
+    char *new_name, *cur_name, *next;
+    char *liqname;
+    int liqlen, cpylen, new_name_len = 0;
 
-  if (!obj || (GET_OBJ_TYPE(obj) != ITEM_DRINKCON && GET_OBJ_TYPE(obj) != ITEM_FOUNTAIN))
-    return;
+    if (!obj || (GET_OBJ_TYPE(obj) != ITEM_DRINKCON && GET_OBJ_TYPE(obj) != ITEM_FOUNTAIN))
+        return;
 
-  liqname = (char *) drinknames[GET_OBJ_VAL(obj, VAL_DRINKCON_LIQUID)];
-  if (!isname(liqname, obj->name)) {
-    log("SYSERR: Can't remove liquid '%s' from '%s' (%d) item.", liqname, obj->name, obj->item_number);
-    /*  SYSERR_DESC:
-     *  From name_from_drinkcon(), this error comes about if the object
-     *  noted (by keywords and item vnum) does not contain the liquid string
-     *  being searched for.
-     */
-    return;
-  }
+    liqname = (char *) drinknames[GET_OBJ_VAL(obj, VAL_DRINKCON_LIQUID)];
+    if (!isname(liqname, obj->name))
+    {
+        log("SYSERR: Can't remove liquid '%s' from '%s' (%d) item.", liqname, obj->name, obj->item_number);
+        return;
+    }
 
-  liqlen = strlen(liqname);
-  CREATE(new_name, char, strlen(obj->name) - strlen(liqname)); /* +1 for NUL, -1 for space */
+    liqlen = strlen(liqname);
+    new_name_len = strlen(obj->name) - liqlen;
+    CREATE(new_name, char, new_name_len + 1); // +1 for NUL
 
-  for (cur_name = obj->name; cur_name; cur_name = next) {
-    if (*cur_name == ' ')
-      cur_name++;
+    for (cur_name = obj->name; cur_name; cur_name = next)
+    {
+        if (*cur_name == ' ')
+            cur_name++;
 
-    if ((next = strchr(cur_name, ' ')))
-      cpylen = next - cur_name;
-    else
-      cpylen = strlen(cur_name);
+        if ((next = strchr(cur_name, ' ')))
+            cpylen = next - cur_name;
+        else
+            cpylen = strlen(cur_name);
 
-    if (!strn_cmp(cur_name, liqname, liqlen))
-      continue;
+        if (!strn_cmp(cur_name, liqname, liqlen))
+            continue;
 
-    if (*new_name)
-      strcat(new_name, " ");	/* strcat: OK (size precalculated) */
-    strncat(new_name, cur_name, cpylen);	/* strncat: OK (size precalculated) */
-  }
+        if (*new_name)
+            new_name[new_name_len++] = ' ';
 
-  if (GET_OBJ_RNUM(obj) == NOTHING || obj->name != obj_proto[GET_OBJ_RNUM(obj)].name)
-    free(obj->name);
-  obj->name = new_name;
+        // Use memcpy instead of strncpy
+        memcpy(new_name + new_name_len, cur_name, cpylen);
+        new_name_len += cpylen;
+    }
+
+    // Null-terminate the new_name buffer
+    new_name[new_name_len] = '\0';
+
+    if (GET_OBJ_RNUM(obj) == NOTHING || obj->name != obj_proto[GET_OBJ_RNUM(obj)].name)
+        free(obj->name);
+    obj->name = new_name;
 }
 
 
@@ -3971,3 +3975,4 @@ ACMD(do_binditem)
 
     send_to_char(ch, "%s has been successfully bound to you for %d %s.\r\n", (obj->short_description), cost, MONEY_STRING);
 }
+
