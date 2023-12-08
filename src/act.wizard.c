@@ -146,6 +146,8 @@ ACMD(do_wizupdate);
 ACMD(do_chown);
 void print_show_zone(struct char_data *ch, zone_rnum zone);
 
+#define UNUSED(x) (void)(x)
+
 ACMD(do_echo)
 {
   char logmsg[MAX_STRING_LENGTH]={'\0'};
@@ -928,274 +930,302 @@ void do_stat_object(struct char_data *ch, struct obj_data *j)
 
 void do_stat_character(struct char_data *ch, struct char_data *k)
 {
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  int i = 0, i2 = 0, column = 0, found = FALSE;
-  struct obj_data *j;
-  struct follow_type *fol;
-  struct affected_type *aff;
-  struct damreduct_type *reduct;
+    char buf[MAX_STRING_LENGTH] = {'\0'};
+    int i = 0, i2 = 0, column = 0, found = FALSE;
+    struct obj_data *j;
+    struct follow_type *fol;
+    struct affected_type *aff;
+    struct damreduct_type *reduct;
 
 
-  if (!IS_NPC(k))
-    send_to_char(ch, "Account Name: %s\r\n", GET_ACCOUNT_NAME(k));
-  sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
-  send_to_char(ch, "%s %s '%s'  IDNum: [%5ld], In room [%5d], Loadroom : [%5d]\r\n",
-	  buf, (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
-	  GET_NAME(k), IS_NPC(k) ? GET_ID(k) : GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)), IS_NPC(k) ? 0 : GET_LOADROOM(k));
+    if (!IS_NPC(k))
+        send_to_char(ch, "Account Name: %s\r\n", GET_ACCOUNT_NAME(k));
+    sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
+    send_to_char(ch, "%s %s '%s'  IDNum: [%5ld], In room [%5d], Loadroom : [%5d]\r\n",
+                 buf, (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
+                 GET_NAME(k), IS_NPC(k) ? GET_ID(k) : GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)), IS_NPC(k) ? 0 : GET_LOADROOM(k));
 
-  //if (IS_MOB(k))
+    //if (IS_MOB(k))
     //send_to_char(ch, "Alias: %s, VNum: [%5d], RNum: [%5d]\r\n", k->name, GET_MOB_VNUM(k), GET_MOB_RNUM(k));
 
-  if (IS_MOB(k)) {
-    if (k->master_id > -1)
-      sprintf(buf, ", Master: %s", get_name_by_id(k->master_id));
+    if (IS_MOB(k))
+    {
+        if (k->master_id > -1)
+            sprintf(buf, ", Master: %s", get_name_by_id(k->master_id));
+        else
+            buf[0] = 0;
+        send_to_char(ch, "Alias: %s, VNum: [%5d], RNum: [%5d]%s\r\n", k->name,
+                     GET_MOB_VNUM(k), GET_MOB_RNUM(k), buf);
+    }
     else
-      buf[0] = 0;
-    send_to_char(ch, "Alias: %s, VNum: [%5d], RNum: [%5d]%s\r\n", k->name,
-                 GET_MOB_VNUM(k), GET_MOB_RNUM(k), buf);
-  } else
 
-  send_to_char(ch, "Title: %s\r\n", k->title ? k->title : "<None>");
+        send_to_char(ch, "Title: %s\r\n", k->title ? k->title : "<None>");
 
-  send_to_char(ch, "L-Des: %s", k->long_descr ? k->long_descr : "<None>\r\n");
-  if (CONFIG_ALLOW_MULTICLASS) {
-    strncpy(buf, class_desc_str(k, 1, 0), sizeof(buf));
-  } else {
-    sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core), buf, sizeof(buf));
-  }
-  send_to_char(ch, "Class: %s, Race: %s, Lev: [@y%2d(%dHD+%dcl+%d)@n], XP: [@y%7d@n]\r\n",
-                   buf, race_list[GET_RACE(k)].type, GET_LEVEL(k), GET_HITDICE(k),
-                   GET_CLASS_LEVEL(k), GET_LEVEL_ADJ(k), GET_EXP(k));
-
-  if (!IS_NPC(k)) 
-  {
-    char buf1[64]={'\0'}, buf2[64]={'\0'};
-
-    strftime(buf1, sizeof(buf1), "%a %b %d %Y", localtime(&(k->time.created)));
-    strftime(buf2, sizeof(buf2), "%a %b %d %Y", localtime(&(k->time.logon)));
-
-    // send_to_char(ch, "Created: [%s], Last Logon: [%s], Played [%dh %dm], Age [%d]\r\n",
-	   //  buf1, buf2, k->time.played / 3600, (k->time.played % 3600) / 60, age(k)->year);
-
-    send_to_char(ch, "Created: [%s], Last Logon: [%s]\r\n", buf1, buf2);
-
-    send_to_char(ch, "Hometown: [%d], Align: [%4d], Ethic: [%4d]", GET_HOME(k),
-                 GET_ALIGNMENT(k), GET_ETHIC_ALIGNMENT(k));
-
-
-    /*. Display OLC zone for immorts .*/
-    if (GET_ADMLEVEL(k) >= ADMLVL_BUILDER) {
-      if (GET_OLC_ZONE(k)==AEDIT_PERMISSION)
-        send_to_char(ch, ", OLC[@cActions@n]");
-      else if (GET_OLC_ZONE(k)==NOWHERE)
-        send_to_char(ch, ", OLC[@cOFF@n]");
-      else
-        send_to_char(ch, ", OLC: [@c%d@n]", GET_OLC_ZONE(k));
+    send_to_char(ch, "L-Des: %s", k->long_descr ? k->long_descr : "<None>\r\n");
+    if (CONFIG_ALLOW_MULTICLASS)
+    {
+        strncpy(buf, class_desc_str(k, 1, 0), sizeof(buf));
     }
-    send_to_char(ch, "\r\n");
-    if (k->desc && k->desc->account)
-      send_to_char(ch, "@GAccount Exp: [%d] GIft Exp: [%d]@n\r\n", k->desc->account->experience, k->desc->account->gift_experience);
-    send_to_char(ch, "Clan: %s@n, Clan Rank: %s@n\r\n",
-      get_clan_name(GET_CLAN(k)), get_rank_name(GET_CLAN(k), GET_CLAN_RANK(k)));
-
-  }
-  send_to_char(ch, "Str: [@c%d@n]  Int: [@c%d@n]  Wis: [@c%d@n]  "
-	  "Dex: [@c%d@n]  Con: [@c%d@n]  Cha: [@c%d@n]\r\n",
-	  GET_STR(k), GET_INT(k), GET_WIS(k), GET_DEX(k), GET_CON(k), GET_CHA(k));
-
-  send_to_char(ch, "Hit:[@g%d/%d+%d@n]  Mana:[@g%d/%d+%d@n]  Moves:[@g%d/%d+%d@n]  Ki: [@g%d/%d+%d@n]\r\n",
-	  GET_HIT(k), GET_MAX_HIT(k), hit_gain(k),
-	  GET_MANA(k), GET_MAX_MANA(k), mana_gain(k),
-	  GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k),
-	  GET_KI(k), GET_MAX_KI(k), ki_gain(k));
-
-  if (GET_ADMLEVEL(k))
-    send_to_char(ch, "Admin Level: [@y%d - %s@n]\r\n", GET_ADMLEVEL(k), admin_level_names[GET_ADMLEVEL(k)]);
-
-  send_to_char(ch, "Coins: [%9d], Bank: [%9d] (Total: %d)\r\n",
-	  GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
-
-  send_to_char(ch, "Armor: [%d (%+dsz%+ddx%+dcl)], Accuracy: [%2d%+d], Damage: [%2d], Saving throws: [%d/%d/%d]\r\n",
-	  compute_armor_class(k, NULL), get_size_bonus(get_size(k)) * 10,
-          ability_mod_value(GET_DEX(k)) * 10, class_armor_bonus(k), GET_ACCURACY_MOD(k),
-          get_size_bonus(get_size(k)), GET_DAMAGE_MOD(k), GET_SAVE_MOD(k, 0),
-          GET_SAVE_MOD(k, 1), GET_SAVE_MOD(k, 2));
-
-  send_to_char(ch, "Hit base: [%d(%+dbo%+dst)]\r\n", 
-          GET_ACCURACY_BASE(k), GET_ACCURACY_MOD(k), ability_mod_value(GET_STR(k)));
-
-  sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "Pos: %s, Fighting: %s", buf, FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
-
-  if (IS_NPC(k))
-    send_to_char(ch, ", Attack type: %s", attack_hit_text[(int) k->mob_specials.attack_type].singular);
-
-  if (k->desc) {
-    sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
-    send_to_char(ch, ", Connected: %s", buf);
-  }
-
-  if (IS_NPC(k)) {
-    sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
-    send_to_char(ch, ", Default position: %s\r\n", buf);
-    sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "NPC flags: @c%s@n\r\n", buf);
-  } else {
-    send_to_char(ch, ", Idle Timer (in tics) [%d]\r\n", k->timer);
-
-    sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "PLR: @c%s@n\r\n", buf);
-
-    sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
-    send_to_char(ch, "PRF: @g%s@n\r\n", buf);
-  }
-
-  if (IS_MOB(k))
-    send_to_char(ch, "Mob Spec-Proc: %s, NPC Bare Hand Dam: %dd%d\r\n",
-	    (mob_index[GET_MOB_RNUM(k)].func ? "Exists" : "None"),
-	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
-
-  for (i = 0, j = k->carrying; j; j = j->next_content, i++);
-  send_to_char(ch, "Carried: weight: %lld, items: %d; Items in: inventory: %d, ", IS_CARRYING_W(k), IS_CARRYING_N(k), i);
-
-  for (i = 0, i2 = 0; i < NUM_WEARS; i++)
-    if (GET_EQ(k, i))
-      i2++;
-  send_to_char(ch, "eq: %d\r\n", i2);
-
-  if (!IS_NPC(k))
-    send_to_char(ch, "Hunger: %d, Thirst: %d, Drunk: %d\r\n", GET_COND(k, FULL), GET_COND(k, THIRST), GET_COND(k, DRUNK));
-
-  column = send_to_char(ch, "Master is: %s, Followers are:", k->master ? GET_NAME(k->master) : "<none>");
-  if (!k->followers)
-    send_to_char(ch, " <none>\r\n");
-  else {
-    for (fol = k->followers; fol; fol = fol->next) {
-      column += send_to_char(ch, "%s %s", found++ ? "," : "", PERS(fol->follower, ch));
-      if (column >= 62) {
-        send_to_char(ch, "%s\r\n", fol->next ? "," : "");
-        found = FALSE;
-        column = 0;
-      }
+    else
+    {
+        sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core), buf, sizeof(buf));
     }
-    if (column != 0)
-      send_to_char(ch, "\r\n");
-  }
+    send_to_char(ch, "Class: %s, Race: %s, Lev: [@y%2d(%dHD+%dcl+%d)@n], XP: [@y%7d@n]\r\n",
+                 buf, race_list[GET_RACE(k)].type, GET_LEVEL(k), GET_HITDICE(k),
+                 GET_CLASS_LEVEL(k), GET_LEVEL_ADJ(k), GET_EXP(k));
 
-  send_to_char(ch, "Questpoints: [%d]    Screen [%dx%d]\r\n", GET_QUESTPOINTS(k), GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
-  send_to_char(ch, "RP Points: [%ld]      Artisan Exp: [%10.0f]\r\n", GET_RP_POINTS(k), get_artisan_exp(k));
+    if (!IS_NPC(k))
+    {
+        char buf1[64] = {'\0'}, buf2[64] = {'\0'};
 
-  if (k->hit_breakdown[0] || k->hit_breakdown[1]) 
-  {
-    if (k->hit_breakdown[0] && k->hit_breakdown[0][0] && k->dam_breakdown[0])
-      {
-        send_to_char(ch, "Primary attack: @y%s.@n", k->hit_breakdown[0]);
-    }
-      if (k->dam_breakdown[0])
-        send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[0], k->crit_breakdown[0] ? k->crit_breakdown[0] : "");
-      else
+        strftime(buf1, sizeof(buf1), "%a %b %d %Y", localtime(&(k->time.created)));
+        strftime(buf2, sizeof(buf2), "%a %b %d %Y", localtime(&(k->time.logon)));
+
+        // send_to_char(ch, "Created: [%s], Last Logon: [%s], Played [%dh %dm], Age [%d]\r\n",
+        //  buf1, buf2, k->time.played / 3600, (k->time.played % 3600) / 60, age(k)->year);
+
+        send_to_char(ch, "Created: [%s], Last Logon: [%s]\r\n", buf1, buf2);
+
+        send_to_char(ch, "Hometown: [%d], Align: [%4d], Ethic: [%4d]", GET_HOME(k),
+                     GET_ALIGNMENT(k), GET_ETHIC_ALIGNMENT(k));
+
+
+        /*. Display OLC zone for immorts .*/
+        if (GET_ADMLEVEL(k) >= ADMLVL_BUILDER)
+        {
+            if (GET_OLC_ZONE(k) == AEDIT_PERMISSION)
+                send_to_char(ch, ", OLC[@cActions@n]");
+            else if (GET_OLC_ZONE(k) == NOWHERE)
+                send_to_char(ch, ", OLC[@cOFF@n]");
+            else
+                send_to_char(ch, ", OLC: [@c%d@n]", GET_OLC_ZONE(k));
+        }
         send_to_char(ch, "\r\n");
-      send_to_char(ch, "Offhand attack: @y%s.@n", k->hit_breakdown[1]);
-      if (k->dam_breakdown[1])
-        send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[1],
-                     k->crit_breakdown[1] ? k->crit_breakdown[1] : "");
-      else
-        send_to_char(ch, "\r\n");
-  }
+        if (k->desc && k->desc->account)
+            send_to_char(ch, "@GAccount Exp: [%d] GIft Exp: [%d]@n\r\n", k->desc->account->experience, k->desc->account->gift_experience);
+        send_to_char(ch, "Clan: %s@n, Clan Rank: %s@n\r\n",
+                     get_clan_name(GET_CLAN(k)), get_rank_name(GET_CLAN(k), GET_CLAN_RANK(k)));
 
-  if (k->damreduct)
-    for (reduct = k->damreduct; reduct; reduct = reduct->next)
-      send_to_char(ch, "Damage reduction: @y%s@n\r\n", reduct_desc(k, reduct));
-
-  /* Showing the bitvector */
-  sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "AFF: @y%s@n\r\n", buf);
-
-
-  send_to_char(ch, "Quest Points: [%9d] Quests Completed: [%5d]\r\n",
-	    GET_QUESTPOINTS(ch), GET_NUM_QUESTS(ch));
-  if (GET_QUEST(ch) != NOTHING)
-    send_to_char(ch, "Current Quest: [%5d] Time Left: [%5d]\r\n",
-	   GET_QUEST(ch), GET_QUEST_TIME(ch));
-
-  /* Routine to show what spells a char is affected by */
-  if (k->affected) {
-    for (aff = k->affected; aff; aff = aff->next) {
-      send_to_char(ch, "SPL: (%3dhr) @c%-21s@n ", aff->duration + 1, skill_name(aff->type));
-
-      if (aff->modifier)
-	send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
-
-      if (aff->bitvector) {
-	if (aff->modifier)
-	  send_to_char(ch, ", ");
-
-	strcpy(buf, affected_bits[aff->bitvector]);
-        send_to_char(ch, "sets %s", buf);
-      }
-      send_to_char(ch, "\r\n");
     }
-  }
+    send_to_char(ch, "Str: [@c%d@n]  Int: [@c%d@n]  Wis: [@c%d@n]  "
+                 "Dex: [@c%d@n]  Con: [@c%d@n]  Cha: [@c%d@n]\r\n",
+                 GET_STR(k), GET_INT(k), GET_WIS(k), GET_DEX(k), GET_CON(k), GET_CHA(k));
 
-  /* Routine to show what spells a char is affectedv by */
-  if (k->affectedv) {
-    for (aff = k->affectedv; aff; aff = aff->next) {
-      send_to_char(ch, "SPL: (%3d rounds) @c%-21s@n ", aff->duration + 1, skill_name(aff->type));
+    send_to_char(ch, "Hit:[@g%d/%d+%d@n]  Mana:[@g%d/%d+%d@n]  Moves:[@g%d/%d+%d@n]  Ki: [@g%d/%d+%d@n]\r\n",
+                 GET_HIT(k), GET_MAX_HIT(k), hit_gain(k),
+                 GET_MANA(k), GET_MAX_MANA(k), mana_gain(k),
+                 GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k),
+                 GET_KI(k), GET_MAX_KI(k), ki_gain(k));
 
-      if (aff->modifier)
-        send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
+    if (GET_ADMLEVEL(k))
+        send_to_char(ch, "Admin Level: [@y%d - %s@n]\r\n", GET_ADMLEVEL(k), admin_level_names[GET_ADMLEVEL(k)]);
 
-      if (aff->bitvector) {
-        if (aff->modifier)
-          send_to_char(ch, ", ");
+    send_to_char(ch, "Coins: [%9d], Bank: [%9d] (Total: %d)\r\n",
+                 GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
 
-        strcpy(buf, affected_bits[aff->bitvector]);
-        send_to_char(ch, "sets %s", buf);
-      }
-      send_to_char(ch, "\r\n");
+    send_to_char(ch, "Armor: [%d (%+dsz%+ddx%+dcl)], Accuracy: [%2d%+d], Damage: [%2d], Saving throws: [%d/%d/%d]\r\n",
+                 compute_armor_class(k, NULL), get_size_bonus(get_size(k)) * 10,
+                 ability_mod_value(GET_DEX(k)) * 10, class_armor_bonus(k), GET_ACCURACY_MOD(k),
+                 get_size_bonus(get_size(k)), GET_DAMAGE_MOD(k), GET_SAVE_MOD(k, 0),
+                 GET_SAVE_MOD(k, 1), GET_SAVE_MOD(k, 2));
+
+    send_to_char(ch, "Hit base: [%d(%+dbo%+dst)]\r\n",
+                 GET_ACCURACY_BASE(k), GET_ACCURACY_MOD(k), ability_mod_value(GET_STR(k)));
+
+    sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
+    send_to_char(ch, "Pos: %s, Fighting: %s", buf, FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
+
+    if (IS_NPC(k))
+        send_to_char(ch, ", Attack type: %s", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+
+    if (k->desc)
+    {
+        sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
+        send_to_char(ch, ", Connected: %s", buf);
     }
-  }
 
- /* check mobiles for a script */
- if (IS_NPC(k)) {
-   do_sstat_character(ch, k);
-   if (SCRIPT_MEM(k)) {
-     struct script_memory *mem = SCRIPT_MEM(k);
-     send_to_char(ch, "Script memory:\r\n  Remember             Command\r\n");
-     while (mem) {
-       struct char_data *mc = find_char_n(mem->id);
-       if (!mc)
-         send_to_char(ch, "  ** Corrupted!\r\n");
-       else {
-         if (mem->cmd)
-           send_to_char(ch, "  %-20.20s%s\r\n",GET_NAME(mc),mem->cmd);
-         else
-           send_to_char(ch, "  %-20.20s <default>\r\n",GET_NAME(mc));
-       }
-     mem = mem->next;
-     }
-   }
- } else {
-   /* this is a PC, display their global variables */
-   if (k->script && k->script->global_vars) 
-   {
-     struct trig_var_data *tv;
-     char uname[MAX_INPUT_LENGTH]={'\0'};
-     void find_uid_name(char *uid, char *name, size_t nlen);
+    if (IS_NPC(k))
+    {
+        sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
+        send_to_char(ch, ", Default position: %s\r\n", buf);
+        sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
+        send_to_char(ch, "NPC flags: @c%s@n\r\n", buf);
+    }
+    else
+    {
+        send_to_char(ch, ", Idle Timer (in tics) [%d]\r\n", k->timer);
 
-     send_to_char(ch, "Global Variables:\r\n");
+        sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
+        send_to_char(ch, "PLR: @c%s@n\r\n", buf);
 
-     /* currently, variable context for players is always 0, so it is */
-     /* not displayed here. in the future, this might change */
-     for (tv = k->script->global_vars; tv; tv = tv->next) {
-       if (*(tv->value) == UID_CHAR) {
-         find_uid_name(tv->value, uname, sizeof(uname));
-         send_to_char(ch, "    %10s:  [UID]: %s\r\n", tv->name, uname);
-       } else
-         send_to_char(ch, "    %10s:  %s\r\n", tv->name, tv->value);
-     }
-   }
- }
+        sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
+        send_to_char(ch, "PRF: @g%s@n\r\n", buf);
+    }
+
+    if (IS_MOB(k))
+        send_to_char(ch, "Mob Spec-Proc: %s, NPC Bare Hand Dam: %dd%d\r\n",
+                     (mob_index[GET_MOB_RNUM(k)].func ? "Exists" : "None"),
+                     k->mob_specials.damnodice, k->mob_specials.damsizedice);
+
+    for (i = 0, j = k->carrying; j; j = j->next_content, i++);
+    send_to_char(ch, "Carried: weight: %lld, items: %d; Items in: inventory: %d, ", IS_CARRYING_W(k), IS_CARRYING_N(k), i);
+
+    for (i = 0, i2 = 0; i < NUM_WEARS; i++)
+        if (GET_EQ(k, i))
+            i2++;
+    send_to_char(ch, "eq: %d\r\n", i2);
+
+    if (!IS_NPC(k))
+        send_to_char(ch, "Hunger: %d, Thirst: %d, Drunk: %d\r\n", GET_COND(k, FULL), GET_COND(k, THIRST), GET_COND(k, DRUNK));
+
+    column = send_to_char(ch, "Master is: %s, Followers are:", k->master ? GET_NAME(k->master) : "<none>");
+    if (!k->followers)
+        send_to_char(ch, " <none>\r\n");
+    else
+    {
+        for (fol = k->followers; fol; fol = fol->next)
+        {
+            column += send_to_char(ch, "%s %s", found++ ? "," : "", PERS(fol->follower, ch));
+            if (column >= 62)
+            {
+                send_to_char(ch, "%s\r\n", fol->next ? "," : "");
+                found = FALSE;
+                column = 0;
+            }
+        }
+        if (column != 0)
+            send_to_char(ch, "\r\n");
+    }
+
+    send_to_char(ch, "Questpoints: [%d]    Screen [%dx%d]\r\n", GET_QUESTPOINTS(k), GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
+    send_to_char(ch, "RP Points: [%ld]      Artisan Exp: [%10.0f]\r\n", GET_RP_POINTS(k), get_artisan_exp(k));
+
+    if (k->hit_breakdown[0] || k->hit_breakdown[1])
+    {
+        if (k->hit_breakdown[0] && k->hit_breakdown[0][0] && k->dam_breakdown[0])
+        {
+            send_to_char(ch, "Primary attack: @y%s.@n", k->hit_breakdown[0]);
+        }
+        if (k->dam_breakdown[0])
+            send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[0], k->crit_breakdown[0] ? k->crit_breakdown[0] : "");
+        else
+            send_to_char(ch, "\r\n");
+        send_to_char(ch, "Offhand attack: @y%s.@n", k->hit_breakdown[1]);
+        if (k->dam_breakdown[1])
+            send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[1],
+                         k->crit_breakdown[1] ? k->crit_breakdown[1] : "");
+        else
+            send_to_char(ch, "\r\n");
+    }
+
+    if (k->damreduct)
+        for (reduct = k->damreduct; reduct; reduct = reduct->next)
+            send_to_char(ch, "Damage reduction: @y%s@n\r\n", reduct_desc(k, reduct));
+
+    /* Showing the bitvector */
+    sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
+    send_to_char(ch, "AFF: @y%s@n\r\n", buf);
+
+
+    send_to_char(ch, "Quest Points: [%9d] Quests Completed: [%5d]\r\n",
+                 GET_QUESTPOINTS(ch), GET_NUM_QUESTS(ch));
+    if (GET_QUEST(ch) != NOTHING)
+        send_to_char(ch, "Current Quest: [%5d] Time Left: [%5d]\r\n",
+                     GET_QUEST(ch), GET_QUEST_TIME(ch));
+
+    /* Routine to show what spells a char is affected by */
+    if (k->affected)
+    {
+        for (aff = k->affected; aff; aff = aff->next)
+        {
+            send_to_char(ch, "SPL: (%3dhr) @c%-21s@n ", aff->duration + 1, skill_name(aff->type));
+
+            if (aff->modifier)
+                send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
+
+            if (aff->bitvector)
+            {
+                if (aff->modifier)
+                    send_to_char(ch, ", ");
+
+                strcpy(buf, affected_bits[aff->bitvector]);
+                send_to_char(ch, "sets %s", buf);
+            }
+            send_to_char(ch, "\r\n");
+        }
+    }
+
+    /* Routine to show what spells a char is affectedv by */
+    if (k->affectedv)
+    {
+        for (aff = k->affectedv; aff; aff = aff->next)
+        {
+            send_to_char(ch, "SPL: (%3d rounds) @c%-21s@n ", aff->duration + 1, skill_name(aff->type));
+
+            if (aff->modifier)
+                send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
+
+            if (aff->bitvector)
+            {
+                if (aff->modifier)
+                    send_to_char(ch, ", ");
+
+                strcpy(buf, affected_bits[aff->bitvector]);
+                send_to_char(ch, "sets %s", buf);
+            }
+            send_to_char(ch, "\r\n");
+        }
+    }
+
+    /* check mobiles for a script */
+    if (IS_NPC(k))
+    {
+        do_sstat_character(ch, k);
+        if (SCRIPT_MEM(k))
+        {
+            struct script_memory *mem = SCRIPT_MEM(k);
+            send_to_char(ch, "Script memory:\r\n  Remember             Command\r\n");
+            while (mem)
+            {
+                struct char_data *mc = find_char_n(mem->id);
+                if (!mc)
+                    send_to_char(ch, "  ** Corrupted!\r\n");
+                else
+                {
+                    if (mem->cmd)
+                        send_to_char(ch, "  %-20.20s%s\r\n", GET_NAME(mc), mem->cmd);
+                    else
+                        send_to_char(ch, "  %-20.20s <default>\r\n", GET_NAME(mc));
+                }
+                mem = mem->next;
+            }
+        }
+    }
+    else
+    {
+        /* this is a PC, display their global variables */
+        if (k->script && k->script->global_vars)
+        {
+            struct trig_var_data *tv;
+            char uname[MAX_INPUT_LENGTH] = {'\0'};
+            void find_uid_name(char *uid, char *name, size_t nlen);
+
+            send_to_char(ch, "Global Variables:\r\n");
+
+            /* currently, variable context for players is always 0, so it is */
+            /* not displayed here. in the future, this might change */
+            for (tv = k->script->global_vars; tv; tv = tv->next)
+            {
+                if (*(tv->value) == UID_CHAR)
+                {
+                    find_uid_name(tv->value, uname, sizeof(uname));
+                    send_to_char(ch, "    %10s:  [UID]: %s\r\n", tv->name, uname);
+                }
+                else
+                    send_to_char(ch, "    %10s:  %s\r\n", tv->name, tv->value);
+            }
+        }
+    }
 }
 
 
@@ -2443,6 +2473,8 @@ ACMD(do_wiznet)
     {
         send_to_char(ch, "%s", CONFIG_OK);
     }
+
+    UNUSED(any);
 }
 
 
@@ -4649,3 +4681,4 @@ ACMD(do_rebind)
 
     send_to_char(ch, "All bound items carried by %s have now been rebound to them.  (Items inside containers were skipped)\r\n", GET_NAME(vict));
 }
+

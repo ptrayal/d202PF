@@ -37,6 +37,8 @@ void free_command_list(void);
 char *which_desc(struct char_data *ch);
 int has_intro(struct char_data *ch, struct char_data *target);
 
+#define UNUSED(x) (void)(x)
+
 ACMD(do_action)
 {
     struct social_messg *action;
@@ -369,6 +371,10 @@ void boot_social_messages(void)
     fclose(fl);
     assert(curr_soc <= top_of_socialt);
     top_of_socialt = curr_soc;
+
+    UNUSED(itrash);
+    UNUSED(trash);
+
 }
 
 /* this function adds in the loaded socials and assigns them a command # */
@@ -480,6 +486,7 @@ char *fread_action(FILE *fl, int nr)
 
     buf[strlen(buf) - 1] = '\0';
     return (strdup(buf));
+    UNUSED(trash);
 }
 
 void free_social_messages(void) 
@@ -634,3 +641,4 @@ ACMD(do_gmote)
     }
     act(buf, false, ch, 0, vict, TO_GMOTE);
 }
+
