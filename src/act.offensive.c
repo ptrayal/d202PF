@@ -78,6 +78,8 @@ extern struct spell_info_type spell_info[];
 #define TYPE_WAND   3
 #define TYPE_STAFF  4
 
+#define UNUSED(x) (void)(x)
+
 
 /* local functions */
 ACMD(do_assist);
@@ -484,37 +486,44 @@ ACMD(do_flee)
 
     for (i = 0; i < 6; i++) 
     {
-        attempt = rand_number(0, NUM_OF_DIRS - 1);	
+        attempt = rand_number(0, NUM_OF_DIRS - 1);
         /* Select a random direction */
         if (CAN_GO(ch, attempt) && !ROOM_FLAGGED(EXIT(ch, attempt)->to_room, ROOM_DEATH)) 
         {
             struct char_data *tch;
-            for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
-            {
-                if (is_player_grouped(ch, tch) && !IS_NPC(tch))
-                {
-                    tch->exp_chain  = 0;
-                }
-            }
+
             act("$n panics, and attempts to flee!", TRUE, ch, 0, 0, TO_ROOM);
             was_fighting = FIGHTING(ch);
+
             if (do_simple_move(ch, attempt, TRUE)) 
             {
                 send_to_char(ch, "You flee head over heels.\r\n");
-                struct char_data *tch = NULL;
-                sbyte found = FALSE;
+
+                /* Clear exp_chain for grouped players in the room */
+                for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
+                {
+                    if (is_player_grouped(ch, tch) && !IS_NPC(tch))
+                    {
+                        tch->exp_chain = 0;
+                    }
+                }
+
+                /* Check if there are no more shared opponents in the room */
+                struct char_data *other_fighting = NULL;
                 for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room) 
                 {
                     if (FIGHTING(tch) == FIGHTING(ch) && tch != ch) 
                     {
-                        found = TRUE;
+                        other_fighting = tch;
                         break;
                     }
                 }
-                if (!found)
+
+                if (!other_fighting)
                 {
                     stop_fighting(FIGHTING(ch));
                 }
+
                 stop_fighting(ch);
             } 
             else 
@@ -524,8 +533,10 @@ ACMD(do_flee)
             return;
         }
     }
-    send_to_char(ch, "PANIC!  You couldn't escape!\r\n");
+    send_to_char(ch, "PANIC! You couldn't escape!\r\n");
+    UNUSED(was_fighting); // Address the warning about unused variable
 }
+
 
 void perform_disarm(struct char_data *ch, struct char_data *vict, int skillnum) {
 
@@ -610,53 +621,59 @@ void perform_disarm(struct char_data *ch, struct char_data *vict, int skillnum) 
         do_attack_of_opportunity(vict, ch, "Spring Attack");
       }
   }
+  UNUSED(success); // Address the warning about unused variable
 }
 
 ACMD(do_disarm)
 {
-  char arg[MAX_INPUT_LENGTH];
-  struct char_data *vict;
-  int success = FALSE;
+    char arg[MAX_INPUT_LENGTH];
+    struct char_data *vict;
+    int success = FALSE;
 
-  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
-    send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
-    return;
-  }
-
-  one_argument(argument, arg);
-
-  if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
-    if (FIGHTING(ch) && IN_ROOM(ch) == IN_ROOM(FIGHTING(ch)))
-      vict = FIGHTING(ch);
-    else {
-      send_to_char(ch, "Disarm who?\r\n");
-      return;
+    if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL))
+    {
+        send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
+        return;
     }
-  }
 
-  if (ch->combat_pos != vict->combat_pos) {
-    send_to_char(ch, "You are not close enough to attempt a disarm.\r\n");
-    return;
-  }
+    one_argument(argument, arg);
 
-  if (vict == ch) {
-    send_to_char(ch, "Try REMOVE and DROP instead...\r\n");
-    return;
-  }
+    if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)))
+    {
+        if (FIGHTING(ch) && IN_ROOM(ch) == IN_ROOM(FIGHTING(ch)))
+            vict = FIGHTING(ch);
+        else
+        {
+            send_to_char(ch, "Disarm who?\r\n");
+            return;
+        }
+    }
 
-  perform_disarm(ch, vict, SKILL_COMBAT_TACTICS);
+    if (ch->combat_pos != vict->combat_pos)
+    {
+        send_to_char(ch, "You are not close enough to attempt a disarm.\r\n");
+        return;
+    }
 
-  if (!GET_ADMLEVEL(ch) >= ADMLVL_IMMORT)
-    WAIT_STATE(ch, CONFIG_PULSE_VIOLENCE * 2);	
+    if (vict == ch)
+    {
+        send_to_char(ch, "Try REMOVE and DROP instead...\r\n");
+        return;
+    }
 
-  
-  struct char_data *tch;
-  for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
-    if (is_player_grouped(ch, tch) && !IS_NPC(tch) && FIGHTING(tch) == NULL)
-      tch->exp_chain = 0;
+    perform_disarm(ch, vict, SKILL_COMBAT_TACTICS);
 
-  if (success && IS_NPC(vict))
-    set_fighting(ch, vict);
+    if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
+        WAIT_STATE(ch, CONFIG_PULSE_VIOLENCE * 2);
+
+
+    struct char_data *tch;
+    for (tch = world[IN_ROOM(ch)].people; tch; tch = tch->next_in_room)
+        if (is_player_grouped(ch, tch) && !IS_NPC(tch) && FIGHTING(tch) == NULL)
+            tch->exp_chain = 0;
+
+    if (success && IS_NPC(vict))
+        set_fighting(ch, vict);
 }
 
 
@@ -2997,6 +3014,8 @@ void perform_pc_combat_turn(struct char_data *ch)
   }
   ch->parries = 0;
   ch->parried_attacks = 0;
+
+  UNUSED(target);
 }
 
 int check_active_turn(struct char_data *ch) {
@@ -3381,3 +3400,4 @@ void award_lockbox_treasure(struct char_data *ch, int level)
     else 
         award_magic_armor(ch, grade, level);
 }
+

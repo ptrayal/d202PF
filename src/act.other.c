@@ -131,6 +131,9 @@ void set_familiar_stats(struct char_data *ch);
 
 char *deity_strings[100];
 
+#define UNUSED(x) (void)(x)
+
+
 ACMD(do_skin)
 {
     char arg1[MAX_INPUT_LENGTH]={'\0'};
@@ -1184,72 +1187,79 @@ ACMD(do_value)
 
 ACMD(do_display)
 {
-  size_t i;
+    size_t i;
 
-  if (IS_NPC(ch)) {
-    send_to_char(ch, "Mosters don't need displays.  Go away.\r\n");
-    return;
-  }
-  skip_spaces(&argument);
-
-  if (!*argument) {
-    send_to_char(ch, "Usage: prompt { H | K | V | X} | all | none }\r\n");
-    return;
-  }
-  if (!str_cmp(argument, "on") || !str_cmp(argument, "all")) {
-    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
-    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPMANA);
-    if (GET_CLASS_RANKS(ch, CLASS_MONK))
-      SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
-    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
-    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
-    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPGOLD);
-//    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXITS);
-  }
-  else if (!str_cmp(argument, "off") || !str_cmp(argument, "none")) {
-    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
-    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPMANA);
-    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
-    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
-    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
-    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPGOLD);
-    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXITS);
-  }
-  else {
-
-    for (i = 0; i < strlen(argument); i++) {
-      switch (LOWER(argument[i])) {
-      case 'h':
-      if (PRF_FLAGGED(ch, PRF_DISPHP))
-	REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
-      else
-	SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
-	break;
-      case 'k':
-      if (PRF_FLAGGED(ch, PRF_DISPKI))
-	REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
-      else
-	SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
-	break;
-      case 'v':
-      if (PRF_FLAGGED(ch, PRF_DISPMOVE))
-	REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
-      else
-	SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
-	break;
-      case 'x':
-      if (PRF_FLAGGED(ch, PRF_DISPEXP))
-	REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
-      else
-	SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
-	break;
-      default:
-	send_to_char(ch, "Usage: prompt { H | K | V | X } | all | none }\r\n");
-	return;
-      }
+    if (IS_NPC(ch))
+    {
+        send_to_char(ch, "Mosters don't need displays.  Go away.\r\n");
+        return;
     }
-  }
-  send_to_char(ch, "Done.\r\n");
+    skip_spaces(&argument);
+
+    if (!*argument)
+    {
+        send_to_char(ch, "Usage: prompt { H | K | V | X} | all | none }\r\n");
+        return;
+    }
+    if (!str_cmp(argument, "on") || !str_cmp(argument, "all"))
+    {
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPMANA);
+        if (GET_CLASS_RANKS(ch, CLASS_MONK))
+            SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPGOLD);
+        //    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXITS);
+    }
+    else if (!str_cmp(argument, "off") || !str_cmp(argument, "none"))
+    {
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPMANA);
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPGOLD);
+        REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXITS);
+    }
+    else
+    {
+
+        for (i = 0; i < strlen(argument); i++)
+        {
+            switch (LOWER(argument[i]))
+            {
+            case 'h':
+                if (PRF_FLAGGED(ch, PRF_DISPHP))
+                    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
+                else
+                    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPHP);
+                break;
+            case 'k':
+                if (PRF_FLAGGED(ch, PRF_DISPKI))
+                    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
+                else
+                    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPKI);
+                break;
+            case 'v':
+                if (PRF_FLAGGED(ch, PRF_DISPMOVE))
+                    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
+                else
+                    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPMOVE);
+                break;
+            case 'x':
+                if (PRF_FLAGGED(ch, PRF_DISPEXP))
+                    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
+                else
+                    SET_BIT_AR(PRF_FLAGS(ch), PRF_DISPEXP);
+                break;
+            default:
+                send_to_char(ch, "Usage: prompt { H | K | V | X } | all | none }\r\n");
+                return;
+            }
+        }
+    }
+    send_to_char(ch, "Done.\r\n");
 }
 
 ACMD(do_gen_write)
@@ -1659,127 +1669,128 @@ ACMD(do_gen_tog)
 
 ACMD(do_file)
 {
-  FILE *req_file;
-  int cur_line = 0, num_lines = 0, req_lines = 0, i = 0, j = 0;
-  int l = 0;
-  char field[MAX_INPUT_LENGTH]={'\0'}, value[MAX_INPUT_LENGTH]={'\0'}, line[READ_SIZE]={'\0'};
-  char buf[MAX_STRING_LENGTH]={'\0'};
+    FILE *req_file;
+    int cur_line = 0, num_lines = 0, req_lines = 0, i = 0, j = 0;
+    int l = 0;
+    char field[MAX_INPUT_LENGTH] = {'\0'}, value[MAX_INPUT_LENGTH] = {'\0'}, line[READ_SIZE] = {'\0'};
+    char buf[MAX_STRING_LENGTH] = {'\0'};
 
-  struct file_struct {
-    char *cmd;
-    char level;
-    char *file;
- } fields[] = {
-     { "none",           ADMLVL_GOD,    "Does Nothing" },
-     { "bug",            ADMLVL_GOD,    "../lib/misc/bugs"},
-     { "typo",           ADMLVL_GOD,   "../lib/misc/typos"},
-     { "news",           ADMLVL_GOD,   "../lib/misc/news"},
-     { "ideas",          ADMLVL_GOD,    "../lib/misc/ideas"},
-     { "xnames",         ADMLVL_GOD,     "../lib/misc/xnames"},
-     { "levels",         ADMLVL_GOD,    "../log/levels" },
-     { "rip",            ADMLVL_GOD,    "../log/rip" },
-     { "players",        ADMLVL_GOD,    "../log/newplayers" },
-     { "rentgone",       ADMLVL_GOD,    "../log/rentgone" },
-     { "errors",         ADMLVL_GOD,    "../log/errors" },
-     { "godcmds",        ADMLVL_GOD,    "../log/godcmds" },
-     { "syslog",         ADMLVL_GOD,    "../syslog" },
-     { "crash",          ADMLVL_GOD,    "../syslog.CRASH" },
-     { "\n", 0, "\n" }
-};
+    struct file_struct {
+        char *cmd;
+        char level;
+        char *file;
+    } fields[] = {
+        { "none",           ADMLVL_GOD,    "Does Nothing" },
+        { "bug",            ADMLVL_GOD,    "../lib/misc/bugs"},
+        { "typo",           ADMLVL_GOD,   "../lib/misc/typos"},
+        { "news",           ADMLVL_GOD,   "../lib/misc/news"},
+        { "ideas",          ADMLVL_GOD,    "../lib/misc/ideas"},
+        { "xnames",         ADMLVL_GOD,     "../lib/misc/xnames"},
+        { "levels",         ADMLVL_GOD,    "../log/levels" },
+        { "rip",            ADMLVL_GOD,    "../log/rip" },
+        { "players",        ADMLVL_GOD,    "../log/newplayers" },
+        { "rentgone",       ADMLVL_GOD,    "../log/rentgone" },
+        { "errors",         ADMLVL_GOD,    "../log/errors" },
+        { "godcmds",        ADMLVL_GOD,    "../log/godcmds" },
+        { "syslog",         ADMLVL_GOD,    "../syslog" },
+        { "crash",          ADMLVL_GOD,    "../syslog.CRASH" },
+        { "\n", 0, "\n" }
+    };
 
-   skip_spaces(&argument);
+    skip_spaces(&argument);
 
-   if (!*argument && subcmd != SCMD_NEWS) 
-   {
-     strcpy(buf, "USAGE: file <option> <num lines>\r\n\r\nFile options:\r\n");
-     for (j = 0, i = 1; fields[i].level; i++)
-       if (fields[i].level <= GET_LEVEL(ch))
-         sprintf(buf+strlen(buf), "%-15s%s\r\n", fields[i].cmd, fields[i].file);
-     send_to_char(ch, "%s", buf);
-     return;
-   }
+    if (!*argument && subcmd != SCMD_NEWS)
+    {
+        strcpy(buf, "USAGE: file <option> <num lines>\r\n\r\nFile options:\r\n");
+        for (j = 0, i = 1; fields[i].level; i++)
+            if (fields[i].level <= GET_LEVEL(ch))
+                sprintf(buf + strlen(buf), "%-15s%s\r\n", fields[i].cmd, fields[i].file);
+        send_to_char(ch, "%s", buf);
+        return;
+    }
 
-  if (subcmd != SCMD_NEWS) 
-  {
+    if (subcmd != SCMD_NEWS)
+    {
 
-     two_arguments(argument, field, value);
+        two_arguments(argument, field, value);
 
-     for (l = 0; *(fields[l].cmd) != '\n'; l++)
-       if (!strncmp(field, fields[l].cmd, strlen(field)))
-     break;
+        for (l = 0; * (fields[l].cmd) != '\n'; l++)
+            if (!strncmp(field, fields[l].cmd, strlen(field)))
+                break;
 
-     if(*(fields[l].cmd) == '\n') 
-     {
-       send_to_char(ch, "That is not a valid option!\r\n");
-       return;
-     }
+        if(*(fields[l].cmd) == '\n')
+        {
+            send_to_char(ch, "That is not a valid option!\r\n");
+            return;
+        }
 
-     if (GET_ADMLEVEL(ch) < fields[l].level) 
-     {
-       send_to_char(ch, "You are not godly enough to view that file!\r\n");
-       return;
-     }
+        if (GET_ADMLEVEL(ch) < fields[l].level)
+        {
+            send_to_char(ch, "You are not godly enough to view that file!\r\n");
+            return;
+        }
 
-     if(!*value)
-       req_lines = 30; /* default is the last 30 lines */
-     else
-       req_lines = atoi(value);
-   
-  }
-  else 
-  {
-    one_argument(argument, value);
+        if(!*value)
+            req_lines = 30; /* default is the last 30 lines */
+        else
+            req_lines = atoi(value);
 
-     l = 3;
+    }
+    else
+    {
+        one_argument(argument, value);
 
-     send_to_char(ch, "\r\n@W%s News@n\r\n@Y-----------@n\r\n", MUD_NAME);
+        l = 3;
 
-     if(!*value)
-       req_lines = 30; /* default is the last 30 lines */
-     else
-       req_lines = atoi(value);
-  }
+        send_to_char(ch, "\r\n@W%s News@n\r\n@Y-----------@n\r\n", MUD_NAME);
 
-   if (!(req_file=fopen(fields[l].file,"r")) && subcmd != SCMD_NEWS) 
-   {
-     mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
-     fclose(req_file);
-     return;
-   }
-   else if (!(req_file=fopen("../lib/misc/news", "r"))) 
-   {
-     mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
-     fclose(req_file);
-     return;
-   }
+        if(!*value)
+            req_lines = 30; /* default is the last 30 lines */
+        else
+            req_lines = atoi(value);
+    }
 
-   get_line(req_file,line);
-   while (!feof(req_file)) 
-   {
-     num_lines++;
-     get_line(req_file,line);
-   }
-   rewind(req_file);
+    if (!(req_file = fopen(fields[l].file, "r")) && subcmd != SCMD_NEWS)
+    {
+        mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
+        fclose(req_file);
+        return;
+    }
+    else if (!(req_file = fopen("../lib/misc/news", "r")))
+    {
+        mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
+        fclose(req_file);
+        return;
+    }
 
-   req_lines = MIN(MIN(req_lines, num_lines),150);
-   
-   buf[0] = '\0';
+    get_line(req_file, line);
+    while (!feof(req_file))
+    {
+        num_lines++;
+        get_line(req_file, line);
+    }
+    rewind(req_file);
 
-   get_line(req_file,line);
-   while (!feof(req_file)) 
-   {
-     cur_line++;
-     if(cur_line > (num_lines - req_lines)) 
-       sprintf(buf+strlen(buf),"%s\r\n", line);
-	   
-     get_line(req_file,line);
-   }
-   fclose(req_file);
+    req_lines = MIN(MIN(req_lines, num_lines), 150);
 
-   page_string(ch->desc, buf, 1);
-   if (subcmd == SCMD_NEWS)
-     send_to_char(ch, "\r\n@WTo view more than 30 lines type news <# of lines to view>.@n\r\n\r\n");
+    buf[0] = '\0';
 
+    get_line(req_file, line);
+    while (!feof(req_file))
+    {
+        cur_line++;
+        if(cur_line > (num_lines - req_lines))
+            sprintf(buf + strlen(buf), "%s\r\n", line);
+
+        get_line(req_file, line);
+    }
+    fclose(req_file);
+
+    page_string(ch->desc, buf, 1);
+    if (subcmd == SCMD_NEWS)
+        send_to_char(ch, "\r\n@WTo view more than 30 lines type news <# of lines to view>.@n\r\n\r\n");
+
+      UNUSED(j);
 }
 
 ACMD(do_compare)
@@ -6647,3 +6658,4 @@ ACMD(do_set_stats)
 
   return;
 }
+
