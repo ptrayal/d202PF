@@ -4092,136 +4092,138 @@ ACMD(do_color)
 
 ACMD(do_toggle)
 {
-  char buf2[4]={'\0'};
+    char buf2[7] = {'\0'};
 
-  if (IS_NPC(ch))
-    return;
+    if (IS_NPC(ch))
+        return;
 
-  if (GET_WIMP_LEV(ch) == 0)
-    strcpy(buf2, "OFF");	/* strcpy: OK */
-  else
-    sprintf(buf2, "%-3.3d", GET_WIMP_LEV(ch));	/* sprintf: OK */
+    if (GET_WIMP_LEV(ch) == 0)
+        strcpy(buf2, "OFF");  /* strcpy: OK */
+    else
+        sprintf(buf2, "%-3.3d", GET_WIMP_LEV(ch));  /* sprintf: OK */
 
-  if (GET_ADMLEVEL(ch)) {
+    if (GET_ADMLEVEL(ch))
+    {
+        send_to_char(ch,
+                     "      Buildwalk: %-3s    "
+                     "Clear Screen in OLC: %-3s\r\n",
+                     ONOFF(PRF_FLAGGED(ch, PRF_BUILDWALK)),
+                     ONOFF(PRF_FLAGGED(ch, PRF_CLS))
+                    );
+
+        send_to_char(ch,
+                     "      No Hassle: %-3s    "
+                     "      Holylight: %-3s    "
+                     "     Room Flags: %-3s\r\n"
+                     "  Clan Channels: %-3s\r\n",
+                     ONOFF(PRF_FLAGGED(ch, PRF_NOHASSLE)),
+                     ONOFF(PRF_FLAGGED(ch, PRF_HOLYLIGHT)),
+                     ONOFF(PRF_FLAGGED(ch, PRF_ROOMFLAGS)),
+                     ONOFF(PRF_FLAGGED(ch, PRF_ALLCTELL))
+                    );
+    }
+
     send_to_char(ch,
-          "      Buildwalk: %-3s    "
-          "Clear Screen in OLC: %-3s\r\n",
-        ONOFF(PRF_FLAGGED(ch, PRF_BUILDWALK)),
-        ONOFF(PRF_FLAGGED(ch, PRF_CLS))
-    );
+                 "Hit Pnt Display: %-3s    "
+                 "     Brief Mode: %-3s    "
+                 " Summon Protect: %-3s\r\n"
 
-    send_to_char(ch,
-	  "      No Hassle: %-3s    "
-	  "      Holylight: %-3s    "
-	  "     Room Flags: %-3s\r\n"
-          "  Clan Channels: %-3s\r\n",
-	ONOFF(PRF_FLAGGED(ch, PRF_NOHASSLE)),
-	ONOFF(PRF_FLAGGED(ch, PRF_HOLYLIGHT)),
-	ONOFF(PRF_FLAGGED(ch, PRF_ROOMFLAGS)),
-        ONOFF(PRF_FLAGGED(ch, PRF_ALLCTELL))
-    );
-  }
+                 "   Move Display: %-3s    "
+                 "   Compact Mode: %-3s    "
+                 "       On Quest: %-3s\r\n"
 
-  send_to_char(ch,
-	  "Hit Pnt Display: %-3s    "
-	  "     Brief Mode: %-3s    "
-	  " Summon Protect: %-3s\r\n"
+                 "   Mana Display: %-3s    "
+                 "         NoTell: %-3s    "
+                 "   Repeat Comm.: %-3s\r\n"
 
-	  "   Move Display: %-3s    "
-	  "   Compact Mode: %-3s    "
-	  "       On Quest: %-3s\r\n"
+                 "     Ki Display: %-3s    "
+                 "           Deaf: %-3s    "
+                 "     Wimp Level: %-3s\r\n"
 
-	  "   Mana Display: %-3s    "
-	  "         NoTell: %-3s    "
-	  "   Repeat Comm.: %-3s\r\n"
+                 " Gossip Channel: %-3s    "
+                 "Auction Channel: %-3s    "
+                 "  Grats Channel: %-3s\r\n"
 
-	  "     Ki Display: %-3s    "
-	  "           Deaf: %-3s    "
-	  "     Wimp Level: %-3s\r\n"
+                 "      Auto Loot: %-3s    "
+                 "      Auto Gold: %-3s    "
+                 "    Color Level: %s\r\n"
 
-	  " Gossip Channel: %-3s    "
-	  "Auction Channel: %-3s    "
-	  "  Grats Channel: %-3s\r\n"
+                 "     Auto Split: %-3s    "
+                 "       Auto Sac: %-3s    "
+                 "       Auto Mem: %-3s\r\n"
 
-          "      Auto Loot: %-3s    "
-          "      Auto Gold: %-3s    "
-	  "    Color Level: %s\r\n"
+                 "     View Order: %-3s    "
+                 "    Auto Assist: %-3s    "
+                 " Auto Show Exit: %-3s\r\n"
 
-          "     Auto Split: %-3s    "
-          "       Auto Sac: %-3s    "
-          "       Auto Mem: %-3s\r\n"
+                 "    Screenwidth: %-3d    "
+                 "   Clan Channel: %-3s    "
+                 "        Automap: %-3s\r\n"
 
-          "     View Order: %-3s    "
-          "    Auto Assist: %-3s    "
-	  " Auto Show Exit: %-3s\r\n"
+                 "    Power Sneak: %-3s    "
+                 "    Bleed Attck: %-3s    "
+                 "    Knockdown  : %-3s    "
 
-          "    Screenwidth: %-3d    "
-          "   Clan Channel: %-3s    "          
-	  "        Automap: %-3s\r\n"
+                 "    Roblr Gambt: %-3s    "
+                 "    Taking Ten : %-3s    "
+                 "    Mount Tank : %-3s    "
 
-          "    Power Sneak: %-3s    "
-          "    Bleed Attck: %-3s    "
-          "    Knockdown  : %-3s    "
+                 "    Summon Tank: %-3s    "
+                 "    Divine Bond: %-3s    ",
 
-          "    Roblr Gambt: %-3s    "
-          "    Taking Ten : %-3s    "
-          "    Mount Tank : %-3s    "
+                 ONOFF(PRF_FLAGGED(ch, PRF_DISPHP)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_BRIEF)),
+                 ONOFF(!PRF_FLAGGED(ch, PRF_SUMMONABLE)),
 
-          "    Summon Tank: %-3s    "
-          "    Divine Bond: %-3s    ",
+                 ONOFF(PRF_FLAGGED(ch, PRF_DISPMOVE)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_COMPACT)),
+                 YESNO(PRF_FLAGGED(ch, PRF_QUEST)),
 
-	  ONOFF(PRF_FLAGGED(ch, PRF_DISPHP)),
-	  ONOFF(PRF_FLAGGED(ch, PRF_BRIEF)),
-	  ONOFF(!PRF_FLAGGED(ch, PRF_SUMMONABLE)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_DISPMANA)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_NOTELL)),
+                 YESNO(!PRF_FLAGGED(ch, PRF_NOREPEAT)),
 
-	  ONOFF(PRF_FLAGGED(ch, PRF_DISPMOVE)),
-	  ONOFF(PRF_FLAGGED(ch, PRF_COMPACT)),
-	  YESNO(PRF_FLAGGED(ch, PRF_QUEST)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_DISPKI)),
+                 YESNO(PRF_FLAGGED(ch, PRF_DEAF)),
+                 buf2,
 
-	  ONOFF(PRF_FLAGGED(ch, PRF_DISPMANA)),
-	  ONOFF(PRF_FLAGGED(ch, PRF_NOTELL)),
-	  YESNO(!PRF_FLAGGED(ch, PRF_NOREPEAT)),
+                 ONOFF(!PRF_FLAGGED(ch, PRF_NOGOSS)),
+                 ONOFF(!PRF_FLAGGED(ch, PRF_NOAUCT)),
+                 ONOFF(!PRF_FLAGGED(ch, PRF_NOGRATZ)),
 
-	  ONOFF(PRF_FLAGGED(ch, PRF_DISPKI)),
-	  YESNO(PRF_FLAGGED(ch, PRF_DEAF)),
-	  buf2,
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOLOOT)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOGOLD)),
+                 ctypes[COLOR_LEV(ch)],
 
-	  ONOFF(!PRF_FLAGGED(ch, PRF_NOGOSS)),
-	  ONOFF(!PRF_FLAGGED(ch, PRF_NOAUCT)),
-	  ONOFF(!PRF_FLAGGED(ch, PRF_NOGRATZ)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOSPLIT)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOSAC)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOMEM)),
 
-          ONOFF(PRF_FLAGGED(ch, PRF_AUTOLOOT)),
-          ONOFF(PRF_FLAGGED(ch, PRF_AUTOGOLD)),
-	  ctypes[COLOR_LEV(ch)],
+                 ONOFF(PRF_FLAGGED(ch, PRF_VIEWORDER)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOASSIST)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOEXIT)),
 
-          ONOFF(PRF_FLAGGED(ch, PRF_AUTOSPLIT)),
-          ONOFF(PRF_FLAGGED(ch, PRF_AUTOSAC)),
-          ONOFF(PRF_FLAGGED(ch, PRF_AUTOMEM)),
+                 GET_SCREEN_WIDTH(ch),
+                 ONOFF(PRF_FLAGGED(ch, PRF_CLANTALK)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_AUTOMAP)),
 
-          ONOFF(PRF_FLAGGED(ch, PRF_VIEWORDER)),
-          ONOFF(PRF_FLAGGED(ch, PRF_AUTOASSIST)),
-	  ONOFF(PRF_FLAGGED(ch, PRF_AUTOEXIT)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_POWERFUL_SNEAK)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_BLEEDING_ATTACK)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_KNOCKDOWN)),
 
-          GET_SCREEN_WIDTH(ch),
-          ONOFF(PRF_FLAGGED(ch, PRF_CLANTALK)),
-	  ONOFF(PRF_FLAGGED(ch, PRF_AUTOMAP)),
-          
-          ONOFF(PRF_FLAGGED(ch, PRF_POWERFUL_SNEAK)),
-          ONOFF(PRF_FLAGGED(ch, PRF_BLEEDING_ATTACK)),
-          ONOFF(PRF_FLAGGED(ch, PRF_KNOCKDOWN)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_ROBILARS_GAMBIT)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_TAKE_TEN)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_MOUNT_TANK)),
 
-          ONOFF(PRF_FLAGGED(ch, PRF_ROBILARS_GAMBIT)),
-          ONOFF(PRF_FLAGGED(ch, PRF_TAKE_TEN)),
-          ONOFF(PRF_FLAGGED(ch, PRF_MOUNT_TANK)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_SUMMON_TANK)),
+                 ONOFF(PRF_FLAGGED(ch, PRF_DIVINE_BOND))
 
-          ONOFF(PRF_FLAGGED(ch, PRF_SUMMON_TANK)),
-          ONOFF(PRF_FLAGGED(ch, PRF_DIVINE_BOND))
+                );
 
-          );
-
-          if (CONFIG_ENABLE_COMPRESSION) {
-            send_to_char(ch, "    Compression: %-3s\r\n", ONOFF(!PRF_FLAGGED(ch, PRF_NOCOMPRESS)));
-          }
+    if (CONFIG_ENABLE_COMPRESSION)
+    {
+        send_to_char(ch, "    Compression: %-3s\r\n", ONOFF(!PRF_FLAGGED(ch, PRF_NOCOMPRESS)));
+    }
 }
 
 
@@ -5747,3 +5749,4 @@ ACMD (do_show_combat)
     send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Reflex", ref_class, ability_mod_value(GET_DEX(ch)), ref_feat_mod, ref_magic, ref_misc, get_saving_throw_value(ch, SAVING_REFLEX) );
     send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Will", will_class, ability_mod_value(GET_WIS(ch)), will_feat_mod, will_magic, will_misc, get_saving_throw_value(ch, SAVING_WILL) );
 }
+

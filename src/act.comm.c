@@ -343,59 +343,65 @@ ACMD(do_osay)
 
 ACMD(do_gsay)
 {
-  struct char_data *k;
-  struct follow_type *f;
+    struct char_data *k;
+    struct follow_type *f;
 
-  if (PLR_FLAGGED(ch, PLR_NOSHOUT)) {
-    send_to_char(ch, "You move your mouth but no sound comes out.\r\n");
-    return;
-  }
-
-
-
-  if (has_curse_word(ch, argument)) {
-    return;
-  }
-
-  skip_spaces(&argument);
-
-  if (!AFF_FLAGGED(ch, AFF_GROUP)) {
-    send_to_char(ch, "But you are not the member of a group!\r\n");
-    return;
-  }
-  if (!*argument)
-    send_to_char(ch, "Yes, but WHAT do you want to group-say?\r\n");
-  else {
-    char buf[MAX_STRING_LENGTH]={'\0'};
-
-    if (ch->master)
-      k = ch->master;
-    else
-      k = ch;
-
-    snprintf(buf, sizeof(buf), "%s-- $n: '%s@n'", subcmd == SCMD_RP_GSAY ? "@W" : "@G", argument);
-
-
-    int x = 0;
-    if (AFF_FLAGGED(k, AFF_GROUP) && (k != ch)) {
-      act(buf, false, ch, 0, k, TO_VICT | TO_SLEEP);
-      x++;
+    if (PLR_FLAGGED(ch, PLR_NOSHOUT))
+    {
+        send_to_char(ch, "You move your mouth but no sound comes out.\r\n");
+        return;
     }
-    for (f = k->followers; f; f = f->next)
-      if (AFF_FLAGGED(f->follower, AFF_GROUP) && (f->follower != ch)) {
-	act(buf, false, ch, 0, f->follower, TO_VICT | TO_SLEEP);
-        x++;
-      }
-
-  if (x > 0 && subcmd == SCMD_RP_GSAY)
-    GET_RP_EXP(ch) += strlen(argument);
 
 
-    if (PRF_FLAGGED(ch, PRF_NOREPEAT))
-      send_to_char(ch, "%s", CONFIG_OK);
+
+    if (has_curse_word(ch, argument))
+    {
+        return;
+    }
+
+    skip_spaces(&argument);
+
+    if (!AFF_FLAGGED(ch, AFF_GROUP))
+    {
+        send_to_char(ch, "But you are not the member of a group!\r\n");
+        return;
+    }
+    if (!*argument)
+        send_to_char(ch, "Yes, but WHAT do you want to group-say?\r\n");
     else
-	act(buf, false, ch, 0,0, TO_CHAR | TO_SLEEP);
-  }
+    {
+        char buf[MAX_STRING_LENGTH] = {'\0'};
+
+        if (ch->master)
+            k = ch->master;
+        else
+            k = ch;
+
+        snprintf(buf, sizeof(buf), "%s-- $n: '%s@n'", subcmd == SCMD_RP_GSAY ? "@W" : "@G", argument);
+
+
+        int x = 0;
+        if (AFF_FLAGGED(k, AFF_GROUP) && (k != ch))
+        {
+            act(buf, false, ch, 0, k, TO_VICT | TO_SLEEP);
+            x++;
+        }
+        for (f = k->followers; f; f = f->next)
+            if (AFF_FLAGGED(f->follower, AFF_GROUP) && (f->follower != ch))
+            {
+                act(buf, false, ch, 0, f->follower, TO_VICT | TO_SLEEP);
+                x++;
+            }
+
+        if (x > 0 && subcmd == SCMD_RP_GSAY)
+            GET_RP_EXP(ch) += strlen(argument);
+
+
+        if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+            send_to_char(ch, "%s", CONFIG_OK);
+        else
+            act(buf, false, ch, 0, 0, TO_CHAR | TO_SLEEP);
+    }
 }
 
 
@@ -1073,3 +1079,4 @@ ACMD(do_petition)
                      "\r\n");
     }
 }
+
