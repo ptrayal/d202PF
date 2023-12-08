@@ -1,424 +1,757 @@
-Jul  6 06:28:16 :: Using etc/config for configuration.
-Jul  6 06:28:16 :: CircleMUD, version 3.1
-Jul  6 06:28:16 :: OasisOLC 2.0.6
-Jul  6 06:28:16 :: DG Scripts 1.0.14
-Jul  6 06:28:16 :: ASCII Player Files 3.0.1
-Jul  6 06:28:16 :: CWG Rasputin - 1.2.28b
-Jul  6 06:28:16 :: Using lib as data directory.
-Jul  6 06:28:16 :: Running game on port 9080.
-Jul  6 06:28:16 :: Finding player limit.
-Jul  6 06:28:16 ::    Setting player limit to 50 using rlimit.
-Jul  6 06:28:16 :: Opening mother connection.
-Jul  6 06:28:16 :: Binding to all IP interfaces on this host.
-Jul  6 06:28:16 :: Boot db -- BEGIN.
-Jul  6 06:28:16 :: Resetting the game time:
-Jul  6 06:28:16 ::    Current Gametime: 23H 12D 2M 910Y.
-Jul  6 06:28:16 :: Reading news, credits, help, bground, info & motds.
-Jul  6 06:28:16 :: Loading spell definitions.
-Jul  6 06:28:16 :: Loading feats.
-Jul  6 06:28:16 :: Loading level tables.
-Jul  6 06:28:16 :: Base hit for class wizard: low
-Jul  6 06:28:16 :: Base hit for class cleric: medium
-Jul  6 06:28:16 :: Base hit for class rogue: medium
-Jul  6 06:28:16 :: Base hit for class fighter: high
-Jul  6 06:28:16 :: Base hit for class monk: medium
-Jul  6 06:28:16 :: Base hit for class paladin: high
-Jul  6 06:28:16 :: Base hit for class barbarian: high
-Jul  6 06:28:16 :: Base hit for class bard: medium
-Jul  6 06:28:16 :: Base hit for class ranger: high
-Jul  6 06:28:16 :: Base hit for class druid: medium
-Jul  6 06:28:16 :: Base hit for class expansion 1: high
-Jul  6 06:28:16 :: Base hit for class expansion 2: high
-Jul  6 06:28:16 :: Base hit for class expansion 3: high
-Jul  6 06:28:16 :: Base hit for class expansion 4: high
-Jul  6 06:28:16 :: Base hit for class expansion 5: medium
-Jul  6 06:28:16 :: Base hit for class expansion 6: medium
-Jul  6 06:28:16 :: Base hit for class expansion 7: low
-Jul  6 06:28:16 :: Base hit for class duelist: low
-Jul  6 06:28:16 :: Base hit for class expansion 8: low
-Jul  6 06:28:16 :: Base hit for class mystic theurge: low
-Jul  6 06:28:16 :: Base hit for class sorcerer: low
-Jul  6 06:28:16 :: Base hit for class classless: low
-Jul  6 06:28:16 :: Base hit for class expansion 9: low
-Jul  6 06:28:16 :: Base hit for class expansion 10: low
-Jul  6 06:28:16 :: Base hit for class dragon disciple: low
-Jul  6 06:28:16 :: Base hit for class arcane archer: low
-Jul  6 06:28:16 :: Base hit for class expansion 11: low
-Jul  6 06:28:16 :: Base hit for class npc: low
-Jul  6 06:28:16 :: Base hit for class assassin: manual
-Jul  6 06:28:16 :: Base hit for class expansion 12: manual
-Jul  6 06:28:16 :: Base hit for class artisan: manual
-Jul  6 06:28:16 :: Base hit for class arcane trickster: manual
-Jul  6 06:28:16 :: Base hit for class expansion 13: manual
-Jul  6 06:28:16 :: Base hit for class eldritch knight: manual
-Jul  6 06:28:16 :: Base hit for class expansion 14: manual
-Jul  6 06:28:16 :: Base hit for class expansion 15: manual
-Jul  6 06:28:16 :: Base hit for class expansion 16: manual
-Jul  6 06:28:16 :: Base hit for class expansion 17: manual
-Jul  6 06:28:16 :: Base hit for class expansion 18: manual
-Jul  6 06:28:16 :: Base hit for class expansion 19: manual
-Jul  6 06:28:16 :: Base hit for class expansion 20: manual
-Jul  6 06:28:16 :: Base hit for class expansion 21: manual
-Jul  6 06:28:16 :: Base hit for class expansion 22: manual
-Jul  6 06:28:16 :: Base hit for class expansion 23: manual
-Jul  6 06:28:16 :: Base hit for class expansion 24: manual
-Jul  6 06:28:16 :: Base hit for class expansion 25: manual
-Jul  6 06:28:16 :: Base hit for class expansion 26: manual
-Jul  6 06:28:16 :: Base hit for class expansion 27: manual
-Jul  6 06:28:16 :: Base hit for class expansion 28: manual
-Jul  6 06:28:16 :: Base hit for class expansion 29: manual
-Jul  6 06:28:16 :: Base hit for class expansion 30: manual
-Jul  6 06:28:16 :: Base hit for class expansion 31: manual
-Jul  6 06:28:16 :: Base hit for class expansion 32: manual
-Jul  6 06:28:16 :: Base hit for class expansion 33: manual
-Jul  6 06:28:16 :: Base hit for class expansion 34: manual
-Jul  6 06:28:16 :: Base hit for class expansion 35: manual
-Jul  6 06:28:16 :: Base hit for class 
-: manual
-Jul  6 06:28:16 :: Base hit for class (null): manual
-Jul  6 06:28:16 :: Saves for class wizard: fort=low, reflex=low, will=high
-Jul  6 06:28:16 :: Saves for class cleric: fort=high, reflex=low, will=high
-Jul  6 06:28:16 :: Saves for class rogue: fort=low, reflex=high, will=low
-Jul  6 06:28:16 :: Saves for class fighter: fort=high, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class monk: fort=high, reflex=high, will=high
-Jul  6 06:28:16 :: Saves for class paladin: fort=high, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class barbarian: fort=high, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class bard: fort=low, reflex=high, will=low
-Jul  6 06:28:16 :: Saves for class ranger: fort=high, reflex=high, will=low
-Jul  6 06:28:16 :: Saves for class druid: fort=high, reflex=low, will=high
-Jul  6 06:28:16 :: Saves for class expansion 1: fort=high, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class expansion 2: fort=high, reflex=low, will=high
-Jul  6 06:28:16 :: Saves for class expansion 3: fort=high, reflex=low, will=high
-Jul  6 06:28:16 :: Saves for class expansion 4: fort=high, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class expansion 5: fort=high, reflex=low, will=high
-Jul  6 06:28:16 :: Saves for class expansion 6: fort=low, reflex=low, will=high
-Jul  6 06:28:16 :: Saves for class expansion 7: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class duelist: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class expansion 8: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class mystic theurge: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class sorcerer: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class classless: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class expansion 9: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class expansion 10: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class dragon disciple: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class arcane archer: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class expansion 11: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class npc: fort=low, reflex=low, will=low
-Jul  6 06:28:16 :: Saves for class assassin: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 12: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class artisan: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class arcane trickster: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 13: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class eldritch knight: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 14: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 15: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 16: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 17: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 18: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 19: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 20: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 21: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 22: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 23: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 24: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 25: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 26: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 27: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 28: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 29: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 30: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 31: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 32: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 33: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 34: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class expansion 35: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class 
-: fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Saves for class (null): fort=manual, reflex=manual, will=manual
-Jul  6 06:28:16 :: Loading zone table.
-Jul  6 06:28:16 ::    51 zones, 6120 bytes.
-Jul  6 06:28:16 :: Loading triggers and generating index.
-Jul  6 06:28:16 :: Loading rooms.
-Jul  6 06:28:16 ::    4882 rooms, 1015456 bytes.
-Jul  6 06:28:16 :: Renumbering rooms.
-Jul  6 06:28:16 :: Checking start rooms.
-Jul  6 06:28:16 :: Loading mobs and generating index.
-Jul  6 06:28:16 ::    566 mobs, 18112 bytes in index, 2743968 bytes in prototypes.
-Jul  6 06:28:16 :: Loading objs and generating index.
-Jul  6 06:28:16 ::    744 objs, 23808 bytes in index, 339264 bytes in prototypes.
-Jul  6 06:28:16 :: Warning: object #4025 (@WTabbard of the Faithful@n) uses deprecated saving throw applies
-Jul  6 06:28:16 :: Converted armor #4033 [Gown Of Destiny] armor=0 i=0 maxdex=100 acheck=0 sfail=0
-Jul  6 06:28:16 :: Warning: object #4403 (a dragonhide haversack) uses deprecated saving throw applies
-Jul  6 06:28:16 :: Warning: object #4404 (Mask of Darkness) uses deprecated saving throw applies
-Jul  6 06:28:16 :: Warning: object #4411 (Mantle of the Hills) uses deprecated saving throw applies
-Jul  6 06:28:16 :: Warning: object #60002 (a silver bracelet engraved with stylized falcons) uses deprecated saving throw applies
-Jul  6 06:28:16 :: Converted armor #60008 [a set of bright white monks robes embroidered with gold and silver] armor=0 i=0 maxdex=100 acheck=0 sfail=0
-Jul  6 06:28:16 :: Renumbering zone table.
-Jul  6 06:28:16 :: Loading disabled commands list...
-Jul  6 06:28:16 :: Saving converted worldfiles to disk.
-Jul  6 06:28:16 :: OasisOLC: Saving objects 'world/obj/600.obj'
-Jul  6 06:28:16 :: OasisOLC: Saving objects 'world/obj/40.obj'
-Jul  6 06:28:16 :: Loading shops.
-Jul  6 06:28:16 :: Loading quests.
-Jul  6 06:28:16 ::    92 entries, 11776 bytes.
-Jul  6 06:28:16 :: Loading guild masters.
-Jul  6 06:28:16 :: Loading Weapons.
-Jul  6 06:28:16 :: Loading Armor.
-Jul  6 06:28:16 :: Loading Races.
-Jul  6 06:28:16 :: Loading Pets.
-Jul  6 06:28:16 :: Loading Deities.
-Jul  6 06:28:16 :: Setting up fightsort_table
-Jul  6 06:28:16 :: Placing Harvesting Nodes
-Jul  6 06:28:16 :: htree stats (global): 8826 nodes, 1270944 bytes (depth 4/5 used/possible)
-Jul  6 06:28:16 :: Loading help entries.
-Jul  6 06:28:16 ::    3554 entries, 85296 bytes.
-Jul  6 06:28:16 :: Setting up context sensitive help system for OLC
-Jul  6 06:28:16 :: Generating player index.
-Jul  6 06:28:16 :: Loading fight messages.
-Jul  6 06:28:16 :: Loading social messages.
-Jul  6 06:28:16 :: Social table contains 368 socials.
-Jul  6 06:28:16 :: Building command list.
-Jul  6 06:28:16 :: Command info rebuilt, 916 total commands.
-Jul  6 06:28:16 :: Assigning function pointers:
-Jul  6 06:28:16 ::    Mobiles.
-Jul  6 06:28:16 ::    Shopkeepers.
-Jul  6 06:28:16 ::    Objects.
-Jul  6 06:28:16 ::    Rooms.
-Jul  6 06:28:16 ::    Guildmasters.
-Jul  6 06:28:16 ::    Questmasters.
-Jul  6 06:28:16 :: SYSERR: Quest #3500 has no questmaster specified.
-Jul  6 06:28:16 :: SYSERR: Quest #4503 has no questmaster specified.
-Jul  6 06:28:16 :: Init Object Unique Hash
-Jul  6 06:28:16 :: Booting assembled objects.
-Jul  6 06:28:16 :: Assigning skill levels.
-Jul  6 06:28:16 :: Assigning race skill classes.
-Jul  6 06:28:16 :: Sorting command list and spells.
-Jul  6 06:28:16 :: Booting mail system.
-Jul  6 06:28:16 ::    58640000 bytes read.
-Jul  6 06:28:16 ::    Mail file read -- 5291 messages.
-Jul  6 06:28:16 :: Booting boards system.
-Jul  6 06:28:16 :: There are 7 boards located; 0 messages
-Jul  6 06:28:16 :: Reading banned site and invalid-name list.
-Jul  6 06:28:16 :: Deleting timed-out crash and rent files:
-Jul  6 06:28:16 ::    Done.
-Jul  6 06:28:16 :: Booting houses.
-Jul  6 06:28:16 :: Loading clans.
-Jul  6 06:28:16 :: Loading polls.
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 0 OPTION 1
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '0' AND  `option` = '1'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 1
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '1'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 2
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '2'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 3
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '3'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 4
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '4'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 5
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '5'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 6
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '6'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 7
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '7'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 1
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '1'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 2
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '2'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 3
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '3'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 4
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '4'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 5
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '5'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 6
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '6'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 7
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '7'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 8
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '8'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 9
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '9'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 1
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '1'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 2
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '2'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 3
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '3'
-Jul  6 06:28:16 :: Cannot connect to mysql database in add poll option.
-Jul  6 06:28:16 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 4
-Jul  6 06:28:16 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '4'
-Jul  6 06:28:16 :: Resetting #0: Limbo (rooms 0-99).
-Jul  6 06:28:16 :: Resetting #1: CODE RESERVED VNUMS DON'T EDIT (rooms 100-199).
-Jul  6 06:28:16 :: Resetting #2: CODE RESERVED VNUMS DON'T EDIT (rooms 200-299).
-Jul  6 06:28:16 :: Resetting #6: Crypt of Shadow I (rooms 600-699).
-Jul  6 06:28:16 :: Resetting #9: Training Pits (Luskan) (rooms 900-999).
-Jul  6 06:28:16 :: Resetting #10: The Trading Post (rooms 1000-1099).
-Jul  6 06:28:16 :: Resetting #12: Earth Cultists (rooms 1200-1299).
-Jul  6 06:28:16 :: Resetting #14: Orc Camp - Spine of the World (rooms 1400-1499).
-Jul  6 06:28:16 :: Resetting #15: Fireside Tavern and Gnoll Caverns (rooms 1500-1599).
-Jul  6 06:28:16 :: Resetting #22: Flaming Hand Mercenary Camp (rooms 2200-2299).
-Jul  6 06:28:16 :: Resetting #23: Tainted Druids (Solace) (rooms 2300-2399).
-Jul  6 06:28:16 :: Resetting #26: Luskan Buildings (rooms 2600-2699).
-Jul  6 06:28:16 :: Resetting #27: Immortals Rooms (rooms 2700-2799).
-Jul  6 06:28:16 :: Resetting #28: Dragon's Lair (rooms 2800-2999).
-Jul  6 06:28:16 :: Resetting #30: Luksan (rooms 3000-3299).
-Jul  6 06:28:16 :: Resetting #33: Mud School (rooms 3300-3399).
-Jul  6 06:28:16 :: Resetting #34: D20 School (rooms 3400-3499).
-Jul  6 06:28:16 :: Resetting #35: Luskan Sewers (rooms 3500-3599).
-Jul  6 06:28:16 :: Resetting #36: Ruins of Illusk (rooms 3600-3799).
-Jul  6 06:28:16 :: Resetting #38: Cavern of the fire giants (rooms 3800-3899).
-Jul  6 06:28:16 :: Resetting #40: Neverwinter (rooms 4000-4399).
-Jul  6 06:28:16 :: Resetting #44: Talos`s Zone (rooms 4400-4499).
-Jul  6 06:28:16 :: Resetting #45: Hunters Forest (rooms 4500-4599).
-Jul  6 06:28:16 :: Resetting #46: Moorwaine Swamp (rooms 4600-4699).
-Jul  6 06:28:16 :: Resetting #47: lower crypt (rooms 4700-4799).
-Jul  6 06:28:16 :: Resetting #48: Mirabar (rooms 4800-4998).
-Jul  6 06:28:16 :: Resetting #49: Mirabar 2 (rooms 4999-4999).
-Jul  6 06:28:16 :: Resetting #51: Mere of Dead Men (rooms 5100-5199).
-Jul  6 06:28:16 :: Resetting #52: Gauntlgrym (rooms 5200-5399).
-Jul  6 06:28:16 :: Resetting #60: New Zone (rooms 6000-6399).
-Jul  6 06:28:16 :: Resetting #100: Chult (rooms 10000-10199).
-Jul  6 06:28:16 :: Resetting #102: Dwarven Stronghold (rooms 10200-10399).
-Jul  6 06:28:16 :: Resetting #104: Mezro (rooms 10400-10599).
-Jul  6 06:28:16 :: Resetting #106: Ubtao's Temple (rooms 10600-10799).
-Jul  6 06:28:16 :: Resetting #108: Chult (rooms 10800-10999).
-Jul  6 06:28:16 :: Resetting #110: Under the mines of Mirabar (rooms 11000-11099).
-Jul  6 06:28:16 :: Resetting #120: Undermountain Level I (rooms 12000-12199).
-Jul  6 06:28:16 :: Resetting #300: Stock Objects and Mobs I (rooms 30000-30099).
-Jul  6 06:28:16 :: Resetting #301: Stock Objects and Mobs II (rooms 30100-30199).
-Jul  6 06:28:16 :: Resetting #302: Quest Rewards I (rooms 30200-30299).
-Jul  6 06:28:16 :: Resetting #500: Road-Neverwinter/Luskan (rooms 50000-50199).
-Jul  6 06:28:16 :: Resetting #502: Road-Luskan/Mirabar (rooms 50200-50499).
-Jul  6 06:28:16 :: Resetting #505: Road-Neverwinter/Waterdeep (rooms 50500-50849).
-Jul  6 06:28:16 :: Resetting #508: Road-Waterdeep/Triboar (rooms 50850-51049).
-Jul  6 06:28:16 :: Resetting #510: Road-Silverymoon/Triboar (rooms 51050-51449).
-Jul  6 06:28:16 :: Resetting #514: Road-Mirabar/Triboar (rooms 51450-51799).
-Jul  6 06:28:16 :: Resetting #596: Whack-a-Mole (rooms 59600-59699).
-Jul  6 06:28:16 :: Resetting #597: Quests (rooms 59700-59799).
-Jul  6 06:28:16 :: Resetting #598: Vehicles (rooms 59800-59899).
-Jul  6 06:28:16 :: Resetting #599: Player Housing (rooms 59900-59999).
-Jul  6 06:28:16 :: Resetting #600: Crafting Items (rooms 60000-65000).
-Jul  6 06:28:16 :: Boot db -- DONE.
-Jul  6 06:28:16 :: Signal trapping.
-Jul  6 06:28:16 :: Entering game loop.
-Jul  6 06:28:16 :: No connections.  Going to sleep.
-Jul  6 06:28:34 :: New connection.  Waking up.
-Jul  6 06:28:35 :: SYSERR: a @YKnight@n @rMarshal@n (#4016): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: an indifferent bank teller (#3012): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: Shira, the rogue trainer (#3028): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: the troll shaman (#1511): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: the troglodyte cleric (#1507): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a short woman with long red hair (#1519): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: an old sage (#1518): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a shifty looking individual (#1521): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a noxious, green vaporous cloud (#1217): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1208): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: High earth cultist Malis (#1213): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: the temple priest (#1210): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: Master Tolbert (#1215): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: the master's apprentice (#920): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: Renthilos (#901): Attempting to call non-existing mob function.
-Jul  6 06:28:35 :: SYSERR: an undead priest of Cyric (#605): Attempting to call non-existing mob function.
-Jul  6 06:28:39 :: Cannot connect to mysql database in enter player game.
-Jul  6 06:28:40 :: Cannot connect to mysql database in point update.
-Jul  6 06:28:40 :: Cannot set online status to 0
-Jul  6 06:28:40 :: Uriel has connected.
-Jul  6 06:28:40 :: Uriel [127.0.0.1] has connected.
-Jul  6 06:28:43 :: Cannot connect to mysql database in enter player game.
-Jul  6 06:28:43 :: Cannot set last_login for Uriel in player_logins
-Jul  6 06:28:43 :: Uriel retrieving crash-saved items and entering game.
-Jul  6 06:28:43 :: Uriel (level 1) has 0 objects (max 1000).
-Jul  6 06:28:43 :: Uriel had no variable file
-Jul  6 06:28:43 :: Cannot connect to mysql database in note_list_all_cats.
-Jul  6 06:28:46 :: Cannot connect to mysql database in point update.
-Jul  6 06:28:46 :: Cannot set online status to 0
-Jul  6 06:28:46 :: Cannot connect to mysql database in point update.
-Jul  6 06:28:46 :: Cannot set delete Uriel from player_data table
-Jul  6 06:28:46 :: Cannot insert data for Uriel into player_data table
-Jul  6 06:28:46 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('3','1','Uriel','Uriel','Uriel', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '5', '0')
-Jul  6 06:28:46 :: Cannot insert data for rayal into player_forum_data table
-Jul  6 06:28:52 :: Cannot connect to mysql database in point update.
-Jul  6 06:28:52 :: Cannot set online status to 0
-Jul  6 06:28:52 :: Cannot connect to mysql database in point update.
-Jul  6 06:28:52 :: Cannot set delete Uriel from player_data table
-Jul  6 06:28:52 :: Cannot insert data for Uriel into player_data table
-Jul  6 06:28:52 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('3','1','Uriel','Uriel','Uriel', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '5', '0')
-Jul  6 06:28:52 :: Cannot insert data for rayal into player_forum_data table
-Jul  6 06:28:58 :: Cannot connect to mysql database in point update.
-Jul  6 06:28:58 :: Cannot set online status to 0
-Jul  6 06:28:58 :: Cannot connect to mysql database in point update.
-Jul  6 06:28:58 :: Cannot set delete Uriel from player_data table
-Jul  6 06:28:58 :: Cannot insert data for Uriel into player_data table
-Jul  6 06:28:58 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('3','1','Uriel','Uriel','Uriel', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '5', '0')
-Jul  6 06:28:58 :: Cannot insert data for rayal into player_forum_data table
-Jul  6 06:29:04 :: Cannot connect to mysql database in point update.
-Jul  6 06:29:04 :: Cannot set online status to 0
-Jul  6 06:29:04 :: Cannot connect to mysql database in point update.
-Jul  6 06:29:04 :: Cannot set delete Uriel from player_data table
-Jul  6 06:29:04 :: Cannot insert data for Uriel into player_data table
-Jul  6 06:29:04 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('3','1','Uriel','Uriel','Uriel', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '5', '0')
-Jul  6 06:29:04 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:20:58 :: Using etc/config for configuration.
+Dec  8 12:20:58 :: CircleMUD, version 3.1
+Dec  8 12:20:58 :: OasisOLC 2.0.6
+Dec  8 12:20:58 :: DG Scripts 1.0.14
+Dec  8 12:20:58 :: ASCII Player Files 3.0.1
+Dec  8 12:20:58 :: CWG Rasputin - 1.2.28b
+Dec  8 12:20:58 :: Using lib as data directory.
+Dec  8 12:20:58 :: Running game on port 9080.
+Dec  8 12:20:58 :: Finding player limit.
+Dec  8 12:20:58 ::    Setting player limit to 50 using rlimit.
+Dec  8 12:20:58 :: Opening mother connection.
+Dec  8 12:20:58 :: Binding to all IP interfaces on this host.
+Dec  8 12:20:58 :: Boot db -- BEGIN.
+Dec  8 12:20:58 :: Resetting the game time:
+Dec  8 12:20:58 ::    Current Gametime: 13H 21D 4M 1014Y.
+Dec  8 12:20:58 :: Reading news, credits, help, bground, info & motds.
+Dec  8 12:20:58 :: Loading spell definitions.
+Dec  8 12:20:58 :: Loading feats.
+Dec  8 12:20:58 :: Loading level tables.
+Dec  8 12:20:58 :: SYSERR: Non-numeric entry in file etc/levels, line number 4, section fortitude.
+Dec  8 12:20:58 :: Loading zone table.
+Dec  8 12:20:58 ::    51 zones, 6120 bytes.
+Dec  8 12:20:58 :: Loading triggers and generating index.
+Dec  8 12:20:58 :: Loading rooms.
+Dec  8 12:20:58 ::    4882 rooms, 1015456 bytes.
+Dec  8 12:20:58 :: Renumbering rooms.
+Dec  8 12:20:58 :: Checking start rooms.
+Dec  8 12:20:58 :: Loading mobs and generating index.
+Dec  8 12:20:58 ::    566 mobs, 18112 bytes in index, 2743968 bytes in prototypes.
+Dec  8 12:20:58 :: Loading objs and generating index.
+Dec  8 12:20:58 ::    744 objs, 23808 bytes in index, 339264 bytes in prototypes.
+Dec  8 12:20:58 :: Warning: object #4025 (@WTabbard of the Faithful@n) uses deprecated saving throw applies
+Dec  8 12:20:58 :: Converted armor #4033 [Gown Of Destiny] armor=0 i=0 maxdex=100 acheck=0 sfail=0
+Dec  8 12:20:58 :: Warning: object #4403 (a dragonhide haversack) uses deprecated saving throw applies
+Dec  8 12:20:58 :: Warning: object #4404 (Mask of Darkness) uses deprecated saving throw applies
+Dec  8 12:20:58 :: Warning: object #4411 (Mantle of the Hills) uses deprecated saving throw applies
+Dec  8 12:20:58 :: Warning: object #60002 (a silver bracelet engraved with stylized falcons) uses deprecated saving throw applies
+Dec  8 12:20:58 :: Converted armor #60008 [a set of bright white monks robes embroidered with gold and silver] armor=0 i=0 maxdex=100 acheck=0 sfail=0
+Dec  8 12:20:58 :: Renumbering zone table.
+Dec  8 12:20:58 :: Loading disabled commands list...
+Dec  8 12:20:58 :: Saving converted worldfiles to disk.
+Dec  8 12:20:58 :: OasisOLC: Saving objects 'world/obj/600.obj'
+Dec  8 12:20:58 :: OasisOLC: Saving objects 'world/obj/40.obj'
+Dec  8 12:20:58 :: Loading shops.
+Dec  8 12:20:58 :: Loading quests.
+Dec  8 12:20:58 ::    92 entries, 11776 bytes.
+Dec  8 12:20:58 :: Loading guild masters.
+Dec  8 12:20:58 :: Loading Weapons.
+Dec  8 12:20:58 :: Loading Armor.
+Dec  8 12:20:58 :: Loading Races.
+Dec  8 12:20:58 :: Loading Pets.
+Dec  8 12:20:58 :: Loading Deities.
+Dec  8 12:20:58 :: Setting up fightsort_table
+Dec  8 12:20:58 :: Placing Harvesting Nodes
+Dec  8 12:20:58 :: htree stats (global): 8826 nodes, 1270944 bytes (depth 4/5 used/possible)
+Dec  8 12:20:58 :: Loading help entries.
+Dec  8 12:20:58 ::    3554 entries, 85296 bytes.
+Dec  8 12:20:58 :: Setting up context sensitive help system for OLC
+Dec  8 12:20:58 :: Generating player index.
+Dec  8 12:20:58 :: Loading fight messages.
+Dec  8 12:20:58 :: Loading social messages.
+Dec  8 12:20:58 :: Social table contains 368 socials.
+Dec  8 12:20:58 :: Building command list.
+Dec  8 12:20:58 :: Command info rebuilt, 916 total commands.
+Dec  8 12:20:58 :: Assigning function pointers:
+Dec  8 12:20:58 ::    Mobiles.
+Dec  8 12:20:58 ::    Shopkeepers.
+Dec  8 12:20:58 ::    Objects.
+Dec  8 12:20:58 ::    Rooms.
+Dec  8 12:20:58 ::    Guildmasters.
+Dec  8 12:20:58 ::    Questmasters.
+Dec  8 12:20:58 :: SYSERR: Quest #3500 has no questmaster specified.
+Dec  8 12:20:58 :: SYSERR: Quest #4503 has no questmaster specified.
+Dec  8 12:20:58 :: Init Object Unique Hash
+Dec  8 12:20:58 :: Booting assembled objects.
+Dec  8 12:20:58 :: Assigning skill levels.
+Dec  8 12:20:58 :: Assigning race skill classes.
+Dec  8 12:20:58 :: Sorting command list and spells.
+Dec  8 12:20:58 :: Booting mail system.
+Dec  8 12:20:58 ::    58640000 bytes read.
+Dec  8 12:20:58 ::    Mail file read -- 5291 messages.
+Dec  8 12:20:58 :: Booting boards system.
+Dec  8 12:20:58 :: There are 7 boards located; 0 messages
+Dec  8 12:20:58 :: Reading banned site and invalid-name list.
+Dec  8 12:20:58 :: Booting houses.
+Dec  8 12:20:58 :: Loading clans.
+Dec  8 12:20:58 :: Loading polls.
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 0 OPTION 1
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '0' AND  `option` = '1'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 1
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '1'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 2
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '2'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 3
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '3'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 4
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '4'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 5
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '5'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 6
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '6'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 1 OPTION 7
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '1' AND  `option` = '7'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 1
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '1'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 2
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '2'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 3
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '3'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 4
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '4'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 5
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '5'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 6
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '6'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 7
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '7'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 8
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '8'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 5 OPTION 9
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '5' AND  `option` = '9'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 1
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '1'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 2
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '2'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 3
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '3'
+Dec  8 12:20:58 :: Cannot connect to mysql database in add poll option.
+Dec  8 12:20:58 :: NO RESULT FOUND FOR POLL NUMBER 6 OPTION 4
+Dec  8 12:20:58 :: SELECT name FROM  `poll_data` WHERE  `poll_num` = '6' AND  `option` = '4'
+Dec  8 12:20:58 :: Resetting #0: Limbo (rooms 0-99).
+Dec  8 12:20:58 :: Resetting #1: CODE RESERVED VNUMS DON'T EDIT (rooms 100-199).
+Dec  8 12:20:58 :: Resetting #2: CODE RESERVED VNUMS DON'T EDIT (rooms 200-299).
+Dec  8 12:20:58 :: Resetting #6: Crypt of Shadow I (rooms 600-699).
+Dec  8 12:20:58 :: Resetting #9: Training Pits (Luskan) (rooms 900-999).
+Dec  8 12:20:58 :: Resetting #10: The Trading Post (rooms 1000-1099).
+Dec  8 12:20:58 :: Resetting #12: Earth Cultists (rooms 1200-1299).
+Dec  8 12:20:58 :: Resetting #14: Orc Camp - Spine of the World (rooms 1400-1499).
+Dec  8 12:20:58 :: Resetting #15: Fireside Tavern and Gnoll Caverns (rooms 1500-1599).
+Dec  8 12:20:58 :: Resetting #22: Flaming Hand Mercenary Camp (rooms 2200-2299).
+Dec  8 12:20:58 :: Resetting #23: Tainted Druids (Solace) (rooms 2300-2399).
+Dec  8 12:20:58 :: Resetting #26: Luskan Buildings (rooms 2600-2699).
+Dec  8 12:20:58 :: Resetting #27: Immortals Rooms (rooms 2700-2799).
+Dec  8 12:20:58 :: Resetting #28: Dragon's Lair (rooms 2800-2999).
+Dec  8 12:20:58 :: Resetting #30: Luksan (rooms 3000-3299).
+Dec  8 12:20:58 :: Resetting #33: Mud School (rooms 3300-3399).
+Dec  8 12:20:58 :: Resetting #34: D20 School (rooms 3400-3499).
+Dec  8 12:20:58 :: Resetting #35: Luskan Sewers (rooms 3500-3599).
+Dec  8 12:20:58 :: Resetting #36: Ruins of Illusk (rooms 3600-3799).
+Dec  8 12:20:58 :: Resetting #38: Cavern of the fire giants (rooms 3800-3899).
+Dec  8 12:20:58 :: Resetting #40: Neverwinter (rooms 4000-4399).
+Dec  8 12:20:58 :: Resetting #44: Talos`s Zone (rooms 4400-4499).
+Dec  8 12:20:58 :: Resetting #45: Hunters Forest (rooms 4500-4599).
+Dec  8 12:20:58 :: Resetting #46: Moorwaine Swamp (rooms 4600-4699).
+Dec  8 12:20:58 :: Resetting #47: lower crypt (rooms 4700-4799).
+Dec  8 12:20:58 :: Resetting #48: Mirabar (rooms 4800-4998).
+Dec  8 12:20:58 :: Resetting #49: Mirabar 2 (rooms 4999-4999).
+Dec  8 12:20:58 :: Resetting #51: Mere of Dead Men (rooms 5100-5199).
+Dec  8 12:20:58 :: Resetting #52: Gauntlgrym (rooms 5200-5399).
+Dec  8 12:20:58 :: Resetting #60: New Zone (rooms 6000-6399).
+Dec  8 12:20:58 :: Resetting #100: Chult (rooms 10000-10199).
+Dec  8 12:20:58 :: Resetting #102: Dwarven Stronghold (rooms 10200-10399).
+Dec  8 12:20:58 :: Resetting #104: Mezro (rooms 10400-10599).
+Dec  8 12:20:58 :: Resetting #106: Ubtao's Temple (rooms 10600-10799).
+Dec  8 12:20:58 :: Resetting #108: Chult (rooms 10800-10999).
+Dec  8 12:20:58 :: Resetting #110: Under the mines of Mirabar (rooms 11000-11099).
+Dec  8 12:20:58 :: Resetting #120: Undermountain Level I (rooms 12000-12199).
+Dec  8 12:20:58 :: Resetting #300: Stock Objects and Mobs I (rooms 30000-30099).
+Dec  8 12:20:58 :: Resetting #301: Stock Objects and Mobs II (rooms 30100-30199).
+Dec  8 12:20:58 :: Resetting #302: Quest Rewards I (rooms 30200-30299).
+Dec  8 12:20:58 :: Resetting #500: Road-Neverwinter/Luskan (rooms 50000-50199).
+Dec  8 12:20:58 :: Resetting #502: Road-Luskan/Mirabar (rooms 50200-50499).
+Dec  8 12:20:58 :: Resetting #505: Road-Neverwinter/Waterdeep (rooms 50500-50849).
+Dec  8 12:20:58 :: Resetting #508: Road-Waterdeep/Triboar (rooms 50850-51049).
+Dec  8 12:20:58 :: Resetting #510: Road-Silverymoon/Triboar (rooms 51050-51449).
+Dec  8 12:20:58 :: Resetting #514: Road-Mirabar/Triboar (rooms 51450-51799).
+Dec  8 12:20:58 :: Resetting #596: Whack-a-Mole (rooms 59600-59699).
+Dec  8 12:20:58 :: Resetting #597: Quests (rooms 59700-59799).
+Dec  8 12:20:58 :: Resetting #598: Vehicles (rooms 59800-59899).
+Dec  8 12:20:58 :: Resetting #599: Player Housing (rooms 59900-59999).
+Dec  8 12:20:58 :: Resetting #600: Crafting Items (rooms 60000-65000).
+Dec  8 12:20:58 :: Boot db -- DONE.
+Dec  8 12:20:58 :: Signal trapping.
+Dec  8 12:20:58 :: Entering game loop.
+Dec  8 12:20:58 :: No connections.  Going to sleep.
+Dec  8 12:21:17 :: New connection.  Waking up.
+Dec  8 12:21:18 :: SYSERR: an indifferent bank teller (#3012): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: Shira, the rogue trainer (#3028): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: the troll shaman (#1511): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: the troglodyte cleric (#1507): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a short woman with long red hair (#1519): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: an old sage (#1518): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a shifty looking individual (#1521): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a noxious, green vaporous cloud (#1217): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1220): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: High earth cultist Malis (#1213): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: the temple priest (#1210): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: Master Tolbert (#1215): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: the master's apprentice (#920): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: Renthilos (#901): Attempting to call non-existing mob function.
+Dec  8 12:21:18 :: SYSERR: an undead priest of Cyric (#605): Attempting to call non-existing mob function.
+Dec  8 12:21:23 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:23 :: Cannot set online status to 0
+Dec  8 12:21:25 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:21:29 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:29 :: Cannot set online status to 0
+Dec  8 12:21:31 :: SYSERR: Couldn't open player file plrfiles/P-T/rayal.plr
+Dec  8 12:21:35 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:35 :: Cannot set online status to 0
+Dec  8 12:21:36 :: New player: Rayal
+Dec  8 12:21:36 :: New player: Rayal
+Dec  8 12:21:38 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:21:38 :: Cannot set last_login for Rayal in player_logins
+Dec  8 12:21:38 :: Cannot set forum_exp to 0 for rayal from player_extra_data table
+Dec  8 12:21:38 :: Cannot set delete Rayal from player_data table
+Dec  8 12:21:38 :: Rayal entering game with no equipment.
+Dec  8 12:21:38 :: Rayal had no variable file
+Dec  8 12:21:38 :: Cannot connect to mysql database in note_list_all_cats.
+Dec  8 12:21:41 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:41 :: Cannot set online status to 0
+Dec  8 12:21:41 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:41 :: Cannot set delete Rayal from player_data table
+Dec  8 12:21:41 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:21:41 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:21:41 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:21:47 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:47 :: Cannot set online status to 0
+Dec  8 12:21:47 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:47 :: Cannot set delete Rayal from player_data table
+Dec  8 12:21:47 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:21:47 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:21:47 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:21:53 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:53 :: Cannot set online status to 0
+Dec  8 12:21:53 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:53 :: Cannot set delete Rayal from player_data table
+Dec  8 12:21:53 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:21:53 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:21:53 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:21:58 :: Rayal has quit the game.
+Dec  8 12:21:59 :: Cannot connect to mysql database in point update.
+Dec  8 12:21:59 :: Cannot set online status to 0
+Dec  8 12:22:01 :: Losing player: Rayal.
+Dec  8 12:22:01 :: No connections.  Going to sleep.
+Dec  8 12:24:15 :: New connection.  Waking up.
+Dec  8 12:24:18 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:18 :: Cannot set online status to 0
+Dec  8 12:24:19 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:24:21 :: Rayal has connected.
+Dec  8 12:24:21 :: Rayal [127.0.0.1] has connected.
+Dec  8 12:24:24 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:24 :: Cannot set online status to 0
+Dec  8 12:24:30 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:30 :: Cannot set online status to 0
+Dec  8 12:24:33 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:24:33 :: Cannot set email for account Rayal
+Dec  8 12:24:36 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:36 :: Cannot set online status to 0
+Dec  8 12:24:38 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:24:38 :: Cannot set last_login for Rayal in player_logins
+Dec  8 12:24:38 :: Cannot set forum_exp to 0 for rayal from player_extra_data table
+Dec  8 12:24:38 :: Cannot set delete Rayal from player_data table
+Dec  8 12:24:38 :: Rayal un-renting and entering game.
+Dec  8 12:24:38 :: Rayal (level 1) has 0 objects (max 1000).
+Dec  8 12:24:38 :: Rayal had no variable file
+Dec  8 12:24:38 :: Cannot connect to mysql database in note_list_all_cats.
+Dec  8 12:24:42 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:42 :: Cannot set online status to 0
+Dec  8 12:24:42 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:42 :: Cannot set delete Rayal from player_data table
+Dec  8 12:24:42 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:24:42 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:24:42 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:24:48 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:48 :: Cannot set online status to 0
+Dec  8 12:24:48 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:48 :: Cannot set delete Rayal from player_data table
+Dec  8 12:24:48 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:24:48 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:24:48 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:24:54 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:54 :: Cannot set online status to 0
+Dec  8 12:24:54 :: Cannot connect to mysql database in point update.
+Dec  8 12:24:54 :: Cannot set delete Rayal from player_data table
+Dec  8 12:24:54 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:24:54 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:24:54 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:00 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:00 :: Cannot set online status to 0
+Dec  8 12:25:00 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:00 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:00 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:00 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:00 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:06 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:06 :: Cannot set online status to 0
+Dec  8 12:25:06 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:06 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:06 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:06 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:06 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:12 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:12 :: Cannot set online status to 0
+Dec  8 12:25:12 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:12 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:12 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:12 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:12 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:18 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:18 :: Cannot set online status to 0
+Dec  8 12:25:18 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:18 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:18 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:18 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:18 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:24 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:24 :: Cannot set online status to 0
+Dec  8 12:25:24 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:24 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:24 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:24 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:24 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:30 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:30 :: Cannot set online status to 0
+Dec  8 12:25:30 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:30 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:30 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:30 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:30 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:36 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:36 :: Cannot set online status to 0
+Dec  8 12:25:36 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:36 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:36 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:36 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:36 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:42 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:42 :: Cannot set online status to 0
+Dec  8 12:25:42 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:42 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:42 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:42 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:42 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:48 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:48 :: Cannot set online status to 0
+Dec  8 12:25:48 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:48 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:48 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:48 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:48 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:25:54 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:54 :: Cannot set online status to 0
+Dec  8 12:25:54 :: Cannot connect to mysql database in point update.
+Dec  8 12:25:54 :: Cannot set delete Rayal from player_data table
+Dec  8 12:25:54 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:25:54 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:25:54 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:00 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:00 :: Cannot set online status to 0
+Dec  8 12:26:00 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:00 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:00 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:00 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:00 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:06 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:06 :: Cannot set online status to 0
+Dec  8 12:26:06 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:06 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:06 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:06 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:06 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:12 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:12 :: Cannot set online status to 0
+Dec  8 12:26:12 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:12 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:12 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:12 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:12 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:18 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:18 :: Cannot set online status to 0
+Dec  8 12:26:18 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:18 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:18 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:18 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:18 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:24 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:24 :: Cannot set online status to 0
+Dec  8 12:26:24 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:24 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:24 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:24 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:24 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:30 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:30 :: Cannot set online status to 0
+Dec  8 12:26:30 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:30 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:30 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:30 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:30 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:36 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:36 :: Cannot set online status to 0
+Dec  8 12:26:36 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:36 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:36 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:36 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:36 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:42 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:42 :: Cannot set online status to 0
+Dec  8 12:26:42 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:42 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:42 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:42 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:42 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:48 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:48 :: Cannot set online status to 0
+Dec  8 12:26:48 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:48 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:48 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:48 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:48 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:26:54 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:54 :: Cannot set online status to 0
+Dec  8 12:26:54 :: Cannot connect to mysql database in point update.
+Dec  8 12:26:54 :: Cannot set delete Rayal from player_data table
+Dec  8 12:26:54 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:26:54 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:26:54 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:27:00 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:00 :: Cannot set online status to 0
+Dec  8 12:27:00 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:00 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:00 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:27:00 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:27:00 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:27:01 :: Rayal has quit the game.
+Dec  8 12:27:03 :: Losing player: Rayal.
+Dec  8 12:27:03 :: No connections.  Going to sleep.
+Dec  8 12:27:06 :: New connection.  Waking up.
+Dec  8 12:27:10 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:10 :: Cannot set online status to 0
+Dec  8 12:27:16 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:16 :: Cannot set online status to 0
+Dec  8 12:27:20 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:27:21 :: Rayal has connected.
+Dec  8 12:27:21 :: Rayal [127.0.0.1] has connected.
+Dec  8 12:27:22 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:22 :: Cannot set online status to 0
+Dec  8 12:27:24 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:27:24 :: Cannot set last_login for Rayal in player_logins
+Dec  8 12:27:24 :: Cannot set forum_exp to 0 for rayal from player_extra_data table
+Dec  8 12:27:24 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:24 :: Rayal un-renting and entering game.
+Dec  8 12:27:24 :: Rayal (level 1) has 0 objects (max 1000).
+Dec  8 12:27:24 :: Rayal had no variable file
+Dec  8 12:27:24 :: Cannot connect to mysql database in note_list_all_cats.
+Dec  8 12:27:28 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:28 :: Cannot set online status to 0
+Dec  8 12:27:28 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:28 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:28 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:27:28 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:27:28 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:27:34 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:34 :: Cannot set online status to 0
+Dec  8 12:27:34 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:34 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:34 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:27:34 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:27:34 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:27:40 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:40 :: Cannot set online status to 0
+Dec  8 12:27:40 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:40 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:40 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:27:40 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:27:40 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:27:46 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:46 :: Cannot set online status to 0
+Dec  8 12:27:46 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:46 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:46 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:27:46 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:27:46 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:27:52 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:52 :: Cannot set online status to 0
+Dec  8 12:27:52 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:52 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:52 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:27:52 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:27:52 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:27:58 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:58 :: Cannot set online status to 0
+Dec  8 12:27:58 :: Cannot connect to mysql database in point update.
+Dec  8 12:27:58 :: Cannot set delete Rayal from player_data table
+Dec  8 12:27:58 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:27:58 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:27:58 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:28:00 :: Rayal has quit the game.
+Dec  8 12:28:04 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:04 :: Cannot set online status to 0
+Dec  8 12:28:10 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:10 :: Cannot set online status to 0
+Dec  8 12:28:16 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:16 :: Cannot set online status to 0
+Dec  8 12:28:22 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:22 :: Cannot set online status to 0
+Dec  8 12:28:28 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:28 :: Cannot set online status to 0
+Dec  8 12:28:34 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:34 :: Cannot set online status to 0
+Dec  8 12:28:40 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:40 :: Cannot set online status to 0
+Dec  8 12:28:46 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:46 :: Cannot set online status to 0
+Dec  8 12:28:52 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:52 :: Cannot set online status to 0
+Dec  8 12:28:56 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:28:56 :: Cannot set last_login for Rayal in player_logins
+Dec  8 12:28:56 :: Cannot set forum_exp to 0 for rayal from player_extra_data table
+Dec  8 12:28:56 :: Cannot set delete Rayal from player_data table
+Dec  8 12:28:56 :: Rayal un-renting and entering game.
+Dec  8 12:28:56 :: Rayal (level 1) has 0 objects (max 1000).
+Dec  8 12:28:56 :: Add_to_lookup failed. Already there. (uid = 4)
+Dec  8 12:28:56 :: Cannot connect to mysql database in note_list_all_cats.
+Dec  8 12:28:58 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:58 :: Cannot set online status to 0
+Dec  8 12:28:58 :: Cannot connect to mysql database in point update.
+Dec  8 12:28:58 :: Cannot set delete Rayal from player_data table
+Dec  8 12:28:58 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:28:58 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('4','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:28:58 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:29:00 :: Rayal has quit the game.
+Dec  8 12:29:03 :: Losing player: Rayal.
+Dec  8 12:29:03 :: No connections.  Going to sleep.
+Dec  8 12:31:52 :: New connection.  Waking up.
+Dec  8 12:31:53 :: Cannot connect to mysql database in point update.
+Dec  8 12:31:53 :: Cannot set online status to 0
+Dec  8 12:31:58 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:31:59 :: Cannot connect to mysql database in point update.
+Dec  8 12:31:59 :: Cannot set online status to 0
+Dec  8 12:32:04 :: SYSERR: Couldn't open player file plrfiles/P-T/rayal.plr
+Dec  8 12:32:05 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:05 :: Cannot set online status to 0
+Dec  8 12:32:09 :: New player: Rayal
+Dec  8 12:32:09 :: New player: Rayal
+Dec  8 12:32:11 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:11 :: Cannot set online status to 0
+Dec  8 12:32:12 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:32:12 :: Cannot set last_login for Rayal in player_logins
+Dec  8 12:32:12 :: Cannot set forum_exp to 0 for rayal from player_extra_data table
+Dec  8 12:32:12 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:12 :: Rayal entering game with no equipment.
+Dec  8 12:32:12 :: Rayal had no variable file
+Dec  8 12:32:12 :: Cannot connect to mysql database in note_list_all_cats.
+Dec  8 12:32:17 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:17 :: Cannot set online status to 0
+Dec  8 12:32:17 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:17 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:17 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:17 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:17 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:32:23 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist acolyte (#1221): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist follower (#1203): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist skeptic (#1207): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist skeptic (#1206): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist convert (#1204): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist acolyte (#1209): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist priest (#1200): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: SYSERR: a earth cultist follower (#1202): Attempting to call non-existing mob function.
+Dec  8 12:32:23 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:23 :: Cannot set online status to 0
+Dec  8 12:32:23 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:23 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:23 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:23 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:23 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:32:29 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:29 :: Cannot set online status to 0
+Dec  8 12:32:29 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:29 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:29 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:29 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:29 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:32:35 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:35 :: Cannot set online status to 0
+Dec  8 12:32:35 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:35 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:35 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:35 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:35 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:32:41 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:41 :: Cannot set online status to 0
+Dec  8 12:32:41 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:41 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:41 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:41 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:41 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:32:47 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:47 :: Cannot set online status to 0
+Dec  8 12:32:47 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:47 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:47 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:47 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:47 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:32:53 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:53 :: Cannot set online status to 0
+Dec  8 12:32:53 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:53 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:53 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:53 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:53 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:32:59 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:59 :: Cannot set online status to 0
+Dec  8 12:32:59 :: Cannot connect to mysql database in point update.
+Dec  8 12:32:59 :: Cannot set delete Rayal from player_data table
+Dec  8 12:32:59 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:32:59 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:32:59 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:33:05 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:05 :: Cannot set online status to 0
+Dec  8 12:33:05 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:05 :: Cannot set delete Rayal from player_data table
+Dec  8 12:33:05 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:33:05 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:33:05 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:33:11 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:11 :: Cannot set online status to 0
+Dec  8 12:33:11 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:11 :: Cannot set delete Rayal from player_data table
+Dec  8 12:33:11 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:33:11 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:33:11 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:33:17 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:17 :: Cannot set online status to 0
+Dec  8 12:33:17 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:17 :: Cannot set delete Rayal from player_data table
+Dec  8 12:33:17 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:33:17 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:33:17 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:33:22 :: Rayal has quit the game.
+Dec  8 12:33:23 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:23 :: Cannot set online status to 0
+Dec  8 12:33:26 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:33:29 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:29 :: Cannot set online status to 0
+Dec  8 12:33:32 :: Rayal has connected.
+Dec  8 12:33:32 :: Rayal [127.0.0.1] has connected.
+Dec  8 12:33:35 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:33:35 :: Cannot set last_login for Rayal in player_logins
+Dec  8 12:33:35 :: Cannot set forum_exp to 0 for rayal from player_extra_data table
+Dec  8 12:33:35 :: Cannot set delete Rayal from player_data table
+Dec  8 12:33:35 :: Rayal un-renting and entering game.
+Dec  8 12:33:35 :: Rayal (level 1) has 0 objects (max 1000).
+Dec  8 12:33:35 :: Rayal had no variable file
+Dec  8 12:33:35 :: Cannot connect to mysql database in note_list_all_cats.
+Dec  8 12:33:35 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:35 :: Cannot set online status to 0
+Dec  8 12:33:35 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:35 :: Cannot set delete Rayal from player_data table
+Dec  8 12:33:35 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:33:35 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:33:35 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:33:41 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:41 :: Cannot set online status to 0
+Dec  8 12:33:41 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:41 :: Cannot set delete Rayal from player_data table
+Dec  8 12:33:41 :: Cannot insert data for Rayal into player_data table
+Dec  8 12:33:41 :: INSERT INTO player_data (idnum,online,name,title,titlenocolor,rp_points,deity,laston,artisan_exp,experience,classes,race,quest_points,clan,clan_rank,web_password,alignment,level,account,adm_level,clan_rank_num) VALUES ('5','1','Rayal','Rayal','Rayal', '0','None', NOW(), '0.000000', '0', 'Artisan 1', 'spirit', '0', 'Clanless', 'Trainee', '(null)', 'True Neutral', '0', 'rayal', '0', '0')
+Dec  8 12:33:41 :: Cannot insert data for rayal into player_forum_data table
+Dec  8 12:33:47 :: Rayal has self-deleted.
+Dec  8 12:33:47 :: PCLEAN: rayal Lev: 1 Last: Dec-08-2023
+Dec  8 12:33:47 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:47 :: Cannot set online status to 0
+Dec  8 12:33:53 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:53 :: Cannot set online status to 0
+Dec  8 12:33:54 :: Cannot connect to mysql database in enter player game.
+Dec  8 12:33:59 :: Cannot connect to mysql database in point update.
+Dec  8 12:33:59 :: Cannot set online status to 0
+Dec  8 12:34:05 :: Cannot connect to mysql database in point update.
+Dec  8 12:34:05 :: Cannot set online status to 0
+Dec  8 12:34:11 :: Cannot connect to mysql database in point update.
+Dec  8 12:34:11 :: Cannot set online status to 0
+Dec  8 12:34:12 :: WARNING: EOF on socket read (connection broken by peer)
+Dec  8 12:34:12 :: No connections.  Going to sleep.
