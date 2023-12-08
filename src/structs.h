@@ -3978,3 +3978,5 @@ struct ship_data {
   room_rnum room10;
   int ship_speed;
 };
+
+

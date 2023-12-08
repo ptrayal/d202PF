@@ -1679,7 +1679,7 @@ char level_version[READ_SIZE];
 int level_vernum = 0;
 int save_classes[SAVING_WILL][NUM_CLASSES];
 int basehit_classes[NUM_CLASSES];
-int exp_multiplier;
+extern int exp_multiplier;
 byte object_saving_throws(int material_type, int type)
 {
   switch (type) {
@@ -4488,85 +4488,85 @@ int total_skill_levels(struct char_data *ch, int skill)
 int load_levels()
 {
     FILE *fp;
-    char line[READ_SIZE]={'\0'}, sect_name[READ_SIZE] = { '\0' }, *ptr;
+    char line[READ_SIZE] = {'\0'}, sect_name[READ_SIZE] = { '\0' }, *ptr;
     int  linenum = 0, tp, cls, sect_type = -1;
-    if (!(fp = fopen(LEVEL_CONFIG, "r"))) 
+    if (!(fp = fopen(LEVEL_CONFIG, "r")))
     {
         log("SYSERR: Could not open level configuration file, error: %s!", strerror(errno));
         return -1;
     }
-    for (tp = 0; tp < NUM_CLASSES; tp++) 
+    for (tp = 0; tp < NUM_CLASSES; tp++)
     {
-        for (cls = 0; cls <= SAVING_WILL; cls++) 
+        for (cls = 0; cls < SAVING_WILL; cls++)
         {
             save_classes[cls][tp] = 0;
         }
         basehit_classes[tp] = 0;
     }
-    for (;;) 
+    for (;;)
     {
         linenum++;
-        if (!fgets(line, READ_SIZE, fp)) 
-        {  
+        if (!fgets(line, READ_SIZE, fp))
+        {
             /* eof check */
             log("SYSERR: Unexpected EOF in file %s.", LEVEL_CONFIG);
             return -1;
-        } 
-        else if (*line == '$') 
-        { 
+        }
+        else if (*line == '$')
+        {
             /* end of file */
             break;
-        } 
-        else if (*line == '*') 
-        { 
+        }
+        else if (*line == '*')
+        {
             /* comment line */
             continue;
-        } 
-        else if (*line == '#') 
-        { 
+        }
+        else if (*line == '#')
+        {
             /* start of a section */
-            if ((tp = sscanf(line, "#%s", sect_name)) != 1) 
+            if ((tp = sscanf(line, "#%s", sect_name)) != 1)
             {
                 log("SYSERR: Format error in file %s, line number %d - text: %s.", LEVEL_CONFIG, linenum, line);
                 return -1;
-            } 
-            else if ((sect_type = search_block(sect_name, config_sect, false)) == -1) 
+            }
+            else if ((sect_type = search_block(sect_name, config_sect, false)) == -1)
             {
                 log("SYSERR: Invalid section in file %s, line number %d: %s.", LEVEL_CONFIG, linenum, sect_name);
                 return -1;
             }
-        } 
-        else 
+        }
+        else
         {
-            if (sect_type == CONFIG_LEVEL_VERSION) 
+            if (sect_type == CONFIG_LEVEL_VERSION)
             {
-                if (!strncmp(line, "Suntzu", 6)) 
+                if (!strncmp(line, "Suntzu", 6))
                 {
                     log("SYSERR: Suntzu %s config files are not compatible with rasputin", LEVEL_CONFIG);
                     return -1;
-                } 
+                }
                 else
                 {
-                    strcpy(level_version, line); 
+                    strcpy(level_version, line);
                 }
 
-            } 
-            else if (sect_type == CONFIG_LEVEL_VERNUM) 
+            }
+            else if (sect_type == CONFIG_LEVEL_VERNUM)
             {
                 level_vernum = atoi(line);
-            } 
-            else if (sect_type == CONFIG_LEVEL_EXPERIENCE) 
+            }
+            else if (sect_type == CONFIG_LEVEL_EXPERIENCE)
             {
                 tp = atoi(line);
                 exp_multiplier = tp;
-            } 
-            else if ((sect_type >= CONFIG_LEVEL_FORTITUDE && sect_type <= CONFIG_LEVEL_WILL) || sect_type == CONFIG_LEVEL_BASEHIT) 
+            }
+            else if ((sect_type >= CONFIG_LEVEL_FORTITUDE && sect_type <= CONFIG_LEVEL_WILL) || sect_type == CONFIG_LEVEL_BASEHIT)
             {
-                for (ptr = line; ptr && *ptr && !isdigit(*ptr); ptr++);
+                for (ptr = line; ptr && *ptr && !isdigit(*ptr); ptr++)
                 {
-                    if (!ptr || !*ptr || !isdigit(*ptr)) 
+                    if (!ptr || !*ptr || !isdigit(*ptr))
                     {
-                        log("SYSERR: Cannot find class number in file %s, line number %d, section %s.", 
+                        log("SYSERR: Cannot find class number in file %s, line number %d, section %s.",
                             LEVEL_CONFIG, linenum, sect_name);
                         return -1;
                     }
@@ -4575,35 +4575,35 @@ int load_levels()
                 cls = atoi(ptr);
 
                 for (; ptr && *ptr && isdigit(*ptr); ptr++)
-                  ;
-                    for (; ptr && *ptr && !isdigit(*ptr); ptr++);
-                    {
-                        if (ptr && *ptr && !isdigit(*ptr)) 
-                        {
-                            log("SYSERR: Non-numeric entry in file %s, line number %d, section %s.", 
-                                LEVEL_CONFIG, linenum, sect_name);
-                            return -1;
-                        }
-                    }
-
-                if (ptr && *ptr) 
+                    ;
+                for (; ptr && *ptr && !isdigit(*ptr); ptr++)
                 {
-                                /* There's a value */
+                    if (ptr && *ptr && !isdigit(*ptr))
+                    {
+                        log("SYSERR: Non-numeric entry in file %s, line number %d, section %s.",
+                            LEVEL_CONFIG, linenum, sect_name);
+                        return -1;
+                    }
+                }
+
+                if (ptr && *ptr)
+                {
+                    /* There's a value */
                     tp = atoi(ptr);
                 }
-                else 
+                else
                 {
-                    log("SYSERR: Need 1 value in %s, line number %d, section %s.", 
+                    log("SYSERR: Need 1 value in %s, line number %d, section %s.",
                         LEVEL_CONFIG, linenum, sect_name);
                     return -1;
                 }
-                if (cls < 0 || cls >= NUM_CLASSES) 
+                if (cls < 0 || cls >= NUM_CLASSES)
                 {
-                    log("SYSERR: Invalid class number %d in file %s, line number %d.", 
+                    log("SYSERR: Invalid class number %d in file %s, line number %d.",
                         cls, LEVEL_CONFIG, linenum);
                     return -1;
-                } 
-                else 
+                }
+                else
                 {
                     if (sect_type == CONFIG_LEVEL_BASEHIT)
                     {
@@ -4614,8 +4614,8 @@ int load_levels()
                         save_classes[SAVING_FORTITUDE + sect_type - CONFIG_LEVEL_FORTITUDE][cls] = tp;
                     }
                 }
-            } 
-            else 
+            }
+            else
             {
                 log("Unsupported level config option");
             }

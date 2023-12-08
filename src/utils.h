@@ -1,3 +1,7 @@
+#ifndef UTILS_H_
+#define UTILS_H_
+
+
 /* ************************************************************************
 *   File: utils.h                                       Part of CircleMUD *
 *  Usage: header file: utility macros and prototypes of utility funcs     *
@@ -1507,3 +1511,5 @@ void admin_set(struct char_data *ch, int value);
 #define MONEY_STRING            ((CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? "steel coins" : "gold coins"))
 
 #define GET_REPUTATION(ch)      (ch->reputation)
+
+#endif

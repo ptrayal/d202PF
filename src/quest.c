@@ -28,7 +28,7 @@ extern struct index_data *obj_index;
 extern struct room_data *world;
 extern long asciiflag_conv(char *flag);
 /* Local Variables */
-int cmd_tell;
+extern int cmd_tell;
 
 const char *quest_types[] = 
 {
@@ -839,7 +839,7 @@ SPECIAL(questmaster)
     struct char_data *qm = (struct char_data *)me;
 
     /* check that qm mob has quests assigned */
-    for (rnum = 0; (rnum < total_quests && QST_MASTER(rnum) != GET_MOB_RNUM(qm)) ; rnum ++);
+    for (rnum = 0; (rnum < total_quests && QST_MASTER(rnum) != GET_MOB_RNUM(qm)) ; rnum ++)
     {
         if (rnum >= total_quests)
         {
@@ -883,4 +883,7 @@ SPECIAL(questmaster)
                     /* not a questmaster command */
         }
     }
+
+    return FALSE; // Add this line to handle cases where none of the conditions are met
 }
+

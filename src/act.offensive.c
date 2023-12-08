@@ -22,7 +22,7 @@
 #include "feats.h"
 #include "player_guilds.h"
 
-struct combat_list_type *combat_list;
+extern struct combat_list_type *combat_list;
 
 /* extern functions */
 void do_affectv_tickdown(struct char_data *i);

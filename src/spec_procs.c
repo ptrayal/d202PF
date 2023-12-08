@@ -73,7 +73,7 @@ ASPELL(spell_identify);
 void convert_coins(struct char_data *ch);
 void set_armor_values(struct obj_data *obj, int type);
 void set_weapon_values(struct obj_data *obj, int type);
-int apply_gold_cost[NUM_APPLIES+1];
+extern int apply_gold_cost[NUM_APPLIES+1];
 int set_object_level(struct obj_data *obj);
 void award_lockbox_treasure(struct char_data *ch, int level);
 int combat_skill_roll(struct char_data *ch, int skillnum);

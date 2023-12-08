@@ -245,7 +245,19 @@ void save_account(struct account_data *account)
             mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Current working directory is %s.", curdir);
         }
 
-        system("touch crashfilehere");
+        // system("touch crashfilehere");
+        // Replaced system with more friendly code.
+        FILE *crashfile = fopen("crashfilehere", "w");
+        if (crashfile != NULL)
+        {
+            // File created successfully, close it.
+            fclose(crashfile);
+        }
+        else
+        {
+            // Handle the error, print an error message, or take appropriate action.
+            perror("Error creating crashfile");
+        }
 
         if (!(fl = fopen(fname, "w")))
         {

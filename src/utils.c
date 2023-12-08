@@ -3497,8 +3497,8 @@ int calc_summoner_level(struct char_data *ch, int ch_class)
 
 char *do_lower(char *buf)
 {
-    char rVal[MSL]={'\0'};
-    int i = 0, rLength= 0;
+    char rVal[MSL] = {'\0'};
+    int i = 0, rLength = 0;
     if(buf[0] == '\0')
     {
         return NULL;
@@ -3512,7 +3512,7 @@ char *do_lower(char *buf)
 
 char *do_upper(char *buf, bool do_all)
 {
-    char rVal[MSL]={'\0'};
+    char rVal[MSL] = {'\0'};
     int i = 0, rLength = 0;
     if(buf[0] == '\0')
     {

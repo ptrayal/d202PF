@@ -239,8 +239,8 @@ extern int bitsavetodisk;
 extern int *free_start_feats[];
 extern int sorted_skill_list[SKILL_HIGH_SKILL - SKILL_LOW_SKILL + 1];
 extern struct player_index_element *player_table;
-int top_of_p_table;
-long top_idnum;
+extern int top_of_p_table;
+extern long top_idnum;
 
 
 /* external ASCII Player Files vars */
