@@ -47,16 +47,16 @@ void clanedit_save_to_disk();
 ACMD(do_oasis_clanedit)
 {
     struct descriptor_data *d;
-    char buf1[MAX_STRING_LENGTH]={'\0'};
+    char buf1[MAX_STRING_LENGTH] = {'\0'};
     struct clan_type *cptr = NULL;
     int number;
 
-/****************************************************************************/
-/** Parse any arguments.                                                   **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Parse any arguments.                                                   **/
+    /****************************************************************************/
     one_argument(argument, buf1);
 
-    if (GET_ADMLEVEL(ch) < ADMLVL_IMPL) 
+    if (GET_ADMLEVEL(ch) < ADMLVL_IMPL)
     {
         send_to_char(ch, "You can't modify clans.\r\n");
         return;
@@ -64,35 +64,35 @@ ACMD(do_oasis_clanedit)
 
     d = ch->desc;
 
-    if (!*buf1) 
+    if (!*buf1)
     {
         send_to_char(ch, "Specify a clan to edit.\r\n");
         return;
-    } 
+    }
     number = atoi(buf1);
-    if(number == 0) 
+    if(number == 0)
     {
         send_to_char(ch, "Specify a valid clan to edit (-1 for new clan).\r\n");
         return;
     }
-    if(number == -1) 
+    if(number == -1)
     {
         CREATE(d->olc, struct oasis_olc_data, 1);
         OLC_ZONE(d) = 0;
         clanedit_disp_menu(d);
-    } 
-    else 
+    }
+    else
     {
-        for (cptr = clan_info; cptr && cptr->number != number; cptr=cptr->next);
+        for (cptr = clan_info; cptr && cptr->number != number; cptr = cptr->next)
         {
-            if (cptr && (cptr->number == number)) 
+            if (cptr && (cptr->number == number))
             {
                 CREATE(d->olc, struct oasis_olc_data, 1);
                 OLC_ZONE(d) = 0;
                 OLC_CLAN(d) = cptr;
                 clanedit_disp_menu(d);
-            } 
-            else 
+            }
+            else
             {
                 send_to_char(d->character, "Invalid clan number!\r\n");
                 return;
@@ -104,11 +104,11 @@ ACMD(do_oasis_clanedit)
     SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
 
     mudlog(BRF, ADMLVL_IMMORT, TRUE,
-        "OLC: %s starts editing clans.", GET_NAME(ch));
+           "OLC: %s starts editing clans.", GET_NAME(ch));
 
     send_to_char(ch, "Saving clans.\r\n");
     mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
-        "OLC: %s saves the clans.", GET_NAME(ch));
+           "OLC: %s saves the clans.", GET_NAME(ch));
 
     clanedit_save_to_disk();
 }
@@ -518,14 +518,14 @@ void clanedit_setup_existing(struct descriptor_data *d, int number)
 {
     struct clan_type *cptr = NULL;
 
-    for (cptr = clan_info; cptr && cptr->number != number; cptr=cptr->next);
+    for (cptr = clan_info; cptr && cptr->number != number; cptr = cptr->next)
     {
-        if (cptr && (cptr->number == number)) 
+        if (cptr && (cptr->number == number))
         {
             OLC_CLAN(d) = cptr;
             clanedit_disp_menu(d);
-        } 
-        else 
+        }
+        else
         {
             send_to_char(d->character, "Invalid clan number!\r\n");
             return;

@@ -695,7 +695,6 @@ void award_expendable_item(struct char_data *ch, int grade, int type)
 void award_magic_armor(struct char_data *ch, int grade, int moblevel) 
 {
     char desc[MAX_STRING_LENGTH] = {'\0'};
-    char desc_buffer[MAX_STRING_LENGTH] = {'\0'};
     char newDesc[MAX_STRING_LENGTH] = {'\0'};
     char keywords[MAX_STRING_LENGTH] = {'\0'};
     char buf[MAX_STRING_LENGTH] = {'\0'};

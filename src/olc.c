@@ -349,4 +349,5 @@ void olc_bitvector(int *bv, const char **names, char *arg)
 
 void olc_set_show(struct char_data *ch, int olc_mode, char *arg)
 {
+  
 }

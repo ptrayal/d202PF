@@ -537,121 +537,126 @@ ACMD(do_vnum)
  
 void list_zone_commands_room(struct char_data *ch, room_vnum rvnum)
 {
-  extern struct index_data **trig_index;
-  zone_rnum zrnum = real_zone_by_thing(rvnum);
-  room_rnum rrnum = real_room(rvnum), cmd_room = NOWHERE;
-  int subcmd = 0, count = 0;
+    extern struct index_data **trig_index;
+    zone_rnum zrnum = real_zone_by_thing(rvnum);
+    room_rnum rrnum = real_room(rvnum), cmd_room = NOWHERE;
+    int subcmd = 0, count = 0;
 
-  if (zrnum == NOWHERE || rrnum == NOWHERE) {
-    send_to_char(ch, "No zone information available.\r\n");
-    return;
-  }
-
-  send_to_char(ch, "Zone commands in this room:@y\r\n");
-  while (ZOCMD.command != 'S') {
-    switch (ZOCMD.command) {
-      case 'M':
-      case 'O':
-      case 'T':
-      case 'V':
-        cmd_room = ZOCMD.arg3;
-        break;
-      case 'D':
-      case 'R':
-        cmd_room = ZOCMD.arg1;
-        break;
-      default:
-        break;
+    if (zrnum == NOWHERE || rrnum == NOWHERE)
+    {
+        send_to_char(ch, "No zone information available.\r\n");
+        return;
     }
-    if (cmd_room == rrnum) {
-      count++;
-      /* start listing */
-      switch (ZOCMD.command) {
+
+    send_to_char(ch, "Zone commands in this room:@y\r\n");
+    while (ZOCMD.command != 'S')
+    {
+        switch (ZOCMD.command)
+        {
         case 'M':
-          send_to_char(ch, "%sLoad %s@y [@c%d@y], MaxMud : %d, MaxR : %d, Chance : %d\r\n",
-                  ZOCMD.if_flag ? " then " : "",
-                  mob_proto[ZOCMD.arg1].short_descr,
-                  mob_index[ZOCMD.arg1].vnum, ZOCMD.arg2,
-                  ZOCMD.arg4, ZOCMD.arg5
-                  );
-          break;
-        case 'G':
-          send_to_char(ch, "%sGive it %s@y [@c%d@y], Max : %d, Chance : %d\r\n",
-    	      ZOCMD.if_flag ? " then " : "",
-    	      obj_proto[ZOCMD.arg1].short_description,
-    	      obj_index[ZOCMD.arg1].vnum,
-    	      ZOCMD.arg2, ZOCMD.arg5
-    	      );
-          break;
         case 'O':
-          send_to_char(ch, "%sLoad %s@y [@c%d@y], Max : %d, MaxR : %d, Chance : %d\r\n",
-    	      ZOCMD.if_flag ? " then " : "",
-    	      obj_proto[ZOCMD.arg1].short_description,
-    	      obj_index[ZOCMD.arg1].vnum,
-    	      ZOCMD.arg2, ZOCMD.arg4, ZOCMD.arg5
-    	      );
-          break;
-        case 'E':
-          send_to_char(ch, "%sEquip with %s@y [@c%d@y], %s, Max : %d, Chance : %d\r\n",
-    	      ZOCMD.if_flag ? " then " : "",
-    	      obj_proto[ZOCMD.arg1].short_description,
-    	      obj_index[ZOCMD.arg1].vnum,
-    	      equipment_types[ZOCMD.arg3],
-    	      ZOCMD.arg2, ZOCMD.arg5
-    	      );
-          break;
-        case 'P':
-          send_to_char(ch, "%sPut %s@y [@c%d@y] in %s@y [@c%d@y], Max : %d, Chance : %d\r\n",
-    	      ZOCMD.if_flag ? " then " : "",
-    	      obj_proto[ZOCMD.arg1].short_description,
-    	      obj_index[ZOCMD.arg1].vnum,
-    	      obj_proto[ZOCMD.arg3].short_description,
-    	      obj_index[ZOCMD.arg3].vnum,
-    	      ZOCMD.arg2, ZOCMD.arg5
-    	      );
-          break;
-        case 'R':
-          send_to_char(ch, "%sRemove %s@y [@c%d@y] from room.\r\n",
-    	      ZOCMD.if_flag ? " then " : "",
-    	      obj_proto[ZOCMD.arg2].short_description,
-    	      obj_index[ZOCMD.arg2].vnum
-    	      );
-          break;
-        case 'D':
-          send_to_char(ch, "%sSet door %s as %s.\r\n",
-    	      ZOCMD.if_flag ? " then " : "",
-    	      dirs[ZOCMD.arg2],
-    	      ZOCMD.arg3 ? ((ZOCMD.arg3 == 1) ? "closed" : "locked") : "open"
-    	      );
-          break;
         case 'T':
-          send_to_char(ch, "%sAttach trigger @c%s@y [@c%d@y] to %s\r\n",
-            ZOCMD.if_flag ? " then " : "",
-            trig_index[ZOCMD.arg2]->proto->name,
-            trig_index[ZOCMD.arg2]->vnum,
-            ((ZOCMD.arg1 == MOB_TRIGGER) ? "mobile" :
-              ((ZOCMD.arg1 == OBJ_TRIGGER) ? "object" :
-                ((ZOCMD.arg1 == WLD_TRIGGER)? "room" : "????"))));
-          break;
         case 'V':
-          send_to_char(ch, "%sAssign global %s:%d to %s = %s\r\n",
-            ZOCMD.if_flag ? " then " : "",
-            ZOCMD.sarg1, ZOCMD.arg2,
-            ((ZOCMD.arg1 == MOB_TRIGGER) ? "mobile" :
-              ((ZOCMD.arg1 == OBJ_TRIGGER) ? "object" :
-                ((ZOCMD.arg1 == WLD_TRIGGER)? "room" : "????"))),
-            ZOCMD.sarg2);
-          break;
+            cmd_room = ZOCMD.arg3;
+            break;
+        case 'D':
+        case 'R':
+            cmd_room = ZOCMD.arg1;
+            break;
         default:
-          send_to_char(ch, "<Unknown Command>\r\n");
-          break;
-      }
-    } 
-    subcmd++;  
-  }
-  send_to_char(ch, "@n");
-  if (!count) 
-    send_to_char(ch, "None!\r\n");
+            break;
+        }
+        if (cmd_room == rrnum)
+        {
+            count++;
+            /* start listing */
+            switch (ZOCMD.command)
+            {
+            case 'M':
+                send_to_char(ch, "%sLoad %s@y [@c%d@y], MaxMud : %d, MaxR : %d, Chance : %d\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             mob_proto[ZOCMD.arg1].short_descr,
+                             mob_index[ZOCMD.arg1].vnum, ZOCMD.arg2,
+                             ZOCMD.arg4, ZOCMD.arg5
+                            );
+                break;
+            case 'G':
+                send_to_char(ch, "%sGive it %s@y [@c%d@y], Max : %d, Chance : %d\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             obj_proto[ZOCMD.arg1].short_description,
+                             obj_index[ZOCMD.arg1].vnum,
+                             ZOCMD.arg2, ZOCMD.arg5
+                            );
+                break;
+            case 'O':
+                send_to_char(ch, "%sLoad %s@y [@c%d@y], Max : %d, MaxR : %d, Chance : %d\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             obj_proto[ZOCMD.arg1].short_description,
+                             obj_index[ZOCMD.arg1].vnum,
+                             ZOCMD.arg2, ZOCMD.arg4, ZOCMD.arg5
+                            );
+                break;
+            case 'E':
+                send_to_char(ch, "%sEquip with %s@y [@c%d@y], %s, Max : %d, Chance : %d\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             obj_proto[ZOCMD.arg1].short_description,
+                             obj_index[ZOCMD.arg1].vnum,
+                             equipment_types[ZOCMD.arg3],
+                             ZOCMD.arg2, ZOCMD.arg5
+                            );
+                break;
+            case 'P':
+                send_to_char(ch, "%sPut %s@y [@c%d@y] in %s@y [@c%d@y], Max : %d, Chance : %d\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             obj_proto[ZOCMD.arg1].short_description,
+                             obj_index[ZOCMD.arg1].vnum,
+                             obj_proto[ZOCMD.arg3].short_description,
+                             obj_index[ZOCMD.arg3].vnum,
+                             ZOCMD.arg2, ZOCMD.arg5
+                            );
+                break;
+            case 'R':
+                send_to_char(ch, "%sRemove %s@y [@c%d@y] from room.\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             obj_proto[ZOCMD.arg2].short_description,
+                             obj_index[ZOCMD.arg2].vnum
+                            );
+                break;
+            case 'D':
+                send_to_char(ch, "%sSet door %s as %s.\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             dirs[ZOCMD.arg2],
+                             ZOCMD.arg3 ? ((ZOCMD.arg3 == 1) ? "closed" : "locked") : "open"
+                            );
+                break;
+            case 'T':
+                send_to_char(ch, "%sAttach trigger @c%s@y [@c%d@y] to %s\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             trig_index[ZOCMD.arg2]->proto->name,
+                             trig_index[ZOCMD.arg2]->vnum,
+                             ((ZOCMD.arg1 == MOB_TRIGGER) ? "mobile" :
+                              ((ZOCMD.arg1 == OBJ_TRIGGER) ? "object" :
+                               ((ZOCMD.arg1 == WLD_TRIGGER) ? "room" : "????"))));
+                break;
+            case 'V':
+                send_to_char(ch, "%sAssign global %s:%d to %s = %s\r\n",
+                             ZOCMD.if_flag ? " then " : "",
+                             ZOCMD.sarg1, ZOCMD.arg2,
+                             ((ZOCMD.arg1 == MOB_TRIGGER) ? "mobile" :
+                              ((ZOCMD.arg1 == OBJ_TRIGGER) ? "object" :
+                               ((ZOCMD.arg1 == WLD_TRIGGER) ? "room" : "????"))),
+                             ZOCMD.sarg2);
+                break;
+            default:
+                send_to_char(ch, "<Unknown Command>\r\n");
+                break;
+            }
+        }
+        subcmd++;
+    }
+    send_to_char(ch, "@n");
+    if (!count)
+        send_to_char(ch, "None!\r\n");
 
 }
 #undef ZOCMD

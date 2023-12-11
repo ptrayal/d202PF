@@ -339,427 +339,493 @@ void aedit_disp_menu(struct descriptor_data * d)
 
 void aedit_parse(struct descriptor_data * d, char *arg) 
 {
-   int i = 0;
+    int i = 0;
 
-   switch (OLC_MODE(d)) {
+    switch (OLC_MODE(d))
+    {
     case AEDIT_CONFIRM_SAVESTRING:
-      switch (*arg) {
-       case 'y': case 'Y':
-         aedit_save_internally(d);
-         mudlog (CMP, ADMLVL_IMPL, TRUE, "OLC: %s edits action %s", 
-                 GET_NAME(d->character), OLC_ACTION(d)->command);
+        switch (*arg)
+        {
+        case 'y':
+        case 'Y':
+            aedit_save_internally(d);
+            mudlog (CMP, ADMLVL_IMPL, TRUE, "OLC: %s edits action %s",
+                    GET_NAME(d->character), OLC_ACTION(d)->command);
 
-         /* do not free the strings.. just the structure */
-         cleanup_olc(d, CLEANUP_STRUCTS);
-         write_to_output(d, "Action saved to disk.\r\n");
-         break;
-       case 'n': case 'N':
-         /* free everything up, including strings etc */
-         cleanup_olc(d, CLEANUP_ALL);
-         break;
-       default:
-         write_to_output(d, "Invalid choice!\r\n"
+            /* do not free the strings.. just the structure */
+            cleanup_olc(d, CLEANUP_STRUCTS);
+            write_to_output(d, "Action saved to disk.\r\n");
+            break;
+        case 'n':
+        case 'N':
+            /* free everything up, including strings etc */
+            cleanup_olc(d, CLEANUP_ALL);
+            break;
+        default:
+            write_to_output(d, "Invalid choice!\r\n"
                             "Do you wish to save this action internally? ");
-         break;
-      }
-      return; /* end of AEDIT_CONFIRM_SAVESTRING */
+            break;
+        }
+        return; /* end of AEDIT_CONFIRM_SAVESTRING */
 
     case AEDIT_CONFIRM_EDIT:
-      switch (*arg)  {
-       case 'y': case 'Y':
-         aedit_setup_existing(d, OLC_ZNUM(d));
-         break;
-       case 'q': case 'Q':
-         cleanup_olc(d, CLEANUP_ALL);
-         break;
-       case 'n': case 'N':
-         OLC_ZNUM(d)++;
-         for (;(OLC_ZNUM(d) <= top_of_socialt); OLC_ZNUM(d)++)
-           if (is_abbrev(OLC_STORAGE(d), soc_mess_list[OLC_ZNUM(d)].command)) 
-             break;
+        switch (*arg)
+        {
+        case 'y':
+        case 'Y':
+            aedit_setup_existing(d, OLC_ZNUM(d));
+            break;
+        case 'q':
+        case 'Q':
+            cleanup_olc(d, CLEANUP_ALL);
+            break;
+        case 'n':
+        case 'N':
+            OLC_ZNUM(d)++;
+            for (; (OLC_ZNUM(d) <= top_of_socialt); OLC_ZNUM(d)++)
+                if (is_abbrev(OLC_STORAGE(d), soc_mess_list[OLC_ZNUM(d)].command))
+                    break;
 
-         if (OLC_ZNUM(d) > top_of_socialt) {
-            if (aedit_find_command(OLC_STORAGE(d)) != -1)  {
-               cleanup_olc(d, CLEANUP_ALL);
-               break;
+            if (OLC_ZNUM(d) > top_of_socialt)
+            {
+                if (aedit_find_command(OLC_STORAGE(d)) != -1)
+                {
+                    cleanup_olc(d, CLEANUP_ALL);
+                    break;
+                }
+                write_to_output(d, "Do you wish to add the '%s' action? ",
+                                OLC_STORAGE(d));
+                OLC_MODE(d) = AEDIT_CONFIRM_ADD;
             }
-            write_to_output(d, "Do you wish to add the '%s' action? ",
-                               OLC_STORAGE(d));
-            OLC_MODE(d) = AEDIT_CONFIRM_ADD;
-         } else  {
-            write_to_output(d, "Do you wish to edit the '%s' action? ",
+            else
+            {
+                write_to_output(d, "Do you wish to edit the '%s' action? ",
+                                soc_mess_list[OLC_ZNUM(d)].command);
+                OLC_MODE(d) = AEDIT_CONFIRM_EDIT;
+            }
+            break;
+        default:
+            write_to_output(d, "Invalid choice!\r\n"
+                            "Do you wish to edit the '%s' action? ",
                             soc_mess_list[OLC_ZNUM(d)].command);
-            OLC_MODE(d) = AEDIT_CONFIRM_EDIT;
-         }
-         break;
-       default:
-         write_to_output(d, "Invalid choice!\r\n"
-                            "Do you wish to edit the '%s' action? ", 
-                            soc_mess_list[OLC_ZNUM(d)].command);
-         break;
-      }
-      return;
+            break;
+        }
+        return;
 
     case AEDIT_CONFIRM_ADD:
-      switch (*arg)  {
-       case 'y': case 'Y':
-         aedit_setup_new(d);
-         break;
-       case 'n': case 'N': case 'q': case 'Q':
-         cleanup_olc(d, CLEANUP_ALL);
-         break;
-       default:
-         write_to_output(d, "Invalid choice!\r\n"
-                            "Do you wish to add the '%s' action? ", 
+        switch (*arg)
+        {
+        case 'y':
+        case 'Y':
+            aedit_setup_new(d);
+            break;
+        case 'n':
+        case 'N':
+        case 'q':
+        case 'Q':
+            cleanup_olc(d, CLEANUP_ALL);
+            break;
+        default:
+            write_to_output(d, "Invalid choice!\r\n"
+                            "Do you wish to add the '%s' action? ",
                             OLC_STORAGE(d));
-         break;
-      }
-      return;
+            break;
+        }
+        return;
 
     case AEDIT_MAIN_MENU:
-      switch (*arg) {
-       case 'q': case 'Q':
-         if (OLC_VAL(d))  { /* Something was modified */
-            write_to_output(d, "Do you wish to save this action internally? ");
-            OLC_MODE(d) = AEDIT_CONFIRM_SAVESTRING;
-         }
-         else cleanup_olc(d, CLEANUP_ALL);
-         break;
-       case 'n':
-         write_to_output(d, "Enter action name: ");
-         OLC_MODE(d) = AEDIT_ACTION_NAME;
-         return;
-       case '1':
-         write_to_output(d, "Enter sort info for this action (for the command listing): ");
-         OLC_MODE(d) = AEDIT_SORT_AS;
-         return;
-       case '2':
-         write_to_output(d, "Enter the minimum position the Character has to be in to activate social:\r\n");
-         {
-           int i;
-           for (i=POS_DEAD;i<=POS_STANDING;i++)
-             write_to_output(d, "   %d) %s\r\n", i, position_types[i]);
-           
-           write_to_output(d, "Enter choice: ");
-         }
-         OLC_MODE(d) = AEDIT_MIN_CHAR_POS;
-         return;
-       case '3':
-         write_to_output(d, "Enter the minimum position the Victim has to be in to activate social:\r\n");
-         {
-           int i;
-           for (i=POS_DEAD;i<=POS_STANDING;i++)
-             write_to_output(d, "   %d) %s\r\n", i, position_types[i]);
-           
-           write_to_output(d, "Enter choice: ");
-         }
-         OLC_MODE(d) = AEDIT_MIN_VICT_POS;
-         return;
-       case '4':
-         write_to_output(d, "Enter new minimum level for social: ");
-         OLC_MODE(d) = AEDIT_MIN_CHAR_LEVEL;
-         return;
-       case '5':
-         OLC_ACTION(d)->hide = !OLC_ACTION(d)->hide;
-         aedit_disp_menu(d);
-         OLC_VAL(d) = 1;
-         break;
-       case 'a': case 'A':
-         write_to_output(d, "Enter social shown to the Character when there is no argument supplied.\r\n"
+        switch (*arg)
+        {
+        case 'q':
+        case 'Q':
+            if (OLC_VAL(d))    /* Something was modified */
+            {
+                write_to_output(d, "Do you wish to save this action internally? ");
+                OLC_MODE(d) = AEDIT_CONFIRM_SAVESTRING;
+            }
+            else cleanup_olc(d, CLEANUP_ALL);
+            break;
+        case 'n':
+            write_to_output(d, "Enter action name: ");
+            OLC_MODE(d) = AEDIT_ACTION_NAME;
+            return;
+        case '1':
+            write_to_output(d, "Enter sort info for this action (for the command listing): ");
+            OLC_MODE(d) = AEDIT_SORT_AS;
+            return;
+        case '2':
+            write_to_output(d, "Enter the minimum position the Character has to be in to activate social:\r\n");
+            {
+                int i;
+                for (i = POS_DEAD; i <= POS_STANDING; i++)
+                    write_to_output(d, "   %d) %s\r\n", i, position_types[i]);
+
+                write_to_output(d, "Enter choice: ");
+            }
+            OLC_MODE(d) = AEDIT_MIN_CHAR_POS;
+            return;
+        case '3':
+            write_to_output(d, "Enter the minimum position the Victim has to be in to activate social:\r\n");
+            {
+                int i;
+                for (i = POS_DEAD; i <= POS_STANDING; i++)
+                    write_to_output(d, "   %d) %s\r\n", i, position_types[i]);
+
+                write_to_output(d, "Enter choice: ");
+            }
+            OLC_MODE(d) = AEDIT_MIN_VICT_POS;
+            return;
+        case '4':
+            write_to_output(d, "Enter new minimum level for social: ");
+            OLC_MODE(d) = AEDIT_MIN_CHAR_LEVEL;
+            return;
+        case '5':
+            OLC_ACTION(d)->hide = !OLC_ACTION(d)->hide;
+            aedit_disp_menu(d);
+            OLC_VAL(d) = 1;
+            break;
+        case 'a':
+        case 'A':
+            write_to_output(d, "Enter social shown to the Character when there is no argument supplied.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                 ((OLC_ACTION(d)->char_no_arg)?OLC_ACTION(d)->char_no_arg:"NULL"));
-         OLC_MODE(d) = AEDIT_NOVICT_CHAR;
-         return;
-       case 'b': case 'B':
-         write_to_output(d, "Enter social shown to Others when there is no argument supplied.\r\n"
+                            ((OLC_ACTION(d)->char_no_arg) ? OLC_ACTION(d)->char_no_arg : "NULL"));
+            OLC_MODE(d) = AEDIT_NOVICT_CHAR;
+            return;
+        case 'b':
+        case 'B':
+            write_to_output(d, "Enter social shown to Others when there is no argument supplied.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->others_no_arg)?OLC_ACTION(d)->others_no_arg:"NULL"));
-         OLC_MODE(d) = AEDIT_NOVICT_OTHERS;
-         return;
-       case 'c': case 'C':
-         write_to_output(d, "Enter text shown to the Character when his victim isnt found.\r\n"
+                            ((OLC_ACTION(d)->others_no_arg) ? OLC_ACTION(d)->others_no_arg : "NULL"));
+            OLC_MODE(d) = AEDIT_NOVICT_OTHERS;
+            return;
+        case 'c':
+        case 'C':
+            write_to_output(d, "Enter text shown to the Character when his victim isnt found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->not_found)?OLC_ACTION(d)->not_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_VICT_NOT_FOUND;
-         return;
-       case 'd': case 'D':
-         write_to_output(d, "Enter social shown to the Character when it is its own victim.\r\n"
+                            ((OLC_ACTION(d)->not_found) ? OLC_ACTION(d)->not_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_VICT_NOT_FOUND;
+            return;
+        case 'd':
+        case 'D':
+            write_to_output(d, "Enter social shown to the Character when it is its own victim.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->char_auto)?OLC_ACTION(d)->char_auto:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_SELF_CHAR;
-         return;
-       case 'e': case 'E':
-         write_to_output(d, "Enter social shown to Others when the Char is its own victim.\r\n"
+                            ((OLC_ACTION(d)->char_auto) ? OLC_ACTION(d)->char_auto : "NULL"));
+
+            OLC_MODE(d) = AEDIT_SELF_CHAR;
+            return;
+        case 'e':
+        case 'E':
+            write_to_output(d, "Enter social shown to Others when the Char is its own victim.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->others_auto)?OLC_ACTION(d)->others_auto:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_SELF_OTHERS;
-         return;
-       case 'f': case 'F':
-         write_to_output(d, "Enter normal social shown to the Character when the victim is found.\r\n"
+                            ((OLC_ACTION(d)->others_auto) ? OLC_ACTION(d)->others_auto : "NULL"));
+
+            OLC_MODE(d) = AEDIT_SELF_OTHERS;
+            return;
+        case 'f':
+        case 'F':
+            write_to_output(d, "Enter normal social shown to the Character when the victim is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->char_found)?OLC_ACTION(d)->char_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_VICT_CHAR_FOUND;
-         return;
-       case 'g': case 'G':
-         write_to_output(d, "Enter normal social shown to Others when the victim is found.\r\n"
+                            ((OLC_ACTION(d)->char_found) ? OLC_ACTION(d)->char_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_VICT_CHAR_FOUND;
+            return;
+        case 'g':
+        case 'G':
+            write_to_output(d, "Enter normal social shown to Others when the victim is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->others_found)?OLC_ACTION(d)->others_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_VICT_OTHERS_FOUND;
-         return;
-       case 'h': case 'H':
-         write_to_output(d, "Enter normal social shown to the Victim when the victim is found.\r\n"
+                            ((OLC_ACTION(d)->others_found) ? OLC_ACTION(d)->others_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_VICT_OTHERS_FOUND;
+            return;
+        case 'h':
+        case 'H':
+            write_to_output(d, "Enter normal social shown to the Victim when the victim is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->vict_found)?OLC_ACTION(d)->vict_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_VICT_VICT_FOUND;
-         return;
-       case 'i': case 'I':
-         write_to_output(d, "Enter 'body part' social shown to the Character when the victim is found.\r\n"
+                            ((OLC_ACTION(d)->vict_found) ? OLC_ACTION(d)->vict_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_VICT_VICT_FOUND;
+            return;
+        case 'i':
+        case 'I':
+            write_to_output(d, "Enter 'body part' social shown to the Character when the victim is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->char_body_found)?OLC_ACTION(d)->char_body_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_VICT_CHAR_BODY_FOUND;
-         return;
-       case 'j': case 'J':
-         write_to_output(d, "Enter 'body part' social shown to Others when the victim is found.\r\n"
+                            ((OLC_ACTION(d)->char_body_found) ? OLC_ACTION(d)->char_body_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_VICT_CHAR_BODY_FOUND;
+            return;
+        case 'j':
+        case 'J':
+            write_to_output(d, "Enter 'body part' social shown to Others when the victim is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->others_body_found)?OLC_ACTION(d)->others_body_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_VICT_OTHERS_BODY_FOUND;
-         return;
-       case 'k': case 'K':
-         write_to_output(d, "Enter 'body part' social shown to the Victim when the victim is found.\r\n"
+                            ((OLC_ACTION(d)->others_body_found) ? OLC_ACTION(d)->others_body_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_VICT_OTHERS_BODY_FOUND;
+            return;
+        case 'k':
+        case 'K':
+            write_to_output(d, "Enter 'body part' social shown to the Victim when the victim is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->vict_body_found)?OLC_ACTION(d)->vict_body_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_VICT_VICT_BODY_FOUND;
-         return;
-       case 'l': case 'L':
-         write_to_output(d, "Enter 'object' social shown to the Character when the object is found.\r\n"
+                            ((OLC_ACTION(d)->vict_body_found) ? OLC_ACTION(d)->vict_body_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_VICT_VICT_BODY_FOUND;
+            return;
+        case 'l':
+        case 'L':
+            write_to_output(d, "Enter 'object' social shown to the Character when the object is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->char_obj_found)?OLC_ACTION(d)->char_obj_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_OBJ_CHAR_FOUND;
-         return;
-       case 'm': case 'M':
-         write_to_output(d, "Enter 'object' social shown to the Room when the object is found.\r\n"
+                            ((OLC_ACTION(d)->char_obj_found) ? OLC_ACTION(d)->char_obj_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_OBJ_CHAR_FOUND;
+            return;
+        case 'm':
+        case 'M':
+            write_to_output(d, "Enter 'object' social shown to the Room when the object is found.\r\n"
                             "[OLD]: %s\r\n"
                             "[NEW]: ",
-                            ((OLC_ACTION(d)->others_obj_found)?OLC_ACTION(d)->others_obj_found:"NULL"));
-         
-         OLC_MODE(d) = AEDIT_OBJ_OTHERS_FOUND;
-         return;
-       default:
-         aedit_disp_menu(d);
-         break;
-      }
-      return;
-         
-    case AEDIT_ACTION_NAME:
-      if (!*arg || strchr(arg,' ')) {
-        aedit_disp_menu(d);
+                            ((OLC_ACTION(d)->others_obj_found) ? OLC_ACTION(d)->others_obj_found : "NULL"));
+
+            OLC_MODE(d) = AEDIT_OBJ_OTHERS_FOUND;
+            return;
+        default:
+            aedit_disp_menu(d);
+            break;
+        }
         return;
-      } 
-      if (OLC_ACTION(d)->command)
-        free(OLC_ACTION(d)->command);
+
+    case AEDIT_ACTION_NAME:
+        if (!*arg || strchr(arg, ' '))
+        {
+            aedit_disp_menu(d);
+            return;
+        }
+        if (OLC_ACTION(d)->command)
+            free(OLC_ACTION(d)->command);
         OLC_ACTION(d)->command = strdup(arg);
 
-      break;
+        break;
 
     case AEDIT_SORT_AS:
-      if (!*arg || strchr(arg,' ')) {
-        aedit_disp_menu(d);
-        return;
-      }
-      if (OLC_ACTION(d)->sort_as) {
-        free(OLC_ACTION(d)->sort_as);
-        OLC_ACTION(d)->sort_as = strdup(arg);
-      }
-      break;
+        if (!*arg || strchr(arg, ' '))
+        {
+            aedit_disp_menu(d);
+            return;
+        }
+        if (OLC_ACTION(d)->sort_as)
+        {
+            free(OLC_ACTION(d)->sort_as);
+            OLC_ACTION(d)->sort_as = strdup(arg);
+        }
+        break;
 
     case AEDIT_MIN_CHAR_POS:
     case AEDIT_MIN_VICT_POS:
-      if (!*arg) {
-        aedit_disp_menu(d);
-        return;
-      }
-      i = atoi(arg);
-      if ((i < POS_DEAD) && (i > POS_STANDING))  {
-        aedit_disp_menu(d);
-        return;
-      } 
-      if (OLC_MODE(d) == AEDIT_MIN_CHAR_POS)
-        OLC_ACTION(d)->min_char_position = i;
-      else
-        OLC_ACTION(d)->min_victim_position = i;
-      break;
-      
+        if (!*arg)
+        {
+            aedit_disp_menu(d);
+            return;
+        }
+        i = atoi(arg);
+        if ((i < POS_DEAD) && (i > POS_STANDING))
+        {
+            aedit_disp_menu(d);
+            return;
+        }
+        if (OLC_MODE(d) == AEDIT_MIN_CHAR_POS)
+            OLC_ACTION(d)->min_char_position = i;
+        else
+            OLC_ACTION(d)->min_victim_position = i;
+        break;
+
     case AEDIT_MIN_CHAR_LEVEL:
-      if (!*arg) {
-        aedit_disp_menu(d);
-        return;
-      }
-      i = atoi(arg);
-      if (i < 0) {
-        aedit_disp_menu(d);
-        return;
-      }
-      OLC_ACTION(d)->min_level_char = i;
-      break;
+        if (!*arg)
+        {
+            aedit_disp_menu(d);
+            return;
+        }
+        i = atoi(arg);
+        if (i < 0)
+        {
+            aedit_disp_menu(d);
+            return;
+        }
+        OLC_ACTION(d)->min_level_char = i;
+        break;
 
     case AEDIT_NOVICT_CHAR:
-      if (OLC_ACTION(d)->char_no_arg)
-        free(OLC_ACTION(d)->char_no_arg);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->char_no_arg = strdup(arg);
-      } else 
-        OLC_ACTION(d)->char_no_arg = NULL;
-      break;
+        if (OLC_ACTION(d)->char_no_arg)
+            free(OLC_ACTION(d)->char_no_arg);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->char_no_arg = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->char_no_arg = NULL;
+        break;
 
     case AEDIT_NOVICT_OTHERS:
-      if (OLC_ACTION(d)->others_no_arg)
-        free(OLC_ACTION(d)->others_no_arg);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->others_no_arg = strdup(arg);
-      } else
-        OLC_ACTION(d)->others_no_arg = NULL;
-      break;
+        if (OLC_ACTION(d)->others_no_arg)
+            free(OLC_ACTION(d)->others_no_arg);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->others_no_arg = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->others_no_arg = NULL;
+        break;
 
     case AEDIT_VICT_CHAR_FOUND:
-      if (OLC_ACTION(d)->char_found)
-        free(OLC_ACTION(d)->char_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->char_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->char_found = NULL;
-      break;
+        if (OLC_ACTION(d)->char_found)
+            free(OLC_ACTION(d)->char_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->char_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->char_found = NULL;
+        break;
 
     case AEDIT_VICT_OTHERS_FOUND:
-      if (OLC_ACTION(d)->others_found)
-        free(OLC_ACTION(d)->others_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->others_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->others_found = NULL;
-      break;
+        if (OLC_ACTION(d)->others_found)
+            free(OLC_ACTION(d)->others_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->others_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->others_found = NULL;
+        break;
 
     case AEDIT_VICT_VICT_FOUND:
-      if (OLC_ACTION(d)->vict_found)
-        free(OLC_ACTION(d)->vict_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->vict_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->vict_found = NULL;
-      break;
+        if (OLC_ACTION(d)->vict_found)
+            free(OLC_ACTION(d)->vict_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->vict_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->vict_found = NULL;
+        break;
 
     case AEDIT_VICT_NOT_FOUND:
-      if (OLC_ACTION(d)->not_found)
-        free(OLC_ACTION(d)->not_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->not_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->not_found = NULL;
-      break;
+        if (OLC_ACTION(d)->not_found)
+            free(OLC_ACTION(d)->not_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->not_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->not_found = NULL;
+        break;
 
     case AEDIT_SELF_CHAR:
-      if (OLC_ACTION(d)->char_auto)
-        free(OLC_ACTION(d)->char_auto);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->char_auto = strdup(arg);
-      } else
-        OLC_ACTION(d)->char_auto = NULL;
-      break;
+        if (OLC_ACTION(d)->char_auto)
+            free(OLC_ACTION(d)->char_auto);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->char_auto = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->char_auto = NULL;
+        break;
 
     case AEDIT_SELF_OTHERS:
-      if (OLC_ACTION(d)->others_auto)
-        free(OLC_ACTION(d)->others_auto);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->others_auto = strdup(arg);
-      } else
-        OLC_ACTION(d)->others_auto = NULL;
-      break;
+        if (OLC_ACTION(d)->others_auto)
+            free(OLC_ACTION(d)->others_auto);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->others_auto = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->others_auto = NULL;
+        break;
 
     case AEDIT_VICT_CHAR_BODY_FOUND:
-      if (OLC_ACTION(d)->char_body_found)
-        free(OLC_ACTION(d)->char_body_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->char_body_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->char_body_found = NULL;
-      break;
+        if (OLC_ACTION(d)->char_body_found)
+            free(OLC_ACTION(d)->char_body_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->char_body_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->char_body_found = NULL;
+        break;
 
     case AEDIT_VICT_OTHERS_BODY_FOUND:
-      if (OLC_ACTION(d)->others_body_found)
-        free(OLC_ACTION(d)->others_body_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->others_body_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->others_body_found = NULL;
-      break;
+        if (OLC_ACTION(d)->others_body_found)
+            free(OLC_ACTION(d)->others_body_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->others_body_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->others_body_found = NULL;
+        break;
 
     case AEDIT_VICT_VICT_BODY_FOUND:
-      if (OLC_ACTION(d)->vict_body_found)
-        free(OLC_ACTION(d)->vict_body_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->vict_body_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->vict_body_found = NULL;
-      break;
+        if (OLC_ACTION(d)->vict_body_found)
+            free(OLC_ACTION(d)->vict_body_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->vict_body_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->vict_body_found = NULL;
+        break;
 
     case AEDIT_OBJ_CHAR_FOUND:
-      if (OLC_ACTION(d)->char_obj_found)
-        free(OLC_ACTION(d)->char_obj_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->char_obj_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->char_obj_found = NULL;
-      break;
+        if (OLC_ACTION(d)->char_obj_found)
+            free(OLC_ACTION(d)->char_obj_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->char_obj_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->char_obj_found = NULL;
+        break;
 
     case AEDIT_OBJ_OTHERS_FOUND:
-      if (OLC_ACTION(d)->others_obj_found)
-        free(OLC_ACTION(d)->others_obj_found);
-      if (*arg) {
-        delete_doubledollar(arg);
-        OLC_ACTION(d)->others_obj_found = strdup(arg);
-      } else
-        OLC_ACTION(d)->others_obj_found = NULL;
-      break;
+        if (OLC_ACTION(d)->others_obj_found)
+            free(OLC_ACTION(d)->others_obj_found);
+        if (*arg)
+        {
+            delete_doubledollar(arg);
+            OLC_ACTION(d)->others_obj_found = strdup(arg);
+        }
+        else
+            OLC_ACTION(d)->others_obj_found = NULL;
+        break;
 
     default:
-      /* we should never get here */
-      break;
-   }
-   OLC_VAL(d) = 1;
-   aedit_disp_menu(d);
+        /* we should never get here */
+        break;
+    }
+    OLC_VAL(d) = 1;
+    aedit_disp_menu(d);
 }
 
 ACMD(do_astat)
