@@ -51,6 +51,8 @@ int is_player_grouped(struct char_data *target, struct char_data *group);
 
 int findslotnum(struct char_data *ch, int spellvl);
 
+#define UNUSED(x) (void)(x)
+
 /*
  * this arrangement is pretty stupid, but the number of skills is limited by
  * the playerfile.  We can arbitrarily increase the number of skills by
@@ -120,79 +122,82 @@ int mag_manacost(struct char_data *ch, int spellnum)
     int min = 0;
     int tval = 0;
 
-    if (CONFIG_ALLOW_MULTICLASS) 
+    if (CONFIG_ALLOW_MULTICLASS)
     {
         /* find the cheapest class to cast it */
-        min = MAX(SINFO.mana_max - (SINFO.mana_change *
-            (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS_RANKS(ch, GET_CLASS(ch))])),
-        SINFO.mana_min);
+        min = MAX(SINFO.mana_max - (SINFO.mana_change * (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS_RANKS(ch, GET_CLASS(ch))])),
+                  SINFO.mana_min);
         whichclass = GET_CLASS(ch);
-        for (i = 0; i < NUM_CLASSES; i++) 
+        for (i = 0; i < NUM_CLASSES; i++)
         {
             if (GET_CLASS_RANKS(ch, i) == 0)
             {
                 continue;
             }
-            tval = MAX(SINFO.mana_max - (SINFO.mana_change *
-                (GET_CLASS_RANKS(ch, i) - SINFO.min_level[i])),
-            SINFO.mana_min);
-            if (tval < min) 
+            tval = MAX(SINFO.mana_max - (SINFO.mana_change * (GET_CLASS_RANKS(ch, i) - SINFO.min_level[i])),
+                       SINFO.mana_min);
+            if (tval < min)
             {
                 min = tval;
                 whichclass = i;
             }
         }
         return min;
-    } 
-    else 
-    {
-        return MAX(SINFO.mana_max - (SINFO.mana_change *
-            (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS(ch)])),
-        SINFO.mana_min);
     }
+    else
+    {
+        return MAX(SINFO.mana_max - (SINFO.mana_change * (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS(ch)])),
+                   SINFO.mana_min);
+    }
+
+    UNUSED(whichclass);
 }
 
 
 int mag_kicost(struct char_data *ch, int spellnum)
 {
-  int whichclass, i, min, tval;
-  if (CONFIG_ALLOW_MULTICLASS) {
-    /* find the cheapest class to cast it */
-    min = MAX(SINFO.ki_max - (SINFO.ki_change *
-              (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS_RANKS(ch, GET_CLASS(ch))])),
-             SINFO.ki_min);
-    whichclass = GET_CLASS(ch);
-    for (i = 0; i < NUM_CLASSES; i++) {
-      if (GET_CLASS_RANKS(ch, i) == 0)
-        continue;
-      tval = MAX(SINFO.ki_max - (SINFO.ki_change *
-                 (GET_CLASS_RANKS(ch, i) - SINFO.min_level[i])),
-                 SINFO.ki_min);
-      if (tval < min) {
-        min = tval;
-        whichclass = i;
-      }
+    int whichclass, i, min, tval;
+    if (CONFIG_ALLOW_MULTICLASS)
+    {
+        /* find the cheapest class to cast it */
+        min = MAX(SINFO.ki_max - (SINFO.ki_change *
+                                  (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS_RANKS(ch, GET_CLASS(ch))])),
+                  SINFO.ki_min);
+        whichclass = GET_CLASS(ch);
+        for (i = 0; i < NUM_CLASSES; i++)
+        {
+            if (GET_CLASS_RANKS(ch, i) == 0)
+                continue;
+            tval = MAX(SINFO.ki_max - (SINFO.ki_change * (GET_CLASS_RANKS(ch, i) - SINFO.min_level[i])), SINFO.ki_min);
+            if (tval < min)
+            {
+                min = tval;
+                whichclass = i;
+            }
+        }
+        return min;
     }
-    return min;
-  } else {
-  return MAX(SINFO.ki_max - (SINFO.ki_change *
-                    (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS(ch)])),
-             SINFO.ki_min);
-  }
+    else
+    {
+        return MAX(SINFO.ki_max - (SINFO.ki_change * (GET_LEVEL(ch) - SINFO.min_level[(int) GET_CLASS(ch)])), SINFO.ki_min);
+    }
+
+    UNUSED(whichclass);
 }
 
 
 void mag_nextstrike(int level, struct char_data *caster, int spellnum)
 {
-  if (!caster)
-    return;
-  if (caster->actq) {
-    send_to_char(caster, "You can't perform more than one special attack at a time!");
-    return;
-  }
-  CREATE(caster->actq, struct queued_act, 1);
-  caster->actq->level = level;
-  caster->actq->spellnum = spellnum;
+    if (!caster)
+        return;
+    if (caster->actq)
+    {
+        send_to_char(caster, "You can't perform more than one special attack at a time!");
+        return;
+    }
+    CREATE(caster->actq, struct queued_act, 1);
+    caster->actq->level = level;
+    caster->actq->spellnum = spellnum;
 }
 
 

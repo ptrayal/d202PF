@@ -2923,54 +2923,58 @@ struct last_entry *find_llog_entry(int punique, int idnum,int close) {
   /* mod_llog_entry assumes that llast is accurate */
 void mod_llog_entry(struct last_entry *llast,int type) 
 {
-  FILE *fp;
-  struct last_entry mlast;
-  int size = 0,recs = 0,tmp = 0;
+    FILE *fp;
+    struct last_entry mlast;
+    int size = 0, recs = 0, tmp = 0;
 
-  if(!(fp=fopen(LAST_FILE,"r+"))) {
-    log("error opening last_file for reading and writing");
-    return;
-  }
-  fseek(fp,0L,SEEK_END);
-  size=ftell(fp);
-
-  /* recs = number of records in the last file */
-
-  recs = size/sizeof(struct last_entry);
-
-  /* we'll search last to first, since it's faster than any thing else
-        we can do (like searching for the last shutdown/etc..) */
-  for(tmp=recs; tmp > 0; tmp--) {
-    fseek(fp,-1*(sizeof(struct last_entry)),SEEK_CUR);
-    fread(&mlast,sizeof(struct last_entry),1,fp);
-        /*another one to keep that stepback */
-    fseek(fp,-1*(sizeof(struct last_entry)),SEEK_CUR);
-
-    if(mlast.punique == llast->punique &&
-        mlast.idnum == llast->idnum) {
-        /* then we've found a match */
-        /* lets assume quit is inviolate, mainly because
-                disconnect is called after each of these */
-      if(mlast.close_type != LAST_QUIT &&
-          mlast.close_type != LAST_IDLEOUT &&
-          mlast.close_type != LAST_REBOOT &&
-          mlast.close_type != LAST_COPYOVER &&
-          mlast.close_type != LAST_SHUTDOWN) {
-        mlast.close_type=type;
-      }
-      mlast.close_time=time(0);
-
-        /*write it, and we're done!*/
-      fwrite(&mlast,sizeof(struct last_entry),1,fp);
-      fclose(fp);
-      return;
+    if(!(fp = fopen(LAST_FILE, "r+")))
+    {
+        log("error opening last_file for reading and writing");
+        return;
     }
-        /*not the one we seek. next */
-  }
-  fclose(fp);
+    fseek(fp, 0L, SEEK_END);
+    size = ftell(fp);
 
-        /*not found, no problem, quit */
-  return;
+    /* recs = number of records in the last file */
+
+    recs = size / sizeof(struct last_entry);
+
+    /* we'll search last to first, since it's faster than any thing else
+          we can do (like searching for the last shutdown/etc..) */
+    for(tmp = recs; tmp > 0; tmp--)
+    {
+        fseek(fp, -1 * (sizeof(struct last_entry)), SEEK_CUR);
+        fread(&mlast, sizeof(struct last_entry), 1, fp);
+        /*another one to keep that stepback */
+        fseek(fp, -1 * (sizeof(struct last_entry)), SEEK_CUR);
+
+        if(mlast.punique == llast->punique &&
+                mlast.idnum == llast->idnum)
+        {
+            /* then we've found a match */
+            /* lets assume quit is inviolate, mainly because
+                    disconnect is called after each of these */
+            if(mlast.close_type != LAST_QUIT &&
+                    mlast.close_type != LAST_IDLEOUT &&
+                    mlast.close_type != LAST_REBOOT &&
+                    mlast.close_type != LAST_COPYOVER &&
+                    mlast.close_type != LAST_SHUTDOWN)
+            {
+                mlast.close_type = type;
+            }
+            mlast.close_time = time(0);
+
+            /*write it, and we're done!*/
+            fwrite(&mlast, sizeof(struct last_entry), 1, fp);
+            fclose(fp);
+            return;
+        }
+        /*not the one we seek. next */
+    }
+    fclose(fp);
+
+    /*not found, no problem, quit */
+    return;
 }
 
 void add_llog_entry(struct char_data *ch, int type) 

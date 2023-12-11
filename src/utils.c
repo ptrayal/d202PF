@@ -425,39 +425,42 @@ void log_death_trap(struct char_data *ch)
  */
 void basic_mud_vlog(const char *format, va_list args)
 {
-  time_t rawtime;
-  struct tm *info;
-  char buffer[80]={'\0'};
+    time_t rawtime;
+    struct tm *info;
+    char buffer[80] = {'\0'};
 
-  time(&rawtime);
+    time(&rawtime);
 
-  info = localtime(&rawtime);
-  strftime(buffer, 80, "%c", info);
+    info = localtime(&rawtime);
+    strftime(buffer, 80, "%c", info);
 
-  if (logfile == NULL) 
-  {
-    puts("SYSERR: Using log() before stream was initialized!");
-    return;
-  }
+    if (format == NULL)
+        format = "SYSERR: log() received a NULL format.";
 
-  if (format == NULL)
-    format = "SYSERR: log() received a NULL format.";
+    // Log to file
+    if (logfile != NULL)
+    {
+        fprintf(logfile, "%-15.15s :: ", buffer + 4);
+        vfprintf(logfile, format, args);
+        fputc('\n', logfile);
+        fflush(logfile);
+    }
 
-  fprintf(logfile, "%-15.15s :: ", buffer + 4);
-  vfprintf(logfile, format, args);
-  fputc('\n', logfile);
-  fflush(logfile);
+    // Log to console (stderr)
+    fprintf(stderr, "%-15.15s :: ", buffer + 4);
+    vfprintf(stderr, format, args);
+    fputc('\n', stderr);
+    fflush(stderr);
 }
-
 
 /* So mudlog() can use the same function. */
 void basic_mud_log(const char *format, ...)
 {
-  va_list args;
+    va_list args;
 
-  va_start(args, format);
-  basic_mud_vlog(format, args);
-  va_end(args);
+    va_start(args, format);
+    basic_mud_vlog(format, args);
+    va_end(args);
 }
 
 

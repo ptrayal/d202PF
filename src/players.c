@@ -372,977 +372,1101 @@ void load_damreduce(struct char_data *ch, FILE *fl)
 /* Load a char, TRUE if loaded, FALSE if not */
 int load_char(const char *name, struct char_data *ch)
 {
-  int id, i, num = 0, num2 = 0, num3 = 0, num4 = 0;
-  FILE *fl;
-  char fname[READ_SIZE]={'\0'};
-  char buf[128]={'\0'}, buf2[128]={'\0'}, line[MAX_INPUT_LENGTH + 1]={'\0'}, tag[6]={'\0'};
-  char f1[128]={'\0'}, f2[128]={'\0'}, f3[128]={'\0'}, f4[128]={'\0'};
-//  char *s1;
+    int id, i, num = 0, num2 = 0, num3 = 0, num4 = 0;
+    FILE *fl;
+    char fname[READ_SIZE] = {'\0'};
+    char buf[128] = {'\0'}, buf2[128] = {'\0'}, line[MAX_INPUT_LENGTH + 1] = {'\0'}, tag[6] = {'\0'};
+    char f1[128] = {'\0'}, f2[128] = {'\0'}, f3[128] = {'\0'}, f4[128] = {'\0'};
+    //  char *s1;
 
-  if ((id = get_ptable_by_name(name)) < 0)
-    return (-1);
-  else {
-    if (!get_filename(fname, sizeof(fname), PLR_FILE, player_table[id].name))
-      return (-1);
-    if (!(fl = fopen(fname, "r"))) {
-      mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open player file %s", fname);
-      return (-1);
-    }
-
-    /* character initializations */
-    /* initializations necessary to keep some things straight */
-    ch->affected = NULL;
-    ch->affectedv = NULL;
-    for (i = 1; i <= SKILL_TABLE_SIZE; i++) {
-      SET_SKILL(ch, i, 0);
-      SET_SKILL_BONUS(ch, i, 0);
-    }
-    GET_SEX(ch) = PFDEF_SEX;
-    ch->size = PFDEF_SIZE;
-    GET_CRAFTING_TYPE(ch) = PFDEF_CRAFTING_TYPE;
-    GET_CLASS(ch) = PFDEF_CLASS;
-    for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++) {
-      ch->player_specials->spells_known[i] = 0;
-    }
-    for (i = 0; i < 10; i++)
-      ch->player_specials->spell_slots[i] = 0;
-
-    for (i = 0; i < NUM_CLASSES; i++)
-      GET_CLASS_SPONSOR(ch, i) = FALSE;
-    GET_CLASS(ch) = PFDEF_CLASS;
-    for (i = 0; i < NUM_CLASSES; i++) {
-      GET_CLASS_NONEPIC(ch, i) = 0;
-      GET_CLASS_EPIC(ch, i) = 0;
-    }
-    for (i = 0; i < 10; i++) {
-    	ch->player_specials->wishlist[i][0] = 0;
-		ch->player_specials->wishlist[i][1] = 0;
-    }
-    GET_HEAL_ROLL(ch) = PFDEF_HEAL_ROLL;
-    GET_HEAL_AMOUNT(ch) = PFDEF_HEAL_AMOUNT;
-    GET_HEAL_USED(ch) = PFDEF_HEAL_USED;
-    GET_CAMP_USED(ch) = 0;
-    GET_RESEARCH_TOKENS(ch) = 0;
-    GET_REAL_RACE(ch) = PFDEF_RACE;
-    GET_DISGUISE_RACE(ch) = PFDEF_RACE;
-    GET_CLAN(ch) = PFDEF_CLAN;
-    GET_CLAN_RANK(ch) = PFDEF_CLANRANK;
-    GET_CARRY_STR_MOD(ch) = 0;
-    ch->player_specials->account_name = NULL;
-    ch->player_specials->short_descr = NULL;
-    ch->player_specials->keywords = NULL;
-    ch->player_specials->description = NULL;
-    ch->player_specials->background_1 = NULL;
-    ch->player_specials->background_2 = NULL;
-    ch->player_specials->background_3 = NULL;
-    ch->player_specials->background_4 = NULL;
-    ch->player_specials->background_5 = NULL;
-    ch->player_specials->background_6 = NULL;
-    ch->player_specials->background_7 = NULL;
-    ch->player_specials->background_8 = NULL;
-    GET_ADMLEVEL(ch) = PFDEF_LEVEL;
-    GET_CLASS_LEVEL(ch) = PFDEF_LEVEL;
-    GET_HITDICE(ch) = PFDEF_LEVEL;
-    GET_LEVEL_ADJ(ch) = PFDEF_LEVEL;
-    GET_HOME(ch) = PFDEF_HOMETOWN;
-    GET_HEIGHT(ch) = PFDEF_HEIGHT;
-    GET_WEIGHT(ch) = PFDEF_WEIGHT;
-    GET_ALIGNMENT(ch) = PFDEF_ALIGNMENT;
-    GET_ETHIC_ALIGNMENT(ch) = PFDEF_ETHIC_ALIGNMENT;
-    for (i = 0; i < AF_ARRAY_MAX; i++)
-      AFF_FLAGS(ch)[i] = PFDEF_AFFFLAGS;
-    for (i = 0; i < PM_ARRAY_MAX; i++)
-      PLR_FLAGS(ch)[i] = PFDEF_PLRFLAGS;
-    for (i = 0; i < PR_ARRAY_MAX; i++)
-      PRF_FLAGS(ch)[i] = PFDEF_PREFFLAGS;
-    for (i = 0; i < AD_ARRAY_MAX; i++)
-      ADM_FLAGS(ch)[i] = 0;
-    for (i = 0; i < NUM_OF_SAVE_THROWS; i++) {
-      GET_SAVE_MOD(ch, i) = PFDEF_SAVETHROW;
-      GET_SAVE_BASE(ch, i) = PFDEF_SAVETHROW;
-    }
-
-    GET_AUTOCQUEST_VNUM(ch) = 0;
-    GET_AUTOCQUEST_DESC(ch) = strdup("nothing");
-    GET_AUTOCQUEST_MAKENUM(ch) = 5;
-    GET_AUTOCQUEST_QP(ch) = 0;
-    GET_AUTOCQUEST_EXP(ch) = 0;
-    GET_AUTOCQUEST_GOLD(ch) = 0;
-
-//    ch->levelup->class = 0;
-    GET_QUEST_COUNTER(ch) = PFDEF_QUESTCOUNT;
-    GET_QUEST(ch) = PFDEF_CURRQUEST;
-    GET_NUM_QUESTS(ch) = PFDEF_COMPQUESTS;
-    GET_TURN_UNDEAD(ch) = 0;
-    GET_PREF(ch) = get_new_pref();
-    GET_STRENGTH_OF_HONOR(ch) = 0;
-    GET_RAGE(ch) = 0;
-    GET_DEFENSIVE_STANCE(ch) = 0;
-    GET_SMITE_EVIL(ch) = 0;
-    GET_MOUNT_VNUM(ch) = 0;
-    GET_PET_VNUM(ch) = 0;
-    GET_FAMILIAR_VNUM(ch) = 0;
-    GET_COMPANION_VNUM(ch) = 0;
-    GET_COMPANION_NAME(ch) = NULL;
-    GET_EXPERTISE_BONUS(ch) = 0;
-    GET_ENMITY(ch) = 0;
-    GET_TOTAL_AOO(ch) = 0;
-    GET_LOADROOM(ch) = 30000;
-    GET_SPELLCASTER_LEVEL(ch) = 0;
-    ch->stat_points_given = 0;
-    GET_LAY_HANDS(ch) = 0;
-    GET_RECALL(ch) = PFDEF_RECALLROOM;
-    GET_INVIS_LEV(ch) = PFDEF_INVISLEV;
-    GET_FREEZE_LEV(ch) = PFDEF_FREEZELEV;
-    GET_WIMP_LEV(ch) = PFDEF_WIMPLEV;
-    GET_POWERATTACK(ch) = PFDEF_POWERATT;
-    GET_COND(ch, FULL) = PFDEF_HUNGER;
-    ch->player_specials->crafting_exp_mult = 1;
-    GET_COND(ch, THIRST) = PFDEF_THIRST;
-    GET_COND(ch, DRUNK) = PFDEF_DRUNK;
-    GET_BAD_PWS(ch) = PFDEF_BADPWS;
-    GET_RACE_PRACTICES(ch) = PFDEF_PRACTICES;
-    for (i = 0; i < NUM_CLASSES; i++)
-      GET_PRACTICES(ch, i) = PFDEF_PRACTICES;
-    GET_GOLD(ch) = PFDEF_GOLD;
-    GET_TAVERN_EXP_BONUS(ch) = 0;
-    GET_BANK_GOLD(ch) = PFDEF_BANK;
-    GET_EXP(ch) = PFDEF_EXP;
-    GET_ARTISAN_EXP(ch) = 0;
-    GET_ARTISAN_TYPE(ch) = 0;
-    GET_SCREEN_WIDTH(ch) = PFDEF_SCREENWIDTH;
-    GET_QUESTPOINTS(ch) = PFDEF_QUESTPOINTS;
-    GET_ACCOUNT_NUM(ch) = PFDEF_ACCT_NUM;
-    GET_ACCOUNT_NAME(ch) = NULL;
-    GET_ACCURACY_MOD(ch) = PFDEF_ACCURACY;
-    GET_ACCURACY_BASE(ch) = PFDEF_ACCURACY;
-    GET_DAMAGE_MOD(ch) = PFDEF_DAMAGE;
-    GET_ARMOR(ch) = PFDEF_AC;
-    ch->real_abils.str = PFDEF_STR;
-    ch->real_abils.dex = PFDEF_DEX;
-    ch->real_abils.intel = PFDEF_INT;
-    ch->real_abils.wis = PFDEF_WIS;
-    ch->real_abils.con = PFDEF_CON;
-    ch->real_abils.cha = PFDEF_CHA;
-	GET_IRDA_SHAPE_STATUS(ch) = PFDEF_IRDA_SHAPE_STATUS;
-    GET_HIT(ch) = PFDEF_HIT;
-    GET_MAX_HIT(ch) = PFDEF_MAXHIT;
-    GET_EXTRA_ACC_EXP(ch) = 0;
-    ch->bounty_gem = 0;
-    GET_GATHER_INFO(ch) = 0;
-    GET_MANA(ch) = PFDEF_MANA;
-    GET_MAX_MANA(ch) = PFDEF_MAXMANA;
-    GET_MOVE(ch) = PFDEF_MOVE;
-    GET_MAX_MOVE(ch) = PFDEF_MAXMOVE;
-    GET_KI(ch) = PFDEF_KI;
-    GET_MAX_KI(ch) = PFDEF_MAXKI;
-    SPEAKING(ch) = PFDEF_SPEAKING;
-    GET_EPIC_SPELLS(ch) = 0;
-    GET_BARD_SONGS(ch) = 0;
-    ch->mentor_level = 0;
-    for (i = 0; i < 7; i++)
-      GET_BARD_SPELLS(ch, i) = 0;
-    for (i = 0; i < 7; i++)
-      ch->player_specials->bard_spells_to_learn[i] = 0;
-    for (i = 0; i < 10; i++)
-      GET_FAVORED_SOUL_SPELLS(ch, i) = 0;
-    GET_FIGHT_BLEEDING_DAMAGE(ch) = 0;
-    GET_FIGHT_PRECISE_ATTACK(ch) = 0;
-    GET_FIGHT_DAMAGE_REDUCTION(ch) = 0;
-    GET_FIGHT_MESSAGE_PRINTED(ch) = 0;
-    GET_FIGHT_SNEAK_ATTACK(ch) = 0;
-    GET_FIGHT_CRITICAL_HIT(ch) = 0;
-    GET_FIGHT_DEATH_ATTACK(ch) = 0;
-    GET_FIGHT_DAMAGE_DONE(ch) = 0;
-    GET_FIGHT_NUMBER_OF_ATTACKS(ch) = 0;
-    GET_FIGHT_NUMBER_OF_HITS(ch) = 0;
-    GET_OLC_ZONE(ch) = PFDEF_OLC;
-    GET_HOST(ch) = NULL;
-    GUARDING(ch) = NULL;
-    GUARDED_BY(ch) = NULL;
-    ch->exp_chain = 0;
-    ch->fight_over = 0;
-    ch->player_specials->epic_dodge = FALSE;
-    GET_LFG_STRING(ch) = NULL;
-    GET_HP_BONUS(ch) = 0;
-    GET_INTROS_GIVEN(ch) = 0;
-    GET_INTROS_RECEIVED(ch) = 0;
-    ch->spell_cast = FALSE;
-    GET_WISH_STR(ch) = 0;
-    GET_WISH_CON(ch) = 0;
-    GET_WISH_DEX(ch) = 0;
-    GET_WISH_INT(ch) = 0;
-    GET_WISH_WIS(ch) = 0;
-    GET_WISH_CHA(ch) = 0;
-    ch->trains_spent = 0;
-    ch->trains_unspent = 0;
-
-    GET_AUTOQUEST_VNUM(ch) = 0;
-    GET_AUTOQUEST_KILLNUM(ch) = 0;
-    GET_AUTOQUEST_QP(ch) = 0;
-    GET_AUTOQUEST_EXP(ch) = 0;
-    GET_AUTOQUEST_GOLD(ch) = 0;
-    GET_AUTOQUEST_DESC(ch) = strdup("nothing");
-
-    ch->damage_reduction_feats = 0;
-    ch->armor_skin_feats = 0;
-    ch->fast_healing_feats = 0;
-
-    GET_RP_EXP(ch) = 0;
-    GET_RP_POINTS(ch) = 0;
-    GET_RP_EXP_BONUS(ch) = 0;
-    GET_RP_ART_EXP_BONUS(ch) = 0;
-    GET_RP_GOLD_BONUS(ch) = 0;
-    GET_RP_ACCOUNT_EXP(ch) = 0;
-    GET_RP_QP_BONUS(ch) = 0;
-    GET_RP_CRAFT_BONUS(ch) = 0;
-
-
-    GET_STAT_MOB_KILLS(ch) = 0;
-
-    for (i = 0; i < (700); i++)
-      GET_INNATE(ch, i) = 0;
-    for(i = 1; i < MAX_MEM; i++)
-      GET_SPELLMEM(ch, i) = 0;
-    for(i = 1; i < MAX_MEM; i++)
-      GET_SPELLMEM_C(ch, i) = 0;
-    for(i = 1; i < MAX_MEM; i++)
-      GET_SPELLMEM_P(ch, i) = 0;
-    for(i = 0; i < MAX_SPELL_LEVEL; i++)
-      GET_SPELL_LEVEL(ch, i) = 0;
-    for (i = SKILL_LOW_SKILL; i <= SKILL_HIGH_SKILL; i++)
-      ch->player_specials->skill_focus[i-SKILL_LOW_SKILL] = 0;
-    GET_MEMCURSOR(ch) = 0;
-    GET_MEMCURSOR_C(ch) = 0;
-    GET_MEMCURSOR_P(ch) = 0;
-    ch->damreduct = NULL;
-    ch->time.birth = ch->time.created = ch->time.maxage = 0;
-    ch->followers = NULL;
-    GET_PAGE_LENGTH(ch) = PFDEF_PAGELENGTH;
-    GET_TICKS_PASSED(ch) = 0;
-    IS_APPROVED(ch) = 0;
-    GET_PC_DESCRIPTOR_1(ch) = 0;
-    GET_PC_DESCRIPTOR_2(ch) = 0;
-    GET_PC_ADJECTIVE_1(ch) = 0;
-    GET_PC_ADJECTIVE_2(ch) = 0;
-
-    ch->player_specials->irda_keywords_one = NULL;
-    ch->player_specials->irda_keywords_two = NULL;
-    ch->player_specials->irda_name_one = NULL;
-    ch->player_specials->irda_name_two = NULL;
-    ch->player_specials->irda_short_descr_one = NULL;
-    ch->player_specials->irda_short_descr_two = NULL;
-    ch->player_specials->irda_title_one = NULL;
-    ch->player_specials->irda_title_two = NULL;
-
-    ch->player_specials->RKit = 0;
-    GET_DEITY(ch) = PFDEF_DEITY;  
-    for (i = 0; i < NUM_COLOR; i++)
-      ch->player_specials->color_choices[i] = NULL;
-    for (i = 0; i < 65555; i++)
-      ch->player_specials->rooms_visited[i] = 0;
-    ch->player_specials->num_of_rooms_visited = 0;
-    for (i = 0; i < NUM_CLASSES; i++)
-      ch->player_specials->bonus_levels[i] = 0;
-    GET_MARK(ch) = NULL;
-    GET_MARK_ROUNDS(ch) = 0;
-    GET_DEATH_ATTACK(ch) = 0;
-    GET_FALSE_ETHOS(ch) = 0;
-    GET_FALSE_ALIGNMENT(ch) = 0;
-    GET_GUILD(ch) = -1;
-    GET_SUBGUILD(ch) = -1;
-    GET_GUILD_RANK(ch) = 1;
-    GET_GUILD_EXP(ch) = 0;
-    for (i = 0; i < NUM_RULES; i++)
-      ch->player_specials->rules_read[i] = FALSE;
-	ch->sum_name = NULL; //"Invalid";
-	ch->sum_desc = NULL; //"Invalid";
-	ch->summon_type = -1;
-
-    while (get_line(fl, line)) {
-      tag_argument(line, tag);
-
-      switch (*tag) {
-      case 'A':
-             if (!strcmp(tag, "Ac  "))  GET_ARMOR(ch)           = atoi(line);
-        else if (!strcmp(tag, "Acc "))  GET_ACCURACY_MOD(ch)    = atoi(line);
-        else if (!strcmp(tag, "AccB"))  GET_ACCURACY_BASE(ch)   = atoi(line);
-        else if (!strcmp(tag, "Acct"))  {
-          ch->player_specials->account_name = strdup(line);
-          if (ch->desc && ch->desc->account == NULL) {
-           CREATE(ch->desc->account, struct account_data, 1);
-           for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
-             ch->desc->account->character_names[i] = NULL;
-
-            load_account(ch->player_specials->account_name, ch->desc->account);
-          }
-        }
-        else if (!strcmp(tag, "Act ")) {
-          sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
-            PLR_FLAGS(ch)[0] = asciiflag_conv(f1);
-            PLR_FLAGS(ch)[1] = asciiflag_conv(f2);
-            PLR_FLAGS(ch)[2] = asciiflag_conv(f3);
-            PLR_FLAGS(ch)[3] = asciiflag_conv(f4);
-        } else if (!strcmp(tag, "ActN"))  GET_ACCOUNT_NAME(ch)  = strdup(line);
-        else if (!strcmp(tag, "ArXp"))  GET_ARTISAN_EXP(ch)   = atof(line);
-        else if (!strcmp(tag, "ArTy"))  GET_ARTISAN_TYPE(ch)   = atoi(line);
-        else if (!strcmp(tag, "Aff ")) {
-          sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
-            AFF_FLAGS(ch)[0] = asciiflag_conv(f1);
-            AFF_FLAGS(ch)[1] = asciiflag_conv(f2);
-            AFF_FLAGS(ch)[2] = asciiflag_conv(f3);
-            AFF_FLAGS(ch)[3] = asciiflag_conv(f4);
-        } else if (!strcmp(tag, "Affs"))  load_affects(fl, ch, 0);
-        else if (!strcmp(tag, "Affv"))  load_affects(fl, ch, 1);
-        else if (!strcmp(tag, "AdmL"))  GET_ADMLEVEL(ch)	= atoi(line);
-        else if (!strcmp(tag, "AdmF")) {
-          sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
-          ADM_FLAGS(ch)[0] = asciiflag_conv(f1);
-          ADM_FLAGS(ch)[1] = asciiflag_conv(f2);
-          ADM_FLAGS(ch)[2] = asciiflag_conv(f3);
-          ADM_FLAGS(ch)[3] = asciiflag_conv(f4);
-        } else if (!strcmp(tag, "Alin"))  GET_ALIGNMENT(ch)       = atoi(line);
-        else if (!strcmp(tag, "Alis"))  ch->player_specials->keywords      = strdup(line);
-        else if (!strcmp(tag, "Appr"))  IS_APPROVED(ch) = atoi(line);
-        else if (!strcmp(tag, "AQVN"))  GET_AUTOQUEST_VNUM(ch) = atoi(line);
-        else if (!strcmp(tag, "AQKN"))  GET_AUTOQUEST_KILLNUM(ch) = atoi(line);
-        else if (!strcmp(tag, "AQQP"))  GET_AUTOQUEST_QP(ch) = atoi(line);
-        else if (!strcmp(tag, "AQEX"))  GET_AUTOQUEST_EXP(ch) = atoi(line);
-        else if (!strcmp(tag, "AQGP"))  GET_AUTOQUEST_GOLD(ch) = atoi(line);
-        else if (!strcmp(tag, "AQDS")) {
-					free(GET_AUTOQUEST_DESC(ch));
-					GET_AUTOQUEST_DESC(ch) = strdup(line);
-				}
-        else if (!strcmp(tag, "ACVN"))  GET_AUTOCQUEST_VNUM(ch) = atoi(line);
-        else if (!strcmp(tag, "ACKN"))  GET_AUTOCQUEST_MAKENUM(ch) = atoi(line);
-        else if (!strcmp(tag, "ACQP"))  GET_AUTOCQUEST_QP(ch) = atoi(line);
-        else if (!strcmp(tag, "ACEX"))  GET_AUTOCQUEST_EXP(ch) = atoi(line);
-        else if (!strcmp(tag, "ACGP"))  GET_AUTOCQUEST_GOLD(ch) = atoi(line);
-        else if (!strcmp(tag, "ACMT"))  GET_AUTOCQUEST_MATERIAL(ch) = atoi(line);
-        else if (!strcmp(tag, "ACDS")) {
-					free(GET_AUTOCQUEST_DESC(ch));
-					GET_AUTOCQUEST_DESC(ch) = strdup(line);
-				}
-      break;
-
-      case 'B':
-             if (!strcmp(tag, "Badp"))  GET_BAD_PWS(ch)         = atoi(line);
-        else if (!strcmp(tag, "Bank"))  GET_BANK_GOLD(ch)       = atoi(line);
-        else if (!strcmp(tag, "BG1 "))  ch->player_specials->background_1 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "BG2 "))  ch->player_specials->background_2 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "BG3 "))  ch->player_specials->background_3 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "BG4 "))  ch->player_specials->background_4 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "BG5 "))  ch->player_specials->background_5 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "BG6 "))  ch->player_specials->background_6 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "BG7 "))  ch->player_specials->background_7 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "BG8 "))  ch->player_specials->background_8 = fread_string(fl, buf2);
-        else if (!strcmp(tag, "Bled"))  GET_FIGHT_BLEEDING_DAMAGE(ch) = atoi(line);
-        else if (!strcmp(tag, "BLvA"))  ch->player_specials->bonus_levels_arcane = atoi(line);
-        else if (!strcmp(tag, "BLvD"))  ch->player_specials->bonus_levels_divine = atoi(line);
-        else if (!strcmp(tag, "BLev"))  {
-          do {
-            get_line(fl, line);
-            if (!strcmp(line, "EndBonusLevels\n"))
-              break;
-             sscanf(line, "%d %d", &num, &num2);
-           if (num >= 0 && num < NUM_CLASSES)
-             ch->player_specials->bonus_levels[num] = num2;
-          } while (num != -1);
-        }
-        else if (!strcmp(tag, "Boot")) ch->boot_time = atoi(line);
-        else if (!strcmp(tag, "Boun")) ch->bounty_gem = atoi(line);
-        else if (!strcmp(tag, "BSng")) GET_BARD_SONGS(ch) = atoi(line);
-        else if (!strcmp(tag, "BSp0")) GET_BARD_SPELLS(ch, 0) = atoi(line);
-        else if (!strcmp(tag, "BSp1")) GET_BARD_SPELLS(ch, 1) = atoi(line);
-        else if (!strcmp(tag, "BSp2")) GET_BARD_SPELLS(ch, 2) = atoi(line);
-        else if (!strcmp(tag, "BSp3")) GET_BARD_SPELLS(ch, 3) = atoi(line);
-        else if (!strcmp(tag, "BSp4")) GET_BARD_SPELLS(ch, 4) = atoi(line);
-        else if (!strcmp(tag, "BSp5")) GET_BARD_SPELLS(ch, 5) = atoi(line);
-        else if (!strcmp(tag, "BSp6")) GET_BARD_SPELLS(ch, 6) = atoi(line);
-        else if (!strcmp(tag, "Bmem")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if (num2 != -1) {
-              /* if memorized add to arrays */
-              if (num3 == 0) {
-                GET_SPELLMEM_B(ch, GET_MEMCURSOR_B(ch)) = num2;
-                GET_MEMCURSOR_B(ch)++;
-                /* otherwise add to in-progress linked-list */
-              } else {
-              GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
-              memorize_add(ch, num2, num3);
-              GET_MEM_TYPE(ch) = 0;
-              }
-            }
-            num++;
-          } while (num2 != -1);
-        }
-        else if (!strcmp(tag, "Brth"))  ch->time.birth          = atol(line);
-      break;
-
-      case 'C':
-             if (!strcmp(tag, "Cha "))  ch->real_abils.cha      = atoi(line);
-        else if (!strcmp(tag, "Camp"))  GET_CAMP_USED(ch)         = atoi(line);
-        else if (!strcmp(tag, "COut"))  (ch)->combat_output     = atoi(line);
-        else if (!strcmp(tag, "CSpn")) {
-          do {
-          get_line(fl, line);
-            if (!strcmp(line, "NoSponsor\n"))
-              break;
-            sscanf(line, "%d", &num);
-            GET_CLASS_SPONSOR(ch, num) = TRUE;
-          } while (num != -1 && atoi(strtok(line, "\n")) < NUM_CLASSES);
-        }
-        else if (!strcmp(tag, "CNum"))   GET_COMPANION_VNUM(ch)  = atoi(line);
-        else if (!strcmp(tag, "CbFt")) {
-          sscanf(line, "%d %s %s %s %s", &num, f1, f2, f3, f4);
-          if (num < 0 || num > CFEAT_MAX) {
-            log("load_char: %s combat feat record out of range: %s", GET_NAME(ch), line);
-            break;
-          }
-          ch->combat_feats[num][0] = asciiflag_conv(f1);
-          ch->combat_feats[num][1] = asciiflag_conv(f2);
-          ch->combat_feats[num][2] = asciiflag_conv(f3);
-          ch->combat_feats[num][3] = asciiflag_conv(f4);
-        }
-        else if (!strcmp(tag, "Clan"))  GET_CLAN(ch)           = atoi(line);
-        else if (!strcmp(tag, "Clas"))  GET_CLASS(ch)           = atoi(line);
-        else if (!strcmp(tag, "Cmem")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if (num2 != -1) {
-              /* if memorized add to arrays */
-              if (num3 == 0) {
-                GET_SPELLMEM_C(ch, GET_MEMCURSOR_C(ch)) = num2;
-                GET_MEMCURSOR_C(ch)++;
-                /* otherwise add to in-progress linked-list */
-              } else {
-              GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
-              memorize_add(ch, num2, num3);
-              GET_MEM_TYPE(ch) = 0;
-              }
-            }
-            num++;
-          } while (num2 != -1);
-        }
-        else if (!strcmp(tag, "Colr"))  {
-          sscanf(line, "%d %s", &num, buf2);
-          ch->player_specials->color_choices[num] = strdup(buf2);
-        }
-        else if (!strcmp(tag, "Con "))  ch->real_abils.con      = atoi(line);
-        else if (!strcmp(tag, "Crtd"))  ch->time.created        = atol(line);
-        else if (!strcmp(tag, "CStr"))  GET_CARRY_STR_MOD(ch)   = atoi(line); 
-        
-      break;
-
-      case 'D':
-             if (!strcmp(tag, "Desc"))  ch->player_specials->description  = fread_string(fl, buf2);
-        else if (!strcmp(tag, "DfSt"))  GET_DEFENSIVE_STANCE(ch) = atoi(line);
-        else if (!strcmp(tag, "Dex "))  ch->real_abils.dex      = atoi(line);
-        else if (!strcmp(tag, "Dom1"))  GET_DOMAIN_ONE(ch) = atoi(line);
-        else if (!strcmp(tag, "Dom2"))  GET_DOMAIN_TWO(ch) = atoi(line);
-        else if (!strcmp(tag, "Drnk"))  GET_COND(ch, DRUNK)     = atoi(line);
-        else if (!strcmp(tag, "Damg"))  GET_DAMAGE_MOD(ch)          = atoi(line);
-        else if (!strcmp(tag, "DRac"))  GET_DISGUISE_RACE(ch)          = atoi(line);
-        else if (!strcmp(tag, "DmRd"))  load_damreduce(ch, fl);
-        else if (!strcmp(tag, "Dmem")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if (num2 != -1) {
-              /* if memorized add to arrays */
-              if (num3 == 0) {
-                GET_SPELLMEM_D(ch, GET_MEMCURSOR_D(ch)) = num2;
-                GET_MEMCURSOR_D(ch)++;
-                /* otherwise add to in-progress linked-list */
-              } else {
-              GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
-              memorize_add(ch, num2, num3);
-              GET_MEM_TYPE(ch) = 0;
-              }
-            }
-            num++;
-          } while (num2 != -1);
+    if ((id = get_ptable_by_name(name)) < 0)
+        return (-1);
+    else
+    {
+        if (!get_filename(fname, sizeof(fname), PLR_FILE, player_table[id].name))
+            return (-1);
+        if (!(fl = fopen(fname, "r")))
+        {
+            mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open player file %s", fname);
+            return (-1);
         }
 
-      break;
-
-      case 'E':
-             if (!strcmp(tag, "Exp "))  GET_EXP(ch)             = atoi(line);
-        else if (!strcmp(tag, "ExAE"))  GET_EXTRA_ACC_EXP(ch) = atoi(line);
-        else if (!strcmp(tag, "Eali"))  GET_ETHIC_ALIGNMENT(ch) = atoi(line);
-        else if (!strcmp(tag, "Ecls"))  { sscanf(line, "%d=%d", &num, &num2);
-                                          GET_CLASS_EPIC(ch, num) = num2; }
-        else if (!strcmp(tag, "ESpl")) GET_EPIC_SPELLS(ch) = atoi(line);
-        else if (!strcmp(tag, "EFDR")) ch->damage_reduction_feats = atoi(line);
-        else if (!strcmp(tag, "EFFH")) ch->fast_healing_feats = atoi(line);
-        else if (!strcmp(tag, "EFAS")) ch->armor_skin_feats = atoi(line);
-    
-      break;
-
-      case 'F':
-             if (!strcmp(tag, "Frez"))  GET_FREEZE_LEV(ch)      = atoi(line);
-        else if (!strcmp(tag, "FAln"))  GET_FALSE_ALIGNMENT(ch)     = atoi(line);
-        else if (!strcmp(tag, "FEth"))  GET_FALSE_ETHOS(ch)     = atoi(line); 
-        else if (!strcmp(tag, "Feat"))  load_feats(fl, ch);
-        else if (!strcmp(tag, "Fpnt"))  GET_FEAT_POINTS(ch)     = atoi(line);
-        else if (!strcmp(tag, "FEpc"))  GET_EPIC_FEAT_POINTS(ch)= atoi(line);
-        else if (!strcmp(tag, "FCls"))  { sscanf(line, "%d %d", &num, &num2);
-          GET_CLASS_FEATS(ch, num) = num2; }
-        else if (!strcmp(tag, "FECl"))  { sscanf(line, "%d %d", &num, &num2);
-          GET_EPIC_CLASS_FEATS(ch, num) = num2; }
-        else if (!strcmp(tag, "FNum")) GET_FAMILIAR_VNUM(ch) = atoi(line);
-        else if (!strcmp(tag, "FSp0")) GET_FAVORED_SOUL_SPELLS(ch, 0) = atoi(line);
-        else if (!strcmp(tag, "FSp1")) GET_FAVORED_SOUL_SPELLS(ch, 1) = atoi(line);
-        else if (!strcmp(tag, "FSp2")) GET_FAVORED_SOUL_SPELLS(ch, 2) = atoi(line);
-        else if (!strcmp(tag, "FSp3")) GET_FAVORED_SOUL_SPELLS(ch, 3) = atoi(line);
-        else if (!strcmp(tag, "FSp4")) GET_FAVORED_SOUL_SPELLS(ch, 4) = atoi(line);
-        else if (!strcmp(tag, "FSp5")) GET_FAVORED_SOUL_SPELLS(ch, 5) = atoi(line);
-        else if (!strcmp(tag, "FSp6")) GET_FAVORED_SOUL_SPELLS(ch, 6) = atoi(line);
-        else if (!strcmp(tag, "FSp7")) GET_FAVORED_SOUL_SPELLS(ch, 7) = atoi(line);
-        else if (!strcmp(tag, "FSp8")) GET_FAVORED_SOUL_SPELLS(ch, 8) = atoi(line);
-        else if (!strcmp(tag, "FSp9")) GET_FAVORED_SOUL_SPELLS(ch, 9) = atoi(line);
-      break;
-
-      case 'G':
-             if (!strcmp(tag, "God "))  { GET_DEITY(ch)           = atoi(line);}
-        else if (!strcmp(tag, "Gath"))  { GET_GATHER_INFO(ch)     = atoi(line);}
-        else if (!strcmp(tag, "Gold"))  { GET_GOLD(ch)            = atoi(line);}
-        else if (!strcmp(tag, "GSD1"))  GET_PC_DESCRIPTOR_1(ch)   = atoi(line);
-        else if (!strcmp(tag, "GSD2"))  GET_PC_DESCRIPTOR_2(ch)   = atoi(line);
-        else if (!strcmp(tag, "GSA1"))  GET_PC_ADJECTIVE_1(ch)   = atoi(line);
-        else if (!strcmp(tag, "GSA2"))  GET_PC_ADJECTIVE_2(ch)   = atoi(line);
-        else if (!strcmp(tag, "Gild"))  GET_GUILD(ch)   = atoi(line);
-        else if (!strcmp(tag, "GSub"))  GET_SUBGUILD(ch)   = atoi(line);
-        else if (!strcmp(tag, "GRnk"))  GET_GUILD_RANK(ch)   = atoi(line);
-        else if (!strcmp(tag, "GExp"))  GET_GUILD_EXP(ch)   = atoi(line);
-      break;
-
-      case 'H':
-             if (!strcmp(tag, "Hit "))  load_HMVS(ch, line, LOAD_HIT);
-        else if (!strcmp(tag, "Heal"))  GET_HEAL_USED(ch)         = atoi(line);
-        else if (!strcmp(tag, "HAmt"))  GET_HEAL_AMOUNT(ch)         = atoi(line);
-        else if (!strcmp(tag, "HPBn"))  GET_HP_BONUS(ch)         = atoi(line);
-        else if (!strcmp(tag, "HRol"))  GET_HEAL_ROLL(ch)         = atoi(line);
-        else if (!strcmp(tag, "HitD"))  GET_HITDICE(ch)         = atoi(line);
-        else if (!strcmp(tag, "Hite"))  GET_HEIGHT(ch)          = atoi(line);
-        else if (!strcmp(tag, "Home"))  GET_HOME(ch)            = atoi(line);
-        else if (!strcmp(tag, "Host")) {
-          if (GET_HOST(ch))
-            free(GET_HOST(ch));
-          GET_HOST(ch) = strdup(line);
+        /* character initializations */
+        /* initializations necessary to keep some things straight */
+        ch->affected = NULL;
+        ch->affectedv = NULL;
+        for (i = 1; i <= SKILL_TABLE_SIZE; i++)
+        {
+            SET_SKILL(ch, i, 0);
+            SET_SKILL_BONUS(ch, i, 0);
         }
-        else if (!strcmp(tag, "Hung"))  GET_COND(ch, FULL)      = atoi(line);
-      break;
-
-      case 'I':
-             if (!strcmp(tag, "Id  "))  GET_IDNUM(ch)           = atol(line);
-        else if (!strcmp(tag, "Int "))  ch->real_abils.intel    = atoi(line);
-        else if (!strcmp(tag, "Invs"))  GET_INVIS_LEV(ch)       = atoi(line);
-        else if (!strcmp(tag, "Intr"))  load_intros(fl, ch);
-        else if (!strcmp(tag, "IGiv"))  GET_INTROS_GIVEN(ch)    = atoi(line);
-        else if (!strcmp(tag, "IRec"))  GET_INTROS_RECEIVED(ch) = atoi(line);
-        else if (!strcmp(tag, "ISAF"))  ch->imp_sneak_attack_feats	= atoi(line);
-        else if (!strcmp(tag, "InAb")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if(num2 != -1)
-              GET_INNATE(ch, num2) = num3;
-            num++;
-          } while (num2 != -1);
+        GET_SEX(ch) = PFDEF_SEX;
+        ch->size = PFDEF_SIZE;
+        GET_CRAFTING_TYPE(ch) = PFDEF_CRAFTING_TYPE;
+        GET_CLASS(ch) = PFDEF_CLASS;
+        for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++)
+        {
+            ch->player_specials->spells_known[i] = 0;
         }
-        else if (!strcmp(tag, "Inna")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if(num2 != -1)
-              innate_add(ch, num2, num3);
-            num++;
-          } while (num2 != -1);
+        for (i = 0; i < 10; i++)
+            ch->player_specials->spell_slots[i] = 0;
+
+        for (i = 0; i < NUM_CLASSES; i++)
+            GET_CLASS_SPONSOR(ch, i) = FALSE;
+        GET_CLASS(ch) = PFDEF_CLASS;
+        for (i = 0; i < NUM_CLASSES; i++)
+        {
+            GET_CLASS_NONEPIC(ch, i) = 0;
+            GET_CLASS_EPIC(ch, i) = 0;
         }
-        else if (!strcmp(tag, "IDs1")) ch->player_specials->irda_description_one = fread_string(fl, buf2);
-        else if (!strcmp(tag, "IDs2")) ch->player_specials->irda_description_two = fread_string(fl, buf2);
-        else if (!strcmp(tag, "IKw1")) ch->player_specials->irda_keywords_one = strdup(line);
-        else if (!strcmp(tag, "IKw2")) ch->player_specials->irda_keywords_two = strdup(line);
-        else if (!strcmp(tag, "INa1")) ch->player_specials->irda_name_one = strdup(line);
-        else if (!strcmp(tag, "INa2")) ch->player_specials->irda_name_two = strdup(line);
-        else if (!strcmp(tag, "ISD1")) ch->player_specials->irda_short_descr_one = strdup(line);
-        else if (!strcmp(tag, "ISD2")) ch->player_specials->irda_short_descr_two = strdup(line);
-        else if (!strcmp(tag, "ISSt")) GET_IRDA_SHAPE_STATUS(ch) = atoi(line);
-        else if (!strcmp(tag, "ITi1")) GET_IRDA_TITLE_1(ch) = strdup(line);
-        else if (!strcmp(tag, "ITi2")) GET_IRDA_TITLE_2(ch) = strdup(line);
-      break;
+        for (i = 0; i < 10; i++)
+        {
+            ch->player_specials->wishlist[i][0] = 0;
+            ch->player_specials->wishlist[i][1] = 0;
+        }
+        GET_HEAL_ROLL(ch) = PFDEF_HEAL_ROLL;
+        GET_HEAL_AMOUNT(ch) = PFDEF_HEAL_AMOUNT;
+        GET_HEAL_USED(ch) = PFDEF_HEAL_USED;
+        GET_CAMP_USED(ch) = 0;
+        GET_RESEARCH_TOKENS(ch) = 0;
+        GET_REAL_RACE(ch) = PFDEF_RACE;
+        GET_DISGUISE_RACE(ch) = PFDEF_RACE;
+        GET_CLAN(ch) = PFDEF_CLAN;
+        GET_CLAN_RANK(ch) = PFDEF_CLANRANK;
+        GET_CARRY_STR_MOD(ch) = 0;
+        ch->player_specials->account_name = NULL;
+        ch->player_specials->short_descr = NULL;
+        ch->player_specials->keywords = NULL;
+        ch->player_specials->description = NULL;
+        ch->player_specials->background_1 = NULL;
+        ch->player_specials->background_2 = NULL;
+        ch->player_specials->background_3 = NULL;
+        ch->player_specials->background_4 = NULL;
+        ch->player_specials->background_5 = NULL;
+        ch->player_specials->background_6 = NULL;
+        ch->player_specials->background_7 = NULL;
+        ch->player_specials->background_8 = NULL;
+        GET_ADMLEVEL(ch) = PFDEF_LEVEL;
+        GET_CLASS_LEVEL(ch) = PFDEF_LEVEL;
+        GET_HITDICE(ch) = PFDEF_LEVEL;
+        GET_LEVEL_ADJ(ch) = PFDEF_LEVEL;
+        GET_HOME(ch) = PFDEF_HOMETOWN;
+        GET_HEIGHT(ch) = PFDEF_HEIGHT;
+        GET_WEIGHT(ch) = PFDEF_WEIGHT;
+        GET_ALIGNMENT(ch) = PFDEF_ALIGNMENT;
+        GET_ETHIC_ALIGNMENT(ch) = PFDEF_ETHIC_ALIGNMENT;
+        for (i = 0; i < AF_ARRAY_MAX; i++)
+            AFF_FLAGS(ch)[i] = PFDEF_AFFFLAGS;
+        for (i = 0; i < PM_ARRAY_MAX; i++)
+            PLR_FLAGS(ch)[i] = PFDEF_PLRFLAGS;
+        for (i = 0; i < PR_ARRAY_MAX; i++)
+            PRF_FLAGS(ch)[i] = PFDEF_PREFFLAGS;
+        for (i = 0; i < AD_ARRAY_MAX; i++)
+            ADM_FLAGS(ch)[i] = 0;
+        for (i = 0; i < NUM_OF_SAVE_THROWS; i++)
+        {
+            GET_SAVE_MOD(ch, i) = PFDEF_SAVETHROW;
+            GET_SAVE_BASE(ch, i) = PFDEF_SAVETHROW;
+        }
 
-      case 'K':
-             if (!strcmp(tag, "Ki  "))  load_HMVS(ch, line, LOAD_KI);
-        else if (!strcmp(tag, "KeyW"))  ch->player_specials->keywords = strdup(line);
-      break;
+        GET_AUTOCQUEST_VNUM(ch) = 0;
+        GET_AUTOCQUEST_DESC(ch) = strdup("nothing");
+        GET_AUTOCQUEST_MAKENUM(ch) = 5;
+        GET_AUTOCQUEST_QP(ch) = 0;
+        GET_AUTOCQUEST_EXP(ch) = 0;
+        GET_AUTOCQUEST_GOLD(ch) = 0;
 
-      case 'L':
-             if (!strcmp(tag, "Last"))  ch->time.logon          = atol(line);
-        else if (!strcmp(tag, "LayH"))  GET_LAY_HANDS(ch)       = atoi(line);
-        else if (!strcmp(tag, "Lern"))  GET_PRACTICES(ch, GET_CLASS(ch)) = atoi(line);
-        else if (!strcmp(tag, "Levl"))  GET_CLASS_LEVEL(ch)     = atoi(line);
-        else if (!strcmp(tag, "LevD"))  read_level_data(ch, fl);
-        else if (!strcmp(tag, "LFG "))  GET_LFG_STRING(ch) = strdup(line);
-        else if (!strcmp(tag, "LStg"))  GET_LEVEL_STAGE(ch)   = atoi(line);
-        else if (!strcmp(tag, "LvlA"))  GET_LEVEL_ADJ(ch)     = atoi(line);
-        else if (!strcmp(tag, "LDsc"))  GET_LONG_DESC(ch)  = strdup(line);
-/*
-        else if (!strcmp(tag, "LvFt"))  {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if(num2 != -1) {
-              struct level_data *lvl = ch->level_info->level_extra;
-              for (lvl; lvl; lvl = lvl->next) {
-                if (lvl->level == num2) {
+        //    ch->levelup->class = 0;
+        GET_QUEST_COUNTER(ch) = PFDEF_QUESTCOUNT;
+        GET_QUEST(ch) = PFDEF_CURRQUEST;
+        GET_NUM_QUESTS(ch) = PFDEF_COMPQUESTS;
+        GET_TURN_UNDEAD(ch) = 0;
+        GET_PREF(ch) = get_new_pref();
+        GET_STRENGTH_OF_HONOR(ch) = 0;
+        GET_RAGE(ch) = 0;
+        GET_DEFENSIVE_STANCE(ch) = 0;
+        GET_SMITE_EVIL(ch) = 0;
+        GET_MOUNT_VNUM(ch) = 0;
+        GET_PET_VNUM(ch) = 0;
+        GET_FAMILIAR_VNUM(ch) = 0;
+        GET_COMPANION_VNUM(ch) = 0;
+        GET_COMPANION_NAME(ch) = NULL;
+        GET_EXPERTISE_BONUS(ch) = 0;
+        GET_ENMITY(ch) = 0;
+        GET_TOTAL_AOO(ch) = 0;
+        GET_LOADROOM(ch) = 30000;
+        GET_SPELLCASTER_LEVEL(ch) = 0;
+        ch->stat_points_given = 0;
+        GET_LAY_HANDS(ch) = 0;
+        GET_RECALL(ch) = PFDEF_RECALLROOM;
+        GET_INVIS_LEV(ch) = PFDEF_INVISLEV;
+        GET_FREEZE_LEV(ch) = PFDEF_FREEZELEV;
+        GET_WIMP_LEV(ch) = PFDEF_WIMPLEV;
+        GET_POWERATTACK(ch) = PFDEF_POWERATT;
+        GET_COND(ch, FULL) = PFDEF_HUNGER;
+        ch->player_specials->crafting_exp_mult = 1;
+        GET_COND(ch, THIRST) = PFDEF_THIRST;
+        GET_COND(ch, DRUNK) = PFDEF_DRUNK;
+        GET_BAD_PWS(ch) = PFDEF_BADPWS;
+        GET_RACE_PRACTICES(ch) = PFDEF_PRACTICES;
+        for (i = 0; i < NUM_CLASSES; i++)
+            GET_PRACTICES(ch, i) = PFDEF_PRACTICES;
+        GET_GOLD(ch) = PFDEF_GOLD;
+        GET_TAVERN_EXP_BONUS(ch) = 0;
+        GET_BANK_GOLD(ch) = PFDEF_BANK;
+        GET_EXP(ch) = PFDEF_EXP;
+        GET_ARTISAN_EXP(ch) = 0;
+        GET_ARTISAN_TYPE(ch) = 0;
+        GET_SCREEN_WIDTH(ch) = PFDEF_SCREENWIDTH;
+        GET_QUESTPOINTS(ch) = PFDEF_QUESTPOINTS;
+        GET_ACCOUNT_NUM(ch) = PFDEF_ACCT_NUM;
+        GET_ACCOUNT_NAME(ch) = NULL;
+        GET_ACCURACY_MOD(ch) = PFDEF_ACCURACY;
+        GET_ACCURACY_BASE(ch) = PFDEF_ACCURACY;
+        GET_DAMAGE_MOD(ch) = PFDEF_DAMAGE;
+        GET_ARMOR(ch) = PFDEF_AC;
+        ch->real_abils.str = PFDEF_STR;
+        ch->real_abils.dex = PFDEF_DEX;
+        ch->real_abils.intel = PFDEF_INT;
+        ch->real_abils.wis = PFDEF_WIS;
+        ch->real_abils.con = PFDEF_CON;
+        ch->real_abils.cha = PFDEF_CHA;
+        GET_IRDA_SHAPE_STATUS(ch) = PFDEF_IRDA_SHAPE_STATUS;
+        GET_HIT(ch) = PFDEF_HIT;
+        GET_MAX_HIT(ch) = PFDEF_MAXHIT;
+        GET_EXTRA_ACC_EXP(ch) = 0;
+        ch->bounty_gem = 0;
+        GET_GATHER_INFO(ch) = 0;
+        GET_MANA(ch) = PFDEF_MANA;
+        GET_MAX_MANA(ch) = PFDEF_MAXMANA;
+        GET_MOVE(ch) = PFDEF_MOVE;
+        GET_MAX_MOVE(ch) = PFDEF_MAXMOVE;
+        GET_KI(ch) = PFDEF_KI;
+        GET_MAX_KI(ch) = PFDEF_MAXKI;
+        SPEAKING(ch) = PFDEF_SPEAKING;
+        GET_EPIC_SPELLS(ch) = 0;
+        GET_BARD_SONGS(ch) = 0;
+        ch->mentor_level = 0;
+        for (i = 0; i < 7; i++)
+            GET_BARD_SPELLS(ch, i) = 0;
+        for (i = 0; i < 7; i++)
+            ch->player_specials->bard_spells_to_learn[i] = 0;
+        for (i = 0; i < 10; i++)
+            GET_FAVORED_SOUL_SPELLS(ch, i) = 0;
+        GET_FIGHT_BLEEDING_DAMAGE(ch) = 0;
+        GET_FIGHT_PRECISE_ATTACK(ch) = 0;
+        GET_FIGHT_DAMAGE_REDUCTION(ch) = 0;
+        GET_FIGHT_MESSAGE_PRINTED(ch) = 0;
+        GET_FIGHT_SNEAK_ATTACK(ch) = 0;
+        GET_FIGHT_CRITICAL_HIT(ch) = 0;
+        GET_FIGHT_DEATH_ATTACK(ch) = 0;
+        GET_FIGHT_DAMAGE_DONE(ch) = 0;
+        GET_FIGHT_NUMBER_OF_ATTACKS(ch) = 0;
+        GET_FIGHT_NUMBER_OF_HITS(ch) = 0;
+        GET_OLC_ZONE(ch) = PFDEF_OLC;
+        GET_HOST(ch) = NULL;
+        GUARDING(ch) = NULL;
+        GUARDED_BY(ch) = NULL;
+        ch->exp_chain = 0;
+        ch->fight_over = 0;
+        ch->player_specials->epic_dodge = FALSE;
+        GET_LFG_STRING(ch) = NULL;
+        GET_HP_BONUS(ch) = 0;
+        GET_INTROS_GIVEN(ch) = 0;
+        GET_INTROS_RECEIVED(ch) = 0;
+        ch->spell_cast = FALSE;
+        GET_WISH_STR(ch) = 0;
+        GET_WISH_CON(ch) = 0;
+        GET_WISH_DEX(ch) = 0;
+        GET_WISH_INT(ch) = 0;
+        GET_WISH_WIS(ch) = 0;
+        GET_WISH_CHA(ch) = 0;
+        ch->trains_spent = 0;
+        ch->trains_unspent = 0;
 
+        GET_AUTOQUEST_VNUM(ch) = 0;
+        GET_AUTOQUEST_KILLNUM(ch) = 0;
+        GET_AUTOQUEST_QP(ch) = 0;
+        GET_AUTOQUEST_EXP(ch) = 0;
+        GET_AUTOQUEST_GOLD(ch) = 0;
+        GET_AUTOQUEST_DESC(ch) = strdup("nothing");
+
+        ch->damage_reduction_feats = 0;
+        ch->armor_skin_feats = 0;
+        ch->fast_healing_feats = 0;
+
+        GET_RP_EXP(ch) = 0;
+        GET_RP_POINTS(ch) = 0;
+        GET_RP_EXP_BONUS(ch) = 0;
+        GET_RP_ART_EXP_BONUS(ch) = 0;
+        GET_RP_GOLD_BONUS(ch) = 0;
+        GET_RP_ACCOUNT_EXP(ch) = 0;
+        GET_RP_QP_BONUS(ch) = 0;
+        GET_RP_CRAFT_BONUS(ch) = 0;
+
+
+        GET_STAT_MOB_KILLS(ch) = 0;
+
+        for (i = 0; i < (700); i++)
+            GET_INNATE(ch, i) = 0;
+        for(i = 1; i < MAX_MEM; i++)
+            GET_SPELLMEM(ch, i) = 0;
+        for(i = 1; i < MAX_MEM; i++)
+            GET_SPELLMEM_C(ch, i) = 0;
+        for(i = 1; i < MAX_MEM; i++)
+            GET_SPELLMEM_P(ch, i) = 0;
+        for(i = 0; i < MAX_SPELL_LEVEL; i++)
+            GET_SPELL_LEVEL(ch, i) = 0;
+        for (i = SKILL_LOW_SKILL; i <= SKILL_HIGH_SKILL; i++)
+            ch->player_specials->skill_focus[i - SKILL_LOW_SKILL] = 0;
+        GET_MEMCURSOR(ch) = 0;
+        GET_MEMCURSOR_C(ch) = 0;
+        GET_MEMCURSOR_P(ch) = 0;
+        ch->damreduct = NULL;
+        ch->time.birth = ch->time.created = ch->time.maxage = 0;
+        ch->followers = NULL;
+        GET_PAGE_LENGTH(ch) = PFDEF_PAGELENGTH;
+        GET_TICKS_PASSED(ch) = 0;
+        IS_APPROVED(ch) = 0;
+        GET_PC_DESCRIPTOR_1(ch) = 0;
+        GET_PC_DESCRIPTOR_2(ch) = 0;
+        GET_PC_ADJECTIVE_1(ch) = 0;
+        GET_PC_ADJECTIVE_2(ch) = 0;
+
+        ch->player_specials->irda_keywords_one = NULL;
+        ch->player_specials->irda_keywords_two = NULL;
+        ch->player_specials->irda_name_one = NULL;
+        ch->player_specials->irda_name_two = NULL;
+        ch->player_specials->irda_short_descr_one = NULL;
+        ch->player_specials->irda_short_descr_two = NULL;
+        ch->player_specials->irda_title_one = NULL;
+        ch->player_specials->irda_title_two = NULL;
+
+        ch->player_specials->RKit = 0;
+        GET_DEITY(ch) = PFDEF_DEITY;
+        for (i = 0; i < NUM_COLOR; i++)
+            ch->player_specials->color_choices[i] = NULL;
+        for (i = 0; i < 65555; i++)
+            ch->player_specials->rooms_visited[i] = 0;
+        ch->player_specials->num_of_rooms_visited = 0;
+        for (i = 0; i < NUM_CLASSES; i++)
+            ch->player_specials->bonus_levels[i] = 0;
+        GET_MARK(ch) = NULL;
+        GET_MARK_ROUNDS(ch) = 0;
+        GET_DEATH_ATTACK(ch) = 0;
+        GET_FALSE_ETHOS(ch) = 0;
+        GET_FALSE_ALIGNMENT(ch) = 0;
+        GET_GUILD(ch) = -1;
+        GET_SUBGUILD(ch) = -1;
+        GET_GUILD_RANK(ch) = 1;
+        GET_GUILD_EXP(ch) = 0;
+        for (i = 0; i < NUM_RULES; i++)
+            ch->player_specials->rules_read[i] = FALSE;
+        ch->sum_name = NULL; //"Invalid";
+        ch->sum_desc = NULL; //"Invalid";
+        ch->summon_type = -1;
+
+        while (get_line(fl, line))
+        {
+            tag_argument(line, tag);
+
+            switch (*tag)
+            {
+            case 'A':
+                if (!strcmp(tag, "Ac  "))  GET_ARMOR(ch)           = atoi(line);
+                else if (!strcmp(tag, "Acc "))  GET_ACCURACY_MOD(ch)    = atoi(line);
+                else if (!strcmp(tag, "AccB"))  GET_ACCURACY_BASE(ch)   = atoi(line);
+                else if (!strcmp(tag, "Acct"))
+                {
+                    ch->player_specials->account_name = strdup(line);
+                    if (ch->desc && ch->desc->account == NULL)
+                    {
+                        CREATE(ch->desc->account, struct account_data, 1);
+                        for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
+                            ch->desc->account->character_names[i] = NULL;
+
+                        load_account(ch->player_specials->account_name, ch->desc->account);
+                    }
                 }
-              } 
-            }
-            num++;
-          } while (num2 != -1);
-        }
-        else if (!strcmp(tag, "LvSk"))  read_level_skills(ch, fl);
-        else if (!strcmp(tag, "LvSp"))  read_level_spells(ch, fl);
-        else if (!strcmp(tag, "LvTr"))  read_level_trains(ch, fl);
-*/
-      break;
+                else if (!strcmp(tag, "Act "))
+                {
+                    sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
+                    PLR_FLAGS(ch)[0] = asciiflag_conv(f1);
+                    PLR_FLAGS(ch)[1] = asciiflag_conv(f2);
+                    PLR_FLAGS(ch)[2] = asciiflag_conv(f3);
+                    PLR_FLAGS(ch)[3] = asciiflag_conv(f4);
+                }
+                else if (!strcmp(tag, "ActN"))  GET_ACCOUNT_NAME(ch)  = strdup(line);
+                else if (!strcmp(tag, "ArXp"))  GET_ARTISAN_EXP(ch)   = atof(line);
+                else if (!strcmp(tag, "ArTy"))  GET_ARTISAN_TYPE(ch)   = atoi(line);
+                else if (!strcmp(tag, "Aff "))
+                {
+                    sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
+                    AFF_FLAGS(ch)[0] = asciiflag_conv(f1);
+                    AFF_FLAGS(ch)[1] = asciiflag_conv(f2);
+                    AFF_FLAGS(ch)[2] = asciiflag_conv(f3);
+                    AFF_FLAGS(ch)[3] = asciiflag_conv(f4);
+                }
+                else if (!strcmp(tag, "Affs"))  load_affects(fl, ch, 0);
+                else if (!strcmp(tag, "Affv"))  load_affects(fl, ch, 1);
+                else if (!strcmp(tag, "AdmL"))  GET_ADMLEVEL(ch)  = atoi(line);
+                else if (!strcmp(tag, "AdmF"))
+                {
+                    sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
+                    ADM_FLAGS(ch)[0] = asciiflag_conv(f1);
+                    ADM_FLAGS(ch)[1] = asciiflag_conv(f2);
+                    ADM_FLAGS(ch)[2] = asciiflag_conv(f3);
+                    ADM_FLAGS(ch)[3] = asciiflag_conv(f4);
+                }
+                else if (!strcmp(tag, "Alin"))  GET_ALIGNMENT(ch)       = atoi(line);
+                else if (!strcmp(tag, "Alis"))  ch->player_specials->keywords      = strdup(line);
+                else if (!strcmp(tag, "Appr"))  IS_APPROVED(ch) = atoi(line);
+                else if (!strcmp(tag, "AQVN"))  GET_AUTOQUEST_VNUM(ch) = atoi(line);
+                else if (!strcmp(tag, "AQKN"))  GET_AUTOQUEST_KILLNUM(ch) = atoi(line);
+                else if (!strcmp(tag, "AQQP"))  GET_AUTOQUEST_QP(ch) = atoi(line);
+                else if (!strcmp(tag, "AQEX"))  GET_AUTOQUEST_EXP(ch) = atoi(line);
+                else if (!strcmp(tag, "AQGP"))  GET_AUTOQUEST_GOLD(ch) = atoi(line);
+                else if (!strcmp(tag, "AQDS"))
+                {
+                    free(GET_AUTOQUEST_DESC(ch));
+                    GET_AUTOQUEST_DESC(ch) = strdup(line);
+                }
+                else if (!strcmp(tag, "ACVN"))  GET_AUTOCQUEST_VNUM(ch) = atoi(line);
+                else if (!strcmp(tag, "ACKN"))  GET_AUTOCQUEST_MAKENUM(ch) = atoi(line);
+                else if (!strcmp(tag, "ACQP"))  GET_AUTOCQUEST_QP(ch) = atoi(line);
+                else if (!strcmp(tag, "ACEX"))  GET_AUTOCQUEST_EXP(ch) = atoi(line);
+                else if (!strcmp(tag, "ACGP"))  GET_AUTOCQUEST_GOLD(ch) = atoi(line);
+                else if (!strcmp(tag, "ACMT"))  GET_AUTOCQUEST_MATERIAL(ch) = atoi(line);
+                else if (!strcmp(tag, "ACDS"))
+                {
+                    free(GET_AUTOCQUEST_DESC(ch));
+                    GET_AUTOCQUEST_DESC(ch) = strdup(line);
+                }
+                break;
 
-      case 'M':
-             if (!strcmp(tag, "Mana"))  load_HMVS(ch, line, LOAD_MANA);
-        else if (!strcmp(tag, "Mmem")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if (num2 != -1) {
-              /* if memorized add to arrays */
-              if (num3 == 0) {
-                GET_SPELLMEM(ch, GET_MEMCURSOR(ch)) = num2;
-                GET_MEMCURSOR(ch)++;
-                /* otherwise add to in-progress linked-list */
-              } else {
-              GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-              memorize_add(ch, num2, num3);
-              GET_MEM_TYPE(ch) = 0;
-              }
-            }
-            num++;
-          } while (num2 != -1);
-        }
+            case 'B':
+                if (!strcmp(tag, "Badp"))  GET_BAD_PWS(ch)         = atoi(line);
+                else if (!strcmp(tag, "Bank"))  GET_BANK_GOLD(ch)       = atoi(line);
+                else if (!strcmp(tag, "BG1 "))  ch->player_specials->background_1 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "BG2 "))  ch->player_specials->background_2 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "BG3 "))  ch->player_specials->background_3 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "BG4 "))  ch->player_specials->background_4 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "BG5 "))  ch->player_specials->background_5 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "BG6 "))  ch->player_specials->background_6 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "BG7 "))  ch->player_specials->background_7 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "BG8 "))  ch->player_specials->background_8 = fread_string(fl, buf2);
+                else if (!strcmp(tag, "Bled"))  GET_FIGHT_BLEEDING_DAMAGE(ch) = atoi(line);
+                else if (!strcmp(tag, "BLvA"))  ch->player_specials->bonus_levels_arcane = atoi(line);
+                else if (!strcmp(tag, "BLvD"))  ch->player_specials->bonus_levels_divine = atoi(line);
+                else if (!strcmp(tag, "BLev"))
+                {
+                    do
+                    {
+                        get_line(fl, line);
+                        if (!strcmp(line, "EndBonusLevels\n"))
+                            break;
+                        sscanf(line, "%d %d", &num, &num2);
+                        if (num >= 0 && num < NUM_CLASSES)
+                            ch->player_specials->bonus_levels[num] = num2;
+                    }
+                    while (num != -1);
+                }
+                else if (!strcmp(tag, "Boot")) ch->boot_time = atoi(line);
+                else if (!strcmp(tag, "Boun")) ch->bounty_gem = atoi(line);
+                else if (!strcmp(tag, "BSng")) GET_BARD_SONGS(ch) = atoi(line);
+                else if (!strcmp(tag, "BSp0")) GET_BARD_SPELLS(ch, 0) = atoi(line);
+                else if (!strcmp(tag, "BSp1")) GET_BARD_SPELLS(ch, 1) = atoi(line);
+                else if (!strcmp(tag, "BSp2")) GET_BARD_SPELLS(ch, 2) = atoi(line);
+                else if (!strcmp(tag, "BSp3")) GET_BARD_SPELLS(ch, 3) = atoi(line);
+                else if (!strcmp(tag, "BSp4")) GET_BARD_SPELLS(ch, 4) = atoi(line);
+                else if (!strcmp(tag, "BSp5")) GET_BARD_SPELLS(ch, 5) = atoi(line);
+                else if (!strcmp(tag, "BSp6")) GET_BARD_SPELLS(ch, 6) = atoi(line);
+                else if (!strcmp(tag, "Bmem"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if (num2 != -1)
+                        {
+                            /* if memorized add to arrays */
+                            if (num3 == 0)
+                            {
+                                GET_SPELLMEM_B(ch, GET_MEMCURSOR_B(ch)) = num2;
+                                GET_MEMCURSOR_B(ch)++;
+                                /* otherwise add to in-progress linked-list */
+                            }
+                            else
+                            {
+                                GET_MEM_TYPE(ch) = MEM_TYPE_BARD;
+                                memorize_add(ch, num2, num3);
+                                GET_MEM_TYPE(ch) = 0;
+                            }
+                        }
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
+                else if (!strcmp(tag, "Brth"))  ch->time.birth          = atol(line);
+                break;
 
-        else if (!strcmp(tag, "Move"))  load_HMVS(ch, line, LOAD_MOVE);
-        else if (!strcmp(tag, "Mcls"))  { sscanf(line, "%d=%d", &num, &num2);
-                                          GET_CLASS_NONEPIC(ch, num) = num2; }
-        else if (!strcmp(tag, "MxAg"))  ch->time.maxage         = atol(line);
+            case 'C':
+                if (!strcmp(tag, "Cha "))  ch->real_abils.cha      = atoi(line);
+                else if (!strcmp(tag, "Camp"))  GET_CAMP_USED(ch)         = atoi(line);
+                else if (!strcmp(tag, "COut"))  (ch)->combat_output     = atoi(line);
+                else if (!strcmp(tag, "CSpn"))
+                {
+                    do
+                    {
+                        get_line(fl, line);
+                        if (!strcmp(line, "NoSponsor\n"))
+                            break;
+                        sscanf(line, "%d", &num);
+                        GET_CLASS_SPONSOR(ch, num) = TRUE;
+                    }
+                    while (num != -1 && atoi(strtok(line, "\n")) < NUM_CLASSES);
+                }
+                else if (!strcmp(tag, "CNum"))   GET_COMPANION_VNUM(ch)  = atoi(line);
+                else if (!strcmp(tag, "CbFt"))
+                {
+                    sscanf(line, "%d %s %s %s %s", &num, f1, f2, f3, f4);
+                    if (num < 0 || num > CFEAT_MAX)
+                    {
+                        log("load_char: %s combat feat record out of range: %s", GET_NAME(ch), line);
+                        break;
+                    }
+                    ch->combat_feats[num][0] = asciiflag_conv(f1);
+                    ch->combat_feats[num][1] = asciiflag_conv(f2);
+                    ch->combat_feats[num][2] = asciiflag_conv(f3);
+                    ch->combat_feats[num][3] = asciiflag_conv(f4);
+                }
+                else if (!strcmp(tag, "Clan"))  GET_CLAN(ch)           = atoi(line);
+                else if (!strcmp(tag, "Clas"))  GET_CLASS(ch)           = atoi(line);
+                else if (!strcmp(tag, "Cmem"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if (num2 != -1)
+                        {
+                            /* if memorized add to arrays */
+                            if (num3 == 0)
+                            {
+                                GET_SPELLMEM_C(ch, GET_MEMCURSOR_C(ch)) = num2;
+                                GET_MEMCURSOR_C(ch)++;
+                                /* otherwise add to in-progress linked-list */
+                            }
+                            else
+                            {
+                                GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
+                                memorize_add(ch, num2, num3);
+                                GET_MEM_TYPE(ch) = 0;
+                            }
+                        }
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
+                else if (!strcmp(tag, "Colr"))
+                {
+                    sscanf(line, "%d %s", &num, buf2);
+                    ch->player_specials->color_choices[num] = strdup(buf2);
+                }
+                else if (!strcmp(tag, "Con "))  ch->real_abils.con      = atoi(line);
+                else if (!strcmp(tag, "Crtd"))  ch->time.created        = atol(line);
+                else if (!strcmp(tag, "CStr"))  GET_CARRY_STR_MOD(ch)   = atoi(line);
 
-        else if (!strcmp(tag, "MNum")) GET_MOUNT_VNUM(ch)   = atoi(line);
-        else if (!strcmp(tag, "Mntd"))  ch->player_specials->mounted = atoi(line);
-        else if (!strcmp(tag, "Ment"))  ch->mentor_level = atoi(line);
-        else if (!strcmp(tag, "Mnt "))  ch->player_specials->mount = atoi(line);
-	else if (!strcmp(tag, "MtNm"))  ch->player_specials->mount_num = atoi(line);
-	else if (!strcmp(tag, "MtDs"))  ch->player_specials->mount_desc = strdup(line);
-	else if (!strcmp(tag, "MtCH"))  ch->player_specials->mount_cur_hit = atoi(line);
-	else if (!strcmp(tag, "MtMH"))  ch->player_specials->mount_max_hit = atoi(line);
-	else if (!strcmp(tag, "MtAC"))  ch->player_specials->mount_ac = atoi(line);
-	else if (!strcmp(tag, "MtDR"))  ch->player_specials->mount_dr = atoi(line);
-        else if (!strcmp(tag, "MtAt")) {
-          i = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d %d %d", &num, &num2, &num3, &num4);
-            if (num == -1)
-              break;
-            ch->player_specials->mount_attack_to_hit[i] = num;
-            ch->player_specials->mount_attack_ndice[i] = num2;
-            ch->player_specials->mount_attack_sdice[i] = num3;
-            ch->player_specials->mount_attack_dammod[i] = num4;
-            i++;
-          } while (num != -1);
-        }       
-      break;
+                break;
 
-      case 'N':
-             if (!strcmp(tag, "Name"))  GET_PC_NAME(ch)         = strdup(line);
-      break;
+            case 'D':
+                if (!strcmp(tag, "Desc"))  ch->player_specials->description  = fread_string(fl, buf2);
+                else if (!strcmp(tag, "DfSt"))  GET_DEFENSIVE_STANCE(ch) = atoi(line);
+                else if (!strcmp(tag, "Dex "))  ch->real_abils.dex      = atoi(line);
+                else if (!strcmp(tag, "Dom1"))  GET_DOMAIN_ONE(ch) = atoi(line);
+                else if (!strcmp(tag, "Dom2"))  GET_DOMAIN_TWO(ch) = atoi(line);
+                else if (!strcmp(tag, "Drnk"))  GET_COND(ch, DRUNK)     = atoi(line);
+                else if (!strcmp(tag, "Damg"))  GET_DAMAGE_MOD(ch)          = atoi(line);
+                else if (!strcmp(tag, "DRac"))  GET_DISGUISE_RACE(ch)          = atoi(line);
+                else if (!strcmp(tag, "DmRd"))  load_damreduce(ch, fl);
+                else if (!strcmp(tag, "Dmem"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if (num2 != -1)
+                        {
+                            /* if memorized add to arrays */
+                            if (num3 == 0)
+                            {
+                                GET_SPELLMEM_D(ch, GET_MEMCURSOR_D(ch)) = num2;
+                                GET_MEMCURSOR_D(ch)++;
+                                /* otherwise add to in-progress linked-list */
+                            }
+                            else
+                            {
+                                GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
+                                memorize_add(ch, num2, num3);
+                                GET_MEM_TYPE(ch) = 0;
+                            }
+                        }
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
 
-      case 'O':
-             if (!strcmp(tag, "Olc "))  GET_OLC_ZONE(ch) = atoi(line);
-      break;
+                break;
 
-      case 'P':
-             if (!strcmp(tag, "Page"))  GET_PAGE_LENGTH(ch) = atoi(line);
-        else if (!strcmp(tag, "Pass"))  strcpy(GET_PASSWD(ch), line);
-        else if (!strcmp(tag, "Plyd"))  ch->time.played          = atol(line);
+            case 'E':
+                if (!strcmp(tag, "Exp "))  GET_EXP(ch)             = atoi(line);
+                else if (!strcmp(tag, "ExAE"))  GET_EXTRA_ACC_EXP(ch) = atoi(line);
+                else if (!strcmp(tag, "Eali"))  GET_ETHIC_ALIGNMENT(ch) = atoi(line);
+                else if (!strcmp(tag, "Ecls"))
+                {
+                    sscanf(line, "%d=%d", &num, &num2);
+                    GET_CLASS_EPIC(ch, num) = num2;
+                }
+                else if (!strcmp(tag, "ESpl")) GET_EPIC_SPELLS(ch) = atoi(line);
+                else if (!strcmp(tag, "EFDR")) ch->damage_reduction_feats = atoi(line);
+                else if (!strcmp(tag, "EFFH")) ch->fast_healing_feats = atoi(line);
+                else if (!strcmp(tag, "EFAS")) ch->armor_skin_feats = atoi(line);
+
+                break;
+
+            case 'F':
+                if (!strcmp(tag, "Frez"))  GET_FREEZE_LEV(ch)      = atoi(line);
+                else if (!strcmp(tag, "FAln"))  GET_FALSE_ALIGNMENT(ch)     = atoi(line);
+                else if (!strcmp(tag, "FEth"))  GET_FALSE_ETHOS(ch)     = atoi(line);
+                else if (!strcmp(tag, "Feat"))  load_feats(fl, ch);
+                else if (!strcmp(tag, "Fpnt"))  GET_FEAT_POINTS(ch)     = atoi(line);
+                else if (!strcmp(tag, "FEpc"))  GET_EPIC_FEAT_POINTS(ch) = atoi(line);
+                else if (!strcmp(tag, "FCls"))
+                {
+                    sscanf(line, "%d %d", &num, &num2);
+                    GET_CLASS_FEATS(ch, num) = num2;
+                }
+                else if (!strcmp(tag, "FECl"))
+                {
+                    sscanf(line, "%d %d", &num, &num2);
+                    GET_EPIC_CLASS_FEATS(ch, num) = num2;
+                }
+                else if (!strcmp(tag, "FNum")) GET_FAMILIAR_VNUM(ch) = atoi(line);
+                else if (!strcmp(tag, "FSp0")) GET_FAVORED_SOUL_SPELLS(ch, 0) = atoi(line);
+                else if (!strcmp(tag, "FSp1")) GET_FAVORED_SOUL_SPELLS(ch, 1) = atoi(line);
+                else if (!strcmp(tag, "FSp2")) GET_FAVORED_SOUL_SPELLS(ch, 2) = atoi(line);
+                else if (!strcmp(tag, "FSp3")) GET_FAVORED_SOUL_SPELLS(ch, 3) = atoi(line);
+                else if (!strcmp(tag, "FSp4")) GET_FAVORED_SOUL_SPELLS(ch, 4) = atoi(line);
+                else if (!strcmp(tag, "FSp5")) GET_FAVORED_SOUL_SPELLS(ch, 5) = atoi(line);
+                else if (!strcmp(tag, "FSp6")) GET_FAVORED_SOUL_SPELLS(ch, 6) = atoi(line);
+                else if (!strcmp(tag, "FSp7")) GET_FAVORED_SOUL_SPELLS(ch, 7) = atoi(line);
+                else if (!strcmp(tag, "FSp8")) GET_FAVORED_SOUL_SPELLS(ch, 8) = atoi(line);
+                else if (!strcmp(tag, "FSp9")) GET_FAVORED_SOUL_SPELLS(ch, 9) = atoi(line);
+                break;
+
+            case 'G':
+                if (!strcmp(tag, "God "))
+                {
+                    GET_DEITY(ch)           = atoi(line);
+                }
+                else if (!strcmp(tag, "Gath"))
+                {
+                    GET_GATHER_INFO(ch)     = atoi(line);
+                }
+                else if (!strcmp(tag, "Gold"))
+                {
+                    GET_GOLD(ch)            = atoi(line);
+                }
+                else if (!strcmp(tag, "GSD1"))  GET_PC_DESCRIPTOR_1(ch)   = atoi(line);
+                else if (!strcmp(tag, "GSD2"))  GET_PC_DESCRIPTOR_2(ch)   = atoi(line);
+                else if (!strcmp(tag, "GSA1"))  GET_PC_ADJECTIVE_1(ch)   = atoi(line);
+                else if (!strcmp(tag, "GSA2"))  GET_PC_ADJECTIVE_2(ch)   = atoi(line);
+                else if (!strcmp(tag, "Gild"))  GET_GUILD(ch)   = atoi(line);
+                else if (!strcmp(tag, "GSub"))  GET_SUBGUILD(ch)   = atoi(line);
+                else if (!strcmp(tag, "GRnk"))  GET_GUILD_RANK(ch)   = atoi(line);
+                else if (!strcmp(tag, "GExp"))  GET_GUILD_EXP(ch)   = atoi(line);
+                break;
+
+            case 'H':
+                if (!strcmp(tag, "Hit "))  load_HMVS(ch, line, LOAD_HIT);
+                else if (!strcmp(tag, "Heal"))  GET_HEAL_USED(ch)         = atoi(line);
+                else if (!strcmp(tag, "HAmt"))  GET_HEAL_AMOUNT(ch)         = atoi(line);
+                else if (!strcmp(tag, "HPBn"))  GET_HP_BONUS(ch)         = atoi(line);
+                else if (!strcmp(tag, "HRol"))  GET_HEAL_ROLL(ch)         = atoi(line);
+                else if (!strcmp(tag, "HitD"))  GET_HITDICE(ch)         = atoi(line);
+                else if (!strcmp(tag, "Hite"))  GET_HEIGHT(ch)          = atoi(line);
+                else if (!strcmp(tag, "Home"))  GET_HOME(ch)            = atoi(line);
+                else if (!strcmp(tag, "Host"))
+                {
+                    if (GET_HOST(ch))
+                        free(GET_HOST(ch));
+                    GET_HOST(ch) = strdup(line);
+                }
+                else if (!strcmp(tag, "Hung"))  GET_COND(ch, FULL)      = atoi(line);
+                break;
+
+            case 'I':
+                if (!strcmp(tag, "Id  "))  GET_IDNUM(ch)           = atol(line);
+                else if (!strcmp(tag, "Int "))  ch->real_abils.intel    = atoi(line);
+                else if (!strcmp(tag, "Invs"))  GET_INVIS_LEV(ch)       = atoi(line);
+                else if (!strcmp(tag, "Intr"))  load_intros(fl, ch);
+                else if (!strcmp(tag, "IGiv"))  GET_INTROS_GIVEN(ch)    = atoi(line);
+                else if (!strcmp(tag, "IRec"))  GET_INTROS_RECEIVED(ch) = atoi(line);
+                else if (!strcmp(tag, "ISAF"))  ch->imp_sneak_attack_feats  = atoi(line);
+                else if (!strcmp(tag, "InAb"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if(num2 != -1)
+                            GET_INNATE(ch, num2) = num3;
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
+                else if (!strcmp(tag, "Inna"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if(num2 != -1)
+                            innate_add(ch, num2, num3);
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
+                else if (!strcmp(tag, "IDs1")) ch->player_specials->irda_description_one = fread_string(fl, buf2);
+                else if (!strcmp(tag, "IDs2")) ch->player_specials->irda_description_two = fread_string(fl, buf2);
+                else if (!strcmp(tag, "IKw1")) ch->player_specials->irda_keywords_one = strdup(line);
+                else if (!strcmp(tag, "IKw2")) ch->player_specials->irda_keywords_two = strdup(line);
+                else if (!strcmp(tag, "INa1")) ch->player_specials->irda_name_one = strdup(line);
+                else if (!strcmp(tag, "INa2")) ch->player_specials->irda_name_two = strdup(line);
+                else if (!strcmp(tag, "ISD1")) ch->player_specials->irda_short_descr_one = strdup(line);
+                else if (!strcmp(tag, "ISD2")) ch->player_specials->irda_short_descr_two = strdup(line);
+                else if (!strcmp(tag, "ISSt")) GET_IRDA_SHAPE_STATUS(ch) = atoi(line);
+                else if (!strcmp(tag, "ITi1")) GET_IRDA_TITLE_1(ch) = strdup(line);
+                else if (!strcmp(tag, "ITi2")) GET_IRDA_TITLE_2(ch) = strdup(line);
+                break;
+
+            case 'K':
+                if (!strcmp(tag, "Ki  "))  load_HMVS(ch, line, LOAD_KI);
+                else if (!strcmp(tag, "KeyW"))  ch->player_specials->keywords = strdup(line);
+                break;
+
+            case 'L':
+                if (!strcmp(tag, "Last"))  ch->time.logon          = atol(line);
+                else if (!strcmp(tag, "LayH"))  GET_LAY_HANDS(ch)       = atoi(line);
+                else if (!strcmp(tag, "Lern"))  GET_PRACTICES(ch, GET_CLASS(ch)) = atoi(line);
+                else if (!strcmp(tag, "Levl"))  GET_CLASS_LEVEL(ch)     = atoi(line);
+                else if (!strcmp(tag, "LevD"))  read_level_data(ch, fl);
+                else if (!strcmp(tag, "LFG "))  GET_LFG_STRING(ch) = strdup(line);
+                else if (!strcmp(tag, "LStg"))  GET_LEVEL_STAGE(ch)   = atoi(line);
+                else if (!strcmp(tag, "LvlA"))  GET_LEVEL_ADJ(ch)     = atoi(line);
+                else if (!strcmp(tag, "LDsc"))  GET_LONG_DESC(ch)  = strdup(line);
+                /*
+                        else if (!strcmp(tag, "LvFt"))  {
+                          num = 0;
+                          do {
+                            get_line(fl, line);
+                            sscanf(line, "%d %d", &num2, &num3);
+                            if(num2 != -1) {
+                              struct level_data *lvl = ch->level_info->level_extra;
+                              for (lvl; lvl; lvl = lvl->next) {
+                                if (lvl->level == num2) {
+
+                                }
+                              }
+                            }
+                            num++;
+                          } while (num2 != -1);
+                        }
+                        else if (!strcmp(tag, "LvSk"))  read_level_skills(ch, fl);
+                        else if (!strcmp(tag, "LvSp"))  read_level_spells(ch, fl);
+                        else if (!strcmp(tag, "LvTr"))  read_level_trains(ch, fl);
+                */
+                break;
+
+            case 'M':
+                if (!strcmp(tag, "Mana"))  load_HMVS(ch, line, LOAD_MANA);
+                else if (!strcmp(tag, "Mmem"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if (num2 != -1)
+                        {
+                            /* if memorized add to arrays */
+                            if (num3 == 0)
+                            {
+                                GET_SPELLMEM(ch, GET_MEMCURSOR(ch)) = num2;
+                                GET_MEMCURSOR(ch)++;
+                                /* otherwise add to in-progress linked-list */
+                            }
+                            else
+                            {
+                                GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+                                memorize_add(ch, num2, num3);
+                                GET_MEM_TYPE(ch) = 0;
+                            }
+                        }
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
+
+                else if (!strcmp(tag, "Move"))  load_HMVS(ch, line, LOAD_MOVE);
+                else if (!strcmp(tag, "Mcls"))
+                {
+                    sscanf(line, "%d=%d", &num, &num2);
+                    GET_CLASS_NONEPIC(ch, num) = num2;
+                }
+                else if (!strcmp(tag, "MxAg"))  ch->time.maxage         = atol(line);
+
+                else if (!strcmp(tag, "MNum")) GET_MOUNT_VNUM(ch)   = atoi(line);
+                else if (!strcmp(tag, "Mntd"))  ch->player_specials->mounted = atoi(line);
+                else if (!strcmp(tag, "Ment"))  ch->mentor_level = atoi(line);
+                else if (!strcmp(tag, "Mnt "))  ch->player_specials->mount = atoi(line);
+                else if (!strcmp(tag, "MtNm"))  ch->player_specials->mount_num = atoi(line);
+                else if (!strcmp(tag, "MtDs"))  ch->player_specials->mount_desc = strdup(line);
+                else if (!strcmp(tag, "MtCH"))  ch->player_specials->mount_cur_hit = atoi(line);
+                else if (!strcmp(tag, "MtMH"))  ch->player_specials->mount_max_hit = atoi(line);
+                else if (!strcmp(tag, "MtAC"))  ch->player_specials->mount_ac = atoi(line);
+                else if (!strcmp(tag, "MtDR"))  ch->player_specials->mount_dr = atoi(line);
+                else if (!strcmp(tag, "MtAt"))
+                {
+                    i = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d %d %d", &num, &num2, &num3, &num4);
+                        if (num == -1)
+                            break;
+                        ch->player_specials->mount_attack_to_hit[i] = num;
+                        ch->player_specials->mount_attack_ndice[i] = num2;
+                        ch->player_specials->mount_attack_sdice[i] = num3;
+                        ch->player_specials->mount_attack_dammod[i] = num4;
+                        i++;
+                    }
+                    while (num != -1);
+                }
+                break;
+
+            case 'N':
+                if (!strcmp(tag, "Name"))  GET_PC_NAME(ch)         = strdup(line);
+                break;
+
+            case 'O':
+                if (!strcmp(tag, "Olc "))  GET_OLC_ZONE(ch) = atoi(line);
+                break;
+
+            case 'P':
+                if (!strcmp(tag, "Page"))  GET_PAGE_LENGTH(ch) = atoi(line);
+                else if (!strcmp(tag, "Pass"))  strcpy(GET_PASSWD(ch), line);
+                else if (!strcmp(tag, "Plyd"))  ch->time.played          = atol(line);
 #ifdef ASCII_SAVE_POOFS
-        else if (!strcmp(tag, "PfIn"))  POOFIN(ch)               = strdup(line);
-        else if (!strcmp(tag, "PfOt"))  POOFOUT(ch)              = strdup(line);
+                else if (!strcmp(tag, "PfIn"))  POOFIN(ch)               = strdup(line);
+                else if (!strcmp(tag, "PfOt"))  POOFOUT(ch)              = strdup(line);
 #endif
-        else if (!strcmp(tag, "Pmem")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if (num2 != -1) {
-              /* if memorized add to arrays */
-              if (num3 == 0) {
-                GET_SPELLMEM_P(ch, GET_MEMCURSOR_P(ch)) = num2;
-                GET_MEMCURSOR_P(ch)++;
-                /* otherwise add to in-progress linked-list */
-              } else {
-              GET_MEM_TYPE(ch) = MEM_TYPE_PALADIN;
-              memorize_add(ch, num2, num3);
-              GET_MEM_TYPE(ch) = 0;
-              }
+                else if (!strcmp(tag, "Pmem"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if (num2 != -1)
+                        {
+                            /* if memorized add to arrays */
+                            if (num3 == 0)
+                            {
+                                GET_SPELLMEM_P(ch, GET_MEMCURSOR_P(ch)) = num2;
+                                GET_MEMCURSOR_P(ch)++;
+                                /* otherwise add to in-progress linked-list */
+                            }
+                            else
+                            {
+                                GET_MEM_TYPE(ch) = MEM_TYPE_PALADIN;
+                                memorize_add(ch, num2, num3);
+                                GET_MEM_TYPE(ch) = 0;
+                            }
+                        }
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
+                else if (!strcmp(tag, "PNum")) GET_PET_VNUM(ch)          = atoi(line);
+                else if (!strcmp(tag, "PoAm"))  GET_POISON_DAMAGE_AMOUNT(ch) = atoi(line);
+                else if (!strcmp(tag, "PoTy"))  GET_POISON_DAMAGE_TYPE(ch) = atoi(line);
+                else if (!strcmp(tag, "Pref"))
+                {
+                    sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
+                    PRF_FLAGS(ch)[0] = asciiflag_conv(f1);
+                    PRF_FLAGS(ch)[1] = asciiflag_conv(f2);
+                    PRF_FLAGS(ch)[2] = asciiflag_conv(f3);
+                    PRF_FLAGS(ch)[3] = asciiflag_conv(f4);
+                }
+                else if (!strcmp(tag, "PwrA"))  GET_POWERATTACK(ch)      = atoi(line);
+                else if (!strcmp(tag, "PrfL"))  GET_PREF(ch)             = atoi(line);
+                else if (!strcmp(tag, "PvPT"))  (ch)->pvp_timer          = atoi(line);
+                break;
+
+            case 'Q':
+                if (!strcmp(tag, "Qpnt")) GET_QUESTPOINTS(ch) = atoi(line); /* Backward compatibility */
+                else if (!strcmp(tag, "Qcur")) GET_QUEST(ch) = atoi(line);
+                else if (!strcmp(tag, "Qcnt")) GET_QUEST_COUNTER(ch) = atoi(line);
+                else if (!strcmp(tag, "Qest")) load_quests(fl, ch);
+                break;
+
+            case 'R':
+                if (!strcmp(tag, "Race"))  GET_REAL_RACE(ch)            = atoi(line);
+                else if (!strcmp(tag, "Rage"))  GET_RAGE(ch)  = atoi(line);
+                else if (!strcmp(tag, "Recl"))  GET_RECALL(ch)          = atoi(line);
+                else if (!strcmp(tag, "RKit"))  ch->player_specials->RKit = atoi(line);
+                else if (!strcmp(tag, "Room"))  GET_LOADROOM(ch)        = atoi(line);
+                else if (!strcmp(tag, "Rank"))  GET_CLAN_RANK(ch) = atoi(line);
+                else if (!strcmp(tag, "RPEx"))  GET_RP_EXP_BONUS(ch) = atoi(line);
+                else if (!strcmp(tag, "RPAE"))  GET_RP_ART_EXP_BONUS(ch) = atoi(line);
+                else if (!strcmp(tag, "RPGp"))  GET_RP_GOLD_BONUS(ch) = atoi(line);
+                else if (!strcmp(tag, "RPAE"))  GET_RP_ACCOUNT_EXP(ch) = atoi(line);
+                else if (!strcmp(tag, "RPQP"))  GET_RP_QP_BONUS(ch) = atoi(line);
+                else if (!strcmp(tag, "RPCr"))  GET_RP_CRAFT_BONUS(ch) = atoi(line);
+                else if (!strcmp(tag, "RPPt"))  GET_RP_POINTS(ch) = atoi(line);
+
+                else if (!strcmp(tag, "RVNm"))  ch->player_specials->num_of_rooms_visited = atoi(line);
+                else if (!strcmp(tag, "RmVs"))
+                {
+                    for (i = 0; i < 65555; i++)
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d", &num);
+                        ch->player_specials->rooms_visited[i] = num;
+                    }
+                }
+                else if (!strcmp(tag, "RVis"))
+                {
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num, &num2);
+                        if (num == -1)
+                            break;
+                        ch->player_specials->rooms_visited[num] = num2;
+                    }
+                    while (num != -1);
+                }
+                else if (!strcmp(tag, "Rmem"))
+                {
+                    num = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num2, &num3);
+                        if (num2 != -1)
+                        {
+                            /* if memorized add to arrays */
+                            if (num3 == 0)
+                            {
+                                GET_SPELLMEM_R(ch, GET_MEMCURSOR_R(ch)) = num2;
+                                GET_MEMCURSOR_R(ch)++;
+                                /* otherwise add to in-progress linked-list */
+                            }
+                            else
+                            {
+                                GET_MEM_TYPE(ch) = MEM_TYPE_RANGER;
+                                memorize_add(ch, num2, num3);
+                                GET_MEM_TYPE(ch) = 0;
+                            }
+                        }
+                        num++;
+                    }
+                    while (num2 != -1);
+                }
+                else if (!strcmp(tag, "RTok"))  GET_RESEARCH_TOKENS(ch) = atoi(line);
+                break;
+
+            case 'S':
+                if (!strcmp(tag, "Sex "))  GET_SEX(ch)             = atoi(line);
+                else if (!strcmp(tag, "ScrW"))  GET_SCREEN_WIDTH(ch) = atoi(line);
+                else if (!strcmp(tag, "Skil"))  load_skills(fl, ch, FALSE);
+                else if (!strcmp(tag, "Size"))  ch->size  = atoi(line);
+                else if (!strcmp(tag, "SklB"))  load_skills(fl, ch, TRUE);
+                else if (!strcmp(tag, "SklF"))  load_skill_focus(fl, ch);
+                else if (!strcmp(tag, "SkRc"))  GET_RACE_PRACTICES(ch)  = atoi(line);
+                else if (!strcmp(tag, "SnAF"))  ch->sneak_attack_feats  = atoi(line);
+                else if (!strcmp(tag, "Stat"))  GET_STAT_POINTS(ch) = atoi(line);
+                else if (!strcmp(tag, "StGv"))  (ch)->stat_points_given = atoi(line);
+                else if (!strcmp(tag, "StMK"))  GET_STAT_MOB_KILLS(ch)  = atoi(line);
+                else if (!strcmp(tag, "SDsc"))  GET_PC_SDESC(ch)  = strdup(line);
+                else if (!strcmp(tag, "SkCl"))
+                {
+                    sscanf(line, "%d %d", &num2, &num3);
+                    GET_PRACTICES(ch, num2) = num3;
+                }
+                else if (!strcmp(tag, "Spek"))  SPEAKING(ch)  = atoi(line);
+                else if (!strcmp(tag, "SpKn"))
+                {
+                    i = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d", &num);
+                        ch->player_specials->spells_known[i] = num;
+                        i++;
+                    }
+                    while (num != -2);
+                }
+                else if (!strcmp(tag, "SclF"))
+                {
+                    sscanf(line, "%d %s", &num, f1);
+                    if (num < 0 || num > SFEAT_MAX)
+                    {
+                        log("load_char: %s school feat record out of range: %s", GET_NAME(ch), line);
+                        break;
+                    }
+                    ch->school_feats[num] = asciiflag_conv(f1);
+                }
+                else if (!strcmp(tag, "Str "))  ch->real_abils.str = atoi(line);
+                else if (!strcmp(tag, "StrH"))  GET_STRENGTH_OF_HONOR(ch) = atoi(line);
+                else if (!strcmp(tag, "SmNm"))  ch->player_specials->summon_num = atoi(line);
+                else if (!strcmp(tag, "SmDs"))  ch->player_specials->summon_desc = strdup(line);
+                else if (!strcmp(tag, "SmCH"))  ch->player_specials->summon_cur_hit = atoi(line);
+                else if (!strcmp(tag, "SmMH"))  ch->player_specials->summon_max_hit = atoi(line);
+                else if (!strcmp(tag, "SmAC"))  ch->player_specials->summon_ac = atoi(line);
+                else if (!strcmp(tag, "SmDR"))  ch->player_specials->summon_dr = atoi(line);
+                else if (!strcmp(tag, "SmTm"))  ch->player_specials->summon_timer = atoi(line);
+                else if (!strcmp(tag, "SmAt"))
+                {
+                    i = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d %d %d", &num, &num2, &num3, &num4);
+                        if (num == -1)
+                            break;
+                        ch->player_specials->summon_attack_to_hit[i] = num;
+                        ch->player_specials->summon_attack_ndice[i] = num2;
+                        ch->player_specials->summon_attack_sdice[i] = num3;
+                        ch->player_specials->summon_attack_dammod[i] = num4;
+                        i++;
+                    }
+                    while (num != -1);
+                }
+                else if (!strcmp(tag, "SumN"))  ch->sum_name = fread_string(fl, buf2);
+                else if (!strcmp(tag, "SumD"))  ch->sum_desc = fread_string(fl, buf2);
+                else if (!strcmp(tag, "SumT"))  ch->summon_type = atoi(line);
+                break;
+
+            case 'T':
+                if (!strcmp(tag, "TLRm"))  GET_TEMP_LOADROOM(ch)   = atoi(line);
+                else if (!strcmp(tag, "Thir"))  GET_COND(ch, THIRST)    = atoi(line);
+                else if (!strcmp(tag, "Thr1"))  GET_SAVE_MOD(ch, 0)     = atoi(line);
+                else if (!strcmp(tag, "Thr2"))  GET_SAVE_MOD(ch, 1)     = atoi(line);
+                else if (!strcmp(tag, "Thr3"))  GET_SAVE_MOD(ch, 2)     = atoi(line);
+                else if (!strcmp(tag, "Thr4") || !strcmp(tag, "Thr5")); /* Discard extra saves */
+                else if (!strcmp(tag, "ThB1"))  GET_SAVE_BASE(ch, 0)    = atoi(line);
+                else if (!strcmp(tag, "ThB2"))  GET_SAVE_BASE(ch, 1)    = atoi(line);
+                else if (!strcmp(tag, "ThB3"))  GET_SAVE_BASE(ch, 2)    = atoi(line);
+                else if (!strcmp(tag, "Titl"))  GET_TITLE(ch)           = strdup(line);
+                else if (!strcmp(tag, "Trns"))  GET_TRAINS(ch)          = atoi(line);
+                else if (!strcmp(tag, "TrSp"))  ch->trains_spent        = atoi(line);
+                else if (!strcmp(tag, "TrUS"))  ch->trains_unspent      = atoi(line);
+                else if (!strcmp(tag, "Turn"))  GET_TURN_UNDEAD(ch)     = atoi(line);
+                break;
+
+            case 'W':
+                if (!strcmp(tag, "Wate"))  GET_WEIGHT(ch)          = atoi(line);
+                else if (!strcmp(tag, "Wimp"))  GET_WIMP_LEV(ch)        = atoi(line);
+                else if (!strcmp(tag, "Wis "))  ch->real_abils.wis      = atoi(line);
+                else if (!strcmp(tag, "Wish"))  GET_WISHES(ch)          = atoi(line);
+                else if (!strcmp(tag, "WLst"))
+                {
+                    i = 0;
+                    do
+                    {
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", &num, &num2);
+                        ch->player_specials->wishlist[i][0] = num;
+                        ch->player_specials->wishlist[i][1] = num2;
+                        i++;
+                    }
+                    while (num != -1);
+                }
+                else if (!strcmp(tag, "WStr"))  GET_WISH_STR(ch)        = atoi(line);
+                else if (!strcmp(tag, "WCon"))  GET_WISH_CON(ch)        = atoi(line);
+                else if (!strcmp(tag, "WDex"))  GET_WISH_DEX(ch)        = atoi(line);
+                else if (!strcmp(tag, "WInt"))  GET_WISH_INT(ch)        = atoi(line);
+                else if (!strcmp(tag, "WWis"))  GET_WISH_WIS(ch)        = atoi(line);
+                else if (!strcmp(tag, "WCha"))  GET_WISH_CHA(ch)        = atoi(line);
+                break;
+
+            default:
+                sprintf(buf, "SYSERR: Unknown tag %s in pfile %s", tag, name);
             }
-            num++;
-          } while (num2 != -1);
         }
-        else if (!strcmp(tag, "PNum")) GET_PET_VNUM(ch)          = atoi(line);
-        else if (!strcmp(tag, "PoAm"))  GET_POISON_DAMAGE_AMOUNT(ch) = atoi(line);
-        else if (!strcmp(tag, "PoTy"))  GET_POISON_DAMAGE_TYPE(ch) = atoi(line);
-        else if (!strcmp(tag, "Pref")) {
-          sscanf(line, "%s %s %s %s", f1, f2, f3, f4);
-          PRF_FLAGS(ch)[0] = asciiflag_conv(f1);
-          PRF_FLAGS(ch)[1] = asciiflag_conv(f2);
-          PRF_FLAGS(ch)[2] = asciiflag_conv(f3);
-          PRF_FLAGS(ch)[3] = asciiflag_conv(f4);
-        }
-        else if (!strcmp(tag, "PwrA"))  GET_POWERATTACK(ch)      = atoi(line);
-        else if (!strcmp(tag, "PrfL"))  GET_PREF(ch)             = atoi(line);
-        else if (!strcmp(tag, "PvPT"))  (ch)->pvp_timer          = atoi(line);
-      break;
-
-      case 'Q':
-        if (!strcmp(tag, "Qpnt")) GET_QUESTPOINTS(ch) = atoi(line); /* Backward compatibility */
-        else if (!strcmp(tag, "Qcur")) GET_QUEST(ch) = atoi(line);
-        else if (!strcmp(tag, "Qcnt")) GET_QUEST_COUNTER(ch) = atoi(line);
-        else if (!strcmp(tag, "Qest")) load_quests(fl, ch);
-        break;
-
-      case 'R':
-             if (!strcmp(tag, "Race"))  GET_REAL_RACE(ch)            = atoi(line);
-        else if (!strcmp(tag, "Rage"))  GET_RAGE(ch)  = atoi(line);
-        else if (!strcmp(tag, "Recl"))  GET_RECALL(ch)          = atoi(line);
-        else if (!strcmp(tag, "RKit"))  ch->player_specials->RKit = atoi(line);
-        else if (!strcmp(tag, "Room"))  GET_LOADROOM(ch)        = atoi(line);
-        else if (!strcmp(tag, "Rank"))  GET_CLAN_RANK(ch) = atoi(line);
-        else if (!strcmp(tag, "RPEx"))  GET_RP_EXP_BONUS(ch) = atoi(line);
-        else if (!strcmp(tag, "RPAE"))  GET_RP_ART_EXP_BONUS(ch) = atoi(line);
-        else if (!strcmp(tag, "RPGp"))  GET_RP_GOLD_BONUS(ch) = atoi(line);
-        else if (!strcmp(tag, "RPAE"))  GET_RP_ACCOUNT_EXP(ch) = atoi(line);
-        else if (!strcmp(tag, "RPQP"))  GET_RP_QP_BONUS(ch) = atoi(line);
-        else if (!strcmp(tag, "RPCr"))  GET_RP_CRAFT_BONUS(ch) = atoi(line);
-        else if (!strcmp(tag, "RPPt"))  GET_RP_POINTS(ch) = atoi(line);
-
-        else if (!strcmp(tag, "RVNm"))  ch->player_specials->num_of_rooms_visited = atoi(line);
-        else if (!strcmp(tag, "RmVs")) {
-          for (i = 0; i < 65555; i++) {
-            get_line(fl, line);
-            sscanf(line, "%d", &num);
-            ch->player_specials->rooms_visited[i] = num;
-          }
-        }
-        else if (!strcmp(tag, "RVis")) {
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num, &num2);
-            if (num == -1)
-              break;
-            ch->player_specials->rooms_visited[num] = num2;
-          } while (num != -1);
-        }
-        else if (!strcmp(tag, "Rmem")) {
-          num = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d", &num2, &num3);
-            if (num2 != -1) {
-              /* if memorized add to arrays */
-              if (num3 == 0) {
-                GET_SPELLMEM_R(ch, GET_MEMCURSOR_R(ch)) = num2;
-                GET_MEMCURSOR_R(ch)++;
-                /* otherwise add to in-progress linked-list */
-              } else {
-              GET_MEM_TYPE(ch) = MEM_TYPE_RANGER;
-              memorize_add(ch, num2, num3);
-              GET_MEM_TYPE(ch) = 0;
-              }
-            }
-            num++;
-          } while (num2 != -1);
-        }
-        else if (!strcmp(tag, "RTok"))  GET_RESEARCH_TOKENS(ch) = atoi(line);
-      break;
-
-      case 'S':
-             if (!strcmp(tag, "Sex "))  GET_SEX(ch)             = atoi(line);
-        else if (!strcmp(tag, "ScrW"))  GET_SCREEN_WIDTH(ch) = atoi(line);
-        else if (!strcmp(tag, "Skil"))  load_skills(fl, ch, FALSE);
-        else if (!strcmp(tag, "Size"))  ch->size  = atoi(line);
-        else if (!strcmp(tag, "SklB"))  load_skills(fl, ch, TRUE);
-        else if (!strcmp(tag, "SklF"))  load_skill_focus(fl, ch);
-        else if (!strcmp(tag, "SkRc"))  GET_RACE_PRACTICES(ch)	= atoi(line);
-        else if (!strcmp(tag, "SnAF"))  ch->sneak_attack_feats	= atoi(line);
-        else if (!strcmp(tag, "Stat"))	GET_STAT_POINTS(ch)	= atoi(line);
-        else if (!strcmp(tag, "StGv"))	(ch)->stat_points_given	= atoi(line);
-        else if (!strcmp(tag, "StMK"))	GET_STAT_MOB_KILLS(ch)	= atoi(line);
-        else if (!strcmp(tag, "SDsc"))  GET_PC_SDESC(ch)	= strdup(line);
-        else if (!strcmp(tag, "SkCl")) {
-          sscanf(line, "%d %d", &num2, &num3);
-          GET_PRACTICES(ch, num2) = num3;
-        }
-        else if (!strcmp(tag, "Spek"))  SPEAKING(ch)  = atoi(line);
-        else if (!strcmp(tag, "SpKn")) {
-          i = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d", &num);
-            ch->player_specials->spells_known[i] = num;
-            i++;
-          } while (num != -2);
-        }
-        else if (!strcmp(tag, "SclF")) {
-          sscanf(line, "%d %s", &num, f1);
-          if (num < 0 || num > SFEAT_MAX) {
-            log("load_char: %s school feat record out of range: %s", GET_NAME(ch), line);
-            break;
-          }
-          ch->school_feats[num] = asciiflag_conv(f1);
-        }
-        else if (!strcmp(tag, "Str "))  ch->real_abils.str = atoi(line);
-        else if (!strcmp(tag, "StrH"))  GET_STRENGTH_OF_HONOR(ch) = atoi(line);
-	else if (!strcmp(tag, "SmNm"))  ch->player_specials->summon_num = atoi(line);
-	else if (!strcmp(tag, "SmDs"))  ch->player_specials->summon_desc = strdup(line);
-	else if (!strcmp(tag, "SmCH"))  ch->player_specials->summon_cur_hit = atoi(line);
-	else if (!strcmp(tag, "SmMH"))  ch->player_specials->summon_max_hit = atoi(line);
-	else if (!strcmp(tag, "SmAC"))  ch->player_specials->summon_ac = atoi(line);
-	else if (!strcmp(tag, "SmDR"))  ch->player_specials->summon_dr = atoi(line);
-	else if (!strcmp(tag, "SmTm"))  ch->player_specials->summon_timer = atoi(line);
-        else if (!strcmp(tag, "SmAt")) {
-          i = 0;
-          do {
-            get_line(fl, line);
-            sscanf(line, "%d %d %d %d", &num, &num2, &num3, &num4);
-            if (num == -1)
-              break;
-            ch->player_specials->summon_attack_to_hit[i] = num;
-            ch->player_specials->summon_attack_ndice[i] = num2;
-            ch->player_specials->summon_attack_sdice[i] = num3;
-            ch->player_specials->summon_attack_dammod[i] = num4;
-            i++;
-          } while (num != -1);
-        }       
-	else if (!strcmp(tag, "SumN"))  ch->sum_name = fread_string(fl, buf2);
-	else if (!strcmp(tag, "SumD"))  ch->sum_desc = fread_string(fl, buf2);
-	else if (!strcmp(tag, "SumT"))  ch->summon_type = atoi(line);
-      break;
-
-      case 'T':
-             if (!strcmp(tag, "TLRm"))  GET_TEMP_LOADROOM(ch)   = atoi(line);
-        else if (!strcmp(tag, "Thir"))  GET_COND(ch, THIRST)    = atoi(line);
-        else if (!strcmp(tag, "Thr1"))  GET_SAVE_MOD(ch, 0)     = atoi(line);
-        else if (!strcmp(tag, "Thr2"))  GET_SAVE_MOD(ch, 1)     = atoi(line);
-        else if (!strcmp(tag, "Thr3"))  GET_SAVE_MOD(ch, 2)     = atoi(line);
-        else if (!strcmp(tag, "Thr4") || !strcmp(tag, "Thr5")); /* Discard extra saves */
-        else if (!strcmp(tag, "ThB1"))  GET_SAVE_BASE(ch, 0)    = atoi(line);
-        else if (!strcmp(tag, "ThB2"))  GET_SAVE_BASE(ch, 1)    = atoi(line);
-        else if (!strcmp(tag, "ThB3"))  GET_SAVE_BASE(ch, 2)    = atoi(line);
-        else if (!strcmp(tag, "Titl"))  GET_TITLE(ch)           = strdup(line);
-        else if (!strcmp(tag, "Trns"))  GET_TRAINS(ch)          = atoi(line);
-        else if (!strcmp(tag, "TrSp"))  ch->trains_spent        = atoi(line);
-        else if (!strcmp(tag, "TrUS"))  ch->trains_unspent      = atoi(line);
-        else if (!strcmp(tag, "Turn"))  GET_TURN_UNDEAD(ch)     = atoi(line);
-      break;
-
-      case 'W':
-             if (!strcmp(tag, "Wate"))  GET_WEIGHT(ch)          = atoi(line);
-        else if (!strcmp(tag, "Wimp"))  GET_WIMP_LEV(ch)        = atoi(line);
-        else if (!strcmp(tag, "Wis "))  ch->real_abils.wis      = atoi(line);
-        else if (!strcmp(tag, "Wish"))  GET_WISHES(ch)          = atoi(line);
-        else if (!strcmp(tag, "WLst")) {
-        	i = 0;
-        	do {
-        	  get_line(fl, line);
-        	  sscanf(line, "%d %d", &num, &num2);
-        	  ch->player_specials->wishlist[i][0] = num;
-        	  ch->player_specials->wishlist[i][1] = num2;
-        	  i++;
-        	} while (num != -1);
-        }
-        else if (!strcmp(tag, "WStr"))  GET_WISH_STR(ch)        = atoi(line);
-        else if (!strcmp(tag, "WCon"))  GET_WISH_CON(ch)        = atoi(line);
-        else if (!strcmp(tag, "WDex"))  GET_WISH_DEX(ch)        = atoi(line);
-        else if (!strcmp(tag, "WInt"))  GET_WISH_INT(ch)        = atoi(line);
-        else if (!strcmp(tag, "WWis"))  GET_WISH_WIS(ch)        = atoi(line);
-        else if (!strcmp(tag, "WCha"))  GET_WISH_CHA(ch)        = atoi(line);
-      break;
-
-      default:
-        sprintf(buf, "SYSERR: Unknown tag %s in pfile %s", tag, name);
-      }
     }
-  }
 
-  if (GET_CLASS_RANKS(ch, CLASS_ROGUE) && !HAS_FEAT(ch, FEAT_SNEAK_ATTACK)) {
-    log("Loading rogue '%s' without sneak attack ranks, fixing", GET_NAME(ch));
-    SET_FEAT(ch, FEAT_SNEAK_ATTACK, (GET_CLASS_RANKS(ch, CLASS_ROGUE) + 1) / 2);
-  }
+    if (GET_CLASS_RANKS(ch, CLASS_ROGUE) && !HAS_FEAT(ch, FEAT_SNEAK_ATTACK))
+    {
+        log("Loading rogue '%s' without sneak attack ranks, fixing", GET_NAME(ch));
+        SET_FEAT(ch, FEAT_SNEAK_ATTACK, (GET_CLASS_RANKS(ch, CLASS_ROGUE) + 1) / 2);
+    }
 
-  if (! ch->time.created) {
-    log("No creation timestamp for user %s, using current time", GET_NAME(ch));
-    ch->time.created = time(0);
-  }
+    if (! ch->time.created)
+    {
+        log("No creation timestamp for user %s, using current time", GET_NAME(ch));
+        ch->time.created = time(0);
+    }
 
-  if (! ch->time.birth) {
-    log("No birthday for user %s, using standard starting age determination", GET_NAME(ch));
-    ch->time.birth = time(0) - birth_age(ch);
-  }
+    if (! ch->time.birth)
+    {
+        log("No birthday for user %s, using standard starting age determination", GET_NAME(ch));
+        ch->time.birth = time(0) - birth_age(ch);
+    }
 
-  if (! ch->time.maxage) {
-    log("No max age for user %s, using standard max age determination", GET_NAME(ch));
-    ch->time.maxage = ch->time.birth + max_age(ch);
-  }
-  
-  if (GET_RAGE(ch) == 0 && !affected_by_spell(ch, SPELL_AFF_RAGE))
-  	GET_RAGE(ch) = HAS_FEAT(ch, FEAT_RAGE);
+    if (! ch->time.maxage)
+    {
+        log("No max age for user %s, using standard max age determination", GET_NAME(ch));
+        ch->time.maxage = ch->time.birth + max_age(ch);
+    }
 
-  if (GET_DEFENSIVE_STANCE(ch) == 0 && !affected_by_spell(ch, SPELL_AFF_DEFENSIVE_STANCE))
-  	GET_DEFENSIVE_STANCE(ch) = HAS_FEAT(ch, FEAT_DEFENSIVE_STANCE);
+    if (GET_RAGE(ch) == 0 && !affected_by_spell(ch, SPELL_AFF_RAGE))
+        GET_RAGE(ch) = HAS_FEAT(ch, FEAT_RAGE);
 
-  if (GET_STRENGTH_OF_HONOR(ch) == 0 && !affected_by_spell(ch, SPELL_AFF_STRENGTH_OF_HONOR))
-  	GET_STRENGTH_OF_HONOR(ch) = HAS_FEAT(ch, FEAT_STRENGTH_OF_HONOR);  	
-  	
-  if (GET_SMITE_EVIL(ch) == 0 && !affected_by_spell(ch, ABIL_SMITE_EVIL))
-  	GET_SMITE_EVIL(ch) = HAS_FEAT(ch, FEAT_SMITE_EVIL);
-  		
-	if (GET_TURN_UNDEAD(ch) < 1 && !affected_by_spell(ch, SPELL_AFF_TURN_UNDEAD))
-	  GET_TURN_UNDEAD(ch) = MAX(1, 3 + ability_mod_value(GET_CHA(ch)) + (HAS_FEAT(ch, FEAT_EXTRA_TURNING) * 2));
-  	
-  affect_total(ch);
+    if (GET_DEFENSIVE_STANCE(ch) == 0 && !affected_by_spell(ch, SPELL_AFF_DEFENSIVE_STANCE))
+        GET_DEFENSIVE_STANCE(ch) = HAS_FEAT(ch, FEAT_DEFENSIVE_STANCE);
 
-  /* initialization for imms */
-  if (GET_ADMLEVEL(ch) >= ADMLVL_IMMORT) {
-    for (i = 1; i <= SKILL_TABLE_SIZE; i++)
-      SET_SKILL(ch, i, 100);
-    GET_COND(ch, FULL) = -1;
-    GET_COND(ch, THIRST) = -1;
-    GET_COND(ch, DRUNK) = -1;
-  }
+    if (GET_STRENGTH_OF_HONOR(ch) == 0 && !affected_by_spell(ch, SPELL_AFF_STRENGTH_OF_HONOR))
+        GET_STRENGTH_OF_HONOR(ch) = HAS_FEAT(ch, FEAT_STRENGTH_OF_HONOR);
 
-  fclose(fl);
-  return(id);
+    if (GET_SMITE_EVIL(ch) == 0 && !affected_by_spell(ch, ABIL_SMITE_EVIL))
+        GET_SMITE_EVIL(ch) = HAS_FEAT(ch, FEAT_SMITE_EVIL);
+
+    if (GET_TURN_UNDEAD(ch) < 1 && !affected_by_spell(ch, SPELL_AFF_TURN_UNDEAD))
+        GET_TURN_UNDEAD(ch) = MAX(1, 3 + ability_mod_value(GET_CHA(ch)) + (HAS_FEAT(ch, FEAT_EXTRA_TURNING) * 2));
+
+    affect_total(ch);
+
+    /* initialization for imms */
+    if (GET_ADMLEVEL(ch) >= ADMLVL_IMMORT)
+    {
+        for (i = 1; i <= SKILL_TABLE_SIZE; i++)
+            SET_SKILL(ch, i, 100);
+        GET_COND(ch, FULL) = -1;
+        GET_COND(ch, THIRST) = -1;
+        GET_COND(ch, DRUNK) = -1;
+    }
+
+    fclose(fl);
+    return(id);
 }
 
 

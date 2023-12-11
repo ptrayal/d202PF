@@ -42,6 +42,8 @@ void qedit_save_to_disk(int num);
 
 /*-------------------------------------------------------------------*/
 
+#define UNUSED(x) (void)(x)
+
 void qedit_save_internally(struct descriptor_data *d)
 {
   add_quest(OLC_QUEST(d));
@@ -58,141 +60,156 @@ void qedit_save_to_disk(int num)
 
 ACMD(do_oasis_qedit)
 {
-  int save = 0;
-  qst_rnum real_num;
-  qst_vnum number = NOWHERE;
-  struct descriptor_data *d;
-  char *buf3;
-  char buf1[MAX_INPUT_LENGTH]={'\0'};
-  char buf2[MAX_INPUT_LENGTH]={'\0'};
+    int save = 0;
+    qst_rnum real_num;
+    qst_vnum number = NOWHERE;
+    struct descriptor_data *d;
+    char *buf3;
+    char buf1[MAX_INPUT_LENGTH] = {'\0'};
+    char buf2[MAX_INPUT_LENGTH] = {'\0'};
 
-  /****************************************************************************/
-  /** Parse any arguments.                                                   **/
-  /****************************************************************************/
-  buf3 = two_arguments(argument, buf1, buf2);
+    /****************************************************************************/
+    /** Parse any arguments.                                                   **/
+    /****************************************************************************/
+    buf3 = two_arguments(argument, buf1, buf2);
 
-  if (!*buf1) {
-    send_to_char(ch, "Specify a quest VNUM to edit.\r\n");
-    return;
-  } else if (!isdigit(*buf1)) {
-    if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
-      return;
-    }
-
-    save = TRUE;
-
-    if (is_number(buf2))
-      number = atoi(buf2);
-    else if (GET_OLC_ZONE(ch) > 0) {
-      zone_rnum zlok;
-
-      if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
-        number = NOWHERE;
-      else
-        number = genolc_zone_bottom(zlok);
-    }
-
-    if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
-      return;
-    }
-  }
-
-  /****************************************************************************/
-  /** If a numeric argument was given, get it.                               **/
-  /****************************************************************************/
-  if (number == NOWHERE)
-    number = atoi(buf1);
-
-  /****************************************************************************/
-  /** Check that the guild isn't already being edited.                       **/
-  /****************************************************************************/
-  for (d = descriptor_list; d; d = d->next) {
-    if (STATE(d) == CON_QEDIT) {
-      if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That quest is currently being edited by %s.\r\n",
-          PERS(d->character, ch));
+    if (!*buf1)
+    {
+        send_to_char(ch, "Specify a quest VNUM to edit.\r\n");
         return;
-      }
     }
-  }
+    else if (!isdigit(*buf1))
+    {
+        if (str_cmp("save", buf1) != 0)
+        {
+            send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+            return;
+        }
 
-  /****************************************************************************/
-  /** Point d to the builder's descriptor.                                   **/
- /****************************************************************************/
-  d = ch->desc;
+        save = TRUE;
 
-  /****************************************************************************/
-  /** Give the descriptor an OLC structure.                                  **/
-  /****************************************************************************/
-  if (d->olc) {
+        if (is_number(buf2))
+            number = atoi(buf2);
+        else if (GET_OLC_ZONE(ch) > 0)
+        {
+            zone_rnum zlok;
+
+            if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
+                number = NOWHERE;
+            else
+                number = genolc_zone_bottom(zlok);
+        }
+
+        if (number == NOWHERE)
+        {
+            send_to_char(ch, "Save which zone?\r\n");
+            return;
+        }
+    }
+
+    /****************************************************************************/
+    /** If a numeric argument was given, get it.                               **/
+    /****************************************************************************/
+    if (number == NOWHERE)
+        number = atoi(buf1);
+
+    /****************************************************************************/
+    /** Check that the guild isn't already being edited.                       **/
+    /****************************************************************************/
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if (STATE(d) == CON_QEDIT)
+        {
+            if (d->olc && OLC_NUM(d) == number)
+            {
+                send_to_char(ch, "That quest is currently being edited by %s.\r\n",
+                             PERS(d->character, ch));
+                return;
+            }
+        }
+    }
+
+    /****************************************************************************/
+    /** Point d to the builder's descriptor.                                   **/
+    /****************************************************************************/
+    d = ch->desc;
+
+    /****************************************************************************/
+    /** Give the descriptor an OLC structure.                                  **/
+    /****************************************************************************/
+    if (d->olc)
+    {
+        mudlog(BRF, ADMLVL_IMMORT, TRUE,
+               "SYSERR: do_oasis_quest: Player already had olc structure.");
+        free(d->olc);
+    }
+
+    CREATE(d->olc, struct oasis_olc_data, 1);
+
+    /****************************************************************************/
+    /** Find the zone.                                                         **/
+    /****************************************************************************/
+    if ((OLC_ZNUM(d) = real_zone_by_thing(number)) == NOWHERE)
+    {
+        send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+    /****************************************************************************/
+    /** Everyone but IMPLs can only edit zones they have been assigned.        **/
+    /****************************************************************************/
+    if (!can_edit_zone(ch, OLC_ZNUM(d)))
+    {
+        send_to_char(ch, "You do not have permission to edit this zone.\r\n");
+
+        /**************************************************************************/
+        /** Free the OLC structure.                                              **/
+        /**************************************************************************/
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+    if (save)
+    {
+        send_to_char(ch, "Saving all quests in zone %d.\r\n",
+                     zone_table[OLC_ZNUM(d)].number);
+        mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
+               "OLC: %s saves quest info for zone %d.",
+               GET_NAME(ch), zone_table[OLC_ZNUM(d)].number);
+
+        /**************************************************************************/
+        /** Save the quest to the quest file.                                    **/
+        /**************************************************************************/
+        qedit_save_to_disk(OLC_ZNUM(d));
+
+        /**************************************************************************/
+        /** Free the OLC structure.                                              **/
+        /**************************************************************************/
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+    OLC_NUM(d) = number;
+
+    if ((real_num = real_quest(number)) != NOTHING)
+        qedit_setup_existing(d, real_num);
+    else
+        qedit_setup_new(d);
+
+    STATE(d) = CON_QEDIT;
+
+    act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
+    SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+
     mudlog(BRF, ADMLVL_IMMORT, TRUE,
-      "SYSERR: do_oasis_quest: Player already had olc structure.");
-    free(d->olc);
-  }
+           "OLC: %s starts editing zone %d allowed zone %d",
+           GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
 
-  CREATE(d->olc, struct oasis_olc_data, 1);
-
-  /****************************************************************************/
-  /** Find the zone.                                                         **/
-  /****************************************************************************/
-  if ((OLC_ZNUM(d) = real_zone_by_thing(number)) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
-    free(d->olc);
-    d->olc = NULL;
-    return;
-  }
-
-  /****************************************************************************/
-  /** Everyone but IMPLs can only edit zones they have been assigned.        **/
-  /****************************************************************************/
-  if (!can_edit_zone(ch, OLC_ZNUM(d))) {
-    send_to_char(ch, "You do not have permission to edit this zone.\r\n");
-
-    /**************************************************************************/
-    /** Free the OLC structure.                                              **/
-    /**************************************************************************/
-    free(d->olc);
-    d->olc = NULL;
-    return;
-  }
-
-  if (save) {
-    send_to_char(ch, "Saving all quests in zone %d.\r\n",
-      zone_table[OLC_ZNUM(d)].number);
-    mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
-      "OLC: %s saves quest info for zone %d.",
-      GET_NAME(ch), zone_table[OLC_ZNUM(d)].number);
-
-    /**************************************************************************/
-    /** Save the quest to the quest file.                                    **/
-    /**************************************************************************/
-    qedit_save_to_disk(OLC_ZNUM(d));
-
-    /**************************************************************************/
-    /** Free the OLC structure.                                              **/
-    /**************************************************************************/
-    free(d->olc);
-    d->olc = NULL;
-    return;
-  }
-
-  OLC_NUM(d) = number;
-
-  if ((real_num = real_quest(number)) != NOTHING)
-    qedit_setup_existing(d, real_num);
-  else
-    qedit_setup_new(d);
-
-  STATE(d) = CON_QEDIT;
-
-  act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
-  SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-
-  mudlog(BRF, ADMLVL_IMMORT, TRUE,
-         "OLC: %s starts editing zone %d allowed zone %d",
-         GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
+    UNUSED(buf3);
 }
 
 void qedit_setup_new(struct descriptor_data *d)

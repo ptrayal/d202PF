@@ -49,7 +49,7 @@ long pop_free_list(void);
 void clear_free_list(void);
 mail_index_type *find_char_in_index(long searchee);
 void write_to_file(void *buf, int size, long filepos);
-void read_from_file(void *buf, int size, long filepos);
+void read_from_file(void *buf, size_t size, long filepos);
 void index_mail(long id_to_index, long pos);
 int mail_recip_ok(const char *name);
 
@@ -203,27 +203,43 @@ void write_to_file(void *buf, int size, long filepos)
  *
  * This reads a block from the mail database file.
  */
-void read_from_file(void *buf, int size, long filepos)
+
+void read_from_file(void *buf, size_t size, long filepos)
 {
-  FILE *mail_file;
+    FILE *mail_file;
 
-  if (filepos % BLOCK_SIZE) 
-  {
-    log("SYSERR: Mail system -- fatal error #3!!! (invalid filepos read %ld)", filepos);
-    no_mail = TRUE;
-    return;
-  }
-  if (!(mail_file = fopen(MAIL_FILE, "r+b"))) 
-  {
-    log("SYSERR: Unable to open mail file '%s'.", MAIL_FILE);
-    no_mail = TRUE;
-    return;
-  }
+    if (filepos % BLOCK_SIZE != 0)
+    {
+        log("SYSERR: Mail system -- fatal error #3!!! (invalid filepos read %ld)", filepos);
+        no_mail = TRUE; // Make sure 'no_mail' is defined and declared appropriately
+        return;
+    }
 
-  fseek(mail_file, filepos, SEEK_SET);
-  fread(buf, size, 1, mail_file);
-  fclose(mail_file);
-  return;
+    mail_file = fopen(MAIL_FILE, "rb");
+    if (!mail_file)
+    {
+        log("SYSERR: Unable to open mail file '%s'.", MAIL_FILE);
+        no_mail = TRUE;
+        return;
+    }
+
+    if (fseek(mail_file, filepos, SEEK_SET) != 0)
+    {
+        log("SYSERR: Unable to seek to the specified position in the mail file.");
+        fclose(mail_file);
+        no_mail = TRUE;
+        return;
+    }
+
+    if (fread(buf, size, 1, mail_file) != 1)
+    {
+        log("SYSERR: Unable to read from the mail file.");
+        fclose(mail_file);
+        no_mail = TRUE;
+        return;
+    }
+
+    fclose(mail_file);
 }
 
 
@@ -689,4 +705,5 @@ void notify_if_playing(struct char_data *from, int recipient_id)
         }
     }
 } 
+
 
