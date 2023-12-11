@@ -34,6 +34,9 @@ int buildwalk(struct char_data *ch, int dir);
 
 void room_copy_existing(int source_num, int real_num);
 
+#define UNUSED(x) (void)(x)
+
+
 
 /******************************************************************************/
 /** Commands                                                                 **/
@@ -197,59 +200,68 @@ ACMD(do_dig)
 
 ACMD(do_room_copy)
 {
-   struct descriptor_data *d;
-   struct room_data *room_src, *room_dst;
-   int room_num, buf_num;
-   zone_rnum dst_zone;
-   char buf[MAX_INPUT_LENGTH]={'\0'};
-     
-   one_argument(argument, buf);
-   
-   if (!*buf) {
-     send_to_char(ch, "Usage: rclone <target room>\r\n");
-     return;
-   }
-   buf_num = atoi(buf);
+    struct descriptor_data *d;
+    struct room_data * room_src, *room_dst;
+    int room_num, buf_num;
+    zone_rnum dst_zone;
+    char buf[MAX_INPUT_LENGTH] = {'\0'};
 
-   if ((dst_zone = real_zone_by_thing(buf_num)) == NOWHERE) {
-     send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
-     return;
-   }
-    
-   if (!can_edit_zone(ch, dst_zone) ||
-       !can_edit_zone(ch, world[IN_ROOM(ch)].zone) ) {
-     send_to_char(ch, "You may only copy rooms within your designated zone(s)!\r\n");
-     return;
-   }
-      
-   for (d = descriptor_list; d; d = d->next) {
-    if (STATE(d) == CON_REDIT) {
-       if (d->olc && OLC_NUM(d) == buf_num) {
-         send_to_char(ch, "That room is currently being edited by %s.\r\n",
-             PERS(d->character, ch));
-         return;
-       }
-     }
-   }
+    one_argument(argument, buf);
 
-   if (real_room(buf_num) == NOWHERE) {
-     send_to_char(ch, "Target room does not exist.\r\n");
-     return;
-   }
-  
-   room_src = &world[IN_ROOM(ch)];
-   room_dst = &world[real_room(buf_num)];
-   room_num = room_src->number;
-   dst_zone = room_src->zone;
+    if (!*buf)
+    {
+        send_to_char(ch, "Usage: rclone <target room>\r\n");
+        return;
+    }
+    buf_num = atoi(buf);
 
-   send_to_char(ch, "Cloning room....\r\n");
-   room_copy_existing(IN_ROOM(ch), real_room(buf_num));
-   room_src->number = room_num;
-   room_src->zone = dst_zone;
+    if ((dst_zone = real_zone_by_thing(buf_num)) == NOWHERE)
+    {
+        send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+        return;
+    }
 
-  add_to_save_list(real_zone_by_thing(room_num), SL_WLD);
-  redit_save_to_disk(real_zone_by_thing(room_num));
-  send_to_char(ch, "Room %d cloned to present room.\r\nAll Done.\r\n", buf_num);
+    if (!can_edit_zone(ch, dst_zone) ||
+            !can_edit_zone(ch, world[IN_ROOM(ch)].zone) )
+    {
+        send_to_char(ch, "You may only copy rooms within your designated zone(s)!\r\n");
+        return;
+    }
+
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if (STATE(d) == CON_REDIT)
+        {
+            if (d->olc && OLC_NUM(d) == buf_num)
+            {
+                send_to_char(ch, "That room is currently being edited by %s.\r\n",
+                             PERS(d->character, ch));
+                return;
+            }
+        }
+    }
+
+    if (real_room(buf_num) == NOWHERE)
+    {
+        send_to_char(ch, "Target room does not exist.\r\n");
+        return;
+    }
+
+    room_src = &world[IN_ROOM(ch)];
+    room_dst = &world[real_room(buf_num)];
+    room_num = room_src->number;
+    dst_zone = room_src->zone;
+
+    send_to_char(ch, "Cloning room....\r\n");
+    room_copy_existing(IN_ROOM(ch), real_room(buf_num));
+    room_src->number = room_num;
+    room_src->zone = dst_zone;
+
+    add_to_save_list(real_zone_by_thing(room_num), SL_WLD);
+    redit_save_to_disk(real_zone_by_thing(room_num));
+    send_to_char(ch, "Room %d cloned to present room.\r\nAll Done.\r\n", buf_num);
+
+    UNUSED(room_dst);
 }
 
 

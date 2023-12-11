@@ -24,6 +24,8 @@ MYSQL *conn2;
 
 char *get_blank_clan_name(int clan);
 
+#define UNUSED(x) (void)(x)
+
 void note_list_all_cats(struct char_data *ch) 
 {
 
@@ -155,110 +157,131 @@ void note_list_all_cats(struct char_data *ch)
 
 void note_display_unread(struct char_data *ch) 
 {
-  int num_cats = 0;
-  int unread = 0, total = 0;
-  char buf[400]={'\0'};
-  char storage_buffer[MSL]={'\0'};
+    int num_cats = 0;
+    int unread = 0, total = 0;
+    char buf[400] = {'\0'};
+    char storage_buffer[MSL] = {'\0'};
 
-  // Open mysql connection
-  conn2 = mysql_init(NULL);
+    // Open mysql connection
+    conn2 = mysql_init(NULL);
 
-  /* Connect to database */
-  if (!mysql_real_connect(conn2, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) {
-    log("Cannot connect to mysql database in note_list_all_cats.");
-  }
-
-  MYSQL_RES *res = NULL;
-  MYSQL_ROW row = NULL;
-  int new_msgs = FALSE;
-
-  char query[MAX_INPUT_LENGTH]={'\0'};
-
-  sprintf(query, "SELECT COUNT(*) FROM player_note_categories WHERE adm_level <= '%d'", GET_ADMLEVEL(ch));
-  mysql_query(conn2, query);
-  res = mysql_use_result(conn2);
-  if (res != NULL) {
-    while ((row = mysql_fetch_row(res)) != NULL) {
-      num_cats = atoi(row[0]);
+    /* Connect to database */
+    if (!mysql_real_connect(conn2, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0))
+    {
+        log("Cannot connect to mysql database in note_list_all_cats.");
     }
-  }
-  mysql_free_result(res);
 
-  if (!num_cats || num_cats < 0)
-    num_cats = 0;
+    MYSQL_RES *res = NULL;
+    MYSQL_ROW row = NULL;
+    int new_msgs = FALSE;
 
-  if (num_cats > 0) {
+    char query[MAX_INPUT_LENGTH] = {'\0'};
 
-  char *cat_text[num_cats];
-  int totals[num_cats];
-
-
-  int i = 0;
-  sprintf(query, "SELECT name, display FROM player_note_categories WHERE adm_level <= '%d' ORDER BY name ASC", GET_ADMLEVEL(ch));
-  mysql_query(conn2, query);
-  res = mysql_use_result(conn2);
-  if (res != NULL) {
-    while ((row = mysql_fetch_row(res)) != NULL) {
-      if (i < num_cats) {
-        sprintf(buf, "%-20s %-25s ", row[0], row[1]);
-        cat_text[i] = strdup(buf);
-        i++;
-      }
-    }
-  }
-  mysql_free_result(res);
-
-  sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_messages GROUP BY cat_name ORDER BY cat_name ASC");
-  mysql_query(conn2, query);
-  res = mysql_use_result(conn2);
-  if (res != NULL) {
-    while ((row = mysql_fetch_row(res)) != NULL) {
-      for (i = 0; i < num_cats; i++) {
-        if (strstr(cat_text[i], row[0]))
-          break;
-      }
-      if (i < num_cats) {
-        total = atoi(row[1]);
-        totals[i] = total;
-      }
-    }
-  }
-  mysql_free_result(res);
-
-  char name_buf[500]={'\0'};
-
-  sprintf(name_buf, " WHERE ");
-
-  if (ch->desc->account) {
-    for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
-      if (ch->desc->account->character_names[i] != NULL) {
-        snprintf(storage_buffer, sizeof(storage_buffer),"%s %splayer_name = '%s' ", name_buf, (i > 0) ? " OR " : "", ch->desc->account->character_names[i]);
-      }
-    }
-  }
-
-  sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_read %s GROUP BY cat_name ORDER BY cat_name ASC", storage_buffer);
-  mysql_query(conn2, query);
-  res = mysql_use_result(conn2);
-  if (res != NULL) {
-    while ((row = mysql_fetch_row(res)) != NULL) {
-      for (i = 0; i < num_cats; i++) {
-        if (strstr(cat_text[i], row[0]))
-          break;
-      }
-      if (i < num_cats) {
-        unread = MAX(0, totals[i] - atoi(row[1]));
-        if (unread > 0) {
-        new_msgs = TRUE;
-        send_to_char(ch, "@l@WYou have %d unread notes in category %s! (See @YHELP NOTE@W)@n\r\n", unread, row[0]);        
+    sprintf(query, "SELECT COUNT(*) FROM player_note_categories WHERE adm_level <= '%d'", GET_ADMLEVEL(ch));
+    mysql_query(conn2, query);
+    res = mysql_use_result(conn2);
+    if (res != NULL)
+    {
+        while ((row = mysql_fetch_row(res)) != NULL)
+        {
+            num_cats = atoi(row[0]);
         }
-      }
     }
-  }
-  mysql_free_result(res);
+    mysql_free_result(res);
 
-  }  
-  mysql_close(conn2);
+    if (!num_cats || num_cats < 0)
+        num_cats = 0;
+
+    if (num_cats > 0)
+    {
+
+        char *cat_text[num_cats];
+        int totals[num_cats];
+
+
+        int i = 0;
+        sprintf(query, "SELECT name, display FROM player_note_categories WHERE adm_level <= '%d' ORDER BY name ASC", GET_ADMLEVEL(ch));
+        mysql_query(conn2, query);
+        res = mysql_use_result(conn2);
+        if (res != NULL)
+        {
+            while ((row = mysql_fetch_row(res)) != NULL)
+            {
+                if (i < num_cats)
+                {
+                    sprintf(buf, "%-20s %-25s ", row[0], row[1]);
+                    cat_text[i] = strdup(buf);
+                    i++;
+                }
+            }
+        }
+        mysql_free_result(res);
+
+        sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_messages GROUP BY cat_name ORDER BY cat_name ASC");
+        mysql_query(conn2, query);
+        res = mysql_use_result(conn2);
+        if (res != NULL)
+        {
+            while ((row = mysql_fetch_row(res)) != NULL)
+            {
+                for (i = 0; i < num_cats; i++)
+                {
+                    if (strstr(cat_text[i], row[0]))
+                        break;
+                }
+                if (i < num_cats)
+                {
+                    total = atoi(row[1]);
+                    totals[i] = total;
+                }
+            }
+        }
+        mysql_free_result(res);
+
+        char name_buf[500] = {'\0'};
+
+        sprintf(name_buf, " WHERE ");
+
+        if (ch->desc->account)
+        {
+            for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
+            {
+                if (ch->desc->account->character_names[i] != NULL)
+                {
+                    snprintf(storage_buffer, sizeof(storage_buffer), "%s %splayer_name = '%s' ", name_buf, (i > 0) ? " OR " : "", ch->desc->account->character_names[i]);
+                }
+            }
+        }
+
+        sprintf(query, "SELECT cat_name, COUNT(*) as total FROM player_note_read %s GROUP BY cat_name ORDER BY cat_name ASC", storage_buffer);
+        mysql_query(conn2, query);
+        res = mysql_use_result(conn2);
+        if (res != NULL)
+        {
+            while ((row = mysql_fetch_row(res)) != NULL)
+            {
+                for (i = 0; i < num_cats; i++)
+                {
+                    if (strstr(cat_text[i], row[0]))
+                        break;
+                }
+                if (i < num_cats)
+                {
+                    unread = MAX(0, totals[i] - atoi(row[1]));
+                    if (unread > 0)
+                    {
+                        new_msgs = TRUE;
+                        send_to_char(ch, "@l@WYou have %d unread notes in category %s! (See @YHELP NOTE@W)@n\r\n", unread, row[0]);
+                    }
+                }
+            }
+        }
+        mysql_free_result(res);
+
+    }
+    mysql_close(conn2);
+
+    UNUSED(new_msgs);
 }
 
 void note_list_single_cat(struct char_data *ch, char *arg, char *buf2) 

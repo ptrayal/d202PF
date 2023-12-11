@@ -62,29 +62,29 @@ extern zone_rnum real_zone_by_thing(room_vnum vznum);
 #define S_PRODUCT(s, i) ((s)->producing[(i)])
 int Valid_Name(char *newname);
 
+#define UNUSED(x) (void)(x)
 
 /*------------------------------------------------------------------------*\
   Utility and exported functions
 \*------------------------------------------------------------------------*/
 
 ACMD(do_oasis_oedit)
-
 {
     int number = NOWHERE, save = 0, real_num = 0;
     struct descriptor_data *d;
     char *buf3;
-    char buf1[MAX_STRING_LENGTH]={'\0'};
-    char buf2[MAX_STRING_LENGTH]={'\0'};
+    char buf1[MAX_STRING_LENGTH] = {'\0'};
+    char buf2[MAX_STRING_LENGTH] = {'\0'};
 
-/****************************************************************************/
-/** Parse any arguments.                                                   **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Parse any arguments.                                                   **/
+    /****************************************************************************/
     buf3 = two_arguments(argument, buf1, buf2);
 
-/****************************************************************************/
-/** If there aren't any arguments...well...they can't modify nothing now   **/
-/** can they?                                                              **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** If there aren't any arguments...well...they can't modify nothing now   **/
+    /** can they?                                                              **/
+    /****************************************************************************/
     if (!*buf1)
     {
         send_to_char(ch, "Specify an object VNUM to edit.\r\n");
@@ -119,15 +119,15 @@ ACMD(do_oasis_oedit)
         }
     }
 
-/****************************************************************************/
-/** If a numeric argument was given, get it.                               **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** If a numeric argument was given, get it.                               **/
+    /****************************************************************************/
     if (number == NOWHERE)
         number = atoi(buf1);
 
-/****************************************************************************/
-/** Check that whatever it is isn't already being edited.                  **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Check that whatever it is isn't already being edited.                  **/
+    /****************************************************************************/
 
     for (d = descriptor_list; d; d = d->next)
     {
@@ -136,83 +136,83 @@ ACMD(do_oasis_oedit)
             if (d->olc && OLC_NUM(d) == number)
             {
                 send_to_char(ch, "That object is currently being edited by %s.\r\n",
-                    PERS(d->character, ch));
+                             PERS(d->character, ch));
                 return;
             }
         }
     }
 
-/****************************************************************************/
-/** Point d to the builder's descriptor (for easier typing later).         **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Point d to the builder's descriptor (for easier typing later).         **/
+    /****************************************************************************/
     d = ch->desc;
 
-/****************************************************************************/
-/** Give the descriptor an OLC structure.                                  **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Give the descriptor an OLC structure.                                  **/
+    /****************************************************************************/
     if (d->olc)
     {
         mudlog(BRF, ADMLVL_IMMORT, TRUE,
-            "SYSERR: do_oasis: Player already had olc structure.");
+               "SYSERR: do_oasis: Player already had olc structure.");
         free(d->olc);
     }
 
     CREATE(d->olc, struct oasis_olc_data, 1);
 
-/****************************************************************************/
-/** Find the zone.                                                         **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Find the zone.                                                         **/
+    /****************************************************************************/
     OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
 
     if (OLC_ZNUM(d) == NOWHERE)
     {
         send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
 
-/**************************************************************************/
-/** Free the descriptor's OLC structure.                                 **/
-/**************************************************************************/
+        /**************************************************************************/
+        /** Free the descriptor's OLC structure.                                 **/
+        /**************************************************************************/
         free(d->olc);
         d->olc = NULL;
         return;
     }
 
-/****************************************************************************/
-/** Everyone but IMPLs can only edit zones they have been assigned.        **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Everyone but IMPLs can only edit zones they have been assigned.        **/
+    /****************************************************************************/
 
     if (!can_edit_zone(ch, OLC_ZNUM(d)))
     {
         send_to_char(ch, "You do not have permission to edit this zone.\r\n");
         mudlog(CMP, ADMLVL_IMPL, TRUE, "OLC: %s tried to edit zone %d allowed zone %d",
-            GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
+               GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
 
-/**************************************************************************/
-/** Free the descriptor's OLC structure.                                 **/
-/**************************************************************************/
+        /**************************************************************************/
+        /** Free the descriptor's OLC structure.                                 **/
+        /**************************************************************************/
         free(d->olc);
         d->olc = NULL;
         return;
     }
 
-/****************************************************************************/
-/** If we need to save, save the objects.                                  **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** If we need to save, save the objects.                                  **/
+    /****************************************************************************/
     if (save)
     {
         send_to_char(ch, "Saving all objects in zone %d.\r\n",
-            zone_table[OLC_ZNUM(d)].number);
+                     zone_table[OLC_ZNUM(d)].number);
         mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
-            "OLC: %s saves object info for zone %d.", GET_NAME(ch),
-            zone_table[OLC_ZNUM(d)].number);
+               "OLC: %s saves object info for zone %d.", GET_NAME(ch),
+               zone_table[OLC_ZNUM(d)].number);
 
-/**************************************************************************/
-/** Save the objects in this zone.                                       **/
-/**************************************************************************/
+        /**************************************************************************/
+        /** Save the objects in this zone.                                       **/
+        /**************************************************************************/
         save_objects(OLC_ZNUM(d));
 
-/**************************************************************************/
-/** Free the descriptor's OLC structure.                                 **/
-/**************************************************************************/
+        /**************************************************************************/
+        /** Free the descriptor's OLC structure.                                 **/
+        /**************************************************************************/
         free(d->olc);
         d->olc = NULL;
         return;
@@ -220,10 +220,10 @@ ACMD(do_oasis_oedit)
 
     OLC_NUM(d) = number;
 
-/****************************************************************************/
-/** If this is a new object, setup a new object, otherwise setup the       **/
-/** existing object.                                                       **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** If this is a new object, setup a new object, otherwise setup the       **/
+    /** existing object.                                                       **/
+    /****************************************************************************/
 
     if ((real_num = real_object(number)) != NOTHING)
         oedit_setup_existing(d, real_num);
@@ -232,17 +232,19 @@ ACMD(do_oasis_oedit)
 
     STATE(d) = CON_OEDIT;
 
-/****************************************************************************/
-/** Send the OLC message to the players in the same room as the builder.   **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Send the OLC message to the players in the same room as the builder.   **/
+    /****************************************************************************/
     act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
     SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
 
-/****************************************************************************/
-/** Log the OLC message.                                                   **/
-/****************************************************************************/
+    /****************************************************************************/
+    /** Log the OLC message.                                                   **/
+    /****************************************************************************/
     mudlog(CMP, ADMLVL_IMMORT, TRUE, "OLC: %s starts editing zone %d allowed zone %d",
-        GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
+           GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
+
+    UNUSED(buf3);
 }
 
 void oedit_setup_new(struct descriptor_data *d)

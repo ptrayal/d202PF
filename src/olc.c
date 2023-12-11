@@ -44,6 +44,8 @@ int can_modify(struct char_data *ch, int vnum);
 ACMD(do_olc);
 void olc_bitvector(int *bv, const char **names, char *arg);
 
+#define UNUSED(x) (void)(x)
+
 const char *olc_modes[] = {
   "set",			/* set OLC characteristics */
   "show",			/* show OLC characteristics */
@@ -172,95 +174,105 @@ ACMD(do_olc)
 /* OLC interpreter command; called by do_olc */
 void olc_interpreter(void *targ, int mode, char *arg)
 {
-  int error = 0, command;
-  char command_string[MAX_INPUT_LENGTH]={'\0'};
-  struct char_data *olc_mob = NULL;
-  struct room_data *olc_room = NULL;
-  struct obj_data *olc_obj = NULL;
+    int error = 0, command;
+    char command_string[MAX_INPUT_LENGTH] = {'\0'};
+    struct char_data *olc_mob = NULL;
+    struct room_data *olc_room = NULL;
+    struct obj_data *olc_obj = NULL;
 
-  half_chop(arg, command_string, arg);
-  if ((command = search_block(command_string, olc_commands, FALSE)) < 0) {
-    send_to_char(olc_ch, "Invalid OLC command '%s'.\r\n", command_string);
-    return;
-  }
-  switch (mode) {
-  case OLC_ROOM:
-    olc_room = (struct room_data *) targ;
-    break;
-  case OLC_MOB:
-    olc_mob = (struct char_data *) targ;
-    break;
-  case OLC_OBJ:
-    olc_obj = (struct obj_data *) targ;
-    break;
-  default:
-    log("SYSERR: Invalid OLC mode %d passed to interp.", mode);
-    return;
-  }
-
-
-  switch (command) {
-  case OLC_COPY:
-    switch (mode) {
-    case OLC_ROOM:
-      break;
-    case OLC_MOB:
-      break;
-    case OLC_OBJ:
-      break;
-    default:
-      error = 1;
-      break;
+    half_chop(arg, command_string, arg);
+    if ((command = search_block(command_string, olc_commands, FALSE)) < 0)
+    {
+        send_to_char(olc_ch, "Invalid OLC command '%s'.\r\n", command_string);
+        return;
     }
-    break;
-  case OLC_NAME:
-    switch (mode) {
+    switch (mode)
+    {
     case OLC_ROOM:
-      olc_string(&(olc_room->name), MAX_ROOM_NAME, arg);
-      break;
+        olc_room = (struct room_data *) targ;
+        break;
     case OLC_MOB:
-      olc_string(&olc_mob->short_descr, MAX_MOB_NAME, arg);
-      break;
+        olc_mob = (struct char_data *) targ;
+        break;
     case OLC_OBJ:
-      olc_string(&olc_obj->short_description, MAX_OBJ_NAME, arg);
-      break;
+        olc_obj = (struct obj_data *) targ;
+        break;
     default:
-      error = 1;
-      break;
-    }
-    break;
-
-  case OLC_DESC:
-    switch (mode) {
-    case OLC_ROOM:
-      olc_string(&olc_room->description, MAX_ROOM_DESC, arg);
-      break;
-    case OLC_MOB:
-      olc_string(&olc_mob->long_descr, MAX_MOB_DESC, arg);
-      break;
-    case OLC_OBJ:
-      olc_string(&olc_obj->description, MAX_OBJ_DESC, arg);
-      break;
-    default:
-      error = 1;
-      break;
-    }
-    break;
-
-  case OLC_ALIASES:
-    switch (mode) {
-    case OLC_ROOM:
-      break;
-    case OLC_MOB:
-      break;
-    case OLC_OBJ:
-      break;
-    default:
-      error = 1;
-      break;
+        log("SYSERR: Invalid OLC mode %d passed to interp.", mode);
+        return;
     }
 
-  }
+
+    switch (command)
+    {
+    case OLC_COPY:
+        switch (mode)
+        {
+        case OLC_ROOM:
+            break;
+        case OLC_MOB:
+            break;
+        case OLC_OBJ:
+            break;
+        default:
+            error = 1;
+            break;
+        }
+        break;
+    case OLC_NAME:
+        switch (mode)
+        {
+        case OLC_ROOM:
+            olc_string(&(olc_room->name), MAX_ROOM_NAME, arg);
+            break;
+        case OLC_MOB:
+            olc_string(&olc_mob->short_descr, MAX_MOB_NAME, arg);
+            break;
+        case OLC_OBJ:
+            olc_string(&olc_obj->short_description, MAX_OBJ_NAME, arg);
+            break;
+        default:
+            error = 1;
+            break;
+        }
+        break;
+
+    case OLC_DESC:
+        switch (mode)
+        {
+        case OLC_ROOM:
+            olc_string(&olc_room->description, MAX_ROOM_DESC, arg);
+            break;
+        case OLC_MOB:
+            olc_string(&olc_mob->long_descr, MAX_MOB_DESC, arg);
+            break;
+        case OLC_OBJ:
+            olc_string(&olc_obj->description, MAX_OBJ_DESC, arg);
+            break;
+        default:
+            error = 1;
+            break;
+        }
+        break;
+
+    case OLC_ALIASES:
+        switch (mode)
+        {
+        case OLC_ROOM:
+            break;
+        case OLC_MOB:
+            break;
+        case OLC_OBJ:
+            break;
+        default:
+            error = 1;
+            break;
+        }
+
+    }
+
+    UNUSED(error);
+
 }
 
 
