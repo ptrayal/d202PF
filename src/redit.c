@@ -46,125 +46,140 @@ void redit_disp_spec_proc(struct descriptor_data *d);
 void ASSIGNROOM(room_vnum room, SPECIAL(fname));
 void UNASSIGNROOM(room_vnum room);
 
+#define UNUSED(x) (void)(x)
+
+
 /*------------------------------------------------------------------------*\
   Utils and exported functions.
 \*------------------------------------------------------------------------*/
 
 ACMD(do_oasis_redit)
 {
-  char *buf3;
-  char buf1[MAX_STRING_LENGTH]={'\0'};
-  char buf2[MAX_STRING_LENGTH]={'\0'};
-  int number = NOWHERE, save = 0, real_num;
-  struct descriptor_data *d;
-  
-  /* Parse any arguments. */
-  buf3 = two_arguments(argument, buf1, buf2);
-  
-  if (!*buf1)
-    number = GET_ROOM_VNUM(IN_ROOM(ch));
-  else if (!isdigit(*buf1)) {
-    if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
-      return;
+    char *buf3;
+    char buf1[MAX_STRING_LENGTH] = {'\0'};
+    char buf2[MAX_STRING_LENGTH] = {'\0'};
+    int number = NOWHERE, save = 0, real_num;
+    struct descriptor_data *d;
+
+    /* Parse any arguments. */
+    buf3 = two_arguments(argument, buf1, buf2);
+
+    if (!*buf1)
+        number = GET_ROOM_VNUM(IN_ROOM(ch));
+    else if (!isdigit(*buf1))
+    {
+        if (str_cmp("save", buf1) != 0)
+        {
+            send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+            return;
+        }
+
+        save = TRUE;
+
+        if (is_number(buf2))
+            number = atoi(buf2);
+        /* olc_zone is of type ush_int
+        else if (GET_OLC_ZONE(ch) >= 0) { */
+        zone_rnum zlok;
+
+        if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
+            number = NOWHERE;
+        else
+            number = genolc_zone_bottom(zlok);
+        /*}*/
+
+        if (number == NOWHERE)
+        {
+            send_to_char(ch, "Save which zone?\r\n");
+            return;
+        }
     }
-    
-    save = TRUE;
-      
-    if (is_number(buf2))
-      number = atoi(buf2);
-    /* olc_zone is of type ush_int
-    else if (GET_OLC_ZONE(ch) >= 0) { */
-      zone_rnum zlok;
-        
-      if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
-        number = NOWHERE;
-      else
-        number = genolc_zone_bottom(zlok);
-    /*}*/
-      
-    if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
-      return;
+
+    /*
+     * If a numeric argument was given (like a room number), get it.
+     */
+    if (number == NOWHERE)
+        number = atoi(buf1);
+
+    /* Check to make sure the room isn't already being edited. */
+    for (d = descriptor_list; d; d = d->next)
+    {
+        if (STATE(d) == CON_REDIT)
+        {
+            if (d->olc && OLC_NUM(d) == number)
+            {
+                send_to_char(ch, "That room is currently being edited by %s.\r\n",
+                             PERS(d->character, ch));
+                return;
+            }
+        }
     }
-  }
-  
-  /*
-   * If a numeric argument was given (like a room number), get it.
-   */
-  if (number == NOWHERE)
-    number = atoi(buf1);
-  
-  /* Check to make sure the room isn't already being edited. */
-  for (d = descriptor_list; d; d = d->next) {
-    if (STATE(d) == CON_REDIT) {
-      if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That room is currently being edited by %s.\r\n", 
-          PERS(d->character, ch));
+
+    /* Retrieve the player's descriptor. */
+    d = ch->desc;
+
+    /* Give the descriptor an OLC structure. */
+    if (d->olc)
+    {
+        mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_oasis_redit: Player already had olc structure.");
+        free(d->olc);
+    }
+
+    /* Create the OLC structure. */
+    CREATE(d->olc, struct oasis_olc_data, 1);
+
+    /* Find the zone. */
+    OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
+    if (OLC_ZNUM(d) == NOWHERE)
+    {
+        send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+        free(d->olc);
+        d->olc = NULL;
         return;
-      }
     }
-  }
-  
-  /* Retrieve the player's descriptor. */
-  d = ch->desc;
-  
-  /* Give the descriptor an OLC structure. */
-  if (d->olc) {
-    mudlog(BRF, ADMLVL_IMMORT, TRUE, "SYSERR: do_oasis_redit: Player already had olc structure.");
-    free(d->olc);
-  }
-  
-  /* Create the OLC structure. */
-  CREATE(d->olc, struct oasis_olc_data, 1);
-  
-  /* Find the zone. */
-  OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
-  if (OLC_ZNUM(d) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
-    free(d->olc);
-    d->olc = NULL;
-    return;
-  }
-  
-  /* Make sure the builder is allowed to modify this zone. */
-  if (!can_edit_zone(ch, OLC_ZNUM(d))) {
-    send_to_char(ch, "You do not have permission to edit this zone.\r\n");
-    mudlog(CMP, ADMLVL_IMPL, TRUE, "OLC: %s tried to edit zone %d allowed zone %d",
+
+    /* Make sure the builder is allowed to modify this zone. */
+    if (!can_edit_zone(ch, OLC_ZNUM(d)))
+    {
+        send_to_char(ch, "You do not have permission to edit this zone.\r\n");
+        mudlog(CMP, ADMLVL_IMPL, TRUE, "OLC: %s tried to edit zone %d allowed zone %d",
                GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
-    
-    free(d->olc);
-    d->olc = NULL;
-    return;
-  }
-  
-  if (save) {
-    send_to_char(ch, "Saving all rooms in zone %d.\r\n", zone_table[OLC_ZNUM(d)].number);
-    mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves room info for zone %d.", GET_NAME(ch), 
-zone_table[OLC_ZNUM(d)].number);
-    
-    /* Save the rooms. */
-    save_rooms(OLC_ZNUM(d));
-    
-    /* Free the olc data from the descriptor. */
-    free(d->olc);
-    d->olc = NULL;
-    return;
-  }
-  
-  OLC_NUM(d) = number;
-  
-  if ((real_num = real_room(number)) != NOWHERE)
-    redit_setup_existing(d, real_num);
-  else
-    redit_setup_new(d);
-  
-  STATE(d) = CON_REDIT;
-  act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
-  SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-  
-  mudlog(CMP, ADMLVL_IMMORT, TRUE, "OLC: %s starts editing zone %d allowed zone %d",
-    GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
+
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+    if (save)
+    {
+        send_to_char(ch, "Saving all rooms in zone %d.\r\n", zone_table[OLC_ZNUM(d)].number);
+        mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves room info for zone %d.", GET_NAME(ch),
+               zone_table[OLC_ZNUM(d)].number);
+
+        /* Save the rooms. */
+        save_rooms(OLC_ZNUM(d));
+
+        /* Free the olc data from the descriptor. */
+        free(d->olc);
+        d->olc = NULL;
+        return;
+    }
+
+    OLC_NUM(d) = number;
+
+    if ((real_num = real_room(number)) != NOWHERE)
+        redit_setup_existing(d, real_num);
+    else
+        redit_setup_new(d);
+
+    STATE(d) = CON_REDIT;
+    act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
+    SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+
+    mudlog(CMP, ADMLVL_IMMORT, TRUE, "OLC: %s starts editing zone %d allowed zone %d",
+           GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
+
+    UNUSED(buf3);
 }
 
 void redit_setup_new(struct descriptor_data *d)

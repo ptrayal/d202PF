@@ -942,39 +942,48 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
     struct affected_type *aff;
     struct damreduct_type *reduct;
 
-
     if (!IS_NPC(k))
+    {
         send_to_char(ch, "Account Name: %s\r\n", GET_ACCOUNT_NAME(k));
+    }
+
     sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
+
     send_to_char(ch, "%s %s '%s'  IDNum: [%5ld], In room [%5d], Loadroom : [%5d]\r\n",
                  buf, (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
                  GET_NAME(k), IS_NPC(k) ? GET_ID(k) : GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)), IS_NPC(k) ? 0 : GET_LOADROOM(k));
 
-    //if (IS_MOB(k))
-    //send_to_char(ch, "Alias: %s, VNum: [%5d], RNum: [%5d]\r\n", k->name, GET_MOB_VNUM(k), GET_MOB_RNUM(k));
-
     if (IS_MOB(k))
     {
         if (k->master_id > -1)
+        {
             sprintf(buf, ", Master: %s", get_name_by_id(k->master_id));
+        }
         else
+        {
             buf[0] = 0;
-        send_to_char(ch, "Alias: %s, VNum: [%5d], RNum: [%5d]%s\r\n", k->name,
-                     GET_MOB_VNUM(k), GET_MOB_RNUM(k), buf);
+        }
+
+        send_to_char(ch, "Alias: %s, VNum: [%5d], RNum: [%5d]%s\r\n", k->name, GET_MOB_VNUM(k), GET_MOB_RNUM(k), buf);
     }
     else
-
+    {
         send_to_char(ch, "Title: %s\r\n", k->title ? k->title : "<None>");
+    }
 
     send_to_char(ch, "L-Des: %s", k->long_descr ? k->long_descr : "<None>\r\n");
+
+    char class_buf[MAX_STRING_LENGTH] = {'\0'};
     if (CONFIG_ALLOW_MULTICLASS)
     {
-        strncpy(buf, class_desc_str(k, 1, 0), sizeof(buf));
+        snprintf(class_buf, sizeof(class_buf), "%s", class_desc_str(k, 1, 0));
     }
     else
     {
-        sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core), buf, sizeof(buf));
+        sprinttype(k->chclass, (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core),
+                   class_buf, sizeof(class_buf));
     }
+
     send_to_char(ch, "Class: %s, Race: %s, Lev: [@y%2d(%dHD+%dcl+%d)@n], XP: [@y%7d@n]\r\n",
                  buf, race_list[GET_RACE(k)].type, GET_LEVEL(k), GET_HITDICE(k),
                  GET_CLASS_LEVEL(k), GET_LEVEL_ADJ(k), GET_EXP(k));
@@ -986,30 +995,35 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
         strftime(buf1, sizeof(buf1), "%a %b %d %Y", localtime(&(k->time.created)));
         strftime(buf2, sizeof(buf2), "%a %b %d %Y", localtime(&(k->time.logon)));
 
-        // send_to_char(ch, "Created: [%s], Last Logon: [%s], Played [%dh %dm], Age [%d]\r\n",
-        //  buf1, buf2, k->time.played / 3600, (k->time.played % 3600) / 60, age(k)->year);
-
         send_to_char(ch, "Created: [%s], Last Logon: [%s]\r\n", buf1, buf2);
 
-        send_to_char(ch, "Hometown: [%d], Align: [%4d], Ethic: [%4d]", GET_HOME(k),
-                     GET_ALIGNMENT(k), GET_ETHIC_ALIGNMENT(k));
-
+        send_to_char(ch, "Hometown: [%d], Align: [%4d], Ethic: [%4d]", GET_HOME(k), GET_ALIGNMENT(k), GET_ETHIC_ALIGNMENT(k));
 
         /*. Display OLC zone for immorts .*/
         if (GET_ADMLEVEL(k) >= ADMLVL_BUILDER)
         {
             if (GET_OLC_ZONE(k) == AEDIT_PERMISSION)
+            {
                 send_to_char(ch, ", OLC[@cActions@n]");
+            }
             else if (GET_OLC_ZONE(k) == NOWHERE)
+            {
                 send_to_char(ch, ", OLC[@cOFF@n]");
+            }
             else
+            {
                 send_to_char(ch, ", OLC: [@c%d@n]", GET_OLC_ZONE(k));
+            }
         }
+
         send_to_char(ch, "\r\n");
+
         if (k->desc && k->desc->account)
+        {
             send_to_char(ch, "@GAccount Exp: [%d] GIft Exp: [%d]@n\r\n", k->desc->account->experience, k->desc->account->gift_experience);
-        send_to_char(ch, "Clan: %s@n, Clan Rank: %s@n\r\n",
-                     get_clan_name(GET_CLAN(k)), get_rank_name(GET_CLAN(k), GET_CLAN_RANK(k)));
+        }
+
+        send_to_char(ch, "Clan: %s@n, Clan Rank: %s@n\r\n", get_clan_name(GET_CLAN(k)), get_rank_name(GET_CLAN(k), GET_CLAN_RANK(k)));
 
     }
     send_to_char(ch, "Str: [@c%d@n]  Int: [@c%d@n]  Wis: [@c%d@n]  "
@@ -1023,7 +1037,9 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
                  GET_KI(k), GET_MAX_KI(k), ki_gain(k));
 
     if (GET_ADMLEVEL(k))
+    {
         send_to_char(ch, "Admin Level: [@y%d - %s@n]\r\n", GET_ADMLEVEL(k), admin_level_names[GET_ADMLEVEL(k)]);
+    }
 
     send_to_char(ch, "Coins: [%9d], Bank: [%9d] (Total: %d)\r\n",
                  GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
@@ -1041,7 +1057,9 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
     send_to_char(ch, "Pos: %s, Fighting: %s", buf, FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
     if (IS_NPC(k))
+    {
         send_to_char(ch, ", Attack type: %s", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+    }
 
     if (k->desc)
     {
@@ -1068,9 +1086,11 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
     }
 
     if (IS_MOB(k))
+    {
         send_to_char(ch, "Mob Spec-Proc: %s, NPC Bare Hand Dam: %dd%d\r\n",
                      (mob_index[GET_MOB_RNUM(k)].func ? "Exists" : "None"),
                      k->mob_specials.damnodice, k->mob_specials.damsizedice);
+    }
 
     for (i = 0, j = k->carrying; j; j = j->next_content, i++);
     send_to_char(ch, "Carried: weight: %lld, items: %d; Items in: inventory: %d, ", IS_CARRYING_W(k), IS_CARRYING_N(k), i);
@@ -1081,11 +1101,15 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
     send_to_char(ch, "eq: %d\r\n", i2);
 
     if (!IS_NPC(k))
+    {
         send_to_char(ch, "Hunger: %d, Thirst: %d, Drunk: %d\r\n", GET_COND(k, FULL), GET_COND(k, THIRST), GET_COND(k, DRUNK));
+    }
 
     column = send_to_char(ch, "Master is: %s, Followers are:", k->master ? GET_NAME(k->master) : "<none>");
     if (!k->followers)
+    {
         send_to_char(ch, " <none>\r\n");
+    }
     else
     {
         for (fol = k->followers; fol; fol = fol->next)
@@ -1111,16 +1135,24 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
         {
             send_to_char(ch, "Primary attack: @y%s.@n", k->hit_breakdown[0]);
         }
+
         if (k->dam_breakdown[0])
+        {
             send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[0], k->crit_breakdown[0] ? k->crit_breakdown[0] : "");
+        }
         else
+        {
             send_to_char(ch, "\r\n");
+        }
         send_to_char(ch, "Offhand attack: @y%s.@n", k->hit_breakdown[1]);
         if (k->dam_breakdown[1])
-            send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[1],
-                         k->crit_breakdown[1] ? k->crit_breakdown[1] : "");
+        {
+            send_to_char(ch, "@y dam %s %s@n\r\n", k->dam_breakdown[1], k->crit_breakdown[1] ? k->crit_breakdown[1] : "");
+        }
         else
+        {
             send_to_char(ch, "\r\n");
+        }
     }
 
     if (k->damreduct)
@@ -1131,12 +1163,11 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
     sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
     send_to_char(ch, "AFF: @y%s@n\r\n", buf);
 
-
-    send_to_char(ch, "Quest Points: [%9d] Quests Completed: [%5d]\r\n",
-                 GET_QUESTPOINTS(ch), GET_NUM_QUESTS(ch));
+    send_to_char(ch, "Quest Points: [%9d] Quests Completed: [%5d]\r\n", GET_QUESTPOINTS(ch), GET_NUM_QUESTS(ch));
     if (GET_QUEST(ch) != NOTHING)
-        send_to_char(ch, "Current Quest: [%5d] Time Left: [%5d]\r\n",
-                     GET_QUEST(ch), GET_QUEST_TIME(ch));
+    {
+        send_to_char(ch, "Current Quest: [%5d] Time Left: [%5d]\r\n", GET_QUEST(ch), GET_QUEST_TIME(ch));
+    }
 
     /* Routine to show what spells a char is affected by */
     if (k->affected)
@@ -1146,12 +1177,16 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
             send_to_char(ch, "SPL: (%3dhr) @c%-21s@n ", aff->duration + 1, skill_name(aff->type));
 
             if (aff->modifier)
+            {
                 send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
+            }
 
             if (aff->bitvector)
             {
                 if (aff->modifier)
+                {
                     send_to_char(ch, ", ");
+                }
 
                 strcpy(buf, affected_bits[aff->bitvector]);
                 send_to_char(ch, "sets %s", buf);
@@ -1168,7 +1203,9 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
             send_to_char(ch, "SPL: (%3d rounds) @c%-21s@n ", aff->duration + 1, skill_name(aff->type));
 
             if (aff->modifier)
+            {
                 send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
+            }
 
             if (aff->bitvector)
             {
@@ -1194,13 +1231,19 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
             {
                 struct char_data *mc = find_char_n(mem->id);
                 if (!mc)
+                {
                     send_to_char(ch, "  ** Corrupted!\r\n");
+                }
                 else
                 {
                     if (mem->cmd)
+                    {
                         send_to_char(ch, "  %-20.20s%s\r\n", GET_NAME(mc), mem->cmd);
+                    }
                     else
+                    {
                         send_to_char(ch, "  %-20.20s <default>\r\n", GET_NAME(mc));
+                    }
                 }
                 mem = mem->next;
             }
@@ -1227,7 +1270,9 @@ void do_stat_character(struct char_data *ch, struct char_data *k)
                     send_to_char(ch, "    %10s:  [UID]: %s\r\n", tv->name, uname);
                 }
                 else
+                {
                     send_to_char(ch, "    %10s:  %s\r\n", tv->name, tv->value);
+                }
             }
         }
     }
@@ -2222,93 +2267,122 @@ struct char_data *is_in_game(int idnum) {
 
 ACMD(do_last)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  struct char_data *vict = NULL;
-  int num_to_list=-1;
-  int name=0;
-  char offend[30]={'\0'};
-  char buf[500]={'\0'};
-  char arg2[200]={'\0'};
-  char timestr[25];
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    struct char_data *vict = NULL;
+    int num_to_list = -1;
+    int name = 0;
+    char offend[30] = {'\0'};
+    char buf[500] = {'\0'};
+    char arg2[200] = {'\0'};
+    char timestr[25];
 
-  one_argument(argument, arg);
-  if(*argument) {
-    skip_spaces(&argument);
-    while(*argument) {
-      argument=two_arguments(argument,buf,arg2);
-      if (isdigit(*buf)) {
-        num_to_list=atoi(buf);
-        if(num_to_list <=0 )  {
-         send_to_char(ch, "You must specify a number greater than 0\r\n");
-         return;
+    one_argument(argument, arg);
+
+    if (*argument)
+    {
+        skip_spaces(&argument);
+
+        while (*argument)
+        {
+            argument = two_arguments(argument, buf, arg2);
+
+            if (isdigit(*buf))
+            {
+                num_to_list = atoi(buf);
+
+                if (num_to_list <= 0)
+                {
+                    send_to_char(ch, "You must specify a number greater than 0\r\n");
+                    return;
+                }
+            }
+            else
+            {
+                snprintf(offend, sizeof(offend), "%s", buf);
+                name = 1;
+            }
         }
-      } else {
-          strncpy(offend,buf,29);
-          name=1;
-      }
+
+        CREATE(vict, struct char_data, 1);
+        clear_char(vict);
+        CREATE(vict->player_specials, struct player_special_data, 1);
+
+        strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&vict->time.logon));
+
+        if (name && num_to_list == -1)
+        {
+            if (load_char(offend, vict) < 0)
+            {
+                send_to_char(ch, "There is no such player.\r\n");
+                free_char(vict);
+                return;
+            }
+
+            send_to_char(ch, "[%5ld] [%2d %s %s] %-12s : %-30s : %-20s\r\n",
+                         GET_IDNUM(vict), (int)GET_LEVEL(vict),
+                         race_list[(int)GET_RACE(vict)].abbrev,
+                         CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol[(int)GET_CLASS(vict)] :
+                                                                  class_abbrevs_core[(int)GET_CLASS(vict)],
+                         GET_NAME(vict), vict->player_specials->host && *vict->player_specials->host
+                                             ? vict->player_specials->host : "(NOHOST)",
+                         timestr);
+            free_char(vict);
+            return;
+        }
     }
-    CREATE(vict, struct char_data, 1);
-    clear_char(vict);
-    CREATE(vict->player_specials, struct player_special_data, 1);
 
-    strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&vict->time.logon));
+    if (num_to_list <= 0 || num_to_list >= 100)
+    {
+        num_to_list = 25;
+    }
 
-    if(name && num_to_list == -1) {
-      if (load_char(offend, vict) < 0) {
-        send_to_char(ch, "There is no such player.\r\n");
+    // Open mysql connection
+    MYSQL *conn = mysql_init(NULL);
+
+    /* Connect to database */
+    if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0))
+    {
+        log("Cannot connect to mysql database in usage stats.");
         return;
-      }
-
-      send_to_char(ch, "[%5ld] [%2d %s %s] %-12s : %-30s : %-20s\r\n",
-        GET_IDNUM(vict), (int) GET_LEVEL(vict),
-        race_list[(int) GET_RACE(vict)].abbrev, 
-        CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol[(int) GET_CLASS(vict)] : 
-        class_abbrevs_core[(int) GET_CLASS(vict)],
-        GET_NAME(vict), vict->player_specials->host && *vict->player_specials->host
-        ? vict->player_specials->host : "(NOHOST)",
-        timestr);
-      free_char(vict);
-      return;
-    } 
-  }
-
-  if(num_to_list <= 0 || num_to_list >= 100) {
-    num_to_list=25;
-  }
-
-  // Open mysql connection
-  conn = mysql_init(NULL);
-
-  /* Connect to database */
-  if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) {
-    log("Cannot connect to mysql database in usage stats.");
-  }
-
-  MYSQL_RES *res = NULL;
-  MYSQL_ROW row = NULL;
-
-  char query[MAX_INPUT_LENGTH]={'\0'};
-
-
-  if (*arg2 && is_abbrev(arg2, "complete")) {
-    sprintf(query, "SELECT player_name, last_login, account_name FROM player_logins ORDER BY last_login DESC LIMIT %d", num_to_list);
-  }
-  else {
-    sprintf(query, "SELECT cur.player_name, cur.last_login, cur.account_name FROM player_logins cur LEFT JOIN player_logins next ON cur.player_name=next.player_name and cur.last_login < next.last_login "
-                   "WHERE next.last_login IS NULL ORDER BY cur.last_login DESC LIMIT %d", num_to_list);
-  }
-
-  mysql_query(conn, query);
-  res = mysql_use_result(conn);
-  if (res != NULL) {
-    while ((row = mysql_fetch_row(res)) != NULL) {
-      send_to_char(ch, "%-20s (Account: %-20s): %s.\r\n",  row[0], row[2], row[1]);
     }
-  }
-  mysql_free_result(res);
-  mysql_close(conn);
 
+    MYSQL_RES *res = NULL;
+    MYSQL_ROW row = NULL;
+
+    char query[MAX_INPUT_LENGTH] = {'\0'};
+
+    if (*arg2 && is_abbrev(arg2, "complete"))
+    {
+        snprintf(query, sizeof(query), "SELECT player_name, last_login, account_name FROM player_logins ORDER BY last_login DESC LIMIT %d", num_to_list);
+    }
+    else
+    {
+        snprintf(query, sizeof(query), "SELECT cur.player_name, cur.last_login, cur.account_name FROM player_logins cur LEFT JOIN player_logins next ON cur.player_name=next.player_name and cur.last_login < next.last_login "
+                                       "WHERE next.last_login IS NULL ORDER BY cur.last_login DESC LIMIT %d", num_to_list);
+    }
+
+    if (mysql_query(conn, query) != 0)
+    {
+        log("Error in MySQL query");
+        mysql_close(conn);
+        return;
+    }
+
+    res = mysql_use_result(conn);
+
+    if (res != NULL)
+    {
+        while ((row = mysql_fetch_row(res)) != NULL)
+        {
+            send_to_char(ch, "%-20s (Account: %-20s): %s.\r\n", row[0], row[2], row[1]);
+        }
+
+        mysql_free_result(res);
+    }
+
+    mysql_close(conn);
 }
+
 
 
 ACMD(do_force)

@@ -76,6 +76,7 @@ extern struct pclean_criteria_data pclean_criteria[];
    strings saved in the pfiles
  */
 #define ASCII_SAVE_POOFS  FALSE
+#define UNUSED(x) (void)(x)
 
 extern MYSQL *conn;
 
@@ -1478,18 +1479,21 @@ int load_char(const char *name, struct char_data *ch)
 */
 void kill_ems(char *str)
 {
-  char *ptr1, *ptr2, *tmp;
+    char *ptr1, *ptr2, *tmp;
 
-  tmp = str;
-  ptr1 = str;
-  ptr2 = str;
+    tmp = str;
+    ptr1 = str;
+    ptr2 = str;
 
-  while (*ptr1) {
-    if ((*(ptr2++) = *(ptr1++)) == '\r')
-      if (*ptr1 == '\r')
-	ptr1++;
-  }
-  *ptr2 = '\0';
+    while (*ptr1)
+    {
+        if ((*(ptr2++) = *(ptr1++)) == '\r')
+            if (*ptr1 == '\r')
+                ptr1++;
+    }
+    *ptr2 = '\0';
+
+    UNUSED(tmp);
 }
 
 void write_new_pet_data(struct char_data *ch)
@@ -2740,3 +2744,4 @@ void init_respec_char(struct char_data *ch)
     for (i = 0; i < (SFEAT_MAX+1); i++)
       ch->school_feats[i] = 0;
 }
+
