@@ -1,10 +1,10 @@
-This is the Pathfinder/d20 Mudbase.  It is based off of Gicker's Forgotten Realms mud which is based off CircleMud 3.1.
+# Welcome to d202PF Codebase
+This is the Pathfinder/d20 Mudbase.  It is based off of Gicker's Forgotten Realms mud which is based off CircleMud 3.1.  This is an attempt to create a stable Pathfinder/d20 mud which utilizes many of the pathfinder features.  Some are more difficult to implement, but are still there in some fashion.  For those who follow Gicker, his Luminari mud is far more advanced, but this also focuses on being a more modular MUD being able to toggle switches to be able to choose which rules the code follows.
 
-The original credits for CircleMud 3.1 can be found in the doc directory as README.
+# Credits
+The original credits for CircleMud 3.1 can be found in the doc directory as license.txt (or license.pdf).
 
-This is an attempt to create a stable Pathfinder/d20 mud which utilizes many of the pathfinder features.  Some are more difficult to implement, but are still there in some fashion.
-
-Update as of DEC-14-2023:
+# Update as of DEC-14-2023:
 I am getting back to work on this code.  These are the following things I am working on:
 [ ] Getting the code to compile cleanly.  This means addressing some long-standing "warnings" the compiler gives about the code.
 [ ] Fixing and documenting the SQL tables the code uses.  When it was given to me, the tables were setup for me.  That information has been lost however and I'm going to rebuild the SQL tables and document it.  If possible, I'll build it into the code to create the tables if the tables are not already there.
