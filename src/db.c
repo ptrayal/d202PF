@@ -5135,272 +5135,295 @@ void read_level_data(struct char_data *ch, FILE *fl)
 
 void write_level_data(struct char_data *ch, FILE *fl)
 {
-  struct levelup_data *lev;
-  struct level_learn_entry *learn;
+    struct levelup_data *lev;
+    struct level_learn_entry *learn;
 
-  for (lev = ch->level_info; lev && lev->next; lev = lev->next);
+    for (lev = ch->level_info; lev && lev->next; lev = lev->next);
 
-  while (lev) {
-    fprintf(fl, "level %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d\n",
-            lev->type, lev->spec, lev->level, lev->hp_roll, lev->mana_roll,
-            lev->ki_roll, lev->move_roll, lev->accuracy, lev->fort,
-            lev->reflex, lev->will, lev->add_skill, lev->add_gen_feats,
-            lev->add_epic_feats, lev->add_class_feats, lev->add_class_epic_feats);
-    for (learn = lev->skills; learn; learn = learn->next)
-      fprintf(fl, "skill %d %d %d", learn->location, learn->specific, learn->value);
-    for (learn = lev->feats; learn; learn = learn->next)
-      fprintf(fl, "feat %d %d %d", learn->location, learn->specific, learn->value);
-    lev = lev->prev;
-  }
-  fprintf(fl, "end\n");
+    while (lev)
+    {
+        fprintf(fl, "level %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d\n",
+                lev->type, lev->spec, lev->level, lev->hp_roll, lev->mana_roll,
+                lev->ki_roll, lev->move_roll, lev->accuracy, lev->fort,
+                lev->reflex, lev->will, lev->add_skill, lev->add_gen_feats,
+                lev->add_epic_feats, lev->add_class_feats, lev->add_class_epic_feats);
+        for (learn = lev->skills; learn; learn = learn->next)
+            fprintf(fl, "skill %d %d %d", learn->location, learn->specific, learn->value);
+        for (learn = lev->feats; learn; learn = learn->next)
+            fprintf(fl, "feat %d %d %d", learn->location, learn->specific, learn->value);
+        lev = lev->prev;
+    }
+    fprintf(fl, "end\n");
 }
 
 void advance_mob_level(struct char_data *ch, int whichclass)
 {
-  int add_hp, add_move = 0, add_mana = 0, i, j, ranks;
-  int add_acc = 0, add_fort = 0, add_reflex = 0, add_will = 0;
+    int add_hp, add_move = 0, add_mana = 0, i, j, ranks;
+    int add_acc = 0, add_fort = 0, add_reflex = 0, add_will = 0;
 
-  if (whichclass < 0 || whichclass >= NUM_CLASSES) {
-    log("Invalid class %d passed to advance_mob_level, resetting.", whichclass);
-    whichclass = 0;
-  }
-
-  if (!IS_NPC(ch))
-  	return;
-
-  if (MOB_FLAGGED(ch, MOB_CUSTOM_STATS))
-    return;
-
-  if (GET_CLASS(ch) > CLASS_DUELIST)
-    GET_CLASS(ch) = CLASS_FIGHTER;
-
-  ranks = GET_HITDICE(ch);
-  
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  switch (ranks) {
-  case 1:
-    break;
-  case 4:
-    switch (whichclass) {
-    case CLASS_ROGUE:
-      MOB_SET_FEAT(ch, MFEAT_EVASION);
-      break;
-    case CLASS_MONK:
-      MOB_SET_FEAT(ch, MFEAT_COMBAT_REFLEXES);
-      break;
+    if (whichclass < 0 || whichclass >= NUM_CLASSES)
+    {
+        log("Invalid class %d passed to advance_mob_level, resetting.", whichclass);
+        whichclass = 0;
     }
-    break;
-  case 6:
-      MOB_SET_FEAT(ch, MFEAT_WEAPON_FOCUS);
-          
-  case 12:
-    MOB_SET_FEAT(ch, MFEAT_DODGE);
-    switch (whichclass) {
-    case CLASS_MONK:
-      MOB_SET_FEAT(ch, MFEAT_IMPROVED_DISARM);
-      break;
-    }
-    break;
-  case 18:
-    MOB_SET_FEAT(ch, MFEAT_IMPROVED_INITIATIVE);
-    switch (whichclass) {
-    case CLASS_MONK:
-      MOB_SET_FEAT(ch, MFEAT_IMPROVED_EVASION);
-      break;
-    }
-    break;
-  case 24:
-      MOB_SET_FEAT(ch, MFEAT_IMPROVED_CRITICAL);
-    break; 
-  case 30:
-    MOB_SET_FEAT(ch, MFEAT_IMPROVED_TWO_WEAPON_FIGHTING);
-    break;       
-  case 36:
-    MOB_SET_FEAT(ch, MFEAT_IRON_WILL);
-    break;
-  case 42:
-    MOB_SET_FEAT(ch, MFEAT_LIGHTNING_REFLEXES);
-    break;
-  case 48:
-    MOB_SET_FEAT(ch, MFEAT_GREAT_FORTITUDE);
-    break;
-  case 54:
-      MOB_SET_FEAT(ch, MFEAT_GREATER_WEAPON_FOCUS);
-    break;
-  case 60:
-    MOB_SET_FEAT(ch, MFEAT_GREATER_TWO_WEAPON_FIGHTING);
-    break;
-  }
-  if (GET_HITDICE(ch) == 1) { /* Filled in below */
-      GET_MAX_HIT(ch) = 0;
-      GET_ACCURACY_BASE(ch) = 0;
-      GET_SAVE_BASE(ch, SAVING_FORTITUDE) = 0;
-      GET_SAVE_BASE(ch, SAVING_REFLEX) = 0;
-      GET_SAVE_BASE(ch, SAVING_WILL) = 0;
-  }
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  if (GET_HITDICE(ch) >= LVL_EPICSTART) { /* Epic character */
-    if (GET_HITDICE(ch) % 4 == 0) {
-      add_acc = 1;
-    } else if (GET_HITDICE(ch) % 4 == 2) {
-      add_fort = 1;
-      add_reflex = 1;
-      add_will = 1;
-    }
-  } else if (ranks == 1) { /* First level of a given class */
-    add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, 1);
-    add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, 1);
-    add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, 1);
-    add_acc = base_hit(0, whichclass, 1);
-  } else { /* Normal level of a non-epic class */
-    add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks) -
-               saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks - 1);
-    add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks) -
-                 saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks - 1);
-    add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, ranks) -
-               saving_throw_lookup(0, whichclass, SAVING_WILL, ranks - 1);
-    add_acc = base_hit(0, whichclass, ranks) - base_hit(0, whichclass, ranks - 1);
-  }
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 
-  
-    switch (whichclass) {
-    case CLASS_FIGHTER:\
-      if (ranks == 2)
-          MOB_SET_FEAT(ch, MFEAT_WEAPON_SPECIALIZATION);
-      if (ranks == 20)
-          MOB_SET_FEAT(ch, MFEAT_GREATER_WEAPON_SPECIALIZATION);
-      if (ranks == 1 || !(ranks % 2))
+    if (!IS_NPC(ch))
+        return;
+
+    if (MOB_FLAGGED(ch, MOB_CUSTOM_STATS))
+        return;
+
+    if (GET_CLASS(ch) > CLASS_DUELIST)
+        GET_CLASS(ch) = CLASS_FIGHTER;
+
+    ranks = GET_HITDICE(ch);
+
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    switch (ranks)
+    {
+    case 1:
         break;
-      break;
-    case CLASS_ROGUE:
-      if (ranks > 9 && !(ranks % 3))
+    case 4:
+        switch (whichclass)
+        {
+        case CLASS_ROGUE:
+            MOB_SET_FEAT(ch, MFEAT_EVASION);
+            break;
+        case CLASS_MONK:
+            MOB_SET_FEAT(ch, MFEAT_COMBAT_REFLEXES);
+            break;
+        }
         break;
-      break;
+    case 6:
+        MOB_SET_FEAT(ch, MFEAT_WEAPON_FOCUS);
+
+    case 12:
+        MOB_SET_FEAT(ch, MFEAT_DODGE);
+        switch (whichclass)
+        {
+        case CLASS_MONK:
+            MOB_SET_FEAT(ch, MFEAT_IMPROVED_DISARM);
+            break;
+        }
+        break;
+    case 18:
+        MOB_SET_FEAT(ch, MFEAT_IMPROVED_INITIATIVE);
+        switch (whichclass)
+        {
+        case CLASS_MONK:
+            MOB_SET_FEAT(ch, MFEAT_IMPROVED_EVASION);
+            break;
+        }
+        break;
+    case 24:
+        MOB_SET_FEAT(ch, MFEAT_IMPROVED_CRITICAL);
+        break;
+    case 30:
+        MOB_SET_FEAT(ch, MFEAT_IMPROVED_TWO_WEAPON_FIGHTING);
+        break;
+    case 36:
+        MOB_SET_FEAT(ch, MFEAT_IRON_WILL);
+        break;
+    case 42:
+        MOB_SET_FEAT(ch, MFEAT_LIGHTNING_REFLEXES);
+        break;
+    case 48:
+        MOB_SET_FEAT(ch, MFEAT_GREAT_FORTITUDE);
+        break;
+    case 54:
+        MOB_SET_FEAT(ch, MFEAT_GREATER_WEAPON_FOCUS);
+        break;
+    case 60:
+        MOB_SET_FEAT(ch, MFEAT_GREATER_TWO_WEAPON_FIGHTING);
+        break;
+    }
+    if (GET_HITDICE(ch) == 1)   /* Filled in below */
+    {
+        GET_MAX_HIT(ch) = 0;
+        GET_ACCURACY_BASE(ch) = 0;
+        GET_SAVE_BASE(ch, SAVING_FORTITUDE) = 0;
+        GET_SAVE_BASE(ch, SAVING_REFLEX) = 0;
+        GET_SAVE_BASE(ch, SAVING_WILL) = 0;
+    }
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    if (GET_HITDICE(ch) >= LVL_EPICSTART)   /* Epic character */
+    {
+        if (GET_HITDICE(ch) % 4 == 0)
+        {
+            add_acc = 1;
+        }
+        else if (GET_HITDICE(ch) % 4 == 2)
+        {
+            add_fort = 1;
+            add_reflex = 1;
+            add_will = 1;
+        }
+    }
+    else if (ranks == 1)     /* First level of a given class */
+    {
+        add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, 1);
+        add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, 1);
+        add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, 1);
+        add_acc = base_hit(0, whichclass, 1);
+    }
+    else     /* Normal level of a non-epic class */
+    {
+        add_fort = saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks) -
+                   saving_throw_lookup(0, whichclass, SAVING_FORTITUDE, ranks - 1);
+        add_reflex = saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks) -
+                     saving_throw_lookup(0, whichclass, SAVING_REFLEX, ranks - 1);
+        add_will = saving_throw_lookup(0, whichclass, SAVING_WILL, ranks) -
+                   saving_throw_lookup(0, whichclass, SAVING_WILL, ranks - 1);
+        add_acc = base_hit(0, whichclass, ranks) - base_hit(0, whichclass, ranks - 1);
+    }
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+
+
+    switch (whichclass)
+    {
+    case CLASS_FIGHTER:
+        \
+        if (ranks == 2)
+            MOB_SET_FEAT(ch, MFEAT_WEAPON_SPECIALIZATION);
+        if (ranks == 20)
+            MOB_SET_FEAT(ch, MFEAT_GREATER_WEAPON_SPECIALIZATION);
+        if (ranks == 1 || !(ranks % 2))
+            break;
+        break;
+    case CLASS_ROGUE:
+        if (ranks > 9 && !(ranks % 3))
+            break;
+        break;
     case CLASS_WIZARD:
-      if (!(ranks % 5))
+        if (!(ranks % 5))
+            break;
         break;
-      break;
     default:
-      break;
+        break;
     }
 
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  switch (whichclass) {
-  case CLASS_WIZARD:
-    add_move = rand_number(0, 2);
-    set_attributes(ch, 10, 10, 16, 16 + (ranks / 4), 10, 10);
-    break;
-  case CLASS_CLERIC:
-    add_move = rand_number(0, 2);
-    set_attributes(ch, 12, 12, 12, 10, 16 + (ranks / 4), 10);
-    break;
-  case CLASS_ROGUE:
-    add_move = rand_number(1, 3);
-    set_attributes(ch, 14, 10, 16 + (ranks / 4), 12, 10, 10);
-    if (ranks % 2)
-      MOB_SET_FEAT(ch, MFEAT_SNEAK_ATTACK);
-    break;
-  case CLASS_FIGHTER:
-    add_move = rand_number(1, 3);
-    set_attributes(ch, 16 + (ranks / 4), 14, 12, 10, 10, 10);
-    break;
-  case CLASS_MONK:
-    add_move = rand_number(ranks, (int)(1.5 * ranks));
-    add_mana = 10 + ability_mod_value(GET_WIS(ch));
-    set_attributes(ch, 12, 12, 14, 10, 16 + (ranks / 4), 10);
-    break;
-  case CLASS_PALADIN:
-    add_move = rand_number(1, 3);
-    set_attributes(ch, 12, 12, 12, 10, 10, 16 + (ranks / 4));
-    break;
-  }
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    switch (whichclass)
+    {
+    case CLASS_WIZARD:
+        add_move = rand_number(0, 2);
+        set_attributes(ch, 10, 10, 16, 16 + (ranks / 4), 10, 10);
+        break;
+    case CLASS_CLERIC:
+        add_move = rand_number(0, 2);
+        set_attributes(ch, 12, 12, 12, 10, 16 + (ranks / 4), 10);
+        break;
+    case CLASS_ROGUE:
+        add_move = rand_number(1, 3);
+        set_attributes(ch, 14, 10, 16 + (ranks / 4), 12, 10, 10);
+        if (ranks % 2)
+            MOB_SET_FEAT(ch, MFEAT_SNEAK_ATTACK);
+        break;
+    case CLASS_FIGHTER:
+        add_move = rand_number(1, 3);
+        set_attributes(ch, 16 + (ranks / 4), 14, 12, 10, 10, 10);
+        break;
+    case CLASS_MONK:
+        add_move = rand_number(ranks, (int)(1.5 * ranks));
+        add_mana = 10 + ability_mod_value(GET_WIS(ch));
+        set_attributes(ch, 12, 12, 14, 10, 16 + (ranks / 4), 10);
+        break;
+    case CLASS_PALADIN:
+        add_move = rand_number(1, 3);
+        set_attributes(ch, 12, 12, 12, 10, 10, 16 + (ranks / 4));
+        break;
+    }
 
-  add_move = MAX(10, add_move * 10);
-  if (MOB_FLAGGED(ch, MOB_MOUNTABLE))
-    add_move *= 5;
+    add_move = MAX(10, add_move * 10);
+    if (MOB_FLAGGED(ch, MOB_MOUNTABLE))
+        add_move *= 5;
 
-             /* 1 extra per level for adaptability */
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-  i = ability_mod_value(GET_CON(ch));
-  if (GET_HITDICE(ch) > 1) {
-    j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
-    add_hp = MAX(1, i + j);
-  } else {
-    j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
-    add_hp = MAX(1, i + j);
-    GET_MAX_HIT(ch) = 0; /* Just easier this way */
-  }
+    /* 1 extra per level for adaptability */
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
+    i = ability_mod_value(GET_CON(ch));
+    if (GET_HITDICE(ch) > 1)
+    {
+        j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
+        add_hp = MAX(1, i + j);
+    }
+    else
+    {
+        j = (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_hit_die_size_dl_aol : class_hit_die_size_fr)[whichclass];
+        add_hp = MAX(1, i + j);
+        GET_MAX_HIT(ch) = 0; /* Just easier this way */
+    }
 
-  if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
-    add_hp *= 5;
-  else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
-    add_hp *= 10;
-  else if (MOB_FLAGGED(ch, MOB_BOSS))
-    add_hp *= 20;
-  else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
-    add_hp *= 50;
- 
+    if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
+        add_hp *= 5;
+    else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
+        add_hp *= 10;
+    else if (MOB_FLAGGED(ch, MOB_BOSS))
+        add_hp *= 20;
+    else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
+        add_hp *= 50;
 
-  add_hp = MAX(1, add_hp);
 
-  GET_MAX_MANA(ch) += add_mana;
-  GET_MANA(ch) = GET_MAX_MANA (ch);
-  GET_MAX_HIT(ch) += add_hp;
-  GET_HIT(ch) = GET_MAX_HIT(ch);
-  GET_MAX_MOVE(ch) += add_move;
-  GET_MOVE(ch) = GET_MAX_MOVE(ch);
-  GET_ACCURACY_BASE(ch) += add_acc;
-  GET_SAVE_BASE(ch, SAVING_FORTITUDE) += add_fort;
-  GET_SAVE_BASE(ch, SAVING_REFLEX) += add_reflex;
-  GET_SAVE_BASE(ch, SAVING_WILL) += add_will;
-  if (IS_HUMANOID(ch) && !MOB_FLAGGED(ch, MOB_NO_AUTOGOLD))
-    GET_GOLD(ch) = mob_gold_by_level(GET_HITDICE(ch));
-  GET_ARMOR(ch) = (GET_HITDICE(ch) * 10);
+    add_hp = MAX(1, add_hp);
 
-  if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
-    GET_ARMOR(ch) += (GET_HITDICE(ch));
-  else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
-    GET_ARMOR(ch) += (GET_HITDICE(ch) * 15 / 10);
-  else if (MOB_FLAGGED(ch, MOB_BOSS))
-    GET_ARMOR(ch) += (GET_HITDICE(ch) * 2);
-  else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
-    GET_ARMOR(ch) += (GET_HITDICE(ch) * 25 / 10);
+    GET_MAX_MANA(ch) += add_mana;
+    GET_MANA(ch) = GET_MAX_MANA (ch);
+    GET_MAX_HIT(ch) += add_hp;
+    GET_HIT(ch) = GET_MAX_HIT(ch);
+    GET_MAX_MOVE(ch) += add_move;
+    GET_MOVE(ch) = GET_MAX_MOVE(ch);
+    GET_ACCURACY_BASE(ch) += add_acc;
+    GET_SAVE_BASE(ch, SAVING_FORTITUDE) += add_fort;
+    GET_SAVE_BASE(ch, SAVING_REFLEX) += add_reflex;
+    GET_SAVE_BASE(ch, SAVING_WILL) += add_will;
+    if (IS_HUMANOID(ch) && !MOB_FLAGGED(ch, MOB_NO_AUTOGOLD))
+        GET_GOLD(ch) = mob_gold_by_level(GET_HITDICE(ch));
+    GET_ARMOR(ch) = (GET_HITDICE(ch) * 10);
+
+    if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
+        GET_ARMOR(ch) += (GET_HITDICE(ch));
+    else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
+        GET_ARMOR(ch) += (GET_HITDICE(ch) * 15 / 10);
+    else if (MOB_FLAGGED(ch, MOB_BOSS))
+        GET_ARMOR(ch) += (GET_HITDICE(ch) * 2);
+    else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
+        GET_ARMOR(ch) += (GET_HITDICE(ch) * 25 / 10);
 
 }
 
 void set_attributes(struct char_data *ch, int str, int con, int dex, int intel, int wis, int cha)
 {
 
-  if (IS_NPC(ch)) {
-    GET_STR(ch) = str;
-    GET_CON(ch) = con;
-    GET_DEX(ch) = dex;
-    GET_INT(ch) = intel;
-    GET_WIS(ch) = wis;
-    GET_CHA(ch) = cha;
-  }
-  else {
-    ch->real_abils.str = str;
-    ch->real_abils.con = con;
-    ch->real_abils.dex = dex;
-    ch->real_abils.intel = intel;
-    ch->real_abils.wis = wis;
-    ch->real_abils.cha = cha;
-  }
+    if (IS_NPC(ch))
+    {
+        GET_STR(ch) = str;
+        GET_CON(ch) = con;
+        GET_DEX(ch) = dex;
+        GET_INT(ch) = intel;
+        GET_WIS(ch) = wis;
+        GET_CHA(ch) = cha;
+    }
+    else
+    {
+        ch->real_abils.str = str;
+        ch->real_abils.con = con;
+        ch->real_abils.dex = dex;
+        ch->real_abils.intel = intel;
+        ch->real_abils.wis = wis;
+        ch->real_abils.cha = cha;
+    }
 }
 
 void load_deities(void) 
 {
 
-  int i = 0, j = 0;
+    int i = 0, j = 0;
 
-  for (i = 0; i < (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION ? 1 /*NUM_DEITIES_FR*/ : NUM_DEITIES_DL_AOL); i++) 
-  {
-    deity_strings[i] = strdup((CONFIG_CAMPAIGN == CAMPAIGN_GOLARION ? deity_names_fr : deity_names_dl_aol)[i]);
-    for (j = 0; j < strlen(deity_strings[i]); j++)
-      deity_strings[i][j] = tolower(deity_strings[i][j]);
-  }
+    for (i = 0; i < (CONFIG_CAMPAIGN == CAMPAIGN_GOLARION ? 1 /*NUM_DEITIES_FR*/ : NUM_DEITIES_DL_AOL); i++)
+    {
+        deity_strings[i] = strdup((CONFIG_CAMPAIGN == CAMPAIGN_GOLARION ? deity_names_fr : deity_names_dl_aol)[i]);
+        for (j = 0; j < strlen(deity_strings[i]); j++)
+            deity_strings[i][j] = tolower(deity_strings[i][j]);
+    }
 }
 
 void set_auto_mob_stats(struct char_data *mob)
@@ -5409,75 +5432,75 @@ void set_auto_mob_stats(struct char_data *mob)
     int ranks = 0;
 
     /* Mobs with 0 stats get auto-assigned stats */
-    if (!mob->real_abils.con) 
+    if (!mob->real_abils.con)
     {
         assign_auto_stats(mob);
     }
 
-    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) 
+    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS))
     {
         ranks = GET_HITDICE(mob);
 
-        switch (GET_CLASS(mob)) 
+        switch (GET_CLASS(mob))
         {
-            case CLASS_WIZARD:
+        case CLASS_WIZARD:
             set_attributes(mob, 10, 10, 16, 16 + (ranks / 4), 10, 10);
             break;
-            case CLASS_CLERIC:
+        case CLASS_CLERIC:
             set_attributes(mob, 12, 12, 12, 10, 16 + (ranks / 4), 10);
             break;
-            case CLASS_ROGUE:
+        case CLASS_ROGUE:
             set_attributes(mob, 14, 10, 16 + (ranks / 4), 12, 10, 10);
             break;
-            case CLASS_FIGHTER:
+        case CLASS_FIGHTER:
             set_attributes(mob, 16 + (ranks / 4), 14, 12, 10, 10, 10);
             break;
-            case CLASS_MONK:
+        case CLASS_MONK:
             set_attributes(mob, 12, 12, 14, 10, 16 + (ranks / 4), 10);
             break;
-            case CLASS_PALADIN:
+        case CLASS_PALADIN:
             set_attributes(mob, 12, 12, 12, 10, 10, 16 + (ranks / 4));
             break;
-            default:
+        default:
             set_attributes(mob, 12, 16 + (ranks / 4), 12, 10, 12, 10);
             break;
         }
 
         set_attributes(mob, GET_STR(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[0],
-         GET_CON(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[1],
-         GET_DEX(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[4],
-         GET_INT(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[2],
-         GET_WIS(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[3],
-         GET_CHA(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[5]);
+                       GET_CON(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[1],
+                       GET_DEX(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[4],
+                       GET_INT(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[2],
+                       GET_WIS(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[3],
+                       GET_CHA(mob) + race_list[GET_REAL_RACE(mob)].ability_mods[5]);
 
         if (IS_HUMANOID(mob) && !MOB_FLAGGED(mob, MOB_NO_AUTOGOLD))
             GET_GOLD(mob) = mob_gold_by_level(GET_HITDICE(mob));
 
-        switch (GET_CLASS(mob)) 
+        switch (GET_CLASS(mob))
         {
-            case CLASS_WIZARD:
-            case CLASS_SORCERER:
+        case CLASS_WIZARD:
+        case CLASS_SORCERER:
             GET_ARMOR(mob) = (GET_HITDICE(mob) * 10);
             break;
-            case CLASS_ROGUE:
-            case CLASS_BARD:
-            case CLASS_MONK:
+        case CLASS_ROGUE:
+        case CLASS_BARD:
+        case CLASS_MONK:
             GET_ARMOR(mob) = (GET_HITDICE(mob) * 11);
             break;
 
-            case CLASS_RANGER:
-            case CLASS_BARBARIAN:
-            case CLASS_DRUID:
-            case CLASS_CLERIC:
+        case CLASS_RANGER:
+        case CLASS_BARBARIAN:
+        case CLASS_DRUID:
+        case CLASS_CLERIC:
             GET_ARMOR(mob) = (GET_HITDICE(mob) * 12);
             break;
 
-            case CLASS_FIGHTER:
-            case CLASS_PALADIN:
+        case CLASS_FIGHTER:
+        case CLASS_PALADIN:
             GET_ARMOR(mob) = (GET_HITDICE(mob) * 13);
             break;
 
-            default:
+        default:
             GET_ARMOR(mob) = (GET_HITDICE(mob) * 12);
             break;
         }
@@ -5489,7 +5512,7 @@ void set_auto_mob_stats(struct char_data *mob)
     if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
         GET_ARMOR(ch) += (GET_HITDICE(ch));
     else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
-        GET_ARMOR(ch) += (GET_HITDICE(ch)* 15 / 10);
+        GET_ARMOR(ch) += (GET_HITDICE(ch) * 15 / 10);
     else if (MOB_FLAGGED(ch, MOB_BOSS))
         GET_ARMOR(ch) += (GET_HITDICE(ch) * 2);
     else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
@@ -5504,10 +5527,12 @@ void set_auto_mob_stats(struct char_data *mob)
     if (!hdsize)
         hdsize = 10;
 
-    if (MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+    if (MOB_FLAGGED(mob, MOB_CUSTOM_STATS))
+    {
         GET_HIT(mob) = GET_MAX_HIT(mob);
     }
-    else {
+    else
+    {
 
         GET_MAX_HIT(mob) = GET_HITDICE(mob) * (hdsize + ((race_list[GET_RACE(mob)].family == RACE_TYPE_UNDEAD) ? 0 : ability_mod_value(GET_CON(mob))));
         GET_HIT(mob) = GET_MAX_HIT(mob);
@@ -5515,7 +5540,7 @@ void set_auto_mob_stats(struct char_data *mob)
         if (MOB_FLAGGED(mob, MOB_MOUNTABLE))
             GET_MAX_MOVE(mob) *= 5;
 
-        if (MOB_FLAGGED(mob, MOB_LIEUTENANT)) 
+        if (MOB_FLAGGED(mob, MOB_LIEUTENANT))
         {
             GET_HIT(mob) *= 5;
             GET_MAX_HIT(mob) *= 5;
@@ -5540,43 +5565,52 @@ void set_auto_mob_stats(struct char_data *mob)
     if (GET_REAL_RACE(mob) > NUM_RACES)
         GET_REAL_RACE(mob) = RACE_SPIRIT;
 
-    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+    if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS))
+    {
         GET_DAMAGE_MOD(mob) = MAX(1, GET_LEVEL(mob) / 2);
         GET_ACCURACY_MOD(mob) = GET_LEVEL(mob) / 2;
     }
 
-    if (MOB_FLAGGED(ch, MOB_LIEUTENANT)) {
+    if (MOB_FLAGGED(ch, MOB_LIEUTENANT))
+    {
         GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 8);
         GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 8;
-        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
-            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
-        }
-    } else if (MOB_FLAGGED(ch, MOB_CAPTAIN)) {
-        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 6);
-        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 6;
-        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
-            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
-        }
-    } else if (MOB_FLAGGED(ch, MOB_BOSS)) {
-        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 5);
-        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 5;
-        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
-            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
-            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
-        }
-    } else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS)) {
-        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 4);
-        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 4;
-        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS)) {
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS))
+        {
             GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
             GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
         }
     }
-
-
-
+    else if (MOB_FLAGGED(ch, MOB_CAPTAIN))
+    {
+        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 6);
+        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 6;
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS))
+        {
+            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
+            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        }
+    }
+    else if (MOB_FLAGGED(ch, MOB_BOSS))
+    {
+        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 5);
+        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 5;
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS))
+        {
+            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
+            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        }
+    }
+    else if (MOB_FLAGGED(ch, MOB_FINAL_BOSS))
+    {
+        GET_DAMAGE_MOD(mob) += MAX(1, GET_LEVEL(mob) / 4);
+        GET_ACCURACY_MOD(mob) += GET_LEVEL(mob) / 4;
+        if (!MOB_FLAGGED(mob, MOB_CUSTOM_STATS))
+        {
+            GET_DAMAGE_MOD(mob) = GET_DAMAGE_MOD(mob) * 175 / 100;
+            GET_ACCURACY_MOD(mob) = GET_ACCURACY_MOD(mob) * 14 / 10;
+        }
+    }
 
     mob->time.birth = time(0) - birth_age(mob);
     mob->time.created = mob->time.logon = time(0); /* why not */

@@ -829,85 +829,92 @@ bool affectedv_by_spell(struct char_data *ch, int type)
 void affect_join(struct char_data *ch, struct affected_type *af,
 		      bool add_dur, bool avg_dur, bool add_mod, bool avg_mod)
 {
-  struct affected_type *hjp, *next;
-  bool found = FALSE;
+    struct affected_type * hjp, *next;
+    bool found = FALSE;
 
-  for (hjp = ch->affected; !found && hjp; hjp = next) {
-    next = hjp->next;
+    for (hjp = ch->affected; !found && hjp; hjp = next)
+    {
+        next = hjp->next;
 
-    if ((hjp->type == af->type) && (hjp->location == af->location)) {
-      if (add_dur)
-	af->duration += hjp->duration;
-      if (avg_dur)
-	af->duration /= 2;
+        if ((hjp->type == af->type) && (hjp->location == af->location))
+        {
+            if (add_dur)
+                af->duration += hjp->duration;
+            if (avg_dur)
+                af->duration /= 2;
 
-      if (add_mod)
-	af->modifier += hjp->modifier;
-      if (avg_mod)
-	af->modifier /= 2;
+            if (add_mod)
+                af->modifier += hjp->modifier;
+            if (avg_mod)
+                af->modifier /= 2;
 
-      affect_remove(ch, hjp);
-      affect_to_char(ch, af);
-      found = TRUE;
+            affect_remove(ch, hjp);
+            affect_to_char(ch, af);
+            found = TRUE;
+        }
     }
-  }
-  if (!found)
-    affect_to_char(ch, af);
+    if (!found)
+    {
+        affect_to_char(ch, af);
+    }
 }
 
 
 /* move a player out of a room */
 void char_from_room(struct char_data *ch)
 {
-  struct char_data *temp;
-  int i;
+    struct char_data *temp;
+    int i = 0;
 
-  if (ch == NULL || IN_ROOM(ch) == NOWHERE) {
-    log("SYSERR: NULL character or NOWHERE in %s, char_from_room", __FILE__);
-    exit(1);
-  }
+    if (ch == NULL || IN_ROOM(ch) == NOWHERE)
+    {
+        log("SYSERR: NULL character or NOWHERE in %s, char_from_room", __FILE__);
+        exit(1);
+    }
 
-  if (FIGHTING(ch) != NULL)
-    stop_fighting(ch);
+    if (FIGHTING(ch) != NULL)
+        stop_fighting(ch);
 
-  for (i = 0; i < NUM_WEARS; i++)
-    if (GET_EQ(ch, i) != NULL)
-      if (GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_LIGHT)
-        if (GET_OBJ_VAL(GET_EQ(ch, i), VAL_LIGHT_HOURS))
-	  world[IN_ROOM(ch)].light--;
+    for (i = 0; i < NUM_WEARS; i++)
+        if (GET_EQ(ch, i) != NULL)
+            if (GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_LIGHT)
+                if (GET_OBJ_VAL(GET_EQ(ch, i), VAL_LIGHT_HOURS))
+                    world[IN_ROOM(ch)].light--;
 
-  REMOVE_FROM_LIST(ch, world[IN_ROOM(ch)].people, next_in_room);
-  IN_ROOM(ch) = NOWHERE;
-  ch->next_in_room = NULL;
+    REMOVE_FROM_LIST(ch, world[IN_ROOM(ch)].people, next_in_room);
+    IN_ROOM(ch) = NOWHERE;
+    ch->next_in_room = NULL;
 }
 
 
 /* place a character in a room */
 void char_to_room(struct char_data *ch, room_rnum room)
 {
-  int i;
+    int i = 0;
 
-  if (ch == NULL || room == NOWHERE || room > top_of_world)
-    log("SYSERR: Illegal value(s) passed to char_to_room. (Room: %d/%d Ch: %p",
-		room, top_of_world, ch);
-  else {
-    ch->next_in_room = world[room].people;
-    world[room].people = ch;
-    IN_ROOM(ch) = room;
+    if (ch == NULL || room == NOWHERE || room > top_of_world)
+        log("SYSERR: Illegal value(s) passed to char_to_room. (Room: %d/%d Ch: %p",
+            room, top_of_world, ch);
+    else
+    {
+        ch->next_in_room = world[room].people;
+        world[room].people = ch;
+        IN_ROOM(ch) = room;
 
-    for (i = 0; i < NUM_WEARS; i++)
-      if (GET_EQ(ch, i))
-        if (GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_LIGHT)
-	  if (GET_OBJ_VAL(GET_EQ(ch, i), VAL_LIGHT_HOURS))
-	    world[room].light++;
+        for (i = 0; i < NUM_WEARS; i++)
+            if (GET_EQ(ch, i))
+                if (GET_OBJ_TYPE(GET_EQ(ch, i)) == ITEM_LIGHT)
+                    if (GET_OBJ_VAL(GET_EQ(ch, i), VAL_LIGHT_HOURS))
+                        world[room].light++;
 
-    /* Stop fighting now, if we left. */
-    if (FIGHTING(ch) && IN_ROOM(ch) != IN_ROOM(FIGHTING(ch))) {
-      stop_fighting(FIGHTING(ch));
-      stop_fighting(ch);
+        /* Stop fighting now, if we left. */
+        if (FIGHTING(ch) && IN_ROOM(ch) != IN_ROOM(FIGHTING(ch)))
+        {
+            stop_fighting(FIGHTING(ch));
+            stop_fighting(ch);
+        }
+
     }
-
-  }
     autoquest_trigger_check(ch, ch, 0, AQ_ROOM_FIND);
     autoquest_trigger_check(ch, ch, 0, AQ_MOB_FIND);
 }
@@ -916,83 +923,87 @@ void char_to_room(struct char_data *ch, room_rnum room)
 /* give an object to a char   */
 void obj_to_char(struct obj_data *object, struct char_data *ch)
 {
-  if (object && ch) {
-    object->next_content = ch->carrying;
-    ch->carrying = object;
-    object->carried_by = ch;
-    IN_ROOM(object) = NOWHERE;
-    IS_CARRYING_W(ch) += GET_OBJ_WEIGHT(object);
-    IS_CARRYING_N(ch)++;
+    if (object && ch)
+    {
+        object->next_content = ch->carrying;
+        ch->carrying = object;
+        object->carried_by = ch;
+        IN_ROOM(object) = NOWHERE;
+        IS_CARRYING_W(ch) += GET_OBJ_WEIGHT(object);
+        IS_CARRYING_N(ch)++;
 
-    autoquest_trigger_check(ch, NULL, object, AQ_OBJ_FIND);
+        autoquest_trigger_check(ch, NULL, object, AQ_OBJ_FIND);
 
-    update_encumberance(ch);		
-		
-    /* set flag for crash-save system, but not on mobs! */
-    if (!IS_NPC(ch))
-      SET_BIT_AR(PLR_FLAGS(ch), PLR_CRASH);
-  } else
-    log("SYSERR: NULL obj (%p) or char (%p) passed to obj_to_char.", object, ch);
+        update_encumberance(ch);
+
+        /* set flag for crash-save system, but not on mobs! */
+        if (!IS_NPC(ch))
+            SET_BIT_AR(PLR_FLAGS(ch), PLR_CRASH);
+    }
+    else
+    {
+        log("SYSERR: NULL obj (%p) or char (%p) passed to obj_to_char.", object, ch);
+    }
 }
 
 
 /* take an object from a char */
 void obj_from_char(struct obj_data *object)
 {
-  struct obj_data *temp;
+    struct obj_data *temp;
 
-  if (object == NULL) {
-    log("SYSERR: NULL object passed to obj_from_char.");
-    return;
-  }
-  REMOVE_FROM_LIST(object, object->carried_by->carrying, next_content);
+    if (object == NULL)
+    {
+        log("SYSERR: NULL object passed to obj_from_char.");
+        return;
+    }
+    REMOVE_FROM_LIST(object, object->carried_by->carrying, next_content);
 
-  /* set flag for crash-save system, but not on mobs! */
-  if (!IS_NPC(object->carried_by))
-    SET_BIT_AR(PLR_FLAGS(object->carried_by), PLR_CRASH);
+    /* set flag for crash-save system, but not on mobs! */
+    if (!IS_NPC(object->carried_by))
+        SET_BIT_AR(PLR_FLAGS(object->carried_by), PLR_CRASH);
 
-  IS_CARRYING_W(object->carried_by) -= GET_OBJ_WEIGHT(object);
-  IS_CARRYING_N(object->carried_by)--;
-  object->carried_by = NULL;
-  object->next_content = NULL;
+    IS_CARRYING_W(object->carried_by) -= GET_OBJ_WEIGHT(object);
+    IS_CARRYING_N(object->carried_by)--;
+    object->carried_by = NULL;
+    object->next_content = NULL;
 }
-
 
 
 /* Return the effect of a piece of armor in position eq_pos */
 int apply_ac(struct char_data *ch, int eq_pos)
 {
-  int factor = 0;
+    int factor = 0;
 
-  if (GET_EQ(ch, eq_pos) == NULL) 
-  {
-    core_dump();
-    return (0);
-  }
+    if (GET_EQ(ch, eq_pos) == NULL)
+    {
+        core_dump();
+        return (0);
+    }
 
-  if ((GET_OBJ_TYPE(GET_EQ(ch, eq_pos)) == ITEM_ARMOR_SUIT))
-    factor = 100;
-  else if ((GET_OBJ_TYPE(GET_EQ(ch, eq_pos)) == ITEM_ARMOR)) 
-  {
-    factor = 100;
-  }
-  else
-    return (0);
+    if ((GET_OBJ_TYPE(GET_EQ(ch, eq_pos)) == ITEM_ARMOR_SUIT))
+        factor = 100;
+    else if ((GET_OBJ_TYPE(GET_EQ(ch, eq_pos)) == ITEM_ARMOR))
+    {
+        factor = 100;
+    }
+    else
+        return (0);
 
-  return (GET_OBJ_VAL(GET_EQ(ch, eq_pos), VAL_ARMOR_APPLYAC));
+    return (GET_OBJ_VAL(GET_EQ(ch, eq_pos), VAL_ARMOR_APPLYAC));
 }
 
 int invalid_align(struct char_data *ch, struct obj_data *obj)
 {
-  if (obj == NULL)
+    if (obj == NULL)
+        return FALSE;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_EVIL) && IS_EVIL(ch))
+        return TRUE;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_GOOD) && IS_GOOD(ch))
+        return TRUE;
+    if (OBJ_FLAGGED(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch))
+        return TRUE;
     return FALSE;
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_EVIL) && IS_EVIL(ch))
-    return TRUE;
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_GOOD) && IS_GOOD(ch))
-    return TRUE;
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch))
-    return TRUE;
-  return FALSE;
 }
 
 void equip_char(struct char_data *ch, struct obj_data *obj, int pos)
@@ -2475,186 +2486,128 @@ void update_crafting_progress(void) {
   return;
 }
 
-void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add) {
+void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add) 
+{
+    struct affected_type * af, *next;
+    struct char_data *i;
+    int x, y = 0, j = 0, k = 0;
+    int max_skill_mod[SKILL_TABLE_SIZE];
+    int max_feat_mod[NUM_FEATS_DEFINED];
+    int max_bonus[NUM_APPLIES];
+    int num[NUM_APPLIES];
+    int num_skill[SKILL_TABLE_SIZE];
+    int num_feat[NUM_FEATS_DEFINED];
 
-  struct affected_type *af, *next;
-  struct char_data *i;
-  int x, y=0,j=0,k=0;
-  int max_skill_mod[SKILL_TABLE_SIZE];
-  int max_feat_mod[NUM_FEATS_DEFINED];
-  int max_bonus[NUM_APPLIES];
-  int num[NUM_APPLIES];
-  int num_skill[SKILL_TABLE_SIZE];
-  int num_feat[NUM_FEATS_DEFINED];
-
-  for (x = 0; x < NUM_APPLIES; x++) {  
-    if (x != loc)
-      continue;
-    num[x] = 0;
-    if (x == APPLY_AC_DODGE || x == APPLY_NONE)
-      continue;
-    for (j = 0; j < NUM_WEARS; j++) {
-      for (k = 0; k < MAX_OBJ_AFFECT; k++) {
-        if (GET_EQ(ch, j) && GET_EQ(ch, j)->affected[k].location == x) {
-          if (x == APPLY_SKILL) {
-            for (y = 0; y <= SKILL_TABLE_SIZE; y++) {
-              num_skill[y] = 0;
-              if (GET_EQ(ch, j)->affected[k].specific == y)
-                if (GET_EQ(ch, j)->affected[k].modifier >= max_skill_mod[y]) 
-                  max_skill_mod[y] = GET_EQ(ch, j)->affected[k].modifier;
-            }
-          }
-          else if (x == APPLY_FEAT) {
-            for (y = 0; y <= NUM_FEATS_DEFINED; y++) {
-              num_feat[y] = 0;
-              if (GET_EQ(ch, j)->affected[k].specific == y)
-                if (GET_EQ(ch, j)->affected[k].modifier >= max_feat_mod[y]) 
-                  max_feat_mod[y] = GET_EQ(ch, j)->affected[k].modifier;
-            }
-          }
-          else if (GET_EQ(ch, j)->affected[k].modifier >= max_bonus[x]) 
-            max_bonus[x] = GET_EQ(ch, j)->affected[k].modifier;
-        }
-      }
-    }
-    for (i = affect_list; i; i = i->next_affect) {
-      if (i == ch) {
-        for (af = i->affected; af; af = next) {
-          next = af->next;
-          if (af->location == x) {
-            if (x == APPLY_SKILL) {
-              for (y = 0; y <= SKILL_TABLE_SIZE; y++)
-                if (af->specific == y)
-                  if (af->modifier > max_skill_mod[y])
-                    max_skill_mod[y] = af->modifier;
-            }
-            else if (x == APPLY_FEAT) {
-              for (y = 0; y <= NUM_FEATS_DEFINED; y++)
-                if (af->specific == y)
-                  if (af->modifier > max_feat_mod[y])
-                    max_feat_mod[y] = af->modifier;
-            } 
-            else if (af->modifier > max_bonus[x])
-              max_bonus[x] = af->modifier;
-          }
-        }
-      }
-    }	
-  }
-
-  if (loc == APPLY_SKILL) {
-    for (y = 0; y <= SKILL_TABLE_SIZE; y++)
-      if (spec == y) {
-        if (mod > max_skill_mod[spec] && mod > 0) {
-          if (add)
-            aff_apply_modify(ch, x, GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y], y, 
-                             "set_max_affect", FALSE);
-          else
-            aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y, 
-                             "set_max_affect", FALSE);                     
-        }
-      }
-  }
-  else if (loc == APPLY_FEAT) {
-    for (y = 0; y <= NUM_FEATS_DEFINED; y++)
-      if (spec == y) {
-        if (mod > max_feat_mod[spec] && mod > 0) {
-          if (add)
-            aff_apply_modify(ch, x, GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y], y, 
-                             "set_max_affect", FALSE);
-          else
-            aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y, 
-                             "set_max_affect", FALSE);                     
-        }
-      }
-  }
-  else if (mod > max_bonus[loc] && mod > 0) {
-    if (add)
-      aff_apply_modify(ch, x, GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y], y, 
-                       "set_max_affect", FALSE);
-    else
-      aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y, 
-                       "set_max_affect", FALSE);                     
-  }
-
-/*
-  for (x = 0; x < NUM_APPLIES; x++) {  
-    if (x == APPLY_AC_DODGE || x == APPLY_NONE)
-      continue;
-    for (j = 0; j < NUM_WEARS; j++) {
-      for (k = 0; k < MAX_OBJ_AFFECT; k++) {
-        if (GET_EQ(ch, j) && GET_EQ(ch, j)->affected[k].location == x) {
-          if (x == APPLY_SKILL) {
-            for (y = 0; y <= SKILL_TABLE_SIZE; y++)
-              if (GET_EQ(ch, j)->affected[k].specific == y)
-                if (GET_EQ(ch, j)->affected[k].modifier >= max_skill_mod[y] &&
-                    GET_EQ(ch, j)->affected[k].modifier > 0) {
-                  if (add)
-                    aff_apply_modify(ch, x, GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y], y, 
-                                     "set_max_affect", FALSE);
-                  else
-                    aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y, 
-                                     "set_max_affect", FALSE);                     
+    for (x = 0; x < NUM_APPLIES; x++)
+    {
+        if (x != loc)
+            continue;
+        num[x] = 0;
+        if (x == APPLY_AC_DODGE || x == APPLY_NONE)
+            continue;
+        for (j = 0; j < NUM_WEARS; j++)
+        {
+            for (k = 0; k < MAX_OBJ_AFFECT; k++)
+            {
+                if (GET_EQ(ch, j) && GET_EQ(ch, j)->affected[k].location == x)
+                {
+                    if (x == APPLY_SKILL)
+                    {
+                        for (y = 0; y <= SKILL_TABLE_SIZE; y++)
+                        {
+                            num_skill[y] = 0;
+                            if (GET_EQ(ch, j)->affected[k].specific == y)
+                                if (GET_EQ(ch, j)->affected[k].modifier >= max_skill_mod[y])
+                                    max_skill_mod[y] = GET_EQ(ch, j)->affected[k].modifier;
+                        }
+                    }
+                    else if (x == APPLY_FEAT)
+                    {
+                        for (y = 0; y <= NUM_FEATS_DEFINED; y++)
+                        {
+                            num_feat[y] = 0;
+                            if (GET_EQ(ch, j)->affected[k].specific == y)
+                                if (GET_EQ(ch, j)->affected[k].modifier >= max_feat_mod[y])
+                                    max_feat_mod[y] = GET_EQ(ch, j)->affected[k].modifier;
+                        }
+                    }
+                    else if (GET_EQ(ch, j)->affected[k].modifier >= max_bonus[x])
+                        max_bonus[x] = GET_EQ(ch, j)->affected[k].modifier;
                 }
-          }
-          else if (x == APPLY_FEAT) {
-            for (y = 0; y <= NUM_FEATS_DEFINED; y++)
-              if (GET_EQ(ch, j)->affected[k].specific == y)
-                if (GET_EQ(ch, j)->affected[k].modifier >= max_feat_mod[y] &&
-                    GET_EQ(ch, j)->affected[k].modifier > 0) {
-                  if (GET_EQ(ch, j)->affected[k].modifier == max_feat_mod[y])
-                    num_feat[y]++;
-                  if (num_feat[y] != 1)
-                    aff_apply_modify(ch, x, -GET_EQ(ch, j)->affected[k].modifier, y, "set_max_affect", FALSE);
+            }
+        }
+        for (i = affect_list; i; i = i->next_affect)
+        {
+            if (i == ch)
+            {
+                for (af = i->affected; af; af = next)
+                {
+                    next = af->next;
+                    if (af->location == x)
+                    {
+                        if (x == APPLY_SKILL)
+                        {
+                            for (y = 0; y <= SKILL_TABLE_SIZE; y++)
+                                if (af->specific == y)
+                                    if (af->modifier > max_skill_mod[y])
+                                        max_skill_mod[y] = af->modifier;
+                        }
+                        else if (x == APPLY_FEAT)
+                        {
+                            for (y = 0; y <= NUM_FEATS_DEFINED; y++)
+                                if (af->specific == y)
+                                    if (af->modifier > max_feat_mod[y])
+                                        max_feat_mod[y] = af->modifier;
+                        }
+                        else if (af->modifier > max_bonus[x])
+                            max_bonus[x] = af->modifier;
+                    }
                 }
-          }
-          else if (GET_EQ(ch, j)->affected[k].modifier >= max_bonus[x] &&
-                    GET_EQ(ch, j)->affected[k].modifier > 0) {
-            if (GET_EQ(ch, j)->affected[k].modifier == max_bonus[x])
-              num[x]++;
-            if (num[x] != 1)
-              aff_apply_modify(ch, x, -GET_EQ(ch, j)->affected[k].modifier, 0, "set_max_affect", FALSE);
-          }
+            }
         }
-      }
     }
-    for (i = affect_list; i; i = i->next_affect) {
-      if (i == ch) {
-        for (af = i->affected; af; af = next) {
-          next = af->next;
-          if (af->location == x) {
-            if (x == APPLY_SKILL) {
-              for (y = 0; y <= SKILL_TABLE_SIZE; y++)
-                if (af->specific == y)
-                  if (af->modifier < max_skill_mod[y] && af->modifier > 0) {
-                    if (af->modifier == max_skill_mod[y])
-                      num_skill[y]++;
-                    if (num_skill[y] != 1)
-                      aff_apply_modify(ch, x, -af->modifier, y, "set_max_affect", FALSE);
-                  }
+
+    if (loc == APPLY_SKILL)
+    {
+        for (y = 0; y <= SKILL_TABLE_SIZE; y++)
+            if (spec == y)
+            {
+                if (mod > max_skill_mod[spec] && mod > 0)
+                {
+                    if (add)
+                        aff_apply_modify(ch, x, GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y], y,
+                                         "set_max_affect", FALSE);
+                    else
+                        aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y,
+                                         "set_max_affect", FALSE);
+                }
             }
-            else if (x == APPLY_FEAT) {
-              for (y = 0; y <= NUM_FEATS_DEFINED; y++)
-                if (af->specific == y)
-                  if (af->modifier < max_feat_mod[y] && af->modifier > 0) {
-                    if (af->modifier == max_feat_mod[y])
-                      num_feat[y]++;
-                    if (num_feat[y] != 1)
-                      aff_apply_modify(ch, x, -af->modifier, y, "set_max_affect", FALSE);
-                  }
-            } 
-            else if (af->modifier < max_bonus[x] && af->modifier > 0) {
-              if (af->modifier == max_bonus[x])
-                num[x]++;
-              if (num[x] != 1)
-                aff_apply_modify(ch, x, -af->modifier, y, "set_max_affect", FALSE);
+    }
+    else if (loc == APPLY_FEAT)
+    {
+        for (y = 0; y <= NUM_FEATS_DEFINED; y++)
+            if (spec == y)
+            {
+                if (mod > max_feat_mod[spec] && mod > 0)
+                {
+                    if (add)
+                        aff_apply_modify(ch, x, GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y], y,
+                                         "set_max_affect", FALSE);
+                    else
+                        aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y,
+                                         "set_max_affect", FALSE);
+                }
             }
-          }
-        }
-      }
-    }	
-  }  
-*/
+    }
+    else if (mod > max_bonus[loc] && mod > 0)
+    {
+        if (add)
+            aff_apply_modify(ch, x, GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y], y,
+                             "set_max_affect", FALSE);
+        else
+            aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y,
+                             "set_max_affect", FALSE);
+    }
 }
 
 int should_remove_stat(struct char_data *ch, int loc, int mod, int spec) {
@@ -2921,13 +2874,13 @@ struct last_entry *find_llog_entry(int punique, int idnum,int close) {
 }
 
   /* mod_llog_entry assumes that llast is accurate */
-void mod_llog_entry(struct last_entry *llast,int type) 
+void mod_llog_entry(struct last_entry *llast, int type)
 {
     FILE *fp;
     struct last_entry mlast;
     int size = 0, recs = 0, tmp = 0;
 
-    if(!(fp = fopen(LAST_FILE, "r+")))
+    if (!(fp = fopen(LAST_FILE, "r+")))
     {
         log("error opening last_file for reading and writing");
         return;
@@ -2936,25 +2889,30 @@ void mod_llog_entry(struct last_entry *llast,int type)
     size = ftell(fp);
 
     /* recs = number of records in the last file */
-
     recs = size / sizeof(struct last_entry);
 
-    /* we'll search last to first, since it's faster than any thing else
-          we can do (like searching for the last shutdown/etc..) */
-    for(tmp = recs; tmp > 0; tmp--)
+    /* we'll search last to first, since it's faster than anything else
+       we can do (like searching for the last shutdown/etc..) */
+    for (tmp = recs; tmp > 0; tmp--)
     {
         fseek(fp, -1 * (sizeof(struct last_entry)), SEEK_CUR);
-        fread(&mlast, sizeof(struct last_entry), 1, fp);
-        /*another one to keep that stepback */
+        size_t read_result = fread(&mlast, sizeof(struct last_entry), 1, fp);
+        /* Check the return value of fread */
+        if (read_result != 1)
+        {
+            log("Error reading from last_file");
+            fclose(fp);
+            return;
+        }
+        /* another one to keep that step back */
         fseek(fp, -1 * (sizeof(struct last_entry)), SEEK_CUR);
 
-        if(mlast.punique == llast->punique &&
-                mlast.idnum == llast->idnum)
+        if (mlast.punique == llast->punique && mlast.idnum == llast->idnum)
         {
             /* then we've found a match */
             /* lets assume quit is inviolate, mainly because
-                    disconnect is called after each of these */
-            if(mlast.close_type != LAST_QUIT &&
+               disconnect is called after each of these */
+            if (mlast.close_type != LAST_QUIT &&
                     mlast.close_type != LAST_IDLEOUT &&
                     mlast.close_type != LAST_REBOOT &&
                     mlast.close_type != LAST_COPYOVER &&
@@ -2964,64 +2922,67 @@ void mod_llog_entry(struct last_entry *llast,int type)
             }
             mlast.close_time = time(0);
 
-            /*write it, and we're done!*/
+            /* write it, and we're done! */
             fwrite(&mlast, sizeof(struct last_entry), 1, fp);
             fclose(fp);
             return;
         }
-        /*not the one we seek. next */
+        /* not the one we seek. next */
     }
     fclose(fp);
 
-    /*not found, no problem, quit */
+    /* not found, no problem, quit */
     return;
 }
 
 void add_llog_entry(struct char_data *ch, int type) 
 {
-  FILE *fp;
-  struct last_entry *llast;
+    FILE *fp;
+    struct last_entry *llast;
 
-  /* so if a char enteres a name, but bad password, otherwise
-        loses link before he gets a pref assinged, we
-        won't record it */
-  if(GET_PREF(ch) <= 0) {
-    return;
-  }
-
-  /* we use the close at 0 because if we're modifying a current one,
-     we'll take the most recent one, but, if the mud has rebooted/etc
-     then they won't be _after_ that (after coming from the direction
-     that we're counting, which is last to first) */
-  llast = find_llog_entry(GET_PREF(ch), GET_IDNUM(ch),0);
-
-  if(llast == NULL) 
-  {  /* no entry found, add ..error if close! */
-    CREATE(llast,struct last_entry,1);
-    strncpy(llast->username,GET_NAME(ch),16);
-    strncpy(llast->hostname,GET_HOST(ch),128);
-    llast->idnum=GET_IDNUM(ch);
-    llast->punique=GET_PREF(ch);
-    llast->time=time(0);
-    llast->close_time=0;
-      llast->close_type=LAST_CRASH;
-
-
-    if(!(fp=fopen(LAST_FILE,"a"))) {
-      log("error opening last_file for appending");
-      free(llast);
-      return;
+    /* so if a char enteres a name, but bad password, otherwise
+          loses link before he gets a pref assinged, we
+          won't record it */
+    if(GET_PREF(ch) <= 0)
+    {
+        return;
     }
-    fwrite(llast,sizeof(struct last_entry),1,fp);
-    fclose(fp);
-    free(llast);
-    return;
-  } 
-  else 
-  {
-    /* we're modifying a found entry */
-    mod_llog_entry(llast,type);
-  }
+
+    /* we use the close at 0 because if we're modifying a current one,
+       we'll take the most recent one, but, if the mud has rebooted/etc
+       then they won't be _after_ that (after coming from the direction
+       that we're counting, which is last to first) */
+    llast = find_llog_entry(GET_PREF(ch), GET_IDNUM(ch), 0);
+
+    if(llast == NULL)
+    {
+        /* no entry found, add ..error if close! */
+        CREATE(llast, struct last_entry, 1);
+        strncpy(llast->username, GET_NAME(ch), 16);
+        strncpy(llast->hostname, GET_HOST(ch), 128);
+        llast->idnum = GET_IDNUM(ch);
+        llast->punique = GET_PREF(ch);
+        llast->time = time(0);
+        llast->close_time = 0;
+        llast->close_type = LAST_CRASH;
+
+
+        if(!(fp = fopen(LAST_FILE, "a")))
+        {
+            log("error opening last_file for appending");
+            free(llast);
+            return;
+        }
+        fwrite(llast, sizeof(struct last_entry), 1, fp);
+        fclose(fp);
+        free(llast);
+        return;
+    }
+    else
+    {
+        /* we're modifying a found entry */
+        mod_llog_entry(llast, type);
+    }
 }
 
 /* debugging stuff, if you wanna see the whole file */
