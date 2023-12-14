@@ -2873,30 +2873,29 @@ int has_weapon_feat_full(struct char_data *ch, int i, int j, int display)
 void display_levelup_weapons(struct char_data *ch) 
 {
     extern char *weapon_damage_types[];
-    int i=0;
+    int i;
 
-    if (weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES] != NULL)
+    send_to_char(ch, "Please select a weapon:\r\n\r\n");
 
+    for (i = MIN_WEAPON_DAMAGE_TYPES; i <= MAX_WEAPON_DAMAGE_TYPES; i++) 
     {
-        send_to_char(ch, "Please select a weapon:\r\n\r\n");
-
-        for (i = MIN_WEAPON_DAMAGE_TYPES; i <= MAX_WEAPON_DAMAGE_TYPES; i++) 
+        if (weapon_damage_types[i - MIN_WEAPON_DAMAGE_TYPES] != NULL)
         {
-            send_to_char(ch, "%2d) %-25s   ", i, weapon_damage_types[i-MIN_WEAPON_DAMAGE_TYPES]);
-            if (i % 2 == 0)
-                {
-                    send_to_char(ch, "\r\n");
-                }
-        }
+            send_to_char(ch, "%2d) %-25s   ", i, weapon_damage_types[i - MIN_WEAPON_DAMAGE_TYPES]);
 
-        if (i % 2 != 0)
+            if (i % 2 == 0)
             {
                 send_to_char(ch, "\r\n");
             }
-        send_to_char(ch, "\r\n");
-
-        send_to_char(ch, "Please select a weapon by typing a number beside it: (-1 to cancel) ");
+        }
     }
+
+    if ((i - 1) % 2 != 0)
+    {
+        send_to_char(ch, "\r\n");
+    }
+
+    send_to_char(ch, "\r\nPlease select a weapon by typing a number beside it: (-1 to cancel) ");
 }
 
 void set_feat(struct char_data *ch, int i, int j) 

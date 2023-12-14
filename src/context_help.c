@@ -287,10 +287,11 @@ void boot_context_help(void)
   fclose(fl);
 }
 
-void free_context_help(void) {
-  int i;
+void free_context_help(void)
+{
+    int i;
 
-  for (i = 0; i < NUM_CONTEXTS; i++)
-    if (context_help_list[i] && context_help_list[i] != NO_HELP)
-      free(context_help_list[i]);
+    for (i = 0; i < NUM_CONTEXTS; i++)
+        if (context_help_list[i] && context_help_list[i] != NO_HELP)
+            free(context_help_list[i]);
 }

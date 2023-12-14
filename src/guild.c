@@ -1005,388 +1005,433 @@ void handle_gain(struct char_data *keeper, int guild_nr, struct char_data *ch, c
 
 void handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch, char *argument) 
 {
-	int x = 0;
-	x = do_handle_learn(keeper, guild_nr, ch, argument, TRUE);
+    int x = do_handle_learn(keeper, guild_nr, ch, argument, TRUE);
 }
+
 
 int do_handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch, char *argument, int manual)
 {
-  struct damreduct_type *dptr, *reduct, *temp;
-  int feat_num, subval, sftype, subfeat, q=0;
-  char *ptr, buf[MAX_STRING_LENGTH]={'\0'};
-  int feat_type = FEAT_TYPE_NORMAL;
-  int feat_points, epic_feat_points, class_feat_points, epic_class_feat_points;
+    struct damreduct_type * dptr, *reduct, *temp;
+    int feat_num, subval, sftype, subfeat, q = 0;
+    char *ptr, buf[MAX_STRING_LENGTH] = {'\0'};
+    int feat_type = FEAT_TYPE_NORMAL;
+    int feat_points, epic_feat_points, class_feat_points, epic_class_feat_points;
 
-  if (manual) {
-	  feat_points = GET_FEAT_POINTS(ch);
-	  epic_feat_points = GET_EPIC_FEAT_POINTS(ch);
-	  class_feat_points = GET_CLASS_FEATS(ch, GET_CLASS(ch));
-	  epic_class_feat_points = GET_EPIC_CLASS_FEATS(ch, GET_CLASS(ch));
-  }
-  else {
-	  feat_points = ch->levelup->feat_points;
-	  epic_feat_points = ch->levelup->epic_feat_points;
-	  class_feat_points = ch->levelup->num_class_feats;
-	  epic_class_feat_points = ch->levelup->num_epic_class_feats;
-  }
-
-
-  if (argument == NULL || !*argument) {
-    
-//    send_to_char(ch, "Which feat would you like to learn?\r\n");
-    return 0;
-  }
-
-  if (is_abbrev(argument, "favored enemy")) {
-    if (manual) send_to_char(ch, "Please use the favoredenemy command to choose your favored enemies.\r\n");
-    return 0;
-  }
-
-  ptr = strchr(argument, ':');
-  if (ptr)
-    *ptr = 0;
-  feat_num = find_feat_num(argument);
-  if (ptr)
-    *ptr = ':';
-
-
-  if (HAS_FEAT(ch, feat_num) && !feat_list[feat_num].can_stack) {
-    if (manual) send_to_char(ch, "You already know the %s feat.\r\n", feat_list[feat_num].name);
-    return 0;
-  }
-
-  if (!feat_is_available(ch, feat_num, 0, NULL) || !feat_list[feat_num].in_game || !feat_list[feat_num].can_learn) {
-    if (manual) send_to_char(ch, "The %s feat is not available to you at this time.\r\n", argument);
-    return 0;
-  }
-
-  // determine which type of feat it is for purposes of checking whether they have enough feats or class feats
-
-  if (feat_list[feat_num].epic == TRUE) {
-    if (is_class_feat(feat_num, GET_CLASS(ch))) 
-      feat_type = FEAT_TYPE_EPIC_CLASS;
-    else
-      feat_type = FEAT_TYPE_EPIC;
-  }
-  else {
-    if (is_class_feat(feat_num, GET_CLASS(ch))) 
-      feat_type = FEAT_TYPE_NORMAL_CLASS;
-    else
-      feat_type = FEAT_TYPE_NORMAL;
-  }
-
-  // if it's an epic feat, make sure they have an epic feat point
-
-  if (feat_type == FEAT_TYPE_EPIC && epic_feat_points < 1) {
-    if (manual) send_to_char(ch, "This is an epic feat and you do not have any epic feat points remaining.\r\n");
-    return 0;
-  }
-
-  // if it's an epic class feat, make sure they have an epic feat point or an epic class feat point
-
-  if (feat_type == FEAT_TYPE_EPIC_CLASS && epic_feat_points < 1 && epic_class_feat_points < 1) {
-    if (manual) send_to_char(ch, "This is an epic class feat and you do not have any epic feat points or epic class feat points remaining.\r\n");
-    return 0;
-  }
-
-  // if it's a normal feat, make sure they have a normal feat point
-
-  if (feat_type == FEAT_TYPE_NORMAL && feat_points < 1) {
-    if (manual) send_to_char(ch, "This is a normal feat and you do not have any normal feat points remaining.\r\n");
-    return 0;
-  }
-
-  // if it's a normal class feat, make sure they have a normal feat point or a normal class feat point
-
-  if (feat_type == FEAT_TYPE_NORMAL_CLASS && feat_points < 1 && class_feat_points < 1) {
-    if (manual) send_to_char(ch, "This is a normal class feat and you do not have any normal feat points or normal class feat points remaining.\r\n");
-    return 0;
-  }
-  
-  sftype = 2;
-  switch (feat_num) {
-  case FEAT_FAVORED_ENEMY:
-    if (manual) send_to_char(ch, "Please use the favoredenemy command to choose your favored enemies.\r\n");
-    return 0;
-  case FEAT_GREATER_WEAPON_SPECIALIZATION:
-  case FEAT_GREATER_WEAPON_FOCUS:
-  case FEAT_WEAPON_SPECIALIZATION:
-  case FEAT_WEAPON_FOCUS:
-  case FEAT_IMPROVED_CRITICAL:
-  case FEAT_CRITICAL_FOCUS:
-  case FEAT_SKILL_FOCUS:
-  case FEAT_EPIC_SKILL_FOCUS:
-  case FEAT_IMPROVED_WEAPON_FINESSE:
-  case FEAT_MONKEY_GRIP:
-  case FEAT_WEAPON_PROFICIENCY_EXOTIC:
-  case FEAT_WEAPON_MASTERY:
-  case FEAT_WEAPON_FLURRY:
-  case FEAT_WEAPON_SUPREMACY:
-
-    if (feat_num != FEAT_SKILL_FOCUS && feat_num != FEAT_EPIC_SKILL_FOCUS)
-      sftype = 1;
-    else
-      sftype = 3;
-
-  case FEAT_SPELL_FOCUS:
-  case FEAT_GREATER_SPELL_FOCUS:
-    subfeat = feat_to_subfeat(feat_num);
-    if (subfeat == -1) {
-      log("guild: Unconfigured subfeat '%s', check feat_to_subfeat()", feat_list[feat_num].name);
-      if (manual) send_to_char(ch, "That feat is not yet ready for use.\r\n");
-      return 0;
+    if (manual)
+    {
+        feat_points = GET_FEAT_POINTS(ch);
+        epic_feat_points = GET_EPIC_FEAT_POINTS(ch);
+        class_feat_points = GET_CLASS_FEATS(ch, GET_CLASS(ch));
+        epic_class_feat_points = GET_EPIC_CLASS_FEATS(ch, GET_CLASS(ch));
     }
-    if (!ptr || !*ptr) {
-      if (manual) send_to_char(ch, "No ':' found. You must specify a something to improve. Example:\r\nlearn weapon focus: long sword\r\n");
-      return 0;
+    else
+    {
+        feat_points = ch->levelup->feat_points;
+        epic_feat_points = ch->levelup->epic_feat_points;
+        class_feat_points = ch->levelup->num_class_feats;
+        epic_class_feat_points = ch->levelup->num_epic_class_feats;
     }
-    if (*ptr == ':') ptr++;
-    skip_spaces(&ptr);
-    if (!ptr || !*ptr) {
-      if (manual) send_to_char(ch, "No ':' found. You must specify a something to improve. Example:\r\nlearn weapon focus: long sword\r\n");
-      return 0;
-    }
-    if (sftype == 1) {
-      for (subval = 1; subval < MAX_WEAPON_TYPES + 1; subval++)
-        if (is_abbrev(ptr, weapon_type[subval]))
-          break;
-      if (subval > MAX_WEAPON_TYPES + 1) {
-        if (manual) send_to_char(ch, "That is not a weapon type.\r\n");
+
+
+    if (argument == NULL || !*argument)
+    {
+        //    send_to_char(ch, "Which feat would you like to learn?\r\n");
         return 0;
-      }
-    }
-    else if (sftype == 3) {
-      for (subval = SKILL_LOW_SKILL; subval <= SKILL_HIGH_SKILL; subval++) {
-        if (is_abbrev(ptr, spell_info[subval].name) && strcmp(spell_info[subval].name, "!UNUSED!")) {
-          if (manual) send_to_char(ch, "Attempting to learnskill focus for %s.\r\n", spell_info[subval].name);
-          break;
-        }
-        if (subval > SKILL_HIGH_SKILL) {
-          if (manual) send_to_char(ch, "That is not a valid skill.\r\n");
-          return 0;
-        }
-      }
-    }
-    else  {
-      subval = search_block(ptr, spell_schools, FALSE);
     }
 
-    if (subval == -1) {
-      log("bad subval: %s", ptr);
-      if (sftype == 2)
-        ptr = "spell school";
-      else if (sftype == 3)
-        ptr = "skill";
-      else
-        ptr = "weapon type";
-      subfeat = snprintf(buf, sizeof(buf),
-                         "That is not a known %s. Available %s:\r\n",
-                         ptr, ptr);
-      for (subval = (sftype == 3 ?  RACE_HUMAN : 1); subval <= (sftype == 2 ? NUM_SCHOOLS : (sftype == 3 ? NUM_RACES : MAX_WEAPON_TYPES + 1)); subval++) {
-        if (sftype == 2)
-          ptr = (char *)spell_schools[subval];
-        else if (sftype == 3)
-          ptr = (char *)spell_info[subval].name;
+    if (is_abbrev(argument, "favored enemy"))
+    {
+        if (manual) send_to_char(ch, "Please use the favoredenemy command to choose your favored enemies.\r\n");
+        return 0;
+    }
+
+    ptr = strchr(argument, ':');
+    if (ptr)
+        *ptr = 0;
+    feat_num = find_feat_num(argument);
+    if (ptr)
+        *ptr = ':';
+
+
+    if (HAS_FEAT(ch, feat_num) && !feat_list[feat_num].can_stack)
+    {
+        if (manual) send_to_char(ch, "You already know the %s feat.\r\n", feat_list[feat_num].name);
+        return 0;
+    }
+
+    if (!feat_is_available(ch, feat_num, 0, NULL) || !feat_list[feat_num].in_game || !feat_list[feat_num].can_learn)
+    {
+        if (manual) send_to_char(ch, "The %s feat is not available to you at this time.\r\n", argument);
+        return 0;
+    }
+
+    // determine which type of feat it is for purposes of checking whether they have enough feats or class feats
+
+    if (feat_list[feat_num].epic == TRUE)
+    {
+        if (is_class_feat(feat_num, GET_CLASS(ch)))
+            feat_type = FEAT_TYPE_EPIC_CLASS;
         else
-          ptr = (char *)weapon_type[subval];
-        subfeat += snprintf(buf + subfeat, sizeof(buf) - subfeat, "  %s\r\n", ptr);
-      }
-      page_string(ch->desc, buf, TRUE);
-      return 0;
+            feat_type = FEAT_TYPE_EPIC;
     }
-    if (!feat_is_available(ch, feat_num, subval, NULL)) {
-      if (manual) send_to_char(ch, "You do not satisfy the prerequisites for that feat.\r\n");
-      return 0;
-    }
-    if (sftype == 1) {
-      if (HAS_COMBAT_FEAT(ch, subfeat, subval)) {
-        if (manual) send_to_char(ch, "You already have that weapon feat.\r\n");
-        return 0;
-      }
-      SET_COMBAT_FEAT(ch, subfeat, subval);
-    } else if (sftype == 2) {
-      if (HAS_SCHOOL_FEAT(ch, subfeat, subval)) {
-        if (manual) send_to_char(ch, "You already have that spell school feat.\r\n");
-        return 0;
-      }
-      SET_SCHOOL_FEAT(ch, subfeat, subval);
-    } 
-    else if (sftype == 3) {
-      if (ch->player_specials->skill_focus[subval-SKILL_LOW_SKILL] > 0 && feat_num == FEAT_SKILL_FOCUS) {
-        if (manual) send_to_char(ch, "You already have that skill focus feat.\r\n");
-        return 0;
-      }
-      if (ch->player_specials->skill_focus[subval-SKILL_LOW_SKILL] > 1 && feat_num == FEAT_EPIC_SKILL_FOCUS) {
-        if (manual) send_to_char(ch, "You already have that epic skill focus feat.\r\n");
-        return 0;
-      }
-      ch->player_specials->skill_focus[subval-SKILL_LOW_SKILL] += 1;
-    } else {
-      log("unknown feat subtype %d in subfeat code", sftype);
-      if (manual) send_to_char(ch, "That feat is not yet ready for use.\r\n");
-      return 0;
-    }
-    SET_FEAT(ch, feat_num, HAS_FEAT(ch, feat_num) + 1);
-    break;
-  case FEAT_GREAT_FORTITUDE:
-    SET_FEAT(ch, feat_num, 1);
-    GET_SAVE_MOD(ch, SAVING_FORTITUDE) += 2;
-    break;
-  case FEAT_IRON_WILL:
-    SET_FEAT(ch, feat_num, 1);
-    GET_SAVE_MOD(ch, SAVING_WILL) += 2;
-    break;
-  case FEAT_LIGHTNING_REFLEXES:
-    SET_FEAT(ch, feat_num, 1);
-    GET_SAVE_MOD(ch, SAVING_REFLEX) += 2;
-    break;
-  case FEAT_TOUGHNESS:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    GET_MAX_HIT(ch) += GET_LEVEL(ch);
-    break;
-  case FEAT_ENDURANCE:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    GET_MAX_MOVE(ch) += GET_LEVEL(ch) * 10;
-    break;
-  case FEAT_EXTRA_RAGE:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    break;
-  case FEAT_SPELL_MASTERY:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    GET_SPELL_MASTERY_POINTS(ch) += MAX(1, ability_mod_value(GET_INT(ch)));
-    break;
-  case FEAT_ACROBATIC:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_ACROBATICS, GET_SKILL_BONUS(ch, SKILL_ACROBATICS) + 2);
-    break;
-  case FEAT_ALERTNESS:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_PERCEPTION, GET_SKILL_BONUS(ch, SKILL_PERCEPTION) + 2);
-    SET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE, GET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE) + 2);
-    break;
-  case FEAT_ANIMAL_AFFINITY:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL, GET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL) + 2);
-    SET_SKILL_BONUS(ch, SKILL_RIDE, GET_SKILL_BONUS(ch, SKILL_RIDE) + 2);
-    break;
-  case FEAT_DECEITFUL:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_DISGUISE, GET_SKILL_BONUS(ch, SKILL_DISGUISE) + 2);
-    SET_SKILL_BONUS(ch, SKILL_LINGUISTICS, GET_SKILL_BONUS(ch, SKILL_LINGUISTICS) + 2);
-    break;
-  case FEAT_DEFT_HANDS:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
-    SET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE, GET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE) + 2);
-    break;
-  case FEAT_MAGICAL_APTITUDE:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_SPELLCRAFT, GET_SKILL_BONUS(ch, SKILL_SPELLCRAFT) + 2);
-    SET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE, GET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE) + 2);
-    break;
-  case FEAT_PERSUASIVE:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_BLUFF, GET_SKILL_BONUS(ch, SKILL_DIPLOMACY) + 2);
-    SET_SKILL_BONUS(ch, SKILL_INTIMIDATE, GET_SKILL_BONUS(ch, SKILL_INTIMIDATE) + 2);
-    break;
-  case FEAT_SELF_SUFFICIENT:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_HEAL, GET_SKILL_BONUS(ch, SKILL_HEAL) + 2);
-    SET_SKILL_BONUS(ch, SKILL_SURVIVAL, GET_SKILL_BONUS(ch, SKILL_SURVIVAL) + 2);
-    break;
-  case FEAT_STEALTHY:
-    subval = HAS_FEAT(ch, feat_num) + 1;
-    SET_FEAT(ch, feat_num, subval);
-    SET_SKILL_BONUS(ch, SKILL_STEALTH, GET_SKILL_BONUS(ch, SKILL_STEALTH) + 2);
-    SET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST, GET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST) +2);
-    break;
-  case FEAT_DAMAGE_REDUCTION:
-    if (ch->damage_reduction_feats == 5) {
-      if (manual) send_to_char(ch, "You can only take the damage reduction feat 5 times.\r\n");
-      return 0;
-    }
-    ch->damage_reduction_feats++;
-    subval = HAS_FEAT(ch, feat_num) + 3;
-    SET_FEAT(ch, feat_num, subval);
-    for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
-      if (reduct->feat == FEAT_DAMAGE_REDUCTION) {
-        REMOVE_FROM_LIST(reduct, ch->damreduct, next);
-      }
-    }
-    CREATE(dptr, struct damreduct_type, 1);
-    dptr->next = ch->damreduct;
-    ch->damreduct = dptr;
-    dptr->spell = 0;
-    dptr->feat = FEAT_DAMAGE_REDUCTION;
-    dptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION);
-    dptr->duration = -1;
-    dptr->max_damage = -1;
-    for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
-      dptr->damstyle[q] = dptr->damstyleval[q] = 0;
-    dptr->damstyle[0] = DR_NONE;
-    break;
-  case FEAT_FAST_HEALING:
-    if (ch->fast_healing_feats == 5) {
-      if (manual) send_to_char(ch, "You can only take the fast healing feat 5 times.\r\n");
-      return 0;
-    }
-    ch->fast_healing_feats++;
-    break;
-  default:
-    SET_FEAT(ch, feat_num, HAS_FEAT(ch, feat_num) + 1);
-    break;
-  }
-  save_char(ch);
-
-  // reduce the appropriate feat point type based on what the feat type was set as above.  This simulatyes spendinng the feat
-
-  if (feat_type == FEAT_TYPE_EPIC) {
-    epic_feat_points--;
-  }
-  else if (feat_type == FEAT_TYPE_EPIC_CLASS) {
-    if (epic_class_feat_points > 0)
-      epic_class_feat_points--;
     else
-      epic_feat_points--;
-  }
-  else if (feat_type == FEAT_TYPE_NORMAL) {
-    feat_points--;
-  }
-  else if (feat_type == FEAT_TYPE_NORMAL_CLASS) {
-    if (class_feat_points > 0)
-      class_feat_points--;
+    {
+        if (is_class_feat(feat_num, GET_CLASS(ch)))
+            feat_type = FEAT_TYPE_NORMAL_CLASS;
+        else
+            feat_type = FEAT_TYPE_NORMAL;
+    }
+
+    // if it's an epic feat, make sure they have an epic feat point
+
+    if (feat_type == FEAT_TYPE_EPIC && epic_feat_points < 1)
+    {
+        if (manual) send_to_char(ch, "This is an epic feat and you do not have any epic feat points remaining.\r\n");
+        return 0;
+    }
+
+    // if it's an epic class feat, make sure they have an epic feat point or an epic class feat point
+
+    if (feat_type == FEAT_TYPE_EPIC_CLASS && epic_feat_points < 1 && epic_class_feat_points < 1)
+    {
+        if (manual) send_to_char(ch, "This is an epic class feat and you do not have any epic feat points or epic class feat points remaining.\r\n");
+        return 0;
+    }
+
+    // if it's a normal feat, make sure they have a normal feat point
+
+    if (feat_type == FEAT_TYPE_NORMAL && feat_points < 1)
+    {
+        if (manual) send_to_char(ch, "This is a normal feat and you do not have any normal feat points remaining.\r\n");
+        return 0;
+    }
+
+    // if it's a normal class feat, make sure they have a normal feat point or a normal class feat point
+
+    if (feat_type == FEAT_TYPE_NORMAL_CLASS && feat_points < 1 && class_feat_points < 1)
+    {
+        if (manual) send_to_char(ch, "This is a normal class feat and you do not have any normal feat points or normal class feat points remaining.\r\n");
+        return 0;
+    }
+
+    sftype = 2;
+    switch (feat_num)
+    {
+    case FEAT_FAVORED_ENEMY:
+        if (manual) send_to_char(ch, "Please use the favoredenemy command to choose your favored enemies.\r\n");
+        return 0;
+    case FEAT_GREATER_WEAPON_SPECIALIZATION:
+    case FEAT_GREATER_WEAPON_FOCUS:
+    case FEAT_WEAPON_SPECIALIZATION:
+    case FEAT_WEAPON_FOCUS:
+    case FEAT_IMPROVED_CRITICAL:
+    case FEAT_CRITICAL_FOCUS:
+    case FEAT_SKILL_FOCUS:
+    case FEAT_EPIC_SKILL_FOCUS:
+    case FEAT_IMPROVED_WEAPON_FINESSE:
+    case FEAT_MONKEY_GRIP:
+    case FEAT_WEAPON_PROFICIENCY_EXOTIC:
+    case FEAT_WEAPON_MASTERY:
+    case FEAT_WEAPON_FLURRY:
+    case FEAT_WEAPON_SUPREMACY:
+
+        if (feat_num != FEAT_SKILL_FOCUS && feat_num != FEAT_EPIC_SKILL_FOCUS)
+            sftype = 1;
+        else
+            sftype = 3;
+
+    case FEAT_SPELL_FOCUS:
+    case FEAT_GREATER_SPELL_FOCUS:
+        subfeat = feat_to_subfeat(feat_num);
+        if (subfeat == -1)
+        {
+            log("guild: Unconfigured subfeat '%s', check feat_to_subfeat()", feat_list[feat_num].name);
+            if (manual) send_to_char(ch, "That feat is not yet ready for use.\r\n");
+            return 0;
+        }
+        if (!ptr || !*ptr)
+        {
+            if (manual) send_to_char(ch, "No ':' found. You must specify a something to improve. Example:\r\nlearn weapon focus: long sword\r\n");
+            return 0;
+        }
+        if (*ptr == ':') ptr++;
+        skip_spaces(&ptr);
+        if (!ptr || !*ptr)
+        {
+            if (manual) send_to_char(ch, "No ':' found. You must specify a something to improve. Example:\r\nlearn weapon focus: long sword\r\n");
+            return 0;
+        }
+        if (sftype == 1)
+        {
+            for (subval = 1; subval < MAX_WEAPON_TYPES + 1; subval++)
+                if (is_abbrev(ptr, weapon_type[subval]))
+                    break;
+            if (subval > MAX_WEAPON_TYPES + 1)
+            {
+                if (manual) send_to_char(ch, "That is not a weapon type.\r\n");
+                return 0;
+            }
+        }
+        else if (sftype == 3)
+        {
+            for (subval = SKILL_LOW_SKILL; subval <= SKILL_HIGH_SKILL; subval++)
+            {
+                if (is_abbrev(ptr, spell_info[subval].name) && strcmp(spell_info[subval].name, "!UNUSED!"))
+                {
+                    if (manual) send_to_char(ch, "Attempting to learnskill focus for %s.\r\n", spell_info[subval].name);
+                    break;
+                }
+                if (subval > SKILL_HIGH_SKILL)
+                {
+                    if (manual) send_to_char(ch, "That is not a valid skill.\r\n");
+                    return 0;
+                }
+            }
+        }
+        else
+        {
+            subval = search_block(ptr, spell_schools, FALSE);
+        }
+
+        if (subval == -1)
+        {
+            log("bad subval: %s", ptr);
+            if (sftype == 2)
+                ptr = "spell school";
+            else if (sftype == 3)
+                ptr = "skill";
+            else
+                ptr = "weapon type";
+            subfeat = snprintf(buf, sizeof(buf),
+                               "That is not a known %s. Available %s:\r\n",
+                               ptr, ptr);
+            for (subval = (sftype == 3 ?  RACE_HUMAN : 1); subval <= (sftype == 2 ? NUM_SCHOOLS : (sftype == 3 ? NUM_RACES : MAX_WEAPON_TYPES + 1)); subval++)
+            {
+                if (sftype == 2)
+                    ptr = (char *)spell_schools[subval];
+                else if (sftype == 3)
+                    ptr = (char *)spell_info[subval].name;
+                else
+                    ptr = (char *)weapon_type[subval];
+                subfeat += snprintf(buf + subfeat, sizeof(buf) - subfeat, "  %s\r\n", ptr);
+            }
+            page_string(ch->desc, buf, TRUE);
+            return 0;
+        }
+        if (!feat_is_available(ch, feat_num, subval, NULL))
+        {
+            if (manual) send_to_char(ch, "You do not satisfy the prerequisites for that feat.\r\n");
+            return 0;
+        }
+        if (sftype == 1)
+        {
+            if (HAS_COMBAT_FEAT(ch, subfeat, subval))
+            {
+                if (manual) send_to_char(ch, "You already have that weapon feat.\r\n");
+                return 0;
+            }
+            SET_COMBAT_FEAT(ch, subfeat, subval);
+        }
+        else if (sftype == 2)
+        {
+            if (HAS_SCHOOL_FEAT(ch, subfeat, subval))
+            {
+                if (manual) send_to_char(ch, "You already have that spell school feat.\r\n");
+                return 0;
+            }
+            SET_SCHOOL_FEAT(ch, subfeat, subval);
+        }
+        else if (sftype == 3)
+        {
+            if (ch->player_specials->skill_focus[subval - SKILL_LOW_SKILL] > 0 && feat_num == FEAT_SKILL_FOCUS)
+            {
+                if (manual) send_to_char(ch, "You already have that skill focus feat.\r\n");
+                return 0;
+            }
+            if (ch->player_specials->skill_focus[subval - SKILL_LOW_SKILL] > 1 && feat_num == FEAT_EPIC_SKILL_FOCUS)
+            {
+                if (manual) send_to_char(ch, "You already have that epic skill focus feat.\r\n");
+                return 0;
+            }
+            ch->player_specials->skill_focus[subval - SKILL_LOW_SKILL] += 1;
+        }
+        else
+        {
+            log("unknown feat subtype %d in subfeat code", sftype);
+            if (manual) send_to_char(ch, "That feat is not yet ready for use.\r\n");
+            return 0;
+        }
+        SET_FEAT(ch, feat_num, HAS_FEAT(ch, feat_num) + 1);
+        break;
+    case FEAT_GREAT_FORTITUDE:
+        SET_FEAT(ch, feat_num, 1);
+        GET_SAVE_MOD(ch, SAVING_FORTITUDE) += 2;
+        break;
+    case FEAT_IRON_WILL:
+        SET_FEAT(ch, feat_num, 1);
+        GET_SAVE_MOD(ch, SAVING_WILL) += 2;
+        break;
+    case FEAT_LIGHTNING_REFLEXES:
+        SET_FEAT(ch, feat_num, 1);
+        GET_SAVE_MOD(ch, SAVING_REFLEX) += 2;
+        break;
+    case FEAT_TOUGHNESS:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        GET_MAX_HIT(ch) += GET_LEVEL(ch);
+        break;
+    case FEAT_ENDURANCE:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        GET_MAX_MOVE(ch) += GET_LEVEL(ch) * 10;
+        break;
+    case FEAT_EXTRA_RAGE:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        break;
+    case FEAT_SPELL_MASTERY:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        GET_SPELL_MASTERY_POINTS(ch) += MAX(1, ability_mod_value(GET_INT(ch)));
+        break;
+    case FEAT_ACROBATIC:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_ACROBATICS, GET_SKILL_BONUS(ch, SKILL_ACROBATICS) + 2);
+        break;
+    case FEAT_ALERTNESS:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_PERCEPTION, GET_SKILL_BONUS(ch, SKILL_PERCEPTION) + 2);
+        SET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE, GET_SKILL_BONUS(ch, SKILL_SENSE_MOTIVE) + 2);
+        break;
+    case FEAT_ANIMAL_AFFINITY:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL, GET_SKILL_BONUS(ch, SKILL_HANDLE_ANIMAL) + 2);
+        SET_SKILL_BONUS(ch, SKILL_RIDE, GET_SKILL_BONUS(ch, SKILL_RIDE) + 2);
+        break;
+    case FEAT_DECEITFUL:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_DISGUISE, GET_SKILL_BONUS(ch, SKILL_DISGUISE) + 2);
+        SET_SKILL_BONUS(ch, SKILL_LINGUISTICS, GET_SKILL_BONUS(ch, SKILL_LINGUISTICS) + 2);
+        break;
+    case FEAT_DEFT_HANDS:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND, GET_SKILL_BONUS(ch, SKILL_SLEIGHT_OF_HAND) + 2);
+        SET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE, GET_SKILL_BONUS(ch, SKILL_DISABLE_DEVICE) + 2);
+        break;
+    case FEAT_MAGICAL_APTITUDE:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_SPELLCRAFT, GET_SKILL_BONUS(ch, SKILL_SPELLCRAFT) + 2);
+        SET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE, GET_SKILL_BONUS(ch, SKILL_USE_MAGIC_DEVICE) + 2);
+        break;
+    case FEAT_PERSUASIVE:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_BLUFF, GET_SKILL_BONUS(ch, SKILL_DIPLOMACY) + 2);
+        SET_SKILL_BONUS(ch, SKILL_INTIMIDATE, GET_SKILL_BONUS(ch, SKILL_INTIMIDATE) + 2);
+        break;
+    case FEAT_SELF_SUFFICIENT:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_HEAL, GET_SKILL_BONUS(ch, SKILL_HEAL) + 2);
+        SET_SKILL_BONUS(ch, SKILL_SURVIVAL, GET_SKILL_BONUS(ch, SKILL_SURVIVAL) + 2);
+        break;
+    case FEAT_STEALTHY:
+        subval = HAS_FEAT(ch, feat_num) + 1;
+        SET_FEAT(ch, feat_num, subval);
+        SET_SKILL_BONUS(ch, SKILL_STEALTH, GET_SKILL_BONUS(ch, SKILL_STEALTH) + 2);
+        SET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST, GET_SKILL_BONUS(ch, SKILL_ESCAPE_ARTIST) + 2);
+        break;
+    case FEAT_DAMAGE_REDUCTION:
+        if (ch->damage_reduction_feats == 5)
+        {
+            if (manual) send_to_char(ch, "You can only take the damage reduction feat 5 times.\r\n");
+            return 0;
+        }
+        ch->damage_reduction_feats++;
+        subval = HAS_FEAT(ch, feat_num) + 3;
+        SET_FEAT(ch, feat_num, subval);
+        for (reduct = ch->damreduct; reduct; reduct = reduct->next)
+        {
+            if (reduct->feat == FEAT_DAMAGE_REDUCTION)
+            {
+                REMOVE_FROM_LIST(reduct, ch->damreduct, next);
+            }
+        }
+        CREATE(dptr, struct damreduct_type, 1);
+        dptr->next = ch->damreduct;
+        ch->damreduct = dptr;
+        dptr->spell = 0;
+        dptr->feat = FEAT_DAMAGE_REDUCTION;
+        dptr->mod = HAS_FEAT(ch, FEAT_DAMAGE_REDUCTION);
+        dptr->duration = -1;
+        dptr->max_damage = -1;
+        for (q = 0; q < MAX_DAMREDUCT_MULTI; q++)
+            dptr->damstyle[q] = dptr->damstyleval[q] = 0;
+        dptr->damstyle[0] = DR_NONE;
+        break;
+    case FEAT_FAST_HEALING:
+        if (ch->fast_healing_feats == 5)
+        {
+            if (manual) send_to_char(ch, "You can only take the fast healing feat 5 times.\r\n");
+            return 0;
+        }
+        ch->fast_healing_feats++;
+        break;
+    default:
+        SET_FEAT(ch, feat_num, HAS_FEAT(ch, feat_num) + 1);
+        break;
+    }
+    save_char(ch);
+
+    // reduce the appropriate feat point type based on what the feat type was set as above.  This simulatyes spendinng the feat
+
+    if (feat_type == FEAT_TYPE_EPIC)
+    {
+        epic_feat_points--;
+    }
+    else if (feat_type == FEAT_TYPE_EPIC_CLASS)
+    {
+        if (epic_class_feat_points > 0)
+            epic_class_feat_points--;
+        else
+            epic_feat_points--;
+    }
+    else if (feat_type == FEAT_TYPE_NORMAL)
+    {
+        feat_points--;
+    }
+    else if (feat_type == FEAT_TYPE_NORMAL_CLASS)
+    {
+        if (class_feat_points > 0)
+            class_feat_points--;
+        else
+            feat_points--;
+    }
+
+    if (manual)
+    {
+        GET_FEAT_POINTS(ch) = feat_points;
+        GET_EPIC_FEAT_POINTS(ch) = epic_feat_points;
+        GET_CLASS_FEATS(ch, GET_CLASS(ch)) = class_feat_points;
+        GET_EPIC_CLASS_FEATS(ch, GET_CLASS(ch)) = epic_class_feat_points;
+    }
     else
-      feat_points--;
-  }
+    {
+        ch->levelup->feat_points = feat_points;
+        ch->levelup->epic_feat_points = epic_feat_points;
+        ch->levelup->num_class_feats = class_feat_points;
+        ch->levelup->num_epic_class_feats = epic_class_feat_points;
+    }
 
-  if (manual) {
-	  GET_FEAT_POINTS(ch) = feat_points;
-	  GET_EPIC_FEAT_POINTS(ch) = epic_feat_points;
-	  GET_CLASS_FEATS(ch, GET_CLASS(ch)) = class_feat_points;
-	  GET_EPIC_CLASS_FEATS(ch, GET_CLASS(ch)) = epic_class_feat_points;
-  }
-  else {
-	  ch->levelup->feat_points = feat_points;
-	  ch->levelup->epic_feat_points = epic_feat_points;
-	  ch->levelup->num_class_feats = class_feat_points;
-	  ch->levelup->num_epic_class_feats = epic_class_feat_points;
-  }
+    if (manual) send_to_char(ch, "Your training has given you the %s feat!\r\n", feat_list[feat_num].name);
 
-  if (manual) send_to_char(ch, "Your training has given you the %s feat!\r\n", feat_list[feat_num].name);
-
-  return 1;
+    return 1;
 }
 
 
