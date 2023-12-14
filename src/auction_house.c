@@ -12,9 +12,10 @@
 
 /* external functions */
 int Obj_to_store(struct obj_data *obj, FILE *fl, int location);
-
-
 extern int xap_objs;
+
+#define UNUSED(x) (void)(x)
+
 
 int auction_get_filename(room_vnum vnum, char *filename, size_t maxlen)
 {
@@ -370,6 +371,7 @@ int auction_load(room_vnum rvnum)
         }
     }
 
+    UNUSED(k);
 
     fclose(fl);
 

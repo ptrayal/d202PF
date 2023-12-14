@@ -44,6 +44,9 @@ ACMD(do_house);
 
 extern int xap_objs;
 
+#define UNUSED(x) (void)(x)
+
+
 /* First, the basics: finding the filename; loading/saving objects */
 
 /* Return a filename given a house vnum */
@@ -571,255 +574,297 @@ void House_list_guests(struct char_data *ch, int i, int quiet)
 
 int House_load(room_vnum rvnum) 
 {
-  FILE *fl;
-  char fname[MAX_STRING_LENGTH] = { '\0' };
-  char buf1[MAX_STRING_LENGTH] = { '\0' };
-  char buf2[MAX_STRING_LENGTH] = { '\0' };
-  char line[256] = { '\0' };
-  int t[21],danger,zwei=0;
-  struct obj_data *temp;
-  int locate=0, j, nr,k,num_objs=0;
-  struct obj_data *obj1;
-  struct obj_data *cont_row[MAX_BAG_ROWS];
-  struct extra_descr_data *new_descr;
-  room_rnum rrnum;
+    FILE *fl;
+    char fname[MAX_STRING_LENGTH] = { '\0' };
+    char buf1[MAX_STRING_LENGTH] = { '\0' };
+    char buf2[MAX_STRING_LENGTH] = { '\0' };
+    char line[256] = { '\0' };
+    int t[21], danger, zwei = 0;
+    struct obj_data *temp;
+    int locate = 0, j, nr, k, num_objs = 0;
+    struct obj_data *obj1;
+    struct obj_data *cont_row[MAX_BAG_ROWS];
+    struct extra_descr_data *new_descr;
+    room_rnum rrnum;
 
-  if ((rrnum = real_room(rvnum)) == NOWHERE)
-    return 0;
+    if ((rrnum = real_room(rvnum)) == NOWHERE)
+        return 0;
 
-  if (!House_get_filename(rvnum, fname, sizeof(fname)))
-    return 0;
+    if (!House_get_filename(rvnum, fname, sizeof(fname)))
+        return 0;
 
-  if (!(fl = fopen(fname, "r+b"))) {
-    if (errno != ENOENT) {  /* if it fails, NOT because of no file */
-      sprintf(buf1, "SYSERR: READING HOUSE FILE %s (5)", fname);
-      log("%s: %s", buf1, strerror(errno));
+    if (!(fl = fopen(fname, "r+b")))
+    {
+        if (errno != ENOENT)    /* if it fails, NOT because of no file */
+        {
+            sprintf(buf1, "SYSERR: READING HOUSE FILE %s (5)", fname);
+            log("%s: %s", buf1, strerror(errno));
+        }
+        return 0;
     }
-    return 0;
-  }
 
-  for (j = 0;j < MAX_BAG_ROWS;j++)
-    cont_row[j] = NULL; /* empty all cont lists (you never know ...) */
+    for (j = 0; j < MAX_BAG_ROWS; j++)
+        cont_row[j] = NULL; /* empty all cont lists (you never know ...) */
 
-  if(!feof(fl))
-    get_line(fl, line);
-  while (!feof(fl)) {
-        temp=NULL;
+    if(!feof(fl))
+        get_line(fl, line);
+    while (!feof(fl))
+    {
+        temp = NULL;
         /* first, we get the number. Not too hard. */
-    if(*line == '#') {
-      if (sscanf(line, "#%d", &nr) != 1) {
-        continue;
-      }
-      /* we have the number, check it, load obj. */
-      if (nr == NOTHING) {   /* then it is unique */
-        temp = create_obj();
-        temp->item_number=NOTHING;
-      } else if (nr < 0) {
-        continue;
-      } else {
-        if(nr >= 999999)
-          continue;
-        temp=read_object(nr,VIRTUAL);
-        if (!temp) {
-      get_line(fl, line);
-          continue;
-        }
-      }
-
-      get_line(fl,line);
-      sscanf(line,"%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d",t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8, t + 9, 
-             t + 10, t + 11, t + 12, t + 13, t + 14, t + 15, t + 16, t + 17, t + 18, t + 19, t + 20);
-      locate=t[0];
-      GET_OBJ_VAL(temp,0) = t[1];
-      GET_OBJ_VAL(temp,1) = t[2];
-      GET_OBJ_VAL(temp,2) = t[3];
-      GET_OBJ_VAL(temp,3) = t[4];
-      GET_OBJ_VAL(temp,4) = t[5];
-      GET_OBJ_VAL(temp,5) = t[6];
-      GET_OBJ_VAL(temp,6) = t[7];
-      GET_OBJ_VAL(temp,7) = t[8];
-      GET_OBJ_EXTRA(temp)[0] = t[9];
-      GET_OBJ_EXTRA(temp)[1] = t[10];
-      GET_OBJ_EXTRA(temp)[2] = t[11];
-      GET_OBJ_EXTRA(temp)[3] = t[12];
-      GET_OBJ_VAL(temp,8) = t[13];
-      GET_OBJ_VAL(temp,9) = t[14];
-      GET_OBJ_VAL(temp,10) = t[15];
-      GET_OBJ_VAL(temp,11) = t[16];
-      GET_OBJ_VAL(temp,12) = t[17];
-      GET_OBJ_VAL(temp,13) = t[18];
-      GET_OBJ_VAL(temp,14) = t[19];
-      GET_OBJ_VAL(temp,15) = t[20];
-
-      get_line(fl,line);
-       /* read line check for xap. */
-      if(!strcmp("XAP",line)) {  /* then this is a Xap Obj, requires
-                                       special care */
-        if ((temp->name = fread_string(fl, buf2)) == NULL) {
-          temp->name = "undefined";
-        }
-
-        if ((temp->short_description = fread_string(fl, buf2)) == NULL) {
-          temp->short_description = "undefined";
-        }
-
-        if ((temp->description = fread_string(fl, buf2)) == NULL) {
-          temp->description = "undefined";
-        }
-
-        if ((temp->action_description = fread_string(fl, buf2)) == NULL) {
-          temp->action_description=0;
-        }
-        if (!get_line(fl, line) ||
-           (sscanf(line, "%d %d %d %d %d %d %d %d", t,t+1,t+2,t+3,t+4,t+5,t+6,t+7) != 8)) {
-          fprintf(stderr, "Format error in first numeric line (expecting _x_ args)");
-          return 0;
-        }
-        temp->type_flag = t[0];
-        temp->wear_flags[0] = t[1];
-        temp->wear_flags[1] = t[2];
-        temp->wear_flags[2] = t[3];
-        temp->wear_flags[3] = t[4];
-        temp->weight = t[5];
-        temp->cost = t[6];
-        GET_OBJ_LEVEL(temp) = t[7];
-
-
-        /* we're clearing these for good luck */
-
-        for (j = 0; j < MAX_OBJ_AFFECT; j++) {
-          temp->affected[j].location = APPLY_NONE;
-          temp->affected[j].modifier = 0;
-        }
-
-        free_extra_descriptions(temp->ex_description);
-        temp->ex_description = NULL;
-
-        get_line(fl,line);
-        for (k=j=zwei=0;!zwei && !feof(fl);) {
-          switch (*line) {
-            case 'E':
-              CREATE(new_descr, struct extra_descr_data, 1);
-              new_descr->keyword = fread_string(fl, buf2);
-              new_descr->description = fread_string(fl, buf2);
-              new_descr->next = temp->ex_description;
-              temp->ex_description = new_descr;
-              get_line(fl,line);
-              break;
-           case 'A':
-              if (j >= MAX_OBJ_AFFECT) {
-                log("SYSERR: Too many object affectations in loading rent file");
-                danger=1;
-              }
-              get_line(fl, line);
-              sscanf(line, "%d %d %d", t, t + 1, t + 2);
-
-              temp->affected[j].location = t[0];
-              temp->affected[j].modifier = t[1];
-              temp->affected[j].specific = t[2];
-              j++;
-              //GET_OBJ_LEVEL(temp) = set_object_level(temp);
-              get_line(fl,line);
-              break;
-            case 'G':
-              get_line(fl, line);
-              sscanf(line, "%ld", (long int*)&temp->generation);
-              get_line(fl, line);
-              break;
-            case 'U':
-              get_line(fl, line);
-              sscanf(line, "%lld", &temp->unique_id);
-              get_line(fl, line);
-              break;
-            case 'S':
-              if (j >= SPELLBOOK_SIZE) {
-                log("SYSERR: Too many spells in spellbook loading rent file");
-                danger=1;
-              }
-              get_line(fl, line);
-              sscanf(line, "%d %d", t, t + 1);
-
-              if (!temp->sbinfo) {
-                CREATE(temp->sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
-                memset((char *) temp->sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
-              }
-              temp->sbinfo[j].spellname = t[0];
-              temp->sbinfo[j].pages = t[1];
-              j++;
-              get_line(fl,line);
-              break;
-            case 'Z':
-              get_line(fl, line);
-              sscanf(line, "%d", (int *)&GET_OBJ_SIZE(temp));
-              get_line(fl, line);
-              break;
-
-            case '$':
-            case '#':
-              zwei=1;
-              break;
-            default:
-              zwei=1;
-              break;
-          }
-        }      /* exit our for loop */
-      }   /* exit our xap loop */
-      if(temp != NULL) {
-        num_objs++;
-        obj_to_room(temp, rrnum);
-      } else {
-        continue;
-      }
-
-/*No need to check if its equipped since rooms can't equip things --firebird_223*/
-
-          for (j = MAX_BAG_ROWS-1;j > -locate;j--)
-            if (cont_row[j]) { /* no container -> back to ch's inventory */
-              for (;cont_row[j];cont_row[j] = obj1) {
-                obj1 = cont_row[j]->next_content;
-                obj_to_room(cont_row[j], rrnum);
-              }
-              cont_row[j] = NULL;
+        if(*line == '#')
+        {
+            if (sscanf(line, "#%d", &nr) != 1)
+            {
+                continue;
+            }
+            /* we have the number, check it, load obj. */
+            if (nr == NOTHING)     /* then it is unique */
+            {
+                temp = create_obj();
+                temp->item_number = NOTHING;
+            }
+            else if (nr < 0)
+            {
+                continue;
+            }
+            else
+            {
+                if(nr >= 999999)
+                    continue;
+                temp = read_object(nr, VIRTUAL);
+                if (!temp)
+                {
+                    get_line(fl, line);
+                    continue;
+                }
             }
 
-          if (j == -locate && cont_row[j]) { /* content list existing */
-            if (GET_OBJ_TYPE(temp) == ITEM_CONTAINER) {
-              /* take item ; fill ; give to char again */
-              obj_from_room(temp);
-              temp->contains = NULL;
-              for (;cont_row[j];cont_row[j] = obj1) {
-                obj1 = cont_row[j]->next_content;
-                obj_to_obj(cont_row[j], temp);
-              }
-              obj_to_room(temp, rrnum); /* add to inv first ... */
-            } else { /* object isn't container -> empty content list */
-              for (;cont_row[j];cont_row[j] = obj1) {
-                obj1 = cont_row[j]->next_content;
-                obj_to_room(cont_row[j], rrnum);
-              }
-              cont_row[j] = NULL;
-            }
-          }
+            get_line(fl, line);
+            sscanf(line, "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8, t + 9,
+                   t + 10, t + 11, t + 12, t + 13, t + 14, t + 15, t + 16, t + 17, t + 18, t + 19, t + 20);
+            locate = t[0];
+            GET_OBJ_VAL(temp, 0) = t[1];
+            GET_OBJ_VAL(temp, 1) = t[2];
+            GET_OBJ_VAL(temp, 2) = t[3];
+            GET_OBJ_VAL(temp, 3) = t[4];
+            GET_OBJ_VAL(temp, 4) = t[5];
+            GET_OBJ_VAL(temp, 5) = t[6];
+            GET_OBJ_VAL(temp, 6) = t[7];
+            GET_OBJ_VAL(temp, 7) = t[8];
+            GET_OBJ_EXTRA(temp)[0] = t[9];
+            GET_OBJ_EXTRA(temp)[1] = t[10];
+            GET_OBJ_EXTRA(temp)[2] = t[11];
+            GET_OBJ_EXTRA(temp)[3] = t[12];
+            GET_OBJ_VAL(temp, 8) = t[13];
+            GET_OBJ_VAL(temp, 9) = t[14];
+            GET_OBJ_VAL(temp, 10) = t[15];
+            GET_OBJ_VAL(temp, 11) = t[16];
+            GET_OBJ_VAL(temp, 12) = t[17];
+            GET_OBJ_VAL(temp, 13) = t[18];
+            GET_OBJ_VAL(temp, 14) = t[19];
+            GET_OBJ_VAL(temp, 15) = t[20];
 
-          if (locate < 0 && locate >= -MAX_BAG_ROWS) {
-               /* let obj be part of content list
-                  but put it at the list's end thus having the items
-                  in the same order as before renting */
-            obj_from_room(temp);
-            if ((obj1 = cont_row[-locate-1])) {
-              while (obj1->next_content)
-                obj1 = obj1->next_content;
-              obj1->next_content = temp;
-            } else
-              cont_row[-locate-1] = temp;
-          }
-       } else {
-         get_line(fl, line);
-      }
+            get_line(fl, line);
+            /* read line check for xap. */
+            if(!strcmp("XAP", line))
+            {
+                /* then this is a Xap Obj, requires
+                                                 special care */
+                if ((temp->name = fread_string(fl, buf2)) == NULL)
+                {
+                    temp->name = "undefined";
+                }
+
+                if ((temp->short_description = fread_string(fl, buf2)) == NULL)
+                {
+                    temp->short_description = "undefined";
+                }
+
+                if ((temp->description = fread_string(fl, buf2)) == NULL)
+                {
+                    temp->description = "undefined";
+                }
+
+                if ((temp->action_description = fread_string(fl, buf2)) == NULL)
+                {
+                    temp->action_description = 0;
+                }
+                if (!get_line(fl, line) ||
+                        (sscanf(line, "%d %d %d %d %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7) != 8))
+                {
+                    fprintf(stderr, "Format error in first numeric line (expecting _x_ args)");
+                    return 0;
+                }
+                temp->type_flag = t[0];
+                temp->wear_flags[0] = t[1];
+                temp->wear_flags[1] = t[2];
+                temp->wear_flags[2] = t[3];
+                temp->wear_flags[3] = t[4];
+                temp->weight = t[5];
+                temp->cost = t[6];
+                GET_OBJ_LEVEL(temp) = t[7];
+
+
+                /* we're clearing these for good luck */
+
+                for (j = 0; j < MAX_OBJ_AFFECT; j++)
+                {
+                    temp->affected[j].location = APPLY_NONE;
+                    temp->affected[j].modifier = 0;
+                }
+
+                free_extra_descriptions(temp->ex_description);
+                temp->ex_description = NULL;
+
+                get_line(fl, line);
+                for (k = j = zwei = 0; !zwei && !feof(fl);)
+                {
+                    switch (*line)
+                    {
+                    case 'E':
+                        CREATE(new_descr, struct extra_descr_data, 1);
+                        new_descr->keyword = fread_string(fl, buf2);
+                        new_descr->description = fread_string(fl, buf2);
+                        new_descr->next = temp->ex_description;
+                        temp->ex_description = new_descr;
+                        get_line(fl, line);
+                        break;
+                    case 'A':
+                        if (j >= MAX_OBJ_AFFECT)
+                        {
+                            log("SYSERR: Too many object affectations in loading rent file");
+                            danger = 1;
+                        }
+                        get_line(fl, line);
+                        sscanf(line, "%d %d %d", t, t + 1, t + 2);
+
+                        temp->affected[j].location = t[0];
+                        temp->affected[j].modifier = t[1];
+                        temp->affected[j].specific = t[2];
+                        j++;
+                        //GET_OBJ_LEVEL(temp) = set_object_level(temp);
+                        get_line(fl, line);
+                        break;
+                    case 'G':
+                        get_line(fl, line);
+                        sscanf(line, "%ld", (long int *)&temp->generation);
+                        get_line(fl, line);
+                        break;
+                    case 'U':
+                        get_line(fl, line);
+                        sscanf(line, "%lld", &temp->unique_id);
+                        get_line(fl, line);
+                        break;
+                    case 'S':
+                        if (j >= SPELLBOOK_SIZE)
+                        {
+                            log("SYSERR: Too many spells in spellbook loading rent file");
+                            danger = 1;
+                        }
+                        get_line(fl, line);
+                        sscanf(line, "%d %d", t, t + 1);
+
+                        if (!temp->sbinfo)
+                        {
+                            CREATE(temp->sbinfo, struct obj_spellbook_spell, SPELLBOOK_SIZE);
+                            memset((char *) temp->sbinfo, 0, SPELLBOOK_SIZE * sizeof(struct obj_spellbook_spell));
+                        }
+                        temp->sbinfo[j].spellname = t[0];
+                        temp->sbinfo[j].pages = t[1];
+                        j++;
+                        get_line(fl, line);
+                        break;
+                    case 'Z':
+                        get_line(fl, line);
+                        sscanf(line, "%d", (int *)&GET_OBJ_SIZE(temp));
+                        get_line(fl, line);
+                        break;
+
+                    case '$':
+                    case '#':
+                        zwei = 1;
+                        break;
+                    default:
+                        zwei = 1;
+                        break;
+                    }
+                }      /* exit our for loop */
+            }   /* exit our xap loop */
+            if(temp != NULL)
+            {
+                num_objs++;
+                obj_to_room(temp, rrnum);
+            }
+            else
+            {
+                continue;
+            }
+
+            /*No need to check if its equipped since rooms can't equip things --firebird_223*/
+
+            for (j = MAX_BAG_ROWS - 1; j > -locate; j--)
+                if (cont_row[j])   /* no container -> back to ch's inventory */
+                {
+                    for (; cont_row[j]; cont_row[j] = obj1)
+                    {
+                        obj1 = cont_row[j]->next_content;
+                        obj_to_room(cont_row[j], rrnum);
+                    }
+                    cont_row[j] = NULL;
+                }
+
+            if (j == -locate && cont_row[j])   /* content list existing */
+            {
+                if (GET_OBJ_TYPE(temp) == ITEM_CONTAINER)
+                {
+                    /* take item ; fill ; give to char again */
+                    obj_from_room(temp);
+                    temp->contains = NULL;
+                    for (; cont_row[j]; cont_row[j] = obj1)
+                    {
+                        obj1 = cont_row[j]->next_content;
+                        obj_to_obj(cont_row[j], temp);
+                    }
+                    obj_to_room(temp, rrnum); /* add to inv first ... */
+                }
+                else     /* object isn't container -> empty content list */
+                {
+                    for (; cont_row[j]; cont_row[j] = obj1)
+                    {
+                        obj1 = cont_row[j]->next_content;
+                        obj_to_room(cont_row[j], rrnum);
+                    }
+                    cont_row[j] = NULL;
+                }
+            }
+
+            if (locate < 0 && locate >= -MAX_BAG_ROWS)
+            {
+                /* let obj be part of content list
+                   but put it at the list's end thus having the items
+                   in the same order as before renting */
+                obj_from_room(temp);
+                if ((obj1 = cont_row[-locate - 1]))
+                {
+                    while (obj1->next_content)
+                        obj1 = obj1->next_content;
+                    obj1->next_content = temp;
+                }
+                else
+                    cont_row[-locate - 1] = temp;
+            }
+        }
+        else
+        {
+            get_line(fl, line);
+        }
     }
 
+    UNUSED(danger);
+    UNUSED(k);
 
-  fclose(fl);
+    fclose(fl);
 
     return 1;
 }

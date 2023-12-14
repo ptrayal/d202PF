@@ -76,6 +76,9 @@ extern int top_of_p_table;
 // local vars
 int num_online = 0;
 
+#define UNUSED(x) (void)(x)
+
+
 /*
  * The hit_limit, mana_limit, and move_limit functions are gone.  They
  * added an unnecessary level of complexity to the internal structure,
@@ -1707,59 +1710,66 @@ void award_rp_exp(void)
 
 void award_rp_exp_char(struct char_data *i)
 {
-  long exp = 0;
-    if (GET_RP_EXP(i) > 0) {
-      time_t mytime;
-      int d, h, m;
+    long exp = 0;
+    if (GET_RP_EXP(i) > 0)
+    {
+        time_t mytime;
+        int d, h, m;
 
-      mytime = time(0);
+        mytime = time(0);
 
-      d = mytime / 86400;
-      h = (mytime / 3600) % 24;
-      m = (mytime / 60) % 60;
+        d = mytime / 86400;
+        h = (mytime / 3600) % 24;
+        m = (mytime / 60) % 60;
 
-      h -= 5; // Server time zone
-      if (h < 0)
-        h += 24;
+        h -= 5; // Server time zone
+        if (h < 0)
+            h += 24;
 
-      if (h == 11 || h == 12 || h == 19 || h == 20 || h == 3 || h == 4) {
-        GET_RP_EXP(i) *= 2;
-      }
+        if (h == 11 || h == 12 || h == 19 || h == 20 || h == 3 || h == 4)
+        {
+            GET_RP_EXP(i) *= 2;
+        }
 
-      exp = level_exp(GET_LEVEL(i) + 1, GET_REAL_RACE(i)) - level_exp(GET_LEVEL(i), GET_REAL_RACE(i));
-      exp *= GET_RP_EXP(i);
-      exp /= 25000 + (GET_LEVEL(i) * 1000);
-      if (exp < 0) {
-        exp += -(exp * 2);
-      }
-      if (GET_RP_POINTS(i) < 5000)
-      send_to_char(i, "\r\n\r\n"
-                       "@RYou have just gained experience for role playing.  If you are not intending to role play, please\r\n"
-                       "speak using the ooc or chat command.  Anyone caught trying to abuse this system in any way (and you will\r\n"
-                       "be caught eventually as everything for which rp exp is awarded is logged and reviewed) will\r\n"
-                       "have their account and all characters deleted, and will be banned for at least 6 months.\r\n"
-                       "Examples of attempts to abuse the system include, but are not limited to: spamming says or\r\n"
-                       "emotes, using the say command repeatedly to communicate out of character (see help rp), doing\r\n"
-                       "says or emotes when no one else is around, or listening, etc.\r\n\r\n@n");
-      send_to_char(i, "\r\n@YYou have gained experience for role playing. (Please read and obey HELP RULES ROLEPLAY)\r\n");
+        exp = level_exp(GET_LEVEL(i) + 1, GET_REAL_RACE(i)) - level_exp(GET_LEVEL(i), GET_REAL_RACE(i));
+        exp *= GET_RP_EXP(i);
+        exp /= 25000 + (GET_LEVEL(i) * 1000);
+        if (exp < 0)
+        {
+            exp += -(exp * 2);
+        }
+        if (GET_RP_POINTS(i) < 5000)
+            send_to_char(i, "\r\n\r\n"
+                         "@RYou have just gained experience for role playing.  If you are not intending to role play, please\r\n"
+                         "speak using the ooc or chat command.  Anyone caught trying to abuse this system in any way (and you will\r\n"
+                         "be caught eventually as everything for which rp exp is awarded is logged and reviewed) will\r\n"
+                         "have their account and all characters deleted, and will be banned for at least 6 months.\r\n"
+                         "Examples of attempts to abuse the system include, but are not limited to: spamming says or\r\n"
+                         "emotes, using the say command repeatedly to communicate out of character (see help rp), doing\r\n"
+                         "says or emotes when no one else is around, or listening, etc.\r\n\r\n@n");
+        send_to_char(i, "\r\n@YYou have gained experience for role playing. (Please read and obey HELP RULES ROLEPLAY)\r\n");
 
-      if (h == 11 || h == 12 || h == 19 || h == 20 || h == 3 || h == 4) {
-        send_to_char(i, "You are role playing during role play hour!  Experience gains are doubled!\r\n");
-      } else {
-        send_to_char(i, "Next role play hour at hour %d.  Current hour is %d.  Experience rewards doubled during this two-hour period.\r\n",
-                     ((h / 8) * 8) + 3, h);
-      }
+        if (h == 11 || h == 12 || h == 19 || h == 20 || h == 3 || h == 4)
+        {
+            send_to_char(i, "You are role playing during role play hour!  Experience gains are doubled!\r\n");
+        }
+        else
+        {
+            send_to_char(i, "Next role play hour at hour %d.  Current hour is %d.  Experience rewards doubled during this two-hour period.\r\n",
+                         ((h / 8) * 8) + 3, h);
+        }
 
-      gain_exp(i, exp);
-      int account_exp = (GET_RP_EXP(i) / 5) * (100 + (GET_RP_ACCOUNT_EXP(i) * 5)) / 100;
-      if (i->desc && i->desc->account)
-        i->desc->account->experience += account_exp;
-      send_to_char(i, "\r\n@YYou have gained %d account experience for your role playing.\r\n", account_exp);
-      send_to_char(i, "\r\n@YYou have gained %d rp points for your role playing.\r\n", GET_RP_EXP(i));
-      award_rp_points(i, GET_RP_POINTS(i), GET_RP_EXP(i));
-      GET_RP_EXP(i) = 0;
+        gain_exp(i, exp);
+        int account_exp = (GET_RP_EXP(i) / 5) * (100 + (GET_RP_ACCOUNT_EXP(i) * 5)) / 100;
+        if (i->desc && i->desc->account)
+            i->desc->account->experience += account_exp;
+        send_to_char(i, "\r\n@YYou have gained %d account experience for your role playing.\r\n", account_exp);
+        send_to_char(i, "\r\n@YYou have gained %d rp points for your role playing.\r\n", GET_RP_EXP(i));
+        award_rp_points(i, GET_RP_POINTS(i), GET_RP_EXP(i));
+        GET_RP_EXP(i) = 0;
 
-
+        UNUSED(d);
+        UNUSED(m);
 
     }
 

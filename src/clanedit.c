@@ -41,6 +41,8 @@ void clanedit_setup_new(struct descriptor_data *d);
 void clanedit_setup_existing(struct descriptor_data *d, int number);
 void clanedit_save_to_disk();
 
+#define UNUSED(x) (void)(x)
+
 /******************************************************************************/
 /** Routines                                                                 **/
 /******************************************************************************/
@@ -115,61 +117,63 @@ ACMD(do_oasis_clanedit)
 
 void clanedit_disp_menu(struct descriptor_data * d)
 {
-  room_rnum start_room;
+    room_rnum start_room;
 
-  if (!OLC_CLAN(d))
-    clanedit_setup_new(d);
-  
-  start_room=real_room(mortal_start_room[OLC_CLAN(d)->clan_entr_room]);
+    if (!OLC_CLAN(d))
+        clanedit_setup_new(d);
 
-  write_to_output(d,
-    "-- Clan number : [@y%d@n]\r\n"
-    "@c1@n) Name        : @y%s\r\n"
-    "@c2@n) Leader      : @y%s\r\n"
-    "@c3@n) Rank6 Name  : @y%s\r\n"
-    "@c4@n) Rank5 Name  : @y%s\r\n"
-    "@c5@n) Rank4 Name  : @y%s\r\n"  
-    "@c6@n) Rank3 Name  : @y%s\r\n"  
-    "@c7@n) Rank2 Name  : @y%s\r\n"
-    "@c8@n) Rank1 Name  : @y%s\r\n"  ,
-    OLC_CLAN(d)->number,
-    OLC_CLAN(d)->name,
-    OLC_CLAN(d)->leadersname,
-    OLC_CLAN(d)->rank_name[5],
-    OLC_CLAN(d)->rank_name[4],
-    OLC_CLAN(d)->rank_name[3],
-    OLC_CLAN(d)->rank_name[2],
-    OLC_CLAN(d)->rank_name[1],
-    OLC_CLAN(d)->rank_name[0]);
+    start_room = real_room(mortal_start_room[OLC_CLAN(d)->clan_entr_room]);
 
-  write_to_output(d,
-    "@c9@n) Who String  : @y%s\r\n"
-    "@cA@n) Guard 1     : @y%d %s\r\n"
-    "@cF@n) Guard 2     : @y%d %s\r\n"
-    "@cB@n) Direction   : @y%s\r\n"
-    "@cC@n) P-Kill      : @y%s\r\n",
+    write_to_output(d,
+                    "-- Clan number : [@y%d@n]\r\n"
+                    "@c1@n) Name        : @y%s\r\n"
+                    "@c2@n) Leader      : @y%s\r\n"
+                    "@c3@n) Rank6 Name  : @y%s\r\n"
+                    "@c4@n) Rank5 Name  : @y%s\r\n"
+                    "@c5@n) Rank4 Name  : @y%s\r\n"
+                    "@c6@n) Rank3 Name  : @y%s\r\n"
+                    "@c7@n) Rank2 Name  : @y%s\r\n"
+                    "@c8@n) Rank1 Name  : @y%s\r\n",
+                    OLC_CLAN(d)->number,
+                    OLC_CLAN(d)->name,
+                    OLC_CLAN(d)->leadersname,
+                    OLC_CLAN(d)->rank_name[5],
+                    OLC_CLAN(d)->rank_name[4],
+                    OLC_CLAN(d)->rank_name[3],
+                    OLC_CLAN(d)->rank_name[2],
+                    OLC_CLAN(d)->rank_name[1],
+                    OLC_CLAN(d)->rank_name[0]);
 
-    OLC_CLAN(d)->member_look_str ?
-    OLC_CLAN(d)->member_look_str : OLC_CLAN(d)->name,
-    OLC_CLAN(d)->guard[0], ((OLC_CLAN(d)->guard[0] > 0) ? 
-      mob_proto[real_mobile(OLC_CLAN(d)->guard[0])].short_descr : "Nobody"), 
-    OLC_CLAN(d)->guard[1], ((OLC_CLAN(d)->guard[0] > 0) ?
-      mob_proto[real_mobile(OLC_CLAN(d)->guard[1])].short_descr : "Nobody"),
-    dirs[OLC_CLAN(d)->direction],
-    OLC_CLAN(d)->pkill ? "Pkill Clan" : "No-pkill Clan");
+    write_to_output(d,
+                    "@c9@n) Who String  : @y%s\r\n"
+                    "@cA@n) Guard 1     : @y%d %s\r\n"
+                    "@cF@n) Guard 2     : @y%d %s\r\n"
+                    "@cB@n) Direction   : @y%s\r\n"
+                    "@cC@n) P-Kill      : @y%s\r\n",
 
-  write_to_output(d,
-    "@cD@n) Clan Gold   : @y%ld\r\n"
-    "@cG@n) Clan recall : @y%d\r\n"
-    "@cP@n) Purge this Clan\r\n"
-    "@cQ@n) Quit\r\n"
-    "Enter choice : ",
-    
-    OLC_CLAN(d)->clan_gold,
-    OLC_CLAN(d)->clan_recall
-    );
-  
-  OLC_MODE(d) = CLANEDIT_MAIN_MENU;
+                    OLC_CLAN(d)->member_look_str ?
+                    OLC_CLAN(d)->member_look_str : OLC_CLAN(d)->name,
+                    OLC_CLAN(d)->guard[0], ((OLC_CLAN(d)->guard[0] > 0) ?
+                                            mob_proto[real_mobile(OLC_CLAN(d)->guard[0])].short_descr : "Nobody"),
+                    OLC_CLAN(d)->guard[1], ((OLC_CLAN(d)->guard[0] > 0) ?
+                                            mob_proto[real_mobile(OLC_CLAN(d)->guard[1])].short_descr : "Nobody"),
+                    dirs[OLC_CLAN(d)->direction],
+                    OLC_CLAN(d)->pkill ? "Pkill Clan" : "No-pkill Clan");
+
+    write_to_output(d,
+                    "@cD@n) Clan Gold   : @y%ld\r\n"
+                    "@cG@n) Clan recall : @y%d\r\n"
+                    "@cP@n) Purge this Clan\r\n"
+                    "@cQ@n) Quit\r\n"
+                    "Enter choice : ",
+
+                    OLC_CLAN(d)->clan_gold,
+                    OLC_CLAN(d)->clan_recall
+                   );
+
+    OLC_MODE(d) = CLANEDIT_MAIN_MENU;
+
+    UNUSED(start_room);
 }
 
 void clanedit_disp_dirs_menu(struct descriptor_data *d)

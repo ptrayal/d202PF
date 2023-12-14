@@ -1639,17 +1639,19 @@ case CLASS_DEATH_MASTER:
  * "recycle" the existing mobs that are used in other guilds for your new
  * guild, then you don't have to change that file, only here.
  */
-struct guild_info_type guild_info[] = {
-/* Kortaal */
-  { CLASS_WIZARD,	3017,	SCMD_EAST	},
-  { CLASS_CLERIC,	3004,	SCMD_NORTH	},
-  { CLASS_ROGUE,	3027,	SCMD_EAST	},
-  { CLASS_FIGHTER,	3021,	SCMD_EAST	},
-/* Brass Dragon */
-  { 254 /*-999 all */ ,	5065,	SCMD_WEST	},
-/* this must go last -- add new guards above! */
-  { -1, NOWHERE, -1}
+struct guild_info_type guild_info[] = 
+{
+    /* Kortaal */
+    { CLASS_WIZARD, 3017, SCMD_EAST },
+    { CLASS_CLERIC, 3004, SCMD_NORTH  },
+    { CLASS_ROGUE,  3027, SCMD_EAST },
+    { CLASS_FIGHTER,  3021, SCMD_EAST },
+    /* Brass Dragon */
+    { 254 /*-999 all */,  5065, SCMD_WEST },
+    /* this must go last -- add new guards above! */
+    { -1, NOWHERE, -1}
 };
+
 /* 
  * These tables hold the various level configuration setting;
  * experience points, base hit values, character saving throws.
@@ -1668,6 +1670,7 @@ const char *config_sect[] =
   "basehit",
   "\n"
 };
+
 #define CONFIG_LEVEL_VERSION	0
 #define CONFIG_LEVEL_EXPERIENCE	1
 #define CONFIG_LEVEL_VERNUM	2
@@ -4490,11 +4493,13 @@ int load_levels()
     FILE *fp;
     char line[READ_SIZE] = {'\0'}, sect_name[READ_SIZE] = { '\0' }, *ptr;
     int  linenum = 0, tp, cls, sect_type = -1;
+
     if (!(fp = fopen(LEVEL_CONFIG, "r")))
     {
         log("SYSERR: Could not open level configuration file, error: %s!", strerror(errno));
         return -1;
     }
+
     for (tp = 0; tp < NUM_CLASSES; tp++)
     {
         for (cls = 0; cls < SAVING_WILL; cls++)
@@ -4503,6 +4508,7 @@ int load_levels()
         }
         basehit_classes[tp] = 0;
     }
+
     for (;;)
     {
         linenum++;
@@ -4622,10 +4628,12 @@ int load_levels()
         }
     }
     fclose(fp);
+    
     for (cls = 0; cls < NUM_CLASSES; cls++)
     {
         log("Base hit for class %s: %s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls], basehit_type_names[basehit_classes[cls]]);
     }
+    
     for (cls = 0; cls < NUM_CLASSES; cls++)
     {
         log("Saves for class %s: fort=%s, reflex=%s, will=%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls],
@@ -4633,6 +4641,7 @@ int load_levels()
             save_type_names[save_classes[SAVING_REFLEX][cls]],
             save_type_names[save_classes[SAVING_WILL][cls]]);
     }
+    
     return 0;
 }
 
