@@ -20,10 +20,12 @@ I am getting back to work on this code.  These are the following things I am wor
 
 # MYSQL Setup
 
-** Create Database
+## Create Database
+
 In order to run this at maximum effectiveness, you will need to create a MYSQL database called 'd202pf'.  In structs.h, you can change the name of the database as well as the username and password for the database.  If you running this on a host, you will also need to set it to their SQL server location.
 
-** Create 'player_data' table
+## Create 'player_data' table
+
 This is the code for creating the player_data table.
 ```
 CREATE TABLE player_data (
