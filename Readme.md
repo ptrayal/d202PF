@@ -17,3 +17,36 @@ I am getting back to work on this code.  These are the following things I am wor
 [ ] Work through some of the other things documented under issues in GitHub.
 
 [ ] Get the code in good enough condition to make sure it's able to be run down the road by whomever.  Right now, it 'works', but could be better and that's the goal.
+
+# MYSQL Setup
+
+** Create Database
+In order to run this at maximum effectiveness, you will need to create a MYSQL database called 'd202pf'.  In structs.h, you can change the name of the database as well as the username and password for the database.  If you running this on a host, you will also need to set it to their SQL server location.
+
+** Create 'player_data' table
+This is the code for creating the player_data table.
+```
+CREATE TABLE player_data (
+    idnum INT PRIMARY KEY,
+    online INT,
+    name VARCHAR(255),
+    title VARCHAR(255),
+    titlenocolor VARCHAR(255),
+    rp_points INT,
+    deity VARCHAR(255),
+    laston DATETIME,
+    artisan_exp FLOAT,
+    experience INT,
+    classes VARCHAR(255),
+    race VARCHAR(255),
+    quest_points INT,
+    clan VARCHAR(255),
+    clan_rank VARCHAR(255),
+    web_password VARCHAR(255),
+    alignment VARCHAR(255),
+    level INT,
+    account VARCHAR(255),
+    adm_level INT,
+    clan_rank_num INT
+);
+```

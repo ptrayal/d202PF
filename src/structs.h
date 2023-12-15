@@ -50,7 +50,7 @@
 // MySQL Stuff
 // #define MYSQL_SERVER      "mud.themudhost.net"
 #define MYSQL_SERVER      "localhost"
-#define MYSQL_DB          "uriel_sql"
+#define MYSQL_DB          "d202pf"
 #define MYSQL_PASSWD      "120499tam"
 #define MYSQL_USER        "root"
 
