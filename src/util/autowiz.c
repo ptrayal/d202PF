@@ -52,11 +52,11 @@ struct level_rec {
 
 struct control_rec level_params[] =
 {
-  {ADMLVL_IMMORT, "Immortals/Builders"},
-  {ADMLVL_GOD, "Gods"},
-  {ADMLVL_GRGOD, "Greater Gods"},
-  {ADMLVL_IMPL, "Co-Owner"},
-  {0, ""}
+    {ADMLVL_IMMORT, "Immortals/Builders"},
+    {ADMLVL_GOD, "Gods"},
+    {ADMLVL_GRGOD, "Greater Gods"},
+    {ADMLVL_IMPL, "Co-Owner"},
+    {0, ""}
 };
 
 
@@ -64,57 +64,60 @@ struct level_rec *levels = 0;
 
 void initialize(void)
 {
-  struct level_rec *tmp;
-  int i = 0;
+    struct level_rec *tmp;
+    int i = 0;
 
-  while (level_params[i].level > 0) {
-    tmp = (struct level_rec *) malloc(sizeof(struct level_rec));
-    tmp->names = 0;
-    tmp->params = &(level_params[i++]);
-    tmp->next = levels;
-    levels = tmp;
-  }
+    while (level_params[i].level > 0)
+    {
+        tmp = (struct level_rec *) malloc(sizeof(struct level_rec));
+        tmp->names = 0;
+        tmp->params = &(level_params[i++]);
+        tmp->next = levels;
+        levels = tmp;
+    }
 }
 
 
 void read_file(void)
 {
-  void add_name(byte level, char *name);
-  char *CAP(char *txt);
-  int get_line(FILE * fl, char *buf);
-  bitvector_t asciiflag_conv(char *flag);
+    void add_name(byte level, char *name);
+    char *CAP(char *txt);
+    int get_line(FILE * fl, char *buf);
+    bitvector_t asciiflag_conv(char *flag);
 
-  FILE *fl;
-  int recs, i, last = 0, oldlevel = 0, level = 0, flags = 0;
-  char index_name[40], line[256], bits[64];
-  char name[MAX_NAME_LENGTH];
-  long id = 0;
+    FILE *fl;
+    int recs, i, last = 0, oldlevel = 0, level = 0, flags = 0;
+    char index_name[40], line[256], bits[64];
+    char name[MAX_NAME_LENGTH];
+    long id = 0;
 
-  sprintf(index_name, "%s%s", LIB_PLRFILES, INDEX_FILE);
-  if (!(fl = fopen(index_name, "r"))) {
-    perror("Error opening playerfile");
-    exit(1);
-  }
+    sprintf(index_name, "%s%s", LIB_PLRFILES, INDEX_FILE);
+    if (!(fl = fopen(index_name, "r")))
+    {
+        perror("Error opening playerfile");
+        exit(1);
+    }
 
-  /* count the number of players in the index */
-  recs = 0;
-  while (get_line(fl, line))
-    if (*line != '~')
-      recs++;
+    /* count the number of players in the index */
+    recs = 0;
+    while (get_line(fl, line))
+        if (*line != '~')
+            recs++;
     rewind(fl);
 
-  for (i = 0; i < recs; i++) {
-    get_line(fl, line);
-    sscanf(line, "%ld %s %d %s %d %d", &id, name, &oldlevel, bits, &last, &level);
-    CAP(name);
-    flags = asciiflag_conv(bits);
-    if (level >= MIN_LEVEL &&
-	!(IS_SET(flags, PINDEX_NOWIZLIST)) &&
-	!(IS_SET(flags, PINDEX_DELETED)))
-      add_name(level, name);
-  }
+    for (i = 0; i < recs; i++)
+    {
+        get_line(fl, line);
+        sscanf(line, "%ld %s %d %s %d %d", &id, name, &oldlevel, bits, &last, &level);
+        CAP(name);
+        flags = asciiflag_conv(bits);
+        if (level >= MIN_LEVEL &&
+                !(IS_SET(flags, PINDEX_NOWIZLIST)) &&
+                !(IS_SET(flags, PINDEX_DELETED)))
+            add_name(level, name);
+    }
 
-  fclose(fl);
+    fclose(fl);
 }
 
 

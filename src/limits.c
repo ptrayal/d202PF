@@ -986,6 +986,9 @@ void point_update(void)
     /* Connect to database */
     if (!mysql_real_connect(conn, MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWD, MYSQL_DB, 0, NULL, 0)) 
     {
+        char error_message[256];
+        snprintf(error_message, sizeof(error_message), "Error: %s", mysql_error(conn));
+        log(error_message);
         log("Cannot connect to mysql database in point update.");
     }
 

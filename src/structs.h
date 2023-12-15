@@ -49,10 +49,10 @@
 
 // MySQL Stuff
 // #define MYSQL_SERVER      "mud.themudhost.net"
-#define MYSQL_SERVER      "localhost"
+#define MYSQL_SERVER      "127.0.0.1"
 #define MYSQL_DB          "d202pf"
-#define MYSQL_PASSWD      "120499tam"
-#define MYSQL_USER        "root"
+#define MYSQL_PASSWD      "pathfinder1204"
+#define MYSQL_USER        "pathfinder"
 
 typedef int ch_ret;
 typedef int obj_ret;

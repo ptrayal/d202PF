@@ -434,23 +434,19 @@ void basic_mud_vlog(const char *format, va_list args)
     info = localtime(&rawtime);
     strftime(buffer, 80, "%c", info);
 
+    if (logfile == NULL)
+    {
+        puts("SYSERR: Using log() before stream was initialized!");
+        return;
+    }
+
     if (format == NULL)
         format = "SYSERR: log() received a NULL format.";
 
-    // Log to file
-    if (logfile != NULL)
-    {
-        fprintf(logfile, "%-15.15s :: ", buffer + 4);
-        vfprintf(logfile, format, args);
-        fputc('\n', logfile);
-        fflush(logfile);
-    }
-
-    // Log to console (stderr)
-    fprintf(stderr, "%-15.15s :: ", buffer + 4);
-    vfprintf(stderr, format, args);
-    fputc('\n', stderr);
-    fflush(stderr);
+    fprintf(logfile, "%-15.15s :: ", buffer + 4);
+    vfprintf(logfile, format, args);
+    fputc('\n', logfile);
+    fflush(logfile);
 }
 
 /* So mudlog() can use the same function. */
