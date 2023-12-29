@@ -468,77 +468,126 @@ ACMD(do_account)
     grid = create_grid(75);
     row = create_row(grid);
     row_append_cell(row, 75, "@YAccount Information for %s@n", acc->name);
+
+    // Use row_append_cell to add content cells
     row = create_row(grid);
     row_append_cell(row, 20, "Email");
     row_append_cell(row, 54, "%-50s", *acc->email ? escape_colorcode(acc->email) : "@RNot Set@n");
+
     row = create_row(grid);
     row_append_cell(row, 20, "Level");
     row_append_cell(row, 55, "%d", acc->level);
+
     row = create_row(grid);
     row_append_cell(row, 20, "Experience");
     row_append_cell(row, 55, "%d", acc->experience);
+
     row = create_row(grid);
     row_append_cell(row, 20, "Gift Experience");
     row_append_cell(row, 55, "%d", acc->gift_experience);
-    /* Not currently using this code.
-     row = create_row(grid);
-     row_append_cell(row, 20, "Web Password");
-     row_append_cell(row, 55, "%s", acc->web_password); */
-    row = create_row(grid);
-    row_append_cell(row, 75, "@GCharacters@n");
-    row = create_row(grid);
-    row_append_cell(row, 25, "@CCharacter Name@n");
-    row_append_cell(row, 50, "@CSomething Else@n");
 
-    for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
-    {
-        if (acc->character_names[i] != NULL)
-        {
-            row = create_row(grid);
-            row_append_cell(row, 25, "%s", acc->character_names[i]);
-            row_append_cell(row, 50, "---");
-        }
-    }
+    // Add other rows using row_append_cell as needed
 
-    row = create_row(grid);
-    row_append_cell(row, 75, "@GUnlocked Advanced Races@n");
-
-    sbyte found = FALSE;
-    for (i = 0; i < MAX_UNLOCKED_RACES; i++)
-    {
-        if (acc->races[i] > 0 && race_list[acc->races[i]].is_pc)
-        {
-            row = create_row(grid);
-            row_append_cell(row, 75, "  %s", race_list[acc->races[i]].name);
-            found = TRUE;
-        }
-    }
-
-    if (!found)
-    {
-        row = create_row(grid);
-        row_append_cell(row, 75, "  @RNone@n.  Unlock them with the @Yaccexp@n command.");
-    }
-
-    found = FALSE;
-
-    row = create_row(grid);
-    row_append_cell(row, 75, "@GUnlocked Advanced Classes@n");
-
-    for (i = 0; i < MAX_UNLOCKED_CLASSES; i++)
-    {
-        if (acc->classes[i] < 999)
-        {
-            row = create_row(grid);
-            row_append_cell(row, 75, "  %s", class_names_core[acc->classes[i]]);
-            found = TRUE;
-        }
-    }
-    if (!found)
-    {
-        row = create_row(grid);
-        row_append_cell(row, 75, "  @RNone@n.  Unlock them with the @Yaccexp@n command.");
-    }
-
-    grid_to_char(grid, ch, TRUE);
+    // Display the grid
+    grid_to_char_debug(grid, ch, TRUE);
 }
+
+
+// ACMD(do_account)
+// {
+//     struct account_data *acc = ch->desc->account;
+//     int i = 0;
+
+//     if (IS_NPC(ch) || !ch->desc || !ch->desc->account)
+//     {
+//         send_to_char(ch, "The account command can only be used by player characters with a valid account.\r\n");
+//         return;
+//     }
+
+//     GRID_DATA *grid;
+//     GRID_ROW *row;
+
+//     // Create a grid with a fixed width
+//     grid = create_grid(75);
+
+//     // Header row
+//     row = create_row(grid);
+//     row_append_cell(row, 75, "@YAccount Information for %s@n", acc->name);
+
+//     row = create_row(grid);
+//     row_append_cell(row, 20, "Email");
+//     row_append_cell(row, 54, "%-50s", *acc->email ? escape_colorcode(acc->email) : "@RNot Set@n");
+//     row = create_row(grid);
+//     row_append_cell(row, 20, "Level");
+//     row_append_cell(row, 55, "%d", acc->level);
+//     row = create_row(grid);
+//     row_append_cell(row, 20, "Experience");
+//     row_append_cell(row, 55, "%d", acc->experience);
+//     row = create_row(grid);
+//     row_append_cell(row, 20, "Gift Experience");
+//     row_append_cell(row, 55, "%d", acc->gift_experience);
+//     /* Not currently using this code.
+//      row = create_row(grid);
+//      row_append_cell(row, 20, "Web Password");
+//      row_append_cell(row, 55, "%s", acc->web_password); */
+//     row = create_row(grid);
+//     row_append_cell(row, 75, "@GCharacters@n");
+//     row = create_row(grid);
+//     row_append_cell(row, 25, "@CCharacter Name@n");
+//     row_append_cell(row, 50, "@CSomething Else@n");
+
+//     for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
+//     {
+//         if (acc->character_names[i] != NULL)
+//         {
+//             row = create_row(grid);
+//             row_append_cell(row, 25, "%s", acc->character_names[i]);
+//             row_append_cell(row, 50, "---");
+//         }
+//     }
+
+//     row = create_row(grid);
+//     row_append_cell(row, 75, "@GUnlocked Advanced Races@n");
+
+//     sbyte found = FALSE;
+//     for (i = 0; i < MAX_UNLOCKED_RACES; i++)
+//     {
+//         if (acc->races[i] > 0 && race_list[acc->races[i]].is_pc)
+//         {
+//             row = create_row(grid);
+//             row_append_cell(row, 75, "  %s", race_list[acc->races[i]].name);
+//             found = TRUE;
+//         }
+//     }
+
+//     if (!found)
+//     {
+//         row = create_row(grid);
+//         row_append_cell(row, 75, "  @RNone@n.  Unlock them with the @Yaccexp@n command.");
+//     }
+
+//     found = FALSE;
+
+//     row = create_row(grid);
+//     row_append_cell(row, 75, "@GUnlocked Advanced Classes@n");
+
+//     for (i = 0; i < MAX_UNLOCKED_CLASSES; i++)
+//     {
+//         if (acc->classes[i] < 999)
+//         {
+//             row = create_row(grid);
+//             row_append_cell(row, 75, "  %s", class_names_core[acc->classes[i]]);
+//             found = TRUE;
+//         }
+//     }
+//     if (!found)
+//     {
+//         row = create_row(grid);
+//         row_append_cell(row, 75, "  @RNone@n.  Unlock them with the @Yaccexp@n command.");
+//     }
+
+//     // Display the grid
+//     grid_to_char(grid, ch, TRUE);
+
+// }
+

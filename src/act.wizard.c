@@ -4399,35 +4399,40 @@ ACMD(do_awardexp)
     vict->desc->account->experience += act_exp;
 }
 
-ACMD(do_spellup) {
+ACMD(do_spellup)
+{
 
-  struct char_data *vict;
-  int i;
-  
-  skip_spaces(&argument);
+    struct char_data *vict;
+    int i;
 
-  if (!*argument) {
-    send_to_char(ch, "Which spell do you want to cast on everyone?\r\n");
-    return;
-  }
+    skip_spaces(&argument);
 
-  for (i = 0; i <= TOP_SPELL; i++)
-    if (is_abbrev(argument, spell_info[i].name) && strcmp(spell_info[i].name, "!UNUSED!"))
-      break;
-
-  if (i > TOP_SPELL) {
-    send_to_char(ch, "That isn't a valid spell.\r\n");
-    return;
-  }
-
-  for (vict = character_list; vict; vict = vict->next) {
-    if (!IS_NPC(vict) && !GET_ADMLEVEL(vict)) {
-      send_to_char(vict, "%s casts the spell '%s' on you.\r\n", CAN_SEE(vict, ch) ? GET_NAME(ch) : "Someone", spell_info[i].name);
-      cast_spell(ch, vict, NULL, i, NULL);
+    if (!*argument)
+    {
+        send_to_char(ch, "Which spell do you want to cast on everyone?\r\n");
+        return;
     }
-  }
 
-  send_to_char(ch, "You cast the spell '%s' on everyone playing.\r\n", spell_info[i].name);
+    for (i = 0; i <= TOP_SPELL; i++)
+        if (is_abbrev(argument, spell_info[i].name) && strcmp(spell_info[i].name, "!UNUSED!"))
+            break;
+
+    if (i > TOP_SPELL)
+    {
+        send_to_char(ch, "That isn't a valid spell.\r\n");
+        return;
+    }
+
+    for (vict = character_list; vict; vict = vict->next)
+    {
+        if (!IS_NPC(vict) && !GET_ADMLEVEL(vict))
+        {
+            send_to_char(vict, "%s casts the spell '%s' on you.\r\n", CAN_SEE(vict, ch) ? GET_NAME(ch) : "Someone", spell_info[i].name);
+            cast_spell(ch, vict, NULL, i, NULL);
+        }
+    }
+
+    send_to_char(ch, "You cast the spell '%s' on everyone playing.\r\n", spell_info[i].name);
 
 }
 
@@ -4505,26 +4510,21 @@ ACMD(do_feat_dump)
 {
     FILE *fp;
     char error_buffer[MAX_STRING_LENGTH] = {'\0'};
-    int sortpos = 0;
+    int sortpos;
 
-    if ( !(fp = fopen("../dumps/dump_feats.txt", "w") ) )
+    if (!(fp = fopen("../dumps/dump_feats.txt", "w")))
     {
         snprintf(error_buffer, sizeof(error_buffer), "There was an error accessing dump_feats.txt.");
         send_to_char(ch, "%s", error_buffer);
         perror("../dumps/dump_feats.txt");
+        return;
     }
-
-
-    fp=fopen("../dumps/dump_feats.txt", "w");
-    if (fp == NULL)
-        exit(-1);
 
     fprintf(fp, "Feat Name|In-Game|Prerequisite|Description\n");
 
-    for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++) 
+    for (sortpos = 1; sortpos <= NUM_FEATS_DEFINED; sortpos++)
     {
         int i = feat_sort_info[sortpos];
-
         fprintf(fp, "%s|%d|%s|%s\n", feat_list[i].name, feat_list[i].in_game, feat_list[i].prerequisites, feat_list[i].description);
     }
 

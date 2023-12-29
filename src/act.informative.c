@@ -4342,36 +4342,42 @@ ACMD(do_commands)
 
 ACMD(do_whois)
 {
-  const char *immlevels[ADMLVL_OWNER + 1] = {
-  "[Mortal]",          /* lowest admin level */
-  "[Immortal]",        /* lowest admin level +1 */
-  "[Builder]",         /* lowest admin level +2 */
-  "[God]",             /* lowest admin level +3 */
-  "[Greater God]",     /* lowest admin level +4 */
-  "[Co-Owner]",     /* lowest admin level +5 */
-  };
+    const char *immlevels[ADMLVL_OWNER + 1] = {
+        "[Mortal]",          /* lowest admin level */
+        "[Immortal]",        /* lowest admin level +1 */
+        "[Builder]",         /* lowest admin level +2 */
+        "[God]",             /* lowest admin level +3 */
+        "[Greater God]",     /* lowest admin level +4 */
+        "[Co-Owner]",     /* lowest admin level +5 */
+    };
 
-  struct char_data *victim = 0;
-  skip_spaces(&argument);
+    struct char_data *victim = 0;
+    skip_spaces(&argument);
 
-  if (!*argument) {
-    send_to_char(ch, "Who?\r\n");
-  } else {
-  CREATE(victim, struct char_data, 1);
-  clear_char(victim);
-  CREATE(victim->player_specials, struct player_special_data, 1);
-  if (load_char(argument, victim) >= 0) {
-    if (GET_ADMLEVEL(victim) >= ADMLVL_IMMORT)
-      send_to_char(ch, "%s Level %d %s %s\r\n", immlevels[GET_ADMLEVEL(victim)],
-                   GET_LEVEL(victim), GET_NAME(victim), GET_TITLE(victim));
-    else 
-      send_to_char(ch, "Level %d %s - %s %s\r\n", GET_LEVEL(victim),
-                   CLASS_ABBR(victim), GET_NAME(victim), GET_TITLE(victim));
-    } else {
-    send_to_char(ch, "There is no such player.\r\n"); 
+    if (!*argument)
+    {
+        send_to_char(ch, "Who?\r\n");
     }
-    free(victim); 
-  }
+    else
+    {
+        CREATE(victim, struct char_data, 1);
+        clear_char(victim);
+        CREATE(victim->player_specials, struct player_special_data, 1);
+        if (load_char(argument, victim) >= 0)
+        {
+            if (GET_ADMLEVEL(victim) >= ADMLVL_IMMORT)
+                send_to_char(ch, "%s Level %d %s %s\r\n", immlevels[GET_ADMLEVEL(victim)],
+                             GET_LEVEL(victim), GET_NAME(victim), GET_TITLE(victim));
+            else
+                send_to_char(ch, "Level %d %s - %s %s\r\n", GET_LEVEL(victim),
+                             CLASS_ABBR(victim), GET_NAME(victim), GET_TITLE(victim));
+        }
+        else
+        {
+            send_to_char(ch, "There is no such player.\r\n");
+        }
+        free(victim);
+    }
 }
 
 #define DOOR_DCHIDE(ch, door)           (EXIT(ch, door)->dchide)
