@@ -59,6 +59,9 @@ SPECIAL(shop_keeper);
 void Crash_rentsave(struct char_data *ch, int cost);
 void update_encumberance(struct char_data *ch);
 
+#define UNUSED(x) (void)(x)
+
+
 char *fname(const char *namelist)
 {
   static char holder[READ_SIZE];
@@ -991,6 +994,7 @@ int apply_ac(struct char_data *ch, int eq_pos)
         return (0);
 
     return (GET_OBJ_VAL(GET_EQ(ch, eq_pos), VAL_ARMOR_APPLYAC));
+    UNUSED(factor);
 }
 
 int invalid_align(struct char_data *ch, struct obj_data *obj)
@@ -2494,7 +2498,7 @@ void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add)
     int max_skill_mod[SKILL_TABLE_SIZE];
     int max_feat_mod[NUM_FEATS_DEFINED];
     int max_bonus[NUM_APPLIES];
-    int num[NUM_APPLIES];
+    // int num[NUM_APPLIES];
     int num_skill[SKILL_TABLE_SIZE];
     int num_feat[NUM_FEATS_DEFINED];
 
@@ -2502,7 +2506,7 @@ void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add)
     {
         if (x != loc)
             continue;
-        num[x] = 0;
+        // num[x] = 0;
         if (x == APPLY_AC_DODGE || x == APPLY_NONE)
             continue;
         for (j = 0; j < NUM_WEARS; j++)
@@ -2513,7 +2517,7 @@ void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add)
                 {
                     if (x == APPLY_SKILL)
                     {
-                        for (y = 0; y <= SKILL_TABLE_SIZE; y++)
+                        for (y = 0; y < SKILL_TABLE_SIZE; y++)
                         {
                             num_skill[y] = 0;
                             if (GET_EQ(ch, j)->affected[k].specific == y)
@@ -2523,7 +2527,7 @@ void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add)
                     }
                     else if (x == APPLY_FEAT)
                     {
-                        for (y = 0; y <= NUM_FEATS_DEFINED; y++)
+                        for (y = 0; y < NUM_FEATS_DEFINED; y++)
                         {
                             num_feat[y] = 0;
                             if (GET_EQ(ch, j)->affected[k].specific == y)
@@ -2547,14 +2551,14 @@ void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add)
                     {
                         if (x == APPLY_SKILL)
                         {
-                            for (y = 0; y <= SKILL_TABLE_SIZE; y++)
+                            for (y = 0; y < SKILL_TABLE_SIZE; y++)
                                 if (af->specific == y)
                                     if (af->modifier > max_skill_mod[y])
                                         max_skill_mod[y] = af->modifier;
                         }
                         else if (x == APPLY_FEAT)
                         {
-                            for (y = 0; y <= NUM_FEATS_DEFINED; y++)
+                            for (y = 0; y < NUM_FEATS_DEFINED; y++)
                                 if (af->specific == y)
                                     if (af->modifier > max_feat_mod[y])
                                         max_feat_mod[y] = af->modifier;
@@ -2608,6 +2612,8 @@ void set_max_affect(struct char_data *ch, int loc, int mod, int spec, bool add)
             aff_apply_modify(ch, x, -(GET_EQ(ch, j)->affected[k].modifier - max_skill_mod[y]), y,
                              "set_max_affect", FALSE);
     }
+    UNUSED(num_feat);
+    UNUSED(num_skill);
 }
 
 int should_remove_stat(struct char_data *ch, int loc, int mod, int spec) {
@@ -2634,7 +2640,7 @@ int should_remove_stat(struct char_data *ch, int loc, int mod, int spec) {
       for (k = 0; k < MAX_OBJ_AFFECT; k++) {
         if (GET_EQ(ch, j) && GET_EQ(ch, j)->affected[k].location == x) {
           if (x == APPLY_SKILL) {
-            for (y = 0; y <= SKILL_TABLE_SIZE; y++) {
+            for (y = 0; y < SKILL_TABLE_SIZE; y++) {
               num_skill[y] = 0;
               if (GET_EQ(ch, j)->affected[k].specific == y)
                 if (GET_EQ(ch, j)->affected[k].modifier >= max_skill_mod[y]) 
@@ -2642,7 +2648,7 @@ int should_remove_stat(struct char_data *ch, int loc, int mod, int spec) {
             }
           }
           else if (x == APPLY_FEAT) {
-            for (y = 0; y <= NUM_FEATS_DEFINED; y++) {
+            for (y = 0; y < NUM_FEATS_DEFINED; y++) {
               num_feat[y] = 0;
               if (GET_EQ(ch, j)->affected[k].specific == y)
                 if (GET_EQ(ch, j)->affected[k].modifier >= max_feat_mod[y]) 
@@ -2935,6 +2941,10 @@ void mod_llog_entry(struct last_entry *llast, int type)
     return;
 }
 
+
+#define USERNAME_SIZE 16
+#define HOSTNAME_SIZE 128
+
 void add_llog_entry(struct char_data *ch, int type) 
 {
     FILE *fp;
@@ -2958,8 +2968,15 @@ void add_llog_entry(struct char_data *ch, int type)
     {
         /* no entry found, add ..error if close! */
         CREATE(llast, struct last_entry, 1);
-        strncpy(llast->username, GET_NAME(ch), 16);
-        strncpy(llast->hostname, GET_HOST(ch), 128);
+
+        // Use safer strncpy and ensure null-termination
+        strncpy(llast->username, GET_NAME(ch), USERNAME_SIZE - 1);
+        llast->username[USERNAME_SIZE - 1] = '\0';
+
+        // Similar modification for hostname
+        strncpy(llast->hostname, GET_HOST(ch), HOSTNAME_SIZE - 1);
+        llast->hostname[HOSTNAME_SIZE - 1] = '\0';
+
         llast->idnum = GET_IDNUM(ch);
         llast->punique = GET_PREF(ch);
         llast->time = time(0);
@@ -2985,53 +3002,58 @@ void add_llog_entry(struct char_data *ch, int type)
     }
 }
 
+
+#define MAX_BUFFER_SIZE 12800
+#define TIME_STRING_SIZE 25
+
 /* debugging stuff, if you wanna see the whole file */
-char *list_llog_entry() 
+char *list_llog_entry()
 {
-  FILE *fp;
-  struct last_entry llast;
-  char buffer[12800]={'\0'};
-  char storage_buffer[12800]={'\0'};
-  extern const char *last_array[];
-  char timestr[25];
+    FILE *fp;
+    struct last_entry llast;
+    char buffer[MAX_BUFFER_SIZE] = {'\0'};
+    char storage_buffer[MAX_BUFFER_SIZE] = {'\0'};
+    extern const char *last_array[];
+    char timestr[TIME_STRING_SIZE];
 
-  if(!(fp=fopen(LAST_FILE,"r"))) 
-  {
-    log("bad things.");
-    return strdup("Error.");
-  }
+    if (!(fp = fopen(LAST_FILE, "r")))
+    {
+        log("Failed to open the file.");
+        return strdup("Error.");
+    }
 
-  snprintf(buffer, sizeof(buffer),"Last log\r\n");
+    snprintf(buffer, sizeof(buffer), "Last log\r\n");
 
-  fread(&llast,sizeof(struct last_entry),1,fp);
+    while (fread(&llast, sizeof(struct last_entry), 1, fp) == 1)
+    {
+        strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&llast.time));
 
-  strftime(timestr, sizeof(timestr), "%a %b %d %Y %H:%M:%S", localtime(&llast.time));
+        snprintf(storage_buffer, sizeof(storage_buffer), "%s%10s\t%s\t%d\t%s\r\n",
+                 buffer, llast.username, last_array[llast.close_type],
+                 llast.punique, timestr);
 
-  while(!feof(fp)) 
-  {
-    snprintf(storage_buffer, sizeof(storage_buffer),"%s%10s\t%s\t%d\t%s\r\n",
-        buffer,llast.username,last_array[llast.close_type],
-        llast.punique,timestr);
-    fread(&llast,sizeof(struct last_entry),1,fp);
-  }
-  fclose(fp);
-  return strdup(storage_buffer);
+        strcat(buffer, storage_buffer);
+    }
+
+    fclose(fp);
+    return strdup(buffer);
 }
+
 
 void extract_linkless_characters(void)
 {
+    struct char_data * ch, *next;
 
-  struct char_data *ch, *next;
-
-  for (ch = character_list; ch; ch = next) {
-    next = ch->next;
-    if (ch->desc->original)
-      continue;
-    if (!IS_NPC(ch) && !ch->desc && !ch->desc->original) {
-      GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
-      save_char(ch);
-      extract_char(ch);
+    for (ch = character_list; ch; ch = next)
+    {
+        next = ch->next;
+        if (ch->desc->original)
+            continue;
+        if (!IS_NPC(ch) && !ch->desc && !ch->desc->original)
+        {
+            GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
+            save_char(ch);
+            extract_char(ch);
+        }
     }
-  }
-
 }
