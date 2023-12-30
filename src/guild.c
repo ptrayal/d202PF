@@ -125,7 +125,6 @@ int compare_skills(const void *x, const void *y)
 
 void show_skills(struct char_data *ch)
 {
-
     int i = 0;
     int count = 0;
 
@@ -133,10 +132,10 @@ void show_skills(struct char_data *ch)
     send_to_char(ch, "\r\n@WSkills:@n\r\n\r\n");
 
     send_to_char(ch, " %-2s %-19s   %5s    %5s    %5s    %5s    %5s     %5s\r\n", "CS", "Skill Name", "Ranks", "Stat", "Race", "Feat", "Misc", "Total");
-    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++) 
+    for (i = 0; i < SKILL_TABLE_SIZE + 1; i++)
     {
-        if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <= 
-            SKILL_HIGH_SKILL) && !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT)) 
+        if ((spell_info[spell_sort_info[i]].skilltype == SKTYPE_SKILL && spell_sort_info[i] >= SKILL_LOW_SKILL && spell_sort_info[i] <=
+                SKILL_HIGH_SKILL) && !IS_SET(spell_info[spell_sort_info[i]].flags, SKFLAG_CRAFT))
         {
             int racial_bonus = 0;
             int feat_bonus = 0;
@@ -146,27 +145,27 @@ void show_skills(struct char_data *ch)
 
             // Armor Check Penalty
             if (IS_OVER_LOAD(ch))
-              armor_check_penalty += 10;
+                armor_check_penalty += 10;
             else if (IS_HEAVY_LOAD(ch))
-              armor_check_penalty += 6;
+                armor_check_penalty += 6;
             if (IS_MEDIUM_LOAD(ch))
-              armor_check_penalty += 3;
+                armor_check_penalty += 3;
 
             if (IS_SET(spell_info[i].flags, SKFLAG_DEXMOD) ||
-                IS_SET(spell_info[i].flags, SKFLAG_STRMOD))
-              misc_bonus -= armor_check_penalty;
+                    IS_SET(spell_info[i].flags, SKFLAG_STRMOD))
+                misc_bonus -= armor_check_penalty;
 
             if (HAS_FEAT(ch, FEAT_ABLE_LEARNER))
-              feat_bonus += 1;
+                feat_bonus += 1;
 
             // Is Class skill?
             if (spell_info[spell_sort_info[i]].can_learn_skill[GET_CLASS(ch)] == SKLEARN_CLASS)
-              buf = "X";
+                buf = "X";
             else
-              buf = " ";
+                buf = " ";
 
             send_to_char(ch, "[%s] %-19s: [ %3d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %3d ] ", buf, spell_info[spell_sort_info[i]].name, GET_SKILL(ch, spell_sort_info[i]),
-                get_skill_mod(ch, spell_sort_info[i]), racial_bonus, feat_bonus, misc_bonus, get_skill_value(ch, spell_sort_info[i]));
+                         get_skill_mod(ch, spell_sort_info[i]), racial_bonus, feat_bonus, misc_bonus, get_skill_value(ch, spell_sort_info[i]));
         }
         else
             continue;
@@ -175,17 +174,15 @@ void show_skills(struct char_data *ch)
 
     send_to_char(ch, "\r\n");
 
-
-
     send_to_char(ch, "@WLanguages:@n (@Gbright green@n if known)\r\n\r\n");
 
-    for (i = MIN_LANGUAGES; i < SKILL_TABLE_SIZE + 1; i++) 
+    for (i = MIN_LANGUAGES; i < SKILL_TABLE_SIZE + 1; i++)
     {
         if ((spell_info[spell_sort_info[i]].skilltype == (SKTYPE_SKILL + SKTYPE_LANG) && spell_sort_info[i] >= SKILL_LANG_LOW && spell_sort_info[i] <=
-            SKILL_LANG_HIGH)) 
+                SKILL_LANG_HIGH))
         {
-            send_to_char(ch, "%s%-25s%s", GET_SKILL(ch, spell_sort_info[i]) ? "@G" : "", spell_info[spell_sort_info[i]].name, 
-                GET_SKILL(ch, spell_sort_info[i]) ? "@n" : "");
+            send_to_char(ch, "%s%-25s%s", GET_SKILL(ch, spell_sort_info[i]) ? "@G" : "", spell_info[spell_sort_info[i]].name,
+                         GET_SKILL(ch, spell_sort_info[i]) ? "@n" : "");
         }
         else
             continue;
@@ -197,7 +194,6 @@ void show_skills(struct char_data *ch)
     if (count % 3 == 1 )
         send_to_char(ch, "\r\n");
     send_to_char(ch, "\r\n");
-
 }
 
 void display_levelup_skills(struct char_data *ch, int langs)

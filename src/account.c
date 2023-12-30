@@ -462,34 +462,58 @@ ACMD(do_account)
         return;
     }
 
-    GRID_DATA *grid;
-    GRID_ROW *row;
 
-    grid = create_grid(75);
-    row = create_row(grid);
-    row_append_cell(row, 75, "@YAccount Information for %s@n", acc->name);
+    send_to_char(ch, "@YAccount Information for %s@n\r\n", acc->name);
+    send_to_char(ch, "Email: %-50s\r\n", *acc->email ? escape_colorcode(acc->email) : "@RNot Set@n");
+    send_to_char(ch, "Account Level: %d\r\n", acc->level);
+    send_to_char(ch, "Account Experience: %d\r\n", acc->experience);
+    send_to_char(ch, "Giftable Experience: %d\r\n", acc->gift_experience);
+    send_to_char(ch, "\r\n");
 
-    // Use row_append_cell to add content cells
-    row = create_row(grid);
-    row_append_cell(row, 20, "Email");
-    row_append_cell(row, 54, "%-50s", *acc->email ? escape_colorcode(acc->email) : "@RNot Set@n");
+    send_to_char(ch, "@GCharacters under this account@n:\r\n");
+    for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
+    {
+        if (acc->character_names[i] != NULL)
+        {
+            send_to_char(ch, "    %s\r\n", acc->character_names[i]);
+        }
+    }
 
-    row = create_row(grid);
-    row_append_cell(row, 20, "Level");
-    row_append_cell(row, 55, "%d", acc->level);
+    send_to_char(ch, "\r\n");
+    send_to_char(ch, "@GUnlocked Advanced Races@n:\r\n");
+    sbyte found = FALSE;
+    for (i = 0; i < MAX_UNLOCKED_RACES; i++)
+    {
+        if (acc->races[i] > 0 && race_list[acc->races[i]].is_pc)
+        {
+            send_to_char(ch, "    %s\r\n", race_list[acc->races[i]].name);
+            found = TRUE;
+        }
+    }
 
-    row = create_row(grid);
-    row_append_cell(row, 20, "Experience");
-    row_append_cell(row, 55, "%d", acc->experience);
+    if (!found)
+    {
+        send_to_char(ch, "    @RNone@n.  Unlock them with the @Yaccexp@n command.\r\n");
+    }
 
-    row = create_row(grid);
-    row_append_cell(row, 20, "Gift Experience");
-    row_append_cell(row, 55, "%d", acc->gift_experience);
+    found = FALSE;
 
-    // Add other rows using row_append_cell as needed
+    send_to_char(ch, "\r\n");
+    send_to_char(ch, "@GUnlocked Advanced Classes@n:\r\n");
 
-    // Display the grid
-    grid_to_char_debug(grid, ch, TRUE);
+    for (i = 0; i < MAX_UNLOCKED_CLASSES; i++)
+    {
+        if (acc->classes[i] < 999)
+        {
+            send_to_char(ch, "    %s\r\n", class_names_core[acc->classes[i]]);
+            found = TRUE;
+        }
+    }
+    if (!found)
+    {
+        send_to_char(ch, "    @RNone@n.  Unlock them with the @Yaccexp@n command.\r\n");
+    }
+
 }
 
 

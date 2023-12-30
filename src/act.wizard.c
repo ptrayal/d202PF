@@ -1741,30 +1741,32 @@ const char *logtypes[] =
 
 ACMD(do_syslog)
 {
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  int tp = 0;
-/*
-  if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT && GET_ACT_LEVEL(ch) < ADMLVL_IMMORT) {
-    send_to_char(ch, "Only immortals and their characters can set their syslog status.\r\n");
-    return;
-  }
-*/
-  one_argument(argument, arg);
-  if (!*arg) {
-    send_to_char(ch, "Your syslog is currently %s.\r\n",
-	logtypes[(PRF_FLAGGED(ch, PRF_LOG1) ? 1 : 0) + (PRF_FLAGGED(ch, PRF_LOG2) ? 2 : 0)]);
-    return;
-  }
-  if (((tp = search_block(arg, logtypes, FALSE)) == -1)) {
-    send_to_char(ch, "Usage: syslog { Off | Brief | Normal | Complete }\r\n");
-    return;
-  }
-  REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG1);
-  REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
-  if (tp & 1) SET_BIT_AR(PRF_FLAGS(ch), PRF_LOG1);
-  if (tp & 2) SET_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    int tp = 0;
+    /*
+      if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT && GET_ACT_LEVEL(ch) < ADMLVL_IMMORT) {
+        send_to_char(ch, "Only immortals and their characters can set their syslog status.\r\n");
+        return;
+      }
+    */
+    one_argument(argument, arg);
+    if (!*arg)
+    {
+        send_to_char(ch, "Your syslog is currently %s.\r\n",
+                     logtypes[(PRF_FLAGGED(ch, PRF_LOG1) ? 1 : 0) + (PRF_FLAGGED(ch, PRF_LOG2) ? 2 : 0)]);
+        return;
+    }
+    if (((tp = search_block(arg, logtypes, FALSE)) == -1))
+    {
+        send_to_char(ch, "Usage: syslog { Off | Brief | Normal | Complete }\r\n");
+        return;
+    }
+    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG1);
+    REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
+    if (tp & 1) SET_BIT_AR(PRF_FLAGS(ch), PRF_LOG1);
+    if (tp & 2) SET_BIT_AR(PRF_FLAGS(ch), PRF_LOG2);
 
-  send_to_char(ch, "Your syslog is now %s.\r\n", logtypes[tp]);
+    send_to_char(ch, "Your syslog is now %s.\r\n", logtypes[tp]);
 }
 
 #define EXE_FILE "bin/circle" /* maybe use argv[0] but it's not reliable */
