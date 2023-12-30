@@ -988,7 +988,7 @@ void point_update(void)
     {
         char error_message[256];
         snprintf(error_message, sizeof(error_message), "Error: %s", mysql_error(conn));
-        log(error_message);
+        log("%s", error_message);
         log("Cannot connect to mysql database in point update.");
     }
 

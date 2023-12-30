@@ -60,6 +60,7 @@ extern char *shuttle_locales_dl[][7];
 
 #define log			basic_mud_log
 
+
 #define READ_SIZE	256
 
 /* public functions in utils.c */
