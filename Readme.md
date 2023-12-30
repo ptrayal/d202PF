@@ -6,7 +6,7 @@ This is the Pathfinder/d20 Mudbase.  It is based off of Gicker's Forgotten Realm
 
 The original credits for CircleMud 3.1 can be found in the doc directory as license.txt (or license.pdf).
 
-# Update as of DEC-14-2023:
+# Update as of DEC-29-2023:
 
 I am getting back to work on this code.  These are the following things I am working on:
 
@@ -17,6 +17,8 @@ I am getting back to work on this code.  These are the following things I am wor
 [ ] Work through some of the other things documented under issues in GitHub.
 
 [ ] Get the code in good enough condition to make sure it's able to be run down the road by whomever.  Right now, it 'works', but could be better and that's the goal.
+
+[ ] Fixed a bunch of compiler warnings in handler.c, which was the biggest chunk of compiler warnings in the code.
 
 # MYSQL Setup
 
