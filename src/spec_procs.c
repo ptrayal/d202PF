@@ -562,9 +562,6 @@ SPECIAL(select_race)
 {
     int i = 0;
 
-    GRID_DATA *grid;
-    GRID_ROW *row;
-
     if (IS_NPC(ch) || (!CMD_IS("setrace") && !CMD_IS("listraces") && !CMD_IS("north")))
         return 0;
 
@@ -637,41 +634,21 @@ SPECIAL(select_race)
     }
     else
     {
-        // send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name",
-        //              "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
-        grid = create_grid(75);
-        row = create_row(grid);
-        row_append_cell(row, 20, "Race Name");
-        row_append_cell(row, 6, "STR");
-        row_append_cell(row, 6, "CON");
-        row_append_cell(row, 6, "DEX");
-        row_append_cell(row, 6, "INT");
-        row_append_cell(row, 6, "WIS");
-        row_append_cell(row, 6, "CHA");
-        row_append_cell(row, 19, "Account Cost");
+        send_to_char(ch, "%-20s %-3s %-3s %-3s %-3s %-3s %-3s %-9s %-16s\r\n-------------------- --- --- --- --- --- --- --------- ----------------\r\n", "Race Name",
+                     "Str", "Con", "Dex", "Int", "Wis", "Cha", "Level Adj", "Account Exp Cost");
 
         for (i = 0; i < NUM_RACES; i++)
         {
             if (race_list[i].is_pc)
             {
-                row = create_row(grid);
-                row_append_cell(row, 20, "%s", race_list[i].type);
-                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[0]);
-                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[1]);
-                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[4]);
-                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[2]);
-                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[3]);
-                row_append_cell(row, 6, "%-3d", race_list[i].ability_mods[5]);
-                row_append_cell(row, 19, "%-16d", level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
-                // send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type,
-                //              race_list[i].ability_mods[0],
-                //              race_list[i].ability_mods[1],
-                //              race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
-                //              race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
+                send_to_char(ch, "%-20s %-3d %-3d %-3d %-3d %-3d %-3d %-9d %-16d\r\n", race_list[i].type,
+                             race_list[i].ability_mods[0],
+                             race_list[i].ability_mods[1],
+                             race_list[i].ability_mods[4], race_list[i].ability_mods[2], race_list[i].ability_mods[3], race_list[i].ability_mods[5],
+                             race_list[i].level_adjustment, level_exp(race_list[i].level_adjustment + 1, RACE_SPIRIT));
             }
         }
-        grid_to_char(grid, ch, TRUE);
-        // send_to_char(ch, "\r\n");
+        send_to_char(ch, "\r\n");
         return 1;
     }
 }

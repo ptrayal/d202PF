@@ -2481,199 +2481,202 @@ int class_hit_die_size_dl_aol[NUM_CLASSES] = {
 /* Some initializations for characters, including initial skills */
 void do_start(struct char_data *ch)
 {
-  int i, j;
-  struct obj_data *obj;
-//  struct obj_data * objNew, * objCont;	
-  SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOEXIT);
-  SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOATTACK);
-  if (GET_CLASS(ch) < 0 || GET_CLASS(ch) > NUM_CLASSES) {
-    log("Unknown character class %d in do_start, resetting.", GET_CLASS(ch));
-    GET_CLASS(ch) = 0;
-  }
-  set_title(ch, GET_NAME(ch));
-  GET_FEAT_POINTS(ch) = 1;
-  GET_MAX_HIT(ch) = 30;
-  GET_MAX_MANA(ch) = 0;
-  GET_MAX_MOVE(ch) = 1000;
-
-  /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
-
-  extern int race_ages[NUM_RACE_TYPES+1];
-
-  age(ch)->year = MAX(1, race_ages[race_list[GET_RACE(ch)].family] * (111 - dice(1, 21)) / 100);
-  age(ch)->month = 0;
-
-  if (IS_HUMAN(ch))
-    GET_FEAT_POINTS(ch) += 1;
-
-  if (GET_EXP(ch) <= 1) {
-
-  GET_EXP(ch) = 1;
-
-  SET_SKILL(ch, SKILL_LANG_COMMON, 1);
-  SET_SKILL(ch, SKILL_BLACKSMITHING, 1);
-  SET_SKILL(ch, SKILL_GOLDSMITHING, 1);
-  SET_SKILL(ch, SKILL_TAILORING, 1);
-  SET_SKILL(ch, SKILL_HUNTING, 1);
-  SET_SKILL(ch, SKILL_FARMING, 1);
-  SET_SKILL(ch, SKILL_FORESTING, 1);
-  SET_SKILL(ch, SKILL_WOODWORKING, 1);
-  SET_SKILL(ch, SKILL_COOKING, 1);
-  SET_SKILL(ch, SKILL_MINING, 1);
-  SET_SKILL(ch, SKILL_TANNING, 1);
-  SET_SKILL(ch, SKILL_HERBALISM, 1);
-  SET_SKILL(ch, SKILL_CRAFTING_THEORY, 1);
-
-
-  if (race_list[GET_RACE(ch)].language != SKILL_LANG_COMMON)
-    SET_SKILL(ch, race_list[GET_RACE(ch)].language, 1);
-
-  
-
-  SPEAKING(ch) = SKILL_LANG_COMMON;
-  /* assign starting items etc...*/
-  switch GET_CLASS(ch) {
-    case CLASS_WIZARD:
-      obj = read_object(30096, virtual);
-      obj_to_char(obj, ch);
-      GET_GOLD(ch) = 75;
-      break;
-    case CLASS_CLERIC:
-    case CLASS_DRUID:
-      GET_GOLD(ch) = 125;
-      break;
-    case CLASS_ROGUE:
-      GET_GOLD(ch) = 125;
-      break;
-    case CLASS_MONK:
-      GET_ETHIC_ALIGNMENT(ch) = 500;
-      GET_GOLD(ch) = 25;
-      break;    
-    case CLASS_PALADIN:
-      GET_ETHIC_ALIGNMENT(ch) = 500;
-      GET_ALIGNMENT(ch) = 500;
-      GET_GOLD(ch) = 150;
-      break;
-    case CLASS_FIGHTER:
-      GET_GOLD(ch) = 150;   
-      break;
-    case CLASS_RANGER:
-      GET_GOLD(ch) = 150;   
-      break;      
-    case CLASS_ARTISAN:
-      GET_GOLD(ch) = 200;   
-      break;      
-    case CLASS_BARBARIAN:
-    	GET_ETHIC(ch) = -500;
-      SET_BIT_AR(AFF_FLAGS(ch), AFF_ILLITERATE);
-      GET_GOLD(ch) = 150;
-      break;
-    case CLASS_BARD:
-      GET_GOLD(ch) = 125;
-      obj = read_object(30096, virtual);
-      obj_to_char(obj, ch);
-      break;
-
-    default:
-      GET_GOLD(ch) = 150;
-      break;
-  }
-    obj = read_object(30098, virtual);
-    obj_to_char(obj, ch);
-    obj = read_object(2317, virtual);
-    obj_to_char(obj, ch);
-    obj = read_object(2317, virtual);
-    obj_to_char(obj, ch);
-    obj = read_object(2317, virtual);
-    obj_to_char(obj, ch);
-
-  racial_ability_modifiers(ch);
-  ch->aff_abils = ch->real_abils;
-  set_height_and_weight_by_race(ch);
-
-  switch (GET_RACE(ch)) 
-  {
-  case RACE_CENTAUR:
-    GET_MAX_HIT(ch) += 32;
-    GET_ACCURACY_BASE(ch) = 4;
-    GET_SAVE_BASE(ch, SAVING_FORTITUDE) += 1;
-    GET_SAVE_BASE(ch, SAVING_REFLEX)  += 4;
-    GET_SAVE_BASE(ch, SAVING_WILL)  += 4;
-    GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
-    GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
-    SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
-    GET_FEAT_POINTS(ch) = 2;
-    break;
-
-  case RACE_MINOTAUR:
-    if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS) 
-    {    
-    GET_MAX_HIT(ch) += 32;
-    GET_ACCURACY_BASE(ch) = 4;
-    GET_SAVE_BASE(ch, SAVING_FORTITUDE) += 4;
-    GET_SAVE_BASE(ch, SAVING_REFLEX)  += 2;
-    GET_SAVE_BASE(ch, SAVING_WILL)  += 2;
-    GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
-    GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
-    SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
-    SET_FEAT(ch, FEAT_TRACK, 1);
-      GET_FEAT_POINTS(ch) = 2;
-    }
-    break;
-
-  case RACE_OGRE:
-    GET_MAX_HIT(ch) += 32;
-    GET_ACCURACY_BASE(ch) = 3;
-    GET_SAVE_BASE(ch, SAVING_FORTITUDE) += 4;
-    GET_SAVE_BASE(ch, SAVING_REFLEX)  += 1;
-    GET_SAVE_BASE(ch, SAVING_WILL)  += 1;
-    GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
-    GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
-    SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
-    SET_FEAT(ch, FEAT_ARMOR_PROFICIENCY_MEDIUM, 1);
-    GET_FEAT_POINTS(ch) = 2;
-    break;
-  default:
-
-    for (i = 0; (j = free_start_feats[GET_CLASS(ch)][i]); i++) 
+    int i, j;
+    struct obj_data *obj;
+    //  struct obj_data * objNew, * objCont;
+    SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOEXIT);
+    SET_BIT_AR(PRF_FLAGS(ch), PRF_AUTOATTACK);
+    if (GET_CLASS(ch) < 0 || GET_CLASS(ch) > NUM_CLASSES)
     {
-      SET_FEAT(ch, j, 1);
+        log("Unknown character class %d in do_start, resetting.", GET_CLASS(ch));
+        GET_CLASS(ch) = 0;
     }
+    set_title(ch, GET_NAME(ch));
+    GET_FEAT_POINTS(ch) = 1;
+    GET_MAX_HIT(ch) = 30;
+    GET_MAX_MANA(ch) = 0;
+    GET_MAX_MOVE(ch) = 1000;
 
-    GET_SAVE_BASE(ch, SAVING_FORTITUDE) += saving_throw_lookup(0, GET_CLASS(ch), SAVING_FORTITUDE, 1);
-    GET_SAVE_BASE(ch, SAVING_REFLEX)  += saving_throw_lookup(0, GET_CLASS(ch), SAVING_REFLEX, 1);
-    GET_SAVE_BASE(ch, SAVING_WILL)  += saving_throw_lookup(0, GET_CLASS(ch), SAVING_WILL, 1);
+    /* Derived from the SRD under OGL, see ../doc/srd.txt for information */
 
-//    GET_ACCURACY_BASE(ch) += base_hit(0, GET_CLASS(ch), 1);
+    extern int race_ages[NUM_RACE_TYPES + 1];
 
-    break;
-  }
-  GET_LOADROOM(ch) = CONFIG_MORTAL_START;
-  GET_CLAN(ch) = 11;
-  SET_BIT_AR(PRF_FLAGS(ch), PRF_CLANTALK);
-  perform_cinfo(GET_CLAN(ch), "%s is now a member of the clan", GET_NAME(ch));
-  clear_quest(ch);
+    age(ch)->year = MAX(1, race_ages[race_list[GET_RACE(ch)].family] * (111 - dice(1, 21)) / 100);
+    age(ch)->month = 0;
 
-  } // if get_exp <= 1
+    if (IS_HUMAN(ch))
+        GET_FEAT_POINTS(ch) += 1;
 
-  if (GET_CLASS(ch) == CLASS_WIZARD)
-    GET_RESEARCH_TOKENS(ch) = 2;
+    if (GET_EXP(ch) <= 1)
+    {
 
-  GET_MAX_HIT(ch) = calculate_max_hit(ch);
-  GET_HIT(ch) = GET_MAX_HIT(ch);
+        GET_EXP(ch) = 1;
 
-  mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true, "%s advanced to level %d", GET_NAME(ch), GET_LEVEL(ch));
-  GET_HIT(ch) = GET_MAX_HIT(ch);
-  GET_MANA(ch) = GET_MAX_MANA(ch);
-  GET_MOVE(ch) = GET_MAX_MOVE(ch);
-  GET_KI(ch) = GET_MAX_KI(ch);
-  GET_COND(ch, THIRST) = -1;
-  GET_COND(ch, FULL) = -1;
-  GET_COND(ch, DRUNK) = -1;
-  if (CONFIG_SITEOK_ALL)
-    SET_BIT_AR(PLR_FLAGS(ch), PLR_SITEOK);
-  ch->player_specials->olc_zone = NOWHERE;
-  save_char(ch);
+        SET_SKILL(ch, SKILL_LANG_COMMON, 1);
+        SET_SKILL(ch, SKILL_BLACKSMITHING, 1);
+        SET_SKILL(ch, SKILL_GOLDSMITHING, 1);
+        SET_SKILL(ch, SKILL_TAILORING, 1);
+        SET_SKILL(ch, SKILL_HUNTING, 1);
+        SET_SKILL(ch, SKILL_FARMING, 1);
+        SET_SKILL(ch, SKILL_FORESTING, 1);
+        SET_SKILL(ch, SKILL_WOODWORKING, 1);
+        SET_SKILL(ch, SKILL_COOKING, 1);
+        SET_SKILL(ch, SKILL_MINING, 1);
+        SET_SKILL(ch, SKILL_TANNING, 1);
+        SET_SKILL(ch, SKILL_HERBALISM, 1);
+        SET_SKILL(ch, SKILL_CRAFTING_THEORY, 1);
+
+
+        if (race_list[GET_RACE(ch)].language != SKILL_LANG_COMMON)
+            SET_SKILL(ch, race_list[GET_RACE(ch)].language, 1);
+
+
+
+        SPEAKING(ch) = SKILL_LANG_COMMON;
+        /* assign starting items etc...*/
+        switch GET_CLASS(ch)
+        {
+        case CLASS_WIZARD:
+            obj = read_object(30096, virtual);
+            obj_to_char(obj, ch);
+            GET_GOLD(ch) = 75;
+            break;
+        case CLASS_CLERIC:
+        case CLASS_DRUID:
+            GET_GOLD(ch) = 125;
+            break;
+        case CLASS_ROGUE:
+            GET_GOLD(ch) = 125;
+            break;
+        case CLASS_MONK:
+            GET_ETHIC_ALIGNMENT(ch) = 500;
+            GET_GOLD(ch) = 25;
+            break;
+        case CLASS_PALADIN:
+            GET_ETHIC_ALIGNMENT(ch) = 500;
+            GET_ALIGNMENT(ch) = 500;
+            GET_GOLD(ch) = 150;
+            break;
+        case CLASS_FIGHTER:
+            GET_GOLD(ch) = 150;
+            break;
+        case CLASS_RANGER:
+            GET_GOLD(ch) = 150;
+            break;
+        case CLASS_ARTISAN:
+            GET_GOLD(ch) = 200;
+            break;
+        case CLASS_BARBARIAN:
+            GET_ETHIC(ch) = -500;
+            SET_BIT_AR(AFF_FLAGS(ch), AFF_ILLITERATE);
+            GET_GOLD(ch) = 150;
+            break;
+        case CLASS_BARD:
+            GET_GOLD(ch) = 125;
+            obj = read_object(30096, virtual);
+            obj_to_char(obj, ch);
+            break;
+
+        default:
+            GET_GOLD(ch) = 150;
+            break;
+        }
+        obj = read_object(30098, virtual);
+        obj_to_char(obj, ch);
+        obj = read_object(2317, virtual);
+        obj_to_char(obj, ch);
+        obj = read_object(2317, virtual);
+        obj_to_char(obj, ch);
+        obj = read_object(2317, virtual);
+        obj_to_char(obj, ch);
+
+        racial_ability_modifiers(ch);
+        ch->aff_abils = ch->real_abils;
+        set_height_and_weight_by_race(ch);
+
+        switch (GET_RACE(ch))
+        {
+        case RACE_CENTAUR:
+            GET_MAX_HIT(ch) += 32;
+            GET_ACCURACY_BASE(ch) = 4;
+            GET_SAVE_BASE(ch, SAVING_FORTITUDE) += 1;
+            GET_SAVE_BASE(ch, SAVING_REFLEX)  += 4;
+            GET_SAVE_BASE(ch, SAVING_WILL)  += 4;
+            GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
+            GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
+            SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
+            GET_FEAT_POINTS(ch) = 2;
+            break;
+
+        case RACE_MINOTAUR:
+            if (CONFIG_CAMPAIGN == CAMPAIGN_FORGOTTEN_REALMS)
+            {
+                GET_MAX_HIT(ch) += 32;
+                GET_ACCURACY_BASE(ch) = 4;
+                GET_SAVE_BASE(ch, SAVING_FORTITUDE) += 4;
+                GET_SAVE_BASE(ch, SAVING_REFLEX)  += 2;
+                GET_SAVE_BASE(ch, SAVING_WILL)  += 2;
+                GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
+                GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
+                SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
+                SET_FEAT(ch, FEAT_TRACK, 1);
+                GET_FEAT_POINTS(ch) = 2;
+            }
+            break;
+
+        case RACE_OGRE:
+            GET_MAX_HIT(ch) += 32;
+            GET_ACCURACY_BASE(ch) = 3;
+            GET_SAVE_BASE(ch, SAVING_FORTITUDE) += 4;
+            GET_SAVE_BASE(ch, SAVING_REFLEX)  += 1;
+            GET_SAVE_BASE(ch, SAVING_WILL)  += 1;
+            GET_PRACTICES(ch, GET_CLASS(ch)) = 7;
+            GET_PRACTICES(ch, GET_CLASS(ch)) *= MAX(1, 2 + ability_mod_value(ch->real_abils.intel));
+            SET_FEAT(ch, FEAT_WEAPON_PROFICIENCY_SIMPLE, 1);
+            SET_FEAT(ch, FEAT_ARMOR_PROFICIENCY_MEDIUM, 1);
+            GET_FEAT_POINTS(ch) = 2;
+            break;
+        default:
+
+            for (i = 0; (j = free_start_feats[GET_CLASS(ch)][i]); i++)
+            {
+                SET_FEAT(ch, j, 1);
+            }
+
+            GET_SAVE_BASE(ch, SAVING_FORTITUDE) += saving_throw_lookup(0, GET_CLASS(ch), SAVING_FORTITUDE, 1);
+            GET_SAVE_BASE(ch, SAVING_REFLEX)  += saving_throw_lookup(0, GET_CLASS(ch), SAVING_REFLEX, 1);
+            GET_SAVE_BASE(ch, SAVING_WILL)  += saving_throw_lookup(0, GET_CLASS(ch), SAVING_WILL, 1);
+
+            //    GET_ACCURACY_BASE(ch) += base_hit(0, GET_CLASS(ch), 1);
+
+            break;
+        }
+        GET_LOADROOM(ch) = CONFIG_MORTAL_START;
+        GET_CLAN(ch) = 11;
+        SET_BIT_AR(PRF_FLAGS(ch), PRF_CLANTALK);
+        perform_cinfo(GET_CLAN(ch), "%s is now a member of the clan", GET_NAME(ch));
+        clear_quest(ch);
+
+    } // if get_exp <= 1
+
+    if (GET_CLASS(ch) == CLASS_WIZARD)
+        GET_RESEARCH_TOKENS(ch) = 2;
+
+    GET_MAX_HIT(ch) = calculate_max_hit(ch);
+    GET_HIT(ch) = GET_MAX_HIT(ch);
+
+    mudlog(BRF, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), true, "%s advanced to level %d", GET_NAME(ch), GET_LEVEL(ch));
+    GET_HIT(ch) = GET_MAX_HIT(ch);
+    GET_MANA(ch) = GET_MAX_MANA(ch);
+    GET_MOVE(ch) = GET_MAX_MOVE(ch);
+    GET_KI(ch) = GET_MAX_KI(ch);
+    GET_COND(ch, THIRST) = -1;
+    GET_COND(ch, FULL) = -1;
+    GET_COND(ch, DRUNK) = -1;
+    if (CONFIG_SITEOK_ALL)
+        SET_BIT_AR(PLR_FLAGS(ch), PLR_SITEOK);
+    ch->player_specials->olc_zone = NOWHERE;
+    save_char(ch);
 
 }
 

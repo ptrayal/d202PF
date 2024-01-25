@@ -34,67 +34,83 @@ void hedit_disp_menu(struct descriptor_data *d);
 
 ACMD(do_oasis_hedit)
 {
-  int counter = 0;
+    int counter = 0;
 
-  char arg[MAX_INPUT_LENGTH]={'\0'};
-  struct descriptor_data *d;
-  
-  if (GET_OLC_ZONE(ch) != HEDIT_PERMISSION && GET_LEVEL(ch) < ADMLVL_GRGOD) {
-    send_to_char(ch, "You don't have access to editing Help files.\r\n");
-    return;
-  }
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
+    struct descriptor_data *d;
 
-  for (d = descriptor_list; d; d = d->next)
-    if (STATE(d) == CON_HEDIT) {
-      send_to_char(ch, "Sorry, only one can person can edit help files at a time.\r\n");
-      return;
+    /* No building as a mob or while being forced. */
+    if (IS_NPC(ch) || !ch->desc || STATE(ch->desc) != CON_PLAYING)
+        return;
+
+    if (GET_OLC_ZONE(ch) != HEDIT_PERMISSION && GET_LEVEL(ch) <= ADMLVL_GRGOD)
+    {
+        send_to_char(ch, "You don't have access to editing Help files.\r\n");
+        return;
     }
 
-  one_argument(argument, arg);
-    
-  if (!*arg) {
-    send_to_char(ch, "Please specify a help entry to edit.\r\n");
-    return;
-  }
+    // Modifying so that Greater Gods and above can always edit helpfiles
+    // if (GET_LEVEL(ch) <= ADMLVL_GOD)
+    // {
+    //     send_to_char(ch, "You don't have access to editing Help files.\r\n");
+    //     return;
+    // }
 
-  d = ch->desc;
+    for (d = descriptor_list; d; d = d->next)
+        if (STATE(d) == CON_HEDIT)
+        {
+            send_to_char(ch, "Sorry, only one can person can edit help files at a time.\r\n");
+            return;
+        }
 
-  if (!str_cmp("save", arg)) {
-    mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), true, "OLC: %s saves help files.", GET_NAME(ch));
-    send_to_char(ch, "Writing help file..\r\n");
-    hedit_save_to_disk(d);
-    send_to_char(ch, "Done.\r\n");
-    return;
-  }
-  
-  /*
-   * Give descriptor an OLC structure.
-   */
-  if (d && d->olc) {
-    mudlog(BRF, ADMLVL_IMMORT, true, "SYSERR: do_oasis: Player already had olc structure.");
-    free(d->olc);
-  }
-  CREATE(d->olc, struct oasis_olc_data, 1);
+    one_argument(argument, arg);
 
-  OLC_NUM(d) = 0;
-  
-   for (OLC_ZNUM(d) = 0; OLC_ZNUM(d) < top_of_helpt; OLC_ZNUM(d)++)
-    if (isname(arg, help_table[OLC_ZNUM(d)].keywords))
-      break;
+    if (!*arg)
+    {
+        send_to_char(ch, "Please specify a help entry to edit.\r\n");
+        return;
+    }
 
-  counter = OLC_ZNUM(d);
+    d = ch->desc;
 
-  if (counter <= 0) 
-     hedit_setup_new(d, arg);
-  else 
-     hedit_setup_existing(d, OLC_ZNUM(d));
-  
- 
+    if (!str_cmp("save", arg))
+    {
+        mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(ch)), true, "OLC: %s saves help files.", GET_NAME(ch));
+        send_to_char(ch, "Writing help file..\r\n");
+        hedit_save_to_disk(d);
+        send_to_char(ch, "Done.\r\n");
+        return;
+    }
 
-  STATE(d) = CON_HEDIT;
-  act("$n starts using OLC.", true, d->character, 0, 0, TO_ROOM);
-  SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-  mudlog(CMP, ADMLVL_IMMORT, true, "OLC: %s starts editing help files.", GET_NAME(ch));
+    /*
+     * Give descriptor an OLC structure.
+     */
+    if (d && d->olc)
+    {
+        mudlog(BRF, ADMLVL_IMMORT, true, "SYSERR: do_oasis: Player already had olc structure.");
+        free(d->olc);
+    }
+    CREATE(d->olc, struct oasis_olc_data, 1);
+
+    OLC_NUM(d) = 0;
+
+    for (OLC_ZNUM(d) = 0; OLC_ZNUM(d) < top_of_helpt; OLC_ZNUM(d)++)
+        if (isname(arg, help_table[OLC_ZNUM(d)].keywords))
+            break;
+
+    counter = OLC_ZNUM(d);
+
+    if (counter <= 0)
+        hedit_setup_new(d, arg);
+    else
+        hedit_setup_existing(d, OLC_ZNUM(d));
+
+
+
+    STATE(d) = CON_HEDIT;
+    act("$n starts using OLC.", true, d->character, 0, 0, TO_ROOM);
+    SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+    mudlog(CMP, ADMLVL_IMMORT, true, "OLC: %s starts editing help files.", GET_NAME(ch));
 }
 
 

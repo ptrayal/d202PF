@@ -1588,734 +1588,799 @@ void load_char_pets(struct char_data *ch)
 /* This is the ASCII Player Files save routine */
 void save_char(struct char_data * ch)
 {
-  FILE *fl;
-  char fname[40]={'\0'}, tmpname[40]={'\0'}, bakname[40]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
-  int i = 0, j = 0, id = 0, save_index = FALSE;
-  struct affected_type *aff, tmp_aff[MAX_AFFECT], tmp_affv[MAX_AFFECT];
-  struct damreduct_type *reduct;
-  struct obj_data *char_eq[NUM_WEARS];
-  char fbuf1[MAX_STRING_LENGTH]={'\0'}, fbuf2[MAX_STRING_LENGTH]={'\0'};
-  char fbuf3[MAX_STRING_LENGTH]={'\0'}, fbuf4[MAX_STRING_LENGTH]={'\0'};
-  struct memorize_node *mem, *next;
-  struct innate_node *inn = NULL, *next_inn = NULL;
+    FILE *fl;
+    char fname[40] = {'\0'}, tmpname[40] = {'\0'}, bakname[40] = {'\0'}, buf[MAX_STRING_LENGTH] = {'\0'};
+    int i = 0, j = 0, id = 0, save_index = FALSE;
+    struct affected_type * aff, tmp_aff[MAX_AFFECT], tmp_affv[MAX_AFFECT];
+    struct damreduct_type *reduct;
+    struct obj_data *char_eq[NUM_WEARS];
+    char fbuf1[MAX_STRING_LENGTH] = {'\0'}, fbuf2[MAX_STRING_LENGTH] = {'\0'};
+    char fbuf3[MAX_STRING_LENGTH] = {'\0'}, fbuf4[MAX_STRING_LENGTH] = {'\0'};
+    struct memorize_node * mem, *next;
+    struct innate_node *inn = NULL, *next_inn = NULL;
 
-  if (IS_NPC(ch) || GET_PFILEPOS(ch) < 0)
-    return;
-
-  /*
-   * If ch->desc is not null, then we need to update some session data
-   * before saving.
-   */
-  if (ch->desc) {
-    if (ch->desc->host && *ch->desc->host) {
-      if (!GET_HOST(ch))
-        GET_HOST(ch) = strdup(ch->desc->host);
-      else if (GET_HOST(ch) && !strcmp(GET_HOST(ch), ch->desc->host)) {
-        free(GET_HOST(ch));
-      GET_HOST(ch) = strdup(ch->desc->host);
-      }
-    }
+    if (IS_NPC(ch) || GET_PFILEPOS(ch) < 0)
+        return;
 
     /*
-     * We only update the time.played and time.logon if the character
-     * is playing.
+     * If ch->desc is not null, then we need to update some session data
+     * before saving.
      */
-    if (STATE(ch->desc) == CON_PLAYING) {
-      ch->time.played += time(0) - ch->time.logon;
-      ch->time.logon = time(0);
+    if (ch->desc)
+    {
+        if (ch->desc->host && *ch->desc->host)
+        {
+            if (!GET_HOST(ch))
+                GET_HOST(ch) = strdup(ch->desc->host);
+            else if (GET_HOST(ch) && !strcmp(GET_HOST(ch), ch->desc->host))
+            {
+                free(GET_HOST(ch));
+                GET_HOST(ch) = strdup(ch->desc->host);
+            }
+        }
+
+        /*
+         * We only update the time.played and time.logon if the character
+         * is playing.
+         */
+        if (STATE(ch->desc) == CON_PLAYING)
+        {
+            ch->time.played += time(0) - ch->time.logon;
+            ch->time.logon = time(0);
+        }
     }
-  }
 
-  if (!get_filename(fname, sizeof(fname), PLR_FILE, GET_NAME(ch)))
-    return;
-  snprintf(tmpname, sizeof(tmpname), "%s.new", fname);
-  snprintf(bakname, sizeof(bakname), "%s.bak", fname);
-  if (!(fl = fopen(tmpname, "w"))) {
-    mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open temporary player file %s for write", tmpname);
-    return;
-  }
+    if (!get_filename(fname, sizeof(fname), PLR_FILE, GET_NAME(ch)))
+        return;
+    snprintf(tmpname, sizeof(tmpname), "%s.new", fname);
+    snprintf(bakname, sizeof(bakname), "%s.bak", fname);
+    if (!(fl = fopen(tmpname, "w")))
+    {
+        mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't open temporary player file %s for write", tmpname);
+        return;
+    }
 
-  /* remove affects from eq and spells (from char_to_store) */
-  /* Unaffect everything a character can be affected by */
+    /* remove affects from eq and spells (from char_to_store) */
+    /* Unaffect everything a character can be affected by */
 
-  for (i = 0; i < NUM_WEARS; i++) {
-    if (GET_EQ(ch, i)) {
-      char_eq[i] = unequip_char(ch, i);
+    for (i = 0; i < NUM_WEARS; i++)
+    {
+        if (GET_EQ(ch, i))
+        {
+            char_eq[i] = unequip_char(ch, i);
 #ifndef NO_EXTRANEOUS_TRIGGERS
-      remove_otrigger(char_eq[i], ch);
+            remove_otrigger(char_eq[i], ch);
 #endif
-    } else
-      char_eq[i] = NULL;
-  }
-
-  for (aff = ch->affected, i = 0; i < MAX_AFFECT; i++) {
-    if (aff) {
-      tmp_aff[i] = *aff;
-      tmp_aff[i].next = 0;
-      aff = aff->next;
-    } else {
-      tmp_aff[i].type = 0;	/* Zero signifies not used */
-      tmp_aff[i].duration = 0;
-      tmp_aff[i].modifier = 0;
-      tmp_aff[i].specific = 0;
-      tmp_aff[i].location = 0;
-      tmp_aff[i].bitvector = 0;
-      tmp_aff[i].next = 0;
+        }
+        else
+            char_eq[i] = NULL;
     }
-  }
 
-  for (aff = ch->affectedv, i = 0; i < MAX_AFFECT; i++) {
-    if (aff) {
-      tmp_affv[i] = *aff;
-      tmp_affv[i].next = 0;
-      aff = aff->next;
-    } else {
-      tmp_affv[i].type = 0;      /* Zero signifies not used */
-      tmp_affv[i].duration = 0;
-      tmp_affv[i].modifier = 0;
-      tmp_affv[i].location = 0;
-      tmp_affv[i].specific = 0;
-      tmp_affv[i].bitvector = 0;
-      tmp_affv[i].next = 0;
+    for (aff = ch->affected, i = 0; i < MAX_AFFECT; i++)
+    {
+        if (aff)
+        {
+            tmp_aff[i] = *aff;
+            tmp_aff[i].next = 0;
+            aff = aff->next;
+        }
+        else
+        {
+            tmp_aff[i].type = 0;  /* Zero signifies not used */
+            tmp_aff[i].duration = 0;
+            tmp_aff[i].modifier = 0;
+            tmp_aff[i].specific = 0;
+            tmp_aff[i].location = 0;
+            tmp_aff[i].bitvector = 0;
+            tmp_aff[i].next = 0;
+        }
     }
-  }
 
-  save_char_vars(ch);
+    for (aff = ch->affectedv, i = 0; i < MAX_AFFECT; i++)
+    {
+        if (aff)
+        {
+            tmp_affv[i] = *aff;
+            tmp_affv[i].next = 0;
+            aff = aff->next;
+        }
+        else
+        {
+            tmp_affv[i].type = 0;      /* Zero signifies not used */
+            tmp_affv[i].duration = 0;
+            tmp_affv[i].modifier = 0;
+            tmp_affv[i].location = 0;
+            tmp_affv[i].specific = 0;
+            tmp_affv[i].bitvector = 0;
+            tmp_affv[i].next = 0;
+        }
+    }
+
+    save_char_vars(ch);
 
 
-  /*
-   * remove the affections so that the raw values are stored; otherwise the
-   * effects are doubled when the char logs back in.
-   */
+    /*
+     * remove the affections so that the raw values are stored; otherwise the
+     * effects are doubled when the char logs back in.
+     */
 
-  while (ch->affected)
-    affect_remove(ch, ch->affected);
+    while (ch->affected)
+        affect_remove(ch, ch->affected);
 
-  while (ch->affectedv)
-    affectv_remove(ch, ch->affectedv);
+    while (ch->affectedv)
+        affectv_remove(ch, ch->affectedv);
 
-  if ((i >= MAX_AFFECT) && aff && aff->next)
-    log("SYSERR: WARNING: OUT OF STORE ROOM FOR AFFECTED TYPES!!!");
+    if ((i >= MAX_AFFECT) && aff && aff->next)
+        log("SYSERR: WARNING: OUT OF STORE ROOM FOR AFFECTED TYPES!!!");
 
-  ch->aff_abils = ch->real_abils;
+    ch->aff_abils = ch->real_abils;
 
-  /* end char_to_store code */
+    /* end char_to_store code */
 
 
-  if (GET_NAME(ch))				fprintf(fl, "Name: %s\n", GET_NAME(ch));
-  if (GET_IRDA_NAME_1(ch)) fprintf(fl, "INa1: %s\n", GET_IRDA_NAME_1(ch));
-  if (GET_IRDA_NAME_2(ch)) fprintf(fl, "INa2: %s\n", GET_IRDA_NAME_2(ch));
-  if (GET_PASSWD(ch))				fprintf(fl, "Pass: %s\n", GET_PASSWD(ch));
-  if (ch->desc && ch->desc->account && ch->desc->account->name) {
-    fprintf(fl, "Acct: %s\n", ch->desc->account->name);
-    fprintf(fl, "ActN: %s\n", ch->desc->account->name);
-  }
-  if (GET_TITLE(ch))				fprintf(fl, "Titl: %s\n", GET_TITLE(ch));
-  if (GET_IRDA_TITLE_1(ch)) fprintf(fl, "ITi1: %s\n", GET_IRDA_TITLE_1(ch));
-  if (GET_IRDA_TITLE_2(ch)) fprintf(fl, "ITi2: %s\n", GET_IRDA_TITLE_2(ch));  
-  if (ch->player_specials->short_descr)				fprintf(fl, "SDsc: %s\n", ch->player_specials->short_descr);
-  if (ch->player_specials->irda_short_descr_one)				fprintf(fl, "ISD1: %s\n", ch->player_specials->irda_short_descr_one);  
-  if (ch->player_specials->irda_short_descr_two)				fprintf(fl, "ISD2: %s\n", ch->player_specials->irda_short_descr_two);    
-  if (ch->player_specials->keywords)				fprintf(fl, "KeyW: %s\n", ch->player_specials->keywords);
-  if (ch->player_specials->irda_keywords_one)				fprintf(fl, "IKw1: %s\n", ch->player_specials->irda_keywords_one);  
-  if (ch->player_specials->irda_keywords_two)				fprintf(fl, "IKw2: %s\n", ch->player_specials->irda_keywords_two);    
-  if (GET_LONG_DESC(ch))			fprintf(fl, "LDsc: %s\n", GET_LONG_DESC(ch));  
-  if (GET_TRAINS(ch))				fprintf(fl, "Trns: %d\n", GET_TRAINS(ch));
-  if ((ch)->trains_unspent)			fprintf(fl, "TrUS: %d\n", (ch)->trains_unspent);
-  if (ch->player_specials->RKit)                fprintf(fl, "RKit: %d\n", ch->player_specials->RKit);
-  if (ch->player_specials->description && *ch->player_specials->description) {
-    strcpy(buf, ch->player_specials->description);
-    kill_ems(buf);
-    fprintf(fl, "Desc:\n%s~\n", buf);
-  }
-  if (ch->player_specials->irda_description_one && *ch->player_specials->irda_description_one) {
-    strcpy(buf, ch->player_specials->irda_description_one);
-    kill_ems(buf);
-    fprintf(fl, "IDs1:\n%s~\n", buf);
-  }  
-  if (ch->player_specials->irda_description_two && *ch->player_specials->irda_description_two) {
-    strcpy(buf, ch->player_specials->irda_description_two);
-    kill_ems(buf);
-    fprintf(fl, "IDs2:\n%s~\n", buf);
-  }    
+    if (GET_NAME(ch))       fprintf(fl, "Name: %s\n", GET_NAME(ch));
+    if (GET_IRDA_NAME_1(ch)) fprintf(fl, "INa1: %s\n", GET_IRDA_NAME_1(ch));
+    if (GET_IRDA_NAME_2(ch)) fprintf(fl, "INa2: %s\n", GET_IRDA_NAME_2(ch));
+    if (GET_PASSWD(ch))       fprintf(fl, "Pass: %s\n", GET_PASSWD(ch));
+    if (ch->desc && ch->desc->account && ch->desc->account->name)
+    {
+        fprintf(fl, "Acct: %s\n", ch->desc->account->name);
+        fprintf(fl, "ActN: %s\n", ch->desc->account->name);
+    }
+    if (GET_TITLE(ch))        fprintf(fl, "Titl: %s\n", GET_TITLE(ch));
+    if (GET_IRDA_TITLE_1(ch)) fprintf(fl, "ITi1: %s\n", GET_IRDA_TITLE_1(ch));
+    if (GET_IRDA_TITLE_2(ch)) fprintf(fl, "ITi2: %s\n", GET_IRDA_TITLE_2(ch));
+    if (ch->player_specials->short_descr)       fprintf(fl, "SDsc: %s\n", ch->player_specials->short_descr);
+    if (ch->player_specials->irda_short_descr_one)        fprintf(fl, "ISD1: %s\n", ch->player_specials->irda_short_descr_one);
+    if (ch->player_specials->irda_short_descr_two)        fprintf(fl, "ISD2: %s\n", ch->player_specials->irda_short_descr_two);
+    if (ch->player_specials->keywords)        fprintf(fl, "KeyW: %s\n", ch->player_specials->keywords);
+    if (ch->player_specials->irda_keywords_one)       fprintf(fl, "IKw1: %s\n", ch->player_specials->irda_keywords_one);
+    if (ch->player_specials->irda_keywords_two)       fprintf(fl, "IKw2: %s\n", ch->player_specials->irda_keywords_two);
+    if (GET_LONG_DESC(ch))      fprintf(fl, "LDsc: %s\n", GET_LONG_DESC(ch));
+    if (GET_TRAINS(ch))       fprintf(fl, "Trns: %d\n", GET_TRAINS(ch));
+    if ((ch)->trains_unspent)     fprintf(fl, "TrUS: %d\n", (ch)->trains_unspent);
+    if (ch->player_specials->RKit)                fprintf(fl, "RKit: %d\n", ch->player_specials->RKit);
+    if (ch->player_specials->description && *ch->player_specials->description)
+    {
+        strcpy(buf, ch->player_specials->description);
+        kill_ems(buf);
+        fprintf(fl, "Desc:\n%s~\n", buf);
+    }
+    if (ch->player_specials->irda_description_one && *ch->player_specials->irda_description_one)
+    {
+        strcpy(buf, ch->player_specials->irda_description_one);
+        kill_ems(buf);
+        fprintf(fl, "IDs1:\n%s~\n", buf);
+    }
+    if (ch->player_specials->irda_description_two && *ch->player_specials->irda_description_two)
+    {
+        strcpy(buf, ch->player_specials->irda_description_two);
+        kill_ems(buf);
+        fprintf(fl, "IDs2:\n%s~\n", buf);
+    }
 #ifdef ASCII_SAVE_POOFS
-  if (POOFIN(ch))				fprintf(fl, "PfIn: %s\n", POOFIN(ch));
-  if (POOFOUT(ch))				fprintf(fl, "PfOt: %s\n", POOFOUT(ch));
+    if (POOFIN(ch))       fprintf(fl, "PfIn: %s\n", POOFIN(ch));
+    if (POOFOUT(ch))        fprintf(fl, "PfOt: %s\n", POOFOUT(ch));
 #endif
-  if (GET_SEX(ch)	   != PFDEF_SEX)	fprintf(fl, "Sex : %d\n", GET_SEX(ch)); 
-  if (ch->size		   != PFDEF_SIZE)	fprintf(fl, "Size: %d\n", ch->size); 
-  if (GET_CLASS(ch)	   != PFDEF_CLASS)	fprintf(fl, "Clas: %d\n", GET_CLASS(ch)); 
-  if (GET_REAL_RACE(ch)	   != PFDEF_RACE)	fprintf(fl, "Race: %d\n", GET_REAL_RACE(ch));
-  if (GET_DISGUISE_RACE(ch))	                fprintf(fl, "DRac: %d\n", GET_DISGUISE_RACE(ch));
-  if (GET_RAGE(ch)     != 0)        fprintf(fl, "Rage: %d\n", GET_RAGE(ch));
-  if (GET_DEFENSIVE_STANCE(ch) != 0)        fprintf(fl, "DfSt: %d\n", GET_DEFENSIVE_STANCE(ch));
-  if (GET_RESEARCH_TOKENS(ch) != 0) fprintf(fl, "RTok: %d\n", GET_RESEARCH_TOKENS(ch));
-  if (GET_TURN_UNDEAD(ch) != 0)     fprintf(fl, "Turn: %d\n", GET_TURN_UNDEAD(ch));
-	if (GET_STRENGTH_OF_HONOR(ch) != 0) fprintf(fl, "StrH: %d\n", GET_STRENGTH_OF_HONOR(ch));
-  if (GET_ADMLEVEL(ch)	   != PFDEF_LEVEL)	fprintf(fl, "AdmL: %d\n", GET_ADMLEVEL(ch));
-  if (GET_CLASS_LEVEL(ch)  != PFDEF_LEVEL)	fprintf(fl, "Levl: %d\n", GET_CLASS_LEVEL(ch));
-  if (GET_LAY_HANDS(ch) != 0)		fprintf(fl, "LayH: %d\n", GET_LAY_HANDS(ch));
-  if (GET_IRDA_SHAPE_STATUS(ch) != PFDEF_IRDA_SHAPE_STATUS) fprintf(fl, "ISSt: %d\n", GET_IRDA_SHAPE_STATUS(ch));
-  if (GET_LEVEL_STAGE(ch))			fprintf(fl, "LStg: %d\n", GET_LEVEL_STAGE(ch));
-  if (GET_HITDICE(ch)      != PFDEF_LEVEL)	fprintf(fl, "HitD: %d\n", GET_HITDICE(ch));
-  if (GET_LEVEL_ADJ(ch)    != PFDEF_LEVEL)	fprintf(fl, "LvlA: %d\n", GET_LEVEL_ADJ(ch));
-  if (GET_HOME(ch)	   != PFDEF_HOMETOWN)	fprintf(fl, "Home: %d\n", GET_HOME(ch));
-  if (GET_COMPANION_VNUM(ch) != 0) fprintf(fl, "CNum: %X\n", GET_COMPANION_VNUM(ch));
-  if (GET_FAMILIAR_VNUM(ch) != 0) fprintf(fl, "FNum: %d\n", GET_FAMILIAR_VNUM(ch));
-  if (GET_MOUNT_VNUM(ch) != 0) fprintf(fl, "MNum: %d\n", GET_MOUNT_VNUM(ch));
-  if (GET_PET_VNUM(ch) != 0) fprintf(fl, "PNum: %d\n", GET_PET_VNUM(ch));
-  if (GET_PC_DESCRIPTOR_1(ch) != 0) fprintf(fl, "GSD1: %d\n", GET_PC_DESCRIPTOR_1(ch));
-  if (GET_PC_DESCRIPTOR_2(ch) != 0) fprintf(fl, "GSD2: %d\n", GET_PC_DESCRIPTOR_2(ch));
-  if (GET_PC_ADJECTIVE_1(ch) != 0) fprintf(fl, "GSA1: %d\n", GET_PC_ADJECTIVE_1(ch));
-  if (GET_PC_ADJECTIVE_2(ch) != 0) fprintf(fl, "GSA2: %d\n", GET_PC_ADJECTIVE_2(ch));
-  if (IS_APPROVED(ch) != 0) fprintf(fl, "Appr: %d\n", IS_APPROVED(ch));
-  if (GET_HEAL_ROLL(ch) != PFDEF_HEAL_ROLL) fprintf(fl, "HRol: %d\n", GET_HEAL_ROLL(ch));
-  if (GET_HP_BONUS(ch) != 0) fprintf(fl, "HPBn: %d\n", GET_HP_BONUS(ch));
-  if (GET_HEAL_AMOUNT(ch) != PFDEF_HEAL_AMOUNT) fprintf(fl, "HAmt: %d\n", GET_HEAL_AMOUNT(ch));
-  if (GET_HEAL_USED(ch) != PFDEF_HEAL_USED) fprintf(fl, "Heal: %d\n", GET_HEAL_USED(ch));
-  if (GET_CAMP_USED(ch) != 0) fprintf(fl, "Camp: %d\n", GET_CAMP_USED(ch));
-  if ((ch)->combat_output != 0) fprintf(fl, "COut: %d\n", (ch)->combat_output);
-  if (GET_GUILD(ch) != -1) fprintf(fl, "Gild: %d\n", GET_GUILD(ch));
-  if (GET_GUILD_RANK(ch) != 1) fprintf(fl, "GRnk: %d\n", GET_GUILD_RANK(ch));
-  if (GET_GUILD_EXP(ch) != 0) fprintf(fl, "GExp: %d\n", GET_GUILD_EXP(ch));
-  if (GET_SUBGUILD(ch) != -1) fprintf(fl, "GSub: %d\n", GET_SUBGUILD(ch));
-  fprintf(fl, "FAln: %d\n", GET_FALSE_ALIGNMENT(ch));
-  fprintf(fl, "FEth: %d\n", GET_FALSE_ETHOS(ch));
-  if(GET_CLAN(ch) != PFDEF_CLAN) fprintf(fl, "Clan: %d\n", GET_CLAN(ch));
-  if(GET_CLAN_RANK(ch) != PFDEF_CLANRANK) fprintf(fl, "Rank: %d\n", GET_CLAN_RANK(ch));
-  if (GET_RP_POINTS(ch)) fprintf(fl, "RPPt: %ld\n", GET_RP_POINTS(ch));
-  if (GET_RP_EXP_BONUS(ch)) fprintf(fl, "RPEx: %d\n", GET_RP_EXP_BONUS(ch));
-  if (GET_RP_ART_EXP_BONUS(ch)) fprintf(fl, "RPAE: %d\n", GET_RP_ART_EXP_BONUS(ch));
-  if (GET_RP_GOLD_BONUS(ch)) fprintf(fl, "RPGp: %d\n", GET_RP_GOLD_BONUS(ch));
-  if (GET_RP_ACCOUNT_EXP(ch)) fprintf(fl, "RPAE: %d\n", GET_RP_ACCOUNT_EXP(ch));
-  if (GET_RP_QP_BONUS(ch)) fprintf(fl, "RPQP: %d\n", GET_RP_QP_BONUS(ch));
-  if (GET_RP_CRAFT_BONUS(ch)) fprintf(fl, "RPCr: %d\n", GET_RP_CRAFT_BONUS(ch));
-  fprintf(fl, "Stat: %d\n", GET_STAT_POINTS(ch));
-  fprintf(fl, "StGv: %d\n", (ch)->stat_points_given);
+    if (GET_SEX(ch)    != PFDEF_SEX)  fprintf(fl, "Sex : %d\n", GET_SEX(ch));
+    if (ch->size       != PFDEF_SIZE) fprintf(fl, "Size: %d\n", ch->size);
+    if (GET_CLASS(ch)    != PFDEF_CLASS)  fprintf(fl, "Clas: %d\n", GET_CLASS(ch));
+    if (GET_REAL_RACE(ch)    != PFDEF_RACE) fprintf(fl, "Race: %d\n", GET_REAL_RACE(ch));
+    if (GET_DISGUISE_RACE(ch))                  fprintf(fl, "DRac: %d\n", GET_DISGUISE_RACE(ch));
+    if (GET_RAGE(ch)     != 0)        fprintf(fl, "Rage: %d\n", GET_RAGE(ch));
+    if (GET_DEFENSIVE_STANCE(ch) != 0)        fprintf(fl, "DfSt: %d\n", GET_DEFENSIVE_STANCE(ch));
+    if (GET_RESEARCH_TOKENS(ch) != 0) fprintf(fl, "RTok: %d\n", GET_RESEARCH_TOKENS(ch));
+    if (GET_TURN_UNDEAD(ch) != 0)     fprintf(fl, "Turn: %d\n", GET_TURN_UNDEAD(ch));
+    if (GET_STRENGTH_OF_HONOR(ch) != 0) fprintf(fl, "StrH: %d\n", GET_STRENGTH_OF_HONOR(ch));
+    if (GET_ADMLEVEL(ch)     != PFDEF_LEVEL)  fprintf(fl, "AdmL: %d\n", GET_ADMLEVEL(ch));
+    if (GET_CLASS_LEVEL(ch)  != PFDEF_LEVEL)  fprintf(fl, "Levl: %d\n", GET_CLASS_LEVEL(ch));
+    if (GET_LAY_HANDS(ch) != 0)   fprintf(fl, "LayH: %d\n", GET_LAY_HANDS(ch));
+    if (GET_IRDA_SHAPE_STATUS(ch) != PFDEF_IRDA_SHAPE_STATUS) fprintf(fl, "ISSt: %d\n", GET_IRDA_SHAPE_STATUS(ch));
+    if (GET_LEVEL_STAGE(ch))      fprintf(fl, "LStg: %d\n", GET_LEVEL_STAGE(ch));
+    if (GET_HITDICE(ch)      != PFDEF_LEVEL)  fprintf(fl, "HitD: %d\n", GET_HITDICE(ch));
+    if (GET_LEVEL_ADJ(ch)    != PFDEF_LEVEL)  fprintf(fl, "LvlA: %d\n", GET_LEVEL_ADJ(ch));
+    if (GET_HOME(ch)     != PFDEF_HOMETOWN) fprintf(fl, "Home: %d\n", GET_HOME(ch));
+    if (GET_COMPANION_VNUM(ch) != 0) fprintf(fl, "CNum: %X\n", GET_COMPANION_VNUM(ch));
+    if (GET_FAMILIAR_VNUM(ch) != 0) fprintf(fl, "FNum: %d\n", GET_FAMILIAR_VNUM(ch));
+    if (GET_MOUNT_VNUM(ch) != 0) fprintf(fl, "MNum: %d\n", GET_MOUNT_VNUM(ch));
+    if (GET_PET_VNUM(ch) != 0) fprintf(fl, "PNum: %d\n", GET_PET_VNUM(ch));
+    if (GET_PC_DESCRIPTOR_1(ch) != 0) fprintf(fl, "GSD1: %d\n", GET_PC_DESCRIPTOR_1(ch));
+    if (GET_PC_DESCRIPTOR_2(ch) != 0) fprintf(fl, "GSD2: %d\n", GET_PC_DESCRIPTOR_2(ch));
+    if (GET_PC_ADJECTIVE_1(ch) != 0) fprintf(fl, "GSA1: %d\n", GET_PC_ADJECTIVE_1(ch));
+    if (GET_PC_ADJECTIVE_2(ch) != 0) fprintf(fl, "GSA2: %d\n", GET_PC_ADJECTIVE_2(ch));
+    if (IS_APPROVED(ch) != 0) fprintf(fl, "Appr: %d\n", IS_APPROVED(ch));
+    if (GET_HEAL_ROLL(ch) != PFDEF_HEAL_ROLL) fprintf(fl, "HRol: %d\n", GET_HEAL_ROLL(ch));
+    if (GET_HP_BONUS(ch) != 0) fprintf(fl, "HPBn: %d\n", GET_HP_BONUS(ch));
+    if (GET_HEAL_AMOUNT(ch) != PFDEF_HEAL_AMOUNT) fprintf(fl, "HAmt: %d\n", GET_HEAL_AMOUNT(ch));
+    if (GET_HEAL_USED(ch) != PFDEF_HEAL_USED) fprintf(fl, "Heal: %d\n", GET_HEAL_USED(ch));
+    if (GET_CAMP_USED(ch) != 0) fprintf(fl, "Camp: %d\n", GET_CAMP_USED(ch));
+    if ((ch)->combat_output != 0) fprintf(fl, "COut: %d\n", (ch)->combat_output);
+    if (GET_GUILD(ch) != -1) fprintf(fl, "Gild: %d\n", GET_GUILD(ch));
+    if (GET_GUILD_RANK(ch) != 1) fprintf(fl, "GRnk: %d\n", GET_GUILD_RANK(ch));
+    if (GET_GUILD_EXP(ch) != 0) fprintf(fl, "GExp: %d\n", GET_GUILD_EXP(ch));
+    if (GET_SUBGUILD(ch) != -1) fprintf(fl, "GSub: %d\n", GET_SUBGUILD(ch));
+    fprintf(fl, "FAln: %d\n", GET_FALSE_ALIGNMENT(ch));
+    fprintf(fl, "FEth: %d\n", GET_FALSE_ETHOS(ch));
+    if(GET_CLAN(ch) != PFDEF_CLAN) fprintf(fl, "Clan: %d\n", GET_CLAN(ch));
+    if(GET_CLAN_RANK(ch) != PFDEF_CLANRANK) fprintf(fl, "Rank: %d\n", GET_CLAN_RANK(ch));
+    if (GET_RP_POINTS(ch)) fprintf(fl, "RPPt: %ld\n", GET_RP_POINTS(ch));
+    if (GET_RP_EXP_BONUS(ch)) fprintf(fl, "RPEx: %d\n", GET_RP_EXP_BONUS(ch));
+    if (GET_RP_ART_EXP_BONUS(ch)) fprintf(fl, "RPAE: %d\n", GET_RP_ART_EXP_BONUS(ch));
+    if (GET_RP_GOLD_BONUS(ch)) fprintf(fl, "RPGp: %d\n", GET_RP_GOLD_BONUS(ch));
+    if (GET_RP_ACCOUNT_EXP(ch)) fprintf(fl, "RPAE: %d\n", GET_RP_ACCOUNT_EXP(ch));
+    if (GET_RP_QP_BONUS(ch)) fprintf(fl, "RPQP: %d\n", GET_RP_QP_BONUS(ch));
+    if (GET_RP_CRAFT_BONUS(ch)) fprintf(fl, "RPCr: %d\n", GET_RP_CRAFT_BONUS(ch));
+    fprintf(fl, "Stat: %d\n", GET_STAT_POINTS(ch));
+    fprintf(fl, "StGv: %d\n", (ch)->stat_points_given);
 
-  fprintf(fl, "StMK: %d\n", GET_STAT_MOB_KILLS(ch));
+    fprintf(fl, "StMK: %d\n", GET_STAT_MOB_KILLS(ch));
 
 
-  for (i = 0; i < NUM_CLASSES; i++) {
-    if(GET_CLASS_RANKS(ch, i))	fprintf(fl, "Mcls: %d=%d\n", i, GET_CLASS_NONEPIC(ch, i));
-    if(GET_CLASS_EPIC(ch, i))	fprintf(fl, "Ecls: %d=%d\n", i, GET_CLASS_EPIC(ch, i));
-    if(GET_CLASS_FEATS(ch, i))	fprintf(fl, "FCls: %d %d\n", i, GET_CLASS_FEATS(ch, i));
-    if(GET_EPIC_CLASS_FEATS(ch, i))
-      fprintf(fl, "FECl: %d %d\n", i, GET_EPIC_CLASS_FEATS(ch, i));
-  }
-  for (i = 0; i <= CFEAT_MAX; i++) {
-    sprintascii(fbuf1, ch->combat_feats[i][0]);
-    sprintascii(fbuf2, ch->combat_feats[i][1]);
-    sprintascii(fbuf3, ch->combat_feats[i][2]);
-    sprintascii(fbuf4, ch->combat_feats[i][3]);
-    fprintf(fl, "CbFt: %d %s %s %s %s\n", i, fbuf1, fbuf2, fbuf3, fbuf4);
-  }
-  for (i = 0; i <= SFEAT_MAX; i++) {
-    sprintascii(fbuf1, ch->combat_feats[i][0]);
-    fprintf(fl, "SclF: %d %s\n", i, fbuf1);
-  }
+    for (i = 0; i < NUM_CLASSES; i++)
+    {
+        if(GET_CLASS_RANKS(ch, i))  fprintf(fl, "Mcls: %d=%d\n", i, GET_CLASS_NONEPIC(ch, i));
+        if(GET_CLASS_EPIC(ch, i)) fprintf(fl, "Ecls: %d=%d\n", i, GET_CLASS_EPIC(ch, i));
+        if(GET_CLASS_FEATS(ch, i))  fprintf(fl, "FCls: %d %d\n", i, GET_CLASS_FEATS(ch, i));
+        if(GET_EPIC_CLASS_FEATS(ch, i))
+            fprintf(fl, "FECl: %d %d\n", i, GET_EPIC_CLASS_FEATS(ch, i));
+    }
+    for (i = 0; i <= CFEAT_MAX; i++)
+    {
+        sprintascii(fbuf1, ch->combat_feats[i][0]);
+        sprintascii(fbuf2, ch->combat_feats[i][1]);
+        sprintascii(fbuf3, ch->combat_feats[i][2]);
+        sprintascii(fbuf4, ch->combat_feats[i][3]);
+        fprintf(fl, "CbFt: %d %s %s %s %s\n", i, fbuf1, fbuf2, fbuf3, fbuf4);
+    }
+    for (i = 0; i <= SFEAT_MAX; i++)
+    {
+        sprintascii(fbuf1, ch->combat_feats[i][0]);
+        fprintf(fl, "SclF: %d %s\n", i, fbuf1);
+    }
 
-  if (GET_CARRY_STR_MOD(ch) > 0) fprintf(fl, "CStr: %d\n", GET_CARRY_STR_MOD(ch));
+    if (GET_CARRY_STR_MOD(ch) > 0) fprintf(fl, "CStr: %d\n", GET_CARRY_STR_MOD(ch));
 
-  fprintf(fl, "Id  : %ld\n", GET_IDNUM(ch));
-  fprintf(fl, "Brth: %ld\n", (long int)ch->time.birth);
-  fprintf(fl, "Crtd: %ld\n", (long int)ch->time.created);
-  fprintf(fl, "MxAg: %ld\n", (long int)ch->time.maxage);
-  fprintf(fl, "Plyd: %ld\n", (long int)ch->time.played);
-  fprintf(fl, "Last: %ld\n", (long int)ch->time.logon);
+    fprintf(fl, "Id  : %ld\n", GET_IDNUM(ch));
+    fprintf(fl, "Brth: %ld\n", (long int)ch->time.birth);
+    fprintf(fl, "Crtd: %ld\n", (long int)ch->time.created);
+    fprintf(fl, "MxAg: %ld\n", (long int)ch->time.maxage);
+    fprintf(fl, "Plyd: %ld\n", (long int)ch->time.played);
+    fprintf(fl, "Last: %ld\n", (long int)ch->time.logon);
 
-  if (GET_HOST(ch))				fprintf(fl, "Host: %s\n", GET_HOST(ch));
-  if (GET_PREF(ch))				fprintf(fl, "PrfL: %ld\n", GET_PREF(ch));
-  if (ch->pvp_timer)                            fprintf(fl, "PvPT: %d\n", ch->pvp_timer);
-  if (GET_HEIGHT(ch)	   != PFDEF_HEIGHT)	fprintf(fl, "Hite: %d\n", GET_HEIGHT(ch));
-  if (GET_WEIGHT(ch)	   != PFDEF_HEIGHT)	fprintf(fl, "Wate: %d\n", GET_WEIGHT(ch));
-  if (GET_ALIGNMENT(ch)	   != PFDEF_ALIGNMENT)	fprintf(fl, "Alin: %d\n", GET_ALIGNMENT(ch));
-  if (GET_ETHIC_ALIGNMENT(ch)	   != PFDEF_ETHIC_ALIGNMENT)	fprintf(fl, "Eali: %d\n", GET_ETHIC_ALIGNMENT(ch));
-  fprintf(fl, "ExAE: %d\n", GET_EXTRA_ACC_EXP(ch));
+    if (GET_HOST(ch))       fprintf(fl, "Host: %s\n", GET_HOST(ch));
+    if (GET_PREF(ch))       fprintf(fl, "PrfL: %ld\n", GET_PREF(ch));
+    if (ch->pvp_timer)                            fprintf(fl, "PvPT: %d\n", ch->pvp_timer);
+    if (GET_HEIGHT(ch)     != PFDEF_HEIGHT) fprintf(fl, "Hite: %d\n", GET_HEIGHT(ch));
+    if (GET_WEIGHT(ch)     != PFDEF_HEIGHT) fprintf(fl, "Wate: %d\n", GET_WEIGHT(ch));
+    if (GET_ALIGNMENT(ch)    != PFDEF_ALIGNMENT)  fprintf(fl, "Alin: %d\n", GET_ALIGNMENT(ch));
+    if (GET_ETHIC_ALIGNMENT(ch)    != PFDEF_ETHIC_ALIGNMENT)  fprintf(fl, "Eali: %d\n", GET_ETHIC_ALIGNMENT(ch));
+    fprintf(fl, "ExAE: %d\n", GET_EXTRA_ACC_EXP(ch));
 
-  sprintascii(fbuf1, PLR_FLAGS(ch)[0]);
-  sprintascii(fbuf2, PLR_FLAGS(ch)[1]);
-  sprintascii(fbuf3, PLR_FLAGS(ch)[2]);
-  sprintascii(fbuf4, PLR_FLAGS(ch)[3]);
-  fprintf(fl, "Act : %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
-  sprintascii(fbuf1, AFF_FLAGS(ch)[0]);
-  sprintascii(fbuf2, AFF_FLAGS(ch)[1]);
-  sprintascii(fbuf3, AFF_FLAGS(ch)[2]);
-  sprintascii(fbuf4, AFF_FLAGS(ch)[3]);
-  fprintf(fl, "Aff : %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
-  sprintascii(fbuf1, PRF_FLAGS(ch)[0]);
-  sprintascii(fbuf2, PRF_FLAGS(ch)[1]);
-  sprintascii(fbuf3, PRF_FLAGS(ch)[2]);
-  sprintascii(fbuf4, PRF_FLAGS(ch)[3]);
-  fprintf(fl, "Pref: %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
-  sprintascii(fbuf1, ADM_FLAGS(ch)[0]);
-  sprintascii(fbuf2, ADM_FLAGS(ch)[1]);
-  sprintascii(fbuf3, ADM_FLAGS(ch)[2]);
-  sprintascii(fbuf4, ADM_FLAGS(ch)[3]);
-  fprintf(fl, "AdmF: %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
+    sprintascii(fbuf1, PLR_FLAGS(ch)[0]);
+    sprintascii(fbuf2, PLR_FLAGS(ch)[1]);
+    sprintascii(fbuf3, PLR_FLAGS(ch)[2]);
+    sprintascii(fbuf4, PLR_FLAGS(ch)[3]);
+    fprintf(fl, "Act : %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
+    sprintascii(fbuf1, AFF_FLAGS(ch)[0]);
+    sprintascii(fbuf2, AFF_FLAGS(ch)[1]);
+    sprintascii(fbuf3, AFF_FLAGS(ch)[2]);
+    sprintascii(fbuf4, AFF_FLAGS(ch)[3]);
+    fprintf(fl, "Aff : %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
+    sprintascii(fbuf1, PRF_FLAGS(ch)[0]);
+    sprintascii(fbuf2, PRF_FLAGS(ch)[1]);
+    sprintascii(fbuf3, PRF_FLAGS(ch)[2]);
+    sprintascii(fbuf4, PRF_FLAGS(ch)[3]);
+    fprintf(fl, "Pref: %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
+    sprintascii(fbuf1, ADM_FLAGS(ch)[0]);
+    sprintascii(fbuf2, ADM_FLAGS(ch)[1]);
+    sprintascii(fbuf3, ADM_FLAGS(ch)[2]);
+    sprintascii(fbuf4, ADM_FLAGS(ch)[3]);
+    fprintf(fl, "AdmF: %s %s %s %s\n", fbuf1, fbuf2, fbuf3, fbuf4);
 
-  if (GET_SAVE_BASE(ch, 0)  != PFDEF_SAVETHROW)	fprintf(fl, "ThB1: %d\n", GET_SAVE_BASE(ch, 0));
-  if (GET_SAVE_BASE(ch, 1)  != PFDEF_SAVETHROW)	fprintf(fl, "ThB2: %d\n", GET_SAVE_BASE(ch, 1));
-  if (GET_SAVE_BASE(ch, 2)  != PFDEF_SAVETHROW)	fprintf(fl, "ThB3: %d\n", GET_SAVE_BASE(ch, 2));
-  if (GET_SAVE_MOD(ch, 0)   != PFDEF_SAVETHROW)	fprintf(fl, "Thr1: %d\n", GET_SAVE_MOD(ch, 0));
-  if (GET_SAVE_MOD(ch, 1)   != PFDEF_SAVETHROW)	fprintf(fl, "Thr2: %d\n", GET_SAVE_MOD(ch, 1));
-  if (GET_SAVE_MOD(ch, 2)   != PFDEF_SAVETHROW)	fprintf(fl, "Thr3: %d\n", GET_SAVE_MOD(ch, 2));
+    if (GET_SAVE_BASE(ch, 0)  != PFDEF_SAVETHROW) fprintf(fl, "ThB1: %d\n", GET_SAVE_BASE(ch, 0));
+    if (GET_SAVE_BASE(ch, 1)  != PFDEF_SAVETHROW) fprintf(fl, "ThB2: %d\n", GET_SAVE_BASE(ch, 1));
+    if (GET_SAVE_BASE(ch, 2)  != PFDEF_SAVETHROW) fprintf(fl, "ThB3: %d\n", GET_SAVE_BASE(ch, 2));
+    if (GET_SAVE_MOD(ch, 0)   != PFDEF_SAVETHROW) fprintf(fl, "Thr1: %d\n", GET_SAVE_MOD(ch, 0));
+    if (GET_SAVE_MOD(ch, 1)   != PFDEF_SAVETHROW) fprintf(fl, "Thr2: %d\n", GET_SAVE_MOD(ch, 1));
+    if (GET_SAVE_MOD(ch, 2)   != PFDEF_SAVETHROW) fprintf(fl, "Thr3: %d\n", GET_SAVE_MOD(ch, 2));
 
-  if (GET_WISH_STR(ch))				fprintf(fl, "WStr: %d\n", GET_WISH_STR(ch));
-  if (GET_WISH_CON(ch))				fprintf(fl, "WCon: %d\n", GET_WISH_CON(ch));
-  if (GET_WISH_DEX(ch))				fprintf(fl, "WDex: %d\n", GET_WISH_DEX(ch));
-  if (GET_WISH_INT(ch))				fprintf(fl, "WInt: %d\n", GET_WISH_INT(ch));
-  if (GET_WISH_WIS(ch))				fprintf(fl, "WWis: %d\n", GET_WISH_WIS(ch));
-  if (GET_WISH_CHA(ch))				fprintf(fl, "WCha: %d\n", GET_WISH_CHA(ch));
+    if (GET_WISH_STR(ch))       fprintf(fl, "WStr: %d\n", GET_WISH_STR(ch));
+    if (GET_WISH_CON(ch))       fprintf(fl, "WCon: %d\n", GET_WISH_CON(ch));
+    if (GET_WISH_DEX(ch))       fprintf(fl, "WDex: %d\n", GET_WISH_DEX(ch));
+    if (GET_WISH_INT(ch))       fprintf(fl, "WInt: %d\n", GET_WISH_INT(ch));
+    if (GET_WISH_WIS(ch))       fprintf(fl, "WWis: %d\n", GET_WISH_WIS(ch));
+    if (GET_WISH_CHA(ch))       fprintf(fl, "WCha: %d\n", GET_WISH_CHA(ch));
 
-  if (GET_WIMP_LEV(ch)	   != PFDEF_WIMPLEV)	fprintf(fl, "Wimp: %d\n", GET_WIMP_LEV(ch));
-  if (GET_POWERATTACK(ch)  != PFDEF_POWERATT)	fprintf(fl, "PwrA: %d\n", GET_POWERATTACK(ch));
-  if (GET_FREEZE_LEV(ch)   != PFDEF_FREEZELEV)	fprintf(fl, "Frez: %d\n", GET_FREEZE_LEV(ch));
-  if (GET_FEAT_POINTS(ch) != PFDEF_FEAT_POINTS) fprintf(fl, "Fpnt: %d\n", GET_FEAT_POINTS(ch));
-  if (GET_EPIC_FEAT_POINTS(ch) != PFDEF_FEAT_POINTS)
-    fprintf(fl, "FEpc: %d\n", GET_EPIC_FEAT_POINTS(ch));
-  if (GET_INVIS_LEV(ch)	   != PFDEF_INVISLEV)	fprintf(fl, "Invs: %d\n", GET_INVIS_LEV(ch));
-  if (GET_TEMP_LOADROOM(ch))	                fprintf(fl, "TLRm: %d\n", GET_TEMP_LOADROOM(ch));
-  if (GET_LOADROOM(ch))                         fprintf(fl, "Room: %d\n", GET_LOADROOM(ch));
-  if(GET_RECALL(ch) != PFDEF_RECALLROOM)        fprintf(fl, "Recl: %d\n", GET_RECALL(ch));
+    if (GET_WIMP_LEV(ch)     != PFDEF_WIMPLEV)  fprintf(fl, "Wimp: %d\n", GET_WIMP_LEV(ch));
+    if (GET_POWERATTACK(ch)  != PFDEF_POWERATT) fprintf(fl, "PwrA: %d\n", GET_POWERATTACK(ch));
+    if (GET_FREEZE_LEV(ch)   != PFDEF_FREEZELEV)  fprintf(fl, "Frez: %d\n", GET_FREEZE_LEV(ch));
+    if (GET_FEAT_POINTS(ch) != PFDEF_FEAT_POINTS) fprintf(fl, "Fpnt: %d\n", GET_FEAT_POINTS(ch));
+    if (GET_EPIC_FEAT_POINTS(ch) != PFDEF_FEAT_POINTS)
+        fprintf(fl, "FEpc: %d\n", GET_EPIC_FEAT_POINTS(ch));
+    if (GET_INVIS_LEV(ch)    != PFDEF_INVISLEV) fprintf(fl, "Invs: %d\n", GET_INVIS_LEV(ch));
+    if (GET_TEMP_LOADROOM(ch))                  fprintf(fl, "TLRm: %d\n", GET_TEMP_LOADROOM(ch));
+    if (GET_LOADROOM(ch))                         fprintf(fl, "Room: %d\n", GET_LOADROOM(ch));
+    if(GET_RECALL(ch) != PFDEF_RECALLROOM)        fprintf(fl, "Recl: %d\n", GET_RECALL(ch));
 
-  if (GET_BAD_PWS(ch)	   != PFDEF_BADPWS)	fprintf(fl, "Badp: %d\n", GET_BAD_PWS(ch));
+    if (GET_BAD_PWS(ch)    != PFDEF_BADPWS) fprintf(fl, "Badp: %d\n", GET_BAD_PWS(ch));
 
-  if (GET_RACE_PRACTICES(ch)!= PFDEF_PRACTICES)	fprintf(fl, "SkRc: %d\n", GET_RACE_PRACTICES(ch));
-  if (ch->sneak_attack_feats > 0)               fprintf(fl, "SnAF: %d\n", ch->sneak_attack_feats);
-  if (ch->imp_sneak_attack_feats > 0)           fprintf(fl, "ISAF: %d\n", ch->imp_sneak_attack_feats);
-  for (i = 0; i < NUM_CLASSES; i++)
-    if (GET_PRACTICES(ch, i)!= PFDEF_PRACTICES)
-      fprintf(fl, "SkCl: %d %d\n", i, GET_PRACTICES(ch, i));
+    if (GET_RACE_PRACTICES(ch) != PFDEF_PRACTICES)  fprintf(fl, "SkRc: %d\n", GET_RACE_PRACTICES(ch));
+    if (ch->sneak_attack_feats > 0)               fprintf(fl, "SnAF: %d\n", ch->sneak_attack_feats);
+    if (ch->imp_sneak_attack_feats > 0)           fprintf(fl, "ISAF: %d\n", ch->imp_sneak_attack_feats);
+    for (i = 0; i < NUM_CLASSES; i++)
+        if (GET_PRACTICES(ch, i) != PFDEF_PRACTICES)
+            fprintf(fl, "SkCl: %d %d\n", i, GET_PRACTICES(ch, i));
 
-  if (GET_COND(ch, FULL)   != PFDEF_HUNGER && GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
-    fprintf(fl, "Hung: %d\n", GET_COND(ch, FULL));
-  if (GET_COND(ch, THIRST) != PFDEF_THIRST && GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
-    fprintf(fl, "Thir: %d\n", GET_COND(ch, THIRST));
-  if (GET_COND(ch, DRUNK)  != PFDEF_DRUNK  && GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
-    fprintf(fl, "Drnk: %d\n", GET_COND(ch, DRUNK));
+    if (GET_COND(ch, FULL)   != PFDEF_HUNGER && GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
+        fprintf(fl, "Hung: %d\n", GET_COND(ch, FULL));
+    if (GET_COND(ch, THIRST) != PFDEF_THIRST && GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
+        fprintf(fl, "Thir: %d\n", GET_COND(ch, THIRST));
+    if (GET_COND(ch, DRUNK)  != PFDEF_DRUNK  && GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
+        fprintf(fl, "Drnk: %d\n", GET_COND(ch, DRUNK));
 
-  if (GET_HIT(ch)	   != PFDEF_HIT  || GET_MAX_HIT(ch)  != PFDEF_MAXHIT)
-    fprintf(fl, "Hit : %d/%d\n", GET_HIT(ch),  GET_MAX_HIT(ch));
-  if (GET_MANA(ch)	   != PFDEF_MANA || GET_MAX_MANA(ch) != PFDEF_MAXMANA)
-    fprintf(fl, "Mana: %d/%d\n", GET_MANA(ch), GET_MAX_MANA(ch));
-  if (GET_MOVE(ch)	   != PFDEF_MOVE || GET_MAX_MOVE(ch) != PFDEF_MAXMOVE)
-    fprintf(fl, "Move: %d/%d\n", GET_MOVE(ch), GET_MAX_MOVE(ch));
-  if (GET_KI(ch)	   != PFDEF_KI || GET_MAX_KI(ch) != PFDEF_MAXKI)
-    fprintf(fl, "Ki  : %d/%d\n", GET_KI(ch), GET_MAX_KI(ch));
+    if (GET_HIT(ch)    != PFDEF_HIT  || GET_MAX_HIT(ch)  != PFDEF_MAXHIT)
+        fprintf(fl, "Hit : %d/%d\n", GET_HIT(ch),  GET_MAX_HIT(ch));
+    if (GET_MANA(ch)     != PFDEF_MANA || GET_MAX_MANA(ch) != PFDEF_MAXMANA)
+        fprintf(fl, "Mana: %d/%d\n", GET_MANA(ch), GET_MAX_MANA(ch));
+    if (GET_MOVE(ch)     != PFDEF_MOVE || GET_MAX_MOVE(ch) != PFDEF_MAXMOVE)
+        fprintf(fl, "Move: %d/%d\n", GET_MOVE(ch), GET_MAX_MOVE(ch));
+    if (GET_KI(ch)     != PFDEF_KI || GET_MAX_KI(ch) != PFDEF_MAXKI)
+        fprintf(fl, "Ki  : %d/%d\n", GET_KI(ch), GET_MAX_KI(ch));
 
-  if (GET_STR(ch)	   != PFDEF_STR)        fprintf(fl, "Str : %d\n", GET_STR(ch));
-  if (GET_INT(ch)	   != PFDEF_INT)	fprintf(fl, "Int : %d\n", GET_INT(ch));
-  if (GET_WIS(ch)	   != PFDEF_WIS)	fprintf(fl, "Wis : %d\n", GET_WIS(ch));
-  if (GET_DEX(ch)	   != PFDEF_DEX)	fprintf(fl, "Dex : %d\n", GET_DEX(ch));
-  if (GET_CON(ch)	   != PFDEF_CON)	fprintf(fl, "Con : %d\n", GET_CON(ch));
-  if (GET_CHA(ch)	   != PFDEF_CHA)	fprintf(fl, "Cha : %d\n", GET_CHA(ch));
+    if (GET_STR(ch)    != PFDEF_STR)        fprintf(fl, "Str : %d\n", GET_STR(ch));
+    if (GET_INT(ch)    != PFDEF_INT)  fprintf(fl, "Int : %d\n", GET_INT(ch));
+    if (GET_WIS(ch)    != PFDEF_WIS)  fprintf(fl, "Wis : %d\n", GET_WIS(ch));
+    if (GET_DEX(ch)    != PFDEF_DEX)  fprintf(fl, "Dex : %d\n", GET_DEX(ch));
+    if (GET_CON(ch)    != PFDEF_CON)  fprintf(fl, "Con : %d\n", GET_CON(ch));
+    if (GET_CHA(ch)    != PFDEF_CHA)  fprintf(fl, "Cha : %d\n", GET_CHA(ch));
 
-  if (GET_ARMOR(ch)	   != PFDEF_AC)		fprintf(fl, "Ac  : %d\n", GET_ARMOR(ch));
-  if (GET_GOLD(ch)	   != PFDEF_GOLD)	fprintf(fl, "Gold: %d\n", GET_GOLD(ch));
-  if (GET_GATHER_INFO(ch)  != PFDEF_GOLD)	fprintf(fl, "Gath: %d\n", GET_GATHER_INFO(ch));
-  fprintf(fl, "God : %d\n", GET_DEITY(ch));
-  if (GET_DOMAIN_ONE(ch) != 0)				fprintf(fl, "Dom1: %d\n", GET_DOMAIN_ONE(ch));
-  if (GET_DOMAIN_TWO(ch) != 0)				fprintf(fl, "Dom2: %d\n", GET_DOMAIN_TWO(ch));  	
-  if (GET_BANK_GOLD(ch)	   != PFDEF_BANK)	fprintf(fl, "Bank: %d\n", GET_BANK_GOLD(ch));
-  if (GET_EXP(ch)	   != PFDEF_EXP)	fprintf(fl, "Exp : %d\n", GET_EXP(ch));
-  if (GET_ARTISAN_EXP(ch)  > 0) 	        fprintf(fl, "ArXp: %12.0f\n", GET_ARTISAN_EXP(ch));
-  if (GET_ARTISAN_TYPE(ch)  > 0) 	        fprintf(fl, "ArTy: %d\n", GET_ARTISAN_TYPE(ch));
-  if (GET_ACCURACY_MOD(ch) != PFDEF_ACCURACY)	fprintf(fl, "Acc : %d\n", GET_ACCURACY_MOD(ch));
-  if (GET_ACCURACY_BASE(ch)!= PFDEF_ACCURACY)	fprintf(fl, "AccB: %d\n", GET_ACCURACY_BASE(ch));
-  if (GET_DAMAGE_MOD(ch)   != PFDEF_DAMAGE)	fprintf(fl, "Damg: %d\n", GET_DAMAGE_MOD(ch));
-  if (SPEAKING(ch)	   != PFDEF_SPEAKING)	fprintf(fl, "Spek: %d\n", SPEAKING(ch));
-  fprintf(fl, "Olc : %d\n", GET_OLC_ZONE(ch));
-  if (GET_PAGE_LENGTH(ch)  != PFDEF_PAGELENGTH)	fprintf(fl, "Page: %d\n", GET_PAGE_LENGTH(ch));
-  if (GET_SCREEN_WIDTH(ch) != PFDEF_SCREENWIDTH) fprintf(fl, "ScrW: %d\n", GET_SCREEN_WIDTH(ch));
-  if (GET_QUEST_COUNTER(ch)!= PFDEF_QUESTCOUNT)  fprintf(fl, "Qcnt: %d\n", GET_QUEST_COUNTER(ch));
-  if (GET_NUM_QUESTS(ch)   != PFDEF_COMPQUESTS) {
-    fprintf(fl, "Qest:\n");
-    for (i = 0; i < GET_NUM_QUESTS(ch); i++)
-      fprintf(fl, "%d\n", ch->player_specials->completed_quests[i]);
-    fprintf(fl, "%d\n", NOTHING);
-  }
-  if (GET_WISHES(ch)	   != 0)		fprintf(fl, "Wish: %d\n", GET_WISHES(ch));
-  if (GET_QUEST(ch)        != PFDEF_CURRQUEST)  fprintf(fl, "Qcur: %d\n", GET_QUEST(ch));
-  if (GET_QUESTPOINTS(ch)  != PFDEF_QUESTPOINTS) fprintf(fl, "Qpnt: %d\n", GET_QUESTPOINTS(ch));
+    if (GET_ARMOR(ch)    != PFDEF_AC)   fprintf(fl, "Ac  : %d\n", GET_ARMOR(ch));
+    if (GET_GOLD(ch)     != PFDEF_GOLD) fprintf(fl, "Gold: %d\n", GET_GOLD(ch));
+    if (GET_GATHER_INFO(ch)  != PFDEF_GOLD) fprintf(fl, "Gath: %d\n", GET_GATHER_INFO(ch));
+    fprintf(fl, "God : %d\n", GET_DEITY(ch));
+    if (GET_DOMAIN_ONE(ch) != 0)        fprintf(fl, "Dom1: %d\n", GET_DOMAIN_ONE(ch));
+    if (GET_DOMAIN_TWO(ch) != 0)        fprintf(fl, "Dom2: %d\n", GET_DOMAIN_TWO(ch));
+    if (GET_BANK_GOLD(ch)    != PFDEF_BANK) fprintf(fl, "Bank: %d\n", GET_BANK_GOLD(ch));
+    if (GET_EXP(ch)    != PFDEF_EXP)  fprintf(fl, "Exp : %d\n", GET_EXP(ch));
+    if (GET_ARTISAN_EXP(ch)  > 0)           fprintf(fl, "ArXp: %12.0f\n", GET_ARTISAN_EXP(ch));
+    if (GET_ARTISAN_TYPE(ch)  > 0)          fprintf(fl, "ArTy: %d\n", GET_ARTISAN_TYPE(ch));
+    if (GET_ACCURACY_MOD(ch) != PFDEF_ACCURACY) fprintf(fl, "Acc : %d\n", GET_ACCURACY_MOD(ch));
+    if (GET_ACCURACY_BASE(ch) != PFDEF_ACCURACY)  fprintf(fl, "AccB: %d\n", GET_ACCURACY_BASE(ch));
+    if (GET_DAMAGE_MOD(ch)   != PFDEF_DAMAGE) fprintf(fl, "Damg: %d\n", GET_DAMAGE_MOD(ch));
+    if (SPEAKING(ch)     != PFDEF_SPEAKING) fprintf(fl, "Spek: %d\n", SPEAKING(ch));
+    fprintf(fl, "Olc : %d\n", GET_OLC_ZONE(ch));
+    if (GET_PAGE_LENGTH(ch)  != PFDEF_PAGELENGTH) fprintf(fl, "Page: %d\n", GET_PAGE_LENGTH(ch));
+    if (GET_SCREEN_WIDTH(ch) != PFDEF_SCREENWIDTH) fprintf(fl, "ScrW: %d\n", GET_SCREEN_WIDTH(ch));
+    if (GET_QUEST_COUNTER(ch) != PFDEF_QUESTCOUNT)  fprintf(fl, "Qcnt: %d\n", GET_QUEST_COUNTER(ch));
+    if (GET_NUM_QUESTS(ch)   != PFDEF_COMPQUESTS)
+    {
+        fprintf(fl, "Qest:\n");
+        for (i = 0; i < GET_NUM_QUESTS(ch); i++)
+            fprintf(fl, "%d\n", ch->player_specials->completed_quests[i]);
+        fprintf(fl, "%d\n", NOTHING);
+    }
+    if (GET_WISHES(ch)     != 0)    fprintf(fl, "Wish: %d\n", GET_WISHES(ch));
+    if (GET_QUEST(ch)        != PFDEF_CURRQUEST)  fprintf(fl, "Qcur: %d\n", GET_QUEST(ch));
+    if (GET_QUESTPOINTS(ch)  != PFDEF_QUESTPOINTS) fprintf(fl, "Qpnt: %d\n", GET_QUESTPOINTS(ch));
 
-  if (GET_INTROS_GIVEN(ch)    != 0)  fprintf(fl, "IGiv: %d\n", GET_INTROS_GIVEN(ch));
-  if (GET_INTROS_RECEIVED(ch) != 0)  
+    if (GET_INTROS_GIVEN(ch)    != 0)  fprintf(fl, "IGiv: %d\n", GET_INTROS_GIVEN(ch));
+    if (GET_INTROS_RECEIVED(ch) != 0)
     {
         fprintf(fl, "IRec: %d\n", GET_INTROS_RECEIVED(ch));
     }
-  fprintf(fl, "Bled: %d\n", GET_FIGHT_BLEEDING_DAMAGE(ch));
-  if (ch->player_specials->bonus_levels_arcane) fprintf(fl, "BLvA: %d\n", ch->player_specials->bonus_levels_arcane);
-  if (ch->player_specials->bonus_levels_divine) fprintf(fl, "BLvD: %d\n", ch->player_specials->bonus_levels_divine);
-  if (ch->player_specials->num_of_rooms_visited != 0) fprintf(fl, "RVNm: %d\n", ch->player_specials->num_of_rooms_visited);
-  if (GET_LFG_STRING(ch) != NULL) fprintf(fl, "LFG : %s\n", GET_LFG_STRING(ch));
-  if (GET_EPIC_SPELLS(ch)) fprintf(fl, "ESpl: %d\n", GET_EPIC_SPELLS(ch));
-  if (GET_BARD_SONGS(ch)) fprintf(fl, "BSng: %d\n", GET_BARD_SONGS(ch));
-  if (ch->boot_time) fprintf(fl, "Boot: %d\n", (int)ch->boot_time);
-  if (ch->bounty_gem) fprintf(fl, "Boun: %d\n", (int)ch->bounty_gem);
-  if (ch->damage_reduction_feats)		fprintf(fl, "EFDR: %d\n", ch->damage_reduction_feats);
-  if (ch->fast_healing_feats)			fprintf(fl, "EFDR: %d\n", ch->fast_healing_feats);
-  if (ch->armor_skin_feats)			fprintf(fl, "EFDR: %d\n", ch->armor_skin_feats);
-  if (GET_AUTOQUEST_VNUM(ch)) 		fprintf(fl, "AQVN: %d\n", GET_AUTOQUEST_VNUM(ch));
-  if (GET_AUTOQUEST_KILLNUM(ch))	fprintf(fl, "AQKN: %d\n", GET_AUTOQUEST_KILLNUM(ch));
-  if (GET_AUTOQUEST_QP(ch)) 		fprintf(fl, "AQQP: %d\n", GET_AUTOQUEST_QP(ch));
-  if (GET_AUTOQUEST_EXP(ch)) 		fprintf(fl, "AQEX: %d\n", GET_AUTOQUEST_EXP(ch));
-  if (GET_AUTOQUEST_GOLD(ch)) 		fprintf(fl, "AQGP: %d\n", GET_AUTOQUEST_GOLD(ch));
-  if (GET_AUTOQUEST_DESC(ch)) 		fprintf(fl, "AQDS: %s\n", GET_AUTOQUEST_DESC(ch));
-  if (GET_AUTOCQUEST_VNUM(ch)) 		fprintf(fl, "ACVN: %d\n", GET_AUTOCQUEST_VNUM(ch));
-  if (GET_AUTOCQUEST_MAKENUM(ch))	fprintf(fl, "ACKN: %d\n", GET_AUTOCQUEST_MAKENUM(ch));
-  if (GET_AUTOCQUEST_QP(ch)) 		fprintf(fl, "ACQP: %d\n", GET_AUTOCQUEST_QP(ch));
-  if (GET_AUTOCQUEST_EXP(ch)) 		fprintf(fl, "ACEX: %d\n", GET_AUTOCQUEST_EXP(ch));
-  if (GET_AUTOCQUEST_GOLD(ch)) 		fprintf(fl, "ACGP: %d\n", GET_AUTOCQUEST_GOLD(ch));
-  if (GET_AUTOCQUEST_MATERIAL(ch))	fprintf(fl, "ACMT: %d\n", GET_AUTOCQUEST_MATERIAL(ch));
-  if (GET_AUTOCQUEST_DESC(ch)) 		fprintf(fl, "ACDS: %s\n", GET_AUTOCQUEST_DESC(ch));
-  if (GET_BARD_SPELLS(ch, 0)) fprintf(fl, "BSp0: %d\n", GET_BARD_SPELLS(ch, 0));
-  if (GET_BARD_SPELLS(ch, 1)) fprintf(fl, "BSp1: %d\n", GET_BARD_SPELLS(ch, 1));
-  if (GET_BARD_SPELLS(ch, 2)) fprintf(fl, "BSp2: %d\n", GET_BARD_SPELLS(ch, 2));
-  if (GET_BARD_SPELLS(ch, 3)) fprintf(fl, "BSp3: %d\n", GET_BARD_SPELLS(ch, 3));
-  if (GET_BARD_SPELLS(ch, 4)) fprintf(fl, "BSp4: %d\n", GET_BARD_SPELLS(ch, 4));
-  if (GET_BARD_SPELLS(ch, 5)) fprintf(fl, "BSp5: %d\n", GET_BARD_SPELLS(ch, 5));
-  if (GET_BARD_SPELLS(ch, 6)) fprintf(fl, "BSp6: %d\n", GET_BARD_SPELLS(ch, 6));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 0)) fprintf(fl, "FSp0: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 0));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 1)) fprintf(fl, "FSp1: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 1));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 2)) fprintf(fl, "FSp2: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 2));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 3)) fprintf(fl, "FSp3: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 3));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 4)) fprintf(fl, "FSp4: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 4));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 5)) fprintf(fl, "FSp5: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 5));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 6)) fprintf(fl, "FSp6: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 6));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 7)) fprintf(fl, "FSp7: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 7));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 8)) fprintf(fl, "FSp8: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 8));
-  if (GET_FAVORED_SOUL_SPELLS(ch, 9)) fprintf(fl, "FSp9: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 9));
+    fprintf(fl, "Bled: %d\n", GET_FIGHT_BLEEDING_DAMAGE(ch));
+    if (ch->player_specials->bonus_levels_arcane) fprintf(fl, "BLvA: %d\n", ch->player_specials->bonus_levels_arcane);
+    if (ch->player_specials->bonus_levels_divine) fprintf(fl, "BLvD: %d\n", ch->player_specials->bonus_levels_divine);
+    if (ch->player_specials->num_of_rooms_visited != 0) fprintf(fl, "RVNm: %d\n", ch->player_specials->num_of_rooms_visited);
+    if (GET_LFG_STRING(ch) != NULL) fprintf(fl, "LFG : %s\n", GET_LFG_STRING(ch));
+    if (GET_EPIC_SPELLS(ch)) fprintf(fl, "ESpl: %d\n", GET_EPIC_SPELLS(ch));
+    if (GET_BARD_SONGS(ch)) fprintf(fl, "BSng: %d\n", GET_BARD_SONGS(ch));
+    if (ch->boot_time) fprintf(fl, "Boot: %d\n", (int)ch->boot_time);
+    if (ch->bounty_gem) fprintf(fl, "Boun: %d\n", (int)ch->bounty_gem);
+    if (ch->damage_reduction_feats)   fprintf(fl, "EFDR: %d\n", ch->damage_reduction_feats);
+    if (ch->fast_healing_feats)     fprintf(fl, "EFDR: %d\n", ch->fast_healing_feats);
+    if (ch->armor_skin_feats)     fprintf(fl, "EFDR: %d\n", ch->armor_skin_feats);
+    if (GET_AUTOQUEST_VNUM(ch))     fprintf(fl, "AQVN: %d\n", GET_AUTOQUEST_VNUM(ch));
+    if (GET_AUTOQUEST_KILLNUM(ch))  fprintf(fl, "AQKN: %d\n", GET_AUTOQUEST_KILLNUM(ch));
+    if (GET_AUTOQUEST_QP(ch))     fprintf(fl, "AQQP: %d\n", GET_AUTOQUEST_QP(ch));
+    if (GET_AUTOQUEST_EXP(ch))    fprintf(fl, "AQEX: %d\n", GET_AUTOQUEST_EXP(ch));
+    if (GET_AUTOQUEST_GOLD(ch))     fprintf(fl, "AQGP: %d\n", GET_AUTOQUEST_GOLD(ch));
+    if (GET_AUTOQUEST_DESC(ch))     fprintf(fl, "AQDS: %s\n", GET_AUTOQUEST_DESC(ch));
+    if (GET_AUTOCQUEST_VNUM(ch))    fprintf(fl, "ACVN: %d\n", GET_AUTOCQUEST_VNUM(ch));
+    if (GET_AUTOCQUEST_MAKENUM(ch)) fprintf(fl, "ACKN: %d\n", GET_AUTOCQUEST_MAKENUM(ch));
+    if (GET_AUTOCQUEST_QP(ch))    fprintf(fl, "ACQP: %d\n", GET_AUTOCQUEST_QP(ch));
+    if (GET_AUTOCQUEST_EXP(ch))     fprintf(fl, "ACEX: %d\n", GET_AUTOCQUEST_EXP(ch));
+    if (GET_AUTOCQUEST_GOLD(ch))    fprintf(fl, "ACGP: %d\n", GET_AUTOCQUEST_GOLD(ch));
+    if (GET_AUTOCQUEST_MATERIAL(ch))  fprintf(fl, "ACMT: %d\n", GET_AUTOCQUEST_MATERIAL(ch));
+    if (GET_AUTOCQUEST_DESC(ch))    fprintf(fl, "ACDS: %s\n", GET_AUTOCQUEST_DESC(ch));
+    if (GET_BARD_SPELLS(ch, 0)) fprintf(fl, "BSp0: %d\n", GET_BARD_SPELLS(ch, 0));
+    if (GET_BARD_SPELLS(ch, 1)) fprintf(fl, "BSp1: %d\n", GET_BARD_SPELLS(ch, 1));
+    if (GET_BARD_SPELLS(ch, 2)) fprintf(fl, "BSp2: %d\n", GET_BARD_SPELLS(ch, 2));
+    if (GET_BARD_SPELLS(ch, 3)) fprintf(fl, "BSp3: %d\n", GET_BARD_SPELLS(ch, 3));
+    if (GET_BARD_SPELLS(ch, 4)) fprintf(fl, "BSp4: %d\n", GET_BARD_SPELLS(ch, 4));
+    if (GET_BARD_SPELLS(ch, 5)) fprintf(fl, "BSp5: %d\n", GET_BARD_SPELLS(ch, 5));
+    if (GET_BARD_SPELLS(ch, 6)) fprintf(fl, "BSp6: %d\n", GET_BARD_SPELLS(ch, 6));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 0)) fprintf(fl, "FSp0: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 0));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 1)) fprintf(fl, "FSp1: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 1));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 2)) fprintf(fl, "FSp2: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 2));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 3)) fprintf(fl, "FSp3: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 3));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 4)) fprintf(fl, "FSp4: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 4));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 5)) fprintf(fl, "FSp5: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 5));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 6)) fprintf(fl, "FSp6: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 6));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 7)) fprintf(fl, "FSp7: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 7));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 8)) fprintf(fl, "FSp8: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 8));
+    if (GET_FAVORED_SOUL_SPELLS(ch, 9)) fprintf(fl, "FSp9: %d\n", GET_FAVORED_SOUL_SPELLS(ch, 9));
 
 
-  
-  fprintf(fl, "WLst:\n");
-  for (i = 0; i < 10; i++) {
-    fprintf(fl, "%d %d\n", ch->player_specials->wishlist[i][0], ch->player_specials->wishlist[i][1]);
-  }
-  fprintf(fl, "-1 -1\n");
 
-  fprintf(fl, "SpKn:\n");
-  for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++) {
-    fprintf(fl, "%d\n", ch->player_specials->spells_known[i]);
-  }
-  fprintf(fl, "-2\n");
+    fprintf(fl, "WLst:\n");
+    for (i = 0; i < 10; i++)
+    {
+        fprintf(fl, "%d %d\n", ch->player_specials->wishlist[i][0], ch->player_specials->wishlist[i][1]);
+    }
+    fprintf(fl, "-1 -1\n");
 
-  fprintf(fl, "BLev:\n");
-  for (i = 0; i < NUM_CLASSES; i++)
-    if (ch->player_specials->bonus_levels[i] > 0)
-      fprintf(fl, "%d %d\n", i, ch->player_specials->bonus_levels[i]);
-  fprintf(fl, "-1 -1\n");
+    fprintf(fl, "SpKn:\n");
+    for (i = 0; i < MAX_NUM_KNOWN_SPELLS; i++)
+    {
+        fprintf(fl, "%d\n", ch->player_specials->spells_known[i]);
+    }
+    fprintf(fl, "-2\n");
+
+    fprintf(fl, "BLev:\n");
+    for (i = 0; i < NUM_CLASSES; i++)
+        if (ch->player_specials->bonus_levels[i] > 0)
+            fprintf(fl, "%d %d\n", i, ch->player_specials->bonus_levels[i]);
+    fprintf(fl, "-1 -1\n");
 
 
-  /* Save skills */
-  if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT) {
-    fprintf(fl, "Skil:\n");
-    for (i = 1; i <= SKILL_TABLE_SIZE; i++) {
-     if (GET_SKILL_BASE(ch, i))
-	fprintf(fl, "%d %d\n", i, GET_SKILL_BASE(ch, i));
+    /* Save skills */
+    if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
+    {
+        fprintf(fl, "Skil:\n");
+        for (i = 1; i <= SKILL_TABLE_SIZE; i++)
+        {
+            if (GET_SKILL_BASE(ch, i))
+                fprintf(fl, "%d %d\n", i, GET_SKILL_BASE(ch, i));
+        }
+        fprintf(fl, "0 0\n");
+    }
+
+    // Save Innate Abils
+    fprintf(fl, "InAb:\n");
+    for (i = 0; i <= MAX_SPELLS; i++)
+    {
+        if (GET_INNATE(ch, i) > 0)
+        {
+            fprintf(fl, "%d %d\n", i, GET_INNATE(ch, i));
+        }
+    }
+    fprintf(fl, "-1 -1\n");
+
+    // Save Skill Foci
+    fprintf(fl, "SklF:\n");
+    for (i = SKILL_LOW_SKILL; i <= SKILL_HIGH_SKILL; i++)
+    {
+        for (j = 0; j < ch->player_specials->skill_focus[i - SKILL_LOW_SKILL]; j++)
+            fprintf(fl, "%d\n", i);
+    }
+    fprintf(fl, "0\n");
+
+    /* Save skill bonuses */
+    if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT)
+    {
+        fprintf(fl, "SklB:\n");
+        for (i = 1; i <= SKILL_TABLE_SIZE; i++)
+        {
+            if (GET_SKILL_BONUS(ch, i))
+                fprintf(fl, "%d %d\n", i, GET_SKILL_BONUS(ch, i));
+        }
+        fprintf(fl, "0 0\n");
+    }
+
+    /* Save feats */
+    fprintf(fl, "Feat:\n");
+    for (i = 1; i <= NUM_FEATS_DEFINED; i++)
+    {
+        if (HAS_FEAT(ch, i))
+            fprintf(fl, "%d %d\n", i, HAS_FEAT(ch, i));
     }
     fprintf(fl, "0 0\n");
-  }
 
-  // Save Innate Abils
-  fprintf(fl, "InAb:\n");
-  for (i = 0; i <= MAX_SPELLS; i++) {
-    if (GET_INNATE(ch, i) > 0) {
-      fprintf(fl, "%d %d\n", i, GET_INNATE(ch, i));
+    /* Save Sponsors in Classes */
+    fprintf(fl, "CSpn:\n");
+    for (i = 0; i < NUM_CLASSES; i++)
+    {
+        if (GET_CLASS_SPONSOR(ch, i) == TRUE)
+        {
+            fprintf(fl, "%d\n", i);
+        }
     }
-  }
-  fprintf(fl, "-1 -1\n");
+    fprintf(fl, "-1\n");
 
-  // Save Skill Foci
-  fprintf(fl, "SklF:\n");
-  for (i = SKILL_LOW_SKILL; i <= SKILL_HIGH_SKILL; i++) {
-    for (j = 0; j < ch->player_specials->skill_focus[i-SKILL_LOW_SKILL]; j++)
-      fprintf(fl, "%d\n", i);
-  }
-  fprintf(fl, "0\n");
-
-  /* Save skill bonuses */
-  if (GET_ADMLEVEL(ch) < ADMLVL_IMMORT) {
-    fprintf(fl, "SklB:\n");
-    for (i = 1; i <= SKILL_TABLE_SIZE; i++) {
-     if (GET_SKILL_BONUS(ch, i))
-	fprintf(fl, "%d %d\n", i, GET_SKILL_BONUS(ch, i));
+    /* Save affects */
+    fprintf(fl, "Affs:\n");
+    for (i = 0; i < MAX_AFFECT; i++)
+    {
+        aff = &tmp_aff[i];
+        if (aff->type)
+            fprintf(fl, "%d %d %d %d %d %d %d\n", aff->type, aff->duration,
+                    aff->modifier, aff->location, (int)aff->bitvector, aff->specific, aff->level);
     }
-    fprintf(fl, "0 0\n");
-  }
+    fprintf(fl, "0 0 0 0 0 0\n");
+    fprintf(fl, "Affv:\n");
+    for (i = 0; i < MAX_AFFECT; i++)
+    {
+        aff = &tmp_affv[i];
+        if (aff->type)
+            fprintf(fl, "%d %d %d %d %d %d %d\n", aff->type, aff->duration,
+                    aff->modifier, aff->location, (int)aff->bitvector, aff->specific, aff->level);
+    }
+    fprintf(fl, "0 0 0 0 0 0\n");
 
-  /* Save feats */
-  fprintf(fl, "Feat:\n");
-  for (i = 1; i <= NUM_FEATS_DEFINED; i++) {
-    if (HAS_FEAT(ch, i))
-      fprintf(fl, "%d %d\n", i, HAS_FEAT(ch, i));
-  }
-  fprintf(fl, "0 0\n");
+    /* wizard memorize */
+    fprintf(fl, "Mmem:\n");
+    for (i = 0; i < GET_MEMCURSOR(ch); i++)
+    {
+        if (GET_SPELLMEM(ch, i) > 0)
+            fprintf(fl, "%d %d\n", GET_SPELLMEM(ch, i), 0);
+    }
+    for (mem = ch->memorized; mem; mem = next)
+    {
+        next = mem->next;
+        fprintf(fl, "%d %d\n", mem->spell, mem->timer);
+    }
+    fprintf(fl, "-1 0\n");
 
-  /* Save Sponsors in Classes */
-  fprintf(fl, "CSpn:\n");
-  for (i = 0; i < NUM_CLASSES; i++) {
-  	if (GET_CLASS_SPONSOR(ch, i) == TRUE) {
-  		fprintf(fl, "%d\n", i);
-  	}
-  }
-  fprintf(fl, "-1\n");
-
-  /* Save affects */
-  fprintf(fl, "Affs:\n");
-  for (i = 0; i < MAX_AFFECT; i++) {
-    aff = &tmp_aff[i];
-    if (aff->type)
-      fprintf(fl, "%d %d %d %d %d %d %d\n", aff->type, aff->duration,
-      aff->modifier, aff->location, (int)aff->bitvector, aff->specific, aff->level);
-  }
-  fprintf(fl, "0 0 0 0 0 0\n");
-  fprintf(fl, "Affv:\n");
-  for (i = 0; i < MAX_AFFECT; i++) {
-    aff = &tmp_affv[i];
-    if (aff->type)
-      fprintf(fl, "%d %d %d %d %d %d %d\n", aff->type, aff->duration,
-        aff->modifier, aff->location, (int)aff->bitvector, aff->specific, aff->level);
-  }
-  fprintf(fl, "0 0 0 0 0 0\n");
-
-  /* wizard memorize */
-  fprintf(fl, "Mmem:\n");
-  for (i = 0; i < GET_MEMCURSOR(ch); i++) {
-    if (GET_SPELLMEM(ch, i) > 0)
-      fprintf(fl, "%d %d\n", GET_SPELLMEM(ch, i), 0);
-  }
-  for (mem = ch->memorized; mem; mem = next) {
-    next = mem->next;
-    fprintf(fl, "%d %d\n", mem->spell, mem->timer);
-  }
-  fprintf(fl, "-1 0\n");
-
-  /* cleric memorize */
-  fprintf(fl, "Cmem:\n");
-  for (i = 0; i < GET_MEMCURSOR_C(ch); i++) {
-    if (GET_SPELLMEM_C(ch, i) > 0)
-      fprintf(fl, "%d %d\n", GET_SPELLMEM_C(ch, i), 0);
-  }
-  for (mem = ch->memorized_c; mem; mem = next) {
-    next = mem->next;
-    fprintf(fl, "%d %d\n", mem->spell, mem->timer);
-  }
-  fprintf(fl, "-1 0\n");
+    /* cleric memorize */
+    fprintf(fl, "Cmem:\n");
+    for (i = 0; i < GET_MEMCURSOR_C(ch); i++)
+    {
+        if (GET_SPELLMEM_C(ch, i) > 0)
+            fprintf(fl, "%d %d\n", GET_SPELLMEM_C(ch, i), 0);
+    }
+    for (mem = ch->memorized_c; mem; mem = next)
+    {
+        next = mem->next;
+        fprintf(fl, "%d %d\n", mem->spell, mem->timer);
+    }
+    fprintf(fl, "-1 0\n");
 
 
-  /* paladin memorize */
-  fprintf(fl, "Pmem:\n");
-  for (i = 0; i < GET_MEMCURSOR_P(ch); i++) {
-    if (GET_SPELLMEM_P(ch, i) > 0)
-      fprintf(fl, "%d %d\n", GET_SPELLMEM_P(ch, i), 0);
-  }
-  for (mem = ch->memorized_p; mem; mem = next) {
-    next = mem->next;
-    fprintf(fl, "%d %d\n", mem->spell, mem->timer);
-  }
-  fprintf(fl, "-1 0\n");
+    /* paladin memorize */
+    fprintf(fl, "Pmem:\n");
+    for (i = 0; i < GET_MEMCURSOR_P(ch); i++)
+    {
+        if (GET_SPELLMEM_P(ch, i) > 0)
+            fprintf(fl, "%d %d\n", GET_SPELLMEM_P(ch, i), 0);
+    }
+    for (mem = ch->memorized_p; mem; mem = next)
+    {
+        next = mem->next;
+        fprintf(fl, "%d %d\n", mem->spell, mem->timer);
+    }
+    fprintf(fl, "-1 0\n");
 
-  /* druid memorize */
-  fprintf(fl, "Dmem:\n");
-  for (i = 0; i < GET_MEMCURSOR_D(ch); i++) {
-    if (GET_SPELLMEM_D(ch, i) > 0)
-      fprintf(fl, "%d %d\n", GET_SPELLMEM_D(ch, i), 0);
-  }
-  for (mem = ch->player_specials->memorized_d; mem; mem = next) {
-    next = mem->next;
-    fprintf(fl, "%d %d\n", mem->spell, mem->timer);
-  }
-  fprintf(fl, "-1 0\n");
+    /* druid memorize */
+    fprintf(fl, "Dmem:\n");
+    for (i = 0; i < GET_MEMCURSOR_D(ch); i++)
+    {
+        if (GET_SPELLMEM_D(ch, i) > 0)
+            fprintf(fl, "%d %d\n", GET_SPELLMEM_D(ch, i), 0);
+    }
+    for (mem = ch->player_specials->memorized_d; mem; mem = next)
+    {
+        next = mem->next;
+        fprintf(fl, "%d %d\n", mem->spell, mem->timer);
+    }
+    fprintf(fl, "-1 0\n");
 
-  /* ranger memorize */
-  fprintf(fl, "Rmem:\n");
-  for (i = 0; i < GET_MEMCURSOR_R(ch); i++) {
-    if (GET_SPELLMEM_R(ch, i) > 0)
-      fprintf(fl, "%d %d\n", GET_SPELLMEM_R(ch, i), 0);
-  }
-  for (mem = ch->player_specials->memorized_r; mem; mem = next) {
-    next = mem->next;
-    fprintf(fl, "%d %d\n", mem->spell, mem->timer);
-  }
-  fprintf(fl, "-1 0\n");
+    /* ranger memorize */
+    fprintf(fl, "Rmem:\n");
+    for (i = 0; i < GET_MEMCURSOR_R(ch); i++)
+    {
+        if (GET_SPELLMEM_R(ch, i) > 0)
+            fprintf(fl, "%d %d\n", GET_SPELLMEM_R(ch, i), 0);
+    }
+    for (mem = ch->player_specials->memorized_r; mem; mem = next)
+    {
+        next = mem->next;
+        fprintf(fl, "%d %d\n", mem->spell, mem->timer);
+    }
+    fprintf(fl, "-1 0\n");
 
-  /* paladin memorize */
-  fprintf(fl, "Bmem:\n");
-  for (i = 0; i < GET_MEMCURSOR_B(ch); i++) {
-    if (GET_SPELLMEM_B(ch, i) > 0)
-      fprintf(fl, "%d %d\n", GET_SPELLMEM_B(ch, i), 0);
-  }
-  for (mem = ch->player_specials->memorized_b; mem; mem = next) {
-    next = mem->next;
-    fprintf(fl, "%d %d\n", mem->spell, mem->timer);
-  }
-  fprintf(fl, "-1 0\n");
+    /* paladin memorize */
+    fprintf(fl, "Bmem:\n");
+    for (i = 0; i < GET_MEMCURSOR_B(ch); i++)
+    {
+        if (GET_SPELLMEM_B(ch, i) > 0)
+            fprintf(fl, "%d %d\n", GET_SPELLMEM_B(ch, i), 0);
+    }
+    for (mem = ch->player_specials->memorized_b; mem; mem = next)
+    {
+        next = mem->next;
+        fprintf(fl, "%d %d\n", mem->spell, mem->timer);
+    }
+    fprintf(fl, "-1 0\n");
 
-  /* Pet Variables for the New System */
-	if (ch->sum_name != NULL) fprintf(fl, "SumN:\n%s~\n", ch->sum_name);
-	if (ch->sum_desc != NULL) fprintf(fl, "SumD:\n%s~\n", ch->sum_desc);
-  fprintf(fl, "SumT: %i\n", ch->summon_type);
+    /* Pet Variables for the New System */
+    if (ch->sum_name != NULL) fprintf(fl, "SumN:\n%s~\n", ch->sum_name);
+    if (ch->sum_desc != NULL) fprintf(fl, "SumD:\n%s~\n", ch->sum_desc);
+    fprintf(fl, "SumT: %i\n", ch->summon_type);
 
-  if (ch->player_specials->summon_num > 0) {
-    fprintf(fl, "SmNm: %d\n", ch->player_specials->summon_num);  
-    fprintf(fl, "SmDs: %s\n", ch->player_specials->summon_desc);  
-    fprintf(fl, "SmCH: %d\n", ch->player_specials->summon_cur_hit);  
-    fprintf(fl, "SmMH: %d\n", ch->player_specials->summon_max_hit);  
-    fprintf(fl, "SmAC: %d\n", ch->player_specials->summon_ac);  
-    fprintf(fl, "SmDR: %d\n", ch->player_specials->summon_dr);  
-    fprintf(fl, "SmTm: %d\n", ch->player_specials->summon_timer);  
-    fprintf(fl, "SmAt:\n");  
-    for (i = 0; i < 5; i++)
-      fprintf(fl, "%d %d %d %d\n", ch->player_specials->summon_attack_to_hit[i], ch->player_specials->summon_attack_ndice[i], 
-              ch->player_specials->summon_attack_sdice[i], ch->player_specials->summon_attack_dammod[i]);  
-    fprintf(fl, "-1 -1 -1 -1\n");
-  }
-
-  fprintf(fl, "Ment: %d\n", ch->mentor_level);
-
-  fprintf(fl, "Mntd: %d\n", ch->player_specials->mounted);  
-  fprintf(fl, "Mnt : %d\n", ch->player_specials->mount);  
-
-  if (ch->player_specials->mount_num > 0) {
-    fprintf(fl, "MtNm: %d\n", ch->player_specials->mount_num);  
-    fprintf(fl, "MtDs: %s\n", ch->player_specials->mount_desc);  
-    fprintf(fl, "MtCH: %d\n", ch->player_specials->mount_cur_hit);  
-    fprintf(fl, "MtMH: %d\n", ch->player_specials->mount_max_hit);  
-    fprintf(fl, "MtAC: %d\n", ch->player_specials->mount_ac);  
-    fprintf(fl, "MtDR: %d\n", ch->player_specials->mount_dr);  
-    fprintf(fl, "MtAt:\n");  
-    for (i = 0; i < 5; i++)
-      fprintf(fl, "%d %d %d %d\n", ch->player_specials->mount_attack_to_hit[i], ch->player_specials->mount_attack_ndice[i], 
-              ch->player_specials->mount_attack_sdice[i], ch->player_specials->mount_attack_dammod[i]);  
-    fprintf(fl, "-1 -1 -1 -1\n");
-  }
-  fprintf(fl, "Inna:\n");
-  for (inn = ch->innate; inn; inn = next_inn) {
-    next_inn = inn->next;
-    fprintf(fl, "%d %d\n", inn->spellnum, inn->timer);
-  }
-  fprintf(fl, "-1 0\n");
-
-  fprintf(fl, "LevD:\n");
-  write_level_data(ch, fl);
-
-  for (i = 0; i < NUM_COLOR; i++)
-    if (ch->player_specials->color_choices[i]) {
-      fprintf(fl, "Colr: %d %s\r\n", i, ch->player_specials->color_choices[i]);
+    if (ch->player_specials->summon_num > 0)
+    {
+        fprintf(fl, "SmNm: %d\n", ch->player_specials->summon_num);
+        fprintf(fl, "SmDs: %s\n", ch->player_specials->summon_desc);
+        fprintf(fl, "SmCH: %d\n", ch->player_specials->summon_cur_hit);
+        fprintf(fl, "SmMH: %d\n", ch->player_specials->summon_max_hit);
+        fprintf(fl, "SmAC: %d\n", ch->player_specials->summon_ac);
+        fprintf(fl, "SmDR: %d\n", ch->player_specials->summon_dr);
+        fprintf(fl, "SmTm: %d\n", ch->player_specials->summon_timer);
+        fprintf(fl, "SmAt:\n");
+        for (i = 0; i < 5; i++)
+            fprintf(fl, "%d %d %d %d\n", ch->player_specials->summon_attack_to_hit[i], ch->player_specials->summon_attack_ndice[i],
+                    ch->player_specials->summon_attack_sdice[i], ch->player_specials->summon_attack_dammod[i]);
+        fprintf(fl, "-1 -1 -1 -1\n");
     }
 
-  if (ch->damreduct)
-    for (reduct = ch->damreduct; reduct; reduct = reduct->next) {
-      fprintf(fl, "DmRd:\n%hd %hd %d %d %d\n", reduct->spell, reduct->feat, reduct->mod, reduct->duration, reduct->max_damage);
-      for (i = 0; i < MAX_DAMREDUCT_MULTI; i++)
-        if (reduct->damstyle[i])
-          fprintf(fl, "%d %d\n", reduct->damstyle[i], reduct->damstyleval[i]);
-      fprintf(fl, "end\n");
+    fprintf(fl, "Ment: %d\n", ch->mentor_level);
+
+    fprintf(fl, "Mntd: %d\n", ch->player_specials->mounted);
+    fprintf(fl, "Mnt : %d\n", ch->player_specials->mount);
+
+    if (ch->player_specials->mount_num > 0)
+    {
+        fprintf(fl, "MtNm: %d\n", ch->player_specials->mount_num);
+        fprintf(fl, "MtDs: %s\n", ch->player_specials->mount_desc);
+        fprintf(fl, "MtCH: %d\n", ch->player_specials->mount_cur_hit);
+        fprintf(fl, "MtMH: %d\n", ch->player_specials->mount_max_hit);
+        fprintf(fl, "MtAC: %d\n", ch->player_specials->mount_ac);
+        fprintf(fl, "MtDR: %d\n", ch->player_specials->mount_dr);
+        fprintf(fl, "MtAt:\n");
+        for (i = 0; i < 5; i++)
+            fprintf(fl, "%d %d %d %d\n", ch->player_specials->mount_attack_to_hit[i], ch->player_specials->mount_attack_ndice[i],
+                    ch->player_specials->mount_attack_sdice[i], ch->player_specials->mount_attack_dammod[i]);
+        fprintf(fl, "-1 -1 -1 -1\n");
+    }
+    fprintf(fl, "Inna:\n");
+    for (inn = ch->innate; inn; inn = next_inn)
+    {
+        next_inn = inn->next;
+        fprintf(fl, "%d %d\n", inn->spellnum, inn->timer);
+    }
+    fprintf(fl, "-1 0\n");
+
+    fprintf(fl, "LevD:\n");
+    write_level_data(ch, fl);
+
+    for (i = 0; i < NUM_COLOR; i++)
+        if (ch->player_specials->color_choices[i])
+        {
+            fprintf(fl, "Colr: %d %s\r\n", i, ch->player_specials->color_choices[i]);
+        }
+
+    if (ch->damreduct)
+        for (reduct = ch->damreduct; reduct; reduct = reduct->next)
+        {
+            fprintf(fl, "DmRd:\n%hd %hd %d %d %d\n", reduct->spell, reduct->feat, reduct->mod, reduct->duration, reduct->max_damage);
+            for (i = 0; i < MAX_DAMREDUCT_MULTI; i++)
+                if (reduct->damstyle[i])
+                    fprintf(fl, "%d %d\n", reduct->damstyle[i], reduct->damstyleval[i]);
+            fprintf(fl, "end\n");
+        }
+
+    fprintf(fl, "Intr:\n");
+    for (i = 0; i < MAX_INTROS; i++)
+        fprintf(fl, "%d\n", ch->player_specials->intro_list[i][0]);
+    fprintf(fl, "-1\n");
+
+    // Save character to account if necessary
+
+    if (ch->desc && ch->desc->account)
+    {
+        for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
+        {
+            if (ch->desc->account->character_names[i] != NULL &&
+                    !strcmp(ch->desc->account->character_names[i], GET_NAME(ch)))
+                break;
+            if (ch->desc->account->character_names[i] == NULL)
+                break;
+        }
+
+        if (i != MAX_CHARS_PER_ACCOUNT && !IS_SET_AR(PLR_FLAGS(ch), PLR_DELETED))
+            ch->desc->account->character_names[i] = strdup(GET_NAME(ch));
+        save_account(ch->desc->account);
     }
 
-  fprintf(fl, "Intr:\n");
-  for (i = 0; i < MAX_INTROS; i++)
-    fprintf(fl, "%d\n", ch->player_specials->intro_list[i][0]);
-  fprintf(fl, "-1\n");
 
-  // Save character to account if necessary
+    fprintf(fl, "RVis:\n");
+    for (i = 0; i < 65555; i++)
+        if (ch->player_specials->rooms_visited[i] > 0)
+            fprintf(fl, "%d %d\n", i, ch->player_specials->rooms_visited[i]);
+    fprintf(fl, "-1 -1\n");
 
-  if (ch->desc && ch->desc->account) {
-    for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++) {
-      if (ch->desc->account->character_names[i] != NULL && 
-          !strcmp(ch->desc->account->character_names[i], GET_NAME(ch)))
-        break;
-      if (ch->desc->account->character_names[i] == NULL)
-        break;
+    fclose(fl);
+
+    if (rename(fname, bakname) != 0 && errno != ENOENT)
+    {
+        mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't backup player file %s, '%s'", tmpname, strerror(errno));
+        send_to_char(ch, "There was an error while saving. Copy this line and send to an imm. %s 0x01\r\n", GET_NAME(ch));
+        return;
     }
-  
-    if (i != MAX_CHARS_PER_ACCOUNT && !IS_SET_AR(PLR_FLAGS(ch), PLR_DELETED))
-      ch->desc->account->character_names[i] = strdup(GET_NAME(ch));
-    save_account(ch->desc->account);
-  }
 
+    if (rename(tmpname, fname) != 0)
+    {
+        mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't move temporary player file %s, '%s'", tmpname, strerror(errno));
+        send_to_char(ch, "There was an error while saving. Copy this line and send to an imm. %s 0x02\r\n", GET_NAME(ch));
+        return;
+    }
 
-  fprintf(fl, "RVis:\n");
-  for (i = 0; i < 65555; i++)
-    if (ch->player_specials->rooms_visited[i] > 0) 
-      fprintf(fl, "%d %d\n", i, ch->player_specials->rooms_visited[i]);
-  fprintf(fl, "-1 -1\n");
+    /* more char_to_store code to restore affects */
 
-  fclose(fl);
+    /* add spell and eq affections back in now */
+    for (i = 0; i < MAX_AFFECT; i++)
+    {
+        if (tmp_aff[i].type)
+            affect_to_char(ch, &tmp_aff[i]);
+    }
+    for (i = 0; i < MAX_AFFECT; i++)
+    {
+        if (tmp_affv[i].type)
+            affectv_to_char(ch, &tmp_affv[i]);
+    }
 
-  if (rename(fname, bakname) != 0 && errno != ENOENT) {
-    mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't backup player file %s, '%s'", tmpname, strerror(errno));
-    send_to_char(ch, "There was an error while saving. Copy this line and send to an imm. %s 0x01\r\n", GET_NAME(ch));
-    return;
-  }
-
-  if (rename(tmpname, fname) != 0) {
-    mudlog(NRM, ADMLVL_GOD, TRUE, "SYSERR: Couldn't move temporary player file %s, '%s'", tmpname, strerror(errno));
-    send_to_char(ch, "There was an error while saving. Copy this line and send to an imm. %s 0x02\r\n", GET_NAME(ch));
-    return;
-  }
-
-  /* more char_to_store code to restore affects */
-
-  /* add spell and eq affections back in now */
-  for (i = 0; i < MAX_AFFECT; i++) {
-    if (tmp_aff[i].type)
-      affect_to_char(ch, &tmp_aff[i]);
-  }
-  for (i = 0; i < MAX_AFFECT; i++) {
-    if (tmp_affv[i].type)
-      affectv_to_char(ch, &tmp_affv[i]);
-  }
-
-  for (i = 0; i < NUM_WEARS; i++) {
-    if (char_eq[i])
+    for (i = 0; i < NUM_WEARS; i++)
+    {
+        if (char_eq[i])
 #ifndef NO_EXTRANEOUS_TRIGGERS
-        if (wear_otrigger(char_eq[i], ch, i))
+            if (wear_otrigger(char_eq[i], ch, i))
 #endif
-      equip_char(ch, char_eq[i], i);
+                equip_char(ch, char_eq[i], i);
 #ifndef NO_EXTRANEOUS_TRIGGERS
-          else
-          obj_to_char(char_eq[i], ch);
+            else
+                obj_to_char(char_eq[i], ch);
 #endif
-  }
+    }
 
-  /* end char_to_store code */
- 
-  if ((id = get_ptable_by_name(GET_NAME(ch))) < 0)
-    return;
+    /* end char_to_store code */
 
-  /* update the player in the player index */
-  if (player_table[id].level != GET_LEVEL(ch)) {
-    save_index = TRUE;
-    player_table[id].level = GET_LEVEL(ch);
-  }
-  if (player_table[id].admlevel != GET_ADMLEVEL(ch)) {
-    save_index = TRUE;
-    player_table[id].admlevel = GET_ADMLEVEL(ch);
-  }
-  if (player_table[id].last != ch->time.logon) {
-    save_index = TRUE;
-    player_table[id].last = ch->time.logon;
-  }
-  i = player_table[id].flags;
-  if (PLR_FLAGGED(ch, PLR_DELETED))
-    SET_BIT(player_table[id].flags, PINDEX_DELETED);
-  else
-    REMOVE_BIT(player_table[id].flags, PINDEX_DELETED);
-  if (PLR_FLAGGED(ch, PLR_NODELETE) || PLR_FLAGGED(ch, PLR_CRYO))
-    SET_BIT(player_table[id].flags, PINDEX_NODELETE);
-  else
-    REMOVE_BIT(player_table[id].flags, PINDEX_NODELETE);
+    if ((id = get_ptable_by_name(GET_NAME(ch))) < 0)
+        return;
 
-  if (PLR_FLAGGED(ch, PLR_FROZEN) || PLR_FLAGGED(ch, PLR_NOWIZLIST))
-    SET_BIT(player_table[id].flags, PINDEX_NOWIZLIST);
-  else
-    REMOVE_BIT(player_table[id].flags, PINDEX_NOWIZLIST);
+    /* update the player in the player index */
+    if (player_table[id].level != GET_LEVEL(ch))
+    {
+        save_index = TRUE;
+        player_table[id].level = GET_LEVEL(ch);
+    }
+    if (player_table[id].admlevel != GET_ADMLEVEL(ch))
+    {
+        save_index = TRUE;
+        player_table[id].admlevel = GET_ADMLEVEL(ch);
+    }
+    if (player_table[id].last != ch->time.logon)
+    {
+        save_index = TRUE;
+        player_table[id].last = ch->time.logon;
+    }
+    i = player_table[id].flags;
+    if (PLR_FLAGGED(ch, PLR_DELETED))
+        SET_BIT(player_table[id].flags, PINDEX_DELETED);
+    else
+        REMOVE_BIT(player_table[id].flags, PINDEX_DELETED);
+    if (PLR_FLAGGED(ch, PLR_NODELETE) || PLR_FLAGGED(ch, PLR_CRYO))
+        SET_BIT(player_table[id].flags, PINDEX_NODELETE);
+    else
+        REMOVE_BIT(player_table[id].flags, PINDEX_NODELETE);
 
-  if (player_table[id].flags != i || save_index)
-    save_player_index();
+    if (PLR_FLAGGED(ch, PLR_FROZEN) || PLR_FLAGGED(ch, PLR_NOWIZLIST))
+        SET_BIT(player_table[id].flags, PINDEX_NOWIZLIST);
+    else
+        REMOVE_BIT(player_table[id].flags, PINDEX_NOWIZLIST);
+
+    if (player_table[id].flags != i || save_index)
+        save_player_index();
 
 }
 
