@@ -211,7 +211,7 @@ void assign_races(void)
         115, 50, 50, 41, Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_SMALL, TRUE, CLASS_ROGUE, SKILL_LANG_HALFLING, 0);
     add_race(RACE_HALF_ELF, "half elf", "HalfElf", "Half Elf", RACE_TYPE_ELF, N, Y, Y, 0, 0, 0, 0, 0, 0, 170, 170, 160, 55, 55, 45, 
         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_WIZARD, SKILL_LANG_ELVEN, 0);
-    add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 2, 0, -2, 0, 0, -2, 200, 200, 190, 75, 75, 70,
+    add_race(RACE_HALF_ORC, "half orc", "HalfOrc", "Half Orc", RACE_TYPE_ORC, N, Y, Y, 0, 0, 0, 0, 0, 0, 200, 200, 190, 75, 75, 70,
         Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_BARBARIAN, SKILL_LANG_ORCISH, 0);
 
 // Test Race for unlocking purposes

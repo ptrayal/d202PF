@@ -459,7 +459,7 @@ SPECIAL(set_stats)
         {
           GET_STAT_POINTS(ch) = 24;
         }
-        else if(IS_HALF_ELF(ch))
+        else if(IS_HALF_ELF(ch) || IS_HALF_ORC(ch) )
         {
           GET_STAT_POINTS(ch) = 22;
         }
