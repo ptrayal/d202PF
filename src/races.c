@@ -199,6 +199,8 @@ void assign_races(void)
     }
 
 // Beginning of standard PF races
+    add_race(RACE_HUMAN, "human", "Human", "Human", RACE_TYPE_HUMAN, N, Y, Y, 0, 0, 0, 0, 0, 0, 180, 180, 170, 75, 75, 60, 
+        Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE,CLASS_UNDEFINED, SKILL_LANG_COMMON, 0);
     add_race(RACE_DWARF, "dwarf", "Dwarf", "Dwarf", RACE_TYPE_DWARF, N, Y, Y, 0, 2, 0, 2, 0, -2, 145, 145, 140, 65, 65, 60,
             Y, Y, Y, Y, Y, Y, Y, Y, Y, SIZE_MEDIUM, TRUE, CLASS_FIGHTER, SKILL_LANG_DWARVEN, 0);
     add_race(RACE_ELF, "elf", "Elf", "Elf", RACE_TYPE_ELF, N, Y, Y, 0, -2, 2, 0, 2, 0, 170, 170, 160, 55, 55, 45, 

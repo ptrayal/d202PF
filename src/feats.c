@@ -592,687 +592,687 @@ int feat_is_available(struct char_data *ch, int featnum, int iarg, char *sarg)
         return FALSE;
     }
 
-  switch (featnum) 
-  {
+    switch (featnum)
+    {
 
-/* --------------- EPIC SPELLCASTING FEAT --------------- */
-/********************************************************
-*Requirements: Spellcraft 24 ranks                      *
-*              Knowledge 24 ranks                       *
-*              Level 21                                 *
-*********************************************************/  
+    /* --------------- EPIC SPELLCASTING FEAT --------------- */
+    /********************************************************
+    *Requirements: Spellcraft 24 ranks                      *
+    *              Knowledge 24 ranks                       *
+    *              Level 21                                 *
+    *********************************************************/
     case FEAT_EPIC_SPELLCASTING:
-    if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 24)
-      return FALSE;
-    if (GET_SKILL_RANKS(ch, SKILL_KNOWLEDGE) < 24)
-      return FALSE;
-    if (GET_LEVEL(ch) < 21)
-      return FALSE;
-    return TRUE;
-
-/* --------------- DIEHARD FEAT --------------- */
-/********************************************************
-*Requirements: Endurance Feat                           *
-*********************************************************/  
-  case FEAT_DIEHARD:
-    if (!HAS_REAL_FEAT(ch, FEAT_ENDURANCE))
-      return FALSE;
-    return TRUE;
-
-/* --------------- FAST HEALER FEAT --------------- */
-/********************************************************
-*Requirements: Diehard Feat                             *
-*              Consitution: 13+                         *
-*********************************************************/  
-  case FEAT_FAST_HEALER:
-    if (!HAS_REAL_FEAT(ch, FEAT_DIEHARD))
-      return FALSE;
-    if (ch->real_abils.con < 13)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD:
-  if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_SHIELD))
-    return FALSE;
-  return TRUE;
-
-  case FEAT_INTENSIFY_SPELL:
-    if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 30)
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_MAXIMIZE_SPELL))
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_EMPOWER_SPELL))
-      return FALSE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
-    if (findslotnum(ch, 9) > 0)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_SWARM_OF_ARROWS:
-    if (ch->real_abils.dex < 23)
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_RAPID_SHOT))
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_WEAPON_FOCUS))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_RAPID_SHOT:
-    if (ch->real_abils.dex <13)
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
-      return FALSE;
-    return TRUE;
- 
-  case FEAT_DEFLECT_ARROWS:
-    if (ch->real_abils.dex < 13)
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_UNARMED_STRIKE))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_FAST_HEALING:
-    if (ch->fast_healing_feats >= 5)
-      return FALSE;
-    if (ch->real_abils.con < 25)
-      return FALSE;
-    return TRUE;    
-
-  case FEAT_TRAMPLE:
-    if (!HAS_REAL_FEAT(ch, FEAT_MOUNTED_COMBAT))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_MOUNTED_COMBAT:
-    if (GET_SKILL_RANKS(ch, SKILL_RIDE) < 1)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_COMBAT_CHALLENGE:
-    if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 5 &&
-        GET_SKILL_RANKS(ch, SKILL_INTIMIDATE) < 5 &&
-        GET_SKILL_RANKS(ch, SKILL_BLUFF) < 5)
-      return false;
-    return true;
-
-  case FEAT_BLEEDING_ATTACK:
-  case FEAT_POWERFUL_SNEAK:
-    if (GET_CLASS_RANKS(ch, CLASS_ROGUE) > 2)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_IMPROVED_COMBAT_CHALLENGE:
-    if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 10 &&
-        GET_SKILL_RANKS(ch, SKILL_INTIMIDATE) < 10 &&
-        GET_SKILL_RANKS(ch, SKILL_BLUFF) < 10)
-      return false;
-    if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_CHALLENGE))
-      return false;
-    return true;
-
-  case FEAT_GREATER_COMBAT_CHALLENGE:
-    if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 15 &&
-        GET_SKILL_RANKS(ch, SKILL_INTIMIDATE) < 15 &&
-        GET_SKILL_RANKS(ch, SKILL_BLUFF) < 15)
-      return false;
-    if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_COMBAT_CHALLENGE))
-      return false;
-    return true;
-
-  case FEAT_NATURAL_SPELL:
-      if (ch->real_abils.wis < 13)
-          return false;
-      if (!has_feat(ch, FEAT_WILD_SHAPE))
-          return false;
-      return true;
-
-  case FEAT_IMPROVED_SNEAK_ATTACK:
-    if (has_feat(ch, FEAT_SNEAK_ATTACK) >= 8)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_SNEAK_ATTACK:
-    if (HAS_REAL_FEAT(ch, FEAT_SNEAK_ATTACK) < 8)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_SNEAK_ATTACK_OF_OPPORTUNITY:
-    if (HAS_REAL_FEAT(ch, FEAT_SNEAK_ATTACK) < 8)
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_OPPORTUNIST))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_STEADFAST_DETERMINATION:
-    if (!HAS_REAL_FEAT(ch, FEAT_ENDURANCE))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_GREAT_SMITING:
-    if (ch->real_abils.cha >= 25 && has_feat(ch, FEAT_SMITE_EVIL))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_DIVINE_MIGHT:
-  case FEAT_DIVINE_SHIELD:
-    if (has_feat(ch, FEAT_TURN_UNDEAD) && has_feat(ch, FEAT_POWER_ATTACK) &&
-        ch->real_abils.cha >= 13 && ch->real_abils.str >= 13)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_PRECISE_SHOT:
-    if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_DIVINE_VENGEANCE:
-    if (has_feat(ch, FEAT_TURN_UNDEAD) && has_feat(ch, FEAT_EXTRA_TURNING))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_IMPROVED_EVASION:
-  case FEAT_CRIPPLING_STRIKE:
-  case FEAT_DEFENSIVE_ROLL:
-  case FEAT_OPPORTUNIST:
-    if (GET_CLASS_RANKS(ch, CLASS_ROGUE) < 10)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_FASTER_MEMORIZATION:
-    if (IS_MEM_BASED_CASTER(ch))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_DAMAGE_REDUCTION:
-    if (ch->damage_reduction_feats >= 5)
-      return FALSE;
-    if (ch->real_abils.con < 21)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_MONKEY_GRIP:
-    if (!iarg)
-      return TRUE;
-    if (!is_proficient_with_weapon(ch, iarg))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_LAST_FEAT:
-    return FALSE;
-
-  case FEAT_BLOODLINE_ARCANE:
-    if (has_feat(ch, FEAT_BLOODLINE_CELESTIAL))
-      return FALSE;
-    if (has_feat(ch, FEAT_BLOODLINE_ABYSSAL))
-      return FALSE;
-    if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_BLOODLINE_ABYSSAL:
-    if (has_feat(ch, FEAT_BLOODLINE_CELESTIAL))
-      return FALSE;
-    if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
-      return FALSE;
-    if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
-      return TRUE;
-    return FALSE;
-
-   case FEAT_BLOODLINE_CELESTIAL:
-    if (has_feat(ch, FEAT_BLOODLINE_ABYSSAL))
-      return FALSE;
-    if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
-      return FALSE;
-    if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
-      return TRUE;
-    return FALSE;
-
- case FEAT_SLIPPERY_MIND:
-    if (GET_CLASS_RANKS(ch, CLASS_ROGUE) >= 11)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_LINGERING_SONG:
-  case FEAT_EXTRA_MUSIC:
-    if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_EXTEND_RAGE:
-  case FEAT_EXTRA_RAGE:
-    if (has_feat(ch, FEAT_RAGE))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_FAVORED_ENEMY:
-    if (has_feat(ch, FEAT_FAVORED_ENEMY_AVAILABLE))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_IMPROVED_NATURAL_WEAPON:
-    if (GET_BAB(ch) < 4)
-      return FALSE;
-    if (GET_RACE(ch) == RACE_MINOTAUR)
-      return TRUE;
-    if (has_feat(ch, FEAT_CLAWS_AND_BITE))
-      return TRUE;
-    if (has_feat(ch, FEAT_IMPROVED_UNARMED_STRIKE))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_TWO_WEAPON_DEFENSE:
-  	if (!has_feat(ch, FEAT_TWO_WEAPON_FIGHTING))
-  		return FALSE;
-  	if (ch->real_abils.dex < 15)
-  		return FALSE;
-  	return TRUE;
-
-  case FEAT_COMBAT_EXPERTISE:
-  	if (ch->real_abils.intel < 13)
-  		return false;
-    return true;
-    
-  case FEAT_IMPROVED_FEINT:
-  	if (!has_feat(ch, FEAT_COMBAT_EXPERTISE))
-  		return false;
-  	return true;
-
-  case FEAT_BRAVERY:
-    if (GET_CLASS_RANKS(ch, CLASS_FIGHTER))
-      return true;
-    return false;
-
-  case FEAT_AURA_OF_GOOD:
-  case FEAT_DETECT_EVIL:
-  case FEAT_SMITE_EVIL:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN))
-      return true;
-    return false;
-
-  case FEAT_DIVINE_GRACE:
-  case FEAT_LAYHANDS:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 1)
-      return true;
-    return false;
-
-  case FEAT_AURA_OF_COURAGE:
-  case FEAT_DIVINE_HEALTH:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 2)
-      return true;
-    return false;
-
-  case FEAT_TURN_UNDEAD:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 3 || GET_CLASS_RANKS(ch, CLASS_CLERIC))
-      return true;
-    return false;
-
-  case FEAT_REMOVE_DISEASE:
-    if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 5)
-      return true;
-    return false;
-
-  case FEAT_ARMOR_PROFICIENCY_HEAVY:
-    if (has_feat(ch, FEAT_ARMOR_PROFICIENCY_MEDIUM))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_ARMOR_PROFICIENCY_MEDIUM:
-    if (has_feat(ch, FEAT_ARMOR_PROFICIENCY_LIGHT))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_DODGE:
-    if (ch->real_abils.dex >= 13)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_MOBILITY:
-    if (has_feat(ch, FEAT_DODGE))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD:
-    if (GET_BAB(ch) >= 1)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_IMPROVED_DISARM:
-    if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_EXPERTISE))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_IMPROVED_TRIP:
-    if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_EXPERTISE))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_WHIRLWIND_ATTACK:
-    if (!HAS_REAL_FEAT(ch, FEAT_DODGE))
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_MOBILITY))
-      return FALSE;
-    if (!HAS_REAL_FEAT(ch, FEAT_SPRING_ATTACK))
-      return FALSE;
-    if (ch->real_abils.intel < 13)
-      return FALSE;
-    if (ch->real_abils.dex < 13)
-      return FALSE;
-    if (GET_BAB(ch) < 4)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_SPRING_ATTACK:
-  if (GET_BAB(ch) <4 )
-    return FALSE;
-  if (!HAS_REAL_FEAT(ch, FEAT_MOBILITY))
-    return FALSE;
-  return TRUE;
-
-  case FEAT_STUNNING_FIST:
-    if (has_feat(ch, FEAT_IMPROVED_UNARMED_STRIKE) && ch->real_abils.str >= 13 && ch->real_abils.dex >= 13 && GET_BAB(ch) >= 8)
-      return TRUE;
-    if (GET_CLASS_RANKS(ch, CLASS_MONK) > 0)
-      return TRUE;
-    return FALSE;
-  
-  case FEAT_POWER_ATTACK:
-    if (ch->real_abils.str >= 13 && GET_BAB(ch) >= 1)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_CLEAVE:
-  case FEAT_SUNDER:
-    if (has_feat(ch, FEAT_POWER_ATTACK))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_FAR_SHOT:
-    if (has_feat(ch, FEAT_POINT_BLANK_SHOT))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_TWO_WEAPON_FIGHTING:
-    if (ch->real_abils.dex >= 15)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_LEADERSHIP:
-    if (GET_LEVEL(ch) < 7)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_ENHANCE_SPELL:
-    if (GET_LEVEL(ch) < 21)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_EPIC_SKILL_FOCUS:
-    if (GET_LEVEL(ch) < 21)
-      return FALSE;
-    if (!iarg)
-      return TRUE;
-    if (GET_SKILL(ch, iarg) >= 20)
-      return TRUE;
-    return FALSE;
-
-  case FEAT_IMPROVED_TWO_WEAPON_FIGHTING:
-    if (ch->real_abils.dex >= 17 && has_feat(ch, FEAT_TWO_WEAPON_FIGHTING) && GET_BAB(ch) >= 6)
-      return TRUE;
-    return FALSE;
-   
-  case FEAT_GREATER_TWO_WEAPON_FIGHTING:
-    if (ch->real_abils.dex >= 19 && has_feat(ch, FEAT_TWO_WEAPON_FIGHTING) && has_feat(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING) && GET_BAB(ch) >= 11)
-      return TRUE;
-    return FALSE;  	
-
-  case FEAT_PERFECT_TWO_WEAPON_FIGHTING:
-    if (ch->real_abils.dex >= 25 && has_feat(ch, FEAT_GREATER_TWO_WEAPON_FIGHTING))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_IMPROVED_CRITICAL:
-    if (GET_BAB(ch) < 8)
-      return FALSE;
-    if (!iarg || is_proficient_with_weapon(ch, iarg))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_CRITICAL_FOCUS:
-    if (GET_BAB(ch) < 9)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_WEAPON_MASTERY:
-    if (GET_BAB(ch) < 8)
-      return FALSE;
-    if (!iarg)
-      return TRUE;
-    if (!is_proficient_with_weapon(ch, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_WEAPON_FLURRY:
-    if (GET_BAB(ch) < 14)
-      return FALSE;
-    if (!iarg)
-      return TRUE;
-    if (!is_proficient_with_weapon(ch, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_MASTERY, iarg))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_WEAPON_SUPREMACY:
-    if (GET_CLASS_RANKS(ch, CLASS_FIGHTER) < 17)
-      return FALSE;
-    if (!iarg)
-      return TRUE;
-    if (!is_proficient_with_weapon(ch, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_GREATER_WEAPON_FOCUS, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_GREATER_WEAPON_SPECIALIZATION, iarg))
-      return FALSE;
-    if (!has_combat_feat(ch, CFEAT_WEAPON_MASTERY, iarg))
-      return FALSE;
-    return TRUE;
-
-  case FEAT_ROBILARS_GAMBIT:
-    if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_REFLEXES))
-      return FALSE;
-    if (GET_BAB(ch) < 12)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_KNOCKDOWN:
-    if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_TRIP))
-      return FALSE;
-    if (GET_BAB(ch) < 4)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_ARMOR_SPECIALIZATION_LIGHT:
-    if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_LIGHT))
-      return FALSE;
-    if (GET_BAB(ch) < 12)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_ARMOR_SPECIALIZATION_MEDIUM:
-    if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_MEDIUM))
-      return FALSE;
-    if (GET_BAB(ch) < 12)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_ARMOR_SPECIALIZATION_HEAVY:
-    if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_HEAVY))
-      return FALSE;
-    if (GET_BAB(ch) < 12)
-      return FALSE;
-    return TRUE;
-
-  case FEAT_WEAPON_FOCUS:
-    if (GET_BAB(ch) < 1)
-      return FALSE;
-    if (!iarg || is_proficient_with_weapon(ch, iarg))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_WEAPON_SPECIALIZATION:
-    if (GET_BAB(ch) < 4 || !GET_CLASS_RANKS(ch, CLASS_FIGHTER))
-      return FALSE;
-    if (!iarg || is_proficient_with_weapon(ch, iarg))
-      return TRUE;
-    return FALSE;
-
-  case FEAT_GREATER_WEAPON_FOCUS:
-    if (GET_CLASS_RANKS(ch, CLASS_FIGHTER) < 8)
-      return FALSE;
-    if (!iarg)
-      return TRUE;
-    if (is_proficient_with_weapon(ch, iarg) && has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
-      return TRUE;
-    return FALSE;
-    
-  case  FEAT_IMPROVED_WEAPON_FINESSE:
-  	if (!has_feat(ch, FEAT_WEAPON_FINESSE))
-  	  return FALSE;
-  	if (GET_BAB(ch) < 4)
-  		return FALSE;
+        if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 24)
+            return FALSE;
+        if (GET_SKILL_RANKS(ch, SKILL_KNOWLEDGE) < 24)
+            return FALSE;
+        if (GET_LEVEL(ch) < 21)
+            return FALSE;
+        return TRUE;
+
+    /* --------------- DIEHARD FEAT --------------- */
+    /********************************************************
+    *Requirements: Endurance Feat                           *
+    *********************************************************/
+    case FEAT_DIEHARD:
+        if (!HAS_REAL_FEAT(ch, FEAT_ENDURANCE))
+            return FALSE;
+        return TRUE;
+
+    /* --------------- FAST HEALER FEAT --------------- */
+    /********************************************************
+    *Requirements: Diehard Feat                             *
+    *              Consitution: 13+                         *
+    *********************************************************/
+    case FEAT_FAST_HEALER:
+        if (!HAS_REAL_FEAT(ch, FEAT_DIEHARD))
+            return FALSE;
+        if (ch->real_abils.con < 13)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_ARMOR_PROFICIENCY_TOWER_SHIELD:
+        if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_SHIELD))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_INTENSIFY_SPELL:
+        if (GET_SKILL_RANKS(ch, SKILL_SPELLCRAFT) < 30)
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_MAXIMIZE_SPELL))
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_EMPOWER_SPELL))
+            return FALSE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_SORCERER;
+        if (findslotnum(ch, 9) > 0)
+            return TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_MAGE;
+        if (findslotnum(ch, 9) > 0)
+            return TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_FAVORED_SOUL;
+        if (findslotnum(ch, 9) > 0)
+            return TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_CLERIC;
+        if (findslotnum(ch, 9) > 0)
+            return TRUE;
+        GET_MEM_TYPE(ch) = MEM_TYPE_DRUID;
+        if (findslotnum(ch, 9) > 0)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_SWARM_OF_ARROWS:
+        if (ch->real_abils.dex < 23)
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_RAPID_SHOT))
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_WEAPON_FOCUS))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_RAPID_SHOT:
+        if (ch->real_abils.dex < 13)
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_DEFLECT_ARROWS:
+        if (ch->real_abils.dex < 13)
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_UNARMED_STRIKE))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_FAST_HEALING:
+        if (ch->fast_healing_feats >= 5)
+            return FALSE;
+        if (ch->real_abils.con < 25)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_TRAMPLE:
+        if (!HAS_REAL_FEAT(ch, FEAT_MOUNTED_COMBAT))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_MOUNTED_COMBAT:
+        if (GET_SKILL_RANKS(ch, SKILL_RIDE) < 1)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_COMBAT_CHALLENGE:
+        if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 5 &&
+                GET_SKILL_RANKS(ch, SKILL_INTIMIDATE) < 5 &&
+                GET_SKILL_RANKS(ch, SKILL_BLUFF) < 5)
+            return false;
+        return true;
+
+    case FEAT_BLEEDING_ATTACK:
+    case FEAT_POWERFUL_SNEAK:
+        if (GET_CLASS_RANKS(ch, CLASS_ROGUE) > 2)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_IMPROVED_COMBAT_CHALLENGE:
+        if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 10 &&
+                GET_SKILL_RANKS(ch, SKILL_INTIMIDATE) < 10 &&
+                GET_SKILL_RANKS(ch, SKILL_BLUFF) < 10)
+            return false;
+        if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_CHALLENGE))
+            return false;
+        return true;
+
+    case FEAT_GREATER_COMBAT_CHALLENGE:
+        if (GET_SKILL_RANKS(ch, SKILL_DIPLOMACY) < 15 &&
+                GET_SKILL_RANKS(ch, SKILL_INTIMIDATE) < 15 &&
+                GET_SKILL_RANKS(ch, SKILL_BLUFF) < 15)
+            return false;
+        if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_COMBAT_CHALLENGE))
+            return false;
+        return true;
+
+    case FEAT_NATURAL_SPELL:
+        if (ch->real_abils.wis < 13)
+            return false;
+        if (!has_feat(ch, FEAT_WILD_SHAPE))
+            return false;
+        return true;
+
+    case FEAT_IMPROVED_SNEAK_ATTACK:
+        if (has_feat(ch, FEAT_SNEAK_ATTACK) >= 8)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_SNEAK_ATTACK:
+        if (HAS_REAL_FEAT(ch, FEAT_SNEAK_ATTACK) < 8)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_SNEAK_ATTACK_OF_OPPORTUNITY:
+        if (HAS_REAL_FEAT(ch, FEAT_SNEAK_ATTACK) < 8)
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_OPPORTUNIST))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_STEADFAST_DETERMINATION:
+        if (!HAS_REAL_FEAT(ch, FEAT_ENDURANCE))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_GREAT_SMITING:
+        if (ch->real_abils.cha >= 25 && has_feat(ch, FEAT_SMITE_EVIL))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_DIVINE_MIGHT:
+    case FEAT_DIVINE_SHIELD:
+        if (has_feat(ch, FEAT_TURN_UNDEAD) && has_feat(ch, FEAT_POWER_ATTACK) &&
+                ch->real_abils.cha >= 13 && ch->real_abils.str >= 13)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_PRECISE_SHOT:
+        if (!HAS_REAL_FEAT(ch, FEAT_POINT_BLANK_SHOT))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_DIVINE_VENGEANCE:
+        if (has_feat(ch, FEAT_TURN_UNDEAD) && has_feat(ch, FEAT_EXTRA_TURNING))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_IMPROVED_EVASION:
+    case FEAT_CRIPPLING_STRIKE:
+    case FEAT_DEFENSIVE_ROLL:
+    case FEAT_OPPORTUNIST:
+        if (GET_CLASS_RANKS(ch, CLASS_ROGUE) < 10)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_FASTER_MEMORIZATION:
+        if (IS_MEM_BASED_CASTER(ch))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_DAMAGE_REDUCTION:
+        if (ch->damage_reduction_feats >= 5)
+            return FALSE;
+        if (ch->real_abils.con < 21)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_MONKEY_GRIP:
         if (!iarg)
-          return TRUE;
-  	if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
-  		return FALSE;
+            return TRUE;
+        if (!is_proficient_with_weapon(ch, iarg))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_LAST_FEAT:
+        return FALSE;
+
+    case FEAT_BLOODLINE_ARCANE:
+        if (has_feat(ch, FEAT_BLOODLINE_CELESTIAL))
+            return FALSE;
+        if (has_feat(ch, FEAT_BLOODLINE_ABYSSAL))
+            return FALSE;
+        if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_BLOODLINE_ABYSSAL:
+        if (has_feat(ch, FEAT_BLOODLINE_CELESTIAL))
+            return FALSE;
+        if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
+            return FALSE;
+        if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_BLOODLINE_CELESTIAL:
+        if (has_feat(ch, FEAT_BLOODLINE_ABYSSAL))
+            return FALSE;
+        if (has_feat(ch, FEAT_BLOODLINE_ARCANE))
+            return FALSE;
+        if (ch->levelup && GET_CLASS_LEVEL(ch) <= 1)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_SLIPPERY_MIND:
+        if (GET_CLASS_RANKS(ch, CLASS_ROGUE) >= 11)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_LINGERING_SONG:
+    case FEAT_EXTRA_MUSIC:
+        if (GET_CLASS_RANKS(ch, CLASS_BARD) > 0)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_EXTEND_RAGE:
+    case FEAT_EXTRA_RAGE:
+        if (has_feat(ch, FEAT_RAGE))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_FAVORED_ENEMY:
+        if (has_feat(ch, FEAT_FAVORED_ENEMY_AVAILABLE))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_IMPROVED_NATURAL_WEAPON:
+        if (GET_BAB(ch) < 4)
+            return FALSE;
+        if (GET_RACE(ch) == RACE_MINOTAUR)
+            return TRUE;
+        if (has_feat(ch, FEAT_CLAWS_AND_BITE))
+            return TRUE;
+        if (has_feat(ch, FEAT_IMPROVED_UNARMED_STRIKE))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_TWO_WEAPON_DEFENSE:
+        if (!has_feat(ch, FEAT_TWO_WEAPON_FIGHTING))
+            return FALSE;
+        if (ch->real_abils.dex < 15)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_COMBAT_EXPERTISE:
+        if (ch->real_abils.intel < 13)
+            return false;
+        return true;
+
+    case FEAT_IMPROVED_FEINT:
+        if (!has_feat(ch, FEAT_COMBAT_EXPERTISE))
+            return false;
+        return true;
+
+    case FEAT_BRAVERY:
+        if (GET_CLASS_RANKS(ch, CLASS_FIGHTER))
+            return true;
+        return false;
+
+    case FEAT_AURA_OF_GOOD:
+    case FEAT_DETECT_EVIL:
+    case FEAT_SMITE_EVIL:
+        if (GET_CLASS_RANKS(ch, CLASS_PALADIN))
+            return true;
+        return false;
+
+    case FEAT_DIVINE_GRACE:
+    case FEAT_LAYHANDS:
+        if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 1)
+            return true;
+        return false;
+
+    case FEAT_AURA_OF_COURAGE:
+    case FEAT_DIVINE_HEALTH:
+        if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 2)
+            return true;
+        return false;
+
+    case FEAT_TURN_UNDEAD:
+        if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 3 || GET_CLASS_RANKS(ch, CLASS_CLERIC))
+            return true;
+        return false;
+
+    case FEAT_REMOVE_DISEASE:
+        if (GET_CLASS_RANKS(ch, CLASS_PALADIN) > 5)
+            return true;
+        return false;
+
+    case FEAT_ARMOR_PROFICIENCY_HEAVY:
+        if (has_feat(ch, FEAT_ARMOR_PROFICIENCY_MEDIUM))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_ARMOR_PROFICIENCY_MEDIUM:
+        if (has_feat(ch, FEAT_ARMOR_PROFICIENCY_LIGHT))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_DODGE:
+        if (ch->real_abils.dex >= 13)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_MOBILITY:
+        if (has_feat(ch, FEAT_DODGE))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_WEAPON_PROFICIENCY_BASTARD_SWORD:
+        if (GET_BAB(ch) >= 1)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_IMPROVED_DISARM:
+        if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_EXPERTISE))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_IMPROVED_TRIP:
+        if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_EXPERTISE))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_WHIRLWIND_ATTACK:
+        if (!HAS_REAL_FEAT(ch, FEAT_DODGE))
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_MOBILITY))
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_SPRING_ATTACK))
+            return FALSE;
+        if (ch->real_abils.intel < 13)
+            return FALSE;
+        if (ch->real_abils.dex < 13)
+            return FALSE;
+        if (GET_BAB(ch) < 4)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_SPRING_ATTACK:
+        if (GET_BAB(ch) < 4 )
+            return FALSE;
+        if (!HAS_REAL_FEAT(ch, FEAT_MOBILITY))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_STUNNING_FIST:
+        if (has_feat(ch, FEAT_IMPROVED_UNARMED_STRIKE) && ch->real_abils.str >= 13 && ch->real_abils.dex >= 13 && GET_BAB(ch) >= 8)
+            return TRUE;
+        if (GET_CLASS_RANKS(ch, CLASS_MONK) > 0)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_POWER_ATTACK:
+        if (ch->real_abils.str >= 13 && GET_BAB(ch) >= 1)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_CLEAVE:
+    case FEAT_SUNDER:
+        if (has_feat(ch, FEAT_POWER_ATTACK))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_FAR_SHOT:
+        if (has_feat(ch, FEAT_POINT_BLANK_SHOT))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_TWO_WEAPON_FIGHTING:
+        if (ch->real_abils.dex >= 15)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_LEADERSHIP:
+        if (GET_LEVEL(ch) < 7)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_ENHANCE_SPELL:
+        if (GET_LEVEL(ch) < 21)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_EPIC_SKILL_FOCUS:
+        if (GET_LEVEL(ch) < 21)
+            return FALSE;
+        if (!iarg)
+            return TRUE;
+        if (GET_SKILL(ch, iarg) >= 20)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_IMPROVED_TWO_WEAPON_FIGHTING:
+        if (ch->real_abils.dex >= 17 && has_feat(ch, FEAT_TWO_WEAPON_FIGHTING) && GET_BAB(ch) >= 6)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_GREATER_TWO_WEAPON_FIGHTING:
+        if (ch->real_abils.dex >= 19 && has_feat(ch, FEAT_TWO_WEAPON_FIGHTING) && has_feat(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING) && GET_BAB(ch) >= 11)
+            return TRUE;
+        return FALSE;
+
+    case FEAT_PERFECT_TWO_WEAPON_FIGHTING:
+        if (ch->real_abils.dex >= 25 && has_feat(ch, FEAT_GREATER_TWO_WEAPON_FIGHTING))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_IMPROVED_CRITICAL:
+        if (GET_BAB(ch) < 8)
+            return FALSE;
+        if (!iarg || is_proficient_with_weapon(ch, iarg))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_CRITICAL_FOCUS:
+        if (GET_BAB(ch) < 9)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_WEAPON_MASTERY:
+        if (GET_BAB(ch) < 8)
+            return FALSE;
+        if (!iarg)
+            return TRUE;
+        if (!is_proficient_with_weapon(ch, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_WEAPON_FLURRY:
+        if (GET_BAB(ch) < 14)
+            return FALSE;
+        if (!iarg)
+            return TRUE;
+        if (!is_proficient_with_weapon(ch, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_MASTERY, iarg))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_WEAPON_SUPREMACY:
+        if (GET_CLASS_RANKS(ch, CLASS_FIGHTER) < 17)
+            return FALSE;
+        if (!iarg)
+            return TRUE;
+        if (!is_proficient_with_weapon(ch, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_GREATER_WEAPON_FOCUS, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_GREATER_WEAPON_SPECIALIZATION, iarg))
+            return FALSE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_MASTERY, iarg))
+            return FALSE;
+        return TRUE;
+
+    case FEAT_ROBILARS_GAMBIT:
+        if (!HAS_REAL_FEAT(ch, FEAT_COMBAT_REFLEXES))
+            return FALSE;
+        if (GET_BAB(ch) < 12)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_KNOCKDOWN:
+        if (!HAS_REAL_FEAT(ch, FEAT_IMPROVED_TRIP))
+            return FALSE;
+        if (GET_BAB(ch) < 4)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_ARMOR_SPECIALIZATION_LIGHT:
+        if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_LIGHT))
+            return FALSE;
+        if (GET_BAB(ch) < 12)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_ARMOR_SPECIALIZATION_MEDIUM:
+        if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_MEDIUM))
+            return FALSE;
+        if (GET_BAB(ch) < 12)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_ARMOR_SPECIALIZATION_HEAVY:
+        if (!HAS_REAL_FEAT(ch, FEAT_ARMOR_PROFICIENCY_HEAVY))
+            return FALSE;
+        if (GET_BAB(ch) < 12)
+            return FALSE;
+        return TRUE;
+
+    case FEAT_WEAPON_FOCUS:
+        if (GET_BAB(ch) < 1)
+            return FALSE;
+        if (!iarg || is_proficient_with_weapon(ch, iarg))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_WEAPON_SPECIALIZATION:
+        if (GET_BAB(ch) < 4 || !GET_CLASS_RANKS(ch, CLASS_FIGHTER))
+            return FALSE;
+        if (!iarg || is_proficient_with_weapon(ch, iarg))
+            return TRUE;
+        return FALSE;
+
+    case FEAT_GREATER_WEAPON_FOCUS:
+        if (GET_CLASS_RANKS(ch, CLASS_FIGHTER) < 8)
+            return FALSE;
+        if (!iarg)
+            return TRUE;
+        if (is_proficient_with_weapon(ch, iarg) && has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
+            return TRUE;
+        return FALSE;
+
+    case  FEAT_IMPROVED_WEAPON_FINESSE:
+        if (!has_feat(ch, FEAT_WEAPON_FINESSE))
+            return FALSE;
+        if (GET_BAB(ch) < 4)
+            return FALSE;
+        if (!iarg)
+            return TRUE;
+        if (!has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
+            return FALSE;
         if (weapon_list[iarg].size >= get_size(ch))
-          return FALSE;
+            return FALSE;
 
-  	return TRUE;
+        return TRUE;
 
-  case FEAT_GREATER_WEAPON_SPECIALIZATION:
-    if (GET_CLASS_RANKS(ch, CLASS_FIGHTER) < 12)
-      return FALSE;
-    if (!iarg)
-      return TRUE;
-    if (is_proficient_with_weapon(ch, iarg) &&
-        has_combat_feat(ch, CFEAT_GREATER_WEAPON_FOCUS, iarg) &&
-        has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg) &&
-        has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
-      return TRUE;
-    return FALSE;
+    case FEAT_GREATER_WEAPON_SPECIALIZATION:
+        if (GET_CLASS_RANKS(ch, CLASS_FIGHTER) < 12)
+            return FALSE;
+        if (!iarg)
+            return TRUE;
+        if (is_proficient_with_weapon(ch, iarg) &&
+                has_combat_feat(ch, CFEAT_GREATER_WEAPON_FOCUS, iarg) &&
+                has_combat_feat(ch, CFEAT_WEAPON_SPECIALIZATION, iarg) &&
+                has_combat_feat(ch, CFEAT_WEAPON_FOCUS, iarg))
+            return TRUE;
+        return FALSE;
 
-  case FEAT_BREW_POTION:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 3)
-      return TRUE;
-    return FALSE;
+    case FEAT_BREW_POTION:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 3)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_CRAFT_MAGICAL_ARMS_AND_ARMOR:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 5)
-      return TRUE;
-    return FALSE;
+    case FEAT_CRAFT_MAGICAL_ARMS_AND_ARMOR:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 5)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_CRAFT_ROD:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 9)
-      return TRUE;
-    return FALSE;
+    case FEAT_CRAFT_ROD:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 9)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_CRAFT_STAFF:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 12)
-      return TRUE;
-    return FALSE;
+    case FEAT_CRAFT_STAFF:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 12)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_CRAFT_WAND:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 5)
-      return TRUE;
-    return FALSE;
+    case FEAT_CRAFT_WAND:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 5)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_CRAFT_WONDEROUS_ITEM:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 3)
-      return TRUE;
-    return FALSE;
+    case FEAT_CRAFT_WONDEROUS_ITEM:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 3)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_FORGE_RING:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 7)
-      return TRUE;
-    return FALSE;
+    case FEAT_FORGE_RING:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 7)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_SCRIBE_SCROLL:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    if (GET_LEVEL(ch) >= 1)
-      return TRUE;
-    return FALSE;
+    case FEAT_SCRIBE_SCROLL:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        if (GET_LEVEL(ch) >= 1)
+            return TRUE;
+        return FALSE;
 
-  case FEAT_EXTEND_SPELL:
-  case FEAT_HEIGHTEN_SPELL:
-  case FEAT_MAXIMIZE_SPELL:
-  case FEAT_EMPOWERED_MAGIC:
-  case FEAT_ENHANCED_SPELL_DAMAGE:
-  case FEAT_SPELL_FOCUS:
-  case FEAT_SPELL_PENETRATION:
-  case FEAT_AUGMENT_SUMMONING:
-  case FEAT_QUICKEN_SPELL:
-  case FEAT_SILENT_SPELL:
-  case FEAT_STILL_SPELL:
-  case FEAT_EMPOWER_SPELL:
-    if (IS_SPELLCASTER(ch))
-      return TRUE;
-    return FALSE;
+    case FEAT_EXTEND_SPELL:
+    case FEAT_HEIGHTEN_SPELL:
+    case FEAT_MAXIMIZE_SPELL:
+    case FEAT_EMPOWERED_MAGIC:
+    case FEAT_ENHANCED_SPELL_DAMAGE:
+    case FEAT_SPELL_FOCUS:
+    case FEAT_SPELL_PENETRATION:
+    case FEAT_AUGMENT_SUMMONING:
+    case FEAT_QUICKEN_SPELL:
+    case FEAT_SILENT_SPELL:
+    case FEAT_STILL_SPELL:
+    case FEAT_EMPOWER_SPELL:
+        if (IS_SPELLCASTER(ch))
+            return TRUE;
+        return FALSE;
 
-  case FEAT_EXTRA_TURNING:
-    if (GET_CLASS_RANKS(ch, CLASS_CLERIC))
-      return TRUE;
-    return FALSE;
+    case FEAT_EXTRA_TURNING:
+        if (GET_CLASS_RANKS(ch, CLASS_CLERIC))
+            return TRUE;
+        return FALSE;
 
-  case FEAT_SPELL_MASTERY:
-    if (GET_CLASS_RANKS(ch, CLASS_WIZARD))
-      return TRUE;
-    return FALSE;
+    case FEAT_SPELL_MASTERY:
+        if (GET_CLASS_RANKS(ch, CLASS_WIZARD))
+            return TRUE;
+        return FALSE;
 
-  default:
-    return TRUE;
+    default:
+        return TRUE;
 
-  }
+    }
 }
 
 int is_proficient_with_armor(const struct char_data *ch, int armor_type)

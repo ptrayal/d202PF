@@ -441,67 +441,136 @@ SPECIAL(set_descs)
 SPECIAL(set_stats)
 {
 
-  if (IS_NPC(ch) || (!CMD_IS("setstats") && !CMD_IS("north")))
-    return 0;
+    if (IS_NPC(ch) || (!CMD_IS("setstats") && !CMD_IS("north")))
+        return 0;
 
-  if (CMD_IS("setstats") && GET_ROOM_VNUM(IN_ROOM(ch)) == 30003)
-  {
-    do_set_stats(ch, argument, 0, 0);
-    return 1;
-  }
-
-  if (GET_CLASS_LEVEL(ch) > 0)
-    return 0;
-
-  if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE)
-  {
-    GET_STAT_POINTS(ch) = 20;
-    ch->stat_points_given = TRUE;
-  }
-
-  if (CMD_IS("north"))
-  {
-    if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60)
-      send_to_char(ch, "You must set your ability scores before you can proceed.\r\n");
-    else {
-      char_from_room(ch);
-      char_to_room(ch, real_room(30004));
-      look_at_room(IN_ROOM(ch), ch, 0);
+    if (CMD_IS("setstats") && GET_ROOM_VNUM(IN_ROOM(ch)) == 30003)
+    {
+        do_set_stats(ch, argument, 0, 0);
+        return 1;
     }
-    return 1;
-  }
 
-  char arg1[100]={'\0'};
-  char arg2[100]={'\0'};
+    if (GET_CLASS_LEVEL(ch) > 0)
+        return 0;
 
-  two_arguments(argument, arg1, arg2);
+    if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60 && ch->stat_points_given == FALSE)
+    {
+        if ( IS_HUMAN(ch) )
+        {
+          GET_STAT_POINTS(ch) = 24;
+        }
+        else if(IS_HALF_ELF(ch))
+        {
+          GET_STAT_POINTS(ch) = 22;
+        }
+        else 
+        {
+          GET_STAT_POINTS(ch) = 20;
+        }
 
-  if (!*arg1)
-  {
-    send_to_char(ch, "Which stat do you want to adjust?\r\n");
-    return 1;
-  }
-  if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1))
-  {
-    send_to_char(ch, "What do you wish to change the stat to?\r\n");
-    return 1;
-  }
+        ch->stat_points_given = TRUE;
+    }
 
-  if (is_abbrev(arg1, "reset"))
-  {
-    send_to_char(ch, "You reset your stats back to the default values.\r\n");
-    GET_STAT_POINTS(ch) = 20;
-    ch->real_abils.str = 10;
-    ch->real_abils.dex = 10;
-    ch->real_abils.con = 10;
-    ch->real_abils.intel = 10;
-    ch->real_abils.wis = 10;
-    ch->real_abils.cha = 10;
-    return 1;
-  }
-  else if (is_abbrev(arg1, "show"))
-  {
-    send_to_char(ch, "Here are your current stats:\r\n");
+    if (CMD_IS("north"))
+    {
+        if (ch->real_abils.str + ch->real_abils.intel + ch->real_abils.wis + ch->real_abils.con + ch->real_abils.dex + ch->real_abils.cha == 60)
+            send_to_char(ch, "You must set your ability scores before you can proceed.\r\n");
+        else
+        {
+            char_from_room(ch);
+            char_to_room(ch, real_room(30004));
+            look_at_room(IN_ROOM(ch), ch, 0);
+        }
+        return 1;
+    }
+
+    char arg1[100] = {'\0'};
+    char arg2[100] = {'\0'};
+
+    two_arguments(argument, arg1, arg2);
+
+    if (!*arg1)
+    {
+        send_to_char(ch, "Which stat do you want to adjust?\r\n");
+        return 1;
+    }
+    if (!*arg2 && !is_abbrev("show", arg1) && !is_abbrev("reset", arg1))
+    {
+        send_to_char(ch, "What do you wish to change the stat to?\r\n");
+        return 1;
+    }
+
+    if (is_abbrev(arg1, "reset"))
+    {
+        send_to_char(ch, "You reset your stats back to the default values.\r\n");
+
+        if ( IS_HUMAN(ch) )
+        {
+          GET_STAT_POINTS(ch) = 24;
+        }
+        else if(IS_HALF_ELF(ch))
+        {
+          GET_STAT_POINTS(ch) = 22;
+        }
+        else 
+        {
+          GET_STAT_POINTS(ch) = 20;
+        }
+
+        ch->real_abils.str = 10;
+        ch->real_abils.dex = 10;
+        ch->real_abils.con = 10;
+        ch->real_abils.intel = 10;
+        ch->real_abils.wis = 10;
+        ch->real_abils.cha = 10;
+        return 1;
+    }
+    else if (is_abbrev(arg1, "show"))
+    {
+        send_to_char(ch, "Here are your current stats:\r\n");
+        send_to_char(ch, "Strength     : %d\r\n", ch->real_abils.str);
+        send_to_char(ch, "Dexterity    : %d\r\n", ch->real_abils.dex);
+        send_to_char(ch, "Constitution : %d\r\n", ch->real_abils.con);
+        send_to_char(ch, "Intelligence : %d\r\n", ch->real_abils.intel);
+        send_to_char(ch, "Wisdom       : %d\r\n", ch->real_abils.wis);
+        send_to_char(ch, "Charisma     : %d\r\n", ch->real_abils.cha);
+        send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
+        return 1;
+    }
+    if (GET_STAT_POINTS(ch) == 0)
+    {
+        send_to_char(ch, "You need to type @Ysetstats reset@n if you want to change your stats after using all of your points.\r\n");
+        return 1;
+    }
+    if (is_abbrev(arg1, "strength"))
+    {
+        ch->real_abils.str = stat_assign_stat(ch->real_abils.str, arg2, ch);
+    }
+    else if (is_abbrev(arg1, "dexterity"))
+    {
+        ch->real_abils.dex = stat_assign_stat(ch->real_abils.dex, arg2, ch);
+    }
+    else if (is_abbrev(arg1, "constitution"))
+    {
+        ch->real_abils.con = stat_assign_stat(ch->real_abils.con, arg2, ch);
+    }
+    else if (is_abbrev(arg1, "intelligence"))
+    {
+        ch->real_abils.intel = stat_assign_stat(ch->real_abils.intel, arg2, ch);
+    }
+    else if (is_abbrev(arg1, "wisdom"))
+    {
+        ch->real_abils.wis = stat_assign_stat(ch->real_abils.wis, arg2, ch);
+    }
+    else if (is_abbrev(arg1, "charisma"))
+    {
+        ch->real_abils.cha = stat_assign_stat(ch->real_abils.cha, arg2, ch);
+    }
+    else
+    {
+        send_to_char(ch, "That is not a valid ability score.\r\n");
+    }
+
     send_to_char(ch, "Strength     : %d\r\n", ch->real_abils.str);
     send_to_char(ch, "Dexterity    : %d\r\n", ch->real_abils.dex);
     send_to_char(ch, "Constitution : %d\r\n", ch->real_abils.con);
@@ -509,52 +578,9 @@ SPECIAL(set_stats)
     send_to_char(ch, "Wisdom       : %d\r\n", ch->real_abils.wis);
     send_to_char(ch, "Charisma     : %d\r\n", ch->real_abils.cha);
     send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
+
+
     return 1;
-  }
-  if (GET_STAT_POINTS(ch) == 0)
-  {
-    send_to_char(ch, "You need to type @Ysetstats reset@n if you want to change your stats after using all of your points.\r\n");
-    return 1;
-  }
-  if (is_abbrev(arg1, "strength"))
-  {
-    ch->real_abils.str = stat_assign_stat(ch->real_abils.str, arg2, ch);
-  }
-  else if (is_abbrev(arg1, "dexterity"))
-  {
-    ch->real_abils.dex = stat_assign_stat(ch->real_abils.dex, arg2, ch);
-  }
-  else if (is_abbrev(arg1, "constitution"))
-  {
-    ch->real_abils.con = stat_assign_stat(ch->real_abils.con, arg2, ch);
-  }
-  else if (is_abbrev(arg1, "intelligence"))
-  {
-    ch->real_abils.intel = stat_assign_stat(ch->real_abils.intel, arg2, ch);
-  }
-  else if (is_abbrev(arg1, "wisdom"))
-  {
-    ch->real_abils.wis = stat_assign_stat(ch->real_abils.wis, arg2, ch);
-  }
-  else if (is_abbrev(arg1, "charisma"))
-  {
-    ch->real_abils.cha = stat_assign_stat(ch->real_abils.cha, arg2, ch);
-  }
-  else
-  {
-    send_to_char(ch, "That is not a valid ability score.\r\n");
-  }
-
-  send_to_char(ch, "Strength     : %d\r\n", ch->real_abils.str);
-  send_to_char(ch, "Dexterity    : %d\r\n", ch->real_abils.dex);
-  send_to_char(ch, "Constitution : %d\r\n", ch->real_abils.con);
-  send_to_char(ch, "Intelligence : %d\r\n", ch->real_abils.intel);
-  send_to_char(ch, "Wisdom       : %d\r\n", ch->real_abils.wis);
-  send_to_char(ch, "Charisma     : %d\r\n", ch->real_abils.cha);
-  send_to_char(ch, "Stat Points  : %d\r\n", GET_STAT_POINTS(ch));
-
-
-  return 1;
 
 }
 
