@@ -1895,67 +1895,77 @@ GET_NAME(ch));
 
 ACMD(do_advance)
 {
-  struct char_data *victim;
-  char name[MAX_INPUT_LENGTH]={'\0'}, level[MAX_INPUT_LENGTH]={'\0'};
-  int newlevel = 0, oldlevel = 0;
+    struct char_data *victim;
+    char name[MAX_INPUT_LENGTH] = {'\0'}, level[MAX_INPUT_LENGTH] = {'\0'};
+    int newlevel = 0, oldlevel = 0;
 
-  two_arguments(argument, name, level);
+    two_arguments(argument, name, level);
 
-  if (*name) {
-    if (!(victim = get_char_vis(ch, name, NULL, FIND_CHAR_WORLD))) {
-      send_to_char(ch, "That player is not here.\r\n");
-      return;
+    if (*name)
+    {
+        if (!(victim = get_char_vis(ch, name, NULL, FIND_CHAR_WORLD)))
+        {
+            send_to_char(ch, "That player is not here.\r\n");
+            return;
+        }
     }
-  } else {
-    send_to_char(ch, "Advance who?\r\n");
-    return;
-  }
+    else
+    {
+        send_to_char(ch, "Advance who?\r\n");
+        return;
+    }
 
-  if (IS_NPC(victim)) {
-    send_to_char(ch, "NO!  Not on NPC's.\r\n");
-    return;
-  }
-  if (!*level || (newlevel = atoi(level)) <= 0) {
-    send_to_char(ch, "That's not a level!\r\n");
-    return;
-  }
-  if (newlevel >= CONFIG_LEVEL_CAP) {
-    send_to_char(ch, "%d is the highest possible level.\r\n", CONFIG_LEVEL_CAP - 1);
-    return;
-  }
-  if (newlevel == GET_CLASS_LEVEL(victim)) {
-    send_to_char(ch, "They are already at that level.\r\n");
-    return;
-  }
-  oldlevel = GET_CLASS_LEVEL(victim);
-  if (newlevel < GET_CLASS_LEVEL(victim)) {
-    send_to_char(ch, "You cannot demote a player.\r\n");
-  } else {
-    act("$n makes some strange gestures.\r\n"
-	"A strange feeling comes upon you, like a giant hand, light comes down\r\n"
-	"from above, grabbing your body, which begins to pulse with colored\r\n"
-        "lights from inside.\r\n\r\n"
-	"Your head seems to be filled with demons from another plane as your\r\n"
-        "body dissolves to the elements of time and space itself.\r\n\r\n"
-	"Suddenly a silent explosion of light snaps you back to reality.\r\n\r\n"
-	"You feel slightly different.", FALSE, ch, 0, victim, TO_VICT);
-  }
+    if (IS_NPC(victim))
+    {
+        send_to_char(ch, "NO!  Not on NPC's.\r\n");
+        return;
+    }
+    if (!*level || (newlevel = atoi(level)) <= 0)
+    {
+        send_to_char(ch, "That's not a level!\r\n");
+        return;
+    }
+    if (newlevel >= CONFIG_LEVEL_CAP)
+    {
+        send_to_char(ch, "%d is the highest possible level.\r\n", CONFIG_LEVEL_CAP - 1);
+        return;
+    }
+    if (newlevel == GET_CLASS_LEVEL(victim))
+    {
+        send_to_char(ch, "They are already at that level.\r\n");
+        return;
+    }
+    oldlevel = GET_CLASS_LEVEL(victim);
+    if (newlevel < GET_CLASS_LEVEL(victim))
+    {
+        send_to_char(ch, "You cannot demote a player.\r\n");
+    }
+    else
+    {
+        act("$n makes some strange gestures.\r\n"
+            "A strange feeling comes upon you, like a giant hand, light comes down\r\n"
+            "from above, grabbing your body, which begins to pulse with colored\r\n"
+            "lights from inside.\r\n\r\n"
+            "Your head seems to be filled with demons from another plane as your\r\n"
+            "body dissolves to the elements of time and space itself.\r\n\r\n"
+            "Suddenly a silent explosion of light snaps you back to reality.\r\n\r\n"
+            "You feel slightly different.", FALSE, ch, 0, victim, TO_VICT);
+    }
 
-  send_to_char(ch, "%s", CONFIG_OK);
+    send_to_char(ch, "%s", CONFIG_OK);
 
-  if (newlevel < oldlevel)
-    log("(GC) %s demoted %s from level %d to %d.",
-		GET_NAME(ch), GET_NAME(victim), oldlevel, newlevel);
-  else
-    log("(GC) %s has advanced %s to level %d (from %d)",
-		GET_NAME(ch), GET_NAME(victim), newlevel, oldlevel);
+    if (newlevel < oldlevel)
+        log("(GC) %s demoted %s from level %d to %d.",
+            GET_NAME(ch), GET_NAME(victim), oldlevel, newlevel);
+    else
+        log("(GC) %s has advanced %s to level %d (from %d)",
+            GET_NAME(ch), GET_NAME(victim), newlevel, oldlevel);
 
-  GET_EXP(victim) = level_exp(newlevel, GET_REAL_RACE(victim));
-  mudlog(NRM, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "(GC) %s bestowed sufficient experience to %s for level %d", GET_NAME(ch), GET_NAME(victim), newlevel);
-  send_to_char(victim, "@YYou have been given enough experience to advance to level %d by %s\r\n@n", newlevel, GET_NAME(ch));
+    GET_EXP(victim) = level_exp(newlevel, GET_REAL_RACE(victim));
+    mudlog(NRM, MAX(ADMLVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "(GC) %s bestowed sufficient experience to %s for level %d", GET_NAME(ch), GET_NAME(victim), newlevel);
+    send_to_char(victim, "@YYou have been given enough experience to advance to level %d by %s\r\n@n", newlevel, GET_NAME(ch));
 
-
-  save_char(victim);
+    save_char(victim);
 }
 
 ACMD(do_restore)

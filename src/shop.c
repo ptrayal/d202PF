@@ -996,96 +996,103 @@ void shopping_value(char *arg, struct char_data *ch, struct char_data *keeper, i
 
 char *list_object(struct obj_data *obj, int cnt, int aindex, int shop_nr, struct char_data *keeper, struct char_data *ch)
 {
-  static char result[256];
-  char	itemname[128]={'\0'},
-	quantity[16]={'\0'};	/* "Unlimited" or "%d" */
+    static char result[256];
+    char  itemname[128] = {'\0'},
+    quantity[16] = {'\0'};  /* "Unlimited" or "%d" */
 
-  if (shop_producing(obj, shop_nr))
-    strcpy(quantity, "999");	/* strcpy: OK (for 'quantity >= 10') */
-  else
-    sprintf(quantity, "%d", cnt);	/* sprintf: OK (for 'quantity >= 11', 32-bit int) */
-
-  switch (GET_OBJ_TYPE(obj)) {
-  case ITEM_DRINKCON:
-    if (GET_OBJ_VAL(obj, VAL_DRINKCON_HOWFULL))
-      snprintf(itemname, sizeof(itemname), "%s of %s", obj->short_description, drinks[GET_OBJ_VAL(obj, VAL_DRINKCON_LIQUID)]);
+    if (shop_producing(obj, shop_nr))
+        strcpy(quantity, "999");  /* strcpy: OK (for 'quantity >= 10') */
     else
-      strlcpy(itemname, obj->short_description, sizeof(itemname));
-    break;
+        sprintf(quantity, "%d", cnt); /* sprintf: OK (for 'quantity >= 11', 32-bit int) */
 
-  case ITEM_WAND:
-  case ITEM_STAFF:
-    snprintf(itemname, sizeof(itemname), "%s%s", obj->short_description,
-	GET_OBJ_VAL(obj, VAL_WAND_CHARGES) < GET_OBJ_VAL(obj, VAL_WAND_MAXCHARGES) ? " (partially used)" : "");
-    break;
+    switch (GET_OBJ_TYPE(obj))
+    {
+    case ITEM_DRINKCON:
+        if (GET_OBJ_VAL(obj, VAL_DRINKCON_HOWFULL))
+            snprintf(itemname, sizeof(itemname), "%s of %s", obj->short_description, drinks[GET_OBJ_VAL(obj, VAL_DRINKCON_LIQUID)]);
+        else
+            strlcpy(itemname, obj->short_description, sizeof(itemname));
+        break;
 
-  default:
-    strlcpy(itemname, obj->short_description, sizeof(itemname));
-    break;
-  }
-  CAP(itemname);
+    case ITEM_WAND:
+    case ITEM_STAFF:
+        snprintf(itemname, sizeof(itemname), "%s%s", obj->short_description,
+                 GET_OBJ_VAL(obj, VAL_WAND_CHARGES) < GET_OBJ_VAL(obj, VAL_WAND_MAXCHARGES) ? " (partially used)" : "");
+        break;
 
-  snprintf(result, sizeof(result), " %2d)  %9s %-25s  %6d%s\r\n", aindex, quantity, itemname, buy_price(obj, shop_nr, keeper, ch),
-                                                             OBJ_FLAGGED(obj, ITEM_QUEST) ? " qp" : "");
-  return (result);
+    default:
+        strlcpy(itemname, obj->short_description, sizeof(itemname));
+        break;
+    }
+    CAP(itemname);
+
+    snprintf(result, sizeof(result), "| %2d | %-9s | %-40s | %-6d%s |\r\n", aindex, quantity, itemname, buy_price(obj, shop_nr, keeper, ch),
+             OBJ_FLAGGED(obj, ITEM_QUEST) ? " qp" : "");
+    return (result);
 }
 
 
 void shopping_list(char *arg, struct char_data *ch, struct char_data *keeper, int shop_nr)
 {
-  char buf[MAX_STRING_LENGTH]={'\0'}, name[MAX_INPUT_LENGTH]={'\0'};
-  struct obj_data *obj, *last_obj = NULL;
-  int cnt = 0, lindex = 0, found = FALSE, has_quest = FALSE;
-  size_t len;
-  /* cnt is the number of that particular object available */
-  /* has_quest indicates if the shopkeeper sells quest items */
+    char buf[MAX_STRING_LENGTH] = {'\0'}, name[MAX_INPUT_LENGTH] = {'\0'};
+    struct obj_data * obj, *last_obj = NULL;
+    int cnt = 0, lindex = 0, found = FALSE, has_quest = FALSE;
+    size_t len;
+    /* cnt is the number of that particular object available */
+    /* has_quest indicates if the shopkeeper sells quest items */
 
-  if (!is_ok(keeper, ch, shop_nr))
-    return;
+    if (!is_ok(keeper, ch, shop_nr))
+        return;
 
-  if (SHOP_SORT(shop_nr) < IS_CARRYING_N(keeper))
-    sort_keeper_objs(keeper, shop_nr);
+    if (SHOP_SORT(shop_nr) < IS_CARRYING_N(keeper))
+        sort_keeper_objs(keeper, shop_nr);
 
-  one_argument(arg, name);
+    one_argument(arg, name);
 
-  len = strlcpy(buf,   " ##   Qty   Item                           Cost                          \r\n"
-		"----------------------------------------------------------------------------\r\n", sizeof(buf));
-  if (keeper->carrying)
-    for (obj = keeper->carrying; obj; obj = obj->next_content)
-      if (CAN_SEE_OBJ(ch, obj) && GET_OBJ_COST(obj) > 0) {
-	if (!last_obj) {
-	  last_obj = obj;
-	  cnt = 1;
-	} else if (same_obj(last_obj, obj))
-	  cnt++;
-	else {
-	  lindex++;
-	  if (!*name || isname(name, last_obj->name)) {
-	    strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1);	/* strncat: OK */
-            len = strlen(buf);
-            if (len + 1 >= sizeof(buf))
-              break;
-            found = TRUE;
-            if (OBJ_FLAGGED(last_obj, ITEM_QUEST))
-              has_quest = TRUE;
-          }
-	  cnt = 1;
-	  last_obj = obj;
-	}
-      }
-  lindex++;
-  if (!last_obj)	/* we actually have nothing in our list for sale, period */
-    send_to_char(ch, "Currently, there is nothing for sale.\r\n");
-  else if (*name && !found)	/* nothing the char was looking for was found */
-    send_to_char(ch, "Presently, none of those are for sale.\r\n");
-  else {
-    if (!*name || isname(name, last_obj->name))	/* show last obj */
-      if (len < sizeof(buf))
-       strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1);	/* strncat: OK */
-    page_string(ch->desc, buf, TRUE);
-    if (has_quest)
-      send_to_char(ch, "Items flagged \"qp\" require quest points to purchase.\r\n");
-  }
+    len = strlcpy(buf,   "| ## | Qty       | Item                                     | Cost   |\r\n"
+                  "----------------------------------------------------------------------\r\n", sizeof(buf));
+    if (keeper->carrying)
+        for (obj = keeper->carrying; obj; obj = obj->next_content)
+            if (CAN_SEE_OBJ(ch, obj) && GET_OBJ_COST(obj) > 0)
+            {
+                if (!last_obj)
+                {
+                    last_obj = obj;
+                    cnt = 1;
+                }
+                else if (same_obj(last_obj, obj))
+                    cnt++;
+                else
+                {
+                    lindex++;
+                    if (!*name || isname(name, last_obj->name))
+                    {
+                        strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1); /* strncat: OK */
+                        len = strlen(buf);
+                        if (len + 1 >= sizeof(buf))
+                            break;
+                        found = TRUE;
+                        if (OBJ_FLAGGED(last_obj, ITEM_QUEST))
+                            has_quest = TRUE;
+                    }
+                    cnt = 1;
+                    last_obj = obj;
+                }
+            }
+    lindex++;
+    if (!last_obj)  /* we actually have nothing in our list for sale, period */
+        send_to_char(ch, "Currently, there is nothing for sale.\r\n");
+    else if (*name && !found) /* nothing the char was looking for was found */
+        send_to_char(ch, "Presently, none of those are for sale.\r\n");
+    else
+    {
+        if (!*name || isname(name, last_obj->name)) /* show last obj */
+            if (len < sizeof(buf))
+                strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1); /* strncat: OK */
+        page_string(ch->desc, buf, TRUE);
+        if (has_quest)
+            send_to_char(ch, "Items flagged \"qp\" require quest points to purchase.\r\n");
+    }
 }
 
 
