@@ -5928,6 +5928,9 @@ ACMD(do_websiteaccount)
     return;
   }
 
+  if (ch->desc->account->web_password) {
+    free(ch->desc->account->web_password);
+  }
   ch->desc->account->web_password = strdup(arg);
 
   send_to_char(ch, "Your web site password is now %s.  You may view this at any time by typing 'account'.  You may change it at any time by using this command.\r\n", ch->desc->account->web_password);

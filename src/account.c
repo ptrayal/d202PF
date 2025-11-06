@@ -65,6 +65,11 @@ int load_account(char *name, struct account_data *account)
     }
 
     account->email = strdup("Not Set Yet");
+    if (account->web_password)
+    {
+        free(account->web_password);
+    }
+    account->web_password = strdup("");
 
     if (!get_filename(fname, sizeof(fname), ACT_FILE, name))
     {
@@ -188,6 +193,10 @@ int load_account(char *name, struct account_data *account)
         case 'W':
             if (!strcmp(tag, "WPas"))
             {
+                if (account->web_password)
+                {
+                    free(account->web_password);
+                }
                 account->web_password = strdup(line);
             }
             break;
@@ -288,7 +297,7 @@ void save_account(struct account_data *account)
     fprintf(fl, "Exp : %d\n", account->experience);
     fprintf(fl, "Gift: %d\n", account->gift_experience);
     fprintf(fl, "Levl: %d\n", account->level);
-    fprintf(fl, "WPas: %s\n", account->web_password);
+    fprintf(fl, "WPas: %s\n", account->web_password ? account->web_password : "");
 
     fprintf(fl, "Char:\n");
     for (i = 0; i < MAX_CHARS_PER_ACCOUNT; i++)
