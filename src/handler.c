@@ -3043,17 +3043,33 @@ char *list_llog_entry()
 void extract_linkless_characters(void)
 {
     struct char_data * ch, *next;
+    struct descriptor_data *d;
 
     for (ch = character_list; ch; ch = next)
     {
         next = ch->next;
-        if (ch->desc->original)
+
+        if (IS_NPC(ch))
             continue;
-        if (!IS_NPC(ch) && !ch->desc && !ch->desc->original)
+
+        if (ch->desc)
         {
-            GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
-            save_char(ch);
-            extract_char(ch);
+            /* Connected players (including those switched into other bodies) stay put. */
+            continue;
         }
+
+        /* Skip bodies whose controlling descriptor is switched elsewhere. */
+        for (d = descriptor_list; d; d = d->next)
+        {
+            if (d->original == ch)
+                break;
+        }
+
+        if (d)
+            continue;
+
+        GET_LOADROOM(ch) = GET_ROOM_VNUM(IN_ROOM(ch));
+        save_char(ch);
+        extract_char(ch);
     }
 }
