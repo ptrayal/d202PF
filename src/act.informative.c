@@ -2943,7 +2943,7 @@ ACMD(do_help)
 
   snprintf(entry, sizeof(entry), "@W%s@n\r\n%s", this_help->keywords, this_help->entry);
   
-  page_string(ch->desc, entry, 0); 
+  page_string(ch->desc, entry, true);
 
   if (!strcmp(this_help->keywords, "RULES POLICIES"))
     ch->player_specials->rules_read[0] = TRUE;
