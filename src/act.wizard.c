@@ -1778,6 +1778,7 @@ ACMD(do_copyover)
   FILE *fp;
   struct descriptor_data *d, *d_next;
   char buf [500]={'\0'}, buf2[100]={'\0'};
+  int i;
   
 #ifdef CIRCLE_WINDOWS
   send_to_char(ch, "Copyover is not available for Windows.\r\n");
@@ -1883,6 +1884,10 @@ GET_NAME(ch));
 	
   sprintf (buf, "%d", port);
   sprintf (buf2, "-C%d", mother_desc);
+
+  /* make sure we change dir back to the game root */
+  i = chdir ("..");
+
   execl (EXE_FILE, "circle", buf2, buf, (char *) NULL);
   /* Failed - sucessful exec will not return */
 	
