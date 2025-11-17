@@ -2890,15 +2890,18 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_CNFPASSWD:
   case CON_CHPWD_VRFY:
     if (strncmp(CRYPT(arg, d->account->password), d->account->password,
-		MAX_PWD_LENGTH)) {
+                MAX_PWD_LENGTH)) {
       write_to_output(d, "\r\nPasswords don't match... start over.\r\nPassword: ");
       if (STATE(d) == CON_CNFPASSWD)
-	STATE(d) = CON_NEWPASSWD;
+        STATE(d) = CON_NEWPASSWD;
       else
-	STATE(d) = CON_CHPWD_GETNEW;
+        STATE(d) = CON_CHPWD_GETNEW;
       return;
     }
     ProtocolNoEcho( d, false );
+
+    if (d->account)
+      save_account(d->account);
 
     if (STATE(d) == CON_CNFPASSWD) {
       show_account_menu(d);
@@ -4383,7 +4386,7 @@ void nanny(struct descriptor_data *d, char *arg)
   }
 
   case CON_CHPWD_GETOLD:
-    if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character), MAX_PWD_LENGTH)) {
+    if (!d->account || strncmp(CRYPT(arg, d->account->password), d->account->password, MAX_PWD_LENGTH)) {
       ProtocolNoEcho( d, false );
       write_to_output(d, "\r\nIncorrect password.\r\n%s", CONFIG_MENU);
       STATE(d) = CON_MENU;
