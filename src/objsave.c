@@ -407,7 +407,7 @@ void Crash_listrent(struct char_data *ch, char *name)
     }
   }
 
-  page_string(ch->desc,buf,0);
+  page_string(ch->desc,buf,true);
   fclose(fl);
 }
 
