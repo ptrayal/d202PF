@@ -60,7 +60,7 @@ ACMD(do_oasis_list)
     char smin[MAX_INPUT_LENGTH] = "";
     char smax[MAX_INPUT_LENGTH] = "";
 
-//  two_arguments(argument, smin, smax);
+    two_arguments(argument, smin, smax);
 
     if (subcmd == SCMD_OASIS_ZLIST) 
     { 

@@ -2047,7 +2047,7 @@ int choose_cloth_material(void) {
     return MATERIAL_HEMP;
 }
 
-char *gemstones[] = 
+char *gemstones[] =
 {
   "onyx",
   "obsidian",
@@ -2075,17 +2075,19 @@ char *gemstones[] =
   "sunstone",
   "tigers eye",
   "topaz",
-  "turquoise"
+  "turquoise",
+  NULL
 };
 
-char *ring_descs[] = 
+char *ring_descs[] =
 {
   "ring",
   "ring",
-  "band"
+  "band",
+  NULL
 };
 
-char *wrist_descs[] = 
+char *wrist_descs[] =
 {
   "bracer",
   "bracer",
@@ -2096,10 +2098,11 @@ char *wrist_descs[] =
   "armband",
   "bangle",
   "armlet",
-  "charm"
+  "charm",
+  NULL
 };
 
-char *neck_descs[] = 
+char *neck_descs[] =
 {
   "necklace",
   "necklace",
@@ -2114,10 +2117,11 @@ char *neck_descs[] =
   "choker",
   "gorget",
   "collar",
-  "locket"
+  "locket",
+  NULL
 };
 
-char *head_descs[] = 
+char *head_descs[] =
 {
   "helmet",
   "helmet",
@@ -2135,37 +2139,41 @@ char *head_descs[] =
   "hood",
   "hood",
   "cowl",
-  "headband"
+  "headband",
+  NULL
 };
 
-char *hands_descs[] = 
+char *hands_descs[] =
 {
   "gauntlets",
   "gloves",
   "gauntlets",
-  "gloves"
+  "gloves",
+  NULL
 };
 
-char *cloak_descs[] = 
+char *cloak_descs[] =
 {
   "cloak",
   "cloak",
   "cloak",
   "shroud",
-  "cape"
+  "cape",
+  NULL
 };
 
-char *waist_descs[] = 
+char *waist_descs[] =
 {
   "belt",
   "belt",
   "belt",
   "girdle",
   "girdle",
-  "sash"
+  "sash",
+  NULL
 };
 
-char *boot_descs[] = 
+char *boot_descs[] =
 {
   "boots",
   "boots",
@@ -2177,7 +2185,8 @@ char *boot_descs[] =
   "shoes",
   "knee-high boots",
   "riding boots",
-  "slippers"
+  "slippers",
+  NULL
 };
 
 char *blade_descs[] = 
@@ -2213,7 +2222,8 @@ char *blade_descs[] =
   "wavy-bladed",
   "dual-edged",
   "ornate",
-  "brutal"
+  "brutal",
+  NULL
 };
 
 char *piercing_descs[] = 
@@ -2246,7 +2256,8 @@ char *piercing_descs[] =
   "anointed",
   "dual-pointed",
   "ornate",
-  "brutal"
+  "brutal",
+  NULL
 };
 
 char *blunt_descs[] = 
@@ -2280,7 +2291,8 @@ char *blunt_descs[] =
   "spiked",
   "wickedly-spiked",
   "cruel-looking",
-  "anointed"
+  "anointed",
+  NULL
 };
 
 char *colors[] = 
@@ -2329,7 +2341,8 @@ char *colors[] =
   "ultramarine",
   "violet",
   "white",
-  "yellow"
+  "yellow",
+  NULL
 };
 
 char *crystal_descs[] = 
@@ -2351,7 +2364,8 @@ char *crystal_descs[] =
   "murky",
   "opaque",
   "shadowy",
-  "tenebrous"
+  "tenebrous",
+  NULL
 };
 
 char *potion_descs[] = 
@@ -2386,7 +2400,8 @@ char *potion_descs[] =
   "murky",
   "opaque",
   "shadowy",
-  "tenebrous"
+  "tenebrous",
+  NULL
 };
 
 char *armor_special_descs[] = 
@@ -2416,7 +2431,8 @@ char *armor_special_descs[] =
   "gem-encrusted",
   "gold-laced",
   "silver-laced",
-  "platinum-laced"
+  "platinum-laced",
+  NULL
 };
 
 char *armor_crests[] = 
@@ -2459,7 +2475,8 @@ char *armor_crests[] =
   "pegasus",
   "unicorn",
   "battle axe",
-  "bow and arrow"
+  "bow and arrow",
+  NULL
 };
 
 int determine_random_weapon_type(void) {
