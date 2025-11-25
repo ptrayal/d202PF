@@ -448,151 +448,163 @@ int start_change_command(struct descriptor_data *d, int pos)
  */
 void zedit_disp_menu(struct descriptor_data *d)
 {
-  int subcmd = 0, counter = 0;
-	int j = 0;
-	char levelRanges[MAX_STRING_LENGTH]={'\0'};
+    int subcmd = 0, counter = 0;
+    int j = 0;
+    char levelRanges[MAX_STRING_LENGTH] = { '\0' };
 
-  clear_screen(d);
-	
-	sprintf(levelRanges, "( ");
-	
-	for (j = 1; j < NUM_LEVEL_RANGES; j++)
-		if (IS_SET(OLC_ZONE(d)->level_range, (1 << j)))
-			sprintf(levelRanges, "%s%s ", levelRanges, level_ranges[j]);	
+    clear_screen(d);
 
-	if (OLC_ZONE(d)->level_range == 0)
-    sprintf(levelRanges, "( Any ");
-		
-	sprintf(levelRanges, "%s)", levelRanges);	
-  /*
-   * Menu header  
-   */
-  send_to_char(d->character, 
-	  "Room number: [@c%d@n]		Room zone: @c%d\r\n"
-	  "@g1@n) Builders       : @y%s\r\n"
-	  "@gZ@n) Zone name      : @y%s\r\n"
-	  "@gL@n) Lifespan       : @y%d minutes\r\n"
-	  "@gB@n) Bottom of zone : @y%d\r\n"
-	  "@gT@n) Top of zone    : @y%d\r\n"
-	  "@gR@n) Reset Mode     : @y%s@n\r\n"
-	  "@gV@n) Level Ranges   : @y%s@n\r\n"
-	  "@gU@n) Zone Status    : @y%s@n\r\n"
-	  "[Command list]\r\n",
+    snprintf(levelRanges, sizeof(levelRanges), "( ");
 
-	  OLC_NUM(d),
-	  zone_table[OLC_ZNUM(d)].number,
-	  OLC_ZONE(d)->builders ? OLC_ZONE(d)->builders : "None.",
-	  OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
-	  OLC_ZONE(d)->lifespan,
-	  OLC_ZONE(d)->bot,
-	  OLC_ZONE(d)->top,
-          OLC_ZONE(d)->reset_mode ? ((OLC_ZONE(d)->reset_mode == 1) ? "Reset when no players are in zone." : "Normal reset.") : "Never reset",
-	  levelRanges,
-	  zone_states[OLC_ZONE(d)->zone_status]
-	  );
-
-  /*
-   * Print the commands for this room into display buffer.
-   */
-  while (MYCMD.command != 'S') {
-    /*
-     * Translate what the command means.
-     */
-    write_to_output(d, "@n%d - @y", counter++);
-    switch (MYCMD.command) {
-    case 'M':
-      write_to_output(d, "%sLoad %s@y [@c%d@y], Max : %d, Chance %d",
-              MYCMD.if_flag ? " then " : "",
-              mob_proto[MYCMD.arg1].short_descr,
-              mob_index[MYCMD.arg1].vnum, MYCMD.arg2, MYCMD.arg4
-              );
-      break;
-    case 'G':
-      write_to_output(d, "%sGive it %s@y [@c%d@y], Max : %d, Chance %d",
-	      MYCMD.if_flag ? " then " : "",
-	      obj_proto[MYCMD.arg1].short_description,
-	      obj_index[MYCMD.arg1].vnum,
-	      MYCMD.arg2, MYCMD.arg4
-	      );
-      break;
-    case 'O':
-      write_to_output(d, "%sLoad %s@y [@c%d@y], Max : %d, Chance %d",
-	      MYCMD.if_flag ? " then " : "",
-	      obj_proto[MYCMD.arg1].short_description,
-	      obj_index[MYCMD.arg1].vnum,
-	      MYCMD.arg2, MYCMD.arg4
-	      );
-      break;
-    case 'E':
-      write_to_output(d, "%sEquip with %s@y [@c%d@n], %s, Max : %d, Chance %d",
-	      MYCMD.if_flag ? " then " : "",
-	      obj_proto[MYCMD.arg1].short_description,
-	      obj_index[MYCMD.arg1].vnum,
-	      equipment_types[MYCMD.arg3],
-	      MYCMD.arg2, MYCMD.arg4
-	      );
-      break;
-    case 'P':
-      write_to_output(d, "%sPut %s@y [@c%d@n] in %s [@c%d@n], Max : %d, %% Chance %d",
-	      MYCMD.if_flag ? " then " : "",
-	      obj_proto[MYCMD.arg1].short_description,
-	      obj_index[MYCMD.arg1].vnum,
-	      obj_proto[MYCMD.arg3].short_description,
-	      obj_index[MYCMD.arg3].vnum,
-	      MYCMD.arg2, MYCMD.arg4
-	      );
-      break;
-    case 'R':
-      write_to_output(d, "%sRemove %s@y [@c%d@n] from room.",
-	      MYCMD.if_flag ? " then " : "",
-	      obj_proto[MYCMD.arg2].short_description,
-	      obj_index[MYCMD.arg2].vnum
-	      );
-      break;
-    case 'D':
-      write_to_output(d, "%sSet door %s@y as %s.",
-	      MYCMD.if_flag ? " then " : "",
-	      dirs[MYCMD.arg2],
-	      MYCMD.arg3 ? ((MYCMD.arg3 == 1) ? "closed" : "locked") : "open"
-	      );
-      break;
-    case 'T':
-      write_to_output(d, "%sAttach trigger @c%s@y [@c%d@y] to %s, %% Chance %d",
-        MYCMD.if_flag ? " then " : "",
-        trig_index[MYCMD.arg2]->proto->name,
-        trig_index[MYCMD.arg2]->vnum,
-        ((MYCMD.arg1 == MOB_TRIGGER) ? "mobile" :
-          ((MYCMD.arg1 == OBJ_TRIGGER) ? "object" :
-            ((MYCMD.arg1 == WLD_TRIGGER)? "room" : "????"))), MYCMD.arg4);
-      break;
-    case 'V':
-      write_to_output(d, "%sAssign global %s:%d to %s = %s, %% Chance %d",
-        MYCMD.if_flag ? " then " : "",
-        MYCMD.sarg1, MYCMD.arg2,
-        ((MYCMD.arg1 == MOB_TRIGGER) ? "mobile" :
-          ((MYCMD.arg1 == OBJ_TRIGGER) ? "object" :
-            ((MYCMD.arg1 == WLD_TRIGGER)? "room" : "????"))),
-        MYCMD.sarg2, MYCMD.arg4);
-      break;
-    default:
-      write_to_output(d, "<Unknown Command>");
-      break;
+    for (j = 1; j < NUM_LEVEL_RANGES; j++) {
+        if (IS_SET(OLC_ZONE(d)->level_range, (1 << j))) {
+            strncat(levelRanges, level_ranges[j], sizeof(levelRanges) - strlen(levelRanges) - 1);
+            strncat(levelRanges, " ", sizeof(levelRanges) - strlen(levelRanges) - 1);
+        }
     }
-    write_to_output(d, "\r\n");
-    subcmd++;
-  }
-  /*
-   * Finish off menu  
-   */
-   write_to_output(d,
-	  "@n%d - <END OF LIST>\r\n"
-	  "@gN@n) Insert new command.\r\n"
-	  "@gE@n) Edit a command.\r\n"
-	  "@gD@n) Delete a command.\r\n"
-	  "@gQ@n) Quit\r\nEnter your choice : ", counter);
 
-  OLC_MODE(d) = ZEDIT_MAIN_MENU;
+    if (OLC_ZONE(d)->level_range == 0) {
+        strncat(levelRanges, "Any ", sizeof(levelRanges) - strlen(levelRanges) - 1);
+    }
+
+    strncat(levelRanges, ")", sizeof(levelRanges) - strlen(levelRanges) - 1);
+
+    /*
+     * Menu header
+     */
+    send_to_char(d->character,
+        "Room number: [@c%d@n]\tRoom zone: @c%d\r\n"
+        "@g1@n) Builders       : @y%s\r\n"
+        "@gZ@n) Zone name      : @y%s\r\n"
+        "@gL@n) Lifespan       : @y%d minutes\r\n"
+        "@gB@n) Bottom of zone : @y%d\r\n"
+        "@gT@n) Top of zone    : @y%d\r\n"
+        "@gR@n) Reset Mode     : @y%s@n\r\n"
+        "@gV@n) Level Ranges   : @y%s@n\r\n"
+        "@gU@n) Zone Status    : @y%s@n\r\n"
+        "[Command list]\r\n",
+
+        OLC_NUM(d),
+        zone_table[OLC_ZNUM(d)].number,
+        OLC_ZONE(d)->builders ? OLC_ZONE(d)->builders : "None.",
+        OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
+        OLC_ZONE(d)->lifespan,
+        OLC_ZONE(d)->bot,
+        OLC_ZONE(d)->top,
+        OLC_ZONE(d)->reset_mode ?
+            ((OLC_ZONE(d)->reset_mode == 1) ? "Reset when no players are in zone."
+                                            : "Normal reset.")
+            : "Never reset",
+        levelRanges,
+        zone_states[OLC_ZONE(d)->zone_status]
+    );
+
+    /*
+     * Print the commands for this room into display buffer.
+     */
+    while (MYCMD.command != 'S') {
+        write_to_output(d, "@n%d - @y", counter++);
+        switch (MYCMD.command) {
+            case 'M':
+                write_to_output(d, "%sLoad %s@y [@c%d@y], Max : %d, Chance %d",
+                    MYCMD.if_flag ? " then " : "",
+                    mob_proto[MYCMD.arg1].short_descr,
+                    mob_index[MYCMD.arg1].vnum,
+                    MYCMD.arg2, MYCMD.arg4);
+                break;
+
+            case 'G':
+                write_to_output(d, "%sGive it %s@y [@c%d@y], Max : %d, Chance %d",
+                    MYCMD.if_flag ? " then " : "",
+                    obj_proto[MYCMD.arg1].short_description,
+                    obj_index[MYCMD.arg1].vnum,
+                    MYCMD.arg2, MYCMD.arg4);
+                break;
+
+            case 'O':
+                write_to_output(d, "%sLoad %s@y [@c%d@y], Max : %d, Chance %d",
+                    MYCMD.if_flag ? " then " : "",
+                    obj_proto[MYCMD.arg1].short_description,
+                    obj_index[MYCMD.arg1].vnum,
+                    MYCMD.arg2, MYCMD.arg4);
+                break;
+
+            case 'E':
+                write_to_output(d, "%sEquip with %s@y [@c%d@n], %s, Max : %d, Chance %d",
+                    MYCMD.if_flag ? " then " : "",
+                    obj_proto[MYCMD.arg1].short_description,
+                    obj_index[MYCMD.arg1].vnum,
+                    equipment_types[MYCMD.arg3],
+                    MYCMD.arg2, MYCMD.arg4);
+                break;
+
+            case 'P':
+                write_to_output(d, "%sPut %s@y [@c%d@n] in %s [@c%d@n], Max : %d, %% Chance %d",
+                    MYCMD.if_flag ? " then " : "",
+                    obj_proto[MYCMD.arg1].short_description,
+                    obj_index[MYCMD.arg1].vnum,
+                    obj_proto[MYCMD.arg3].short_description,
+                    obj_index[MYCMD.arg3].vnum,
+                    MYCMD.arg2, MYCMD.arg4);
+                break;
+
+            case 'R':
+                write_to_output(d, "%sRemove %s@y [@c%d@n] from room.",
+                    MYCMD.if_flag ? " then " : "",
+                    obj_proto[MYCMD.arg2].short_description,
+                    obj_index[MYCMD.arg2].vnum);
+                break;
+
+            case 'D':
+                write_to_output(d, "%sSet door %s@y as %s.",
+                    MYCMD.if_flag ? " then " : "",
+                    dirs[MYCMD.arg2],
+                    MYCMD.arg3 ? ((MYCMD.arg3 == 1) ? "closed" : "locked") : "open");
+                break;
+
+            case 'T':
+                write_to_output(d, "%sAttach trigger @c%s@y [@c%d@y] to %s, %% Chance %d",
+                    MYCMD.if_flag ? " then " : "",
+                    trig_index[MYCMD.arg2]->proto->name,
+                    trig_index[MYCMD.arg2]->vnum,
+                    ((MYCMD.arg1 == MOB_TRIGGER) ? "mobile" :
+                     ((MYCMD.arg1 == OBJ_TRIGGER) ? "object" :
+                      ((MYCMD.arg1 == WLD_TRIGGER) ? "room" : "????"))),
+                    MYCMD.arg4);
+                break;
+
+            case 'V':
+                write_to_output(d, "%sAssign global %s:%d to %s = %s, %% Chance %d",
+                    MYCMD.if_flag ? " then " : "",
+                    MYCMD.sarg1, MYCMD.arg2,
+                    ((MYCMD.arg1 == MOB_TRIGGER) ? "mobile" :
+                     ((MYCMD.arg1 == OBJ_TRIGGER) ? "object" :
+                      ((MYCMD.arg1 == WLD_TRIGGER) ? "room" : "????"))),
+                    MYCMD.sarg2, MYCMD.arg4);
+                break;
+
+            default:
+                write_to_output(d, "<Unknown Command>");
+                break;
+        }
+        write_to_output(d, "\r\n");
+        subcmd++;
+    }
+
+    /*
+     * Finish off menu
+     */
+    write_to_output(d,
+        "@n%d - <END OF LIST>\r\n"
+        "@gN@n) Insert new command.\r\n"
+        "@gE@n) Edit a command.\r\n"
+        "@gD@n) Delete a command.\r\n"
+        "@gQ@n) Quit\r\nEnter your choice : ",
+        counter);
+
+    OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }
+
 
 /*-------------------------------------------------------------------*/
 
