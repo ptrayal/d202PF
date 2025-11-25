@@ -3556,45 +3556,48 @@ void send_to_world(char *message)
 
 int get_feat_value(struct char_data *ch, int featnum)
 {
-
   int i = 0, j = 0, k = 0;
   int featval = ch->feats[featnum];
   int found = FALSE;
 
   for (i = 0; i < NUM_WEARS; i++) 
   {
-    if (GET_EQ(ch, i)) 
+    if (!GET_EQ(ch, i))
+      continue;
+
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
     {
-      for (j = 0; j < MAX_OBJ_AFFECT; j++)
+      if (GET_EQ(ch, i)->affected[j].location == APPLY_FEAT &&
+          GET_EQ(ch, i)->affected[j].specific == featnum)
       {
-        if (!GET_EQ(ch, i) || !GET_EQ(ch, i)->affected)
-          continue;
-        if (GET_EQ(ch, i)->affected[j].location == APPLY_FEAT && GET_EQ(ch, i)->affected[j].specific == featnum)
+        k = 0;
+        found = FALSE;
+
+        while (level_feats[k][4] != FEAT_UNDEFINED) 
         {
-          while (level_feats[k][4] != FEAT_UNDEFINED) 
+          if (level_feats[k][4] == featnum) 
           {
-            if (level_feats[k][4] == featnum) 
+            found = TRUE;
+            if (GET_CLASS(ch) == level_feats[k][0] &&
+                level_feats[k][1] == RACE_UNDEFINED &&
+                GET_CLASS_RANKS(ch, level_feats[k][0]) <= level_feats[k][3]) 
             {
-              found = TRUE;
-              if (GET_CLASS(ch) == level_feats[k][0] && level_feats[k][1] == RACE_UNDEFINED && 
-                  GET_CLASS_RANKS(ch, level_feats[k][0]) <= level_feats[k][3]) 
-              {
-                featval += GET_EQ(ch, i)->affected[j].modifier;
-                break;
-              }
+              featval += GET_EQ(ch, i)->affected[j].modifier;
+              break;
             }
-            k++;
           }
-          if (!found)
-            featval += GET_EQ(ch, i)->affected[j].modifier;
+          k++;
         }
+
+        if (!found)
+          featval += GET_EQ(ch, i)->affected[j].modifier;
       }
-    }  
+    }
   }
 
   return featval;
-
 }
+
 
 char *alignment_string(struct char_data *ch)
 {
