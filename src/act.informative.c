@@ -746,7 +746,7 @@ void look_at_char_old(struct char_data *i, struct char_data *ch)
     }
 
     char *tmpdesc = NULL;
-    char *tmpstr = has_intro(ch, i) ? GET_NAME(i) + 1 : (tmpdesc = which_desc(i));
+    char *tmpstr = has_intro(ch, i) ? GET_NAME(i) : (tmpdesc = which_desc(i));
     if (GET_SEX(i) == SEX_NEUTRAL) 
     {
         send_to_char(ch, "%c%s appears to be %s %s.\r\n", UPPER(*tmpstr), tmpstr + 1, AN(RACE(i)), RACE(i));
