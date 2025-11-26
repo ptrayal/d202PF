@@ -1608,7 +1608,7 @@ void save_char(struct char_data * ch)
      */
     if (ch->desc)
     {
-        if (ch->desc->host && *ch->desc->host)
+        if (*ch->desc->host)
         {
             if (!GET_HOST(ch))
                 GET_HOST(ch) = strdup(ch->desc->host);
