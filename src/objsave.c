@@ -313,103 +313,101 @@ void update_obj_file(void)
 
 void Crash_listrent(struct char_data *ch, char *name)
 {
-  FILE *fl=NULL;
-  char filename[MAX_STRING_LENGTH]={'\0'};
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  struct obj_data *obj;
-  int rentcode, timed, netcost, gold, account, nitems, len;
-  int t[10],nr;
-  char line[MAX_STRING_LENGTH]={'\0'};
-  char *sdesc;
+    FILE *fl = NULL;
+    char filename[MAX_STRING_LENGTH] = { '\0' };
+    char buf[MAX_STRING_LENGTH] = { '\0' };
+    char line[MAX_STRING_LENGTH] = { '\0' };
+    struct obj_data *obj;
+    char *sdesc;
+    int rentcode = 0, timed = 0, netcost = 0, gold = 0, account = 0, nitems = 0;
+    int len = 0, t[10] = {0}, nr = 0;
 
-  if (get_filename(filename, sizeof(filename), NEW_OBJ_FILES, name))
-    fl = fopen(filename, "rb");
+    /* Open rent file */
+    if (get_filename(filename, sizeof(filename), NEW_OBJ_FILES, name))
+        fl = fopen(filename, "rb");
 
-  if (!fl) {
-    send_to_char(ch, "%s has no rent file.\r\n", name);
-    return;
-  }
-
-  send_to_char(ch, "%s\r\n", filename);
-
-  if (!feof(fl)) {
-    get_line(fl,line);
-    sscanf(line,"%d %d %d %d %d %d",&rentcode,&timed,&netcost, 
-           &gold,&account,&nitems); 
-  }
-
-  switch (rentcode) {
-  case RENT_RENTED:
-    send_to_char(ch, "Rent\r\n");
-    break;
-  case RENT_CRASH:
-    send_to_char(ch, "Crash\r\n");
-    break;
-  case RENT_CRYO:
-    send_to_char(ch, "Cryo\r\n");
-    break;
-  case RENT_TIMEDOUT:
-  case RENT_FORCED:
-    send_to_char(ch, "TimedOut\r\n");
-    break;
-  default:
-    send_to_char(ch, "Undef\r\n");
-    break;
-  }
-  buf[0] = 0;
-  len = 0;
-
-  while(!feof(fl)) {
-    get_line(fl,line);
-    if(*line == '#') { /* swell - its an item */
-      sscanf(line,"#%d",&nr);
-      if(nr != NOTHING) {  /* then we can dispense with it easily */
-        if (real_object(nr) != NOTHING) {
-          obj=read_object(nr,VIRTUAL);
-          if (len + 255 < sizeof(buf)) {
-            len += snprintf(buf + len, sizeof(buf) - len, "[%5d] (%5dau) %-20s\r\n",
-                            nr, GET_OBJ_RENT(obj), obj->short_description);
-          } else {
-            snprintf(buf + len, sizeof(buf) - len, "** Excessive rent listing. **\r\n");
-            break;
-          }
-          extract_obj(obj);
-        } else {
-          if (len + 255 < sizeof(buf)) {
-            len += snprintf(buf + len, sizeof(buf) - len,
-                            "%s[-----] NONEXISTANT OBJECT #%d\r\n",buf, nr);
-          } else {
-            snprintf(buf + len, sizeof(buf) - len, "** Excessive rent listing. **\r\n");
-            break;
-          }
-        }
-      } else { /* its nothing, and a unique item. bleh. partial parse.*/
-        get_line(fl,line);    /* this is obj+val */
-        get_line(fl,line);    /* this is XAP */
-        fread_string(fl,", listrent reading name");  /* screw the name */
-        sdesc=fread_string(fl,", listrent reading sdesc");
-        fread_string(fl,", listrent reading desc"); /* screw the long desc */
-        fread_string(fl,", listrent reading adesc"); /* screw the action desc. */
-        get_line(fl,line);    /* this is an important line.rent..*/
-        sscanf(line,"%d %d %d %d %d",t,t+1,t+2,t+3,t+4);
-        /* great we got it all, make the buf */
-        if (len + 255 < sizeof(buf)) {
-          len += snprintf(buf + len, sizeof(buf) - len,
-                          "%s[%5d] (%5dau) %-20s\r\n",buf, nr, t[4],sdesc);
-        } else {
-          snprintf(buf + len, sizeof(buf) - len, "** Excessive rent listing. **\r\n");
-          break;
-        }
-        /* best of all, we don't care if there's descs, or stuff..*/
-        /* since we're only doing operations on lines beginning in # */
-        /* i suppose you don't want to make exdescs start with # .:) */
-      }
+    if (!fl) {
+        send_to_char(ch, "%s has no rent file.\r\n", name);
+        return;
     }
-  }
 
-  page_string(ch->desc,buf,true);
-  fclose(fl);
+    send_to_char(ch, "%s\r\n", filename);
+
+    if (fgets(line, sizeof(line), fl)) {
+        sscanf(line, "%d %d %d %d %d %d", &rentcode, &timed, &netcost, &gold, &account, &nitems);
+    }
+
+    switch (rentcode) {
+        case RENT_RENTED:   send_to_char(ch, "Rent\r\n"); break;
+        case RENT_CRASH:    send_to_char(ch, "Crash\r\n"); break;
+        case RENT_CRYO:     send_to_char(ch, "Cryo\r\n"); break;
+        case RENT_TIMEDOUT:
+        case RENT_FORCED:   send_to_char(ch, "TimedOut\r\n"); break;
+        default:            send_to_char(ch, "Undef\r\n"); break;
+    }
+
+    buf[0] = '\0';
+    len = 0;
+
+    while (fgets(line, sizeof(line), fl)) {
+        if (*line == '#') {
+            sscanf(line, "#%d", &nr);
+
+            if (nr != NOTHING) {
+                if (real_object(nr) != NOTHING) {
+                    obj = read_object(nr, VIRTUAL);
+                    if (len + 255 < sizeof(buf)) {
+                        len += snprintf(buf + len, sizeof(buf) - len,
+                                        "[%5d] (%5dau) %-20s\r\n",
+                                        nr, GET_OBJ_RENT(obj), obj->short_description);
+                    } else {
+                        snprintf(buf + len, sizeof(buf) - len,
+                                 "** Excessive rent listing. **\r\n");
+                        extract_obj(obj);
+                        break;
+                    }
+                    extract_obj(obj);
+                } else {
+                    if (len + 255 < sizeof(buf)) {
+                        len += snprintf(buf + len, sizeof(buf) - len,
+                                        "[-----] NONEXISTANT OBJECT #%d\r\n", nr);
+                    } else {
+                        snprintf(buf + len, sizeof(buf) - len,
+                                 "** Excessive rent listing. **\r\n");
+                        break;
+                    }
+                }
+            } else {
+                /* Handle unique/unnumbered items */
+                get_line(fl, line);
+                get_line(fl, line);
+                fread_string(fl, ", listrent reading name");
+                sdesc = fread_string(fl, ", listrent reading sdesc");
+                fread_string(fl, ", listrent reading desc");
+                fread_string(fl, ", listrent reading adesc");
+                get_line(fl, line);
+
+                sscanf(line, "%d %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4);
+
+                if (len + 255 < sizeof(buf)) {
+                    len += snprintf(buf + len, sizeof(buf) - len,
+                                    "[%5d] (%5dau) %-20s\r\n", nr, t[4], sdesc);
+                } else {
+                    snprintf(buf + len, sizeof(buf) - len,
+                             "** Excessive rent listing. **\r\n");
+                    break;
+                }
+
+                if (sdesc)
+                    free(sdesc); /* Prevent memory leaks */
+            }
+        }
+    }
+
+    page_string(ch->desc, buf, true);
+    fclose(fl);
 }
+
 
 
 int Crash_save(struct obj_data *obj, FILE *fp, int location)
