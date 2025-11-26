@@ -1001,7 +1001,7 @@ void handle_gain(struct char_data *keeper, int guild_nr, struct char_data *ch, c
 
 void handle_learn(struct char_data *keeper, int guild_nr, struct char_data *ch, char *argument) 
 {
-    int x = do_handle_learn(keeper, guild_nr, ch, argument, TRUE);
+    (void)do_handle_learn(keeper, guild_nr, ch, argument, TRUE);
 }
 
 
@@ -1655,36 +1655,46 @@ void list_all_guilds(struct char_data *ch)
 }
 
 
-void list_detailed_guild(struct char_data * ch, int gm_nr)
+void list_detailed_guild(struct char_data *ch, int gm_nr)
 {
-  int i;
-  char buf[MAX_STRING_LENGTH]={'\0'};
-  char buf1[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
+    int i;
+    size_t offset = 0;
+    char buf[MAX_STRING_LENGTH] = {0};
+    char buf1[MAX_STRING_LENGTH] = {0};
+    char buf2[MAX_STRING_LENGTH] = {0};
 
-  if (GM_TRAINER(gm_nr) < 0)
-    strcpy(buf1, "<NONE>");
-  else
-    sprintf(buf1, "%6d   ", mob_index[GM_TRAINER(gm_nr)].vnum);
+    if (GM_TRAINER(gm_nr) < 0)
+        strcpy(buf1, "<NONE>");
+    else
+        snprintf(buf1, sizeof(buf1), "%6d", mob_index[GM_TRAINER(gm_nr)].vnum);
 
-  sprintf(buf, " Guild Master: %s\r\n", buf1);
-  sprintf(buf, "%s Hours: %4d to %4d,  Surcharge: %5.2f\r\n", buf,
-			  GM_OPEN(gm_nr), GM_CLOSE(gm_nr), GM_CHARGE(gm_nr));
-  sprintf(buf, "%s Min Level will train: %d\r\n", buf, GM_MINLVL(gm_nr));
-  sprintf(buf, "%s Whom will train: %s\r\n", buf, guild_customer_string(gm_nr, TRUE));
+    offset += snprintf(buf + offset, sizeof(buf) - offset,
+                       "Guild Master: %s\r\n", buf1);
+    offset += snprintf(buf + offset, sizeof(buf) - offset,
+                       "Hours: %4d to %4d,  Surcharge: %5.2f\r\n",
+                       GM_OPEN(gm_nr), GM_CLOSE(gm_nr), GM_CHARGE(gm_nr));
+    offset += snprintf(buf + offset, sizeof(buf) - offset,
+                       "Min Level will train: %d\r\n", GM_MINLVL(gm_nr));
+    offset += snprintf(buf + offset, sizeof(buf) - offset,
+                       "Whom will train: %s\r\n",
+                       guild_customer_string(gm_nr, TRUE));
 
-   /* now for the REAL reason why someone would want to see a Guild :) */
+    offset += snprintf(buf + offset, sizeof(buf) - offset,
+                       "The GM can teach the following:\r\n");
 
-  sprintf(buf, "%s The GM can teach the following:\r\n", buf);
+    for (i = 0; i < SKILL_TABLE_SIZE; i++) {
+        if (does_guild_know(gm_nr, i)) {
+            size_t used = strlen(buf2);
+            snprintf(buf2 + used, sizeof(buf2) - used,
+                     " %s\r\n", spell_info[i].name);
+        }
+    }
 
-  *buf2 = '\0';
-  for (i = 0; i < SKILL_TABLE_SIZE; i++) {
-    if (does_guild_know(gm_nr, i))
-      sprintf(buf2, "%s %s \r\n", buf2, spell_info[i].name);
-  }
- 
-  strcat(buf, buf2);
+    // Safe concatenation using snprintf
+    offset = strlen(buf);
+    snprintf(buf + offset, sizeof(buf) - offset, "%s", buf2);
 
-  page_string(ch->desc, buf, 1);
+    page_string(ch->desc, buf, 1);
 }
   
 
