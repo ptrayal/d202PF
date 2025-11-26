@@ -483,34 +483,45 @@ int touch(const char *path)
  */
 void mudlog(int type, int level, int file, const char *str, ...)
 {
-  char buf[MAX_STRING_LENGTH]={'\0'};
+  char buf[MAX_STRING_LENGTH] = {'\0'};
+  char timebuf[80] = {'\0'};
   struct descriptor_data *i;
   va_list args;
+  time_t rawtime;
+  struct tm *info;
 
   if (str == NULL)
-    return;	/* eh, oh well. */
+    return;
 
+  /* FILE LOG OUTPUT */
   if (file) {
     va_start(args, str);
     basic_mud_vlog(str, args);
     va_end(args);
   }
-/*
-  if (level < ADMLVL_IMMORT)
-    level = ADMLVL_IMMORT;
-*/
-  strcpy(buf, "[ ");	/* strcpy: OK */
-  va_start(args, str);
-  vsnprintf(buf + 2, sizeof(buf) - 6, str, args);
-  va_end(args);
-  strcat(buf, " ]\r\n");	/* strcat: OK */
 
+  /* Build timestamp for player-visible logs */
+  time(&rawtime);
+  info = localtime(&rawtime);
+  strftime(timebuf, sizeof(timebuf), "%b-%d-%Y %H:%M:%S %Z", info);
+
+  /* Build visible message */
+  strcpy(buf, "[ ");
+  strcat(buf, timebuf);
+  strcat(buf, " :: ");
+
+  va_start(args, str);
+  vsnprintf(buf + strlen(buf), sizeof(buf) - strlen(buf) - 4, str, args);
+  va_end(args);
+  strcat(buf, " ]\r\n");
+
+  /* Send to players with permission */
   for (i = descriptor_list; i; i = i->next) {
     if (!i || !i->character)
       continue;
     if (level == ADMLVL_NONE && (GET_ADMLEVEL(i->character) != 0 || (i->account && i->account->level != 0)))
       continue;
-    if (STATE(i) != CON_PLAYING || IS_NPC(i->character)) /* switch */
+    if (STATE(i) != CON_PLAYING || IS_NPC(i->character))
       continue;
     if (GET_ADMLEVEL(i->character) < level && i->account && i->account->level < level)
       continue;
@@ -522,6 +533,7 @@ void mudlog(int type, int level, int file, const char *str, ...)
     send_to_char(i->character, "@g%s@n", buf);
   }
 }
+
 
 
 
