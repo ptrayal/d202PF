@@ -420,8 +420,8 @@ void log_death_trap(struct char_data *ch)
 
 
 /*
- * new variable argument log() function.  Works the same as the old for
- * previously written code but is very nice for new code.
+ * new variable argument log() function. Works the same as the old for
+ * previously written code but outputs date/time as "Jan-04-2025 01:00:00 CDT".
  */
 void basic_mud_vlog(const char *format, va_list args)
 {
@@ -430,9 +430,10 @@ void basic_mud_vlog(const char *format, va_list args)
     char buffer[80] = {'\0'};
 
     time(&rawtime);
-
     info = localtime(&rawtime);
-    strftime(buffer, 80, "%c", info);
+
+    // Format: Jan-04-2025 01:00:00 CDT
+    strftime(buffer, sizeof(buffer), "%b-%d-%Y %H:%M:%S %Z", info);
 
     if (logfile == NULL)
     {
@@ -443,7 +444,7 @@ void basic_mud_vlog(const char *format, va_list args)
     if (format == NULL)
         format = "SYSERR: log() received a NULL format.";
 
-    fprintf(logfile, "%-15.15s :: ", buffer + 4);
+    fprintf(logfile, "%s :: ", buffer);
     vfprintf(logfile, format, args);
     fputc('\n', logfile);
     fflush(logfile);
@@ -458,6 +459,7 @@ void basic_mud_log(const char *format, ...)
     basic_mud_vlog(format, args);
     va_end(args);
 }
+
 
 
 /* the "touch" command, essentially. */
