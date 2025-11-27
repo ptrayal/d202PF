@@ -299,147 +299,162 @@ int save_rooms(zone_rnum rzone)
   char rbuf3[MAX_STRING_LENGTH]={'\0'}, rbuf4[MAX_STRING_LENGTH]={'\0'};
 
 #if CIRCLE_UNSIGNED_INDEX
-  if (rzone == NOWHERE || rzone > top_of_zone_table) {
-#else
-  if (rzone < 0 || rzone > top_of_zone_table) {
-#endif
-    log("SYSERR: GenOLC: save_rooms: Invalid zone number %d passed! (0-%d)", rzone, top_of_zone_table);
-    return FALSE;
-  }
-
-  log("GenOLC: save_rooms: Saving rooms in zone #%d (%d-%d).",
-	zone_table[rzone].number, genolc_zone_bottom(rzone), zone_table[rzone].top);
-
-  snprintf(filename, sizeof(filename), "%s/%d.new", WLD_PREFIX, zone_table[rzone].number);
-  if (!(sf = fopen(filename, "w"))) {
-    log("SYSERR: save_rooms: %s", strerror(errno));
-    return FALSE;
-  }
-
-  for (i = genolc_zone_bottom(rzone); i <= zone_table[rzone].top; i++) {
-    room_rnum rnum;
-
-    if ((rnum = real_room(i)) != NOWHERE) {
-      int j;
-
-      room = (world + rnum);
-
-      /*
-       * Copy the description and strip off trailing newlines.
-       */
-      strncpy(buf, room->description ? room->description : "Empty room.", sizeof(buf)-1 );
-      strip_cr(buf);
-
-      /*
-       * Save the numeric and string section of the file.
-       */
-      sprintascii(rbuf1, room->room_flags[0]);
-      sprintascii(rbuf2, room->room_flags[1]);
-      sprintascii(rbuf3, room->room_flags[2]);
-      sprintascii(rbuf4, room->room_flags[3]);
-      fprintf(sf, 	"#%d\n"
-			"%s%c\n"
-			"%s%c\n"
-                        "%d %s %s %s %s %d\n",
-		room->number,
-		room->name ? room->name : "Untitled", STRING_TERMINATOR,
-		buf, STRING_TERMINATOR,
-		zone_table[room->zone].number, 
-                rbuf1, rbuf2, rbuf3, rbuf4, room->sector_type
-      );
-
-      /*
-       * Now you write out the exits for the room.
-       */
-      for (j = 0; j < NUM_OF_DIRS; j++) {
-	if (R_EXIT(room, j)) {
-	  int dflag;
-	  if (R_EXIT(room, j)->general_description) {
-	    strncpy(buf, R_EXIT(room, j)->general_description, sizeof(buf)-1);
-	    strip_cr(buf);
-	  } else
-	    *buf = '\0';
-
-	  /*
-	   * Figure out door flag.
-	   */
-	  if (IS_SET(R_EXIT(room, j)->exit_info, EX_ISDOOR)) {
-            if (IS_SET(R_EXIT(room, j)->exit_info, EX_SECRET) &&
-                IS_SET(R_EXIT(room, j)->exit_info, EX_PICKPROOF))
-              dflag = 4;
-	    else if (IS_SET(R_EXIT(room, j)->exit_info, EX_SECRET))
-              dflag = 3;
-	    else if (IS_SET(R_EXIT(room, j)->exit_info, EX_PICKPROOF)) 
-	      dflag = 2;
-	    else
-	      dflag = 1;
-	  } else
-	    dflag = 0;
-
-	  if (R_EXIT(room, j)->keyword)
-	    strncpy(buf1, R_EXIT(room, j)->keyword, sizeof(buf1)-1 );
-	  else
-	    *buf1 = '\0';
-
-	  /*
-	   * Now write the exit to the file.
-	   */
-	  fprintf(sf,	"D%d\n"
-			"%s~\n"
-			"%s~\n"
-			"%d %d %d %d %d %d %d %d %d %d %d\n", 
-			j, 
-			buf, 
-			buf1, 
-			
-			dflag,
-		R_EXIT(room, j)->key != NOTHING ? R_EXIT(room, j)->key : -1,
-		R_EXIT(room, j)->to_room != NOWHERE ? world[R_EXIT(room, j)->to_room].number : -1, 
-		R_EXIT(room, j)->dclock, 
-		R_EXIT(room, j)->dchide,
-		R_EXIT(room, j)->dcskill, 
-		R_EXIT(room, j)->dcmove,
-		R_EXIT(room, j)->failsavetype, 
-		R_EXIT(room, j)->dcfailsave,
-		R_EXIT(room, j)->failroom, 
-		R_EXIT(room, j)->totalfailroom);
-
-	}
+  if (rzone == NOWHERE || rzone > top_of_zone_table)
+  {
+  #else
+      if (rzone < 0 || rzone > top_of_zone_table)
+      {
+  #endif
+          log("SYSERR: GenOLC: save_rooms: Invalid zone number %d passed! (0-%d)", rzone, top_of_zone_table);
+          return FALSE;
       }
-
-      if (room->ex_description) {
-        struct extra_descr_data *xdesc;
-
-	      for (xdesc = room->ex_description; xdesc; xdesc = xdesc->next) {
-	        strncpy(buf, xdesc->description, sizeof(buf));
-	        strip_cr(buf);
-	        fprintf(sf,	"E\n"
-			      "%s~\n"
-			      "%s~\n", xdesc->keyword, buf);
-	      }
+  
+      log("GenOLC: save_rooms: Saving rooms in zone #%d (%d-%d).",
+          zone_table[rzone].number, genolc_zone_bottom(rzone), zone_table[rzone].top);
+  
+      snprintf(filename, sizeof(filename), "%s/%d.new", WLD_PREFIX, zone_table[rzone].number);
+      if (!(sf = fopen(filename, "w")))
+      {
+          log("SYSERR: save_rooms: %s", strerror(errno));
+          return FALSE;
       }
-      fprintf(sf, "S\n");
-      script_save_to_disk(sf, room, WLD_TRIGGER);
-    }
+  
+      for (i = genolc_zone_bottom(rzone); i <= zone_table[rzone].top; i++)
+      {
+          room_rnum rnum;
+  
+          if ((rnum = real_room(i)) != NOWHERE)
+          {
+              int j;
+  
+              room = (world + rnum);
+  
+              /*
+               * Copy the description and strip off trailing newlines.
+               */
+              strncpy(buf, room->description ? room->description : "Empty room.", sizeof(buf) - 1 );
+              strip_cr(buf);
+  
+              /*
+               * Save the numeric and string section of the file.
+               */
+              sprintascii(rbuf1, room->room_flags[0]);
+              sprintascii(rbuf2, room->room_flags[1]);
+              sprintascii(rbuf3, room->room_flags[2]);
+              sprintascii(rbuf4, room->room_flags[3]);
+              fprintf(sf,   "#%d\n"
+                      "%s%c\n"
+                      "%s%c\n"
+                      "%d %s %s %s %s %d\n",
+                      room->number,
+                      room->name ? room->name : "Untitled", STRING_TERMINATOR,
+                      buf, STRING_TERMINATOR,
+                      zone_table[room->zone].number,
+                      rbuf1, rbuf2, rbuf3, rbuf4, room->sector_type
+                     );
+  
+              /*
+               * Now you write out the exits for the room.
+               */
+              for (j = 0; j < NUM_OF_DIRS; j++)
+              {
+                  if (R_EXIT(room, j))
+                  {
+                      int dflag;
+                      if (R_EXIT(room, j)->general_description)
+                      {
+                          strncpy(buf, R_EXIT(room, j)->general_description, sizeof(buf) - 1);
+                          strip_cr(buf);
+                      }
+                      else
+                          *buf = '\0';
+  
+                      /*
+                       * Figure out door flag.
+                       */
+                      if (IS_SET(R_EXIT(room, j)->exit_info, EX_ISDOOR))
+                      {
+                          if (IS_SET(R_EXIT(room, j)->exit_info, EX_SECRET) &&
+                                  IS_SET(R_EXIT(room, j)->exit_info, EX_PICKPROOF))
+                              dflag = 4;
+                          else if (IS_SET(R_EXIT(room, j)->exit_info, EX_SECRET))
+                              dflag = 3;
+                          else if (IS_SET(R_EXIT(room, j)->exit_info, EX_PICKPROOF))
+                              dflag = 2;
+                          else
+                              dflag = 1;
+                      }
+                      else
+                          dflag = 0;
+  
+                      if (R_EXIT(room, j)->keyword)
+                          strncpy(buf1, R_EXIT(room, j)->keyword, sizeof(buf1) - 1 );
+                      else
+                          *buf1 = '\0';
+  
+                      /*
+                       * Now write the exit to the file.
+                       */
+                      fprintf(sf, "D%d\n"
+                              "%s~\n"
+                              "%s~\n"
+                              "%d %d %d %d %d %d %d %d %d %d %d\n",
+                              j,
+                              buf,
+                              buf1,
+  
+                              dflag,
+                              R_EXIT(room, j)->key != NOTHING ? R_EXIT(room, j)->key : -1,
+                              R_EXIT(room, j)->to_room != NOWHERE ? world[R_EXIT(room, j)->to_room].number : -1,
+                              R_EXIT(room, j)->dclock,
+                              R_EXIT(room, j)->dchide,
+                              R_EXIT(room, j)->dcskill,
+                              R_EXIT(room, j)->dcmove,
+                              R_EXIT(room, j)->failsavetype,
+                              R_EXIT(room, j)->dcfailsave,
+                              R_EXIT(room, j)->failroom,
+                              R_EXIT(room, j)->totalfailroom);
+  
+                  }
+              }
+  
+              if (room->ex_description)
+              {
+                  struct extra_descr_data *xdesc;
+  
+                  for (xdesc = room->ex_description; xdesc; xdesc = xdesc->next)
+                  {
+                      strncpy(buf, xdesc->description, sizeof(buf) - 1);
+                      buf[sizeof(buf) - 1] = '\0';
+                      strip_cr(buf);
+                      fprintf(sf, "E\n"
+                              "%s~\n"
+                              "%s~\n", xdesc->keyword, buf);
+                  }
+  
+              }
+              fprintf(sf, "S\n");
+              script_save_to_disk(sf, room, WLD_TRIGGER);
+          }
+      }
+  
+  
+      /*
+       * Write the final line and close it.
+       */
+      fprintf(sf, "$~\n");
+      fclose(sf);
+  
+      /* Old file we're replacing. */
+      snprintf(buf, sizeof(buf), "%s/%d.wld", WLD_PREFIX, zone_table[rzone].number);
+  
+      remove(buf);
+      rename(filename, buf);
+  
+      if (in_save_list(zone_table[rzone].number, SL_WLD))
+          remove_from_save_list(zone_table[rzone].number, SL_WLD);
+      return TRUE;
   }
-
-
-  /*
-   * Write the final line and close it.
-   */
-  fprintf(sf, "$~\n");
-  fclose(sf);
-
-  /* Old file we're replacing. */
-  snprintf(buf, sizeof(buf), "%s/%d.wld", WLD_PREFIX, zone_table[rzone].number);
-
-  remove(buf);
-  rename(filename, buf);
-
-  if (in_save_list(zone_table[rzone].number, SL_WLD))
-    remove_from_save_list(zone_table[rzone].number, SL_WLD);
-  return TRUE;
-}
 
 int copy_room(struct room_data *to, struct room_data *from)
 {
