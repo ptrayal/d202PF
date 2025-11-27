@@ -124,8 +124,7 @@ void	hit(struct char_data *ch, struct char_data *victim, int type);
 void	forget(struct char_data *ch, struct char_data *victim);
 void	remember(struct char_data *ch, struct char_data *victim);
 int	damage(struct char_data *ch, struct char_data *victim, int dam, int attacktype, int is_crit, int material, int bonus, int spell, int magic);
-int	skill_message(int dam, struct char_data *ch, struct char_data *vict,
-		      int attacktype, int is_reduc);
+int	skill_message(int dam, struct char_data *ch, struct char_data *vict, int attacktype, int is_reduc);
 
 #define LAST_CONNECT            0
 #define LAST_ENTER_GAME         1

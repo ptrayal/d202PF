@@ -159,6 +159,7 @@ struct attack_hit_type attack_hit_text[] ={
 
 };
 
+#define NUM_ATTACK_TYPES (sizeof(attack_hit_text) / sizeof(attack_hit_text[0]))
 
 /* The Fight related routines */
 
@@ -1443,241 +1444,268 @@ char *replace_weap_string(const char *str, const char *weapon_singular, const ch
 
 /* message for doing damage with a weapon */
 void dam_message(int dam, struct char_data *ch, struct char_data *victim,
-        int w_type, int is_crit, int is_reduc) {
-  char buf[MAX_STRING_LENGTH] = {'\0'};
-  int msgnum;
-  int is_sneak = FALSE, is_precise = FALSE;
+                 int w_type, int is_crit, int is_reduc)
+{
+    char buf[MAX_STRING_LENGTH] = {'\0'};
+    char temp[MAX_STRING_LENGTH] = {'\0'};
+    size_t len = 0;
+    int msgnum;
+    int is_sneak = FALSE, is_precise = FALSE, is_critical = FALSE;
 
-  if (is_crit == 999 || is_crit == 777 || is_crit == 444 || is_crit == 111) {
-    is_sneak = TRUE;
-  }
-  if (is_crit == 888 || is_crit == 777 || is_crit == 555 || is_crit == 444) {
-    is_precise = TRUE;
-  }
-  if (is_crit == 111 || is_crit == 555 || is_crit == 444) {
-    is_crit = FALSE;
-  }
-
-  static struct dam_weapon_type {
-    const char *to_room;
-    const char *to_char;
-    const char *to_victim;
-  } dam_weapons[] = {
-
-    /* use #w for singular (i.e. "slash") and #W for plural (i.e. "slashes") */
-
-    {
-      "@W$n #W $N but misses with ", /* 0: 0     */
-      "@WYou #w $N but miss with ",
-      "@W$n #W you but misses with "
-    },
-
-    {
-      "@y$n #W $N with ", /* 1: 1..2  */
-      "@yYou #w $N with ",
-      "@R$n #W you with "
-    },
-
-    {
-      "@[6]$n barely #W $N@[6].@n", /* 2: 3..4  */
-      "@[5]You barely #w $N@[5].@n",
-      "@[4]$n@[4] barely #W you.@n"
-    },
-
-    {
-      "@[6]$n #W $N@[6].@n", /* 3: 5..6  */
-      "@[5]You #w $N@[5].@n",
-      "@[4]$n@[4] #W you.@n"
-    },
-
-    {
-      "@[6]$n #W $N@[6] hard.@n", /* 4: 7..10  */
-      "@[5]You #w $N@[5] hard.@n",
-      "@[4]$n@[4] #W you hard.@n"
-    },
-
-    {
-      "@[6]$n #W $N@[6] very hard.@n", /* 5: 11..14  */
-      "@[5]You #w $N@[5] very hard.@n",
-      "@[4]$n@[4] #W you very hard.@n"
-    },
-
-    {
-      "@[6]$n #W $N@[6] extremely hard.@n", /* 6: 15..19  */
-      "@[5]You #w $N@[5] extremely hard.@n",
-      "@[4]$n@[4] #W you extremely hard.@n"
-    },
-
-    {
-      "@[6]$n massacres $N@[6] to small fragments with $s #w.@n", /* 7: 19..23 */
-      "@[5]You massacre $N@[5] to small fragments with your #w.@n",
-      "@[4]$n@[4] massacres you to small fragments with $s #w.@n"
-    },
-
-    {
-      "@[6]$n OBLITERATES $N@[6] with $s deadly #w!!@n", /* 8: > 23   */
-      "@[5]You OBLITERATE $N@[5] with your deadly #w!!@n",
-      "@[4]$n@[4] OBLITERATES you with $s deadly #w!!@n"
+    /* interpret special codes for sneak/precise/crit */
+    if (is_crit == 999 || is_crit == 777 || is_crit == 444 || is_crit == 111) {
+        is_sneak = TRUE;
     }
-  };
+    if (is_crit == 888 || is_crit == 777 || is_crit == 555 || is_crit == 444) {
+        is_precise = TRUE;
+    }
+    /* if these magic codes were used, turn is_crit into boolean (0/1) */
+    if (is_crit == 111 || is_crit == 555 || is_crit == 444) {
+        is_critical = FALSE;
+    } else {
+        is_critical = (is_crit ? TRUE : FALSE);
+    }
 
+    /* weapon messages table (unchanged) */
+    static struct dam_weapon_type {
+        const char *to_room;
+        const char *to_char;
+        const char *to_victim;
+    } dam_weapons[] = {
+        { "@W$n #W $N but misses with ", "@WYou #w $N but miss with ", "@W$n #W you but misses with " },
+        { "@y$n #W $N with ", "@yYou #w $N with ", "@R$n #W you with " },
+        { "@[6]$n barely #W $N@[6].@n", "@[5]You barely #w $N@[5].@n", "@[4]$n@[4] barely #W you.@n" },
+        { "@[6]$n #W $N@[6].@n", "@[5]You #w $N@[5].@n", "@[4]$n@[4] #W you.@n" },
+        { "@[6]$n #W $N@[6] hard.@n", "@[5]You #w $N@[5] hard.@n", "@[4]$n@[4] #W you hard.@n" },
+        { "@[6]$n #W $N@[6] very hard.@n", "@[5]You #w $N@[5] very hard.@n", "@[4]$n@[4] #W you very hard.@n" },
+        { "@[6]$n #W $N@[6] extremely hard.@n", "@[5]You #w $N@[5] extremely hard.@n", "@[4]$n@[4] #W you extremely hard.@n" },
+        { "@[6]$n massacres $N@[6] to small fragments with $s #w.@n", "@[5]You massacre $N@[5] to small fragments with your #w.@n", "@[4]$n@[4] massacres you to small fragments with $s #w.@n" },
+        { "@[6]$n OBLITERATES $N@[6] with $s deadly #w!!@n", "@[5]You OBLITERATE $N@[5] with your deadly #w!!@n", "@[4]$n@[4] OBLITERATES you with $s deadly #w!!@n" }
+    };
 
-  w_type -= TYPE_HIT; /* Change to base of table with text */
+    /* normalize w_type into table index */
+    w_type -= TYPE_HIT;
+    if (w_type < 0)
+        w_type = 0;
+    /* if attack_hit_text length is N, ensure we don't walk off the end.
+       Here we assume attack_hit_text has at least 1 element and uses same indices as weapons.
+       If you have a macro/const for number of attack types, use it here. */
+    if (w_type >= NUM_ATTACK_TYPES)  /* define/replace NUM_ATTACK_TYPES appropriately */
+        w_type = NUM_ATTACK_TYPES - 1;
 
-  if (dam == 0) msgnum = 0;
-  else if (dam <= 99999999) msgnum = 1;
-  else if (dam <= 4) msgnum = 2;
-  else if (dam <= 6) msgnum = 3;
-  else if (dam <= 10) msgnum = 4;
-  else if (dam <= 14) msgnum = 5;
-  else if (dam <= 19) msgnum = 6;
-  else if (dam <= 23) msgnum = 7;
-  else msgnum = 8;
-
-  /* damage message to onlookers */
-  sprintf(buf, "%s", replace_weap_string(dam_weapons[msgnum].to_room,
-          attack_hit_text[w_type].singular, attack_hit_text[w_type].plural));
-  sprintf(buf, "%s (rolled @Y%d@n vs defense @Y%d@n", buf, ch->att_roll, ch->opp_def);
-  if (dam)
-    sprintf(buf, "%s for @R%d@n damage)@n", buf, dam);
-  else
-    sprintf(buf, "%s)", buf);
-  if (ch->riposte == TRUE)
-    sprintf(buf, "%s @M*riposte*@n", buf);
-  if (ch->new_parry == TRUE)
-    sprintf(buf, "%s @M*deflected*@n", buf);
-  if (GET_POS(victim) < POS_RESTING)
-    sprintf(buf, "%s @M*unconscious*@n", buf);
-  if (AFF_FLAGGED(ch, AFF_SMITING) && IS_GOOD(ch)) {
-    sprintf(buf, "%s @M*smite evil*@n", buf);
-  }
-  if (dam > 0 && affected_by_spell(ch, SPELL_FLAME_WEAPON)) {
-    sprintf(buf, "%s @M*fire damage*@n", buf);
-  }
-  if (is_precise)
-    sprintf(buf, "%s @M*precise strike*@n", buf);
-  if (is_sneak)
-    sprintf(buf, "%s @M*sneak attack*@n", buf);
-  if (is_crit)
-    sprintf(buf, "%s @M*critical hit*@n", buf);
-  if (is_reduc)
-    sprintf(buf, "%s @M*reduced*@n", buf);
-  if (GET_DEATH_ATTACK(ch))
-    sprintf(buf, "%s @M*death attack*@n", buf);
-
-
-  /* damage message to damager */
-  sprintf(buf, "%s", replace_weap_string(dam_weapons[msgnum].to_char,
-          attack_hit_text[w_type].singular, attack_hit_text[w_type].plural));
-  if (ch->wield_type == WIELD_TYPE_MAIN) {
-    if (GET_EQ(ch, WEAR_WIELD1))
-      sprintf(buf, "%s%s.@n", buf, GET_EQ(ch, WEAR_WIELD1)->short_description);
-    else if (IS_NPC(ch))
-      sprintf(buf, "%s$s weapon.@n ", buf);
+    /* pick message bucket (fixed order) */
+    if (dam == 0)
+        msgnum = 0;
+    else if (dam <= 2)
+        msgnum = 1;
+    else if (dam <= 4)
+        msgnum = 2;
+    else if (dam <= 6)
+        msgnum = 3;
+    else if (dam <= 10)
+        msgnum = 4;
+    else if (dam <= 14)
+        msgnum = 5;
+    else if (dam <= 19)
+        msgnum = 6;
+    else if (dam <= 23)
+        msgnum = 7;
     else
-      sprintf(buf, "%s$s fists.@n ", buf);
+        msgnum = 8;
 
-  } else {
-    if (GET_EQ(ch, WEAR_WIELD2))
-      sprintf(buf, "%s%s.@n ", buf, GET_EQ(ch, WEAR_WIELD2)->short_description);
-  }
-  sprintf(buf, "%s (rolled @Y%d@n vs defense @Y%d@n", buf, ch->att_roll, ch->opp_def);
-  if (dam)
-    sprintf(buf, "%s for @R%d@n damage)@n", buf, dam);
-  else
-    sprintf(buf, "%s)", buf);
-  if (ch->riposte == TRUE)
-    sprintf(buf, "%s @M*riposte*@n", buf);
-  if (ch->new_parry == TRUE)
-    sprintf(buf, "%s @M*deflected*@n", buf);
-  if (GET_POS(victim) < POS_RESTING)
-    sprintf(buf, "%s @M*unconscious*@n", buf);
-  if (AFF_FLAGGED(ch, AFF_SMITING) && IS_GOOD(ch)) {
-    sprintf(buf, "%s @M*smite evil*@n", buf);
-    REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_SMITING);
-  }
-  if (dam > 0 && affected_by_spell(ch, SPELL_FLAME_WEAPON)) {
-    sprintf(buf, "%s @M*fire damage*@n", buf);
-  }
-  if (is_precise)
-    sprintf(buf, "%s @M*precise strike*@n", buf);
-  if (is_sneak)
-    sprintf(buf, "%s @M*sneak attack*@n", buf);
-  if (is_crit)
-    sprintf(buf, "%s @M*critical hit*@n", buf);
-  if (is_reduc)
-    sprintf(buf, "%s @M*reduced*@n", buf);
-  if (GET_DEATH_ATTACK(ch))
-    sprintf(buf, "%s @M*death attack*@n", buf);
-  if (ch->combat_output == OUTPUT_FULL)
-    act(buf, false, ch, NULL, victim, TO_CHAR | TO_SLEEP);
+    /*
+     * Build the "to room" message. Use a temp buffer for the weapon replace
+     * (in case replace_weap_string returns an internal/static pointer) and
+     * then append other info safely into buf using len and remaining size.
+     */
+    temp[0] = '\0';
+    snprintf(temp, sizeof(temp), "%s",
+             replace_weap_string(dam_weapons[msgnum].to_room,
+                                 attack_hit_text[w_type].singular,
+                                 attack_hit_text[w_type].plural));
 
+    len = snprintf(buf, sizeof(buf), "%s", temp);
 
-  /* damage message to damagee */
-  sprintf(buf, "%s", replace_weap_string(dam_weapons[msgnum].to_victim,
-          attack_hit_text[w_type].singular, attack_hit_text[w_type].plural));
-  if (ch->wield_type == WIELD_TYPE_MAIN) {
-    if (GET_EQ(ch, WEAR_WIELD1))
-      sprintf(buf, "%s%s.@n ", buf, GET_EQ(ch, WEAR_WIELD1)->short_description);
-    else if (IS_NPC(ch))
-      sprintf(buf, "%s$s weapon.@n ", buf);
-    else
-      sprintf(buf, "%s$s fists.@n ", buf);
+    /* append roll / defense / damage info */
+    if (len < sizeof(buf)) {
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        " (rolled @Y%d@n vs defense @Y%d@n", ch->att_roll, ch->opp_def);
+    }
 
-  } else {
-    if (GET_EQ(ch, WEAR_WIELD2))
-      sprintf(buf, "%s%s.@n ", buf, GET_EQ(ch, WEAR_WIELD2)->short_description);
-  }
-  sprintf(buf, "%s (rolled @Y%d@n vs defense @Y%d@n", buf, ch->att_roll, ch->opp_def);
-  if (dam)
-    sprintf(buf, "%s for @R%d@n damage)@n", buf, dam);
-  else
-    sprintf(buf, "%s)", buf);
-  if (ch->riposte == TRUE)
-    sprintf(buf, "%s @M*riposte*@n", buf);
-  if (ch->new_parry == TRUE)
-    sprintf(buf, "%s @M*deflected*@n", buf);
-  if (GET_POS(victim) < POS_RESTING)
-    sprintf(buf, "%s @M*unconscious*@n", buf);
-  if (AFF_FLAGGED(ch, AFF_SMITING) && IS_GOOD(ch)) {
-    sprintf(buf, "%s @M*smite evil*@n", buf);
-  }
-  if (dam > 0 && affected_by_spell(ch, SPELL_FLAME_WEAPON)) {
-    sprintf(buf, "%s @M*fire damage*@n", buf);
-  }
-  if (is_precise)
-    sprintf(buf, "%s @M*precise strike*@n", buf);
-  if (is_sneak)
-    sprintf(buf, "%s @M*sneak attack*@n", buf);
-  if (is_crit)
-    sprintf(buf, "%s @M*critical hit*@n", buf);
-  if (is_reduc)
-    sprintf(buf, "%s @M*reduced*@n", buf);
-  if (GET_DEATH_ATTACK(ch))
-    sprintf(buf, "%s @M*death attack*@n", buf);
-  if (victim->combat_output == OUTPUT_FULL)
-    act(buf, false, ch, NULL, victim, TO_VICT | TO_SLEEP);
+    if (len < sizeof(buf)) {
+        if (dam)
+            len += snprintf(buf + len, sizeof(buf) - len, " for @R%d@n damage)@n", dam);
+        else
+            len += snprintf(buf + len, sizeof(buf) - len, ")");
+    }
 
+    /* append flags */
+    if (ch->riposte == TRUE && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*riposte*@n");
+    if (ch->new_parry == TRUE && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*deflected*@n");
+    if (GET_POS(victim) < POS_RESTING && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*unconscious*@n");
+    if (AFF_FLAGGED(ch, AFF_SMITING) && IS_GOOD(ch) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*smite evil*@n");
+    if (dam > 0 && affected_by_spell(ch, SPELL_FLAME_WEAPON) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*fire damage*@n");
+    if (is_precise && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*precise strike*@n");
+    if (is_sneak && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*sneak attack*@n");
+    if (is_critical && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*critical hit*@n");
+    if (is_reduc && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*reduced*@n");
+    if (GET_DEATH_ATTACK(ch) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*death attack*@n");
 
-  if (is_precise)
-    GET_FIGHT_PRECISE_ATTACK(ch)++;
-  if (is_sneak) {
-    if (PRF_FLAGGED(ch, PRF_BLEEDING_ATTACK)) {
-      GET_FIGHT_BLEEDING(ch)++;
-      REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_BLEEDING_ATTACK);
-    } else
-      GET_FIGHT_SNEAK_ATTACK(ch)++;
-  }
-  if (is_crit)
-    GET_FIGHT_CRITICAL_HIT(ch)++;
-  if (GET_DEATH_ATTACK(ch))
-    GET_FIGHT_DEATH_ATTACK(ch)++;
-  if (GET_UNDEATH_TOUCH(ch))
-    GET_FIGHT_UNDEATH_TOUCH(ch)++;
+    /* show to room (TO_NOTVICT or TO_NOTVICT equivalent in your code) */
+    act(buf, FALSE, ch, NULL, victim, TO_NOTVICT);
 
-  GET_DEATH_ATTACK(ch) = 0;
-  GET_UNDEATH_TOUCH(ch) = 0;
-  ch->new_parry = FALSE;
+    /*
+     * Now "to attacker" message. Reuse temp and buf carefully.
+     */
+    temp[0] = '\0';
+    snprintf(temp, sizeof(temp), "%s",
+             replace_weap_string(dam_weapons[msgnum].to_char,
+                                 attack_hit_text[w_type].singular,
+                                 attack_hit_text[w_type].plural));
+
+    len = snprintf(buf, sizeof(buf), "%s", temp);
+
+    /* append weapon description for attacker */
+    if (ch->wield_type == WIELD_TYPE_MAIN) {
+        if (GET_EQ(ch, WEAR_WIELD1)) {
+            len += snprintf(buf + len, sizeof(buf) - len, "%s.@n", GET_EQ(ch, WEAR_WIELD1)->short_description);
+        } else if (IS_NPC(ch)) {
+            len += snprintf(buf + len, sizeof(buf) - len, "%s", "$s weapon.@n");
+        } else {
+            len += snprintf(buf + len, sizeof(buf) - len, "%s", "$s fists.@n");
+        }
+    } else {
+        if (GET_EQ(ch, WEAR_WIELD2))
+            len += snprintf(buf + len, sizeof(buf) - len, "%s.@n", GET_EQ(ch, WEAR_WIELD2)->short_description);
+    }
+
+    /* append roll/defense/damage */
+    if (len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        " (rolled @Y%d@n vs defense @Y%d@n", ch->att_roll, ch->opp_def);
+    if (len < sizeof(buf)) {
+        if (dam)
+            len += snprintf(buf + len, sizeof(buf) - len, " for @R%d@n damage)@n", dam);
+        else
+            len += snprintf(buf + len, sizeof(buf) - len, ")");
+    }
+
+    /* append flags (same as above) */
+    if (ch->riposte == TRUE && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*riposte*@n");
+    if (ch->new_parry == TRUE && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*deflected*@n");
+    if (GET_POS(victim) < POS_RESTING && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*unconscious*@n");
+    if (AFF_FLAGGED(ch, AFF_SMITING) && IS_GOOD(ch) && len < sizeof(buf)) {
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*smite evil*@n");
+        /* original code removed smiting flag here; if intended, keep:
+         * REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_SMITING);
+         */
+    }
+    if (dam > 0 && affected_by_spell(ch, SPELL_FLAME_WEAPON) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*fire damage*@n");
+    if (is_precise && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*precise strike*@n");
+    if (is_sneak && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*sneak attack*@n");
+    if (is_critical && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*critical hit*@n");
+    if (is_reduc && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*reduced*@n");
+    if (GET_DEATH_ATTACK(ch) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*death attack*@n");
+
+    if (ch->combat_output == OUTPUT_FULL)
+        act(buf, FALSE, ch, NULL, victim, TO_CHAR | TO_SLEEP);
+
+    /*
+     * "to victim" message
+     */
+    temp[0] = '\0';
+    snprintf(temp, sizeof(temp), "%s",
+             replace_weap_string(dam_weapons[msgnum].to_victim,
+                                 attack_hit_text[w_type].singular,
+                                 attack_hit_text[w_type].plural));
+    len = snprintf(buf, sizeof(buf), "%s", temp);
+
+    if (ch->wield_type == WIELD_TYPE_MAIN) {
+        if (GET_EQ(ch, WEAR_WIELD1))
+            len += snprintf(buf + len, sizeof(buf) - len, "%s.@n", GET_EQ(ch, WEAR_WIELD1)->short_description);
+        else if (IS_NPC(ch))
+            len += snprintf(buf + len, sizeof(buf) - len, "%s", "$s weapon.@n");
+        else
+            len += snprintf(buf + len, sizeof(buf) - len, "%s", "$s fists.@n");
+    } else {
+        if (GET_EQ(ch, WEAR_WIELD2))
+            len += snprintf(buf + len, sizeof(buf) - len, "%s.@n", GET_EQ(ch, WEAR_WIELD2)->short_description);
+    }
+
+    if (len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len,
+                        " (rolled @Y%d@n vs defense @Y%d@n", ch->att_roll, ch->opp_def);
+    if (len < sizeof(buf)) {
+        if (dam)
+            len += snprintf(buf + len, sizeof(buf) - len, " for @R%d@n damage)@n", dam);
+        else
+            len += snprintf(buf + len, sizeof(buf) - len, ")");
+    }
+
+    if (ch->riposte == TRUE && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*riposte*@n");
+    if (ch->new_parry == TRUE && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*deflected*@n");
+    if (GET_POS(victim) < POS_RESTING && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*unconscious*@n");
+    if (AFF_FLAGGED(ch, AFF_SMITING) && IS_GOOD(ch) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*smite evil*@n");
+    if (dam > 0 && affected_by_spell(ch, SPELL_FLAME_WEAPON) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*fire damage*@n");
+    if (is_precise && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*precise strike*@n");
+    if (is_sneak && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*sneak attack*@n");
+    if (is_critical && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*critical hit*@n");
+    if (is_reduc && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*reduced*@n");
+    if (GET_DEATH_ATTACK(ch) && len < sizeof(buf))
+        len += snprintf(buf + len, sizeof(buf) - len, " @M*death attack*@n");
+
+    if (victim->combat_output == OUTPUT_FULL)
+        act(buf, FALSE, ch, NULL, victim, TO_VICT | TO_SLEEP);
+
+    /* increment counters */
+    if (is_precise)
+        GET_FIGHT_PRECISE_ATTACK(ch)++;
+    if (is_sneak) {
+        if (PRF_FLAGGED(ch, PRF_BLEEDING_ATTACK)) {
+            GET_FIGHT_BLEEDING(ch)++;
+            REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_BLEEDING_ATTACK);
+        } else
+            GET_FIGHT_SNEAK_ATTACK(ch)++;
+    }
+    if (is_critical)
+        GET_FIGHT_CRITICAL_HIT(ch)++;
+    if (GET_DEATH_ATTACK(ch))
+        GET_FIGHT_DEATH_ATTACK(ch)++;
+    if (GET_UNDEATH_TOUCH(ch))
+        GET_FIGHT_UNDEATH_TOUCH(ch)++;
+
+    /* reset per-hit flags */
+    GET_DEATH_ATTACK(ch) = 0;
+    GET_UNDEATH_TOUCH(ch) = 0;
+    ch->new_parry = FALSE;
 }
 
 /*
@@ -1756,6 +1784,8 @@ int skill_message(int dam, struct char_data *ch, struct char_data *vict,
   }
   return (0);
 }
+
+
 
 void damage_object(struct char_data *ch, struct char_data *victim) {
   /* function needs to do two things, attacker's weapon could take damage
@@ -2938,7 +2968,8 @@ int crit_range_extension(struct char_data *ch, struct obj_data *weap) {
 }
 
 int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wielded, int w_type, int calc_base_hit,
-        char *damstr, char *critstr, int hitbonus) {
+        char *damstr, char *critstr, int hitbonus) 
+{
   calc_base_hit *= 10;
   int victim_ac, dam = 0, diceroll;
   int is_crit = false, range, damtimes, strmod, ndice, diesize = 0, sneak = 0;
@@ -3552,10 +3583,20 @@ int one_hit(struct char_data *ch, struct char_data *victim, struct obj_data *wie
         is_crit = 444;
       else if (!is_crit && sneakdam)
         is_crit = 111;
-      if (damstr && sneakdam)
-        sprintf(damstr, "%s (+%dd6 sneak)", damstr, sneak);
-      if (damstr && precisedam)
-        sprintf(damstr, "%s (+%dd6 precise)", damstr, HAS_FEAT(ch, FEAT_PRECISE_STRIKE));
+
+      char tmp[MAX_STRING_LENGTH];
+
+      if (damstr && sneakdam) 
+      {
+          snprintf(tmp, sizeof(tmp), "%s (+%dd6 sneak)", damstr, sneak);
+          strcpy(damstr, tmp);
+      }
+
+      if (damstr && precisedam) 
+      {
+          snprintf(tmp, sizeof(tmp), "%s (+%dd6 precise)", damstr, HAS_FEAT(ch, FEAT_PRECISE_STRIKE));
+          strcpy(damstr, tmp);
+      }
 
       dam += sneakdam;
       dam += precisedam;
