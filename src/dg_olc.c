@@ -673,64 +673,60 @@ void trigedit_save(struct descriptor_data *d)
 
 void trigedit_create_index(int znum, char *type)
 {
-  FILE *newfile, *oldfile;
-  char new_name[128]={'\0'}, old_name[128]={'\0'}, *prefix;
-  char buf[MAX_STRING_LENGTH]={'\0'}, buf1[MAX_STRING_LENGTH]={'\0'};
-  int num = 0, found = FALSE;
+    FILE *newfile = NULL, *oldfile = NULL;
+    char new_name[128] = {'\0'}, old_name[128] = {'\0'}, *prefix;
+    char buf[MAX_STRING_LENGTH] = {'\0'}, buf1[MAX_STRING_LENGTH] = {'\0'};
+    int num = 0, found = FALSE;
 
-  prefix = TRG_PREFIX;
+    prefix = TRG_PREFIX;
 
-  snprintf(old_name, sizeof(old_name), "%s/index", prefix);
-  snprintf(new_name, sizeof(new_name), "%s/newindex", prefix);
+    snprintf(old_name, sizeof(old_name), "%s/index", prefix);
+    snprintf(new_name, sizeof(new_name), "%s/newindex", prefix);
 
-  if (!(oldfile = fopen(old_name, "r"))) 
-  {
-    mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", old_name);
-    fclose(oldfile);
-    return;
-  } 
-  else if (!(newfile = fopen(new_name, "w"))) 
-  {
-    mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", new_name);
-    fclose(oldfile);
-    return;
-  }
-
-  /*
-   * Index contents must be in order: search through the old file for the
-   * right place, insert the new file, then copy the rest over.
-   */
-  snprintf(buf1, sizeof(buf1), "%d.%s", znum, type);
-  while (get_line(oldfile, buf)) 
-  {
-    if (*buf == '$') 
+    if (!(oldfile = fopen(old_name, "r")))
     {
-      fprintf(newfile, "%s\n$\n", (!found ? buf1 : ""));
-      break;
-    } 
-    else if (!found) 
-    {
-      sscanf(buf, "%d", &num);
-      if (num == znum)
-        found = TRUE;
-      else if (num > znum) 
-      {
-        found = TRUE;
-        fprintf(newfile, "%s\n", buf1);
-      }
+        mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", old_name);
+        return; // no fclose() here — it’s NULL
     }
-    fprintf(newfile, "%s\n", buf);
-  }
 
-  fclose(newfile);
-  fclose(oldfile);
+    if (!(newfile = fopen(new_name, "w")))
+    {
+        mudlog(BRF, ADMLVL_IMPL, TRUE, "SYSERR: DG_OLC: Failed to open %s", new_name);
+        fclose(oldfile);
+        return;
+    }
 
-  /*
-   * Out with the old, in with the new.
-   */
-  remove(old_name);
-  rename(new_name, old_name);
+    /* Index contents must be in order */
+    snprintf(buf1, sizeof(buf1), "%d.%s", znum, type);
+    while (get_line(oldfile, buf))
+    {
+        if (*buf == '$')
+        {
+            fprintf(newfile, "%s\n$\n", (!found ? buf1 : ""));
+            break;
+        }
+        else if (!found)
+        {
+            sscanf(buf, "%d", &num);
+            if (num == znum)
+                found = TRUE;
+            else if (num > znum)
+            {
+                found = TRUE;
+                fprintf(newfile, "%s\n", buf1);
+            }
+        }
+        fprintf(newfile, "%s\n", buf);
+    }
+
+    fclose(newfile);
+    fclose(oldfile);
+
+    /* Replace old index with new */
+    remove(old_name);
+    rename(new_name, old_name);
 }
+
 
 void dg_olc_script_copy(struct descriptor_data *d)
 {
