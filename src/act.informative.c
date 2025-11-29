@@ -8,6 +8,9 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "mysql/mysql.h"
 #include "conf.h"
 #include "sysdep.h"
@@ -2160,48 +2163,41 @@ ACMD(do_score)
 
 ACMD(do_aod_new_score)
 {
-
     int attack = 0, base_attack = 0, offhand = 0, weaponmod = 0, offhandmod = 0;
-    char attack_text[MAX_STRING_LENGTH] = {'\0'};
+    char attack_text[MAX_STRING_LENGTH] = { '\0' };
     int i = 0, j = 0;
     struct time_info_data playing_time;
-    char play_time[MAX_STRING_LENGTH] = {'\0'};
+    char play_time[MAX_STRING_LENGTH] = { '\0' };
     int int_xp = 0;
     int int_percent = 0;
-    float percent = 0.0;
-    float xp = 0.0;
-    char exp_percent[MAX_STRING_LENGTH] = {'\0'};
+    float percent = 0.0f;
+    float xp = 0.0f;
+    char exp_percent[MAX_STRING_LENGTH] = { '\0' };
     int grace = 0;
-    char hp_text[MAX_STRING_LENGTH] = {'\0'}, mv_text[MAX_STRING_LENGTH] = {'\0'};
-    char coin_text[MAX_STRING_LENGTH] = {'\0'};
-    char color1[10] = {'\0'}, color2[10] = {'\0'}, color3[10] = {'\0'}, color4[10] = {'\0'};
-    struct damreduct_type *reduct;
+    char hp_text[MAX_STRING_LENGTH] = { '\0' }, mv_text[MAX_STRING_LENGTH] = { '\0' };
+    char coin_text[MAX_STRING_LENGTH] = { '\0' };
+    char color1[10] = { '\0' }, color2[10] = { '\0' }, color3[10] = { '\0' }, color4[10] = { '\0' };
+    struct damreduct_type *reduct = NULL;
     int showStats = TRUE;
-    char enc_text[100] = {'\0'}, stat_buf[200] = {'\0'}, desc_buf[200] = {'\0'};
-    struct char_data *rec = ch, *vict;
-    char arg[200] = {'\0'};
+    char enc_text[100] = { '\0' }, stat_buf[200] = { '\0' }, desc_buf[200] = { '\0' };
+    struct char_data *rec = ch;
+    struct char_data *vict = NULL;
+    char arg[200] = { '\0' };
 
     one_argument(argument, arg);
 
-    if (*arg)
-    {
-        if (GET_ADMLEVEL(ch) > 0)
-        {
-            if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD)))
-            {
+    if (*arg) {
+        if (GET_ADMLEVEL(ch) > 0) {
+            if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD))) {
                 send_to_char(rec, "That person does not seem to be online.\r\n");
                 return;
             }
-        }
-        else
-        {
-            if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD)))
-            {
+        } else {
+            if (!(vict = get_char_vis(rec, arg, NULL, FIND_CHAR_WORLD))) {
                 send_to_char(rec, "That person does not seem to be here.\r\n");
                 return;
             }
-            if (!IS_NPC(vict) || vict->master != rec)
-            {
+            if (!IS_NPC(vict) || vict->master != rec) {
                 send_to_char(rec, "You do not have permission to view that person's score.\r\n");
                 return;
             }
@@ -2209,24 +2205,23 @@ ACMD(do_aod_new_score)
         ch = vict;
     }
 
-
-
     // Set colors
-
-    sprintf(color1, "@W");
-    sprintf(color2, "@w");
-    sprintf(color3, "@c");
-    sprintf(color4, "@y");
+    strcpy(color1, "@W");
+    strcpy(color2, "@w");
+    strcpy(color3, "@c");
+    strcpy(color4, "@y");
 
     // Determine number of attacks and their attack values
-    for (j = 0; j < MAX_OBJ_AFFECT; j++)
-    {
-        if (GET_EQ(ch, WEAR_WIELD1) && (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
+    for (j = 0; j < MAX_OBJ_AFFECT; j++) {
+        if (GET_EQ(ch, WEAR_WIELD1) &&
+            (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) &&
+            GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
             weaponmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
     }
-    for (j = 0; j < MAX_OBJ_AFFECT; j++)
-    {
-        if (GET_EQ(ch, WEAR_WIELD2) && (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
+    for (j = 0; j < MAX_OBJ_AFFECT; j++) {
+        if (GET_EQ(ch, WEAR_WIELD2) &&
+            (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) &&
+            GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
             offhandmod = GET_EQ(ch, WEAR_WIELD2)->affected[j].modifier;
     }
 
@@ -2234,26 +2229,27 @@ ACMD(do_aod_new_score)
     attack = compute_base_hit(ch, weaponmod);
     base_attack = GET_ACCURACY_BASE(ch);
     offhand = compute_base_hit(ch, offhandmod);
-    for (i = 0; i < 4; i++)
-    {
-
+    for (i = 0; i < 4; i++) {
         if (i != 0 && base_attack > 0)
-            sprintf(attack_text, "%s/", attack_text);
-        if (base_attack > 0)
-        {
-            sprintf(attack_text, "%s%s%d", attack_text, (attack > 0) ? "+" : "", attack);
-            if (i == 0 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
-            {
-                sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+            strcat(attack_text, "/");
+        if (base_attack > 0) {
+            char temp_buf[32];
+            sprintf(temp_buf, "%s%d", (attack > 0) ? "+" : "", attack);
+            strcat(attack_text, temp_buf);
+            if (i == 0 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON) {
+                sprintf(temp_buf, "/%s%d", (offhand > 0) ? "+" : "", offhand);
+                strcat(attack_text, temp_buf);
             }
-            if (i == 1 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON && HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING))
-            {
+            if (i == 1 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON &&
+                HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING)) {
                 offhand = compute_base_hit(ch, offhandmod) - 5;
-                sprintf(attack_text, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+                sprintf(temp_buf, "/%s%d", (offhand > 0) ? "+" : "", offhand);
+                strcat(attack_text, temp_buf);
             }
-            if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) && GET_CLASS_RANKS(ch, CLASS_MONK) && !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2)))
-            {
-                sprintf(attack_text, "%s/%s%d", attack_text, (attack > 0) ? "+" : "", attack);
+            if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) && GET_CLASS_RANKS(ch, CLASS_MONK) &&
+                           !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2))) {
+                sprintf(temp_buf, "/%s%d", (attack > 0) ? "+" : "", attack);
+                strcat(attack_text, temp_buf);
             }
         }
         attack -= 5;
@@ -2261,11 +2257,10 @@ ACMD(do_aod_new_score)
     }
 
     // Determine play time
-
     playing_time = *real_time_passed((time(0) - ch->time.logon) + ch->time.played, 0);
     sprintf(play_time, "%d day%s and %d hour%s.",
-            playing_time.day, playing_time.day == 1 ? "" : "s",
-            playing_time.hours, playing_time.hours == 1 ? "" : "s");
+            playing_time.day, (playing_time.day == 1 ? "" : "s"),
+            playing_time.hours, (playing_time.hours == 1 ? "" : "s"));
 
     // Determine exp percent to next level
 
@@ -5628,67 +5623,92 @@ char *get_weapon_dam(struct char_data *ch)
 
 char *get_attack_text(struct char_data *ch)
 {
-    char attack_text[200] = {'\0'};
+    char attack_text[200];
+    size_t len = 0;
     int attack = 0;
     int base_attack = 0;
     int offhand = 0;
     int weaponmod = 0;
     int offhandmod = 0;
-    int i = 0;
-    int j = 0;
+    int i = 0, j = 0;
+
+    attack_text[0] = '\0'; // initialize empty string
 
     // Determine number of attacks and their attack values
     for (j = 0; j < MAX_OBJ_AFFECT; j++)
     {
-        if (GET_EQ(ch, WEAR_WIELD1) && (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
+        if (GET_EQ(ch, WEAR_WIELD1) &&
+            (GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY) &&
+            GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
         {
             weaponmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
         }
     }
     for (j = 0; j < MAX_OBJ_AFFECT; j++)
     {
-        if (GET_EQ(ch, WEAR_WIELD2) && (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
+        if (GET_EQ(ch, WEAR_WIELD2) &&
+            (GET_EQ(ch, WEAR_WIELD2)->affected[j].location == APPLY_ACCURACY) &&
+            GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
         {
             offhandmod = GET_EQ(ch, WEAR_WIELD2)->affected[j].modifier;
         }
-        else if (GET_EQ(ch, WEAR_WIELD1) && IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE) &&
-                 GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
+        else if (GET_EQ(ch, WEAR_WIELD1) &&
+                 IS_SET(weapon_list[GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD1), 0)].weaponFlags, WEAPON_FLAG_DOUBLE) &&
+                 GET_EQ(ch, WEAR_WIELD1)->affected[j].location == APPLY_ACCURACY &&
+                 GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD1)) == ITEM_WEAPON)
         {
             offhandmod = GET_EQ(ch, WEAR_WIELD1)->affected[j].modifier;
         }
     }
 
-    sprintf(attack_text, "(");
+    // start building safely
+    len += snprintf(attack_text + len, sizeof(attack_text) - len, "(");
+
     attack = compute_base_hit(ch, weaponmod);
     base_attack = GET_ACCURACY_BASE(ch);
     offhand = compute_base_hit(ch, offhandmod);
-    for (i = 0; i < 4; i++)
+
+    for (i = 0; i < 4 && len < sizeof(attack_text); i++)
     {
         if (i != 0 && base_attack > 0)
         {
-            snprintf(attack_text, 200, "%s/", attack_text);
+            len += snprintf(attack_text + len, sizeof(attack_text) - len, "/");
         }
         if (base_attack > 0)
         {
-            snprintf(attack_text, 200, "%s%s%d", attack_text, (attack > 0) ? "+" : "", attack);
-            if (i == 0 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
+            len += snprintf(attack_text + len, sizeof(attack_text) - len,
+                            "%s%d", (attack > 0) ? "+" : "", attack);
+
+            if (i == 0 && GET_EQ(ch, WEAR_WIELD2) &&
+                GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON)
             {
-                snprintf(attack_text, 200, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+                len += snprintf(attack_text + len, sizeof(attack_text) - len,
+                                "/%s%d", (offhand > 0) ? "+" : "", offhand);
             }
-            if (i == 1 && GET_EQ(ch, WEAR_WIELD2) && GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON && HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING))
+
+            if (i == 1 && GET_EQ(ch, WEAR_WIELD2) &&
+                GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD2)) == ITEM_WEAPON &&
+                HAS_FEAT(ch, FEAT_IMPROVED_TWO_WEAPON_FIGHTING))
             {
                 offhand = compute_base_hit(ch, offhandmod) - 5;
-                snprintf(attack_text, 200, "%s/%s%d", attack_text, (offhand > 0) ? "+" : "", offhand);
+                len += snprintf(attack_text + len, sizeof(attack_text) - len,
+                                "/%s%d", (offhand > 0) ? "+" : "", offhand);
             }
-            if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) && GET_CLASS_RANKS(ch, CLASS_MONK) && !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2)))
+
+            if (i == 0 && (AFF_FLAGGED(ch, AFF_FLURRY_OF_BLOWS) &&
+                           GET_CLASS_RANKS(ch, CLASS_MONK) &&
+                           !GET_EQ(ch, WEAR_WIELD1) && !GET_EQ(ch, WEAR_WIELD2)))
             {
-                snprintf(attack_text, 200, "%s/%s%d", attack_text, (attack > 0) ? "+" : "", attack);
+                len += snprintf(attack_text + len, sizeof(attack_text) - len,
+                                "/%s%d", (attack > 0) ? "+" : "", attack);
             }
         }
+
         attack -= 5;
         base_attack -= 5;
     }
-    snprintf(attack_text, 200, "%s)", attack_text);
+
+    snprintf(attack_text + len, sizeof(attack_text) - len, ")");
 
     return strdup(attack_text);
 }
@@ -5778,3 +5798,4 @@ ACMD (do_show_combat)
     send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Reflex", ref_class, ability_mod_value(GET_DEX(ch)), ref_feat_mod, ref_magic, ref_misc, get_saving_throw_value(ch, SAVING_REFLEX) );
     send_to_char(ch, "%-9s  [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] + [ %2d ] = [ %2d ]\r\n", "Will", will_class, ability_mod_value(GET_WIS(ch)), will_feat_mod, will_magic, will_misc, get_saving_throw_value(ch, SAVING_WILL) );
 }
+

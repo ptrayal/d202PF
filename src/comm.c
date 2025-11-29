@@ -1712,115 +1712,288 @@ Extra codes:      @l - blink          @o - bold
 */
 const char RANDOM_COLORS[] = "bgcrmywBGCRMWY";
 
-#define NEW_STRING_LENGTH (size_t)(dest_char-save_pos)
+// #define NEW_STRING_LENGTH (size_t)(dest_char-save_pos)
+
+// size_t proc_colors(char *txt, size_t maxlen, int parse, char **choices)
+// {
+//     extern char *default_color_choices[NUM_COLOR];
+//     char *dest_char, *source_char, *color_char, *save_pos, *replacement = NULL;
+//     int i, temp_color;
+//     size_t wanted;
+
+//     if (!txt || (!strchr(txt, '@'))) /* skip out if no color codes     */
+//         return strlen(txt);
+
+//     source_char = txt;
+//     CREATE(dest_char, char, maxlen);
+//     save_pos = dest_char;
+//     for( ; *source_char && (NEW_STRING_LENGTH < maxlen); )
+//     {
+//         /* no color code - just copy */
+//         if (*source_char != '@')
+//         {
+//             *dest_char++ = *source_char++;
+//             continue;
+//         }
+
+//         /* if we get here we have a color code */
+
+//         source_char++; /* source_char now points to the code */
+
+//         /* look for a random color code picks a random number between 1 and 14 */
+//         if (*source_char == 'x')
+//         {
+//             temp_color = (rand() % 14);
+//             *source_char = RANDOM_COLORS[temp_color];
+//         }
+
+//         if (*source_char == '\0')   /* string was terminated with color code - just put it in */
+//         {
+//             *dest_char++ = '@';
+//             /* source_char will now point to '\0' in the for() check */
+//             continue;
+//         }
+
+//         if (!parse)   /* not parsing, just skip the code, unless it's @@ */
+//         {
+//             if (*source_char == '@')
+//             {
+//                 *dest_char++ = '@';
+//             }
+//             if (*source_char == '[')   /* Multi-character code */
+//             {
+//                 source_char++;
+//                 while (*source_char && isdigit(*source_char))
+//                     source_char++;
+//                 if (!*source_char)
+//                     source_char--;
+//             }
+//             source_char++; /* skip to next (non-colorcode) char */
+//             continue;
+//         }
+
+//         /* parse the color code */
+//         if (*source_char == '[')   /* User configurable color */
+//         {
+//             source_char++;
+//             if (*source_char)
+//             {
+//                 i = atoi(source_char);
+//                 if (i < 0 || i >= NUM_COLOR)
+//                     i = COLOR_NORMAL;
+//                 replacement = default_color_choices[i];
+//                 if (choices && choices[i])
+//                     replacement = choices[i];
+//                 while (*source_char && isdigit(*source_char))
+//                     source_char++;
+//                 if (!*source_char)
+//                     source_char--;
+//             }
+//         }
+//         else if (*source_char == 'n')
+//         {
+//             replacement = default_color_choices[COLOR_NORMAL];
+//             if (choices && choices[COLOR_NORMAL])
+//                 replacement = choices[COLOR_NORMAL];
+//         }
+//         else
+//         {
+//             for (i = 0; CCODE[i] != '!'; i++)   /* do we find it ? */
+//             {
+//                 if ((*source_char) == CCODE[i])             /* if so :*/
+//                 {
+//                     replacement = ANSI[i];
+//                     break;
+//                 }
+//             }
+//         }
+//         if (replacement)
+//         {
+//             if ( NEW_STRING_LENGTH + strlen(replacement) + strlen(ANSISTART) + 1 < maxlen)    /* only substitute if there's room for the whole code */
+//             {
+//                 if (isdigit(replacement[0]))
+//                     for(color_char = ANSISTART ; *color_char ; )
+//                         *dest_char++ = *color_char++;
+//                 for(color_char = replacement ; *color_char ; )
+//                     *dest_char++ = *color_char++;
+//                 if (isdigit(replacement[0]))
+//                     *dest_char++ = ANSIEND;
+//             }
+//             replacement = NULL;
+//         }
+//         /* If we couldn't find any correct color code, or we found it and
+//          * substituted above, let's just process the next character.
+//          * - Welcor
+//          */
+//         source_char++;
+
+//     } /* for loop */
+
+//     /* make sure output is NULL - terminated */
+//     *dest_char = '\0';
+
+//     wanted = strlen(source_char); /* see if we wanted more space */
+//     strncpy(txt, save_pos, maxlen - 1);
+//     free(save_pos); /* plug memory leak */
+
+//     return NEW_STRING_LENGTH + wanted;
+// }
+
+// #undef NEW_STRING_LENGTH
+
 size_t proc_colors(char *txt, size_t maxlen, int parse, char **choices)
 {
-  extern char *default_color_choices[NUM_COLOR];
-  char *dest_char, *source_char, *color_char, *save_pos, *replacement = NULL;
-  int i, temp_color;
-  size_t wanted;
+    extern char *default_color_choices[NUM_COLOR];
 
-  if (!txt || (!strchr(txt, '@'))) /* skip out if no color codes     */
-    return strlen(txt);
+    char *dest_char, *source_char, *color_char, *save_pos;
+    const char *replacement = NULL;
+    int i, temp_color;
+    size_t written = 0;
 
-  source_char = txt;
-  CREATE(dest_char, char, maxlen);
-  save_pos = dest_char;
-  for( ; *source_char && (NEW_STRING_LENGTH < maxlen); ) {
-    /* no color code - just copy */
-    if (*source_char != '@') {
-      *dest_char++ = *source_char++;
-      continue;
-    }
+    if (!txt || !strchr(txt, '@'))
+        return strlen(txt);
 
-    /* if we get here we have a color code */
+    source_char = txt;
+    CREATE(dest_char, char, maxlen);
+    save_pos = dest_char;
 
-    source_char++; /* source_char now points to the code */
-
-    /* look for a random color code picks a random number between 1 and 14 */
-    if (*source_char == 'x') {
-      temp_color = (rand() % 14);
-      *source_char = RANDOM_COLORS[temp_color];
-    }
-
-    if (*source_char == '\0') { /* string was terminated with color code - just put it in */
-      *dest_char++ = '@';
-      /* source_char will now point to '\0' in the for() check */
-      continue;
-    }
-
-    if (!parse) { /* not parsing, just skip the code, unless it's @@ */
-      if (*source_char == '@') {
-        *dest_char++ = '@';
-      }
-      if (*source_char == '[') { /* Multi-character code */
-        source_char++;
-        while (*source_char && isdigit(*source_char))
-          source_char++;
-        if (!*source_char)
-          source_char--;
-      }
-      source_char++; /* skip to next (non-colorcode) char */
-      continue;
-    }
-
-    /* parse the color code */
-    if (*source_char == '[') { /* User configurable color */
-      source_char++;
-      if (*source_char) {
-        i = atoi(source_char);
-        if (i < 0 || i >= NUM_COLOR)
-          i = COLOR_NORMAL;
-        replacement = default_color_choices[i];
-        if (choices && choices[i])
-          replacement = choices[i];
-        while (*source_char && isdigit(*source_char))
-          source_char++;
-        if (!*source_char)
-          source_char--;
-      }
-    } else if (*source_char == 'n') {
-        replacement = default_color_choices[COLOR_NORMAL];
-        if (choices && choices[COLOR_NORMAL])
-          replacement = choices[COLOR_NORMAL];
-    } else {
-      for (i = 0; CCODE[i] != '!'; i++) { /* do we find it ? */
-        if ((*source_char) == CCODE[i]) {           /* if so :*/
-          replacement = ANSI[i];
-          break;
+    while (*source_char && written < maxlen - 1)
+    {
+        /* No color code */
+        if (*source_char != '@')
+        {
+            *dest_char++ = *source_char++;
+            written++;
+            continue;
         }
-      }
+
+        /* Found "@", step past it */
+        source_char++;
+
+        /* Handle "@x" random color */
+        if (*source_char == 'x')
+        {
+            temp_color = rand() % 14;
+            *source_char = RANDOM_COLORS[temp_color];
+        }
+
+        if (*source_char == '\0')
+        {
+            /* Ended with a lone @ */
+            *dest_char++ = '@';
+            written++;
+            break;
+        }
+
+        /* Not parsing colors? */
+        if (!parse)
+        {
+            if (*source_char == '@')
+            {
+                *dest_char++ = '@';
+                written++;
+            }
+
+            if (*source_char == '[')
+            {
+                source_char++;
+                while (*source_char && isdigit(*source_char))
+                    source_char++;
+                if (!*source_char)
+                    source_char--;
+            }
+
+            source_char++;
+            continue;
+        }
+
+        /* Parsing color codes */
+        replacement = NULL;
+
+        if (*source_char == '[')
+        {
+            source_char++;
+            i = atoi(source_char);
+            if (i < 0 || i >= NUM_COLOR)
+                i = COLOR_NORMAL;
+
+            replacement = (choices && choices[i]) ?
+                choices[i] : default_color_choices[i];
+
+            while (*source_char && isdigit(*source_char))
+                source_char++;
+
+            if (!*source_char)
+                source_char--;
+
+        }
+        else if (*source_char == 'n')
+        {
+            replacement = (choices && choices[COLOR_NORMAL]) ?
+                choices[COLOR_NORMAL] : default_color_choices[COLOR_NORMAL];
+        }
+        else
+        {
+            for (i = 0; CCODE[i] != '!'; i++)
+            {
+                if (*source_char == CCODE[i])
+                {
+                    replacement = ANSI[i];
+                    break;
+                }
+            }
+        }
+
+        /* Substitute replacement text */
+        if (replacement)
+        {
+            size_t need = strlen(replacement);
+            size_t extra = (isdigit(replacement[0]) ?
+                            (strlen(ANSISTART) + 1) : 0);
+
+            if (written + need + extra < maxlen - 1)
+            {
+                if (isdigit(replacement[0]))
+                {
+                    for (color_char = ANSISTART; *color_char; color_char++)
+                    {
+                        *dest_char++ = *color_char;
+                        written++;
+                    }
+                }
+
+                for (color_char = (char *)replacement; *color_char; color_char++)
+                {
+                    *dest_char++ = *color_char;
+                    written++;
+                }
+
+                if (isdigit(replacement[0]))
+                {
+                    *dest_char++ = ANSIEND;
+                    written++;
+                }
+            }
+        }
+
+        source_char++;
     }
-    if (replacement) {
-      if ( NEW_STRING_LENGTH + strlen(replacement) + strlen(ANSISTART) + 1 < maxlen)  { /* only substitute if there's room for the whole code */
-        if (isdigit(replacement[0]))
-          for(color_char = ANSISTART ; *color_char ; )
-            *dest_char++ = *color_char++;
-        for(color_char = replacement ; *color_char ; )
-          *dest_char++ = *color_char++;
-        if (isdigit(replacement[0]))
-          *dest_char++ = ANSIEND;
-      }
-      replacement = NULL;
-    }
-   /* If we couldn't find any correct color code, or we found it and
-    * substituted above, let's just process the next character.
-    * - Welcor
-    */
-    source_char++;
 
-  } /* for loop */
+    /* Null terminate */
+    *dest_char = '\0';
 
-  /* make sure output is NULL - terminated */
-  *dest_char = '\0';
+    /* Desired leftover */
+    size_t wanted = strlen(source_char);
 
-  wanted = strlen(source_char); /* see if we wanted more space */
-  strncpy(txt, save_pos, maxlen-1);
-  free(save_pos); /* plug memory leak */
+    /* Safe copy (non-overlapping because dest buffer is separate) */
+    strncpy(txt, save_pos, maxlen - 1);
+    txt[maxlen - 1] = '\0';
 
-  return NEW_STRING_LENGTH+wanted;
+    free(save_pos);
+
+    return written + wanted;
 }
-#undef NEW_STRING_LENGTH
+
 
 /* Add a new string to a player's output queue. */
 size_t vwrite_to_output(struct descriptor_data *t, const char *format, va_list args)
@@ -3697,30 +3870,38 @@ int get_new_pref()
     int i;
 
     sprintf(filename, PREF_FILE);
-    if(!(fp = fopen(filename, "r")))
+    if (!(fp = fopen(filename, "r")))
     {
         touch(filename);
-        if(!(fp = fopen(filename, "w")))
+        if (!(fp = fopen(filename, "w")))
         {
-            return (dice(1, 128000));
+            return dice(1, 128000);
         }
-        fprintf(fp, "1\r\n");
+        fprintf(fp, "1\n");
         fclose(fp);
         return 1;
     }
-    fscanf(fp, "%d", &i);
+
+    if (fscanf(fp, "%d", &i) != 1)
+    {
+        // Default if fscanf fails
+        i = 1;
+    }
     fclose(fp);
+
     unlink(filename);
-    if(!(fp = fopen(filename, "w")))
+    if (!(fp = fopen(filename, "w")))
     {
         log("Unable to open p-ref file for writing");
         return i;
     }
-    fprintf(fp, "%d\n", i + 1);
-    fclose(fp);
-    return i;
 
+    fprintf(fp, "%d\r\n", i + 1);
+    fclose(fp);
+
+    return i;
 }
+
 
 static void msdp_update( void )
 {

@@ -1079,4 +1079,3 @@ ACMD(do_petition)
                      "\r\n");
     }
 }
-
