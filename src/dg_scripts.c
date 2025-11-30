@@ -2160,6 +2160,7 @@ ACMD(do_vdelete)
   char *var, *uid_p;
   char buf[MAX_INPUT_LENGTH]={'\0'}, buf2[MAX_INPUT_LENGTH]={'\0'};
   long uid, context;
+  (void)context;
   room_data *room;
   char_data *mob;
   obj_data *obj;
@@ -2274,6 +2275,7 @@ void process_rdelete(struct script_data *sc, trig_data *trig, char *cmd)
   char *line, *var, *uid_p;
   char arg[MAX_INPUT_LENGTH]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'}, buf2[MAX_STRING_LENGTH]={'\0'};
   long uid, context;
+  (void)context;
   room_data *room;
   char_data *mob;
   obj_data *obj;
