@@ -330,8 +330,8 @@ char *complexion_descriptions[] =
 char *current_short_desc(struct char_data *ch) 
 {
   int i = 0;
-  char desc[100]={'\0'};
-  char *tempDesc;
+  char desc[512] = {'\0'};   // safer buffer size
+  size_t written = 0;        // track bytes written
 
   int race = GET_RACE(ch);
   int sex = GET_SEX(ch);
@@ -342,89 +342,93 @@ char *current_short_desc(struct char_data *ch)
 
   if (AFF_FLAGGED(ch, AFF_DISGUISED) && !DISGUISE_SEEN(ch)) 
   {
-      race = GET_DISGUISE_RACE(ch);
-      sex  = GET_DISGUISE_SEX(ch);
-      pcd1 = GET_DISGUISE_DESC_1(ch);
-      pca1 = GET_DISGUISE_ADJ_1(ch);
-      pcd2 = GET_DISGUISE_DESC_2(ch);
-      pca2 = GET_DISGUISE_ADJ_2(ch);
+    race = GET_DISGUISE_RACE(ch);
+    sex  = GET_DISGUISE_SEX(ch);
+    pcd1 = GET_DISGUISE_DESC_1(ch);
+    pca1 = GET_DISGUISE_ADJ_1(ch);
+    pcd2 = GET_DISGUISE_DESC_2(ch);
+    pca2 = GET_DISGUISE_ADJ_2(ch);
   }
 
-  sprintf(desc, "a %s %s", genders[(int) sex], pc_race_types[(int) race]);
+  // Initial description
+  written = snprintf(desc, sizeof(desc), "a %s %s", genders[(int)sex], pc_race_types[(int)race]);
 
+  // --- First descriptor ---
   switch (pcd1) 
   {
-  case FEATURE_TYPE_EYES:
-    sprintf(desc, "%s with %s eyes", desc, eye_descriptions[pca1]);
-    break;
-  case FEATURE_TYPE_NOSE:
-    sprintf(desc, "%s with %s %s nose", desc, AN(nose_descriptions[pca1]), nose_descriptions[pca1]);
-    break;
-  case FEATURE_TYPE_EARS:
-    sprintf(desc, "%s with %s ears", desc, ear_descriptions[pca1]);
-    break;
-  case FEATURE_TYPE_FACE:
-    sprintf(desc, "%s with %s features", desc, face_descriptions[pca1]);
-    break;
-  case FEATURE_TYPE_SCAR:
-    sprintf(desc, "%s with %s", desc, scar_descriptions[pca1]);
-    break;
-  case FEATURE_TYPE_HAIR:
-    sprintf(desc, "%s with %s", desc, hair_descriptions[pca1]);
-    break;
-  case FEATURE_TYPE_BUILD:
-    sprintf(desc, "%s with %s %s frame", desc, AN(build_descriptions[pca1]), build_descriptions[pca1]);
-    break;
-  case FEATURE_TYPE_COMPLEXION:
-    sprintf(desc, "%s with %s %s complexion", desc, AN(complexion_descriptions[pca1]), complexion_descriptions[GET_PC_ADJECTIVE_1(ch)]);
-    break;
+    case FEATURE_TYPE_EYES:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s eyes", eye_descriptions[pca1]);
+      break;
+    case FEATURE_TYPE_NOSE:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s %s nose", AN(nose_descriptions[pca1]), nose_descriptions[pca1]);
+      break;
+    case FEATURE_TYPE_EARS:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s ears", ear_descriptions[pca1]);
+      break;
+    case FEATURE_TYPE_FACE:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s features", face_descriptions[pca1]);
+      break;
+    case FEATURE_TYPE_SCAR:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s", scar_descriptions[pca1]);
+      break;
+    case FEATURE_TYPE_HAIR:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s", hair_descriptions[pca1]);
+      break;
+    case FEATURE_TYPE_BUILD:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s %s frame", AN(build_descriptions[pca1]), build_descriptions[pca1]);
+      break;
+    case FEATURE_TYPE_COMPLEXION:
+      written += snprintf(desc + written, sizeof(desc) - written, " with %s %s complexion", AN(complexion_descriptions[pca1]), complexion_descriptions[pca1]);
+      break;
   }
-  
+
+  // --- Second descriptor ---
   switch (pcd2) 
   {
-  case FEATURE_TYPE_EYES:
-    sprintf(desc, "%s and %s eyes", desc, eye_descriptions[pca2]);
-    break;
-  case FEATURE_TYPE_NOSE:
-    sprintf(desc, "%s and %s %s nose", desc, AN(nose_descriptions[pca2]), nose_descriptions[pca2]);
-    break;
-  case FEATURE_TYPE_EARS:
-    sprintf(desc, "%s and %s ears", desc, ear_descriptions[pca2]);
-    break;
-  case FEATURE_TYPE_FACE:
-    sprintf(desc, "%s and %s features", desc, face_descriptions[pca2]);
-    break;
-  case FEATURE_TYPE_SCAR:
-    sprintf(desc, "%s and %s", desc, scar_descriptions[pca2]);
-    break;
-  case FEATURE_TYPE_HAIR:
-    sprintf(desc, "%s and %s", desc, hair_descriptions[pca2]);
-    break;
-  case FEATURE_TYPE_BUILD:
-    sprintf(desc, "%s and %s %s frame", desc, AN(build_descriptions[pca2]), build_descriptions[pca2]);
-    break;
-  case FEATURE_TYPE_COMPLEXION:
-    sprintf(desc, "%s and %s %s complexion", desc, AN(complexion_descriptions[pca2]), complexion_descriptions[pca2]);
-    break;
-  
+    case FEATURE_TYPE_EYES:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s eyes", eye_descriptions[pca2]);
+      break;
+    case FEATURE_TYPE_NOSE:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s %s nose", AN(nose_descriptions[pca2]), nose_descriptions[pca2]);
+      break;
+    case FEATURE_TYPE_EARS:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s ears", ear_descriptions[pca2]);
+      break;
+    case FEATURE_TYPE_FACE:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s features", face_descriptions[pca2]);
+      break;
+    case FEATURE_TYPE_SCAR:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s", scar_descriptions[pca2]);
+      break;
+    case FEATURE_TYPE_HAIR:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s", hair_descriptions[pca2]);
+      break;
+    case FEATURE_TYPE_BUILD:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s %s frame", AN(build_descriptions[pca2]), build_descriptions[pca2]);
+      break;
+    case FEATURE_TYPE_COMPLEXION:
+      written += snprintf(desc + written, sizeof(desc) - written, " and %s %s complexion", AN(complexion_descriptions[pca2]), complexion_descriptions[pca2]);
+      break;
   }
 
-  if (DISGUISE_SEEN(ch) && GET_DISGUISE_ROLL(ch) > 0) {
-      sprintf(desc, "%s (disguised)", desc);
-  }
+  // --- Disguise indicator ---
+  if (DISGUISE_SEEN(ch) && GET_DISGUISE_ROLL(ch) > 0)
+    written += snprintf(desc + written, sizeof(desc) - written, " (disguised)");
 
-  for (i = 0; i < strlen(desc); i++)
-    desc[i] = tolower(desc[i]);
+  // Lowercase conversion
+  for (i = 0; i < (int)strlen(desc); i++)
+    desc[i] = (char)tolower((unsigned char)desc[i]);
 
+  // Adjust for non-humanoids
   if (!IS_HUMANOID_RACE(race)) {
-    tempDesc = strdup(desc);
+    char *tempDesc = strdup(desc);
     replace_string(tempDesc, "hair", "fur");
     return tempDesc;
   }
-  
-  return strdup(desc);
 
+  return strdup(desc);
 }
+
 
 void short_desc_descriptors_menu(struct char_data *ch) 
 {
@@ -446,102 +450,109 @@ void short_desc_descriptors_menu(struct char_data *ch)
 
 void short_desc_adjectives_menu(struct char_data *ch, int which_desc) 
 {
-  char buf[100]={'\0'};
+  char buf[256] = {'\0'};  // bigger, safer buffer
   int i = 0;
+  int written = 0;         // track bytes written
 
   SEND_TO_Q("Please choose an adjective to describe the descriptor you just chose.\r\n\r\n", ch->desc);
-
 
   switch (which_desc) 
   {
     case FEATURE_TYPE_EYES:
-    while (i < NUM_EYE_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s ", i, eye_descriptions[i]);
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
+      while (i < NUM_EYE_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, eye_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
+
     case FEATURE_TYPE_NOSE:
-    while (i < NUM_NOSE_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s ", i, nose_descriptions[i]);
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
+      while (i < NUM_NOSE_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, nose_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
+
     case FEATURE_TYPE_EARS:
-    while (i < NUM_EAR_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s n", i, ear_descriptions[i]);
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
-    case FEATURE_TYPE_FACE:      
-    while (i < NUM_FACE_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s ", i, face_descriptions[i]);
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
-    case FEATURE_TYPE_SCAR:      
-    while (i < NUM_SCAR_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s ", i, scar_descriptions[i]);
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
-    case FEATURE_TYPE_HAIR:      
-    while (i < NUM_HAIR_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s ", i, hair_descriptions[i]);
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
-    case FEATURE_TYPE_BUILD:     
-    while (i < NUM_BUILD_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s ", i, build_descriptions[i]); 
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
+      while (i < NUM_EAR_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, ear_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
+
+    case FEATURE_TYPE_FACE:
+      while (i < NUM_FACE_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, face_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
+
+    case FEATURE_TYPE_SCAR:
+      while (i < NUM_SCAR_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, scar_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
+
+    case FEATURE_TYPE_HAIR:
+      while (i < NUM_HAIR_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, hair_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
+
+    case FEATURE_TYPE_BUILD:
+      while (i < NUM_BUILD_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, build_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
+
     case FEATURE_TYPE_COMPLEXION:
-    while (i < NUM_COMPLEXION_DESCRIPTORS) 
-    {
-      sprintf(buf, "%d) %-30s ", i, complexion_descriptions[i]);
-      if (i % 2 == 1)
-        sprintf(buf, "%s\r\n", buf);
-      SEND_TO_Q(buf, ch->desc);
-      i++;
-    }
-    break;
+      while (i < NUM_COMPLEXION_DESCRIPTORS) 
+      {
+        written = snprintf(buf, sizeof(buf), "%d) %-30s ", i, complexion_descriptions[i]);
+        if (i % 2 == 1)
+          snprintf(buf + written, sizeof(buf) - written, "\r\n");
+        SEND_TO_Q(buf, ch->desc);
+        i++;
+      }
+      break;
   }
-  
+
   if (i % 2 == 0)
-    SEND_TO_Q("\r\n", ch->desc); 
+    SEND_TO_Q("\r\n", ch->desc);
 
   SEND_TO_Q("\r\n", ch->desc);
-
 }
+
 
 
 int count_adjective_types(int which_desc) 
