@@ -467,103 +467,128 @@ const char compress_offer[] =
 
 
 /* Reload players after a copyover */
-void copyover_recover()
+void copyover_recover(void)
 {
-  struct descriptor_data *d;
-  FILE *fp;
-  char host[1024];
-  int desc, player_i;
-  bool fOld;
-  char name[MAX_INPUT_LENGTH];
-  int saved_loadroom = NOWHERE;
-  int set_loadroom = NOWHERE;
-	
-  log ("Copyover recovery initiated");
-  fp = fopen (COPYOVER_FILE, "r");
-	
-  if (!fp) {
-    log ("%s:  copyover_recover:fopen", strerror(errno));
-    log ("Copyover file not found. Exitting.\n\r");
-    exit (1);
-  }
+    struct descriptor_data *d;
+    FILE *fp;
+    char host[1024];
+    int desc = 0, player_i = -1;
+    bool fOld = false;
+    char name[MAX_INPUT_LENGTH];
+    int saved_loadroom = NOWHERE;
+    int set_loadroom = NOWHERE;
 
-  unlink (COPYOVER_FILE); /* In case it crashes - doesn't prevent reading */ 
-  for (;;) {
-    int itrash = 0;
-    fOld = true;
-    itrash = fscanf (fp, "%d %s %s %d\n", &desc, name, host, &saved_loadroom);
-    if (desc == -1)
-      break;
+    log("Copyover recovery initiated");
+    fp = fopen(COPYOVER_FILE, "r");
 
-    /* Write something, and check if it goes error-free */		
-    if (write_to_descriptor (desc, "\n\rHot Reboot initiated...\n\r", NULL) < 0) {
-      close (desc); /* nope */
-      continue;
+    if (!fp)
+    {
+        log("%s: copyover_recover:fopen", strerror(errno));
+        log("Copyover file not found. Exiting.\n\r");
+        exit(1);
     }
-		
-    /* create a new descriptor */
-    CREATE (d, struct descriptor_data, 1);
-    memset ((char *) d, 0, sizeof (struct descriptor_data));
-    init_descriptor (d,desc); /* set up various stuff */
-		
-    strcpy(d->host, host);
-    d->next = descriptor_list;
-    descriptor_list = d;
 
-    d->connected = CON_CLOSE;
-	
-    /* Now, find the pfile */
-		
-    CREATE(d->character, struct char_data, 1);
-    clear_char(d->character);
-    CREATE(d->character->player_specials, struct player_special_data, 1);
-    d->character->desc = d;
+    unlink(COPYOVER_FILE); /* In case it crashes - doesn't prevent reading */
 
-    if ((player_i = load_char(name, d->character)) >= 0) {
-      GET_PFILEPOS(d->character) = player_i;
-      if (!PLR_FLAGGED(d->character, PLR_DELETED)) {
-        REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_WRITING);
-        REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_MAILING);
-        REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_CRYO);
-        GET_LOADROOM(d->character) = GET_TEMP_LOADROOM(d->character);
-      }
-      else
-        fOld = false;
-      }
-      else
-        fOld = false;
-		
-     if (!fOld) /* Player file not found?! */ {
-       write_to_descriptor (desc, "\n\rSomehow, your character was lost during the hot reboot.  Please mail Gicker if you have problems.\n\r", NULL);
-       close_socket (d);			
-     } else {
-       write_to_descriptor (desc, "\n\rHot Reboot complete.  You may now reform your groups and continue playing.\n\r", NULL);
-       if (d->character) {
-         add_llog_entry(d->character, LAST_CONNECT);
-         if (d->character->boot_time) {
-           boot_time = d->character->boot_time;
-           d->character->boot_time = 0;
-           save_char(d->character);
-         }
-       }
+    for (;;)
+    {
+        fOld = true;
+        if (fscanf(fp, "%d %s %s %d\n", &desc, name, host, &saved_loadroom) != 4)
+            break;
+
+        if (desc == -1)
+            break;
+
+        /* Write something, and check if it goes error-free */
+        if (write_to_descriptor(desc, "\n\rHot Reboot initiated...\n\r", NULL) < 0)
+        {
+            close(desc);
+            continue;
+        }
+
+        /* create a new descriptor */
+        CREATE(d, struct descriptor_data, 1);
+        memset(d, 0, sizeof(struct descriptor_data));
+        init_descriptor(d, desc);
+
+        strlcpy(d->host, host, sizeof(d->host)); /* safer than strcpy */
+        d->next = descriptor_list;
+        descriptor_list = d;
+
+        d->connected = CON_CLOSE;
+
+        /* Now, find the pfile */
+        CREATE(d->character, struct char_data, 1);
+        clear_char(d->character);
+        CREATE(d->character->player_specials, struct player_special_data, 1);
+        d->character->desc = d;
+
+        player_i = load_char(name, d->character);
+        if (player_i >= 0)
+        {
+            GET_PFILEPOS(d->character) = player_i;
+            if (!PLR_FLAGGED(d->character, PLR_DELETED))
+            {
+                REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_WRITING);
+                REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_MAILING);
+                REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_CRYO);
+                GET_LOADROOM(d->character) = GET_TEMP_LOADROOM(d->character);
+            }
+            else
+                fOld = false;
+        }
+        else
+            fOld = false;
+
+        if (!fOld)
+        {
+            write_to_descriptor(desc,
+                "\n\rSomehow, your character was lost during the hot reboot. "
+                "Please mail Gicker if you have problems.\n\r",
+                NULL);
+            close_socket(d);
+        }
+        else
+        {
+            write_to_descriptor(desc,
+                "\n\rHot Reboot complete. You may now reform your groups and continue playing.\n\r",
+                NULL);
+
+            if (d->character)
+            {
+                add_llog_entry(d->character, LAST_CONNECT);
+
+                if (d->character->boot_time)
+                {
+                    boot_time = d->character->boot_time;
+                    d->character->boot_time = 0;
+                    save_char(d->character);
+                }
+            }
+
 #ifdef HAVE_ZLIB_H
-       if (CONFIG_ENABLE_COMPRESSION && !PRF_FLAGGED(d->character, PRF_NOCOMPRESS)) {
-         d->comp->state = 1; /* indicates waiting for comp negotiation */
-         write_to_output(d, "%s", compress_offer);
-       }
+            if (CONFIG_ENABLE_COMPRESSION && !PRF_FLAGGED(d->character, PRF_NOCOMPRESS))
+            {
+                if (d->comp)
+                {
+                    d->comp->state = 1; /* waiting for compression negotiation */
+                    write_to_output(d, "%s", compress_offer);
+                }
+            }
 #endif /* HAVE_ZLIB_H */
-       set_loadroom = GET_LOADROOM(d->character);
-         GET_LOADROOM(d->character) = saved_loadroom;
-       d->copyover = 1;
-       enter_player_game(d);
-       GET_LOADROOM(d->character) = set_loadroom;
-       d->connected = CON_PLAYING;
-       look_at_room(IN_ROOM(d->character), d->character, 0);
 
-     }
-  }
-  fclose (fp);
+            set_loadroom = GET_LOADROOM(d->character);
+            GET_LOADROOM(d->character) = saved_loadroom;
+            d->copyover = 1;
+            enter_player_game(d);
+            GET_LOADROOM(d->character) = set_loadroom;
+            d->connected = CON_PLAYING;
+            look_at_room(IN_ROOM(d->character), d->character, 0);
+        }
+    }
+    fclose(fp);
 }
+
 
 /* Init sockets, run game, and cleanup sockets */
  void init_game(ush_int port)
@@ -3903,7 +3928,7 @@ int get_new_pref()
 }
 
 
-static void msdp_update( void )
+static void msdp_update(void)
 {
     struct descriptor_data *d;
     int PlayerCount = 0;
@@ -3914,168 +3939,149 @@ static void msdp_update( void )
     for (d = descriptor_list; d; d = d->next)
     {
         struct char_data *ch = d->character;
-        if ( ch && !IS_NPC(ch) && d->connected == CON_PLAYING )
+        if (ch && !IS_NPC(ch) && d->connected == CON_PLAYING)
         {
             struct char_data *pOpponent = FIGHTING(ch);
             ++PlayerCount;
 
-            MSDPSetString( d, eMSDP_CHARACTER_NAME, GET_NAME(ch) );
-            MSDPSetNumber( d, eMSDP_ALIGNMENT, GET_ALIGNMENT(ch) );
+            MSDPSetString(d, eMSDP_CHARACTER_NAME, GET_NAME(ch));
+            MSDPSetNumber(d, eMSDP_ALIGNMENT, GET_ALIGNMENT(ch));
 
-            float xp = 0;
-            float percent = 0;
+            float xp = 0.0f;
             int int_xp = 0;
-            int int_percent = 0;
-            struct char_data *ch = d->character;
+            struct char_data *ch_ref = d->character; /* prevent shadow warning */
 
-            xp = (((float) GET_EXP(ch)) - ((float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch)))) /
-            (((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)) -
-              (float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch))));
+            float exp_current = (float)GET_EXP(ch_ref);
+            float exp_level = (float)level_exp(GET_CLASS_LEVEL(ch_ref), GET_REAL_RACE(ch_ref));
+            float exp_next = (float)level_exp(GET_CLASS_LEVEL(ch_ref) + 1, GET_REAL_RACE(ch_ref));
 
-            xp *= (float) 1000.0;
-            percent = (int) xp % 10;
-            xp /= (float) 10;
-            int_xp = MAX(0, (int) xp);
-            int_percent = MAX(0, MIN((int) percent, 99));
+            xp = (exp_current - exp_level) / (exp_next - exp_level);
+            xp *= 100.0f; /* simpler scaling since percent was unused */
+            int_xp = MAX(0, (int)xp);
 
-            MSDPSetNumber( d, eMSDP_EXPERIENCE, int_xp);
+            MSDPSetNumber(d, eMSDP_EXPERIENCE, int_xp);
 
-            MSDPSetNumber( d, eMSDP_HEALTH, GET_HIT(ch) );
-            MSDPSetNumber( d, eMSDP_HEALTH_MAX, GET_MAX_HIT(ch) );
+            MSDPSetNumber(d, eMSDP_HEALTH, GET_HIT(ch));
+            MSDPSetNumber(d, eMSDP_HEALTH_MAX, GET_MAX_HIT(ch));
+            MSDPSetNumber(d, eMSDP_LEVEL, GET_LEVEL(ch));
+            MSDPSetString(d, eMSDP_CLASS, class_desc_str(ch, 1, 0));
 
-            MSDPSetNumber( d, eMSDP_LEVEL, GET_LEVEL(ch) );
+            MSDPSetNumber(d, eMSDP_CAMPAIGN, CONFIG_CAMPAIGN);
+            MSDPSetNumber(d, eMSDP_MANA, GET_MANA(ch));
+            MSDPSetNumber(d, eMSDP_MANA_MAX, GET_MAX_MANA(ch));
+            MSDPSetNumber(d, eMSDP_WIMPY, GET_WIMP_LEV(ch));
+            MSDPSetNumber(d, eMSDP_MONEY, GET_GOLD(ch));
+            MSDPSetNumber(d, eMSDP_BANK, GET_BANK_GOLD(ch));
+            MSDPSetNumber(d, eMSDP_MOVEMENT, GET_MOVE(ch));
+            MSDPSetNumber(d, eMSDP_MOVEMENT_MAX, GET_MAX_MOVE(ch));
+            MSDPSetNumber(d, eMSDP_AC, compute_armor_class(ch, NULL) / 10);
+            MSDPSetNumber(d, eMSDP_FORT, get_saving_throw_value(ch, SAVING_FORTITUDE));
+            MSDPSetNumber(d, eMSDP_WILL, get_saving_throw_value(ch, SAVING_WILL));
+            MSDPSetNumber(d, eMSDP_STR, GET_STR(ch));
+            MSDPSetNumber(d, eMSDP_DEX, GET_DEX(ch));
+            MSDPSetNumber(d, eMSDP_CON, GET_CON(ch));
+            MSDPSetNumber(d, eMSDP_INT, GET_INT(ch));
+            MSDPSetNumber(d, eMSDP_WIS, GET_WIS(ch));
+            MSDPSetNumber(d, eMSDP_CHA, GET_CHA(ch));
+            MSDPSetNumber(d, eMSDP_STR_PERM, ability_mod_value(GET_STR(ch)));
+            MSDPSetNumber(d, eMSDP_DEX_PERM, ability_mod_value(GET_DEX(ch)));
+            MSDPSetNumber(d, eMSDP_CON_PERM, ability_mod_value(GET_CON(ch)));
+            MSDPSetNumber(d, eMSDP_INT_PERM, ability_mod_value(GET_INT(ch)));
+            MSDPSetNumber(d, eMSDP_WIS_PERM, ability_mod_value(GET_WIS(ch)));
+            MSDPSetNumber(d, eMSDP_CHA_PERM, ability_mod_value(GET_CHA(ch)));
 
-            MSDPSetString( d, eMSDP_CLASS, class_desc_str(ch, 1, 0));
+            MSDPSetNumber(d, eMSDP_NOHEAL, get_innate_timer(ch, SPELL_SKILL_HEAL_USED));
+            MSDPSetNumber(d, eMSDP_NOCAMP, get_innate_timer(ch, SPELL_SKILL_CAMP_USED));
 
-            MSDPSetNumber( d, eMSDP_CAMPAIGN, CONFIG_CAMPAIGN );
-            MSDPSetNumber( d, eMSDP_MANA, GET_MANA(ch) );
-            MSDPSetNumber( d, eMSDP_MANA_MAX, GET_MAX_MANA(ch) );
-            MSDPSetNumber( d, eMSDP_WIMPY, GET_WIMP_LEV(ch) );
-            MSDPSetNumber( d, eMSDP_MONEY, GET_GOLD(ch) );
-            MSDPSetNumber( d, eMSDP_BANK, GET_BANK_GOLD(ch) );
-            MSDPSetNumber( d, eMSDP_MOVEMENT, GET_MOVE(ch) );
-            MSDPSetNumber( d, eMSDP_MOVEMENT_MAX, GET_MAX_MOVE(ch) );
-            MSDPSetNumber( d, eMSDP_AC, compute_armor_class(ch, NULL) / 10 );
-            MSDPSetNumber( d, eMSDP_FORT, get_saving_throw_value(ch, SAVING_FORTITUDE)  );
-            MSDPSetNumber( d, eMSDP_WILL, get_saving_throw_value(ch, SAVING_WILL) );
-            MSDPSetNumber( d, eMSDP_STR, GET_STR(ch));
-            MSDPSetNumber( d, eMSDP_DEX, GET_DEX(ch));
-            MSDPSetNumber( d, eMSDP_CON, GET_CON(ch));
-            MSDPSetNumber( d, eMSDP_INT, GET_INT(ch));
-            MSDPSetNumber( d, eMSDP_WIS, GET_WIS(ch));
-            MSDPSetNumber( d, eMSDP_CHA, GET_CHA(ch));
-            MSDPSetNumber( d, eMSDP_STR_PERM, ability_mod_value(GET_STR(ch)));
-            MSDPSetNumber( d, eMSDP_DEX_PERM, ability_mod_value(GET_DEX(ch)));
-            MSDPSetNumber( d, eMSDP_CON_PERM, ability_mod_value(GET_CON(ch)));
-            MSDPSetNumber( d, eMSDP_INT_PERM, ability_mod_value(GET_INT(ch)));
-            MSDPSetNumber( d, eMSDP_WIS_PERM, ability_mod_value(GET_WIS(ch)));
-            MSDPSetNumber( d, eMSDP_CHA_PERM, ability_mod_value(GET_CHA(ch)));
+            MSDPSetString(d, eMSDP_HITROLL, get_attack_text(ch));
+            MSDPSetString(d, eMSDP_DAMROLL, get_weapon_dam(ch));
 
-
-            //      if (get_innate_timer(ch, SPELL_SKILL_HEAL_USED) > 0)
-            MSDPSetNumber( d, eMSDP_NOHEAL, get_innate_timer(ch, SPELL_SKILL_HEAL_USED));
-            //      if (get_innate_timer(ch, SPELL_SKILL_CAMP_USED) > 0)
-            MSDPSetNumber( d, eMSDP_NOCAMP, get_innate_timer(ch, SPELL_SKILL_CAMP_USED));
-
-            MSDPSetString( d, eMSDP_HITROLL, get_attack_text(ch));
-            MSDPSetString( d, eMSDP_DAMROLL, get_weapon_dam(ch));
-
-            //      MSDPSetString( d, eMSDP_ROOM_MAP, WorldMap(25, 4, 0, 1));
-
-            // Groups
             gcnt = 0;
             for (tch = character_list; tch; tch = tch->next)
             {
                 if (is_player_grouped(ch, tch))
                 {
                     gcnt++;
-                    xp = (((float) GET_EXP(tch)) - ((float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch)))) /
-                    (((float) level_exp((GET_CLASS_LEVEL(tch) + 1), GET_REAL_RACE(tch)) -
-                      (float) level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch))));
+                    float exp_cur = (float)GET_EXP(tch);
+                    float exp_lvl = (float)level_exp(GET_CLASS_LEVEL(tch), GET_REAL_RACE(tch));
+                    float exp_nxt = (float)level_exp(GET_CLASS_LEVEL(tch) + 1, GET_REAL_RACE(tch));
+                    xp = (exp_cur - exp_lvl) / (exp_nxt - exp_lvl);
+                    xp *= 100.0f;
+                    int_xp = MAX(0, (int)xp);
 
-                    xp *= (float) 1000.0;
-                    percent = (int) xp % 10;
-                    xp /= (float) 10;
-                    int_xp = MAX(0, (int) xp);
                     if (gcnt == 1)
                     {
-                        MSDPSetString( d, eMSDP_GROUP1_NAME, GET_NAME(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP1_CUR_HP, GET_HIT(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP1_MAX_HP, calculate_max_hit(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP1_CUR_MV, GET_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP1_MAX_MV, GET_MAX_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP1_TNL, int_xp);
+                        MSDPSetString(d, eMSDP_GROUP1_NAME, GET_NAME(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP1_CUR_HP, GET_HIT(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP1_MAX_HP, calculate_max_hit(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP1_CUR_MV, GET_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP1_MAX_MV, GET_MAX_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP1_TNL, int_xp);
                     }
                     if (gcnt == 2)
                     {
-                        MSDPSetString( d, eMSDP_GROUP2_NAME, GET_NAME(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP2_CUR_HP, GET_HIT(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP2_MAX_HP, calculate_max_hit(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP2_CUR_MV, GET_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP2_MAX_MV, GET_MAX_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP2_TNL, int_xp);
+                        MSDPSetString(d, eMSDP_GROUP2_NAME, GET_NAME(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP2_CUR_HP, GET_HIT(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP2_MAX_HP, calculate_max_hit(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP2_CUR_MV, GET_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP2_MAX_MV, GET_MAX_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP2_TNL, int_xp);
                     }
                     if (gcnt == 3)
                     {
-                        MSDPSetString( d, eMSDP_GROUP3_NAME, GET_NAME(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP3_CUR_HP, GET_HIT(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP3_MAX_HP, calculate_max_hit(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP3_CUR_MV, GET_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP3_MAX_MV, GET_MAX_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP3_TNL, int_xp);
+                        MSDPSetString(d, eMSDP_GROUP3_NAME, GET_NAME(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP3_CUR_HP, GET_HIT(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP3_MAX_HP, calculate_max_hit(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP3_CUR_MV, GET_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP3_MAX_MV, GET_MAX_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP3_TNL, int_xp);
                     }
                     if (gcnt == 4)
                     {
-                        MSDPSetString( d, eMSDP_GROUP4_NAME, GET_NAME(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP4_CUR_HP, GET_HIT(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP4_MAX_HP, calculate_max_hit(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP4_CUR_MV, GET_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP4_MAX_MV, GET_MAX_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP4_TNL, int_xp);
+                        MSDPSetString(d, eMSDP_GROUP4_NAME, GET_NAME(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP4_CUR_HP, GET_HIT(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP4_MAX_HP, calculate_max_hit(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP4_CUR_MV, GET_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP4_MAX_MV, GET_MAX_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP4_TNL, int_xp);
                     }
                     if (gcnt == 5)
                     {
-                        MSDPSetString( d, eMSDP_GROUP5_NAME, GET_NAME(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP5_CUR_HP, GET_HIT(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP5_MAX_HP, calculate_max_hit(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP5_CUR_MV, GET_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP5_MAX_MV, GET_MAX_MOVE(tch));
-                        MSDPSetNumber( d, eMSDP_GROUP5_TNL, int_xp);
+                        MSDPSetString(d, eMSDP_GROUP5_NAME, GET_NAME(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP5_CUR_HP, GET_HIT(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP5_MAX_HP, calculate_max_hit(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP5_CUR_MV, GET_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP5_MAX_MV, GET_MAX_MOVE(tch));
+                        MSDPSetNumber(d, eMSDP_GROUP5_TNL, int_xp);
                     }
                 }
             }
 
-            // Map exits
             sprintf(exits, "%s%s%s%s%s%s%s%s",
                     CAN_GO(ch, NORTH) ? "north" : "", CAN_GO(ch, NORTH) ? "O\002" : "",
-                    CAN_GO(ch, EAST)  ? "east"  : "", CAN_GO(ch, EAST)  ? "O\002" : "",
-                    CAN_GO(ch, WEST)  ? "west"  : "", CAN_GO(ch, WEST)  ? "O\002" : "",
+                    CAN_GO(ch, EAST) ? "east" : "", CAN_GO(ch, EAST) ? "O\002" : "",
+                    CAN_GO(ch, WEST) ? "west" : "", CAN_GO(ch, WEST) ? "O\002" : "",
                     CAN_GO(ch, SOUTH) ? "south" : "", CAN_GO(ch, SOUTH) ? "O\002" : "");
-            MSDPSetString( d, eMSDP_ROOM_EXITS, exits);
+            MSDPSetString(d, eMSDP_ROOM_EXITS, exits);
 
-            /* This would be better moved elsewhere */
-            if ( pOpponent != NULL )
+            if (pOpponent != NULL)
             {
                 int hit_points = (GET_HIT(pOpponent) * 100) / GET_MAX_HIT(pOpponent);
-                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, hit_points );
-                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH_MAX, 100 );
-                MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, GET_LEVEL(pOpponent) );
-                MSDPSetString( d, eMSDP_OPPONENT_NAME, PERS(pOpponent, ch) );
+                MSDPSetNumber(d, eMSDP_OPPONENT_HEALTH, hit_points);
+                MSDPSetNumber(d, eMSDP_OPPONENT_HEALTH_MAX, 100);
+                MSDPSetNumber(d, eMSDP_OPPONENT_LEVEL, GET_LEVEL(pOpponent));
+                MSDPSetString(d, eMSDP_OPPONENT_NAME, PERS(pOpponent, ch));
             }
-            else /* Clear the values */
+            else
             {
-                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, 0 );
-                MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, 0 );
-                MSDPSetString( d, eMSDP_OPPONENT_NAME, "" );
+                MSDPSetNumber(d, eMSDP_OPPONENT_HEALTH, 0);
+                MSDPSetNumber(d, eMSDP_OPPONENT_LEVEL, 0);
+                MSDPSetString(d, eMSDP_OPPONENT_NAME, "");
             }
 
-            MSDPUpdate( d );
+            MSDPUpdate(d);
         }
-
-        /* Ideally this should be called once at startup, and again whenever
-         * someone leaves or joins the mud.  But this works, and it keeps the
-         * snippet simple.  Optimise as you see fit.
-         */
-        MSSPSetPlayers( PlayerCount );
+        MSSPSetPlayers(PlayerCount);
     }
 }
+
