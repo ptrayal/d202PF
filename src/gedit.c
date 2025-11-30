@@ -77,45 +77,52 @@ void gedit_save_to_disk(int num)
 
 ACMD(do_oasis_gedit)
 {
-  int number = NOWHERE, save = 0;
-  guild_rnum real_num;
-  struct descriptor_data *d;
-  char *buf3;
-  char buf1[MAX_INPUT_LENGTH]={'\0'};
-  char buf2[MAX_INPUT_LENGTH]={'\0'};
-  
-  /****************************************************************************/
-  /** Parse any arguments.                                                   **/
-  /****************************************************************************/
-  buf3 = two_arguments(argument, buf1, buf2);
-  
-  if (!*buf1) {
-    send_to_char(ch, "Specify a guild VNUM to edit.\r\n");
-    return;
-  } else if (!isdigit(*buf1)) {
-    if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
-      return;
+    int number = NOWHERE, save = 0;
+    guild_rnum real_num;
+    struct descriptor_data *d;
+    char *buf3;
+    char buf1[MAX_INPUT_LENGTH] = {'\0'};
+    char buf2[MAX_INPUT_LENGTH] = {'\0'};
+
+    /****************************************************************************/
+    /** Parse any arguments.                                                   **/
+    /****************************************************************************/
+    buf3 = two_arguments(argument, buf1, buf2);
+    (void)buf3;   /* explicitly unused */
+
+    if (!*buf1)
+    {
+        send_to_char(ch, "Specify a guild VNUM to edit.\r\n");
+        return;
     }
-    
-    save = TRUE;
-    
-    if (is_number(buf2))
-      number = atoi(buf2);
-    else if (GET_OLC_ZONE(ch) > 0) {
-      zone_rnum zlok;
-      
-      if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
-        number = NOWHERE;
-      else
-        number = genolc_zone_bottom(zlok);
+    else if (!isdigit(*buf1))
+    {
+        if (str_cmp("save", buf1) != 0)
+        {
+            send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+            return;
+        }
+
+        save = TRUE;
+
+        if (is_number(buf2))
+            number = atoi(buf2);
+        else if (GET_OLC_ZONE(ch) > 0)
+        {
+            zone_rnum zlok;
+
+            if ((zlok = real_zone(GET_OLC_ZONE(ch))) == NOWHERE)
+                number = NOWHERE;
+            else
+                number = genolc_zone_bottom(zlok);
+        }
+
+        if (number == NOWHERE)
+        {
+            send_to_char(ch, "Save which zone?\r\n");
+            return;
+        }
     }
-    
-    if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
-      return;
-    }
-  }
   
   /****************************************************************************/
   /** If a numeric argument was given, get it.                               **/

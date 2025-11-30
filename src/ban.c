@@ -194,7 +194,7 @@ ACMD(do_ban)
     }
 
     CREATE(ban_node, struct ban_list_element, 1);
-    strncpy(ban_node->site, site, BANNED_SITE_LENGTH);  /* strncpy: OK (b_n->site:BANNED_SITE_LENGTH+1) */
+    snprintf(ban_node->site, sizeof(ban_node->site), "%s", site);
     for (nextchar = ban_node->site; *nextchar; nextchar++)
     {
         *nextchar = LOWER(*nextchar);
