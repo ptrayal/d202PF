@@ -1669,9 +1669,8 @@ ACMD(do_gen_tog)
 
 ACMD(do_file)
 {
-    FILE *req_file;
-    int cur_line = 0, num_lines = 0, req_lines = 0, i = 0, j = 0;
-    int l = 0;
+    FILE *req_file = NULL;
+    int cur_line = 0, num_lines = 0, req_lines = 0, i = 0, j = 0, l = 0;
     char field[MAX_INPUT_LENGTH] = {'\0'}, value[MAX_INPUT_LENGTH] = {'\0'}, line[READ_SIZE] = {'\0'};
     char buf[MAX_STRING_LENGTH] = {'\0'};
 
@@ -1682,10 +1681,10 @@ ACMD(do_file)
     } fields[] = {
         { "none",           ADMLVL_GOD,    "Does Nothing" },
         { "bug",            ADMLVL_GOD,    "../lib/misc/bugs"},
-        { "typo",           ADMLVL_GOD,   "../lib/misc/typos"},
-        { "news",           ADMLVL_GOD,   "../lib/misc/news"},
+        { "typo",           ADMLVL_GOD,    "../lib/misc/typos"},
+        { "news",           ADMLVL_GOD,    "../lib/misc/news"},
         { "ideas",          ADMLVL_GOD,    "../lib/misc/ideas"},
-        { "xnames",         ADMLVL_GOD,     "../lib/misc/xnames"},
+        { "xnames",         ADMLVL_GOD,    "../lib/misc/xnames"},
         { "levels",         ADMLVL_GOD,    "../log/levels" },
         { "rip",            ADMLVL_GOD,    "../log/rip" },
         { "players",        ADMLVL_GOD,    "../log/newplayers" },
@@ -1699,8 +1698,8 @@ ACMD(do_file)
 
     skip_spaces(&argument);
 
-    if (!*argument && subcmd != SCMD_NEWS)
-    {
+    /* Show usage if no argument and not viewing news */
+    if (!*argument && subcmd != SCMD_NEWS) {
         strcpy(buf, "USAGE: file <option> <num lines>\r\n\r\nFile options:\r\n");
         for (j = 0, i = 1; fields[i].level; i++)
             if (fields[i].level <= GET_LEVEL(ch))
@@ -1709,89 +1708,80 @@ ACMD(do_file)
         return;
     }
 
-    if (subcmd != SCMD_NEWS)
-    {
-
+    /* Handle file lookup logic */
+    if (subcmd != SCMD_NEWS) {
         two_arguments(argument, field, value);
 
-        for (l = 0; * (fields[l].cmd) != '\n'; l++)
+        for (l = 0; *(fields[l].cmd) != '\n'; l++)
             if (!strncmp(field, fields[l].cmd, strlen(field)))
                 break;
 
-        if(*(fields[l].cmd) == '\n')
-        {
+        if (*(fields[l].cmd) == '\n') {
             send_to_char(ch, "That is not a valid option!\r\n");
             return;
         }
 
-        if (GET_ADMLEVEL(ch) < fields[l].level)
-        {
+        if (GET_ADMLEVEL(ch) < fields[l].level) {
             send_to_char(ch, "You are not godly enough to view that file!\r\n");
             return;
         }
 
-        if(!*value)
-            req_lines = 30; /* default is the last 30 lines */
-        else
-            req_lines = atoi(value);
-
-    }
-    else
-    {
+        req_lines = (*value) ? atoi(value) : 30; /* default 30 */
+    } else {
         one_argument(argument, value);
-
-        l = 3;
-
+        l = 3; /* news is always at index 3 */
         send_to_char(ch, "\r\n@W%s News@n\r\n@Y-----------@n\r\n", MUD_NAME);
-
-        if(!*value)
-            req_lines = 30; /* default is the last 30 lines */
-        else
-            req_lines = atoi(value);
+        req_lines = (*value) ? atoi(value) : 30;
     }
 
-    if (!(req_file = fopen(fields[l].file, "r")) && subcmd != SCMD_NEWS)
-    {
-        mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
-        fclose(req_file);
-        return;
-    }
-    else if (!(req_file = fopen("../lib/misc/news", "r")))
-    {
-        mudlog(BRF, ADMLVL_IMPL, true, "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
-        fclose(req_file);
-        return;
+    /* Open file safely */
+    if (subcmd != SCMD_NEWS) {
+        req_file = fopen(fields[l].file, "r");
+        if (!req_file) {
+            mudlog(BRF, ADMLVL_IMPL, true,
+                   "SYSERR: Error opening file %s using 'file' command.", fields[l].file);
+            return;
+        }
+    } else {
+        req_file = fopen("../lib/misc/news", "r");
+        if (!req_file) {
+            mudlog(BRF, ADMLVL_IMPL, true,
+                   "SYSERR: Error opening news file using 'file' command.");
+            return;
+        }
     }
 
-    get_line(req_file, line);
-    while (!feof(req_file))
-    {
+    /* Count total lines */
+    num_lines = 0;
+    while (get_line(req_file, line))
         num_lines++;
-        get_line(req_file, line);
-    }
     rewind(req_file);
 
     req_lines = MIN(MIN(req_lines, num_lines), 150);
 
     buf[0] = '\0';
+    cur_line = 0;
 
-    get_line(req_file, line);
-    while (!feof(req_file))
-    {
+    /* Collect last req_lines */
+    while (get_line(req_file, line)) {
         cur_line++;
-        if(cur_line > (num_lines - req_lines))
-            sprintf(buf + strlen(buf), "%s\r\n", line);
-
-        get_line(req_file, line);
+        if (cur_line > (num_lines - req_lines)) {
+            size_t remaining = sizeof(buf) - strlen(buf) - 3;
+            if (remaining > 0)
+                strncat(buf, line, remaining);
+            strncat(buf, "\r\n", remaining);
+        }
     }
-    fclose(req_file);
 
+    fclose(req_file);
     page_string(ch->desc, buf, 1);
+
     if (subcmd == SCMD_NEWS)
         send_to_char(ch, "\r\n@WTo view more than 30 lines type news <# of lines to view>.@n\r\n\r\n");
 
-      UNUSED(j);
+    UNUSED(j);
 }
+
 
 ACMD(do_compare)
 {
@@ -3251,174 +3241,236 @@ ACMD(do_skillcheck)
 
 ACMD(do_devote)
 {
-    char arg[200]={'\0'};
-    char arg2[200]={'\0'};
-    char arg3[200]={'\0'};
-    char buf2[200]={'\0'};
-    int i=0, j=0;
+    char arg[200] = {'\0'};
+    char arg2[200] = {'\0'};
+    char arg3[200] = {'\0'};
+    char buf2[200] = {'\0'};
+    int i = 0, j = 0;
 
     one_argument(two_arguments(argument, arg, arg2), arg3);
 
-    if (!*arg) 
-    {
-        send_to_char(ch, "What deity do you wish to devote yourself to?\r\n");
-        send_to_char(ch, "   ('devote info <deity>' for details, 'devote list' for a list, \r\n");
-        send_to_char(ch, "   'devote search' to search or 'devote none' for none, case sensative)\r\n");
+    /* No argument */
+    if (!*arg) {
+        send_to_char(ch,
+            "What deity do you wish to devote yourself to?\r\n"
+            "   ('devote info <deity>' for details, 'devote list' for a list,\r\n"
+            "   'devote search' to search or 'devote none' for none, case sensitive)\r\n");
         return;
     }
 
-    for (i = 0; i < NUM_DEITIES; i++) 
-    {
+    /* Selecting a deity */
+    for (i = 0; i < NUM_DEITIES; i++) {
         skip_spaces(&argument);
-        if (is_abbrev(argument, deity_list[i].name) && deity_list[i].pantheon != DEITY_PANTHEON_NONE) 
+
+        if (is_abbrev(argument, deity_list[i].name) &&
+            deity_list[i].pantheon != DEITY_PANTHEON_NONE)
         {
-            if (GET_DEITY(ch) == i) 
-            {
+            if (GET_DEITY(ch) == i) {
                 send_to_char(ch, "You are already devoted to that deity.\r\n");
                 return;
             }
-            if (deity_list[i].pantheon != DetermineCampaign())
-            {
+
+            if (deity_list[i].pantheon != DetermineCampaign()) {
                 send_to_char(ch, "That is not a valid deity.\r\n");
                 return;
             }
-            if (GET_DEITY(ch) != 0) 
-            {
-                send_to_char(ch, "You have already selected the deity %s.  If you would like to change this you will need staff assistance.  See HELP PETITION.\r\n",
+
+            if (GET_DEITY(ch) != 0) {
+                send_to_char(ch,
+                    "You have already selected the deity %s. If you would like to "
+                    "change this you will need staff assistance. See HELP PETITION.\r\n",
                     deity_list[GET_DEITY(ch)].name);
                 return;
             }
 
+            /* Update religion counters */
             num_religion_members[GET_DEITY(ch)]--;
-            num_religion_members[GET_DEITY(ch)] = MAX(0, num_religion_members[GET_DEITY(ch)]);            
+            num_religion_members[GET_DEITY(ch)] =
+                MAX(0, num_religion_members[GET_DEITY(ch)]);
             num_religion_members[i]++;
+
             GET_DEITY(ch) = i;
-            send_to_char(ch, "You have devoted yourself to the church of %s.\r\n", deity_list[i].name);
+            send_to_char(ch,
+                "You have devoted yourself to the church of %s.\r\n",
+                deity_list[i].name);
             return;
         }
     }
 
-    if (!strcmp(arg, "list")) 
-    {
-        if (!*arg2) 
-        {
-            send_to_char(ch, "Which pantheon would you like to list? (good|neutral|evil|lawful|chaotic|all)\r\n");
+    /* Listing deities */
+    if (!strcmp(arg, "list")) {
+
+        if (!*arg2) {
+            send_to_char(ch,
+                "Which pantheon would you like to list? "
+                "(good|neutral|evil|lawful|chaotic|all)\r\n");
             return;
         }
 
-        send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
+        send_to_char(ch,
+            "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n",
+            CampaignWorld[CONFIG_CAMPAIGN]);
 
-        for (i = 0; i < NUM_DEITIES; i++) 
-        {
-            if ((!strcmp(arg2, "good") && deity_list[i].alignment < 500) || 
-                (!strcmp(arg2, "neutral") && (deity_list[i].alignment != 0 && deity_list[i].ethos != 0)) ||
-                (!strcmp(arg2, "evil") && deity_list[i].alignment  > -500) ||
-                (!strcmp(arg2, "lawful") && deity_list[i].ethos < 500) ||
-                (!strcmp(arg2, "chaotic") && deity_list[i].ethos > -500))
+        for (i = 0; i < NUM_DEITIES; i++) {
+
+            /* Filter by alignment/ethos */
+            if ((!strcmp(arg2, "good")     && deity_list[i].alignment < 500) ||
+                (!strcmp(arg2, "neutral")  && deity_list[i].alignment != 0 &&
+                                             deity_list[i].ethos != 0) ||
+                (!strcmp(arg2, "evil")     && deity_list[i].alignment > -500) ||
+                (!strcmp(arg2, "lawful")   && deity_list[i].ethos < 500) ||
+                (!strcmp(arg2, "chaotic")  && deity_list[i].ethos > -500))
                 continue;
 
-            if (deity_list[i].pantheon == DetermineCampaign()) 
-            {
-                send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
+            if (deity_list[i].pantheon == DetermineCampaign()) {
+
+                /* Header */
+                send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",
+                    deity_list[i].name,
+                    GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment),
                     weapon_list[deity_list[i].favored_weapon].name);
-                sprintf(buf2, "@n");
-                sprintf(buf2, "Domains: ");
-                for (j = 0; j < 6; j++) 
-                {
-                    if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
-                    {
-                        if (j > 0)
-                        {
-                            sprintf(buf2, "%s, ", buf2);
+
+                /* Domains */
+                snprintf(buf2, sizeof(buf2), "Domains: ");
+                size_t len = strlen(buf2);
+
+                for (j = 0; j < 6; j++) {
+                    if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) {
+
+                        if (len < sizeof(buf2) - 1) {
+                            size_t rem = sizeof(buf2) - len;
+
+                            snprintf(buf2 + len, rem, "%s%s",
+                                (len > 9 ? ", " : ""),  /* after "Domains: " */
+                                domain_names[deity_list[i].domains[j]]);
+                            len = strlen(buf2);
                         }
-                        sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                     }
                 }
-                send_to_char(ch, "%-50s", buf2);
-                send_to_char(ch, "\r\nPortfolio: %s\r\n", deity_list[i].portfolio);
-                send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
+
+                send_to_char(ch, "%s\r\n", buf2);
+
+                /* Portfolio */
+                send_to_char(ch, "Portfolio: %s\r\n", deity_list[i].portfolio);
+                send_to_char(ch,
+                    "@W----------------------------------------------------------------------@n\r\n");
             }
         }
         return;
     }
 
-    if (!strcmp(arg, "search")) 
-    {
-        if (!*arg2) 
-        {
-            send_to_char(ch, "What is the search type you wish to use?\r\n");
-            send_to_char(ch, "Syntax is @Ydevote search <name|alignment|weapon|domain|portfolio> <keyword>@n.\r\n");
+    /* Searching */
+    if (!strcmp(arg, "search")) {
+
+        if (!*arg2) {
+            send_to_char(ch,
+                "What is the search type you wish to use?\r\n"
+                "Syntax is @Ydevote search <name|alignment|weapon|domain|portfolio> <keyword>@n.\r\n");
             return;
         }
 
-        if (!*arg3) 
-        {
-            send_to_char(ch, "What is the search keyword you wish to use?\r\n");
-            send_to_char(ch, "Syntax is @Ydevote search <name|alignment|weapon|domain|portfolio> <keyword>@n.\r\n");
+        if (!*arg3) {
+            send_to_char(ch,
+                "What is the search keyword you wish to use?\r\n"
+                "Syntax is @Ydevote search <name|alignment|weapon|domain|portfolio> <keyword>@n.\r\n");
             return;
         }
 
-        send_to_char(ch, "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n", CampaignWorld[CONFIG_CAMPAIGN]);
+        send_to_char(ch,
+            "Deities of %s\r\n~~~~~~~~~~~~~~~~\r\n",
+            CampaignWorld[CONFIG_CAMPAIGN]);
 
-        for (i = 0; i < NUM_DEITIES; i++) 
-        {
-            if ((!strcmp(arg2, "name") && !strstr(deity_list[i].name, CAP(arg3))) ||
-                (!strcmp(arg2, "alignment") && !strstr(GET_ALIGN_STRING(deity_list[i].ethos, deity_list[i].alignment), CAP(arg3))) ||
-                (!strcmp(arg2, "weapon") && !strstr(weapon_list[deity_list[i].favored_weapon].name, arg3)) ||
-                (!strcmp(arg2, "domain") && !strstr(domain_names[deity_list[i].domains[0]], CAP(arg3)) && 
-                    !strstr(domain_names[deity_list[i].domains[1]], CAP(arg3)) && !strstr(domain_names[deity_list[i].domains[2]], CAP(arg3)) && 
-                    !strstr(domain_names[deity_list[i].domains[3]], CAP(arg3)) && !strstr(domain_names[deity_list[i].domains[4]], CAP(arg3)) && 
-                    !strstr(domain_names[deity_list[i].domains[5]], CAP(arg3))) ||
-                (!strcmp(arg2, "portfolio") && !strstr(deity_list[i].portfolio, CAP(arg3)) && !strstr(deity_list[i].portfolio, arg3)))
-                continue;
+        for (i = 0; i < NUM_DEITIES; i++) {
 
-            if (deity_list[i].pantheon == DetermineCampaign()) 
+            /* Search matching */
+            if ((!strcmp(arg2, "name") &&
+                 !strstr(deity_list[i].name, CAP(arg3))) ||
+
+                (!strcmp(arg2, "alignment") &&
+                 !strstr(GET_ALIGN_STRING(deity_list[i].ethos,
+                                          deity_list[i].alignment),
+                         CAP(arg3))) ||
+
+                (!strcmp(arg2, "weapon") &&
+                 !strstr(weapon_list[deity_list[i].favored_weapon].name,
+                         arg3)) ||
+
+                (!strcmp(arg2, "domain") &&
+                 !strstr(domain_names[deity_list[i].domains[0]], CAP(arg3)) &&
+                 !strstr(domain_names[deity_list[i].domains[1]], CAP(arg3)) &&
+                 !strstr(domain_names[deity_list[i].domains[2]], CAP(arg3)) &&
+                 !strstr(domain_names[deity_list[i].domains[3]], CAP(arg3)) &&
+                 !strstr(domain_names[deity_list[i].domains[4]], CAP(arg3)) &&
+                 !strstr(domain_names[deity_list[i].domains[5]], CAP(arg3))) ||
+
+                (!strcmp(arg2, "portfolio") &&
+                 !strstr(deity_list[i].portfolio, CAP(arg3)) &&
+                 !strstr(deity_list[i].portfolio, arg3)))
             {
-                send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",  deity_list[i].name, GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment), 
+                continue;
+            }
+
+            if (deity_list[i].pantheon == DetermineCampaign()) {
+
+                /* Header */
+                send_to_char(ch, "@Y%s@n (%s)\r\nFavored Weapon: %s\r\n",
+                    deity_list[i].name,
+                    GET_ALIGN_ABBREV(deity_list[i].ethos, deity_list[i].alignment),
                     weapon_list[deity_list[i].favored_weapon].name);
-                sprintf(buf2, "@n");
-                sprintf(buf2, "Domains: ");
-                for (j = 0; j < 6; j++) 
-                {
-                    if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) 
-                    {
-                        if (j > 0)
-                        {
-                            sprintf(buf2, "%s, ", buf2);
+
+                /* Domains */
+                snprintf(buf2, sizeof(buf2), "Domains: ");
+                size_t len = strlen(buf2);
+
+                for (j = 0; j < 6; j++) {
+                    if (deity_list[i].domains[j] != DOMAIN_UNDEFINED) {
+
+                        if (len < sizeof(buf2) - 1) {
+                            size_t rem = sizeof(buf2) - len;
+
+                            snprintf(buf2 + len, rem, "%s%s",
+                                (len > 9 ? ", " : ""),
+                                domain_names[deity_list[i].domains[j]]);
+                            len = strlen(buf2);
                         }
-                        sprintf(buf2, "%s%s", buf2, domain_names[deity_list[i].domains[j]]);
                     }
                 }
-                send_to_char(ch, "%-50s", buf2);
-                send_to_char(ch, "\r\nPortfolio: %s\r\n", deity_list[i].portfolio);
-                send_to_char(ch, "@W----------------------------------------------------------------------@n\r\n");
+
+                send_to_char(ch, "%s\r\n", buf2);
+
+                /* Portfolio */
+                send_to_char(ch, "Portfolio: %s\r\n", deity_list[i].portfolio);
+                send_to_char(ch,
+                    "@W----------------------------------------------------------------------@n\r\n");
             }
         }
         return;
     }
 
-    if (!strcmp(arg, "info")) 
-    {
-        if (!*arg2) 
-        {
-            send_to_char(ch, "Which deity would you like to know more about?  Please capitalize the name for proper results.\r\n");
+    /* Info on specific deity */
+    if (!strcmp(arg, "info")) {
+
+        if (!*arg2) {
+            send_to_char(ch,
+                "Which deity would you like to know more about? "
+                "Please capitalize the name for proper results.\r\n");
             return;
         }
 
-        for (i = 0; i < NUM_DEITIES; i++) 
-        {
-            if (!strcmp(CAP(arg2), deity_list[i].name)) 
-            {
+        for (i = 0; i < NUM_DEITIES; i++) {
+            if (!strcmp(CAP(arg2), deity_list[i].name)) {
                 send_to_char(ch, "\r\n%s\r\n", deity_list[i].description);
                 return;
             }
         }
     }
 
-    send_to_char(ch, "That deity does not exist in this world. (or is not yet implemented)\r\n");
-    return;
-
+    /* Default fall-through */
+    send_to_char(ch,
+        "That deity does not exist in this world. "
+        "(or is not yet implemented)\r\n");
 }
+
 
 ACMD(do_domain)
 {
@@ -4645,61 +4697,71 @@ ACMD(do_setcamp)
 
 ACMD(do_lfg)
 {
+    char arg[100] = {'\0'};
+    struct char_data *i = NULL, *next_char = NULL;
 
-  char arg[100]={'\0'};
-  struct char_data *i = NULL, *next_char = NULL;
+    one_argument(argument, arg);
 
-  one_argument(argument, arg);
+    skip_spaces(&argument);
 
-  skip_spaces(&argument);
+    if (!*arg)
+    {
 
-  if (!*arg) {
-
-    send_to_char(ch, "\r\nPlayers Looking for a Group.\r\n"
+        send_to_char(ch, "\r\nPlayers Looking for a Group.\r\n"
                      "~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n"
                      "\r\n"
                      "%-20s %-5s %-5s %-7s %s\r\n",
                      "Player Name", "Level", "Align", "Race", "Classes");
 
-    for (i = character_list; i; i = next_char) {
-      next_char = i->next;
+        for (i = character_list; i; i = next_char)
+        {
+            next_char = i->next;
 
-      if (IS_NPC(ch) || !i->desc)
-        continue;
+            if (IS_NPC(ch) || !i->desc)
+                continue;
 
-      if (PRF_FLAGGED(i, PRF_LFG)) {
-        send_to_char(ch, "%-20s %-5d %-5s %-7s %s\r\n", GET_NAME(i), GET_LEVEL(i),
-        GET_ALIGN_ABBREV(GET_ETHOS(i), GET_ALIGN(i)),
-        race_list[GET_RACE(i)].abbrev,
-        class_desc_str(i, 1, 0));
-        if (GET_LFG_STRING(i) != NULL)
-          send_to_char(ch, "  %s\r\n", GET_LFG_STRING(i));
-      }
+            if (PRF_FLAGGED(i, PRF_LFG))
+            {
+                send_to_char(ch, "%-20s %-5d %-5s %-7s %s\r\n", GET_NAME(i), GET_LEVEL(i),
+                             GET_ALIGN_ABBREV(GET_ETHOS(i), GET_ALIGN(i)),
+                             race_list[GET_RACE(i)].abbrev,
+                             class_desc_str(i, 1, 0));
+                if (GET_LFG_STRING(i) != NULL)
+                    send_to_char(ch, "  %s\r\n", GET_LFG_STRING(i));
+            }
+        }
     }
-  }
-  else if (strlen(argument) > 60) {
-    send_to_char(ch, "Your lfg string must be 60 characters or less.\r\n");
-    return;
-  }
-  else if (!strcmp(arg, "set")) {
-	if (!PRF_FLAGGED(ch, PRF_LFG)) {
-		send_to_char(ch, "You will now be listed as looking for group.\r\n");
-		SET_BIT_AR(PRF_FLAGS(ch), PRF_LFG);
-	}
-	else {
-		send_to_char(ch, "You will no longer be listed as looking for group.\r\n");
-		REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LFG);
-                GET_LFG_STRING(ch) = NULL;
-	}
-  }
-  else {
-    sprintf(argument, "%s@n", argument);
+    else if (strlen(argument) > 60)
+    {
+        send_to_char(ch, "Your lfg string must be 60 characters or less.\r\n");
+        return;
+    }
+    else if (!strcmp(arg, "set"))
+    {
+        if (!PRF_FLAGGED(ch, PRF_LFG))
+        {
+            send_to_char(ch, "You will now be listed as looking for group.\r\n");
+            SET_BIT_AR(PRF_FLAGS(ch), PRF_LFG);
+        }
+        else
+        {
+            send_to_char(ch, "You will no longer be listed as looking for group.\r\n");
+            REMOVE_BIT_AR(PRF_FLAGS(ch), PRF_LFG);
+            GET_LFG_STRING(ch) = NULL;
+        }
+    }
+    else
+    {
+        char tmp[128];
+        snprintf(tmp, sizeof(tmp), "%s@n", argument);
 
-    GET_LFG_STRING(ch) = strdup(argument);
- 
-    send_to_char(ch, "Your looking for group string is now:\r\n"
-                     "  %s\r\n", argument);
-  }
+        free(GET_LFG_STRING(ch)); // optional but recommended
+        GET_LFG_STRING(ch) = strdup(tmp);
+
+        send_to_char(ch, "Your looking for group string is now:\r\n"
+                     "  %s\r\n", tmp);
+    }
+
 }
 
 ACMD(do_favoredenemy) 
@@ -4743,39 +4805,44 @@ ACMD(do_favoredenemy)
 
 ACMD(do_disguise)
 {
-    char arg[20]={'\0'}, arg2[20]={'\0'}, arg3[20]={'\0'}, buf[MAX_STRING_LENGTH]={'\0'};
+    char arg[20] = {'\0'}, arg2[20] = {'\0'}, arg3[20] = {'\0'}, buf[MAX_STRING_LENGTH] = {'\0'};
 
     one_argument(two_arguments(argument, arg, arg2), arg3);
     int mod = 0, i = 0, choice = 0;
 
-    if (!*arg) {
+    if (!*arg)
+    {
         send_to_char(ch, "You need to state whether this is desc1 or desc2, or if you are finishing or removing your disguise. (desc1|desc2|finish|remove)\r\n");
         return;
     }
 
-    if (strlen(arg) > 20) {
+    if (strlen(arg) > 20)
+    {
         send_to_char(ch, "The first argument must be 20 characters or less.\r\n");
         return;
     }
 
-    if (!strcmp(arg, "remove")) {
-      GET_DISGUISE_SEX(ch) = 0;
-      GET_DISGUISE_DESC_1(ch) = 0;
-      GET_DISGUISE_ADJ_1(ch) = 0;
-      GET_DISGUISE_DESC_2(ch) = 0;
-      GET_DISGUISE_ADJ_2(ch) = 0;
-      if (!AFF_FLAGGED(ch, AFF_WILD_SHAPE)) {
-          GET_DISGUISE_RACE(ch) = 0;
-          REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_DISGUISED);
-      }
-      send_to_char(ch, "You remove your disguise.\r\n");
-      act("$n removes $s disguise.", true, ch, 0, 0, TO_ROOM);
-      return;
+    if (!strcmp(arg, "remove"))
+    {
+        GET_DISGUISE_SEX(ch) = 0;
+        GET_DISGUISE_DESC_1(ch) = 0;
+        GET_DISGUISE_ADJ_1(ch) = 0;
+        GET_DISGUISE_DESC_2(ch) = 0;
+        GET_DISGUISE_ADJ_2(ch) = 0;
+        if (!AFF_FLAGGED(ch, AFF_WILD_SHAPE))
+        {
+            GET_DISGUISE_RACE(ch) = 0;
+            REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_DISGUISED);
+        }
+        send_to_char(ch, "You remove your disguise.\r\n");
+        act("$n removes $s disguise.", true, ch, 0, 0, TO_ROOM);
+        return;
     }
 
-    if (!strcmp(arg, "finish")) {
+    if (!strcmp(arg, "finish"))
+    {
         if (GET_DISGUISE_SEX(ch) == 0 && GET_DISGUISE_DESC_1(ch) == 0 && GET_DISGUISE_ADJ_1(ch) == 0 &&
-            GET_DISGUISE_DESC_2(ch) == 0 && GET_DISGUISE_ADJ_2(ch) == 0 && GET_DISGUISE_RACE(ch) == 0)
+                GET_DISGUISE_DESC_2(ch) == 0 && GET_DISGUISE_ADJ_2(ch) == 0 && GET_DISGUISE_RACE(ch) == 0)
             mod += 5;
         if (GET_DISGUISE_SEX(ch) != 0)
             mod -= 2;
@@ -4789,46 +4856,55 @@ ACMD(do_disguise)
         send_to_char(ch, "You put on a disguise.\r\n");
         act("$n puts on a disguise.", true, ch, 0, 0, TO_ROOM);
         SET_BIT_AR(AFF_FLAGS(ch), AFF_DISGUISED);
-				char *tmpdesc;
+        char *tmpdesc;
         send_to_char(ch, "Your disguise looks like: %s", tmpdesc = which_desc(ch));
-				free(tmpdesc);
+        free(tmpdesc);
         act("The disguise looks like: $n.", true, ch, 0, 0, TO_ROOM);
         return;
     }
 
-    if (!*arg2) {
+    if (!*arg2)
+    {
         send_to_char(ch, "You need to state what part of your disguise you want to set.  Enter list for options.\r\n");
         return;
     }
 
-    if (strlen(arg2) > 20) {
+    if (strlen(arg2) > 20)
+    {
         send_to_char(ch, "The second argument must be 20 characters or less.\r\n");
         return;
     }
 
-    if (!*arg3) {
+    if (!*arg3)
+    {
         send_to_char(ch, "You need to state what you want to set that part of the disguise to.  Enter list for options.\r\n");
         return;
     }
 
-    if (strlen(arg3) > 20) {
+    if (strlen(arg3) > 20)
+    {
         send_to_char(ch, "The third argument must be 20 characters or less.\r\n");
         return;
     }
 
-    if (!strcmp(arg2, "list")) {
+    if (!strcmp(arg2, "list"))
+    {
         send_to_char(ch, "Possible choices are: (race|sex|eyes|nose|ears|face|scar|hair|build|complexion)\r\n");
         return;
     }
 
-    if (!strcmp(arg2, "race")) {
-        if (AFF_FLAGGED(ch, AFF_WILD_SHAPE)) {
+    if (!strcmp(arg2, "race"))
+    {
+        if (AFF_FLAGGED(ch, AFF_WILD_SHAPE))
+        {
             send_to_char(ch, "You cannot disguise your race while wild shaped.\r\n");
             return;
         }
-        if (!strcmp(arg3, "list")) {
+        if (!strcmp(arg3, "list"))
+        {
             send_to_char(ch, "Possible choices are:\r\n");
-            for (i=0; i < NUM_RACES; i++) {
+            for (i = 0; i < NUM_RACES; i++)
+            {
                 if (!race_list[i].is_pc || race_list[i].size != get_size(ch))
                     continue;
                 sprintf(buf, "%d) %-30s ", i, race_list[i].name);
@@ -4843,14 +4919,16 @@ ACMD(do_disguise)
         }
         choice = atoi(arg3);
 
-        for (i=0; i < NUM_RACES; i++) {
+        for (i = 0; i < NUM_RACES; i++)
+        {
             if (!race_list[i].is_pc || race_list[i].size != get_size(ch))
                 continue;
             if (choice == i)
                 break;
         }
 
-        if (i < 1 || i > NUM_RACES) {
+        if (i < 1 || i > NUM_RACES)
+        {
             send_to_char(ch, "That is an invalid race choice.  Please use list to see what is available.\r\n");
             return;
         }
@@ -4859,16 +4937,21 @@ ACMD(do_disguise)
         send_to_char(ch, "You have set your disguise race to %s.  This will incur a -2 to your final check. Type disguise finish to enable.\r\n", race_list[i].name);
         return;
     }
-    else if (!strcmp(arg2, "sex")) {
+    else if (!strcmp(arg2, "sex"))
+    {
 
 
     }
 
-    if (!strcmp(arg, "desc1")) {
-        if (!strcmp(arg2, "eyes")) {
-            if (!strcmp(arg3, "list")) {
+    if (!strcmp(arg, "desc1"))
+    {
+        if (!strcmp(arg2, "eyes"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_EYE_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_EYE_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, eye_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -4881,12 +4964,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_EYE_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_EYE_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_EYE_DESCRIPTORS) {
+            if (i < 1 || i > NUM_EYE_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid eye choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -4896,10 +4981,13 @@ ACMD(do_disguise)
             send_to_char(ch, "You have set your disguise eyes to %s.  Type disguise finish to enable.\r\n", eye_descriptions[i]);
             return;
         }
-        else if (!strcmp(arg2, "nose")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "nose"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_NOSE_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_NOSE_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, nose_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -4912,12 +5000,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_NOSE_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_NOSE_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_NOSE_DESCRIPTORS) {
+            if (i < 1 || i > NUM_NOSE_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid nose choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -4928,10 +5018,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "ears")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "ears"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_EAR_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_EAR_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, ear_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -4944,12 +5037,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_EAR_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_EAR_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_EAR_DESCRIPTORS) {
+            if (i < 1 || i > NUM_EAR_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid ear choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -4960,10 +5055,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "face")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "face"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_FACE_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_FACE_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, face_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -4976,12 +5074,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_FACE_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_FACE_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_FACE_DESCRIPTORS) {
+            if (i < 1 || i > NUM_FACE_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid face choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -4992,10 +5092,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "scar")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "scar"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_SCAR_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_SCAR_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, scar_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5008,12 +5111,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_SCAR_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_SCAR_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_SCAR_DESCRIPTORS) {
+            if (i < 1 || i > NUM_SCAR_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid scar choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5024,10 +5129,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "hair")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "hair"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_HAIR_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_HAIR_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, hair_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5040,12 +5148,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_HAIR_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_HAIR_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_HAIR_DESCRIPTORS) {
+            if (i < 1 || i > NUM_HAIR_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid hair choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5056,10 +5166,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "build")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "build"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_BUILD_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_BUILD_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, build_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5072,12 +5185,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_BUILD_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_BUILD_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_BUILD_DESCRIPTORS) {
+            if (i < 1 || i > NUM_BUILD_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid build choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5088,10 +5203,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "complexion")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "complexion"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_COMPLEXION_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_COMPLEXION_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, complexion_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5104,12 +5222,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_COMPLEXION_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_COMPLEXION_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_COMPLEXION_DESCRIPTORS) {
+            if (i < 1 || i > NUM_COMPLEXION_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid complexion choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5120,17 +5240,22 @@ ACMD(do_disguise)
             return;
 
         }
-        else {
+        else
+        {
             send_to_char(ch, "Invalid choice. (race|sex|eyes|nose|ears|face|scar|hair|build|complexion)\r\n");
             return;
         }
 
     }
-    else if (!strcmp(arg, "desc2")) {
-        if (!strcmp(arg2, "eyes")) {
-            if (!strcmp(arg3, "list")) {
+    else if (!strcmp(arg, "desc2"))
+    {
+        if (!strcmp(arg2, "eyes"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_EYE_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_EYE_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, eye_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5143,12 +5268,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_EYE_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_EYE_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_EYE_DESCRIPTORS) {
+            if (i < 1 || i > NUM_EYE_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid eye choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5158,10 +5285,13 @@ ACMD(do_disguise)
             send_to_char(ch, "You have set your disguise eyes to %s.  Type disguise finish to enable.\r\n", eye_descriptions[i]);
             return;
         }
-        else if (!strcmp(arg2, "nose")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "nose"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_NOSE_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_NOSE_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, nose_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5174,12 +5304,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_NOSE_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_NOSE_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_NOSE_DESCRIPTORS) {
+            if (i < 1 || i > NUM_NOSE_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid nose choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5190,10 +5322,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "ears")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "ears"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_EAR_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_EAR_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, ear_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5206,12 +5341,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_EAR_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_EAR_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_EAR_DESCRIPTORS) {
+            if (i < 1 || i > NUM_EAR_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid ear choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5222,10 +5359,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "face")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "face"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_FACE_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_FACE_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, face_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5238,12 +5378,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_FACE_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_FACE_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_FACE_DESCRIPTORS) {
+            if (i < 1 || i > NUM_FACE_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid face choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5254,10 +5396,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "scar")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "scar"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_SCAR_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_SCAR_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, scar_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5270,12 +5415,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_SCAR_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_SCAR_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_SCAR_DESCRIPTORS) {
+            if (i < 1 || i > NUM_SCAR_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid scar choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5286,10 +5433,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "hair")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "hair"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_HAIR_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_HAIR_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, hair_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5302,12 +5452,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_HAIR_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_HAIR_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_HAIR_DESCRIPTORS) {
+            if (i < 1 || i > NUM_HAIR_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid hair choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5318,10 +5470,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "build")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "build"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_BUILD_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_BUILD_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, build_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5334,12 +5489,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_BUILD_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_BUILD_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_BUILD_DESCRIPTORS) {
+            if (i < 1 || i > NUM_BUILD_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid build choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5350,10 +5507,13 @@ ACMD(do_disguise)
             return;
 
         }
-        else if (!strcmp(arg2, "complexion")) {
-            if (!strcmp(arg3, "list")) {
+        else if (!strcmp(arg2, "complexion"))
+        {
+            if (!strcmp(arg3, "list"))
+            {
                 send_to_char(ch, "Possible choices are:\r\n");
-                for (i=0; i < NUM_COMPLEXION_DESCRIPTORS; i++) {
+                for (i = 0; i < NUM_COMPLEXION_DESCRIPTORS; i++)
+                {
                     sprintf(buf, "%d) %-30s ", i, complexion_descriptions[i]);
                     if (i % 2 == 1)
                         sprintf(buf, "%s\r\n", buf);
@@ -5366,12 +5526,14 @@ ACMD(do_disguise)
             }
             choice = atoi(arg3);
 
-            for (i=0; i < NUM_COMPLEXION_DESCRIPTORS; i++) {
+            for (i = 0; i < NUM_COMPLEXION_DESCRIPTORS; i++)
+            {
                 if (choice == i)
                     break;
             }
 
-            if (i < 1 || i > NUM_COMPLEXION_DESCRIPTORS) {
+            if (i < 1 || i > NUM_COMPLEXION_DESCRIPTORS)
+            {
                 send_to_char(ch, "That is an invalid complexion choice.  Please use list to see what is available.\r\n");
                 return;
             }
@@ -5382,7 +5544,8 @@ ACMD(do_disguise)
             return;
 
         }
-        else {
+        else
+        {
             send_to_char(ch, "Invalid choice. (race|sex|eyes|nose|ears|face|scar|hair|build|complexion)\r\n");
             return;
         }
@@ -5390,11 +5553,12 @@ ACMD(do_disguise)
     }
 
     send_to_char(ch, "You need to state whether this is desc1 or desc2, or if you are finishing or removing your disguise. (desc1|desc2|finish|remove)\r\n");
-    
+
     return;
 }
 
-struct wild_shape_mods {
+struct wild_shape_mods 
+{
   byte strength;
   byte constitution;
   byte dexterity;
