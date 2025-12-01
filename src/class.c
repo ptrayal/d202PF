@@ -1680,7 +1680,12 @@ const char *config_sect[] =
 #define CONFIG_LEVEL_BASEHIT	6
 char level_version[READ_SIZE];
 int level_vernum = 0;
-int save_classes[SAVING_WILL][NUM_CLASSES];
+
+// int save_classes[SAVING_WILL][NUM_CLASSES];
+#define NUM_SAVES (SAVING_WILL + 1)
+int save_classes[NUM_SAVES][NUM_CLASSES];
+
+
 int basehit_classes[NUM_CLASSES];
 extern int exp_multiplier;
 byte object_saving_throws(int material_type, int type)
@@ -3392,17 +3397,36 @@ int epic_level_feats[][7] =
  * each class every time they gain a level.
  */
 
-void advance_level(struct char_data *ch, int whichclass) {
+void advance_level(struct char_data *ch, int whichclass) 
+{
 	do_advance_level(ch, whichclass, TRUE);
 }
 
+#ifndef HAVE_STRLCAT
+/* Safe fallback for systems without strlcat */
+size_t strlcat(char *dst, const char *src, size_t size) {
+    size_t dlen = strnlen(dst, size);
+    size_t slen = strlen(src);
+    if (dlen == size) return size + slen;
+    if (slen < size - dlen) {
+        memcpy(dst + dlen, src, slen + 1);
+    } else {
+        memcpy(dst + dlen, src, size - dlen - 1);
+        dst[size - 1] = '\0';
+    }
+    return dlen + slen;
+}
+#endif
+
+
 void do_advance_level(struct char_data *ch, int whichclass, int manual)
 {
-    char featbuf[MAX_STRING_LENGTH] = {'\0'};
-    char buf[MAX_STRING_LENGTH] = {'\0'};
+    char featbuf[MAX_STRING_LENGTH] = "";
+    char buf[MAX_STRING_LENGTH] = "";
+    char tmp[MAX_STRING_LENGTH];
     struct levelup_data *llog;
-    struct damreduct_type * ptr, *reduct, *temp;
-    int add_hp = 0, add_move = 0, add_mana = 0, add_prac = 1, add_ki = 0, add_train, i = 0, q = 0, j = 0, n = 0, m = 0, ranks;
+    struct damreduct_type *ptr = NULL, *reduct = NULL, *temp = NULL;
+    int add_hp = 0, add_move = 0, add_mana = 0, add_prac = 1, add_ki = 0, add_train = 0, i = 0, q = 0, j = 0, n = 0, m = 0, ranks = 0;
     int add_acc = 0, add_fort = 0, add_reflex = 0, add_will = 0;
     int add_gen_feats = 0, add_class_feats = 0;
     int evasion = false, impEvasion = false, impDisarm = false, combatReflexes = false, sneakAttack = false;
@@ -3413,6 +3437,13 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
     int research_sessions = 0;
     int arcane_bonus = 0, divine_bonus = 0;
     int epiclevel = 21;
+
+    (void)evasion;
+    (void)impEvasion;
+    (void)impDisarm;
+    (void)combatReflexes;
+    (void)sneakAttack;
+    (void)layhands;
 
     if (whichclass < 0 || whichclass >= NUM_CLASSES)
     {
@@ -3434,23 +3465,20 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
         SET_SKILL(ch, SKILL_LANG_DRUIDIC, 1);
 
     if (GET_CLASS_LEVEL(ch) == 0)
-    {
         do_start(ch);
-    }
 
-    if ((CAMPAIGN_FORGOTTEN_REALMS == CONFIG_CAMPAIGN ? prestige_classes_core[whichclass] : prestige_classes_dl_aol[whichclass]) ?
-            GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 10 : GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 1) /* Epic character */
-    {
+    if (((CAMPAIGN_FORGOTTEN_REALMS == CONFIG_CAMPAIGN)
+            ? prestige_classes_core[whichclass]
+            : prestige_classes_dl_aol[whichclass])
+            ? GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 10
+            : GET_CLASS_LEVEL(ch) >= LVL_EPICSTART - 1)
         GET_CLASS_EPIC(ch, whichclass)++;
-    }
     else
-    {
         GET_CLASS_NONEPIC(ch, whichclass)++;
-    }
 
     if (GET_CLASS_RANKS(ch, whichclass) > 0)
     {
-        for (m = 0; (n = free_start_feats[GET_CLASS(ch)][m]); m++)
+        for (m = 0; (n = (int)free_start_feats[GET_CLASS(ch)][m]); m++)
         {
             if (!HAS_REAL_FEAT(ch, n))
             {
@@ -3460,13 +3488,17 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
         }
     }
 
-    sprintf(featbuf, "@n");
+    strlcat(featbuf, "@n", sizeof(featbuf));
+
     while (level_feats[i][4] != FEAT_UNDEFINED)
     {
-        if (GET_CLASS(ch) == level_feats[i][0] && level_feats[i][1] == RACE_UNDEFINED && GET_CLASS_RANKS(ch, level_feats[i][0]) >= level_feats[i][3])
+        if (GET_CLASS(ch) == level_feats[i][0] &&
+                level_feats[i][1] == RACE_UNDEFINED &&
+                GET_CLASS_RANKS(ch, level_feats[i][0]) >= level_feats[i][3])
         {
 
-            if (!((!HAS_REAL_FEAT(ch, level_feats[i][4]) && GET_CLASS_RANKS(ch, level_feats[i][0]) > level_feats[i][3] &&
+            if (!((!HAS_REAL_FEAT(ch, level_feats[i][4]) &&
+                    GET_CLASS_RANKS(ch, level_feats[i][0]) > level_feats[i][3] &&
                     GET_CLASS_RANKS(ch, level_feats[i][0]) > 0) ||
                     GET_CLASS_RANKS(ch, level_feats[i][0]) == level_feats[i][3]))
             {
@@ -3474,46 +3506,62 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
                 continue;
             }
 
+            /* ---- SAFE STRING CONCATENATION START ---- */
+
             if (level_feats[i][4] == FEAT_SNEAK_ATTACK)
             {
-                sprintf(featbuf, "%s@YYour sneak attack has increased to +%dd6!@n\r\n", featbuf, HAS_FEAT(ch, FEAT_SNEAK_ATTACK) + 1);
+                snprintf(tmp, sizeof(tmp),
+                         "@YYour sneak attack has increased to +%dd6!@n\r\n",
+                         HAS_FEAT(ch, FEAT_SNEAK_ATTACK) + 1);
+                strlcat(featbuf, tmp, sizeof(featbuf));
             }
+
             else if (level_feats[i][4] == FEAT_WEAPON_FOCUS)
             {
                 if (whichclass == CLASS_FAVORED_SOUL)
                 {
                     SET_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, deity_list[GET_DEITY(ch)].favored_weapon);
-                    sprintf(featbuf, "%s@YYou have gained weapon focus in your deity's favored weapon: %s.@n\r\n", featbuf,
-                            weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+                    snprintf(tmp, sizeof(tmp),
+                             "@YYou have gained weapon focus in your deity's favored weapon: %s.@n\r\n",
+                             weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+                    strlcat(featbuf, tmp, sizeof(featbuf));
                 }
                 else if (whichclass == CLASS_DEATH_MASTER)
                 {
                     SET_COMBAT_FEAT(ch, CFEAT_WEAPON_FOCUS, WEAPON_TYPE_SCYTHE);
-                    sprintf(featbuf, "%s@YYou have gained weapon focus in the scythe.@n\r\n", featbuf);
+                    strlcat(featbuf,
+                            "@YYou have gained weapon focus in the scythe.@n\r\n",
+                            sizeof(featbuf));
                 }
             }
+
             else if (level_feats[i][4] == FEAT_WEAPON_SPECIALIZATION)
             {
                 if (whichclass == CLASS_FAVORED_SOUL)
                 {
                     SET_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, deity_list[GET_DEITY(ch)].favored_weapon);
-                    sprintf(featbuf, "%s@YYou have gained weapon specialization in your deity's favored weapon: %s.@n\r\n", featbuf,
-                            weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+                    snprintf(tmp, sizeof(tmp),
+                             "@YYou have gained weapon specialization in your deity's favored weapon: %s.@n\r\n",
+                             weapon_list[deity_list[GET_DEITY(ch)].favored_weapon].name);
+                    strlcat(featbuf, tmp, sizeof(featbuf));
                 }
                 else if (whichclass == CLASS_DEATH_MASTER)
                 {
                     SET_COMBAT_FEAT(ch, CFEAT_WEAPON_SPECIALIZATION, WEAPON_TYPE_SCYTHE);
-                    sprintf(featbuf, "%s@YYou have gained weapon specialization in the scythe.@n\r\n", featbuf);
+                    strlcat(featbuf,
+                            "@YYou have gained weapon specialization in the scythe.@n\r\n",
+                            sizeof(featbuf));
                 }
             }
+
             else if (level_feats[i][4] == FEAT_DAMAGE_REDUCTION)
             {
                 for (reduct = ch->damreduct; reduct; reduct = reduct->next)
                 {
                     if (reduct->feat == FEAT_DAMAGE_REDUCTION)
-                    {
-                        REMOVE_FROM_LIST(reduct, ch->damreduct, next);
-                    }
+                        {
+                          REMOVE_FROM_LIST(reduct, ch->damreduct, next);
+                        }
                 }
                 CREATE(ptr, struct damreduct_type, 1);
                 ptr->next = ch->damreduct;
@@ -3527,72 +3575,108 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
                     ptr->damstyle[q] = ptr->damstyleval[q] = 0;
                 ptr->damstyle[0] = DR_NONE;
             }
+
             else if (level_feats[i][4] == FEAT_STRENGTH_BOOST)
             {
                 ch->real_abils.str += 2;
-                snprintf(featbuf, sizeof(featbuf), "%s@YYour natural strength has increased by +2!\r\n", featbuf);
+                strlcat(featbuf,
+                        "@YYour natural strength has increased by +2!\r\n",
+                        sizeof(featbuf));
             }
+
             else if (level_feats[i][4] == FEAT_CHARISMA_BOOST)
             {
                 ch->real_abils.cha += 2;
-                snprintf(featbuf, sizeof(featbuf), "%s@YYour natural charisma has increased by +2!\r\n", featbuf);
+                strlcat(featbuf,
+                        "@YYour natural charisma has increased by +2!\r\n",
+                        sizeof(featbuf));
             }
+
             else if (level_feats[i][4] == FEAT_CONSTITUTION_BOOST)
             {
                 ch->real_abils.con += 2;
-                sprintf(featbuf, "%s@YYour natural constitution has increased by +2!\r\n", featbuf);
+                strlcat(featbuf,
+                        "@YYour natural constitution has increased by +2!\r\n",
+                        sizeof(featbuf));
             }
+
             else if (level_feats[i][4] == FEAT_INTELLIGENCE_BOOST)
             {
                 ch->real_abils.intel += 2;
-                sprintf(featbuf, "%s@YYour natural intelligence has increased by +2!\r\n", featbuf);
+                strlcat(featbuf,
+                        "@YYour natural intelligence has increased by +2!\r\n",
+                        sizeof(featbuf));
             }
+
             else if (level_feats[i][4] == FEAT_WINGS)
             {
                 SET_FEAT(ch, FEAT_WINGS, HAS_REAL_FEAT(ch, FEAT_WINGS) + 1);
-                sprintf(featbuf, "%s@YYou have grown a set of %s wings!\r\n", featbuf,
-                        GET_CLASS_RANKS(ch, CLASS_DRAGON_DISCIPLE) ? "draconic" :
-                        (IS_GOOD(ch) ? "feathered" : "batlike"));
+                snprintf(tmp, sizeof(tmp),
+                         "@YYou have grown a set of %s wings!\r\n",
+                         GET_CLASS_RANKS(ch, CLASS_DRAGON_DISCIPLE)
+                         ? "draconic"
+                         : (IS_GOOD(ch) ? "feathered" : "batlike"));
+                strlcat(featbuf, tmp, sizeof(featbuf));
             }
+
             else if (level_feats[i][4] == FEAT_DRAGON_APOTHEOSIS)
             {
-                sprintf(featbuf, "%s@YYour old race has been converted into a half dragon!\r\n", featbuf);
+                strlcat(featbuf,
+                        "@YYour old race has been converted into a half dragon!\r\n",
+                        sizeof(featbuf));
             }
+
             else
             {
-                if (HAS_FEAT(ch, level_feats[i][4]))
-                    sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
-                else
-                    sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
+                snprintf(tmp, sizeof(tmp),
+                         "@YYou have %s your %s class ability!@n\r\n",
+                         HAS_FEAT(ch, level_feats[i][4]) ? "improved" : "gained",
+                         feat_list[level_feats[i][4]].name);
+                strlcat(featbuf, tmp, sizeof(featbuf));
             }
-            SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
+
+            SET_FEAT(ch, level_feats[i][4],
+                     HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
         }
-        else if (level_feats[i][0] == CLASS_UNDEFINED && level_feats[i][1] == GET_RACE(ch) && !HAS_FEAT(ch, level_feats[i][4]))
+
+        else if (level_feats[i][0] == CLASS_UNDEFINED &&
+                 level_feats[i][1] == GET_RACE(ch) &&
+                 !HAS_FEAT(ch, level_feats[i][4]))
         {
+
             if (level_feats[i][2] == TRUE)
             {
                 if (i == FEAT_TWO_WEAPON_FIGHTING && GET_CLASS(ch) == CLASS_RANGER)
-                    //if (!HAS_FEAT(ch, FEAT_RANGER_TWO_WEAPON_STYLE))
                     continue;
             }
-            if (HAS_FEAT(ch, level_feats[i][4]))
-                sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
-            else
-                sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
-            SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
+
+            snprintf(tmp, sizeof(tmp),
+                     "@YYou have %s your %s class ability!@n\r\n",
+                     HAS_FEAT(ch, level_feats[i][4]) ? "improved" : "gained",
+                     feat_list[level_feats[i][4]].name);
+            strlcat(featbuf, tmp, sizeof(featbuf));
+
+            SET_FEAT(ch, level_feats[i][4],
+                     HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
         }
-        else if (GET_CLASS(ch) == level_feats[i][0] && level_feats[i][1] == GET_RACE(ch) && GET_CLASS_RANKS(ch, level_feats[i][0]) == level_feats[i][3])
+
+        else if (GET_CLASS(ch) == level_feats[i][0] &&
+                 level_feats[i][1] == GET_RACE(ch) &&
+                 GET_CLASS_RANKS(ch, level_feats[i][0]) == level_feats[i][3])
         {
-            if (HAS_FEAT(ch, level_feats[i][4]))
-                sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
-            else
-                sprintf(featbuf, "%s@YYou have gained the %s class ability!@n\r\n", featbuf, feat_list[level_feats[i][4]].name);
-            SET_FEAT(ch, level_feats[i][4], HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
+
+            snprintf(tmp, sizeof(tmp),
+                     "@YYou have %s your %s class ability!@n\r\n",
+                     HAS_FEAT(ch, level_feats[i][4]) ? "improved" : "gained",
+                     feat_list[level_feats[i][4]].name);
+            strlcat(featbuf, tmp, sizeof(featbuf));
+
+            SET_FEAT(ch, level_feats[i][4],
+                     HAS_REAL_FEAT(ch, level_feats[i][4]) + 1);
         }
 
         i++;
     }
-
 
     if (whichclass == CLASS_ARTISAN)
     {
@@ -3722,7 +3806,9 @@ void do_advance_level(struct char_data *ch, int whichclass, int manual)
                     {
                         SET_FEAT(ch, epic_level_feats[n][5], HAS_REAL_FEAT(ch, epic_level_feats[n][5]) + epic_level_feats[n][6]);
                     }
-                    sprintf(featbuf, "%s@YYou have improved your %s class ability!@n\r\n", featbuf, feat_list[epic_level_feats[n][5]].name);
+                    snprintf(tmp, sizeof(tmp), "@YYou have improved your %s class ability!@n\r\n", feat_list[epic_level_feats[n][5]].name);
+                    strlcat(featbuf, tmp, sizeof(featbuf));
+
                 }
             }
             n++;
