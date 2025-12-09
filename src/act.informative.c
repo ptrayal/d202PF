@@ -2235,126 +2235,126 @@ char *reduct_desc(struct char_data *victim, struct damreduct_type *reduct)
 }
 
 
-ACMD(do_score)
-{
-    extern  char   *godSelected(struct char_data * ch);
-    extern  char *pc_race_types[NUM_RACES];
-    char    buf[MAX_STRING_LENGTH] = {'\0'};
+// ACMD(do_score)
+// {
+//     extern  char   *godSelected(struct char_data * ch);
+//     extern  char *pc_race_types[NUM_RACES];
+//     char    buf[MAX_STRING_LENGTH] = {'\0'};
 
-    /* struct time_info_data playing_time; */
-    if (IS_NPC(ch))
-    {
-        return;
-    }
-
-
-    sprintf(buf, "\r\n");
+//     /* struct time_info_data playing_time; */
+//     if (IS_NPC(ch))
+//     {
+//         return;
+//     }
 
 
-    sprintf(buf, "%s@CName: @R%s\r\n@n", buf, GET_NAME(ch));
-    sprintf(buf, "%s@CRanks@W: @R%-12s \r\n@CRace@W: @R%-12s@n", buf, class_desc_str(ch, 2, 0), pc_race_types[(int)GET_RACE(ch)]);
-
-    sprintf(buf, "%s\r\n@CMoney: @W[@R%s@W]", buf, change_coins(GET_GOLD(ch)));
-
-    /*  PDH  2/25/99 - god selection code  */
-    sprintf(buf, "%s \r\n@CAlignment: @W[@R%s %s@W]@n @W(@CGod: @R%s@W)@n",
-            buf,
-            (GET_ETHIC(ch) == 0 && GET_ALIGN(ch) == 0) ? "True" :
-            (GET_ETHIC(ch) < 0 ? "Chaotic" : (GET_ETHIC(ch) == 0 ? "Neutral" : "Lawful")),
-            (GET_ALIGN(ch) < 0 ? "Evil" : (GET_ALIGN(ch) == 0 ? "Neutral" : "Good")),
-            deity_list[GET_DEITY(ch)].name);
+//     sprintf(buf, "\r\n");
 
 
-    sprintf(buf, "%s\r\n@CCurrent Hp/Max Hp: @W[@R%5d @W/ @R%5d@W]@n", buf, GET_HIT(ch), GET_MAX_HIT(ch));
-    sprintf(buf, "%s\r\n@CCurrent Mv/Max Mv: @W[@R%5d @W/ @R%5d@W]@n", buf, GET_MOVE(ch), GET_MAX_MOVE(ch));
+//     sprintf(buf, "%s@CName: @R%s\r\n@n", buf, GET_NAME(ch));
+//     sprintf(buf, "%s@CRanks@W: @R%-12s \r\n@CRace@W: @R%-12s@n", buf, class_desc_str(ch, 2, 0), pc_race_types[(int)GET_RACE(ch)]);
 
-    sprintf(buf, "%s\r\n@CRP Experience Factor: @W[@R%5d@W]@n", buf, 100);
+//     sprintf(buf, "%s\r\n@CMoney: @W[@R%s@W]", buf, change_coins(GET_GOLD(ch)));
 
-    // New exp % code by Gicker
-    int int_xp = 0;
-    int int_percent;
-    float percent = 0.0;
-    float xp = 0.0;
+//     /*  PDH  2/25/99 - god selection code  */
+//     sprintf(buf, "%s \r\n@CAlignment: @W[@R%s %s@W]@n @W(@CGod: @R%s@W)@n",
+//             buf,
+//             (GET_ETHIC(ch) == 0 && GET_ALIGN(ch) == 0) ? "True" :
+//             (GET_ETHIC(ch) < 0 ? "Chaotic" : (GET_ETHIC(ch) == 0 ? "Neutral" : "Lawful")),
+//             (GET_ALIGN(ch) < 0 ? "Evil" : (GET_ALIGN(ch) == 0 ? "Neutral" : "Good")),
+//             deity_list[GET_DEITY(ch)].name);
 
-    if (GET_LEVEL(ch) == 1 && race_list[GET_RACE(ch)].level_adjustment)
-    {
-        xp = ((float) GET_EXP(ch)) /
-             ((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)));
-    }
-    else
-    {
-        xp = (((float) GET_EXP(ch)) - ((float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch)))) /
-             (((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)) -
-               (float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch))));
-    }
 
-    xp *= (float) 1000.0;
-    percent = (int) xp % 10;
-    xp /= (float) 10;
-    int_xp = MAX(0, (int) xp);
-    int_percent = MAX(0, MIN((int) percent, 99));
+//     sprintf(buf, "%s\r\n@CCurrent Hp/Max Hp: @W[@R%5d @W/ @R%5d@W]@n", buf, GET_HIT(ch), GET_MAX_HIT(ch));
+//     sprintf(buf, "%s\r\n@CCurrent Mv/Max Mv: @W[@R%5d @W/ @R%5d@W]@n", buf, GET_MOVE(ch), GET_MAX_MOVE(ch));
 
-    sprintf(buf, "%s \r\n@CProgress toward next level: @W[@R%3d.%1d%%@W]@n",
-            buf, int_xp, int_percent);
+//     sprintf(buf, "%s\r\n@CRP Experience Factor: @W[@R%5d@W]@n", buf, 100);
 
-    sprintf(buf, "%s\r\n", buf);
+//     // New exp % code by Gicker
+//     int int_xp = 0;
+//     int int_percent;
+//     float percent = 0.0;
+//     float xp = 0.0;
 
-    /* no need to change anything down here...yet */
-    switch (GET_POS(ch))
-    {
-    case POS_DEAD:
-        strcat(buf, "You are DEAD!\r\n");
-        break;
-    case POS_MORTALLYW:
-        strcat(buf, "You are mortally wounded!  You should seek help!\r\n");
-        break;
-    case POS_INCAP:
-        strcat(buf, "You are incapacitated, slowly fading away...\r\n");
-        break;
-    case POS_STUNNED:
-        strcat(buf, "You are stunned!  You can't move!\r\n");
-        break;
-    case POS_SLEEPING:
-        strcat(buf, "You are sleeping.\r\n");
-        break;
-    case POS_RESTING:
-        strcat(buf, "You are resting.\r\n");
-        break;
-    case POS_SITTING:
-        strcat(buf, "You are sitting.\r\n");
-        break;
-    case POS_FIGHTING:
-        if (FIGHTING(ch))
-        {
-            sprintf(buf + strlen(buf), "You are fighting %s.\r\n", PERS(FIGHTING(ch), ch));
-        }
-        else
-            strcat(buf, "You are fighting thin air.\r\n");
-        break;
-    case POS_STANDING:
-        strcat(buf, "You are standing.\r\n");
-        break;
-    default:
-        strcat(buf, "You are floating.\r\n");
-        break;
-    }
+//     if (GET_LEVEL(ch) == 1 && race_list[GET_RACE(ch)].level_adjustment)
+//     {
+//         xp = ((float) GET_EXP(ch)) /
+//              ((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)));
+//     }
+//     else
+//     {
+//         xp = (((float) GET_EXP(ch)) - ((float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch)))) /
+//              (((float) level_exp((GET_CLASS_LEVEL(ch) + 1), GET_REAL_RACE(ch)) -
+//                (float) level_exp(GET_CLASS_LEVEL(ch), GET_REAL_RACE(ch))));
+//     }
 
-    {
-        int drunkValue  = GET_COND(ch, DRUNK);
+//     xp *= (float) 1000.0;
+//     percent = (int) xp % 10;
+//     xp /= (float) 10;
+//     int_xp = MAX(0, (int) xp);
+//     int_percent = MAX(0, MIN((int) percent, 99));
 
-        if (!IS_NPC(ch))
-        {
-            if (drunkValue > 10)
-                strcat(buf, "You are very intoxicated.\r\n");
-            else if (drunkValue > 8)
-                strcat(buf, "You are intoxicated.\r\n");
-            else if (drunkValue > 5)
-                strcat(buf, "You are beginning to feel intoxicated.\r\n");
-        }
-    }
+//     sprintf(buf, "%s \r\n@CProgress toward next level: @W[@R%3d.%1d%%@W]@n",
+//             buf, int_xp, int_percent);
 
-    send_to_char(ch, "%s", buf);
-}
+//     sprintf(buf, "%s\r\n", buf);
+
+//     /* no need to change anything down here...yet */
+//     switch (GET_POS(ch))
+//     {
+//     case POS_DEAD:
+//         strcat(buf, "You are DEAD!\r\n");
+//         break;
+//     case POS_MORTALLYW:
+//         strcat(buf, "You are mortally wounded!  You should seek help!\r\n");
+//         break;
+//     case POS_INCAP:
+//         strcat(buf, "You are incapacitated, slowly fading away...\r\n");
+//         break;
+//     case POS_STUNNED:
+//         strcat(buf, "You are stunned!  You can't move!\r\n");
+//         break;
+//     case POS_SLEEPING:
+//         strcat(buf, "You are sleeping.\r\n");
+//         break;
+//     case POS_RESTING:
+//         strcat(buf, "You are resting.\r\n");
+//         break;
+//     case POS_SITTING:
+//         strcat(buf, "You are sitting.\r\n");
+//         break;
+//     case POS_FIGHTING:
+//         if (FIGHTING(ch))
+//         {
+//             sprintf(buf + strlen(buf), "You are fighting %s.\r\n", PERS(FIGHTING(ch), ch));
+//         }
+//         else
+//             strcat(buf, "You are fighting thin air.\r\n");
+//         break;
+//     case POS_STANDING:
+//         strcat(buf, "You are standing.\r\n");
+//         break;
+//     default:
+//         strcat(buf, "You are floating.\r\n");
+//         break;
+//     }
+
+//     {
+//         int drunkValue  = GET_COND(ch, DRUNK);
+
+//         if (!IS_NPC(ch))
+//         {
+//             if (drunkValue > 10)
+//                 strcat(buf, "You are very intoxicated.\r\n");
+//             else if (drunkValue > 8)
+//                 strcat(buf, "You are intoxicated.\r\n");
+//             else if (drunkValue > 5)
+//                 strcat(buf, "You are beginning to feel intoxicated.\r\n");
+//         }
+//     }
+
+//     send_to_char(ch, "%s", buf);
+// }
 /* end of new_do_score */
 
 ACMD(do_aod_new_score)
