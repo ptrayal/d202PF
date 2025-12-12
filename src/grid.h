@@ -56,11 +56,13 @@ struct grid_cell
  
 //Prototypes
 void grid_to_char(GRID_DATA *grid, struct char_data *ch, bool destroy );
-void row_to_char( GRID_ROW *row, struct char_data *ch );
+void row_to_char(GRID_ROW *row, struct char_data *ch, bool is_last_row);
+
 void cell_set_linecount( GRID_CELL *cell );
-void cell_append_contents (GRID_CELL *cell, char *fmt, ...);
+void cell_append_contents(GRID_CELL *cell, const char *fmt, ...);
+
 void cell_set_contents (GRID_CELL *cell, char *fmt, ...);
-GRID_CELL * row_append_cell (GRID_ROW *row, int width, char *fmt, ...);
+GRID_CELL * row_append_cell (GRID_ROW *row, int width, const char *fmt, ...);
 void row_remove_cell( GRID_CELL *cell);
 void row_add_cell( GRID_ROW *row, GRID_CELL *cell);
 void grid_remove_row( GRID_ROW *row );

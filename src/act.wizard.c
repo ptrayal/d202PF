@@ -4575,38 +4575,61 @@ ACMD(do_loadcrystal)
   get_random_crystal(ch);
 }
 
+// ACMD(do_test)
+// {
+//     int cls = 0;
+
+//     GRID_DATA *grid;
+//     GRID_ROW *row;
+
+//     grid = create_grid(75);
+//     row = create_row(grid);
+//     // row_append_cell(row, 35, "Base Text[pet_table[0].name]");
+//     // row_append_cell(row, 40, "%s", buf1);
+//     // grid_to_char(grid, ch, TRUE);
+
+//     grid = create_grid(75);
+//     row = create_row(grid);
+//     row_append_cell(row, 5, "#");
+//     row_append_cell(row, 8, "Abbrev");
+//     row_append_cell(row, 20, "Name");
+//     row_append_cell(row, 20, "Type");
+//     // row_append_cell(row, 27, "Prestige");
+//     for (cls = 0; cls < NUM_CLASSES; cls++)
+//     {
+//       row = create_row(grid);
+//       row_append_cell(row, 5, "%d", cls);
+//       row_append_cell(row, 8, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol : class_abbrevs_core)[cls]);
+//       row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
+//       row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[cls]);
+//       // row_append_cell(row, 27, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? prestige_classes_dl_aol : prestige_classes_core)[cls]);
+//     }
+//     grid_to_char(grid, ch, TRUE);
+
+// }
+
 ACMD(do_test)
 {
-    int cls = 0;
-
-    GRID_DATA *grid;
+    GRID_DATA *grid = create_grid(75);
     GRID_ROW *row;
 
-    grid = create_grid(75);
-    row = create_row(grid);
-    // row_append_cell(row, 35, "Base Text[pet_table[0].name]");
-    // row_append_cell(row, 40, "%s", buf1);
-    // grid_to_char(grid, ch, TRUE);
-
-    grid = create_grid(75);
+    // header
     row = create_row(grid);
     row_append_cell(row, 5, "#");
     row_append_cell(row, 8, "Abbrev");
     row_append_cell(row, 20, "Name");
     row_append_cell(row, 20, "Type");
-    // row_append_cell(row, 27, "Prestige");
-    for (cls = 0; cls < NUM_CLASSES; cls++)
-    {
-      row = create_row(grid);
-      row_append_cell(row, 5, "%d", cls);
-      row_append_cell(row, 8, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_abbrevs_dl_aol : class_abbrevs_core)[cls]);
-      row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? class_names_dl_aol : class_names_core)[cls]);
-      row_append_cell(row, 20, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? pc_class_types_dl_aol : pc_class_types_core)[cls]);
-      // row_append_cell(row, 27, "%s", (CONFIG_CAMPAIGN == CAMPAIGN_DRAGONLANCE ? prestige_classes_dl_aol : prestige_classes_core)[cls]);
-    }
-    grid_to_char(grid, ch, TRUE);
 
+    // one data row only
+    row = create_row(grid);
+    row_append_cell(row, 5, "%d", 0);
+    row_append_cell(row, 8, "%s", "Wiz");
+    row_append_cell(row, 20, "%s", "wizard");
+    row_append_cell(row, 20, "%s", "Wizard");
+
+    grid_to_char(grid, ch, TRUE);
 }
+
 
 ACMD(do_feat_dump)
 {

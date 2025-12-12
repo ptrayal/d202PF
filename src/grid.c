@@ -3,13 +3,8 @@
 #include "conf.h"
 #include "sysdep.h"
 
-#if defined(macintosh)
-#include <types.h>
-#include <time.h>
-#else
 #include <sys/types.h>
 #include <sys/time.h>
-#endif
  
 #include <stdio.h>
 #include <string.h>
@@ -19,12 +14,57 @@
 #include "structs.h"
 #include "utils.h"
 #include "grid.h"
+#include "comm.h"
 
 // Change the function declaration at the beginning of the file
 void row_to_char_debug(GRID_ROW *row, struct char_data *ch);
 
 // Add this declaration before the implementation of row_to_char_debug
 void grid_to_char_debug(GRID_DATA *grid, struct char_data *ch, bool destroy);
+
+#define MAX_LINES_PER_CELL 20
+
+/*
+ * Returns how many visible characters (non-color) are in a string.
+ * Example: "@RRed@n" => visible length = 3
+ */
+int visible_strlen(const char *str)
+{
+    int len = 0;
+    for (const char *p = str; *p; p++) {
+        if (*p == '@') {  // start of color code
+            p++;          // skip the code letter
+            continue;
+        }
+        len++;
+    }
+    return len;
+}
+
+/*
+ * Copies up to `visible_limit` visible characters from src into dest.
+ * Color codes are copied but not counted toward the limit.
+ */
+void visible_strncpy(char *dest, const char *src, int visible_limit, size_t dest_size)
+{
+    int visible = 0;
+    const char *p = src;
+    char *d = dest;
+    while (*p && visible < visible_limit && (d - dest) < (int)dest_size - 1)
+    {
+        if (*p == '@') {
+            // Copy color code literally
+            *d++ = *p++;
+            if (*p && (d - dest) < (int)dest_size - 1)
+                *d++ = *p++;
+            continue;
+        }
+        *d++ = *p++;
+        visible++;
+    }
+    *d = '\0';
+}
+
 
  
 //Creation/Destruction
@@ -178,64 +218,66 @@ void cell_set_contents (GRID_CELL *cell, char *fmt, ...)
     sprintf(cell->contents, "%s", buf);
     cell_set_linecount(cell);
 }
+
 //If you already have a cell use this to append to the cells content.
-void cell_append_contents (GRID_CELL *cell, char *fmt, ...)
+void cell_append_contents(GRID_CELL *cell, const char *fmt, ...)
 {
-    char buf[MSL]={'\0'};
+    char buf[MSL];
     va_list args;
-    va_start (args, fmt);
-    vsprintf (buf, fmt, args);
-    va_end (args);
-    strncat(cell->contents, buf, MSL );
+    va_start(args, fmt);
+    vsnprintf(buf, sizeof(buf), fmt, args);
+    va_end(args);
+
+    size_t dest_len = strlen(cell->contents);
+    size_t space_left = (MSL > dest_len) ? (MSL - dest_len - 1) : 0;
+
+    if (space_left > 0)
+        snprintf(cell->contents + dest_len, space_left + 1, "%s", buf);
+
     cell_set_linecount(cell);
 }
+
+
 //IF you don't already have a cell, but you have a row, use this to create a cell with the contents of fmt.
-GRID_CELL * row_append_cell (GRID_ROW *row, int width, char *fmt, ...)
+// helper: set cell contents from existing va_list
+void cell_set_contents_v(GRID_CELL *cell, const char *fmt, va_list args)
 {
-    char buf[MSL]={'\0'};
-    GRID_CELL *cell;
- 
+    vsnprintf(cell->contents, sizeof(cell->contents), fmt, args);
+    cell_set_linecount(cell);
+}
+
+//IF You don't already have a cell, but you have a row, use this to create a cell with the contents of fmt.
+GRID_CELL *row_append_cell(GRID_ROW *row, int width, const char *fmt, ...)
+{
+    GRID_CELL *cell = create_cell(row, width);
     va_list args;
-    va_start (args, fmt);
-    vsprintf (buf, fmt, args);
-    va_end (args);
- 
-    cell = create_cell(row, width);
-    cell_set_contents(cell, buf);
+    va_start(args, fmt);
+    cell_set_contents_v(cell, fmt, args);
+    va_end(args);
+
+    log("DEBUG: Created cell width=%d contents=[%s]", width, cell->contents);
+
     return cell;
 }
+
+
 
 // Low-level line counter
 void cell_set_linecount(GRID_CELL *cell)
 {
-    int count = 0;
-    char *pos = cell->contents;
-    char *last_lr = NULL;  // Initialize last_lr to NULL
-
-    while (*pos)    // Change to loop until end of string
+    int count = 1;  // At least one line
+    for (const char *pos = cell->contents; *pos; pos++)
     {
         if (*pos == '\n')
-        {
-            last_lr = pos;
             count++;
-        }
-        pos++;  // Move this line inside the loop to avoid skipping characters
-    }
-
-    // Remove unnecessary check for null terminator
-    if (last_lr != NULL)
-    {
-        count++;
     }
 
     cell->lines = count;
 
-    // Simplify the max_height update condition
     if (cell->row->max_height < count)
-    {
         cell->row->max_height = count;
-    }
 }
+
 
 //Counts colour codes to display offsets properly
 int count_colour( char *str )
@@ -253,102 +295,129 @@ int count_colour( char *str )
     return count*2;
 }
 
-//Displaying of the Grid
-// void row_to_char( GRID_ROW *row, struct char_data *ch )
-// {   GRID_CELL *cell;
-//     char *** ptrs;
-//     char *tok;
-//     char buf[MSL]={'\0'}, pad_buf[MSL]={'\0'};
-//     int i = 0, n = 0;
-//     int filler = UMIN(0, row->grid->width - row->curr_width - 1 );
-//     int actual_height = row->max_height + ( row->padding_top + row->padding_bottom );
-//     int alloced = 0;
-//     ptrs = calloc(row->columns, sizeof(*ptrs) );
-//     //Explode columns into individual lines.
-//     for( i = 0, cell = row->first_cell ; cell ; cell = cell->next, ++i )
-//     {   int colour_offset = 0, actual_width = cell->width - row->padding_right - row->padding_left - 1;
- 
-//         sprintf(pad_buf,"%*s%-*.*s%*s", row->padding_left, " ", actual_width, actual_width, " ", row->padding_right, " ");
- 
-//         ptrs[i] = calloc(actual_height, sizeof( *ptrs[i] ) );
- 
-//         tok = strtok(cell->contents, "\n");
-//         //Append Padding to Top.
-//         for( n=0; n < row->padding_top ; ++n)
-//             { ptrs[i][n] = strdup(pad_buf); alloced++; }
- 
-//         while(tok)
-//         {   colour_offset = count_colour(tok);
- 
-//             sprintf(buf,"%*s%-*.*s%*s", row->padding_left, " ", actual_width+colour_offset, actual_width+colour_offset, tok, row->padding_right, " ");
-//             ptrs[i][n] = strdup(buf);
-//             tok = strtok(NULL, "\n");
-//             ++n;
-//         }
-//         //Add padding to bottom. This will also fill in any empty rows.     
-//         for( ;n < actual_height; ++n )
-//             ptrs[i][n] = strdup(pad_buf);
-//     }
- 
-//     //Go through the exploded row, and send a line from each column at a time.
- 
- 
-//     for( n = 0; n < actual_height ; ++n )       
-//     {   for( i = 0 ; i < row->columns ; ++i )
-//         {   if( i == 0 )
-//                 send_to_char(ch, "%c", row->grid->border_left );
-//             else
-//                 send_to_char(ch, "%c", row->grid->border_internal );
- 
-//             send_to_char(ch, "%s", ptrs[i][n]);
-//             free(ptrs[i][n]);
-//         }
-//         send_to_char(ch, "%-*c\r\n", filler, row->grid->border_right );
-//     }
-//     for( i = 0; i < row->columns ; ++i )
-//         free(ptrs[i]);
-//     free(ptrs);
- 
-// }
-
-void row_to_char(GRID_ROW *row, struct char_data *ch)
+/*
+ * Converts one row of the grid into formatted text with proper alignment.
+ * Handles wrapping and color codes correctly.
+ */
+void row_to_char(GRID_ROW *row, struct char_data *ch, bool is_last_row)
 {
-    GRID_CELL *cell;
-    char buf[MAX_STRING_LENGTH];
-    int filler = UMIN(0, row->grid->width - row->curr_width - 1);
+    if (!row || !ch)
+        return;
 
-    for (cell = row->first_cell; cell; cell = cell->next)
+    int num_cells = 0;
+    for (GRID_CELL *c = row->first_cell; c; c = c->next)
+        num_cells++;
+
+    if (num_cells == 0)
+        return;
+
+    char wrapped[num_cells][20][MSL]; // up to 20 lines per cell
+    int line_counts[num_cells];
+    memset(wrapped, 0, sizeof(wrapped));
+    memset(line_counts, 0, sizeof(line_counts));
+
+    int i = 0;
+    for (GRID_CELL *cell = row->first_cell; cell; cell = cell->next, i++)
     {
-        sprintf(buf, "Row Content: %s", cell->contents);
-        log("%s", buf);  // Log row content for debugging
+        const char *src = cell->contents;
+        int width = cell->width - 2; // inner width (minus borders)
+        int vis_len = 0;
+        char *dest = wrapped[i][0];
+        const char *p = src;
 
-        send_to_char(ch, "%s", cell->contents);
-        if (cell->next)
-            send_to_char(ch, " ");  // Add a space between cells for better visibility
+        while (*p)
+        {
+            // Handle color codes (copy but don't count)
+            if (*p == '@' && *(p + 1))
+            {
+                *dest++ = *p++;
+                *dest++ = *p++;
+                continue;
+            }
+
+            *dest++ = *p++;
+            vis_len++;
+
+            // Wrap when visible length reaches width
+            if (vis_len >= width)
+            {
+                *dest = '\0';
+                line_counts[i]++;
+                if (line_counts[i] >= 20)
+                    break;
+                dest = wrapped[i][line_counts[i]];
+                vis_len = 0;
+            }
+        }
+
+        if (vis_len > 0 || line_counts[i] == 0)
+        {
+            *dest = '\0';
+            line_counts[i]++;
+        }
     }
-    send_to_char(ch, "%-*c\r\n", filler, row->grid->border_right);
+
+    // Determine how many lines the tallest cell has
+    int max_lines = 0;
+    for (int j = 0; j < num_cells; j++)
+        if (line_counts[j] > max_lines)
+            max_lines = line_counts[j];
+
+    // Print each line of the row
+    for (int line = 0; line < max_lines; line++)
+    {
+        GRID_CELL *cell = row->first_cell;
+
+        send_to_char(ch, "|");
+        for (int c = 0; c < num_cells && cell; c++, cell = cell->next)
+        {
+            const char *text = (line < line_counts[c]) ? wrapped[c][line] : "";
+            char buf[MSL];
+            visible_strncpy(buf, text, cell->width - 2, sizeof(buf));
+
+            int pad = (cell->width - 2) - visible_strlen(buf);
+            send_to_char(ch, " %s%-*s |", buf, pad, "");
+        }
+        send_to_char(ch, "\r\n");
+    }
 }
 
 
-void grid_to_char(GRID_DATA *grid, struct char_data *ch, bool destroy)
+void grid_to_char(GRID_DATA *grid, struct char_data *ch, bool header)
 {
-    GRID_ROW *row;
-    int i;
+    if (!grid || !ch)
+        return;
 
-    send_to_char(ch, "%c", grid->border_corner);
-    for (i = 0; i < grid->width - 1; ++i)
-        send_to_char(ch, "%c", grid->border_top);
-    send_to_char(ch, "%c\r\n", grid->border_corner);
-
-    for (row = grid->first_row; row; row = row->next)
+    // Draw the very top border
+    send_to_char(ch, "+");
+    if (grid->first_row && grid->first_row->first_cell)
     {
-        row_to_char(row, ch);
-        send_to_char(ch, "%c\r\n", grid->border_corner);
+        for (GRID_CELL *cell = grid->first_row->first_cell; cell; cell = cell->next)
+        {
+            for (int j = 0; j < cell->width; j++)
+                send_to_char(ch, "-");
+            send_to_char(ch, "+");
+        }
     }
+    send_to_char(ch, "\r\n");
 
-    if (destroy)
-        destroy_grid(grid);
+    // Print each row followed by its horizontal border
+    for (GRID_ROW *row = grid->first_row; row; row = row->next)
+    {
+        row_to_char(row, ch, (row->next == NULL));
+
+        // draw a horizontal divider *after each row*
+        send_to_char(ch, "+");
+        for (GRID_CELL *cell = row->first_cell; cell; cell = cell->next)
+        {
+            for (int j = 0; j < cell->width; j++)
+                send_to_char(ch, "-");
+            send_to_char(ch, "+");
+        }
+        send_to_char(ch, "\r\n");
+    }
 }
+
 
 
 // Change the function definition for grid_to_char_debug
@@ -391,6 +460,3 @@ void row_to_char_debug(GRID_ROW *row, struct char_data *ch)
         log("%s", cell->contents);
     }
 }
-
-
-
