@@ -2091,11 +2091,11 @@ void list_feats_available(struct char_data *ch, char *arg)
     row_append_cell(row, 35, "Feats");
     if (mode == 2)
     {
-      row_append_cell(row, 40, "Prerequisites");
+      row_append_cell(row, 39, "Prerequisites");
     }
     else
     {
-      row_append_cell(row, 40, "Benefits");
+      row_append_cell(row, 39, "Benefits");
     }
 
 // LIST OF AVAILABLE FEATS
@@ -2113,11 +2113,11 @@ void list_feats_available(struct char_data *ch, char *arg)
         row_append_cell(row, 35, "@W%s@n", feat_list[i].name);
         if (mode == 2) 
         {
-          row_append_cell(row, 40, "%s", feat_list[i].prerequisites);
+          row_append_cell(row, 39, "%s", feat_list[i].prerequisites);
         } 
         else 
         {
-          row_append_cell(row, 40, "%s", feat_list[i].description);
+          row_append_cell(row, 39, "%s", feat_list[i].description);
         } 
     }
   }

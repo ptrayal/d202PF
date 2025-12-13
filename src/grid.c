@@ -311,7 +311,7 @@ void row_to_char(GRID_ROW *row, struct char_data *ch, bool is_last_row)
     if (num_cells == 0)
         return;
 
-    char wrapped[num_cells][20][MSL]; // up to 20 lines per cell
+    char wrapped[num_cells][MAX_LINES_PER_CELL][MSL];
     int line_counts[num_cells];
     memset(wrapped, 0, sizeof(wrapped));
     memset(line_counts, 0, sizeof(line_counts));
@@ -320,32 +320,45 @@ void row_to_char(GRID_ROW *row, struct char_data *ch, bool is_last_row)
     for (GRID_CELL *cell = row->first_cell; cell; cell = cell->next, i++)
     {
         const char *src = cell->contents;
-        int width = cell->width - 2; // inner width (minus borders)
+        int width = cell->width - 2; // inner width
         int vis_len = 0;
-        char *dest = wrapped[i][0];
+        int line = 0;
+        char *dest = wrapped[i][line];
         const char *p = src;
 
         while (*p)
         {
-            // Handle color codes (copy but don't count)
-            if (*p == '@' && *(p + 1))
+            if (*p == '@' && *(p + 1))   // color code, copy both
             {
                 *dest++ = *p++;
                 *dest++ = *p++;
                 continue;
             }
 
+            if (*p == '\n')              // explicit newline
+            {
+                *dest = '\0';
+                line_counts[i]++;
+                if (line_counts[i] >= MAX_LINES_PER_CELL)
+                    break;
+                line = line_counts[i];
+                dest = wrapped[i][line];
+                vis_len = 0;
+                p++;
+                continue;
+            }
+
             *dest++ = *p++;
             vis_len++;
 
-            // Wrap when visible length reaches width
             if (vis_len >= width)
             {
                 *dest = '\0';
                 line_counts[i]++;
-                if (line_counts[i] >= 20)
+                if (line_counts[i] >= MAX_LINES_PER_CELL)
                     break;
-                dest = wrapped[i][line_counts[i]];
+                line = line_counts[i];
+                dest = wrapped[i][line];
                 vis_len = 0;
             }
         }
@@ -357,13 +370,13 @@ void row_to_char(GRID_ROW *row, struct char_data *ch, bool is_last_row)
         }
     }
 
-    // Determine how many lines the tallest cell has
+    // Find tallest cell
     int max_lines = 0;
     for (int j = 0; j < num_cells; j++)
         if (line_counts[j] > max_lines)
             max_lines = line_counts[j];
 
-    // Print each line of the row
+    // Print each wrapped line of the row
     for (int line = 0; line < max_lines; line++)
     {
         GRID_CELL *cell = row->first_cell;
@@ -381,6 +394,7 @@ void row_to_char(GRID_ROW *row, struct char_data *ch, bool is_last_row)
         send_to_char(ch, "\r\n");
     }
 }
+
 
 
 void grid_to_char(GRID_DATA *grid, struct char_data *ch, bool header)
