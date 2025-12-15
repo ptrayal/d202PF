@@ -2654,6 +2654,8 @@ ACMD(do_wizutil)
     {
         switch (subcmd)
         {
+            bool has_aff = FALSE;
+
         case SCMD_REROLL:
             send_to_char(ch, "Rerolled...\r\n");
             roll_real_abils(vict);
@@ -2723,8 +2725,6 @@ ACMD(do_wizutil)
             act("A sudden fireball conjured from nowhere thaws $n!", FALSE, vict, 0, 0, TO_ROOM);
             break;
         case SCMD_UNAFFECT:
-
-            bool has_aff = FALSE;
             for (taeller = 0; taeller < AF_ARRAY_MAX; taeller++)
             {
                 if (AFF_FLAGS(vict)[taeller])
