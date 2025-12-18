@@ -4547,23 +4547,23 @@ ACMD(do_commands)
     int no = 0, i = 0, cmd_num = 0;
     int wizhelp = 0, socials = 0;
     struct char_data *vict;
-    char arg[MAX_INPUT_LENGTH]={'\0'};
+    char arg[MAX_INPUT_LENGTH] = {'\0'};
 
     one_argument(argument, arg);
 
-    if (*arg) 
+    if (*arg)
     {
-        if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)) || IS_NPC(vict)) 
+        if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD)) || IS_NPC(vict))
         {
             send_to_char(ch, "Who is that?\r\n");
             return;
         }
-        if (GET_LEVEL(ch) < GET_LEVEL(vict)) 
+        if (GET_LEVEL(ch) < GET_LEVEL(vict))
         {
             send_to_char(ch, "You can't see the commands of people above your level.\r\n");
             return;
         }
-    } 
+    }
     else
         vict = ch;
 
@@ -4573,12 +4573,62 @@ ACMD(do_commands)
         wizhelp = 1;
 
     send_to_char(ch, "The following %s%s are available to %s:\r\n",
-        wizhelp ? "privileged " : "",
-        socials ? "socials" : "commands",
-        vict == ch ? "you" : GET_NAME(vict));
+                 wizhelp ? "privileged " : "",
+                 socials ? "socials" : "commands",
+                 vict == ch ? "you" : GET_NAME(vict));
 
-/* cmd_num starts at 1, not 0, to remove 'RESERVED' */
-    for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++) 
+    /* cmd_num starts at 1, not 0, to remove 'RESERVED' */
+
+    /* --- If WIZHELP, group by admin level --- */
+    if (wizhelp)
+    {
+        struct
+        {
+            int level;
+            const char *name;
+        } admin_levels[] = {
+            {ADMLVL_IMMORT, "Immortal"},
+            {ADMLVL_BUILDER, "Builder"},
+            {ADMLVL_GOD, "God"},
+            {ADMLVL_ADMIN, "Admin"},
+            {ADMLVL_OWNER, "Owner"},
+            {-1, NULL}};
+
+        for (int l = 0; admin_levels[l].level != -1; l++)
+        {
+            int printed = 0;
+            send_to_char(ch, "\r\n@Y%s Commands:@n\r\n", admin_levels[l].name);
+            for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++)
+            {
+                i = cmd_sort_info[cmd_num];
+
+                if (complete_cmd_info[i].minimum_level < 0 || GET_LEVEL(vict) < complete_cmd_info[i].minimum_level)
+                    continue;
+
+                if (complete_cmd_info[i].minimum_admlevel < 0 || GET_ADMLEVEL(vict) < complete_cmd_info[i].minimum_admlevel)
+                    continue;
+
+                if (complete_cmd_info[i].minimum_admlevel != admin_levels[l].level)
+                    continue;
+
+                if (!check_disabled(&complete_cmd_info[i]))
+                    snprintf(arg, sizeof(arg), "%s", complete_cmd_info[i].command);
+                else
+                    snprintf(arg, sizeof(arg), "(%s)", complete_cmd_info[i].command);
+
+                send_to_char(ch, "%-20s%s", arg, (++printed % 4 == 0) ? "\r\n" : "");
+            }
+
+            if (printed == 0)
+                send_to_char(ch, "  (none)\r\n");
+            else if (printed % 4 != 0)
+                send_to_char(ch, "\r\n");
+        }
+        return;
+    }
+
+    /* --- Original non-wizhelp behavior --- */
+    for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++)
     {
         i = cmd_sort_info[cmd_num];
 
@@ -4596,16 +4646,16 @@ ACMD(do_commands)
 
         if (check_disabled(&complete_cmd_info[i]))
             sprintf(arg, "(%s)", complete_cmd_info[i].command);
-        else  
+        else
             sprintf(arg, "%s", complete_cmd_info[i].command);
 
         send_to_char(ch, "%-20s%s", arg, no++ % 4 == 0 ? "\r\n" : "");
-
     }
 
     if (no % 5 != 1)
         send_to_char(ch, "\r\n");
 }
+
 
 ACMD(do_whois)
 {
