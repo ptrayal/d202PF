@@ -598,475 +598,499 @@ void medit_disp_menu(struct descriptor_data *d)
 
 void medit_parse(struct descriptor_data *d, char *arg)
 {
-  int i = -1;
-  char *oldtext = NULL;
+    int i = -1;
+    char *oldtext = NULL;
 
-  if (OLC_MODE(d) > MEDIT_NUMERICAL_RESPONSE) {
-    i = atoi(arg);
-    if (!*arg || (!isdigit(arg[0]) && ((*arg == '-') && !isdigit(arg[1])))) {
-      write_to_output(d, "Field must be numerical, try again : ");
-      return;
+    if (!d || !OLC_MOB(d))
+    {
+        log("SYSERR: medit_parse() called with invalid descriptor or mob.");
+        return;
     }
-  } else {	/* String response. */
-    if (!genolc_checkstring(d, arg))
-      return;
-  }
-  switch (OLC_MODE(d)) {
-/*-------------------------------------------------------------------*/
-  case MEDIT_CONFIRM_SAVESTRING:
+
+    if (OLC_MODE(d) > MEDIT_NUMERICAL_RESPONSE)
+    {
+        i = atoi(arg);
+        if (!*arg || (!isdigit(arg[0]) && ((*arg == '-') && !isdigit(arg[1]))))
+        {
+            write_to_output(d, "Field must be numerical, try again : ");
+            return;
+        }
+    }
+    else    /* String response. */
+    {
+        if (!genolc_checkstring(d, arg))
+            return;
+    }
+    switch (OLC_MODE(d))
+    {
+    /*-------------------------------------------------------------------*/
+    case MEDIT_CONFIRM_SAVESTRING:
+        /*
+         * Ensure mob has MOB_ISNPC set or things will go pear shaped.
+         */
+        SET_BIT_AR(MOB_FLAGS(OLC_MOB(d)), MOB_ISNPC);
+        switch (*arg)
+        {
+        case 'y':
+        case 'Y':
+            /*
+             * Save the mob in memory and to disk.
+             */
+            medit_save_internally(d);
+            mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
+                   "OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
+            if (CONFIG_OLC_SAVE)
+            {
+                medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
+                write_to_output(d, "Mobile saved to disk.\r\n");
+            }
+            else
+                write_to_output(d, "Mobile saved to memory.\r\n");
+        /* FALL THROUGH */
+        case 'n':
+        case 'N':
+            cleanup_olc(d, CLEANUP_ALL);
+            return;
+        default:
+            write_to_output(d, "Invalid choice!\r\n");
+            write_to_output(d, "Do you wish to save the mobile? : ");
+            return;
+        }
+        break;
+
+    /*-------------------------------------------------------------------*/
+    case MEDIT_MAIN_MENU:
+        i = 0;
+        switch (*arg)
+        {
+        case 'q':
+        case 'Q':
+            if (OLC_VAL(d))   /* Anything been changed? */
+            {
+                write_to_output(d, "Do you wish to save the changes to the mobile? (y/n) : ");
+                OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
+            }
+            else
+                cleanup_olc(d, CLEANUP_ALL);
+            return;
+        case '1':
+            OLC_MODE(d) = MEDIT_SEX;
+            medit_disp_sex(d);
+            return;
+        case '2':
+            OLC_MODE(d) = MEDIT_ALIAS;
+            i--;
+            break;
+        case '3':
+            OLC_MODE(d) = MEDIT_S_DESC;
+            i--;
+            break;
+        case '4':
+            OLC_MODE(d) = MEDIT_L_DESC;
+            i--;
+            break;
+        case '5':
+            OLC_MODE(d) = MEDIT_D_DESC;
+            send_editor_help(d);
+            write_to_output(d, "Enter mob description:\r\n\r\n");
+            if (OLC_MOB(d)->description)
+            {
+                write_to_output(d, "%s", OLC_MOB(d)->description);
+                oldtext = strdup(OLC_MOB(d)->description);
+            }
+            string_write(d, &OLC_MOB(d)->description, MAX_MOB_DESC, 0, oldtext);
+            OLC_VAL(d) = 1;
+            return;
+        case '6':
+            OLC_MODE(d) = MEDIT_LEVEL;
+            i++;
+            break;
+        case '7':
+            OLC_MODE(d) = MEDIT_ALIGNMENT;
+            i++;
+            break;
+        case '8':
+            OLC_MODE(d) = MEDIT_ACCURACY;
+            i++;
+            break;
+        case '9':
+            OLC_MODE(d) = MEDIT_DAMAGE;
+            i++;
+            break;
+        case 'a':
+        case 'A':
+            OLC_MODE(d) = MEDIT_NDD;
+            i++;
+            break;
+        case 'b':
+        case 'B':
+            OLC_MODE(d) = MEDIT_SDD;
+            i++;
+            break;
+
+        case 'c':
+        case 'C':
+            OLC_MODE(d) = MEDIT_NUM_HP_DICE;
+            i++;
+            break;
+
+        case 'd':
+        case 'D':
+            OLC_MODE(d) = MEDIT_MOVE_POINTS;
+            i++;
+            break;
+
+        case 'e':
+        case 'E':
+            OLC_MODE(d) = MEDIT_AC;
+            i++;
+            break;
+
+        case 'f':
+        case 'F':
+            OLC_MODE(d) = MEDIT_EXP;
+            i++;
+            break;
+
+        case 'g':
+        case 'G':
+            OLC_MODE(d) = MEDIT_GOLD;
+            i++;
+            break;
+
+        case 'h':
+        case 'H':
+            OLC_MODE(d) = MEDIT_STRENGTH;
+            i++;
+            break;
+
+        case 'i':
+        case 'I':
+            OLC_MODE(d) = MEDIT_CONSTITUTION;
+            i++;
+            break;
+
+        case 'j':
+        case 'J':
+            OLC_MODE(d) = MEDIT_DEXTERITY;
+            i++;
+            break;
+
+        case 'k':
+        case 'K':
+            OLC_MODE(d) = MEDIT_INTELLIGENCE;
+            i++;
+            break;
+
+        case 'l':
+        case 'L':
+            OLC_MODE(d) = MEDIT_WISDOM;
+            i++;
+            break;
+
+        case 'm':
+        case 'M':
+            OLC_MODE(d) = MEDIT_CHARISMA;
+            i++;
+            break;
+
+
+        case 'n':
+        case 'N':
+            OLC_MODE(d) = MEDIT_POS;
+            medit_disp_positions(d);
+            return;
+        case 'o':
+        case 'O':
+            OLC_MODE(d) = MEDIT_DEFAULT_POS;
+            medit_disp_positions(d);
+            return;
+        case 'p':
+        case 'P':
+            OLC_MODE(d) = MEDIT_ATTACK;
+            medit_disp_attack_types(d);
+            return;
+        case 'r':
+        case 'R':
+            OLC_MODE(d) = MEDIT_NPC_FLAGS;
+            medit_disp_mob_flags(d);
+            return;
+        case 's':
+        case 'S':
+            OLC_MODE(d) = MEDIT_AFF_FLAGS;
+            medit_disp_aff_flags(d);
+            return;
+        case 't':
+        case 'T':
+            OLC_MODE(d) = MEDIT_CLASS;
+            medit_disp_class(d);
+            return;
+        case 'u':
+        case 'U':
+            OLC_MODE(d) = MEDIT_RACE;
+            medit_disp_race(d);
+            return;
+        case 'v':
+        case 'V':
+            OLC_MODE(d) = MEDIT_SPEC_PROC;
+            medit_disp_spec_proc(d);
+            return;
+        case 'w':
+        case 'W':
+            OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
+            dg_script_menu(d);
+            return;
+        case 'x':
+        case 'X':
+            OLC_MODE(d) = MEDIT_SIZE;
+            medit_disp_size(d);
+            return;
+        default:
+            medit_disp_menu(d);
+            return;
+        }
+        if (i == 0)
+            break;
+        else if (i == 1)
+            write_to_output(d, "\r\nEnter new value : ");
+        else if (i == -1)
+            write_to_output(d, "\r\nEnter new text :\r\n] ");
+        else
+            write_to_output(d, "Oops...\r\n");
+        return;
+    /*-------------------------------------------------------------------*/
+    case OLC_SCRIPT_EDIT:
+        if (dg_script_edit_parse(d, arg)) return;
+        break;
+    /*-------------------------------------------------------------------*/
+    case MEDIT_ALIAS:
+        smash_tilde(arg);
+        if (GET_ALIAS(OLC_MOB(d)))
+            free(GET_ALIAS(OLC_MOB(d)));
+        GET_ALIAS(OLC_MOB(d)) = str_udup(arg);
+        break;
+    /*-------------------------------------------------------------------*/
+    case MEDIT_S_DESC:
+        smash_tilde(arg);
+        if (GET_SDESC(OLC_MOB(d)))
+            free(GET_SDESC(OLC_MOB(d)));
+        GET_SDESC(OLC_MOB(d)) = str_udup(arg);
+        break;
+    /*-------------------------------------------------------------------*/
+    case MEDIT_L_DESC:
+        smash_tilde(arg);
+        if (GET_LDESC(OLC_MOB(d)))
+            free(GET_LDESC(OLC_MOB(d)));
+        if (arg && *arg)
+        {
+            char buf[MAX_INPUT_LENGTH] = {'\0'};
+            snprintf(buf, sizeof(buf), "%s\r\n", arg);
+            GET_LDESC(OLC_MOB(d)) = strdup(buf);
+        }
+        else
+            GET_LDESC(OLC_MOB(d)) = strdup("undefined");
+
+        break;
+    /*-------------------------------------------------------------------*/
+    case MEDIT_D_DESC:
+        /*
+         * We should never get here.
+         */
+        cleanup_olc(d, CLEANUP_ALL);
+        mudlog(BRF, ADMLVL_BUILDER, TRUE, "SYSERR: OLC: medit_parse(): Reached D_DESC case!");
+        write_to_output(d, "Oops...\r\n");
+        break;
+    /*-------------------------------------------------------------------*/
+    case MEDIT_NPC_FLAGS:
+        if ((i = atoi(arg)) <= 0)
+            break;
+        else if (i <= NUM_MOB_FLAGS)
+            TOGGLE_BIT_AR(MOB_FLAGS(OLC_MOB(d)), i - 1);
+        medit_disp_mob_flags(d);
+        return;
+    /*-------------------------------------------------------------------*/
+    case MEDIT_AFF_FLAGS:
+        if ((i = atoi(arg)) <= 0)
+            break;
+        else if (i <= NUM_AFF_FLAGS)
+            TOGGLE_BIT_AR(AFF_FLAGS(OLC_MOB(d)), i);
+        /* Remove unwanted bits right away. */
+        REMOVE_BIT_AR(AFF_FLAGS(OLC_MOB(d)),
+                      AFF_CHARM | AFF_POISON | AFF_GROUP | AFF_SLEEP);
+        medit_disp_aff_flags(d);
+        return;
+    /*-------------------------------------------------------------------*/
+
     /*
-     * Ensure mob has MOB_ISNPC set or things will go pear shaped.
+     * Numerical responses.
      */
-    SET_BIT_AR(MOB_FLAGS(OLC_MOB(d)), MOB_ISNPC);
-    switch (*arg) {
-    case 'y':
-    case 'Y':
-      /*
-       * Save the mob in memory and to disk.
-       */
-      medit_save_internally(d);
-      mudlog(CMP, MAX(ADMLVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
-	"OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
-      if (CONFIG_OLC_SAVE) {
-	medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
-	write_to_output(d, "Mobile saved to disk.\r\n");
-      } else
-        write_to_output(d, "Mobile saved to memory.\r\n");
-      /* FALL THROUGH */
-    case 'n':
-    case 'N':
-      cleanup_olc(d, CLEANUP_ALL);
-      return;
+
+    case MEDIT_SEX:
+        GET_SEX(OLC_MOB(d)) = LIMIT(i, 0, NUM_GENDERS - 1);
+        break;
+
+    case MEDIT_ACCURACY:
+        GET_ACCURACY_MOD(OLC_MOB(d)) = LIMIT(i, 0, 50);
+        break;
+
+    case MEDIT_DAMAGE:
+        GET_DAMAGE_MOD(OLC_MOB(d)) = LIMIT(i, 0, 50);
+        break;
+
+    case MEDIT_NDD:
+        GET_NDD(OLC_MOB(d)) = LIMIT(i, 1, 30);
+        break;
+
+    case MEDIT_SDD:
+        GET_SDD(OLC_MOB(d)) = LIMIT(i, 6, 127);
+        break;
+
+    case MEDIT_STRENGTH:
+        GET_STR(OLC_MOB(d)) = LIMIT(i, 3, 99);
+        break;
+
+    case MEDIT_CONSTITUTION:
+        GET_CON(OLC_MOB(d)) = LIMIT(i, 3, 99);
+        break;
+
+    case MEDIT_DEXTERITY:
+        GET_DEX(OLC_MOB(d)) = LIMIT(i, 3, 99);
+        break;
+
+    case MEDIT_INTELLIGENCE:
+        GET_INT(OLC_MOB(d)) = LIMIT(i, 3, 99);
+        break;
+
+    case MEDIT_WISDOM:
+        GET_WIS(OLC_MOB(d)) = LIMIT(i, 3, 99);
+        break;
+
+    case MEDIT_CHARISMA:
+        GET_CHA(OLC_MOB(d)) = LIMIT(i, 3, 99);
+        break;
+
+    case MEDIT_NUM_HP_DICE:
+        GET_MAX_HIT(OLC_MOB(d)) = LIMIT(i, 1, 30000);
+        break;
+
+    case MEDIT_SIZE_HP_DICE:
+        GET_MAX_MANA(OLC_MOB(d)) = LIMIT(i, 4, 1000);
+        break;
+
+    case MEDIT_ADD_HP:
+        GET_MAX_MOVE(OLC_MOB(d)) = LIMIT(i, 0, 30000);
+        break;
+
+    case MEDIT_AC:
+        GET_ARMOR(OLC_MOB(d)) = LIMIT(i, -1000, 1000);
+        break;
+
+    case MEDIT_EXP:
+        GET_EXP(OLC_MOB(d)) = LIMIT(i, 0, MAX_MOB_EXP);
+        break;
+
+    case MEDIT_GOLD:
+        GET_GOLD(OLC_MOB(d)) = LIMIT(i, 0, MAX_MOB_GOLD);
+        break;
+
+    case MEDIT_POS:
+        GET_POS(OLC_MOB(d)) = LIMIT(i, 0, NUM_POSITIONS - 1);
+        break;
+
+    case MEDIT_DEFAULT_POS:
+        GET_DEFAULT_POS(OLC_MOB(d)) = LIMIT(i, 0, NUM_POSITIONS - 1);
+        break;
+
+    case MEDIT_ATTACK:
+        GET_ATTACK(OLC_MOB(d)) = LIMIT(i, 0, NUM_ATTACK_TYPES - 1);
+        break;
+
+    case MEDIT_LEVEL:
+        GET_HITDICE(OLC_MOB(d)) = MIN(MAX(1, i), 70);
+        if (!MOB_FLAGGED(OLC_MOB(d), MOB_CUSTOM_STATS))
+        {
+            GET_MAX_HIT(OLC_MOB(d)) = 0;
+            set_auto_mob_stats(OLC_MOB(d));
+        }
+        break;
+
+    case MEDIT_ALIGNMENT:
+        GET_ALIGNMENT(OLC_MOB(d)) = LIMIT(i, -1000, 1000);
+        break;
+
+    case MEDIT_CLASS:
+        GET_CLASS(OLC_MOB(d)) = LIMIT(i, 0, NUM_CLASSES);
+        break;
+
+    case MEDIT_RACE:
+        if (race_list[i].family == RACE_TYPE_UNDEFINED)
+        {
+            send_to_char(d->character, "That is not a valid race, pleas choose again.\r\n");
+            return;
+        }
+
+        GET_REAL_RACE(OLC_MOB(d)) = LIMIT(i, 0, NUM_RACES);
+        break;
+
+    case MEDIT_SPEC_PROC:
+        if (i == 0)
+        {
+            mob_index[(OLC_MOB(d))->nr].func  = NULL;
+            REMOVE_BIT_AR(MOB_FLAGS(OLC_MOB(d)), MOB_SPEC);
+            break;
+        }
+        ASSIGNMOB(GET_MOB_VNUM(OLC_MOB(d)), get_spec_proc(spec_names[LIMIT(i, MIN_MOB_SPECS, MAX_MOB_SPECS)].name));
+        mob_index[(OLC_MOB(d))->nr].func  = get_spec_proc(spec_names[LIMIT(i, MIN_MOB_SPECS, MAX_MOB_SPECS)].name);
+        SET_BIT_AR(MOB_FLAGS(OLC_MOB(d)), MOB_SPEC);
+        break;
+
+    case MEDIT_SIZE:
+        OLC_MOB(d)->size = LIMIT(i, -1, NUM_SIZES - 1);
+        break;
+
+    case MEDIT_SKIN_DATA0:
+        //     OLC_MOB(d)->mob_specials.skin_data[0] = MAX(0, atoi(arg));
+        //     medit_skin_data(d, 1);
+        OLC_MODE(d) = MEDIT_SKIN_DATA1;
+        return;
+        break;
+    case MEDIT_SKIN_DATA1:
+        //     OLC_MOB(d)->mob_specials.skin_data[1] = MAX(0, atoi(arg));
+        //     medit_skin_data(d, 2);
+        OLC_MODE(d) = MEDIT_SKIN_DATA2;
+        return;
+        break;
+    case MEDIT_SKIN_DATA2:
+        //     OLC_MOB(d)->mob_specials.skin_data[2] = MAX(0, atoi(arg));
+        //     medit_skin_data(d,3);
+        OLC_MODE(d) = MEDIT_SKIN_DATA3;
+        return;
+        break;
+    case MEDIT_SKIN_DATA3:
+        //     OLC_MOB(d)->mob_specials.skin_data[3] = MAX(0, atoi(arg));
+        break;
+
+    /*-------------------------------------------------------------------*/
     default:
-      write_to_output(d, "Invalid choice!\r\n");
-      write_to_output(d, "Do you wish to save the mobile? : ");
-      return;
+        /*
+         * We should never get here.
+         */
+        mudlog(BRF, ADMLVL_BUILDER, TRUE, "SYSERR: OLC: medit_parse(): Reached default case!");
+        write_to_output(d, "Oops...\r\n");
+        cleanup_olc(d, CLEANUP_ALL);
+        break;
+
     }
-    break;
+    /*-------------------------------------------------------------------*/
 
-/*-------------------------------------------------------------------*/
-  case MEDIT_MAIN_MENU:
-    i = 0;
-    switch (*arg) {
-    case 'q':
-    case 'Q':
-      if (OLC_VAL(d)) {	/* Anything been changed? */
-	write_to_output(d, "Do you wish to save the changes to the mobile? (y/n) : ");
-	OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
-      } else
-	cleanup_olc(d, CLEANUP_ALL);
-      return;
-    case '1':
-      OLC_MODE(d) = MEDIT_SEX;
-      medit_disp_sex(d);
-      return;
-    case '2':
-      OLC_MODE(d) = MEDIT_ALIAS;
-      i--;
-      break;
-    case '3':
-      OLC_MODE(d) = MEDIT_S_DESC;
-      i--;
-      break;
-    case '4':
-      OLC_MODE(d) = MEDIT_L_DESC;
-      i--;
-      break;
-    case '5':
-      OLC_MODE(d) = MEDIT_D_DESC;
-      send_editor_help(d);
-      write_to_output(d, "Enter mob description:\r\n\r\n");
-      if (OLC_MOB(d)->description) {
-	write_to_output(d, "%s", OLC_MOB(d)->description);
-	oldtext = strdup(OLC_MOB(d)->description);
-      }
-      string_write(d, &OLC_MOB(d)->description, MAX_MOB_DESC, 0, oldtext);
-      OLC_VAL(d) = 1;
-      return;
-    case '6':
-      OLC_MODE(d) = MEDIT_LEVEL;
-      i++;
-      break;
-    case '7':
-      OLC_MODE(d) = MEDIT_ALIGNMENT;
-      i++;
-      break;
-    case '8':
-      OLC_MODE(d) = MEDIT_ACCURACY;
-      i++;
-      break;
-    case '9':
-      OLC_MODE(d) = MEDIT_DAMAGE;
-      i++;
-      break;
-    case 'a':
-    case 'A':
-      OLC_MODE(d) = MEDIT_NDD;
-      i++;
-      break;
-    case 'b':
-    case 'B':
-      OLC_MODE(d) = MEDIT_SDD;
-      i++;
-      break;
-			
-    case 'c':
-    case 'C':
-      OLC_MODE(d) = MEDIT_NUM_HP_DICE;
-      i++;
-      break;
-
-    case 'd':
-    case 'D':
-      OLC_MODE(d) = MEDIT_MOVE_POINTS;
-      i++;
-      break;
-
-    case 'e':
-    case 'E':
-      OLC_MODE(d) = MEDIT_AC;
-      i++;
-      break;
-
-    case 'f':
-    case 'F':
-      OLC_MODE(d) = MEDIT_EXP;
-      i++;
-      break;
-
-    case 'g':
-    case 'G':
-      OLC_MODE(d) = MEDIT_GOLD;
-      i++;
-      break;
-
-    case 'h':
-    case 'H':
-      OLC_MODE(d) = MEDIT_STRENGTH;
-      i++;
-      break;
-
-    case 'i':
-    case 'I':
-      OLC_MODE(d) = MEDIT_CONSTITUTION;
-      i++;
-      break;
-
-    case 'j':
-    case 'J':
-      OLC_MODE(d) = MEDIT_DEXTERITY;
-      i++;
-      break;
-
-    case 'k':
-    case 'K':
-      OLC_MODE(d) = MEDIT_INTELLIGENCE;
-      i++;
-      break;
-
-    case 'l':
-    case 'L':
-      OLC_MODE(d) = MEDIT_WISDOM;
-      i++;
-      break;
-
-    case 'm':
-    case 'M':
-      OLC_MODE(d) = MEDIT_CHARISMA;
-      i++;
-      break;
-
-
-    case 'n':
-    case 'N':
-      OLC_MODE(d) = MEDIT_POS;
-      medit_disp_positions(d);
-      return;
-    case 'o':
-    case 'O':
-      OLC_MODE(d) = MEDIT_DEFAULT_POS;
-      medit_disp_positions(d);
-      return;
-    case 'p':
-    case 'P':
-      OLC_MODE(d) = MEDIT_ATTACK;
-      medit_disp_attack_types(d);
-      return;
-    case 'r':
-    case 'R':
-      OLC_MODE(d) = MEDIT_NPC_FLAGS;
-      medit_disp_mob_flags(d);
-      return;
-    case 's':
-    case 'S':
-      OLC_MODE(d) = MEDIT_AFF_FLAGS;
-      medit_disp_aff_flags(d);
-      return;
-    case 't':
-    case 'T':
-      OLC_MODE(d) = MEDIT_CLASS;
-      medit_disp_class(d);
-      return;
-    case 'u':
-    case 'U':
-      OLC_MODE(d) = MEDIT_RACE;
-      medit_disp_race(d);
-      return;
-    case 'v':
-    case 'V':
-      OLC_MODE(d) = MEDIT_SPEC_PROC;
-      medit_disp_spec_proc(d);
-      return;
-    case 'w':
-    case 'W':
-      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
-      dg_script_menu(d);
-      return;
-    case 'x':
-    case 'X':
-      OLC_MODE(d) = MEDIT_SIZE;
-      medit_disp_size(d);
-      return;
-    default:
-      medit_disp_menu(d);
-      return;
-    }
-    if (i == 0)
-      break;
-    else if (i == 1)
-      write_to_output(d, "\r\nEnter new value : ");
-    else if (i == -1)
-      write_to_output(d, "\r\nEnter new text :\r\n] ");
-    else
-      write_to_output(d, "Oops...\r\n");
-    return;
-/*-------------------------------------------------------------------*/
-  case OLC_SCRIPT_EDIT:
-    if (dg_script_edit_parse(d, arg)) return;
-    break;
-/*-------------------------------------------------------------------*/
-  case MEDIT_ALIAS:
-    smash_tilde(arg);
-    if (GET_ALIAS(OLC_MOB(d)))
-      free(GET_ALIAS(OLC_MOB(d)));
-    GET_ALIAS(OLC_MOB(d)) = str_udup(arg);
-    break;
-/*-------------------------------------------------------------------*/
-  case MEDIT_S_DESC:
-    smash_tilde(arg);
-    if (GET_SDESC(OLC_MOB(d)))
-      free(GET_SDESC(OLC_MOB(d)));
-    GET_SDESC(OLC_MOB(d)) = str_udup(arg);
-    break;
-/*-------------------------------------------------------------------*/
-  case MEDIT_L_DESC:
-    smash_tilde(arg);
-    if (GET_LDESC(OLC_MOB(d)))
-      free(GET_LDESC(OLC_MOB(d)));
-    if (arg && *arg) {
-      char buf[MAX_INPUT_LENGTH]={'\0'};
-      snprintf(buf, sizeof(buf), "%s\r\n", arg);
-      GET_LDESC(OLC_MOB(d)) = strdup(buf);
-    } else
-      GET_LDESC(OLC_MOB(d)) = strdup("undefined");
-
-    break;
-/*-------------------------------------------------------------------*/
-  case MEDIT_D_DESC:
     /*
-     * We should never get here.
+     * END OF CASE
+     * If we get here, we have probably changed something, and now want to
+     * return to main menu.  Use OLC_VAL as a 'has changed' flag
      */
-    cleanup_olc(d, CLEANUP_ALL);
-    mudlog(BRF, ADMLVL_BUILDER, TRUE, "SYSERR: OLC: medit_parse(): Reached D_DESC case!");
-    write_to_output(d, "Oops...\r\n");
-    break;
-/*-------------------------------------------------------------------*/
-  case MEDIT_NPC_FLAGS:
-    if ((i = atoi(arg)) <= 0)
-      break;
-    else if (i <= NUM_MOB_FLAGS)
-      TOGGLE_BIT_AR(MOB_FLAGS(OLC_MOB(d)), i - 1);
-    medit_disp_mob_flags(d);
-    return;
-/*-------------------------------------------------------------------*/
-  case MEDIT_AFF_FLAGS:
-    if ((i = atoi(arg)) <= 0)
-      break;
-    else if (i <= NUM_AFF_FLAGS)
-      TOGGLE_BIT_AR(AFF_FLAGS(OLC_MOB(d)), i);
-    /* Remove unwanted bits right away. */
-    REMOVE_BIT_AR(AFF_FLAGS(OLC_MOB(d)),
-       AFF_CHARM | AFF_POISON | AFF_GROUP | AFF_SLEEP);
-    medit_disp_aff_flags(d);
-    return;
-/*-------------------------------------------------------------------*/
 
-/*
- * Numerical responses.
- */
-
-  case MEDIT_SEX:
-    GET_SEX(OLC_MOB(d)) = LIMIT(i, 0, NUM_GENDERS - 1);
-    break;
-
-  case MEDIT_ACCURACY:
-    GET_ACCURACY_MOD(OLC_MOB(d)) = LIMIT(i, 0, 50);
-    break;
-
-  case MEDIT_DAMAGE:
-    GET_DAMAGE_MOD(OLC_MOB(d)) = LIMIT(i, 0, 50);
-    break;
-
-  case MEDIT_NDD:
-    GET_NDD(OLC_MOB(d)) = LIMIT(i, 1, 30);
-    break;
-
-  case MEDIT_SDD:
-    GET_SDD(OLC_MOB(d)) = LIMIT(i, 6, 127);
-    break;
-
-  case MEDIT_STRENGTH:
-    GET_STR(OLC_MOB(d)) = LIMIT(i, 3, 99);
-    break;
-
-  case MEDIT_CONSTITUTION:
-    GET_CON(OLC_MOB(d)) = LIMIT(i, 3, 99);
-    break;
-
-  case MEDIT_DEXTERITY:
-    GET_DEX(OLC_MOB(d)) = LIMIT(i, 3, 99);
-    break;
-
-  case MEDIT_INTELLIGENCE:
-    GET_INT(OLC_MOB(d)) = LIMIT(i, 3, 99);
-    break;
-
-  case MEDIT_WISDOM:
-    GET_WIS(OLC_MOB(d)) = LIMIT(i, 3, 99);
-    break;
-
-  case MEDIT_CHARISMA:
-    GET_CHA(OLC_MOB(d)) = LIMIT(i, 3, 99);
-    break;
-
-  case MEDIT_NUM_HP_DICE:
-    GET_MAX_HIT(OLC_MOB(d)) = LIMIT(i, 1, 30000);
-    break;
-
-  case MEDIT_SIZE_HP_DICE:
-    GET_MAX_MANA(OLC_MOB(d)) = LIMIT(i, 4, 1000);
-    break;
-
-  case MEDIT_ADD_HP:
-    GET_MAX_MOVE(OLC_MOB(d)) = LIMIT(i, 0, 30000);
-    break;
-
-  case MEDIT_AC:
-    GET_ARMOR(OLC_MOB(d)) = LIMIT(i, -1000, 1000);
-    break;
-
-  case MEDIT_EXP:
-    GET_EXP(OLC_MOB(d)) = LIMIT(i, 0, MAX_MOB_EXP);
-    break;
-
-  case MEDIT_GOLD:
-    GET_GOLD(OLC_MOB(d)) = LIMIT(i, 0, MAX_MOB_GOLD);
-    break;
-
-  case MEDIT_POS:
-    GET_POS(OLC_MOB(d)) = LIMIT(i, 0, NUM_POSITIONS - 1);
-    break;
-
-  case MEDIT_DEFAULT_POS:
-    GET_DEFAULT_POS(OLC_MOB(d)) = LIMIT(i, 0, NUM_POSITIONS - 1);
-    break;
-
-  case MEDIT_ATTACK:
-    GET_ATTACK(OLC_MOB(d)) = LIMIT(i, 0, NUM_ATTACK_TYPES - 1);
-    break;
-
-  case MEDIT_LEVEL:
-    GET_HITDICE(OLC_MOB(d)) = MIN(MAX(1, i), 70);
-    if (!MOB_FLAGGED(OLC_MOB(d), MOB_CUSTOM_STATS)) {
-      GET_MAX_HIT(OLC_MOB(d)) = 0;
-      set_auto_mob_stats(OLC_MOB(d));
-    }
-    break;
-
-  case MEDIT_ALIGNMENT:
-    GET_ALIGNMENT(OLC_MOB(d)) = LIMIT(i, -1000, 1000);
-    break;
-
-  case MEDIT_CLASS:
-    GET_CLASS(OLC_MOB(d)) = LIMIT(i, 0, NUM_CLASSES);
-    break;
-
-  case MEDIT_RACE:
-    if (race_list[i].family == RACE_TYPE_UNDEFINED) {
-      send_to_char(d->character, "That is not a valid race, pleas choose again.\r\n");
-      return;
-    }
-    
-    GET_REAL_RACE(OLC_MOB(d)) = LIMIT(i, 0, NUM_RACES);
-    break;
-
-  case MEDIT_SPEC_PROC:
-    if (i == 0) {
-      mob_index[(OLC_MOB(d))->nr].func  = NULL;
-      REMOVE_BIT_AR(MOB_FLAGS(OLC_MOB(d)), MOB_SPEC);
-      break;
-    }
-    ASSIGNMOB(GET_MOB_VNUM(OLC_MOB(d)), get_spec_proc(spec_names[LIMIT(i, MIN_MOB_SPECS, MAX_MOB_SPECS)].name));
-    mob_index[(OLC_MOB(d))->nr].func  = get_spec_proc(spec_names[LIMIT(i, MIN_MOB_SPECS, MAX_MOB_SPECS)].name);
-    SET_BIT_AR(MOB_FLAGS(OLC_MOB(d)), MOB_SPEC);
-    break;
-
-  case MEDIT_SIZE:
-    OLC_MOB(d)->size = LIMIT(i, -1, NUM_SIZES - 1);
-    break;
-
-  case MEDIT_SKIN_DATA0:  
-//     OLC_MOB(d)->mob_specials.skin_data[0] = MAX(0, atoi(arg));
-//     medit_skin_data(d, 1);
-     OLC_MODE(d) = MEDIT_SKIN_DATA1;
-     return;
-     break;
-   case MEDIT_SKIN_DATA1:  
-//     OLC_MOB(d)->mob_specials.skin_data[1] = MAX(0, atoi(arg));
-//     medit_skin_data(d, 2);
-     OLC_MODE(d) = MEDIT_SKIN_DATA2;
-     return;
-     break;
-   case MEDIT_SKIN_DATA2:  
-//     OLC_MOB(d)->mob_specials.skin_data[2] = MAX(0, atoi(arg));
-//     medit_skin_data(d,3);
-     OLC_MODE(d) = MEDIT_SKIN_DATA3;
-     return;
-     break;
-   case MEDIT_SKIN_DATA3:  
-//     OLC_MOB(d)->mob_specials.skin_data[3] = MAX(0, atoi(arg));
-     break;	
-	
-/*-------------------------------------------------------------------*/
-  default:
-    /*
-     * We should never get here.
-     */
-    cleanup_olc(d, CLEANUP_ALL);
-    mudlog(BRF, ADMLVL_BUILDER, TRUE, "SYSERR: OLC: medit_parse(): Reached default case!");
-    write_to_output(d, "Oops...\r\n");
-    break;
-  }
-/*-------------------------------------------------------------------*/
-
-/*
- * END OF CASE 
- * If we get here, we have probably changed something, and now want to
- * return to main menu.  Use OLC_VAL as a 'has changed' flag  
- */
-
-  OLC_VAL(d) = TRUE;
-  medit_disp_menu(d);
+    OLC_VAL(d) = TRUE;
+    medit_disp_menu(d);
 }
 
 void medit_string_cleanup(struct descriptor_data *d, int terminator)
